@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['farm', 'pets', 'zoo', 'birds', 'insects', 'ocean', 'dinosaurs'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 212) --
+
+  uniqueAngle: 'Dyretematiske arbejdsark indtager en enestående position i tidlig pædagogik, fordi de udnytter det, udviklingspsykologer kalder biofili — menneskets medfødte tilknytning til andre levende organismer. I modsætning til abstrakte temaer som former eller tal giver dyr et konkret, følelsesmæssigt resonant stillads, der forvandler enhver faglig opgave til en opdagelsesrejse. Et barn der tæller ben på en edderkop, øver samtidig aritmetik og absorberer en lektion i invertebraters biologi. En elev der sporer ordet elefant, opbygger bogstavformningsfærdigheder, mens vedkommende internaliserer morfologisk bevidsthed om længere, flerstævelsesordforråd. Denne dobbeltkanals læring — faglig færdighed plus naturvidenskabeligt indhold — er det, der gør dyrearbejdsark pædagogisk distinkte fra næsten alle andre tilgængelige temaer. Dyreriget tilbyder også uovertruffen taksonomisk bredde: pattedyr, fugle, krybdyr, padder, fisk og insekter præsenterer hver især forskellige visuelle profiler, bevægelsesmønstre og levestedsassociationer, der holder temaet friskt over måneders undervisning, uden at noget enkelt arbejdsark føles gentagende. Klassifikationsaktiviteter med dyr udvikler den hierarkiske tænkning, der underbygger både naturvidenskabelig undersøgelse og matematisk ræsonnement, når børn lærer at sortere efter én egenskab, derefter to og til sidst skaber indlejrede kategorier, der afspejler strukturen i formel taksonomi. Desuden fungerer dyr som en universel kulturel bro. Uanset sproglig baggrund, geografisk oprindelse eller socioøkonomisk kontekst genkender og reagerer stort set alle børn på billeder af hunde, katte, fugle og fisk. Denne universalitet gør dyrearbejdsark særligt effektive i sprogligt mangfoldige klasseværelser i den danske folkeskole, hvor fælles referencepunkter er essentielle for inkluderende undervisning. Det følelsesmæssige engagement, dyr genererer, reducerer også matematikangst og skrivemodstand — to almindelige barrierer for læring i de tidlige klassetrin — fordi børn opfatter dyrearbejdsark som leg snarere end arbejde, selv når det faglige indhold er ægte krævende.',
+
+  researchCitation: 'Sjøberg, S. (2019). Naturfag som allmenndannelse: En kritisk fagdidaktikk. Gyldendal Akademisk, Universitetet i Oslo. Sjøberg dokumenterede gennem omfattende skandinavisk forskning, at børns medfødte nysgerrighed over for dyr og naturverdenen er en af de mest kraftfulde motivationsfaktorer i naturfagsundervisningen. Hans studier viste, at elever der møder naturvidenskabeligt indhold gennem konkrete, livsnære kontekster som dyr og deres levesteder, udvikler dybere begrebsforståelse og mere vedvarende interesse for naturfag end elever der præsenteres for abstrakte begreber isoleret. Denne effekt var særligt udtalt blandt yngre elever i førskole til 3. klasse, hvor dyrekonteksten fungerede som en bro mellem hverdagserfaring og formel naturvidenskabelig tænkning.',
+
+  snippetDefinition: 'Dyrearbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af virkelige og velkendte væsener — som hunde, elefanter, sommerfugle og fisk — til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, ordsøgninger, farvelægningssider, mønsteraktiviteter og sorteringsudfordringer, der udnytter børns naturlige fascination af dyr til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt underemne for ugen, som havdyr, bondegårdsdyr eller insekter, for at give dine lektioner en fokuseret fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning til læsning og en farvelægningsside til finmotorisk udvikling.',
+    'Introducer dyreunderemnet med en kort højtlæsning eller et videoklip, så børnene har baggrundsviden, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling eller ordpuslespil.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor mange ben har dette dyr og hvor tror du dette dyr lever for at uddybe naturvidenskabelig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner én ny ting, de lærte om de fremhævede dyr, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige arbejdsark i en portfolio-mappe for at spore færdighedsudvikling over tid og vise forældre konkret bevis på fremgang under samtaler.',
+  ],
+
+  limitations: 'Dyrearbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Nogle børn har ægte fobier over for bestemte dyr — edderkopper, slanger og hunde er blandt de mest almindelige barndomsfrygt — og det at møde disse billeder på arbejdsark kan udløse angst, der underminerer læring. Derudover har visse kulturelle og religiøse traditioner specifikke følsomheder omkring bestemte dyr, så lærere i mangfoldige danske klasseværelser bør gennemse arbejdsarksindhold og tilbyde alternativer, når det er nødvendigt. Endelig, mens dyr er fremragende til at undervise i klassifikation og tælling, er de mindre naturligt egnede til abstrakte matematiske begreber som pladsværdi eller brøker, hvor temaer med genstande eller fødevarer kan give mere intuitive visuelle modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'farm',
+      summary: 'Bondegårdsarbejdsark fokuserer på domesticerede landbrugsdyr og forbinder naturligt til temaer om fødevareproduktion, landliv og årstidscyklusser. Dyrearbejdsark kaster et bredere net over vilde arter, hvilket gør dem stærkere til naturvidenskabsorienteret klassifikation og biodiversitetsundersøgelse, men mindre egnede til lektioner om landbrug og samfundshjælpere.',
+    },
+    {
+      vsThemeId: 'pets',
+      summary: 'Mens begge temaer fremhæver skabninger, børn elsker, dækker dyrearbejdsark hele dyrerigets bredde — vilde, marine, luftbårne og mikroskopiske — hvilket gør dem ideelle til klassifikation og biodiversitetslektioner. Kæledyrsarbejdsark indsnævrer fokus til husdyr og bytter taksonomisk rækkevidde for dybere personlig forbindelse og social-emotionel læring om ansvar og omsorg.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Dyrearbejdsark præsenterer væsener i deres naturlige levesteder og opmuntrer børn til at tænke over økosystemer, fødekæder og tilpasning. Zoo-arbejdsark rammer de samme dyr inden for et struktureret menneskeligt miljø, hvilket fungerer godt til lektioner om samfundsinstitutioner, kort og guidet observation, men tilbyder mindre rum for økologisk ræsonnement.',
+    },
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurarbejdsark udnytter ærefrygten ved forhistoriske skabninger og passer godt til lektioner om palæontologi, uddøen og geologisk tid. Dyrearbejdsark fokuserer på levende arter, børn kan observere direkte, hvilket understøtter hands-on undersøgelse og virkelighedsforbindelser, som dinosaurindhold ikke kan tilbyde. Tilsammen giver de to temaer et kraftfuldt før-og-efter-perspektiv på livet på Jorden.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'dyr farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores dyr farvelægningssider på detaljerede illustrationer af pattedyr, fugle og krybdyr, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med arter, de vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'dyr tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores dyr tælleaktiviteter flere arter ud over en travl scene og beder børnene om at optælle hver type, hvilket opbygger både talforståelse og observationsfærdigheder i en enkelt engagerende øvelse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'dyr ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter levested- og artsbetegnelser i vores dyr ordsøgning printbar sider, der indlejrer naturvidenskabeligt sprog som pattedyr, planteæder og rovdyr i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'dyr matchningsopgaver',
+      context: 'Vores dyr matchningsopgaver parrer skabninger med deres levesteder, kost eller silhuetter og udfordrer børn til at anvende klassifikationsviden, mens de udvikler de visuelle skelneevner, der understøtter både læseparathed og naturvidenskabelig observation.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'dyr sorteringsøvelser',
+      context: 'For at opbygge den hierarkiske tænkning der underbygger naturvidenskabelig klassifikation, lader vores dyr sorteringsøvelser børn gruppere dyr efter antal ben, kropsbedækning, levested eller kost, med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i 1. klasse bemærker, at flere elever kæmper med addition, når opgaverne kun bruger abstrakte symboler.',
+      solution: 'Hun introducerer dyretematiske billedadditionsarbejdsark, hvor børn tæller grupper af hvalpe og killinger for at danne talhandlinger. De visuelle ankre hjælper eleverne med at forbinde mængder med symboler.',
+      outcome: 'Inden for to uger kan de kæmpende elever selvstændigt løse additionsopgaver inden for 10. Tre elever der tidligere var uengagerede, anmoder nu frivilligt om ekstra arbejdsark i deres fritid.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et børnehaveklassebarn, finder at barnet modstår enhver struktureret læringsaktivitet og kun vil lege med legetøjsdyr.',
+      solution: 'Forælderen printer dyr-matchnings- og skyggematchningsarbejdsark og præsenterer dem som et spil: kan du hjælpe disse dyr med at finde deres skygger. Arbejdsarkene bliver en forlængelse af fantasileg frem for en separat opgave.',
+      outcome: 'Barnet gennemfører tre til fire arbejdsark per session uden modstand. Finmotoriske færdigheder forbedres synligt inden for en måned, og barnet begynder at bede om dyreskole som en del af den daglige rutine.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse ønsker at introducere formelle klassifikationssystemer, men finder at lærebogsmaterialet er for abstrakt for mange elever.',
+      solution: 'Læreren bruger dyresorteringsøvelser hvor eleverne fysisk flytter dyrekort mellem kategorier som hvirveldyr og hvirvelløse dyr, pattedyr og krybdyr. Hver sorteringsrunde efterfølges af et arbejdsark der dokumenterer klassifikationsresultaterne skriftligt.',
+      outcome: 'Elevernes forståelse af biologisk klassifikation stiger markant, og på klasseprøven kan 85 procent korrekt klassificere dyr efter multiple egenskaber. Elever der normalt kæmper med abstrakte begreber, viser særlig stor fremgang takket være de konkrete dyrekontekster.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver flere indgangspunkter for børn, der lærer bedst gennem billeder frem for tekst. Billedsortering og find-og-tæl-øvelser tilbyder rige visuelle stimuli.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske dyrefigurer. Lad børnene placere figurerne på arbejdsarket for at løse opgaver, før de skriver svar, så der bygges bro mellem håndfaste manipulationer og papirbaseret læring. Sorteringsøvelser med fysiske kort supplerer de skriftlige arbejdsark.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl og matchning, før I introducerer ordbaserede aktiviteter. Dyreordforråd er ofte blandt de første ord, tosprogede elever lærer, hvilket gør dette tema til en fremragende bro til læseopgaver. Tillad navngivning af dyr på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der bruger dyredata, eller lad dem oprette deres egne dyretematiske arbejdsark til klassekammerater. Billedkrydsord og ordsøgninger med fagligt naturvidenskabeligt ordforråd tilbyder justerbar sværhedsgrad til højere niveaus ordforrådsarbejde.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Dyrearbejdsark forbinder naturligt til naturfagsmål i Fælles Mål. Sortering af dyr efter levested, kost eller kropsbedækning styrker klassifikationsfærdigheder, der er centrale for naturvidenskabelig undersøgelse og den tidlige naturfagsundervisning.',
+      activity: 'Efter et dyresorteringsarbejdsark undersøger eleverne ét dyr fra hver levestedsgruppe og præsenterer to fakta for klassen, hvilket forbinder arbejdsarksklassifikation med ægte forskningskommunikation.',
+    },
+    {
+      subject: 'Geografi',
+      connection: 'Forskellige dyr lever på forskellige kontinenter, hvilket skaber en naturlig bro mellem zoologi og verdensgeografi. Børn begynder at associere regioner med deres karakteristiske dyreliv og forstå, hvorfor bestemte dyr lever bestemte steder.',
+      activity: 'Brug et verdenskort sammen med dyrearbejdsark. Efter identifikation af hvert dyr placerer eleverne et klistermærke på det kontinent, hvor dyret lever, og opbygger gradvist et klassebaseret biogeografisk kort.',
+    },
+    {
+      subject: 'Kunst',
+      connection: 'Dyrefarvelægnings- og tegnearbejdsark udvikler finmotoriske færdigheder og kunstnerisk udtryk samtidigt. Børn lærer at observere proportioner, mønstre og detaljer i dyreformer, hvilket styrker den visuelle opmærksomhed der understøtter både læsning og naturvidenskabelig observation.',
+      activity: 'Efter at have farvelagt et dyrearbejdsark skaber eleverne en original dyretegning med de samme teknikker og skriver derefter én sætning der beskriver deres kreation, hvilket forbinder kunstnerisk udtryk med skriftlig kommunikation.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: tælling, sortering, ordpuslespil og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, klassifikationsevne, ordforrådsudvidelse og finmotorisk kontrol.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste',
+      criteria: 'Mens eleverne arbejder med dyresorteringsarbejdsark, notér om de kan klassificere efter én egenskab (førskole), to egenskaber (børnehaveklasse) eller oprette deres egne kategorier (1. klasse og op). Registrer også ordforrådsanvendelse og samarbejdsadfærd.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Transfertest uden tema',
+      criteria: 'Efter gennemførelse af et sæt dyrematematik-arbejdsark giv eleverne tre hurtige opgaver uden billeder for at tjekke, om de kan overføre færdigheder fra tematisk til abstrakt kontekst. Sammenlign resultater med de temabaserede arbejdsark for at vurdere, i hvilken grad dyrekonteksten fungerer som stillads versus krykke.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug dyreklassifikation som bro til matematisk mængdelære. Når børn sorterer dyr efter levested, kost eller kropsbedækning, øver de de samme logiske operationer — forening, fællesmængde, delmængde — der underbygger formel matematik. Denne forbindelse mellem naturfag og matematik styrker begge fag samtidigt.',
+      source: 'Fælles Mål for matematik — tværfaglige kompetencer i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Introducer dyreordforråd gennem multisensoriske kanaler. Lad børn spore dyrenavne i sand mens de siger hvert bogstav, match derefter det skrevne ord med et fotografi. Denne triple indkodning — kinæstetisk, auditiv, visuel — forbedrer dramatisk fastholdelsen for tidlige læsere og er særligt effektiv for tosprogede elever.',
+      source: 'Orton-Gillingham multisensorisk tilgang tilpasset skandinavisk kontekst',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt den følelsesmæssige kraft i dyretemaer til at opbygge en vækstmentalitet. Når børn ser, at dyreunger skal øve færdigheder som at gå og jage, internaliserer de budskabet om, at kamp er en naturlig del af læring, hvilket reducerer frygten for faglig fiasko og styrker vedholdenhed.',
+      source: 'Sjøberg, S., Universitetet i Oslo — motivation og nysgerrighed i naturfagsundervisning',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Unikke dyreillustrationer', value: '200+' },
+  ],
 };
 
 registerThemeContent('animals', 'da', content);

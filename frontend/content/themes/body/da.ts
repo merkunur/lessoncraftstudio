@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['clothing', 'food', 'emotions', 'sports', 'household'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 212) --
+
+  uniqueAngle: 'Kroptematiske arbejdsark indtager en helt unik position i tidlig pædagogik, fordi de handler om det emne, der er mest intimt og umiddelbart tilgængeligt for ethvert barn: deres egen krop. Ingen anden tematisk kategori har denne iboende selvreference — når et barn farvelægger en hånd på et arbejdsark, kan det holde sin egen hånd op som reference, og når det lærer om de fem sanser, kan det øjeblikkeligt teste og verificere informationen med sin egen krop. Denne direkte, verificerbare forbindelse mellem arbejdsarkets indhold og barnets levede erfaring skaber en læringsoplevelse, der er fundamentalt anderledes end temaer om fjerne dyr eller abstrakte begreber. Kropstemaet har en unik tværfaglig kraft, fordi menneskekroppen naturligt integrerer naturfag gennem anatomi og fysiologi, matematik gennem symmetri og tælling af kropsdele, sproglig udvikling gennem det rige anatomiordforråd, og sundhedsundervisning gennem hygiejne og ernæring. I den danske folkeskoles Fælles Mål spænder kropstemaet over kompetenceområder i naturfag, sundhed, idræt og dansk, hvilket gør det til et af de mest effektive tværfaglige emner for tidlig undervisning. Derudover understøtter kropsbevidsthed barnets identitetsudvikling — at lære om sin krop er at lære om sig selv, hvilket styrker selvopfattelse, kropspositivitet og personlig autonomi. For børn med forskellige fysiske evner tilbyder kropstemaet en naturlig anledning til at diskutere mangfoldighed og inklusion, og for tosprogede elever er kropsdelene ofte blandt de første ord, der læres på et nyt sprog, fordi de kan peges ud og demonstreres direkte.',
+
+  researchCitation: 'Hedegaard, M. (2012). Analyzing Children\'s Learning and Development in Everyday Settings. Mind, Culture, and Activity, 19(2), 127–138. Københavns Universitet. Hedegaard dokumenterede gennem sin forskning i kulturhistorisk aktivitetsteori, at børns kropsbevidsthed og identitetsudvikling er dybt sammenvævet med deres kognitive og sociale udvikling. Hendes studier i danske børnehaver og skoler viste, at aktiviteter der engagerer børn kropsligt — som at navngive, tegne og diskutere deres kropsdele — styrker både den kognitive selvopfattelse og den sociale forståelse af forskelle mellem mennesker, og at denne kropsbaserede selvbevidsthed er et fundament for den personlige og sociale udvikling, som Fælles Mål prioriterer.',
+
+  snippetDefinition: 'Kropsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af menneskekroppen, kropsdele, sanser og bevægelse til at undervise i anatomi, matematik, ordforråd og sundhed. Designet til børn i alderen 3 til 9 inkluderer de kropsdele-mærkning, tælleøvelser med fingre og tæer, sansematchningsaktiviteter og symmetriopgaver, der udnytter barnets direkte erfaring med sin egen krop som det ultimative læringsredskab.',
+
+  snippetHowTo: [
+    'Vælg et kropsfokus for sessionen, som de fem sanser, ansigtets dele, hænder og fødder eller kroppens symmetri, for at give aktiviteten en sammenhængende tematisk ramme.',
+    'Start med et farvelægnings- eller tegnearbejdsark af en kropskonturer, hvor barnet farvelægger og mærker de dele, det allerede kender, som en uformel forprøve af eksisterende viden.',
+    'Introducer et matchningsarbejdsark der parrer kropsdele med deres funktioner, så barnet opbygger forbindelsen mellem anatomi og fysiologi i en visuelt tilgængelig kontekst.',
+    'Tilføj et matematisk element med et tællearbejdsark der bruger fingre, tæer eller sanseorganer som tællere, så aritmetik forankres i barnets egen krop.',
+    'Inkluder en skrivekomponent med et skrivearbejdsark eller ordforvirring der fokuserer på kropsordforråd, så barnet øver stavning af ord det kan pege på og verificere i virkeligheden.',
+    'Afslut med en praktisk aktivitet: lad barnet tegne sin egen krop i fuld størrelse på rullepapir og mærke alle de dele, det har lært om, som en kreativ sammenfatning af sessionens læring.',
+    'Forstærk læringen med daglige kropsbevidsthedsmomenter: under håndvask navngiv fingerledende, under påklædning tal om kropsdelene, under spisning diskuter hvad maden gør for kroppen.',
+  ],
+
+  limitations: 'Kropsarbejdsark kræver følsomhed i visse situationer. Nogle børn kan føle sig ukomfortable med at fokusere på kroppen, især hvis de har kropsrelaterede usikkerheder eller har oplevet traumatiske oplevelser. Lærere bør skabe et trygt miljø og aldrig tvinge børn til at dele personlige kropsrelaterede oplevelser. For børn med fysiske handicap bør arbejdsark tilpasses, så de afspejler mangfoldighed i kropstyper og evner. Fagligt er kropstemaet stærkest for naturfag, ordforråd og grundlæggende tælling, men mindre naturligt egnet til avanceret matematik som multiplikation eller brøker. Visse anatomiemner som fordøjelse og forplantning kræver aldersdifferentiering og forældrekommunikation for at sikre, at indholdet matcher familiens værdier.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'sports',
+      summary: 'Sportsarbejdsark fokuserer på fysisk aktivitet, konkurrence og teamwork i en social kontekst. Kropsarbejdsark dykker dybere ned i anatomien bag bevægelse — musklerne der driver løb, ledene der muliggør kast, og lungerne der leverer ilt. Sammen giver de to temaer en komplet forbindelse mellem kroppens form og funktion.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Følelsesarbejdsark fokuserer på at identificere, navngive og håndtere indre tilstande. Kropsarbejdsark forbinder disse følelser til fysiske oplevelser — sommerfugle i maven, rødmen i kinderne, hurtig hjerterytme ved spænding. Denne forbindelse mellem krop og sind styrker emotionel intelligens gennem kropslig bevidsthed.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark udforsker ernæring, madlavning og måltidstraditioner. Kropsarbejdsark viser, hvad maden gør inde i kroppen — fordøjelsessystemet der nedbryder mad, musklerne der bruger energien, og knoglerne der styrkes af calcium. Sammen bygger de en komplet forståelse af ernæringens rolle for kroppens sundhed.',
+    },
+    {
+      vsThemeId: 'clothing',
+      summary: 'Tøjarbejdsark fokuserer på beklædningsgenstandenes navne, sæsonbrug og social funktion. Kropsarbejdsark fokuserer på det, tøjet dækker, og giver anatomisk kontekst for, hvorfor vi bærer bestemte beklædningsgenstande på bestemte kropsdele. Matchningsaktiviteter der parrer tøj med kropsdele bygger bro mellem de to temaer.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'matching-app',
+      anchorText: 'kropsdele matchningsopgaver',
+      context: 'Vores kropsdele matchningsopgaver parrer kropsdele med deres funktioner, sanser med deres organer og store billeder med detaljerede forstørrelser, og opbygger den anatomiske viden der understøtter naturfagsundervisningen i Fælles Mål.',
+    },
+    {
+      appId: 'coloring',
+      anchorText: 'krop farvelægningssider',
+      context: 'For en afslappet introduktion til anatomi byder vores krop farvelægningssider på klare kropskonturer med mærkbare dele, der udvikler finmotorisk kontrol og kropsordforråd samtidigt, mens barnet farvelægger organer og kropsdele.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'krop ordsøgning printbar',
+      context: 'Anatomiordforrådet udvides, når børn jager efter kropsrelaterede begreber som skelet, muskel, hjerte og lunge i vores krop ordsøgning printbar sider, der gør medicinsk og naturvidenskabeligt ordforråd tilgængeligt og sjovt.',
+    },
+    {
+      appId: 'missing-pieces',
+      anchorText: 'manglende kropsdele puslespil',
+      context: 'Vores manglende kropsdele puslespil udfordrer børn til at identificere, hvilke dele der mangler på en kropstegning, hvilket styrker anatomisk viden, visuel opmærksomhed og helhedsforståelse af menneskekroppens opbygning.',
+    },
+    {
+      appId: 'drawing-lines',
+      anchorText: 'krop tegne-linjer aktiviteter',
+      context: 'Med vores krop tegne-linjer aktiviteter forbinder børn kropsdele med deres navne, funktioner eller matchende par, hvilket opbygger anatomisk viden og finmotorisk koordination i en engagerende, interaktiv kontekst.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer introducerer en naturfagsenhed om de fem sanser, men finder at mange elever har svært ved at forbinde abstrakte begreber som høresans med konkrete kropsorganer.',
+      solution: 'Læreren bruger krops-matchningsarbejdsark der parrer hvert sanseorgan med oplevelser: øret med billeder af musik og fuglefløjt, næsen med billeder af blomster og bagværk. Eleverne udfylder matchningsøvelserne, tegner derefter deres eget ansigt og mærker sanseorganerne med pile til deres yndlingsoplevelser.',
+      outcome: 'Alle elever kan navngive de fem sanser og pege på de tilhørende organer inden ugens slutning. De begynder spontant at kategorisere dagligdagsoplevelser efter sans, og naturfagstesten viser, at 95 procent af klassen mestrer kompetencemålene for sanseundervisning.',
+    },
+    {
+      situation: 'En forælder ønsker at undervise sit fireårige barn i grundlæggende hygiejne, men barnet modsætter sig håndvask og tandbørstning.',
+      solution: 'Forælderen bruger krops-farvelægningsark med fokus på hænder og tænder som samtalestartere. Barnet farvelægger en stor hånd og tæller fingrene, derefter diskuterer de, hvad hænderne rører ved i løbet af en dag og hvorfor håndvask er vigtig. Tilsvarende farvelægges tænder med diskussion om, hvad tænderne gør.',
+      outcome: 'Barnet udvikler en stærkere forståelse af, hvorfor hygiejne er vigtigt, fordi det nu forbinder handlingen med anatomisk viden. Modstanden mod håndvask og tandbørstning falder markant, fordi barnet føler ejerskab over sin krop og dens pleje.',
+    },
+    {
+      situation: 'En idrætslærer i 2. klasse ønsker at integrere naturfag i idrætsundervisningen og hjælpe eleverne med at forstå, hvad der sker i deres kroppe under motion.',
+      solution: 'Før idrætstimen udfylder eleverne et kropsarbejdsark der mærker muskler og led brugt i løb og kast. Under timen stopper læreren op og lader eleverne mærke deres hjerterytme, vejrtrækning og muskeltræthed. Efter timen udfyldes et refleksionsarbejdsark der forbinder kropslige oplevelser med anatomisk viden.',
+      outcome: 'Eleverne udvikler en bevidst forbindelse mellem bevægelse og kroppens systemer. Deres naturfagsforståelse af muskler, led og vejrtrækning styrkes markant, og de begynder at bruge anatomisk ordforråd spontant under idrætstimer.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug store, klare kropsdiagrammer med farvekodede systemer — rødt for muskler, hvidt for knogler, blåt for blodkredsløbet — så anatomiske sammenhænge bliver visuelt tydelige. Farvelægningsark med detaljerede kropskonturer og matchningsøvelser med billedpar udnytter stærke visuelle processeringsevner.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med kropslige aktiviteter: lad eleverne røre ved den kropsdel, de læser om, bevæge de led, de mærker på et diagram, og demonstrere muskelgrupper ved at spænde og slappe af. At tegne sin egen krop i fuld størrelse på rullepapir giver en helkropsaktivitet, der forankrer anatomisk viden i bevægelse.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Kropsdele er ideelle for tosprogede elever, fordi de kan peges ud direkte. Start med billedbaserede matchningsøvelser der parrer kropsdelsbilleder med danske navne, og lad eleverne navngive delene på begge sprog. Denne konkrete, pegbare ordforrådsopbygning er en af de mest effektive strategier for tosprogstilegnelse.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med opgaver om kroppens systemer: tegn fordøjelsessystemets vej fra mund til mave, beskriv blodkredsløbet fra hjerte til lunger og tilbage, eller undersøg hvordan muskler og knogler samarbejder om bevægelse. Lad dem oprette egne anatomikrydsord med medicinsk ordforråd.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Kropsarbejdsark understøtter direkte Fælles Mål for natur/teknologi inden for kompetenceområdet kroppen, der kræver at eleverne lærer om kroppens opbygning, sanser, sundhed og fysiologiske processer. Arbejdsark der mærker organer, matcher sanser og udforsker kropssystemer opbygger den biologiske grundviden, læreplanen forudsætter.',
+      activity: 'Eleverne dissekerer et kropsdiagram-arbejdsark lag for lag: først farvelægges skelettet, derefter tegnes musklerne ovenpå med transparent papir, og til sidst tilføjes huden. Denne lagdelte tilgang visualiserer, hvordan kroppens systemer er opbygget ovenpå hinanden.',
+    },
+    {
+      subject: 'Idræt',
+      connection: 'Kropsarbejdsark bygger bro til idrætsfaget ved at give eleverne anatomisk ordforråd og forståelse for de muskler, led og bevægelsesmønstre, de bruger under fysisk aktivitet. Denne viden fremmer kropsbevidsthed og kan forebygge skader ved at lære børn at forstå deres krops signaler.',
+      activity: 'Før en idrætslektion om boldspil udfylder eleverne et arbejdsark der mærker arm-, skulder- og håndledsmuskler. Under lektionen nævner læreren muskelnavnene, når de bruges, og efter lektionen reflekterer eleverne skriftligt over, hvilke muskler der blev trætte.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Anatomisk ordforråd er rigt og præcist, og arbejdsark der introducerer ord som skulderblad, brystkasse, mellemgulv og lårmuskel udvider elevernes ordforråd inden for et domæne, der er personligt relevant og direkte verificerbart. Skriveøvelser om kroppen styrker beskrivende skrivning.',
+      activity: 'Eleverne skriver en guide til deres krop som om de præsenterede den for en rumvæsen: de beskriver hvad hver del hedder, hvordan den ser ud, og hvad den gør. Denne kreative skriveøvelse kombinerer anatomisk viden med narrativ skrivning og humor.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kropsdele-mærkningstest',
+      criteria: 'Giv eleverne en tom kropskonturtegning og bed dem mærke så mange dele som muligt. Vurdér ikke kun antal korrekte navne, men også stavning, placering og evnen til at beskrive delens funktion. Førskole: mindst fem dele. Børnehaveklasse: mindst ti dele. 1. klasse: mindst femten dele med funktioner.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Sanseopgave med observation',
+      criteria: 'Arranger fem stationer, én for hver sans, med genstande at røre, lugte, smage, se og høre. Eleverne besøger hver station, noterer oplevelsen og navngiver det sanseorgan, der er involveret. Vurdér korrekt kobling mellem oplevelse, sans og organ samt brug af beskrivende ordforråd.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Min krops dagbog',
+      criteria: 'Over en uge noterer eleverne dagligt én ting, de lagde mærke til om deres krop: sved efter idræt, træthed i benene efter leg, hurtigere puls ved spænding. Vurdér observationsevne, brug af anatomisk ordforråd og evnen til at forbinde kropslige oplevelser med biologisk viden.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug barnets egen krop som det ultimative konkrete læringsredskab. Når et barn kan røre ved, bevæge og observere det, det lærer om, forankres viden i sensorisk erfaring, der er langt mere varig end abstrakt memorering. Lad aldrig en kropslektion forblive rent papirbaseret — kombiner altid arbejdsark med kropslig udforskning.',
+      source: 'Hedegaard, M., Københavns Universitet — kropsbaseret læring og identitetsudvikling',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Introducer anatomisk ordforråd fra den tidligste alder, fordi præcist kropsligt sprog styrker barnets evne til at kommunikere om sundhed, ubehag og grænser. Et barn der kan sige min albue gør ondt har bedre forudsætninger for at modtage hjælp end et barn der kun kan sige det gør ondt her.',
+      source: 'Fælles Mål for sundhedsundervisning — kropslig kommunikationskompetence',
+      gradeRange: 'Førskole til børnehaveklasse',
+    },
+    {
+      tip: 'Udnyt symmetri i kropsundervisning som en bro til matematisk tænkning. Menneskekroppen er det mest umiddelbart tilgængelige eksempel på symmetri i et barns verden, og aktiviteter der udforsker venstre-højre-spejling opbygger den rumlige forståelse, der understøtter geometri og mønstergenkendelse.',
+      source: 'Fælles Mål for matematik — geometri og rumlig forståelse i indskolingen',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Kropsdele der kan læres', value: '50+' },
+  ],
 };
 
 registerThemeContent('body', 'da', content);

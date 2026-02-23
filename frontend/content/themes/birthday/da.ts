@@ -207,6 +207,169 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['holidays', 'food', 'cooking', 'music', 'toys', 'emotions', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 212) --
+
+  uniqueAngle: 'Fødselsdagstematiske arbejdsark indtager en særlig pædagogisk position, fordi de bygger på det mest personligt betydningsfulde tal i ethvert barns liv: deres alder. Mens de fleste tematiske arbejdsark engagerer børn gennem ydre stimuli som dyr eller køretøjer, aktiverer fødselsdagstemaet en dyb indre motivation, fordi hvert barn har en intim, følelsesmæssig forbindelse til sin egen fødselsdag. Et barns alder er ofte det første tal, de virkelig ejer og forstår — de ved præcist, hvad det betyder at være fire eller fem, og denne personlige talforståelse skaber et kraftfuldt springbræt for abstrakt matematisk tænkning. Fødselsdagsarbejdsark udnytter denne forbindelse ved at indlejre aritmetik, ordforråd og logisk tænkning i kontekster som lystælling på kager, gæstelister, gaveplanlægning og festdekoration, der alle har direkte relevans for barnets liv. Socialt-emotionelt er fødselsdagstemaet unikt, fordi det naturligt introducerer begreber som taknemmelighed, gavmildhed, inklusion og fejring af andre — færdigheder der er centrale i Fælles Mål for det personlige og sociale område. I modsætning til sæsonbestemte temaer som jul eller påske er fødselsdage relevant hele året, da der altid er nogen i klassen eller familien med en kommende fejring. Denne evigaktuelle relevans sikrer, at fødselsdagsarbejdsark aldrig føles malplacerede eller ude af sæson. Den kombination af personlig talleje, følelsesmæssigt engagement, social læring og helårsrelevans gør fødselsdagsarbejdsark til et pædagogisk unikt redskab, der forbinder faglig læring med børns vigtigste personlige oplevelser.',
+
+  researchCitation: 'Gifford, S. (2005). Teaching Mathematics 3–5: Developing Learning in the Foundation Stage. Open University Press. Gifford dokumenterede, at børns tidlige talforståelse er dybt forankret i personlige og meningsfulde kontekster, og at tal forbundet med barnets eget liv — som alder, antal familiemedlemmer og antal lys på fødselsdagskagen — fungerer som kognitive ankerpunkter, der accelererer abstrakt matematisk tænkning. Hendes forskning viste, at børn der regelmæssigt møder tal i personligt relevante situationer som fødselsdagsfejringer, udvikler stærkere talforståelse og større matematisk selvtillid end børn der primært møder tal i dekontekstualiserede øvelser.',
+
+  snippetDefinition: 'Fødselsdagsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af kager, balloner, gaver og festscener til at undervise i matematik, læsning og kreative færdigheder. Designet til børn i alderen 3 til 9 inkluderer de lystælling, invitationsskrivning, gavesortering, mønsteraktiviteter og festplanlægningsopgaver, der udnytter den dybe personlige forbindelse, hvert barn har til sin fødselsdag, til at øge engagement og læringsudbytte.',
+
+  snippetHowTo: [
+    'Vælg et fødselsdags-underfokus for sessionen, som kagedekoration og tælling, festplanlægning med gæstelister eller gavematematik, for at give aktiviteten en sammenhængende fortælling.',
+    'Start med et engagerende farvelægnings- eller tegnearbejdsark af en fødselsdagskage eller festscene for at aktivere barnets personlige forbindelse til temaet og skabe en afslappet stemning.',
+    'Introducer et matematikarbejdsark der bruger lys, balloner eller gaver som tællere, så barnet øver aritmetik i en kontekst, der føles personlig og meningsfuld.',
+    'Tilføj et literacy-element som en ordsøgning med festordforråd eller en invitationsskrivningsaktivitet, der forbinder læsning og skrivning med en virkelig social funktion.',
+    'Inkluder en social-emotionel dimension ved at lade barnet tegne eller skrive om, hvad der gør en god fødselsdagsfejring, eller designe en takkekort-skabelon.',
+    'Afslut sessionen med et puslespil eller spil som billedbingo eller skattejagt med fødselsdagstema, der konsoliderer dagens læring i et legende format.',
+    'Forbind arbejdsarksaktiviteter med virkelige begivenheder: brug matematik-arbejdsark til at planlægge en rigtig festmenu, eller lad barnet skrive en invitation til en kommende fødselsdag.',
+  ],
+
+  limitations: 'Fødselsdagsarbejdsark er ikke ideelle i alle undervisningssituationer. Nogle børn fra familier, der af religiøse eller kulturelle årsager ikke fejrer fødselsdage, kan føle sig udenfor, når temaet dominerer undervisningen, og lærere bør tilbyde alternative temaer til disse elever. Socialt-økonomiske forskelle kan også blive synlige, da fødselsdagsplanlægningsopgaver om gaver og fester kan fremhæve uligheder mellem børnenes oplevelser. Fagligt er fødselsdagstemaet primært stærkt til grundlæggende tælling, addition og social skrivning, men mindre naturligt egnet til avancerede matematiske begreber som multiplikation eller brøker, hvor andre temaer med mere komplekse kvantitative scenarier kan være mere effektive.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Feriearbejdsark dækker flere kulturelle fejringer over året — jul, påske, fastelavn — og giver bredere kulturel kontekst. Fødselsdagsarbejdsark fokuserer på den mest personlige fejring, der transcenderer kultur og religion, og giver en stærkere individuel forbindelse. Fødselsdage er relevante hele året, mens ferier er sæsonbestemte.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark dækker ernæring, madlavning og måltidskontekster, der understøtter sundhedsundervisning og hverdagsskitematik. Fødselsdagsarbejdsark bruger kagebagning og festmad som en mere festlig kontekst for de samme tællefærdigheder, med tilføjet social-emotionel dimension gennem gavgivning og fejring af andre.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Farvearbejdsark fokuserer på farveidentifikation, blandning og kunstnerisk udtryk. Fødselsdagsarbejdsark integrerer farveviden naturligt gennem kagedekoration, ballonsortering og festpynt, men tilføjer aritmetik, social skrivning og planlægningsfærdigheder, der gør det til et mere tværfagligt tema.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'image-addition',
+      anchorText: 'fødselsdags additionsopgaver',
+      context: 'Vores fødselsdags additionsopgaver bruger lys på kager, balloner og gaver som visuelle tællere, der gør abstrakt aritmetik konkret og personlig for børn, der forbinder tallene med deres egne fødselsdagsoplevelser.',
+    },
+    {
+      appId: 'coloring',
+      anchorText: 'fødselsdags farvelægningssider',
+      context: 'For en afslappet indgang til struktureret læring byder vores fødselsdags farvelægningssider på detaljerede illustrationer af kager, fester og dekorationer, der udvikler finmotorisk kontrol og farvesans i en festlig kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'fødselsdags ordsøgning',
+      context: 'Ordforrådet omkring fejringer udvides, når børn jager efter festord som invitation, ballon og overraskelse i vores fødselsdags ordsøgning, der gør staveøvelse til en festlig leg.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'fødselsdags skattejagt puslespil',
+      context: 'Vores fødselsdags skattejagt puslespil kombinerer logisk tænkning med den spænding, børn forbinder med festlege, og udfordrer dem til at følge ledetråde og løse problemer i en narrativ kontekst, der motiverer vedholdenhed.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'tegn din egen fødselsdagskage',
+      context: 'Med vores tegn din egen fødselsdagskage aktivitet designer børn deres drømmekage, øver finmotoriske færdigheder og kreativt udtryk, mens de integrerer tælling af lag, lys og dekorationer i deres design.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer ønsker at gøre matematiklektioner mere personlige og engagerende, men finder at standardmaterialet mangler følelsesmæssig forbindelse til elevernes liv.',
+      solution: 'Læreren introducerer fødselsdags-additionsarbejdsark, hvor eleverne tæller lys på kager, der matcher deres egen alder. Hvert barn får et personaliseret arbejdsark med det korrekte antal lys, og de øver addition ved at lægge gæsters lys sammen.',
+      outcome: 'Elevernes engagement stiger markant, og selv de mest matematikangste børn deltager entusiastisk. Tilforelæsninger viser, at eleverne taler om matematik derhjemme for første gang, og forældrene rapporterer, at børnene spontant tæller lys på fødselsdagskager ved familiesammenkomster.',
+    },
+    {
+      situation: 'En forælder ønsker at øve skrivefærdigheder med sit barn, der finder skrivning kedelig og meningsløs.',
+      solution: 'Forælderen bruger fødselsdagstemaede skrive- og ordsøgningsarbejdsark som forberedelse til barnets egen kommende fødselsdag. Barnet skriver invitationer til sine venner, laver en gæsteliste og designer festmenukort, alt sammen med arbejdsark som skabeloner.',
+      outcome: 'Barnet skriver mere i forberedelserne til sin fødselsdag end i hele den foregående måned. Skrivekvaliteten forbedres mærkbart, fordi barnet har en ægte modtager og et reelt formål med sin skrivning. Vanen med at skrive fortsætter efter festen.',
+    },
+    {
+      situation: 'En 1. klasse-lærer har en klasse med mange tosprogede elever og søger et tema, der engagerer alle børn uanset kulturel baggrund.',
+      solution: 'Læreren vælger fødselsdagstemaet, fordi alle børn har en fødselsdag uanset kulturel baggrund. Arbejdsark med fødselsdagsmatematik og festordforråd bruges som fælles grundlag, og hvert barn deler, hvordan fødselsdage fejres i deres familie.',
+      outcome: 'Temaet skaber en inkluderende atmosfære, hvor alle børn kan bidrage med personlige erfaringer. De tosprogede elever blomstrer, fordi de kan dele kulturelle traditioner, og hele klassen udvider deres forståelse af fejringspraksisser fra forskellige kulturer.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farverige fødselsdagsfarvelægnings- og tegneaktiviteter som primære aktiviteter. Presenter matematikopgaver med store, tydelige illustrationer af kager, lys og gaver, der giver visuelle ankre for abstrakte tal. Matchningsøvelser der parrer fødselsdagsbilleder med ord understøtter visuel ordtilegnelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med praktiske festforberedelser: lad børnene bage rigtige muffins og tælle ingredienser, pakke gaver og øve additions-arbejdsarket med fysiske lys der placeres på en pappkage. Billedbingo med fødselsdagsemner spilles stående med bevægelse mellem stationer.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedbaserede aktiviteter som find-og-tæl og matchning, der ikke kræver læsefærdighed. Fødselsdagsordforråd som kage, gave og ballon er ofte blandt de tidligste ord, tosprogede børn lærer, fordi de er følelsesmæssigt ladede og personligt relevante. Lad børnene dele fødselsdagstraditioner fra deres hjemkultur.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins festplanlægningsopgaver: beregn antal stykker kage per gæst med division, lav et budget med addition og subtraktion, og skriv detaljerede invitationer med korrekt format. Lad dem oprette ordsøgninger eller krydsord med festordforråd for klassekammerater.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematik',
+      connection: 'Fødselsdagsarbejdsark giver den mest personlige kontekst for tidlig talforståelse, fordi barnets alder er det første tal med dyb personlig betydning. Lystælling, gæstelister og gavefordeling skaber naturlige kontekster for addition, subtraktion og tidlig division i overensstemmelse med Fælles Mål.',
+      activity: 'Eleverne planlægger en fiktiv fødselsdagsfest: de bestemmer antal gæster, beregner antal tallerkener, kopper og servietter med multiplikation, og fordeler kagstykker ligeligt med division. Resultaterne præsenteres som en festplanlægningsrapport.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Fødselsdagstemaet giver autentiske skrivesituationer, der motiverer selv modvillige skribenter: invitationer, takkekort, festmenuer og fødselsdagsønsker har alle reelle modtagere og formål, hvilket opfylder Fælles Måls fokus på funktionel skriftlighed.',
+      activity: 'Eleverne skriver en invitation til en drømmefødselsdagsfest med dato, tid, sted, tema og RSVP. De læser hinandens invitationer og giver feedback på klarhed og format, hvilket øver både skrivning og kritisk læsning.',
+    },
+    {
+      subject: 'Samfundsfag',
+      connection: 'Fødselsdagsfejringer varierer mellem kulturer og traditioner, hvilket giver en naturlig indgang til at diskutere mangfoldighed, inklusion og kulturel forståelse. Arbejdsark der udforsker forskellige fejringstraditioner understøtter Fælles Måls mål om interkulturel kompetence.',
+      activity: 'Hvert barn interviewer en familiemedlem om, hvordan fødselsdage blev fejret, da de var børn. Resultaterne samles i en klasse-tidslinje, der viser, hvordan fejringstraditioner har ændret sig over generationer og varierer mellem kulturer.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Festplanlægningsopgave',
+      criteria: 'Giv eleverne en fødselsdags-planlægningsopgave med et bestemt antal gæster og et simpelt budget. Vurdér deres evne til at bruge addition og subtraktion korrekt, planlægge realistiske mængder, og forklare deres matematiske ræsonnement mundtligt eller skriftligt.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Portfoliovurdering med fødselsdagsbog',
+      criteria: 'Over en måned samler eleverne arbejdsark i en fødselsdagsbog. Sammenlign tidlige og sene prøver for at dokumentere fremgang i tællenøjagtighed, bogstavformning, ordforrådsbredde og kreativt udtryk. Portfolioen viser progression på tværs af fagområder.',
+      gradeLevel: 'Førskole til børnehaveklasse',
+    },
+    {
+      method: 'Mundtlig præsentation af drømmefødselsdagen',
+      criteria: 'Eleverne planlægger og præsenterer deres drømmefødselsdagsfest for klassen med specifikke tal: antal gæster, antal lagkagestykker, antal dekorationer. Vurdér brug af matematisk ordforråd, præsentationsstruktur og evnen til at forbinde tal med konkrete kontekster.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt barnets alder som det mest personlige matematiske ankerpunkt. Tal forbundet med barnets egen identitet — jeg er fem, jeg har tre søskende — fungerer som kognitive ankre, der accelererer abstrakt talforståelse langt mere effektivt end dekontekstualiserede taløvelser.',
+      source: 'Gifford, S. — tidlig talforståelse og personlige talbegreber',
+      gradeRange: 'Førskole til børnehaveklasse',
+    },
+    {
+      tip: 'Brug fødselsdagstemaet som en bro til funktionel skrivning. Invitationer, takkekort og festmenuer er blandt de mest autentiske skrivegenrer for unge børn, fordi de har en reel modtager og et ægte formål. Denne autenticitet øger skrivemotivationen markant sammenlignet med fiktive skriveøvelser.',
+      source: 'Fælles Mål for dansk — funktionel skriftlighed og kommunikative kompetencer',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+    {
+      tip: 'Integrer social-emotionel læring naturligt gennem fødselsdagsaktiviteter. Takkekortskrivning opbygger taknemmelighed, gaveplanlægning for andre udvikler empati, og inklusion af alle klassekammerater i festscenarier styrker sociale kompetencer — alt sammen inden for en faglig ramme der opfylder Fælles Måls krav.',
+      source: 'Hedegaard, M., Københavns Universitet — social-emotionel udvikling i den danske folkeskole',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Helårsrelevans', value: '12 måneder' },
+  ],
 };
 
 registerThemeContent('birthday', 'da', content);

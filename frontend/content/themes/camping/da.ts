@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['nature', 'forest', 'travel', 'cooking', 'animals'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 212) --
+
+  uniqueAngle: 'Campingtematiske arbejdsark indtager en unik pædagogisk position, fordi de forbinder klasseværelsets strukturerede læring med den frie, udforskende natur af udendørsoplevelser. I den danske uddannelsestradition har udeskole — undervisning uden for klasseværelsets fire vægge — en særlig stærk position, og campingtemaet fungerer som den perfekte bro mellem indendørs papirbaseret læring og den erfaringsbaserede udeundervisning, som Fælles Mål opfordrer til. Ingen anden tematisk kategori kombinerer eventyr, praktisk problemløsning og naturvidenskab så organisk: at beregne forsyninger til en campingtur kræver matematik, at navigere med kompas kræver rumlig tænkning, at identificere dyr og planter på en skovtur kræver naturvidenskabelig observation, og at skrive om campingeventyr kræver narrativ skrivning. Campingtemaet har en naturlig progression fra enkle sorteringsaktiviteter for de yngste — hvad pakker vi i rygsækken — til komplekse planlægningsopgaver for ældre elever — beregn proviant til tre dages tur for fire personer. Denne skalerbarhed gør temaet relevant fra førskole til 3. klasse uden at miste autenticitet. I dansk kontekst er camping og friluftstraditioner en dybt forankret del af kulturen, fra overnatning i shelter til familiecampingture langs de danske kyster. Denne kulturelle resonans betyder, at børn ofte bringer personlige erfaringer til arbejdsarkene, hvilket skaber den meningsfulde forbindelse mellem skolelæring og hverdagsliv, som moderne pædagogik betragter som grundlaget for dyb læring. For bybørn uden campingerfaring fungerer arbejdsarkene som en fantasirejse, der vækker nysgerrighed og forbereder dem på fremtidige naturoplevelser.',
+
+  researchCitation: 'Bentsen, P., Søndergaard Jensen, F., Mygind, E. og Randrup, T.B. (2010). The extent and dissemination of udeskole in Danish schools. Urban Forestry & Urban Greening, 9(3), 235–243. Københavns Universitet. Bentsen dokumenterede gennem omfattende forskning i udeskole-traditionen, at regelmæssig undervisning uden for klasseværelset — i skove, parker og naturområder — har signifikant positiv effekt på elevers motivation, fysiske sundhed, sociale kompetencer og faglige præstationer. Hans studier viste, at elever der deltog i udeskole mindst én gang om ugen, udviste højere engagement, bedre koncentrationsevne og stærkere naturvidenskabelig begrebsforståelse end kontrolgrupper, og at den udendørs kontekst var særligt effektiv for elever der normalt underpræsterede i traditionelle klasseværelsesomgivelser.',
+
+  snippetDefinition: 'Campingarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af telte, bål, kompasser, rygsække og skovscener til at undervise i matematik, læsning og naturvidenskab. Designet til børn i alderen 3 til 9 inkluderer de forsyningstælling, stifinderaktiviteter, ordsøgninger med friluftsordforråd og skattejagter, der forbinder klasseværelsets læring med den danske udeskole-tradition og vækker eventyrlyst.',
+
+  snippetHowTo: [
+    'Vælg et campingunderfokus for sessionen, som pakning af rygsæk og forsyninger, stinavigation og kortlæsning, dyreliv i skoven eller bålmad og madlavning, for at give aktiviteterne en sammenhængende eventyrramme.',
+    'Start med et visuelt engagerende arbejdsark som farvelægning af en campingscene eller find-objekter i et detaljeret skovbillede for at sætte stemningen og aktivere barnets fantasi om udendørsoplevelser.',
+    'Introducer et matematikarbejdsark der bruger campingforsyninger som tællere — kogler, pinde, vandflasker — så aritmetik forankres i en kontekst, der føles som eventyrplanlægning.',
+    'Tilføj et literacy-element med en ordsøgning med friluftsordforråd eller en ordforvirring med campingrelaterede ord, der udvider ordforrådet inden for naturtemaet.',
+    'Inkluder en problemløsningsaktivitet som skattejagt eller stilfinder-puslespil, der kræver logisk tænkning og rumlig ræsonnering i en eventyrlig kontekst.',
+    'Afslut med en kreativ skrive- eller tegneaktivitet, hvor barnet beskriver sin drømmecampingtur eller tegner det perfekte campingsted, hvilket konsoliderer dagens ordforråd i et personligt udtryk.',
+    'Forbind arbejdsarkene med virkelige oplevelser: organiser en mini-campingaktivitet i skolegården, en naturvandring i nærmeste skov eller en overnatning i et shelter for at bringe temaet til live.',
+  ],
+
+  limitations: 'Campingarbejdsark har visse begrænsninger, som undervisere bør overveje. Temaet er lettere at forbinde med virkelige oplevelser i sommerhalvåret, og i vintermånederne kan den manglende udendørsmulighed reducere den erfaringsbaserede komponent. For børn fra familier uden campingtradition eller adgang til naturområder kan konteksten føles fremmed, selvom den stadig kan fungere som fantasiramme. Campingtemaet er stærkere til tælling, sortering og narrativ skrivning end til abstrakt matematik som brøker eller multiplikation, hvor kontekster med mere kvantificerbare elementer kan være mere effektive. Endelig bør sikkerhedsrelaterede aktiviteter som bålhåndtering præsenteres forsigtigt for de yngste børn for at undgå at opmuntre usikker adfærd uden voksent opsyn.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbejdsark dækker det brede naturlige miljø — planter, vejr, årstider og landskaber — og giver en helhedsorienteret tilgang til miljøforståelse. Campingarbejdsark fokuserer på den menneskelige interaktion med naturen — forberedelse, navigation, overlevelse og eventyr — og giver en mere handlingsorienteret ramme, der engagerer børn som aktive deltagere snarere end observatører.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Skovarbejdsark udforsker skovøkosystemet med træer, skovdyr og sæsonbestemte ændringer. Campingarbejdsark placerer barnet midt i skovoplevelsen med praktiske aktiviteter som at sætte telt op, finde vej og tilberede mad over bål. Campingtemaet er mere eventyrligt og handlingsorienteret, mens skovtemaet er mere observerende og økologisk.',
+    },
+    {
+      vsThemeId: 'travel',
+      summary: 'Rejsearbejdsark dækker mange transportformer, destinationer og kulturelle oplevelser globalt. Campingarbejdsark fokuserer specifikt på naturbaseret rejse tæt på hjemmet og giver en dybere forbindelse med udendørsaktiviteter, overlevelse og naturvidenskab. Camping er mere hands-on og lokalt forankret, mens rejse er bredere og mere globalt orienteret.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark studerer arter, klassifikation og biologi som et naturfagsemne. Campingarbejdsark møder dyr i deres naturlige levesteder som en del af campingoplevelsen — spotte hjorte på en vandretur, identificere fugle ved søen, undgå insekter i teltet. Campingperspektivet er mere oplevelsesorienteret, mens dyreperspektivet er mere akademisk.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'camping skattejagt puslespil',
+      context: 'Vores camping skattejagt puslespil kombinerer logisk tænkning med stifinderens eventyrlige ånd og udfordrer børn til at følge ledetråde, aflæse symboler og løse problemer for at nå skatten — den perfekte forberedelse til virkelige naturoplevelser.',
+    },
+    {
+      appId: 'find-objects',
+      anchorText: 'camping find-objekter øvelser',
+      context: 'Vores camping find-objekter øvelser spreder campingudstyr, dyr og planter ud over detaljerede skovscener og udfordrer børn til at finde specifikke genstande, hvilket skærper observationsevner og introducerer friluftsordforråd i en visuelt engagerende kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'camping ordsøgning printbar',
+      context: 'Friluftsordforrådet udvides, når børn jager efter campingrelaterede begreber som kompas, ekspedition og overlevelse i vores camping ordsøgning printbar sider, der gør naturvidenskabeligt og geografisk ordforråd til en spændende ordleg.',
+    },
+    {
+      appId: 'picture-path',
+      anchorText: 'camping stifinder aktiviteter',
+      context: 'Vores camping stifinder aktiviteter guider børn langs snoede skovstier, hvor de skal træffe valg, løse matematikopgaver og navigere forhindringer, og opbygger rumlig ræsonnering og problemløsningsevner i en eventyrlig ramme.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'camping matchningsopgaver',
+      context: 'Vores camping matchningsopgaver parrer udstyr med dets formål, dyr med deres spor og campingaktiviteter med de nødvendige forsyninger, og opbygger logisk tænkning og kategoriseringsevner inden for en engagerende friluftsramme.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En indskolingslærer ønsker at forbinde matematikundervisningen med udeskole, men har svært ved at finde et tema der naturligt bygger bro mellem klasseværelse og udemiljø.',
+      solution: 'Læreren lancerer et campingprojekt: indendørs forbereder eleverne sig med arbejdsark om forsyningsberegning, paklister og rutenavigation. Udendørs gennemfører de mini-campingaktiviteter i skoleskoven, tæller kogler, måler afstande og finder vej med simple kort. Skattejagts-arbejdsark bruges som ramme for udeaktiviteterne.',
+      outcome: 'Eleverne oplever matematik som et praktisk værktøj for eventyr snarere end en abstrakt skoleøvelse. Engagementet stiger markant, og selv elever der normalt er passive i matematiktimen, deltager aktivt, fordi campingkonteksten giver tælling og beregning et tydeligt formål. Tre elever der normalt underpræsterer, scorer over gennemsnittet i den efterfølgende matematiktest.',
+    },
+    {
+      situation: 'En forælder i en bylejlighed ønsker at introducere sit barn til naturoplevelser, men har begrænset adgang til naturområder i hverdagen.',
+      solution: 'Forælderen bruger campingfarvelægnings- og find-objekter-arbejdsark som fantasirejser og kombinerer dem med korte besøg i den nærmeste park. Barnet planlægger en drømmecampingtur med arbejdsark: pakker rygsæk med sorteringsøvelser, tegner ruten på et simpelt kort og skriver en gæsteliste.',
+      outcome: 'Barnet udvikler en stærk lyst til at opleve naturen og begynder at identificere træer og fugle under parkbesøg. Da familien tager på deres første shelterovernatning, er barnet forberedt og entusiastisk og anvender ordforråd fra arbejdsarkene i praksis.',
+    },
+    {
+      situation: 'En naturfagslærer i 3. klasse skal undervise i navigation og kortlæsning ifølge Fælles Mål, men finder at lærebogsmaterialet er for abstrakt for mange elever.',
+      solution: 'Læreren rammer undervisningen som forberedelse til en campingekspedition. Stifinder-arbejdsark træner kortlæsning med campingscener, ordsøgninger introducerer navigationsordforråd som kompas, himmelsretning og målestok, og skattejagter på skolens område oversætter papirbaseret læring til virkelig navigation.',
+      outcome: 'Elevernes forståelse af kort, kompas og himmelsretninger forbedres dramatisk sammenlignet med tidligere år. Ved den afsluttende navigationsøvelse udendørs kan alle hold finde vej til deres destinationer selvstændigt, og eleverne beder om flere udendørs navigationsopgaver.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug detaljerede campingscener i farvelægnings- og find-objekter-arbejdsark, der giver rige visuelle stimuli. Illustrerede kort og stidiagrammer udnytter rumlig-visuel styrke. Lad visuelle elever tegne deres egne campingkort og illustrerede pakkelister som alternativ til skriftlige opgaver.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter: pak en rigtig rygsæk efter at have udfyldt sorteringsøvelsen, gå en rute i skolegården efter at have løst stifinder-puslespillet, og byg et minitelt af grene og stof. Skattejagter med bevægelse mellem poster giver den fysiske aktivitet, kinæstetiske elever har brug for.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Campingordforråd som telt, bål og rygsæk er konkrete, pegbare genstande der egner sig til direkte ordforrådsopbygning. Start med billedbaserede find-objekter og matchningsøvelser, der ikke kræver læsefærdighed. Brug fysiske campinggenstande i klassen som referencepunkter for ordtilegnelse.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med komplekse planlægningsopgaver: beregn proviant til en treddagestur for fire personer med multiplikation, tegn et detaljeret kort over et fiktivt campingområde med målestok, og skriv en narrativ dagbog fra en fantasicampingtur med beskrivende sprog og naturvidenskabeligt ordforråd.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Campingarbejdsark introducerer naturvidenskabelige begreber som dyreidentifikation, plantegenkendelse, vejrobservation og økologisk bevidsthed i en oplevelsesorienteret kontekst, der understøtter Fælles Mål for natur/teknologi og den danske udeskole-tradition.',
+      activity: 'Under et campingtematisk udeforløb bruger eleverne find-objekter-arbejdsark som felthåndbøger: de identificerer dyr, planter og naturforekomster i skoleskoven og afkrydser dem på arbejdsarket, hvorefter de skriver et kort observationsreferat i klassen.',
+    },
+    {
+      subject: 'Geografi',
+      connection: 'Campingnavigation bygger bro til geografiske færdigheder som kortlæsning, kompasretninger, målestok og landskabsidentifikation. Stifinder-aktiviteter giver en praktisk kontekst for de kartografiske kompetencer, som Fælles Mål kræver.',
+      activity: 'Eleverne tegner et kort over skolens udeområde i målestok, markerer mulige campingpladser med symboler og planlægger en rute mellem dem med kompasdirektioner. Stifinder-arbejdsarket bruges som skabelon for kortproduktionen.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Campingeventyr giver et af de mest engagerende udgangspunkter for narrativ skrivning, fordi børn kan forestille sig — eller genfortælle — spændende udendørsoplevelser med konkrete detaljer. Friluftsordforråd udvider elevernes sproglige register inden for naturbeskrivelse.',
+      activity: 'Eleverne skriver en campingdagbog over tre fiktive dage: dag ét beskriver ankomsten og teltopsætningen, dag to beskriver en eventyrlig vandretur med et uventet dyremøde, og dag tre beskriver hjemrejsen og refleksioner over turen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Campingplanlægningsopgave',
+      criteria: 'Giv eleverne et scenario — en treddagstur for fire personer — og lad dem beregne nødvendige forsyninger med addition og multiplikation, tegne en simpel rute på et kort, og skrive en pakkeliste organiseret efter kategorier. Vurdér matematisk nøjagtighed, organisatorisk tænkning og ordforrådsbredde.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Naturobservationsportfolio',
+      criteria: 'Over to uger med campingtema samler eleverne arbejdsark, observationsnotater og tegninger i en portfolio. Vurdér progressionen i observationsdetaljer, brug af naturvidenskabeligt ordforråd, og evnen til at forbinde papirbaseret læring med virkelige naturobservationer.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Skattejagt med færdighedskontrol',
+      criteria: 'Design en skolegårds-skattejagt med poster, der kræver forskellige færdigheder: en matematikpost med tælling, en ordforrådspost med staveord, en kortlæsningspost med kompas. Vurdér elevernes evne til at anvende klasseværelsets færdigheder i en virkelighedsnær udendørskontekst.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug campingtemaet som en struktureret bro til udeskole. Arbejdsark forberedt indendørs giver eleverne det ordforråd, de matematiske færdigheder og den observationsramme, de har brug for for at få maksimalt udbytte af udendørs læringsoplevelser. Forberedelse i klasseværelset og opfølgning bagefter forstærker læringen fra udeaktiviteterne.',
+      source: 'Bentsen, P., Københavns Universitet — udeskole-forskning og struktureret udelæring',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Udnyt campingplanlægning som en autentisk kontekst for funktionel matematik. Når børn beregner antal vandflasker, fordeler madrationer eller estimerer gangtid, bruger de aritmetik til et virkeligt formål, hvilket styrker forståelsen af, hvorfor matematik er nyttigt uden for skolen.',
+      source: 'Fælles Mål for matematik — anvendt matematik og funktionel talforståelse',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+    {
+      tip: 'Lad børnene planlægge og gennemføre en mini-campingoplevelse på skolens område som afslutning på et campingforløb. Selv en simpel aktivitet som at spise madpakke på en tæppe i skolegården efter at have planlagt turen med arbejdsark giver en oplevelse af autenticitet, der forankrer den papirbaserede læring i kroppen og følelserne.',
+      source: 'Mygind, E., Københavns Universitet — kropslig erfaring og dyb læring i udeskole',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Udeskole-forbindelser', value: '5+ aktiviteter' },
+  ],
 };
 
 registerThemeContent('camping', 'da', content);

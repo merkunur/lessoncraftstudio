@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'birthday', 'music', 'fairy-tales', 'sports', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 212) --
+
+  uniqueAngle: 'Cirkustematiske arbejdsark indtager en unik pædagogisk position, fordi de forener faglig læring med æstetisk oplevelse og kreativt udtryk på en måde, ingen anden tematisk kategori kan matche. Cirkus er i sin essens en kunstform der kombinerer musik, bevægelse, visuel spektakel og narrativ spænding, og denne multisensoriske rigdom overføres direkte til arbejdsarkene. Et barn der farvelægger en klovn, træffer kunstneriske beslutninger om farvepaletter og mønstre. Et barn der tæller jonglerbolde, øver aritmetik inden for en kontekst af rytme og sekvens. Et barn der skriver om en cirkusforestilling, udvikler beskrivende sprog i en ramme af spænding og undren. Denne naturlige integration af kunst og faglighed afspejler præcis den æstetiske dimension i læring, som den danske uddannelsestradition og Fælles Mål værdsætter særligt højt. Cirkustemaet har en enestående evne til at engagere børn, der normalt kæmper med traditionelle faglige opgaver, fordi det forestillingsbaserede format forvandler ethvert arbejdsark til en optrædelse, en leg eller et show. Den emotionelle intensitet — spændingen ved akrobatik, latteren ved klovneri, forundringen ved tryllekunster — skaber en følelsesmæssig ladning, der forstærker hukommelse og læring markant. For kinæstetiske elever tilbyder cirkustemaet en naturlig bro til fysisk aktivitet: balance, jonglering og akrobatik kan integreres som bevægelsespauser mellem arbejdsarkssessioner. For kreative elever åbner kostumedesign, plakatfremstilling og forestillingsplanlægning for æstetisk udfoldelse inden for en struktureret faglig ramme. Denne fusion af leg, kunst og læring gør cirkusarbejdsark til et af de mest engagerende og alsidige tematiske redskaber i tidlig undervisning.',
+
+  researchCitation: 'Fibæk Laursen, P. (2004). Den autentiske lærer: Bliv en god og effektiv underviser — hvis du vil. Gyldendal Uddannelse, Danmarks Pædagogiske Universitet (DPU). Fibæk Laursen dokumenterede, at æstetiske og kreative læringsformer — hvor eleverne engageres følelsesmæssigt og sanseligt gennem musik, drama, visuel kunst og kropslig udfoldelse — skaber dybere og mere varig læring end rent kognitive tilgange. Hans forskning viste, at undervisning der integrerer kunstnerisk udtryk med faglige mål, særligt i indskolingen, styrker elevernes motivation, kreative problemløsningsevner og evne til at overføre færdigheder mellem domæner, og at den emotionelle dimension i æstetisk læring forankrer viden i oplevelser, der huskes langt bedre end abstrakte informationer.',
+
+  snippetDefinition: 'Cirkusarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af klovne, akrobater, jonglører, tryllekunstnere og cirkustelte til at undervise i matematik, læsning og kreative færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med jonglerbolde, ordsøgninger med forestillingsordforråd, farvelægning af kostumer og scener samt mønstergenkendelse med cirkussekvenser, der forener æstetisk oplevelse med faglig læring.',
+
+  snippetHowTo: [
+    'Vælg et cirkusunderfokus for sessionen, som akrobater og balance, klovne og humor, dyr i cirkus eller tryllekunster og mysterier, for at give aktiviteterne en sammenhængende forestillingsramme.',
+    'Start med et visuelt engagerende farvelægnings- eller tegnearbejdsark af en cirkusscene, der sætter den festlige stemning og aktiverer barnets fantasi om forestillinger og optrædener.',
+    'Introducer et matematikarbejdsark der bruger jonglerbolde, billetter eller tilskuere som tællere, så aritmetik opleves som en del af forestillingsplanlægningen snarere end en isoleret øvelse.',
+    'Tilføj et literacy-element med en ordsøgning med forestillingsordforråd eller en ordforvirring med cirkusrelaterede ord, der udvider ordforrådet inden for det æstetiske domæne.',
+    'Inkluder en kreativ designaktivitet som tegn-og-farvelæg et kostume eller design en cirkusplakat, der giver barnet mulighed for æstetisk udfoldelse inden for den faglige ramme.',
+    'Afslut sessionen med en bevægelsespause inspireret af cirkus: balance som en linedanser, jongler med tørklæder eller optræd som en klovn, hvilket kropsligt forankrer temaets energi.',
+    'Forbind arbejdsarkene med en klasse-cirkusforestilling, hvor eleverne anvender deres designs, scripts og færdigheder i en optrædelse for forældre eller andre klasser.',
+  ],
+
+  limitations: 'Cirkusarbejdsark har visse begrænsninger, som undervisere bør overveje. Traditionelle cirkusser med dyr er et kontroversielt emne i Skandinavien, og nogle familier kan have stærke holdninger mod dyr i underholdning, så lærere bør tilbyde alternativer med fokus på menneskelige optrædende. Cirkustemaet er stærkere til kreativitet, tælling og beskrivende skrivning end til avanceret matematik eller naturvidenskab, hvor temaer med mere kvantificerbar eller videnskabelig kontekst kan være mere effektive. For børn med klovnefobi, som er en reel og ikke sjælden barndomsfrygt, kan klovneillustrationer udløse angst, og alternative cirkusfigurer som akrobater eller tryllekunstnere bør tilbydes. Endelig kan temaets festlige karakter gøre det svært at opretholde et roligt arbejdsmiljø i klasseværelset.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark fokuserer på zoologi, klassifikation og økologisk forståelse med et naturvidenskabeligt perspektiv. Cirkusarbejdsark bruger dyr som optrædende i en forestillingskontekst, der prioriterer kreativitet og æstetik over biologi. Dyretemaet er stærkere til naturfag, mens cirkustemaet er stærkere til kunst og kreativt udtryk.',
+    },
+    {
+      vsThemeId: 'birthday',
+      summary: 'Fødselsdagsarbejdsark bygger på personlig fejring med fokus på social-emotionel læring og personlige tal. Cirkusarbejdsark deler den festlige atmosfære, men erstatter det personlige med det spektakulære og kreative. Begge temaer er stærkt motiverende, men cirkus tilbyder bredere muligheder for æstetisk udfoldelse og fysisk aktivitet.',
+    },
+    {
+      vsThemeId: 'music',
+      summary: 'Musikarbejdsark fokuserer på lyd, rytme, notation og auditive færdigheder. Cirkusarbejdsark integrerer musik som én komponent i en bredere multimedial oplevelse, der også inkluderer visuelt spektakel, fysisk bevægelse og narrativ spænding. Cirkustemaet er mere tværfagligt, mens musiktemaet er mere specialiseret.',
+    },
+    {
+      vsThemeId: 'sports',
+      summary: 'Sportsarbejdsark fokuserer på konkurrence, regler og fysisk præstation. Cirkusarbejdsark deler den kropslige dimension, men erstatter konkurrence med optræden og samarbejde. Akrobatik og balance i cirkus udvikler de samme motoriske færdigheder som sport, men i en kreativ, ikke-kompetitiv ramme, der kan passe bedre til børn der ikke trives i konkurrencesituationer.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'cirkus farvelægningssider',
+      context: 'For børn der elsker kreativt udtryk, byder vores cirkus farvelægningssider på detaljerede illustrationer af klovne, akrobater og cirkustelte, der udvikler finmotorisk kontrol og farvesans i et visuelt spektakulært univers.',
+    },
+    {
+      appId: 'draw-and-color',
+      anchorText: 'cirkus tegne-og-farvelæg aktiviteter',
+      context: 'Vores cirkus tegne-og-farvelæg aktiviteter opfordrer børn til at designe originale kostumer, numre og cirkusplakater, og kombinerer kunstnerisk udfoldelse med finmotorisk udvikling i en festlig kreativ ramme.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'cirkus tælleaktiviteter',
+      context: 'Vores cirkus tælleaktiviteter spreder jonglerbolde, tilskuere og optrædende ud over travle forestillingsscener og udfordrer børn til at tælle nøjagtigt i visuelt rige omgivelser, der gør aritmetik til en del af showet.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'cirkus ordsøgning printbar',
+      context: 'Forestillingsordforrådet udvides, når børn jager efter cirkusrelaterede begreber som akrobat, tryllekunstner og manege i vores cirkus ordsøgning printbar sider, der gør ordforrådsopbygning til en sjov ordleg.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'cirkus skattejagt puslespil',
+      context: 'Vores cirkus skattejagt puslespil kombinerer logisk tænkning med forestillingens mystik og udfordrer børn til at følge ledetråde bag kulisserne, afsløre tryllekunstnerens hemmeligheder og løse puslespil der kræver både kreativitet og ræsonnement.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer ønsker at styrke klassens kreative selvtillid, men finder at mange elever er tilbageholdende med at tegne, male eller optræde foran andre.',
+      solution: 'Læreren introducerer et cirkusprojekt, hvor arbejdsark fungerer som forberedelse til en mini-forestilling. Eleverne designer kostumer med tegne-og-farvelæg-arbejdsark, øver tælling med jonglerbolde-additionsopgaver, og skriver simple scripts med ordforvirrings- og ordsøgningsaktiviteter. Projektet kulminerer i en fem minutters optrædelse.',
+      outcome: 'Selv de mest tilbageholdende elever deltager i forestillingen, fordi forberedelsesarbejdsarkene har givet dem et sikkert rum til at øve og designe deres bidrag. Kreativ selvtillid stiger markant, og flere elever begynder spontant at tegne og optræde i frikvarteret.',
+    },
+    {
+      situation: 'En forælder søger et tema, der kan engagere et barn med stærk kreativ energi, som finder traditionelle matematikøvelser kedelige og meningsløse.',
+      solution: 'Forælderen bruger cirkus-farvelægnings- og tegnearbejdsark som indgang til sessionen og introducerer derefter additionsopgaver med jonglerbolde og find-og-tæl med forestillingsscener. Matematikken præsenteres som forestillingsplanlægning: hvor mange bolde jonglerer klovnen, og hvor mange tilskuere sidder på første række.',
+      outcome: 'Barnet gennemfører dobbelt så mange matematikopgaver som normalt, fordi cirkuskonteksten forvandler aritmetik til en del af forestillingen. Barnet begynder selv at opfinde regnehistorier med cirkusfigurer og demonstrerer stærkere talforståelse end ved standardøvelser.',
+    },
+    {
+      situation: 'En 1. klasselærer har en klasse med stor spredning i fagligt niveau og søger et tema, der kan engagere alle elever på deres eget niveau samtidigt.',
+      solution: 'Læreren opretter cirkusstationer: en farvelægningsstation for de yngste, en tællestation med jonglerbolde, en ordsøgningsstation, en kreativ skrivningsstation hvor eleverne beskriver deres drømmeforestilling, og en designstation for plakater. Eleverne roterer mellem stationer og arbejder på deres eget niveau.',
+      outcome: 'Alle elever er engagerede i hele sessionen, fordi cirkustemaet binder stationerne sammen i en festlig helhed. Den faglige spredning håndteres naturligt, fordi hver station tilbyder forskellige sværhedsgrader inden for samme tema. Eleverne samarbejder på tværs af niveauer om den afsluttende klasseforestilling.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Udnyt cirkusets visuelle rigdom med detaljerede farvelægningsark, skyggematchning og find-og-tæl-scener der bugner af farver og detaljer. Lad visuelle elever designe cirkusplakater og kostumer som alternative produkter, der demonstrerer læring gennem æstetisk udtryk.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Integrer bevægelse mellem arbejdsarkssessioner: balance på en linje på gulvet som en linedanser, jonglering med tørklæder eller bolde, og klovnepantomime. Cirkustemaet er ideelt for kinæstetiske elever, fordi det naturligt inviterer til kropslig udfoldelse som en del af læringsoplevelsen.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Cirkusordforråd som klovn, akrobat og tryllekunstner er ofte internationalt genkendelige ord, der letter tilegnelsen. Start med billedbaserede aktiviteter som farvelægning og matchning, der ikke kræver læsefærdighed, og brug cirkusillustrationer som visuelle ordforrådsankre for nye danske ord.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med forestillingsplanlægningsopgaver: beregn billetindtægter med multiplikation, skriv et flerscenes forestillingsmanuskript med dialog, og design en komplet cirkusplakat med titel, kunstnerliste og tidspunkt. Lad dem oprette egne cirkusordkryds eller puslespil for klassekammerater.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Billedkunst',
+      connection: 'Cirkustemaet tilbyder et af de rigeste udgangspunkter for billedkunstundervisning, fordi det naturligt involverer kostumedesign, plakatkunst, scenografi og farveteori. Tegne-og-farvelæg-aktiviteter med cirkusmotiver udvikler æstetisk sans og kreativt udtryk i overensstemmelse med Fælles Mål for billedkunst.',
+      activity: 'Eleverne designer en cirkusplakat med titel, illustration af hovedattraktionen og farverig ramme. De diskuterer, hvordan farvevalg og komposition påvirker plakatens evne til at tiltrække publikum, og vurderer hinandens designs med konstruktiv kritik.',
+    },
+    {
+      subject: 'Musik',
+      connection: 'Cirkusmusik er en distinkt genre med dramatiske crescendoer, komiske lydeffekter og rytmisk ledsagelse af akrobatik. Arbejdsark der forbinder cirkusscener med musiktyper styrker auditive diskriminationsevner og genrebevidsthed.',
+      activity: 'Eleverne lytter til klassiske cirkusstykker som Entry of the Gladiators og matcher musikstykker med cirkusaktiviteter: hurtig musik til akrobater, langsom mystisk musik til tryllekunstnere, sjov musik til klovne. De komponerer derefter enkle lydeffekter til deres eget cirkusshow.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Cirkusforestillinger giver et rigt udgangspunkt for beskrivende og narrativ skrivning, fordi scener er fyldt med sanselige detaljer — farver, lyde, lugte, følelser — der inspirerer levende sprog. Forestillingsanmeldelser og cirkusfortællinger udvikler skrivefærdigheder i en engagerende kontekst.',
+      activity: 'Eleverne skriver en anmeldelse af en fiktiv cirkusforestilling med beskrivelse af mindst tre numre, personlige reaktioner og en anbefaling. De bruger sansernes ordforråd: den blændende spotlight, den grinagtige klovn, den svimlende akrobatik.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Cirkusforestilling design-opgave',
+      criteria: 'Eleverne planlægger en mini-cirkusforestilling med mindst tre numre. Vurdér matematisk tænkning i planlægningen (antal optrædende, tidsberegning), kreativt udtryk i kostumedesign, og sproglig kvalitet i programbeskrivelserne. Fokusér på processen snarere end det endelige produkt.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Portfoliovurdering med cirkusmappe',
+      criteria: 'Over et cirkusforløb samler eleverne farvelægninger, tælleark, ordpuslespil og kreative designs i en cirkusmappe. Sammenlign tidlige og sene prøver for at dokumentere vækst i finmotorisk kontrol, tællenøjagtighed, ordforrådsbredde og kreativt udtryk.',
+      gradeLevel: 'Førskole til børnehaveklasse',
+    },
+    {
+      method: 'Mundtlig forestillingsbeskrivelse',
+      criteria: 'Eleverne beskriver mundtligt deres yndlingscirkusnummer med brug af sansernes ordforråd: hvad de ser, hører og føler. Vurdér ordforrådsbredde, sætningsstruktur, brug af beskrivende tillægsord og evnen til at organisere en fortælling med begyndelse, midte og slutning.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt cirkusets multisensoriske karakter til at engagere alle læringskanaler samtidigt. Kombinér visuelle arbejdsark med cirkusmusik i baggrunden, bevægelsespauser med akrobatikøvelser og mundtlige forestillingsbeskrivelser. Denne integration af syn, lyd, bevægelse og sprog skaber den dybeste og mest varige læring.',
+      source: 'Fibæk Laursen, P., DPU — æstetisk læring og multisensorisk engagement',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Brug cirkustemaet som en ramme for at fejre mangfoldighed i talenter og udtryksformer. Ikke alle børn er gode til matematik eller læsning, men i cirkus har alle en rolle: akrobaten, klovnen, tryllekunstneren, musikeren, designeren. Denne inklusive ramme styrker selvopfattelsen hos elever der normalt føler sig uden for det faglige spotlight.',
+      source: 'Fælles Mål — inklusion og differentiering i den danske folkeskole',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Afslut ethvert cirkusforløb med en mini-forestilling, selv en meget simpel én. Den performative dimension — at vise sin læring for et publikum — forankrer viden i oplevelsen på en måde, der huskes langt bedre end papirbaserede tests. Processen fra forberedelse til forestilling træner også planlægning, samarbejde og kommunikation.',
+      source: 'Sternberg, R.J. — kreativitet og praktisk intelligens i uddannelse',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Kreative designmuligheder', value: '8+ aktiviteter' },
+  ],
 };
 
 registerThemeContent('circus', 'da', content);

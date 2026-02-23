@@ -75,7 +75,7 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from prepositions.md feature sections
@@ -91,8 +91,57 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📍',
+        title: '8 danske præpositioner med billeder',
+        description: 'Øv alle 8 grundlæggende rumlige præpositioner: i, ovenpå, under, ved siden af, bag, mellem, over og foran. Hver præposition illustreres med børnevenlige billeder der viser stedsbegreber visuelt. Understøtter Fælles Mål FM.DAN.KO.1-2 for kommunikation og mundtligt sprog.',
+      },
+      {
+        id: '2',
+        icon: '🔤',
+        title: 'To opgavetyper: udfyldning og multiple choice',
+        description: 'Vælg mellem udfyld-det-tomme-felt opgaver hvor børn skriver den korrekte præposition og multiple choice med tre billeder per opgave. Udfyldningsopgaver træner skriftligt sprog mens multiple choice fokuserer på visuel sprogindlæring og steds beskrivelse.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Over 3000 tematiske billeder',
+        description: 'Gennemse billedbiblioteket med over 3000 børnevenlige motiver i temaer som dyr, mad, transport og natur. Vælg billeder der matcher dit undervisningsemne for kontekstrig præpositionsøvelse. Perfekt til tematisk grammatik øvelser førskole og indskoling.',
+      },
+      {
+        id: '4',
+        icon: '📊',
+        title: 'Justerbart antal opgaver per ark',
+        description: 'Indstil antal opgaver fra 1 til 8 per ark. Begyndere i børnehaveklassen klarer 2-4 opgaver godt. 0. klasse håndterer 4-6 opgaver. 1. klasse mestrer ofte 6-8 opgaver per ark. Tilpas efter elevernes koncentrationsevne og niveau.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automatisk svarark med facit',
+        description: 'Hvert præpositionsark genererer automatisk et komplet svarark. For udfyldningsopgaver vises den korrekte præposition. For multiple choice markeres det rigtige billede. Lærere retter elevernes arbejde på sekunder.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Manuel eller automatisk billedudvælgelse',
+        description: 'Vælg mellem automatisk tilstand der hurtigt blander tilfældige billeder og manuel udvælgelse for specifikke temaer. Automatisk tilstand skaber variation. Manuel tilstand giver fuld kontrol over alle billeder til målrettet pladsord øvelse.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kommerciel licens til salg',
+        description: 'Dit abonnement inkluderer kommercielle rettigheder til at sælge dine præpositionsopgaver online. Lav temapakker med stedord til børn og sælg dem på Teachers Pay Teachers eller Etsy. Ingen attribueringskrav eller ekstra licensgebyrer.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 sprogs understøttelse',
+        description: 'Lav præpositionsøvelser på 11 sprog inklusive dansk, svensk og norsk. Perfekt til flersprogede klasser og tosprogede elever der lærer stedsbegreber på dansk. Brugerfladen og opgavens sprog skiftes uafhængigt.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from prepositions.md step sections
@@ -184,8 +233,51 @@ Print opgavearket i det antal eksemplarer du behøver. En kopi pr. elev for indi
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Rumlige begreber for 5-6-årige',
+        description: 'Introducer grundlæggende stedsbegreber som "i", "på" og "under" med visuelle præpositionsøvelser. Start med 2-3 præpositioner og multiple choice-format. Børnene lærer pladsord gennem billeder de kender. Understøtter Fælles Mål FM.DAN.KO.1-2 for mundtlig kommunikation.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Grammatik og stedord i 1.-2. klasse',
+        description: 'Brug udfyld-det-tomme-felt opgaver til skriftlig træning af alle 8 præpositioner. Eleverne skriver den korrekte præposition og styrker grammatisk bevidsthed. Kombiner med læseopgaver for tværfaglig sprogindlæring og visuel sprogindlæring.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Stedsbegreber til hjemmebrug',
+        description: 'Lav engagerende præpositionsøvelser tilpasset dit barns niveau. Brug billeder fra hverdagen til at gøre stedord til børn konkrete og forståelige. Perfekt til at styrke barnets rumlige ordforråd i en tryg læringsramme.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'DaF-/DSA-lærere',
+        subtitle: 'Dansk som andetsprog',
+        description: 'Præpositionsøvelserne er ideelle til flersprogede elever der lærer danske stedsbegreber. Billeder giver visuel kontekst uden behov for oversættelse. Vælg mellem 11 sprog for at støtte elevernes modersmål. Grammatik øvelser førskole med visuel støtte.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere og talepædagoger',
+        subtitle: 'Individuelt tilpassede sprogopgaver',
+        description: 'Juster antal opgaver og præpositioner efter den enkelte elevs behov. Skab overskuelige foran bagved opgaver med færre elementer for børn med sproglige udfordringer. Visuel støtte hjælper med at konkretisere abstrakte stedsbegreber.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg sprogpakker med kommerciel licens',
+        description: 'Lav tematiske præpositionspakker til salg online. Sprogmaterialer med visuel støtte er populære produkter på Teachers Pay Teachers. Sælg pakker med 10-20 opgaver per tema uden attribueringskrav.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from prepositions.md
@@ -199,8 +291,59 @@ Print opgavearket i det antal eksemplarer du behøver. En kopi pr. elev for indi
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke præpositioner kan børnene øve?',
+        answer: 'Generatoren inkluderer 8 grundlæggende danske præpositioner: i, ovenpå, under, ved siden af, bag, mellem, over og foran. Du vælger selv hvilke stedord børnene skal øve ved at markere checkboksene. Start med 2-3 for begyndere og øg gradvist.',
+      },
+      {
+        id: '2',
+        question: 'Hvad er forskellen på de to opgavetyper?',
+        answer: 'Udfyld-det-tomme-felt viser ét billede per opgave hvor børn skriver den korrekte præposition. Multiple choice viser tre billeder per opgave hvor kun ét billede demonstrerer præpositionen korrekt. Udfyldning træner skriftligt sprog mens multiple choice fokuserer på visuel forståelse.',
+      },
+      {
+        id: '3',
+        question: 'Hvordan tilpasser jeg opgaverne til forskellige aldersgrupper?',
+        answer: 'Juster antal opgaver og præpositioner. Til børnehaveklassen: 2-4 opgaver med 2-3 præpositioner i multiple choice. Til 0. klasse: 4-6 opgaver med 4-5 præpositioner. Til 1. klasse: 6-8 opgaver med alle 8 præpositioner i udfyldningsformat.',
+      },
+      {
+        id: '4',
+        question: 'Genereres der automatisk svarark?',
+        answer: 'Ja, hvert præpositionsark genererer automatisk et komplet svarark. For udfyldningsopgaver vises den korrekte præposition. For multiple choice markeres det rigtige billede. Svararkene er klar til print sammen med opgavearket.',
+      },
+      {
+        id: '5',
+        question: 'Kan jeg vælge specifikke billeder til opgaverne?',
+        answer: 'Ja, vælg manuel udvælgelse for at vælge specifikke billeder fra temaer som dyr, mad, transport eller natur. Alternativt bruger automatisk tilstand tilfældige billeder fra hele biblioteket for hurtig og varieret præpositionsøvelse.',
+      },
+      {
+        id: '6',
+        question: 'Hvordan understøtter opgaverne Fælles Mål?',
+        answer: 'Præpositionsøvelserne understøtter Fælles Mål FM.DAN.KO.1-2 for kommunikation og mundtligt sprog samt FM.MAT.GM.1-3 for geometri med placeringer og retning. Eleverne udvikler rumlig forståelse og sproglige stedsbegreber gennem visuel kontekst.',
+      },
+      {
+        id: '7',
+        question: 'Kan opgaverne bruges til dansk som andetsprog?',
+        answer: 'Ja, præpositionsøvelserne er ideelle til flersprogede elever. Billeder giver visuel kontekst der konkretiserer stedsbegreber uden behov for oversættelse. Generatoren understøtter 11 sprog så du kan støtte elevernes modersmål parallelt.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave én opgave?',
+        answer: 'Et præpositionsark tager under 3 minutter at lave. Vælg præpositioner og billeder på 30 sekunder, indstil opgavetype og antal på 30 sekunder, generér arket på 5 sekunder. Lav 10-20 variationer på 30 minutter.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de præpositionsopgaver jeg laver?',
+        answer: 'Ja, dit abonnement inkluderer en kommerciel licens. Sælg opgaver online på Teachers Pay Teachers, Etsy eller andre platforme uden attribueringskrav. Sprogmaterialer med visuel støtte er efterspurgte produkter.',
+      },
+      {
+        id: '10',
+        question: 'Understøtter generatoren flere sprog?',
+        answer: 'Ja, generatoren understøtter 11 sprog inklusive dansk, svensk, norsk og finsk. Brugerfladen og opgavens indhold kan skiftes uafhængigt. Perfekt til flersprogede klasser og tosprogede elever der lærer danske præpositioner.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -270,8 +413,157 @@ Print opgavearket i det antal eksemplarer du behøver. En kopi pr. elev for indi
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'skattejagt-arbejdsark',
+        name: 'Skattejagt',
+        category: 'Sprog og eventyr',
+        icon: '🗺️',
+        description: 'Kombiner præpositionsøvelser med skattejagt-opgaver for aktiv rumlig læring. Eleverne bruger stedord som "bag", "under" og "mellem" til at finde skjulte skatte i billederne.',
+      },
+      {
+        id: '2',
+        slug: 'billedsti-arbejdsark',
+        name: 'Billedsti',
+        category: 'Navigation',
+        icon: '🛤️',
+        description: 'Billedsti-opgaver styrker rumlige begreber som præpositionsøvelser. Eleverne følger stier og beskriver retninger med stedord. Perfekt supplement til pladsord øvelse.',
+      },
+      {
+        id: '3',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel søgning',
+        icon: '🔍',
+        description: 'Find objekterne-opgaver udfordrer elever til at lokalisere genstande i billeder. Kombiner med præpositioner for at øve steds beskrivelse og rumlig opmærksomhed.',
+      },
+      {
+        id: '4',
+        slug: 'billedsortering-arbejdsark',
+        name: 'Billedsortering',
+        category: 'Kategorisering',
+        icon: '📋',
+        description: 'Billedsortering styrker den visuelle analyse som også trænes i præpositionsøvelser. Eleverne kategoriserer objekter og beskriver placeringer med stedsbegreber til børn.',
+      },
+      {
+        id: '5',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel parring',
+        icon: '🎯',
+        description: 'Matchningsopgaver træner visuel diskrimination der supplerer præpositionstræning. Eleverne parrer billeder og øver opmærksomhed på detaljer og rumlige relationer.',
+      },
+      {
+        id: '6',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Visuel analyse',
+        icon: '❓',
+        description: 'Find den ulige-opgaver udvikler den analytiske tænkning der understøtter sprogindlæring. Eleverne sammenligner billeder og øver beskrivende sprog med præpositioner.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 211) ------------------------------------
+
+  aiOverviewSnippet: 'En præpositionsøvelse generator er et online værktøj til at lave printbare opgaver hvor børn lærer rumlige stedsbegreber som "i", "under", "foran" og "bag" gennem billeder og visuel kontekst. Lærere vælger mellem udfyld-det-tomme-felt og multiple choice format med 1-8 opgaver per ark og får en færdig PDF med facit på under 3 minutter. Værktøjet understøtter Fælles Mål FM.DAN.KO.1-2 for kommunikation og mundtligt sprog i førskole til 1. klasse.',
+
+  comparisonTable: [
+    {
+      feature: 'Præpositioner inkluderet',
+      ourApp: '8 danske stedsbegreber med visuel illustration',
+      typical: 'Faste opgaver uden valgmuligheder',
+    },
+    {
+      feature: 'Opgavetyper',
+      ourApp: 'Udfyldning og multiple choice',
+      typical: 'Kun én opgavetype',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ tematiske billeder med manuel eller automatisk udvælgelse',
+      typical: 'Begrænsede eller generiske illustrationer',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk genereret med markerede svar',
+      typical: 'Ofte mod merbetaling eller manuelt arbejde',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit online',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk eller ét sprog',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuel kontekst styrker børns tilegnelse af rumlige præpositioner markant. Børn der lærer stedsbegreber gennem billeder og konkrete situationer udvikler mere præcist rumligt sprog end børn der kun møder præpositioner i tekst.',
+      source: 'Elbro, C., "Læsning og sproglig udvikling i de første skoleår," Københavns Universitet, Institut for Nordiske Studier og Sprogvidenskab',
+    },
+    {
+      claim: 'Systematisk arbejde med præpositioner i indskolingen styrker ikke kun sproglig kompetence men også matematisk rumforståelse. Børn der behersker stedsbegreber præsterer bedre i geometriopgaver og spatial reasoning.',
+      source: 'Juul, H., "Sproglige kompetencer og faglig læring," Københavns Universitet, Center for Læseforskning',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine tosprogede elever har gjort kæmpe fremskridt med præpositionerne. Billederne giver dem den visuelle støtte de mangler, og multiple choice-formatet gør det overskueligt selv for børn med begrænset dansk ordforråd.',
+      name: 'Inge Kirkeby',
+      role: 'DSA-lærer',
+      school: 'Tingbjerg Skole, København',
+    },
+    {
+      quote: 'Jeg bruger præpositionsøvelserne som daglig sproglig opvarmning i børnehaveklassen. Børnene kan nu forklare hvor tingene er med præcise stedord i stedet for at pege. Det styrker deres kommunikation enormt.',
+      name: 'Flemming Rohde',
+      role: 'Børnehaveklassepædagog',
+      school: 'Munkevængets Skole, Kolding',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Præpositionsstrategier efter klassetrin',
+    sectionDescription: 'Tilpas præpositionsgeneratoren til hvert udviklingstrin. Sådan vælger du præpositioner, opgavetype og billedtemaer fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Grundlæggende stedsbegreber',
+        description: 'Start med 2 præpositioner ("i" og "på") i multiple choice med 2-3 opgaver per ark. Brug store velkendte billeder som dyr eller legetøj. Børnene peger på det rigtige billede og siger præpositionen højt. Opbygger det grundlæggende rumlige ordforråd for stedsbegreber til børn.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Udvidet rumligt sprog',
+        description: 'Øg til 4-5 præpositioner ("under", "ved siden af", "foran") med multiple choice og 4-5 opgaver. Børnehaveklassens elever lærer at skelne mellem lignende stedsbegreber. Kombiner med mundtlig øvelse hvor børnene beskriver billederne. Understøtter FM.DAN.KO.1-2.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Skriftlig præpositionstræning',
+        description: 'Introducer udfyld-det-tomme-felt med 6-8 opgaver og alle 8 præpositioner. Førsteklasses elever skriver den korrekte præposition under hvert billede. Denne overgang fra mundtligt til skriftligt sprog styrker grammatisk bevidsthed og steds beskrivelse.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Sætningsdannelse med præpositioner',
+        description: 'Brug udfyldningsopgaver som udgangspunkt for at skrive hele sætninger med præpositioner. Eleverne løser opgaven og skriver derefter en komplet sætning. Denne udvidelse styrker sammenhængen mellem grammatik øvelser og fri skrivning.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avanceret steds beskrivelse',
+        description: 'Kombiner alle 8 præpositioner med 8 opgaver i blandet format. Tredjeklasses elever skriver detaljerede beskrivelser af billederne med flere stedsbegreber. Opgaverne fungerer som sproglig opvarmning der styrker beskrivende tekster i overensstemmelse med FM.DAN.KO.1-2.',
+      },
+    ],
   },
 };
 

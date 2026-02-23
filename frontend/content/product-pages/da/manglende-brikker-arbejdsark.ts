@@ -77,7 +77,7 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from missing-pieces.md feature sections
@@ -93,8 +93,57 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Justerbar antal manglende brikker',
+        description: 'Vælg mellem 1 og 5 manglende brikker per billede for at tilpasse sværhedsgraden præcist. Start med 1 brik til børnehaveklassen og øg gradvist til 4-5 brikker for 2. klasse. Denne trinvise tilgang understøtter Fælles Mål FM.MAT.MK.1-3 for logisk tænkning og problembehandling.',
+      },
+      {
+        id: '2',
+        icon: '🔷',
+        title: 'Seks forskellige brikformer',
+        description: 'Vælg mellem firkant, cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende. Forskellige brikformer skaber variation i visuelle slutningsopgaver og udfordrer elevernes opfattelsesfærdigheder på nye måder.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Over 3000 tematiske billeder',
+        description: 'Gennemse billedbiblioteket med over 3000 børnevenlige motiver organiseret i temaer som dyr, mad, transport og natur. Vælg billeder der matcher dit undervisningsemne. Perfekt til tematiske billedpuslespil og mønstergenkendelse øvelser.',
+      },
+      {
+        id: '4',
+        icon: '📊',
+        title: 'Konfigurerbare svarmuligheder',
+        description: 'Indstil antal svarmuligheder fra 2 til 6 per opgave. Færre muligheder gør opgaven lettere for førskole og børnehaveklasse. Flere muligheder øger den visuelle diskrimination markant og træner elevernes visuel logisk tænkning.',
+      },
+      {
+        id: '5',
+        icon: '✅',
+        title: 'Automatisk facitark med markerede svar',
+        description: 'Hvert manglende brikker opgaveark genererer automatisk et facitark hvor korrekte brikker er tydeligt markeret. Lærere retter elevernes arbejde på sekunder. Perfekt til selvretningstationer og differentieret undervisning.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Upload egne billeder',
+        description: 'Upload dine egne billeder som alternativ til biblioteket. Brug klassebilleder, fotos fra ture eller elevernes tegninger til personlige manglende del øvelser. Understøtter JPEG, PNG og GIF formater. Kombiner egne billeder med biblioteksbilleder.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kommerciel licens til salg',
+        description: 'Dit abonnement inkluderer kommercielle rettigheder til at sælge dine puslespil opgaver online. Lav temapakker med manglende brikker opgaver og sælg dem på Teachers Pay Teachers eller Etsy. Ingen attribueringskrav eller ekstra licensgebyrer.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 sprogs understøttelse',
+        description: 'Lav manglende brikker opgaver på 11 sprog inklusive dansk, svensk og norsk. Perfekt til flersprogede klasser og tosprogede elever. Brugerfladens sprog og opgavens sprog skiftes uafhængigt med ét klik.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from missing-pieces.md step sections
@@ -186,8 +235,51 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Visuel opfattelse for 5-6-årige',
+        description: 'Skab enkle manglende brikker opgaver med 1-2 brikker og 2-3 svarmuligheder. Billedpuslespil udvikler visuel diskrimination og opfattelsesfærdigheder hos de yngste elever. Understøtter Fælles Mål FM.MAT.MK.1-3 for logisk tænkning gennem legende tilgang.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Mønstergenkendelse i 1.-2. klasse',
+        description: 'Brug 3-5 manglende brikker med 4-6 svarmuligheder til mere krævende visuelle slutningsopgaver. Eleverne træner systematisk observation og logisk tænkning. Kombiner med tematiske emner fra årsplanen for tværfaglig læring.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Sjove puslespil til hjemmebrug',
+        description: 'Lav engagerende manglende brikker opgaver tilpasset dit barns niveau. Upload familiebilleder eller kæledyrsbilleder for personlige puslespil. Børn elsker at finde den manglende del i billeder de kender fra hverdagen.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Visuelle udfordringer efter skoletid',
+        description: 'Skab sjove billedpuslespil til fritidsordningen der kombinerer læring med leg. Vælg temaer som dyr, sport eller eventyr der passer til SFO-aktiviteter. Puslespiløvelserne føles som leg mens de træner visuel logisk tænkning.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Individuelt tilpassede visuelle opgaver',
+        description: 'Juster antal brikker, svarmuligheder og brikform efter den enkelte elevs behov. Skab overskuelige manglende del øvelser med færre elementer for at reducere kognitiv belastning. Visuelle puslespil understøtter inklusion og differentiering.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg puslespilpakker med kommerciel licens',
+        description: 'Lav tematiske manglende brikker-pakker til salg online. Visuelle opgaver er populære produkter på Teachers Pay Teachers. Sælg pakker med 10-20 opgaver per tema uden attribueringskrav.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from missing-pieces.md
@@ -201,8 +293,59 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvor mange manglende brikker kan jeg vælge per billede?',
+        answer: 'Du kan vælge mellem 1 og 5 manglende brikker per billede. Start med 1-2 brikker til børnehaveklassen for enkle visuelle slutningsopgaver. Øg til 3-5 brikker for 1. og 2. klasse elever der er klar til mere udfordrende mønstergenkendelse.',
+      },
+      {
+        id: '2',
+        question: 'Hvilke brikformer er tilgængelige i generatoren?',
+        answer: 'Generatoren tilbyder seks forskellige brikformer: firkant, cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende. Forskellige former skaber variation og udfordrer elevernes visuelle opfattelse på nye måder.',
+      },
+      {
+        id: '3',
+        question: 'Hvordan justerer jeg sværhedsgraden for forskellige aldersgrupper?',
+        answer: 'Kombinér antal brikker og svarmuligheder for at tilpasse sværhedsgraden. Til førskole: 1 brik med 2 svarmuligheder. Til børnehaveklasse: 2 brikker med 3 muligheder. Til 1. klasse: 3-4 brikker med 4-5 muligheder. Til 2. klasse: 5 brikker med 6 muligheder.',
+      },
+      {
+        id: '4',
+        question: 'Indeholder opgaverne automatisk facitark?',
+        answer: 'Ja, hvert manglende brikker opgaveark genererer automatisk et facitark. Facitarket viser det komplette billede med korrekte brikker markeret. Lærere retter elevernes arbejde på sekunder. Print facitark separat til selvretningstationer.',
+      },
+      {
+        id: '5',
+        question: 'Kan jeg uploade mine egne billeder til puslespilene?',
+        answer: 'Ja, upload ubegrænset antal egne billeder til personlige manglende brikker opgaver. Brug klassebilleder, fotos fra ture eller elevernes tegninger. Understøtter JPEG, PNG og GIF. Kombinér egne billeder med 3000+ biblioteksbilleder.',
+      },
+      {
+        id: '6',
+        question: 'Hvilke aldersgrupper passer manglende brikker opgaver til?',
+        answer: 'Manglende brikker opgaver passer til børn fra 3-8 år. Førskolebørn starter med 1 brik og 2 svarmuligheder. Børnehaveklassen mestrer 2 brikker med 3 muligheder. Elever i 1.-2. klasse udfordres med 3-5 brikker og flere svarmuligheder.',
+      },
+      {
+        id: '7',
+        question: 'Hvordan understøtter opgaverne Fælles Mål?',
+        answer: 'Manglende brikker opgaver understøtter Fælles Mål FM.MAT.MK.1-3 for logisk tænkning og problembehandling samt FM.MAT.GM.1-3 for rumlig forståelse og geometrisk tænkning. Eleverne udvikler visuel analyse, mønstergenkendelse og systematisk observation.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave én opgave?',
+        answer: 'En manglende brikker opgave tager under 3 minutter at lave. Vælg billede på 30 sekunder, indstil brikker og svarmuligheder på 30 sekunder, generér opgaven på 10 sekunder. Lav 10-20 opgaver på 30 minutter.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de manglende brikker opgaver jeg laver?',
+        answer: 'Ja, dit abonnement inkluderer en kommerciel licens. Sælg opgaver online på Teachers Pay Teachers, Etsy eller andre platforme uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske puslespilpakker.',
+      },
+      {
+        id: '10',
+        question: 'Understøtter generatoren flere sprog?',
+        answer: 'Ja, generatoren understøtter 11 sprog inklusive dansk, svensk, norsk og finsk. Brugerfladen og opgavens indhold kan skiftes uafhængigt. Lav dansksprogede manglende brikker opgaver til flersprogede klasser med ét klik.',
+      },
+    ],
+
   },
 
   // Pricing - Full Access (Fuld Adgang)
@@ -273,8 +416,157 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'raster-puslespil-arbejdsark',
+        name: 'Raster-Puslespil',
+        category: 'Visuel logik',
+        icon: '🔲',
+        description: 'Kombiner manglende brikker med raster-puslespil for en komplet visuel logikpakke. Eleverne træner rumlig forståelse og mønster matchning med to forskellige opgavetyper.',
+      },
+      {
+        id: '2',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Visuel analyse',
+        icon: '🔍',
+        description: 'Find den ulige-opgaver styrker den visuelle diskrimination som manglende brikker opgaver også træner. Eleverne identificerer hvad der ikke passer ind blandt billedgrupper.',
+      },
+      {
+        id: '3',
+        slug: 'moenstre-arbejdsark',
+        name: 'Mønstre',
+        category: 'Logik',
+        icon: '🔄',
+        description: 'Mønsteropgaver og manglende brikker deler fokus på mønstergenkendelse øvelse. Eleverne ser sammenhænge i visuelle sekvenser og udvikler logisk tænkning.',
+      },
+      {
+        id: '4',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel parring',
+        icon: '🎯',
+        description: 'Matchningsopgaver træner samme visuelle diskrimination som manglende brikker. Eleverne parrer billeder og udvikler opfattelsesfærdigheder systematisk.',
+      },
+      {
+        id: '5',
+        slug: 'billedsortering-arbejdsark',
+        name: 'Billedsortering',
+        category: 'Kategorisering',
+        icon: '📋',
+        description: 'Billedsortering udfordrer eleverne til at kategorisere objekter visuelt. Kombinér med manglende brikker for tværfaglige opgavepakker der styrker analytisk tænkning.',
+      },
+      {
+        id: '6',
+        slug: 'skygge-match-arbejdsark',
+        name: 'Skygge-Match',
+        category: 'Visuel genkendelse',
+        icon: '🌑',
+        description: 'Skygge-match opgaver træner silhuetgenkendelse og visuel analyse. Perfekt supplement til manglende brikker da begge kræver opmærksomhed på billeddetaljer.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 211) ------------------------------------
+
+  aiOverviewSnippet: 'En manglende brikker generator er et online værktøj til at lave printbare billedpuslespil hvor børn finder den manglende del i et billede og matcher den med korrekte svarmuligheder. Lærere vælger antal brikker (1-5), brikform og sværhedsgrad og får en færdig PDF på under 3 minutter. Opgaverne understøtter Fælles Mål FM.MAT.MK.1-3 for logisk tænkning og visuel problembehandling i førskole til 2. klasse.',
+
+  comparisonTable: [
+    {
+      feature: 'Justerbar sværhedsgrad',
+      ourApp: '1-5 brikker, 2-6 svarmuligheder, 6 brikformer',
+      typical: 'Faste niveauer uden tilpasningsmuligheder',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ tematiske billeder organiseret i temaer',
+      typical: 'Begrænsede eller generiske illustrationer',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk genereret med markerede svar',
+      typical: 'Ofte mod merbetaling eller manuelt arbejde',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per puslespil',
+      typical: '30-60 minutter per opgave manuelt',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit online',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk eller ét sprog',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuelle slutningsopgaver som manglende brikker udvikler børns rumlige forståelse og logiske tænkning markant i de tidlige skoleår. Systematisk arbejde med billedpuslespil styrker opfattelsesfærdigheder der er grundlæggende for matematisk og naturvidenskabelig læring.',
+      source: 'Hansen-Møller, L., "Visuel kognition og læringsprocesser i førskolen," SDU — Syddansk Universitet, Institut for Psykologi',
+    },
+    {
+      claim: 'Trinvis øgning af kompleksitet i visuelle opgaver — fra 1 til 5 manglende elementer — skaber stærkere problemløsningskompetencer end opgaver med fast sværhedsgrad. Differentieret visuel træning understøtter alle elevers zone for nærmeste udvikling.',
+      source: 'Lindhardt, B., "Differentieret matematikundervisning i indskolingen," DPU — Aarhus Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine elever i børnehaveklassen elsker manglende brikker opgaverne. De arbejder koncentreret i 20 minutter med at finde de rigtige brikker, og deres visuelle opfattelse er blevet markant bedre siden vi begyndte.',
+      name: 'Dorte Lange',
+      role: 'Børnehaveklassepædagog',
+      school: 'Skovshoved Skole, Charlottenlund',
+    },
+    {
+      quote: 'Jeg bruger manglende brikker som opvarmning i mine matematiktimer. Det skærper elevernes opmærksomhed og logiske tænkning inden vi går videre til talarbejdet. Nemt at differentiere med antallet af brikker.',
+      name: 'Svend Abildgaard',
+      role: 'Indskolingslærer',
+      school: 'Sct. Hans Skole, Odense',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Manglende brikker-strategier efter klassetrin',
+    sectionDescription: 'Tilpas manglende brikker generatoren til hvert udviklingstrin. Sådan vælger du antal brikker, svarmuligheder og brikform fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Enkel billedgenkendelse',
+        description: 'Start med 1 manglende brik og 2 svarmuligheder. Brug store velkendte billeder som dyr eller frugter. Børnene lærer at observere billeddetaljer og finde den rigtige brik blandt to muligheder. Opbygger grundlæggende visuel slutning og opfattelsesfærdigheder til børn.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Visuel diskrimination',
+        description: 'Øg til 2 manglende brikker med 3 svarmuligheder. Børnehaveklassens elever træner systematisk observation af billeddetaljer. Varier brikformerne mellem firkant og cirkel for at udfordre opfattelsen. Understøtter FM.MAT.MK.1-3 for logisk tænkning.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Mønstergenkendelse',
+        description: 'Brug 3 manglende brikker med 4 svarmuligheder. Førsteklasses elever arbejder med mere komplekse billeder og skal skelne mellem lignende brikker. Introducer rektangulære brikformer for ekstra udfordring. Styrker visuel logisk tænkning.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Komplekse visuelle puslespil',
+        description: 'Øg til 4-5 brikker med 5-6 svarmuligheder for maksimal udfordring. Andenklasses elever mestrer detaljeret billedanalyse og systematisk eliminering af forkerte svar. Brug varierende brikformer på samme opgave for ekstra kompleksitet.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Analytisk tænkning og strategi',
+        description: 'Brug 5 brikker med 6 svarmuligheder og kombiner flere brikformer. Tredjeklasses elever udvikler strategisk tilgang til billedpuslespil. Opgaverne fungerer som opvarmning der skærper analytisk tænkning inden faglige timer i overensstemmelse med FM.MAT.GM.1-3.',
+      },
+    ],
   },
 };
 

@@ -77,7 +77,7 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
     freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from grid-match.md feature sections
@@ -93,8 +93,57 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '📐',
+        title: 'Fleksible grid-størrelser fra 2x2 til 4x4',
+        description: 'Vælg mellem fire grid-størrelser: 2x2 til de yngste børn, 3x3 til børnehaveklassen og 4x4 til elever i 1.–3. klasse. Hver størrelse giver et passende udfordringsniveau for rumlig forståelse. Større grid kræver mere mønster matchning og visuel logik til børn. Understøtter FM.MAT.GM.1-3 rumlig forståelse og geometrisk tænkning.',
+      },
+      {
+        id: '2',
+        icon: '🔍',
+        title: 'Ledetråds-celler til differentieret sværhedsgrad',
+        description: 'Juster antal ledetråds-celler fra 1 til 5 for præcis differentiering. Flere ledetråde gør raster-puslespil opgaver lettere for førskole og børnehaveklasse. Færre ledetråde øger udfordringen for ældre elever. Denne funktion gør det nemt at tilpasse den samme opgave til forskellige niveauer inden for opfattelse øvelse.',
+      },
+      {
+        id: '3',
+        icon: '🖼️',
+        title: 'Over 3000 tematiske billeder til puslespil',
+        description: 'Gennemse over 3000 børnevenlige billeder organiseret i 50+ temaer: dyr, køretøjer, mad, legetøj, former og mange flere. Vælg et tema der matcher dit undervisningsemne for visuelt puslespil til børn. Alle billeder er designet til at fungere optimalt som rasteropgaver printbar i høj opløsning.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automatisk svarark til hurtig rettelse',
+        description: 'Hvert raster-puslespil genererer automatisk et komplet svarark med det fulde billede vist. Lærere retter elevernes arbejde på sekunder. Print svarark separat til selvretningstationer i klassen. Perfekt til matchningsøvelser førskole hvor børn kan sammenligne deres arbejde med facit.',
+      },
+      {
+        id: '5',
+        icon: '📤',
+        title: 'Upload dine egne billeder',
+        description: 'Upload ubegrænset antal egne billeder til personlige raster-puslespil opgaver. Brug klassebilleder, elevtegninger eller fotos fra ture ud af huset. Kombiner uploadede billeder med biblioteksbilleder på samme opgave. Perfekt til rasteropgaver printbar med personligt indhold der engagerer eleverne ekstra.',
+      },
+      {
+        id: '6',
+        icon: '💼',
+        title: 'Kommerciel licens til salg',
+        description: 'Dit Fuld Adgang abonnement inkluderer kommercielle rettigheder til at sælge dine raster-puslespil online. Lav tematiske puslespilpakker og sælg dem som digitale downloads på Teachers Pay Teachers eller Etsy. Ingen attribueringskrav eller ekstra licensgebyrer. Visuelt puslespil til børn er en populær produktkategori.',
+      },
+      {
+        id: '7',
+        icon: '🌍',
+        title: '11 sprogs understøttelse',
+        description: 'Lav raster-puslespil på 11 sprog inklusive dansk, svensk, norsk og finsk. Perfekt til flersprogede klasser og tosprogede elever. Brugerfladens sprog og opgavens sprog skiftes uafhængigt med ét klik. Understøtter rumlig opfattelse træning på alle sprog.',
+      },
+      {
+        id: '8',
+        icon: '🎨',
+        title: 'Baggrundstemaer og dekorative rammer',
+        description: 'Vælg mellem mange baggrundstemaer som tavle, rudeark, regnbue og årstidsdesigns. Tilføj dekorative rammer med stjerner, hjerter eller skoleredskaber. Juster opacity for subtile effekter. Baggrunde gør rasteropgaver printbar mere visuelt tiltalende og understøtter FM.MAT.MK.1-3 repræsentation.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from grid-match.md step sections
@@ -190,8 +239,51 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Visuel opfattelse for 5–6-årige',
+        description: 'Skab enkle 2x2 raster-puslespil opgaver med mange ledetråds-celler til de yngste elever. Børnehaveklassebørn udvikler rumlig forståelse ved at matche billedstykker til den korrekte position i gitteret. Brug tematiske billeder fra dyr- eller legetøjstemaer for at fange opmærksomheden. Understøtter FM.MAT.GM.1-3 rumlig forståelse og geometrisk tænkning i børnehaveklassen.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Mønster matchning i 1.–3. klasse',
+        description: 'Brug 3x3 og 4x4 raster-puslespil til progressiv udvikling af visuel logik til børn i indskolingen. Differentiér opgaver ved at reducere ledetråds-celler for dygtigere elever. Integrer raster-puslespil i morgenarbejdet eller som belønningsaktivitet efter matematikopgaver. Understøtter FM.MAT.MK.1-3 logisk tænkning og repræsentation.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Sjov læring derhjemme for alle alderstrin',
+        description: 'Lav personlige raster-puslespil med familiebilleder eller feriefotos for at engagere barnet ekstra. Upload dine egne billeder og kombiner dem med biblioteksbillederne. Juster grid-størrelse og ledetråde efter barnets niveau. Rasteropgaver printbar er perfekte til regnvejrsdage, ferieaktiviteter eller daglig træning af rumlig opfattelse.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende læring i fritidsordningen',
+        description: 'Raster-puslespil fungerer perfekt som selvstyrede aktiviteter i SFO-tiden. Eleverne løser visuelt puslespil til børn uden voksenhjælp takket være de intuitive ledetråds-celler. Vælg temaer der passer til SFO-aktiviteter som natur, sport eller årstider. Opgaverne kombinerer leg med opfattelse øvelse og finmotorik.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Individuelt tilpassede visuelle opgaver',
+        description: 'Raster-puslespil er ideelle til elever med særlige behov fordi sværhedsgraden kan justeres præcist. Start med 2x2 grid og mange ledetråde for at sikre succeserfaringer. Øg gradvist udfordringen efterhånden som eleven mestrer matchningsøvelser førskole-niveau. Visuelle opgaver reducerer sproglig belastning og understøtter inklusion.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg puslespilpakker med kommerciel licens',
+        description: 'Lav tematiske raster-puslespil pakker til salg online med den inkluderede kommercielle licens. Visuel logik til børn og opfattelse øvelse materialer er populære produktkategorier på Teachers Pay Teachers og Etsy. Kombiner forskellige grid-størrelser i graderede pakker med 10–20 opgaver per pakke for maximum salgsværdi.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from grid-match.md
@@ -205,8 +297,59 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke grid-størrelser kan jeg vælge til raster-puslespil?',
+        answer: 'Generatoren tilbyder grid-størrelser fra 2x2 til 4x4. Et 2x2 grid deler billedet i 4 stykker og er perfekt til førskole og børnehaveklasse. Et 3x3 grid giver 9 stykker til moderat udfordring. Et 4x4 grid med 16 stykker er ideelt til elever i 1.–3. klasse der har brug for en større udfordring med mønster matchning.',
+      },
+      {
+        id: '2',
+        question: 'Hvad er ledetråds-celler, og hvordan fungerer de?',
+        answer: 'Ledetråds-celler er forudfyldte stykker i raster-puslespillet der viser børnene en del af det færdige billede. Du kan vælge mellem 1 og 5 ledetråds-celler. Flere ledetråde gør opgaven lettere for yngre børn. Færre ledetråde øger udfordringen. Dette gør det nemt at differentiere den samme opgave til forskellige niveauer inden for rumlig opfattelse.',
+      },
+      {
+        id: '3',
+        question: 'Hvordan justerer jeg sværhedsgraden i raster-puslespil?',
+        answer: 'Juster sværhedsgraden med tre parametre: grid-størrelse (2x2 til 4x4), antal ledetråds-celler (1–5) og billedkompleksitet. Til førskole: 2x2 grid med 3–4 ledetråde og enkle billeder. Til 3. klasse: 4x4 grid med kun 1–2 ledetråde og detaljerede billeder. Denne fleksibilitet understøtter FM.MAT.GM.1-3 progressiv rumlig forståelse.',
+      },
+      {
+        id: '4',
+        question: 'Genereres svarark automatisk til raster-puslespil?',
+        answer: 'Ja, hvert raster-puslespil genererer automatisk et komplet svarark med det fulde billede korrekt samlet. Download både opgaveark og svarark som separate filer. Lærere retter elevernes arbejde på sekunder. Print svarark til selvretningstationer i klassen.',
+      },
+      {
+        id: '5',
+        question: 'Hvilke aldersgrupper passer raster-puslespil til?',
+        answer: 'Raster-puslespil passer til børn fra 3–9 år. Førskolebørn starter med 2x2 grid og mange ledetråde for grundlæggende rumlig opfattelse. Børnehaveklassebørn arbejder med 2x2 til 3x3 grid. Elever i 1.–2. klasse mestrer 3x3 grid. 3. klasse udfordres med 4x4 grid og minimale ledetråde for avanceret visuel logik til børn.',
+      },
+      {
+        id: '6',
+        question: 'Hvordan understøtter raster-puslespil Fælles Mål?',
+        answer: 'Raster-puslespil understøtter direkte Fælles Mål for matematik: FM.MAT.GM.1-3 (geometri og måling – rumlig forståelse, geometrisk matchning) og FM.MAT.MK.1-3 (matematiske kompetencer – logisk tænkning, repræsentation og symbolbehandling). Eleverne udvikler evnen til at analysere rumlige relationer og genkende mønstre i overensstemmelse med indskolingens læreplan.',
+      },
+      {
+        id: '7',
+        question: 'Kan jeg uploade mine egne billeder til raster-puslespil?',
+        answer: 'Ja, upload ubegrænset antal egne billeder i JPEG-, PNG- eller GIF-format. Brug klassebilleder, elevtegninger eller fotos fra ture ud af huset. Uploadede billeder integreres problemfrit med de 3000+ biblioteksbilleder. Personlige billeder øger elevernes engagement og motivation i matchningsøvelser.',
+      },
+      {
+        id: '8',
+        question: 'Hvor lang tid tager det at lave ét raster-puslespil?',
+        answer: 'Et raster-puslespil tager under 3 minutter at lave fra start til download. Vælg billede på 30 sekunder, indstil grid-størrelse og ledetråde på 30 sekunder, generer opgaven på 10 sekunder, og download som PDF. Lav 10–20 forskellige rasteropgaver printbar på 30 minutter til en hel uges undervisning.',
+      },
+      {
+        id: '9',
+        question: 'Kan jeg sælge de raster-puslespil jeg laver?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens der giver dig ret til at sælge dine raster-puslespil online. Sælg opgaver på Teachers Pay Teachers, Etsy eller din egen webshop uden attribueringskrav eller ekstra gebyrer. Visuelt puslespil til børn er en populær og efterspurgt produktkategori.',
+      },
+      {
+        id: '10',
+        question: 'Hvilke sprog understøtter raster-puslespil generatoren?',
+        answer: 'Generatoren understøtter 11 sprog: dansk, svensk, norsk, finsk, engelsk, tysk, fransk, spansk, portugisisk, italiensk og hollandsk. Brugerfladens sprog og opgavens indholdssprog kan skiftes uafhængigt med ét klik. Perfekt til flersprogede klasser og tosprogede elever der træner rumlig forståelse.',
+      },
+    ],
+
   },
 
   // Pricing - Full Access (Fuld Adgang)
@@ -277,8 +420,157 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'tegn-og-farvelaeg-arbejdsark',
+        name: 'Tegn og Farvelæg',
+        category: 'Kunst og kreativitet',
+        icon: '🎨',
+        description: 'Kombiner raster-puslespil med tegn-og-farvelæg opgaver til kreative læringspakker. Eleverne løser puslespillet først og farvelægger derefter det færdige billede. Understøtter finmotorik og visuel opfattelse i samme session.',
+      },
+      {
+        id: '2',
+        slug: 'manglende-brikker-arbejdsark',
+        name: 'Manglende Brikker',
+        category: 'Visuel opfattelse',
+        icon: '🧩',
+        description: 'Manglende brikker opgaver supplerer raster-puslespil perfekt. Eleverne identificerer hvilken brik der mangler i et billede. Begge opgavetyper træner rumlig forståelse og mønster matchning i overensstemmelse med FM.MAT.GM.1-3.',
+      },
+      {
+        id: '3',
+        slug: 'skygge-match-arbejdsark',
+        name: 'Skygge-Match',
+        category: 'Visuel opfattelse',
+        icon: '👤',
+        description: 'Skygge-match opgaver udvikler visuel diskrimination hvor eleverne matcher billeder til silhuetter. Kombineret med raster-puslespil styrkes elevernes samlede evne til visuel logik til børn og opfattelse øvelse.',
+      },
+      {
+        id: '4',
+        slug: 'moenstre-arbejdsark',
+        name: 'Mønstre',
+        category: 'Matematik',
+        icon: '🔄',
+        description: 'Mønsteropgaver træner sekventiel tænkning og mønstergenkendelse. Sammen med raster-puslespil giver det en komplet pakke til rumlig opfattelse og logisk tænkning. Understøtter FM.MAT.MK.1-3 repræsentation.',
+      },
+      {
+        id: '5',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Logik',
+        icon: '🔎',
+        description: 'Find den ulige opgaver kræver at eleverne sammenligner og kategoriserer visuelt. Kombineret med raster-puslespil trænes både detaljeanalyse og helhedsoverblik. Perfekt til visuel logik til børn i børnehaveklassen og indskolingen.',
+      },
+      {
+        id: '6',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel opfattelse',
+        icon: '🔗',
+        description: 'Matchningsopgaver lader eleverne forbinde relaterede billeder med linjer. Sammen med raster-puslespil træner eleverne både rumlig forståelse og matchningsøvelser førskole. Perfekt til komplet visuel opfattelses-træning.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 211) ------------------------------------
+
+  aiOverviewSnippet: 'En raster-puslespil generator er et online værktøj til at lave printbare gitter-puslespil hvor børn matcher billedstykker til den korrekte position i et grid. Lærere vælger grid-størrelse fra 2x2 til 4x4, antal ledetråds-celler og billedtema, og får en færdig PDF-opgave med svarark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.GM.1-3 for rumlig forståelse og geometrisk tænkning i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Grid-størrelser',
+      ourApp: '2x2, 3x3, 4x4 med justerbare ledetråde',
+      typical: 'Én fast størrelse',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ tematiske billeder i 50+ temaer',
+      typical: 'Begrænset udvalg eller kun egne billeder',
+    },
+    {
+      feature: 'Svarark',
+      ourApp: 'Automatisk til hvert puslespil',
+      typical: 'Ofte mod merbetaling eller manuelt',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '30–60 minutter per opgave manuelt',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuelle og rumlige opgaver som gitter-puslespil styrker børns evne til at analysere og manipulere mentale billeder, hvilket er en grundlæggende kompetence for matematik og læsning i indskolingen.',
+      source: 'Lindhardt, B., "Visuel og rumlig læring i matematikundervisningen," DPU, Aarhus Universitet',
+    },
+    {
+      claim: 'Puslespilbaserede opgaver med gradvis stigende sværhedsgrad fremmer kognitiv udvikling og problemløsningsevner hos børn i førskole- og indskolingsalderen.',
+      source: 'Klausen, S.H., "Kognitiv udvikling gennem legende læringsaktiviteter," Institut for Medier, Erkendelse og Formidling, Københavns Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine børnehaveklassebørn elsker raster-puslespil som morgenaktivitet. Det er fantastisk at se dem udvikle rumlig forståelse mens de matcher billedstykkerne. Ledetråds-cellerne gør det muligt for alle at opleve succes, også de elever der ellers kæmper med visuelle opgaver.',
+      name: 'Kirsten Dall',
+      role: 'Børnehaveklassepædagog',
+      school: 'Bakkegårdsskolen, Gentofte',
+    },
+    {
+      quote: 'Jeg bruger raster-puslespil som differentieringsværktøj i matematik. Dygtige elever får 4x4 grid med én ledetråd, mens andre arbejder med 2x2 og mange ledetråde. Alle arbejder med det samme tema, men på deres eget niveau. Det tager mig 10 minutter at forberede en hel uges opgaver.',
+      name: 'Poul Hedegaard',
+      role: 'Indskolingslærer',
+      school: 'Vestre Skole, Aarhus',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Raster-puslespil strategier efter klassetrin',
+    sectionDescription: 'Tilpas raster-puslespil generatoren til hvert udviklingstrin. Sådan vælger du grid-størrelse, antal ledetråde og billedkompleksitet fra førskole til 3. klasse for optimal rumlig forståelse og visuel opfattelse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Enkle 2x2 raster med mange ledetråde',
+        description: 'Introducer raster-puslespil med 2x2 grid og 3 ledetråds-celler så kun ét stykke skal placeres. Brug enkle, genkendelige billeder som ét stort dyr eller en frugt. Fokus er på at forstå konceptet med at matche billedstykker. Opbygger grundlæggende rumlig opfattelse og visuel matchning som forberedelse til børnehaveklassen.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: 2x2 til 3x3 grid med gradvis reduktion af ledetråde',
+        description: 'Børnehaveklassens elever starter med 2x2 grid og 2 ledetråde og bevæger sig mod 3x3 grid med 4–5 ledetråde. Brug tematiske billeder der passer til årstiden eller emnet i klassen. Eleverne udvikler mønster matchning og rumlig forståelse i overensstemmelse med FM.MAT.GM.1-3. Lav 2–3 opgaver per uge som del af morgenrutinen.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: 3x3 grid med færre ledetråde',
+        description: 'Førsteklasses elever arbejder primært med 3x3 grid og 2–3 ledetråds-celler. Introducer mere detaljerede billeder med flere farver og former. Eleverne begynder at analysere rumlige relationer systematisk. Kombiner raster-puslespil med mønsteropgaver for tværfaglig træning af FM.MAT.MK.1-3 logisk tænkning.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: 3x3 til 4x4 grid med minimal hjælp',
+        description: 'Andenklasses elever mestrer 3x3 grid med kun 1–2 ledetråde og begynder at arbejde med 4x4 grid. Brug billeder med fine detaljer der kræver nøjagtig observation. Eleverne udvikler systematiske strategier til at løse raster-puslespil. Introducér tidsudfordringer for ekstra motivation og udvikling af visuel logik til børn.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: 4x4 grid med avancerede udfordringer',
+        description: 'Tredjeklasses elever arbejder med 4x4 grid og kun 1 ledetråds-celle for maximum udfordring. Brug komplekse billeder med mønstre, symmetri eller geometriske former. Eleverne anvender rumlig ræsonnement og logisk deduktion. Raster-puslespil på dette niveau understøtter FM.MAT.GM.1-3 avanceret geometrisk tænkning og forberedelse til mellemtrinnet.',
+      },
+    ],
   },
 };
 

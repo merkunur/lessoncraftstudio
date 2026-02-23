@@ -79,7 +79,7 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from shadow-match.md feature sections
@@ -95,8 +95,59 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🌑',
+        title: 'Shadow Match – klassisk skyggeparring',
+        description: 'Eleverne matcher farvede billeder med deres sorte silhuetter i den klassiske skygge-match tilstand. Generatoren placerer farvebilleder i venstre kolonne og blandede skygger i højre kolonne. Børnene tegner linjer mellem hvert korrekt par. Skyggeparring udvikler visuel analyse og logisk tænkning i overensstemmelse med Fælles Mål FM.MAT.MK.1-3 for mønstergenkendelse.',
+        highlighted: true,
+      },
+      {
+        id: '2',
+        icon: '🧩',
+        title: 'Make It Whole – billedhalvdele',
+        description: 'Make It Whole-tilstanden opdeler billeder i to stykker langs en horisontal eller vertikal skærelinje. Eleverne matcher venstre halvdel med den korrekte højre halvdel for at fuldstændiggøre billedet. Silhuetopgaver printbar i denne tilstand træner rumlig forståelse og visuel opfattelse. Perfekt til billed og skygge matchning med stigende sværhedsgrad.',
+      },
+      {
+        id: '3',
+        icon: '✂️',
+        title: 'Horisontal og vertikal skæring',
+        description: 'Vælg skæreretning for Make It Whole-opgaver: horisontal skæring deler billeder fra top til bund, vertikal skæring deler fra venstre til højre. Forskellige retninger ændrer sværhedsgraden markant. Kombiner begge retninger i samme opgavepakke for varierede skyggeøvelser førskole der udfordrer elevernes rumlige opfattelse på nye måder.',
+      },
+      {
+        id: '4',
+        icon: '🏷️',
+        title: 'A/B/C og 1/2/3 etiketter',
+        description: 'Aktiver bogstav- og taletiketter på matchingsobjekterne med ét klik. A/B/C-mærker på billederne og 1/2/3-mærker på skyggerne hjælper yngre elever med at identificere og kommunikere par. Skygge opgaver til børn med etiketter understøtter FM.DAN.FO.1-2 for bogstavgenkendelse. Deaktiver etiketter for ældre elever der har brug for mere udfordring.',
+      },
+      {
+        id: '5',
+        icon: '🖼️',
+        title: '3000+ tematiske billeder i 50 temaer',
+        description: 'Vælg mellem over 3000 professionelle illustrationer fordelt på 50 temaer som dyr, mad, transport, natur og årstider. Alle billeder er håndtegnede i ensartet stil og optimeret til print i 300 DPI. Nye temaer tilføjes løbende. Det store billedbibliotek sikrer varierede silhuetopgaver printbar der aldrig gentager sig selv.',
+        highlighted: true,
+      },
+      {
+        id: '6',
+        icon: '✅',
+        title: 'Automatisk facitark med svarlinjer',
+        description: 'Hver skygge-match opgave genererer automatisk et facitark hvor alle korrekte forbindelser vises med tydeligt markerede linjer. Print facitarket separat til hurtig rettelse eller vis det på dokumentkameraet til fælles gennemgang. Skyggegenkendelse opgaver med medfølgende svar sparer lærere op til 15 minutters manuelt arbejde per opgavesæt.',
+      },
+      {
+        id: '7',
+        icon: '📤',
+        title: 'Upload egne billeder til personlige opgaver',
+        description: 'Upload ubegrænset antal egne billeder i JPEG-, PNG- eller GIF-format til skræddersyede skyggeøvelser førskole. Brug klassebilleder, naturfotografier eller elevtegninger. Kombiner egne uploads med biblioteksbilleder på samme opgave. Personlige visuel parring skygge opgaver engagerer eleverne stærkere fordi de genkender motiverne fra deres hverdag.',
+      },
+      {
+        id: '8',
+        icon: '🌐',
+        title: 'Kommerciel licens og 11 sprog',
+        description: 'Dit Fuld Adgang abonnement inkluderer kommerciel licens til at sælge dine skyggeopgaver på Teachers Pay Teachers, Etsy eller din egen hjemmeside. Grænsefladen understøtter 11 sprog med lokaliserede instruktioner. Lav billed og skygge matchning opgaver til internationale markeder og sælg tematiske pakker uden attribueringskrav.',
+      },
+    ],
+
   },
 
   // How-To Guide - Step by step instructions
@@ -188,8 +239,51 @@ Print ubegrænsede eksemplarer af dine arbejdsark til print og kopiark. Dit Fuld
     badgeText: 'Anvendelser',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🎨',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Skyggegenkendelse for 5–6-årige',
+        description: 'Skab skygge-match opgaver hvor eleverne forbinder farvebilleder med sorte silhuetter i en legende kontekst. Shadow Match-tilstanden med 4 billeder og A/B/C-etiketter giver børnene et overskueligt antal par. Skyggeparring styrker visuel opfattelse og formgenkendelse som er grundlæggende for bogstavindlæring. Understøtter Fælles Mål FM.BK.1-2 for visuel opfattelse i billedkunst og FM.MAT.MK.1-3 for logisk tænkning.',
+      },
+      {
+        id: '2',
+        icon: '📖',
+        title: 'Indskolingslærere',
+        subtitle: 'Visuel analyse i 1.–3. klasse',
+        description: 'Brug begge tilstande til progressiv læring: Shadow Match om efteråret til silhuetgenkendelse, Make It Whole om vinteren til rumlig forståelse. Differentiér opgaver med og uden etiketter og med horisontal versus vertikal skæring. Skygge opgaver til børn træner den visuelle analyse der understøtter mønstergenkendelse i matematik og naturfag. Passer til FM.MAT.MK.1-3 for repræsentation og logisk tænkning.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible skyggeøvelser til hjemmet',
+        description: 'Lav skygge-match opgaver på forskellige sværhedsgrader til alle dine børn med ét abonnement. Upload familiebilleder eller kæledyrsfotografier til personlige silhuetøvelser. Børnene engagerer sig mere når de genkender billederne fra deres hverdag. Kombiner Shadow Match med Make It Whole for varierede visuel parring skygge opgaver der holder motivationen høj uge efter uge.',
+      },
+      {
+        id: '4',
+        icon: '⭐',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende skyggeparring efter skoletid',
+        description: 'Skab sjove skygge-match opgaver til fritidsordningen der kombinerer læring med leg. Vælg temaer der passer til SFO-aktiviteter som udeskole, kreativ udfoldelse eller sportsaktiviteter. Skyggeparring føles som et spil, ikke som lektier. Eleverne øver skyggegenkendelse og finmotorik mens de tegner forbindelseslinjer mellem billeder og silhuetter.',
+      },
+      {
+        id: '5',
+        icon: '💡',
+        title: 'Speciallærere',
+        subtitle: 'Individuelt tilpassede silhuetopgaver',
+        description: 'Juster sværhedsgraden med etiketter, tilstande og billedvalg efter den enkelte elevs behov og elevplan. Skab overskuelige opgaver med kun 4 billeder og tydelige A/B/C-mærker for at reducere kognitiv belastning. Silhuetopgaver printbar er billedbaserede og understøtter elever med læsevanskeligheder. Skyggeøvelser førskole fungerer som bro mellem konkret og abstrakt tænkning.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg skyggepakker med kommerciel licens',
+        description: 'Lav tematiske skygge-match pakker til salg online med den inkluderede kommercielle licens. Skyggeopgaver er populære produkter på Teachers Pay Teachers og lignende platforme. Kombiner Shadow Match og Make It Whole i samme pakke for højere salgsværdi. Lav sæsonbetonede bundler med 10–20 opgaver per pakke til børnehaveklasser og indskolinger.',
+      },
+    ],
+
   },
 
   // FAQ Section
@@ -203,8 +297,59 @@ Print ubegrænsede eksemplarer af dine arbejdsark til print og kopiark. Dit Fuld
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvad er forskellen på Shadow Match og Make It Whole?',
+        answer: 'Shadow Match-tilstanden viser farvede billeder i venstre kolonne og blandede sorte silhuetter i højre kolonne – eleverne matcher billede til korrekt skygge. Make It Whole-tilstanden deler hvert billede i to halvdele langs en skærelinje, og eleverne matcher halvdelene for at fuldstændiggøre billedet. Shadow Match træner silhuetgenkendelse, mens Make It Whole udvikler rumlig forståelse.',
+      },
+      {
+        id: '2',
+        question: 'Hvad er forskellen på horisontal og vertikal skæring?',
+        answer: 'I Make It Whole-tilstanden bestemmer skæreretningen hvordan billederne deles. Horisontal skæring deler billedet fra top til bund, så eleverne matcher en øverste del med den korrekte nederste del. Vertikal skæring deler fra venstre til højre. Horisontal skæring er generelt lettere for yngre børn, mens vertikal skæring kræver mere rumlig analyse.',
+      },
+      {
+        id: '3',
+        question: 'Hvad gør A/B/C og 1/2/3 etiketterne?',
+        answer: 'Etiketterne tilføjer bogstaver (A, B, C, D) til billederne i venstre kolonne og tal (1, 2, 3, 4) til skyggerne eller halvdelene i højre kolonne. Børnene kan så skrive svarene som "A=3, B=1" i stedet for at tegne linjer. Etiketterne hjælper yngre elever med at kommunikere deres svar og understøtter bogstavgenkendelse i overensstemmelse med FM.DAN.FO.1-2.',
+      },
+      {
+        id: '4',
+        question: 'Hvordan justerer jeg sværhedsgraden i skyggeopgaver?',
+        answer: 'Juster sværhedsgraden på flere måder: vælg Shadow Match (lettere) eller Make It Whole (sværere) tilstand, aktiver eller deaktiver A/B/C-etiketter, vælg horisontal (lettere) eller vertikal (sværere) skæring, og vælg billeder med lignende eller meget forskellige silhuetter. For de yngste elever anbefales Shadow Match med etiketter og tydelig formkontrast.',
+      },
+      {
+        id: '5',
+        question: 'Genereres der automatisk facitark til skygge-match?',
+        answer: 'Ja, hver skygge-match opgave genererer automatisk et facitark hvor alle korrekte forbindelser vises med tydeligt markerede linjer eller bogstav-tal-par. Print facitarket separat til hurtig rettelse, eller vis det på dokumentkameraet til fælles gennemgang i klassen. Automatiske facitark sparer lærere op til 15 minutters manuelt arbejde per opgavesæt.',
+      },
+      {
+        id: '6',
+        question: 'Hvilke aldersgrupper passer skygge-match opgaverne til?',
+        answer: 'Skygge-match opgaverne dækker børn fra 4–9 år. Førskolebørn øver simpel skyggegenkendelse med 4 billeder og tydelige silhuetter. Børnehaveklassebørn bruger Shadow Match med A/B/C-etiketter. Elever i 1.–2. klasse arbejder med Make It Whole og stigende kompleksitet. 3. klasse mestrer begge tilstande uden etiketter med visuelt lignende silhuetter.',
+      },
+      {
+        id: '7',
+        question: 'Hvordan understøtter skygge-match opgaverne Fælles Mål?',
+        answer: 'Opgaverne understøtter direkte Fælles Mål for indskolingen: FM.MAT.MK.1-3 for logisk tænkning, visuel analyse og mønstergenkendelse, samt FM.BK.1-2 for visuel opfattelse og billedforståelse i billedkunst. Skyggeparring og billedhalvdele udvikler den rumlige forståelse og formgenkendelse som er central i kompetenceområderne for matematik og billedkunst.',
+      },
+      {
+        id: '8',
+        question: 'Kan jeg uploade mine egne billeder til skyggeparring?',
+        answer: 'Ja, upload ubegrænset antal egne billeder i JPEG-, PNG- eller GIF-format. Generatoren skaber automatisk silhuetter af dine uploadede billeder til Shadow Match-tilstanden eller deler dem korrekt til Make It Whole. Brug klassebilleder, naturfotografier eller projektspecifikke motiver. Kombiner egne uploads med de 3000+ biblioteksbilleder på samme opgave.',
+      },
+      {
+        id: '9',
+        question: 'Hvor lang tid tager det at lave én skygge-match opgave?',
+        answer: 'En skygge-match opgave tager under 3 minutter at lave. Vælg tilstand på 10 sekunder, vælg 4 billeder på 30 sekunder, indstil etiketter og skæreretning på 10 sekunder og generer opgaven på få sekunder. Med ét abonnement kan du lave et helt uges silhuetopgaver på under 15 minutter inklusiv facitark.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg sælge mine skyggeopgaver, og hvilke sprog understøttes?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens. Sælg skyggeopgaver online på Teachers Pay Teachers, Etsy eller din egen hjemmeside uden attribueringskrav. Grænsefladen understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, norsk og finsk. Lav skyggepakker til internationale markeder.',
+      },
+    ],
+
   },
 
   // Pricing Section
@@ -276,8 +421,157 @@ Print ubegrænsede eksemplarer af dine arbejdsark til print og kopiark. Dit Fuld
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Visuel',
+        icon: '🔗',
+        description: 'Kombiner skyggeparring med klassisk matchning til en komplet visuel parringspakke. Eleverne matcher først billeder med silhuetter og forbinder derefter billeder med bogstaver eller ord. Stærkeste kombinationen for mønstergenkendelse og visuel diskrimination i børnehaveklassen.',
+      },
+      {
+        id: '2',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Logik',
+        icon: '🔍',
+        description: 'Kombiner skygge-match med Find den Ulige til opgaver der træner visuel analyse fra to vinkler. Eleverne matcher først silhuetter og identificerer derefter det billede der ikke passer ind i en gruppe. Begge opgavetyper udvikler kategorisering og logisk tænkning i overensstemmelse med FM.MAT.MK.1-3.',
+      },
+      {
+        id: '3',
+        slug: 'manglende-brikker-arbejdsark',
+        name: 'Manglende Brikker',
+        category: 'Puslespil',
+        icon: '🧩',
+        description: 'Manglende Brikker og Make It Whole-tilstanden supplerer hinanden perfekt. Eleverne matcher billedhalvdele i skygge-match og identificerer derefter manglende stykker i et puslespilgitter. Begge opgaver udvikler rumlig forståelse og visuelt diskriminationsevner for førskole og indskoling.',
+      },
+      {
+        id: '4',
+        slug: 'raster-puslespil-arbejdsark',
+        name: 'Raster-Puslespil',
+        category: 'Puslespil',
+        icon: '🏁',
+        description: 'Kombiner skyggeopgaver med raster-puslespil til en komplet spatial-kognitiv pakke. Eleverne matcher silhuetter med billeder og løser derefter gitterpuslespil med de samme temaer. Progression fra enkel skyggegenkendelse til kompleks rumlig analyse styrker FM.MAT.MK.1-3.',
+      },
+      {
+        id: '5',
+        slug: 'billedsortering-arbejdsark',
+        name: 'Billedsortering',
+        category: 'Logik',
+        icon: '📊',
+        description: 'Brug skygge-match som forarbejde til billedsorteringsopgaver. Eleverne lærer først at genkende og matche billeders silhuetter og sorterer derefter de samme billeder i kategorier. Progressiv læring fra visuel genkendelse til abstrakt kategorisering. Ideel til tematiske læringspakker.',
+      },
+      {
+        id: '6',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel',
+        icon: '👁️',
+        description: 'Kombiner skyggeparring med Find Objekterne til intensive visuel søge-opgaver. Eleverne matcher silhuetter med korrekte billeder og søger derefter efter skjulte objekter i komplekse scener. Begge opgavetyper skærper den visuelle opmærksomhed som understøtter FM.BK.1-2 for visuel opfattelse.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 211) ------------------------------------
+
+  aiOverviewSnippet: 'En skygge-match generator er et online værktøj til at lave printbare skyggeparringsopgaver hvor børn matcher farvede billeder med sorte silhuetter eller fuldstændiggør opdelte billedhalvdele. Lærere vælger mellem Shadow Match og Make It Whole tilstand, vælger billeder fra 3000+ illustrationer og får en færdig PDF med automatisk facitark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.MK.1-3 for logisk tænkning og visuel analyse samt FM.BK.1-2 for visuel opfattelse i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Opgavetilstande',
+      ourApp: '2 tilstande: Shadow Match (silhuetparring) og Make It Whole (billedhalvdele)',
+      typical: 'Én fast skyggetype uden variation',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ håndtegnede illustrationer i 50 temaer med automatisk silhuetgenerering',
+      typical: 'Begrænset udvalg af færdige skyggeopgaver',
+    },
+    {
+      feature: 'Automatisk facitark',
+      ourApp: 'Genereres automatisk med korrekte forbindelseslinjer og bogstav-tal-par',
+      typical: 'Intet facitark eller manuelt oprettet',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave med automatisk blanding',
+      typical: '30–60 minutter manuelt arbejde i tegneprogram',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit på TPT, Etsy og egne kanaler',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog med lokaliserede instruktioner og etiketter',
+      typical: 'Kun ét sprog, typisk engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Silhuetgenkendelse og visuel parring styrker børns evne til formanalyse og rumlig forståelse, som er grundlæggende kognitive færdigheder for både læsning og matematik i de første skoleår.',
+      source: 'Hansen-Møller, L., "Visuel kognition og formgenkendelse hos børn i indskolingsalderen," Syddansk Universitet (SDU)',
+    },
+    {
+      claim: 'Øvelser med billedparring og skyggegenkendelse fremmer perceptuel læring og opmærksomhedskontrol, som overføres til bedre præstationer i bogstavgenkendelse og symbolforståelse hos førskolebørn.',
+      source: 'Klausen, S.H., "Visuel perception og læringsprocesser i tidlig barndom," Københavns Universitet (KU)',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine børnehaveklassebørn elsker skyggeopgaverne. De lærer at analysere former og konturer, og Make It Whole-tilstanden med billedhalvdele er perfekt til at udvikle rumlig forståelse. Facitarket gør rettelse hurtig og nem.',
+      name: 'Tina Bech',
+      role: 'Børnehaveklassepædagog',
+      school: 'Ellevangskolen, Randers',
+    },
+    {
+      quote: 'Jeg bruger skygge-match generatoren til differentieret undervisning i 1.–2. klasse. Shadow Match uden etiketter til de stærkeste og Make It Whole med A/B/C-mærker til de svageste – så dækker jeg alle niveauer på 10 minutter.',
+      name: 'Allan Kromann',
+      role: 'Indskolingslærer',
+      school: 'Kragelundskolen, Silkeborg',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Skygge-match strategier efter klassetrin',
+    sectionDescription: 'Tilpas skygge-match generatoren til hvert udviklingstrin. Sådan vælger du tilstand, skæreretning, etiketter og billedvalg fra førskole til 3. klasse for optimale skyggeparringsopgaver.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Enkle silhuetter',
+        description: 'Introducér skyggeparring med Shadow Match-tilstanden og kun 4 billeder med A/B/C-etiketter. Vælg billeder med tydelige, unikke silhuetter som dyr med forskellige konturer – en fugl, en fisk, en kat og en elefant. Store formkontraster gør skyggegenkendelse overkommeligt for 4–5-årige. Opbygger grundlæggende visuel diskrimination og form-kontur-forbindelse.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Shadow Match med stigende kompleksitet',
+        description: 'Børnehaveklassens elever mestrer skyggeparring med 4 billeder og gradvist mere lignende silhuetter. Brug dyr fra samme kategori der kræver finere formanalyse. Introducér Make It Whole med horisontal skæring som næste skridt. Behold A/B/C-etiketter til støtte. Understøtter Fælles Mål FM.MAT.MK.1-3 for visuel analyse og FM.BK.1-2 for formgenkendelse i billedkunst.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Begge tilstande med variation',
+        description: 'Førsteklasses elever bruger Shadow Match uden etiketter og introduceres til Make It Whole med både horisontal og vertikal skæring. Vælg billeder med visuelt lignende silhuetter for at øge sværhedsgraden. Kombiner skygge-match med Matchning-generatoren for en komplet visuel parringspakke der støtter FM.MAT.MK.1-3 og tværfaglig læring.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Make It Whole med vertikal skæring',
+        description: 'Andenklasses elever arbejder primært med Make It Whole-tilstanden med vertikal skæring og uden etiketter. Vælg billeder med symmetriske eller næsten symmetriske halvdele for at skærpe den rumlige analyse. Kombiner med Manglende Brikker-generatoren til en spatial-kognitiv pakke. Træner detaljeorientering og formanalyse på tværs af fag.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avanceret skyggeparring og tværfaglighed',
+        description: 'Tredjeklasses elever mestrer begge tilstande uden etiketter med visuelt meget lignende silhuetter og komplekse billedhalvdele. Brug opgaverne som del af naturfagsprojekter – match dyreskygger med deres navne eller plantesilhuetter med artsbetegnelser. Kombiner med Find den Ulige og Billedsortering til tværfaglige læringspakker i overensstemmelse med Fælles Mål.',
+      },
+    ],
   },
 };
 

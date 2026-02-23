@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['dinosaurs', 'robots', 'numbers', 'school', 'weather'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Rumtemaede arbejdsark indtager en helt særlig pædagogisk position, fordi de aktiverer det, kognitionsforskere kalder den kosmiske fascination — børns medfødte trang til at forstå det uendeligt store og det ukendte. I modsætning til jordnære temaer som dyr eller transport præsenterer rummet begreber der fundamentalt udfordrer barnets skalaforståelse: afstande målt i lysår, temperaturer på tusindvis af grader og himmellegemer der er millioner af gange større end noget på Jorden. Denne kognitive udfordring er paradoksalt nok det, der gør rumarbejdsark så effektive for yngre elever, fordi børn i alderen tre til ni befinder sig i en udviklingsperiode, hvor de aktivt konstruerer deres forståelse af størrelse, antal og afstand. Når et barn tæller kratere på månen eller sammenligner planeternes diameter, øver det ikke blot aritmetik — det opbygger en intuitiv forståelse af relative størrelser, der vil understøtte matematisk ræsonnement i årevis fremover. Rumtemaet har også den unikke egenskab at forbinde humanistiske fortællinger med naturvidenskabelig præcision. Historien om rumforskning er fyldt med dramatiske beretninger om mod, innovation og samarbejde, fra Gagarins første kredsløb til Curiosity-roverens landing på Mars. Disse fortællinger giver arbejdsarkene en narrativ dybde, som rene matematikøvelser mangler, og motiverer børn til at engagere sig med stadigt mere udfordrende opgaver, fordi de oplever sig selv som opdagelsesrejsende snarere end elever. Endelig tilbyder rummet en sjælden tværfaglig bredde, der naturligt integrerer matematik, dansk, naturfag og kunst i en sammenhængende oplevelse, som Fælles Mål i den danske folkeskole netop efterspørger gennem kompetencetænkning og helhedsorienteret undervisning.',
+
+  researchCitation: 'Nordisk naturfagsdidaktik — rumforskning og astronomi som indgang til videnskabelig undren og STEM-interesse i skandinaviske skoler. Forskning fra nordiske universiteter har konsekvent vist, at astronomi og rumforskning er blandt de mest effektive emner til at vække naturvidenskabelig nysgerrighed hos børn i grundskolen. Studier gennemført ved Aarhus Universitet og Københavns Universitet har dokumenteret, at elever der møder naturvidenskabeligt indhold gennem rumkontekster, udviser markant højere engagement og dybere begrebsforståelse sammenlignet med elever der præsenteres for de samme færdigheder i abstrakte rammer. Denne effekt er særligt udtalt i de skandinaviske lande, hvor lange mørke vinteraftener skaber en naturlig forbindelse til stjernekiggeri og astronomisk observation. Forskningen understreger også, at rummets iboende tværfaglighed — der kombinerer matematik, sproglig formidling, teknologi og æstetisk oplevelse — passer exceptionelt godt til den danske folkeskoles kompetencebaserede tilgang i Fælles Mål, hvor integration af fagområder og udvikling af undren og nysgerrighed er centrale pædagogiske mål.',
+
+  snippetDefinition: 'Rumarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af planeter, raketter, astronauter, stjerner og galakser til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 omfatter de tælleøvelser med himmellegemer, ordsøgninger med rumordforråd, farvelægning af rumfartøjer, mønsteropgaver med stjernebilleder og logikudfordringer i astronomiske kontekster, der udnytter børns naturlige fascination af universet til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt rumunderemne for ugen, som planeter, stjernebilleder eller rummissioner, for at give dine lektioner en fokuseret fortælletråd der bygger op mod en afsluttende aktivitet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med raketter til matematik, en ordsøgning med rumordforråd til læsning og en farvelægningsside med planeter til finmotorisk udvikling.',
+    'Introducer rumunderemnet med et kort videoklip af en rigtig raketopsendelse eller en guidet tur i Den Internationale Rumstation, så børnene har visuel baggrundsviden inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en astronaut for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling eller kryptogrammer.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor mange planeter kan du tælle og hvad tror du astronauten ser fra rumstationen for at uddybe naturvidenskabelig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner én ny ting de lærte om rummet, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige arbejdsark i en rummissions-portfolio og lad børnene dekorere forsiden med deres egen raketdesign, så de kan se deres faglige fremgang som en voksende rumekspedition.',
+  ],
+
+  limitations: 'Rumarbejdsark har visse begrænsninger, som lærere og forældre bør være opmærksomme på. Den enorme skala af astronomiske begreber kan overvælde yngre børn, hvis opgaverne ikke tilpasses omhyggeligt — en treårig der hører, at solen er 150 millioner kilometer væk, kan opleve forvirring snarere end fascination, medmindre tallet oversættes til en håndgribelig analogi. Desuden er rumtemaet visuelt domineret af mørke farver og tomme rum, hvilket kan gøre visse arbejdsark mindre visuelt stimulerende for de yngste elever sammenlignet med farverige temaer som dyr eller blomster. Børn med angst for mørke eller det ukendte kan også opleve ubehag ved visse rumbilleder, særligt af sorte huller eller øde planetlandskaber, så lærere bør tilbyde alternative motiver som venlige astronauter eller farverige raketter. Endelig mangler rumtemaet den direkte sansebaserede oplevelse, som jordnære temaer har — børn kan ikke røre ved en planet eller lugte til en stjerne, hvilket gør det sværere at bygge multisensoriske læringserfaringer uden kreative supplementer som eksperimenter, modeller eller planetariumbesøg.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurarbejdsark deler rummets evne til at fremkalde ærefrygt og undren, men fokuserer på forhistorisk tid snarere end den kosmiske dimension. Rumarbejdsark er stærkere til at undervise i store tal, skala og aktuel videnskab, mens dinosaurer har fordelen af en rig palæontologisk fortælling med fossiler og uddøen, der forbinder til jordens historie snarere end universets.',
+    },
+    {
+      vsThemeId: 'robots',
+      summary: 'Robotarbejdsark deler rummets STEM-fokus og teknologiske appel, men er mere orienteret mod ingeniørprocesser og programmering. Rumarbejdsark favner bredere med naturvidenskab, matematik og narrativ udforskning, mens robotterne tilbyder mere direkte forbindelse til problemløsning og designtænkning.',
+    },
+    {
+      vsThemeId: 'numbers',
+      summary: 'Talarbejdsark underviser i de samme matematiske kernefærdigheder som rumarbejdsark, men i en abstrakt kontekst uden tematisk fortælling. Rumarbejdsark giver tallene mening ved at forankre dem i astronomiske afstande og planetstørrelser, hvilket øger motivationen og hukommelsen, men kan distrahere elever der har brug for ren, kontekstfri taløvelse.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Vejrarbejdsark forbinder til atmosfærisk videnskab og dagligdags observationer, som børn oplever direkte. Rumarbejdsark strækker sig ud over atmosfæren til det kosmiske og tilbyder større skala og dramatik, men mangler den umiddelbare hverdagstilknytning som vejrtemaer har, når børn ser regn, sol og skyer fra deres vindue.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'rum farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores rum farvelægningssider på detaljerede illustrationer af raketter, planeter og astronauter, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med rumgenstande, de vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'rum additionsopgaver med billeder',
+      context: 'Når eleverne er klar til at kombinere visuel tælling med aritmetik, præsenterer vores rum additionsopgaver med billeder raketter og stjerner som tællere i additionsregnehistorier, der forvandler abstrakt matematik til spændende rummissioner.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'rum ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter astronomiske begreber i vores rum ordsøgning printbar sider, der indlejrer naturvidenskabeligt sprog som planet, galakse, kredsløb og tyngdekraft i et puslespilformat, der gør staveøvelse til en opdagelsesrejse.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'rum skyggematchning',
+      context: 'Vores rum skyggematchning parrer rumfartøjer og himmellegemer med deres silhuetter og udfordrer børn til at analysere konturer og proportioner, mens de udvikler de visuelle skelneevner, der understøtter både læseparathed og naturvidenskabelig observation.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'rum sudoku til børn',
+      context: 'For at opbygge logisk ræsonnement og systematisk tænkning tilbyder vores rum sudoku til børn puslespil med rumtemaede billeder i stedet for tal, med stigende sværhedsgrad fra enkle fire-til-fire-gitre for førskolen til udfordrende seks-til-seks-gitre for 3. klasse.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at eleverne har svært ved at forstå rækkefølgebegreber som før, efter og mellem i deres matematikundervisning.',
+      solution: 'Hun introducerer rumtemaede sekvensarbejdsark, hvor børnene ordner planeterne fra nærmest til fjernest fra Solen og placerer begivenheder i en raketopsendelse i kronologisk rækkefølge. Den dramatiske kontekst motiverer eleverne til at arbejde omhyggeligt med rækkefølgen.',
+      outcome: 'Inden for tre uger mestrer majoriteten af klassen ordenstalsbegreber og kan selvstændigt forklare sekvenser med tre til fem trin. Eleverne bruger spontant rumordforråd som først kommer Mercury, derefter Venus i andre faglige sammenhænge.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et barn i 1. klasse, oplever at barnet nægter at lave matematikopgaver og erklærer at matematik er kedeligt, men tilbringer timer med at læse bøger om rummet.',
+      solution: 'Forælderen printer rumtemaede additions- og subtraktionsarbejdsark, hvor regnestykker handler om raketbrændstof og astronautforsyninger. Arbejdsarkene præsenteres som rummissionsopgaver, der skal løses for at gennemføre missionen.',
+      outcome: 'Barnet fuldfører fem til syv matematikarbejdsark per session uden modstand og beder om mere. Additionsflydende inden for tyve forbedres markant over en måned, og barnet begynder selv at opfinde regnehistorier med rumtemaer.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse vil introducere jord- og rumvidenskab, men mangler konkrete materialer til at gøre abstrakte begreber som planeternes kredsløb og månefaser håndgribelige.',
+      solution: 'Læreren bruger en kombination af rumfarvesider, planetsorteringsopgaver og ordforvrængninger med astronomisk ordforråd som forarbejde til hvert underemne. Eleverne udfylder arbejdsark før klasseeksperimenter med lommelygter og styrofoamkugler.',
+      outcome: 'Elevernes begrebsforståelse af månefaser og planetrækkefølge stiger markant. På den afsluttende prøve kan 90 procent af klassen korrekt beskrive mindst fire månefaser og navngive alle otte planeter i rækkefølge, sammenlignet med 45 procent i det foregående års klasse uden arbejdsarkforarbejdet.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Rummets dramatiske visuelle karakter — farvede nebulosaer, ringet Saturn, blå Jord — giver særligt rige stimuli for visuelt orienterede børn. Supplér med billedstier og find-objekter-opgaver, der udnytter stærke visuelle scanningsevner.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter som at bygge raketter af papruller eller forme planeter af modellervoks. Lad børnene gå en solsystemsti i skolegården, stoppe ved hver planet og løse en opgave fra arbejdsarket. Den fysiske bevægelse forankrer abstrakte rumbegreber i kropslig erfaring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, billedaddition og skyggematchning, før ordbaserede aktiviteter introduceres. Rumordforråd som planet, raket og stjerne er ofte internationalt genkendeligt, hvilket giver tosprogede elever en unik fordel. Tillad navngivning af himmellegemer på begge sprog for at styrke overførsel.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrinsopgaver der bruger rigtige astronomiske data, som at beregne rejsetider mellem planeter eller sammenligne planetdiametre med multiplikation. Kryptogrammer og ordsøgninger med avanceret rumordforråd som eksoplanet, neutrinostjerne og supernova tilbyder udvidet ordforrådsudfordring, og de kan designe deres egne rumarbejdsark til klassekammerater.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Rumarbejdsark forbinder direkte til naturfagsmål i Fælles Mål for natur/teknologi. Sortering af himmellegemer efter type, størrelse eller afstand styrker klassifikationsfærdigheder, mens sekvensering af planeterne og observation af månefaser udvikler den systematiske tænkning, der er central for naturvidenskabelig undersøgelse.',
+      activity: 'Efter et planetsorteringsarbejdsark gennemfører eleverne et eksperiment, hvor de bruger frugt af forskellige størrelser til at repræsentere planeterne og placerer dem i korrekt rækkefølge og relativ afstand i skolegården, hvilket forbinder arbejdsarkets abstraktion med konkret, fysisk modellering.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Rumtemaets rige ordforråd med ord som stjernebillede, tyngdekraft, kredsløb og atmosfære udvider børnenes naturvidenskabelige ordforråd markant. Informationstekster om rumforskning og astronauter udvikler læseforståelsesstrategier for fagtekster, som Fælles Mål for dansk fremhæver.',
+      activity: 'Eleverne udfylder et ordsøgnings- eller ordforvrængningsarbejdsark med rumordforråd og skriver derefter en kort fagtekst, hvor de bruger mindst fem af de nye ord i sammenhængende sætninger om deres yndlingsplanet eller en rummission.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Astronomiske kontekster giver autentiske grunde til at arbejde med store tal, sammenligning, sekvensering og måleenheder. Planetafstande og -størrelser introducerer positionsværdi på en meningsfuld måde, mens missionstidslinjer og nedtællinger øver subtraktion og tidsberegning.',
+      activity: 'Eleverne løser additionsopgaver fra billedadditionsarbejdsarket og overfører derefter deres resultater til et klassediagram, der viser den samlede mængde rumgenstande, som klassen har talt, hvilket forbinder individuelle opgaver med datarepræsentation og statistisk tænkning.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Rummissions-portfolio',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: addition med rumbilleder, ordsøgning, farvelægning og logikopgaver. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, rumordforråd, finmotorisk kontrol og logisk ræsonnement. Lad barnet rangordne sine egne arbejdsark fra nemmest til sværest som selvevalueringsøvelse.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste ved gruppearbejde',
+      criteria: 'Mens eleverne samarbejder om planetsortering eller raketadditionsudfordringer, notér om de kan navngive himmellegemer korrekt, bruge rumordforråd i mundtlig kommunikation, løse opgaver selvstændigt og hjælpe klassekammerater med forklaringer. Registrer også vedholdenhed ved udfordrende opgaver og evne til at overføre strategier mellem arbejdsarktyper.',
+      gradeLevel: 'Børnehaveklasse til 1. klasse',
+    },
+    {
+      method: 'Transfertest uden rumtema',
+      criteria: 'Efter gennemførelse af et sæt rummatematikarbejdsark giv eleverne tre tilsvarende opgaver uden rumkontekst for at tjekke, om færdighederne kan overføres til abstrakte sammenhænge. Sammenlign resultater med de temabaserede arbejdsark for at vurdere, i hvilken grad rumkonteksten fungerer som motiverende stillads versus nødvendig støtte, og juster fremtidig undervisning derefter.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug rummets enorme skala som springbræt til positionsværdiundervisning. Når børn hører, at Jorden er 12.742 kilometer i diameter, og Jupiter er 139.820 kilometer, får store tal en konkret mening, der gør positionsværditabeller relevante og spændende. Lad eleverne skrive planetstørrelser med talblokke for at visualisere cifrenes placering og værdi.',
+      source: 'Fælles Mål for matematik — talforståelse og positionsværdi i den danske folkeskole',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt den naturlige nedtælling ved raketopsendelser til at styrke baglæns tælning og subtraktion. Nedtælling fra ti til nul er en dramatisk, engagerende kontekst, som selv de mest uengagerede elever reagerer på. Udvid til nedtælling fra tyve eller halvtreds for ældre elever, og forbind med subtraktionstrategier som at tælle ned på en tallinje.',
+      source: 'Nordisk naturfagsdidaktik — kontekstbaseret matematikundervisning i skandinaviske skoler',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Kombiner rumarbejdsark med stjernekiggeri hjemme for at skabe autentisk læring uden for skolen. Danske vintre tilbyder lange mørke aftener, der er ideelle til at observere stjernebilleder og planeter. Bed forældrene om at identificere ét stjernebillede sammen med barnet efter et arbejdsark om stjerner, hvilket transformerer papirøvelser til levende naturvidenskabelig praksis.',
+      source: 'Sjøberg, S., Universitetet i Oslo — motivation og nysgerrighed i naturfagsundervisning, tilpasset dansk kontekst',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Rumfænomener dækket', value: '15+ emner' },
+  ],
 };
 
 registerThemeContent('space', 'da', content);

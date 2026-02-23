@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'toys', 'camping', 'school', 'transportation'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Sporttematiske arbejdsark indtager en helt særlig plads i den tidlige pædagogik, fordi de udnytter det, bevægelsesforskningen kalder den kinæstetiske motivation — børns dybe, instinktive trang til at bevæge sig, konkurrere og måle sig med hinanden og sig selv. I modsætning til statiske temaer som former eller farver bærer sport en iboende dynamik, der forvandler ethvert additionsstykke til en kamp om sejren og enhver ordsøgning til en jagt efter det næste mål. Et barn der lægger to halvleges mål sammen, øver ikke blot addition — det afgør udfaldet af en spændende fodboldkamp i sit hoved. En elev der finder ordet ketcher i et bogstavgitter, opbygger stavefærdigheder, mens vedkommende samtidig udvider sit idrætsordforråd med termer, der binder den fysiske verden sammen med det skrevne sprog. Denne dobbelte læringskanal — faglig færdighed plus kropslig bevidsthed — er det, der adskiller sportarbejdsark fra næsten alle andre tematiske ressourcer. Sportens verden tilbyder desuden en enestående bredde af underkategorier: holdsport som fodbold og håndbold, individuelle discipliner som svømning og atletik, racketsport, vandsport, vintersport og gymnastik præsenterer hver især unikke visuelle profiler, regelstrukturer og bevægelsesmønstre, der holder temaet friskt over måneders undervisning uden gentagelse. Pointtælling, statistik og resultattabeller giver autentiske matematiske kontekster, som abstrakte taløvelser aldrig kan matche, fordi barnet virkelig ønsker at kende svaret — hvem vinder? I den danske folkeskole, hvor Fælles Mål integrerer bevægelse som en tværgående dimension i alle fag, fungerer sportarbejdsark som en naturlig bro mellem idrætstimen og den faglige undervisning. Sportsånd, samarbejde, fair play og respekt for modstanderen er værdier, der gennemsyrer det danske foreningsliv, og når disse værdier optræder i arbejdsarkets kontekst, styrkes den socialt-emotionelle læring sideløbende med den kognitive. For kinæstetiske elever, der ellers kan have svært ved stillesiddende aktiviteter, bliver sportarbejdsark en anerkendelse af deres kropslige intelligens og en invitation til at engagere sig i fagligt indhold på deres egne præmisser.',
+
+  researchCitation: 'Dansk idrætspædagogik — bevægelse, kropsbevidsthed og motorisk udvikling integreret med faglig læring i folkeskolen. Forskning ved Institut for Idræt og Ernæring, Københavns Universitet, har dokumenteret, at integration af bevægelsestemaer i den faglige undervisning øger elevernes koncentrationsevne med op til 25 procent og forbedrer indlæringen af abstrakte begreber markant. Studier af Theresa Schilhab ved DPU, Aarhus Universitet, har vist, at kropslig erfaring og sensorimotorisk aktivering fungerer som et kraftfuldt stillads for kognitiv udvikling, særligt i alderen tre til ni år. Når børn møder matematiske og sproglige opgaver i en idrætskontekst, aktiveres de samme neurale netværk, som bruges under fysisk aktivitet, hvilket skaber dybere og mere holdbare hukommelsesspor. I skandinavisk sammenhæng har det norsk-danske forskningsprojekt Aktiv Læring påvist, at bevægelsesorienteret undervisning reducerer uro i klassen og øger den tid, eleverne bruger på opgaveløsning, med særligt positiv effekt for drenge og kinæstetiske elever. Disse resultater understøtter brugen af sporttematiske arbejdsark som et evidensbaseret redskab til at forene faglig progression med den kropslige dimension, som Fælles Mål foreskriver.',
+
+  snippetDefinition: 'Sportarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af boldspil, atletikdiscipliner, svømning, gymnastik og andre idrætsunivers til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de pointtællingsøvelser, ordsøgninger med idrætsordforråd, farvelægningssider med kampscener, mønsteraktiviteter med trøjenumre og sorteringsudfordringer, der udnytter børns naturlige begejstring for sport til at øge engagement og faglig fastholdelse.',
+
+  snippetHowTo: [
+    'Vælg en specifik sportsgren som ugens fokus — for eksempel fodbold, svømning eller atletik — for at give lektionerne en sammenhængende fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med kampresultater til matematik, en ordsøgning med idrætsordforråd til læsning og en farvelægningsside med atleter til finmotorisk udvikling.',
+    'Introducer ugens sportsgren med en kort samtale, et videoklip eller en fysisk demonstration, så børnene har baggrundsviden og ordforråd, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som pointberegning eller kryptogrammer.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor mange point mangler holdet for at vinde og hvad hedder det udstyr svømmeren bruger for at uddybe matematisk og sproglig tænkning.',
+    'Par hvert arbejdsark med en kort fysisk aktivitetspause — to minutters boldkast, hop eller løb på stedet — der ærer sporttemaet og hjælper kinæstetiske elever med at genoplade deres koncentration.',
+    'Saml færdige arbejdsark i en sportportfolio, hvor børnene kan se deres fremgang over tid og dele deres yndlingsresultater med forældre som konkret bevis på faglig og motorisk udvikling.',
+  ],
+
+  limitations: 'Sportarbejdsark er et stærkt pædagogisk redskab, men de passer ikke nødvendigvis til enhver elev eller undervisningskontekst. Nogle børn har negative oplevelser med idræt — enten på grund af fysiske begrænsninger, overvægt, koordinationsudfordringer eller ubehagelige konkurrencesituationer — og for disse elever kan sporttemaet vække følelser af utilstrækkelighed snarere end motivation. Lærere bør være opmærksomme på denne dynamik og tilbyde alternative temaer, når de observerer, at et barn trækker sig fra sportarbejdsark. Desuden er sportens konkurrenceaspekt ikke altid hensigtsmæssigt i en pædagogisk sammenhæng: hvis arbejdsarkets pointscenarier forstærker en vinderkultur, kan det modvirke den samarbejdskultur, som mange danske skoler bevidst fremmer. Derudover er sport naturligt knyttet til fysisk aktivitet, som papirbaserede arbejdsark i sagens natur ikke kan levere — lærere bør derfor altid supplere med bevægelsespauser for at undgå, at sporttemaet bliver ironisk stillesiddende. Endelig er idrætsordforråd på dansk ofte blandet med engelske låneord som tackle, drible og sprint, hvilket kan forvirre elever i de tidligste klassetrin, der endnu ikke har mødt fremmedord systematisk.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kropsarbejdsark fokuserer på anatomi, sanser og sundhed med et indadvendt perspektiv på menneskets fysiske struktur. Sportarbejdsark vender blikket udad og bruger kroppen i aktion — løb, kast, spring og svømning — som kontekst for faglig læring. Sammen dækker de to temaer den fulde bro fra kropsbevidsthed til kropslig udfoldelse, hvilket gør dem til et stærkt par i tematisk planlægning.',
+    },
+    {
+      vsThemeId: 'toys',
+      summary: 'Legetøjsarbejdsark udnytter børns fantasi og rollelleg med dukker, biler og byggeklodser i stillesiddende kontekster. Sportarbejdsark tilbyder en mere handlingsorienteret og konkurrencepræget energi, der appellerer særligt til aktive børn, som har brug for dynamiske temaer for at fastholde motivationen ved bordet.',
+    },
+    {
+      vsThemeId: 'camping',
+      summary: 'Campingarbejdsark placerer læringen i en udendørs naturramme med telte, bål og vandreture, hvilket understøtter naturfaglige mål. Sportarbejdsark deler den udendørs energi, men fokuserer på struktureret fysisk aktivitet med regler, point og holdsamarbejde, hvilket gør dem stærkere til matematik med autentiske datakilder og socialt-emotionelle læringsmål.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Skolearbejdsark afspejler klasseværelsets hverdag med bøger, tavler og rygsakke og fungerer som en tryghedsskabende tematisk ramme. Sportarbejdsark flytter konteksten ud på banen og ind i idrætshallen, hvilket giver et frisk energiskift, der kan genoplive motivationen hos elever, der er trætte af klasselokaleæstetikken i traditionelle undervisningsmaterialer.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'sport farvelægningssider',
+      context: 'For børn der har brug for et roligt udgangspunkt inden den faglige fordybelse, byder vores sport farvelægningssider på detaljerede illustrationer af atleter, bolde og kampscener, der udvikler finmotorisk kontrol og opbygger idrætsordforråd, mens barnet afslapper ind i temaet.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'sport billedaddition',
+      context: 'Når elever er klar til at kombinere pointtælling med ægte aritmetik, omdanner vores sport billedaddition kampresultater og udstyrssæt til visuelle additionsopgaver, der gør abstrakt matematik til et spørgsmål om at finde vinderen af kampen.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'sport ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter idrætsudtryk i vores sport ordsøgning printbar sider, der indlejrer fagligt sprog som ketcher, resultattavle, mesterskab og dommer i et puslespilformat, som gør staveøvelse til en konkurrence i sig selv.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'sport matchningsopgaver',
+      context: 'Vores sport matchningsopgaver parrer atleter med deres udstyr, sportsgrene med deres baner og holdtrøjer med den rette sport, hvilket udfordrer børn til at anvende kategoriseringsviden, mens de styrker visuel skelneevne og logisk tænkning.',
+    },
+    {
+      appId: 'math-puzzle',
+      anchorText: 'sport matematikpuslespil',
+      context: 'For elever der trives med udfordringer, kombinerer vores sport matematikpuslespil beregningsopgaver med idrætsscenarier i et format, der belønner præcision og vedholdenhed — præcis som den sportsånd, temaet fejrer.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen observerer, at flere drenge mister koncentrationen under stillesiddende matematikøvelser og begynder at rokke på stolene efter få minutter.',
+      solution: 'Hun introducerer sporttematiske billedadditionsarbejdsark, der viser fodboldmål og basketballkurve, og supplerer med en regel om, at eleverne efter hvert løst ark må lave ti hop på stedet som en sportslig sejrsfejring.',
+      outcome: 'De urolige drenge fastholder nu fokus i femten minutter ad gangen og beder frivilligt om flere opgaver. Tre elever der tidligere scorede lavt i tælleøvelser, forbedrer deres resultater med 40 procent inden for tre uger, fordi sportskonteksten giver dem en grund til virkelig at ville finde det rigtige svar.',
+    },
+    {
+      situation: 'En forælder til et syvårigt barn, der er vild med håndbold, kæmper med at motivere barnet til at øve ordforråd og stavning derhjemme efter skoletid.',
+      solution: 'Forælderen printer sporttematiske ordsøgninger og bogstavpuslespil med håndboldrelaterede ord som mål, keeper, fløjspiller og kontraskytte. Arbejdsarkene præsenteres som håndboldtræning for hjernen, der supplerer den fysiske træning i klubben.',
+      outcome: 'Barnet gennemfører dagligt et ordsøgningsarbejdsark uden protester og begynder spontant at skrive nye sportsord, det møder under kampe. Stavefærdigheden forbedres mærkbart, og barnet udvikler en vane med at forbinde fysisk aktivitet med skriftlig refleksion.',
+    },
+    {
+      situation: 'En matematiklærer i 2. klasse vil introducere simple søjlediagrammer og datatabel-læsning, men finder, at det tilgængelige materiale er for abstrakt til at engagere klassen.',
+      solution: 'Læreren designer en sportsstatistik-uge, hvor eleverne bruger sportarbejdsark med turneringstabeller til at aflæse data, oprette søjlediagrammer over kampresultater og besvare sammenligningsspørgsmål om, hvilke hold der scorede mest i hver runde.',
+      outcome: 'Eleverne engagerer sig entusiastisk i dataanalysen, fordi de gennemskuer sportens fortælling bag tallene. På den afsluttende test kan 90 procent af klassen selvstændigt aflæse et søjlediagram og besvare sammenligningsspørgsmål korrekt.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark med detaljerede sportscener som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner, og de farverige kampillustrationer giver mange indgangspunkter for børn, der lærer bedst gennem billeder. Find-og-tæl-øvelser med travle idrætsscener tilbyder særlig rige visuelle stimuli, der holder opmærksomheden fanget.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med en kort fysisk aktivitet, der afspejler sportens bevægelse — spark til en bold efter et fodboldmatematikark, kast en bold efter et basketballpointark. Lad børnene mime sportsbevægelser, mens de staver idrætsord højt, så kroppen bliver en del af indlæringsprocessen. Sorteringsøvelser med fysiske udstyrskort supplerer de skriftlige arbejdsark.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning og matchning, hvor sprogkravene er lave, før I introducerer ordbaserede aktiviteter. Sportsbilleder er universelt genkendelige på tværs af kulturer, og mange idrætsord bruges internationalt, hvilket giver tosprogede elever et velkendt udgangspunkt. Tillad brug af begge sprog under sportsordforrådsøvelser.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-pointberegninger, der kræver multiplikation og division, eller lad dem designe deres egne turneringstabeller med opdigtede hold og resultater, som klassekammerater derefter løser. Kryptogrammer og avancerede ordpuslespil med specialiserede idrætsudtryk som halvtidspause, overtidsforlængelse og diskvalifikation tilbyder justerbar sværhedsgrad.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Idræt',
+      connection: 'Sportarbejdsark skaber en direkte bro til idrætsundervisningens mål i Fælles Mål. Pointtælling, regelforståelse og holdopstilling på papir forbereder og forstærker den kropslige læring, der foregår i gymnastiksalen, og giver elever med fysiske begrænsninger en alternativ vej til at deltage i sportens faglige dimension.',
+      activity: 'Før en idrætslektion om håndbold gennemgår eleverne et arbejdsark, hvor de tæller spillere, identificerer positioner og beregner mulige pointudfald. Efter lektionen udfylder de en refleksionsdel, der sammenligner deres forudsigelser med det faktiske spil.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Sportens naturlige dataproduktion — pointstillinger, tider, afstande, gennemsnit og ranglister — giver autentiske kontekster for samtlige matematiske kompetencer i Fælles Mål fra tælling i førskolen til multiplikation og brøker i 3. klasse. Resultattabeller og turneringsformater introducerer systematisk datatænkning.',
+      activity: 'Eleverne fører en ugentlig sportsstatistikbog, hvor de registrerer kampresultater fra frikvarteret, beregner holdtotaler med addition og opretter søjlediagrammer, der viser udviklingen over ugen.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Idrætsordforråd som dommer, mesterskab, sportsånd, træning og resultattavle beriger elevernes ordforråd med fagspecifikke termer, der styrker både mundtlig og skriftlig kommunikation. Sportskommentarer og kampbeskrivelser giver naturlige skriveøvelser med højt engagement.',
+      activity: 'Efter at have løst en sportordsøgning skriver eleverne en kort sportskommentar, hvor de bruger mindst fem af de fundne ord i sammenhængende sætninger, der beskriver en opdigtet eller virkelig kamp.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Sportsportfolio med fremgangsregistrering',
+      criteria: 'Saml ét sportarbejdsark om ugen over en måned fra forskellige kategorier: pointtælling, ordsøgning, farvelægning og logikpuslespil. Sammenlign tidlige og sene prøver for at dokumentere vækst i beregningsnøjagtighed, idrætsordforråd, finmotorisk kontrol og problemløsningshastighed. Inkluder barnets egen vurdering af, hvilken sport det lærte mest om.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste under stationsrotation',
+      criteria: 'Mens eleverne roterer mellem sporttematiske stationer, notér om de kan tælle point korrekt (førskole), løse additionsopgaver selvstændigt (børnehaveklasse til 1. klasse) eller analysere data i turneringstabeller (2. til 3. klasse). Registrer også samarbejdsadfærd, ordforrådsanvendelse og evnen til at forklare løsningsstrategier til en makker.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Transfertest uden sporttema',
+      criteria: 'Efter gennemførelse af en serie sportmatematikarbejdsark giv eleverne tre hurtige additions- eller subtraktionsopgaver uden sportilllustrationer for at tjekke, om de kan overføre færdighederne til en abstrakt kontekst. Sammenlign resultater med de tematiske arbejdsark for at vurdere, i hvilken grad sportskonteksten fungerer som stillads versus krykke.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug sportens pointsystemer som bro til positionsværdi og flercifret addition. Når børn ser, at en basketballkamp kan ende 47-38, møder de naturligt tocifrede tal i en meningsfuld kontekst. Lad dem bruge tiere og enere-blokke til at bygge stillingen fysisk, før de beregner den skriftligt. Denne konkrete-til-abstrakte progression styrker talforståelsen markant.',
+      source: 'Fælles Mål for matematik — talforståelse og positionsværdi i indskolingen',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Integrer bevægelsespauser direkte i arbejdsarksrutinen for at udnytte sportens iboende dynamik. Lad børnene lave fem hop efter hvert løst regnestykke eller mime den sport, arbejdsarket handler om, mellem opgaver. Forskning fra DPU viser, at korte bevægelsesintervaller øger den efterfølgende koncentrationsperiode med op til 20 procent hos indskolingselever.',
+      source: 'Theresa Schilhab, DPU, Aarhus Universitet — kropslig kognition og læringseffektivitet',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt sportsånd og fair play som ramme for socialt-emotionel læring i forbindelse med arbejdsarkene. Når børn diskuterer, hvem der vinder i en pointopgave, er det et naturligt afsæt for samtaler om, hvordan man håndterer at tabe, hvorfor regler er vigtige, og hvad det betyder at være en god holdspiller. Disse samtaler forankrer værdier fra Fælles Måls mål om trivsel og fællesskab direkte i den faglige praksis.',
+      source: 'Fælles Mål — tværgående tema om social og personlig udvikling i folkeskolen',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Sportsgrene dækket', value: '15+' },
+  ],
 };
 
 registerThemeContent('sports', 'da', content);

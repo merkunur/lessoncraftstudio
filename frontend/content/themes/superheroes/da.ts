@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['robots', 'fairy-tales', 'emotions', 'sports', 'pirates', 'space'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Superhelte-arbejdsark indtager en helt særlig position i tidlig pædagogik, fordi de aktiverer det, udviklingspsykologer kalder aspirationsbaseret identifikation — barnets medfødte trang til at forestille sig selv som stærkere, modigere og mere kapabel end deres nuværende virkelighed. Denne psykologiske mekanisme er fundamentalt anderledes end den nysgerrighed, dyr eller natur vækker, fordi superheltebilleder ikke blot informerer barnet, men transformerer barnets selvopfattelse i selve læringsøjeblikket. Når et barn udfylder et matematikark indrammet som en heltemission, er det ikke længere en elev der kæmper med addition — det er en helt der beregner redningsoperationer, og denne identitetsforskydning reducerer matematikangst markant. Den narrative struktur i superheltegenren tilbyder desuden et pædagogisk stillads, som næsten intet andet tema kan matche: hver opgave har en begyndelse (missionen annonceres), en midte (problemet skal løses) og en slutning (borgerne er reddet), hvilket giver selv den mest abstrakte færdighedsøvelse en meningsfuld kontekst. Superheltefigurer fungerer også som moralske kompasser i klasseværelset, fordi deres handlinger altid kræver etiske beslutninger — skal helten redde én person eller mange, skal kraften bruges til personlig vinding eller fællesskabets bedste — og disse dilemmaer udvikler den moralske ræsonneringsevne, som Fælles Mål fremhæver under personlig og social udvikling. Den visuelle dynamik i superhelteillustrationerne — kapper i bevægelse, bylandskaber med dybde, action-positurer med energilinjer — træner desuden den visuelle opmærksomhed og detaljeorientering, der er afgørende for både læseparathed og matematisk diagramfortolkning. Endelig er superheltetemaet kulturelt inkluderende i den danske folkeskole, fordi superhelte transcenderer køn, etnicitet og sproglig baggrund: enhver elev kan projicere sig selv ind i helterollen uanset personlig historie.',
+
+  researchCitation: 'Dansk narrativ pædagogik — superheltfortællinger som redskab for identitetsdannelse, moralsk ræsonnement og motiveret læring. Forskning fra danske og skandinaviske pædagogiske miljøer har dokumenteret, at fortællebaseret undervisning, hvor børn indtager roller som handlende agenter i en narrativ ramme, producerer signifikant dybere engagement og bedre læringsresultater end traditionel instruktion. Studier fra Dansk Pædagogisk Universitet viser, at børn i alderen fire til ni, der arbejder med heroiske fortællinger, udvikler stærkere narrativ kompetence, rigere følelsesmæssigt ordforråd og mere nuanceret moralsk ræsonnement sammenlignet med kontrolgrupper. Superheltefortællinger aktiverer specifikt den prosociale identifikationsproces, hvor barnet internaliserer heltens værdier — mod, hjælpsomhed, retfærdighed — og overfører disse til egne handlinger i klasseværelset. Forskningen understreger også, at den høje motivationsfaktor i superheltekonteksten reducerer kognitiv belastning ved fagligt udfordrende opgaver, fordi barnets arbejdshukommelse ikke optages af angst eller kedsomhed men kanaliseres mod selve problemløsningen.',
+
+  snippetDefinition: 'Superhelte-arbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af heroiske figurer — med kapper, masker, skjolde og superkræfter — til at undervise i matematik, læsning, logik og kreative færdigheder. Designet til børn i alderen 3 til 9 omfatter de missionsbaserede regneopgaver, ordsøgninger med helteordforråd, farvelægning af dynamiske action-scener og logikpuslespil, der udnytter børns naturlige fascination af superhelte til at øge motivation og læringsudbytte.',
+
+  snippetHowTo: [
+    'Vælg en ugentlig heltemission som tematisk ramme — for eksempel redningsmission, træningsakademi eller helteholdsudfordring — så alle arbejdsark i ugen hænger sammen i en sammenhængende fortælling.',
+    'Udvælg to til tre arbejdsarktyper der dækker forskellige færdigheder: en billedadditionsside til matematik, en ordsøgning til ordforråd og en farvelægningsside til finmotorik, så hver session træner multiple kompetencer.',
+    'Introducer heltemissionen med en kort mundtlig fortælling eller rollespil, der etablerer konteksten: byen har brug for hjælp, og eleverne er de helte der skal løse opgaverne for at fuldføre missionen.',
+    'Udlever arbejdsarkene i stigende sværhedsgrad — start med farvelægning eller matchning for at opbygge selvtillid, fortsæt med matematik eller ordpuslespil og afslut med den mest udfordrende logikopgave.',
+    'Brug actionfyldt sprog under arbejdet: missionsrapport modtaget, superkraft aktiveret og borgere reddet for at opretholde den heroiske stemning og fejre indsats med en følelse af kraft.',
+    'Afslut hver session med en helte-debriefing, hvor børnene deler hvad de lærte, hvilken opgave der var sværest, og hvilken superkraft de brugte til at klare den — dette styrker metakognition og mundtligt sprog.',
+    'Saml færdige arbejdsark i et personligt helte-arkiv, så børnene kan se deres voksende samling af fuldførte missioner, hvilket opbygger stolthed og synlig dokumentation af faglig fremgang.',
+  ],
+
+  limitations: 'Superhelte-arbejdsark er muligvis ikke det optimale valg for enhver elev eller undervisningskontekst. Nogle børn kan have vanskeligt ved at skelne mellem fantasihandlinger og virkelighed, hvilket kræver at lærere tydeligt rammer superheltekonteksten som leg og fantasi, ikke som en opfordring til fysisk efterligning af superkræfter. Temaet har en iboende handlingsorientering, der kan forstærke uro hos børn med opmærksomhedsvanskeligheder, medmindre læreren bevidst strukturerer sessioner med rolige overgange mellem fysisk energi og koncentreret arbejdsarkstid. Desuden er superheltegenren kulturelt formet af vestlige medier, og i mangfoldige danske klasseværelser bør lærere sikre, at heltebillederne repræsenterer bred mangfoldighed, så alle børn kan se sig selv i figuren. For abstrakte matematiske begreber som brøker eller pladsværdi kan den dramatiske heltefortælling nogle gange overskygge det faglige indhold, hvis opgaverne ikke er omhyggeligt designet til at holde balancen mellem narrativ og matematik. Endelig kan temaets popularitet betyde, at nogle børn medbringer stærke præferencer for kommercielle superhelte, som kan distrahere fra de originale, kønsneutrale figurer på arbejdsarkene.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'robots',
+      summary: 'Robot-arbejdsark fokuserer på teknologi, logiske sekvenser og mekanisk tænkning, hvilket gør dem stærkere til tidlig programmerings- og STEM-undervisning. Superhelte-arbejdsark fremhæver derimod narrativ identifikation, moralsk ræsonnement og social-emotionel læring. Tilsammen dækker de to temaer både den analytiske og den empatiske dimension af børns udvikling.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Eventyrarbejdsark deler superheltetemaets narrative kraft, men opererer i en langsommere, mere kontemplativ fortællestil med fokus på kulturarv og traditionelle moralske lektioner. Superheltearbejdsark bringer en dynamisk, handlingsorienteret energi, der appellerer særligt til børn, som har svært ved at sidde stille under længere fortællesessioner.',
+    },
+    {
+      vsThemeId: 'emotions',
+      summary: 'Følelsesarbejdsark underviser direkte i emotionel genkendelse og regulering med eksplicitte ansigtsudtryk og situationskort. Superhelte-arbejdsark nærmer sig de samme social-emotionelle mål indirekte gennem karaktertræksanalyse og heroisk beslutningstagning, hvilket kan være mere tilgængeligt for børn der modstår direkte samtaler om egne følelser.',
+    },
+    {
+      vsThemeId: 'pirates',
+      summary: 'Piratarbejdsark tilbyder eventyrbaseret læring med kort, skattejagter og navigation, der styrker rumlig tænkning og geografisk forståelse. Superhelte-arbejdsark erstatter den fysiske udforskning med en stærkere fokus på moralske valg og prosocial adfærd, hvilket gør dem bedre egnet til karakteruddannelsesprogrammer og social-emotionelle læringsmål.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'superhelte farvelægningssider',
+      context: 'For børn der har brug for et roligt, kreativt udgangspunkt til en heltemission, byder vores superhelte farvelægningssider på dynamiske heltefigurer i action-positurer, kapper i bevægelse og bylandskabsbaggrunde, der udvikler finmotorisk kontrol, mens de inspirerer fantasifuldt kostumedesign.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'superhelte billedaddition',
+      context: 'Når elever er klar til missionsbaseret matematik, præsenterer vores superhelte billedaddition regneopgaver med kraftstjerner, skjolde og heltemedaljer som visuelle tællere, der forvandler abstrakt aritmetik til heroiske redningsberegninger med ægte fortællemæssig kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'superhelte ordsøgning printbar',
+      context: 'Ordforrådsudvikling accelererer, når børn jager efter heroiske begreber i vores superhelte ordsøgning printbar sider, der indlejrer karaktertræksord som mod, styrke, retfærdighed og beskyttelse i et puslespilformat, som gør staveøvelse til en spændende kodeknækningsmission.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'superhelte skyggematchning',
+      context: 'Vores superhelte skyggematchning udfordrer børn til at matche heltefigurer med deres silhuetter ved at analysere kapper, positurer og tilbehør, hvilket styrker visuel skelneevne og den formgenkendelse, der understøtter både bogstavidentifikation og logisk tænkning.',
+    },
+    {
+      appId: 'odd-one-out',
+      anchorText: 'superhelte find-den-anderledes',
+      context: 'For at træne systematisk observation og logisk udelukkelse præsenterer vores superhelte find-den-anderledes opgaver rækker af heltefigurer med subtile forskelle i udstyr, kappemønstre eller maskedetaljer, der kræver den omhyggelige sammenligning, som bygger analytisk tænkning.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen oplever, at flere elever har svært ved at fastholde motivationen under matematikøvelser, fordi tallene føles abstrakte og meningsløse for femårige.',
+      solution: 'Hun introducerer superhelte-billedadditionsarbejdsark, hvor børnene beregner hvor mange kraftstjerner helten skal samle for at fuldføre sin mission. Hver opgave indrammes som et trin i en redningsoperation, og børnene modtager et helteklistermærke efter hvert fuldført ark.',
+      outcome: 'Inden for ti dage stiger elevernes gennemsnitslige opgavefuldførelse fra 60 til 92 procent. Tre elever der tidligere nægtede at arbejde med matematik, beder nu frivilligt om ekstra heltemissioner i fritiden.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et barn i 1. klasse bemærker, at barnet har rigt mundtligt ordforråd men modstår skriftlige aktiviteter og bliver frustreret over skriveøvelser.',
+      solution: 'Forælderen printer superhelte-ordsøgnings- og ordgættearbejdsark og præsenterer dem som hemmelige heltekoder, der skal knækkes for at fuldføre missionen. Barnet får en heltekappe på under skrivetiden og dikterer sine svar højt, før det skriver dem ned.',
+      outcome: 'Barnet gennemfører tre til fire ordpuslespilsarbejdsark pr. session uden frustration. Stavefærdighederne forbedres synligt inden for en måned, og barnet begynder spontant at skrive korte heltehistorier i sin fritid.',
+    },
+    {
+      situation: 'En 2. klasselærer ønsker at styrke social-emotionel læring men finder, at de traditionelle følelseskort og rollespil ikke engagerer de mere tilbageholdende elever i klassen.',
+      solution: 'Læreren bruger superhelte-tegne-og-farve-arbejdsark, hvor eleverne designer deres egen helt med en unik superkraft og skriver en profil, der beskriver heltens karaktertræk. Klassen diskuterer derefter hvilke træk der gør en ægte helt, og sammenligner med virkelighedens hverdagshelte.',
+      outcome: 'Selv de mest tilbageholdende elever deltager aktivt, fordi superheltekonteksten tillader dem at tale om følelser og værdier gennem en tryg, fiktiv ramme. Lærerens observationer viser markant øget brug af karaktertræksordforråd i elevernes daglige interaktioner.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings-, skyggematchnings- og tegne-og-farve-arbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver dynamiske helteillustrationers rige detaljer som indgangspunkt til fagligt indhold. Find-den-anderledes-opgaver med subtile forskelle i helteudstyr tilbyder særligt stærk visuel stimulering.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske superhelte-rekvisitter: en kappe, en maske eller et papskjold. Lad børnene indtage heltepositioner mellem opgaver og brug stationsrotation, hvor de fysisk bevæger sig mellem heltemissioner i lokalet. Den kropslige aktivering kanaliserer overskudsenergi produktivt og forankrer abstrakt læring i konkret bevægelse.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, skyggematchning og billedaddition, hvor sprogbarrieren er minimal. Superhelteordforråd som helt, kraft og skjold er ofte blandt de første ord, tosprogede børn lærer via medier, hvilket giver en naturlig bro til dansk fagligt sprog. Tillad navngivning af superkræfter på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-missionsopgaver der kræver sekventiel problemløsning, eller lad dem designe deres egne superhelte-arbejdsark til klassekammerater. Ordsøgninger og ordgætteaktiviteter med avanceret karakterordforråd som beslutsomhed, integritet og opofrelse tilbyder justerbar sværhedsgrad til ordforrådsudvidelse på højt niveau.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Dansk',
+      connection: 'Superhelte-arbejdsark forbinder naturligt til danskfagets mål i Fælles Mål om narrativ kompetence, beskrivende skrivning og karakteranalyse. Helteprofilaktiviteter udvikler beskrivende ordforråd, mens missionsbaserede skriveprompter styrker narrativ struktur med begyndelse, midte og slutning.',
+      activity: 'Efter en superhelte-ordsøgning vælger eleverne tre helteord og skriver et kort afsnit, der beskriver en superhelt, som besidder alle tre egenskaber. Klassen deler historierne og diskuterer, hvilke karaktertræk der er vigtigst for en ægte helt.',
+    },
+    {
+      subject: 'Billedkunst',
+      connection: 'Superhelte-farvelægnings- og tegnearbejdsark udvikler finmotoriske færdigheder og kunstnerisk udtryk, mens børn eksperimenterer med dynamiske positurer, farveskemaer og symboldesign. Kostumedesign-aktiviteter introducerer grundlæggende designprincipper som farvekontrast, symmetri og personligt logodesign.',
+      activity: 'Eleverne designer et komplet superheltekostume med kappe, maske og brystlogo efter at have studeret farveteori. De præsenterer deres design for klassen og forklarer, hvorfor de valgte bestemte farver og symboler til at repræsentere deres helts personlighed.',
+    },
+    {
+      subject: 'Samfundsfag',
+      connection: 'Superhelternes prosociale handlinger skaber en naturlig bro til samfundsfagets mål om medborgerskab, fællesskabsansvar og etisk beslutningstagning. Diskussioner om hverdagshelte — brandfolk, ambulancefolk, frivillige — forbinder den fiktive helterolle med virkelige samfundsfunktioner.',
+      activity: 'Klassen laver en væg med hverdagshelte, hvor eleverne tegner og beskriver virkelige mennesker i deres lokalsamfund, som udviser heroiske træk. De sammenligner hverdagsheltenes kvaliteter med deres arbejdsark-superhelte og identificerer fælles karaktertræk.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Heltemissionsportfolio',
+      criteria: 'Saml ét superheltearbejdsark om ugen over en måned fra forskellige kategorier: matematik-missioner, ordforrådsudfordringer, kreative designopgaver og logikpuslespil. Sammenlign tidlige og sene prøver for at dokumentere vækst i regnefærdighed, ordforrådsbredde, finmotorisk kontrol og logisk ræsonneringsevne.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Karaktertræks-observationstjekliste',
+      criteria: 'Mens eleverne arbejder med superhelte-designopgaver og helteprofilskrivning, notér om de kan identificere ét karaktertræk (førskole), beskrive to til tre træk med eksempler (børnehaveklasse) eller analysere moralske dilemmaer med begrundelse (1.-3. klasse). Registrer også brug af helteordforråd i daglig tale.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Missionsbaseret transfertest',
+      criteria: 'Efter gennemførelse af et sæt superhelte-matematikarbejdsark giv eleverne tre tilsvarende opgaver uden heltetema for at vurdere, om de kan overføre færdigheder fra den motiverende superheltekontekst til en neutral kontekst. Sammenlign resultater for at evaluere, i hvilken grad heltefortællingen fungerer som stillads versus nødvendig støtte.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug superheltedilemmaer som udgangspunkt for filosofiske samtaler med børn. Når et arbejdsark præsenterer en helt, der skal vælge mellem at redde mange eller redde én person, vedkommende kender, åbnes en autentisk diskussion om etik, der udvikler den moralske ræsonneringsevne, som Fælles Mål fremhæver under personlig og social dannelse. Disse samtaler styrker både mundtligt sprog og kritisk tænkning.',
+      source: 'Fælles Mål for livsoplysning og etik — den danske folkeskoles dannelsesperspektiv',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Introducer superhelte-ordforråd gennem kropsbaserede læringsstrategier. Lad børn indtage en styrke-positur, når de lærer ordet kraftfuld, en beskyttende positur for skjold, og en flyvepositur for uovervindelig. Denne embodied cognition-tilgang forankrer abstrakte karaktertræksord i konkret kropslig erfaring, hvilket dramatisk forbedrer ordforrådsretention hos børn i førskole og indskoling.',
+      source: 'Dansk narrativ pædagogik — kropslig læring og sprogudvikling i den tidlige barndom',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt superheltetemaets høje motivationsfaktor til at introducere selvreguleringsfærdigheder. Lær børnene, at ægte superhelte kontrollerer deres kræfter — de bruger dem kun, når det er nødvendigt — og forbind dette med klassens forventninger om selvkontrol, tålmodighed og koncentration. Denne metafor giver børn et konkret billede på abstrakte selvreguleringsbegreber, som ellers er vanskelige at formidle til seks- til niårige.',
+      source: 'Skandinavisk forskning i selvregulering og narrativ identitet i indskolingen',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Superheltaktiviteter tilgængelige', value: '33 generatorer' },
+  ],
 };
 
 registerThemeContent('superheroes', 'da', content);

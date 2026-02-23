@@ -102,6 +102,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er vejr-arbejdsark for abstrakte for treårige?', answer: 'Slet ikke. Vejret er et af de mest konkrete emner, der findes, fordi børn bogstaveligt talt kan se og mærke det hver dag. Førskole-vejrarbejdsark bruger simple, velkendte billeder som gummistøvler, paraplyer og solskin snarere end abstrakte meteorologiske begreber, hvilket holder indholdet tilgængeligt og personligt relevant for unge lærende.' },
         { question: 'Hvordan opbygger vejrsorteringsarbejdsark tænkeevner hos førskolebørn?', answer: 'At sortere vejrbilleder efter type underviser i kategorisk tænkning, den kognitive proces med at undersøge egenskaber og gruppere genstande, der deler kendetegn. Denne evne er grundlæggende for både videnskabelig klassifikation og matematisk sortering. Vejret giver en ideel sorteringskontekst, fordi kategorierne er visuelt tydelige og personligt meningsfulde for små børn.' },
       ],
+
+      snippetAnswer: 'Vejr-arbejdsark til førskolen (3–4 år) bruger sol, regn, skyer og sne til tælling, matchning og farvelægning, der styrker naturforståelse og observation. Vejrets daglige skiften fascinerer små børn. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Vejrtemaet er unikt kraftfuldt for førskolebørn, fordi tre- og fireårige oplever vejret med hele kroppen hver eneste dag — regnen på ansigtet, solen på huden, vinden i håret og sneen under støvlerne. Denne daglige, sanselige oplevelse gør vejr til et tema, der aldrig føles abstrakt. Tælling af regndraaber, skyer og snefnug giver matematik i en observerbar kontekst. Matchning af vejrtyper med påklædning opbygger logisk tænkning. Farvelægning af vejrscener træner finmotorik. Fælles Måls mål for natur, årstider og observation understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Daglig observation og beskrivelse (3–4-årige lærer at sætte ord på hverdagsoplevelser)', howWeAddress: 'Vejrobservationsaktiviteter, der beder børn beskrive dagens vejr med ord og billeder, træner mundtligt sprog' },
+        { milestone: 'Årsag-virkning-forståelse (regn = vandpytter, sol = varme)', howWeAddress: 'Matchningsaktiviteter, der forbinder vejrtyper med konsekvenser (regn → paraply, sne → støvler), opbygger logisk tænkning' },
+        { milestone: 'Symbolforståelse (vejrsymboler som piktogrammer)', howWeAddress: 'Vejrsymboler (sol, sky, regndraabe) introducerer ideen om, at billeder kan repræsentere begreber — et forstadium til bogstaver' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre grundlæggende vejrtyper (sol, regn, sne), brug vinduet som supplement, og hold aktiviteterne konkrete. For avancerede førskolebørn tilføj vind, tåge og regnbue, introducér en vejrkalender med daglig registrering og lad dem forudsige morgendagens vejr.',
+      parentTakeaway: 'Vejret er den mest tilgængelige læring overhovedet — man skal bare se ud af vinduet. Start hver morgen med at tale om dagens vejr: er det sol, regn eller overskyet? Lad barnet vælge tøj efter vejret. Tæl regndraaber på ruden. Byg en snemand og tæl kuglerne. Lav en enkel vejrdagbog med symboler for sol, sky og regn.',
+      classroomIntegration: 'Vejrtemaet integreres i daglige rutiner: i morgensamlingen observeres vejret og sættes symbol på kalenderen, ved læringsstationer arbejdes med tælle- og matchningsark, i garderoben tales om vejrpassende påklædning, og på legepladsen opleves vejret med alle sanser. Fælles Måls mål for natur, observation og daglige rutiner understøttes hele året.',
+      assessmentRubric: [
+        { skill: 'Vejrgenkendelse og symboler', emerging: 'genkender sol og regn med støtte', proficient: 'identificerer selvstændigt 4–5 vejrtyper og matcher med symboler', advanced: 'bruger vejrsymboler til at føre en daglig vejrkalender og beskriver vejret mundtligt' },
+        { skill: 'Vejr-matchning (type og konsekvens)', emerging: 'matcher én vejrtype med påklædning med støtte (regn = paraply)', proficient: 'matcher selvstændigt 3–4 vejrtyper med korrekt tøj og udstyr', advanced: 'matcher alle vejrtyper og forklarer, hvorfor man klæder sig sådan' },
+        { skill: 'Tælling i vejrscener', emerging: 'tæller 1–5 skyer/regndraaber med voksenstøtte', proficient: 'tæller selvstændigt op til 10 vejrelementer og matcher med tal', advanced: 'tæller over 10 og sammenligner (flere regndraaber end snefnug)' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Vejr-opgaver Børnehaveklasse | LessonCraftStudio',

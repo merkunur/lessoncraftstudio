@@ -104,6 +104,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke matematiske begreber lærer førskoletransportarbejdsark?', answer: 'De fokuserer på at tælle køretøjer og hjul til ti, sammenligne størrelser med større og mindre, matche lige store sæt af køretøjer og genkende grundlæggende former i køretøjsdesign som cirkler til hjul og rektangler til vinduer. Disse begreber stemmer overens med Fælles Måls førskolerettede kompetencer for matematisk tænkning.' },
         { question: 'Hvordan udvikler transportarbejdsark finmotoriske færdigheder?', answer: 'Køretøjer har geometriske konturer med cirkler, rektangler og trekanter, der kræver mere kontrolleret farvelægning end frihåndsformer. At tegne langs de rette linjer på togskinner eller kurverne på en vej udvikler den blyantskontrol, der er nødvendig for bogstavdannelse. At klippe køretøjsformer ud til sorteringsøvelser styrker saksefærdigheder.' },
       ],
+
+      snippetAnswer: 'Transport-arbejdsark til førskolen (3–4 år) bruger biler, busser og tog til tælling, matchning og farvelægning, der styrker formgenkendelse og tidlig matematik. Køretøjers fascination driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Transporttemaet fascinerer førskolebørn dybt, fordi tre- og fireårige er betaget af alt, der bevæger sig — biler, busser, tog, fly og både vokker begejstring, hver gang de ses på gaden, i luften eller på vandet. Denne daglige fascination gør transportarbejdsark naturligt motiverende. Tælling af hjul, vinduer og passagerer giver matematik et køretøjstema. Matchning af køretøjer med steder (bus til vejen, båd til vandet) opbygger logisk tænkning. Farvelægning af køretøjer med cirkler og rektangler træner formgenkendelse. Fælles Måls mål for omverdensforståelse understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Formgenkendelse i hverdagsgenstande (3–4-årige finder cirkler og rektangler i køretøjer)', howWeAddress: 'Køretøjsfarvelægning fremhæver geometriske former: runde hjul, firkantede vinduer, rektangulære busser' },
+        { milestone: 'Kategorisering efter transportform (børn lærer, at køretøjer bruges på vej, vand og i luft)', howWeAddress: 'Sorteringsaktiviteter, der grupperer køretøjer efter element (land/vand/luft), opbygger tidlig klassificering' },
+        { milestone: 'Tælling af dele (hjul, vinduer, passagerer)', howWeAddress: 'Tælleøvelser med køretøjsdele gør matematik detaljeret og visuelt spændende' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, begræns til tre velkendte køretøjer (bil, bus, tog), brug legetøjsbiler som supplement, og fokusér på enkel matchning. For avancerede førskolebørn tilføj fly, helikopter og båd, introducér tælling af hjul pr. køretøj og lad dem designe deres eget fantasikøretøj.',
+      parentTakeaway: 'Transport er overalt på gaden. På vej til børnehaven tæl biler, busser og cykler. I bussen tæl passagererne. Ved havnen se på både og færger. I lufthavnen iagttag flyene. Hvert transportmiddel er en tælle- og sorteringsmulighed. Lav en køretøjsbog med udklip og barnets tegninger.',
+      classroomIntegration: 'Transporttemaet integreres i hverdagen: på ture observeres køretøjer på vej, vand og i luft, ved læringsstationer arbejdes med tælle- og matchningsark, i billegebanen leges med legetøjskøretøjer og ruter, og i samlingen tales om, hvordan vi transporterer os. Fælles Måls mål for omverdensforståelse og kategorisering understøttes.',
+      assessmentRubric: [
+        { skill: 'Køretøjssorterin', emerging: 'sorterer køretøjer i to grupper med voksenstøtte', proficient: 'sorterer selvstændigt efter transportform (land/vand/luft)', advanced: 'sorterer efter flere kriterier og forklarer, hvilke der kører, sejler eller flyver' },
+        { skill: 'Tælling af køretøjsdele', emerging: 'tæller hjul på én bil (4) med støtte', proficient: 'tæller selvstændigt hjul og vinduer på flere køretøjer', advanced: 'sammenligner antal hjul og finder, hvem der har flest' },
+        { skill: 'Transportgenkendelse og ordforråd', emerging: 'navngiver 2–3 køretøjer med støtte', proficient: 'navngiver selvstændigt 5–6 køretøjer og beskriver, hvor de bruges', advanced: 'navngiver 8+ køretøjer og fortæller om forskelle og ligheder' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Transport-opgaver Børnehaveklasse | LessonCraftStudio',

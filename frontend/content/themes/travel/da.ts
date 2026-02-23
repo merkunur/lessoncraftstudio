@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke rejsekoncepter er passende for treårige?', answer: 'Fokusér på grundlæggende køretøjsidentifikation, simpel tælling af rejsegenstande og matchningsøvelser, der parrer transportformer med deres miljøer. Undgå kompleks geografi eller kulturelle koncepter. I denne alder bør rejsearbejdsark fejre spændingen ved at tage et nyt sted hen snarere end at undervise i kortfærdigheder eller global bevidsthed.' },
         { question: 'Hvordan udvikler rejsearbejdsark rumlig tænkning hos førskolebørn?', answer: 'Aktiviteter, der beder børn om at tegne stier på enkle kort, identificere hvilket køretøj der er større eller mindre, og sortere genstande i kategorier som ting der flyver og ting der sejler, opbygger alle den rumlige og kategoriske ræsonnering, der danner grundlaget for senere geografi- og matematikfærdigheder.' },
       ],
+
+      snippetAnswer: 'Rejse-arbejdsark til førskolen (3–4 år) bruger kufferter, fly og kort til tælling, matchning og farvelægning, der styrker rumlig forståelse og ordforråd. Rejsens eventyr og undren driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Rejsetemaet vekker førskolebørns nysgerrighed, fordi tre- og fireårige forbinder rejser med spænding og familieoplevelser — køreture, togrejser og flyture er store begivenheder i et lille barns liv. Denne personlige forbindelse gør rejsearbejdsark dybt engagerende. Tælling af kufferter, biletter og souvenirs giver matematik en eventyrlig ramme. Matchning af transportmidler med destinationer opbygger logisk tænkning. Farvelægning af rejsescener med mange detaljer træner finmotorik og opmærksomhed. Fælles Måls mål for omverdensforståelse og kulturel bevidsthed understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Rumlig og geografisk bevidsthed (3–4-årige begynder at forstå nær og fjern)', howWeAddress: 'Enkle kortaktiviteter og matchning af lande med symboler (Frankrig = Eiffeltårn) introducerer geografi på det mest basale niveau' },
+        { milestone: 'Sekvensering af begivenheder (børn lærer før/under/efter)', howWeAddress: 'Rejsesekvensering (pak kuffert → kør til lufthavn → flyv → ankom) træner tidslig ordning' },
+        { milestone: 'Ordforrådsudvidelse med nye begreber (rejser introducerer mange nye ord)', howWeAddress: 'Rejseordforråd som kuffert, billet, pas og destination udvider barnets sprog i en spændende kontekst' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på velkendte rejseelementer (kuffert, bil, fly), brug legetøjskufferter og kort som supplement, og hold scenerne enkle. For avancerede førskolebørn tilføj lande og flaggenkendelse, introducér enkel kortlæsning og lad dem planlægge en fantasirejse med tegninger.',
+      parentTakeaway: 'Rejser er de bedste læringsoplevelser. Inden en tur, vis barnet på et kort, hvor I skal hen. Lad barnet hjælpe med at pakke og tælle ting i kufferten. På rejsen tæl biler, både eller vindmøller. Tag billeder og lav en rejsedagbog bagefter. Også en tur til mormor er en rejse værd at lære af.',
+      classroomIntegration: 'Rejsetemaet bruges i en temauge: i samlingen vises billeder fra forskellige lande, ved læringsstationer arbejdes med tælle- og matchningsark med rejsemotiver, i rollelegen pakkes kufferter og flyves i papkasse-fly, og på væggen hænges et verdenskort med børnenes rejseoplevelser. Fælles Måls mål for kulturforståelse og omverdensbevidsthed understøttes.',
+      assessmentRubric: [
+        { skill: 'Tælling med rejsegenstande', emerging: 'tæller 1–5 kufferter/billetter med voksenstøtte', proficient: 'tæller selvstændigt op til 10 rejsegenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle problemer (3 kufferter + 2 tasker = ?)' },
+        { skill: 'Rejsesekvensering', emerging: 'ordner 2 trin (pak, rejs) med voksenstøtte', proficient: 'ordner selvstændigt 3–4 rejsetrin i korrekt rækkefølge', advanced: 'ordner 5+ trin og fortæller en sammenhoengende rejsehistorie' },
+        { skill: 'Rejsegenkendelse og ordforråd', emerging: 'navngiver 2–3 rejsegenstande med støtte', proficient: 'navngiver selvstændigt 5–6 rejserelaterede ord', advanced: 'navngiver 8+ ord og fortæller om rejseoplevelser' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Rejser-opgaver Børnehaveklasse | LessonCraftStudio',

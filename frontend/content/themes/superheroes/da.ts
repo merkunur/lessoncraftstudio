@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan opbygger superheltearbejdsark selvtillid i førskolen?', answer: 'Superheltetemaet er iboende styrkende. Når børn udfylder opgaver indrammet som heltemissioner, føler de sig dygtige og stærke. At fejre hvert udfyldt arbejdsark som en sejr opbygger en positiv forbindelse mellem indsats og præstation der understøtter en vækstmentalitet.' },
         { question: 'Kan superheltearbejdsark hjælpe med social-emotionel udvikling i førskolen?', answer: 'Ja. Selv på førskoleniveau introducerer superheltearbejdsark karaktertræksordforråd som modig, venlig og hjælpsom. Diskussioner om hvorfor helte hjælper andre og hvad der gør nogen stærk opbygger den følelsesmæssige forståelse og empati der er central for førskolebarns social-emotionelle læringsmål.' },
       ],
+
+      snippetAnswer: 'Superhelte-arbejdsark til førskolen (3–4 år) bruger kapper, masker og superkræfter til tælling, matchning og farvelægning, der styrker fantasi og tidlig talforståelse. Rollespilselementet driver stærk motivation. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Superheltetemaet har en særlig kraft for førskolebørn, fordi tre- og fireårige er midt i fantasilegens blomstring — de binder håndklæder om halsen som kapper, fortsætter sig med at flyve og fortæller om usynlige superkræfter. Denne fantasiverden gør superhelte-arbejdsark dybt motiverende. Tælling af stjerner på kapper og masker giver personlig matematik. Matchning af superhelte med deres udstyr opbygger logisk tænkning. Farvelægning af kapper og emblemer træner finmotorik. Fælles Måls mål for kreativitet, fantasi og selvudfoldelse understøttes naturligt.',
+      developmentalMilestones: [
+        { milestone: 'Fantasileg og identitetsudforskning (3–4-årige udvikler rolleleg og selviscenesaettelse)', howWeAddress: 'Superhelte-aktiviteter stimulerer rolleleg og kreativ tænkning, når børn skaber deres egne helte på arbejdsark' },
+        { milestone: 'Visuel skelneevne (børn lærer at skelne mellem lignende mønstre)', howWeAddress: 'Skyggematch og find-forskellen med superhelte-silhuetter styrker observation og visuel analyse' },
+        { milestone: 'Farvevalg og kreativt udtryk (førskolebørn udvikler præferencer og valg)', howWeAddress: 'Design-din-egen-superhelt-aktiviteter giver børn ejerskab over farvevali og kreative beslutninger' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, brug enkle superheltebilleder med få detaljer, fokusér på én aktivitet ad gangen, og lad barnet bære en kappe under arbejdet. For avancerede førskolebørn tilføj superhelte-mønstergenkendelse, introducér bogstavsporing af kraftord og lad dem designe en hel superheltefamilie.',
+      parentTakeaway: 'Superheltelegen er allerede i gang derhjemme — byg videre på den. Lav en kappe af et gammelt håndklæde og en maske af karton. Giv superhelten en mission: tæl alle røde ting i stuen, find fem former i køkkenet, sortér legetøj efter størrelse. Når matematikken bliver en supermission, føler barnet sig stærkt og motiveret.',
+      classroomIntegration: 'Superheltetemaet bruges i en temuge: i samlingen tales om, hvad en helt gør (hjælper andre, er modig), ved læringsstationer arbejdes med tælle- og matchningsark, i kunsthjørnet designes kapper og masker, og i rollelegen løses missioner. Fælles Måls mål for fantasi, kreativitet og social-emotionel udvikling understøttes.',
+      assessmentRubric: [
+        { skill: 'Tælling med superhelteemner', emerging: 'tæller 1–5 stjerner/masker med voksenstøtte', proficient: 'tæller selvstændigt op til 10 superheltegenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle missionsopgaver med addition' },
+        { skill: 'Superhelte-matchning', emerging: 'matcher 2–3 helte med udstyr med støtte', proficient: 'matcher selvstændigt 5–6 superhelte med korrekt udstyr', advanced: 'matcher alle helte og forklarer, hvad hver superkraft bruges til' },
+        { skill: 'Kreativt heltedesign', emerging: 'farvelægger en superhelt med få farver', proficient: 'vælger bevidste farver og detaljer til sin superhelt', advanced: 'designer en komplet superhelt med navn, kappe, maske og emblem' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Superhelte-opgaver Børnehaveklasse | LessonCraftStudio',

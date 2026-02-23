@@ -104,6 +104,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan lærer forårs-arbejdsark førskolebørn om vækst?', answer: 'Aktiviteter, der sætter frø-til-spire-til-blomst i rækkefølge, introducerer begrebet vækst i et simpelt, visuelt format. Selv uden læsning kan førskolebørn arrangere billeder i rækkefølge og observere, at små ting bliver til større ting over tid, og dermed opbygge grundlæggende forståelse af biologiske processer.' },
         { question: 'Kan forårs-arbejdsark bruges udendørs?', answer: 'Absolut. Tag malebilleder og observationstjeklister med udenfor på pæne dage. Børn kan farvelægge en blomst, mens de sidder nær et rigtigt blomsterbed, eller afkrydse ting på en forårs-skattejagt. Udendørs arbejdsarkssessioner kombinerer faglig øvelse med sensorisk oplevelse for dybere læring.' },
       ],
+
+      snippetAnswer: 'Forårs-arbejdsark til førskolen (3–4 år) bruger blomster, sommerfugle og regnbuer til tælling, matchning og farvelægning, der styrker naturforståelse og finmotorik. Årstidens fornyelse fascinerer små børn. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Forårstemaet er særligt kraftfuldt for førskolebørn, fordi tre- og fireårige oplever årstidsskiftet med hele kroppen — de peger på de første blomster, jager sommerfugle og plasker i vandpytter med en begejstring, der gør foråret til det perfekte læringstema. Væksten fra frø til blomst giver en konkret model for sekvensering. Tælling af kronblade, mariehøns og regnåber gør matematik sanselig. Farvelægning af blomster med tydelige konturer træner finmotorik. Fælles Måls mål for naturfag og sanseoplevelser understøttes direkte, når forårsarbejdsark parres med udforskning udendørs.',
+      developmentalMilestones: [
+        { milestone: 'Naturlig nysgerrighed om vækst (3–4-årige begynder at lægge mærke til forandring i naturen)', howWeAddress: 'Sekvenseringsøvelser med frø-til-blomst-stadier gør vækstbegrebet visuelt og forståeligt' },
+        { milestone: 'Tælling i sansemættede scener (opbygning af visuel søgefærdighed)', howWeAddress: 'Find-og-tæl-aktiviteter med sommerfugle, blomster og mariehøns i forårsscener træner både tælling og observation' },
+        { milestone: 'Farve- og formgenkendelse (førskolebørn udvider deres farvevokabular)', howWeAddress: 'Forårets rige farvepalet bruger blomster og regnbuer til at navngive og sortere farver i meningsfuld kontekst' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte elementer (blomst, sommerfugl, sol), brug rigtige blomster og blade som supplement, og hold aktiviteterne korte og sanselige. For avancerede førskolebørn tilføj sekvensering af vækstfaser, introducér bogstavsporing af forårsord og lad dem plante frø og følge spiringen.',
+      parentTakeaway: 'Foråret sker lige uden for vinduet. Gå på tur og tæl blomster, sommerfugle og fugle. Plant frø i en potte på vindueskarmen og lad barnet måle væksten. Saml blade og kronblade og sorter dem efter farve. Tag et forårs-malebillede med udendørs og farvelæg det ved siden af rigtige blomster. Naturen er det bedste klasselokale.',
+      classroomIntegration: 'Forårstemaet følger naturens kalender: i samlingen vises rigtige blomster og knopper, ved læringsstationer arbejdes med tælle- og sekvenseringsøvelser, i sansebakken plantes frø i jord, og på ture observeres forårets forandringer. Fælles Måls mål for natur, årstider og sanseoplevelser understøttes gennem hele foråret.',
+      assessmentRubric: [
+        { skill: 'Tælling i forårsscener', emerging: 'tæller 1–5 blomster/sommerfugle med voksenstøtte', proficient: 'tæller selvstændigt op til 10 forårsgenstande og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere tulipaner end påskeliljer)' },
+        { skill: 'Vækstsekvensering', emerging: 'ordner 2 trin (frø, blomst) med voksenstøtte', proficient: 'ordner selvstændigt 3 vækstfaser i korrekt rækkefølge', advanced: 'ordner 4–5 faser og forklarer, hvad der sker i hvert trin' },
+        { skill: 'Forårsgenkendelse og ordforråd', emerging: 'navngiver 2–3 forårselementer med støtte (blomst, sol)', proficient: 'navngiver selvstændigt 5–6 forårsgenstande og beskriver dem', advanced: 'navngiver 8+ elementer og bruger beskrivende ord om årstiden' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Forår-opgaver Børnehaveklasse | LessonCraftStudio',

@@ -104,6 +104,23 @@ const content: EnrichedThemeContent = {
         { question: 'Hvor lang tid bør en førskole-zoo-arbejdsarkssession vare?', answer: 'Otte til tolv minutter er ideelt for de fleste tre- og fireårige. Hold øje med tegn på træthed eller frustration, og skift til praktisk leg med legetøjsdyr, inden barnet mister interessen for aktiviteten.' },
         { question: 'Hvilke grundlæggende færdigheder udvikler førskole-zoo-arbejdsark?', answer: 'De opbygger finmotorisk kontrol gennem farvelægning og sporing, tidlig talforståelse gennem tælling af zoodyr, bogstavgenkendelse gennem sporing af dyrenavne og kognitive færdigheder gennem sorterings- og matchningsaktiviteter med dyr baseret på egenskaber som størrelse og type.' },
       ],
+
+      snippetAnswer: 'Zoo-arbejdsark til førskolen (3–4 år) bruger løver, elefanter og aber til tælling, matchning og farvelægning, der styrker dyreklassificering og finmotorik. Eksotiske dyrs fascination driver dybt engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Zootemaet er magisk for førskolebørn, fordi tre- og fireårige reagerer på eksotiske dyr med ubændig begejstring — løver, der brøler, elefanter, der sprutter vand, og aber, der svinger sig, vekker en fascination, der driver dyb læring. Denne følelsesmæssige forbindelse gør zoo-arbejdsark til nogle af de mest engagerende overhovedet. Tælling af dyr i indhegninger giver konkret matematik. Sortering af dyr efter størrelse, farve eller type opbygger klassificering. Matchning af dyr med deres mad introducerer årsag-virkning. Farvelægning af detaljerede dyrefigurer træner finmotorik. Fælles Måls mål for natur, dyr og nysgerrighed understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Dyreklassificering (3–4-årige begynder at gruppere dyr efter egenskaber)', howWeAddress: 'Sorteringsaktiviteter med zoodyr efter størrelse (stor elefant vs. lille abe) og type (fugle vs. pattedyr) styrker kategorisering' },
+        { milestone: 'Tælling i visuelt rige scener (opbygning af visuel søgefærdighed)', howWeAddress: 'Find-og-tæl-aktiviteter i zoo-scener med mange dyr træner både tælling og visuel opmærksomhed' },
+        { milestone: 'Ordforrådsudvidelse med dyrenavne (børn lærer mange nye ord)', howWeAddress: 'Matchnings- og navngivningsaktiviteter udvider ordforrådet med eksotiske dyrenavne i en spændende kontekst' },
+        { milestone: 'Størrelsesforståelse (sammenligning af små og store dyr)', howWeAddress: 'Stor-lille-sammenligninger mellem en mus og en giraf eller en abe og en elefant introducerer målebegreber naturligt' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte dyr (løve, elefant, abe), brug legetøjsdyr som supplement, og hold scenerne enkle med få dyr. For avancerede førskolebørn tilføj eksotiske dyr, introducér dyreklassificering efter levested og lad dem designe deres egen drømmezoo.',
+      parentTakeaway: 'Et zoobesøg er den ultimative læringsoplevelse. Før besøget, gennemgå zoo-arbejdsark og lær dyrenavnene. I zoo, tæl dyrene i hver indhegning og sammenlign. Efter besøget, tegn yndlingsdyrene og tæl, hvor mange I så. Også uden zoobesøg kan legetøjsdyr, billedbøger og dyrevideoer bringe zooen hjem i stuen.',
+      classroomIntegration: 'Zootemaet bruges i en dyre-temauge: i samlingen introduceres ugens dyr med billeder og lyde, ved læringsstationer arbejdes med tælle- og sorteringsark, i rollelegen leges dyrepasser og zoobesøg, og i kunsthjørnet males og modelleres dyr. Fælles Måls mål for natur, dyr og nysgerrighed integreres gennem hele ugen.',
+      assessmentRubric: [
+        { skill: 'Dyreklassificering (zoo)', emerging: 'sorterer dyr i to grupper med voksenstøtte (store/små)', proficient: 'sorterer selvstændigt zoodyr efter størrelse, type eller levested', advanced: 'sorterer efter to kriterier og forklarer sine valg mundtligt' },
+        { skill: 'Tælling i zoo-scener', emerging: 'tæller 1–5 dyr i en scene med voksenstøtte', proficient: 'tæller selvstændigt op til 10 zoodyr og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere aber end løver)' },
+        { skill: 'Dyregenkendelse og ordforråd', emerging: 'navngiver 3–4 velkendte zoodyr med støtte', proficient: 'navngiver selvstændigt 6–8 zoodyr og beskriver deres udseende', advanced: 'navngiver 10+ dyr og fortæller om, hvor de lever og hvad de spiser' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Zoo-opgaver Børnehaveklasse | LessonCraftStudio',

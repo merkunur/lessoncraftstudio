@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke sportskoncepter er passende for treårige?', answer: 'Fokuser på grundlæggende udstyrsidentifikation, enkel tælling af bolde eller spillere og farvegenkendelse gennem trøjer og udstyr. Undgå pointtælling, regler eller konkurrencekoncepter. I denne alder bør sportarbejdsark fejre bevægelse og leg snarere end struktureret idrætskonkurrence.' },
         { question: 'Hvordan udvikler sportarbejdsark finmotorik hos førskolebørn?', answer: 'Farvelægning inden for de buede konturer af bolde og udstyr opbygger håndledskontrol. Sporring af stiplede linjer, der følger buen af en kastet bold, udvikler blyantsporing. Matchopgaver, der kræver præcis linietegning mellem en atlet og deres udstyr, styrker hånd-øje-koordinationen, der er afgørende for senere skrivning.' },
       ],
+
+      snippetAnswer: 'Sport-arbejdsark til førskolen (3–4 år) bruger bolde, løb og hop til tælling, matchning og farvelægning, der styrker grovmotorik og tidlig talforståelse. Sportens energi og bevægelsesglæde driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Sporttemaet er ideelt for førskolebørn, fordi tre- og fireårige oplever idraet som ren bevægelsesglæde — de løber, hopper og kaster uden regler eller konkurrence, og denne kropslige energi kan kanaliseres direkte ind i læring. Tælling af bolde, spillere og mål giver matematik en fysisk dimension. Matchning af udstyr til sportsgrene opbygger kategorisering. Farvelægning af runde bolde og buede bevægelseslinjer træner finmotorik. Skyggematch med sportssilhuetter styrker visuel skelneevne. Fælles Måls mål for krop, bevægelse og sundhed understøttes direkte, når sportsarbejdsark parres med aktiv leg.',
+      developmentalMilestones: [
+        { milestone: 'Grovmotorisk koordination (3–4-årige udvikler løb, hop og kast)', howWeAddress: 'Sportsaktiviteter på arbejdsark parres med korte bevægelsespauser, der bygger bro mellem papirlæring og kropslig udfoldelse' },
+        { milestone: 'Tælling med konkrete genstande (opbygning af en-til-en-korrespondance)', howWeAddress: 'Tælleaktiviteter med bolde, mål og spillere gør matematik fysisk og håndgribelig' },
+        { milestone: 'Kategorisering efter funktion (at forstå, at genstande hører til bestemte aktiviteter)', howWeAddress: 'Matchning af udstyr til sportsgrene (bold til fodbold, ketcher til tennis) opbygger logisk klassificering' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, begræns til tre velkendte sportsgrene (fodbold, løb, svømning), brug rigtige bolde som supplement, og par altid arbejdsark med fysisk aktivitet. For avancerede førskolebørn udvid med flere sportsgrene, introducér enkel pointtælling (hvem scorede flest?) og lad dem tegne deres egen yndlingssport.',
+      parentTakeaway: 'Sport er overalt i barnets hverdag. Løb en stafet i haven og tæl omgangene, kast en bold og tæl vellykkede fangster, spark til mål og før stilling på papir. Tilmeld barnet i en lokal idraetsforening og tal om, hvad de lærte: hvor mange børn var på holdet, hvem scorede, hvad hjalp. Bevægelse og tal hører naturligt sammen.',
+      classroomIntegration: 'Sporttemaet integreres i førskolens bevægelsesrutiner: i gymnastiksalen parres fysisk aktivitet med tælleøvelser, ved læringsstationer arbejdes med matchnings- og tælleark, i samlingen vises billeder af danske sportsgrene, og på legepladsen leges de sportsgrene, arbejdsarkene handler om. Fælles Måls mål for krop, sundhed og bevægelse understøttes.',
+      assessmentRubric: [
+        { skill: 'Tælling med sportsgenstande', emerging: 'tæller 1–5 bolde/spillere med voksenstøtte', proficient: 'tæller selvstændigt op til 10 sportsgenstande og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere fodbolde end basketbolde)' },
+        { skill: 'Sportsudstyrs-matchning', emerging: 'matcher 2–3 genstande med sportsgrene med støtte', proficient: 'matcher selvstændigt 5–6 stykker udstyr med korrekt sportsgren', advanced: 'matcher alt udstyr og forklarer, hvad man gør med det i hver sportsgren' },
+        { skill: 'Sportsgenkendelse og ordforråd', emerging: 'navngiver 2–3 sportsgrene med støtte', proficient: 'navngiver selvstændigt 5–6 sportsgrene og beskriver grundbevægelsen', advanced: 'navngiver 8+ sportsgrene og fortæller om udstyr og regler' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Sport-opgaver Børnehaveklasse | LessonCraftStudio',

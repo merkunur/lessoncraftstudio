@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er sommer-arbejdsark passende til feriebrug?', answer: 'Absolut. Deres sjove tema stemmer perfekt overens med feriefølelsen. Pak malebilleder til bilture, tælleark til hotelmorgenener og matchaktiviteter til restaurantventetider. Sommerindholdet føles relevant snarere end akademisk, hvilket gør børn mere villige til at engagere sig i fritiden.' },
         { question: 'Hvilke sommertemaer tiltaler treårige mest?', answer: 'Is, strandleg, svømning og solskin er de mest engagerende, fordi de forbinder sig direkte til førskolebørns daglige sommeroplevelser. Arbejdsark med disse velkendte elementer føles personlige og spændende og genererer højere motivation end abstrakt eller ukendt indhold.' },
       ],
+
+      snippetAnswer: 'Sommer-arbejdsark til førskolen (3–4 år) bruger sol, strand og is til tælling, matchning og farvelægning, der styrker sanseoplevelser og tidlig matematik. Sommerens frihed og udendørsliv driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Sommertemaet er perfekt for førskolebørn, fordi tre- og fireårige oplever sommeren som årets mest sansemættede tid — sand mellem tæerne, vandleg, is i solen og lange lyse aftener fylder dem med glæde og energi. Denne sanselige rigdom gør sommerarbejdsark yderst motiverende. Tælling af muslingeskaller, iskugler og sandslotte gør matematik konkret. Matchning af strandgenstande opbygger kategorisering. Farvelægning af solskinsscener med klare farver træner finmotorik. Fælles Måls mål for sanseoplevelser og udendørslæring understøttes ideelt.',
+      developmentalMilestones: [
+        { milestone: 'Sensorisk udforskning (3–4-årige lærer gennem berøring, smag og syn)', howWeAddress: 'Sommerscener med sand, vand og is inviterer til multisensoriske forbindelser mellem arbejdsark og virkelige oplevelser' },
+        { milestone: 'Tælling af naturlige samlinger (børn samler ting og tæller dem)', howWeAddress: 'Tælleaktiviteter med muslingeskaller, sandslotte og iskugler parres med rigtig indsamling på stranden eller i haven' },
+        { milestone: 'Farvegenkendelse i naturlige omgivelser (sommeren er rig på klare farver)', howWeAddress: 'Farvelægnings- og sorteringsaktiviteter med sommergenstande i stærke farver styrker farvevokabularet' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte elementer (sol, is, bold), brug rigtige muslingeskaller og sand som supplement, og hold aktiviteterne sansemættede. For avancerede førskolebørn tilføj tælling over 10, introducér bogstavsporing af sommerord og lad dem sortere strandgenstande efter to egenskaber.',
+      parentTakeaway: 'Sommeren er én lang læringsmulighed. Tæl muslingeskaller på stranden, sorter dem efter størrelse og farve. Lav sandslotte og tæl tårnene. Tæl iskugler og vælg farver. Tegn sommerscener efter en dag i solen. Lad barnet hjælpe med at pakke til stranden og tælle håndklæder, solcremeflasker og vandflasker. Sommerferie er matematikferie.',
+      classroomIntegration: 'Sommertemaet bruges før sommerferien: i samlingen tales om sommerfugle og stranddyr, ved læringsstationer arbejdes med tælle- og sorteringsark, i vandlegepladsen udforskes flyde/synke, og i kunsthjørnet males sommerscener. Fælles Måls mål for sanseoplevelser, natur og udendørslæring opfyldes.',
+      assessmentRubric: [
+        { skill: 'Tælling med sommergenstande', emerging: 'tæller 1–5 muslingeskaller/iskugler med voksenstøtte', proficient: 'tæller selvstændigt op til 10 sommergenstande og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere hvide end brune skaller)' },
+        { skill: 'Sommersortering', emerging: 'sorterer sommergenstande i to grupper med støtte', proficient: 'sorterer selvstændigt efter farve, størrelse eller type', advanced: 'sorterer efter to egenskaber og forklarer sorteringskriterierne' },
+        { skill: 'Sommergenkendelse og ordforråd', emerging: 'navngiver 2–3 sommergenstande med støtte', proficient: 'navngiver selvstændigt 5–6 sommergenstande og beskriver dem', advanced: 'navngiver 8+ genstande og fortæller om sommeraktiviteter knyttet til dem' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Sommer-opgaver Børnehaveklasse | LessonCraftStudio',

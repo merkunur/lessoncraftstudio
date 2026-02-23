@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvad gør grøntsags-arbejdsark engagerende for treårige?', answer: 'Lyse farver, velkendte former og den personlige forbindelse til måltiderne gør grøntsags-arbejdsark mere engagerende end abstrakte temaer. Når børn genkender en gulerod eller tomat fra deres egen tallerken, oplever de en følelse af ekspertise, der øger selvtillid og motivation til at gennemføre aktiviteten.' },
         { question: 'Hvordan understøtter grøntsags-arbejdsark naturfagslæring i førskolen?', answer: 'Selv på førskoleniveau introducerer sortering af grøntsager efter den plantedel, vi spiser – som rødder versus blade – grundlæggende botaniske begreber. At observere at nogle grøntsager gror under jorden, mens andre gror over jorden, opbygger observationsfærdigheder og tidlige videnskabelige klassificeringsevner.' },
       ],
+
+      snippetAnswer: 'Grøntsags-arbejdsark til førskolen (3–4 år) bruger gulerødder, tomater og ærter til tælling, sortering og farvelægning, der styrker sund kost-bevidsthed og finmotorik. Grøntsagers farver og former driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Grøntsagstemaet er særligt værdifuldt for førskolebørn, fordi tre- og fireårige er i en kritisk periode for at udvikle sunde spisevaner, og positive associationer med grøntsager kan formes gennem legende læring. Tælling af gulerødder, tomater og ærter gør matematik til en del af måltidet. Sortering efter farve (rød tomat, grøn agurk, orange gulerod) styrker både farvevokabular og kategorisering. Farvelægning af grøntsager med varierede former træner finmotorik. Fælles Måls mål for sundhed, krop og sanseoplevelser understøttes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Sensorisk begrebsdannelse (3–4-årige lærer at beskrive genstande med sanseord)', howWeAddress: 'Grøntsagsaktiviteter forbinder billeder med sanseord (blød tomat, hård gulerod, glat agurk) og udvider ordforrådet' },
+        { milestone: 'Farvesortering med naturlige genstande (opbygning af farvekategorier)', howWeAddress: 'Sortering af grøntsager efter farve giver en af de mest naturlige farvesorteringsaktiviteter med ægte variation' },
+        { milestone: 'Tælling i måltidskontekster (børn forbinder tal med hverdagen)', howWeAddress: 'Tælleaktiviteter med grøntsager på tallerkener og i grøntsagskasser gør matematik til en del af hverdagens måltider' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, brug kun tre velkendte grøntsager (gulerod, tomat, agurk), hav rigtige grøntsager på bordet, og hold aktiviteterne sansemættede. For avancerede førskolebørn tilføj flere grøntsager, introducér bogstavsporing af grøntsagsnavne og lad dem sortere efter både farve og størrelse.',
+      parentTakeaway: 'Køkkenet er det bedste klasselokale for grøntsager. Lad barnet hjælpe med at vaske, tælle og sortere grøntsager ved madlavning. Tæl gulerødder, sammenlign størrelser, sorter efter farve. Besøg en markedshal og lad barnet pege på og navngive grøntsager. Dyrk en enkel køkkenhave med radiser eller ærter. Positive grøntsagsoplevelser former sunde vaner.',
+      classroomIntegration: 'Grøntsagstemaet integreres i førskolens måltidsrutiner: ved frokost navngives og tælles grøntsager, i samlingen introduceres ugens grøntsag med smagning, ved læringsstationer arbejdes med sorterings- og tælleark, og i køkkenprojekter laves enkel mad med grøntsager. Fælles Måls mål for sundhed, sanseoplevelser og natur understøttes.',
+      assessmentRubric: [
+        { skill: 'Grøntsagssortering', emerging: 'sorterer grøntsager i to farvegrupper med støtte', proficient: 'sorterer selvstændigt efter farve, størrelse eller type', advanced: 'sorterer efter to egenskaber og forklarer sine kriterier' },
+        { skill: 'Tælling med grøntsager', emerging: 'tæller 1–5 grøntsager med voksenstøtte', proficient: 'tæller selvstændigt op til 10 og matcher med korrekt tal', advanced: 'tæller over 10 og sammenligner mængder (flere gulerødder end tomater)' },
+        { skill: 'Grøntsagsgenkendelse og ordforråd', emerging: 'navngiver 2–3 grøntsager med støtte', proficient: 'navngiver selvstændigt 5–6 grøntsager og beskriver farve og form', advanced: 'navngiver 8+ grøntsager og bruger sanseord som blød, hård, knasende' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Grøntsager-opgaver Børnehaveklasse | LessonCraftStudio',

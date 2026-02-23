@@ -102,6 +102,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan kan vinter-arbejdsark understøtte daglige rutiner for førskolebørn?', answer: 'Vintertøj-arbejdsark, der matcher vanter til hænder, halstørklæder til halse og støvler til fødder, forstærker den påklædningssekvens, som førskolebørn øver hver kold morgen. Denne praktiske forbindelse mellem arbejdsarksindhold og dagligliv gør læring umiddelbart relevant og hjælper børn med at udvikle selvstændighed i selvhjælpsopgaver.' },
         { question: 'Hvilke sensoriske aktiviteter passer godt til førskolevinter-arbejdsark?', answer: 'Isterningeudforskning, snelegeleg i en bakke, fingermaling med hvid maling på mørkt papir og leg med vatbolde som snebold passer alle udmærket. Disse taktile aktiviteter aktiverer de samme neurale veje som de visuelle genkendelsesoopgaver på arbejdsark og forstærker dermed læring gennem flere sensoriske kanaler.' },
       ],
+
+      snippetAnswer: 'Vinter-arbejdsark til førskolen (3–4 år) bruger snefnug, snemænd og vanter til tælling, matchning og farvelægning, der styrker mønstergenkendelse og finmotorik. Vinterens magiske stemning driver engagementet. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Vintertemaet rammer førskolebørn med særlig magi, fordi tre- og fireårige oplever sne, is og frost som ren undren — at fange snefnug på tungen, bygge snemænd og lave sneéngle fylder dem med glæde. Denne sanselige begejstring gør vinterarbejdsark dybt motiverende. Tælling af snefnug, vanter og snekugler giver matematik i en tryg og magisk kontekst. Matchning af vinterbeklædning (vante til vante, støvle til støvle) styrker parring og symmetri. Farvelægning af snescener med hvide og blå nuancer træner finmotorik. Fælles Måls mål for årstider, natur og sanseoplevelser understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Parring og symmetri (3–4-årige lærer at matche par som vanter og støvler)', howWeAddress: 'Matchningsaktiviteter med vinterpar (find den matchende vante, par støvlerne) styrker visuel skelneevne og symmetriforståelse' },
+        { milestone: 'Mønstergenkendelse (førskolebørn opdager gentagende mønstre)', howWeAddress: 'Snefnug- og vantemønstre introducerer gentagelsesmønstre (rød vante, blå vante, rød vante...) på en visuelt tiltalende måde' },
+        { milestone: 'Sensorisk begrebsdannelse (koldt, glat, blødt)', howWeAddress: 'Vinterscener forbinder billeder med sanseord (kold sne, glat is, blød vante) og udvider sensorisk ordforråd' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, fokusér på tre velkendte vinterelementer (snemand, vante, snefnug), brug rigtig sne eller is som supplement, og hold aktiviteterne enkle. For avancerede førskolebørn tilføj mere komplekse mønstre, introducér bogstavsporing af vinterord og lad dem designe deres eget snefnugmønster.',
+      parentTakeaway: 'Vinteren er fuld af læring. Byg en snemand og tæl kuglerne, øjnene og knapperne. Fang snefnug på mørkt papir og se mønstrene. Match vanter og støvler ved garderoben. Tegn på duggede vinduer. Lav is-eksperimenter i fryseren. Vinteren inviterer til naturvidenskab, kunst og matematik — alt sammen i barnets eget tempo.',
+      classroomIntegration: 'Vintertemaet integreres i årstidsbaserede rutiner: i samlingen tales om vejret og vinteren, ved læringsstationer arbejdes med matchnings- og mønsterark, i garderoben øves parring af vanter og støvler, og på legepladsen udforskes sne og is. Fælles Måls mål for årstider, sanseoplevelser og natur understøttes hele vinteren.',
+      assessmentRubric: [
+        { skill: 'Vinterpar-matchning', emerging: 'matcher 1–2 vante/støvlepar med voksenstøtte', proficient: 'matcher selvstændigt 4–5 vinterpar korrekt', advanced: 'matcher alle par og forklarer, hvilke mønstre der passer sammen' },
+        { skill: 'Tælling med vintergenstande', emerging: 'tæller 1–5 snefnug/kugler med voksenstøtte', proficient: 'tæller selvstændigt op til 10 vintergenstande og matcher med tal', advanced: 'tæller over 10 og sammenligner mængder (flere snefnug end snemænd)' },
+        { skill: 'Mønstergenkendelse (vintersekvenser)', emerging: 'kopierer et simpelt AB-mønster med støtte (rød/blå)', proficient: 'fortsætter selvstændigt et AB- eller ABB-mønster med vintergenstande', advanced: 'skaber egne mønstre med tre eller flere elementer' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Vinter-opgaver Børnehaveklasse | LessonCraftStudio',

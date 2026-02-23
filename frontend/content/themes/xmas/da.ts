@@ -103,6 +103,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter julearbejdsark tidlig talforståelse?', answer: 'Julekalendernedtællingen giver en unikt motiverende kontekst for talrækkeforståelse. Derudover giver tælling af julekugler, gaver og julestrømper børn konkrete visuelle genstande til at øve en-til-en-korrespondance, talgenkendelse og begrebet om, at tal repræsenterer mængder af virkelige ting.' },
         { question: 'Hvilke finmotoriske færdigheder udvikler førskole-julearbejdsark?', answer: 'De opbygger blyantsgreb gennem sporing af stjerne- og træomrids, hånd-øje-koordination gennem farvelægning inden for julekugleformer og klippefærdigheder gennem aktiviteter, der beder børn om at klippe dekorationer ud til klasseopvisninger eller sorteringsmåtter.' },
       ],
+
+      snippetAnswer: 'Jule-arbejdsark til førskolen (3–4 år) bruger julekugler, gaver og træer til tælling, matchning og farvelægning, der styrker talforståelse og finmotorik. Julens magi og forventning driver det stærkeste engagement. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'Juletemaet er det mest motiverende tema overhovedet for førskolebørn, fordi tre- og fireårige oplever julen som årets absolut mest magiske tid — julekalendere, nisser, gaver og træpynt skaber en forventning, der er uovertruffen. Nedtællingen til juleaften giver den mest naturlige talrækkeøvelse, der findes. Tælling af julekugler på træet, gaver under træet og lys i vinduet giver matematik følelsesmæssig vægt. Matchning af gaver med børn styrker logisk tænkning. Farvelægning af julescener træner finmotorik. Fælles Måls mål for kulturel identitet og traditioner understøttes.',
+      developmentalMilestones: [
+        { milestone: 'Talrækkeforståelse gennem nedtælling (julekalenderen er den ultimative tælleøvelse)', howWeAddress: 'Kalenderaktiviteter og nedtællingstavler gør talrækken personligt meningsfuld og motiverende' },
+        { milestone: 'Kulturel bevidsthed (3–4-årige begynder at forstå traditioner)', howWeAddress: 'Juleaktiviteter, der inddrager danske traditioner som nisser, risengroed og lucia, styrker kulturel identitet' },
+        { milestone: 'Gavmildhed og deling (børn lærer at give og dele)', howWeAddress: 'Gavefordeling på arbejdsark (del 6 gaver mellem 3 børn) introducerer tidlig division og sociale færdigheder' },
+      ],
+      differentiationNotes: 'For førskolebørn med behov for støtte, brug kun de mest velkendte julesymboler (træ, gave, stjerne), hold scenerne enkle med få genstande, og brug rigtige julekugler som supplement. For avancerede førskolebørn tilføj julekalender-matematik, introducér bogstavsporing af juleord og lad dem designe deres eget juletrae.',
+      parentTakeaway: 'Julen er årets største læringsmulighed. Lad barnet åbne kalenderlukker og tælle dage til juleaften. Tæl julekugler, når I pynter traeet. Sorter gaver efter størrelse. Bag småkager og tæl ingredienser. Skriv barnets navn på gavesedler. Julens forventning er den mest kraftfulde læringsmotor — brug den aktivt.',
+      classroomIntegration: 'Juletemaet bruges hele december: i samlingen åbnes julekalenderen med en daglig læringsaktivitet, ved læringsstationer arbejdes med tælle- og matchningsark, i kunsthjørnet laves julepynt og nisser, og i rollelegen leges juleaften. Fælles Måls mål for kulturel identitet, traditioner og social-emotionel udvikling understøttes.',
+      assessmentRubric: [
+        { skill: 'Tælling med julegenstande', emerging: 'tæller 1–5 julekugler/gaver med voksenstøtte', proficient: 'tæller selvstændigt op til 10 julegenstande og matcher med tal', advanced: 'tæller over 10 og løser enkle jule-additionsopgaver' },
+        { skill: 'Julekalender-nedtælling', emerging: 'forstaar, at man tæller ned mod juleaften, med støtte', proficient: 'tæller selvstændigt dage og finder dagens dato på kalenderen', advanced: 'beregner, hvor mange dage der er tilbage, og bruger subtraktion' },
+        { skill: 'Julegenkendelse og ordforråd', emerging: 'navngiver 2–3 juleelementer med støtte (træ, gave)', proficient: 'navngiver selvstændigt 5–6 julegenstande og beskriver dem', advanced: 'navngiver 8+ elementer og fortæller om danske juletraditioner' },
+      ],
     },
     'kindergarten': {
       seoTitle: 'Jul-opgaver Børnehaveklasse | LessonCraftStudio',

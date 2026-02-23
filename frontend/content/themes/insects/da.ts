@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder insekt-arbejdsark sig til naturfagsmålene i 1. klasse?', answer: 'De understøtter Fælles Måls læringsmål om struktur og funktion ved at bede børn identificere, hvordan insektkropsdele hjælper dem med at overleve. Arbejdsark om livscyklusser forbinder til mål om vækst og udvikling, mens bestøvningsaktiviteter adresserer organismers gensidige afhængighed.' },
         { question: 'Er 1. klasses insekt-arbejdsark udfordrende nok?', answer: 'Ja. De inkluderer flertrins-matematikopgaver, mønsterfuldførelse, ordpuslespil, læseforståelse, der kræver slutninger, og klassifikationsopgaver, der skelner insekter fra edderkopper og andre leddyr. Det engagerende tema opretholder motivationen, mens den faglige stringens matcher forventningerne til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Insekt-arbejdsark til 1. klasse (6–7 år) træner systematisk observation, dataindsamling med insekttællinger, addition/subtraktion inden for 20 og selvstændig skrivning af insektfakta. Videnskabelig metode i miniformat. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver insekttemaet et felt-forskningsprojekt — seks- og syvårige kan gennemføre systematiske insekttællinger, registrere fund i stregdiagrammer og læse faktatekster om insekters livscyklus. Klassifikation med tre kriterier (antal ben, vinger, følere) adskiller insekter fra edderkopper og tusindben. Addition og subtraktion inden for 20 med insektscener giver kontekstualiseret regning. Måling af insekter med millimeter og centimeter introducerer små måleenheder. Skrivning af insektfakta med egne ord træner faglitterær skrivning. Fælles Måls mål for naturfaglig undersøgelse, data og skriftlig rapportering i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Systematisk observation og registrering (6–7-årige tæller og noterer)', howWeAddress: 'Insekttællingsark med stregdiagrammer, hvor eleverne registrerer fund fra skolegården systematisk' },
+        { milestone: 'Klassifikation med fagtermer (insekt vs. edderkop vs. tusindben)', howWeAddress: 'Sorteringsark med tre kolonner og faglige kriterier (antal ben, vinger) træner præcis klassifikation' },
+        { milestone: 'Faglitterær skrivning (korte faktatekster med fagord)', howWeAddress: 'Insektfakta-ark med rammer for art, udseende, levested og føde guider struktureret fagskrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til fire velkendte insekter, brug forhåndsudfyldte diagrammer, og tilbyd sætningsstartere med ordbank. For avancerede elever i 1. klasse tilføjes livscyklusdiagrammer, millimetermåling af insekter og selvstændig skrivning af insektforskningsrapporter.',
+      parentTakeaway: 'Gå på insektjagt i haven med et forstørrelsesglas. Tæl ben: ”har den 6 ben? Så er den et insekt!” Før en insektdagbog med tegning og fakta. Mål en bille med lineal. Skriv tre fakta om dagens fund. Naturen er det bedste klasselokale for videnskabelig tænkning.',
+      classroomIntegration: 'Insekttemaet i 1. klasse kører som udeskole-projekt: insekttællinger på skolegården, dataregistrering i matematik, faktatekster i dansk, og livscyklusstudier i naturfag. Et klasseinsektarium med observationslogbog integrerer alle fag. Fælles Måls mål for naturfaglig undersøgelse, data og skrivning understøttes.',
+      assessmentRubric: [
+        { skill: 'Insekttælling og dataregistrering', emerging: 'registrerer én insekttype i et stregdiagram med støtte', proficient: 'tæller og registrerer selvstændigt 3–4 insekttyper i stregdiagrammer', advanced: 'gennemfører egne insekttællinger, sammenligner data og drager konklusioner' },
+        { skill: 'Klassifikation (insekt vs. edderkop)', emerging: 'sorterer velkendte dyr i to grupper med billedstøtte', proficient: 'klassificerer selvstændigt efter antal ben og vinger med fagtermer', advanced: 'forklarer klassifikationskriterier og håndterer grænsetilfælde med begrundelse' },
+        { skill: 'Insektfakta-skrivning', emerging: 'skriver 1–2 faktasætninger med ordbank og støtte', proficient: 'skriver selvstændigt 3–4 faktasætninger med fagord om en insektart', advanced: 'skriver en sammenhængende forskningsrapport med indledning, fakta og konklusion' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Insekter-opgaver 2. Klasse | LessonCraftStudio',

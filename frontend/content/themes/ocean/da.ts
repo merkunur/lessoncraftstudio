@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder havarbejdsark sig til naturfagsmålene i 1. klasse?', answer: 'De understøtter Fælles Måls læringsmål om struktur og funktion ved at bede børn om at identificere, hvordan finner, skaller og tentakler hjælper havdyr med at overleve. Arbejdsark om marine levesteder forbinder til mål om forholdet mellem organismer og deres miljøer, mens vandkredsløbsaktiviteter introducerer naturfaglige begreber.' },
         { question: 'Er 1. klasses havarbejdsark udfordrende nok?', answer: 'Ja. De inkluderer flertrins matematikproblemer sat i havscenarier, mønsterfuldførelse med havdyr, ordforråds-krydsord med videnskabelige termer og læseforståelse, der kræver slutninger. Havtemaet opretholder engagementet, mens den faglige stringens matcher forventningerne til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Hav-arbejdsark til 1. klasse (6–7 år) træner dataindsamling med havdyr, addition/subtraktion inden for 20 med undervandscener, måling af havdyr og selvstændig skrivning af havdyrsfakta. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver havtemaet et oceanforskningsprojekt — seks- og syvårige kan læse faktatekster om havdyr, indsamle data om dyrearter i søjlediagrammer og løse flertrinsproblemer med undervandsscener. Klassifikation af havdyr efter type (fisk, pattedyr, bløddyr, krebsdyr) udbygger biologisk forståelse. Måling af havdyrs laengde i centimeter giver konkret talforståelse. Sammenlignende laesning af faktatekster om to havdyr traener informationslaesning. Skrivning af havdyrsfakta med fagord traener faglitteraer skrivning. Fælles Måls mål for naturfag, data og skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Biologisk klassifikation (6–7-årige sorterer havdyr efter type med fagtermer)', howWeAddress: 'Havdyrs-sorteringsark med kategorier (fisk, pattedyr, krebsdyr) træner biologisk klassifikation med fagord' },
+        { milestone: 'Informationslaesning og sammenligning (laese to tekster og finde forskelle)', howWeAddress: 'Sammenligningsark med to havdyr side om side, hvor eleverne finder ligheder og forskelle' },
+        { milestone: 'Faktaskrivning med fagord (havbiologi)', howWeAddress: 'Havdyrsfakta-ark med rammer for art, levested, fode og saerlige egenskaber guider fagskrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begraens til fire velkendte havdyr, brug billedstøtte til klassifikation, og tilbyd saetningsstartere. For avancerede elever i 1. klasse tilføjes fodekaedeforstaelse, sammenlignende essays om to havdyr og selvstaendig skrivning af havforskningsrapporter.',
+      parentTakeaway: 'Se en havdokunentar og stil fakta-spørgsmål: ”er en hval en fisk eller et pattedyr? Hvorfor?” Mål havdyr på billeder med lineal. Lav et familiediagram over yndlingshavdyr. Lad barnet skrive tre fakta om en haj eller en blaeksprutte. Havet er fuldt af matematik og naturvidenskab.',
+      classroomIntegration: 'Havtemaet i 1. klasse bruges som naturvidenskabeligt projekt: matematik med havdyrsdata og maaling, dansk med havdyrsfakta og sammenligningslaesning, naturfag med havbiologi og klassifikation, og billedkunst med undervandsscener. En havuge med film, boeger og skrivning integrerer alle fag. Fælles Måls mål for data, naturfag og skrivning understøttes.',
+      assessmentRubric: [
+        { skill: 'Havdyrsklassifikation', emerging: 'sorterer velkendte havdyr i to grupper med billedstøtte', proficient: 'klassificerer selvstændigt havdyr i 3–4 kategorier med fagtermer (fisk, pattedyr, krebsdyr)', advanced: 'forklarer klassifikationskriterier, håndterer grænsetilfælde og bruger fagtermer præcist' },
+        { skill: 'Addition/subtraktion (undervandsscener)', emerging: 'løser ét-trins-opgaver inden for 10 med billedstøtte', proficient: 'løser selvstændigt to-trins-problemer inden for 20 med havdyrsscenarier', advanced: 'løser flertrinsproblemer og formulerer egne tekstopgaver med havdata' },
+        { skill: 'Havdyrsfakta-skrivning', emerging: 'skriver 1–2 faktasætninger med ordbank og støtte', proficient: 'skriver selvstændigt 3–4 faktasætninger med fagord om et havdyr', advanced: 'skriver en sammenhængende havdyrsrapport med sammenligning af to arter' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Hav-opgaver 2. Klasse | LessonCraftStudio',

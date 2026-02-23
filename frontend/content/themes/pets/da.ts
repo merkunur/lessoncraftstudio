@@ -170,6 +170,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan forbinder kæledyrsarbejdsark sig til naturfagsmål i 1. klasse?', answer: 'De understøtter naturfagsmål om grundlæggende behov hos levende væsener ved at tilskynde børn til at tænke over, hvad kæledyr har brug for for at overleve og trives: mad, vand, husly, motion og dyrlægebesøg. Arbejdsark, der sammenligner forskellige kæledyr, introducerer også begreber om variation og tilpasning på et indledende niveau.' },
         { question: 'Er kæledyrsarbejdsark for 1. klasse udfordrende nok for dygtige elever?', answer: 'Ja. Flertrins-tekstopgaver, udvidede mønstersekvenser, strategiske billedstipuslespil og længere ordforråd i ordsøgninger giver ægte udfordring. Lærere kan øge sværhedsgraden yderligere ved at bede børn om at skrive deres egne tekstopgaver om kæledyr eller oprette originale ordblandinger, som klassekammerater kan løse.' },
       ],
+
+      snippetAnswer: 'Kæledyr-arbejdsark til 1. klasse (6–7 år) træner dataindsamling om kæledyr, addition/subtraktion inden for 20 med dyreplejebudgetter, måling af dyrets vaegt og længde, og selvstændig skrivning af kæledyrsdagbog. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver kæledyrstemaet et ansvars- og forskningsprojekt — seks- og syvårige kan indsamle data om klassens kæledyr i søjlediagrammer, beregne fodercudgifter med addition inden for 20, og skrive kæledyrsdagbog med observationer over tid. Måling af dyrets vaegt, laengde og højde giver funktionel brug af standardenheder. Sammenligning af kæledyrs behov (foder, plads, motion) udbygger klassifikationsevner. Informationslaesning om dyreracer traener faglitteraer laesning. Ansvarsforstaelse (foderskema, dyrlaegebesoeg) forbinder temaet med livsfaerdigheder. Fælles Måls mål for data, maaling og skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Dataindsamling og diagrammer (6–7-årige laver egne søjlediagrammer)', howWeAddress: 'Kæledyrsundersøgelsesark, hvor eleverne spørger klassekammerater og registrerer data i søjlediagrammer' },
+        { milestone: 'Måling af levende væsner (vaegt og laengde med standardenheder)', howWeAddress: 'Dyremålingsark, hvor eleverne måler og vejer (legetøjs)dyr og registrerer i tabeller' },
+        { milestone: 'Dagbogsform (gentagne observationer over tid)', howWeAddress: 'Kæledyrsdagbog-skabeloner med dato, observation og måleresultat guider longitudinel skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begraens til tre kæledyrstyper i diagrammer, maal i hele centimeter, og tilbyd saetningsstartere til dagbogen. For avancerede elever i 1. klasse tilføjes budgetberegning for kæledyrspleje, sammenlignende rapporter om to dyreracer og selvstaendig dagbogsskrivning med grafisk fremstilling.',
+      parentTakeaway: 'Lad barnet være kæledyrsforskeren: mål hundens længde med målebånd, vej kattens foder på køkkenvægten, og for en dagbog over dyrets vaner. Beregn ugentlige foderudgifter. Spørg venner om deres kæledyr og lav et søjlediagram. Kæledyr laerer ansvar — og matematik.',
+      classroomIntegration: 'Kæledyrstemaet i 1. klasse bruges tvaerfagligt: matematik med data og maalinger, dansk med kæledyrsdagbog og faktatekster, naturfag med dyreklassifikation og behov, og etik med ansvarsforstaelse. Et klassekaledyr (f.eks. fisk) giver autentisk kontekst. Fælles Måls mål for data, måling, naturfag og skrivning integreres.',
+      assessmentRubric: [
+        { skill: 'Dataindsamling (kæledyrsundersøgelse)', emerging: 'registrerer data i et forhåndslavet diagram med støtte', proficient: 'gennemfører selvstændigt en undersøgelse, opretter diagram og besvarer spørgsmål om data', advanced: 'designer egne undersøgelser, sammenligner datasaet og drager konklusioner' },
+        { skill: 'Måling af dyr (vaegt/længde)', emerging: 'måler én dimension med støtte', proficient: 'måler selvstændigt vaegt og længde i standardenheder og noterer korrekt', advanced: 'sammenligner mål mellem dyr, beregner forskelle og praesenterer data i tabeller' },
+        { skill: 'Kæledyrsdagbog (skriftlig)', emerging: 'skriver 1–2 sætninger med sætningsstartere om en observation', proficient: 'skriver selvstændigt daglige observationer med dato, mål og beskrivelse', advanced: 'fører en sammenhaengende dagbog over tid med refleksioner og konklusioner' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Kæledyr-opgaver 2. Klasse | LessonCraftStudio',

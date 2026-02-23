@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvad gør hushold-arbejdsark fagligt stringente for 1. klasse?', answer: 'De inkluderer flertrins-tekstopgaver med hjemscenarier, komplekse rumlige beskrivelser der kræver flere forholdsord, otte-trins rutinesekvenser med afhængighedstænkning, flerkriterie-klassificering med forklaring og læseforståelse med informationstekster om hjem og rutiner. Det faglige indhold opfylder fuldt ud Fælles Måls standarder på tværs af matematik, dansk og naturfag.' },
         { question: 'Kan hushold-arbejdsark forbindes med naturfag i 1. klasse?', answer: 'Ja. De understøtter fysik-standarder, når børn sorterer genstande efter materiale som træ, glas, metal og stof. De forbinder til ingeniørkoncepter, når børn drøfter, hvorfor huse har bestemte funktioner. Og de opbygger sikkerhedsforståelse ved at identificere farer i hjemmet og forklare årsag-virkningsforhold mellem handlinger og konsekvenser i hjemmemiljøet.' },
       ],
+
+      snippetAnswer: 'Husholdnings-arbejdsark til 1. klasse (6–7 år) træner måling med standardenheder, sortering efter flere kriterier, pengeregning med indkobslister og selvstændig skrivning af instruktioner. Hverdagsmatematik i praksis. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver husholdningstemaet et funktionelt matematikprojekt — seks- og syvårige kan maale rumtemperatur, veje ingredienser i gram og beregne indkobspriser med addition inden for 20. Sortering af husholdningsgenstande efter materiale, funktion og rum udvider klassifikationsfærdigheder til tre samtidige kriterier. Instruktionstekster (”sådan rydder du op på dit værelse”) traener proceduretekst med nummererede trin. Tidsforståelse med dagligdagsrutiner (morgenmad kl. 7, skole kl. 8) forbinder klokkeslaet med virkelighed. Fælles Måls mål for måling, tal og proceduretekst i 1. klasse mødes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Funktionel måling med standardenheder (gram, liter, grader)', howWeAddress: 'Husholdningsmålingsark, hvor eleverne vejer, måler og aflæser værdier på køkkenredskaber' },
+        { milestone: 'Begyndende pengeregning (kroner og priser)', howWeAddress: 'Indkobslisteark, hvor eleverne adderer priser, sammenligner og beregner byttepenge inden for 20 kr.' },
+        { milestone: 'Proceduretekst (nummererede trin i en instruktion)', howWeAddress: 'Instruktionsark, hvor eleverne skriver 4–6 nummererede trin til husholdningsopgaver' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til hele kroner og to-tre genstande, brug forenklede måleark med billedstøtte, og tilbyd sætningsstartere til instruktioner. For avancerede elever i 1. klasse tilføjes prisberegning med øre, flertrinsproblemer med husholdningsbudget og selvstændig skrivning af opskrifter som proceduretekst.',
+      parentTakeaway: 'Gør hverdagsopgaver til matematik: lad barnet veje mel på kokkenvægten, tælle priser på indkobssedlen, og time oprydning med et stopur. Skriv en instruktion sammen: ”sådan daekker vi bord.” Husholdning er den mest autentiske ramme for funktionel matematik og skrivning.',
+      classroomIntegration: 'Husholdningstemaet i 1. klasse forbinder skole og hjem: matematik med måling, pengeregning og tidsforståelse, dansk med instruktionstekster og indkobslister, og natur/teknik med materialesortering. En klassens-husholdningsuge med rollespilsbutik og opskrifter integrerer alle fag. Fælles Måls mål for måling, penge og proceduretekst understøttes.',
+      assessmentRubric: [
+        { skill: 'Måling med standardenheder (husholdning)', emerging: 'aflæser et måleresultat med støtte (hele tal)', proficient: 'måler selvstændigt med vægt og målekop og noterer resultatet korrekt', advanced: 'måler praecist, sammenligner mål og løser flertrinsproblemer med måleenheder' },
+        { skill: 'Pengeregning (indkobskontekst)', emerging: 'adderer to priser inden for 10 kr. med støtte', proficient: 'adderer selvstaendigt tre priser inden for 20 kr. og sammenligner priser', advanced: 'loser flertrinsproblemer med byttepenge og enkelt budgetlaegning' },
+        { skill: 'Instruktionstekst (proceduretekst)', emerging: 'skriver 2–3 trin med billedstøtte', proficient: 'skriver selvstændigt 4–6 nummererede trin i logisk raekkefolge', advanced: 'skriver detaljerede instruktioner med tidsangivelser, maengder og begrundelser' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Husholdning-opgaver 2. Klasse | LessonCraftStudio',

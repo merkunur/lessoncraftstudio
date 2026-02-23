@@ -177,6 +177,22 @@ const content: EnrichedThemeContent = {
         { question: 'Er piratarbejdsark passende for 1. klasses læseniveau?', answer: 'Ja. De bruger enkle sætninger med almindelige ord og afkodeligt piratordforråd. Læsetekster er tre til fem sætninger lange og beskriver eventyrscenarier med forståelsesspørgsmål, der beder eleverne om at genkalde fakta, drage slutninger og sekventere hændelser.' },
         { question: 'Hvordan introducerer piratarbejdsark tidlige geometribegreber?', answer: 'Skattekort-gitteraktiviteter introducerer koordinater ved at bede børn finde placeringer med række- og kolonneidentifikatorer. Retningfølgende aktiviteter opbygger forståelsen af rumlige relationer som ovenfor, nedenfor, venstre og højre. Disse grundlæggende færdigheder understøtter geometri- og rumlige forståelsesnormer i Fælles Mål for 1. klasse.' },
       ],
+
+      snippetAnswer: 'Pirat-arbejdsark til 1. klasse (6–7 år) træner kortlaesning med koordinater, addition/subtraktion inden for 20 med skattejagt, måling af afstande og kreativ skrivning af pirathistorier med narrativ struktur. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse får pirattemaet matematisk og sproglig dybde — seks- og syvårige kan laese skattekort med enkle koordinater (raekke og kolonne), løse flertrinsproblemer med guldmønter og skattekister, og skrive pirathistorier med begyndelse, eventyr og slutning. Koordinatsystemer med bogstav og tal (A3, B5) introducerer formel rumlig tænkning. Pengeregning med guldmoenter giver kontekst for addition og subtraktion med tierovergang. Kompassretninger (nord, syd, ost, vest) udvider orienteringsfærdigheder. Piratordforraad beriger sproget kreativt. Fælles Måls mål for rumlig orientering, tal og kreativ skrivning i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Koordinatlaesning (6–7-årige finder positioner med raekke og kolonne)', howWeAddress: 'Skattekort-ark med enkle koordinater (A1–E5), hvor eleverne finder og markerer positioner' },
+        { milestone: 'Flertrinsproblemer med penge/vaerdier (addition/subtraktion inden for 20)', howWeAddress: 'Guldmoentre-regneopgaver med skattekister, hvor eleverne loser to-trins-problemer med kontekst' },
+        { milestone: 'Kreativ narrativ skrivning (begyndelse, eventyr, slutning)', howWeAddress: 'Pirathistorie-skabeloner med strukturrammer og piratordforraad guider eventyrlig kreativ skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for stoette, brug 3×3-kort med billedsymboler, hold regning inden for 10, og tilbyd historiestartere med billedsekvenser. For avancerede elever i 1. klasse tilføjes 5×5-koordinater, flertrinsproblemer med tre operationer og selvstaendig pirathistorieskrivning med dialog og plottwist.',
+      parentTakeaway: 'Lav en skattejagt derhjemme med et kort og koordinater: ”skatten er ved B3!” Brug legemoenster som guldmoenster og løs regnestykker. Lad barnet skrive en pirathistorie med tegninger. Brug kompasretninger på ture: ”vi går mod nord!” Pirater er det mest motiverende tema for matematik og skrivning.',
+      classroomIntegration: 'Pirattemaet i 1. klasse bruges som motiverende temauge: matematik med koordinater, guldmoent-regning og afstandsmaaling, dansk med pirathistorier og ordforraadsopbygning, idraet med skattejagt og kompasleg, og billedkunst med skattekort. Fælles Måls mål for rumlig orientering, tal og kreativ skrivning integreres i et engagerende eventyr.',
+      assessmentRubric: [
+        { skill: 'Koordinatlæsning (skattekort)', emerging: 'finder en position på et 3×3-kort med støtte', proficient: 'finder og markerer selvstændigt positioner på et 5×5-koordinatkort korrekt', advanced: 'plottter ruter mellem koordinater, bruger kompasretninger og designer egne skattekort' },
+        { skill: 'Flertrinsproblemer (piratkontekst)', emerging: 'løser ét-trins-opgaver inden for 10 med billedstøtte', proficient: 'løser selvstændigt to-trins-problemer inden for 20 med guldmøntscenarier', advanced: 'løser tre-trins-problemer og formulerer egne skattejagtopgaver' },
+        { skill: 'Kreativ pirathistorie', emerging: 'skriver 2–3 sætninger med billedstøtte og startere', proficient: 'skriver selvstændigt en kort pirathistorie med begyndelse, eventyr og slutning', advanced: 'skriver en detaljeret pirathistorie med dialog, spænding og overraskende slutning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Pirater-opgaver 2. Klasse | LessonCraftStudio',

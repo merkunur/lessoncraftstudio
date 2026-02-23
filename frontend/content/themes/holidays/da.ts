@@ -178,6 +178,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan understøtter højtidsarbejdsark skrivestandarder i 1. klasse?', answer: 'De giver rige skriveimpulser forbundet til personlig erfaring og kulturel udforskning. Børn kan skrive om deres yndlingsfamilietradition, beskrive en højtid de har lært om, eller forfatte en kort fortælling om at planlægge en fejring — alt sammen i overensstemmelse med Fælles Mål for skrivning i 1. klasse.' },
         { question: 'Er 1. klasses højtidsarbejdsark fagligt krævende nok?', answer: 'Ja. De omfatter flertrinstekstopgaver sat i fejringsscenarier, vokabularpuslespil med ord på op til ti bogstaver, læseforståelse der kræver inferens om kulturelle praksisser, og mønsteraktiviteter med festlige sekvenser. Højtidstemaet holder børnene engagerede, mens det fuldt ud opfylder de faglige forventninger til 1. klasse.' },
       ],
+
+      snippetAnswer: 'Ferie- og højtids-arbejdsark til 1. klasse (6–7 år) træner kalenderregning, tidslinjer med måneder, addition/subtraktion inden for 20 med festscenarier og selvstændig skrivning af højtidsbeskrivelser. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse får højtidstemaet tidsmassig og sproglig dybde — seks- og syvårige kan placere højtider på en årstidslinje, beregne dage mellem begivenheder og skrive beskrivelser af traditioner med struktur. Kalenderregning med måneder og uger giver funktionel tidsforståelse. Addition og subtraktion med gaveindkob, gæster og festforberedelser giver flertrinsproblemer med reel kontekst. Kulturforståelse udvides med sammenligning af danske og internationale højtider. Skrivning af højtidsbeskrivelser med kronologisk opbygning træner struktureret skrivning. Fælles Måls mål for tid, tal og skriftlig fremstilling i 1. klasse mødes.',
+      developmentalMilestones: [
+        { milestone: 'Kalender- og tidsforståelse (6–7-årige læser kalendere og beregner dage)', howWeAddress: 'Højtidskalender-ark, hvor eleverne finder datoer, tæller dage mellem højtider og placerer begivenheder på tidslinjer' },
+        { milestone: 'Kulturel sammenligning (forståelse af traditioner)', howWeAddress: 'Sammenligningsark, hvor eleverne beskriver danske og internationale højtider side om side' },
+        { milestone: 'Kronologisk beskrivelse (først–så–til sidst)', howWeAddress: 'Højtidsbeskrivelsesark med kronologiske signalord guider struktureret skrivning om festtraditioner' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til tre velkendte højtider, brug billedkalender, og tilbyd sætningsstartere. For avancerede elever i 1. klasse tilføjes tidsberegning over måneder, kultursammenligningsessays og selvstændig skrivning af fiktive højtidstraditioner.',
+      parentTakeaway: 'Brug højtider til kalendermatematik: ”hvor mange dage til jul? Hvilken måned er påske i?” Lav en familietidslinje med årets højtider. Lad barnet skrive om sin yndlingshøjtid med tegning: hvad sker først, hvad sker så, hvad sker til sidst? Traditioner giver struktur til både tid og skrivning.',
+      classroomIntegration: 'Højtidstemaet i 1. klasse bruges året rundt: matematik med kalenderregning og tidslinjer, dansk med højtidsbeskrivelser og ordforråd, kristendom/livsoplysning med traditionsforståelse, og billedkunst med højtidsdekorationer. Hver højtid bliver et mini-temaforløb. Fælles Måls mål for tid, kulturforståelse og skrivning integreres.',
+      assessmentRubric: [
+        { skill: 'Kalenderregning og tidslinjer', emerging: 'finder en dato på en kalender med støtte', proficient: 'tæller selvstændigt dage mellem datoer og placerer højtider på en tidslinje korrekt', advanced: 'beregner uger og måneder, sammenligner tidsintervaller og forklarer kronologi' },
+        { skill: 'Addition/subtraktion (festkontekst)', emerging: 'løser ét-trins-opgaver inden for 10 med billedstøtte', proficient: 'løser selvstændigt to-trins-problemer inden for 20 med festscenarier', advanced: 'løser flertrinsproblemer med gavebudgetter og gæsteberegninger' },
+        { skill: 'Højtidsbeskrivelse (kronologisk)', emerging: 'skriver 1–2 sætninger om en højtid med støtte', proficient: 'skriver selvstændigt en kronologisk beskrivelse med 3–4 sætninger og signalord', advanced: 'skriver en detaljeret højtidsbeskrivelse med kulturel sammenligning og personlig refleksion' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Helligdage-opgaver 2. Klasse | LessonCraftStudio',

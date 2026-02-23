@@ -178,6 +178,23 @@ const content: EnrichedThemeContent = {
         { question: 'Kan frugt-arbejdsark integreres med et skolens ernæringsprogram?', answer: 'Perfekt. Par frugt-arbejdsark med skolens madordning ved at lade børn identificere, hvilke frugter der optræder i deres måltider i løbet af ugen. Forbind ordforråds-arbejdsark med ernæringsetiketter og fødevaregruppeplakater. Denne integration styrker både faglige færdigheder og de sundhedsbudskaber, som skolens madprogram fremmer.' },
         { question: 'Er frugt-arbejdsark engagerende nok for 1. klassere, der søger udfordring?', answer: 'Ja. Flertrins-tekstopgaver, datatolkningsspørgsmål, mønsterfuldendelse med komplekse frugtsekvenser og læseforståelse om landbrugsprocesser giver ægte faglig udfordring. Det velkendte frugttema holder indholdet tilgængeligt, mens de krævede færdigheder er fuldt alderssvarende.' },
       ],
+
+      snippetAnswer: 'Frugt-arbejdsark til 1. klasse (6–7 år) træner addition og subtraktion inden for 20 med frugtscener, brøker med halvdele og fjerdedele af frugter, og selvstændig skrivning af frugtbeskrivelser med adjektiver. Gratis printbare PDF-arbejdsark på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 1. klasse bliver frugttemaet et brøk- og datalaboratorium — seks- og syvårige kan dele frugter i halvdele, fjerdedele og tredjedele, indsamle data om klassens yndlingsfrugter i søjlediagrammer og løse flertrinsproblemer med frugtkurve. Addition og subtraktion inden for 20 med frugtscener giver kontekstualiseret regning med tierovergang. Måling af frugtvægt med vægt og gram introducerer standardenheder. Skrivning af frugtbeskrivelser med farve, smag og tekstur træner adjektivrig faglitterær skrivning. Fælles Måls mål for brøker, data og skriftlig beskrivelse i 1. klasse mødes direkte.',
+      developmentalMilestones: [
+        { milestone: 'Brøkforståelse med konkrete genstande (6–7-årige deler frugter i lige store dele)', howWeAddress: 'Frugtdelingsark, hvor eleverne skraverer halvdele, fjerdedele og tredjedele af æbler og appelsiner, giver håndgribelig brøkforståelse' },
+        { milestone: 'Dataindsamling og diagramlæsning (søjlediagrammer med kategorier)', howWeAddress: 'Yndlingsfrugt-undersøgelsesark med søjlediagrammer, hvor eleverne registrerer, aflæser og sammenligner data' },
+        { milestone: 'Måling med vægt og gram (begyndende vægtmåling)', howWeAddress: 'Frugtvægtsark, hvor eleverne vejer frugter, noterer gram og sammenligner — funktionel måling' },
+        { milestone: 'Beskrivende skrivning med sanseord (smag, farve, tekstur)', howWeAddress: 'Frugtbeskrivelsesark med sensoriske adjektivrammer guider præcis, adjektivrig skrivning' },
+      ],
+      differentiationNotes: 'For elever der har brug for støtte, begræns til halvdele, brug kun tre frugter i diagrammer, og tilbyd adjektivordbank. For avancerede elever i 1. klasse tilføjes fjerdedele og tredjedele, flertrinsproblemer med frugtpriser, og selvstændig skrivning af frugtanmeldelser med begrundede meninger.',
+      parentTakeaway: 'Del frugter ved middagsbordet og tal om brøker: ”hvor mange fjerdedele er der i et æble?” Vej frugter i køkkenet og sammenlign. Lad barnet tælle frugter i skålen og lave et diagram. Skriv sammen: ”Æblet er rødt, sødt og sproedt.” Frugt er den smagfulde vej til brøker og data.',
+      classroomIntegration: 'Frugttemaet i 1. klasse integreres i matematik og natur/teknik: brøkcirkler med frugtbilleder, søjlediagrammer med klassens yndlingsfrugter, vægtsmåling i naturfagstimen og sansebeskrivelser i dansktimen. En frugtuge med smagning og dataindsamling forbinder alle fag. Fælles Måls mål for brøker, data og skrivning understøttes.',
+      assessmentRubric: [
+        { skill: 'Brøkforståelse (frugtkontekst)', emerging: 'deler en frugt i to halvdele med støtte', proficient: 'deler selvstændigt frugter i halvdele og fjerdedele og navngiver brøkerne korrekt', advanced: 'deler i tredjedele, sammenligner brøkstørrelser og løser enkle brøkopgaver med frugter' },
+        { skill: 'Dataindsamling og diagrammer (frugtdata)', emerging: 'registrerer data i et forhåndslavet diagram med støtte', proficient: 'opretter selvstændigt et søjlediagram med frugtdata og besvarer sammenligningsspørgsmål', advanced: 'analyserer data fra egne undersøgelser, drager konklusioner og præsenterer resultater' },
+        { skill: 'Sansebeskrivelse af frugter', emerging: 'skriver 1–2 sætninger med adjektivstøtte fra ordbank', proficient: 'skriver selvstændigt 3–4 beskrivende sætninger med farve, smag og tekstur', advanced: 'skriver en sammenhængende frugtanmeldelse med begrundede meninger og sammenligning' },
+      ],
     },
     'second-grade': {
       seoTitle: 'Frugter-opgaver 2. Klasse | LessonCraftStudio',

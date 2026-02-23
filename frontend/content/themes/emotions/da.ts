@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'music', 'pets', 'fairy-tales', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Følelsesarbejdsark indtager en helt enestående position i tidlig pædagogik, fordi de adresserer det mest fundamentale aspekt af menneskelig udvikling: evnen til at forstå, navngive og håndtere sine egne og andres følelser. Ingen anden tematisk kategori har denne direkte forbindelse til barnets indre verden — når et barn arbejder med et følelsesarbejdsark, bearbejder det ikke et abstrakt emne, men sin egen levede erfaring med glæde, frustration, frygt og begejstring. I den danske folkeskoles Fælles Mål er trivsel og social-emotionel læring ikke et tilføjet element, men et gennemgående mål på tværs af alle fag og klassetrin. Denne særlige danske vægtning af trivsel gør følelsesarbejdsark til et af de mest læreplansrelevante temaer overhovedet. Social-emotionel læring (SEL) i den skandinaviske kontekst handler ikke blot om at lære børn at identificere følelser, men om at udvikle empati, selvregulering og fællesskabsfornemmelse — værdier der er dybt forankret i den danske skolekultur. Følelsesarbejdsark understøtter dette ved at give børn et følelsesmæssigt ordforråd, der rækker langt ud over glad og ked af det, og som giver dem præcision i at beskrive nuancerede tilstande som ængstelig, taknemmelig, skuffet og lettet. Denne ordforrådsopbygning er direkte forbundet med evnen til selvregulering: et barn der kan navngive sin frustration har taget det første skridt mod at håndtere den konstruktivt. Følelsestemaet har desuden en unik tværfaglig kraft, da det naturligt integrerer dansk gennem følelsesordforråd og karakteranalyse, matematik gennem dataindsamling om følelsesmæssige mønstre, og sundhedsundervisning gennem mental trivsel og fællesskab.',
+
+  researchCitation: 'Sommer, D. (2012). Børns sociale og emotionelle udvikling i en skandinavisk kontekst. Aalborg Universitetsforlag. Dion Sommer fra Aalborg Universitet har gennem årtiers forskning dokumenteret, hvordan skandinaviske børns social-emotionelle udvikling formes af den særlige nordiske pædagogiske tradition, der vægter trivsel, demokratisk deltagelse og emotionel kompetence som centrale udviklingsmål. Hans studier viser, at børn der systematisk eksponeres for følelsesordforråd og øver perspektivtagning i strukturerede aktiviteter, udvikler stærkere empati, bedre selvregulering og mere robuste sociale færdigheder end børn uden denne træning. Særligt relevant er Sommers dokumentation af, at den danske folkeskoles fokus på trivsel og det hele barn skaber en unik kontekst, hvor følelsesmæssig læring ikke er et supplement til faglig undervisning, men et fundament for al læring.',
+
+  snippetDefinition: 'Følelsesarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af ansigtsudtryk, sociale scenarier og følelsesordforråd til at undervise i emotionel identifikation, empati og selvregulering. Designet til børn i alderen 3 til 9 inkluderer de matchning af ansigtsudtryk med følelser, sortering af følelseskategorier, følelsesordforråds-ordspil og scenariebaserede aktiviteter, der udvikler børns evne til at forstå og håndtere deres egne og andres følelser.',
+
+  snippetHowTo: [
+    'Vælg et følelsesmæssigt fokus for sessionen, som grundlæggende følelser, nuancerede følelsesord, empati eller selvregulering, så aktiviteten har en sammenhængende tematisk ramme.',
+    'Start med et farvelægnings- eller matchningsarbejdsark der bruger tydelige ansigtsudtryk, så barnet engageres visuelt og øver basale følelsesidentifikationsfærdigheder.',
+    'Introducer et sorteringsarbejdsark der beder barnet kategorisere følelser efter type eller intensitet, og byg dermed bro mellem visuel genkendelse og begrebsmæssig forståelse af følelsernes spektrum.',
+    'Tilføj en sproglig komponent med en ordsøgning eller ordgættespil der fokuserer på følelsesordforråd, så barnet udvider sin emotionelle ordliste ud over glad og ked af det.',
+    'Inkluder en kreativ aktivitet hvor barnet tegner ansigtsudtryk til specifikke scenarier eller skriver om egne følelsesmæssige oplevelser, så læringen bliver personlig og reflekterende.',
+    'Afslut med en samtale om de følelser, barnet har arbejdet med: hvornår har du følt dig sådan, hvad hjalp dig, og hvad kan du gøre næste gang du oplever den følelse?',
+    'Forstærk læringen ved at integrere følelsesordforrådet i hverdagen: navngiv følelser under måltider, bilture og godnatlæsning, så arbejdsarkssproget bliver levende kommunikation.',
+  ],
+
+  limitations: 'Følelsesarbejdsark kræver særlig følsomhed og opmærksomhed fra den voksne. Nogle børn kan finde det overvejende ubehageligt at fokusere på negative følelser som vrede, frygt eller sorg, særligt hvis de har oplevet traumatiske begivenheder, tab eller familiemæssig ustabilitet. Lærere og forældre bør aldrig tvinge børn til at dele personlige følelsesmæssige oplevelser og bør være opmærksomme på tegn på ubære, som tilbagetrækning, agitation eller undgåelse. Følelsesarbejdsark er et pædagogisk redskab til at opbygge emotionel læsefærdighed og er aldrig en erstatning for professionel støtte fra psykologer, pædagogiske rådgivere eller PPR. Fagligt er følelsestemaet stærkest for sprogudvikling, social-emotionel læring og grundlæggende tælling, men mindre naturligt egnet til avanceret matematik som multiplikation eller geometri. Kulturel følsomhed er også vigtig: nogle familier har forskellige normer for, hvordan følelser udtrykkes og diskuteres, og lærere bør respektere dette mangfold, mens de stadig opmuntrer til følelsesmæssig åbenhed i et trygt læringsmiljø.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kropsarbejdsark fokuserer på den fysiske anatomi — kropsdele, sanser og bevægelse. Følelsesarbejdsark udforsker den indre verden bag den fysiske krop: hvad der sker, når hjertet banker af spænding, når maven knytter sig af nervøsitet, eller når kinderne rødmer af forlegenhed. Sammen bygger de to temaer en helhedsforståelse af forbindelsen mellem krop og sind.',
+    },
+    {
+      vsThemeId: 'music',
+      summary: 'Musikarbejdsark udforsker lyd, rytme, instrumenter og musikalsk udtryk. Følelsesarbejdsark fokuserer på at identificere og navngive følelsesmæssige tilstande. Musikken er en af de mest kraftfulde kanaler for følelsesmæssigt udtryk, og sammen giver de to temaer børn både ordene og de kreative udtryksformer til at kommunikere deres indre verden.',
+    },
+    {
+      vsThemeId: 'pets',
+      summary: 'Kæledyrsarbejdsark handler om dyrepleje, ansvar og dyrevelfærd. Følelsesarbejdsark fokuserer på menneskelige følelser og empati. Kæledyr er en naturlig bro til empatiudvikling, da børn lærer at aflæse dyrs følelsesmæssige signaler og reagere med omsorg, og sammen styrker de to temaer børns evne til medfølelse på tværs af arter.',
+    },
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Eventyrarbejdsark udforsker klassiske fortællinger, karakterer og narrative strukturer. Følelsesarbejdsark fokuserer på at identificere og håndtere følelser direkte. Eventyr er rige på følelsesmæssige temaer som frygt, mod, tab og glæde, og sammen giver de to temaer børn både de narrative rammer og det følelsesmæssige ordforråd til at forstå karakterers motivationer og handlinger.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'følelser farvelægningssider',
+      context: 'Vores følelser farvelægningssider byder på udtryksfyldte ansigter med tydelige følelsesmæssige signaler, der udvikler finmotorisk kontrol og emotionel genkendelse samtidigt, mens barnet farvelægger glade, triste, overraskede og vrede ansigter.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'følelser matchningsopgaver',
+      context: 'Vores følelser matchningsopgaver parrer ansigtsudtryk med scenarier, følelsesord med illustrationer og situationer med passende reaktioner, og opbygger den perspektivtagning og empati der er central i Fælles Måls trivselsmål.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'følelser sorteringsopgaver',
+      context: 'Med vores følelser sorteringsopgaver kategoriserer børn ansigtsudtryk efter følelsestype, intensitet eller passende reaktion, og udvikler den analytiske tænkning og emotionelle nuancering der understøtter social-emotionel læring.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'følelser ordsøgning printbar',
+      context: 'Følelsesordforrådet udvides, når børn jager efter emotionelle begreber som taknemmelig, ængstelig, stolt og overvældet i vores følelser ordsøgning printbar sider, der gør nuanceret følelsesmæssigt sprog tilgængeligt og engagerende.',
+    },
+    {
+      appId: 'odd-one-out',
+      anchorText: 'følelser find-den-der-ikke-hører-til',
+      context: 'Vores følelser find-den-der-ikke-hører-til puslespil udfordrer børn til at identificere, hvilket ansigtsudtryk eller følelsesord der ikke passer i en gruppe, hvilket skærper kategoriseringsevner og følelsesmæssig skelneevne.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer oplever hyppige konflikter i frikvarteret, hvor eleverne har svært ved at udtrykke frustration med ord og i stedet reagerer med skub eller gråd.',
+      solution: 'Læreren introducerer daglige følelsestjek-ind med matchningsarbejdsark, hvor eleverne identificerer dagens følelse ved at matche et ansigtsudtryk. Derefter øver klassen følelsesordforråd gennem ordsøgninger og ordgættespil, og et synligt følelsesbarometer opsættes i klasselokalet med de lærte følelsesord.',
+      outcome: 'Inden for tre uger begynder eleverne spontant at bruge følelsesord som frustreret og skuffet i stedet for at reagere fysisk. Frikvarterskonflikternes intensitet falder markant, og eleverne bruger følelsesbarometeret til at kommunikere deres tilstand til læreren når de har brug for støtte.',
+    },
+    {
+      situation: 'En forælder er bekymret over sit seksårige barns voldsomme raserianfald derhjemme og ønsker strategier til at hjælpe barnet med at håndtere stærke følelser.',
+      solution: 'Forælderen bruger følelsesfarvelægningsark og sorteringsopgaver i rolige stunder til at opbygge barnets følelsesordforråd. Sammen laver de et følelsestermometer på køleskabet med de lærte følelsesord, og barnet lærer at pege på sin følelse på termometeret som første skridt i en beroligelsesstrategi.',
+      outcome: 'Barnet begynder at bruge følelsesord som jeg er rigtig vred i stedet for at reagere med udbrud. Følelsestermometeret bliver et fælles referencepunkt for hele familien, og raserianfaldenes hyppighed og varighed reduceres væsentligt over to måneders konsekvent brug.',
+    },
+    {
+      situation: 'En 2.-klasselærer ønsker at integrere social-emotionel læring i danskundervisningen og opfylde Fælles Måls tværfaglige trivselsmål uden at miste faglig stringens.',
+      solution: 'Læreren bruger følelsesbaserede læseforståelsestekster med scenariearbejdsark, hvor eleverne analyserer karakterers følelser og skriver korte afsnit fra forskellige perspektiver. Derefter indsamler klassen data om egne følelser i en klassundersøgelse og fremstiller resultaterne grafisk.',
+      outcome: 'Eleverne udvikler både stærkere skrivefærdigheder og dybere emotionel forståelse. Læseforståelsesresultaterne forbedres, da eleverne engagerer sig mere med tekster der handler om genkendelige følelsesmæssige situationer, og trivselsmålingerne for klassen stiger markant.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug store, klare ansigtsudtryksillustrationeer med farvekodede følelseskategorier — grønt for behagelige følelser, rødt for ubehagelige og gult for blandede. Farvelægningsark med detaljerede ansigter og matchningsøvelser med billedpar udnytter stærke visuelle processeringsevner og gør abstrakte følelser konkrete og observerbare.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med kropslige aktiviteter: lad eleverne mime ansigtsudtryk foran et spejl, lave hele kroppens følelsesstatuer og spille følelsespantomime. Følelsestermometre med fysiske glidere og sorteringsaktiviteter med udklipte følelseskort giver hændgribelige materialer, der forankrer emotionel læring i bevægelse og berøring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Følelser er universelle og aflæses på ansigtsudtryk, der overskrider sprogbarrierer. Start med billedbaserede matchningsøvelser der parrer ansigtsudtryk med danske følelsesord, og lad eleverne navngive følelserne på både dansk og deres modersmål. Denne konkrete, visuelle ordforrådsopbygning er særligt effektiv, fordi følelsesudtryk er umiddelbart genkendelige på tværs af kulturer.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med opgaver om nuancerede og blandede følelser: analyser scenarier hvor karakterer føler to modstridende følelser samtidigt, skriv reflekterende tekster om emotionelle dilemmaer, eller udfors forskning om, hvordan hjernen behandler følelser. Lad dem oprette egne følelsesscenarie-arbejdsark der udfordrer klassekammerater til perspektivtagning.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Dansk',
+      connection: 'Følelsesarbejdsark understøtter direkte Fælles Mål for dansk inden for kompetenceområdet mundtlig og skriftlig kommunikation. Følelsesordforråd er kernen i karakteranalyse i fortællinger, og evnen til at beskrive følelser præcist styrker både mundtlig udtryksfærdighed og skriftlige personlige fortællinger.',
+      activity: 'Eleverne læser en kort fortælling med en konflikt mellem to karakterer, identificerer begge karakterers følelser ved hjælp af følelsesordforråd fra arbejdsark, og skriver derefter et afsnit fra hver karakters perspektiv, der demonstrerer perspektivtagning og præcist følelsesmæssigt sprog.',
+    },
+    {
+      subject: 'Sundheds- og seksualundervisning',
+      connection: 'Følelsesarbejdsark understøtter direkte Fælles Måls kompetenceområde for sundhed, trivsel og personlig udvikling. Mental sundhed, selvbevidsthed og sociale kompetencer er centrale elementer, og følelsesarbejdsark giver den praktiske øvelse i emotionel læsefærdighed, som læreplanen forudsætter.',
+      activity: 'Klassen gennemfører en uges trivselsundersøgelse, hvor eleverne dagligt registrerer deres følelse på et følelsestjek-ark. I slutningen af ugen analyserer de mønstre: hvilke dage var mest positive, hvornår oplevede de ubehagelige følelser, og hvilke strategier hjalp dem med at håndtere svære øjeblikke.',
+    },
+    {
+      subject: 'Billedkunst',
+      connection: 'Følelsesarbejdsark forbinder direkte til Fælles Mål for billedkunst inden for kompetenceområdet billedfremstilling og visuel kommunikation. At udtrykke følelser visuelt gennem ansigtsudtryk, farvevalg og kropsstillinger er en fundamental kunstnerisk færdighed der forbinder det personlige med det æstetiske.',
+      activity: 'Eleverne vælger tre følelser fra deres arbejdsark og skaber et følelseskunstværk for hver: et selvportræt der viser følelsen gennem ansigtsudtryk og farvevalg. Klassen diskuterer, hvordan kunstnere gennem historien har brugt farver, linjer og former til at kommunikere følelser.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Følelsesordforrådsportfolio',
+      criteria: 'Eleverne samler deres følelsesarbejdsark i en portfolio over en måned. Vurder udviklingen i antallet og præcisionen af følelsesord de bruger, deres evne til at matche følelser med scenarier korrekt, og kvaliteten af deres refleksioner over egne følelsesmæssige oplevelser. Portfolioen viser progressionen fra basale til nuancerede følelsesord.',
+      gradeLevel: 'Børnehaveklasse til 1. klasse',
+    },
+    {
+      method: 'Scenariebaseret perspektivtagningsopgave',
+      criteria: 'Præsenter et socialt scenarie med to eller flere karakterer og bed eleverne identificere hver karakters følelser, forklare hvorfor de føler sådan, og foreslå en løsning. Vurder præcisionen i følelsesidentifikation, kvaliteten af perspektivtagning og realismen i de foreslåede strategier.',
+      gradeLevel: '1. klasse til 2. klasse',
+    },
+    {
+      method: 'Klassens trivselsundersøgelsesprojekt',
+      criteria: 'Eleverne designer spørgesmål, indsamler data om klassekammeraters følelser i forskellige skolesituationer, fremstiller resultaterne grafisk og skriver en analyserapport. Vurder dataindsamlingsmetoden, grafisk nøjagtighed, analytisk dybde i fortolkningen og kvaliteten af anbefalinger for klassens trivsel.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Integrer følelsestjek-ind som en daglig rutine, ikke kun som en enkelstående aktivitet. Fælles Mål vægter trivsel som et gennemgående mål, og et kort følelsesarbejdsark ved dagens start opbygger både følelsesordforråd og den selvbevidsthed, der er fundamentet for al social-emotionel læring. Konsistens er vigtigere end varighed: fem minutter dagligt overgår én lang session ugentligt.',
+      source: 'Fælles Mål, trivselsmål på tværs af fag',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Husk at følelsesarbejdsark er mest effektive, når de løses i rolige, neutrale øjeblikke — ikke under aktive følelsesmæssige kriser. Sommers forskning viser, at børns sociale og emotionelle kompetencer opbygges bedst gennem planlagte, trygge læringssituationer, hvor barnet kan reflektere uden pres. De færdigheder og det ordforråd, der øves i rolige stunder, bliver de redskaber, barnet trækker på under virkelige følelsesmæssige udfordringer.',
+      source: 'Sommer, D. — AAU forskning i børns emotionelle udvikling',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Differentier følelsesordforrådet efter alder: førskolen fokuserer på fire til seks grundfølelser, børnehaveklassen udvider til otte til tolv, og de ældre klassetrin arbejder med nuancerede ord som ambivalent, empatisk og modstandsdygtig. Denne progression spejler børnenes kognitive udvikling og sikrer, at arbejdsarkene altid udfordrer uden at overvælde.',
+      source: 'Fælles Mål, progressionsmål for sociale kompetencer',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: 'Matematik, dansk, billedkunst, sundhed' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. klasse' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 minutter' },
+    { label: 'Følelsesord dækket', value: '30+ nuancerede følelsesord' },
+  ],
 };
 
 registerThemeContent('emotions', 'da', content);

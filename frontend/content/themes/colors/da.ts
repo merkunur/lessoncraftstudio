@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['shapes', 'flowers', 'animals', 'nature', 'alphabet', 'food'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Farvearbejdsark indtager en helt særlig position i tidlig pædagogik, fordi farve er den første abstrakte egenskab, børn lærer at navngive og anvende konsistent — endnu før de mestrer tal, bogstaver eller former. Denne tidlige mestring gør farve til det naturlige udgangspunkt for al klassifikationstænkning: når et barn sorterer klodser i røde og blå grupper, udfører det den samme logiske operation, som det senere vil anvende på tal, geometriske figurer og videnskabelige kategorier. Farvearbejdsark udnytter denne kognitiv-udviklingsprioritet og kanaliserer børns eksisterende farveviden ind i progressivt mere krævende sorterings-, data-, mønster- og analytiske opgaver. I den danske folkeskole, hvor Fælles Mål vægter tværfaglig undervisning og undersøgende tilgange, er farve et enestående effektivt organiserende tema, fordi det forbinder sig naturligt til naturfag gennem lys og optik, til matematik gennem klassifikation og datarepræsentation, til dansk gennem beskrivende ordforråd og til billedkunst gennem palette og udtryk. Et enkelt farvetema kan således dække mål på tværs af fire fagområder i én sammenhængende undervisningsuge. Farveperceptionens universalitet gør også temaet stærkt inkluderende: uanset sproglig eller kulturel baggrund deler alle børn evnen til at se og reagere på farve, hvilket gør farvearbejdsark særligt effektive i sprogligt mangfoldige klasseværelser. Den progressive dybde i farvetemaet er bemærkelsesværdig — fra simpel navngivning i førskolen til farveteori, blandingseksperimenter og æstetisk analyse i 3. klasse — og sikrer, at temaet aldrig bliver udtømt men kontinuerligt udfordrer eleverne med nye lag af kompleksitet. Endelig rummer farve en stærk følelsesmæssig dimension, da børn forbinder farver med stemninger, minder og præferencer, hvilket øger engagementet og gør abstrakt læring personligt meningsfuld.',
+
+  researchCitation: 'Arnheim, R. (1974). Art and Visual Perception: A Psychology of the Creative Eye. University of California Press. Ilsted Bech, K. (2004). Æstetiske læreprocesser i børnehaven. Dafolo Forlag, Frederikshavn. Arnheims grundlæggende forskning dokumenterede, at visuel perception, herunder farveopfattelse, er en aktiv kognitiv proces snarere end passiv registrering. Ilsted Bech byggede videre på denne tradition i dansk kontekst og viste, at æstetiske læreprocesser med farve og form i skandinaviske børnehaver styrker børns kognitive udvikling, kreative tænkning og sproglige udtryksevne simultant. Hendes studier i danske institutioner demonstrerede, at strukturerede farveaktiviteter øger børns evne til at kategorisere, beskrive og ræsonnere om den visuelle verden med langt større præcision end ustruktureret leg alene.',
+
+  snippetDefinition: 'Farvearbejdsark til børn er printbare undervisningsaktiviteter, der bruger farvegenkendelse, sortering, blanding og mønstergenkendelse til at undervise i matematik, naturfag og sproglige færdigheder. Designet til børn i alderen 3 til 9 inkluderer de malebilleder, billedsortering, diagram-tæl-farvelæg grafik, farvemønstersekvenser og ordsøgninger, der udnytter børns tidlige farvekundskab som springbræt til tværfaglig læring.',
+
+  snippetHowTo: [
+    'Vælg et specifikt farvefokus for ugen, som primærfarver, varme versus kolde farver eller regnbuens rækkefølge, for at give dine lektioner en samlende tråd, der forbinder arbejdsark med hands-on-eksperimenter.',
+    'Vælg to til tre arbejdsarktyper, der målretter forskellige færdigheder — for eksempel et billedsorteringsark til klassifikation, et diagram-tæl-farvelæg-ark til datarepræsentation og et mønsterarbejdsark til algebraisk tænkning.',
+    'Introducer ugens farvefokus med en praktisk aktivitet som maling-blanding, farveskattejagt eller sortering af farvede klodser for at aktivere forhåndsviden og multisensorisk engagement.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som malebilleder for at opbygge selvtillid, inden du går videre til sorterings- og dataarkviteter.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvilke farver ser du flest af og hvad tror du sker hvis vi blander disse to farver for at uddybe naturfaglig tænkning sideløbende med faglig øvelse.',
+    'Hold en delingssession efter arbejdsarkene, hvor børnene beskriver deres farveresultater eller viser deres grafik, og styrk dermed mundtlig kommunikation og datafortolkningsevne.',
+    'Saml færdige arbejdsark i en farveportfolio, der dokumenterer progression fra simpel navngivning til dataanalyse og farveteori over tid.',
+  ],
+
+  limitations: 'Farvearbejdsark har visse begrænsninger, som undervisere bør være opmærksomme på. Cirka otte procent af drenge og en halv procent af piger har en form for farvesynsdefekt, hvilket kan gøre rene farvegenkendelsesopgaver utilgængelige uden tilpasninger som etiketter eller mønsterindikatorer. Mens farve er fremragende til klassifikation og datarepræsentation, er temaet mindre naturligt egnet til avancerede matematikoperationer som multiplikation med større tal eller brøker, hvor temaer med fødevarer, penge eller dyr kan give mere intuitive kontekster. Farveopfattelse er også subjektiv — hvad én person kalder turkis, kalder en anden grønblå — og denne tvetydighed kan frustrere børn, der søger entydige svar. Endelig kan overeksponering for farvefokuserede aktiviteter uden variation føre til træthed, så undervisere bør rotere farvetemaet med andre temaer og bruge farve som en integreret del af bredere tematiske enheder snarere end som et isoleret fokus i længere perioder.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'shapes',
+      summary: 'Formarbejdsark fokuserer på geometrisk genkendelse, navngivning og egenskaber som sider og hjørner, mens farvearbejdsark fokuserer på den visuelle egenskab farve som organiserende princip for klassifikation og data. Farve og form supplerer hinanden stærkt: farve tilføjer en ekstra attributdimension til formsortering, mens form giver den geometriske ramme for farveblanding og mønsterdesign.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Blomsterarbejdsark bruger farve som en af mange naturlige egenskaber og fokuserer på botanik, levesteder og årstider. Farvearbejdsark isolerer og fordyber farve som et selvstændigt koncept med fokus på perception, blanding og teori. Blomster giver naturkontekst for farveobservation, mens farvearbejdsark giver den analytiske ramme for at forstå, hvad farve er.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark bruger skabningers mangfoldighed til at drive klassifikation og naturvidenskab, mens farvearbejdsark bruger farvens universalitet som organiserende princip for data og mønstre. Dyr tilbyder stærkere narrativ og følelsesmæssigt engagement, mens farve tilbyder renere, mere abstrakte klassifikationsøvelser, der forbereder børn på formel mængdelære.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbejdsark dækker et bredt spektrum af miljøemner fra vejr til planter til årstider, mens farvearbejdsark indsnævrer fokus til én specifik sensorisk egenskab. Naturen giver uendelige kontekster for farveobservation, mens farvetemaet giver det analytiske værktøj til at kategorisere og beskrive de visuelle oplevelser, naturen tilbyder.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'picture-sort',
+      anchorText: 'farve sorteringsøvelser',
+      context: 'For at opbygge den klassifikationstænkning, der er grundlæggende for farvetemaet, lader vores farve sorteringsøvelser børn gruppere genstande efter farve, sortere nuancer fra lysest til mørkest og klassificere farver som varme eller kolde med stigende kompleksitet.',
+    },
+    {
+      appId: 'chart-count-color',
+      anchorText: 'farve diagram-tæl-farvelæg',
+      context: 'Datarepræsentation bliver visuel og intuitiv med vores farve diagram-tæl-farvelæg aktiviteter, hvor børn tæller farvede genstande i en scene og farvelægger søjlediagramfelter for at repræsentere deres data, og opbygger grafik-færdigheder i en engagerende kontekst.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'farve mønsteraktiviteter',
+      context: 'Algebraisk tænkning udvikles naturligt, når børn identificerer og forlænger farvesekvenser i vores farve mønsteraktiviteter, der bevæger sig fra simple AB-mønstre til komplekse voksende sekvenser med tre eller flere farver.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'farve tælleøvelser',
+      context: 'Visuel scanning og talfornemmelse kombineres, når børn optæller specifikke farver i detaljerede scener med vores farve tælleøvelser, der styrker både farvegenkendelse og numerisk præcision i en enkelt engagerende aktivitet.',
+    },
+    {
+      appId: 'coloring',
+      anchorText: 'farve malebilleder',
+      context: 'For det mest tilgængelige udgangspunkt i farvelæring byder vores farve malebilleder på rige illustrationer, der udvikler finmotorisk kontrol, farvegenkendelse og kreativt udtryk samtidigt, ideelle som opvarmning før mere strukturerede farveaktiviteter.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer vil introducere datarepræsentation men finder, at abstrakte grafikkoncepter er for svære for mange elever at forstå.',
+      solution: 'Hun bruger diagram-tæl-farvelæg-arbejdsark, hvor børnene tæller farvede genstande i et billede og farvelægger tilsvarende søjlediagramfelter i matchende farver. Den direkte visuelle forbindelse mellem tælte genstande og farvede diagramfelter gør datarepræsentation konkret.',
+      outcome: 'Inden for to uger kan alle elever selvstændigt oprette simple søjlediagrammer fra billeddata. Tre elever, der normalt kæmper med abstrakte matematikkoncepter, viser særlig stor fremgang, fordi farvekodningen eliminerer forvirring om, hvad hvert diagramfelt repræsenterer.',
+    },
+    {
+      situation: 'En forælder vil styrke sit treåriges farveordforråd, men barnet mister hurtigt interessen for traditionelle flashcards.',
+      solution: 'Forælderen printer farve-matchningsarbejdsark og billedsorteringsark med kun to til tre farver ad gangen. Arbejdsarkene suppleres med en daglig farveskattejagt i hjemmet, hvor barnet finder genstande af ugens fokusfarve.',
+      outcome: 'Barnet navngiver alle ti grundlæggende farver korrekt inden for en måned. Farveskattejagten bliver en yndet daglig aktivitet, der også styrker opmærksomhed og observation i dagligdagen.',
+    },
+    {
+      situation: 'En lærer i 2. klasse ønsker at integrere naturfag med matematik men har begrænsede materialer til hands-on-eksperimenter.',
+      solution: 'Læreren designer en ugelektion, hvor eleverne først blander primærfarver med vandfarver og registrerer resultaterne, derefter udfylder matchningsarbejdsark der forbinder primærpar med sekundærresultater, og til sidst laver et søjlediagram over, hvilke farveblandinger klassen forsøgte og deres resultater.',
+      outcome: 'Eleverne demonstrerer forståelse af farveblandingsprincipper og kan forklare resultaterne med fagligt korrekt ordforråd. Datarepræsentationsfærdighederne styrkes mærkbart, og læreren genbruger tilgangen med andre naturfagsemner.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug malebilleder og tegne-og-farvelæg-arbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og lader børnene udforske farve gennem direkte kreativt engagement. Billedsortering med rige, farvemættede illustrationer giver mange visuelle indgangspunkter.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med hands-on-farveblandingseksperimenter. Lad børnene blande maling eller farvestof i vand, før de løser matchnings- og sorteringsopgaver på papir. Sortering af farvede klodser, knapper eller perler giver den taktile dimension, der understøtter overføring til papirbaserede aktiviteter.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl og matchning, der ikke kræver læsefærdigheder. Farvenavne er ofte blandt de tidligste ord, tosprogede børn lærer på dansk, hvilket gør farvearbejdsark til en stærk bro til sprogtilegnelse. Tillad og opfordr navngivning af farver på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med farveteorikoncepter som komplementærfarver, nuanceblanding med brøkforhold og æstetisk analyse af farvebrug i kunstværker. Mønsterarbejdsark med voksende farvesekvenser og dataarkviteter med skalerede søjlediagrammer tilbyder justerbar kompleksitet til højere niveauer.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Farvearbejdsark forbinder direkte til naturfagsmål i Fælles Mål om materialers egenskaber og sanseoplevelser. Farveblandingseksperimenter demonstrerer, at kombination af materialer kan skabe nye egenskaber, og observation af regnbuer og lysspektrum introducerer grundlæggende optik.',
+      activity: 'Efter et farve-matchningsarbejdsark udfører eleverne et blandingseksperiment med rød, blå og gul maling, registrerer forudsigelser og resultater, og diskuterer, hvorfor primærfarver skaber specifikke sekundærfarver.',
+    },
+    {
+      subject: 'Billedkunst',
+      connection: 'Farvetemaet er uløseligt forbundet med billedkunst. Malebilleder, tegne-og-farvelæg-aktiviteter og stofdesign-opgaver udvikler kunstneriske færdigheder sideløbende med farveteoriforståelse. Børn lærer at træffe bevidste farvevalg for at udtrykke stemninger og skabe visuel harmoni.',
+      activity: 'Eleverne studerer et kunstværk, identificerer de dominerende farver og farvekombinationer, og skaber derefter deres eget kunstværk med en lignende farvepalet på et tegne-og-farvelæg-arbejdsark.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Farveordforråd beriger beskrivende skrivning markant. Børn der kan skelne mellem skarlagenrød, bordeaux og lyserød producerer mere præcist og levende sprog end børn begrænset til rød. Ordsøgninger og beskrivende aktiviteter opbygger dette udvidede ordforråd systematisk.',
+      activity: 'Efter en farveskattejagt skriver eleverne et kort afsnit, der beskriver de mest overraskende farver, de fandt, med mindst tre forskellige farvenuanceord per sætning.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Farveklassifikationsportfolio',
+      criteria: 'Saml billedsorteringsarbejdsark over en måned, fra simpel tofarvet sortering til flerattribut-klassifikation med farve, form og størrelse. Sammenlign tidlige og sene prøver for at dokumentere vækst i klassifikationsevne og kognitiv fleksibilitet.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Datarepræsentationstest',
+      criteria: 'Giv eleverne en farverig illustration og bed dem selvstændigt tælle genstande efter farve, oprette et søjlediagram og besvare sammenligningsspørgsmål. Vurder tællepræcision, korrekt diagramkonstruktion og evne til at fortolke data med sammenligningssprog.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Farveteoriprojekt',
+      criteria: 'Bed eleverne designe et farveblandingseksperiment, forudsige resultater, udføre blandingen og skrive en kort rapport. Vurder forståelsen af primær-sekundær-relationer, evnen til at formulere forudsigelser og kvaliteten af evidensbaseret forklarende skrivning.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug farvesortering som den første indgang til formel datarepræsentation. Fordi farvekategorier er visuelt umiddelbare og selvforklarende, kan børn fokusere fuldt på dataindsamlings- og grafik-processen uden at bruge kognitiv energi på at forstå, hvad kategorierne betyder. Denne reducerede kognitive belastning gør farvebaserede diagram-tæl-farvelæg-aktiviteter til det ideelle startpunkt for at undervise i statistiske grundprincipper.',
+      source: 'Fælles Mål for matematik — data og statistik i den tidlige folkeskoleundervisning',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Introducer farveblanding som børns første videnskabelige eksperiment. Processen med at forudsige, teste og registrere resultater af farveblanding følger den videnskabelige metode perfekt, og fordi resultaterne er øjeblikkelige og visuelt slående, internaliserer børn den eksperimentelle tankegang langt stærkere end ved mere abstrakte forsøg.',
+      source: 'Ilsted Bech, K., Dafolo Forlag — æstetiske læreprocesser i skandinavisk børnepædagogik',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt farveordforråd til at løfte beskrivende skrivning kvalitativt. Børn der kan skelne mellem himmelblå, marineblå og isblå producerer markant mere præcist og engagerende sprog end børn begrænset til blå. Systematisk opbygning af nuanceordforråd gennem farvearbejdsark overføres direkte til højere kvalitet i kreativ og informativ skrivning på tværs af alle emner.',
+      source: 'Arnheim, R. — visuel perception og kreativt udtryk i uddannelseskontekst',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Farvekoncepter dækket', value: 'Genkendelse til teori' },
+  ],
 };
 
 registerThemeContent('colors', 'da', content);

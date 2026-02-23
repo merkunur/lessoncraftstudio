@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'zoo', 'ocean', 'forest', 'space', 'nature'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Dinosaurer adskiller sig fra ethvert andet arbejdsark-tema, fordi de introducerer børn til ægte videnskabelig undersøgelse gennem et emne, der vækker dyb ærefrygt og fascinering. Hvor temaer som dyr eller havet bygger på skabninger, børn kan se og røre, kræver dinosaurer, at børn rekonstruerer en virkelighed fra fragmentarisk evidens — fossiler, geologiske lag og knoglespor — præcis som professionelle palæontologer gør. Denne kognitive proces udvikler kausal ræsonnering på et niveau, som få andre temaer kan matche i førskole til 3. klasse. I den danske folkeskole understøtter dinosaurtemaet Fælles Måls kompetencemål inden for natur/teknologi, hvor eleverne skal kunne undersøge og beskrive naturfænomener, formulere hypoteser og anvende evidensbaseret ræsonnering. Palæontologi introducerer naturligt begrebet geologisk tid, som udfordrer børns lineære tidsforståelse og opbygger den abstrakte tænkning, der ligger til grund for matematik og naturvidenskab. Den emotionelle intensitet, som dinosaurer fremkalder — en blanding af frygt, undren og nysgerrighed — skaber hvad psykologer kalder et intense interest, en dyb, vedvarende fascination der fungerer som motor for selvdrevet læring. Børn der er grebet af dinosaurer, opsøger spontant fakta, sammenligner arter og diskuterer teorier med voksne, alt sammen adfærd der forstærker de faglige færdigheder, arbejdsarkene bygger op. Udryddelseshistorien tilføjer et unikt lag af økologisk og miljømæssig bevidsthed, der passer til Fælles Måls tværgående temaer om bæredygtighed og naturforståelse. Størrelsessammenligninger mellem arter som den tolv meter lange Brachiosaurus og den kyllingestore Compsognathus giver konkret, kropslig forankret måleforståelse, der overgår abstrakte tallinjer.',
+
+  researchCitation: 'Callanan, M.A. og kollegaer har dokumenteret, at børn med en intens interesse i dinosaurer udvikler markant stærkere kausale ræsonneringsfærdigheder end jævnaldrende uden denne interesse. Forskningen viser, at børn der frivilligt fordyber sig i palæontologisk viden — artsklassifikation, udryddelsesteorier, fossildannelse — opbygger systematisk en videnskabelig tankegang, hvor de formulerer hypoteser, søger evidens og reviderer deres forståelse i lyset af nye oplysninger. Denne proces ligner den formelle videnskabelige metode, men drives af barnets egen motivation snarere end ekstern instruktion. Callanans arbejde understreger, at forældre og lærere der engagerer sig i børns dinosaurspørgsmål med uddybende forklaringer frem for simple svar, forstærker udviklingen af kausal tænkning betydeligt. Forskningen er særligt relevant for den danske folkeskoles naturfagsundervisning, fordi den bekræfter, at temabaseret læring med høj elevmotivation kan accelerere kognitive færdigheder, der ellers først udvikles senere i skoleforløbet.',
+
+  snippetDefinition: 'Dinosaur-arbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af forhistoriske arter som Tyrannosaurus Rex, Triceratops og Stegosaurus til at undervise i matematik, læsning, logik og finmotorik. Designet til børn i alderen 3 til 9 år inkluderer de tælleøvelser med dinosauræg, ordsøgninger med palæontologisk ordforråd, farvelægningssider, størrelsessammenligninger, skyggematching og fossilrelaterede puslespil, der udnytter børns naturlige fascination af dinosaurer til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et dinosaur-underemne for ugen, som kødædere versus planteædere, fossildannelse eller geologiske perioder, for at give arbejdsark-sessionerne en fokuseret læringstråd.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning med palæontologivokabular til læsning og en farvelægningsside til finmotorisk udvikling.',
+    'Introducer underemnet med en kort højtlæsning om dinosaurer eller et videoklip, så børnene har baggrundsviden inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i stigende sværhedsgrad — start med farvelægning for at opbygge selvtillid, gå derefter videre til matchning og tælling, og afslut med ordpuslespil eller logikopgaver.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvilken dinosaur tror du var den farligste og hvorfor eller hvordan tror du palæontologer fandt ud af hvad dinosaurer spiste for at uddybe den videnskabelige tænkning.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor hvert barn nævner én ny dinosaurfakta de lærte, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige arbejdsark i en dinosaur-portfoliomappe og tilføj barnets egne dinosaurtegninger for at dokumentere fremgang og opretholde motivationen over tid.',
+  ],
+
+  limitations: 'Dinosaurtemaet har visse begrænsninger, som lærere og forældre bør være opmærksomme på. Da dinosaurer er uddøde, kan børn ikke observere dem direkte, hvilket begrænser den sensoriske og erfaringsbaserede læring sammenlignet med temaer som dyr, havet eller naturen, hvor børn kan se, røre og lugte de skabninger og miljøer, de studerer. Museumsbesøg kan delvist kompensere, men fossiler er statiske og abstrakte for de yngste aldersgrupper. Størrelsesforholdene kan være svære at forstå for førskolebørn, der endnu ikke har udviklet proportionel tænkning. Palæontologisk indhold ændrer sig desuden i takt med nye opdagelser, så fakta der præsenteres som sikre i dag, kan revideres i morgen, hvilket kræver at undervisere holder sig opdaterede. Temaet appellerer ulige til kønnene i nogle klasseværelser, hvor drenge statistisk set viser stærkere indledende interesse end piger, selvom denne forskel mindskes markant med gode undervisningsmaterialer. Endelig kan de voldsomme aspekter af dinosaurers adfærd — jagt, kamp, udryddelse — kræve følsom håndtering for særligt sensitive børn.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark bygger på levende skabninger, børn kan observere direkte i naturen, zoologiske haver og derhjemme, hvilket giver stærkere sensorisk og erfaringsbaseret læring. Dinosaurarbejdsark erstatter direkte observation med evidensbaseret ræsonnering — børn rekonstruerer forhistorisk virkelighed fra fossiler og teorier — hvilket udvikler videnskabelig tænkning og kausal logik på et dybere niveau, men kræver mere abstrakt forestillingsevne.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Zooarbejdsark forbinder dyr til et struktureret menneskeligt miljø med kort, skilte og guidede oplevelser, hvilket fungerer godt til samfundsfag og organisatorisk tænkning. Dinosaurarbejdsark fjerner den menneskelige ramme og placerer dyr i vilde, forhistoriske landskaber, hvilket tvinger børn til at tænke i økosystemer, tilpasning og overlevelse uden menneskelig hjælp — en stærkere kontekst for naturvidenskabelig ræsonnering.',
+    },
+    {
+      vsThemeId: 'ocean',
+      summary: 'Havarbejdsark dækker et eksisterende økosystem, børn kan besøge og opleve gennem akvarieer og strandture, med fokus på biodiversitet og vandets kredsløb. Dinosaurarbejdsark tilføjer dimensionen geologisk tid og udryddelse, som havet ikke kan matche, men mangler den taktile forbindelse til et levende miljø, som havet tilbyder.',
+    },
+    {
+      vsThemeId: 'forest',
+      summary: 'Skovarbejdsark bygger på et lokalt, tilgængeligt økosystem som danske børn kan besøge dagligt, med stærk forbindelse til årstider, planter og lokale dyrearter. Dinosaurarbejdsark bringer en global og tidsmæssig dimension, der strækker sig millioner af år tilbage, men savner skovens umiddelbare, sensoriske tilgængelighed, der gør den ideel til udeskolelektioner i den danske folkeskole.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'dinosaur farvelægningssider',
+      context: 'For børn der har brug for et roligt udgangspunkt, byder vores dinosaur farvelægningssider på detaljerede illustrationer af T-Rex, Triceratops og Stegosaurus, der udvikler finmotorisk kontrol og artsgenkendelse, mens barnet slapper af og engagerer sig i det forhistoriske univers.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'dinosaur skyggematching',
+      context: 'Vores dinosaur skyggematching arbejdsark udfordrer børn til at matche forhistoriske arter med deres silhuetter, hvilket skærper visuel skelneevne og opmærksomhed på kropsformer, der er unikke for hver dinosaurart — horn, plader, lange halse og skarpe tænder.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'dinosaur ordsøgning',
+      context: 'Palæontologisk ordforråd som fossil, knogle, rovdyr og planteæder indlejres i vores dinosaur ordsøgning arbejdsark, der gør staveøvelse og bogstavscanning til en spændende jagt gennem forhistorisk terminologi.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'dinosaur additionsopgaver',
+      context: 'Vores dinosaur additionsopgaver bruger grupper af dinosauræg, babydinosauer og forhistoriske planter som visuelle tæller, der forankrer abstrakt addition i et tema, børn brænder for, og gør matematikøvelse til et palæontologisk eventyr.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'dinosaur størrelsessammenligning',
+      context: 'De dramatiske størrelsesforskelle mellem arter som den kæmpestore Brachiosaurus og den bittesmå Compsognathus gør vores dinosaur størrelsessammenligning arbejdsark til et kraftfuldt værktøj for at opbygge måleintuition og proportionel tænkning hos små børn.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen opdager, at flere elever har svært ved at fastholde opmærksomheden under strukturerede matematikaktiviteter og ofte forlader deres plads efter få minutter.',
+      solution: 'Læreren introducerer dinosaurtematiske tællearbejdsark, hvor børnene tæller dinosauræg i reder og matcher grupper af babydinosaurer med det korrekte tal. Hun supplerer med en fysisk dinosaurudgravning i sandkassen som belønningsaktivitet efter hvert færdigt arbejdsark.',
+      outcome: 'Opmærksomhedsspændvidden stiger markant, og eleverne arbejder fokuseret i tolv til femten minutter mod tidligere fem til syv. Tre elever der normalt modstod matematikaktiviteter, beder nu selv om dinosaurmatematik, og tællefærdighederne inden for ti forbedres for hele klassen inden for tre uger.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser sit barn i 1. klasse, kæmper med at motivere barnet til at øve ordforråd og stavning, fordi traditionelle ordlister føles kedelige og irrelevante.',
+      solution: 'Forælderen printer dinosaur-ordsøgninger og ordpuslespil med palæontologisk ordforråd som fossil, skelet, kødæder og Jura. Barnet får lov til at vælge en legetøjsdinosaur fra en samling for hvert færdigt arbejdsark og bygger gradvist en dinosaurudstilling på sit skrivebord.',
+      outcome: 'Barnet lærer femten nye ord på to uger og begynder spontant at bruge dem i samtaler. Staveprøverne forbedres fra halvdelen korrekt til over firs procent korrekt, og barnet beder nu selv om dino-skoledag flere gange om ugen.',
+    },
+    {
+      situation: 'En natur/teknologi-lærer i 2. klasse vil introducere begrebet videnskabelig evidens og hypotese, men finder at lærebogsmaterialet er for abstrakt og teksttungt for mange elever.',
+      solution: 'Læreren bruger dinosaur-arbejdsark der beder eleverne om at analysere fossilbilleder, sortere arter efter geologisk periode og besvare spørgsmål som hvad kan vi vide fra denne knogle og hvad er vores gæt. Skyggematching og find-den-manglende-brik-øvelser illustrerer, hvordan palæontologer arbejder med ufuldstændig information.',
+      outcome: 'Elevernes forståelse af forskellen mellem evidens og hypotese forbedres dramatisk. På en afsluttende opgave kan femoghalvfjerds procent korrekt identificere, hvad der er bevist versus gættet om en given dinosaurart, sammenlignet med tredive procent før forløbet.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematching-arbejdsark som primære aktiviteter. Dinosaurernes markante silhuetter — T-Rex med de små arme, Stegosaurus med rygpladerne, Triceratops med hornene — giver stærke visuelle holdepunkter, der hjælper disse elever med at kategorisere og huske arter. Størrelsessammenligningsark med visuelle skalaer udnytter deres styrke i rumlig forståelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter: lad børnene udgrave legetøjsfossiler fra sand, bygge dinosaurskeletter af piberensere eller stamp-som-en-T-Rex mellem opgaverne. Find-den-manglende-brik-arbejdsark kan suppleres med konkrete puslespilbrikker, og skattejagt-aktiviteter kan udvides til hele klasselokalet, hvor eleverne fysisk bevæger sig mellem poster.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, skyggematching og stor-lille-sammenligning, der kræver minimal tekstforståelse. Dinosaurnavne er internationalt genkendelige, hvilket giver tosprogede elever et fælles udgangspunkt. Introducer gradvist danske palæontologiske ord som fossil, knogle og rovdyr med billedstøtte, og tillad navngivning af arter på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der kombinerer multiplikation med dinosaurdata, eller lad dem designe deres egne dinosaurklassifikationssystemer. Kryptogrammer og avancerede ordsøgninger med latinske artsnavne tilbyder sproglig udfordring, mens tidslinjeberegninger med millioner af år skubber deres positionsværdiforståelse. Lad dem skrive korte forskningsrapporter om en selvvalgt art.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Dinosaurarbejdsark forbinder direkte til Fælles Måls kompetencemål i natur/teknologi, hvor eleverne skal undersøge naturfænomener, formulere hypoteser og anvende evidensbaseret ræsonnering. Fossildannelse, geologisk tid, artsudryddelse og økologisk tilpasning er alle kerneemner, der opstår naturligt i dinosaurtemaet.',
+      activity: 'Efter et dinosaursorteringsarbejdsark opdelt efter geologisk periode undersøger eleverne ét fossil (eller et billede af et fossil) og skriver tre observationer og én hypotese om dyret, hvilket øver den videnskabelige metode i miniatureformat.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Dinosaurernes ekstreme størrelser og de geologiske tidsperioders enorme tal giver autentiske kontekster for måling, sammenligning, positionsværdi og de fire regnearter. Eleverne arbejder med tal fra enkeltcifrede tælleøvelser til millioner af år, hvilket gør abstrakt matematik konkret og spændende.',
+      activity: 'Eleverne beregner forskellen i længde mellem tre dinosaurarter ved hjælp af subtraktion, tegner resultaterne i et søjlediagram og skriver én sætning der opsummerer, hvilken art der var størst og med hvor meget, hvilket kombinerer aritmetik, datarepræsentation og skriftlig kommunikation.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Dinosaurernes lange, flerstavelsesnavne som Tyrannosaurus, Brachiosaurus og Pachycephalosaurus er fremragende til fonologisk træning og stavelsesklap. Palæontologisk ordforråd beriger elevernes sprog med fagtermer, der styrker læseforståelse og skriftlig produktion inden for Fælles Måls danskfaglige kompetencemål.',
+      activity: 'Eleverne vælger fem dinosaurnavne fra et ordsøgningsarbejdsark, klapper stavelserne, skriver hvert navn i stavelser og bruger derefter tre af ordene i selvkomponerede sætninger, hvilket integrerer fonologi, stavning og fri skrivning i én samlet aktivitet.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Dinosaur-portfoliosamling',
+      criteria: 'Saml ét dinosaurarbejdsark om ugen over fire uger fra forskellige kategorier: tælling, ordsøgning, sortering og farvelægning. Sammenlign de første og sidste prøver for at dokumentere vækst i tællenøjagtighed, palæontologisk ordforråd, klassifikationsevne og finmotorisk kontrol. Notér også barnets mundtlige brug af dinosaurvokabular under arbejdet.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste ved fossiludgravning',
+      criteria: 'Under en praktisk fossiludgravningsaktivitet observer og registrer om eleverne kan navngive de udgravede arter (førskole: to til tre arter, børnehaveklasse: fire til fem arter), sortere dem efter størrelse eller kost (1. klasse), eller placere dem på en tidslinje efter geologisk periode (2. til 3. klasse). Notér også samarbejdsadfærd og brug af fagsprog.',
+      gradeLevel: 'Førskole til 2. klasse',
+    },
+    {
+      method: 'Evidensvurderingsopgave',
+      criteria: 'Præsenter eleverne for tre påstande om en dinosaurart — én baseret på fossilevidence, én der er en rimelig hypotese, og én der er opdigtet. Bed eleverne om at markere hver påstand som bevist, muligt eller forkert og forklare deres ræsonnement. Vurder evnen til at skelne evidens fra gætteri, som er et centralt kompetencemål i natur/teknologi i Fælles Mål.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt dinosaurernes naturlige klassifikationsrigdom til at introducere hierarkisk tænkning tidligt. Når børn sorterer arter efter kost (kødæder, planteæder, altæder), tidsperiode (Trias, Jura, Kridt) og kropstype (hornede, pansrede, langhalsede), øver de præcis den kategoriseringsevne, som Fælles Mål definerer som en grundlæggende kompetence i natur/teknologi. Start med én sorteringsakse i førskolen og tilføj gradvist flere dimensioner op gennem klassetrinene.',
+      source: 'Fælles Mål for natur/teknologi — undersøgelses- og klassifikationskompetencer',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Callanans forskning viser, at børns intense interesse i dinosaurer fungerer som en kognitiv accelerator for kausal ræsonnering. Udnyt dette ved at stille hvorfor-spørgsmål under arbejdsark-sessionerne: hvorfor havde T-Rex så små arme, hvorfor uddøde dinosaurerne, hvorfor finder vi fossiler i klipper men ikke i jord. Disse spørgsmål transformerer rutineøvelser til videnskabelig undersøgelse og udvikler den hypotese-dannende tænkning, der er central for al naturfaglig læring.',
+      source: 'Callanan, M.A. — forskning i intense interessers effekt på kausal ræsonnering hos børn',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Brug dinosaurnavnenes flerstavelsesstruktur strategisk til fonologisk træning. Navne som Ty-ran-no-sau-rus, Bra-chi-o-sau-rus og Pa-chy-ce-pha-lo-sau-rus er naturlige øvelsesord for stavelsesklap, lydanalyse og sammensatte ords opbygning. Denne tilgang er særligt effektiv, fordi børnenes motivation for at udtale dinosaurnavne korrekt er ekstremt høj, hvilket overvinder den modstand, mange elever ellers viser over for fonologiske øvelser.',
+      source: 'Fælles Mål for dansk — fonologisk opmærksomhed og ordkendskab i indskolingen',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: 'Matematik, dansk, natur/teknologi, kunst' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. klasse' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 minutter' },
+    { label: 'Dinosaurarter dækket', value: 'T-Rex, Triceratops, Stegosaurus, Brachiosaurus m.fl.' },
+  ],
 };
 
 registerThemeContent('dinosaurs', 'da', content);

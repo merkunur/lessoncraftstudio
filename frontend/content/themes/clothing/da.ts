@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'seasons', 'colors', 'household', 'weather', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Tøjtematiske arbejdsark indtager en unik position i tidlig pædagogik, fordi de bygger bro mellem daglige livsfærdigheder og faglig læring på en måde, som få andre temaer kan matche. Hvert barn konfronteres med tøjbeslutninger fra det øjeblik, de vågner — hvilken trøje skal jeg tage på, passer vanter til solskin, er mine sko store nok — og disse øjeblikke rummer overraskende rig kognitiv kompleksitet. At vælge vejrpassende beklædning kræver kausal ræsonnement om temperatur og årstider. At matche outfits involverer flerattribut-klassifikation efter farve, mønster, størrelse og type samtidigt. At parre sokker øver en-til-en-korrespondance og optælling i toere. Denne naturlige indlejring af matematisk og logisk tænkning i hverdagserfaringer er det, der gør tøjarbejdsark pædagogisk distinkte fra mere abstrakte temaer. I den danske folkeskole, hvor Fælles Mål eksplicit integrerer praktiske livsfærdigheder med faglige kompetencer, passer tøjtemaet perfekt ind i undervisningens tværfaglige ambition. Sorterings- og klassifikationsaktiviteter med tøj er særligt kraftfulde, fordi beklædningsgenstande naturligt besidder mange simultane egenskaber: en frakke kan være blå, ulden, stor, til vinter og med lynlås på én gang. Denne rige attributstruktur gør tøj til det ideelle medium for at undervise i fleksibel kategorisk tænkning, der ligger til grund for både matematisk mængdelære og videnskabelig taksonomi. Mønstergenkendelses-arbejdsark med stribede tørklæder, prikkede sokker og ternede skjorter forbinder visuelt design med algebraisk ræsonnement på en måde, der føles kreativ snarere end abstrakt. Desuden rummer tøj en kraftfuld social-emotionel dimension: diskussioner om selvudtryk, kulturel mangfoldighed og kropsbevidsthed, der opstår naturligt fra tøjarbejdsark, understøtter den helhedsorienterede tilgang til børns trivsel og dannelse, som dansk pædagogik prioriterer.',
+
+  researchCitation: 'Johansson, E. (2011). Investigating Morality in Everyday Life of Preschool Children. Nordic Research Network on Ethics in Education, Göteborgs Universitet. Johanssons forskning dokumenterede, at tidlige erfaringer med selvstændighed i daglige rutiner, herunder påklædning og tøjvalg, spiller en central rolle i børns identitetsudvikling og moralske ræsonnement. Studiet fulgte børn i skandinaviske børnehaver og viste, at når børn får mulighed for at træffe valg om deres egen påklædning med voksen vejledning, udvikler de både beslutningskompetencer og en stærkere selvfølelse. Denne forskning understøtter brugen af tøjtematiske læringsaktiviteter som en bro mellem hverdagsbeslutninger og struktureret kognitiv udvikling.',
+
+  snippetDefinition: 'Tøjarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af hverdagsbeklædning — trøjer, bukser, sko, hatte og frakker — til at undervise i sortering, mønstergenkendelse, matematik og ordforråd. Designet til børn i alderen 3 til 9 inkluderer de sæsonsorteringsøvelser, størrelsessammenligninger, mønsterarbejdsark med stofdesigns og ordsøgninger, der udnytter børns daglige erfaring med at klæde sig på til at gøre abstrakt læring konkret og personligt meningsfuld.',
+
+  snippetHowTo: [
+    'Vælg et specifikt underfokus for ugen, som vintertøj, mønstrede stoffer eller skopar, for at give dine lektioner en samlende fortælletråd, der forbinder arbejdsarkene med hverdagsbeslutninger.',
+    'Vælg to til tre arbejdsarktyper, der målretter forskellige færdigheder — for eksempel en billedsortering til klassifikation, en billedaddition til matematik og en ordsøgning til ordforrådsudvikling.',
+    'Introducer ugens tøjfokus med en praktisk aktivitet som at sortere rigtige tøjgenstande fra klassens hittegodsskridt eller en vasketøjskurv for at aktivere forhåndsviden.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af outfits for at opbygge selvtillid, inden du går videre til sortering og matematikopgaver.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvorfor valgte du den frakke til vinterbilledet og hvad er mønsteret på dette tørklæde for at uddybe ræsonnement om attributter og mønstre.',
+    'Hold en delingssession efter arbejdsarkene, hvor børnene beskriver ét outfit de sammensatte eller ét mønster de identificerede, og styrk dermed beskrivende ordforråd og mundtlig kommunikation.',
+    'Forlæng læringen til hjemmet ved at opfordre forældrene til at lade barnet vælge morgentøj selvstændigt og forklare deres valg, så arbejdsarkslæring overfører sig til daglige livsfærdigheder.',
+  ],
+
+  limitations: 'Tøjarbejdsark har visse begrænsninger, som undervisere bør være opmærksomme på. Mens tøj er fremragende til sortering, mønstergenkendelse og størrelsessammenligning, egner det sig mindre naturligt til avancerede matematiske operationer som multiplikation med større tal eller brøker, hvor temaer med madvarer, penge eller dyr kan give mere intuitive kontekster. Kulturel følsomhed kræver opmærksomhed i mangfoldige danske klasseværelser, da visse beklædningsgenstande har religiøs eller kulturel betydning, og undervisere bør sikre, at arbejdsarksillustrationer repræsenterer mangfoldighed uden at stereotypere. Børn fra familier med begrænsede økonomiske ressourcer kan føle ubehag ved aktiviteter, der fokuserer på tøjmængder eller priser, så lærere bør vælge scenarier omhyggeligt. Endelig kan tøjtemaet være mindre engagerende for børn, der endnu ikke har udviklet interesse for personlig påklædning, og disse elever kan have gavn af at tøjarbejdsark suppleres med temaer, der har stærkere følelsesmæssig resonans.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kropsarbejdsark fokuserer på anatomi, sanser og fysisk udvikling, mens tøjarbejdsark udvider dette til den ydre verden af påklædning og selvpræsentation. Tøj tilføjer en praktisk dimension med sortering, mønsterdesign og sæsonræsonnement, mens kroppen giver den biologiske grundviden. Sammen dækker de barnets forståelse af sig selv fra inderst til yderst.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Årstidsarbejdsark udforsker naturens cykliske forandringer bredt, mens tøjarbejdsark indsnævrer fokus til den menneskelige reaktion på vejrforandringer. Tøj gør sæsonræsonnement konkret og personligt, fordi børn dagligt oplever at vælge tøj baseret på temperaturen. Årstidstemaet giver den bredere naturvidenskabelige kontekst, tøjtemaet den praktiske livsfærdighed.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Farvearbejdsark underviser i farvegenkendelse, blanding og farveteori som isolerede koncepter, mens tøjarbejdsark anvender farve som én af mange attributter i flerattribut-klassifikation. Tøj giver en naturlig kontekst for at kombinere farvesortering med størrelse, type og sæson, hvilket gør klassifikationsøvelserne mere komplekse og virkelighedsnære end ren farveisolering.',
+    },
+    {
+      vsThemeId: 'weather',
+      summary: 'Vejrarbejdsark udforsker meteorologiske fænomener som regn, sne, sol og vind, mens tøjarbejdsark fokuserer på den praktiske reaktion: hvad tager man på i det vejr. Tøjtemaet gør vejrkoncepter handlingsorienterede og personlige, mens vejrtemaet leverer den naturfaglige baggrund. Kombinationen skaber en stærk årsag-virkning-forbindelse mellem observation og beslutning.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'picture-sort',
+      anchorText: 'tøj sorteringsøvelser',
+      context: 'For at opbygge den flerattribut-klassifikation, der er central for tøjtemaet, lader vores tøj sorteringsøvelser børn gruppere beklædningsgenstande efter sæson, type, farve eller størrelse med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'tøj matchningsopgaver',
+      context: 'Vores tøj matchningsopgaver parrer identiske sokker, forbinder skygger med beklædningsgenstande og matcher tøjord med illustrationer, hvilket styrker visuel skelneevne og ordforråd i en velkendt hverdagskontekst.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'tøj mønsteraktiviteter',
+      context: 'Striber, prikker og tern på illustrerede stoffer giver den perfekte visuelle ramme for vores tøj mønsteraktiviteter, der udvikler algebraisk tænkning ved at lade børn identificere, forlænge og skabe gentagne sekvenser i tøjdesigns.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'tøj additionsopgaver',
+      context: 'Når elever er klar til at kombinere tælling med beregning, bruger vores tøj additionsopgaver sokker, knapper og beklædningsgenstande som konkrete tællere, der gør aritmetik håndgribelig og forbinder matematik med daglige garderobebeslutninger.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'tøj ordsøgning',
+      context: 'Ordforrådsudvikling accelererer, når børn jager efter tøjtermer som lynlås, ærme, stof og garderobe i vores tøj ordsøgning sider, der indlejrer praktisk livsfærdighedsordforråd i et engagerende puslespilformat.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer vil undervise i sæsonræsonnement, men finder at børnene har svært ved at forbinde abstrakte vejrkoncepter med konkrete handlinger.',
+      solution: 'Hun introducerer tøjsorteringsarbejdsark, hvor børnene sorterer beklædningsgenstande i fire sæsonkategorier og forklarer deres valg. Arbejdsarkene suppleres med en klasselokale-garderobevæg, der opdateres når årstiderne skifter.',
+      outcome: 'Inden for tre uger kan alle elever selvstændigt forklare, hvorfor bestemte tøjgenstande passer til bestemt vejr. Tre elever, der tidligere kæmpede med abstrakte vejrkoncepter, viser markant fremgang takket være den personlige og håndgribelige tøjkontekst.',
+    },
+    {
+      situation: 'En forælder oplever, at hendes fireårige nægter at klæde sig selv på om morgenen og insisterer på, at forældrene vælger alt tøj.',
+      solution: 'Forælderen printer tøjmatchnings- og sorteringsarbejdsark og bruger dem som et aftenslegeaktivitet. Barnet øver at parre sokker, matche outfits til vejrscenarier og sortere tøj efter type. Gradvist overføres arbejdsarksbeslutningerne til den virkelige morgenrutine.',
+      outcome: 'Efter to uger vælger barnet selvstændigt sit eget outfit hver morgen og forklarer stolt sine valg. Morgenrutinen bliver hurtigere, og barnet viser øget selvtillid i andre beslutningssammenhænge.',
+    },
+    {
+      situation: 'En lærer i 1. klasse ønsker at introducere mønstergenkendelse, men finder at traditionelle farve-form-mønstre virker for abstrakte for flere elever.',
+      solution: 'Læreren skifter til tøjmønster-arbejdsark, hvor børnene identificerer gentagne sekvenser på illustrerede tørklæder, sokker og stofdesigns. De fysisk genkendelige mønstre på stribede og prikkede stoffer giver en konkret visuel kontekst.',
+      outcome: 'Elevernes mønstergenkendelsesfærdigheder forbedres markant, og selv de elever, der kæmpede med abstrakte mønstre, kan nu identificere og forlænge sekvenser pålideligt. Læreren bruger tøjmønstre som bro til mere abstrakte mønsteropgaver med tal.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og tegne-og-farvelæg-arbejdsark som primære aktiviteter, hvor børn designer outfits med specifikke farvekrav. Billedsorteringsøvelser med rige illustrationer af beklædningsgenstande udnytter stærke visuelle processeringsevner og giver mange indgangspunkter gennem farve, form og mønster.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Supplér papirarbejdsark med rigtige tøjgenstande. Lad børnene sortere virkelige sokker, parre handsker og folde tøj, før de løser den tilsvarende arbejdsarksopgave. Påklædningsrammer med knapper, lynlåse og trykknapper forbinder finmotorisk øvelse med tøjtemaets praktiske dimension.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som matchning og skyggematch, der ikke kræver læsefærdigheder. Tøjordforråd er ofte blandt de mest universelle ord på tværs af sprog, hvilket gør dette tema til en stærk bro til dansksprogede aktiviteter. Tillad navngivning af beklædningsgenstande på begge sprog for at bygge tværsproglige forbindelser.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flerattribut-sorteringsopgaver, der kræver simultan klassifikation efter tre eller flere egenskaber. Mønsterskabelse med komplekse sekvenser og designopgaver, hvor de planlægger en hel garderobe til en uges forskellige vejrscenarier, strækker både logisk og kreativ tænkning.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Tøjarbejdsark forbinder naturligt til naturfagsmål i Fælles Mål om materialer og deres egenskaber. At diskutere, hvorfor uld varmer, hvorfor gummistøvler er vandtætte, og hvorfor bomuld ånder, introducerer materialekendskab og egenskabsbaseret ræsonnement.',
+      activity: 'Efter et tøjsorteringsarbejdsark udfører eleverne et simpelt vandtæthedseksperiment med forskellige stofprøver og registrerer, hvilke materialer der stopper vand, og hvilke der slipper det igennem.',
+    },
+    {
+      subject: 'Samfundsfag og kulturforståelse',
+      connection: 'Tøj afspejler kulturel identitet, traditioner og geografi. Arbejdsark med beklædningsgenstande fra forskellige verdensdele åbner samtaler om kulturel mangfoldighed, klimatilpasning og den universelle menneskelige erfaring med at klæde sig på.',
+      activity: 'Eleverne undersøger traditionelt tøj fra tre forskellige kulturer, tegner illustrationer og skriver en kort beskrivelse af, hvorfor hvert tøjstykke er designet til sit specifikke klima og sin kulturelle kontekst.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Tøjtemaet understøtter flerattribut-klassifikation, mønstergenkendelse, optælling i toere med sokkepar, størrelsessammenligning og tekstopgaver med garderobescenarier. Disse forbindelser dækker flere Fælles Mål-kompetencer fra tal og algebra til geometri og måling.',
+      activity: 'Eleverne tæller sokkepar i en vasketøjskurv, beregner det samlede antal individuelle sokker med multiplikation og laver et søjlediagram over sokkernes farvefordeling.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Sorteringsportfolio',
+      criteria: 'Saml tøjsorteringsarbejdsark over en måned, hvor barnet sorterer efter én, to og tre egenskaber progressivt. Sammenlign tidlige og sene prøver for at dokumentere vækst i klassifikationsevne, fra enkel farvesortering til simultan sortering efter sæson, type og størrelse.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Mønsterskabelsestest',
+      criteria: 'Bed eleverne om at designe et stofmønster med en specifik gentagende regel og forklare deres mønsterregel mundtligt eller skriftligt. Vurder kompleksiteten af mønsteret, præcisionen i gentagelsen og klarheden i forklaringen for at måle algebraisk tænkning og kommunikationsevne.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Sæsonræsonneringssamtale',
+      criteria: 'Vis barnet fire vejrscenarier og en samling tøjillustrationer. Bed dem vælge passende outfits og forklare deres ræsonnement. Vurder, om barnet kan forbinde vejrforhold med tøjvalg logisk, bruge beskrivende ordforråd og begrunde beslutninger med årsag-virkning-tænkning.',
+      gradeLevel: 'Alle klassetrin',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt tøjsortering som en bro til formel mængdelære. Når børn sorterer beklædningsgenstande efter sæson og type samtidigt, skaber de ubevidst Venn-diagram-lignende overlap: en regnfrakke er både overtøj og til efterår. Ekspliciter disse overlap verbalt for at opbygge den mængdeteoretiske intuition, der understøtter matematisk klassifikation på højere niveauer.',
+      source: 'Fælles Mål for matematik — klassifikation og tværfaglige kompetencer',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Brug tøjvalg som daglig beslutningstagningsøvelse. Lad børn vælge deres eget outfit hver morgen med vejrguidning som det eneste hint, og bed dem derefter begrunde deres valg med mindst to argumenter. Denne korte daglige øvelse styrker kausal ræsonnement, selvstændighed og mundtlig argumentation uden at kræve ekstra undervisningstid.',
+      source: 'Johansson, E., Göteborgs Universitet — selvstændighed og moralsk ræsonnement i daglige rutiner',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Introducer bæredygtighedstænkning gennem tøjtemaet. Når ældre elever diskuterer, hvor tøj kommer fra, og hvad der sker med det, når det kasseres, udvikler de miljøbevidsthed og forbrugerkritisk tænkning. Denne forbindelse mellem personlige valg og globale konsekvenser er central for Fælles Måls mål om bæredygtig udvikling.',
+      source: 'Fælles Mål — sundheds- og seksualundervisning samt familiekundskab, bæredygtig udvikling',
+      gradeRange: '2. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Sorteringskriterier tilgængelige', value: '5+ attributter' },
+  ],
 };
 
 registerThemeContent('clothing', 'da', content);

@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['holidays', 'spring', 'flowers', 'animals', 'garden', 'nature', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Påskearbejdsark indtager en unik pædagogisk position i den danske folkeskole, fordi de udnytter en af årets mest kulturelt ladede og tidsbegrænsede læringsmuligheder. I modsætning til eviggrønne temaer som dyr eller tal aktiverer påsken et specifikt vindue på tre til fire uger, hvor børns naturlige begejstring for påskefrokost, gækkebreve, æggemaling og æggejagt skaber en motivationsbølge, som undervisere kan surfe på til at nå ambitiøse læringsmål. I dansk kontekst er påsken dybt forankret i folkekulturen: børn klipper gækkebreve med snefnugmønstre, dekorerer påskeæg med farvestrålende designs, og familier samles til den store påskefrokost med æg, sild og lammebryst. Disse traditioner giver arbejdsarkene en autenticitet, som ingen anden tematisk kategori kan matche i forårsperioden. Fælles Mål for den danske folkeskole understreger vigtigheden af at koble faglig læring til elevernes livsverden, og påsken giver netop denne forbindelse, fordi hvert barn bringer personlige erfaringer med højtiden ind i klasseværelset. Ægget som matematisk manipulativ er bemærkelsesværdigt alsidigt: det kan tælles, sorteres efter farve og mønster, bruges i additionsopgaver, deles i brøker og arrangeres i symmetriske mønstre. Forårskonteksten understøtter naturfagsmål om livscyklusser og årstidsændringer, mens gækkebrevstraditionen naturligt kobler til dansk- og håndværksfaget. Den sæsonbestemte karakter er samtidig påskens styrke og begrænsning — den komprimerede tidsramme skaber en intensitet og fokuseret energi, som spredte temaer sjældent opnår, og lærere rapporterer konsekvent højere elevengagement i påskeugen end i nogen anden tematisk enhed.',
+
+  researchCitation: 'Broström, S. (2012). Børnehavens betydning for børns udvikling og læring. Aarhus Universitetsforlag og Københavns Universitet. Broström har gennem årtiers forskning i dansk børnepædagogik dokumenteret, at højtider og traditioner spiller en central rolle i børns sociale, emotionelle og kognitive udvikling i de tidlige leveår. Hans studier fra Københavns Universitet viser, at tematisk undervisning forankret i kulturelle traditioner — som påske, jul og fastelavn — skaber stærkere hukommelsespor og dybere begrebsforståelse end kontekstfri instruktion, fordi børn aktiverer personlige erfaringer og følelsesmæssige forbindelser, der fungerer som kognitive ankerpunkter for ny læring. Broströms arbejde understreger, at den rituelle gentagelse af årstidsbestemte traditioner giver børn en forudsigelig struktur, der reducerer angst og øger læringsparathed. Specifikt for påsken fremhæver Broström, at aktiviteter som æggemaling, gækkebrevklipning og æggejagter kombinerer finmotorisk øvelse med symbolsk tænkning og social interaktion på en måde, der understøtter flere udviklingsområder samtidigt, og at den kollektive forventning i dagene op til en stor højtid skaber et emotionelt laddet læringsmiljø, hvor ny viden forankres særligt effektivt.',
+
+  snippetDefinition: 'Påskearbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af dekorerede æg, påskeharer, forårskyllinger og blomstrende tulipaner til at undervise i matematik, læsning og finmotorik. Designet til børn fra 3 til 9 år dækker de tælling med æggetællere, forårsvokabular, mønstergenkendelse med æggedekorationer og skattejagtsaktiviteter, der forbinder danske påsketraditioner med faglige læringsmål fra Fælles Mål.',
+
+  snippetHowTo: [
+    'Vælg et påskeunderfokus for sessionen, som æggetælling og matematik, forårsdyr og livscyklusser, gækkebrevstraditioner, eller påskedekorationer og mønstre, for at give aktiviteterne en sammenhængende tematisk ramme.',
+    'Start med et visuelt engagerende arbejdsark som farvelægning af dekorerede påskeæg eller find-og-tæl med skjulte æg i en forårshave for at aktivere barnets påskebegejstring og skabe fokus.',
+    'Introducer et matematikarbejdsark der bruger æg i kurve som naturlige tællere, så addition og subtraktion forankres i den velkendte kontekst af æggeindsamling og påskefrokostforberedelse.',
+    'Tilføj et sprogligt element med en ordsøgning med forårsvokabular eller et ordspil med påskerelaterede begreber som udklækning, blomstring og forårsjævndøgn, der udvider ordforrådet.',
+    'Inkluder en logisk udfordring som en skattejagt eller mønster-tog med påskedekorationssekvenser, der kræver mønstergenkendelse og strategisk tænkning i en festlig kontekst.',
+    'Afslut med en kreativ aktivitet, hvor barnet designer sit eget påskeæg-mønster eller tegner en påskefrokostscene, hvilket konsoliderer dagens ordforråd og matematikbegreber i et personligt udtryk.',
+    'Forbind arbejdsarkene med virkelige påsketraditioner: dekorer rigtige æg med mønstre fra arbejdsarkene, klip gækkebreve med symmetriske mønstre, eller organiser en æggejagt hvor hvert æg indeholder en matematikopgave.',
+  ],
+
+  limitations: 'Påskearbejdsark har visse begrænsninger, som undervisere bør overveje ved planlægning af forårssemestret. Den mest åbenbare begrænsning er sæsonafhængigheden: påsketemaet er kun naturligt relevant i et vindue på tre til fire uger omkring påsken, og brug uden for denne periode kan føles tvunget og miste den motiverende kraft, som aktualiteten giver. Denne korte brugsperiode kræver omhyggelig planlægning, da lærere skal koordinere flere fagområder inden for en komprimeret tidsramme og risikerer at miste momentum, hvis påskeferien falder tidligt. Påsken har religiøse rødder, og selvom danske påskearbejdsark typisk fokuserer på sekulære traditioner som æg, kaniner og forårsnaturen, kan nogle familier med anden kulturel eller religiøs baggrund have indvendinger mod temaet. Undervisere bør være opmærksomme på klassens mangfoldighed og tilbyde alternative forårsstemaer til familier der ønsker det. Matematisk er påsketemaet stærkest til tælling, addition og mønstergenkendelse, men mindre naturligt egnet til geometri, dataanalyse eller brøkregning, hvor andre temaer med mere kvantificerbare elementer kan være mere effektive. Endelig er påskedatoen bevægelig fra år til år, hvilket komplicerer langtidsplanlægning.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Højtidsarbejdsark dækker et bredt spektrum af fejringer gennem hele året — fastelavn, jul, halloween og mere — og giver en generel festlig ramme. Påskearbejdsark fokuserer specifikt på forårets fornyelse med æg, kyllinger og blomstring og tilbyder en dybere, mere sammenhængende tematisk oplevelse med stærk kobling til naturfag og livscyklusser, som det brede højtidstema ikke kan matche i dybde.',
+    },
+    {
+      vsThemeId: 'spring',
+      summary: 'Forårsarbejdsark udforsker hele sæsonens bredde — vejrskift, plantevækst, fugletræk og regn. Påskearbejdsark fokuserer på forårets mest ikoniske fejring og giver en festlig ramme med æg, kaniner og traditioner, der motiverer børn mere intenst i en kortere periode. Forårstemaet er bredere, påsketemaet er mere fokuseret og kulturelt ladet.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Blomsterarbejdsark udforsker plantebiologi, farver og vækstmønstre som et naturfagsemne året rundt. Påskearbejdsark inkluderer blomster som en del af forårsscenen, men tilføjer kulturelle traditioner, æggebaseret matematik og festlige aktiviteter der giver en bredere tværfaglig oplevelse. Blomster er mere specifikt biologisk, påske er mere tværfagligt og kulturelt.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Havearbejdsark fokuserer på plantning, vækst, redskaber og det praktiske havearbejde som en vedvarende aktivitet. Påskearbejdsark rammer en specifik kulturel begivenhed i foråret og bruger haven som kulisse for æggejagter og forårsopdagelser snarere end som hovedfokus. Havetemaet er mere praktisk og vedvarende, påsketemaet er mere festligt og tidsbegrænset.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'påske farvelægningssider',
+      context: 'Vores påske farvelægningssider byder på dekorerede æg med indviklede mønstre, påskeharer i forårshaver og blomstrende tulipaner, der udvikler finmotorisk præcision og farvebevidsthed, mens børn fordyber sig i forårets stemning.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'påske find-og-tæl aktiviteter',
+      context: 'Vores påske find-og-tæl aktiviteter spreder skjulte æg, kyllinger og forårsdyr ud over detaljerede påskescener og udfordrer børn til at scanne, tælle og registrere deres fund — den perfekte papirversion af den elskede æggejagt.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'påske billedaddition arbejdsark',
+      context: 'Vores påske billedaddition arbejdsark bruger æg i kurve, kyllinger i reder og tulipaner i vaser som naturlige tællere, der gør addition og subtraktion konkret og visuel i en festlig forårskontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'påske ordsøgning printbar',
+      context: 'Forårsvokabularet udvides, når børn jager efter påskerelaterede begreber som udklækning, gækkebreve, påskefrokost og blomstring i vores påske ordsøgning printbar sider, der gør sæsonbetonet ordforråd til en spændende ordleg.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'påske skattejagt puslespil',
+      context: 'Vores påske skattejagt puslespil indfanger æggejagtens spænding på papir og udfordrer børn til at følge ledetråde, løse opgaver og navigere forårshaver for at finde den skjulte skat — logisk tænkning forklædt som påskesjov.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En indskolingslærer har tre uger til påskeferien og ønsker at udnytte elevernes stigende påskebegejstring til at styrke matematikfærdighederne inden forårsprøverne.',
+      solution: 'Læreren lancerer et påskeprojekt med tre ugentlige arbejdsarksessioner: uge ét fokuserer på æggetælling og addition med billedaddition, uge to introducerer mønstre med æggedekorationssekvenser og mønster-tog, og uge tre kombinerer alt i en stor klasserums-æggejagt med matematikopgaver inde i plastikæg. Hver session starter med et find-og-tæl-arbejdsark som opvarmning.',
+      outcome: 'Elevernes additionsflydende kundskaber stiger markant i de tre uger, fordi æggetællingskonteksten gør gentagen øvelse til leg snarere end drill. Ved forårsprøverne scorer klassen over gennemsnittet i addition og mønstergenkendelse, og tre elever der normalt kæmper med matematik, viser særlig fremgang, fordi påskekonteksten gav dem et konkret billede at regne med.',
+    },
+    {
+      situation: 'En forælder ønsker at holde sit barn fagligt engageret i påskeferien uden at det føles som lektier, og barnet er allerede overgearet af påskestemning.',
+      solution: 'Forælderen bruger påskearbejdsark som en del af familiens traditioner: farvelægning af dekorerede æg-designs før rigtig æggefarvning, ordsøgninger med påskeordforråd som optakt til påskefrokosten, og find-objekter i påskescener som indendørs alternativ til den udendørs æggejagt i regnvejr. Hvert arbejdsark kobles til en virkelig aktivitet.',
+      outcome: 'Barnet opfatter arbejdsarkene som en del af påskefejringen, ikke som skolearbejde, og beder selv om flere. Matematikfærdighederne vedligeholdes gennem ferien, og barnet udvikler nyt forårsvokabular som udklækning og blomstring, der styrker dets mundtlige sprogbrug i tiden efter ferien.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse skal undervise i livscyklusser ifølge Fælles Mål og ønsker at udnytte påsketemaets naturlige forbindelse til udklækning og forårsvækst.',
+      solution: 'Læreren bruger påskearbejdsark som indgang til livscyklusundervisning: matchningsøvelser parrer dyreunger med forældre, find-og-tæl-scener viser kyllinger i forskellige udviklingstrin, og skriveopgaver beder eleverne sekventere stadierne fra æg til kylling. Skyggematch-arbejdsark med forårsformer styrker den visuelle genkendelse af livscyklusstadier.',
+      outcome: 'Eleverne mestrer livscyklussekvensering hurtigere end i tidligere år, fordi påskekonteksten giver dem et følelsesmæssigt engagerende referencepunkt. Ved emneprøven kan alle elever korrekt ordne mindst tre livscyklusstadier, og flertallet kan også forklare, hvorfor æg klækkes om foråret og forbinde det med årstidernes vekslen.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug detaljerede påskescener i farvelægnings- og find-objekter-arbejdsark, der giver rige visuelle stimuli med dekorerede æg, forårshaver og dyreunger. Lad visuelle elever tegne deres egne æggedesigns med matematiske mønstre og oprette illustrerede påskeordlister som alternativ til skriftlige vokabularøvelser. Farvekodede æggetællere styrker talforståelse gennem visuel kategorisering.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter: dekorer rigtige æg efter mønstret på arbejdsarket, organiser en mini-æggejagt i klasseværelset efter find-og-tæl-øvelsen, og klip gækkebreve med symmetriske mønstre. Skattejagtsarbejdsark med bevægelse mellem poster i klasserummet eller skolegården giver den kropslige aktivitet, kinæstetiske elever har brug for for at forankre læringen.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Påskeordforråd som æg, kylling, kurv og kanin er konkrete, pegbare genstande der egner sig til direkte ordforrådsopbygning med billeder. Start med billedbaserede matchnings- og find-objekter-arbejdsark, der ikke kræver læsefærdighed. Brug rigtige påskegenstande som referencepunkter, og lad tosprogede elever dele deres families påsketraditioner, hvilket validerer deres kulturelle baggrund og udvider ordforrådet.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrinsproblemer: beregn hvor mange æg der skal skjules til en æggejagt for hele klassen med lige fordeling, design et geometrisk æggemønster med symmetrilinjer og rotationssymmetri, eller skriv en informationstekst der sammenligner påsketraditioner i Danmark med andre lande. Ordkryds med avanceret forårsvokabular og kryptogrammer med påsketema giver ekstra sproglig udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag (natur/teknologi)',
+      connection: 'Påskearbejdsark introducerer naturvidenskabelige begreber som livscyklusser, udklækning, årstidsændringer og forårsvækst i en kulturelt engagerende kontekst. Klækningssekvenser fra æg til kylling understøtter Fælles Mål for natur/teknologi om organismer og deres udvikling, mens forårsscener giver anledning til observationer af vejr, planter og dyreadfærd.',
+      activity: 'Eleverne følger en klækningssekvens på arbejdsark og sammenligner med en rigtig rugekasse eller videodokumentation af kyllingers klækning over 21 dage. De registrerer daglige observationer og sekvenserer udviklingsstadierne fra arbejdsarket i korrekt rækkefølge.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Påsketraditioner giver et rigt udgangspunkt for mundtlig og skriftlig sprogbrug. Gækkebrevstraditionen kobler håndværk med sprog, forårsvokabular udvider ordforrådet, og påskefortællinger giver stof til narrativ skrivning og genfortælling. Fælles Mål for dansk om mundtlig fremstilling og skriftlig fremstilling understøttes naturligt.',
+      activity: 'Eleverne skriver og illustrerer en kort påskefortælling, der inkorporerer mindst fem nye forårsvokabularord fra en ordsøgning. Yngre elever dikterer deres historie til en voksen, mens ældre elever skriver selvstændigt og bruger beskrivende sprog om påskens farver, dufte og smage.',
+    },
+    {
+      subject: 'Håndværk og design',
+      connection: 'Påskearbejdsark med æggedekoration bygger bro til praktisk æstetisk produktion. Mønstre, symmetri og farvekombinationer på papir oversættes direkte til æggemaling, gækkebrevklipning og forårsdekoration. Fælles Mål for håndværk og design om materiale, form og funktion understøttes gennem den kreative proces.',
+      activity: 'Eleverne designer først et æggemønster på arbejdsarket med geometriske former og symmetriske mønstre, analyserer deres designs matematisk, og genskaber derefter mønstret på rigtige udblæste æg med voks-batik-teknik eller acrylmaling.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Påskeportfolio med progression',
+      criteria: 'Over tre uger med påsketema samler eleverne arbejdsark fra forskellige fagområder i en portfolio: æggetælling fra uge ét, mønsterdesigns fra uge to og forårsskrivning fra uge tre. Vurdér progressionen i matematisk nøjagtighed, kreativ kompleksitet i mønstre og ordforrådsbredde i skriftlige opgaver. Portfolioen afsluttes med elevens egen vurdering af sit bedste arbejde.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Æggejagt med færdighedsstationer',
+      criteria: 'Design en æggejagt med fire stationer: en additionsstation med æggetællere, en ordforrådsstation med påskeord, en mønsterstation med æggedekorationssekvenser og en naturstation med livscyklussortering. Vurdér elevernes evne til at anvende færdigheder fra arbejdsark i en aktiv, bevægelsesbaseret kontekst. Registrér nøjagtighed og tid ved hver station.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Forårsobservation og formidling',
+      criteria: 'Eleverne bruger find-og-tæl-arbejdsark som skabelon for en rigtig forårsiagttagelse i skolegården. De tæller forårsfænomener (blomster, insekter, fugle), registrerer fund på et observationsark og formidler resultaterne mundtligt til klassen. Vurdér tællepræcision, brug af naturfagligt ordforråd og mundtlig formidlingsevne.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt påskens tidsbegrænsede karakter som en pædagogisk styrke. Den korte, intensive periode skaber en naturlig deadline og en forventningens energi, der driver eleverne til at engagere sig dybere end i længerevarende temaer. Planlæg en tydelig progression over tre uger med stigende kompleksitet, så eleverne oplever mestring lige inden ferien.',
+      source: 'Fælles Mål for den danske folkeskole — tematisk og helhedsorienteret undervisning',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Forankr påskearbejdsark i børnenes egne traditioner. Lad dem fortælle om deres families påskefrokost, gækkebrevstraditioner eller æggejagtserfaringer før arbejdsarksessionerne. Denne personlige aktivering skaber de kognitive ankerpunkter, som forskningen viser er afgørende for dyb læring, og validerer børnenes kulturelle baggrund som en læringsressource.',
+      source: 'Broström, S., Københavns Universitet — traditioner og kulturel forankring i tidlig læring',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Brug æggdekorationsmønstre som en overgang fra visuelt mønsterarbejde til algebraisk tænkning. Når børn designer gentagne mønstre på æggeomrids, øver de den form for regelbaseret sekvensering, der er fundamentet for algebraisk forståelse. Bed dem formulere reglerne for deres mønstre mundtligt: først rød, så blå, så grøn, og igen — denne verbalisering styrker den abstrakte tænkning.',
+      source: 'Fælles Mål for matematik — mønstre, sammenhænge og algebraisk tænkning',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Danske påsketraditioner dækket', value: '4+ traditioner' },
+  ],
 };
 
 registerThemeContent('easter', 'da', content);

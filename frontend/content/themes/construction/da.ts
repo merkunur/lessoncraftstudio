@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['jobs', 'shapes', 'transportation', 'robots', 'household'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Byggeritematiske arbejdsark indtager en enestående position i tidlig pædagogik, fordi de udnytter den grundlæggende menneskelige trang til at skabe — at tage råmaterialer og forvandle dem til noget funktionelt, strukturelt og synligt. I modsætning til passive observationstemaer inviterer byggeri børn ind i en aktiv ingeniørproces, hvor planlægning, måling og sekventiel tænkning er uadskillelige fra selve aktiviteten. Denne iboende STEM-kobling gør byggeritemaet pædagogisk distinkt: hvert arbejdsark er i bund og grund en ingeniøropgave forklædt som en farvelægning, et puslespil eller en matematikøvelse. Rumlig ræsonnering er kernen i byggeri. Børn der arbejder med byggetegningsgitre, murstenmønstre og strukturelle designs udvikler den visuo-spatiale intelligens, der ifølge forskning er en af de stærkeste forudsigere for senere succes i matematik, naturvidenskab og teknologi. I den danske folkeskole, hvor Fælles Mål for natur/teknik fremhæver ingeniørdesign og praktisk problemløsning allerede fra indskolingen, giver byggeritemaet en autentisk ramme for disse kompetencemål. Konstruktionsleg — med klodser, LEGO, sand eller genbrugsmaterialer — er dybt forankret i dansk pædagogisk tradition, fra Friedrich Fröbels indflydelse på børnehavebevægelsen til den moderne Billund-filosofi om læring gennem leg. Byggeritemaarbejdsark kanaliserer denne legetradition ind i struktureret faglig læring, så børn oplever en sømløs overgang fra fri konstruktionsleg til målrettet akademisk øvelse. Den sekventielle natur af byggeri — fundament før vægge, vægge før tag — understøtter desuden den proceduretænkning og eksekutive funktion, som Fælles Mål identificerer som tværgående kompetencer. Ingen andre temaer leverer denne kombination af STEM-autenticitet, rumlig udvikling, sekventiel logik og kulturel resonans med dansk bygge- og legetradition så naturligt som byggeriet.',
+
+  researchCitation: 'Lego Foundation, Billund (2017). Learning Through Play: A Review of the Evidence. Lego Foundations forskningsoversigt, baseret på studier fra University of Cambridge og MIT Media Lab, dokumenterer, at konstruktionsleg — aktiviteter hvor børn bygger, sammensætter og designer fysiske strukturer — fremmer rumlig ræsonnering, matematisk tænkning og ingeniørdesignkompetencer på måder, der overgår passiv instruktion. Forskningen viser, at børn der regelmæssigt engagerer sig i konstruktionsaktiviteter, udvikler stærkere problemløsningsevner, større vedholdenhed over for udfordringer og bedre forståelse af årsag-virkningsforhold. Særligt bemærkelsesværdigt er, at legebaseret konstruktion styrker den eksekutive funktion — planlægning, arbejdshukommelse og kognitiv fleksibilitet — som er afgørende for akademisk succes på tværs af alle fag.',
+
+  snippetDefinition: 'Byggeriarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af kraner, bulldozere, værktøj, byggetegninger og byggepladser til at undervise i matematik, læsning og logiske færdigheder. Designet til børn fra 3 til 9 år inkluderer de tælleøvelser med mursten og materialer, ordsøgninger med byggeordforråd, farvelægningssider af entreprenørmaskiner, mønsteraktiviteter med murstenlayouts og gitterbaserede ingeniørudfordringer, der udnytter børns naturlige fascination af at bygge til at styrke engagement og læring.',
+
+  snippetHowTo: [
+    'Vælg et specifikt byggeunderemne for ugen, som værktøj, maskiner, byggematerialer eller berømte bygninger, for at give dine lektioner en fokuseret fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med mursten til matematik, en ordsøgning med byggeordforråd til læsning og en farvelægningsside med entreprenørmaskiner til finmotorisk udvikling.',
+    'Introducer byggeunderemnet med en kort højtlæsning om byggeprocesser eller vis billeder fra en lokal byggeplads, så børnene har baggrundsviden inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden og start med den mest tilgængelige aktivitet som farvelægning af en kran for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som materialeberegninger eller byggetegningsgitre.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor mange mursten skal der bruges til denne mur og hvad tror du der sker efter fundamentet er lagt for at uddybe ingeniørtænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene forklarer ét byggetrin de lærte eller viser, hvordan de løste en materialeberegning, hvilket styrker procedurel kommunikation og fagligt ordforråd.',
+    'Par arbejdsarkene med en praktisk byggeaktivitet med klodser, LEGO eller genbrugsmaterialer, så børnene oplever den direkte forbindelse mellem todimensionel planlægning på papir og tredimensionel konstruktion i virkeligheden.',
+  ],
+
+  limitations: 'Byggeritemaet er muligvis ikke det bedste valg for enhver elev eller kontekst. Nogle børn har begrænset erfaring med byggepladser og entreprenørmaskiner, særligt i byområder hvor byggeri foregår bag hegn, hvilket kan reducere den umiddelbare genkendelse og engagement, som temaer med dyr eller fødevarer typisk genererer. Derudover kan byggeritemaets stærke fokus på sekventiel proces og måling være udfordrende for børn, der foretrækker mere åbne, kreative aktiviteter uden fastsatte trin. Kønsbalancen kan også kræve opmærksomhed — selvom byggeri appellerer bredt, kan kulturelle stereotyper om byggefag som mandsdominerede potentielt afholde nogle børn fra at engagere sig, medmindre læreren aktivt præsenterer mangfoldige bygningsarbejdere og arkitekter. Endelig er byggeritemaet, selvom det er fremragende til STEM-færdigheder og rumlig ræsonnering, mindre naturligt egnet til social-emotionel læring og kulturelle emner, hvor temaer som familie, fester eller samfundshjælpere tilbyder rigere kontekster.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'jobs',
+      summary: 'Erhvervsarbejdsark dækker mange forskellige professioner bredt — læger, brandfolk, lærere, kokke — og egner sig til samfundslektioner om roller og ansvar. Byggeritemaet dykker dybere ned i én specifik branche og leverer autentiske STEM-kontekster med materialeberegninger, byggetegninger og ingeniørprocesser, der ikke kan matche bredden af erhvervstemaet men overgår det i teknisk dybde og rumlig matematik.',
+    },
+    {
+      vsThemeId: 'shapes',
+      summary: 'Formerarbejdsark underviser i geometri direkte gennem abstrakte figurer — cirkler, trekanter, rektangler — hvilket er effektivt for formel matematikindlæring. Byggeritemaet forankrer de samme geometriske begreber i virkelige strukturer: mursten er rektangler, tage er trekanter, vinduer er firkanter. Denne anvendte tilgang gør geometri håndgribelig for børn, der kæmper med abstraktion, men mangler formertemaets systematiske dækning.',
+    },
+    {
+      vsThemeId: 'transportation',
+      summary: 'Transporttemaet viser køretøjer i bevægelse og appellerer til børn der elsker fart og rejser. Byggeritemaet deler interessen for store maskiner som kraner og bulldozere, men tilføjer et ingeniørlag: i stedet for bare at identificere køretøjer, beregner børnene, hvad maskinerne bygger. Begge temaer er STEM-rige, men byggeri er stærkere på måling og planlægning, mens transport er stærkere på bevægelse og geografi.',
+    },
+    {
+      vsThemeId: 'robots',
+      summary: 'Robotarbejdsark appellerer til teknologiinteresserede børn og fokuserer på digital logik, kodning og futuristiske kontekster. Byggeritemaet holder sig til den fysiske, håndgribelige verden: sten, træ, beton, værktøj og menneskelig muskelkraft. For børn der foretrækker det konkrete og virkelighedsnære, giver byggeri en mere tilgængelig STEM-oplevelse end robotters abstrakte teknologikontekst.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'byggeri farvelægningssider',
+      context: 'For børn der har brug for et roligt udgangspunkt, byder vores byggeri farvelægningssider på detaljerede illustrationer af kraner, bulldozere og byggepladser, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med de maskiner og værktøj, de vil møde i mere udfordrende byggeaktiviteter.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'byggeri billedaddition',
+      context: 'Når elever er klar til at kombinere visuel tælling med aritmetik, præsenterer vores byggeri billedaddition opgaver med mursten, bjælker og byggematerialer, der skal lægges sammen, hvilket gør addition til en ingeniøropgave snarere end en abstrakt øvelse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'byggeri ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter byggebegreber i vores byggeri ordsøgning printbar sider, der indlejrer teknisk sprog som fundament, stillads og byggetegning i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'grid-match',
+      anchorText: 'byggeri gittermatchning',
+      context: 'Vores byggeri gittermatchning udfordrer børn til at genskabe byggemønstre og murstenlayouts på et gitter, hvilket udvikler den rumlige ræsonnering og visuelle præcision, der er kernen i ingeniørdesign og byggetegningslæsning.',
+    },
+    {
+      appId: 'pattern-worksheet',
+      anchorText: 'byggeri mønsterøvelser',
+      context: 'For at opbygge den algebraiske tænkning, der underbygger ingeniørmatematik, lader vores byggeri mønsterøvelser børn identificere og fortsætte murstenmønstre, materiale­sekvenser og strukturelle gentagelser med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En matematiklærer i børnehaveklassen oplever, at flere elever kæmper med at forstå addition, når opgaverne præsenteres med abstrakte symboler og tallinjer.',
+      solution: 'Hun introducerer byggeritematiske billedadditionsarbejdsark, hvor børnene tæller mursten i to murstakke og lægger dem sammen for at finde ud af, hvor mange mursten bygherren har brug for i alt. De fysiske, tællelige objekter giver et konkret anker for den abstrakte operation.',
+      outcome: 'Inden for to uger kan de kæmpende elever selvstændigt løse additionsopgaver inden for 10. Tre elever der tidligere var uengagerede, beder nu frivilligt om flere byggearbejdsark og forklarer deres svar med sætninger som der er fire mursten her og fem mursten her, så der er ni mursten i alt.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser sit barn i 1. klasse, finder at barnet modstår skriftlige aktiviteter men bruger timer på at bygge med LEGO og konstruere ting af papkasser.',
+      solution: 'Forælderen printer byggetegnings-gitterarbejdsark og mønsteraktiviteter med murstenmønstre og præsenterer dem som ingeniøropgaver: kan du følge byggetegningen og bygge det, arkitekten har tegnet. Arbejdsarkene bliver en forlængelse af barnets konstruktionsleg.',
+      outcome: 'Barnet gennemfører tre til fire arbejdsark per session uden modstand og begynder selv at designe byggetegninger på millimeterpapir. Matematikfærdighederne forbedres mærkbart inden for en måned, og barnet identificerer sig nu som en ingeniør der også er god til matematik.',
+    },
+    {
+      situation: 'En natur/teknik-lærer i 2. klasse ønsker at introducere ingeniørdesignprocessen men finder, at lærebogsmaterialet er for abstrakt og teksttungt for mange elever.',
+      solution: 'Læreren bruger byggeritemaarbejdsark som stillads: først farvelægning af byggeprocessens trin, derefter mønsteraktiviteter med materialer, og til sidst beregningsopgaver med areal og materialer. Hvert arbejdsark parres med en kort praktisk byggeudfordring med genbrugsmaterialer.',
+      outcome: 'Elevernes forståelse af ingeniørdesignprocessen stiger markant. På projektopgaven kan 90 procent af eleverne selvstændigt planlægge, designe og evaluere en simpel struktur, og læreren bemærker en tydelig forbedring i elevernes evne til at tænke sekventielt og måle præcist.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og gittermatchningsarbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver flere indgangspunkter for børn, der lærer bedst gennem billeder. Byggetegningsgitre og murstenmønstre tilbyder rig visuel struktur, der understøtter rumlig ræsonnering.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske byggeklodser, LEGO eller genbrugsmaterialer. Lad børnene bygge de strukturer, de ser på arbejdsarket, før de skriver svar, så der bygges bro mellem praktisk konstruktion og papirbaseret læring. Mønsterøvelser kan løses med rigtige mursten inden de overføres til papir.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning og gittermatchning, før I introducerer ordbaserede aktiviteter. Byggeordforråd som kran, hammer og mursten er ofte konkrete, visuelle ord, der hurtigt kan læres gennem billeder. Tillad navngivning af værktøj og maskiner på begge sprog for at bygge bro mellem sprogene.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins materialeberegninger, der kræver multiplikation og planlægning, eller lad dem designe originale byggetegninger på millimeterpapir med specifikke dimensionskrav. Kodeadditionspuslespil i byggetegningsgitre og sudoku med byggetemaer tilbyder justerbar sværhedsgrad til elever, der har brug for ekstra udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknik',
+      connection: 'Byggeritemaet forbinder direkte til Fælles Måls kompetencemål for natur/teknik, hvor ingeniørdesign, materialeforståelse og praktisk problemløsning er centrale elementer. Arbejdsark der sorterer byggematerialer efter egenskaber eller sekventerer byggetrin opbygger den teknologiske forståelse, læreplanen kræver.',
+      activity: 'Efter et byggesekventeringsarbejdsark gennemfører eleverne en praktisk ingeniørudfordring: design og byg det højest mulige tårn af avispapir og tape, dokumentér processen i tre trin og evaluer, hvad der virkede og hvad der kunne forbedres.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Byggeri er iboende matematisk: måling af længder, beregning af arealer, tælling af materialer og sammenligning af størrelser er alle naturlige dele af byggeprocessen. Fælles Måls kompetencemål for matematik — herunder måling, geometri og problembehandling — kan alle adresseres autentisk gennem byggeritema-arbejdsark.',
+      activity: 'Brug byggetegnings-gitterarbejdsark til at introducere areal og omkreds. Eleverne designer en bygning på millimeterpapir, tæller enhedsfelter for arealet og lægger sider sammen for omkredsen, og sammenligner derefter deres designs med en klassekammerats for at diskutere, hvilken bygning der har det største rum.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Byggeprocessen giver en ideel kontekst for proceduretekster — en central genre i Fælles Måls danskfaglige mål. At beskrive hvordan man bygger en mur, forklare hvilke trin en bygherre følger, eller skrive instruktioner til et byggeprojekt øver sekventiel skrivning med præcist fagordforråd.',
+      activity: 'Efter at have gennemført et byggeriarbejdsark skriver eleverne en trinvis proceduretekst: forklar hvordan man bygger et fuglehus ved at bruge ordene først, derefter, så og til sidst. Eleverne illustrerer hvert trin med en tegning og præsenterer deres tekst for klassen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling med byggetema',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: materialeberegning, mønstergenkendelse, ordforråd og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, rumlig ræsonnering, teknisk ordforråd og finmotorisk kontrol i byggekontekster.',
+      gradeLevel: 'Førskole',
+    },
+    {
+      method: 'Observationstjekliste for byggeprocessen',
+      criteria: 'Mens eleverne arbejder med byggetegnings- og gitterarbejdsark, notér om de kan følge en simpel plan (børnehaveklasse), designe en original struktur efter specifikationer (1. klasse) eller beregne materialer selvstændigt med addition og tidlig multiplikation (2.-3. klasse). Registrer også brug af byggeordforråd i mundtlig kommunikation.',
+      gradeLevel: 'Børnehaveklasse',
+    },
+    {
+      method: 'Praktisk byggeudfordring med vurderingsrubrik',
+      criteria: 'Giv eleverne et designkort med specifikke krav: en struktur med mindst fire etager, symmetrisk facade og en beregning af det samlede antal klodser. Vurdér planlægningsevne, matematisk nøjagtighed, rumlig præcision og evne til at forklare designbeslutninger mundtligt, med rubrikker tilpasset klassetrinnet.',
+      gradeLevel: '1.-3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug byggetegninger som bro mellem konkret og abstrakt matematik. Når børn tegner en bygning på millimeterpapir og tæller felter, bevæger de sig naturligt fra fysisk konstruktion til symbolsk repræsentation. Denne overgang er essentiel for matematisk udvikling og understøttes af Fælles Måls progression fra konkret til abstrakt tænkning i indskolingens matematikundervisning.',
+      source: 'Fælles Mål for matematik — kompetencemål for indskolingen i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Udnyt konstruktionslegens kraft til at udvikle eksekutiv funktion. Lad børn planlægge et byggeprojekt på papir, samle materialer efter en liste og evaluere resultatet mod planen. Denne plan-udfør-evaluer-cyklus styrker arbejdshukommelse, impulskontrol og kognitiv fleksibilitet — de tre kernekomponenter i eksekutiv funktion, som forskning fra Lego Foundation identificerer som afgørende for akademisk succes.',
+      source: 'Lego Foundation, Billund — Learning Through Play: Strengthening Executive Function',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Introducér fejl som en naturlig del af byggeprocessen. Når en konstruktion kollapser eller en beregning ikke passer, modellér en vækstmentalitet ved at sige det viser os, at vi skal justere planen snarere end at det var forkert. Byggeri er et af de bedste temaer til at normalisere fejl, fordi selv professionelle ingeniører reviderer deres designs mange gange.',
+      source: 'Lego Foundation, Billund — forskning i resiliens og vedholdenhed i legebaseret læring',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'STEM-forbindelser', value: '5 fagområder' },
+  ],
 };
 
 registerThemeContent('construction', 'da', content);

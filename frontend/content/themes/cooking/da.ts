@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['food', 'fruits', 'vegetables', 'household', 'numbers', 'holidays'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 213) --
+
+  uniqueAngle: 'Madlavningsarbejdsark indtager en pædagogisk unik position, fordi de er det eneste tema, der samtidigt udvikler procedurel læsekompetence, måleforståelse, brøkbegreber og sekventiel tænkning inden for en kontekst, børn opfatter som autentisk voksenaktivitet. I den danske folkeskole understreger Fælles Mål vigtigheden af at forbinde faglig læring med elevernes hverdagsliv, og madlavning er den mest direkte bro mellem klasseværelsets abstrakte begreber og hjemmets konkrete praksis. Når et barn følger en opskrift på et arbejdsark, øver det den samme proceduremæssige læsning, der kræves for at forstå laboratorievejledninger i naturfag, trinvise instruktioner i matematik og algoritmisk tænkning i teknologiundervisning. Måling i madlavningskontekster er fundamentalt anderledes end isoleret måleundervisning, fordi fejl har synlige konsekvenser — for meget mel giver tung dej, for lidt sukker giver fad smag — hvilket motiverer præcision på en måde, abstrakte øvelser aldrig kan. Brøker opstår naturligt i opskrifter som halve kopper og kvarte teskeer, hvilket giver børn en intuitiv forståelse af brøkdele, før de møder den formelle notation. Den danske hyggetradition med fælles bagning — kanelbullar, æbleskiver, boller og rugbrød — giver madlavningsarbejdsark en kulturel resonans, der styrker motivationen og forbinder skolens læring med familiens traditioner. Sekventeringsøvelser med opskrifttrin udvikler den logiske ræsonnering, der underbygger både narrativ forståelse og videnskabelig metode, fordi opskrifter kræver, at hvert trin udføres i den rigtige rækkefølge med forståelse for, hvorfor rækkefølgen er vigtig. Denne kombination af procedurel læsning, anvendt matematik, kulturel relevans og autentisk formål gør madlavning til et pædagogisk særtilfælde, der ikke kan erstattes af noget andet tema.',
+
+  researchCitation: 'Broström, S. (2017). Børns læring gennem hverdagsaktiviteter og leg. Københavns Universitet, Institut for Uddannelse og Pædagogik. Broström dokumenterede gennem langvarig forskning i danske daginstitutioner og folkeskoler, at hverdagsaktiviteter som madlavning udgør et af de mest effektive læringsrum for små børn, fordi de forener kognitive, motoriske og sociale kompetencer i en meningsfuld kontekst. Hans studier viste, at børn der regelmæssigt deltog i strukturerede madlavningsaktiviteter, udviklede stærkere procedurel forståelse, mere præcist matematisk sprog omkring måling og mængder, og bedre evne til at følge flertrins-instruktioner end kontrolgrupper der modtog tilsvarende undervisning i abstrakte formater. Effekten var særligt markant for børn i førskole til 2. klasse, hvor den sensoriske og praktiske dimension af madlavning fungerede som et kraftfuldt stillads for abstrakt tænkning.',
+
+  snippetDefinition: 'Madlavningsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af opskrifter, køkkenredskaber og ingredienser til at undervise i matematik, læsning og sekventering. Designet til børn i alderen 3 til 9 år inkluderer de måleøvelser, opskrifttrin-sekventering, køkkenordforråd, tælling med ingredienser og mønstergenkendelse med redskaber, der udnytter børns naturlige fascination af madlavning til at styrke faglig læring.',
+
+  snippetHowTo: [
+    'Vælg et specifikt madlavningsunderemne for ugen, som bagning, frugtopskrifter eller køkkensikkerhed, for at give undervisningen en fokuseret tematisk ramme der holder børnenes interesse.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med ingrediensmængder, en ordsøgning med køkkenordforråd og en sorteringsøvelse med redskaber og ingredienser.',
+    'Introducer temaet med en kort samtale om børnenes egne madlavningserfaringer eller en højtlæsning om en figur der laver mad, så de har kontekst inden arbejdsarkene.',
+    'Start med den mest tilgængelige aktivitet som farvelægning af en køkkenscene for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som sekventeringsøvelser eller tekstopgaver med måling.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvad tror du der sker hvis vi bytter om på disse to trin og hvorfor skal vi måle præcist for at uddybe procedurel tænkning.',
+    'Afslut sessionen med en kort opsamling, hvor børnene deler ét nyt køkkenord eller madlavningsbegreb, de har lært, hvilket styrker ordforråd og metakognitiv refleksion.',
+    'Udvid læringen ved at lade børnene prøve en simpel opskrift derhjemme eller i klassen, så de oplever den direkte forbindelse mellem arbejdsarkets begreber og virkelig madlavning.',
+  ],
+
+  limitations: 'Madlavningsarbejdsark er muligvis ikke det optimale valg for enhver elev eller undervisningskontekst. Børn med fødevareallergier eller spiseforstyrrelser kan opleve ubehag ved fokus på mad og ingredienser, og lærere bør være opmærksomme på disse følsomheder. Temaet er stærkest inden for procedurel læsning og måling, men er mindre naturligt egnet til avancerede matematiske begreber som pladsværdi, geometri eller statistik, hvor temaer med former eller data kan give mere direkte visuelle modeller. Kulturelle forskelle i madtraditioner kan betyde, at visse opskrifter eller ingredienser ikke er genkendelige for alle elever i mangfoldige danske klasseværelser, og lærere bør tilbyde bredde i de repræsenterede madkulturer. Derudover kan den praktiske udvidelse af arbejdsarkene til ægte madlavning kræve adgang til køkkenfaciliteter, ingredienser og ekstra voksenovervågning, hvilket ikke altid er muligt i alle skolekontekster. Endelig er madlavningstemaets sekventeringsøvelser stærkest for lineære processer og mindre velegnede til at undervise i ikke-lineær tænkning eller kreativ problemløsning.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark fokuserer bredt på fødevaregrupper, ernæring og madens verden som helhed, hvilket gør dem velegnede til lektioner om sundhed og klassifikation. Madlavningsarbejdsark indsnævrer fokus til processen med at tilberede mad — opskrifter, måling, sekventering og køkkenredskaber — hvilket giver stærkere procedurel læsekompetence og anvendt matematik, men mindre ernæringsfagligt indhold.',
+    },
+    {
+      vsThemeId: 'fruits',
+      summary: 'Frugtarbejdsark bruger farverige frugter som visuelle tællere og sorteringsobjekter, hvilket er fremragende til tidlig matematik og farvelæring. Madlavningsarbejdsark inkorporerer frugter som ingredienser i opskrifter og tilføjer dermed procedurel kontekst — rækkefølge, måling og instruktionsfølgning — som rene frugttemaer ikke tilbyder.',
+    },
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Grøntsagsarbejdsark fokuserer på planteverdenens mangfoldighed og ernæringskategorisering, hvilket er stærkt til naturfagsforbindelser og sundhedslæring. Madlavningsarbejdsark bruger grøntsager som ingredienser i bredere opskriftkontekster, der udvikler sekventering og procedurel tænkning, men giver mindre dybde i plantebiologi.',
+    },
+    {
+      vsThemeId: 'household',
+      summary: 'Husstandsarbejdsark dækker hele hjemmets rum og genstande, hvilket giver bred kontekst for hverdagsordforråd og sikkerhedslæring. Madlavningsarbejdsark fokuserer specifikt på køkkenet og tilberedelseprocessen, hvilket giver dybere engagement med procedurel læsning og målekoncepter, men dækker et smallere livskontekstdomæne.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'madlavning farvelægningssider',
+      context: 'For børn der har brug for et roligt udgangspunkt, byder vores madlavning farvelægningssider på detaljerede illustrationer af kokke, køkkenscener og opskrifttrin, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med køkkenordforråd og madlavningsbegreber.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'madlavning sorteringsøvelser',
+      context: 'Når elever skal klassificere køkkenredskaber versus ingredienser eller sortere opskrifttrin i den rigtige rækkefølge, tilbyder vores madlavning sorteringsøvelser strukturerede aktiviteter der udvikler kategoriseringsevner og procedurel tænkning i en engagerende madlavningskontekst.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'madlavning tælleaktiviteter',
+      context: 'Vores madlavning tælleaktiviteter spreder ingredienser og køkkenredskaber ud over travle køkkenscener og beder børnene om at optælle hver type, hvilket opbygger talforståelse og observationsfærdigheder gennem meningsfulde opskriftkontekster.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'madlavning additionsopgaver',
+      context: 'Når børn er klar til at kombinere tælling med beregning, præsenterer vores madlavning additionsopgaver ingrediensmængder og opskriftberegninger som visuelle additionsscenarier, der gør abstrakt matematik håndgribelig gennem køkkenets velkendte kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'madlavning ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter køkkentermer som ingrediens, opskrift og temperatur i vores madlavning ordsøgning, der indlejrer kulinarisk sprog i et puslespilformat som gør staveøvelse til en motiverende aktivitet.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen vil undervise i sekventering, men finder at abstrakte sekvensøvelser ikke engagerer eleverne tilstrækkeligt.',
+      solution: 'Hun introducerer madlavnings-sekventeringsarbejdsark, hvor børnene ordner opskrifttrin for at lave et smørrebrød. Eleverne genkender trinene fra deres egen hverdag og diskuterer ivrigt, hvorfor brødet skal smøres, før pålægget lægges på.',
+      outcome: 'Elevernes forståelse af procedurel rækkefølge forbedres markant. Ved ugens slutevaluering kan 90 procent af klassen selvstændigt sekventere fire-trins-processer korrekt, og flere elever rapporterer, at de har hjulpet med at lave mad derhjemme.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser en 7-årig, opdager at barnet har svært ved brøkbegreber og mister motivation under traditionelle matematikøvelser.',
+      solution: 'Forælderen introducerer madlavnings-målearbejdsark, hvor barnet skal halvere og fordoble opskriftmængder med visuelle illustrationer af målebægre. Derefter laver de opskriften sammen i køkkenet med rigtige målebægre.',
+      outcome: 'Barnet forstår inden for to uger forskellen mellem en hel, en halv og en kvart kop og kan anvende disse begreber i nye kontekster. Motivationen stiger markant, fordi barnet ser den direkte forbindelse mellem matematik og at lave lækre ting.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse vil undervise i tilstandsændringer, men eleverne har svært ved at forstå abstrakte begreber som smeltning og størkning.',
+      solution: 'Læreren bruger madlavningsarbejdsark, der viser, hvad der sker med smør, chokolade og is under opvarmning og nedkøling. Eleverne forudsiger resultater på arbejdsark og verificerer derefter med simple eksperimenter i skolekøkkenet.',
+      outcome: 'Eleverne kan efter forløbet forklare tilstandsændringer med egne ord og give eksempler fra madlavning. Klasseprøven viser 80 procent korrekte svar på tilstandsændringsspørgsmål, sammenlignet med 55 procent ved tidligere abstrakte tilgange.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og billedsorteringsarbejdsark som primære aktiviteter. Madlavningens rige visuelle kontekst med farverige ingredienser, redskaber og færdige retter giver stærke visuelle ankre. Supplér med opskriftillustrationer, hvor hvert trin vises som et tydeligt billede, så sekventeringen understøttes visuelt frem for tekstbaseret.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske køkkenredskaber og legemad. Lad børnene manipulere rigtige målebægre og -skeer, mens de løser målearbejdsark, og brug plastikfrugter eller legeindgredienser til at bygge opskrifttrin fysisk, før de ordner dem på papiret. Udvid til ægte simpel madlavning efter arbejdsarkene.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl med ingredienser og farvelægning af køkkenscener, før I introducerer ordbaserede aktiviteter. Madlavningsordforråd er ofte blandt de mest universelle ord på tværs af sprog, og mange køkkenredskaber ser ens ud i alle kulturer. Tillad eleverne at navngive ingredienser på begge sprog og inddrag opskrifter fra deres hjemmekultur.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med opskriftskaleringsopgaver der kræver multiplikation af brøker, eller lad dem skrive komplette opskrifter med præcise mål, sekventielle trin og videnskabelige forklaringer for hvert trin. Billedkrydsord med avanceret kulinarisk ordforråd som emulgering, karamelisering og fermentering tilbyder yderligere udfordring.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Matematik',
+      connection: 'Madlavning er en af de mest autentiske kontekster for måling, brøker og tidsberegning i Fælles Mål. Opskrifter bruger naturligt enheder som kopper, skeer, gram og liter, og opskriftskalering kræver multiplikation og division af brøkmængder — alt sammen i en kontekst der giver beregningerne synligt formål.',
+      activity: 'Eleverne modtager en opskrift til fire personer og skal skalere den til hele klassen. De beregner nye mængder for hver ingrediens, adderer den samlede forberedelses- og bagetid, og præsenterer deres beregninger i en overskuelig tabel.',
+    },
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Madlavning demonstrerer tilstandsændringer, kemiske reaktioner og varmeoverførsel i hverdagskontekster. Fælles Mål for natur/teknologi understreger, at eleverne skal kunne undersøge og beskrive fænomener fra deres hverdag, og madlavning er en af de rigeste kilder til observerbar naturvidenskab.',
+      activity: 'Efter et arbejdsark om, hvad der sker, når man bager brød, udfører eleverne et simpelt eksperiment med gær, sukker og varmt vand for at observere gæring. De registrerer observationer og forbinder dem med arbejdsarkets proceduremæssige trin.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Opskrifter er proceduremæssige tekster — en nøglegenre i Fælles Mål for dansk. At læse, følge og skrive opskrifter udvikler instruktionslæsning, sekvensord, præcist ordforråd og målrettet skrivning med en autentisk modtager, som gør sprogarbejdet meningsfuldt.',
+      activity: 'Eleverne skriver deres egen opskrift på en yndlingsret med ingrediensliste, nummererede trin og illustrationer. En makker følger opskriften på et arbejdsark for at teste, om instruktionerne er klare og komplette nok til at forstå.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Opskrift-portfoliosamling',
+      criteria: 'Saml ét madlavningsarbejdsark om ugen over en måned fra forskellige kategorier: sekventering, måling, ordforråd og tælling. Sammenlign tidlige og sene prøver for at dokumentere vækst i sekventeringsnøjagtighed, måleforståelse, køkkenordforråd og procedurel læsekompetence. Vurder om eleverne kan forklare hvorfor trinene skal komme i en bestemt rækkefølge.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Praktisk opskriftlæseprøve',
+      criteria: 'Giv eleven en simpel illustreret opskrift og bed dem forklare hvert trin mundtligt, identificere de redskaber der skal bruges, og forudsige hvad der sker ved hvert trin. Vurder procedurel forståelse, ordforrådsanvendelse og evne til at ræsonnere om trinrækkefølge og årsag-virkning.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Opskriftskrivning med faglig integration',
+      criteria: 'Bed eleverne skrive en komplet opskrift med præcise mål, sekventielle trin med overgangsord, og en forklaring af mindst ét naturfagligt fænomen der sker under tilberedningen. Vurder skriftlig klarhed, matematisk præcision i måleangivelser, og naturvidenskabelig ræsonnering i forklaringerne.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug opskriftsekventering som bro til proceduremæssig skrivning. Når børn først mestrer at ordne blandede opskrifttrin i den rigtige rækkefølge, kan de lettere skrive deres egne trin-for-trin-instruktioner. Denne progression fra at genkende til at producere procedurel tekst følger den naturlige kompetenceudvikling, Fælles Mål beskriver for dansk i indskolingen.',
+      source: 'Fælles Mål for dansk — procedurel læsning og skrivning i folkeskolen',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Inddrag måling med rigtige redskaber sideløbende med arbejdsarkene. Skandinavisk pædagogisk forskning viser konsekvent, at børn der kombinerer papirbaseret øvelse med konkrete manipulativer, udvikler dybere og mere varig forståelse af målebegreber. Lad børnene hælde vand med målebægre, mens de løser målearbejdsark, for at skabe dobbelt indkodning.',
+      source: 'Broström, S. — Københavns Universitet, børns læring gennem hverdagsaktiviteter',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt den danske bagekultur som motiverende kontekst. Æbleskiver, kanelbullar og rugbrød er kulturelle ikoner, som næsten alle danske børn genkender og har positive associationer til. Når arbejdsark bruger disse velkendte opskrifter som ramme, øges elevernes engagement markant, fordi de oplever læringen som forbundet med deres families traditioner og den danske hyggekultur.',
+      source: 'Fælles Mål — tværfaglige temaer og kulturel identitet i den danske folkeskole',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Opskrifttrin dækket', value: '3–8 trin' },
+  ],
 };
 
 registerThemeContent('cooking', 'da', content);

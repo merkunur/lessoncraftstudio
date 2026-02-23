@@ -200,6 +200,169 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'farm', 'zoo', 'birds', 'insects', 'ocean'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Kæledyrsarbejdsark besidder en pædagogisk særstilling, fordi de udnytter den mest personlige og følelsesmæssigt ladede forbindelse, et barn kan have til et undervisningstema. Mens dyr generelt fascinerer børn, er kæledyr noget fundamentalt anderledes: de er levende væsener, som barnet kender ved navn, rører ved dagligt og føler ægte ansvar for. Denne dybe personlige relation betyder, at hvert kæledyrsarbejdsark aktiverer et følelsesmæssigt engagement, som abstrakte temaer aldrig kan matche. I den danske pædagogiske tradition har kæledyr længe fungeret som redskaber for social-emotionel udvikling i børnehaver og skoler. Når et barn øver addition med billeder af hvalpe, staver ordet kanin i en ordblandingsøvelse eller følger en billedsti for at hjælpe en forsvundet killing hjem, er motivationen ikke blot faglig — den er personlig og empatisk. Barnet løser opgaven, fordi det føler omsorg for det afbildede dyr. Denne emotionelle drivkraft forlænger koncentrationsspændet, øger villigheden til at prøve svære opgaver og styrker langtidshukommelsen for det lærte stof. Kæledyrstemaet bygger også bro mellem hjem og skole på en unik måde. Et barn, der fodrer familiens kat hver morgen, genkender øjeblikkeligt et arbejdsark med katte som noget relevant og meningsfuldt. Denne hjemme-skole-forbindelse er særligt værdifuld i de tidlige skoleår, hvor overgangen mellem de to verdener stadig er ny. Derudover tilbyder kæledyr en naturlig platform for at undervise i ansvar, rutiner og empati — kompetencer, der i Fælles Mål indgår under personlig udvikling og livskundskab. Ingen andre temaer kombinerer faglig læring, emotionel investering og hverdagspraksis i en lige så kraftfuld pædagogisk cocktail som kæledyr.',
+
+  researchCitation: 'Dansk pædagogisk tradition har i årtier anerkendt kæledyr som et centralt redskab for social-emotionel udvikling hos børn i alderen tre til ni. I danske børnehaver og indskolingsklasser bruges levende dyr og kæledyrstematiske aktiviteter systematisk til at fremme empati, ansvarlighed og følelsesmæssig læsefærdighed. Forskning fra danske pædagogiske institutioner dokumenterer, at børn, der interagerer med kæledyrstematisk undervisningsmateriale, udviser markant højere niveauer af empatisk adfærd, længere opmærksomhedsspænd under strukturerede læringsaktiviteter og stærkere forståelse af årsag-virkning-sammenhænge knyttet til pasning og ansvar. Den personlige forbindelse til kæledyr aktiverer det limbiske system og skaber emotionelle hukommelsesspor, der forankrer fagligt indhold mere effektivt end neutrale temaer. Danske læreplaner under Fælles Mål understreger, at undervisning i livskundskab og personlig udvikling skal integreres tværfagligt, og kæledyrstemaet leverer naturligt denne integration ved at koble matematik, sprog og naturfag til begreber om omsorg, daglige rutiner og levende væseners behov.',
+
+  snippetDefinition: 'Kæledyrsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af hunde, katte, fisk, hamstere, kaniner og andre kæledyr til at undervise i matematik, læsning, visuel opfattelse og kreativt udtryk. Designet til børn i alderen 3 til 9 inkluderer de additionsøvelser med dyregrupper, ordsøgninger med kæledyrsordforråd, farvelægningssider med detaljerede kæledyrsillustrationer, skyggematchning og mønsteraktiviteter, der kombinerer faglig læring med social-emotionel udvikling om ansvar og empati.',
+
+  snippetHowTo: [
+    'Vælg et specifikt kæledyrsunderemne for ugen, som hunde og hvalpe, katte og killinger eller akvariefisk, for at give lektionerne en fokuseret fortælletråd, der holder børnenes interesse samlet og undgår for brede generaliseringer.',
+    'Vælg to til tre arbejdsarkstyper, der målretter forskellige færdigheder — for eksempel en billedadditionsside med hundegrupper, en ordsøgning med kæledyrsordforråd og en farvelægningsside med kæledyrsillustrationer til finmotorisk udvikling.',
+    'Introducer kæledyrsunderemnet med en samtale om børnenes egne erfaringer med kæledyr: hvem har et kæledyr derhjemme, hvad hedder det, og hvad spiser det, for at aktivere den personlige forbindelse, der driver engagement.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en hvalp for at opbygge selvtillid, inden I går videre til mere udfordrende opgaver som tælling, ordblandinger eller mønstergenkendelse.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvad har dette kæledyr brug for for at holde sig sundt og hvordan ville du passe denne hamster for at uddybe social-emotionel tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene fortæller én ting, de har lært om at passe et kæledyr, eller beskriver deres eget kæledyrs sjoveste vane, hvilket styrker mundtligt sprog og følelsesmæssigt ordforråd.',
+    'Saml færdige arbejdsark i en kæledyrsprojektmappe, eventuelt med fotos af børnenes egne kæledyr eller tegninger af drømmekæledyr, for at dokumentere både faglig fremgang og personlig investering over tid.',
+  ],
+
+  limitations: 'Kæledyrsarbejdsark har visse begrænsninger, som lærere og forældre bør være opmærksomme på. Temaet fungerer bedst for børn, der har personlig erfaring med kæledyr, og selvom de fleste danske børn enten har et kæledyr, kender nogen der har, eller drømmer om at eje et, kan børn uden nogen kæledyrserfaring finde temaet mindre engagerende end børn med direkte forbindelse til dyrene. Kæledyrstemaet er desuden stærkest inden for social-emotionel læring, tælling, ordforråd og kreativt udtryk, men mindre naturligt egnet til avancerede matematikområder som brøker, pladsværdi eller geometri, hvor temaer med former, mad eller bygning kan give mere intuitive modeller. Emnet kan også vække følsomhed hos børn, der for nylig har mistet et kæledyr, og lærere bør være forberedt på at håndtere sådanne følelser med empati og åbenhed. Endelig fokuserer kæledyrsarbejdsark primært på almindelige husdyr som hunde, katte og fisk, hvilket kan føles begrænset for børn med mere usædvanlige kæledyr eller stærk interesse i vilde dyr, eksotiske arter eller bondegårdsdyr.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark dækker hele dyreriget med vilde dyr, havdyr, insekter og fugle, mens kæledyrsarbejdsark fokuserer specifikt på husdyr, børn kender personligt. Kæledyr tilbyder stærkere emotionelt engagement og social-emotionel læring om ansvar og empati, mens det bredere dyretema giver bedre dækning af biodiversitet, habitater og biologisk klassifikation.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Bondegårdsarbejdsark fokuserer på landbrugsdyr, afgrøder og maskiner i en produktionskontekst, mens kæledyrsarbejdsark centrerer sig om dyr i hjemmet og den personlige omsorgsrelation. Kæledyrstemaet er stærkere til at undervise i dagligt ansvar og empati, mens bondegården bedre understøtter undervisning i fødevareproduktion, sæsonbestemt arbejde og samfundsforståelse.',
+    },
+    {
+      vsThemeId: 'zoo',
+      summary: 'Zooarbejdsark udforsker eksotiske og vilde dyr i en observationskontekst, mens kæledyrsarbejdsark handler om dyr, børn interagerer med dagligt og føler personligt ansvar for. Kæledyr aktiverer dybere emotionelt engagement, fordi barnet ser sig selv som omsorgsgiver, mens zoo-temaet tilbyder bredere udforskning af verdens dyreliv og geografisk mangfoldighed.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'kæledyr farvelægningssider',
+      context: 'For børn der har brug for et afslappet og kreativt udgangspunkt, byder vores kæledyr farvelægningssider på detaljerede illustrationer af hvalpe, killinger, fisk og kaniner, der udvikler finmotorisk kontrol og belønner kreativ udfoldelse med velkendte, elskede dyr.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'kæledyr tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med talforståelse, spreder vores kæledyr tælleaktiviteter hunde, katte, fisk og hamstere ud over en travl scene og beder børnene om at optælle hver kæledyrstype, hvilket opbygger tællenøjagtighed og observationsfærdigheder i én engagerende øvelse.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'kæledyr additionsopgaver',
+      context: 'Vores kæledyr additionsopgaver bruger grupper af hvalpe, killinger og fisk som visuelle tællere, der gør addition konkret og personligt meningsfuld for elever, der lærer at lægge tal sammen med dyr, de elsker og genkender fra deres egen hverdag.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'kæledyr ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter kæledyrsord som hamster, akvarium, dyrlæge og snor i vores kæledyr ordsøgning printbar sider, der indlejrer kæledyrsrelateret fagsprog i et puslespilformat, som gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'kæledyr ordblandingsøvelser',
+      context: 'For at opbygge fonemisk bevidsthed og stavefærdigheder inviterer vores kæledyr ordblandingsøvelser børn til at sætte bogstaverne i kæledyrsnavne som hvalp, killing og kanin i den rigtige rækkefølge, hvilket styrker lydmæssig analyse gennem personligt meningsfulde ord.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer vil starte et temaforløb om ansvar og omsorg, men oplever at de tilgængelige materialer er for abstrakte for fem- og seksårige.',
+      solution: 'Hun introducerer et to-ugers kæledyrsprojekt, hvor hvert barn adopterer et legetøjskæledyr og dagligt udfylder et passeskema-arbejdsark med opgaver som fodring, gåtur og børstning. Sideløbende gennemfører børnene kæledyrs-tælleark, farvelægningssider og ordsøgninger, der opbygger faglige færdigheder i en kontekst, børnene føler personligt ansvar for.',
+      outcome: 'Efter to uger viser børnene markant forbedret forståelse af daglige rutiner og sekvensering. Seks elever, der normalt har kort opmærksomhedsspænd, gennemfører konsekvent hele arbejdsark, fordi de føler sig forpligtede over for deres legetøjskæledyr. Forældrene rapporterer, at børnene begynder at hjælpe mere med pasning af familiens rigtige kæledyr.',
+    },
+    {
+      situation: 'En forælder med et barn i 1. klasse vil gerne bruge sommerferien til at vedligeholde faglige færdigheder, men barnet afviser traditionelle øvelseshæfter som kedelige.',
+      solution: 'Forælderen kobler arbejdsark til familiens hund: barnet tæller hundens godbidder med additionsark, staver kæledyrsord i ordblandingsøvelser, måler hundens vandindtag og fører en kæledyrsdagbog med korte sætninger om hundens daglige oplevelser.',
+      outcome: 'Barnet gennemfører fire til fem arbejdsark om ugen frivilligt, fordi aktiviteterne føles som en del af hundepasningen snarere end skolearbejde. Ved skolestart viser barnet ingen sommertilbagegang i hverken matematik eller stavning, og har desuden udviklet stærkere skrivevaner gennem den daglige dagbog.',
+    },
+    {
+      situation: 'En 2. klasselærer skal undervise i dataindsamling og grafrepræsentation ifølge Fælles Mål, men finder at lærebogsmaterialet er abstrakt og kedeligt for mange elever.',
+      solution: 'Læreren designer et projekt, hvor eleverne undersøger klassens kæledyr. Hvert barn interviewer tre klassekammerater om deres kæledyr, registrerer data i tabeller fra kæledyrsarbejdsark, opretter søjlediagrammer over de mest populære kæledyrstyper og skriver en kort rapport om deres resultater.',
+      outcome: 'Elevernes engagement stiger markant, fordi dataene handler om deres egne kæledyr. På den afsluttende prøve om datarepræsentation scorer klassen gennemsnitligt højere end ved tilsvarende prøver med abstrakt materiale, og eleverne demonstrerer stærkere evne til at formulere konklusioner baseret på data.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Kæledyrs rige visuelle variation med pelsfarver, mønstre og kropsstørrelser giver stærke visuelle ankre. Find-og-tæl-aktiviteter med travle kæledyrsscener udnytter visuelle styrker til at undervise i tælling, mens billedstier styrker rumlig opfattelse gennem visuelt engagerende navigation.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark direkte med praktiske kæledyrsaktiviteter. Lad børnene fodre et rigtigt kæledyr eller tøjdyr efter en tælleøvelse, børste et legetøjskæledyr efter et sekventeringsark og bygge et hus af pap til et tøjdyr efter et mønsterarbejdsark. Denne kobling mellem papirbaseret læring og håndfaste oplevelser forankrer abstrakte begreber i konkret handling.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, find-og-tæl og skyggematchning, før I introducerer ordbaserede aktiviteter. Kæledyrsordforråd som hund, kat og fisk er ofte blandt de ord, tosprogede elever lettest lærer, fordi de kan kobles til konkrete dyr, barnet kender personligt. Tillad navngivning af kæledyr på begge sprog for at styrke flersproglig bevidsthed.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-kæledyrspasningsprojekter, der kræver budgetberegning for foder og dyrlægebesøg, sammenligningsanalyse af forskellige kæledyrs behov og overbevisende skrivning om, hvilket kæledyr der passer bedst til en given familie. Lad dem designe egne kæledyrsquizzer og matematikopgaver til klassekammerater med specifikke sværhedskrav.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Kæledyrsarbejdsark forbinder direkte til Fælles Måls naturfagsmål om dyrs grundlæggende behov for mad, vand, husly og pleje. Sortering af kæledyr efter type, sammenligning af dyrs kost og habitat og diskussion af dyrlægebesøg styrker den biologiske forståelse af levende væseners behov, der er central for naturfagsundervisningen i indskolingen.',
+      activity: 'Efter et arbejdsark om kæledyrs behov opretter eleverne et sammenligningsskema for tre kæledyrstyper, hvor de undersøger og registrerer hvert dyrs kost, motionsbehov, levetid og boligkrav, hvilket forbinder arbejdsarkets biologi med struktureret informationssøgning.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Kæledyrstemaet udvider ordforrådet med fagtermer som dyrlæge, vaccination, ernæring og temperament, der styrker faglig læsning. Fortællende og beskrivende skrivning om egne kæledyr eller drømmekæledyr udvikler skriftlig kommunikation i overensstemmelse med Fælles Måls danskfaglige kompetencemål for mundtlig og skriftlig fremstilling.',
+      activity: 'Eleverne skriver en adoptionsannonce for et kæledyr, der har brug for et nyt hjem, med en beskrivelse af dyrets personlighed, behov og bedste egenskaber, hvilket forbinder overbevisende skrivning med empati og faktaformidling.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Kæledyrstemaet giver rig kontekst for tælling, addition, subtraktion og dataindsamling. Børn tæller kæledyrsgrupper, beregner fodermængder over flere dage og opretter diagrammer over klassens kæledyr, hvilket giver dem praktisk erfaring med de matematiske kompetencemål om tal, regnearter og statistik i Fælles Mål.',
+      activity: 'Eleverne gennemfører en klassens-kæledyr-undersøgelse, hvor de interviewer klassekammerater, registrerer data i en tabel, opretter et søjlediagram og skriver to konklusioner baseret på deres data, hvilket forbinder aritmetik med datafortolkning.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Kæledyrsprojekt-portfolio',
+      criteria: 'Saml arbejdsark, passeskemaer og skriftlige refleksioner over fire uger i en kæledyrsportfolio. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, stavefærdigheder, ordforrådsudvidelse og evnen til at beskrive kæledyrs behov og pasningsrutiner med stigende detalje og præcision.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Kæledyrs-faktapræsentation',
+      criteria: 'Vurder elevernes evne til at researche et kæledyr, organisere fakta i kategorier som kost, bolig, motion og pleje, og præsentere resultaterne mundtligt for klassen med mindst tre understøttende detaljer. Bedøm nøjagtighed, organisation, brug af fagligt ordforråd og evnen til at besvare klassekammeraters spørgsmål.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Ansvarlighedsvurdering',
+      criteria: 'Giv eleverne et scenario om et kæledyr, der har brug for pasning, og bed dem oprette et ugepasseskema med daglige opgaver, beregne fodermængder og skrive en begrundelse for deres plan. Vurder om de dækker alle grundlæggende behov, om beregningerne er korrekte, og om begrundelsen viser empati og forståelse for dyrets velfærd.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug kæledyrstemaet som springbræt for at undervise i daglige rutiner og ansvarlighed. Når børn udfylder et kæledyrspasseskema på et arbejdsark, internaliserer de konceptet om at et andet levende væsen er afhængigt af konsekvent omsorg. Denne empatiøvelse overføres direkte til klasseromsadfærd, kammeratrelationer og personlig ansvarlighed i hverdagen.',
+      source: 'Fælles Mål — livskundskab og personlig udvikling i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Introducer kæledyrsordforråd gennem den personlige fortælling. Bed børnene fortælle om deres eget kæledyr eller drømmekæledyr, skriv nøgleordene på tavlen, og lad dem derefter finde de samme ord i en ordsøgning eller ordblandingsøvelse. Denne triple indkodning — mundtlig fortælling, visuel genkendelse og skriftlig aktivitet — forankrer nye ord markant bedre end isoleret ordforrådsundervisning.',
+      source: 'Dansk pædagogisk tradition — narrativ tilgang til sprogudvikling i indskolingen',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Udnyt den følelsesmæssige forbindelse til kæledyr til at motivere modvillige elever. Børn der normalt har kort opmærksomhedsspænd eller modstand mod strukturerede opgaver, viser ofte overraskende udholdenhed, når arbejdsarket handler om et dyr, de elsker. Start med det letteste format som farvelægning, og byg gradvist op til mere udfordrende aktiviteter, mens den emotionelle investering opretholder motivationen.',
+      source: 'Fælles Mål — differentieret undervisning og elevmotivation i den danske folkeskole',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Kæledyrsarter dækket', value: '7+ arter' },
+  ],
 };
 
 registerThemeContent('pets', 'da', content);

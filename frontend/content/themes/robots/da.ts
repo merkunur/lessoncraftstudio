@@ -207,6 +207,169 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['space', 'construction', 'superheroes', 'numbers', 'pirates', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Robot-arbejdsark indtager en unik position i tidlig uddannelse, fordi de bygger bro mellem teknologisk nysgerrighed og struktureret læring på en måde, som intet andet tema formår. Mens dyr og natur appellerer til børns emotionelle verden, og tal og bogstaver adresserer akademiske kernefærdigheder, aktiverer robotter den særlige fascination, som børn har for maskiner der kan tænke og handle — og forvandler denne fascination til et kraftfuldt pædagogisk redskab. I den danske folkeskole har indførelsen af Teknologiforståelse som faglighed sat fokus på netop de kompetencer, som robot-arbejdsark naturligt udvikler: computational thinking, algoritmisk tænkning, sekventiel logik og evnen til at forstå, hvordan digitale systemer fungerer. Når et barn udfylder et kodeadditionsarbejdsark, øver det ikke bare aritmetik — det oplever grundprincippet i programmering: at følge instruktioner i en bestemt rækkefølge for at nå et bestemt resultat. Mønsterarbejdsark med tandhjul og kredsløb introducerer begrebet om gentagelige processer, som er fundamentet for løkker i rigtig kode. Gittermatchningsaktiviteter, hvor et robotdesign skal genskabes nøjagtigt, træner den præcision og opmærksomhed på detaljer, som ingeniørfaget kræver. Robot-temaet er også unikt i sin evne til at integrere STEM-fag med kreativitet: når børn designer deres egne robotter på papir, træffer de ingeniørmæssige designbeslutninger om form, funktion og æstetik, der afspejler den virkelige designtænkningsproces. Denne kombination af computationel tænkning, matematisk stringens og kreativ udfoldelse gør robot-arbejdsark til et af de mest fremtidsrettede pædagogiske værktøjer i enhver lærers repertoire, perfekt tilpasset de kompetencer som det 21. århundredes arbejdsmarked efterspørger.',
+
+  researchCitation: 'Nordisk teknologipædagogik — teknologiforståelse, computational thinking og STEM-læring i dansk folkeskole. Forskningen inden for nordisk teknologipædagogik har dokumenteret, at børn der møder teknologiske begreber gennem konkrete, hands-on aktiviteter i de tidlige skoleår, udvikler markant stærkere computational thinking-færdigheder end jævnaldrende der først introduceres til teknologi via skærmbaseret undervisning. Studier fra danske skoler, der har implementeret Teknologiforståelse som pilotfag, viser at papirbaserede og uplugged aktiviteter — som robot-arbejdsark med kodesekvenser, mønstergenkendelse og algoritmisk problemløsning — opbygger den begrebsmæssige forståelse, som senere skærmbaseret kodning forudsætter. Forskningen fremhæver særligt, at den skandinaviske legebaserede pædagogiske tradition styrker STEM-læring, fordi børn der oplever teknologiske begreber som leg snarere end formel undervisning, viser højere motivation, dybere forståelse og bedre transfer til nye kontekster. Denne evidens understøtter brugen af tematiske arbejdsark som en bro mellem børns naturlige teknologinysgerrighed og de formelle kompetencemål i Fælles Mål.',
+
+  snippetDefinition: 'Robot-arbejdsark til børn er printbare læringsaktiviteter med robottema, der kombinerer matematik, læsning, mønstergenkendelse og logisk tænkning med teknologiens fascinerende verden. Designet til børn i alderen 3 til 9 år dækker de alt fra farvelægning af venlige robotfigurer og tælling af tandhjul til kodebaserede additionsopgaver, kryptogram-afkodning og algoritmiske mønsterudfordringer, der opbygger computational thinking-færdigheder på en legende og tilgængelig måde.',
+
+  snippetHowTo: [
+    'Vælg en arbejdsarktype, der matcher barnets aktuelle færdighedsniveau — farvelægning og skyggematchning for yngre børn, kodeaddition og kryptogrammer for mere erfarne elever.',
+    'Print arbejdsarket og introducer det med en kort samtale om robotter: hvad gør en robot, hvordan ved den hvad den skal gøre, og hvad er programmer? Denne indledning aktiverer barnets forhåndsviden og skaber motivation.',
+    'Lad barnet arbejde selvstændigt med arbejdsarket i otte til femten minutter, mens du observerer og stiller åbne spørgsmål som hvordan fandt du ud af det og hvad tror du kommer næst i mønsteret.',
+    'Efter færdiggørelse beder du barnet forklare sin tænkning med egne ord, hvilket styrker metakognitiv bevidsthed og matematisk sprog — to kompetencer som Fælles Mål prioriterer højt.',
+    'Forbind arbejdsarkets indhold med en praktisk aktivitet: byg en robot af genbrugsmaterialer, spil menneskerobot-spillet eller programmer en klassekammerat til at gå en bestemt rute.',
+    'Varier arbejdsarktyperne over ugen, så barnet møder matematik, mønstergenkendelse, ordforråd og logik gennem det samme robotunivers, hvilket styrker tværfaglig transfer.',
+    'Saml færdige arbejdsark i en robotportfolio, så barnet kan se sin egen fremgang over tid og fejre de færdigheder, det har opbygget.',
+  ],
+
+  limitations: 'Robot-arbejdsark har visse begrænsninger, som lærere og forældre bør være opmærksomme på. Det teknologiske tema kan virke abstrakt for børn, der ikke har erfaring med robotter eller programmerbart legetøj, og disse elever kan have brug for en mere konkret introduktion gennem byggeaktiviteter eller videoer, før arbejdsarkene giver mening. Derudover er robottemaet primært orienteret mod STEM-færdigheder og tilbyder færre naturlige forbindelser til humanistiske fag som historie, geografi eller samfundsfag end bredere temaer som dyr, mad eller rejser. Nogle børn, særligt de yngste førskolebørn, kan finde de geometriske robotformer sværere at farve end de afrundede, organiske former i natur- og dyretemaer, fordi de kantede linjer kræver en anderledes motorisk kontrol. Endelig er det vigtigt at supplere papirbaserede robotaktiviteter med hands-on oplevelser, da computational thinking bedst udvikles gennem en kombination af abstrakt og konkret udforskning snarere end skrivebordsarbejde alene.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'space',
+      summary: 'Rumtemaet deler robottemaets STEM-appel og teknologiske fascination, men fokuserer mere på naturvidenskabelig viden om planeter, stjerner og astronomi, mens robottemaet koncentrerer sig om ingeniørdesign, programmering og algoritmisk tænkning. Vælg rumtemaet for naturvidenskabelig udforskning og robottemaet for computational thinking og teknologiforståelse.',
+    },
+    {
+      vsThemeId: 'construction',
+      summary: 'Konstruktionstemaet udvikler rumlig tænkning og ingeniørfærdigheder gennem bygninger og maskiner med en konkret, fysisk tilgang, mens robottemaet tilføjer et digitalt og programmeringsmæssigt lag med kodesekvenser, algoritmer og mønsterlogik. Begge temaer opbygger ingeniørtænkning, men fra forskellige vinkler — konstruktion fra den fysiske verden, robotter fra den digitale.',
+    },
+    {
+      vsThemeId: 'numbers',
+      summary: 'Tal-arbejdsark tilbyder rendyrket matematisk fokusering med intensiv øvelse i aritmetik og talfornemmelse, mens robot-arbejdsark indlejrer matematik i en teknologisk kontekst med kodeaddition, tandhjulstælling og mønstersekvenser. Vælg tal-temaet for målrettet matematisk styrkelse og robot-temaet for at forbinde matematik med computational thinking og STEM-begejstring.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'robot-farvelægningssider',
+      context: 'Vores robot-farvelægningssider viser detaljerede mekaniske figurer med tandhjul, kredsløb og antenner, der udvikler finmotorisk præcision mens børnene træffer kreative designvalg om deres robotters udseende — en perfekt blanding af kunst og ingeniørtænkning.',
+    },
+    {
+      appId: 'code-addition',
+      anchorText: 'robot kodeadditionsopgaver',
+      context: 'For at bygge bro mellem matematik og programmering præsenterer vores robot kodeadditionsopgaver regnestykker som sekventielle robotinstruktioner, der skal eksekveres i præcis rækkefølge, hvilket opbygger både regnefærdighed og algoritmisk tænkning i samme aktivitet.',
+    },
+    {
+      appId: 'grid-match',
+      anchorText: 'robot gittermatchningsaktiviteter',
+      context: 'Vores robot gittermatchningsaktiviteter udfordrer børn til at genskabe komplekse robotdesigns ved at kopiere mønstre fra ét gitter til et andet, hvilket styrker rumlig ræsonnement, visuel opmærksomhed og den præcision som ingeniørfaget kræver.',
+    },
+    {
+      appId: 'pattern-worksheet',
+      anchorText: 'robot mønsterarbejdsark',
+      context: 'Med vores robot mønsterarbejdsark identificerer og udvider børn sekvenser af tandhjul, lys og robotkomponenter, der udvikler den algebraiske tænkning og regelgenkendelse som danner fundamentet for computational thinking.',
+    },
+    {
+      appId: 'sudoku',
+      anchorText: 'robot sudoku-puslespil',
+      context: 'Vores robot sudoku-puslespil med robotsymboler i stedet for tal træner logisk deduktion, eliminering og systematisk tænkning — præcis de problemløsningsfærdigheder som programmering og robotik kræver i den virkelige verden.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer vil introducere begrebet om at give instruktioner i rækkefølge som forberedelse til teknologiforståelsesfaget, men klassen har ingen adgang til tablets eller computere.',
+      solution: 'Læreren starter med robot kodeadditionsarbejdsark, hvor eleverne følger nummererede trin for at nå svaret. Derefter udvider hun til menneskerobot-spillet, hvor én elev giver trinvise instruktioner og en partner agerer robot. Mønsterarbejdsark med tandhjulssekvenser forstærker den sekventielle tænkning på papir.',
+      outcome: 'Inden for to uger bruger eleverne spontant sekventielt sprog som først, derefter, til sidst i andre fag. Da klassen senere får adgang til en koderobot, overgår eleverne hurtigt til at programmere den, fordi de allerede forstår konceptet om ordnede instruktioner.',
+    },
+    {
+      situation: 'En forælder til et barn i 1. klasse ønsker at styrke STEM-interessen, men barnet afviser traditionelle matematikopgaver som kedelige og foretrækker kreativ leg med byggeklodser og tegning.',
+      solution: 'Forælderen introducerer robot-farvelægningssider som indgang og parrer dem med bygning af genbrugsrobotter. Gradvist tilføjes gittermatchningsaktiviteter, der føles som tegning, og kodeadditionsopgaver der præsenteres som robotprogrammering snarere end matematik.',
+      outcome: 'Barnet opfatter aktiviteterne som robotleg snarere end lektier og udfører frivilligt tre til fire sessioner om ugen. Over to måneder forbedres barnets matematiske færdigheder mærkbart, og læreren bemærker øget engagement i matematiktimerne, fordi barnet nu forbinder tal med den robottænkning det elsker.',
+    },
+    {
+      situation: 'En 2. klasselærer vil differentiere sin teknologiundervisning, men har elever på meget forskellige niveauer — nogle kan allerede tælle til hundrede, mens andre stadig kæmper med tal til tyve.',
+      solution: 'Læreren opretter tre robotstationer: station et med farvelægning og skyggematchning for elever der har brug for finmotorisk og visuel støtte, station to med billedaddition og mønsterarbejdsark for elever på mellemniveau, og station tre med kryptogrammer og avanceret sudoku for hurtige elever. Alle stationer bruger robottemaet, så klassen deler en fælles oplevelse.',
+      outcome: 'Hver elev arbejder i sin nærmeste udviklingszone uden at føle sig hverken overvældet eller understimuleret. Robottemaet skaber en fælles klasseidentitet omkring teknologi, og eleverne deler begejstret deres robotopgaver med hinanden på tværs af niveauer.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Prioriter gittermatchning, skyggematchning og farvelægningsaktiviteter, der udnytter disse elevers stærke visuelle processering. Brug farvekodede robotdele som visuelle ankre i matematikopgaver, og lad eleverne tegne deres egne robotdesigns som svar på mønsterudfordringer, så de kan udtrykke matematisk forståelse visuelt.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter: byg robotter af genbrugsmaterialer efter at have udfyldt et designarbejdsark, spil menneskerobot-spillet med retningskommandoer på gulvet, og brug byggeklodser til at skabe de mønstre de ser på mønsterarbejdsark. Den fysiske handling forankrer den abstrakte tænkning i kropslig erfaring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedbaserede arbejdsark som farvelægning, gittermatchning og billedaddition, der kræver minimal tekstforståelse. Robottemaets visuelle og universelle appel transcenderer sprogbarrierer, og tekniske ord som robot, motor og sensor er ofte genkendelige på tværs af sprog. Introducer gradvist danske STEM-termer gennem ordsøgninger med billedstøtte.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins kryptogrammer, komplekse sudoku-puslespil og mønsterarbejdsark med multi-variabel-sekvenser. Lad dem designe deres egne kodeadditionsopgaver til klassekammerater, hvilket kræver dyb forståelse af sekventiel logik. Introducer begrebet om fejlsøgning ved at give dem algoritmer med bevidste fejl, som de skal identificere og rette.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Teknologiforståelse',
+      connection: 'Robot-arbejdsark adresserer direkte kernekompetencerne i det danske teknologiforståelsesfag: computational thinking gennem kodeaddition og mønstersekvenser, algoritmisk tænkning gennem trinvise instruktioner og digital myndiggørelse gennem forståelsen af, hvordan maskiner følger programmer.',
+      activity: 'Eleverne udfylder et kodeadditionsarbejdsark og identificerer derefter de tre grundprincipper i programmering, der er til stede: sekvens (trinene følger en rækkefølge), gentagelse (mønstre der gentager sig) og betingelser (hvis dette tal, så dette resultat). Denne refleksion forbinder papirbaseret øvelse med formelle programmeringsbegreber.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Robotordsøgninger og kryptogrammer opbygger STEM-ordforråd på dansk, mens instruktionsskrivningsopgaver træner den præcise, sekventielle kommunikation som Fælles Mål for dansk fremhæver. At skrive robotinstruktioner kræver de samme organisatoriske færdigheder som proceduretekster og vejledninger.',
+      activity: 'Eleverne skriver en trinvis instruktion til en robot, der skal udføre en hverdagsopgave som at lave morgenmad, og tester instruktionerne ved at lade en klassekammerat følge dem bogstaveligt. Fejl i instruktionerne bliver til skriveøvelser, hvor eleverne reviderer for klarhed og præcision.',
+    },
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Robottemaet forbinder naturligt til natur/teknologi-fagets mål om at forstå teknologiske systemer, mekaniske principper og forholdet mellem energi og bevægelse. Tandhjul, sensorer og kredsløb i robotillustrationer giver visuelle indgange til fysiske begreber.',
+      activity: 'Eleverne udforsker enkle maskiner ved at studere tandhjulsmønstre i robotarbejdsark og derefter bygge funktionelle tandhjulssystemer med pap og splitpins, der demonstrerer hvordan drejning overføres fra ét tandhjul til et andet — den samme mekanik de har farvelagt og mønstergenkendt på papir.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Sekventiel tænkningsportfolio',
+      criteria: 'Saml elevens kodeadditions- og mønsterarbejdsark over fire uger. Vurder progressionen fra enkle totrinskoder til komplekse flertrinssekvenser. Et barn der mestrer flertrinssekvenser og kan forklare trinenes rækkefølge mundtligt, demonstrerer alderssvarende computational thinking i overensstemmelse med Fælles Mål.',
+      gradeLevel: 'Børnehaveklasse til 1. klasse',
+    },
+    {
+      method: 'Robotdesign og forklaring',
+      criteria: 'Eleverne designer en robot på papir, mærker alle dele med funktioner og skriver en kort forklaring af, hvad robotten gør og hvorfor de valgte hver komponent. Vurder dybden af teknisk ordforråd, logikken i designbeslutningerne og kvaliteten af den skriftlige forklaring. Denne tværfaglige opgave måler både STEM-forståelse og kommunikativ kompetence.',
+      gradeLevel: '1. klasse til 2. klasse',
+    },
+    {
+      method: 'Algoritmisk fejlsøgningstest',
+      criteria: 'Giv eleverne en trinvis robotinstruktion med to til tre bevidste fejl (forkert rækkefølge, manglende trin, upræcist sprog). Eleverne skal identificere fejlene, forklare hvorfor de er problematiske og skrive den korrigerede version. Et barn der finder alle fejl og kan artikulere problemet, viser avanceret algoritmisk tænkning og metakognitiv bevidsthed.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug robotarbejdsark som uplugged forberedelse til teknologiforståelsesfaget. Forskning i nordisk teknologipædagogik viser, at børn der først møder computational thinking-begreber gennem papirbaserede aktiviteter, udvikler en dybere konceptuel forståelse end børn der starter direkte med skærmbaseret kodning. Kodeadditionsopgaver opbygger sekventiel logik, mønsterarbejdsark træner regelgenkendelse, og menneskerobot-spillet giver kropslig erfaring med programmering — alt sammen uden en eneste skærm.',
+      source: 'Fælles Mål for teknologiforståelse — computational thinking og digital myndiggørelse i dansk folkeskole',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      tip: 'Forbind eksplicit robotarbejdsark med den ingeniørmæssige designcyklus: identificer et problem, brainstorm løsninger, design en prototype, test den og forbedr den. Når eleverne designer en robot på papir, mærker delene og forklarer funktionerne, gennemgår de en forenklet version af den samme proces som rigtige ingeniører bruger. At navngive trinene eksplicit opbygger bevidsthed om designtænkning som metode.',
+      source: 'Nordisk teknologipædagogik — designtænkning og iterativ problemløsning i STEM-undervisning',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+    {
+      tip: 'Introducer begrebet fejlsøgning tidligt ved at give eleverne robotinstruktioner med bevidste fejl. At finde og rette fejl i en algoritme er en af de mest værdifulde computational thinking-færdigheder, og den kan øves allerede i børnehaveklassen med enkle sekvenser. Denne tilgang styrker også den fejlkultur som Fælles Mål betoner: fejl er ikke noget negativt, men en nødvendig del af læringsprocessen.',
+      source: 'Fælles Mål — fejlkultur, iterativ læring og computational thinking i dansk grundskole',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'STEM-kompetencer dækket', value: '5 kompetencer' },
+  ],
 };
 
 registerThemeContent('robots', 'da', content);

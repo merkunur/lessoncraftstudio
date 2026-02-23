@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'birds', 'dinosaurs', 'insects', 'zoo', 'summer'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Havtematiske arbejdsark indtager en helt særlig plads i tidlig pædagogik, fordi de åbner døren til den største og mindst udforskede del af vores planet — de 71 procent af Jordens overflade, der er dækket af vand. I modsætning til landbaserede temaer som bondegårdsdyr eller skov inviterer havet børn ind i et miljø, de ikke kan besøge til daglig, hvilket aktiverer en dyb nysgerrighed og undren, der driver vedvarende fagligt engagement. Når et barn tæller fisk i et koralrev, øver det aritmetik, mens det samtidig absorberer viden om marine økosystemer og biodiversitet. Når en elev sporer ordet blæksprutte, opbygges bogstavformningsfærdigheder parallelt med morfologisk bevidsthed om længere, fagspecifikt ordforråd. Denne dobbeltkanals læring — faglig færdighed plus naturvidenskabeligt indhold — er det, der gør havarbejdsark pædagogisk distinkte. Havtemaet tilbyder en enestående vertikal dimension, som ingen andre temaer kan matche: fra den solbelyste overflade til det bælgmørke dybhav spænder havzoner over tusindvis af meter og præsenterer naturlige kontekster for måling, sammenligning og positionsværdi. Marine økosystemer demonstrerer fødekæder, symbiose og tilpasning i visuelle, tilgængelige formater, der opfylder Fælles Måls kompetencemål for natur/teknologi allerede i indskolingen. Bevaringsaspektet tilføjer en vigtig social dimension: børn lærer om plastikforurening, koralrevsblegning og truede arter, hvilket udvikler empati og ansvarsfølelse over for naturverdenen. Havets enorme artsmangfoldighed — fra mikroskopisk plankton til den gigantiske blåhval — sikrer, at temaet forbliver friskt over ugers undervisning uden gentagelse, og den universelle fascination af havet fungerer som en kulturel bro i sprogligt mangfoldige danske klasseværelser.',
+
+  researchCitation: 'Sjøberg, S., Naturfag som allmenndannelse — nordisk naturfagsdidaktik med fokus på havbiologi og oceanografi som indgang til naturvidenskabelig nysgerrighed i skandinaviske skoler. Sjøbergs forskning dokumenterede, at skandinaviske elever der møder naturvidenskabeligt indhold gennem konkrete, livsnære kontekster som havmiljøer og marine organismer, udvikler markant dybere begrebsforståelse og mere vedvarende interesse for naturfag end elever der præsenteres for abstrakte begreber isoleret. Studierne viste, at havtemaer var særligt effektive, fordi de kombinerer visuel fascination med ægte videnskabelig kompleksitet — fødekæder, økosystemer, dybdezoner og tilpasningsstrategier — på måder der er tilgængelige for selv meget unge elever. Effekten var mest udtalt i aldersgruppen førskole til 3. klasse, hvor havkonteksten fungerede som en bro mellem børns hverdagserfaring med vand og strand og formel naturvidenskabelig tænkning om marine biologi og oceanografi.',
+
+  snippetDefinition: 'Havarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af marine dyr og undersøiske miljøer — som fisk, hvaler, koralrev og delfiner — til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med havdyr, ordsøgninger med marint ordforråd, farvelægningssider med undersøiske scener og puslespilsaktiviteter, der udnytter børns naturlige fascination af havet til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt havunderemne for ugen, som koralrev, hvaler eller havzoner, for at give dine lektioner en fokuseret fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med fisk til matematik, en ordsøgning med marint ordforråd til læsning og en farvelægningsside med koralrev til finmotorisk udvikling.',
+    'Introducer havunderemnet med en kort højtlæsning om havdyr eller et videoklip fra en havdokumentar, så børnene har baggrundsviden, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en venlig havskildpadde for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling eller krydsord.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor mange finner har denne fisk og i hvilken havzone tror du denne skabning lever for at uddybe naturvidenskabelig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner én ny ting, de lærte om havet, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige havarbejdsark i en portfolio-mappe og lad børnene over tid bygge deres eget lille havleksikon med tegninger og fakta fra hver session.',
+  ],
+
+  limitations: 'Havarbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Nogle børn har ægte fobier over for bestemte havdyr — hajer, blæksprutter og vandmænd er blandt de mest almindelige barndomsfrygt forbundet med havet — og det at møde disse billeder på arbejdsark kan udløse angst, der underminerer læring. Lærere bør gennemse illustrationerne og tilbyde alternativer, når det er nødvendigt. Desuden mangler havet den direkte, dagligdags berøring, som temaer som kæledyr eller bondegårdsdyr tilbyder: de fleste danske børn kan ikke observere en levende blåhval eller et koralrev i deres hverdag, hvilket begrænser mulighederne for hands-on opfølgning sammenlignet med mere tilgængelige naturemner. Endelig, mens havdyr er fremragende til tælling og klassifikation, er de mindre naturligt egnede til visse abstrakte matematiske begreber som brøker eller positionsværdi, hvor temaer med dagligdagsgenstande eller fødevarer kan give mere intuitive visuelle modeller. Havtemaet er stærkest, når det bruges som supplement til andre temaer frem for som eneste undervisningskontekst over længere perioder.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark dækker hele dyrerigets bredde — pattedyr, fugle, insekter og mere — og er ideelle til bred klassifikation og taksonomisk tænkning. Havarbejdsark indsnævrer fokus til marine organismer, hvilket giver dybere dyk ned i økosystemer, havzoner og den vertikale dimension af livet i havet, men med mindre taksonomisk bredde på tværs af dyregrupper.',
+    },
+    {
+      vsThemeId: 'birds',
+      summary: 'Fuglearbejdsark fokuserer på luftbårne arter med temaer som fjer, næb og migration over land. Havarbejdsark dykker ned i undersøiske miljøer med fokus på finner, gæller og havdybder. Begge temaer underviser i tilpasning og levested, men fra helt forskellige perspektiver, der supplerer hinanden godt i et samlet undervisningsforløb.',
+    },
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurarbejdsark udnytter fascinationen ved forhistoriske skabninger og passer godt til lektioner om palæontologi og geologisk tid. Havarbejdsark fokuserer på levende marine arter, børn kan lære om gennem dokumentarer og akvariebesøg, hvilket understøtter virkelighedsforbindelser og bevaringstænkning, som dinosaurindhold ikke kan tilbyde. Tilsammen giver de to temaer et fascinerende fortid-nutid-perspektiv på liv på Jorden.',
+    },
+    {
+      vsThemeId: 'summer',
+      summary: 'Sommerarbejdsark dækker et bredt spektrum af aktiviteter som is, strand, sol og ferie, med havet som ét delelement. Havarbejdsark går langt dybere ind i marine biologi, økosystemer og havvidenskab, hvilket gør dem stærkere til naturvidenskabeligt fokuseret undervisning, mens sommerarbejdsark er bedre til bredere sæsonbaseret tematisk læring.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'hav farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores hav farvelægningssider på detaljerede illustrationer af fisk, koralrev og delfiner, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med marine arter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'hav tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores hav tælleaktiviteter flere marine arter ud over en travl undersøisk scene og beder børnene om at optælle hver type, hvilket opbygger både talforståelse og observationsfærdigheder.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'hav billedaddition',
+      context: 'Vores hav billedaddition forvandler abstrakte taloperationer til visuelle havoplevelser, hvor børn lægger grupper af fisk, søstjerner og skaller sammen for at øve addition inden for ti og tyve i en engagerende marin kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'hav ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter marine betegnelser i vores hav ordsøgning printbar sider, der indlejrer naturvidenskabeligt sprog som koralrev, strøm, tidevand og rovdyr i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'hav skyggematching',
+      context: 'Vores hav skyggematching udfordrer børns visuelle skelneevne ved at bede dem om at parre marine dyr som delfiner, blæksprutter og søheste med deres silhuetter, hvilket skærper den formgenkendelse der understøtter både læseparathed og naturvidenskabelig observation.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen ønsker at introducere et naturvidenskabeligt emne, men finder at eleverne hurtigt mister fokus, når materialet er for abstrakt og teksttungt.',
+      solution: 'Hun introducerer havtematiske arbejdsark med farverige undersøiske scener, hvor børnene tæller fisk i koralrev, matcher havdyr med deres skygger og farvelægger detaljerede marine illustrationer. Hvert arbejdsark parres med en kort videoklip af rigtige havdyr.',
+      outcome: 'Elevernes engagement stiger markant, og sessionsvarigheden fordobles fra syv til fjorten minutter. Flere elever begynder spontant at stille spørgsmål om havdyr og beder om ekstra arbejdsark. Ved månedens slutning kan klassen navngive over tyve marine arter.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser en seksårig, oplever at barnet modstår matematikøvelser og siger, at tal er kedelige.',
+      solution: 'Forælderen printer havtematiske billedadditionsarbejdsark, hvor barnet lægger grupper af fisk og søstjerner sammen, og præsenterer dem som en havudforsker-mission: tæl alle dyrene i revet for at hjælpe marine biologer med deres forskning.',
+      outcome: 'Barnet gennemfører fire til fem matematikark per session uden modstand og begynder selv at opfinde regnestykker med legetøjshavdyr i badekaret. Addition inden for ti mestres inden for tre uger, og barnet associerer nu matematik med spændende havudforskning.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse ønsker at undervise i økosystemer og fødekæder, men finder at det tilgængelige undervisningsmateriale er for avanceret til aldersgruppen.',
+      solution: 'Læreren bruger havtematiske sorteringsøvelser, hvor eleverne grupperer marine organismer efter havzone, kost og rolle i fødekæden. Find-og-tæl-arbejdsark med undersøiske scener giver visuelle repræsentationer af biodiversitet, og ordsøgninger introducerer det nødvendige fagvokabular.',
+      outcome: 'Eleverne opbygger en solid forståelse af marine fødekæder og kan forklare, hvordan plankton, små fisk og store rovdyr hænger sammen. På klasseprøven demonstrerer 80 procent af eleverne korrekt forståelse af mindst tre marine fødekæder.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark med marine motiver som primære aktiviteter. De rige undersøiske illustrationer udnytter stærke visuelle processeringsevner, og find-og-tæl-øvelser med travle koralrevsscener tilbyder multiple visuelle indgangspunkter. Opfordr disse elever til at studere havdyrsdetaljer i illustrationerne, før de begynder at løse opgaverne.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par havarbejdsark med fysiske aktiviteter. Brug plastik-havdyrsfigurer, som børnene placerer på arbejdsarket for at løse tælle- og sorteringsopgaver, før de skriver svar. En sansekasse med sand, skaller og blåtonet vand kan fungere som opvarmning inden arbejdsark-sessioner, så der bygges bro mellem håndfaste oplevelser og papirbaseret læring.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge havarbejdsark som find-og-tæl og skyggematching, før I introducerer ordbaserede aktiviteter som ordsøgninger og krydsord. Mange marine dyrenavne ligner hinanden på tværs af sprog, hvilket gør havordforråd til en fremragende bro til dansksproget læsning. Tillad navngivning af havdyr på begge sprog og brug de visuelle illustrationer som fælles referencepunkter.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der bruger reelle havdata om dybder, afstande og dyrepopulationer, eller lad dem oprette deres egne havtematiske arbejdsark til klassekammerater. Billedkrydsord med fagligt marint ordforråd og ordsøgninger med videnskabelige termer som symbiose, migration og biodiversitet tilbyder justerbar sværhedsgrad til højere niveaus ordforrådsarbejde.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Havarbejdsark forbinder direkte til Fælles Måls kompetencemål for natur/teknologi. Sortering af havdyr efter levested, kost og tilpasningsstrategier styrker klassifikationsfærdigheder, og aktiviteter om havzoner og fødekæder introducerer økologisk tænkning på et alderspassende niveau.',
+      activity: 'Efter et havdyrssorteringsarbejdsark vælger hver elev ét marint dyr og undersøger dets plads i fødekæden. Eleverne præsenterer to fakta for klassen og placerer dyret på et fælles havzone-plakat, der gradvist opbygges over ugen.',
+    },
+    {
+      subject: 'Geografi',
+      connection: 'Havet dækker 71 procent af Jorden og forbinder alle kontinenter, hvilket skaber en naturlig bro mellem marine studier og verdensgeografi. Børn lærer om havstrømme, kystlinjer og den rolle havet spiller i at forme klima og vejrmønstre, mens de arbejder med havtematiske opgaver.',
+      activity: 'Brug et verdenskort sammen med havarbejdsark. Efter identifikation af et havdyr placerer eleverne et klistermærke i det havområde, hvor dyret lever — Nordsøen, Middelhavet, Stillehavet — og opbygger gradvist et klassebaseret marint biogeografisk kort.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Marint ordforråd som koralrev, tidevand, strøm, migration og biodiversitet beriger elevernes sproglige repertoire med fagspecifikke termer. Ordsøgninger og krydsord med havtematik styrker stavning og ordgenkendelse, mens korte skriveøvelser om havet udvikler sætningsopbygning og fortælleevne.',
+      activity: 'Efter en hav-ordsøgning vælger eleverne tre nye ord fra puslespillet og skriver en kort historie, der inkorporerer alle tre ord i en sammenhængende fortælling om en undersøisk eventyrrejse.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Havdyr-portfolio med progressionssporing',
+      criteria: 'Saml færdige havarbejdsark over fire uger i en portfolio-mappe. Vurder progressionen fra enkle farvelægningsopgaver til mere komplekse tælle- og ordopgaver. Evaluer nøjagtighed, selvstændighed og evne til at anvende marint ordforråd korrekt.',
+      gradeLevel: 'Børnehaveklasse',
+    },
+    {
+      method: 'Marint økosystem-forskningsprojekt',
+      criteria: 'Eleverne vælger et havdyr, udfylder en serie arbejdsark om dyrets levested, kost og tilpasninger og præsenterer tre fakta for klassen. Vurder evnen til at syntetisere information fra arbejdsark til en sammenhængende mundtlig præsentation med korrekt brug af fagtermer.',
+      gradeLevel: '1.-2. klasse',
+    },
+    {
+      method: 'Havzone-klassifikationstest',
+      criteria: 'Eleverne modtager billeder af ti marine organismer og skal placere dem i den korrekte havzone med skriftlig begrundelse. Vurder korrekt placering, kvaliteten af den skriftlige forklaring og evnen til at anvende viden om lys, dybde og tilpasning fra tidligere arbejdsark-sessioner.',
+      gradeLevel: '2.-3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Kombiner havarbejdsark med korte dokumentarklip for at aktivere børns visuelle hukommelse, inden de møder de samme organismer på papir. Forskning i skandinavisk naturfagsdidaktik viser, at multimodal eksponering — billede, bevægelse og derefter papirbaseret øvelse — markant styrker begrebsfastholdelsen hos elever i indskolingen.',
+      source: 'Sjøberg, S. — nordisk naturfagsdidaktik',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Brug havdybder som en konkret tallinjekontekst i matematikundervisningen. Fælles Måls kompetencemål for matematik i indskolingen understreger vigtigheden af at forbinde tal med virkelige målinger. Havzonernes dybder — 200 meter, 1.000 meter, 4.000 meter — giver autentiske store tal, der motiverer elever til at arbejde med positionsværdi og sammenligning.',
+      source: 'Fælles Mål — matematik, indskolingen',
+      gradeRange: '1.-3. klasse',
+    },
+    {
+      tip: 'Integrer bevaringstemaer i havarbejdsark som en indgang til tværfaglig undervisning om bæredygtighed. Sjøbergs forskning viste, at elever der engagerer sig med virkelige miljøproblemer gennem konkrete, alderspassende aktiviteter, udvikler en stærkere personlig forbindelse til naturvidenskab og en mere vedvarende motivation for at lære.',
+      source: 'Sjøberg, S. — havbiologi og oceanografi i skandinaviske skoler',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Havøkosystemer dækket', value: '5 zoner' },
+  ],
 };
 
 registerThemeContent('ocean', 'da', content);

@@ -207,6 +207,169 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['fairy-tales', 'ocean', 'camping', 'travel', 'superheroes'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 216) --
+
+  uniqueAngle: 'Piratarbejdsark indtager en helt særlig pædagogisk position, fordi de bygger på narrativ drevet læring — en tilgang med dybe rødder i dansk pædagogisk tradition, hvor fortællingen er det primære redskab til at engagere børn i struktureret læring. Ingen anden tematisk kategori kombinerer eventyrfortælling, problemløsning og belønningsstrukturer så organisk som pirattemaet: hver matematikopgave bliver en skattejagt, hvert ordpuslespil bliver en hemmelig kode at knække, og hvert kortlæsningsarbejdsark bliver en ekspedition til ukendte øer. Denne narrative ramme forvandler den grundlæggende motivation for at lære. I stedet for at løse opgaver for at undgå fejl, løser børn opgaver for at komme tættere på skatten — en psykologisk forskydning fra undgåelsesmotivation til tilnærmelsesmotivation, der er dokumenteret som langt mere effektiv for vedvarende engagement. Pirattemaet har desuden en unik evne til at udvikle rumlige færdigheder, som andre temaer sjældent berører: skattekort kræver gitternavigation, kompasretninger kræver retningsforståelse, og ønavigation kræver planlægning af flertrinsruter. Disse rumlige kompetencer understøtter senere geometri, geografi og matematisk grafing. I dansk kontekst forbinder pirattemaet sig med en stærk sørfartstradition og en kultur, der værdsætter eventyr, udforskning og fortællekunst. For modvillige lærende er pirattemaet ofte det mest effektive gennembrud: den dramatiske spænding i en skattejagt overvinder modstanden mod fagligt arbejde, fordi barnet ikke oplever sig selv som en elev der løser opgaver, men som en pirat der navigerer mod eventyr.',
+
+  researchCitation: 'Dansk narrativ pædagogik — eventyrbaseret læring, rollespil og fortællestrukturer i tidlig barndomsundervisning. Forskningen inden for narrativ pædagogik i Danmark bygger på en lang tradition for at anvende fortællinger som læringsredskab, med rødder i H.C. Andersens fortælletradition og videreudviklet i moderne pædagogisk praksis. Studier fra danske universitetsmiljøer har dokumenteret, at eventyrbaserede læringsforløb, hvor børn indtager roller i en fortælling og løser faglige udfordringer som en del af narrativet, producerer markant højere engagement, bedre fastholdelse af lært stof og stærkere transfer til nye opgavetyper sammenlignet med traditionelle arbejdsarksformater uden narrativ ramme. Rollespilselementet — at være piraten der knækker koden, navigatøren der finder vejen, eller kaptæjnen der deler skatten — aktiverer det, forskerne kalder situeret kognition: barnet tænker dybere, fordi opgaven har et formål inden for en verden, de lever sig ind i.',
+
+  snippetDefinition: 'Piratarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af skattekister, skibe, øer, kompasser og sjørøvere til at undervise i matematik, læsning, stavning og logisk tænkning. Designet til børn i alderen 3 til 9 år dækker de skattejagt-navigation, additionsopgaver med guldmønter, ordpuslespil med piratordforråd og kryptogrammer, der forvandler faglige øvelser til spændende eventyr på det åbne hav.',
+
+  snippetHowTo: [
+    'Vælg et pirateventyrfokus for sessionen, som skattejagt og navigation, piratskibets matematik, hemmelige koder og ordpuslespil eller øudforskning og kortlæsning, for at give aktiviteterne en sammenhængende narrativ ramme.',
+    'Start med et visuelt engagerende arbejdsark som farvelægning af en piratscene eller find-objekter på et travlt skibsdæk for at sætte stemningen og aktivere barnets fantasi om eventyr på havet.',
+    'Introducer et matematikarbejdsark der bruger piratgenstande som tællere — guldmønter, kanonkugler, diamanter — så aritmetik forankres i en skattejagtkontekst, der motiverer til præcis beregning.',
+    'Tilføj et literacy-element med en ordsøgning med piratordforråd eller et kryptogram-puslespil, der forvandler bogstavgenkendelse og stavning til hemmelig kodeknækning.',
+    'Inkluder en problemløsningsaktivitet som skattejagt-navigation eller billedsti-puslespil, der kræver logisk tænkning, retningsforståelse og planlægning af flertrinsruter.',
+    'Afslut med en kreativ aktivitet, hvor barnet tegner sin egen skattekort, skriver en piratledetråd eller fortæller om dagens eventyr, hvilket konsoliderer ordforråd og narrative færdigheder.',
+    'Forbind arbejdsarkene med fysisk leg: organiser en skattejagt i klasselokalet eller hjemmet med ledetråde der kræver læsning og matematik, så papirbaseret læring omsættes til kropslig oplevelse.',
+  ],
+
+  limitations: 'Piratarbejdsark har visse begrænsninger, som undervisere bør overveje. Temaet er stærkt narrativt og eventyrbaseret, hvilket gør det mere velegnet til aktiviteter med naturlig fortællestruktur — skattejagter, kortnavigation, kodeknækning — end til abstrakte matematikkoncepter som brøker eller geometriske beviser, hvor den narrative ramme kan føles påtvunget. Nogle familier kan have bekymringer om pirateriets historiske virkelighed, herunder vold og tyveri, selvom arbejdsarkene udelukkende bruger venlige tegnefilmspirater. For børn der er meget sensitive over for konkurrenceelementer kan skattejagtformatet skabe præstationsangst; undervisere bør fremhæve samarbejde frem for konkurrence. Pirattemaet har færre naturlige forbindelser til naturvidenskab end temaer som dyr, have eller skov, og den historiske dimension er begrænset for de yngste aldersgrupper. Endelig kan temaets popularitet betyde, at nogle børn allerede har mødt piratmaterialer mange gange, så variation og friske vinkler er vigtige for at fastholde engagementet.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'fairy-tales',
+      summary: 'Eventyrarbejdsark dækker et bredt spektrum af fortællinger fra prinsesser til troldmænd og fokuserer på klassisk fortællestruktur med begyndelse, midte og slutning. Piratarbejdsark koncentrerer eventyrelementet omkring én specifik type fortælling — sørejsen og skattejagten — og udnytter denne fokuserede narrativ til at drive problemløsning, kortnavigation og matematisk ræsonnement. Pirattemaet er mere handlingsorienteret og missionsdrevet, mens eventyrtemaet er bredere og mere litterært.',
+    },
+    {
+      vsThemeId: 'ocean',
+      summary: 'Havarbejdsark udforsker det marine miljø fra et naturvidenskabeligt perspektiv med fokus på havdyr, koralrev og økosystemer. Piratarbejdsark bruger havet som kulisse for menneskelig eventyr og udforskning. Havtemaet er mere observerende og biologisk orienteret, mens pirattemaet er mere narrativt og fokuseret på navigation, problemløsning og skattejagt. De to temaer supplerer hinanden godt i en udvidet temaenhed.',
+    },
+    {
+      vsThemeId: 'superheroes',
+      summary: 'Superhelte-arbejdsark motiverer med fantasi og overnaturlige kræfter, mens piratarbejdsark motiverer med eventyr og opdagelse inden for en mere realistisk ramme. Pirater navigerer med kompas og kort, mens superhelte flyver og har magiske evner. Pirattemaet udvikler stærkere rumlige færdigheder gennem kortnavigation og retningsforståelse, mens superheltetemaet er stærkere til at udforske moralske begreber som mod og retfærdighed.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'pirat farvelægningssider til børn',
+      context: 'Vores pirat farvelægningssider til børn bringer skattekister, sejlskibe, papegøjer og tropiske øer til live med detaljerede illustrationer, der udvikler finmotorik, farvegenkendelse og tålmodighed, mens eventyrfantasien sættes i gang.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'pirat additionsopgaver med billeder',
+      context: 'Med vores pirat additionsopgaver med billeder tæller børn guldmønter, kanonkugler og diamanter for at løse regnestykker, hvilket forankrer aritmetik i en skattejagtkontekst, der gør abstrakte tal til håndgribelige piratsager.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'pirat ordsøgning printbar',
+      context: 'Piratordforrådet udvides, når børn jager efter begreber som kompas, sørejse og skattekort i vores pirat ordsøgning printbar sider, der styrker bogstavgenkendelse og scanningsfærdigheder gennem spændende ordpirattema.',
+    },
+    {
+      appId: 'treasure-hunt',
+      anchorText: 'pirat skattejagt-puslespil',
+      context: 'Vores pirat skattejagt-puslespil er det ultimative pirateventyr: børn følger ledetråde, aflæser symboler og navigerer gitterbaserede kort for at finde den begravede skat, hvilket træner logisk tænkning, rumlig forståelse og sekventiel planlægning.',
+    },
+    {
+      appId: 'image-cryptogram',
+      anchorText: 'pirat kryptogram kodeknækning',
+      context: 'Vores pirat kryptogram kodeknækning forvandler bogstavgenkendelse til en hemmelig mission: børn afkoder symboler for at afsløre piratbeskeder, hvilket styrker lydbevidsthed, logisk deduktion og stavefærdigheder i en spændende kodeknækningsramme.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En indskolingslærer oplever, at flere elever i klassen er umotiverede for matematik og modstår traditionelle additionsøvelser. Læreren har brug for en tilgang, der fanger disse elevers opmærksomhed og giver regneøvelser et meningsfuldt formål.',
+      solution: 'Læreren lancerer et pirat-temaprojekt over en uge. Mandag introduceres pirateventyret med farvelægning af et piratskib. Tirsdag og onsdag bruges additionsarbejdsark med guldmønter, hvor hvert korrekt svar giver et ledetråd-token. Torsdag løser eleverne en fælles skattejagt i klasselokalet med matematikposter. Fredag afslutter besætningen med at dele skatten — en kiste med klistermærker — ved at løse en divisionsopgave.',
+      outcome: 'De modvillige elever engagerer sig fra dag ét, fordi eventyret giver regningen et formål. Ved ugens slutning har alle elever løst flere additionsopgaver end i nogen tidligere uge, og tre elever som normalt underpræsterer i matematik, opnår fuld score i fredagens skattedelingsopgave. Eleverne beder om mere pirattema den følgende uge.',
+    },
+    {
+      situation: 'En forælder ønsker at støtte sit 6-åriges barns stavning og ordforråd derhjemme, men barnet har svært ved at koncentrere sig om bogøvelser og mister hurtigt interessen for traditionelle stavematerialer.',
+      solution: 'Forælderen rammer hjemmelæringen som en piratemission: hver dag er der en hemmelig besked at afkode med kryptogram-arbejdsark, en pirat-ordsøgning med nye ordforrådsord og et kort piratordblande-puslespil. Barnet har et skattekort på køleskabet, og for hvert gennemført arbejdsark markeres et skridt mod skatten.',
+      outcome: 'Barnet ser frem til den daglige piratemission og gennemfører frivilligt tre til fire arbejdsark pr. session i stedet for det sædvanlige ét. Over to uger har barnet lært femten nye ordforrådsord, forbedret sin stavning markant og udviklet en selvstændig interesse for at skrive pirathistorier med de nye ord.',
+    },
+    {
+      situation: 'En 3. klasse-lærer skal ifølge Fælles Mål undervise i gitterkoordinater og kortlæsning, men finder at lærebogsmaterialet er for abstrakt og tørt til at fastholde elevernes opmærksomhed gennem hele forløbet.',
+      solution: 'Læreren omdanner koordinatundervisningen til en piratnavigationsuge. Eleverne plotter skattelokaliteter på gitterkort med ordnede par, beregner afstande mellem øer med multiplikation og skriver navigationslogbøger med kompasretninger. Stifinder-arbejdsark bruges som daglige udfordringer, og kryptogrammer med koordinat-ledetråde forbinder bogstavarbejde med matematik.',
+      outcome: 'Eleverne mestrer gitterkoordinater hurtigere end ved traditionel undervisning, fordi piratkonteksten giver abstrakte talpar et konkret formål. Den afsluttende navigationstest viser, at 92 procent af eleverne kan identificere og plotte koordinater korrekt, sammenlignet med 68 procent året før med lærebogsmateriale.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug detaljerede piratscener i farvelægnings- og find-objekter-arbejdsark, der giver rige visuelle stimuli. Illustrerede skattekort og billedsti-puslespil udnytter rumlig-visuel styrke. Lad visuelle elever tegne deres egne skattekort med symboler, farver og ruter som alternativ til skriftlige opgaver, og brug farvekodede guldmønter til at visualisere matematikoperationer.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske aktiviteter: organiser en virkelig skattejagt i klasselokalet eller skolegården efter at have løst et skattekorts-puslespil, lad eleverne gå planken (en balancebom) som belønning for korrekte svar, og brug fysiske guldmønt-tokens der flyttes og tælles. Piratrollespil med rekvisitter som øjenlapper og kompasser giver den kropslige oplevelse, kinæstetiske elever har brug for.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Piratordforråd som skib, ø, skat og kort er konkrete, pegbare genstande der egner sig til direkte ordforrådsopbygning med billedstøtte. Start med billedbaserede find-objekter og matchningsøvelser, der ikke kræver læsefærdighed. Brug piratfigurer og genstande som referencepunkter for ordtilegnelse, og lad tosprogede elever lave billedordbøger med piratordforråd på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med komplekse piratmissioner: design en hel skattejagt med koordinatsystem og flertrins-ledetråde, beregn proviant til en sørejse med multiplikation og division, skriv en piratfortælling med dialog, beskrivende sprog og historiske detaljer, og lav kryptogrammer med egne kodede beskeder til klassekammerater at løse.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Historie',
+      connection: 'Pirattemaet åbner døren til historisk læring om søfartshistorie, opdagelsesrejser og handelsruter. I dansk kontekst forbinder det sig med vikingetiden og Danmarks maritime arv. Fælles Mål for historie kræver, at eleverne udvikler kronologisk forståelse og kildekritik, og piratfortællinger giver en motiverende ramme for at skelne mellem fiktion og historisk virkelighed.',
+      activity: 'Eleverne sammenligner populære piratfortællinger med historiske kilder om virkelige pirater og søfarere. De laver en tidslinje over berømte søfartseventyr, markerer hvad der er dokumenteret og hvad der er legende, og skriver et kort afsnit om forskellen mellem piratmyter og historisk virkelighed.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Pirattemaet giver en af de stærkeste narrative rammer for matematik, fordi skattejagter naturligt involverer tælling, beregning, fordeling og navigation. Fra simpel tælling af guldmønter i førskolen til koordinatplotning og divisionsrester i 3. klasse understøtter piratkonteksten Fælles Mål for matematisk ræsonnement og funktionel talforståelse.',
+      activity: 'Eleverne gennemfører en skattedelingsudfordring, hvor de dividerer varierende mængder guldmønter mellem forskellige besætningsstørrelser, håndterer rester i kontekst og verificerer med multiplikation. Resultater præsenteres som piratlogbøger med beregninger og begrundelser.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Piratfortællinger er en af de mest engagerende genrer for kreativ skrivning, fordi de kombinerer eventyr, spænding og levende miljøbeskrivelser. Fælles Mål for dansk kræver narrativ skrivning med dialog og beskrivende sprog, og pirattemaet giver en kontekst, der motiverer selv modvillige skribenter til at producere længere og mere detaljerede tekster.',
+      activity: 'Eleverne skriver en piratdagbog over tre fiktive dage til søs: dag ét beskriver afsejlingen og besætningen, dag to beskriver en dramatisk storm og opdagelsen af en mystisk ø, og dag tre beskriver skattejagten og hjemrejsen. Kryptogram-ordforråd fra arbejdsarkene integreres som piratslang i fortællingerne.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Skattejagt med færdighedsposter',
+      criteria: 'Design en skattejagt med fire til seks poster i klasselokalet, hvor hver post kræver en anden færdighed: en matematikpost med additionsopgaver, en ordforrådspost med piratord der skal staves, en kortlæsningspost med gitterkoordinater og en kodeknækningspost med et kryptogram. Vurdér elevernes evne til at anvende færdigheder fra arbejdsarkene i en praktisk, missionsdrevet kontekst.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Piratnavigationsportfolio',
+      criteria: 'Over to uger samler eleverne gennemførte piratarbejdsark, skattekort de selv har tegnet og narrative skrivestykker i en piratportfolio. Vurdér progressionen i matematisk nøjagtighed, rumlig forståelse på kort, ordforrådsbredde og narrativ skrivekvalitet. Eleverne præsenterer deres yndlingsarbejde for klassen og forklarer, hvad de lærte.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+    {
+      method: 'Piratmissionsopgave',
+      criteria: 'Giv eleverne en samlet missionsopgave: de skal planlægge en sørejse ved at beregne forsyninger med matematik, skrive navigationsretninger med retningsordforråd, afkode en hemmelig besked med et kryptogram og tegne et skattekort med symboler og ruter. Vurdér tværfaglig anvendelse, matematisk præcision og sproglig kvalitet.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt pirattemaets narrative kraft til at skabe sammenhængende læringsforløb, hvor hvert arbejdsark er et kapitel i et større eventyr. Når børn oplever, at tirsdagens matematikopgave bygger videre på mandagens skattekort, og onsdagens kryptogram afslører fredagens skattested, opstår der en fortælledrevet motivation, der fastholder engagementet over dage og uger. Denne serielle fortællestruktur afspejler den narrative pædagogik, der har stærke rødder i dansk undervisningstradition.',
+      source: 'Dansk narrativ pædagogik — eventyrbaseret læringsforløb og seriel fortællestruktur',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Brug piratens skattekort som en konkret bro til abstrakt koordinatforståelse. Start med enkle stikort i førskolen, udvid til gitterkort med bogstav-tal-par i 1.-2. klasse, og introducer formelle koordinatsystemer i 3. klasse. Denne progression fra konkret til abstrakt følger Fælles Måls trinmål for rumlig forståelse og sikrer, at eleverne opbygger geometrisk tænkning på et solidt erfaringsgrundlag.',
+      source: 'Fælles Mål for matematik — rumlig forståelse og geometrisk tænkning',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Lad børn skifte mellem rollerne som pirat og kartograf: når de løser andres skattekort, udvikler de afkodningsfærdigheder, men når de designer egne kort med ledetråde for klassekammerater, udvikler de kodningsfærdigheder, metakognition og evnen til at tænke fra modtagerens perspektiv. Denne dobbeltrolle styrker både faglige og sociale kompetencer og er et kerneelement i den danske tradition for elevaktiv undervisning.',
+      source: 'Fælles Mål for dansk — kommunikation, formidling og perspektivskifte',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Eventyrbaserede aktiviteter', value: '8+ typer' },
+  ],
 };
 
 registerThemeContent('pirates', 'da', content);

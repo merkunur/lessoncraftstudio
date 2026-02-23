@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['vegetables', 'food', 'garden', 'colors', 'cooking', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Frugtarbejdsark indtager en helt særlig plads i tidlig pædagogik, fordi de aktiverer alle barnets sanser og forbinder læring med en af de mest universelle og positive oplevelser i hverdagen: at spise frugt. I modsætning til mange andre temaer, hvor børn skal forestille sig konteksten, har frugt en øjeblikkelig sanselig tilstedeværelse — farver der fanger øjet, dufte der vækker appetit, teksturer der inviterer til berøring og smage der skaber glæde. Denne multisensoriske rigdom gør frugt til et exceptionelt effektivt stillads for abstrakt læring, fordi hjernen forankrer nye begreber stærkere, når de kobles til konkrete sanseoplevelser. Farvemangfoldigheden i frugtens verden er pædagogisk guldværd: røde jordbær, gule bananer, orange appelsiner, grønne æbler, blå blåbær og lilla blommer dækker hele farvespektret og giver naturlige sorteringsopgaver, der træner klassifikationstænkning uden kunstige kategorier. Ernæringsforbindelsen tilføjer et lag af sundhedspædagogik, der gør frugtarbejdsark dobbelt værdifulde — børn lærer ikke bare matematik og læsning, men opbygger også positive associationer til sund kost, der kan påvirke livslange spisevaner. I Danmark gør skolefrugtordningen, der har leveret gratis frugt til folkeskoler siden 2009, dette tema særligt relevant og velkendt for danske børn. Når elever møder æbler, pærer og gulerødder i deres arbejdsark, genkender de frugterne fra deres daglige skolefrugtordning, hvilket skaber en umiddelbar personlig forbindelse til læringsmaterialet. Den danske tradition for bærplukning om sommeren — jordbær i juni, hindbær i juli, brombær i august — giver yderligere sæsonbundne berøringspunkter, der forankrer arbejdsarkenes indhold i autentiske oplevelser. Frugtens kulturelle mangfoldighed fra mango og papaya til danske havebær åbner desuden vinduer til global bevidsthed og geografi, der beriger temaets pædagogiske rækkevidde langt ud over grundlæggende faglige færdigheder.',
+
+  researchCitation: 'Wistoft, K. (2012). Sundhedsundervisning og frugtordninger i den danske skole. DPU/Aarhus Universitet. Wistofts forskning ved Danmarks Pædagogiske Universitet undersøgte systematisk effekten af skolefrugtordninger og frugtbaseret sundhedsundervisning i danske folkeskoler. Hendes studier dokumenterede, at elever der møder frugt i strukturerede læringssammenhænge — ikke bare som mellemmad, men som genstand for faglig undersøgelse — udvikler markant stærkere ernæringsbevidsthed og mere positive holdninger til sund kost end elever der blot modtager frugt uden pædagogisk ramme. Wistoft fandt desuden, at tværfaglig frugtundervisning, hvor frugt integreres i matematik, naturfag og dansk, skaber dybere og mere vedvarende læringseffekter end isoleret sundhedsundervisning. Denne indsigt understøtter direkte brugen af frugtarbejdsark som pædagogisk redskab, der forener faglig færdighedstræning med sundhedspædagogik i en sammenhængende læringsoplevelse.',
+
+  snippetDefinition: 'Frugtarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af velkendte frugter som æbler, bananer, jordbær, appelsiner og druer til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med frugtkurve, ordsøgninger med frugtordforråd, farvelægningssider med frugtmotiver, sorteringsopgaver efter farve og størrelse samt matchende udfordringer, der udnytter frugters sanselige appel til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt frugtunderemne for ugen — eksempelvis citrusfrugter, bær, tropiske frugter eller danske havefrugter — for at give dine lektioner en fokuseret tematisk tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder: en billedadditionsside med æbler til matematik, en ordsøgning med frugtordforråd til læsning og en farvelægningsside med en frugtkurv til finmotorisk udvikling.',
+    'Introducer frugtunderemnet med en kort samtale om ugens frugt, og bring om muligt ægte eksemplarer med, som børnene kan se, røre og lugte, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden: start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling, størrelsessammenligning eller mønstergenkendelse.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvilken farve har denne frugt, hvor tror du den vokser, og hvornår kan vi plukke den i Danmark, for at uddybe naturfaglig og kulturel tænkning sideløbende med faglig øvelse.',
+    'Afslut med en kort frugtsmags-aktivitet, hvor børnene prøver ugens frugt og beskriver smagen med mindst tre ord, hvilket styrker ordforråd, sensorisk bevidsthed og positive madoplevelser.',
+    'Saml færdige arbejdsark i en frugt-portfolio og tilføj børnenes frugtanmeldelser eller tegninger fra bærplukning og madlavning for at dokumentere den tværfaglige læring over tid.',
+  ],
+
+  limitations: 'Frugtarbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Børn med frugtallergier kan føle sig udelukket fra smagsaktiviteter, der ledsager arbejdsarkene, så lærere bør altid tilbyde alternative sensoriske oplevelser og undgå at presse allergiske børn til at håndtere frugter, de reagerer på. Frugttemaets styrke ligger primært i sortering, tælling og sanselig udforskning, men det er mindre naturligt egnet til avancerede matematiske begreber som multiplikation med store tal eller komplekse geometriske former, hvor andre temaer kan tilbyde mere intuitive visuelle modeller. Den stærke forbindelse til ernæring og sundhed kan utilsigtet skabe pres på børn fra familier med forskellige madkulturer eller økonomiske begrænsninger, så lærere bør præsentere frugt som én del af en varieret kost snarere end som den eneste sunde madvare. Sæsonbegrænsninger i Danmark betyder også, at visse frugter som jordbær og kirsebær kun er tilgængelige friske i korte perioder, hvilket kan svække den konkrete forbindelse mellem arbejdsark og virkelighed i vinterhalvåret, selvom importerede frugter som bananer og appelsiner er tilgængelige hele året.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Grøntsagsarbejdsark fokuserer på mange af de samme ernæringsbegreber, men med en bredere vifte af former, teksturer og vækstmiljøer fra rodfrugter til bladgrønt. Frugtarbejdsark har den fordel, at frugter generelt er mere farverige, sødere og mere tiltalende for børn, hvilket gør dem til et mere motiverende udgangspunkt, især for yngre elever. De to temaer supplerer hinanden perfekt i et ernæringsforløb.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark dækker hele kostpyramiden med brød, mejeriprodukter, kød og slik, hvilket giver en bredere ernæringskontekst. Frugtarbejdsark dykker dybere ned i én kategori og muliggør mere detaljeret undersøgelse af sorter, vækstbetingelser og sæsoner, hvilket styrker dybdelæring og klassifikationstænkning på en måde, det bredere madtema ikke kan matche.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Havearbejdsark fokuserer på plantningsprocessen og vækstcyklusser med jord, frø og redskaber i centrum. Frugtarbejdsark koncentrerer sig om det færdige produkt med farver, smage og ernæring som omdrejningspunkt. Tilsammen danner de en komplet fortælling fra plantning til høst til spisning, der styrker forståelsen af hele livscyklussen.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Farvearbejdsark underviser i farvegenkendelse med abstrakte former og regnbuemønstre. Frugtarbejdsark giver farverne en konkret, naturlig kontekst — røde jordbær, gule bananer, grønne æbler — der gør farvelæring mere meningsfuld og sanselig. For børn der kæmper med abstrakt farveidentifikation, kan frugt fungere som en effektiv bro til forståelse.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'frugt farvelægningssider',
+      context: 'For børn der har brug for et roligt og sensorisk rigt udgangspunkt, byder vores frugt farvelægningssider på detaljerede illustrationer af æbler, bananer, jordbær og tropiske frugter, der udvikler finmotorisk kontrol og farvegenkendelse, mens de opbygger positive associationer til sund mad.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'frugt tælle- og findaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med matematik, spreder vores frugt tælle- og findaktiviteter forskellige frugter ud over farverige scener med frugtkurve og plantager og beder børnene om at optælle hver type, hvilket opbygger talforståelse og observationsevner i én engagerende øvelse.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'frugt sorteringsøvelser',
+      context: 'For at styrke den kategoriske tænkning, der underbygger naturvidenskabelig klassifikation, lader vores frugt sorteringsøvelser børn gruppere frugter efter farve, størrelse, type eller oprindelse, med stigende kompleksitet der passer til elever fra førskole til 3. klasse.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'frugt billedaddition',
+      context: 'Vores frugt billedaddition gør abstrakt matematik konkret ved at lade børn lægge klaser af druer, bunker af æbler og rækker af bananer sammen, så additionsopgaver føles som naturlige optællinger af frugtkurve snarere end abstrakte talmanipulationer.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'frugt ordsøgning',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter frugtnavne som jordbær, vandmelon og appelsin i vores frugt ordsøgning, der indlejrer ernæringsrelateret sprog i et puslespilformat, som gør staveøvelse til en sjov udfordring.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen ønsker at integrere skolefrugtordningen med faglig undervisning, men mangler strukturerede materialer der forbinder den daglige frugtpause med læringsmål.',
+      solution: 'Hun introducerer en ugens frugt-rutine, hvor mandagens frugt fra skolefrugtordningen bliver udgangspunkt for ugens arbejdsark: farvelægning af frugten mandag, tælleaktiviteter tirsdag, ordsøgning onsdag og sorteringsøvelse torsdag. Fredag samler klassen data om, hvilke frugter de har smagt den måned, og laver et søjlediagram.',
+      outcome: 'Inden for en måned kan alle elever navngive mindst ti frugter og sortere dem efter farve og størrelse. Forældrene rapporterer, at børnene beder om mere varieret frugt derhjemme, og klassens matematikniveau i tælling og datarepræsentation stiger målbart ved næste evaluering.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser sit femårige barn, kæmper med at motivere barnet til matematikøvelser, fordi barnet finder tælleaktiviteter kedelige og abstrakte.',
+      solution: 'Forælderen printer frugtfarvelægningssider og tællearbejdsark og parrer dem med en ugentlig frugtsmags-aktivitet. Barnet tæller frugter på arbejdsarket, derefter skærer de den samme frugt i stykker i køkkenet og tæller stykkerne. Stor-lille sammenligningsark bruges med ægte frugter ved siden af.',
+      outcome: 'Barnet forlænger sine læringssessioner fra fem til femten minutter og begynder selv at tælle frugter i supermarkedet og ved måltider. Efter seks uger mestrer barnet tælling til tyve og kan sortere genstande efter to egenskaber, hvilket overgår aldersnormen.',
+    },
+    {
+      situation: 'En 2. klasseslærer underviser i brøker for første gang, men mange elever har svært ved at forstå, hvad en halv og en fjerdedel betyder som abstrakte begreber.',
+      solution: 'Læreren bruger frugtarbejdsark med billeder af æbler skåret i halve og appelsiner delt i fjerdedele. Eleverne farvelægger brøkdelene, matcher brøknotation med frugtstykker og løser tekstopgaver om deling af frugt. Sideløbende skærer de ægte æbler og appelsiner i klassen for at opleve brøkerne fysisk.',
+      outcome: 'Forståelsen af grundlæggende brøker springer fra 45 procent til 88 procent korrekte svar på klassens næste evaluering. Eleverne refererer spontant til frugtdeling, når de møder brøker i andre sammenhænge, og den fysiske hukommelse af at skære en appelsin i fire stykker giver dem et varigt ankerpunkt for fjerdedele.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og matchningsarbejdsark som primære aktiviteter, da frugtens naturlige farvemangfoldighed giver ekstraordinært rige visuelle stimuli. Billedsortering efter farve og størrelse samt find-og-tæl-aktiviteter med farverige frugtscener udnytter disse elevers styrke i visuel procesning og giver dem naturlige indgangspunkter til matematiske og sproglige begreber.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par hvert arbejdsark med ægte frugt, som eleverne kan holde, lugte og smage. Lad dem sortere plastikfrugter eller udklippede frugtbilleder fysisk, før de udfylder sorteringsarbejdsark. Frugtskæring med sikkerhedsknive for at udforske brøker og frugttværsnit forbinder håndfaste oplevelser med papirbaseret læring på en måde, der forankrer abstrakte begreber i kropslig hukommelse.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, matchning og stor-lille sammenligning, før I introducerer ordbaserede aktiviteter. Frugtnavne er ofte blandt de første ord, tosprogede elever lærer på dansk, og den visuelle genkendelse af æbler, bananer og jordbær bygger bro mellem sprog. Tillad eleverne at navngive frugter på begge sprog og brug ordsøgninger som naturlig staveøvelse.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der involverer beregning af frugthøstudbytter med multiplikation, prisberegninger fra et frugtmarked med addition og subtraktion af flercifrede tal, eller lad dem researche en eksotisk frugt og oprette et faktaark. Mønstergenkendelse med komplekse frugtsekvenser og ordsøgninger med fagspecifikt ordforråd som bestøvning, fotosyntese og tropisk tilbyder justerbar sværhedsgrad.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Frugtarbejdsark forbinder naturligt til naturfagsmål i Fælles Mål om plantedele, livscyklusser og ernæring. Sortering af frugter efter type, identifikation af frø og frugtkød i tværsnit, og forståelse af hvordan frugter udvikles fra blomster styrker den naturvidenskabelige tænkning, der er central for tidlig naturfagsundervisning i den danske folkeskole.',
+      activity: 'Efter et frugtsorteringsarbejdsark åbner klassen fem forskellige frugter og undersøger deres indre struktur med forstørrelsesglas. Eleverne tegner tværsnittene, tæller frøene og sammenligner resultaterne i et klassediagram, hvilket forbinder arbejdsarkets klassifikation med ægte naturvidenskabelig observation.',
+    },
+    {
+      subject: 'Sundhed og madkundskab',
+      connection: 'Frugttemaet åbner direkte for samtaler om ernæring, vitaminer og sunde spisevaner, der er centrale mål i Fælles Mål for sundhedsundervisning. Arbejdsark der navngiver frugter, sorterer dem efter næringsindhold og udforsker farvernes forbindelse til vitaminer giver strukturerede rammer for sundhedspædagogik.',
+      activity: 'Brug frugtarbejdsark som udgangspunkt for at lave en klasse-frugtregnbue, hvor eleverne finder frugter i alle regnbuens farver og lærer, at forskellige farver indeholder forskellige vitaminer. Afslut med en fælles frugtsalat, hvor alle farver er repræsenteret.',
+    },
+    {
+      subject: 'Geografi og kultur',
+      connection: 'Frugtens mangfoldighed fra danske jordbær til tropisk mango giver naturlige forbindelser til geografi og kulturforståelse. Børn lærer at frugter vokser i forskellige klimazoner, at bananer rejser tusindvis af kilometer, og at danske bær kun kan plukkes i sommermånederne, hvilket styrker deres forståelse af verden.',
+      activity: 'Opret et verdenskort i klassen og tilføj frugtbilleder fra arbejdsarkene til de lande, hvor frugterne dyrkes. Eleverne researcher én frugt og tegner dens rejse fra plantage til dansk supermarked med pil på kortet.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Frugt-portfolio',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: tælling med frugt, farvelægning af frugttværsnit, ordsøgning med frugtordforråd og sortering efter egenskaber. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, farvemotorisk kontrol, ordforrådsudvidelse og klassifikationsevne.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Frugtsmags-vurdering',
+      criteria: 'Bed eleverne om at prøve tre ukendte frugter og beskrive dem med mindst fem ord hver, tegne frugterne i tværsnit og rangordne dem efter præference med begrundelse. Vurdér ordforrådsbredde, detaljerigdom i tegninger, og om begrundelsen viser logisk tænkning. Denne metode måler sensorisk ordforråd, observationsevne og argumentationsevne.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Frugtmarked-rollespil',
+      criteria: 'Opret et legefrugtsmarked, hvor eleverne skal beregne priser, give byttepenge, tælle varer og skrive indkøbslister med korrekt stavede frugtnavne. Vurdér matematisk nøjagtighed i beregninger, stavning af frugtordforråd, evne til at kommunikere med kunder og brug af høflighedsfraser. Denne metode integrerer matematik, dansk og sociale kompetencer.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt skolefrugtordningen som en daglig bro mellem arbejdsark og virkelighed. Når dagens frugt deles ud, kan læreren stille et kort spørgsmål relateret til ugens frugtarbejdsark: hvad farve har denne frugt, hvor mange skiver kan vi dele den i, eller hvad hedder den på engelsk. Denne mikro-forbindelse mellem læringsmateriale og sensorisk oplevelse forankrer abstrakt viden i konkret erfaring og kræver kun tredive sekunder af frugtpausen.',
+      source: 'Wistoft, K., DPU/Aarhus Universitet — integration af frugtordninger med sundhedsundervisning',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Brug frugters naturlige brøkegenskaber til at bygge matematisk intuition, længe før formel brøkundervisning begynder. Allerede i førskolen kan børn lære at dele et æble i to lige stykker og sige halvt. I børnehaveklassen kan de dele en appelsin i fire og sige en fjerdedel. Denne tidlige, uformelle eksponering for brøksprog gennem den velkendte handling at skære frugt giver elever et enormt forspring, når formel brøkundervisning begynder i 2. klasse.',
+      source: 'Fælles Mål for matematik — tidlig talforståelse og brøkbegreber',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Integrer frugtarbejdsark med sæsonerne for at styrke tidslig tænkning og naturforbindelse. Brug danske jordbærarbejdsark i juni, hindbær i juli, æbler i september og citrusfrugter om vinteren. Denne sæsonbetonede tilgang forbinder arbejdsarkene med børnenes virkelige oplevelser af bærplukning og høst og opbygger en cyklisk forståelse af tid og natur, der styrker både naturfagsforståelse og kulturel bevidsthed.',
+      source: 'Dansk pædagogisk tradition — årstidspædagogik og udeskole i den danske folkeskole',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Frugtsorter inkluderet', value: '20+ sorter' },
+  ],
 };
 
 registerThemeContent('fruits', 'da', content);

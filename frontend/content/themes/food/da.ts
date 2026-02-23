@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['cooking', 'fruits', 'vegetables', 'farm', 'holidays', 'body'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Madarbejdsark indtager en helt unik pædagogisk position, fordi mad er det eneste tema, hvor hvert eneste barn allerede har direkte, multisensorisk erfaring flere gange om dagen — de smager, lugter, rører ved og ser mad ved hvert måltid. Denne allestedsnærværende fortrolighed gør mad til den mest naturlige bro mellem hverdagsoplevelser og struktureret faglig læring. I modsætning til temaer som rummet eller dinosaurer, der kræver fantasi og abstraktion, bygger madtemaet på konkret, verificerbar virkelighed: barnet kan åbne køleskabet og finde de samme madvarer, det netop har talt, sorteret eller stavet på et arbejdsark. Denne øjeblikkelige overførbarhed fra papir til virkelighed styrker hukommelsen og giver læringen en autenticitet, som få andre temaer kan matche. Madtemaet er også enestående i sin evne til at forbinde ernæringsvidenskab med kulturel mangfoldighed. Når børn sorterer fødevarer efter gruppe, sammenligner portionsstørrelser eller læser om forskellige køkkentraditioner, opbygger de samtidig sundhedsbevidsthed, tværkulturel forståelse og faglige færdigheder i en integreret læringsoplevelse. I Danmark har madkundskab en særlig stærk tradition som selvstændigt skolefag, hvor Fælles Mål specifikt understreger fødevarebevidsthed, sund kost og madlavningsfærdigheder som kernekompetencer. Madarbejdsark støtter denne tradition ved at forberede børn til den formelle madkundskabsundervisning allerede fra førskolen. Den sensoriske dimension er afgørende: børn der har bidt i et sprødt æble, mærket konsistensen af ris eller lugtet til friskbagt brød, danner multisensoriske hukommelseslinks til skrevne ord og matematiske begreber, der er markant stærkere end rent visuel indlæring. Denne multikanalslæring — faglig færdighed plus ernæringsviden plus kulturel forståelse plus sensorisk erfaring — er det, der gør madarbejdsark pædagogisk distinkte fra alle andre tilgængelige temaer.',
+
+  researchCitation: 'Benn, J. (2014). Mad, læring og sundhed i skolen: Didaktiske perspektiver på madkundskab. DPU/Aarhus Universitet. Benn dokumenterede gennem omfattende forskning ved Danmarks Pædagogiske Universitet, at fødevareundervisning i den danske folkeskole har en unik evne til at integrere praktisk erfaring med teoretisk viden. Hendes studier viste, at elever der møder ernæringsbegreber gennem konkrete madaktiviteter — sortering, tilberedning, smagning og kategorisering — udvikler dybere og mere vedvarende forståelse af både naturvidenskabelige og sundhedsfaglige begreber end elever der præsenteres for stoffet udelukkende gennem lærebogstekst. Denne effekt var særligt markant for elever i børnehaveklasse til 3. klasse, hvor den sensoriske dimension af mad fungerede som en kraftfuld kognitiv stillads, der reducerede abstraktionsbarrieren og øgede motivationen for faglig fordybelse. Benns forskning understøtter direkte brugen af madtematiserede arbejdsark som en struktureret vej til at forankre matematisk, sproglig og naturvidenskabelig læring i børns daglige madoplevelser.',
+
+  snippetDefinition: 'Madarbejdsark til børn er printbare undervisningsaktiviteter, der bruger farverige illustrationer af velkendte fødevarer — som frugt, grøntsager, korn, mejeriprodukter og proteinkilder — til at undervise i matematik, læsning, ernæring og logiske færdigheder. Designet til børn fra 3 til 9 år inkluderer de tælleøvelser med madvarer på tallerkener, ordsøgninger med ernæringsordforråd, farvelægningssider med køkkenscener, sorteringsaktiviteter efter fødevaregruppe og matchende udfordringer, der udnytter børns daglige maderfaring til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt madunderemne for ugen, som frugt og grøntsager, fødevaregrupper, sund morgenmad eller madkulturer, for at give dine lektioner en fokuseret tematisk tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med frugter til matematik, en ordsøgning med ernæringsordforråd til læsning og en farvelægningsside med et måltid til finmotorisk udvikling.',
+    'Introducer madunderemnet med en kort samtale eller en ægte madvare, så børnene kan røre ved, lugte eller smage den og dermed opbygge den sensoriske baggrundsviden, der forankrer arbejdsarkets indhold.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning af en frugtskål for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling, størrelsessammenligning eller mønstergenkendelse.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvilken fødevaregruppe hører denne til og hvad tror du kroppen bruger denne mad til for at uddybe ernæringstænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner én madvare de lærte om, og fortæller én ting de fandt overraskende om ernæring, hvilket styrker ordforråd og sundhedsbevidsthed.',
+    'Saml færdige arbejdsark i en portfolio-mappe og par dem med fotos fra madlavningsprojekter eller supermarkedsbesøg for at dokumentere den tværfaglige læring over tid.',
+  ],
+
+  limitations: 'Madarbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Børn med spiseforstyrrelser, stærke fødevareallergier eller kulturelt betingede restriktioner kan opleve ubehag ved visse madbilleder eller diskussioner om sund versus usund kost, så lærere bør gennemse materialet og sikre, at det er inkluderende for alle elever. I mangfoldige danske klasseværelser kan visse religiøse eller kulturelle traditioner have specifikke følsomheder omkring bestemte fødevarer, særligt svinekød, og arbejdsark bør tilbyde tilstrækkelig variation til at alle børn kan se deres egen madkultur repræsenteret. Derudover fokuserer madtemaet primært på konkrete, hverdagslige genstande, hvilket gør det mindre naturligt egnet til at stimulere fantasien sammenlignet med imaginære temaer som eventyr, rummet eller pirater. Endelig, mens mad er fremragende til tælling, sortering og grundlæggende aritmetik, er det mindre intuitivt som kontekst for avancerede abstrakte begreber som algebra eller geometri, hvor andre temaer kan give mere naturlige visuelle modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'cooking',
+      summary: 'Madlavningsarbejdsark fokuserer på processerne — at følge opskrifter, afmåle ingredienser og udføre trin i rækkefølge — og udvikler dermed sekvenseringsevner og procedurel forståelse. Madarbejdsark fokuserer bredere på selve fødevarerne som objekter for tælling, klassifikation og ernæringslæring, uden nødvendigvis at involvere tilberedning. Tilsammen dækker de hele spektret fra råvare til færdigt måltid.',
+    },
+    {
+      vsThemeId: 'fruits',
+      summary: 'Frugtarbejdsark zoomer ind på en enkelt fødevarekategori med dybdegående fokus på frugttyper, farver, størrelser og vækstmåder. Madarbejdsark favner alle fødevaregrupper — frugt, grøntsager, korn, mejeriprodukter og proteinkilder — og giver dermed en bredere ernæringskontekst, der er stærkere til at undervise i balanceret kost og fødevareklassifikation på tværs af kategorier.',
+    },
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Grøntsagsarbejdsark fokuserer udelukkende på grøntsager med detaljer om arter, vækstbetingelser og sæsoner. Madarbejdsark inkluderer grøntsager som én kategori blandt mange og bruger kontrasten mellem fødevaregrupper til at undervise i sammenligning, klassifikation og ernæringsbalance, hvilket giver en mere holistisk tilgang til sundhedsundervisning.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Bondegårdsarbejdsark fokuserer på produktionssiden — hvor maden kommer fra, med husdyr, afgrøder og landbrugsmaskiner. Madarbejdsark fokuserer på forbrugssiden — hvad vi spiser, ernæring og måltidssammensætning. De to temaer komplementerer hinanden og danner sammen en komplet fortælling om madens rejse fra jord til bord.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'mad farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores mad farvelægningssider på detaljerede illustrationer af frugtskåle, frokosttallerkener, køkkenscener og indkøbskurve, der udvikler finmotorisk kontrol og farvebevidsthed, mens de opbygger fortrolighed med de madvarer børnene vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'mad tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores mad tælleaktiviteter forskellige fødevarer ud over en travl scene med tallerkener, kurve og supermarkedshylder og beder børnene om at optælle hver type, hvilket opbygger både talforståelse og ernæringskategorisering i en enkelt engagerende øvelse.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'mad sorteringsøvelser',
+      context: 'For at opbygge den kategoriske tænkning der underbygger ernæringsforståelse og naturvidenskabelig klassifikation, lader vores mad sorteringsøvelser børn gruppere fødevarer efter fødevaregruppe, farve, oprindelse eller sundhedskategori, med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'mad ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter ernæringsord som protein, grøntsag, kulhydrat og mejeri i vores mad ordsøgning printbar sider, der indlejrer sundhedsfagligt sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'mad matchningsopgaver',
+      context: 'Vores mad matchningsopgaver parrer fødevarer med deres grupper, ingredienser med deres retter og madvarer med deres oprindelse, og udfordrer børn til at anvende klassifikationsforståelse, mens de udvikler de visuelle skelneevner der understøtter både læsning og ernæringsbevidsthed.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at flere elever har vanskeligt ved at forstå begrebet fødevaregrupper og blander frugt og grøntsager sammen med søde snacks i samme kategori.',
+      solution: 'Hun introducerer et madtematisk forløb med sorteringsarbejdsark, der beder børn om at placere madvarer i de korrekte fødevaregrupper. Matchningsaktiviteter parrer madvarer med deres grupper, og billedaddition med frugt og grøntsager supplerer forståelsen med tælleøvelser. En stor opslagstavle med de fem fødevaregrupper opdateres dagligt med udklippede illustrationer fra arbejdsarkene.',
+      outcome: 'Inden for to uger kan alle elever korrekt identificere mindst tre fødevaregrupper og placere madvarer i den rigtige kategori. Flere elever begynder spontant at klassificere deres egen madpakke ved frokosttid, og forældrene rapporterer øget interesse for sund kost derhjemme.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et femårigt barn, ønsker at forbinde matematiklæring med barnets store interesse for at hjælpe til i køkkenet, men ved ikke, hvordan man strukturerer det fagligt.',
+      solution: 'Forælderen printer mad-tælleaktiviteter og sorteringsøvelser og bruger dem som optakt til fælles madlavning. Barnet løser et arbejdsark om at tælle frugter, sorterer derefter ægte frugter i køkkenet, og afslutter med at lave en frugtsalat, hvor det tæller skiver og sammenligner mængder.',
+      outcome: 'Barnet udvider sine læringsessioner fra ti til tyve minutter, fordi den konkrete kobling til madlavning opretholder motivationen. Tællenøjagtigheden forbedres markant inden for en måned, og barnet begynder spontant at tælle og sammenligne madvarer under indkøb og måltider.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse vil undervise i ernæring og kroppens behov for forskellige næringsstoffer, men finder at det abstrakte stof om vitaminer, proteiner og kulhydrater er svært tilgængeligt for mange elever.',
+      solution: 'Læreren bruger madarbejdsark der kombinerer ernæringsfakta med tælling og sortering. Eleverne sorterer madvarer efter næringsstofindhold, læser korte tekster om hvad kroppen bruger forskellige fødevaregrupper til, og opretter søjlediagrammer over klassens madpræferencer fordelt på fødevaregrupper.',
+      outcome: 'Elevernes forståelse af ernæringsbegreber stiger markant, og 85 procent kan korrekt forklare, hvad mindst tre fødevaregrupper bidrager med til kroppen. Dataindsamlingen og grafarbejdet styrker samtidig deres matematiske datakompetence i overensstemmelse med Fælles Måls mål.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og find-og-tæl-arbejdsark med farverige madbilleder som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver flere indgangspunkter for børn der lærer bedst gennem billeder. Billedsortering efter fødevaregruppe med tydelige farvekoder og størrelsessammenligning med forskellige frugter og grøntsager tilbyder rige visuelle stimuli, der understøtter både kategorisk tænkning og ernæringsforståelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med ægte madvarer eller realistisk legemad. Lad børnene arrangere fysiske frugter, grøntsager og levenedsmidler på en tallerken eller i indkøbskasser for at løse sorteringsopgaver, før de skriver svar på arbejdsarket. Madlavningsaktiviteter der involverer afmåling, hældning og blanding forstærker de matematiske begreber fra arbejdsarkene gennem håndfaste oplevelser.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl, matchning og farvelægning, før I introducerer ordbaserede aktiviteter. Madordforråd som æble, brød, mælk og ris er ofte blandt de første danske ord, tosprogede elever lærer, fordi de forbindes med daglige sensoriske oplevelser. Tillad navngivning af madvarer på begge sprog og brug de visuelle illustrationer som bro mellem modersmål og dansk.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der bruger ernæringsdata fra fødevareetiketter, opskriftsskalering med multiplikation, eller lad dem designe balancerede ugemenuer med krav om repræsentation fra alle fødevaregrupper. Ordsøgninger med specialiseret ernæringsordforråd som kulhydrat, protein, fiber og vitamin tilbyder justerbar sværhedsgrad til avanceret ordforrådsarbejde og sundhedsforståelse.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag og sundhed',
+      connection: 'Madarbejdsark forbinder naturligt til naturfagsmål i Fælles Mål om ernæring, kroppens behov og fødevarers oprindelse. Sortering af madvarer efter næringsstofindhold, identifikation af hvilke planter og dyr vores mad kommer fra, og forståelse af fordøjelsesprocessen styrker den naturvidenskabelige tænkning, der er central for tidlig sundhedsundervisning.',
+      activity: 'Efter et mad-sorteringsarbejdsark om fødevaregrupper udfører eleverne et enkelt eksperiment, hvor de tester madvarer for stivelse med joddråber, og registrerer resultaterne i en tabel der forbinder arbejdsarksklassifikation med ægte naturvidenskabelig metode.',
+    },
+    {
+      subject: 'Samfundsfag og kultur',
+      connection: 'Madtemaet åbner naturligt for diskussioner om kulturel mangfoldighed, madtraditioner og globale fødevaresystemer. Børn lærer at forskellige familier spiser forskellig mad, at dansk madkultur med smørrebrød og rugbrød er unik, og at respekt for kostmæssig mangfoldighed er en vigtig samfundsværdi.',
+      activity: 'Brug madarbejdsark med madvarer fra forskellige kulturer som udgangspunkt for en klassediskussion, hvor eleverne fortæller om en speciel ret fra deres families tradition og tegner den i en fælles klasse-kogebog.',
+    },
+    {
+      subject: 'Madkundskab',
+      connection: 'Madarbejdsark forbereder direkte til den formelle madkundskabsundervisning, der er obligatorisk i den danske folkeskole. Fødevaregruppekendskab, ernæringsbevidsthed og forståelse af madens vej fra jord til bord er alle kernekompetencer i Fælles Mål for madkundskab, og arbejdsarkene opbygger dette fundament allerede fra førskolen.',
+      activity: 'Kombinér et mad-ordsøgningsarbejdsark med ernæringsordforråd med en praktisk madlavningssession, hvor eleverne tilbereder en simpel ret og identificerer ingrediensernes fødevaregrupper med reference til arbejdsarket.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét madarbejdsark om ugen over en måned fra forskellige kategorier: tælling, sortering, ordsøgning og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, fødevaregruppekendskab, ernæringsordforråd og finmotorisk kontrol. Notér især fremgang i evnen til korrekt klassifikation af madvarer.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste',
+      criteria: 'Mens eleverne arbejder med mad-sorteringsarbejdsark, notér om de kan klassificere efter én egenskab som frugt versus grøntsag (førskole), to egenskaber som fødevaregruppe og farve (børnehaveklasse) eller oprette egne ernæringskategorier med begrundelse (1. klasse og op). Registrer også korrekt brug af ernæringsordforråd og evnen til at forklare, hvorfor en madvare tilhører en bestemt gruppe.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Balanceret tallerken-projekt',
+      criteria: 'Bed eleverne om at sammensætte en balanceret dagsplan med morgenmad, frokost, aftensmad og snacks, der repræsenterer alle fem fødevaregrupper. Vurdér om de kan identificere mindst fire fødevaregrupper, forklare hvorfor kroppen har brug for variation, og præsentere deres plan med korrekt ernæringsordforråd og matematisk dokumentation af portioner.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug madtemaet som bro mellem sensorisk erfaring og abstrakt læring. Lad børn smage, røre og lugte til ægte madvarer, før de møder de samme fødevarer på arbejdsarket. Denne multisensoriske forankring — gustatorisk, taktil, olfaktorisk og visuel — skaber dramatisk stærkere hukommelseslinks til både fagligt indhold og ordforråd end rent papirbaseret læring og er særligt effektiv for børn i førskole og børnehaveklasse.',
+      source: 'Benn, J., DPU/Aarhus Universitet — sensorisk læring i fødevareundervisning',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Forbind madarbejdsark med den danske madkundskabstradition. Selv for de yngste elever kan sortering af madvarer efter fødevaregruppe, diskussion af hvad der gør et måltid balanceret, og udforskning af danske madtraditioner som rugbrød, leverpostej og rødgrød med fløde opbygge det ernæringsfundament, der forbereder dem til den formelle madkundskabsundervisning i folkeskolen.',
+      source: 'Fælles Mål for madkundskab — ernæringskompetencer i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Udnyt madtemaets kulturelle dimension til at styrke inklusion og tværkulturel forståelse. Præsentér arbejdsark med madvarer fra mange forskellige køkkener — ris, pasta, tortillaer, naan, sushi og rugbrød — og lad børnene dele deres egne familietraditioner. Denne tilgang gør alle elever til eksperter på deres egen madkultur og opbygger respekt for mangfoldighed, mens den styrker ordforråd og klassifikationsevner.',
+      source: 'Dansk pædagogisk tradition — inklusion og interkulturel kompetence i folkeskolen',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Fødevaregrupper dækket', value: '5 grupper' },
+  ],
 };
 
 registerThemeContent('food', 'da', content);

@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['pirates', 'superheroes', 'animals', 'holidays', 'circus', 'emotions'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Eventyrarbejdsark indtager en helt unik position i tidlig pædagogik, fordi de udnytter det, som kognitiv psykolog Jerome Bruner kaldte narrativ tænkning — menneskets medfødte evne til at forstå verden gennem fortællinger. I modsætning til abstrakte temaer som former eller tal giver eventyr et følelsesmæssigt ladet stillads, der forvandler enhver faglig opgave til en meningsfuld rejse. Et barn der tæller guldmønter i en skattekiste, øver samtidig aritmetik og internaliserer fortællingens logik om belønning, retfærdighed og konsekvens. En elev der staver ordet fortryllet, opbygger bogstavgenkendelse, mens vedkommende absorberer det arkaiske, poetiske sprog, der kendetegner litterær tradition. Denne dobbeltkanals læring — faglig færdighed plus narrativ kompetence — er det, der gør eventyrarbejdsark pædagogisk distinkte fra næsten alle andre tilgængelige temaer. Danmark besidder en særlig rig eventyrarv takket være Hans Christian Andersen, hvis fortællinger som Den Grimme Ælling, Den Lille Havfrue og Snedronningen er verdenskendte, samt folkeeventyrsamlingerne af Svend Grundtvig og Evald Tang Kristensen. Denne kulturarv gør eventyrarbejdsark særligt meningsfulde i en dansk skolekontekst, fordi børnene allerede kender figurerne og motiverne fra højlæsning og kulturel overlevering. Eventyrgenren tilbyder også uovertruffen fortællemæssig bredde: helteeventyr, dyreeventyr, trylleeventyr og skæmteeventyr præsenterer hver især forskellige fortællestrukturer, moralske dilemmaer og figurtyper, der holder temaet friskt over måneders undervisning uden at noget enkelt arbejdsark føles gentagende. Sekventeringsaktiviteter med eventyrhandlinger udvikler den narrative forståelse, der underbygger al læseforståelse, når børn lærer at identificere begyndelse, midte og slutning, derefter årsag og virkning og til sidst figurmotivation og tematisk budskab. Desuden fungerer eventyr som en universel kulturel bro: uanset sproglig baggrund genkender og reagerer stort set alle børn på historier om helte, skurke, magiske genstande og fortryllede skove. Denne universalitet gør eventyrarbejdsark særligt effektive i sprogligt mangfoldige klasseværelser, hvor fælles referencepunkter er essentielle for inkluderende undervisning i henhold til Fælles Mål.',
+
+  researchCitation: 'Bruner, J. (1986/1990). Acts of Meaning. Harvard University Press, samt Appel, C. (2003). Fortællingens pædagogik. Hans Reitzels Forlag, København. Bruner dokumenterede gennem sin banebrydende forskning i narrativ psykologi, at menneskets kognitive udvikling er dybt forankret i evnen til at konstruere og forstå fortællinger. Hans studier viste, at børn der møder fagligt indhold gennem narrative kontekster som eventyr, udvikler dybere begrebsforståelse og mere vedvarende hukommelse end børn der præsenteres for det samme indhold i isolerede øvelser. Appel videreførte denne forskning i en dansk pædagogisk kontekst og demonstrerede, at fortællingens strukturelle elementer — figurer, konflikt, løsning — fungerer som kognitive organisatorer, der hjælper børn med at ordne ny viden og forbinde den med eksisterende skemaer. Denne effekt var særligt udtalt blandt yngre elever i førskole til 3. klasse, hvor eventyrfortællingen fungerede som en bro mellem hverdagserfaring og formel akademisk læring.',
+
+  snippetDefinition: 'Eventyrarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af velkendte fortællefigurer — som prinsesser, drager, riddere, trolde og fortryllede slotte — til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med guldmønter, ordsøgninger med eventyrordforråd, farvelægningssider med magiske scener, sekventeringsopgaver og puslespilsudfordringer, der udnytter børns naturlige fascination af fortællinger til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt eventyr eller eventyrunderemne for ugen, som H.C. Andersen-eventyr, dyreeventyr eller trylleeventyr, for at give dine lektioner en fokuseret fortælletråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med guldmønter til matematik, en ordsøgning med eventyrordforråd til læsning og en farvelægningsside med slotsscener til finmotorisk udvikling.',
+    'Introducer eventyrtemaet med en kort højlæsning eller et dramatiseret eventyr, så børnene har baggrundsviden om figurer og handling, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som ordblandinger eller sudoku med eventyrsymboler.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvad tror du helten føler her og hvad ville du gøre i denne situation for at uddybe narrativ tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene genfortæller det eventyr, de arbejdede med, og nævner én ting de lærte eller en figur de vil huske, hvilket styrker ordforråd og fortælleforståelse.',
+    'Saml færdige arbejdsark i en eventyrportfolio for at spore færdighedsudvikling over tid og vise forældre konkret bevis på fremgang i både faglige og narrative kompetencer.',
+  ],
+
+  limitations: 'Eventyrarbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Nogle børn kan opleve angst ved mørke eventyrscener med hekse, trolde eller farlige situationer, særligt de yngste elever der endnu ikke fuldt ud kan skelne mellem fantasi og virkelighed. Derudover kan visse kulturelle og religiøse traditioner have specifikke følsomheder omkring magi og trolddom i fortællinger, så lærere i mangfoldige danske klasseværelser bør gennemse arbejdsarksindhold og tilbyde alternativer, når det er nødvendigt. Eventyr afspejler også historiske kønsroller og magtstrukturer, der kan kræve kritisk diskussion snarere end ukritisk accept. Endelig, mens eventyr er fremragende til at undervise i narrativ forståelse, sekventering og ordforråd, er de mindre naturligt egnede til abstrakte matematiske begreber som pladsværdi eller brøker, hvor temaer med genstande eller fødevarer kan give mere intuitive visuelle modeller. Den litterære sprogstil i eventyr kan også udfordre tosprogede elever, der stadig opbygger grundlæggende dagligdagssprog.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'pirates',
+      summary: 'Piratarbejdsark deler eventyrenes eventyrlige stemning med skattejagter og havrejser, men fokuserer på maritime temaer og fysisk eventyr. Eventyrarbejdsark kaster et bredere net over fortællegenrer med moralske dilemmaer, figurudvikling og kulturelle traditioner, hvilket gør dem stærkere til narrativ analyse og litterær forståelse, mens piratarbejdsark er bedre til geografiske og navigationsorienterede lektioner.',
+    },
+    {
+      vsThemeId: 'superheroes',
+      summary: 'Superheltarbejdsark bruger moderne popkulturelle figurer med overnaturlige kræfter, mens eventyrarbejdsark trækker på tidløse fortælletraditioner med dybere moralske budskaber og kulturelle rødder. Eventyr tilbyder rigere muligheder for litterær analyse af fortællestruktur og tematisk tolkning, mens superhelte appellerer stærkere til børn der foretrækker visuelt dynamiske, handlingsorienterede kontekster.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark fokuserer på biologisk klassifikation og naturvidenskabelig observation gennem virkelige arter. Eventyrarbejdsark bruger også dyr — talende ulve, fortryllede frøer og magiske svaner — men inden for en narrativ ramme der prioriterer fortælleforståelse og moralsk tænkning over naturvidenskabelig nøjagtighed. Tilsammen dækker de to temaer både det faktuelle og det fantastiske.',
+    },
+    {
+      vsThemeId: 'circus',
+      summary: 'Cirkusarbejdsark fremhæver optræden, farver og underholdning i en social kontekst med artister og publikum. Eventyrarbejdsark tilbyder dybere narrative strukturer med figurer der gennemgår personlig udvikling, konflikter der kræver moralske valg og slutninger der rummer en lektie. Cirkus er bedre til visuelle og sociale lektioner, mens eventyr er stærkere til læseforståelse og etisk tænkning.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'eventyr farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores eventyr farvelægningssider på detaljerede illustrationer af slotte, drager, prinsesser og fortryllede skove, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med de figurer og scener, børnene vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'eventyr ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter eventyrord som fortryllet, kongerige og modig i vores eventyr ordsøgning printbar sider, der indlejrer litterært sprog i et puslespilformat, der gør staveøvelse til en leg og styrker genkendelsen af ord fra højlæsning.',
+    },
+    {
+      appId: 'word-scramble',
+      anchorText: 'eventyr ordblanding',
+      context: 'Vores eventyr ordblanding udfordrer børn til at omarrangere bogstaver i eventyrord som prinsesse, troldmand og skat, hvilket styrker stavefærdigheder og fonologisk bevidsthed, mens den narrative kontekst holder motivationen høj gennem hele øvelsen.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'eventyr billedaddition',
+      context: 'Når elever er klar til at kombinere visuel tælling med aritmetik, bruger vores eventyr billedaddition guldmønter, tryllestave og kroner som tællehjælpemidler, der forankrer abstrakte taloperationer i mindeværdige fortællescenarier fra den magiske verden.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'eventyr skyggematchning',
+      context: 'Vores eventyr skyggematchning parrer eventyrhelte med deres silhuetter og træner visuel diskrimination og rumlig forståelse, mens børn styrker deres kendskab til de figurer og genstande, der fylder eventyrenes univers.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at flere elever kæmper med at genkende fortællestruktur og har svært ved at genfortælle historier med begyndelse, midte og slutning.',
+      solution: 'Hun introducerer eventyr-sekventeringsarbejdsark med tre til fem billeder fra velkendte eventyr som Guldlok og de tre bjørne. Eleverne klipper billederne ud, ordner dem i korrekt rækkefølge og limer dem på en tidslinje. Derefter genfortæller de historien for en makker med egne ord.',
+      outcome: 'Inden for tre uger kan alle elever selvstændigt ordne historier i korrekt rækkefølge og bruge ordene først, derefter og til sidst. Genfortællingerne bliver længere og mere detaljerede, og tre elever der tidligere var tavse under fortælletid, begynder frivilligt at dele deres versioner.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et barn i 1. klasse, finder at barnet elsker at høre eventyr men modstår enhver skriftlig aktivitet og nægter at lave traditionelle staveøvelser.',
+      solution: 'Forælderen printer eventyr-ordsøgninger og ordforrådsarbejdsark og præsenterer dem som en skattejagt: kan du finde alle de magiske ord der er skjult i dette puslespil. Ordene er hentet direkte fra det eventyr, de læste aftenen før, så barnet genkender dem.',
+      outcome: 'Barnet gennemfører to til tre ordsøgninger per session med entusiasme og begynder selv at efterspørge nye puslespil. Stavefærdigheder forbedres markant inden for en måned, og barnet begynder at bruge eventyrord som fortryllet og modig i sin egen skrivning.',
+    },
+    {
+      situation: 'En dansklærer i 2. klasse ønsker at introducere sammenlignende litterær analyse, men finder at lærebogsmaterialet er for abstrakt for elevernes niveau.',
+      solution: 'Læreren bruger eventyrarbejdsark der præsenterer to versioner af det samme eventyr fra forskellige kulturer, med forståelsesspørgsmål der beder eleverne identificere ligheder og forskelle. Eleverne udfylder sammenligningsdiagrammer og skriver korte afsnit om, hvad forskelle fortæller om hver kulturs værdier.',
+      outcome: 'Elevernes analytiske kompetencer vokser markant, og ved terminsprøven kan 80 procent selvstændigt identificere tematiske ligheder på tværs af tekster. Elever der normalt kæmper med abstrakt analyse, blomstrer takket være de konkrete eventyrfigurer og handlingsforløb som referencepunkter.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver flere indgangspunkter for børn der lærer bedst gennem billeder. Sekventeringsopgaver med billedkort og stifindingsaktiviteter i fortryllede labyrinter tilbyder rige visuelle stimuli, der understøtter narrativ forståelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med eventyrrekvisitter som papierkroner, legetøjssværd og tryllestave. Lad børnene opføre scener fra eventyret, før de løser arbejdsarket, så der bygges bro mellem fysisk dramatisering og papirbaseret læring. Udklipnings- og sorteringsaktiviteter med figurer og genstande supplerer de skriftlige øvelser.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som farvelægning, skyggematchning og billedbaseret sekventering, før I introducerer ordbaserede aktiviteter. Eventyrfigurer som prinsesser, drager og slotte er ofte blandt de første kulturelle referenter, tosprogede elever deler med klassekammerater, hvilket gør temaet til en fremragende bro til sproglige opgaver. Tillad genfortælling af eventyr på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med at skrive egne eventyr efter den klassiske fortællestruktur, analysere figurmotivation i dybden eller sammenligne versioner af det samme eventyr fra forskellige kulturer. Kryptogrammer og avancerede ordpuslespil med litterært ordforråd som metamorfose, quest og antagonist tilbyder justerbar sværhedsgrad til højere niveaus analytiske arbejde.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Dansk',
+      connection: 'Eventyrarbejdsark forbinder direkte til danskfagets mål i Fælles Mål om fortælleforståelse, genrebevidsthed og litterær analyse. Sekventeringsopgaver og figuranalyse styrker de kompetencer der er centrale for læseforståelse og mundtlig genfortælling i den tidlige danskundervisning.',
+      activity: 'Efter et eventyr-sekventeringsarbejdsark genfortæller eleverne historien for en makker med egne ord og identificerer begyndelse, midte og slutning, hvilket forbinder arbejdsarksstrukturen med mundtlig kommunikation.',
+    },
+    {
+      subject: 'Historie',
+      connection: 'Eventyr bærer kulturel viden om historiske levevilkår, samfundsstrukturer og værdier. Konger, riddere, bønder og troldfolk afspejler middelalderens sociale hierarki, og børn begynder at forstå, at historier afspejler den tid de er skabt i.',
+      activity: 'Brug eventyrarbejdsark som udgangspunkt for en tidslinje-aktivitet, hvor eleverne placerer eventyrene i en historisk kontekst og diskuterer, hvordan livet var anderledes, da historierne blev fortalt første gang.',
+    },
+    {
+      subject: 'Billedkunst',
+      connection: 'Eventyrfarvelægnings- og tegnearbejdsark udvikler finmotoriske færdigheder og kunstnerisk udtryk samtidigt. Børn lærer at observere detaljer i slotarkitektur, dragebilleder og skovscener, hvilket styrker den visuelle opmærksomhed der understøtter både kunst og læsning.',
+      activity: 'Efter at have farvelagt et eventyrarbejdsark skaber eleverne en original illustration af deres yndlingseventyrscene med vandfarver eller collage og skriver derefter én sætning der beskriver, hvad der sker i billedet.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: sekventering, ordforråd, matematik og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i narrativ forståelse, ordforrådsudvidelse, tællenøjagtighed og finmotorisk kontrol.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Mundtlig genfortælling',
+      criteria: 'Efter at eleverne har arbejdet med et eventyr-sekventeringsarbejdsark, bed dem genfortælle historien mundtligt. Vurdér om de inkluderer begyndelse, midte og slutning (førskole), figurmotivation og årsag-virkning (børnehaveklasse) eller tematisk budskab og figurudvikling (1. klasse og op). Registrer ordforrådsanvendelse og fortællestruktur.',
+      gradeLevel: 'Førskole til 2. klasse',
+    },
+    {
+      method: 'Sammenlignende analyse',
+      criteria: 'Giv eleverne to versioner af det samme eventyr og et sammenligningsdiagram. Vurdér om de kan identificere ligheder og forskelle i handling, figurer og moral, samt om de kan formulere en skriftlig holdning til, hvilken version der lærer den bedste lektie, understøttet med belæg fra begge tekster.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug eventyrgenren som ramme for systematisk opbygning af narrativ kompetence. Start med simple tretrinsfortællinger i førskolen og byg gradvist op til femaktsstruktur i 3. klasse. Denne progression spejler børnenes kognitive udvikling og giver dem et solidt fundament for al fremtidig tekstforståelse, fordi narrativ struktur er den mest grundlæggende måde, mennesker organiserer information på.',
+      source: 'Fælles Mål for dansk — narrativ kompetence og genreforståelse i den danske folkeskole',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Udnyt den danske eventyrtradition med H.C. Andersen og folkeeventyr aktivt i undervisningen. Når børn møder figurer som Tommelise, Klods-Hans eller Askeladden på arbejdsark og i højlæsning, styrkes forbindelsen mellem kulturarv og faglig læring. Denne dobbelte forankring — i både kultur og pensum — skaber stærkere hukommelsesspor og dybere motivation.',
+      source: 'Appel, C. — Fortællingens pædagogik, Hans Reitzels Forlag, København',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Introducer perspektivskift som avanceret tænkeøvelse. Lad børn genfortælle et eventyr fra skurkens synsvinkel — hvordan ser verden ud for den stakkels ulv, der bare ville have noget at spise? Denne øvelse udvikler empati, kritisk tænkning og forståelsen af, at enhver historie kan fortælles fra flere vinkler, hvilket er en central kompetence i moderne medieundervisning.',
+      source: 'Bruner, J. — narrative perspektiver og Theory of Mind i børns kognitive udvikling',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Eventyrgenrer dækket', value: '5+ genrer' },
+  ],
 };
 
 registerThemeContent('fairy-tales', 'da', content);

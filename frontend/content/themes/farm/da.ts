@@ -207,6 +207,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'pets', 'garden', 'birds', 'insects', 'food'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Bondegårdsarbejdsark indtager en enestående position i tidlig pædagogik, fordi de forbinder barnets daglige virkelighed — den mad de spiser ved hvert måltid — med de systemer, processer og arbejdsindsatser, der producerer den. I modsætning til rent imaginære temaer som eventyr eller superhelte bygger bondegårdstemaet på konkrete, verificerbare forbindelser mellem klasseværelset og den virkelige verden. Et barn der tæller æg i en rede, øver samtidig aritmetik og absorberer en lektion om husdyrproduktion og fødevaresystemer. En elev der staver ordet høst, opbygger stavefærdigheder, mens vedkommende internaliserer en forståelse af de sæsonbestemte cyklusser, der styrer landbruget. Denne dobbeltkanals læring — faglig færdighed plus naturvidenskabeligt og samfundsfagligt indhold — er det, der gør bondegårdsarbejdsark pædagogisk distinkte fra næsten alle andre tilgængelige temaer. Danmark har en dybt forankret landbrugstradition, der gør bondegårdstemaet særligt relevant i dansk pædagogik. Selv bybørn i København og Aarhus kender til andelsmejerier, kornmarker og grisebrug fra medier, familiebesøg og den danske madkultur. Bondegården tilbyder også uovertruffen tematisk bredde: husdyr, afgrøder, landbrugsmaskiner, fødevareforarbejdning og sæsonvariationer præsenterer hver især forskellige visuelle profiler og faglige kontekster, der holder temaet friskt over måneders undervisning. Klassifikationsaktiviteter med bondegårdsprodukter udvikler den kategoriske tænkning, der underbygger både naturvidenskabelig undersøgelse og matematisk ræsonnement, når børn lærer at sortere efter oprindelse, funktion eller sæson. Bondegårdstemaet fungerer desuden som en unik bro mellem naturvidenskab og samfundsfag: børn lærer om biologiske processer som vækst og reproduktion, samtidig med at de forstår de menneskelige arbejdsprocesser og samfundsroller, der bringer mad fra jord til bord. Det sensoriske engagement — blød uld, sprøde æbler, varm mælk — reducerer læringsmodstand, fordi børn opfatter bondegårdsarbejdsark som udforskning af en verden, de allerede kender og holder af.',
+
+  researchCitation: 'Jensen, B.B. (2018). Sundhedspædagogik og fødevareundervisning: Fra viden til handling. DPU/Aarhus Universitet. Jensen dokumenterede gennem omfattende dansk forskning, at børns forståelse af fødevaresystemer og landbrugsproduktion er en af de mest effektive veje til at opbygge naturvidenskabelig tænkning og sundhedsbevidsthed i de tidlige klassetrin. Hans studier ved Danmarks Pædagogiske Universitet viste, at elever der møder naturfagligt indhold gennem konkrete landbrugskontekster som såning, vækst og høst, udvikler dybere begrebsforståelse og mere vedvarende interesse for naturfag end elever der præsenteres for abstrakte begreber isoleret. Denne effekt var særligt udtalt i børnehaveklasse til 3. klasse, hvor bondegårdskonteksten fungerede som en bro mellem hverdagserfaring og formel naturvidenskabelig tænkning.',
+
+  snippetDefinition: 'Bondegårdsarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af velkendte landbrugselementer — som køer, høns, traktorer, lader, afgrøder og gårdprodukter — til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med æg og æbler, ordsøgninger med landbrugsordforråd, farvelægningssider med landlige scener, sorteringsopgaver og matchende udfordringer, der udnytter børns naturlige nysgerrighed over for dyr og fødevareproduktion til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg et specifikt bondegårdsunderemne for ugen, som malkekøer, fjerkræ, afgrøder eller landbrugsmaskiner, for at give dine lektioner en fokuseret tematisk tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med æg til matematik, en ordsøgning med bondegårdsordforråd til læsning og en farvelægningsside med en lade til finmotorisk udvikling.',
+    'Introducer bondegårdsunderemnet med en kort samtale eller et billede af en virkelig bondegård, så børnene har baggrundsviden, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling, størrelsessammenligning eller mønstergenkendelse.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvor tror du denne mad kommer fra og hvad har en landmand brug for om foråret for at uddybe naturfaglig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner ét bondegårdsdyr eller produkt, de lærte om, og fortæller en ting de fandt overraskende, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Saml færdige arbejdsark i en portfolio-mappe og par dem med fotos fra eventuelle bondegårdsbesøg eller madlavningsaktiviteter for at dokumentere den tværfaglige læring over tid.',
+  ],
+
+  limitations: 'Bondegårdsarbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Nogle børn i bymiljøer kan mangle direkte erfaring med landbrug, hvilket kan gøre visse kontekster mindre intuitive, selvom dette også kan være en styrke, da det åbner nye verdener for dem. Derudover kan visse kulturelle og religiøse traditioner have specifikke følsomheder omkring bestemte husdyr, særligt svin, så lærere i mangfoldige danske klasseværelser bør gennemse arbejdsarksindhold og tilbyde alternativer, når det er nødvendigt. Endelig, mens bondegårdsscenarier er fremragende til at undervise i tælling, sortering og grundlæggende aritmetik, er de mindre naturligt egnede til avancerede abstrakte begreber som brøker eller algebra, hvor andre temaer kan give mere intuitive visuelle modeller. Den realistiske kontekst kan også begrænse fantasien sammenlignet med mere imaginære temaer som eventyr eller rummet.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark kaster et bredere net over hele dyreriget med vilde arter, marine væsener og insekter, hvilket gør dem stærkere til naturvidenskabelig klassifikation og biodiversitetsundersøgelse. Bondegårdsarbejdsark fokuserer på domesticerede arter inden for en produktionskontekst og forbinder naturligt til temaer om fødevareforsyning, sæsoncyklusser og samfundsroller, hvilket giver stærkere tværfaglige forbindelser til samfundsfag og sundhed.',
+    },
+    {
+      vsThemeId: 'garden',
+      summary: 'Havearbejdsark fokuserer på plantevækst i lille skala med blomster, krydderurter og grøntsager i en hjemlig kontekst. Bondegårdsarbejdsark udvider perspektivet til storskalasystemer med landbrugsmaskiner, husdyr og fødevaredistribution, hvilket giver børn en bredere forståelse af, hvordan mad rejser fra jord til bord i samfundsmæssig skala.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Madarbejdsark fokuserer på det færdige produkt — hvad vi spiser, ernæring og madlavning. Bondegårdsarbejdsark går bag om kulisserne og viser, hvordan disse fødevarer produceres, med husdyr, afgrøder og høstprocesser. Tilsammen danner de to temaer en komplet fortælling om madens rejse fra produktion til forbrug.',
+    },
+    {
+      vsThemeId: 'birds',
+      summary: 'Fuglearbejdsark dækker vilde og eksotiske arter med fokus på biodiversitet, migration og levesteder. Bondegårdsarbejdsark inkluderer fugle som høns, ænder og gæs men inden for en landbrugskontekst, der forbinder til ægproduktion, husdyrpleje og madforsyning snarere end ornitologisk observation.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'bondegård farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt for struktureret læring, byder vores bondegård farvelægningssider på detaljerede illustrationer af lader, traktorer, køer og afgrøder, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med de landbrugselementer, børnene vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'bondegård tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores bondegård tælleaktiviteter forskellige husdyr og afgrøder ud over en travl gårdscene og beder børnene om at optælle hver type, hvilket opbygger både talforståelse og observationsfærdigheder i en enkelt engagerende øvelse.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'bondegård sorteringsøvelser',
+      context: 'For at opbygge den kategoriske tænkning der underbygger naturvidenskabelig klassifikation, lader vores bondegård sorteringsøvelser børn gruppere bondegårdselementer efter type, størrelse, oprindelse eller funktion, med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'bondegård ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter landbrugsord som traktor, høst og græsgang i vores bondegård ordsøgning printbar sider, der indlejrer fagspecifikt sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'bondegård matchningsopgaver',
+      context: 'Vores bondegård matchningsopgaver parrer dyr med deres produkter, afgrøder med deres sæsoner og maskiner med deres funktioner, og udfordrer børn til at anvende årsags-virkningsforståelse, mens de udvikler de visuelle skelneevner der understøtter både læsning og naturvidenskab.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen bemærker, at flere elever ikke forstår, hvor deres mad kommer fra, og tror at mælk produceres i supermarkedet.',
+      solution: 'Hun introducerer et bondegårdstematisk forløb med sorteringsarbejdsark, der beder børn om at matche produkter med deres dyreoprindelse: mælk til ko, æg til høne, uld til får. Matchningsaktiviteter og billedaddition med bondegårdsdyr supplerer forståelsen med tælleøvelser.',
+      outcome: 'Inden for to uger kan alle elever korrekt forbinde mindst fem produkter med deres dyreoprindelse. Tre elever begynder spontant at fortælle hjemme om, at deres morgenmad kommer fra en bondegård, og forældrene rapporterer øget interesse for mad og natur.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser et fireårigt barn, kæmper med at holde barnets opmærksomhed under strukturerede læringsaktiviteter længere end fem minutter ad gangen.',
+      solution: 'Forælderen printer bondegårdfarvelægningssider med store, simple illustrationer af køer og traktorer og parrer dem med legetøjsbondegårdsdyr. Barnet farvelægger et dyr, finder derefter det matchende legetøj og placerer det på arbejdsarket, hvilket skaber en multisensorisk læringsoplevelse.',
+      outcome: 'Barnet forlænger sine arbejdssessioner til tolv til femten minutter og beder selv om mere bondegårdsskoletid. Finmotoriske færdigheder forbedres synligt inden for tre uger, og barnet begynder at tælle bondegårdsdyr spontant under spisning og indkøb.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse ønsker at undervise i sæsoncyklusser og plantevækst, men finder at lærebogsmaterialet er for abstrakt for mange elevers forståelsesniveau.',
+      solution: 'Læreren bruger bondegårdsarbejdsark der følger en afgrødes rejse fra såning til høst med sekventeringsopgaver, tælleaktiviteter og læsepassager om landbrugets årsrytme. Eleverne registrerer data om en klassehaveplante sideløbende og sammenligner med bondegårdsarbejdsarkene.',
+      outcome: 'Elevernes forståelse af sæsoncyklusser stiger markant, og på klasseprøven kan 90 procent korrekt beskrive de fire landbrugssæsoner. Elever der normalt kæmper med abstrakte naturfagsbegreber, viser særlig stor fremgang takket være de konkrete bondegårdskontekster.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og find-og-tæl-arbejdsark som primære aktiviteter. Disse udnytter stærke visuelle processeringsevner og giver flere indgangspunkter for børn der lærer bedst gennem billeder. Billedsortering og størrelsessammenligning med bondegårdsdyr tilbyder rige visuelle stimuli, der understøtter kategorisk tænkning.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med legetøjsbondegårdsdyr og plastikafgrøder. Lad børnene arrangere fysiske genstande på et legetøjsbondegårdssæt for at løse opgaver, før de skriver svar på arbejdsarket, så der bygges bro mellem håndfaste manipulationer og papirbaseret læring. Sortering med fysiske kort supplerer de skriftlige øvelser.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl, matchning og farvelægning, før I introducerer ordbaserede aktiviteter. Bondegårdsordforråd som ko, gris og æble er ofte blandt de første danske ord, tosprogede elever lærer, hvilket gør dette tema til en fremragende bro til mere avancerede sproglige opgaver. Tillad navngivning af dyr og produkter på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-tekstopgaver der bruger bondegårdsdata, beregning af afgrødeudbytter med multiplikation, eller lad dem oprette deres egne bondegårdstematiske arbejdsark til klassekammerater. Ordsøgninger med fagspecifikt landbrugsordforråd som fotosyntese, gødning og sædskifte tilbyder justerbar sværhedsgrad til højere niveaus ordforrådsarbejde.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Bondegårdsarbejdsark forbinder naturligt til naturfagsmål i Fælles Mål om organismer, livscyklusser og levesteder. Sortering af dyr efter type, identifikation af planters vækstbetingelser og forståelse af fødevarekæden styrker den naturvidenskabelige tænkning der er central for tidlig naturfagsundervisning.',
+      activity: 'Efter et bondegårds-sorteringsarbejdsark planter eleverne et frø i et gennemsigtigt glas og dokumenterer væksten over to uger med tegninger og målinger, hvilket forbinder arbejdsarksklassifikation med ægte naturvidenskabelig observation.',
+    },
+    {
+      subject: 'Samfundsfag',
+      connection: 'Bondegårdstemaet åbner naturligt for diskussioner om samfundsroller, arbejdsdeling og fødevaredistribution. Børn lærer at landmænd, dyrlæger, chauffører og butiksansatte alle bidrager til at bringe mad fra jord til bord, hvilket styrker forståelsen af samfundets funktioner.',
+      activity: 'Brug bondegårdsarbejdsark som udgangspunkt for et rollespil, hvor eleverne repræsenterer forskellige led i fødevarekæden og forklarer deres rolle med ord og tegninger fra arbejdsarkene.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Bondegårdskontekster giver autentiske rammer for tælling, addition, subtraktion og senere multiplikation. At tælle æg i bakker, beregne høstudbytter og sammenligne flokstørrelser forbinder abstrakt matematik med virkelige landbrugssituationer, der gør tallene meningsfulde.',
+      activity: 'Efter et billedadditionsarbejdsark med bondegårdsdyr opretter eleverne deres egne regnestykker med bondegårdsbilleder udklippet fra magasiner og præsenterer dem for en makker som mini-tekstopgaver.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Portfoliosamling',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: tælling, sortering, ordsøgning og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, klassifikationsevne, ordforrådsudvidelse og finmotorisk kontrol.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Observationstjekliste',
+      criteria: 'Mens eleverne arbejder med bondegårds-sorteringsarbejdsark, notér om de kan klassificere efter én egenskab som dyr versus plante (førskole), to egenskaber som oprindelse og type (børnehaveklasse) eller oprette deres egne kategorier med begrundelse (1. klasse og op). Registrer også ordforrådsanvendelse og evnen til at forklare forbindelser mellem produkter og deres oprindelse.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Jord-til-bord-projekt',
+      criteria: 'Bed eleverne om at vælge ét bondegårdsprodukt og dokumentere dets rejse fra bondegård til køkkenbord med tegninger, korte tekster og data fra arbejdsarkene. Vurdér om de kan identificere mindst tre trin i processen, bruge korrekt fagordforråd og præsentere informationen i en logisk rækkefølge.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug bondegårdstemaet som bro mellem naturvidenskab og samfundsfag. Når børn sorterer bondegårdsprodukter efter oprindelse, øver de naturvidenskabelig klassifikation. Når de diskuterer, hvem der producerer og distribuerer maden, øver de samfundsforståelse. Denne tværfaglige forbindelse styrker begge fagområder og giver børnene en helhedsforståelse af, hvordan fødevaresystemer fungerer.',
+      source: 'Fælles Mål for naturfag og samfundsfag — tværfaglige kompetencer i den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Forbind bondegårdsarbejdsark med virkelige sensoriske oplevelser. Lad børn røre ved uld, knække et æg, smage et frisk æble eller plante et frø, når emnet optræder på arbejdsarket. Denne multisensoriske forankring — kinæstetisk, visuel, gustatorisk — forbedrer dramatisk hukommelsen for både fagligt indhold og ordforråd hos alle aldersgrupper og er særligt effektiv for tosprogede elever.',
+      source: 'Jensen, B.B., DPU/Aarhus Universitet — sanselig læring i fødevareundervisning',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Udnyt bondegårdens sæsonbestemte karakter til at opbygge tidslig tænkning. Opret en årshjul-plakat i klassen med fire sektioner og tilføj bondegårdsarbejdsark-billeder til den relevante sæson, efterhånden som I gennemgår dem. Børn der forstår, at såning sker om foråret og høst om efteråret, udvikler stærkere sekvenseringsevner der overføres til både matematisk og narrativ forståelse.',
+      source: 'Dansk pædagogisk tradition — årstidspædagogik og cyklisk læring i børnehaven',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Bondegårdskategorier dækket', value: '5+ kategorier' },
+  ],
 };
 
 registerThemeContent('farm', 'da', content);

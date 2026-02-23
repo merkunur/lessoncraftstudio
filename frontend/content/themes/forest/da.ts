@@ -208,6 +208,173 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'garden', 'nature', 'birds', 'insects', 'camping'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Skovarbejdsark indtager en helt særlig position i dansk pædagogik, fordi de bygger bro mellem klasseværelsets strukturerede læring og den dybt rodfæstede danske tradition for udeskole og skovbørnehaver. Danmark har en mere end hundredårig tradition for at bruge skoven som læringsrum, og skovarbejdsark forlænger denne tradition ind i papirbaserede og digitale aktiviteter, der forbereder, forstærker og uddyber de oplevelser, børn har mellem træerne. I modsætning til temaer som rummet eller robotter, der bygger på fantasi, forankrer skovtemaet al læring i et økosystem, børnene kan besøge, røre ved og observere med alle sanser inden for kort afstand fra næsten enhver dansk skole. Skovens unikke lagdeling — fra skovbund over underskov til kronedække og det øverste lag — giver en naturlig ramme for klassifikation, hierarkisk tænkning og systemforståelse, der er langt rigere end enklere temaer med kun ét niveau af kompleksitet. Biodiversiteten i en dansk skov med løvfældende bøge, stedsegrønne graner, svampe, mosser, insekter, fugle og pattedyr tilbyder et næsten uudtømmeligt reservoir af visuelle elementer til tælleøvelser, sorteringsopgaver, ordsøgninger og mønstergenkendelse. Den skandinaviske friluftspædagogik understreger, at børn lærer bedst, når de bevæger sig mellem indendørs og udendørs miljøer, og skovarbejdsark fungerer som den perfekte overgangsaktivitet: de kan bruges som forberedelse inden en skovtur, som refleksionsværktøj bagefter, eller som selvstændig aktivitet der nærer den naturforståelse, som Fælles Mål kræver inden for natur/teknologi. Skovtemaets sæsonmæssige variation er enestående — det samme skovområde transformerer sig dramatisk fire gange om året, hvilket giver en naturlig ramme for longitudinel observation og videnskabelig tænkning, der sjældent matches af andre temaer.',
+
+  researchCitation: 'Bentsen, P. (2012). Udeskole: Outdoor teaching and the use of green space in Danish schools. Københavns Universitet (KU), Institut for Geovidenskab og Naturforvaltning. Bentsens forskning ved KU dokumenterede gennem omfattende empiriske studier af danske folkeskoler, at regelmæssig udeskole i skov- og naturmiljøer forbedrer elevernes faglige præstationer, sociale kompetencer og fysiske sundhed markant. Hans studier viste, at elever der deltog i ugentlige skovbaserede undervisningsforløb, udviklede stærkere naturvidenskabelig tænkning, bedre koncentrationsevne i klasseværelset og dybere forståelse af økologiske sammenhænge end kontrolgrupper. Effekten var særligt udtalt i indskolingen og på mellemtrinnet, hvor den konkrete, sanselige skovkontekst fungerede som en kraftfuld bro mellem børnenes hverdagserfaringer og de abstrakte faglige begreber i Fælles Mål.',
+
+  snippetDefinition: 'Skovarbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af skovøkosystemets elementer — som træer, svampe, skovdyr, blade, kogler og skovlag — til at undervise i matematik, læsning, visuel perception og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser med skovdyr, ordsøgninger med økologiordforråd, farvelægningssider med detaljerede skovscener, find-og-tæl-aktiviteter med skjulte dyr og matchende udfordringer, der udnytter børns naturlige fascination af skoven til at øge engagement og læring.',
+
+  snippetHowTo: [
+    'Vælg et specifikt skovunderemne for ugen, som skovlag, træidentifikation, skovdyr eller årstidsforandringer, for at give dine lektioner en fokuseret tematisk tråd, der holder børnenes interesse samlet.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside med skovdyr til matematik, en ordsøgning med skovordforråd til læsning og en farvelægningsside med en detaljeret skovscene til finmotorisk udvikling.',
+    'Introducer skovunderemnet med en kort samtale, et billede eller en kort gåtur ud til nærmeste grønne område, så børnene har baggrundsviden og sensoriske indtryk, inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden, start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden du går videre til mere udfordrende opgaver som tælling, skyggematching eller mønstergenkendelse.',
+    'Mens børnene arbejder, cirkuler og stil åbne spørgsmål som hvilke dyr tror du lever i kronedækket og hvad sker der med bladene om efteråret for at uddybe naturvidenskabelig tænkning sideløbende med faglig øvelse.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner ét skovdyr, træ eller skovlag de lærte om, og fortæller noget de fandt overraskende, hvilket styrker ordforråd og indholdsfastholdelse.',
+    'Planlæg en opfølgende skovtur inden for en uge, hvor børnene kan genfinde de elementer de arbejdede med på papir — blade, barkmønstre, insekter, fuglerede — og saml naturmaterialer til næste uges arbejdsarksession.',
+  ],
+
+  limitations: 'Skovarbejdsark er muligvis ikke det bedste valg for enhver kontekst eller aldersgruppe. Meget unge børn i alderen to til tre år kan finde detaljerede skovøkosystem-illustrationer overvældende, da skovscener ofte indeholder mange overlappende elementer i modsætning til enklere temaer som former eller farver med tydeligt adskilte visuelle elementer. Børn der bor i udprægede byområder uden let adgang til skov kan mangle den direkte erfaring, der gør skovkonteksten mest meningsfuld, selvom dette også kan være en motiverende faktor for at udforske noget nyt. Desuden er skovtemaet stærkere til naturvidenskabelig og observationsbaseret læring end til abstrakte matematiske begreber som brøker eller geometri, hvor temaer med mere regulære former som byggeri eller former kan give mere intuitive visuelle modeller. Endelig kræver den fulde udnyttelse af skovarbejdsark ideelt set, at de kombineres med udendørsoplevelser, hvilket kan være logistisk udfordrende for skoler med begrænsede ressourcer eller i vintermåneder med kort dagslys.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbejdsark dækker hele dyreriget med vilde, tamme og eksotiske arter på tværs af alle levesteder. Skovarbejdsark fokuserer specifikt på skovøkosystemets arter og deres indbyrdes relationer inden for lagene fra skovbund til kronedække, hvilket giver dybere økologisk systemforståelse frem for bredere artskundskab.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbejdsark spænder bredt over mange miljøtyper som hav, bjerg, ørken og eng. Skovarbejdsark zoomer ind på ét specifikt biom og udforsker dets lagdelte struktur, nedbrydningscyklusser og biodiversitet i dybden, hvilket giver børn en mere fokuseret og detaljeret økosystemforståelse end det bredere naturtema.',
+    },
+    {
+      vsThemeId: 'camping',
+      summary: 'Campingarbejdsark fokuserer på menneskelig aktivitet i naturen med telte, lejrbål, vandreture og overlevelsesevner. Skovarbejdsark fokuserer på selve økosystemet og dets organismer, hvilket gør dem stærkere til naturvidenskabelig læring om biodiversitet, skovlag og økologiske sammenhænge.',
+    },
+    {
+      vsThemeId: 'birds',
+      summary: 'Fuglearbejdsark dækker arter fra alle kontinenter og levesteder med fokus på fjerdragter, næbformer og migration. Skovarbejdsark inkluderer skovfugle som spætter og ugler men placerer dem i konteksten af det samlede skovøkosystem, hvor de interagerer med træer, insekter og andre organismer i et sammenhængende fødenetværk.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'skov farvelægningssider',
+      context: 'For børn der har brug for et roligt og engagerende udgangspunkt, byder vores skov farvelægningssider på detaljerede illustrationer af træer, skovdyr, svampe og lagdelte skovscener, der udvikler finmotorisk kontrol, mens de opbygger fortrolighed med skovøkosystemets visuelle elementer.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'skov find-og-tæl aktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med talforståelse, spreder vores skov find-og-tæl aktiviteter forskellige skovdyr og planter ud over travle skovscener og beder børnene om at optælle hver type, hvilket skærper både observation og aritmetik.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'skov skyggematching opgaver',
+      context: 'For at styrke visuel diskrimination og formgenkendelse udfordrer vores skov skyggematching opgaver børn til at matche træer, dyr og blade med deres silhuetter, en færdighed der direkte understøtter bogstavgenkendelse og rumlig tænkning.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'skov ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer, når børn jager efter økologiord som kronedække, underskov, svamp og bregne i vores skov ordsøgning printbar sider, der indlejrer naturvidenskabeligt sprog i et puslespilformat, der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'odd-one-out',
+      anchorText: 'skov find-den-der-ikke-hører-til',
+      context: 'Kritisk tænkning udvikles naturligt med vores skov find-den-der-ikke-hører-til aktiviteter, hvor børn skal identificere det element der ikke passer ind i en gruppe af skovdyr, blade eller svampe, og formulere deres begrundelse for valget.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En børnehaveklasselærer planlægger et udeskoleforløb om skovøkosystemer, men har brug for strukturerede aktiviteter der forbereder eleverne, inden de tager ud i skoven.',
+      solution: 'Hun bruger skov find-og-tæl-arbejdsark og farvelægningssider i klassen i ugen op til skovturen for at introducere nøgleordforråd som kronedække, skovbund, bark og mos. Eleverne matcher skovdyr med deres lag i et skyggematching-ark og øver sig i at genkende bladformer.',
+      outcome: 'Under skovturen genkender eleverne spontant elementer fra arbejdsarkene. De peger på mosser, finder svampe ved træstammer og bruger ordforråd som skovbund og kronedække korrekt. Læreren rapporterer, at turen blev langt mere fagligt udbytterig end tidligere år uden forberedende arbejdsark.',
+    },
+    {
+      situation: 'En forælder der hjemmeunderviser en seksårig, ønsker at udnytte den danske udeskole-tradition, men bor i en lejlighed i Aarhus uden have og er usikker på, hvordan skovtemaet kan bruges indendørs.',
+      solution: 'Forælderen printer skov-ordsøgninger, billedadditionsark med skovdyr og tegn-linjer-aktiviteter med stier gennem skoven til daglige femten-minutters sessioner. Hver weekend tager de til Marselisborg Skov, hvor barnet udfylder et observationsark med tegninger af fund fra turen.',
+      outcome: 'Barnet udvikler et stabilt ordforråd for skovens elementer og begynder at skelne mellem løvfældende og stedsegrønne træer. Weekendturene får pædagogisk struktur, og barnet bringer blade og kogler hjem som referencematerialer til ugens arbejdsark, hvilket skaber en selvforstærkende læringscyklus.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse vil undervise i nedbrydning og næringsstofkredsløb, men finder at lærebogsmaterialet er for abstrakt for mange elevers forståelsesniveau.',
+      solution: 'Læreren bruger skovarbejdsark med sorteringsopgaver, hvor eleverne klassificerer skovorganismer som producenter, forbrugere eller nedbrydere. Find-og-tæl-ark med svampe, insekter og blade på skovbunden gør tælleøvelser til naturvidenskabelig observation. Ordsøgninger med ord som nedbryder, næringsstof og humus forankrer fagordforråd.',
+      outcome: 'Eleverne demonstrerer solid forståelse af nedbrydningsprocessen og kan forklare, hvordan visne blade omdannes til næring for nye træer. På klasseprøven scorer 85 procent over middel på spørgsmål om næringsstofkredsløb, og læreren bemærker, at de konkrete skovkontekster var nøglen til forståelsen.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og find-og-tæl-arbejdsark som primære aktiviteter. Skovens rige, lagdelte scener med mange detaljer appellerer stærkt til visuelle processorer. Skyggematching med skovsilhuetter og billedsti-labyrinter gennem skovlandskaber tilbyder rige visuelle udfordringer, der holder disse elever engagerede og udvikler deres rumlige forståelse.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med indsamlede naturmaterialer som blade, kogler, barkstykker og mos. Lad børnene sortere og tælle fysiske genstande sideløbende med arbejdsarkets opgaver, så der bygges bro mellem håndfaste manipulationer og papirbaseret læring. Tegn-linjer-aktiviteter og billedstier giver den bevægelsesbaserede styring, kinæstetiske elever trives med.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl, skyggematching og farvelægning, før I introducerer ordbaserede aktiviteter. Skovordforråd som træ, blad, fugl og svamp er konkrete, illustrerbare ord, der kan parres med fysiske genstande og fotos. Tillad navngivning af skovens elementer på begge sprog, og brug ordsøgninger som progressiv staveøvelse.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins-forskningsprojekter, der kombinerer flere arbejdsarktyper: lad dem beregne trælpopulationer med multiplikation, sammenligne to skovbiomer med data fra læsetekster, og skrive deres egne skovøkologi-rapporter. Ordsøgninger med avanceret fagordforråd som fotosyntese, biodiversitet og nedbrydningscyklus tilbyder justerbar sværhedsgrad.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Natur/teknologi',
+      connection: 'Skovarbejdsark forbinder direkte til Fælles Måls kompetencemål for natur/teknologi om organismer, levesteder og økosystemer. Sortering af dyr efter skovlag, identifikation af træarter og forståelse af nedbrydningsprocesser styrker den naturvidenskabelige tænkning, der er central for faget fra indskoling til mellemtrin.',
+      activity: 'Efter et skov-sorteringsarbejdsark tager klassen ud i en nærliggende skov og indsamler prøver fra hvert skovlag: visne blade fra skovbunden, en kvistprøve fra underskoven og et nedfaldet blad fra kronedækket. Eleverne sammenligner deres fund med arbejdsarkets klassifikation.',
+    },
+    {
+      subject: 'Dansk',
+      connection: 'Skovtemaet beriger danskundervisningen med konkret, sansebåret ordforråd som kronedække, underskov, nedbryder, bregne og barktekstur. Læseforståelsestekster om skovøkologi forbinder ordforrådsarbejde med informationssøgning og faglig læsning, hvilket er centralt i Fælles Mål for dansk.',
+      activity: 'Eleverne skriver en kort beskrivende tekst om deres seneste skovtur og bruger mindst fem skovord fra ugens ordsøgning. De illustrerer teksten med tegninger inspireret af farvelægningsarkenes skovscener og præsenterer for en makker.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Skovkontekster giver autentiske rammer for tælling, addition, mønstergenkendelse og senere areal- og omkredsberegning. At tælle skovdyr, sammenligne træhøjder, beregne årringes antal og estimere skovområders størrelse forbinder abstrakt matematik med virkelige naturmiljøer.',
+      activity: 'Efter et billedadditionsarbejdsark med skovdyr tager eleverne ud og tæller træer i et afmålt prøveområde. De bruger multiplikation til at estimere det samlede antal træer i et større skovområde og præsenterer deres beregninger med søjlediagrammer.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Skovøkologi-portfolio',
+      criteria: 'Saml ét arbejdsark om ugen over en måned fra forskellige kategorier: tælling af skovdyr, sortering efter skovlag, ordsøgning med økologiordforråd og farvelægning af skovscener. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, klassifikationsevne, fagordforrådsudvidelse og detaljepræcision i finmotoriske opgaver.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Skovlags-observationstjekliste',
+      criteria: 'Mens eleverne arbejder med skov-sorteringsarbejdsark, notér om de kan placere dyr og planter i det korrekte skovlag (førskole), forklare hvorfor en organisme lever i et bestemt lag (børnehaveklasse) eller beskrive sammenhænge mellem lagene som nedbrydning og næringsstofkredsløb (1. klasse og op). Registrer også fagordforrådsanvendelse under diskussioner.',
+      gradeLevel: 'Førskole til 2. klasse',
+    },
+    {
+      method: 'Skov-forskningsprojekt',
+      criteria: 'Bed eleverne om at vælge ét skovdyr eller ét træ og dokumentere dets rolle i skovøkosystemet med tegninger, korte tekster og data fra arbejdsarkene. Vurdér om de kan identificere mindst tre forbindelser til andre organismer i skoven, bruge korrekt fagordforråd og præsentere informationen i en logisk struktur.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Udnyt den danske udeskole-tradition ved at bruge skovarbejdsark som brobygning mellem klasseværelse og skov. Giv arbejdsark som forberedelse inden en skovtur, så eleverne har ordforråd og faglige rammer klar. Brug derefter arbejdsark efter turen til at strukturere observationer og konsolidere den viden, den sensoriske oplevelse har grundlagt. Denne før-og-efter-tilgang fordobler den faglige udbytte af både arbejdsark og skovtur.',
+      source: 'Bentsen, P., KU — udeskole og skovpædagogik i den danske folkeskole',
+      gradeRange: 'Alle klassetrin',
+    },
+    {
+      tip: 'Brug skovens naturlige lagdeling som ramme for differentieret undervisning. Førskoleelever arbejder med skovbundens store, konkrete elementer som blade og kogler. Børnehaveklassen udforsker underskovens buske og dyr. Mellemtrinnet analyserer kronedækkets komplekse interaktioner. Denne vertikale progression matcher barnets kognitive udvikling med skovens fysiske struktur og skaber en intuitiv ramme for stigende faglig kompleksitet.',
+      source: 'Fælles Mål for natur/teknologi — progressionstænkning i den danske folkeskole',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Integrer skovarbejdsark med årstidsobservation ved at genbesøge det samme skovtema fire gange om året. Lad eleverne udfylde identiske tælle- og observationsark i hver årstid og sammenligne resultaterne. Denne longitudinelle tilgang udvikler videnskabelig tænkning, tålmodighed og forståelse for naturlige cyklusser, som er svær at opnå med korte, isolerede undervisningsforløb.',
+      source: 'Dansk pædagogisk tradition — årstidspædagogik og cyklisk naturobservation',
+      gradeRange: 'Børnehaveklasse til 2. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '11 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Skovøkosystemer udforsket', value: '4 skovlag' },
+  ],
 };
 
 registerThemeContent('forest', 'da', content);

@@ -207,6 +207,81 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['household', 'shapes', 'construction', 'colors', 'school'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 214) --
+
+  uniqueAngle: 'Møbel-arbejdsark indtager en helt særlig position i den danske pædagogiske tradition, fordi Danmark har en verdensberømt designarv, der gør møbler til langt mere end brugsgenstande – de er kulturelle ikoner, der forbinder håndværk, geometri og funktionel æstetik. Når danske børn arbejder med møbel-temaede opgaver, trækker de på en kulturel bevidsthed om designkvalitet, som børn i mange andre lande ikke har. Arne Jacobsens Ægget og Svanen, Hans Wegners Y-stol og Børge Mogensens Tremmesofa er ikke blot møbler, men geometriske kompositioner, der demonstrerer, hvordan cirkler, kurver, rette linjer og vinkler forenes til funktionelle kunstværker. Denne designtradition gør møbel-arbejdsark til en naturlig indgang til rumlig tænkning, fordi hvert møbelstykke i et dansk hjem repræsenterer bevidste designvalg om form, proportion og materialevalg. Forholdsords-arbejdsark udmærker sig særligt i møbelkontekster, fordi møbler definerer rummets struktur – bogen ligger på bordet, katten sidder under stolen, lampen hænger over spisebordet – og disse rumlige beskrivelser er præcist det ordforråd, som understøtter geometri, kortlæsning og beskrivende tekster. Formgenkendelse bliver meningsfuld, når børn opdager, at en bordplade er et rektangel, at stoleben er cylindre, og at en rund lampeskærm er en cirkel. Hverdagens møbler forvandles til geometriske læremidler, der gør abstrakt matematik konkret og håndgribelig. Den danske hygge-kultur, hvor møbler skaber rammerne for samvær og tryghed, giver desuden en følelsesmæssig resonans, der øger barnets engagement og motivation for at arbejde med temaet.',
+
+  researchCitation: 'Dansk designtradition og rumlig tænkning i børnepædagogik. Forskning i rumlig kognition dokumenterer, at børn, der regelmæssigt arbejder med rumlige opgaver – herunder møbelarrangement, forholdsords-øvelser og formidentifikation i hverdagsgenstande – udvikler stærkere matematiske færdigheder, særligt inden for geometri og måling. Den danske designtradition, grundlagt af mestre som Arne Jacobsen, Hans Wegner, Finn Juhl og Poul Henningsen, integrerer geometriske principper i funktionelt design på en måde, der gør designtænkning tilgængelig for børn. Studier i designpædagogik viser, at når børn analyserer møblers form, funktion og materialevalg, styrker de deres evne til flerdimensionel klassificering og kritisk tænkning. Fælles Mål for matematik i den danske folkeskole understreger, at geometri skal forbindes med den fysiske verden, og møbler udgør den mest tilgængelige og velkendte kontekst for denne forbindelse. Rumsans og designtænkning er kernekompetencer i dansk uddannelse, og møbel-arbejdsark understøtter begge gennem praktisk, engagerende læring.',
+
+  snippetDefinition: 'Møbel-arbejdsark er printbare læringsaktiviteter, der bruger illustrationer af stole, borde, senge, hylder og andre møbelgenstande til at undervise børn i rumlig tænkning, geometriske former, forholdsord og funktionel klassificering. De udnytter hverdagsgenstande, som børn kender fra deres eget hjem, til at gøre abstrakte koncepter konkrete og umiddelbart relevante.',
+
+  snippetHowTo: [
+    'Vælg en arbejdsark-generator fra LessonCraftStudio, f.eks. farvelægning, matchning eller forholdsord.',
+    'Vælg møbler-temaet fra temalisten, og tilpas sværhedsgrad og antal elementer efter barnets alder.',
+    'Generér arbejdsarket som printbar PDF, og print det ud eller brug det digitalt.',
+    'Introducér aktiviteten ved at tale om møbler i barnets eget hjem eller klasseværelse.',
+    'Lad barnet gennemføre arbejdsarket selvstændigt, mens du guider ved behov.',
+    'Følg op ved at bede barnet finde lignende møbelgenstande i rummet og beskrive deres placering med forholdsord.',
+    'Gentag med nye opgavetyper for at styrke forskellige færdigheder som formgenkendelse, størrelsessammenligning og mønstergenkendelse.',
+  ],
+
+  limitations: 'Møbel-arbejdsark har naturlige begrænsninger, som lærere og forældre bør være opmærksomme på. Da temaet fokuserer på stillesiddende genstande frem for levende væsener eller dynamiske processer, kan det føles mindre spændende for børn, der motiveres mest af bevægelse og handling – her kan supplerende aktiviteter som at bygge miniaturemøbler af karton eller omorganisere et rigtigt rum hjælpe med at tilføre en kinæstetisk dimension. Kulturelle forskelle i møbeltyper kan betyde, at nogle illustrationer ikke matcher alle børns hjemlige omgivelser, selvom de fleste grundlæggende møbelstykker som stole, borde og senge er universelle. Arbejdsark med tredimensionelle møbler på todimensionelt papir kan udfordre yngre børn, der endnu ikke har udviklet fuld rumlig visualiseringsevne – derfor bør førskolebørn altid have adgang til rigtige genstande eller legetøjsmøbler som supplement. Formgenkendelse i møbelillustrationer kræver et vist abstraktionsniveau, da en tegnet stol er en forenkling af den virkelige genstand, og denne overgang kan kræve vejledning for de yngste elever.',
+
+  themeComparisons: [
+    { vsThemeId: 'household', summary: 'Mens hushold-arbejdsark dækker hele hjemmets spektrum med rumidentifikation, daglige rutiner og sikkerhed, fokuserer møbel-arbejdsark specifikt på de individuelle genstandes geometri, rumlige arrangering og designprincipper. Møbeltemaet går dybere ind i formanalyse og forholdsord, mens hushold giver den bredere kontekst om hjemmelivet.' },
+    { vsThemeId: 'shapes', summary: 'Former-arbejdsark underviser i geometri med abstrakte figurer, mens møbel-arbejdsark viser de samme former i virkelige genstande. Et rektangel er ikke bare en tegning – det er bordpladen, barnet spiser ved. Denne konkrete forbindelse styrker geometriforståelsen, men møbeltemaet dækker også klassificering og forholdsord, som rene formopgaver ikke berører.' },
+    { vsThemeId: 'construction', summary: 'Konstruktions-arbejdsark fokuserer på byggeprocesser, værktøj og materialer, mens møbel-arbejdsark handler om de færdige genstande, deres form, funktion og placering i rum. De to temaer supplerer hinanden: konstruktion forklarer, hvordan møbler bygges, mens møbler viser, hvordan de bruges og arrangeres i rumlig kontekst.' },
+    { vsThemeId: 'colors', summary: 'Farve-arbejdsark udvikler farvegenkendelse og æstetisk bevidsthed, mens møbel-arbejdsark fokuserer på rumlig tænkning og geometri. Kombinationen er naturlig i designkontekster, hvor børn kan drøfte både et møbelstykkes form og farve, men de to temaer træner fundamentalt forskellige kognitive færdigheder.' },
+  ],
+
+  productLinks: [
+    { appId: 'prepositions', anchorText: 'Forholdsords-øvelser med møbler', context: 'Forholdsords-generatoren er særligt velegnet til møbeltemaet, fordi møbler naturligt definerer rumlige relationer: bogen ligger på bordet, katten sidder under stolen, lampen hænger over sofaen.' },
+    { appId: 'coloring', anchorText: 'Farvelæg møbler og ruminteriører', context: 'Farvelægning af detaljerede rumscener med stole, borde, hylder og senge udvikler finmotorik, mens børn samtidig observerer møblernes former og rumlige relationer.' },
+    { appId: 'shadow-match', anchorText: 'Match møbler med deres skygger', context: 'Skyggematchning med møbelgenstande udnytter de karakteristiske silhuetter af stole, lamper og borde til at opbygge visuel skelneevne og rumlig genkendelse.' },
+    { appId: 'picture-sort', anchorText: 'Sortér møbler efter rum og funktion', context: 'Billedsortering lader børn klassificere møbler efter funktion, rum eller materiale og opbygger den flerdimensionelle tænkning, der understøtter videnskabelig klassificering.' },
+    { appId: 'pattern-worksheet', anchorText: 'Møbelmønstre og sekvenser', context: 'Mønstergenkendelse med skiftende møbelgenstande eller gentagne rumindretninger udvikler den algebraiske tænkning, der er grundlæggende for matematik.' },
+  ],
+
+  classroomScenarios: [
+    { situation: 'En børnehaveklasse arbejder med forholdsord, men eleverne har svært ved at skelne mellem på, under og ved siden af i abstrakte øvelser.', solution: 'Læreren bruger møbel-forholdsords-arbejdsark, hvor børnene beskriver, hvor genstande befinder sig i forhold til velkendte møbler: bamsen sidder på stolen, bilen er under bordet, bogen ligger ved siden af lampen. Derefter laver klassen en fysisk aktivitet, hvor de placerer genstande i forhold til klasseværelsets møbler.', outcome: 'Eleverne mestrer forholdsord hurtigere, fordi de konkrete møbelscener matcher deres daglige oplevelser. Rumligt ordforråd forbedres målbart, og børnene begynder spontant at bruge præcise positionsord i deres daglige kommunikation.' },
+    { situation: 'Elever i 2. klasse skal lære om areal og omkreds, men finder de abstrakte formler svære at forstå og huske.', solution: 'Læreren introducerer areal og omkreds gennem møbel-målingsaktiviteter: eleverne måler klasseværelsets borde og skriveborde med linealer, beregner omkredsen af bordplader og tegner skalerede rumlayouts på millimeterpapir. Møbel-arbejdsark med tekstopgaver om møbeloverflade-beregninger forstærker læringen.', outcome: 'Eleverne forstår areal og omkreds som praktiske, brugbare koncepter snarere end abstrakte formler. Testresultaterne i geometri forbedres, og eleverne kan forklare forskellen mellem areal og omkreds med egne ord og virkelige eksempler.' },
+    { situation: 'En SFO-gruppe med blandede aldersgrupper (5-8 år) har brug for en tværfaglig aktivitet, der engagerer alle niveauer.', solution: 'Pædagogen igangsætter et møbeldesign-projekt, hvor yngre børn farvelægger og navngiver møbler, mellemgruppen sorterer møbler efter rum og funktion, og de ældste tegner skalerede rumlayouts og skriver beskrivelser. Alle bruger møbel-arbejdsark tilpasset deres niveau.', outcome: 'Alle aldersgrupper arbejder med det samme tema men på passende niveau, hvilket skaber fælles samtaleemner og samarbejde på tværs af alder. Børnene udviser øget engagement, fordi de kan relatere opgaverne til deres egne hjem og værelser.' },
+  ],
+
+  differentiationStrategies: [
+    { learnerType: 'Visuelle elever', adaptation: 'Fremhæv de stærke visuelle elementer i møbel-arbejdsark ved at bruge farverige rumillustrationer, skyggematchnings-aktiviteter og rumlayout-design på millimeterpapir. Lad visuelle elever tegne deres egne møbelarrangementer og bruge farver til at markere forskellige møbelkategorier. Gittermatchning og mønstergenkendelse med møbelgenstande engagerer direkte den visuelle bearbejdning, som disse elever foretrækker.' },
+    { learnerType: 'Kinæstetiske elever', adaptation: 'Supplér papir-arbejdsark med praktiske aktiviteter: lad børnene bygge miniaturemøbler af karton, pinde og stof, arrangere legetøjsmøbler i et dukkehus eller omorganisere et hjørne af klasseværelset. Brug udklippede møbelstykker, som børn fysisk kan flytte rundt på et rumpapir. Den fysiske manipulation af møbelgenstande i tre dimensioner forstærker den rumlige læring fra todimensionelle arbejdsark.' },
+    { learnerType: 'Tosprogede elever', adaptation: 'Møbeltemaet er ideelt for tosprogede elever, fordi møbler er universelle og visuelt genkendelige uanset sproglig baggrund. Brug billedordbøger med møbelnavne på dansk og barnets modersmål, og lad barnet mærke rigtige møbler i klasseværelset med danske navne. Forholdsords-øvelser med møbelbilleder giver visuel støtte til det rumlige ordforråd, som er afgørende for både matematik og dansk.' },
+    { learnerType: 'Avancerede elever', adaptation: 'Udfordr avancerede elever med komplekse rumlayout-projekter, der kræver arealberegning, budgetplanlægning for møbelindkøb, og skriftlige designrapporter med fagtermer. Introducér dansk designhistorie med Arne Jacobsen og Hans Wegner som inspiration, og lad eleverne analysere de geometriske principper i ikoniske danske møbeldesigns. Tværfaglige opgaver, der forbinder matematik, design og skriftlig fremstilling, giver den dybde, disse elever trives med.' },
+  ],
+
+  crossCurricularLinks: [
+    { subject: 'Matematik', connection: 'Møbler er bygget af geometriske former og har målbare dimensioner, hvilket gør dem til perfekte konkrete modeller for formgenkendelse, areal, omkreds og størrelsessammenligning.', activity: 'Eleverne måler klasseværelsets møbler med linealer, beregner overfladearealet af bordplader og skaber skalerede rumlayouts på millimeterpapir med korrekte proportioner.' },
+    { subject: 'Dansk', connection: 'Møblernes rumlige placering kræver præcist rumligt ordforråd med forholdsord, og møbeldesign og -historie giver rigt materiale til beskrivende og forklarende tekster.', activity: 'Eleverne skriver detaljerede rumbeskrivelser med mindst fem forskellige forholdsord og formulerer forklarende tekster om, hvordan et møbelstykke er designet og fremstillet.' },
+    { subject: 'Håndværk og design', connection: 'Dansk designtradition forbinder møbler direkte med håndværk, materialeforståelse og æstetisk bevidsthed, som er centrale elementer i Fælles Mål for håndværk og design.', activity: 'Eleverne designer og bygger miniaturemøbler af genbrugsmaterialer, overvejer materialevalg og funktionalitet, og præsenterer deres design med fokus på form, funktion og bæredygtighed.' },
+  ],
+
+  assessmentIdeas: [
+    { method: 'Rumlayout-portefølje', criteria: 'Eleven kan designe et rumlayout med mindst fem møbelstykker placeret logisk, beskrive alle genstandes position med korrekte forholdsord og forklare sine designvalg mundtligt eller skriftligt.', gradeLevel: 'Børnehaveklasse – 1. klasse' },
+    { method: 'Møbelgeometri-rapport', criteria: 'Eleven kan identificere mindst fire forskellige geometriske former i møbelgenstande, navngive dem korrekt, beregne areal eller omkreds af mindst to møbeloverflader og præsentere resultaterne i en organiseret tabel.', gradeLevel: '2. – 3. klasse' },
+    { method: 'Formativ observation under sorteringsaktiviteter', criteria: 'Eleven kan sortere møbler efter mindst to forskellige kriterier (rum, funktion, materiale) og forklare sin begrundelse for hver kategorisering med klart sprog og logisk argumentation.', gradeLevel: 'Førskole – Børnehaveklasse' },
+  ],
+
+  expertTips: [
+    { tip: 'Brug danske designikoner som inspiration. Vis billeder af Arne Jacobsens Ægget eller Hans Wegners Y-stol og lad børnene identificere de geometriske former i designet. Denne kulturelle forbindelse gør geometri relevant og styrker børnenes bevidsthed om dansk designarv.', source: 'Pædagogisk praksis i dansk designundervisning', gradeRange: 'Børnehaveklasse – 3. klasse' },
+    { tip: 'Forbind møbel-arbejdsark med hygge-kultur ved at lade børnene designe deres drømme-læsekrog eller hyggehjørne. Denne følelsesmæssige forbindelse øger motivationen markant og giver en meningsfuld kontekst for rumlig planlægning og forholdsords-øvelser.', source: 'Forskning i motivationsbaseret læring', gradeRange: 'Førskole – 2. klasse' },
+    { tip: 'Introducér bæredygtighed og genbrug ved at lade eleverne undersøge, hvilke materialer møbler er lavet af, og drøfte, hvordan man kan genbruge eller reparere møbler. Dette styrker tværfaglige kompetencer og forbinder møbeltemaet med natur/teknologi og samfundsfag.', source: 'Fælles Mål for natur/teknologi', gradeRange: '1. – 3. klasse' },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '10 generatorer' },
+    { label: 'Fagområder dækket', value: 'Matematik, dansk, håndværk og design' },
+    { label: 'Klassetrin understøttet', value: 'Førskole – 3. klasse' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 minutter' },
+    { label: 'Rumlige begreber trænet', value: '12+ forholdsord og positionsord' },
+  ],
 };
 
 registerThemeContent('furniture', 'da', content);

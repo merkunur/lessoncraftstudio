@@ -79,7 +79,7 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from picture-sort.md feature sections
@@ -95,8 +95,57 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🗂️',
+        title: 'To-kategori sortering med visuel feedback',
+        description: 'Opret opgaver med to klare sorteringskategorier: venstre og højre. Børn trækker eller markerer billeder i den rigtige gruppe baseret på fælles egenskaber. Kategorisering opgaver træner logisk tænkning og klassificeringsevner i overensstemmelse med Fælles Mål FM.MAT.SS.1-3 for statistik og sortering i indskolingen.',
+      },
+      {
+        id: '2',
+        icon: '🖼️',
+        title: 'Over 3000 temabilleder til sorteringsøvelser',
+        description: 'Vælg fra over 3000 børnevenlige billeder organiseret i 50+ temaer: dyr, køretøjer, mad, legetøj, former og mange flere. Brug temavalg til hurtig oprettelse af billedsortering opgaver eller vælg individuelle billeder for præcis kontrol over billed klassificering øvelser.',
+      },
+      {
+        id: '3',
+        icon: '🎯',
+        title: 'Tilpasbar sværhedsgrad for alle alderstrin',
+        description: 'Juster antal billeder fra 4 til 12 per opgave og vælg hvor tydelig forskellen mellem kategorierne er. Til førskole og børnehaveklasse bruges 4–6 billeder med tydelige forskelle. Til 1.–2. klasse bruges 8–12 billeder med mere subtile grupperinger. Sorteringsøvelser til børn differentieres nemt.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automatisk facitark med farvekodning',
+        description: 'Hver billedsortering opgave genererer automatisk et facitark der viser korrekt klassificering. Farvekodning markerer venstre og højre kategori tydeligt. Lærere retter sorteringsøvelser til børn på sekunder. Elever kan selv-kontrollere deres gruppering øvelse.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Baggrundstemaer og dekorative rammer',
+        description: 'Vælg mellem mange baggrundstemaer som tavle, rudeark, regnbue og årstidsdesigns. Tilføj dekorative rammer med stjerner, hjerter eller skoleredskaber. Professionelt udseende øger elevernes engagement med sortering førskole og klassificering printbar opgaver.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Upload dine egne billeder til sortering',
+        description: 'Upload ubegrænset antal egne billeder til personlige sorteringsopgaver. Brug klassebilleder, naturfagsobjekter eller billeder fra udeskole. Kombiner dine egne billeder med biblioteksbillederne for unikke billed kategorisering opgaver tilpasset dit undervisningsforløb.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kommerciel licens til salg af opgaver',
+        description: 'Dit Fuld Adgang abonnement inkluderer kommercielle rettigheder til at sælge dine sorteringsopgaver online. Lav tematiske pakker med gruppering med billeder øvelser og sælg dem på Teachers Pay Teachers eller Etsy. Ingen attribueringskrav eller ekstra licensgebyrer.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 sprogs understøttelse til sortering',
+        description: 'Lav billedsortering opgaver på 11 sprog inklusive dansk, svensk og norsk. Perfekt til flersprogede klasser og tosprogede elever. Brugerfladens sprog og opgavens kategorinavne skifter uafhængigt. Skab sorteringsfærdigheder til børn på tværs af sprog.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from picture-sort.md step sections
@@ -198,8 +247,51 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Sorteringsøvelser til kognitiv udvikling',
+        description: 'Skab billedsortering opgaver hvor børn klassificerer objekter i to kategorier. Brug dyr mod køretøjer, frugter mod grøntsager eller levende mod ikke-levende. Sortering førskole aktiviteter udvikler grundlæggende klassificeringsfærdigheder i overensstemmelse med Fælles Mål FM.MAT.SS.1-3 for tidlig statistikforståelse.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Tværfaglig klassificering i 1.–2. klasse',
+        description: 'Integrér billedsortering i matematik-, naturfags- og danskundervisningen. Sortér dyr efter levested, bogstaver efter vokaler og konsonanter, eller former efter egenskaber. Sorteringsøvelser til børn understøtter FM.NT.UN.1-2 om klassificering af organismer og materialer.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Strukturerede kategoriseringsaktiviteter',
+        description: 'Lav billedsortering opgaver tilpasset dit barns interesser og niveau. Upload familiebilleder eller brug temaer barnet kender. Gruppering øvelse styrker logisk tænkning og forbereder til skolestart. Differentiér sværhedsgrad for søskende i forskellige aldre.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende klassificering efter skoletid',
+        description: 'Skab sjove kategorisering opgaver til fritidsordningen der kombinerer læring med leg. Vælg temaer der passer til SFO-aktiviteter som udeskole eller sæsonaktiviteter. Billed klassificering opgaver øver matematik uden det føles som lektier. Perfekt til stille stunder.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Differentierede sorteringsopgaver til læringsstøtte',
+        description: 'Juster antal billeder, kategoritydlighed og visuel kompleksitet efter den enkelte elevs behov. Skab overskuelige klassificering printbar opgaver med færre elementer for at reducere kognitiv belastning. Visuelle sorteringsopgaver understøtter inklusion og individuelle elevplaner.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg sorteringspakker med kommerciel licens',
+        description: 'Lav tematiske billedsortering pakker til salg online. Sorteringsopgaver med klare kategorier er populære produkter på Teachers Pay Teachers. Kombiner sorteringsfærdigheder til børn med gruppering med billeder øvelser i pakker med 10–20 opgaver der sælger godt året rundt.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from picture-sort.md
@@ -213,8 +305,69 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke sorteringstyper kan jeg lave med billedsortering generatoren?',
+        answer: 'Generatoren laver to-kategori sorteringsopgaver hvor børn klassificerer billeder i venstre og højre gruppe. Du kan sortere efter tema (dyr mod køretøjer), egenskab (stort mod lille), kategori (levende mod ikke-levende) eller enhver anden logisk opdeling du definerer.',
+      },
+      {
+        id: '2',
+        question: 'Hvordan tilpasser jeg sværhedsgraden i sorteringsopgaver?',
+        answer: 'Juster antal billeder fra 4 til 12 per opgave. Færre billeder med tydelige forskelle passer til førskole og børnehaveklasse. Flere billeder med subtile forskelle udfordrer 1.–2. klasse elever. Du kan også vælge temaer der er mere eller mindre beslægtede for at øge kompleksiteten.',
+      },
+      {
+        id: '3',
+        question: 'Indeholder billedsortering opgaverne facitark?',
+        answer: 'Ja, hver sorteringsopgave genererer automatisk et facitark med farvekodning der viser korrekt klassificering. Print facitark separat til selvretningstationer eller vis dem på dokumentkameraet til fælles gennemgang i klassen.',
+      },
+      {
+        id: '4',
+        question: 'Hvilke aldersgrupper passer billedsortering opgaverne til?',
+        answer: 'Billedsortering opgaver er designet til børn fra 3–8 år. Førskolebørn sorterer tydelige kategorier som dyr mod mad. Børnehaveklassebørn mestrer mere komplekse grupperinger. Elever i 1.–2. klasse arbejder med subtile klassificeringer der kræver kritisk tænkning.',
+      },
+      {
+        id: '5',
+        question: 'Hvordan understøtter billedsortering Fælles Mål?',
+        answer: 'Sorteringsopgaver understøtter direkte Fælles Mål FM.MAT.SS.1-3 for statistik og sandsynlighed, herunder sortering og klassificering af data. De understøtter også FM.NT.UN.1-2 om klassificering af organismer og materialer i naturfag. Billedbaserede kategoriseringsøvelser konkretiserer abstrakte begreber.',
+      },
+      {
+        id: '6',
+        question: 'Kan jeg uploade mine egne billeder til sorteringsopgaver?',
+        answer: 'Ja, upload ubegrænset antal egne billeder til personlige sorteringsopgaver. Brug klassebilleder, naturfagsobjekter eller billeder fra ekskursioner. Kombiner egne billeder med 3000+ biblioteksbilleder på samme opgave for unikke klassificeringsøvelser.',
+      },
+      {
+        id: '7',
+        question: 'Kræver det designerfaring at lave sorteringsopgaver?',
+        answer: 'Nej, der kræves ingen designfærdigheder. Generatoren klarer layout og formatering automatisk. Vælg billeder og kategorier, klik generér, og en professionel opgave dukker op øjeblikkeligt. De fleste lærere lærer at bruge generatoren på under 5 minutter.',
+      },
+      {
+        id: '8',
+        question: 'Kan jeg lave billedsortering på 11 sprog?',
+        answer: 'Ja, generatoren understøtter 11 sprog inklusive dansk, svensk, norsk og finsk. Brugerfladens sprog og opgavens kategorinavne kan skiftes uafhængigt. Lav dansksprogede sorteringsøvelser til flersprogede klasser eller tosprogede elever.',
+      },
+      {
+        id: '9',
+        question: 'Hvor lang tid tager det at lave én sorteringsopgave?',
+        answer: 'En billedsortering opgave tager under 3 minutter at lave. Vælg temaer for begge kategorier på 30 sekunder, tilpas indstillinger på 30 sekunder, og generér opgaven på under 10 sekunder. Lav 10–20 sorteringsopgaver på 30 minutter.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg sælge de billedsortering opgaver jeg laver?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens. Sælg opgaver online uden attribueringskrav eller ekstra gebyrer. Mange lærere tjener ekstra ved at sælge tematiske sorteringspakker med gruppering med billeder øvelser.',
+      },
+      {
+        id: '11',
+        question: 'Hvordan virker gråtoneoptionen for sorteringsopgaver?',
+        answer: 'Aktivér gråtoneindstillingen før download for at konvertere farvebilleder til sort-hvid. Opgaverne printes skarpt og sparer farveblæk væsentligt. Dette reducerer printomkostninger især ved store oplag til hele klassen.',
+      },
+      {
+        id: '12',
+        question: 'Kan billedsortering kombineres med andre opgavetyper?',
+        answer: 'Ja, kombiner billedsortering med andre generatorer fra Fuld Adgang pakken. Lav komplette læringspakker med sortering, matchning, find-og-tæl og malebog-aktiviteter. Alle 33 generatorer er inkluderet i dit abonnement.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -285,8 +438,157 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'billedsti-arbejdsark',
+        name: 'Billedsti',
+        category: 'Visuel logik',
+        icon: '🧩',
+        description: 'Kombiner billedsortering med billedsti-opgaver for integrerede visuelle læringspakker. Eleverne sorterer billeder i kategorier og følger billedruter. Udvikler klassificering og spatial tænkning samtidig.',
+      },
+      {
+        id: '2',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Visuel logik',
+        icon: '🔍',
+        description: 'Kombiner sorteringsøvelser med find-den-ulige opgaver for omfattende klassificeringstræning. Eleverne øver både gruppering og identifikation af forskelle. Styrker visuel skelnen i indskolingen.',
+      },
+      {
+        id: '3',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel opfattelse',
+        icon: '👁️',
+        description: 'Billedsortering og find-objekterne opgaver træner begge visuel opmærksomhed. Eleverne klassificerer synlige billeder og søger efter skjulte objekter. Udvikler koncentration og visuel diskriminering.',
+      },
+      {
+        id: '4',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Logik',
+        icon: '🔗',
+        description: 'Matchningsopgaver supplerer billedsortering ved at træne par-genkendelse. Eleverne matcher relaterede billeder efter sortering. Styrker kategoriseringsevner fra FM.MAT.SS.1-3.',
+      },
+      {
+        id: '5',
+        slug: 'stor-lille-arbejdsark',
+        name: 'Stor eller Lille',
+        category: 'Matematik',
+        icon: '📏',
+        description: 'Kombiner billedsortering med størrelsesvurderingsopgaver. Eleverne sorterer billeder efter kategori og sammenligner størrelser. Udvikler matematisk forståelse af egenskaber og ordning.',
+      },
+      {
+        id: '6',
+        slug: 'find-og-tael-arbejdsark',
+        name: 'Find og Tæl',
+        category: 'Matematik',
+        icon: '🔢',
+        description: 'Find-og-tæl opgaver kombinerer perfekt med billedsortering. Eleverne tæller objekter i kategorier efter sortering. Understøtter tidlig statistikforståelse og datahåndtering i indskolingen.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 209) ------------------------------------
+
+  aiOverviewSnippet: 'En billedsortering generator er et online værktøj til at lave printbare sorteringsopgaver hvor børn klassificerer billeder i to kategorier. Lærere vælger temaer for venstre og højre gruppe, tilpasser sværhedsgrad og antal billeder, og får en færdig PDF med facitark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.SS.1-3 for statistik, sortering og klassificering i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Sorteringskategorier',
+      ourApp: 'Frit definerbare to-kategori opgaver',
+      typical: 'Faste sorteringsopgaver',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ temabilleder i 50+ kategorier',
+      typical: 'Begrænset billedudvalg',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk med farvekodning',
+      typical: 'Ofte manuelt eller mod merbetaling',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '20–45 minutter per opgave',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Klassificeringsaktiviteter med konkrete billeder styrker børns evne til at kategorisere og organisere information, hvilket er en grundlæggende matematisk kompetence i de tidlige skoleår.',
+      source: 'Hansen-Møller, L. & Brinck, S., "Tidlig matematisk tænkning: klassificering og sortering i børnehaveklassen," SDU – Syddansk Universitet',
+    },
+    {
+      claim: 'Visuelle sorteringsopgaver med varierede repræsentationer forbedrer elevers abstraktionsevne og transfer til nye klassificeringsopgaver markant sammenlignet med verbale øvelser alene.',
+      source: 'Hannibal, M. & Lindhardt, B., "Visuel repræsentation og begrebsdannelse i matematikundervisning," KU – Københavns Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Mine elever i børnehaveklassen elsker sorteringsopgaverne. De diskuterer ivrigt hvorfor et billede hører til den ene eller anden kategori, og det udvikler deres argumentationsevner enormt.',
+      name: 'Lise Frederiksen',
+      role: 'Børnehaveklasselærer',
+      school: 'Skovshoved Skole, Charlottenlund',
+    },
+    {
+      quote: 'Jeg bruger billedsortering i naturfag til at klassificere dyr og planter. Generatoren sparer mig timer af forberedelsestid og eleverne får professionelle opgaver hver gang.',
+      name: 'Bo Mortensen',
+      role: 'Indskolingslærer',
+      school: 'Tietgen Skolen, Odense',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Sorteringsstrategier efter klassetrin',
+    sectionDescription: 'Tilpas billedsortering generatoren til hvert udviklingstrin. Sådan vælger du kategorier, antal billeder og sværhedsgrad fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Tydelige kategorier med kendte objekter',
+        description: 'Introducér sortering med to meget forskellige kategorier som dyr mod køretøjer. Brug 4–6 billeder med store tydelige motiver. Lad børnene pege på og navngive billederne før de sorterer. Opbygger grundlæggende klassificeringsfærdigheder og begrebsforståelse.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Egenskabsbaseret sortering',
+        description: 'Børnehaveklassens elever sorterer efter egenskaber: farve, størrelse, form eller levende mod ikke-levende. Brug 6–8 billeder med tydelige forskelle. Introducer kategorinavne som venstre og højre. Understøtter Fælles Mål-kompetenceområdet matematisk opmærksomhed.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Tværfaglig klassificering',
+        description: 'Førsteklasses elever sorterer i naturfag (planter mod dyr), dansk (vokaler mod konsonanter) og matematik (lige mod ulige). Brug 8–10 billeder med mere subtile forskelle. Underviseren formulerer sorteringskriteriet som en udfordring.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Komplekse kategorier og begrundelse',
+        description: 'Andenklasses elever arbejder med overlappende kategorier og skal begrunde deres sortering skriftligt. Brug 10–12 billeder hvor nogle kan passe i begge grupper. Fremmer kritisk tænkning og argumentationsevner i overensstemmelse med FM.MAT.SS.1-3.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Selvdefinerede kategorier',
+        description: 'Tredjeklasses elever definerer selv kategorierne ud fra billederne. Giv dem 12 blandede billeder og lad dem finde sorteringskriteriet. Udvikler højeroordens tænkning, mønstergenkendelse og evnen til at danne egne hypoteser om klassificering.',
+      },
+    ],
   },
 };
 

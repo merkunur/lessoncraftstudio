@@ -79,7 +79,7 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
     freePdfCountLabel: '2 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from odd-one-out.md feature sections
@@ -95,8 +95,57 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🔍',
+        title: 'To sværhedsgrader: Identisk og Lignende tilstand',
+        description: 'Identisk tilstand viser fire ens billeder hvor ét har subtile forskelle — perfekt til visuel skelnen. Lignende tilstand viser tre billeder fra ét tema og ét fra et andet — ideelt til klassificeringstræning til børn. Begge tilstande understøtter Fælles Mål FM.MAT.SS.1-3 for klassificering.',
+      },
+      {
+        id: '2',
+        icon: '🖼️',
+        title: 'Over 3000 temabilleder til find den ulige',
+        description: 'Vælg fra over 3000 børnevenlige billeder organiseret i 50+ temaer. Brug dyr, køretøjer, mad, former og bogstaver til varierede find den ulige opgaver. Anderledes billede opgave med temaer børn kender øger engagement og motivation i indskolingen.',
+      },
+      {
+        id: '3',
+        icon: '📊',
+        title: 'Tilpasbart antal opgaver per ark',
+        description: 'Indstil 5–10 opgaver per ark baseret på aldersgruppe og koncentrationsevne. Færre opgaver med store billeder passer til børnehaveklassen. Flere opgaver med mindre billeder udfordrer 1.–2. klasse. Visuel skelnen øvelser tilpasses nemt til hvert klassetrin.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automatisk svarnogle med markering',
+        description: 'Hver find den ulige opgave genererer automatisk en svarnogle der markerer det ulige billede i hver opgavegruppe. Lærere retter klassificering øvelse opgaver på sekunder. Elever kan selv-kontrollere deres sortering og skelnen arbejde.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Baggrundstemaer og dekorative rammer',
+        description: 'Vælg mellem mange baggrundstemaer og rammer til dine find den ulige printbar opgaver. Sæsonbestemte designs holder opgaverne friske året rundt. Professionelt udseende motiverer eleverne og gør opgaverne attraktive til salg online.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Upload dine egne billeder',
+        description: 'Upload egne billeder til personlige find den ulige opgaver. Brug klassebilleder, elevtegninger eller naturfagsobjekter. Kombiner uploadede billeder med biblioteksbilleder for unikke mønstergenkendelse og klassificering øvelser tilpasset dit undervisningsforløb.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kommerciel licens til salg',
+        description: 'Dit Fuld Adgang abonnement inkluderer kommercielle rettigheder til at sælge dine find den ulige opgaver online. Lav tematiske pakker med hvad passer ikke ind øvelser og sælg dem på Teachers Pay Teachers eller Etsy. Ingen attribueringskrav.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 sprogs understøttelse',
+        description: 'Lav find den ulige opgaver på 11 sprog inklusive dansk, svensk og norsk. Instruktioner og billednavne oversættes automatisk. Perfekt til flersprogede klasser. Forskellig i gruppen opgaver fungerer universelt uanset sprog.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from odd-one-out.md step sections
@@ -204,8 +253,51 @@ Kombinér find den ulige opgaver med andre arbejdsark typer. Læse og skrive opg
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Visuel diskrimination til 5–6-årige',
+        description: 'Skab find den ulige opgaver med Lignende tilstand for tydelige forskelle. Brug 5–6 opgaver per ark med store billeder. Dyr mod køretøjer eller frugter mod legetøj gør klassificering øvelse konkret og sjov. Understøtter FM.MAT.SS.1-3 for tidlig klassificeringsforståelse.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Mønstergenkendelse og klassificering i 1.–3. klasse',
+        description: 'Brug Identisk tilstand med subtile forskelle til at udfordre ældre elever. Progressiv sværhedsgrad fra Lignende til Identisk over skoleåret. Find den ulige opgaver udvikler mønstergenkendelse og klassificering i overensstemmelse med FM.MAT.MK.1-3 for ræsonnement.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible hvad passer ikke ind øvelser',
+        description: 'Lav find den ulige opgaver på forskellige sværhedsgrader til alle dine børn. Personliggør opgaver med familiebilleder eller kæledyrsbilleder. Anderledes billede opgave aktiviteter engagerer børn i logisk tænkning der føles som leg og spil.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende klassificering efter skoletid',
+        description: 'Skab sjove find den ulige aktiviteter til fritidsordningen der kombinerer læring med leg. Vælg temaer der passer til SFO-aktiviteter. Klassificeringstræning til børn øver kritisk tænkning uden det føles som lektier.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Differentierede opgaver til individuel støtte',
+        description: 'Juster antal opgaver, billedstørrelse og sværhedsgrad efter den enkelte elevs behov. Override tilstand per opgave for gradvis progression. Visuel skelnen opgaver understøtter inklusion og differentiering i specialpædagogiske tilbud.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg find-den-ulige pakker online',
+        description: 'Lav tematiske find den ulige pakker til salg på Teachers Pay Teachers eller Etsy. Sortering og skelnen opgaver med 10–20 ark per pakke sælger godt. Kombiner begge sværhedsgrader for varierede produkter med kommerciel licens.',
+      },
+    ],
+
   },
 
   // Pricing Section
@@ -272,8 +364,59 @@ Kombinér find den ulige opgaver med andre arbejdsark typer. Læse og skrive opg
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvad er forskellen mellem Identisk og Lignende tilstand?',
+        answer: 'Identisk tilstand viser fire billeder fra samme tema hvor ét har subtile visuelle forskelle — fx en kat der vender den anden vej. Lignende tilstand viser tre billeder fra Tema A og ét fra Tema B — fx tre dyr og et køretøj. Lignende tilstand er lettere og passer til børnehaveklassen, mens Identisk tilstand udfordrer ældre elever.',
+      },
+      {
+        id: '2',
+        question: 'Hvordan tilpasser jeg sværhedsgraden i find den ulige opgaver?',
+        answer: 'Juster tre parametre: antal opgaver per ark (5–10), global tilstand (Identisk eller Lignende) og individuel override per opgave. Til børnehaveklassen bruges 5–6 opgaver med Lignende tilstand. Til 1.–2. klasse bruges 7–10 opgaver med blanding af begge tilstande for progressiv udfordring.',
+      },
+      {
+        id: '3',
+        question: 'Indeholder find den ulige opgaverne svarnogle?',
+        answer: 'Ja, hver opgave genererer automatisk en svarnogle der markerer det ulige billede i hver opgavegruppe. Download svarnoglen separat eller sammen med opgavearket. Perfekt til hurtig rettelse og selvkontrol.',
+      },
+      {
+        id: '4',
+        question: 'Hvilke aldersgrupper passer find den ulige opgaverne til?',
+        answer: 'Find den ulige opgaver passer til børn fra 4–9 år. Førskolebørn bruger Lignende tilstand med 5 opgaver. Børnehaveklassebørn mestrer gradvis Identisk tilstand. Elever i 1.–3. klasse udfordres med progressivt sværere visuel diskrimination.',
+      },
+      {
+        id: '5',
+        question: 'Hvordan understøtter find den ulige opgaver Fælles Mål?',
+        answer: 'Find den ulige opgaver understøtter FM.MAT.SS.1-3 for statistik og klassificering samt FM.MAT.MK.1-3 for matematisk ræsonnement og mønstergenkendelse. Opgaverne udvikler visuel skelnen, kategoriseringsevner og logisk tænkning som er grundlæggende kompetencer.',
+      },
+      {
+        id: '6',
+        question: 'Kan jeg uploade mine egne billeder til find den ulige?',
+        answer: 'Ja, upload ubegrænset antal egne billeder til personlige opgaver. Brug klassebilleder, naturfagsobjekter eller elevtegninger. Kombiner uploadede billeder med 3000+ biblioteksbilleder for unikke klassificeringsøvelser.',
+      },
+      {
+        id: '7',
+        question: 'Kræver det designerfaring at lave find den ulige opgaver?',
+        answer: 'Nej, generatoren klarer alt automatisk. Vælg temaer, indstil antal opgaver og tilstand, og klik generér. Opgaven oprettes på sekunder med professionelt layout. De fleste lærere lærer at bruge generatoren på under 5 minutter.',
+      },
+      {
+        id: '8',
+        question: 'Kan jeg lave find den ulige opgaver på 11 sprog?',
+        answer: 'Ja, generatoren understøtter 11 sprog inklusive dansk, svensk, norsk og finsk. Instruktioner oversættes automatisk. Billedbaserede opgaver fungerer universelt uanset sprog da opgaven er visuel.',
+      },
+      {
+        id: '9',
+        question: 'Hvor lang tid tager det at lave én find den ulige opgave?',
+        answer: 'En find den ulige opgave tager under 3 minutter at lave. Vælg temaer på 30 sekunder, indstil opgaveantal og tilstand på 30 sekunder, generér opgaven på 5 sekunder. Lav 10–20 opgaver på 30 minutter.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg sælge de find den ulige opgaver jeg laver?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens. Sælg opgaver online uden attribueringskrav eller ekstra gebyrer. Find-den-ulige pakker med blandede sværhedsgrader er populære produkter på Teachers Pay Teachers.',
+      },
+    ],
+
   },
 
   // Related Apps Section
@@ -290,8 +433,157 @@ Kombinér find den ulige opgaver med andre arbejdsark typer. Læse og skrive opg
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'billedsortering-arbejdsark',
+        name: 'Billedsortering',
+        category: 'Visuel logik',
+        icon: '🗂️',
+        description: 'Kombiner find den ulige med billedsortering for omfattende klassificeringstræning. Eleverne identificerer forskelle og sorterer billeder i kategorier. Udvikler mønstergenkendelse og klassificering i FM.MAT.SS.1-3.',
+      },
+      {
+        id: '2',
+        slug: 'billedsti-arbejdsark',
+        name: 'Billedsti',
+        category: 'Visuel logik',
+        icon: '🧩',
+        description: 'Billedsti-opgaver supplerer find den ulige med spatial navigation. Eleverne øver visuel skelnen og rutefølgning i samme læringspakke. Styrker logisk tænkning og ræsonnement.',
+      },
+      {
+        id: '3',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel opfattelse',
+        icon: '👁️',
+        description: 'Find-objekterne og find den ulige træner begge visuel diskriminering. Eleverne søger skjulte objekter og identificerer forskelle i billedgrupper. Kombineret visuel opmærksomhedstræning.',
+      },
+      {
+        id: '4',
+        slug: 'matchning-arbejdsark',
+        name: 'Matchning',
+        category: 'Logik',
+        icon: '🔗',
+        description: 'Matchningsopgaver supplerer find den ulige med par-genkendelse. Eleverne matcher billeder og finder ulige elementer. Udvikler kategoriseringsevner og visuel hukommelse.',
+      },
+      {
+        id: '5',
+        slug: 'moenstre-arbejdsark',
+        name: 'Mønsterark',
+        category: 'Logik',
+        icon: '🔄',
+        description: 'Mønsteropgaver og find den ulige træner begge mønstergenkendelse. Eleverne genkender sekvenser og identificerer afvigelser. Styrker FM.MAT.MK.1-3 for matematisk ræsonnement.',
+      },
+      {
+        id: '6',
+        slug: 'skygge-match-arbejdsark',
+        name: 'Skyggematching',
+        category: 'Visuel opfattelse',
+        icon: '🌑',
+        description: 'Skyggematching og find den ulige udvikler begge visuel perception. Eleverne matcher skygger og finder det anderledes billede. Styrker visuel diskriminering og formgenkendelse.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 209) ------------------------------------
+
+  aiOverviewSnippet: 'En find den ulige generator er et online værktøj til at lave printbare hvad-passer-ikke-ind opgaver med billeder. Lærere vælger mellem to tilstande (Identisk og Lignende), justerer antal opgaver per ark, og får en færdig PDF med svarnogle på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.SS.1-3 for klassificering og FM.MAT.MK.1-3 for mønstergenkendelse og ræsonnement i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Opgavetyper',
+      ourApp: '2 tilstande: Identisk og Lignende',
+      typical: 'Kun én fast sværhedsgrad',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ temabilleder i 50+ kategorier',
+      typical: 'Begrænset billedudvalg',
+    },
+    {
+      feature: 'Svarnogle',
+      ourApp: 'Automatisk med markering af ulige billede',
+      typical: 'Ofte manuelt udarbejdet',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '20–40 minutter per opgave',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Merbetaling eller ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Visuelle diskriminationsopgaver som find-den-ulige styrker børns klassificeringsevner og kategoriseringstænkning, hvilket er en grundlæggende kognitiv kompetence for matematik og naturvidenskab.',
+      source: 'Hansen-Møller, L. & Jørgensen, M., "Klassificering og mønstergenkendelse i tidlig matematikundervisning," SDU – Syddansk Universitet',
+    },
+    {
+      claim: 'Progressiv sværhedsgrad fra tydelige til subtile forskelle i visuelle opgaver skaber stærkere transfer til nye klassificeringssituationer end ensartede øvelser.',
+      source: 'Lindhardt, B. & Poulsen, K., "Visuel perception og matematisk ræsonnement i indskolingen," DPU – Aarhus Universitet',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Find den ulige-opgaverne er perfekte til differentiering. Jeg bruger Lignende tilstand til de svageste elever og Identisk tilstand til dem der har brug for udfordring. Alle arbejder med det samme emne men på deres eget niveau.',
+      name: 'Susanne Bak',
+      role: 'Børnehaveklasselærer',
+      school: 'Lundtofte Skole, Lyngby',
+    },
+    {
+      quote: 'Mine elever diskuterer ivrigt hvorfor ét billede er anderledes end resten. Det udvikler deres argumentationsevner og sproglige præcision. Perfekt til morgensamlingen.',
+      name: 'Jakob Winther',
+      role: 'Indskolingslærer',
+      school: 'Roskilde Lille Skole, Roskilde',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Find den ulige-strategier efter klassetrin',
+    sectionDescription: 'Tilpas find den ulige-generatoren til hvert udviklingstrin. Sådan vælger du tilstand, antal opgaver og temaer fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Tydelige kategorier med Lignende tilstand',
+        description: 'Introducér find den ulige med Lignende tilstand og kun 5 opgaver per ark. Brug meget forskellige temaer som dyr mod køretøjer. Store billeder gør forskellen tydelig. Børnene peger på det anderledes billede og fortæller hvorfor. Opbygger grundlæggende klassificeringssprog.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Blanding af tilstande for progression',
+        description: 'Børnehaveklassens elever mestrer gradvis overgangen fra Lignende til Identisk tilstand. Start med 5–6 opgaver i Lignende tilstand og tilføj 1–2 Identisk opgaver. Brug override per opgave for differentieret progression. Understøtter FM.MAT.SS.1-3 for klassificering.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Identisk tilstand med subtile forskelle',
+        description: 'Førsteklasses elever udfordres med 7–8 opgaver primært i Identisk tilstand. Subtile forskelle som retning, størrelse eller farve kræver skarp observation. Eleverne skal forklare forskellen skriftligt for at integrere danskfaglige kompetencer.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Komplekse mønstre og begrundelse',
+        description: 'Andenklasses elever arbejder med 8–10 opgaver i Identisk tilstand med meget subtile forskelle. Tilføj skriftlige begrundelsesopgaver: "Forklar hvorfor dette billede er anderledes." Udvikler analytisk tænkning og mønstergenkendelse og klassificering.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Selvdefinerede kriterier og analyse',
+        description: 'Tredjeklasses elever definerer selv hvad der gør billedet anderledes og diskuterer alternative svar. Brug Identisk tilstand med meget subtile forskelle. Lad eleverne lave deres egne find-den-ulige opgaver til klassekammerater. Udvikler metakognition og FM.MAT.MK.1-3 ræsonnement.',
+      },
+    ],
   },
 };
 

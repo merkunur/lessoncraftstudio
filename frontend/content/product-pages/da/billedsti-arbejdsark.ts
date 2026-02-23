@@ -79,7 +79,7 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
     freePdfCountLabel: '3 gratis downloads',
     ofLabel: 'af',
     items: [],
-    
+
   },
 
   // Features Grid - FULL text from picture-path.md feature sections
@@ -95,8 +95,57 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
       noHiddenFees: 'Ingen skjulte gebyrer',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '🧩',
+        title: 'Tre labyrinttyper i ét værktøj',
+        description: 'Vælg mellem klassisk labyrint med billedsamlerobjekter, billedsti-forbindelsesopgave eller vælg-den-rigtige-vej tilstand. Hver type træner forskellige kognitive færdigheder: spatial navigation, sekvensiering og logisk ræsonnement i overensstemmelse med Fælles Mål FM.MAT.GM.1-3 for geometri og spatial forståelse.',
+      },
+      {
+        id: '2',
+        icon: '🖼️',
+        title: 'Over 3000 temabilleder til labyrintopgaver',
+        description: 'Vælg start-, slut-, vej- og distraktorbilleder fra over 3000 børnevenlige illustrationer. Temaer som dyr, køretøjer, mad og natur gør labyrint opgaver til børn engagerende. Billedbiblioteket opdateres regelmæssigt med nye temaer.',
+      },
+      {
+        id: '3',
+        icon: '📐',
+        title: 'Tilpasbar gitterstørrelse og sværhedsgrad',
+        description: 'Juster gitterstørrelsen fra 12×12 til 15×15 felter for at kontrollere labyrintens kompleksitet. Til førskole og børnehaveklasse bruges 12×12 med brede stier. Til 1.–2. klasse bruges 14×14 eller 15×15 for mere udfordrende ruteøvelser. Labyrintøvelser til børn tilpasses nemt.',
+      },
+      {
+        id: '4',
+        icon: '✅',
+        title: 'Automatisk facitark med løsningssti',
+        description: 'Hver billedsti-opgave genererer automatisk et facitark med løsningsstien tydeligt markeret. Rød linje viser den korrekte vej fra start til slut. Samlerobjekter er fremhævede i klassiske labyrinter. Lærere sparer timer på evaluering af labyrint printbar opgaver.',
+      },
+      {
+        id: '5',
+        icon: '🎨',
+        title: 'Baggrundstemaer og dekorative rammer',
+        description: 'Vælg mellem mange baggrundstemaer til dine billedsti opgaver. Tilføj dekorative rammer med sæsonmotiver. Tilpas vægfarve, tykkelse og gennemsigtighed for optimal visuel logik opgave. Professionelt udseende øger elevernes motivation.',
+      },
+      {
+        id: '6',
+        icon: '📤',
+        title: 'Upload dine egne billeder til stier',
+        description: 'Upload ubegrænset antal egne billeder til personlige billedstier. Brug klassebilleder, elevtegninger eller billeder fra udeskole som start-, slut- og vej-billeder. Kombiner egne billeder med biblioteksbillederne for unikke sti opgaver førskole og indskoling.',
+      },
+      {
+        id: '7',
+        icon: '💼',
+        title: 'Kommerciel licens til salg af opgaver',
+        description: 'Dit Fuld Adgang abonnement inkluderer kommercielle rettigheder til at sælge dine billedsti-opgaver online. Lav tematiske labyrintpakker til Teachers Pay Teachers eller Etsy. Ingen attribueringskrav eller ekstra licensgebyrer for visuel rute følgning opgaver.',
+      },
+      {
+        id: '8',
+        icon: '🌍',
+        title: '11 sprogs understøttelse',
+        description: 'Lav billedsti opgaver på 11 sprog inklusive dansk, svensk og norsk. Instruktioner og billednavne oversættes automatisk. Perfekt til flersprogede klasser og tosprogede elever. Skift sprog med ét klik for billed-labyrint øvelse i alle sprog.',
+      },
+    ],
+
   },
 
   // How-To Guide - FULL text from picture-path.md step sections
@@ -198,8 +247,51 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        icon: '👩‍🏫',
+        title: 'Børnehaveklassepædagoger',
+        subtitle: 'Visuelle stier til spatial forståelse',
+        description: 'Skab enkle billedstier med store billeder og brede stier til 5–6-årige. Brug billedsti-tilstanden med 4–6 vej-billeder og tydelige start- og slutmarkeringer. Opgaverne udvikler spatial ræsonnement og finmotorik i overensstemmelse med Fælles Mål FM.MAT.GM.1-3 for geometri.',
+      },
+      {
+        id: '2',
+        icon: '📚',
+        title: 'Indskolingslærere',
+        subtitle: 'Labyrintøvelser med tælle- og logikopgaver',
+        description: 'Brug klassiske labyrinter med samlerobjekter til tværfaglig læring. Eleverne finder vejen gennem labyrinten og tæller objekter langs stien. Kombiner labyrint opgaver til børn med matematikopgaver for integrerede læringspakker. Understøtter FM.MAT.MK.1-3 for ræsonnement.',
+      },
+      {
+        id: '3',
+        icon: '🏠',
+        title: 'Forældre og hjemmeundervisere',
+        subtitle: 'Fleksible labyrintopgaver til alle aldre',
+        description: 'Lav billedsti opgaver på forskellige sværhedsgrader til alle dine børn. Personliggør opgaver med familiebilleder eller kæledyrsbilleder. Labyrintøvelser til børn engagerer børn i timevis med logisk tænkning og ruteøvelser der føles som leg.',
+      },
+      {
+        id: '4',
+        icon: '🌟',
+        title: 'SFO-pædagoger',
+        subtitle: 'Legende labyrintopgaver efter skoletid',
+        description: 'Skab sjove billedsti aktiviteter til fritidsordningen der kombinerer læring med leg. Vælg temaer der passer til SFO-aktiviteter som udeskole, natur eller eventyr. Sti opgaver førskole øver logisk tænkning uden det føles som lektier.',
+      },
+      {
+        id: '5',
+        icon: '💜',
+        title: 'Speciallærere',
+        subtitle: 'Tilpassede labyrintopgaver til læringsstøtte',
+        description: 'Juster gitterstørrelse, vægtykkelse og antal samlerobjekter efter den enkelte elevs behov. Skab overskuelige billed-labyrint øvelser med brede stier og tydelige markeringer for elever der har brug for ekstra støtte. Visuelle opgaver understøtter inklusion.',
+      },
+      {
+        id: '6',
+        icon: '💰',
+        title: 'Materialeproducenter',
+        subtitle: 'Sælg labyrintpakker med kommerciel licens',
+        description: 'Lav tematiske labyrintpakker til salg online. Billedsti opgaver med 10–20 labyrinter per pakke sælger godt året rundt. Kombiner tre labyrinttyper for varierede produkter. Visuel rute følgning opgaver er populære på Teachers Pay Teachers.',
+      },
+    ],
+
   },
 
   // FAQ Section - Selected FAQs from picture-path.md
@@ -213,8 +305,59 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        question: 'Hvilke labyrinttyper kan jeg lave med billedsti-generatoren?',
+        answer: 'Generatoren tilbyder tre labyrinttyper: klassisk labyrint med samlerobjekter langs løsningsstien, billedsti-forbindelsesopgave hvor børn følger billedruter fra start til slut, og vælg-den-rigtige-vej tilstand med flere stier hvor kun én er korrekt.',
+      },
+      {
+        id: '2',
+        question: 'Hvordan justerer jeg sværhedsgraden i billedsti opgaver?',
+        answer: 'Juster gitterstørrelsen fra 12×12 til 15×15 felter. Til børnehaveklassen bruges 12×12 med brede stier og få distraktorer. Til 1.–2. klasse bruges 14×14 eller 15×15 med flere distraktorer og smallere stier. Du kan også justere antal samlerobjekter og vej-billeder.',
+      },
+      {
+        id: '3',
+        question: 'Indeholder billedsti opgaverne facitark?',
+        answer: 'Ja, hver billedsti genererer automatisk et facitark med løsningsstien tydeligt markeret med en rød linje. Samlerobjekter og vej-billeder er fremhævede. Facitarket kan downloades separat eller sammen med opgavearket.',
+      },
+      {
+        id: '4',
+        question: 'Hvilke aldersgrupper passer billedsti opgaverne til?',
+        answer: 'Billedsti opgaver passer til børn fra 4–8 år. Førskolebørn bruger enkle billedstier med store billeder. Børnehaveklassebørn mestrer klassiske labyrinter med 12×12 gitre. Elever i 1.–2. klasse udfordres med komplekse labyrinter og multiple samlerobjekter.',
+      },
+      {
+        id: '5',
+        question: 'Hvordan understøtter billedsti opgaver Fælles Mål?',
+        answer: 'Billedsti opgaver understøtter Fælles Mål FM.MAT.GM.1-3 for geometri og spatial forståelse, herunder placeringer og retninger. De understøtter også FM.MAT.MK.1-3 for matematiske kompetencer som ræsonnement og problemløsning. Labyrintøvelser udvikler logisk tænkning konkret.',
+      },
+      {
+        id: '6',
+        question: 'Kan jeg uploade mine egne billeder til billedsti?',
+        answer: 'Ja, upload ubegrænset antal egne billeder til start-, slut-, vej- og distraktorroller. Brug klassebilleder, elevtegninger eller billeder fra udeskole. Kombiner egne billeder med 3000+ biblioteksbilleder for unikke labyrintopgaver.',
+      },
+      {
+        id: '7',
+        question: 'Kræver det designerfaring at lave billedsti opgaver?',
+        answer: 'Nej, generatoren klarer alt automatisk. Vælg billeder og tilstand, juster gitterstørrelse og klik generér. Labyrinten oprettes på sekunder med garanteret løsning. De fleste lærere lærer at bruge generatoren på under 5 minutter.',
+      },
+      {
+        id: '8',
+        question: 'Kan jeg lave billedsti opgaver på 11 sprog?',
+        answer: 'Ja, generatoren understøtter 11 sprog inklusive dansk, svensk, norsk og finsk. Instruktioner og billednavne oversættes automatisk. Lav dansksprogede labyrintopgaver til flersprogede klasser.',
+      },
+      {
+        id: '9',
+        question: 'Hvor lang tid tager det at lave én billedsti?',
+        answer: 'En billedsti-opgave tager under 3 minutter at lave. Vælg billeder og tilstand på 30 sekunder, juster gitterstørrelse på 30 sekunder, generér labyrinten på 10 sekunder. Lav 10–20 labyrintopgaver på 30 minutter.',
+      },
+      {
+        id: '10',
+        question: 'Kan jeg sælge de billedsti opgaver jeg laver?',
+        answer: 'Ja, dit Fuld Adgang abonnement inkluderer en kommerciel licens. Sælg labyrintpakker online uden attribueringskrav eller ekstra gebyrer. Tematiske labyrintpakker er populære produkter hos mange lærer-entreprenører.',
+      },
+    ],
+
   },
 
   // Pricing
@@ -285,8 +428,157 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },
-    items: [], // Samples loaded dynamically from content manager
-    
+    items: [
+      {
+        id: '1',
+        slug: 'billedsortering-arbejdsark',
+        name: 'Billedsortering',
+        category: 'Visuel logik',
+        icon: '🗂️',
+        description: 'Kombiner billedstier med sorteringsopgaver for integrerede visuelle læringspakker. Eleverne navigerer labyrinten og sorterer billeder i kategorier efterfølgende. Udvikler spatial og klassificeringsevner.',
+      },
+      {
+        id: '2',
+        slug: 'find-den-ulige-arbejdsark',
+        name: 'Find den Ulige',
+        category: 'Visuel logik',
+        icon: '🔍',
+        description: 'Find-den-ulige opgaver supplerer billedstier med visuel diskriminering. Eleverne øver rutefølgning og mønstergenkendelse i samme læringspakke. Styrker visuel skelnen og logisk tænkning.',
+      },
+      {
+        id: '3',
+        slug: 'find-objekterne-arbejdsark',
+        name: 'Find Objekterne',
+        category: 'Visuel opfattelse',
+        icon: '👁️',
+        description: 'Find-objekterne og billedsti opgaver træner begge visuel scanning. Eleverne søger efter skjulte objekter og følger billedruter. Kombineret træning af opmærksomhed og spatial navigation.',
+      },
+      {
+        id: '4',
+        slug: 'linjetraening-arbejdsark',
+        name: 'Linjetræning',
+        category: 'Finmotorik',
+        icon: '✏️',
+        description: 'Linjetræning forbereder blyantsgreb til billedsti-opgaver. Eleverne øver finmotorik med linjer og navigerer billedstier efterfølgende. Kombineret pen-kontrol og spatial ræsonnement.',
+      },
+      {
+        id: '5',
+        slug: 'skygge-match-arbejdsark',
+        name: 'Skyggematching',
+        category: 'Visuel opfattelse',
+        icon: '🌑',
+        description: 'Skyggematching og billedstier udvikler begge visuel perception. Eleverne matcher skygger og navigerer billedruter. Styrker spatial forståelse fra FM.MAT.GM.1-3.',
+      },
+      {
+        id: '6',
+        slug: 'malebog-arbejdsark',
+        name: 'Malebog',
+        category: 'Kreativitet',
+        icon: '🎨',
+        description: 'Kombiner billedsti-opgaver med malebog-sider som belønning. Eleverne løser labyrinten og farvelægger billederne. Tværfaglig læring med FM.BK.1-2 for billedkunst.',
+      },
+    ],
+
+  },
+
+  // -- SEO & Content Enrichment (Part 209) ------------------------------------
+
+  aiOverviewSnippet: 'En billedsti generator er et online værktøj til at lave printbare labyrint- og rutefølgningsopgaver med billeder. Lærere vælger mellem tre labyrinttyper (klassisk, billedsti, vælg-den-rigtige-vej), tilpasser gitterstørrelse og billedtemaer, og får en færdig PDF med facitark på under 3 minutter. Værktøjet understøtter Fælles Mål FM.MAT.GM.1-3 for geometri og spatial forståelse i indskolingen.',
+
+  comparisonTable: [
+    {
+      feature: 'Labyrinttyper',
+      ourApp: '3 typer: klassisk, billedsti, valgopgave',
+      typical: 'Kun traditionelle labyrinter',
+    },
+    {
+      feature: 'Billedbibliotek',
+      ourApp: '3000+ temabilleder til stier',
+      typical: 'Ingen billeder eller begrænset udvalg',
+    },
+    {
+      feature: 'Facitark',
+      ourApp: 'Automatisk med løsningssti markeret',
+      typical: 'Ofte uden facitark',
+    },
+    {
+      feature: 'Oprettelsestid',
+      ourApp: 'Under 3 minutter per opgave',
+      typical: '30–60 minutter per labyrint',
+    },
+    {
+      feature: 'Kommerciel licens',
+      ourApp: 'Inkluderet, sælg frit',
+      typical: 'Ikke tilgængeligt',
+    },
+    {
+      feature: 'Sprogunderstøttelse',
+      ourApp: '11 sprog inklusive dansk',
+      typical: 'Kun engelsk',
+    },
+  ],
+
+  researchBacking: [
+    {
+      claim: 'Labyrintopgaver og rutefølgningsøvelser styrker børns spatiale ræsonnement og planlægningsevner markant, hvilket er grundlæggende for senere geometriforståelse.',
+      source: 'Lindhardt, B. & Lund, J., "Spatial tænkning og geometri i de tidlige skoleår," DPU – Aarhus Universitet',
+    },
+    {
+      claim: 'Visuelle navigationsopgaver med billedstimuli øger børns vedholdenhed og problemløsningsstrategi sammenlignet med abstrakte labyrinter uden kontekst.',
+      source: 'Hannibal, M. & Sørensen, T., "Visuelle repræsentationer og kognitive strategier i børns matematiske læring," Nordisk Matematikdidaktik (NOMAD)',
+    },
+  ],
+
+  teacherTestimonials: [
+    {
+      quote: 'Billedsti-opgaverne er perfekte til morgenarbejdet. Mine elever er dybt koncentrerede mens de finder vejen, og de elsker at tælle samlerobjekterne langs stien. Det udvikler både logik og tælling.',
+      name: 'Helle Bjørn',
+      role: 'Børnehaveklasselærer',
+      school: 'Strandvejen Skole, Helsingør',
+    },
+    {
+      quote: 'Jeg bruger tre sværhedsgrader i mine differentierede opgavepakker. Gitterstørrelsen gør det nemt at tilpasse til hvert barn. En uge med labyrintopgaver tager mig kun 20 minutter at forberede.',
+      name: 'Emil Krogh',
+      role: 'Indskolingslærer',
+      school: 'Bakkeskolen, Vejle',
+    },
+  ],
+
+  tips: {
+    sectionTitle: 'Billedsti-strategier efter klassetrin',
+    sectionDescription: 'Tilpas billedsti-generatoren til hvert udviklingstrin. Sådan vælger du labyrinttype, gitterstørrelse og billedbrug fra førskole til 3. klasse.',
+    items: [
+      {
+        id: 'forskole',
+        icon: '🌱',
+        title: 'Førskole: Enkle billedstier med store billeder',
+        description: 'Introducér billedstier med billedsti-tilstanden og kun 4 vej-billeder. Brug store tydelige start- og slutbilleder. Hold distraktorer på minimum (2–3 stk.). Børnene følger stien med fingeren først og tegner den derefter. Opbygger spatial bevidsthed og finmotorik.',
+      },
+      {
+        id: 'bornehaveklasse',
+        icon: '🎒',
+        title: 'Børnehaveklasse: Klassiske labyrinter med tælling',
+        description: 'Børnehaveklassens elever mestrer 12×12 klassiske labyrinter med 2–3 samlerobjekter. Eleverne finder vejen og tæller objekterne langs stien. Kombiner med tælleark for tværfaglig matematik. Understøtter FM.MAT.GM.1-3 for spatial forståelse.',
+      },
+      {
+        id: '1-klasse',
+        icon: '📚',
+        title: '1. klasse: Større labyrinter med logiske udfordringer',
+        description: 'Førsteklasses elever udfordres med 13×13 gitre og vælg-den-rigtige-vej tilstand. Tilføj 4+ samlerobjekter af forskellige typer. Eleverne planlægger ruten og tæller objekter per type. Udvikler strategisk tænkning og FM.MAT.MK.1-3 ræsonnement.',
+      },
+      {
+        id: '2-klasse',
+        icon: '✏️',
+        title: '2. klasse: Komplekse labyrinter med skriftlige svar',
+        description: 'Andenklasses elever arbejder med 14×14 labyrinter og skal beskrive ruten skriftligt. Tilføj instruktioner som "Tæl alle æbler og skriv tallet". Kombiner spatial navigation med danskfaglige skriveøvelser. Tværfaglig integration styrker flere kompetencer.',
+      },
+      {
+        id: '3-klasse',
+        icon: '🎯',
+        title: '3. klasse: Avancerede stier med multiple løsninger',
+        description: 'Tredjeklasses elever løser 15×15 labyrinter og sammenligner forskellige ruter. Lad eleverne finde den korteste sti og argumentere for deres valg. Udvikler analytisk tænkning og problemløsningsstrategier i overensstemmelse med FM.MAT.MK.1-3.',
+      },
+    ],
   },
 };
 

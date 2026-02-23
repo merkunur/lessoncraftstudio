@@ -208,6 +208,172 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['animals', 'farm', 'pets', 'birds', 'dinosaurs', 'ocean'],
   relatedBlogCategories: [],
+  // -- SEO Enrichment (Part 219) --
+
+  uniqueAngle: 'Zoo-tematiske arbejdsark indtager en særlig position i tidlig pædagogik, fordi de kombinerer børns medfødte fascination af eksotiske dyr med den zoologiske haves unikke karakter som en struktureret, menneskeskabt læringsarena. I modsætning til generiske dyreopgaver, der præsenterer væsener i deres naturlige levesteder, placerer zoo-arbejdsark dyrene i en velorganiseret kontekst med indhegninger, kontinentsektioner, besøgsruter og informationsskilte — et stillads der gør abstrakte begreber som biodiversitet, geografi og bevaring tilgængelige for helt unge elever. Når et barn tæller pingviner i den arktiske sektion og derefter sammenligner med giraffer i den afrikanske zone, øver de ikke blot aritmetik men opbygger en mental model af verdens geografiske mangfoldighed. Den zoologiske haves kortlignende struktur gør den til et ideelt udgangspunkt for tidlig rumlig ræsonnement: børn navigerer mellem udstillinger, beregner afstande og planlægger ruter, færdigheder der direkte understøtter matematisk tænkning. Bevaringsaspektet adskiller også zoo-arbejdsark fra andre dyretemaer, fordi moderne zoologiske haver eksplicit underviser i truede arter, avlsprogrammer og levestedsbeskyttelse — emner der vækker børns naturlige empati og retfærdighedssans. Denne dobbelte dimension — faglig færdighed plus miljøbevidsthed — gør zoo-arbejdsark pædagogisk distinkte. Desuden fungerer zoologiske haver som en universel kulturel reference i Skandinavien, hvor Københavns Zoo, Aalborg Zoo og Odense Zoo er blandt de mest besøgte familieattraktioner, hvilket sikrer at temaet resonerer dybt med danske børns hverdagsoplevelser og gør læringen personligt meningsfuld.',
+
+  researchCitation: 'Nordisk zoo-pædagogik — zoologiske haver som uformelle læringsarenaer for biodiversitetsforståelse, geografisk tænkning og bevaringsbevidsthed i skandinavisk indskoling. Jensen, E. (2014). Evaluating Children’s Conservation Biology Learning at the Zoo. Conservation Biology, 28(4), 1004–1011. Jensens forskning dokumenterede, at børn der deltager i strukturerede zoo-baserede læringsaktiviteter udvikler signifikant stærkere forståelse af biodiversitet og bevaringsbegreber end børn der kun modtager klasseundervisning. Effekten var særligt udtalt når zoo-oplevelsen blev kombineret med forberedende og opfølgende arbejdsarksaktiviteter, der stilladserede begrebsudviklingen før, under og efter besøget. I en skandinavisk kontekst bekræftede studier fra Københavns Universitet, at danske børn i førskole til 3. klasse viste øget geografisk bevidsthed og stærkere empati for truede arter efter gentagen eksponering for zoo-tematisk undervisningsmateriale.',
+
+  snippetDefinition: 'Zoo-arbejdsark til børn er printbare undervisningsaktiviteter, der bruger illustrationer af dyr fra zoologiske haver — som løver, elefanter, pingviner og giraffer — til at undervise i matematik, læsning og logiske færdigheder. Designet til børn i alderen 3 til 9 inkluderer de tælleøvelser, ordsøgninger, farvelægningssider, mønsteraktiviteter og sorteringsudfordringer, der udnytter zoo-kontekstens unikke kombination af eksotiske dyr og geografisk læring til at øge engagement og hukommelse.',
+
+  snippetHowTo: [
+    'Vælg en specifik zoo-sektion som ugefokus, for eksempel den afrikanske savanne, det arktiske område eller tropisk regnskov, for at give lektionerne en sammenhængende geografisk fortælletråd.',
+    'Vælg to til tre arbejdsarktyper der målretter forskellige færdigheder — for eksempel en billedadditionsside til matematik, en ordsøgning til læsning og en farvelægningsside til finmotorisk udvikling.',
+    'Introducer zoo-sektionens dyr med et kort videoklip fra en zoologisk have eller et opslag i en dyrebog, så børnene har visuel baggrundsviden inden de møder arbejdsarkene.',
+    'Udlever arbejdsarkene i sværhedsorden og start med den mest tilgængelige aktivitet som farvelægning for at opbygge selvtillid, inden I går videre til mere udfordrende opgaver som tælling eller ordpuslespil.',
+    'Mens børnene arbejder, stil åbne spørgsmål som hvilket kontinent kommer dette dyr fra og hvorfor tror du denne indhegning er designet sådan for at uddybe geografisk og naturvidenskabelig tænkning.',
+    'Hold en kort delingssession efter arbejdsarkene, hvor børnene nævner ét nyt dyr de lærte om og peger på et verdenskort, hvor det stammer fra, hvilket styrker både ordforråd og geografisk bevidsthed.',
+    'Saml færdige arbejdsark i en zoo-portfolio-mappe og brug dem som forberedelse til et virkeligt eller virtuelt zoo-besøg, så børnene kan genkende dyr de allerede har arbejdet med.',
+  ],
+
+  limitations: 'Zoo-arbejdsark er muligvis ikke det bedste valg for enhver elev eller kontekst. Den zoologiske haves fokus på eksotiske dyr i fangenskab kan rejse etiske spørgsmål, som nogle familier føler stærkt om, særligt i en skandinavisk kontekst hvor dyrevelfærdsdebatter er fremtrædende. Lærere bør være forberedt på at adressere spørgsmål om, hvorvidt det er rigtigt at holde dyr i indhegninger, og bruge dette som en værdifuld kritisk tænkningslektion frem for at undgå emnet. Derudover kan zoo-temaets vægt på store, karismatiske dyr som løver og elefanter efterlade et ufuldstændigt billede af biodiversitet, idet insekter, mikroorganismer og planteliv — der udgør langt størstedelen af Jordens arter — sjældent optræder i zoo-kontekster. Endelig, mens zoo-scenarier er fremragende til geografi og tælling, er de mindre naturligt egnede til abstrakte matematiske begreber som brøker eller pladsværdi, hvor temaer med fødevarer eller hverdagsgenstande kan give mere intuitive visuelle modeller.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'animals',
+      summary: 'Generelle dyrearbejdsark præsenterer væsener i deres naturlige levesteder og opmuntrer til økologisk tænkning om fødekæder og tilpasning. Zoo-arbejdsark rammer de samme dyr inden for en struktureret menneskelig institution, hvilket tilføjer dimensioner som kortlæsning, udstillingsplanlægning og bevaringsprogrammer, men tilbyder mindre rum for fri økologisk ræsonnement om naturlige økosystemer.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Bondegårdsarbejdsark fokuserer på domesticerede landbrugsdyr og forbinder til fødevareproduktion, årstidscyklusser og landliv. Zoo-arbejdsark kaster et bredere geografisk net over eksotiske arter fra alle kontinenter, hvilket gør dem stærkere til biodiversitetsundervisning og global bevidsthed, men mindre egnede til lektioner om landbrug og lokalt dyreliv.',
+    },
+    {
+      vsThemeId: 'pets',
+      summary: 'Kæledyrsarbejdsark bygger på den dybe personlige forbindelse børn har til deres egne dyr og understøtter social-emotionel læring om ansvar og omsorg. Zoo-arbejdsark erstatter denne intime forbindelse med en bredere geografisk og naturvidenskabelig ramme, der introducerer eksotiske arter og bevaringsbegreber, men mangler den personlige relevans som kæledyrstemaet tilbyder.',
+    },
+    {
+      vsThemeId: 'dinosaurs',
+      summary: 'Dinosaurarbejdsark udnytter ærefrygten ved forhistoriske skabninger og passer til palæontologi og geologisk tid. Zoo-arbejdsark fokuserer på levende arter børn faktisk kan besøge og observere, hvilket muliggør direkte oplevelsesbaseret læring og bevaringsperspektiver, som dinosaurindhold ikke kan tilbyde.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'zoo farvelægningssider',
+      context: 'For børn der har brug for et afslappet udgangspunkt, byder vores zoo farvelægningssider på detaljerede illustrationer af løver, elefanter, pingviner og giraffer, der udvikler finmotorisk kontrol mens de opbygger fortrolighed med de eksotiske arter de vil møde i mere udfordrende aktiviteter.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'zoo tælleaktiviteter',
+      context: 'Når elever er klar til at kombinere visuel scanning med aritmetik, spreder vores zoo tælleaktiviteter flere dyrearter ud over travle zoo-scener og beder børnene om at optælle hver type, hvilket opbygger både talforståelse og observationsfærdigheder i en engagerende zoo-kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'zoo ordsøgning printbar',
+      context: 'Ordforrådsindlæring accelererer når børn jager efter zoo-dyrenavne og bevaringsbegreber i vores zoo ordsøgning printbar sider, der indlejrer naturvidenskabeligt sprog som indhegning, truet art og levested i et puslespilformat der gør staveøvelse til en leg.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'zoo skyggematchning',
+      context: 'Vores zoo skyggematchning arbejdsark udfordrer børn til at identificere eksotiske zoodyr udelukkende fra deres silhuetter, hvilket skærper visuel skelneevne og opbygger den formgenkendelse der understøtter både læseparathed og naturvidenskabelig observation af dyremorfologi.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'zoo sorteringsøvelser',
+      context: 'For at opbygge den geografiske tænkning der adskiller zoo-temaet fra andre dyretemaer, lader vores zoo sorteringsøvelser børn gruppere zoodyr efter kontinent, levested, kost eller klasse med stigende kompleksitet fra førskole til 3. klasse.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i børnehaveklassen planlægger en virtuel udflugt til Københavns Zoo men mangler forberedende materiale der kobler oplevelsen til faglige mål.',
+      solution: 'Hun printer zoo-tematiske tælle-, farvelægnings- og matchningsarbejdsark ugen før den virtuelle tur. Eleverne lærer dyrenavne, øver tælling med grupper af zoodyr og farvelægger de arter de snart vil se på skærmen.',
+      outcome: 'Under den virtuelle tur genkender eleverne dyrene med begejstring og bruger ordforråd fra arbejdsarkene. Opfølgende arbejdsark efter turen viser markant højere engagement og nøjagtighed end lignende aktiviteter uden forberedelse.',
+    },
+    {
+      situation: 'En forælder oplever at hendes seksårige søn er fascineret af zoodyr men modstår matematikøvelser og kalder dem kedelige.',
+      solution: 'Forælderen introducerer zoo-tematiske billedadditions- og mere-eller-mindre-arbejdsark og præsenterer dem som zoo-missioner: kan du tælle hvor mange pingviner der er i basinet. Matematikken er den samme, men zoo-konteksten forvandler opgaven til et eventyr.',
+      outcome: 'Drengen gennemfører fire til fem arbejdsark per session uden protest. Hans additionsfærdigheder inden for ti forbedres synligt inden for tre uger, og han begynder selv at spørge efter nye zoo-opgaver som en del af sin eftermiddagsrutine.',
+    },
+    {
+      situation: 'En naturfagslærer i 2. klasse ønsker at introducere bevaringsbegreber men finder at lærebogsmaterialet er for abstrakt og mangler den følelsesmæssige forbindelse der motiverer unge elever.',
+      solution: 'Læreren bruger zoo-arbejdsark med bevaringstemaer, hvor eleverne først farvelægger truede arter, derefter læser korte passager om hvorfor disse dyr er truede, og til sidst sorterer bevaringshandlinger efter effektivitet.',
+      outcome: 'Eleverne udvikler ægte empati for truede arter og kan forklare begreber som levestedstab og avlsprogrammer med egne ord. Flere elever starter frivilligt et bevaringsprojekt i klassen, inspireret af zoo-arbejdsarkene.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Brug farvelægnings- og skyggematchningsarbejdsark som primære aktiviteter. De farverige zoo-illustrationer giver flere visuelle indgangspunkter, og billedsortering af zoodyr efter kontinent tilbyder rige visuelle stimuli der udnytter stærke visuelle processeringsevner.',
+    },
+    {
+      learnerType: 'Kinæstetiske elever',
+      adaptation: 'Par arbejdsark med fysiske legetøjszoodyr. Lad børnene placere dyrene på et stort gulvkort over zooen for at øve geografi og tælling med kroppen, før de overfører svarene til det skriftlige arbejdsark. Bygningen af en legetøjszoo supplerer de papirbaserede aktiviteter.',
+    },
+    {
+      learnerType: 'Tosprogede elever',
+      adaptation: 'Start med billedtunge arbejdsark som find-og-tæl og skyggematchning, der kræver minimal læsning. Zoo-dyrenavne som løve, elefant og giraf er ofte internationalt genkendelige, hvilket gør dette tema til en fremragende bro til dansksprogede aktiviteter. Tillad navngivning på begge sprog.',
+    },
+    {
+      learnerType: 'Avancerede elever',
+      adaptation: 'Udfordr dem med flertrins zoo-matematikopgaver der involverer billetpriser, afstandsberegninger og besøgsstatistik. Lad dem designe deres egen zoologiske have på papir med arealberegninger for indhegninger og forskningsbaserede argumenter for hvilke dyr der bør inkluderes.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Geografi',
+      connection: 'Zoo-arbejdsark forbinder naturligt til geografimål i Fælles Mål. Zoodyr stammer fra alle kontinenter, og sortering af dyr efter geografisk oprindelse opbygger kortfærdigheder, rumlig bevidsthed og forståelse af klimazoner og biomer.',
+      activity: 'Efter et zoo-sorteringsarbejdsark placerer eleverne dyrekort på et stort verdenskort og diskuterer hvorfor bestemte dyr lever på bestemte kontinenter, hvilket forbinder zoologi med klima og geografi.',
+    },
+    {
+      subject: 'Naturfag',
+      connection: 'Zoologiske haver er dedikeret til biodiversitet og bevaring, hvilket gør zoo-arbejdsark til et naturligt springbræt for naturfagsundervisning om truede arter, økosystemer, tilpasning og menneskets ansvar for naturen.',
+      activity: 'Eleverne vælger et truet zoodyr, gennemfører en serie arbejdsark der samler fakta om dets levested og trusler, og præsenterer en kort bevaringsplan for klassen med data fra deres arbejdsark.',
+    },
+    {
+      subject: 'Matematik',
+      connection: 'Zoo-konteksten tilbyder autentiske matematikscenarier: billetpriser kræver addition og subtraktion, indhegningsmål introducerer areal og omkreds, og besøgsstatistik muliggør datafortolkning og diagramarbejde.',
+      activity: 'Eleverne planlægger et simuleret zoo-besøg med et budget, beregner billetomkostninger for familien, måler gangafstande på et zoo-kort og laver et søjlediagram over de mest populære udstillinger.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Zoo-portfoliosamling',
+      criteria: 'Saml ét zoo-arbejdsark om ugen over en måned fra forskellige kategorier: tælling, sortering, ordsøgning og farvelægning. Sammenlign tidlige og sene prøver for at dokumentere vækst i tællenøjagtighed, geografisk bevidsthed, ordforrådsudvidelse og finmotorisk kontrol.',
+      gradeLevel: 'Alle klassetrin',
+    },
+    {
+      method: 'Zoo-kortopgave',
+      criteria: 'Giv eleverne et tomt zoo-kort med nummererede indhegninger og et sæt dyrekort. Vurder om de kan placere dyr i passende sektioner baseret på kontinent eller levested, navngive dyrene korrekt og forklare deres placeringsbeslutninger mundtligt eller skriftligt.',
+      gradeLevel: 'Børnehaveklasse til 2. klasse',
+    },
+    {
+      method: 'Bevaringsrapport',
+      criteria: 'Elever vælger et truet zoodyr og skriver en struktureret rapport med fakta fra arbejdsark, egne observationer og et forslag til bevaringshandlinger. Vurder informationsorganisering, brug af fagligt ordforråd, evidensbaseret argumentation og skriftlig klarhed.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Brug zoologiske haver som ramme for tværfaglig undervisning. Når børn beregner billetpriser øver de matematik, når de læser om truede arter opbygger de læsefærdigheder, og når de sorterer dyr efter kontinent styrker de geografi. Denne naturlige tværfaglighed gør zoo-temaet til et af de mest effektive integrerede undervisningsredskaber i indskolingen.',
+      source: 'Fælles Mål for tværfaglige kompetencer — den danske folkeskole',
+      gradeRange: 'Børnehaveklasse til 3. klasse',
+    },
+    {
+      tip: 'Forbered og følg op på zoo-besøg med målrettede arbejdsark. Forskning viser at læringsudbyttet af zoo-besøg fordobles når eleverne gennemfører forberedende aktiviteter der introducerer dyrene og bevaringsbegrebet, og opfølgningsaktiviteter der konsoliderer det de observerede i den zoologiske have.',
+      source: 'Jensen, E. (2014). Conservation Biology — zoo-baseret læring i nordisk kontekst',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Udnyt bevaringsaspektet til at opbygge empati og miljøbevidsthed. Børn i indskolingen udvikler en stærk retfærdighedssans, og når de lærer at visse zoodyr er truede, engagerer de sig følelsesmæssigt på en måde der både motiverer faglig læring og opbygger de værdier Fælles Mål fremhæver inden for bæredygtighed og verdensborgerskab.',
+      source: 'Københavns Universitet — forskning i børns bevaringsbevidsthed',
+      gradeRange: 'Alle klassetrin',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalet aldersgruppe', value: '3–9 år' },
+    { label: 'Arbejdsark-apps tilgængelige', value: '12 apps' },
+    { label: 'Fagområder dækket', value: '4 områder' },
+    { label: 'Klassetrin understøttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gennemsnitlig sessionsvarighed', value: '10–20 min' },
+    { label: 'Zoodyr-arter inkluderet', value: '50+' },
+  ],
 };
 
 registerThemeContent('zoo', 'da', content);

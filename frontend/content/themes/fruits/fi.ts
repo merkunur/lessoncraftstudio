@@ -363,7 +363,7 @@ const content: EnrichedThemeContent = {
     {
       subject: 'Matematiikka (laskeminen ja mittaaminen)',
       connection: 'Hedelmät tarjoavat konkreettisen kontekstin laskemiselle, mittaamiselle ja lajittelulle. Punnitseminen, mittaaminen ja kustannuslaskenta kehittyvät luonnollisesti hedelmäkontekstissa.',
-      activity: 'Laskutehtävän jälkeen oppilaat punnitsevat oikeita hedelmiä vaa'alla, vertailevat painoja ja laskevat kokonaiskustannuksia kilohinnoin.',
+      activity: 'Laskutehtävän jälkeen oppilaat punnitsevat oikeita hedelmiä vaakaa käyttäen, vertailevat painoja ja laskevat kokonaiskustannuksia kilohinnoin.',
     },
     {
       subject: 'Maantieto ja kulttuurit',

@@ -361,7 +361,7 @@ const content: EnrichedThemeContent = {
     },
     {
       subject: 'Kuvataide',
-      connection: 'Kukkien symmetria, värimaailma ja orgaaniset muodot inspiroivat taiteellista ilmaisua. Kukat ovat olleet taiteen keskeinen aihe Monet'sta Marimekkonn sekä opettavat väriteoriaa luonnollisessa kontekstissa.',
+      connection: 'Kukkien symmetria, värimaailma ja orgaaniset muodot inspiroivat taiteellista ilmaisua. Kukat ovat olleet taiteen keskeinen aihe Monetista Marimekkoon sekä opettavat väriteoriaa luonnollisessa kontekstissa.',
       activity: 'Väritystehtävän jälkeen oppilaat maalaavat oikeasta kukasta vesiväritaideteoksen kiinnittäen huomiota värien sekoittamiseen ja symmetriaan.',
     },
     {

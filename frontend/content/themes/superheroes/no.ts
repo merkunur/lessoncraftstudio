@@ -315,7 +315,7 @@ const content: EnrichedThemeContent = {
       summary: 'Mens idrettsarbeidsark fokuserer på virkelige fysiske aktiviteter, konkurranser og lagarbeid, utforsker superheltarbeidsark heroiske handlinger i en fantasikontekst. Begge temaene bygger verdier som utholdenhet og lagarbeid, men superhelttemaet legger til en narrativ dimensjon som gir barn en grunn til å holde ut utover konkurransen.',
     },
     {
-      vsThemeId: 'community',
+      vsThemeId: 'jobs',
       summary: 'Samfunnsarbeidsark lærer om yrkesroller, offentlige tjenester og samarbeid i hverdagen, mens superheltarbeidsark utforsker de samme verdiene gjennom fantasiens linse. Superhelter er samfunnets ultimate hjelpere, og temaet kan brukes til å diskutere hverdagshelter som brannfolk og lærere.',
     },
     {

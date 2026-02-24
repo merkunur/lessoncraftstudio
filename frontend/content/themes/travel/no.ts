@@ -311,7 +311,7 @@ const content: EnrichedThemeContent = {
 
   themeComparisons: [
     {
-      vsThemeId: 'vehicles',
+      vsThemeId: 'transportation',
       summary: 'Mens kjøretøyarbeidsark fokuserer på transportmidlenes mekanikk og kategorisering, bruker reisearbeidsark transport som middel for å utforske destinasjoner og kulturer. Kjøretøytemaet svarer på hvordan vi reiser, mens reisetemaet svarer på hvorfor og hvor vi reiser.',
     },
     {

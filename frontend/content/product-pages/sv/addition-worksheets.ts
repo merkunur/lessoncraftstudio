@@ -15,16 +15,16 @@ export const additionSvContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbetsblad',
     appId: 'addition',
-    title: 'Arbetsblad Gratis - Addition och Subtraktion Generator',
-    description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för.',
-    keywords: 'arbetsblad gratis, addition och subtraktion, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, additionsarbetsblad, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
+    title: 'Gratis Additionsövning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara additionsövningar med bilder för förskola till årskurs 3. 3 000+ bilder, anpassa svårighetsgrad och få facit. Ladda ner gratis PDF.',
+    keywords: 'additionsövning generator, additionsövningar gratis, addition arbetsblad förskola, bildbaserade additionsövningar, matematik arbetsblad gratis, plusövningar med bilder, utskrivbara räkneövningar, addition facit, lära sig addera, plusövningar årskurs 1, additionsövningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
       },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
-    title: 'Arbetsblad Gratis - Addition och Subtraktion Generator',
-    subtitle: 'Matematik Arbetsblad för Förskoleklass',
+    title: 'Additionsövning Generator',
+    subtitle: 'Skapa Bildbaserade Additionsövningar från Förskola till Årskurs 3',
     description: `Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Din Grundpaketsprenumeration ger dig obegränsad arbetsbladskapande utan extra avgifter per arbetsblad. Generera skräddarsydda utskrivbara matte övningar perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår additionsgenerator använder bilder och siffror för att göra matematik konkret. Barn lär sig addition och subtraktion genom visuella representationer. Varje matematik arbetsblad kan anpassas med teman, svårighetsgrad och övningsantal. Perfekt för lärare som behöver finmotorik övningar kombinerade med matematik.

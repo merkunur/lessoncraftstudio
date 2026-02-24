@@ -15,16 +15,16 @@ export const matchingSvContent: ProductPageContent = {
   seo: {
     slug: 'matchnings-arbetsblad',
     appId: 'matching',
-    title: 'Gratis Arbetsblad Matchning | Matchningsövningar för Förskoleklass',
-    description: 'Skapa gratis matchningsarbetsblad för förskoleklass och årskurs 1-3. Generera PDF-arbetsblad på under 3 minuter. 3000+ bilder, kommersiell licens inkluderad.',
-    keywords: 'matchningsarbetsblad, gratis arbetsblad, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
+    title: 'Gratis Matchningsövning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara matchningsövningar med bilder. Utveckla minne och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    keywords: 'matchningsövning generator, matchningsövningar, parning barn, minnesspel utskrivbar, parningsövning förskola, mönsterigenkänning övning, visuell parning, bildparning övning, parövning utskrivbar, minne och parning, matchningsövningar förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
       },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Matchning - Matchningsövningar',
-    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
+    title: 'Matchningsövning Generator',
+    subtitle: 'Utskrivbara Parningsövningar med 50 Teman',
     description: `Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Din Grundpaketet-prenumeration ger dig obegränsad skapande av arbetsblad utan avgifter per arbetsblad. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Matchningsgeneratorn erbjuder fyra olika matchningslägen. Matcha bilder med bokstäver för alfabetsträning. Matcha bild plus ord med bild plus ord för ordförrådsbyggande. Välj bild eller ord kontra bild eller ord för flexibel differentiering. Använd anpassade ord för tematisk undervisning.

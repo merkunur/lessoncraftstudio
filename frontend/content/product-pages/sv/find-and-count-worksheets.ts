@@ -15,16 +15,16 @@ export const findAndCountSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-och-rakna-arbetsblad',
     appId: 'find-and-count',
-    title: 'Arbetsblad Gratis - Hitta och Räkna Arbetsblad | Gratis Arbetsblad',
-    description: 'Skapa professionella hitta-och-räkna arbetsblad med vår enkla generator. Generera anpassade matematik arbetsblad för förskoleklass och årskurs 1-3.',
-    keywords: 'arbetsblad gratis, hitta och räkna, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, räkneövningar, finmotorik övningar, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn',
+    title: 'Hitta och Räkna Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara hitta och räkna-övningar för barn. Utveckla räknefärdigheter och visuell uppmärksamhet med bilder. Förskola till årskurs 3. Gratis PDF.',
+    keywords: 'hitta och räkna generator, hitta och räkna övningar, räkneövningar förskola, visuell räkning, antaligenkänning, hitta och räkna utskrivbar, räknefärdigheter barn, räkneövning med bilder, talövningar förskola, räkning träning, matematik sökövning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
       },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
   hero: {
-    title: 'Arbetsblad Gratis - Hitta och Räkna Arbetsblad',
-    subtitle: 'Matematik Arbetsblad för Förskoleklass',
+    title: 'Hitta och Räkna Generator',
+    subtitle: 'Utveckla Räknefärdigheter med Roliga Sökövningar',
     description: `Skapa professionella hitta-och-räkna arbetsblad med vår enkla generator. Din Grundpaketsprenumeration ger dig obegränsad skapande av arbetsblad utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekta för förskoleklass och årskurs 1-3 elever. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Hitta-och-räkna arbetsblad utvecklar räkneförmåga och visuell diskriminering hos barn. Eleverna letar efter specifika föremål gömda i ett rutnät och räknar hur många de hittar. Dessa matematik arbetsblad kombinerar problemlösning med finmotorik övningar. Perfekt för förskoleklass material och lågstadiet.

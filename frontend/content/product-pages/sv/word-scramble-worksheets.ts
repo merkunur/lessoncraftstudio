@@ -15,16 +15,16 @@ export const wordScrambleSvContent: ProductPageContent = {
   seo: {
     slug: 'ordpussel-arbetsblad',
     appId: 'word-scramble',
-    title: 'Ordpussel Generator - Gratis Arbetsblad för Barn | Förskoleklass',
-    description: 'Skapa gratis arbetsblad för barn med vår ordpussel generator. Perfekta arbetsblad för förskoleklass med gratis utskrifter. Ladda ner PDF på 3 minuter.',
-    keywords: 'ordpussel generator, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, förskoleklass material, bokstäver lära sig',
+    title: 'Gratis Ordpussel Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara ordpussel-övningar för stavning och rättskrivning. Anpassa svårighetsgrad från förskola till årskurs 3. Med bilder. Gratis PDF.',
+    keywords: 'ordpussel generator, ordpussel övningar, skrivövningar barn, rättskrivning övning, ordgåta utskrivbar, stavningsövning, ordspel barn utskrivbar, ordbildning övningar, lära sig läsa övningar, skrivning träning, ordförråd övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
       },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
-    title: 'Ordpussel Generator - Gratis Arbetsblad för Barn',
-    subtitle: 'Gratis Utskrifter för Förskoleklass - Arbetsblad för Barn och Bokstäver Lära Sig',
+    title: 'Ordpussel Generator',
+    subtitle: 'Utskrivbara Rättskrivningsövningar med Bilder',
     description: `Skapa gratis arbetsblad för barn med vår ordpussel-generator. Din Grundpaket-prenumeration ger dig obegränsad ordpusselgenerering utan extra kostnader per arbetsblad. Generera anpassningsbara arbetsblad för förskoleklass perfekta för gratis utskrifter hemma eller på skolan. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår ordpussel-generator är perfekt för att träna bokstäver lära sig och skriva bokstäver. Barn älskar att lösa gratis arbetsblad där bokstäverna i ett ord är blandade. Varje pussel hjälper barn att känna igen bokstavsmönster och öva stavning. Välj mellan bildbaserade pussel eller textbaserade övningar med din egen ordlista.

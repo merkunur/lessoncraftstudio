@@ -15,16 +15,16 @@ export const alphabetTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'alfabettag-arbetsblad',
     appId: 'alphabet-train',
-    title: 'Gratis Arbetsblad Alfabettåg - Bokstäver för Barn | Förskoleklass',
-    description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera gratis arbetsblad för barn perfekta för förskoleklass och lågstadiebarn.',
-    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, alfabettåg arbetsblad, bokstäver lära sig, förskoleklass material, alfabetgenerator, skriva bokstäver, målarbilder barn, finmotorik övningar',
+    title: 'Gratis Alfabetståg Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara alfabetståg-övningar för bokstavsinlärning från förskola till årskurs 1. Roligt sätt att lära bokstäver med bilder. Gratis PDF.',
+    keywords: 'alfabetståg generator, alfabetståg övningar, bokstäver övning förskola, alfabet utskrivbar, alfabetståg arbetsblad, bokstavigenkänning, alfabetisk ordning övning, bokstavsövningar barn, lära sig läsa, alfabetövningar, begynnelsebokstäver övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
       },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Alfabettåg Generator - Bokstäver Lära Sig för Barn',
-    subtitle: 'Arbetsblad för Förskoleklass - Gratis Utskrifter och Bokstavsövningar',
+    title: 'Alfabetståg Generator',
+    subtitle: 'Utskrivbara Bokstavsövningar från Förskola till Årskurs 1',
     description: `Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Din Grundpaket-prenumeration ger dig obegränsad skapande av gratis arbetsblad för barn utan extra avgifter per arbetsblad. Generera anpassade arbetsblad för förskoleklass perfekta för lågstadiebarn. Ladda ner högkvalitativa gratis utskrifter på under 3 minuter.
 
 Alfabettåget är ett klassiskt pedagogiskt verktyg som hjälper små barn lära sig bokstäver genom visuell association. Varje bokstav matchas med en bild som börjar med den bokstaven. Bokstäver lära sig blir roligt när barn kan se A för Äpple, B för Boll, C för Cykel. Detta hjälper arbetsblad för barn att bli mer minnesvärt och engagerande.

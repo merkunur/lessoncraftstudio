@@ -15,16 +15,16 @@ export const mathWorksheetsSvContent: ProductPageContent = {
   seo: {
     slug: 'matematik-arbetsblad',
     appId: 'math-worksheet',
-    title: 'Matematik Arbetsblad Generator - Gratis Arbetsblad för Barn',
-    description: 'Skapa gratis arbetsblad för barn med vår matematik generator. Perfekt för förskoleklass - ladda ner professionella matte övningar som PDF på 3 minuter.',
-    keywords: 'matematik arbetsblad, arbetsblad gratis, matte övningar, förskoleklass material, addition och subtraktion, siffror och tal, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn, finmotorik övningar, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn',
+    title: 'Matematikövning Generator för Barn | LessonCraftStudio',
+    description: 'Skapa visuella matematikövningar med bilder. Addition, subtraktion, jämförelse och talserier från förskola till årskurs 3. Facit ingår. Gratis PDF.',
+    keywords: 'matematikövning generator, matematik övningar lågstadiet, räkneövningar utskrivbara, matematik arbetsblad, matematikövningar förskola, visuella matematikövningar, räkneövningar barn, matematik facit, grundläggande räknesätt övning, matematik utskrivbar gratis, matematik träningsövningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
       },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Matematik Arbetsblad Generator - Gratis Arbetsblad för Förskoleklass och Lågstadiet',
-    subtitle: 'Skapa Professionella Matte Övningar',
+    title: 'Matematikövning Generator',
+    subtitle: 'Visuella Matematikövningar från Förskola till Årskurs 3',
     description: `Skapa professionella matematik arbetsblad med vår enkla generator för matte övningar. Din Grundpaketsprenumeration ger dig obegränsad tillgång att skapa arbetsblad utan extra avgifter per arbetsblad. Generera anpassade matematik arbetsblad perfekta för förskoleklass, årskurs 1, årskurs 2 och årskurs 3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår matematik arbetsblad generator använder bilder som symboler i matteproblem. Perfekt för små barn som lär sig addition och subtraktion genom visuellt lärande. Barn räknar äpplen, stjärnor, bilar eller andra roliga bilder istället för abstrakta siffror. Detta gör matte övningar mer engagerande och lättare att förstå för förskoleklass och tidiga lågstadiet.

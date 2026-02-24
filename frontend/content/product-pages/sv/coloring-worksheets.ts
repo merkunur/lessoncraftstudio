@@ -15,16 +15,16 @@ export const coloringSvContent: ProductPageContent = {
   seo: {
     slug: 'malarbilder-arbetsblad',
     appId: 'coloring',
-    title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut - Förskoleklass',
-    description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra.',
-    keywords: 'målarbilder barn, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen, klockan lära sig, addition och subtraktion',
+    title: 'Gratis Målarbilder Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara målarbilder för barn med 3 000+ bilder. 50 teman och 5 åldersnivåer från förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'målarbilder generator, målarbilder barn gratis, gratis målarbilder skriv ut, målarsidor utskrivbara, djur målarbilder, utskrivbara målarbilder, målarbilder förskola, färgläggningsövningar, målarbilder till barn, finmotorik målarbilder, barns målarsidor',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
       },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
-    title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut',
-    subtitle: 'Förskoleklass Material',
+    title: 'Målarbilder Generator för Barn',
+    subtitle: 'Skapa Utskrivbara Målarbilder med 50 Teman och 3 000+ Bilder',
     description: `Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-filer på under 3 minuter.
 
 Vårt verktyg för målarbilder barn gör det lätt att skapa arbetsblad gratis att skriva ut. Perfekt för lärare i förskoleklass material som behöver unika målarbilder snabbt. Kombinera målarbilder barn med finmotorik övningar för komplett inlärning. Varje målarbilder barn hjälper barn utveckla kreativitet och färgkänsla.

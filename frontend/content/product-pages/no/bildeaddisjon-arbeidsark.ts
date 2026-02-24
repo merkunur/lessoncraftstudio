@@ -17,16 +17,16 @@ export const codeAdditionNoContent: ProductPageContent = {
   seo: {
     slug: 'bildeaddisjon-arbeidsark',
     appId: 'code-addition',
-    title: 'Bildeaddisjonsoppgaver Generator - Matematikk Oppgaver med Tall og',
-    description: 'Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Generer egendefinerte arbeidsark gratis for utskrift for barnehage og.',
-    keywords: 'bildeaddisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barnehage, gangetabellen',
+    title: 'Bildeaddisjon Generator | LessonCraftStudio',
+    description: 'Lag printbare bildeaddisjon-oppgaver der bilder erstatter tall. Utvikler algebraisk tenkning fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    keywords: 'bildeaddisjon generator, bildeaddisjon oppgaver, symbolsk algebra til barn, bildebasert matematikk, kodeoppgaver printbar, algebraisk tenkning førskole, bilde erstatter tall, hemmelig melding plussoppgaver, bildesymbol regneoppgave, matematisk koding, visuell algebra',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildeaddisjon-arbeidsark',
       },
 
   // Hero Section - FULL text from code-addition.md
   hero: {
-    title: 'Bildeaddisjonsoppgaver Generator - Matematikk Oppgaver med Tall og Telling for Barn',
-    subtitle: 'Arbeidsark Gratis å Skrive Ut',
+    title: 'Bildeaddisjon Generator',
+    subtitle: 'Algebraisk Tenkning gjennom Bildekodede Regneoppgaver',
     description: `Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Din Full Tilgang-abonnement gir deg ubegrenset oppgaveopprettelse uten gebyrer per oppgave. Generer egendefinerte arbeidsark gratis for utskrift perfekt for barnehage og småskoletrinnet elever. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter.
 
 Vår bildeaddisjonsoppgaver-generator gjør addisjon og subtraksjon lett å forstå for små barn. Bilder representerer tall slik at barn kan telle konkrete objekter før de lærer abstrakte tall. Dette hjelper med tall og telling-ferdigheter samtidig som det bygger grunnlaget for matematikk oppgaver. Perfekt for 1. trinn til 3. trinn som trenger visuell støtte for matteoppgaver.

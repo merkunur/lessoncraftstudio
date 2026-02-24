@@ -15,16 +15,16 @@ export const pictureBingoNoContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbeidsark',
     appId: 'bingo',
-    title: 'Gratis Bildlotto Arbeidsark - Generator for Barnehage og 1. Trinn',
-    description: 'Lag gratis bildlotto arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min. Perfekt for lærere og foreldre.',
-    keywords: 'bildlotto, gratis arbeidsark, gratis arbeidsark for barn, gratis utskrifter, arbeidsark for barn, arbeidsark for 1. trinn, arbeidsark, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',
+    title: 'Gratis Bildebingo Generator | LessonCraftStudio',
+    description: 'Lag printbare bildebingospill til barn. 50 temaer, tilpassbare rutenett og bilder fra 3 000+ bibliotek. Perfekt til klasserommet. Last ned gratis.',
+    keywords: 'bildebingo generator, bingo printbar til barn, bildebingo spill, printbart bingospill, bingo førskole, klasse bingospill, bildebingo rutenett, bingo oppgave til barn, gruppespill printbar, bingo bilder barn, bingospill klasserom',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildlotto-arbeidsark',
       },
 
   // Hero Section - FULL text from bingo.md paragraphs 1-3
   hero: {
-    title: 'Gratis Bildlotto Arbeidsark - Generator for Barnehage',
-    subtitle: 'Gratis Arbeidsark for Barn på 1. Trinn og Småskoletrinnet',
+    title: 'Bildebingo Generator',
+    subtitle: 'Lag Printbare Bingospill med 50 Temaer',
     description: `Lag gratis arbeidsark for barn med vår bildlotto-generator. Grunnpakke-abonnementet ditt gir deg ubegrenset tilgang til gratis utskrifter uten ekstra kostnad per ark. Generer tilpassede arbeidsark for 1. trinn og barnehage. Last ned høykvalitets PDF-ark på under 3 minutter.
 
 Bildlotto er en fantastisk aktivitet for barn. Kombinerer visuell gjenkjenning med konsentrasjon. Barna elsker spenningen ved å lete etter bilder. Læreren kaller ut bildene en etter en. Elevene merker av på kortene sine. Første elev med full rad vinner.

@@ -15,16 +15,16 @@ export const findObjectsNoContent: ProductPageContent = {
   seo: {
     slug: 'finn-objektene-arbeidsark',
     appId: 'find-objects',
-    title: 'Finn Objektene Arbeidsark Gratis - Visuell Diskriminering Generator',
-    description: 'Lag gratis arbeidsark for barn med finn objektene aktiviteter. Gratis utskrifter med I Spy og Odd One Out. Last ned arbeidsark for 1. trinn på 3 min.',
-    keywords: 'finn objektene arbeidsark, arbeidsark gratis, matematikk oppgaver, finmotorikk øvelser, oppgavehefter barn, tall og telling, småskoletrinnet, i spy aktiviteter, visuell diskriminering, fargeleggingsbilder barn',
+    title: 'Finn Objektene Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare søkeoppgaver til barn. Finn gjemte objekter i bilder og utvikl visuell oppmerksomhet. 50 temaer fra førskole til 3. klasse.',
+    keywords: 'finn objektene generator, finn objektene oppgaver, puslespill bilde printbar, visuelt søk til barn, finn gjemte objekter, oppmerksomhet øvelse, visuell oppfatning førskole, finn og oppdag oppgave, bildepuslespilløvelser, søkespill printbar, visuell oppmerksomhet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-objektene-arbeidsark',
       },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-3
   hero: {
-    title: 'Finn Objektene Arbeidsark - Visuell Diskriminering Generator',
-    subtitle: 'Arbeidsark Gratis for Småskoletrinnet',
+    title: 'Finn Objektene Generator',
+    subtitle: 'Visuell Oppmerksomhetsøvelser med 50 Temaer',
     description: `Lag profesjonelle finn objektene arbeidsark med vår visuelle diskrimineringsgenerator. Full Tilgang-abonnementet ditt gir ubegrenset tilgang til arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark gratis perfekte for småskoletrinnet elever fra 1. til 3. trinn. Last ned pedagogiske oppgaver i høy kvalitet på under tre minutter.
 
 Finn objektene arbeidsark utvikler barns visuelle diskriminering og konsentrasjonsevner. Vår generator lager to typer oppgavehefter barn elsker. I Spy-modus lar elever finne skjulte objekter blant distraksjoner. Odd One Out-modus utfordrer barn til å identifisere uparede bilder. Begge formatene støtter matematikk oppgaver og finmotorikk øvelser med justerbare vanskelighetsgrader. Barn på småskoletrinnet elsker å løse finn objektene oppgaver fordi aktivitetene er morsomme og utfordrende samtidig.

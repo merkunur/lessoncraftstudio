@@ -17,16 +17,16 @@ export const bigSmallNoContent: ProductPageContent = {
   seo: {
     slug: 'stor-og-liten-arbeidsark',
     appId: 'big-small',
-    title: 'Lag Arbeidsark Stor og Liten - Matematikk Oppgaver og Arbeidsark',
-    description: 'Lag profesjonelle arbeidsark for størrelsesammenligning med vår størrelsesarbeidsark-generator. Full Access-abonnementet gir deg ubegrenset opprettelse av.',
-    keywords: 'stor og liten, størrelsesammenligning, arbeidsark gratis, matematikk oppgaver, oppgavehefter barn, barnehage, finmotorikk øvelser, tall og telling, småskoletrinnet, arbeidsark for nedlasting',
+    title: 'Størrelsessammenligning Generator | LessonCraftStudio',
+    description: 'Lag printbare stor og liten sammenligningsoppgaver med bilder. Utvikl størrelsesbegreper fra førskole til 1. klasse. Tilpass innstillinger. Gratis PDF.',
+    keywords: 'størrelsessammenligning generator, stor og liten oppgaver, størrelsessammenligning førskole, størrelser gjenkjenning, større og mindre, størrelsessammenligning til barn, stor liten printbar, størrelsesforsker oppgaver, størrelsesøvelser førskole, sammenligningsferdigheter øvelse, størrelser sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/stor-og-liten-arbeidsark',
       },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-3
   hero: {
-    title: 'Lag Arbeidsark Stor og Liten - Matematikk Oppgaver og Arbeidsark Gratis for Barnehage',
-    subtitle: 'Størrelsessammenligning for Barnehage og Småskoletrinnet',
+    title: 'Stor og Liten Generator',
+    subtitle: 'Størrelsessammenligningsøvelser med Bilder fra Førskole til 1. Klasse',
     description: `Lag profesjonelle arbeidsark for størrelsesammenligning med vår størrelsesarbeidsark-generator. Ditt Full Tilgang-abonnement gir deg ubegrenset opprettelse av arbeidsark uten ekstra kostnader. Generer tilpassede arbeidsark gratis for nedlasting perfekt for barnehage og småskoletrinnet. Last ned PDF-arbeidsark av høy kvalitet på under 3 minutter.
 
 Størrelsesforståelse er en grunnleggende matematikk oppgaver for småbarn. Barna lærer å sammenligne gjenstander etter størrelse. De øver på konseptene stor, liten og middels. Visuell diskriminering utvikles gjennom sammenligning. Dette er kritiske ferdigheter for tidlig matematikkutvikling.

@@ -15,16 +15,16 @@ export const drawAndColorNoContent: ProductPageContent = {
   seo: {
     slug: 'rutenetttegning-arbeidsark',
     appId: 'draw-and-color',
-    title: 'Rutenetttegning Arbeidsark - Fargeleggingsbilder Barn og Arbeidsark',
-    description: 'Lag profesjonelle rutenetttegning arbeidsark med vår grid drawing generator. Generer tilpassede fargeleggingsbilder barn perfekt for barnehage og 1.-3. trinn.',
-    keywords: 'rutenetttegning, fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, barnehage, matematikk oppgaver, tall og telling, oppgavehefter barn, bokstaver lære skrive, lesetrening',
+    title: 'Gratis Rutenetttegning Generator | LessonCraftStudio',
+    description: 'Lag printbare rutenetttegningsoppgaver. Tegn mønstre i ruter etter modell og fargelegg. Utvikler visuell oppfatning. Førskole til 3. klasse. Gratis.',
+    keywords: 'rutenetttegning generator, rutenetttegning oppgaver, pikseltegning til barn, rutetegning, rutepapir tegning, visuell oppfatning øvelse, rutetegning printbar, modellkopiering til rute, tegning i ruter, kodet tegning, ruteoppgaver til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenetttegning-arbeidsark',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
-    title: 'Rutenetttegning Arbeidsark - Fargeleggingsbilder Barn',
-    subtitle: 'Arbeidsark Gratis for Barnehage',
+    title: 'Rutenetttegning Generator',
+    subtitle: 'Tegn og Fargelegg Mønstre i Rutemønster etter Modell',
     description: `Lag profesjonelle rutenetttegning arbeidsark med vår grid drawing generator. Din Full Tilgang-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede fargeleggingsbilder barn perfekt for barnehage og 1.-3. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
 
 Rutenetttegning utvikler barns visuospatiale ferdigheter og finmotorikk. Vårt verktøy hjelper pedagoger med å lage engasjerende finmotorikk øvelser der barn kopierer bilder celle for celle. Velg mellom 3x3 til 10x10 rutenett for ulike ferdighetsnivåer. Systemet genererer ledetråd-celler automatisk som barn bruker som referanse for å tegne.

@@ -15,16 +15,16 @@ export const sudokuNoContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-arbeidsark',
     appId: 'sudoku',
-    title: 'Gratis Sudoku Arbeidsark - Generator for Barnehage og 1. Trinn',
-    description: 'Lag gratis sudoku arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min. Perfekt for lærere og foreldre.',
-    keywords: 'sudoku for barn, arbeidsark gratis, finmotorikk øvelser, matematikk oppgaver, oppgavehefter barn, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, lesetrening',
+    title: 'Barne-Sudoku Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare bilde-sudokuer til barn. Enkle og middels logikkspill fra førskole til 3. klasse. Bilder fra 3 000+ bibliotek. Gratis PDF.',
+    keywords: 'barne-sudoku generator, bilde-sudoku til barn, sudoku printbar, barns logikkspill, enkel sudoku til barn, bilde-sudoku printbar, sudoku førskole, logikkøvelser til barn, sudoku rutenett til barn, tenkningsferdigheter trening, sudoku småskolen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/sudoku-arbeidsark',
       },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
-    title: 'Sudoku for Barn - Arbeidsark Gratis for Finmotorikk Øvelser',
-    subtitle: 'Matematikk Oppgaver for Barnehage og Småskoletrinn',
+    title: 'Barne-Sudoku Generator',
+    subtitle: 'Printbare Bilde-Sudokuer fra Førskole til 3. Klasse',
     description: `Lag profesjonelle sudoku-oppgaver for barn med vår visuellbaserte sudoku-generator. Grunnpakke-abonnementet ditt gir ubegrenset tilgang til å lage sudoku arbeidsark gratis uten ekstra kostnader per oppgave. Generer tilpassede sudoku-oppgaver perfekt for barnehage og småskoletrinnet (1.-4. trinn). Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Sudoku for barn er designet spesielt for yngre elever med 4x4 rutenett og fargerike bilder i stedet for tall. Barna lærer logisk tenkning gjennom morsomme visuelt sudoku-spill. Hver oppgave bruker fire unike bilder som barn må plassere slik at hvert bilde vises nøyaktig én gang i hver rad og kolonne.

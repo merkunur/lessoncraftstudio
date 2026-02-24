@@ -15,16 +15,16 @@ export const chartCountNoContent: ProductPageContent = {
   seo: {
     slug: 'bildediagram-arbeidsark',
     appId: 'chart-count',
-    title: 'Bildediagram Arbeidsark - Gratis Arbeidsark for Barn | Matematikk',
-    description: 'Lag gratis arbeidsark for bildediagram og telling. Ubegrenset tilgang til matematikk oppgaver for barnehage og 1. trinn. Last ned PDF på 3 minutter.',
-    keywords: 'bildediagram arbeidsark, tall og telling, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
+    title: 'Gratis Bildediagram Generator | LessonCraftStudio',
+    description: 'Lag printbare bildediagram-oppgaver til telling og datavisualisering. Tell og fargelegg diagrammer fra førskole til 3. klasse. Gratis PDF.',
+    keywords: 'bildediagram generator, bildediagram oppgaver, tell og fargelegg, datavisualisering til barn, søylediagram førskole, bildediagram printbar, telling og fargelegging, statistikkoppgaver til barn, diagram printbar, statistikk førskole, bildediagram øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
       },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
-    title: 'Bildediagram Arbeidsark - Tall og Telling Matematikk Oppgaver',
-    subtitle: 'Arbeidsark Gratis for Barnehage og Småskole',
+    title: 'Bildediagram — Tell og Fargelegg Generator',
+    subtitle: 'Datavisualisering og Telleøvelser til Barn',
     description: `Lag profesjonelle bildediagram arbeidsark for telling og grafisk fremstilling. Full Tilgang-abonnementet ditt gir deg ubegrenset tilgang til å lage matematikk oppgaver uten ekstra kostnad per arbeidsark. Lag arbeidsark gratis med vårt bildediagram-verktøy perfekt for tall og telling øvelser. Elevene teller bilder og farger inn rutene for å lage egne diagram. Last ned høykvalitets PDF-arbeidsark på under tre minutter.
 
 Bildediagram kombinerer telling med grafisk fremstilling for småskoletrinnet. Vårt verktøy lager arbeidsark hvor elevene får telleoppdrag med seks ulike bilder. Barn teller hvor mange av hvert bilde og farger rutene oppover for å lage et søylediagram. Denne kombinasjonen av tall og telling med finmotorikk øvelser gir variert læring. Lærere får profesjonelle matematikk oppgaver klare til utskrift på få minutter.

@@ -15,16 +15,16 @@ export const writingNoContent: ProductPageContent = {
   seo: {
     slug: 'skriveark-arbeidsark',
     appId: 'writing',
-    title: 'Skriveark Generator – Bokstaver Lære Skrive – Arbeidsark Gratis for',
-    description: 'Lag profesjonelle skriveark for håndskriftstrening med vår skriveark generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage tilpassede.',
-    keywords: 'skriveark, skriveark generator, bokstaver lære skrive, finmotorikk øvelser, håndskriftstrening, arbeidsark gratis, oppgavehefter barn, tall og telling, gangetabellen, addisjon og subtraksjon, fargeleggingsbilder barn, lesetrening',
+    title: 'Skriveøvelse Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare skriveøvelser til bokstavdanning og håndskrift. Bokstaver, ord og blyantgrep fra førskole til 2. klasse. Last ned gratis PDF.',
+    keywords: 'skriveøvelse generator, håndskrift øvelse, bokstaver øvelse førskole, bokstavdanning, blyantgrep trening, skriving trening, bokstavøvelser printbar, finmotorikk skriving, alfabet skriving, håndskrift printbar, skriveforberedelse førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skriveark-arbeidsark',
   },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
-    title: 'Skriveark Arbeidsark Gratis',
-    subtitle: 'Bokstaver Lære Skrive for Barnehage',
+    title: 'Skriveøvelse Generator',
+    subtitle: 'Bokstav- og Ordskrivingsøvelser fra Førskole til 2. Klasse',
     description: `Lag profesjonelle skriveark for håndskriftstrening med vår skriveark generator. Full Tilgang-abonnementet ditt gir deg ubegrenset tilgang til å lage tilpassede arbeidsark gratis for utskrift. Generer skriveark for bokstaver lære skrive perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Vår skriveark generator hjelper barn med finmotorikk øvelser og håndskriftstrening. Lag oppgavehefter barn kan bruke til å lære skrive bokstaver med sporing og kopiering. Hver skriveøvelse tilpasses barnets ferdighetsnivå. Ideelt for lærere som trenger arbeidsark gratis til klasserommet.

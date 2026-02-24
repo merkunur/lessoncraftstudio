@@ -17,16 +17,16 @@ export const skattejaktNoContent: ProductPageContent = {
   seo: {
     slug: 'skattejakt-arbeidsark',
     appId: 'treasure-hunt',
-    title: 'Skattejakt-Generator - Arbeidsark Gratis for Barn - Lesetrening og',
-    description: 'Lag profesjonelle skattejakter med vår skattejakt generator. Full Tilgang-abonnementet gir deg vannmerkefrie arbeidsark gratis og kommersiell lisens.',
-    keywords: 'skattejakt, arbeidsark gratis, oppgavehefter barn, lesetrening, finmotorikk øvelser, matematikk oppgaver, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, addisjon og subtraksjon',
+    title: 'Skattejakt Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare skattejakt-oppgaver til retningsord og forståelse av instruksjoner. Morsomt eventyrspill fra førskole til 2. klasse. Gratis.',
+    keywords: 'skattejakt generator, skattejakt oppgaver, retningsord øvelse, instruksjoner forståelse, skattejakt printbar, retningsbegreper til barn, eventyroppgaver førskole, skattejakt klasserom, retning og posisjon, eventyrspill printbar, instruksjonsforståelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skattejakt-arbeidsark',
   },
 
   // Hero Section
   hero: {
-    title: 'Skattejakt-Generator',
-    subtitle: 'Lesetrening og Finmotorikk Øvelser for Barn',
+    title: 'Skattejakt Generator',
+    subtitle: 'Retningsord og Instruksjonsforståelse Eventyroppgaver',
     description: `Lag profesjonelle skattejakter med vår skattejakt generator. Full Tilgang-abonnementet gir deg vannmerkefrie arbeidsark gratis og kommersiell lisens. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter. Generer ubegrenset antall skattejakter uten kostnad per arbeidsark.
 
 Skattejakt generatoren hjelper lærere med å lage tilpassede arbeidsark gratis for barn. Perfekt for lesetrening og finmotorikk øvelser i småskoletrinnet. Velg 6 bilder fra over 3000 barnevennlige bilder organisert i temaer. Du kan også laste opp dine egne bilder for personlige oppgavehefter barn. Støtter 11 språk inkludert norsk for autentisk språklæring.

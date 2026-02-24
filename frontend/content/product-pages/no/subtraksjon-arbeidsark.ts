@@ -17,16 +17,16 @@ export const subtractionNoContent: ProductPageContent = {
   seo: {
     slug: 'subtraksjon-arbeidsark',
     appId: 'subtraction',
-    title: 'Subtraksjon Arbeidsark Generator - Matematikk Oppgaver Addisjon og',
-    description: 'Lag profesjonelle subtraksjon arbeidsark med vår bilder-baserte matematikk oppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av.',
-    keywords: 'subtraksjon arbeidsark, matematikk oppgaver, addisjon og subtraksjon, arbeidsark gratis, matteoppgaver, oppgavehefter barn, tall og telling, småskoletrinnet, barneskolen, gangetabellen',
+    title: 'Gratis Subtraksjon Generator | LessonCraftStudio',
+    description: 'Lag printbare subtraksjonsoppgaver med bilder fra førskole til 3. klasse. Tilpassbare tallområder, fasit og visuelle hjelpemidler. Gratis PDF.',
+    keywords: 'subtraksjon generator, subtraksjon oppgaver, subtraksjonsøvelser, minusoppgaver printbar, subtraksjon med bilder, matematikk subtraksjon, subtraksjon 1. klasse, subtraksjonsøvelser førskole, minusoppgave øvelse, subtraksjon fasit, grunnleggende subtraksjon',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/subtraksjon-arbeidsark',
   },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-5
   hero: {
-    title: 'Subtraksjon Arbeidsark Generator - Matematikk Oppgaver Addisjon og Subtraksjon',
-    subtitle: 'Arbeidsark Gratis å Skrive Ut',
+    title: 'Subtraksjon Generator',
+    subtitle: 'Visuelle Subtraksjonsøvelser med Bilder',
     description: `Lag profesjonelle subtraksjon arbeidsark med vår bilder-baserte matematikk oppgaver generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark uten ekstra kostnader per ark. Generer tilpassede matteoppgaver perfekt for barneskole småskoletrinnet. Last ned høykvalitets PDF arbeidsark på under 3 minutter.
 
 Subtraksjon arbeidsark generatoren vår bruker bilder i stedet for bare tall. Dette gjør matematikk oppgaver mer konkrete for unge elever. Barn kan se subtraksjon visuelt. De kan telle bildene. De forstår hva subtraksjon betyr. Denne visuelle tilnærmingen bygger tallforståelse raskere enn tradisjonelle tall-bare arbeidsark.

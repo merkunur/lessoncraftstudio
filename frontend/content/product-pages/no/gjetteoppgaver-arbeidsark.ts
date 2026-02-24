@@ -15,16 +15,16 @@ export const wordGuessNoContent: ProductPageContent = {
   seo: {
     slug: 'gjetteoppgaver-arbeidsark',
     appId: 'word-guess',
-    title: 'Gjetteoppgaver med Bildehintkryss – Arbeidsark Gratis for Barneskolen',
-    description: 'Lag gjetteoppgaver med bildehintkryss for elevene dine på få minutter. Verktøyet vårt gir deg mulighet til å lage arbeidsark gratis til bruk i klasserommet.',
-    keywords: 'gjetteoppgaver, bildehintkryss, arbeidsark gratis, lesetrening, leseforståelse, bokstaver lære skrive, matematikk oppgaver, oppgavehefter barn, finmotorikk øvelser, fargeleggingsbilder barn, tall og telling, gangetabellen',
+    title: 'Gratis Gjett Ordet Generator | LessonCraftStudio',
+    description: 'Lag printbare gjett-ordet-oppgaver der barnet gjetter ord ut fra bildelededtråder. Utvikler ordforråd og slutningsferdigheter. Gratis PDF.',
+    keywords: 'gjett ordet generator, gjett ordet oppgaver, ordgåte med bilder, ordforråd øvelse, bildebasert ordoppgave, gjetteoppgave til barn, bildelededtråd oppgave, ords slutning, ordgåte printbar, ordforråd utvidelse, bildelededtråd ordoppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/gjetteoppgaver-arbeidsark',
   },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
-    title: 'Gjetteoppgaver Arbeidsark Gratis',
-    subtitle: 'Bildehintkryss for Barneskolen',
+    title: 'Gjett Ordet Generator',
+    subtitle: 'Ordforråd og Slutningsøvelser med Bildelededtråder',
     description: `Lag gjetteoppgaver med bildehintkryss for elevene dine på få minutter. Verktøyet vårt gir deg mulighet til å lage arbeidsark gratis til bruk i klasserommet. Perfekt for lesetrening og leseforståelse i barneskolen. Velg tema eller bilder og generer profesjonelle oppgavehefter barn elsker. Last ned som PDF eller JPEG og skriv ut hjemme eller på skolen.
 
 Full Tilgang-abonnementet inkluderer ubegrenset tilgang til gjetteoppgaveverktøyet. Tilpasses alle fag fra matematikk oppgaver til bokstaver lære skrive aktiviteter. Hver øvelse kan skreddersys til dine elevers nivå. 300 DPI kvalitet sikrer skarpe utskrifter.

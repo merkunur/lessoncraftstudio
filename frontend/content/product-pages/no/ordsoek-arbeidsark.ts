@@ -15,16 +15,16 @@ export const wordSearchNoContent: ProductPageContent = {
   seo: {
     slug: 'ordsoek-arbeidsark',
     appId: 'wordsearch',
-    title: 'Arbeidsark Gratis - Ordgåte Generator for Barn - Lesetrening og',
-    description: 'Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
-    keywords: 'ordgåte generator, arbeidsark gratis, lesetrening, bokstaver lære skrive, oppgavehefter barn, finmotorikk øvelser, tall og telling, matematikk oppgaver, fargeleggingsbilder barn, norsk barneskole',
+    title: 'Gratis Ordsøk Generator | LessonCraftStudio',
+    description: 'Lag printbare ordsøk-oppgaver på 11 språk. Tilpassbare ord, størrelser og vanskelighetsgrader. Ordforråd og staving. Last ned gratis PDF.',
+    keywords: 'ordsøk generator, ordsøk printbar, ordsøk til barn, ordspill generator, ordsøk oppgave, ordpuslespill printbar, ordleterspill til barn, ordforråd ordsøk, staving ordsøk, ordsøk småskolen, ordsøk førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/ordsoek-arbeidsark',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
-    title: 'Arbeidsark Gratis - Ordgåte Generator for Barn',
-    subtitle: 'Lesetrening og Bokstaver Lære Skrive',
+    title: 'Ordsøk Generator',
+    subtitle: 'Printbare Ordsøk-oppgaver til Ordforrådsøving',
     description: `Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Alle arbeidsark har vannmerke med mindre du har abonnement. Med abonnement får du vannmerkefrie arbeidsark og kommersiell lisens. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Ordgåte generatoren hjelper lærere med å lage tilpassede arbeidsark for barn. Perfekt for lesetrening og bokstaver lære skrive i barneskolen. Velg mellom over 3000 barnervennlige bilder organisert i temaer. Du kan også laste opp dine egne bilder for personlige oppgavehefter barn. Støtter 11 språk inkludert norsk for autentisk språklæring.

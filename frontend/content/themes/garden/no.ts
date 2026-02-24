@@ -235,6 +235,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan bygger hagearbeidsark skriveferdigheter i 3. klasse?', answer: 'Elevene skriver prosedyretekster med sekvenserte trinn for planting, komponerer faktarapporter om plantebiologi med flere kilder, lager hageplaner over flere avsnitt med mål og begrunnelser, og bruker presist ordforråd fra botaniske kontekster.' },
         { question: 'Kan hagearbeidsark lære dataanalyse på 3. klassetrinn?', answer: 'Ja. Elevene registrerer plantevekstmålinger over tid, lager linjediagrammer og søylediagrammer fra dataene sine, bruker multiplikasjon til å beregne veksthastigheter og forutsi fremtidige målinger, og skriver analytiske avsnitt som tolker mønstrene de observerer i dataene.' },
       ],
+
+      snippetAnswer: 'Hage-oppgaver for 3. klasse (8–9 år) trener arealberegning av bed og plener, multiplikasjon med plantebestillinger, brøker med jordsammensetning, linjediagrammer med temperaturdata og selvstendig skriving av hageplanleggingsrapporter. Gratis utskrivbare PDF-oppgaver på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 3. klasse blir hagetemaet et landskapsarkitekturprosjekt — åtte- og niåringer beregner areal og omkrets av bed, plener og stier i m², multipliserer med plantebestillinger (7 rader × 9 planter = 63), og arbeider med brøker i jordsammensetning (tre åttendedeler kompost, to åttendedeler sand). Målekonvertering mellom cm, m og km brukes til hageplaner. Divisjon fordeler frø og gjødsel (48 frø i 6 bed). Linjediagrammer viser temperatur og nedbør over vekstsesongen. Hageplanleggingsrapporter med tegning, planteoversikt og væranalyse trener sakprosa. Kunnskapsløftets (LK20) mål for areal, måling og naturfag i 3. trinn støttes.',
+      developmentalMilestones: [
+        { milestone: 'Arealberegning av bed og plener (8–9-åringer beregner i m² fra hageplaner)', howWeAddress: 'Hageplan-arealark der elevene beregner areal av ulike soner og planlegger beplantning per m²' },
+        { milestone: 'Multiplikasjon med plantebestillinger (tosifrede tall i hagekontekst)', howWeAddress: 'Plantebestilling-ark der elevene multipliserer rader × planter, beregner totalbehov og kostnad' },
+        { milestone: 'Hageplanleggingsrapport med tegning og værdata', howWeAddress: 'Hageprosjekt-maler der elevene tegner hageplan, planlegger beplantning og analyserer værdata' },
+      ],
+      differentiationNotes: 'For elever som trenger støtte, bruk hele meter i areal, ensifret multiplikasjon og ferdiglagde hageplaner med felt. For avanserte elever i 3. klasse legges til arealberegning av sammensatte former, tosifret multiplikasjon med desimaler, og selvstendig hageplanleggingsrapport med væranalyse, kostnadsoptimering og bærekraftsvurdering.',
+      parentTakeaway: 'Gjør hagen til et matteprosjekt: beregn arealet av et bed (3 m × 1,5 m). Regn: «7 rader med 9 planter.» Del: «48 frø i 6 bed.» Lag brøker: «tre av åtte deler kompost.» Tegn en hageplan med mål og la barnet planlegge beplantningen. Hagearbeid er matematikk, naturfag og kreativitet i ett.',
+      classroomIntegration: 'Hagetemaet i 3. klasse integrerer matematikk (areal, multiplikasjon, brøker), naturfag (vekstvilkår og økologi), og norsk (planleggingsrapporter). En klassehage med reell beplantning, måling og værobservasjon forbinder alle fag. Kunnskapsløftets (LK20) mål for areal, naturfag og sakprosa støttes.',
+      assessmentRubric: [
+        { skill: 'Arealberegning av bed og plener', emerging: 'beregner areal av rektangler med hele tall og støtte', proficient: 'beregner selvstendig areal og omkrets fra hageplaner og planlegger beplantning', advanced: 'beregner areal av sammensatte former, optimerer plassbruk og argumenterer for designvalg' },
+        { skill: 'Multiplikasjon med plantedata', emerging: 'multipliserer ensifret × ensifret med støtte', proficient: 'løser selvstendig tosifret multiplikasjon med plantebestillinger og beregner totalkostnad', advanced: 'optimerer plantebestillinger med prissammenligning og beregner nøyaktig totalbehov per m²' },
+        { skill: 'Hageplanleggingsrapport', emerging: 'skriver en enkel planteliste og 3–4 setninger med støtte', proficient: 'skriver selvstendig en rapport med hageplan, planteoversikt, budsjett og værdata', advanced: 'skriver en komplett rapport med målestokktegning, væranalyse, bærekraftsvurdering og optimering' },
+      ],
     },
   },
 

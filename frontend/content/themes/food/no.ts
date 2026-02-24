@@ -236,6 +236,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke ferdigheter i meningsskrivning bygger mat-arbeidsark for 3. klasse?', answer: 'Elevene komponerer essays over flere avsnitt der de argumenterer for eller mot bestemte ernæringsvalg, og støtter posisjonene sine med bevis fra matetiketter, datatabeller og faktatekster. De lærer å strukturere argumenter med påstander, bevisbaserte hoveddeler og konklusjoner som forsterker posisjonen.' },
         { question: 'Hvordan kobler mat-arbeidsark matematikk til virkelige forbrukerferdigheter på 3. klassetrinn?', answer: 'Elevene bruker multiplikasjon til å beregne totale handlekostnader, sammenligne enhetspriser på tvers av merker, finne ut hva det koster å mate en familie per uke ved hjelp av flertrinnoperasjoner, og analysere om storkjøp sparer penger. Disse oppgavene utvikler økonomisk forståelse sammen med regneferdigheter i kontekster elevene møter daglig.' },
       ],
+
+      snippetAnswer: 'Mat-oppgaver for 3. klasse (8–9 år) trener brøker med næringsstoffandeler, multiplikasjon med matbudsjetter, målekonvertering g/kg og dl/l, divisjon av porsjoner og selvstendig skriving av næringsanalyserapporter med data. Gratis utskrivbare PDF-oppgaver på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 3. klasse blir mattemaet et næringsvitenskapelig prosjekt — åtte- og niåringer beregner brøker med næringsstoffandeler (en fjerdedel karbohydrater, en fjerdedel protein, halvparten grønnsaker), multipliserer matpriser for ukeshandel (8 yoghurt à 14 kr.), og konverterer mellom g og kg, dl og l i oppskrifter. Divisjon fordeler matpakker (36 fruktbiter til 6 barn). Linjediagrammer viser prisutvikling over måneder. Næringsanalyserapporter med data fra matdagbok, brøkberegning og anbefalinger trener sakprosa. Kunnskapsløftets (LK20) mål for brøker, måling og helse i 3. trinn støttes.',
+      developmentalMilestones: [
+        { milestone: 'Brøker med næringsstoffandeler (8–9-åringer beregner deler av tallerkenmodellen)', howWeAddress: 'Tallerkenmodell-ark der elevene beregner brøkandeler av måltider og sammenligner med anbefalinger' },
+        { milestone: 'Multiplikasjon med matbudsjett (tosifrede tall i økonomikontekst)', howWeAddress: 'Ukeshandel-ark der elevene multipliserer antall × pris, summerer og holder seg innenfor budsjett' },
+        { milestone: 'Næringsanalyserapport med data og anbefalinger', howWeAddress: 'Matdagbok-analyse-ark der elevene registrerer kosthold, beregner næring og skriver anbefalinger' },
+      ],
+      differentiationNotes: 'For elever som trenger støtte, bruk halvdeler og fjerdedeler, ensifret multiplikasjon med runde priser, og rapportmaler med felt. For avanserte elever i 3. klasse legges til brøker med ulike nevnere, tosifret multiplikasjon med øre, og selvstendig næringsanalyserapport med kaloriberegning og bærekraftsperspektiv.',
+      parentTakeaway: 'Gjør mathandelen til matematikk: «8 yoghurt à 14 kr. — hva koster det?» Del matpakken: «36 drueklaser til 6 — hvor mange hver?» Brøkberegn tallerkenmodellen: «en fjerdedel protein.» Før en matdagbok og analyser. La barnet skrive en næringsrapport. Matmatematikk er den sunneste matematikken.',
+      classroomIntegration: 'Mattemaet i 3. klasse binder sammen matematikk (brøker, multiplikasjon, målekonvertering), mat og helse (næring og kosthold), og norsk (næringsrapporter). Et klasseprosjekt med matdagbok, næringsanalyse og presentasjon forbinder alle fag. Kunnskapsløftets (LK20) mål for brøker, helse og sakprosa støttes.',
+      assessmentRubric: [
+        { skill: 'Brøker med næringsstoffandeler', emerging: 'finner halvdeler og fjerdedeler av måltider med støtte', proficient: 'beregner selvstendig brøkandeler av tallerkenmodellen og sammenligner med anbefalinger', advanced: 'sammenligner brøker med ulike nevnere, beregner kaloribrøker og optimerer måltider' },
+        { skill: 'Multiplikasjon med matbudsjett', emerging: 'multipliserer ensifret × tosifret med runde priser med støtte', proficient: 'løser selvstendig ukesbudsjett med tosifret multiplikasjon og holder seg innenfor grense', advanced: 'optimerer handlelister med prissammenligning, rabattberegning og argumenterer for valg' },
+        { skill: 'Næringsanalyserapport', emerging: 'skriver 3–4 setninger om et måltid med støtte', proficient: 'skriver selvstendig en rapport med data, brøkberegning og konkrete anbefalinger', advanced: 'skriver en detaljert rapport med kaloriberegning, bærekraftsanalyse og vitenskapelig begrunnelse' },
+      ],
     },
   },
 

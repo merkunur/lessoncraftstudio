@@ -236,6 +236,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvordan utvikler bondegårdarbeidsark skriveferdigheter i 3. klasse?', answer: 'Elevene skriver flerparagrafs meningsessays om jordbrukspraksiser, komponerer forskningsrapporter som sammenligner forskjellige landbruksmetoder, og lager prosedyretekster som forklarer gårdsprosesser med sekvensierte avsnitt og støttende evidens.' },
         { question: 'Kan bondegårdarbeidsark lære brøk på 3. klassenivå?', answer: 'Ja. Bondegårdkontekster introduserer naturlig brøk gjennom å dele innhøstinger likt, måle delmengder av ingredienser, dele parseller i like seksjoner, og representere brøkdeler på tallinjer ved hjelp av innhøstingsscenarier.' },
       ],
+
+      snippetAnswer: 'Gård-oppgaver for 3. klasse (8–9 år) trener multiplikasjon og divisjon med gårdsdata, arealberegning av jorder og enger, brøker med avlingsfordeling, linjediagrammer med produksjonsdata og selvstendig skriving av gårdsforskningsrapporter. Gratis utskrivbare PDF-oppgaver på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 3. klasse blir gårdstemaet et realistisk driftsprosjekt — åtte- og niåringer bruker multiplikasjon og divisjon med gårdsdata (72 høner fordelt på 8 hønsehus = 9 per hus), beregner areal og omkrets av jorder og enger i m², og arbeider med brøker i avlingsfordeling (to femtedeler av avlingen er hvete). Målekonvertering mellom kg og tonn brukes til avlingsdata. Linjediagrammer viser produksjon over sesonger. Divisjon med rest løser fordelingsproblemer (50 liter melk i 6 tanker). Gårdsforskningsrapporter med driftsdata, analyse og anbefalinger trener sakprosa. Kunnskapsløftets (LK20) mål for multiplikasjon, areal og sakprosa i 3. trinn støttes.',
+      developmentalMilestones: [
+        { milestone: 'Multiplikasjon og divisjon med gårdsdata (8–9-åringer regner med tosifrede tall i driftskontekst)', howWeAddress: 'Gårdsdrifts-ark der elevene beregner dyrefordeling, eggproduksjon og fôrbehov med multiplikasjon og divisjon' },
+        { milestone: 'Arealberegning av jorder og enger (m² med tosifrede mål)', howWeAddress: 'Jordbruksareal-ark der elevene beregner areal og omkrets av jorder fra kartskisser' },
+        { milestone: 'Gårdsforskningsrapport med driftsdata', howWeAddress: 'Gårdsrapport-maler der elevene analyserer produksjonsdata, beregner nøkkeltall og skriver anbefalinger' },
+      ],
+      differentiationNotes: 'For elever som trenger støtte, bruk ensifret multiplikasjon, hele meter i areal og rapportmaler med felt og setningsstartere. For avanserte elever i 3. klasse legges til tosifret × tosifret multiplikasjon, arealberegning med desimaler, og selvstendig gårdsforskningsrapport med økonomisk analyse, bærekraftsvurdering og anbefalinger.',
+      parentTakeaway: 'Utforsk gårdsdrift som matematikk: «72 høner i 8 hus — hvor mange i hvert?» Beregn areal: «engen er 25 m × 18 m.» Brøker: «to femtedeler av avlingen er hvete.» Konverter: «1 500 kg = hvor mange tonn?» La barnet skrive en gårdsrapport med tall og anbefalinger. Gårdsmatematikk er virkelig livsmatematikk.',
+      classroomIntegration: 'Gårdstemaet i 3. klasse driver tverrfaglig læring: matematikktimen med multiplikasjon, areal og diagrammer, naturfagstimen med økosystemer og bærekraft, norsktimen med gårdsrapporter og sakprosa. Et klasse-gårdsprosjekt med reelle data fra lokale gårder forbinder alle fag. Kunnskapsløftets (LK20) mål for regning, naturfag og rapportering støttes.',
+      assessmentRubric: [
+        { skill: 'Multiplikasjon og divisjon med gårdsdata', emerging: 'løser ensifret multiplikasjon med gårdsdata med støtte', proficient: 'løser selvstendig tosifret multiplikasjon og divisjon med gårdsdata og verifiserer', advanced: 'løser flertrinnsproblemer med tre operasjoner og formulerer egne gårdsoppgaver' },
+        { skill: 'Arealberegning av jorder', emerging: 'beregner areal av rektangler med hele tall og støtte', proficient: 'beregner selvstendig areal og omkrets med tosifrede mål og sammenligner jorder', advanced: 'beregner areal av sammensatte former, bruker målestokk og planlegger optimal jordfordeling' },
+        { skill: 'Gårdsforskningsrapport', emerging: 'skriver 3–4 setninger om gårdsdrift med støtte', proficient: 'skriver selvstendig en rapport med driftsdata, analyse og anbefalinger', advanced: 'skriver en detaljert rapport med økonomisk analyse, bærekraftsvurdering og optimeringsforslag' },
+      ],
     },
   },
 

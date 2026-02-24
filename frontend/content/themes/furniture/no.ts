@@ -236,6 +236,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke forklarende skriveferdigheter bygger møbel-arbeidsark?', answer: 'Elevene skriver tekster med flere avsnitt som beskriver designprosesser fra konsept til ferdig produkt, bruker presise målinger og teknisk vokabular som sammenføyning, symmetri og vinkelrett, organiserer trinn sekvensielt med overgangsord, og forklarer hvorfor bestemte designvalg ble tatt med bevis fra geometrisk analyse.' },
         { question: 'Hvordan gjør møbel-arbeidsark geometribegreper håndgripelige og meningsfulle?', answer: 'Hvert geometrisk begrep kobles til gjenstander elevene kan se og ta på. Rette vinkler vises i bordhjørner, parallelle linjer i hyllestøtter, symmetri i stoldesign og areal i pultoverflater. Denne konkrete koblingen forvandler abstrakt geometri til praktisk kunnskap som elevene anvender når de ser på møblene rundt seg.' },
       ],
+
+      snippetAnswer: 'Møbel-oppgaver for 3. klasse (8–9 år) trener arealberegning av rom og møbelflater, målekonvertering mellom cm og m, multiplikasjon med møbelpriser, brøker med romfordeling og selvstendig skriving av innredningsprosjektrapporter. Gratis utskrivbare PDF-oppgaver på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 3. klasse blir møbeltemaet et innredningsprosjekt med avansert geometri — åtte- og niåringer beregner areal og omkrets av rom og møbelflater i cm² og m², konverterer mellom cm og m for rommål, og bruker multiplikasjon til prisberegning (4 stoler à 349 kr.). Brøker viser romfordeling (tre åttendedeler av rommet er sitteplass). Divisjon fordeler møbler (24 stoler i 6 rekker). Linjediagrammer viser møbelprisutvikling. Innredningsprosjektrapporter med romplan, materialvalg og budsjett trener teknisk sakprosa. Kunnskapsløftets (LK20) mål for areal, måling og sakprosa i 3. trinn støttes.',
+      developmentalMilestones: [
+        { milestone: 'Arealberegning av rom og møbelflater (8–9-åringer beregner i cm² og m²)', howWeAddress: 'Romplanlegging-ark der elevene beregner areal av gulv, bord og hyller og planlegger innredning' },
+        { milestone: 'Målekonvertering cm/m for rommål (fleksibel omregning)', howWeAddress: 'Møbelmål-konverteringsark der elevene måler møbler og konverterer mellom cm og m' },
+        { milestone: 'Innredningsprosjektrapport med romplan og budsjett', howWeAddress: 'Innredningsrapport-maler der elevene tegner romplan, velger møbler og skriver begrunnede valg' },
+      ],
+      differentiationNotes: 'For elever som trenger støtte, bruk hele meter og centimeter, ensifret multiplikasjon og ferdiglagde romplaner med felt. For avanserte elever i 3. klasse legges til arealberegning med desimaler, tosifret multiplikasjon med møbelpriser, og selvstendig innredningsrapport med målestokk, budsjettoptimering og designbegrunnelse.',
+      parentTakeaway: 'Gjør barnerommet til et matteprosjekt: mål rommet og beregn arealet. Mål møblene og konverter: «bordet er 120 cm — det er 1,2 m.» Regn: «4 stoler à 349 kr.» Del rommet i brøker: «tre åttendedeler er sitteplass.» La barnet tegne en romplan med mål. Innredning er geometri i praksis.',
+      classroomIntegration: 'Møbeltemaet i 3. klasse binder sammen matematikk (areal, målekonvertering, multiplikasjon), kunst og håndverk (design og romplanlegging), og norsk (prosjektrapporter). Et klasse-innredningsprosjekt med reelle målinger og budsjett forbinder alle fag. Kunnskapsløftets (LK20) mål for areal, måling og sakprosa støttes.',
+      assessmentRubric: [
+        { skill: 'Arealberegning av rom og møbler', emerging: 'beregner areal med hele tall og enkel multiplikasjon med støtte', proficient: 'beregner selvstendig areal og omkrets av rom og møbler og planlegger innredning', advanced: 'beregner areal av sammensatte former, bruker målestokk og optimerer rombruk med begrunnelse' },
+        { skill: 'Målekonvertering med møbelmål', emerging: 'konverterer cm til m med hele tall med støtte', proficient: 'konverterer selvstendig mellom cm og m med desimaler og beregner totalbehov', advanced: 'konverterer fleksibelt og bruker mål til å planlegge innredning på målstokktegning' },
+        { skill: 'Innredningsprosjektrapport', emerging: 'skriver en enkel møbelliste og 3–4 setninger med støtte', proficient: 'skriver selvstendig en rapport med romplan, materialvalg, budsjett og begrunnelse', advanced: 'skriver en komplett rapport med målestokktegning, prissammenligning og designargumentasjon' },
+      ],
     },
   },
 

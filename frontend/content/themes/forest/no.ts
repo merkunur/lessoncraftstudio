@@ -237,6 +237,22 @@ const content: EnrichedThemeContent = {
         { question: 'Hvilke forskningsprosjekter kan tredjeklassinger fullføre med skogarbeidsark?', answer: 'Elevene sammenligner biomer som løvskog og barskog, samler data fra flere tekster om klima, arter og jordforhold, organiserer funn i sammenligningstabeller, og skriver forskningsrapporter med flere avsnitt med bevisbaserte konklusjoner.' },
         { question: 'Hvordan utvikler skogarbeidsark systemtenkning i 3. klasse?', answer: 'Elevene analyserer hvordan skoglag henger sammen, sporer nedbrytningssykluser fra bladfall til jordnæringsstoffreturer, modellerer populasjonsforhold med multiplikasjon, og forklarer hvordan endringer i én del av økosystemet påvirker hele systemet.' },
       ],
+
+      snippetAnswer: 'Skog-oppgaver for 3. klasse (8–9 år) trener arealberegning av skogområder, multiplikasjon og divisjon med tredata, brøker med artsfordeling, linjediagrammer med sesongdata og selvstendig skriving av økologiske forskningsrapporter. Gratis utskrivbare PDF-oppgaver på LessonCraftStudio.',
+      uniqueGradeAngle: 'I 3. klasse blir skogtemaet et økologisk forskningsprosjekt — åtte- og niåringer beregner areal av skogområder i m², multipliserer og dividerer med tredata (96 trær fordelt på 8 ruter = 12 per rute), og arbeider med brøker i artsfordeling (tre åttendedeler er gran, to åttendedeler er furu). Målekonvertering mellom cm, m og km brukes til trestammer og stier. Linjediagrammer viser sesongvariasjoner i bladfall og temperaturer. Økologiske forskningsrapporter med næringskjeder, dataaanalyse og konklusjon trener vitenskapelig metode. Kunnskapsløftets (LK20) mål for naturfaglig undersøkelse, areal og rapportering i 3. trinn støttes.',
+      developmentalMilestones: [
+        { milestone: 'Arealberegning av skogområder (8–9-åringer beregner i m² med reelle data)', howWeAddress: 'Skogområde-ark der elevene beregner areal og omkrets av skogruter fra kart og sammenligner' },
+        { milestone: 'Brøker med artsfordeling i økosystemer', howWeAddress: 'Artstellings-ark der elevene teller trær, beregner brøkandeler og sammenligner ulike skogtyper' },
+        { milestone: 'Økologisk forskningsrapport med næringskjede og data', howWeAddress: 'Økologirapport-maler der elevene dokumenterer en skogundersøkelse med data, næringskjede og konklusjon' },
+      ],
+      differentiationNotes: 'For elever som trenger støtte, bruk hele meter i areal, halvdeler og fjerdedeler, og rapportmaler med felt og setningsstartere. For avanserte elever i 3. klasse legges til arealberegning med desimaler, brøker med ulike nevnere, og selvstendig økologisk rapport med næringsnett, feilkilder og bærekraftsvurdering.',
+      parentTakeaway: 'Ta med på skogtur som forskning: mål en skogrute (10 m × 10 m) og tell trærne. Regn brøker: «tre av åtte trær er gran.» Konverter: «stien er 2 500 m — hvor mange km?» Tegn et linjediagram over temperatur i skogen gjennom fire sesonger. La barnet skrive en skogforskningsrapport. Skogen er det beste klasserommet.',
+      classroomIntegration: 'Skogtemaet i 3. klasse integrerer naturfag (økologi, næringskjeder, artsmangfold), matematikk (areal, brøker, linjediagrammer) og norsk (forskningsrapporter). En uteskoledag med datainnsamling og rapport forbinder alle fag. Kunnskapsløftets (LK20) mål for naturfaglig undersøkelse, areal og rapportering støttes.',
+      assessmentRubric: [
+        { skill: 'Arealberegning av skogområder', emerging: 'beregner areal av rektangler med hele tall og støtte', proficient: 'beregner selvstendig areal og omkrets fra kartskisser og sammenligner områder', advanced: 'beregner areal av sammensatte former, bruker målestokk og tolker kartdata' },
+        { skill: 'Brøker med artsfordeling', emerging: 'finner halvdeler og fjerdedeler av artsdata med konkreter', proficient: 'beregner selvstendig åttendedeler og femtedeler fra telledata og sammenligner', advanced: 'sammenligner brøker med ulike nevnere fra to økosystemer og trekker økologiske konklusjoner' },
+        { skill: 'Økologisk forskningsrapport', emerging: 'skriver 3–4 setninger om et skogfunn med støtte', proficient: 'skriver selvstendig en rapport med data, næringskjede og konklusjon', advanced: 'skriver en detaljert rapport med næringsnett, feilkilder, sammenligning og bærekraftsvurdering' },
+      ],
     },
   },
 

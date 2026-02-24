@@ -15,16 +15,16 @@ export const shadowMatchNoContent: ProductPageContent = {
   seo: {
     slug: 'skyggematching-arbeidsark',
     appId: 'shadow-match',
-    title: 'Skyggematching Arbeidsark Gratis - Visuell Persepsjon og Romlig',
-    description: 'Lag profesjonelle skyggematching arbeidsark med vår visuelle persepsjon generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark.',
-    keywords: 'skyggematching arbeidsark, arbeidsark gratis, visuell persepsjon, romlig resonnement, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, visuell diskriminering, formmatch',
+    title: 'Gratis Skyggematching Generator | LessonCraftStudio',
+    description: 'Lag printbare skyggeparringsoppgaver der barnet matcher bilde til korrekt skygge. Utvikler visuell oppfatning. 50 temaer. Last ned gratis PDF.',
+    keywords: 'skyggematching generator, skyggematching oppgaver, skyggeparring, skygge oppgaver til barn, silhuettoppgaver printbar, skyggegjenkjenning, visuell parring skygge, skyggeøvelser førskole, silhuett øvelse, bilde og skygge matching, skyggeoppgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skyggematching-arbeidsark',
   },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
-    title: 'Skyggematching Arbeidsark Gratis',
-    subtitle: 'Visuell Persepsjon Generator for Barnehage og Småskoletrinnet',
+    title: 'Skyggematching Generator',
+    subtitle: 'Visuell Oppfatningsøvelser med Skyggebilder',
     description: `Lag profesjonelle skyggematching arbeidsark med vår visuelle persepsjon generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark uten kostnader per ark. Generer egendefinerte skyggematching oppgaver perfekte for barnehage og småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.
 
 Skyggematching bygger kritiske visuelle diskrimineringsferdigheter hos unge elever. Barna matcher fargede objekter med deres svarte silhuetter. Utvikler visuell persepsjon, romlig bevissthet og problemløsningsevner. Utmerket for barnehage, 1. trinn, 2. trinn og 3. trinn.

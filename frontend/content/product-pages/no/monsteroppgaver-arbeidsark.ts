@@ -17,16 +17,16 @@ export const patternWorksheetNoContent: ProductPageContent = {
   seo: {
     slug: 'monsteroppgaver-arbeidsark',
     appId: 'pattern-worksheet',
-    title: 'Mønsteroppgaver Generator - Arbeidsark Gratis for Matematikk Oppgaver',
-    description: 'Lag profesjonelle mønstergjenkjenningsoppgaver med vår mønsteroppgave-generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av mønsteroppgaver.',
-    keywords: 'mønsteroppgaver, arbeidsark gratis, matematikk oppgaver, tall og telling, oppgavehefter barn, småskoletrinnet, finmotorikk øvelser, lesetrening, fargeleggingsbilder barn, bokstaver lære skrive',
+    title: 'Mønsteroppgave Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare mønsteroppgaver til mønstergjenkjenning og -fortsettelse. Varierte serier fra førskole til 3. klasse. 50 temaer. Gratis PDF.',
+    keywords: 'mønsteroppgave generator, mønsteroppgaver printbar, mønsterserier til barn, mønstre fortsettelse, mønstergjenkjenning øvelse, matematiske mønstre, mønsterrekke oppgaver, mønster kopiark, oppfatningsferdigheter førskole, mønstergjenkjenning 1. klasse, mønstre og serier',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monsteroppgaver-arbeidsark',
   },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Mønsteroppgaver Generator - Arbeidsark Gratis for Matematikk Oppgaver',
-    subtitle: 'Profesjonelle Mønstergjenkjenningsarbeidsark for Barnehage og Småskoletrinnet',
+    title: 'Mønsteroppgave Generator',
+    subtitle: 'Mønstergjenkjenning og -fortsettelse med 50 Temaer',
     description: `Lag profesjonelle mønstergjenkjenningsoppgaver med vår mønsteroppgave-generator. Full Tilgang-abonnementet ditt gir deg ubegrenset opprettelse av mønsteroppgaver uten ekstra kostnader per oppgave. Generer tilpassede matematikk oppgaver perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Mønstergjenkjenning er en grunnleggende matematikkferdighet for barnehage og 1.-4. trinn. Vår mønsteroppgave-generator lager ni forskjellige mønstertyper inkludert AB-mønstre, ABC-mønstre og ABCD-mønstre. Lærere lager arbeidsark gratis med tomme bokser eller flervalgsalternativer. Hver mønsteroppgave inkluderer automatisk fasitgenerering for enkel retting.

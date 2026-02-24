@@ -17,16 +17,16 @@ export const prepositionsNoContent: ProductPageContent = {
   seo: {
     slug: 'preposisjoner-arbeidsark',
     appId: 'prepositions',
-    title: 'Arbeidsark Gratis for Preposisjoner - Finmotorikk Øvelser og',
-    description: 'Lag profesjonelle preposisjonsarbeidsark med vår arbeidsarkgenerator. Full Access-abonnementet gir deg ubegrenset arbeidsarktilgang uten ekstra kostnader per.',
-    keywords: 'preposisjoner arbeidsark, arbeidsark gratis, finmotorikk øvelser, lesetrening, barnehage, småskoletrinnet, oppgavehefter barn, matematikk oppgaver, fargeleggingsbilder barn, bokstaver lære skrive',
+    title: 'Preposisjonsøvelse Generator | LessonCraftStudio',
+    description: 'Lag printbare preposisjonsøvelser med stedsord og bilder. Foran, bak, under, over — visuell språklæring for barn. Last ned gratis PDF med en gang.',
+    keywords: 'preposisjonsøvelse generator, preposisjonsøvelser, stedsord til barn, preposisjoner førskole, stedsord øvelse, foran bak oppgaver, stedsbegreper til barn, preposisjoner printbar, grammatikk øvelser førskole, visuell språklæring, stedsbeskrivelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/preposisjoner-arbeidsark',
   },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
-    title: 'Arbeidsark Gratis for Preposisjoner - Finmotorikk Øvelser og Lesetrening for Barnehage',
-    subtitle: 'Språkutvikling for Barnehage og Småskoletrinnet',
+    title: 'Preposisjonsøvelse Generator',
+    subtitle: 'Stedsord Læring med Bilder',
     description: `Lag profesjonelle preposisjonsarbeidsark med vår arbeidsarkgenerator. Ditt Full Tilgang-abonnement gir deg ubegrenset arbeidsarktilgang uten ekstra kostnader per arbeidsark. Generer tilpassede arbeidsark gratis perfekte for barnehage og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under tre minutter.
 
 Preposisjoner er grunnleggende byggesteiner i språkutvikling for barn. Vårt verktøy hjelper barn å lære romlige forhold som "på", "under", "ved siden av" og "mellom". Arbeidsarkene kombinerer visuelle bilder med språklig praksis. Perfekt for norskundervisning i barnehage og 1. til 3. trinn.

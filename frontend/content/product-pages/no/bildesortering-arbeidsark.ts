@@ -15,16 +15,16 @@ export const pictureSortNoContent: ProductPageContent = {
   seo: {
     slug: 'bildesortering-arbeidsark',
     appId: 'picture-sort',
-    title: 'Arbeidsark for Bildesortering - Arbeidsark Gratis og Oppgavehefter',
-    description: 'Lag profesjonelle bildesorteringsarbeidsark med vår bildesorteringsgenerator. Generer tilpassede arbeidsark for bildesortering perfekt for barnehage og.',
-    keywords: 'bildesortering arbeidsark, oppgavehefter barn, arbeidsark gratis, matematikk oppgaver, tall og telling, addisjon og subtraksjon, gangetabellen, lesetrening, bokstaver lære skrive, finmotorikk øvelser, fargeleggingsbilder barn',
+    title: 'Bildesortering Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare bildesorteringsoppgaver der barnet klassifiserer bilder i kategorier. Utvikler klassifiseringsferdigheter. Førskole til 2. klasse.',
+    keywords: 'bildesortering generator, bildesortering oppgaver, sorteringsøvelser til barn, kategorisering oppgave, bilde klassifisering, sortering førskole, gruppering øvelse, bilde kategorisering, klassifisering printbar, sorteringsferdigheter til barn, gruppering med bilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildesortering-arbeidsark',
   },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-3
   hero: {
-    title: 'Bildesortering Arbeidsark - Oppgavehefter Barn',
-    subtitle: 'Arbeidsark Gratis for Matematikk Oppgaver',
+    title: 'Bildesortering Generator',
+    subtitle: 'Klassifiserings- og Sorteringsøvelser med Bilder',
     description: `Lag profesjonelle bildesorteringsarbeidsark med vår bildesorteringsgenerator. Din Full Tilgang-abonnement gir deg ubegrenset arbeidsarkoppretting uten ekstra kostnader per ark. Generer tilpassede arbeidsark for bildesortering perfekt for barnehage og småskoletrinnet. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
 
 Bildesortering utvikler kritisk tenkning og kategoriseringsferdigheter hos barn. Vårt verktøy hjelper pedagoger med å lage engasjerende oppgavehefter barn som lærer barn å sortere objekter etter egenskaper. Velg to kategorier fra vårt bildebibliotek på over 3000 barnvennlige illustrasjoner. Systemet genererer automatisk 12 bilder for sorteringsaktiviteter. Kombiner med matematikk oppgaver for integrert læring.

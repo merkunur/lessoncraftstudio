@@ -17,16 +17,16 @@ export const oddOneOutNoContent: ProductPageContent = {
   seo: {
     slug: 'finn-den-ulike-arbeidsark',
     appId: 'odd-one-out',
-    title: 'Finn den Ulike - Arbeidsark Gratis for Visuell Diskriminering og',
-    description: 'Lag profesjonelle finn den ulike-oppgaver på minutter med vår generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark uten ekstra.',
-    keywords: 'finn den ulike, arbeidsark gratis, visuell diskriminering, lesetrening, oppgavehefter barn, matteoppgaver, finmotorikk øvelser, barneskole, bildekort',
+    title: 'Finn den Ulike Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare finn den ulike-oppgaver til visuell oppfatning og klassifisering. 50 temaer og tilpassbare innstillinger. Gratis PDF.',
+    keywords: 'finn den ulike generator, finn den ulike oppgaver, hva passer ikke inn, klassifisering øvelse, visuell skjelning, annerledes bilde oppgave, klassifiseringstrening til barn, forskjellig i gruppen, mønstergjenkjenning og klassifisering, sortering og skjelning, finn den ulike printbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-den-ulike-arbeidsark',
   },
 
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-3
   hero: {
-    title: 'Finn den Ulike Arbeidsark',
-    subtitle: 'Arbeidsark Gratis for Visuell Diskriminering og Lesetrening',
+    title: 'Finn den Ulike Generator',
+    subtitle: 'Klassifiserings- og Oppfatningsøvelser med Bilder',
     description: `Lag profesjonelle finn den ulike-oppgaver på minutter med vår generator. Full Tilgang-abonnementet ditt gir deg ubegrenset opprettelse av arbeidsark uten ekstra kostnader per oppgave. Generer egendefinerte matteoppgaver og finmotorikk øvelser perfekt for barneskole og esiopetus. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter.
 
 Finn den ulike-oppgaver bygger kritisk tenkning og visuell diskriminering. Elevene analyserer fire bilder og identifiserer hvilket som ikke hører hjemme. Dette utvikler observasjonsferdigheter, kategoriseringsevne og leseforståelse gjennom bildekort og arbeidsark gratis.

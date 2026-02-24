@@ -17,16 +17,16 @@ export const bildestiNoContent: ProductPageContent = {
   seo: {
     slug: 'bildesti-arbeidsark',
     appId: 'picture-path',
-    title: 'Bildesti-Generator - Arbeidsark Gratis Labyrintoppgaver og',
-    description: 'Lag profesjonelle bildelabyrintark med vår bildesti-generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage labyrintoppgaver uten ekstra.',
-    keywords: 'bildesti, labyrintoppgaver, arbeidsark gratis, finmotorikk øvelser, matematikk oppgaver, oppgavehefter barn, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, lesetrening',
+    title: 'Gratis Bildesti Generator | LessonCraftStudio',
+    description: 'Lag printbare bildesti-oppgaver der barnet følger bilderuter. Utvikler logisk tenkning og finmotorikk. Førskole til 2. klasse. Gratis.',
+    keywords: 'bildesti generator, bildesti oppgaver, labyrint oppgaver til barn, labyrint printbar, rutefølging, bilde-labyrint øvelse, sti oppgaver førskole, labyrintøvelser til barn, labyrint printbar barn, ruteøvelser, visuell rutefølging',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildesti-arbeidsark',
   },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-3
   hero: {
-    title: 'Bildesti-Generator',
-    subtitle: 'Labyrintoppgaver og Finmotorikk Øvelser for Barn',
+    title: 'Bildesti Generator',
+    subtitle: 'Logisk Tenkningsøvelser med Bilderuter',
     description: `Lag profesjonelle bildelabyrintark med vår bildesti-generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage labyrintoppgaver uten ekstra kostnader per ark. Generer tilpassede arbeidsark gratis for nedlasting - perfekt for barnehage og småskoletrinn. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Bildesti-generatoren har tre ulike spillmoduser. Bildesti-modus lar barna følge stien fra startbilde til sluttbilde. Klassisk Labyrint-modus lager tradisjonelle labyrinter med samleobjekter underveis. Velg Riktig Sti-modus gir en retningsutfordring hvor bare én sti fører til målet. Alle tre modusene kombinerer visuell læring med problemløsning.

@@ -17,16 +17,16 @@ export const patternTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'monstertog-arbeidsark',
     appId: 'pattern-train',
-    title: 'Mønstergenkjenning Arbeidsark Gratis - Matematikk Oppgaver for',
-    description: 'Lag profesjonelle mønstergenkjenningsarbeidsark med vår mønstergenerator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark.',
-    keywords: 'mønstergenkjenning, mønsterarbeidsark, arbeidsark gratis, matematikk oppgaver, oppgavehefter barn, småskoletrinnet, finmotorikk øvelser, tall og telling, togtemplate, arbeidsark for nedlasting',
+    title: 'Gratis Mønstertog Generator | LessonCraftStudio',
+    description: 'Lag printbare mønstertog-oppgaver til mønstergjenkjenning. Togformede oppgaver med 3 000+ bilder. Førskole til 2. klasse. Gratis PDF.',
+    keywords: 'mønstertog generator, mønstertog oppgaver, mønstre fortsettelse, mønstergjenkjenning tog, mønstergjenkjenning førskole, mønster fortsettelse øvelse, mønstertog printbar, mønsterserier til barn, mønstre gjenkjenning, matematisk oppfatning, mønsterrekke øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monstertog-arbeidsark',
   },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
   hero: {
-    title: 'Mønstergenkjenning Arbeidsark Gratis - Matematikk Oppgaver for Småskoletrinnet med Togtemplate',
-    subtitle: 'Mønsterøvelser for Barnehage og Småskoletrinnet',
+    title: 'Mønstertog Generator',
+    subtitle: 'Mønstergjenkjenningsøvelser i Togformat',
     description: `Lag mønstergenkjenningsarbeidsark med vår profesjonelle mønstergenerator. Full Tilgang-abonnementet ditt gir deg ubegrenset opprettelse av arbeidsark uten ekstra kostnader per arbeidsark. Generer egendefinerte mønsterøvelser perfekt for barneskole og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Mønstergenkjenning er en grunnleggende tidlig matematikkferdighet. Vår togtemplate gjør mønsterøvelser engasjerende og visuelt tiltalende for unge elever. Lag AB-mønstre, AAB-mønstre, ABB-mønstre, ABC-mønstre og AABB-mønstre med bilder fra vårt omfattende bildebibliotek. Perfekt for matematikk oppgaver og tall og telling aktiviteter.

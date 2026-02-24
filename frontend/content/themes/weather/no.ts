@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Vær',
-  title: 'Gratis Vær arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskriftsvennlige arbeidsark med værtema for barn. Skyer, regn, sol og stormer. Matte, lesing, puslespill og fargelegging for førskole til 3. klasse.',
-  keywords: 'vær arbeidsark, vær aktiviteter for barn, sky arbeidsark, vannsyklus arbeidsark, utskriftsvennlige vær arbeidsark førskole barnehage',
-  heading: 'Gratis Vær arbeidsark for barn',
+  title: 'Gratis Vær-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare vær-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med værtema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'væroppgaver til barn, vær arbeidsark, vær fargelegging, vær matematikk, vær førskole, vær printbar, værtyper oppgaver, værutsikt til barn, vær og årstider, vær ordoppgaver, vær sortering',
+  heading: 'Væroppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Været er det ene naturfagsemnet som hvert barn opplever på nært hold hver eneste dag, noe som gjør det til det mest tilgjengelige inngangspunktet til vitenskapelig observasjon, datainnsamling og årsak-virkningsresonnering som tidlig opplæring tilbyr. Før de kan lese et termometer eller navngi en skytype, vet barn allerede at mørke himler betyr regn, at vind får drager til å fly, og at vannpytter forsvinner på solrike ettermiddager. Arbeidsark med værtema bygger på denne intuitive kunnskapen ved å gi barna vokabularet, de visuelle rammeverkene og de matematiske verktøyene til å beskrive det de allerede legger merke til, og forvandler tilfeldig observasjon til strukturert vitenskapelig tenkning. Våre utskriftsvennlige værarbeidsark viser solfylte himler, regnskyer, regnbuer, lynnedslag, snøfnugg, vindvirvler og termometre, alle illustrert i en klar, innbydende stil som gjør atmosfæriske fenomener tilgjengelige for unge elever. Matteaktiviteter bruker værelementer som tellere: telle regndråper, addere solskinnstimer, subtrahere skydager fra en ukentlig total, og gjenkjenne mønstre i vekslende værsekvenser. Disse aktivitetene forankrer abstrakt aritmetikk i en kontekst som endrer seg daglig, og gir uendelig mange ferske scenarier som aldri føles repetitive. Lesearbeidsark introduserer meteorologisk vokabular som nedbør, temperatur, værvarsel og fuktighet, ord som høres imponerende vitenskapelige ut for unge barn og gir dem eierskap over å beskrive sin daglige opplevelse med presisjon. Puslespill og fargeleggingssider avbilder værscener som belønner nøye observasjon: hvilken sky er annerledes, hva kommer neste i regn-sol-regn-sol-mønsteret, hvor mange paraplyer er åpne i den regnfulle gatebilder. Værarbeidsark gir også et naturlig rammeverk for å introdusere datainnsamling, fordi selv et førskolebarn kan se ut og registrere om dagen er solrik, overskyet eller regnfull. Over en uke eller måned blir disse enkle registreringene et datasett som barn kan analysere, lage diagrammer av og diskutere, og bygge grunnleggende ferdigheter i vitenskapelig utforskning og matematisk fremstilling. For lærere kobler værarbeidsark sømløst til obligatoriske naturfagskompetansemål i LK20 på hvert klassetrinn. Foreldre vil finne dem unikt engasjerende fordi temaet bokstavelig talt er rett utenfor vinduet, noe som gjør hver arbeidsøkt til et springbrett for virkelig samtale og observasjon.',
@@ -191,6 +191,164 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['seasons', 'nature', 'winter', 'spring', 'summer', 'ocean', 'flowers'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 247) --
+
+  uniqueAngle: 'Værarbeidsark inntar en unik posisjon i tidlig pedagogikk fordi de kobler akademisk læring til det mest umiddelbare og foranderlige fenomenet i barns hverdag — været de opplever i det øyeblikket de går ut døren. I motsetning til temaer som dyr eller rommet, som krever forestillingsevne for å nå barnet, er været alltid tilstede, alltid nytt og alltid verifiserbart ved et blikk gjennom vinduet. Denne umiddelbare tilgjengeligheten gjør værtemaet til den mest naturlige broen mellom klasseromslæring og virkelighetserfaring. I Norge er været særlig pedagogisk rikt fordi den geografiske bredden og nærheten til havet skaper dramatisk variasjon — fra mørke vintermåneder med nordlys og snøfall til midnattssolens evige sommerlys — og det kjente ordtaket det finnes ikke dårlig vær, bare dårlige klær viser hvor dypt værbevisstheten sitter i norsk kultur. Datainnsamling med værtema er særlig kraftfull fordi den lærer barn den vitenskapelige metoden gjennom førsthåndserfaring: de observerer, registrerer, sammenligner og trekker konklusjoner basert på egne målinger. Temperaturavlesning, skyobservasjon og nedbørsregistrering gir autentisk tallmateriale for matematikkøvelser som føles meningsfullt fordi dataene kommer fra barnets egen observasjon. Språklig sett tilbyr værtemaet et rikt ordforråd som bærer sterke sanseassosiasjoner — regndråper på huden, vind i håret, sol i ansiktet — ord som fester seg i minnet fordi de er knyttet til kroppslige opplevelser. I Kunnskapsløftet (LK20) er vær og klima sentrale emner i naturfag, og værarbeidsark bygger det grunnlaget barn trenger for å forstå disse begrepene i høyere klassetrinn.',
+
+  researchCitation: 'Jordet, A. N. (2010). Klasserommet utenfor: Tilpasset opplæring i et utvidet læringsrom. Cappelen Damm Akademisk. Jordet dokumenterte gjennom omfattende forskning ved Høgskolen i Hedmark at systematisk utendørsundervisning der elever observerer værfenomener og registrerer data, styrker både naturfaglig begrepforståelse og matematisk resonneringsevne. Forskningen viste at barn som regelmessig kobler klasseromsøvelser til utendørs værobservasjon utvikler sterkere vitenskapelig tenkning og mer vedvarende faglig engasjement enn elever som kun arbeider med abstrakte øvelser.',
+
+  snippetDefinition: 'Værarbeidsark for barn er utskrivbare undervisningsaktiviteter som bruker illustrasjoner av sol, regn, skyer, snø, vind og temperatur til å undervise i matematikk, lesing og naturvitenskapelige ferdigheter. Designet for barn i alderen 3 til 9 inkluderer de telleøvelser med værsymboler, værdagbok-maler, sorteringsaktiviteter etter værtype, fargeleggingssider og ordoppgaver med meteorologisk ordforråd.',
+
+  snippetHowTo: [
+    'Start uken med en værobservasjon: se ut av vinduet sammen og beskriv dagens vær med minst tre ord for å aktivere værvokabular før arbeidsarkene introduseres.',
+    'Velg to til tre arbeidsarktyper som målretter ulike ferdigheter — for eksempel et telleark med værsymboler for matematikk, et ordsøk med værord for lesing og en værscene for fargelegging.',
+    'Koble arbeidsarket til en daglig værdagbok der barna tegner eller noterer været hver dag, slik at de bygger et datasett de kan analysere etter en uke.',
+    'Del ut arbeidsarkene i vanskelighetsorden, start med fargelegging eller enkel matching før dere går videre til sorterings- og dataoppgaver.',
+    'Still reflekterende spørsmål mens barna arbeider, som hva ville du kle deg i på en slik dag og hvorfor tror du det regner mer om høsten for å koble værkunnskap til hverdagsresonnering.',
+    'Sammenlign ukens værdata med arbeidsarkene og diskuter om været denne uken lignet mest på sol-, regn- eller snøillustrasjonene, noe som styrker dataanalyseferdigheter.',
+    'Arkiver værarbeidsark og dagboknotater i en værportefølje som viser endringer gjennom årstidene og dokumenterer både faglig og observasjonsmessig vekst.',
+  ],
+
+  limitations: 'Værarbeidsark er sterke for observasjon og datainnsamling, men har visse begrensninger. Været er daglig varierende, noe som kan gjøre det vanskelig å planlegge spesifikke værtyper for undervisning. Barn i regioner med lite værvariasjon kan oppleve at noen værtyper føles fjerne og abstrakte. Værtemaet er dessuten sterkest for naturvitenskapelig læring og datainnsamling, men mindre naturlig egnet for narrativ skriving eller fantasibasert lek sammenlignet med temaer som høytider eller dyr.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'seasons',
+      summary: 'Årstidsarbeidsark plasserer været i en større tidssyklus og fokuserer på mønstre over måneder og år. Værarbeidsark fokuserer på daglige atmosfæriske fenomener og er ideelle for her-og-nå-observasjon, måling og umiddelbar datainnsamling som styrker vitenskapelig metode.',
+    },
+    {
+      vsThemeId: 'nature',
+      summary: 'Naturarbeidsark dekker et bredt spekter av økosystemer, planter og dyr. Værarbeidsark fokuserer spesifikt på atmosfæriske fenomener og deres påvirkning på dagliglivet, med særlig styrke i måling, dataregistrering og meteorologisk ordforråd.',
+    },
+    {
+      vsThemeId: 'clothing',
+      summary: 'Klærarbeidsark fokuserer på garderobevalg, sortering og mønstergjenkjenning. Værarbeidsark forklarer årsaken bak klærvalget — hvorfor vi trenger regnjakke i dag — og gir den vitenskapelige konteksten som kompletterer klærtemaets praktiske fokus.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'vær fargeleggingssider',
+      context: 'For barn som trenger en avslappet inngang til værlæring, tilbyr våre vær fargeleggingssider detaljerte illustrasjoner av solskinnsdager, regnværsscener, snølandskap og vindfulle dager som utvikler finmotorisk kontroll mens barna bygger visuelt værvokabular.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'vær sorteringsoppgaver',
+      context: 'Når elever er klare til å bygge klassifiseringsferdigheter, lar våre vær sorteringsoppgaver dem gruppere klær, aktiviteter og gjenstander etter værtype, med stigende kompleksitet fra enkel todelt sortering til flerkriteriekategorisering.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'vær ordsøk utskrivbar',
+      context: 'Meteorologisk ordforråd styrkes når barn jakter etter værbegreper som temperatur, nedbør, skydekke og vindstyrke i våre vær ordsøk utskrivbare sider, som gjør staveøvelse til engasjerende utforskning.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'vær koblingsoppgaver',
+      context: 'Våre vær koblingsoppgaver parer værsymboler med beskrivelser, værtyper med passende klær og værfenomener med årstider, noe som utvikler logisk resonnering i en kontekst barna opplever daglig.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En barnehagelærer ønsker å introdusere enkel datainnsamling, men finner at tradisjonelle dataoppgaver er for abstrakte for femåringene.',
+      solution: 'Læreren introduserer en daglig værstasjon der barna observerer været gjennom vinduet, velger et værsymbol og plasserer det på en stor kalender. Ukentlig bruker de værarbeidsark til å telle solvsdager, regndager og skyete dager.',
+      outcome: 'Etter en måned kan barna selvstendig avlese den visuelle værkalenderen og svare på spørsmål som var det flere soldager enn regndager denne uken. Telleferdighetene forbedres raskt fordi dataene er personlig relevante.',
+    },
+    {
+      situation: 'En forelder som hjemmeunderviser merker at barnet strever med naturvitenskapelig ordforråd og finner det vanskelig å motivere til naturfaglæring.',
+      solution: 'Forelderen starter en familieværlogg der barnet måler temperaturen med et utendørstermometer og tegner dagens vær. Værarbeidsark med ordsøk og matchingsoppgaver supplerer loggen med språklig øvelse.',
+      outcome: 'Barnet utvikler entusiastisk et vitenskapelig ordforråd og begynner spontant å kommentere værforhold med termer som skydekke, nedbør og vindretning. Observasjonsferdighetene overføres til andre naturfagsemner.',
+    },
+    {
+      situation: 'En naturfaglærer i 2. klasse ønsker å koble værobservasjon til matematisk datarepresentasjon, men mangler tid til omfattende prosjektarbeid.',
+      solution: 'Læreren bruker værarbeidsark med diagrammaler som elevene fyller ut med ukens værdata. Hver mandag bruker de fem minutter på å registrere forrige ukes vær i et søylediagram og sammenligne med uken før.',
+      outcome: 'Elevene mestrer søylediagrammer etter fire uker og begynner selvstendig å identifisere mønstre som det regnet mer denne uken enn forrige uke. Læreren oppdager at de korte øktene gir større læringsutbytte enn lengre, sjeldnere prosjektøkter.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Bruk værsymbolkort og fargeleggingssider som primære aktiviteter. Værets visuelle variasjon — blå himmel, mørke skyer, hvite snøfnugg, fargerikt regnbuespekter — gir tydelige visuelle ankere. Søylediagrammer med værdata er særlig effektive for visuell dataforståelse.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'Par arbeidsark med utendørs værobservasjon: kjøl vann for å simulere frost, bruk en vindpose for å måle vindretning, eller fyll en regn måler og avles volumet. Den fysiske opplevelsen av værfenomener forankrer det teoretiske innholdet i arbeidsarkene.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Værordforråd er universelt og ofte blant de første ordene barn lærer på et nytt språk. Start med bildebaserte væroppgaver som matching og sortering, og la elevene navngi værtyper på både norsk og morsmålet for å styrke begrepsdannelsen.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr dem med lengre datainnsamlingsprosjekter der de registrerer temperatur, nedbør og vindforhold over flere uker og presenterer funnene i diagrammer med skriftlig analyse. Værsammenligninger mellom regioner eller land kobler værtemaet til geografi.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Værarbeidsark kobler direkte til kompetansemål i naturfag i Kunnskapsløftet (LK20) om vær, vind og vannets kretsløp. Observasjon og registrering av værdata bygger den vitenskapelige metoden som er grunnleggende for all naturfagsundervisning.',
+      activity: 'Elevene fører en værdagbok i en uke, registrerer temperatur, skydekke og nedbør daglig, og bruker deretter dataene til å fylle ut et arbeidsark som krever sammenligning av dagene.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Temperaturmålinger gir autentiske tall for addisjons- og subtraksjonsøvelser, nedbørsmålinger introduserer volumbegreper, og søylediagrammer med værdata bygger statistikkforståelse. Alt i tråd med LK20-kompetansemål for matematikk.',
+      activity: 'Etter en uke med værregistrering lager elevene et søylediagram over soldager versus regndager og besvarer spørsmål som løser addisjons- og sammenligningsoppgaver.',
+    },
+    {
+      subject: 'Norsk',
+      connection: 'Værordforråd er sanselig ladet og knytter seg til kroppslige opplevelser: regndråper, solvarme, vindkast. Disse ordene læres raskere enn abstrakte termer fordi de bærer levd erfaring, noe som støtter ordforrådsmål i LK20 for norsk.',
+      activity: 'Elevene skriver en værbeskrivelse som bruker minst fem sanseord fra ukens ordsøk-arbeidsark, og leser den høyt for klassen.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Værdagbok med dataanalyse',
+      criteria: 'Elevene fører en værdagbok i fire uker med daglige observasjoner. Vurder konsistens i registreringen, korrekt bruk av værsymboler, evne til å identifisere mønstre og kvalitet på den avsluttende oppsummeringen.',
+      gradeLevel: 'Alle klassetrinn',
+    },
+    {
+      method: 'Værstasjon muntlig presentasjon',
+      criteria: 'Hvert barn presenterer ukens vær for klassen ved hjelp av værsymbolene og tallene de har registrert. Vurder bruk av værvokabular, evne til å kommunisere data muntlig og logisk sammenligning av dager.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Værsammenligningsrapport',
+      criteria: 'Elevene sammenligner værdata fra to ulike perioder eller regioner og skriver en kort rapport med diagrammer og konklusjoner. Vurder korrekt databruk, sammenlignende resonnering og strukturert skriftlig fremstilling.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Start hver skoledag med en fem minutters værobservasjon der barna beskriver været med minst tre faglige termer. Denne daglige rutinen bygger vitenskapelig ordforråd kumulativt og gir en naturlig overgang fra friminutt til faglig fokus.',
+      source: 'Jordet, A. N., Høgskolen i Hedmark — utendørsundervisning og tilpasset opplæring',
+      gradeRange: 'Alle klassetrinn',
+    },
+    {
+      tip: 'Koble værarbeidsark til vannets kretsløp for å bygge systemtenkning. Når barn forstår at regnet som faller på lekeplassen fordamper, blir til skyer og faller som regn igjen, lærer de både værkunnskap og syklisk naturvitenskapelig tenkning. Enkle eksperimenter med fordamping og kondens supplerer arbeidsarkene effektivt.',
+      source: 'Kunnskapsløftet (LK20) — naturfag, vannets kretsløp og værfenomener',
+      gradeRange: 'Barnehage til 2. klasse',
+    },
+    {
+      tip: 'La barn lage sin egen værstasjon med enkle instrumenter som termometer, regnmåler og vindpinne. Den fysiske handlingen med å avlese instrumenter og registrere data gir en autentisk vitenskapelig opplevelse som gjør værarbeidsark langt mer meningsfulle enn de ville vært alene.',
+      source: 'Praktisk naturfagsundervisning — norsk lærerutdanningstradisjon',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '10 apper' },
+    { label: 'Fagområder dekket', value: '4 områder' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Værtyper dekket', value: '8+ typer' },
+  ],
 };
 
 registerThemeContent('weather', 'no', content);

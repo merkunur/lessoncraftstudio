@@ -15,16 +15,16 @@ export const mathWorksheetsNoContent: ProductPageContent = {
   seo: {
     slug: 'matematikk-oppgaver-arbeidsark',
     appId: 'math-worksheet',
-    title: 'Matematikk Oppgaver - Arbeidsark Gratis for Barn | Generator PDF',
-    description: 'Lag gratis matematikk oppgaver for barn. Bildebaserte matteoppgaver for småskoletrinnet. Last ned PDF arbeidsark på 3 min. 3000+ bilder tilgjengelig.',
-    keywords: 'matematikk oppgaver, arbeidsark gratis, matteoppgaver, oppgavehefter barn, addisjon og subtraksjon, tall og telling, småskoletrinnet, barneskolen, gangetabellen, fargeleggingsbilder barn',
+    title: 'Matematikkoppgave Generator til Barn | LessonCraftStudio',
+    description: 'Lag visuelle matematikkoppgaver med bilder. Addisjon, subtraksjon, sammenligning og tallrekker fra førskole til 3. klasse. Fasit inkludert. Gratis PDF.',
+    keywords: 'matematikkoppgave generator, matematikk oppgaver småskolen, regneoppgaver printbar, matematikk arbeidsark, matematikkøvelser førskole, visuelle matematikkoppgaver, regneoppgaver til barn, matematikk fasit, grunnleggende regnearter øvelse, matematikk printbar gratis, matematikk treningsoppgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikk-oppgaver-arbeidsark',
       },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Matematikk Oppgaver Generator - Arbeidsark Gratis for Barneskolen',
-    subtitle: 'Bildebaserte Matteoppgaver for Småskoletrinnet',
+    title: 'Matematikkoppgave Generator',
+    subtitle: 'Visuelle Matematikkøvelser fra Førskole til 3. Klasse',
     description: `Lag profesjonelle matematikk oppgaver med vår bildebaserte arbeidsark generator. Kjernepakke-abonnementet gir deg ubegrenset arbeidsark-oppretting uten ekstra kostnader per ark. Generer egendefinerte matteoppgaver perfekt for småskoletrinnet og barnehage. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Vår matematikk oppgaver generator skaper unike bildebaserte mattepuslespill der symboler representerer tall. Elever løser ligninger ved å finne ut hvilket tall hvert symbol representerer. Dette er ikke tradisjonelle arbeidsark med enkle addisjons- og subtraksjonsstykker. Dette er visuell matematikk som utvikler kritisk tenkning og problemløsning.

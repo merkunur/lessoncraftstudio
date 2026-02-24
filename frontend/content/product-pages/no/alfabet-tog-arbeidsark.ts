@@ -15,16 +15,16 @@ export const alphabetTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-tog-arbeidsark',
     appId: 'alphabet-train',
-    title: 'Alfabet-tog Arbeidsark - Bokstaver Lære Skrive - Gratis Arbeidsark',
-    description: 'Lag profesjonelle alfabet-tog arbeidsark med vår bokstav-generator. Generer tilpassede arbeidsark hvor barn lærer å skrive bokstaver gjennom en morsom.',
-    keywords: 'alfabet-tog, bokstaver lære skrive, arbeidsark gratis, barnehage, småskole, bokstavinnlæring, finmotorikk øvelser, oppgavehefter barn, tall og telling, fargeleggingsbilder barn',
+    title: 'Gratis Alfabet-Tog Generator | LessonCraftStudio',
+    description: 'Lag printbare alfabet-tog-oppgaver til bokstavlæring fra førskole til 1. klasse. Morsom måte å lære bokstaver med bilder. Last ned gratis PDF.',
+    keywords: 'alfabet tog generator, alfabet tog oppgaver, bokstaver øvelse førskole, alfabet printbar, alfabet-tog arbeidsark, bokstavgjenkjenning, alfabetisk rekkefølge øvelse, bokstavøvelser til barn, lære å lese, alfabetøvelser, begynnelsesbokstaver oppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/alfabet-tog-arbeidsark',
       },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
   hero: {
-    title: 'Alfabet-tog Arbeidsark - Bokstaver Lære Skrive',
-    subtitle: 'Gratis Arbeidsark for Barnehage',
+    title: 'Alfabet-Tog Generator',
+    subtitle: 'Printbare Bokstavøvelser fra Førskole til 1. Klasse',
     description: `Lag profesjonelle alfabet-tog arbeidsark med vår bokstav-generator. Med Kjernepakke-abonnement får du ubegrenset tilgang til å lage arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark hvor barn lærer å skrive bokstaver gjennom en morsom tog-metafor. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Vårt alfabet-tog verktøy gjør det enkelt å lage arbeidsark for bokstavinnlæring. Barn kobler bokstaver med bilder i hvert togvogn. Dette hjelper barnehage- og småskoleelever å huske bokstavlyder og bokstavformer. Arbeidsarkene kombinerer visuell læring med bokstavøving.

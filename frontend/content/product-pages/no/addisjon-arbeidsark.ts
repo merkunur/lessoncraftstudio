@@ -15,16 +15,16 @@ export const additionNoContent: ProductPageContent = {
   seo: {
     slug: 'addisjon-arbeidsark',
     appId: 'addition',
-    title: 'Addisjonsoppgaver med Bilder - Matematikk Oppgaver for Barneskolen -',
-    description: 'Lag profesjonelle addisjonsoppgaver med bildebaserte matematikk oppgaver for 1. trinn til 3. trinn. Generer tilpassede oppgavehefter barn kan bruke hjemme.',
-    keywords: 'addisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barneskolen, gangetabellen',
+    title: 'Gratis Addisjon Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare plussoppgaver med bilder til førskole–3. klasse. 3 000+ bilder, tilpass vanskelighetsgrad og få fasit. Last ned gratis PDF med en gang.',
+    keywords: 'addisjon oppgave generator, plussoppgaver arbeidsark gratis, addisjon oppgaver barnehage, bildebaserte plussoppgaver, matematikk arbeidsark gratis, plussoppgaver med bilder, printbare regneoppgaver, addisjon fasit, lære å legge sammen, plussoppgaver 1. klasse, addisjon øvelser barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/addisjon-arbeidsark',
       },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
-    title: 'Addisjonsoppgaver med Bilder - Matematikk Oppgaver for Barneskolen',
-    subtitle: 'Arbeidsark Gratis å Skrive Ut',
+    title: 'Addisjon Oppgave Generator',
+    subtitle: 'Lag Bildebaserte Plussoppgaver fra Førskole til 3. Klasse',
     description: `Lag profesjonelle addisjonsoppgaver med bildebaserte matematikk oppgaver for 1. trinn til 3. trinn. Kjernepakke-abonnementet ditt gir deg ubegrenset opprettelse av arbeidsark uten kostnad per oppgave. Generer tilpassede oppgavehefter barn kan bruke hjemme eller på skolen. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Vår oppgavegenerator gjør det enkelt å lage matteoppgaver med visuelle hjelpemidler. Barn i småskoletrinnet lærer addisjon og subtraksjon best når de kan se og telle konkrete objekter. Velg bilder fra biblioteket vårt med over 3000 barnevennlige illustrasjoner. Kombiner bilder med tall for varierte øvelser i addisjon og subtraksjon.

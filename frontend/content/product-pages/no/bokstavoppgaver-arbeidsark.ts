@@ -15,16 +15,16 @@ export const wordScrambleNoContent: ProductPageContent = {
   seo: {
     slug: 'bokstavoppgaver-arbeidsark',
     appId: 'word-scramble',
-    title: 'Gratis Arbeidsark Bokstavoppgaver - Lesetrening Generator for Barn',
-    description: 'Lag gratis arbeidsark med bokstavoppgaver for barn. Generer tilpassede oppgavehefter for lesetrening på under 3 minutter. Skriv ut PDF.',
-    keywords: 'bokstavoppgaver, gratis arbeidsark, lesetrening, bokstaver lære skrive, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, tall og telling, fargeleggingsbilder barn, leseforståelse',
+    title: 'Gratis Bokstavblanding Generator | LessonCraftStudio',
+    description: 'Lag printbare bokstavblanding-oppgaver til staving og rettskriving. Tilpass vanskelighetsgrad fra førskole til 3. klasse. Med bilder. Gratis PDF.',
+    keywords: 'bokstavblanding generator, bokstavblanding oppgaver, skriveøvelser til barn, rettskriving øvelse, ordgåte printbar, stavelseøvelse, ordspill til barn printbar, orddanning oppgaver, lære å lese oppgaver, skriving trening, ordforråd øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bokstavoppgaver-arbeidsark',
       },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbeidsark Bokstavoppgaver - Lesetrening Generator',
-    subtitle: 'Gratis Arbeidsark for Barn - Bokstaver Lære Skrive',
+    title: 'Bokstavblanding Generator',
+    subtitle: 'Printbare Rettskrivingsøvelser med Bilder',
     description: `Lag profesjonelle bokstavoppgaver med vår generator for gratis arbeidsark. Grunnpakke-abonnementet ditt gir deg ubegrenset opprettelse av bokstavoppgaver uten kostnad per arbeidsark. Generer tilpassede oppgavehefter barn kan bruke for lesetrening og bokstaver lære skrive. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Bokstavoppgave generatoren hjelper lærere med å lage engasjerende matematikk oppgaver og leseforståelse aktiviteter. Perfekt for småskoletrinnet fra arbeidsark for 1. trinn til 3. trinn. Velg mellom over 3000 barnervennlige bilder organisert i temaer. Du kan også laste opp dine egne bilder for personlige oppgavehefter barn. Støtter 11 språk inkludert norsk for autentisk språklæring.

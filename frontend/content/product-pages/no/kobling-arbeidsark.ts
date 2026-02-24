@@ -15,16 +15,16 @@ export const matchingNoContent: ProductPageContent = {
   seo: {
     slug: 'kobling-arbeidsark',
     appId: 'matching',
-    title: 'Arbeidsark Gratis - Matchingsoppgaver for Barn - Bokstaver Lære',
-    description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten.',
-    keywords: 'matchingsoppgaver, arbeidsark gratis, oppgavehefter barn, bokstaver lære skrive, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, gangetabellen, tall og telling',
+    title: 'Gratis Koblingsoppgave Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare koblingsoppgaver med bilder. Utvikl hukommelse og mønstergjenkjenning fra førskole til 3. klasse. 50 temaer. Last ned gratis PDF.',
+    keywords: 'koblingsoppgave generator, koblingsoppgaver, parring til barn, hukommelsesspill printbar, parringsøvelse førskole, mønstergjenkjenning øvelse, visuell parring, bildeparring oppgave, parøvelse printbar, hukommelse og parring, koblingsoppgaver førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
       },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Matchingsoppgaver for Barn - Arbeidsark Gratis',
-    subtitle: 'Bokstaver Lære Skrive Aktiviteter',
+    title: 'Koblingsoppgave Generator',
+    subtitle: 'Printbare Parringsøvelser med 50 Temaer',
     description: `Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.
 
 Matchingsgeneratoren vår hjelper lærere med å lage arbeidsark der elevene trekker linjer for å koble sammen matchende par. Verktøyet støtter fire forskjellige matchingsmoduser. Velg mellom bilde til bokstav matching, bilde til ord matching, eller lag egne tilpassede ordpar. Hver matchingsoppgave kan tilpasses fullstendig til dine elevers behov.

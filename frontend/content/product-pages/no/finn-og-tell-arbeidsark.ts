@@ -15,16 +15,16 @@ export const findAndCountNoContent: ProductPageContent = {
   seo: {
     slug: 'finn-og-tell-arbeidsark',
     appId: 'find-and-count',
-    title: 'Finn og Tell Arbeidsark - Arbeidsark Gratis å Skrive Ut - Tall og',
-    description: 'Lag profesjonelle finn og tell arbeidsark med vårt enkle verktøy. Generer tilpassede finn og tell arbeidsark perfekte for tall og telling øvelser på.',
-    keywords: 'finn og tell arbeidsark, tall og telling, oppgavehefter barn, arbeidsark gratis, matematikk oppgaver, addisjon og subtraksjon, finmotorikk øvelser, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
+    title: 'Finn og Tell Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare finn og tell-oppgaver til barn. Utvikl telleferdigheter og visuell oppmerksomhet med bilder. Førskole til 3. klasse. Gratis PDF.',
+    keywords: 'finn og tell generator, finn og tell oppgaver, telleøvelser førskole, visuell telling, antallgjenkjenning, finn og tell printbar, telleferdigheter til barn, telleøvelse med bilder, talløvelser førskole, telling trening, matematikk søkeoppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-og-tell-arbeidsark',
       },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-3
   hero: {
-    title: 'Finn og Tell Arbeidsark - Tall og Telling Oppgavehefter Barn',
-    subtitle: 'Arbeidsark Gratis å Skrive Ut',
+    title: 'Finn og Tell Generator',
+    subtitle: 'Utvikl Telleferdigheter med Morsomme Søkeoppgaver',
     description: `Lag profesjonelle finn og tell arbeidsark med vårt enkle verktøy. Din Grunnpakke-abonnement gir deg ubegrenset tilgang til å lage finn og tell arbeidsark uten ekstra kostnad per arbeidsark. Generer tilpassede finn og tell arbeidsark perfekte for tall og telling øvelser på småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.
 
 Vårt verktøy for finn og tell arbeidsark gjør det enkelt å lage arbeidsark gratis å skrive ut. Perfekt for lærere på barneskole som trenger finmotorikk øvelser og matematikk oppgaver raskt. Kombiner finn og tell arbeidsark med tall og telling aktiviteter for komplett læring. Hver finn og tell arbeidsark hjelper barn utvikle telleevner og visuell oppmerksomhet.

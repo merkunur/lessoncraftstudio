@@ -15,16 +15,16 @@ export const coloringNoContent: ProductPageContent = {
   seo: {
     slug: 'fargeleggingsbilder-arbeidsark',
     appId: 'coloring',
-    title: 'Fargeleggingsbilder Barn - Gratis Arbeidsark for Barn | Generator',
-    description: 'Lag gratis arbeidsark for barn med fargeleggingsbilder. Perfekt for småskoletrinnet og 1. trinn. Last ned PDF på 3 min. 3000+ bilder tilgjengelig.',
-    keywords: 'fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, småskoletrinnet, fargelegging, barneskole, oppgavehefter barn, bokstaver lære skrive, tall og telling, matematikk oppgaver',
+    title: 'Gratis Fargelegging Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare fargeleggingssider til barn med 3 000+ bilder. 50 temaer og 5 aldersnivåer fra førskole til 3. klasse. Last ned gratis PDF.',
+    keywords: 'fargelegging generator, fargeleggingssider til barn gratis, gratis fargelegging print, fargeleggingsark printbar, dyr fargelegging, printbare fargeleggingssider, fargelegging førskole, fargeleggingsøvelser, fargeleggingsoppgaver til barn, finmotorikk fargelegging, barns fargeleggingssider',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/fargeleggingsbilder-arbeidsark',
       },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-3
   hero: {
-    title: 'Fargeleggingsbilder Barn - Arbeidsark Gratis å Skrive Ut',
-    subtitle: 'Finmotorikk Øvelser',
+    title: 'Fargelegging Generator til Barn',
+    subtitle: 'Lag Printbare Fargeleggingssider med 50 Temaer og 3 000+ Bilder',
     description: `Lag profesjonelle fargeleggingsbilder barn med vårt enkle verktøy. Din Grunnpakke-abonnement gir deg ubegrenset tilgang til å lage fargeleggingsbilder barn uten ekstra kostnad per arbeidsark. Generer tilpassede fargeleggingsbilder barn perfekte for barneskole og småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.
 
 Vårt verktøy for fargeleggingsbilder barn gjør det enkelt å lage arbeidsark gratis å skrive ut. Perfekt for lærere på småskoletrinnet som trenger unike fargeleggingsbilder raskt. Kombiner fargeleggingsbilder barn med finmotorikk øvelser for komplett læring. Hver fargeleggingsbilder barn hjelper barn utvikle kreativitet og fargefølelse.

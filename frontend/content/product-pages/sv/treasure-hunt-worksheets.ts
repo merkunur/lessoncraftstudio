@@ -15,16 +15,16 @@ export const treasureHuntSvContent: ProductPageContent = {
   seo: {
     slug: 'skattjakt-arbetsblad',
     appId: 'treasure-hunt',
-    title: 'Gratis Skattjakt Arbetsblad | Riktningsövningar för Förskoleklass',
-    description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och.',
-    keywords: 'skattjakt arbetsblad, riktningsövningar, förskoleklass material, arbetsblad gratis, bokstäver lära sig, väderstreck, upp ner vänster höger, elev material, lågstadiet, finmotorik övningar',
+    title: 'Gratis Skattjakt Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara skattjakt-övningar för barn. Kombinera problemlösning med äventyr. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    keywords: 'skattjakt generator, skattjakt övningar barn, skattjakt utskrivbar, skattjakt arbetsblad, skattletning barn, äventyrspussel barn, skattjakt förskola, skattjakt klassrum, uppdrag och ledtrådar, skattjakt med bilder, skattjakt gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
       },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
-    title: 'Gratis Skattjakt',
-    subtitle: 'Riktningsövningar för Förskoleklass Material och Lågstadiet',
+    title: 'Skattjakt Generator',
+    subtitle: 'Utskrivbara Skattjaktövningar med 50 Teman',
     description: `Skapa professionella skattjakt arbetsblad med vår skattjakt generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till skattjakt utan extra avgifter per arbetsblad. Generera anpassade utskrivbara skattjakt arbetsblad perfekta för förskoleklass material och bokstäver lära sig aktiviteter. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Skattjakt arbetsblad kombinerar riktningsövningar med visuellt lärande på ett engagerande sätt. Eleverna följer steg-för-steg instruktioner för att navigera genom ett 5×5 rutnät av bilder. Detta hjälper barn att lära sig riktningar som upp, ner, höger och vänster samtidigt som de utvecklar läsförståelse. Perfekt för svenska klassrum från förskoleklass till lågstadiet årskurs 3.

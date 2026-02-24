@@ -15,16 +15,16 @@ export const writingSvContent: ProductPageContent = {
   seo: {
     slug: 'skrivovningar-arbetsblad',
     appId: 'writing',
-    title: 'Gratis Skrivarbetsblad för Barn - Bokstäver Lära Sig Generator för',
-    description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för.',
-    keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',
+    title: 'Gratis Skrivövning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara skrivövningar för barn. Bokstavsformning, ordskrivning och meningsbyggnad. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'skrivövning generator, skrivövningar barn, bokstavsformning övning, handstilsträning, skriva bokstäver övning, skrivövning förskola, skrivträning utskrivbar, förskrivning övning, bokstäver och ord, skrivövningar årskurs 1, handstil arbetsblad',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
       },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
-    title: 'Gratis Skrivarbetsblad för Barn - Skriva Bokstäver',
-    subtitle: 'Gratis Arbetsblad för Förskoleklass - Bokstäver Lära Sig',
+    title: 'Skrivövning Generator',
+    subtitle: 'Utskrivbara Skrivövningar från Förskola till Årskurs 3',
     description: `Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för $240 per år eller $25 per månad. Generera anpassade arbetsblad för att skriva bokstäver perfekta för förskoleklass, årskurs 1 och årskurs 2. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår generator för skrivarbetsblad kombinerar handstilsövning med bokstavsträning. Perfekt för att lära sig bokstäver i förskoleklass. Skapa spårningsövningar i både textstil och skrivstil. Varje arbetsblad kan anpassas helt med egna bilder, teman och text. Idealiskt för förskoleklass material och finmotorik övningar.

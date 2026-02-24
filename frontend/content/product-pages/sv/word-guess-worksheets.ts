@@ -15,16 +15,16 @@ export const wordGuessSvContent: ProductPageContent = {
   seo: {
     slug: 'gissa-ordet-arbetsblad',
     appId: 'word-guess',
-    title: 'Gissa Ordet Generator - Arbetsblad Gratis för Bokstäver Lära Sig',
-    description: 'Skapa professionella gissa-ordet-arbetsblad med vår generator. Generera anpassade arbetsblad gratis perfekta för förskoleklass och lågstadiet.',
-    keywords: 'gissa ordet generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordgissning, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
+    title: 'Gratis Gissa Ordet Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara gissa-ordet-övningar för barn. Utveckla ordförråd och slutledningsförmåga. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'gissa ordet generator, gissa ordet övningar, ordgåta barn, ordförråd övning barn, gissa ordet utskrivbar, ordförråd arbetsblad, bildledtråd ordspel, ordspel utskrivbar, ordgåtor förskola, språkövning barn, gissa ordet med bilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
       },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
     title: 'Gissa Ordet Generator',
-    subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig - Förskoleklass Material',
+    subtitle: 'Ordförrådsövningar med Bildledtrådar',
     description: `Skapa professionella gissa-ordet-arbetsblad med vår gissa-ordet-generator. Din Full Tillgång-prenumeration ger dig obegränsad arbetsblad-skapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Våra gissa-ordet-arbetsblad kombinerar bildtips med bokstavsrutor. Eleverna använder bilden för att gissa ordet. De skriver sedan bokstäverna i rutorna. Detta gör bokstäver lära sig roligt och visuellt.

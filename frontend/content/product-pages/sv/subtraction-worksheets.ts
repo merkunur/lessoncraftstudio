@@ -15,16 +15,16 @@ export const subtractionSvContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbetsblad',
     appId: 'subtraction',
-    title: 'Gratis Arbetsblad Subtraktion | Arbetsblad för Barn och Förskoleklass',
-    description: 'Skapa professionella subtraktionsblad med vår matematikgenerator. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och.',
-    keywords: 'subtraktion arbetsblad, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, addition och subtraktion, subtraktionsblad, räkneövningar, taluppfattning',
+    title: 'Gratis Subtraktion Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara subtraktionsövningar med bilder för förskola till årskurs 3. Anpassa svårighetsgrad, bilder och facit. Ladda ner gratis PDF.',
+    keywords: 'subtraktion generator, subtraktionsövningar gratis, subtraktion arbetsblad förskola, bildbaserade subtraktionsövningar, minusövningar barn, subtraktion med bilder, utskrivbara minusövningar, subtraktion facit, lära sig subtrahera, subtraktionsövningar årskurs 1, subtraktion övningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
       },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Subtraktion - Matematik för Barn och Förskoleklass',
-    subtitle: 'Skapa Gratis Utskrifter med Arbetsblad för Barn - Addition och Subtraktion',
+    title: 'Subtraktion Generator',
+    subtitle: 'Bildbaserade Subtraktionsövningar från Förskola till Årskurs 3',
     description: `Skapa professionella subtraktionsblad med vår matematikgenerator. Din Grundpaketsprenumeration ger dig obegränsad tillgång till arbetsblad gratis utan extra avgifter per blad. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-filer med siffror och tal på under 3 minuter.
 
 Vår subtraktionsgenerator kombinerar visuellt lärande med traditionell matematik. Välj mellan fyra olika övningslägen för varierad övning. Använd bilder från vårt bibliotek med över 3000 barnvänliga motiv. Skapa arbetsblad gratis som hjälper elever förstå addition och subtraktion genom konkret visuellt material. Perfekt för förskoleklass material och matte övningar i lågstadiet.

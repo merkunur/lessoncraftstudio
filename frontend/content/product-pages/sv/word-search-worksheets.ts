@@ -15,16 +15,16 @@ export const wordSearchSvContent: ProductPageContent = {
   seo: {
     slug: 'ordletar-arbetsblad',
     appId: 'wordsearch',
-    title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och',
-    description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
-    keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
+    title: 'Gratis Ordletare Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara ordletare på 11 språk. Anpassningsbara ord, storlekar och svårighetsgrader. Ordförråd och stavning. Ladda ner gratis PDF.',
+    keywords: 'ordletare generator, ordletare utskrivbar, ordletare barn, ordspel generator, ordletare övning, ordpussel utskrivbar, ordsökspel barn, ordförråd ordletare, stavning ordletare, ordletare lågstadiet, ordletare förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
-    title: 'Gratis Ordletare Generator',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass och Lågstadiet',
+    title: 'Ordletare Generator',
+    subtitle: 'Utskrivbara Ordletare för Ordförrådsövning',
     description: `Skapa professionella ordletarpussel med vår gratis ordletare generator. Generatorn är gratis att använda för alla lärare och föräldrar. Arbetsbladet innehåller en vattenstämpel för personlig användning. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.
 
 Vår ordletare generator gör det enkelt att skapa anpassade arbetsblad. Perfekt för förskoleklass material och lågstadiet. Välj mellan över 3000 barnvänliga bilder organiserade efter tema. Kombinera matematik arbetsblad med ordletarpussel för komplett inlärning. Skapa pussel för att öva bokstäver lära sig och skriva bokstäver.

@@ -15,8 +15,8 @@ export const wordGuessDaContent: ProductPageContent = {
   seo: {
     slug: 'gaet-ordet-arbejdsark',
     appId: 'word-guess',
-    title: 'Gratis G\u00e6t Ordet Generator | LessonCraftStudio',
-    description: 'Lav printbare g\u00e6t-ordet-opgaver hvor barnet g\u00e6tter ord ud fra billedledetr\u00e5de. Udvikler ordforr\u00e5d og slutningsf\u00e6rdigheder. Gratis PDF.',
+    title: 'Gratis G\u00e6t Ordet Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare g\u00e6t-ordet-opgaver hvor barnet g\u00e6tter ord ud fra billedledetr\u00e5de. Udvikler ordforr\u00e5d og slutningsf\u00e6rdigheder. Gratis PDF. Ingen tilmelding.',
     keywords: 'g\u00e6t ordet generator, g\u00e6t ordet opgaver, ord-g\u00e5de med billeder, ordforr\u00e5d \u00f8velse, billedbaseret ordopgave, g\u00e6tteopgave til b\u00f8rn, billedledetr\u00e5d opgave, ords slutning, ord-g\u00e5de printbar, ordforr\u00e5d udvidelse, billedledetr\u00e5d ordopgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/gaet-ordet-arbejdsark',
       },

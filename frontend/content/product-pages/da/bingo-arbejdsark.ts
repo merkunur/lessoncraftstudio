@@ -15,8 +15,8 @@ export const bingoDaContent: ProductPageContent = {
   seo: {
     slug: 'bingo-arbejdsark',
     appId: 'bingo',
-    title: 'Gratis Billed-Bingo Generator | LessonCraftStudio',
-    description: 'Lav printbare billed-bingospil til børn. 50 temaer, tilpasselige gitre og billeder fra 3.000+ bibliotek. Perfekt til klasselokalet. Download gratis.',
+    title: 'Gratis Billed-Bingo Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare billed-bingospil til børn. 50 temaer, tilpasselige gitre og billeder fra 3.000+ bibliotek. Perfekt til klasselokalet. Hent gratis. Hent nu.',
     keywords: 'billed-bingo generator, bingo printbar til børn, billed-bingo spil, printbart bingospil, bingo førskole, klasse bingospil, billed-bingo gitter, bingo opgave til børn, gruppespil printbar, bingo billeder børn, bingospil klasselokale',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bingo-arbejdsark',
       },

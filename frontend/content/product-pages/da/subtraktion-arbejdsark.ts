@@ -18,8 +18,8 @@ export const subtractionDaContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbejdsark',
     appId: 'subtraction',
-    title: 'Gratis Subtraktion Generator | LessonCraftStudio',
-    description: 'Lav printbare subtraktionsopgaver med billeder fra førskole til 3. klasse. Tilpasbare talområder, facitark og visuelle hjælpemidler. Gratis PDF.',
+    title: 'Gratis Subtraktion Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare subtraktionsopgaver med billeder fra førskole til 3. klasse. Tilpasbare talområder, facitark og visuelle hjælpemidler. Gratis PDF. Hent nu.',
     keywords: 'subtraktion generator, subtraktion opgaver, subtraktionsøvelser, minus opgaver printbar, subtraktion med billeder, matematik subtraktion, subtraktion 1. klasse, subtraktionsøvelser førskole, minus opgave øvelse, subtraktion facitark, grundlæggende subtraktion',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/subtraktion-arbejdsark',
       },

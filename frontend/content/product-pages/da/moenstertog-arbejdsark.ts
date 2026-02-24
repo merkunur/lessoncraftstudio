@@ -17,8 +17,8 @@ export const patternTrainDaContent: ProductPageContent = {
   seo: {
     slug: 'moenstertog-arbejdsark',
     appId: 'pattern-train',
-    title: 'Gratis M\u00f8nstertog Generator | LessonCraftStudio',
-    description: 'Lav printbare m\u00f8nstertog-opgaver til m\u00f8nstergenkendelse. Togformede opgaver med 3.000+ billeder. F\u00f8rskole til 2. klasse. Gratis PDF.',
+    title: 'Gratis M\u00f8nstertog Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare m\u00f8nstertog-opgaver til m\u00f8nstergenkendelse. Togformede opgaver med 3.000+ billeder. F\u00f8rskole til 2. klasse. Gratis PDF. Hent gratis PDF nu.',
     keywords: 'm\u00f8nstertog generator, m\u00f8nstertog opgaver, m\u00f8nstre forts\u00e6ttelse, m\u00f8nstergenkendelse tog, m\u00f8nstergenkendelse f\u00f8rskole, m\u00f8nster forts\u00e6ttelse \u00f8velse, m\u00f8nstertog printbar, m\u00f8nsterserier til b\u00f8rn, m\u00f8nstre genkendelse, matematisk opfattelse, m\u00f8nsterr\u00e6kke \u00f8velse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstertog-arbejdsark',
       },

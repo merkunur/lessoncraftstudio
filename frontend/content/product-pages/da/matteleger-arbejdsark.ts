@@ -15,8 +15,8 @@ export const mathPuzzleDaContent: ProductPageContent = {
   seo: {
     slug: 'matteleger-arbejdsark',
     appId: 'math-puzzle',
-    title: 'Matematik Puslespil Generator | LessonCraftStudio',
-    description: 'Lav printbare matematik-puslespil til addition og subtraktion. Probleml\u00f8sningsf\u00e6rdigheder fra f\u00f8rskole til 3. klasse. Gratis PDF download.',
+    title: 'Matematik Puslespil Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare matematik-puslespil til addition og subtraktion. Probleml\u00f8sningsf\u00e6rdigheder fra f\u00f8rskole til 3. klasse. Gratis PDF hent. Ingen tilmelding.',
     keywords: 'matematik puslespil generator, matematik puslespil til b\u00f8rn, matematisk probleml\u00f8sning, mattepuslespil printbar, regnepuslespil f\u00f8rskole, matematisk t\u00e6nkning, logikpuslespil matematik, matematik g\u00e5deopgaver, regnepuslespil facitark, probleml\u00f8sning matematik, mattepuslespil indskoling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matteleger-arbejdsark',
       },

@@ -69,8 +69,8 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Professionella arbetsblads-generatorer'
   },
   da: {
-    title: 'Gratis Arbejdsark Generatorer | LessonCraftStudio',
-    description: 'Lav arbejdsark med 33 generatorer og 3.000+ billeder. Matematik, malebog, ordsøgning & puslespil. Download PDF med det samme. Ingen tilmelding nødvendig.',
+    title: 'Gratis Arbejdsark Generatorer til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav arbejdsark med 33 generatorer og 3.000+ billeder. Matematik, malebog, ordsøgning & puslespil. Hent gratis PDF med det samme. Ingen tilmelding nødvendig.',
     keywords: 'opgaver til print, matematikopgaver, gratis skoleopgaver, arbejdsark, 0. klasse opgaver, 1. klasse, malebog, gangetabeller, finmotorik øvelser, lære bogstaver',
     ogAlt: 'LessonCraftStudio - Professionelle arbejdsark-generatorer'
   },

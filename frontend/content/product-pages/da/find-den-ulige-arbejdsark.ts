@@ -18,7 +18,7 @@ export const oddOneOutDaContent: ProductPageContent = {
     slug: 'find-den-ulige-arbejdsark',
     appId: 'odd-one-out',
     title: 'Find den Ulige Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare find den ulige-opgaver til visuel opfattelse og klassificering. 50 temaer og tilpasbare indstillinger. Gratis PDF.',
+    description: 'Lav printbare find den ulige-opgaver til visuel opfattelse og klassificering. 50 temaer og tilpasbare indstillinger. Gratis PDF. Ingen tilmelding krævet.',
     keywords: 'find den ulige generator, find den ulige opgaver, hvad passer ikke ind, klassificering øvelse, visuel skelnen, anderledes billede opgave, klassificeringstræning til børn, forskellig i gruppen, mønstergenkendelse og klassificering, sortering og skelnen, find den ulige printbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-den-ulige-arbejdsark',
       },

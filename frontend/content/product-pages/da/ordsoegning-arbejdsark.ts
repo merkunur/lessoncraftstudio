@@ -18,8 +18,8 @@ export const wordSearchDaContent: ProductPageContent = {
   seo: {
     slug: 'ordsoegning-arbejdsark',
     appId: 'wordsearch',
-    title: 'Gratis Ordsøgning Generator | LessonCraftStudio',
-    description: 'Lav printbare ordsøgningsopgaver på 11 sprog. Tilpasbare ord, størrelser og sværhedsgrader. Ordforråd og stavning. Gratis PDF.',
+    title: 'Gratis Ordsøgning Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare ordsøgningsopgaver på 11 sprog. Tilpasbare ord, størrelser og sværhedsgrader. Ordforråd og stavning. Gratis PDF. 3.000+ tematiske billeder.',
     keywords: 'ordsøgning generator, ordsøgning printbar, ordsøgning til børn, ordspil generator, ordsøgning opgave, ordpuslespil printbar, ordristikko til børn, ordforråd ordsøgning, stavning ordsøgning, ordsøgning indskoling, ordsøgning førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/ordsoegning-arbejdsark',
       },

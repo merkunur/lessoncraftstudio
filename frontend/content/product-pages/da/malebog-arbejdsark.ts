@@ -16,7 +16,7 @@ export const coloringDaContent: ProductPageContent = {
     slug: 'malebog-arbejdsark',
     appId: 'coloring',
     title: 'Gratis Malebog Generator til Børn | LessonCraftStudio',
-    description: 'Lav printbare farvelægningssider til børn med 3.000+ billeder. 50 temaer og 5 aldersniveauer fra førskole til 3. klasse. Download gratis PDF.',
+    description: 'Lav printbare farvelægningssider til børn med 3.000+ billeder. 50 temaer og 5 aldersniveauer fra førskole til 3. klasse. Hent gratis PDF. 3.000+ billeder.',
     keywords: 'malebog generator, farvelægningssider til børn gratis, gratis malebog print, farvelægningsark printbar, dyr farvelægning, printbare malebog sider, farvelægning førskole, farvelægningsøvelser, farvelægningsopgaver til børn, finmotorik farvelægning, børns farvelægningssider',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/malebog-arbejdsark',
       },

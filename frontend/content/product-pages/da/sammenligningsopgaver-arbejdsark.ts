@@ -17,8 +17,8 @@ export const moreLessDaContent: ProductPageContent = {
   seo: {
     slug: 'sammenligningsopgaver-arbejdsark',
     appId: 'more-less',
-    title: 'Flere eller Færre Generator | LessonCraftStudio',
-    description: 'Lav printbare flere og færre sammenligningsopgaver med billeder. Udvikler mængdesammenligning og matematisk tænkning. Førskole til 2. klasse.',
+    title: 'Flere eller Færre Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare flere og færre sammenligningsopgaver med billeder. Udvikler mængdesammenligning og matematisk tænkning. Førskole til 2. klasse. Print nu.',
     keywords: 'flere eller færre generator, flere eller færre opgaver, mængde sammenligning, større mindre øvelse, sammenligningsopgaver førskole, mængder sammenligning med billeder, tal sammenligning til børn, flere eller færre, matematisk sammenligning, mængdevurdering, sammenligningsfærdigheder førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sammenligningsopgaver-arbejdsark',
       },

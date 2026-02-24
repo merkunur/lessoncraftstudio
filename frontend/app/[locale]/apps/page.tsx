@@ -53,8 +53,8 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'arbetsblad generator plattform, pedagogisk mjukvara, lärarverktyg, 33 generatorer, lärresurser skapare, utbildningsteknik, lärarplattform, digitala läromedel, pedagogisk applikation, klassrumsverktyg'
   },
   da: {
-    title: '33 Gratis Arbejdsark Generatorer | Matematik, Sprog, Puslespil | LessonCraftStudio',
-    description: 'Udforsk 33 gratis arbejdsark generatorer. Lav ords\u00f8gning, krydsord, matematikopgaver, malebog & mere. Download printbare PDFer med det samme.',
+    title: 'Alle 33 Opgavegeneratorer til B\u00f8rn | LessonCraftStudio',
+    description: 'Udforsk 33 gratis arbejdsark generatorer. Lav ords\u00f8gning, krydsord, matematikopgaver, malebog & mere. Hent printbare PDFer med det samme. Ingen tilmelding.',
     keywords: 'arbejdsark generator platform, pædagogisk software, lærerværktøjer, 33 generatorer, undervisningsressourcer skaber, uddannelsesteknologi, lærerplatform, digitale læringsmaterialer, pædagogisk applikation, klasseværelses værktøjer'
   },
   no: {

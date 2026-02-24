@@ -16,7 +16,7 @@ export const crosswordDaContent: ProductPageContent = {
     slug: 'krydsord-arbejdsark',
     appId: 'crossword',
     title: 'Gratis Billedkrydsord Generator | LessonCraftStudio',
-    description: 'Lav printbare billedkrydsord hvor billeder er ledetr\u00e5de. Udvikler ordforr\u00e5d og stavning fra f\u00f8rskole til 3. klasse. Gratis PDF.',
+    description: 'Lav printbare billedkrydsord hvor billeder er ledetr\u00e5de. Udvikler ordforr\u00e5d og stavning fra f\u00f8rskole til 3. klasse. Gratis PDF. 3.000+ billeder. Hent nu.',
     keywords: 'billedkrydsord generator, billedkrydsord opgaver, krydsord til b\u00f8rn printbar, billedbaserede krydsord, krydsord f\u00f8rskole, ordforr\u00e5d krydsord, billed-krydsord printbar, stavning krydsord, krydsord med billeder, b\u00f8rns krydsord, krydsord opgave f\u00f8rskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/krydsord-arbejdsark',
       },

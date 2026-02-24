@@ -56,8 +56,8 @@ const pricingMetadata: Record<string, { title: string; description: string; keyw
     keywords: 'kalkylblad generator priser, arbetsblad prenumeration l\u00e4rare, gratis arbetsblad skapare, LessonCraftStudio priser, pedagogiskt verktyg pris'
   },
   da: {
-    title: 'Priser: Gratis, $15/m\u00e5ned Grund & $25/m\u00e5ned Fuld Adgang | LessonCraftStudio',
-    description: 'V\u00e6lg dit abonnement: Gratis ords\u00f8gning-generator, $15/m\u00e5ned Grundpakke med 10 generatorer eller $25/m\u00e5ned Fuld Adgang til alle 33 generatorer. Opsig n\u00e5r som helst.',
+    title: 'Priser \u2014 Gratis & Premium Planer | LessonCraftStudio',
+    description: 'V\u00e6lg dit abonnement: Gratis plan, $15/m\u00e5ned Grundpakke med 10 generatorer eller $25/m\u00e5ned Fuld Adgang til alle 33 generatorer. Opsig fleksibelt n\u00e5r som helst.',
     keywords: 'opgave generator priser, arbejdsark abonnement l\u00e6rer, gratis opgave maker, LessonCraftStudio priser, undervisningsv\u00e6rkt\u00f8j pris'
   },
   no: {

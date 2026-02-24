@@ -15,8 +15,8 @@ export const cryptogramDaContent: ProductPageContent = {
   seo: {
     slug: 'kryptogram-arbejdsark',
     appId: 'cryptogram',
-    title: 'Billedkryptogram Generator | LessonCraftStudio',
-    description: 'Lav printbare billedkryptogrammer hvor bogstaver erstattes af billeder. Udvikler afkodningsf\u00e6rdigheder og l\u00e6separathed. F\u00f8rskole til 3. klasse.',
+    title: 'Billedkryptogram Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare billedkryptogrammer hvor bogstaver erstattes af billeder. Udvikler afkodningsf\u00e6rdigheder og l\u00e6separathed. F\u00f8rskole til 3. klasse. Print nu.',
     keywords: 'billedkryptogram generator, billedkryptogram opgaver, hemmelig skrift til b\u00f8rn, afkodningsopgave, hemmeligt sprog l\u00f8sning, billedkodning \u00f8velse, hemmeligord opgave, kryptogram printbar, symbol afkodning, hemmelig besked \u00f8velse, l\u00e6separatheds\u00f8velse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kryptogram-arbejdsark',
       },

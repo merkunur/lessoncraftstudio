@@ -16,7 +16,7 @@ export const drawAndColorDaContent: ProductPageContent = {
     slug: 'tegn-og-farvelaeg-arbejdsark',
     appId: 'draw-and-color',
     title: 'Gratis Rastertegning Generator | LessonCraftStudio',
-    description: 'Lav printbare rastertegningsopgaver. Tegn mønstre i ruder efter model og farvelæg. Udvikler visuel opfattelse. Førskole til 3. klasse. Gratis.',
+    description: 'Lav printbare rastertegningsopgaver. Tegn mønstre i ruder efter model og farvelæg. Udvikler visuel opfattelse. Førskole til 3. klasse. Gratis. Print nu.',
     keywords: 'rastertegning generator, rastertegning opgaver, pixeltegning til børn, rudetegning, rutepapir tegning, visuel opfattelse øvelse, rudetegning printbar, model kopiering til rude, tegning i ruder, kodet tegning, rasteropgaver til børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/tegn-og-farvelaeg-arbejdsark',
       },

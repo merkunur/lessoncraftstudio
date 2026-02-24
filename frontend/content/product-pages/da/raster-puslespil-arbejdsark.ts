@@ -16,7 +16,7 @@ export const gridMatchDaContent: ProductPageContent = {
     slug: 'raster-puslespil-arbejdsark',
     appId: 'grid-match',
     title: 'Gratis Raster-Puslespil Generator | LessonCraftStudio',
-    description: 'Lav printbare raster-puslespil til visuel opfattelse og rumlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF download.',
+    description: 'Lav printbare raster-puslespil til visuel opfattelse og rumlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF hent. Ingen tilmelding krævet.',
     keywords: 'raster-puslespil generator, raster-puslespil opgaver, visuelt puslespil til børn, rumlig forståelse, mønster matchning, rasteropgaver printbar, opfattelse øvelse, visuel logik til børn, matchningsøvelser førskole, raster puslespil, rumlig opfattelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
       },

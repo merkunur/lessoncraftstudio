@@ -18,7 +18,7 @@ export const patternWorksheetDaContent: ProductPageContent = {
     slug: 'moenstre-arbejdsark',
     appId: 'pattern-worksheet',
     title: 'M\u00f8nsteropgave Generator \u2014 Gratis | LessonCraftStudio',
-    description: 'Lav printbare m\u00f8nsteropgaver til m\u00f8nstergenkendelse og -forts\u00e6ttelse. Varierede serier fra f\u00f8rskole til 3. klasse. 50 temaer. Gratis PDF.',
+    description: 'Lav printbare m\u00f8nsteropgaver til m\u00f8nstergenkendelse og -forts\u00e6ttelse. Varierede serier fra f\u00f8rskole til 3. klasse. 50 temaer. Gratis PDF. 3.000+ billeder.',
     keywords: 'm\u00f8nsteropgave generator, m\u00f8nsteropgaver printbar, m\u00f8nsterserier til b\u00f8rn, m\u00f8nstre forts\u00e6ttelse, m\u00f8nstergenkendelse \u00f8velse, matematiske m\u00f8nstre, m\u00f8nsterr\u00e6kke opgaver, m\u00f8nster kopiark, opfattelsesf\u00e6rdigheder f\u00f8rskole, m\u00f8nstergenkendelse 1. klasse, m\u00f8nstre og serier',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstre-arbejdsark',
       },

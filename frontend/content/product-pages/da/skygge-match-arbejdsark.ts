@@ -17,8 +17,8 @@ export const skyggeMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'skygge-match-arbejdsark',
     appId: 'shadow-match',
-    title: 'Gratis Skygge-Match Generator | LessonCraftStudio',
-    description: 'Lav printbare skyggeparringsopgaver hvor barnet matcher billede til korrekt skygge. Udvikler visuel opfattelse. 50 temaer. Gratis.',
+    title: 'Gratis Skygge-Match Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare skyggeparringsopgaver hvor barnet matcher billede til korrekt skygge. Udvikler visuel opfattelse. 50 temaer. Gratis. Ingen tilmelding krævet.',
     keywords: 'skygge-match generator, skygge-match opgaver, skyggeparring, skygge opgaver til børn, silhuetopgaver printbar, skyggegenkendelse, visuel parring skygge, skyggeøvelser førskole, silhuet øvelse, billed og skygge matchning, skyggeopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skygge-match-arbejdsark',
       },

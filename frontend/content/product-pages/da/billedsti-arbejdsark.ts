@@ -17,8 +17,8 @@ export const bildeStiDaContent: ProductPageContent = {
   seo: {
     slug: 'billedsti-arbejdsark',
     appId: 'picture-path',
-    title: 'Gratis Billedsti Generator | LessonCraftStudio',
-    description: 'Lav printbare billedsti-opgaver hvor barnet følger billedruter. Udvikler logisk tænkning og finmotorik. Førskole til 2. klasse. Gratis.',
+    title: 'Gratis Billedsti Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare billedsti-opgaver hvor barnet følger billedruter. Udvikler logisk tænkning og finmotorik. Førskole til 2. klasse. Gratis. Ingen tilmelding.',
     keywords: 'billedsti generator, billedsti opgaver, labyrint opgaver til børn, labyrint printbar, rute følgning, billed-labyrint øvelse, sti opgaver førskole, labyrintøvelser til børn, labyrint printbar, ruteøvelser, visuel rute følgning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsti-arbejdsark',
       },

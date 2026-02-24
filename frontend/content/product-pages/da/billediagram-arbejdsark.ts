@@ -15,8 +15,8 @@ export const chartCountDaContent: ProductPageContent = {
   seo: {
     slug: 'billediagram-arbejdsark',
     appId: 'chart-count',
-    title: 'Gratis Billediagram Generator | LessonCraftStudio',
-    description: 'Lav printbare billediagram-opgaver til t\u00e6lning og datavisualisering. T\u00e6l og farvel\u00e6g diagrammer fra f\u00f8rskole til 3. klasse. Gratis PDF.',
+    title: 'Gratis Billediagram Generator til B\u00f8rn | LessonCraftStudio',
+    description: 'Lav printbare billediagram-opgaver til t\u00e6lning og datavisualisering. T\u00e6l og farvel\u00e6g diagrammer fra f\u00f8rskole til 3. klasse. Gratis PDF. Ingen tilmelding.',
     keywords: 'billediagram generator, billediagram opgaver, t\u00e6l og farvel\u00e6g, datavisualisering til b\u00f8rn, s\u00f8jlediagram f\u00f8rskole, billediagram printbar, t\u00e6lning og farvel\u00e6gning, statistikopgaver til b\u00f8rn, diagram printbar, statistik f\u00f8rskole, billediagram \u00f8velse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billediagram-arbejdsark',
       },

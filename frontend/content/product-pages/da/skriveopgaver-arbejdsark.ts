@@ -19,7 +19,7 @@ export const writingDaContent: ProductPageContent = {
     slug: 'skriveopgaver-arbejdsark',
     appId: 'writing',
     title: 'Skriveopgave Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare skriveopgaver til bogstavdannelse og håndskrivning. Bogstaver, ord og blyantsgreb fra førskole til 2. klasse. Gratis PDF.',
+    description: 'Lav printbare skriveopgaver til bogstavdannelse og håndskrivning. Bogstaver, ord og blyantsgreb fra førskole til 2. klasse. Gratis PDF. Ingen tilmelding.',
     keywords: 'skriveopgave generator, håndskrivning øvelse, bogstaver øvelse førskole, bogstavdannelse, blyantsgreb træning, skrivning træning, bogstavøvelser printbar, finmotorik skrivning, alfabet skrivning, håndskrivning printbar, skriveforberedelse førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skriveopgaver-arbejdsark',
       },

@@ -18,7 +18,7 @@ export const billedsorteringDaContent: ProductPageContent = {
     slug: 'billedsortering-arbejdsark',
     appId: 'picture-sort',
     title: 'Billedsortering Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare billedsorteringsopgaver hvor barnet klassificerer billeder i kategorier. Udvikler klassificeringsfærdigheder. Førskole til 2. klasse.',
+    description: 'Lav printbare billedsorteringsopgaver hvor barnet klassificerer billeder i kategorier. Udvikler klassificeringsfærdigheder. Førskole til 2. klasse. Hent nu.',
     keywords: 'billedsortering generator, billedsortering opgaver, sorteringsøvelser til børn, kategorisering opgave, billed klassificering, sortering førskole, gruppering øvelse, billed kategorisering, klassificering printbar, sorteringsfærdigheder til børn, gruppering med billeder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
       },

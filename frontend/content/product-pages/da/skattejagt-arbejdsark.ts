@@ -17,8 +17,8 @@ export const skattejagtDaContent: ProductPageContent = {
   seo: {
     slug: 'skattejagt-arbejdsark',
     appId: 'treasure-hunt',
-    title: 'Skattejagt Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare skattejagt-opgaver til retningsord og forståelse af instruktioner. Sjovt eventyrspil fra førskole til 2. klasse. Gratis.',
+    title: 'Gratis Skattejagt Generator — Gratis | LessonCraftStudio',
+    description: 'Lav printbare skattejagt-opgaver til retningsord og forståelse af instruktioner. Sjovt eventyrspil fra førskole til 2. klasse. Gratis. Ingen tilmelding.',
     keywords: 'skattejagt generator, skattejagt opgaver, retningsord øvelse, instruktioner forståelse, skattejagt printbar, retningsbegreber til børn, eventyropgaver førskole, skattejagt klasselokale, retning og position, eventyrspil printbar, instruktioner forståelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skattejagt-arbejdsark',
       },

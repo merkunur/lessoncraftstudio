@@ -16,7 +16,7 @@ export const findObjectsDaContent: ProductPageContent = {
     slug: 'find-objekterne-arbejdsark',
     appId: 'find-objects',
     title: 'Find Objekterne Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare søgeopgaver til børn. Find skjulte objekter i billeder og udvikl visuel opmærksomhed. 50 temaer fra førskole til 3. klasse.',
+    description: 'Lav printbare søgeopgaver til børn. Find skjulte objekter i billeder og udvikl visuel opmærksomhed. 50 temaer fra førskole til 3. klasse. 3.000+ billeder.',
     keywords: 'find objekterne generator, find objekterne opgaver, puslespil billede printbar, visuel søgning til børn, find skjulte objekter, opmærksomhed øvelse, visuel opfattelse førskole, find og opdage opgave, billedpuslespiløvelser, søgespil printbar, visuel opmærksomhed',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
       },

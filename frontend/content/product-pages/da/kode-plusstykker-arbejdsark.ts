@@ -18,8 +18,8 @@ export const kodePlusstykkerDaContent: ProductPageContent = {
   seo: {
     slug: 'kode-plusstykker-arbejdsark',
     appId: 'code-addition',
-    title: 'Kode-Plusstykker Generator | LessonCraftStudio',
-    description: 'Lav printbare kode-plusstykker hvor billeder erstatter tal. Udvikler algebraisk tænkning fra førskole til 3. klasse. Gratis PDF download.',
+    title: 'Kode-Plusstykker Generator til Børn | LessonCraftStudio',
+    description: 'Lav printbare kode-plusstykker hvor billeder erstatter tal. Udvikler algebraisk tænkning fra førskole til 3. klasse. Gratis PDF hent. Hent gratis PDF nu.',
     keywords: 'kode-plusstykker generator, kode-plusstykker opgaver, symbolsk algebra til børn, billedbaseret matematik, kodeopgaver printbar, algebraisk tænkning førskole, billede erstatter tal, hemmelig besked plusstykker, billedsymbol regneopgave, matematisk kodning, visuel algebra',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kode-plusstykker-arbejdsark',
       },

@@ -16,7 +16,7 @@ export const findAndCountDaContent: ProductPageContent = {
     slug: 'find-og-tael-arbejdsark',
     appId: 'find-and-count',
     title: 'Find og Tæl Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare find og tæl-opgaver til børn. Udvikl tællefærdigheder og visuel opmærksomhed med billeder. Førskole til 3. klasse. Gratis PDF.',
+    description: 'Lav printbare find og tæl-opgaver til børn. Udvikl tællefærdigheder og visuel opmærksomhed med billeder. Førskole til 3. klasse. Gratis PDF. Print nu.',
     keywords: 'find og tæl generator, find og tæl opgaver, tælleøvelser førskole, visuel tælling, antal genkendelse, find og tæl printbar, tællefærdigheder til børn, tælleøvelse med billeder, taløvelser førskole, tælling træning, matematik søgeopgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-og-tael-arbejdsark',
       },

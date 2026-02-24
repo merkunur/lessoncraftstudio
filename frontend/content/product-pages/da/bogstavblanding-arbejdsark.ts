@@ -16,7 +16,7 @@ export const wordScrambleDaContent: ProductPageContent = {
     slug: 'bogstavblanding-arbejdsark',
     appId: 'word-scramble',
     title: 'Gratis Bogstavblanding Generator | LessonCraftStudio',
-    description: 'Lav printbare bogstavblanding-opgaver til stavning og retstavning. Tilpas sværhedsgrad fra førskole til 3. klasse. Med billeder. Gratis PDF.',
+    description: 'Lav printbare bogstavblanding-opgaver til stavning og retstavning. Tilpas sværhedsgrad fra førskole til 3. klasse. Med billeder. Gratis PDF. Print nu.',
     keywords: 'bogstavblanding generator, bogstavblanding opgaver, skriveøvelser til børn, retstavning øvelse, ord-gåde printbar, stavelseøvelse, ordspil til børn printbar, orddannelse opgaver, lære at læse opgaver, skrivning træning, ordforråd øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark',
       },

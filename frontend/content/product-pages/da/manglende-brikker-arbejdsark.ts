@@ -16,7 +16,7 @@ export const missingPiecesDaContent: ProductPageContent = {
     slug: 'manglende-brikker-arbejdsark',
     appId: 'missing-pieces',
     title: 'Manglende Brikker Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare manglende brikker-opgaver til visuel opfattelse. Find den manglende del i mønstret. Førskole til 2. klasse. Gratis PDF.',
+    description: 'Lav printbare manglende brikker-opgaver til visuel opfattelse. Find den manglende del i mønstret. Førskole til 2. klasse. Gratis PDF. Hent gratis PDF nu.',
     keywords: 'manglende brikker generator, manglende brikker opgaver, puslespil opgave til børn, manglende del øvelse, visuel slutning, billedpuslespil printbar, mønstergenkendelse øvelse, manglende billede opgave, visuel logisk tænkning, puslespiløvelser førskole, opfattelsesfærdigheder til børn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/manglende-brikker-arbejdsark',
       },

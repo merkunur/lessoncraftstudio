@@ -16,7 +16,7 @@ export const matchingDaContent: ProductPageContent = {
     slug: 'matchning-arbejdsark',
     appId: 'matching',
     title: 'Gratis Matchning Generator til Børn | LessonCraftStudio',
-    description: 'Lav printbare matchningsopgaver med billeder. Udvikl hukommelse og mønstergenkendelse fra førskole til 3. klasse. 50 temaer. Download gratis PDF.',
+    description: 'Lav printbare matchningsopgaver med billeder. Udvikl hukommelse og mønstergenkendelse fra førskole til 3. klasse. 50 temaer. Hent gratis PDF. Print nu.',
     keywords: 'matchning generator, matchning opgaver, parring til børn, hukommelsesspil printbar, parringsøvelse førskole, mønstergenkendelse øvelse, visuel parring, billedparring opgave, parøvelse printbar, hukommelse og parring, matchningsopgaver førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matchning-arbejdsark',
       },

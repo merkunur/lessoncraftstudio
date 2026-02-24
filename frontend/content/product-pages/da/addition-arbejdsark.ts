@@ -16,7 +16,7 @@ export const additionDaContent: ProductPageContent = {
     slug: 'addition-arbejdsark',
     appId: 'addition',
     title: 'Gratis Addition Generator til B\u00f8rn | LessonCraftStudio',
-    description: 'Lav printbare plusstykker med billeder til f\u00f8rskole\u20133. klasse. 3.000+ billeder, tilpas sv\u00e6rhedsgrad og f\u00e5 facitark. Download gratis PDF med det samme.',
+    description: 'Lav printbare plusstykker med billeder til f\u00f8rskole\u20133. klasse. 3.000+ billeder, tilpas sv\u00e6rhedsgrad og f\u00e5 facitark. Hent gratis PDF med det samme. Hent nu.',
     keywords: 'addition opgave generator, plusstykker arbejdsark gratis, addition opgaver b\u00f8rnehaveklasse, billedbaserede plusstykker, matematik arbejdsark gratis, plusstykker med billeder, printbare regneopgaver, addition facitark, l\u00e6re at l\u00e6gge sammen, plusstykker 1. klasse, addition \u00f8velser b\u00f8rn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/addition-arbejdsark',
       },

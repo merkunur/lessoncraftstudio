@@ -19,7 +19,7 @@ export const sudokuDaContent: ProductPageContent = {
     slug: 'sudoku-arbejdsark',
     appId: 'sudoku',
     title: 'Børne Sudoku Generator — Gratis | LessonCraftStudio',
-    description: 'Lav printbare billed-sudokuer til børn. Nemme og mellemsvare logikspil fra førskole til 3. klasse. Billeder fra 3.000+ bibliotek. Gratis PDF.',
+    description: 'Lav printbare billed-sudokuer til børn. Nemme og mellemsvare logikspil fra førskole til 3. klasse. Billeder fra 3.000+ bibliotek. Gratis PDF. Print nu.',
     keywords: 'børne sudoku generator, billed-sudoku til børn, sudoku printbar, børns logikspil, nem sudoku til børn, billed-sudoku printbar, sudoku førskole, logikøvelser til børn, sudoku gitter til børn, tænkningsfærdigheder træning, sudoku indskoling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sudoku-arbejdsark',
       },

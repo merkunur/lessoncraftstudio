@@ -15,16 +15,16 @@ export const sudokuSvContent: ProductPageContent = {
   seo: {
     slug: 'bildsudoku-arbetsblad',
     appId: 'sudoku',
-    title: 'Gratis Sudoku för Barn | Bildsudoku Arbetsblad för Förskoleklass',
-    description: 'Skapa gratis bildsudoku arbetsblad för förskoleklass och lågstadiet. Ladda ner PDF matematik arbetsblad med facit på under 3 minuter. 300 DPI kvalitet.',
-    keywords: 'sudoku för barn, bildsudoku, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet',
+    title: 'Barnsudoku Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildsudoku för barn. Enkla och medelsvåra logikspel från förskola till årskurs 3. Bilder från 3 000+ bibliotek. Gratis PDF.',
+    keywords: 'barnsudoku generator, bildsudoku barn, sudoku utskrivbar, barns logikspel, enkel sudoku barn, bildsudoku utskrivbar, sudoku förskola, logikövningar barn, sudoku rutnät barn, tänkande färdigheter träning, sudoku lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
       },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
   hero: {
-    title: 'Gratis Sudoku för Barn Generator',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
+    title: 'Barnsudoku Generator',
+    subtitle: 'Utskrivbara Bildsudoku från Förskola till Årskurs 3',
     description: `Skapa professionella bildsudoku med vår sudoku för barn generator. Din Grundpaketet-prenumeration ger dig obegränsad skapande av pussel utan extra avgifter per arbetsblad. Generera skräddarsydda utskrivbara arbetsblad gratis perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Sudoku för barn använder bilder istället för siffror i ett 4×4 rutnät. Detta gör logikträning tillgänglig för yngre elever som fortfarande lär sig siffror och tal. Varje sudokupussel fungerar som matte övningar genom att öva mönsterigenkänning och logiskt tänkande. Perfekt för lärare som behöver matematik arbetsblad kombinerade med finmotorik övningar.

@@ -15,16 +15,16 @@ export const codeAdditionSvContent: ProductPageContent = {
   seo: {
     slug: 'kodaddition-arbetsblad',
     appId: 'code-addition',
-    title: 'Gratis Arbetsblad Kodaddition | Matematik för Förskoleklass',
-    description: 'Skapa gratis arbetsblad för kodaddition med bilder. Generera matematik övningar för förskoleklass och årskurs 1-3. Ladda ner professionella PDF-arbetsblad för.',
-    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, kodaddition, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar',
+    title: 'Gratis Kodaddition Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara kodadditionsövningar där barn avkodar hemliga meddelanden genom addition. Förskola till årskurs 3. Med bilder. Gratis PDF.',
+    keywords: 'kodaddition generator, kodaddition övningar, hemligt meddelande matematik, krypteringsövning barn, addition kodknackning, hemliga koder matematik, additionskod arbetsblad, matematik pussel barn, avkodningsövning, kodaddition utskrivbar, matematikspel barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
       },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Kodaddition - Matematik Övningar för Barn',
-    subtitle: 'Gratis Arbetsblad för Barn och Förskoleklass Material',
+    title: 'Kodaddition Generator',
+    subtitle: 'Hemliga Meddelanden genom Additionsövningar',
     description: `Skapa professionella matematik arbetsblad med bilder för addition. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsbladskapande. Generera anpassade matte övningar perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vårt verktyg för matematik arbetsblad gör additionsövningar visuella och engagerande. Barn lär sig siffror och tal genom att räkna bilder. Perfekt för lågstadiet där eleverna behöver konkreta exempel. Varje arbetsblad kan anpassas helt efter dina elevers behov. Välj från över 3000 barnvänliga bilder.

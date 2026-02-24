@@ -15,16 +15,16 @@ export const pictureBingoSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbetsblad',
     appId: 'bingo',
-    title: 'Gratis Bildlotto Generator | Arbetsblad för Förskoleklass och',
-    description: 'Skapa professionella bildlottokort med vår bildlotto generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
-    keywords: 'bildlotto generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bildlottokort, gratis arbetsblad, lågstadiet, bokstäver lära sig, siffror och tal, målarbilder barn',
+    title: 'Gratis Bildlotto Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildlottospel för barn. 50 teman, anpassningsbara rutnät och bilder från 3 000+ bibliotek. Perfekt för klassrummet. Ladda ner gratis.',
+    keywords: 'bildlotto generator, lotto utskrivbar barn, bildlotto spel, utskrivbart lottospel, lotto förskola, klassrumslotto, bildlotto rutnät, lotto övning barn, gruppspel utskrivbar, lotto bilder barn, lottospel klassrum',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
       },
 
   // Hero Section - FULL text from picture-bingo.md paragraphs 1-3
   hero: {
-    title: 'Gratis Bildlotto Generator',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass och Lågstadiet',
+    title: 'Bildlotto Generator',
+    subtitle: 'Skapa Utskrivbara Lottospel med 50 Teman',
     description: `Skapa professionella bildlottokort med vår bildlotto generator. Din Grundpaketet-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade bildlotto arbetsblad perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildlotto är ett klassiskt klassrumsspel för att lära barn siffror och tal, bokstäver, och visuell igenkänning. Vår generator skapar unika bingobrickor för varje elev och matchande uppropskort för läraren. Perfekt för matematik arbetsblad, finmotorik övningar, och språkinlärning. Varje bildlotto-arbetsblad är helt redigerbart efter generering.

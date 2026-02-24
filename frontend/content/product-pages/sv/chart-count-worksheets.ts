@@ -15,16 +15,16 @@ export const chartCountSvContent: ProductPageContent = {
   seo: {
     slug: 'diagram-rakning-arbetsblad',
     appId: 'chart-count',
-    title: 'Gratis Arbetsblad Diagram Generator | Arbetsblad för Förskoleklass',
-    description: 'Skapa gratis arbetsblad för barn med diagram och bildräkning. Gratis utskrifter för förskoleklass med siffror och tal. Ladda ner arbetsblad PDF på 3 minuter.',
-    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, diagram arbetsblad, bildräkning',
+    title: 'Gratis Diagramräkning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara diagramräkningsövningar med bilder. Räkning, färgläggning och dataavläsning för förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'diagramräkning generator, diagramräkning övningar, stapeldiagram barn, dataavläsning förskola, räkning och färgläggning, diagram övning, bilddiagram arbetsblad, statistik barn, diagramtolkning övning, matematik diagram, bilddiagram utskrivbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
       },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Diagram med Bildräkning',
-    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
+    title: 'Diagramräkning Generator',
+    subtitle: 'Utskrivbara Diagramräkningsövningar med Bilder',
     description: `Skapa professionella diagram med bildräkning för barn. Din Full Tillgång-prenumeration ger dig obegränsad generering av arbetsblad gratis utan avgifter per ark. Perfekt för matematik arbetsblad i förskoleklass material och lågstadiet. Generera arbetsblad där eleverna räknar bilder och fyller i stapeldiagram. Ladda ner högkvalitativa PDF-filer på under 3 minuter.
 
 Diagram med bildräkning är idealiska för förskoleklass material och lågstadiets matematik arbetsblad. Eleverna räknar olika bilder i ett rutnät och markerar resultaten i ett stapeldiagram. Varje arbetsblad tränar siffror och tal samtidigt som eleverna utvecklar visuell räkning. Denna aktivitet kombinerar matte övningar med finmotorik övningar när barn fyller i diagrammen.

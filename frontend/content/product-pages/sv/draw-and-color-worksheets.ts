@@ -15,16 +15,16 @@ export const drawAndColorSvContent: ProductPageContent = {
   seo: {
     slug: 'rutritning-arbetsblad',
     appId: 'draw-and-color',
-    title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för',
-    description: 'Skapa gratis arbetsblad för rutnätsritning och målarbilder barn. Ladda ner finmotorik övningar för förskoleklass på under 3 minuter. Prova gratis idag!',
-    keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
+    title: 'Gratis Rutritning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara rutritningsövningar för pixelkonst. Utveckla rumsuppfattning och finmotorik från förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'rutritning generator, rutritning övningar, pixelkonst barn, rutnätsritning utskrivbar, rumsuppfattning övning, rita på rutnät, pixelritning arbetsblad, symmetri övning, koordinatövning barn, rutritning förskola, rutövningar utskrivbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
-    title: 'Målarbilder Barn och Ritövningar',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass Material',
+    title: 'Rutritning Generator',
+    subtitle: 'Utskrivbara Pixelkonstövningar från Förskola till Årskurs 3',
     description: `Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Tillgång-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
 
 Vårt verktyg kombinerar målarbilder barn med matematik arbetsblad genom att använda rutnätsteknik. Barn lär sig rumsliga relationer genom att kopiera pixelmönster från ledtrådsrutnätet till ritrutnätet. Dessa arbetsblad gratis för utskrift utvecklar finmotorik övningar samtidigt som de introducerar grundläggande matte övningar genom koordinater.

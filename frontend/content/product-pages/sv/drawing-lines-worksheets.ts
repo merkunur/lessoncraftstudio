@@ -15,16 +15,16 @@ export const drawingLinesSvContent: ProductPageContent = {
   seo: {
     slug: 'rita-linjer-arbetsblad',
     appId: 'drawing-lines',
-    title: 'Gratis Arbetsblad Rita Linjer | Finmotorik Övningar för Förskoleklass',
-    description: 'Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Generera anpassade finmotorik övningar perfekta för förskoleklass och årskurs.',
-    keywords: 'finmotorik övningar, rita linjer arbetsblad, arbetsblad gratis, förskoleklass material, penngrepp övningar, hand-öga-koordination, finmotorik förskola, linjeövningar barn',
+    title: 'Linjeritning Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara linjeritningsövningar för finmotorik-utveckling. Räta linjer, bågar och vågor från förskola till årskurs 1. Ladda ner gratis PDF.',
+    keywords: 'linjeritning generator, linjeritning övningar, finmotorik övningar, linjeföljning övning, penngrepp övningar, ritning träning förskola, finmotorik förskola, skrivförberedelse övning, penngrepp träning, linjer och former övning, ritträning barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
       },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Rita Linjer - Finmotorik Övningar',
-    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
+    title: 'Linjeritning Generator',
+    subtitle: 'Finmotorik Övningar från Förskola till Årskurs 1',
     description: `Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Ditt Grundpaketet-abonnemang ger dig obegränsad tillgång till vårt verktyg för finmotorik övningar utan extra kostnad per arbetsblad. Generera anpassade arbetsblad gratis att skriva ut perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Rita linjer-övningar utvecklar barnets penngrepp och hand-öga-koordination. Varje arbetsblad tränar finmotorik övningar genom att barnet måste rita raka eller kurviga linjer mellan matchande bilder. Perfekt förskoleklass material som kombinerar visuell diskrimination med pennkontroll. Verktyget erbjuder 8 olika linjemallar från enkla raka linjer till mer utmanande kurvor.

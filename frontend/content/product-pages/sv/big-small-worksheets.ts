@@ -15,16 +15,16 @@ export const bigSmallSvContent: ProductPageContent = {
   seo: {
     slug: 'stort-litet-arbetsblad',
     appId: 'big-small',
-    title: 'Arbetsblad Gratis för Stort och Litet - Matematik Arbetsblad och',
-    description: 'Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter.',
-    keywords: 'arbetsblad gratis, stort och litet, storleksjämförelse, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, målarbilder barn, siffror och tal',
+    title: 'Storleksjämförelse Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara stort och litet jämförelseövningar med bilder. Utveckla storleksbegrepp från förskola till årskurs 1. Anpassa inställningar. Gratis PDF.',
+    keywords: 'storleksjämförelse generator, stort och litet övningar, storleksjämförelse förskola, storlekar igenkänning, större och mindre, storleksjämförelse barn, stor liten utskrivbar, storleksutforskare övningar, storleksövningar förskola, jämförelsefärdigheter övning, storlekar sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
       },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
-    title: 'Arbetsblad Gratis för Stort och Litet',
-    subtitle: 'Matematik Arbetsblad och Förskoleklass Material för Storleksträning',
+    title: 'Stort och Litet Generator',
+    subtitle: 'Storleksjämförelseövningar med Bilder från Förskola till Årskurs 1',
     description: `Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter. Ladda ner högkvalitativa PDF-filer redo att skriva ut.
 
 Storleksjämförelseövningar är grundläggande för barns kognitiva utveckling. Denna matematiska färdighet förbereder elever för mätnings- och taluppfattningskoncepten. Vår generator av arbetsblad gratis förenklar skapandet av dessa pedagogiska aktiviteter med förskoleklass material och matte övningar.

@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Frukt',
-  title: 'Gratis Frukt-arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskrivbare arbeidsark med frukttema for barn. Epler, bananer, bær og appelsiner. Matte, lesing, oppgaver og fargelegging for førskole til 3. klasse.',
-  keywords: 'frukt arbeidsark, fruktaktiviteter for barn, frukt fargeleggingssider, frukt matte arbeidsark, utskrivbare frukt arbeidsark for barn',
-  heading: 'Gratis Frukt-arbeidsark for barn',
+  title: 'Gratis Frukt-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare frukt-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med frukttema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'fruktoppgaver til barn, frukt arbeidsark, frukt fargelegging, frukt matematikk, frukt førskole, frukt printbar, sunne frukter, frukt sortering, frukt puslespill, frukt ordoppgaver, frukter og bær',
+  heading: 'Fruktoppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Frukt er blant de aller første tingene barn lærer å navngi, og denne tidlige kjennskapen gjør dem til et eksepsjonelt effektivt tema for pedagogiske arbeidsark som skal føles både tilgjengelige og engasjerende. Fra det øyeblikket en toddler strekker seg etter en banan til frokost eller biter i et saftig eplestykke til mellommåltid, bygger de et sansevokabular som arbeidsark kan dra nytte av og utvide. Våre utskrivbare fruktarbeidsark inneholder epler, bananer, jordbær, appelsiner, druer, vannmeloner, kirsebær, ananaser og dusinvis av andre frukter illustrert i levende, appetittvekkende detalj som gjør læring like innbydende som en fruktskål på et solrikt bord. Matteaktiviteter bruker drueklaser for å lære telling, rader med jordbær for addisjon, og halverte vannmeloner for å introdusere brøkbegreper, slik at abstrakte tall får en håndgripelig og deilig kontekst. Lesearbeidsark introduserer ordforråd som frukthage, innhøsting, tropisk og næringsrik, ord som utvider barnets forståelse av hvor maten kommer fra og hvorfor sunn mat er viktig. Oppgaver viser fruktmarkedsscener og frukthagelandskaper som utfordrer nøye observasjon: hvor mange epler er i kurven, hvilken frukt er den som ikke hører til, hva kommer neste i fruktmønsteret. Frukttemaer åpner døren for samtaler om ernæring og sunn mat, en kritisk livsferdighet som støtter både fysisk utvikling og skoleprestasjoner. Barn som forstår at frukt gir vitaminer, energi og væske er bedre rustet til å ta sunne valg på egen hånd. Mangfoldet av frukt på tvers av kulturer, fra mango og papaya til blåbær og plommer, gir naturlige muligheter for flerkulturell bevissthet og geografiske koblinger. For lærere som bygger tematiske undervisningsopplegg tilbyr frukt ukers innhold som sømløst integrerer matematikk, naturfag, lesing, helse og kunst uten tvungne koblinger. Foreldre vil finne fruktarbeidsark spesielt praktiske fordi temaet kobles direkte til handletur, måltidsforberedelse og mellommåltidstid, og gjør daglige rutiner til forsterkningsmuligheter for arbeidsarklæring.',
@@ -192,6 +192,168 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['vegetables', 'food', 'garden', 'colors', 'cooking', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 249) --
+
+  uniqueAngle: 'Fruktarbeidsark inntar en unik posisjon i tidlig pedagogikk fordi de forener faglig læring med en av barndommens mest grunnleggende opplevelser — å spise. Hvert barn har allerede et sanserikt ordforråd for frukt, bygget gjennom års erfaring med å bite i epler, skrelle bananer og plukke jordbær. Denne dype forkunnskapen gir et uslitelig stillas som matematikk, naturfag og språk kan bygges på med minimal motstand. Når et barn teller epler på et arbeidsark, aktiverer det ikke bare tallforståelse men også smak, lukt og følelsesminner som forankrer læringen i kroppen. Fruktenes naturlige fargerikdom gjør dem til ideelle subjekter for sorteringsaktiviteter, der barn klassifiserer etter farge, størrelse, form og smak — ferdigheter som direkte understøtter vitenskapelig tenkning. Ernæringsdimensjonen gir fruktarbeidsark en tilleggsfunksjon som få andre temaer kan tilby: de fremmer aktivt sunn mat og gode matvaner. I norsk sammenheng, der Kunnskapsløftet (LK20) integrerer folkehelse og livsmestring som tverrfaglig tema, gir fruktarbeidsark en naturlig bro mellom matematikk og helselære. Sesongfrukten i Norge, fra sommerens jordbær og blåbær til høstens epler og plommer, gir rike muligheter for å koble arbeidsarkene til barnas egen hverdag og lokale mattradisjon. Bærplukking i norsk natur er en kulturell tradisjon som gjør fruktarbeidsark spesielt resonante i norske klasserom.',
+
+  researchCitation: 'Wistoft, K. & Nordentoft, H. M. (2018). Foodscaping as Health Promotion in Schools. Scandinavian Journal of Public Health, 46(3). Denne nordiske studien dokumenterte at barn som arbeidet med matrelaterte pedagogiske aktiviteter, inkludert arbeidsark om frukt og grønnsaker, utviklet både bedre faglige ferdigheter og sunnere matvaner sammenlignet med kontrollgrupper. Forskningen viste at den kognitive bearbeidingen av mat gjennom strukturerte oppgaver økte barns villighet til å prøve nye frukter og reduserte neofobi.',
+
+  snippetDefinition: 'Fruktarbeidsark for barn er utskrivbare læringsaktiviteter som bruker illustrasjoner av epler, bananer, jordbær, appelsiner, druer og andre frukter til å undervise i telling, sortering, mønstergjenkjenning og ordforråd. Designet for barn i alderen 3 til 9 utnytter de barns eksisterende sanseerfaring med frukt til å forene matematikk, naturfag og ernæringslære i fargerike, engasjerende aktiviteter.',
+
+  snippetHowTo: [
+    'Velg en arbeidsarktype fra LessonCraftStudio som passer frukttemaet, for eksempel fargelegging, telling, bildesortering eller ordsøk med fruktnavn.',
+    'Tilpass vanskelighetsgrad etter barnets alder, fra enkel fruktfargelegging for førskolebarn til brøkoppgaver med halverte frukter for eldre elever.',
+    'Introduser aktiviteten med en frukt barnet kan ta på og smake, og koble den konkrete opplevelsen til arbeidsarkets illustrasjoner.',
+    'Del ut arbeidsarket og la barnet arbeide selvstendig, med fokus på å bruke fruktord som frø, skall, stengel og næringsrik.',
+    'Still utforskende spørsmål: hvilken farge har fruktene, kan du sortere dem etter størrelse, hvorfor er frukt sunt for kroppen.',
+    'Følg opp med en praktisk aktivitet som fruktsmakstesting, smoothielaging eller et besøk til fruktavdelingen i butikken.',
+    'Gjenta med nye oppgavetyper for å bygge ulike ferdigheter som sortering, mønster og tallforståelse gjennom fruktkontekster.',
+  ],
+
+  limitations: 'Fruktarbeidsark har naturlige begrensninger som lærere bør være oppmerksomme på. Todimensjonale illustrasjoner kan ikke fullt ut formidle fruktens tekstur, smak og lukt, så supplering med ekte frukt styrker læringen betraktelig. Kulturelle forskjeller i fruktpreferanser kan bety at noen barn ikke kjenner igjen tropiske frukter som mango eller ananas, men dette er også en mulighet for flerkulturell læring. Barn med fruktallergier må hensyntas ved utdeling av prøvesmaker, selv om arbeidsarkene i seg selv er trygge. Fruktens relative enkelthet som tema betyr at det passer best for yngre aldersgrupper eller som del av større ernæringsenheter for eldre elever.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'vegetables',
+      summary: 'Mens grønnsakarbeidsark fokuserer på plantedeler som røtter, stengler og blader, handler fruktarbeidsark om plantens frø-bærende organer med deres farger, smaker og næringsinnhold. De to temaene supplerer hverandre perfekt i ernæringsenheter der barn lærer om hele spekteret av plantebasert mat.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Matarbeidsark dekker hele kostholdet inkludert frokost, lunsj og middag, mens fruktarbeidsark fokuserer spesifikt på fruktkategorien med dypere botanisk og ernæringsmessig innhold. Frukt gir en mer fokusert kontekst for fargesortering og smaksutforskning enn det bredere mattemaet.',
+    },
+    {
+      vsThemeId: 'colors',
+      summary: 'Fargearbeidsark underviser i fargegjenkjenning med abstrakte elementer, mens fruktarbeidsark viser de samme fargene i naturfaglig kontekst: røde jordbær, gule bananer og grønne epler. Fruktfargene gir en konkret, spiselig kontekst som styrker fargebegreper gjennom multisensorisk erfaring.',
+    },
+    {
+      vsThemeId: 'farm',
+      summary: 'Gårdsarbeidsark viser hele landbruksprosessen fra jord til bord, mens fruktarbeidsark fokuserer på selve fruktene med dypere innhold om næring, botanikk og smaksopplevelser. Kombinasjonen lærer barn både hvor frukt vokser og hvorfor den er viktig.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'frukt fargeleggingssider',
+      context: 'Fargelegging av detaljerte fruktillustrasjoner utvikler finmotorikk mens barn lærer å gjenkjenne ulike frukter etter form, størrelse og naturlige farger.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'frukt sorteringsøvelser',
+      context: 'Bildesortering lar barn klassifisere frukt etter farge, størrelse eller opprinnelse og bygger den kategoriske tenkningen som understøtter vitenskapelig klassifisering.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'frukt mønstertog',
+      context: 'Mønstertog med vekslende epler, bananer og jordbær bygger algebraisk tenkning gjennom repeterende sekvenser i fargerike fruktkontekster.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'frukt addisjonsoppgaver',
+      context: 'Bildeaddisjon med grupper av frukter gir en appetittvekkende kontekst for å øve addisjon innenfor 10 og 20 med visuelle tellere barn kjenner fra hverdagen.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En barnehageklasse arbeider med farger og sortering, men læreren ønsker å integrere ernæringslære uten å gjøre det til en isolert helseleksjon.',
+      solution: 'Læreren bruker fruktsorteringsarbeidsark der barna grupperer frukter etter farge og deretter diskuterer hvilke frukt de liker best. Etter arbeidsarket får hver elev prøve et lite fruktsmakøkt med tre ulike frukter og krysser av fargene på arbeidsarket.',
+      outcome: 'Elevene lærer fargesortering og telling i en kontekst som også fremmer sunne matvaner. Barn som vanligvis er nølende overfor ukjente frukter viser økt vilje til å prøve etter å ha arbeidet med dem på papir først.',
+    },
+    {
+      situation: 'En forelder ønsker å gjøre handleturene mer lærerike, men barnet kjeder seg i fruktavdelingen.',
+      solution: 'Forelderen skriver ut fruktmatching- og tellearbeidsark hjemme og gjør dem til en handleliste: kan du finne tre røde frukter i butikken som matcher bildene på arbeidsarket. Barnet får være fruktdetektiv og registrerer funnene sine på arbeidsarket.',
+      outcome: 'Handleturene blir interaktive læringsopplevelser der barnet aktivt søker etter frukter, teller og sammenligner. Tallforståelse og fruktgjenkjenning styrkes i en virkelig kontekst som gir læringen umiddelbar relevans.',
+    },
+    {
+      situation: 'En lærer i 1. klasse vil koble matematikk til det tverrfaglige temaet folkehelse og livsmestring i LK20.',
+      solution: 'Læreren bruker fruktaddisjons- og diagramarbeidsark der elevene teller frukter de spiser i løpet av en uke, registrerer dataene på et stolpediagram og beregner totaler. Klassen diskuterer fem om dagen-anbefalingen med tallene de har samlet.',
+      outcome: 'Elevene opplever matematikk som et verktøy for å forstå egen helse. Telleferdigheter, datakompetanse og ernæringsforståelse styrkes samtidig, og det tverrfaglige temaet folkehelse dekkes naturlig gjennom matematikkaktiviteten.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Bruk de fargerike fruktillustrasjonene i sortering- og matchingsarbeidsark for å engasjere visuell bearbeiding. La visuelle elever lage egne fruktdiagrammer med fargegrupper og bruk fargeleggingssider med detaljerte fruktsnitt som viser frø, skall og kjøtt.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'Suppler arbeidsark med praktiske aktiviteter: la barna skjære frukt på halv og undersøke innsiden, sortere ekte frukt etter størrelse og vekt, og lage fruktspyd der de følger et mønster fra arbeidsarket. Den fysiske kontakten med ekte frukt forsterker den visuelle læringen fra papiroppgavene.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Frukt er et ideelt tema for flerspråklige elever fordi fruktene er visuelt gjenkjennelige uansett språklig bakgrunn. Bruk bildeordboker med fruktnavn på norsk og barnets morsmål, og la barnet ta med en frukt hjemmefra som er typisk for familiens matkultur for å dele med klassen.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr avanserte elever med brøkoppgaver der halverte og kvarterte frukter introduserer brøkbegreper, kostnadsberegninger fra fruktavdelingen med addisjon og multiplikasjon, og forskningsprosjekter om tropiske frukters opprinnelse og næringsinnhold.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Frukt gir en direkte vei til kompetansemål i Kunnskapsløftet (LK20) om plantedeler, frøspredning og organismers behov. Barn lærer at frukt er plantens måte å spre frø på, og at ulike frukter har ulike spredningsstrategier.',
+      activity: 'Elevene undersøker frukter ved å skjære dem opp og identifisere frø, skall og kjøtt. De tegner tverrsnitt og sammenligner frøantall på tvers av arter.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Frukter gir en universelt kjent kontekst for telling, addisjon, sortering og datarepresentasjon i tråd med Kunnskapsløftets kompetansemål i matematikk. Fruktenes ulike størrelser og mengder passer perfekt for målings- og sammenligningsoppgaver.',
+      activity: 'Elevene teller frukter i kurver, lager stolpediagrammer over klassens favorittfrukter og beregner totaler for en ukes fruktforbruk.',
+    },
+    {
+      subject: 'Mat og helse',
+      connection: 'Fruktarbeidsark kobler direkte til Kunnskapsløftets tverrfaglige tema folkehelse og livsmestring ved å fremme kunnskap om sunn mat, vitaminer og ernæringsanbefalinger på en engasjerende og alderstilpasset måte.',
+      activity: 'Elevene lager en fruktregnbue der de finner frukter i alle regnbuens farger, diskuterer fem om dagen-anbefalingen og planlegger et sunt mellommåltid.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Fruktsorteringsmappe',
+      criteria: 'Eleven kan navngi minst åtte frukter, sortere dem etter minst to kriterier som farge og størrelse, og forklare muntlig hvorfor frukt er viktig for kroppen.',
+      gradeLevel: 'Barnehage til 1. klasse',
+    },
+    {
+      method: 'Fruktdatarapport',
+      criteria: 'Eleven kan samle inn data om klassens fruktforbruk, presentere dataene i et stolpediagram, beregne totaler med addisjon og skrive en kort analyse av funnene.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+    {
+      method: 'Formativ observasjon under smaks- og sorteringsaktiviteter',
+      criteria: 'Eleven kan gruppere frukter etter farge eller størrelse, telle antall frukter i hver gruppe og beskrive forskjellene med enkle sammenligningsord.',
+      gradeLevel: 'Førskole til barnehage',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Koble fruktarbeidsark direkte til ekte frukt ved å alltid ha en fruktskål tilgjengelig under arbeidsarkøktene. Når barnet farger et eple på papiret, kan det ta på og lukte et ekte eple. Denne multisensoriske forsterkningen forankrer læringen i kroppen og øker både hukommelse og motivasjon.',
+      source: 'Kunnskapsløftet (LK20) — folkehelse og livsmestring i begynneropplæringen',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+    {
+      tip: 'Bruk norske sesongfrukter som utgangspunkt for tidsforståelse. Jordbær kommer om sommeren, epler høstes om høsten, og blåbær plukkes i juli. Når barn kobler frukter til årstider, lærer de både naturfag og kalenderforståelse gjennom en kontekst som er forankret i norsk natur og mattradisjon.',
+      source: 'Nordisk ernæringspedagogikk — sesongbasert matlæring',
+      gradeRange: 'Barnehage til 2. klasse',
+    },
+    {
+      tip: 'Introduser brøker gjennom fruktdeling. Når du skjærer et eple i to halvdeler eller en appelsin i fire kvarter, gir du barn en spiselig brøkmodell de aldri glemmer. Fruktarbeidsark med halverte frukter forsterker dette konseptet på papiret og bygger brøkforståelse før formell innføring av brøkbegrepet.',
+      source: 'Kunnskapsløftet (LK20) — tidlig tallforståelse og brøkbegreper',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '10 apper' },
+    { label: 'Fagområder dekket', value: 'Matematikk, norsk, naturfag, helse' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Fruktarter illustrert', value: '15+ frukter og bær' },
+  ],
 };
 
 registerThemeContent('fruits', 'no', content);

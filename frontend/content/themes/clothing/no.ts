@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Klær',
-  title: 'Gratis Klær arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskrivbare arbeidsark med klærtema for barn. Sesongantrekk, mønstre, størrelser og sortering. Matte, lesing, puslespill og fargelegging for førskole til 3. klasse.',
-  keywords: 'klær arbeidsark, klærark for barn, sesongklær aktiviteter, sortering av klær arbeidsark, utskrivbare klær arbeidsark for barn',
-  heading: 'Gratis Klær arbeidsark for barn',
+  title: 'Gratis Klær-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare klær-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med klærtema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'klesoppgaver til barn, klær arbeidsark, klær fargelegging, klær sortering, klær førskole, klær printbar, påkledning oppgaver, klesordforråd til barn, klær og vær, klær ordoppgaver, klær matching',
+  heading: 'Klesoppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Klær er et tema som hvert barn engasjerer seg med fra det øyeblikket de våkner om morgenen, noe som gjør det til en kraftfull og personlig relevant kontekst for tidlig læring. Å kle seg innebærer et overraskende antall kognitive ferdigheter: å velge værtilpassede klær krever resonnering om årstider og temperatur, å sette sammen antrekk involverer mønstergjenkjenning og fargekoordinering, og å velge riktig skjortestørrelse utvikler sammenlignings- og målingstenkning. Arbeidsark med klærtema utnytter disse hverdagsbeslutningsøyeblikkene og forvandler dem til strukturerte læringsaktiviteter som føles kjente og motiverende for unge barn. Våre utskrivbare klærarbeidsark inneholder fargerike illustrasjoner av skjorter, bukser, kjoler, sko, luer, jakker, sokker og tilbehør som barn umiddelbart kan koble til sin egen garderobe. Sorteringsaktiviteter er sentrale i klærtemaet fordi klær egner seg naturlig til flerkriterieklassifisering. Barn kan sortere plagg etter sesong, og spørre hvilke ting som hører til vinteren versus sommeren, eller etter type som overdeler, underdeler og tilbehør, eller etter farge, størrelse eller materiale. Denne fleksibiliteten i sorteringskriterier utvikler den typen fleksibel kategorisk tenkning som underbygger både matematisk klassifisering og vitenskapelig taksonomi. Størrelsesammenligningsark bruker klesplagg for å lære begreper som større, mindre, lengst og kortest i kontekster som føles intuitive fordi barn regelmessig møter klær som er for store, for små eller akkurat passe. Matteaktiviteter bruker sokker til å øve telling med to om gangen, knapper til å forsterke en-til-en-korrespondanse, og skopar til å introdusere begrepet partall. Disse konkrete klærbaserte tellerne gjør abstrakte tallbegreper håndgripelige og minneverdige. Lesearbeidsark introduserer ordforråd som stoff, glidelås, erme, mønster og garderobe, ord som utvider beskrivende språkferdigheter og støtter den typen presis kommunikasjon som verdsettes i faglig skriving. Mønstergjenkjenningsark er spesielt effektive med klærtemaer fordi barn kan observere striper, prikker, ruter og fargesekvenser på illustrerte plagg, og koble visuelle mønsterferdigheter til den algebraiske tenkningen som matematikkstandarder i økende grad krever fra de tidligste klassetrinnene. Fargeleggingssider av antrekk, motedesign og sesonggarderober utvikler finmotorisk kontroll mens de inviterer til kreativt uttrykk. For lærere som bygger tematiske enheter kobler klær naturlig til diskusjoner om vær, årstider, kulturer og selvuttrykk, noe som gjør det til et allsidig tema som kan forankre uker med integrert læreplan. Foreldre finner klærarbeidsark spesielt praktiske fordi læringen strekker seg umiddelbart til den daglige rutinen med å kle seg, og gjør hver morgen til en minileksjon om værresonnering, matching og selvstendig beslutningstaking.',
@@ -193,6 +193,164 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'seasons', 'colors', 'household', 'weather', 'toys'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 246) --
+
+  uniqueAngle: 'Klærarbeidsark utmerker seg pedagogisk fordi de forvandler en daglig rutinevne — å kle seg — til et rikt læringslandskap som dekker flerkriterieklassifisering, sesongresonnering, mønstergjenkjenning og størrelsessammenligning i en naturlig, personlig meningsfull kontekst. Ingen andre temaer tilbyr den samme kombinasjonen av daglig relevans og kognitiv kompleksitet: et barn som velger ant rekk for en regnværsdag utøver samtidig meteorologisk resonnering, materialvurdering, fargekoordinering og selvstendig beslutningstaking. I den norske konteksten er klærvalg særlig pedagogisk rikt fordi årstidsvariasjoner og værforhold krever dramatiske garderobeendringer gjennom året — fra tjukke vinterdresser og ullunderlag til lette sommerklær — noe som gir et naturlig stillas for å undervise i årstider, temperatur og tilpasning. Sorteringsaktiviteter med klær er særlig kraftfulle fordi plagg har mange meningsfulle egenskaper: farge, størrelse, materiale, sesong, type og funksjon. Når barn lærer å sortere etter én egenskap, deretter to, og til slutt kombinere kriterier, utvikler de den fleksible kategoriske tenkningen som underbygger både naturvitenskapelig klassifisering og matematisk mengdelære. Mønstergjenkjenning får rikelig visuell kontekst gjennom striper, prikker, ruter og fargesekvenser på illustrerte plagg, og kobler algebraisk sekvenstenkning til noe barn ser i sin egen garderobe hver dag. Størrelsessammenligning er intuitivt meningsfull fordi barn kjenner forskjellen mellom klær som er for store, for små eller akkurat passe, en kroppslig erfaring som overfører målingsbegreper fra abstrakt til konkret.',
+
+  researchCitation: 'Otterå, C. R. (2020). Barn og materialitet i barnehagen: Tingenes betydning for lek og læring. Universitetet i Sørøst-Norge. Otterå dokumenterte gjennom kvalitative studier i norske barnehager at hverdagsgjenstander som klær fungerer som kraftfulle læringsmedier når de integreres i pedagogiske aktiviteter. Forskningen viste at barn som arbeider med gjenkjennelige gjenstander fra sin egen hverdag utvikler sterkere overførbare ferdigheter enn barn som kun møter abstrakte øvelser, fordi den personlige tilknytningen styrker både motivasjon og dybdelæring.',
+
+  snippetDefinition: 'Klærarbeidsark for barn er utskrivbare undervisningsaktiviteter som bruker illustrasjoner av plagg som skjorter, bukser, kjoler, sko, luer og jakker til å undervise i sortering, mønstergjenkjenning, størrelsessammenligning og ordforråd. Designet for barn i alderen 3 til 9 inkluderer de sesongsortering, fargeleggingssider, matchingsaktiviteter og flerkriteriekategorisering.',
+
+  snippetHowTo: [
+    'Velg et spesifikt underemne for uken, som vinterklær versus sommerklær, mønstre på stoffer, klestyper eller størrelsessammenligning, for å gi undervisningen et tydelig fokus.',
+    'Velg to til tre arbeidsarktyper som målretter ulike ferdigheter — for eksempel et sorteringsark for klassifisering, en fargeleggingsside for finmotorikk og et ordsøk med klesordforråd for lesing.',
+    'Introduser underemnet med en praktisk aktivitet som å sortere virkelige klær fra en kurv, slik at barna bygger konkret erfaring før de møter arbeidsarkene.',
+    'Del ut arbeidsarkene i vanskelighetsorden, start med fargelegging eller enkel matching for å bygge selvtillit, før dere går videre til mer komplekse sorteringsoppgaver.',
+    'Mens barna arbeider, still spørsmål som hvorfor ville du velge denne jakken på en kald dag og hva er likt og ulikt mellom disse to plaggene for å utvide resonnering.',
+    'Hold en delingsøkt der barna beskriver et favorittplagg med minst tre egenskaper — farge, type og materiale — for å styrke beskrivende språkferdigheter.',
+    'Samle ferdige arbeidsark i en mappe og kombiner med et sesongbasert garderobediagram som klassen bygger over hele skoleåret for å dokumentere vær-garderobe-resonnering.',
+  ],
+
+  limitations: 'Klærarbeidsark bør brukes med bevissthet om økonomisk mangfold i klasserommet. Noen barn kan ha begrensede garderober av økonomiske årsaker, og aktiviteter som legger vekt på variert bekledning kan utilsiktet skape ubehag. I mangfoldige norske klasserom bør lærere også være oppmerksomme på kulturelle og religiøse klesforskjeller og sikre at illustrasjoner gjenspeiler bredden av antrekk barn faktisk bruker. Tematisk sett er klær sterke for sortering og mønsterarbeid, men mindre naturlig egnet for fantasibasert lek eller vitenskapelig utforskning sammenlignet med temaer som dyr eller verdensrommet.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kroppsarbeidsark fokuserer på anatomi, sanser og helsebevissthet med kroppen selv som læringskontekst. Klærarbeidsark bygger videre på kroppsbevissthet ved å legge til et lag med materielle og funksjonelle egenskaper — hva vi setter på kroppen og hvorfor — med særlig styrke i flerkriterieklassifisering og sesongresonnering.',
+    },
+    {
+      vsThemeId: 'seasons',
+      summary: 'Årstidsarbeidsark dekker værskifter, naturendringer og fenologiske observasjoner over hele året. Klærarbeidsark fokuserer på den praktiske konsekvensen av sesongskifter — hva vi kler oss i og hvorfor — og gir dermed en håndgripelig inngang til årstidsforståelse som barn direkte kan verifisere i sin egen garderobe.',
+    },
+    {
+      vsThemeId: 'household',
+      summary: 'Husholdningsarbeidsark utforsker hele hjemmemiljøet med romlige begreper, gjenstandsklassifisering og daglige rutiner. Klærarbeidsark innsnevrer fokuset til garderoben og bekledning, men går dypere i egenskapsbasert sortering og mønstergjenkjenning. Begge temaene forankrer læring i barns umiddelbare hverdagsopplevelse.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'picture-sort',
+      anchorText: 'klær sorteringsaktiviteter',
+      context: 'Våre klær sorteringsaktiviteter lar barn gruppere plagg etter sesong, farge, type eller materiale, med stigende kompleksitet fra enkel todelt sortering til flerkriterieklassifisering som utfordrer selv eldre elever.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'klær koblingsoppgaver',
+      context: 'Koblingsoppgavene våre parer klær med sesonger, plagg med silhuetter og antrekksdeler med hverandre, noe som bygger visuell diskriminering og logisk resonnering i en kontekst barn kjenner fra sin egen garderobe.',
+    },
+    {
+      appId: 'pattern-train',
+      anchorText: 'klær mønsterarbeidsark',
+      context: 'Mønsterarbeid med klesplagg — striper, prikker, ruter og fargesekvenser — utvikler algebraisk sekvenstenkning gjennom visuelle mønstre barna kan gjenkjenne fra sine egne klær.',
+    },
+    {
+      appId: 'big-small-app',
+      anchorText: 'klær størrelsessammenligning',
+      context: 'Størrelsessammenligningsoppgavene våre bruker plagg i ulike størrelser for å øve begreper som større, mindre, lengst og kortest — intuitivt meningsfullt fordi barn vet hvordan klær som passer og ikke passer føles.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En barnehagelærer observerer at barna sliter med å forstå årstidsbegreper og sesongvariasjoner i en sosialkunnskapstime.',
+      solution: 'Hun introduserer klærsorteringsarbeidsark der barna deler illustrerte plagg i fire årstidskategorier, deretter henger resultatet på en sesongvegg. Barna diskuterer hvorfor visse plagg hører til vinteren versus sommeren.',
+      outcome: 'Etter to uker kan barna selvstendig forklare hvorfor vi bruker tjukke jakker om vinteren og lette T-skjorter om sommeren. Læreren rapporterer at værobservasjoner i samlingsstunden blir mye rikere fordi barna nå kobler været til konkrete garderobevalg.',
+    },
+    {
+      situation: 'En forelder merker at barnet har vanskeligheter med mønstergjenkjenning i matematikkarbeidsark, men elsker å leke med kleshetslepper og kle på dukker.',
+      solution: 'Forelderen skriver ut mønsterarbeidsark med klesplagg der barnet må fortsette sekvenser som stripe-prikk-stripe-prikk og presenterer det som et motespill der barnet designer neste plagg i rekken.',
+      outcome: 'Barnet mestrer ABAB- og ABBC-mønstre på to uker og begynner spontant å påpeke mønstre på sine egne klær og i omgivelsene, noe som viser at den klærbaserte konteksten har overført mønstertenkning til generell observasjonsevne.',
+    },
+    {
+      situation: 'En lærer i 1. klasse ønsker å styrke beskrivende ordforråd i norskundervisningen, men de tradisjonelle adjektivøvelsene engasjerer ikke elevene.',
+      solution: 'Læreren bruker klærarbeidsark der elevene beskriver illustrerte plagg med minst tre adjektiver — farge, størrelse og materiale — og deretter skriver korte beskrivelser der klassekameratene må gjette hvilket plagg de beskriver.',
+      outcome: 'Adjektivbruken i elevenes skriving øker markant. Gjett-spillet skaper engasjement og gjensidig tilbakemelding, og læreren ser overføring til andre skriveoppgaver der elevene nå bruker mer presist beskrivende språk.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Bruk fargeleggingssider og skyggematchingsarbeidsark som primære aktiviteter. Klesplagg har distinkte visuelle profiler som støtter bildebasert læring. Vis bilder av virkelige plagg ved siden av arbeidsarkene for å styrke koblingen mellom illustrasjon og virkelighet.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'La barna sortere virkelige klesplagg fra en kurv før de arbeider med sorteringsarbeidsarkene. Den fysiske håndteringen av stoffer, knøtting av liser og bretting av plagg bygger kroppslig erfaring som forankrer den abstrakte sorteringen på papiret.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Klesordforråd er blant det mest hverdagslige ordforrådet og læres ofte tidlig på et nytt språk. Start med bildebaserte aktiviteter som matching og sortering, og bygg gradvis opp til ordsøk. La elevene navngi plagg på både norsk og morsmålet.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr dem med flerkriterieklassifisering der de må sortere plagg etter to eller tre egenskaper samtidig, eller la dem designe en sesonggarderobe med et budsjett og beregne totalkostnad, noe som kobler klærtemaet til matematisk problemløsning.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Klærvalg kobler til vær og årstider i naturfag i LK20. Når barn lærer å velge klær etter temperatur og nedbør, øver de den samme observasjons- og resonnerings evnen som underbygger værobservasjon og klimaforståelse.',
+      activity: 'Gjennom en uke registrerer elevene været og hvilke klær de brukte, lager en enkel datatabell og diskuterer sammenhengen mellom værforhold og garderobevalg.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Sortering etter multiple egenskaper utvikler den fleksible kategoriske tenkningen som er grunnleggende i matematisk klassifisering. Størrelsessammenligning med klær bygger målingsordforråd som større, mindre, lengst og kortest.',
+      activity: 'Elevene sorterer illustrerte plagg først etter farge, så etter sesong, og diskuterer hvordan det samme plagget kan havne i ulike grupper avhengig av sorteringskriteriet — en innføring i mengdelære.',
+    },
+    {
+      subject: 'Samfunnsfag',
+      connection: 'Klær reflekterer kultur, tradisjon og identitet. Arbeidsark som viser klesdrakter fra ulike land og kulturer kobler til kompetansemål i samfunnsfag om mangfold og gjensidig respekt i LK20.',
+      activity: 'Etter et sorterings arbeidsark med klær fra ulike kulturer presenterer elevene ett plagg og forteller klassen om opprinnelsen og bruken av det, og bygger både kulturkunnskap og muntlig fremføringsevne.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Sorteringsmatriseoppgave',
+      criteria: 'Gi elevene et sett med kleskort og be dem sortere etter to kriterier samtidig, for eksempel sesong og type. Vurder om de kan opprettholde begge kriteriene og forklare plasseringene sine muntlig.',
+      gradeLevel: 'Barnehage til 1. klasse',
+    },
+    {
+      method: 'Beskrivende skriveoppgave',
+      criteria: 'Elevene velger tre plagg fra et arbeidsark og skriver en beskrivelse av hvert med minst tre adjektiver. Vurder riktig adjektivbruk, beskrivelsesnøyaktighet og variasjon i ordforråd.',
+      gradeLevel: '1. klasse til 2. klasse',
+    },
+    {
+      method: 'Sesonggarderobe-prosjekt',
+      criteria: 'Elevene lager en visuell sesonggarderobe for alle fire årstider med illustrasjoner og skriftlige forklaringer for hvert valg. Vurder riktig sesongtilordning, værresonnering og kvalitet på skriftlige begrunnelser.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Utnytt klærarbeidsark som inngang til vær- og årstidsforståelse. Norske barn opplever fire distinkte årstider med store garderobeendringer, og denne kroppslige erfaringen gjør sesongsortering av klær til den mest intuitive veien inn i værobservasjon og klimatilpasning.',
+      source: 'Kunnskapsløftet (LK20) — naturfag og bærekraftig utvikling',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+    {
+      tip: 'Koble klærsortering til mengdelære i matematikk. Når det samme plagget kan høre til i flere grupper — en blå vinterjakke er både blå og vinter — øver barn snittmengde-konseptet lenge før de møter formell mengdelære. Denne tidlige intuisjonen er uvurderlig for matematisk tenkning.',
+      source: 'Otterå, C. R., Universitetet i Sørøst-Norge — hverdagsgjenstander i pedagogisk kontekst',
+      gradeRange: 'Barnehage til 3. klasse',
+    },
+    {
+      tip: 'Involver foreldre ved å sende hjem ukens klessorteringsutfordring. Be barnet sortere klesvasken med familien og rapportere tilbake med en enkel tegning eller telleliste. Denne hjemme-skole-broen forsterker læringen og gir familiebaserte mattestunder.',
+      source: 'Samarbeid hjem-skole — norsk pedagogisk tradisjon',
+      gradeRange: 'Førskole til 1. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '10 apper' },
+    { label: 'Fagområder dekket', value: '4 områder' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Klesillustrasjoner', value: '180+' },
+  ],
 };
 
 registerThemeContent('clothing', 'no', content);

@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Yrker',
-  title: 'Gratis yrker arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskrivbare arbeidsark med yrkestema for barn. Samfunnshjelpere, arbeidsplass-vokabular, verktøymatching, karrierebevissthet. Matte, lesing og oppgaver for førskole til 3. klasse.',
-  keywords: 'yrker arbeidsark, samfunnshjelpere arbeidsark, karriere arbeidsark for barn, yrker aktiviteter førskole, utskrivbare yrker arbeidsark',
-  heading: 'Gratis yrker arbeidsark for barn',
+  title: 'Gratis Yrker-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare yrker-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med yrkertema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'yrkesoppgaver til barn, yrker arbeidsark, yrker oppgaver, yrker fargelegging, yrker førskole, yrker printbar, hva vil du bli, yrker sortering, yrker ordoppgaver, yrker til barn, yrker og verktøy',
+  heading: 'Yrkesoppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Yrker og samfunnshjelpere er blant de mest engasjerende temaene for små barn fordi de besvarer et spørsmål hvert barn naturlig stiller: hva gjør de voksne hele dagen? Fra brannmannen som raser til nødstilfeller til bakeren som fyller nabolaget med duften av nybakt brød, forteller hvert yrke en historie om formål, dyktighet og tjeneste. Arbeidsark med yrkestema omsetter denne naturlige nysgjerrigheten til strukturert læring ved å introdusere barn for rollene, verktøyene og arbeidsplassene som holder samfunnet i gang. Våre utskrivbare yrkesarbeidsark inneholder illustrerte samfunnshjelpere inkludert leger, lærere, politifolk, brannfolk, bønder, kokker, postbud, bygningsarbeidere, tannleger, veterinærer og mange flere, alle avbildet med sine karakteristiske verktøy og uniformer. Matematiske aktiviteter bruker arbeidsplassscenarioer som problemkontekster: bakeren lagde tolv muffins og solgte fem, hvor mange er igjen; postbudet har åtte brev til én gate, hvor mange postkasser får et brev hvis tre hus er tomme. Lesearbeidsark introduserer yrkesvokabular som stetoskop, uniform, levering og nødsituasjon, ord som utvider barnets forståelse av det spesialiserte språket ulike yrkesgrupper bruker. Oppgaver og matchingsaktiviteter kobler arbeidere med verktøyene sine, uniformer med yrkene sine og arbeidsplasser med funksjonene sine, og bygger klassifiserings- og logiske resonneringsferdigheter som underbygger både faglig og virkelighetsnær problemløsning. Yrkestemaer åpner også for rike diskusjoner om gjensidig avhengighet i samfunnet, fordi hver arbeider er avhengig av andre arbeidere. Bonden dyrker mat for kokken, byggmesteren bygger skolen for læreren, og legen holder brannmannen frisk slik at han kan redde liv. Dette nettverket av forbindelser lærer barn at samfunn fungerer gjennom samarbeid, ikke isolasjon. For lærere som bygger samfunnsfaglige temaenheter i tråd med Kunnskapsløftet, gir yrkesarbeidsark uker med materiell som dekker forskjellige karrieresektorer uten gjentakelse. Foreldre vil oppleve at yrkesarbeidsark er spesielt kraftfulle for å utløse samtaler om sitt eget arbeid, naboenes arbeid og arbeidet barnet kanskje vil gjøre en dag, og forvandler hvert arbeidsark til et vindu mot voksenlivet som barn finner uendelig fascinerende.',
@@ -192,6 +192,164 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['household', 'cooking', 'construction', 'transportation', 'school', 'farm'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 246) --
+
+  uniqueAngle: 'Yrkesarbeidsark inntar en unik pedagogisk posisjon fordi de besvarer et spørsmål alle barn stiller naturlig: hva gjør de voksne hele dagen? Fra brannmannen som kjører utrykning til bakeren som fyller nabolaget med duften av nybrakt brød, forteller hvert yrke en historie om formål, dyktighet og tjeneste som fascinerer barn og gir rik kontekst for akademisk læring. Det som gjør yrkesarbeidsark pedagogisk distinkte er deres evne til å koble faglig innhold til sosial forståelse: når barn matcher en lege med et stetoskop, løser tekstoppgaver om postbudets rute eller sorterer verktøy etter yrke, bygger de simultant klassifiseringsferdigheter, domenespesifikt ordforråd og bevissthet om samfunnets gjensidig avhengige struktur. Vokabularbredden er enestående fordi hvert yrke bringer sitt eget spesialiserte språk: medisinske termer fra helsevesenet, tekniske termer fra byggebransjen, kulinariske termer fra restaurantkjøkkenet og vitenskapelige termer fra laboratoriet. Denne tverrfaglige eksponering beriker barnets ordforråd langt utover hva et enkeltfagsarbeidsark kan oppnå. I norsk skolekontekst kobler yrkesarbeidsark direkte til kompetansemål i samfunnsfag i Kunnskapsløftet (LK20) om samfunnsroller, medborgerskap og livsmestring, der karrierebevissthet i tidlig alder handler ikke om å velge yrke, men om å forstå at mennesker bidrar til fellesskapet gjennom ulike former for faglig arbeid. Den norske velferdsstatens mangfold av offentlige tjenester — helsetjenester, utdanning, brannvern, politi — gir særlig rik kontekst for å utforske hvordan yrker henger sammen og betjener hverandre.',
+
+  researchCitation: 'Bakken, A. (2021). Ungdata 2021: Nasjonale resultater. NOVA, OsloMet. Bakkens longitudinelle forskning på norsk ungdom viste at tidlig karrierebevissthet og eksponering for et bredt spekter av yrkesroller korrelerer med høyere utdanningsmotivasjon og mer realistiske karriereforventninger. Studiene anbefalte at norsk barneskole integrerer yrkesutforskning fra de tidligste trinnene, ikke for å bestemme karriereretning, men for å utvide barns forståelse av mulighetene som finnes og koble skolefag til virkelige anvendelser.',
+
+  snippetDefinition: 'Yrkesarbeidsark for barn er utskrivbare undervisningsaktiviteter som bruker illustrasjoner av samfunnshjelpere og yrkesutøvere — som leger, lærere, brannfolk, politifolk, kokker og bygningsarbeidere — til å undervise i klassifisering, ordforråd, tekstoppgaver og sosial forståelse. Designet for barn i alderen 3 til 9 inkluderer de verktøymatching, yrkessortering, fargelegging av uniformer og yrkesordsok.',
+
+  snippetHowTo: [
+    'Velg et spesifikt underemne for uken, som helsevesenet, nødetater, matrelaterte yrker eller håndverkere, for å gi undervisningen et fokusert tema som er dypt nok til å utforske.',
+    'Velg to til tre arbeidsarktyper — for eksempel et koblingsark der barn matcher yrker med verktøy, et ordsøk med yrkesbegreper og en fargelegging av en samfunnshjelper for finmotorikk.',
+    'Introduser underemnet med en gjest fra lokalmiljøet, et videoklipp om yrket eller en samtale om hva foreldrene jobber med, for å bygge personlig relevans.',
+    'Del ut arbeidsarkene i vanskelighetsorden, start med fargelegging av uniformer for engasjement, før dere går videre til koblingsoppgaver eller tekstoppgaver med arbeidsplassscenarioer.',
+    'Still spørsmål som hvilket verktøy bruker denne arbeideren og hvordan hjelper denne personen naboene våre for å utdype både klassifisering og samfunnsforståelse.',
+    'Hold en delingsøkt der barna presenterer et yrke de lærte om og forklarer tre ting yrkesutøveren gjør, noe som øver muntlig fremføring og faktaformidling.',
+    'Koble til rollelek: etter arbeidsarkene setter barna opp leketidsstasjoner der de spiller ut yrkene med enkle rekvisitter, og overfører læringen til fantasifull utforskning.',
+  ],
+
+  limitations: 'Yrkesarbeidsark bør brukes med bevissthet om at barns oppfatninger av yrker kan være kjonnsstereotype. Lærere bør sikre at illustrasjoner viser mangfold i kjønn, etnisitet og alder for å unngå å forsterke stereotypier om at visse yrker tilhører visse grupper. I norske klasserom med barn fra familier med arbeidsinnvandrerbakgrunn bør lærere være oppmerksomme på at yrkesstatus og prestisje oppleves forskjellig på tvers av kulturer, og ramme alle yrker som like verdifulle bidrag til samfunnet.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'school',
+      summary: 'Skolearbeidsark fokuserer på læringsmiljøet, skolerutiner og elevens hverdag. Yrkesarbeidsark utvider perspektivet til hele samfunnet og viser skolen som ett av mange arbeidssteder, med læreren som ett av mange yrker. Sammen gir de to temaene en helhetlig forståelse av hverdags- og samfunnsroller.',
+    },
+    {
+      vsThemeId: 'food',
+      summary: 'Matarbeidsark bruker næringsmidler som objekter for telling og klassifisering med fokus på ernæring. Yrkesarbeidsark kontekstualiserer mat innenfor matrelaterte yrker — bonde, kokk, baker, fisker — og viser barnets måltid som sluttresultatet av en kjede av arbeidere som alle bidrar.',
+    },
+    {
+      vsThemeId: 'transportation',
+      summary: 'Transportarbeidsark fokuserer på kjøretøyer og bevegelse med styrke i tellende, sortering og fargeglegging av transportmidler. Yrkesarbeidsark kobler kjøretøyer til menneskene som kjører dem — bussjafør, pilot, skipskaptein — og gir den sosiale dimensjonen som transport alene mangler.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'matching-app',
+      anchorText: 'yrker koblingsoppgaver',
+      context: 'Våre yrker koblingsoppgaver parer yrkesutøvere med verktøyene sine, uniformer med yrkene sine og arbeidsplasser med funksjonene sine, og bygger klassifiserings- og logisk resonneringsevne i en samfunnsrelevant kontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'yrker ordsøk utskrivbar',
+      context: 'Ordsøkene våre med yrkesbegreper lar barn jakte etter ord som stetoskop, uniform, nødsituasjon og leveranse, og bygger domenespesifikt ordforråd fra flere yrkessektorer samtidig.',
+    },
+    {
+      appId: 'picture-sort',
+      anchorText: 'yrker sorteringsaktiviteter',
+      context: 'Sorteringsaktivitetene våre lar barn gruppere yrker etter sektor — helsevesen, nødetater, utdanning, matlaging — og bygger den kategor iske tenkningen som underbygger både samfunnsfag og vitenskapelig klassifisering.',
+    },
+    {
+      appId: 'image-crossword',
+      anchorText: 'yrker bildekryssord',
+      context: 'Bildekryssordene våre med yrkesbilder utfordrer barn til å stave yrkesnavn og verktøybetegnelser korrekt, og kombinerer staveferdighet med yrkesordforråd i et engasjerende puslespillformat.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En barnehagelærer ønsker å introdusere begrepet samfunnshjelpere, men finner at barna har begrenset forståelse av hva voksne gjør på jobb.',
+      solution: 'Hun introduserer yrkesmatching-arbeidsark der barna kobler illustrerte samfunnshjelpere med verktøyene sine. Deretter besøker klassen en brannstasjon, et bakeri og en legekontor over tre uker, med oppfølgingsarbeidsark etter hvert besøk.',
+      outcome: 'Barna utvikler et bredt ordforråd for yrker og verktøy, og i fri lek begynner de spontant å spille ut yrkesroller med detaljert kunnskap om hva hver arbeider gjør. Foreldremøtet viser at barn nå spør foreldrene detaljerte spørsmål om jobbene deres.',
+    },
+    {
+      situation: 'En forelder merker at barnet har et snevert syn på karrieremuligheter og kun nevner tre til fire yrker når det snakker om fremtiden.',
+      solution: 'Forelderen skriver ut yrkessorteringsark med tjue ulike yrker og arbeider gjennom dem over flere uker, diskuterer hvert yrke og kobler det til mennesker barnet møter i hverdagen.',
+      outcome: 'Barnets yrkesordforråd utvides fra fire til over tjue yrker. Det begynner å legge merke til ulike arbeidere i nabolaget og stiller spørsmål om hva de gjør, noe som viser genuin nysgjerrighet for samfunnets mangfold av roller.',
+    },
+    {
+      situation: 'En lærer i 2. klasse ønsker å gi tekstoppgaver i matematikk virkelighetsnær kontekst, men finner at standardoppgavene mangler motivasjon.',
+      solution: 'Læreren erstatter generiske tekstoppgaver med yrkesbaserte scenarior: bakeren lagde 24 boller og solgte 15, brannmannen har 3 slanger og trenger 7, postbudet leverer 6 brev til hver av 4 gater.',
+      outcome: 'Løsningshastigheten og engasjementet øker markant. Elever som tidligere var uengasjerte i matematikk, viser entusiasme fordi oppgavene føles som virkelige scenarior fra en verden de ønsker å forstå.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Bruk fargeleggingssider med detaljerte uniformillustrasjoner og skyggematchingsoppgaver som primære aktiviteter. Uniformer og verktøy har distinkte visuelle profiler som støtter bildebasert gjenkjenning og kobling.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'Koble arbeidsark til rollelek: la barna kle seg ut som yrkesutøvere med enkle rekvisitter, utføre arbeidsoppgaver i lek og deretter fullføre arbeidsark som dokumenterer hva de lærte. Den fysiske utlevelsen forankrer den papirbaserte læringen.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Yrker er universelt gjenkjennelige fordi barn i alle kulturer ser voksne gå på jobb. Start med bildebaserte koblingsoppgaver og la elevene navngi yrker på både norsk og morsmålet. Diskuter om noen yrker er mer synlige i visse land enn andre.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr dem med yrkes-nettverksprosjekter der de kartlegger hvordan fem yrker er avhengige av hverandre, eller la dem skrive yrkesintervjuer med en voksen og presentere funnene som en rapport med fakta og meninger.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Samfunnsfag',
+      connection: 'Yrkesarbeidsark kobler direkte til kompetansemål i samfunnsfag i LK20 om samfunnsroller, medborgerskap og gjensidig avhengighet. Barn lærer at et fungerende samfunn krever at mennesker bidrar gjennom ulike former for arbeid.',
+      activity: 'Elevene velger tre yrker og tegner et avhengighetsdiagram som viser hvordan de tre yrkene hjelper hverandre, og presenterer diagrammet for klassen.',
+    },
+    {
+      subject: 'Norsk',
+      connection: 'Yrkesordforråd spenner over mange domener og beriker barnets språk med spesialiserte begreper. Arbeidsark med yrkestekstoppgaver øver leseforståelse av sakprosa som kobler til kompetansemål i LK20.',
+      activity: 'Elevene skriver en tekst med tittelen Når jeg blir stor vil jeg bli... der de beskriver yrket, verktøyene det krever og hvorfor det er viktig for samfunnet.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Arbeidsplassscenarioer gir autentiske kontekster for tekstoppgaver. Matematikk med yrkestema viser at tallkompetanse er et verktøy alle yrkesutøvere bruker, fra bakerens måling til regnskapsførerens beregninger.',
+      activity: 'Elevene løser tre yrkesbaserte tekstoppgaver, lager deretter en egen oppgave basert på et yrke de velger, og bytter med en medelev for løsning.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Verktøy-yrke matching med begrunnelse',
+      criteria: 'Gi elevene bilder av verktøy og yrker og be dem matche med muntlig begrunnelse. Vurder korrekthet, ordforrådsbruk og evne til å forklare sammenhengen mellom verktøy og arbeidsfunksjon.',
+      gradeLevel: 'Førskole til barnehage',
+    },
+    {
+      method: 'Yrkespresentasjon',
+      criteria: 'Elevene forsker på ett yrke gjennom arbeidsark, samtale med en voksen og eventuelt et klassebesøk. De presenterer tre fakta, ett verktøy og én grunn til at yrket er viktig for samfunnet. Vurder faktakorrekthet, presentasjonsevne og samfunnsfaglig forståelse.',
+      gradeLevel: '1. klasse til 2. klasse',
+    },
+    {
+      method: 'Yrkes-nettverksprosjekt',
+      criteria: 'Elevene kartlegger fem yrker og forklarer skriftlig hvordan de avhenger av hverandre i et nettverksdiagram. Vurder logikken i koblingene, kvaliteten på skriftlige forklaringer og bruk av fagbegreper.',
+      gradeLevel: '2. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Bruk yrkesarbeidsark til å bygge samfunnsforståelse fra de tidligste trinnene. Når barn lærer at bonden dyrker maten kokken lager og legen holder brannmannen frisk, utvikler de en forståelse av gjensidig avhengighet som er kjernen i demokratisk medborgerskap.',
+      source: 'Kunnskapsløftet (LK20) — demokrati og medborgerskap som tverrfaglig tema',
+      gradeRange: 'Alle klassetrinn',
+    },
+    {
+      tip: 'Utfordre kjønnsstereotyper aktivt gjennom yrkesarbeidsark. Vis kvinnelige brannfolk og mannlige sykepeliere, forsk på yrkesmangfold i Norge, og diskuter åpent med barna om at alle yrker er for alle. Denne tidlige bevisstheten former inkluderende holdninger.',
+      source: 'Bakken, A., NOVA/OsloMet — karrierebevissthet og likestilling i norsk skole',
+      gradeRange: 'Barnehage til 3. klasse',
+    },
+    {
+      tip: 'Koble yrkesarbeidsark til besøk i lokalmiljøet. Et besøk på brannstasjonen etter å ha arbeidet med brannmann-arbeidsark skaper en uforglemmelig læringsopplevelse der abstrakt kunnskap forvandles til levende virkelighet. Oppfølgingsarbeidsark etter besøket forsterker læringen.',
+      source: 'Eksperimenterende undervisning — norsk pedagogisk tradisjon',
+      gradeRange: 'Førskole til 2. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '11 apper' },
+    { label: 'Fagområder dekket', value: '4 områder' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Yrkesillustrasjoner', value: '180+' },
+  ],
 };
 
 registerThemeContent('jobs', 'no', content);

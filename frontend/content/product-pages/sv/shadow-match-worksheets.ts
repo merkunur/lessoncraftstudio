@@ -17,16 +17,16 @@ export const shadowMatchSvContent: ProductPageContent = {
   seo: {
     slug: 'skuggmatchning-arbetsblad',
     appId: 'shadow-match',
-    title: 'Skuggmatchning Gratis Arbetsblad för Barn | Gratis Arbetsblad',
-    description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för.',
-    keywords: 'skuggmatchning arbetsblad, gratis arbetsblad, gratis arbetsblad för barn, arbetsblad för barn, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material, gratis utskrifter',
+    title: 'Gratis Skuggmatchning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara skuggmatchningsövningar för barn. Matcha bilder med sina skuggor. Utveckla visuell perception. Förskola till årskurs 2. Gratis PDF.',
+    keywords: 'skuggmatchning generator, skuggmatchning övningar, skugga matchning barn, visuell perception övning, skuggpussel utskrivbar, bild och skugga matchning, skuggmatchning förskola, visuell diskriminering, skuggövning barn, kontur matchning, siluett matchning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
       },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
-    title: 'Skuggmatchning',
-    subtitle: 'Gratis Arbetsblad för Barn - Visuell Perception Övningar',
+    title: 'Skuggmatchning Generator',
+    subtitle: 'Visuella Skuggmatchningsövningar med Bilder',
     description: `Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Skuggmatchning utvecklar visuell perception och rumsuppfattning hos barn. Barn matchar färgade objekt med deras svarta silhuetter. Detta stärker mönsterigenkänning och problemlösningsförmågor. Perfekt för förskoleklass och årskurs 1-3.

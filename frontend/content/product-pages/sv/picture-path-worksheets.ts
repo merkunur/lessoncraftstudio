@@ -18,16 +18,16 @@ export const picturePathSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlabyrint-arbetsblad',
     appId: 'picture-path',
-    title: 'Gratis Arbetsblad Bildlabyrint | Generator för Barn och Förskoleklass',
-    description: 'Skapa gratis arbetsblad för barn med vår bildlabyrint generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på 3 min.',
-    keywords: 'arbetsblad gratis, bildlabyrint, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, skriva bokstäver',
+    title: 'Gratis Bildlabyrint Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildlabyrintövningar för barn. Utveckla problemlösning och visuell planering från förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'bildlabyrint generator, bildlabyrint övningar, labyrint barn utskrivbar, labyrint förskola, visuell planering övning, labyrintpussel barn, bildsti övning, problemlösning labyrint, labyrint arbetsblad, väghittning övning, labyrint gratis barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
       },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Bildlabyrint Generator',
-    subtitle: 'Arbetsblad för Barn och Förskoleklass - Gratis Utskrifter med Finmotorik Övningar',
+    title: 'Bildlabyrint Generator',
+    subtitle: 'Utskrivbara Labyrintövningar med Bilder',
     description: `Skapa professionella bildlabyrint arbetsblad med vår bildlabyrint generator. Generatorn inkluderar tre spellägen för varierad inlärning. Bildlabyrint kombinerar visuell problemlösning med finmotorik övningar. Perfekt för att skapa arbetsblad gratis för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF arbetsblad på under tre minuter.
 
 Vår bildlabyrint generator gör det enkelt att skapa anpassade labyrintarbetsblad. Välj mellan klassisk labyrint, bildväg eller välj rätt väg spellägen. Varje läge erbjuder unik inlärning för eleverna. Använd över 3000 barnvänliga bilder för att skapa engagerande arbetsblad. Kombinera bildlabyrint med matematik arbetsblad för matte övningar. Perfekt för att öva siffror och tal genom visuell problemlösning.

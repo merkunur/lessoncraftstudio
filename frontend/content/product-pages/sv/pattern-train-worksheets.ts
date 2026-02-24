@@ -17,16 +17,16 @@ export const patternTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'monster-tag-arbetsblad',
     appId: 'pattern-train',
-    title: 'Mönster Arbetsblad Gratis | Pattern Train Generator för Förskoleklass',
-    description: 'Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Perfekt för förskoleklass material och matematik arbetsblad.',
-    keywords: 'mönster arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet, mönsterigenkänning',
+    title: 'Gratis Mönstertåg Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara mönstertågsövningar för barn. Utveckla mönsterigenkänning och sekvensering från förskola till årskurs 2. Gratis PDF.',
+    keywords: 'mönstertåg generator, mönstertåg övningar, mönsterigenkänning barn, sekvensering övning, mönster förskola, tåg mönster utskrivbar, mönsterföljd övning, repetitivt mönster, mönsterträning barn, sekvensövning förskola, bildmönster övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
       },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
   hero: {
-    title: 'Mönster Arbetsblad Gratis för Förskoleklass Material',
-    subtitle: 'Pattern Train Generator för Matematik Arbetsblad och Mönsterigenkänning',
+    title: 'Mönstertåg Generator',
+    subtitle: 'Mönsterigenkänning och Sekvenseringsövningar med Bilder',
     description: `Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång att skapa arbetsblad utan extra avgifter per arbetsblad. Generera anpassade mönster arbetsblad perfekta för förskoleklass material och lågstadiets matematikundervisning. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Pattern Train-generatorn skapar visuella mönsterigenkänningsuppgifter där barn identifierar och fortsätter mönster. Välj mellan fem mönstertyper: AB, AAB, ABB, ABC och AABB. Varje arbetsblad använder bilder istället för abstrakta former vilket gör mönsterigenkänning mer engagerande för förskoleklass material och lågstadiet. Ditt arbetsblad gratis skapas med Full Tillgång-prenumerationen som kostar 240 dollar per år eller 25 dollar per månad.

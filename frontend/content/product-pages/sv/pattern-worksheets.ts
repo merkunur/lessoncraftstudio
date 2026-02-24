@@ -17,16 +17,16 @@ export const patternWorksheetsSvContent: ProductPageContent = {
   seo: {
     slug: 'monster-arbetsblad',
     appId: 'pattern-worksheet',
-    title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator',
-    description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan.',
-    keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
+    title: 'Gratis Mönsterövning Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara mönsterövningar med bilder. Utveckla logik och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    keywords: 'mönsterövning generator, mönster övningar barn, mönsterigenkänning övning, mönster arbetsblad, logiskt mönster barn, mönster följd övning, mönster utskrivbar, sekvens och mönster, mönsterövning förskola, matematik mönster, bildmönster arbetsblad',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
       },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Mönster Arbetsblad Gratis',
-    subtitle: 'Matematik Arbetsblad Generator för Logiskt Tänkande och Problemlösning',
+    title: 'Mönsterövning Generator',
+    subtitle: 'Utskrivbara Mönsterövningar med 50 Teman',
     description: `Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader per ark. Generera anpassade arbetsblad gratis för mönsterigenkänning perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Mönsterigenkänning är en grundläggande matematisk färdighet för barn i förskoleklass och årskurs 1-3. Vårt verktyg hjälper lärare att skapa matematik arbetsblad som utvecklar logiskt tänkande. Eleverna lär sig identifiera och fortsätta mönster med bilder, former och färger. Detta stärker deras problemlösningsförmågor och förberedelser för mer avancerad matematik.

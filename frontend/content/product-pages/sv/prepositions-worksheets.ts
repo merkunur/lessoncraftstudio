@@ -18,16 +18,16 @@ export const prepositionsSvContent: ProductPageContent = {
   seo: {
     slug: 'prepositioner-arbetsblad',
     appId: 'prepositions',
-    title: 'Prepositioner Arbetsblad Gratis - Förskoleklass Material för Barn',
-    description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp.',
-    keywords: 'prepositioner arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rumsliga begrepp, i på under, bredvid bakom, svenska prepositioner, lågstadiet material',
+    title: 'Prepositionsövning Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara prepositionsövningar med bilder. Lägesord som på, i, under och bredvid. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'prepositionsövning generator, prepositionsövning barn, lägesord övning, prepositioner arbetsblad, på i under bredvid övning, rumsuppfattning språk, prepositioner förskola, lägesord med bilder, språkövning prepositioner, prepositionsövning utskrivbar, grammatik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
       },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
-    title: 'Rumsord Arbetsblad',
-    subtitle: 'Prepositioner Gratis för Barn',
+    title: 'Prepositionsövning Generator',
+    subtitle: 'Lägesordsövningar med Bilder från Förskola till Årskurs 3',
     description: `Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Vårt verktyg genererar arbetsblad gratis att ladda ner för elever som lär sig rumsliga begrepp. Perfekt för lärare som behöver finmotorik övningar kombinerat med språkträning.
 
 Din Full Tillgång-prenumeration ger dig obegränsat antal arbetsblad utan extra kostnader. Generera anpassade arbetsblad för prepositioner på svenska eller 10 andra språk. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.

@@ -18,16 +18,16 @@ export const pictureSortSvContent: ProductPageContent = {
   seo: {
     slug: 'bildsortering-arbetsblad',
     appId: 'picture-sort',
-    title: 'Sorteringsaktiviteter Barn - Arbetsblad Gratis för Förskoleklass',
-    description: 'Skapa professionella sorteringsaktiviteter för barn med vår bildsorteringsgenerator. Generera anpassade utskrivbara sorteringsövningar perfekta för.',
-    keywords: 'arbetsblad gratis, bildsortering, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, sorteringsaktiviteter',
+    title: 'Gratis Bildsortering Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildsorteringssövningar för barn. Utveckla kategorisering och klassificering. Förskola till årskurs 3. 50 teman. Gratis PDF.',
+    keywords: 'bildsortering generator, bildsortering övningar, sortering barn, kategorisering övning barn, klassificering arbetsblad, bildsortering utskrivbar, sortering förskola, gruppering övning, sortera och klassificera, kategorier övning barn, visuell sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
       },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
-    title: 'Sorteringsaktiviteter Barn - Arbetsblad Gratis',
-    subtitle: 'Förskoleklass Material och Matematik Arbetsblad Generator',
+    title: 'Bildsortering Generator',
+    subtitle: 'Kategoriseringsövningar med Bilder från Förskola till Årskurs 3',
     description: `Skapa professionella sorteringsaktiviteter för barn med vår bildsorteringsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara sorteringsövningar perfekta för förskoleklass material och matematik arbetsblad övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildsorteringsverktyget hjälper barn utveckla kritiskt tänkande och kategoriseringsförmåga. Barn lär sig sortera bilder i två kategorier baserat på likheter och skillnader. Verktyget genererar både arbetsblad och facit automatiskt. Perfekt för finmotorik övningar när barn kliper ut och sorterar bilder.

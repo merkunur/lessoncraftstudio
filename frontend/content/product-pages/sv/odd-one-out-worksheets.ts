@@ -15,16 +15,16 @@ export const oddOneOutSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-udda-bilden-arbetsblad',
     appId: 'odd-one-out',
-    title: 'Gratis Arbetsblad Hitta Udda Bilden | Generator för Barn och',
-    description: 'Skapa gratis arbetsblad för barn med vår hitta-udda-bilden generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på under 3.',
-    keywords: 'gratis arbetsblad, arbetsblad för barn, hitta udda bilden, förskoleklass material, finmotorik övningar, visuell diskriminering, kognitiv utveckling',
+    title: 'Hitta Udda Bilden Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara hitta udda bilden-övningar för barn. Utveckla logiskt tänkande och kategorisering. Förskola till årskurs 3. Gratis PDF.',
+    keywords: 'hitta udda bilden generator, hitta udda bilden övningar, udda bilden ut barn, kategorisering övning, logiskt tänkande barn, hitta skillnaden, klassificering övning, visuell diskriminering, hitta udda utskrivbar, sortering och gruppering, logikövning förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
       },
 
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-4
   hero: {
-    title: 'Hitta Udda Bilden Arbetsblad',
-    subtitle: 'Gratis Arbetsblad Generator - Arbetsblad för Barn och Förskoleklass',
+    title: 'Hitta Udda Bilden Generator',
+    subtitle: 'Logiska Kategoriseringsövningar med Bilder',
     description: `Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa arbetsblad utan extra avgifter per arbetsblad. Perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-filer på under tre minuter.
 
 Vår hitta-udda-bilden generator hjälper lärare och föräldrar att skapa visuella diskrimineringsövningar. Eleverna tränar kognitiv utveckling genom att identifiera vilket objekt som inte passar in. Varje arbetsblad kan anpassas med dina egna bilder och teman. Detta stödjer matematik arbetsblad och bokstäver lära sig på ett lekfullt sätt.

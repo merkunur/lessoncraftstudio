@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Påske',
-  title: 'Gratis Påske arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskrivbare arbeidsark med påsketema for barn. Eggjakt, vårdyr og pastellfarger. Matte, lesing, puslespill og fargelegging for førskole til 3. klasse.',
-  keywords: 'påske arbeidsark, påskeegg aktiviteter, vår arbeidsark for barn, påske fargelegging, utskrivbare påske arbeidsark for barn',
-  heading: 'Gratis Påske arbeidsark for barn',
+  title: 'Gratis Påske-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare påske-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med påsketema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'påskeoppgaver til barn, påske arbeidsark, påske fargelegging, påske matematikk, påske førskole, påske printbar, påskeegg oppgaver, påskehare, påske puslespill, påske ordoppgaver, påske aktiviteter',
+  heading: 'Påskeoppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Påsken ankommer hver vår som et lyst signal om at verden våkner til liv, og barna kjenner denne energien i hver eneste blomstrende blomst, kvitrende fugl og pastellfarget egg de oppdager gjemt bak en busk eller liggende i friskt grønt gress. Denne sesongmessige spenningen gjør påske til et av de mest naturlig engasjerende temaene for undervisning i tidlig barndom, fordi kjerneaktivitetene i høytiden, jakt, telling, sortering og dekorering, allerede utgjør de grunnleggende ferdighetene som arbeidsark tar sikte på å lære bort. Når et barn leter etter gjemte egg i hagen, øver det på visuell skanning, romlig resonnering og telling uten noen oppfordring fra en voksen. Våre utskrivbare påskearbeidsark fanger denne samme gleden over oppdagelse ved å vise dekorerte egg, vårlige kyllinger, kaniner, kurver fulle av fargerike godbiter, blomstrende tulipaner og sommerfugler som spretter ut av kokongene sine. Matteaktiviteter bruker egg i kurver som naturlige telleobjekter, og ber barna legge sammen de tre blå eggene og de fire rosa eggene, eller finne ut hvor mange egg som fortsatt er gjemt hvis de har funnet seks av ti. Lese- og skriveoppgaver introduserer vårvokabular som blomstre, klekke, pastell, hi og eng, ord som knytter språkfagene til naturvitenskapen om sesongskiftet som skjer rett utenfor klasseromvinduet. I norsk sammenheng er påsken spesielt knyttet til fjelltradisjoner, påskekrim og de velkjente påskeliljer, som alle gir unikt norsk innhold til arbeidsarkene. Puslespill og fargeleggingssider viser vårscener rike på detaljer: hvor mange kyllinger har klekket, hvilken kurv har flest egg, hva kommer neste i tulipanfargemønsteret. Påsketemaet er unikt kraftfullt for å lære bort konseptet nye begynnelser, fordi alt assosiert med det, egg som klekker, frø som spirer, dyr som kommer ut av vinterdvalen, forsterker ideen om sykluser, vekst og forvandling. For lærere som bygger tematiske vårenheter, gir påsken ukesvis med materiale som sømløst kobler matematikk og lesing til naturfag, kunst og fysisk aktivitet. Foreldre vil finne påskearbeidsark spesielt nyttige i ukene før høytiden, når barna allerede summer av forventning og naturlig er motivert til å engasjere seg i enhver aktivitet som inneholder deres favoritt vårsymboler. Hvert arbeidsark blir en bro mellom det faglige og det festlige, og viser barna at læring i seg selv kan føles som en skattejakt.',
@@ -192,6 +192,169 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking --
   relatedThemes: ['holidays', 'spring', 'flowers', 'animals', 'garden', 'nature', 'colors'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 248) --
+
+  uniqueAngle: 'Påskearbeidsark inntar en særstilling i norsk tidlig pedagogikk fordi påsken representerer den første store vårhøytiden etter en lang nordisk vinter, og bringer med seg en unik kombinasjon av kulturell tradisjon, naturoppvåkning og fargesprakende visuelt materiale som elektrifiserer barns engasjement på en måte få andre temaer kan matche. I norsk kultur er påsken dypt forankret gjennom tradisjoner som påskekrim, påskeegg, påskekyllinger, fjellpåske og kvistpynting med fjorgamle påskeliljer. Denne kulturelle rikdommen gir arbeidsarkene et følelsesmessig ladet stillas som forvandler enhver faglig oppgave til en feiring. Et barn som teller påskeegg øver aritmetikk mens det absorberer kulturell kunnskap om norske påsketradisjoner. En elev som søker etter påskeord i et ordsøk bygger staveferdigheter mens vedkommende internaliserer sesongspesifikt ordforråd. Denne dobbeltkanals læringen — faglig ferdighet pluss kulturelt innhold — er det som gjør påskearbeidsark pedagogisk distinkte. Påskens visuelle repertoar med egg, kyllinger, harer, blomster, lam og vårfarger tilbyr en uovertruffen palett for fargelegging og visuell diskriminering. Egg er dessuten geometrisk fascinerende som ovale former som skiller seg fra sirkler og rektangler, og påskedekorasjoner med symmetriske mønstre på egg gir en naturlig inngang til symmetri og mønstergjenkjenning. I Kunnskapsløftet (LK20) fremheves kulturell bevissthet og lokal tilhørighet som sentrale verdier, og påskearbeidsark knytter klasserommets læring direkte til familiens tradisjoner og det norske kulturelle årshjulet.',
+
+  researchCitation: 'Aukrust, V. G. (2005). Tidlig språkstimulering og livslang læring: En kunnskapsoversikt. Pedagogisk forskningsinstitutt, Universitetet i Oslo. Aukrusts forskning dokumenterte at sesongbaserte og kulturelt forankrede læringsaktiviteter i norske barnehager og skoler ga sterkere ordforrådsutvikling og begrepsforståelse enn kontekstfrie øvelser. Når læringsinnholdet var knyttet til barnas kulturelle erfaringer og årstidssyklus, som påsketradisjoner om våren, økte både motivasjon og retensjon målbart, særlig blant barn i førskole til 3. klasse.',
+
+  snippetDefinition: 'Påskearbeidsark for barn er utskrivbare undervisningsaktiviteter som bruker illustrasjoner av påskeegg, påskekyllinger, harer, vårblomster og norske påsketradisjoner til å undervise i matematikk, lesing og logiske ferdigheter. Designet for barn i alderen 3 til 9 inkluderer de telleøvelser, ordsøk, fargeleggingssider, matchingsoppgaver og mønsteraktiviteter som utnytter påskens festlige energi til å øke engasjement og læring.',
+
+  snippetHowTo: [
+    'Velg påskearbeidsark to til tre uker før påske for å bygge forventning og gi nok tid til å utforske ulike oppgavetyper som fargelegging, telling og ordoppgaver.',
+    'Start med fargelegging av påskeegg og påskekyllinger for å bygge engasjement og finmotorisk kontroll før mer utfordrende faglige oppgaver.',
+    'Introduser matematikk gjennom påskeegg-telling, der barnet teller egg i kurver, sammenligner mengder og løser bildeaddisjonsoppgaver med påskemotiver.',
+    'Styrk ordforrådet med påske-ordsøk som inneholder sesongspesifikke ord som påskelilje, kylling, lam, fjellpåske og kvistpynt.',
+    'Bruk matchings- og sorteringsoppgaver der barnet parer påskedyr med skygger eller sorterer påskegjenstander etter størrelse og farge.',
+    'Koble arbeidsarkene til virkelige påskeaktiviteter som eggjakt ute, påskepynting og baking for å forsterke læringen med sanselige opplevelser.',
+    'Avslutt påskeperioden med en porteføljegjennomgang der barnet velger sitt favorittarbeidsark og forklarer hva det lærte, noe som styrker metakognitiv bevissthet.',
+  ],
+
+  limitations: 'Påskearbeidsark har visse begrensninger som lærere bør være oppmerksomme på. Temaets sesongavhengighet betyr at det har høyest relevans i ukene rundt påske og kan føles malplassert til andre tider på året, noe som begrenser bruksperioden sammenlignet med evigrønne temaer som dyr eller former. I flerkulturelle klasserom kan påskeinnhold berøre religiøse følsomheter, så lærere bør fokusere på de sekulære og naturbaserte aspektene ved påsken snarere enn religiøst innhold. Dessuten er påsketemaet sterkest for visuell læring og ordforråd, men mindre naturlig egnet for abstrakte matematiske begreper som plassverdi eller brøker.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'holidays',
+      summary: 'Helligdagsarbeidsark dekker et bredere spekter av feiringer gjennom hele året, mens påskearbeidsark fokuserer spesifikt på vårens høydepunkt med dets unike visuelle repertoar av egg, kyllinger og harer. Påsketemaet gir dypere sesongmessig fordypning og sterkere visuell identitet enn det bredere helligdagstemaet.',
+    },
+    {
+      vsThemeId: 'flowers',
+      summary: 'Blomsterarbeidsark fokuserer på botanisk mangfold gjennom hele året, mens påskearbeidsark bruker vårblomster som én del av et rikere tematisk landskap som inkluderer tradisjoner, dyr og festlig kultur. Påsketemaet tilbyr større tematisk bredde, mens blomster gir dypere botanisk fokus.',
+    },
+    {
+      vsThemeId: 'animals',
+      summary: 'Dyrearbeidsark dekker hele dyrerikets bredde og egner seg for helårlig bruk, mens påskearbeidsark fokuserer på et håndplukket utvalg av vårdyr som kyllinger, harer og lam i en festlig kontekst. Påsketemaet har sterkere sesongmessig energi, mens dyretemaet tilbyr større taksonomisk bredde.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'påske fargeleggingssider',
+      context: 'For barn som trenger et rolig og engasjerende utgangspunkt for påskelæring, tilbyr våre påske fargeleggingssider detaljerte illustrasjoner av påskeegg, kyllinger, harer og vårblomster som utvikler finmotorisk kontroll mens de bygger visuell påskebevissthet.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'påske telleaktiviteter',
+      context: 'Våre påske telleaktiviteter sprer påskeegg, kyllinger og harer utover festlige scener og ber barna telle hver type, noe som bygger både tallforståelse og visuell skanning i en engasjerende påskekontekst.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'påske koblingsoppgaver',
+      context: 'Våre påske koblingsoppgaver parer påskedyr med silhuetter, egg med mønstre og vårblomster med farger, og utvikler visuell diskriminering i et festlig format.',
+    },
+    {
+      appId: 'shadow-match',
+      anchorText: 'påske skyggematching',
+      context: 'Skyggematching med påskemotiver utnytter de karakteristiske silhuettene av påskeharer, dekorerte egg og påskekyllinger til å bygge romlig gjenkjenning og visuell bevissthet.',
+    },
+    {
+      appId: 'image-addition',
+      anchorText: 'påske bildeaddisjon',
+      context: 'Våre påske bildeaddisjonsark lar barn telle og legge sammen påskeegg, kyllinger og harer for å løse addisjonsoppgaver som gjør matematikk konkret og påskefestlig.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En barnehagelærer ønsker å skape engasjement rundt påsken mens hun styrker matematiske grunnferdigheter, men mange barn er så opptatt av påskeforberedelser at de sliter med å konsentrere seg om formelle øvelser.',
+      solution: 'Hun kanaliserer påskebegeistringen inn i læringen ved å bruke påske-tellearbeidsark der barna teller egg i kurver, sorterer påskedyr etter størrelse og matcher påskeharer med skygger. Hver økt avsluttes med en kort samtale om norske påsketradisjoner.',
+      outcome: 'Konsentrasjonen øker dramatisk fordi barna opplever arbeidsarkene som en del av påskefeiringen, ikke som separate oppgaver. Tellenøyaktigheten forbedres, og barna lærer både matematikk og kulturelt innhold om norske påsketradisjoner.',
+    },
+    {
+      situation: 'En forelder med barn i 1. klasse vil utnytte påskeferien til faglig øvelse, men barnet vil bare lete etter påskeegg og lage påskepynt.',
+      solution: 'Forelderen skriver ut påskearbeidsark med fargelegging og ordsøk og kombinerer dem med virkelige aktiviteter: etter et ordsøk med påskeord går de på eggjakt ute, etter en fargeleggingsside dekorerer de virkelige påskeegg.',
+      outcome: 'Barnet gjennomfører arbeidsark uten motstand fordi de oppleves som en del av påskefeiringen. Ordforrådet styrkes med sesongspesifikke ord, og den uformelle ferielæringen opprettholder faglige ferdigheter over ferien.',
+    },
+    {
+      situation: 'En lærer i 2. klasse vil bruke påsketemaet tverrfaglig, men sliter med å finne arbeidsark som kobler matematikk, norsk og naturfag på en meningsfull måte.',
+      solution: 'Læreren kombinerer påske-bildeaddisjonsark for matematikk, påske-ordsøk for norsk og observasjonsoppgaver om vårtegn for naturfag. Et klassisk påskeegg-dekorasjonsprosjekt fungerer som kulminasjon der elevene bruker symmetri, fargevalg og skriftlige beskrivelser.',
+      outcome: 'Det tverrfaglige opplegget skaper en sammenhengende påskeuke der fagene forsterker hverandre. Elevene oppnår bedre resultater på både matematikk- og språkprøver enn de to foregående årene, og tilbakemeldinger fra foreldre er utelukkende positive.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Påsketemaets rike fargespekter med vårfarger, dekorerte egg og fargesprakende kyllinger er ideelt for visuelle elever. Bruk fargeleggingssider med detaljerte påskemotiver, skyggematching med påskedyr og visuell telling med fargerike egg. Mønstergjenkjenning med påskeegg-dekorasjoner gir særlig sterk visuell stimulering.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'Par arbeidsark med praktiske påskeaktiviteter: etter en telleøvelse med påskeegg, gjennomfør en virkelig eggjakt ute. Etter et fargeleggingsark, dekorer virkelige egg. La barna sortere plastikkegg etter farge og størrelse før de fyller ut sorteringsarbeidsarket, slik at den fysiske erfaringen forankrer den papirbaserte læringen.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Påsketemaet tilbyr sterke visuelle ankere som egg, kyllinger og harer som er universelt gjenkjennelige. Start med bildetunge arbeidsark som fargelegging og matching før ordsøk og ordoppgaver. La barna navngi påskegjenstander på både norsk og morsmålet for å styrke begrepsdannelsen og verdsette kulturelt mangfold.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr dem med påske-matematikkprosjekter som krever planlegging av en eggjakt med beregning av egg per deltaker, symmetridesign av avanserte eggdekorasjoner og skriftlige sammenligninger av påsketradisjoner i ulike land. Kryptogrammer og bildekryssord med påskeordforråd tilbyr justerbar vanskelighetsgrad.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Naturfag',
+      connection: 'Påsken sammenfaller med vårens oppvåkning og tilbyr en naturlig ramme for å utforske vårtegn, kyllingklekking, plantevekst og årstidsskifter i tråd med Kunnskapsløftets kompetansemål for naturfag.',
+      activity: 'Etter et påske-sorteringsarbeidsark tar klassen en vårtur og observerer minst tre vårtegn som blomstring, insektaktivitet og fuglekvidder, og registrerer funnene i en observasjonsdagbok.',
+    },
+    {
+      subject: 'Norsk',
+      connection: 'Påskens rike ordforråd med sesongspesifikke ord som påskelilje, gulerot, kylling, lam og kvistpynt akselererer ordforrådslæring fordi ordene bærer sterke sanselige og kulturelle assosiasjoner.',
+      activity: 'Elevene skriver en kort påskefortelling som bruker minst seks påskeord fra ukens ordsøk og illustrerer den med en tegning, noe som kombinerer kreativ skriving med visuelt uttrykk.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Påskeegg i ulike størrelser og farger gir perfekte konkrete modeller for telling, sortering, mønstergjenkjenning og addisjon i tråd med Kunnskapsløftets mål for tallforståelse.',
+      activity: 'Elevene planlegger en eggjakt der de beregner hvor mange egg som trengs for at hver deltaker får like mange, og løser addisjons- og fordelingsoppgaver med påskemotiver.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Påskeportefølje',
+      criteria: 'Samle ett arbeidsark per dag i påskeuken fra ulike kategorier: fargelegging, telling, ordsøk og matching. Sammenlign ferdigheter på tvers av oppgavetyper for å dokumentere vekst i finmotorikk, tellenøyaktighet, ordforråd og visuell diskriminering.',
+      gradeLevel: 'Alle klassetrinn',
+    },
+    {
+      method: 'Observasjonssjekkliste for påskeaktiviteter',
+      criteria: 'Mens elevene arbeider med påske-sorteringsarbeidsark, noter om de kan sortere etter én egenskap som farge eller størrelse (førskole), to egenskaper (barnehage) eller opprette egne kategorier (1. klasse og opp). Registrer også bruk av påskeordforråd i muntlige forklaringer.',
+      gradeLevel: 'Førskole til 1. klasse',
+    },
+    {
+      method: 'Kreativ påskeoppgave',
+      criteria: 'Gi elevene en åpen oppgave der de designer et påskeegg med symmetrisk mønster, beregner antall egg for en klassefest og skriver en kort begrunnelse for designvalgene sine. Vurder både faglig nøyaktighet og kreativ kvalitet.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Utnytt påskeeggets ovale form som bro til geometrisk forståelse. Når barn sammenligner eggets form med sirkler, ellipser og rektangler, bygger de formgjenkjenningsferdigheter i en meningsfull kontekst. Påskeegg-dekorasjon med symmetriske mønstre gir en naturlig inngang til symmetribegrepet.',
+      source: 'Kunnskapsløftet (LK20) — geometri og mønstergjenkjenning i matematikk',
+      gradeRange: 'Barnehage til 2. klasse',
+    },
+    {
+      tip: 'Koble påskearbeidsark til norske tradisjoner for å styrke kulturell identitet. La barna beskrive sin families påsketradisjoner muntlig før de arbeider med arbeidsarkene, slik at den kulturelle forankringen forsterker den faglige læringen. Referanser til fjellpåske, Kvikk Lunsj og påskekrim gir et unikt norsk preg.',
+      source: 'Rammeplan for barnehagen — kulturelt mangfold og lokal tilhørighet',
+      gradeRange: 'Førskole til 3. klasse',
+    },
+    {
+      tip: 'Bruk påskens tidsbegrensede natur som motivasjonsverktøy. Fordi påskearbeidsark har en naturlig utløpsdato, skaper de en følelse av nå-eller-aldri som øker både tempo og engasjement. Planlegg en nedtelling til påske der hvert arbeidsark avdekker et stykke av et større påskebilde.',
+      source: 'Pedagogisk psykologi — tidsbegrenset motivasjon og målrettet læring',
+      gradeRange: 'Alle klassetrinn',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '10 apper' },
+    { label: 'Fagområder dekket', value: '4 områder' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Påskemotiver tilgjengelige', value: 'Egg, kyllinger, harer, blomster' },
+  ],
 };
 
 registerThemeContent('easter', 'no', content);

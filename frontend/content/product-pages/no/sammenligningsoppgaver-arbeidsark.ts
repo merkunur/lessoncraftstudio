@@ -17,16 +17,16 @@ export const moreLessNoContent: ProductPageContent = {
   seo: {
     slug: 'sammenligningsoppgaver-arbeidsark',
     appId: 'more-less',
-    title: 'Matematikk Oppgaver Sammenligningsverktøy | Gratis Arbeidsark',
-    description: 'Lag profesjonelle sammenligningsoppgaver med vårt matematikk oppgaver verktøy. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage arbeidsark.',
-    keywords: 'matematikk oppgaver, sammenligningsoppgaver, arbeidsark gratis, tall og telling, mer mindre, større enn, mindre enn, oppgavehefter barn, barnehage, småskoletrinnet',
+    title: 'Flere eller Færre Generator | LessonCraftStudio',
+    description: 'Lag printbare flere og færre sammenligningsoppgaver med bilder. Utvikler mengdesammenligning og matematisk tenkning. Førskole til 2. klasse.',
+    keywords: 'flere eller færre generator, flere eller færre oppgaver, mengde sammenligning, større mindre øvelse, sammenligningsoppgaver førskole, mengder sammenligning med bilder, tallsammenligning til barn, flere eller færre, matematisk sammenligning, mengdevurdering, sammenligningsferdigheter førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/sammenligningsoppgaver-arbeidsark',
   },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-3
   hero: {
-    title: 'Matematikk Oppgaver Sammenligningsverktøy',
-    subtitle: 'Arbeidsark Gratis for Tall og Telling - Mer Mindre Aktiviteter Barn',
+    title: 'Flere eller Færre Generator',
+    subtitle: 'Mengdesammenligning med Bilder fra Førskole til 2. Klasse',
     description: `Lag profesjonelle sammenligningsoppgaver med vårt matematikk oppgaver verktøy. Abonnementet ditt på Full Tilgang gir deg ubegrenset tilgang til å lage arbeidsark gratis uten ekstra kostnader per oppgave. Opprett tilpassede tall og telling arbeidsark perfekte for barnehage og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Mer-mindre-sammenligningsverktøyet vårt hjelper lærere med å lage matematikk oppgaver for tall og telling. Barn lærer å sammenligne antall ved hjelp av symbolene større enn (>), mindre enn (<) og lik (=). Dette er grunnleggende matteoppgaver for barnehage, 1. trinn og 2. trinn. Verktøyet skaper oppgavehefter barn kan bruke i klasserommet eller hjemme.

@@ -16,16 +16,16 @@ export const mathPuzzleNoContent: ProductPageContent = {
   seo: {
     slug: 'matematikkgater-arbeidsark',
     appId: 'math-puzzle',
-    title: 'Matematikkgåter Generator - Arbeidsark Gratis for Addisjon og',
-    description: 'Lag profesjonelle matematikkgåter med vår matematikkoppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av arbeidsark.',
-    keywords: 'matematikkgåter, matteoppgaver, arbeidsark gratis, addisjon og subtraksjon, tall og telling, småskoletrinnet, oppgavehefter barn, regnepuslespill, matematikk oppgaver, gratis skoleopgaver',
+    title: 'Matematikk Puslespill Generator | LessonCraftStudio',
+    description: 'Lag printbare matematikk-puslespill til addisjon og subtraksjon. Problemløsningsferdigheter fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    keywords: 'matematikk puslespill generator, matematikk puslespill til barn, matematisk problemløsning, mattepuslespill printbar, regnepuslespill førskole, matematisk tenkning, logikkpuslespill matematikk, matematikk gåteoppgaver, regnepuslespill fasit, problemløsning matematikk, mattepuslespill småskolen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikkgater-arbeidsark',
   },
 
   // Hero Section - From math-puzzle.md paragraphs 1-4
   hero: {
-    title: 'Matematikkgåter Generator - Arbeidsark Gratis',
-    subtitle: 'Addisjon og Subtraksjon for Småskoletrinnet',
+    title: 'Matematikk Puslespill Generator',
+    subtitle: 'Utvikl Problemløsningsferdigheter med Matematiske Puslespill',
     description: `Lag profesjonelle matematikkgåter med vår matematikkoppgaver generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark uten kostnad per ark. Generer tilpassede matteoppgaver perfekte for 1. til 3. trinn. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Matematikkgåter kombinerer visuell læring med tallforståelse. Hver matematikkoppgave bruker bilder og tall for å skape engasjerende regnepuslespill. Elevene løser addisjon og subtraksjon mens de jobber med gjenkjennbare motiver. Dette gjør abstrakte mattebegreper konkrete og morsomme.

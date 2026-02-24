@@ -15,16 +15,16 @@ export const missingPiecesNoContent: ProductPageContent = {
   seo: {
     slug: 'manglende-biter-arbeidsark',
     appId: 'missing-pieces',
-    title: 'Arbeidsark Gratis - Manglende Biter Puslespill Generator -',
-    description: 'Lag profesjonelle manglende biter puslespill med vår visuelle puslespillgenerator. Din Full Tilgang-abonnement gir deg ubegrenset puslespill uten ekstra.',
-    keywords: 'manglende biter puslespill, arbeidsark gratis, matematikk oppgaver, finmotorikk øvelser, oppgavehefter barn, tall og telling, barnehage, småskoletrinnet, visuell diskriminering, fargeleggingsbilder barn',
+    title: 'Manglende Biter Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare manglende biter-oppgaver til visuell oppfatning. Finn den manglende delen i mønsteret. Førskole til 2. klasse. Gratis PDF.',
+    keywords: 'manglende biter generator, manglende biter oppgaver, puslespill oppgave til barn, manglende del øvelse, visuell slutning, bildepuslespill printbar, mønstergjenkjenning øvelse, manglende bilde oppgave, visuell logisk tenkning, puslespilløvelser førskole, oppfatningsferdigheter til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/manglende-biter-arbeidsark',
   },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-5
   hero: {
-    title: 'Manglende Biter Puslespill - Arbeidsark Gratis Generator',
-    subtitle: 'Finmotorikk Øvelser og Matematikk Oppgaver for Barnehage',
+    title: 'Manglende Biter Generator',
+    subtitle: 'Visuell Oppfatningsøvelser med Bildepuslespill',
     description: `Lag profesjonelle manglende biter puslespill med vår visuelle puslespillgenerator. Din Full Tilgang-abonnement gir deg ubegrenset puslespill uten ekstra kostnader per ark. Generer tilpassede arbeidsark gratis for visuelle diskrimineringsøvelser perfekt for barnehage og småskoletrinnet. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
 
 Manglende biter puslespill hjelper barn med å utvikle oppmerksomhet til detaljer. Vårt verktøy støtter pedagoger som lager finmotorikk øvelser og matematikk oppgaver. Velg mellom 6 ulike former for manglende biter inkludert kvadrat, sirkel, rektangel og ellipse. Hver oppgave kan tilpasses med bilder fra vårt bibliotek på over 3000 barnvennlige illustrasjoner.

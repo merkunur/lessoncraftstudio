@@ -15,16 +15,16 @@ export const gridMatchNoContent: ProductPageContent = {
   seo: {
     slug: 'rutenett-tilpasning-arbeidsark',
     appId: 'grid-match',
-    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching for Barn',
-    description: 'Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage.',
-    keywords: 'rutenetttilpasning, arbeidsark gratis, visuell matching, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, romlig resonnering, visuell diskriminering',
+    title: 'Gratis Rutenett-Puslespill Generator | LessonCraftStudio',
+    description: 'Lag printbare rutenett-puslespill til visuell oppfatning og romlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    keywords: 'rutenett-puslespill generator, rutenett-puslespill oppgaver, visuelt puslespill til barn, romlig forståelse, mønster matching, ruteoppgaver printbar, oppfatning øvelse, visuell logikk til barn, matchingsøvelser førskole, rutenett puslespill, romlig oppfatning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
       },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
-    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching Generator',
-    subtitle: 'Gratis Utskrifter - Visuell Gåte for Romlig Resonnering',
+    title: 'Rutenett-Puslespill Generator',
+    subtitle: 'Visuell Oppfatning og Romlig Forståelsesøvelser',
     description: `Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage rutenetttilpasning arbeidsark gratis uten ekstra kostnader per ark. Generer tilpassede arbeidsark perfekte for småskoletrinnet og barneskole. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Rutenetttilpasning er en visuell gåte hvor barn matcher brikker for å fullføre et bilde. Et stort bilde deles inn i et rutenett med noen celler fjernet. Barn må identifisere hvilke brikker som hører hvor. Dette utvikler visuell diskriminering og romlig resonnering. Perfekt for matematikk oppgaver og finmotorikk øvelser.

@@ -15,16 +15,16 @@ export const drawingLinesNoContent: ProductPageContent = {
   seo: {
     slug: 'tegning-av-linjer-arbeidsark',
     appId: 'drawing-lines',
-    title: 'Tegning av Linjer Arbeidsark - Gratis Finmotorikk Øvelser for Barn',
-    description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra.',
-    keywords: 'tegning av linjer, arbeidsark gratis, finmotorikk øvelser, oppgavehefter barn, bokstaver lære skrive, lesetrening, matematikk oppgaver, fargeleggingsbilder barn, tall og telling, gangetabellen',
+    title: 'Linjetegning Generator — Gratis | LessonCraftStudio',
+    description: 'Lag printbare linjetegningsoppgaver til finmotorikk-utvikling. Rette linjer, buer og bølger fra førskole til 1. klasse. Last ned gratis PDF.',
+    keywords: 'linjetegning generator, linjetegning oppgaver, finmotorikk øvelser, linjefølging oppgave, blyantgrep øvelser, tegning trening førskole, finmotorikk førskole, skriveforberedelse øvelse, blyantgrep trening, linjer og former øvelse, tegnetrening til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/tegning-av-linjer-arbeidsark',
       },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
-    title: 'Arbeidsark for Tegning av Linjer - Finmotorikk Øvelser',
-    subtitle: 'Gratis Arbeidsark for Barnehage',
+    title: 'Linjetegning Generator',
+    subtitle: 'Finmotorikk Øvelser fra Førskole til 1. Klasse',
     description: `Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Ditt Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
 
 Tegning av linjer er grunnleggende for barns skrivetrening. Vårt verktøy hjelper pedagoger med å lage engasjerende finmotorikk øvelser som forbereder barn for å lære skrive bokstaver. Velg mellom 8 ulike linjemønstre inkludert kurver, diagonaler, horisontale og vertikale linjer. Hver mal kan tilpasses med bilder fra vårt bibliotek på over 3000 barnvennlige illustrasjoner.

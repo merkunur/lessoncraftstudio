@@ -16,16 +16,16 @@ export const crosswordNoContent: ProductPageContent = {
   seo: {
     slug: 'bildekryssord-arbeidsark',
     appId: 'crossword',
-    title: 'Bildekryssord Generator - Arbeidsark Gratis for Barn - Lesetrening og',
-    description: 'Lag profesjonelle bildekryssord med vår enkle generator. Generer tilpassede kryssord arbeidsark perfekte for lesetrening og ordforståelse på småskoletrinnet.',
-    keywords: 'bildekryssord, kryssord arbeidsark, arbeidsark gratis, lesetrening, matematikk oppgaver, ordforståelse, småskoletrinnet, oppgavehefter barn, bokstaver lære skrive, fargeleggingsbilder barn',
+    title: 'Gratis Bildekryssord Generator | LessonCraftStudio',
+    description: 'Lag printbare bildekryssord der bilder er ledetråder. Utvikler ordforråd og staving fra førskole til 3. klasse. Last ned gratis PDF med en gang.',
+    keywords: 'bildekryssord generator, bildekryssord oppgaver, kryssord til barn printbar, bildebaserte kryssord, kryssord førskole, ordforråd kryssord, bilde-kryssord printbar, staving kryssord, kryssord med bilder, barns kryssord, kryssord oppgave førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildekryssord-arbeidsark',
   },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
   hero: {
-    title: 'Bildekryssord Generator - Arbeidsark Gratis for Barn',
-    subtitle: 'Lesetrening og Ordforståelse Oppgaver',
+    title: 'Bildekryssord Generator',
+    subtitle: 'Ordforråd og Staving med Bildeledetråder',
     description: `Lag profesjonelle bildekryssord med vår enkle generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til alle 33 oppgavegeneratorer for kr 1 800 årlig eller kr 188 månedlig. Perfekt for lærere som trenger arbeidsark gratis å skrive ut til småskoletrinnet. Last ned som PDF på under 3 minutter.
 
 Bildekryssord kombinerer visuell læring med ordforståelse. Elevene ser på bilder og fyller inn ordene i rutenettet. Dette styrker både lesetrening og ordforråd samtidig. Ideelt for 1. til 3. trinn.

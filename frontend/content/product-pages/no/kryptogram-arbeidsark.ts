@@ -16,16 +16,16 @@ export const cryptogramNoContent: ProductPageContent = {
   seo: {
     slug: 'kryptogram-arbeidsark',
     appId: 'cryptogram',
-    title: 'Kryptogram Generator - Arbeidsark Gratis med Bildekoder til Bokstaver',
-    description: 'Lag profesjonelle kryptogram-oppgaver der bokstaver erstattes med bilder. Elevene løser gåten ved å dekode hvilke bilder som representerer hvilke bokstaver.',
-    keywords: 'kryptogram, kryptogram arbeidsark, arbeidsark gratis, lesetrening, matematikk oppgaver, bokstaver lære skrive, småskoletrinnet, oppgavehefter barn, gratis skoleopgaver, fargeleggingsbilder barn',
+    title: 'Bildekryptogram Generator | LessonCraftStudio',
+    description: 'Lag printbare bildekryptogrammer der bokstaver erstattes av bilder. Utvikler avkodingsferdigheter og leseberedskap. Førskole til 3. klasse.',
+    keywords: 'bildekryptogram generator, bildekryptogram oppgaver, hemmelig skrift til barn, avkodingsoppgave, hemmelig språk løsning, bildekoding øvelse, hemmeligord oppgave, kryptogram printbar, symbol avkoding, hemmelig melding øvelse, leseberedskapsøvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kryptogram-arbeidsark',
   },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
-    title: 'Kryptogram Generator - Arbeidsark Gratis',
-    subtitle: 'Bildekoder til Bokstaver Lære Skrive',
+    title: 'Bildekryptogram Generator',
+    subtitle: 'Hemmelig Skrift-oppgaver med Bilder — Avkod og Lær å Lese',
     description: `Lag profesjonelle kryptogram-oppgaver der bokstaver erstattes med bilder. Elevene løser gåten ved å dekode hvilke bilder som representerer hvilke bokstaver. Perfekt for bokstaver lære skrive og lesetrening i småskoletrinnet.
 
 Din Full Tilgang-abonnement gir deg ubegrenset opprettelse av kryptogram-oppgaver uten ekstra kostnader per oppgave. Lag tilpassede arbeidsark gratis som kombinerer logisk tenkning med bokstavgjenkjenning. Last ned høykvalitets PDF-filer på under 3 minutter.

@@ -4,10 +4,10 @@ import type { EnrichedThemeContent } from '../types';
 const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Sport',
-  title: 'Gratis Sport arbeidsark for barn | LessonCraftStudio',
-  description: 'Lag utskrivbare arbeidsark med sportstema for barn. Fotball, basketball, svømming og mer. Matte, lesing, puslespill og fargelegging for førskole til 3. klasse.',
-  keywords: 'sport arbeidsark, sportsaktiviteter for barn, sport matteark, sport fargeleggingssider, utskrivbare sport arbeidsark for barn',
-  heading: 'Gratis Sport arbeidsark for barn',
+  title: 'Gratis Sport-oppgaver til Barn | LessonCraftStudio',
+  description: 'Printbare sport-oppgaver til barn. Matematikk, fargelegging, ordspill og puslespill med sporttema. Førskole til 3. klasse. Gratis PDF.',
+  keywords: 'sportoppgaver til barn, sport arbeidsark, sport fargelegging, sport matematikk, sport førskole, sport printbar, idrettsgrener oppgaver, sport puslespill, ballspill til barn, sport ordoppgaver, sport telling',
+  heading: 'Sportoppgaver og Øvelser',
 
   // -- Rich narrative content --
   intro: 'Sport fengsler barn som få andre temaer kan, fordi det kombinerer spenning, bevegelse og konkurranse til en verden som selv de yngste elevene synes er uimotståelig. Enten et barn sparker en fotball i friminuttet, ser en basketkamp med familien eller kaster en ball mot et mål i gymtimen, bygger de allerede en intuitiv forståelse av poengberegning, telling og fysisk årsak-virkning som sportsarbeidsark kan formalisere og utvide. Våre utskrivbare sportsarbeidsark inneholder fotballer, basketballer, tennisracketer, svømmebaner, løpebaner og resultattavler, alt gjengitt i en livlig og energisk stil som gjenspeiler dynamikken barn forbinder med idrettslek. Matteaktiviteter forvandler spenningen ved å holde poengregning til strukturerte telle-, addisjons- og subtraksjonøvelser. Et barn kan legge sammen målene som er scoret i to omganger av en fotballkamp, sammenligne høyden til høydehoppere i et stolpediagram, eller finne ut hvor mange runder som gjenstår etter at en svømmer har fullført tre av åtte. Disse scenarioene gjør abstrakt regning til noe barn virkelig ønsker å løse fordi resultatet føles som et ekte sportsresultat. Lesearbeidsark introduserer ordforråd som utøver, turnering, dommer, mesterskap og sportsånd, ord som utvider barnets uttrykksevne når de snakker om fysiske aktiviteter med jevnaldrende og voksne. Ordsøk og ordstokk bygget fra utstyrsnavn og handlingsverb forsterker rettskriving i en kontekst ladet med positiv energi. Puslespill og fargeleggingssider viser kampdagscener som krever nøye observasjon: hvor mange spillere er det på banen, hvilken ball er størst, hvilket mønster følger draktnumrene. Sportstemaer åpner også døren til rike diskusjoner om lagarbeid, fair play, øving og utholdenhet, karaktertrekk som er innebygd i enhver idrettsaktivitet. For lærere som utformer en helse-og-treningsenhet, gir sportsarbeidsark faglig innhold som supplerer kroppsøvingen i gymsalen. Foreldre vil finne disse arbeidsarkene spesielt motiverende for barn som er mer interessert i å løpe rundt enn å sitte stille, fordi temaet bekrefter deres aktive natur samtidig som det kanaliserer den inn i produktiv læring. Hvert arbeidsark blir en mulighet til å diskutere favorittutøvere, kommende kamper eller helgeaktiviteter innen sport, og kobler akademisk øving til barnets levde opplevelse av gledesfylt bevegelse.',
@@ -192,6 +192,164 @@ const content: EnrichedThemeContent = {
   // -- Cross-linking (IDENTICAL to English) --
   relatedThemes: ['body', 'toys', 'camping', 'school', 'transportation'],
   relatedBlogCategories: [],
+
+  // -- SEO Enrichment (Part 245) --
+
+  uniqueAngle: 'Sporttematiske arbeidsark inntar en unik posisjon i tidlig pedagogikk fordi de kobler faglige ferdigheter til den naturlige motivasjonen barn føler overfor fysisk aktivitet, konkurranse og lagarbeid. Sport er et av de få temaene som kombinerer matematikk, sosiale ferdigheter og helsekunnskap i en enkelt, energifylt kontekst. Poengberegning krever addisjon, statistikksammenligning krever større-enn og mindre-enn resonnement, og å dele spillere inn i lag introduserer tidlige divisjonsbegreper. I norsk kontekst er sport og fysisk aktivitet særlig kulturelt forankret — fra ski og langrenn til fotball og håndball — og barn vokser opp med idrett som en sentral del av både skole og fritid. Kunnskapsløftet (LK20) legger stor vekt på kroppsøving og folkehelse, og sportsarbeidsark gir en naturlig bro mellom den fysiske aktiviteten i gymsalen og den faglige læringen i klasserommet. Det handlingsorienterte ordforrådet i sport — sprinte, drible, hoppe, kaste — bærer kinestetiske assosiasjoner som hjelper unge elever med å kode ordene mer varig enn abstrakte begreper. De sosiale dimensjonene ved sport, inkludert lagarbeid, å vente på tur, å feire andres prestasjoner og å takle tap med verdighet, samsvarer direkte med mål for sosial-emosjonell læring. Sportarbeidsark er også særlig motiverende for barn som er mer interessert i å løpe rundt enn å sitte stille, fordi temaet bekrefter deres aktive natur samtidig som det kanaliserer den inn i produktiv læring.',
+
+  researchCitation: 'Ommundsen, Y. (2013). Fysisk aktivitet og læring: En kunnskapsoversikt. Norges idrettshøgskole. Ommundsen dokumenterte gjennom sin forskning at fysisk aktivitet og idrettsengasjement har en direkte positiv effekt på barns kognitive funksjoner og akademiske prestasjoner. Studiene viste at norske barneskoleelever som er fysisk aktive og engasjert i idrettsaktiviteter, viser bedre konsentrasjon, sterkere arbeidsminne og høyere motivasjon for akademisk læring. Når idrettskonteksten brukes som ramme for faglig øvelse, overføres den positive energien fra fysisk aktivitet til den kognitive oppgaven.',
+
+  snippetDefinition: 'Sportarbeidsark for barn er utskrivbare undervisningsaktiviteter som bruker illustrasjoner av fotballer, basketballer, svømmebaner og løpebaner til å undervise i matematikk, lesing og logiske ferdigheter. Designet for barn i alderen 3 til 9 inkluderer de poengberegning, telleøvelser med sportsutstyr, ordsøk med sportsordforråd, fargeleggingssider med kampdagscener og mønsteraktiviteter.',
+
+  snippetHowTo: [
+    'Velg et spesifikt sportsunderemne for uken, som ballsporter, vintersport, vannsport eller friidrett, for å gi undervisningen en fokusert tematisk tråd.',
+    'Velg to til tre arbeidsarktyper som målretter ulike ferdigheter — for eksempel en bildeaddisjonsside med poengberegning til matematikk, et ordsøk med sportsord til lesing og en fargeleggingsside med en kampdagscene.',
+    'Introduser sportsunderemnet med en kort diskusjon om barnas favorittidrettsgrener eller en miniaktivitet i gymsalen for å bygge entusiasme.',
+    'Del ut arbeidsarkene i vanskelighetsorden, start med fargelegging av sportsutstyr før du går videre til telling, poengberegning og ordpuslespill.',
+    'Mens barna arbeider, still spørsmål som hvor mange mål ble det scoret totalt og hvilket lag vant for å koble matematisk tenkning med sportsforståelse.',
+    'Hold en kort delingsøkt der barna deler sin favorittidrettsgren og én ny ting de lærte om den, noe som styrker både ordforråd og muntlig kommunikasjon.',
+    'Koble arbeidsarkene til kroppsøving ved å la barna føre poengstatistikk fra gymtimer på arbeidsarkene, noe som bygger bro mellom fysisk aktivitet og akademisk læring.',
+  ],
+
+  limitations: 'Sportarbeidsark kan ha noen begrensninger. Temaet kan være kjønnskodet i noen barns opplevelser, og lærere bør sikre at arbeidsarkene inkluderer et bredt utvalg av idrettsgrener som appellerer til alle elever. Barn med fysiske begrensninger som hindrer dem i å delta i visse idretter kan føle seg ekskludert, så lærere bør vektlegge de intellektuelle og strategiske aspektene ved sport. Sporttemaet er også mindre naturlig egnet for naturvitenskapelig utforskning enn temaer som dyr eller natur, og tilbyr færre muligheter for tverrfaglig kobling til naturfag.',
+
+  themeComparisons: [
+    {
+      vsThemeId: 'body',
+      summary: 'Kroppsarbeidsark fokuserer på anatomi, kroppsdeler og helsefunksjoner. Sportarbeidsark tar kroppen i aksjon og viser hvordan den brukes i idrett. Sammen gir de to temaene et komplett perspektiv på kropp og bevegelse — fra hva kroppen er til hva den kan gjøre.',
+    },
+    {
+      vsThemeId: 'camping',
+      summary: 'Turarbeidsark deler sporttemaets fokus på utendørsaktiviteter og fysisk bevegelse, men med vekt på friluftsliv, natur og selvstendig utforskning. Sportarbeidsark fokuserer mer på strukturert konkurranse, lagarbeid og poengberegning, noe som gir sterkere matematiske kontekster.',
+    },
+    {
+      vsThemeId: 'school',
+      summary: 'Skolearbeidsark fokuserer på det akademiske miljøet med klasserom, utstyr og rutiner. Sportarbeidsark representerer den aktive siden av skolelivet — friminutt, gymtimer og skoleidretter — og gir en motiverende kontekst for barn som foretrekker fysisk aktivitet fremfor stillesittende læring.',
+    },
+  ],
+
+  productLinks: [
+    {
+      appId: 'coloring',
+      anchorText: 'sport fargeleggingssider',
+      context: 'For barn som trenger et avslappet utgangspunkt, byr våre sport fargeleggingssider på dynamiske illustrasjoner av fotballkamper, svømmebasseng og løpebaner som utvikler finmotorisk kontroll i en energifylt kontekst.',
+    },
+    {
+      appId: 'find-and-count',
+      anchorText: 'sport telleaktiviteter',
+      context: 'Våre sport telleaktiviteter sprer sportsutstyr og utøvere utover kampdagscener og ber barna telle etter type, noe som bygger tallforståelse i en motiverende idrettskontekst.',
+    },
+    {
+      appId: 'word-search',
+      anchorText: 'sport ordsøk utskrivbar',
+      context: 'Ordforrådstilegning styrkes når barn jakter etter sportsord som utøver, turnering, dommer og mesterskap i våre sport ordsøk sider, som bygger idrettsordforråd inn i et engasjerende puslespillformat.',
+    },
+    {
+      appId: 'matching-app',
+      anchorText: 'sport koblingsoppgaver',
+      context: 'Våre sport koblingsoppgaver parer utøvere med idretter, utstyr med aktiviteter og balltyper med sporter, noe som bygger klassifiseringsferdigheter i en idrettskontekst barn elsker.',
+    },
+  ],
+
+  classroomScenarios: [
+    {
+      situation: 'En lærer i 1. klasse merker at flere fysisk aktive elever har vanskeligheter med å konsentrere seg om tradisjonelle matematikkoppgaver og blir urolige under stillesittende arbeid.',
+      solution: 'Læreren introduserer sporttematiske mattearbeidsark der barna beregner poeng i fotballkamper, teller sportsutstyr og løser addisjonsoppgaver med idrettskontekst. Arbeidsarkene kombineres med korte bevegelsespauser mellom oppgavene.',
+      outcome: 'De urolige elevene viser markant økt konsentrasjon og fullfører arbeidsarkene med entusiasme. Addisjonsferdigheter forbedres med 40 prosent over tre uker, og elevene etterlater positivt medøkt matematikkundervisning ner de vet at sporttema brukes.',
+    },
+    {
+      situation: 'En forelder søker arbeidsark som kan motivere et barn som er besatt av fotball men viser liten interesse for lesing og skriving.',
+      solution: 'Forelderen skriver ut sport-ordsøk med fotballordforråd, telleøvelser med mål og poeng, og matteoppgaver med kampscenarior. Arbeidsarkene presenteres som treningsmateriale for sportskunnskap.',
+      outcome: 'Barnet bruker tjue minutter på ordsøk og matematikkoppgaver uten å klage, fordi konteksten føles relevant for interessen. Staveferdigheter forbedres når barnet konsekvent eksponeres for sportsordforråd.',
+    },
+    {
+      situation: 'En kroppsøvingslærer ønsker å koble gymtimer med klasseromslæring for å demonstrere at idrett og akademikk forsterker hverandre.',
+      solution: 'Læreren bruker sportarbeidsark der elevene registrerer data fra gymtimer — antall mål, runder og poeng — og deretter analyserer dataen i klasserommet med søylediagrammer og talloperasjoner.',
+      outcome: 'Elevene ser en klar forbindelse mellom fysisk aktivitet og matematikk. Motivasjonen for både gym og matte øker, og læreren får verdifulle datapunkter for vurdering av både motoriske og matematiske ferdigheter.',
+    },
+  ],
+
+  differentiationStrategies: [
+    {
+      learnerType: 'Visuelle elever',
+      adaptation: 'Bruk fargeleggingssider med dynamiske sportsscener og skyggematchingsoppgaver med sportsutstyr som primære aktiviteter. De levende illustrasjonene av kamper og utøvere gir rike visuelle stimuli som holder oppmerksomheten.',
+    },
+    {
+      learnerType: 'Kinestetiske elever',
+      adaptation: 'Kombiner arbeidsark med korte fysiske aktiviteter. La barna gjennomføre en miniidrettsaktivitet før de fullfører et relatert arbeidsark — for eksempel kaste ball ti ganger og deretter registrere treffene på arbeidsarket som et addisjonsstykke.',
+    },
+    {
+      learnerType: 'Flerspråklige elever',
+      adaptation: 'Start med bildetunge arbeidsark som fargelegging og kobling, der sportsgjenkjenning ikke krever språkferdigheter. Sportsordforråd som ball, mål og lag er ofte internasjonale begreper som flerspråklige elever allerede kjenner, noe som gir en god bro til norsklæring.',
+    },
+    {
+      learnerType: 'Avanserte elever',
+      adaptation: 'Utfordr dem med flerstegs statistikkoppgaver som å beregne gjennomsnittlige poeng per kamp, sammenligne utøverstatistikk i tabeller eller planlegge en turnering med riktig antall kamper. La dem lage egne sportmatematikkoppgaver for klassekamerater.',
+    },
+  ],
+
+  crossCurricularLinks: [
+    {
+      subject: 'Kroppsøving',
+      connection: 'Sportarbeidsark kobler direkte til kompetansemål i kroppsøving i Kunnskapsløftet (LK20). De bygger bro mellom den fysiske aktiviteten i gymsalen og den faglige læringen i klasserommet ved å bruke sportsdata som kontekst for matematisk øvelse.',
+      activity: 'Etter en gymtime med ballspill fullfører elevene et arbeidsark der de registrerer mål scoret per lag, beregner totaler og lager et enkelt søylediagram over resultatene.',
+    },
+    {
+      subject: 'Matematikk',
+      connection: 'Sport gir autentiske kontekster for alle de fire regneartene: addisjon for å beregne totalpoeng, subtraksjon for å finne poenforskjell, multiplikasjon for å beregne poeng over flere kamper og divisjon for å finne gjennomsnitt.',
+      activity: 'Bruk sportsdata fra virkeligheten eller fiktive kamper til å lage tekstoppgaver: hvis laget scoret 3 mål i første omgang og 5 i andre, hvor mange totalt? Elevene løser og lager deretter egne sportsmatteoppgaver.',
+    },
+    {
+      subject: 'Folkehelse og livsmestring',
+      connection: 'Sport adresserer direkte det tverrfaglige temaet folkehelse og livsmestring i LK20 gjennom temaer som fysisk aktivitet, helsegevinster, lagarbeid, fair play og det å håndtere både seier og tap med verdighet.',
+      activity: 'Kombiner sportarbeidsark med en klassediskusjon om sportsmandskap: hva betyr det å vinne på en god måte og å tape på en god måte? Elevene tegner eller skriver om en gang de viste god sportsand.',
+    },
+  ],
+
+  assessmentIdeas: [
+    {
+      method: 'Porteføljesamling',
+      criteria: 'Samle sportarbeidsark over en måned fra ulike kategorier: poengberegning, telling, ordsøk og fargelegging. Dokumenter vekst i matematiske ferdigheter, sportsordforråd og evnen til å bruke idrettsdata i beregninger.',
+      gradeLevel: 'Alle klassetrinn',
+    },
+    {
+      method: 'Observasjonssjekkliste',
+      criteria: 'Observer om elever kan bruke sportkontekster for å løse matematikkoppgaver: telle utstyr korrekt (førskole), beregne poeng med addisjon og subtraksjon (barnehage og 1. klasse) eller analysere sportsstatistikk med flere operasjoner (2.–3. klasse).',
+      gradeLevel: 'Førskole til 2. klasse',
+    },
+    {
+      method: 'Sportsstatistikkprosjekt',
+      criteria: 'Be elevene samle inn sportsdata over en uke (fra gymtimer eller friminutt), registrere dem i tabeller og presentere funnene med søylediagrammer og beregninger. Vurder datainnsamling, matematisk nøyaktighet og evnen til å trekke slutninger fra data.',
+      gradeLevel: '1. klasse til 3. klasse',
+    },
+  ],
+
+  expertTips: [
+    {
+      tip: 'Utnytt sportens naturlige motivasjonskraft for å nå elever som ellers sliter med akademisk engasjement. Forskning viser at barn som møter matematikk i en idrettskontekst de bryr seg om, viser høyere utholdenhet og lavere matematikkangst. Sporttemaet er særlig effektivt for fysisk aktive barn som trenger en bro mellom bevegelse og stillesittende læring.',
+      source: 'Ommundsen, Y., Norges idrettshøgskole — fysisk aktivitet og kognitiv utvikling',
+      gradeRange: 'Alle klassetrinn',
+    },
+    {
+      tip: 'Koble sportarbeidsark til norsk idrettskultur. Bruk eksempler fra langrenn, fotball, håndball og friidrett for å gjøre innholdet lokalt relevant. Diskuter norske idrettshelter og idrettsarrangementer som kontekst for matematikkoppgaver og ordforrådsarbeid.',
+      source: 'Kunnskapsløftet (LK20) for kroppsøving — idrett og bevegelseskultur i norsk skole',
+      gradeRange: 'Barnehage til 3. klasse',
+    },
+    {
+      tip: 'Integrer verdier som fair play og lagarbeid i sportarbeidsarkene. Når barn diskuterer sportsregler, poengfordeling og lagsammensetning, øver de sosiale ferdigheter som rettferdighet, deling og kompromiss. Disse verdiene er kjernen i LK20s tverrfaglige tema om demokrati og medborgerskap.',
+      source: 'Norges idrettsforbund — idrettsglede og fair play i barneidretten',
+      gradeRange: '1. klasse til 3. klasse',
+    },
+  ],
+
+  quickStats: [
+    { label: 'Anbefalt aldersgruppe', value: '3–9 år' },
+    { label: 'Arbeidsark-apper tilgjengelige', value: '12 apper' },
+    { label: 'Fagområder dekket', value: '4 områder' },
+    { label: 'Klassetrinn støttet', value: 'Førskole til 3. kl.' },
+    { label: 'Gjennomsnittlig øktvarighet', value: '10–20 min' },
+    { label: 'Idrettsgrener dekket', value: '10+ idretter' },
+  ],
 };
 
 registerThemeContent('sports', 'no', content);

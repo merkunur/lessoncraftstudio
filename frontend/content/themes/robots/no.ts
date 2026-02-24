@@ -315,7 +315,7 @@ const content: EnrichedThemeContent = {
       summary: 'Mens romarbeidsark utforsker planeter, stjerner og romfart som naturvitenskapelige fenomener, fokuserer robotarbeidsark på menneskeskapte maskiner og teknologisk problemløsning. Roboter kan selvfølgelig utforske rommet, så de to temaene kombineres naturlig når barn designer romfartsr oboter.',
     },
     {
-      vsThemeId: 'vehicles',
+      vsThemeId: 'transportation',
       summary: 'Kjøretøyarbeidsark fokuserer på transport og bevegelse i hverdagskontekster, mens robotarbeidsark utforsker programmering, sensorer og algoritmisk tenkning. Robotbiler og droner bygger bro mellom de to temaene og viser hvordan teknologi forandrer transport.',
     },
     {

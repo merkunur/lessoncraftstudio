@@ -15,16 +15,16 @@ export const gridMatchSvContent: ProductPageContent = {
   seo: {
     slug: 'rutnatsmatching-arbetsblad',
     appId: 'grid-match',
-    title: 'Rutnätsmatching Arbetsblad - Arbetsblad Gratis för Förskoleklass',
-    description: 'Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Tillgång-prenumeration ger dig obegränsat skapande av arbetsblad.',
-    keywords: 'rutnätsmatching arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsmatching, visuell diskriminering, matematik arbetsblad, rumsligt tänkande, spatial medvetenhet, problemlösning',
+    title: 'Gratis Rutnätspussel Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara rutnätsmatchningsövningar med bilder. Logisk tänkande och problemlösning från förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'rutnätspussel generator, rutnätsmatchning övningar, logikpussel barn, rutnätsövning utskrivbar, problemlösning barn, mönsterigenkänning rutnät, matrisövning barn, logisk tänkande övning, pussel arbetsblad, rutnätsmatchning förskola, visuell logik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
       },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-4
   hero: {
-    title: 'Rutnäts Match',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass och Lågstadiet - Finmotorik Övningar och Matte Övningar',
+    title: 'Rutnätspussel Generator',
+    subtitle: 'Utskrivbara Logikövningar med Rutnätsmatchning',
     description: `Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Tillgång-prenumeration ger dig obegränsat skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.
 
 Rutnätsmatching-arbetsblad utvecklar visuell diskriminering och rumsligt tänkande. Barn matchar bilddelar för att komplettera en större bild. Denna aktivitet stärker problemlösningsförmåga, finmotorik och spatial medvetenhet.

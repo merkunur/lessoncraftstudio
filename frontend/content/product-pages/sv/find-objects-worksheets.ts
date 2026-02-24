@@ -15,16 +15,16 @@ export const findObjectsSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-foremal-arbetsblad',
     appId: 'find-objects',
-    title: 'Gratis Arbetsblad Hitta Föremål | Finmotorik Övningar för',
-    description: 'Skapa gratis arbetsblad för barn med hitta föremål-aktiviteter. Perfekta finmotorik övningar för förskoleklass. Ladda ner professionella 300 DPI PDF-arbetsblad.',
-    keywords: 'hitta föremål arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, i spy arbetsblad, odd one out, visuell perception, matematik arbetsblad, bokstäver lära sig, siffror och tal',
+    title: 'Hitta Föremål Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara hitta-föremål-övningar för barn. Utveckla visuell uppmärksamhet och koncentration. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'hitta föremål generator, hitta föremål övningar, sökövningar barn, visuell uppmärksamhet, hitta dolda föremål, koncentrationsövning barn, hitta föremål utskrivbar, uppmärksamhetsövning, dolda bilder övning, visuell sökning barn, hitta skillnaden övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
       },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
-    title: 'Gratis Arbetsblad Hitta Föremål',
-    subtitle: 'Arbetsblad för Barn - Förskoleklass Material och Finmotorik Övningar',
+    title: 'Hitta Föremål Generator',
+    subtitle: 'Utveckla Visuell Uppmärksamhet med Sökövningar',
     description: `Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Tillgång-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Våra hitta föremål-arbetsblad utvecklar visuell perception hos barn. Lärare använder dessa arbetsblad gratis som komplement till matematik arbetsblad och bokstäver lära sig-aktiviteter. Varje arbetsblad tränar koncentration och uppmärksamhet. Förskoleklass material som detta stödjer finmotorik övningar genom pek- och markeringsaktiviteter.

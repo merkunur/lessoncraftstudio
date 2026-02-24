@@ -15,16 +15,16 @@ export const missingPiecesSvContent: ProductPageContent = {
   seo: {
     slug: 'saknade-bitar-arbetsblad',
     appId: 'missing-pieces',
-    title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass',
-    description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan.',
-    keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
+    title: 'Gratis Saknade Bitar Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara saknade bitar-övningar för barn. Utveckla rumsuppfattning och visuell analys. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'saknade bitar generator, saknade bitar övningar, pussel komplettering barn, visuell analys övning, saknade bitar utskrivbar, bildpussel barn, rumsuppfattning övning, komplettera bilden, visuell uppmärksamhet pussel, saknade delar övning, bildanalys barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
       },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
   hero: {
-    title: 'Saknade Bitar Arbetsblad',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
+    title: 'Saknade Bitar Generator',
+    subtitle: 'Visuella Analysövningar från Förskola till Årskurs 3',
     description: `Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
 
 Vårt verktyg för saknade bitar skapar visuella pussel där eleverna identifierar saknade delar och matchar dem till rätt alternativ. Perfekt för matematik arbetsblad, bokstäver lära sig och siffror och tal. Varje pussel genererar både ett arbetsblad och en facit automatiskt. Användbart för matte övningar och målarbilder barn.

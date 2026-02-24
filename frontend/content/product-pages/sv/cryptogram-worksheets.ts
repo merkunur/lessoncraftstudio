@@ -15,16 +15,16 @@ export const cryptogramSvContent: ProductPageContent = {
   seo: {
     slug: 'bildkryptogram-arbetsblad',
     appId: 'cryptogram',
-    title: 'Gratis Arbetsblad Bildkryptogram | Bokstavspussel Generator för Barn',
-    description: 'Skapa gratis arbetsblad för bildkryptogram. Generera bokstavspussel för förskoleklass och lågstadiet. Ladda ner professionella PDF-arbetsblad på under 3.',
-    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, bildkryptogram generator, bokstavspussel, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar',
+    title: 'Gratis Bildkryptogram Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildkryptogram för barn. Knacka hemliga koder med bildledtrådar. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    keywords: 'bildkryptogram generator, bildkryptogram övningar, hemlig kod barn, kryptogram utskrivbar, avkodningsövning barn, hemliga koder arbetsblad, kodknackare barn, bildkryptogram förskola, chiffer övning, kryptering barn, hemliga meddelanden övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
       },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
-    title: 'Bildkryptogram',
-    subtitle: 'Gratis Arbetsblad för Barn - Bokstavspussel för Förskoleklass',
+    title: 'Bildkryptogram Generator',
+    subtitle: 'Hemliga Koder med Bildledtrådar från Förskola till Årskurs 3',
     description: `Skapa gratis arbetsblad för bildkryptogram med vår generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av gratis utskrifter utan extra avgifter per arbetsblad. Generera anpassade arbetsblad för barn perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildkryptogram är roliga pusselarbetsblad där bokstäver ersätts med bilder. Barn löser pusslet genom att dechiffrera vilken bild som representerar varje bokstav. Detta skapar engagerande arbetsblad för förskoleklass och läsförståelse. Perfekt gratis arbetsblad för barn som gör bokstavsträning roligt och interaktivt.

@@ -15,16 +15,16 @@ export const crosswordSvContent: ProductPageContent = {
   seo: {
     slug: 'bildkorsord-arbetsblad',
     appId: 'crossword',
-    title: 'Bildkorsord Generator - Gratis Arbetsblad för Förskoleklass och Barn',
-    description: 'Skapa professionella bildkorsord med vår generator. Gratis arbetsblad för förskoleklass, bokstäver lära sig och matematik. Ladda ner PDF på 3 minuter!',
-    keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',
+    title: 'Gratis Bildkorsord Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildkorsord för barn. Bildledtrådar istället för text. Utveckla ordförråd från förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'bildkorsord generator, bildkorsord övningar, korsord barn utskrivbar, bildkorsord förskola, ordförråd korsord, korsord med bilder, enkla korsord barn, bildbaserade korsord, stavnings-korsord, korsord gratis barn, korsord lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
       },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
   hero: {
     title: 'Bildkorsord Generator',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
+    subtitle: 'Utskrivbara Korsord med Bildledtrådar för Barn',
     description: `Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildkorsord kombinerar bilder med ordkunskap på ett roligt sätt. Eleverna ser bilder och skriver motsvarande ord i korsordsrutan. Detta hjälper barn att lära sig bokstäver samtidigt som de utvecklar ordförråd och stavningsförmåga. Perfekt för svenska klassrum från förskoleklass till årskurs 3.

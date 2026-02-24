@@ -15,16 +15,16 @@ export const mathPuzzleSvContent: ProductPageContent = {
   seo: {
     slug: 'mattepussel-arbetsblad',
     appId: 'math-puzzle',
-    title: 'Gratis Arbetsblad Mattepussel | Addition och Subtraktion Generator',
-    description: 'Skapa gratis arbetsblad mattepussel. Generera addition och subtraktion övningar för förskoleklass. Ladda ner professionella PDF-arbetsblad på 3 minuter.',
-    keywords: 'mattepussel, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass',
+    title: 'Gratis Mattepussel Generator | LessonCraftStudio',
+    description: 'Skapa utskrivbara mattepussel för barn. Utveckla logisk tänkande och problemlösning med bilder. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'mattepussel generator, mattepussel övningar, matematik pussel barn, logik matematik, matematik gåtor barn, mattepussel utskrivbar, problemlösning matematik, algebra barn, matematik logikövning, mattepussel lågstadiet, symbolisk matematik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
       },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-4
   hero: {
-    title: 'Mattepussel Arbetsblad',
-    subtitle: 'Gratis Arbetsblad för Barn - Addition och Subtraktion för Förskoleklass',
+    title: 'Mattepussel Generator',
+    subtitle: 'Logiska Mattepussel från Förskola till Årskurs 3',
     description: `Skapa professionella mattepussel med vår generator för matematik arbetsblad. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsbladsskapande utan extra avgifter per arbetsblad. Generera anpassade pussel med addition och subtraktion perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-filer på under tre minuter.
 
 Vårt verktyg gör det enkelt att skapa engagerande matematik arbetsblad där eleverna löser mattepussel genom att hitta rätt svar. Varje pussel kombinerar siffror och tal med visuella bilder som barnen älskar. Perfekt för lågstadiet där konkret matematikundervisning är viktigast. Dina elever tränar addition och subtraktion medan de har roligt med färgglada pussel.

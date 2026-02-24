@@ -15,16 +15,16 @@ export const moreLessSvContent: ProductPageContent = {
   seo: {
     slug: 'jamforelse-arbetsblad',
     appId: 'more-less',
-    title: 'Matematik Arbetsblad för Siffror och Tal | Gratis Arbetsblad',
-    description: 'Skapa professionella matematik arbetsblad för jämförelse av siffror och tal. Generera anpassade matte övningar med större än, mindre än och lika med symboler.',
-    keywords: 'matematik arbetsblad, arbetsblad gratis, jämförelse, större än mindre än, förskoleklass material, matte övningar, siffror och tal, taluppfattning',
+    title: 'Fler eller Färre Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara jämförelseövningar för barn. Mer, mindre eller lika med bildbaserade övningar. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    keywords: 'fler eller färre generator, fler eller färre övningar, jämförelseövning barn, mer eller mindre matematik, större än mindre än, antal jämförelse, jämförelse utskrivbar, mer färre lika övning, jämförelse förskola, räkning och jämförelse, taljämförelse barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
       },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-4
   hero: {
-    title: 'Jämförelse Arbetsblad',
-    subtitle: 'Matematik Arbetsblad för Siffror och Tal i Förskoleklass',
+    title: 'Fler eller Färre Generator',
+    subtitle: 'Jämförelseövningar med Bilder från Förskola till Årskurs 3',
     description: `Skapa professionella matematik arbetsblad för jämförelse av siffror och tal. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsbladsskapande utan extra avgifter per arbetsblad. Generera anpassade matte övningar perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår jämförelsegenerator hjälper barn att lära sig siffror och tal genom visuella övningar. Eleverna jämför antal objekt och använder symbolerna större än, mindre än eller lika med. Varje matematik arbetsblad kan anpassas helt efter dina elevers behov. Välj mellan olika bilder, teman och svårighetsgrader.

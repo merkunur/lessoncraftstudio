@@ -18,7 +18,7 @@ export const oddOneOutNoContent: ProductPageContent = {
     slug: 'finn-den-ulike-arbeidsark',
     appId: 'odd-one-out',
     title: 'Finn den Ulike Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare finn den ulike-oppgaver til visuell oppfatning og klassifisering. 50 temaer og tilpassbare innstillinger. Gratis PDF.',
+    description: 'Lag printbare finn den ulike-oppgaver til visuell oppfatning og klassifisering. 50 temaer og tilpassbare innstillinger. Gratis PDF. Ingen registrering.',
     keywords: 'finn den ulike generator, finn den ulike oppgaver, hva passer ikke inn, klassifisering øvelse, visuell skjelning, annerledes bilde oppgave, klassifiseringstrening til barn, forskjellig i gruppen, mønstergjenkjenning og klassifisering, sortering og skjelning, finn den ulike printbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-den-ulike-arbeidsark',
   },

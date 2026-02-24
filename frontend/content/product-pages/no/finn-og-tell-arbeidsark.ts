@@ -16,7 +16,7 @@ export const findAndCountNoContent: ProductPageContent = {
     slug: 'finn-og-tell-arbeidsark',
     appId: 'find-and-count',
     title: 'Finn og Tell Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare finn og tell-oppgaver til barn. Utvikl telleferdigheter og visuell oppmerksomhet med bilder. Førskole til 3. klasse. Gratis PDF.',
+    description: 'Lag printbare finn og tell-oppgaver til barn. Utvikl telleferdigheter og visuell oppmerksomhet med bilder. Førskole til 3. klasse. Gratis PDF. Hent nå.',
     keywords: 'finn og tell generator, finn og tell oppgaver, telleøvelser førskole, visuell telling, antallgjenkjenning, finn og tell printbar, telleferdigheter til barn, telleøvelse med bilder, talløvelser førskole, telling trening, matematikk søkeoppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-og-tell-arbeidsark',
       },

@@ -16,7 +16,7 @@ export const coloringNoContent: ProductPageContent = {
     slug: 'fargeleggingsbilder-arbeidsark',
     appId: 'coloring',
     title: 'Gratis Fargelegging Generator til Barn | LessonCraftStudio',
-    description: 'Lag printbare fargeleggingssider til barn med 3 000+ bilder. 50 temaer og 5 aldersnivåer fra førskole til 3. klasse. Last ned gratis PDF.',
+    description: 'Lag printbare fargeleggingssider til barn med 3 000+ bilder. 50 temaer og 5 aldersnivåer fra førskole til 3. klasse. Last ned gratis PDF. 3 000+ bilder.',
     keywords: 'fargelegging generator, fargeleggingssider til barn gratis, gratis fargelegging print, fargeleggingsark printbar, dyr fargelegging, printbare fargeleggingssider, fargelegging førskole, fargeleggingsøvelser, fargeleggingsoppgaver til barn, finmotorikk fargelegging, barns fargeleggingssider',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/fargeleggingsbilder-arbeidsark',
       },

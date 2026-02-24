@@ -16,7 +16,7 @@ export const missingPiecesNoContent: ProductPageContent = {
     slug: 'manglende-biter-arbeidsark',
     appId: 'missing-pieces',
     title: 'Manglende Biter Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare manglende biter-oppgaver til visuell oppfatning. Finn den manglende delen i mønsteret. Førskole til 2. klasse. Gratis PDF.',
+    description: 'Lag printbare manglende biter-oppgaver til visuell oppfatning. Finn den manglende delen i mønsteret. Førskole til 2. klasse. Gratis PDF. 3 000+ bilder.',
     keywords: 'manglende biter generator, manglende biter oppgaver, puslespill oppgave til barn, manglende del øvelse, visuell slutning, bildepuslespill printbar, mønstergjenkjenning øvelse, manglende bilde oppgave, visuell logisk tenkning, puslespilløvelser førskole, oppfatningsferdigheter til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/manglende-biter-arbeidsark',
   },

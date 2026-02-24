@@ -16,7 +16,7 @@ export const writingNoContent: ProductPageContent = {
     slug: 'skriveark-arbeidsark',
     appId: 'writing',
     title: 'Skriveøvelse Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare skriveøvelser til bokstavdanning og håndskrift. Bokstaver, ord og blyantgrep fra førskole til 2. klasse. Last ned gratis PDF.',
+    description: 'Lag printbare skriveøvelser til bokstavdanning og håndskrift. Bokstaver, ord og blyantgrep fra førskole til 2. klasse. Last ned gratis PDF. Skriv ut nå.',
     keywords: 'skriveøvelse generator, håndskrift øvelse, bokstaver øvelse førskole, bokstavdanning, blyantgrep trening, skriving trening, bokstavøvelser printbar, finmotorikk skriving, alfabet skriving, håndskrift printbar, skriveforberedelse førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skriveark-arbeidsark',
   },

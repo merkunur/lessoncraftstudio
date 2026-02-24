@@ -16,7 +16,7 @@ export const drawAndColorNoContent: ProductPageContent = {
     slug: 'rutenetttegning-arbeidsark',
     appId: 'draw-and-color',
     title: 'Gratis Rutenetttegning Generator | LessonCraftStudio',
-    description: 'Lag printbare rutenetttegningsoppgaver. Tegn mønstre i ruter etter modell og fargelegg. Utvikler visuell oppfatning. Førskole til 3. klasse. Gratis.',
+    description: 'Lag printbare rutenetttegningsoppgaver. Tegn mønstre i ruter etter modell og fargelegg. Utvikler visuell oppfatning. Førskole til 3. klasse. Gratis. Hent nå.',
     keywords: 'rutenetttegning generator, rutenetttegning oppgaver, pikseltegning til barn, rutetegning, rutepapir tegning, visuell oppfatning øvelse, rutetegning printbar, modellkopiering til rute, tegning i ruter, kodet tegning, ruteoppgaver til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenetttegning-arbeidsark',
       },

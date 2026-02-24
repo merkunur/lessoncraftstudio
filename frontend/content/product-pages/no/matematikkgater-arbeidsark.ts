@@ -17,7 +17,7 @@ export const mathPuzzleNoContent: ProductPageContent = {
     slug: 'matematikkgater-arbeidsark',
     appId: 'math-puzzle',
     title: 'Matematikk Puslespill Generator | LessonCraftStudio',
-    description: 'Lag printbare matematikk-puslespill til addisjon og subtraksjon. Problemløsningsferdigheter fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    description: 'Lag printbare matematikk-puslespill til addisjon og subtraksjon. Problemløsningsferdigheter fra førskole til 3. klasse. Gratis PDF-nedlasting. Hent nå.',
     keywords: 'matematikk puslespill generator, matematikk puslespill til barn, matematisk problemløsning, mattepuslespill printbar, regnepuslespill førskole, matematisk tenkning, logikkpuslespill matematikk, matematikk gåteoppgaver, regnepuslespill fasit, problemløsning matematikk, mattepuslespill småskolen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikkgater-arbeidsark',
   },

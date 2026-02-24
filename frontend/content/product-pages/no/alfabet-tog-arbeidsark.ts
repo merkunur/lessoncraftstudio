@@ -15,8 +15,8 @@ export const alphabetTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-tog-arbeidsark',
     appId: 'alphabet-train',
-    title: 'Gratis Alfabet-Tog Generator | LessonCraftStudio',
-    description: 'Lag printbare alfabet-tog-oppgaver til bokstavlæring fra førskole til 1. klasse. Morsom måte å lære bokstaver med bilder. Last ned gratis PDF.',
+    title: 'Gratis Alfabet-Tog Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare alfabet-tog-oppgaver til bokstavlæring fra førskole til 1. klasse. Morsom måte å lære bokstaver med bilder. Last ned gratis PDF. Hent nå.',
     keywords: 'alfabet tog generator, alfabet tog oppgaver, bokstaver øvelse førskole, alfabet printbar, alfabet-tog arbeidsark, bokstavgjenkjenning, alfabetisk rekkefølge øvelse, bokstavøvelser til barn, lære å lese, alfabetøvelser, begynnelsesbokstaver oppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/alfabet-tog-arbeidsark',
       },

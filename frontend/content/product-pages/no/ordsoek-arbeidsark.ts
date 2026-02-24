@@ -15,8 +15,8 @@ export const wordSearchNoContent: ProductPageContent = {
   seo: {
     slug: 'ordsoek-arbeidsark',
     appId: 'wordsearch',
-    title: 'Gratis Ordsøk Generator | LessonCraftStudio',
-    description: 'Lag printbare ordsøk-oppgaver på 11 språk. Tilpassbare ord, størrelser og vanskelighetsgrader. Ordforråd og staving. Last ned gratis PDF.',
+    title: 'Gratis Ordsøk Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare ordsøk-oppgaver på 11 språk. Tilpassbare ord, størrelser og vanskelighetsgrader. Ordforråd og staving. Last ned gratis PDF. 3 000+ bilder.',
     keywords: 'ordsøk generator, ordsøk printbar, ordsøk til barn, ordspill generator, ordsøk oppgave, ordpuslespill printbar, ordleterspill til barn, ordforråd ordsøk, staving ordsøk, ordsøk småskolen, ordsøk førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/ordsoek-arbeidsark',
       },

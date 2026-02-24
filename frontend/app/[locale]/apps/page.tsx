@@ -58,8 +58,8 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'arbejdsark generator platform, pædagogisk software, lærerværktøjer, 33 generatorer, undervisningsressourcer skaber, uddannelsesteknologi, lærerplatform, digitale læringsmaterialer, pædagogisk applikation, klasseværelses værktøjer'
   },
   no: {
-    title: '33 Gratis Arbeidsark Generatorer | Matte, Spr\u00e5k, Puslespill | LessonCraftStudio',
-    description: 'Utforsk 33 gratis arbeidsark generatorer. Lag ords\u00f8k, kryssord, matteoppgaver, fargelegging & mer. Last ned utskrivbare PDFer direkte.',
+    title: '33 Arbeidsark Generatorer \u2014 Gratis PDF | LessonCraftStudio',
+    description: 'Utforsk 33 gratis arbeidsark generatorer. Lag ords\u00f8k, kryssord, matteoppgaver, fargelegging & mer. Last ned utskrivbare PDFer direkte. Ingen registrering.',
     keywords: 'arbeidsark generator plattform, pedagogisk programvare, lærerverktøy, 33 generatorer, undervisningsressurser skaper, utdanningsteknologi, lærerplattform, digitale læringsmaterialer, pedagogisk applikasjon, klasseromverktøy'
   },
   fi: {

@@ -16,7 +16,7 @@ export const shadowMatchNoContent: ProductPageContent = {
     slug: 'skyggematching-arbeidsark',
     appId: 'shadow-match',
     title: 'Gratis Skyggematching Generator | LessonCraftStudio',
-    description: 'Lag printbare skyggeparringsoppgaver der barnet matcher bilde til korrekt skygge. Utvikler visuell oppfatning. 50 temaer. Last ned gratis PDF.',
+    description: 'Lag printbare skyggeparringsoppgaver der barnet matcher bilde til korrekt skygge. Utvikler visuell oppfatning. 50 temaer. Last ned gratis PDF. Hent nå.',
     keywords: 'skyggematching generator, skyggematching oppgaver, skyggeparring, skygge oppgaver til barn, silhuettoppgaver printbar, skyggegjenkjenning, visuell parring skygge, skyggeøvelser førskole, silhuett øvelse, bilde og skygge matching, skyggeoppgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skyggematching-arbeidsark',
   },

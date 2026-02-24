@@ -17,8 +17,8 @@ export const codeAdditionNoContent: ProductPageContent = {
   seo: {
     slug: 'bildeaddisjon-arbeidsark',
     appId: 'code-addition',
-    title: 'Bildeaddisjon Generator | LessonCraftStudio',
-    description: 'Lag printbare bildeaddisjon-oppgaver der bilder erstatter tall. Utvikler algebraisk tenkning fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    title: 'Bildeaddisjon Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare bildeaddisjon-oppgaver der bilder erstatter tall. Utvikler algebraisk tenkning fra førskole til 3. klasse. Gratis PDF-nedlasting. Hent nå.',
     keywords: 'bildeaddisjon generator, bildeaddisjon oppgaver, symbolsk algebra til barn, bildebasert matematikk, kodeoppgaver printbar, algebraisk tenkning førskole, bilde erstatter tall, hemmelig melding plussoppgaver, bildesymbol regneoppgave, matematisk koding, visuell algebra',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildeaddisjon-arbeidsark',
       },

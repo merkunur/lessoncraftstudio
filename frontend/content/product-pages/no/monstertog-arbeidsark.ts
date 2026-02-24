@@ -17,8 +17,8 @@ export const patternTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'monstertog-arbeidsark',
     appId: 'pattern-train',
-    title: 'Gratis Mønstertog Generator | LessonCraftStudio',
-    description: 'Lag printbare mønstertog-oppgaver til mønstergjenkjenning. Togformede oppgaver med 3 000+ bilder. Førskole til 2. klasse. Gratis PDF.',
+    title: 'Gratis Mønstertog Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare mønstertog-oppgaver til mønstergjenkjenning. Togformede oppgaver med 3 000+ bilder. Førskole til 2. klasse. Gratis PDF. Ingen registrering.',
     keywords: 'mønstertog generator, mønstertog oppgaver, mønstre fortsettelse, mønstergjenkjenning tog, mønstergjenkjenning førskole, mønster fortsettelse øvelse, mønstertog printbar, mønsterserier til barn, mønstre gjenkjenning, matematisk oppfatning, mønsterrekke øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monstertog-arbeidsark',
   },

@@ -18,7 +18,7 @@ export const patternWorksheetNoContent: ProductPageContent = {
     slug: 'monsteroppgaver-arbeidsark',
     appId: 'pattern-worksheet',
     title: 'Mønsteroppgave Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare mønsteroppgaver til mønstergjenkjenning og -fortsettelse. Varierte serier fra førskole til 3. klasse. 50 temaer. Gratis PDF.',
+    description: 'Lag printbare mønsteroppgaver til mønstergjenkjenning og -fortsettelse. Varierte serier fra førskole til 3. klasse. 50 temaer. Gratis PDF. 3 000+ bilder.',
     keywords: 'mønsteroppgave generator, mønsteroppgaver printbar, mønsterserier til barn, mønstre fortsettelse, mønstergjenkjenning øvelse, matematiske mønstre, mønsterrekke oppgaver, mønster kopiark, oppfatningsferdigheter førskole, mønstergjenkjenning 1. klasse, mønstre og serier',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monsteroppgaver-arbeidsark',
   },

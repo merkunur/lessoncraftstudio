@@ -43,7 +43,7 @@ const pageDescription: Record<string, string> = {
   nl: 'Ontdek 50 thematische werkbladverzamelingen voor kinderen. Dieren, dinosaurussen, ruimte, oceaan en meer. Gratis reken-, lees-, kleur- en puzzelactiviteiten van kleuterschool tot groep 5.',
   sv: 'Bl\u00e4ddra bland 50 tematiska arbetsbladssamlingar f\u00f6r barn. Djur, dinosaurier, rymden, havet och mer. Gratis matte-, l\u00e4s-, m\u00e5lar- och pusselaktiviteter f\u00f6r f\u00f6rskola till \u00e5rskurs 3.',
   da: 'Udforsk 50 tematiske arbejdsarkssamlinger til b\u00f8rn. Dyr, dinosaurer, rummet og mere. Gratis matematik-, l\u00e6se- og puslespilsaktiviteter. F\u00f8rskole til 3. klasse.',
-  no: 'Utforsk 50 tematiske arbeidsarksamlinger for barn. Dyr, dinosaurer, verdensrommet, havet og mer. Gratis matte-, lese-, fargeleggings- og puslespillaktiviteter fra barnehage til 4. klasse.',
+  no: 'Utforsk 50 tematiske arbeidsarksamlinger for barn. Dyr, dinosaurer, rommet og mer. Gratis matte-, lese- og puslespillaktiviteter fra f\u00f8rskole til 3. klasse.',
   fi: 'Selaa 50 teeman tulostettavia teht\u00e4vi\u00e4 lapsille. Matematiikka, kieli, v\u00e4ritys ja pulmat esikoulusta 3. luokkaan. Yli 250 ilmaista teht\u00e4v\u00e4kokoelmaa PDF-muodossa.',
 };
 

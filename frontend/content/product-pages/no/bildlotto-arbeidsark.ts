@@ -15,8 +15,8 @@ export const pictureBingoNoContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbeidsark',
     appId: 'bingo',
-    title: 'Gratis Bildebingo Generator | LessonCraftStudio',
-    description: 'Lag printbare bildebingospill til barn. 50 temaer, tilpassbare rutenett og bilder fra 3 000+ bibliotek. Perfekt til klasserommet. Last ned gratis.',
+    title: 'Gratis Bildebingo Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare bildebingospill til barn. 50 temaer, tilpassbare rutenett og bilder fra 3 000+ bibliotek. Perfekt til klasserommet. Last ned gratis. Hent nå.',
     keywords: 'bildebingo generator, bingo printbar til barn, bildebingo spill, printbart bingospill, bingo førskole, klasse bingospill, bildebingo rutenett, bingo oppgave til barn, gruppespill printbar, bingo bilder barn, bingospill klasserom',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildlotto-arbeidsark',
       },

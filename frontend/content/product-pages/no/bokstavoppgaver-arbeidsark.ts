@@ -16,7 +16,7 @@ export const wordScrambleNoContent: ProductPageContent = {
     slug: 'bokstavoppgaver-arbeidsark',
     appId: 'word-scramble',
     title: 'Gratis Bokstavblanding Generator | LessonCraftStudio',
-    description: 'Lag printbare bokstavblanding-oppgaver til staving og rettskriving. Tilpass vanskelighetsgrad fra førskole til 3. klasse. Med bilder. Gratis PDF.',
+    description: 'Lag printbare bokstavblanding-oppgaver til staving og rettskriving. Tilpass vanskelighetsgrad fra førskole til 3. klasse. Med bilder. Gratis PDF. Hent nå.',
     keywords: 'bokstavblanding generator, bokstavblanding oppgaver, skriveøvelser til barn, rettskriving øvelse, ordgåte printbar, stavelseøvelse, ordspill til barn printbar, orddanning oppgaver, lære å lese oppgaver, skriving trening, ordforråd øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bokstavoppgaver-arbeidsark',
       },

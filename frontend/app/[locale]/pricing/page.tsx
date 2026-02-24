@@ -61,8 +61,8 @@ const pricingMetadata: Record<string, { title: string; description: string; keyw
     keywords: 'opgave generator priser, arbejdsark abonnement l\u00e6rer, gratis opgave maker, LessonCraftStudio priser, undervisningsv\u00e6rkt\u00f8j pris'
   },
   no: {
-    title: 'Priser: Gratis, $15/m\u00e5ned Grunn & $25/m\u00e5ned Full Tilgang | LessonCraftStudio',
-    description: 'Velg ditt abonnement: Gratis ords\u00f8k-generator, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.',
+    title: 'Priser \u2014 Gratis & Premium Planer | LessonCraftStudio',
+    description: 'Velg ditt abonnement: Gratis plan, $15/m\u00e5ned Grunnpakke med 10 generatorer eller $25/m\u00e5ned Full Tilgang til alle 33 generatorer. Avslutt n\u00e5r som helst.',
     keywords: 'oppgave generator priser, arbeidsark abonnement l\u00e6rer, gratis oppgave maker, LessonCraftStudio priser, undervisningsverkt\u00f8y pris'
   },
   fi: {

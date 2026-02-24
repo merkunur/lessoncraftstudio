@@ -383,8 +383,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Gratis matteoppgaver \u2014 lag og skriv ut',
-      description: 'Lag utskrivbare matteoppgaver for barnehage til 3. trinn. Addisjon, subtraksjon, tallpuslespill og telle\u00f8velser \u2014 klare p\u00e5 sekunder.',
+      title: 'Gratis Printbare Matteoppgaver til Barn \u2014 Lag & Skriv Ut',
+      description: 'Lag utskrivbare matteoppgaver for barnehage til 3. trinn. Addisjon, subtraksjon, tallpuslespill og telle\u00f8velser \u2014 klare p\u00e5 sekunder. Ingen registrering.',
       keywords: 'matteoppgaver, regneark skrive ut, addisjons\u00f8velser, subtraksjons\u00f8velser, mattepuslespill barn, telle\u00f8velser, hoderegning, mattegenerator gratis, matematikk sm\u00e5trinnet, tallforst\u00e5else',
       heading: 'Matteoppgave-generatorer',
       name: 'Matematikk',
@@ -736,8 +736,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Spr\u00e5koppgaver for barn \u2014 gratis arbeidsark',
-      description: 'Lag utskrivbare spr\u00e5kark: alfabet, ordpuslespill, preposisjoner og skrive\u00f8velser. Fra barnehage til 3. trinn \u2014 klare p\u00e5 sekunder.',
+      title: 'Gratis Printbare Spr\u00e5koppgaver til Barn \u2014 PDF Arbeidsark',
+      description: 'Lag utskrivbare spr\u00e5kark: alfabet, ordpuslespill, preposisjoner og skrive\u00f8velser. Fra barnehage til 3. trinn \u2014 klare p\u00e5 sekunder. 33 generatorer. Hent n\u00e5.',
       keywords: 'spr\u00e5koppgaver, alfabet\u00f8velser, skrive\u00f8velser barn, ordpuslespill utskrivbare, preposisjoner \u00f8ve, bokstavgjenkjenning, ordforr\u00e5d \u00f8velser, h\u00e5ndskrift \u00f8velser gratis, norsk sm\u00e5trinnet, lese og skrive',
       heading: 'Spr\u00e5koppgave-generatorer',
       name: 'Spr\u00e5k & Skriving',
@@ -1089,8 +1089,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Ordspill for barn \u2014 utskrivbare puslespill',
-      description: 'Lag utskrivbare ordspill: ords\u00f8k, billedkryssord, ordgjetning og bildekryptogrammer. Gratis og klare p\u00e5 sekunder.',
+      title: 'Gratis Printbare Ordspill & Puslespill til Barn \u2014 PDF',
+      description: 'Lag utskrivbare ordspill: ords\u00f8k, billedkryssord, ordgjetning og bildekryptogrammer. Gratis og klare p\u00e5 sekunder. Velg mellom 3 000+ tematiske bilder. Hent n\u00e5.',
       keywords: 'ordspill barn, ords\u00f8k generator, kryssord barn skrive ut, ordgjetning, kryptogram barn, ordforr\u00e5dsspill utskrivbare, ordpuslespill, stavespill gratis, ords\u00f8k lage, l\u00e6rerike ordspill',
       heading: 'Ordspill- og puslespillgeneratorer',
       name: 'Ordspill',
@@ -1440,8 +1440,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Fargeleggingsbilder & tegneoppgaver for barn',
-      description: 'Lag utskrivbare fargeleggingsbilder og guidede tegneoppgaver for barn. Temaillustrasjoner og kreative aktiviteter \u2014 gratis og klare p\u00e5 sekunder.',
+      title: 'Gratis Fargeleggingsbilder & Tegneoppgaver for Barn \u2014 Print',
+      description: 'Lag utskrivbare fargeleggingsbilder og guidede tegneoppgaver for barn. Temaillustrasjoner og kreative aktiviteter \u2014 gratis og klare p\u00e5 sekunder. Hent n\u00e5.',
       keywords: 'fargeleggingsbilder barn, fargeleggingsbilde skrive ut, tegneoppgaver barn, kreative aktiviteter barnehage, fargeleggingsbilde generator, tegne og fargelegge arbeidsark, kunstoppgaver gratis, fargelegging utskrivbar, guidet tegning barn, finmotorikk kunst',
       heading: 'Kreative generatorer',
       name: 'Kunst & Kreativitet',
@@ -1793,8 +1793,8 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Logikkoppgaver & hjernetrim for barn',
-      description: 'Lag utskrivbare logikkoppgaver: sudoku, finn den som ikke passer, bildeveier og skattejakter. Bygg kritisk tenkning \u2014 gratis og klart p\u00e5 sekunder.',
+      title: 'Gratis Printbare Logikkoppgaver & Hjernetrim for Barn \u2014 PDF',
+      description: 'Lag utskrivbare logikkoppgaver: sudoku, finn den som ikke passer, bildeveier og skattejakter. Bygg kritisk tenkning \u2014 gratis og klart p\u00e5 sekunder. Hent n\u00e5.',
       keywords: 'logikkoppgaver barn, hjernetrim skrive ut, sudoku for barn, finn den som ikke passer arbeidsark, kritisk tenkning aktiviteter, probleml\u00f8sning arbeidsark, bildevei puslespill, skattejakt utskrivbar, logisk resonnement barn, tenkeferdigheter arbeidsark',
       heading: 'Logikkoppgave- og hjernetrimgeneratorer',
       name: 'Logikkoppgaver',
@@ -2145,7 +2145,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
       ],
     },
     no: {
-      title: 'Visuell persepsjon \u2014 arbeidsark for barn',
+      title: 'Gratis Visuell Persepsjon Arbeidsark for Barn \u2014 Print',
       description: 'Lag utskrivbare ark for visuell persepsjon: s\u00f8k og tell, gjemte gjenstander og manglende brikker. Skjerp observasjonsevnen \u2014 gratis og klart p\u00e5 sekunder.',
       keywords: 'visuell persepsjon arbeidsark, s\u00f8k og tell, gjemte gjenstander utskrivbare, manglende puslespillbrikker barn, observasjonsevne \u00f8velser, visuell diskriminering, finn forskjellen utskrivbar, telling med bilder, visuell oppmerksomhet, perseptuelle ferdigheter barn',
       heading: 'Generatorer for visuell persepsjon',
@@ -2365,7 +2365,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
     },
     no: {
       title: 'Koble- og sorterings\u00f8velser \u2014 Gratis utskrivbare aktiviteter',
-      description: 'Gratis koble- og sorterings\u00f8velser for barn. Klassifisering, sammenligning og visuell diskriminering fra barnehage til 3. trinn.',
+      description: 'Gratis koble- og sorterings\u00f8velser for barn. Klassifisering, sammenligning og visuell diskriminering fra barnehage til 3. trinn. Velg mellom 3 000+ bilder.',
       keywords: 'koble\u00f8velser, sorterings\u00f8velser, klassifisering arbeidsark, sammenligne og ordne, visuell diskriminering, koblingsspill barn, sorteringsoppgaver, barnehage kobling, sortere bilder, st\u00f8rrelsessammenligning',
       heading: 'Generatorer for koblings- og sorteringsarbeidsark',
       name: 'Kobling & Sortering',
@@ -2553,7 +2553,7 @@ export const categoryContent: Record<CategorySlug, Record<string, CategoryConten
     },
     no: {
       title: 'M\u00f8nster- og finmotorikk-arbeidsark \u2014 Gratis sporings\u00f8velser',
-      description: 'Lag gratis arbeidsark for m\u00f8nstergjenkjenning og finmotorikk. Sporing, rekkef\u00f8lger og \u00f8ye-h\u00e5nd-koordinasjon fra barnehage til 3. trinn.',
+      description: 'Lag gratis arbeidsark for m\u00f8nstergjenkjenning og finmotorikk. Sporing, rekkef\u00f8lger og \u00f8ye-h\u00e5nd-koordinasjon fra barnehage til 3. trinn. Ingen registrering.',
       keywords: 'm\u00f8nster arbeidsark, finmotorikk aktiviteter, sporings\u00f8velser, \u00f8ye-h\u00e5nd-koordinasjon, m\u00f8nstergjenkjenning, rekkef\u00f8lger \u00f8ve barn, barnehage sporing, tegne linjer arbeidsark, m\u00f8nstre fylle inn, bildebingo barn',
       heading: 'Generatorer for m\u00f8nster- og finmotorikk-arbeidsark',
       name: 'M\u00f8nstre & Finmotorikk',

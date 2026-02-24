@@ -280,8 +280,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     no: {
-      title: 'F\u00f8rskolearbeidsark 3\u20134 \u00e5r \u2014 Gratis utskrivbare',
-      description: 'Gratis utskrivbare f\u00f8rskolearbeidsark for barn p\u00e5 3\u20134 \u00e5r. Fargelegging, sporing, kobling, m\u00f8nstre og st\u00f8rrelsessammenligning for tidlig l\u00e6ring.',
+      title: 'Gratis F\u00f8rskole-Arbeidsark til Barn p\u00e5 3\u20134 \u00c5r \u2014 Print',
+      description: 'Gratis utskrivbare f\u00f8rskolearbeidsark for barn p\u00e5 3\u20134 \u00e5r. Fargelegging, sporing, kobling, m\u00f8nstre og st\u00f8rrelsessammenligning for tidlig l\u00e6ring. Hent n\u00e5.',
       keywords: 'f\u00f8rskolearbeidsark, gratis aktiviteter 3-4 \u00e5r, fargeleggingsbilder f\u00f8rskole, sporing f\u00f8rskole, koblingsspill sm\u00e5barn, m\u00f8nstergjenkjenning, st\u00f8rrelsessammenligning, tidlig l\u00e6ring, finmotorikk f\u00f8rskole, f\u00f8rskole\u00f8velser gratis',
       heading: 'F\u00f8rskolearbeidsark for barn p\u00e5 3\u20134 \u00e5r',
       name: 'F\u00f8rskole',
@@ -479,8 +479,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     no: {
-      title: 'Arbeidsark f\u00f8rskole 5\u20136 \u00e5r \u2014 Gratis',
-      description: 'Gratis utskrivbare arbeidsark for f\u00f8rskole, 5\u20136 \u00e5r. Addisjon, alfabet, ordjakten, fargelegging, telling, m\u00f8nstre.',
+      title: 'Gratis Utskrivbare Arbeidsark F\u00f8rskole 5\u20136 \u00c5r \u2014 PDF',
+      description: 'Gratis utskrivbare arbeidsark for f\u00f8rskole, 5\u20136 \u00e5r. Addisjon, alfabet, ordjakten, fargelegging, telling, m\u00f8nstre. Velg mellom 3 000+ tematiske bilder.',
       keywords: 'arbeidsark f\u00f8rskole, gratis aktiviteter 5-6 \u00e5r, matte f\u00f8rskole, alfabet arbeidsark, ordjakten barn, telle\u00f8velser, m\u00f8nster arbeidsark, sorterings\u00f8velser, skyggekobling, skolemodenhet gratis',
       heading: 'Arbeidsark for f\u00f8rskole \u2014 5\u20136 \u00e5r',
       name: 'F\u00f8rskole',
@@ -679,7 +679,7 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
     },
     no: {
       title: 'Arbeidsark 1. klasse 6\u20137 \u00e5r \u2014 Gratis matte- og lese\u00f8velser',
-      description: 'Gratis utskrivbare arbeidsark for 1. klasse, 6\u20137 \u00e5r. Regning, subtraksjon, bokstavpuslespill, kryssord, sudoku, skjulte gjenstander.',
+      description: 'Gratis utskrivbare arbeidsark for 1. klasse, 6\u20137 \u00e5r. Regning, subtraksjon, bokstavpuslespill, kryssord, sudoku, skjulte gjenstander. Ingen registrering.',
       keywords: 'arbeidsark 1. klasse, gratis \u00f8velser 6-7 \u00e5r, matte 1. klasse, subtraksjons\u00f8velser, ordpuslespill barn, kryssord skole, sudoku barn, skjulte gjenstander, rutenettkobling, skrive\u00f8velser 1. klasse',
       heading: 'Arbeidsark for 1. klasse \u2014 6\u20137 \u00e5r',
       name: '1. klasse',
@@ -878,7 +878,7 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
     },
     no: {
       title: 'Arbeidsark 2. klasse 7\u20138 \u00e5r \u2014 Gratis matte- og spr\u00e5k\u00f8velser',
-      description: 'Gratis utskrivbare arbeidsark for 2. klasse, 7\u20138 \u00e5r. Mattepuslespill, kodeaddisjon, ordgjetting, kryptogrammer, finn utskilleren, bildestier.',
+      description: 'Gratis utskrivbare arbeidsark for 2. klasse, 7\u20138 \u00e5r. Mattepuslespill, kodeaddisjon, ordgjetting, kryptogrammer, finn utskilleren, bildestier. Skriv ut n\u00e5.',
       keywords: 'arbeidsark 2. klasse, gratis \u00f8velser 7-8 \u00e5r, mattepuslespill, kodeaddisjon, ordgjetting barn, kryptogram, finn utskilleren, bildesti, preposisjoner \u00f8velser, mer eller mindre sammenligning',
       heading: 'Arbeidsark for 2. klasse \u2014 7\u20138 \u00e5r',
       name: '2. klasse',
@@ -1076,8 +1076,8 @@ export const gradeContent: Record<GradeSlug, Record<string, GradeContent>> = {
       ],
     },
     no: {
-      title: '3. Trinn Oppgaver \u2014 Matte, G\u00e5ter & Logikk',
-      description: 'Gratis oppgaver for 3. trinn: matte, sudoku, logiske g\u00e5ter og kritisk tenkning. Last ned som PDF med en gang for skole eller hjemme.',
+      title: 'Gratis 3. Trinn Oppgaver \u2014 Matte, G\u00e5ter & Logikk \u2014 PDF',
+      description: 'Gratis oppgaver for 3. trinn: matte, sudoku, logiske g\u00e5ter og kritisk tenkning. Last ned som PDF med en gang for skole eller hjemme. Ingen registrering.',
       keywords: 'oppgaver 3 trinn, matte tredje trinn, logiske g\u00e5ter barn, sudoku skole, kritisk tenkning, gratis oppgaver, \u00f8velser 3 trinn, tankespill, aktiviteter 3 trinn, undervisningsmateriell',
       heading: 'Oppgaver for 3. Trinn \u2014 Matte, G\u00e5ter & Kritisk Tenkning',
       name: '3. Trinn',

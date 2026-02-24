@@ -17,7 +17,7 @@ export const crosswordNoContent: ProductPageContent = {
     slug: 'bildekryssord-arbeidsark',
     appId: 'crossword',
     title: 'Gratis Bildekryssord Generator | LessonCraftStudio',
-    description: 'Lag printbare bildekryssord der bilder er ledetråder. Utvikler ordforråd og staving fra førskole til 3. klasse. Last ned gratis PDF med en gang.',
+    description: 'Lag printbare bildekryssord der bilder er ledetråder. Utvikler ordforråd og staving fra førskole til 3. klasse. Last ned gratis PDF med en gang. Hent nå.',
     keywords: 'bildekryssord generator, bildekryssord oppgaver, kryssord til barn printbar, bildebaserte kryssord, kryssord førskole, ordforråd kryssord, bilde-kryssord printbar, staving kryssord, kryssord med bilder, barns kryssord, kryssord oppgave førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildekryssord-arbeidsark',
   },

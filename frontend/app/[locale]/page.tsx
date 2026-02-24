@@ -75,7 +75,7 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Professionelle arbejdsark-generatorer'
   },
   no: {
-    title: 'Gratis Arbeidsark Generatorer | LessonCraftStudio',
+    title: 'Gratis Arbeidsark Generatorer til Barn | LessonCraftStudio',
     description: 'Lag arbeidsark med 33 generatorer og 3 000+ bilder. Matte, fargelegging, ordsøk & puslespill. Last ned PDF direkte. Gratis, ingen registrering nødvendig.',
     keywords: 'arbeidsark gratis, matteoppgaver, fargeleggingsbilder barn, oppgavehefter barn, gangetabellen, addisjon subtraksjon, finmotorikk øvelser, bokstaver lære skrive, lesetrening, arbeidsark generatorer',
     ogAlt: 'LessonCraftStudio - Profesjonelle arbeidsark-generatorer'

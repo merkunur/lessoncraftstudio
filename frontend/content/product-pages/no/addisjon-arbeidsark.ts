@@ -16,7 +16,7 @@ export const additionNoContent: ProductPageContent = {
     slug: 'addisjon-arbeidsark',
     appId: 'addition',
     title: 'Gratis Addisjon Generator til Barn | LessonCraftStudio',
-    description: 'Lag printbare plussoppgaver med bilder til førskole–3. klasse. 3 000+ bilder, tilpass vanskelighetsgrad og få fasit. Last ned gratis PDF med en gang.',
+    description: 'Lag printbare plussoppgaver med bilder til førskole–3. klasse. 3 000+ bilder, tilpass vanskelighetsgrad og få fasit. Last ned gratis PDF med en gang. Hent nå.',
     keywords: 'addisjon oppgave generator, plussoppgaver arbeidsark gratis, addisjon oppgaver barnehage, bildebaserte plussoppgaver, matematikk arbeidsark gratis, plussoppgaver med bilder, printbare regneoppgaver, addisjon fasit, lære å legge sammen, plussoppgaver 1. klasse, addisjon øvelser barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/addisjon-arbeidsark',
       },

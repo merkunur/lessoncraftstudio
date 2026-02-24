@@ -16,7 +16,7 @@ export const drawingLinesNoContent: ProductPageContent = {
     slug: 'tegning-av-linjer-arbeidsark',
     appId: 'drawing-lines',
     title: 'Linjetegning Generator — Gratis | LessonCraftStudio',
-    description: 'Lag printbare linjetegningsoppgaver til finmotorikk-utvikling. Rette linjer, buer og bølger fra førskole til 1. klasse. Last ned gratis PDF.',
+    description: 'Lag printbare linjetegningsoppgaver til finmotorikk-utvikling. Rette linjer, buer og bølger fra førskole til 1. klasse. Last ned gratis PDF. Skriv ut nå.',
     keywords: 'linjetegning generator, linjetegning oppgaver, finmotorikk øvelser, linjefølging oppgave, blyantgrep øvelser, tegning trening førskole, finmotorikk førskole, skriveforberedelse øvelse, blyantgrep trening, linjer og former øvelse, tegnetrening til barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/tegning-av-linjer-arbeidsark',
       },

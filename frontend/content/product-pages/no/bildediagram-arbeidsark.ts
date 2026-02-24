@@ -15,8 +15,8 @@ export const chartCountNoContent: ProductPageContent = {
   seo: {
     slug: 'bildediagram-arbeidsark',
     appId: 'chart-count',
-    title: 'Gratis Bildediagram Generator | LessonCraftStudio',
-    description: 'Lag printbare bildediagram-oppgaver til telling og datavisualisering. Tell og fargelegg diagrammer fra førskole til 3. klasse. Gratis PDF.',
+    title: 'Gratis Bildediagram Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare bildediagram-oppgaver til telling og datavisualisering. Tell og fargelegg diagrammer fra førskole til 3. klasse. Gratis PDF. 3 000+ bilder.',
     keywords: 'bildediagram generator, bildediagram oppgaver, tell og fargelegg, datavisualisering til barn, søylediagram førskole, bildediagram printbar, telling og fargelegging, statistikkoppgaver til barn, diagram printbar, statistikk førskole, bildediagram øvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
       },

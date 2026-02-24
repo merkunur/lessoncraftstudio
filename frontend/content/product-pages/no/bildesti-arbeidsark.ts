@@ -17,8 +17,8 @@ export const bildestiNoContent: ProductPageContent = {
   seo: {
     slug: 'bildesti-arbeidsark',
     appId: 'picture-path',
-    title: 'Gratis Bildesti Generator | LessonCraftStudio',
-    description: 'Lag printbare bildesti-oppgaver der barnet følger bilderuter. Utvikler logisk tenkning og finmotorikk. Førskole til 2. klasse. Gratis.',
+    title: 'Gratis Bildesti Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare bildesti-oppgaver der barnet følger bilderuter. Utvikler logisk tenkning og finmotorikk. Førskole til 2. klasse. Gratis. Ingen registrering.',
     keywords: 'bildesti generator, bildesti oppgaver, labyrint oppgaver til barn, labyrint printbar, rutefølging, bilde-labyrint øvelse, sti oppgaver førskole, labyrintøvelser til barn, labyrint printbar barn, ruteøvelser, visuell rutefølging',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildesti-arbeidsark',
   },

@@ -73,8 +73,8 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       description: 'Opdag 100+ ekspertartikler om undervisningsstrategier, arbejdsarkdesign og gratis uddannelsesressourcer. Guider til l\u00e6rere og for\u00e6ldre. Nye artikler hver uge.'
     },
     no: {
-      title: 'Undervisningsressurser & Arbeidsark Tips Blogg | 100+ Ekspertartikler | LessonCraftStudio',
-      description: 'Oppdag 100+ ekspertartikler om undervisningsstrategier, arbeidsarkdesign og gratis utdanningsressurser. Guider for l\u00e6rere og foreldre.'
+      title: 'Utdanningsblogg \u2014 Arbeidsark Tips | LessonCraftStudio',
+      description: 'Oppdag 100+ ekspertartikler om undervisningsstrategier, arbeidsarkdesign og gratis utdanningsressurser. Guider for l\u00e6rere og foreldre. Nye artikler hver uke.'
     },
     fi: {
       title: 'Opetusmateriaalit ja Ty\u00f6arkkivinkit | LessonCraftStudio',

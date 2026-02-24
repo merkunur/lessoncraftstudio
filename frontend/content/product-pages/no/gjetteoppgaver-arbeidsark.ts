@@ -15,8 +15,8 @@ export const wordGuessNoContent: ProductPageContent = {
   seo: {
     slug: 'gjetteoppgaver-arbeidsark',
     appId: 'word-guess',
-    title: 'Gratis Gjett Ordet Generator | LessonCraftStudio',
-    description: 'Lag printbare gjett-ordet-oppgaver der barnet gjetter ord ut fra bildelededtråder. Utvikler ordforråd og slutningsferdigheter. Gratis PDF.',
+    title: 'Gratis Gjett Ordet Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare gjett-ordet-oppgaver der barnet gjetter ord ut fra bildelededtråder. Utvikler ordforråd og slutningsferdigheter. Gratis PDF. 3 000+ bilder.',
     keywords: 'gjett ordet generator, gjett ordet oppgaver, ordgåte med bilder, ordforråd øvelse, bildebasert ordoppgave, gjetteoppgave til barn, bildelededtråd oppgave, ords slutning, ordgåte printbar, ordforråd utvidelse, bildelededtråd ordoppgave',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/gjetteoppgaver-arbeidsark',
   },

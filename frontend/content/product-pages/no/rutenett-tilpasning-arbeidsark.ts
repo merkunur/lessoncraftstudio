@@ -16,7 +16,7 @@ export const gridMatchNoContent: ProductPageContent = {
     slug: 'rutenett-tilpasning-arbeidsark',
     appId: 'grid-match',
     title: 'Gratis Rutenett-Puslespill Generator | LessonCraftStudio',
-    description: 'Lag printbare rutenett-puslespill til visuell oppfatning og romlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF-nedlasting.',
+    description: 'Lag printbare rutenett-puslespill til visuell oppfatning og romlig forståelse. 50 temaer fra førskole til 3. klasse. Gratis PDF-nedlasting. Skriv ut nå.',
     keywords: 'rutenett-puslespill generator, rutenett-puslespill oppgaver, visuelt puslespill til barn, romlig forståelse, mønster matching, ruteoppgaver printbar, oppfatning øvelse, visuell logikk til barn, matchingsøvelser førskole, rutenett puslespill, romlig oppfatning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
       },

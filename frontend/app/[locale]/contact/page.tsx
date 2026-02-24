@@ -11,6 +11,11 @@ const contactPageMeta: Record<string, { title: string; description: string; keyw
     description: 'Kontakt LessonCraftStudio for sp\u00f8rgsm\u00e5l om arbejdsark, abonnementer eller teknisk support. Vi svarer inden for 24 timer. Gratis hj\u00e6lp til l\u00e6rere og for\u00e6ldre.',
     keywords: 'kontakt LessonCraftStudio, support, hj\u00e6lp, sp\u00f8rgsm\u00e5l, kundeservice, l\u00e6rerv\u00e6rkt\u00f8j support',
   },
+  no: {
+    title: 'Kontakt Oss \u2014 F\u00e5 Hjelp & Support | LessonCraftStudio',
+    description: 'Kontakt LessonCraftStudio for sp\u00f8rsm\u00e5l om arbeidsark, abonnementer eller teknisk support. Vi svarer innen 24 timer. Gratis hjelp til l\u00e6rere og foreldre.',
+    keywords: 'kontakt LessonCraftStudio, support, hjelp, sp\u00f8rsm\u00e5l, kundeservice, l\u00e6rerverkt\u00f8y support',
+  },
 };
 
 export default function ContactPage() {

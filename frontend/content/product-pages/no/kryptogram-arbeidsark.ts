@@ -16,8 +16,8 @@ export const cryptogramNoContent: ProductPageContent = {
   seo: {
     slug: 'kryptogram-arbeidsark',
     appId: 'cryptogram',
-    title: 'Bildekryptogram Generator | LessonCraftStudio',
-    description: 'Lag printbare bildekryptogrammer der bokstaver erstattes av bilder. Utvikler avkodingsferdigheter og leseberedskap. Førskole til 3. klasse.',
+    title: 'Bildekryptogram Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare bildekryptogrammer der bokstaver erstattes av bilder. Utvikler avkodingsferdigheter og leseberedskap. Førskole til 3. klasse. Skriv ut nå.',
     keywords: 'bildekryptogram generator, bildekryptogram oppgaver, hemmelig skrift til barn, avkodingsoppgave, hemmelig språk løsning, bildekoding øvelse, hemmeligord oppgave, kryptogram printbar, symbol avkoding, hemmelig melding øvelse, leseberedskapsøvelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kryptogram-arbeidsark',
   },

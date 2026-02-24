@@ -17,8 +17,8 @@ export const prepositionsNoContent: ProductPageContent = {
   seo: {
     slug: 'preposisjoner-arbeidsark',
     appId: 'prepositions',
-    title: 'Preposisjonsøvelse Generator | LessonCraftStudio',
-    description: 'Lag printbare preposisjonsøvelser med stedsord og bilder. Foran, bak, under, over — visuell språklæring for barn. Last ned gratis PDF med en gang.',
+    title: 'Preposisjonsøvelse Generator til Barn | LessonCraftStudio',
+    description: 'Lag printbare preposisjonsøvelser med stedsord og bilder. Foran, bak, under, over — visuell språklæring for barn. Last ned gratis PDF med en gang. Hent nå.',
     keywords: 'preposisjonsøvelse generator, preposisjonsøvelser, stedsord til barn, preposisjoner førskole, stedsord øvelse, foran bak oppgaver, stedsbegreper til barn, preposisjoner printbar, grammatikk øvelser førskole, visuell språklæring, stedsbeskrivelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/preposisjoner-arbeidsark',
   },

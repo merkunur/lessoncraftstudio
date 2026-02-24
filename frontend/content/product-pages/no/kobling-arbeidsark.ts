@@ -15,8 +15,8 @@ export const matchingNoContent: ProductPageContent = {
   seo: {
     slug: 'kobling-arbeidsark',
     appId: 'matching',
-    title: 'Gratis Koblingsoppgave Generator til Barn | LessonCraftStudio',
-    description: 'Lag printbare koblingsoppgaver med bilder. Utvikl hukommelse og mønstergjenkjenning fra førskole til 3. klasse. 50 temaer. Last ned gratis PDF.',
+    title: 'Gratis Koblingsoppgave Generator | LessonCraftStudio',
+    description: 'Lag printbare koblingsoppgaver med bilder. Utvikl hukommelse og mønstergjenkjenning fra førskole til 3. klasse. 50 temaer. Last ned gratis PDF. Hent nå.',
     keywords: 'koblingsoppgave generator, koblingsoppgaver, parring til barn, hukommelsesspill printbar, parringsøvelse førskole, mønstergjenkjenning øvelse, visuell parring, bildeparring oppgave, parøvelse printbar, hukommelse og parring, koblingsoppgaver førskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
       },

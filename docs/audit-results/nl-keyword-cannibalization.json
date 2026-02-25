@@ -1,0 +1,1524 @@
+{
+  "timestamp": "2026-02-25T22:33:05.889Z",
+  "part": 333,
+  "locale": "nl",
+  "gradePages": {
+    "total": 250,
+    "updated": 250,
+    "errors": [],
+    "validations": [
+      {
+        "key": "alphabet/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "alphabet/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "alphabet/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "alphabet/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "alphabet/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "animals/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "animals/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "animals/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "animals/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "animals/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birds/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birds/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birds/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birds/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birds/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birthday/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birthday/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birthday/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birthday/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "birthday/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "body/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "body/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "body/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "body/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "body/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "camping/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "camping/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "camping/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "camping/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "camping/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "circus/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "circus/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "circus/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "circus/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "circus/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "clothing/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "clothing/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "clothing/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "clothing/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "clothing/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "colors/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "colors/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "colors/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "colors/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "colors/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "construction/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "construction/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "construction/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "construction/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "construction/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "cooking/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "cooking/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "cooking/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "cooking/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "cooking/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "dinosaurs/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "dinosaurs/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "dinosaurs/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "dinosaurs/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "dinosaurs/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "easter/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "easter/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "easter/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "easter/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "easter/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "emotions/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "emotions/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "emotions/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "emotions/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "emotions/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fairy-tales/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fairy-tales/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fairy-tales/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fairy-tales/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fairy-tales/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "farm/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "farm/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "farm/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "farm/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "farm/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "flowers/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "flowers/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "flowers/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "flowers/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "flowers/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "food/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "food/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "food/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "food/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "food/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "forest/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "forest/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "forest/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "forest/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "forest/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fruits/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fruits/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fruits/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fruits/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "fruits/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "furniture/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "furniture/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "furniture/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "furniture/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "furniture/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "garden/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "garden/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "garden/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "garden/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "garden/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "halloween/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "halloween/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "halloween/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "halloween/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "halloween/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "holidays/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "holidays/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "holidays/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "holidays/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "holidays/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "household/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "household/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "household/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "household/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "household/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "insects/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "insects/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "insects/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "insects/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "insects/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "jobs/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "jobs/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "jobs/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "jobs/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "jobs/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "music/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "music/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "music/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "music/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "music/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "nature/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "nature/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "nature/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "nature/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "nature/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "numbers/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "numbers/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "numbers/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "numbers/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "numbers/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "ocean/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "ocean/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "ocean/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "ocean/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "ocean/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pets/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pets/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pets/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pets/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pets/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pirates/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pirates/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pirates/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pirates/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "pirates/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "robots/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "robots/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "robots/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "robots/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "robots/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "school/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "school/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "school/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "school/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "school/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "seasons/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "seasons/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "seasons/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "seasons/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "seasons/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "shapes/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "shapes/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "shapes/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "shapes/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "shapes/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "space/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "space/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "space/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "space/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "space/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "sports/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "sports/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "sports/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "sports/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "sports/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "spring/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "spring/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "spring/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "spring/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "spring/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "summer/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "summer/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "summer/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "summer/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "summer/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "superheroes/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "superheroes/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "superheroes/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "superheroes/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "superheroes/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "toys/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "toys/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "toys/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "toys/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "toys/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "transportation/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "transportation/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "transportation/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "transportation/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "transportation/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "travel/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "travel/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "travel/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "travel/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "travel/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "vegetables/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "vegetables/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "vegetables/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "vegetables/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "vegetables/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "weather/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "weather/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "weather/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "weather/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "weather/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "winter/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "winter/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "winter/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "winter/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "winter/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "xmas/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "xmas/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "xmas/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "xmas/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "xmas/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "zoo/preschool",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "zoo/kindergarten",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "zoo/first-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "zoo/second-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      },
+      {
+        "key": "zoo/third-grade",
+        "before": 10,
+        "after": 10,
+        "valid": true
+      }
+    ]
+  },
+  "cannibalization": [],
+  "summary": {
+    "totalGradePages": 250,
+    "updated": 250,
+    "errors": 0,
+    "criticalCannibalization": 0,
+    "warnings": 0,
+    "allPagesMinKeywords": 10,
+    "allPagesMaxKeywords": 10,
+    "avgKeywordsPerPage": "10.0",
+    "questionsGenerated": 750
+  }
+}

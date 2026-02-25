@@ -29,16 +29,16 @@ export const imageCrosswordNlContent: ProductPageContent = {
   seo: {
     slug: 'kruiswoordpuzzel-werkbladen',
     appId: 'crossword',
-    title: 'Kruiswoordpuzzel Werkbladen - Oefenbladen Gratis voor Werkbladen',
-    description: 'Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en.',
-    keywords: 'kruiswoordpuzzel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',
+    title: 'Gratis Kruiswoordpuzzel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare beeldkruiswoorden voor kinderen. Afbeeldingsaanwijzingen in plaats van tekst. Ontwikkel woordenschat van kleuterschool tot groep 5. Gratis PDF.',
+    keywords: 'kruiswoordpuzzel generator, kruiswoordpuzzel oefeningen, kruiswoord kinderen uitprintbaar, kruiswoordpuzzel kleuterschool, woordenschat kruiswoord, kruiswoord met afbeeldingen, eenvoudige kruiswoorden kinderen, beeldgebaseerde kruiswoorden, spelling-kruiswoord, kruiswoord gratis kinderen, kruiswoord basisschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kruiswoordpuzzel-werkbladen',
       },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
   hero: {
-    title: 'Kruiswoordpuzzel Werkbladen',
-    subtitle: 'Oefenbladen Gratis voor Werkbladen Groep 3 en Kleuters',
+    title: 'Kruiswoordpuzzel Generator',
+    subtitle: 'Uitprintbare Kruiswoorden met Beeldaanwijzingen voor Kinderen',
     description: `Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en oefenbladen zonder extra kosten per werkblad. Genereer gepersonaliseerde kruiswoordpuzzels voor letters leren en rekenen werkbladen. Download hoogwaardige PDF-bestanden in minder dan 3 minuten.
 
 Onze kruiswoordpuzzel generator combineert beelden met woordenschat oefening. Perfect voor werkbladen kleuters en werkbladen groep 3 die schrijven oefenen en letters leren. Elk werkblad ondersteunt fijne motoriek ontwikkeling terwijl kinderen puzzels oplossen. Ideaal voor veilig leren lezen en tafels oefenen met visuele ondersteuning.

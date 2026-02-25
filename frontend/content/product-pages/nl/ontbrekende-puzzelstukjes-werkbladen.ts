@@ -27,16 +27,16 @@ export const missingPiecesNlContent: ProductPageContent = {
   seo: {
     slug: 'ontbrekende-puzzelstukjes-werkbladen',
     appId: 'missing-pieces',
-    title: 'Gratis Werkbladen Ontbrekende Puzzelstukjes | Generator voor Kleuters',
-    description: 'Maak gratis werkbladen ontbrekende puzzelstukjes voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten.',
-    keywords: 'ontbrekende puzzelstukjes werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, puzzel werkbladen',
+    title: 'Gratis Ontbrekende Stukjes Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare ontbrekende-stukjes-oefeningen voor kinderen. Ontwikkel ruimtelijk inzicht en visuele analyse. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'ontbrekende stukjes generator, ontbrekende stukjes oefeningen, puzzel aanvullen kinderen, visuele analyse oefening, ontbrekende stukjes uitprintbaar, beeldpuzzel kinderen, ruimtelijk inzicht oefening, maak het plaatje af, visuele aandacht puzzel, ontbrekende delen oefening, beeldanalyse kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
       },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-2
   hero: {
-    title: 'Gratis Werkblad Ontbrekende Puzzelstukjes - Werkblad voor Kinderen',
-    subtitle: 'Gratis Printables en Werkblad voor Kleuters - Oefenbladen Gratis',
+    title: 'Ontbrekende Stukjes Generator',
+    subtitle: 'Visuele Analyse-oefeningen van Kleuterschool tot Groep 5',
     description: `Maak professionele puzzel werkbladen met onze ontbrekende puzzelstukjes generator. Jouw Volledige Toegang abonnement geeft je onbeperkte werkblad creatie zonder kosten per werkblad. Genereer aangepaste puzzel oefenbladen perfect voor kleuters en groep 3 leerlingen. Download hoogwaardige PDF werkbladen in minder dan drie minuten.
 
 Ontbrekende puzzelstukjes puzzels trainen visuele discriminatie en probleemoplossend vermogen. Leerlingen analyseren een afbeelding met ontbrekende stukken. Ze selecteren het juiste puzzelstuk uit meerdere opties. Deze oefenbladen gratis ontwikkelen fijne motoriek en concentratie.

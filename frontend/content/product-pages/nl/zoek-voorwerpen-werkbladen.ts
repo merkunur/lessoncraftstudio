@@ -35,16 +35,16 @@ export const findObjectsNlContent: ProductPageContent = {
   seo: {
     slug: 'zoek-voorwerpen-werkbladen',
     appId: 'find-objects',
-    title: 'Zoek Voorwerpen Werkbladen - Gratis Werkblad voor Kinderen Groep 1 2',
-    description: 'Maak professionele zoekwerkbladen met onze gebruiksvriendelijke generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor.',
-    keywords: 'zoek voorwerpen werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, I Spy werkbladen',
+    title: 'Zoek Voorwerpen Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare zoek-voorwerpen-oefeningen voor kinderen. Ontwikkel visuele aandacht en concentratie. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'zoek voorwerpen generator, zoek voorwerpen oefeningen, zoekoefeningen kinderen, visuele aandacht, zoek verborgen voorwerpen, concentratie-oefening kinderen, zoek voorwerpen uitprintbaar, aandachtsoefening, verborgen plaatjes oefening, visueel zoeken kinderen, zoek het verschil oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-voorwerpen-werkbladen',
       },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-2
   hero: {
-    title: 'Zoek de Voorwerpen Werkbladen',
-    subtitle: 'Gratis Werkbladen voor Kleuters en Groep 3 Kinderen',
+    title: 'Zoek Voorwerpen Generator',
+    subtitle: 'Ontwikkel Visuele Aandacht met Zoekoefeningen',
     description: `Maak professionele zoekwerkbladen met onze gebruiksvriendelijke generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor kleuters en groep 3 leerlingen. Download printklare oefenbladen gratis van extra kosten per werkblad. Genereer in minder dan drie minuten prachtige zoekactiviteiten.
 
 Onze zoekgenerator biedt twee unieke modi voor werkbladen groep 3 en werkbladen kleuters. De eerste modus is "I Spy" waarbij kinderen verborgen voorwerpen zoeken tussen afleidende afbeeldingen. De tweede modus is "Vind de Vreemde Eend" waarbij leerlingen afbeeldingen zonder paar moeten identificeren.

@@ -27,16 +27,16 @@ export const gridMatchNlContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzel-werkbladen',
     appId: 'grid-match',
-    title: 'Gratis Werkblad Raster-Puzzel Generator | Werkbladen Kleuters Groep 3',
-    description: 'Maak gratis werkbladen raster-puzzel in 3 minuten. Visuele puzzels voor werkbladen kleuters en groep 3. Download PDF werkbladen direct - geen ontwerpkennis.',
-    keywords: 'grid match werkbladen, puzzelwerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele puzzels, veilig leren lezen, rekenen werkbladen, ruimtelijk inzicht, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Gratis Rasterpuzzel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare rasterpuzzeloefeningen met afbeeldingen. Logisch denken en probleemoplossing van kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'rasterpuzzel generator, rasterpuzzel oefeningen, logicapuzzel kinderen, rasteroefening uitprintbaar, probleemoplossing kinderen, patroonherkenning raster, matrixoefening kinderen, logisch denken oefening, puzzel werkbladen, rasterpuzzel kleuterschool, visuele logica kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
       },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-2
   hero: {
-    title: 'Grid Match Werkbladen',
-    subtitle: 'Gratis Oefenbladen voor Visueel Leren en Fijne Motoriek',
+    title: 'Rasterpuzzel Generator',
+    subtitle: 'Uitprintbare Logicaoefeningen met Rasterpuzzels',
     description: `Maak professionele grid match werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement creëer je onbeperkt puzzelwerkbladen zonder extra kosten per werkblad. Deze unieke werkbladen ontwikkelen het visueel onderscheidend vermogen van kinderen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Grid match werkbladen zijn visuele puzzels waarbij kinderen ontbrekende stukjes moeten vinden. Een afbeelding wordt verdeeld in een raster. Sommige vakjes worden verwijderd. Kinderen bepalen welk puzzelstukje waar hoort. Dit versterkt het ruimtelijk inzicht en probleemoplossend denken.

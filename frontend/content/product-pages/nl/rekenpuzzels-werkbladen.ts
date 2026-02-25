@@ -29,16 +29,16 @@ export const mathPuzzleNlContent: ProductPageContent = {
   seo: {
     slug: 'rekenpuzzels-werkbladen',
     appId: 'math-puzzle',
-    title: 'Rekenpuzzels Werkbladen Groep 3 - Oefenbladen Gratis voor Rekenen en',
-    description: 'Maak professionele rekenpuzzels met onze math puzzle generator voor groep 1 2 en groep 3. Perfect voor leerkrachten die werkbladen kleuters en rekenen.',
-    keywords: 'rekenpuzzels werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, rekenen werkbladen, sommen tot 20, tafels oefenen, fijne motoriek, kleurplaten, veilig leren lezen',
+    title: 'Gratis Rekenpuzzel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare rekenpuzzels voor kinderen. Ontwikkel logisch denken en probleemoplossing met afbeeldingen. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'rekenpuzzel generator, rekenpuzzel oefeningen, wiskunde puzzel kinderen, logica rekenen, rekenraadsel kinderen, rekenpuzzel uitprintbaar, probleemoplossing rekenen, algebra kinderen, rekenen logicaoefening, rekenpuzzel basisschool, symbolisch rekenen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenpuzzels-werkbladen',
       },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-3
   hero: {
-    title: 'Rekenpuzzels Werkbladen Groep 3',
-    subtitle: 'Oefenbladen Gratis voor Rekenen en Sommen tot 20',
+    title: 'Rekenpuzzel Generator',
+    subtitle: 'Logische Rekenpuzzels van Kleuterschool tot Groep 5',
     description: `Maak professionele rekenpuzzels met onze math puzzle generator voor groep 1 2 en groep 3. Perfect voor leerkrachten die werkbladen kleuters en rekenen werkbladen nodig hebben. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van oefenbladen zonder extra kosten per werkblad. Genereer gepersonaliseerde rekenpuzzels met optellen en aftrekken voor groep 1 2 en groep 3 leerlingen.
 
 Download hoogwaardige PDF oefenbladen in minder dan 3 minuten. Onze rekenpuzzels werkbladen combineren fijne motoriek met tafels oefenen. Ideaal voor rekenen werkbladen groep 3 en werkbladen kleuters die sommen tot 20 leren. De generator maakt automatisch antwoordsleutels aan.

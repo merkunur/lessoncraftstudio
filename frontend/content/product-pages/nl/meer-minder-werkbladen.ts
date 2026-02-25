@@ -27,16 +27,16 @@ export const moreLessNlContent: ProductPageContent = {
   seo: {
     slug: 'meer-minder-werkbladen',
     appId: 'more-less',
-    title: 'Gratis Werkblad Meer Minder | Werkbladen voor Kleuters en Groep 3',
-    description: 'Maak gratis werkbladen meer minder voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten. Perfect voor leraren en ouders.',
-    keywords: 'meer minder werkbladen, gratis werkblad, werkblad voor kinderen, werkblad voor kleuters, gratis printables, gratis werkbladen, rekenen werkbladen',
+    title: 'Meer of Minder Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare vergelijkingsoefeningen voor kinderen. Meer, minder of evenveel met beeldgebaseerde oefeningen. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'meer of minder generator, meer of minder oefeningen, vergelijkingsoefening kinderen, meer of minder rekenen, groter dan kleiner dan, hoeveelheid vergelijking, vergelijking uitprintbaar, meer minder evenveel oefening, vergelijking kleuterschool, tellen en vergelijken, getalvergelijking kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
       },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-3
   hero: {
-    title: 'Gratis Werkblad Meer Minder - Werkblad voor Kinderen',
-    subtitle: 'Gratis Printables en Werkblad voor Kleuters - Gratis Werkbladen Generator',
+    title: 'Meer of Minder Generator',
+    subtitle: 'Vergelijkingsoefeningen met Afbeeldingen van Kleuterschool tot Groep 5',
     description: `Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Onze werkbladgenerator meer minder helpt leerkrachten bij het maken van rekenen werkbladen voor het vergelijken van getallen. Perfect voor groep 1 2 en groep 3 leerlingen die leren tellen en vergelijken. Elk werkblad is volledig aanpasbaar op het canvas. Sleep afbeeldingen, roteer objecten en pas alles aan voor jouw klas. De generator maakt automatisch zowel werkbladen als antwoordsleutels.

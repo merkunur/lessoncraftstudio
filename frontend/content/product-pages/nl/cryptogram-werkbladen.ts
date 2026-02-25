@@ -29,16 +29,16 @@ export const imageCryptogramNlContent: ProductPageContent = {
   seo: {
     slug: 'cryptogram-werkbladen',
     appId: 'cryptogram',
-    title: 'Cryptogram Werkbladen Generator - Oefenbladen Gratis voor Werkbladen',
-    description: 'Maak professionele cryptogram werkbladen met afbeeldingen met onze cryptogram generator. Met uw Volledige Toegang abonnement creëert u onbeperkt educatieve.',
-    keywords: 'cryptogram werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',
+    title: 'Gratis Cryptogram Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare beeldcryptogrammen voor kinderen. Kraak geheime codes met beeldaanwijzingen. Kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    keywords: 'cryptogram generator, cryptogram oefeningen, geheime code kinderen, cryptogram uitprintbaar, ontcijferoefening kinderen, geheime codes werkbladen, codekraker kinderen, cryptogram kleuterschool, cijferoefening, codering kinderen, geheime berichten oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/cryptogram-werkbladen',
       },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
-    title: 'Cryptogram Werkbladen Generator',
-    subtitle: 'Oefenbladen Gratis voor Werkbladen Groep 3 en Werkbladen Kleuters',
+    title: 'Cryptogram Generator',
+    subtitle: 'Geheime Codes met Beeldaanwijzingen van Kleuterschool tot Groep 5',
     description: `Maak professionele cryptogram werkbladen met afbeeldingen met onze cryptogram generator. Met uw Volledige Toegang abonnement creëert u onbeperkt educatieve werkbladen zonder extra kosten per werkblad. Ontwikkel aangepaste cryptogram werkbladen perfect voor werkbladen groep 3, werkbladen kleuters en groep 1 2. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Onze cryptogram werkblad maker combineert letters leren met puzzelplezier. Elke letter in de zin wordt vervangen door een afbeelding. Kinderen ontcijferen de code door de afbeeldingen te matchen met letters. Deze unieke aanpak maakt letters leren spannend voor kleuters en basisschoolleerlingen.

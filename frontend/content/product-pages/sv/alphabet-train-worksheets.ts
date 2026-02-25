@@ -15,8 +15,8 @@ export const alphabetTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'alfabettag-arbetsblad',
     appId: 'alphabet-train',
-    title: 'Gratis Alfabetståg Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara alfabetståg-övningar för bokstavsinlärning från förskola till årskurs 1. Roligt sätt att lära bokstäver med bilder. Gratis PDF.',
+    title: 'Gratis Alfabetståg Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara alfabetståg-övningar för bokstavsinlärning från förskola till årskurs 1. Roligt sätt att lära bokstäver med bilder. Gratis PDF. Gratis.',
     keywords: 'alfabetståg generator, alfabetståg övningar, bokstäver övning förskola, alfabet utskrivbar, alfabetståg arbetsblad, bokstavigenkänning, alfabetisk ordning övning, bokstavsövningar barn, lära sig läsa, alfabetövningar, begynnelsebokstäver övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
       },

@@ -16,7 +16,7 @@ export const mathWorksheetsSvContent: ProductPageContent = {
     slug: 'matematik-arbetsblad',
     appId: 'math-worksheet',
     title: 'Matematikövning Generator för Barn | LessonCraftStudio',
-    description: 'Skapa visuella matematikövningar med bilder. Addition, subtraktion, jämförelse och talserier från förskola till årskurs 3. Facit ingår. Gratis PDF.',
+    description: 'Skapa visuella matematikövningar med bilder. Addition, subtraktion, jämförelse och talserier från förskola till årskurs 3. Facit ingår. Gratis PDF. PDF.',
     keywords: 'matematikövning generator, matematik övningar lågstadiet, räkneövningar utskrivbara, matematik arbetsblad, matematikövningar förskola, visuella matematikövningar, räkneövningar barn, matematik facit, grundläggande räknesätt övning, matematik utskrivbar gratis, matematik träningsövningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
       },

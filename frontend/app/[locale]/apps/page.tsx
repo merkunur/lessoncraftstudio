@@ -48,8 +48,8 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'werkblad generator platform, educatieve software suite, leerkracht hulpmiddelen, 33 generatoren, lesmaterialen creator, onderwijstechnologie, leerkrachten platform, digitale leermiddelen, educatieve applicatie, klaslokaal tools'
   },
   sv: {
-    title: '33 Gratis Arbetsblad Generatorer | Matte, Spr\u00e5k, Pussel | LessonCraftStudio',
-    description: 'Utforska 33 gratis arbetsblad generatorer. Skapa ordjaktar, korsord, mattearbetsblad, m\u00e5larbilder & mer. Ladda ner utskrivbara PDFer direkt.',
+    title: '33 Arbetsblad Generatorer \u2014 Gratis PDF | LessonCraftStudio',
+    description: 'Utforska 33 gratis arbetsblad generatorer. Skapa ordjaktar, korsord, mattearbetsblad, m\u00e5larbilder & mer. Ladda ner utskrivbara PDFer direkt. Ingen registrering.',
     keywords: 'arbetsblad generator plattform, pedagogisk mjukvara, lärarverktyg, 33 generatorer, lärresurser skapare, utbildningsteknik, lärarplattform, digitala läromedel, pedagogisk applikation, klassrumsverktyg'
   },
   da: {

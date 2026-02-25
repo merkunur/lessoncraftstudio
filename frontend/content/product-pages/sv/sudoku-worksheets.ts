@@ -15,8 +15,8 @@ export const sudokuSvContent: ProductPageContent = {
   seo: {
     slug: 'bildsudoku-arbetsblad',
     appId: 'sudoku',
-    title: 'Barnsudoku Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara bildsudoku för barn. Enkla och medelsvåra logikspel från förskola till årskurs 3. Bilder från 3 000+ bibliotek. Gratis PDF.',
+    title: 'Gratis Barnsudoku Generator — Gratis | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildsudoku för barn. Enkla och medelsvåra logikspel från förskola till årskurs 3. Bilder från 3 000+ bibliotek. Gratis PDF. Gratis PDF.',
     keywords: 'barnsudoku generator, bildsudoku barn, sudoku utskrivbar, barns logikspel, enkel sudoku barn, bildsudoku utskrivbar, sudoku förskola, logikövningar barn, sudoku rutnät barn, tänkande färdigheter träning, sudoku lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
       },

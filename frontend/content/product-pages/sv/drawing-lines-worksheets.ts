@@ -16,7 +16,7 @@ export const drawingLinesSvContent: ProductPageContent = {
     slug: 'rita-linjer-arbetsblad',
     appId: 'drawing-lines',
     title: 'Linjeritning Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara linjeritningsövningar för finmotorik-utveckling. Räta linjer, bågar och vågor från förskola till årskurs 1. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara linjeritningsövningar för finmotorik-utveckling. Räta linjer, bågar och vågor från förskola till årskurs 1. Ladda ner gratis PDF. PDF.',
     keywords: 'linjeritning generator, linjeritning övningar, finmotorik övningar, linjeföljning övning, penngrepp övningar, ritning träning förskola, finmotorik förskola, skrivförberedelse övning, penngrepp träning, linjer och former övning, ritträning barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
       },

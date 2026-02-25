@@ -16,7 +16,7 @@ export const moreLessSvContent: ProductPageContent = {
     slug: 'jamforelse-arbetsblad',
     appId: 'more-less',
     title: 'Fler eller Färre Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara jämförelseövningar för barn. Mer, mindre eller lika med bildbaserade övningar. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara jämförelseövningar för barn. Mer, mindre eller lika med bildbaserade övningar. Förskola till årskurs 3. Ladda ner gratis PDF. Skriv ut.',
     keywords: 'fler eller färre generator, fler eller färre övningar, jämförelseövning barn, mer eller mindre matematik, större än mindre än, antal jämförelse, jämförelse utskrivbar, mer färre lika övning, jämförelse förskola, räkning och jämförelse, taljämförelse barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
       },

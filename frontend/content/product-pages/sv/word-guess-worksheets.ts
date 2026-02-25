@@ -15,8 +15,8 @@ export const wordGuessSvContent: ProductPageContent = {
   seo: {
     slug: 'gissa-ordet-arbetsblad',
     appId: 'word-guess',
-    title: 'Gratis Gissa Ordet Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara gissa-ordet-övningar för barn. Utveckla ordförråd och slutledningsförmåga. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Gissa Ordet Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara gissa-ordet-övningar för barn. Utveckla ordförråd och slutledningsförmåga. Förskola till årskurs 3. Ladda ner gratis PDF. Ladda ner nu.',
     keywords: 'gissa ordet generator, gissa ordet övningar, ordgåta barn, ordförråd övning barn, gissa ordet utskrivbar, ordförråd arbetsblad, bildledtråd ordspel, ordspel utskrivbar, ordgåtor förskola, språkövning barn, gissa ordet med bilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
       },

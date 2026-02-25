@@ -65,8 +65,8 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       description: 'Ontdek 100+ deskundige artikelen over onderwijsstrategie\u00ebn, werkbladontwerp en gratis educatieve bronnen. Gidsen voor leraren en ouders.'
     },
     sv: {
-      title: 'Undervisningsmaterial & Arbetsbladstips Blogg | 100+ Expertartiklar | LessonCraftStudio',
-      description: 'Uppt\u00e4ck 100+ expertartiklar om undervisningsstrategier, arbetsbladdesign och gratis utbildningsresurser. Guider f\u00f6r l\u00e4rare och f\u00f6r\u00e4ldrar.'
+      title: 'Utbildningsblogg \u2014 Arbetsbladstips | LessonCraftStudio',
+      description: 'Uppt\u00e4ck 100+ expertartiklar om undervisningsstrategier, arbetsbladdesign och gratis utbildningsresurser. Guider f\u00f6r l\u00e4rare och f\u00f6r\u00e4ldrar. Ladda ner nu.'
     },
     da: {
       title: 'Uddannelsesblog \u2014 Arbejdsark & Guider | LessonCraftStudio',

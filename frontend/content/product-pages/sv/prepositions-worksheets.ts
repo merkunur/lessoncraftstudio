@@ -19,7 +19,7 @@ export const prepositionsSvContent: ProductPageContent = {
     slug: 'prepositioner-arbetsblad',
     appId: 'prepositions',
     title: 'Prepositionsövning Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara prepositionsövningar med bilder. Lägesord som på, i, under och bredvid. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara prepositionsövningar med bilder. Lägesord som på, i, under och bredvid. Förskola till årskurs 3. Ladda ner gratis PDF. Skriv ut direkt.',
     keywords: 'prepositionsövning generator, prepositionsövning barn, lägesord övning, prepositioner arbetsblad, på i under bredvid övning, rumsuppfattning språk, prepositioner förskola, lägesord med bilder, språkövning prepositioner, prepositionsövning utskrivbar, grammatik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
       },

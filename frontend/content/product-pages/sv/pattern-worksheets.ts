@@ -18,7 +18,7 @@ export const patternWorksheetsSvContent: ProductPageContent = {
     slug: 'monster-arbetsblad',
     appId: 'pattern-worksheet',
     title: 'Gratis Mönsterövning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara mönsterövningar med bilder. Utveckla logik och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara mönsterövningar med bilder. Utveckla logik och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF. Gratis.',
     keywords: 'mönsterövning generator, mönster övningar barn, mönsterigenkänning övning, mönster arbetsblad, logiskt mönster barn, mönster följd övning, mönster utskrivbar, sekvens och mönster, mönsterövning förskola, matematik mönster, bildmönster arbetsblad',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
       },

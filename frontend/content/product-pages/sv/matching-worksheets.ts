@@ -16,7 +16,7 @@ export const matchingSvContent: ProductPageContent = {
     slug: 'matchnings-arbetsblad',
     appId: 'matching',
     title: 'Gratis Matchningsövning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara matchningsövningar med bilder. Utveckla minne och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara matchningsövningar med bilder. Utveckla minne och mönsterigenkänning från förskola till årskurs 3. 50 teman. Ladda ner gratis PDF. PDF.',
     keywords: 'matchningsövning generator, matchningsövningar, parning barn, minnesspel utskrivbar, parningsövning förskola, mönsterigenkänning övning, visuell parning, bildparning övning, parövning utskrivbar, minne och parning, matchningsövningar förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
       },

@@ -16,7 +16,7 @@ export const findObjectsSvContent: ProductPageContent = {
     slug: 'hitta-foremal-arbetsblad',
     appId: 'find-objects',
     title: 'Hitta Föremål Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara hitta-föremål-övningar för barn. Utveckla visuell uppmärksamhet och koncentration. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara hitta-föremål-övningar för barn. Utveckla visuell uppmärksamhet och koncentration. Förskola till årskurs 3. Ladda ner gratis PDF. PDF.',
     keywords: 'hitta föremål generator, hitta föremål övningar, sökövningar barn, visuell uppmärksamhet, hitta dolda föremål, koncentrationsövning barn, hitta föremål utskrivbar, uppmärksamhetsövning, dolda bilder övning, visuell sökning barn, hitta skillnaden övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
       },

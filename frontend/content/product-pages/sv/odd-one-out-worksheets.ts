@@ -16,7 +16,7 @@ export const oddOneOutSvContent: ProductPageContent = {
     slug: 'hitta-udda-bilden-arbetsblad',
     appId: 'odd-one-out',
     title: 'Hitta Udda Bilden Generator — Gratis | LessonCraftStudio',
-    description: 'Skapa utskrivbara hitta udda bilden-övningar för barn. Utveckla logiskt tänkande och kategorisering. Förskola till årskurs 3. Gratis PDF.',
+    description: 'Skapa utskrivbara hitta udda bilden-övningar för barn. Utveckla logiskt tänkande och kategorisering. Förskola till årskurs 3. Gratis PDF. 3 000+ bilder.',
     keywords: 'hitta udda bilden generator, hitta udda bilden övningar, udda bilden ut barn, kategorisering övning, logiskt tänkande barn, hitta skillnaden, klassificering övning, visuell diskriminering, hitta udda utskrivbar, sortering och gruppering, logikövning förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
       },

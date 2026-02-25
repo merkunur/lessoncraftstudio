@@ -15,7 +15,7 @@ export const pictureBingoSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbetsblad',
     appId: 'bingo',
-    title: 'Gratis Bildlotto Generator | LessonCraftStudio',
+    title: 'Gratis Bildlotto Generator för Barn | LessonCraftStudio',
     description: 'Skapa utskrivbara bildlottospel för barn. 50 teman, anpassningsbara rutnät och bilder från 3 000+ bibliotek. Perfekt för klassrummet. Ladda ner gratis.',
     keywords: 'bildlotto generator, lotto utskrivbar barn, bildlotto spel, utskrivbart lottospel, lotto förskola, klassrumslotto, bildlotto rutnät, lotto övning barn, gruppspel utskrivbar, lotto bilder barn, lottospel klassrum',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',

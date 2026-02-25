@@ -15,8 +15,8 @@ export const treasureHuntSvContent: ProductPageContent = {
   seo: {
     slug: 'skattjakt-arbetsblad',
     appId: 'treasure-hunt',
-    title: 'Gratis Skattjakt Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara skattjakt-övningar för barn. Kombinera problemlösning med äventyr. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    title: 'Gratis Skattjakt Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara skattjakt-övningar för barn. Kombinera problemlösning med äventyr. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF. Gratis PDF.',
     keywords: 'skattjakt generator, skattjakt övningar barn, skattjakt utskrivbar, skattjakt arbetsblad, skattletning barn, äventyrspussel barn, skattjakt förskola, skattjakt klassrum, uppdrag och ledtrådar, skattjakt med bilder, skattjakt gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
       },

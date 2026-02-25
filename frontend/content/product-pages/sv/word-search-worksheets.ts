@@ -15,8 +15,8 @@ export const wordSearchSvContent: ProductPageContent = {
   seo: {
     slug: 'ordletar-arbetsblad',
     appId: 'wordsearch',
-    title: 'Gratis Ordletare Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara ordletare på 11 språk. Anpassningsbara ord, storlekar och svårighetsgrader. Ordförråd och stavning. Ladda ner gratis PDF.',
+    title: 'Gratis Ordletare Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara ordletare på 11 språk. Anpassningsbara ord, storlekar och svårighetsgrader. Ordförråd och stavning. Ladda ner gratis PDF. Ladda ner nu.',
     keywords: 'ordletare generator, ordletare utskrivbar, ordletare barn, ordspel generator, ordletare övning, ordpussel utskrivbar, ordsökspel barn, ordförråd ordletare, stavning ordletare, ordletare lågstadiet, ordletare förskola',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
       },

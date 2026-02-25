@@ -15,8 +15,8 @@ export const wordScrambleSvContent: ProductPageContent = {
   seo: {
     slug: 'ordpussel-arbetsblad',
     appId: 'word-scramble',
-    title: 'Gratis Ordpussel Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara ordpussel-övningar för stavning och rättskrivning. Anpassa svårighetsgrad från förskola till årskurs 3. Med bilder. Gratis PDF.',
+    title: 'Gratis Ordpussel Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara ordpussel-övningar för stavning och rättskrivning. Anpassa svårighetsgrad från förskola till årskurs 3. Med bilder. Gratis PDF. Gratis.',
     keywords: 'ordpussel generator, ordpussel övningar, skrivövningar barn, rättskrivning övning, ordgåta utskrivbar, stavningsövning, ordspel barn utskrivbar, ordbildning övningar, lära sig läsa övningar, skrivning träning, ordförråd övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
       },

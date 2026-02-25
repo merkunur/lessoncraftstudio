@@ -15,8 +15,8 @@ export const codeAdditionSvContent: ProductPageContent = {
   seo: {
     slug: 'kodaddition-arbetsblad',
     appId: 'code-addition',
-    title: 'Gratis Kodaddition Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara kodadditionsövningar där barn avkodar hemliga meddelanden genom addition. Förskola till årskurs 3. Med bilder. Gratis PDF.',
+    title: 'Gratis Kodaddition Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara kodadditionsövningar där barn avkodar hemliga meddelanden genom addition. Förskola till årskurs 3. Med bilder. Gratis PDF. Gratis PDF.',
     keywords: 'kodaddition generator, kodaddition övningar, hemligt meddelande matematik, krypteringsövning barn, addition kodknackning, hemliga koder matematik, additionskod arbetsblad, matematik pussel barn, avkodningsövning, kodaddition utskrivbar, matematikspel barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
       },

@@ -16,7 +16,7 @@ export const additionSvContent: ProductPageContent = {
     slug: 'addition-arbetsblad',
     appId: 'addition',
     title: 'Gratis Additionsövning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara additionsövningar med bilder för förskola till årskurs 3. 3 000+ bilder, anpassa svårighetsgrad och få facit. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara additionsövningar med bilder för förskola till årskurs 3. 3 000+ bilder, anpassa svårighetsgrad och få facit. Ladda ner gratis PDF. PDF.',
     keywords: 'additionsövning generator, additionsövningar gratis, addition arbetsblad förskola, bildbaserade additionsövningar, matematik arbetsblad gratis, plusövningar med bilder, utskrivbara räkneövningar, addition facit, lära sig addera, plusövningar årskurs 1, additionsövningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
       },

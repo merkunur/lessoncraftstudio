@@ -15,8 +15,8 @@ export const subtractionSvContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbetsblad',
     appId: 'subtraction',
-    title: 'Gratis Subtraktion Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara subtraktionsövningar med bilder för förskola till årskurs 3. Anpassa svårighetsgrad, bilder och facit. Ladda ner gratis PDF.',
+    title: 'Gratis Subtraktion Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara subtraktionsövningar med bilder för förskola till årskurs 3. Anpassa svårighetsgrad, bilder och facit. Ladda ner gratis PDF. Ladda ner.',
     keywords: 'subtraktion generator, subtraktionsövningar gratis, subtraktion arbetsblad förskola, bildbaserade subtraktionsövningar, minusövningar barn, subtraktion med bilder, utskrivbara minusövningar, subtraktion facit, lära sig subtrahera, subtraktionsövningar årskurs 1, subtraktion övningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
       },

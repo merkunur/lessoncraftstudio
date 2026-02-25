@@ -63,7 +63,7 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Professionele werkblad-generatoren'
   },
   sv: {
-    title: 'Gratis Arbetsblad Generatorer | LessonCraftStudio',
+    title: 'Gratis Arbetsblad Generatorer för Barn | LessonCraftStudio',
     description: 'Skapa arbetsblad med 33 generatorer och 3 000+ bilder. Matte, målarbilder, ordjaktar & pussel. Ladda ner PDF direkt. Gratis, ingen registrering krävs.',
     keywords: 'arbetsblad gratis, matematik arbetsblad, målarbilder barn, förskoleklass material, bokstäver lära sig, multiplikationstabellen, finmotorik övningar, addition subtraktion, siffror tal, arbetsblad generatorer',
     ogAlt: 'LessonCraftStudio - Professionella arbetsblads-generatorer'

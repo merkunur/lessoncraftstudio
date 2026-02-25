@@ -16,7 +16,7 @@ export const gridMatchSvContent: ProductPageContent = {
     slug: 'rutnatsmatching-arbetsblad',
     appId: 'grid-match',
     title: 'Gratis Rutnätspussel Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara rutnätsmatchningsövningar med bilder. Logisk tänkande och problemlösning från förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara rutnätsmatchningsövningar med bilder. Logisk tänkande och problemlösning från förskola till årskurs 3. Ladda ner gratis PDF. Ladda ner.',
     keywords: 'rutnätspussel generator, rutnätsmatchning övningar, logikpussel barn, rutnätsövning utskrivbar, problemlösning barn, mönsterigenkänning rutnät, matrisövning barn, logisk tänkande övning, pussel arbetsblad, rutnätsmatchning förskola, visuell logik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
       },

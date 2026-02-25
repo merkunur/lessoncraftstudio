@@ -5,7 +5,7 @@ const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Grönsaker',
   title: 'Gratis Grönsaker-övningar för Barn | LessonCraftStudio',
-  description: 'Utskrivbara grönsaker-övningar för barn. Matematik, målarbilder, ordspel och pussel med grönsakertema. Förskola till årskurs 3. Gratis PDF.',
+  description: 'Utskrivbara grönsaker-övningar för barn. Matematik, målarbilder, ordspel och pussel med grönsakertema. Förskola till årskurs 3. Gratis PDF. Ladda ner nu.',
   keywords: 'grönsaksövningar barn, grönsaks arbetsblad, grönsaks målarbilder, grönsaks matematik, grönsaks förskola, grönsaks utskrivbar, grönsaks pussel, grönsaks räkning, grönsaks korsord, grönsakssorter, odla grönsaker',
   heading: 'Grönsaksövningar och Arbetsblad',
 
@@ -123,7 +123,7 @@ const content: EnrichedThemeContent = {
     },
     'kindergarten': {
       seoTitle: 'Gratis Grönsaksövningar Förskoleklass | LessonCraftStudio',
-      seoDescription: 'Utskrivbara grönsaksövningar för förskoleklassbarn (5–6 år). Räkning, sortering och ordpussel med grönsakstema. 33 generatorer. Gratis PDF.',
+      seoDescription: 'Utskrivbara grönsaksövningar för förskoleklassbarn (5–6 år). Räkning, sortering och ordpussel med grönsakstema. 33 generatorer. Gratis PDF. Ladda ner nu.',
       seoKeywords: 'grönsaksövningar förskoleklass, begynnelsebokstäver, bokstavsövningar, räkning till 20, mönsterigenkänning, grönsaksigenkänning, näringsundervisning, köksträdgård, grönsaksuppgifter förskoleklass, grönsakers lärande 5–6 år',
       intro: 'Barn i förskoleklass tar med sig en expanderande nyfikenhet om den naturliga världen och växande akademiska färdigheter som gör arbetsblad med grönsakstema särskilt produktiva på denna nivå. Fem- och sexåringar kan räkna till tjugo och mer, känner igen många ordbilder och följer flerstegsinstruktioner med ökande självständighet. Grönsaksarbetsblad på denna nivå utnyttjar dessa förmågor genom att introducera addition med grupper av ärtor i en skida, subtraktion med tomater plockade från en ranka, och jämförelse med fler-eller-färre-aktiviteter med grönsaker i olika storlekar. Ett barn kan se fjorton morötter i en trädgård, sedan drar bonden upp sex till middagen, och måste beräkna hur många som återstår i jorden. Korsord med ordförråd som skörd, kompost, växthus och näring bygger ordbildsigenkänning och introducerar naturvetenskaplig och hälsorelaterad terminologi. Målarbilder blir mer detaljerade och visar trädgårdsgenomsnittsbilder med rötter under jord och blad ovan jord, vilket utmanar finmotorisk precision samtidigt som det lär ut växtanatomi. Förskoleklassen är det idealiska stadiet för att uttryckligen lära ut att olika grönsaker kommer från olika delar av växten: vi äter roten på en morot, bladen på sallad, stjälken på selleri och blomman på broccoli. Denna klassificering kopplar direkt till mål i biologi och ger ett konkret ramverk för de sorterings- och kategoriseringsfärdigheter som läroplanen för förskoleklass betonar. Grönsakstemat upprätthåller engagemanget eftersom variationen är enorm: rotgrönsaker en vecka, bladgrönsaker nästa, sedan baljväxter, sedan squash, där varje vecka ger nytt ordförråd och nya sorteringsutmaningar.',
       objectives: [

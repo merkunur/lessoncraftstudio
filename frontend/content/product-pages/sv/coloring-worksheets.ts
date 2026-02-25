@@ -16,7 +16,7 @@ export const coloringSvContent: ProductPageContent = {
     slug: 'malarbilder-arbetsblad',
     appId: 'coloring',
     title: 'Gratis Målarbilder Generator för Barn | LessonCraftStudio',
-    description: 'Skapa utskrivbara målarbilder för barn med 3 000+ bilder. 50 teman och 5 åldersnivåer från förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara målarbilder för barn med 3 000+ bilder. 50 teman och 5 åldersnivåer från förskola till årskurs 3. Ladda ner gratis PDF. 3 000+ bilder.',
     keywords: 'målarbilder generator, målarbilder barn gratis, gratis målarbilder skriv ut, målarsidor utskrivbara, djur målarbilder, utskrivbara målarbilder, målarbilder förskola, färgläggningsövningar, målarbilder till barn, finmotorik målarbilder, barns målarsidor',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
       },

@@ -16,7 +16,7 @@ export const missingPiecesSvContent: ProductPageContent = {
     slug: 'saknade-bitar-arbetsblad',
     appId: 'missing-pieces',
     title: 'Gratis Saknade Bitar Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara saknade bitar-övningar för barn. Utveckla rumsuppfattning och visuell analys. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara saknade bitar-övningar för barn. Utveckla rumsuppfattning och visuell analys. Förskola till årskurs 3. Ladda ner gratis PDF. Ladda ner.',
     keywords: 'saknade bitar generator, saknade bitar övningar, pussel komplettering barn, visuell analys övning, saknade bitar utskrivbar, bildpussel barn, rumsuppfattning övning, komplettera bilden, visuell uppmärksamhet pussel, saknade delar övning, bildanalys barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
       },

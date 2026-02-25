@@ -18,8 +18,8 @@ export const picturePathSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlabyrint-arbetsblad',
     appId: 'picture-path',
-    title: 'Gratis Bildlabyrint Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara bildlabyrintövningar för barn. Utveckla problemlösning och visuell planering från förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Bildlabyrint Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildlabyrintövningar för barn. Utveckla problemlösning och visuell planering från förskola till årskurs 3. Ladda ner gratis PDF. Hämta.',
     keywords: 'bildlabyrint generator, bildlabyrint övningar, labyrint barn utskrivbar, labyrint förskola, visuell planering övning, labyrintpussel barn, bildsti övning, problemlösning labyrint, labyrint arbetsblad, väghittning övning, labyrint gratis barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
       },

@@ -19,7 +19,7 @@ export const pictureSortSvContent: ProductPageContent = {
     slug: 'bildsortering-arbetsblad',
     appId: 'picture-sort',
     title: 'Gratis Bildsortering Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara bildsorteringssövningar för barn. Utveckla kategorisering och klassificering. Förskola till årskurs 3. 50 teman. Gratis PDF.',
+    description: 'Skapa utskrivbara bildsorteringssövningar för barn. Utveckla kategorisering och klassificering. Förskola till årskurs 3. 50 teman. Gratis PDF. Ladda ner.',
     keywords: 'bildsortering generator, bildsortering övningar, sortering barn, kategorisering övning barn, klassificering arbetsblad, bildsortering utskrivbar, sortering förskola, gruppering övning, sortera och klassificera, kategorier övning barn, visuell sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
       },

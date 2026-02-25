@@ -15,8 +15,8 @@ export const mathPuzzleSvContent: ProductPageContent = {
   seo: {
     slug: 'mattepussel-arbetsblad',
     appId: 'math-puzzle',
-    title: 'Gratis Mattepussel Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara mattepussel för barn. Utveckla logisk tänkande och problemlösning med bilder. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Mattepussel Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara mattepussel för barn. Utveckla logisk tänkande och problemlösning med bilder. Förskola till årskurs 3. Ladda ner gratis PDF. Ladda ner.',
     keywords: 'mattepussel generator, mattepussel övningar, matematik pussel barn, logik matematik, matematik gåtor barn, mattepussel utskrivbar, problemlösning matematik, algebra barn, matematik logikövning, mattepussel lågstadiet, symbolisk matematik barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
       },

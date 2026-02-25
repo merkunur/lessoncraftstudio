@@ -15,7 +15,7 @@ export const bigSmallSvContent: ProductPageContent = {
   seo: {
     slug: 'stort-litet-arbetsblad',
     appId: 'big-small',
-    title: 'Storleksjämförelse Generator | LessonCraftStudio',
+    title: 'Storleksjämförelse Generator för Barn | LessonCraftStudio',
     description: 'Skapa utskrivbara stort och litet jämförelseövningar med bilder. Utveckla storleksbegrepp från förskola till årskurs 1. Anpassa inställningar. Gratis PDF.',
     keywords: 'storleksjämförelse generator, stort och litet övningar, storleksjämförelse förskola, storlekar igenkänning, större och mindre, storleksjämförelse barn, stor liten utskrivbar, storleksutforskare övningar, storleksövningar förskola, jämförelsefärdigheter övning, storlekar sortering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',

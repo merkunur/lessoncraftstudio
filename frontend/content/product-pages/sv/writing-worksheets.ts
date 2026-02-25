@@ -15,8 +15,8 @@ export const writingSvContent: ProductPageContent = {
   seo: {
     slug: 'skrivovningar-arbetsblad',
     appId: 'writing',
-    title: 'Gratis Skrivövning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara skrivövningar för barn. Bokstavsformning, ordskrivning och meningsbyggnad. Förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Skrivövning Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara skrivövningar för barn. Bokstavsformning, ordskrivning och meningsbyggnad. Förskola till årskurs 3. Ladda ner gratis PDF. Ladda ner nu.',
     keywords: 'skrivövning generator, skrivövningar barn, bokstavsformning övning, handstilsträning, skriva bokstäver övning, skrivövning förskola, skrivträning utskrivbar, förskrivning övning, bokstäver och ord, skrivövningar årskurs 1, handstil arbetsblad',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
       },

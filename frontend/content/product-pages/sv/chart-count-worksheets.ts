@@ -16,7 +16,7 @@ export const chartCountSvContent: ProductPageContent = {
     slug: 'diagram-rakning-arbetsblad',
     appId: 'chart-count',
     title: 'Gratis Diagramräkning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara diagramräkningsövningar med bilder. Räkning, färgläggning och dataavläsning för förskola till årskurs 3. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara diagramräkningsövningar med bilder. Räkning, färgläggning och dataavläsning för förskola till årskurs 3. Ladda ner gratis PDF. Gratis.',
     keywords: 'diagramräkning generator, diagramräkning övningar, stapeldiagram barn, dataavläsning förskola, räkning och färgläggning, diagram övning, bilddiagram arbetsblad, statistik barn, diagramtolkning övning, matematik diagram, bilddiagram utskrivbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
       },

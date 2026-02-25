@@ -16,7 +16,7 @@ export const cryptogramSvContent: ProductPageContent = {
     slug: 'bildkryptogram-arbetsblad',
     appId: 'cryptogram',
     title: 'Gratis Bildkryptogram Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara bildkryptogram för barn. Knacka hemliga koder med bildledtrådar. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF.',
+    description: 'Skapa utskrivbara bildkryptogram för barn. Knacka hemliga koder med bildledtrådar. Förskola till årskurs 3. 50 teman. Ladda ner gratis PDF. Ladda ner nu.',
     keywords: 'bildkryptogram generator, bildkryptogram övningar, hemlig kod barn, kryptogram utskrivbar, avkodningsövning barn, hemliga koder arbetsblad, kodknackare barn, bildkryptogram förskola, chiffer övning, kryptering barn, hemliga meddelanden övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
       },

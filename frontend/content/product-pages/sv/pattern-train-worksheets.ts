@@ -17,8 +17,8 @@ export const patternTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'monster-tag-arbetsblad',
     appId: 'pattern-train',
-    title: 'Gratis Mönstertåg Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara mönstertågsövningar för barn. Utveckla mönsterigenkänning och sekvensering från förskola till årskurs 2. Gratis PDF.',
+    title: 'Gratis Mönstertåg Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara mönstertågsövningar för barn. Utveckla mönsterigenkänning och sekvensering från förskola till årskurs 2. Gratis PDF. Ingen registrering.',
     keywords: 'mönstertåg generator, mönstertåg övningar, mönsterigenkänning barn, sekvensering övning, mönster förskola, tåg mönster utskrivbar, mönsterföljd övning, repetitivt mönster, mönsterträning barn, sekvensövning förskola, bildmönster övning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
       },

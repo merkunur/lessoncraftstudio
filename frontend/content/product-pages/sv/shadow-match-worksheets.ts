@@ -18,7 +18,7 @@ export const shadowMatchSvContent: ProductPageContent = {
     slug: 'skuggmatchning-arbetsblad',
     appId: 'shadow-match',
     title: 'Gratis Skuggmatchning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara skuggmatchningsövningar för barn. Matcha bilder med sina skuggor. Utveckla visuell perception. Förskola till årskurs 2. Gratis PDF.',
+    description: 'Skapa utskrivbara skuggmatchningsövningar för barn. Matcha bilder med sina skuggor. Utveckla visuell perception. Förskola till årskurs 2. Gratis PDF. PDF.',
     keywords: 'skuggmatchning generator, skuggmatchning övningar, skugga matchning barn, visuell perception övning, skuggpussel utskrivbar, bild och skugga matchning, skuggmatchning förskola, visuell diskriminering, skuggövning barn, kontur matchning, siluett matchning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
       },

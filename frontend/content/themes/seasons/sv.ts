@@ -5,7 +5,7 @@ const content: EnrichedThemeContent = {
   // -- SEO fields --
   name: 'Årstider',
   title: 'Gratis Årstider-övningar för Barn | LessonCraftStudio',
-  description: 'Utskrivbara årstider-övningar för barn. Matematik, målarbilder, ordspel och pussel med årstidertema. Förskola till årskurs 3. Gratis PDF.',
+  description: 'Utskrivbara årstider-övningar för barn. Matematik, målarbilder, ordspel och pussel med årstidertema. Förskola till årskurs 3. Gratis PDF. 3 000+ bilder.',
   keywords: 'årstidsövningar barn, årstids arbetsblad, årstids målarbilder, årstids matematik, årstids förskola, årstids utskrivbar, årstids pussel, årstids räkning, årstids korsord, årstidsväxling, språk och årstider',
   heading: 'Årstidsövningar och Arbetsblad',
 
@@ -122,7 +122,7 @@ const content: EnrichedThemeContent = {
     },
     'kindergarten': {
       seoTitle: 'Gratis Årstidsövningar Förskoleklass | LessonCraftStudio',
-      seoDescription: 'Utskrivbara årstidsövningar för förskoleklassbarn (5–6 år). Räkning, kalender och ordpussel med årstidstema. 33 generatorer. Gratis PDF.',
+      seoDescription: 'Utskrivbara årstidsövningar för förskoleklassbarn (5–6 år). Räkning, kalender och ordpussel med årstidstema. 33 generatorer. Gratis PDF. Skriv ut direkt.',
       seoKeywords: 'årstidsövningar förskoleklass, begynnelsebokstäver, bokstavsövningar, räkning till 20, mönsterigenkänning, årstidsväxling, väderfenomen, naturens förändringar, årstidsuppgifter förskoleklass, årstiders lärande 5–6 år',
       intro: 'Barn i förskoleklass tar med sig ett växande ordförråd, ett expanderande minne och ökande självständighet till årstidsarbetsbladen, redo att koppla årstidsmönster till grundläggande skolkunskaper på meningsfulla sätt. Fem- och sexåringar kan räkna till tjugo och bortom, känna igen de flesta bokstäver och följa flerstegsanvisningar, vilket öppnar dörren till rikare årstidsaktiviteter. Mattearbetsblad på denna nivå använder årstidsräknare för addition och subtraktion inom tio: ett barn kan se tolv höstlöv på en gren och fem som faller av, och sedan beräkna hur många som återstår. Ordsökningar med årstidsvokabulär som blomning, skörd, flyttning och istapp utmanar bokstavsskanningsförmågan samtidigt som de bygger innehållskunskap om varför naturen förändras under året. Mönsterigenkänningsblad presenterar sekvenser av alternerande årstidsbilder, som sol-snöflinga-sol-snöflinga, och ber barnen förutse och förlänga mönstret, vilket utvecklar det algebraiska tänkande som förskoleklassens mål introducerar. Sorteringsaktiviteter blir mer nyanserade när barnen klassificerar föremål inte bara efter årstid utan efter egenskaper inom en årstid, till exempel att separera höstföremål i mat respektive kläder eller väder respektive aktiviteter. Årstidstemat upprätthåller engagemanget under hela läsåret eftersom varje kvartal ger ett nytt årstidsfokus med nytt ordförråd, nya illustrationer och nya räknescenarier, vilket ger den variation förskoleklassbarn behöver samtidigt som samma kärnfärdigheter förstärks genom hela året. Enligt Lgr22 ska eleverna i förskoleklass utveckla förmågan att utforska och beskriva enkla naturvetenskapliga fenomen, och årstidstemat ger en naturlig ram för detta arbete.',
       objectives: [

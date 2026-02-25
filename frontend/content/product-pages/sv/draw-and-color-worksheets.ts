@@ -15,8 +15,8 @@ export const drawAndColorSvContent: ProductPageContent = {
   seo: {
     slug: 'rutritning-arbetsblad',
     appId: 'draw-and-color',
-    title: 'Gratis Rutritning Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara rutritningsövningar för pixelkonst. Utveckla rumsuppfattning och finmotorik från förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Rutritning Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara rutritningsövningar för pixelkonst. Utveckla rumsuppfattning och finmotorik från förskola till årskurs 3. Ladda ner gratis PDF. Gratis.',
     keywords: 'rutritning generator, rutritning övningar, pixelkonst barn, rutnätsritning utskrivbar, rumsuppfattning övning, rita på rutnät, pixelritning arbetsblad, symmetri övning, koordinatövning barn, rutritning förskola, rutövningar utskrivbar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
       },

@@ -15,8 +15,8 @@ export const crosswordSvContent: ProductPageContent = {
   seo: {
     slug: 'bildkorsord-arbetsblad',
     appId: 'crossword',
-    title: 'Gratis Bildkorsord Generator | LessonCraftStudio',
-    description: 'Skapa utskrivbara bildkorsord för barn. Bildledtrådar istället för text. Utveckla ordförråd från förskola till årskurs 3. Ladda ner gratis PDF.',
+    title: 'Gratis Bildkorsord Generator för Barn | LessonCraftStudio',
+    description: 'Skapa utskrivbara bildkorsord för barn. Bildledtrådar istället för text. Utveckla ordförråd från förskola till årskurs 3. Ladda ner gratis PDF. Skriv ut.',
     keywords: 'bildkorsord generator, bildkorsord övningar, korsord barn utskrivbar, bildkorsord förskola, ordförråd korsord, korsord med bilder, enkla korsord barn, bildbaserade korsord, stavnings-korsord, korsord gratis barn, korsord lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
       },

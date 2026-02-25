@@ -31,16 +31,16 @@ export const picturePathNlContent: ProductPageContent = {
   seo: {
     slug: 'doolhof-werkbladen',
     appId: 'picture-path',
-    title: 'Doolhof Werkbladen - Gratis Werkbladen voor Kinderen en Werkblad voor',
-    description: 'Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en.',
-    keywords: 'doolhof werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen',
+    title: 'Gratis Doolhof Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare doolhofoefeningen voor kinderen. Ontwikkel probleemoplossing en visuele planning van kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'doolhof oefeningen, doolhof kinderen uitprintbaar, doolhof kleuterschool, visuele planning oefening, doolhofpuzzel kinderen, beeldpad oefening, probleemoplossing doolhof, doolhof werkbladen, wegvinden oefening, doolhof gratis kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Doolhof Werkbladen - Gratis Werkblad Generator voor Kinderen',
-    subtitle: 'Gratis Werkbladen en Printables - Werkblad voor Kleuters Groep 1 2 en Groep 3',
+    title: 'Doolhof Generator',
+    subtitle: 'Uitprintbare Doolhofoefeningen met Afbeeldingen',
     description: `Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en werkbladen kleuters. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot alle functies zonder extra kosten per werkblad. Creëer doolhof oefenbladen die perfect aansluiten bij fijne motoriek ontwikkeling en visuele discriminatie vaardigheden.
 
 De doolhof generator maakt drie soorten werkbladen. Kies plaatjes pad werkbladen waar kinderen een route volgen door afbeeldingen. Genereer klassieke doolhoven met verzamelbare plaatjes langs het juiste pad. Of creëer kies-het-juiste-pad werkbladen met meerdere routes waarvan er maar één correct is. Elk type werkblad ondersteunt verschillende leerdoelen voor groep 1 2 kleuters en groep 3 leerlingen.

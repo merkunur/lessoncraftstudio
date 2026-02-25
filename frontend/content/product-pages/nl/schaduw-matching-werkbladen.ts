@@ -29,16 +29,16 @@ export const shadowMatchNlContent: ProductPageContent = {
   seo: {
     slug: 'schaduw-matching-werkbladen',
     appId: 'shadow-match',
-    title: 'Schaduw Matching Gratis Werkblad Generator | Gratis Werkbladen',
-    description: 'Maak professionele schaduw matching werkbladen met onze werkbladen generator. Met uw Volledige Toegang abonnement creëert u onbeperkt visuele.',
-    keywords: 'schaduw matching werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
+    title: 'Gratis Schaduwmatching Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare schaduwmatchingoefeningen voor kinderen. Match afbeeldingen met hun schaduwen. Ontwikkel visuele perceptie. Kleuterschool tot groep 4. Gratis PDF.',
+    keywords: 'schaduwmatching oefeningen, schaduw koppelen kinderen, visuele perceptie oefening, schaduwpuzzel uitprintbaar, beeld en schaduw matching, schaduwmatching kleuterschool, visuele discriminatie, schaduw-oefening kinderen, contour matching, silhouet matching',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schaduw-matching-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Werkbladen Schaduw Matching - Werkblad voor Kinderen Generator',
-    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    title: 'Schaduwmatching Generator',
+    subtitle: 'Visuele Schaduwmatchingoefeningen met Afbeeldingen',
     description: `Maak professionele schaduw matching werkbladen met onze werkbladen generator. Met uw Volledige Toegang abonnement creëert u onbeperkt visuele waarnemingsoefeningen zonder kosten per werkblad. Genereer kleurplaten en matching activiteiten perfect voor werkbladen kleuters en werkbladen groep 3. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Onze schaduw matching generator maakt twee verschillende soorten visuele oefeningen. De eerste modus laat kinderen gekleurde objecten matchen met hun zwarte silhouetten. De tweede modus splitst afbeeldingen in twee delen die kinderen moeten samenstellen. Beide modi ontwikkelen ruimtelijk inzicht en visuele discriminatie vaardigheden. Werkbladen kleuters profiteren enorm van deze visuele matching oefeningen.

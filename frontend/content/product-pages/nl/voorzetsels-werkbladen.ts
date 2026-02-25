@@ -27,16 +27,16 @@ export const prepositionsNlContent: ProductPageContent = {
   seo: {
     slug: 'voorzetsels-werkbladen',
     appId: 'prepositions',
-    title: 'Voorzetsels Gratis Werkblad Generator - Werkblad voor Kinderen en',
-    description: 'Maak professionele voorzetsels werkbladen met onze gratis werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkblad voor kinderen maken.',
-    keywords: 'voorzetsels werkbladen, gratis werkblad, werkblad voor kinderen, gratis werkbladen, gratis printables, werkblad voor kleuters, gratis werkblad voor kinderen, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen',
+    title: 'Voorzetsels Oefening Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare voorzetsels-oefeningen met afbeeldingen. Plaatswoorden zoals op, in, onder en naast. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'voorzetsels oefening kinderen, plaatswoorden oefening, voorzetsels werkbladen, op in onder naast oefening, ruimtelijk begrip taal, voorzetsels kleuterschool, plaatswoorden met afbeeldingen, taaloefening voorzetsels, voorzetsels oefening uitprintbaar, grammatica kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/voorzetsels-werkbladen',
       },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Voorzetsels - Werkblad voor Kinderen Generator',
-    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    title: 'Voorzetsels Oefening Generator',
+    subtitle: 'Plaatswoordoefeningen met Afbeeldingen van Kleuterschool tot Groep 5',
     description: `Maak professionele voorzetsels werkbladen met onze gratis werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkblad voor kinderen maken zonder kosten per werkblad. Genereer aangepaste gratis printables voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkblad voor kleuters in minder dan 3 minuten.
 
 Het aanleren van voorzetsels aan kleuters en groep 3 leerlingen wordt eenvoudig met onze gratis werkblad voorzetsels generator. Onze tool maakt gratis werkbladen die acht essentiële ruimtelijke begrippen aanleren. Leerlingen oefenen in, op, onder, naast, achter, tussen, boven en voor door middel van boeiende visuele oefeningen. Elk werkblad voor kinderen combineert kleurrijke afbeeldingen met duidelijke tekst om begrip te versterken.

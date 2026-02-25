@@ -29,16 +29,16 @@ export const patternWorksheetsNlContent: ProductPageContent = {
   seo: {
     slug: 'patronen-werkbladen',
     appId: 'pattern-worksheet',
-    title: 'Gratis Werkblad Patronen Maken - Gratis Werkbladen voor Kinderen',
-    description: 'Maak gratis werkbladen patronen voor groep 3 en kleuters. Genereer gratis printables met visuele patronen. Perfect werkblad voor kinderen en fijne motoriek.',
-    keywords: 'patronen werkbladen, oefenbladen gratis, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Gratis Patronenoefening Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare patronenoefeningen met afbeeldingen. Ontwikkel logica en patroonherkenning van kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    keywords: 'patronen oefeningen kinderen, patroonherkenning oefening, patronen werkbladen, logisch patroon kinderen, patroon reeks oefening, patronen uitprintbaar, sequentie en patronen, patronenoefening kleuterschool, rekenen patronen, beeldpatroon werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Werkblad Patronen Generator voor Kinderen',
-    subtitle: 'Gratis Werkbladen en Gratis Printables voor Groep 3 en Kleuters - Werkblad voor Kinderen met Patronen',
+    title: 'Patronenoefening Generator',
+    subtitle: 'Uitprintbare Patronenoefeningen met 50 Thema's',
     description: `Maak professionele patronen werkbladen voor groep 3 en kleuters. Onze pattern worksheet generator maakt het eenvoudig om gratis werkbladen te maken met visuele patronen. Perfect werkblad voor kinderen voor het oefenen van rekenen werkbladen en fijne motoriek vaardigheden.
 
 Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot patronen werkbladen maken zonder extra kosten per werkblad. Genereer zoveel gratis printables als je nodig hebt voor werkbladen groep 3, werkblad voor kleuters, en groep 1 2. Download hoogwaardige PDF werkbladen in onder 3 minuten.

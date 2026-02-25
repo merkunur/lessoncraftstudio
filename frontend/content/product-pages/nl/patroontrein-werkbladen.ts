@@ -27,16 +27,16 @@ export const patternTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'patroontrein-werkbladen',
     appId: 'pattern-train',
-    title: 'Gratis Werkblad Patroontrein Maken - Werkblad voor Kinderen Groep 1 2',
-    description: 'Maak gratis werkbladen patroontrein voor kinderen en kleuters. Werkblad voor groep 1 2 3 met patroonherkenning. Download gratis printables in 3 minuten.',
-    keywords: 'patroontrein, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, patroonherkenning, groep 1 2, letters leren, veilig leren lezen, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Gratis Patroontrein Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare patroontreinoefeningen voor kinderen. Ontwikkel patroonherkenning en sequentie van kleuterschool tot groep 4. Gratis PDF.',
+    keywords: 'patroontrein oefeningen, patroonherkenning kinderen, sequentie oefening, patronen kleuterschool, trein patroon uitprintbaar, patroonreeks oefening, herhalend patroon, patroontraining kinderen, sequentie-oefening kleuterschool, beeldpatroon oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patroontrein-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Werkblad Patroontrein Generator',
-    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters - Gratis Werkbladen Groep 1 2 3',
+    title: 'Patroontrein Generator',
+    subtitle: 'Patroonherkenning en Sequentie-oefeningen met Afbeeldingen',
     description: `Maak gratis werkblad patroontrein met onze professionele generator. Uw Volledige Toegang abonnement geeft u onbeperkte werkblad creatie zonder kosten per werkblad. Genereer gratis werkbladen perfect voor groep 1, groep 2 en groep 3 leerlingen. Download gratis printables in minder dan 3 minuten.
 
 Patroonherkenning is een fundamentele wiskundige vaardigheid voor jonge kinderen. Onze patroontrein maker helpt leerkrachten visueel aantrekkelijke werkblad voor kinderen te creëren die fijne motoriek en logisch denken ontwikkelen. Kies uit 5 patroonsoorten (AB, AAB, ABB, ABC, AABB) en pas het moeilijkheidsniveau aan voor elk werkblad voor kleuters.

@@ -31,16 +31,16 @@ export const pictureSortNlContent: ProductPageContent = {
   seo: {
     slug: 'sorteer-werkbladen',
     appId: 'picture-sort',
-    title: 'Sorteer Werkbladen - Gratis Werkblad voor Kinderen en Werkblad voor',
-    description: 'Maak professionele sorteer werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkte werkbladen zonder extra kosten per.',
-    keywords: 'sorteer werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, letters leren, veilig leren lezen, tafels oefenen, sommen tot 20',
+    title: 'Gratis Sorteeroefening Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare sorteeroefeningen voor kinderen. Ontwikkel categorisering en classificatie. Kleuterschool tot groep 5. 50 thema's. Gratis PDF.',
+    keywords: 'sorteeroefeningen, sorteren kinderen, categorisering oefening kinderen, classificatie werkbladen, sorteeroefening uitprintbaar, sorteren kleuterschool, groepering oefening, sorteren en classificeren, categorieën oefening kinderen, visueel sorteren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sorteer-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Sorteer Werkbladen - Gratis Werkblad Generator voor Kinderen',
-    subtitle: 'Gratis Werkbladen en Printables - Werkblad voor Kleuters Groep 1 2 en Groep 3',
+    title: 'Sorteeroefening Generator',
+    subtitle: 'Categoriseringsoefeningen met Afbeeldingen van Kleuterschool tot Groep 5',
     description: `Maak professionele sorteer werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkte werkbladen zonder extra kosten per werkblad. Genereer aangepaste sorteer oefenbladen perfect voor kleuters en groep 3 leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Sorteer werkbladen helpen jonge kinderen logisch denken en categoriseren ontwikkelen. Deze rekenen werkbladen en letters leren activiteiten zijn essentieel voor de cognitieve ontwikkeling. Kinderen leren objecten te groeperen op basis van kenmerken zoals kleur, vorm, grootte of categorie. Dit bouwt kritisch denkvermogen op dat nodig is voor wiskunde en taal.

@@ -27,16 +27,16 @@ export const oddOneOutNlContent: ProductPageContent = {
   seo: {
     slug: 'welke-hoort-niet-bij-werkbladen',
     appId: 'odd-one-out',
-    title: 'Gratis Werkblad Welke Hoort Niet Bij - Gratis Werkbladen voor',
-    description: 'Maak professionele werkbladen voor visuele discriminatie met onze welke-hoort-niet-bij generator. Je Volledige Toegang abonnement geeft je onbeperkte toegang.',
-    keywords: 'welke hoort niet bij werkbladen, visuele discriminatie werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, veilig leren lezen, kleurplaten, sommen tot 20, tafels oefenen, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Welke Hoort er Niet Bij Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare welke-hoort-niet-bij-oefeningen voor kinderen. Ontwikkel logisch denken en categorisering. Kleuterschool tot groep 5. Gratis PDF.',
+    keywords: 'welke hoort niet bij oefeningen, vreemde eend kinderen, categorisering oefening, logisch denken kinderen, zoek het verschil, classificatie oefening, visuele discriminatie, welke hoort niet bij uitprintbaar, sorteren en groeperen, logicaoefening kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/welke-hoort-niet-bij-werkbladen',
       },
 
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-3
   hero: {
-    title: 'Gratis Werkblad Welke Hoort Niet Bij',
-    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters met Fijne Motoriek',
+    title: 'Welke Hoort er Niet Bij Generator',
+    subtitle: 'Logische Categoriseringsoefeningen met Afbeeldingen',
     description: `Maak professionele werkbladen voor visuele discriminatie met onze welke-hoort-niet-bij generator. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot deze generator zonder extra kosten per werkblad. Creëer aangepaste oefenbladen voor groep 1, groep 2 en groep 3 die perfect passen bij jouw leerlingen. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 De welke-hoort-niet-bij generator helpt leerkrachten bij het ontwikkelen van visuele discriminatie vaardigheden. Leerlingen bekijken vier afbeeldingen en bepalen welke afbeelding niet bij de andere hoort. Deze oefening stimuleert kritisch denken en observatievaardigheden. Perfect voor werkbladen kleuters en groep 1 2 werkbladen die fijne motoriek en cognitieve ontwikkeling combineren.

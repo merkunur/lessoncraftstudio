@@ -160,6 +160,9 @@ const content: EnrichedThemeContent = {
       ],
     },
     'first-grade': {
+      seoTitle: 'Gratis Matövningar Årskurs 1 | LessonCraftStudio',
+      seoDescription: 'Utskrivbara matövningar för elever i årskurs 1 (6–7 år). Bråk, sortering och näringskunskap med mattema. 33 generatorer. Gratis PDF. Skriv ut direkt.',
+      seoKeywords: 'matövningar årskurs 1, mat arbetsblad 6–7 år, bråk halva fjärdedel, tallriksmodellen, näringsgrupper, Lgr22 hälsa, ordproblem mat, sortering, pengar, receptläsning',
       intro: 'Elever i årskurs 1 är redo för matarbetsblad som utmanar dem med flerstegsproblem, datatolkning och mer nyanserat näringsresonemang. Sex- och sjuåringar kan addera och subtrahera inom tjugo med växande flyt, läsa korta informationstexter och tillämpa logiskt resonemang på sorterings- och jämförelseuppgifter. Matmatematikarbetsblad på denna nivå presenterar ordproblem som att Maria packade åtta morotsstavar och sex kex i sin matlåda, hur många mellanmål har hon totalt, eller att klassen åt upp femton av de tjugofyra kakorna, hur många är kvar. Dessa scenarier gör aritmetiken meningsfull och kopplad till vardagslivet. Läsaktiviteter kan innehålla korta texter om hur olika matgrupper hjälper kroppen, med förståelsefrågor som kräver återgivning, slutsatsdragning och åsiktsbildning. Diagram- och grafarbetsblad ber barnen samla data om klasskompisarnas favoritfrukter och visa resultaten i stapeldiagram, vilket kopplar matteman till datakompetens i enlighet med läroplanen för årskurs 1. Mönsterigenkänningsarbetsblad med alternerande matsekvenser utvecklar algebraiskt tänkande, och korsord med längre ordförråd som grönsak, näring och ingrediens utmanar stavning och visuell skanningsförmåga. Årskurs 1 är också den tidpunkt då barn börjar skriva korta svar, och matämnen ger tillgängliga uppmaningar: beskriv din favorithälsomåltid, lista tre livsmedel från mejerigruppen, eller förklara varför frukost är viktig. Kombinationen av ett universellt engagerande ämne med åldersanpassad akademisk stringens gör matarbetsblad till en mångsidig resurs genom hela läroplanen för årskurs 1.',
       objectives: [
         { skill: 'Lösa additions- och subtraktionsordproblem inom 20 med mat- och måltidskontexter', area: 'math' },
@@ -175,6 +178,23 @@ const content: EnrichedThemeContent = {
         { question: 'Vilken läsnivå har matarbetsblad för årskurs 1?', answer: 'De använder enkla meningar med vanliga ordbilder och avkodningsbart matordförråd. Informationstexter är vanligtvis tre till fem meningar som beskriver en matgrupp eller ett näringsbegrepp, med förståelsefrågor som ber barnen återge fakta, göra jämförelser eller dela en åsikt om hälsosam mat.' },
         { question: 'Hur stöder matarbetsblad matematikmålen i årskurs 1?', answer: 'De innehåller additions- och subtraktionsordproblem inom tjugo med matbutiks- och måltidsscenarier, datainsamlings- och diagramaktiviteter om matpreferenser, mönsterkomplettering med matsekvenser, och jämförelseproblem med fler, färre och lika många matvaror, allt i linje med Lgr22.' },
         { question: 'Kan matarbetsblad kopplas till naturkunskap i årskurs 1?', answer: 'Ja. De stöder mål inom livskunskap genom att be barn identifiera vilka livsmedel som kommer från växter respektive djur, koppla mat till sina källor som mjölk från kor och bröd från vete, och diskutera vad människokroppen behöver för att växa och hålla sig frisk. Denna näringsvetenskapliga koppling berikar både hälsoundervisning och naturkunskapsundervisning.' },
+      ],
+
+      snippetAnswer: 'Matövningar för årskurs 1 (6–7 år) tränar bråk med matdelning, näringssortering med tallriksmodellen och ordproblem med matinköp. Hälsa och matematik förenas. Gratis utskrivbara PDF-arbetsblad på LessonCraftStudio.',
+      uniqueGradeAngle: 'I årskurs 1 kopplas mattemat till bråk, pengamatematik och hälsokunskap. Sex- och sjuåringar delar matvaror i halvor och fjärdedelar med konkret koppling (halva pizzan, en fjärdedel av äpplet), sorterar mat i näringsgrupper med tallriksmodellen och löser ordproblem med matinköp (en banan kostar 3 kr och ett äpple 4 kr, hur mycket kostar båda?). Läspassager om näring och hälsa bygger hälsomedvetenhet. Lgr22 betonar bråkförståelse, vardagsmatematik och hälsa, och mattemat är den mest naturliga kontexten för alla tre målen.',
+      developmentalMilestones: [
+        { milestone: 'Bråk med konkret matdelning (halva, fjärdedel)', howWeAddress: 'Delningsövningar där eleven delar pizza, frukt och bröd och namnger delarna' },
+        { milestone: 'Näringssortering med tallriksmodellen', howWeAddress: 'Kategoriseringsövningar där eleven placerar matvaror i rätt näringsgrupp på tallriken' },
+        { milestone: 'Pengamatematik med matinköp', howWeAddress: 'Butikscenarier där eleven beräknar totalpris och växel inom talområdet 20' },
+        { milestone: 'Läsförståelse om näring och hälsa', howWeAddress: 'Korta texter om varför kroppen behöver protein, kolhydrater och vitaminer' },
+      ],
+      differentiationNotes: 'För elever som behöver stöd, begränsa till halvor, använd två näringsgrupper och håll priser inom 10 kr. För avancerade elever introducera tredjedelar, tre näringsgrupper med detaljerad tallriksmodell och låt eleven planera en dag med balanserade måltider och beräkna kostnader.',
+      parentTakeaway: 'Matbordet är en daglig lektion! Låt barnet dela frukt i halvor och fjärdedelar, sortera maten på tallriken efter näringsgrupp, och handla med en budget. Fråga: ”om vi köper 3 bananer för 4 kr styck, hur mycket kostar det?”. Prata om varför vi behöver olika sorters mat. Låt barnet hjälpa till att planera inhandlingslistan.',
+      classroomIntegration: 'Mattemat i årskurs 1 integreras med Lgr22: i matematik övas bråk, pengar och ordproblem, i NO diskuteras näring och hälsa, i svenska läses och skrivs om mat, i hemkunskap lagas mat. Skolmåltiden ger daglig koppling till tallriksmodellen och näringsgrupper.',
+      assessmentRubric: [
+        { skill: 'Bråkförståelse med mat', emerging: 'delar i halva med stöd', proficient: 'delar självständigt i halvor och fjärdedelar och jämför', advanced: 'löser bråkuppgifter och kopplar till vardagssituationer' },
+        { skill: 'Näringssortering (tallriksmodellen)', emerging: 'sorterar med stöd i två grupper', proficient: 'placerar självständigt matvaror i rätt näringsgrupp', advanced: 'planerar balanserad måltid och förklarar varför' },
+        { skill: 'Pengamatematik med matinköp', emerging: 'adderar två priser inom 10 kr med stöd', proficient: 'beräknar självständigt totalpris och växel inom 20 kr', advanced: 'planerar inköp inom budget och jämför alternativ' },
       ],
     },
     'second-grade': {

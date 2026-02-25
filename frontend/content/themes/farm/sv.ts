@@ -160,6 +160,9 @@ const content: EnrichedThemeContent = {
       ],
     },
     'first-grade': {
+      seoTitle: 'Gratis Bondgårdsövningar Årskurs 1 | LessonCraftStudio',
+      seoDescription: 'Utskrivbara bondgårdsövningar för elever i årskurs 1 (6–7 år). Ordproblem, datainsamling och läsförståelse med bondgårdstema. 33 generatorer. Gratis PDF.',
+      seoKeywords: 'bondgårdsövningar årskurs 1, bondgård arbetsblad 6–7 år, ordproblem bondgård, datainsamling djur, Lgr22, skörd matematik, läsförståelse, livsmedelsproduktion, streckräkning, årstider',
       intro: 'Elever i årskurs ett är redo för bondgårdsarbetsblad som utmanar dem med flerstegsproblem, längre läsuppgifter och mer komplexa pussel rotade i jordbruksscenarier. Sex- och sjuåringar kan addera och subtrahera inom tjugo med flyt, läsa enkla meningar självständigt och tillämpa logiskt resonemang på nya situationer. Mattearbetsblad med bondgårdstema på denna nivå presenterar textuppgifter som bonden samlade fjorton ägg på måndag och nio ägg på tisdag, hur många ägg samlade han totalt. Dessa scenarier förankrar abstrakt aritmetik i en relaterbar berättelse som gör problemlösning meningsfullt. Läsaktiviteter kan inkludera korta texter om hur vete förvandlas till mjöl och sedan till bröd, med förståelsefrågor som kräver minne, slutledning och sekvensering. Ordpussel med längre bondgårdsordförråd som fågelskrämma, bevattning och växthus utmanar stavningsfärdigheter och visuell skanning. Mönsterigenkänningsarbetsblad med sekvenser av omväxlande grödor eller upprepande traktorfärger utvecklar det algebraiska tänkande som årskurs etts läroplansmål introducerar. Årskurs ett är också tiden då barn börjar skriva korta stycken, och bondgårdsämnen ger rika uppmaningar: beskriv din drömgård, förklara hur en bondes dag förändras med årstiderna eller skriv tre steg för att plantera ett frö. Blandningen av älskat ämnesinnehåll med åldersanpassad akademisk stringens gör bondgårdsarbetsblad till en mångsidig resurs för lärare och föräldrar i årskurs ett som vill upprätthålla både utmaning och entusiasm under hela läsåret.',
       objectives: [
         { skill: 'Lösa additions- och subtraktionstextuppgifter inom 20 med bondgårdskontext', area: 'math' },
@@ -175,6 +178,23 @@ const content: EnrichedThemeContent = {
         { question: 'Vilken läsnivå har bondgårdsarbetsblad för årskurs ett?', answer: 'De använder enkla meningar med vanliga ordbilder och avkodningsbart bondgårdsordförråd. Lästexter är vanligtvis tre till fem meningar långa och beskriver processer som att plantera frön eller samla ägg, med förståelsefrågor som ber barnen minnas fakta eller sekvensera steg.' },
         { question: 'Hur stämmer bondgårdsarbetsblad överens med naturvetenskapsmålen i årskurs ett?', answer: 'De stödjer mål inom naturvetenskap om växters och djurs behov genom att be barnen identifiera vad grödor behöver för att växa och vad bondgårdsdjur behöver för att må bra. Arbetsblad om årstidsjordbruk kopplar till mål om mönster och cykler i naturen.' },
         { question: 'Är bondgårdsarbetsblad för årskurs ett tillräckligt akademiskt krävande?', answer: 'Ja. De innehåller flerstegstextuppgifter, mönsteruppgifter med bondgårdssekvenser, ordförrådspussel med ord upp till nio bokstäver och läsförståelse som kräver slutledning om jordbruksprocesser. Bondgårdstemat håller barnen engagerade medan det akademiska innehållet fullt ut uppfyller förväntningarna för årskurs ett.' },
+      ],
+
+      snippetAnswer: 'Bondgårdsövningar för årskurs 1 (6–7 år) tränar ordproblem inom 20, datainsamling med bondgårdsdjur och läsförståelse om livsmedelsproduktion. Stödjer Lgr22:s mål. Gratis utskrivbara PDF-arbetsblad på LessonCraftStudio.',
+      uniqueGradeAngle: 'I årskurs 1 kopplas bondgårdstemat till datadriven matematik och naturvetenskaplig förståelse av livsmedelsproduktion. Sex- och sjuåringar löser flerstegsproblem (bonden hade 15 kor och sålde 6, sedan fick han 3 kalvar), samlar in data om djurantal i streckräkningstabeller och redovisar i stapeldiagram. Läspassager om hur mjölk, ägg och spannmål produceras bygger förståelse för matens väg från jord till bord. Skrivuppgifter som bondgårdsdagbok ger meningsfull textproduktion. Lgr22 betonar hållbar utveckling, dataredovisning och läsförståelse, och bondgårdstemat levererar alla tre.',
+      developmentalMilestones: [
+        { milestone: 'Flerstegsproblem med bondgårdsscenarier', howWeAddress: 'Ordproblem med djurhandel, skörd och födelse som kräver två räkneoperationer' },
+        { milestone: 'Datainsamling och stapeldiagram (bondgårdsdjur)', howWeAddress: 'Eleven räknar djur på en bondgårdsbild, för streckräkning och skapar stapeldiagram' },
+        { milestone: 'Läsförståelse om livsmedelsproduktion', howWeAddress: 'Faktatexter om mjölk, ägg och spannmål med förståelsefrågor bygger hållbarhetsmedvetenhet' },
+        { milestone: 'Årstidskoppling (sådd, växt, skörd)', howWeAddress: 'Sekvenseringsuppgifter där eleven ordnar bondgårdsåret kronologiskt' },
+      ],
+      differentiationNotes: 'För elever som behöver stöd, håll ordproblem inom talområdet 10, ge förifylld diagrammall och fokusera på enstegsuppgifter. För avancerade elever utöka till tretal i ordproblem, låt eleven jämföra data från två bondgårdar och skriva förklarande text om livsmedelsproduktion.',
+      parentTakeaway: 'Bondgårdstemat lever i matbutiken! Låt barnet läsa på förpackningar var maten kommer från, räkna frukt och grönsaker, och beräkna kostnader. Besök en bondgård och låt barnet räkna djur och föra streckräkning. Fråga: ”om kon ger 12 liter mjölk och vi behöver 5, hur mycket är kvar?”. Varje måltid kan kopplas till bondgården.',
+      classroomIntegration: 'Bondgårdstemat i årskurs 1 integreras med Lgr22: i matematik löses ordproblem och data redovisas med bondgårdstal, i NO studeras livsmedelsproduktion och årstider, i svenska läses och skrivs bondgårdstexter, i SO diskuteras hållbar utveckling. Bondgårdsbesök ger autentisk datainsamling.',
+      assessmentRubric: [
+        { skill: 'Ordproblem med bondgårdstema', emerging: 'löser enstegsuppgifter inom 10 med stöd', proficient: 'löser självständigt flerstegsproblem inom 20', advanced: 'formulerar egna ordproblem och väljer räknesätt självständigt' },
+        { skill: 'Datainsamling och diagram', emerging: 'räknar och för streckräkning med stöd', proficient: 'skapar självständigt stapeldiagram och besvarar jämförelsefrågor', advanced: 'jämför datamängder och drar slutsatser om mönster' },
+        { skill: 'Läsförståelse om livsmedel', emerging: 'återger ett faktum med stöd', proficient: 'svarar självständigt på frågor om livsmedelskedjan', advanced: 'förklarar processen från jord till bord med egna ord' },
       ],
     },
     'second-grade': {

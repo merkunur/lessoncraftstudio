@@ -160,6 +160,9 @@ const content: EnrichedThemeContent = {
       ],
     },
     'first-grade': {
+      seoTitle: 'Gratis Påskövningar Årskurs 1 | LessonCraftStudio',
+      seoDescription: 'Utskrivbara påskövningar för elever i årskurs 1 (6–7 år). Ordproblem, symmetri och läsförståelse med påsktema. 33 generatorer. Gratis PDF.',
+      seoKeywords: 'påskövningar årskurs 1, påsk arbetsblad 6–7 år, symmetri påskägg, ordproblem, delning lika, Lgr22, påsktraditioner, läsförståelse, mönster, skrivövning',
       intro: 'Elever i årskurs 1 är redo för påskarbetsblad som utmanar dem med flerstegsproblem, längre läsuppgifter och mer komplexa pussel rotade i vår- och nylivsscenarier. Sex- och sjuåringar kan addera och subtrahera inom tjugo med växande flyt, läsa enkla meningar självständigt och tillämpa logiskt resonemang på nya problem. Mattearbetsblad med påsktema på denna nivå presenterar textuppgifter som till exempel Maya hittade åtta ägg i trädgården och fem ägg bakom skjulet, sedan gav hon fyra ägg till sin bror, hur många har hon nu. Dessa flerstegsscenarier förankrar abstrakt aritmetik i en berättelse som gör problemlösning till ett vårligt äventyr. Läsaktiviteter kan innehålla korta texter om hur olika vårdjur föds och växer, med förståelsefrågor som kräver återberättelse, slutledning och sekvensering av livscykelstadier. Ordsökningar med längre vokabulär som fjäril, vårprakt och vinterdvala utmanar stavningsfärdigheter och visuell avsökning. Mönsterigenkänningsarbetsblad med sekvenser av omväxlande äggfärger och dekorationsstilar utvecklar det algebraiska tänkande som kursplanen för årskurs 1 introducerar. Årskurs 1 är också när barn börjar skriva korta stycken, och påskämnen ger rika skrivuppgifter: beskriv den perfekta äggjakten, förklara hur en kyckling kläcks ur ett ägg eller skriv om ditt favorittecken på våren. Kombinationen av älskade vårbilder med åldersanpassad akademisk stringens gör påskarbetsblad till en kraftfull resurs för lärare och föräldrar i årskurs 1 under vårterminen.',
       objectives: [
         { skill: 'Lösa flerstegsuppgifter med addition och subtraktion inom 20 med vårscenarier', area: 'math' },
@@ -175,6 +178,23 @@ const content: EnrichedThemeContent = {
         { question: 'Vilken läsnivå har påskarbetsblad för årskurs 1?', answer: 'De använder enkla meningar med vanliga ordbilder och avkodningsbar vårvokabulär. Lässtycken är vanligtvis tre till fem meningar långa och beskriver äggjaktar, djurungar eller vårträdgårdar, med förståelsefrågor som ber barnen återberätta fakta, ordna händelser i sekvens eller göra förutsägelser.' },
         { question: 'Hur stödjer påskarbetsblad naturvetenskapsstandarder i årskurs 1?', answer: 'De förstärker naturvetenskapens mål om växt- och djurlivscykler genom att visa kläckningssekvenser, tillväxtstadier och årstidsförändringar. Arbetsblad om vårträdgårdar kopplar till mål om vad växter behöver för att växa, medan aktiviteter med djurungar adresserar mål om hur organismer utvecklas och förändras.' },
         { question: 'Är påskarbetsblad för årskurs 1 tillräckligt akademiskt utmanande?', answer: 'Ja. De innehåller flerstegsproblem med vårscenarier, mönsterkomplettering med komplexa dekorationssekvenser, ordpussel med ord upp till tio bokstäver och läsförståelse som kräver slutledning om livscykler och årstidsförändringar. Vårtemat bibehåller engagemang medan det akademiska innehållet fullt ut möter förväntningarna för årskurs 1.' },
+      ],
+
+      snippetAnswer: 'Påskövningar för årskurs 1 (6–7 år) tränar ordproblem inom 20, symmetri med påskäggsmönster och läsförståelse om svenska påsktraditioner. Delning lika med godis övas. Gratis PDF på LessonCraftStudio.',
+      uniqueGradeAngle: 'I årskurs 1 kopplas påsktemat till flerstegsmatematik och kulturell läsförståelse. Sex- och sjuåringar löser ordproblem med påskägg och godis (hittade 18 ägg, gav bort 7), skapar symmetriska mönster på påskägg och fördelar godis lika i påskåsar. Läspassager om svenska påsktraditioner — påskkärringar, påskriset och påskelden — bygger kulturell kunskap. Skrivuppgifter som påskbrev och påskhälsningar ger meningsfull textproduktion. Lgr22 betonar kulturförståelse, symmetri och vardagsmatematik, och påsktemat förenar alla tre i en årlig fest som alla barn känner till.',
+      developmentalMilestones: [
+        { milestone: 'Ordproblem med påskscenarier (addition/subtraktion inom 20)', howWeAddress: 'Realistiska påskscenarier (samla ägg, fördela godis) tränar flerstegsresonemang med tiotalsövergång' },
+        { milestone: 'Symmetri med påskäggsmönster', howWeAddress: 'Eleven dekorerar påskägg med symmetriska mönster och kompletterar den saknade halvan' },
+        { milestone: 'Rättvis delning (godis i påskåsar)', howWeAddress: 'Fördelningsuppgifter där eleven delar godis lika mellan påskåsar' },
+        { milestone: 'Kulturell läsförståelse (svenska påsktraditioner)', howWeAddress: 'Läspassager om påsktraditioner med förståelsefrågor som kräver återberättande' },
+      ],
+      differentiationNotes: 'För elever som behöver stöd, håll ordproblem inom 10, ge symmetrimallar och begränsa delning till två grupper. För avancerade elever lägg till flerstegsproblem, komplexa symmetrimönster med fyra sektorer och skrivuppgifter där eleven jämför påsktraditioner i olika länder.',
+      parentTakeaway: 'Påsken är en matematikfest hemma! Låt barnet räkna ägg vid äggsökningen, fördela godis i påskåsar lika och dekorera ägg med symmetriska mönster. Läs om påsktraditioner och låt barnet berätta för morfar vad påskkärringarna gör. Fråga: ”hittade 16 ägg, gav 7 till syster — hur många har du kvar?”',
+      classroomIntegration: 'Påsktemat i årskurs 1 integreras med Lgr22: i matematik övas ordproblem, symmetri och delning, i svenska läses och skrivs påsktexter, i SO diskuteras traditioner, i bild skapas symmetriska påskägg. Påskveckan ger intensiv temabaserad undervisning där alla ämnen knyts till påsken.',
+      assessmentRubric: [
+        { skill: 'Ordproblem med påsktema', emerging: 'löser enstegsuppgifter inom 10 med bildstöd', proficient: 'löser självständigt ordproblem inom 20 med påskscenarier', advanced: 'formulerar egna flerstegsproblem och löser dem med talsätser' },
+        { skill: 'Symmetri med påskägg', emerging: 'identifierar symmetrilinjen med stöd', proficient: 'skapar självständigt symmetriska mönster med korrekt spegling', advanced: 'designar komplexa symmetriska mönster och förklarar principen' },
+        { skill: 'Rättvis delning av godis', emerging: 'fördelar med en-till-varje-metoden med stöd', proficient: 'fördelar självständigt lika mellan 2–5 påsar', advanced: 'hanterar rest och förklarar lösningen' },
       ],
     },
     'second-grade': {

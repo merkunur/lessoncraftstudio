@@ -29,16 +29,16 @@ export const pictureBingoNlContent: ProductPageContent = {
   seo: {
     slug: 'plaatjes-bingo-werkbladen',
     appId: 'bingo',
-    title: 'Gratis Werkblad Plaatjes Bingo - Generator voor Werkbladen Kleuters',
-    description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3.',
-    keywords: 'plaatjes bingo, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, rekenen werkbladen, letters leren, veilig leren lezen, sommen tot 20, kleurplaten, fijne motoriek, tafels oefenen, bingo generator',
+    title: 'Gratis Plaatjesbingo Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare plaatjesbingospellen voor kinderen. 50 thema's, aanpasbare rasters en afbeeldingen uit 3.000+ bibliotheek. Perfect voor de klas. Download gratis.',
+    keywords: 'plaatjesbingo generator, bingo uitprintbaar kinderen, plaatjesbingo spel, uitprintbaar bingospel, bingo kleuterschool, klassenbingo, plaatjesbingo raster, bingo oefening kinderen, groepsspel uitprintbaar, bingo afbeeldingen kinderen, bingospel klas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/plaatjes-bingo-werkbladen',
       },
 
   // Hero Section - FULL text from bingo.md paragraphs
   hero: {
-    title: 'Gratis Werkbladen Plaatjes Bingo Generator',
-    subtitle: 'Werkblad voor Kinderen - Gratis Printables voor Groep 1-3',
+    title: 'Plaatjesbingo Generator',
+    subtitle: 'Maak Uitprintbare Bingospellen met 50 Thema's',
     description: `Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.
 
 Plaatjes bingo is een fantastisch leermiddel voor het basisonderwijs. Kleuters en kinderen uit groep 3 leren nieuwe woorden terwijl ze spelen. De generator maakt unieke bingokaarten met afbeeldingen of woorden. Elke kaart is anders, zodat ieder kind een eigen speelervaring heeft.

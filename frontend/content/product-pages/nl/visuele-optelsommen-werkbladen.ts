@@ -29,16 +29,16 @@ export const codeAdditionNlContent: ProductPageContent = {
   seo: {
     slug: 'visuele-optelsommen-werkbladen',
     appId: 'code-addition',
-    title: 'Gratis Werkblad Visuele Optelsommen - Werkblad voor Kinderen en',
-    description: 'Maak gratis werkbladen visuele optelsommen met onze generator. Gratis printables voor kinderen en kleuters. Download werkblad voor kinderen in 3 minuten.',
-    keywords: 'visuele optelsommen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
+    title: 'Gratis Code-optellen Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare code-opteloefeningen waarbij kinderen geheime berichten ontcijferen door optellen. Kleuterschool tot groep 5. Met afbeeldingen. Gratis PDF.',
+    keywords: 'code-optellen generator, code-optellen oefeningen, geheim bericht rekenen, codeeroefening kinderen, optellen codekraken, geheime codes rekenen, optelcode werkbladen, rekenpuzzel kinderen, ontcijferoefening, code-optellen uitprintbaar, rekenspel kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/visuele-optelsommen-werkbladen',
       },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Visuele Optelsommen Generator',
-    subtitle: 'Gratis Werkbladen en Gratis Printables voor Werkblad voor Kinderen en Werkblad voor Kleuters',
+    title: 'Code-optellen Generator',
+    subtitle: 'Geheime Berichten door Opteloefeningen',
     description: `Maak gratis werkbladen visuele optelsommen met onze rekenen werkbladen generator. Met je Volledige Toegang abonnement genereer je onbeperkt werkblad voor kinderen zonder extra kosten per werkblad. Download gratis printables en werkblad voor kleuters in minder dan 3 minuten. Perfecte gratis werkblad materialen voor elke leeftijd.
 
 Visuele optelsommen zijn rekenen werkbladen waarbij kinderen plaatjes tellen en bij elkaar optellen. Dit is de perfecte manier om sommen tot 20 te oefenen. Kleuters en leerlingen van groep 3 leren rekenen door concrete voorwerpen te tellen. Drie appels plus twee appels wordt vijf appels. Zo begrijpen kinderen wat optellen echt betekent.

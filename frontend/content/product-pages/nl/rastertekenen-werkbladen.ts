@@ -28,16 +28,16 @@ export const drawAndColorNlContent: ProductPageContent = {
   seo: {
     slug: 'rastertekenen-werkbladen',
     appId: 'draw-and-color',
-    title: 'Gratis Werkblad Rastertekenen - Werkblad voor Kinderen en Kleuters',
-    description: 'Maak professionele rastertekenen werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot het.',
-    keywords: 'rastertekenen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen, kleurplaten',
+    title: 'Gratis Rastertekenen Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare rastertekenoefeningen voor pixelkunst. Ontwikkel ruimtelijk inzicht en fijne motoriek van kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'rastertekenen generator, rastertekenen oefeningen, pixelkunst kinderen, rastertekening uitprintbaar, ruimtelijk inzicht oefening, tekenen op raster, pixeltekening werkbladen, symmetrie oefening, coördinatenoefeningen kinderen, rastertekenen kleuterschool, rasteroefeningen uitprintbaar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rastertekenen-werkbladen',
       },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Rastertekenen Generator',
-    subtitle: 'Gratis Werkbladen en Gratis Printables - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    title: 'Rastertekenen Generator',
+    subtitle: 'Uitprintbare Pixelkunstoefeningen van Kleuterschool tot Groep 5',
     description: `Maak professionele rastertekenen werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot het maken van werkbladen zonder extra kosten per werkblad. Download je werkbladen als PDF of JPEG en print ze direct uit. Ideaal voor leerkrachten die werkbladen kleuters en werkbladen groep 3 nodig hebben voor fijne motoriek ontwikkeling.
 
 Onze rastertekenen generator is speciaal ontwikkeld voor het basisonderwijs. Kinderen leren patronen natekenen in een rasterformaat. Dit is een bewezen methode voor fijne motoriek ontwikkeling. Leerkrachten van groep 1 en 2 gebruiken rastertekenen dagelijks. Ook in groep 3, 4 en 5 blijft deze techniek waardevol. De generator ondersteunt 11 talen waaronder Nederlands.

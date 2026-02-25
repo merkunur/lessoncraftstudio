@@ -27,16 +27,16 @@ export const sudokuNlContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-werkbladen',
     appId: 'sudoku',
-    title: 'Gratis Werkblad Sudoku Generator - Gratis Werkbladen voor Kinderen en',
-    description: 'Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen.',
-    keywords: 'sudoku werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
+    title: 'Kindersudoku Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare plaatjessudoku voor kinderen. Eenvoudige en gemiddelde logicaspellen van kleuterschool tot groep 5. Afbeeldingen uit 3.000+ bibliotheek. Gratis PDF.',
+    keywords: 'kindersudoku generator, plaatjessudoku kinderen, sudoku uitprintbaar, logicaspellen kinderen, eenvoudige sudoku kinderen, plaatjessudoku uitprintbaar, sudoku kleuterschool, logicaoefeningen kinderen, sudoku raster kinderen, denkvaardigheden training, sudoku basisschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sudoku-werkbladen',
       },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Sudoku Generator - Werkblad voor Kinderen',
-    subtitle: 'Gratis Werkbladen en Gratis Printables voor Werkblad voor Kleuters',
+    title: 'Kindersudoku Generator',
+    subtitle: 'Uitprintbare Plaatjessudoku van Kleuterschool tot Groep 5',
     description: `Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen. Met je Basispakket abonnement maak je onbeperkt werkbladen kleuters zonder extra kosten per werkblad. In plaats van cijfers gebruiken deze puzzels kleurrijke plaatjes. Perfect voor kinderen die nog niet kunnen rekenen.
 
 Visuele sudoku helpt kinderen logisch denken ontwikkelen. De puzzels zijn ideaal voor werkbladen groep 3 en werkbladen kleuters. Kinderen leren patronen herkennen zonder dat ze cijfers hoeven te kennen. Dit maakt onze sudoku generator perfect voor de jongste leerlingen.

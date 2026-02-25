@@ -27,16 +27,16 @@ export const bigSmallNlContent: ProductPageContent = {
   seo: {
     slug: 'groot-klein-werkbladen',
     appId: 'big-small',
-    title: 'Groot en Klein Werkbladen Generator - Oefenbladen Gratis voor',
-    description: 'Maak in enkele minuten professionele groot-klein werkbladen met onze Groot en Klein generator. Met je Volledige Toegang abonnement heb je onbeperkt toegang tot.',
-    keywords: 'groot klein werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, sommen tot 20, tafels oefenen, veilig leren lezen, letters leren',
+    title: 'Groottevergelijking Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare groot-en-klein vergelijkingsoefeningen met afbeeldingen. Ontwikkel groottebegrippen van kleuterschool tot groep 3. Pas instellingen aan. Gratis PDF.',
+    keywords: 'groottevergelijking generator, groot en klein oefeningen, groottevergelijking kleuterschool, grootte herkenning, groter en kleiner, groottevergelijking kinderen, groot klein uitprintbaar, grootteverkenner oefeningen, grootte-oefeningen kleuterschool, vergelijkingsvaardigheden oefening, grootte sorteren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/groot-klein-werkbladen',
       },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-2
   hero: {
-    title: 'Groot en Klein Werkbladen',
-    subtitle: 'Oefenbladen Gratis voor Kleuters en Groep 3',
+    title: 'Groot en Klein Generator',
+    subtitle: 'Groottevergelijkingsoefeningen met Afbeeldingen van Kleuterschool tot Groep 3',
     description: `Maak in enkele minuten professionele groot-klein werkbladen met onze Groot en Klein generator. Met je Volledige Toegang abonnement heb je onbeperkt toegang tot werkbladen kleuters en werkbladen groep 3 zonder extra kosten per werkblad. Deze werkbladen ondersteunen de fijne motoriek ontwikkeling van jonge kinderen. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Werkbladen groep 3 en werkbladen kleuters zijn essentieel voor het ontwikkelen van visuele waarneming. Kinderen leren objecten vergelijken op grootte. Dit is een belangrijke vaardigheid voor rekenen werkbladen en sommen tot 20. De oefenbladen gratis online zijn moeilijk te vinden in goede kwaliteit. Onze generator biedt professionele werkbladen met meer dan 3000 afbeeldingen.

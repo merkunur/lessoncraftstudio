@@ -27,16 +27,16 @@ export const chartCountNlContent: ProductPageContent = {
   seo: {
     slug: 'telgrafieken-werkbladen',
     appId: 'chart-count',
-    title: 'Telgrafieken Werkbladen Maker - Gratis Oefenbladen voor Rekenen en',
-    description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten.',
-    keywords: 'telgrafieken werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
+    title: 'Gratis Telgrafieken Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare telgrafiekoefeningen met afbeeldingen. Tellen, kleuren en data aflezen voor kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'telgrafieken generator, telgrafieken oefeningen, staafdiagram kinderen, data aflezen kleuterschool, tellen en kleuren, grafiek oefening, beelddiagram werkbladen, statistiek kinderen, grafiektolking oefening, rekenen grafiek, beelddiagram uitprintbaar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/telgrafieken-werkbladen',
       },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
-    title: 'Telgrafieken Werkbladen Maker',
-    subtitle: 'Gratis Oefenbladen voor Rekenen en Tellen in Groep 3',
+    title: 'Telgrafieken Generator',
+    subtitle: 'Uitprintbare Telgrafiekoefeningen met Afbeeldingen',
     description: `Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren. Download werkbladen als PDF in minder dan 3 minuten.
 
 Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbladen kleuters. Kinderen leren op een speelse manier omgaan met cijfers en grafieken. De generator biedt meer dan 3000 afbeeldingen, allemaal inbegrepen in je abonnement. Combineer plaatjes met telactiviteiten voor effectieve sommen tot 20 oefeningen.`,

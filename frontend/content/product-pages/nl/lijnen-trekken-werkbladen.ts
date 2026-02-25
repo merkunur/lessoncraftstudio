@@ -38,16 +38,16 @@ export const drawingLinesNlContent: ProductPageContent = {
   seo: {
     slug: 'lijnen-trekken-werkbladen',
     appId: 'drawing-lines',
-    title: 'Gratis Werkblad Lijnen Trekken Generator | Gratis Werkbladen',
-    description: 'Maak professionele lijnen trekken werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement creëer je onbeperkt werkbladen kleuters en.',
-    keywords: 'lijnen trekken werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, schrijven oefenen, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Lijnen Trekken Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare lijntrekoefeningen voor fijne motoriek-ontwikkeling. Rechte lijnen, bogen en golven van kleuterschool tot groep 3. Download gratis PDF.',
+    keywords: 'lijnen trekken generator, lijnen trekken oefeningen, fijne motoriek oefeningen, lijnvolgen oefening, pengreep oefeningen, tekenen training kleuterschool, fijne motoriek kleuterschool, schrijfvoorbereiding oefening, pengreep training, lijnen en vormen oefening, tekentraining kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/lijnen-trekken-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Werkbladen Lijnen Trekken Generator',
-    subtitle: 'Werkblad voor Kinderen - Fijne Motoriek en Schrijven Oefenen',
+    title: 'Lijnen Trekken Generator',
+    subtitle: 'Fijne Motoriek Oefeningen van Kleuterschool tot Groep 3',
     description: `Maak professionele lijnen trekken werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement creëer je onbeperkt werkbladen kleuters en werkbladen groep 3 zonder extra kosten per werkblad. Elk gratis werkblad helpt kinderen bij het ontwikkelen van fijne motoriek en schrijven oefenen. Download gratis printables in minder dan 3 minuten.
 
 Lijnen trekken is een essentiële vaardigheid voor jonge kinderen. Het vormt de basis voor letters leren en schrijven oefenen. Onze generator maakt het eenvoudig om oefenbladen gratis te maken die aansluiten bij het niveau van groep 1-2 en groep 3. Elk werkblad voor kleuters is perfect voor kinderen die beginnen met formeel schrijven oefenen en moeten lijnen kunnen controleren.

@@ -30,7 +30,7 @@ export const patternWorksheetsNlContent: ProductPageContent = {
     slug: 'patronen-werkbladen',
     appId: 'pattern-worksheet',
     title: 'Gratis Patronenoefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare patronenoefeningen met afbeeldingen. Ontwikkel logica en patroonherkenning van kleuterschool tot groep 5. 50 thema 3.000+ afbeeldingen.'s. Download gratis PDF.',
+    description: 'Maak uitprintbare patronenoefeningen met afbeeldingen. Ontwikkel logica en patroonherkenning van kleuterschool tot groep 5. 50 thema\u2019s, 3.000+ afbeeldingen. Download gratis PDF.',
     keywords: 'patronen oefeningen kinderen, patroonherkenning oefening, patronen werkbladen, logisch patroon kinderen, patroon reeks oefening, patronen uitprintbaar, sequentie en patronen, patronenoefening kleuterschool, rekenen patronen, beeldpatroon werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
       },
@@ -38,7 +38,7 @@ export const patternWorksheetsNlContent: ProductPageContent = {
   // Hero Section
   hero: {
     title: 'Patronenoefening Generator',
-    subtitle: 'Uitprintbare Patronenoefeningen met 50 Thema's',
+    subtitle: 'Uitprintbare Patronenoefeningen met 50 Thema\u2019s',
     description: `Maak professionele patronen werkbladen voor groep 3 en kleuters. Onze pattern worksheet generator maakt het eenvoudig om gratis werkbladen te maken met visuele patronen. Perfect werkblad voor kinderen voor het oefenen van rekenen werkbladen en fijne motoriek vaardigheden.
 
 Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot patronen werkbladen maken zonder extra kosten per werkblad. Genereer zoveel gratis printables als je nodig hebt voor werkbladen groep 3, werkblad voor kleuters, en groep 1 2. Download hoogwaardige PDF werkbladen in onder 3 minuten.

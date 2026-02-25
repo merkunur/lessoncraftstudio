@@ -30,7 +30,7 @@ export const treasureHuntNlContent: ProductPageContent = {
     slug: 'schattenjacht-werkbladen',
     appId: 'treasure-hunt',
     title: 'Gratis Schattenjacht Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare schattenjacht-oefeningen voor kinderen. Combineer probleemoplossing met avontuur. Kleuterschool tot groep 5. 50 thema Print direct uit.'s. Download gratis PDF.',
+    description: 'Maak uitprintbare schattenjacht-oefeningen voor kinderen. Combineer probleemoplossing met avontuur. Kleuterschool tot groep 5. 50 thema\u2019s. Download gratis PDF.',
     keywords: 'schattenjacht oefeningen kinderen, schattenjacht uitprintbaar, schattenjacht werkbladen, schatzoeken kinderen, avontuurpuzzel kinderen, schattenjacht kleuterschool, schattenjacht klas, opdrachten en aanwijzingen, schattenjacht met afbeeldingen, schattenjacht gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
       },
@@ -38,7 +38,7 @@ export const treasureHuntNlContent: ProductPageContent = {
   // Hero Section
   hero: {
     title: 'Schattenjacht Generator',
-    subtitle: 'Uitprintbare Schattenjachtoefeningen met 50 Thema's',
+    subtitle: 'Uitprintbare Schattenjachtoefeningen met 50 Thema\u2019s',
     description: `Maak in enkele minuten professionele schattenjacht werkbladen voor je leerlingen. Deze generator helpt leerkrachten bij het maken van richtingswoorden oefeningen. Perfect voor werkbladen groep 3 en werkbladen kleuters die leren volgen van instructies.
 
 De schattenjacht maker werkt volledig in het Nederlands. Kies zes afbeeldingen uit een thema. De generator maakt automatisch een vijf-bij-vijf rooster. Leerlingen volgen de richtingsaanwijzingen om de schat te vinden. Dit oefent fijne motoriek en ruimtelijk inzicht tegelijk.

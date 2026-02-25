@@ -30,7 +30,7 @@ export const imageCryptogramNlContent: ProductPageContent = {
     slug: 'cryptogram-werkbladen',
     appId: 'cryptogram',
     title: 'Gratis Gratis Cryptogram Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare beeldcryptogrammen voor kinderen. Kraak geheime codes met beeldaanwijzingen. Kleuterschool tot groep 5. 50 thema Download gratis PDF nu.'s. Download gratis PDF.',
+    description: 'Maak uitprintbare beeldcryptogrammen voor kinderen. Kraak geheime codes met beeldaanwijzingen. Kleuterschool tot groep 5. 50 thema\u2019s. Download gratis PDF.',
     keywords: 'cryptogram generator, cryptogram oefeningen, geheime code kinderen, cryptogram uitprintbaar, ontcijferoefening kinderen, geheime codes werkbladen, codekraker kinderen, cryptogram kleuterschool, cijferoefening, codering kinderen, geheime berichten oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/cryptogram-werkbladen',
       },

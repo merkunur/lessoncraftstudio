@@ -30,7 +30,7 @@ export const matchingNlContent: ProductPageContent = {
     slug: 'verbindings-werkbladen',
     appId: 'matching',
     title: 'Gratis Verbindingsoefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare verbindingsoefeningen met afbeeldingen. Ontwikkel geheugen en patroonherkenning van kleuterschool tot groep 5. 50 thema Print direct uit.'s. Download gratis PDF.',
+    description: 'Maak uitprintbare verbindingsoefeningen met afbeeldingen. Ontwikkel geheugen en patroonherkenning van kleuterschool tot groep 5. 50 thema\u2019s. Download gratis PDF.',
     keywords: 'verbindingsoefening generator, verbindingsoefeningen, koppelen kinderen, geheugenspel uitprintbaar, koppeloefening kleuterschool, patroonherkenning oefening, visueel koppelen, beeldkoppeling oefening, koppeloefening uitprintbaar, geheugen en koppelen, verbindingsoefeningen kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
       },
@@ -38,7 +38,7 @@ export const matchingNlContent: ProductPageContent = {
   // Hero Section
   hero: {
     title: 'Verbindingsoefening Generator',
-    subtitle: 'Uitprintbare Koppeloefeningen met 50 Thema's',
+    subtitle: 'Uitprintbare Koppeloefeningen met 50 Thema\u2019s',
     description: `Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden. Binnen drie minuten download je hoogwaardige PDF werkbladen klaar voor de printer.
 
 Verbindingswerkbladen zijn ideaal voor werkbladen kleuters en groep 1 2. Kinderen leren visuele herkenning door afbeeldingen te koppelen aan woorden of letters. Dit stimuleert de fijne motoriek omdat leerlingen precieze lijnen moeten trekken. Onze generator biedt vier verschillende verbindingsmodi.

@@ -38,7 +38,7 @@ export const pictureBingoNlContent: ProductPageContent = {
   // Hero Section - FULL text from bingo.md paragraphs
   hero: {
     title: 'Plaatjesbingo Generator',
-    subtitle: 'Maak Uitprintbare Bingospellen met 50 Thema's',
+    subtitle: 'Maak Uitprintbare Bingospellen met 50 Thema\u2019s',
     description: `Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.
 
 Plaatjes bingo is een fantastisch leermiddel voor het basisonderwijs. Kleuters en kinderen uit groep 3 leren nieuwe woorden terwijl ze spelen. De generator maakt unieke bingokaarten met afbeeldingen of woorden. Elke kaart is anders, zodat ieder kind een eigen speelervaring heeft.

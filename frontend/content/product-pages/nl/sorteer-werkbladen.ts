@@ -32,7 +32,7 @@ export const pictureSortNlContent: ProductPageContent = {
     slug: 'sorteer-werkbladen',
     appId: 'picture-sort',
     title: 'Gratis Sorteeroefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare sorteeroefeningen voor kinderen. Ontwikkel categorisering en classificatie. Kleuterschool tot groep 5. 50 thema Download gratis PDF nu.'s. Gratis PDF.',
+    description: 'Maak uitprintbare sorteeroefeningen voor kinderen. Ontwikkel categorisering en classificatie. Kleuterschool tot groep 5. 50 thema\u2019s. Download gratis PDF.',
     keywords: 'sorteeroefeningen, sorteren kinderen, categorisering oefening kinderen, classificatie werkbladen, sorteeroefening uitprintbaar, sorteren kleuterschool, groepering oefening, sorteren en classificeren, categorieën oefening kinderen, visueel sorteren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sorteer-werkbladen',
       },

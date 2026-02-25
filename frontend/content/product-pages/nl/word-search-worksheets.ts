@@ -27,16 +27,16 @@ export const wordSearchNlContent: ProductPageContent = {
   seo: {
     slug: 'woordzoeker-werkbladen',
     appId: 'wordsearch',
-    title: 'Woordzoeker Generator - Gratis Werkblad voor Kinderen',
-    description: 'Maak professionele woordzoekers voor het basisonderwijs. Deze gratis woordzoeker generator is perfect voor werkbladen groep 3, werkbladen kleuters en.',
-    keywords: 'woordzoeker generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, veilig leren lezen, rekenen werkbladen, kleurplaten, fijne motoriek, sommen tot 20',
+    title: 'Gratis Woordzoeker Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare woordzoekers in 11 talen. Aanpasbare woorden, afmetingen en niveaus. Woordenschat en spelling. Download gratis PDF.',
+    keywords: 'woordzoeker uitprintbaar, woordzoeker kinderen, woordspel generator, woordzoeker oefening, woordpuzzel uitprintbaar, woordzoekspel kinderen, woordenschat woordzoeker, spelling woordzoeker, woordzoeker basisschool, woordzoeker kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordzoeker-werkbladen',
       },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
     title: 'Woordzoeker Generator',
-    subtitle: 'Gratis Werkbladen voor Kinderen - Oefenbladen voor Werkbladen Groep 3 en Kleuters',
+    subtitle: 'Uitprintbare Woordzoekers voor Woordenschatoefening',
     description: `Maak in een paar klikken professionele woordzoekers voor je leerlingen. Deze gratis woordzoeker generator is perfect voor leerkrachten in het basisonderwijs. Ontwerp werkbladen groep 3 die kinderen uitdagen en vermaken tegelijk.
 
 De woordzoeker maker werkt volledig in het Nederlands. Je kiest een thema of uploadt eigen afbeeldingen. Binnen drie minuten heb je een afdrukbare puzzel klaar. Ideaal voor werkbladen kleuters en groep 1 2 die net beginnen met letters leren.

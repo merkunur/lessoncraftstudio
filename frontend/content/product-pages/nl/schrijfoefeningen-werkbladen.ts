@@ -27,16 +27,16 @@ export const writingNlContent: ProductPageContent = {
   seo: {
     slug: 'schrijfoefeningen-werkbladen',
     appId: 'writing',
-    title: 'Schrijfoefeningen Gratis Werkblad Generator | Gratis Werkbladen',
-    description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot.',
-    keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Gratis Schrijfoefening Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare schrijfoefeningen voor kinderen. Lettervorming, woordschrijven en zinsbouw. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'schrijfoefeningen kinderen, lettervorming oefening, handschrifttraining, letters schrijven oefening, schrijfoefening kleuterschool, schrijftraining uitprintbaar, voorbereidend schrijven oefening, letters en woorden, schrijfoefeningen groep 3, handschrift werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schrijfoefeningen-werkbladen',
       },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
-    title: 'Schrijfoefeningen Generator - Gratis Werkblad voor Kinderen',
-    subtitle: 'Gratis Werkbladen voor Letters Leren - Werkblad voor Kleuters en Groep 3',
+    title: 'Schrijfoefening Generator',
+    subtitle: 'Uitprintbare Schrijfoefeningen van Kleuterschool tot Groep 5',
     description: `Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van werkbladen zonder kosten per werkblad. Creëer gepersonaliseerde oefenbladen gratis voor groep 1 2 en groep 3. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Onze schrijven oefenen generator biedt verschillende lettertypen en schrijfstijlen. Perfect voor werkbladen kleuters die letters leren. Van gestippelde letters voor nasporingen tot vloeiend schrijven met verbonden letters. Elke schrijfoefening is ontworpen om fijne motoriek te ontwikkelen bij jonge leerlingen.

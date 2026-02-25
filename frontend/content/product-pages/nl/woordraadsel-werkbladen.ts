@@ -29,16 +29,16 @@ export const wordGuessNlContent: ProductPageContent = {
   seo: {
     slug: 'woordraadsel-werkbladen',
     appId: 'word-guess',
-    title: 'Woordraadsel Werkbladen - Gratis Werkblad voor Kinderen',
-    description: 'Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken.',
-    keywords: 'woordraadsel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, groep 1 2',
+    title: 'Gratis Woordraadsel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare woordraadseloefeningen voor kinderen. Ontwikkel woordenschat en redeneervermogen. Kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'woordraadsel oefeningen, woordpuzzel kinderen, woordenschat oefening kinderen, woordraadsel uitprintbaar, woordenschat werkbladen, beeldaanwijzing woordspel, woordspel uitprintbaar, woordraadsel kleuterschool, taaloefening kinderen, woordraadsel met afbeeldingen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordraadsel-werkbladen',
       },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
-    title: 'Woordraadsel Generator - Gratis Werkbladen voor Kinderen',
-    subtitle: 'Gratis Werkblad voor Kleuters - Werkblad voor Kinderen met Gratis Printables',
+    title: 'Woordraadsel Generator',
+    subtitle: 'Woordenschatoefeningen met Beeldaanwijzingen',
     description: `Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken zonder kosten per werkblad. Genereer aangepaste werkbladen kleuters en werkbladen groep 3 perfect voor letters leren en schrijven oefenen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Onze woordraadsel generator is ideaal voor leerkrachten die oefenbladen gratis willen maken. Elke woordraadsel bevat een afbeelding als aanwijzing en lege vakjes voor elke letter. Kinderen moeten het woord raden op basis van de visuele hint. Perfect voor fijne motoriek ontwikkeling en letters leren.

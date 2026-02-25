@@ -29,16 +29,16 @@ export const treasureHuntNlContent: ProductPageContent = {
   seo: {
     slug: 'schattenjacht-werkbladen',
     appId: 'treasure-hunt',
-    title: 'Schattenjacht Werkbladen Gratis - Gratis Werkblad voor Kinderen Groep',
-    description: 'Maak professionele schattenjacht werkbladen met onze richtingswoorden generator. Genereer aangepaste oefenbladen perfect voor groep 1, groep 2 en groep 3.',
-    keywords: 'schattenjacht, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, richtingswoorden, groep 1 2, veilig leren lezen, ruimtelijk inzicht',
+    title: 'Gratis Schattenjacht Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare schattenjacht-oefeningen voor kinderen. Combineer probleemoplossing met avontuur. Kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    keywords: 'schattenjacht oefeningen kinderen, schattenjacht uitprintbaar, schattenjacht werkbladen, schatzoeken kinderen, avontuurpuzzel kinderen, schattenjacht kleuterschool, schattenjacht klas, opdrachten en aanwijzingen, schattenjacht met afbeeldingen, schattenjacht gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Schattenjacht Generator - Gratis Werkbladen voor Kinderen',
-    subtitle: 'Gratis Werkblad voor Kleuters - Werkblad voor Kinderen met Richtingswoorden',
+    title: 'Schattenjacht Generator',
+    subtitle: 'Uitprintbare Schattenjachtoefeningen met 50 Thema's',
     description: `Maak in enkele minuten professionele schattenjacht werkbladen voor je leerlingen. Deze generator helpt leerkrachten bij het maken van richtingswoorden oefeningen. Perfect voor werkbladen groep 3 en werkbladen kleuters die leren volgen van instructies.
 
 De schattenjacht maker werkt volledig in het Nederlands. Kies zes afbeeldingen uit een thema. De generator maakt automatisch een vijf-bij-vijf rooster. Leerlingen volgen de richtingsaanwijzingen om de schat te vinden. Dit oefent fijne motoriek en ruimtelijk inzicht tegelijk.

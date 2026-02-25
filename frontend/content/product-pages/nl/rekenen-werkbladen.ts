@@ -27,16 +27,16 @@ export const mathWorksheetsNlContent: ProductPageContent = {
   seo: {
     slug: 'rekenen-werkbladen',
     appId: 'math-worksheet',
-    title: 'Gratis Werkblad Rekenen Generator - Gratis Werkbladen voor Kinderen',
-    description: 'Maak een gratis werkblad voor kinderen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement krijg je onbeperkte toegang tot alle functies.',
-    keywords: 'rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, kleurplaten',
+    title: 'Rekenoefening Generator voor Kinderen | LessonCraftStudio',
+    description: 'Maak visuele rekenoefeningen met afbeeldingen. Optellen, aftrekken, vergelijken en getallenreeksen van kleuterschool tot groep 5. Antwoorden inbegrepen. Gratis PDF.',
+    keywords: 'rekenoefening generator, rekenen oefeningen basisschool, rekenoefeningen uitprintbaar, rekenen werkbladen, rekenoefeningen kleuterschool, visuele rekenoefeningen, rekenoefeningen kinderen, rekenen antwoorden, basisbewerkingen oefening, rekenen uitprintbaar gratis, rekenen trainingsoefeningen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenen-werkbladen',
       },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Rekenen Generator - Gratis Werkbladen voor Kinderen',
-    subtitle: 'Werkblad voor Kinderen en Werkblad voor Kleuters - Gratis Printables',
+    title: 'Rekenoefening Generator',
+    subtitle: 'Visuele Rekenoefeningen van Kleuterschool tot Groep 5',
     description: `Maak professionele rekenen werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement krijg je onbeperkte toegang tot alle functies. Genereer zoveel werkbladen groep 3 als je nodig hebt. Download direct als PDF of JPEG in hoge kwaliteit.
 
 De rekenen werkbladen generator is speciaal ontworpen voor leerkrachten en ouders. Maak werkbladen kleuters en oefenbladen gratis beschikbaar voor je klas. Het systeem genereert automatisch sommen tot 20 met afbeeldingen. Kies uit optellen, aftrekken, of een combinatie van beide bewerkingen.

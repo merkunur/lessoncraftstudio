@@ -27,16 +27,16 @@ export const alphabetTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-trein-werkbladen',
     appId: 'alphabet-train',
-    title: 'Alfabet Trein Gratis Werkbladen Generator | Gratis Werkbladen',
-    description: 'Maak gratis werkbladen voor alfabet trein met deze professionele generator. Letters leren werkblad voor kinderen, kleuters en groep 3. Download als PDF -.',
-    keywords: 'gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters, gratis printables, alfabet trein werkbladen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis',
+    title: 'Gratis Alfabettrein Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare alfabettrein-oefeningen voor letterherkenning van kleuterschool tot groep 3. Leuk leren met afbeeldingen. Gratis PDF.',
+    keywords: 'alfabettrein generator, alfabettrein oefeningen, letters oefening kleuterschool, alfabet uitprintbaar, alfabettrein werkbladen, letterherkenning, alfabetische volgorde oefening, letteroefeningen kinderen, leren lezen, alfabetoefeningen, beginletters oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/alfabet-trein-werkbladen',
       },
 
   // Hero Section - FULL text from alphabet-train.md
   hero: {
-    title: 'Alfabet Trein Gratis Werkbladen',
-    subtitle: 'Letters Leren Werkblad voor Kinderen en Kleuters - Gratis Printables',
+    title: 'Alfabettrein Generator',
+    subtitle: 'Uitprintbare Letteroefeningen van Kleuterschool tot Groep 3',
     description: `Maak professionele alfabet trein werkbladen waarmee kinderen spelenderwijs letters leren. Met je Basispakket abonnement krijg je onbeperkte toegang tot deze werkbladen generator. Geen extra kosten per werkblad. Download direct als PDF of JPEG in hoge kwaliteit.
 
 De Alfabet Trein werkbladen generator helpt leerkrachten en ouders bij het maken van letters leren materiaal. Elk werkblad toont een kleurrijke trein met wagons. In elke wagon staat een letter met een bijpassende afbeelding. Kinderen leren zo het alfabet door visuele associatie. Perfect voor werkbladen kleuters en groep 1 2.

@@ -27,16 +27,16 @@ export const coloringNlContent: ProductPageContent = {
   seo: {
     slug: 'kleurplaten-werkbladen',
     appId: 'coloring',
-    title: 'Kleurplaten Gratis Werkblad Generator - Gratis Werkbladen voor',
-    description: 'Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken.',
-    keywords: 'kleurplaten, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek',
+    title: 'Gratis Kleurplaten Generator voor Kinderen | LessonCraftStudio',
+    description: 'Maak uitprintbare kleurplaten voor kinderen met 3.000+ afbeeldingen. 50 thema's en 5 leeftijdsniveaus van kleuterschool tot groep 5. Download gratis PDF.',
+    keywords: 'kleurplaten generator, kleurplaten kinderen gratis, gratis kleurplaten uitprinten, kleurpagina's uitprintbaar, dieren kleurplaten, uitprintbare kleurplaten, kleurplaten kleuterschool, inkleuroefeningen, kleurplaten voor kinderen, fijne motoriek kleurplaten, kleuroefeningen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kleurplaten-werkbladen',
       },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
-    title: 'Gratis Werkblad Kleurplaten Generator - Gratis Werkbladen Maken',
-    subtitle: 'Gratis Printables Kleurplaten - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    title: 'Kleurplaten Generator voor Kinderen',
+    subtitle: 'Maak Uitprintbare Kleurplaten met 50 Thema's en 3.000+ Afbeeldingen',
     description: `Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken zonder extra kosten. Download gratis printables als PDF of JPEG en print ze direct uit. Ideaal voor leerkrachten die werkblad voor kleuters nodig hebben.
 
 Onze kleurplaten generator is speciaal ontwikkeld voor het basisonderwijs als gratis werkblad oplossing. Leerkrachten van groep 1 en 2 gebruiken deze tool dagelijks. Met meer dan 3000 kindvriendelijke afbeeldingen maak je in enkele minuten prachtige gratis werkbladen groep 3. De generator ondersteunt 11 talen waaronder Nederlands.

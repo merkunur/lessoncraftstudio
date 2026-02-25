@@ -27,16 +27,16 @@ export const findAndCountNlContent: ProductPageContent = {
   seo: {
     slug: 'zoek-en-tel-werkbladen',
     appId: 'find-and-count',
-    title: 'Zoek en Tel Generator - Gratis Werkblad voor Kinderen met Werkbladen',
-    description: 'Maak professionele zoek-en-tel werkbladen in enkele minuten. Deze interactieve werkblad generator combineert visueel zoeken met tellen. Met je Basispakket.',
-    keywords: 'zoek en tel werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
+    title: 'Zoek en Tel Generator — Gratis | LessonCraftStudio',
+    description: 'Maak uitprintbare zoek-en-tel-oefeningen voor kinderen. Ontwikkel telvaardigheden en visuele aandacht met afbeeldingen. Kleuterschool tot groep 5. Gratis PDF.',
+    keywords: 'zoek en tel generator, zoek en tel oefeningen, teloefeningen kleuterschool, visueel tellen, hoeveelheidsherkenning, zoek en tel uitprintbaar, telvaardigheden kinderen, teloefening met afbeeldingen, getallenoefeningen kleuterschool, tellen training, rekenen zoekoefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-en-tel-werkbladen',
       },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-2
   hero: {
-    title: 'Zoek en Tel Generator - Gratis Werkbladen Maker',
-    subtitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters en Groep 3',
+    title: 'Zoek en Tel Generator',
+    subtitle: 'Ontwikkel Telvaardigheden met Leuke Zoekoefeningen',
     description: `Maak professionele zoek-en-tel werkbladen in enkele minuten. Deze interactieve werkblad generator combineert visueel zoeken met tellen. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.
 
 De zoek-en-tel generator werkt volledig in het Nederlands. Je kiest afbeeldingen uit de bibliotheek of uploadt eigen plaatjes. Kinderen zoeken specifieke objecten in een rasterpatroon en tellen hoeveel ze vinden. Ideaal voor rekenen werkbladen die visuele discriminatie combineren met getalbegrip.

@@ -27,16 +27,16 @@ export const additionNlContent: ProductPageContent = {
   seo: {
     slug: 'optellen-werkbladen',
     appId: 'addition',
-    title: 'Optel Werkbladen Generator - Gratis Werkbladen Optellen voor',
-    description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs.',
-    keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
+    title: 'Gratis Opteloefening Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare opteloefeningen met afbeeldingen voor kleuterschool tot groep 5. 3.000+ afbeeldingen, pas het niveau aan en krijg antwoorden. Download gratis PDF.',
+    keywords: 'opteloefening generator, opteloefeningen gratis, optellen werkbladen kleuterschool, beeldgebaseerde opteloefeningen, rekenen werkbladen gratis, plussommen met afbeeldingen, uitprintbare rekenoefeningen, optellen antwoorden, leren optellen, plussommen groep 3, opteloefeningen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/optellen-werkbladen',
       },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
-    title: 'Gratis Optelwerkbladen Generator - Rekenen Werkbladen Maker',
-    subtitle: 'Gratis Werkbladen voor Kinderen - Sommen tot 20 voor Groep 3',
+    title: 'Opteloefening Generator',
+    subtitle: 'Maak Beeldgebaseerde Opteloefeningen van Kleuterschool tot Groep 5',
     description: `Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze gratis werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.
 
 De optelwerkbladen maker werkt volledig in het Nederlands. Je kiest afbeeldingen uit de bibliotheek of uploadt eigen plaatjes. Kinderen tellen de afbeeldingen bij elkaar op en schrijven het antwoord. Ideaal voor sommen tot 20 oefeningen in groep 3 en groep 4.

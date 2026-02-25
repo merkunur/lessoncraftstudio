@@ -29,16 +29,16 @@ export const matchingNlContent: ProductPageContent = {
   seo: {
     slug: 'verbindings-werkbladen',
     appId: 'matching',
-    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen en',
-    description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per.',
-    keywords: 'verbindingswerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
+    title: 'Gratis Verbindingsoefening Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare verbindingsoefeningen met afbeeldingen. Ontwikkel geheugen en patroonherkenning van kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    keywords: 'verbindingsoefening generator, verbindingsoefeningen, koppelen kinderen, geheugenspel uitprintbaar, koppeloefening kleuterschool, patroonherkenning oefening, visueel koppelen, beeldkoppeling oefening, koppeloefening uitprintbaar, geheugen en koppelen, verbindingsoefeningen kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
       },
 
   // Hero Section
   hero: {
-    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen',
-    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters - Gratis Printables',
+    title: 'Verbindingsoefening Generator',
+    subtitle: 'Uitprintbare Koppeloefeningen met 50 Thema's',
     description: `Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden. Binnen drie minuten download je hoogwaardige PDF werkbladen klaar voor de printer.
 
 Verbindingswerkbladen zijn ideaal voor werkbladen kleuters en groep 1 2. Kinderen leren visuele herkenning door afbeeldingen te koppelen aan woorden of letters. Dit stimuleert de fijne motoriek omdat leerlingen precieze lijnen moeten trekken. Onze generator biedt vier verschillende verbindingsmodi.

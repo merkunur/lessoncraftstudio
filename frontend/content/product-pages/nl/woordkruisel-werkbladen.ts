@@ -27,16 +27,16 @@ export const wordScrambleNlContent: ProductPageContent = {
   seo: {
     slug: 'woordkruisel-werkbladen',
     appId: 'word-scramble',
-    title: 'Woordkruisel Generator - Gratis Werkblad voor Kinderen met Werkbladen',
-    description: 'Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs.',
-    keywords: 'woordkruisel generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen',
+    title: 'Gratis Woordkruisel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare woordkruisel-oefeningen voor spelling en woordenschat. Pas het niveau aan van kleuterschool tot groep 5. Met afbeeldingen. Gratis PDF.',
+    keywords: 'woordkruisel generator, woordkruisel oefeningen, schrijfoefeningen kinderen, spelling oefening, woordpuzzel uitprintbaar, spellingoefening, woordspel kinderen uitprintbaar, woordvorming oefeningen, leren lezen oefeningen, schrijven training, woordenschat oefeningen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen',
       },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
-    title: 'Woordkruisel Generator - Gratis Werkbladen Maker',
-    subtitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters en Groep 3',
+    title: 'Woordkruisel Generator',
+    subtitle: 'Uitprintbare Spellingoefeningen met Afbeeldingen',
     description: `Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement ontwerp je onbeperkt werkbladen groep 3 die kinderen uitdagen en vermaken.
 
 De woordkruisel maker werkt volledig in het Nederlands. Je kiest een thema of uploadt eigen afbeeldingen. Binnen drie minuten heb je een afdrukbaar werkblad klaar. Ideaal voor werkbladen kleuters en groep 1 2 die net beginnen met letters leren.

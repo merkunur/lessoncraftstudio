@@ -57,8 +57,8 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Generatori di schede professionali'
   },
   nl: {
-    title: 'Gratis Werkblad Generatoren | LessonCraftStudio',
-    description: 'Maak werkbladen met 33 generatoren en 3.000+ afbeeldingen. Rekenen, kleurplaten, woordzoekers & puzzels. Download PDF direct. Geen registratie nodig.',
+    title: 'Gratis Werkblad Generatoren — PDF | LessonCraftStudio',
+    description: 'Maak werkbladen met 33 generatoren en 3.000+ afbeeldingen. Rekenen, kleurplaten, woordzoekers & puzzels. Download PDF direct. Geen registratie nodig. Gratis.',
     keywords: 'werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, oefenbladen gratis, letters leren, tafels oefenen, fijne motoriek, sommen tot 20, werkblad generatoren',
     ogAlt: 'LessonCraftStudio - Professionele werkblad-generatoren'
   },

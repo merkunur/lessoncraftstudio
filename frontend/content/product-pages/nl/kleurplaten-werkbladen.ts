@@ -27,8 +27,8 @@ export const coloringNlContent: ProductPageContent = {
   seo: {
     slug: 'kleurplaten-werkbladen',
     appId: 'coloring',
-    title: 'Gratis Kleurplaten Generator voor Kinderen | LessonCraftStudio',
-    description: 'Maak uitprintbare kleurplaten voor kinderen met 3.000+ afbeeldingen. 50 thema's en 5 leeftijdsniveaus van kleuterschool tot groep 5. Download gratis PDF.',
+    title: 'Kleurplaten Generator voor Kinderen | LessonCraftStudio',
+    description: 'Maak uitprintbare kleurplaten voor kinderen met 3.000+ afbeeldingen. 50 thema 3.000+ thematische afbeeldingen. Kies uit 3.000+ thematische afbeeldingen.'s en 5 leeftijdsniveaus van kleuterschool tot groep 5. Download gratis PDF.',
     keywords: 'kleurplaten generator, kleurplaten kinderen gratis, gratis kleurplaten uitprinten, kleurpagina's uitprintbaar, dieren kleurplaten, uitprintbare kleurplaten, kleurplaten kleuterschool, inkleuroefeningen, kleurplaten voor kinderen, fijne motoriek kleurplaten, kleuroefeningen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kleurplaten-werkbladen',
       },

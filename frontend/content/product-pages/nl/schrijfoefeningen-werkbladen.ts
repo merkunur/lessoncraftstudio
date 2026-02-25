@@ -28,7 +28,7 @@ export const writingNlContent: ProductPageContent = {
     slug: 'schrijfoefeningen-werkbladen',
     appId: 'writing',
     title: 'Gratis Schrijfoefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare schrijfoefeningen voor kinderen. Lettervorming, woordschrijven en zinsbouw. Kleuterschool tot groep 5. Download gratis PDF.',
+    description: 'Maak uitprintbare schrijfoefeningen voor kinderen. Lettervorming, woordschrijven en zinsbouw. Kleuterschool tot groep 5. Download gratis PDF. Gratis PDF.',
     keywords: 'schrijfoefeningen kinderen, lettervorming oefening, handschrifttraining, letters schrijven oefening, schrijfoefening kleuterschool, schrijftraining uitprintbaar, voorbereidend schrijven oefening, letters en woorden, schrijfoefeningen groep 3, handschrift werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schrijfoefeningen-werkbladen',
       },

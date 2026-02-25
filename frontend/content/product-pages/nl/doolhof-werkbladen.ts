@@ -31,7 +31,7 @@ export const picturePathNlContent: ProductPageContent = {
   seo: {
     slug: 'doolhof-werkbladen',
     appId: 'picture-path',
-    title: 'Gratis Doolhof Generator | LessonCraftStudio',
+    title: 'Gratis Doolhof Generator voor Kinderen | LessonCraftStudio',
     description: 'Maak uitprintbare doolhofoefeningen voor kinderen. Ontwikkel probleemoplossing en visuele planning van kleuterschool tot groep 5. Download gratis PDF.',
     keywords: 'doolhof oefeningen, doolhof kinderen uitprintbaar, doolhof kleuterschool, visuele planning oefening, doolhofpuzzel kinderen, beeldpad oefening, probleemoplossing doolhof, doolhof werkbladen, wegvinden oefening, doolhof gratis kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen',

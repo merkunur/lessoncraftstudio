@@ -30,7 +30,7 @@ export const treasureHuntNlContent: ProductPageContent = {
     slug: 'schattenjacht-werkbladen',
     appId: 'treasure-hunt',
     title: 'Gratis Schattenjacht Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare schattenjacht-oefeningen voor kinderen. Combineer probleemoplossing met avontuur. Kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    description: 'Maak uitprintbare schattenjacht-oefeningen voor kinderen. Combineer probleemoplossing met avontuur. Kleuterschool tot groep 5. 50 thema Print direct uit.'s. Download gratis PDF.',
     keywords: 'schattenjacht oefeningen kinderen, schattenjacht uitprintbaar, schattenjacht werkbladen, schatzoeken kinderen, avontuurpuzzel kinderen, schattenjacht kleuterschool, schattenjacht klas, opdrachten en aanwijzingen, schattenjacht met afbeeldingen, schattenjacht gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
       },

@@ -61,8 +61,8 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       description: 'Scopri 100+ articoli esperti su strategie di insegnamento, progettazione di schede e risorse educative gratuite. Guide per insegnanti e genitori.'
     },
     nl: {
-      title: 'Lesmateriaal & Werkblad Tips Blog | 100+ Deskundige Artikelen | LessonCraftStudio',
-      description: 'Ontdek 100+ deskundige artikelen over onderwijsstrategie\u00ebn, werkbladontwerp en gratis educatieve bronnen. Gidsen voor leraren en ouders.'
+      title: 'Educatieve Blog \u2014 Werkblad Tips | LessonCraftStudio',
+      description: 'Ontdek 100+ deskundige artikelen over onderwijsstrategie\u00ebn, werkbladontwerp en gratis educatieve bronnen. Gidsen voor leraren en ouders. Download gratis PDF nu.'
     },
     sv: {
       title: 'Utbildningsblogg \u2014 Arbetsbladstips | LessonCraftStudio',

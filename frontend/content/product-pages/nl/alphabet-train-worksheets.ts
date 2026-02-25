@@ -27,8 +27,8 @@ export const alphabetTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-trein-werkbladen',
     appId: 'alphabet-train',
-    title: 'Gratis Alfabettrein Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare alfabettrein-oefeningen voor letterherkenning van kleuterschool tot groep 3. Leuk leren met afbeeldingen. Gratis PDF.',
+    title: 'Gratis Gratis Alfabettrein Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare alfabettrein-oefeningen voor letterherkenning van kleuterschool tot groep 3. Leuk leren met afbeeldingen. Gratis PDF. Print direct uit.',
     keywords: 'alfabettrein generator, alfabettrein oefeningen, letters oefening kleuterschool, alfabet uitprintbaar, alfabettrein werkbladen, letterherkenning, alfabetische volgorde oefening, letteroefeningen kinderen, leren lezen, alfabetoefeningen, beginletters oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/alfabet-trein-werkbladen',
       },

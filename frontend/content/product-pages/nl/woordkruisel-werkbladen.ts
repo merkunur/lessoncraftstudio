@@ -27,7 +27,7 @@ export const wordScrambleNlContent: ProductPageContent = {
   seo: {
     slug: 'woordkruisel-werkbladen',
     appId: 'word-scramble',
-    title: 'Gratis Woordkruisel Generator | LessonCraftStudio',
+    title: 'Gratis Gratis Woordkruisel Generator | LessonCraftStudio',
     description: 'Maak uitprintbare woordkruisel-oefeningen voor spelling en woordenschat. Pas het niveau aan van kleuterschool tot groep 5. Met afbeeldingen. Gratis PDF.',
     keywords: 'woordkruisel generator, woordkruisel oefeningen, schrijfoefeningen kinderen, spelling oefening, woordpuzzel uitprintbaar, spellingoefening, woordspel kinderen uitprintbaar, woordvorming oefeningen, leren lezen oefeningen, schrijven training, woordenschat oefeningen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen',

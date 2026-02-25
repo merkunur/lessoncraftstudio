@@ -40,7 +40,7 @@ const pageDescription: Record<string, string> = {
   es: 'Explore 50 colecciones de fichas tem\u00e1ticas para ni\u00f1os. Animales, dinosaurios, espacio, oc\u00e9ano y m\u00e1s. Actividades gratuitas de matem\u00e1ticas, lectura, colorear y rompecabezas para preescolar hasta 3\u00b0 grado.',
   pt: 'Explore 50 cole\u00e7\u00f5es de atividades tem\u00e1ticas para crian\u00e7as. Animais, dinossauros, espa\u00e7o, oceano e mais. Atividades gratuitas de matem\u00e1tica, leitura, colorir e quebra-cabe\u00e7as da pr\u00e9-escola ao 3\u00ba ano.',
   it: "Sfoglia 50 collezioni di schede tematiche per bambini. Animali, dinosauri, spazio, oceano e altro. Attivit\u00e0 gratuite di matematica, lettura, colorare e puzzle dalla scuola dell'infanzia alla terza elementare.",
-  nl: 'Ontdek 50 thematische werkbladverzamelingen voor kinderen. Dieren, dinosaurussen, ruimte, oceaan en meer. Gratis reken-, lees-, kleur- en puzzelactiviteiten van kleuterschool tot groep 5.',
+  nl: 'Verken 50 thematische werkbladverzamelingen. Dieren, dinosaurussen, ruimte en meer. Gratis reken-, lees- en puzzelactiviteiten voor kinderen. Tot groep 5.',
   sv: 'Utforska 50 tematiska arbetsbladssamlingar f\u00f6r barn. Djur, dinosaurier, rymden och mer. Gratis matte-, l\u00e4s- och pusselaktiviteter. F\u00f6rskola till \u00e5rskurs 3.',
   da: 'Udforsk 50 tematiske arbejdsarkssamlinger til b\u00f8rn. Dyr, dinosaurer, rummet og mere. Gratis matematik-, l\u00e6se- og puslespilsaktiviteter. F\u00f8rskole til 3. klasse.',
   no: 'Utforsk 50 tematiske arbeidsarksamlinger for barn. Dyr, dinosaurer, rommet og mer. Gratis matte-, lese- og puslespillaktiviteter fra f\u00f8rskole til 3. klasse.',

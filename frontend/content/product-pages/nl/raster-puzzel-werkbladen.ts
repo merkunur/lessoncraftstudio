@@ -27,8 +27,8 @@ export const gridMatchNlContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzel-werkbladen',
     appId: 'grid-match',
-    title: 'Gratis Rasterpuzzel Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare rasterpuzzeloefeningen met afbeeldingen. Logisch denken en probleemoplossing van kleuterschool tot groep 5. Download gratis PDF.',
+    title: 'Gratis Gratis Rasterpuzzel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare rasterpuzzeloefeningen met afbeeldingen. Logisch denken en probleemoplossing van kleuterschool tot groep 5. Download gratis PDF. Gratis.',
     keywords: 'rasterpuzzel generator, rasterpuzzel oefeningen, logicapuzzel kinderen, rasteroefening uitprintbaar, probleemoplossing kinderen, patroonherkenning raster, matrixoefening kinderen, logisch denken oefening, puzzel werkbladen, rasterpuzzel kleuterschool, visuele logica kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
       },

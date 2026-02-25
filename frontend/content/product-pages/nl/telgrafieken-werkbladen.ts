@@ -27,8 +27,8 @@ export const chartCountNlContent: ProductPageContent = {
   seo: {
     slug: 'telgrafieken-werkbladen',
     appId: 'chart-count',
-    title: 'Gratis Telgrafieken Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare telgrafiekoefeningen met afbeeldingen. Tellen, kleuren en data aflezen voor kleuterschool tot groep 5. Download gratis PDF.',
+    title: 'Gratis Gratis Telgrafieken Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare telgrafiekoefeningen met afbeeldingen. Tellen, kleuren en data aflezen voor kleuterschool tot groep 5. Download gratis PDF. Gratis PDF.',
     keywords: 'telgrafieken generator, telgrafieken oefeningen, staafdiagram kinderen, data aflezen kleuterschool, tellen en kleuren, grafiek oefening, beelddiagram werkbladen, statistiek kinderen, grafiektolking oefening, rekenen grafiek, beelddiagram uitprintbaar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/telgrafieken-werkbladen',
       },

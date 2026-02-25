@@ -43,8 +43,8 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'piattaforma generatore schede, suite educativa, strumenti didattici insegnanti, 33 generatori, creatore risorse classe, software educativo, tecnologia didattica, piattaforma docenti, strumenti digitali scuola, applicazione pedagogica'
   },
   nl: {
-    title: '33 Gratis Werkblad Generatoren | Rekenen, Taal, Puzzels | LessonCraftStudio',
-    description: 'Ontdek 33 gratis werkblad generatoren. Maak woordzoekers, kruiswoordpuzzels, rekenwerkbladen, kleurplaten & meer. Download printbare PDFs direct.',
+    title: '33 Werkblad Generatoren — Gratis PDF | LessonCraftStudio',
+    description: 'Ontdek 33 gratis werkblad generatoren. Maak woordzoekers, kruiswoordpuzzels, rekenwerkbladen, kleurplaten & meer. Download printbare PDFs direct. Gratis.',
     keywords: 'werkblad generator platform, educatieve software suite, leerkracht hulpmiddelen, 33 generatoren, lesmaterialen creator, onderwijstechnologie, leerkrachten platform, digitale leermiddelen, educatieve applicatie, klaslokaal tools'
   },
   sv: {

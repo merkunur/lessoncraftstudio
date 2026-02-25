@@ -28,7 +28,7 @@ export const additionNlContent: ProductPageContent = {
     slug: 'optellen-werkbladen',
     appId: 'addition',
     title: 'Gratis Opteloefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare opteloefeningen met afbeeldingen voor kleuterschool tot groep 5. 3.000+ afbeeldingen, pas het niveau aan en krijg antwoorden. Download gratis PDF.',
+    description: 'Maak uitprintbare opteloefeningen met afbeeldingen voor kleuterschool tot groep 5. 3.000+ afbeeldingen, pas het niveau aan en krijg antwoorden. Gratis PDF.',
     keywords: 'opteloefening generator, opteloefeningen gratis, optellen werkbladen kleuterschool, beeldgebaseerde opteloefeningen, rekenen werkbladen gratis, plussommen met afbeeldingen, uitprintbare rekenoefeningen, optellen antwoorden, leren optellen, plussommen groep 3, opteloefeningen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/optellen-werkbladen',
       },

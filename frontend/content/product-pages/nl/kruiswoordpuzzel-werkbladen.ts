@@ -30,7 +30,7 @@ export const imageCrosswordNlContent: ProductPageContent = {
     slug: 'kruiswoordpuzzel-werkbladen',
     appId: 'crossword',
     title: 'Gratis Kruiswoordpuzzel Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare beeldkruiswoorden voor kinderen. Afbeeldingsaanwijzingen in plaats van tekst. Ontwikkel woordenschat van kleuterschool tot groep 5. Gratis PDF.',
+    description: 'Maak uitprintbare beeldkruiswoorden voor kinderen. Afbeeldingsaanwijzingen in plaats van tekst. Ontwikkel woordenschat van kleuterschool tot groep 5. Gratis.',
     keywords: 'kruiswoordpuzzel generator, kruiswoordpuzzel oefeningen, kruiswoord kinderen uitprintbaar, kruiswoordpuzzel kleuterschool, woordenschat kruiswoord, kruiswoord met afbeeldingen, eenvoudige kruiswoorden kinderen, beeldgebaseerde kruiswoorden, spelling-kruiswoord, kruiswoord gratis kinderen, kruiswoord basisschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kruiswoordpuzzel-werkbladen',
       },

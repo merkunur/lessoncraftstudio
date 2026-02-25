@@ -27,8 +27,8 @@ export const patternTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'patroontrein-werkbladen',
     appId: 'pattern-train',
-    title: 'Gratis Patroontrein Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare patroontreinoefeningen voor kinderen. Ontwikkel patroonherkenning en sequentie van kleuterschool tot groep 4. Gratis PDF.',
+    title: 'Gratis Gratis Patroontrein Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare patroontreinoefeningen voor kinderen. Ontwikkel patroonherkenning en sequentie van kleuterschool tot groep 4. Gratis PDF. Download nu.',
     keywords: 'patroontrein oefeningen, patroonherkenning kinderen, sequentie oefening, patronen kleuterschool, trein patroon uitprintbaar, patroonreeks oefening, herhalend patroon, patroontraining kinderen, sequentie-oefening kleuterschool, beeldpatroon oefening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patroontrein-werkbladen',
       },

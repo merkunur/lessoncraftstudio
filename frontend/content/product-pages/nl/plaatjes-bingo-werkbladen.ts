@@ -30,7 +30,7 @@ export const pictureBingoNlContent: ProductPageContent = {
     slug: 'plaatjes-bingo-werkbladen',
     appId: 'bingo',
     title: 'Gratis Plaatjesbingo Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare plaatjesbingospellen voor kinderen. 50 thema's, aanpasbare rasters en afbeeldingen uit 3.000+ bibliotheek. Perfect voor de klas. Download gratis.',
+    description: 'Maak uitprintbare plaatjesbingospellen voor kinderen. 50 thema\u2019s, aanpasbare rasters en afbeeldingen uit 3.000+ bibliotheek. Perfect voor de klas. Gratis PDF.',
     keywords: 'plaatjesbingo generator, bingo uitprintbaar kinderen, plaatjesbingo spel, uitprintbaar bingospel, bingo kleuterschool, klassenbingo, plaatjesbingo raster, bingo oefening kinderen, groepsspel uitprintbaar, bingo afbeeldingen kinderen, bingospel klas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/plaatjes-bingo-werkbladen',
       },

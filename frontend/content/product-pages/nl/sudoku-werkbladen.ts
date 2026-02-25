@@ -28,7 +28,7 @@ export const sudokuNlContent: ProductPageContent = {
     slug: 'sudoku-werkbladen',
     appId: 'sudoku',
     title: 'Kindersudoku Generator — Gratis | LessonCraftStudio',
-    description: 'Maak uitprintbare plaatjessudoku voor kinderen. Eenvoudige en gemiddelde logicaspellen van kleuterschool tot groep 5. Afbeeldingen uit 3.000+ bibliotheek. Gratis PDF.',
+    description: 'Maak uitprintbare plaatjessudoku voor kinderen. Eenvoudige en gemiddelde logicaspellen van kleuterschool tot groep 5. Afbeeldingen uit 3.000+ bibliotheek.',
     keywords: 'kindersudoku generator, plaatjessudoku kinderen, sudoku uitprintbaar, logicaspellen kinderen, eenvoudige sudoku kinderen, plaatjessudoku uitprintbaar, sudoku kleuterschool, logicaoefeningen kinderen, sudoku raster kinderen, denkvaardigheden training, sudoku basisschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sudoku-werkbladen',
       },

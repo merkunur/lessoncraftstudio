@@ -6,6 +6,16 @@ import { useTranslations } from 'next-intl';
 
 // Navigation SEO metadata (used by DA SEO validator)
 const contactPageMeta: Record<string, { title: string; description: string; keywords: string }> = {
+  nl: {
+
+    title: 'Neem Contact Op \u2014 Hulp & Ondersteuning | LessonCraftStudio',
+
+    description: 'Neem contact op met LessonCraftStudio voor vragen over werkbladen, abonnementen of technische support. Wij reageren binnen 24 uur. Gratis hulp voor leraren.',
+
+    keywords: 'contact LessonCraftStudio, ondersteuning, hulp, vragen, klantenservice, leerkracht tools support',
+
+  },
+
   da: {
     title: 'Kontakt Os \u2014 F\u00e5 Hj\u00e6lp & Support | LessonCraftStudio',
     description: 'Kontakt LessonCraftStudio for sp\u00f8rgsm\u00e5l om arbejdsark, abonnementer eller teknisk support. Vi svarer inden for 24 timer. Gratis hj\u00e6lp til l\u00e6rere og for\u00e6ldre.',

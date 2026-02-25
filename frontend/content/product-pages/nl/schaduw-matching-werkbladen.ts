@@ -30,7 +30,7 @@ export const shadowMatchNlContent: ProductPageContent = {
     slug: 'schaduw-matching-werkbladen',
     appId: 'shadow-match',
     title: 'Gratis Schaduwmatching Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare schaduwmatchingoefeningen voor kinderen. Match afbeeldingen met hun schaduwen. Ontwikkel visuele perceptie. Kleuterschool tot groep 4. Gratis PDF.',
+    description: 'Maak uitprintbare schaduwmatchingoefeningen voor kinderen. Match afbeeldingen met hun schaduwen. Ontwikkel visuele perceptie. Kleuterschool tot groep 4.',
     keywords: 'schaduwmatching oefeningen, schaduw koppelen kinderen, visuele perceptie oefening, schaduwpuzzel uitprintbaar, beeld en schaduw matching, schaduwmatching kleuterschool, visuele discriminatie, schaduw-oefening kinderen, contour matching, silhouet matching',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schaduw-matching-werkbladen',
       },

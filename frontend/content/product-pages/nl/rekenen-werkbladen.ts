@@ -28,7 +28,7 @@ export const mathWorksheetsNlContent: ProductPageContent = {
     slug: 'rekenen-werkbladen',
     appId: 'math-worksheet',
     title: 'Rekenoefening Generator voor Kinderen | LessonCraftStudio',
-    description: 'Maak visuele rekenoefeningen met afbeeldingen. Optellen, aftrekken, vergelijken en getallenreeksen van kleuterschool tot groep 5. Antwoorden inbegrepen. Gratis PDF.',
+    description: 'Maak visuele rekenoefeningen met afbeeldingen. Optellen, aftrekken, vergelijken en getallenreeksen van kleuterschool tot groep 5. Antwoorden inbegrepen.',
     keywords: 'rekenoefening generator, rekenen oefeningen basisschool, rekenoefeningen uitprintbaar, rekenen werkbladen, rekenoefeningen kleuterschool, visuele rekenoefeningen, rekenoefeningen kinderen, rekenen antwoorden, basisbewerkingen oefening, rekenen uitprintbaar gratis, rekenen trainingsoefeningen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenen-werkbladen',
       },

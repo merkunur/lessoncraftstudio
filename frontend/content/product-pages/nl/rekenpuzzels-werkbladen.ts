@@ -29,7 +29,7 @@ export const mathPuzzleNlContent: ProductPageContent = {
   seo: {
     slug: 'rekenpuzzels-werkbladen',
     appId: 'math-puzzle',
-    title: 'Gratis Rekenpuzzel Generator | LessonCraftStudio',
+    title: 'Gratis Gratis Rekenpuzzel Generator | LessonCraftStudio',
     description: 'Maak uitprintbare rekenpuzzels voor kinderen. Ontwikkel logisch denken en probleemoplossing met afbeeldingen. Kleuterschool tot groep 5. Download gratis PDF.',
     keywords: 'rekenpuzzel generator, rekenpuzzel oefeningen, wiskunde puzzel kinderen, logica rekenen, rekenraadsel kinderen, rekenpuzzel uitprintbaar, probleemoplossing rekenen, algebra kinderen, rekenen logicaoefening, rekenpuzzel basisschool, symbolisch rekenen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenpuzzels-werkbladen',

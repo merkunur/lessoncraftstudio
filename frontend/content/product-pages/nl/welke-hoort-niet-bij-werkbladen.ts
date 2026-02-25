@@ -28,7 +28,7 @@ export const oddOneOutNlContent: ProductPageContent = {
     slug: 'welke-hoort-niet-bij-werkbladen',
     appId: 'odd-one-out',
     title: 'Welke Hoort er Niet Bij Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare welke-hoort-niet-bij-oefeningen voor kinderen. Ontwikkel logisch denken en categorisering. Kleuterschool tot groep 5. Gratis PDF.',
+    description: 'Maak uitprintbare welke-hoort-niet-bij-oefeningen voor kinderen. Ontwikkel logisch denken en categorisering. Kleuterschool tot groep 5. Gratis PDF. PDF.',
     keywords: 'welke hoort niet bij oefeningen, vreemde eend kinderen, categorisering oefening, logisch denken kinderen, zoek het verschil, classificatie oefening, visuele discriminatie, welke hoort niet bij uitprintbaar, sorteren en groeperen, logicaoefening kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/welke-hoort-niet-bij-werkbladen',
       },

@@ -30,7 +30,7 @@ export const patternWorksheetsNlContent: ProductPageContent = {
     slug: 'patronen-werkbladen',
     appId: 'pattern-worksheet',
     title: 'Gratis Patronenoefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare patronenoefeningen met afbeeldingen. Ontwikkel logica en patroonherkenning van kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    description: 'Maak uitprintbare patronenoefeningen met afbeeldingen. Ontwikkel logica en patroonherkenning van kleuterschool tot groep 5. 50 thema 3.000+ afbeeldingen.'s. Download gratis PDF.',
     keywords: 'patronen oefeningen kinderen, patroonherkenning oefening, patronen werkbladen, logisch patroon kinderen, patroon reeks oefening, patronen uitprintbaar, sequentie en patronen, patronenoefening kleuterschool, rekenen patronen, beeldpatroon werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
       },

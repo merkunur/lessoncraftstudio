@@ -27,8 +27,8 @@ export const wordSearchNlContent: ProductPageContent = {
   seo: {
     slug: 'woordzoeker-werkbladen',
     appId: 'wordsearch',
-    title: 'Gratis Woordzoeker Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare woordzoekers in 11 talen. Aanpasbare woorden, afmetingen en niveaus. Woordenschat en spelling. Download gratis PDF.',
+    title: 'Gratis Gratis Woordzoeker Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare woordzoekers in 11 talen. Aanpasbare woorden, afmetingen en niveaus. Woordenschat en spelling. Download gratis PDF. 3.000+ afbeeldingen.',
     keywords: 'woordzoeker uitprintbaar, woordzoeker kinderen, woordspel generator, woordzoeker oefening, woordpuzzel uitprintbaar, woordzoekspel kinderen, woordenschat woordzoeker, spelling woordzoeker, woordzoeker basisschool, woordzoeker kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordzoeker-werkbladen',
       },

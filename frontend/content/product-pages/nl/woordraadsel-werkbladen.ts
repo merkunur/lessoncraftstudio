@@ -29,8 +29,8 @@ export const wordGuessNlContent: ProductPageContent = {
   seo: {
     slug: 'woordraadsel-werkbladen',
     appId: 'word-guess',
-    title: 'Gratis Woordraadsel Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare woordraadseloefeningen voor kinderen. Ontwikkel woordenschat en redeneervermogen. Kleuterschool tot groep 5. Download gratis PDF.',
+    title: 'Gratis Gratis Woordraadsel Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare woordraadseloefeningen voor kinderen. Ontwikkel woordenschat en redeneervermogen. Kleuterschool tot groep 5. Download gratis PDF. PDF.',
     keywords: 'woordraadsel oefeningen, woordpuzzel kinderen, woordenschat oefening kinderen, woordraadsel uitprintbaar, woordenschat werkbladen, beeldaanwijzing woordspel, woordspel uitprintbaar, woordraadsel kleuterschool, taaloefening kinderen, woordraadsel met afbeeldingen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordraadsel-werkbladen',
       },

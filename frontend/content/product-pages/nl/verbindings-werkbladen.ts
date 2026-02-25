@@ -30,7 +30,7 @@ export const matchingNlContent: ProductPageContent = {
     slug: 'verbindings-werkbladen',
     appId: 'matching',
     title: 'Gratis Verbindingsoefening Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare verbindingsoefeningen met afbeeldingen. Ontwikkel geheugen en patroonherkenning van kleuterschool tot groep 5. 50 thema's. Download gratis PDF.',
+    description: 'Maak uitprintbare verbindingsoefeningen met afbeeldingen. Ontwikkel geheugen en patroonherkenning van kleuterschool tot groep 5. 50 thema Print direct uit.'s. Download gratis PDF.',
     keywords: 'verbindingsoefening generator, verbindingsoefeningen, koppelen kinderen, geheugenspel uitprintbaar, koppeloefening kleuterschool, patroonherkenning oefening, visueel koppelen, beeldkoppeling oefening, koppeloefening uitprintbaar, geheugen en koppelen, verbindingsoefeningen kleuterschool',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
       },

@@ -46,8 +46,8 @@ const pricingMetadata: Record<string, { title: string; description: string; keyw
     keywords: 'prezzi generatore schede, abbonamento schede didattiche, creatore schede gratis, LessonCraftStudio prezzi, strumento didattico prezzo'
   },
   nl: {
-    title: 'Prijzen: Gratis, $15/maand Basis & $25/maand Volledige Toegang | LessonCraftStudio',
-    description: 'Kies uw plan: Gratis woordzoeker generator, $15/maand Basispakket met 10 generatoren of $25/maand Volledige Toegang tot alle 33 generatoren. Op elk moment opzegbaar.',
+    title: 'Prijzen — Gratis & Premium Plannen | LessonCraftStudio',
+    description: 'Kies uw plan: Gratis generatoren, $15/maand Basis met 10 tools of $25/maand Volledige Toegang tot alle 33 generatoren. Op elk moment opzegbaar. Download gratis.',
     keywords: 'werkblad generator prijzen, werkblad abonnement leerkracht, gratis werkblad maker, LessonCraftStudio prijzen, educatief hulpmiddel prijs'
   },
   sv: {

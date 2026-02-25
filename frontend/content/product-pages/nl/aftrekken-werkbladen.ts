@@ -27,7 +27,7 @@ export const subtractionNlContent: ProductPageContent = {
   seo: {
     slug: 'aftrekken-werkbladen',
     appId: 'subtraction',
-    title: 'Gratis Aftreksommen Generator | LessonCraftStudio',
+    title: 'Gratis Gratis Aftreksommen Generator | LessonCraftStudio',
     description: 'Maak uitprintbare aftreksommen met afbeeldingen voor kleuterschool tot groep 5. Pas het niveau aan, kies afbeeldingen en krijg antwoorden. Download gratis PDF.',
     keywords: 'aftreksommen gratis, aftrekken werkbladen kleuterschool, beeldgebaseerde aftreksommen, minsommen kinderen, aftrekken met afbeeldingen, uitprintbare minsommen, aftrekken antwoorden, leren aftrekken, aftreksommen groep 3, aftrekken oefeningen kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/aftrekken-werkbladen',

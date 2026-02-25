@@ -27,8 +27,8 @@ export const bigSmallNlContent: ProductPageContent = {
   seo: {
     slug: 'groot-klein-werkbladen',
     appId: 'big-small',
-    title: 'Groottevergelijking Generator | LessonCraftStudio',
-    description: 'Maak uitprintbare groot-en-klein vergelijkingsoefeningen met afbeeldingen. Ontwikkel groottebegrippen van kleuterschool tot groep 3. Pas instellingen aan. Gratis PDF.',
+    title: 'Gratis Groottevergelijking Generator | LessonCraftStudio',
+    description: 'Maak uitprintbare groot-en-klein vergelijkingsoefeningen met afbeeldingen. Ontwikkel groottebegrippen van kleuterschool tot groep 3. Pas instellingen aan.',
     keywords: 'groottevergelijking generator, groot en klein oefeningen, groottevergelijking kleuterschool, grootte herkenning, groter en kleiner, groottevergelijking kinderen, groot klein uitprintbaar, grootteverkenner oefeningen, grootte-oefeningen kleuterschool, vergelijkingsvaardigheden oefening, grootte sorteren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/groot-klein-werkbladen',
       },

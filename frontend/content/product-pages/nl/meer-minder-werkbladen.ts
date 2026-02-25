@@ -28,7 +28,7 @@ export const moreLessNlContent: ProductPageContent = {
     slug: 'meer-minder-werkbladen',
     appId: 'more-less',
     title: 'Meer of Minder Generator — Gratis | LessonCraftStudio',
-    description: 'Maak uitprintbare vergelijkingsoefeningen voor kinderen. Meer, minder of evenveel met beeldgebaseerde oefeningen. Kleuterschool tot groep 5. Download gratis PDF.',
+    description: 'Maak uitprintbare vergelijkingsoefeningen voor kinderen. Meer, minder of evenveel met beeldgebaseerde oefeningen. Kleuterschool tot groep 5. Gratis PDF.',
     keywords: 'meer of minder generator, meer of minder oefeningen, vergelijkingsoefening kinderen, meer of minder rekenen, groter dan kleiner dan, hoeveelheid vergelijking, vergelijking uitprintbaar, meer minder evenveel oefening, vergelijking kleuterschool, tellen en vergelijken, getalvergelijking kinderen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
       },

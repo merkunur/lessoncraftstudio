@@ -1,419 +1,61 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
-import { useAuth } from '@/contexts/auth-context';
-import Link from 'next/link';
+import { useState } from 'react';
 
 interface AppContentProps {
   appSlug: string;
   locale: string;
   appName: string;
-  requiredTier: 'free' | 'core' | 'full';
+  requiredTier?: string;
 }
 
-const languages = [
-  { code: 'en', name: 'English' },
-  { code: 'de', name: 'Deutsch' },
-  { code: 'fr', name: 'Français' },
-  { code: 'es', name: 'Español' },
-  { code: 'pt', name: 'Português' },
-  { code: 'it', name: 'Italiano' },
-  { code: 'nl', name: 'Nederlands' },
-  { code: 'sv', name: 'Svenska' },
-  { code: 'da', name: 'Dansk' },
-  { code: 'no', name: 'Norsk' },
-  { code: 'fi', name: 'Suomi' }
-];
-
-// Natural, native-sounding translations for upgrade messages
-const upgradeMessages = {
-  en: {
-    title: 'Upgrade Required',
-    description: 'You need a {tier} plan or higher to use this app.',
-    currentPlan: 'Your current plan:',
-    upgradeButton: 'Upgrade Now',
-    dashboardButton: 'Go to Dashboard'
-  },
-  de: {
-    title: 'Upgrade erforderlich',
-    description: 'Für diese App benötigen Sie das {tier}-Paket oder höher.',
-    currentPlan: 'Ihr aktuelles Paket:',
-    upgradeButton: 'Jetzt upgraden',
-    dashboardButton: 'Zum Dashboard'
-  },
-  fr: {
-    title: 'Abonnement requis',
-    description: 'Cette application nécessite l\'abonnement {tier} ou supérieur.',
-    currentPlan: 'Votre abonnement actuel :',
-    upgradeButton: 'Mettre à niveau',
-    dashboardButton: 'Tableau de bord'
-  },
-  es: {
-    title: 'Plan requerido',
-    description: 'Necesitas el plan {tier} o superior para usar esta aplicación.',
-    currentPlan: 'Tu plan actual:',
-    upgradeButton: 'Mejorar plan',
-    dashboardButton: 'Ir al panel'
-  },
-  it: {
-    title: 'Piano richiesto',
-    description: 'Per utilizzare questa app è necessario il piano {tier} o superiore.',
-    currentPlan: 'Il tuo piano attuale:',
-    upgradeButton: 'Passa a piano superiore',
-    dashboardButton: 'Vai al pannello'
-  },
-  pt: {
-    title: 'Plano necessário',
-    description: 'Para usar esta aplicação, é necessário o plano {tier} ou superior.',
-    currentPlan: 'O seu plano atual:',
-    upgradeButton: 'Mudar de plano',
-    dashboardButton: 'Ir para o painel'
-  },
-  nl: {
-    title: 'Upgrade nodig',
-    description: 'Voor deze app heb je het {tier}-abonnement of hoger nodig.',
-    currentPlan: 'Je huidige abonnement:',
-    upgradeButton: 'Upgraden',
-    dashboardButton: 'Naar dashboard'
-  },
-  sv: {
-    title: 'Uppgradering krävs',
-    description: 'Du behöver {tier}-abonnemanget eller högre för att använda denna app.',
-    currentPlan: 'Ditt nuvarande abonnemang:',
-    upgradeButton: 'Uppgradera',
-    dashboardButton: 'Till instrumentpanelen'
-  },
-  da: {
-    title: 'Opgradering påkrævet',
-    description: 'Du skal have {tier}-abonnementet eller højere for at bruge denne app.',
-    currentPlan: 'Dit nuværende abonnement:',
-    upgradeButton: 'Opgrader',
-    dashboardButton: 'Til kontrolpanel'
-  },
-  no: {
-    title: 'Oppgradering kreves',
-    description: 'Du trenger {tier}-abonnementet eller høyere for å bruke denne appen.',
-    currentPlan: 'Ditt nåværende abonnement:',
-    upgradeButton: 'Oppgrader',
-    dashboardButton: 'Til dashbordet'
-  },
-  fi: {
-    title: 'Tilaus vaaditaan',
-    description: 'Tarvitset {tier}-tilauksen tai paremman käyttääksesi tätä sovellusta.',
-    currentPlan: 'Nykyinen tilauksesi:',
-    upgradeButton: 'Päivitä tilaus',
-    dashboardButton: 'Hallintapaneeliin'
-  }
+// Map app slugs to HTML files
+const appFileMap: Record<string, string> = {
+  'word-search': 'wordsearch.html',
+  'image-addition': 'addition.html',
+  'alphabet-train': 'alphabet train.html',
+  'coloring': 'coloring.html',
+  'math-worksheet': 'math worksheet.html',
+  'word-scramble': 'word scramble.html',
+  'find-and-count': 'find and count.html',
+  'matching-app': 'matching.html',
+  'drawing-lines': 'drawing lines.html',
+  'picture-bingo': 'bingo.html',
+  'sudoku': 'sudoku.html',
+  'big-small-app': 'big small.html',
+  'chart-count-color': 'chart count.html',
+  'code-addition': 'code addition.html',
+  'draw-and-color': 'draw and color.html',
+  'find-objects': 'find objects.html',
+  'grid-match': 'grid match.html',
+  'image-crossword': 'crossword.html',
+  'image-cryptogram': 'cryptogram.html',
+  'math-puzzle': 'math puzzle.html',
+  'missing-pieces': 'missing pieces.html',
+  'more-less': 'more less.html',
+  'odd-one-out': 'odd one out.html',
+  'pattern-train': 'pattern train.html',
+  'pattern-worksheet': 'pattern worksheet.html',
+  'picture-path': 'picture path.html',
+  'picture-sort': 'picture sort.html',
+  'prepositions': 'prepositions.html',
+  'shadow-match': 'shadow match.html',
+  'story-dice': 'story-dice.html',
+  'subtraction': 'subtraction.html',
+  'treasure-hunt': 'treasure hunt.html',
+  'word-guess': 'word guess.html',
+  'writing-app': 'writing.html',
 };
 
-// Translations for unauthenticated users
-const signInMessages = {
-  en: {
-    title: 'Sign In Required',
-    description: 'Please sign in to access this app.',
-    signInButton: 'Sign In',
-    createAccountButton: 'Create Account'
-  },
-  de: {
-    title: 'Anmeldung erforderlich',
-    description: 'Bitte melden Sie sich an, um auf diese App zuzugreifen.',
-    signInButton: 'Anmelden',
-    createAccountButton: 'Konto erstellen'
-  },
-  fr: {
-    title: 'Connexion requise',
-    description: 'Veuillez vous connecter pour accéder à cette application.',
-    signInButton: 'Se connecter',
-    createAccountButton: 'Créer un compte'
-  },
-  es: {
-    title: 'Inicio de sesión requerido',
-    description: 'Por favor, inicia sesión para acceder a esta aplicación.',
-    signInButton: 'Iniciar sesión',
-    createAccountButton: 'Crear cuenta'
-  },
-  it: {
-    title: 'Accesso richiesto',
-    description: 'Effettua l\'accesso per utilizzare questa app.',
-    signInButton: 'Accedi',
-    createAccountButton: 'Crea account'
-  },
-  pt: {
-    title: 'Início de sessão necessário',
-    description: 'Por favor, inicie sessão para aceder a esta aplicação.',
-    signInButton: 'Iniciar sessão',
-    createAccountButton: 'Criar conta'
-  },
-  nl: {
-    title: 'Inloggen vereist',
-    description: 'Log in om toegang te krijgen tot deze app.',
-    signInButton: 'Inloggen',
-    createAccountButton: 'Account aanmaken'
-  },
-  sv: {
-    title: 'Inloggning krävs',
-    description: 'Vänligen logga in för att använda denna app.',
-    signInButton: 'Logga in',
-    createAccountButton: 'Skapa konto'
-  },
-  da: {
-    title: 'Login påkrævet',
-    description: 'Log ind for at få adgang til denne app.',
-    signInButton: 'Log ind',
-    createAccountButton: 'Opret konto'
-  },
-  no: {
-    title: 'Pålogging kreves',
-    description: 'Vennligst logg inn for å få tilgang til denne appen.',
-    signInButton: 'Logg inn',
-    createAccountButton: 'Opprett konto'
-  },
-  fi: {
-    title: 'Kirjautuminen vaaditaan',
-    description: 'Kirjaudu sisään käyttääksesi tätä sovellusta.',
-    signInButton: 'Kirjaudu sisään',
-    createAccountButton: 'Luo tili'
-  }
-};
-
-// Tier name translations - natural and localized
-const tierNames = {
-  en: { free: 'Free', core: 'Core', full: 'Full' },
-  de: { free: 'Kostenlos', core: 'Core', full: 'Vollversion' },
-  fr: { free: 'Gratuite', core: 'Core', full: 'Complète' },
-  es: { free: 'Gratuito', core: 'Core', full: 'Completo' },
-  it: { free: 'Gratuito', core: 'Core', full: 'Completo' },
-  pt: { free: 'Gratuito', core: 'Core', full: 'Completo' },
-  nl: { free: 'Gratis', core: 'Core', full: 'Volledig' },
-  sv: { free: 'Gratis', core: 'Core', full: 'Fullständig' },
-  da: { free: 'Gratis', core: 'Core', full: 'Fuld' },
-  no: { free: 'Gratis', core: 'Core', full: 'Full' },
-  fi: { free: 'Ilmainen', core: 'Core', full: 'Täysi' }
-};
-
-export default function AppContent({ appSlug, locale, appName, requiredTier }: AppContentProps) {
+export default function AppContent({ appSlug, locale, appName }: AppContentProps) {
   const [selectedLocale, setSelectedLocale] = useState(locale);
   const [iframeKey, setIframeKey] = useState(0);
-  const router = useRouter();
-  const pathname = usePathname();
-  const { user, loading } = useAuth();
 
-  // Map app slugs to HTML files
-  const appFileMap: { [key: string]: string } = {
-    'word-search': 'wordsearch.html',
-    'image-addition': 'addition.html',
-    'alphabet-train': 'alphabet train.html',
-    'coloring': 'coloring.html',
-    'math-worksheet': 'math worksheet.html',
-    'word-scramble': 'word scramble.html',
-    'find-and-count': 'find and count.html',
-    'matching-app': 'matching.html',
-    'drawing-lines': 'drawing lines.html',
-    'picture-bingo': 'bingo.html',
-    'sudoku': 'sudoku.html',
-    'big-small-app': 'big small.html',
-    'chart-count-color': 'chart count.html',
-    'code-addition': 'code addition.html',
-    'draw-and-color': 'draw and color.html',
-    'find-objects': 'find objects.html',
-    'grid-match': 'grid match.html',
-    'image-crossword': 'crossword.html',
-    'image-cryptogram': 'cryptogram.html',
-    'math-puzzle': 'math puzzle.html',
-    'missing-pieces': 'missing pieces.html',
-    'more-less': 'more less.html',
-    'odd-one-out': 'odd one out.html',
-    'pattern-train': 'pattern train.html',
-    'pattern-worksheet': 'pattern worksheet.html',
-    'picture-path': 'picture path.html',
-    'picture-sort': 'picture sort.html',
-    'prepositions': 'prepositions.html',
-    'shadow-match': 'shadow match.html',
-    'story-dice': 'story-dice.html',
-    'subtraction': 'subtraction.html',
-    'treasure-hunt': 'treasure hunt.html',
-    'word-guess': 'word guess.html',
-    'writing-app': 'writing.html'
-  };
-
-  const handleLanguageChange = (newLocale: string) => {
-    setSelectedLocale(newLocale);
-    // Force iframe reload with new locale
-    setIframeKey(prev => prev + 1);
-  };
-
-  // Normalize tier values to handle variations (pro, premium, paid -> full)
-  const normalizeTier = (tier: string | undefined): 'free' | 'core' | 'full' => {
-    const normalized = (tier || 'free').toLowerCase().trim();
-
-    // Map common variations to standard tiers
-    if (normalized === 'full' || normalized === 'pro' || normalized === 'premium' || normalized === 'paid') {
-      return 'full';
-    }
-    if (normalized === 'core' || normalized === 'plus') {
-      return 'core';
-    }
-    return 'free';
-  };
-
-  // Check if user has access to this tier
-  const userTier = normalizeTier(user?.subscriptionTier);
-  const canAccess = () => {
-    console.log('[AppContent] Access Check:', {
-      appSlug,
-      userTierRaw: user?.subscriptionTier,
-      userTierNormalized: userTier,
-      requiredTier,
-      isAdmin: user?.isAdmin,
-      user: user ? { email: user.email, tier: user.subscriptionTier } : 'no user'
-    });
-
-    // Admins always have full access
-    if (user?.isAdmin) {
-      console.log('[AppContent] Access Result: true (admin)');
-      return true;
-    }
-
-    // Free tier apps are accessible to everyone
-    if (requiredTier === 'free') {
-      console.log('[AppContent] Access Result: true (free app)');
-      return true;
-    }
-
-    // Core tier users can access core apps (free apps already handled above)
-    if (userTier === 'core') {
-      const hasAccess = requiredTier === 'core';
-      console.log('[AppContent] Access Result:', hasAccess, '(core user)');
-      return hasAccess;
-    }
-
-    // Full tier users can access all apps
-    if (userTier === 'full') {
-      console.log('[AppContent] Access Result: true (full user)');
-      return true;
-    }
-
-    // Free tier users can only access free apps
-    console.log('[AppContent] Access Result: false (insufficient tier)');
-    return false;
-  };
-
-  // Get the HTML file name for the app
   const htmlFile = appFileMap[appSlug] || `${appSlug}.html`;
-
-  // Build the iframe URL with locale AND tier parameters - encode the filename to handle spaces
-  const iframeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${selectedLocale}&tier=${userTier}`;
-
-  // Check if this is the writing app (English only)
-  const isWritingApp = appSlug === 'writing-app';
-
-  // Show loading state while auth is being verified
-  if (loading) {
-    return (
-      <div className="app-content-container">
-        <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-          <div className="text-center">
-            <div className="inline-block animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mb-4"></div>
-            <p className="text-gray-600 text-lg">Loading...</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // If user doesn't have access, show appropriate message
-  if (!canAccess()) {
-    // Check if user is authenticated
-    if (!user) {
-      // User is not logged in - show sign in message
-      const messages = signInMessages[locale as keyof typeof signInMessages] || signInMessages.en;
-
-      return (
-        <div className="app-content-container">
-          <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-            <div className="max-w-md bg-white rounded-2xl shadow-xl p-8 text-center">
-              <div className="mb-6">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-4">
-                  <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                  </svg>
-                </div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">{messages.title}</h2>
-                <p className="text-gray-600">{messages.description}</p>
-              </div>
-
-              <div className="flex gap-3">
-                <Link
-                  href={`/${locale}/auth/signin`}
-                  className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
-                >
-                  {messages.signInButton}
-                </Link>
-                <Link
-                  href={`/${locale}/auth/signup`}
-                  className="flex-1 inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200"
-                >
-                  {messages.createAccountButton}
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      );
-    }
-
-    // User is logged in but has insufficient tier - show upgrade message
-    const messages = upgradeMessages[locale as keyof typeof upgradeMessages] || upgradeMessages.en;
-    const tiers = tierNames[locale as keyof typeof tierNames] || tierNames.en;
-
-    // Get localized tier names
-    const localizedRequiredTier = tiers[requiredTier as keyof typeof tiers];
-    const localizedUserTier = tiers[userTier as keyof typeof tiers];
-
-    return (
-      <div className="app-content-container">
-        <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-          <div className="max-w-md bg-white rounded-2xl shadow-xl p-8 text-center">
-            <div className="mb-6">
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-4">
-                <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                </svg>
-              </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">{messages.title}</h2>
-              <p className="text-gray-600">
-                {messages.description.replace('{tier}', localizedRequiredTier)}
-              </p>
-            </div>
-
-            <div className="space-y-3 mb-6">
-              <p className="text-sm text-gray-500">{messages.currentPlan} <strong>{localizedUserTier}</strong></p>
-            </div>
-
-            <div className="flex gap-3">
-              <Link
-                href={`/${locale}/pricing`}
-                className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
-              >
-                {messages.upgradeButton}
-              </Link>
-              <Link
-                href={`/${locale}/dashboard`}
-                className="flex-1 inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200"
-              >
-                {messages.dashboardButton}
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const iframeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${selectedLocale}&tier=free`;
 
   return (
     <div className="app-content-container">
-      {/* App iframe */}
       <div className="app-iframe-container">
         <iframe
           key={iframeKey}

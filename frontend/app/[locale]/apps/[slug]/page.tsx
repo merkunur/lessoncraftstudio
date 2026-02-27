@@ -10,6 +10,7 @@ import {
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode } from '@/lib/schema-generator';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
+import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
 import TryFreeButton from './TryFreeButton';
 
@@ -428,21 +429,80 @@ const categoryFeatures: Record<string, Record<string, string[]>> = {
   math: {
     en: ['Customizable difficulty levels', 'Themed images from 100+ themes', 'Auto-generated answer keys', 'Print-ready PDF export'],
     de: ['Anpassbare Schwierigkeitsstufen', 'Thematische Bilder aus 100+ Themen', 'Automatische L\u00f6sungsschl\u00fcssel', 'Druckfertiger PDF-Export'],
+    fr: ['Niveaux de difficult\u00e9 personnalisables', 'Images th\u00e9matiques de 100+ th\u00e8mes', 'Corrig\u00e9s g\u00e9n\u00e9r\u00e9s automatiquement', 'Export PDF pr\u00eat \u00e0 imprimer'],
+    es: ['Niveles de dificultad personalizables', 'Im\u00e1genes tem\u00e1ticas de 100+ temas', 'Claves de respuesta autogeneradas', 'Exportaci\u00f3n PDF lista para imprimir'],
+    it: ['Livelli di difficolt\u00e0 personalizzabili', 'Immagini tematiche da 100+ temi', 'Soluzioni generate automaticamente', 'Esportazione PDF pronta per la stampa'],
+    pt: ['N\u00edveis de dificuldade personaliz\u00e1veis', 'Imagens tem\u00e1ticas de 100+ temas', 'Gabaritos gerados automaticamente', 'Exporta\u00e7\u00e3o PDF pronta para impress\u00e3o'],
+    nl: ['Aanpasbare moeilijkheidsniveaus', 'Thematische afbeeldingen uit 100+ thema\'s', 'Automatisch gegenereerde antwoorden', 'Printklare PDF-export'],
+    da: ['Tilpasselige sv\u00e6rhedsgrader', 'Tematiske billeder fra 100+ temaer', 'Automatisk genererede l\u00f8sninger', 'Printklart PDF-eksport'],
+    sv: ['Anpassningsbara sv\u00e5righetsgrader', 'Tematiska bilder fr\u00e5n 100+ teman', 'Automatiskt genererade l\u00f6sningar', 'Utskriftsklar PDF-export'],
+    no: ['Tilpassbare vanskelighetsgrader', 'Tematiske bilder fra 100+ temaer', 'Automatisk genererte l\u00f8sninger', 'Utskriftsklar PDF-eksport'],
+    fi: ['S\u00e4\u00e4dett\u00e4v\u00e4t vaikeustasot', 'Temaattiset kuvat 100+ teemasta', 'Automaattisesti luodut vastaukset', 'Tulostuskelpoinen PDF-vienti'],
   },
   literacy: {
     en: ['Custom word lists and vocabulary', 'Multi-language word support', 'Auto-generated answer keys', 'Print-ready PDF export'],
+    de: ['Eigene Wortlisten und Vokabeln', 'Mehrsprachige Wortunterst\u00fctzung', 'Automatische L\u00f6sungsschl\u00fcssel', 'Druckfertiger PDF-Export'],
+    fr: ['Listes de mots personnalis\u00e9es', 'Support multilingue', 'Corrig\u00e9s g\u00e9n\u00e9r\u00e9s automatiquement', 'Export PDF pr\u00eat \u00e0 imprimer'],
+    es: ['Listas de palabras personalizadas', 'Soporte de palabras multiling\u00fce', 'Claves de respuesta autogeneradas', 'Exportaci\u00f3n PDF lista para imprimir'],
+    it: ['Elenchi di parole personalizzati', 'Supporto multilingue', 'Soluzioni generate automaticamente', 'Esportazione PDF pronta per la stampa'],
+    pt: ['Listas de palavras personalizadas', 'Suporte multil\u00edngue', 'Gabaritos gerados automaticamente', 'Exporta\u00e7\u00e3o PDF pronta para impress\u00e3o'],
+    nl: ['Aangepaste woordlijsten', 'Meertalige woordondersteuning', 'Automatisch gegenereerde antwoorden', 'Printklare PDF-export'],
+    da: ['Brugerdefinerede ordlister', 'Flersproget ordunderst\u00f8ttelse', 'Automatisk genererede l\u00f8sninger', 'Printklart PDF-eksport'],
+    sv: ['Anpassade ordlistor', 'Flerspr\u00e5kigt ordst\u00f6d', 'Automatiskt genererade l\u00f6sningar', 'Utskriftsklar PDF-export'],
+    no: ['Egendefinerte ordlister', 'Flerspr\u00e5klig ordst\u00f8tte', 'Automatisk genererte l\u00f8sninger', 'Utskriftsklar PDF-eksport'],
+    fi: ['Mukautetut sanalistat', 'Monikielinen sanatuki', 'Automaattisesti luodut vastaukset', 'Tulostuskelpoinen PDF-vienti'],
   },
   visual: {
     en: ['3,000+ themed images', 'Customizable layouts and sizes', 'Professional print quality', 'Instant PDF download'],
+    de: ['3.000+ thematische Bilder', 'Anpassbare Layouts und Gr\u00f6\u00dfen', 'Professionelle Druckqualit\u00e4t', 'Sofortiger PDF-Download'],
+    fr: ['3 000+ images th\u00e9matiques', 'Mises en page et tailles personnalisables', 'Qualit\u00e9 d\'impression professionnelle', 'T\u00e9l\u00e9chargement PDF instantan\u00e9'],
+    es: ['3.000+ im\u00e1genes tem\u00e1ticas', 'Dise\u00f1os y tama\u00f1os personalizables', 'Calidad de impresi\u00f3n profesional', 'Descarga PDF instant\u00e1nea'],
+    it: ['3.000+ immagini tematiche', 'Layout e dimensioni personalizzabili', 'Qualit\u00e0 di stampa professionale', 'Download PDF istantaneo'],
+    pt: ['3.000+ imagens tem\u00e1ticas', 'Layouts e tamanhos personaliz\u00e1veis', 'Qualidade de impress\u00e3o profissional', 'Download PDF instant\u00e2neo'],
+    nl: ['3.000+ thematische afbeeldingen', 'Aanpasbare lay-outs en formaten', 'Professionele afdrukkwaliteit', 'Directe PDF-download'],
+    da: ['3.000+ tematiske billeder', 'Tilpasselige layouts og st\u00f8rrelser', 'Professionel udskriftskvalitet', '\u00d8jeblikkelig PDF-download'],
+    sv: ['3 000+ tematiska bilder', 'Anpassningsbara layouter och storlekar', 'Professionell utskriftskvalitet', 'Omedelbar PDF-nedladdning'],
+    no: ['3 000+ tematiske bilder', 'Tilpassbare layouter og st\u00f8rrelser', 'Profesjonell utskriftskvalitet', 'Umiddelbar PDF-nedlasting'],
+    fi: ['3 000+ temaattista kuvaa', 'Muokattavat asettelut ja koot', 'Ammattimainen tulostuslaatu', 'V\u00e4lit\u00f6n PDF-lataus'],
   },
   matching: {
     en: ['Themed image pairs', 'Adjustable grid sizes', 'Auto-generated answer keys', 'Print-ready PDF export'],
+    de: ['Thematische Bilderpaare', 'Einstellbare Rastergr\u00f6\u00dfen', 'Automatische L\u00f6sungsschl\u00fcssel', 'Druckfertiger PDF-Export'],
+    fr: ['Paires d\'images th\u00e9matiques', 'Tailles de grille ajustables', 'Corrig\u00e9s g\u00e9n\u00e9r\u00e9s automatiquement', 'Export PDF pr\u00eat \u00e0 imprimer'],
+    es: ['Parejas de im\u00e1genes tem\u00e1ticas', 'Tama\u00f1os de cuadr\u00edcula ajustables', 'Claves de respuesta autogeneradas', 'Exportaci\u00f3n PDF lista para imprimir'],
+    it: ['Coppie di immagini tematiche', 'Dimensioni della griglia regolabili', 'Soluzioni generate automaticamente', 'Esportazione PDF pronta per la stampa'],
+    pt: ['Pares de imagens tem\u00e1ticas', 'Tamanhos de grade ajust\u00e1veis', 'Gabaritos gerados automaticamente', 'Exporta\u00e7\u00e3o PDF pronta para impress\u00e3o'],
+    nl: ['Thematische afbeeldingsparen', 'Aanpasbare rastergroottes', 'Automatisch gegenereerde antwoorden', 'Printklare PDF-export'],
+    da: ['Tematiske billedpar', 'Justerbare gitterst\u00f8rrelser', 'Automatisk genererede l\u00f8sninger', 'Printklart PDF-eksport'],
+    sv: ['Tematiska bildpar', 'Justerbara rutn\u00e4tsstorlekar', 'Automatiskt genererade l\u00f6sningar', 'Utskriftsklar PDF-export'],
+    no: ['Tematiske bildepar', 'Justerbare rutenettest\u00f8rrelser', 'Automatisk genererte l\u00f8sninger', 'Utskriftsklar PDF-eksport'],
+    fi: ['Temaattiset kuvaparit', 'S\u00e4\u00e4dett\u00e4v\u00e4t ruudukkokoot', 'Automaattisesti luodut vastaukset', 'Tulostuskelpoinen PDF-vienti'],
   },
   puzzle: {
     en: ['Multiple difficulty levels', 'Themed visual elements', 'Auto-generated solutions', 'Print-ready PDF export'],
+    de: ['Mehrere Schwierigkeitsstufen', 'Thematische visuelle Elemente', 'Automatisch generierte L\u00f6sungen', 'Druckfertiger PDF-Export'],
+    fr: ['Plusieurs niveaux de difficult\u00e9', '\u00c9l\u00e9ments visuels th\u00e9matiques', 'Solutions g\u00e9n\u00e9r\u00e9es automatiquement', 'Export PDF pr\u00eat \u00e0 imprimer'],
+    es: ['M\u00faltiples niveles de dificultad', 'Elementos visuales tem\u00e1ticos', 'Soluciones autogeneradas', 'Exportaci\u00f3n PDF lista para imprimir'],
+    it: ['Livelli di difficolt\u00e0 multipli', 'Elementi visivi tematici', 'Soluzioni generate automaticamente', 'Esportazione PDF pronta per la stampa'],
+    pt: ['M\u00faltiplos n\u00edveis de dificuldade', 'Elementos visuais tem\u00e1ticos', 'Solu\u00e7\u00f5es geradas automaticamente', 'Exporta\u00e7\u00e3o PDF pronta para impress\u00e3o'],
+    nl: ['Meerdere moeilijkheidsniveaus', 'Thematische visuele elementen', 'Automatisch gegenereerde oplossingen', 'Printklare PDF-export'],
+    da: ['Flere sv\u00e6rhedsgrader', 'Tematiske visuelle elementer', 'Automatisk genererede l\u00f8sninger', 'Printklart PDF-eksport'],
+    sv: ['Flera sv\u00e5righetsgrader', 'Tematiska visuella element', 'Automatiskt genererade l\u00f6sningar', 'Utskriftsklar PDF-export'],
+    no: ['Flere vanskelighetsgrader', 'Tematiske visuelle elementer', 'Automatisk genererte l\u00f8sninger', 'Utskriftsklar PDF-eksport'],
+    fi: ['Useita vaikeustasoja', 'Temaattiset visuaaliset elementit', 'Automaattisesti luodut ratkaisut', 'Tulostuskelpoinen PDF-vienti'],
   },
   search: {
     en: ['Custom clue lists', 'Themed image clues', 'Auto-generated answer keys', 'Print-ready PDF export'],
+    de: ['Eigene Hinweislisten', 'Thematische Bildhinweise', 'Automatische L\u00f6sungsschl\u00fcssel', 'Druckfertiger PDF-Export'],
+    fr: ['Listes d\'indices personnalis\u00e9es', 'Indices illustr\u00e9s th\u00e9matiques', 'Corrig\u00e9s g\u00e9n\u00e9r\u00e9s automatiquement', 'Export PDF pr\u00eat \u00e0 imprimer'],
+    es: ['Listas de pistas personalizadas', 'Pistas con im\u00e1genes tem\u00e1ticas', 'Claves de respuesta autogeneradas', 'Exportaci\u00f3n PDF lista para imprimir'],
+    it: ['Elenchi di indizi personalizzati', 'Indizi illustrati tematici', 'Soluzioni generate automaticamente', 'Esportazione PDF pronta per la stampa'],
+    pt: ['Listas de dicas personalizadas', 'Dicas com imagens tem\u00e1ticas', 'Gabaritos gerados automaticamente', 'Exporta\u00e7\u00e3o PDF pronta para impress\u00e3o'],
+    nl: ['Aangepaste aanwijzingslijsten', 'Thematische beeldaanwijzingen', 'Automatisch gegenereerde antwoorden', 'Printklare PDF-export'],
+    da: ['Brugerdefinerede sporsm\u00e5lslister', 'Tematiske billedspor', 'Automatisk genererede l\u00f8sninger', 'Printklart PDF-eksport'],
+    sv: ['Anpassade ledtr\u00e5dslistor', 'Tematiska bildledtr\u00e5dar', 'Automatiskt genererade l\u00f6sningar', 'Utskriftsklar PDF-export'],
+    no: ['Egendefinerte ledetr\u00e5dlister', 'Tematiske bildeledetr\u00e5der', 'Automatisk genererte l\u00f8sninger', 'Utskriftsklar PDF-eksport'],
+    fi: ['Mukautetut vihjelistat', 'Temaattiset kuvavihjeet', 'Automaattisesti luodut vastaukset', 'Tulostuskelpoinen PDF-vienti'],
   },
 };
 
@@ -496,7 +556,9 @@ export async function generateMetadata({
   const alternateUrls = getAlternateUrls(appConfig.appId, baseUrl);
   const localeSlug = getSlugForLocale(appConfig.appId, locale);
 
-  const title = `${appData.name} Worksheet Generator | LessonCraftStudio`;
+  const localizedName = getLocalizedAppName(wpAppId, locale);
+  const localizedSuffix = getLocalizedSuffix(locale);
+  const title = `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
 
   return {
     title,
@@ -536,6 +598,9 @@ export default async function AppDetailPage({
   const ui = uiStrings[locale] || uiStrings.en;
   const desc = appDescriptions[wpAppId]?.[locale] || appDescriptions[wpAppId]?.en || '';
   const features = categoryFeatures[category]?.[locale] || categoryFeatures[category]?.en || [];
+  const localizedName = getLocalizedAppName(wpAppId, locale);
+  const localizedSuffix = getLocalizedSuffix(locale);
+  const localizedCategoryName = getLocalizedCategoryName(category, locale);
 
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
@@ -551,7 +616,7 @@ export default async function AppDetailPage({
       const appSlug = getSlugForLocale(slugAppId, locale);
       return {
         id,
-        name: ALL_APPS[id].name,
+        name: getLocalizedAppName(id, locale),
         slug: appSlug,
       };
     })
@@ -563,7 +628,7 @@ export default async function AppDetailPage({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
-    name: `${appData.name} Worksheet Generator`,
+    name: `${localizedName} ${localizedSuffix}`,
     description: desc,
     url: pageUrl,
     applicationCategory: 'EducationalApplication',
@@ -596,12 +661,12 @@ export default async function AppDetailPage({
               {/* Category Badge */}
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium mb-4" style={{ backgroundColor: `${categoryData.color}15`, color: categoryData.color }}>
                 <CategoryIcon category={category} />
-                {categoryData.name}
+                {localizedCategoryName}
               </div>
 
               {/* App Name */}
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {appData.name} Worksheet Generator
+                {localizedName} {localizedSuffix}
               </h1>
 
               {/* Description */}
@@ -717,7 +782,7 @@ export default async function AppDetailPage({
         <section className="py-12 md:py-16 bg-indigo-600">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">
-              {appData.name} Worksheet Generator
+              {localizedName} {localizedSuffix}
             </h2>
             <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{ui.tryFreeDesc}</p>
             <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} variant="light" />

@@ -5,6 +5,7 @@ import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCo
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
+import { getLocalizedAppName } from '@/config/app-translations';
 
 // ============================================================
 // SEO METADATA (entrepreneur-focused, all 11 locales)
@@ -398,7 +399,7 @@ export default async function AppsPage({ params }: PageProps) {
   const appsForSchema = Object.entries(ALL_APPS).map(([appId, app]) => {
     const slugId = appIdToSlugId[appId] || appId;
     const slug = getSlugForLocale(slugId, locale as SupportedLocale) || slugId;
-    return { id: appId, name: app.name, slug, description: `${app.category} printable generator` };
+    return { id: appId, name: getLocalizedAppName(appId, locale), slug, description: `${app.category} printable generator` };
   });
   const itemListSchema = generateAppsItemListSchema(locale, appsForSchema);
 
@@ -502,7 +503,7 @@ export default async function AppsPage({ params }: PageProps) {
                   return (
                     <AppCard
                       key={appId}
-                      appName={app.name}
+                      appName={getLocalizedAppName(appId, locale)}
                       htmlFile={app.htmlFile}
                       detailSlug={detailSlug}
                       locale={locale}

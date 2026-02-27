@@ -540,7 +540,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     seo: {
       title: 'Word Search Studio Pro \u2014 Create & Sell Professional Puzzle Books | $27 One-Time',
       description: 'Create professional word search puzzle books in minutes. 10 image themes, canvas editor, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time.',
-      keywords: 'word search generator, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search',
+      keywords: 'word search studio pro, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search',
     },
   },
 

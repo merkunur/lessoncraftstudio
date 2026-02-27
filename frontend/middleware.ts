@@ -2,39 +2,14 @@ import createMiddleware from 'next-intl/middleware';
 import { locales, defaultLocale } from './i18n/request';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { SUPPORTED_LOCALES, isValidLocale } from '@/config/locales';
-
-// Import cross-locale slug data for middleware-based redirects
-// This replaces 12,298 static redirects with a single in-memory lookup
-import { crossLocaleSlugs } from './config/blog-cross-locale-redirects';
-
-// Import legacy blog slugs for old slug → new slug redirects
-// This handles 12,310 additional redirects (1,231 old slugs × 10 wrong locales)
-const { legacyBlogSlugs } = require('./config/blog-redirects');
+import { isValidLocale } from '@/config/locales';
 
 // Import product page slugs for legacy appId → localized slug redirects
-// This fixes 404 errors for URLs like /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
+// App detail pages survive the pivot — these redirects are still needed
 import { productPageSlugs } from './config/product-page-slugs';
-import { getBlogCategorySlug, getBlogCategoryIdFromSlug } from './config/blog-category-slugs';
-import { getProductCategorySlug, getProductCategoryIdFromSlug } from './config/product-category-slugs';
-import { getGradeSlug, getGradeIdFromSlug } from './config/grade-slugs';
-
-// Build slug → nativeLocale map at startup for O(1) lookups
-const slugToLocaleMap = new Map<string, string>();
-for (const { slug, nativeLocale } of crossLocaleSlugs) {
-  slugToLocaleMap.set(slug, nativeLocale);
-}
-
-// Build oldSlug → { nativeLocale, newSlug } map for legacy redirects
-// This enables redirecting old slugs under ANY locale to the correct locale + new slug
-const oldSlugMap = new Map<string, { nativeLocale: string; newSlug: string }>();
-for (const { oldSlug, newSlug, locale } of legacyBlogSlugs as Array<{ oldSlug: string; newSlug: string; locale: string }>) {
-  oldSlugMap.set(oldSlug, { nativeLocale: locale, newSlug });
-}
 
 // Build legacy appId → localized slugs map for product page redirects
-// This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter (818 pages fix)
-// Map structure: appId → { locale → localizedSlug }
+// This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
 const legacyAppIdToLocalizedSlugs = new Map<string, Record<string, string>>();
 for (const app of productPageSlugs) {
   const localeToSlug: Record<string, string> = {};
@@ -48,7 +23,6 @@ for (const app of productPageSlugs) {
 
 // Build English slug → app slugs map for English-to-localized redirects
 // This redirects /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter
-// Replaces ~330 static redirects from generateProductPageRedirects() in next.config.js
 const englishSlugToAppSlugs = new Map<string, Record<string, string>>();
 for (const app of productPageSlugs) {
   const enSlug = app.slugs.en;
@@ -132,21 +106,80 @@ function getPreferredLanguage(request: NextRequest): string {
   return defaultLocale;
 }
 
+/**
+ * Return 410 Gone for removed URL patterns.
+ * Fast de-indexing signal for search engines.
+ */
+function return410(): NextResponse {
+  return new NextResponse('Gone', {
+    status: 410,
+    headers: {
+      'Content-Type': 'text/plain',
+      'X-Robots-Tag': 'noindex',
+    },
+  });
+}
+
+/**
+ * Check if a pathname matches a removed URL pattern that should return 410 Gone.
+ * Patterns removed in the pivot to Professional Printable Business Toolkit:
+ * - /[locale]/blog/* (all blog posts, categories, listings)
+ * - /[locale]/worksheets/* (all theme/grade pages)
+ * - /[locale]/pricing (pricing page)
+ * - /[locale]/apps/category/* (product category pages)
+ * - /[locale]/apps/grades/* (grade hub pages)
+ * - /buy/* (purchase pages)
+ * - /blog/* (non-locale-prefixed blog URLs)
+ * - /feed.xml, /sitemap-news.xml, /sitemap-images.xml, /sitemap_index.xml
+ */
+function isRemovedRoute(pathname: string): boolean {
+  // Non-locale-prefixed removed routes
+  if (pathname === '/blog' || pathname.startsWith('/blog/')) return true;
+  if (pathname === '/pricing') return true;
+  if (pathname.startsWith('/buy')) return true;
+  if (pathname === '/feed.xml') return true;
+  if (pathname === '/sitemap-news.xml') return true;
+  if (pathname === '/sitemap-images.xml') return true;
+  if (pathname === '/sitemap_index.xml') return true;
+
+  // Locale-prefixed removed routes: /xx/blog/*, /xx/worksheets/*, etc.
+  const localeMatch = pathname.match(/^\/([a-z]{2})\/(.*)/);
+  if (localeMatch) {
+    const rest = localeMatch[2];
+
+    // Blog (posts, categories, index)
+    if (rest === 'blog' || rest.startsWith('blog/')) return true;
+
+    // Worksheets (theme/grade pages)
+    if (rest === 'worksheets' || rest.startsWith('worksheets/')) return true;
+
+    // Pricing
+    if (rest === 'pricing') return true;
+
+    // Product category pages
+    if (rest.startsWith('apps/category/') || rest === 'apps/category') return true;
+
+    // Grade hub pages
+    if (rest.startsWith('apps/grades/') || rest === 'apps/grades') return true;
+  }
+
+  // Localized pricing slugs (e.g., /de/preise, /fr/tarifs)
+  const localizedPricingSlugs = new Set([
+    'prising', 'tarifs', 'preise', 'precios', 'prezzi', 'precos',
+    'prijzen', 'hinnoittelu', 'priser',
+  ]);
+  const localizedPageMatch = pathname.match(/^\/([a-z]{2})\/([a-z]+)$/);
+  if (localizedPageMatch && localizedPricingSlugs.has(localizedPageMatch[2])) {
+    return true;
+  }
+
+  return false;
+}
+
 const intlMiddleware = createMiddleware({
-  // A list of all locales that are supported
   locales,
-
-  // Used when no locale matches
   defaultLocale,
-
-  // Always use a locale prefix in the URL
   localePrefix: 'always',
-
-  // CRITICAL SEO FIX: Disable automatic HTTP Link header generation
-  // The default behavior generates hreflang with SAME slug for all languages,
-  // but blog posts have LOCALIZED slugs (e.g., /en/blog/math-tips vs /de/blog/mathe-tipps)
-  // We provide correct hreflang via generateMetadata() in page.tsx instead
-  // See: https://next-intl.dev/docs/routing/configuration#alternate-links
   alternateLinks: false
 });
 
@@ -162,9 +195,7 @@ function continueWithIntlMiddleware(
   // Set locale cookie for root layout to detect language for SEO (html lang attribute)
   if (response instanceof NextResponse) {
     response.headers.set('x-pathname', pathname);
-    // SEO: Direct locale header for layout.tsx (defense in depth)
     response.headers.set('x-locale', detectedLocale);
-    // SEO: Content-Language header strengthens language signal for crawlers
     response.headers.set('Content-Language', detectedLocale);
     response.cookies.set('NEXT_LOCALE', detectedLocale, {
       path: '/',
@@ -180,7 +211,6 @@ export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // SEO FIX: Redirect non-www to www for canonical consistency
-  // This prevents "Google chose different canonical" errors from www vs non-www
   const hostname = request.nextUrl.hostname;
   if (hostname === 'lessoncraftstudio.com') {
     const url = request.nextUrl.clone();
@@ -188,110 +218,23 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
-  // Set pathname header for root layout to detect locale for SEO (html lang attribute)
+  // 410 Gone for all removed routes (blog, worksheets, pricing, categories, grades, buy)
+  // Must be checked early, before intl middleware or any redirect logic
+  if (isRemovedRoute(pathname)) {
+    return return410();
+  }
+
+  // Set pathname header for root layout to detect locale for SEO
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-pathname', pathname);
 
-  // Extract locale from URL for SEO (html lang attribute)
+  // Extract locale from URL for SEO
   const pathSegments = pathname.split('/').filter(Boolean);
   const urlLocale = pathSegments[0];
   const detectedLocale = isValidLocale(urlLocale) ? urlLocale : 'en';
-
-  // SEO: Set x-locale header so layout.tsx can read the validated locale directly
-  // This is more reliable than re-parsing the pathname in the layout
   requestHeaders.set('x-locale', detectedLocale);
 
-  // Handle blog cross-locale redirects (slug accessed under wrong language)
-  // This replaces 12,298 static redirects with a single middleware check
-  // Returns 301 permanent redirect for SEO (same as static redirects)
-  const blogMatch = pathname.match(/^\/([a-z]{2})\/blog\/(.+)$/);
-  if (blogMatch) {
-    const [, locale, slug] = blogMatch;
-
-    // Cross-locale slug correction is handled by the page component (it has DB access
-    // to look up all locale slugs per post). Middleware only handles old/stale slugs.
-
-    // Check: Is this an OLD slug? Redirect to correct locale + NEW slug
-    // This handles old slugs accessed under ANY locale (including wrong ones)
-    const oldSlugInfo = oldSlugMap.get(slug);
-    if (oldSlugInfo) {
-      const newUrl = new URL(`/${oldSlugInfo.nativeLocale}/blog/${oldSlugInfo.newSlug}`, request.url);
-      return NextResponse.redirect(newUrl, { status: 301 });
-    }
-
-    // Fuzzy match - try stripping common suffixes for edge cases
-    // Google may have indexed URLs with intermediate suffixes we didn't capture
-    if (!oldSlugInfo) {
-      const strippedSlug = slug
-        .replace(/-final-optimized$/, '')
-        .replace(/-optimized$/, '')
-        .replace(/-final$/, '');
-
-      if (strippedSlug !== slug) {
-        // Try looking up the stripped version as an old slug
-        const strippedInfo = oldSlugMap.get(strippedSlug);
-        if (strippedInfo) {
-          const newUrl = new URL(`/${strippedInfo.nativeLocale}/blog/${strippedInfo.newSlug}`, request.url);
-          return NextResponse.redirect(newUrl, { status: 301 });
-        }
-        // Also check if stripped version is a current slug under wrong locale
-        const strippedNativeLocale = slugToLocaleMap.get(strippedSlug);
-        if (strippedNativeLocale && strippedNativeLocale !== locale) {
-          const newUrl = new URL(`/${strippedNativeLocale}/blog/${strippedSlug}`, request.url);
-          return NextResponse.redirect(newUrl, { status: 301 });
-        }
-      }
-    }
-  }
-
-  // SEO FIX: Redirect English blog category slugs to localized slugs
-  // e.g. /de/blog/category/teaching-resources → /de/blog/category/unterrichtsmaterialien
-  const blogCatMatch = pathname.match(/^\/([a-z]{2})\/blog\/category\/([a-z0-9-]+)$/);
-  if (blogCatMatch) {
-    const [, catLocale, catSlug] = blogCatMatch;
-    const categoryId = getBlogCategoryIdFromSlug(catSlug);
-    if (categoryId) {
-      const localizedSlug = getBlogCategorySlug(categoryId, catLocale);
-      if (localizedSlug !== catSlug) {
-        const newUrl = new URL(`/${catLocale}/blog/category/${localizedSlug}`, request.url);
-        return NextResponse.redirect(newUrl, { status: 301 });
-      }
-    }
-  }
-
-  // SEO FIX: Redirect English product category slugs to localized slugs
-  // e.g. /de/apps/category/math → /de/apps/category/mathematik
-  const prodCatMatch = pathname.match(/^\/([a-z]{2})\/apps\/category\/([a-z0-9-]+)$/);
-  if (prodCatMatch) {
-    const [, pcLocale, pcSlug] = prodCatMatch;
-    const categoryId = getProductCategoryIdFromSlug(pcSlug);
-    if (categoryId) {
-      const localizedSlug = getProductCategorySlug(categoryId, pcLocale);
-      if (localizedSlug !== pcSlug) {
-        const newUrl = new URL(`/${pcLocale}/apps/category/${localizedSlug}`, request.url);
-        return NextResponse.redirect(newUrl, { status: 301 });
-      }
-    }
-  }
-
-  // SEO FIX: Redirect English grade slugs to localized slugs
-  // e.g. /fr/apps/grades/preschool → /fr/apps/grades/maternelle
-  const gradeMatch = pathname.match(/^\/([a-z]{2})\/apps\/grades\/([a-z0-9-]+)$/);
-  if (gradeMatch) {
-    const [, grLocale, grSlug] = gradeMatch;
-    const gradeId = getGradeIdFromSlug(grLocale, grSlug);
-    if (gradeId) {
-      const localizedSlug = getGradeSlug(gradeId, grLocale);
-      if (localizedSlug && localizedSlug !== grSlug) {
-        const newUrl = new URL(`/${grLocale}/apps/grades/${localizedSlug}`, request.url);
-        return NextResponse.redirect(newUrl, { status: 301 });
-      }
-    }
-  }
-
-  // SEO FIX: Handle legacy appId redirects for product pages
-  // This fixes 404 errors for URLs like /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
-  // Returns 301 permanent redirect to pass link equity and fix indexing
+  // Handle product page slug redirects (app detail pages survive the pivot)
   const appsMatch = pathname.match(/^\/([a-z]{2})\/apps\/([a-z0-9-]+)$/);
   if (appsMatch) {
     const [, locale, slug] = appsMatch;
@@ -299,9 +242,7 @@ export default function middleware(request: NextRequest) {
     // Check if this slug is a legacy appId that should redirect to a localized slug
     const localizedSlugs = legacyAppIdToLocalizedSlugs.get(slug);
     if (localizedSlugs) {
-      // Get the proper localized slug for this locale (or fallback to English)
       const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
-      // Only redirect if the target slug is different from current slug
       if (targetSlug && targetSlug !== slug) {
         const newUrl = new URL(`/${locale}/apps/${targetSlug}`, request.url);
         return NextResponse.redirect(newUrl, { status: 301 });
@@ -309,7 +250,6 @@ export default function middleware(request: NextRequest) {
     }
 
     // Check if this is an English slug accessed under a non-English locale
-    // e.g., /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter
     if (locale !== 'en') {
       const appSlugs = englishSlugToAppSlugs.get(slug);
       if (appSlugs) {
@@ -322,7 +262,6 @@ export default function middleware(request: NextRequest) {
     }
 
     // Cross-locale slug redirect: slug from locale X accessed under locale Y
-    // e.g., /sv/apps/subtraktion-arbejdsark (Danish slug) → /sv/apps/subtraktion-arbetsblad (Swedish slug)
     const appSlugsAll = anySlugToLocaleSlugs.get(slug);
     if (appSlugsAll) {
       const correctSlug = appSlugsAll[locale];
@@ -334,38 +273,19 @@ export default function middleware(request: NextRequest) {
   }
 
   // Handle root URL (/) - redirect to English with 301 for SEO
-  // CRITICAL SEO FIX: Always redirect to /en (not Accept-Language based)
-  // Non-deterministic redirects cause Google to see different targets on different crawls,
-  // resulting in "Duplicate, Google chose different canonical" errors
   if (pathname === '/') {
     const newUrl = new URL('/en', request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
-  // Handle /blog and /blog/* routes - redirect to English locale with 301
-  // CRITICAL SEO FIX: Always redirect to /en/blog (not Accept-Language based)
-  // Non-deterministic redirects cause Google to see different targets on different crawls,
-  // resulting in "Duplicate, Google chose different canonical" errors
-  if (pathname === '/blog' || pathname.startsWith('/blog/')) {
-    const newUrl = new URL(`/en${pathname}`, request.url);
-    // Preserve query parameters
-    request.nextUrl.searchParams.forEach((value, key) => {
-      newUrl.searchParams.set(key, value);
-    });
-    return NextResponse.redirect(newUrl, { status: 301 });
-  }
-
   // Redirect common pages without locale to English
-  // CRITICAL SEO FIX: Always redirect to /en (not Accept-Language based)
-  // Non-deterministic redirects cause "Duplicate, Google chose different canonical" errors
-  const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
+  const pagesNeedingLocale = ['/contact', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {
     const newUrl = new URL(`/en${pathname}`, request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
   // Redirect bare app paths without locale or /apps/ prefix
-  // Fixes 404s from blog links like /word-scramble, /find-objects, /signup
   const bareAppPaths: Record<string, string> = {
     '/word-scramble': '/en/apps/word-scramble-worksheets',
     '/find-objects': '/en/apps/find-objects-worksheets',
@@ -376,31 +296,12 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(bareAppPaths[pathname], request.url), 301);
   }
 
-  // Redirect locale-prefixed localized page slugs to canonical English path names
-  // Fixes 404s from blog links like /no/prising, /fr/tarifs, /nl/prijzen
-  const localizedPageSlugs = new Map([
-    ['prising', 'pricing'], ['tarifs', 'pricing'], ['preise', 'pricing'],
-    ['precios', 'pricing'], ['prezzi', 'pricing'], ['precos', 'pricing'],
-    ['prijzen', 'pricing'], ['hinnoittelu', 'pricing'], ['priser', 'pricing'],
-  ]);
-  const localizedPageMatch = pathname.match(/^\/([a-z]{2})\/([a-z]+)$/);
-  if (localizedPageMatch) {
-    const canonical = localizedPageSlugs.get(localizedPageMatch[2]);
-    if (canonical) {
-      return NextResponse.redirect(
-        new URL(`/${localizedPageMatch[1]}/${canonical}`, request.url), 301
-      );
-    }
-  }
-
   // Protect content manager - require authentication
   if (pathname.includes('/worksheet-generators/content-manager') ||
       pathname.includes('/worksheet-generators/blog-content-manager')) {
-    // Check for admin session token
     const adminToken = request.cookies.get('admin_token')?.value;
     const authHeader = request.headers.get('authorization');
 
-    // Allow dev bypass
     if (authHeader === 'Bearer dev-bypass' || process.env.NODE_ENV === 'development') {
       const resp = NextResponse.next({
         request: { headers: requestHeaders }
@@ -409,7 +310,6 @@ export default function middleware(request: NextRequest) {
       return resp;
     }
 
-    // If no admin token, redirect to login
     if (!adminToken) {
       const loginUrl = new URL('/admin/login', request.url);
       loginUrl.searchParams.set('redirect', pathname);
@@ -423,7 +323,7 @@ export default function middleware(request: NextRequest) {
     return resp;
   }
 
-  // Skip middleware for other static HTML files and public assets
+  // Skip middleware for static HTML files and public assets
   if (pathname.endsWith('.html') || pathname.includes('/worksheet-generators/')) {
     const resp = NextResponse.next({
       request: { headers: requestHeaders }
@@ -433,7 +333,6 @@ export default function middleware(request: NextRequest) {
   }
 
   // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
-  // SEO FIX: Add X-Robots-Tag: noindex for sensitive routes to prevent indexing
   if (pathname.startsWith('/admin') ||
       pathname.startsWith('/settings') ||
       pathname.startsWith('/notifications') ||
@@ -443,7 +342,6 @@ export default function middleware(request: NextRequest) {
     const response = NextResponse.next({
       request: { headers: requestHeaders }
     });
-    // SEO: Prevent indexing of admin/internal pages
     response.headers.set('X-Robots-Tag', 'noindex, nofollow');
     response.headers.set('Content-Language', detectedLocale);
     return response;
@@ -452,27 +350,22 @@ export default function middleware(request: NextRequest) {
   // Handle static pages with language persistence
   if (pathname.startsWith('/static')) {
     const pathSegments = pathname.split('/');
-    const locale = pathSegments[2]; // /static/[locale]/...
+    const locale = pathSegments[2];
 
-    // Check if locale is valid
     if (locale && locales.includes(locale as any)) {
-      // Set language cookie for persistence
       const response = NextResponse.next({
         request: { headers: requestHeaders }
       });
       response.cookies.set('preferredLanguage', locale, {
         httpOnly: true,
         sameSite: 'strict',
-        maxAge: 60 * 60 * 24 * 30, // 30 days
+        maxAge: 60 * 60 * 24 * 30,
         path: '/'
       });
       response.headers.set('Content-Language', locale);
       return response;
     } else {
-      // Try to get preferred language from cookies or Accept-Language header
       const preferredLang = getPreferredLanguage(request);
-
-      // Redirect to preferred language
       const newUrl = new URL(request.url);
       newUrl.pathname = pathname.replace(/\/static\/[^\/]*/, `/static/${preferredLang}`);
       return NextResponse.redirect(newUrl);
@@ -484,8 +377,7 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Match all paths except api routes, _next, static files, worksheet resources, blog assets, image files, and app routes (dashboard is INCLUDED for i18n)
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|sitemap-images.xml|sitemap-news.xml|sitemap_index.xml|feed.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search).*)',
   ]
 };

@@ -1,14 +1,12 @@
 {
   "navigation": {
     "apps": "Geradores",
-    "pricing": "Preços",
-    "blog": "Blog",
     "contact": "Contato",
     "signIn": "Entrar",
     "signUp": "Cadastrar",
     "startFree": "Começar grátis",
-    "dashboard": "Painel de controle",
-    "signOut": "Sair"
+    "signOut": "Sair",
+    "memberArea": "Área de Membros"
   },
   "homepage": {
     "hero": {

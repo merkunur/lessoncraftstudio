@@ -44,17 +44,17 @@ export function Navigation() {
                 LessonCraftStudio
               </span>
               <span className="hidden sm:block text-[10px] md:text-xs text-gray-500 tracking-wide mt-0.5">
-                {locale === 'de' ? 'Pädagogischer Arbeitsblatt-Generator' :
-                 locale === 'fr' ? 'Générateur de Fiches Pédagogiques' :
-                 locale === 'es' ? 'Generador de Hojas de Trabajo Educativas' :
-                 locale === 'it' ? 'Generatore di Schede Didattiche' :
-                 locale === 'pt' ? 'Gerador de Fichas de Trabalho Educativas' :
-                 locale === 'nl' ? 'Educatieve Werkbladgenerator' :
-                 locale === 'sv' ? 'Pedagogisk Arbetsbladsgenerator' :
-                 locale === 'da' ? 'Pædagogisk Arbejdsarkgenerator' :
-                 locale === 'no' ? 'Pedagogisk Arbeidsarkgenerator' :
-                 locale === 'fi' ? 'Opetusmateriaaligeneraattori' :
-                 'Educational Worksheet Generator'}
+                {locale === 'de' ? 'Professioneller Druckvorlagen-Generator' :
+                 locale === 'fr' ? "G\u00e9n\u00e9rateur d'Imprimables Professionnels" :
+                 locale === 'es' ? 'Generador de Imprimibles Profesionales' :
+                 locale === 'it' ? 'Generatore di Stampabili Professionali' :
+                 locale === 'pt' ? 'Gerador de Imprim\u00edveis Profissionais' :
+                 locale === 'nl' ? 'Professionele Printbare Generator' :
+                 locale === 'sv' ? 'Professionell Utskriftsgenerator' :
+                 locale === 'da' ? 'Professionel Printbar Generator' :
+                 locale === 'no' ? 'Profesjonell Utskriftsgenerator' :
+                 locale === 'fi' ? 'Ammattimainen Tulostusgeneraattori' :
+                 'Professional Printable Generator'}
               </span>
             </div>
           </Link>
@@ -64,14 +64,8 @@ export function Navigation() {
             <Link href={`/${locale}/apps`} className="text-gray-600 hover:text-primary transition-colors">
               {t('apps')}
             </Link>
-            <Link href={`/${locale}/pricing`} className="text-gray-600 hover:text-primary transition-colors">
-              {t('pricing')}
-            </Link>
-            <Link href={`/${locale}/blog`} className="text-gray-600 hover:text-primary transition-colors">
-              {t('blog')}
-            </Link>
-            <Link href={`/${locale}/dashboard`} className="text-gray-600 hover:text-primary transition-colors font-medium">
-              {t('dashboard')}
+            <Link href="/member" className="text-gray-600 hover:text-primary transition-colors font-medium">
+              {t('memberArea')}
             </Link>
           </div>
 
@@ -128,25 +122,11 @@ export function Navigation() {
               {t('apps')}
             </Link>
             <Link
-              href={`/${locale}/pricing`}
-              className="block py-2 text-gray-600 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('pricing')}
-            </Link>
-            <Link
-              href={`/${locale}/blog`}
-              className="block py-2 text-gray-600 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('blog')}
-            </Link>
-            <Link
-              href={`/${locale}/dashboard`}
+              href="/member"
               className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"
               onClick={() => setMobileMenuOpen(false)}
             >
-              {t('dashboard')}
+              {t('memberArea')}
             </Link>
 
             {/* Mobile Actions */}

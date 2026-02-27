@@ -1,14 +1,12 @@
 {
   "navigation": {
     "apps": "Generaattorit",
-    "pricing": "Hinnoittelu",
-    "blog": "Blogi",
     "contact": "Ota yhteyttä",
     "signIn": "Kirjaudu sisään",
     "signUp": "Rekisteröidy",
     "startFree": "Aloita ilmaiseksi",
-    "dashboard": "Hallintapaneeli",
-    "signOut": "Kirjaudu ulos"
+    "signOut": "Kirjaudu ulos",
+    "memberArea": "Jäsenalue"
   },
   "homepage": {
     "hero": {

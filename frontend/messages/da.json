@@ -1,14 +1,12 @@
 {
   "navigation": {
     "apps": "Generatorer",
-    "pricing": "Priser",
-    "blog": "Blog",
     "contact": "Kontakt",
     "signIn": "Log ind",
     "signUp": "Tilmeld",
     "startFree": "Start gratis",
-    "dashboard": "Kontrolpanel",
-    "signOut": "Log ud"
+    "signOut": "Log ud",
+    "memberArea": "Medlemsområde"
   },
   "homepage": {
     "hero": {

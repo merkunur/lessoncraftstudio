@@ -1,14 +1,12 @@
 {
   "navigation": {
     "apps": "Generators",
-    "pricing": "Prijzen",
-    "blog": "Blog",
     "contact": "Contact",
     "signIn": "Inloggen",
     "signUp": "Registreren",
     "startFree": "Gratis beginnen",
-    "dashboard": "Dashboard",
-    "signOut": "Uitloggen"
+    "signOut": "Uitloggen",
+    "memberArea": "Ledengedeelte"
   },
   "homepage": {
     "hero": {

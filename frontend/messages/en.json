@@ -1,14 +1,12 @@
 {
   "navigation": {
     "apps": "Apps",
-    "pricing": "Pricing",
-    "blog": "Blog",
     "contact": "Contact",
     "signIn": "Sign In",
     "signUp": "Sign Up",
     "startFree": "Start Free",
-    "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "signOut": "Sign Out",
+    "memberArea": "Member Area"
   },
   "homepage": {
     "hero": {
@@ -440,11 +438,11 @@
     "faq": "Frequently Asked Questions",
     "faqInfo": "Check our FAQ page for instant answers to common questions.",
     "followUs": "Follow Us",
-    "metaTitle": "Contact Us \u2014 Support & Inquiries | LessonCraftStudio",
+    "metaTitle": "Contact Us — Support & Inquiries | LessonCraftStudio",
     "metaDescription": "Get in touch with the LessonCraftStudio team. Questions about worksheet generators, subscriptions, licensing, or partnerships? We respond within 24-48 hours."
   },
   "terms": {
-    "metaTitle": "Terms of Service \u2014 Usage Agreement | LessonCraftStudio",
+    "metaTitle": "Terms of Service — Usage Agreement | LessonCraftStudio",
     "metaDescription": "Review LessonCraftStudio terms of service. Covers account requirements, subscription tiers, content licensing, and user responsibilities under Swedish law.",
     "title": "Terms of Service",
     "lastUpdated": "Last Updated",
@@ -520,7 +518,7 @@
     }
   },
   "license": {
-    "metaTitle": "License Terms \u2014 Content Usage Rights | LessonCraftStudio",
+    "metaTitle": "License Terms — Content Usage Rights | LessonCraftStudio",
     "metaDescription": "Understand LessonCraftStudio license terms. Free tier for personal use, Core for institutional use, Full Access for unrestricted commercial use including POD.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
@@ -576,7 +574,7 @@
     }
   },
   "privacy": {
-    "metaTitle": "Privacy Policy \u2014 Data Practices & GDPR | LessonCraftStudio",
+    "metaTitle": "Privacy Policy — Data Practices & GDPR | LessonCraftStudio",
     "metaDescription": "Read our privacy policy. Learn how LessonCraftStudio handles your data under GDPR and Swedish law. We collect minimal data and never sell personal information.",
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated",

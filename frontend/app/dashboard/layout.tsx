@@ -8,14 +8,11 @@ import ProtectedRoute from '@/components/auth/protected-route';
 import {
   LayoutDashboard,
   User,
-  CreditCard,
   Activity,
   Settings,
   LogOut,
   Menu,
   X,
-  ChevronRight,
-  Crown,
   Bell,
   HelpCircle,
 } from 'lucide-react';
@@ -33,18 +30,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
     { name: 'Profile', href: '/dashboard/profile', icon: User },
-    { name: 'Subscription', href: '/dashboard/subscription', icon: CreditCard },
     { name: 'Activity', href: '/dashboard/activity', icon: Activity },
     { name: 'Settings', href: '/dashboard/settings', icon: Settings },
   ];
-
-  const subscriptionBadges = {
-    free: { color: 'bg-gray-100 text-gray-800', icon: null },
-    core: { color: 'bg-blue-100 text-blue-800', icon: null },
-    full: { color: 'bg-purple-100 text-purple-800', icon: Crown },
-  };
-
-  const badge = subscriptionBadges[user?.subscriptionTier as keyof typeof subscriptionBadges] || subscriptionBadges.free;
 
   return (
     <ProtectedRoute>
@@ -186,10 +174,6 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             
             <div className="flex-1 px-4 flex justify-between">
               <div className="flex-1 flex items-center">
-                <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${badge.color}`}>
-                  {badge.icon && <Crown className="h-3 w-3 mr-1" />}
-                  {user?.subscriptionTier?.toUpperCase()} PLAN
-                </div>
               </div>
               
               <div className="ml-4 flex items-center md:ml-6 space-x-3">

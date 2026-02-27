@@ -24,7 +24,7 @@ export default function DashboardPage() {
     { name: 'Worksheets Created', value: '0', icon: FileText, color: 'bg-blue-500' },
     { name: 'Downloads This Month', value: '0', icon: Download, color: 'bg-green-500' },
     { name: 'Active Since', value: 'Today', icon: Clock, color: 'bg-purple-500' },
-    { name: 'Generators Available', value: user?.subscriptionTier === 'full' ? '33' : user?.subscriptionTier === 'core' ? '15' : '5', icon: Grid3x3, color: 'bg-orange-500' },
+    { name: 'Generators Available', value: '33', icon: Grid3x3, color: 'bg-orange-500' },
   ];
 
   const quickActions = [
@@ -54,10 +54,10 @@ export default function DashboardPage() {
   const featuredGenerators = [
     { name: 'Word Search', description: 'Create custom word search puzzles', available: true },
     { name: 'Math Worksheets', description: 'Generate math practice sheets', available: true },
-    { name: 'Crossword Puzzle', description: 'Build engaging crosswords', available: user?.subscriptionTier !== 'free' },
+    { name: 'Crossword Puzzle', description: 'Build engaging crosswords', available: true },
     { name: 'Coloring Pages', description: 'Design creative coloring activities', available: true },
     { name: 'Alphabet Train', description: 'Letter learning activities', available: true },
-    { name: 'Sudoku', description: 'Number puzzle challenges', available: user?.subscriptionTier === 'full' },
+    { name: 'Sudoku', description: 'Number puzzle challenges', available: true },
   ];
 
   return (
@@ -186,28 +186,6 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Upgrade prompt for free users */}
-        {user?.subscriptionTier === 'free' && (
-          <div className="mt-8 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 p-6 shadow-lg">
-            <div className="flex items-center justify-between flex-wrap">
-              <div className="flex-1">
-                <h3 className="text-lg font-medium text-white">
-                  Unlock More Worksheet Generators
-                </h3>
-                <p className="mt-1 text-sm text-blue-100">
-                  Upgrade to Core or Full plan to access more generators and features.
-                </p>
-              </div>
-              <Link
-                href="/pricing"
-                className="mt-4 sm:mt-0 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50"
-              >
-                View Plans
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

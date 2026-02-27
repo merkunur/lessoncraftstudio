@@ -169,10 +169,8 @@ export default function GeneratorsPage() {
                 </div>
                 <div className="ml-5 w-0 flex-1">
                   <dl>
-                    <dt className="text-sm font-medium text-gray-500 truncate">Your Tier</dt>
-                    <dd className="text-lg font-medium text-gray-900 capitalize">
-                      {user?.subscriptionTier || 'Free'}
-                    </dd>
+                    <dt className="text-sm font-medium text-gray-500 truncate">Access</dt>
+                    <dd className="text-lg font-medium text-gray-900">All Apps</dd>
                   </dl>
                 </div>
               </div>
@@ -341,7 +339,6 @@ export default function GeneratorsPage() {
                       </div>
 
                       <div className="mt-4">
-                        {isAvailable ? (
                           <Link
                             href={generator.url}
                             className="inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
@@ -349,20 +346,6 @@ export default function GeneratorsPage() {
                             Open Generator
                             <ChevronRight className="ml-1 h-4 w-4" />
                           </Link>
-                        ) : (
-                          <div className="flex items-center justify-between">
-                            <span className="inline-flex items-center text-sm text-gray-500">
-                              <Lock className="h-4 w-4 mr-1" />
-                              {generator.minTier === 'core' ? 'Core' : 'Full'} plan required
-                            </span>
-                            <Link
-                              href="/dashboard/subscription"
-                              className="text-sm font-medium text-blue-600 hover:text-blue-500"
-                            >
-                              Upgrade
-                            </Link>
-                          </div>
-                        )}
                       </div>
                     </div>
                   </div>
@@ -413,7 +396,6 @@ export default function GeneratorsPage() {
                           </div>
                         </div>
                         <div className="ml-4">
-                          {isAvailable ? (
                             <Link
                               href={generator.url}
                               className="inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
@@ -421,14 +403,6 @@ export default function GeneratorsPage() {
                               Open
                               <ChevronRight className="ml-1 h-4 w-4" />
                             </Link>
-                          ) : (
-                            <div className="text-center">
-                              <Lock className="h-5 w-5 text-gray-400 mx-auto" />
-                              <p className="mt-1 text-xs text-gray-500">
-                                {generator.minTier === 'core' ? 'Core' : 'Full'}
-                              </p>
-                            </div>
-                          )}
                         </div>
                       </div>
                     </div>
@@ -463,29 +437,6 @@ export default function GeneratorsPage() {
           </div>
         )}
 
-        {/* Upgrade CTA for free users */}
-        {user?.subscriptionTier === 'free' && (
-          <div className="mt-8 rounded-lg bg-gradient-to-r from-purple-600 to-indigo-600 p-6 shadow-lg">
-            <div className="flex items-center justify-between flex-wrap">
-              <div className="flex-1">
-                <h3 className="text-lg font-medium text-white">
-                  <Sparkles className="inline h-5 w-5 mr-2" />
-                  Unlock {worksheetGenerators.length - getGeneratorsByTier('free').length} More Generators
-                </h3>
-                <p className="mt-1 text-sm text-indigo-100">
-                  Upgrade to Core or Full plan to access all worksheet generators and premium features.
-                </p>
-              </div>
-              <Link
-                href="/dashboard/subscription"
-                className="mt-4 sm:mt-0 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50"
-              >
-                View Plans
-                <ChevronRight className="ml-2 h-4 w-4" />
-              </Link>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   );

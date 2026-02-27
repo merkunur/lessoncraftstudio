@@ -132,10 +132,6 @@ export default function AccountPage() {
             <p className="text-gray-700">
               <span className="font-medium">Name:</span> {user?.name || 'Not set'}
             </p>
-            <p className="text-gray-700">
-              <span className="font-medium">Subscription:</span>{' '}
-              <span className="capitalize">{user?.subscriptionTier || 'free'}</span>
-            </p>
             {user?.isAdmin && (
               <p className="text-gray-700">
                 <span className="inline-block px-2 py-1 text-sm font-semibold text-white bg-purple-600 rounded">

@@ -17,7 +17,7 @@ datasource db {
 model User {
   id                String    @id @default(cuid())
   email             String    @unique
-  passwordHash      String?   @map("password_hash")  // Optional for OAuth users
+  passwordHash      String?   @map("password_hash") // Optional for OAuth users
   firstName         String?   @map("first_name")
   lastName          String?   @map("last_name")
   emailVerified     Boolean   @default(false) @map("email_verified")
@@ -25,8 +25,8 @@ model User {
   verificationToken String?   @unique @map("verification_token")
 
   // OAuth provider info
-  oauthProvider     String?   @map("oauth_provider")     // "google", "github", null for email/password
-  oauthProviderId   String?   @map("oauth_provider_id")  // Provider's user ID
+  oauthProvider   String? @map("oauth_provider") // "google", "github", null for email/password
+  oauthProviderId String? @map("oauth_provider_id") // Provider's user ID
 
   // Subscription info
   subscriptionTier   String  @default("free") @map("subscription_tier") // "free", "core", "full"
@@ -54,20 +54,20 @@ model User {
   updatedAt   DateTime  @updatedAt @map("updated_at")
 
   // Relations
-  subscription        Subscription?
-  sessions            Session[]
-  passwordResets      PasswordReset[]
-  accountSharingLogs  AccountSharingLog[]
-  blogPosts           BlogPost[]
-  blogComments        BlogComment[]
-  blogLikes           BlogLike[]
-  analyticsEvents     AnalyticsEvent[]
-  payments            Payment[]
-  paymentFailures     PaymentFailure[]
-  notifications       Notification[]
-  activityLogs        ActivityLog[]
-  supportTickets      SupportTicket[]
-  userRoles           UserRole[]
+  subscription       Subscription?
+  sessions           Session[]
+  passwordResets     PasswordReset[]
+  accountSharingLogs AccountSharingLog[]
+  blogPosts          BlogPost[]
+  blogComments       BlogComment[]
+  blogLikes          BlogLike[]
+  analyticsEvents    AnalyticsEvent[]
+  payments           Payment[]
+  paymentFailures    PaymentFailure[]
+  notifications      Notification[]
+  activityLogs       ActivityLog[]
+  supportTickets     SupportTicket[]
+  userRoles          UserRole[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -77,31 +77,31 @@ model User {
 }
 
 model Role {
-  id          String   @id @default(cuid())
-  name        String   @unique // "Admin", "Editor", "Support", "Viewer"
-  slug        String   @unique // "admin", "editor", "support", "viewer"
+  id          String  @id @default(cuid())
+  name        String  @unique // "Admin", "Editor", "Support", "Viewer"
+  slug        String  @unique // "admin", "editor", "support", "viewer"
   description String?
-  permissions Json     // Array of permission strings: ["users:read", "users:write", "content:read", ...]
-  isSystem    Boolean  @default(false) @map("is_system") // Prevent deletion of system roles
+  permissions Json // Array of permission strings: ["users:read", "users:write", "content:read", ...]
+  isSystem    Boolean @default(false) @map("is_system") // Prevent deletion of system roles
 
-  createdAt   DateTime @default(now()) @map("created_at")
-  updatedAt   DateTime @updatedAt @map("updated_at")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
 
-  userRoles   UserRole[]
+  userRoles UserRole[]
 
   @@index([slug])
   @@map("roles")
 }
 
 model UserRole {
-  id        String   @id @default(cuid())
-  userId    String   @map("user_id")
-  roleId    String   @map("role_id")
+  id     String @id @default(cuid())
+  userId String @map("user_id")
+  roleId String @map("role_id")
 
   createdAt DateTime @default(now()) @map("created_at")
 
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  role      Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role Role @relation(fields: [roleId], references: [id], onDelete: Cascade)
 
   @@unique([userId, roleId])
   @@index([userId])
@@ -222,11 +222,11 @@ model Subscription {
 }
 
 model Payment {
-  id                     String  @id @default(cuid())
-  userId                 String  @map("user_id")
-  stripePaymentId        String? @unique @map("stripe_payment_id")
-  stripePaymentIntentId  String? @unique @map("stripe_payment_intent_id")
-  stripeInvoiceId        String? @unique @map("stripe_invoice_id")
+  id                    String  @id @default(cuid())
+  userId                String  @map("user_id")
+  stripePaymentId       String? @unique @map("stripe_payment_id")
+  stripePaymentIntentId String? @unique @map("stripe_payment_intent_id")
+  stripeInvoiceId       String? @unique @map("stripe_invoice_id")
 
   amount         Float
   currency       String  @default("usd")
@@ -341,27 +341,27 @@ model SampleWorksheet {
 
 // Product page sample with SEO metadata
 model ProductSample {
-  id            String   @id @default(cuid())
-  appId         String   @map("app_id")      // e.g., "addition", "word-scramble"
-  locale        String                        // e.g., "en", "de", "fr"
-  filename      String                        // e.g., "sample-1.jpeg"
+  id       String @id @default(cuid())
+  appId    String @map("app_id") // e.g., "addition", "word-scramble"
+  locale   String // e.g., "en", "de", "fr"
+  filename String // e.g., "sample-1.jpeg"
 
   // SEO Fields
-  altText       String?  @map("alt_text")     // e.g., "Free printable addition worksheet for grade 1"
-  title         String?                       // e.g., "Addition Practice - Single Digit"
-  description   String?  @db.Text             // Longer description for schema.org
-  keywords      String[] @default([])         // Related keywords
-  grade         String?                       // Target grade level: "Pre-K", "K", "1", "2", etc.
-  subject       String?                       // Math, Language, etc. (auto-populated from app)
+  altText     String?  @map("alt_text") // e.g., "Free printable addition worksheet for grade 1"
+  title       String? // e.g., "Addition Practice - Single Digit"
+  description String?  @db.Text // Longer description for schema.org
+  keywords    String[] @default([]) // Related keywords
+  grade       String? // Target grade level: "Pre-K", "K", "1", "2", etc.
+  subject     String? // Math, Language, etc. (auto-populated from app)
 
   // File info
-  fileSize      Int?     @map("file_size")    // In bytes
-  dimensions    String?                       // e.g., "2480x3508"
+  fileSize   Int?    @map("file_size") // In bytes
+  dimensions String? // e.g., "2480x3508"
 
   // Metadata
-  sortOrder     Int      @default(0) @map("sort_order")
-  createdAt     DateTime @default(now()) @map("created_at")
-  updatedAt     DateTime @updatedAt @map("updated_at")
+  sortOrder Int      @default(0) @map("sort_order")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
 
   @@unique([appId, locale, filename])
   @@index([appId, locale])
@@ -375,11 +375,11 @@ model ProductSample {
 // ==========================================
 
 model ImageTheme {
-  id           String   @id @default(cuid())
-  name         String   @unique
+  id           String @id @default(cuid())
+  name         String @unique
   displayNames Json // {en: "Animals", de: "Tiere", fr: "Animaux", ...}
-  type         String   @default("images") // "images", "borders", "backgrounds", "train", "worksheet"
-  sortOrder    Int      @default(0) @map("sort_order")
+  type         String @default("images") // "images", "borders", "backgrounds", "train", "worksheet"
+  sortOrder    Int    @default(0) @map("sort_order")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -392,16 +392,16 @@ model ImageTheme {
 }
 
 model ImageLibraryItem {
-  id           String   @id @default(cuid())
-  themeId      String   @map("theme_id")
+  id           String @id @default(cuid())
+  themeId      String @map("theme_id")
   filename     String
-  filePath     String   @map("file_path") // Relative path from public folder
-  fileSize     Int      @map("file_size") // In bytes
-  mimeType     String   @map("mime_type") // "image/svg+xml", "image/png", etc.
+  filePath     String @map("file_path") // Relative path from public folder
+  fileSize     Int    @map("file_size") // In bytes
+  mimeType     String @map("mime_type") // "image/svg+xml", "image/png", etc.
   width        Int?
   height       Int?
   translations Json // {en: "Cat", de: "Katze", fr: "Chat", ...}
-  sortOrder    Int      @default(0) @map("sort_order")
+  sortOrder    Int    @default(0) @map("sort_order")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -415,23 +415,23 @@ model ImageLibraryItem {
 }
 
 model BlogPDF {
-  id          String   @id @default(cuid())
-  postId      String   @map("post_id") // Links to blog post
-  language    String   @default("en") // Language code (en, de, fr, es, pt, it, nl, sv, da, no, fi)
+  id          String  @id @default(cuid())
+  postId      String  @map("post_id") // Links to blog post
+  language    String  @default("en") // Language code (en, de, fr, es, pt, it, nl, sv, da, no, fi)
   title       String
-  description String   @db.Text
+  description String  @db.Text
   filename    String
-  filePath    String   @map("file_path")
-  fileSize    Int      @map("file_size")
+  filePath    String  @map("file_path")
+  fileSize    Int     @map("file_size")
   thumbnail   String? // Path to thumbnail image
-  price       String   @default("Free") // "Free" or price like "$5.99"
-  downloads   Int      @default(0)
-  sortOrder   Int      @default(0) @map("sort_order")
+  price       String  @default("Free") // "Free" or price like "$5.99"
+  downloads   Int     @default(0)
+  sortOrder   Int     @default(0) @map("sort_order")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  post      BlogPost @relation("BlogPostPDFs", fields: [postId], references: [id], onDelete: Cascade)
+  post BlogPost @relation("BlogPostPDFs", fields: [postId], references: [id], onDelete: Cascade)
 
   @@index([postId])
   @@index([postId, language]) // Compound index for efficient language-specific queries
@@ -449,10 +449,10 @@ model BlogPost {
   authorId String @map("author_id")
 
   // Content (multi-language support)
-  slug          String  @unique // Base slug (e.g., "math-worksheets")
-  translations  Json // {en: {title, excerpt, content, metaTitle, metaDescription}, de: {...}, ...}
-  category      String // Category identifier
-  keywords      String[] // Array of keywords for all languages
+  slug         String   @unique // Base slug (e.g., "math-worksheets")
+  translations Json // {en: {title, excerpt, content, metaTitle, metaDescription}, de: {...}, ...}
+  category     String // Category identifier
+  keywords     String[] // Array of keywords for all languages
 
   // Featured Image
   featuredImage String? @map("featured_image")
@@ -707,11 +707,11 @@ model SecuritySetting {
   sessionIdleMinutes    Int @default(30) @map("session_idle_minutes")
 
   // Login Security
-  maxLoginAttempts         Int     @default(5) @map("max_login_attempts")
-  lockoutDurationMinutes   Int     @default(15) @map("lockout_duration_minutes")
-  require2FA               Boolean @default(false) @map("require_2fa")
-  require2FAForAdmins      Boolean @default(false) @map("require_2fa_for_admins")
-  enableEmailVerification  Boolean @default(true) @map("enable_email_verification")
+  maxLoginAttempts        Int     @default(5) @map("max_login_attempts")
+  lockoutDurationMinutes  Int     @default(15) @map("lockout_duration_minutes")
+  require2FA              Boolean @default(false) @map("require_2fa")
+  require2FAForAdmins     Boolean @default(false) @map("require_2fa_for_admins")
+  enableEmailVerification Boolean @default(true) @map("enable_email_verification")
 
   // Account Sharing Detection (Single Device Policy)
   enableAccountSharingDetection Boolean @default(true) @map("enable_account_sharing_detection")
@@ -725,16 +725,16 @@ model SecuritySetting {
   ipBlacklist       String[] @default([]) @map("ip_blacklist")
 
   // Security Features
-  enableCsrfProtection   Boolean @default(true) @map("enable_csrf_protection")
-  enableRateLimiting     Boolean @default(true) @map("enable_rate_limiting")
-  rateLimitRequestsPerMin Int    @default(100) @map("rate_limit_requests_per_min")
+  enableCsrfProtection    Boolean @default(true) @map("enable_csrf_protection")
+  enableRateLimiting      Boolean @default(true) @map("enable_rate_limiting")
+  rateLimitRequestsPerMin Int     @default(100) @map("rate_limit_requests_per_min")
 
   // Audit Logging
-  logAllAuthEvents      Boolean @default(true) @map("log_all_auth_events")
-  logFailedLogins       Boolean @default(true) @map("log_failed_logins")
-  logPasswordChanges    Boolean @default(true) @map("log_password_changes")
-  logRoleChanges        Boolean @default(true) @map("log_role_changes")
-  retainAuditLogDays    Int     @default(90) @map("retain_audit_log_days")
+  logAllAuthEvents   Boolean @default(true) @map("log_all_auth_events")
+  logFailedLogins    Boolean @default(true) @map("log_failed_logins")
+  logPasswordChanges Boolean @default(true) @map("log_password_changes")
+  logRoleChanges     Boolean @default(true) @map("log_role_changes")
+  retainAuditLogDays Int     @default(90) @map("retain_audit_log_days")
 
   // Metadata
   updatedBy String? @map("updated_by")
@@ -772,44 +772,44 @@ model EmailCampaign {
   id String @id @default(cuid())
 
   // Campaign details
-  name              String
-  description       String?  @db.Text
-  subject           String
-  htmlContent       String   @map("html_content") @db.Text
-  textContent       String?  @map("text_content") @db.Text
+  name        String
+  description String? @db.Text
+  subject     String
+  htmlContent String  @map("html_content") @db.Text
+  textContent String? @map("text_content") @db.Text
 
   // Template reference (optional - can use template or custom content)
-  templateId        String?  @map("template_id")
+  templateId String? @map("template_id")
 
   // Target audience
-  targetAudience    String   @map("target_audience") // "all", "free", "core", "full", "custom"
-  customUserIds     String[] @default([]) @map("custom_user_ids") // For custom targeting
+  targetAudience String   @map("target_audience") // "all", "free", "core", "full", "custom"
+  customUserIds  String[] @default([]) @map("custom_user_ids") // For custom targeting
 
   // Filters
-  subscriptionTier  String?  @map("subscription_tier") // "free", "core", "full"
+  subscriptionTier   String? @map("subscription_tier") // "free", "core", "full"
   subscriptionStatus String? @map("subscription_status") // "active", "canceled", etc.
 
   // Scheduling
-  status            String   @default("draft") // "draft", "scheduled", "sending", "sent", "failed"
-  scheduledAt       DateTime? @map("scheduled_at")
-  sentAt            DateTime? @map("sent_at")
+  status      String    @default("draft") // "draft", "scheduled", "sending", "sent", "failed"
+  scheduledAt DateTime? @map("scheduled_at")
+  sentAt      DateTime? @map("sent_at")
 
   // Statistics
-  totalRecipients   Int      @default(0) @map("total_recipients")
-  sentCount         Int      @default(0) @map("sent_count")
-  deliveredCount    Int      @default(0) @map("delivered_count")
-  openedCount       Int      @default(0) @map("opened_count")
-  clickedCount      Int      @default(0) @map("clicked_count")
-  bouncedCount      Int      @default(0) @map("bounced_count")
-  failedCount       Int      @default(0) @map("failed_count")
+  totalRecipients Int @default(0) @map("total_recipients")
+  sentCount       Int @default(0) @map("sent_count")
+  deliveredCount  Int @default(0) @map("delivered_count")
+  openedCount     Int @default(0) @map("opened_count")
+  clickedCount    Int @default(0) @map("clicked_count")
+  bouncedCount    Int @default(0) @map("bounced_count")
+  failedCount     Int @default(0) @map("failed_count")
 
   // Settings
-  sendTestEmail     Boolean  @default(false) @map("send_test_email")
-  testEmailAddress  String?  @map("test_email_address")
+  sendTestEmail    Boolean @default(false) @map("send_test_email")
+  testEmailAddress String? @map("test_email_address")
 
   // Metadata
-  createdBy         String?  @map("created_by") // User ID of admin who created
-  errorMessage      String?  @map("error_message") @db.Text
+  createdBy    String? @map("created_by") // User ID of admin who created
+  errorMessage String? @map("error_message") @db.Text
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -833,22 +833,22 @@ model EmailLog {
   campaignId String? @map("campaign_id")
 
   // Recipient
-  userId    String? @map("user_id")
-  email     String
+  userId String? @map("user_id")
+  email  String
 
   // Email details
-  subject   String
-  type      String  // "transactional", "marketing", "notification", "campaign"
+  subject String
+  type    String // "transactional", "marketing", "notification", "campaign"
 
   // Status
-  status    String  @default("pending") // "pending", "sent", "delivered", "opened", "clicked", "bounced", "failed", "spam"
+  status String @default("pending") // "pending", "sent", "delivered", "opened", "clicked", "bounced", "failed", "spam"
 
   // Provider details (e.g., Resend, SendGrid)
-  provider  String? // "resend", "sendgrid", etc.
+  provider   String? // "resend", "sendgrid", etc.
   providerId String? @map("provider_id") // External email ID from provider
 
   // Metadata
-  metadata  Json?   // Additional tracking data
+  metadata     Json? // Additional tracking data
   errorMessage String? @map("error_message") @db.Text
 
   // Timestamps
@@ -906,8 +906,8 @@ model SupportTicket {
 
   // Gmail integration
   gmailMessageId String? @unique @map("gmail_message_id") // Link to Gmail message ID
-  gmailThreadId  String? @map("gmail_thread_id")          // Gmail thread ID for conversation tracking
-  source         String  @default("contact_form")          // "contact_form" | "gmail"
+  gmailThreadId  String? @map("gmail_thread_id") // Gmail thread ID for conversation tracking
+  source         String  @default("contact_form") // "contact_form" | "gmail"
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -924,13 +924,13 @@ model SupportTicket {
 
 // Gmail OAuth Tokens for support email integration
 model GmailToken {
-  id           String   @id @default(cuid())
-  email        String   @unique                 // support@lessoncraftstudio.com
-  accessToken  String   @map("access_token") @db.Text
-  refreshToken String   @map("refresh_token") @db.Text
-  expiresAt    DateTime @map("expires_at")
-  lastSyncAt   DateTime? @map("last_sync_at")
-  importedCount Int     @default(0) @map("imported_count")
+  id            String    @id @default(cuid())
+  email         String    @unique // support@lessoncraftstudio.com
+  accessToken   String    @map("access_token") @db.Text
+  refreshToken  String    @map("refresh_token") @db.Text
+  expiresAt     DateTime  @map("expires_at")
+  lastSyncAt    DateTime? @map("last_sync_at")
+  importedCount Int       @default(0) @map("imported_count")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -983,4 +983,112 @@ model HomepageContent {
   updatedAt DateTime @updatedAt @map("updated_at")
 
   @@map("homepage_content")
+}
+
+// ==========================================
+// WARRIORPLUS LICENSE & SALES SYSTEM
+// ==========================================
+
+model LicenseKey {
+  id         String  @id @default(cuid())
+  licenseKey String  @unique @map("license_key")
+  email      String
+  firstName  String? @map("first_name")
+  lastName   String? @map("last_name")
+
+  // Product access
+  productTier String   @map("product_tier") // "single-app", "category-bundle", "full-access", "commercial", "agency"
+  productId   String   @map("product_id") // e.g. "math-bundle", "mega-bundle", "addition"
+  appsAccess  String[] @default([]) @map("apps_access") // List of app IDs this license grants access to
+
+  // Source tracking
+  source        String  @default("warriorplus") // "warriorplus", "gumroad", "direct"
+  transactionId String? @unique @map("transaction_id") // WarriorPlus or other platform transaction ID
+
+  // Status
+  status       String    @default("active") // "active", "revoked", "expired", "suspended"
+  revokedAt    DateTime? @map("revoked_at")
+  revokeReason String?   @map("revoke_reason")
+
+  // Usage
+  activationsCount Int       @default(0) @map("activations_count")
+  maxActivations   Int       @default(3) @map("max_activations") // Max devices
+  lastUsedAt       DateTime? @map("last_used_at")
+  lastUsedIp       String?   @map("last_used_ip")
+
+  // Validity
+  expiresAt DateTime? @map("expires_at") // null = lifetime access
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  // Relations
+  transactions WPlusTransaction[]
+
+  @@index([licenseKey])
+  @@index([email])
+  @@index([transactionId])
+  @@index([status])
+  @@index([productTier])
+  @@map("license_keys")
+}
+
+model WPlusTransaction {
+  id            String  @id @default(cuid())
+  transactionId String  @unique @map("transaction_id") // WarriorPlus transaction ID
+  licenseKeyId  String? @map("license_key_id")
+
+  // Buyer info
+  buyerEmail String  @map("buyer_email")
+  buyerName  String? @map("buyer_name")
+  buyerIp    String? @map("buyer_ip")
+
+  // Transaction details
+  productId     String  @map("product_id") // Our internal product ID
+  productName   String? @map("product_name")
+  amount        Float
+  currency      String  @default("USD")
+  paymentMethod String? @map("payment_method")
+
+  // Affiliate tracking
+  affiliateId     String? @map("affiliate_id")
+  affiliateAmount Float?  @map("affiliate_amount")
+
+  // Status
+  status       String    @default("completed") // "completed", "refunded", "chargeback", "pending"
+  refundedAt   DateTime? @map("refunded_at")
+  refundAmount Float?    @map("refund_amount")
+  refundReason String?   @map("refund_reason")
+
+  // Raw data
+  rawPayload Json? @map("raw_payload")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  licenseKey LicenseKey? @relation(fields: [licenseKeyId], references: [id], onDelete: SetNull)
+
+  @@index([transactionId])
+  @@index([buyerEmail])
+  @@index([licenseKeyId])
+  @@index([status])
+  @@index([affiliateId])
+  @@map("wplus_transactions")
+}
+
+model WPlusWebhookEvent {
+  id            String   @id @default(cuid())
+  eventId       String   @unique @map("event_id") // Unique event identifier for idempotency
+  eventType     String   @map("event_type") // "sale", "refund", "chargeback"
+  transactionId String   @map("transaction_id")
+  processedAt   DateTime @default(now()) @map("processed_at")
+  status        String   @default("processing") // "processing", "processed", "failed"
+  errorMessage  String?  @map("error_message") @db.Text
+  payload       Json?
+
+  @@index([eventId])
+  @@index([eventType])
+  @@index([transactionId])
+  @@index([status])
+  @@map("wplus_webhook_events")
 }

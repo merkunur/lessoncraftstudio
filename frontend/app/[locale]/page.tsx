@@ -12,73 +12,73 @@ import {
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
 
-// Localized SEO metadata with researched keywords for all 11 languages
+// Localized SEO metadata for entrepreneur audience (Etsy, KDP, printables business)
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
   en: {
-    title: 'Free Worksheet Generators for Teachers | LessonCraftStudio',
-    description: 'Create free printable worksheets with 33 generators and 3,000+ images. Math, coloring, word searches & puzzles. Download PDF instantly. No signup required.',
-    keywords: 'free worksheet generator, printable worksheets for kids, math worksheet maker, kindergarten worksheets, first grade worksheets, coloring page generator, word search creator, educational printables, teacher worksheet tools, PDF worksheet download, preschool activities, classroom worksheets',
-    ogAlt: 'LessonCraftStudio - Professional Worksheet Generators'
+    title: 'Professional Printable Generators | Create & Sell on Etsy & KDP',
+    description: 'Create professional printables with 33 generators. Word searches, math worksheets, coloring pages & puzzles. Try free with watermark. Sell on Etsy, Amazon KDP.',
+    keywords: 'printable generator, Etsy printables, KDP worksheets, sell printables online, printable business, word search maker, coloring page creator, math worksheet generator, side hustle printables, commercial license printables',
+    ogAlt: 'LessonCraftStudio - Professional Printable Generators'
   },
   de: {
-    title: 'Kostenlose Arbeitsblatt-Generatoren | LessonCraftStudio',
-    description: 'Erstellen Sie Arbeitsblätter mit 33 Generatoren und 3.000+ Bildern. Mathe, Ausmalbilder, Wortsuche & Rätsel. PDF sofort herunterladen. Keine Anmeldung nötig.',
-    keywords: 'Arbeitsblätter Grundschule, Mathe Arbeitsblätter, kostenlose Arbeitsblätter, Vorschule Arbeitsblätter, Ausmalbilder, Buchstaben lernen, Schwungübungen, Einmaleins, Rechnen 1. Klasse, Arbeitsblatt Generator',
-    ogAlt: 'LessonCraftStudio - Professionelle Arbeitsblatt-Generatoren'
+    title: 'Professionelle Druckvorlagen-Generatoren | Erstellen & Verkaufen',
+    description: 'Erstellen Sie professionelle Druckvorlagen mit 33 Generatoren. Kostenlos testen mit Wasserzeichen. Verkaufen Sie auf Etsy, Amazon KDP und mehr.',
+    keywords: 'Druckvorlagen erstellen, Etsy Druckvorlagen, KDP Arbeitsblätter, Druckvorlagen verkaufen, Printables Business, Wortsuche Generator, professionelle Druckvorlagen',
+    ogAlt: 'LessonCraftStudio - Professionelle Druckvorlagen-Generatoren'
   },
   fr: {
-    title: 'Générateurs de Fiches Gratuits | LessonCraftStudio',
-    description: 'Créez des fiches avec 33 générateurs et 3 000+ images. Maths, coloriages, mots cachés & puzzles. Téléchargez le PDF instantanément. Sans inscription.',
-    keywords: 'fiches maternelle, exercices CP CE1, coloriage à imprimer, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, exercices maths, alphabet, tables de multiplication, générateur de fiches',
-    ogAlt: 'LessonCraftStudio - G\u00e9n\u00e9rateurs de fiches professionnels'
+    title: "Générateurs d'Imprimables Professionnels | Créer & Vendre",
+    description: "Créez des imprimables professionnels avec 33 générateurs. Essai gratuit avec filigrane. Vendez sur Etsy, Amazon KDP et plus.",
+    keywords: "générateur imprimables, Etsy imprimables, KDP fiches, vendre imprimables en ligne, business imprimables, mots mêlés générateur, imprimables professionnels",
+    ogAlt: "LessonCraftStudio - Générateurs d'imprimables professionnels"
   },
   es: {
-    title: 'Generadores de Fichas Gratis | LessonCraftStudio',
-    description: 'Cree fichas con 33 generadores y 3.000+ imágenes. Matemáticas, colorear, sopa de letras y puzzles. Descargue PDF al instante. Sin registro necesario.',
-    keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, ejercicios matemáticas, dibujos para colorear, abecedario, fichas gratis, lectoescritura, tablas de multiplicar',
-    ogAlt: 'LessonCraftStudio - Generadores de fichas profesionales'
+    title: 'Generadores de Imprimibles Profesionales | Crear y Vender',
+    description: 'Crea imprimibles profesionales con 33 generadores. Prueba gratis con marca de agua. Vende en Etsy, Amazon KDP y más.',
+    keywords: 'generador imprimibles, Etsy imprimibles, KDP fichas, vender imprimibles online, negocio imprimibles, sopa de letras generador, imprimibles profesionales',
+    ogAlt: 'LessonCraftStudio - Generadores de imprimibles profesionales'
   },
   pt: {
-    title: 'Geradores de Atividades Grátis | LessonCraftStudio',
-    description: 'Crie atividades com 33 geradores e 3.000+ imagens. Matemática, colorir, caça-palavras e quebra-cabeças. Baixe PDF na hora. Sem cadastro necessário.',
-    keywords: 'atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades 1º ano, tabuada, letra cursiva, atividades grátis',
-    ogAlt: 'LessonCraftStudio - Geradores de planilhas profissionais'
+    title: 'Geradores de Imprimíveis Profissionais | Criar e Vender',
+    description: "Crie imprimíveis profissionais com 33 geradores. Teste grátis com marca d'agua. Venda no Etsy, Amazon KDP e mais.",
+    keywords: 'gerador imprimíveis, Etsy imprimíveis, KDP atividades, vender imprimíveis online, negócio imprimíveis, imprimíveis profissionais',
+    ogAlt: 'LessonCraftStudio - Geradores de imprimíveis profissionais'
   },
   it: {
-    title: 'Generatori di Schede Didattiche Gratis | LessonCraftStudio',
-    description: 'Crea schede didattiche con 33 generatori e 3.000+ immagini. Matematica, colorare, cerca parole e puzzle. Scarica PDF subito. Gratis, senza registrazione.',
-    keywords: "schede didattiche, schede didattiche scuola primaria, pregrafismo, schede matematica, disegni da colorare, tabelline, alfabeto, scuola dell'infanzia, numeri da stampare, generatori di schede",
-    ogAlt: 'LessonCraftStudio - Generatori di schede professionali'
+    title: 'Generatori di Stampabili Professionali | Crea e Vendi',
+    description: 'Crea stampabili professionali con 33 generatori. Prova gratis con filigrana. Vendi su Etsy, Amazon KDP e altro.',
+    keywords: 'generatore stampabili, Etsy stampabili, KDP schede, vendere stampabili online, business stampabili, stampabili professionali',
+    ogAlt: 'LessonCraftStudio - Generatori di stampabili professionali'
   },
   nl: {
-    title: 'Gratis Werkblad Generatoren — PDF | LessonCraftStudio',
-    description: 'Maak werkbladen met 33 generatoren en 3.000+ afbeeldingen. Rekenen, kleurplaten, woordzoekers & puzzels. Download PDF direct. Geen registratie nodig. Gratis.',
-    keywords: 'werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, oefenbladen gratis, letters leren, tafels oefenen, fijne motoriek, sommen tot 20, werkblad generatoren',
-    ogAlt: 'LessonCraftStudio - Professionele werkblad-generatoren'
+    title: 'Professionele Printbare Generatoren | Maak & Verkoop',
+    description: 'Maak professionele printbare producten met 33 generatoren. Probeer gratis met watermerk. Verkoop op Etsy, Amazon KDP en meer.',
+    keywords: 'printbare generator, Etsy printables, KDP werkbladen, printables verkopen, printables business, professionele printables',
+    ogAlt: 'LessonCraftStudio - Professionele printbare generatoren'
   },
   sv: {
-    title: 'Gratis Arbetsblad Generatorer för Barn | LessonCraftStudio',
-    description: 'Skapa arbetsblad med 33 generatorer och 3 000+ bilder. Matte, målarbilder, ordjaktar & pussel. Ladda ner PDF direkt. Gratis, ingen registrering krävs.',
-    keywords: 'arbetsblad gratis, matematik arbetsblad, målarbilder barn, förskoleklass material, bokstäver lära sig, multiplikationstabellen, finmotorik övningar, addition subtraktion, siffror tal, arbetsblad generatorer',
-    ogAlt: 'LessonCraftStudio - Professionella arbetsblads-generatorer'
+    title: 'Professionella Utskriftsgeneratorer | Skapa & Sälj',
+    description: 'Skapa professionella utskrifter med 33 generatorer. Prova gratis med vattenstämpel. Sälj på Etsy, Amazon KDP och mer.',
+    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP arbetsblad, sälja utskrifter online, professionella utskrifter',
+    ogAlt: 'LessonCraftStudio - Professionella utskriftsgeneratorer'
   },
   da: {
-    title: 'Gratis Arbejdsark Generatorer til B\u00f8rn | LessonCraftStudio',
-    description: 'Lav arbejdsark med 33 generatorer og 3.000+ billeder. Matematik, malebog, ordsøgning & puslespil. Hent gratis PDF med det samme. Ingen tilmelding nødvendig.',
-    keywords: 'opgaver til print, matematikopgaver, gratis skoleopgaver, arbejdsark, 0. klasse opgaver, 1. klasse, malebog, gangetabeller, finmotorik øvelser, lære bogstaver',
-    ogAlt: 'LessonCraftStudio - Professionelle arbejdsark-generatorer'
+    title: 'Professionelle Printbare Generatorer | Opret & Sælg',
+    description: 'Opret professionelle printbare produkter med 33 generatorer. Prøv gratis med vandmærke. Sælg på Etsy, Amazon KDP og mere.',
+    keywords: 'printbar generator, Etsy printables, KDP arbejdsark, sælge printables, professionelle printables',
+    ogAlt: 'LessonCraftStudio - Professionelle printbare generatorer'
   },
   no: {
-    title: 'Gratis Arbeidsark Generatorer til Barn | LessonCraftStudio',
-    description: 'Lag arbeidsark med 33 generatorer og 3 000+ bilder. Matte, fargelegging, ordsøk & puslespill. Last ned PDF direkte. Gratis, ingen registrering nødvendig.',
-    keywords: 'arbeidsark gratis, matteoppgaver, fargeleggingsbilder barn, oppgavehefter barn, gangetabellen, addisjon subtraksjon, finmotorikk øvelser, bokstaver lære skrive, lesetrening, arbeidsark generatorer',
-    ogAlt: 'LessonCraftStudio - Profesjonelle arbeidsark-generatorer'
+    title: 'Profesjonelle Utskriftsgeneratorer | Lag & Selg',
+    description: 'Lag profesjonelle utskrifter med 33 generatorer. Prøv gratis med vannmerke. Selg på Etsy, Amazon KDP og mer.',
+    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP arbeidsark, selge utskrifter, profesjonelle utskrifter',
+    ogAlt: 'LessonCraftStudio - Profesjonelle utskriftsgeneratorer'
   },
   fi: {
-    title: 'Ilmaiset Työarkki-Generaattorit Lapsille | LessonCraftStudio',
-    description: 'Luo työarkkeja lapsille 33 generaattorilla ja 3 000+ kuvalla. Matematiikka, väritys, sanaristikot ja pulmat. Lataa PDF heti — ilmainen, ei rekisteröintiä.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali, matematiikka tehtävät alakoulu, värityskuvia lapsille, kertotaulut, hienomotoriikka harjoitukset, kirjaimet harjoittelu, yhteenlasku vähennyslasku, lukemaan oppiminen, työarkki generaattorit',
-    ogAlt: 'LessonCraftStudio - Ammattimaiset ty\u00f6arkki-generaattorit'
+    title: 'Ammattimaiset Tulostusgeneraattorit | Luo & Myy',
+    description: 'Luo ammattimaisia tulostettavia 33 generaattorilla. Kokeile ilmaiseksi vesileimalla. Myy Etsyssä, Amazon KDP:ssä ja muualla.',
+    keywords: 'tulostusgeneraattori, Etsy tulostettavat, KDP tehtävät, myy tulostettavia, ammattimaiset tulostettavat',
+    ogAlt: 'LessonCraftStudio - Ammattimaiset tulostusgeneraattorit'
   }
 };
 

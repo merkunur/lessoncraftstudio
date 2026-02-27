@@ -13,110 +13,110 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Frequently Asked Questions",
     items: [
       {
-        question: "Are the worksheet generators really free to use?",
-        answer: "Our Word Search generator is completely free with no account required. For access to 10 of our most popular generators, the Core plan is $15/month. The Full plan at $25/month unlocks all 33 professional worksheet generators, the complete image library, and commercial licensing rights."
+        question: "Can I really try all 33 generators for free?",
+        answer: "Yes! Every generator is free to use with a watermark on the output. Create as many printables as you want, test every generator, and see the full quality before purchasing. No account or credit card required."
       },
       {
-        question: "What types of worksheets can I create?",
-        answer: "LessonCraftStudio offers 33 worksheet generators: Addition, Alphabet Train, Big & Small, Bingo, Chart & Count, Code Addition, Coloring, Crossword, Cryptogram, Draw & Color, Drawing Lines, Find & Count, Find Objects, Grid Match, Matching, Math Puzzle, Math Worksheet, Missing Pieces, More & Less, Odd One Out, Pattern Train, Pattern Worksheet, Picture Path, Picture Sort, Prepositions, Shadow Match, Subtraction, Sudoku, Treasure Hunt, Word Guess, Word Scramble, Word Search, and Writing."
+        question: "What types of printables can I create?",
+        answer: "LessonCraftStudio offers 33 generators across 5 categories: Math (addition, subtraction, puzzles), Language (word search, crossword, cryptogram), Visual Learning (matching, find objects, shadow match), Creative (coloring, drawing, bingo), and Logic & Puzzles (sudoku, patterns, odd one out). Each produces professional 300 DPI PDFs."
       },
       {
-        question: "Can I use these worksheets commercially?",
-        answer: "Yes! Both the Core and Full plans include commercial licensing. You can sell your created worksheets on platforms like Teachers Pay Teachers, Etsy, or use them in your tutoring business, classroom materials, or educational publications."
+        question: "Can I sell the printables I create?",
+        answer: "Absolutely! Every printable you create comes with a full commercial license. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required and no royalty fees."
       },
       {
-        question: "What grade levels are the worksheets designed for?",
-        answer: "Our worksheets are designed for preschool through 3rd grade, covering ages 3 to 9. Each generator includes difficulty settings so you can tailor the content to your students\u2019 exact level, from early learners to more advanced young readers and mathematicians."
+        question: "How does the watermark work?",
+        answer: "The free version adds a small watermark to exported PDFs. This lets you fully test every generator and see the exact output quality. When you purchase a license, the watermark is removed and you get clean, professional PDFs ready to sell."
+      },
+      {
+        question: "What platforms can I sell on?",
+        answer: "You can sell your printables anywhere: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, your own Shopify store, WooCommerce site, or any other marketplace. The commercial license covers all platforms with no restrictions."
+      },
+      {
+        question: "Do I need design skills to create printables?",
+        answer: "Not at all! Every generator uses a simple point-and-click interface. Choose a theme from 3,000+ images, customize settings, and download a professionally formatted PDF in under 3 minutes. No graphic design experience or special software required."
+      },
+      {
+        question: "What file format do I get?",
+        answer: "All printables export as high-resolution 300 DPI PDF files, perfect for both digital downloads and physical printing. The files are optimized for US Letter and A4 paper sizes. Answer keys are included automatically for applicable generators."
       },
       {
         question: "How many languages are supported?",
-        answer: "LessonCraftStudio supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. All generators produce worksheets with properly localized instructions, labels, and content."
-      },
-      {
-        question: "Do I need design skills to create worksheets?",
-        answer: "Not at all! Every generator uses a simple point-and-click interface. Choose a theme, pick your settings, and download a beautifully formatted PDF in under 3 minutes. No graphic design experience, special software, or technical knowledge required."
-      },
-      {
-        question: "Can I print the worksheets at home?",
-        answer: "Absolutely. Every worksheet downloads as a high-resolution 300 DPI PDF that prints perfectly on any standard home or office printer. The files are optimized for both US Letter and A4 paper sizes."
-      },
-      {
-        question: "Is there an image library included?",
-        answer: "Yes! Full plan subscribers get access to our curated library of over 3,000 hand-picked clipart images across 100+ themes including animals, food, vehicles, nature, sports, and many more. These images are professionally selected to be age-appropriate and visually engaging for young learners."
+        answer: "LessonCraftStudio supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. This means you can create and sell printables in multiple languages, reaching a much larger market."
       }
     ]
   },
   de: {
-    sectionTitle: "H\u00e4ufig gestellte Fragen",
+    sectionTitle: "Häufig gestellte Fragen",
     items: [
       {
-        question: "Sind die Arbeitsblatt-Generatoren wirklich kostenlos?",
-        answer: "Unser Wortsuch-Generator ist v\u00f6llig kostenlos und erfordert kein Konto. F\u00fcr den Zugang zu 10 unserer beliebtesten Generatoren kostet der Core-Plan 15$/Monat. Der Full-Plan f\u00fcr 25$/Monat schaltet alle 33 professionellen Arbeitsblatt-Generatoren, die komplette Bildbibliothek und kommerzielle Lizenzrechte frei."
+        question: "Kann ich wirklich alle 33 Generatoren kostenlos testen?",
+        answer: "Ja! Jeder Generator ist kostenlos mit einem Wasserzeichen auf der Ausgabe nutzbar. Erstellen Sie beliebig viele Druckvorlagen, testen Sie jeden Generator und sehen Sie die volle Qualität vor dem Kauf. Kein Konto oder Kreditkarte erforderlich."
       },
       {
-        question: "Welche Arten von Arbeitsbl\u00e4ttern kann ich erstellen?",
-        answer: "LessonCraftStudio bietet 33 Arbeitsblatt-Generatoren: Addition, Buchstabenzug, Gro\u00df & Klein, Bingo, Z\u00e4hltabelle, Code-Addition, Ausmalbilder, Kreuzwortr\u00e4tsel, Kryptogramm, Malen & Ausmalen, Linien ziehen, Finden & Z\u00e4hlen, Objekte finden, Gitterabgleich, Zuordnung, Mathe-Puzzle, Mathe-Arbeitsblatt, Fehlende Teile, Mehr & Weniger, Einer passt nicht, Musterzug, Muster-Arbeitsblatt, Bilderpfad, Bildersortierung, Pr\u00e4positionen, Schattenabgleich, Subtraktion, Sudoku, Schatzsuche, Wort erraten, Buchstabensalat, Wortsuche und Schreiben."
+        question: "Welche Arten von Druckvorlagen kann ich erstellen?",
+        answer: "LessonCraftStudio bietet 33 Generatoren in 5 Kategorien: Mathematik (Addition, Subtraktion, Puzzles), Sprache (Wortsuche, Kreuzworträtsel, Kryptogramm), Visuelles Lernen (Zuordnung, Objekte finden, Schattenspiel), Kreativ (Ausmalen, Zeichnen, Bingo) und Logik & Rätsel (Sudoku, Muster, Fehlersuche). Alle erzeugen professionelle 300 DPI PDFs."
       },
       {
-        question: "Kann ich die Arbeitsbl\u00e4tter kommerziell nutzen?",
-        answer: "Ja! Sowohl der Core- als auch der Full-Plan beinhalten eine kommerzielle Lizenz. Sie k\u00f6nnen Ihre erstellten Arbeitsbl\u00e4tter auf Plattformen wie Teachers Pay Teachers, Etsy verkaufen oder in Ihrem Nachhilfeunterricht, Ihren Unterrichtsmaterialien oder Bildungspublikationen verwenden."
+        question: "Kann ich die erstellten Druckvorlagen verkaufen?",
+        answer: "Absolut! Jede erstellte Druckvorlage kommt mit einer vollständigen kommerziellen Lizenz. Verkaufen Sie auf Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Keine Quellenangabe nötig und keine Lizenzgebühren."
       },
       {
-        question: "F\u00fcr welche Klassenstufen sind die Arbeitsbl\u00e4tter geeignet?",
-        answer: "Unsere Arbeitsbl\u00e4tter sind f\u00fcr Vorschule bis zur 3. Klasse konzipiert und decken das Alter von 3 bis 9 Jahren ab. Jeder Generator enth\u00e4lt Schwierigkeitseinstellungen, damit Sie den Inhalt genau an das Niveau Ihrer Sch\u00fcler anpassen k\u00f6nnen."
+        question: "Wie funktioniert das Wasserzeichen?",
+        answer: "Die kostenlose Version fügt exportierten PDFs ein kleines Wasserzeichen hinzu. So können Sie jeden Generator vollständig testen und die exakte Ausgabequalität sehen. Beim Kauf einer Lizenz wird das Wasserzeichen entfernt und Sie erhalten saubere, professionelle PDFs."
       },
       {
-        question: "Wie viele Sprachen werden unterst\u00fctzt?",
-        answer: "LessonCraftStudio unterst\u00fctzt 11 Sprachen: Englisch, Deutsch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch. Alle Generatoren erstellen Arbeitsbl\u00e4tter mit korrekt lokalisierten Anweisungen, Beschriftungen und Inhalten."
+        question: "Auf welchen Plattformen kann ich verkaufen?",
+        answer: "Sie können Ihre Druckvorlagen überall verkaufen: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, Ihr eigener Shopify-Store, WooCommerce-Seite oder jeder andere Marktplatz. Die kommerzielle Lizenz deckt alle Plattformen ohne Einschränkungen ab."
       },
       {
-        question: "Brauche ich Designkenntnisse, um Arbeitsbl\u00e4tter zu erstellen?",
-        answer: "\u00dcberhaupt nicht! Jeder Generator verwendet eine einfache Point-and-Click-Oberfl\u00e4che. W\u00e4hlen Sie ein Thema, passen Sie die Einstellungen an und laden Sie in unter 3 Minuten ein sch\u00f6n formatiertes PDF herunter. Keine Grafikdesign-Erfahrung, spezielle Software oder technisches Wissen erforderlich."
+        question: "Brauche ich Designkenntnisse?",
+        answer: "Überhaupt nicht! Jeder Generator verwendet eine einfache Point-and-Click-Oberfläche. Wählen Sie ein Thema aus über 3.000 Bildern, passen Sie die Einstellungen an und laden Sie in unter 3 Minuten ein professionell formatiertes PDF herunter."
       },
       {
-        question: "Kann ich die Arbeitsbl\u00e4tter zu Hause ausdrucken?",
-        answer: "Auf jeden Fall. Jedes Arbeitsblatt wird als hochaufl\u00f6sendes 300-DPI-PDF heruntergeladen, das auf jedem Standard-Heim- oder B\u00fcrodrucker perfekt gedruckt wird. Die Dateien sind sowohl f\u00fcr US Letter als auch f\u00fcr A4-Papierformate optimiert."
+        question: "Welches Dateiformat erhalte ich?",
+        answer: "Alle Druckvorlagen werden als hochauflösende 300 DPI PDF-Dateien exportiert, perfekt für digitale Downloads und physischen Druck. Die Dateien sind für US Letter und A4 optimiert. Lösungsblätter werden automatisch beigefügt."
       },
       {
-        question: "Ist eine Bildbibliothek enthalten?",
-        answer: "Ja! Abonnenten des Full-Plans erhalten Zugang zu unserer kuratierten Bibliothek mit \u00fcber 3.000 handverlesenen Clipart-Bildern in \u00fcber 100 Themen, darunter Tiere, Essen, Fahrzeuge, Natur, Sport und vieles mehr. Diese Bilder sind professionell ausgew\u00e4hlt, altersgerecht und visuell ansprechend f\u00fcr junge Lernende."
+        question: "Wie viele Sprachen werden unterstützt?",
+        answer: "LessonCraftStudio unterstützt 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. So können Sie Druckvorlagen in mehreren Sprachen erstellen und verkaufen und einen viel größeren Markt erreichen."
       }
     ]
   },
   fr: {
-    sectionTitle: "Questions Fr\u00e9quemment Pos\u00e9es",
+    sectionTitle: "Questions Fréquentes",
     items: [
       {
-        question: "Les g\u00e9n\u00e9rateurs de fiches sont-ils vraiment gratuits\u00a0?",
-        answer: "Notre g\u00e9n\u00e9rateur de mots m\u00eal\u00e9s est enti\u00e8rement gratuit sans inscription requise. Pour acc\u00e9der \u00e0 10 de nos g\u00e9n\u00e9rateurs les plus populaires, le plan Core co\u00fbte 15$/mois. Le plan Full \u00e0 25$/mois d\u00e9bloque les 33 g\u00e9n\u00e9rateurs professionnels, la biblioth\u00e8que d\u2019images compl\u00e8te et les droits de licence commerciale."
+        question: "Puis-je vraiment essayer les 33 générateurs gratuitement ?",
+        answer: "Oui ! Chaque générateur est gratuit avec un filigrane sur le résultat. Créez autant d’imprimables que vous voulez, testez chaque générateur et voyez la qualité complète avant d’acheter. Aucun compte ni carte bancaire requis."
       },
       {
-        question: "Quels types de fiches puis-je cr\u00e9er\u00a0?",
-        answer: "LessonCraftStudio propose 33 g\u00e9n\u00e9rateurs de fiches\u00a0: Addition, Train alphabet, Grand & Petit, Bingo, Tableau de comptage, Addition cod\u00e9e, Coloriage, Mots crois\u00e9s, Cryptogramme, Dessiner & Colorier, Tracer des lignes, Trouver & Compter, Trouver les objets, Grille d\u2019association, Association, Puzzle math, Fiche de maths, Pi\u00e8ces manquantes, Plus & Moins, L\u2019intrus, Train de motifs, Fiche de motifs, Chemin d\u2019images, Tri d\u2019images, Pr\u00e9positions, Jeu d\u2019ombres, Soustraction, Sudoku, Chasse au tr\u00e9sor, Deviner le mot, Anagramme, Mots m\u00eal\u00e9s et \u00c9criture."
+        question: "Quels types d’imprimables puis-je créer ?",
+        answer: "LessonCraftStudio propose 33 générateurs en 5 catégories : Mathématiques (addition, soustraction, puzzles), Langue (mots mêlés, mots croisés, cryptogramme), Apprentissage visuel (association, cherche et trouve, jeu d’ombres), Créatif (coloriage, dessin, bingo) et Logique (sudoku, motifs, l’intrus). Tous produisent des PDF professionnels à 300 DPI."
       },
       {
-        question: "Puis-je utiliser ces fiches \u00e0 des fins commerciales\u00a0?",
-        answer: "Oui\u00a0! Les plans Core et Full incluent une licence commerciale. Vous pouvez vendre vos fiches cr\u00e9\u00e9es sur des plateformes comme Teachers Pay Teachers, Etsy, ou les utiliser dans votre activit\u00e9 de tutorat, vos mat\u00e9riaux p\u00e9dagogiques ou vos publications \u00e9ducatives."
+        question: "Puis-je vendre les imprimables que je crée ?",
+        answer: "Absolument ! Chaque imprimable créé inclut une licence commerciale complète. Vendez sur Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, votre propre site ou toute autre plateforme. Aucune attribution requise et aucune redevance."
       },
       {
-        question: "Pour quels niveaux scolaires les fiches sont-elles con\u00e7ues\u00a0?",
-        answer: "Nos fiches sont con\u00e7ues pour la maternelle jusqu\u2019au CE2, couvrant les \u00e2ges de 3 \u00e0 9 ans. Chaque g\u00e9n\u00e9rateur inclut des param\u00e8tres de difficult\u00e9 pour adapter le contenu au niveau exact de vos \u00e9l\u00e8ves."
+        question: "Comment fonctionne le filigrane ?",
+        answer: "La version gratuite ajoute un petit filigrane aux PDF exportés. Cela vous permet de tester chaque générateur et de voir la qualité exacte. En achetant une licence, le filigrane est retiré et vous obtenez des PDF propres et professionnels."
       },
       {
-        question: "Combien de langues sont prises en charge\u00a0?",
-        answer: "LessonCraftStudio prend en charge 11 langues\u00a0: anglais, allemand, fran\u00e7ais, espagnol, portugais, italien, n\u00e9erlandais, su\u00e9dois, danois, norv\u00e9gien et finnois. Tous les g\u00e9n\u00e9rateurs produisent des fiches avec des instructions, des \u00e9tiquettes et du contenu correctement localis\u00e9s."
+        question: "Sur quelles plateformes puis-je vendre ?",
+        answer: "Vous pouvez vendre vos imprimables partout : Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, votre propre boutique Shopify, site WooCommerce ou tout autre marché. La licence commerciale couvre toutes les plateformes sans restriction."
       },
       {
-        question: "Ai-je besoin de comp\u00e9tences en design pour cr\u00e9er des fiches\u00a0?",
-        answer: "Pas du tout\u00a0! Chaque g\u00e9n\u00e9rateur utilise une interface simple pointer-cliquer. Choisissez un th\u00e8me, s\u00e9lectionnez vos param\u00e8tres et t\u00e9l\u00e9chargez un PDF parfaitement mis en page en moins de 3 minutes. Aucune exp\u00e9rience en design graphique, logiciel sp\u00e9cial ou connaissance technique n\u00e9cessaire."
+        question: "Ai-je besoin de compétences en design ?",
+        answer: "Pas du tout ! Chaque générateur utilise une interface simple. Choisissez un thème parmi plus de 3 000 images, personnalisez les paramètres et téléchargez un PDF professionnel en moins de 3 minutes."
       },
       {
-        question: "Puis-je imprimer les fiches \u00e0 la maison\u00a0?",
-        answer: "Absolument. Chaque fiche se t\u00e9l\u00e9charge en PDF haute r\u00e9solution 300 DPI qui s\u2019imprime parfaitement sur n\u2019importe quelle imprimante domestique ou de bureau standard. Les fichiers sont optimis\u00e9s pour les formats papier US Letter et A4."
+        question: "Quel format de fichier est fourni ?",
+        answer: "Tous les imprimables sont exportés en PDF haute résolution à 300 DPI, parfaits pour les téléchargements numériques et l’impression physique. Les fichiers sont optimisés pour les formats US Letter et A4. Les corrigés sont inclus automatiquement."
       },
       {
-        question: "Y a-t-il une biblioth\u00e8que d\u2019images incluse\u00a0?",
-        answer: "Oui\u00a0! Les abonn\u00e9s au plan Full ont acc\u00e8s \u00e0 notre biblioth\u00e8que de plus de 3\u00a0000 images clipart soigneusement s\u00e9lectionn\u00e9es dans plus de 100 th\u00e8mes, dont les animaux, la nourriture, les v\u00e9hicules, la nature, le sport et bien d\u2019autres. Ces images sont professionnellement choisies pour \u00eatre adapt\u00e9es \u00e0 l\u2019\u00e2ge et visuellement attrayantes pour les jeunes apprenants."
+        question: "Combien de langues sont supportées ?",
+        answer: "LessonCraftStudio prend en charge 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Vous pouvez ainsi créer et vendre des imprimables dans plusieurs langues et atteindre un marché bien plus large."
       }
     ]
   },
@@ -124,36 +124,36 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Preguntas Frecuentes",
     items: [
       {
-        question: "\u00bfLos generadores de fichas son realmente gratuitos?",
-        answer: "Nuestro generador de sopa de letras es completamente gratuito sin necesidad de cuenta. Para acceder a 10 de nuestros generadores m\u00e1s populares, el plan Core cuesta $15/mes. El plan Full a $25/mes desbloquea los 33 generadores profesionales, la biblioteca completa de im\u00e1genes y los derechos de licencia comercial."
+        question: "¿Puedo probar los 33 generadores gratis?",
+        answer: "¡Sí! Cada generador es gratuito con una marca de agua en el resultado. Crea todos los imprimibles que quieras, prueba cada generador y comprueba la calidad completa antes de comprar. Sin cuenta ni tarjeta de crédito."
       },
       {
-        question: "\u00bfQu\u00e9 tipos de fichas puedo crear?",
-        answer: "LessonCraftStudio ofrece 33 generadores de fichas: Suma, Tren del alfabeto, Grande y Peque\u00f1o, Bingo, Tabla de conteo, Suma codificada, Colorear, Crucigrama, Criptograma, Dibujar y Colorear, Trazar l\u00edneas, Encontrar y Contar, Encontrar objetos, Cuadr\u00edcula de emparejamiento, Emparejamiento, Puzzle matem\u00e1tico, Ficha de matem\u00e1ticas, Piezas faltantes, M\u00e1s y Menos, El intruso, Tren de patrones, Ficha de patrones, Camino de im\u00e1genes, Clasificar im\u00e1genes, Preposiciones, Emparejar sombras, Resta, Sudoku, B\u00fasqueda del tesoro, Adivinar la palabra, Anagrama, Sopa de letras y Escritura."
+        question: "¿Qué tipos de imprimibles puedo crear?",
+        answer: "LessonCraftStudio ofrece 33 generadores en 5 categorías: Matemáticas (sumas, restas, puzzles), Lenguaje (sopa de letras, crucigrama, criptograma), Aprendizaje visual (emparejar, buscar objetos, sombras), Creativo (colorear, dibujar, bingo) y Lógica (sudoku, patrones, el intruso). Todos producen PDFs profesionales a 300 DPI."
       },
       {
-        question: "\u00bfPuedo usar estas fichas comercialmente?",
-        answer: "\u00a1S\u00ed! Tanto el plan Core como el Full incluyen licencia comercial. Puedes vender tus fichas creadas en plataformas como Teachers Pay Teachers, Etsy, o usarlas en tu negocio de tutor\u00eda, materiales de clase o publicaciones educativas."
+        question: "¿Puedo vender los imprimibles que creo?",
+        answer: "¡Por supuesto! Cada imprimible creado incluye licencia comercial completa. Vende en Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, tu propio sitio web o cualquier otra plataforma. Sin atribución requerida y sin regalías."
       },
       {
-        question: "\u00bfPara qu\u00e9 niveles escolares est\u00e1n dise\u00f1adas las fichas?",
-        answer: "Nuestras fichas est\u00e1n dise\u00f1adas para preescolar hasta 3er grado, cubriendo edades de 3 a 9 a\u00f1os. Cada generador incluye ajustes de dificultad para que puedas adaptar el contenido al nivel exacto de tus estudiantes."
+        question: "¿Cómo funciona la marca de agua?",
+        answer: "La versión gratuita añade una pequeña marca de agua a los PDFs exportados. Esto te permite probar cada generador y ver la calidad exacta. Al comprar una licencia, la marca de agua se elimina y obtienes PDFs limpios y profesionales."
       },
       {
-        question: "\u00bfCu\u00e1ntos idiomas son compatibles?",
-        answer: "LessonCraftStudio es compatible con 11 idiomas: ingl\u00e9s, alem\u00e1n, franc\u00e9s, espa\u00f1ol, portugu\u00e9s, italiano, neerland\u00e9s, sueco, dan\u00e9s, noruego y finland\u00e9s. Todos los generadores producen fichas con instrucciones, etiquetas y contenido correctamente localizados."
+        question: "¿En qué plataformas puedo vender?",
+        answer: "Puedes vender tus imprimibles en cualquier lugar: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, tu propia tienda Shopify, sitio WooCommerce o cualquier otro marketplace. La licencia comercial cubre todas las plataformas sin restricciones."
       },
       {
-        question: "\u00bfNecesito habilidades de dise\u00f1o para crear fichas?",
-        answer: "\u00a1Para nada! Cada generador utiliza una interfaz sencilla de apuntar y hacer clic. Elige un tema, selecciona tus ajustes y descarga un PDF perfectamente formateado en menos de 3 minutos. No se requiere experiencia en dise\u00f1o gr\u00e1fico, software especial ni conocimientos t\u00e9cnicos."
+        question: "¿Necesito habilidades de diseño?",
+        answer: "¡Para nada! Cada generador usa una interfaz sencilla. Elige un tema de más de 3.000 imágenes, personaliza las opciones y descarga un PDF profesional en menos de 3 minutos."
       },
       {
-        question: "\u00bfPuedo imprimir las fichas en casa?",
-        answer: "Por supuesto. Cada ficha se descarga como un PDF de alta resoluci\u00f3n a 300 DPI que se imprime perfectamente en cualquier impresora dom\u00e9stica o de oficina est\u00e1ndar. Los archivos est\u00e1n optimizados para tama\u00f1os de papel US Letter y A4."
+        question: "¿Qué formato de archivo recibo?",
+        answer: "Todos los imprimibles se exportan como PDFs de alta resolución a 300 DPI, perfectos para descargas digitales e impresión física. Los archivos están optimizados para US Letter y A4. Las respuestas se incluyen automáticamente."
       },
       {
-        question: "\u00bfHay una biblioteca de im\u00e1genes incluida?",
-        answer: "\u00a1S\u00ed! Los suscriptores del plan Full tienen acceso a nuestra biblioteca curada de m\u00e1s de 3.000 im\u00e1genes clipart seleccionadas a mano en m\u00e1s de 100 temas, incluyendo animales, comida, veh\u00edculos, naturaleza, deportes y muchos m\u00e1s. Estas im\u00e1genes est\u00e1n profesionalmente seleccionadas para ser apropiadas para la edad y visualmente atractivas para los j\u00f3venes estudiantes."
+        question: "¿Cuántos idiomas hay disponibles?",
+        answer: "LessonCraftStudio soporta 11 idiomas: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finlandés. Esto significa que puedes crear y vender imprimibles en múltiples idiomas, alcanzando un mercado mucho mayor."
       }
     ]
   },
@@ -161,36 +161,36 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Perguntas Frequentes",
     items: [
       {
-        question: "Os geradores de fichas s\u00e3o realmente gratuitos?",
-        answer: "O nosso gerador de ca\u00e7a-palavras \u00e9 completamente gratuito sem necessidade de conta. Para aceder a 10 dos nossos geradores mais populares, o plano Core custa $15/m\u00eas. O plano Full a $25/m\u00eas desbloqueia todos os 33 geradores profissionais, a biblioteca completa de imagens e os direitos de licen\u00e7a comercial."
+        question: "Posso realmente experimentar os 33 geradores de graça?",
+        answer: "Sim! Cada gerador é gratuito com uma marca d’água no resultado. Crie quantos imprimíveis quiser, teste cada gerador e veja a qualidade completa antes de comprar. Sem conta ou cartão de crédito."
       },
       {
-        question: "Que tipos de fichas posso criar?",
-        answer: "O LessonCraftStudio oferece 33 geradores de fichas: Adi\u00e7\u00e3o, Comboio do Alfabeto, Grande e Pequeno, Bingo, Tabela de Contagem, Adi\u00e7\u00e3o Codificada, Colorir, Palavras Cruzadas, Criptograma, Desenhar e Colorir, Tra\u00e7ar Linhas, Encontrar e Contar, Encontrar Objetos, Grelha de Correspond\u00eancia, Correspond\u00eancia, Puzzle Matem\u00e1tico, Ficha de Matem\u00e1tica, Pe\u00e7as em Falta, Mais e Menos, O Intruso, Comboio de Padr\u00f5es, Ficha de Padr\u00f5es, Caminho de Imagens, Classificar Imagens, Preposi\u00e7\u00f5es, Correspond\u00eancia de Sombras, Subtra\u00e7\u00e3o, Sudoku, Ca\u00e7a ao Tesouro, Adivinhar a Palavra, Anagrama, Ca\u00e7a-Palavras e Escrita."
+        question: "Que tipos de imprimíveis posso criar?",
+        answer: "O LessonCraftStudio oferece 33 geradores em 5 categorias: Matemática (adição, subtração, puzzles), Linguagem (caça-palavras, palavras cruzadas, criptograma), Aprendizado visual (correspondência, encontrar objetos, sombras), Criativo (colorir, desenhar, bingo) e Lógica (sudoku, padrões, o intruso). Todos produzem PDFs profissionais a 300 DPI."
       },
       {
-        question: "Posso usar estas fichas comercialmente?",
-        answer: "Sim! Tanto o plano Core como o Full incluem licen\u00e7a comercial. Pode vender as suas fichas criadas em plataformas como Teachers Pay Teachers, Etsy, ou us\u00e1-las no seu neg\u00f3cio de explica\u00e7\u00f5es, materiais de aula ou publica\u00e7\u00f5es educativas."
+        question: "Posso vender os imprimíveis que crio?",
+        answer: "Com certeza! Cada imprimível criado inclui licença comercial completa. Venda no Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, seu próprio site ou qualquer outra plataforma. Sem atribuição necessária e sem royalties."
       },
       {
-        question: "Para que n\u00edveis escolares s\u00e3o as fichas concebidas?",
-        answer: "As nossas fichas s\u00e3o concebidas para o pr\u00e9-escolar at\u00e9 ao 3\u00ba ano, abrangendo idades dos 3 aos 9 anos. Cada gerador inclui defini\u00e7\u00f5es de dificuldade para que possa adaptar o conte\u00fado ao n\u00edvel exato dos seus alunos."
+        question: "Como funciona a marca d’água?",
+        answer: "A versão gratuita adiciona uma pequena marca d’água aos PDFs exportados. Isso permite testar cada gerador e ver a qualidade exata. Ao comprar uma licença, a marca d’água é removida e você obtém PDFs limpos e profissionais."
       },
       {
-        question: "Quantos idiomas s\u00e3o suportados?",
-        answer: "O LessonCraftStudio suporta 11 idiomas: ingl\u00eas, alem\u00e3o, franc\u00eas, espanhol, portugu\u00eas, italiano, neerland\u00eas, sueco, dinamarqu\u00eas, noruegu\u00eas e finland\u00eas. Todos os geradores produzem fichas com instru\u00e7\u00f5es, r\u00f3tulos e conte\u00fado corretamente localizados."
+        question: "Em quais plataformas posso vender?",
+        answer: "Você pode vender seus imprimíveis em qualquer lugar: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, sua própria loja Shopify, site WooCommerce ou qualquer outro marketplace. A licença comercial cobre todas as plataformas sem restrições."
       },
       {
-        question: "Preciso de compet\u00eancias de design para criar fichas?",
-        answer: "De modo algum! Cada gerador utiliza uma interface simples de apontar e clicar. Escolha um tema, selecione as suas defini\u00e7\u00f5es e descarregue um PDF perfeitamente formatado em menos de 3 minutos. N\u00e3o \u00e9 necess\u00e1ria experi\u00eancia em design gr\u00e1fico, software especial ou conhecimentos t\u00e9cnicos."
+        question: "Preciso de habilidades de design?",
+        answer: "De modo algum! Cada gerador usa uma interface simples. Escolha um tema de mais de 3.000 imagens, personalize as opções e baixe um PDF profissional em menos de 3 minutos."
       },
       {
-        question: "Posso imprimir as fichas em casa?",
-        answer: "Com certeza. Cada ficha \u00e9 descarregada como um PDF de alta resolu\u00e7\u00e3o a 300 DPI que imprime perfeitamente em qualquer impressora dom\u00e9stica ou de escrit\u00f3rio padr\u00e3o. Os ficheiros est\u00e3o otimizados para os formatos de papel US Letter e A4."
+        question: "Qual formato de arquivo recebo?",
+        answer: "Todos os imprimíveis são exportados como PDFs de alta resolução a 300 DPI, perfeitos para downloads digitais e impressão física. Os arquivos são otimizados para US Letter e A4. Gabaritos são incluídos automaticamente."
       },
       {
-        question: "Existe uma biblioteca de imagens inclu\u00edda?",
-        answer: "Sim! Os assinantes do plano Full t\u00eam acesso \u00e0 nossa biblioteca curada de mais de 3.000 imagens clipart selecionadas \u00e0 m\u00e3o em mais de 100 temas, incluindo animais, comida, ve\u00edculos, natureza, desporto e muitos mais. Estas imagens s\u00e3o profissionalmente selecionadas para serem adequadas \u00e0 idade e visualmente atrativas para jovens aprendizes."
+        question: "Quantos idiomas são suportados?",
+        answer: "O LessonCraftStudio suporta 11 idiomas: inglês, alemão, francês, espanhol, português, italiano, neerlandês, sueco, dinamarquês, norueguês e finlandês. Isso significa que você pode criar e vender imprimíveis em vários idiomas, alcançando um mercado muito maior."
       }
     ]
   },
@@ -198,36 +198,36 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Domande Frequenti",
     items: [
       {
-        question: "I generatori di schede sono davvero gratuiti?",
-        answer: "Il nostro generatore di crucipuzzle \u00e8 completamente gratuito senza bisogno di account. Per accedere a 10 dei nostri generatori pi\u00f9 popolari, il piano Core costa $15/mese. Il piano Full a $25/mese sblocca tutti i 33 generatori professionali, la libreria completa di immagini e i diritti di licenza commerciale."
+        question: "Posso davvero provare tutti i 33 generatori gratis?",
+        answer: "Sì! Ogni generatore è gratuito con una filigrana sul risultato. Crea quanti stampabili vuoi, prova ogni generatore e verifica la qualità completa prima di acquistare. Nessun account o carta di credito richiesti."
       },
       {
-        question: "Quali tipi di schede posso creare?",
-        answer: "LessonCraftStudio offre 33 generatori di schede: Addizione, Treno dell\u2019Alfabeto, Grande e Piccolo, Bingo, Tabella di Conteggio, Addizione in Codice, Colorare, Cruciverba, Crittogramma, Disegnare e Colorare, Tracciare Linee, Trovare e Contare, Trovare Oggetti, Griglia di Abbinamento, Abbinamento, Puzzle Matematico, Scheda di Matematica, Pezzi Mancanti, Pi\u00f9 e Meno, L\u2019Intruso, Treno di Sequenze, Scheda di Sequenze, Percorso di Immagini, Classificare Immagini, Preposizioni, Abbinare le Ombre, Sottrazione, Sudoku, Caccia al Tesoro, Indovina la Parola, Anagramma, Crucipuzzle e Scrittura."
+        question: "Quali tipi di stampabili posso creare?",
+        answer: "LessonCraftStudio offre 33 generatori in 5 categorie: Matematica (addizione, sottrazione, puzzle), Linguaggio (cerca parole, cruciverba, crittogramma), Apprendimento visivo (abbinamenti, trova oggetti, ombre), Creativo (colorare, disegnare, bingo) e Logica (sudoku, sequenze, l’intruso). Tutti producono PDF professionali a 300 DPI."
       },
       {
-        question: "Posso usare queste schede a scopo commerciale?",
-        answer: "S\u00ec! Sia il piano Core che il Full includono la licenza commerciale. Puoi vendere le schede create su piattaforme come Teachers Pay Teachers, Etsy, o usarle nella tua attivit\u00e0 di tutoraggio, nei materiali didattici o nelle pubblicazioni educative."
+        question: "Posso vendere gli stampabili che creo?",
+        answer: "Assolutamente! Ogni stampabile creato include una licenza commerciale completa. Vendi su Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, il tuo sito web o qualsiasi altra piattaforma. Nessuna attribuzione richiesta e nessuna royalty."
       },
       {
-        question: "Per quali livelli scolastici sono progettate le schede?",
-        answer: "Le nostre schede sono progettate per la scuola dell\u2019infanzia fino alla terza elementare, coprendo le et\u00e0 dai 3 ai 9 anni. Ogni generatore include impostazioni di difficolt\u00e0 per adattare il contenuto al livello esatto dei tuoi studenti."
+        question: "Come funziona la filigrana?",
+        answer: "La versione gratuita aggiunge una piccola filigrana ai PDF esportati. Questo ti permette di testare ogni generatore e vedere la qualità esatta. Acquistando una licenza, la filigrana viene rimossa e ottieni PDF puliti e professionali."
+      },
+      {
+        question: "Su quali piattaforme posso vendere?",
+        answer: "Puoi vendere i tuoi stampabili ovunque: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, il tuo negozio Shopify, sito WooCommerce o qualsiasi altro marketplace. La licenza commerciale copre tutte le piattaforme senza restrizioni."
+      },
+      {
+        question: "Servono competenze di design?",
+        answer: "Assolutamente no! Ogni generatore usa un’interfaccia semplice. Scegli un tema da oltre 3.000 immagini, personalizza le impostazioni e scarica un PDF professionale in meno di 3 minuti."
+      },
+      {
+        question: "Quale formato di file ottengo?",
+        answer: "Tutti gli stampabili vengono esportati come PDF ad alta risoluzione a 300 DPI, perfetti per download digitali e stampa fisica. I file sono ottimizzati per US Letter e A4. Le soluzioni sono incluse automaticamente."
       },
       {
         question: "Quante lingue sono supportate?",
-        answer: "LessonCraftStudio supporta 11 lingue: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Tutti i generatori producono schede con istruzioni, etichette e contenuti correttamente localizzati."
-      },
-      {
-        question: "Servono competenze di design per creare le schede?",
-        answer: "Assolutamente no! Ogni generatore utilizza un\u2019interfaccia semplice punta e clicca. Scegli un tema, seleziona le impostazioni e scarica un PDF perfettamente formattato in meno di 3 minuti. Non servono esperienza in grafica, software speciali o conoscenze tecniche."
-      },
-      {
-        question: "Posso stampare le schede a casa?",
-        answer: "Certamente. Ogni scheda viene scaricata come PDF ad alta risoluzione a 300 DPI che si stampa perfettamente su qualsiasi stampante domestica o da ufficio standard. I file sono ottimizzati per i formati carta US Letter e A4."
-      },
-      {
-        question: "\u00c8 inclusa una libreria di immagini?",
-        answer: "S\u00ec! Gli abbonati al piano Full hanno accesso alla nostra libreria curata di oltre 3.000 immagini clipart selezionate a mano in pi\u00f9 di 100 temi, tra cui animali, cibo, veicoli, natura, sport e molti altri. Queste immagini sono professionalmente selezionate per essere adatte all\u2019et\u00e0 e visivamente coinvolgenti per i giovani studenti."
+        answer: "LessonCraftStudio supporta 11 lingue: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Questo significa che puoi creare e vendere stampabili in più lingue, raggiungendo un mercato molto più ampio."
       }
     ]
   },
@@ -235,147 +235,147 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Veelgestelde Vragen",
     items: [
       {
-        question: "Zijn de werkbladgeneratoren echt gratis?",
-        answer: "Onze woordzoeker-generator is volledig gratis zonder account. Voor toegang tot 10 van onze populairste generatoren kost het Core-plan $15/maand. Het Full-plan voor $25/maand ontgrendelt alle 33 professionele werkbladgeneratoren, de complete afbeeldingenbibliotheek en commerci\u00eble licentierechten."
+        question: "Kan ik echt alle 33 generatoren gratis proberen?",
+        answer: "Ja! Elke generator is gratis te gebruiken met een watermerk op de output. Maak zoveel printables als je wilt, test elke generator en bekijk de volledige kwaliteit voor je koopt. Geen account of creditcard nodig."
       },
       {
-        question: "Welke soorten werkbladen kan ik maken?",
-        answer: "LessonCraftStudio biedt 33 werkbladgeneratoren: Optellen, Alfabettrein, Groot & Klein, Bingo, Teltabel, Code-optelling, Kleuren, Kruiswoordpuzzel, Cryptogram, Tekenen & Kleuren, Lijnen trekken, Zoeken & Tellen, Objecten vinden, Rastermatching, Koppelen, Rekenpuzzel, Rekenwerkblad, Ontbrekende stukken, Meer & Minder, De vreemde eend, Patroontrein, Patroonwerkblad, Afbeeldingspad, Afbeeldingen sorteren, Voorzetsels, Schaduwmatching, Aftrekken, Sudoku, Speurtocht, Woord raden, Woordmix, Woordzoeker en Schrijven."
+        question: "Welke soorten printables kan ik maken?",
+        answer: "LessonCraftStudio biedt 33 generatoren in 5 categorieën: Rekenen (optellen, aftrekken, puzzels), Taal (woordzoeker, kruiswoordpuzzel, cryptogram), Visueel leren (koppelen, zoek objecten, schaduwspel), Creatief (kleuren, tekenen, bingo) en Logica (sudoku, patronen, de vreemde eend). Alle produceren professionele 300 DPI PDFs."
       },
       {
-        question: "Kan ik deze werkbladen commercieel gebruiken?",
-        answer: "Ja! Zowel het Core- als het Full-plan bevat een commerci\u00eble licentie. Je kunt je gemaakte werkbladen verkopen op platforms zoals Teachers Pay Teachers, Etsy, of ze gebruiken in je bijlesbedrijf, lesmateriaal of educatieve publicaties."
+        question: "Kan ik de printables die ik maak verkopen?",
+        answer: "Absoluut! Elke gemaakte printable bevat een volledige commerciële licentie. Verkoop op Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, je eigen website of elk ander platform. Geen bronvermelding vereist en geen royalty's."
       },
       {
-        question: "Voor welke leeftijdsgroepen zijn de werkbladen ontworpen?",
-        answer: "Onze werkbladen zijn ontworpen voor kleuters tot groep 5, voor leeftijden van 3 tot 9 jaar. Elke generator bevat moeilijkheidsinstellingen zodat je de inhoud kunt afstemmen op het exacte niveau van je leerlingen."
+        question: "Hoe werkt het watermerk?",
+        answer: "De gratis versie voegt een klein watermerk toe aan geëxporteerde PDFs. Dit laat je elke generator volledig testen en de exacte kwaliteit zien. Bij aankoop van een licentie wordt het watermerk verwijderd en krijg je schone, professionele PDFs."
+      },
+      {
+        question: "Op welke platforms kan ik verkopen?",
+        answer: "Je kunt je printables overal verkopen: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, je eigen Shopify-winkel, WooCommerce-site of elk ander platform. De commerciële licentie dekt alle platforms zonder beperkingen."
+      },
+      {
+        question: "Heb ik ontwerpvaardigheden nodig?",
+        answer: "Helemaal niet! Elke generator gebruikt een eenvoudige interface. Kies een thema uit meer dan 3.000 afbeeldingen, pas de instellingen aan en download een professioneel opgemaakt PDF in minder dan 3 minuten."
+      },
+      {
+        question: "Welk bestandsformaat krijg ik?",
+        answer: "Alle printables worden geëxporteerd als hoge-resolutie 300 DPI PDF-bestanden, perfect voor digitale downloads en fysiek afdrukken. De bestanden zijn geoptimaliseerd voor US Letter en A4. Antwoordbladen worden automatisch meegeleverd."
       },
       {
         question: "Hoeveel talen worden ondersteund?",
-        answer: "LessonCraftStudio ondersteunt 11 talen: Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins. Alle generatoren produceren werkbladen met correct gelokaliseerde instructies, labels en inhoud."
-      },
-      {
-        question: "Heb ik designvaardigheden nodig om werkbladen te maken?",
-        answer: "Helemaal niet! Elke generator gebruikt een eenvoudige point-and-click-interface. Kies een thema, selecteer je instellingen en download een prachtig opgemaakt PDF in minder dan 3 minuten. Geen grafische ontwerpervaring, speciale software of technische kennis vereist."
-      },
-      {
-        question: "Kan ik de werkbladen thuis afdrukken?",
-        answer: "Absoluut. Elk werkblad wordt gedownload als een hoge-resolutie 300 DPI PDF die perfect afdrukt op elke standaard thuis- of kantoorprinter. De bestanden zijn geoptimaliseerd voor zowel US Letter als A4-papierformaten."
-      },
-      {
-        question: "Is er een afbeeldingenbibliotheek inbegrepen?",
-        answer: "Ja! Abonnees van het Full-plan krijgen toegang tot onze samengestelde bibliotheek van meer dan 3.000 handgekozen clipart-afbeeldingen in meer dan 100 thema's, waaronder dieren, eten, voertuigen, natuur, sport en nog veel meer. Deze afbeeldingen zijn professioneel geselecteerd om leeftijdsgeschikt en visueel aantrekkelijk te zijn voor jonge leerlingen."
+        answer: "LessonCraftStudio ondersteunt 11 talen: Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins. Dit betekent dat je printables in meerdere talen kunt maken en verkopen, waardoor je een veel grotere markt bereikt."
       }
     ]
   },
   sv: {
-    sectionTitle: "Vanliga Fr\u00e5gor",
+    sectionTitle: "Vanliga Frågor",
     items: [
       {
-        question: "\u00c4r arbetsblads-generatorerna verkligen gratis?",
-        answer: "V\u00e5r ords\u00f6ksgenerator \u00e4r helt gratis utan konto. F\u00f6r tillg\u00e5ng till 10 av v\u00e5ra popul\u00e4raste generatorer kostar Core-planen $15/m\u00e5nad. Full-planen f\u00f6r $25/m\u00e5nad l\u00e5ser upp alla 33 professionella arbetsblads-generatorer, det kompletta bildbiblioteket och kommersiella licensr\u00e4ttigheter."
+        question: "Kan jag verkligen testa alla 33 generatorer gratis?",
+        answer: "Ja! Varje generator är gratis att använda med en vattenstämpel på resultatet. Skapa så många utskrifter du vill, testa varje generator och se den fulla kvaliteten innan du köper. Inget konto eller kreditkort krävs."
       },
       {
-        question: "Vilka typer av arbetsblad kan jag skapa?",
-        answer: "LessonCraftStudio erbjuder 33 arbetsblads-generatorer: Addition, Bokstavst\u00e5g, Stor & Liten, Bingo, R\u00e4knetabell, Kodaddition, F\u00e4rgl\u00e4ggning, Korsord, Kryptogram, Rita & F\u00e4rgl\u00e4gg, Dra linjer, Hitta & R\u00e4kna, Hitta objekt, Rutn\u00e4tsmatchning, Matchning, Mattepussel, Mattearbetsblad, Saknade bitar, Mer & Mindre, Udda bland jamt, M\u00f6nstert\u00e5g, M\u00f6nsterarbetsblad, Bildv\u00e4g, Bildsortering, Prepositioner, Skuggmatchning, Subtraktion, Sudoku, Skattjakt, Gissa ordet, Bokstavsmix, Ords\u00f6k och Skrivning."
+        question: "Vilka typer av utskrifter kan jag skapa?",
+        answer: "LessonCraftStudio erbjuder 33 generatorer i 5 kategorier: Matematik (addition, subtraktion, pussel), Språk (ordsök, korsord, kryptogram), Visuellt lärande (matchning, hitta objekt, skuggmatchning), Kreativt (färgläggning, ritning, bingo) och Logik (sudoku, mönster, udda bland jamt). Alla producerar professionella 300 DPI PDFs."
       },
       {
-        question: "Kan jag anv\u00e4nda dessa arbetsblad kommersiellt?",
-        answer: "Ja! B\u00e5de Core- och Full-planen inkluderar kommersiell licens. Du kan s\u00e4lja dina skapade arbetsblad p\u00e5 plattformar som Teachers Pay Teachers, Etsy, eller anv\u00e4nda dem i din privatundervisning, ditt undervisningsmaterial eller dina utbildningspublikationer."
+        question: "Kan jag sälja utskrifterna jag skapar?",
+        answer: "Absolut! Varje skapad utskrift inkluderar en fullständig kommersiell licens. Sälj på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, din egen webbplats eller någon annan plattform. Ingen källhänvisning krävs och inga royalties."
       },
       {
-        question: "F\u00f6r vilka \u00e5ldersgrupper \u00e4r arbetsbladen designade?",
-        answer: "V\u00e5ra arbetsblad \u00e4r designade f\u00f6r f\u00f6rskola till \u00e5rskurs 3, f\u00f6r \u00e5ldrar 3 till 9 \u00e5r. Varje generator inkluderar sv\u00e5righetsinst\u00e4llningar s\u00e5 att du kan anpassa inneh\u00e5llet till dina elevers exakta niv\u00e5."
+        question: "Hur fungerar vattenstämpeln?",
+        answer: "Gratisversionen lägger till en liten vattenstämpel på exporterade PDFs. Detta låter dig testa varje generator fullt ut och se den exakta kvaliteten. När du köper en licens tas vattenstämpeln bort och du får rena, professionella PDFs."
       },
       {
-        question: "Hur m\u00e5nga spr\u00e5k st\u00f6ds?",
-        answer: "LessonCraftStudio st\u00f6der 11 spr\u00e5k: engelska, tyska, franska, spanska, portugisiska, italienska, nederl\u00e4ndska, svenska, danska, norska och finska. Alla generatorer producerar arbetsblad med korrekt lokaliserade instruktioner, etiketter och inneh\u00e5ll."
+        question: "På vilka plattformar kan jag sälja?",
+        answer: "Du kan sälja dina utskrifter överallt: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, din egen Shopify-butik, WooCommerce-sajt eller någon annan marknadsplats. Den kommersiella licensen täcker alla plattformar utan begränsningar."
       },
       {
-        question: "Beh\u00f6ver jag designkunskaper f\u00f6r att skapa arbetsblad?",
-        answer: "Inte alls! Varje generator anv\u00e4nder ett enkelt peka-och-klicka-gr\u00e4nssnitt. V\u00e4lj ett tema, v\u00e4lj dina inst\u00e4llningar och ladda ner en snyggt formaterad PDF p\u00e5 under 3 minuter. Ingen grafisk designerfarenhet, specialprogramvara eller teknisk kunskap kr\u00e4vs."
+        question: "Behöver jag designkunskaper?",
+        answer: "Inte alls! Varje generator använder ett enkelt gränssnitt. Välj ett tema från över 3 000 bilder, anpassa inställningarna och ladda ner en professionellt formaterad PDF på under 3 minuter."
       },
       {
-        question: "Kan jag skriva ut arbetsbladen hemma?",
-        answer: "Absolut. Varje arbetsblad laddas ner som en h\u00f6guppl\u00f6st 300 DPI PDF som skrivs ut perfekt p\u00e5 alla vanliga hem- eller kontorsskrivare. Filerna \u00e4r optimerade f\u00f6r b\u00e5de US Letter och A4-pappersformat."
+        question: "Vilket filformat får jag?",
+        answer: "Alla utskrifter exporteras som högupplösta 300 DPI PDF-filer, perfekta för både digitala nedladdningar och fysisk utskrift. Filerna är optimerade för US Letter och A4. Facit inkluderas automatiskt."
       },
       {
-        question: "Ing\u00e5r ett bildbibliotek?",
-        answer: "Ja! Full-prenumeranter f\u00e5r tillg\u00e5ng till v\u00e5rt kurerade bibliotek med \u00f6ver 3\u00a0000 handplockade clipart-bilder i \u00f6ver 100 teman, inklusive djur, mat, fordon, natur, sport och m\u00e5nga fler. Dessa bilder \u00e4r professionellt utvalda f\u00f6r att vara \u00e5ldersanpassade och visuellt engagerande f\u00f6r unga elever."
+        question: "Hur många språk stöds?",
+        answer: "LessonCraftStudio stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. Det innebär att du kan skapa och sälja utskrifter på flera språk och nå en mycket större marknad."
       }
     ]
   },
   da: {
-    sectionTitle: "Ofte Stillede Sp\u00f8rgsm\u00e5l",
+    sectionTitle: "Ofte Stillede Spørgsmål",
     items: [
       {
-        question: "Er arbejdsarkgeneratorerne virkelig gratis?",
-        answer: "Vores krydsordsgenereator er helt gratis uden konto. For adgang til 10 af vores mest popul\u00e6re generatorer koster Core-planen $15/m\u00e5ned. Full-planen til $25/m\u00e5ned l\u00e5ser alle 33 professionelle arbejdsarkgeneratorer, det komplette billedbibliotek og kommercielle licensrettigheder op."
+        question: "Kan jeg virkelig prøve alle 33 generatorer gratis?",
+        answer: "Ja! Hver generator er gratis at bruge med et vandmærke på resultatet. Opret så mange printables som du vil, test hver generator og se den fulde kvalitet før du køber. Ingen konto eller kreditkort påkrævet."
       },
       {
-        question: "Hvilke typer arbejdsark kan jeg oprette?",
-        answer: "LessonCraftStudio tilbyder 33 arbejdsarkgeneratorer: Addition, Bogstavtog, Stor & Lille, Bingo, T\u00e6lletabel, Kodeaddition, Farvel\u00e6gning, Krydsord, Kryptogram, Tegn & Farvel\u00e6g, Tegne linjer, Find & T\u00e6l, Find objekter, Gittermatchning, Matchning, Mattepuslespil, Mattearbejdsark, Manglende brikker, Mere & Mindre, Den ulige ud, M\u00f8nstertog, M\u00f8nsterarbejdsark, Billedsti, Billedsortering, Forholdsord, Skyggematching, Subtraktion, Sudoku, Skattejagt, G\u00e6t ordet, Bogstavmix, Ords\u00f8gning og Skrivning."
+        question: "Hvilke typer printables kan jeg oprette?",
+        answer: "LessonCraftStudio tilbyder 33 generatorer i 5 kategorier: Matematik (addition, subtraktion, puslespil), Sprog (ordsøgning, krydsord, kryptogram), Visuel læring (matching, find objekter, skyggespil), Kreativ (farvelægning, tegning, bingo) og Logik (sudoku, mønstre, den ulige ud). Alle producerer professionelle 300 DPI PDFs."
       },
       {
-        question: "Kan jeg bruge disse arbejdsark kommercielt?",
-        answer: "Ja! B\u00e5de Core- og Full-planen inkluderer kommerciel licens. Du kan s\u00e6lge dine oprettede arbejdsark p\u00e5 platforme som Teachers Pay Teachers, Etsy, eller bruge dem i din tutorvirksomhed, undervisningsmaterialer eller uddannelsespublikationer."
+        question: "Kan jeg sælge de printables jeg opretter?",
+        answer: "Absolut! Hver oprettet printable inkluderer en fuld kommerciel licens. Sælg på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, din egen hjemmeside eller enhver anden platform. Ingen kildeangivelse påkrævet og ingen royalties."
       },
       {
-        question: "Til hvilke klassetrin er arbejdsarkene designet?",
-        answer: "Vores arbejdsark er designet til b\u00f8rnehave til 3. klasse, d\u00e6kkende aldre fra 3 til 9 \u00e5r. Hver generator inkluderer sv\u00e6rhedsindstillinger, s\u00e5 du kan tilpasse indholdet til dine elevers n\u00f8jagtige niveau."
+        question: "Hvordan fungerer vandmærket?",
+        answer: "Den gratis version tilføjer et lille vandmærke til eksporterede PDFs. Dette lader dig fuldt teste hver generator og se den nøjagtige kvalitet. Når du køber en licens, fjernes vandmærket og du får rene, professionelle PDFs."
       },
       {
-        question: "Hvor mange sprog underst\u00f8ttes?",
-        answer: "LessonCraftStudio underst\u00f8tter 11 sprog: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Alle generatorer producerer arbejdsark med korrekt lokaliserede instruktioner, m\u00e6rkater og indhold."
+        question: "På hvilke platforme kan jeg sælge?",
+        answer: "Du kan sælge dine printables overalt: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, din egen Shopify-butik, WooCommerce-side eller enhver anden markedsplads. Den kommercielle licens dækker alle platforme uden begrænsninger."
       },
       {
-        question: "Skal jeg have designf\u00e6rdigheder for at oprette arbejdsark?",
-        answer: "Slet ikke! Hver generator bruger en enkel peg-og-klik-gr\u00e6nseflade. V\u00e6lg et tema, v\u00e6lg dine indstillinger og download en smukt formateret PDF p\u00e5 under 3 minutter. Ingen grafisk designerfaring, speciel software eller teknisk viden p\u00e5kr\u00e6vet."
+        question: "Skal jeg have designfærdigheder?",
+        answer: "Slet ikke! Hver generator bruger en enkel grænseflade. Vælg et tema fra over 3.000 billeder, tilpas indstillingerne og download en professionelt formateret PDF på under 3 minutter."
       },
       {
-        question: "Kan jeg printe arbejdsarkene derhjemme?",
-        answer: "Absolut. Hvert arbejdsark downloades som en h\u00f8joppl\u00f8snings 300 DPI PDF, der printer perfekt p\u00e5 enhver standard hjemme- eller kontorprinter. Filerne er optimeret til b\u00e5de US Letter og A4-papirformater."
+        question: "Hvilket filformat får jeg?",
+        answer: "Alle printables eksporteres som højoppløsnings 300 DPI PDF-filer, perfekte til både digitale downloads og fysisk print. Filerne er optimeret til US Letter og A4. Facitlister inkluderes automatisk."
       },
       {
-        question: "Er der et billedbibliotek inkluderet?",
-        answer: "Ja! Full-abonnenter f\u00e5r adgang til vores kuraterede bibliotek med over 3.000 h\u00e5ndplukkede clipart-billeder i over 100 temaer, herunder dyr, mad, k\u00f8ret\u00f8jer, natur, sport og mange flere. Disse billeder er professionelt udvalgt til at v\u00e6re alderspassende og visuelt engagerende for unge elever."
+        question: "Hvor mange sprog understøttes?",
+        answer: "LessonCraftStudio understøtter 11 sprog: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Det betyder at du kan oprette og sælge printables på flere sprog og nå et meget større marked."
       }
     ]
   },
   no: {
-    sectionTitle: "Vanlige Sp\u00f8rsm\u00e5l",
+    sectionTitle: "Vanlige Spørsmål",
     items: [
       {
-        question: "Er arbeidsarkgeneratorene virkelig gratis?",
-        answer: "V\u00e5r ords\u00f8kgenerator er helt gratis uten konto. For tilgang til 10 av v\u00e5re mest popul\u00e6re generatorer koster Core-planen $15/m\u00e5ned. Full-planen til $25/m\u00e5ned l\u00e5ser opp alle 33 profesjonelle arbeidsarkgeneratorer, det komplette bildbiblioteket og kommersielle lisensrettigheter."
+        question: "Kan jeg virkelig prøve alle 33 generatorer gratis?",
+        answer: "Ja! Hver generator er gratis å bruke med et vannmerke på resultatet. Lag så mange utskrifter du vil, test hver generator og se den fulle kvaliteten før du kjøper. Ingen konto eller kredittkort nødvendig."
       },
       {
-        question: "Hvilke typer arbeidsark kan jeg lage?",
-        answer: "LessonCraftStudio tilbyr 33 arbeidsarkgeneratorer: Addisjon, Bokstavtog, Stor & Liten, Bingo, Telletabell, Kodeaddisjon, Fargelegging, Kryssord, Kryptogram, Tegn & Fargelegg, Tegne linjer, Finn & Tell, Finn objekter, Rutenettsmatching, Matching, Mattepuslespill, Mattearbeidsark, Manglende brikker, Mer & Mindre, Den rare ut, M\u00f8nstertog, M\u00f8nsterarbeidsark, Bildesti, Bildesortering, Preposisjoner, Skyggematching, Subtraksjon, Sudoku, Skattejakt, Gjett ordet, Bokstavmiks, Ords\u00f8k og Skriving."
+        question: "Hvilke typer utskrifter kan jeg lage?",
+        answer: "LessonCraftStudio tilbyr 33 generatorer i 5 kategorier: Matte (addisjon, subtraksjon, puslespill), Språk (ordsøk, kryssord, kryptogram), Visuell læring (matching, finn objekter, skyggespill), Kreativt (fargelegging, tegning, bingo) og Logikk (sudoku, mønstre, den rare ut). Alle produserer profesjonelle 300 DPI PDFs."
       },
       {
-        question: "Kan jeg bruke disse arbeidsarkene kommersielt?",
-        answer: "Ja! B\u00e5de Core- og Full-planen inkluderer kommersiell lisens. Du kan selge dine opprettede arbeidsark p\u00e5 plattformer som Teachers Pay Teachers, Etsy, eller bruke dem i tutorvirksomheten din, undervisningsmateriell eller utdanningspublikasjoner."
+        question: "Kan jeg selge utskriftene jeg lager?",
+        answer: "Absolutt! Hver utskrift du lager inkluderer en full kommersiell lisens. Selg på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, din egen nettside eller en hvilken som helst annen plattform. Ingen kildeangivelse nødvendig og ingen royalties."
       },
       {
-        question: "For hvilke klassetrinn er arbeidsarkene designet?",
-        answer: "V\u00e5re arbeidsark er designet for barnehage til 3. klasse, som dekker aldre fra 3 til 9 \u00e5r. Hver generator inkluderer vanskelighetsinnstillinger slik at du kan tilpasse innholdet til elevenes n\u00f8yaktige niv\u00e5."
+        question: "Hvordan fungerer vannmerket?",
+        answer: "Gratisversjonen legger til et lite vannmerke på eksporterte PDFs. Dette lar deg fullt ut teste hver generator og se den eksakte kvaliteten. Når du kjøper en lisens, fjernes vannmerket og du får rene, profesjonelle PDFs."
       },
       {
-        question: "Hvor mange spr\u00e5k st\u00f8ttes?",
-        answer: "LessonCraftStudio st\u00f8tter 11 spr\u00e5k: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Alle generatorer produserer arbeidsark med korrekt lokaliserte instruksjoner, etiketter og innhold."
+        question: "På hvilke plattformer kan jeg selge?",
+        answer: "Du kan selge utskriftene dine overalt: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, din egen Shopify-butikk, WooCommerce-side eller en hvilken som helst annen markedsplass. Den kommersielle lisensen dekker alle plattformer uten begrensninger."
       },
       {
-        question: "Trenger jeg designferdigheter for \u00e5 lage arbeidsark?",
-        answer: "Absolutt ikke! Hver generator bruker et enkelt pek-og-klikk-grensesnitt. Velg et tema, velg innstillingene dine og last ned en pent formatert PDF p\u00e5 under 3 minutter. Ingen grafisk designerfaring, spesialprogramvare eller teknisk kunnskap n\u00f8dvendig."
+        question: "Trenger jeg designferdigheter?",
+        answer: "Absolutt ikke! Hver generator bruker et enkelt grensesnitt. Velg et tema fra over 3 000 bilder, tilpass innstillingene og last ned en profesjonelt formatert PDF på under 3 minutter."
       },
       {
-        question: "Kan jeg skrive ut arbeidsarkene hjemme?",
-        answer: "Absolutt. Hvert arbeidsark lastes ned som en h\u00f8yoppl\u00f8selig 300 DPI PDF som skrives ut perfekt p\u00e5 enhver standard hjemme- eller kontorskriver. Filene er optimalisert for b\u00e5de US Letter og A4-papirformater."
+        question: "Hvilket filformat får jeg?",
+        answer: "Alle utskrifter eksporteres som høyoppløselige 300 DPI PDF-filer, perfekte for både digitale nedlastinger og fysisk utskrift. Filene er optimalisert for US Letter og A4. Fasit inkluderes automatisk."
       },
       {
-        question: "Er det et bildbibliotek inkludert?",
-        answer: "Ja! Full-abonnenter f\u00e5r tilgang til v\u00e5rt kuraterte bibliotek med over 3\u00a0000 h\u00e5ndplukkede clipart-bilder i over 100 temaer, inkludert dyr, mat, kj\u00f8ret\u00f8y, natur, sport og mange flere. Disse bildene er profesjonelt utvalgt for \u00e5 v\u00e6re alderstilpassede og visuelt engasjerende for unge elever."
+        question: "Hvor mange språk støttes?",
+        answer: "LessonCraftStudio støtter 11 språk: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Det betyr at du kan lage og selge utskrifter på flere språk og nå et mye større marked."
       }
     ]
   },
@@ -383,36 +383,36 @@ export const homepageFaqData: Record<string, FAQLocaleData> = {
     sectionTitle: "Usein Kysytyt Kysymykset",
     items: [
       {
-        question: "Ovatko ty\u00f6lehtien generaattorit todella ilmaisia?",
-        answer: "Sananhakugeneraattorimme on t\u00e4ysin ilmainen ilman tili\u00e4. 10 suosituimman generaattorin k\u00e4ytt\u00f6\u00f6n Core-suunnitelma maksaa $15/kuukausi. Full-suunnitelma hintaan $25/kuukausi avaa kaikki 33 ammattimaista ty\u00f6lehtien generaattoria, t\u00e4ydellisen kuvakirjaston ja kaupalliset lisenssioikeudet."
+        question: "Voinko todella kokeilla kaikkia 33 generaattoria ilmaiseksi?",
+        answer: "Kyllä! Jokainen generaattori on ilmainen käyttää vesileimalla tulostuksessa. Luo niin monta tulostettavaa kuin haluat, testaa jokainen generaattori ja näe täysi laatu ennen ostamista. Ei tiliä tai luottokorttia tarvita."
       },
       {
-        question: "Mink\u00e4laisia ty\u00f6lehti\u00e4 voin luoda?",
-        answer: "LessonCraftStudio tarjoaa 33 ty\u00f6lehtien generaattoria: Yhteenlasku, Kirjainjuna, Suuri & Pieni, Bingo, Laskentataulukko, Koodiyhteenlasku, V\u00e4ritys, Ristikko, Kryptogrammi, Piirr\u00e4 & V\u00e4rit\u00e4, Viivojen piirt\u00e4minen, Etsi & Laske, Etsi esineit\u00e4, Ruudukkoyhdist\u00e4minen, Yhdist\u00e4minen, Matikkapulmapeli, Matikkataulukko, Puuttuvat palat, Enemm\u00e4n & V\u00e4hemm\u00e4n, Yksi ylim\u00e4\u00e4r\u00e4inen, Kuviojuna, Kuviotaulukko, Kuvapolku, Kuvalajittelu, Prepositiot, Varjoyhdist\u00e4minen, V\u00e4hennyslasku, Sudoku, Aarteenetsint\u00e4, Arvaa sana, Kirjainsekoitus, Sanahaku ja Kirjoitus."
+        question: "Millaisia tulostettavia voin luoda?",
+        answer: "LessonCraftStudio tarjoaa 33 generaattoria 5 kategoriassa: Matematiikka (yhteenlasku, vähennyslasku, palapelit), Kieli (sananetsintä, ristikko, kryptogrammi), Visuaalinen oppiminen (yhdistäminen, etsi esineitä, varjoyhdistäminen), Luova (väritys, piirtäminen, bingo) ja Logiikka (sudoku, kuviot, ylimääräinen). Kaikki tuottavat ammattimaisia 300 DPI PDF-tiedostoja."
       },
       {
-        question: "Voinko k\u00e4ytt\u00e4\u00e4 n\u00e4it\u00e4 ty\u00f6lehti\u00e4 kaupallisesti?",
-        answer: "Kyll\u00e4! Sek\u00e4 Core- ett\u00e4 Full-suunnitelma sis\u00e4lt\u00e4v\u00e4t kaupallisen lisenssin. Voit myyd\u00e4 luomiasi ty\u00f6lehti\u00e4 alustoilla kuten Teachers Pay Teachers, Etsy, tai k\u00e4ytt\u00e4\u00e4 niit\u00e4 tukiopetustoiminnassasi, opetusmateriaalissasi tai koulutuksellisissa julkaisuissasi."
+        question: "Voinko myydä luomiani tulostettavia?",
+        answer: "Ehdottomasti! Jokainen luotu tulostettava sisältää täyden kaupallisen lisenssin. Myy Etsyssä, Amazon KDP:ssä, Teachers Pay Teachersissa, Gumroadissa, omalla verkkosivullasi tai missä tahansa muulla alustalla. Lähdemainintaa ei vaadita eikä rojaltimaksuja."
       },
       {
-        question: "Mille luokkatasoille ty\u00f6lehdet on suunniteltu?",
-        answer: "Ty\u00f6lehtemme on suunniteltu esikoulusta kolmanteen luokkaan, kattaen i\u00e4t 3\u20139 vuotta. Jokaisessa generaattorissa on vaikeusasetukset, jotta voit mukauttaa sis\u00e4ll\u00f6n oppilaittesi tarkkaan tasoon."
+        question: "Miten vesileima toimii?",
+        answer: "Ilmaisversio lisää pienen vesileiman vietyihin PDF-tiedostoihin. Tämä antaa sinun testata jokaista generaattoria täysin ja nähdä tarkan laadun. Kun ostat lisenssin, vesileima poistetaan ja saat puhtaat, ammattimaiset PDF-tiedostot."
       },
       {
-        question: "Kuinka monta kielt\u00e4 tuetaan?",
-        answer: "LessonCraftStudio tukee 11 kielt\u00e4: englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja ja suomi. Kaikki generaattorit tuottavat ty\u00f6lehti\u00e4 oikein lokalisoiduilla ohjeilla, tunnisteilla ja sis\u00e4ll\u00f6ll\u00e4."
+        question: "Millä alustoilla voin myydä?",
+        answer: "Voit myydä tulostettaviasi missä tahansa: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, oma Shopify-kauppa, WooCommerce-sivusto tai mikä tahansa muu markkinapaikka. Kaupallinen lisenssi kattaa kaikki alustat ilman rajoituksia."
       },
       {
-        question: "Tarvitsenko suunnittelutaitoja ty\u00f6lehtien luomiseen?",
-        answer: "Ei lainkaan! Jokainen generaattori k\u00e4ytt\u00e4\u00e4 yksinkertaista osoita ja napsauta -k\u00e4ytt\u00f6liittym\u00e4\u00e4. Valitse teema, valitse asetuksesi ja lataa kauniisti muotoiltu PDF alle 3 minuutissa. Graafisen suunnittelun kokemusta, erikoisohjelmistoja tai teknist\u00e4 osaamista ei tarvita."
+        question: "Tarvitsenko suunnittelutaitoja?",
+        answer: "Ei lainkaan! Jokainen generaattori käyttää yksinkertaista käyttöliittymää. Valitse teema yli 3 000 kuvasta, säädä asetukset ja lataa ammattimaisesti muotoiltu PDF alle 3 minuutissa."
       },
       {
-        question: "Voinko tulostaa ty\u00f6lehdet kotona?",
-        answer: "Ehdottomasti. Jokainen ty\u00f6lehti ladataan korkearesoluutioisena 300 DPI PDF-tiedostona, joka tulostuu t\u00e4ydellisesti mill\u00e4 tahansa tavallisella koti- tai toimistotulostimella. Tiedostot on optimoitu sek\u00e4 US Letter- ett\u00e4 A4-paperikoille."
+        question: "Missä tiedostomuodossa saan tulosteet?",
+        answer: "Kaikki tulostettavat viedään korkearesoluutioisina 300 DPI PDF-tiedostoina, jotka sopivat täydellisesti sekä digitaalisiin latauksiin että fyysiseen tulostukseen. Tiedostot on optimoitu US Letter- ja A4-paperikoille. Vastauslomakkeet sisältyvät automaattisesti."
       },
       {
-        question: "Sis\u00e4ltyyk\u00f6 kuvakirjasto?",
-        answer: "Kyll\u00e4! Full-tilaajat saavat p\u00e4\u00e4syn kuratoituun kirjastoomme, jossa on yli 3\u00a0000 k\u00e4sin valittua clipart-kuvaa yli 100 teemassa, mukaan lukien el\u00e4imet, ruoka, ajoneuvot, luonto, urheilu ja paljon muuta. N\u00e4m\u00e4 kuvat on ammattimaisesti valittu ik\u00e4sopiviksi ja visuaalisesti kiinnostaviksi nuorille oppijoille."
+        question: "Kuinka monta kieltä tuetaan?",
+        answer: "LessonCraftStudio tukee 11 kieltä: englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja ja suomi. Tämä tarkoittaa, että voit luoda ja myydä tulostettavia useilla kielillä ja tavoittaa paljon suuremman markkinan."
       }
     ]
   }

@@ -119,13 +119,16 @@ export interface WPlusProduct {
   description: string;
   price: number;
   comparePrice?: number;
-  tier: 'single-app' | 'category-bundle' | 'full-access' | 'commercial' | 'agency';
+  tier: 'single-app' | 'category-bundle' | 'full-access' | 'commercial' | 'agency' | 'pro-features';
   apps: AppId[];
   features: string[];
   imageCount: number; // How many theme images included
   languages: number; // How many languages
   funnelPosition: 'frontend' | 'oto1' | 'oto2' | 'oto3' | 'downsell';
   wplusProductId?: string; // WarriorPlus product ID (set after listing)
+  funnelId?: string; // Groups products into a funnel chain (e.g., 'wordsearch-funnel')
+  premiumFeatures?: string[]; // App-specific premium features for pro-tier products
+  includesCommercialRights: boolean; // All products include full commercial/POD/resale rights
 }
 
 export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
@@ -144,11 +147,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '6 math worksheet generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   'literacy-bundle': {
@@ -163,11 +167,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '7 literacy & language generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   'visual-bundle': {
@@ -182,11 +187,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '7 visual learning generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   'matching-bundle': {
@@ -201,11 +207,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '5 matching & sorting generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   'puzzle-bundle': {
@@ -220,11 +227,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '4 puzzle & logic generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   'search-bundle': {
@@ -239,11 +247,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '4 search & find generators',
       '100+ theme images included',
       'PDF export with custom styling',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 100,
     languages: 1,
     funnelPosition: 'frontend',
+    includesCommercialRights: true,
   },
 
   // ==========================================
@@ -263,11 +272,12 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       '11 languages supported',
       'PDF export with custom styling',
       'Borders, backgrounds, and themes',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 3000,
     languages: 11,
     funnelPosition: 'oto1',
+    includesCommercialRights: true,
   },
 
   // ==========================================
@@ -291,6 +301,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     imageCount: 3000,
     languages: 11,
     funnelPosition: 'oto2',
+    includesCommercialRights: true,
   },
 
   // ==========================================
@@ -314,6 +325,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     imageCount: 3000,
     languages: 11,
     funnelPosition: 'oto3',
+    includesCommercialRights: true,
   },
 
   // ==========================================
@@ -322,7 +334,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   'single-app-downsell': {
     id: 'single-app-downsell',
     name: 'Starter Kit - Single App',
-    description: 'Pick any 1 worksheet generator. 50 theme images. Personal use.',
+    description: 'Pick any 1 worksheet generator. 50 theme images. Full commercial rights included.',
     price: 9.95,
     tier: 'single-app',
     apps: [], // Buyer chooses during onboarding
@@ -330,11 +342,104 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       'Any 1 worksheet generator',
       '50 theme images',
       'PDF export',
-      'Personal use license',
+      'Full commercial/POD/resale rights',
     ],
     imageCount: 50,
     languages: 1,
     funnelPosition: 'downsell',
+    includesCommercialRights: true,
+  },
+
+  // ==========================================
+  // INDIVIDUAL APP FUNNELS (Stage 1)
+  // ==========================================
+
+  // --- Word Search Funnel ---
+  'wordsearch-fe': {
+    id: 'wordsearch-fe',
+    name: 'Word Search Generator',
+    description: 'Professional word search puzzle generator. All grid sizes, image library, canvas editor, PDF export. Full commercial rights included.',
+    price: 27,
+    comparePrice: 97,
+    tier: 'single-app',
+    apps: ['wordsearch'] as AppId[],
+    features: [
+      'Word Search generator (all grid sizes)',
+      '3,000+ theme images (104 themes)',
+      'Canvas editor (move, resize, rotate, layers)',
+      '4 fonts + solid color backgrounds',
+      'PDF + JPEG export with answer keys',
+      'Watermark-free output',
+      'Full commercial/POD/resale rights',
+    ],
+    imageCount: 3000,
+    languages: 1,
+    funnelPosition: 'frontend',
+    funnelId: 'wordsearch-funnel',
+    includesCommercialRights: true,
+  },
+
+  'wordsearch-oto1-literacy': {
+    id: 'wordsearch-oto1-literacy',
+    name: 'Literacy & Language Expansion Pack',
+    description: '6 more literacy & language generators. Word scramble, writing, alphabet train, and more. Full commercial rights included.',
+    price: 37,
+    comparePrice: 189,
+    tier: 'category-bundle',
+    apps: APP_CATEGORIES.literacy.apps.filter(app => app !== 'wordsearch') as AppId[],
+    features: [
+      '6 additional literacy generators',
+      'Alphabet Train, Word Scramble, Writing',
+      'Word Guess, Cryptogram, Prepositions',
+      '3,000+ theme images (104 themes)',
+      'PDF + JPEG export',
+      'Full commercial/POD/resale rights',
+    ],
+    imageCount: 3000,
+    languages: 1,
+    funnelPosition: 'oto1',
+    funnelId: 'wordsearch-funnel',
+    includesCommercialRights: true,
+  },
+
+  'wordsearch-oto2-pro': {
+    id: 'wordsearch-oto2-pro',
+    name: 'Pro Features Pack',
+    description: 'Unlock premium features for all purchased apps. Extra languages, premium fonts, themed backgrounds, grayscale mode, custom content, and more.',
+    price: 37,
+    comparePrice: 97,
+    tier: 'pro-features',
+    apps: [], // Applies to all purchased apps
+    features: [
+      'Reverse word placement (harder puzzles)',
+      'All 11 languages (access global markets)',
+      '3 premium fonts (Baloo 2, Quicksand, Fredoka)',
+      'Themed backgrounds & decorative borders',
+      'Grayscale mode (KDP print optimization)',
+      'Custom word lists (type any words)',
+      'Custom image upload (your own clipart/logos)',
+      'Manual image name editing',
+      'Text outline/stroke effects',
+      'Custom page sizes (any dimension)',
+    ],
+    imageCount: 3000,
+    languages: 11,
+    funnelPosition: 'oto2',
+    funnelId: 'wordsearch-funnel',
+    includesCommercialRights: true,
+    premiumFeatures: [
+      'reverse-words',
+      'all-languages',
+      'premium-fonts',
+      'themed-backgrounds',
+      'decorative-borders',
+      'grayscale-mode',
+      'custom-word-lists',
+      'custom-image-upload',
+      'manual-image-names',
+      'text-outline-stroke',
+      'custom-page-sizes',
+    ],
   },
 };
 
@@ -342,13 +447,32 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
 // FUNNEL CONFIGURATION
 // ==========================================
 
+// Legacy bundle funnel (Stage 2)
 export const WPLUS_FUNNEL = {
-  // Default funnel flow
   frontend: ['math-bundle', 'literacy-bundle', 'visual-bundle', 'matching-bundle', 'puzzle-bundle', 'search-bundle'],
   oto1: 'mega-bundle',
   oto2: 'commercial-license',
   oto3: 'agency-license',
   downsell: 'single-app-downsell',
+};
+
+// Individual app funnels (Stage 1)
+export interface WPlusFunnel {
+  id: string;
+  name: string;
+  fe: string;
+  oto1: string;
+  oto2: string;
+}
+
+export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
+  'wordsearch-funnel': {
+    id: 'wordsearch-funnel',
+    name: 'Word Search Launch Funnel',
+    fe: 'wordsearch-fe',
+    oto1: 'wordsearch-oto1-literacy',
+    oto2: 'wordsearch-oto2-pro',
+  },
 };
 
 // ==========================================
@@ -383,4 +507,19 @@ export function getAppHtmlFile(appId: AppId): string {
 
 export function getAppCategory(appId: AppId): CategoryId {
   return ALL_APPS[appId].category as CategoryId;
+}
+
+export function getFunnelForProduct(productId: string): WPlusFunnel | null {
+  const product = WPLUS_PRODUCTS[productId];
+  if (!product?.funnelId) return null;
+  return WPLUS_FUNNELS[product.funnelId] ?? null;
+}
+
+export function getProductPremiumFeatures(productId: string): string[] {
+  const product = WPLUS_PRODUCTS[productId];
+  return product?.premiumFeatures ?? [];
+}
+
+export function hasPremiumFeatures(productId: string): boolean {
+  return getProductPremiumFeatures(productId).length > 0;
 }

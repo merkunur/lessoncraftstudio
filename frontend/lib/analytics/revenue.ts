@@ -1,5 +1,10 @@
 import { prisma } from '@/lib/prisma';
-import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
+// Legacy tier pricing (Stripe removed during pivot)
+const SUBSCRIPTION_TIERS: Record<string, { price: number; priceYearly: number }> = {
+  FREE: { price: 0, priceYearly: 0 },
+  CORE: { price: 9.99, priceYearly: 99.99 },
+  FULL: { price: 19.99, priceYearly: 199.99 },
+};
 
 interface MRRData {
   total: number;

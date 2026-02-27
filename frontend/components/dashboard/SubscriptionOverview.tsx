@@ -4,7 +4,12 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { CreditCard, Calendar, TrendingUp, Shield, AlertCircle, CheckCircle } from 'lucide-react';
-import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
+// Legacy tier pricing (Stripe removed during pivot)
+const SUBSCRIPTION_TIERS: Record<string, { price: number }> = {
+  FREE: { price: 0 },
+  CORE: { price: 9.99 },
+  FULL: { price: 19.99 },
+};
 
 interface SubscriptionData {
   id: string;

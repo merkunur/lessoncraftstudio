@@ -1,22 +1,16 @@
 import { Metadata } from 'next';
-import { generateHomepageSchemas, getHreflangCode, ogLocaleMap, generateImageGallerySchema, generateImageObjectSchema } from '@/lib/schema-generator';
-import type { SampleImageData } from '@/lib/schema-generator';
+import { generateHomepageSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { getHomepageSamplesData } from '@/lib/homepage-samples-data';
 import {
   HomepageHero,
-  SampleGallery,
   AppCategories,
   HomepageFeatures,
   HowItWorks,
-  HomepageBlogPosts,
   HomepageCTA,
   HomepageFAQ,
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
-import Link from 'next/link';
-import { GRADE_IDS, getGradeSlug, gradeDisplayNames, gradeAgeRanges } from '@/config/grade-slugs';
 
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
@@ -88,22 +82,6 @@ const homepageMetadata: Record<string, { title: string; description: string; key
   }
 };
 
-// Localized gallery names for ImageGallery JSON-LD
-const galleryNames: Record<string, string> = {
-  en: 'Free Worksheet Samples',
-  de: 'Kostenlose Arbeitsblatt-Beispiele',
-  fr: '\u00c9chantillons de fiches gratuits',
-  es: 'Muestras de fichas gratuitas',
-  pt: 'Amostras de atividades gratuitas',
-  it: 'Esempi di schede didattiche gratuite',
-  nl: 'Gratis werkblad voorbeelden',
-  sv: 'Gratis arbetsblad exempel',
-  da: 'Gratis arbejdsark eksempler',
-  no: 'Gratis arbeidsark eksempler',
-  fi: 'Ilmaiset ty\u00f6arkkin\u00e4ytteet',
-};
-
-// Enable ISR - revalidate every 5 minutes (reduced from 1 hour for faster content updates)
 export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -168,37 +146,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
   const faqData = homepageFaqData[locale] || homepageFaqData.en;
   const faqSchema = generateFAQSchema(faqData.items, locale);
 
-  // Fetch dynamic homepage images server-side (baked into ISR HTML)
-  const { dynamicImages, seoData, heroImages } = await getHomepageSamplesData(locale);
-
-  // Generate ImageGallery JSON-LD from homepage sample thumbnails
-  const baseUrl = 'https://www.lessoncraftstudio.com';
-  const sampleImages: SampleImageData[] = Object.entries(dynamicImages).map(([appId, thumbUrl]) => ({
-    src: thumbUrl,
-    name: seoData[appId]?.title || appId,
-    description: seoData[appId]?.description || seoData[appId]?.altText || appId,
-    caption: seoData[appId]?.caption || seoData[appId]?.altText || appId,
-    width: 400,
-    height: 566,
-    thumbnailSrc: thumbUrl,
-    dateModified: seoData[appId]?.updatedAt,
-  }));
-
-  if (sampleImages.length > 0) {
-    // C2 fix: Generate ImageObject schemas that match the @id references in ImageGallery
-    for (let i = 0; i < sampleImages.length; i++) {
-      schemas.push(generateImageObjectSchema(sampleImages[i], `${baseUrl}/${locale}`, baseUrl, locale, i, i === 0));
-    }
-    const gallerySchema = generateImageGallerySchema(
-      sampleImages,
-      galleryNames[locale] || galleryNames.en,
-      `${baseUrl}/${locale}`,
-      locale,
-      baseUrl
-    );
-    schemas.push(gallerySchema);
-  }
-
   return (
     <>
       {/* JSON-LD Structured Data */}
@@ -210,74 +157,26 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Hero Section - Dark dramatic design */}
-      <HomepageHero locale={locale} heroImages={heroImages} />
+      {/* Hero Section */}
+      <HomepageHero locale={locale} />
 
-      {/* Free Sample Downloads - Dark background continues */}
-      <SampleGallery locale={locale} dynamicImages={dynamicImages} seoData={seoData} />
-
-      {/* App Categories - Light background transition */}
+      {/* App Categories */}
       <AppCategories locale={locale} />
 
-      {/* EN-only: Internal links to grade hub pages + worksheets hub */}
-      {locale === 'en' && (
-        <section className="py-12 bg-gray-50">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mb-3">
-              Browse Worksheets by Grade Level
-            </h2>
-            <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
-              Find age-appropriate worksheets and activities tailored to each grade level, from preschool through 3rd grade.
-            </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
-              {GRADE_IDS.map((gradeId) => {
-                const slug = getGradeSlug(gradeId, 'en');
-                const name = gradeDisplayNames[gradeId]?.en || gradeId;
-                const ages = gradeAgeRanges[gradeId]?.en || '';
-                return (
-                  <Link
-                    key={gradeId}
-                    href={`/en/apps/grades/${slug}`}
-                    className="flex flex-col items-center p-4 rounded-xl bg-white border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-200 text-center"
-                  >
-                    <span className="text-lg font-semibold text-gray-900">{name}</span>
-                    <span className="text-sm text-gray-500 mt-1">{ages}</span>
-                  </Link>
-                );
-              })}
-            </div>
-            <div className="text-center">
-              <Link
-                href="/en/worksheets"
-                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold transition-colors"
-              >
-                Explore 50 Themed Worksheet Collections
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Features - Warm amber accents */}
+      {/* Features */}
       <HomepageFeatures locale={locale} />
 
-      {/* How It Works - Timeline */}
+      {/* How It Works */}
       <HowItWorks locale={locale} />
 
-      {/* Blog Posts - Bridge equity from homepage to blog content */}
-      <HomepageBlogPosts locale={locale} />
-
-      {/* FAQ Section - Adds content + targets long-tail queries + FAQ schema */}
+      {/* FAQ Section */}
       <HomepageFAQ locale={locale} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      {/* Final CTA - Dark gradient */}
+      {/* Final CTA */}
       <HomepageCTA locale={locale} />
     </>
   );

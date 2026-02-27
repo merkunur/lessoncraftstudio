@@ -1,60 +1,23 @@
 import { MetadataRoute } from 'next';
-import { prisma } from '@/lib/prisma';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { crossLocaleSlugs } from '@/config/blog-cross-locale-redirects';
-import { ALL_THEME_IDS } from '@/content/themes/types';
-import { getThemeSlug } from '@/config/theme-slugs';
-import { GRADE_IDS, getGradeSlug, getGradeAlternateUrls } from '@/config/grade-slugs';
-import { getBlogCategorySlug, getBlogCategoryAlternateUrls } from '@/config/blog-category-slugs';
-import { getProductCategorySlug, getProductCategoryAlternateUrls } from '@/config/product-category-slugs';
 
-// Build slug -> nativeLocale map to exclude sitemap entries that would 301 redirect
-const slugToNativeLocale = new Map<string, string>();
-for (const { slug, nativeLocale } of crossLocaleSlugs) {
-  slugToNativeLocale.set(slug, nativeLocale);
-}
-
-// ISR revalidation: each individual sitemap revalidates every 30 minutes
+// ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
 
-// Fixed date for static/config-derived pages (only update when content actually changes)
-const STATIC_CONTENT_DATE = new Date('2026-02-22');
-
-// NOTE: Sample images are handled by /sitemap-images.xml with proper Google Image Sitemap XML format
+// Fixed date for static/config-derived pages
+const STATIC_CONTENT_DATE = new Date('2026-02-27');
 
 /**
- * Split sitemap into 7 smaller sitemaps to prevent ISR timeout on the server.
- * Previously, a single monolithic sitemap generating 6,000+ URLs was timing out,
- * causing the live site to serve only 99 static URLs from a stale cache.
- *
- * ID 0: Static pages (~121 URLs) - config only, no DB needed
- * ID 1: Product pages (~363 URLs) - config only, no DB needed
- * ID 2: Product categories + grade pages (~143 URLs) - config only, no DB needed
- * ID 3: Theme hub pages (~550 URLs) - config only, no DB needed
- * ID 4: Theme+grade combo pages (~2,750 URLs) - config only, no DB needed
- * ID 5: Blog category pages (~77 URLs) - requires database
- * ID 6: Blog posts (~2,000+ URLs) - requires database
- *
- * Priority structure:
- * - 1.0: Homepage, product pages (highest priority)
- * - 0.8: Theme hub pages
- * - 0.7: Category/grade hubs, theme+grade combos, featured blog posts
- * - 0.6: Pricing, blog categories, blog posts with PDFs
- * - 0.5: Apps collection, blog index, regular blog posts
- * - 0.4: FAQ
- * - 0.3: Legal pages (terms, privacy, contact, license)
+ * Two sitemaps after pivot:
+ * ID 0: Static pages (~77 URLs) - homepage, apps, legal, etc.
+ * ID 1: App detail pages (~363 URLs) - individual app pages with localized slugs
  */
 export async function generateSitemaps() {
   return [
     { id: 0 },
     { id: 1 },
-    { id: 2 },
-    { id: 3 },
-    { id: 4 },
-    { id: 5 },
-    { id: 6 },
   ];
 }
 
@@ -72,19 +35,16 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     return alternates;
   }
 
-  // ── ID 0: Static pages ──────────────────────────────────────────────
+  // ID 0: Static pages
   if (id === 0) {
     const staticPages = [
       { path: '', priority: 1.0, changeFreq: 'daily' as const },
-      { path: '/apps', priority: 0.5, changeFreq: 'weekly' as const },
-      { path: '/pricing', priority: 0.6, changeFreq: 'weekly' as const },
-      { path: '/blog', priority: 0.5, changeFreq: 'daily' as const },
+      { path: '/apps', priority: 0.8, changeFreq: 'weekly' as const },
       { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/faq', priority: 0.4, changeFreq: 'monthly' as const },
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
-      { path: '/worksheets', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/about', priority: 0.5, changeFreq: 'monthly' as const },
     ];
 
@@ -103,7 +63,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     return routes;
   }
 
-  // ── ID 1: Product pages (363 pages) ─────────────────────────────────
+  // ID 1: App detail pages
   if (id === 1) {
     const routes: MetadataRoute.Sitemap = [];
     for (const app of productPageSlugs) {
@@ -123,232 +83,5 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     return routes;
   }
 
-  // ── ID 2: Product categories + grade pages (~143 pages) ─────────────
-  if (id === 2) {
-    const routes: MetadataRoute.Sitemap = [];
-
-    // Product category hub pages (8 categories x 11 locales = 88 pages)
-    const productCategories = [
-      'math', 'language-arts', 'word-games', 'art-creativity',
-      'logic-puzzles', 'visual-perception', 'matching-sorting', 'patterns-motor',
-    ];
-    for (const locale of locales) {
-      for (const cat of productCategories) {
-        const catAlternates = getProductCategoryAlternateUrls(cat, baseUrl);
-        routes.push({
-          url: `${baseUrl}/${locale}/apps/category/${getProductCategorySlug(cat, locale)}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'weekly',
-          priority: 0.7,
-          alternates: { languages: catAlternates },
-        });
-      }
-    }
-
-    // Grade-level landing pages (5 grades x 11 locales = 55 pages)
-    const grades = ['preschool', 'kindergarten', 'first-grade', 'second-grade', 'third-grade'];
-    for (const locale of locales) {
-      for (const grade of grades) {
-        const gradeAlternates = getGradeAlternateUrls(grade, baseUrl);
-        routes.push({
-          url: `${baseUrl}/${locale}/apps/grades/${getGradeSlug(grade, locale) || grade}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'weekly',
-          priority: 0.7,
-          alternates: { languages: gradeAlternates },
-        });
-      }
-    }
-
-    return routes;
-  }
-
-  // ── ID 3: Theme hub pages (~550 pages) ──────────────────────────────
-  if (id === 3) {
-    const routes: MetadataRoute.Sitemap = [];
-    for (const locale of locales) {
-      for (const themeId of ALL_THEME_IDS) {
-        const slug = getThemeSlug(themeId, locale);
-        if (!slug) continue;
-        const themeAlternates: Record<string, string> = {};
-        for (const lang of locales) {
-          const langSlug = getThemeSlug(themeId, lang);
-          if (langSlug) {
-            themeAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/worksheets/${langSlug}`;
-          }
-        }
-        const enSlug = getThemeSlug(themeId, 'en');
-        if (enSlug) themeAlternates['x-default'] = `${baseUrl}/en/worksheets/${enSlug}`;
-        routes.push({
-          url: `${baseUrl}/${locale}/worksheets/${slug}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'weekly',
-          priority: 0.8,
-          alternates: { languages: themeAlternates },
-        });
-      }
-    }
-    return routes;
-  }
-
-  // ── ID 4: Theme + Grade combo pages (~2,750 pages) ──────────────────
-  if (id === 4) {
-    const routes: MetadataRoute.Sitemap = [];
-    for (const locale of locales) {
-      for (const themeId of ALL_THEME_IDS) {
-        const tSlug = getThemeSlug(themeId, locale);
-        if (!tSlug) continue;
-        for (const gradeId of GRADE_IDS) {
-          const gSlug = getGradeSlug(gradeId, locale);
-          if (!gSlug) continue;
-          const tgAlternates: Record<string, string> = {};
-          for (const lang of locales) {
-            const ltSlug = getThemeSlug(themeId, lang);
-            const lgSlug = getGradeSlug(gradeId, lang);
-            if (ltSlug && lgSlug) {
-              tgAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/worksheets/${ltSlug}/${lgSlug}`;
-            }
-          }
-          const enTSlug = getThemeSlug(themeId, 'en');
-          const enGSlug = getGradeSlug(gradeId, 'en');
-          if (enTSlug && enGSlug) {
-            tgAlternates['x-default'] = `${baseUrl}/en/worksheets/${enTSlug}/${enGSlug}`;
-          }
-          routes.push({
-            url: `${baseUrl}/${locale}/worksheets/${tSlug}/${gSlug}`,
-            lastModified: STATIC_CONTENT_DATE,
-            changeFrequency: 'weekly',
-            priority: 0.7,
-            alternates: { languages: tgAlternates },
-          });
-        }
-      }
-    }
-    return routes;
-  }
-
-  // ── ID 5: Blog category pages (~77 pages, requires DB) ─────────────
-  if (id === 5) {
-    const categories = [
-      'teaching-resources', 'worksheet-tips', 'educational-activities',
-      'learning-strategies', 'curriculum-guides', 'parent-resources', 'seasonal-content',
-    ];
-
-    let categoryPostCounts: { category: string; translations: any }[] = [];
-    try {
-      categoryPostCounts = await prisma.blogPost.findMany({
-        where: { status: 'published', category: { in: categories } },
-        select: { category: true, translations: true },
-      });
-    } catch (error) {
-      console.error('[sitemap/5] Error fetching blog category data:', error);
-      return [];
-    }
-
-    // Build a set of "category:locale" pairs that have at least 1 post with a translation
-    const categoryLocaleSet = new Set<string>();
-    for (const post of categoryPostCounts) {
-      const translations = post.translations as any;
-      for (const locale of locales) {
-        if (translations?.[locale]?.title && translations?.[locale]?.content) {
-          categoryLocaleSet.add(`${post.category}:${locale}`);
-        }
-      }
-    }
-
-    const routes: MetadataRoute.Sitemap = [];
-    for (const category of categories) {
-      const availableLocales = locales.filter(locale => categoryLocaleSet.has(`${category}:${locale}`));
-      if (availableLocales.length === 0) continue;
-
-      // Build hreflang alternates with localized slugs
-      const blogCatAlternates: Record<string, string> = {};
-      for (const lang of availableLocales) {
-        const locSlug = getBlogCategorySlug(category, lang);
-        blogCatAlternates[getHreflangCode(lang)] = `${baseUrl}/${lang}/blog/category/${locSlug}`;
-      }
-      const xDefaultLocale = availableLocales.includes('en') ? 'en' : availableLocales[0];
-      blogCatAlternates['x-default'] = `${baseUrl}/${xDefaultLocale}/blog/category/${getBlogCategorySlug(category, xDefaultLocale)}`;
-
-      for (const locale of availableLocales) {
-        const locSlug = getBlogCategorySlug(category, locale);
-        routes.push({
-          url: `${baseUrl}/${locale}/blog/category/${locSlug}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'weekly',
-          priority: 0.6,
-          alternates: { languages: blogCatAlternates },
-        });
-      }
-    }
-    return routes;
-  }
-
-  // ── ID 6: Blog posts (~2,000+ pages, requires DB) ──────────────────
-  if (id === 6) {
-    try {
-      const blogPosts = await prisma.blogPost.findMany({
-        where: { status: 'published' },
-        select: {
-          slug: true,
-          translations: true,
-          updatedAt: true,
-          createdAt: true,
-          featured: true,
-          _count: { select: { pdfs: true } },
-        },
-      });
-
-      function calculateBlogPriority(post: { featured?: boolean; _count?: { pdfs: number }; createdAt: Date }): number {
-        if (post.featured) return 0.7;
-        if (post._count && post._count.pdfs > 0) return 0.6;
-        return 0.5;
-      }
-
-      return blogPosts.flatMap((post) => {
-        const translations = post.translations as any;
-
-        // Only include locales with actual translation content
-        // Also exclude entries where the resolved slug would trigger a cross-locale redirect
-        const availableLocales = locales.filter((locale) => {
-          const translation = translations[locale];
-          if (!translation?.title || !translation?.content) return false;
-          // Require locale's OWN slug — never fall back to post.slug (matches generateMetadata logic)
-          if (!translation?.slug) return false;
-          const nativeLocale = slugToNativeLocale.get(translation.slug);
-          if (nativeLocale && nativeLocale !== locale) return false;
-          return true;
-        });
-
-        if (availableLocales.length === 0) return [];
-
-        // Build hreflang alternates across all available locales
-        const blogAlternates: Record<string, string> = {};
-        for (const loc of availableLocales) {
-          const locSlug = translations[loc]?.slug;
-          blogAlternates[getHreflangCode(loc)] = `${baseUrl}/${loc}/blog/${locSlug}`;
-        }
-        if (availableLocales.includes('en')) {
-          blogAlternates['x-default'] = `${baseUrl}/en/blog/${translations['en']?.slug}`;
-        } else {
-          const fallbackLocale = availableLocales[0];
-          blogAlternates['x-default'] = `${baseUrl}/${fallbackLocale}/blog/${translations[fallbackLocale]?.slug}`;
-        }
-
-        return availableLocales.map((locale) => ({
-          url: `${baseUrl}/${locale}/blog/${translations[locale]?.slug}`,
-          lastModified: post.updatedAt,
-          changeFrequency: 'weekly' as const,
-          priority: calculateBlogPriority(post),
-          alternates: { languages: blogAlternates },
-        }));
-      });
-    } catch (error) {
-      console.error('[sitemap/6] Error fetching blog posts:', error);
-      return [];
-    }
-  }
-
-  // Unknown ID
   return [];
 }

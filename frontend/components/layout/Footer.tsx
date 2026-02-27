@@ -4,9 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
-import { getThemeSlug } from '@/config/theme-slugs';
-import { getProductCategorySlug } from '@/config/product-category-slugs';
-import { getGradeSlug } from '@/config/grade-slugs';
 
 export function Footer() {
   const pathname = usePathname();
@@ -44,14 +41,6 @@ export function Footer() {
   const copyright = `\u00a9 ${new Date().getFullYear()} LessonCraftStudio. ${localizedRights[locale] || localizedRights.en}`;
 
   const sections = {
-    product: {
-      title: t('product.title'),
-      links: {
-        apps: t('product.apps'),
-        pricing: t('product.pricing'),
-        blog: t('product.blog')
-      }
-    },
     support: {
       title: t('support.title'),
       links: {
@@ -100,85 +89,18 @@ export function Footer() {
     fi: 'Suositut Generaattorit'
   };
 
-  // By Subject - links to category hub pages
-  const bySubjectTitle: Record<string, string> = {
-    en: 'By Subject', de: 'Nach Fach', fr: 'Par Mati\u00e8re', es: 'Por Materia',
-    it: 'Per Materia', pt: 'Por Mat\u00e9ria', nl: 'Per Vak', sv: 'Per \u00c4mne',
-    da: 'Per Fag', no: 'Per Fag', fi: 'Aiheen Mukaan'
-  };
-
-  const subjectLinks = [
-    { slug: 'math', labels: { en: 'Math', de: 'Mathe', fr: 'Maths', es: 'Matem\u00e1ticas', it: 'Matematica', pt: 'Matem\u00e1tica', nl: 'Rekenen', sv: 'Matte', da: 'Matematik', no: 'Matte', fi: 'Matematiikka' } },
-    { slug: 'language-arts', labels: { en: 'Language Arts', de: 'Sprache', fr: 'Fran\u00e7ais', es: 'Lenguaje', it: 'Italiano', pt: 'Portugu\u00eas', nl: 'Taal', sv: 'Spr\u00e5k', da: 'Sprog', no: 'Spr\u00e5k', fi: 'Kieli' } },
-    { slug: 'word-games', labels: { en: 'Word Games', de: 'Wortspiele', fr: 'Jeux de Mots', es: 'Juegos de Palabras', it: 'Giochi di Parole', pt: 'Jogos de Palavras', nl: 'Woordspellen', sv: 'Ordspel', da: 'Ordspil', no: 'Ordspill', fi: 'Sanapelit' } },
-    { slug: 'art-creativity', labels: { en: 'Art & Creativity', de: 'Kunst & Kreativit\u00e4t', fr: 'Art & Cr\u00e9ativit\u00e9', es: 'Arte & Creatividad', it: 'Arte & Creativit\u00e0', pt: 'Arte & Criatividade', nl: 'Kunst & Creativiteit', sv: 'Konst & Kreativitet', da: 'Kunst & Kreativitet', no: 'Kunst & Kreativitet', fi: 'Taide & Luovuus' } },
-    { slug: 'logic-puzzles', labels: { en: 'Logic & Puzzles', de: 'Logik & R\u00e4tsel', fr: 'Logique & Puzzles', es: 'L\u00f3gica & Puzzles', it: 'Logica & Puzzle', pt: 'L\u00f3gica & Quebra-cabe\u00e7as', nl: 'Logica & Puzzels', sv: 'Logik & Pussel', da: 'Logik & Puslespil', no: 'Logikk & Puslespill', fi: 'Logiikka & Pulmat' } },
-    { slug: 'visual-perception', labels: { en: 'Visual Perception', de: 'Visuelle Wahrnehmung', fr: 'Perception visuelle', es: 'Percepci\u00f3n visual', it: 'Percezione visiva', pt: 'Percep\u00e7\u00e3o visual', nl: 'Visuele waarneming', sv: 'Visuell perception', da: 'Visuel perception', no: 'Visuell persepsjon', fi: 'Visuaalinen hahmottaminen' } },
-    { slug: 'matching-sorting', labels: { en: 'Matching & Sorting', de: 'Zuordnung & Sortierung', fr: 'Association & Tri', es: 'Emparejamiento y clasificaci\u00f3n', it: 'Abbinamento e classificazione', pt: 'Associa\u00e7\u00e3o e classifica\u00e7\u00e3o', nl: 'Koppelen & Sorteren', sv: 'Koppla & Sortera', da: 'Parring & Sortering', no: 'Kobling & Sortering', fi: 'Yhdist\u00e4minen ja lajittelu' } },
-    { slug: 'patterns-motor', labels: { en: 'Patterns & Motor Skills', de: 'Muster & Feinmotorik', fr: 'Motifs & Motricit\u00e9 fine', es: 'Patrones y motricidad fina', it: 'Sequenze e motricit\u00e0 fine', pt: 'Padr\u00f5es e coordena\u00e7\u00e3o motora', nl: 'Patronen & Fijne motoriek', sv: 'M\u00f6nster & Finmotorik', da: 'M\u00f8nstre & Finmotorik', no: 'M\u00f8nstre & Finmotorikk', fi: 'Kuviot ja hienomotoriikka' } },
-  ];
-
-  // By Grade - links to grade-level pages
-  const byGradeTitle: Record<string, string> = {
-    en: 'By Grade', de: 'Nach Klasse', fr: 'Par Niveau', es: 'Por Grado',
-    it: 'Per Classe', pt: 'Por S\u00e9rie', nl: 'Per Groep', sv: 'Per \u00c5rskurs',
-    da: 'Per Klasse', no: 'Per Klasse', fi: 'Luokittain'
-  };
-
-  const gradeLinks = [
-    { slug: 'preschool', labels: { en: 'Preschool', de: 'Vorschule', fr: 'Maternelle', es: 'Preescolar', it: 'Scuola dell\'Infanzia', pt: 'Pr\u00e9-escola', nl: 'Kleutergroep', sv: 'F\u00f6rskola', da: 'B\u00f8rnehave', no: 'Barnehage', fi: 'Esikoulu' } },
-    { slug: 'kindergarten', labels: { en: 'Kindergarten', de: 'Kindergarten', fr: 'Grande Section', es: 'Jard\u00edn de Infantes', it: 'Scuola Materna', pt: 'Jardim de Inf\u00e2ncia', nl: 'Groep 1-2', sv: 'F\u00f6rskoleklass', da: '0. Klasse', no: 'F\u00f8rskole', fi: 'Esikoulu' } },
-    { slug: 'first-grade', labels: { en: 'Grade 1', de: '1. Klasse', fr: 'CP', es: '1\u00b0 Grado', it: '1\u00aa Elementare', pt: '1\u00ba Ano', nl: 'Groep 3', sv: '\u00c5rskurs 1', da: '1. Klasse', no: '2. Klasse', fi: '1. Luokka' } },
-    { slug: 'second-grade', labels: { en: 'Grade 2', de: '2. Klasse', fr: 'CE1', es: '2\u00b0 Grado', it: '2\u00aa Elementare', pt: '2\u00ba Ano', nl: 'Groep 4', sv: '\u00c5rskurs 2', da: '2. Klasse', no: '3. Klasse', fi: '2. Luokka' } },
-    { slug: 'third-grade', labels: { en: 'Grade 3', de: '3. Klasse', fr: 'CE2', es: '3\u00b0 Grado', it: 'Terza elementare', pt: '3\u00ba Ano', nl: 'Groep 5', sv: '\u00c5rskurs 3', da: '3. klasse', no: '4. Klasse', fi: '3. luokka' } },
-  ];
-
-  // By Theme - links to theme worksheets pages
-  const byThemeTitle: Record<string, string> = {
-    en: 'By Theme', de: 'Nach Thema', fr: 'Par Th\u00e8me', es: 'Por Tema',
-    it: 'Per Tema', pt: 'Por Tema', nl: 'Per Thema', sv: 'Per Tema',
-    da: 'Per Tema', no: 'Per Tema', fi: 'Teemoittain'
-  };
-
-  const viewAllThemesLabel: Record<string, string> = {
-    en: 'View All 50 Themes \u2192',
-    de: 'Alle 50 Themen ansehen \u2192',
-    fr: 'Voir les 50 th\u00e8mes \u2192',
-    es: 'Ver los 50 temas \u2192',
-    pt: 'Ver os 50 temas \u2192',
-    it: 'Vedi tutti i 50 temi \u2192',
-    nl: "Bekijk alle 50 thema's \u2192",
-    sv: 'Visa alla 50 teman \u2192',
-    da: 'Se alle 50 temaer \u2192',
-    no: 'Se alle 50 temaer \u2192',
-    fi: 'N\u00e4yt\u00e4 kaikki 50 teemaa \u2192',
-  };
-
-  const themeLinks = [
-    { id: 'animals', labels: { en: 'Animals', de: 'Tiere', fr: 'Animaux', es: 'Animales', pt: 'Animais', it: 'Animali', nl: 'Dieren', sv: 'Djur', da: 'Dyr', no: 'Dyr', fi: 'El\u00e4imet' } },
-    { id: 'dinosaurs', labels: { en: 'Dinosaurs', de: 'Dinosaurier', fr: 'Dinosaures', es: 'Dinosaurios', pt: 'Dinossauros', it: 'Dinosauri', nl: 'Dinosaurussen', sv: 'Dinosaurier', da: 'Dinosaurer', no: 'Dinosaurer', fi: 'Dinosaurukset' } },
-    { id: 'space', labels: { en: 'Space', de: 'Weltraum', fr: 'Espace', es: 'Espacio', pt: 'Espa\u00e7o', it: 'Spazio', nl: 'Ruimte', sv: 'Rymden', da: 'Rummet', no: 'Verdensrommet', fi: 'Avaruus' } },
-    { id: 'ocean', labels: { en: 'Ocean', de: 'Ozean', fr: 'Oc\u00e9an', es: 'Oc\u00e9ano', pt: 'Oceano', it: 'Oceano', nl: 'Oceaan', sv: 'Havet', da: 'Havet', no: 'Havet', fi: 'Meri' } },
-    { id: 'farm', labels: { en: 'Farm', de: 'Bauernhof', fr: 'Ferme', es: 'Granja', pt: 'Fazenda', it: 'Fattoria', nl: 'Boerderij', sv: 'Bondg\u00e5rd', da: 'Bondeg\u00e5rd', no: 'Bondeg\u00e5rd', fi: 'Maatila' } },
-    { id: 'nature', labels: { en: 'Nature', de: 'Natur', fr: 'Nature', es: 'Naturaleza', pt: 'Natureza', it: 'Natura', nl: 'Natuur', sv: 'Natur', da: 'Natur', no: 'Natur', fi: 'Luonto' } },
-    { id: 'sports', labels: { en: 'Sports', de: 'Sport', fr: 'Sports', es: 'Deportes', pt: 'Esportes', it: 'Sport', nl: 'Sport', sv: 'Sport', da: 'Sport', no: 'Sport', fi: 'Urheilu' } },
-    { id: 'food', labels: { en: 'Food', de: 'Essen', fr: 'Nourriture', es: 'Comida', pt: 'Comida', it: 'Cibo', nl: 'Eten', sv: 'Mat', da: 'Mad', no: 'Mat', fi: 'Ruoka' } },
-    { id: 'seasons', labels: { en: 'Seasons', de: 'Jahreszeiten', fr: 'Saisons', es: 'Estaciones', pt: 'Esta\u00e7\u00f5es', it: 'Stagioni', nl: 'Seizoenen', sv: 'S\u00e4songer', da: 'S\u00e6soner', no: 'Sesonger', fi: 'Vuodenajat' } },
-    { id: 'fairy-tales', labels: { en: 'Fairy Tales', de: 'M\u00e4rchen', fr: 'Contes', es: 'Cuentos', pt: 'Contos', it: 'Fiabe', nl: 'Sprookjes', sv: 'Sagor', da: 'Eventyr', no: 'Eventyr', fi: 'Sadut' } },
-  ];
-
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
       <div className="container mx-auto px-4">
-        {/* Main footer grid - 8 columns on desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
+        {/* Main footer grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">{companyName}</h3>
             <p className="text-sm">{tagline}</p>
           </div>
 
-          {/* Popular Generators Section - Direct links to product pages for SEO */}
+          {/* Popular Generators Section */}
           <div>
             <h4 className="text-white font-semibold mb-4">
               {popularGeneratorsTitle[locale] || 'Popular Generators'}
@@ -198,95 +120,6 @@ export function Footer() {
               })}
             </ul>
           </div>
-
-          {/* By Subject - Category hub page links */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">
-              {bySubjectTitle[locale] || 'By Subject'}
-            </h4>
-            <ul className="space-y-2 text-sm">
-              {subjectLinks.map(subject => (
-                <li key={subject.slug}>
-                  <Link href={`/${locale}/apps/category/${getProductCategorySlug(subject.slug, locale)}`} className="hover:text-white">
-                    {subject.labels[locale as keyof typeof subject.labels] || subject.labels.en}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* By Grade - Grade-level page links */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">
-              {byGradeTitle[locale] || 'By Grade'}
-            </h4>
-            <ul className="space-y-2 text-sm">
-              {gradeLinks.map(grade => (
-                <li key={grade.slug}>
-                  <Link href={`/${locale}/apps/grades/${getGradeSlug(grade.slug, locale) || grade.slug}`} className="hover:text-white">
-                    {grade.labels[locale as keyof typeof grade.labels] || grade.labels.en}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* By Theme - Theme worksheets page links */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">
-              {byThemeTitle[locale] || 'By Theme'}
-            </h4>
-            <ul className="space-y-2 text-sm">
-              {themeLinks.map(theme => {
-                const slug = getThemeSlug(theme.id, locale);
-                if (!slug) return null;
-                return (
-                  <li key={theme.id}>
-                    <Link href={`/${locale}/worksheets/${slug}`} className="hover:text-white">
-                      {theme.labels[locale as keyof typeof theme.labels] || theme.labels.en}
-                    </Link>
-                  </li>
-                );
-              })}
-              <li className="mt-2">
-                <Link href={`/${locale}/worksheets`} className="text-purple-400 hover:text-white font-medium">
-                  {viewAllThemesLabel[locale] || viewAllThemesLabel.en}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Product Section */}
-          {sections.product && (
-            <div>
-              <h4 className="text-white font-semibold mb-4">
-                {sections.product.title || 'Product'}
-              </h4>
-              <ul className="space-y-2 text-sm">
-                {sections.product.links?.apps && (
-                  <li>
-                    <Link href={`/${locale}/apps`} className="hover:text-white">
-                      {sections.product.links.apps}
-                    </Link>
-                  </li>
-                )}
-                {sections.product.links?.pricing && (
-                  <li>
-                    <Link href={`/${locale}/pricing`} className="hover:text-white">
-                      {sections.product.links.pricing}
-                    </Link>
-                  </li>
-                )}
-                {sections.product.links?.blog && (
-                  <li>
-                    <Link href={`/${locale}/blog`} className="hover:text-white">
-                      {sections.product.links.blog}
-                    </Link>
-                  </li>
-                )}
-              </ul>
-            </div>
-          )}
 
           {/* Support Section */}
           {sections.support && (

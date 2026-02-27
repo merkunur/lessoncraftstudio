@@ -4,9 +4,6 @@ import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { normalizeSlug } from '@/lib/slug-utils';
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { invalidateBlogListingCache } from '@/lib/blog-data';
-import { invalidateSampleCache } from '@/lib/sample-utils';
-import { invalidateBlogLinkCache } from '@/lib/blog-internal-links';
 
 export const dynamic = 'force-dynamic';
 
@@ -139,9 +136,6 @@ export async function PUT(
     }
 
     // Invalidate in-memory caches
-    invalidateBlogListingCache();
-    invalidateBlogLinkCache();
-    invalidateSampleCache();
 
     return NextResponse.json({ post });
   } catch (error) {
@@ -189,9 +183,6 @@ export async function DELETE(
     });
 
     // Invalidate in-memory caches
-    invalidateBlogListingCache();
-    invalidateBlogLinkCache();
-    invalidateSampleCache();
 
     return NextResponse.json({ message: 'Post deleted successfully' });
   } catch (error) {

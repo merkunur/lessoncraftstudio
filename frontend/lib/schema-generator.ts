@@ -5,7 +5,6 @@
  */
 
 import { SUPPORTED_LOCALES } from '@/config/locales';
-import { getBlogCategorySlug } from '@/config/blog-category-slugs';
 
 /**
  * Localized author schema fields for BlogPosting Person author
@@ -199,7 +198,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
       "@type": "ListItem",
       "position": 3,
       "name": post.categoryDisplayName || post.category,
-      "item": `${baseUrl}/${locale}/blog/category/${getBlogCategorySlug(post.category, locale)}`
+      "item": `${baseUrl}/${locale}/blog/category/${post.category}`
     });
   }
 

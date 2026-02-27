@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import VideoLightbox from './VideoLightbox';
 
 interface HomepageHeroProps {
   locale: string;
@@ -185,7 +184,7 @@ const localeContent: Record<string, {
 export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+  const isVideoPlaying = false;
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Get content for current locale, fallback to English
@@ -463,11 +462,6 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </Link>
-              </div>
-
-              {/* Video Demo Button */}
-              <div className="flex justify-center lg:justify-start mb-6">
-                <VideoLightbox locale={locale} onOpenChange={setIsVideoPlaying} />
               </div>
 
               {/* Trust badges */}

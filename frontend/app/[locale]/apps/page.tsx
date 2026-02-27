@@ -1,83 +1,355 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Button } from '@/components/ui/Button';
-import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
-import { generateAppsCollectionSchema, generateAppsItemListSchema, generateFAQSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
-import { productPageSlugs } from '@/config/product-page-slugs';
+import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
 
-// Localized SEO metadata for all 11 languages
-// Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
+// ============================================================
+// SEO METADATA (entrepreneur-focused, all 11 locales)
+// ============================================================
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: '33 Free Worksheet Generators for Teachers — Printable PDFs | LessonCraftStudio',
-    description: 'Browse all 33 free worksheet generators. Create word searches, crosswords, math worksheets, coloring pages and more. Download printable PDFs instantly.',
-    keywords: 'free worksheet generators for teachers, printable worksheet maker online, educational worksheet creator tools, math worksheet generator free, word search generator for kids, crossword puzzle maker classroom, coloring page generator printable, PDF worksheet tools for education, worksheet generator preschool to 3rd grade, create worksheets online free, teacher worksheet tools no login, printable activity generators for school'
+    title: '33 Printable Generators | Create & Sell on Etsy & Amazon KDP | LessonCraftStudio',
+    description: 'Browse all 33 professional printable generators. Create word searches, math worksheets, coloring pages, puzzles & more. Try free with watermark. Sell on Etsy, Amazon KDP.',
+    keywords: 'printable generator, Etsy printables, KDP worksheets, sell printables online, word search generator, math worksheet maker, coloring page creator, crossword puzzle generator, printable business tools, create and sell printables',
   },
   de: {
-    title: '33 Kostenlose Arbeitsblatt-Generatoren | Mathe, Sprache, R\u00e4tsel | LessonCraftStudio',
-    description: 'Alle 33 Arbeitsblatt-Generatoren entdecken. Wortsuche, Kreuzwortr\u00e4tsel, Mathe-Arbeitsbl\u00e4tter, Ausmalbilder & mehr erstellen. Druckbare PDFs sofort herunterladen.',
-    keywords: 'Arbeitsblatt-Generator-Plattform, Lehrmittel-Software, Unterrichtsmaterial-Ersteller, 33 Generatoren, Klassenzimmer-Tools, pädagogische App-Suite, Lehrer-Ressourcen-Plattform, Bildungstechnologie, Arbeitsblatt-Erstellung, digitale Lernwerkzeuge'
+    title: '33 Druckvorlagen-Generatoren | Erstellen & Verkaufen auf Etsy & KDP | LessonCraftStudio',
+    description: 'Alle 33 professionellen Druckvorlagen-Generatoren entdecken. Wortsuche, Mathe-Arbeitsblätter, Ausmalbilder, Rätsel & mehr. Gratis mit Wasserzeichen testen. Auf Etsy & Amazon KDP verkaufen.',
+    keywords: 'Druckvorlagen-Generator, Etsy Druckvorlagen, KDP Arbeitsblätter, Druckvorlagen online verkaufen, Wortsuche-Generator, Arbeitsblatt-Ersteller, Ausmalbilder-Generator, Kreuzworträtsel-Generator, Printable-Business',
   },
   fr: {
-    title: '33 G\u00e9n\u00e9rateurs de Fiches Gratuits | Maths, Fran\u00e7ais, Puzzles | LessonCraftStudio',
-    description: 'D\u00e9couvrez 33 g\u00e9n\u00e9rateurs de fiches gratuits. Cr\u00e9ez mots cach\u00e9s, mots crois\u00e9s, fiches maths, coloriages & plus. T\u00e9l\u00e9chargez des PDF imprimables instantan\u00e9ment.',
-    keywords: 'plateforme générateur de fiches, suite éducative, outils pédagogiques enseignants, 33 générateurs, créateur ressources classe, logiciel création fiches, technologie éducative, plateforme enseignants, outils numériques école, application éducative'
+    title: '33 Générateurs d\'Imprimables | Créez & Vendez sur Etsy & KDP | LessonCraftStudio',
+    description: 'Découvrez 33 générateurs d\'imprimables professionnels. Mots cachés, fiches maths, coloriages, puzzles & plus. Essai gratuit avec filigrane. Vendez sur Etsy & Amazon KDP.',
+    keywords: 'générateur imprimables, Etsy imprimables, KDP fiches, vendre imprimables en ligne, générateur mots cachés, créateur fiches maths, générateur coloriages, business imprimables',
   },
   es: {
-    title: '33 Generadores de Fichas Gratis | Matem\u00e1ticas, Lenguaje, Puzzles | LessonCraftStudio',
-    description: 'Explore 33 generadores de fichas gratis. Cree sopa de letras, crucigramas, fichas de matem\u00e1ticas, colorear & m\u00e1s. Descargue PDF imprimibles al instante.',
-    keywords: 'plataforma generador fichas, suite educativa, herramientas docentes, 33 generadores, creador recursos aula, software educativo, tecnología educativa, plataforma profesores, herramientas digitales escuela, aplicación pedagógica'
-  },
-  pt: {
-    title: '33 Geradores de Atividades Gr\u00e1tis | Matem\u00e1tica, Portugu\u00eas, Puzzles | LessonCraftStudio',
-    description: 'Descubra 33 geradores de atividades gr\u00e1tis. Crie ca\u00e7a-palavras, palavras cruzadas, atividades de matem\u00e1tica, colorir & mais. Baixe PDFs imprim\u00edveis na hora.',
-    keywords: 'plataforma gerador atividades, suite educacional, ferramentas professores, 33 geradores, criador recursos sala aula, software educacional, tecnologia educacional, plataforma docentes, ferramentas digitais escola, aplicativo pedagógico'
+    title: '33 Generadores de Imprimibles | Crea y Vende en Etsy y KDP | LessonCraftStudio',
+    description: 'Explora 33 generadores de imprimibles profesionales. Sopa de letras, fichas de matemáticas, colorear, puzzles y más. Prueba gratis con marca de agua. Vende en Etsy y Amazon KDP.',
+    keywords: 'generador imprimibles, Etsy imprimibles, KDP fichas, vender imprimibles online, generador sopa letras, creador fichas matemáticas, generador colorear, negocio imprimibles',
   },
   it: {
-    title: '33 Generatori di Schede Gratis | Matematica, Italiano, Puzzle | LessonCraftStudio',
-    description: 'Scopri 33 generatori di schede gratis. Crea cerca parole, cruciverba, schede di matematica, disegni da colorare & altro. Scarica PDF stampabili subito.',
-    keywords: 'piattaforma generatore schede, suite educativa, strumenti didattici insegnanti, 33 generatori, creatore risorse classe, software educativo, tecnologia didattica, piattaforma docenti, strumenti digitali scuola, applicazione pedagogica'
+    title: '33 Generatori di Stampabili | Crea e Vendi su Etsy e KDP | LessonCraftStudio',
+    description: 'Scopri 33 generatori di stampabili professionali. Cerca parole, schede matematica, disegni da colorare, puzzle e altro. Prova gratis con filigrana. Vendi su Etsy e Amazon KDP.',
+    keywords: 'generatore stampabili, Etsy stampabili, KDP schede, vendere stampabili online, generatore cerca parole, creatore schede matematica, generatore disegni colorare, business stampabili',
+  },
+  pt: {
+    title: '33 Geradores de Imprimíveis | Crie e Venda no Etsy e KDP | LessonCraftStudio',
+    description: 'Descubra 33 geradores de imprimíveis profissionais. Caça-palavras, atividades de matemática, colorir, puzzles e mais. Teste grátis com marca d\'agua. Venda no Etsy e Amazon KDP.',
+    keywords: 'gerador imprimíveis, Etsy imprimíveis, KDP atividades, vender imprimíveis online, gerador caça-palavras, criador atividades matemática, negócio imprimíveis',
   },
   nl: {
-    title: '33 Werkblad Generatoren — Gratis PDF | LessonCraftStudio',
-    description: 'Ontdek 33 gratis werkblad generatoren. Maak woordzoekers, kruiswoordpuzzels, rekenwerkbladen, kleurplaten & meer. Download printbare PDFs direct. Gratis.',
-    keywords: 'werkblad generator platform, educatieve software suite, leerkracht hulpmiddelen, 33 generatoren, lesmaterialen creator, onderwijstechnologie, leerkrachten platform, digitale leermiddelen, educatieve applicatie, klaslokaal tools'
+    title: '33 Printbare Generatoren | Maak & Verkoop op Etsy & KDP | LessonCraftStudio',
+    description: 'Ontdek 33 professionele printbare generatoren. Woordzoekers, rekenwerkbladen, kleurplaten, puzzels & meer. Gratis proberen met watermerk. Verkoop op Etsy & Amazon KDP.',
+    keywords: 'printbare generator, Etsy printables, KDP werkbladen, printables online verkopen, woordzoeker generator, werkblad maker, kleurplaat generator, printable business',
   },
   sv: {
-    title: '33 Arbetsblad Generatorer \u2014 Gratis PDF | LessonCraftStudio',
-    description: 'Utforska 33 gratis arbetsblad generatorer. Skapa ordjaktar, korsord, mattearbetsblad, m\u00e5larbilder & mer. Ladda ner utskrivbara PDFer direkt. Ingen registrering.',
-    keywords: 'arbetsblad generator plattform, pedagogisk mjukvara, lärarverktyg, 33 generatorer, lärresurser skapare, utbildningsteknik, lärarplattform, digitala läromedel, pedagogisk applikation, klassrumsverktyg'
+    title: '33 Utskriftsgeneratorer | Skapa & Sälj på Etsy & KDP | LessonCraftStudio',
+    description: 'Utforska 33 professionella utskriftsgeneratorer. Ordsökningar, mattearbetsblad, målarbilder, pussel & mer. Prova gratis med vattenstämpel. Sälj på Etsy & Amazon KDP.',
+    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP arbetsblad, sälja utskrifter online, ordsökningsgenerator, arbetsbladsskapare, utskriftsföretag',
   },
   da: {
-    title: 'Alle 33 Opgavegeneratorer til B\u00f8rn | LessonCraftStudio',
-    description: 'Udforsk 33 gratis arbejdsark generatorer. Lav ords\u00f8gning, krydsord, matematikopgaver, malebog & mere. Hent printbare PDFer med det samme. Ingen tilmelding.',
-    keywords: 'arbejdsark generator platform, pædagogisk software, lærerværktøjer, 33 generatorer, undervisningsressourcer skaber, uddannelsesteknologi, lærerplatform, digitale læringsmaterialer, pædagogisk applikation, klasseværelses værktøjer'
+    title: '33 Printbare Generatorer | Opret & Sælg på Etsy & KDP | LessonCraftStudio',
+    description: 'Udforsk 33 professionelle printbare generatorer. Ordsøgninger, matematikopgaver, malebøger, puslespil & mere. Prøv gratis med vandmærke. Sælg på Etsy & Amazon KDP.',
+    keywords: 'printbar generator, Etsy printables, KDP opgaver, sælg printables online, ordsøgningsgenerator, opgaveskaber, printable virksomhed',
   },
   no: {
-    title: '33 Arbeidsark Generatorer \u2014 Gratis PDF | LessonCraftStudio',
-    description: 'Utforsk 33 gratis arbeidsark generatorer. Lag ords\u00f8k, kryssord, matteoppgaver, fargelegging & mer. Last ned utskrivbare PDFer direkte. Ingen registrering.',
-    keywords: 'arbeidsark generator plattform, pedagogisk programvare, lærerverktøy, 33 generatorer, undervisningsressurser skaper, utdanningsteknologi, lærerplattform, digitale læringsmaterialer, pedagogisk applikasjon, klasseromverktøy'
+    title: '33 Utskriftsgeneratorer | Lag & Selg på Etsy & KDP | LessonCraftStudio',
+    description: 'Utforsk 33 profesjonelle utskriftsgeneratorer. Ordsøk, matteoppgaver, fargelegging, puslespill & mer. Prøv gratis med vannmerke. Selg på Etsy & Amazon KDP.',
+    keywords: 'utskriftsgenerator, Etsy utskrifter, KDP oppgaver, selg utskrifter online, ordsøkgenerator, oppgaveskaper, utskriftsvirksomhet',
   },
   fi: {
-    title: '33 Ilmaista Teht\u00e4v\u00e4generaattoria | LessonCraftStudio',
-    description: 'Tutustu 33 ilmaiseen teht\u00e4v\u00e4generaattoriin. Luo sanaristikkoja, ristisanateht\u00e4vi\u00e4, matematiikkateht\u00e4vi\u00e4, v\u00e4rityskuvia ja lis\u00e4\u00e4. Lataa tulostettavat PDFt heti.',
-    keywords: 'tehtäväarkki generaattori alusta, opetusohjelma suite, opettajan työkalut, 33 generaattoria, opetusresurssien luoja, opetusteknologia, opettajien alusta, digitaaliset oppimateriaalit, pedagoginen sovellus, luokkahuonetyökalut'
-  }
+    title: '33 Tulostettavaa Generaattoria | Luo & Myy Etsyssä & KDP:ssä | LessonCraftStudio',
+    description: 'Tutustu 33 ammattimaiseen tulostettavaan generaattoriin. Sanaristikkoja, matematiikkatehtäviä, värityskuvia, palapelejä & lisää. Kokeile ilmaiseksi vesileimalla. Myy Etsyssä & Amazon KDP:ssä.',
+    keywords: 'tulostettava generaattori, Etsy tulostettavat, KDP tehtävät, myy tulostettavia verkossa, sanaristikkogeneraattori, tulostettavien liiketoiminta',
+  },
 };
 
+// ============================================================
+// PAGE CONTENT (all 11 locales)
+// ============================================================
+const localeContent: Record<string, {
+  heroTitle: string;
+  heroSubtitle: string;
+  tryFree: string;
+  details: string;
+  trustNoAccount: string;
+  trustAllFree: string;
+  trustCommercial: string;
+  ctaTitle: string;
+  ctaSubtitle: string;
+  ctaButton: string;
+  categories: Record<string, { name: string; description: string }>;
+}> = {
+  en: {
+    heroTitle: '33 Professional Printable Generators',
+    heroSubtitle: 'Create professional printables for your business. Word searches, math worksheets, coloring pages, puzzles & more. Try all 33 generators free with watermark.',
+    tryFree: 'Try Free',
+    details: 'Details',
+    trustNoAccount: 'No account required',
+    trustAllFree: 'All 33 generators free',
+    trustCommercial: 'Commercial license available',
+    ctaTitle: 'Start Creating Printables Today',
+    ctaSubtitle: 'Try all 33 generators free with watermark. No account required. See the quality before you buy.',
+    ctaButton: 'Try Free with Watermark',
+    categories: {
+      math: { name: 'Math Mastery', description: '6 professional math generators — addition, subtraction, puzzles & more' },
+      literacy: { name: 'Literacy & Language', description: '7 word and language generators — word search, scramble, writing & more' },
+      visual: { name: 'Visual Learning', description: '7 visual generators — coloring pages, drawing, patterns & more' },
+      matching: { name: 'Matching & Sorting', description: '5 matching generators — bingo, grid match, shadow match & more' },
+      puzzle: { name: 'Puzzles & Logic', description: '4 puzzle generators — sudoku, missing pieces, odd one out & more' },
+      search: { name: 'Search & Find', description: '4 search generators — crossword, treasure hunt, find objects & more' },
+    },
+  },
+  de: {
+    heroTitle: '33 professionelle Druckvorlagen-Generatoren',
+    heroSubtitle: 'Erstellen Sie professionelle Druckvorlagen für Ihr Business. Wortsuche, Mathe-Arbeitsblätter, Ausmalbilder, Rätsel & mehr. Alle 33 Generatoren gratis mit Wasserzeichen testen.',
+    tryFree: 'Gratis testen',
+    details: 'Details',
+    trustNoAccount: 'Kein Konto erforderlich',
+    trustAllFree: 'Alle 33 Generatoren gratis',
+    trustCommercial: 'Kommerzielle Lizenz verfügbar',
+    ctaTitle: 'Starten Sie noch heute mit Druckvorlagen',
+    ctaSubtitle: 'Alle 33 Generatoren gratis mit Wasserzeichen testen. Kein Konto erforderlich. Qualität vor dem Kauf prüfen.',
+    ctaButton: 'Gratis mit Wasserzeichen testen',
+    categories: {
+      math: { name: 'Mathematik', description: '6 professionelle Mathe-Generatoren — Addition, Subtraktion, Rätsel & mehr' },
+      literacy: { name: 'Lesen & Sprache', description: '7 Wort- und Sprach-Generatoren — Wortsuche, Buchstabensalat, Schreiben & mehr' },
+      visual: { name: 'Visuelles Lernen', description: '7 visuelle Generatoren — Ausmalbilder, Zeichnen, Muster & mehr' },
+      matching: { name: 'Zuordnung & Sortierung', description: '5 Zuordnungs-Generatoren — Bingo, Gitter-Match, Schatten-Match & mehr' },
+      puzzle: { name: 'Rätsel & Logik', description: '4 Rätsel-Generatoren — Sudoku, fehlende Teile, Außenseiter & mehr' },
+      search: { name: 'Suchen & Finden', description: '4 Such-Generatoren — Kreuzworträtsel, Schatzsuche, Objekte finden & mehr' },
+    },
+  },
+  fr: {
+    heroTitle: '33 générateurs d\'imprimables professionnels',
+    heroSubtitle: 'Créez des imprimables professionnels pour votre business. Mots cachés, fiches maths, coloriages, puzzles & plus. Essayez les 33 générateurs gratuits avec filigrane.',
+    tryFree: 'Essai gratuit',
+    details: 'Détails',
+    trustNoAccount: 'Aucun compte requis',
+    trustAllFree: '33 générateurs gratuits',
+    trustCommercial: 'Licence commerciale disponible',
+    ctaTitle: 'Commencez à créer des imprimables',
+    ctaSubtitle: 'Essayez les 33 générateurs gratuits avec filigrane. Aucun compte requis. Voyez la qualité avant d\'acheter.',
+    ctaButton: 'Essai gratuit avec filigrane',
+    categories: {
+      math: { name: 'Mathématiques', description: '6 générateurs de maths — addition, soustraction, puzzles & plus' },
+      literacy: { name: 'Lecture & Langage', description: '7 générateurs de mots — mots cachés, anagrammes, écriture & plus' },
+      visual: { name: 'Apprentissage visuel', description: '7 générateurs visuels — coloriages, dessin, motifs & plus' },
+      matching: { name: 'Association & Tri', description: '5 générateurs d\'association — bingo, grille, ombres & plus' },
+      puzzle: { name: 'Puzzles & Logique', description: '4 générateurs de puzzles — sudoku, pièces manquantes, intrus & plus' },
+      search: { name: 'Chercher & Trouver', description: '4 générateurs de recherche — mots croisés, chasse au trésor, objets cachés & plus' },
+    },
+  },
+  es: {
+    heroTitle: '33 generadores de imprimibles profesionales',
+    heroSubtitle: 'Crea imprimibles profesionales para tu negocio. Sopa de letras, fichas de matemáticas, colorear, puzzles y más. Prueba los 33 generadores gratis con marca de agua.',
+    tryFree: 'Probar gratis',
+    details: 'Detalles',
+    trustNoAccount: 'Sin cuenta requerida',
+    trustAllFree: '33 generadores gratis',
+    trustCommercial: 'Licencia comercial disponible',
+    ctaTitle: 'Empieza a crear imprimibles hoy',
+    ctaSubtitle: 'Prueba los 33 generadores gratis con marca de agua. Sin cuenta requerida. Comprueba la calidad antes de comprar.',
+    ctaButton: 'Probar gratis con marca de agua',
+    categories: {
+      math: { name: 'Matemáticas', description: '6 generadores de matemáticas — suma, resta, puzzles y más' },
+      literacy: { name: 'Lectura y Lenguaje', description: '7 generadores de palabras — sopa de letras, anagramas, escritura y más' },
+      visual: { name: 'Aprendizaje Visual', description: '7 generadores visuales — colorear, dibujo, patrones y más' },
+      matching: { name: 'Emparejamiento', description: '5 generadores de emparejamiento — bingo, cuadrícula, sombras y más' },
+      puzzle: { name: 'Puzzles y Lógica', description: '4 generadores de puzzles — sudoku, piezas faltantes, intruso y más' },
+      search: { name: 'Busca y Encuentra', description: '4 generadores de búsqueda — crucigrama, búsqueda del tesoro, objetos ocultos y más' },
+    },
+  },
+  it: {
+    heroTitle: '33 generatori di stampabili professionali',
+    heroSubtitle: 'Crea stampabili professionali per il tuo business. Cerca parole, schede matematica, disegni da colorare, puzzle e altro. Prova tutti i 33 generatori gratis con filigrana.',
+    tryFree: 'Prova gratis',
+    details: 'Dettagli',
+    trustNoAccount: 'Nessun account richiesto',
+    trustAllFree: '33 generatori gratuiti',
+    trustCommercial: 'Licenza commerciale disponibile',
+    ctaTitle: 'Inizia a creare stampabili oggi',
+    ctaSubtitle: 'Prova tutti i 33 generatori gratis con filigrana. Nessun account richiesto. Verifica la qualità prima di acquistare.',
+    ctaButton: 'Prova gratis con filigrana',
+    categories: {
+      math: { name: 'Matematica', description: '6 generatori di matematica — addizione, sottrazione, puzzle e altro' },
+      literacy: { name: 'Lettura e Linguaggio', description: '7 generatori di parole — cerca parole, anagrammi, scrittura e altro' },
+      visual: { name: 'Apprendimento Visivo', description: '7 generatori visivi — disegni da colorare, disegno, motivi e altro' },
+      matching: { name: 'Abbinamento', description: '5 generatori di abbinamento — bingo, griglia, ombre e altro' },
+      puzzle: { name: 'Puzzle e Logica', description: '4 generatori di puzzle — sudoku, pezzi mancanti, intruso e altro' },
+      search: { name: 'Cerca e Trova', description: '4 generatori di ricerca — cruciverba, caccia al tesoro, oggetti nascosti e altro' },
+    },
+  },
+  pt: {
+    heroTitle: '33 geradores de imprimíveis profissionais',
+    heroSubtitle: 'Crie imprimíveis profissionais para seu negócio. Caça-palavras, atividades de matemática, colorir, puzzles e mais. Experimente os 33 geradores grátis com marca d\'agua.',
+    tryFree: 'Teste grátis',
+    details: 'Detalhes',
+    trustNoAccount: 'Sem conta necessária',
+    trustAllFree: '33 geradores grátis',
+    trustCommercial: 'Licença comercial disponível',
+    ctaTitle: 'Comece a criar imprimíveis hoje',
+    ctaSubtitle: 'Experimente os 33 geradores grátis com marca d\'agua. Sem conta necessária. Veja a qualidade antes de comprar.',
+    ctaButton: 'Teste grátis com marca d\'agua',
+    categories: {
+      math: { name: 'Matemática', description: '6 geradores de matemática — adição, subtração, puzzles e mais' },
+      literacy: { name: 'Leitura e Linguagem', description: '7 geradores de palavras — caça-palavras, anagramas, escrita e mais' },
+      visual: { name: 'Aprendizagem Visual', description: '7 geradores visuais — colorir, desenho, padrões e mais' },
+      matching: { name: 'Correspondência', description: '5 geradores de correspondência — bingo, grade, sombras e mais' },
+      puzzle: { name: 'Puzzles e Lógica', description: '4 geradores de puzzles — sudoku, peças faltantes, intruso e mais' },
+      search: { name: 'Procure e Encontre', description: '4 geradores de busca — palavras cruzadas, caça ao tesouro, objetos escondidos e mais' },
+    },
+  },
+  nl: {
+    heroTitle: '33 professionele printbare generatoren',
+    heroSubtitle: 'Maak professionele printables voor je business. Woordzoekers, rekenwerkbladen, kleurplaten, puzzels & meer. Probeer alle 33 generatoren gratis met watermerk.',
+    tryFree: 'Gratis proberen',
+    details: 'Details',
+    trustNoAccount: 'Geen account nodig',
+    trustAllFree: 'Alle 33 generatoren gratis',
+    trustCommercial: 'Commerciële licentie beschikbaar',
+    ctaTitle: 'Begin vandaag met printables maken',
+    ctaSubtitle: 'Probeer alle 33 generatoren gratis met watermerk. Geen account nodig. Bekijk de kwaliteit voor je koopt.',
+    ctaButton: 'Gratis proberen met watermerk',
+    categories: {
+      math: { name: 'Wiskunde', description: '6 professionele wiskunde generatoren — optellen, aftrekken, puzzels & meer' },
+      literacy: { name: 'Lezen & Taal', description: '7 woord- en taalgeneratoren — woordzoeker, woordmix, schrijven & meer' },
+      visual: { name: 'Visueel Leren', description: '7 visuele generatoren — kleurplaten, tekenen, patronen & meer' },
+      matching: { name: 'Matchen & Sorteren', description: '5 matching generatoren — bingo, rastermatching, schaduwmatching & meer' },
+      puzzle: { name: 'Puzzels & Logica', description: '4 puzzelgeneratoren — sudoku, ontbrekende stukken, vreemde eend & meer' },
+      search: { name: 'Zoeken & Vinden', description: '4 zoekgeneratoren — kruiswoordpuzzel, schattenjacht, objecten zoeken & meer' },
+    },
+  },
+  sv: {
+    heroTitle: '33 professionella utskriftsgeneratorer',
+    heroSubtitle: 'Skapa professionella utskrifter för ditt företag. Ordsökningar, mattearbetsblad, målarbilder, pussel & mer. Prova alla 33 generatorer gratis med vattenstämpel.',
+    tryFree: 'Prova gratis',
+    details: 'Detaljer',
+    trustNoAccount: 'Inget konto krävs',
+    trustAllFree: 'Alla 33 generatorer gratis',
+    trustCommercial: 'Kommersiell licens tillgänglig',
+    ctaTitle: 'Börja skapa utskrifter idag',
+    ctaSubtitle: 'Prova alla 33 generatorer gratis med vattenstämpel. Inget konto krävs. Se kvaliteten innan du köper.',
+    ctaButton: 'Prova gratis med vattenstämpel',
+    categories: {
+      math: { name: 'Matematik', description: '6 professionella mattegeneratorer — addition, subtraktion, pussel & mer' },
+      literacy: { name: 'Läsning & Språk', description: '7 ord- och språkgeneratorer — ordsökning, ordmix, skrivning & mer' },
+      visual: { name: 'Visuellt Lärande', description: '7 visuella generatorer — målarbilder, ritning, mönster & mer' },
+      matching: { name: 'Matchning & Sortering', description: '5 matchningsgeneratorer — bingo, rutmatching, skuggmatching & mer' },
+      puzzle: { name: 'Pussel & Logik', description: '4 pusselgeneratorer — sudoku, saknade bitar, udda ut & mer' },
+      search: { name: 'Sök & Hitta', description: '4 sökgeneratorer — korsord, skattjakt, hitta objekt & mer' },
+    },
+  },
+  da: {
+    heroTitle: '33 professionelle printbare generatorer',
+    heroSubtitle: 'Opret professionelle printables til din virksomhed. Ordsøgninger, matematikopgaver, malebøger, puslespil & mere. Prøv alle 33 generatorer gratis med vandmærke.',
+    tryFree: 'Prøv gratis',
+    details: 'Detaljer',
+    trustNoAccount: 'Ingen konto påkrævet',
+    trustAllFree: 'Alle 33 generatorer gratis',
+    trustCommercial: 'Kommerciel licens tilgængelig',
+    ctaTitle: 'Begynd at lave printables i dag',
+    ctaSubtitle: 'Prøv alle 33 generatorer gratis med vandmærke. Ingen konto påkrævet. Se kvaliteten før du køber.',
+    ctaButton: 'Prøv gratis med vandmærke',
+    categories: {
+      math: { name: 'Matematik', description: '6 professionelle matematikgeneratorer — addition, subtraktion, puslespil & mere' },
+      literacy: { name: 'Læsning & Sprog', description: '7 ord- og sproggeneratorer — ordsøgning, ordmix, skrivning & mere' },
+      visual: { name: 'Visuel Læring', description: '7 visuelle generatorer — malebøger, tegning, mønstre & mere' },
+      matching: { name: 'Matching & Sortering', description: '5 matchinggeneratorer — bingo, gittermatching, skyggematch & mere' },
+      puzzle: { name: 'Puslespil & Logik', description: '4 puslespilgeneratorer — sudoku, manglende brikker, mærkelig en ud & mere' },
+      search: { name: 'Søg & Find', description: '4 søgegeneratorer — krydsord, skattejagt, find objekter & mere' },
+    },
+  },
+  no: {
+    heroTitle: '33 profesjonelle utskriftsgeneratorer',
+    heroSubtitle: 'Lag profesjonelle utskrifter for din virksomhet. Ordsøk, matteoppgaver, fargelegging, puslespill & mer. Prøv alle 33 generatorer gratis med vannmerke.',
+    tryFree: 'Prøv gratis',
+    details: 'Detaljer',
+    trustNoAccount: 'Ingen konto nødvendig',
+    trustAllFree: 'Alle 33 generatorer gratis',
+    trustCommercial: 'Kommersiell lisens tilgjengelig',
+    ctaTitle: 'Begynn å lage utskrifter i dag',
+    ctaSubtitle: 'Prøv alle 33 generatorer gratis med vannmerke. Ingen konto nødvendig. Se kvaliteten før du kjøper.',
+    ctaButton: 'Prøv gratis med vannmerke',
+    categories: {
+      math: { name: 'Matematikk', description: '6 profesjonelle mattegeneratorer — addisjon, subtraksjon, puslespill & mer' },
+      literacy: { name: 'Lesing & Språk', description: '7 ord- og språkgeneratorer — ordsøk, ordmiks, skriving & mer' },
+      visual: { name: 'Visuell Læring', description: '7 visuelle generatorer — fargelegging, tegning, mønstre & mer' },
+      matching: { name: 'Matching & Sortering', description: '5 matchinggeneratorer — bingo, rutematching, skyggematching & mer' },
+      puzzle: { name: 'Puslespill & Logikk', description: '4 puslespillgeneratorer — sudoku, manglende brikker, odde ut & mer' },
+      search: { name: 'Søk & Finn', description: '4 søkegeneratorer — kryssord, skattejakt, finn objekter & mer' },
+    },
+  },
+  fi: {
+    heroTitle: '33 ammattimaista tulostettavaa generaattoria',
+    heroSubtitle: 'Luo ammattimaisia tulostettavia liiketoimintaasi varten. Sanaristikkoja, matematiikkatehtäviä, värityskuvia, palapelejä & lisää. Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla.',
+    tryFree: 'Kokeile ilmaiseksi',
+    details: 'Tiedot',
+    trustNoAccount: 'Ei tiliä tarvita',
+    trustAllFree: 'Kaikki 33 generaattoria ilmaiseksi',
+    trustCommercial: 'Kaupallinen lisenssi saatavilla',
+    ctaTitle: 'Aloita tulostettavien luominen tänään',
+    ctaSubtitle: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Ei tiliä tarvita. Näe laatu ennen ostamista.',
+    ctaButton: 'Kokeile ilmaiseksi vesileimalla',
+    categories: {
+      math: { name: 'Matematiikka', description: '6 ammattimaista matematiikkageneraattoria — yhteenlasku, vähennys, palapelit & lisää' },
+      literacy: { name: 'Lukutaito & Kieli', description: '7 sana- ja kieligeneraattoria — sanaristikko, sanamix, kirjoittaminen & lisää' },
+      visual: { name: 'Visuaalinen oppiminen', description: '7 visuaalista generaattoria — värityskuvat, piirtäminen, kuviot & lisää' },
+      matching: { name: 'Yhdistäminen & Lajittelu', description: '5 yhdistämisgeneraattoria — bingo, ruudukkoyhdistäminen, varjoyhdistäminen & lisää' },
+      puzzle: { name: 'Palapelit & Logiikka', description: '4 palapeligeneraattoria — sudoku, puuttuvat palat, pariton pois & lisää' },
+      search: { name: 'Etsi & Löydä', description: '4 hakugeneraattoria — ristisanatehtävä, aarteenetsintä, löydä esineet & lisää' },
+    },
+  },
+};
+
+// ============================================================
+// MAPPING: warriorplus app ID → product-page-slugs app ID
+// (only entries where the IDs differ)
+// ============================================================
+const appIdToSlugId: Record<string, string> = {
+  'addition': 'image-addition',
+  'wordsearch': 'word-search',
+  'cryptogram': 'image-cryptogram',
+  'writing': 'writing-app',
+  'big-small': 'big-small-app',
+  'chart-count': 'chart-count-color',
+  'matching': 'matching-app',
+  'bingo': 'picture-bingo',
+  'crossword': 'image-crossword',
+};
+
+// Category rendering order and colors
+const categoryOrder: CategoryId[] = ['math', 'literacy', 'visual', 'matching', 'puzzle', 'search'];
+const categoryColors: Record<string, string> = {
+  math: '#3B82F6',
+  literacy: '#10B981',
+  visual: '#F59E0B',
+  matching: '#8B5CF6',
+  puzzle: '#EF4444',
+  search: '#06B6D4',
+};
+const categoryIcons: Record<string, string> = {
+  math: 'M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z',
+  literacy: 'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253',
+  visual: 'M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z',
+  matching: 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z',
+  puzzle: 'M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z',
+  search: 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z',
+};
+
+// ============================================================
+// METADATA GENERATION
+// ============================================================
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://www.lessoncraftstudio.com';
-
-  // Get localized metadata
   const meta = appsMetadata[locale] || appsMetadata.en;
 
-  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
-  for (const lang of locales) {
+  for (const lang of SUPPORTED_LOCALES) {
     const hreflangCode = getHreflangCode(lang);
     hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/apps`;
   }
@@ -89,7 +361,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     keywords: meta.keywords,
     alternates: {
       canonical: `${baseUrl}/${locale}/apps`,
-      languages: hreflangAlternates
+      languages: hreflangAlternates,
     },
     openGraph: {
       title: meta.title,
@@ -98,1077 +370,197 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       url: `${baseUrl}/${locale}/apps`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
-      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-      images: [{
-        url: `${baseUrl}/opengraph-image.png`,
-        width: 1200,
-        height: 630,
-        alt: 'LessonCraftStudio - 33 Worksheet Generators'
-      }]
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+      images: [{ url: `${baseUrl}/opengraph-image.png`, width: 1200, height: 630, alt: 'LessonCraftStudio - 33 Printable Generators' }],
     },
     twitter: {
       card: 'summary_large_image',
       title: meta.title,
       description: meta.description,
-      images: [`${baseUrl}/opengraph-image.png`]
-    }
+      images: [`${baseUrl}/opengraph-image.png`],
+    },
   };
 }
 
+// ============================================================
+// PAGE COMPONENT
+// ============================================================
 interface PageProps {
-  params: {
-    locale: string;
-  };
+  params: { locale: string };
 }
 
-type AppTier = 'free' | 'core' | 'full';
+export default async function AppsPage({ params }: PageProps) {
+  const locale = params.locale || 'en';
+  const content = localeContent[locale] || localeContent.en;
 
-interface App {
-  id: string;
-  name: string;
-  tier: AppTier;
-  category: string;
-  icon: string;
-  popular?: boolean;
-}
-
-// Hardcoded app data for now (will be replaced with Strapi data)
-const apps: App[] = [
-  // Free Tier (1 app)
-  { id: 'word-search', name: 'Word Search', tier: 'free', category: 'Word Games', icon: '🔍', popular: true },
-  
-  // Core Bundle (10 apps)
-  { id: 'image-addition', name: 'Image Addition', tier: 'core', category: 'Math', icon: '➕', popular: true },
-  { id: 'alphabet-train', name: 'Alphabet Train', tier: 'core', category: 'Language Arts', icon: '🚂', popular: true },
-  { id: 'coloring', name: 'Coloring Pages', tier: 'core', category: 'Art & Creativity', icon: '🎨', popular: true },
-  { id: 'math-worksheet', name: 'Math Worksheets', tier: 'core', category: 'Math', icon: '📐', popular: true },
-  { id: 'word-scramble', name: 'Word Scramble', tier: 'core', category: 'Language Arts', icon: '🔤', popular: true },
-  { id: 'find-and-count', name: 'Find and Count', tier: 'core', category: 'Visual Perception', icon: '🔢', popular: true },
-  { id: 'matching-app', name: 'MatchUp Maker', tier: 'core', category: 'Matching', icon: '🎯', popular: true },
-  { id: 'drawing-lines', name: 'Drawing Lines', tier: 'core', category: 'Fine Motor Skills', icon: '✏️', popular: true },
-  { id: 'picture-bingo', name: 'Picture Bingo', tier: 'core', category: 'Games', icon: '🎲', popular: true },
-  { id: 'sudoku', name: 'Sudoku for Kids', tier: 'core', category: 'Logic', icon: '🧩', popular: true },
-  
-  // Full Access (Additional 23 apps)
-  { id: 'big-small-app', name: 'Big or Small', tier: 'full', category: 'Concepts', icon: '📏' },
-  { id: 'chart-count-color', name: 'Chart Count & Color', tier: 'full', category: 'Math', icon: '📊' },
-  { id: 'code-addition', name: 'Code Addition', tier: 'full', category: 'Math', icon: '🔐' },
-  { id: 'draw-and-color', name: 'Draw and Color', tier: 'full', category: 'Art & Creativity', icon: '🖍️' },
-  { id: 'find-objects', name: 'Find Objects', tier: 'full', category: 'Visual Perception', icon: '👀' },
-  { id: 'grid-match', name: 'Grid Match', tier: 'full', category: 'Matching', icon: '⚡' },
-  { id: 'image-crossword', name: 'Image Crossword', tier: 'full', category: 'Word Games', icon: '❌' },
-  { id: 'image-cryptogram', name: 'Image Cryptogram', tier: 'full', category: 'Logic', icon: '🔒' },
-  { id: 'math-puzzle', name: 'Math Puzzle', tier: 'full', category: 'Math', icon: '🧮' },
-  { id: 'missing-pieces', name: 'Missing Pieces', tier: 'full', category: 'Visual Perception', icon: '🧩' },
-  { id: 'more-less', name: 'More or Less', tier: 'full', category: 'Math', icon: '⚖️' },
-  { id: 'odd-one-out', name: 'Odd One Out', tier: 'full', category: 'Logic', icon: '🎭' },
-  { id: 'pattern-train', name: 'Pattern Train', tier: 'full', category: 'Patterns', icon: '🚂' },
-  { id: 'pattern-worksheet', name: 'Pattern Worksheets', tier: 'full', category: 'Patterns', icon: '🔄' },
-  { id: 'picture-path', name: 'Picture Pathway', tier: 'full', category: 'Logic', icon: '🛤️' },
-  { id: 'picture-sort', name: 'Picture Sort', tier: 'full', category: 'Sorting', icon: '📦' },
-  { id: 'prepositions', name: 'Prepositions', tier: 'full', category: 'Language Arts', icon: '📍' },
-  { id: 'shadow-match', name: 'Shadow Match', tier: 'full', category: 'Matching', icon: '👤' },
-  { id: 'subtraction', name: 'Subtraction', tier: 'full', category: 'Math', icon: '➖' },
-  { id: 'treasure-hunt', name: 'Treasure Hunt', tier: 'full', category: 'Games', icon: '💎' },
-  { id: 'word-guess', name: 'Word Guess', tier: 'full', category: 'Word Games', icon: '❓' },
-  { id: 'writing-app', name: 'English Writing Practice', tier: 'full', category: 'Language Arts', icon: '✍️' }
-];
-
-// Get unique categories
-const categories = Array.from(new Set(apps.map(app => app.category)));
-
-// Helper function to get translated app name
-const getAppName = (appId: string, defaultName: string, locale: string, translations: any) => {
-  if (locale === 'fi' && translations?.appNames) {
-    const finnishNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return finnishNames[appId] || defaultName;
-  } else if (locale === 'no' && translations?.appNames) {
-    const norwegianNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return norwegianNames[appId] || defaultName;
-  } else if (locale === 'da' && translations?.appNames) {
-    const danishNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return danishNames[appId] || defaultName;
-  } else if (locale === 'sv' && translations?.appNames) {
-    const swedishNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return swedishNames[appId] || defaultName;
-  } else if (locale === 'nl' && translations?.appNames) {
-    const dutchNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return dutchNames[appId] || defaultName;
-  } else if (locale === 'pt' && translations?.appNames) {
-    const portugueseNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return portugueseNames[appId] || defaultName;
-  } else if (locale === 'it' && translations?.appNames) {
-    const italianNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return italianNames[appId] || defaultName;
-  } else if (locale === 'fr' && translations?.appNames) {
-    const frenchNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return frenchNames[appId] || defaultName;
-  } else if (locale === 'de' && translations?.appNames) {
-    const germanNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return germanNames[appId] || defaultName;
-  } else if (locale === 'es' && translations?.appNames) {
-    const spanishNames: Record<string, string> = {
-      'word-search': translations.appNames.wordSearch || defaultName,
-      'image-addition': translations.appNames.imageAddition || defaultName,
-      'alphabet-train': translations.appNames.alphabetTrain || defaultName,
-      'coloring': translations.appNames.coloringPages || defaultName,
-      'math-worksheet': translations.appNames.mathWorksheets || defaultName,
-      'word-scramble': translations.appNames.wordScramble || defaultName,
-      'find-and-count': translations.appNames.findAndCount || defaultName,
-      'matching-app': translations.appNames.matchUpMaker || defaultName,
-      'drawing-lines': translations.appNames.drawingLines || defaultName,
-      'picture-bingo': translations.appNames.pictureBingo || defaultName,
-      'sudoku': translations.appNames.sudokuForKids || defaultName,
-      'big-small-app': translations.appNames.bigOrSmall || defaultName,
-      'chart-count-color': translations.appNames.chartCountColor || defaultName,
-      'code-addition': translations.appNames.codeAddition || defaultName,
-      'draw-and-color': translations.appNames.drawAndColor || defaultName,
-      'find-objects': translations.appNames.findObjects || defaultName,
-      'grid-match': translations.appNames.gridMatch || defaultName,
-      'image-crossword': translations.appNames.imageCrossword || defaultName,
-      'image-cryptogram': translations.appNames.imageCryptogram || defaultName,
-      'math-puzzle': translations.appNames.mathPuzzle || defaultName,
-      'missing-pieces': translations.appNames.missingPieces || defaultName,
-      'more-less': translations.appNames.moreOrLess || defaultName,
-      'odd-one-out': translations.appNames.oddOneOut || defaultName,
-      'pattern-train': translations.appNames.patternTrain || defaultName,
-      'pattern-worksheet': translations.appNames.patternWorksheets || defaultName,
-      'picture-path': translations.appNames.picturePathway || defaultName,
-      'picture-sort': translations.appNames.pictureSort || defaultName,
-      'prepositions': translations.appNames.prepositions || defaultName,
-      'shadow-match': translations.appNames.shadowMatch || defaultName,
-      'subtraction': translations.appNames.subtraction || defaultName,
-      'treasure-hunt': translations.appNames.treasureHunt || defaultName,
-      'word-guess': translations.appNames.wordGuess || defaultName,
-      'writing-app': translations.appNames.englishWritingPractice || defaultName
-    };
-    return spanishNames[appId] || defaultName;
-  }
-  return defaultName;
-};
-
-// Helper function to get translated category
-const getCategory = (category: string, locale: string, translations: any) => {
-  if (locale === 'fi' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'no' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'da' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'sv' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'nl' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'pt' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'it' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'fr' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'de' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  } else if (locale === 'es' && translations?.categories) {
-    const categoryMap: Record<string, string> = {
-      'Word Games': translations.categories.wordGames || category,
-      'Math': translations.categories.math || category,
-      'Language Arts': translations.categories.languageArts || category,
-      'Art & Creativity': translations.categories.artCreativity || category,
-      'Visual Perception': translations.categories.visual || category,
-      'Matching': translations.categories.matching || category,
-      'Fine Motor Skills': translations.categories.fineMotorSkills || category,
-      'Games': translations.categories.games || category,
-      'Logic': translations.categories.logic || category,
-      'Concepts': translations.categories.concepts || category,
-      'Patterns': translations.categories.patterns || category,
-      'Sorting': translations.categories.sorting || category
-    };
-    return categoryMap[category] || category;
-  }
-  return category;
-};
-
-// Pillar content (EN only, ~700 words)
-
-const appsPillarContent = {
-  heading: 'The Complete Guide to Free Worksheet Generators',
-  sections: [
-    {
-      title: 'Why Use Worksheet Generators Instead of Static PDFs?',
-      content: 'Traditional worksheet packs contain a fixed number of pages. Once a student finishes them, nothing remains to print. Worksheet generators solve this by creating a brand-new page every time you click print. The content is randomized so no two sheets are ever identical, giving students unlimited practice without repetition. This is essential for building fluency in math facts, spelling patterns, and letter formation. Teachers no longer need to spend evenings searching for fresh material because a single generator replaces an entire filing cabinet of photocopies. Parents appreciate the convenience as well because there is always another worksheet ready the moment a child asks for one. The result is less prep time for adults and more productive practice time for kids. Every page is formatted for clean printing, with large fonts, generous spacing, and clear instructions that let children work independently.',
-    },
-    {
-      title: 'How Our 33 Generators Work',
-      content: 'Every generator on LessonCraftStudio follows a simple three-step process: choose your theme, adjust the settings, and hit print. Behind the scenes the generator builds a unique layout with randomized content including new math problems, different word lists, and fresh image placements, then renders it as a clean, print-ready PDF. The entire cycle takes seconds and requires no account, no download, and no special software. Worksheets are formatted for standard letter-size paper, print cleanly in black and white to save ink, and include clear instructions so students can work independently. Each generator supports 50 engaging themes and all eleven site languages, making it easy to match content to your curriculum or individual student interests.',
-    },
-    {
-      title: 'Eight Categories of Learning Tools',
-      content: 'Our generators span eight skill categories designed to cover the full early-childhood curriculum. Math generators handle addition, subtraction, number comparison, and counting with images. Literacy generators cover alphabet tracing, letter recognition, and writing practice. Word game generators produce word searches, crosswords, and scramble puzzles that build vocabulary and spelling skills. Art generators create themed coloring pages and drawing prompts. Logic generators challenge young minds with Sudoku and code-breaking puzzles. Visual perception tools train pattern spotting, shadow matching, and spatial reasoning. Matching activities develop memory and association skills. Pattern recognition worksheets strengthen the ability to identify and continue sequences. Together these eight categories give teachers a complete toolkit for differentiated instruction.',
-    },
-    {
-      title: 'Built for Every Learner — Preschool Through Third Grade',
-      content: 'Our worksheets serve five grade levels covering ages three to nine. Preschool activities focus on tracing, color recognition, and basic counting. Kindergarten sheets introduce letter formation, simple addition, and pattern work. First-grade worksheets advance to subtraction, sight words, and reading comprehension. Second-grade content covers two-digit operations, expanded vocabulary, and creative writing. Third graders tackle multiplication, cursive practice, and multi-step puzzles. Difficulty scales automatically within each generator so one tool serves an entire mixed-age classroom. This makes our platform especially valuable for special education teachers who need materials at varied readiness levels and for homeschooling families managing multiple children at once.',
-    },
-    {
-      title: 'Designed for the Classroom and Beyond',
-      content: 'Teachers use our generators to create differentiated station work, early-finisher packets, homework sheets, and assessment warm-ups in seconds. Because every print is unique, the same generator serves an entire class without students comparing identical answers. Substitute teachers find the tools invaluable for producing quality activities on short notice. Homeschooling families build weekly unit studies around a single theme, and parents supplement school assignments with extra practice tailored to individual interests. Occupational therapists use tracing and maze worksheets for fine-motor exercises. Speech-language pathologists find value in letter and word activities for articulation practice. Tutors, after-school programs, and summer camps all benefit from the quick turnaround and consistent quality.',
-    },
-    {
-      title: 'Getting Started in Three Steps',
-      content: 'Using LessonCraftStudio could not be simpler. First, browse the app collection on this page or filter by category to find the generator you need. Second, open the generator, pick a theme from 50 options, and adjust settings like difficulty or number of items. Third, click print and a fresh PDF appears in seconds, ready to hand out, assign as homework, or add to a learning station. No account is required, no credit card is needed, and there are no watermarks on any worksheet. Every generator is completely free with no hidden paywalls. The site works on any device with a browser and a printer, and it is available in eleven languages to support multilingual classrooms around the world.',
-    },
-  ],
-};
-
-// FAQ items (EN only, 6 questions)
-
-const appsFaqItems: Array<{question: string; answer: string}> = [
-  {
-    question: 'How do the worksheet generators work?',
-    answer: 'Each generator creates a unique worksheet every time you click print. You choose a theme from 50 options, adjust settings like difficulty level and number of items, and the generator builds a randomized PDF in seconds. No two worksheets are ever the same, so students always get fresh practice material.',
-  },
-  {
-    question: 'Are all 33 generators really free?',
-    answer: 'The Word Search generator is completely free with no restrictions. The remaining 32 generators are available through our Core Bundle at $15 per month or Full Access at $25 per month, both with a free trial. Subscribers can print unlimited worksheets with no watermarks and full commercial-use rights for classroom distribution.',
-  },
-  {
-    question: 'Can I customize the worksheets?',
-    answer: 'Yes. Every generator lets you choose from 50 themes, select a grade level from preschool through third grade, and adjust difficulty settings. Some generators offer additional options like the number of problems, grid size, or word count. The customization ensures that worksheets match your curriculum and student skill levels.',
-  },
-  {
-    question: 'What file format are the worksheets?',
-    answer: 'All worksheets are generated as print-ready PDFs formatted for standard letter-size paper. They print cleanly in black and white to save ink and include large fonts with generous spacing so young learners can work independently. Simply click print in your browser and the PDF is ready.',
-  },
-  {
-    question: 'Do the generators work on mobile devices?',
-    answer: 'Yes. All 33 generators are fully responsive and work on phones, tablets, laptops, and desktop computers. You can preview and print worksheets from any device with a modern browser. Many teachers use a phone to generate a worksheet and print it directly to a classroom printer via wireless printing.',
-  },
-  {
-    question: 'How are these different from static worksheet download sites?',
-    answer: 'Static sites offer a fixed library of pre-made PDFs that eventually run out. Our generators create unlimited unique worksheets on demand with randomized content. Students never repeat the same page twice, and teachers never need to search for new material. You also get 50 themes and five grade levels in a single tool, replacing dozens of separate worksheet packs.',
-  },
-];
-
-export default async function AppsPage({ params: { locale } }: PageProps) {
-  // Load translations
-  let translations: any = {};
-  try {
-    const messages = await import(`@/messages/${locale}.json`);
-    translations = messages.default?.apps || {};
-  } catch (error) {
-    // Fallback to English if translation file doesn't exist
-    console.error(`Failed to load translations for locale: ${locale}`);
-  }
-
-  // Generate JSON-LD schema for SEO
+  // Build schema data
   const collectionSchema = generateAppsCollectionSchema(locale);
-
-  // Generate ItemList schema with all apps for better SERP display
-  const appsForSchema = apps.map(app => {
-    const appConfig = productPageSlugs.find(p => p.appId === app.id);
-    const slug = appConfig?.slugs[locale as keyof typeof appConfig.slugs] || appConfig?.slugs.en || app.id;
-    return {
-      id: app.id,
-      name: getAppName(app.id, app.name, locale, translations),
-      slug,
-      description: `${app.category} worksheet generator`
-    };
+  const appsForSchema = Object.entries(ALL_APPS).map(([appId, app]) => {
+    const slugId = appIdToSlugId[appId] || appId;
+    const slug = getSlugForLocale(slugId, locale as SupportedLocale) || slugId;
+    return { id: appId, name: app.name, slug, description: `${app.category} printable generator` };
   });
   const itemListSchema = generateAppsItemListSchema(locale, appsForSchema);
-
-  const baseUrl = 'https://www.lessoncraftstudio.com';
-  const pageUrl = `${baseUrl}/${locale}/apps`;
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* JSON-LD Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
-      />
-      {locale === 'en' && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFAQSchema(appsFaqItems, locale, pageUrl)) }}
-        />
-      )}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-600 to-blue-700 text-white py-16">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">
-            {locale === 'de' ? translations.heroTitle || '33 Arbeitsblatt-Generatoren' :
-             locale === 'fr' ? translations.heroTitle || '33 générateurs de fiches pédagogiques' :
-             locale === 'es' ? translations.heroTitle || '33 generadores de fichas educativas' :
-             locale === 'it' ? translations.heroTitle || '33 generatori di schede didattiche' :
-             locale === 'pt' ? translations.heroTitle || '33 geradores de atividades educativas' :
-             locale === 'nl' ? translations.heroTitle || '33 werkbladgenerators voor onderwijs' :
-             locale === 'sv' ? translations.heroTitle || '33 pedagogiska arbetsbladsgeneratorer' :
-             locale === 'da' ? translations.heroTitle || '33 pædagogiske arbejdsarkgeneratorer' :
-             locale === 'no' ? translations.heroTitle || '33 pedagogiske arbeidsarkgeneratorer' :
-             locale === 'fi' ? translations.heroTitle || '33 pedagogista tehtävämonistegeneraattoria' :
-             '33 Worksheet Generator Apps'}
+      <section className="relative py-20 overflow-hidden">
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 40%, #16213e 70%, #0f172a 100%)',
+          }}
+        />
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div
+            className="absolute w-[500px] h-[500px] rounded-full opacity-20"
+            style={{
+              background: 'radial-gradient(circle, rgba(6,182,212,0.4) 0%, transparent 70%)',
+              top: '-15%',
+              right: '-10%',
+            }}
+          />
+          <div
+            className="absolute w-[400px] h-[400px] rounded-full opacity-15"
+            style={{
+              background: 'radial-gradient(circle, rgba(168,85,247,0.4) 0%, transparent 70%)',
+              bottom: '-10%',
+              left: '-5%',
+            }}
+          />
+        </div>
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <h1
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight"
+            style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
+          >
+            {content.heroTitle}
           </h1>
-          <p className="text-xl text-center text-blue-100 max-w-3xl mx-auto">
-            {locale === 'de' ? translations.heroSubtitle || 'Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Sammlung pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.' :
-             locale === 'fr' ? translations.heroSubtitle || 'Transformez vos supports pédagogiques avec notre collection complète de générateurs de fiches éducatives. Des mots cachés aux puzzles mathématiques, nous avons tout ce qu\'il vous faut.' :
-             locale === 'es' ? translations.heroSubtitle || 'Transforma tus materiales didácticos con nuestra colección completa de generadores de fichas educativas. Desde sopas de letras hasta acertijos matemáticos, tenemos todo lo que necesitas.' :
-             locale === 'it' ? translations.heroSubtitle || 'Trasforma i tuoi materiali didattici con la nostra collezione completa di generatori di schede educative. Dai crucipuzzle ai rompicapi matematici, abbiamo tutto ciò che ti serve.' :
-             locale === 'pt' ? translations.heroSubtitle || 'Transforme seus materiais didáticos com nossa coleção completa de geradores de atividades educativas. De caça-palavras a desafios matemáticos, temos tudo o que você precisa.' :
-             locale === 'nl' ? translations.heroSubtitle || 'Transformeer je lesmateriaal met onze complete collectie educatieve werkbladgenerators. Van woordzoekers tot rekenpuzzels, we hebben alles wat je nodig hebt.' :
-             locale === 'sv' ? translations.heroSubtitle || 'Förvandla ditt undervisningsmaterial med vår kompletta samling pedagogiska arbetsbladsgeneratorer. Från ordsökning till mattepussel, vi har allt du behöver.' :
-             locale === 'da' ? translations.heroSubtitle || 'Forvandl dit undervisningsmateriale med vores komplette samling af pædagogiske arbejdsarkgeneratorer. Fra ordsøgning til matematikpuslespil, vi har alt du behøver.' :
-             locale === 'no' ? translations.heroSubtitle || 'Forvandle undervisningsmaterialet ditt med vår komplette samling av pedagogiske arbeidsarkgeneratorer. Fra ordsøking til matteoppgaver, vi har alt du trenger.' :
-             locale === 'fi' ? translations.heroSubtitle || 'Uudista opetusmateriaalisi kattavalla kokoelmalla pedagogisia tehtävämonistegeneraattoreita. Sanaristikoista matemaattisiin pulmiin, meillä on kaikki mitä tarvitset.' :
-             'Transform your teaching materials with our comprehensive suite of educational worksheet generators. From word searches to math puzzles, we have everything you need.'}
+          <p className="text-lg sm:text-xl text-white/60 mb-10 max-w-3xl mx-auto">
+            {content.heroSubtitle}
           </p>
-        </div>
-      </section>
-
-      {/* Tier Explanation */}
-      <section className="py-8 bg-white border-b">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="inline-block p-3 bg-green-100 rounded-full mb-3">
-                <span className="text-2xl">🎁</span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2">{locale === 'de' ? translations.tierInfo?.freeTitle || 'Kostenlose Version' :
-                                                             locale === 'fr' ? translations.tierInfo?.freeTitle || 'Version gratuite' :
-                                                             locale === 'es' ? translations.tierInfo?.freeTitle || 'Versión gratuita' :
-                                                             locale === 'it' ? translations.tierInfo?.freeTitle || 'Versione gratuita' :
-                                                             locale === 'pt' ? translations.tierInfo?.freeTitle || 'Versão gratuita' :
-                                                             locale === 'nl' ? translations.tierInfo?.freeTitle || 'Gratis versie' :
-                                                             locale === 'sv' ? translations.tierInfo?.freeTitle || 'Gratisversion' :
-                                                             locale === 'da' ? translations.tierInfo?.freeTitle || 'Gratis version' :
-                                                             locale === 'no' ? translations.tierInfo?.freeTitle || 'Gratisversjon' :
-                                                             locale === 'fi' ? translations.tierInfo?.freeTitle || 'Ilmaisversio' :
-                                                             'Free Tier'}</h3>
-              <p className="text-sm text-gray-600">{locale === 'de' ? translations.tierInfo?.freeDescription || 'Testen Sie den Wortsuche-Generator mit Wasserzeichen' :
-                                                    locale === 'fr' ? translations.tierInfo?.freeDescription || 'Essayez le générateur de mots cachés avec filigrane' :
-                                                    locale === 'es' ? translations.tierInfo?.freeDescription || 'Prueba el generador de sopa de letras con marca de agua' :
-                                                    locale === 'it' ? translations.tierInfo?.freeDescription || 'Prova il generatore di crucipuzzle con filigrana' :
-                                                    locale === 'pt' ? translations.tierInfo?.freeDescription || "Experimente o gerador de caça-palavras com marca d'\u00e1gua" :
-                                                    locale === 'nl' ? translations.tierInfo?.freeDescription || 'Probeer de woordzoeker generator met watermerk' :
-                                                    locale === 'sv' ? translations.tierInfo?.freeDescription || 'Prova ordsökningsgeneratorn med vattenstämpel' :
-                                                    locale === 'da' ? translations.tierInfo?.freeDescription || 'Prøv ordsøgningsgeneratoren med vandmærke' :
-                                                    locale === 'no' ? translations.tierInfo?.freeDescription || 'Prøv ordsøkingsgeneratoren med vannmerke' :
-                                                    locale === 'fi' ? translations.tierInfo?.freeDescription || 'Kokeile sanaristikkogeneraattoria vesileimalla' :
-                                                    'Try Word Search generator with watermarked output'}</p>
+          {/* Trust badges */}
+          <div className="flex flex-wrap justify-center gap-6 text-sm text-white/50">
+            <div className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{content.trustNoAccount}</span>
             </div>
-            
-            <div className="text-center">
-              <div className="inline-block p-3 bg-blue-100 rounded-full mb-3">
-                <span className="text-2xl">⭐</span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2">{locale === 'de' ? translations.tierInfo?.coreTitle || 'Basis-Paket - $15/Monat' :
-                                                             locale === 'fr' ? translations.tierInfo?.coreTitle || 'Pack Essentiel - 15$/mois' :
-                                                             locale === 'es' ? translations.tierInfo?.coreTitle || 'Paquete Esencial - $15/mes' :
-                                                             locale === 'it' ? translations.tierInfo?.coreTitle || 'Pacchetto Essenziale - $15/mese' :
-                                                             locale === 'pt' ? translations.tierInfo?.coreTitle || 'Pacote Essencial - $15/mês' :
-                                                             locale === 'nl' ? translations.tierInfo?.coreTitle || 'Basis Pakket - $15/maand' :
-                                                             locale === 'sv' ? translations.tierInfo?.coreTitle || 'Baspaket - $15/månad' :
-                                                             locale === 'da' ? translations.tierInfo?.coreTitle || 'Kernepakke - $15/måned' :
-                                                             locale === 'no' ? translations.tierInfo?.coreTitle || 'Kjernepakke - $15/måned' :
-                                                             locale === 'fi' ? translations.tierInfo?.coreTitle || 'Peruspaketti - $15/kuukausi' :
-                                                             'Core Bundle - $15/mo'}</h3>
-              <p className="text-sm text-gray-600">{locale === 'de' ? translations.tierInfo?.coreDescription || 'Zugriff auf die 10 beliebtesten Apps mit kommerzieller Lizenz' :
-                                                    locale === 'fr' ? translations.tierInfo?.coreDescription || 'Accès aux 10 applications les plus populaires avec licence commerciale' :
-                                                    locale === 'es' ? translations.tierInfo?.coreDescription || 'Acceso a las 10 aplicaciones más populares con licencia comercial' :
-                                                    locale === 'it' ? translations.tierInfo?.coreDescription || 'Accesso alle 10 app più popolari con licenza commerciale' :
-                                                    locale === 'pt' ? translations.tierInfo?.coreDescription || 'Acesso aos 10 aplicativos mais populares com licença comercial' :
-                                                    locale === 'nl' ? translations.tierInfo?.coreDescription || 'Toegang tot de 10 populairste apps met commerciële licentie' :
-                                                    locale === 'sv' ? translations.tierInfo?.coreDescription || 'Tillgång till de 10 mest populära apparna med kommersiell licens' :
-                                                    locale === 'da' ? translations.tierInfo?.coreDescription || 'Adgang til de 10 mest populære apps med kommerciel licens' :
-                                                    locale === 'no' ? translations.tierInfo?.coreDescription || 'Tilgang til de 10 mest populære appene med kommersiell lisens' :
-                                                    locale === 'fi' ? translations.tierInfo?.coreDescription || 'Pääsy 10 suosituimpaan sovellukseen kaupallisella lisenssillä' :
-                                                    'Access 10 most popular apps with commercial license'}</p>
+            <div className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{content.trustAllFree}</span>
             </div>
-            
-            <div className="text-center">
-              <div className="inline-block p-3 bg-purple-100 rounded-full mb-3">
-                <span className="text-2xl">🚀</span>
-              </div>
-              <h3 className="font-semibold text-lg mb-2">{locale === 'de' ? translations.tierInfo?.fullTitle || 'Vollzugriff - $25/Monat' :
-                                                             locale === 'fr' ? translations.tierInfo?.fullTitle || 'Accès Complet - 25$/mois' :
-                                                             locale === 'es' ? translations.tierInfo?.fullTitle || 'Acceso Completo - $25/mes' :
-                                                             locale === 'it' ? translations.tierInfo?.fullTitle || 'Accesso Completo - $25/mese' :
-                                                             locale === 'pt' ? translations.tierInfo?.fullTitle || 'Acesso Completo - $25/mês' :
-                                                             locale === 'nl' ? translations.tierInfo?.fullTitle || 'Volledige Toegang - $25/maand' :
-                                                             locale === 'sv' ? translations.tierInfo?.fullTitle || 'Full Tillgång - $25/månad' :
-                                                             locale === 'da' ? translations.tierInfo?.fullTitle || 'Fuld Adgang - $25/måned' :
-                                                             locale === 'no' ? translations.tierInfo?.fullTitle || 'Full Tilgang - $25/måned' :
-                                                             locale === 'fi' ? translations.tierInfo?.fullTitle || 'Täysi Pääsy - $25/kuukausi' :
-                                                             'Full Access - $25/mo'}</h3>
-              <p className="text-sm text-gray-600">{locale === 'de' ? translations.tierInfo?.fullDescription || 'Alle 33 Apps, Prioritäts-Support, frühzeitiger Zugang' :
-                                                    locale === 'fr' ? translations.tierInfo?.fullDescription || 'Les 33 applications, support prioritaire, accès anticipé' :
-                                                    locale === 'es' ? translations.tierInfo?.fullDescription || 'Las 33 aplicaciones, soporte prioritario, acceso anticipado' :
-                                                    locale === 'it' ? translations.tierInfo?.fullDescription || 'Tutte le 33 app, supporto prioritario, accesso anticipato' :
-                                                    locale === 'pt' ? translations.tierInfo?.fullDescription || 'Todos os 33 aplicativos, suporte prioritário, acesso antecipado' :
-                                                    locale === 'nl' ? translations.tierInfo?.fullDescription || 'Alle 33 apps, prioriteitsondersteuning, vroege toegang' :
-                                                    locale === 'sv' ? translations.tierInfo?.fullDescription || 'Alla 33 appar, prioriterad support, tidig tillgång' :
-                                                    locale === 'da' ? translations.tierInfo?.fullDescription || 'Alle 33 apps, prioriteret support, tidlig adgang' :
-                                                    locale === 'no' ? translations.tierInfo?.fullDescription || 'Alle 33 apper, prioritert støtte, tidlig tilgang' :
-                                                    locale === 'fi' ? translations.tierInfo?.fullDescription || 'Kaikki 33 sovellusta, priorisoitu tuki, varhainen pääsy' :
-                                                    'All 33 apps, priority support, early access'}</p>
+            <div className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              <span>{content.trustCommercial}</span>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Category Sections */}
+      {categoryOrder.map((catId, index) => {
+        const cat = APP_CATEGORIES[catId];
+        const catContent = content.categories[catId];
+        const color = categoryColors[catId];
+        const iconPath = categoryIcons[catId];
+        const isAlt = index % 2 === 1;
 
-      {/* Pillar Content (EN only) */}
-      {locale === 'en' && (
-        <section className="py-12 bg-blue-50">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-              {appsPillarContent.heading}
-            </h2>
-            {appsPillarContent.sections.map((section, i) => (
-              <div key={i} className="mb-8">
-                <h3 className="text-xl font-semibold text-blue-800 mb-3">{section.title}</h3>
-                <p className="text-gray-700 leading-relaxed">{section.content}</p>
+        return (
+          <section key={catId} className={`py-12 ${isAlt ? 'bg-white' : 'bg-gray-50'}`}>
+            <div className="container mx-auto px-4">
+              {/* Category header */}
+              <div className="flex items-center gap-3 mb-2">
+                <div className="p-2 rounded-lg" style={{ backgroundColor: color + '15' }}>
+                  <svg className="w-6 h-6" style={{ color }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={iconPath} />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold text-gray-900">{catContent.name}</h2>
+                <span className="text-sm font-medium px-2 py-0.5 rounded-full" style={{ backgroundColor: color + '15', color }}>
+                  {cat.apps.length}
+                </span>
               </div>
-            ))}
-          </div>
-        </section>
-      )}
+              <p className="text-gray-500 mb-6 ml-14">{catContent.description}</p>
 
-      {/* Category Filters */}
-      <section className="py-6 bg-white sticky top-0 z-10 shadow-sm">
-        <div className="container mx-auto px-4">
-          <div className="flex gap-2 overflow-x-auto pb-2">
-            <button className="px-4 py-2 bg-gray-900 text-white rounded-full whitespace-nowrap">
-              {locale === 'de' ? translations.filters?.allApps || 'Alle Apps' :
-               locale === 'fr' ? translations.filters?.allApps || 'Toutes les applications' :
-               locale === 'es' ? translations.filters?.allApps || 'Todas las aplicaciones' :
-               locale === 'it' ? translations.filters?.allApps || 'Tutte le app' :
-               locale === 'pt' ? translations.filters?.allApps || 'Todos os aplicativos' :
-               locale === 'nl' ? translations.filters?.allApps || 'Alle apps' :
-               locale === 'sv' ? translations.filters?.allApps || 'Alla appar' :
-               locale === 'da' ? translations.filters?.allApps || 'Alle apps' :
-               locale === 'no' ? translations.filters?.allApps || 'Alle apper' :
-               locale === 'fi' ? translations.filters?.allApps || 'Kaikki sovellukset' :
-               'All Apps'}
-            </button>
-            {categories.map(category => (
-              <button 
-                key={category}
-                className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors whitespace-nowrap"
-              >
-                {getCategory(category, locale, translations)}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Apps Grid */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          {/* Free Tier */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-              <span className="inline-block w-2 h-8 bg-green-500 mr-3"></span>
-              {locale === 'de' ? 'Kostenlose Version' :
-               locale === 'fr' ? 'Version gratuite' :
-               locale === 'es' ? 'Versión gratuita' :
-               locale === 'it' ? 'Versione gratuita' :
-               locale === 'pt' ? 'Versão gratuita' :
-               locale === 'nl' ? 'Gratis versie' :
-               locale === 'sv' ? 'Gratisversion' :
-               locale === 'da' ? 'Gratis version' :
-               locale === 'no' ? 'Gratisversjon' :
-               locale === 'fi' ? 'Ilmaisversio' :
-               'Free Tier'}
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {apps.filter(app => app.tier === 'free').map(app => (
-                <AppCard
-                  key={app.id}
-                  app={app}
-                  locale={locale}
-                  appName={getAppName(app.id, app.name, locale, translations)}
-                  categoryName={getCategory(app.category, locale, translations)}
-                />
-              ))}
+              {/* App grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                {cat.apps.map((appId: AppId) => {
+                  const app = ALL_APPS[appId];
+                  const slugId = appIdToSlugId[appId] || appId;
+                  const detailSlug = getSlugForLocale(slugId, locale as SupportedLocale) || slugId;
+                  return (
+                    <AppCard
+                      key={appId}
+                      appName={app.name}
+                      htmlFile={app.htmlFile}
+                      detailSlug={detailSlug}
+                      locale={locale}
+                      tryFreeLabel={content.tryFree}
+                      detailsLabel={content.details}
+                      accentColor={color}
+                    />
+                  );
+                })}
+              </div>
             </div>
-          </div>
-
-          {/* Core Bundle */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-              <span className="inline-block w-2 h-8 bg-blue-500 mr-3"></span>
-              {locale === 'de' ? 'Basis-Paket' :
-               locale === 'fr' ? 'Pack Essentiel' :
-               locale === 'es' ? 'Paquete Esencial' :
-               locale === 'it' ? 'Pacchetto Essenziale' :
-               locale === 'pt' ? 'Pacote Essencial' :
-               locale === 'nl' ? 'Basis Pakket' :
-               locale === 'sv' ? 'Baspaket' :
-               locale === 'da' ? 'Kernepakke' :
-               locale === 'no' ? 'Kjernepakke' :
-               locale === 'fi' ? 'Peruspaketti' :
-               'Core Bundle'}
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {apps.filter(app => app.tier === 'core').map(app => (
-                <AppCard
-                  key={app.id}
-                  app={app}
-                  locale={locale}
-                  appName={getAppName(app.id, app.name, locale, translations)}
-                  categoryName={getCategory(app.category, locale, translations)}
-                />
-              ))}
-            </div>
-          </div>
-
-          {/* Full Access */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-              <span className="inline-block w-2 h-8 bg-purple-500 mr-3"></span>
-              {locale === 'de' ? 'Vollzugriff Apps' :
-               locale === 'fr' ? 'Accès Complet' :
-               locale === 'es' ? 'Acceso Completo' :
-               locale === 'it' ? 'Accesso Completo' :
-               locale === 'pt' ? 'Acesso Completo' :
-               locale === 'nl' ? 'Volledige Toegang' :
-               locale === 'sv' ? 'Full Tillgång' :
-               locale === 'da' ? 'Fuld Adgang' :
-               locale === 'no' ? 'Full Tilgang' :
-               locale === 'fi' ? 'Täysi Pääsy' :
-               'Full Access Apps'}
-            </h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {apps.filter(app => app.tier === 'full').map(app => (
-                <AppCard
-                  key={app.id}
-                  app={app}
-                  locale={locale}
-                  appName={getAppName(app.id, app.name, locale, translations)}
-                  categoryName={getCategory(app.category, locale, translations)}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section (EN only) */}
-      {locale === 'en' && appsFaqItems.length > 0 && (
-        <section className="py-12 bg-gray-50 border-t border-gray-200">
-          <div className="container mx-auto px-4 max-w-3xl">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-4">
-              {appsFaqItems.map((item, i) => (
-                <details key={i} className="group border border-gray-200 rounded-lg bg-white">
-                  <summary className="flex items-center justify-between cursor-pointer p-5 font-medium text-gray-900">
-                    {item.question}
-                    <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">&#9660;</span>
-                  </summary>
-                  <div className="px-5 pb-5 text-gray-600 leading-relaxed">
-                    {item.answer}
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+          </section>
+        );
+      })}
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">{locale === 'de' ? translations.cta?.title || 'Bereit für großartige Arbeitsblätter?' :
-                                                     locale === 'fr' ? translations.cta?.title || 'Prêt à créer des fiches extraordinaires?' :
-                                                     locale === 'es' ? translations.cta?.title || '¿Listo para crear fichas increíbles?' :
-                                                     locale === 'it' ? translations.cta?.title || 'Pronto per creare schede fantastiche?' :
-                                                     locale === 'pt' ? translations.cta?.title || 'Pronto para criar atividades incríveis?' :
-                                                     locale === 'nl' ? translations.cta?.title || 'Klaar om geweldige werkbladen te maken?' :
-                                                     locale === 'sv' ? translations.cta?.title || 'Redo att skapa fantastiska arbetsblad?' :
-                                                     locale === 'da' ? translations.cta?.title || 'Klar til at lave fantastiske arbejdsark?' :
-                                                     locale === 'no' ? translations.cta?.title || 'Klar til å lage fantastiske arbeidsark?' :
-                                                     locale === 'fi' ? translations.cta?.title || 'Valmis luomaan upeita tehtävämonisteita?' :
-                                                     'Ready to Create Amazing Worksheets?'}</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            {locale === 'de' ? translations.cta?.subtitle || 'Beginnen Sie mit unserem kostenlosen Wortsuche-Generator oder schalten Sie heute alle Apps frei' :
-             locale === 'fr' ? translations.cta?.subtitle || 'Commencez avec notre générateur gratuit de mots cachés ou débloquez toutes les applications dès aujourd\'hui' :
-             locale === 'es' ? translations.cta?.subtitle || 'Comienza con nuestro generador gratuito de sopa de letras o desbloquea todas las aplicaciones hoy mismo' :
-             locale === 'it' ? translations.cta?.subtitle || 'Inizia con il nostro generatore gratuito di crucipuzzle o sblocca tutte le app oggi stesso' :
-             locale === 'pt' ? translations.cta?.subtitle || 'Comece com nosso gerador gratuito de caça-palavras ou desbloqueie todos os aplicativos hoje' :
-             locale === 'nl' ? translations.cta?.subtitle || 'Begin met onze gratis woordzoeker generator of ontgrendel vandaag alle apps' :
-             locale === 'sv' ? translations.cta?.subtitle || 'Börja med vår gratis ordsökningsgenerator eller lås upp alla appar idag' :
-             locale === 'da' ? translations.cta?.subtitle || 'Start med vores gratis ordsøgningsgenerator eller lås alle apps op i dag' :
-             locale === 'no' ? translations.cta?.subtitle || 'Start med vår gratis ordsøkingsgenerator eller lås opp alle apper i dag' :
-             locale === 'fi' ? translations.cta?.subtitle || 'Aloita ilmaisella sanaristikkogeneraattorilla tai avaa kaikki sovellukset tänään' :
-             'Start with our free Word Search generator or unlock all apps today'}
+      <section className="relative py-20 overflow-hidden">
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 40%, #16213e 70%, #0f172a 100%)',
+          }}
+        />
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div
+            className="absolute w-[400px] h-[400px] rounded-full opacity-15"
+            style={{
+              background: 'radial-gradient(circle, rgba(6,182,212,0.4) 0%, transparent 70%)',
+              top: '20%',
+              left: '50%',
+              transform: 'translateX(-50%)',
+            }}
+          />
+        </div>
+        <div className="relative z-10 container mx-auto px-4 text-center">
+          <h2
+            className="text-3xl sm:text-4xl font-bold text-white mb-4"
+            style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
+          >
+            {content.ctaTitle}
+          </h2>
+          <p className="text-lg text-white/60 mb-8 max-w-2xl mx-auto">
+            {content.ctaSubtitle}
           </p>
-          <div className="flex gap-4 justify-center">
-            <Button href={`/${locale}/auth/signup`} variant="secondary" size="lg">
-              {locale === 'de' ? translations.cta?.startFreeTrial || 'Kostenlos testen' :
-               locale === 'fr' ? translations.cta?.startFreeTrial || 'Essai gratuit' :
-               locale === 'es' ? translations.cta?.startFreeTrial || 'Prueba gratuita' :
-               locale === 'it' ? translations.cta?.startFreeTrial || 'Prova gratuita' :
-               locale === 'pt' ? translations.cta?.startFreeTrial || 'Teste grátis' :
-               locale === 'nl' ? translations.cta?.startFreeTrial || 'Gratis proberen' :
-               locale === 'sv' ? translations.cta?.startFreeTrial || 'Prova gratis' :
-               locale === 'da' ? translations.cta?.startFreeTrial || 'Prøv gratis' :
-               locale === 'no' ? translations.cta?.startFreeTrial || 'Prøv gratis' :
-               locale === 'fi' ? translations.cta?.startFreeTrial || 'Kokeile ilmaiseksi' :
-               'Start Free Trial'}
-            </Button>
-            <Button href={`/${locale}/pricing`} variant="primary" size="lg">
-              {locale === 'de' ? translations.cta?.viewPricing || 'Preise ansehen' :
-               locale === 'fr' ? translations.cta?.viewPricing || 'Voir les tarifs' :
-               locale === 'es' ? translations.cta?.viewPricing || 'Ver precios' :
-               locale === 'it' ? translations.cta?.viewPricing || 'Vedi i prezzi' :
-               locale === 'pt' ? translations.cta?.viewPricing || 'Ver preços' :
-               locale === 'nl' ? translations.cta?.viewPricing || 'Bekijk prijzen' :
-               locale === 'sv' ? translations.cta?.viewPricing || 'Se priser' :
-               locale === 'da' ? translations.cta?.viewPricing || 'Se priser' :
-               locale === 'no' ? translations.cta?.viewPricing || 'Se priser' :
-               locale === 'fi' ? translations.cta?.viewPricing || 'Katso hinnat' :
-               'View Pricing'}
-            </Button>
-          </div>
+          <Link
+            href={`/${locale}/apps`}
+            className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
+            style={{
+              background: 'linear-gradient(135deg, #06b6d4 0%, #8b5cf6 50%, #ec4899 100%)',
+              boxShadow: '0 0 40px rgba(6,182,212,0.3), 0 0 80px rgba(168,85,247,0.2)',
+            }}
+
+          >
+            {content.ctaButton}
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+            </svg>
+          </Link>
         </div>
       </section>
     </div>

@@ -730,7 +730,7 @@ function OTOLayout({ config, locale }: Props) {
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg border border-stone-200">
                 <div className="bg-stone-100 px-3 py-2 text-center border-b border-stone-200">
-                  <span className="text-sm font-semibold text-slate-700">{FLAG_EMOJI.fr} Fran\u00e7ais</span>
+                  <span className="text-sm font-semibold text-slate-700">{FLAG_EMOJI.fr} Français</span>
                 </div>
                 <img src={PUZZLE_SAMPLES.french} alt="French word search puzzle" className="w-full" loading="lazy" />
               </div>

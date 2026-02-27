@@ -177,7 +177,7 @@ export default function MemberDashboard() {
           <p style={styles.upgradeText}>
             Upgrade to the Full Toolkit to unlock all 33 apps and 3,000+ images!
           </p>
-          <a href="/buy/mega-bundle" style={styles.upgradeButton}>
+          <a href="/en/apps" style={styles.upgradeButton}>
             Upgrade Now
           </a>
         </div>

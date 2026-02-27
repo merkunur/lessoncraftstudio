@@ -130,7 +130,7 @@ function return410(): NextResponse {
  * - /[locale]/apps/grades/* (grade hub pages)
  * - /buy/* (purchase pages)
  * - /blog/* (non-locale-prefixed blog URLs)
- * - /feed.xml, /sitemap-news.xml, /sitemap-images.xml, /sitemap_index.xml
+ * - /feed.xml, /sitemap-news.xml, /sitemap-images.xml
  */
 function isRemovedRoute(pathname: string): boolean {
   // Non-locale-prefixed removed routes
@@ -140,7 +140,6 @@ function isRemovedRoute(pathname: string): boolean {
   if (pathname === '/feed.xml') return true;
   if (pathname === '/sitemap-news.xml') return true;
   if (pathname === '/sitemap-images.xml') return true;
-  if (pathname === '/sitemap_index.xml') return true;
 
   // Locale-prefixed removed routes: /xx/blog/*, /xx/worksheets/*, etc.
   const localeMatch = pathname.match(/^\/([a-z]{2})\/(.*)/);
@@ -378,6 +377,6 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap_index.xml|sitemap/|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search).*)',
   ]
 };

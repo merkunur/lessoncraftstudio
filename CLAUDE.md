@@ -91,7 +91,7 @@ git add samples/  # BLOCKED by pre-commit hook
 ## IMAGE INFRASTRUCTURE - ISOLATED STORAGE ARCHITECTURE
 
 ### Overview
-- **363 product pages** + **11 homepages** display sample images
+- **33 app detail pages** + **11 homepages** may display sample images
 - Images stored in **isolated directory**: `/var/www/lcs-media/samples/`
 - Images served **directly by nginx** (bypasses Next.js entirely)
 - WebP thumbnails (_thumb.webp) and previews (_preview.webp) generated automatically
@@ -234,7 +234,7 @@ If migrating image library to isolated storage for the first time:
 
 ## STRIPE PROTECTION - ABSOLUTE RULES
 
-**Stripe is in LIVE MODE - real money is involved!**
+**Stripe code was removed during the Feb 2027 pivot (Stage 1). It will be rebuilt for Stage 3. The backup and protection rules remain in effect.**
 
 ### Current Working Configuration
 
@@ -419,34 +419,47 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **NEVER** run TRUNCATE or bulk DELETE on users or subscriptions tables
 - **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/`
 
-## Enriched Content System (Landing Page SEO)
+## Current Architecture (Post-Pivot Feb 2027)
 
-550 content files provide theme-specific educational content for all 50 themes x 11 locales:
+**Business:** Professional Printable Business Toolkit for entrepreneurs, Etsy sellers, Amazon KDP publishers.
 
-| Component | Location |
-|-----------|----------|
-| Content files | `frontend/content/themes/[theme]/[locale].ts` |
-| Type definitions | `frontend/content/themes/types.ts` |
-| Content loader | `frontend/content/themes/index.ts` |
-| Registry | `frontend/content/themes/registry.ts` (breaks circular deps) |
-| Registration | `frontend/content/themes/register-all.ts` |
-| Components | `frontend/components/theme-page/` (7 components) |
-| App mapping | `frontend/config/theme-app-mapping.ts` |
-| Theme categories | `frontend/config/theme-categories.ts` |
-| UI labels | `frontend/config/theme-page-labels.ts` |
-| Theme slugs | `frontend/config/theme-slugs.ts` |
-| Grade slugs | `frontend/config/grade-slugs.ts` |
-| Validation | `scripts/validate-theme-content.js` |
-| Live validation | `scripts/validate-live-pages.js` |
+**Three-stage plan:**
+1. **Stage 1 (CURRENT):** Launch individual apps on WarriorPlus with 50% affiliate commissions
+2. **Stage 2:** Bundle apps into 6 category packages on WarriorPlus
+3. **Stage 3:** Rebuild subscription model, website becomes self-sufficient
 
-### NEVER DO LIST - Enriched Content
-- **NEVER** bulk-delete `frontend/content/themes/` directory
-- **NEVER** remove `register-all.ts` imports without migrating content
-- **NEVER** remove type definitions from `types.ts` that content files depend on
-- **NEVER** change the self-registration pattern without updating all 550 files
+### What's Live
+- **33 worksheet generator apps** (all free with watermark, no signup required)
+- **11 locales:** en, de, fr, es, pt, it, nl, sv, da, no, fi
+- **App detail pages:** `frontend/app/[locale]/apps/[slug]/page.tsx` (localized slugs)
+- **Apps listing:** `frontend/app/[locale]/apps/page.tsx` (6 categories)
+- **Homepage:** Entrepreneur-focused messaging
+- **Auth system:** Intact (login, signup, email verification)
+- **Admin system:** Intact (dormant, accessible at `/dashboard/admin`)
+- **Member portal:** WarriorPlus license key activation at `/member`
+- **Legal pages:** Terms, privacy, license
+- **WarriorPlus integration:** `frontend/config/warriorplus-products.ts` (source of truth for 33 apps, 6 categories)
 
-### Maintenance Guide
-See `docs/ENRICHED-CONTENT-GUIDE.md` for how to add themes, update content, and validate.
+### What's Removed (Returns 410 Gone)
+- Blog (`/[locale]/blog/*`)
+- Theme/worksheet pages (`/[locale]/worksheets/*`)
+- Pricing page (`/[locale]/pricing`)
+- Category pages (`/[locale]/apps/category/*`)
+- Grade pages (`/[locale]/apps/grades/*`)
+- Buy pages (`/buy/*`)
+- Stripe API routes (removed from code, backup preserved)
+- 550 theme content files, 363 product content files
+- Blog components, theme-page components, pricing components
+
+### Key Files
+| File | Purpose |
+|------|---------|
+| `frontend/middleware.ts` | 410 Gone routing for removed URLs + locale handling |
+| `frontend/config/warriorplus-products.ts` | Source of truth: 33 apps, 6 categories |
+| `frontend/config/product-page-slugs.ts` | Localized app detail page slugs (11 locales) |
+| `frontend/app/[locale]/apps/[slug]/page.tsx` | App detail pages |
+| `frontend/app/sitemap.ts` | Sitemap: static pages + app detail pages only |
+| `frontend/lib/schema-generator.ts` | JSON-LD schemas (cleaned, 543 lines) |
 
 ---
 

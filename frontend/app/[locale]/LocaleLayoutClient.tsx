@@ -13,6 +13,12 @@ export function LocaleLayoutClient({
 }) {
   const pathname = usePathname();
 
+  // Sales/funnel pages: 100% standalone — no Navigation, no Footer
+  const isGetRoute = pathname?.startsWith(`/${locale}/get/`) || pathname?.includes('/get/');
+  if (isGetRoute) {
+    return <>{children}</>;
+  }
+
   // Check if we're on an apps route - no footer for better scrolling
   const isAppsRoute = pathname?.includes('/apps/');
 

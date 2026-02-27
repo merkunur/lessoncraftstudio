@@ -3311,11 +3311,77 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return null;
+
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
     async function downloadImageFile(canvasToExport, filename) {
         if (!canvasToExport || canvasToExport.getObjects().filter(o => o.isGenerated || o.isCutOut).length === 0) {
             return showMessage(t('sudoku.msg.generate.content'), 'error');
         }
         showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
+        // Add watermark if free tier
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
         try {
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
@@ -3325,6 +3391,8 @@ document.addEventListener("DOMContentLoaded", function() {
             link.click();
             showMessage(t('sudoku.msg.download.started'), 'success');
         } catch(e) { showMessage(t('sudoku.msg.jpeg.error'), 'error'); console.error(e); }
+        // Remove watermark after export
+        removeWatermarkFromCanvas(canvasToExport, watermarkData);
     }
 
     async function downloadPDF(canvasToExport, filename) {
@@ -3332,6 +3400,8 @@ document.addEventListener("DOMContentLoaded", function() {
             return showMessage(t('sudoku.msg.generate.content'), 'error');
         }
         showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
+        // Add watermark if free tier
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3342,6 +3412,8 @@ document.addEventListener("DOMContentLoaded", function() {
             pdf.save(filename);
             showMessage(t('sudoku.msg.pdf.success'), 'success');
         } catch(e) { showMessage(t('sudoku.msg.pdf.error'), 'error'); console.error(e); }
+        // Remove watermark after export
+        removeWatermarkFromCanvas(canvasToExport, watermarkData);
     }
 
     async function handlePageSizeChange() {

@@ -297,19 +297,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Generadores profesionales de hojas de trabajo para editoriales educativas.",
-    "product": {
-      "title": "Producto",
-      "apps": "Generadores",
-      "pricing": "Precios",
-      "blog": "Blog"
-    },
+    "companyTagline": "Crea y vende imprimibles profesionales para Etsy, KDP y más.",
     "support": {
       "title": "Soporte",
       "helpCenter": "Centro de ayuda",
       "contact": "Contacto",
       "faq": "Preguntas frecuentes",
-      "about": "Sobre nosotros"
+      "about": "Sobre nosotros",
+      "memberArea": "Área de Miembros"
     },
     "legal": {
       "title": "Legal",

@@ -452,19 +452,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Professionella arbetsbladsgeneratorer för utbildningsförlag.",
-    "product": {
-      "title": "Produkt",
-      "apps": "Generatorer",
-      "pricing": "Priser",
-      "blog": "Blogg"
-    },
+    "companyTagline": "Skapa och sälj professionella utskrifter för Etsy, KDP och mer.",
     "support": {
       "title": "Support",
       "helpCenter": "Hjälpcenter",
       "contact": "Kontakt",
       "faq": "Vanliga frågor",
-      "about": "Om oss"
+      "about": "Om oss",
+      "memberArea": "Medlemsområde"
     },
     "legal": {
       "title": "Juridiskt",

@@ -465,19 +465,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Professionele werkbladgenerators voor educatieve uitgevers.",
-    "product": {
-      "title": "Product",
-      "apps": "Generators",
-      "pricing": "Prijzen",
-      "blog": "Blog"
-    },
+    "companyTagline": "Maak en verkoop professionele printbare producten voor Etsy, KDP en meer.",
     "support": {
       "title": "Ondersteuning",
       "helpCenter": "Helpcentrum",
       "contact": "Contact",
       "faq": "Veelgestelde vragen",
-      "about": "Over ons"
+      "about": "Over ons",
+      "memberArea": "Ledengedeelte"
     },
     "legal": {
       "title": "Juridisch",

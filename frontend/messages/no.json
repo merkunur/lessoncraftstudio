@@ -284,19 +284,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Profesjonelle arbeidsarkgeneratorer for utdanningsutgivere.",
-    "product": {
-      "title": "Produkt",
-      "apps": "Generatorer",
-      "pricing": "Priser",
-      "blog": "Blogg"
-    },
+    "companyTagline": "Lag og selg profesjonelle utskrifter for Etsy, KDP og mer.",
     "support": {
       "title": "Støtte",
       "helpCenter": "Hjelpesenter",
       "contact": "Kontakt",
       "faq": "Ofte stilte spørsmål",
-      "about": "Om oss"
+      "about": "Om oss",
+      "memberArea": "Medlemsområde"
     },
     "legal": {
       "title": "Juridisk",

@@ -284,19 +284,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Ammattimaisia työarkkigeneraattoreita opetusalan julkaisijoille.",
-    "product": {
-      "title": "Tuote",
-      "apps": "Generaattorit",
-      "pricing": "Hinnoittelu",
-      "blog": "Blogi"
-    },
+    "companyTagline": "Luo ja myy ammattimaisia tulostettavia Etsyyn, KDP:hen ja muualle.",
     "support": {
       "title": "Tuki",
       "helpCenter": "Ohjekeskus",
       "contact": "Yhteystiedot",
       "faq": "Usein kysytyt kysymykset",
-      "about": "Tietoa meistä"
+      "about": "Tietoa meistä",
+      "memberArea": "Jäsenalue"
     },
     "legal": {
       "title": "Juridiset asiat",

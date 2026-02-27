@@ -465,19 +465,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Generatori professionali di schede didattiche per editori educativi.",
-    "product": {
-      "title": "Prodotto",
-      "apps": "Generatori",
-      "pricing": "Prezzi",
-      "blog": "Blog"
-    },
+    "companyTagline": "Crea e vendi stampabili professionali per Etsy, KDP e altro.",
     "support": {
       "title": "Supporto",
       "helpCenter": "Centro assistenza",
       "contact": "Contatti",
       "faq": "Domande frequenti",
-      "about": "Chi siamo"
+      "about": "Chi siamo",
+      "memberArea": "Area Membri"
     },
     "legal": {
       "title": "Legale",

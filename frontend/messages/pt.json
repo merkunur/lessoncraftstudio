@@ -465,19 +465,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Geradores profissionais de fichas de trabalho para editoras educacionais.",
-    "product": {
-      "title": "Produto",
-      "apps": "Geradores",
-      "pricing": "Preços",
-      "blog": "Blog"
-    },
+    "companyTagline": "Crie e venda imprimíveis profissionais para Etsy, KDP e mais.",
     "support": {
       "title": "Suporte",
       "helpCenter": "Central de ajuda",
       "contact": "Contato",
       "faq": "Perguntas frequentes",
-      "about": "Sobre nós"
+      "about": "Sobre nós",
+      "memberArea": "Área de Membros"
     },
     "legal": {
       "title": "Legal",

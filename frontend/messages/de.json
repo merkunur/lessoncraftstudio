@@ -270,19 +270,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Professionelle Arbeitsblatt-Generatoren für Bildungsverlage.",
-    "product": {
-      "title": "Produkt",
-      "apps": "Generatoren",
-      "pricing": "Preise",
-      "blog": "Blog"
-    },
+    "companyTagline": "Erstellen und verkaufen Sie professionelle Druckvorlagen für Etsy, KDP & mehr.",
     "support": {
       "title": "Unterstützung",
       "helpCenter": "Hilfe-Center",
       "contact": "Kontakt",
       "faq": "Häufige Fragen",
-      "about": "Über uns"
+      "about": "Über uns",
+      "memberArea": "Mitgliederbereich"
     },
     "legal": {
       "title": "Rechtliches",

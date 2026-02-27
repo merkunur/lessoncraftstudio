@@ -297,19 +297,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Générateurs professionnels de fiches pédagogiques pour éditeurs éducatifs.",
-    "product": {
-      "title": "Produit",
-      "apps": "Générateurs",
-      "pricing": "Tarifs",
-      "blog": "Blog"
-    },
+    "companyTagline": "Créez et vendez des imprimables professionnels pour Etsy, KDP et plus.",
     "support": {
       "title": "Assistance",
       "helpCenter": "Centre d'aide",
       "contact": "Contact",
       "faq": "Questions fréquentes",
-      "about": "À propos"
+      "about": "À propos",
+      "memberArea": "Espace Membre"
     },
     "legal": {
       "title": "Mentions légales",

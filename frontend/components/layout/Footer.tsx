@@ -12,17 +12,17 @@ export function Footer() {
 
   const companyName = 'LessonCraftStudio';
   const localizedTaglines: Record<string, string> = {
-    en: 'Professional worksheet generators for educational publishers.',
-    de: 'Professionelle Arbeitsblatt-Generatoren f\u00fcr Bildungsverlage.',
-    fr: 'G\u00e9n\u00e9rateurs de fiches professionnels pour l\u2019\u00e9ducation.',
-    es: 'Generadores de fichas profesionales para educadores.',
-    pt: 'Geradores de atividades profissionais para educadores.',
-    it: 'Generatori di schede professionali per editori educativi.',
-    nl: 'Professionele werkblad-generatoren voor het onderwijs.',
-    sv: 'Professionella arbetsblads-generatorer f\u00f6r utbildning.',
-    da: 'Professionelle arbejdsark-generatorer til uddannelse.',
-    no: 'Profesjonelle arbeidsark-generatorer for utdanning.',
-    fi: 'Ammattimaiset ty\u00f6arkki-generaattorit opetusk\u00e4ytt\u00f6\u00f6n.',
+    en: 'Create and sell professional printables for Etsy, KDP & more.',
+    de: 'Erstellen und verkaufen Sie professionelle Druckvorlagen f\u00fcr Etsy, KDP & mehr.',
+    fr: 'Cr\u00e9ez et vendez des imprimables professionnels pour Etsy, KDP et plus.',
+    es: 'Crea y vende imprimibles profesionales para Etsy, KDP y m\u00e1s.',
+    pt: 'Crie e venda imprim\u00edveis profissionais para Etsy, KDP e mais.',
+    it: 'Crea e vendi stampabili professionali per Etsy, KDP e altro.',
+    nl: 'Maak en verkoop professionele printbare producten voor Etsy, KDP en meer.',
+    sv: 'Skapa och s\u00e4lj professionella utskrifter f\u00f6r Etsy, KDP och mer.',
+    da: 'Opret og s\u00e6lg professionelle printbare produkter til Etsy, KDP og mere.',
+    no: 'Lag og selg profesjonelle utskrifter for Etsy, KDP og mer.',
+    fi: 'Luo ja myy ammattimaisia tulostettavia Etsyyn, KDP:hen ja muualle.',
   };
   const localizedRights: Record<string, string> = {
     en: 'All rights reserved.',
@@ -149,6 +149,11 @@ export function Footer() {
                     </Link>
                   </li>
                 )}
+                <li>
+                  <Link href="/member" className="hover:text-white">
+                    {t('support.memberArea')}
+                  </Link>
+                </li>
               </ul>
             </div>
           )}

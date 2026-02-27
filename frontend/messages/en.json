@@ -1155,19 +1155,14 @@
   },
   "footer": {
     "companyName": "LessonCraftStudio",
-    "companyTagline": "Professional worksheet generators for educational publishers.",
-    "product": {
-      "title": "Product",
-      "apps": "Generators",
-      "pricing": "Pricing",
-      "blog": "Blog"
-    },
+    "companyTagline": "Create and sell professional printables for Etsy, KDP & more.",
     "support": {
       "title": "Support",
       "helpCenter": "Help Center",
       "contact": "Contact",
       "faq": "FAQ",
-      "about": "About Us"
+      "about": "About Us",
+      "memberArea": "Member Area"
     },
     "legal": {
       "title": "Legal",

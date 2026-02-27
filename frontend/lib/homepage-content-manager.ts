@@ -1072,7 +1072,7 @@ class HomepageContentManager {
         price: '$0',
         price_period: '',
         features: {
-          en: ['Word Search Generator', 'Limited image library', 'Watermarked output', 'Basic support'],
+          en: ['Word Search Studio Pro', 'Limited image library', 'Watermarked output', 'Basic support'],
           sv: ['Ordsökningsgenerator', 'Begränsat bildbibliotek', 'Vattenmärkt utdata', 'Grundläggande support']
         },
         cta_text: { en: 'Start Free', sv: 'Börja gratis' },

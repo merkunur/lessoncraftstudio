@@ -355,17 +355,17 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   // ==========================================
 
   // --- Word Search Funnel ---
-  // FE ($27): Word Search Generator — 10 themes, English only, ALL app features
+  // FE ($27): Word Search Studio Pro — 10 themes, English only, ALL app features
   'wordsearch-fe': {
     id: 'wordsearch-fe',
-    name: 'Word Search Generator',
-    description: 'Professional word search puzzle generator. 10 image themes, all grid sizes, canvas editor, PDF export, all features. Full commercial rights included.',
+    name: 'Word Search Studio Pro',
+    description: 'Professional word search puzzle book creation studio. 10 image themes, all grid sizes, canvas editor, PDF export, all features. Full commercial rights included.',
     price: 27,
     comparePrice: 97,
     tier: 'single-app',
     apps: ['wordsearch'] as AppId[],
     features: [
-      'Word Search generator (all grid sizes)',
+      'Word Search Studio Pro (all grid sizes)',
       '10 image themes (~319 images)',
       'Canvas editor (move, resize, rotate, layers)',
       'Custom word lists & image upload',

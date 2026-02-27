@@ -22,22 +22,26 @@ const PUZZLE_SAMPLES = {
 };
 
 const LIBRARY_IMAGES = [
-  { src: '/images/animals/cat.png', label: 'Cat' },
-  { src: '/images/animals/dog.png', label: 'Dog' },
-  { src: '/images/animals/bird.png', label: 'Bird' },
-  { src: '/images/animals/lion.png', label: 'Lion' },
-  { src: '/images/animals/tiger.png', label: 'Tiger' },
-  { src: '/images/animals/fox.png', label: 'Fox' },
-  { src: '/images/animals/cow.png', label: 'Cow' },
-  { src: '/images/animals/pig.png', label: 'Pig' },
-  { src: '/images/animals/sheep.png', label: 'Sheep' },
-  { src: '/images/animals/octopus.png', label: 'Octopus' },
-  { src: '/images/food/apple.png', label: 'Apple' },
-  { src: '/images/food/banana.png', label: 'Banana' },
-  { src: '/images/food/carrot.png', label: 'Carrot' },
-  { src: '/images/food/donut.png', label: 'Donut' },
-  { src: '/images/food/icecream.png', label: 'Ice Cream' },
-  { src: '/images/food/grapes.png', label: 'Grapes' },
+  // Animals (real library: 36 images)
+  { src: '/image-library/animals/cat.png', label: 'Cat' },
+  { src: '/image-library/animals/dog.png', label: 'Dog' },
+  { src: '/image-library/animals/elephant.png', label: 'Elephant' },
+  { src: '/image-library/animals/penguin.png', label: 'Penguin' },
+  // Fruits
+  { src: '/image-library/fruits/apple.png', label: 'Apple' },
+  { src: '/image-library/fruits/banana.png', label: 'Banana' },
+  { src: '/image-library/fruits/cherry.png', label: 'Cherry' },
+  { src: '/image-library/fruits/kiwi.png', label: 'Kiwi' },
+  // Vegetables
+  { src: '/image-library/vegetables/carrot.png', label: 'Carrot' },
+  { src: '/image-library/vegetables/broccoli.png', label: 'Broccoli' },
+  { src: '/image-library/vegetables/corn.png', label: 'Corn' },
+  { src: '/image-library/vegetables/eggplant.png', label: 'Eggplant' },
+  // Christmas
+  { src: '/image-library/christmas/candy cane.png', label: 'Candy Cane' },
+  { src: '/image-library/christmas/gingerbread.png', label: 'Gingerbread' },
+  { src: '/image-library/christmas/bell.png', label: 'Bell' },
+  { src: '/image-library/christmas/angel.png', label: 'Angel' },
 ];
 
 const FLAG_EMOJI: Record<string, string> = {
@@ -153,14 +157,6 @@ function FELayout({ config, locale }: Props) {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
               <CTAButton text={ctaText} href={ctaHref} />
-              {config.hero.ctaSecondary && config.freeAppUrl && (
-                <a
-                  href={config.freeAppUrl}
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl border-2 border-teal-600 text-teal-700 font-semibold hover:bg-teal-50 transition-colors"
-                >
-                  {config.hero.ctaSecondary}
-                </a>
-              )}
             </div>
             {config.hero.trustBadges && (
               <div className="flex flex-wrap justify-center gap-4">
@@ -326,7 +322,7 @@ function FELayout({ config, locale }: Props) {
               <div className="rounded-2xl p-6 bg-red-50 border border-red-100">
                 <h3 className="text-lg font-bold text-red-700 mb-4 flex items-center gap-2">
                   <Icon name="xmark" className="w-5 h-5" weight={2.5} />
-                  Without Word Search Generator
+                  Without Word Search Studio Pro
                 </h3>
                 <ul className="space-y-3">
                   {config.beforeAfter.before.map((b) => (
@@ -340,7 +336,7 @@ function FELayout({ config, locale }: Props) {
               <div className="rounded-2xl p-6 bg-green-50 border border-green-100">
                 <h3 className="text-lg font-bold text-green-700 mb-4 flex items-center gap-2">
                   <Icon name="check" className="w-5 h-5" weight={2.5} />
-                  With Word Search Generator
+                  With Word Search Studio Pro
                 </h3>
                 <ul className="space-y-3">
                   {config.beforeAfter.after.map((a) => (
@@ -381,7 +377,7 @@ function FELayout({ config, locale }: Props) {
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 md:px-6">
           <h2 className="sp-display text-3xl md:text-4xl font-bold text-slate-900 text-center mb-4">See What You Can Create</h2>
-          <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">Real output from the Word Search Generator. Every puzzle is print-ready at 300 DPI.</p>
+          <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">Real output from Word Search Studio Pro. Every puzzle is print-ready at 300 DPI.</p>
           <div className="grid md:grid-cols-2 gap-8 items-start">
             {/* Portrait puzzle in browser frame */}
             <div className="rounded-xl overflow-hidden shadow-xl border border-stone-200">
@@ -409,13 +405,7 @@ function FELayout({ config, locale }: Props) {
             </div>
           </div>
           <div className="text-center mt-8">
-            <a
-              href={config.freeAppUrl || config.demo?.freeUrl || '#'}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-teal-600 text-teal-700 font-semibold hover:bg-teal-50 transition-colors"
-            >
-              Try It Free with Watermark
-              <Icon name="arrow-right" className="w-4 h-4" weight={2} />
-            </a>
+            <CTAButton text={ctaText} href={ctaHref} size="md" />
           </div>
         </div>
       </section>
@@ -432,7 +422,7 @@ function FELayout({ config, locale }: Props) {
               </div>
             ))}
           </div>
-          <p className="text-sm text-slate-500">Showing 16 of 319 images across Animals &amp; Food themes</p>
+          <p className="text-sm text-slate-500">Showing 16 of 319 images across Animals, Fruits, Vegetables &amp; Christmas themes</p>
         </div>
       </section>
 
@@ -862,7 +852,7 @@ function OTOLayout({ config, locale }: Props) {
             ))}
           </div>
           {config.declineText && (
-            <a href={config.freeAppUrl || '#'} className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors">
+            <a href="#" className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors">
               {config.declineText}
             </a>
           )}

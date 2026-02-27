@@ -8,7 +8,7 @@
  * OTO pages use a condensed 7-section structure shown inside the funnel.
  *
  * Funnel:
- *   FE  ($27) — Word Search Generator: 10 themes, English only, ALL app features
+ *   FE  ($27) — Word Search Studio Pro: 10 themes, English only, ALL app features
  *   OTO1 ($37) — Complete Image Library: unlock all 104 themes (3,000+ images)
  *   OTO2 ($27) — All 11 Languages: unlock all 11 languages
  */
@@ -217,22 +217,21 @@ export interface SalesPageConfig {
 export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
   // ══════════════════════════════════════════
-  // FE — Word Search Generator ($27)
+  // FE — Word Search Studio Pro ($27)
   // 10 themes, English only, ALL app features
   // ══════════════════════════════════════════
   'word-search': {
     slug: 'word-search',
     productId: 'wordsearch-fe',
     checkoutUrl: '',
-    freeAppUrl: '/en/apps/word-search-worksheets',
+    freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
     hero: {
-      badge: 'Word Search Generator',
-      headline: 'Create Professional Word Search Puzzles in Minutes',
+      badge: 'Word Search Studio Pro',
+      headline: 'Your Professional Puzzle Book Creation Studio',
       subheadline: '10 curated image themes. All grid sizes. Canvas editor. PDF export with answer keys. Full commercial rights included.',
       ctaPrimary: 'Get Instant Access',
-      ctaSecondary: 'Try Free with Watermark',
       trustBadges: [
         'Watermark-Free Output',
         'Commercial Rights Included',
@@ -309,13 +308,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         'Creating puzzles manually takes hours per page',
         'Formatting for print (KDP, Etsy) requires technical knowledge you don\'t have',
       ],
-      solution: 'Word Search Generator handles all of this automatically. Pick a theme, customize your settings, and export a print-ready PDF with answer key \u2014 in under 3 minutes. No design skills. No learning curve. No formatting headaches.',
+      solution: 'Word Search Studio Pro handles all of this automatically. Pick a theme, customize your settings, and export a print-ready PDF with answer key \u2014 in under 3 minutes. No design skills. No learning curve. No formatting headaches.',
     },
 
     // ── 8. Product Introduction ──────────────
     productIntro: {
-      headline: 'Introducing Word Search Generator',
-      description: 'A professional-grade tool that creates print-ready word search puzzles with embedded images. Unlike basic generators that produce plain text grids, Word Search Generator combines a curated image library with a full canvas editor \u2014 so every puzzle you create looks like it was designed by a professional.',
+      headline: 'Introducing Word Search Studio Pro',
+      description: 'A professional-grade creation studio that produces print-ready word search puzzles with embedded images. Unlike basic generators that produce plain text grids, Word Search Studio Pro combines a curated image library with a full canvas editor \u2014 so every puzzle you create looks like it was designed by a professional.',
       differentiators: [
         'Image library integration \u2014 puzzles feature real themed images, not just text',
         'Full canvas editor \u2014 move, resize, rotate, and layer every element',
@@ -364,7 +363,6 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 11. Demo ─────────────────────────────
     demo: {
       type: 'static-mockup',
-      freeUrl: '/en/apps/word-search-worksheets?tier=free',
     },
 
     // ── 12. How It Works (3 Steps) ───────────
@@ -440,7 +438,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     valueStack: {
       headline: 'Everything Included in Your Purchase',
       items: [
-        { name: 'Word Search Generator (all grid sizes)', value: 97 },
+        { name: 'Word Search Studio Pro (all grid sizes)', value: 97 },
         { name: '10 Image Themes (~319 professional images)', value: 47 },
         { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
         { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
@@ -469,7 +467,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Word Search Generator risk-free for 30 days. If it doesn\'t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: 'Try Word Search Studio Pro risk-free for 30 days. If it doesn\'t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
     },
 
     // ── 18. Urgency ──────────────────────────
@@ -483,7 +481,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     faq: [
       {
         question: 'Is this a subscription?',
-        answer: 'No. This is a one-time payment of $27. You get lifetime access to the Word Search Generator with all features included. No recurring fees, ever.',
+        answer: 'No. This is a one-time payment of $27. You get lifetime access to Word Search Studio Pro with all features included. No recurring fees, ever.',
       },
       {
         question: 'Can I sell the worksheets I create?',
@@ -499,7 +497,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       },
       {
         question: 'What if I\'m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If the Word Search Generator doesn\'t meet your expectations, contact us for a full refund. No questions asked.',
+        answer: 'We offer a 30-day money-back guarantee. If Word Search Studio Pro doesn\'t meet your expectations, contact us for a full refund. No questions asked.',
       },
       {
         question: 'Do I need design skills?',
@@ -516,7 +514,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You\'re getting a professional word search generator, 10 image themes with 319 images, a full canvas editor, PDF export with answer keys, and complete commercial rights \u2014 all for a one-time payment of $27. That\'s less than the cost of a single stock image pack. And with the 30-day money-back guarantee, you risk nothing. Create your first puzzle book today.',
+    closingPs: 'You\'re getting Word Search Studio Pro, 10 image themes with 319 images, a full canvas editor, PDF export with answer keys, and complete commercial rights \u2014 all for a one-time payment of $27. That\'s less than the cost of a single stock image pack. And with the 30-day money-back guarantee, you risk nothing. Create your first puzzle book today.',
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -525,7 +523,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Payment',
       includes: [
-        'Word Search Generator (all grid sizes)',
+        'Word Search Studio Pro (all grid sizes)',
         '10 image themes (~319 images)',
         'Canvas editor with full control',
         'PDF + JPEG export with answer keys',
@@ -540,8 +538,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Word Search Generator \u2014 Create & Sell Professional Puzzles | $27 One-Time',
-      description: 'Create professional word search puzzles in minutes. 10 image themes, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time payment.',
+      title: 'Word Search Studio Pro \u2014 Create & Sell Professional Puzzle Books | $27 One-Time',
+      description: 'Create professional word search puzzle books in minutes. 10 image themes, canvas editor, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time.',
       keywords: 'word search generator, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search',
     },
   },
@@ -651,8 +649,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'Do I need this to use Word Search Generator?',
-        answer: 'No. Word Search Generator works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety \u2014 104 themes means 104+ unique puzzle books you can create and sell.',
+        question: 'Do I need this to use Word Search Studio Pro?',
+        answer: 'No. Word Search Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety \u2014 104 themes means 104+ unique puzzle books you can create and sell.',
       },
       {
         question: 'How does activation work?',
@@ -688,7 +686,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── SEO ──────────────────────────────────
     seo: {
       title: 'Complete Image Library \u2014 104 Themes, 3,000+ Images | $37 One-Time',
-      description: 'Unlock 104 image themes with 3,000+ professionally curated images for your Word Search Generator. Create puzzle books for any niche. $37 one-time.',
+      description: 'Unlock 104 image themes with 3,000+ professionally curated images for Word Search Studio Pro. Create puzzle books for any niche. $37 one-time.',
       keywords: 'word search image library, word search themes, puzzle book images, word search upgrade',
     },
   },
@@ -816,8 +814,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'All 11 Languages \u2014 Word Search Generator Language Pack | $27 One-Time',
-      description: 'Unlock 11 languages for your Word Search Generator. Auto-translated puzzles for German, French, Spanish, and 7 more languages. $27 one-time.',
+      title: 'All 11 Languages \u2014 Word Search Studio Pro Language Pack | $27 One-Time',
+      description: 'Unlock 11 languages for Word Search Studio Pro. Auto-translated puzzles for German, French, Spanish, and 7 more languages. $27 one-time.',
       keywords: 'multilingual word search, word search languages, German word search, French word search, Spanish word search',
     },
   },

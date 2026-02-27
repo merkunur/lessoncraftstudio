@@ -127,7 +127,7 @@ export interface WPlusProduct {
   funnelPosition: 'frontend' | 'oto1' | 'oto2' | 'oto3' | 'downsell';
   wplusProductId?: string; // WarriorPlus product ID (set after listing)
   funnelId?: string; // Groups products into a funnel chain (e.g., 'wordsearch-funnel')
-  premiumFeatures?: string[]; // App-specific premium features for pro-tier products
+  includedThemes?: string[]; // Specific theme names included in this product
   includesCommercialRights: boolean; // All products include full commercial/POD/resale rights
 }
 
@@ -355,45 +355,48 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   // ==========================================
 
   // --- Word Search Funnel ---
+  // FE ($27): Word Search Generator — 10 themes, English only, ALL app features
   'wordsearch-fe': {
     id: 'wordsearch-fe',
     name: 'Word Search Generator',
-    description: 'Professional word search puzzle generator. All grid sizes, image library, canvas editor, PDF export. Full commercial rights included.',
+    description: 'Professional word search puzzle generator. 10 image themes, all grid sizes, canvas editor, PDF export, all features. Full commercial rights included.',
     price: 27,
     comparePrice: 97,
     tier: 'single-app',
     apps: ['wordsearch'] as AppId[],
     features: [
       'Word Search generator (all grid sizes)',
-      '3,000+ theme images (104 themes)',
+      '10 image themes (~319 images)',
       'Canvas editor (move, resize, rotate, layers)',
-      '4 fonts + solid color backgrounds',
+      'Custom word lists & image upload',
+      '4 fonts + text effects + grayscale mode',
       'PDF + JPEG export with answer keys',
       'Watermark-free output',
       'Full commercial/POD/resale rights',
     ],
-    imageCount: 3000,
+    imageCount: 319,
     languages: 1,
     funnelPosition: 'frontend',
     funnelId: 'wordsearch-funnel',
+    includedThemes: ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'],
     includesCommercialRights: true,
   },
 
-  'wordsearch-oto1-literacy': {
-    id: 'wordsearch-oto1-literacy',
-    name: 'Literacy & Language Expansion Pack',
-    description: '6 more literacy & language generators. Word scramble, writing, alphabet train, and more. Full commercial rights included.',
+  // OTO1 ($37): Complete Image Library — unlock all 104 themes (3,000+ images)
+  'wordsearch-oto1-library': {
+    id: 'wordsearch-oto1-library',
+    name: 'Complete Image Library',
+    description: 'Unlock all 104 image themes with 3,000+ professionally curated images. Create puzzle books for any niche.',
     price: 37,
-    comparePrice: 189,
-    tier: 'category-bundle',
-    apps: APP_CATEGORIES.literacy.apps.filter(app => app !== 'wordsearch') as AppId[],
+    comparePrice: 147,
+    tier: 'single-app',
+    apps: ['wordsearch'] as AppId[],
     features: [
-      '6 additional literacy generators',
-      'Alphabet Train, Word Scramble, Writing',
-      'Word Guess, Cryptogram, Prepositions',
-      '3,000+ theme images (104 themes)',
-      'PDF + JPEG export',
-      'Full commercial/POD/resale rights',
+      '104 image themes (3,000+ images)',
+      'Seasonal & holiday themes',
+      'Niche category themes',
+      'Instant activation',
+      'Full commercial rights on all images',
     ],
     imageCount: 3000,
     languages: 1,
@@ -402,44 +405,27 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     includesCommercialRights: true,
   },
 
-  'wordsearch-oto2-pro': {
-    id: 'wordsearch-oto2-pro',
-    name: 'Pro Features Pack',
-    description: 'Unlock premium features for all purchased apps. Extra languages, premium fonts, themed backgrounds, grayscale mode, custom content, and more.',
-    price: 37,
+  // OTO2 ($27): All 11 Languages — unlock all 11 languages
+  'wordsearch-oto2-languages': {
+    id: 'wordsearch-oto2-languages',
+    name: 'All 11 Languages',
+    description: 'Unlock all 11 languages with automatic translation and correct alphabet handling for every language.',
+    price: 27,
     comparePrice: 97,
-    tier: 'pro-features',
-    apps: [], // Applies to all purchased apps
+    tier: 'single-app',
+    apps: ['wordsearch'] as AppId[],
     features: [
-      'Reverse word placement (harder puzzles)',
-      'All 11 languages (access global markets)',
-      '3 premium fonts (Baloo 2, Quicksand, Fredoka)',
-      'Themed backgrounds & decorative borders',
-      'Grayscale mode (KDP print optimization)',
-      'Custom word lists (type any words)',
-      'Custom image upload (your own clipart/logos)',
-      'Manual image name editing',
-      'Text outline/stroke effects',
-      'Custom page sizes (any dimension)',
+      '10 additional languages',
+      'Automatic alphabet handling',
+      'Auto-translated image names',
+      'Instant activation',
+      'Full commercial rights in all languages',
     ],
-    imageCount: 3000,
+    imageCount: 319,
     languages: 11,
     funnelPosition: 'oto2',
     funnelId: 'wordsearch-funnel',
     includesCommercialRights: true,
-    premiumFeatures: [
-      'reverse-words',
-      'all-languages',
-      'premium-fonts',
-      'themed-backgrounds',
-      'decorative-borders',
-      'grayscale-mode',
-      'custom-word-lists',
-      'custom-image-upload',
-      'manual-image-names',
-      'text-outline-stroke',
-      'custom-page-sizes',
-    ],
   },
 };
 
@@ -470,8 +456,8 @@ export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
     id: 'wordsearch-funnel',
     name: 'Word Search Launch Funnel',
     fe: 'wordsearch-fe',
-    oto1: 'wordsearch-oto1-literacy',
-    oto2: 'wordsearch-oto2-pro',
+    oto1: 'wordsearch-oto1-library',
+    oto2: 'wordsearch-oto2-languages',
   },
 };
 
@@ -515,11 +501,7 @@ export function getFunnelForProduct(productId: string): WPlusFunnel | null {
   return WPLUS_FUNNELS[product.funnelId] ?? null;
 }
 
-export function getProductPremiumFeatures(productId: string): string[] {
+export function getProductIncludedThemes(productId: string): string[] {
   const product = WPLUS_PRODUCTS[productId];
-  return product?.premiumFeatures ?? [];
-}
-
-export function hasPremiumFeatures(productId: string): boolean {
-  return getProductPremiumFeatures(productId).length > 0;
+  return product?.includedThemes ?? [];
 }

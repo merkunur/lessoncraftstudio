@@ -28,7 +28,7 @@ export const WelcomeEmail = ({
 }: WelcomeEmailProps) => {
   const planFeatures = {
     free: {
-      en: ['Word Search generator only', 'Unlimited worksheet generation', 'Watermarked downloads', 'Community support'],
+      en: ['Word Search Studio Pro only', 'Unlimited worksheet generation', 'Watermarked downloads', 'Community support'],
       de: ['Nur Wortsuchgenerator', 'Unbegrenzte Arbeitsblatterstellung', 'Downloads mit Wasserzeichen', 'Community-Support'],
       fr: ['Générateur de mots cachés uniquement', 'Génération illimitée de feuilles', 'Téléchargements avec filigrane', 'Support communautaire'],
       es: ['Solo generador de sopa de letras', 'Generación ilimitada de hojas', 'Descargas con marca de agua', 'Soporte comunitario'],

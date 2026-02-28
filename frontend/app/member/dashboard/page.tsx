@@ -2,8 +2,51 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ALL_APPS, APP_CATEGORIES } from '@/config/warriorplus-products';
+import { ALL_APPS, APP_CATEGORIES, WPLUS_PRODUCTS, WPLUS_FUNNELS } from '@/config/warriorplus-products';
 import type { AppId, CategoryId } from '@/config/warriorplus-products';
+
+/**
+ * Compute theme/language entitlements for an app based on owned product IDs.
+ * Returns { themes: string[] | 'all', langs: string[] | 'all' }
+ * - 'all' means no restriction
+ * - Array means only those values are allowed
+ */
+function computeEntitlements(
+  appId: AppId,
+  ownedProductIds: string[],
+  highestTier: string
+): { themes: string[] | 'all'; langs: string[] | 'all' } {
+  // Full-access / commercial / agency overrides everything
+  if (highestTier === 'full-access' || highestTier === 'commercial' || highestTier === 'agency') {
+    return { themes: 'all', langs: 'all' };
+  }
+
+  // Find the funnel for this app (if any)
+  const funnel = Object.values(WPLUS_FUNNELS).find(f => {
+    const feProduct = WPLUS_PRODUCTS[f.fe];
+    return feProduct?.apps.includes(appId);
+  });
+
+  if (!funnel) {
+    // No funnel defined for this app — no restrictions (legacy behavior)
+    return { themes: 'all', langs: 'all' };
+  }
+
+  // Check which funnel products the user owns
+  const ownsFE = ownedProductIds.includes(funnel.fe);
+  const ownsOTO1 = ownedProductIds.includes(funnel.oto1);
+  const ownsOTO2 = ownedProductIds.includes(funnel.oto2);
+
+  // Themes: OTO1 unlocks all themes, otherwise FE themes only
+  const feProduct = WPLUS_PRODUCTS[funnel.fe];
+  const feThemes = feProduct?.includedThemes ?? [];
+  const themes: string[] | 'all' = ownsOTO1 ? 'all' : (feThemes.length > 0 ? feThemes : 'all');
+
+  // Languages: OTO2 unlocks all languages, otherwise English only
+  const langs: string[] | 'all' = ownsOTO2 ? 'all' : ['en'];
+
+  return { themes, langs };
+}
 
 interface MemberAccess {
   email: string;
@@ -66,9 +109,19 @@ export default function MemberDashboard() {
 
   function handleLaunchApp(appId: AppId) {
     const htmlFile = ALL_APPS[appId].htmlFile;
-    // Open the worksheet generator in a new tab with license tier (no watermark for licensed users)
     const tier = access?.highestTier || 'free';
-    const url = `/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=${tier}`;
+
+    // Compute theme/language entitlements based on owned products
+    const ownedProductIds = access?.licenses.map(l => l.productId) || [];
+    const { themes, langs } = computeEntitlements(appId, ownedProductIds, tier);
+
+    // Build URL with entitlement params
+    const params = new URLSearchParams();
+    params.set('tier', tier);
+    params.set('themes', themes === 'all' ? 'all' : themes.join(','));
+    params.set('langs', langs === 'all' ? 'all' : langs.join(','));
+
+    const url = `/worksheet-generators/${encodeURIComponent(htmlFile)}?${params.toString()}`;
     window.open(url, '_blank');
   }
 

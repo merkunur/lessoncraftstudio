@@ -70,10 +70,39 @@ function getFunnelForApp(appId: AppId): WPlusFunnel | null {
   return null;
 }
 
+/* ──────────────────────────────────────────────
+   Category styling for the branded card design
+   ────────────────────────────────────────────── */
+
+const CATEGORY_COLORS: Record<string, {
+  border: string;
+  text: string;
+  bg: string;
+  button: string;
+  pill: string;
+  gradient: string;
+}> = {
+  math:     { border: 'border-l-blue-500',    text: 'text-blue-600',    bg: 'bg-blue-50',    button: 'bg-blue-500 hover:bg-blue-600',     pill: 'bg-blue-100 text-blue-700',     gradient: 'from-blue-500' },
+  literacy: { border: 'border-l-emerald-500',  text: 'text-emerald-600',  bg: 'bg-emerald-50',  button: 'bg-emerald-500 hover:bg-emerald-600', pill: 'bg-emerald-100 text-emerald-700', gradient: 'from-emerald-500' },
+  visual:   { border: 'border-l-amber-500',    text: 'text-amber-600',    bg: 'bg-amber-50',    button: 'bg-amber-500 hover:bg-amber-600',   pill: 'bg-amber-100 text-amber-700',   gradient: 'from-amber-500' },
+  matching: { border: 'border-l-violet-500',   text: 'text-violet-600',   bg: 'bg-violet-50',   button: 'bg-violet-500 hover:bg-violet-600', pill: 'bg-violet-100 text-violet-700', gradient: 'from-violet-500' },
+  puzzle:   { border: 'border-l-red-500',      text: 'text-red-600',      bg: 'bg-red-50',      button: 'bg-red-500 hover:bg-red-600',       pill: 'bg-red-100 text-red-700',       gradient: 'from-red-500' },
+  search:   { border: 'border-l-cyan-500',     text: 'text-cyan-600',     bg: 'bg-cyan-50',     button: 'bg-cyan-500 hover:bg-cyan-600',     pill: 'bg-cyan-100 text-cyan-700',     gradient: 'from-cyan-500' },
+};
+
+const CATEGORY_LABELS: Record<string, string> = {
+  math: 'Math & Number',
+  literacy: 'Letters & Words',
+  visual: 'Drawing & Art',
+  matching: 'Matching & Sorting',
+  puzzle: 'Puzzles & Logic',
+  search: 'Search & Find',
+};
+
 export default function MemberDashboard() {
   const router = useRouter();
   const [access, setAccess] = useState<MemberAccess | null>(null);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [selectedApp, setSelectedApp] = useState<AppId | null>(null);
 
   useEffect(() => {
@@ -89,10 +118,12 @@ export default function MemberDashboard() {
     }
   }, [router]);
 
+  /* ── Loading state ── */
   if (!access) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-slate-700" />
+      <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center gap-3">
+        <div className="animate-spin rounded-full h-10 w-10 border-4 border-gray-200 border-t-primary" />
+        <p className="text-sm text-gray-500 font-medium">Loading your toolkit...</p>
       </div>
     );
   }
@@ -162,198 +193,223 @@ export default function MemberDashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
-      {/* ── Dark Navy Navbar ── */}
-      <header className="bg-slate-800 text-white">
-        <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      {/* ── Branded Header ── */}
+      <header className="sticky top-0 z-50 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+          {/* Left: hamburger + logo + nav */}
           <div className="flex items-center gap-6">
-            {/* Mobile hamburger */}
             <button
-              onClick={() => setSidebarOpen(!sidebarOpen)}
-              className="lg:hidden p-1 rounded hover:bg-slate-700 transition-colors"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden p-2 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors"
             >
-              {sidebarOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
-            {/* Logo */}
             <div className="flex items-center gap-2.5">
-              <div className="h-8 w-8 bg-white/10 rounded-lg flex items-center justify-center">
-                <LayoutGrid className="h-4 w-4 text-white" />
+              <div className="h-9 w-9 bg-primary-50 rounded-xl flex items-center justify-center">
+                <LayoutGrid className="h-5 w-5 text-primary" />
               </div>
-              <span className="text-base font-semibold tracking-tight hidden sm:inline">LessonCraftStudio</span>
+              <span className="text-base font-display font-semibold text-primary tracking-tight hidden sm:inline">
+                LessonCraftStudio
+              </span>
             </div>
-            {/* Nav links (desktop) */}
             <nav className="hidden lg:flex items-center gap-1">
-              <span className="px-3 py-1.5 text-sm font-medium text-white bg-white/10 rounded-md">
+              <span className="px-3 py-1.5 text-sm font-medium text-primary bg-primary-50 rounded-lg">
                 My Apps
               </span>
               <a
                 href="mailto:support@lessoncraftstudio.com"
-                className="px-3 py-1.5 text-sm font-medium text-slate-300 hover:text-white hover:bg-white/10 rounded-md transition-colors"
+                className="px-3 py-1.5 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
               >
                 Support
               </a>
             </nav>
           </div>
-          {/* Right: user + logout */}
+
+          {/* Right: email + logout + avatar */}
           <div className="flex items-center gap-3">
-            <span className="hidden sm:inline text-sm text-slate-300">{access.email}</span>
+            <span className="hidden sm:inline text-sm text-gray-500">{access.email}</span>
             <button
               onClick={handleLogout}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-slate-300 hover:text-white hover:bg-white/10 rounded-md transition-colors"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors"
             >
               <LogOut className="h-4 w-4" />
               <span className="hidden sm:inline">Log out</span>
             </button>
-            <div className="h-8 w-8 bg-slate-600 rounded-full flex items-center justify-center">
-              <User className="h-4 w-4 text-slate-300" />
+            <div className="h-9 w-9 bg-primary-50 rounded-xl flex items-center justify-center">
+              <User className="h-4 w-4 text-primary" />
             </div>
           </div>
         </div>
+
+        {/* Gradient accent border */}
+        <div className="h-[3px] bg-gradient-to-r from-primary to-secondary" />
+
+        {/* Mobile dropdown nav */}
+        {mobileMenuOpen && (
+          <div className="lg:hidden border-t border-gray-100 bg-white shadow-lg">
+            <nav className="px-4 py-3 space-y-1">
+              <span className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-primary bg-primary-50 text-sm font-medium">
+                <LayoutGrid className="h-4 w-4" />
+                My Apps
+              </span>
+              <a
+                href="mailto:support@lessoncraftstudio.com"
+                className="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-gray-600 hover:bg-gray-100 text-sm font-medium transition-colors"
+              >
+                <LifeBuoy className="h-4 w-4" />
+                Support
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
-      <div className="flex flex-1">
-        {/* ── Left Sidebar ── */}
-        <aside className={`${sidebarOpen ? 'block' : 'hidden'} lg:block w-56 bg-white border-r border-gray-200 shrink-0`}>
-          <nav className="py-4 px-3 space-y-1">
-            <div className="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-slate-800 text-white text-sm font-medium">
-              <LayoutGrid className="h-4 w-4" />
-              Apps
-            </div>
-            <a
-              href="mailto:support@lessoncraftstudio.com"
-              className="flex items-center gap-2.5 px-3 py-2 rounded-lg text-gray-600 hover:bg-gray-100 text-sm font-medium transition-colors"
-            >
-              <LifeBuoy className="h-4 w-4" />
-              Support
-            </a>
-          </nav>
-        </aside>
+      {/* ── Main Content (full-width, no sidebar) ── */}
+      <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+        <div className="max-w-7xl mx-auto">
 
-        {/* ── Main Content ── */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-auto">
-          <div className="max-w-6xl mx-auto">
+          {selectedApp === null ? (
+            /* ════════════════════════════════════════
+               VIEW 1: App Card Grid
+               ════════════════════════════════════════ */
+            <section>
+              <h2 className="text-xl font-display font-semibold text-gray-900 mb-5">My Apps</h2>
 
-            {selectedApp === null ? (
-              /* ════════════════════════════════════════
-                 VIEW 1: App Card Grid
-                 ════════════════════════════════════════ */
-              <section>
-                <h2 className="text-xl font-semibold text-gray-900 mb-4">My Apps</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                {accessibleApps.map(appId => {
+                  const app = ALL_APPS[appId];
+                  const hasFunnel = !!getFunnelForApp(appId);
+                  const colors = CATEGORY_COLORS[app.category] || CATEGORY_COLORS.math;
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {accessibleApps.map(appId => {
-                    const app = ALL_APPS[appId];
-                    const hasFunnel = !!getFunnelForApp(appId);
-                    return (
-                      <div
-                        key={appId}
-                        className="bg-white rounded-lg border border-gray-200 p-5"
-                      >
-                        <h3 className="text-lg font-semibold text-gray-900">
-                          {app.name}
-                        </h3>
-                        <p className="text-sm text-gray-500 mt-1">
-                          Create {app.name.toLowerCase()} worksheets
-                        </p>
-
-                        <div className="border-t border-gray-100 mt-4 pt-4 flex gap-2">
-                          <button
-                            onClick={() => hasFunnel ? setSelectedApp(appId) : handleLaunchApp(appId)}
-                            className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-slate-800 hover:bg-slate-900 rounded-full transition-colors"
-                          >
-                            Access Now
-                          </button>
-                          <a
-                            href="mailto:support@lessoncraftstudio.com"
-                            className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-600 border border-gray-300 hover:bg-gray-50 rounded-full transition-colors"
-                          >
-                            Support
-                          </a>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-
-                {accessibleApps.length === 0 && (
-                  <div className="text-center py-12">
-                    <p className="text-gray-500 text-sm">No apps available</p>
-                  </div>
-                )}
-              </section>
-            ) : (
-              /* ════════════════════════════════════════
-                 VIEW 2: Funnel Detail View
-                 ════════════════════════════════════════ */
-              (() => {
-                const app = ALL_APPS[selectedApp];
-                const funnel = getFunnelForApp(selectedApp);
-                if (!funnel) return null;
-
-                const group = funnelGroups.find(g => g.funnel.id === funnel.id);
-                const products = group?.products ?? [];
-
-                return (
-                  <section>
-                    {/* Back link */}
-                    <button
-                      onClick={() => setSelectedApp(null)}
-                      className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-900 mb-6 transition-colors"
+                  return (
+                    <div
+                      key={appId}
+                      className={`bg-white rounded-lg border border-gray-200 border-l-4 ${colors.border} p-5 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200`}
                     >
-                      <ArrowLeft className="h-4 w-4" />
-                      Back to My Apps
-                    </button>
-
-                    {/* Heading */}
-                    <div className="text-center mb-8">
-                      <h2 className="text-2xl font-bold text-gray-900">
-                        {app.name} Generator
-                      </h2>
-                      <p className="text-sm text-gray-500 mt-2 max-w-lg mx-auto">
-                        Use the Access Now options to access your purchases. Additional upgrades unlock more features.
+                      <span className={`text-[11px] font-semibold uppercase tracking-wider ${colors.text}`}>
+                        {CATEGORY_LABELS[app.category] || app.category}
+                      </span>
+                      <h3 className="text-lg font-display font-semibold text-gray-900 mt-1">
+                        {app.name}
+                      </h3>
+                      <p className="text-sm text-gray-500 mt-1">
+                        Create {app.name.toLowerCase()} worksheets
                       </p>
-                    </div>
 
-                    {/* Gray container with product cards */}
-                    <div className="bg-gray-100 rounded-xl p-6 sm:p-8">
+                      <div className="border-t border-gray-100 mt-4 pt-4 flex items-center gap-2">
+                        <button
+                          onClick={() => hasFunnel ? setSelectedApp(appId) : handleLaunchApp(appId)}
+                          className={`flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white ${colors.button} rounded-full transition-colors`}
+                        >
+                          Access Now
+                        </button>
+                        <a
+                          href="mailto:support@lessoncraftstudio.com"
+                          className="inline-flex items-center justify-center w-9 h-9 text-gray-400 hover:text-gray-600 border border-gray-200 hover:bg-gray-50 rounded-full transition-colors shrink-0"
+                          title="Support"
+                        >
+                          <LifeBuoy className="h-4 w-4" />
+                        </a>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {accessibleApps.length === 0 && (
+                <div className="text-center py-12">
+                  <p className="text-gray-500 text-sm">No apps available</p>
+                </div>
+              )}
+            </section>
+          ) : (
+            /* ════════════════════════════════════════
+               VIEW 2: Funnel Detail View
+               ════════════════════════════════════════ */
+            (() => {
+              const app = ALL_APPS[selectedApp];
+              const funnel = getFunnelForApp(selectedApp);
+              if (!funnel) return null;
+
+              const group = funnelGroups.find(g => g.funnel.id === funnel.id);
+              const products = group?.products ?? [];
+              const colors = CATEGORY_COLORS[app.category] || CATEGORY_COLORS.math;
+
+              return (
+                <section>
+                  {/* Back link with slide animation */}
+                  <button
+                    onClick={() => setSelectedApp(null)}
+                    className="group inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-900 mb-6 transition-colors"
+                  >
+                    <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
+                    Back to My Apps
+                  </button>
+
+                  {/* Heading with category badge */}
+                  <div className="text-center mb-8">
+                    <span className={`inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider rounded-full ${colors.pill} mb-3`}>
+                      {CATEGORY_LABELS[app.category] || app.category}
+                    </span>
+                    <h2 className="text-2xl font-display font-bold text-gray-900">
+                      {app.name} Generator
+                    </h2>
+                    <p className="text-sm text-gray-500 mt-2 max-w-lg mx-auto">
+                      Use the Access Now options to access your purchases. Additional upgrades unlock more features.
+                    </p>
+                  </div>
+
+                  {/* White container with colored top gradient */}
+                  <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <div className={`h-1.5 bg-gradient-to-r ${colors.gradient} to-transparent`} />
+                    <div className="p-6 sm:p-8">
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
                         {products.map(({ productId, owned }) => {
                           const product = WPLUS_PRODUCTS[productId];
                           if (!product) return null;
                           const salesPage = getSalesPageByProductId(productId);
 
-                          return (
+                          return owned ? (
+                            /* ── Owned product card ── */
                             <div
                               key={productId}
-                              className="bg-white rounded-lg border border-gray-200 p-5 relative"
+                              className="bg-emerald-50 rounded-lg border border-emerald-200 p-5 relative"
                             >
-                              {/* Green check for owned */}
-                              {owned && (
-                                <div className="absolute top-3 right-3 h-6 w-6 bg-emerald-500 rounded-full flex items-center justify-center">
-                                  <Check className="h-3.5 w-3.5 text-white" />
-                                </div>
-                              )}
-
-                              <h4 className="text-sm font-semibold text-gray-900 pr-8">
+                              <span className="absolute top-3 right-3 inline-flex items-center gap-1 px-2 py-0.5 text-xs font-semibold bg-emerald-100 text-emerald-700 rounded-full">
+                                <Check className="h-3 w-3" />
+                                Owned
+                              </span>
+                              <h4 className="text-sm font-semibold text-gray-900 pr-16">
                                 {product.name}
                               </h4>
-
                               <div className="mt-4">
-                                {owned ? (
-                                  <button
-                                    onClick={() => handleLaunchApp(selectedApp)}
-                                    className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-slate-800 hover:bg-slate-900 rounded-lg transition-colors"
-                                  >
-                                    Access Now
-                                    <ExternalLink className="h-3.5 w-3.5" />
-                                  </button>
-                                ) : salesPage ? (
+                                <button
+                                  onClick={() => handleLaunchApp(selectedApp)}
+                                  className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors"
+                                >
+                                  Access Now
+                                  <ExternalLink className="h-3.5 w-3.5" />
+                                </button>
+                              </div>
+                            </div>
+                          ) : (
+                            /* ── Available upgrade card ── */
+                            <div
+                              key={productId}
+                              className="bg-gray-50 rounded-lg border border-gray-200 p-5"
+                            >
+                              <h4 className="text-sm font-semibold text-gray-900">
+                                {product.name}
+                              </h4>
+                              <div className="mt-4">
+                                {salesPage ? (
                                   <a
                                     href={`/get/${salesPage.slug}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-amber-500 hover:bg-amber-600 rounded-lg transition-colors"
+                                    className="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-secondary hover:bg-secondary-600 rounded-lg transition-colors"
                                   >
-                                    Purchase Now
+                                    Get This Upgrade
                                     <ShoppingCart className="h-3.5 w-3.5" />
                                   </a>
                                 ) : (
@@ -365,28 +421,28 @@ export default function MemberDashboard() {
                         })}
                       </div>
                     </div>
-                  </section>
-                );
-              })()
-            )}
+                  </div>
+                </section>
+              );
+            })()
+          )}
 
-          </div>
-        </main>
-      </div>
+        </div>
+      </main>
 
       {/* ── Footer ── */}
       <footer className="border-t border-gray-200 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
-          <p className="text-xs text-gray-500 flex items-center justify-center gap-1.5">
-            <Mail className="h-3.5 w-3.5" />
-            Need help?{' '}
-            <a
-              href="mailto:support@lessoncraftstudio.com"
-              className="text-slate-700 hover:text-slate-900 font-medium transition-colors"
-            >
-              support@lessoncraftstudio.com
-            </a>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-xs text-gray-400">
+            {'\u00A9'} {new Date().getFullYear()} LessonCraftStudio
           </p>
+          <a
+            href="mailto:support@lessoncraftstudio.com"
+            className="text-xs text-primary hover:text-primary-700 font-medium flex items-center gap-1.5 transition-colors"
+          >
+            <Mail className="h-3.5 w-3.5" />
+            support@lessoncraftstudio.com
+          </a>
         </div>
       </footer>
     </div>

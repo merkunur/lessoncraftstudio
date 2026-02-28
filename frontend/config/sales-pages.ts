@@ -452,20 +452,6 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       yourPrice: 27,
     },
 
-    // ── 16. Bonuses ──────────────────────────
-    bonuses: [
-      {
-        name: 'Quick-Start Guide: Your First Puzzle Book in 15 Minutes',
-        description: 'Step-by-step walkthrough from opening the app to listing your first product on Etsy or Amazon KDP.',
-        value: 27,
-      },
-      {
-        name: '10 Best-Selling Word Search Niches Report',
-        description: 'Data-backed list of the most profitable word search puzzle niches on Amazon and Etsy right now.',
-        value: 17,
-      },
-    ],
-
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
@@ -789,20 +775,6 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       totalValue: 426,
       yourPrice: 27,
     },
-
-    // ── 16. Bonuses ──────────────────────────
-    bonuses: [
-      {
-        name: 'Quick-Start Guide: Your First Math Puzzle Book in 15 Minutes',
-        description: 'Step-by-step walkthrough from opening the app to listing your first math puzzle product on Etsy or Amazon KDP.',
-        value: 27,
-      },
-      {
-        name: '10 Best-Selling Math Activity Niches Report',
-        description: 'Data-backed list of the most profitable math activity niches on Amazon and Etsy right now.',
-        value: 17,
-      },
-    ],
 
     // ── 17. Guarantee ────────────────────────
     guarantee: {

@@ -379,7 +379,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     funnelPosition: 'frontend',
     funnelId: 'wordsearch-funnel',
     wplusProductId: 'wso_ldqjqn',
-    includedThemes: ['animals', 'breakfast', 'vehicles', 'fruits', 'colors', 'body_parts', 'clothing', 'classroom', 'sports_bw', 'flowers'],
+    includedThemes: ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'],
     includesCommercialRights: true,
   },
 
@@ -507,4 +507,35 @@ export function getFunnelForProduct(productId: string): WPlusFunnel | null {
 export function getProductIncludedThemes(productId: string): string[] {
   const product = WPLUS_PRODUCTS[productId];
   return product?.includedThemes ?? [];
+}
+
+// ==========================================
+// THEME NAME MAPPING (Sales Pages → DB)
+// ==========================================
+
+/**
+ * Maps sales-page theme names → actual DB theme names.
+ * Sales-page names are the SOURCE OF TRUTH (published on WarriorPlus, cannot change).
+ * DB names come from image library folder names on disk.
+ *
+ * RULE: When adding a new product with includedThemes, EVERY theme name
+ * must have an entry here (even if it maps to itself).
+ * Run `node scripts/validate-theme-mapping.js` to verify.
+ */
+export const THEME_DB_MAP: Record<string, string> = {
+  'animals': 'animals',
+  'food': 'food_bw',
+  'vehicles': 'vehicles',
+  'fruits': 'fruits',
+  'colors': 'colors',
+  'body-parts': 'body_parts',
+  'clothing': 'clothing',
+  'school': 'classroom',
+  'sports': 'sports_bw',
+  'nature': 'nature_bw',
+};
+
+/** Resolve a sales-page theme name to its DB name. Returns the DB name, or the input unchanged if no mapping. */
+export function resolveThemeDbName(salesName: string): string {
+  return THEME_DB_MAP[salesName] ?? salesName;
 }

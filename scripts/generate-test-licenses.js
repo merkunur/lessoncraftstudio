@@ -118,10 +118,10 @@ async function main() {
   console.log('4. Dashboard should launch app with correct entitlements');
   console.log('\nDirect URL tests (bypass member portal):');
   console.log('  Free:            /worksheet-generators/wordsearch.html?tier=free');
-  console.log('  FE only:         /worksheet-generators/wordsearch.html?tier=single-app&themes=animals,breakfast,vehicles,fruits,colors,body_parts,clothing,classroom,sports_bw,flowers&langs=en');
+  console.log('  FE only:         /worksheet-generators/wordsearch.html?tier=single-app&themes=animals,food,vehicles,fruits,colors,body-parts,clothing,school,sports,nature&langs=en');
   console.log('  FE+OTO1:         /worksheet-generators/wordsearch.html?tier=single-app&themes=all&langs=en');
   console.log('  FE+OTO1+OTO2:    /worksheet-generators/wordsearch.html?tier=single-app&themes=all&langs=all');
-  console.log('  FE+OTO2 (no 1):  /worksheet-generators/wordsearch.html?tier=single-app&themes=animals,breakfast,vehicles,fruits,colors,body_parts,clothing,classroom,sports_bw,flowers&langs=all');
+  console.log('  FE+OTO2 (no 1):  /worksheet-generators/wordsearch.html?tier=single-app&themes=animals,food,vehicles,fruits,colors,body-parts,clothing,school,sports,nature&langs=all');
 }
 
 main()

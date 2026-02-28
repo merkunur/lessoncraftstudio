@@ -28,7 +28,28 @@
         // ==========================================
         // FEATURE GATING (themes & languages)
         // ==========================================
-        const FE_THEMES = ['animals', 'breakfast', 'vehicles', 'fruits', 'colors', 'body_parts', 'clothing', 'classroom', 'sports_bw', 'flowers'];
+        const FE_THEMES = ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'];
+
+        // Maps sales-page theme names → DB theme names (DB uses image library folder names)
+        const THEME_DB_MAP = {
+            'animals': 'animals',
+            'food': 'food_bw',
+            'vehicles': 'vehicles',
+            'fruits': 'fruits',
+            'colors': 'colors',
+            'body-parts': 'body_parts',
+            'clothing': 'clothing',
+            'school': 'classroom',
+            'sports': 'sports_bw',
+            'nature': 'nature_bw',
+        };
+        function toDbTheme(name) { return THEME_DB_MAP[name] || name; }
+        function toSalesTheme(dbName) {
+            for (const [sales, db] of Object.entries(THEME_DB_MAP)) {
+                if (db === dbName) return sales;
+            }
+            return dbName;
+        }
 
         const allowedThemesParam = urlParams.get('themes');
         const allowedLangsParam = urlParams.get('langs');
@@ -45,6 +66,11 @@
         } else {
             themeWhitelist = null; // Paid with no param = full access
         }
+
+        // Convert whitelist from sales-page names to DB names for filtering
+        const dbThemeWhitelist = themeWhitelist
+            ? themeWhitelist.map(name => toDbTheme(name))
+            : null;
 
         // Determine language whitelist
         let langWhitelist;
@@ -2014,7 +2040,7 @@ document.addEventListener("DOMContentLoaded", function() {
     async function generateInitialWorksheet() {
         try {
             // Set default settings for initial worksheet
-            const defaultInitTheme = (themeWhitelist && themeWhitelist.length > 0) ? themeWhitelist[0] : 'animals';
+            const defaultInitTheme = (dbThemeWhitelist && dbThemeWhitelist.length > 0) ? dbThemeWhitelist[0] : 'animals';
             worksheetThemeSelect.value = defaultInitTheme;
             rowsInput.value = 12;
             colsInput.value = 12;
@@ -2201,10 +2227,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 return key.endsWith(`-${currentLocale}`) && allImagesCache[key] && allImagesCache[key].length >= MIN_THEME_IMAGES;
             });
             // Filter by theme whitelist (feature gating)
-            if (themeWhitelist) {
+            if (dbThemeWhitelist) {
                 availableThemes = availableThemes.filter(key => {
                     const themeName = key.replace(`-${currentLocale}`, '');
-                    return themeWhitelist.includes(themeName);
+                    return dbThemeWhitelist.includes(themeName);
                 });
             }
             if (availableThemes.length === 0) {
@@ -3014,8 +3040,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const themeData = await response.json();
 
             // Filter themes by whitelist (feature gating)
-            const filteredThemeData = themeWhitelist
-                ? themeData.filter(theme => themeWhitelist.includes(theme.value))
+            const filteredThemeData = dbThemeWhitelist
+                ? themeData.filter(theme => dbThemeWhitelist.includes(theme.value))
                 : themeData;
 
             const allThemesOption = `<option value="all">${t('allThemesRandomly')}</option>`;
@@ -3052,12 +3078,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 const searchData = await response.json();
                 imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
                 // Filter search results by theme whitelist
-                if (themeWhitelist) {
-                    imagesToDisplay = imagesToDisplay.filter(img => themeWhitelist.includes(img.theme));
+                if (dbThemeWhitelist) {
+                    imagesToDisplay = imagesToDisplay.filter(img => dbThemeWhitelist.includes(img.theme));
                 }
             } else {
                 // Load specific theme (or default to first allowed theme if 'all' with no query)
-                const defaultTheme = (themeWhitelist && themeWhitelist.length > 0) ? themeWhitelist[0] : 'animals';
+                const defaultTheme = (dbThemeWhitelist && dbThemeWhitelist.length > 0) ? dbThemeWhitelist[0] : 'animals';
                 const themeToLoad = (selectedTheme === 'all' && !query) ? defaultTheme : selectedTheme;
                 // Include locale in cache key to ensure correct language names
                 const cacheKey = `${themeToLoad}-${currentLocale}`;

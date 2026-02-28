@@ -315,7 +315,7 @@ export default function MathPuzzleOTOClient({ config, locale }: Props) {
                 </span>
               ))}
             </div>
-            <WPDisclaimer />
+            <WPDisclaimer config={config} />
           </div>
           {config.declineText && (
             <a href="#" className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors">

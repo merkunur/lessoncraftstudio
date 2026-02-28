@@ -689,7 +689,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
                 </span>
               ))}
             </div>
-            <WPDisclaimer />
+            <WPDisclaimer config={config} />
           </div>
           {config.closingPs && (
             <div className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100 text-left">

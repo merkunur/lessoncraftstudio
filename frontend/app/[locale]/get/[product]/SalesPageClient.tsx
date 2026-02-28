@@ -147,10 +147,12 @@ export function WPBuyButton({ config }: { config: SalesPageConfig }) {
   return <CTAButton text={ctaText} href={config.checkoutUrl || '#'} />;
 }
 
-export function WPDisclaimer() {
+export function WPDisclaimer({ config }: { config?: SalesPageConfig } = {}) {
+  // Extract funnel ID from checkout URL (e.g. /o2/buy/{funnelId}/...)
+  const funnelId = config?.checkoutUrl?.match(/\/o2\/buy\/([^/]+)/)?.[1] || 'pxf0ht';
   return (
     <>
-      <Script src="https://warriorplus.com/o2/disclaimer/pxf0ht" strategy="lazyOnload" />
+      <Script src={`https://warriorplus.com/o2/disclaimer/${funnelId}`} strategy="lazyOnload" />
       <div className="wplus_spdisclaimer mt-6 text-center text-sm text-slate-500" />
     </>
   );
@@ -637,7 +639,7 @@ function FELayout({ config, locale }: Props) {
                 </span>
               ))}
             </div>
-            <WPDisclaimer />
+            <WPDisclaimer config={config} />
           </div>
           {config.closingPs && (
             <div className="bg-stone-50 rounded-2xl p-6 md:p-8 border border-stone-100 text-left">

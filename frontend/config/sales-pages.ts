@@ -539,7 +539,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'math-puzzle': {
     slug: 'math-puzzle',
     productId: 'mathpuzzle-fe',
-    checkoutUrl: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/l3ql4t/gm2ljh/lvjv03',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/l3ql4t/gm2ljh/459082',
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
@@ -865,7 +866,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'math-puzzle-library': {
     slug: 'math-puzzle-library',
     productId: 'mathpuzzle-oto1-library',
-    checkoutUrl: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/l3ql4t/nv8rn9/y3xtkn',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/l3ql4t/nv8rn9/459083',
     freeAppUrl: '',
     isOto: true,
 

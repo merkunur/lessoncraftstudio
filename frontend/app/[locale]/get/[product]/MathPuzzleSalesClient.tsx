@@ -548,7 +548,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
               <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
-                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddeb\ud83c\uddf7'} Fran\u00e7ais</span>
+                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddeb\ud83c\uddf7 Fran\u00e7ais'}</span>
               </div>
               <img src={MATH_PUZZLE_SAMPLES.french} alt="French math puzzle worksheet" className="w-full" loading="lazy" />
             </div>

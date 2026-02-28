@@ -59,7 +59,7 @@ export default async function TermsPage({
     pageDescription,
     locale,
     pageType: 'WebPage',
-    dateModified: '2026-02-22'
+    dateModified: '2027-02-28'
   });
 
   return (

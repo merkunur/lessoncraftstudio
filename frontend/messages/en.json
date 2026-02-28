@@ -223,75 +223,75 @@
     "metaDescription": "Get in touch with the LessonCraftStudio team. Questions about worksheet generators, subscriptions, licensing, or partnerships? We respond within 24-48 hours."
   },
   "terms": {
-    "metaTitle": "Terms of Service — Usage Agreement | LessonCraftStudio",
-    "metaDescription": "Review LessonCraftStudio terms of service. Covers account requirements, subscription tiers, content licensing, and user responsibilities under Swedish law.",
+    "metaTitle": "Terms of Service \u2014 Usage Agreement | LessonCraftStudio",
+    "metaDescription": "Review LessonCraftStudio terms of service. Covers usage rights for free generators, one-time purchases, license key activation, and commercial rights under Swedish law.",
     "title": "Terms of Service",
     "lastUpdated": "Last Updated",
-    "effectiveDate": "January 2025",
+    "effectiveDate": "February 2027",
     "acceptance": {
       "title": "1. ACCEPTANCE",
       "content": "By accessing LessonCraftStudio, you agree to these terms. If you disagree, do not use our service."
     },
     "serviceDescription": {
       "title": "2. SERVICE DESCRIPTION",
-      "content": "LessonCraftStudio provides educational worksheet generation tools through subscription tiers: Free (limited), Core (expanded), and Full Access (unlimited)."
+      "content": "LessonCraftStudio provides professional worksheet and puzzle generator tools. All generators are free to use with a watermark. Paid products (one-time purchases) remove the watermark and include full commercial rights. Paid products are activated with a license key delivered to your email after purchase."
     },
     "userAccounts": {
       "title": "3. USER ACCOUNTS",
       "requirements": "Requirements:",
       "age": "Minimum age: 18 years",
-      "accurate": "Accurate registration information",
-      "security": "Maintain account security",
-      "responsible": "Responsibility for account activity"
+      "accurate": "Valid email address for license key delivery",
+      "security": "Maintain security of your license key \u2014 do not share it",
+      "responsible": "Responsibility for all activity under your license"
     },
     "paymentTerms": {
       "title": "4. PAYMENT TERMS",
-      "pricing": "Current pricing displayed at signup",
-      "billing": "Recurring billing per selected plan",
-      "refunds": "No refunds for partial periods",
-      "changes": "Price changes with 30 days notice"
+      "pricing": "Pricing displayed on our sales pages at time of purchase",
+      "billing": "One-time payment \u2014 no recurring charges or subscriptions",
+      "refunds": "30-day money-back guarantee on all purchases",
+      "changes": "Prices may change; your purchase price is locked in permanently"
     },
     "acceptableUse": {
       "title": "5. ACCEPTABLE USE",
       "prohibited": "Prohibited:",
-      "illegal": "Illegal activities",
-      "harmful": "Harmful or offensive content",
+      "illegal": "Illegal activities or content that violates applicable laws",
+      "harmful": "Harmful, offensive, or misleading content",
       "infringement": "Intellectual property infringement",
-      "system": "System interference or damage",
-      "resale": "Unauthorized service resale"
+      "system": "Attempts to reverse engineer, hack, or interfere with the platform",
+      "resale": "Sharing, transferring, or reselling your license key"
     },
     "intellectualProperty": {
       "title": "6. INTELLECTUAL PROPERTY",
-      "content": "Platform and tools remain our property. User content remains yours. Generated content licensed per subscription terms."
+      "content": "The platform, generators, source code, and image library remain our property. Content you create using our generators belongs to you. Commercial distribution rights are granted to paid license holders per the License Terms."
     },
     "termination": {
       "title": "7. TERMINATION",
-      "user": "Cancel anytime via account settings",
-      "company": "We may terminate for violations",
-      "effect": "Termination ends access; content license continues per terms"
+      "user": "Your license is permanent for the product(s) you purchased",
+      "company": "We may revoke a license for violations of these terms with 30 days written notice",
+      "effect": "Content created before termination remains licensed for continued use and sale"
     },
     "disclaimers": {
       "title": "8. DISCLAIMERS",
-      "asis": "Service provided AS IS",
-      "availability": "No guarantee of continuous availability",
-      "suitability": "No warranty of fitness for purpose",
-      "content": "User responsible for content accuracy"
+      "asis": "Service provided AS IS without warranties of any kind",
+      "availability": "No guarantee of continuous or uninterrupted availability",
+      "suitability": "No warranty of fitness for a particular purpose",
+      "content": "You are responsible for the accuracy and legality of content you create"
     },
     "limitationLiability": {
       "title": "9. LIMITATION OF LIABILITY",
-      "content": "Maximum liability: fees paid in last 12 months. No liability for indirect, consequential, or punitive damages."
+      "content": "Maximum liability is limited to the total amount paid for your purchase. We are not liable for indirect, incidental, consequential, or punitive damages."
     },
     "indemnification": {
       "title": "10. INDEMNIFICATION",
-      "content": "You indemnify us against claims arising from your use, content, or violations."
+      "content": "You indemnify us against claims arising from your use of the platform, content you create, or violations of these terms."
     },
     "governingLaw": {
       "title": "11. GOVERNING LAW",
-      "content": "Swedish law governs. Stockholm courts have jurisdiction. EU consumer rights preserved."
+      "content": "Governed by Swedish law. Stockholm district courts have jurisdiction. EU consumer rights preserved."
     },
     "changes": {
       "title": "12. CHANGES",
-      "content": "We may modify terms with notice. Continued use constitutes acceptance."
+      "content": "We may modify these terms with 30 days notice via email or website announcement. Continued use constitutes acceptance."
     },
     "contact": {
       "title": "13. CONTACT",
@@ -355,14 +355,14 @@
     }
   },
   "privacy": {
-    "metaTitle": "Privacy Policy — Data Practices & GDPR | LessonCraftStudio",
+    "metaTitle": "Privacy Policy \u2014 Data Practices & GDPR | LessonCraftStudio",
     "metaDescription": "Read our privacy policy. Learn how LessonCraftStudio handles your data under GDPR and Swedish law. We collect minimal data and never sell personal information.",
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated",
-    "effectiveDate": "January 2025",
+    "effectiveDate": "February 2027",
     "introduction": {
       "title": "1. INTRODUCTION",
-      "content": "This policy explains our data practices under GDPR and Swedish law."
+      "content": "This policy explains how LessonCraftStudio collects, uses, and protects your personal data. We operate under GDPR and Swedish data protection law. We collect minimal data and never sell your personal information."
     },
     "dataController": {
       "title": "2. DATA CONTROLLER",
@@ -371,80 +371,80 @@
     "dataCollection": {
       "title": "3. DATA COLLECTED",
       "intro": "We collect:",
-      "personal": "Account data (name, email)",
-      "usage": "Usage analytics",
-      "technical": "Technical data (IP, browser)",
-      "cookies": "Cookie preferences"
+      "personal": "Purchase data (email address, name) \u2014 provided when you buy a product via WarriorPlus",
+      "usage": "Usage analytics (pages visited, generators used, session duration)",
+      "technical": "Technical data (IP address, browser type, device information)",
+      "cookies": "Cookie preferences (language selection, locale)"
     },
     "legalBasis": {
       "title": "4. LEGAL BASIS",
       "intro": "Processing based on:",
-      "consent": "Your consent",
-      "contract": "Contract performance",
-      "legal": "Legal obligations",
-      "legitimate": "Legitimate interests"
+      "consent": "Your consent (analytics cookies, marketing communications)",
+      "contract": "Contract performance (license key delivery, product access)",
+      "legal": "Legal obligations (tax records, fraud prevention)",
+      "legitimate": "Legitimate interests (service improvement, security)"
     },
     "dataUsage": {
       "title": "5. DATA USE",
-      "service": "Service provision",
-      "account": "Account management",
-      "communication": "Communications",
-      "improvement": "Service improvement",
-      "legal": "Legal compliance"
+      "service": "Delivering license keys and product access after purchase",
+      "account": "Member portal authentication (license key login)",
+      "communication": "Transactional emails (purchase confirmation, license key delivery)",
+      "improvement": "Service improvement and analytics",
+      "legal": "Legal compliance and fraud prevention"
     },
     "dataSharing": {
       "title": "6. DATA SHARING",
       "intro": "Limited sharing with:",
-      "providers": "Service providers (processors)",
-      "payment": "Payment processors for transactions",
-      "legal": "Legal authorities when required",
-      "consent": "Third parties with consent"
+      "providers": "WarriorPlus (payment processing and order fulfillment)",
+      "payment": "PayPal and Stripe (payment processing via WarriorPlus)",
+      "legal": "Legal authorities when required by law",
+      "consent": "Third parties only with your explicit consent"
     },
     "dataRetention": {
       "title": "7. DATA RETENTION",
-      "content": "Account data: Duration of account plus 1 year. Logs: 90 days. Marketing: Until opt-out."
+      "content": "Purchase records and license data: retained for the lifetime of your license. Server logs: 90 days. Analytics data: 26 months. Marketing preferences: until you opt out."
     },
     "userRights": {
       "title": "8. YOUR RIGHTS",
-      "intro": "GDPR rights include:",
-      "access": "Access your data",
-      "rectification": "Correct inaccuracies",
-      "erasure": "Request deletion",
-      "restriction": "Restrict processing",
-      "portability": "Data portability",
-      "objection": "Object to processing",
-      "withdraw": "Withdraw consent",
-      "complaint": "Lodge complaint with IMY"
+      "intro": "Under GDPR, you have the right to:",
+      "access": "Access your personal data we hold",
+      "rectification": "Correct inaccurate data",
+      "erasure": "Request deletion of your data",
+      "restriction": "Restrict how we process your data",
+      "portability": "Receive your data in a portable format",
+      "objection": "Object to processing based on legitimate interests",
+      "withdraw": "Withdraw consent at any time",
+      "complaint": "Lodge a complaint with the Swedish Authority for Privacy Protection (IMY)"
     },
     "dataSecurity": {
       "title": "9. SECURITY",
-      "content": "Industry-standard security including encryption, access controls, and regular audits."
+      "content": "We use industry-standard security measures including HTTPS encryption, secure database storage, access controls, and regular security reviews. License keys are stored with encryption at rest."
     },
     "cookies": {
       "title": "10. COOKIES",
       "intro": "We use:",
-      "essential": "Essential cookies (required)",
-      "functional": "Functional cookies (preferences)",
-      "analytics": "Analytics cookies (with consent)"
+      "essential": "Essential cookies (language preference, session management) \u2014 required for the site to function",
+      "functional": "Functional cookies (locale selection, preferred language) \u2014 improve your experience",
+      "analytics": "Analytics cookies (anonymous usage data) \u2014 only with your consent"
     },
     "children": {
       "title": "11. CHILDREN",
-      "content": "Service for educators/parents. No collection from children under 16."
+      "content": "Our service is designed for adult entrepreneurs, educators, and publishers. We do not knowingly collect personal data from anyone under 16 years of age. Our generators create content intended for children but are operated by adults."
     },
     "international": {
       "title": "12. INTERNATIONAL TRANSFERS",
-      "content": "Data stored in EU/EEA. External transfers use Standard Contractual Clauses."
+      "content": "Data is primarily stored in the EU/EEA. When data is transferred outside the EU (e.g., to WarriorPlus in the US), appropriate safeguards such as Standard Contractual Clauses are in place."
     },
     "changes": {
       "title": "13. POLICY CHANGES",
-      "content": "Updates notified via email. Continued use constitutes acceptance."
+      "content": "We may update this policy with 30 days notice via email or website announcement. The effective date at the top of this page indicates the last revision. Continued use constitutes acceptance."
     },
     "contact": {
       "title": "14. CONTACT",
       "intro": "Questions or rights requests:",
-      "email": "Email: privacy@lessoncraftstudio.com",
-      "address": "Address: Stockholm, Sweden",
-      "dpo": "DPO: dpo@lessoncraftstudio.com"
+      "email": "Email",
+      "address": "Address",
+      "dpo": "DPO"
     }
   },
   "faq": {

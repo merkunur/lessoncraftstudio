@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState } from 'react';
 import type { SalesPageConfig } from '@/config/sales-pages';
 import { Icon, WPBuyButton, WPDisclaimer, ComplianceFooter } from './SalesPageClient';
 
@@ -42,41 +42,6 @@ const LIBRARY_IMAGES = [
   { src: '/image-library/christmas/bell.png', label: 'Bell' },
   { src: '/image-library/christmas/angel.png', label: 'Angel' },
 ];
-
-/* ═══════════════════════════════════════════════════════
-   SCROLL REVEAL HOOK
-   ═══════════════════════════════════════════════════════ */
-
-function useReveal() {
-  const ref = useRef<HTMLElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { setVisible(true); obs.disconnect(); } },
-      { threshold: 0.12 }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, []);
-
-  return { ref, visible };
-}
-
-function Reveal({ children, className = '', delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
-  const { ref, visible } = useReveal();
-  return (
-    <section
-      ref={ref}
-      className={`${className} mp-reveal ${visible ? 'mp-revealed' : ''}`}
-      style={{ transitionDelay: `${delay}ms` }}
-    >
-      {children}
-    </section>
-  );
-}
 
 /* ═══════════════════════════════════════════════════════
    FAQ ACCORDION — indigo palette
@@ -135,17 +100,6 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
         @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800&display=swap');
         .mp-serif { font-family: 'DM Serif Display', Georgia, serif; }
         .mp-sans  { font-family: 'Outfit', system-ui, sans-serif; }
-
-        /* Reveal animation */
-        .mp-reveal {
-          opacity: 0;
-          transform: translateY(32px);
-          transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .mp-revealed {
-          opacity: 1;
-          transform: translateY(0);
-        }
 
         /* Feature card hover */
         .mp-feature-card {
@@ -274,7 +228,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
 
       {/* ═══ 2. HOW IT WORKS ═══════════════════════════════════ */}
       {config.steps && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-5xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">How It Works</h2>
             <p className="text-slate-500 text-center mb-16 max-w-xl mx-auto">Five steps from blank canvas to sellable product.</p>
@@ -312,12 +266,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 3. FEATURES GRID ══════════════════════════════════ */}
       {config.features && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <section className="mp-sans py-20 md:py-28 bg-slate-50">
           <div className="max-w-5xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">Everything You Need to Create &amp; Sell</h2>
             <p className="text-slate-500 text-center mb-14 max-w-2xl mx-auto">Professional tools. Zero learning curve.</p>
@@ -333,12 +287,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 4. MARKET STATS ═══════════════════════════════════ */}
       {config.marketStats && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-5xl mx-auto px-4 md:px-6 text-center">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 mb-4">{config.marketStats.headline}</h2>
             <p className="text-slate-500 mb-14 max-w-2xl mx-auto">{config.marketStats.description}</p>
@@ -351,12 +305,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 5. INCOME POTENTIAL ═══════════════════════════════ */}
       {config.incomePotential && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <section className="mp-sans py-20 md:py-28 bg-slate-50">
           <div className="max-w-3xl mx-auto px-4 md:px-6 text-center">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 mb-4">{config.incomePotential.headline}</h2>
             <p className="text-slate-500 mb-10 leading-relaxed">{config.incomePotential.description}</p>
@@ -366,7 +320,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             </div>
             <p className="text-xs text-slate-400 mt-4">* Illustrative example only. Individual results vary.</p>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ MID-PAGE CTA ══════════════════════════════════════ */}
@@ -382,7 +336,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
 
       {/* ═══ 6. OBSTACLES ══════════════════════════════════════ */}
       {config.obstacles && (
-        <Reveal className="mp-sans relative mp-grain py-20 md:py-28 bg-indigo-950">
+        <section className="mp-sans relative mp-grain py-20 md:py-28 bg-indigo-950">
           <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-white text-center mb-14">{config.obstacles.headline}</h2>
             <div className="grid md:grid-cols-2 gap-10">
@@ -407,12 +361,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               </div>
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 7. PRODUCT INTRO ══════════════════════════════════ */}
       {config.productIntro && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-4xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">{config.productIntro.headline}</h2>
             <p className="text-slate-500 text-center mb-12 max-w-3xl mx-auto leading-relaxed">{config.productIntro.description}</p>
@@ -427,12 +381,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 8. BEFORE / AFTER ═════════════════════════════════ */}
       {config.beforeAfter && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <section className="mp-sans py-20 md:py-28 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-14">Before vs. After</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -470,12 +424,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               </div>
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 9. DEMO — Static Mockup ══════════════════════════ */}
       {config.demo && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-5xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">See What You Can Create</h2>
             <p className="text-slate-500 text-center mb-14 max-w-2xl mx-auto">Real output from Math Puzzle Studio Pro. Every worksheet is print-ready.</p>
@@ -509,11 +463,11 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               <AmberCTA config={config} />
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 9b. IMAGE LIBRARY SHOWCASE ═════════════════════════ */}
-      <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+      <section className="mp-sans py-20 md:py-28 bg-slate-50">
         <div className="max-w-5xl mx-auto px-4 md:px-6 text-center">
           <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 mb-4">Professional Image Library Included</h2>
           <p className="text-slate-500 mb-10 max-w-2xl mx-auto">319 professionally curated, child-friendly images across 10 themes. Every image is ready for commercial use.</p>
@@ -526,10 +480,10 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           </div>
           <p className="text-sm text-slate-500">Showing 16 of 319 images across Animals, Fruits, Vegetables &amp; Christmas themes</p>
         </div>
-      </Reveal>
+      </section>
 
       {/* ═══ 9c. MULTI-LANGUAGE PROOF ════════════════════════════ */}
-      <Reveal className="mp-sans py-20 md:py-28 bg-white">
+      <section className="mp-sans py-20 md:py-28 bg-white">
         <div className="max-w-5xl mx-auto px-4 md:px-6">
           <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">Real Multi-Language Output</h2>
           <p className="text-slate-500 text-center mb-12 max-w-2xl mx-auto">Same quality, different languages. Here are real puzzles generated in English, German, and French.</p>
@@ -554,11 +508,11 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             </div>
           </div>
         </div>
-      </Reveal>
+      </section>
 
       {/* ═══ 10. SHOWCASE ══════════════════════════════════════ */}
       {config.showcase && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <section className="mp-sans py-20 md:py-28 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-12">{config.showcase.headline}</h2>
             <div className="grid sm:grid-cols-2 gap-5">
@@ -570,12 +524,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 11. OWNERSHIP / RIGHTS ════════════════════════════ */}
       {config.ownership && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 mb-4">Your Rights, Your Business</h2>
             <p className="text-slate-500 mb-12">Full commercial rights included with every purchase.</p>
@@ -591,12 +545,12 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 12. AUDIENCES ═════════════════════════════════════ */}
       {config.audiences && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <section className="mp-sans py-20 md:py-28 bg-slate-50">
           <div className="max-w-4xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-12">Perfect For</h2>
             <div className="grid sm:grid-cols-2 gap-5">
@@ -613,11 +567,11 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 13. VALUE STACK ═══════════════════════════════════ */}
-      <Reveal className="mp-sans relative mp-grain py-20 md:py-28 bg-indigo-950">
+      <section className="mp-sans relative mp-grain py-20 md:py-28 bg-indigo-950">
         <div className="relative z-10 max-w-3xl mx-auto px-4 md:px-6">
           <h2 className="mp-serif text-3xl md:text-4xl text-white text-center mb-12">{config.valueStack.headline}</h2>
           <div className="bg-indigo-900/50 rounded-2xl p-6 md:p-8 border border-indigo-700/40">
@@ -646,11 +600,11 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             <AmberCTA config={config} />
           </div>
         </div>
-      </Reveal>
+      </section>
 
       {/* ═══ 14. BONUSES ═══════════════════════════════════════ */}
       {config.bonuses && (
-        <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <section className="mp-sans py-20 md:py-28 bg-white">
           <div className="max-w-3xl mx-auto px-4 md:px-6">
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-12">Free Bonuses Included</h2>
             <div className="space-y-4">
@@ -670,11 +624,11 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
               ))}
             </div>
           </div>
-        </Reveal>
+        </section>
       )}
 
       {/* ═══ 15. GUARANTEE ═════════════════════════════════════ */}
-      <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+      <section className="mp-sans py-20 md:py-28 bg-slate-50">
         <div className="max-w-3xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-br from-indigo-700 to-indigo-800 rounded-2xl p-8 md:p-10 text-center text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-600/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
@@ -687,7 +641,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             </div>
           </div>
         </div>
-      </Reveal>
+      </section>
 
       {/* ═══ 16. URGENCY ═══════════════════════════════════════ */}
       {config.urgency && (

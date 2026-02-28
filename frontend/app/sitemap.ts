@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
+import { getAllSalesPageSlugs } from '@/config/sales-pages';
 import { getHreflangCode } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 
@@ -10,14 +11,16 @@ export const revalidate = 1800;
 const STATIC_CONTENT_DATE = new Date('2026-02-27');
 
 /**
- * Two sitemaps after pivot:
+ * Three sitemaps after pivot:
  * ID 0: Static pages (~77 URLs) - homepage, apps, legal, etc.
  * ID 1: App detail pages (~363 URLs) - individual app pages with localized slugs
+ * ID 2: Sales pages (5 URLs) - WarriorPlus product pages (English only)
  */
 export async function generateSitemaps() {
   return [
     { id: 0 },
     { id: 1 },
+    { id: 2 },
   ];
 }
 
@@ -81,6 +84,17 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       }
     }
     return routes;
+  }
+
+  // ID 2: Sales pages (English only — WarriorPlus audience)
+  if (id === 2) {
+    const slugs = getAllSalesPageSlugs();
+    return slugs.map((slug) => ({
+      url: `${baseUrl}/en/get/${slug}`,
+      lastModified: STATIC_CONTENT_DATE,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    }));
   }
 
   return [];

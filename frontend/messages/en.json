@@ -299,55 +299,55 @@
     }
   },
   "license": {
-    "metaTitle": "License Terms — Content Usage Rights | LessonCraftStudio",
-    "metaDescription": "Understand LessonCraftStudio license terms. Free tier for personal use, Core for institutional use, Full Access for unrestricted commercial use including POD.",
+    "metaTitle": "License Terms \u2014 Content Usage Rights | LessonCraftStudio",
+    "metaDescription": "LessonCraftStudio license terms. Free generators with watermark for personal use. Paid products include full commercial, POD, and resale rights.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
-    "effectiveDate": "January 2025",
+    "effectiveDate": "February 2027",
     "grantOfLicense": {
       "title": "1. GRANT OF LICENSE",
-      "intro": "LessonCraftStudio grants you a license to use generated content based on your subscription:",
-      "freeTier": "Free Tier: Personal, non-commercial educational use only",
-      "coreBundle": "Core Bundle: Commercial educational use within your institution",
-      "fullAccess": "Full Access: Unrestricted commercial use including POD and resale"
+      "intro": "LessonCraftStudio grants you a license to use its worksheet generators and generated content based on your purchase:",
+      "freeTier": "Free Use: All generators are free to use with a watermark. Output is for personal, non-commercial use only.",
+      "coreBundle": "Paid Products (One-Time Purchase): Full commercial rights. Create unlimited content and sell on any platform \u2014 Etsy, Amazon KDP, Teachers Pay Teachers, or your own store. No attribution required.",
+      "fullAccess": "License Key Activation: Paid products are activated with a license key tied to the email address used at purchase. Each license key is for one user."
     },
     "intellectualProperty": {
       "title": "2. INTELLECTUAL PROPERTY",
-      "content": "You own your original content. We retain rights to platform elements. Generated content is licensed per Section 1."
+      "intro": "You own the worksheets and content you create using our generators. We retain rights to the platform, software, source code, and image library. Generated content is licensed per Section 1."
     },
     "restrictions": {
       "title": "3. RESTRICTIONS",
       "intro": "You may not:",
-      "reverseEngineer": "Reverse engineer the platform",
-      "competing": "Create competing services",
-      "sublicense": "Sublicense platform access",
-      "removeNotices": "Remove watermarks from free content",
-      "illegal": "Use for illegal purposes"
+      "reverseEngineer": "Reverse engineer, decompile, or extract source code from the platform",
+      "competing": "Create competing worksheet generator services using our platform or assets",
+      "sublicense": "Share, transfer, or resell your license key to another person",
+      "removeNotices": "Remove or circumvent watermarks on free-tier output",
+      "illegal": "Use generated content for illegal, harmful, or misleading purposes"
     },
     "commercialDistribution": {
       "title": "4. COMMERCIAL DISTRIBUTION",
-      "pod": "Print-on-Demand Rights: Full Access subscribers may sell unlimited copies through POD platforms.",
-      "digital": "Digital Distribution: All tiers may distribute digital versions per their license scope."
+      "pod": "Print-on-Demand Rights: Paid license holders may sell unlimited copies of generated content through print-on-demand platforms (Amazon KDP, Lulu, IngramSpark, etc.).",
+      "digital": "Digital Distribution: Paid license holders may sell digital downloads of generated content on any platform (Etsy, Gumroad, Teachers Pay Teachers, personal websites, etc.). No royalties or attribution required."
     },
     "termination": {
       "title": "5. TERMINATION",
-      "content": "We may terminate for breach with 30 days notice. Content created during valid subscription remains licensed."
+      "content": "We may terminate your license for breach of these terms with 30 days written notice. Content created before termination remains licensed for continued use and sale."
     },
     "warrantyDisclaimer": {
       "title": "6. WARRANTY DISCLAIMER",
-      "content": "Service provided \"AS IS\" without warranties. We do not guarantee suitability for specific purposes."
+      "content": "The service is provided \"AS IS\" without warranties of any kind. We do not guarantee fitness for a specific purpose, uninterrupted availability, or error-free operation."
     },
     "limitationOfLiability": {
       "title": "7. LIMITATION OF LIABILITY",
-      "content": "Maximum liability limited to fees paid in preceding 12 months."
+      "content": "Maximum liability is limited to the total amount paid for your purchase. We are not liable for indirect, incidental, or consequential damages."
     },
     "governingLaw": {
       "title": "8. GOVERNING LAW",
-      "content": "Governed by Swedish law. Disputes resolved in Stockholm courts."
+      "content": "Governed by Swedish law. Disputes shall be resolved in Stockholm district courts."
     },
     "modifications": {
       "title": "9. MODIFICATIONS",
-      "content": "We may modify terms with 30 days notice. Continued use constitutes acceptance."
+      "content": "We may modify these terms with 30 days notice via email or website announcement. Continued use of the platform after notice constitutes acceptance."
     },
     "contact": {
       "title": "10. CONTACT",

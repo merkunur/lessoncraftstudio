@@ -60,7 +60,7 @@ export default async function LicensePage({
     pageDescription,
     locale,
     pageType: 'WebPage',
-    dateModified: '2026-02-22'
+    dateModified: '2027-02-28'
   });
 
   return (
@@ -106,7 +106,7 @@ export default async function LicensePage({
                 {t('intellectualProperty.title')}
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                {t('intellectualProperty.content')}
+                {t('intellectualProperty.intro')}
               </p>
             </section>
 

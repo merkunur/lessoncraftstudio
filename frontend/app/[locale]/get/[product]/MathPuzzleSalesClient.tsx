@@ -177,31 +177,44 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           opacity: 0.3;
         }
 
-        /* Hero fanned images */
-        .mp-hero-fan {
+        /* Hero cascading stack */
+        .mp-hero-stack {
           position: relative;
-          height: 340px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          width: 100%;
+          max-width: 380px;
+          margin: 0 auto;
         }
-        .mp-hero-card {
+        .mp-hero-stack-card {
           position: absolute;
-          width: 220px;
+          width: 70%;
           border-radius: 12px;
           overflow: hidden;
-          box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
-          border: 4px solid white;
-          transition: transform 0.3s ease, z-index 0s;
+          border: 3px solid white;
+          transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
         }
-        .mp-hero-card:hover {
-          transform: scale(1.05) !important;
-          z-index: 20 !important;
+        .mp-hero-stack-card:hover {
+          transform: translateY(-8px) !important;
+          box-shadow: 0 30px 60px -15px rgba(0,0,0,0.5) !important;
+          z-index: 10 !important;
         }
-        .mp-hero-card img { width: 100%; display: block; }
+        .mp-hero-stack-card img { width: 100%; display: block; }
+        /* Back card */
+        .mp-stack-back {
+          top: 0; left: 0; z-index: 1;
+          box-shadow: 0 10px 30px -8px rgba(0,0,0,0.3);
+        }
+        /* Middle card */
+        .mp-stack-mid {
+          top: 28px; left: 14%; z-index: 2;
+          box-shadow: 0 15px 40px -10px rgba(0,0,0,0.35);
+        }
+        /* Front card */
+        .mp-stack-front {
+          top: 56px; left: 28%; z-index: 3;
+          box-shadow: 0 20px 50px -12px rgba(0,0,0,0.4);
+        }
         @media (min-width: 768px) {
-          .mp-hero-fan { height: 440px; }
-          .mp-hero-card { width: 280px; }
+          .mp-hero-stack { max-width: 440px; }
         }
       `}</style>
 
@@ -242,17 +255,17 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             )}
           </div>
 
-          {/* Right — Fanned worksheet screenshots */}
+          {/* Right — Cascading worksheet stack */}
           <div className="flex items-center justify-center lg:justify-end">
-            <div className="mp-hero-fan mt-4">
-              <div className="mp-hero-card" style={{ transform: 'rotate(-8deg) translateX(-60px)', zIndex: 1 }}>
+            <div className="mp-hero-stack" style={{ aspectRatio: '1 / 1.1' }}>
+              <div className="mp-hero-stack-card mp-stack-back">
                 <img src={MATH_PUZZLE_SAMPLES.worksheet5} alt="Math puzzle worksheet variation" loading="eager" />
               </div>
-              <div className="mp-hero-card" style={{ zIndex: 3 }}>
-                <img src={MATH_PUZZLE_SAMPLES.worksheet1} alt="Math puzzle worksheet" loading="eager" />
-              </div>
-              <div className="mp-hero-card" style={{ transform: 'rotate(8deg) translateX(60px)', zIndex: 2 }}>
+              <div className="mp-hero-stack-card mp-stack-mid">
                 <img src={MATH_PUZZLE_SAMPLES.worksheet10} alt="Math puzzle worksheet with images" loading="eager" />
+              </div>
+              <div className="mp-hero-stack-card mp-stack-front">
+                <img src={MATH_PUZZLE_SAMPLES.worksheet1} alt="Math puzzle worksheet" loading="eager" />
               </div>
             </div>
           </div>

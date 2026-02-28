@@ -29,7 +29,22 @@ export const LicenseDeliveryEmail = ({
   appsAccess = [],
   memberUrl = 'https://www.lessoncraftstudio.com/member',
 }: LicenseDeliveryEmailProps) => {
-  const appCount = appsAccess.length || 33;
+  const appCount = appsAccess.length;
+  const appLabel = appCount === 1
+    ? `1 professional worksheet generator (${appsAccess[0]})`
+    : `${appCount} professional worksheet generators`;
+
+  // Show product-appropriate features based on what they actually bought
+  const features: string[] = [appLabel];
+  if (appCount >= 33) {
+    features.push('3,000+ theme images (100+ themes)');
+    features.push('11 languages supported');
+  } else if (appCount > 6) {
+    features.push('100+ theme images included');
+  }
+  features.push('High-quality PDF export');
+  features.push('Full commercial/POD/resale rights');
+  features.push('Lifetime access (no recurring fees)');
 
   return (
     <BaseLayout preview={`Your ${productName} license key is ready!`}>
@@ -77,11 +92,9 @@ export const LicenseDeliveryEmail = ({
           What You Got
         </Heading>
         <ul style={featureList}>
-          <li style={featureItem}>{appCount} professional worksheet generators</li>
-          <li style={featureItem}>Unlimited worksheet creation</li>
-          <li style={featureItem}>High-quality PDF export</li>
-          <li style={featureItem}>Custom themes, borders, and backgrounds</li>
-          <li style={featureItem}>Lifetime access (no recurring fees)</li>
+          {features.map((feature, i) => (
+            <li key={i} style={featureItem}>{feature}</li>
+          ))}
         </ul>
       </Section>
 

@@ -105,12 +105,12 @@ export async function generateLicenseKey(options: GenerateLicenseOptions): Promi
     appsAccess = getAppsForProduct(productId);
   }
 
-  // For commercial/agency tiers, grant all apps
+  // For commercial/agency tiers, always grant all apps
   if (productTier === 'commercial' || productTier === 'agency') {
-    const allApps = Object.keys(WPLUS_PRODUCTS['mega-bundle']?.apps ?? {});
-    if (allApps.length === 0) {
-      appsAccess = getAppsForProduct('mega-bundle');
-    }
+    const megaBundleApps = WPLUS_PRODUCTS['mega-bundle']?.apps ?? [];
+    appsAccess = megaBundleApps.length > 0
+      ? [...megaBundleApps] as AppId[]
+      : getAppsForProduct('mega-bundle');
   }
 
   // Generate unique license key

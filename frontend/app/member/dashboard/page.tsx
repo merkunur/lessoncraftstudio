@@ -5,6 +5,69 @@ import { useRouter } from 'next/navigation';
 import { ALL_APPS, APP_CATEGORIES, WPLUS_PRODUCTS, WPLUS_FUNNELS } from '@/config/warriorplus-products';
 import type { AppId, CategoryId } from '@/config/warriorplus-products';
 
+interface MemberAccess {
+  email: string;
+  apps: string[];
+  highestTier: string;
+  hasCommercialLicense: boolean;
+  licenses: Array<{
+    licenseKey: string;
+    productId: string;
+    productTier: string;
+    status: string;
+    createdAt: string;
+    expiresAt: string | null;
+  }>;
+}
+
+/** Compute upgrade options the user doesn't yet own */
+function getUpgradeOptions(licenses: MemberAccess['licenses']): Array<{ label: string; description: string; href: string }> {
+  const ownedProductIds = new Set(licenses.map(l => l.productId));
+  const upgrades: Array<{ label: string; description: string; href: string }> = [];
+
+  // Check each funnel to see what OTOs are missing
+  for (const funnel of Object.values(WPLUS_FUNNELS)) {
+    const ownsFE = ownedProductIds.has(funnel.fe);
+    if (!ownsFE) continue; // Not in this funnel
+
+    const ownsOTO1 = ownedProductIds.has(funnel.oto1);
+    const ownsOTO2 = ownedProductIds.has(funnel.oto2);
+
+    if (!ownsOTO1) {
+      const oto1Product = WPLUS_PRODUCTS[funnel.oto1];
+      if (oto1Product) {
+        upgrades.push({
+          label: 'Unlock All 104 Themes',
+          description: `${oto1Product.name} — 3,000+ images`,
+          href: `/get/word-search-library`,
+        });
+      }
+    }
+
+    if (!ownsOTO2) {
+      const oto2Product = WPLUS_PRODUCTS[funnel.oto2];
+      if (oto2Product) {
+        upgrades.push({
+          label: 'Unlock All 11 Languages',
+          description: `${oto2Product.name}`,
+          href: `/get/word-search-languages`,
+        });
+      }
+    }
+  }
+
+  // If they have no specific funnel upgrades, offer the mega bundle
+  if (upgrades.length === 0 && !ownedProductIds.has('mega-bundle')) {
+    upgrades.push({
+      label: 'Get Full Access',
+      description: 'All 33 apps, 3,000+ images, 11 languages',
+      href: '/en/apps',
+    });
+  }
+
+  return upgrades;
+}
+
 /**
  * Compute theme/language entitlements for an app based on owned product IDs.
  * Returns { themes: string[] | 'all', langs: string[] | 'all' }
@@ -46,21 +109,6 @@ function computeEntitlements(
   const langs: string[] | 'all' = ownsOTO2 ? 'all' : ['en'];
 
   return { themes, langs };
-}
-
-interface MemberAccess {
-  email: string;
-  apps: string[];
-  highestTier: string;
-  hasCommercialLicense: boolean;
-  licenses: Array<{
-    licenseKey: string;
-    productId: string;
-    productTier: string;
-    status: string;
-    createdAt: string;
-    expiresAt: string | null;
-  }>;
 }
 
 export default function MemberDashboard() {
@@ -225,16 +273,26 @@ export default function MemberDashboard() {
       </div>
 
       {/* Upgrade prompt if not full access */}
-      {!hasFullAccess && (
-        <div style={styles.upgradeBar}>
-          <p style={styles.upgradeText}>
-            Upgrade to the Full Toolkit to unlock all 33 apps and 3,000+ images!
-          </p>
-          <a href="/en/apps" style={styles.upgradeButton}>
-            Upgrade Now
-          </a>
-        </div>
-      )}
+      {!hasFullAccess && (() => {
+        const upgrades = getUpgradeOptions(access.licenses);
+        if (upgrades.length === 0) return null;
+        return (
+          <div style={styles.upgradeBar}>
+            <p style={styles.upgradeText}>
+              {upgrades.length === 1
+                ? upgrades[0].description
+                : 'Upgrade to unlock more themes, languages, and apps!'}
+            </p>
+            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' as const }}>
+              {upgrades.map((upgrade, i) => (
+                <a key={i} href={upgrade.href} style={styles.upgradeButton}>
+                  {upgrade.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
 
       {/* License Keys Section */}
       <div style={styles.licensesSection}>
@@ -245,7 +303,7 @@ export default function MemberDashboard() {
               <div style={styles.licenseCardLeft}>
                 <span style={styles.licenseKeyDisplay}>{license.licenseKey}</span>
                 <span style={styles.licenseProduct}>
-                  {tierLabels[license.productTier] || license.productTier}
+                  {WPLUS_PRODUCTS[license.productId]?.name || tierLabels[license.productTier] || license.productTier}
                 </span>
               </div>
               <div style={styles.licenseCardRight}>

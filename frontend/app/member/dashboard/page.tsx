@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ALL_APPS, APP_CATEGORIES, WPLUS_PRODUCTS, WPLUS_FUNNELS } from '@/config/warriorplus-products';
 import type { AppId, CategoryId } from '@/config/warriorplus-products';
+import { getSalesPageByProductId } from '@/config/sales-pages';
 
 interface MemberAccess {
   email: string;
@@ -18,54 +19,6 @@ interface MemberAccess {
     createdAt: string;
     expiresAt: string | null;
   }>;
-}
-
-/** Compute upgrade options the user doesn't yet own */
-function getUpgradeOptions(licenses: MemberAccess['licenses']): Array<{ label: string; description: string; href: string }> {
-  const ownedProductIds = new Set(licenses.map(l => l.productId));
-  const upgrades: Array<{ label: string; description: string; href: string }> = [];
-
-  // Check each funnel to see what OTOs are missing
-  for (const funnel of Object.values(WPLUS_FUNNELS)) {
-    const ownsFE = ownedProductIds.has(funnel.fe);
-    if (!ownsFE) continue; // Not in this funnel
-
-    const ownsOTO1 = ownedProductIds.has(funnel.oto1);
-    const ownsOTO2 = ownedProductIds.has(funnel.oto2);
-
-    if (!ownsOTO1) {
-      const oto1Product = WPLUS_PRODUCTS[funnel.oto1];
-      if (oto1Product) {
-        upgrades.push({
-          label: 'Unlock All 104 Themes',
-          description: `${oto1Product.name} — 3,000+ images`,
-          href: `/get/word-search-library`,
-        });
-      }
-    }
-
-    if (!ownsOTO2) {
-      const oto2Product = WPLUS_PRODUCTS[funnel.oto2];
-      if (oto2Product) {
-        upgrades.push({
-          label: 'Unlock All 11 Languages',
-          description: `${oto2Product.name}`,
-          href: `/get/word-search-languages`,
-        });
-      }
-    }
-  }
-
-  // If they have no specific funnel upgrades, offer the mega bundle
-  if (upgrades.length === 0 && !ownedProductIds.has('mega-bundle')) {
-    upgrades.push({
-      label: 'Get Full Access',
-      description: 'All 33 apps, 3,000+ images, 11 languages',
-      href: '/en/apps',
-    });
-  }
-
-  return upgrades;
 }
 
 /**
@@ -272,23 +225,90 @@ export default function MemberDashboard() {
         })}
       </div>
 
-      {/* Upgrade prompt if not full access */}
-      {!hasFullAccess && (() => {
-        const upgrades = getUpgradeOptions(access.licenses);
-        if (upgrades.length === 0) return null;
+      {/* Your Toolkit — shows all funnel products with owned/available status */}
+      {(() => {
+        const ownedProductIds = new Set(access.licenses.map(l => l.productId));
+        // Collect funnel products the user is part of
+        const funnelProducts: Array<{
+          productId: string;
+          owned: boolean;
+          position: 'fe' | 'oto1' | 'oto2';
+        }> = [];
+
+        for (const funnel of Object.values(WPLUS_FUNNELS)) {
+          const ownsFE = ownedProductIds.has(funnel.fe);
+          if (!ownsFE) continue; // Only show funnels the user has entered
+
+          funnelProducts.push({ productId: funnel.fe, owned: true, position: 'fe' });
+          funnelProducts.push({ productId: funnel.oto1, owned: ownedProductIds.has(funnel.oto1), position: 'oto1' });
+          funnelProducts.push({ productId: funnel.oto2, owned: ownedProductIds.has(funnel.oto2), position: 'oto2' });
+        }
+
+        if (funnelProducts.length === 0) return null;
+
         return (
-          <div style={styles.upgradeBar}>
-            <p style={styles.upgradeText}>
-              {upgrades.length === 1
-                ? upgrades[0].description
-                : 'Upgrade to unlock more themes, languages, and apps!'}
-            </p>
-            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' as const }}>
-              {upgrades.map((upgrade, i) => (
-                <a key={i} href={upgrade.href} style={styles.upgradeButton}>
-                  {upgrade.label}
-                </a>
-              ))}
+          <div style={styles.offerSection}>
+            <h2 style={styles.sectionTitle}>Your Toolkit</h2>
+            <p style={styles.offerSubtitle}>Products you own and available add-ons</p>
+            <div style={styles.offerList}>
+              {funnelProducts.map(({ productId, owned }) => {
+                const product = WPLUS_PRODUCTS[productId];
+                if (!product) return null;
+                const salesPage = getSalesPageByProductId(productId);
+
+                return (
+                  <div
+                    key={productId}
+                    style={{
+                      ...styles.offerCard,
+                      borderLeftColor: owned ? '#22C55E' : '#F59E0B',
+                    }}
+                  >
+                    <div style={styles.offerCardContent}>
+                      <div style={styles.offerCardTop}>
+                        <div style={{ flex: 1 }}>
+                          <div style={styles.offerNameRow}>
+                            <h3 style={styles.offerProductName}>{product.name}</h3>
+                            {owned && (
+                              <span style={styles.offerOwnedBadge}>
+                                {'\u2713'} Owned
+                              </span>
+                            )}
+                          </div>
+                          <p style={styles.offerDescription}>{product.description}</p>
+                        </div>
+                      </div>
+
+                      {!owned && (
+                        <div style={styles.offerCardBottom}>
+                          <ul style={styles.offerFeatures}>
+                            {product.features.slice(0, 3).map((feat, i) => (
+                              <li key={i} style={styles.offerFeatureItem}>{feat}</li>
+                            ))}
+                          </ul>
+                          <div style={styles.offerPriceRow}>
+                            <div style={styles.offerPriceBlock}>
+                              <span style={styles.offerPrice}>${product.price}</span>
+                              <span style={styles.offerComparePrice}>${product.comparePrice}</span>
+                              <span style={styles.offerPriceLabel}>one-time</span>
+                            </div>
+                            {salesPage && (
+                              <a
+                                href={`/get/${salesPage.slug}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={styles.offerBuyButton}
+                              >
+                                Learn More {'\u2192'}
+                              </a>
+                            )}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         );
@@ -498,25 +518,111 @@ const styles: Record<string, React.CSSProperties> = {
     cursor: 'pointer',
     transition: 'background-color 0.2s',
   },
-  upgradeBar: {
+  offerSection: {
+    padding: '0 32px 32px',
+  },
+  offerSubtitle: {
+    fontSize: '14px',
+    color: '#6B7280',
+    margin: '0 0 16px',
+  },
+  offerList: {
     display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '20px 32px',
-    margin: '0 32px 32px',
-    backgroundColor: '#FEF3C7',
-    border: '1px solid #FCD34D',
-    borderRadius: '10px',
-    flexWrap: 'wrap',
+    flexDirection: 'column',
     gap: '12px',
   },
-  upgradeText: {
-    fontSize: '15px',
-    color: '#92400E',
-    margin: '0',
-    fontWeight: '500',
+  offerCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: '10px',
+    borderLeft: '4px solid #22C55E',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.08)',
+    overflow: 'hidden',
   },
-  upgradeButton: {
+  offerCardContent: {
+    padding: '20px 24px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '16px',
+  },
+  offerCardTop: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: '16px',
+  },
+  offerNameRow: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '10px',
+    flexWrap: 'wrap',
+  },
+  offerProductName: {
+    fontSize: '16px',
+    fontWeight: '700',
+    color: '#1F2937',
+    margin: '0',
+  },
+  offerOwnedBadge: {
+    fontSize: '12px',
+    fontWeight: '600',
+    backgroundColor: '#DEF7EC',
+    color: '#03543F',
+    padding: '2px 10px',
+    borderRadius: '12px',
+    whiteSpace: 'nowrap',
+  },
+  offerDescription: {
+    fontSize: '14px',
+    color: '#6B7280',
+    margin: '6px 0 0',
+    lineHeight: '1.5',
+  },
+  offerCardBottom: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+    gap: '16px',
+    flexWrap: 'wrap',
+  },
+  offerFeatures: {
+    margin: '0',
+    padding: '0 0 0 18px',
+    listStyle: 'disc',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '4px',
+  },
+  offerFeatureItem: {
+    fontSize: '13px',
+    color: '#4B5563',
+    lineHeight: '1.4',
+  },
+  offerPriceRow: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '16px',
+    flexShrink: 0,
+  },
+  offerPriceBlock: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: '6px',
+  },
+  offerPrice: {
+    fontSize: '22px',
+    fontWeight: '700',
+    color: '#1F2937',
+  },
+  offerComparePrice: {
+    fontSize: '14px',
+    color: '#9CA3AF',
+    textDecoration: 'line-through',
+  },
+  offerPriceLabel: {
+    fontSize: '12px',
+    color: '#9CA3AF',
+  },
+  offerBuyButton: {
+    display: 'inline-block',
     padding: '10px 24px',
     fontSize: '14px',
     fontWeight: '600',
@@ -524,6 +630,7 @@ const styles: Record<string, React.CSSProperties> = {
     backgroundColor: '#F59E0B',
     color: '#FFFFFF',
     textDecoration: 'none',
+    whiteSpace: 'nowrap',
   },
   licensesSection: {
     padding: '0 32px 32px',

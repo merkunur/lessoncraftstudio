@@ -830,6 +830,11 @@ export function getSalesPage(slug: string): SalesPageConfig | null {
   return SALES_PAGES[slug] ?? null;
 }
 
+/** Look up a sales page by its product ID */
+export function getSalesPageByProductId(productId: string): SalesPageConfig | null {
+  return Object.values(SALES_PAGES).find(p => p.productId === productId) ?? null;
+}
+
 /** Get all sales page slugs (for generateStaticParams) */
 export function getAllSalesPageSlugs(): string[] {
   return Object.keys(SALES_PAGES);

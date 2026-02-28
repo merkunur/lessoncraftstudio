@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Script from 'next/script';
 import type { SalesPageConfig } from '@/config/sales-pages';
 
 interface Props {
@@ -129,14 +130,59 @@ function FAQItem({ question, answer, idx }: { question: string; answer: string; 
   );
 }
 
+function WPBuyButton({ config }: { config: SalesPageConfig }) {
+  if (config.wpButtonImg) {
+    return (
+      <div className="flex justify-center">
+        <a
+          href={config.checkoutUrl}
+          className="inline-block transition-transform duration-200 hover:scale-105 active:scale-95"
+        >
+          <img src={config.wpButtonImg} alt="Buy Now" />
+        </a>
+      </div>
+    );
+  }
+  const ctaText = `${config.hero.ctaPrimary} \u2014 $${config.pricing.price}`;
+  return <CTAButton text={ctaText} href={config.checkoutUrl || '#'} />;
+}
+
+function WPDisclaimer() {
+  return (
+    <>
+      <Script src="https://warriorplus.com/o2/disclaimer/pxf0ht" strategy="lazyOnload" />
+      <div className="wplus_spdisclaimer mt-6 text-center text-sm text-slate-500" />
+    </>
+  );
+}
+
+function ComplianceFooter({ locale }: { locale: string }) {
+  return (
+    <footer className="bg-stone-100 py-10 px-4">
+      <div className="max-w-3xl mx-auto text-center space-y-4">
+        <p className="text-sm text-slate-500 leading-relaxed">
+          <span className="font-semibold text-slate-600">Income Disclaimer:</span> Results shown on this page are not guaranteed. Individual results vary based on effort, experience, and market conditions. Income examples are illustrative only.
+        </p>
+        <p className="text-sm text-slate-500">
+          Support: <a href="mailto:support@lessoncraftstudio.com" className="text-slate-600 underline hover:text-slate-800">support@lessoncraftstudio.com</a>
+        </p>
+        <p className="text-sm text-slate-500">
+          <a href={`/${locale}/privacy`} className="text-slate-600 underline hover:text-slate-800">Privacy Policy</a>
+          <span className="mx-2">|</span>
+          <a href={`/${locale}/terms`} className="text-slate-600 underline hover:text-slate-800">Terms of Service</a>
+        </p>
+        <p className="text-xs text-slate-400">&copy; 2027 LessonCraftStudio. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+}
+
 /* ═══════════════════════════════════════════
    FE LAYOUT — 21-Section Sales Page
    ═══════════════════════════════════════════ */
 
 function FELayout({ config, locale }: Props) {
   const { pricing } = config;
-  const ctaHref = config.checkoutUrl || '#';
-  const ctaText = `${config.hero.ctaPrimary} \u2014 $${pricing.price}`;
 
   return (
     <>
@@ -156,7 +202,7 @@ function FELayout({ config, locale }: Props) {
               {config.hero.subheadline}
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-              <CTAButton text={ctaText} href={ctaHref} />
+              <WPBuyButton config={config} />
             </div>
             {config.hero.trustBadges && (
               <div className="flex flex-wrap justify-center gap-4">
@@ -263,7 +309,7 @@ function FELayout({ config, locale }: Props) {
             <p className="text-xl font-bold text-white">Ready to start creating?</p>
             <p className="text-teal-100 text-sm">One-time payment. Lifetime access. Full commercial rights.</p>
           </div>
-          <CTAButton text={ctaText} href={ctaHref} />
+          <WPBuyButton config={config} />
         </div>
       </section>
 
@@ -405,7 +451,7 @@ function FELayout({ config, locale }: Props) {
             </div>
           </div>
           <div className="text-center mt-8">
-            <CTAButton text={ctaText} href={ctaHref} size="md" />
+            <WPBuyButton config={config} />
           </div>
         </div>
       </section>
@@ -582,7 +628,7 @@ function FELayout({ config, locale }: Props) {
         <div className="max-w-3xl mx-auto px-4 md:px-6 text-center">
           <h2 className="sp-display text-3xl md:text-4xl font-bold text-slate-900 mb-6">Start Creating Today</h2>
           <div className="flex flex-col items-center gap-4 mb-10">
-            <CTAButton text={ctaText} href={ctaHref} />
+            <WPBuyButton config={config} />
             <div className="flex flex-wrap justify-center gap-4">
               {pricing.includes.slice(0, 4).map((inc) => (
                 <span key={inc} className="flex items-center gap-1.5 text-sm text-slate-500">
@@ -591,6 +637,7 @@ function FELayout({ config, locale }: Props) {
                 </span>
               ))}
             </div>
+            <WPDisclaimer />
           </div>
           {config.closingPs && (
             <div className="bg-stone-50 rounded-2xl p-6 md:p-8 border border-stone-100 text-left">
@@ -600,6 +647,8 @@ function FELayout({ config, locale }: Props) {
           )}
         </div>
       </section>
+
+      <ComplianceFooter locale={locale} />
     </>
   );
 }
@@ -610,8 +659,6 @@ function FELayout({ config, locale }: Props) {
 
 function OTOLayout({ config, locale }: Props) {
   const { pricing } = config;
-  const ctaHref = config.checkoutUrl || '#';
-  const ctaText = `${config.hero.ctaPrimary} \u2014 $${pricing.price}`;
   const isOto1 = !!config.comparison;
 
   return (
@@ -626,7 +673,7 @@ function OTOLayout({ config, locale }: Props) {
           )}
           <h1 className="sp-display text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">{config.hero.headline}</h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">{config.hero.subheadline}</p>
-          <CTAButton text={ctaText} href={ctaHref} />
+          <WPBuyButton config={config} />
           {config.hero.trustBadges && (
             <div className="flex flex-wrap justify-center gap-4 mt-6">
               {config.hero.trustBadges.map((badge) => (
@@ -805,9 +852,8 @@ function OTOLayout({ config, locale }: Props) {
             </ul>
             <div className="text-center border-t border-stone-200 pt-6">
               <p className="text-slate-500 mb-1">Total Value: <span className="line-through">${config.valueStack.totalValue}</span></p>
-              <div className="inline-block bg-orange-500 text-white text-3xl font-bold px-8 py-3 rounded-xl shadow-lg shadow-orange-500/25">
-                Add for ${config.valueStack.yourPrice}
-              </div>
+              <p className="text-3xl font-bold text-orange-500 mb-4">Add for ${config.valueStack.yourPrice}</p>
+              <WPBuyButton config={config} />
               <p className="text-sm text-slate-500 mt-3">{pricing.label}</p>
             </div>
           </div>
@@ -842,7 +888,7 @@ function OTOLayout({ config, locale }: Props) {
       {/* ── 8. FINAL CTA / DECLINE ───────────────────── */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-2xl mx-auto px-4 md:px-6 text-center">
-          <CTAButton text={ctaText} href={ctaHref} />
+          <WPBuyButton config={config} />
           <div className="flex flex-wrap justify-center gap-3 mt-6 mb-8">
             {pricing.includes.slice(0, 3).map((inc) => (
               <span key={inc} className="flex items-center gap-1.5 text-sm text-slate-500">
@@ -851,13 +897,16 @@ function OTOLayout({ config, locale }: Props) {
               </span>
             ))}
           </div>
+          <WPDisclaimer />
           {config.declineText && (
-            <a href="#" className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors">
+            <a href="#" className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors mt-4 inline-block">
               {config.declineText}
             </a>
           )}
         </div>
       </section>
+
+      <ComplianceFooter locale={locale} />
     </>
   );
 }

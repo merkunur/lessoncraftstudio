@@ -24,6 +24,8 @@ export interface SalesPageConfig {
   productId: string;
   /** WarriorPlus checkout URL (empty until product is created) */
   checkoutUrl: string;
+  /** WarriorPlus official buy button image URL */
+  wpButtonImg?: string;
   /** Link to the free (watermarked) version of the app */
   freeAppUrl: string;
   /** Is this an OTO page inside the WarriorPlus funnel? */
@@ -224,6 +226,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     slug: 'word-search',
     productId: 'wordsearch-fe',
     checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/hglfpg/459035',
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
@@ -551,7 +554,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-library': {
     slug: 'word-search-library',
     productId: 'wordsearch-oto1-library',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/r02nbq/xkd0x7',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/r02nbq/459036',
     freeAppUrl: '',
     isOto: true,
 
@@ -698,7 +702,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-languages': {
     slug: 'word-search-languages',
     productId: 'wordsearch-oto2-languages',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/rdpvkz/llwqdy',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/rdpvkz/459037',
     freeAppUrl: '',
     isOto: true,
 

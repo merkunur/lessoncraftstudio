@@ -945,12 +945,10 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     valueStack: {
       headline: 'Everything You Unlock',
       items: [
-        { name: '52 Colorful Image Themes', value: 147 },
-        { name: '52 Black & White Themes', value: 97 },
-        { name: '3,125 Professional PNG Images', value: 97 },
-        { name: 'Decorative Backgrounds & Borders', value: 37 },
+        { name: '52 Colorful Image Themes (1,560 images)', value: 147 },
+        { name: '52 Black & White Themes (1,565 images)', value: 97 },
       ],
-      totalValue: 378,
+      totalValue: 244,
       yourPrice: 37,
     },
 
@@ -991,7 +989,6 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       includes: [
         '104 image themes (3,125 images)',
         '52 colorful + 52 black & white themes',
-        'Decorative backgrounds & borders',
         'Instant activation',
         'Full commercial rights on all images',
       ],

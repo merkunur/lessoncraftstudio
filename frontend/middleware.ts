@@ -333,6 +333,7 @@ export default function middleware(request: NextRequest) {
 
   // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
   if (pathname.startsWith('/admin') ||
+      pathname.startsWith('/member') ||
       pathname.startsWith('/settings') ||
       pathname.startsWith('/notifications') ||
       pathname.startsWith('/collaboration') ||

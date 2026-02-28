@@ -223,7 +223,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search': {
     slug: 'word-search',
     productId: 'wordsearch-fe',
-    checkoutUrl: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
@@ -551,7 +551,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-library': {
     slug: 'word-search-library',
     productId: 'wordsearch-oto1-library',
-    checkoutUrl: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
     freeAppUrl: '',
     isOto: true,
 
@@ -698,7 +698,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-languages': {
     slug: 'word-search-languages',
     productId: 'wordsearch-oto2-languages',
-    checkoutUrl: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
     freeAppUrl: '',
     isOto: true,
 

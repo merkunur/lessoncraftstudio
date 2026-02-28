@@ -378,6 +378,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     languages: 1,
     funnelPosition: 'frontend',
     funnelId: 'wordsearch-funnel',
+    wplusProductId: 'wso_ldqjqn',
     includedThemes: ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'],
     includesCommercialRights: true,
   },
@@ -402,6 +403,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     languages: 1,
     funnelPosition: 'oto1',
     funnelId: 'wordsearch-funnel',
+    wplusProductId: 'wso_xkd0x7',
     includesCommercialRights: true,
   },
 
@@ -425,6 +427,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     languages: 11,
     funnelPosition: 'oto2',
     funnelId: 'wordsearch-funnel',
+    wplusProductId: 'wso_llwqdy',
     includesCommercialRights: true,
   },
 };

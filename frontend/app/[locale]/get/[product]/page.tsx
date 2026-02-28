@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getSalesPage, getAllSalesPageSlugs } from '@/config/sales-pages';
 import { SalesPageClient } from './SalesPageClient';
+import MathPuzzleSalesClient from './MathPuzzleSalesClient';
 
 interface PageProps {
   params: { locale: string; product: string };
@@ -44,6 +45,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default function SalesPage({ params }: PageProps) {
   const config = getSalesPage(params.product);
   if (!config) notFound();
+
+  // Math Puzzle pages use a custom component with unique visual design
+  if (params.product.startsWith('math-puzzle')) {
+    return <MathPuzzleSalesClient config={config} locale={params.locale} />;
+  }
 
   return <SalesPageClient config={config} locale={params.locale} />;
 }

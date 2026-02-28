@@ -407,6 +407,58 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     includesCommercialRights: true,
   },
 
+  // --- Math Puzzle Funnel ---
+  // FE ($27): Math Puzzle Studio Pro — 10 themes, ALL app features
+  'mathpuzzle-fe': {
+    id: 'mathpuzzle-fe',
+    name: 'Math Puzzle Studio Pro',
+    description: 'Professional math puzzle worksheet creation studio. 9 grid configurations, 3 math operations, auto answer keys, canvas editor, PDF export. Full commercial rights included.',
+    price: 27,
+    comparePrice: 97,
+    tier: 'single-app',
+    apps: ['math-puzzle'] as AppId[],
+    features: [
+      'Math Puzzle Studio Pro (9 grid configurations)',
+      '10 image themes (curated colorful themes)',
+      '3 math operations (addition, subtraction, mixed)',
+      'Auto answer key generation',
+      'Canvas editor (move, resize, rotate, layers)',
+      '7 fonts + text effects + grayscale mode',
+      'PDF + JPEG export',
+      'Watermark-free output',
+      'Full commercial/POD/resale rights',
+    ],
+    imageCount: 300,
+    languages: 11,
+    funnelPosition: 'frontend',
+    funnelId: 'mathpuzzle-funnel',
+    includedThemes: ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'],
+    includesCommercialRights: true,
+  },
+
+  // OTO1 ($37): Complete Image Library — unlock all 104 themes (3,125 images)
+  'mathpuzzle-oto1-library': {
+    id: 'mathpuzzle-oto1-library',
+    name: 'Complete Image Library',
+    description: 'Unlock all 104 image themes with 3,125 professionally curated PNG images. Create math puzzle worksheets for any niche.',
+    price: 37,
+    comparePrice: 147,
+    tier: 'single-app',
+    apps: ['math-puzzle'] as AppId[],
+    features: [
+      '104 image themes (3,125 images)',
+      '52 colorful themes + 52 black & white themes',
+      'Decorative backgrounds & borders',
+      'Instant activation',
+      'Full commercial rights on all images',
+    ],
+    imageCount: 3125,
+    languages: 11,
+    funnelPosition: 'oto1',
+    funnelId: 'mathpuzzle-funnel',
+    includesCommercialRights: true,
+  },
+
   // OTO2 ($27): All 11 Languages — unlock all 11 languages
   'wordsearch-oto2-languages': {
     id: 'wordsearch-oto2-languages',
@@ -451,7 +503,7 @@ export interface WPlusFunnel {
   name: string;
   fe: string;
   oto1: string;
-  oto2: string;
+  oto2?: string;
 }
 
 export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
@@ -461,6 +513,12 @@ export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
     fe: 'wordsearch-fe',
     oto1: 'wordsearch-oto1-library',
     oto2: 'wordsearch-oto2-languages',
+  },
+  'mathpuzzle-funnel': {
+    id: 'mathpuzzle-funnel',
+    name: 'Math Puzzle Launch Funnel',
+    fe: 'mathpuzzle-fe',
+    oto1: 'mathpuzzle-oto1-library',
   },
 };
 
@@ -523,6 +581,7 @@ export function getProductIncludedThemes(productId: string): string[] {
  * Run `node scripts/validate-theme-mapping.js` to verify.
  */
 export const THEME_DB_MAP: Record<string, string> = {
+  // Word Search themes
   'animals': 'animals',
   'food': 'food_bw',
   'vehicles': 'vehicles',
@@ -533,6 +592,14 @@ export const THEME_DB_MAP: Record<string, string> = {
   'school': 'classroom',
   'sports': 'sports_bw',
   'nature': 'nature_bw',
+  // Math Puzzle themes
+  'vegetables': 'vegetables',
+  'ocean-life': 'ocean_life',
+  'dinosaurs': 'dinosaurs',
+  'space': 'space',
+  'birds': 'birds',
+  'flowers': 'flowers',
+  'insects-and-bugs': 'insects_and_bugs',
 };
 
 /** Resolve a sales-page theme name to its DB name. Returns the DB name, or the input unchanged if no mapping. */

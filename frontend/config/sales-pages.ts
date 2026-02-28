@@ -7,10 +7,9 @@
  * FE page uses a 21-section structure modeled after proven WarriorPlus converters.
  * OTO pages use a condensed 7-section structure shown inside the funnel.
  *
- * Funnel:
- *   FE  ($27) — Word Search Studio Pro: 10 themes, English only, ALL app features
- *   OTO1 ($37) — Complete Image Library: unlock all 104 themes (3,000+ images)
- *   OTO2 ($27) — All 11 Languages: unlock all 11 languages
+ * Funnels:
+ *   Word Search: FE ($27) + OTO1 ($37 library) + OTO2 ($27 languages)
+ *   Math Puzzle: FE ($27) + OTO1 ($37 library)
  */
 
 // ==========================================
@@ -544,6 +543,493 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       title: 'Word Search Studio Pro \u2014 Create & Sell Professional Puzzle Books | $27 One-Time',
       description: 'Create professional word search puzzle books in minutes. 10 image themes, canvas editor, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time.',
       keywords: 'word search studio pro, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search',
+    },
+  },
+
+  // ══════════════════════════════════════════
+  // FE — Math Puzzle Studio Pro ($27)
+  // 10 themes, 11 languages, ALL app features
+  // ══════════════════════════════════════════
+  'math-puzzle': {
+    slug: 'math-puzzle',
+    productId: 'mathpuzzle-fe',
+    checkoutUrl: '',
+    freeAppUrl: '',
+
+    // ── 1. Hero ──────────────────────────────
+    hero: {
+      badge: 'Math Puzzle Studio Pro',
+      headline: 'Turn Any Image Into a Math Puzzle Worksheet in 60 Seconds',
+      subheadline: '9 grid configurations. 3 math operations. Auto answer keys. Canvas editor. PDF export. 10 curated image themes. Full commercial rights included.',
+      ctaPrimary: 'Get Instant Access',
+      trustBadges: [
+        'Watermark-Free Output',
+        'Commercial Rights Included',
+        'Instant Download Access',
+      ],
+    },
+
+    // ── 2. Testimonial ───────────────────────
+    // No testimonials — product is new, no fake reviews
+    testimonial: undefined,
+
+    // ── 3. Feature Grid (6 cards) ────────────
+    features: [
+      {
+        icon: 'grid',
+        title: '9 Grid Configurations (2x2 to 4x4)',
+        description: 'Create puzzles from simple 4-piece grids for beginners to challenging 16-piece grids for older students. Nine row/column combinations let you target any age group or difficulty level.',
+      },
+      {
+        icon: 'sparkles',
+        title: '3 Math Operations',
+        description: 'Addition, subtraction, or mixed mode. The app auto-generates equations for each puzzle piece. Students solve the math to reconstruct the picture.',
+      },
+      {
+        icon: 'images',
+        title: '10 Image Themes (~300 Images)',
+        description: 'Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.',
+      },
+      {
+        icon: 'edit',
+        title: 'Full Canvas Editor',
+        description: 'Drag, resize, rotate, and layer every element. Add custom text with 7 fonts, upload your own images, adjust colors and outlines. Built on Fabric.js \u2014 the same technology behind Canva.',
+      },
+      {
+        icon: 'download',
+        title: 'PDF + JPEG Export with Answer Keys',
+        description: 'Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.',
+      },
+      {
+        icon: 'shield',
+        title: 'Full Commercial Rights',
+        description: 'Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.',
+      },
+    ],
+
+    // ── 4. Market Stats ──────────────────────
+    marketStats: {
+      headline: 'Why Math Puzzle Books Are a Proven Seller',
+      description: 'Math puzzle worksheets combine two things parents and teachers are always looking for: math practice and engaging activities.',
+      stats: [
+        { value: '$2.4B', label: 'U.S. puzzle book market size (est.)' },
+        { value: '18,000+', label: 'Monthly searches for math puzzles' },
+        { value: 'Growing', label: 'Year-over-year printable market growth' },
+        { value: 'Year-Round', label: 'Demand \u2014 not seasonal like holidays' },
+      ],
+    },
+
+    // ── 5. Income Potential ──────────────────
+    incomePotential: {
+      headline: 'The Math Behind Math Puzzle Income',
+      description: 'Create 10 themed math puzzle books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day \u2014 that\u2019s a growing passive income stream with every new title you publish.',
+      calculation: '$3.99 \u00d7 1.5 sales/day \u00d7 10 books = $59.85/day \u2248 $598/month',
+    },
+
+    // ── 7. Obstacles ─────────────────────────
+    obstacles: {
+      headline: 'Maybe You\u2019ve Tried Before...',
+      problems: [
+        'Creating math puzzles manually means writing equations, slicing images, and aligning pieces \u2014 hours per worksheet',
+        'Professional puzzle-making software costs $200+ and has a steep learning curve',
+        'You don\u2019t know how to generate auto-graded answer keys',
+        'Formatting for print (KDP, Etsy) requires technical knowledge you don\u2019t have',
+      ],
+      solution: 'Math Puzzle Studio Pro handles all of this automatically. Pick an image, set your grid and math operation, and export a print-ready PDF with answer key \u2014 in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
+    },
+
+    // ── 8. Product Introduction ──────────────
+    productIntro: {
+      headline: 'Introducing Math Puzzle Studio Pro',
+      description: 'A browser-based creation studio that turns any image into a math puzzle worksheet. The app slices your chosen picture into grid pieces, generates equations for each cell, and produces a matching answer key \u2014 all automatically.',
+      differentiators: [
+        'Image-based puzzles \u2014 students solve math to reconstruct a picture, not just fill in blanks',
+        'Auto equation generation \u2014 the app creates addition, subtraction, or mixed problems instantly',
+        'One-click answer keys \u2014 generated automatically from every worksheet',
+        'Full canvas editor \u2014 move, resize, rotate, and layer every element with professional precision',
+      ],
+    },
+
+    // ── 9. Before/After ──────────────────────
+    beforeAfter: {
+      before: [
+        'Spend hours manually creating math puzzle grids and writing equations',
+        'Pay $200+ for design software you don\u2019t know how to use',
+        'Produce plain worksheets that look unprofessional',
+        'Struggle with print formatting and page sizing',
+        'No way to generate answer keys automatically',
+      ],
+      after: [
+        'Generate professional math puzzle worksheets in under 60 seconds',
+        'One-time $27 payment \u2014 no monthly fees, no subscriptions',
+        'Image-rich puzzles that stand out on Etsy and Amazon',
+        'Export print-ready PDFs formatted for any platform',
+        'Answer keys generated automatically with every worksheet',
+      ],
+    },
+
+    // ── 10. Ownership/Rights ─────────────────
+    ownership: [
+      {
+        icon: 'shield',
+        title: 'Full Commercial Rights',
+        description: 'Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.',
+      },
+      {
+        icon: 'users',
+        title: 'Personal Use',
+        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+      },
+      {
+        icon: 'store',
+        title: 'Sell Anywhere',
+        description: 'Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website \u2014 sell on any platform worldwide.',
+      },
+    ],
+
+    // ── 11. Demo ─────────────────────────────
+    demo: {
+      type: 'static-mockup',
+    },
+
+    // ── 12. How It Works (5 Steps) ───────────
+    steps: [
+      {
+        number: 1,
+        icon: 'images',
+        title: 'Pick an Image',
+        description: 'Browse 10 image themes \u2014 animals, dinosaurs, ocean life, space, and more. Or upload your own image.',
+      },
+      {
+        number: 2,
+        icon: 'grid',
+        title: 'Set Your Grid',
+        description: 'Choose from 9 configurations: 2x2 through 4x4. Simple 4-piece puzzles for beginners, challenging 16-piece grids for older students.',
+      },
+      {
+        number: 3,
+        icon: 'sparkles',
+        title: 'Choose Math Operation',
+        description: 'Addition, subtraction, or mixed. The app generates unique equations for every puzzle piece automatically.',
+      },
+      {
+        number: 4,
+        icon: 'sliders',
+        title: 'Customize Your Design',
+        description: 'Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours.',
+      },
+      {
+        number: 5,
+        icon: 'rocket',
+        title: 'Export & Sell',
+        description: 'Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.',
+      },
+    ],
+
+    // ── 13. Showcase ─────────────────────────
+    showcase: {
+      headline: 'What You Can Create',
+      items: [
+        {
+          title: 'Themed Math Puzzle Books',
+          description: 'Complete puzzle books organized by theme \u2014 animals, space, dinosaurs, and more. Each puzzle features a professional image that students reconstruct by solving equations.',
+        },
+        {
+          title: 'Auto-Generated Answer Keys',
+          description: 'Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.',
+        },
+        {
+          title: 'Multiple Difficulty Levels',
+          description: '2x2 grids (4 pieces) for beginners, 3x3 (9 pieces) for intermediate, 4x4 (16 pieces) for advanced. Create products for every age group.',
+        },
+        {
+          title: 'Addition, Subtraction & Mixed',
+          description: 'Three math operation modes let you create targeted practice books \u2014 addition-only for younger kids, mixed operations for a challenge.',
+        },
+      ],
+    },
+
+    // ── 14. Target Audiences (4 cards) ───────
+    audiences: [
+      {
+        icon: 'store',
+        title: 'Etsy Sellers',
+        description: 'Create unique math puzzle activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.',
+      },
+      {
+        icon: 'book',
+        title: 'Amazon KDP Publishers',
+        description: 'Publish math activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.',
+      },
+      {
+        icon: 'users',
+        title: 'Teachers & Parents',
+        description: 'Custom math puzzles for any theme. Make math practice fun with engaging picture puzzles that kids actually enjoy solving.',
+      },
+      {
+        icon: 'rocket',
+        title: 'Content Creators',
+        description: 'Build a library of printable math products. Sell on multiple platforms simultaneously. Each puzzle takes seconds, not hours.',
+      },
+    ],
+
+    // ── 15. Value Stack ──────────────────────
+    valueStack: {
+      headline: 'Everything Included in Your Purchase',
+      items: [
+        { name: 'Math Puzzle Studio Pro (9 grid configurations)', value: 97 },
+        { name: '10 Image Themes (~300 professional images)', value: 47 },
+        { name: '3 Math Operations (add, subtract, mixed)', value: 37 },
+        { name: 'Auto Answer Key Generation', value: 47 },
+        { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
+        { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
+        { name: 'PDF + JPEG Export with Answer Keys', value: 37 },
+        { name: '7 Professional Fonts + Text Effects', value: 17 },
+      ],
+      totalValue: 426,
+      yourPrice: 27,
+    },
+
+    // ── 16. Bonuses ──────────────────────────
+    bonuses: [
+      {
+        name: 'Quick-Start Guide: Your First Math Puzzle Book in 15 Minutes',
+        description: 'Step-by-step walkthrough from opening the app to listing your first math puzzle product on Etsy or Amazon KDP.',
+        value: 27,
+      },
+      {
+        name: '10 Best-Selling Math Activity Niches Report',
+        description: 'Data-backed list of the most profitable math activity niches on Amazon and Etsy right now.',
+        value: 17,
+      },
+    ],
+
+    // ── 17. Guarantee ────────────────────────
+    guarantee: {
+      days: 30,
+      text: 'Try Math Puzzle Studio Pro risk-free for 30 days. If it doesn\u2019t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+    },
+
+    // ── 18. Urgency ──────────────────────────
+    urgency: {
+      headline: 'Lock In This Launch Price',
+      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up \u2014 and it won\u2019t come back down.',
+      regularPrice: 97,
+    },
+
+    // ── 19. FAQ (8 questions) ────────────────
+    faq: [
+      {
+        question: 'Is this a subscription?',
+        answer: 'No. This is a one-time payment of $27. You get lifetime access to Math Puzzle Studio Pro with all features included. No recurring fees, ever.',
+      },
+      {
+        question: 'Can I sell the worksheets I create?',
+        answer: 'Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.',
+      },
+      {
+        question: 'How does the math puzzle work?',
+        answer: 'Pick any image, set your grid size and math operation. The app slices the image into pieces, assigns a number to each, and generates equations. Students solve the equations to figure out where each piece goes and reconstruct the picture.',
+      },
+      {
+        question: 'What formats can I export?',
+        answer: 'You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.',
+      },
+      {
+        question: 'How many puzzles can I create?',
+        answer: 'Unlimited. There is no cap on how many math puzzle worksheets you can generate. Create as many as you want, forever.',
+      },
+      {
+        question: 'What if I\u2019m not satisfied?',
+        answer: 'We offer a 30-day money-back guarantee. If Math Puzzle Studio Pro doesn\u2019t meet your expectations, contact us for a full refund. No questions asked.',
+      },
+      {
+        question: 'Do I need math or design skills?',
+        answer: 'Not at all. The app generates all equations automatically \u2014 just pick the operation type. The canvas editor is drag-and-drop. No design skills needed.',
+      },
+      {
+        question: 'Can I upgrade to more themes later?',
+        answer: 'Yes. After purchase, you\u2019ll have the option to add the Complete Image Library (104 themes, 3,125 images). But the best price is available right after your initial purchase.',
+      },
+    ],
+
+    // ── 20. Closing P.S. ─────────────────────
+    closingPs: 'You\u2019re getting Math Puzzle Studio Pro, 9 grid configurations, 3 math operations, auto answer keys, 10 image themes, a full canvas editor, PDF export, and complete commercial rights \u2014 all for a one-time payment of $27. Create your first math puzzle book today.',
+
+    // ── Pricing (CTA sections) ───────────────
+    pricing: {
+      price: 27,
+      comparePrice: 97,
+      currency: '$',
+      label: 'One-Time Payment',
+      includes: [
+        'Math Puzzle Studio Pro (9 grid configurations)',
+        '10 image themes (~300 images)',
+        '3 math operations (add, subtract, mixed)',
+        'Auto answer key generation',
+        'Canvas editor with full control',
+        'PDF + JPEG export with answer keys',
+        '7 professional fonts + text effects',
+        'Grayscale mode (ink-saving)',
+        'Backgrounds & borders',
+        'Watermark-free output',
+        'Full commercial/POD/resale rights',
+        'Lifetime access \u2014 no subscription',
+      ],
+    },
+
+    // ── SEO ──────────────────────────────────
+    seo: {
+      title: 'Math Puzzle Studio Pro \u2014 Create & Sell Math Puzzle Worksheets | $27 One-Time',
+      description: 'Create professional math puzzle worksheets in 60 seconds. 9 grid sizes, 3 math operations, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.',
+      keywords: 'math puzzle studio pro, math puzzle maker, math puzzle worksheet creator, printable math puzzles, Etsy math worksheets, KDP math puzzles, commercial math puzzles',
+    },
+  },
+
+  // ══════════════════════════════════════════
+  // OTO1 — Math Puzzle Complete Image Library ($37)
+  // Unlock all 104 themes (3,125 images)
+  // ══════════════════════════════════════════
+  'math-puzzle-library': {
+    slug: 'math-puzzle-library',
+    productId: 'mathpuzzle-oto1-library',
+    checkoutUrl: '',
+    freeAppUrl: '',
+    isOto: true,
+
+    // ── 1. Hero ──────────────────────────────
+    hero: {
+      badge: 'Exclusive Upgrade',
+      headline: 'Wait! Unlock All 104 Image Themes',
+      subheadline: 'You just got 10 themes. Imagine having 104 \u2014 with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.',
+      ctaPrimary: 'Add to My Order',
+      trustBadges: [
+        'One-Time Payment',
+        'Instant Activation',
+        '3,125 Images',
+      ],
+    },
+
+    // ── 2. Comparison ────────────────────────
+    comparison: {
+      current: {
+        label: 'Your Current Library',
+        items: [
+          '10 image themes',
+          '~300 images',
+          'Colorful themes only',
+          '10 possible puzzle books',
+        ],
+      },
+      upgrade: {
+        label: 'Complete Image Library',
+        items: [
+          '104 image themes',
+          '3,125 images',
+          '52 colorful + 52 black & white',
+          '104+ possible puzzle books',
+        ],
+      },
+    },
+
+    // ── 3. Theme Categories ──────────────────
+    themeCategories: {
+      headline: 'Browse the Complete Theme Collection',
+      categories: [
+        { name: 'Animals', count: 36 },
+        { name: 'Ocean Life', count: 32 },
+        { name: 'Dinosaurs', count: 28 },
+        { name: 'Birds', count: 26 },
+        { name: 'Farm Animals', count: 30 },
+        { name: 'Fruits', count: 24 },
+        { name: 'Vegetables', count: 22 },
+        { name: 'Vehicles', count: 31 },
+        { name: 'Space', count: 28 },
+        { name: 'Christmas', count: 34 },
+        { name: 'Easter', count: 26 },
+        { name: 'Flowers', count: 24 },
+        { name: 'Insects & Bugs', count: 24 },
+        { name: 'Camping', count: 22 },
+        { name: 'Classroom', count: 24 },
+        { name: 'Desserts', count: 24 },
+        { name: 'Music', count: 24 },
+        { name: 'Professions', count: 28 },
+        { name: 'Pets', count: 26 },
+        { name: 'Toys', count: 24 },
+        { name: 'Summer', count: 24 },
+        { name: 'Weather', count: 22 },
+        { name: 'Shapes', count: 22 },
+        { name: 'And 81 more...', count: 0 },
+      ],
+    },
+
+    // ── 4. Content Math ──────────────────────
+    contentMath: {
+      headline: 'More Themes = More Products = More Revenue',
+      description: 'With 10 themes, you can create 10 puzzle books. With 104 themes, you can create 104+ unique books \u2014 in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.',
+    },
+
+    // ── 5. Value Stack ───────────────────────
+    valueStack: {
+      headline: 'Everything You Unlock',
+      items: [
+        { name: '52 Colorful Image Themes', value: 147 },
+        { name: '52 Black & White Themes', value: 97 },
+        { name: '3,125 Professional PNG Images', value: 97 },
+        { name: 'Decorative Backgrounds & Borders', value: 37 },
+      ],
+      totalValue: 378,
+      yourPrice: 37,
+    },
+
+    // ── 6. Guarantee ─────────────────────────
+    guarantee: {
+      days: 30,
+      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn\u2019t meet your expectations, contact us for a full refund.',
+    },
+
+    // ── 7. FAQ ───────────────────────────────
+    faq: [
+      {
+        question: 'Do I need this to use Math Puzzle Studio Pro?',
+        answer: 'No. Math Puzzle Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety \u2014 104 themes means 104+ unique puzzle books you can create and sell.',
+      },
+      {
+        question: 'How does activation work?',
+        answer: 'Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.',
+      },
+      {
+        question: 'Can I upgrade later?',
+        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
+      },
+      {
+        question: 'What\u2019s the difference between colorful and black & white themes?',
+        answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets \u2014 perfect for KDP print editions.',
+      },
+    ],
+
+    declineText: 'No thanks, I\u2019ll stick with 10 themes',
+
+    // ── Pricing (CTA section) ────────────────
+    pricing: {
+      price: 37,
+      comparePrice: 147,
+      currency: '$',
+      label: 'One-Time Upgrade',
+      includes: [
+        '104 image themes (3,125 images)',
+        '52 colorful + 52 black & white themes',
+        'Decorative backgrounds & borders',
+        'Instant activation',
+        'Full commercial rights on all images',
+      ],
+    },
+
+    // ── SEO ──────────────────────────────────
+    seo: {
+      title: 'Complete Image Library \u2014 104 Themes, 3,125 Images | $37 One-Time',
+      description: 'Unlock 104 image themes with 3,125 professionally curated images for Math Puzzle Studio Pro. Create puzzle books for any niche. $37 one-time.',
+      keywords: 'math puzzle image library, math puzzle themes, puzzle worksheet images, math puzzle upgrade',
     },
   },
 

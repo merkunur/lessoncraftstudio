@@ -51,7 +51,7 @@ function computeEntitlements(
   // Check which funnel products the user owns
   const ownsFE = ownedProductIds.includes(funnel.fe);
   const ownsOTO1 = ownedProductIds.includes(funnel.oto1);
-  const ownsOTO2 = ownedProductIds.includes(funnel.oto2);
+  const ownsOTO2 = funnel.oto2 ? ownedProductIds.includes(funnel.oto2) : false;
 
   // Themes: OTO1 unlocks all themes, otherwise FE themes only
   const feProduct = WPLUS_PRODUCTS[funnel.fe];
@@ -241,7 +241,9 @@ export default function MemberDashboard() {
 
           funnelProducts.push({ productId: funnel.fe, owned: true, position: 'fe' });
           funnelProducts.push({ productId: funnel.oto1, owned: ownedProductIds.has(funnel.oto1), position: 'oto1' });
-          funnelProducts.push({ productId: funnel.oto2, owned: ownedProductIds.has(funnel.oto2), position: 'oto2' });
+          if (funnel.oto2) {
+            funnelProducts.push({ productId: funnel.oto2, owned: ownedProductIds.has(funnel.oto2), position: 'oto2' });
+          }
         }
 
         if (funnelProducts.length === 0) return null;

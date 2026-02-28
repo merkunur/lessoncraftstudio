@@ -379,7 +379,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     funnelPosition: 'frontend',
     funnelId: 'wordsearch-funnel',
     wplusProductId: 'wso_ldqjqn',
-    includedThemes: ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'],
+    includedThemes: ['animals', 'breakfast', 'vehicles', 'fruits', 'colors', 'body_parts', 'clothing', 'classroom', 'sports_bw', 'flowers'],
     includesCommercialRights: true,
   },
 

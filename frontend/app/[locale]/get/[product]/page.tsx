@@ -76,8 +76,9 @@ export default function SalesPage({ params }: PageProps) {
     },
   };
 
-  // Math Puzzle pages use a custom component with unique visual design
-  if (params.product.startsWith('math-puzzle')) {
+  // Math Puzzle FE page uses a custom component with unique visual design
+  // (OTO pages like math-puzzle-library use the shared SalesPageClient OTOLayout)
+  if (params.product === 'math-puzzle') {
     return (
       <>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

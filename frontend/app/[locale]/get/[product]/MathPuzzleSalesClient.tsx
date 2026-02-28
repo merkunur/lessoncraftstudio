@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import type { SalesPageConfig } from '@/config/sales-pages';
 import { Icon, WPBuyButton, WPDisclaimer, ComplianceFooter } from './SalesPageClient';
 
@@ -10,36 +10,38 @@ interface Props {
 }
 
 /* ═══════════════════════════════════════════════════════
-   ANIMATED PUZZLE GRID — Hero visual
+   SAMPLE IMAGE PATHS — served from isolated storage via nginx
    ═══════════════════════════════════════════════════════ */
 
-const PUZZLE_EQUATIONS = [
-  { eq: '7 + 5', ans: 12 },
-  { eq: '12 \u2212 3', ans: 9 },
-  { eq: '8 + 6', ans: 14 },
-  { eq: '15 \u2212 7', ans: 8 },
-  { eq: '3 + 9', ans: 12 },
-  { eq: '11 \u2212 4', ans: 7 },
-  { eq: '6 + 8', ans: 14 },
-  { eq: '16 \u2212 9', ans: 7 },
-  { eq: '4 + 7', ans: 11 },
-];
+const MATH_PUZZLE_SAMPLES = {
+  worksheet1: '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
+  worksheet5: '/samples/english/math%20puzzle/Math%20Puzzles%20(5).jpeg',
+  worksheet10: '/samples/english/math%20puzzle/Math%20Puzzles%20(10).jpeg',
+  worksheet15: '/samples/english/math%20puzzle/Math%20Puzzles%20(15).jpeg',
+  answerKey1: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(1).jpeg',
+  answerKey5: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(5).jpeg',
+  german: '/samples/german/math%20puzzle/Mathe-R%C3%A4tsel%201.jpeg',
+  french: '/samples/french/math%20puzzle/Casse-T%C3%AAtes%20Math%C3%A9matiques%201.jpeg',
+};
 
-function PuzzleGrid() {
-  return (
-    <div className="mp-puzzle-grid" aria-hidden="true">
-      <div className="mp-grid-inner">
-        {PUZZLE_EQUATIONS.map((p, i) => (
-          <div key={i} className="mp-piece" style={{ animationDelay: `${i * 0.15}s` }}>
-            <span className="mp-piece-num">#{p.ans}</span>
-            <span className="mp-piece-eq">{p.eq} = ?</span>
-          </div>
-        ))}
-      </div>
-      <div className="mp-grid-shimmer" />
-    </div>
-  );
-}
+const LIBRARY_IMAGES = [
+  { src: '/image-library/animals/cat.png', label: 'Cat' },
+  { src: '/image-library/animals/dog.png', label: 'Dog' },
+  { src: '/image-library/animals/elephant.png', label: 'Elephant' },
+  { src: '/image-library/animals/penguin.png', label: 'Penguin' },
+  { src: '/image-library/fruits/apple.png', label: 'Apple' },
+  { src: '/image-library/fruits/banana.png', label: 'Banana' },
+  { src: '/image-library/fruits/cherry.png', label: 'Cherry' },
+  { src: '/image-library/fruits/kiwi.png', label: 'Kiwi' },
+  { src: '/image-library/vegetables/carrot.png', label: 'Carrot' },
+  { src: '/image-library/vegetables/broccoli.png', label: 'Broccoli' },
+  { src: '/image-library/vegetables/corn.png', label: 'Corn' },
+  { src: '/image-library/vegetables/eggplant.png', label: 'Eggplant' },
+  { src: '/image-library/christmas/candy cane.png', label: 'Candy Cane' },
+  { src: '/image-library/christmas/gingerbread.png', label: 'Gingerbread' },
+  { src: '/image-library/christmas/bell.png', label: 'Bell' },
+  { src: '/image-library/christmas/angel.png', label: 'Angel' },
+];
 
 /* ═══════════════════════════════════════════════════════
    SCROLL REVEAL HOOK
@@ -145,73 +147,6 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           transform: translateY(0);
         }
 
-        /* Puzzle grid */
-        .mp-puzzle-grid {
-          position: relative;
-          width: 100%;
-          max-width: 340px;
-          aspect-ratio: 1;
-          margin: 0 auto;
-        }
-        .mp-grid-inner {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 8px;
-          width: 100%;
-          height: 100%;
-          position: relative;
-          z-index: 1;
-        }
-        .mp-piece {
-          background: linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.04));
-          border: 1px solid rgba(255,255,255,0.15);
-          border-radius: 12px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 4px;
-          padding: 8px;
-          backdrop-filter: blur(8px);
-          animation: mp-float 3s ease-in-out infinite alternate;
-        }
-        .mp-piece-num {
-          font-family: 'DM Serif Display', serif;
-          font-size: 1.1rem;
-          color: rgba(251, 191, 36, 0.9);
-          line-height: 1;
-        }
-        .mp-piece-eq {
-          font-family: 'Outfit', sans-serif;
-          font-size: 0.72rem;
-          color: rgba(255,255,255,0.7);
-          font-weight: 500;
-          letter-spacing: 0.02em;
-        }
-        @keyframes mp-float {
-          0%   { transform: translateY(0); }
-          100% { transform: translateY(-6px); }
-        }
-        .mp-grid-shimmer {
-          position: absolute;
-          inset: -20%;
-          background: linear-gradient(
-            110deg,
-            transparent 30%,
-            rgba(251, 191, 36, 0.06) 45%,
-            rgba(251, 191, 36, 0.10) 50%,
-            rgba(251, 191, 36, 0.06) 55%,
-            transparent 70%
-          );
-          animation: mp-shimmer 4s ease-in-out infinite;
-          pointer-events: none;
-          z-index: 2;
-        }
-        @keyframes mp-shimmer {
-          0%, 100% { transform: translateX(-100%); }
-          50%      { transform: translateX(100%); }
-        }
-
         /* Feature card hover */
         .mp-feature-card {
           transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
@@ -242,10 +177,31 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           opacity: 0.3;
         }
 
-        @media (max-width: 768px) {
-          .mp-puzzle-grid { max-width: 260px; }
-          .mp-piece-num { font-size: 0.95rem; }
-          .mp-piece-eq  { font-size: 0.65rem; }
+        /* Hero fanned images */
+        .mp-hero-fan {
+          position: relative;
+          height: 340px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .mp-hero-card {
+          position: absolute;
+          width: 220px;
+          border-radius: 12px;
+          overflow: hidden;
+          box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
+          border: 4px solid white;
+          transition: transform 0.3s ease, z-index 0s;
+        }
+        .mp-hero-card:hover {
+          transform: scale(1.05) !important;
+          z-index: 20 !important;
+        }
+        .mp-hero-card img { width: 100%; display: block; }
+        @media (min-width: 768px) {
+          .mp-hero-fan { height: 440px; }
+          .mp-hero-card { width: 280px; }
         }
       `}</style>
 
@@ -286,9 +242,19 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             )}
           </div>
 
-          {/* Right — Animated Puzzle Grid */}
+          {/* Right — Fanned worksheet screenshots */}
           <div className="flex items-center justify-center lg:justify-end">
-            <PuzzleGrid />
+            <div className="mp-hero-fan mt-4">
+              <div className="mp-hero-card" style={{ transform: 'rotate(-8deg) translateX(-60px)', zIndex: 1 }}>
+                <img src={MATH_PUZZLE_SAMPLES.worksheet5} alt="Math puzzle worksheet variation" loading="eager" />
+              </div>
+              <div className="mp-hero-card" style={{ zIndex: 3 }}>
+                <img src={MATH_PUZZLE_SAMPLES.worksheet1} alt="Math puzzle worksheet" loading="eager" />
+              </div>
+              <div className="mp-hero-card" style={{ transform: 'rotate(8deg) translateX(60px)', zIndex: 2 }}>
+                <img src={MATH_PUZZLE_SAMPLES.worksheet10} alt="Math puzzle worksheet with images" loading="eager" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -501,7 +467,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
             <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">See What You Can Create</h2>
             <p className="text-slate-500 text-center mb-14 max-w-2xl mx-auto">Real output from Math Puzzle Studio Pro. Every worksheet is print-ready.</p>
             <div className="grid md:grid-cols-2 gap-8 items-start">
-              {/* Puzzle Worksheet mockup */}
+              {/* Puzzle Worksheet — real screenshot */}
               <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200">
                 <div className="bg-slate-100 px-4 py-2.5 flex items-center gap-2 border-b border-slate-200">
                   <div className="flex gap-1.5">
@@ -511,17 +477,9 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
                   </div>
                   <div className="flex-1 bg-white rounded-md px-3 py-1 text-xs text-slate-400 text-center">lessoncraftstudio.com/apps/math-puzzle</div>
                 </div>
-                {/* Placeholder for actual screenshot */}
-                <div className="bg-gradient-to-b from-indigo-50 to-white p-8 text-center min-h-[320px] flex flex-col items-center justify-center">
-                  <div className="grid grid-cols-3 gap-2 mb-4 mx-auto" style={{ maxWidth: '200px' }}>
-                    {['3+4=?', '7-2=?', '5+1=?', '8-3=?', '2+6=?', '9-4=?', '1+7=?', '6-1=?', '4+5=?'].map((eq, i) => (
-                      <div key={i} className="bg-white border border-indigo-200 rounded-lg p-2 text-xs text-indigo-700 font-medium shadow-sm">{eq}</div>
-                    ))}
-                  </div>
-                  <p className="text-sm text-slate-500 mt-2">Math Puzzle Worksheet</p>
-                </div>
+                <img src={MATH_PUZZLE_SAMPLES.worksheet15} alt="Math puzzle worksheet with colorful images" className="w-full" loading="lazy" />
               </div>
-              {/* Answer Key mockup */}
+              {/* Answer Key — real screenshot */}
               <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200">
                 <div className="bg-slate-100 px-4 py-2.5 flex items-center gap-2 border-b border-slate-200">
                   <div className="flex gap-1.5">
@@ -531,17 +489,7 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
                   </div>
                   <div className="flex-1 bg-white rounded-md px-3 py-1 text-xs text-slate-400 text-center">Answer Key</div>
                 </div>
-                <div className="bg-gradient-to-b from-emerald-50 to-white p-8 text-center min-h-[320px] flex flex-col items-center justify-center">
-                  <div className="grid grid-cols-3 gap-2 mb-4 mx-auto" style={{ maxWidth: '200px' }}>
-                    {[7, 5, 6, 5, 8, 5, 8, 5, 9].map((ans, i) => (
-                      <div key={i} className="bg-emerald-50 border border-emerald-200 rounded-lg p-2 text-xs text-emerald-700 font-bold shadow-sm flex items-center justify-center">
-                        <svg className="w-3 h-3 mr-1 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
-                        {ans}
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-sm text-slate-500 mt-2">Auto-Generated Answer Key</p>
-                </div>
+                <img src={MATH_PUZZLE_SAMPLES.answerKey1} alt="Auto-generated answer key" className="w-full" loading="lazy" />
               </div>
             </div>
             <div className="text-center mt-10">
@@ -550,6 +498,50 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           </div>
         </Reveal>
       )}
+
+      {/* ═══ 9b. IMAGE LIBRARY SHOWCASE ═════════════════════════ */}
+      <Reveal className="mp-sans py-20 md:py-28 bg-slate-50">
+        <div className="max-w-5xl mx-auto px-4 md:px-6 text-center">
+          <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 mb-4">Professional Image Library Included</h2>
+          <p className="text-slate-500 mb-10 max-w-2xl mx-auto">319 professionally curated, child-friendly images across 10 themes. Every image is ready for commercial use.</p>
+          <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mb-8">
+            {LIBRARY_IMAGES.map((img) => (
+              <div key={img.label} className="aspect-square bg-white rounded-xl p-2 shadow-sm border border-slate-100 hover:shadow-md hover:scale-105 transition-all">
+                <img src={img.src} alt={img.label} className="w-full h-full object-contain" loading="lazy" />
+              </div>
+            ))}
+          </div>
+          <p className="text-sm text-slate-500">Showing 16 of 319 images across Animals, Fruits, Vegetables &amp; Christmas themes</p>
+        </div>
+      </Reveal>
+
+      {/* ═══ 9c. MULTI-LANGUAGE PROOF ════════════════════════════ */}
+      <Reveal className="mp-sans py-20 md:py-28 bg-white">
+        <div className="max-w-5xl mx-auto px-4 md:px-6">
+          <h2 className="mp-serif text-3xl md:text-4xl text-slate-900 text-center mb-4">Real Multi-Language Output</h2>
+          <p className="text-slate-500 text-center mb-12 max-w-2xl mx-auto">Same quality, different languages. Here are real puzzles generated in English, German, and French.</p>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
+              <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
+                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddec\ud83c\udde7'} English</span>
+              </div>
+              <img src={MATH_PUZZLE_SAMPLES.worksheet1} alt="English math puzzle worksheet" className="w-full" loading="lazy" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
+              <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
+                <span className="text-sm font-semibold text-slate-700">{'\ud83c\udde9\ud83c\uddea'} Deutsch</span>
+              </div>
+              <img src={MATH_PUZZLE_SAMPLES.german} alt="German math puzzle worksheet" className="w-full" loading="lazy" />
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
+              <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
+                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddeb\ud83c\uddf7'} Fran\u00e7ais</span>
+              </div>
+              <img src={MATH_PUZZLE_SAMPLES.french} alt="French math puzzle worksheet" className="w-full" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </Reveal>
 
       {/* ═══ 10. SHOWCASE ══════════════════════════════════════ */}
       {config.showcase && (

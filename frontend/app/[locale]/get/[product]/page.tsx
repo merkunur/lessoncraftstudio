@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getSalesPage, getAllSalesPageSlugs } from '@/config/sales-pages';
 import { SalesPageClient } from './SalesPageClient';
 import MathPuzzleSalesClient from './MathPuzzleSalesClient';
+import MathPuzzleOTOClient from './MathPuzzleOTOClient';
 
 interface PageProps {
   params: { locale: string; product: string };
@@ -76,8 +77,17 @@ export default function SalesPage({ params }: PageProps) {
     },
   };
 
+  // Math Puzzle OTO1 uses the indigo design to match the FE page
+  if (params.product === 'math-puzzle-library') {
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <MathPuzzleOTOClient config={config} locale={params.locale} />
+      </>
+    );
+  }
+
   // Math Puzzle FE page uses a custom component with unique visual design
-  // (OTO pages like math-puzzle-library use the shared SalesPageClient OTOLayout)
   if (params.product === 'math-puzzle') {
     return (
       <>

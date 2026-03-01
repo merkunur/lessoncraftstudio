@@ -1,10 +1,17 @@
 /**
  * Build image-vocabulary.js from raw database data
  * =================================================
- * Reads image-vocabulary-raw.json (singular translations for 1,246 words)
- * Generates plurals using linguistic rules per language
- * Assigns grammatical gender using word-ending heuristics
- * Outputs the complete REFERENCE TRANSLATIONS/image-vocabulary.js
+ * v2: Dramatically improved pluralization heuristics for all 11 languages
+ *
+ * Improvements over v1:
+ * - Compound word pluralization (Romance: head noun; Germanic: last word)
+ * - Non-noun detection (colors, emotions, activities, sports → no plural)
+ * - English: 100+ irregulars, uncountable nouns, -fish words
+ * - German: Umlaut dictionary (80+ words), -mann compounds, proper -el/-er
+ * - Swedish: 5 declension classes instead of single default
+ * - Dutch: Vowel shortening, s→z/f→v voicing, diphthong handling
+ * - Finnish: Better -nen, compound word handling
+ * - Romance: Compound noun plurals with preposition detection
  *
  * Run locally: node scripts/build-image-vocabulary.js
  */
@@ -19,6 +26,45 @@ const raw = JSON.parse(fs.readFileSync(
 const LOCALES = ['en','de','fr','es','pt','it','nl','sv','da','no','fi'];
 
 // ============================================================
+// NON-PLURALIZABLE DETECTION
+// ============================================================
+
+// Keys that represent non-nouns — NEVER pluralized in ANY language
+const NON_NOUN_KEYS = new Set([
+  // Colors
+  'beige','black','blue','brown','coral','crimson','gray','green',
+  'pink','purple','red','scarlet','turquoise','white','yellow',
+  // Emotions and states
+  'angry','bored','capricious','confused','content','disgusted',
+  'excited','happy','merry','sad','scared','shy','skeptical',
+  'surprised','tired',
+  // Weather adjectives
+  'cloudy','cold','hot','partly-cloudy','rainy','stormy','sunny',
+  // Activities and sports
+  'badminton','baking','baseball','basketball','biking','bowling',
+  'boxing','camping','chess','dancing','fencing','fishing','football',
+  'golf','gymnastics','hiking','hockey','ice-skating','jumping',
+  'knitting','photography','reading','running','scuba-diving','sewing',
+  'singing','skating','skiing','sledding','snorkeling','snowboarding',
+  'soccer','swimming','table-tennis','tennis','volleyball','writing',
+  // Seasons and holidays
+  'autumn','christmas','easter','halloween',
+  // Other non-pluralizable
+  'science','air-conditioning',
+  // Planets and proper nouns (unique entities)
+  'earth','jupiter','mars','mercury','neptune','saturn','uranus','venus','us',
+]);
+
+// Mass nouns: singular in English, but other languages may pluralize
+const EN_MASS_NOUNS = new Set([
+  'asparagus','bacon','bread','broccoli','butter','celery','cheese','chocolate',
+  'corn','driftwood','food','garlic','gingerbread','grass','hair','hay','honey',
+  'ice','lettuce','lightning','milk','oatmeal','oil','pasta','peanut-butter',
+  'popcorn','porridge','rice','sand','seaweed','snow','spinach','toothpaste',
+  'water','yogurt',
+]);
+
+// ============================================================
 // ENGLISH PLURALIZATION
 // ============================================================
 const EN_IRREGULARS = {
@@ -30,194 +76,381 @@ const EN_IRREGULARS = {
   'ox': 'Oxen', 'die': 'Dice', 'louse': 'Lice',
   'cactus': 'Cacti', 'fungus': 'Fungi', 'octopus': 'Octopuses',
   'hippopotamus': 'Hippopotamuses', 'rhinoceros': 'Rhinoceroses',
+  // Unchanged plurals
   'moose': 'Moose', 'sheep': 'Sheep', 'fish': 'Fish', 'deer': 'Deer',
   'bison': 'Bison', 'salmon': 'Salmon', 'trout': 'Trout',
+  'shrimp': 'Shrimp', 'squid': 'Squid',
+  // -fish compounds (unchanged)
+  'angelfish': 'Angelfish', 'clownfish': 'Clownfish', 'starfish': 'Starfish',
+  'swordfish': 'Swordfish', 'goldfish': 'Goldfish', 'pufferfish': 'Pufferfish',
+  'jellyfish': 'Jellyfish',
+  // Already plural / invariant
   'scissors': 'Scissors', 'glasses': 'Glasses', 'pants': 'Pants',
   'jeans': 'Jeans', 'shorts': 'Shorts', 'pliers': 'Pliers',
   'binoculars': 'Binoculars', 'tweezers': 'Tweezers',
-  'shrimp': 'Shrimp', 'squid': 'Squid',
+  'sneakers': 'Sneakers', 'stairs': 'Stairs', 'tights': 'Tights',
+  // Specific corrections
+  'snowman': 'Snowmen', 'chef': 'Chefs', 'roof': 'Roofs',
+  'belief': 'Beliefs', 'chief': 'Chiefs', 'cliff': 'Cliffs',
+  'dwarf': 'Dwarves', 'hoof': 'Hooves',
+  'reindeer': 'Reindeer', 'dice': 'Dice', 'triceratops': 'Triceratops',
+  'scarf': 'Scarves', 'bookshelf': 'Bookshelves',
 };
 
-function pluralizeEn(word) {
+// -o words that take -oes (whitelist — all others take -s)
+const EN_O_TO_OES = new Set([
+  'potato','tomato','hero','echo','torpedo','veto',
+  'domino','mosquito','mango','volcano','tornado','embargo','buffalo',
+]);
+
+function pluralizeEnSingle(word) {
   if (!word) return word;
-  // Multi-word: pluralize last word
-  const parts = word.split(' ');
-  if (parts.length > 1) {
-    parts[parts.length - 1] = pluralizeEn(parts[parts.length - 1]);
-    return parts.join(' ');
-  }
   const lower = word.toLowerCase();
+
   if (EN_IRREGULARS[lower]) return EN_IRREGULARS[lower];
 
-  // Already ends in 's' and is likely already plural or invariant
-  if (lower.endsWith('ss') || lower.endsWith('us')) {
-    return word + 'es';
+  // -man compound → -men (snowman→snowmen, but not ottoman, human, roman)
+  if (lower.endsWith('man') && lower.length > 3 &&
+      !lower.endsWith('oman') && !lower.endsWith('uman') && lower !== 'roman') {
+    return word.slice(0, -3) + 'men';
   }
-  if (lower.endsWith('s') && !lower.endsWith('ss')) {
-    return word; // bus->buses handled below, but lens, etc.
-  }
+
+  // Already ends in -s (likely already plural or invariant)
+  if (lower.endsWith('ss') || lower.endsWith('us')) return word + 'es';
+  if (lower.endsWith('s') && !lower.endsWith('ss')) return word;
+
+  // -y → -ies (but not after vowel)
   if (lower.endsWith('y') && !/[aeiou]y$/.test(lower)) {
     return word.slice(0, -1) + 'ies';
   }
+  // -x, -ch, -sh, -z → -es
   if (lower.endsWith('x') || lower.endsWith('ch') || lower.endsWith('sh') || lower.endsWith('z')) {
     return word + 'es';
   }
-  if (lower.endsWith('fe')) {
-    return word.slice(0, -2) + 'ves';
-  }
-  if (lower.endsWith('f') && !lower.endsWith('ff') && !lower.endsWith('roof') && !lower.endsWith('chief') && !lower.endsWith('reef') && !lower.endsWith('belief')) {
-    return word.slice(0, -1) + 'ves';
-  }
-  if (lower.endsWith('o') && !/[aeiou]o$/.test(lower) && !lower.endsWith('piano') && !lower.endsWith('photo') && !lower.endsWith('disco')) {
+  // -f → -ves: Only specific words (knife/wife/life/leaf/etc already in EN_IRREGULARS)
+  // Remaining -f words that transform: scarf, half, etc. also in EN_IRREGULARS
+  // Do NOT apply generic -fe→-ves (giraffe→Giraffes, carafe→Carafes, NOT -ves)
+  // -o → -oes only for specific words (whitelist); all others take -s
+  if (lower.endsWith('o') && EN_O_TO_OES.has(lower)) {
     return word + 'es';
   }
   return word + 's';
 }
 
+function pluralizeEn(word) {
+  if (!word) return word;
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeEnSingle(parts[parts.length - 1]);
+    return parts.join(' ');
+  }
+  return pluralizeEnSingle(word);
+}
+
 // ============================================================
 // GERMAN PLURALIZATION + GENDER
 // ============================================================
-// Gender: m=masculine, f=feminine, n=neuter
+
+// Common German words that get umlaut in plural (dictionary approach)
+const DE_UMLAUT_PLURALS = {
+  // a → ä
+  'Axt': 'Äxte', 'Arzt': 'Ärzte', 'Ast': 'Äste',
+  'Ball': 'Bälle', 'Band': 'Bänder', 'Baum': 'Bäume',
+  'Faden': 'Fäden', 'Fall': 'Fälle', 'Garten': 'Gärten',
+  'Gast': 'Gäste', 'Graben': 'Gräben', 'Hahn': 'Hähne',
+  'Hals': 'Hälse', 'Kamm': 'Kämme', 'Kanal': 'Kanäle',
+  'Kalb': 'Kälber', 'Kraft': 'Kräfte', 'Laden': 'Läden',
+  'Land': 'Länder', 'Macht': 'Mächte', 'Mangel': 'Mängel',
+  'Mantel': 'Mäntel', 'Nacht': 'Nächte', 'Nagel': 'Nägel',
+  'Palast': 'Paläste', 'Platz': 'Plätze', 'Rand': 'Ränder',
+  'Raum': 'Räume', 'Sattel': 'Sättel', 'Satz': 'Sätze',
+  'Schatz': 'Schätze', 'Traum': 'Träume', 'Wald': 'Wälder',
+  'Wall': 'Wälle', 'Wand': 'Wände', 'Zaun': 'Zäune',
+  'Rad': 'Räder', 'Bad': 'Bäder', 'Glas': 'Gläser',
+  'Haus': 'Häuser',
+  // o → ö
+  'Block': 'Blöcke', 'Bock': 'Böcke', 'Boden': 'Böden',
+  'Dorf': 'Dörfer', 'Koch': 'Köche', 'Kopf': 'Köpfe',
+  'Korb': 'Körbe', 'Korn': 'Körner', 'Loch': 'Löcher',
+  'Ofen': 'Öfen', 'Rock': 'Röcke', 'Sohn': 'Söhne',
+  'Stock': 'Stöcke', 'Ton': 'Töne', 'Topf': 'Töpfe',
+  'Volk': 'Völker', 'Wort': 'Wörter',
+  // u → ü
+  'Bruder': 'Brüder', 'Bruch': 'Brüche', 'Buch': 'Bücher',
+  'Bug': 'Büge', 'Busch': 'Büsche', 'Flug': 'Flüge',
+  'Fluss': 'Flüsse', 'Frucht': 'Früchte', 'Fuchs': 'Füchse',
+  'Fuß': 'Füße', 'Gruft': 'Grüfte', 'Huhn': 'Hühner',
+  'Hut': 'Hüte', 'Kuh': 'Kühe', 'Kunst': 'Künste',
+  'Kuss': 'Küsse', 'Mund': 'Münder', 'Mutter': 'Mütter',
+  'Nuss': 'Nüsse', 'Spruch': 'Sprüche', 'Strumpf': 'Strümpfe',
+  'Stuhl': 'Stühle', 'Tochter': 'Töchter', 'Tuch': 'Tücher',
+  'Turm': 'Türme', 'Wurm': 'Würmer', 'Wurst': 'Würste',
+  'Zug': 'Züge',
+  // au → äu
+  'Brauch': 'Bräuche', 'Faust': 'Fäuste', 'Laus': 'Läuse',
+  'Maus': 'Mäuse', 'Schlauch': 'Schläuche', 'Strauch': 'Sträucher',
+  // Special compound umlauts
+  'Kürbis': 'Kürbisse',
+};
+
 function genderDe(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
   // Feminine suffixes
   if (lower.endsWith('ung') || lower.endsWith('heit') || lower.endsWith('keit') ||
-      lower.endsWith('schaft') || lower.endsWith('tion') || lower.endsWith('ie') ||
-      lower.endsWith('ei') || lower.endsWith('ät') || lower.endsWith('ur') ||
-      lower.endsWith('enz') || lower.endsWith('anz') || lower.endsWith('ik') ||
+      lower.endsWith('schaft') || lower.endsWith('tion') || lower.endsWith('sion') ||
+      lower.endsWith('tät') || lower.endsWith('enz') || lower.endsWith('anz') ||
+      lower.endsWith('ik') || lower.endsWith('ur') ||
       lower.endsWith('ade') || lower.endsWith('age') || lower.endsWith('ine') ||
       lower.endsWith('isse') || lower.endsWith('itis')) {
     return 'f';
   }
   // Neuter suffixes
   if (lower.endsWith('chen') || lower.endsWith('lein') || lower.endsWith('ment') ||
-      lower.endsWith('nis') || lower.endsWith('tum') || lower.endsWith('um') ||
-      lower.endsWith('ett') || lower.endsWith('ium') || lower.endsWith('ma')) {
+      lower.endsWith('nis') || lower.endsWith('tum') || lower.endsWith('ium') ||
+      lower.endsWith('ett') || lower.endsWith('ma')) {
     return 'n';
   }
+  // -ie = feminine (Melodie, Energie), but NOT -ier (masculine agent)
+  if (lower.endsWith('ie') && !lower.endsWith('ier')) return 'f';
+  // -ei = feminine
+  if (lower.endsWith('ei')) return 'f';
   // Masculine suffixes
-  if (lower.endsWith('er') || lower.endsWith('ling') || lower.endsWith('ismus') ||
-      lower.endsWith('ist') || lower.endsWith('or') || lower.endsWith('ant') ||
+  if (lower.endsWith('ling') || lower.endsWith('ismus') ||
+      lower.endsWith('ist') || lower.endsWith('ant') ||
       lower.endsWith('ent') || lower.endsWith('ig') || lower.endsWith('ich')) {
     return 'm';
   }
-  // Nouns ending in -e are often feminine
-  if (lower.endsWith('e') && !lower.endsWith('ee') && !lower.endsWith('sse')) {
+  // -er agent nouns = masculine
+  if (lower.endsWith('er') && lower.length > 4) return 'm';
+  // -or = masculine
+  if (lower.endsWith('or')) return 'm';
+  // -e ending often feminine (but many exceptions)
+  if (lower.endsWith('e') && !lower.endsWith('ee') && !lower.endsWith('sse') &&
+      !lower.endsWith('tte') && lower.length > 4) {
     return 'f';
   }
-  return 'm'; // Default masculine
+  // -um = neuter
+  if (lower.endsWith('um')) return 'n';
+  return 'm';
+}
+
+function pluralizeDeSingle(word) {
+  if (!word) return word;
+
+  // Check umlaut dictionary first
+  if (DE_UMLAUT_PLURALS[word]) return DE_UMLAUT_PLURALS[word];
+
+  // -mann compounds → -männer
+  if (word.endsWith('mann')) return word.slice(0, -4) + 'männer';
+
+  const lower = word.toLowerCase();
+
+  // Diminutives: unchanged
+  if (lower.endsWith('chen') || lower.endsWith('lein')) return word;
+  // -e ending: add -n
+  if (lower.endsWith('e') && !lower.endsWith('ee')) return word + 'n';
+  // -el: usually unchanged
+  if (lower.endsWith('el')) return word;
+  // -er: usually unchanged
+  if (lower.endsWith('er')) return word;
+  // -en: usually unchanged
+  if (lower.endsWith('en')) return word;
+  // -ung, -heit, -keit, -schaft: add -en
+  if (lower.endsWith('ung') || lower.endsWith('heit') || lower.endsWith('keit') ||
+      lower.endsWith('schaft')) return word + 'en';
+  // -tion, -sion: add -en
+  if (lower.endsWith('tion') || lower.endsWith('sion')) return word + 'en';
+  // -nis: add -se
+  if (lower.endsWith('nis')) return word + 'se';
+  // -ment: add -e
+  if (lower.endsWith('ment')) return word + 'e';
+  // -us → -en (Kaktus→Kakteen, Globus→Globen)
+  if (lower.endsWith('us')) return word.slice(0, -2) + 'en';
+  // -um → -en (Museum→Museen)
+  if (lower.endsWith('um')) return word.slice(0, -2) + 'en';
+  // Foreign words ending in -a, -o, -i: add -s
+  if (lower.endsWith('a') || lower.endsWith('o') || lower.endsWith('i')) return word + 's';
+  // -ling: add -e
+  if (lower.endsWith('ling')) return word + 'e';
+  // Default consonant ending: add -e
+  if (/[bcdfghjklmnpqrstvwxyz]$/i.test(lower)) return word + 'e';
+  return word + 'n';
 }
 
 function pluralizeDe(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  // Words ending in -e: add -n
-  if (lower.endsWith('e') && !lower.endsWith('ee')) return word + 'n';
-  // Words ending in -el, -er, -en: often unchanged or add umlaut
-  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
-  // Words ending in -ung, -heit, -keit, -schaft: add -en
-  if (lower.endsWith('ung') || lower.endsWith('heit') || lower.endsWith('keit') || lower.endsWith('schaft')) return word + 'en';
-  // Words ending in -tion, -ment: add -e or -en
-  if (lower.endsWith('tion')) return word + 'en';
-  if (lower.endsWith('ment')) return word + 'e';
-  // Words ending in -nis: add -se
-  if (lower.endsWith('nis')) return word + 'se';
-  // Words ending in consonants: often add -e or -en
-  if (/[bcdfghjklmnpqrstvwxyz]$/.test(lower)) return word + 'e';
-  return word + 'n';
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeDeSingle(parts[parts.length - 1]);
+    return parts.join(' ');
+  }
+  return pluralizeDeSingle(word);
 }
 
 // ============================================================
 // FRENCH PLURALIZATION + GENDER
 // ============================================================
+const FR_PREPOSITIONS = new Set(['de','du','des','à','a','au','aux','en']);
+// Words that never change form in plural but DON'T block pluralization of later words
+const FR_INVARIABLE = new Set(['et','le','la','les','un','une','sous']);
+
 function genderFr(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
-  // Feminine endings
   if (lower.endsWith('tion') || lower.endsWith('sion') || lower.endsWith('ure') ||
       lower.endsWith('ade') || lower.endsWith('ance') || lower.endsWith('ence') ||
       lower.endsWith('ette') || lower.endsWith('elle') || lower.endsWith('esse') ||
       lower.endsWith('ine') || lower.endsWith('ise') || lower.endsWith('ose') ||
-      lower.endsWith('ouse') || lower.endsWith('euse') ||
-      lower.endsWith('rice') || lower.endsWith('ie') || lower.endsWith('ée') ||
-      lower.endsWith('té') || lower.endsWith('ière')) {
+      lower.endsWith('ouse') || lower.endsWith('euse') || lower.endsWith('trice') ||
+      lower.endsWith('rice') || lower.endsWith('ée') || lower.endsWith('té') ||
+      lower.endsWith('ière') || lower.endsWith('ie')) {
     return 'f';
   }
-  // Masculine endings
   if (lower.endsWith('ment') || lower.endsWith('age') || lower.endsWith('isme') ||
-      lower.endsWith('eur') || lower.endsWith('ier') || lower.endsWith('on') ||
-      lower.endsWith('et') || lower.endsWith('eau') || lower.endsWith('al') ||
-      lower.endsWith('ard') || lower.endsWith('oir') || lower.endsWith('in')) {
+      lower.endsWith('eur') || lower.endsWith('ier') || lower.endsWith('et') ||
+      lower.endsWith('eau') || lower.endsWith('al') || lower.endsWith('ard') ||
+      lower.endsWith('oir') || lower.endsWith('in') || lower.endsWith('ail') ||
+      lower.endsWith('eil') || lower.endsWith('on') || lower.endsWith('ien')) {
     return 'm';
   }
-  // Words ending in -e are often feminine (but not always)
   if (lower.endsWith('e') && !lower.endsWith('me') && !lower.endsWith('re') &&
       !lower.endsWith('le') && !lower.endsWith('ge') && !lower.endsWith('be') &&
       !lower.endsWith('pe') && !lower.endsWith('de') && !lower.endsWith('ne') &&
-      !lower.endsWith('que') && !lower.endsWith('ste') && !lower.endsWith('vre')) {
+      !lower.endsWith('que') && !lower.endsWith('ste') && !lower.endsWith('vre') &&
+      !lower.endsWith('tre') && !lower.endsWith('bre')) {
     return 'f';
   }
-  return 'm'; // Default masculine
+  return 'm';
+}
+
+// French -al words that DON'T become -aux (they take -s instead)
+const FR_AL_EXCEPTIONS = new Set([
+  'bal','carnaval','festival','récital','régal','chacal',
+  'naval','banal','fatal','aval',
+]);
+
+function pluralizeFrSingle(word) {
+  if (!word) return word;
+  const lower = word.toLowerCase();
+  if (lower.endsWith('s') || lower.endsWith('x') || lower.endsWith('z')) return word;
+  if (lower.endsWith('eau') || lower.endsWith('au') || lower.endsWith('eu')) return word + 'x';
+  if (lower.endsWith('al') && !FR_AL_EXCEPTIONS.has(lower)) {
+    return word.slice(0, -2) + 'aux';
+  }
+  return word + 's';
 }
 
 function pluralizeFr(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  if (lower.endsWith('eau') || lower.endsWith('au') || lower.endsWith('eu')) return word + 'x';
-  if (lower.endsWith('al') && !lower.endsWith('bal') && !lower.endsWith('val') && !lower.endsWith('pal')) {
-    return word.slice(0, -2) + 'aux';
+  const parts = word.split(' ');
+  if (parts.length === 1) return pluralizeFrSingle(word);
+
+  // Find preposition or d' contraction (these BLOCK pluralization of later words)
+  let prepIdx = -1;
+  for (let i = 1; i < parts.length; i++) {
+    const lp = parts[i].toLowerCase();
+    if (FR_PREPOSITIONS.has(lp) || lp.startsWith("d'") || lp.startsWith("l'")) {
+      prepIdx = i;
+      break;
+    }
   }
-  if (lower.endsWith('s') || lower.endsWith('x') || lower.endsWith('z')) return word;
-  return word + 's';
+  if (prepIdx > 0) {
+    // Pluralize before preposition only, skip invariable words
+    for (let i = 0; i < prepIdx; i++) {
+      if (!FR_INVARIABLE.has(parts[i].toLowerCase())) {
+        parts[i] = pluralizeFrSingle(parts[i]);
+      }
+    }
+  } else {
+    // No preposition: pluralize all nouns/adjectives, skip invariable words
+    for (let i = 0; i < parts.length; i++) {
+      if (!FR_INVARIABLE.has(parts[i].toLowerCase())) {
+        parts[i] = pluralizeFrSingle(parts[i]);
+      }
+    }
+  }
+  return parts.join(' ');
 }
 
 // ============================================================
 // SPANISH PLURALIZATION + GENDER
 // ============================================================
+const ES_PREPOSITIONS = new Set(['de','del','con','en','para','por','sin','sobre','a','al']);
+
 function genderEs(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
-  // Feminine
-  if (lower.endsWith('a') || lower.endsWith('ción') || lower.endsWith('sión') ||
-      lower.endsWith('dad') || lower.endsWith('tad') || lower.endsWith('tud') ||
-      lower.endsWith('umbre') || lower.endsWith('eza') || lower.endsWith('anza')) {
-    // Exceptions: -ma words from Greek are masculine (problema, sistema, etc.)
+  if (lower.endsWith('ción') || lower.endsWith('sión') || lower.endsWith('dad') ||
+      lower.endsWith('tad') || lower.endsWith('tud') || lower.endsWith('umbre') ||
+      lower.endsWith('eza') || lower.endsWith('anza') || lower.endsWith('ncia')) {
+    return 'f';
+  }
+  if (lower.endsWith('a')) {
     if (lower.endsWith('ma') && (lower.endsWith('tema') || lower.endsWith('grama') ||
-        lower.endsWith('ema') || lower.endsWith('oma') || lower.endsWith('ima'))) {
+        lower.endsWith('ema') || lower.endsWith('oma') || lower.endsWith('ima') ||
+        lower.endsWith('isma') || lower.endsWith('asma'))) {
       return 'm';
     }
     return 'f';
   }
-  // Masculine
   if (lower.endsWith('o') || lower.endsWith('or') || lower.endsWith('aje') ||
       lower.endsWith('ón') || lower.endsWith('án') || lower.endsWith('és')) {
     return 'm';
   }
-  return 'm'; // Default masculine
+  return 'm';
+}
+
+function pluralizeEsSingle(word) {
+  if (!word) return word;
+  const lower = word.toLowerCase();
+  // Accented -s endings (stressed final syllable): add -es
+  if (lower.endsWith('ás')) return word + 'es';
+  if (lower.endsWith('és')) return word.slice(0, -2) + 'eses';
+  if (lower.endsWith('ís')) return word + 'es';
+  if (lower.endsWith('ós')) return word + 'es';
+  if (lower.endsWith('ús')) return word.slice(0, -2) + 'uses';
+  // Unaccented -s or -x: invariant (lunes, crisis)
+  if (lower.endsWith('s') || lower.endsWith('x')) return word;
+  if (lower.endsWith('z')) return word.slice(0, -1) + 'ces';
+  if (lower.endsWith('ón')) return word.slice(0, -2) + 'ones';
+  if (lower.endsWith('án')) return word.slice(0, -2) + 'anes';
+  if (lower.endsWith('ín')) return word.slice(0, -2) + 'ines';
+  if (/[aeiouáéíóú]$/i.test(lower)) return word + 's';
+  return word + 'es';
 }
 
 function pluralizeEs(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  if (lower.endsWith('z')) return word.slice(0, -1) + 'ces';
-  if (lower.endsWith('s') || lower.endsWith('x')) return word;
-  if (lower.endsWith('ón')) return word.slice(0, -2) + 'ones';
-  if (lower.endsWith('án')) return word.slice(0, -2) + 'anes';
-  if (lower.endsWith('és')) return word.slice(0, -2) + 'eses';
-  if (/[aeiouáéíóú]$/i.test(lower)) return word + 's';
-  return word + 'es';
+  const parts = word.split(' ');
+  if (parts.length === 1) return pluralizeEsSingle(word);
+
+  let prepIdx = -1;
+  for (let i = 1; i < parts.length; i++) {
+    if (ES_PREPOSITIONS.has(parts[i].toLowerCase())) { prepIdx = i; break; }
+  }
+  if (prepIdx > 0) {
+    for (let i = 0; i < prepIdx; i++) parts[i] = pluralizeEsSingle(parts[i]);
+  } else {
+    for (let i = 0; i < parts.length; i++) parts[i] = pluralizeEsSingle(parts[i]);
+  }
+  return parts.join(' ');
 }
 
 // ============================================================
 // PORTUGUESE PLURALIZATION + GENDER
 // ============================================================
+const PT_PREPOSITIONS = new Set(['de','do','da','dos','das','com','em','para','por','sem','sobre']);
+
 function genderPt(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
-  if (lower.endsWith('a') || lower.endsWith('ção') || lower.endsWith('são') ||
-      lower.endsWith('dade') || lower.endsWith('gem') || lower.endsWith('eza') ||
-      lower.endsWith('ção') || lower.endsWith('ade') || lower.endsWith('ice')) {
+  if (lower.endsWith('ção') || lower.endsWith('são') || lower.endsWith('dade') ||
+      lower.endsWith('gem') || lower.endsWith('eza') || lower.endsWith('ade') ||
+      lower.endsWith('ice') || lower.endsWith('ncia') || lower.endsWith('nça')) {
+    return 'f';
+  }
+  if (lower.endsWith('a')) {
     if (lower.endsWith('ma') && (lower.endsWith('tema') || lower.endsWith('grama') ||
         lower.endsWith('ema') || lower.endsWith('oma'))) {
       return 'm';
@@ -231,13 +464,10 @@ function genderPt(word) {
   return 'm';
 }
 
-function pluralizePt(word) {
+function pluralizePtSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
-  if (lower.endsWith('ão')) {
-    // Most common: -ão -> -ões
-    return word.slice(0, -2) + 'ões';
-  }
+  if (lower.endsWith('ão')) return word.slice(0, -2) + 'ões';
   if (lower.endsWith('l')) {
     if (lower.endsWith('il')) return word.slice(0, -2) + 'is';
     if (lower.endsWith('el')) return word.slice(0, -2) + 'éis';
@@ -247,114 +477,264 @@ function pluralizePt(word) {
     return word.slice(0, -1) + 'is';
   }
   if (lower.endsWith('m')) return word.slice(0, -1) + 'ns';
-  if (lower.endsWith('r') || lower.endsWith('s') || lower.endsWith('z')) return word + 'es';
+  if (lower.endsWith('r') || lower.endsWith('z')) return word + 'es';
+  if (lower.endsWith('s')) {
+    if (lower.endsWith('ês') || lower.endsWith('ás') || lower.endsWith('ís') ||
+        lower.endsWith('ós') || lower.endsWith('ús')) {
+      return word + 'es';
+    }
+    return word; // Paroxytone -s words are invariant
+  }
   if (/[aeiouáéíóú]$/i.test(lower)) return word + 's';
   return word + 's';
+}
+
+function pluralizePt(word) {
+  if (!word) return word;
+  const parts = word.split(' ');
+  if (parts.length === 1) return pluralizePtSingle(word);
+
+  let prepIdx = -1;
+  for (let i = 1; i < parts.length; i++) {
+    if (PT_PREPOSITIONS.has(parts[i].toLowerCase())) { prepIdx = i; break; }
+  }
+  if (prepIdx > 0) {
+    for (let i = 0; i < prepIdx; i++) parts[i] = pluralizePtSingle(parts[i]);
+  } else {
+    for (let i = 0; i < parts.length; i++) parts[i] = pluralizePtSingle(parts[i]);
+  }
+  return parts.join(' ');
 }
 
 // ============================================================
 // ITALIAN PLURALIZATION + GENDER
 // ============================================================
+const IT_PREPOSITIONS = new Set([
+  'di','del','della','dello','dei','delle','degli',
+  'da','dal','dalla','dallo','con','in','nel','nella',
+  'nello','per','al','alla','allo',
+]);
+
 function genderIt(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
-  if (lower.endsWith('a') || lower.endsWith('zione') || lower.endsWith('sione') ||
-      lower.endsWith('ezza') || lower.endsWith('anza') || lower.endsWith('enza') ||
-      lower.endsWith('ina') || lower.endsWith('etta') || lower.endsWith('essa') ||
-      lower.endsWith('trice') || lower.endsWith('tà') || lower.endsWith('tù') ||
-      lower.endsWith('ura')) {
+  if (lower.endsWith('zione') || lower.endsWith('sione') || lower.endsWith('ezza') ||
+      lower.endsWith('anza') || lower.endsWith('enza') || lower.endsWith('ina') ||
+      lower.endsWith('etta') || lower.endsWith('essa') || lower.endsWith('trice') ||
+      lower.endsWith('tà') || lower.endsWith('tù') || lower.endsWith('ura')) {
+    return 'f';
+  }
+  if (lower.endsWith('a') && !lower.endsWith('ista') && !lower.endsWith('ema') &&
+      !lower.endsWith('oma') && !lower.endsWith('ama')) {
     return 'f';
   }
   if (lower.endsWith('o') || lower.endsWith('ore') || lower.endsWith('one') ||
       lower.endsWith('iere') || lower.endsWith('ente') || lower.endsWith('ismo') ||
-      lower.endsWith('ista') || lower.endsWith('amento') || lower.endsWith('mento')) {
+      lower.endsWith('amento') || lower.endsWith('mento')) {
     return 'm';
   }
-  // -e ending: ambiguous, default to masculine
   return 'm';
+}
+
+function pluralizeItSingle(word) {
+  if (!word) return word;
+  const lower = word.toLowerCase();
+  // Foreign words ending in consonant: invariable
+  if (/[bcdfghjklmnpqrstvwxyz]$/.test(lower)) return word;
+  // Accented final vowel: invariable
+  if (/[àèéìòù]$/.test(lower)) return word;
+  // -ca → -che, -ga → -ghe
+  if (lower.endsWith('ca')) return word.slice(0, -2) + 'che';
+  if (lower.endsWith('ga')) return word.slice(0, -2) + 'ghe';
+  // -cia, -gia → -ce, -ge (unstressed i drops)
+  if (lower.endsWith('cia') || lower.endsWith('gia')) return word.slice(0, -2) + 'e';
+  // -a → -e (feminine)
+  if (lower.endsWith('a')) return word.slice(0, -1) + 'e';
+  // -co → -chi, -go → -ghi (hard c/g preserved)
+  if (lower.endsWith('co')) return word.slice(0, -2) + 'chi';
+  if (lower.endsWith('go')) return word.slice(0, -2) + 'ghi';
+  // -io → -i
+  if (lower.endsWith('io')) return word.slice(0, -2) + 'i';
+  // -o → -i
+  if (lower.endsWith('o')) return word.slice(0, -1) + 'i';
+  // -e → -i
+  if (lower.endsWith('e')) return word.slice(0, -1) + 'i';
+  return word;
 }
 
 function pluralizeIt(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  if (lower.endsWith('ca')) return word.slice(0, -2) + 'che';
-  if (lower.endsWith('ga')) return word.slice(0, -2) + 'ghe';
-  if (lower.endsWith('cia') || lower.endsWith('gia')) {
-    // Check if stressed
-    return word.slice(0, -2) + 'e';
+  const parts = word.split(' ');
+  if (parts.length === 1) return pluralizeItSingle(word);
+
+  let prepIdx = -1;
+  for (let i = 1; i < parts.length; i++) {
+    if (IT_PREPOSITIONS.has(parts[i].toLowerCase())) { prepIdx = i; break; }
   }
-  if (lower.endsWith('a')) return word.slice(0, -1) + 'e';
-  if (lower.endsWith('co')) return word.slice(0, -2) + 'chi';
-  if (lower.endsWith('go')) return word.slice(0, -2) + 'ghi';
-  if (lower.endsWith('io')) return word.slice(0, -2) + 'i';
-  if (lower.endsWith('o')) return word.slice(0, -1) + 'i';
-  if (lower.endsWith('e')) return word.slice(0, -1) + 'i';
-  // Invariable: words ending in consonant, accent, etc.
-  return word;
+  if (prepIdx > 0) {
+    for (let i = 0; i < prepIdx; i++) parts[i] = pluralizeItSingle(parts[i]);
+  } else {
+    for (let i = 0; i < parts.length; i++) parts[i] = pluralizeItSingle(parts[i]);
+  }
+  return parts.join(' ');
 }
 
 // ============================================================
 // DUTCH PLURALIZATION + GENDER
 // ============================================================
-// Dutch: d=de-word, h=het-word
 function genderNl(word) {
   if (!word) return 'd';
   const lower = word.toLowerCase();
-  // Het-words: diminutives (-je), and some patterns
+  // Het-words: diminutives, -isme, -ment, -um, -sel, ge- prefix nouns
   if (lower.endsWith('je') || lower.endsWith('tje') || lower.endsWith('pje') ||
       lower.endsWith('isme') || lower.endsWith('ment') || lower.endsWith('um') ||
       lower.endsWith('sel') || lower.endsWith('schap')) {
     return 'h';
   }
-  return 'd'; // Most Dutch nouns are de-words
+  if (lower.startsWith('ge') && lower.length > 4 &&
+      !lower.startsWith('geel') && !lower.startsWith('geen') && !lower.startsWith('geer')) {
+    return 'h';
+  }
+  return 'd';
+}
+
+function pluralizeNlSingle(word) {
+  if (!word) return word;
+  const lower = word.toLowerCase();
+
+  // Diminutives (-je): add -s
+  if (lower.endsWith('je')) return word + 's';
+  // Unstressed endings: add -s
+  if (lower.endsWith('el') || lower.endsWith('em') || lower.endsWith('en') ||
+      lower.endsWith('er') || lower.endsWith('erd') || lower.endsWith('aar') ||
+      lower.endsWith('aard') || lower.endsWith('ie') || lower.endsWith('ier')) {
+    return word + 's';
+  }
+  // -a, -i, -o, -u, -y: add -'s
+  if (/[aiouy]$/.test(lower)) return word + "'s";
+  // -e: add -n
+  if (lower.endsWith('e')) return word + 'n';
+
+  // Double vowel + f → single vowel + v + en (voicing + shortening)
+  const dblVF = lower.match(/^(.*)([aeiou])\2f$/);
+  if (dblVF) {
+    return word.slice(0, dblVF[1].length) + word[dblVF[1].length] + 'ven';
+  }
+  // Double vowel + s → single vowel + z + en (voicing + shortening)
+  const dblVS = lower.match(/^(.*)([aeiou])\2s$/);
+  if (dblVS) {
+    return word.slice(0, dblVS[1].length) + word[dblVS[1].length] + 'zen';
+  }
+  // Double vowel + consonant → single vowel + consonant + en (shortening)
+  const dblV = lower.match(/^(.*)([aeiou])\2([bcdfghjklmnpqrtvwxz])$/);
+  if (dblV) {
+    return word.slice(0, dblV[1].length) + word[dblV[1].length] + word[word.length - 1] + 'en';
+  }
+
+  // Diphthong + s → diphthong + zen (huis→huizen)
+  if (/(?:ui|ei|ij|ou|au)s$/.test(lower)) {
+    return word.slice(0, -1) + 'zen';
+  }
+  // Diphthong + f → diphthong + ven (brief→brieven)
+  if (/(?:ie|oe|eu|ui|ei|ij|ou|au)f$/.test(lower)) {
+    return word.slice(0, -1) + 'ven';
+  }
+
+  // Default: add -en
+  return word + 'en';
 }
 
 function pluralizeNl(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  // Words ending in unstressed -el, -em, -en, -er, -erd, -aar, -aard: add -s
-  if (lower.endsWith('el') || lower.endsWith('em') || lower.endsWith('en') ||
-      lower.endsWith('er') || lower.endsWith('erd') || lower.endsWith('aar') ||
-      lower.endsWith('aard') || lower.endsWith('je') || lower.endsWith('ie')) {
-    return word + 's';
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeNlSingle(parts[parts.length - 1]);
+    return parts.join(' ');
   }
-  // Words ending in -a, -i, -o, -u, -y: add -'s
-  if (/[aiouy]$/.test(lower)) return word + "'s";
-  // Words ending in -e: add -n or -s
-  if (lower.endsWith('e')) return word + 'n';
-  // Default: add -en
-  return word + 'en';
+  return pluralizeNlSingle(word);
 }
 
 // ============================================================
 // SWEDISH PLURALIZATION + GENDER
 // ============================================================
-// Swedish: n=en-word (common), t=ett-word (neuter)
+// n=en-word (common), t=ett-word (neuter)
+
+// Known ett-words from our dataset
+const SV_ETT_WORDS = new Set([
+  'barn','djur','träd','äpple','öga','öra','hjärta','hus','slott','skepp',
+  'berg','land','ljus','blad','tak','golv','rum','bord','kort',
+  'plan','spel','tåg','moln','regn','snö','glas','lock','ben',
+  'finger','ansikte','hår','knä','bröst','flygplan','paraply','rep','nät',
+  'ägg','brev','paket','kuvert','ark','papper','liv','tält','kök',
+  'hjul','ankare','pussel','instrument','redskap','verktyg','smycke',
+  'segel','fordon','gevär','badkar','lejon','piano','foto','zoo',
+]);
+
 function genderSv(word) {
   if (!word) return 'n';
   const lower = word.toLowerCase();
-  // Ett-words: some patterns
+  if (SV_ETT_WORDS.has(lower)) return 't';
   if (lower.endsWith('skap') || lower.endsWith('eri') || lower.endsWith('ande') ||
-      lower.endsWith('ende') || lower.endsWith('ek') || lower.endsWith('um')) {
+      lower.endsWith('ende') || lower.endsWith('um') || lower.endsWith('ment')) {
     return 't';
   }
-  return 'n'; // Most Swedish nouns are en-words
+  return 'n';
+}
+
+function pluralizeSvSingle(word) {
+  if (!word) return word;
+  const lower = word.toLowerCase();
+
+  // Ett-words are often unchanged in indefinite plural
+  if (SV_ETT_WORDS.has(lower)) return word;
+
+  // Class 1: -a → -or (flicka→flickor, lampa→lampor)
+  if (lower.endsWith('a') && !lower.endsWith('ia')) return word.slice(0, -1) + 'or';
+  // Class 4: -e → -ar (pojke→pojkar)
+  if (lower.endsWith('e')) return word.slice(0, -1) + 'ar';
+  // Unchanged: -are, -ande, -ende (agent/participial nouns)
+  if (lower.endsWith('are') || lower.endsWith('ande') || lower.endsWith('ende')) return word;
+  // Unchanged: -el, -er, -en
+  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+
+  // Class 3: -tion/-ion → -er
+  if (lower.endsWith('tion') || lower.endsWith('ion')) return word + 'er';
+  // Class 3: -het → -heter
+  if (lower.endsWith('het')) return word + 'er';
+  // Class 2: -ning → -ningar
+  if (lower.endsWith('ning')) return word + 'ar';
+  // Class 2: -ling → -lingar
+  if (lower.endsWith('ling')) return word + 'ar';
+  // Class 3: -nad → -nader
+  if (lower.endsWith('nad')) return word + 'er';
+  // Class 3: -or (agent: doktor→doktorer)
+  if (lower.endsWith('or') && lower.length > 3) return word + 'er';
+  // Class 3: -ör → -örer
+  if (lower.endsWith('ör')) return word + 'er';
+  // Class 3: -ant/-ent → -er
+  if (lower.endsWith('ant') || lower.endsWith('ent')) return word + 'er';
+  // Class 3: -ek/-ik → -er
+  if (lower.endsWith('ek') || lower.endsWith('ik')) return word + 'er';
+  // Class 3: -i → -ier
+  if (lower.endsWith('i')) return word + 'er';
+
+  // Default: -ar (Class 2, most common for consonant-ending en-words)
+  return word + 'ar';
 }
 
 function pluralizeSv(word) {
   if (!word) return word;
-  const lower = word.toLowerCase();
-  if (lower.endsWith('a')) return word.slice(0, -1) + 'or';
-  if (lower.endsWith('e')) return word.slice(0, -1) + 'ar';
-  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
-  if (lower.endsWith('tion')) return word + 'er';
-  return word + 'ar';
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeSvSingle(parts[parts.length - 1]);
+    return parts.join(' ');
+  }
+  return pluralizeSvSingle(word);
 }
 
 // ============================================================
 // DANISH PLURALIZATION + GENDER
 // ============================================================
-// Danish: n=en-word (common), t=et-word (neuter)
 function genderDa(word) {
   if (!word) return 'n';
   const lower = word.toLowerCase();
@@ -365,27 +745,37 @@ function genderDa(word) {
   return 'n';
 }
 
-function pluralizeDa(word) {
+function pluralizeDaSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
   if (lower.endsWith('e')) return word + 'r';
   if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+  if (lower.endsWith('tion')) return word + 'er';
+  if (lower.endsWith('hed')) return word + 'er';
+  if (lower.endsWith('ning')) return word + 'er';
   return word + 'er';
+}
+
+function pluralizeDa(word) {
+  if (!word) return word;
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeDaSingle(parts[parts.length - 1]);
+    return parts.join(' ');
+  }
+  return pluralizeDaSingle(word);
 }
 
 // ============================================================
 // NORWEGIAN PLURALIZATION + GENDER
 // ============================================================
-// Norwegian: m=masculine, f=feminine, n=neuter
 function genderNo(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
-  // Feminine patterns
   if (lower.endsWith('ing') || lower.endsWith('ung') || lower.endsWith('het') ||
       lower.endsWith('else') || lower.endsWith('inne')) {
     return 'f';
   }
-  // Neuter patterns
   if (lower.endsWith('skap') || lower.endsWith('eri') || lower.endsWith('ment') ||
       lower.endsWith('um') || lower.endsWith('ium')) {
     return 'n';
@@ -393,96 +783,149 @@ function genderNo(word) {
   return 'm';
 }
 
-function pluralizeNo(word) {
+function pluralizeNoSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
   if (lower.endsWith('e')) return word + 'r';
   if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+  if (lower.endsWith('tion') || lower.endsWith('sjon')) return word + 'er';
+  if (lower.endsWith('het')) return word + 'er';
+  if (lower.endsWith('ning')) return word + 'er';
   return word + 'er';
+}
+
+function pluralizeNo(word) {
+  if (!word) return word;
+  const parts = word.split(' ');
+  if (parts.length > 1) {
+    parts[parts.length - 1] = pluralizeNoSingle(parts[parts.length - 1]);
+    return parts.join(' ');
+  }
+  return pluralizeNoSingle(word);
 }
 
 // ============================================================
 // FINNISH PLURALIZATION (no gender)
 // ============================================================
-function pluralizeFi(word) {
+function pluralizeFiSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
-  // Finnish nominative plural: stem + t
-  // Vowel harmony and consonant gradation make this complex
-  // Simplified: if ends in vowel, add t; otherwise add it/yt
-  if (/[aeiouäöy]$/i.test(lower)) return word + 't';
+  // -nen → -set (nainen→naiset, keittiöiden but -nen words mostly use -set)
   if (lower.endsWith('nen')) return word.slice(0, -3) + 'set';
+  // Vowel ending: add -t
+  if (/[aeiouäöy]$/i.test(lower)) return word + 't';
+  // -in → -imet
   if (lower.endsWith('in')) return word.slice(0, -2) + 'imet';
-  if (lower.endsWith('as') || lower.endsWith('äs')) return word.slice(0, -1) + 'at';
+  // -as/-äs → -aat/-äät (simplified)
+  if (lower.endsWith('as')) return word.slice(0, -1) + 'at';
+  if (lower.endsWith('äs')) return word.slice(0, -1) + 'ät';
+  // -is → -it
   if (lower.endsWith('is')) return word.slice(0, -1) + 'it';
-  if (lower.endsWith('us') || lower.endsWith('ys')) return word.slice(0, -1) + 'kset';
-  if (lower.endsWith('os') || lower.endsWith('ös')) return word.slice(0, -1) + 'it';
+  // -us → -ukset
+  if (lower.endsWith('us')) return word.slice(0, -1) + 'kset';
+  // -ys → -ykset
+  if (lower.endsWith('ys')) return word.slice(0, -1) + 'kset';
+  // -os/-ös → -okset/-ökset
+  if (lower.endsWith('os') || lower.endsWith('ös')) return word.slice(0, -1) + 'kset';
+  // -n → add -it
   if (lower.endsWith('n')) return word + 'it';
+  // Default consonant ending
   return word + 'it';
+}
+
+function pluralizeFi(word) {
+  if (!word) return word;
+  return pluralizeFiSingle(word);
+}
+
+// ============================================================
+// UNIFIED GENDER FUNCTION (handles multi-word)
+// ============================================================
+function getGender(word, locale) {
+  if (!word) return locale === 'nl' ? 'd' : (locale === 'sv' ? 'n' : (locale === 'da' ? 'n' : 'm'));
+  const parts = word.split(' ');
+  let headNoun;
+
+  // Romance languages: head noun is first word
+  if (['fr','es','pt','it'].includes(locale)) {
+    headNoun = parts[0];
+  } else {
+    // Germanic: head noun is last word
+    headNoun = parts[parts.length - 1];
+  }
+
+  switch (locale) {
+    case 'de': return genderDe(headNoun);
+    case 'fr': return genderFr(headNoun);
+    case 'es': return genderEs(headNoun);
+    case 'pt': return genderPt(headNoun);
+    case 'it': return genderIt(headNoun);
+    case 'nl': return genderNl(headNoun);
+    case 'sv': return genderSv(headNoun);
+    case 'da': return genderDa(headNoun);
+    case 'no': return genderNo(headNoun);
+    default: return 'm';
+  }
+}
+
+// ============================================================
+// PLURALIZATION DISPATCHER
+// ============================================================
+function pluralize(word, locale) {
+  switch (locale) {
+    case 'en': return pluralizeEn(word);
+    case 'de': return pluralizeDe(word);
+    case 'fr': return pluralizeFr(word);
+    case 'es': return pluralizeEs(word);
+    case 'pt': return pluralizePt(word);
+    case 'it': return pluralizeIt(word);
+    case 'nl': return pluralizeNl(word);
+    case 'sv': return pluralizeSv(word);
+    case 'da': return pluralizeDa(word);
+    case 'no': return pluralizeNo(word);
+    case 'fi': return pluralizeFi(word);
+    default: return word + 's';
+  }
 }
 
 // ============================================================
 // MASTER BUILD
 // ============================================================
-
 const entries = {};
 const keys = Object.keys(raw).sort();
 
 for (const key of keys) {
   const data = raw[key];
   const entry = {};
+  const isNonNoun = NON_NOUN_KEYS.has(key);
+  const isEnMassNoun = EN_MASS_NOUNS.has(key);
 
-  // English - just plural string (no gender)
-  entry.en = pluralizeEn(data.en || key);
-
-  // German - [plural, gender]
-  if (data.de) {
-    entry.de = [pluralizeDe(data.de), genderDe(data.de)];
+  // English (plural string only, no gender)
+  if (isNonNoun || isEnMassNoun) {
+    entry.en = data.en || key; // Keep singular
+  } else {
+    entry.en = pluralizeEn(data.en || key);
   }
 
-  // French - [plural, gender]
-  if (data.fr) {
-    entry.fr = [pluralizeFr(data.fr), genderFr(data.fr)];
+  // Languages with gender: [plural, gender]
+  for (const locale of ['de','fr','es','pt','it','nl','sv','da','no']) {
+    if (data[locale]) {
+      const gender = getGender(data[locale], locale);
+      if (isNonNoun) {
+        entry[locale] = [data[locale], gender]; // Keep singular
+      } else {
+        entry[locale] = [pluralize(data[locale], locale), gender];
+      }
+    }
   }
 
-  // Spanish - [plural, gender]
-  if (data.es) {
-    entry.es = [pluralizeEs(data.es), genderEs(data.es)];
-  }
-
-  // Portuguese - [plural, gender]
-  if (data.pt) {
-    entry.pt = [pluralizePt(data.pt), genderPt(data.pt)];
-  }
-
-  // Italian - [plural, gender]
-  if (data.it) {
-    entry.it = [pluralizeIt(data.it), genderIt(data.it)];
-  }
-
-  // Dutch - [plural, gender]
-  if (data.nl) {
-    entry.nl = [pluralizeNl(data.nl), genderNl(data.nl)];
-  }
-
-  // Swedish - [plural, gender]
-  if (data.sv) {
-    entry.sv = [pluralizeSv(data.sv), genderSv(data.sv)];
-  }
-
-  // Danish - [plural, gender]
-  if (data.da) {
-    entry.da = [pluralizeDa(data.da), genderDa(data.da)];
-  }
-
-  // Norwegian - [plural, gender]
-  if (data.no) {
-    entry.no = [pluralizeNo(data.no), genderNo(data.no)];
-  }
-
-  // Finnish - just plural string (no gender)
+  // Finnish (plural string only, no gender)
   if (data.fi) {
-    entry.fi = pluralizeFi(data.fi);
+    if (isNonNoun) {
+      entry.fi = data.fi; // Keep singular
+    } else {
+      entry.fi = pluralizeFi(data.fi);
+    }
   }
 
   entries[key] = entry;
@@ -512,8 +955,6 @@ if (fs.existsSync(correctionsPath)) {
 // ============================================================
 // OUTPUT
 // ============================================================
-
-// Build the JS file content
 let output = `/**
  * IMAGE VOCABULARY - Global Image Name Dictionary
  * ================================================
@@ -538,7 +979,6 @@ let output = `/**
 // eslint-disable-next-line no-unused-vars
 const IMAGE_VOCABULARY = `;
 
-// Compact format: one line per entry
 output += '{\n';
 const entryKeys = Object.keys(entries);
 entryKeys.forEach((key, i) => {
@@ -549,7 +989,7 @@ output += '}';
 
 output += `;\n\n`;
 
-// Add article/quantifier tables
+// Article/quantifier tables (unchanged from v1)
 output += `/**
  * PLURAL QUANTIFIERS - "all the" with gender agreement
  * Used by Find and Count for instruction text
@@ -604,10 +1044,8 @@ const ImageVocab = {
     if (!path) return '';
     const filename = path.split('/').pop();
     const noExt = filename.replace(/\\.\\w+$/, '');
-    // Remove timestamp-hex suffix
     const match = noExt.match(/^(.+)-(\\d{13})-([a-z0-9]+)$/);
     const baseName = match ? match[1].toLowerCase() : noExt.toLowerCase();
-    // Strip trailing number variant: "cat-2" -> "cat"
     return baseName.replace(/-\\d+$/, '');
   },
 
@@ -635,27 +1073,12 @@ const ImageVocab = {
 
   /**
    * Get singular definite article for a key in a locale
-   * Handles French elision (le/la -> l' before vowel)
-   * Handles Italian special articles (lo before s+cons, z, gn)
    */
   defArticle(key, locale) {
     const g = this.gender(key, locale);
     const articles = DEFINITE_ARTICLES[locale];
     if (!articles) return '';
-    const base = articles[g] || articles.default || '';
-    if (!base) return '';
-
-    // French elision: le/la -> l' before vowel/mute h
-    if (locale === 'fr' && (base === 'le' || base === 'la')) {
-      const entry = IMAGE_VOCABULARY[key];
-      if (entry && entry.fr) {
-        const singular = Array.isArray(entry.fr) ? null : entry.fr;
-        // We don't have singular stored (only plural), so check from raw translations
-        // For now, return base article - the calling app can handle elision with the actual word
-      }
-    }
-
-    return base;
+    return articles[g] || articles.default || '';
   },
 
   /**
@@ -675,7 +1098,6 @@ const ImageVocab = {
    */
   _fallbackPlural(word, locale) {
     if (!word) return word;
-
     if (locale === 'en') {
       const lower = word.toLowerCase();
       if (lower.endsWith('s') || lower.endsWith('x') || lower.endsWith('ch') || lower.endsWith('sh') || lower.endsWith('z')) return word + 'es';
@@ -720,9 +1142,7 @@ const ImageVocab = {
       if (lower.endsWith('e')) return word + 'r';
       return word + 'er';
     }
-    if (locale === 'fi') {
-      return word + 't';
-    }
+    if (locale === 'fi') return word + 't';
     return word + 's';
   }
 };

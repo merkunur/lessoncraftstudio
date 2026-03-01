@@ -15,7 +15,7 @@
  *     d=de-word (nl), h=het-word (nl)
  *     t=ett-word (sv), t=et-word (da)
  *
- * Generated: 2026-03-01T19:46:29.196Z
+ * Generated: 2026-03-01T20:22:37.887Z
  * Source: image_library_items database table (2,814 images, 100 themes)
  */
 
@@ -41,7 +41,7 @@ const IMAGE_VOCABULARY = {
   "ant": {"en":["Ant","Ants"],"de":["Ameise","Ameisen","f"],"fr":["Fourmi","Fourmis","f"],"es":["Hormiga","Hormigas","f"],"pt":["Formiga","Formigas","f"],"it":["Formica","Formiche","f"],"nl":["Mier","Mieren","d"],"sv":["Myra","Myror","n"],"da":["Myre","Myrer","n"],"no":["Maur","Maurer","m"],"fi":["Muurahainen","Muurahaiset"]},
   "antelope": {"en":["Antelope","Antelopes"],"de":["Antilope","Antilopen","f"],"fr":["Antilope","Antilopes","f"],"es":["Antílope","Antílopes","m"],"pt":["Antílope","Antílopes","m"],"it":["Antilope","Antilopi","f"],"nl":["Antilope","Antilopen","d"],"sv":["Antilop","Antilopar","n"],"da":["Antilope","Antiloper","n"],"no":["Antilope","Antiloper","m"],"fi":["Antilooppi","Antilooppeja"]},
   "apatosaurus": {"en":["Apatosaurus","Apatosauruses"],"de":["Apatosaurus","Apatosauren","m"],"fr":["Apatosaure","Apatosaures","m"],"es":["Apatosaurio","Apatosaurios","m"],"pt":["Apatossauro","Apatossauros","m"],"it":["Apatosauro","Apatosauri","m"],"nl":["Apatosaurus","Apatosaurussen","d"],"sv":["Apatosaurus","Apatosaurusar","n"],"da":["Apatosaurus","Apatosauruser","n"],"no":["Apatosaurus","Apatosauruser","m"],"fi":["Apatosaurus","Apatosaurukset"]},
-  "apple": {"en":["Apple","Apples"],"de":["Apfel","Äpfel","m"],"fr":["Pomme","Pommes","f"],"es":["Manzana","Manzanas","f"],"pt":["Maçã","Maçãs","f"],"it":["Mela","Mele","f"],"nl":["Appel","Appels","d"],"sv":["Äpple","Äpple","t"],"da":["Æble","Æbler","n"],"no":["Eple","Eple","n"],"fi":["Omena","Omenat"]},
+  "apple": {"en":["Apple","Apples"],"de":["Apfel","Äpfel","m"],"fr":["Pomme","Pommes","f"],"es":["Manzana","Manzanas","f"],"pt":["Maçã","Maçãs","f"],"it":["Mela","Mele","f"],"nl":["Appel","Appels","d"],"sv":["Äpple","Äpplen","t"],"da":["Æble","Æbler","n"],"no":["Eple","Epler","n"],"fi":["Omena","Omenat"]},
   "apple-pie": {"en":["Apple Pie","Apple Pies"],"de":["Apfelkuchen","Apfelkuchen","m"],"fr":["Tarte aux pommes","Tartes aux pommes","f"],"es":["Pay de manzana","Payes de manzana","m"],"pt":["Torta de maçã","Tortas de maçã","f"],"it":["Torta di mele","Torte di mele","f"],"nl":["Appeltaart","Appeltaarten","d"],"sv":["Äppelpaj","Äppelpajar","n"],"da":["Æbletærte","Æbletærter","n"],"no":["Eplekake","Eplekaker","m"],"fi":["Omenapiirakka","Omenapiirakat"]},
   "apple-tree": {"en":["Apple Tree","Apple Trees"],"de":["Apfelbaum","Apfelbäume","m"],"fr":["Pommier","Pommiers","m"],"es":["Manzano","Manzanos","m"],"pt":["Macieira","Macieiras","f"],"it":["Melo","Meli","m"],"nl":["Appelboom","Appelbomen","d"],"sv":["Äppelträd","Äppelträd","t"],"da":["Æbletræ","Æbletræer","t"],"no":["Epletre","Epletre","n"],"fi":["Omenapuu","Omenapuut"]},
   "apricot": {"en":["Apricot","Apricots"],"de":["Aprikose","Aprikosen","f"],"fr":["Abricot","Abricots","m"],"es":["Chabacano","Chabacanos","m"],"pt":["Damasco","Damascos","m"],"it":["Albicocca","Albicocche","f"],"nl":["Abrikoos","Abrikozen","d"],"sv":["Aprikos","Aprikoser","n"],"da":["Abrikos","Abrikoser","n"],"no":["Aprikos","Aprikoser","m"],"fi":["Aprikoosi","Aprikoosit"]},

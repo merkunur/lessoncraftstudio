@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="prepositions.page.title">Prepositions Worksheet Generator</title>
     <script src="js/translations-prepositions.js?v=4"></script>
-    <script src="js/image-vocabulary.js"></script>
+    <script src="js/image-vocabulary.js?v=2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Enhancement scripts for robust integration -->
@@ -3029,7 +3029,6 @@
                     : (shapeVocabKey && typeof ImageVocab !== 'undefined'
                         ? sentenceCaseShape(ImageVocab.singular(shapeVocabKey, currentLocale) || shapeNameEnglish, currentLocale)
                         : shapeNameEnglish);
-
                 // Get translations for current language
                 const isText = EXERCISE_TRANSLATIONS['is'][currentLocale] || 'is';
                 const prepositionText = PREPOSITION_TRANSLATIONS[assignment.preposition][currentLocale] || assignment.preposition;

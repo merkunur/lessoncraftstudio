@@ -1126,28 +1126,125 @@ function pluralizeNo(word) {
 // ============================================================
 // FINNISH PLURALIZATION (no gender)
 // ============================================================
+
+// Words whose raw form is already plural (end in -t) — don't double-pluralize
+const FI_ALREADY_PLURAL = new Set([
+  'aivot','kasvot','housut','saappaat','palikat','kortit','keksit',
+  'murot','verhot','nopat','posket','sipsit','symbaalit','värikynät',
+  'sakset','silmäripset','lastenvaunut','vaunut','korvalapput',
+  'kainalosauvat','hiutalet','hampaat','silmälasit','sukset',
+  'luistimet','pyöräilysortsit','uimaräpylät','farkut','shortsit',
+  'tennarit','portaat','sukat','käsineet','hanskat','kengät',
+]);
+
+// Apply Finnish consonant gradation (strong → weak) to the stem before adding -t
+// Returns the word with gradation applied, or null if no pattern matches
+function applyFiGradation(word) {
+  const lower = word.toLowerCase();
+  const len = lower.length;
+  // Find the last vowel-ending stem and check consonant before it
+  // Pattern: ...CCV → apply gradation to CC
+
+  // kk → k (kirkko→kirko-, kukka→kuka-, takki→taki-)
+  const kkMatch = lower.match(/^(.*)kk([aeiouäöy])$/);
+  if (kkMatch) return word.slice(0, word.length - kkMatch[2].length - 2) + 'k' + word.slice(-1) + 't';
+
+  // pp → p (reppu→repu-, kaappi→kaapi-, lamppu→lampu-)
+  const ppMatch = lower.match(/^(.*)pp([aeiouäöy])$/);
+  if (ppMatch) return word.slice(0, word.length - ppMatch[2].length - 2) + 'p' + word.slice(-1) + 't';
+
+  // tt → t (matto→mato-, hattu→hatu-, pultti→pulti-)
+  const ttMatch = lower.match(/^(.*)tt([aeiouäöy])$/);
+  if (ttMatch) return word.slice(0, word.length - ttMatch[2].length - 2) + 't' + word.slice(-1) + 't';
+
+  // nk → ng (sänky→sängy-, tanko→tango-)
+  const nkMatch = lower.match(/^(.*)nk([aeiouäöy])$/);
+  if (nkMatch) return word.slice(0, word.length - nkMatch[2].length - 2) + 'ng' + word.slice(-1) + 't';
+
+  // nt → nn (ranta→ranna-, lintu→linnu-)
+  const ntMatch = lower.match(/^(.*)nt([aeiouäöy])$/);
+  if (ntMatch) return word.slice(0, word.length - ntMatch[2].length - 2) + 'nn' + word.slice(-1) + 't';
+
+  // mp → mm (kampa→kamma-, rumpu→rummu-)
+  const mpMatch = lower.match(/^(.*)mp([aeiouäöy])$/);
+  if (mpMatch) return word.slice(0, word.length - mpMatch[2].length - 2) + 'mm' + word.slice(-1) + 't';
+
+  // lt → ll (pelti→pelli-, aalto→aallo-)
+  const ltMatch = lower.match(/^(.*)lt([aeiouäöy])$/);
+  if (ltMatch) return word.slice(0, word.length - ltMatch[2].length - 2) + 'll' + word.slice(-1) + 't';
+
+  // rt → rr (kerta→kerra-)
+  const rtMatch = lower.match(/^(.*)rt([aeiouäöy])$/);
+  if (rtMatch) return word.slice(0, word.length - rtMatch[2].length - 2) + 'rr' + word.slice(-1) + 't';
+
+  return null; // no gradation pattern found
+}
+
 function pluralizeFiSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
-  // -nen → -set (nainen→naiset, keittiöiden but -nen words mostly use -set)
+
+  // Already-plural detection: if raw ends in common plural suffixes
+  if (FI_ALREADY_PLURAL.has(lower)) return word;
+  // Generic: if ends in -t and looks plural (after vowel)
+  if (/[aeiouäöy]t$/i.test(lower) && lower.length > 3) {
+    // Could be already plural - return as-is
+    // (corrections will override if wrong)
+    return word;
+  }
+
+  // -nen → -set (nainen→naiset, punainen→punaiset)
   if (lower.endsWith('nen')) return word.slice(0, -3) + 'set';
-  // Vowel ending: add -t
-  if (/[aeiouäöy]$/i.test(lower)) return word + 't';
-  // -in → -imet
+
+  // -e ending: many -e words double the vowel (kone→koneet, vene→veneet, huone→huoneet)
+  // But words with doubled consonant before -e don't (nukke→nuket via gradation)
+  if (lower.endsWith('e') && !lower.endsWith('ee')) {
+    // Check if there's a doubled consonant before -e → apply gradation
+    if (/kke$/.test(lower)) return word.slice(0, -3) + 'ket';
+    if (/ppe$/.test(lower)) return word.slice(0, -3) + 'pet';
+    if (/tte$/.test(lower)) return word.slice(0, -3) + 'tet';
+    if (/nke$/.test(lower)) return word.slice(0, -4) + 'nget';
+    if (/nte$/.test(lower)) return word.slice(0, -3) + 'neet';
+    if (/mpe$/.test(lower)) return word.slice(0, -3) + 'meet';
+    if (/lte$/.test(lower)) return word.slice(0, -3) + 'leet';
+    // Otherwise: double the -e and add -t (kone→koneet, vene→veneet)
+    return word + 'et';
+  }
+
+  // Vowel endings with consonant gradation
+  if (/[aeiouäöy]$/i.test(lower)) {
+    // Try consonant gradation first
+    const gradated = applyFiGradation(word);
+    if (gradated) return gradated;
+    // No gradation needed: just add -t
+    return word + 't';
+  }
+
+  // -in → -imet (avain→avaimet, laskin→laskimet)
   if (lower.endsWith('in')) return word.slice(0, -2) + 'imet';
-  // -as/-äs → -aat/-äät (simplified)
+
+  // -is → -ikset for colloquial/borrowed words (lippis→lippikset)
+  // but -is → -it for some (kallis is adj, not relevant here)
+  if (lower.endsWith('is')) return word.slice(0, -2) + 'ikset';
+
+  // -as/-äs → remove s, double vowel, add t (kangas→kankaat simplified to just -aat)
   if (lower.endsWith('as')) return word.slice(0, -1) + 'at';
   if (lower.endsWith('äs')) return word.slice(0, -1) + 'ät';
-  // -is → -it
-  if (lower.endsWith('is')) return word.slice(0, -1) + 'it';
-  // -us → -ukset
+
+  // -es → -eet (kirves→kirveet, vuodes→vuoteet simplified)
+  if (lower.endsWith('es')) return word.slice(0, -2) + 'eet';
+
+  // -us → -ukset (kaktus→kaktukset)
   if (lower.endsWith('us')) return word.slice(0, -1) + 'kset';
   // -ys → -ykset
   if (lower.endsWith('ys')) return word.slice(0, -1) + 'kset';
   // -os/-ös → -okset/-ökset
   if (lower.endsWith('os') || lower.endsWith('ös')) return word.slice(0, -1) + 'kset';
-  // -n → add -it
+
+  // -n → -met for some (sydän→sydämet), but generic -n add -it
+  if (lower.endsWith('än') || lower.endsWith('on')) return word.slice(0, -1) + 'met';
   if (lower.endsWith('n')) return word + 'it';
+
   // Default consonant ending
   return word + 'it';
 }

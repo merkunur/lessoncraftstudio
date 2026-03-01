@@ -979,7 +979,8 @@
     "pt": [
       "Corvos",
       "m"
-    ]
+    ],
+    "fi": "Varikset"
   },
   "deer": {
     "de": [
@@ -1165,7 +1166,8 @@
     "pt": [
       "Libélulas",
       "f"
-    ]
+    ],
+    "fi": "Sudenkorennot"
   },
   "duck": {
     "de": [
@@ -3816,7 +3818,8 @@
     "no": [
       "Ulver",
       "m"
-    ]
+    ],
+    "fi": "Sudet"
   },
   "woodpecker": {
     "de": [
@@ -3860,7 +3863,8 @@
     "pt": [
       "Minhocas",
       "f"
-    ]
+    ],
+    "fi": "Madot"
   },
   "yak": {
     "de": [
@@ -4253,7 +4257,8 @@
     "sv": [
       "Brownies",
       "n"
-    ]
+    ],
+    "fi": "Browniet"
   },
   "butter": {
     "en": "Butter",
@@ -4272,7 +4277,8 @@
     "no": [
       "Smør",
       "n"
-    ]
+    ],
+    "fi": "Voi"
   },
   "cabbage": {
     "de": [
@@ -5162,7 +5168,8 @@
     "no": [
       "Melk",
       "f"
-    ]
+    ],
+    "fi": "Maito"
   },
   "mushroom": {
     "de": [
@@ -5627,7 +5634,8 @@
     "no": [
       "Ris",
       "m"
-    ]
+    ],
+    "fi": "Riisi"
   },
   "salad": {
     "de": [
@@ -5890,7 +5898,8 @@
     "da": [
       "Senge",
       "n"
-    ]
+    ],
+    "fi": "Sängyt"
   },
   "bell": {
     "de": [
@@ -6094,7 +6103,8 @@
     "pt": [
       "Vassouras",
       "f"
-    ]
+    ],
+    "fi": "Luudat"
   },
   "brush": {
     "de": [
@@ -6484,7 +6494,8 @@
     "no": [
       "Skrivebord",
       "n"
-    ]
+    ],
+    "fi": "Työpöydät"
   },
   "door": {
     "de": [
@@ -6596,7 +6607,8 @@
     "nl": [
       "Hekken",
       "h"
-    ]
+    ],
+    "fi": "Aidat"
   },
   "flag": {
     "de": [
@@ -6888,7 +6900,8 @@
     "nl": [
       "Messen",
       "h"
-    ]
+    ],
+    "fi": "Veitset"
   },
   "lamp": {
     "de": [
@@ -7330,7 +7343,8 @@
     "no": [
       "Bord",
       "n"
-    ]
+    ],
+    "fi": "Pöydät"
   },
   "tooth": {
     "de": [
@@ -7364,7 +7378,8 @@
     "no": [
       "Tenner",
       "f"
-    ]
+    ],
+    "fi": "Hampaat"
   },
   "towel": {
     "de": [
@@ -7602,7 +7617,8 @@
     "no": [
       "Belter",
       "n"
-    ]
+    ],
+    "fi": "Vyöt"
   },
   "boots": {
     "de": [
@@ -7822,7 +7838,8 @@
     "pt": [
       "Camisas",
       "f"
-    ]
+    ],
+    "fi": "Paidat"
   },
   "skirt": {
     "de": [
@@ -7892,7 +7909,8 @@
     "pt": [
       "Suéteres",
       "m"
-    ]
+    ],
+    "fi": "Villapaidat"
   },
   "tie": {
     "de": [
@@ -7974,7 +7992,8 @@
     "pt": [
       "Braços",
       "m"
-    ]
+    ],
+    "fi": "Käsivarret"
   },
   "ear": {
     "de": [
@@ -8098,7 +8117,8 @@
     "no": [
       "Føtter",
       "m"
-    ]
+    ],
+    "fi": "Jalat"
   },
   "hand": {
     "de": [
@@ -8132,7 +8152,8 @@
     "no": [
       "Hender",
       "f"
-    ]
+    ],
+    "fi": "Kädet"
   },
   "knee": {
     "de": [
@@ -8919,7 +8940,8 @@
     "no": [
       "Blader",
       "n"
-    ]
+    ],
+    "fi": "Lehdet"
   },
   "moon": {
     "de": [
@@ -9491,7 +9513,8 @@
     "pt": [
       "Meninos",
       "m"
-    ]
+    ],
+    "fi": "Pojat"
   },
   "camera": {
     "de": [
@@ -9985,7 +10008,8 @@
     "en": "Basketball"
   },
   "biking": {
-    "en": "Biking"
+    "en": "Biking",
+    "fi": "Pyöräily"
   },
   "bowling": {
     "en": "Bowling"
@@ -10020,7 +10044,8 @@
     "de": [
       "Eicheln",
       "f"
-    ]
+    ],
+    "fi": "Tammenterhot"
   },
   "analog-clock": {
     "de": [
@@ -10042,7 +10067,8 @@
     "no": [
       "Analoge klokker",
       "m"
-    ]
+    ],
+    "fi": "Analogiset kellot"
   },
   "architect": {
     "de": [
@@ -10234,7 +10260,8 @@
     "no": [
       "Kokte egg",
       "n"
-    ]
+    ],
+    "fi": "Keitetyt munat"
   },
   "bowling-pin": {
     "de": [
@@ -10398,7 +10425,8 @@
     "nl": [
       "Gordijnen",
       "d"
-    ]
+    ],
+    "fi": "Verhot"
   },
   "detective": {
     "de": [
@@ -10448,7 +10476,8 @@
     "de": [
       "Drachen",
       "m"
-    ]
+    ],
+    "fi": "Lohikäärmeet"
   },
   "dragon-fruit": {
     "de": [
@@ -10570,7 +10599,8 @@
     "no": [
       "Ansikter",
       "n"
-    ]
+    ],
+    "fi": "Kasvot"
   },
   "faucet": {
     "de": [
@@ -10662,7 +10692,8 @@
     "no": [
       "Stekte egg",
       "n"
-    ]
+    ],
+    "fi": "Paistetut munat"
   },
   "frisbee": {
     "de": [
@@ -10710,7 +10741,8 @@
     "de": [
       "Gesprächsherzen",
       "n"
-    ]
+    ],
+    "fi": "Keskustelusydämet"
   },
   "fishbowl": {
     "de": [
@@ -10922,7 +10954,8 @@
     "fr": [
       "Cuisinières",
       "f"
-    ]
+    ],
+    "fi": "Liedet"
   },
   "hotel": {
     "de": [
@@ -11310,7 +11343,8 @@
     "no": [
       "Lys",
       "n"
-    ]
+    ],
+    "fi": "Valot"
   },
   "lights": {
     "de": [
@@ -12076,7 +12110,8 @@
     "es": [
       "Lombrices",
       "f"
-    ]
+    ],
+    "fi": "Kastemadot"
   },
   "gerbil": {
     "de": [
@@ -12274,7 +12309,8 @@
     "de": [
       "Schneidebretter",
       "n"
-    ]
+    ],
+    "fi": "Leikkuulaudat"
   },
   "sponge": {
     "de": [
@@ -12332,7 +12368,8 @@
     "de": [
       "Seilbahnen",
       "f"
-    ]
+    ],
+    "fi": "Köysiradat"
   },
   "sickle": {
     "de": [
@@ -12534,13 +12571,15 @@
     "nl": [
       "Surfplanken",
       "d"
-    ]
+    ],
+    "fi": "Surffilaudat"
   },
   "sweatshirt": {
     "de": [
       "Sweatshirts",
       "n"
-    ]
+    ],
+    "fi": "Collegepaidat"
   },
   "suv": {
     "de": [
@@ -12624,7 +12663,8 @@
     "sv": [
       "T-shirtar",
       "n"
-    ]
+    ],
+    "fi": "T-paidat"
   },
   "tablet": {
     "de": [
@@ -12766,7 +12806,8 @@
     "nl": [
       "Tassen",
       "d"
-    ]
+    ],
+    "fi": "Kassit"
   },
   "tyrannosaurus-rex": {
     "de": [
@@ -12812,7 +12853,8 @@
     "de": [
       "Verbände",
       "m"
-    ]
+    ],
+    "fi": "Siteet"
   },
   "forget-me-not": {
     "de": [
@@ -12938,7 +12980,8 @@
     "no": [
       "Vann",
       "n"
-    ]
+    ],
+    "fi": "Vesi"
   },
   "water-ball": {
     "de": [
@@ -12986,7 +13029,8 @@
     "sv": [
       "Ögonfransar",
       "n"
-    ]
+    ],
+    "fi": "Silmäripset"
   },
   "pinwheel": {
     "de": [
@@ -13140,13 +13184,15 @@
     "no": [
       "Nattbord",
       "n"
-    ]
+    ],
+    "fi": "Yöpöydät"
   },
   "cake-pan": {
     "de": [
       "Kuchenformen",
       "f"
-    ]
+    ],
+    "fi": "Kakkuvuoat"
   },
   "screw": {
     "de": [
@@ -13214,7 +13260,8 @@
     "nl": [
       "Paardenbloemen",
       "d"
-    ]
+    ],
+    "fi": "Voikukat"
   },
   "painting": {
     "de": [
@@ -13538,7 +13585,8 @@
     "sv": [
       "Skateboards",
       "n"
-    ]
+    ],
+    "fi": "Rullalaudat"
   },
   "tank-top": {
     "de": [
@@ -13704,7 +13752,8 @@
     "sv": [
       "Kryckor",
       "n"
-    ]
+    ],
+    "fi": "Kainalosauvat"
   },
   "dresser": {
     "fr": [
@@ -13762,7 +13811,8 @@
     "no": [
       "Svømmeføtter",
       "m"
-    ]
+    ],
+    "fi": "Räpylät"
   },
   "garland": {
     "fr": [
@@ -13906,7 +13956,8 @@
     "nl": [
       "Touwen",
       "h"
-    ]
+    ],
+    "fi": "Köydet"
   },
   "ruler": {
     "fr": [
@@ -14016,7 +14067,8 @@
     "no": [
       "Sofabord",
       "n"
-    ]
+    ],
+    "fi": "Sohvapöydät"
   },
   "cuckoo-clock": {
     "fr": [
@@ -14054,7 +14106,8 @@
     "fr": [
       "Rallonges électriques",
       "f"
-    ]
+    ],
+    "fi": "Jatkojohdot"
   },
   "fishing-rod": {
     "fr": [
@@ -14206,7 +14259,8 @@
     "no": [
       "Picknickbord",
       "n"
-    ]
+    ],
+    "fi": "Piknikpöydät"
   },
   "rain-boots": {
     "fr": [
@@ -14272,7 +14326,8 @@
     "no": [
       "Stekt kalkun",
       "m"
-    ]
+    ],
+    "fi": "Paistetut kalkkunat"
   },
   "shoes": {
     "fr": [
@@ -14752,7 +14807,8 @@
     "da": [
       "Vækkeure",
       "t"
-    ]
+    ],
+    "fi": "Herätyskellot"
   },
   "baby's-onesie": {
     "fr": [
@@ -15086,7 +15142,8 @@
     "no": [
       "Ørevarmere",
       "m"
-    ]
+    ],
+    "fi": "Korvalapput"
   },
   "net": {
     "es": [
@@ -15376,7 +15433,8 @@
     "da": [
       "Strygbrætter",
       "n"
-    ]
+    ],
+    "fi": "Silityslaudat"
   },
   "musician": {
     "it": [
@@ -15528,7 +15586,8 @@
     "it": [
       "Pelapatate",
       "m"
-    ]
+    ],
+    "fi": "Kuorimaveitset"
   },
   "lollipop": {
     "it": [
@@ -15750,7 +15809,8 @@
     "sv": [
       "Parfymer",
       "n"
-    ]
+    ],
+    "fi": "Hajuvedet"
   },
   "swimming-pool": {
     "nl": [
@@ -15794,13 +15854,15 @@
     "no": [
       "Fargestifter",
       "m"
-    ]
+    ],
+    "fi": "Värikynät"
   },
   "cymbals": {
     "nl": [
       "Bekkens",
       "h"
-    ]
+    ],
+    "fi": "Symbaalit"
   },
   "dice": {
     "nl": [
@@ -15860,7 +15922,8 @@
     "no": [
       "Stekt kylling",
       "m"
-    ]
+    ],
+    "fi": "Paistetut kanat"
   },
   "farmer": {
     "nl": [
@@ -16186,7 +16249,8 @@
     "sv": [
       "Sparkcyklar",
       "n"
-    ]
+    ],
+    "fi": "Potkulaudat"
   },
   "forest": {
     "nl": [
@@ -16384,7 +16448,8 @@
     "sv": [
       "Naglar",
       "n"
-    ]
+    ],
+    "fi": "Kynnet"
   },
   "reading": {
     "sv": [
@@ -16812,13 +16877,15 @@
     "sv": [
       "Sminkbord",
       "t"
-    ]
+    ],
+    "fi": "Meikkauspöydät"
   },
   "vanity-table": {
     "sv": [
       "Sminkbord",
       "t"
-    ]
+    ],
+    "fi": "Meikkauspöydät"
   },
   "dahlia": {
     "sv": [
@@ -16959,5 +17026,44 @@
       "Chilipepprar",
       "n"
     ]
+  },
+  "barn": {
+    "fi": "Ladot"
+  },
+  "harvest": {
+    "fi": "Sadot"
+  },
+  "iron": {
+    "fi": "Silitysraudat"
+  },
+  "crayon": {
+    "fi": "Vahaliidut"
+  },
+  "butter-knife": {
+    "fi": "Voiveitset"
+  },
+  "chef's-knife": {
+    "fi": "Kokinveitset"
+  },
+  "lid": {
+    "fi": "Kannet"
+  },
+  "spruce-tree": {
+    "fi": "Kuuset"
+  },
+  "christmas-tree": {
+    "fi": "Joulukuuset"
+  },
+  "drumstick": {
+    "fi": "Kanankoivet"
+  },
+  "night": {
+    "fi": "Yöt"
+  },
+  "rectangular-box": {
+    "fi": "Suorakulmaiset särmiöt"
+  },
+  "football": {
+    "fi": "Amerikkalainen jalkapallo"
   }
 }

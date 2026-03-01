@@ -4,6 +4,9 @@ import { getSalesPage, getAllSalesPageSlugs } from '@/config/sales-pages';
 import { SalesPageClient } from './SalesPageClient';
 import MathPuzzleSalesClient from './MathPuzzleSalesClient';
 import MathPuzzleOTOClient from './MathPuzzleOTOClient';
+import CodeAdditionSalesClient from './CodeAdditionSalesClient';
+import CodeAdditionOTO1Client from './CodeAdditionOTO1Client';
+import CodeAdditionOTO2Client from './CodeAdditionOTO2Client';
 
 interface PageProps {
   params: { locale: string; product: string };
@@ -16,6 +19,9 @@ const OG_IMAGES: Record<string, string> = {
   'word-search-languages': '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
   'math-puzzle': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
   'math-puzzle-library': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
+  'code-addition': '/samples/english/code%20addition/Code%20Breaker%20Addition%201.jpeg',
+  'code-addition-wordreveal': '/samples/english/code%20addition/Code%20Breaker%20Addition%203.jpeg',
+  'code-addition-library': '/samples/english/code%20addition/Code%20Breaker%20Addition%201.jpeg',
 };
 
 export function generateStaticParams() {
@@ -76,6 +82,34 @@ export default function SalesPage({ params }: PageProps) {
       availability: 'https://schema.org/InStock',
     },
   };
+
+  // Code Addition pages use teal/emerald design
+  if (params.product === 'code-addition') {
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <CodeAdditionSalesClient config={config} locale={params.locale} />
+      </>
+    );
+  }
+
+  if (params.product === 'code-addition-wordreveal') {
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <CodeAdditionOTO1Client config={config} locale={params.locale} />
+      </>
+    );
+  }
+
+  if (params.product === 'code-addition-library') {
+    return (
+      <>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <CodeAdditionOTO2Client config={config} locale={params.locale} />
+      </>
+    );
+  }
 
   // Math Puzzle OTO1 uses the indigo design to match the FE page
   if (params.product === 'math-puzzle-library') {

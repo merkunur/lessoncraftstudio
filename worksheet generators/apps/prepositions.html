@@ -1667,8 +1667,8 @@
                 }
             };
 
-            // Use UI locale for header text (UI element), not content locale
-            const locale = window.uiLocale || currentLocale || 'en';
+            // Use content locale for header text (title/instruction appear on the worksheet)
+            const locale = currentLocale || window.uiLocale || 'en';
             const defaults = defaultHeaders[locale] || defaultHeaders.en;
             const title = defaults.title;
 

@@ -27,15 +27,16 @@ interface MemberAccess {
 }
 
 /**
- * Compute theme/language entitlements for an app based on owned product IDs.
+ * Compute theme/language/mode entitlements for an app based on owned product IDs.
+ * Supports per-funnel OTO semantics via oto1Unlocks/oto2Unlocks fields.
  */
 function computeEntitlements(
   appId: AppId,
   ownedProductIds: string[],
   highestTier: string
-): { themes: string[] | 'all'; langs: string[] | 'all' } {
+): { themes: string[] | 'all'; langs: string[] | 'all'; modes: string[] | 'all' } {
   if (highestTier === 'full-access' || highestTier === 'commercial' || highestTier === 'agency') {
-    return { themes: 'all', langs: 'all' };
+    return { themes: 'all', langs: 'all', modes: 'all' };
   }
 
   const funnel = Object.values(WPLUS_FUNNELS).find(f => {
@@ -44,19 +45,45 @@ function computeEntitlements(
   });
 
   if (!funnel) {
-    return { themes: 'all', langs: 'all' };
+    return { themes: 'all', langs: 'all', modes: 'all' };
   }
 
-  const ownsFE = ownedProductIds.includes(funnel.fe);
   const ownsOTO1 = ownedProductIds.includes(funnel.oto1);
   const ownsOTO2 = funnel.oto2 ? ownedProductIds.includes(funnel.oto2) : false;
 
   const feProduct = WPLUS_PRODUCTS[funnel.fe];
   const feThemes = feProduct?.includedThemes ?? [];
-  const themes: string[] | 'all' = ownsOTO1 ? 'all' : (feThemes.length > 0 ? feThemes : 'all');
-  const langs: string[] | 'all' = ownsOTO2 ? 'all' : ['en'];
 
-  return { themes, langs };
+  // What each OTO unlocks (defaults match existing funnel behavior)
+  const oto1Unlocks = funnel.oto1Unlocks || 'themes';
+  const oto2Unlocks = funnel.oto2Unlocks || 'languages';
+
+  // Themes: unlocked by whichever OTO targets 'themes'
+  let themes: string[] | 'all';
+  if ((oto1Unlocks === 'themes' && ownsOTO1) || (oto2Unlocks === 'themes' && ownsOTO2)) {
+    themes = 'all';
+  } else {
+    themes = feThemes.length > 0 ? feThemes : 'all';
+  }
+
+  // Languages: unlocked by OTO targeting 'languages', or included in FE
+  let langs: string[] | 'all';
+  if (oto2Unlocks === 'languages' && ownsOTO2) {
+    langs = 'all';
+  } else {
+    const feLanguages = feProduct?.languages ?? 1;
+    langs = feLanguages >= 11 ? 'all' : ['en'];
+  }
+
+  // Modes: only gated when a funnel has oto1Unlocks === 'modes'
+  let modes: string[] | 'all';
+  if (oto1Unlocks === 'modes') {
+    modes = ownsOTO1 ? 'all' : ['regular'];
+  } else {
+    modes = 'all';
+  }
+
+  return { themes, langs, modes };
 }
 
 /**
@@ -146,12 +173,13 @@ export default function MemberDashboard() {
     const tier = access?.highestTier || 'free';
 
     const ownedProductIds = access?.licenses.map(l => l.productId) || [];
-    const { themes, langs } = computeEntitlements(appId, ownedProductIds, tier);
+    const { themes, langs, modes } = computeEntitlements(appId, ownedProductIds, tier);
 
     const params = new URLSearchParams();
     params.set('tier', tier);
     params.set('themes', themes === 'all' ? 'all' : themes.join(','));
     params.set('langs', langs === 'all' ? 'all' : langs.join(','));
+    params.set('modes', modes === 'all' ? 'all' : modes.join(','));
 
     const url = `/worksheet-generators/${encodeURIComponent(htmlFile)}?${params.toString()}`;
     window.open(url, '_blank');

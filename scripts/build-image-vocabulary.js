@@ -371,22 +371,44 @@ const FR_INVARIABLE = new Set(['et','le','la','les','un','une','sous']);
 function genderFr(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
+  // Strong feminine patterns
   if (lower.endsWith('tion') || lower.endsWith('sion') || lower.endsWith('ure') ||
       lower.endsWith('ade') || lower.endsWith('ance') || lower.endsWith('ence') ||
       lower.endsWith('ette') || lower.endsWith('elle') || lower.endsWith('esse') ||
       lower.endsWith('ine') || lower.endsWith('ise') || lower.endsWith('ose') ||
       lower.endsWith('ouse') || lower.endsWith('euse') || lower.endsWith('trice') ||
       lower.endsWith('rice') || lower.endsWith('ée') || lower.endsWith('té') ||
-      lower.endsWith('ière') || lower.endsWith('ie')) {
+      lower.endsWith('ière') || lower.endsWith('ie') ||
+      lower.endsWith('oire') || lower.endsWith('oule') || lower.endsWith('ule') ||
+      lower.endsWith('aille') || lower.endsWith('eille') || lower.endsWith('ouille') ||
+      lower.endsWith('uille') || lower.endsWith('ille') ||
+      lower.endsWith('ombe') || lower.endsWith('ampe') || lower.endsWith('arpe') ||
+      lower.endsWith('oupe') || lower.endsWith('ange') || lower.endsWith('onge') ||
+      lower.endsWith('ache') || lower.endsWith('anche') || lower.endsWith('ouche') ||
+      lower.endsWith('uche') || lower.endsWith('èche') || lower.endsWith('oche') ||
+      lower.endsWith('asse') || lower.endsWith('ousse') ||
+      lower.endsWith('otte') || lower.endsWith('atte') || lower.endsWith('aque') ||
+      lower.endsWith('aque') || lower.endsWith('èque')) {
+    // Exceptions: musée, trophée, scarabée, lycée = masculine despite -ée
+    if (lower.endsWith('ée') && ['musée', 'trophée', 'scarabée', 'lycée', 'mausolée'].includes(lower)) {
+      return 'm';
+    }
     return 'f';
   }
-  if (lower.endsWith('ment') || lower.endsWith('age') || lower.endsWith('isme') ||
+  // Strong masculine patterns
+  const FR_FEM_AGE = ['plage', 'image', 'page', 'cage', 'rage', 'nage'];
+  if (lower.endsWith('ment') || lower.endsWith('isme') ||
       lower.endsWith('eur') || lower.endsWith('ier') || lower.endsWith('et') ||
       lower.endsWith('eau') || lower.endsWith('al') || lower.endsWith('ard') ||
       lower.endsWith('oir') || lower.endsWith('in') || lower.endsWith('ail') ||
-      lower.endsWith('eil') || lower.endsWith('on') || lower.endsWith('ien')) {
+      lower.endsWith('eil') || lower.endsWith('on') || lower.endsWith('ien') ||
+      lower.endsWith('saure')) { // dinosaurs
     return 'm';
   }
+  // -age is usually masculine, but has notable feminine exceptions
+  if (lower.endsWith('age') && !FR_FEM_AGE.includes(lower)) return 'm';
+  // Generic -e ending: many are feminine, but many common endings are masculine
+  // So be conservative and check specific feminine sub-patterns
   if (lower.endsWith('e') && !lower.endsWith('me') && !lower.endsWith('re') &&
       !lower.endsWith('le') && !lower.endsWith('ge') && !lower.endsWith('be') &&
       !lower.endsWith('pe') && !lower.endsWith('de') && !lower.endsWith('ne') &&
@@ -454,19 +476,32 @@ const ES_PREPOSITIONS = new Set(['de','del','con','en','para','por','sin','sobre
 function genderEs(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
+  // Strong feminine patterns
   if (lower.endsWith('ción') || lower.endsWith('sión') || lower.endsWith('dad') ||
       lower.endsWith('tad') || lower.endsWith('tud') || lower.endsWith('umbre') ||
-      lower.endsWith('eza') || lower.endsWith('anza') || lower.endsWith('ncia')) {
-    return 'f';
-  }
-  if (lower.endsWith('a')) {
+      lower.endsWith('eza') || lower.endsWith('anza') || lower.endsWith('ncia') ||
+      lower.endsWith('lla') || lower.endsWith('rra') || lower.endsWith('ña') ||
+      lower.endsWith('za') || lower.endsWith('sa') || lower.endsWith('ta') ||
+      lower.endsWith('da') || lower.endsWith('ja') || lower.endsWith('na') ||
+      lower.endsWith('ra') || lower.endsWith('la') || lower.endsWith('va') ||
+      lower.endsWith('ba') || lower.endsWith('ca') || lower.endsWith('ga') ||
+      lower.endsWith('pa') || lower.endsWith('fa') || lower.endsWith('cha') ||
+      lower.endsWith('ma')) {
+    // Most -a words are feminine, with Greek/Latin exceptions
     if (lower.endsWith('ma') && (lower.endsWith('tema') || lower.endsWith('grama') ||
         lower.endsWith('ema') || lower.endsWith('oma') || lower.endsWith('ima') ||
-        lower.endsWith('isma') || lower.endsWith('asma'))) {
+        lower.endsWith('isma') || lower.endsWith('asma') || lower.endsWith('anoma') ||
+        lower.endsWith('arisma'))) {
       return 'm';
     }
+    // Specific masculine -a exceptions
+    const mascA = ['día', 'mapa', 'sofá', 'yoga', 'panda', 'gorila', 'koala',
+      'karma', 'plasma', 'cometa', 'planeta', 'pirata'];
+    if (mascA.includes(lower)) return 'm';
     return 'f';
   }
+  // Explicit -a ending catch-all (for words not caught above)
+  if (lower.endsWith('a')) return 'f';
   if (lower.endsWith('o') || lower.endsWith('or') || lower.endsWith('aje') ||
       lower.endsWith('ón') || lower.endsWith('án') || lower.endsWith('és')) {
     return 'm';
@@ -486,9 +521,11 @@ function pluralizeEsSingle(word) {
   // Unaccented -s or -x: invariant (lunes, crisis)
   if (lower.endsWith('s') || lower.endsWith('x')) return word;
   if (lower.endsWith('z')) return word.slice(0, -1) + 'ces';
+  // Accented final consonant: drop accent in plural
   if (lower.endsWith('ón')) return word.slice(0, -2) + 'ones';
   if (lower.endsWith('án')) return word.slice(0, -2) + 'anes';
   if (lower.endsWith('ín')) return word.slice(0, -2) + 'ines';
+  if (lower.endsWith('én')) return word.slice(0, -2) + 'enes';
   if (/[aeiouáéíóú]$/i.test(lower)) return word + 's';
   return word + 'es';
 }

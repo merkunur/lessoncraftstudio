@@ -589,8 +589,8 @@
       "m"
     ],
     "pt": [
-      "Frangos",
-      "m"
+      "Galinhas",
+      "f"
     ],
     "fi": "Kanat"
   },
@@ -1172,7 +1172,7 @@
       "m"
     ],
     "es": [
-      "Flamingos",
+      "Flamencos",
       "m"
     ],
     "it": [
@@ -1248,8 +1248,8 @@
       "f"
     ],
     "pt": [
-      "Rãs",
-      "f"
+      "Sapos",
+      "m"
     ],
     "fi": "Sammakot"
   },
@@ -1419,7 +1419,7 @@
       "m"
     ],
     "es": [
-      "Hámsteres",
+      "Hámsters",
       "m"
     ],
     "it": [
@@ -1671,8 +1671,8 @@
       "m"
     ],
     "pt": [
-      "Jaguares",
-      "m"
+      "Onças",
+      "f"
     ]
   },
   "jellyfish": {
@@ -1861,16 +1861,16 @@
       "m"
     ],
     "es": [
-      "Lagartijas",
-      "f"
+      "Lagartos",
+      "m"
     ],
     "it": [
       "Lucertole",
       "f"
     ],
     "pt": [
-      "Lagartixas",
-      "f"
+      "Lagartos",
+      "m"
     ]
   },
   "llama": {
@@ -3362,8 +3362,8 @@
       "m"
     ],
     "pt": [
-      "Vermes",
-      "m"
+      "Minhocas",
+      "f"
     ]
   },
   "yak": {
@@ -3503,6 +3503,18 @@
     "en": "Bacon",
     "de": [
       "Speck",
+      "m"
+    ],
+    "fr": [
+      "Bacon",
+      "m"
+    ],
+    "es": [
+      "Tocino",
+      "m"
+    ],
+    "pt": [
+      "Bacon",
       "m"
     ]
   },
@@ -3688,8 +3700,8 @@
       "m"
     ],
     "pt": [
-      "Couves",
-      "f"
+      "Repolhos",
+      "m"
     ]
   },
   "cake": {
@@ -4025,6 +4037,10 @@
     "de": [
       "Knoblauch",
       "m"
+    ],
+    "fr": [
+      "Aulx",
+      "m"
     ]
   },
   "grape": {
@@ -4142,6 +4158,18 @@
     "de": [
       "Honig",
       "m"
+    ],
+    "fr": [
+      "Miel",
+      "m"
+    ],
+    "es": [
+      "Miel",
+      "f"
+    ],
+    "pt": [
+      "Mel",
+      "m"
     ]
   },
   "hot-dog": {
@@ -4237,6 +4265,10 @@
     "de": [
       "Salat",
       "m"
+    ],
+    "pt": [
+      "Alfaces",
+      "f"
     ]
   },
   "lime": {
@@ -4245,7 +4277,7 @@
       "f"
     ],
     "fr": [
-      "Limes",
+      "Citrons verts",
       "m"
     ],
     "es": [
@@ -4310,6 +4342,18 @@
     "de": [
       "Milch",
       "f"
+    ],
+    "fr": [
+      "Lait",
+      "m"
+    ],
+    "es": [
+      "Leche",
+      "f"
+    ],
+    "pt": [
+      "Leite",
+      "m"
     ]
   },
   "mushroom": {
@@ -4690,6 +4734,18 @@
     "en": "Rice",
     "de": [
       "Reis",
+      "m"
+    ],
+    "fr": [
+      "Riz",
+      "m"
+    ],
+    "es": [
+      "Arroz",
+      "m"
+    ],
+    "pt": [
+      "Arroz",
       "m"
     ]
   },
@@ -5612,7 +5668,7 @@
       "m"
     ],
     "es": [
-      "Globos",
+      "Globos terráqueos",
       "m"
     ],
     "it": [
@@ -5850,8 +5906,8 @@
       "m"
     ],
     "fr": [
-      "Pots",
-      "m"
+      "Casseroles",
+      "f"
     ],
     "es": [
       "Ollas",
@@ -7592,6 +7648,10 @@
     "de": [
       "Sand",
       "m"
+    ],
+    "fr": [
+      "Sable",
+      "m"
     ]
   },
   "snow": {
@@ -7999,11 +8059,11 @@
       "m"
     ],
     "fr": [
-      "Diamants",
+      "Losanges",
       "m"
     ],
     "es": [
-      "Diamantes",
+      "Rombos",
       "m"
     ],
     "it": [
@@ -8011,7 +8071,7 @@
       "m"
     ],
     "pt": [
-      "Diamantes",
+      "Losangos",
       "m"
     ]
   },
@@ -8099,8 +8159,8 @@
       "f"
     ],
     "pt": [
-      "Guitarras",
-      "f"
+      "Violões",
+      "m"
     ]
   },
   "king": {
@@ -8398,11 +8458,19 @@
     "de": [
       "Analoguhren",
       "f"
+    ],
+    "fr": [
+      "Horloges analogiques",
+      "f"
     ]
   },
   "architect": {
     "de": [
       "Architekten",
+      "m"
+    ],
+    "fr": [
+      "Architectes",
       "m"
     ]
   },
@@ -8416,11 +8484,35 @@
     "de": [
       "Astronauten",
       "m"
+    ],
+    "fr": [
+      "Astronautes",
+      "m"
+    ],
+    "es": [
+      "Astronautas",
+      "m"
+    ],
+    "pt": [
+      "Astronautas",
+      "m"
     ]
   },
   "athlete": {
     "de": [
       "Athleten",
+      "m"
+    ],
+    "fr": [
+      "Athlètes",
+      "m"
+    ],
+    "es": [
+      "Atletas",
+      "m"
+    ],
+    "pt": [
+      "Atletas",
       "m"
     ]
   },
@@ -8458,12 +8550,20 @@
     "de": [
       "Baby-Overalls",
       "m"
+    ],
+    "pt": [
+      "Macacões de bebê",
+      "m"
     ]
   },
   "baguette": {
     "de": [
       "Baguettes",
       "n"
+    ],
+    "pt": [
+      "Baguetes",
+      "f"
     ]
   },
   "ballerina": {
@@ -8481,6 +8581,10 @@
   "bible": {
     "de": [
       "Bibeln",
+      "f"
+    ],
+    "fr": [
+      "Bibles",
       "f"
     ]
   },
@@ -8536,12 +8640,24 @@
     "de": [
       "Käsekuchen",
       "m"
+    ],
+    "fr": [
+      "Cheesecakes",
+      "m"
     ]
   },
   "chips": {
     "de": [
       "Chips",
       "m"
+    ],
+    "fr": [
+      "Chips",
+      "f"
+    ],
+    "es": [
+      "Papitas",
+      "f"
     ]
   },
   "christmas-stocking": {
@@ -8566,11 +8682,19 @@
     "de": [
       "Kometen",
       "m"
+    ],
+    "es": [
+      "Cometas",
+      "m"
     ]
   },
   "crossing-guard": {
     "de": [
       "Schülerlotsen",
+      "m"
+    ],
+    "es": [
+      "Guardias de cruce",
       "m"
     ]
   },
@@ -8578,11 +8702,23 @@
     "de": [
       "Vorhänge",
       "m"
+    ],
+    "fr": [
+      "Rideaux",
+      "m"
+    ],
+    "es": [
+      "Cortinas",
+      "f"
     ]
   },
   "detective": {
     "de": [
       "Detektive",
+      "m"
+    ],
+    "fr": [
+      "Détectives",
       "m"
     ]
   },
@@ -8620,17 +8756,33 @@
     "de": [
       "Erde",
       "f"
+    ],
+    "fr": [
+      "Terre",
+      "f"
     ]
   },
   "eclair": {
     "de": [
       "Eclairs",
       "n"
+    ],
+    "es": [
+      "Eclairs",
+      "m"
     ]
   },
   "eight-ball": {
     "de": [
       "Billardkugeln",
+      "f"
+    ],
+    "fr": [
+      "Boules huit",
+      "f"
+    ],
+    "es": [
+      "Bolas ocho",
       "f"
     ]
   },
@@ -8656,6 +8808,10 @@
     "de": [
       "Federn",
       "f"
+    ],
+    "fr": [
+      "Plumes",
+      "f"
     ]
   },
   "face": {
@@ -8680,6 +8836,10 @@
     "de": [
       "Ferngläser",
       "n"
+    ],
+    "fr": [
+      "Jumelles",
+      "f"
     ]
   },
   "fire-truck": {
@@ -8698,6 +8858,14 @@
     "de": [
       "Flip-Flops",
       "m"
+    ],
+    "fr": [
+      "Tongs",
+      "f"
+    ],
+    "es": [
+      "Chanclas",
+      "f"
     ]
   },
   "florist": {
@@ -8716,6 +8884,10 @@
     "de": [
       "Frisbees",
       "n"
+    ],
+    "fr": [
+      "Frisbees",
+      "m"
     ]
   },
   "barber": {
@@ -8764,6 +8936,14 @@
     "de": [
       "Gras",
       "n"
+    ],
+    "fr": [
+      "Herbes",
+      "f"
+    ],
+    "pt": [
+      "Gramas",
+      "f"
     ]
   },
   "grill": {
@@ -8775,6 +8955,10 @@
   "barbecue": {
     "de": [
       "Grills",
+      "m"
+    ],
+    "fr": [
+      "Barbecues",
       "m"
     ]
   },
@@ -8788,6 +8972,10 @@
     "de": [
       "Haare",
       "n"
+    ],
+    "fr": [
+      "Cheveux",
+      "m"
     ]
   },
   "necklace": {
@@ -8824,12 +9012,28 @@
     "de": [
       "Heu",
       "n"
+    ],
+    "fr": [
+      "Foin",
+      "m"
+    ],
+    "es": [
+      "Heno",
+      "m"
+    ],
+    "pt": [
+      "Feno",
+      "m"
     ]
   },
   "stove": {
     "de": [
       "Herde",
       "m"
+    ],
+    "fr": [
+      "Cuisinières",
+      "f"
     ]
   },
   "hotel": {
@@ -8848,11 +9052,19 @@
     "de": [
       "Inseln",
       "f"
+    ],
+    "fr": [
+      "Îles",
+      "f"
     ]
   },
   "rollerblade": {
     "de": [
       "Inlineskates",
+      "m"
+    ],
+    "pt": [
+      "Patins inline",
       "m"
     ]
   },
@@ -8872,11 +9084,19 @@
     "de": [
       "Jeeps",
       "m"
+    ],
+    "es": [
+      "Jeeps",
+      "m"
     ]
   },
   "kayak": {
     "de": [
       "Kajaks",
+      "m"
+    ],
+    "es": [
+      "Kayaks",
       "m"
     ]
   },
@@ -8938,6 +9158,10 @@
     "de": [
       "Kleiderschränke",
       "m"
+    ],
+    "fr": [
+      "Armoires",
+      "f"
     ]
   },
   "minibus": {
@@ -8950,12 +9174,20 @@
     "de": [
       "Kochtöpfe",
       "m"
+    ],
+    "fr": [
+      "Casseroles",
+      "f"
     ]
   },
   "compass": {
     "de": [
       "Kompasse",
       "m"
+    ],
+    "fr": [
+      "Boussoles",
+      "f"
     ]
   },
   "computer-keyboard": {
@@ -8974,11 +9206,19 @@
     "de": [
       "Kühlschränke",
       "m"
+    ],
+    "fr": [
+      "Réfrigérateurs",
+      "m"
     ]
   },
   "refrigerator": {
     "de": [
       "Kühlschränke",
+      "m"
+    ],
+    "fr": [
+      "Réfrigérateurs",
       "m"
     ]
   },
@@ -8986,6 +9226,14 @@
     "de": [
       "Kekse",
       "m"
+    ],
+    "fr": [
+      "Biscuits",
+      "m"
+    ],
+    "es": [
+      "Galletas",
+      "f"
     ]
   },
   "waitress": {
@@ -9022,11 +9270,27 @@
     "de": [
       "Lichter",
       "n"
+    ],
+    "fr": [
+      "Lumières",
+      "f"
+    ],
+    "es": [
+      "Luces",
+      "f"
     ]
   },
   "lights": {
     "de": [
       "Lichterketten",
+      "f"
+    ],
+    "fr": [
+      "Lumières",
+      "f"
+    ],
+    "es": [
+      "Luces",
       "f"
     ]
   },
@@ -9057,6 +9321,10 @@
   "magnifying-glass": {
     "de": [
       "Lupen",
+      "f"
+    ],
+    "fr": [
+      "Loupes",
       "f"
     ]
   },
@@ -9094,18 +9362,34 @@
     "de": [
       "Milchshakes",
       "m"
+    ],
+    "fr": [
+      "Milkshakes",
+      "m"
     ]
   },
   "monster-truck": {
     "de": [
       "Monstertrucks",
       "m"
+    ],
+    "fr": [
+      "Monster trucks",
+      "m"
+    ],
+    "es": [
+      "Camionetas monstruo",
+      "f"
     ]
   },
   "mop": {
     "de": [
       "Mopps",
       "m"
+    ],
+    "fr": [
+      "Serpillières",
+      "f"
     ]
   },
   "seagull": {
@@ -9116,6 +9400,10 @@
   },
   "muffin": {
     "de": [
+      "Muffins",
+      "m"
+    ],
+    "es": [
       "Muffins",
       "m"
     ]
@@ -9129,6 +9417,10 @@
   "muscles": {
     "de": [
       "Muskeln",
+      "m"
+    ],
+    "fr": [
+      "Muscles",
       "m"
     ]
   },
@@ -9166,6 +9458,10 @@
     "de": [
       "Nudeln",
       "f"
+    ],
+    "fr": [
+      "Pâtes",
+      "f"
     ]
   },
   "rhino": {
@@ -9177,6 +9473,10 @@
   "ornament": {
     "de": [
       "Christbaumkugeln",
+      "f"
+    ],
+    "fr": [
+      "Boules de Noël",
       "f"
     ]
   },
@@ -9214,11 +9514,19 @@
     "de": [
       "Öl",
       "n"
+    ],
+    "fr": [
+      "Huiles",
+      "f"
     ]
   },
   "oyster": {
     "de": [
       "Austern",
+      "f"
+    ],
+    "fr": [
+      "Huîtres",
       "f"
     ]
   },
@@ -9250,11 +9558,23 @@
     "de": [
       "Partyhüte",
       "m"
+    ],
+    "fr": [
+      "Chapeaux de fête",
+      "m"
+    ],
+    "pt": [
+      "Chapéus de festa",
+      "m"
     ]
   },
   "photographer": {
     "de": [
       "Fotografen",
+      "m"
+    ],
+    "fr": [
+      "Photographes",
       "m"
     ]
   },
@@ -9280,11 +9600,19 @@
     "de": [
       "Piloten",
       "m"
+    ],
+    "fr": [
+      "Pilotes",
+      "m"
     ]
   },
   "planet": {
     "de": [
       "Planeten",
+      "m"
+    ],
+    "es": [
+      "Planetas",
       "m"
     ]
   },
@@ -9298,6 +9626,18 @@
     "de": [
       "Popcorn",
       "n"
+    ],
+    "fr": [
+      "Popcorn",
+      "m"
+    ],
+    "es": [
+      "Palomitas",
+      "f"
+    ],
+    "pt": [
+      "Pipoca",
+      "f"
     ]
   },
   "post-office": {
@@ -9309,6 +9649,10 @@
   "porridge": {
     "de": [
       "Brei",
+      "m"
+    ],
+    "fr": [
+      "Porridge",
       "m"
     ]
   },
@@ -9334,6 +9678,14 @@
     "de": [
       "Pommes frites",
       "f"
+    ],
+    "fr": [
+      "Frites",
+      "f"
+    ],
+    "es": [
+      "Papas fritas",
+      "f"
     ]
   },
   "pottery": {
@@ -9345,6 +9697,10 @@
   "rake": {
     "de": [
       "Rechen",
+      "m"
+    ],
+    "fr": [
+      "Râteaux",
       "m"
     ]
   },
@@ -9364,11 +9720,19 @@
     "de": [
       "Regenwürmer",
       "m"
+    ],
+    "es": [
+      "Lombrices",
+      "f"
     ]
   },
   "gerbil": {
     "de": [
       "Rennmäuse",
+      "f"
+    ],
+    "fr": [
+      "Gerbilles",
       "f"
     ]
   },
@@ -9406,6 +9770,10 @@
     "de": [
       "Satelliten",
       "m"
+    ],
+    "fr": [
+      "Satellites",
+      "m"
     ]
   },
   "sauce": {
@@ -9436,6 +9804,10 @@
     "de": [
       "Schaukeln",
       "f"
+    ],
+    "fr": [
+      "Balançoires",
+      "f"
     ]
   },
   "rocking-chair": {
@@ -9454,6 +9826,10 @@
     "de": [
       "Schulbusse",
       "m"
+    ],
+    "pt": [
+      "Ônibus escolares",
+      "m"
     ]
   },
   "sleeping-bag": {
@@ -9465,6 +9841,10 @@
   "snow-globe": {
     "de": [
       "Schneekugeln",
+      "f"
+    ],
+    "fr": [
+      "Boules à neige",
       "f"
     ]
   },
@@ -9484,6 +9864,10 @@
     "de": [
       "Schwämme",
       "m"
+    ],
+    "fr": [
+      "Éponges",
+      "f"
     ]
   },
   "pool": {
@@ -9514,6 +9898,10 @@
     "de": [
       "Sicheln",
       "f"
+    ],
+    "fr": [
+      "Faucilles",
+      "f"
     ]
   },
   "heptagon": {
@@ -9532,10 +9920,18 @@
     "de": [
       "Smartwatches",
       "f"
+    ],
+    "fr": [
+      "Montres connectées",
+      "f"
     ]
   },
   "smoothie": {
     "de": [
+      "Smoothies",
+      "m"
+    ],
+    "fr": [
       "Smoothies",
       "m"
     ]
@@ -9562,17 +9958,29 @@
     "de": [
       "Spielplätze",
       "m"
+    ],
+    "fr": [
+      "Aires de jeux",
+      "f"
     ]
   },
   "beach": {
     "de": [
       "Strände",
       "m"
+    ],
+    "fr": [
+      "Plages",
+      "f"
     ]
   },
   "forehead": {
     "de": [
       "Stirnen",
+      "f"
+    ],
+    "es": [
+      "Frentes",
       "f"
     ]
   },
@@ -9580,12 +9988,20 @@
     "de": [
       "Stirnbänder",
       "n"
+    ],
+    "es": [
+      "Diademas",
+      "f"
     ]
   },
   "high-heeled-shoes": {
     "de": [
       "Stöckelschuhe",
       "m"
+    ],
+    "fr": [
+      "Chaussures à talons",
+      "f"
     ]
   },
   "stocking": {
@@ -9682,12 +10098,20 @@
     "de": [
       "Tennisbälle",
       "m"
+    ],
+    "fr": [
+      "Balles de tennis",
+      "f"
     ]
   },
   "theater": {
     "de": [
       "Theater",
       "n"
+    ],
+    "fr": [
+      "Théâtres",
+      "m"
     ]
   },
   "thermometer": {
@@ -9718,6 +10142,10 @@
     "de": [
       "Toiletten",
       "f"
+    ],
+    "fr": [
+      "Toilettes",
+      "f"
     ]
   },
   "tuna": {
@@ -9735,6 +10163,10 @@
   "tyrannosaurus-rex": {
     "de": [
       "Tyrannosaurus Rex",
+      "m"
+    ],
+    "fr": [
+      "Tyrannosaures Rex",
       "m"
     ]
   },
@@ -9754,6 +10186,10 @@
     "de": [
       "Umhänge",
       "m"
+    ],
+    "fr": [
+      "Capes",
+      "f"
     ]
   },
   "bandage": {
@@ -9784,6 +10220,10 @@
     "de": [
       "Videospiele",
       "n"
+    ],
+    "fr": [
+      "Jeux vidéo",
+      "m"
     ]
   },
   "violet": {
@@ -9796,11 +10236,19 @@
     "de": [
       "Waffeln",
       "f"
+    ],
+    "fr": [
+      "Gaufres",
+      "f"
     ]
   },
   "quail": {
     "de": [
       "Wachteln",
+      "f"
+    ],
+    "fr": [
+      "Cailles",
       "f"
     ]
   },
@@ -9814,6 +10262,10 @@
     "de": [
       "Wasser",
       "n"
+    ],
+    "fr": [
+      "Eaux",
+      "f"
     ]
   },
   "water-ball": {
@@ -9837,6 +10289,14 @@
   "eyelashes": {
     "de": [
       "Wimpern",
+      "f"
+    ],
+    "fr": [
+      "Cils",
+      "m"
+    ],
+    "es": [
+      "Pestañas",
       "f"
     ]
   },
@@ -9862,6 +10322,10 @@
     "de": [
       "Zahnpasta",
       "f"
+    ],
+    "fr": [
+      "Dentifrices",
+      "m"
     ]
   },
   "toe": {
@@ -9898,12 +10362,20 @@
     "de": [
       "Backbleche",
       "n"
+    ],
+    "fr": [
+      "Plaques de cuisson",
+      "f"
     ]
   },
   "cookie-sheet": {
     "de": [
       "Keksbleche",
       "n"
+    ],
+    "fr": [
+      "Plaques à biscuits",
+      "f"
     ]
   },
   "hospital-bed": {
@@ -9928,6 +10400,10 @@
     "de": [
       "Nachttische",
       "m"
+    ],
+    "fr": [
+      "Tables de nuit",
+      "f"
     ]
   },
   "cake-pan": {
@@ -9939,6 +10415,10 @@
   "screw": {
     "de": [
       "Schrauben",
+      "f"
+    ],
+    "fr": [
+      "Vis",
       "f"
     ]
   },
@@ -9970,6 +10450,10 @@
     "de": [
       "Kränze",
       "m"
+    ],
+    "fr": [
+      "Couronnes",
+      "f"
     ]
   },
   "jug": {
@@ -9994,6 +10478,10 @@
     "de": [
       "Müsli",
       "n"
+    ],
+    "fr": [
+      "Céréales",
+      "f"
     ]
   },
   "food": {
@@ -10006,6 +10494,10 @@
     "de": [
       "Erdnussbutter",
       "f"
+    ],
+    "fr": [
+      "Beurre de cacahuète",
+      "m"
     ]
   },
   "yogurt": {
@@ -10036,6 +10528,10 @@
     "de": [
       "Pfannkuchen",
       "m"
+    ],
+    "fr": [
+      "Crêpes",
+      "f"
     ]
   },
   "leek": {
@@ -10078,11 +10574,19 @@
     "de": [
       "Kehrschaufeln",
       "f"
+    ],
+    "fr": [
+      "Pelles à poussière",
+      "f"
     ]
   },
   "scallop": {
     "de": [
       "Jakobsmuscheln",
+      "f"
+    ],
+    "fr": [
+      "Coquilles Saint-Jacques",
       "f"
     ]
   },
@@ -10150,6 +10654,14 @@
     "de": [
       "Fäustlinge",
       "m"
+    ],
+    "fr": [
+      "Moufles",
+      "f"
+    ],
+    "es": [
+      "Mitones",
+      "m"
     ]
   },
   "campfire": {
@@ -10167,6 +10679,942 @@
   "jumpsuit": {
     "de": [
       "Overalls",
+      "m"
+    ],
+    "fr": [
+      "Combinaisons",
+      "f"
+    ]
+  },
+  "anchor": {
+    "fr": [
+      "Ancres",
+      "f"
+    ]
+  },
+  "ankle": {
+    "fr": [
+      "Chevilles",
+      "f"
+    ]
+  },
+  "bathtub": {
+    "fr": [
+      "Baignoires",
+      "f"
+    ]
+  },
+  "bookcase": {
+    "fr": [
+      "Bibliothèques",
+      "f"
+    ],
+    "pt": [
+      "Estantes",
+      "f"
+    ]
+  },
+  "bookshelf": {
+    "fr": [
+      "Étagères",
+      "f"
+    ],
+    "pt": [
+      "Estantes",
+      "f"
+    ]
+  },
+  "cheeks": {
+    "fr": [
+      "Joues",
+      "f"
+    ],
+    "es": [
+      "Mejillas",
+      "f"
+    ]
+  },
+  "colander": {
+    "fr": [
+      "Passoires",
+      "f"
+    ]
+  },
+  "crutches": {
+    "fr": [
+      "Béquilles",
+      "f"
+    ],
+    "es": [
+      "Muletas",
+      "f"
+    ]
+  },
+  "dresser": {
+    "fr": [
+      "Commodes",
+      "f"
+    ]
+  },
+  "envelope": {
+    "fr": [
+      "Enveloppes",
+      "f"
+    ]
+  },
+  "eraser": {
+    "fr": [
+      "Gommes",
+      "f"
+    ]
+  },
+  "firefly": {
+    "fr": [
+      "Lucioles",
+      "f"
+    ]
+  },
+  "flipper": {
+    "fr": [
+      "Palmes",
+      "f"
+    ]
+  },
+  "garland": {
+    "fr": [
+      "Guirlandes",
+      "f"
+    ]
+  },
+  "girl": {
+    "fr": [
+      "Filles",
+      "f"
+    ]
+  },
+  "glasses": {
+    "fr": [
+      "Lunettes",
+      "f"
+    ]
+  },
+  "glue": {
+    "fr": [
+      "Colles",
+      "f"
+    ]
+  },
+  "grater": {
+    "fr": [
+      "Râpes",
+      "f"
+    ]
+  },
+  "gymnastics": {
+    "fr": [
+      "Gymnastique",
+      "f"
+    ]
+  },
+  "harp": {
+    "fr": [
+      "Harpes",
+      "f"
+    ]
+  },
+  "lantern": {
+    "fr": [
+      "Lanternes",
+      "f"
+    ]
+  },
+  "lavender": {
+    "fr": [
+      "Lavandes",
+      "f"
+    ]
+  },
+  "letter": {
+    "fr": [
+      "Lettres",
+      "f"
+    ]
+  },
+  "lip": {
+    "fr": [
+      "Lèvres",
+      "f"
+    ]
+  },
+  "medal": {
+    "fr": [
+      "Médailles",
+      "f"
+    ]
+  },
+  "mitten": {
+    "fr": [
+      "Moufles",
+      "f"
+    ]
+  },
+  "orca": {
+    "fr": [
+      "Orques",
+      "f"
+    ]
+  },
+  "puddle": {
+    "fr": [
+      "Flaques",
+      "f"
+    ]
+  },
+  "rope": {
+    "fr": [
+      "Cordes",
+      "f"
+    ]
+  },
+  "ruler": {
+    "fr": [
+      "Règles",
+      "f"
+    ]
+  },
+  "sandals": {
+    "fr": [
+      "Sandales",
+      "f"
+    ]
+  },
+  "sled": {
+    "fr": [
+      "Luges",
+      "f"
+    ]
+  },
+  "sneaker": {
+    "fr": [
+      "Baskets",
+      "f"
+    ]
+  },
+  "sneakers": {
+    "fr": [
+      "Baskets",
+      "f"
+    ]
+  },
+  "soup": {
+    "fr": [
+      "Soupes",
+      "f"
+    ]
+  },
+  "spatula": {
+    "fr": [
+      "Spatules",
+      "f"
+    ]
+  },
+  "stage": {
+    "fr": [
+      "Scènes",
+      "f"
+    ]
+  },
+  "daffodil": {
+    "fr": [
+      "Jonquilles",
+      "f"
+    ]
+  },
+  "cabana": {
+    "fr": [
+      "Cabanes de plage",
+      "f"
+    ]
+  },
+  "coffee-table": {
+    "fr": [
+      "Tables basses",
+      "f"
+    ]
+  },
+  "cuckoo-clock": {
+    "fr": [
+      "Horloges à coucou",
+      "f"
+    ]
+  },
+  "delivery": {
+    "fr": [
+      "Livraisons",
+      "f"
+    ]
+  },
+  "desk-lamp": {
+    "fr": [
+      "Lampes de bureau",
+      "f"
+    ]
+  },
+  "electric-kettle": {
+    "fr": [
+      "Bouilloires électriques",
+      "f"
+    ]
+  },
+  "extension-cord": {
+    "fr": [
+      "Rallonges électriques",
+      "f"
+    ]
+  },
+  "fishing-rod": {
+    "fr": [
+      "Cannes à pêche",
+      "f"
+    ]
+  },
+  "flashlight": {
+    "fr": [
+      "Lampes de poche",
+      "f"
+    ]
+  },
+  "frying-pan": {
+    "fr": [
+      "Poêles à frire",
+      "f"
+    ],
+    "es": [
+      "Sartenes",
+      "f"
+    ]
+  },
+  "gas-pump": {
+    "fr": [
+      "Pompes à essence",
+      "f"
+    ]
+  },
+  "goggles": {
+    "fr": [
+      "Lunettes de protection",
+      "f"
+    ],
+    "es": [
+      "Gafas",
+      "f"
+    ]
+  },
+  "jelly-beans": {
+    "fr": [
+      "Dragées",
+      "f"
+    ],
+    "es": [
+      "Gomitas",
+      "f"
+    ]
+  },
+  "jump-rope": {
+    "fr": [
+      "Cordes à sauter",
+      "f"
+    ]
+  },
+  "kettle": {
+    "fr": [
+      "Bouilloires",
+      "f"
+    ]
+  },
+  "light-bulb": {
+    "fr": [
+      "Ampoules",
+      "f"
+    ]
+  },
+  "log-cabin": {
+    "fr": [
+      "Cabanes en rondins",
+      "f"
+    ]
+  },
+  "love-letter": {
+    "fr": [
+      "Lettres d'amour",
+      "f"
+    ]
+  },
+  "morning-glory": {
+    "fr": [
+      "Gloires du matin",
+      "f"
+    ]
+  },
+  "pan": {
+    "fr": [
+      "Poêles",
+      "f"
+    ],
+    "es": [
+      "Sartenes",
+      "f"
+    ]
+  },
+  "picnic-table": {
+    "fr": [
+      "Tables de pique-nique",
+      "f"
+    ]
+  },
+  "rain-boots": {
+    "fr": [
+      "Bottes de pluie",
+      "f"
+    ],
+    "es": [
+      "Botas de lluvia",
+      "f"
+    ]
+  },
+  "remote-control": {
+    "fr": [
+      "Télécommandes",
+      "f"
+    ]
+  },
+  "roasted-turkey": {
+    "fr": [
+      "Dindes rôties",
+      "f"
+    ]
+  },
+  "shoes": {
+    "fr": [
+      "Chaussures",
+      "f"
+    ]
+  },
+  "snow-boots": {
+    "fr": [
+      "Bottes de neige",
+      "f"
+    ]
+  },
+  "snowsuit": {
+    "fr": [
+      "Combinaisons de neige",
+      "f"
+    ]
+  },
+  "sundae": {
+    "fr": [
+      "Coupes glacées",
+      "f"
+    ]
+  },
+  "sunglasses": {
+    "fr": [
+      "Lunettes de soleil",
+      "f"
+    ]
+  },
+  "sunscreen": {
+    "fr": [
+      "Crèmes solaires",
+      "f"
+    ]
+  },
+  "suspenders": {
+    "fr": [
+      "Bretelles",
+      "f"
+    ],
+    "es": [
+      "Tirantes",
+      "m"
+    ]
+  },
+  "table-lamp": {
+    "fr": [
+      "Lampes de table",
+      "f"
+    ]
+  },
+  "water-bottle": {
+    "fr": [
+      "Bouteilles d'eau",
+      "f"
+    ]
+  },
+  "winter-jacket": {
+    "fr": [
+      "Vestes d'hiver",
+      "f"
+    ]
+  },
+  "cookie-cutter": {
+    "fr": [
+      "Emporte-pièces",
+      "m"
+    ]
+  },
+  "dishwasher": {
+    "fr": [
+      "Lave-vaisselle",
+      "m"
+    ]
+  },
+  "hermit-crab": {
+    "fr": [
+      "Bernard-l'ermite",
+      "m"
+    ]
+  },
+  "human-torso": {
+    "fr": [
+      "Torses humains",
+      "m"
+    ]
+  },
+  "meerkat": {
+    "fr": [
+      "Suricates",
+      "m"
+    ]
+  },
+  "museum": {
+    "fr": [
+      "Musées",
+      "m"
+    ]
+  },
+  "nutcracker": {
+    "fr": [
+      "Casse-noisettes",
+      "m"
+    ]
+  },
+  "skeleton": {
+    "fr": [
+      "Squelettes",
+      "m"
+    ]
+  },
+  "student": {
+    "fr": [
+      "Élèves",
+      "m"
+    ]
+  },
+  "thumb": {
+    "fr": [
+      "Pouces",
+      "m"
+    ]
+  },
+  "tiara": {
+    "fr": [
+      "Diadèmes",
+      "m"
+    ]
+  },
+  "trapezoid": {
+    "fr": [
+      "Trapèzes",
+      "m"
+    ]
+  },
+  "allosaurus": {
+    "fr": [
+      "Allosaures",
+      "m"
+    ]
+  },
+  "ankylosaurus": {
+    "fr": [
+      "Ankylosaures",
+      "m"
+    ]
+  },
+  "apatosaurus": {
+    "fr": [
+      "Apatosaures",
+      "m"
+    ]
+  },
+  "brachiosaurus": {
+    "fr": [
+      "Brachiosaures",
+      "m"
+    ]
+  },
+  "brontosaurus": {
+    "fr": [
+      "Brontosaures",
+      "m"
+    ]
+  },
+  "carnotaurus": {
+    "fr": [
+      "Carnotaures",
+      "m"
+    ]
+  },
+  "giganotosaurus": {
+    "fr": [
+      "Giganotosaures",
+      "m"
+    ]
+  },
+  "ichthyosaurus": {
+    "fr": [
+      "Ichthyosaures",
+      "m"
+    ]
+  },
+  "mosasaurus": {
+    "fr": [
+      "Mosasaures",
+      "m"
+    ]
+  },
+  "pachycephalosaurus": {
+    "fr": [
+      "Pachycéphalosaures",
+      "m"
+    ]
+  },
+  "plesiosaurus": {
+    "fr": [
+      "Plésiosaures",
+      "m"
+    ]
+  },
+  "stegosaurus": {
+    "fr": [
+      "Stégosaures",
+      "m"
+    ]
+  },
+  "styracosaurus": {
+    "fr": [
+      "Styracosaures",
+      "m"
+    ]
+  },
+  "therizinosaurus": {
+    "fr": [
+      "Thérizinosaures",
+      "m"
+    ]
+  },
+  "baby-carriage": {
+    "fr": [
+      "Landaus",
+      "m"
+    ]
+  },
+  "erlenmeyer-flask": {
+    "fr": [
+      "Fioles Erlenmeyer",
+      "m"
+    ]
+  },
+  "snowdrop": {
+    "fr": [
+      "Perce-neige",
+      "m"
+    ]
+  },
+  "angelfish": {
+    "fr": [
+      "Poissons-anges",
+      "m"
+    ],
+    "pt": [
+      "Peixes-anjo",
+      "m"
+    ]
+  },
+  "driftwood": {
+    "fr": [
+      "Bois flotté",
+      "m"
+    ]
+  },
+  "alarm-clock": {
+    "fr": [
+      "Réveils",
+      "m"
+    ]
+  },
+  "baby's-onesie": {
+    "fr": [
+      "Grenouillères",
+      "f"
+    ]
+  },
+  "fireplace": {
+    "fr": [
+      "Cheminées",
+      "f"
+    ]
+  },
+  "television": {
+    "fr": [
+      "Télévisions",
+      "f"
+    ]
+  },
+  "dryer": {
+    "fr": [
+      "Sèche-linge",
+      "m"
+    ]
+  },
+  "sink": {
+    "fr": [
+      "Éviers",
+      "m"
+    ]
+  },
+  "liberty": {
+    "fr": [
+      "Libertés",
+      "f"
+    ]
+  },
+  "toaster": {
+    "fr": [
+      "Grille-pain",
+      "m"
+    ]
+  },
+  "pufferfish": {
+    "fr": [
+      "Poissons-globes",
+      "m"
+    ],
+    "es": [
+      "Peces globo",
+      "m"
+    ]
+  },
+  "cross": {
+    "fr": [
+      "Croix",
+      "f"
+    ]
+  },
+  "cards": {
+    "fr": [
+      "Cartes",
+      "f"
+    ],
+    "es": [
+      "Cartas",
+      "f"
+    ],
+    "pt": [
+      "Cartas",
+      "f"
+    ]
+  },
+  "ufo": {
+    "fr": [
+      "OVNIs",
+      "m"
+    ]
+  },
+  "grapes": {
+    "fr": [
+      "Raisins",
+      "m"
+    ],
+    "es": [
+      "Uvas",
+      "f"
+    ]
+  },
+  "vegetables": {
+    "fr": [
+      "Légumes",
+      "m"
+    ]
+  },
+  "gopher": {
+    "fr": [
+      "Spermophiles",
+      "m"
+    ]
+  },
+  "centipede": {
+    "fr": [
+      "Mille-pattes",
+      "m"
+    ],
+    "es": [
+      "Ciempiés",
+      "m"
+    ]
+  },
+  "map": {
+    "fr": [
+      "Cartes",
+      "f"
+    ],
+    "es": [
+      "Mapas",
+      "m"
+    ]
+  },
+  "salt": {
+    "fr": [
+      "Sel",
+      "m"
+    ]
+  },
+  "scarlet": {
+    "fr": [
+      "Écarlate",
+      "f"
+    ]
+  },
+  "toilet-paper": {
+    "fr": [
+      "Papiers toilette",
+      "m"
+    ]
+  },
+  "artist": {
+    "es": [
+      "Artistas",
+      "m"
+    ],
+    "pt": [
+      "Artistas",
+      "m"
+    ]
+  },
+  "earmuffs": {
+    "es": [
+      "Orejeras",
+      "f"
+    ]
+  },
+  "net": {
+    "es": [
+      "Redes",
+      "f"
+    ]
+  },
+  "lifeguard-tower": {
+    "es": [
+      "Torres de salvavidas",
+      "f"
+    ]
+  },
+  "bulldozer": {
+    "es": [
+      "Bulldozers",
+      "m"
+    ]
+  },
+  "chef": {
+    "es": [
+      "Chefs",
+      "m"
+    ]
+  },
+  "folder": {
+    "es": [
+      "Carpetas",
+      "f"
+    ]
+  },
+  "jet": {
+    "es": [
+      "Jets",
+      "m"
+    ]
+  },
+  "millipede": {
+    "es": [
+      "Milpiés",
+      "m"
+    ]
+  },
+  "garage": {
+    "es": [
+      "Garajes",
+      "m"
+    ]
+  },
+  "cherry-blossom": {
+    "es": [
+      "Flores de cerezo",
+      "f"
+    ],
+    "fr": [
+      "Fleurs de cerisier",
+      "f"
+    ]
+  },
+  "bus-driver": {
+    "pt": [
+      "Motoristas de ônibus",
+      "m"
+    ]
+  },
+  "wrench": {
+    "pt": [
+      "Chaves inglesas",
+      "f"
+    ],
+    "es": [
+      "Llaves inglesas",
+      "f"
+    ]
+  },
+  "boombox": {
+    "pt": [
+      "Rádios portáteis",
+      "m"
+    ]
+  },
+  "buttercup": {
+    "pt": [
+      "Botões-de-ouro",
+      "m"
+    ]
+  },
+  "bow-tie": {
+    "pt": [
+      "Gravatas-borboleta",
+      "f"
+    ]
+  },
+  "banyan-tree": {
+    "pt": [
+      "Figueiras-de-bengala",
+      "f"
+    ]
+  },
+  "signpost": {
+    "pt": [
+      "Placas de sinalização",
+      "f"
+    ]
+  },
+  "pegasus": {
+    "fr": [
+      "Pégases",
       "m"
     ]
   }

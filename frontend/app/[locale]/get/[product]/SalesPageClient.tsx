@@ -899,7 +899,7 @@ function OTOLayout({ config, locale }: Props) {
               </span>
             ))}
           </div>
-          <WPDisclaimer />
+          <WPDisclaimer config={config} />
           {config.declineText && (
             <a href="#" className="text-sm text-slate-400 hover:text-slate-600 underline transition-colors mt-4 inline-block">
               {config.declineText}

@@ -242,11 +242,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     },
 
     // ── 2. Testimonial ───────────────────────
-    testimonial: {
-      name: 'Sarah M.',
-      role: 'Etsy Shop Owner',
-      quote: 'I created 12 word search puzzle books in my first week and listed them on Etsy. Three of them started selling within days. The image library makes every puzzle look professional \u2014 my customers keep coming back for more.',
-    },
+    // No testimonials — removed per WarriorPlus/FTC compliance (must be provable & identifiable)
+    testimonial: undefined,
 
     // ── 3. Feature Grid (6 cards) ────────────
     features: [

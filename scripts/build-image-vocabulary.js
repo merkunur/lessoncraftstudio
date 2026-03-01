@@ -1316,31 +1316,34 @@ for (const key of keys) {
   const isNonNoun = NON_NOUN_KEYS.has(key);
   const isEnMassNoun = EN_MASS_NOUNS.has(key);
 
-  // English (plural string only, no gender)
+  // English: [singular, plural] (no gender)
+  const enSingular = data.en || key;
   if (isNonNoun || isEnMassNoun) {
-    entry.en = data.en || key; // Keep singular
+    entry.en = [enSingular, enSingular]; // Same form for singular/plural
   } else {
-    entry.en = pluralizeEn(data.en || key);
+    entry.en = [enSingular, pluralizeEn(enSingular)];
   }
 
-  // Languages with gender: [plural, gender]
+  // Languages with gender: [singular, plural, gender]
   for (const locale of ['de','fr','es','pt','it','nl','sv','da','no']) {
     if (data[locale]) {
-      const gender = getGender(data[locale], locale);
+      const singular = data[locale];
+      const gender = getGender(singular, locale);
       if (isNonNoun) {
-        entry[locale] = [data[locale], gender]; // Keep singular
+        entry[locale] = [singular, singular, gender]; // Same form
       } else {
-        entry[locale] = [pluralize(data[locale], locale), gender];
+        entry[locale] = [singular, pluralize(singular, locale), gender];
       }
     }
   }
 
-  // Finnish (plural string only, no gender)
+  // Finnish: [singular, plural] (no gender)
   if (data.fi) {
+    const fiSingular = data.fi;
     if (isNonNoun) {
-      entry.fi = data.fi; // Keep singular
+      entry.fi = [fiSingular, fiSingular]; // Same form
     } else {
-      entry.fi = pluralizeFi(data.fi);
+      entry.fi = [fiSingular, pluralizeFi(fiSingular)];
     }
   }
 
@@ -1358,7 +1361,19 @@ if (fs.existsSync(correctionsPath)) {
     if (!entries[key]) continue;
     for (const locale of LOCALES) {
       if (corr[locale]) {
-        entries[key][locale] = corr[locale];
+        const existing = entries[key][locale];
+        const corrVal = corr[locale];
+        // Corrections are in old format: [plural, gender] or "plural"
+        // Merge: keep raw singular from entries, replace plural+gender from correction
+        if (Array.isArray(corrVal)) {
+          // Correction is [plural, gender]
+          const singular = Array.isArray(existing) ? existing[0] : (raw[key]?.[locale] || corrVal[0]);
+          entries[key][locale] = [singular, corrVal[0], corrVal[1]];
+        } else {
+          // Correction is a plain string (plural only, for en/fi)
+          const singular = Array.isArray(existing) ? existing[0] : (raw[key]?.[locale] || corrVal);
+          entries[key][locale] = [singular, corrVal];
+        }
         corrected++;
       }
     }
@@ -1382,8 +1397,8 @@ let output = `/**
  *
  * Data format:
  *   key = base filename (e.g., "cat", "french-fries")
- *   en/fi = plural string only (no grammatical gender)
- *   other langs = [plural, gender] where gender is:
+ *   en/fi = [singular, plural] (no grammatical gender)
+ *   other langs = [singular, plural, gender] where gender is:
  *     m=masculine, f=feminine, n=neuter
  *     d=de-word (nl), h=het-word (nl)
  *     t=ett-word (sv), t=et-word (da)
@@ -1466,6 +1481,17 @@ const ImageVocab = {
   },
 
   /**
+   * Get singular form for a vocabulary key in a locale
+   */
+  singular(key, locale) {
+    const entry = IMAGE_VOCABULARY[key];
+    if (!entry) return this._fallbackSingular(key, locale);
+    const val = entry[locale];
+    if (!val) return this._fallbackSingular(key, locale);
+    return Array.isArray(val) ? val[0] : val;
+  },
+
+  /**
    * Get plural form for a vocabulary key in a locale
    */
   plural(key, locale) {
@@ -1473,7 +1499,7 @@ const ImageVocab = {
     if (!entry) return this._fallbackPlural(key, locale);
     const val = entry[locale];
     if (!val) return this._fallbackPlural(key, locale);
-    return Array.isArray(val) ? val[0] : val;
+    return Array.isArray(val) ? val[1] : val;
   },
 
   /**
@@ -1484,7 +1510,7 @@ const ImageVocab = {
     const entry = IMAGE_VOCABULARY[key];
     if (!entry) return null;
     const val = entry[locale];
-    return Array.isArray(val) ? val[1] : null;
+    return Array.isArray(val) ? val[2] : null;
   },
 
   /**
@@ -1507,6 +1533,16 @@ const ImageVocab = {
     if (quantifiers.default) return quantifiers.default;
     const allFeminine = keys.every(k => this.gender(k, locale) === 'f');
     return allFeminine ? quantifiers.f : quantifiers.m;
+  },
+
+  /**
+   * Fallback singular for unknown words — returns the word as-is with title case
+   */
+  _fallbackSingular(key, locale) {
+    if (!key) return key;
+    // Convert key like "french-fries" to "French fries" (title case first word)
+    const words = key.replace(/-/g, ' ');
+    return words.charAt(0).toUpperCase() + words.slice(1);
   },
 
   /**

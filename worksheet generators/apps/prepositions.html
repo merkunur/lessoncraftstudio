@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="prepositions.page.title">Prepositions Worksheet Generator</title>
     <script src="js/translations-prepositions.js?v=4"></script>
+    <script src="js/image-vocabulary.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Enhancement scripts for robust integration -->
@@ -928,12 +929,48 @@
             'is': {
                 'en': 'is', 'de': 'ist', 'fr': 'est', 'es': 'está', 'pt': 'está',
                 'it': 'è', 'nl': 'is', 'sv': 'är', 'da': 'er', 'no': 'er', 'fi': 'on'
-            },
-            'the': {
-                'en': 'the', 'de': 'dem', 'fr': 'le/la', 'es': 'el/la', 'pt': 'o/a',
-                'it': 'il/la', 'nl': 'de', 'sv': 'den', 'da': 'den', 'no': 'den', 'fi': '-'  // Finnish doesn't use articles
             }
         };
+
+        // Gender-aware article lookup for shapes
+        // Returns the correct definite article based on shape gender
+        // Handles: German dative (dem/der), French (le/la/l'), Spanish (el/la), etc.
+        function getShapeArticle(shapeKey, locale, shapeName) {
+            if (locale === 'fi') return ''; // Finnish has no articles
+
+            // Try ImageVocab first (covers default shapes + custom images)
+            if (typeof ImageVocab !== 'undefined') {
+                const article = ImageVocab.defArticle(shapeKey, locale);
+                if (article) {
+                    // French elision: le/la -> l' before vowel or mute h
+                    if (locale === 'fr' && (article === 'le' || article === 'la') && shapeName) {
+                        const firstChar = shapeName.trim().toLowerCase()[0];
+                        if ('aeiouyàâéèêëïîôùûüæœh'.includes(firstChar)) {
+                            return "l'";
+                        }
+                    }
+                    return article;
+                }
+            }
+
+            // Fallback: static articles (no gender awareness)
+            const fallback = {
+                'en': 'the', 'de': 'dem', 'fr': 'le', 'es': 'el', 'pt': 'o',
+                'it': 'il', 'nl': 'de', 'sv': 'den', 'da': 'den', 'no': 'den'
+            };
+            return fallback[locale] || 'the';
+        }
+
+        // German dative contractions: preposition + article -> contraction
+        // in + dem -> im, an + dem -> am, etc.
+        function applyDativeContraction(preposition, article, locale) {
+            if (locale !== 'de') return `${preposition} ${article}`;
+            if (article === 'dem') {
+                if (preposition === 'in') return 'im';
+                if (preposition === 'an') return 'am';
+            }
+            return `${preposition} ${article}`;
+        }
 
         // --- Shape name translations ---
         const SHAPE_TRANSLATIONS = {
@@ -1044,6 +1081,12 @@
 
         // --- Utility Functions ---
         const shuffleArray = (arr) => [...arr].sort(() => 0.5 - Math.random());
+
+        // Sentence-case helper: German capitalizes nouns, other languages lowercase
+        const sentenceCaseShape = (shapeName, locale) => {
+            if (locale === 'de') return shapeName; // German capitalizes nouns
+            return shapeName.toLowerCase();
+        };
 
         // Language-aware pluralization function for shapes
         const pluralizeShape = (shapeKeyEnglish, locale) => {
@@ -2973,23 +3016,65 @@
                 const assignment = lastGeneratedAssignments[i];
                 const shapeNameEnglish = assignment.shape.isDefault ? assignment.shape.name : assignment.shape.word;
 
+                // Determine the vocabulary key for this shape
+                const shapeVocabKey = assignment.shape.isDefault
+                    ? shapeNameEnglish  // Default shapes: "circle", "star", etc. match vocab keys
+                    : (assignment.shape.path && typeof ImageVocab !== 'undefined'
+                        ? ImageVocab.keyFromPath(assignment.shape.path)
+                        : null);
+
                 // Translate shape name to current locale
                 const shapeName = assignment.shape.isDefault
                     ? (SHAPE_TRANSLATIONS[shapeNameEnglish]?.[currentLocale] || shapeNameEnglish)
-                    : shapeNameEnglish;
+                    : (shapeVocabKey && typeof ImageVocab !== 'undefined'
+                        ? sentenceCaseShape(ImageVocab.singular(shapeVocabKey, currentLocale) || shapeNameEnglish, currentLocale)
+                        : shapeNameEnglish);
 
                 // Get translations for current language
                 const isText = EXERCISE_TRANSLATIONS['is'][currentLocale] || 'is';
-                const theText = EXERCISE_TRANSLATIONS['the'][currentLocale] || 'the';
                 const prepositionText = PREPOSITION_TRANSLATIONS[assignment.preposition][currentLocale] || assignment.preposition;
 
-                // For Finnish, skip article if it's "-"
-                const articlePart = theText === '-' ? '' : `${theText} `;
+                // Get gender-aware article for this shape
+                const theText = shapeVocabKey ? getShapeArticle(shapeVocabKey, currentLocale, shapeName) : '';
 
-                const textTemplate = isAnswerKey
-                    ? `{img} ${isText} ${prepositionText} ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeNameEnglish, currentLocale) : shapeName}.`
-                    : `{img} ${isText} __________ ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeNameEnglish, currentLocale) : shapeName}.`;
-                    
+                // Build article part (empty for Finnish, handle French l' without trailing space)
+                let articlePart;
+                if (!theText) {
+                    articlePart = '';
+                } else if (theText.endsWith("'")) {
+                    articlePart = theText; // French l' — no space before noun
+                } else {
+                    articlePart = `${theText} `;
+                }
+
+                // Apply German dative contractions (in dem -> im, etc.)
+                const prepArticle = currentLocale === 'de' && articlePart
+                    ? applyDativeContraction(prepositionText, theText, currentLocale)
+                    : null;
+
+                // Build the text template
+                let textTemplate;
+                if (assignment.preposition === 'between') {
+                    // "between" uses plural shapes, no article
+                    const pluralShape = assignment.shape.isDefault
+                        ? pluralizeShape(shapeNameEnglish, currentLocale)
+                        : (shapeVocabKey && typeof ImageVocab !== 'undefined'
+                            ? sentenceCaseShape(ImageVocab.plural(shapeVocabKey, currentLocale) || pluralizeShape(shapeNameEnglish, currentLocale), currentLocale)
+                            : pluralizeShape(shapeNameEnglish, currentLocale));
+                    textTemplate = isAnswerKey
+                        ? `{img} ${isText} ${prepositionText} ${pluralShape}.`
+                        : `{img} ${isText} __________ ${pluralShape}.`;
+                } else if (prepArticle) {
+                    // German: contracted preposition+article (e.g., "im Stern" instead of "in dem Stern")
+                    textTemplate = isAnswerKey
+                        ? `{img} ${isText} ${prepArticle} ${shapeName}.`
+                        : `{img} ${isText} __________ ${articlePart}${shapeName}.`;
+                } else {
+                    textTemplate = isAnswerKey
+                        ? `{img} ${isText} ${prepositionText} ${articlePart}${shapeName}.`
+                        : `{img} ${isText} __________ ${articlePart}${shapeName}.`;
+                }
+
                 qaTextParts.push({image: assignment.item, template: textTemplate});
             }
 
@@ -3519,16 +3604,19 @@
                 return;
             }
             showMessage(t('prepositions.msg.preparing.jpeg'), 'info', 0); 
-            const exportOpts = { multiplier: downloadMultiplier, applyGrayscale: dom.grayscaleToggle.checked }; 
-            try { 
-                const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts); 
-                const link = document.createElement('a'); 
-                link.download = `${baseFilename}.jpeg`; 
-                link.href = dataURL; 
+            const exportOpts = { multiplier: downloadMultiplier, applyGrayscale: dom.grayscaleToggle.checked };
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            try {
+                const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
+                const link = document.createElement('a');
+                link.download = `${baseFilename}.jpeg`;
+                link.href = dataURL;
                 link.click();
                 showMessage(t('prepositions.msg.jpeg.initiated'), 'success');
-            } catch (e) { 
-                showMessage(t('prepositions.msg.jpeg.error', { message: e.message }), 'error'); 
+            } catch (e) {
+                showMessage(t('prepositions.msg.jpeg.error', { message: e.message }), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         

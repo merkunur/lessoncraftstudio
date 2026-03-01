@@ -1082,6 +1082,12 @@
         // --- Utility Functions ---
         const shuffleArray = (arr) => [...arr].sort(() => 0.5 - Math.random());
 
+        // Sentence-case helper: German capitalizes nouns, other languages lowercase
+        const sentenceCaseShape = (shapeName, locale) => {
+            if (locale === 'de') return shapeName; // German capitalizes nouns
+            return shapeName.toLowerCase();
+        };
+
         // Language-aware pluralization function for shapes
         const pluralizeShape = (shapeKeyEnglish, locale) => {
             if (!shapeKeyEnglish) return '';
@@ -3020,7 +3026,9 @@
                 // Translate shape name to current locale
                 const shapeName = assignment.shape.isDefault
                     ? (SHAPE_TRANSLATIONS[shapeNameEnglish]?.[currentLocale] || shapeNameEnglish)
-                    : shapeNameEnglish;
+                    : (shapeVocabKey && typeof ImageVocab !== 'undefined'
+                        ? sentenceCaseShape(ImageVocab.singular(shapeVocabKey, currentLocale) || shapeNameEnglish, currentLocale)
+                        : shapeNameEnglish);
 
                 // Get translations for current language
                 const isText = EXERCISE_TRANSLATIONS['is'][currentLocale] || 'is';
@@ -3048,7 +3056,11 @@
                 let textTemplate;
                 if (assignment.preposition === 'between') {
                     // "between" uses plural shapes, no article
-                    const pluralShape = pluralizeShape(shapeNameEnglish, currentLocale);
+                    const pluralShape = assignment.shape.isDefault
+                        ? pluralizeShape(shapeNameEnglish, currentLocale)
+                        : (shapeVocabKey && typeof ImageVocab !== 'undefined'
+                            ? sentenceCaseShape(ImageVocab.plural(shapeVocabKey, currentLocale) || pluralizeShape(shapeNameEnglish, currentLocale), currentLocale)
+                            : pluralizeShape(shapeNameEnglish, currentLocale));
                     textTemplate = isAnswerKey
                         ? `{img} ${isText} ${prepositionText} ${pluralShape}.`
                         : `{img} ${isText} __________ ${pluralShape}.`;

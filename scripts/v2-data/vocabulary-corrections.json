@@ -1,0 +1,8337 @@
+{
+  "alligator": {
+    "de": [
+      "Alligatoren",
+      "m"
+    ],
+    "fr": [
+      "Alligators",
+      "m"
+    ],
+    "es": [
+      "Caimanes",
+      "m"
+    ],
+    "it": [
+      "Alligatori",
+      "m"
+    ],
+    "pt": [
+      "Jacarés",
+      "m"
+    ],
+    "fi": "Alligaattorit"
+  },
+  "alpaca": {
+    "de": [
+      "Alpakas",
+      "n"
+    ],
+    "fr": [
+      "Alpagas",
+      "m"
+    ],
+    "es": [
+      "Alpacas",
+      "f"
+    ],
+    "it": [
+      "Alpaca",
+      "m"
+    ],
+    "pt": [
+      "Alpacas",
+      "f"
+    ],
+    "fi": "Alpakat"
+  },
+  "ant": {
+    "de": [
+      "Ameisen",
+      "f"
+    ],
+    "fr": [
+      "Fourmis",
+      "f"
+    ],
+    "es": [
+      "Hormigas",
+      "f"
+    ],
+    "it": [
+      "Formiche",
+      "f"
+    ],
+    "pt": [
+      "Formigas",
+      "f"
+    ],
+    "fi": "Muurahaiset"
+  },
+  "antelope": {
+    "de": [
+      "Antilopen",
+      "f"
+    ],
+    "fr": [
+      "Antilopes",
+      "f"
+    ],
+    "es": [
+      "Antílopes",
+      "m"
+    ],
+    "it": [
+      "Antilopi",
+      "f"
+    ],
+    "pt": [
+      "Antílopes",
+      "m"
+    ],
+    "fi": "Antilooppeja"
+  },
+  "armadillo": {
+    "de": [
+      "Gürteltiere",
+      "n"
+    ],
+    "fr": [
+      "Tatous",
+      "m"
+    ],
+    "es": [
+      "Armadillos",
+      "m"
+    ],
+    "it": [
+      "Armadilli",
+      "m"
+    ],
+    "pt": [
+      "Tatus",
+      "m"
+    ],
+    "fi": "Vyötiäiset"
+  },
+  "bat": {
+    "de": [
+      "Fledermäuse",
+      "f"
+    ],
+    "fr": [
+      "Chauves-souris",
+      "f"
+    ],
+    "es": [
+      "Murciélagos",
+      "m"
+    ],
+    "it": [
+      "Pipistrelli",
+      "m"
+    ],
+    "pt": [
+      "Morcegos",
+      "m"
+    ],
+    "fi": "Lepakot"
+  },
+  "bear": {
+    "de": [
+      "Bären",
+      "m"
+    ],
+    "fr": [
+      "Ours",
+      "m"
+    ],
+    "es": [
+      "Osos",
+      "m"
+    ],
+    "it": [
+      "Orsi",
+      "m"
+    ],
+    "pt": [
+      "Ursos",
+      "m"
+    ],
+    "fi": "Karhut"
+  },
+  "beaver": {
+    "de": [
+      "Biber",
+      "m"
+    ],
+    "fr": [
+      "Castors",
+      "m"
+    ],
+    "es": [
+      "Castores",
+      "m"
+    ],
+    "it": [
+      "Castori",
+      "m"
+    ],
+    "pt": [
+      "Castores",
+      "m"
+    ],
+    "fi": "Majavat"
+  },
+  "bee": {
+    "de": [
+      "Bienen",
+      "f"
+    ],
+    "fr": [
+      "Abeilles",
+      "f"
+    ],
+    "es": [
+      "Abejas",
+      "f"
+    ],
+    "it": [
+      "Api",
+      "f"
+    ],
+    "pt": [
+      "Abelhas",
+      "f"
+    ],
+    "fi": "Mehiläiset"
+  },
+  "beetle": {
+    "de": [
+      "Käfer",
+      "m"
+    ],
+    "fr": [
+      "Scarabées",
+      "m"
+    ],
+    "es": [
+      "Escarabajos",
+      "m"
+    ],
+    "it": [
+      "Scarabei",
+      "m"
+    ],
+    "pt": [
+      "Escaravelhos",
+      "m"
+    ],
+    "fi": "Kovakuoriaiset"
+  },
+  "bird": {
+    "de": [
+      "Vögel",
+      "m"
+    ],
+    "fr": [
+      "Oiseaux",
+      "m"
+    ],
+    "es": [
+      "Pájaros",
+      "m"
+    ],
+    "it": [
+      "Uccelli",
+      "m"
+    ],
+    "pt": [
+      "Pássaros",
+      "m"
+    ],
+    "fi": "Linnut"
+  },
+  "bison": {
+    "de": [
+      "Bisons",
+      "m"
+    ],
+    "fr": [
+      "Bisons",
+      "m"
+    ],
+    "es": [
+      "Bisontes",
+      "m"
+    ],
+    "it": [
+      "Bisonti",
+      "m"
+    ],
+    "pt": [
+      "Bisões",
+      "m"
+    ],
+    "fi": "Bisonit",
+    "en": "Bison"
+  },
+  "blue-jay": {
+    "de": [
+      "Blauhäher",
+      "m"
+    ],
+    "fr": [
+      "Geais bleus",
+      "m"
+    ],
+    "es": [
+      "Arrendajos azules",
+      "m"
+    ],
+    "it": [
+      "Ghiandaie azzurre",
+      "f"
+    ],
+    "pt": [
+      "Gaios-azuis",
+      "m"
+    ]
+  },
+  "bull": {
+    "de": [
+      "Stiere",
+      "m"
+    ],
+    "fr": [
+      "Taureaux",
+      "m"
+    ],
+    "es": [
+      "Toros",
+      "m"
+    ],
+    "it": [
+      "Tori",
+      "m"
+    ],
+    "pt": [
+      "Touros",
+      "m"
+    ],
+    "fi": "Härät"
+  },
+  "bunny": {
+    "de": [
+      "Häschen",
+      "n"
+    ],
+    "fr": [
+      "Lapins",
+      "m"
+    ],
+    "es": [
+      "Conejitos",
+      "m"
+    ],
+    "it": [
+      "Coniglietti",
+      "m"
+    ],
+    "pt": [
+      "Coelhinhos",
+      "m"
+    ]
+  },
+  "butterfly": {
+    "de": [
+      "Schmetterlinge",
+      "m"
+    ],
+    "fr": [
+      "Papillons",
+      "m"
+    ],
+    "es": [
+      "Mariposas",
+      "f"
+    ],
+    "it": [
+      "Farfalle",
+      "f"
+    ],
+    "pt": [
+      "Borboletas",
+      "f"
+    ],
+    "fi": "Perhoset"
+  },
+  "calf": {
+    "de": [
+      "Kälber",
+      "n"
+    ],
+    "fr": [
+      "Veaux",
+      "m"
+    ],
+    "es": [
+      "Becerros",
+      "m"
+    ],
+    "it": [
+      "Vitelli",
+      "m"
+    ],
+    "pt": [
+      "Bezerros",
+      "m"
+    ],
+    "fi": "Vasikat"
+  },
+  "camel": {
+    "de": [
+      "Kamele",
+      "n"
+    ],
+    "fr": [
+      "Chameaux",
+      "m"
+    ],
+    "es": [
+      "Camellos",
+      "m"
+    ],
+    "it": [
+      "Cammelli",
+      "m"
+    ],
+    "pt": [
+      "Camelos",
+      "m"
+    ],
+    "fi": "Kamelit"
+  },
+  "canary": {
+    "de": [
+      "Kanarienvögel",
+      "m"
+    ],
+    "fr": [
+      "Canaris",
+      "m"
+    ],
+    "es": [
+      "Canarios",
+      "m"
+    ],
+    "it": [
+      "Canarini",
+      "m"
+    ],
+    "pt": [
+      "Canários",
+      "m"
+    ]
+  },
+  "capybara": {
+    "de": [
+      "Capybaras",
+      "n"
+    ],
+    "fr": [
+      "Capybaras",
+      "m"
+    ],
+    "es": [
+      "Capibaras",
+      "m"
+    ],
+    "it": [
+      "Capibara",
+      "m"
+    ],
+    "pt": [
+      "Capivaras",
+      "f"
+    ]
+  },
+  "cat": {
+    "de": [
+      "Katzen",
+      "f"
+    ],
+    "fr": [
+      "Chats",
+      "m"
+    ],
+    "es": [
+      "Gatos",
+      "m"
+    ],
+    "it": [
+      "Gatti",
+      "m"
+    ],
+    "pt": [
+      "Gatos",
+      "m"
+    ],
+    "nl": [
+      "Katten",
+      "d"
+    ],
+    "fi": "Kissat"
+  },
+  "caterpillar": {
+    "de": [
+      "Raupen",
+      "f"
+    ],
+    "fr": [
+      "Chenilles",
+      "f"
+    ],
+    "es": [
+      "Orugas",
+      "f"
+    ],
+    "it": [
+      "Bruchi",
+      "m"
+    ],
+    "pt": [
+      "Lagartas",
+      "f"
+    ]
+  },
+  "chameleon": {
+    "de": [
+      "Chamäleons",
+      "n"
+    ],
+    "fr": [
+      "Caméléons",
+      "m"
+    ],
+    "es": [
+      "Camaleones",
+      "m"
+    ],
+    "it": [
+      "Camaleonti",
+      "m"
+    ],
+    "pt": [
+      "Camaleões",
+      "m"
+    ]
+  },
+  "cheetah": {
+    "de": [
+      "Geparden",
+      "m"
+    ],
+    "fr": [
+      "Guépards",
+      "m"
+    ],
+    "es": [
+      "Guepardos",
+      "m"
+    ],
+    "it": [
+      "Ghepardi",
+      "m"
+    ],
+    "pt": [
+      "Guepardos",
+      "m"
+    ]
+  },
+  "chick": {
+    "de": [
+      "Küken",
+      "n"
+    ],
+    "fr": [
+      "Poussins",
+      "m"
+    ],
+    "es": [
+      "Pollitos",
+      "m"
+    ],
+    "it": [
+      "Pulcini",
+      "m"
+    ],
+    "pt": [
+      "Pintinhos",
+      "m"
+    ]
+  },
+  "chicken": {
+    "de": [
+      "Hühner",
+      "n"
+    ],
+    "fr": [
+      "Poulets",
+      "m"
+    ],
+    "es": [
+      "Pollos",
+      "m"
+    ],
+    "it": [
+      "Polli",
+      "m"
+    ],
+    "pt": [
+      "Frangos",
+      "m"
+    ],
+    "fi": "Kanat"
+  },
+  "chimpanzee": {
+    "de": [
+      "Schimpansen",
+      "m"
+    ],
+    "fr": [
+      "Chimpanzés",
+      "m"
+    ],
+    "es": [
+      "Chimpancés",
+      "m"
+    ],
+    "it": [
+      "Scimpanzé",
+      "m"
+    ],
+    "pt": [
+      "Chimpanzés",
+      "m"
+    ]
+  },
+  "chinchilla": {
+    "de": [
+      "Chinchillas",
+      "n"
+    ],
+    "fr": [
+      "Chinchillas",
+      "m"
+    ],
+    "es": [
+      "Chinchillas",
+      "f"
+    ],
+    "it": [
+      "Cincillà",
+      "m"
+    ],
+    "pt": [
+      "Chinchilas",
+      "f"
+    ]
+  },
+  "chipmunk": {
+    "de": [
+      "Streifenhörnchen",
+      "n"
+    ],
+    "fr": [
+      "Tamias",
+      "m"
+    ],
+    "es": [
+      "Ardillas listadas",
+      "f"
+    ],
+    "it": [
+      "Tamia",
+      "m"
+    ],
+    "pt": [
+      "Esquilos listrados",
+      "m"
+    ]
+  },
+  "clownfish": {
+    "de": [
+      "Clownfische",
+      "m"
+    ],
+    "fr": [
+      "Poissons-clowns",
+      "m"
+    ],
+    "es": [
+      "Peces payaso",
+      "m"
+    ],
+    "it": [
+      "Pesci pagliaccio",
+      "m"
+    ],
+    "pt": [
+      "Peixes-palhaço",
+      "m"
+    ]
+  },
+  "cobra": {
+    "de": [
+      "Kobras",
+      "f"
+    ],
+    "fr": [
+      "Cobras",
+      "m"
+    ],
+    "es": [
+      "Cobras",
+      "f"
+    ],
+    "it": [
+      "Cobra",
+      "f"
+    ],
+    "pt": [
+      "Cobras",
+      "f"
+    ]
+  },
+  "cockatiel": {
+    "de": [
+      "Nymphensittiche",
+      "m"
+    ],
+    "fr": [
+      "Calopsittes",
+      "f"
+    ],
+    "es": [
+      "Cacatúas ninfa",
+      "f"
+    ],
+    "it": [
+      "Calopsitte",
+      "f"
+    ],
+    "pt": [
+      "Calopsitas",
+      "f"
+    ]
+  },
+  "cow": {
+    "de": [
+      "Kühe",
+      "f"
+    ],
+    "fr": [
+      "Vaches",
+      "f"
+    ],
+    "es": [
+      "Vacas",
+      "f"
+    ],
+    "it": [
+      "Mucche",
+      "f"
+    ],
+    "pt": [
+      "Vacas",
+      "f"
+    ],
+    "fi": "Lehmät"
+  },
+  "crab": {
+    "de": [
+      "Krabben",
+      "f"
+    ],
+    "fr": [
+      "Crabes",
+      "m"
+    ],
+    "es": [
+      "Cangrejos",
+      "m"
+    ],
+    "it": [
+      "Granchi",
+      "m"
+    ],
+    "pt": [
+      "Caranguejos",
+      "m"
+    ]
+  },
+  "cricket": {
+    "de": [
+      "Grillen",
+      "f"
+    ],
+    "fr": [
+      "Grillons",
+      "m"
+    ],
+    "es": [
+      "Grillos",
+      "m"
+    ],
+    "it": [
+      "Grilli",
+      "m"
+    ],
+    "pt": [
+      "Grilos",
+      "m"
+    ]
+  },
+  "crocodile": {
+    "de": [
+      "Krokodile",
+      "n"
+    ],
+    "fr": [
+      "Crocodiles",
+      "m"
+    ],
+    "es": [
+      "Cocodrilos",
+      "m"
+    ],
+    "it": [
+      "Coccodrilli",
+      "m"
+    ],
+    "pt": [
+      "Crocodilos",
+      "m"
+    ]
+  },
+  "crow": {
+    "de": [
+      "Krähen",
+      "f"
+    ],
+    "fr": [
+      "Corbeaux",
+      "m"
+    ],
+    "es": [
+      "Cuervos",
+      "m"
+    ],
+    "it": [
+      "Corvi",
+      "m"
+    ],
+    "pt": [
+      "Corvos",
+      "m"
+    ]
+  },
+  "deer": {
+    "de": [
+      "Rehe",
+      "n"
+    ],
+    "fr": [
+      "Cerfs",
+      "m"
+    ],
+    "es": [
+      "Venados",
+      "m"
+    ],
+    "it": [
+      "Cervi",
+      "m"
+    ],
+    "pt": [
+      "Cervos",
+      "m"
+    ],
+    "fi": "Peurat",
+    "en": "Deer"
+  },
+  "dinosaur": {
+    "de": [
+      "Dinosaurier",
+      "m"
+    ],
+    "fr": [
+      "Dinosaures",
+      "m"
+    ],
+    "es": [
+      "Dinosaurios",
+      "m"
+    ],
+    "it": [
+      "Dinosauri",
+      "m"
+    ],
+    "pt": [
+      "Dinossauros",
+      "m"
+    ]
+  },
+  "dog": {
+    "de": [
+      "Hunde",
+      "m"
+    ],
+    "fr": [
+      "Chiens",
+      "m"
+    ],
+    "es": [
+      "Perros",
+      "m"
+    ],
+    "it": [
+      "Cani",
+      "m"
+    ],
+    "pt": [
+      "Cães",
+      "m"
+    ],
+    "nl": [
+      "Honden",
+      "d"
+    ],
+    "fi": "Koirat"
+  },
+  "dolphin": {
+    "de": [
+      "Delfine",
+      "m"
+    ],
+    "fr": [
+      "Dauphins",
+      "m"
+    ],
+    "es": [
+      "Delfines",
+      "m"
+    ],
+    "it": [
+      "Delfini",
+      "m"
+    ],
+    "pt": [
+      "Golfinhos",
+      "m"
+    ]
+  },
+  "donkey": {
+    "de": [
+      "Esel",
+      "m"
+    ],
+    "fr": [
+      "Ânes",
+      "m"
+    ],
+    "es": [
+      "Burros",
+      "m"
+    ],
+    "it": [
+      "Asini",
+      "m"
+    ],
+    "pt": [
+      "Burros",
+      "m"
+    ],
+    "fi": "Aasit"
+  },
+  "dove": {
+    "de": [
+      "Tauben",
+      "f"
+    ],
+    "fr": [
+      "Colombes",
+      "f"
+    ],
+    "es": [
+      "Palomas",
+      "f"
+    ],
+    "it": [
+      "Colombe",
+      "f"
+    ],
+    "pt": [
+      "Pombas",
+      "f"
+    ]
+  },
+  "dragonfly": {
+    "de": [
+      "Libellen",
+      "f"
+    ],
+    "fr": [
+      "Libellules",
+      "f"
+    ],
+    "es": [
+      "Libélulas",
+      "f"
+    ],
+    "it": [
+      "Libellule",
+      "f"
+    ],
+    "pt": [
+      "Libélulas",
+      "f"
+    ]
+  },
+  "duck": {
+    "de": [
+      "Enten",
+      "f"
+    ],
+    "fr": [
+      "Canards",
+      "m"
+    ],
+    "es": [
+      "Patos",
+      "m"
+    ],
+    "it": [
+      "Anatre",
+      "f"
+    ],
+    "pt": [
+      "Patos",
+      "m"
+    ],
+    "fi": "Ankat"
+  },
+  "eagle": {
+    "de": [
+      "Adler",
+      "m"
+    ],
+    "fr": [
+      "Aigles",
+      "m"
+    ],
+    "es": [
+      "Águilas",
+      "f"
+    ],
+    "it": [
+      "Aquile",
+      "f"
+    ],
+    "pt": [
+      "Águias",
+      "f"
+    ],
+    "fi": "Kotkat"
+  },
+  "elephant": {
+    "de": [
+      "Elefanten",
+      "m"
+    ],
+    "fr": [
+      "Éléphants",
+      "m"
+    ],
+    "es": [
+      "Elefantes",
+      "m"
+    ],
+    "it": [
+      "Elefanti",
+      "m"
+    ],
+    "pt": [
+      "Elefantes",
+      "m"
+    ]
+  },
+  "elk": {
+    "de": [
+      "Elche",
+      "m"
+    ],
+    "fr": [
+      "Élans",
+      "m"
+    ],
+    "es": [
+      "Alces",
+      "m"
+    ],
+    "it": [
+      "Alci",
+      "m"
+    ],
+    "pt": [
+      "Alces",
+      "m"
+    ],
+    "fi": "Hirvet"
+  },
+  "emu": {
+    "de": [
+      "Emus",
+      "m"
+    ],
+    "fr": [
+      "Émeus",
+      "m"
+    ],
+    "es": [
+      "Emúes",
+      "m"
+    ],
+    "it": [
+      "Emù",
+      "m"
+    ],
+    "pt": [
+      "Emus",
+      "m"
+    ]
+  },
+  "falcon": {
+    "de": [
+      "Falken",
+      "m"
+    ],
+    "fr": [
+      "Faucons",
+      "m"
+    ],
+    "es": [
+      "Halcones",
+      "m"
+    ],
+    "it": [
+      "Falchi",
+      "m"
+    ],
+    "pt": [
+      "Falcões",
+      "m"
+    ]
+  },
+  "fish": {
+    "de": [
+      "Fische",
+      "m"
+    ],
+    "fr": [
+      "Poissons",
+      "m"
+    ],
+    "es": [
+      "Peces",
+      "m"
+    ],
+    "it": [
+      "Pesci",
+      "m"
+    ],
+    "pt": [
+      "Peixes",
+      "m"
+    ],
+    "nl": [
+      "Vissen",
+      "d"
+    ],
+    "fi": "Kalat",
+    "en": "Fish"
+  },
+  "flamingo": {
+    "de": [
+      "Flamingos",
+      "m"
+    ],
+    "fr": [
+      "Flamants",
+      "m"
+    ],
+    "es": [
+      "Flamingos",
+      "m"
+    ],
+    "it": [
+      "Fenicotteri",
+      "m"
+    ],
+    "pt": [
+      "Flamingos",
+      "m"
+    ]
+  },
+  "fly": {
+    "de": [
+      "Fliegen",
+      "f"
+    ],
+    "fr": [
+      "Mouches",
+      "f"
+    ],
+    "es": [
+      "Moscas",
+      "f"
+    ],
+    "it": [
+      "Mosche",
+      "f"
+    ],
+    "pt": [
+      "Moscas",
+      "f"
+    ],
+    "fi": "Kärpäset"
+  },
+  "fox": {
+    "de": [
+      "Füchse",
+      "m"
+    ],
+    "fr": [
+      "Renards",
+      "m"
+    ],
+    "es": [
+      "Zorros",
+      "m"
+    ],
+    "it": [
+      "Volpi",
+      "f"
+    ],
+    "pt": [
+      "Raposas",
+      "f"
+    ],
+    "fi": "Ketut"
+  },
+  "frog": {
+    "de": [
+      "Frösche",
+      "m"
+    ],
+    "fr": [
+      "Grenouilles",
+      "f"
+    ],
+    "es": [
+      "Ranas",
+      "f"
+    ],
+    "it": [
+      "Rane",
+      "f"
+    ],
+    "pt": [
+      "Rãs",
+      "f"
+    ],
+    "fi": "Sammakot"
+  },
+  "giraffe": {
+    "de": [
+      "Giraffen",
+      "f"
+    ],
+    "fr": [
+      "Girafes",
+      "f"
+    ],
+    "es": [
+      "Jirafas",
+      "f"
+    ],
+    "it": [
+      "Giraffe",
+      "f"
+    ],
+    "pt": [
+      "Girafas",
+      "f"
+    ]
+  },
+  "goat": {
+    "de": [
+      "Ziegen",
+      "f"
+    ],
+    "fr": [
+      "Chèvres",
+      "f"
+    ],
+    "es": [
+      "Cabras",
+      "f"
+    ],
+    "it": [
+      "Capre",
+      "f"
+    ],
+    "pt": [
+      "Cabras",
+      "f"
+    ],
+    "fi": "Vuohet"
+  },
+  "goldfish": {
+    "de": [
+      "Goldfische",
+      "m"
+    ],
+    "fr": [
+      "Poissons rouges",
+      "m"
+    ],
+    "es": [
+      "Peces dorados",
+      "m"
+    ],
+    "it": [
+      "Pesci rossi",
+      "m"
+    ],
+    "pt": [
+      "Peixes dourados",
+      "m"
+    ]
+  },
+  "goose": {
+    "de": [
+      "Gänse",
+      "f"
+    ],
+    "fr": [
+      "Oies",
+      "f"
+    ],
+    "es": [
+      "Gansos",
+      "m"
+    ],
+    "it": [
+      "Oche",
+      "f"
+    ],
+    "pt": [
+      "Gansos",
+      "m"
+    ],
+    "fi": "Hanhet"
+  },
+  "gorilla": {
+    "de": [
+      "Gorillas",
+      "m"
+    ],
+    "fr": [
+      "Gorilles",
+      "m"
+    ],
+    "es": [
+      "Gorilas",
+      "m"
+    ],
+    "it": [
+      "Gorilla",
+      "m"
+    ],
+    "pt": [
+      "Gorilas",
+      "m"
+    ]
+  },
+  "grasshopper": {
+    "de": [
+      "Grashüpfer",
+      "m"
+    ],
+    "fr": [
+      "Sauterelles",
+      "f"
+    ],
+    "es": [
+      "Saltamontes",
+      "m"
+    ],
+    "it": [
+      "Cavallette",
+      "f"
+    ],
+    "pt": [
+      "Gafanhotos",
+      "m"
+    ]
+  },
+  "guinea-pig": {
+    "de": [
+      "Meerschweinchen",
+      "n"
+    ],
+    "fr": [
+      "Cobayes",
+      "m"
+    ],
+    "es": [
+      "Conejillos de Indias",
+      "m"
+    ],
+    "it": [
+      "Porcellini d'India",
+      "m"
+    ],
+    "pt": [
+      "Porquinhos-da-índia",
+      "m"
+    ]
+  },
+  "hamster": {
+    "de": [
+      "Hamster",
+      "m"
+    ],
+    "fr": [
+      "Hamsters",
+      "m"
+    ],
+    "es": [
+      "Hámsteres",
+      "m"
+    ],
+    "it": [
+      "Criceti",
+      "m"
+    ],
+    "pt": [
+      "Hamsters",
+      "m"
+    ]
+  },
+  "hare": {
+    "de": [
+      "Hasen",
+      "m"
+    ],
+    "fr": [
+      "Lièvres",
+      "m"
+    ],
+    "es": [
+      "Liebres",
+      "f"
+    ],
+    "it": [
+      "Lepri",
+      "f"
+    ],
+    "pt": [
+      "Lebres",
+      "f"
+    ]
+  },
+  "hawk": {
+    "de": [
+      "Habichte",
+      "m"
+    ],
+    "fr": [
+      "Éperviers",
+      "m"
+    ],
+    "es": [
+      "Halcones",
+      "m"
+    ],
+    "it": [
+      "Falchi",
+      "m"
+    ],
+    "pt": [
+      "Gaviões",
+      "m"
+    ]
+  },
+  "hedgehog": {
+    "de": [
+      "Igel",
+      "m"
+    ],
+    "fr": [
+      "Hérissons",
+      "m"
+    ],
+    "es": [
+      "Erizos",
+      "m"
+    ],
+    "it": [
+      "Ricci",
+      "m"
+    ],
+    "pt": [
+      "Ouriços",
+      "m"
+    ]
+  },
+  "hen": {
+    "de": [
+      "Hennen",
+      "f"
+    ],
+    "fr": [
+      "Poules",
+      "f"
+    ],
+    "es": [
+      "Gallinas",
+      "f"
+    ],
+    "it": [
+      "Galline",
+      "f"
+    ],
+    "pt": [
+      "Galinhas",
+      "f"
+    ]
+  },
+  "heron": {
+    "de": [
+      "Reiher",
+      "m"
+    ],
+    "fr": [
+      "Hérons",
+      "m"
+    ],
+    "es": [
+      "Garzas",
+      "f"
+    ],
+    "it": [
+      "Aironi",
+      "m"
+    ],
+    "pt": [
+      "Garças",
+      "f"
+    ]
+  },
+  "hippopotamus": {
+    "de": [
+      "Nilpferde",
+      "n"
+    ],
+    "fr": [
+      "Hippopotames",
+      "m"
+    ],
+    "es": [
+      "Hipopótamos",
+      "m"
+    ],
+    "it": [
+      "Ippopotami",
+      "m"
+    ],
+    "pt": [
+      "Hipopótamos",
+      "m"
+    ],
+    "en": "Hippopotamuses"
+  },
+  "horse": {
+    "de": [
+      "Pferde",
+      "n"
+    ],
+    "fr": [
+      "Chevaux",
+      "m"
+    ],
+    "es": [
+      "Caballos",
+      "m"
+    ],
+    "it": [
+      "Cavalli",
+      "m"
+    ],
+    "pt": [
+      "Cavalos",
+      "m"
+    ],
+    "fi": "Hevoset"
+  },
+  "hummingbird": {
+    "de": [
+      "Kolibris",
+      "m"
+    ],
+    "fr": [
+      "Colibris",
+      "m"
+    ],
+    "es": [
+      "Colibríes",
+      "m"
+    ],
+    "it": [
+      "Colibrì",
+      "m"
+    ],
+    "pt": [
+      "Beija-flores",
+      "m"
+    ]
+  },
+  "hyena": {
+    "de": [
+      "Hyänen",
+      "f"
+    ],
+    "fr": [
+      "Hyènes",
+      "f"
+    ],
+    "es": [
+      "Hienas",
+      "f"
+    ],
+    "it": [
+      "Iene",
+      "f"
+    ],
+    "pt": [
+      "Hienas",
+      "f"
+    ]
+  },
+  "iguana": {
+    "de": [
+      "Leguane",
+      "m"
+    ],
+    "fr": [
+      "Iguanes",
+      "m"
+    ],
+    "es": [
+      "Iguanas",
+      "f"
+    ],
+    "it": [
+      "Iguana",
+      "f"
+    ],
+    "pt": [
+      "Iguanas",
+      "f"
+    ]
+  },
+  "jaguar": {
+    "de": [
+      "Jaguare",
+      "m"
+    ],
+    "fr": [
+      "Jaguars",
+      "m"
+    ],
+    "es": [
+      "Jaguares",
+      "m"
+    ],
+    "it": [
+      "Giaguari",
+      "m"
+    ],
+    "pt": [
+      "Jaguares",
+      "m"
+    ]
+  },
+  "jellyfish": {
+    "de": [
+      "Quallen",
+      "f"
+    ],
+    "fr": [
+      "Méduses",
+      "f"
+    ],
+    "es": [
+      "Medusas",
+      "f"
+    ],
+    "it": [
+      "Meduse",
+      "f"
+    ],
+    "pt": [
+      "Águas-vivas",
+      "f"
+    ]
+  },
+  "kangaroo": {
+    "de": [
+      "Kängurus",
+      "n"
+    ],
+    "fr": [
+      "Kangourous",
+      "m"
+    ],
+    "es": [
+      "Canguros",
+      "m"
+    ],
+    "it": [
+      "Canguri",
+      "m"
+    ],
+    "pt": [
+      "Cangurus",
+      "m"
+    ]
+  },
+  "kitten": {
+    "de": [
+      "Kätzchen",
+      "n"
+    ],
+    "fr": [
+      "Chatons",
+      "m"
+    ],
+    "es": [
+      "Gatitos",
+      "m"
+    ],
+    "it": [
+      "Gattini",
+      "m"
+    ],
+    "pt": [
+      "Gatinhos",
+      "m"
+    ]
+  },
+  "koala": {
+    "de": [
+      "Koalas",
+      "m"
+    ],
+    "fr": [
+      "Koalas",
+      "m"
+    ],
+    "es": [
+      "Koalas",
+      "m"
+    ],
+    "it": [
+      "Koala",
+      "m"
+    ],
+    "pt": [
+      "Coalas",
+      "m"
+    ]
+  },
+  "ladybug": {
+    "de": [
+      "Marienkäfer",
+      "m"
+    ],
+    "fr": [
+      "Coccinelles",
+      "f"
+    ],
+    "es": [
+      "Catarinas",
+      "f"
+    ],
+    "it": [
+      "Coccinelle",
+      "f"
+    ],
+    "pt": [
+      "Joaninhas",
+      "f"
+    ]
+  },
+  "lamb": {
+    "de": [
+      "Lämmer",
+      "n"
+    ],
+    "fr": [
+      "Agneaux",
+      "m"
+    ],
+    "es": [
+      "Corderos",
+      "m"
+    ],
+    "it": [
+      "Agnelli",
+      "m"
+    ],
+    "pt": [
+      "Cordeiros",
+      "m"
+    ]
+  },
+  "leopard": {
+    "de": [
+      "Leoparden",
+      "m"
+    ],
+    "fr": [
+      "Léopards",
+      "m"
+    ],
+    "es": [
+      "Leopardos",
+      "m"
+    ],
+    "it": [
+      "Leopardi",
+      "m"
+    ],
+    "pt": [
+      "Leopardos",
+      "m"
+    ]
+  },
+  "lion": {
+    "de": [
+      "Löwen",
+      "m"
+    ],
+    "fr": [
+      "Lions",
+      "m"
+    ],
+    "es": [
+      "Leones",
+      "m"
+    ],
+    "it": [
+      "Leoni",
+      "m"
+    ],
+    "pt": [
+      "Leões",
+      "m"
+    ]
+  },
+  "lizard": {
+    "de": [
+      "Eidechsen",
+      "f"
+    ],
+    "fr": [
+      "Lézards",
+      "m"
+    ],
+    "es": [
+      "Lagartijas",
+      "f"
+    ],
+    "it": [
+      "Lucertole",
+      "f"
+    ],
+    "pt": [
+      "Lagartixas",
+      "f"
+    ]
+  },
+  "llama": {
+    "de": [
+      "Lamas",
+      "n"
+    ],
+    "fr": [
+      "Lamas",
+      "m"
+    ],
+    "es": [
+      "Llamas",
+      "f"
+    ],
+    "it": [
+      "Lama",
+      "m"
+    ],
+    "pt": [
+      "Lhamas",
+      "f"
+    ]
+  },
+  "lobster": {
+    "de": [
+      "Hummer",
+      "m"
+    ],
+    "fr": [
+      "Homards",
+      "m"
+    ],
+    "es": [
+      "Langostas",
+      "f"
+    ],
+    "it": [
+      "Aragoste",
+      "f"
+    ],
+    "pt": [
+      "Lagostas",
+      "f"
+    ]
+  },
+  "monkey": {
+    "de": [
+      "Affen",
+      "m"
+    ],
+    "fr": [
+      "Singes",
+      "m"
+    ],
+    "es": [
+      "Monos",
+      "m"
+    ],
+    "it": [
+      "Scimmie",
+      "f"
+    ],
+    "pt": [
+      "Macacos",
+      "m"
+    ],
+    "fi": "Apinat"
+  },
+  "moose": {
+    "de": [
+      "Elche",
+      "m"
+    ],
+    "fr": [
+      "Élans",
+      "m"
+    ],
+    "es": [
+      "Alces",
+      "m"
+    ],
+    "it": [
+      "Alci",
+      "m"
+    ],
+    "pt": [
+      "Alces",
+      "m"
+    ],
+    "fi": "Hirvet",
+    "en": "Moose"
+  },
+  "moth": {
+    "de": [
+      "Motten",
+      "f"
+    ],
+    "fr": [
+      "Papillons de nuit",
+      "m"
+    ],
+    "es": [
+      "Polillas",
+      "f"
+    ],
+    "it": [
+      "Falene",
+      "f"
+    ],
+    "pt": [
+      "Mariposas noturnas",
+      "f"
+    ]
+  },
+  "mouse": {
+    "de": [
+      "Mäuse",
+      "f"
+    ],
+    "fr": [
+      "Souris",
+      "f"
+    ],
+    "es": [
+      "Ratones",
+      "m"
+    ],
+    "it": [
+      "Topi",
+      "m"
+    ],
+    "pt": [
+      "Ratos",
+      "m"
+    ],
+    "nl": [
+      "Muizen",
+      "d"
+    ],
+    "fi": "Hiiret"
+  },
+  "narwhal": {
+    "de": [
+      "Narwale",
+      "m"
+    ],
+    "fr": [
+      "Narvals",
+      "m"
+    ],
+    "es": [
+      "Narvales",
+      "m"
+    ],
+    "it": [
+      "Narvali",
+      "m"
+    ],
+    "pt": [
+      "Narvais",
+      "m"
+    ]
+  },
+  "octopus": {
+    "de": [
+      "Kraken",
+      "m"
+    ],
+    "fr": [
+      "Pieuvres",
+      "f"
+    ],
+    "es": [
+      "Pulpos",
+      "m"
+    ],
+    "it": [
+      "Polpi",
+      "m"
+    ],
+    "pt": [
+      "Polvos",
+      "m"
+    ],
+    "fi": "Tursaat",
+    "en": "Octopuses"
+  },
+  "orangutan": {
+    "de": [
+      "Orang-Utans",
+      "m"
+    ],
+    "fr": [
+      "Orangs-outans",
+      "m"
+    ],
+    "es": [
+      "Orangutanes",
+      "m"
+    ],
+    "it": [
+      "Oranghi",
+      "m"
+    ],
+    "pt": [
+      "Orangotangos",
+      "m"
+    ]
+  },
+  "ostrich": {
+    "de": [
+      "Strauße",
+      "m"
+    ],
+    "fr": [
+      "Autruches",
+      "f"
+    ],
+    "es": [
+      "Avestruces",
+      "m"
+    ],
+    "it": [
+      "Struzzi",
+      "m"
+    ],
+    "pt": [
+      "Avestruzes",
+      "f"
+    ]
+  },
+  "otter": {
+    "de": [
+      "Otter",
+      "m"
+    ],
+    "fr": [
+      "Loutres",
+      "f"
+    ],
+    "es": [
+      "Nutrias",
+      "f"
+    ],
+    "it": [
+      "Lontre",
+      "f"
+    ],
+    "pt": [
+      "Lontras",
+      "f"
+    ]
+  },
+  "owl": {
+    "de": [
+      "Eulen",
+      "f"
+    ],
+    "fr": [
+      "Hiboux",
+      "m"
+    ],
+    "es": [
+      "Búhos",
+      "m"
+    ],
+    "it": [
+      "Gufi",
+      "m"
+    ],
+    "pt": [
+      "Corujas",
+      "f"
+    ]
+  },
+  "ox": {
+    "de": [
+      "Ochsen",
+      "m"
+    ],
+    "fr": [
+      "Bœufs",
+      "m"
+    ],
+    "es": [
+      "Bueyes",
+      "m"
+    ],
+    "it": [
+      "Buoi",
+      "m"
+    ],
+    "pt": [
+      "Bois",
+      "m"
+    ],
+    "fi": "Härät"
+  },
+  "panda": {
+    "de": [
+      "Pandas",
+      "m"
+    ],
+    "fr": [
+      "Pandas",
+      "m"
+    ],
+    "es": [
+      "Pandas",
+      "m"
+    ],
+    "it": [
+      "Panda",
+      "m"
+    ],
+    "pt": [
+      "Pandas",
+      "m"
+    ]
+  },
+  "panther": {
+    "de": [
+      "Panther",
+      "m"
+    ],
+    "fr": [
+      "Panthères",
+      "f"
+    ],
+    "es": [
+      "Panteras",
+      "f"
+    ],
+    "it": [
+      "Pantere",
+      "f"
+    ],
+    "pt": [
+      "Panteras",
+      "f"
+    ]
+  },
+  "parrot": {
+    "de": [
+      "Papageien",
+      "m"
+    ],
+    "fr": [
+      "Perroquets",
+      "m"
+    ],
+    "es": [
+      "Loros",
+      "m"
+    ],
+    "it": [
+      "Pappagalli",
+      "m"
+    ],
+    "pt": [
+      "Papagaios",
+      "m"
+    ]
+  },
+  "peacock": {
+    "de": [
+      "Pfauen",
+      "m"
+    ],
+    "fr": [
+      "Paons",
+      "m"
+    ],
+    "es": [
+      "Pavos reales",
+      "m"
+    ],
+    "it": [
+      "Pavoni",
+      "m"
+    ],
+    "pt": [
+      "Pavões",
+      "m"
+    ]
+  },
+  "pelican": {
+    "de": [
+      "Pelikane",
+      "m"
+    ],
+    "fr": [
+      "Pélicans",
+      "m"
+    ],
+    "es": [
+      "Pelícanos",
+      "m"
+    ],
+    "it": [
+      "Pellicani",
+      "m"
+    ],
+    "pt": [
+      "Pelicanos",
+      "m"
+    ]
+  },
+  "penguin": {
+    "de": [
+      "Pinguine",
+      "m"
+    ],
+    "fr": [
+      "Pingouins",
+      "m"
+    ],
+    "es": [
+      "Pingüinos",
+      "m"
+    ],
+    "it": [
+      "Pinguini",
+      "m"
+    ],
+    "pt": [
+      "Pinguins",
+      "m"
+    ]
+  },
+  "pig": {
+    "de": [
+      "Schweine",
+      "n"
+    ],
+    "fr": [
+      "Cochons",
+      "m"
+    ],
+    "es": [
+      "Cerdos",
+      "m"
+    ],
+    "it": [
+      "Maiali",
+      "m"
+    ],
+    "pt": [
+      "Porcos",
+      "m"
+    ],
+    "fi": "Siat"
+  },
+  "pigeon": {
+    "de": [
+      "Tauben",
+      "f"
+    ],
+    "fr": [
+      "Pigeons",
+      "m"
+    ],
+    "es": [
+      "Palomas",
+      "f"
+    ],
+    "it": [
+      "Piccioni",
+      "m"
+    ],
+    "pt": [
+      "Pombos",
+      "m"
+    ]
+  },
+  "polar-bear": {
+    "de": [
+      "Eisbären",
+      "m"
+    ],
+    "fr": [
+      "Ours polaires",
+      "m"
+    ],
+    "es": [
+      "Osos polares",
+      "m"
+    ],
+    "it": [
+      "Orsi polari",
+      "m"
+    ],
+    "pt": [
+      "Ursos polares",
+      "m"
+    ]
+  },
+  "pony": {
+    "de": [
+      "Ponys",
+      "n"
+    ],
+    "fr": [
+      "Poneys",
+      "m"
+    ],
+    "es": [
+      "Ponis",
+      "m"
+    ],
+    "it": [
+      "Pony",
+      "m"
+    ],
+    "pt": [
+      "Pôneis",
+      "m"
+    ]
+  },
+  "poodle": {
+    "de": [
+      "Pudel",
+      "m"
+    ],
+    "fr": [
+      "Caniches",
+      "m"
+    ],
+    "es": [
+      "Caniches",
+      "m"
+    ],
+    "it": [
+      "Barboncini",
+      "m"
+    ],
+    "pt": [
+      "Caniches",
+      "m"
+    ]
+  },
+  "porcupine": {
+    "de": [
+      "Stachelschweine",
+      "n"
+    ],
+    "fr": [
+      "Porcs-épics",
+      "m"
+    ],
+    "es": [
+      "Puercoespines",
+      "m"
+    ],
+    "it": [
+      "Istrici",
+      "m"
+    ],
+    "pt": [
+      "Porcos-espinhos",
+      "m"
+    ]
+  },
+  "puppy": {
+    "de": [
+      "Welpen",
+      "m"
+    ],
+    "fr": [
+      "Chiots",
+      "m"
+    ],
+    "es": [
+      "Cachorros",
+      "m"
+    ],
+    "it": [
+      "Cuccioli",
+      "m"
+    ],
+    "pt": [
+      "Filhotes",
+      "m"
+    ]
+  },
+  "rabbit": {
+    "de": [
+      "Kaninchen",
+      "n"
+    ],
+    "fr": [
+      "Lapins",
+      "m"
+    ],
+    "es": [
+      "Conejos",
+      "m"
+    ],
+    "it": [
+      "Conigli",
+      "m"
+    ],
+    "pt": [
+      "Coelhos",
+      "m"
+    ],
+    "fi": "Kanit"
+  },
+  "raccoon": {
+    "de": [
+      "Waschbären",
+      "m"
+    ],
+    "fr": [
+      "Ratons laveurs",
+      "m"
+    ],
+    "es": [
+      "Mapaches",
+      "m"
+    ],
+    "it": [
+      "Procioni",
+      "m"
+    ],
+    "pt": [
+      "Guaxinins",
+      "m"
+    ]
+  },
+  "ram": {
+    "de": [
+      "Widder",
+      "m"
+    ],
+    "fr": [
+      "Béliers",
+      "m"
+    ],
+    "es": [
+      "Carneros",
+      "m"
+    ],
+    "it": [
+      "Montoni",
+      "m"
+    ],
+    "pt": [
+      "Carneiros",
+      "m"
+    ]
+  },
+  "rat": {
+    "de": [
+      "Ratten",
+      "f"
+    ],
+    "fr": [
+      "Rats",
+      "m"
+    ],
+    "es": [
+      "Ratas",
+      "f"
+    ],
+    "it": [
+      "Ratti",
+      "m"
+    ],
+    "pt": [
+      "Ratos",
+      "m"
+    ]
+  },
+  "reindeer": {
+    "de": [
+      "Rentiere",
+      "n"
+    ],
+    "fr": [
+      "Rennes",
+      "m"
+    ],
+    "es": [
+      "Renos",
+      "m"
+    ],
+    "it": [
+      "Renne",
+      "f"
+    ],
+    "pt": [
+      "Renas",
+      "f"
+    ]
+  },
+  "rhinoceros": {
+    "de": [
+      "Nashörner",
+      "n"
+    ],
+    "fr": [
+      "Rhinocéros",
+      "m"
+    ],
+    "es": [
+      "Rinocerontes",
+      "m"
+    ],
+    "it": [
+      "Rinoceronti",
+      "m"
+    ],
+    "pt": [
+      "Rinocerontes",
+      "m"
+    ],
+    "en": "Rhinoceroses"
+  },
+  "robin": {
+    "de": [
+      "Rotkehlchen",
+      "n"
+    ],
+    "fr": [
+      "Rouges-gorges",
+      "m"
+    ],
+    "es": [
+      "Petirrojos",
+      "m"
+    ],
+    "it": [
+      "Pettirossi",
+      "m"
+    ],
+    "pt": [
+      "Pintarroxos",
+      "m"
+    ]
+  },
+  "rooster": {
+    "de": [
+      "Hähne",
+      "m"
+    ],
+    "fr": [
+      "Coqs",
+      "m"
+    ],
+    "es": [
+      "Gallos",
+      "m"
+    ],
+    "it": [
+      "Galli",
+      "m"
+    ],
+    "pt": [
+      "Galos",
+      "m"
+    ]
+  },
+  "salamander": {
+    "de": [
+      "Salamander",
+      "m"
+    ],
+    "fr": [
+      "Salamandres",
+      "f"
+    ],
+    "es": [
+      "Salamandras",
+      "f"
+    ],
+    "it": [
+      "Salamandre",
+      "f"
+    ],
+    "pt": [
+      "Salamandras",
+      "f"
+    ]
+  },
+  "salmon": {
+    "de": [
+      "Lachse",
+      "m"
+    ],
+    "fr": [
+      "Saumons",
+      "m"
+    ],
+    "es": [
+      "Salmones",
+      "m"
+    ],
+    "it": [
+      "Salmoni",
+      "m"
+    ],
+    "pt": [
+      "Salmões",
+      "m"
+    ],
+    "en": "Salmon"
+  },
+  "scorpion": {
+    "de": [
+      "Skorpione",
+      "m"
+    ],
+    "fr": [
+      "Scorpions",
+      "m"
+    ],
+    "es": [
+      "Escorpiones",
+      "m"
+    ],
+    "it": [
+      "Scorpioni",
+      "m"
+    ],
+    "pt": [
+      "Escorpiões",
+      "m"
+    ]
+  },
+  "sea-horse": {
+    "de": [
+      "Seepferdchen",
+      "n"
+    ],
+    "fr": [
+      "Hippocampes",
+      "m"
+    ],
+    "es": [
+      "Caballitos de mar",
+      "m"
+    ],
+    "it": [
+      "Cavallucci marini",
+      "m"
+    ],
+    "pt": [
+      "Cavalos-marinhos",
+      "m"
+    ]
+  },
+  "sea-lion": {
+    "de": [
+      "Seelöwen",
+      "m"
+    ],
+    "fr": [
+      "Otaries",
+      "f"
+    ],
+    "es": [
+      "Leones marinos",
+      "m"
+    ],
+    "it": [
+      "Leoni marini",
+      "m"
+    ],
+    "pt": [
+      "Leões-marinhos",
+      "m"
+    ]
+  },
+  "seal": {
+    "de": [
+      "Robben",
+      "f"
+    ],
+    "fr": [
+      "Phoques",
+      "m"
+    ],
+    "es": [
+      "Focas",
+      "f"
+    ],
+    "it": [
+      "Foche",
+      "f"
+    ],
+    "pt": [
+      "Focas",
+      "f"
+    ]
+  },
+  "shark": {
+    "de": [
+      "Haie",
+      "m"
+    ],
+    "fr": [
+      "Requins",
+      "m"
+    ],
+    "es": [
+      "Tiburones",
+      "m"
+    ],
+    "it": [
+      "Squali",
+      "m"
+    ],
+    "pt": [
+      "Tubarões",
+      "m"
+    ]
+  },
+  "sheep": {
+    "de": [
+      "Schafe",
+      "n"
+    ],
+    "fr": [
+      "Moutons",
+      "m"
+    ],
+    "es": [
+      "Ovejas",
+      "f"
+    ],
+    "it": [
+      "Pecore",
+      "f"
+    ],
+    "pt": [
+      "Ovelhas",
+      "f"
+    ],
+    "fi": "Lampaat",
+    "en": "Sheep"
+  },
+  "shrimp": {
+    "de": [
+      "Garnelen",
+      "f"
+    ],
+    "fr": [
+      "Crevettes",
+      "f"
+    ],
+    "es": [
+      "Camarones",
+      "m"
+    ],
+    "it": [
+      "Gamberi",
+      "m"
+    ],
+    "pt": [
+      "Camarões",
+      "m"
+    ],
+    "en": "Shrimp"
+  },
+  "skunk": {
+    "de": [
+      "Stinktiere",
+      "n"
+    ],
+    "fr": [
+      "Moufettes",
+      "f"
+    ],
+    "es": [
+      "Zorrillos",
+      "m"
+    ],
+    "it": [
+      "Puzzole",
+      "f"
+    ],
+    "pt": [
+      "Gambás",
+      "m"
+    ]
+  },
+  "sloth": {
+    "de": [
+      "Faultiere",
+      "n"
+    ],
+    "fr": [
+      "Paresseux",
+      "m"
+    ],
+    "es": [
+      "Perezosos",
+      "m"
+    ],
+    "it": [
+      "Bradipi",
+      "m"
+    ],
+    "pt": [
+      "Preguiças",
+      "f"
+    ]
+  },
+  "snail": {
+    "de": [
+      "Schnecken",
+      "f"
+    ],
+    "fr": [
+      "Escargots",
+      "m"
+    ],
+    "es": [
+      "Caracoles",
+      "m"
+    ],
+    "it": [
+      "Lumache",
+      "f"
+    ],
+    "pt": [
+      "Caracóis",
+      "m"
+    ]
+  },
+  "snake": {
+    "de": [
+      "Schlangen",
+      "f"
+    ],
+    "fr": [
+      "Serpents",
+      "m"
+    ],
+    "es": [
+      "Serpientes",
+      "f"
+    ],
+    "it": [
+      "Serpenti",
+      "m"
+    ],
+    "pt": [
+      "Serpentes",
+      "f"
+    ]
+  },
+  "sparrow": {
+    "de": [
+      "Spatzen",
+      "m"
+    ],
+    "fr": [
+      "Moineaux",
+      "m"
+    ],
+    "es": [
+      "Gorriones",
+      "m"
+    ],
+    "it": [
+      "Passeri",
+      "m"
+    ],
+    "pt": [
+      "Pardais",
+      "m"
+    ]
+  },
+  "spider": {
+    "de": [
+      "Spinnen",
+      "f"
+    ],
+    "fr": [
+      "Araignées",
+      "f"
+    ],
+    "es": [
+      "Arañas",
+      "f"
+    ],
+    "it": [
+      "Ragni",
+      "m"
+    ],
+    "pt": [
+      "Aranhas",
+      "f"
+    ]
+  },
+  "squid": {
+    "de": [
+      "Tintenfische",
+      "m"
+    ],
+    "fr": [
+      "Calamars",
+      "m"
+    ],
+    "es": [
+      "Calamares",
+      "m"
+    ],
+    "it": [
+      "Calamari",
+      "m"
+    ],
+    "pt": [
+      "Lulas",
+      "f"
+    ],
+    "en": "Squid"
+  },
+  "squirrel": {
+    "de": [
+      "Eichhörnchen",
+      "n"
+    ],
+    "fr": [
+      "Écureuils",
+      "m"
+    ],
+    "es": [
+      "Ardillas",
+      "f"
+    ],
+    "it": [
+      "Scoiattoli",
+      "m"
+    ],
+    "pt": [
+      "Esquilos",
+      "m"
+    ]
+  },
+  "starfish": {
+    "de": [
+      "Seesterne",
+      "m"
+    ],
+    "fr": [
+      "Étoiles de mer",
+      "f"
+    ],
+    "es": [
+      "Estrellas de mar",
+      "f"
+    ],
+    "it": [
+      "Stelle marine",
+      "f"
+    ],
+    "pt": [
+      "Estrelas-do-mar",
+      "f"
+    ]
+  },
+  "stork": {
+    "de": [
+      "Störche",
+      "m"
+    ],
+    "fr": [
+      "Cigognes",
+      "f"
+    ],
+    "es": [
+      "Cigüeñas",
+      "f"
+    ],
+    "it": [
+      "Cicogne",
+      "f"
+    ],
+    "pt": [
+      "Cegonhas",
+      "f"
+    ]
+  },
+  "swan": {
+    "de": [
+      "Schwäne",
+      "m"
+    ],
+    "fr": [
+      "Cygnes",
+      "m"
+    ],
+    "es": [
+      "Cisnes",
+      "m"
+    ],
+    "it": [
+      "Cigni",
+      "m"
+    ],
+    "pt": [
+      "Cisnes",
+      "m"
+    ]
+  },
+  "tiger": {
+    "de": [
+      "Tiger",
+      "m"
+    ],
+    "fr": [
+      "Tigres",
+      "m"
+    ],
+    "es": [
+      "Tigres",
+      "m"
+    ],
+    "it": [
+      "Tigri",
+      "f"
+    ],
+    "pt": [
+      "Tigres",
+      "m"
+    ]
+  },
+  "toad": {
+    "de": [
+      "Kröten",
+      "f"
+    ],
+    "fr": [
+      "Crapauds",
+      "m"
+    ],
+    "es": [
+      "Sapos",
+      "m"
+    ],
+    "it": [
+      "Rospi",
+      "m"
+    ],
+    "pt": [
+      "Sapos",
+      "m"
+    ]
+  },
+  "toucan": {
+    "de": [
+      "Tukane",
+      "m"
+    ],
+    "fr": [
+      "Toucans",
+      "m"
+    ],
+    "es": [
+      "Tucanes",
+      "m"
+    ],
+    "it": [
+      "Tucani",
+      "m"
+    ],
+    "pt": [
+      "Tucanos",
+      "m"
+    ]
+  },
+  "turkey": {
+    "de": [
+      "Truthähne",
+      "m"
+    ],
+    "fr": [
+      "Dindes",
+      "f"
+    ],
+    "es": [
+      "Pavos",
+      "m"
+    ],
+    "it": [
+      "Tacchini",
+      "m"
+    ],
+    "pt": [
+      "Perus",
+      "m"
+    ]
+  },
+  "turtle": {
+    "de": [
+      "Schildkröten",
+      "f"
+    ],
+    "fr": [
+      "Tortues",
+      "f"
+    ],
+    "es": [
+      "Tortugas",
+      "f"
+    ],
+    "it": [
+      "Tartarughe",
+      "f"
+    ],
+    "pt": [
+      "Tartarugas",
+      "f"
+    ]
+  },
+  "unicorn": {
+    "de": [
+      "Einhörner",
+      "n"
+    ],
+    "fr": [
+      "Licornes",
+      "f"
+    ],
+    "es": [
+      "Unicornios",
+      "m"
+    ],
+    "it": [
+      "Unicorni",
+      "m"
+    ],
+    "pt": [
+      "Unicórnios",
+      "m"
+    ]
+  },
+  "vulture": {
+    "de": [
+      "Geier",
+      "m"
+    ],
+    "fr": [
+      "Vautours",
+      "m"
+    ],
+    "es": [
+      "Buitres",
+      "m"
+    ],
+    "it": [
+      "Avvoltoi",
+      "m"
+    ],
+    "pt": [
+      "Abutres",
+      "m"
+    ]
+  },
+  "walrus": {
+    "de": [
+      "Walrosse",
+      "n"
+    ],
+    "fr": [
+      "Morses",
+      "m"
+    ],
+    "es": [
+      "Morsas",
+      "f"
+    ],
+    "it": [
+      "Trichechi",
+      "m"
+    ],
+    "pt": [
+      "Morsas",
+      "f"
+    ]
+  },
+  "wasp": {
+    "de": [
+      "Wespen",
+      "f"
+    ],
+    "fr": [
+      "Guêpes",
+      "f"
+    ],
+    "es": [
+      "Avispas",
+      "f"
+    ],
+    "it": [
+      "Vespe",
+      "f"
+    ],
+    "pt": [
+      "Vespas",
+      "f"
+    ]
+  },
+  "whale": {
+    "de": [
+      "Wale",
+      "m"
+    ],
+    "fr": [
+      "Baleines",
+      "f"
+    ],
+    "es": [
+      "Ballenas",
+      "f"
+    ],
+    "it": [
+      "Balene",
+      "f"
+    ],
+    "pt": [
+      "Baleias",
+      "f"
+    ]
+  },
+  "wolf": {
+    "de": [
+      "Wölfe",
+      "m"
+    ],
+    "fr": [
+      "Loups",
+      "m"
+    ],
+    "es": [
+      "Lobos",
+      "m"
+    ],
+    "it": [
+      "Lupi",
+      "m"
+    ],
+    "pt": [
+      "Lobos",
+      "m"
+    ]
+  },
+  "woodpecker": {
+    "de": [
+      "Spechte",
+      "m"
+    ],
+    "fr": [
+      "Piverts",
+      "m"
+    ],
+    "es": [
+      "Pájaros carpinteros",
+      "m"
+    ],
+    "it": [
+      "Picchi",
+      "m"
+    ],
+    "pt": [
+      "Pica-paus",
+      "m"
+    ]
+  },
+  "worm": {
+    "de": [
+      "Würmer",
+      "m"
+    ],
+    "fr": [
+      "Vers",
+      "m"
+    ],
+    "es": [
+      "Gusanos",
+      "m"
+    ],
+    "it": [
+      "Vermi",
+      "m"
+    ],
+    "pt": [
+      "Vermes",
+      "m"
+    ]
+  },
+  "yak": {
+    "de": [
+      "Yaks",
+      "m"
+    ],
+    "fr": [
+      "Yacks",
+      "m"
+    ],
+    "es": [
+      "Yaks",
+      "m"
+    ],
+    "it": [
+      "Yak",
+      "m"
+    ],
+    "pt": [
+      "Iaques",
+      "m"
+    ]
+  },
+  "zebra": {
+    "de": [
+      "Zebras",
+      "n"
+    ],
+    "fr": [
+      "Zèbres",
+      "m"
+    ],
+    "es": [
+      "Cebras",
+      "f"
+    ],
+    "it": [
+      "Zebre",
+      "f"
+    ],
+    "pt": [
+      "Zebras",
+      "f"
+    ]
+  },
+  "apple": {
+    "de": [
+      "Äpfel",
+      "m"
+    ],
+    "fr": [
+      "Pommes",
+      "f"
+    ],
+    "es": [
+      "Manzanas",
+      "f"
+    ],
+    "it": [
+      "Mele",
+      "f"
+    ],
+    "pt": [
+      "Maçãs",
+      "f"
+    ],
+    "fi": "Omenat"
+  },
+  "apricot": {
+    "de": [
+      "Aprikosen",
+      "f"
+    ],
+    "fr": [
+      "Abricots",
+      "m"
+    ],
+    "es": [
+      "Chabacanos",
+      "m"
+    ],
+    "it": [
+      "Albicocche",
+      "f"
+    ],
+    "pt": [
+      "Damascos",
+      "m"
+    ]
+  },
+  "asparagus": {
+    "de": [
+      "Spargel",
+      "m"
+    ],
+    "fr": [
+      "Asperges",
+      "f"
+    ],
+    "es": [
+      "Espárragos",
+      "m"
+    ],
+    "it": [
+      "Asparagi",
+      "m"
+    ],
+    "pt": [
+      "Aspargos",
+      "m"
+    ]
+  },
+  "avocado": {
+    "de": [
+      "Avocados",
+      "f"
+    ],
+    "fr": [
+      "Avocats",
+      "m"
+    ],
+    "es": [
+      "Aguacates",
+      "m"
+    ],
+    "it": [
+      "Avocado",
+      "m"
+    ],
+    "pt": [
+      "Abacates",
+      "m"
+    ]
+  },
+  "bacon": {
+    "en": "Bacon"
+  },
+  "bagel": {
+    "de": [
+      "Bagels",
+      "m"
+    ],
+    "fr": [
+      "Bagels",
+      "m"
+    ],
+    "es": [
+      "Bagels",
+      "m"
+    ],
+    "it": [
+      "Bagel",
+      "m"
+    ],
+    "pt": [
+      "Bagels",
+      "m"
+    ]
+  },
+  "banana": {
+    "de": [
+      "Bananen",
+      "f"
+    ],
+    "fr": [
+      "Bananes",
+      "f"
+    ],
+    "es": [
+      "Plátanos",
+      "m"
+    ],
+    "it": [
+      "Banane",
+      "f"
+    ],
+    "pt": [
+      "Bananas",
+      "f"
+    ]
+  },
+  "beetroot": {
+    "de": [
+      "Rote Bete",
+      "f"
+    ],
+    "fr": [
+      "Betteraves",
+      "f"
+    ],
+    "es": [
+      "Betabeles",
+      "m"
+    ],
+    "it": [
+      "Barbabietole",
+      "f"
+    ],
+    "pt": [
+      "Beterrabas",
+      "f"
+    ]
+  },
+  "blackberry": {
+    "de": [
+      "Brombeeren",
+      "f"
+    ],
+    "fr": [
+      "Mûres",
+      "f"
+    ],
+    "es": [
+      "Zarzamoras",
+      "f"
+    ],
+    "it": [
+      "More",
+      "f"
+    ],
+    "pt": [
+      "Amoras",
+      "f"
+    ]
+  },
+  "blueberry": {
+    "de": [
+      "Blaubeeren",
+      "f"
+    ],
+    "fr": [
+      "Myrtilles",
+      "f"
+    ],
+    "es": [
+      "Arándanos",
+      "m"
+    ],
+    "it": [
+      "Mirtilli",
+      "m"
+    ],
+    "pt": [
+      "Mirtilos",
+      "m"
+    ]
+  },
+  "bread": {
+    "de": [
+      "Brote",
+      "n"
+    ],
+    "fr": [
+      "Pains",
+      "m"
+    ],
+    "es": [
+      "Panes",
+      "m"
+    ],
+    "it": [
+      "Pani",
+      "m"
+    ],
+    "pt": [
+      "Pães",
+      "m"
+    ]
+  },
+  "broccoli": {
+    "en": "Broccoli"
+  },
+  "brownie": {
+    "de": [
+      "Brownies",
+      "m"
+    ],
+    "fr": [
+      "Brownies",
+      "m"
+    ],
+    "es": [
+      "Brownies",
+      "m"
+    ],
+    "it": [
+      "Brownie",
+      "m"
+    ],
+    "pt": [
+      "Brownies",
+      "m"
+    ]
+  },
+  "butter": {
+    "en": "Butter"
+  },
+  "cabbage": {
+    "de": [
+      "Kohlköpfe",
+      "m"
+    ],
+    "fr": [
+      "Choux",
+      "m"
+    ],
+    "es": [
+      "Coles",
+      "f"
+    ],
+    "it": [
+      "Cavoli",
+      "m"
+    ],
+    "pt": [
+      "Couves",
+      "f"
+    ]
+  },
+  "cake": {
+    "de": [
+      "Kuchen",
+      "m"
+    ],
+    "fr": [
+      "Gâteaux",
+      "m"
+    ],
+    "es": [
+      "Pasteles",
+      "m"
+    ],
+    "it": [
+      "Torte",
+      "f"
+    ],
+    "pt": [
+      "Bolos",
+      "m"
+    ]
+  },
+  "candy": {
+    "de": [
+      "Süßigkeiten",
+      "f"
+    ],
+    "fr": [
+      "Bonbons",
+      "m"
+    ],
+    "es": [
+      "Dulces",
+      "m"
+    ],
+    "it": [
+      "Caramelle",
+      "f"
+    ],
+    "pt": [
+      "Doces",
+      "m"
+    ]
+  },
+  "carrot": {
+    "de": [
+      "Karotten",
+      "f"
+    ],
+    "fr": [
+      "Carottes",
+      "f"
+    ],
+    "es": [
+      "Zanahorias",
+      "f"
+    ],
+    "it": [
+      "Carote",
+      "f"
+    ],
+    "pt": [
+      "Cenouras",
+      "f"
+    ]
+  },
+  "cauliflower": {
+    "de": [
+      "Blumenkohl",
+      "m"
+    ],
+    "fr": [
+      "Choux-fleurs",
+      "m"
+    ],
+    "es": [
+      "Coliflores",
+      "f"
+    ],
+    "it": [
+      "Cavolfiori",
+      "m"
+    ],
+    "pt": [
+      "Couve-flores",
+      "f"
+    ]
+  },
+  "celery": {
+    "en": "Celery"
+  },
+  "cheese": {
+    "en": "Cheese"
+  },
+  "cherry": {
+    "de": [
+      "Kirschen",
+      "f"
+    ],
+    "fr": [
+      "Cerises",
+      "f"
+    ],
+    "es": [
+      "Cerezas",
+      "f"
+    ],
+    "it": [
+      "Ciliegie",
+      "f"
+    ],
+    "pt": [
+      "Cerejas",
+      "f"
+    ]
+  },
+  "chocolate": {
+    "en": "Chocolate"
+  },
+  "coconut": {
+    "de": [
+      "Kokosnüsse",
+      "f"
+    ],
+    "fr": [
+      "Noix de coco",
+      "f"
+    ],
+    "es": [
+      "Cocos",
+      "m"
+    ],
+    "it": [
+      "Noci di cocco",
+      "f"
+    ],
+    "pt": [
+      "Cocos",
+      "m"
+    ]
+  },
+  "cookie": {
+    "de": [
+      "Kekse",
+      "m"
+    ],
+    "fr": [
+      "Biscuits",
+      "m"
+    ],
+    "es": [
+      "Galletas",
+      "f"
+    ],
+    "it": [
+      "Biscotti",
+      "m"
+    ],
+    "pt": [
+      "Biscoitos",
+      "m"
+    ]
+  },
+  "corn": {
+    "en": "Corn"
+  },
+  "cranberry": {
+    "de": [
+      "Cranberries",
+      "f"
+    ],
+    "fr": [
+      "Canneberges",
+      "f"
+    ],
+    "es": [
+      "Arándanos rojos",
+      "m"
+    ],
+    "it": [
+      "Mirtilli rossi",
+      "m"
+    ],
+    "pt": [
+      "Oxicocos",
+      "m"
+    ]
+  },
+  "croissant": {
+    "de": [
+      "Croissants",
+      "n"
+    ],
+    "fr": [
+      "Croissants",
+      "m"
+    ],
+    "es": [
+      "Cuernos",
+      "m"
+    ],
+    "it": [
+      "Cornetti",
+      "m"
+    ],
+    "pt": [
+      "Croissants",
+      "m"
+    ]
+  },
+  "cucumber": {
+    "de": [
+      "Gurken",
+      "f"
+    ],
+    "fr": [
+      "Concombres",
+      "m"
+    ],
+    "es": [
+      "Pepinos",
+      "m"
+    ],
+    "it": [
+      "Cetrioli",
+      "m"
+    ],
+    "pt": [
+      "Pepinos",
+      "m"
+    ]
+  },
+  "cupcake": {
+    "de": [
+      "Cupcakes",
+      "m"
+    ],
+    "fr": [
+      "Cupcakes",
+      "m"
+    ],
+    "es": [
+      "Panquecitos",
+      "m"
+    ],
+    "it": [
+      "Cupcake",
+      "m"
+    ],
+    "pt": [
+      "Cupcakes",
+      "m"
+    ]
+  },
+  "egg": {
+    "de": [
+      "Eier",
+      "n"
+    ],
+    "fr": [
+      "Œufs",
+      "m"
+    ],
+    "es": [
+      "Huevos",
+      "m"
+    ],
+    "it": [
+      "Uova",
+      "f"
+    ],
+    "pt": [
+      "Ovos",
+      "m"
+    ]
+  },
+  "eggplant": {
+    "de": [
+      "Auberginen",
+      "f"
+    ],
+    "fr": [
+      "Aubergines",
+      "f"
+    ],
+    "es": [
+      "Berenjenas",
+      "f"
+    ],
+    "it": [
+      "Melanzane",
+      "f"
+    ],
+    "pt": [
+      "Berinjelas",
+      "f"
+    ]
+  },
+  "fig": {
+    "de": [
+      "Feigen",
+      "f"
+    ],
+    "fr": [
+      "Figues",
+      "f"
+    ],
+    "es": [
+      "Higos",
+      "m"
+    ],
+    "it": [
+      "Fichi",
+      "m"
+    ],
+    "pt": [
+      "Figos",
+      "m"
+    ]
+  },
+  "garlic": {
+    "en": "Garlic"
+  },
+  "grape": {
+    "de": [
+      "Trauben",
+      "f"
+    ],
+    "fr": [
+      "Raisins",
+      "m"
+    ],
+    "es": [
+      "Uvas",
+      "f"
+    ],
+    "it": [
+      "Uva",
+      "f"
+    ],
+    "pt": [
+      "Uvas",
+      "f"
+    ]
+  },
+  "grapefruit": {
+    "de": [
+      "Grapefruits",
+      "f"
+    ],
+    "fr": [
+      "Pamplemousses",
+      "m"
+    ],
+    "es": [
+      "Toronjas",
+      "f"
+    ],
+    "it": [
+      "Pompelmi",
+      "m"
+    ],
+    "pt": [
+      "Toranjas",
+      "f"
+    ]
+  },
+  "guava": {
+    "de": [
+      "Guaven",
+      "f"
+    ],
+    "fr": [
+      "Goyaves",
+      "f"
+    ],
+    "es": [
+      "Guayabas",
+      "f"
+    ],
+    "it": [
+      "Guava",
+      "f"
+    ],
+    "pt": [
+      "Goiabas",
+      "f"
+    ]
+  },
+  "ham": {
+    "de": [
+      "Schinken",
+      "m"
+    ],
+    "fr": [
+      "Jambons",
+      "m"
+    ],
+    "es": [
+      "Jamones",
+      "m"
+    ],
+    "it": [
+      "Prosciutti",
+      "m"
+    ],
+    "pt": [
+      "Presuntos",
+      "m"
+    ]
+  },
+  "hamburger": {
+    "de": [
+      "Hamburger",
+      "m"
+    ],
+    "fr": [
+      "Hamburgers",
+      "m"
+    ],
+    "es": [
+      "Hamburguesas",
+      "f"
+    ],
+    "it": [
+      "Hamburger",
+      "m"
+    ],
+    "pt": [
+      "Hambúrgueres",
+      "m"
+    ]
+  },
+  "honey": {
+    "en": "Honey"
+  },
+  "hot-dog": {
+    "de": [
+      "Hot Dogs",
+      "m"
+    ],
+    "fr": [
+      "Hot-dogs",
+      "m"
+    ],
+    "es": [
+      "Hot dogs",
+      "m"
+    ],
+    "it": [
+      "Hot dog",
+      "m"
+    ],
+    "pt": [
+      "Cachorros-quentes",
+      "m"
+    ]
+  },
+  "ice-cream": {
+    "de": [
+      "Eiscreme",
+      "f"
+    ],
+    "fr": [
+      "Glaces",
+      "f"
+    ],
+    "es": [
+      "Helados",
+      "m"
+    ],
+    "it": [
+      "Gelati",
+      "m"
+    ],
+    "pt": [
+      "Sorvetes",
+      "m"
+    ]
+  },
+  "kiwi": {
+    "de": [
+      "Kiwis",
+      "f"
+    ],
+    "fr": [
+      "Kiwis",
+      "m"
+    ],
+    "es": [
+      "Kiwis",
+      "m"
+    ],
+    "it": [
+      "Kiwi",
+      "m"
+    ],
+    "pt": [
+      "Kiwis",
+      "m"
+    ]
+  },
+  "lemon": {
+    "de": [
+      "Zitronen",
+      "f"
+    ],
+    "fr": [
+      "Citrons",
+      "m"
+    ],
+    "es": [
+      "Limones",
+      "m"
+    ],
+    "it": [
+      "Limoni",
+      "m"
+    ],
+    "pt": [
+      "Limões",
+      "m"
+    ]
+  },
+  "lettuce": {
+    "en": "Lettuce"
+  },
+  "lime": {
+    "de": [
+      "Limetten",
+      "f"
+    ],
+    "fr": [
+      "Limes",
+      "m"
+    ],
+    "es": [
+      "Limas",
+      "f"
+    ],
+    "it": [
+      "Lime",
+      "m"
+    ],
+    "pt": [
+      "Limas",
+      "f"
+    ]
+  },
+  "mango": {
+    "de": [
+      "Mangos",
+      "f"
+    ],
+    "fr": [
+      "Mangues",
+      "f"
+    ],
+    "es": [
+      "Mangos",
+      "m"
+    ],
+    "it": [
+      "Manghi",
+      "m"
+    ],
+    "pt": [
+      "Mangas",
+      "f"
+    ]
+  },
+  "melon": {
+    "de": [
+      "Melonen",
+      "f"
+    ],
+    "fr": [
+      "Melons",
+      "m"
+    ],
+    "es": [
+      "Melones",
+      "m"
+    ],
+    "it": [
+      "Meloni",
+      "m"
+    ],
+    "pt": [
+      "Melões",
+      "m"
+    ]
+  },
+  "milk": {
+    "en": "Milk"
+  },
+  "mushroom": {
+    "de": [
+      "Pilze",
+      "m"
+    ],
+    "fr": [
+      "Champignons",
+      "m"
+    ],
+    "es": [
+      "Champiñones",
+      "m"
+    ],
+    "it": [
+      "Funghi",
+      "m"
+    ],
+    "pt": [
+      "Cogumelos",
+      "m"
+    ]
+  },
+  "olive": {
+    "de": [
+      "Oliven",
+      "f"
+    ],
+    "fr": [
+      "Olives",
+      "f"
+    ],
+    "es": [
+      "Aceitunas",
+      "f"
+    ],
+    "it": [
+      "Olive",
+      "f"
+    ],
+    "pt": [
+      "Azeitonas",
+      "f"
+    ]
+  },
+  "onion": {
+    "de": [
+      "Zwiebeln",
+      "f"
+    ],
+    "fr": [
+      "Oignons",
+      "m"
+    ],
+    "es": [
+      "Cebollas",
+      "f"
+    ],
+    "it": [
+      "Cipolle",
+      "f"
+    ],
+    "pt": [
+      "Cebolas",
+      "f"
+    ]
+  },
+  "orange": {
+    "de": [
+      "Orangen",
+      "f"
+    ],
+    "fr": [
+      "Oranges",
+      "f"
+    ],
+    "es": [
+      "Naranjas",
+      "f"
+    ],
+    "it": [
+      "Arance",
+      "f"
+    ],
+    "pt": [
+      "Laranjas",
+      "f"
+    ]
+  },
+  "peach": {
+    "de": [
+      "Pfirsiche",
+      "m"
+    ],
+    "fr": [
+      "Pêches",
+      "f"
+    ],
+    "es": [
+      "Duraznos",
+      "m"
+    ],
+    "it": [
+      "Pesche",
+      "f"
+    ],
+    "pt": [
+      "Pêssegos",
+      "m"
+    ]
+  },
+  "peanut": {
+    "de": [
+      "Erdnüsse",
+      "f"
+    ],
+    "fr": [
+      "Cacahuètes",
+      "f"
+    ],
+    "es": [
+      "Cacahuates",
+      "m"
+    ],
+    "it": [
+      "Arachidi",
+      "f"
+    ],
+    "pt": [
+      "Amendoins",
+      "m"
+    ]
+  },
+  "pear": {
+    "de": [
+      "Birnen",
+      "f"
+    ],
+    "fr": [
+      "Poires",
+      "f"
+    ],
+    "es": [
+      "Peras",
+      "f"
+    ],
+    "it": [
+      "Pere",
+      "f"
+    ],
+    "pt": [
+      "Pêras",
+      "f"
+    ]
+  },
+  "peas": {
+    "de": [
+      "Erbsen",
+      "f"
+    ],
+    "fr": [
+      "Petits pois",
+      "m"
+    ],
+    "es": [
+      "Chícharos",
+      "m"
+    ],
+    "it": [
+      "Piselli",
+      "m"
+    ],
+    "pt": [
+      "Ervilhas",
+      "f"
+    ]
+  },
+  "pepper": {
+    "de": [
+      "Pfeffer",
+      "m"
+    ],
+    "fr": [
+      "Poivrons",
+      "m"
+    ],
+    "es": [
+      "Pimientos",
+      "m"
+    ],
+    "it": [
+      "Peperoni",
+      "m"
+    ],
+    "pt": [
+      "Pimentões",
+      "m"
+    ]
+  },
+  "pineapple": {
+    "de": [
+      "Ananas",
+      "f"
+    ],
+    "fr": [
+      "Ananas",
+      "m"
+    ],
+    "es": [
+      "Piñas",
+      "f"
+    ],
+    "it": [
+      "Ananas",
+      "m"
+    ],
+    "pt": [
+      "Abacaxis",
+      "m"
+    ]
+  },
+  "pizza": {
+    "de": [
+      "Pizzas",
+      "f"
+    ],
+    "fr": [
+      "Pizzas",
+      "f"
+    ],
+    "es": [
+      "Pizzas",
+      "f"
+    ],
+    "it": [
+      "Pizze",
+      "f"
+    ],
+    "pt": [
+      "Pizzas",
+      "f"
+    ]
+  },
+  "plum": {
+    "de": [
+      "Pflaumen",
+      "f"
+    ],
+    "fr": [
+      "Prunes",
+      "f"
+    ],
+    "es": [
+      "Ciruelas",
+      "f"
+    ],
+    "it": [
+      "Prugne",
+      "f"
+    ],
+    "pt": [
+      "Ameixas",
+      "f"
+    ]
+  },
+  "pomegranate": {
+    "de": [
+      "Granatäpfel",
+      "m"
+    ],
+    "fr": [
+      "Grenades",
+      "f"
+    ],
+    "es": [
+      "Granadas",
+      "f"
+    ],
+    "it": [
+      "Melagrane",
+      "f"
+    ],
+    "pt": [
+      "Romãs",
+      "f"
+    ]
+  },
+  "potato": {
+    "de": [
+      "Kartoffeln",
+      "f"
+    ],
+    "fr": [
+      "Pommes de terre",
+      "f"
+    ],
+    "es": [
+      "Papas",
+      "f"
+    ],
+    "it": [
+      "Patate",
+      "f"
+    ],
+    "pt": [
+      "Batatas",
+      "f"
+    ]
+  },
+  "pumpkin": {
+    "de": [
+      "Kürbisse",
+      "m"
+    ],
+    "fr": [
+      "Citrouilles",
+      "f"
+    ],
+    "es": [
+      "Calabazas",
+      "f"
+    ],
+    "it": [
+      "Zucche",
+      "f"
+    ],
+    "pt": [
+      "Abóboras",
+      "f"
+    ]
+  },
+  "radish": {
+    "de": [
+      "Radieschen",
+      "n"
+    ],
+    "fr": [
+      "Radis",
+      "m"
+    ],
+    "es": [
+      "Rábanos",
+      "m"
+    ],
+    "it": [
+      "Ravanelli",
+      "m"
+    ],
+    "pt": [
+      "Rabanetes",
+      "m"
+    ]
+  },
+  "raspberry": {
+    "de": [
+      "Himbeeren",
+      "f"
+    ],
+    "fr": [
+      "Framboises",
+      "f"
+    ],
+    "es": [
+      "Frambuesas",
+      "f"
+    ],
+    "it": [
+      "Lamponi",
+      "m"
+    ],
+    "pt": [
+      "Framboesas",
+      "f"
+    ]
+  },
+  "rice": {
+    "en": "Rice"
+  },
+  "salad": {
+    "de": [
+      "Salate",
+      "m"
+    ],
+    "fr": [
+      "Salades",
+      "f"
+    ],
+    "es": [
+      "Ensaladas",
+      "f"
+    ],
+    "it": [
+      "Insalate",
+      "f"
+    ],
+    "pt": [
+      "Saladas",
+      "f"
+    ]
+  },
+  "sandwich": {
+    "de": [
+      "Sandwiches",
+      "n"
+    ],
+    "fr": [
+      "Sandwichs",
+      "m"
+    ],
+    "es": [
+      "Sándwiches",
+      "m"
+    ],
+    "it": [
+      "Panini",
+      "m"
+    ],
+    "pt": [
+      "Sanduíches",
+      "m"
+    ]
+  },
+  "sausage": {
+    "de": [
+      "Würstchen",
+      "n"
+    ],
+    "fr": [
+      "Saucisses",
+      "f"
+    ],
+    "es": [
+      "Salchichas",
+      "f"
+    ],
+    "it": [
+      "Salsicce",
+      "f"
+    ],
+    "pt": [
+      "Salsichas",
+      "f"
+    ]
+  },
+  "spinach": {
+    "en": "Spinach"
+  },
+  "strawberry": {
+    "de": [
+      "Erdbeeren",
+      "f"
+    ],
+    "fr": [
+      "Fraises",
+      "f"
+    ],
+    "es": [
+      "Fresas",
+      "f"
+    ],
+    "it": [
+      "Fragole",
+      "f"
+    ],
+    "pt": [
+      "Morangos",
+      "m"
+    ]
+  },
+  "tomato": {
+    "de": [
+      "Tomaten",
+      "f"
+    ],
+    "fr": [
+      "Tomates",
+      "f"
+    ],
+    "es": [
+      "Tomates",
+      "m"
+    ],
+    "it": [
+      "Pomodori",
+      "m"
+    ],
+    "pt": [
+      "Tomates",
+      "m"
+    ]
+  },
+  "watermelon": {
+    "de": [
+      "Wassermelonen",
+      "f"
+    ],
+    "fr": [
+      "Pastèques",
+      "f"
+    ],
+    "es": [
+      "Sandías",
+      "f"
+    ],
+    "it": [
+      "Angurie",
+      "f"
+    ],
+    "pt": [
+      "Melancias",
+      "f"
+    ]
+  },
+  "armchair": {
+    "de": [
+      "Sessel",
+      "m"
+    ],
+    "fr": [
+      "Fauteuils",
+      "m"
+    ],
+    "es": [
+      "Sillones",
+      "m"
+    ],
+    "it": [
+      "Poltrone",
+      "f"
+    ],
+    "pt": [
+      "Poltronas",
+      "f"
+    ]
+  },
+  "ball": {
+    "de": [
+      "Bälle",
+      "m"
+    ],
+    "fr": [
+      "Ballons",
+      "m"
+    ],
+    "es": [
+      "Pelotas",
+      "f"
+    ],
+    "it": [
+      "Palle",
+      "f"
+    ],
+    "pt": [
+      "Bolas",
+      "f"
+    ]
+  },
+  "basket": {
+    "de": [
+      "Körbe",
+      "m"
+    ],
+    "fr": [
+      "Paniers",
+      "m"
+    ],
+    "es": [
+      "Canastas",
+      "f"
+    ],
+    "it": [
+      "Cestini",
+      "m"
+    ],
+    "pt": [
+      "Cestas",
+      "f"
+    ]
+  },
+  "bed": {
+    "de": [
+      "Betten",
+      "n"
+    ],
+    "fr": [
+      "Lits",
+      "m"
+    ],
+    "es": [
+      "Camas",
+      "f"
+    ],
+    "it": [
+      "Letti",
+      "m"
+    ],
+    "pt": [
+      "Camas",
+      "f"
+    ]
+  },
+  "bell": {
+    "de": [
+      "Glocken",
+      "f"
+    ],
+    "fr": [
+      "Cloches",
+      "f"
+    ],
+    "es": [
+      "Campanas",
+      "f"
+    ],
+    "it": [
+      "Campane",
+      "f"
+    ],
+    "pt": [
+      "Sinos",
+      "m"
+    ]
+  },
+  "blanket": {
+    "de": [
+      "Decken",
+      "f"
+    ],
+    "fr": [
+      "Couvertures",
+      "f"
+    ],
+    "es": [
+      "Cobijas",
+      "f"
+    ],
+    "it": [
+      "Coperte",
+      "f"
+    ],
+    "pt": [
+      "Cobertores",
+      "m"
+    ]
+  },
+  "boat": {
+    "de": [
+      "Boote",
+      "n"
+    ],
+    "fr": [
+      "Bateaux",
+      "m"
+    ],
+    "es": [
+      "Botes",
+      "m"
+    ],
+    "it": [
+      "Barche",
+      "f"
+    ],
+    "pt": [
+      "Barcos",
+      "m"
+    ]
+  },
+  "book": {
+    "de": [
+      "Bücher",
+      "n"
+    ],
+    "fr": [
+      "Livres",
+      "m"
+    ],
+    "es": [
+      "Libros",
+      "m"
+    ],
+    "it": [
+      "Libri",
+      "m"
+    ],
+    "pt": [
+      "Livros",
+      "m"
+    ]
+  },
+  "bottle": {
+    "de": [
+      "Flaschen",
+      "f"
+    ],
+    "fr": [
+      "Bouteilles",
+      "f"
+    ],
+    "es": [
+      "Botellas",
+      "f"
+    ],
+    "it": [
+      "Bottiglie",
+      "f"
+    ],
+    "pt": [
+      "Garrafas",
+      "f"
+    ]
+  },
+  "bowl": {
+    "de": [
+      "Schüsseln",
+      "f"
+    ],
+    "fr": [
+      "Bols",
+      "m"
+    ],
+    "es": [
+      "Tazones",
+      "m"
+    ],
+    "it": [
+      "Ciotole",
+      "f"
+    ],
+    "pt": [
+      "Tigelas",
+      "f"
+    ]
+  },
+  "box": {
+    "de": [
+      "Schachteln",
+      "f"
+    ],
+    "fr": [
+      "Boîtes",
+      "f"
+    ],
+    "es": [
+      "Cajas",
+      "f"
+    ],
+    "it": [
+      "Scatole",
+      "f"
+    ],
+    "pt": [
+      "Caixas",
+      "f"
+    ]
+  },
+  "broom": {
+    "de": [
+      "Besen",
+      "m"
+    ],
+    "fr": [
+      "Balais",
+      "m"
+    ],
+    "es": [
+      "Escobas",
+      "f"
+    ],
+    "it": [
+      "Scope",
+      "f"
+    ],
+    "pt": [
+      "Vassouras",
+      "f"
+    ]
+  },
+  "brush": {
+    "de": [
+      "Bürsten",
+      "f"
+    ],
+    "fr": [
+      "Brosses",
+      "f"
+    ],
+    "es": [
+      "Cepillos",
+      "m"
+    ],
+    "it": [
+      "Spazzole",
+      "f"
+    ],
+    "pt": [
+      "Escovas",
+      "f"
+    ]
+  },
+  "bucket": {
+    "de": [
+      "Eimer",
+      "m"
+    ],
+    "fr": [
+      "Seaux",
+      "m"
+    ],
+    "es": [
+      "Cubetas",
+      "f"
+    ],
+    "it": [
+      "Secchielli",
+      "m"
+    ],
+    "pt": [
+      "Baldes",
+      "m"
+    ]
+  },
+  "cabinet": {
+    "de": [
+      "Schränke",
+      "m"
+    ],
+    "fr": [
+      "Armoires",
+      "f"
+    ],
+    "es": [
+      "Gabinetes",
+      "m"
+    ],
+    "it": [
+      "Armadi",
+      "m"
+    ],
+    "pt": [
+      "Armários",
+      "m"
+    ]
+  },
+  "candle": {
+    "de": [
+      "Kerzen",
+      "f"
+    ],
+    "fr": [
+      "Bougies",
+      "f"
+    ],
+    "es": [
+      "Velas",
+      "f"
+    ],
+    "it": [
+      "Candele",
+      "f"
+    ],
+    "pt": [
+      "Velas",
+      "f"
+    ]
+  },
+  "car": {
+    "de": [
+      "Autos",
+      "n"
+    ],
+    "fr": [
+      "Voitures",
+      "f"
+    ],
+    "es": [
+      "Carros",
+      "m"
+    ],
+    "it": [
+      "Automobili",
+      "f"
+    ],
+    "pt": [
+      "Carros",
+      "m"
+    ]
+  },
+  "carpet": {
+    "de": [
+      "Teppiche",
+      "m"
+    ],
+    "fr": [
+      "Tapis",
+      "m"
+    ],
+    "es": [
+      "Alfombras",
+      "f"
+    ],
+    "it": [
+      "Tappeti",
+      "m"
+    ],
+    "pt": [
+      "Tapetes",
+      "m"
+    ]
+  },
+  "chair": {
+    "de": [
+      "Stühle",
+      "m"
+    ],
+    "fr": [
+      "Chaises",
+      "f"
+    ],
+    "es": [
+      "Sillas",
+      "f"
+    ],
+    "it": [
+      "Sedie",
+      "f"
+    ],
+    "pt": [
+      "Cadeiras",
+      "f"
+    ]
+  },
+  "clock": {
+    "de": [
+      "Uhren",
+      "f"
+    ],
+    "fr": [
+      "Horloges",
+      "f"
+    ],
+    "es": [
+      "Relojes",
+      "m"
+    ],
+    "it": [
+      "Orologi",
+      "m"
+    ],
+    "pt": [
+      "Relógios",
+      "m"
+    ]
+  },
+  "closet": {
+    "de": [
+      "Schränke",
+      "m"
+    ],
+    "fr": [
+      "Placards",
+      "m"
+    ],
+    "es": [
+      "Clósets",
+      "m"
+    ],
+    "it": [
+      "Armadi",
+      "m"
+    ],
+    "pt": [
+      "Armários",
+      "m"
+    ]
+  },
+  "computer": {
+    "de": [
+      "Computer",
+      "m"
+    ],
+    "fr": [
+      "Ordinateurs",
+      "m"
+    ],
+    "es": [
+      "Computadoras",
+      "f"
+    ],
+    "it": [
+      "Computer",
+      "m"
+    ],
+    "pt": [
+      "Computadores",
+      "m"
+    ]
+  },
+  "couch": {
+    "de": [
+      "Couches",
+      "f"
+    ],
+    "fr": [
+      "Canapés",
+      "m"
+    ],
+    "es": [
+      "Sofás",
+      "m"
+    ],
+    "it": [
+      "Divani",
+      "m"
+    ],
+    "pt": [
+      "Sofás",
+      "m"
+    ]
+  },
+  "cup": {
+    "de": [
+      "Tassen",
+      "f"
+    ],
+    "fr": [
+      "Tasses",
+      "f"
+    ],
+    "es": [
+      "Tazas",
+      "f"
+    ],
+    "it": [
+      "Tazze",
+      "f"
+    ],
+    "pt": [
+      "Xícaras",
+      "f"
+    ]
+  },
+  "curtain": {
+    "de": [
+      "Vorhänge",
+      "m"
+    ],
+    "fr": [
+      "Rideaux",
+      "m"
+    ],
+    "es": [
+      "Cortinas",
+      "f"
+    ],
+    "it": [
+      "Tende",
+      "f"
+    ],
+    "pt": [
+      "Cortinas",
+      "f"
+    ]
+  },
+  "cushion": {
+    "de": [
+      "Kissen",
+      "n"
+    ],
+    "fr": [
+      "Coussins",
+      "m"
+    ],
+    "es": [
+      "Cojines",
+      "m"
+    ],
+    "it": [
+      "Cuscini",
+      "m"
+    ],
+    "pt": [
+      "Almofadas",
+      "f"
+    ]
+  },
+  "desk": {
+    "de": [
+      "Schreibtische",
+      "m"
+    ],
+    "fr": [
+      "Bureaux",
+      "m"
+    ],
+    "es": [
+      "Escritorios",
+      "m"
+    ],
+    "it": [
+      "Scrivanie",
+      "f"
+    ],
+    "pt": [
+      "Escrivaninhas",
+      "f"
+    ]
+  },
+  "door": {
+    "de": [
+      "Türen",
+      "f"
+    ],
+    "fr": [
+      "Portes",
+      "f"
+    ],
+    "es": [
+      "Puertas",
+      "f"
+    ],
+    "it": [
+      "Porte",
+      "f"
+    ],
+    "pt": [
+      "Portas",
+      "f"
+    ]
+  },
+  "drawer": {
+    "de": [
+      "Schubladen",
+      "f"
+    ],
+    "fr": [
+      "Tiroirs",
+      "m"
+    ],
+    "es": [
+      "Cajones",
+      "m"
+    ],
+    "it": [
+      "Cassetti",
+      "m"
+    ],
+    "pt": [
+      "Gavetas",
+      "f"
+    ]
+  },
+  "fan": {
+    "de": [
+      "Ventilatoren",
+      "m"
+    ],
+    "fr": [
+      "Ventilateurs",
+      "m"
+    ],
+    "es": [
+      "Ventiladores",
+      "m"
+    ],
+    "it": [
+      "Ventilatori",
+      "m"
+    ],
+    "pt": [
+      "Ventiladores",
+      "m"
+    ]
+  },
+  "fence": {
+    "de": [
+      "Zäune",
+      "m"
+    ],
+    "fr": [
+      "Clôtures",
+      "f"
+    ],
+    "es": [
+      "Cercas",
+      "f"
+    ],
+    "it": [
+      "Recinzioni",
+      "f"
+    ],
+    "pt": [
+      "Cercas",
+      "f"
+    ]
+  },
+  "flag": {
+    "de": [
+      "Flaggen",
+      "f"
+    ],
+    "fr": [
+      "Drapeaux",
+      "m"
+    ],
+    "es": [
+      "Banderas",
+      "f"
+    ],
+    "it": [
+      "Bandiere",
+      "f"
+    ],
+    "pt": [
+      "Bandeiras",
+      "f"
+    ]
+  },
+  "flower": {
+    "de": [
+      "Blumen",
+      "f"
+    ],
+    "fr": [
+      "Fleurs",
+      "f"
+    ],
+    "es": [
+      "Flores",
+      "f"
+    ],
+    "it": [
+      "Fiori",
+      "m"
+    ],
+    "pt": [
+      "Flores",
+      "f"
+    ]
+  },
+  "fork": {
+    "de": [
+      "Gabeln",
+      "f"
+    ],
+    "fr": [
+      "Fourchettes",
+      "f"
+    ],
+    "es": [
+      "Tenedores",
+      "m"
+    ],
+    "it": [
+      "Forchette",
+      "f"
+    ],
+    "pt": [
+      "Garfos",
+      "m"
+    ]
+  },
+  "glass": {
+    "de": [
+      "Gläser",
+      "n"
+    ],
+    "fr": [
+      "Verres",
+      "m"
+    ],
+    "es": [
+      "Vasos",
+      "m"
+    ],
+    "it": [
+      "Bicchieri",
+      "m"
+    ],
+    "pt": [
+      "Copos",
+      "m"
+    ]
+  },
+  "globe": {
+    "de": [
+      "Globen",
+      "m"
+    ],
+    "fr": [
+      "Globes",
+      "m"
+    ],
+    "es": [
+      "Globos",
+      "m"
+    ],
+    "it": [
+      "Globi",
+      "m"
+    ],
+    "pt": [
+      "Globos",
+      "m"
+    ]
+  },
+  "hammer": {
+    "de": [
+      "Hämmer",
+      "m"
+    ],
+    "fr": [
+      "Marteaux",
+      "m"
+    ],
+    "es": [
+      "Martillos",
+      "m"
+    ],
+    "it": [
+      "Martelli",
+      "m"
+    ],
+    "pt": [
+      "Martelos",
+      "m"
+    ]
+  },
+  "hat": {
+    "de": [
+      "Hüte",
+      "m"
+    ],
+    "fr": [
+      "Chapeaux",
+      "m"
+    ],
+    "es": [
+      "Sombreros",
+      "m"
+    ],
+    "it": [
+      "Cappelli",
+      "m"
+    ],
+    "pt": [
+      "Chapéus",
+      "m"
+    ]
+  },
+  "house": {
+    "de": [
+      "Häuser",
+      "n"
+    ],
+    "fr": [
+      "Maisons",
+      "f"
+    ],
+    "es": [
+      "Casas",
+      "f"
+    ],
+    "it": [
+      "Case",
+      "f"
+    ],
+    "pt": [
+      "Casas",
+      "f"
+    ]
+  },
+  "key": {
+    "de": [
+      "Schlüssel",
+      "m"
+    ],
+    "fr": [
+      "Clés",
+      "f"
+    ],
+    "es": [
+      "Llaves",
+      "f"
+    ],
+    "it": [
+      "Chiavi",
+      "f"
+    ],
+    "pt": [
+      "Chaves",
+      "f"
+    ]
+  },
+  "knife": {
+    "de": [
+      "Messer",
+      "n"
+    ],
+    "fr": [
+      "Couteaux",
+      "m"
+    ],
+    "es": [
+      "Cuchillos",
+      "m"
+    ],
+    "it": [
+      "Coltelli",
+      "m"
+    ],
+    "pt": [
+      "Facas",
+      "f"
+    ]
+  },
+  "lamp": {
+    "de": [
+      "Lampen",
+      "f"
+    ],
+    "fr": [
+      "Lampes",
+      "f"
+    ],
+    "es": [
+      "Lámparas",
+      "f"
+    ],
+    "it": [
+      "Lampade",
+      "f"
+    ],
+    "pt": [
+      "Lâmpadas",
+      "f"
+    ]
+  },
+  "mirror": {
+    "de": [
+      "Spiegel",
+      "m"
+    ],
+    "fr": [
+      "Miroirs",
+      "m"
+    ],
+    "es": [
+      "Espejos",
+      "m"
+    ],
+    "it": [
+      "Specchi",
+      "m"
+    ],
+    "pt": [
+      "Espelhos",
+      "m"
+    ]
+  },
+  "oven": {
+    "de": [
+      "Öfen",
+      "m"
+    ],
+    "fr": [
+      "Fours",
+      "m"
+    ],
+    "es": [
+      "Hornos",
+      "m"
+    ],
+    "it": [
+      "Forni",
+      "m"
+    ],
+    "pt": [
+      "Fornos",
+      "m"
+    ]
+  },
+  "pillow": {
+    "de": [
+      "Kissen",
+      "n"
+    ],
+    "fr": [
+      "Oreillers",
+      "m"
+    ],
+    "es": [
+      "Almohadas",
+      "f"
+    ],
+    "it": [
+      "Cuscini",
+      "m"
+    ],
+    "pt": [
+      "Travesseiros",
+      "m"
+    ]
+  },
+  "plate": {
+    "de": [
+      "Teller",
+      "m"
+    ],
+    "fr": [
+      "Assiettes",
+      "f"
+    ],
+    "es": [
+      "Platos",
+      "m"
+    ],
+    "it": [
+      "Piatti",
+      "m"
+    ],
+    "pt": [
+      "Pratos",
+      "m"
+    ]
+  },
+  "pot": {
+    "de": [
+      "Töpfe",
+      "m"
+    ],
+    "fr": [
+      "Pots",
+      "m"
+    ],
+    "es": [
+      "Ollas",
+      "f"
+    ],
+    "it": [
+      "Pentole",
+      "f"
+    ],
+    "pt": [
+      "Panelas",
+      "f"
+    ]
+  },
+  "rug": {
+    "de": [
+      "Teppiche",
+      "m"
+    ],
+    "fr": [
+      "Tapis",
+      "m"
+    ],
+    "es": [
+      "Alfombras",
+      "f"
+    ],
+    "it": [
+      "Tappeti",
+      "m"
+    ],
+    "pt": [
+      "Tapetes",
+      "m"
+    ]
+  },
+  "scissors": {
+    "de": [
+      "Scheren",
+      "f"
+    ],
+    "fr": [
+      "Ciseaux",
+      "m"
+    ],
+    "es": [
+      "Tijeras",
+      "f"
+    ],
+    "it": [
+      "Forbici",
+      "f"
+    ],
+    "pt": [
+      "Tesouras",
+      "f"
+    ],
+    "en": "Scissors"
+  },
+  "shelf": {
+    "de": [
+      "Regale",
+      "n"
+    ],
+    "fr": [
+      "Étagères",
+      "f"
+    ],
+    "es": [
+      "Estantes",
+      "m"
+    ],
+    "it": [
+      "Scaffali",
+      "m"
+    ],
+    "pt": [
+      "Prateleiras",
+      "f"
+    ]
+  },
+  "shoe": {
+    "de": [
+      "Schuhe",
+      "m"
+    ],
+    "fr": [
+      "Chaussures",
+      "f"
+    ],
+    "es": [
+      "Zapatos",
+      "m"
+    ],
+    "it": [
+      "Scarpe",
+      "f"
+    ],
+    "pt": [
+      "Sapatos",
+      "m"
+    ]
+  },
+  "soap": {
+    "de": [
+      "Seifen",
+      "f"
+    ],
+    "fr": [
+      "Savons",
+      "m"
+    ],
+    "es": [
+      "Jabones",
+      "m"
+    ],
+    "it": [
+      "Saponi",
+      "m"
+    ],
+    "pt": [
+      "Sabonetes",
+      "m"
+    ]
+  },
+  "spoon": {
+    "de": [
+      "Löffel",
+      "m"
+    ],
+    "fr": [
+      "Cuillères",
+      "f"
+    ],
+    "es": [
+      "Cucharas",
+      "f"
+    ],
+    "it": [
+      "Cucchiai",
+      "m"
+    ],
+    "pt": [
+      "Colheres",
+      "f"
+    ]
+  },
+  "star": {
+    "de": [
+      "Sterne",
+      "m"
+    ],
+    "fr": [
+      "Étoiles",
+      "f"
+    ],
+    "es": [
+      "Estrellas",
+      "f"
+    ],
+    "it": [
+      "Stelle",
+      "f"
+    ],
+    "pt": [
+      "Estrelas",
+      "f"
+    ],
+    "nl": [
+      "Sterren",
+      "d"
+    ],
+    "sv": [
+      "Stjärnor",
+      "n"
+    ],
+    "da": [
+      "Stjerner",
+      "n"
+    ],
+    "no": [
+      "Stjerner",
+      "f"
+    ],
+    "fi": "Tähdet"
+  },
+  "stool": {
+    "de": [
+      "Hocker",
+      "m"
+    ],
+    "fr": [
+      "Tabourets",
+      "m"
+    ],
+    "es": [
+      "Taburetes",
+      "m"
+    ],
+    "it": [
+      "Sgabelli",
+      "m"
+    ],
+    "pt": [
+      "Banquetas",
+      "f"
+    ]
+  },
+  "sun": {
+    "de": [
+      "Sonnen",
+      "f"
+    ],
+    "fr": [
+      "Soleils",
+      "m"
+    ],
+    "es": [
+      "Soles",
+      "m"
+    ],
+    "it": [
+      "Soli",
+      "m"
+    ],
+    "pt": [
+      "Sóis",
+      "m"
+    ]
+  },
+  "table": {
+    "de": [
+      "Tische",
+      "m"
+    ],
+    "fr": [
+      "Tables",
+      "f"
+    ],
+    "es": [
+      "Mesas",
+      "f"
+    ],
+    "it": [
+      "Tavoli",
+      "m"
+    ],
+    "pt": [
+      "Mesas",
+      "f"
+    ]
+  },
+  "tooth": {
+    "de": [
+      "Zähne",
+      "m"
+    ],
+    "fr": [
+      "Dents",
+      "f"
+    ],
+    "es": [
+      "Dientes",
+      "m"
+    ],
+    "it": [
+      "Denti",
+      "m"
+    ],
+    "pt": [
+      "Dentes",
+      "m"
+    ]
+  },
+  "towel": {
+    "de": [
+      "Handtücher",
+      "n"
+    ],
+    "fr": [
+      "Serviettes",
+      "f"
+    ],
+    "es": [
+      "Toallas",
+      "f"
+    ],
+    "it": [
+      "Asciugamani",
+      "m"
+    ],
+    "pt": [
+      "Toalhas",
+      "f"
+    ]
+  },
+  "tree": {
+    "de": [
+      "Bäume",
+      "m"
+    ],
+    "fr": [
+      "Arbres",
+      "m"
+    ],
+    "es": [
+      "Árboles",
+      "m"
+    ],
+    "it": [
+      "Alberi",
+      "m"
+    ],
+    "pt": [
+      "Árvores",
+      "f"
+    ]
+  },
+  "umbrella": {
+    "de": [
+      "Regenschirme",
+      "m"
+    ],
+    "fr": [
+      "Parapluies",
+      "m"
+    ],
+    "es": [
+      "Paraguas",
+      "m"
+    ],
+    "it": [
+      "Ombrelli",
+      "m"
+    ],
+    "pt": [
+      "Guarda-chuvas",
+      "m"
+    ]
+  },
+  "vase": {
+    "de": [
+      "Vasen",
+      "f"
+    ],
+    "fr": [
+      "Vases",
+      "m"
+    ],
+    "es": [
+      "Jarrones",
+      "m"
+    ],
+    "it": [
+      "Vasi",
+      "m"
+    ],
+    "pt": [
+      "Vasos",
+      "m"
+    ]
+  },
+  "wall": {
+    "de": [
+      "Wände",
+      "f"
+    ],
+    "fr": [
+      "Murs",
+      "m"
+    ],
+    "es": [
+      "Paredes",
+      "f"
+    ],
+    "it": [
+      "Muri",
+      "m"
+    ],
+    "pt": [
+      "Paredes",
+      "f"
+    ]
+  },
+  "watch": {
+    "de": [
+      "Uhren",
+      "f"
+    ],
+    "fr": [
+      "Montres",
+      "f"
+    ],
+    "es": [
+      "Relojes",
+      "m"
+    ],
+    "it": [
+      "Orologi",
+      "m"
+    ],
+    "pt": [
+      "Relógios",
+      "m"
+    ]
+  },
+  "wheel": {
+    "de": [
+      "Räder",
+      "n"
+    ],
+    "fr": [
+      "Roues",
+      "f"
+    ],
+    "es": [
+      "Ruedas",
+      "f"
+    ],
+    "it": [
+      "Ruote",
+      "f"
+    ],
+    "pt": [
+      "Rodas",
+      "f"
+    ]
+  },
+  "window": {
+    "de": [
+      "Fenster",
+      "n"
+    ],
+    "fr": [
+      "Fenêtres",
+      "f"
+    ],
+    "es": [
+      "Ventanas",
+      "f"
+    ],
+    "it": [
+      "Finestre",
+      "f"
+    ],
+    "pt": [
+      "Janelas",
+      "f"
+    ]
+  },
+  "belt": {
+    "de": [
+      "Gürtel",
+      "m"
+    ],
+    "fr": [
+      "Ceintures",
+      "f"
+    ],
+    "es": [
+      "Cinturones",
+      "m"
+    ],
+    "it": [
+      "Cinture",
+      "f"
+    ],
+    "pt": [
+      "Cintos",
+      "m"
+    ]
+  },
+  "boots": {
+    "de": [
+      "Stiefel",
+      "m"
+    ],
+    "fr": [
+      "Bottes",
+      "f"
+    ],
+    "es": [
+      "Botas",
+      "f"
+    ],
+    "it": [
+      "Stivali",
+      "m"
+    ],
+    "pt": [
+      "Botas",
+      "f"
+    ]
+  },
+  "cap": {
+    "de": [
+      "Kappen",
+      "f"
+    ],
+    "fr": [
+      "Casquettes",
+      "f"
+    ],
+    "es": [
+      "Gorras",
+      "f"
+    ],
+    "it": [
+      "Cappellini",
+      "m"
+    ],
+    "pt": [
+      "Bonés",
+      "m"
+    ]
+  },
+  "coat": {
+    "de": [
+      "Mäntel",
+      "m"
+    ],
+    "fr": [
+      "Manteaux",
+      "m"
+    ],
+    "es": [
+      "Abrigos",
+      "m"
+    ],
+    "it": [
+      "Cappotti",
+      "m"
+    ],
+    "pt": [
+      "Casacos",
+      "m"
+    ]
+  },
+  "dress": {
+    "de": [
+      "Kleider",
+      "n"
+    ],
+    "fr": [
+      "Robes",
+      "f"
+    ],
+    "es": [
+      "Vestidos",
+      "m"
+    ],
+    "it": [
+      "Vestiti",
+      "m"
+    ],
+    "pt": [
+      "Vestidos",
+      "m"
+    ]
+  },
+  "gloves": {
+    "de": [
+      "Handschuhe",
+      "m"
+    ],
+    "fr": [
+      "Gants",
+      "m"
+    ],
+    "es": [
+      "Guantes",
+      "m"
+    ],
+    "it": [
+      "Guanti",
+      "m"
+    ],
+    "pt": [
+      "Luvas",
+      "f"
+    ]
+  },
+  "jacket": {
+    "de": [
+      "Jacken",
+      "f"
+    ],
+    "fr": [
+      "Vestes",
+      "f"
+    ],
+    "es": [
+      "Chaquetas",
+      "f"
+    ],
+    "it": [
+      "Giacche",
+      "f"
+    ],
+    "pt": [
+      "Jaquetas",
+      "f"
+    ]
+  },
+  "scarf": {
+    "de": [
+      "Schals",
+      "m"
+    ],
+    "fr": [
+      "Écharpes",
+      "f"
+    ],
+    "es": [
+      "Bufandas",
+      "f"
+    ],
+    "it": [
+      "Sciarpe",
+      "f"
+    ],
+    "pt": [
+      "Cachecóis",
+      "m"
+    ]
+  },
+  "shirt": {
+    "de": [
+      "Hemden",
+      "n"
+    ],
+    "fr": [
+      "Chemises",
+      "f"
+    ],
+    "es": [
+      "Camisas",
+      "f"
+    ],
+    "it": [
+      "Camicie",
+      "f"
+    ],
+    "pt": [
+      "Camisas",
+      "f"
+    ]
+  },
+  "skirt": {
+    "de": [
+      "Röcke",
+      "m"
+    ],
+    "fr": [
+      "Jupes",
+      "f"
+    ],
+    "es": [
+      "Faldas",
+      "f"
+    ],
+    "it": [
+      "Gonne",
+      "f"
+    ],
+    "pt": [
+      "Saias",
+      "f"
+    ]
+  },
+  "socks": {
+    "de": [
+      "Socken",
+      "f"
+    ],
+    "fr": [
+      "Chaussettes",
+      "f"
+    ],
+    "es": [
+      "Calcetines",
+      "m"
+    ],
+    "it": [
+      "Calzini",
+      "m"
+    ],
+    "pt": [
+      "Meias",
+      "f"
+    ]
+  },
+  "sweater": {
+    "de": [
+      "Pullover",
+      "m"
+    ],
+    "fr": [
+      "Pulls",
+      "m"
+    ],
+    "es": [
+      "Suéteres",
+      "m"
+    ],
+    "it": [
+      "Maglioni",
+      "m"
+    ],
+    "pt": [
+      "Suéteres",
+      "m"
+    ]
+  },
+  "tie": {
+    "de": [
+      "Krawatten",
+      "f"
+    ],
+    "fr": [
+      "Cravates",
+      "f"
+    ],
+    "es": [
+      "Corbatas",
+      "f"
+    ],
+    "it": [
+      "Cravatte",
+      "f"
+    ],
+    "pt": [
+      "Gravatas",
+      "f"
+    ]
+  },
+  "trousers": {
+    "de": [
+      "Hosen",
+      "f"
+    ],
+    "fr": [
+      "Pantalons",
+      "m"
+    ],
+    "es": [
+      "Pantalones",
+      "m"
+    ],
+    "it": [
+      "Pantaloni",
+      "m"
+    ],
+    "pt": [
+      "Calças",
+      "f"
+    ]
+  },
+  "arm": {
+    "de": [
+      "Arme",
+      "m"
+    ],
+    "fr": [
+      "Bras",
+      "m"
+    ],
+    "es": [
+      "Brazos",
+      "m"
+    ],
+    "it": [
+      "Braccia",
+      "f"
+    ],
+    "pt": [
+      "Braços",
+      "m"
+    ]
+  },
+  "ear": {
+    "de": [
+      "Ohren",
+      "n"
+    ],
+    "fr": [
+      "Oreilles",
+      "f"
+    ],
+    "es": [
+      "Orejas",
+      "f"
+    ],
+    "it": [
+      "Orecchie",
+      "f"
+    ],
+    "pt": [
+      "Orelhas",
+      "f"
+    ]
+  },
+  "eye": {
+    "de": [
+      "Augen",
+      "n"
+    ],
+    "fr": [
+      "Yeux",
+      "m"
+    ],
+    "es": [
+      "Ojos",
+      "m"
+    ],
+    "it": [
+      "Occhi",
+      "m"
+    ],
+    "pt": [
+      "Olhos",
+      "m"
+    ]
+  },
+  "finger": {
+    "de": [
+      "Finger",
+      "m"
+    ],
+    "fr": [
+      "Doigts",
+      "m"
+    ],
+    "es": [
+      "Dedos",
+      "m"
+    ],
+    "it": [
+      "Dita",
+      "f"
+    ],
+    "pt": [
+      "Dedos",
+      "m"
+    ]
+  },
+  "foot": {
+    "de": [
+      "Füße",
+      "m"
+    ],
+    "fr": [
+      "Pieds",
+      "m"
+    ],
+    "es": [
+      "Pies",
+      "m"
+    ],
+    "it": [
+      "Piedi",
+      "m"
+    ],
+    "pt": [
+      "Pés",
+      "m"
+    ]
+  },
+  "hand": {
+    "de": [
+      "Hände",
+      "f"
+    ],
+    "fr": [
+      "Mains",
+      "f"
+    ],
+    "es": [
+      "Manos",
+      "f"
+    ],
+    "it": [
+      "Mani",
+      "f"
+    ],
+    "pt": [
+      "Mãos",
+      "f"
+    ]
+  },
+  "knee": {
+    "de": [
+      "Knie",
+      "n"
+    ],
+    "fr": [
+      "Genoux",
+      "m"
+    ],
+    "es": [
+      "Rodillas",
+      "f"
+    ],
+    "it": [
+      "Ginocchia",
+      "f"
+    ],
+    "pt": [
+      "Joelhos",
+      "m"
+    ]
+  },
+  "leg": {
+    "de": [
+      "Beine",
+      "n"
+    ],
+    "fr": [
+      "Jambes",
+      "f"
+    ],
+    "es": [
+      "Piernas",
+      "f"
+    ],
+    "it": [
+      "Gambe",
+      "f"
+    ],
+    "pt": [
+      "Pernas",
+      "f"
+    ]
+  },
+  "mouth": {
+    "de": [
+      "Münder",
+      "m"
+    ],
+    "fr": [
+      "Bouches",
+      "f"
+    ],
+    "es": [
+      "Bocas",
+      "f"
+    ],
+    "it": [
+      "Bocche",
+      "f"
+    ],
+    "pt": [
+      "Bocas",
+      "f"
+    ]
+  },
+  "nose": {
+    "de": [
+      "Nasen",
+      "f"
+    ],
+    "fr": [
+      "Nez",
+      "m"
+    ],
+    "es": [
+      "Narices",
+      "f"
+    ],
+    "it": [
+      "Nasi",
+      "m"
+    ],
+    "pt": [
+      "Narizes",
+      "m"
+    ]
+  },
+  "shoulder": {
+    "de": [
+      "Schultern",
+      "f"
+    ],
+    "fr": [
+      "Épaules",
+      "f"
+    ],
+    "es": [
+      "Hombros",
+      "m"
+    ],
+    "it": [
+      "Spalle",
+      "f"
+    ],
+    "pt": [
+      "Ombros",
+      "m"
+    ]
+  },
+  "circle": {
+    "de": [
+      "Kreise",
+      "m"
+    ],
+    "fr": [
+      "Cercles",
+      "m"
+    ],
+    "es": [
+      "Círculos",
+      "m"
+    ],
+    "it": [
+      "Cerchi",
+      "m"
+    ],
+    "pt": [
+      "Círculos",
+      "m"
+    ],
+    "nl": [
+      "Cirkels",
+      "d"
+    ],
+    "sv": [
+      "Cirklar",
+      "n"
+    ],
+    "da": [
+      "Cirkler",
+      "n"
+    ],
+    "no": [
+      "Sirkler",
+      "m"
+    ],
+    "fi": "Ympyrät"
+  },
+  "cube": {
+    "de": [
+      "Würfel",
+      "m"
+    ],
+    "fr": [
+      "Cubes",
+      "m"
+    ],
+    "es": [
+      "Cubos",
+      "m"
+    ],
+    "it": [
+      "Cubi",
+      "m"
+    ],
+    "pt": [
+      "Cubos",
+      "m"
+    ],
+    "nl": [
+      "Kubussen",
+      "d"
+    ],
+    "sv": [
+      "Kuber",
+      "n"
+    ],
+    "da": [
+      "Kuber",
+      "n"
+    ],
+    "no": [
+      "Kuber",
+      "m"
+    ],
+    "fi": "Kuutiot"
+  },
+  "cylinder": {
+    "de": [
+      "Zylinder",
+      "m"
+    ],
+    "fr": [
+      "Cylindres",
+      "m"
+    ],
+    "es": [
+      "Cilindros",
+      "m"
+    ],
+    "it": [
+      "Cilindri",
+      "m"
+    ],
+    "pt": [
+      "Cilindros",
+      "m"
+    ],
+    "nl": [
+      "Cilinders",
+      "d"
+    ],
+    "sv": [
+      "Cylindrar",
+      "n"
+    ],
+    "da": [
+      "Cylindre",
+      "n"
+    ],
+    "no": [
+      "Sylindre",
+      "m"
+    ],
+    "fi": "Sylinterit"
+  },
+  "heart": {
+    "de": [
+      "Herzen",
+      "n"
+    ],
+    "fr": [
+      "Cœurs",
+      "m"
+    ],
+    "es": [
+      "Corazones",
+      "m"
+    ],
+    "it": [
+      "Cuori",
+      "m"
+    ],
+    "pt": [
+      "Corações",
+      "m"
+    ],
+    "nl": [
+      "Harten",
+      "h"
+    ],
+    "sv": [
+      "Hjärtan",
+      "t"
+    ],
+    "da": [
+      "Hjerter",
+      "t"
+    ],
+    "no": [
+      "Hjerter",
+      "n"
+    ],
+    "fi": "Sydämet"
+  },
+  "hexagon": {
+    "de": [
+      "Sechsecke",
+      "n"
+    ],
+    "fr": [
+      "Hexagones",
+      "m"
+    ],
+    "es": [
+      "Hexágonos",
+      "m"
+    ],
+    "it": [
+      "Esagoni",
+      "m"
+    ],
+    "pt": [
+      "Hexágonos",
+      "m"
+    ],
+    "nl": [
+      "Zeshoeken",
+      "d"
+    ],
+    "sv": [
+      "Hexagoner",
+      "n"
+    ],
+    "da": [
+      "Sekskanter",
+      "n"
+    ],
+    "no": [
+      "Sekskanter",
+      "m"
+    ],
+    "fi": "Kuusikulmiot"
+  },
+  "square": {
+    "de": [
+      "Quadrate",
+      "n"
+    ],
+    "fr": [
+      "Carrés",
+      "m"
+    ],
+    "es": [
+      "Cuadrados",
+      "m"
+    ],
+    "it": [
+      "Quadrati",
+      "m"
+    ],
+    "pt": [
+      "Quadrados",
+      "m"
+    ],
+    "nl": [
+      "Vierkanten",
+      "h"
+    ],
+    "sv": [
+      "Kvadrater",
+      "n"
+    ],
+    "da": [
+      "Kvadrater",
+      "n"
+    ],
+    "no": [
+      "Kvadrater",
+      "m"
+    ],
+    "fi": "Neliöt"
+  },
+  "triangle": {
+    "de": [
+      "Dreiecke",
+      "n"
+    ],
+    "fr": [
+      "Triangles",
+      "m"
+    ],
+    "es": [
+      "Triángulos",
+      "m"
+    ],
+    "it": [
+      "Triangoli",
+      "m"
+    ],
+    "pt": [
+      "Triângulos",
+      "m"
+    ],
+    "nl": [
+      "Driehoeken",
+      "d"
+    ],
+    "sv": [
+      "Trianglar",
+      "n"
+    ],
+    "da": [
+      "Trekanter",
+      "n"
+    ],
+    "no": [
+      "Trekanter",
+      "m"
+    ],
+    "fi": "Kolmiot"
+  },
+  "airplane": {
+    "de": [
+      "Flugzeuge",
+      "n"
+    ],
+    "fr": [
+      "Avions",
+      "m"
+    ],
+    "es": [
+      "Aviones",
+      "m"
+    ],
+    "it": [
+      "Aeroplani",
+      "m"
+    ],
+    "pt": [
+      "Aviões",
+      "m"
+    ]
+  },
+  "ambulance": {
+    "de": [
+      "Krankenwagen",
+      "m"
+    ],
+    "fr": [
+      "Ambulances",
+      "f"
+    ],
+    "es": [
+      "Ambulancias",
+      "f"
+    ],
+    "it": [
+      "Ambulanze",
+      "f"
+    ],
+    "pt": [
+      "Ambulâncias",
+      "f"
+    ]
+  },
+  "bicycle": {
+    "de": [
+      "Fahrräder",
+      "n"
+    ],
+    "fr": [
+      "Vélos",
+      "m"
+    ],
+    "es": [
+      "Bicicletas",
+      "f"
+    ],
+    "it": [
+      "Biciclette",
+      "f"
+    ],
+    "pt": [
+      "Bicicletas",
+      "f"
+    ]
+  },
+  "bus": {
+    "de": [
+      "Busse",
+      "m"
+    ],
+    "fr": [
+      "Bus",
+      "m"
+    ],
+    "es": [
+      "Autobuses",
+      "m"
+    ],
+    "it": [
+      "Autobus",
+      "m"
+    ],
+    "pt": [
+      "Ônibus",
+      "m"
+    ]
+  },
+  "helicopter": {
+    "de": [
+      "Hubschrauber",
+      "m"
+    ],
+    "fr": [
+      "Hélicoptères",
+      "m"
+    ],
+    "es": [
+      "Helicópteros",
+      "m"
+    ],
+    "it": [
+      "Elicotteri",
+      "m"
+    ],
+    "pt": [
+      "Helicópteros",
+      "m"
+    ]
+  },
+  "motorcycle": {
+    "de": [
+      "Motorräder",
+      "n"
+    ],
+    "fr": [
+      "Motos",
+      "f"
+    ],
+    "es": [
+      "Motocicletas",
+      "f"
+    ],
+    "it": [
+      "Motociclette",
+      "f"
+    ],
+    "pt": [
+      "Motocicletas",
+      "f"
+    ]
+  },
+  "rocket": {
+    "de": [
+      "Raketen",
+      "f"
+    ],
+    "fr": [
+      "Fusées",
+      "f"
+    ],
+    "es": [
+      "Cohetes",
+      "m"
+    ],
+    "it": [
+      "Razzi",
+      "m"
+    ],
+    "pt": [
+      "Foguetes",
+      "m"
+    ]
+  },
+  "ship": {
+    "de": [
+      "Schiffe",
+      "n"
+    ],
+    "fr": [
+      "Navires",
+      "m"
+    ],
+    "es": [
+      "Barcos",
+      "m"
+    ],
+    "it": [
+      "Navi",
+      "f"
+    ],
+    "pt": [
+      "Navios",
+      "m"
+    ]
+  },
+  "submarine": {
+    "de": [
+      "U-Boote",
+      "n"
+    ],
+    "fr": [
+      "Sous-marins",
+      "m"
+    ],
+    "es": [
+      "Submarinos",
+      "m"
+    ],
+    "it": [
+      "Sottomarini",
+      "m"
+    ],
+    "pt": [
+      "Submarinos",
+      "m"
+    ]
+  },
+  "tractor": {
+    "de": [
+      "Traktoren",
+      "m"
+    ],
+    "fr": [
+      "Tracteurs",
+      "m"
+    ],
+    "es": [
+      "Tractores",
+      "m"
+    ],
+    "it": [
+      "Trattori",
+      "m"
+    ],
+    "pt": [
+      "Tratores",
+      "m"
+    ]
+  },
+  "train": {
+    "de": [
+      "Züge",
+      "m"
+    ],
+    "fr": [
+      "Trains",
+      "m"
+    ],
+    "es": [
+      "Trenes",
+      "m"
+    ],
+    "it": [
+      "Treni",
+      "m"
+    ],
+    "pt": [
+      "Trens",
+      "m"
+    ]
+  },
+  "truck": {
+    "de": [
+      "Lastwagen",
+      "m"
+    ],
+    "fr": [
+      "Camions",
+      "m"
+    ],
+    "es": [
+      "Camiones",
+      "m"
+    ],
+    "it": [
+      "Camion",
+      "m"
+    ],
+    "pt": [
+      "Caminhões",
+      "m"
+    ]
+  },
+  "cloud": {
+    "de": [
+      "Wolken",
+      "f"
+    ],
+    "fr": [
+      "Nuages",
+      "m"
+    ],
+    "es": [
+      "Nubes",
+      "f"
+    ],
+    "it": [
+      "Nuvole",
+      "f"
+    ],
+    "pt": [
+      "Nuvens",
+      "f"
+    ]
+  },
+  "leaf": {
+    "de": [
+      "Blätter",
+      "n"
+    ],
+    "fr": [
+      "Feuilles",
+      "f"
+    ],
+    "es": [
+      "Hojas",
+      "f"
+    ],
+    "it": [
+      "Foglie",
+      "f"
+    ],
+    "pt": [
+      "Folhas",
+      "f"
+    ]
+  },
+  "moon": {
+    "de": [
+      "Monde",
+      "m"
+    ],
+    "fr": [
+      "Lunes",
+      "f"
+    ],
+    "es": [
+      "Lunas",
+      "f"
+    ],
+    "it": [
+      "Lune",
+      "f"
+    ],
+    "pt": [
+      "Luas",
+      "f"
+    ]
+  },
+  "mountain": {
+    "de": [
+      "Berge",
+      "m"
+    ],
+    "fr": [
+      "Montagnes",
+      "f"
+    ],
+    "es": [
+      "Montañas",
+      "f"
+    ],
+    "it": [
+      "Montagne",
+      "f"
+    ],
+    "pt": [
+      "Montanhas",
+      "f"
+    ]
+  },
+  "rain": {
+    "de": [
+      "Regen",
+      "m"
+    ],
+    "fr": [
+      "Pluies",
+      "f"
+    ],
+    "es": [
+      "Lluvias",
+      "f"
+    ],
+    "it": [
+      "Piogge",
+      "f"
+    ],
+    "pt": [
+      "Chuvas",
+      "f"
+    ]
+  },
+  "rainbow": {
+    "de": [
+      "Regenbogen",
+      "m"
+    ],
+    "fr": [
+      "Arcs-en-ciel",
+      "m"
+    ],
+    "es": [
+      "Arcoíris",
+      "m"
+    ],
+    "it": [
+      "Arcobaleni",
+      "m"
+    ],
+    "pt": [
+      "Arco-íris",
+      "m"
+    ]
+  },
+  "river": {
+    "de": [
+      "Flüsse",
+      "m"
+    ],
+    "fr": [
+      "Rivières",
+      "f"
+    ],
+    "es": [
+      "Ríos",
+      "m"
+    ],
+    "it": [
+      "Fiumi",
+      "m"
+    ],
+    "pt": [
+      "Rios",
+      "m"
+    ]
+  },
+  "rock": {
+    "de": [
+      "Felsen",
+      "m"
+    ],
+    "fr": [
+      "Rochers",
+      "m"
+    ],
+    "es": [
+      "Rocas",
+      "f"
+    ],
+    "it": [
+      "Rocce",
+      "f"
+    ],
+    "pt": [
+      "Rochas",
+      "f"
+    ]
+  },
+  "rose": {
+    "de": [
+      "Rosen",
+      "f"
+    ],
+    "fr": [
+      "Roses",
+      "f"
+    ],
+    "es": [
+      "Rosas",
+      "f"
+    ],
+    "it": [
+      "Rose",
+      "f"
+    ],
+    "pt": [
+      "Rosas",
+      "f"
+    ]
+  },
+  "sand": {
+    "en": "Sand"
+  },
+  "snow": {
+    "en": "Snow"
+  },
+  "snowflake": {
+    "de": [
+      "Schneeflocken",
+      "f"
+    ],
+    "fr": [
+      "Flocons de neige",
+      "m"
+    ],
+    "es": [
+      "Copos de nieve",
+      "m"
+    ],
+    "it": [
+      "Fiocchi di neve",
+      "m"
+    ],
+    "pt": [
+      "Flocos de neve",
+      "m"
+    ]
+  },
+  "sunflower": {
+    "de": [
+      "Sonnenblumen",
+      "f"
+    ],
+    "fr": [
+      "Tournesols",
+      "m"
+    ],
+    "es": [
+      "Girasoles",
+      "m"
+    ],
+    "it": [
+      "Girasoli",
+      "m"
+    ],
+    "pt": [
+      "Girassóis",
+      "m"
+    ]
+  },
+  "tulip": {
+    "de": [
+      "Tulpen",
+      "f"
+    ],
+    "fr": [
+      "Tulipes",
+      "f"
+    ],
+    "es": [
+      "Tulipanes",
+      "m"
+    ],
+    "it": [
+      "Tulipani",
+      "m"
+    ],
+    "pt": [
+      "Tulipas",
+      "f"
+    ]
+  },
+  "wave": {
+    "de": [
+      "Wellen",
+      "f"
+    ],
+    "fr": [
+      "Vagues",
+      "f"
+    ],
+    "es": [
+      "Olas",
+      "f"
+    ],
+    "it": [
+      "Onde",
+      "f"
+    ],
+    "pt": [
+      "Ondas",
+      "f"
+    ]
+  },
+  "balloon": {
+    "de": [
+      "Ballons",
+      "m"
+    ],
+    "fr": [
+      "Ballons",
+      "m"
+    ],
+    "es": [
+      "Globos",
+      "m"
+    ],
+    "it": [
+      "Palloncini",
+      "m"
+    ],
+    "pt": [
+      "Balões",
+      "m"
+    ]
+  },
+  "block": {
+    "de": [
+      "Blöcke",
+      "m"
+    ],
+    "fr": [
+      "Blocs",
+      "m"
+    ],
+    "es": [
+      "Bloques",
+      "m"
+    ],
+    "it": [
+      "Blocchi",
+      "m"
+    ],
+    "pt": [
+      "Blocos",
+      "m"
+    ]
+  },
+  "doll": {
+    "de": [
+      "Puppen",
+      "f"
+    ],
+    "fr": [
+      "Poupées",
+      "f"
+    ],
+    "es": [
+      "Muñecas",
+      "f"
+    ],
+    "it": [
+      "Bambole",
+      "f"
+    ],
+    "pt": [
+      "Bonecas",
+      "f"
+    ]
+  },
+  "kite": {
+    "de": [
+      "Drachen",
+      "m"
+    ],
+    "fr": [
+      "Cerfs-volants",
+      "m"
+    ],
+    "es": [
+      "Cometas",
+      "f"
+    ],
+    "it": [
+      "Aquiloni",
+      "m"
+    ],
+    "pt": [
+      "Pipas",
+      "f"
+    ]
+  },
+  "puzzle": {
+    "de": [
+      "Puzzles",
+      "n"
+    ],
+    "fr": [
+      "Puzzles",
+      "m"
+    ],
+    "es": [
+      "Rompecabezas",
+      "m"
+    ],
+    "it": [
+      "Puzzle",
+      "m"
+    ],
+    "pt": [
+      "Quebra-cabeças",
+      "m"
+    ]
+  },
+  "teddy-bear": {
+    "de": [
+      "Teddybären",
+      "m"
+    ],
+    "fr": [
+      "Ours en peluche",
+      "m"
+    ],
+    "es": [
+      "Osos de peluche",
+      "m"
+    ],
+    "it": [
+      "Orsacchiotti",
+      "m"
+    ],
+    "pt": [
+      "Ursos de pelúcia",
+      "m"
+    ]
+  },
+  "baby": {
+    "de": [
+      "Babys",
+      "n"
+    ],
+    "fr": [
+      "Bébés",
+      "m"
+    ],
+    "es": [
+      "Bebés",
+      "m"
+    ],
+    "it": [
+      "Bambini",
+      "m"
+    ],
+    "pt": [
+      "Bebês",
+      "m"
+    ]
+  },
+  "backpack": {
+    "de": [
+      "Rucksäcke",
+      "m"
+    ],
+    "fr": [
+      "Sacs à dos",
+      "m"
+    ],
+    "es": [
+      "Mochilas",
+      "f"
+    ],
+    "it": [
+      "Zaini",
+      "m"
+    ],
+    "pt": [
+      "Mochilas",
+      "f"
+    ]
+  },
+  "bone": {
+    "de": [
+      "Knochen",
+      "m"
+    ],
+    "fr": [
+      "Os",
+      "m"
+    ],
+    "es": [
+      "Huesos",
+      "m"
+    ],
+    "it": [
+      "Ossa",
+      "f"
+    ],
+    "pt": [
+      "Ossos",
+      "m"
+    ]
+  },
+  "boy": {
+    "de": [
+      "Jungen",
+      "m"
+    ],
+    "fr": [
+      "Garçons",
+      "m"
+    ],
+    "es": [
+      "Niños",
+      "m"
+    ],
+    "it": [
+      "Ragazzi",
+      "m"
+    ],
+    "pt": [
+      "Meninos",
+      "m"
+    ]
+  },
+  "camera": {
+    "de": [
+      "Kameras",
+      "f"
+    ],
+    "fr": [
+      "Appareils photo",
+      "m"
+    ],
+    "es": [
+      "Cámaras",
+      "f"
+    ],
+    "it": [
+      "Macchine fotografiche",
+      "f"
+    ],
+    "pt": [
+      "Câmeras",
+      "f"
+    ]
+  },
+  "castle": {
+    "de": [
+      "Schlösser",
+      "n"
+    ],
+    "fr": [
+      "Châteaux",
+      "m"
+    ],
+    "es": [
+      "Castillos",
+      "m"
+    ],
+    "it": [
+      "Castelli",
+      "m"
+    ],
+    "pt": [
+      "Castelos",
+      "m"
+    ]
+  },
+  "cook": {
+    "de": [
+      "Köche",
+      "m"
+    ],
+    "fr": [
+      "Cuisiniers",
+      "m"
+    ],
+    "es": [
+      "Cocineros",
+      "m"
+    ],
+    "it": [
+      "Cuochi",
+      "m"
+    ],
+    "pt": [
+      "Cozinheiros",
+      "m"
+    ]
+  },
+  "crown": {
+    "de": [
+      "Kronen",
+      "f"
+    ],
+    "fr": [
+      "Couronnes",
+      "f"
+    ],
+    "es": [
+      "Coronas",
+      "f"
+    ],
+    "it": [
+      "Corone",
+      "f"
+    ],
+    "pt": [
+      "Coroas",
+      "f"
+    ]
+  },
+  "diamond": {
+    "de": [
+      "Diamanten",
+      "m"
+    ],
+    "fr": [
+      "Diamants",
+      "m"
+    ],
+    "es": [
+      "Diamantes",
+      "m"
+    ],
+    "it": [
+      "Diamanti",
+      "m"
+    ],
+    "pt": [
+      "Diamantes",
+      "m"
+    ]
+  },
+  "doctor": {
+    "de": [
+      "Ärzte",
+      "m"
+    ],
+    "fr": [
+      "Médecins",
+      "m"
+    ],
+    "es": [
+      "Doctores",
+      "m"
+    ],
+    "it": [
+      "Dottori",
+      "m"
+    ],
+    "pt": [
+      "Médicos",
+      "m"
+    ]
+  },
+  "drum": {
+    "de": [
+      "Trommeln",
+      "f"
+    ],
+    "fr": [
+      "Tambours",
+      "m"
+    ],
+    "es": [
+      "Tambores",
+      "m"
+    ],
+    "it": [
+      "Tamburi",
+      "m"
+    ],
+    "pt": [
+      "Tambores",
+      "m"
+    ]
+  },
+  "gift": {
+    "de": [
+      "Geschenke",
+      "n"
+    ],
+    "fr": [
+      "Cadeaux",
+      "m"
+    ],
+    "es": [
+      "Regalos",
+      "m"
+    ],
+    "it": [
+      "Regali",
+      "m"
+    ],
+    "pt": [
+      "Presentes",
+      "m"
+    ]
+  },
+  "guitar": {
+    "de": [
+      "Gitarren",
+      "f"
+    ],
+    "fr": [
+      "Guitares",
+      "f"
+    ],
+    "es": [
+      "Guitarras",
+      "f"
+    ],
+    "it": [
+      "Chitarre",
+      "f"
+    ],
+    "pt": [
+      "Guitarras",
+      "f"
+    ]
+  },
+  "king": {
+    "de": [
+      "Könige",
+      "m"
+    ],
+    "fr": [
+      "Rois",
+      "m"
+    ],
+    "es": [
+      "Reyes",
+      "m"
+    ],
+    "it": [
+      "Re",
+      "m"
+    ],
+    "pt": [
+      "Reis",
+      "m"
+    ]
+  },
+  "nurse": {
+    "de": [
+      "Krankenschwestern",
+      "f"
+    ],
+    "fr": [
+      "Infirmières",
+      "f"
+    ],
+    "es": [
+      "Enfermeras",
+      "f"
+    ],
+    "it": [
+      "Infermiere",
+      "f"
+    ],
+    "pt": [
+      "Enfermeiras",
+      "f"
+    ]
+  },
+  "pen": {
+    "de": [
+      "Stifte",
+      "m"
+    ],
+    "fr": [
+      "Stylos",
+      "m"
+    ],
+    "es": [
+      "Plumas",
+      "f"
+    ],
+    "it": [
+      "Penne",
+      "f"
+    ],
+    "pt": [
+      "Canetas",
+      "f"
+    ]
+  },
+  "pencil": {
+    "de": [
+      "Bleistifte",
+      "m"
+    ],
+    "fr": [
+      "Crayons",
+      "m"
+    ],
+    "es": [
+      "Lápices",
+      "m"
+    ],
+    "it": [
+      "Matite",
+      "f"
+    ],
+    "pt": [
+      "Lápis",
+      "m"
+    ]
+  },
+  "piano": {
+    "de": [
+      "Klaviere",
+      "n"
+    ],
+    "fr": [
+      "Pianos",
+      "m"
+    ],
+    "es": [
+      "Pianos",
+      "m"
+    ],
+    "it": [
+      "Pianoforti",
+      "m"
+    ],
+    "pt": [
+      "Pianos",
+      "m"
+    ]
+  },
+  "queen": {
+    "de": [
+      "Königinnen",
+      "f"
+    ],
+    "fr": [
+      "Reines",
+      "f"
+    ],
+    "es": [
+      "Reinas",
+      "f"
+    ],
+    "it": [
+      "Regine",
+      "f"
+    ],
+    "pt": [
+      "Rainhas",
+      "f"
+    ]
+  },
+  "ring": {
+    "de": [
+      "Ringe",
+      "m"
+    ],
+    "fr": [
+      "Bagues",
+      "f"
+    ],
+    "es": [
+      "Anillos",
+      "m"
+    ],
+    "it": [
+      "Anelli",
+      "m"
+    ],
+    "pt": [
+      "Anéis",
+      "m"
+    ]
+  },
+  "robot": {
+    "de": [
+      "Roboter",
+      "m"
+    ],
+    "fr": [
+      "Robots",
+      "m"
+    ],
+    "es": [
+      "Robots",
+      "m"
+    ],
+    "it": [
+      "Robot",
+      "m"
+    ],
+    "pt": [
+      "Robôs",
+      "m"
+    ]
+  },
+  "sword": {
+    "de": [
+      "Schwerter",
+      "n"
+    ],
+    "fr": [
+      "Épées",
+      "f"
+    ],
+    "es": [
+      "Espadas",
+      "f"
+    ],
+    "it": [
+      "Spade",
+      "f"
+    ],
+    "pt": [
+      "Espadas",
+      "f"
+    ]
+  },
+  "teacher": {
+    "de": [
+      "Lehrer",
+      "m"
+    ],
+    "fr": [
+      "Enseignants",
+      "m"
+    ],
+    "es": [
+      "Maestros",
+      "m"
+    ],
+    "it": [
+      "Insegnanti",
+      "m"
+    ],
+    "pt": [
+      "Professores",
+      "m"
+    ]
+  },
+  "telephone": {
+    "de": [
+      "Telefone",
+      "n"
+    ],
+    "fr": [
+      "Téléphones",
+      "m"
+    ],
+    "es": [
+      "Teléfonos",
+      "m"
+    ],
+    "it": [
+      "Telefoni",
+      "m"
+    ],
+    "pt": [
+      "Telefones",
+      "m"
+    ]
+  },
+  "air-conditioning": {
+    "en": "Air Conditioning"
+  },
+  "badminton": {
+    "en": "Badminton"
+  },
+  "baking": {
+    "en": "Baking"
+  },
+  "baseball": {
+    "en": "Baseball"
+  },
+  "basketball": {
+    "en": "Basketball"
+  },
+  "biking": {
+    "en": "Biking"
+  },
+  "bowling": {
+    "en": "Bowling"
+  },
+  "boxing": {
+    "en": "Boxing"
+  },
+  "camping": {
+    "en": "Camping"
+  },
+  "chess": {
+    "en": "Chess"
+  },
+  "fencing": {
+    "en": "Fencing"
+  }
+}

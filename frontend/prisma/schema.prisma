@@ -68,6 +68,7 @@ model User {
   activityLogs       ActivityLog[]
   supportTickets     SupportTicket[]
   userRoles          UserRole[]
+  licenseKeys        LicenseKey[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1021,6 +1022,10 @@ model LicenseKey {
   createdAt DateTime  @default(now()) @map("created_at")
   updatedAt DateTime  @updatedAt @map("updated_at")
 
+  // User link (set when user activates license in member portal)
+  userId String? @map("user_id")
+  user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
+
   // Relations
   transactions WPlusTransaction[]
 
@@ -1029,6 +1034,7 @@ model LicenseKey {
   @@index([transactionId])
   @@index([status])
   @@index([productTier])
+  @@index([userId])
   @@map("license_keys")
 }
 
@@ -1091,4 +1097,18 @@ model WPlusWebhookEvent {
   @@index([transactionId])
   @@index([status])
   @@map("wplus_webhook_events")
+}
+
+model LicenseDevice {
+  id         String   @id @default(cuid())
+  email      String
+  ipAddress  String   @map("ip_address")
+  userAgent  String?  @map("user_agent")
+  lastSeenAt DateTime @default(now()) @map("last_seen_at")
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@unique([email, ipAddress])
+  @@index([email])
+  @@index([lastSeenAt])
+  @@map("license_devices")
 }

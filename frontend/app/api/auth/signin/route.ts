@@ -160,9 +160,7 @@ export async function POST(request: NextRequest) {
           token: newAccessToken,
           refreshToken: newRefreshToken,
           lastActivityAt: new Date(),
-          expiresAt: rememberMe
-            ? new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
-            : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+          expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
         },
       });
 
@@ -189,7 +187,7 @@ export async function POST(request: NextRequest) {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         sameSite: 'strict',
-        maxAge: rememberMe ? 30 * 24 * 60 * 60 : 7 * 24 * 60 * 60,
+        maxAge: 30 * 24 * 60 * 60, // 30 days
         path: '/',
       });
 
@@ -214,9 +212,7 @@ export async function POST(request: NextRequest) {
           refreshToken: newRefreshToken,
           deviceId: deviceId, // Upgrade with proper deviceId
           lastActivityAt: new Date(),
-          expiresAt: rememberMe
-            ? new Date(Date.now() + 30 * 24 * 60 * 60 * 1000)
-            : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+          expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
         },
       });
 
@@ -243,7 +239,7 @@ export async function POST(request: NextRequest) {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         sameSite: 'strict',
-        maxAge: rememberMe ? 30 * 24 * 60 * 60 : 7 * 24 * 60 * 60,
+        maxAge: 30 * 24 * 60 * 60, // 30 days
         path: '/',
       });
 
@@ -251,7 +247,7 @@ export async function POST(request: NextRequest) {
     }
 
     // STEP 5: Different device - check if there are other active sessions
-    if (activeSessions.length > 0) {
+    if (activeSessions.length >= 3) {
       // Device conflict! Return conflict info for modal
       const conflictSession = activeSessions[0]; // Most recent
 
@@ -296,9 +292,7 @@ export async function POST(request: NextRequest) {
     const deviceInfo = parseDeviceInfo(userAgent, ipAddress);
 
     // Create session
-    const sessionExpiry = rememberMe
-      ? new Date(Date.now() + 30 * 24 * 60 * 60 * 1000) // 30 days
-      : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000); // 7 days
+    const sessionExpiry = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000); // 30 days
 
     await prisma.session.create({
       data: {
@@ -353,7 +347,7 @@ export async function POST(request: NextRequest) {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'strict',
-      maxAge: rememberMe ? 30 * 24 * 60 * 60 : 7 * 24 * 60 * 60,
+      maxAge: 30 * 24 * 60 * 60, // 30 days
       path: '/',
     });
 

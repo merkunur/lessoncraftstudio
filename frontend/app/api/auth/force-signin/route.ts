@@ -160,9 +160,7 @@ export async function POST(request: NextRequest) {
     const { accessToken, refreshToken } = generateTokens(user);
 
     // Create new session with device info
-    const sessionExpiry = rememberMe
-      ? new Date(Date.now() + 30 * 24 * 60 * 60 * 1000) // 30 days
-      : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000); // 7 days
+    const sessionExpiry = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000); // 30 days
 
     await prisma.session.create({
       data: {
@@ -218,7 +216,7 @@ export async function POST(request: NextRequest) {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: 'strict',
-      maxAge: rememberMe ? 30 * 24 * 60 * 60 : 7 * 24 * 60 * 60,
+      maxAge: 30 * 24 * 60 * 60, // 30 days
       path: '/',
     });
 

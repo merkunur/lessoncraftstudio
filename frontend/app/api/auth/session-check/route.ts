@@ -4,7 +4,7 @@ import { parseDeviceInfo, getClientIP, detectSuspiciousActivity } from '@/lib/de
 
 export const dynamic = 'force-dynamic';
 
-const MAX_CONCURRENT_SESSIONS = 1;
+const MAX_CONCURRENT_SESSIONS = 3;
 
 /**
  * POST /api/auth/session-check

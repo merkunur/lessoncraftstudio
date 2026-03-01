@@ -76,8 +76,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       sessions: formattedSessions,
       total: formattedSessions.length,
-      limit: 1, // MAX_CONCURRENT_SESSIONS (single device policy)
-      hasReachedLimit: formattedSessions.length >= 1,
+      limit: 3, // MAX_CONCURRENT_SESSIONS (3 devices allowed)
+      hasReachedLimit: formattedSessions.length >= 3,
     });
 
   } catch (error) {

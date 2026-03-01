@@ -12,6 +12,8 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyLicenseKey } from '@/lib/license-manager';
+import { checkAndRegisterDevice } from '@/lib/license-device-manager';
+import { getClientIP } from '@/lib/device-fingerprint-server';
 
 export const dynamic = 'force-dynamic';
 
@@ -28,14 +30,24 @@ export async function POST(request: NextRequest) {
     }
 
     // Get client IP for usage tracking
-    const clientIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ??
-                     request.headers.get('x-real-ip') ??
-                     undefined;
+    const clientIp = getClientIP(request) || undefined;
 
     const result = await verifyLicenseKey(licenseKey, appId, clientIp);
 
     if (!result.valid) {
       return NextResponse.json(result, { status: 403 });
+    }
+
+    // Device check after successful verification
+    if (result.email && clientIp) {
+      const userAgent = request.headers.get('user-agent') || undefined;
+      const deviceCheck = await checkAndRegisterDevice(result.email, clientIp, userAgent);
+      if (!deviceCheck.allowed) {
+        return NextResponse.json(
+          { valid: false, error: deviceCheck.message },
+          { status: 403 }
+        );
+      }
     }
 
     return NextResponse.json(result);

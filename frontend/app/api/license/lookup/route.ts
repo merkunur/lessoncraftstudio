@@ -11,11 +11,24 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getMergedAppAccess, getLicensesByEmail } from '@/lib/license-manager';
 import { verifyLicenseKey } from '@/lib/license-manager';
+import { licenseLookupLimiter } from '@/lib/rate-limiter';
+import { getClientIP } from '@/lib/device-fingerprint-server';
+import { checkAndRegisterDevice } from '@/lib/license-device-manager';
 
 export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
   try {
+    // Rate limit by IP
+    const clientIp = getClientIP(request) || 'unknown';
+    const rateCheck = licenseLookupLimiter.check(clientIp);
+    if (!rateCheck.allowed) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        { status: 429 }
+      );
+    }
+
     const body = await request.json();
     const { email, licenseKey } = body;
 
@@ -27,6 +40,13 @@ export async function POST(request: NextRequest) {
           { error: result.error ?? 'Invalid license key' },
           { status: 403 }
         );
+      }
+
+      // Device check
+      const userAgent = request.headers.get('user-agent') || undefined;
+      const deviceCheck = await checkAndRegisterDevice(result.email!, clientIp, userAgent);
+      if (!deviceCheck.allowed) {
+        return NextResponse.json({ error: deviceCheck.message }, { status: 403 });
       }
 
       // Get full access info for this email
@@ -57,6 +77,13 @@ export async function POST(request: NextRequest) {
           { error: 'No licenses found for this email' },
           { status: 404 }
         );
+      }
+
+      // Device check
+      const userAgent2 = request.headers.get('user-agent') || undefined;
+      const deviceCheck2 = await checkAndRegisterDevice(email.toLowerCase().trim(), clientIp, userAgent2);
+      if (!deviceCheck2.allowed) {
+        return NextResponse.json({ error: deviceCheck2.message }, { status: 403 });
       }
 
       return NextResponse.json({

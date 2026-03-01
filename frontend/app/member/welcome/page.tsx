@@ -45,9 +45,9 @@ function WelcomeContent() {
           <div style={styles.step}>
             <div style={styles.stepNumber}>2</div>
             <div style={styles.stepContent}>
-              <strong>Log in to the Member Portal</strong>
+              <strong>Create your account or sign in</strong>
               <p style={styles.stepText}>
-                Use your license key or email to access your worksheet generators.
+                Use your license key to create an account, then sign in with your email and password going forward.
               </p>
             </div>
           </div>

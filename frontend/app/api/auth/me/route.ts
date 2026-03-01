@@ -57,9 +57,9 @@ export async function GET(request: NextRequest) {
         where: { id: session.id },
         data: {
           lastActivityAt: now,
-          // Extend expiry by 7 days if it's expiring within 24 hours
+          // Extend expiry by 30 days if it's expiring within 24 hours
           ...(shouldExtend && {
-            expiresAt: new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000)
+            expiresAt: new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000)
           }),
         }
       });

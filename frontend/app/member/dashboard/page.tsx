@@ -5,11 +5,12 @@ import { useRouter } from 'next/navigation';
 import {
   LogOut, ExternalLink, Check, ArrowLeft, Mail,
   ShoppingCart, LayoutGrid, LifeBuoy, User,
-  Menu, X,
+  Menu, X, KeyRound,
 } from 'lucide-react';
 import { ALL_APPS, WPLUS_PRODUCTS, WPLUS_FUNNELS } from '@/config/warriorplus-products';
 import type { AppId, WPlusFunnel } from '@/config/warriorplus-products';
 import { getSalesPageByProductId } from '@/config/sales-pages';
+import { useAuth } from '@/contexts/auth-context';
 
 interface MemberAccess {
   email: string;
@@ -128,22 +129,34 @@ const CATEGORY_LABELS: Record<string, string> = {
 
 export default function MemberDashboard() {
   const router = useRouter();
+  const { user, isAuthenticated, loading: authLoading, logout } = useAuth();
   const [access, setAccess] = useState<MemberAccess | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [selectedApp, setSelectedApp] = useState<AppId | null>(null);
+  const [activateKey, setActivateKey] = useState('');
+  const [activateLoading, setActivateLoading] = useState(false);
+  const [activateMsg, setActivateMsg] = useState('');
+  const [showActivate, setShowActivate] = useState(false);
 
   useEffect(() => {
-    const stored = sessionStorage.getItem('memberAccess');
-    if (!stored) {
+    if (authLoading) return;
+    if (!isAuthenticated) {
       router.push('/member');
       return;
     }
-    try {
-      setAccess(JSON.parse(stored));
-    } catch {
-      router.push('/member');
-    }
-  }, [router]);
+    // Fetch license data from authenticated API
+    const token = localStorage.getItem('accessToken');
+    if (!token) { router.push('/member'); return; }
+    fetch('/api/member/dashboard', {
+      headers: { Authorization: `Bearer ${token}` },
+    })
+      .then(res => {
+        if (!res.ok) throw new Error('Unauthorized');
+        return res.json();
+      })
+      .then(data => setAccess(data))
+      .catch(() => router.push('/member'));
+  }, [authLoading, isAuthenticated, router]);
 
   /* ── Loading state ── */
   if (!access) {
@@ -163,9 +176,34 @@ export default function MemberDashboard() {
     ? Object.keys(ALL_APPS) as AppId[]
     : (access.apps.filter(id => id in ALL_APPS) as AppId[]);
 
-  function handleLogout() {
-    sessionStorage.removeItem('memberAccess');
+  async function handleLogout() {
+    await logout();
     router.push('/member');
+  }
+
+  async function handleActivateKey(e: React.FormEvent) {
+    e.preventDefault();
+    setActivateLoading(true);
+    setActivateMsg('');
+    try {
+      const token = localStorage.getItem('accessToken');
+      const res = await fetch('/api/license/activate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ licenseKey: activateKey.trim() }),
+      });
+      const data = await res.json();
+      if (!res.ok) { setActivateMsg(data.error || 'Activation failed'); return; }
+      setActivateMsg('License activated! Refreshing...');
+      // Reload dashboard data
+      const dashRes = await fetch('/api/member/dashboard', {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      if (dashRes.ok) setAccess(await dashRes.json());
+      setActivateKey('');
+      setTimeout(() => { setShowActivate(false); setActivateMsg(''); }, 1500);
+    } catch { setActivateMsg('Something went wrong'); }
+    finally { setActivateLoading(false); }
   }
 
   function handleLaunchApp(appId: AppId) {
@@ -253,8 +291,16 @@ export default function MemberDashboard() {
             </nav>
           </div>
 
-          {/* Right: email + logout + avatar */}
+          {/* Right: activate + email + logout + avatar */}
           <div className="flex items-center gap-3">
+            <button
+              onClick={() => setShowActivate(!showActivate)}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-sm text-gray-500 hover:text-primary hover:bg-primary-50 rounded-lg transition-colors"
+              title="Activate another license key"
+            >
+              <KeyRound className="h-4 w-4" />
+              <span className="hidden sm:inline">Activate License</span>
+            </button>
             <span className="hidden sm:inline text-sm text-gray-500">{access.email}</span>
             <button
               onClick={handleLogout}
@@ -291,6 +337,34 @@ export default function MemberDashboard() {
           </div>
         )}
       </header>
+
+      {/* ── Activate License Bar ── */}
+      {showActivate && (
+        <div className="bg-blue-50 border-b border-blue-200 px-4 sm:px-6 lg:px-8 py-3">
+          <form onSubmit={handleActivateKey} className="max-w-xl mx-auto flex items-center gap-3">
+            <input
+              type="text"
+              value={activateKey}
+              onChange={(e) => setActivateKey(e.target.value.toUpperCase())}
+              placeholder="LCS-XXXXX-XXXXX-XXXXX-XXXXX"
+              className="flex-1 px-3 py-2 text-sm border border-blue-300 rounded-lg font-mono"
+              required
+            />
+            <button
+              type="submit"
+              disabled={activateLoading}
+              className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg disabled:opacity-50 transition-colors"
+            >
+              {activateLoading ? 'Activating...' : 'Activate'}
+            </button>
+            {activateMsg && (
+              <span className={`text-sm ${activateMsg.includes('activated') ? 'text-green-600' : 'text-red-600'}`}>
+                {activateMsg}
+              </span>
+            )}
+          </form>
+        </div>
+      )}
 
       {/* ── Main Content (full-width, no sidebar) ── */}
       <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 sm:py-8">

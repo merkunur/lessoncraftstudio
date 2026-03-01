@@ -33,8 +33,8 @@ interface AuthContextType {
   isAuthenticated: boolean;
   loading: boolean;
   error: string | null;
-  login: (email: string, password: string, rememberMe?: boolean) => Promise<void>;
-  signup: (data: SignupData) => Promise<void>;
+  login: (email: string, password: string, rememberMe?: boolean, redirectTo?: string) => Promise<void>;
+  signup: (data: SignupData, redirectTo?: string) => Promise<void>;
   logout: () => Promise<void>;
   refreshToken: () => Promise<void>;
   updateProfile: (data: Partial<User>) => Promise<void>;
@@ -229,7 +229,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   // Login function with device fingerprinting and conflict handling
-  const login = async (email: string, password: string, rememberMe = false) => {
+  const login = async (email: string, password: string, rememberMe = false, redirectTo?: string) => {
     try {
       setError(null);
       setLoading(true);
@@ -263,12 +263,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('user', JSON.stringify(userWithSubscription));
         toast.success('Welcome back!');
 
-        // Redirect based on user role (preserving locale)
-        const locale = getCurrentLocale();
-        if (data.user.isAdmin) {
-          router.push(`/${locale}/admin`);
+        // Redirect: use explicit redirectTo, or fall back to role-based default
+        if (redirectTo) {
+          router.push(redirectTo);
         } else {
-          router.push(`/${locale}/dashboard`);
+          const locale = getCurrentLocale();
+          if (data.user.isAdmin) {
+            router.push(`/${locale}/admin`);
+          } else {
+            router.push(`/${locale}/dashboard`);
+          }
         }
       } else if (response.status === 409) {
         // Device conflict - user is signed in on another device
@@ -305,12 +309,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
             localStorage.setItem('user', JSON.stringify(userWithSubscription));
             toast.success('Welcome back!');
 
-            // Redirect based on user role (preserving locale)
-            const locale = getCurrentLocale();
-            if (forceData.user.isAdmin) {
-              router.push(`/${locale}/admin`);
+            // Redirect: use explicit redirectTo, or fall back to role-based default
+            if (redirectTo) {
+              router.push(redirectTo);
             } else {
-              router.push(`/${locale}/dashboard`);
+              const locale = getCurrentLocale();
+              if (forceData.user.isAdmin) {
+                router.push(`/${locale}/admin`);
+              } else {
+                router.push(`/${locale}/dashboard`);
+              }
             }
           } else {
             throw new Error(forceData.error || 'Force sign-in failed');
@@ -336,7 +344,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   // Signup function with device fingerprinting
-  const signup = async (signupData: SignupData) => {
+  const signup = async (signupData: SignupData, redirectTo?: string) => {
     try {
       setError(null);
       setLoading(true);
@@ -372,8 +380,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Account created successfully! Please check your email to verify your account.');
 
-      // Redirect to dashboard (preserving locale)
-      router.push(`/${getCurrentLocale()}/dashboard`);
+      // Redirect: use explicit redirectTo, or fall back to dashboard
+      if (redirectTo) {
+        router.push(redirectTo);
+      } else {
+        router.push(`/${getCurrentLocale()}/dashboard`);
+      }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Signup failed';
       setError(message);

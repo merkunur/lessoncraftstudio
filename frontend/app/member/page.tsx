@@ -1,56 +1,225 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { useAuth } from '@/contexts/auth-context';
 
-/**
- * Member Portal - Login Page
- *
- * Users can log in with their license key or email address
- * to access their purchased worksheet generators.
- */
+type ActiveTab = 'signin' | 'activate';
+type ActivateStep = 'enter-key' | 'create-account' | 'sign-in-existing';
+
+interface VerifiedLicense {
+  licenseKey: string;
+  email: string;
+  productId: string;
+  productTier: string;
+}
 
 export default function MemberPage() {
   const router = useRouter();
-  const [loginMethod, setLoginMethod] = useState<'license' | 'email'>('license');
-  const [licenseKey, setLicenseKey] = useState('');
-  const [email, setEmail] = useState('');
+  const { user, isAuthenticated, loading: authLoading, login, signup } = useAuth();
+
+  const [activeTab, setActiveTab] = useState<ActiveTab>('signin');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  async function handleSubmit(e: React.FormEvent) {
+  // Sign In state
+  const [signInEmail, setSignInEmail] = useState('');
+  const [signInPassword, setSignInPassword] = useState('');
+
+  // Activate License state
+  const [licenseKey, setLicenseKey] = useState('');
+  const [activateStep, setActivateStep] = useState<ActivateStep>('enter-key');
+  const [verifiedLicense, setVerifiedLicense] = useState<VerifiedLicense | null>(null);
+
+  // Create Account state (step 2a)
+  const [newName, setNewName] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+
+  // Existing Account state (step 2b)
+  const [existingPassword, setExistingPassword] = useState('');
+
+  // If already authenticated, redirect to dashboard
+  useEffect(() => {
+    if (!authLoading && isAuthenticated) {
+      router.push('/member/dashboard');
+    }
+  }, [authLoading, isAuthenticated, router]);
+
+  // Don't render form while checking auth
+  if (authLoading) {
+    return (
+      <div style={styles.container}>
+        <div style={styles.card}>
+          <div style={styles.logoSection}>
+            <h1 style={styles.logo}>LessonCraftStudio</h1>
+            <p style={styles.subtitle}>Member Portal</p>
+          </div>
+          <p style={{ textAlign: 'center', color: '#6B7280' }}>Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (isAuthenticated) return null; // Will redirect
+
+  // --- Sign In handler ---
+  async function handleSignIn(e: React.FormEvent) {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+    try {
+      await login(signInEmail, signInPassword, true, '/member/dashboard');
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : 'Sign in failed';
+      if (msg !== 'Login cancelled') setError(msg);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // --- Activate License: Step 1 - Verify Key ---
+  async function handleVerifyKey(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
     setError('');
 
     try {
-      const body = loginMethod === 'license'
-        ? { licenseKey: licenseKey.trim() }
-        : { email: email.trim().toLowerCase() };
-
-      const res = await fetch('/api/license/lookup', {
+      const res = await fetch('/api/license/verify', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(body),
+        body: JSON.stringify({ licenseKey: licenseKey.trim() }),
       });
 
       const data = await res.json();
 
-      if (!res.ok) {
-        setError(data.error || 'Login failed. Please check your credentials.');
+      if (!res.ok || !data.valid) {
+        setError(data.error || data.message || 'Invalid license key');
         return;
       }
 
-      // Store access info in sessionStorage
-      sessionStorage.setItem('memberAccess', JSON.stringify(data));
+      const verified: VerifiedLicense = {
+        licenseKey: licenseKey.trim().toUpperCase(),
+        email: data.email,
+        productId: data.productId,
+        productTier: data.productTier,
+      };
+      setVerifiedLicense(verified);
 
-      // Redirect to dashboard
-      router.push('/member/dashboard');
-    } catch (err) {
+      // Check if account exists for this email
+      const checkRes = await fetch('/api/license/check-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: verified.email }),
+      });
+      const checkData = await checkRes.json();
+
+      if (checkData.exists) {
+        setActivateStep('sign-in-existing');
+      } else {
+        setActivateStep('create-account');
+      }
+    } catch {
       setError('Something went wrong. Please try again.');
     } finally {
       setLoading(false);
     }
+  }
+
+  // --- Activate License: Step 2a - Create Account ---
+  async function handleCreateAccount(e: React.FormEvent) {
+    e.preventDefault();
+    if (newPassword !== confirmPassword) {
+      setError('Passwords do not match');
+      return;
+    }
+    if (newPassword.length < 8) {
+      setError('Password must be at least 8 characters');
+      return;
+    }
+    if (!verifiedLicense) return;
+
+    setLoading(true);
+    setError('');
+
+    try {
+      // Split name into first/last
+      const nameParts = newName.trim().split(/\s+/);
+      const firstName = nameParts[0] || '';
+      const lastName = nameParts.slice(1).join(' ') || '';
+
+      // Signup (auto-logs in and redirects)
+      await signup(
+        {
+          email: verifiedLicense.email,
+          password: newPassword,
+          firstName,
+          lastName,
+        },
+        '/member/dashboard'
+      );
+
+      // After signup succeeds, activate the license
+      const token = localStorage.getItem('accessToken');
+      if (token) {
+        await fetch('/api/license/activate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ licenseKey: verifiedLicense.licenseKey }),
+        });
+      }
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : 'Account creation failed';
+      setError(msg);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // --- Activate License: Step 2b - Sign In Existing ---
+  async function handleExistingSignIn(e: React.FormEvent) {
+    e.preventDefault();
+    if (!verifiedLicense) return;
+
+    setLoading(true);
+    setError('');
+
+    try {
+      // Login first (don't redirect yet - we need to activate)
+      await login(verifiedLicense.email, existingPassword, true, '/member/dashboard');
+
+      // After login succeeds, activate the license
+      const token = localStorage.getItem('accessToken');
+      if (token) {
+        await fetch('/api/license/activate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ licenseKey: verifiedLicense.licenseKey }),
+        });
+      }
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : 'Sign in failed';
+      if (msg !== 'Login cancelled') setError(msg);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function resetActivation() {
+    setActivateStep('enter-key');
+    setVerifiedLicense(null);
+    setLicenseKey('');
+    setNewName('');
+    setNewPassword('');
+    setConfirmPassword('');
+    setExistingPassword('');
+    setError('');
   }
 
   return (
@@ -61,40 +230,80 @@ export default function MemberPage() {
           <p style={styles.subtitle}>Member Portal</p>
         </div>
 
+        {/* Tabs */}
         <div style={styles.tabContainer}>
           <button
-            style={{
-              ...styles.tab,
-              ...(loginMethod === 'license' ? styles.tabActive : {}),
-            }}
-            onClick={() => { setLoginMethod('license'); setError(''); }}
+            style={{ ...styles.tab, ...(activeTab === 'signin' ? styles.tabActive : {}) }}
+            onClick={() => { setActiveTab('signin'); setError(''); }}
           >
-            License Key
+            Sign In
           </button>
           <button
-            style={{
-              ...styles.tab,
-              ...(loginMethod === 'email' ? styles.tabActive : {}),
-            }}
-            onClick={() => { setLoginMethod('email'); setError(''); }}
+            style={{ ...styles.tab, ...(activeTab === 'activate' ? styles.tabActive : {}) }}
+            onClick={() => { setActiveTab('activate'); setError(''); resetActivation(); }}
           >
-            Email
+            Activate License
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} style={styles.form}>
-          {loginMethod === 'license' ? (
+        {/* Error display */}
+        {error && <div style={styles.errorBox}>{error}</div>}
+
+        {/* ===== SIGN IN TAB ===== */}
+        {activeTab === 'signin' && (
+          <form onSubmit={handleSignIn} style={styles.form}>
             <div style={styles.inputGroup}>
-              <label style={styles.label} htmlFor="licenseKey">
-                Enter your license key
-              </label>
+              <label style={styles.label} htmlFor="signin-email">Email</label>
+              <input
+                id="signin-email"
+                type="email"
+                value={signInEmail}
+                onChange={(e) => setSignInEmail(e.target.value)}
+                placeholder="you@example.com"
+                style={styles.input}
+                required
+                autoFocus
+              />
+            </div>
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="signin-password">Password</label>
+              <input
+                id="signin-password"
+                type="password"
+                value={signInPassword}
+                onChange={(e) => setSignInPassword(e.target.value)}
+                placeholder="Your password"
+                style={styles.input}
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={loading}
+              style={{ ...styles.submitButton, ...(loading ? styles.submitButtonDisabled : {}) }}
+            >
+              {loading ? 'Signing in...' : 'Sign In'}
+            </button>
+            <div style={{ textAlign: 'center' }}>
+              <a href="/en/auth/forgot-password" style={styles.helpLink}>
+                Forgot password?
+              </a>
+            </div>
+          </form>
+        )}
+
+        {/* ===== ACTIVATE LICENSE TAB ===== */}
+        {activeTab === 'activate' && activateStep === 'enter-key' && (
+          <form onSubmit={handleVerifyKey} style={styles.form}>
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="licenseKey">License Key</label>
               <input
                 id="licenseKey"
                 type="text"
                 value={licenseKey}
                 onChange={(e) => setLicenseKey(e.target.value.toUpperCase())}
                 placeholder="LCS-XXXXX-XXXXX-XXXXX-XXXXX"
-                style={styles.input}
+                style={{ ...styles.input, fontFamily: 'monospace', letterSpacing: '1px' }}
                 required
                 autoFocus
               />
@@ -102,45 +311,122 @@ export default function MemberPage() {
                 Your license key was sent to your email after purchase.
               </p>
             </div>
-          ) : (
+            <button
+              type="submit"
+              disabled={loading}
+              style={{ ...styles.submitButton, ...(loading ? styles.submitButtonDisabled : {}) }}
+            >
+              {loading ? 'Verifying...' : 'Verify License Key'}
+            </button>
+          </form>
+        )}
+
+        {/* Step 2a: Create Account */}
+        {activeTab === 'activate' && activateStep === 'create-account' && verifiedLicense && (
+          <form onSubmit={handleCreateAccount} style={styles.form}>
+            <div style={styles.successBox}>
+              License verified for <strong>{verifiedLicense.email}</strong>
+            </div>
+            <p style={styles.stepInfo}>
+              Create an account to access your tools. You&apos;ll sign in with this email and password going forward.
+            </p>
             <div style={styles.inputGroup}>
-              <label style={styles.label} htmlFor="email">
-                Enter your purchase email
-              </label>
+              <label style={styles.label} htmlFor="new-name">Your Name</label>
               <input
-                id="email"
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
+                id="new-name"
+                type="text"
+                value={newName}
+                onChange={(e) => setNewName(e.target.value)}
+                placeholder="John Doe"
                 style={styles.input}
                 required
                 autoFocus
               />
-              <p style={styles.hint}>
-                Use the email address you used when purchasing.
-              </p>
             </div>
-          )}
-
-          {error && (
-            <div style={styles.errorBox}>
-              {error}
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="new-password">Password</label>
+              <input
+                id="new-password"
+                type="password"
+                value={newPassword}
+                onChange={(e) => setNewPassword(e.target.value)}
+                placeholder="Min. 8 characters"
+                style={styles.input}
+                required
+                minLength={8}
+              />
             </div>
-          )}
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="confirm-password">Confirm Password</label>
+              <input
+                id="confirm-password"
+                type="password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+                placeholder="Repeat password"
+                style={styles.input}
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={loading}
+              style={{ ...styles.submitButton, ...(loading ? styles.submitButtonDisabled : {}) }}
+            >
+              {loading ? 'Creating Account...' : 'Create Account & Activate'}
+            </button>
+            <button type="button" onClick={resetActivation} style={styles.backButton}>
+              Back
+            </button>
+          </form>
+        )}
 
-          <button
-            type="submit"
-            disabled={loading}
-            style={{
-              ...styles.submitButton,
-              ...(loading ? styles.submitButtonDisabled : {}),
-            }}
-          >
-            {loading ? 'Checking...' : 'Access My Tools'}
-          </button>
-        </form>
+        {/* Step 2b: Sign In Existing */}
+        {activeTab === 'activate' && activateStep === 'sign-in-existing' && verifiedLicense && (
+          <form onSubmit={handleExistingSignIn} style={styles.form}>
+            <div style={styles.successBox}>
+              License verified for <strong>{verifiedLicense.email}</strong>
+            </div>
+            <p style={styles.stepInfo}>
+              An account already exists for this email. Sign in to link this license.
+            </p>
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="existing-email">Email</label>
+              <input
+                id="existing-email"
+                type="email"
+                value={verifiedLicense.email}
+                style={{ ...styles.input, backgroundColor: '#F3F4F6' }}
+                disabled
+              />
+            </div>
+            <div style={styles.inputGroup}>
+              <label style={styles.label} htmlFor="existing-password">Password</label>
+              <input
+                id="existing-password"
+                type="password"
+                value={existingPassword}
+                onChange={(e) => setExistingPassword(e.target.value)}
+                placeholder="Your password"
+                style={styles.input}
+                required
+                autoFocus
+              />
+            </div>
+            <button
+              type="submit"
+              disabled={loading}
+              style={{ ...styles.submitButton, ...(loading ? styles.submitButtonDisabled : {}) }}
+            >
+              {loading ? 'Signing in...' : 'Sign In & Activate'}
+            </button>
+            <button type="button" onClick={resetActivation} style={styles.backButton}>
+              Back
+            </button>
+          </form>
+        )}
 
+        {/* Help section */}
         <div style={styles.helpSection}>
           <p style={styles.helpText}>
             Lost your license key?{' '}
@@ -237,8 +523,6 @@ const styles: Record<string, React.CSSProperties> = {
     borderRadius: '8px',
     border: '1px solid #D1D5DB',
     outline: 'none',
-    fontFamily: 'monospace',
-    letterSpacing: '1px',
   },
   hint: {
     fontSize: '13px',
@@ -252,6 +536,21 @@ const styles: Record<string, React.CSSProperties> = {
     padding: '12px 16px',
     fontSize: '14px',
     color: '#DC2626',
+    marginBottom: '16px',
+  },
+  successBox: {
+    backgroundColor: '#F0FDF4',
+    border: '1px solid #BBF7D0',
+    borderRadius: '8px',
+    padding: '12px 16px',
+    fontSize: '14px',
+    color: '#16A34A',
+  },
+  stepInfo: {
+    fontSize: '14px',
+    color: '#6B7280',
+    margin: '0',
+    lineHeight: '1.5',
   },
   submitButton: {
     padding: '14px 24px',
@@ -267,6 +566,17 @@ const styles: Record<string, React.CSSProperties> = {
   submitButtonDisabled: {
     backgroundColor: '#93C5FD',
     cursor: 'not-allowed',
+  },
+  backButton: {
+    padding: '10px 24px',
+    fontSize: '14px',
+    fontWeight: '500',
+    borderRadius: '8px',
+    border: '1px solid #D1D5DB',
+    backgroundColor: 'transparent',
+    color: '#6B7280',
+    cursor: 'pointer',
+    transition: 'all 0.2s',
   },
   helpSection: {
     marginTop: '24px',

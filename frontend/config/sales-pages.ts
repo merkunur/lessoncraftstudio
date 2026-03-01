@@ -1278,6 +1278,587 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       keywords: 'multilingual word search, word search languages, German word search, French word search, Spanish word search',
     },
   },
+
+  // ══════════════════════════════════════════
+  // FE — Code Addition Studio Pro ($27)
+  // Regular mode, 10 themes, all 11 languages
+  // ══════════════════════════════════════════
+  'code-addition': {
+    slug: 'code-addition',
+    productId: 'codeaddition-fe',
+    checkoutUrl: '',
+    wpButtonImg: '',
+    freeAppUrl: '',
+
+    // ── 1. Hero ──────────────────────────────
+    hero: {
+      badge: 'Code Addition Studio Pro',
+      headline: 'Turn Math Into a Code-Breaking Adventure \u2014 Worksheets in 60 Seconds',
+      subheadline: 'Students solve addition equations to decode hidden images. Auto answer keys. Canvas editor. 10 image themes. All 11 languages. Full commercial rights included.',
+      ctaPrimary: 'Get Instant Access',
+      trustBadges: [
+        'Watermark-Free Output',
+        'Commercial Rights Included',
+        'Instant Download Access',
+      ],
+    },
+
+    // ── 2. Testimonial ───────────────────────
+    testimonial: undefined,
+
+    // ── 3. Feature Grid (6 cards) ────────────
+    features: [
+      {
+        icon: 'code',
+        title: 'Code Breaker Addition Worksheets',
+        description: 'Each symbol represents a number. Students solve addition equations to crack the code and reveal hidden images. Makes math practice feel like a spy mission.',
+      },
+      {
+        icon: 'sliders',
+        title: 'Adjustable Difficulty',
+        description: '2\u20135 symbols per worksheet, 2\u20134 addends per question, customizable number ranges (1\u201320). Create worksheets for pre-K through 3rd grade with precision control.',
+      },
+      {
+        icon: 'images',
+        title: '10 Image Themes (~300 Images)',
+        description: 'Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.',
+      },
+      {
+        icon: 'edit',
+        title: 'Full Canvas Editor',
+        description: 'Drag, resize, rotate, and layer every element. Add custom text with multiple fonts, upload your own images, adjust colors and outlines. Professional-grade design control.',
+      },
+      {
+        icon: 'download',
+        title: 'PDF + JPEG Export with Answer Keys',
+        description: 'Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.',
+      },
+      {
+        icon: 'shield',
+        title: 'Full Commercial Rights',
+        description: 'Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.',
+      },
+    ],
+
+    // ── 4. Market Stats ──────────────────────
+    marketStats: {
+      headline: 'Why Code Breaker Math Worksheets Sell',
+      description: 'Parents and teachers want math practice that feels like play. Code breaker worksheets combine math with puzzle-solving \u2014 a format that keeps kids engaged while building real skills.',
+      stats: [
+        { value: '$2.4B', label: 'U.S. puzzle & activity book market (est.)' },
+        { value: '14,000+', label: 'Monthly searches for addition worksheets' },
+        { value: 'Growing', label: 'Year-over-year printable market growth' },
+        { value: 'Year-Round', label: 'Demand \u2014 not seasonal like holidays' },
+      ],
+    },
+
+    // ── 5. Income Potential ──────────────────
+    incomePotential: {
+      headline: 'The Math Behind Code Addition Income',
+      description: 'Create 10 themed code breaker addition books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day \u2014 that\u2019s a growing passive income stream with every new title you publish.',
+      calculation: '$3.99 \u00d7 1.5 sales/day \u00d7 10 books = $59.85/day \u2248 $598/month',
+    },
+
+    // ── 7. Obstacles ─────────────────────────
+    obstacles: {
+      headline: 'Maybe You\u2019ve Tried Before...',
+      problems: [
+        'Creating code breaker worksheets manually means assigning symbols, writing equations, and making answer keys \u2014 hours per worksheet',
+        'Professional worksheet-making software costs $200+ and has a steep learning curve',
+        'You don\u2019t know how to generate auto-graded answer keys for code puzzles',
+        'Formatting for print (KDP, Etsy) requires technical knowledge you don\u2019t have',
+      ],
+      solution: 'Code Addition Studio Pro handles all of this automatically. Pick a theme, set your difficulty, and export a print-ready PDF with answer key \u2014 in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
+    },
+
+    // ── 8. Product Introduction ──────────────
+    productIntro: {
+      headline: 'Introducing Code Addition Studio Pro',
+      description: 'A browser-based creation studio that generates code breaker addition worksheets using real images as symbols. Each symbol is assigned a number, students solve addition equations to decode the picture, and answer keys are generated automatically.',
+      differentiators: [
+        'Image-based symbols \u2014 students decode real pictures, not boring letters or generic shapes',
+        'Auto equation generation \u2014 the app creates addition problems with your chosen difficulty settings',
+        'One-click answer keys \u2014 generated automatically from every worksheet',
+        'Full canvas editor \u2014 move, resize, rotate, and layer every element with professional precision',
+      ],
+    },
+
+    // ── 9. Before/After ──────────────────────
+    beforeAfter: {
+      before: [
+        'Spend hours manually creating code worksheets and writing equations',
+        'Pay $200+ for design software you don\u2019t know how to use',
+        'Produce plain worksheets that look unprofessional',
+        'Struggle with print formatting and page sizing',
+        'No way to generate answer keys automatically',
+      ],
+      after: [
+        'Generate professional code breaker worksheets in under 60 seconds',
+        'One-time $27 payment \u2014 no monthly fees, no subscriptions',
+        'Image-rich puzzles that stand out on Etsy and Amazon',
+        'Export print-ready PDFs formatted for any platform',
+        'Answer keys generated automatically with every worksheet',
+      ],
+    },
+
+    // ── 10. Ownership/Rights ─────────────────
+    ownership: [
+      {
+        icon: 'shield',
+        title: 'Full Commercial Rights',
+        description: 'Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.',
+      },
+      {
+        icon: 'users',
+        title: 'Personal Use',
+        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+      },
+      {
+        icon: 'store',
+        title: 'Sell Anywhere',
+        description: 'Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website \u2014 sell on any platform worldwide.',
+      },
+    ],
+
+    // ── 11. Demo ─────────────────────────────
+    demo: {
+      type: 'static-mockup',
+    },
+
+    // ── 12. How It Works (5 Steps) ───────────
+    steps: [
+      {
+        number: 1,
+        icon: 'images',
+        title: 'Pick a Theme',
+        description: 'Browse 10 image themes \u2014 animals, dinosaurs, ocean life, space, and more. Each image becomes a code symbol on your worksheet.',
+      },
+      {
+        number: 2,
+        icon: 'sliders',
+        title: 'Set Difficulty',
+        description: 'Choose 2\u20135 symbols, 2\u20134 addends per question, and your number range. Create worksheets for any age from pre-K to 3rd grade.',
+      },
+      {
+        number: 3,
+        icon: 'sparkles',
+        title: 'Generate Worksheet',
+        description: 'The app assigns numbers to symbols, generates unique addition equations, and creates the code breaker layout automatically.',
+      },
+      {
+        number: 4,
+        icon: 'edit',
+        title: 'Customize Your Design',
+        description: 'Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours with the canvas editor.',
+      },
+      {
+        number: 5,
+        icon: 'rocket',
+        title: 'Export & Sell',
+        description: 'Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.',
+      },
+    ],
+
+    // ── 13. Showcase ─────────────────────────
+    showcase: {
+      headline: 'What You Can Create',
+      items: [
+        {
+          title: 'Themed Code Breaker Books',
+          description: 'Complete activity books organized by theme \u2014 animals, space, dinosaurs, and more. Students solve addition equations to decode the hidden image in each puzzle.',
+        },
+        {
+          title: 'Auto-Generated Answer Keys',
+          description: 'Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.',
+        },
+        {
+          title: 'Multiple Difficulty Levels',
+          description: '2 symbols for beginners, 5 symbols for a challenge. 2 addends for simple practice, 4 addends for advanced students. Create products for every age group.',
+        },
+        {
+          title: 'Multi-Language Worksheets',
+          description: 'Generate worksheets in all 11 languages. Create localized products for German, French, Spanish, and 8 more markets with automatic translations.',
+        },
+      ],
+    },
+
+    // ── 14. Target Audiences (4 cards) ───────
+    audiences: [
+      {
+        icon: 'store',
+        title: 'Etsy Sellers',
+        description: 'Create unique code breaker activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.',
+      },
+      {
+        icon: 'book',
+        title: 'Amazon KDP Publishers',
+        description: 'Publish code breaker activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.',
+      },
+      {
+        icon: 'users',
+        title: 'Teachers & Parents',
+        description: 'Custom code breaker worksheets for any theme. Make math practice fun with engaging decode-the-picture puzzles that kids actually enjoy solving.',
+      },
+      {
+        icon: 'rocket',
+        title: 'Content Creators',
+        description: 'Build a library of printable code breaker products. Sell on multiple platforms simultaneously. Each worksheet takes seconds, not hours.',
+      },
+    ],
+
+    // ── 15. Value Stack ──────────────────────
+    valueStack: {
+      headline: 'Everything Included in Your Purchase',
+      items: [
+        { name: 'Code Addition Studio Pro (Regular Mode)', value: 97 },
+        { name: '10 Image Themes (~300 professional images)', value: 47 },
+        { name: 'Adjustable Difficulty (2\u20135 symbols, 2\u20134 addends)', value: 37 },
+        { name: 'Auto Answer Key Generation', value: 47 },
+        { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
+        { name: 'All 11 Languages Included', value: 67 },
+        { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
+        { name: 'PDF + JPEG Export with Answer Keys', value: 37 },
+      ],
+      totalValue: 476,
+      yourPrice: 27,
+    },
+
+    // ── 17. Guarantee ────────────────────────
+    guarantee: {
+      days: 30,
+      text: 'Try Code Addition Studio Pro risk-free for 30 days. If it doesn\u2019t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+    },
+
+    // ── 18. Urgency ──────────────────────────
+    urgency: {
+      headline: 'Lock In This Launch Price',
+      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up \u2014 and it won\u2019t come back down.',
+      regularPrice: 97,
+    },
+
+    // ── 19. FAQ (8 questions) ────────────────
+    faq: [
+      {
+        question: 'Is this a subscription?',
+        answer: 'No. This is a one-time payment of $27. You get lifetime access to Code Addition Studio Pro with all features included. No recurring fees, ever.',
+      },
+      {
+        question: 'Can I sell the worksheets I create?',
+        answer: 'Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.',
+      },
+      {
+        question: 'How does the code breaker format work?',
+        answer: 'Each worksheet assigns a number to image symbols. Students solve addition equations where the answers reveal which symbol goes where. The decoded symbols form a picture. Answer keys are generated automatically.',
+      },
+      {
+        question: 'What formats can I export?',
+        answer: 'You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.',
+      },
+      {
+        question: 'How many worksheets can I create?',
+        answer: 'Unlimited. There is no cap on how many code breaker worksheets you can generate. Create as many as you want, forever.',
+      },
+      {
+        question: 'What if I\u2019m not satisfied?',
+        answer: 'We offer a 30-day money-back guarantee. If Code Addition Studio Pro doesn\u2019t meet your expectations, contact us for a full refund. No questions asked.',
+      },
+      {
+        question: 'Do I need math or design skills?',
+        answer: 'Not at all. The app generates all equations automatically \u2014 just set your difficulty level. The canvas editor is drag-and-drop. No design skills needed.',
+      },
+      {
+        question: 'Can I upgrade to more themes or features later?',
+        answer: 'Yes. After purchase, you\u2019ll have the option to add Word Reveal Mode and the Complete Image Library (104 themes). But the best prices are available right after your initial purchase.',
+      },
+    ],
+
+    // ── 20. Closing P.S. ─────────────────────
+    closingPs: 'You\u2019re getting Code Addition Studio Pro, adjustable difficulty settings, auto answer keys, 10 image themes, all 11 languages, a full canvas editor, PDF export, and complete commercial rights \u2014 all for a one-time payment of $27. Create your first code breaker worksheet today.',
+
+    // ── Pricing (CTA sections) ───────────────
+    pricing: {
+      price: 27,
+      comparePrice: 97,
+      currency: '$',
+      label: 'One-Time Payment',
+      includes: [
+        'Code Addition Studio Pro (Regular Mode)',
+        '10 image themes (~300 images)',
+        'Adjustable difficulty (2\u20135 symbols, 2\u20134 addends)',
+        'Auto answer key generation',
+        'All 11 languages included',
+        'Canvas editor with full control',
+        'PDF + JPEG export with answer keys',
+        'Backgrounds & borders',
+        'Watermark-free output',
+        'Full commercial/POD/resale rights',
+        'Lifetime access \u2014 no subscription',
+      ],
+    },
+
+    // ── SEO ──────────────────────────────────
+    seo: {
+      title: 'Code Addition Studio Pro \u2014 Create & Sell Code Breaker Addition Worksheets | $27 One-Time',
+      description: 'Create professional code breaker addition worksheets in 60 seconds. Image symbols, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.',
+      keywords: 'code addition studio pro, code breaker worksheet maker, addition worksheet creator, printable math puzzles, Etsy math worksheets, KDP addition worksheets, commercial math worksheets',
+    },
+  },
+
+  // ══════════════════════════════════════════
+  // OTO1 — Code Addition Word Reveal Mode ($37)
+  // Unlocks the Word Reveal feature
+  // ══════════════════════════════════════════
+  'code-addition-wordreveal': {
+    slug: 'code-addition-wordreveal',
+    productId: 'codeaddition-oto1-wordreveal',
+    checkoutUrl: '',
+    wpButtonImg: '',
+    freeAppUrl: '',
+    isOto: true,
+
+    // ── 1. Hero ──────────────────────────────
+    hero: {
+      badge: 'Exclusive Upgrade',
+      headline: 'Wait! Unlock Word Reveal Mode',
+      subheadline: 'You just got Code Addition Studio Pro. Now add the most engaging feature: students solve equations and each answer reveals a letter of a secret word. Math meets literacy in one worksheet.',
+      ctaPrimary: 'Add to My Order',
+      trustBadges: [
+        'One-Time Payment',
+        'Instant Activation',
+        'Math + Literacy Combined',
+      ],
+    },
+
+    // ── 2. Comparison ────────────────────────
+    comparison: {
+      current: {
+        label: 'Your Current Mode',
+        items: [
+          'Regular code breaker mode',
+          'Students decode images only',
+          'Math practice only',
+          'Standard addition worksheets',
+        ],
+      },
+      upgrade: {
+        label: 'With Word Reveal Mode',
+        items: [
+          'Regular mode + Word Reveal mode',
+          'Students decode a secret word',
+          'Math + literacy combined',
+          'Unique two-skill worksheets',
+        ],
+      },
+    },
+
+    // ── 5. Value Stack ───────────────────────
+    valueStack: {
+      headline: 'Everything You Unlock',
+      items: [
+        { name: 'Word Reveal Mode (secret word puzzles)', value: 67 },
+        { name: 'Auto Letter-to-Answer Mapping', value: 37 },
+        { name: 'Support for Accented Characters (all 11 languages)', value: 27 },
+      ],
+      totalValue: 131,
+      yourPrice: 37,
+    },
+
+    // ── 6. Guarantee ─────────────────────────
+    guarantee: {
+      days: 30,
+      text: 'Same 30-day money-back guarantee. If Word Reveal Mode doesn\u2019t meet your expectations, contact us for a full refund.',
+    },
+
+    // ── 7. FAQ ───────────────────────────────
+    faq: [
+      {
+        question: 'Do I need this to use Code Addition Studio Pro?',
+        answer: 'No. Code Addition Studio Pro works great with Regular Mode. Word Reveal Mode is for sellers who want a unique product type \u2014 worksheets that combine math and literacy practice in one puzzle.',
+      },
+      {
+        question: 'How does Word Reveal Mode work?',
+        answer: 'You type a secret word (up to 10 letters). The app creates one equation per letter. Students solve each equation, and the answer maps to a letter. When all equations are solved, the secret word is revealed.',
+      },
+      {
+        question: 'Can I upgrade later?',
+        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $97.',
+      },
+      {
+        question: 'Does it work with all languages?',
+        answer: 'Yes. Word Reveal Mode supports accented characters for all 11 languages, including German (\u00c4\u00d6\u00dc), French (\u00c9\u00c8\u00ca), and Nordic languages (\u00c5\u00d8).',
+      },
+    ],
+
+    declineText: 'No thanks, I\u2019ll stick with Regular Mode only',
+
+    // ── Pricing (CTA section) ────────────────
+    pricing: {
+      price: 37,
+      comparePrice: 97,
+      currency: '$',
+      label: 'One-Time Upgrade',
+      includes: [
+        'Word Reveal Mode unlocked',
+        'Secret word puzzle worksheets',
+        'Auto letter-to-answer mapping',
+        'All 11 languages with accented characters',
+        'Instant activation',
+      ],
+    },
+
+    // ── SEO ──────────────────────────────────
+    seo: {
+      title: 'Word Reveal Mode \u2014 Code Addition Studio Pro Upgrade | $37 One-Time',
+      description: 'Unlock Word Reveal Mode for Code Addition Studio Pro. Students solve equations to reveal secret words. Math + literacy combined. $37 one-time.',
+      keywords: 'word reveal mode, code addition upgrade, math literacy worksheets, secret word math puzzles',
+    },
+  },
+
+  // ══════════════════════════════════════════
+  // OTO2 — Code Addition Complete Image Library ($37)
+  // Unlock all 104 themes (3,125 images)
+  // ══════════════════════════════════════════
+  'code-addition-library': {
+    slug: 'code-addition-library',
+    productId: 'codeaddition-oto2-library',
+    checkoutUrl: '',
+    wpButtonImg: '',
+    freeAppUrl: '',
+    isOto: true,
+
+    // ── 1. Hero ──────────────────────────────
+    hero: {
+      badge: 'Exclusive Upgrade',
+      headline: 'Wait! Unlock All 104 Image Themes',
+      subheadline: 'You just got 10 themes. Imagine having 104 \u2014 with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.',
+      ctaPrimary: 'Add to My Order',
+      trustBadges: [
+        'One-Time Payment',
+        'Instant Activation',
+        '3,125 Images',
+      ],
+    },
+
+    // ── 2. Comparison ────────────────────────
+    comparison: {
+      current: {
+        label: 'Your Current Library',
+        items: [
+          '10 image themes',
+          '~300 images',
+          'Colorful themes only',
+          '10 possible code breaker books',
+        ],
+      },
+      upgrade: {
+        label: 'Complete Image Library',
+        items: [
+          '104 image themes',
+          '3,125 images',
+          '52 colorful + 52 black & white',
+          '104+ possible code breaker books',
+        ],
+      },
+    },
+
+    // ── 3. Theme Categories ──────────────────
+    themeCategories: {
+      headline: 'Browse the Complete Theme Collection',
+      categories: [
+        { name: 'Animals', count: 36 },
+        { name: 'Ocean Life', count: 32 },
+        { name: 'Dinosaurs', count: 28 },
+        { name: 'Birds', count: 26 },
+        { name: 'Farm Animals', count: 30 },
+        { name: 'Fruits', count: 24 },
+        { name: 'Vegetables', count: 22 },
+        { name: 'Vehicles', count: 31 },
+        { name: 'Space', count: 28 },
+        { name: 'Christmas', count: 34 },
+        { name: 'Easter', count: 26 },
+        { name: 'Flowers', count: 24 },
+        { name: 'Insects & Bugs', count: 24 },
+        { name: 'Camping', count: 22 },
+        { name: 'Classroom', count: 24 },
+        { name: 'Desserts', count: 24 },
+        { name: 'Music', count: 24 },
+        { name: 'Professions', count: 28 },
+        { name: 'Pets', count: 26 },
+        { name: 'Toys', count: 24 },
+        { name: 'Summer', count: 24 },
+        { name: 'Weather', count: 22 },
+        { name: 'Shapes', count: 22 },
+        { name: 'And 81 more...', count: 0 },
+      ],
+    },
+
+    // ── 4. Content Math ──────────────────────
+    contentMath: {
+      headline: 'More Themes = More Products = More Revenue',
+      description: 'With 10 themes, you can create 10 code breaker books. With 104 themes, you can create 104+ unique books \u2014 in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.',
+    },
+
+    // ── 5. Value Stack ───────────────────────
+    valueStack: {
+      headline: 'Everything You Unlock',
+      items: [
+        { name: '52 Colorful Image Themes (1,560 images)', value: 147 },
+        { name: '52 Black & White Themes (1,565 images)', value: 97 },
+      ],
+      totalValue: 244,
+      yourPrice: 37,
+    },
+
+    // ── 6. Guarantee ─────────────────────────
+    guarantee: {
+      days: 30,
+      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn\u2019t meet your expectations, contact us for a full refund.',
+    },
+
+    // ── 7. FAQ ───────────────────────────────
+    faq: [
+      {
+        question: 'Do I need this to use Code Addition Studio Pro?',
+        answer: 'No. Code Addition Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety \u2014 104 themes means 104+ unique code breaker books you can create and sell.',
+      },
+      {
+        question: 'How does activation work?',
+        answer: 'Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.',
+      },
+      {
+        question: 'Can I upgrade later?',
+        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
+      },
+      {
+        question: 'What\u2019s the difference between colorful and black & white themes?',
+        answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets \u2014 perfect for KDP print editions.',
+      },
+    ],
+
+    declineText: 'No thanks, I\u2019ll stick with 10 themes',
+
+    // ── Pricing (CTA section) ────────────────
+    pricing: {
+      price: 37,
+      comparePrice: 147,
+      currency: '$',
+      label: 'One-Time Upgrade',
+      includes: [
+        '104 image themes (3,125 images)',
+        '52 colorful themes + 52 black & white themes',
+        'Decorative backgrounds & borders',
+        'Instant activation',
+        'Full commercial rights on all images',
+      ],
+    },
+
+    // ── SEO ──────────────────────────────────
+    seo: {
+      title: 'Complete Image Library \u2014 Code Addition Studio Pro Upgrade | $37 One-Time',
+      description: 'Unlock all 104 image themes with 3,125 professionally curated PNG images for Code Addition Studio Pro. Create code breaker books for any niche. $37 one-time.',
+      keywords: 'code addition image library, code breaker themes, math worksheet images, printable worksheet themes',
+    },
+  },
 };
 
 // ==========================================

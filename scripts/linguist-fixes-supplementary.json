@@ -1,0 +1,140 @@
+{
+  "fixes": [
+    {
+      "key": "alarm-clock",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Vackarklocka",
+      "correct": "Väckarklocka",
+      "reason": "Stripped ä — Swedish for alarm clock is Väckarklocka"
+    },
+    {
+      "key": "alarm-clock",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Vaekker",
+      "correct": "Vækkeur",
+      "reason": "Stripped æ and wrong form — Danish for alarm clock is Vækkeur"
+    },
+    {
+      "key": "bracelet",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Armband",
+      "correct": "Armbånd",
+      "reason": "Stripped å — Danish for bracelet is Armbånd"
+    },
+    {
+      "key": "bracelet",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Armband",
+      "correct": "Armbånd",
+      "reason": "Stripped å — Norwegian for bracelet is Armbånd"
+    },
+    {
+      "key": "cabinet",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Skap",
+      "correct": "Skåp",
+      "reason": "Stripped å — Swedish for cabinet is Skåp"
+    },
+    {
+      "key": "chinchilla",
+      "locale": "it",
+      "field": "singular",
+      "wrong": "Cincilla",
+      "correct": "Cincillà",
+      "reason": "Stripped accent — Italian for chinchilla is Cincillà"
+    },
+    {
+      "key": "closet",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Closet",
+      "correct": "Clóset",
+      "reason": "Missing accent — Spanish closet is Clóset"
+    },
+    {
+      "key": "dragon",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Lohikaarme",
+      "correct": "Lohikäärme",
+      "reason": "Stripped ä — Finnish for dragon is Lohikäärme"
+    },
+    {
+      "key": "fridge",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Kylskap",
+      "correct": "Kylskåp",
+      "reason": "Stripped å — Swedish for fridge is Kylskåp"
+    },
+    {
+      "key": "pear",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Pera",
+      "correct": "Pêra",
+      "reason": "Missing circumflex — Portuguese for pear is Pêra"
+    },
+    {
+      "key": "pony",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Ponei",
+      "correct": "Pônei",
+      "reason": "Missing circumflex — Portuguese for pony is Pônei"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Kylskap",
+      "correct": "Kylskåp",
+      "reason": "Stripped å — Swedish for refrigerator is Kylskåp"
+    },
+    {
+      "key": "sofa",
+      "locale": "it",
+      "field": "singular",
+      "wrong": "Sofa",
+      "correct": "Sofà",
+      "reason": "Missing accent — Italian for sofa is Sofà"
+    },
+    {
+      "key": "ribbon",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Band",
+      "correct": "Bånd",
+      "reason": "Stripped å — Danish for ribbon is Bånd"
+    },
+    {
+      "key": "ribbon",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Band",
+      "correct": "Bånd",
+      "reason": "Stripped å — Norwegian for ribbon is Bånd"
+    },
+    {
+      "key": "teddy-bear",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Ursinho de pelucia",
+      "correct": "Ursinho de pelúcia",
+      "reason": "Missing accent — Portuguese pelúcia has accent"
+    },
+    {
+      "key": "mittens",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Faustlinge",
+      "correct": "Fäustlinge",
+      "reason": "Missing umlaut — German Fäustlinge has root umlaut (from Fäustling)"
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "fixes": [
+    {
+      "key": "acorn",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Tammenterhon",
+      "correct": "Tammenterho",
+      "reason": "Singular should be nominative 'Tammenterho'; 'Tammenterhon' is the genitive case form"
+    },
+    {
+      "key": "alarm-clock",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Reveil",
+      "correct": "Réveil",
+      "reason": "Missing accent: é stripped - French word is Réveil"
+    },
+    {
+      "key": "alarm-clock",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'väckarklocka' is an en-word (utrum/common gender), not ett-word"
+    },
+    {
+      "key": "alarm-clock",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Heratyskello",
+      "correct": "Herätyskello",
+      "reason": "Missing umlaut: ä stripped - Finnish word is Herätyskello"
+    },
+    {
+      "key": "alligator",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Caiman",
+      "correct": "Caimán",
+      "reason": "Missing accent: á stripped - Spanish word is Caimán"
+    },
+    {
+      "key": "alligator",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Jacare",
+      "correct": "Jacaré",
+      "reason": "Missing accent: é stripped - Portuguese word is Jacaré"
+    },
+    {
+      "key": "analog-clock",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'klocka' is an en-word (utrum); 'Analog klocka' takes [d], not [n]"
+    },
+    {
+      "key": "apricot",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'aprikos' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "apron",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Schurze",
+      "correct": "Schürze",
+      "reason": "Missing umlaut: ü stripped - German word is Schürze"
+    },
+    {
+      "key": "apron",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Forklade",
+      "correct": "Förkläde",
+      "reason": "Missing umlauts: ö and ä stripped - Swedish word is Förkläde"
+    },
+    {
+      "key": "apron",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Forklade",
+      "correct": "Forklæde",
+      "reason": "Missing æ: Danish word is Forklæde"
+    },
+    {
+      "key": "architect",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'arkitekt' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "arm",
+      "locale": "it",
+      "field": "gender",
+      "wrong": "f",
+      "correct": "m",
+      "reason": "Italian 'braccio' is masculine; the irregular plural 'braccia' happens to look feminine but the noun class is masculine"
+    },
+    {
+      "key": "armchair",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Sillon",
+      "correct": "Sillón",
+      "reason": "Missing accent: ó stripped - Spanish word is Sillón"
+    },
+    {
+      "key": "armchair",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Fatölj",
+      "correct": "Fåtölj",
+      "reason": "Missing å: Swedish word is Fåtölj"
+    },
+    {
+      "key": "armchair",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Laenestol",
+      "correct": "Lænestol",
+      "reason": "Missing æ: Danish word is Lænestol"
+    },
+    {
+      "key": "artist",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'konstnär' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "astronaut",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'astronaut' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "athlete",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'atlet' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "baby-overall",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Salopette bebe",
+      "correct": "Salopette bébé",
+      "reason": "Missing accent: é stripped from bébé"
+    },
+    {
+      "key": "baby-overall",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Overol de bebe",
+      "correct": "Overol de bebé",
+      "reason": "Missing accent: é stripped from bebé"
+    },
+    {
+      "key": "baby-overall",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Macacao de bebe",
+      "correct": "Macacão de bebê",
+      "reason": "Missing accents: ã and ê stripped - Portuguese is Macacão de bebê"
+    },
+    {
+      "key": "baby's-onesie",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Grenouillere",
+      "correct": "Grenouillère",
+      "reason": "Missing accent: è stripped - French word is Grenouillère"
+    },
+    {
+      "key": "baby's-onesie",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Mameluco de bebe",
+      "correct": "Mameluco de bebé",
+      "reason": "Missing accent: é stripped from bebé"
+    },
+    {
+      "key": "baby's-onesie",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Body de bebe",
+      "correct": "Body de bebê",
+      "reason": "Missing accent: ê stripped from bebê"
+    },
+    {
+      "key": "backpack",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Sac a dos",
+      "correct": "Sac à dos",
+      "reason": "Missing accent: à stripped - French phrase is Sac à dos"
+    },
+    {
+      "key": "backpack",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Ryggsack",
+      "correct": "Ryggsäck",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Ryggsäck"
+    },
+    {
+      "key": "backpack",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Rygsaek",
+      "correct": "Rygsæk",
+      "reason": "Missing æ: Danish word is Rygsæk"
+    },
+    {
+      "key": "badge",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Marke",
+      "correct": "Märke",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Märke"
+    },
+    {
+      "key": "balloon",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Balao",
+      "correct": "Balão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Balão"
+    },
+    {
+      "key": "banana",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'banan' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "barrette",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Harspanne",
+      "correct": "Hårspänne",
+      "reason": "Missing å and ä: Swedish word is Hårspänne"
+    },
+    {
+      "key": "barrette",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Harspaende",
+      "correct": "Hårspænde",
+      "reason": "Missing å and æ: Danish word is Hårspænde"
+    },
+    {
+      "key": "barrette",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Harspenne",
+      "correct": "Hårspenne",
+      "reason": "Missing å: Norwegian word is Hårspenne"
+    },
+    {
+      "key": "bat",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'fladdermus' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "bat",
+      "locale": "da",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Danish 'flagermus' is common gender (en flagermus), not neuter"
+    },
+    {
+      "key": "bathtub",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Banera",
+      "correct": "Bañera",
+      "reason": "Missing tilde: ñ stripped - Spanish word is Bañera"
+    },
+    {
+      "key": "bear",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Bar",
+      "correct": "Bär",
+      "reason": "Missing umlaut: ä stripped - German word is Bär"
+    },
+    {
+      "key": "bear",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Bjorn",
+      "correct": "Björn",
+      "reason": "Missing umlaut: ö stripped - Swedish word is Björn"
+    },
+    {
+      "key": "bear",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Bjorn",
+      "correct": "Bjørn",
+      "reason": "Missing ø: Danish word is Bjørn"
+    },
+    {
+      "key": "bear",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Bjorn",
+      "correct": "Bjørn",
+      "reason": "Missing ø: Norwegian word is Bjørn"
+    },
+    {
+      "key": "beanie",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Mutze",
+      "correct": "Mütze",
+      "reason": "Missing umlaut: ü stripped - German word is Mütze"
+    },
+    {
+      "key": "beaver",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Baver",
+      "correct": "Bäver",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Bäver"
+    },
+    {
+      "key": "beaver",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Baever",
+      "correct": "Bæver",
+      "reason": "Missing æ: Danish word is Bæver"
+    },
+    {
+      "key": "bed",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Sang",
+      "correct": "Säng",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Säng"
+    },
+    {
+      "key": "bed",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Sanky",
+      "correct": "Sänky",
+      "reason": "Missing umlaut: ä stripped - Finnish word is Sänky"
+    },
+    {
+      "key": "bee",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Mehilainen",
+      "correct": "Mehiläinen",
+      "reason": "Missing umlaut: ä stripped - Finnish word is Mehiläinen"
+    },
+    {
+      "key": "belt",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Gurtel",
+      "correct": "Gürtel",
+      "reason": "Missing umlaut: ü stripped - German word is Gürtel"
+    },
+    {
+      "key": "belt",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Balte",
+      "correct": "Bälte",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Bälte"
+    },
+    {
+      "key": "belt",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Baelte",
+      "correct": "Bælte",
+      "reason": "Missing æ: Danish word is Bælte"
+    },
+    {
+      "key": "belt",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Vyo",
+      "correct": "Vyö",
+      "reason": "Missing umlaut: ö stripped - Finnish word is Vyö"
+    },
+    {
+      "key": "biking",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Velo",
+      "correct": "Vélo",
+      "reason": "Missing accent: é stripped - French word is Vélo"
+    },
+    {
+      "key": "biking",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Pyoraily",
+      "correct": "Pyöräily",
+      "reason": "Missing umlauts: ö and ä stripped - Finnish word is Pyöräily"
+    },
+    {
+      "key": "bird",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Pajaro",
+      "correct": "Pájaro",
+      "reason": "Missing accent: á stripped - Spanish word is Pájaro"
+    },
+    {
+      "key": "bird",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Passaro",
+      "correct": "Pássaro",
+      "reason": "Missing accent: á stripped - Portuguese word is Pássaro"
+    },
+    {
+      "key": "bird",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Fagel",
+      "correct": "Fågel",
+      "reason": "Missing å: Swedish word is Fågel"
+    },
+    {
+      "key": "bison",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Bisao",
+      "correct": "Bisão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Bisão"
+    },
+    {
+      "key": "book",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'bok' (book) is en-word (en bok, pl. böcker) - gender code should be [d] not [n]"
+    },
+    {
+      "key": "bookshelf",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Bucherregal",
+      "correct": "Bücherregal",
+      "reason": "Missing umlaut: ü stripped - German word is Bücherregal"
+    },
+    {
+      "key": "bookshelf",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Etagere",
+      "correct": "Étagère",
+      "reason": "Missing accents: É and è stripped - French word is Étagère"
+    },
+    {
+      "key": "boots",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Stovlar",
+      "correct": "Stövlar",
+      "reason": "Missing umlaut: ö stripped - Swedish word is Stövlar (plural used as singular entry; base singular is Stövel)"
+    },
+    {
+      "key": "boots",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Stovler",
+      "correct": "Støvler",
+      "reason": "Missing ø: Danish word is Støvler"
+    },
+    {
+      "key": "boots",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Stovler",
+      "correct": "Støvler",
+      "reason": "Missing ø: Norwegian word is Støvler"
+    },
+    {
+      "key": "bow-tie",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Sloyfeslips",
+      "correct": "Sløyfeslips",
+      "reason": "Missing ø: Norwegian word is Sløyfeslips"
+    },
+    {
+      "key": "bowl",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Schussel",
+      "correct": "Schüssel",
+      "reason": "Missing umlaut: ü stripped - German word is Schüssel"
+    },
+    {
+      "key": "bowl",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Tazon",
+      "correct": "Tazón",
+      "reason": "Missing accent: ó stripped - Spanish word is Tazón"
+    },
+    {
+      "key": "brush",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Burste",
+      "correct": "Bürste",
+      "reason": "Missing umlaut: ü stripped - German word is Bürste"
+    },
+    {
+      "key": "bull",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Harka",
+      "correct": "Härkä",
+      "reason": "Missing umlauts: ä stripped twice - Finnish word is Härkä"
+    },
+    {
+      "key": "cabinet",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Armario",
+      "correct": "Armário",
+      "reason": "Missing accent: á stripped - Portuguese word is Armário"
+    },
+    {
+      "key": "cake",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Gateau",
+      "correct": "Gâteau",
+      "reason": "Missing circumflex: â stripped - French word is Gâteau"
+    },
+    {
+      "key": "cap",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Bone",
+      "correct": "Boné",
+      "reason": "Missing accent: é stripped - Portuguese word is Boné"
+    },
+    {
+      "key": "carpet",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Taeppe",
+      "correct": "Tæppe",
+      "reason": "Missing æ: Danish word is Tæppe"
+    },
+    {
+      "key": "chameleon",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Chamaleon",
+      "correct": "Chamäleon",
+      "reason": "Missing umlaut: ä stripped - German word is Chamäleon"
+    },
+    {
+      "key": "chameleon",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cameleon",
+      "correct": "Caméléon",
+      "reason": "Missing accents: é stripped twice - French word is Caméléon"
+    },
+    {
+      "key": "chameleon",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Camaleon",
+      "correct": "Camaleón",
+      "reason": "Missing accent: ó stripped - Spanish word is Camaleón"
+    },
+    {
+      "key": "chameleon",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Camaleao",
+      "correct": "Camaleão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Camaleão"
+    },
+    {
+      "key": "chameleon",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Kamaeleon",
+      "correct": "Kamæleont",
+      "reason": "Missing æ: Danish word is Kamæleont"
+    },
+    {
+      "key": "chick",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Kuken",
+      "correct": "Küken",
+      "reason": "Missing umlaut: ü stripped - German word is Küken"
+    },
+    {
+      "key": "clock",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Relogio",
+      "correct": "Relógio",
+      "reason": "Missing accent: ó stripped - Portuguese word is Relógio"
+    },
+    {
+      "key": "coach",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'tränare' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "coffee-table",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Sohvapoyta",
+      "correct": "Sohvapöytä",
+      "reason": "Missing umlauts: ö and ä stripped - Finnish word is Sohvapöytä"
+    },
+    {
+      "key": "construction-worker",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'byggnadsarbetare' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "couch",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Canape",
+      "correct": "Canapé",
+      "reason": "Missing accent: é stripped - French word is Canapé"
+    },
+    {
+      "key": "couch",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Sofa",
+      "correct": "Sofá",
+      "reason": "Missing accent: á stripped - Spanish word is Sofá"
+    },
+    {
+      "key": "couch",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Sofa",
+      "correct": "Sofá",
+      "reason": "Missing accent: á stripped - Portuguese word is Sofá"
+    },
+    {
+      "key": "cow",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Lehma",
+      "correct": "Lehmä",
+      "reason": "Missing umlaut: ä stripped - Finnish word is Lehmä"
+    },
+    {
+      "key": "crow",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Krahe",
+      "correct": "Krähe",
+      "reason": "Missing umlaut: ä stripped - German word is Krähe"
+    },
+    {
+      "key": "cup",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Xicara",
+      "correct": "Xícara",
+      "reason": "Missing accent: í stripped - Portuguese word is Xícara"
+    },
+    {
+      "key": "curtain",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'gardin' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "curtains",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Vorhange",
+      "correct": "Vorhänge",
+      "reason": "Missing umlaut: ä stripped - German plural is Vorhänge (singular is Vorhang)"
+    },
+    {
+      "key": "cushion",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Cojin",
+      "correct": "Cojín",
+      "reason": "Missing accent: í stripped - Spanish word is Cojín"
+    },
+    {
+      "key": "dancing",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Dancar",
+      "correct": "Dançar",
+      "reason": "Missing cedilla: ç stripped - Portuguese word is Dançar"
+    },
+    {
+      "key": "desk",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Tyopoyta",
+      "correct": "Työpöytä",
+      "reason": "Missing umlauts: ö and ä stripped - Finnish word is Työpöytä"
+    },
+    {
+      "key": "detective",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'detektiv' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "dishwasher",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Geschirrspuler",
+      "correct": "Geschirrspüler",
+      "reason": "Missing umlaut: ü stripped - German word is Geschirrspüler"
+    },
+    {
+      "key": "door",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Tur",
+      "correct": "Tür",
+      "reason": "Missing umlaut: ü stripped - German word is Tür"
+    },
+    {
+      "key": "door",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Dorr",
+      "correct": "Dörr",
+      "reason": "Missing umlaut: ö stripped - Swedish word is Dörr"
+    },
+    {
+      "key": "door",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Dor",
+      "correct": "Dør",
+      "reason": "Missing ø: Danish word is Dør"
+    },
+    {
+      "key": "door",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Dor",
+      "correct": "Dør",
+      "reason": "Missing ø: Norwegian word is Dør"
+    },
+    {
+      "key": "dragon",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Dragon",
+      "correct": "Dragón",
+      "reason": "Missing accent: ó stripped - Spanish word is Dragón"
+    },
+    {
+      "key": "dragon",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Dragao",
+      "correct": "Dragão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Dragão"
+    },
+    {
+      "key": "dress",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Klanning",
+      "correct": "Klänning",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Klänning"
+    },
+    {
+      "key": "dresser",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Comoda",
+      "correct": "Cómoda",
+      "reason": "Missing accent: ó stripped - Spanish word is Cómoda"
+    },
+    {
+      "key": "dresser",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Comoda",
+      "correct": "Cômoda",
+      "reason": "Missing circumflex: ô stripped - Portuguese word is Cômoda"
+    },
+    {
+      "key": "dresser",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Byra",
+      "correct": "Byrå",
+      "reason": "Missing å: Swedish word is Byrå"
+    },
+    {
+      "key": "dryer",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Seche-linge",
+      "correct": "Sèche-linge",
+      "reason": "Missing accent: è stripped - French word is Sèche-linge"
+    },
+    {
+      "key": "dustpan",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Pelle a poussiere",
+      "correct": "Pelle à poussière",
+      "reason": "Missing accents: à and è stripped - French phrase is Pelle à poussière"
+    },
+    {
+      "key": "dustpan",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Pa de lixo",
+      "correct": "Pá de lixo",
+      "reason": "Missing accent: á stripped - Portuguese word is Pá"
+    },
+    {
+      "key": "eagle",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Aguila",
+      "correct": "Águila",
+      "reason": "Missing accent: Á stripped - Spanish word is Águila"
+    },
+    {
+      "key": "eagle",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Aguia",
+      "correct": "Águia",
+      "reason": "Missing accent: Á stripped - Portuguese word is Águia"
+    },
+    {
+      "key": "eagle",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Orn",
+      "correct": "Örn",
+      "reason": "Missing umlaut: ö stripped - Swedish word is Örn"
+    },
+    {
+      "key": "eagle",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Orn",
+      "correct": "Ørn",
+      "reason": "Missing ø: Danish word is Ørn"
+    },
+    {
+      "key": "eagle",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Orn",
+      "correct": "Ørn",
+      "reason": "Missing ø: Norwegian word is Ørn"
+    },
+    {
+      "key": "earmuffs",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Ohrenschutzer",
+      "correct": "Ohrenschützer",
+      "reason": "Missing umlaut: ü stripped - German word is Ohrenschützer"
+    },
+    {
+      "key": "earmuffs",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Oronvarmare",
+      "correct": "Öronvärmare",
+      "reason": "Missing umlauts: ö and ä stripped - Swedish word is Öronvärmare"
+    },
+    {
+      "key": "earmuffs",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Orevarmere",
+      "correct": "Ørevarmere",
+      "reason": "Missing ø: Danish word is Ørevarmere"
+    },
+    {
+      "key": "earmuffs",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Orevarmere",
+      "correct": "Ørevarmere",
+      "reason": "Missing ø: Norwegian word is Ørevarmere"
+    },
+    {
+      "key": "fan",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Flakt",
+      "correct": "Fläkt",
+      "reason": "Missing umlaut: ä stripped - Swedish word is Fläkt"
+    },
+    {
+      "key": "fence",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cloture",
+      "correct": "Clôture",
+      "reason": "Missing circumflex: ô stripped - French word is Clôture"
+    },
+    {
+      "key": "fireplace",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cheminee",
+      "correct": "Cheminée",
+      "reason": "Missing accent: é stripped - French word is Cheminée"
+    },
+    {
+      "key": "fishing",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Peche",
+      "correct": "Pêche",
+      "reason": "Missing circumflex: ê stripped - French word is Pêche"
+    },
+    {
+      "key": "floor-lamp",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Lampara de pie",
+      "correct": "Lámpara de pie",
+      "reason": "Missing accent: á stripped - Spanish word is Lámpara"
+    },
+    {
+      "key": "florist",
+      "locale": "sv",
+      "field": "gender",
+      "wrong": "n",
+      "correct": "d",
+      "reason": "Swedish 'florist' is an en-word (utrum), not ett-word"
+    },
+    {
+      "key": "fridge",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Kuhlschrank",
+      "correct": "Kühlschrank",
+      "reason": "Missing umlaut: ü stripped - German word is Kühlschrank"
+    },
+    {
+      "key": "fridge",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Refrigerateur",
+      "correct": "Réfrigérateur",
+      "reason": "Missing accents: é stripped twice - French word is Réfrigérateur"
+    },
+    {
+      "key": "fridge",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Koleskab",
+      "correct": "Køleskab",
+      "reason": "Missing ø: Danish word is Køleskab"
+    },
+    {
+      "key": "fridge",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Kjoleskap",
+      "correct": "Kjøleskap",
+      "reason": "Missing ø: Norwegian word is Kjøleskap"
+    },
+    {
+      "key": "fridge",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Jaakaappi",
+      "correct": "Jääkaappi",
+      "reason": "Missing umlauts: ää stripped - Finnish word is Jääkaappi"
+    },
+    {
+      "key": "frog",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Fro",
+      "correct": "Frø",
+      "reason": "Missing ø: Danish word is Frø"
+    },
+    {
+      "key": "gate",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Porton",
+      "correct": "Portón",
+      "reason": "Missing accent: ó stripped - Spanish word is Portón"
+    },
+    {
+      "key": "gate",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Portao",
+      "correct": "Portão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Portão"
+    },
+    {
+      "key": "goat",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Chevre",
+      "correct": "Chèvre",
+      "reason": "Missing accent: è stripped - French word is Chèvre"
+    },
+    {
+      "key": "goggles",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Oculos de protecao",
+      "correct": "Óculos de proteção",
+      "reason": "Missing accents: Ó and ç/ã stripped - Portuguese phrase is Óculos de proteção"
+    },
+    {
+      "key": "goggles",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Skyddsglasokon",
+      "correct": "Skyddsglasögon",
+      "reason": "Missing umlaut: ö stripped - Swedish word is Skyddsglasögon"
+    },
+    {
+      "key": "guinea-pig",
+      "locale": "it",
+      "field": "gender",
+      "wrong": "m",
+      "correct": "f",
+      "reason": "Italian 'cavia' is feminine; the plural field shows 'Porcellini d'India' which is a different form - the base noun 'cavia' is feminine"
+    },
+    {
+      "key": "guitar",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Violao",
+      "correct": "Violão",
+      "reason": "Missing accent: ã stripped - Portuguese word is Violão"
+    },
+    {
+      "key": "gymnastics",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Ginastica",
+      "correct": "Ginástica",
+      "reason": "Missing accent: á stripped - Portuguese word is Ginástica"
+    }
+  ]
+}

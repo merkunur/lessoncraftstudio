@@ -1,0 +1,700 @@
+{
+  "fixes": [
+    {
+      "key": "hair-tie",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Elastique a cheveux",
+      "correct": "Élastique à cheveux",
+      "reason": "Missing accents: É on Élastique and à (not a)"
+    },
+    {
+      "key": "hair-tie",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Elastico de cabelo",
+      "correct": "Elástico de cabelo",
+      "reason": "Missing accent: Elástico"
+    },
+    {
+      "key": "hair-tie",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Harsnodd",
+      "correct": "Hårsnodd",
+      "reason": "Missing å: Hårsnodd (hair tie in Swedish)"
+    },
+    {
+      "key": "hair-tie",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Harelastik",
+      "correct": "Hårelastik",
+      "reason": "Missing å: Hårelastik"
+    },
+    {
+      "key": "hair-tie",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Harstrikk",
+      "correct": "Hårstrikk",
+      "reason": "Missing å: Hårstrikk"
+    },
+    {
+      "key": "hamburger",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Hamburguer",
+      "correct": "Hambúrguer",
+      "reason": "Missing accent on ú"
+    },
+    {
+      "key": "hamster",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Hamster",
+      "correct": "Hámster",
+      "reason": "Spanish requires accent: Hámster (plural in corrections file correctly shows Hámsters)"
+    },
+    {
+      "key": "handbag",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Sac a main",
+      "correct": "Sac à main",
+      "reason": "Missing accent: à (not a)"
+    },
+    {
+      "key": "handbag",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Handvaska",
+      "correct": "Handväska",
+      "reason": "Missing umlaut: Handväska"
+    },
+    {
+      "key": "hat",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Chapeu",
+      "correct": "Chapéu",
+      "reason": "Missing accent: Chapéu"
+    },
+    {
+      "key": "hawk",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Gavilán",
+      "correct": "Halcón",
+      "reason": "Singular 'Gavilán' (sparrowhawk) and plural 'Halcones' (falcons) refer to different birds. The entry key is 'hawk'; the correct Spanish for hawk is 'Halcón', plural 'Halcones'. Use consistent term."
+    },
+    {
+      "key": "heater",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Varmare",
+      "correct": "Värmare",
+      "reason": "Missing umlaut: Värmare (the plural correction already has Värmare)"
+    },
+    {
+      "key": "heater",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Lammitin",
+      "correct": "Lämmitin",
+      "reason": "Missing ä: Lämmitin (heater in Finnish)"
+    },
+    {
+      "key": "hedgehog",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Herisson",
+      "correct": "Hérisson",
+      "reason": "Missing accent: Hérisson"
+    },
+    {
+      "key": "hedgehog",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Iggelkott",
+      "correct": "Igelkott",
+      "reason": "Misspelling: Swedish hedgehog is Igelkott (one g, not two)"
+    },
+    {
+      "key": "high-heeled-shoes",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Stockelschuhe",
+      "correct": "Stöckelschuhe",
+      "reason": "Missing umlaut: Stöckelschuhe (the plural correction already has Stöckelschuhe)"
+    },
+    {
+      "key": "high-heeled-shoes",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Chaussures a talons",
+      "correct": "Chaussures à talons",
+      "reason": "Missing accent: à (not a)"
+    },
+    {
+      "key": "high-heeled-shoes",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Hogklackade skor",
+      "correct": "Högklackade skor",
+      "reason": "Missing umlaut: Högklackade (the plural correction already has Högklackade skor)"
+    },
+    {
+      "key": "high-heeled-shoes",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Hoyhelte sko",
+      "correct": "Høyhælte sko",
+      "reason": "Missing ø and æ: Høyhælte (the plural correction already has Høyhælte sko)"
+    },
+    {
+      "key": "high-heeled-shoes",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Korkokaengat",
+      "correct": "Korkokengät",
+      "reason": "Garbled: should be Korkokengät (high-heeled shoes in Finnish)"
+    },
+    {
+      "key": "hiking",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Randonnee",
+      "correct": "Randonnée",
+      "reason": "Missing accent: Randonnée"
+    },
+    {
+      "key": "hot-dog",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Korv med Brod",
+      "correct": "Korv med Bröd",
+      "reason": "Missing umlaut: Bröd (not Brod)"
+    },
+    {
+      "key": "hot-dog",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Polse i Brod",
+      "correct": "Pølse i Brød",
+      "reason": "Missing ø in both words: Pølse and Brød (the plural correction already has Pølser)"
+    },
+    {
+      "key": "ice-cream",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Jaatelo",
+      "correct": "Jäätelö",
+      "reason": "Missing ää and ö: Jäätelö"
+    },
+    {
+      "key": "iron",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Bugeleisen",
+      "correct": "Bügeleisen",
+      "reason": "Missing umlaut: Bügeleisen"
+    },
+    {
+      "key": "iron",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Fer a repasser",
+      "correct": "Fer à repasser",
+      "reason": "Missing accent: à (not a)"
+    },
+    {
+      "key": "iron",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Strykjarn",
+      "correct": "Strykjärn",
+      "reason": "Missing umlaut: Strykjärn"
+    },
+    {
+      "key": "ironing-board",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Bugelbrett",
+      "correct": "Bügelbrett",
+      "reason": "Missing umlaut: Bügelbrett"
+    },
+    {
+      "key": "ironing-board",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Planche a repasser",
+      "correct": "Planche à repasser",
+      "reason": "Missing accent: à (not a)"
+    },
+    {
+      "key": "ironing-board",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Tabua de passar",
+      "correct": "Tábua de passar",
+      "reason": "Missing accent: Tábua"
+    },
+    {
+      "key": "ironing-board",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Strykbrada",
+      "correct": "Strykbräda",
+      "reason": "Missing umlaut: Strykbräda (the plural correction already has Strykbrädor)"
+    },
+    {
+      "key": "ironing-board",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Strygbraet",
+      "correct": "Strygbræt",
+      "reason": "Missing æ: Strygbræt (the plural correction already has Strygbrætter)"
+    },
+    {
+      "key": "jellyfish",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Meduse",
+      "correct": "Méduse",
+      "reason": "Missing accent: Méduse"
+    },
+    {
+      "key": "jellyfish",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Agua-viva",
+      "correct": "Água-viva",
+      "reason": "Missing accent: Água (the plural correction already has Águas-vivas)"
+    },
+    {
+      "key": "kangaroo",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Kanguru",
+      "correct": "Känguru",
+      "reason": "Missing umlaut: Känguru (the plural correction already has Kängurus)"
+    },
+    {
+      "key": "kangaroo",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Kaenguru",
+      "correct": "Kænguru",
+      "reason": "Missing æ: Kænguru"
+    },
+    {
+      "key": "key",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Schlussel",
+      "correct": "Schlüssel",
+      "reason": "Missing umlaut: Schlüssel"
+    },
+    {
+      "key": "key",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cle",
+      "correct": "Clé",
+      "reason": "Missing accent: Clé"
+    },
+    {
+      "key": "key",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Nogle",
+      "correct": "Nøgle",
+      "reason": "Missing ø: Nøgle (the plural correction already has Nøgler)"
+    },
+    {
+      "key": "key",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Nokkel",
+      "correct": "Nøkkel",
+      "reason": "Missing ø: Nøkkel (the plural correction already has Nøkler)"
+    },
+    {
+      "key": "kitchen",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Kuche",
+      "correct": "Küche",
+      "reason": "Missing umlaut: Küche"
+    },
+    {
+      "key": "kitchen",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Kok",
+      "correct": "Kök",
+      "reason": "Missing umlaut: Kök (the plural correction already has Kök)"
+    },
+    {
+      "key": "kitchen",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Kokken",
+      "correct": "Køkken",
+      "reason": "Missing ø: Køkken (the plural correction already has Køkkener)"
+    },
+    {
+      "key": "kitchen",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Kjokken",
+      "correct": "Kjøkken",
+      "reason": "Missing ø: Kjøkken (the plural correction already has Kjøkken)"
+    },
+    {
+      "key": "kitchen",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Keittio",
+      "correct": "Keittiö",
+      "reason": "Missing ö: Keittiö"
+    },
+    {
+      "key": "ladybug",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Marienkafer",
+      "correct": "Marienkäfer",
+      "reason": "Missing umlaut: Marienkäfer (the plural correction already has Marienkäfer)"
+    },
+    {
+      "key": "ladybug",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Leppakerttu",
+      "correct": "Leppäkerttu",
+      "reason": "Missing ä: Leppäkerttu"
+    },
+    {
+      "key": "lamp",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Lampara",
+      "correct": "Lámpara",
+      "reason": "Missing accent: Lámpara (the plural correction already has Lámparas)"
+    },
+    {
+      "key": "lamp",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Lampada",
+      "correct": "Lâmpada",
+      "reason": "Missing circumflex: Lâmpada (the plural correction already has Lâmpadas)"
+    },
+    {
+      "key": "laundry-basket",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Waschekorb",
+      "correct": "Wäschekorb",
+      "reason": "Missing umlaut: Wäschekorb (the plural correction already has Wäschekörbe)"
+    },
+    {
+      "key": "laundry-basket",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Panier a linge",
+      "correct": "Panier à linge",
+      "reason": "Missing accent: à (not a)"
+    },
+    {
+      "key": "laundry-basket",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Vasketojskurv",
+      "correct": "Vasketøjskurv",
+      "reason": "Missing ø: Vasketøjskurv (the plural correction already has Vasketøjskurve)"
+    },
+    {
+      "key": "laundry-basket",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Skittentoyskurv",
+      "correct": "Skittentøyskurv",
+      "reason": "Missing ø: Skittentøyskurv (the plural correction already has Skittentøyskurver)"
+    },
+    {
+      "key": "lawn-mower",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Rasenmaher",
+      "correct": "Rasenmäher",
+      "reason": "Missing umlaut: Rasenmäher"
+    },
+    {
+      "key": "lawn-mower",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Cortadora de cesped",
+      "correct": "Cortadora de césped",
+      "reason": "Missing accent: césped"
+    },
+    {
+      "key": "lawn-mower",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Grasklippare",
+      "correct": "Gräsklippare",
+      "reason": "Missing umlaut: Gräsklippare (the plural correction already has Gräsklippare)"
+    },
+    {
+      "key": "lawn-mower",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Plaeneklipper",
+      "correct": "Plæneklipper",
+      "reason": "Missing æ: Plæneklipper"
+    },
+    {
+      "key": "liberty",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Liberte",
+      "correct": "Liberté",
+      "reason": "Missing accent: Liberté (the plural correction already has Libertés)"
+    },
+    {
+      "key": "liberty",
+      "locale": "it",
+      "field": "singular",
+      "wrong": "Liberta",
+      "correct": "Libertà",
+      "reason": "Missing grave accent: Libertà (the plural correction already has Libertà)"
+    },
+    {
+      "key": "light-switch",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Strombrytare",
+      "correct": "Strömbrytare",
+      "reason": "Missing umlaut: Strömbrytare (the plural correction already has Strömbrytare)"
+    },
+    {
+      "key": "lion",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Lowe",
+      "correct": "Löwe",
+      "reason": "Missing umlaut: Löwe (the plural correction already has Löwen)"
+    },
+    {
+      "key": "lion",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Leon",
+      "correct": "León",
+      "reason": "Missing accent: León (the plural correction already has Leones)"
+    },
+    {
+      "key": "lion",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Leao",
+      "correct": "Leão",
+      "reason": "Missing tilde: Leão (the plural correction already has Leões)"
+    },
+    {
+      "key": "lion",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Love",
+      "correct": "Løve",
+      "reason": "Missing ø: Løve (the plural correction already has Løver)"
+    },
+    {
+      "key": "lion",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Love",
+      "correct": "Løve",
+      "reason": "Missing ø: Løve (the plural correction already has Løver)"
+    },
+    {
+      "key": "lizard",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Lezard",
+      "correct": "Lézard",
+      "reason": "Missing accent: Lézard (the plural correction already has Lézards)"
+    },
+    {
+      "key": "lizard",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Odla",
+      "correct": "Ödla",
+      "reason": "Missing umlaut: Ödla (the plural correction already has Ödlor)"
+    },
+    {
+      "key": "lizard",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Ogle",
+      "correct": "Øgle",
+      "reason": "Missing ø: Øgle (Norwegian for lizard)"
+    },
+    {
+      "key": "lock",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Las",
+      "correct": "Lås",
+      "reason": "Missing å: Lås (the plural correction already has Lås)"
+    },
+    {
+      "key": "lock",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Las",
+      "correct": "Lås",
+      "reason": "Missing å: Lås (the plural correction already has Låse)"
+    },
+    {
+      "key": "lock",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Las",
+      "correct": "Lås",
+      "reason": "Missing å: Lås (the plural correction already has Låser)"
+    },
+    {
+      "key": "mailbox",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Buzon",
+      "correct": "Buzón",
+      "reason": "Missing accent: Buzón"
+    },
+    {
+      "key": "mailbox",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Brevlada",
+      "correct": "Brevlåda",
+      "reason": "Missing å: Brevlåda (the plural correction already has Brevlådor)"
+    },
+    {
+      "key": "mask",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Mascara",
+      "correct": "Máscara",
+      "reason": "Missing accent: Máscara"
+    },
+    {
+      "key": "mask",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Mascara",
+      "correct": "Máscara",
+      "reason": "Missing accent: Máscara"
+    },
+    {
+      "key": "medal",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Medaille",
+      "correct": "Médaille",
+      "reason": "Missing accent: Médaille (the plural correction already has Médailles)"
+    },
+    {
+      "key": "meerkat",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Erdmannchen",
+      "correct": "Erdmännchen",
+      "reason": "Missing umlaut: Erdmännchen"
+    },
+    {
+      "key": "microwave",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Mikrovag",
+      "correct": "Mikrovåg",
+      "reason": "Missing å: Mikrovåg (the plural correction already has Mikrovågor)"
+    },
+    {
+      "key": "microwave",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Mikrobolgeovn",
+      "correct": "Mikrobølgeovn",
+      "reason": "Missing ø: Mikrobølgeovn (the plural correction already has Mikrobølgeovne)"
+    },
+    {
+      "key": "microwave",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Mikrobolgeovn",
+      "correct": "Mikrobølgeovn",
+      "reason": "Missing ø: Mikrobølgeovn (the plural correction already has Mikrobølgeovner)"
+    },
+    {
+      "key": "mop",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Serpilliere",
+      "correct": "Serpillière",
+      "reason": "Missing accent: Serpillière (the plural correction already has Serpillières)"
+    },
+    {
+      "key": "mop",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Esfregao",
+      "correct": "Esfregão",
+      "reason": "Missing tilde: Esfregão"
+    },
+    {
+      "key": "mouse",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Raton",
+      "correct": "Ratón",
+      "reason": "Missing accent: Ratón (the plural correction already has Ratones)"
+    },
+    {
+      "key": "nightstand",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Yopoyta",
+      "correct": "Yöpöytä",
+      "reason": "Missing ö and ä: Yöpöytä"
+    },
+    {
+      "key": "octopus",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Blaeksprutte",
+      "correct": "Blæksprutte",
+      "reason": "Missing æ: Blæksprutte (the plural correction already has Blæksprutter)"
+    },
+    {
+      "key": "octopus",
+      "locale": "fi",
+      "field": "plural",
+      "wrong": "Tursaat",
+      "correct": "Mustekalat",
+      "reason": "Wrong word: 'tursaat' means cod fish (plural of turska). The correct Finnish plural of 'mustekala' (octopus) is 'mustekalat'"
+    },
+    {
+      "key": "ostrich",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Strauss",
+      "correct": "Strauß",
+      "reason": "Should use ß: Strauß (the plural correction already has Strauße)"
+    }
+  ]
+}

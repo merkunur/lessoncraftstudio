@@ -150,11 +150,11 @@
     ],
     "sv": [
       "Fladdermöss",
-      "n"
+      "d"
     ],
     "da": [
       "Flagermus",
-      "n"
+      "d"
     ],
     "no": [
       "Flaggermus",
@@ -1624,7 +1624,7 @@
     ],
     "it": [
       "Porcellini d'India",
-      "m"
+      "f"
     ],
     "pt": [
       "Porquinhos-da-índia",
@@ -2382,7 +2382,7 @@
       "Polvos",
       "m"
     ],
-    "fi": "Tursaat",
+    "fi": "Mustekalat",
     "en": "Octopuses",
     "nl": [
       "Octopussen",
@@ -3964,7 +3964,7 @@
     ],
     "sv": [
       "Aprikoser",
-      "n"
+      "d"
     ]
   },
   "asparagus": {
@@ -4115,7 +4115,7 @@
     ],
     "sv": [
       "Bananer",
-      "n"
+      "d"
     ]
   },
   "beetroot": {
@@ -5506,7 +5506,7 @@
     ],
     "it": [
       "Melagrane",
-      "f"
+      "m"
     ],
     "pt": [
       "Romãs",
@@ -6006,7 +6006,7 @@
     ],
     "sv": [
       "Böcker",
-      "n"
+      "d"
     ],
     "da": [
       "Bøger",
@@ -6449,7 +6449,7 @@
     ],
     "sv": [
       "Gardiner",
-      "n"
+      "d"
     ]
   },
   "cushion": {
@@ -7995,7 +7995,7 @@
     ],
     "it": [
       "Braccia",
-      "f"
+      "m"
     ],
     "pt": [
       "Braços",
@@ -10070,7 +10070,7 @@
     ],
     "sv": [
       "Analoga klockor",
-      "n"
+      "d"
     ],
     "no": [
       "Analoge klokker",
@@ -10089,7 +10089,7 @@
     ],
     "sv": [
       "Arkitekter",
-      "n"
+      "d"
     ]
   },
   "asteroid": {
@@ -10121,7 +10121,7 @@
     ],
     "sv": [
       "Astronauter",
-      "n"
+      "d"
     ]
   },
   "athlete": {
@@ -10147,7 +10147,7 @@
     ],
     "sv": [
       "Atleter",
-      "n"
+      "d"
     ]
   },
   "author": {
@@ -10447,7 +10447,7 @@
     ],
     "sv": [
       "Detektiver",
-      "n"
+      "d"
     ]
   },
   "donut": {
@@ -10677,7 +10677,7 @@
     ],
     "sv": [
       "Florister",
-      "n"
+      "d"
     ]
   },
   "fried-egg": {
@@ -14810,7 +14810,7 @@
     ],
     "sv": [
       "Väckarklockor",
-      "n"
+      "d"
     ],
     "da": [
       "Vækkeure",
@@ -15127,7 +15127,7 @@
     ],
     "sv": [
       "Konstnärer",
-      "n"
+      "d"
     ]
   },
   "earmuffs": {
@@ -16724,13 +16724,13 @@
   "coach": {
     "sv": [
       "Tränare",
-      "n"
+      "d"
     ]
   },
   "construction-worker": {
     "sv": [
       "Byggnadsarbetare",
-      "n"
+      "d"
     ]
   },
   "office-worker": {

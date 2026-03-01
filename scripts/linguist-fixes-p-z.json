@@ -1,0 +1,1164 @@
+{
+  "fixes": [
+    {
+      "key": "pan",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Poele",
+      "correct": "Poêle",
+      "reason": "Stripped circumflex — French for frying pan is 'poêle'"
+    },
+    {
+      "key": "pan",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Sarten",
+      "correct": "Sartén",
+      "reason": "Missing acute accent — Spanish 'sartén' requires é"
+    },
+    {
+      "key": "party-hat",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Chapeau de fete",
+      "correct": "Chapeau de fête",
+      "reason": "Missing circumflex — French 'fête' requires ê"
+    },
+    {
+      "key": "party-hat",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Chapeu de festa",
+      "correct": "Chapéu de festa",
+      "reason": "Missing acute accent — Portuguese 'chapéu' requires é"
+    },
+    {
+      "key": "peacock",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Pavao",
+      "correct": "Pavão",
+      "reason": "Missing nasal tilde — Portuguese 'pavão' requires ão"
+    },
+    {
+      "key": "peacock",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Pafagel",
+      "correct": "Påfågel",
+      "reason": "Stripped å and ä — Swedish for peacock is 'påfågel'"
+    },
+    {
+      "key": "peacock",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Pafugl",
+      "correct": "Påfugl",
+      "reason": "Stripped å — Danish for peacock is 'påfugl'"
+    },
+    {
+      "key": "peacock",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Pafugl",
+      "correct": "Påfugl",
+      "reason": "Stripped å — Norwegian for peacock is 'påfugl'"
+    },
+    {
+      "key": "pen",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Kyna",
+      "correct": "Kynä",
+      "reason": "Stripped ä — Finnish for pen is 'kynä'"
+    },
+    {
+      "key": "pencil",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Lapiz",
+      "correct": "Lápiz",
+      "reason": "Missing acute accent — Spanish 'lápiz' requires á"
+    },
+    {
+      "key": "pencil",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Lapis",
+      "correct": "Lápis",
+      "reason": "Missing acute accent — Portuguese 'lápis' requires á"
+    },
+    {
+      "key": "pencil",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Lyijykyna",
+      "correct": "Lyijykynä",
+      "reason": "Stripped ä — Finnish for pencil is 'lyijykynä'"
+    },
+    {
+      "key": "photography",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Fotografia",
+      "correct": "Fotografía",
+      "reason": "Missing acute accent — Spanish 'fotografía' requires í"
+    },
+    {
+      "key": "piglet",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Leitao",
+      "correct": "Leitão",
+      "reason": "Missing nasal tilde — Portuguese 'leitão' requires ão"
+    },
+    {
+      "key": "playground",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Leikkikentta",
+      "correct": "Leikkikenttä",
+      "reason": "Stripped ä — Finnish for playground is 'leikkikenttä'"
+    },
+    {
+      "key": "pomegranate",
+      "locale": "it",
+      "field": "gender",
+      "wrong": "f",
+      "correct": "m",
+      "reason": "'Melograno' is masculine in Italian; the entry uses 'Melograno' but codes it [f], which is incorrect"
+    },
+    {
+      "key": "porcupine",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Porc-epic",
+      "correct": "Porc-épic",
+      "reason": "Missing acute accent — French for porcupine is 'porc-épic'"
+    },
+    {
+      "key": "porcupine",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Puercoespin",
+      "correct": "Puercoespín",
+      "reason": "Missing acute accent — Spanish 'puercoespín' requires í"
+    },
+    {
+      "key": "pottery",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Topfern",
+      "correct": "Töpfern",
+      "reason": "Stripped ö — German for pottery/pottering is 'Töpfern'"
+    },
+    {
+      "key": "pottery",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Ceramica",
+      "correct": "Cerámica",
+      "reason": "Missing acute accent — Spanish 'cerámica' requires á"
+    },
+    {
+      "key": "pottery",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Ceramica",
+      "correct": "Cerâmica",
+      "reason": "Missing circumflex — Portuguese 'cerâmica' requires â"
+    },
+    {
+      "key": "purse",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Geldborse",
+      "correct": "Geldbörse",
+      "reason": "Stripped ö — German for purse/wallet is 'Geldbörse'"
+    },
+    {
+      "key": "purse",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Portmonna",
+      "correct": "Portmonnä",
+      "reason": "Stripped ä — Swedish for small purse is 'portmonnä'"
+    },
+    {
+      "key": "puzzle",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Quebra-cabeca",
+      "correct": "Quebra-cabeça",
+      "reason": "Missing cedilla — Portuguese 'quebra-cabeça' requires ç"
+    },
+    {
+      "key": "rain-boots",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Gummistovlar",
+      "correct": "Gummistövlar",
+      "reason": "Stripped ö — Swedish for rubber boots is 'gummistövlar'"
+    },
+    {
+      "key": "rain-boots",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Gummistovler",
+      "correct": "Gummistøvler",
+      "reason": "Stripped ø — Danish for rubber boots is 'gummistøvler'"
+    },
+    {
+      "key": "rain-boots",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Gummistovler",
+      "correct": "Gummistøvler",
+      "reason": "Stripped ø — Norwegian for rubber boots is 'gummistøvler'"
+    },
+    {
+      "key": "rake",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Rateau",
+      "correct": "Râteau",
+      "reason": "Missing circumflex — French for rake is 'râteau'"
+    },
+    {
+      "key": "rake",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Krattar",
+      "correct": "Kratta",
+      "reason": "Singular form given as plural — 'krattar' is the plural; singular is 'kratta'"
+    },
+    {
+      "key": "reading",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Lasa",
+      "correct": "Läsa",
+      "reason": "Stripped ä — Swedish for reading (to read) is 'läsa'"
+    },
+    {
+      "key": "reading",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Laese",
+      "correct": "Læse",
+      "reason": "Stripped æ — Danish for reading (to read) is 'læse'"
+    },
+    {
+      "key": "reading",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Lope",
+      "correct": "Lese",
+      "reason": "Wrong word entirely — Norwegian for reading is 'lese'; 'løpe' means to run"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Kuhlschrank",
+      "correct": "Kühlschrank",
+      "reason": "Stripped ü — German for refrigerator is 'Kühlschrank'"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Refrigerateur",
+      "correct": "Réfrigérateur",
+      "reason": "Stripped accents — French for refrigerator is 'réfrigérateur'"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Koleskab",
+      "correct": "Køleskab",
+      "reason": "Stripped ø — Danish for refrigerator is 'køleskab'"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Kjoleskap",
+      "correct": "Kjøleskap",
+      "reason": "Stripped ø — Norwegian for refrigerator is 'kjøleskap'"
+    },
+    {
+      "key": "refrigerator",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Jaakaappi",
+      "correct": "Jääkaappi",
+      "reason": "Stripped ä — Finnish for refrigerator is 'jääkaappi'"
+    },
+    {
+      "key": "remote-control",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Telecommande",
+      "correct": "Télécommande",
+      "reason": "Stripped accents — French for remote control is 'télécommande'"
+    },
+    {
+      "key": "remote-control",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Fjarrkontroll",
+      "correct": "Fjärrkontroll",
+      "reason": "Stripped ä — Swedish for remote control is 'fjärrkontroll'"
+    },
+    {
+      "key": "rhinoceros",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Rhinoceros",
+      "correct": "Rhinocéros",
+      "reason": "Stripped accent — French 'rhinocéros' requires é"
+    },
+    {
+      "key": "rhinoceros",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Naeshorn",
+      "correct": "Næsehorn",
+      "reason": "Stripped æ — Danish for rhinoceros is 'næsehorn'"
+    },
+    {
+      "key": "ribbon",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Liston",
+      "correct": "Listón",
+      "reason": "Missing acute accent — Spanish 'listón' requires ó"
+    },
+    {
+      "key": "ribbon",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Band",
+      "correct": "Bånd",
+      "reason": "Stripped å — Danish for ribbon/band is 'bånd'"
+    },
+    {
+      "key": "ribbon",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Band",
+      "correct": "Bånd",
+      "reason": "Stripped å — Norwegian for ribbon/band is 'bånd'"
+    },
+    {
+      "key": "rug",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Taeppe",
+      "correct": "Tæppe",
+      "reason": "Stripped æ — Danish for rug/carpet is 'tæppe'"
+    },
+    {
+      "key": "running",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Lobe",
+      "correct": "Løbe",
+      "reason": "Stripped ø — Danish for running (to run) is 'løbe'"
+    },
+    {
+      "key": "running",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Lope",
+      "correct": "Løpe",
+      "reason": "Stripped ø — Norwegian for running (to run) is 'løpe'"
+    },
+    {
+      "key": "scarf",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Echarpe",
+      "correct": "Écharpe",
+      "reason": "Missing acute accent — French for scarf is 'écharpe'"
+    },
+    {
+      "key": "scarf",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Halstoerklaede",
+      "correct": "Halstørklæde",
+      "reason": "Stripped ø and æ — Danish for scarf is 'halstørklæde'"
+    },
+    {
+      "key": "science",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Ciencia",
+      "correct": "Ciência",
+      "reason": "Missing circumflex — Portuguese 'ciência' requires ê"
+    },
+    {
+      "key": "seahorse",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Sjohast",
+      "correct": "Sjöhäst",
+      "reason": "Stripped ö and ä — Swedish for seahorse is 'sjöhäst'"
+    },
+    {
+      "key": "seahorse",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Sohest",
+      "correct": "Søhest",
+      "reason": "Stripped ø — Danish for seahorse is 'søhest'"
+    },
+    {
+      "key": "seahorse",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Sjohest",
+      "correct": "Sjøhest",
+      "reason": "Stripped ø — Norwegian for seahorse is 'sjøhest'"
+    },
+    {
+      "key": "seal",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Sal",
+      "correct": "Säl",
+      "reason": "Stripped ä — Swedish for seal is 'säl'"
+    },
+    {
+      "key": "seal",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Sael",
+      "correct": "Sæl",
+      "reason": "Stripped æ — Danish for seal is 'sæl'"
+    },
+    {
+      "key": "sewing",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Nahen",
+      "correct": "Nähen",
+      "reason": "Stripped ä — German for sewing is 'Nähen'"
+    },
+    {
+      "key": "shampoo",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Champu",
+      "correct": "Champú",
+      "reason": "Missing acute accent — Spanish 'champú' requires ú"
+    },
+    {
+      "key": "shark",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Tiburon",
+      "correct": "Tiburón",
+      "reason": "Missing acute accent — Spanish 'tiburón' requires ó"
+    },
+    {
+      "key": "shark",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Tubarao",
+      "correct": "Tubarão",
+      "reason": "Missing nasal tilde — Portuguese 'tubarão' requires ão"
+    },
+    {
+      "key": "sink",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Spule",
+      "correct": "Spüle",
+      "reason": "Stripped ü — German for kitchen sink is 'Spüle'"
+    },
+    {
+      "key": "sink",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Evier",
+      "correct": "Évier",
+      "reason": "Missing acute accent — French for sink is 'évier'"
+    },
+    {
+      "key": "skating",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Patinacao",
+      "correct": "Patinação",
+      "reason": "Missing nasal tilde — Portuguese 'patinação' requires ção"
+    },
+    {
+      "key": "skating",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Skridskoakning",
+      "correct": "Skridskoåkning",
+      "reason": "Stripped å — Swedish for skating is 'skridskoåkning'"
+    },
+    {
+      "key": "skating",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Skojtelobning",
+      "correct": "Skøjteløbning",
+      "reason": "Stripped ø — Danish for skating is 'skøjteløbning'"
+    },
+    {
+      "key": "skating",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Skoyteloping",
+      "correct": "Skøyteløping",
+      "reason": "Stripped ø — Norwegian for skating is 'skøyteløping'"
+    },
+    {
+      "key": "skiing",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Skidakning",
+      "correct": "Skidåkning",
+      "reason": "Stripped å — Swedish for skiing is 'skidåkning'"
+    },
+    {
+      "key": "skiing",
+      "locale": "nl",
+      "field": "singular",
+      "wrong": "Skieen",
+      "correct": "Skiën",
+      "reason": "Missing diaeresis — Dutch for skiing is 'skiën'"
+    },
+    {
+      "key": "sloth",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Preguica",
+      "correct": "Preguiça",
+      "reason": "Missing cedilla — Portuguese 'preguiça' requires ç"
+    },
+    {
+      "key": "smartwatch",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Montre connectee",
+      "correct": "Montre connectée",
+      "reason": "Missing accent — French 'connectée' requires ée"
+    },
+    {
+      "key": "smartwatch",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Relogio inteligente",
+      "correct": "Relógio inteligente",
+      "reason": "Missing acute accent — Portuguese 'relógio' requires ó"
+    },
+    {
+      "key": "smartwatch",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Alykello",
+      "correct": "Älykello",
+      "reason": "Stripped ä — Finnish for smartwatch is 'älykello'"
+    },
+    {
+      "key": "soccer",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Fussball",
+      "correct": "Fußball",
+      "reason": "Stripped ß — German for soccer is 'Fußball'"
+    },
+    {
+      "key": "soccer",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Futbol",
+      "correct": "Fútbol",
+      "reason": "Missing acute accent — Spanish 'fútbol' requires ú"
+    },
+    {
+      "key": "soccer-ball",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Fussball",
+      "correct": "Fußball",
+      "reason": "Stripped ß — German for soccer ball is 'Fußball'"
+    },
+    {
+      "key": "sock",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Calcetin",
+      "correct": "Calcetín",
+      "reason": "Missing acute accent — Spanish 'calcetín' requires í"
+    },
+    {
+      "key": "sofa",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Sofa",
+      "correct": "Sofá",
+      "reason": "Missing acute accent — Spanish 'sofá' requires á"
+    },
+    {
+      "key": "sofa",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Sofa",
+      "correct": "Sofá",
+      "reason": "Missing acute accent — Portuguese 'sofá' requires á"
+    },
+    {
+      "key": "spoon",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Loffel",
+      "correct": "Löffel",
+      "reason": "Stripped ö — German for spoon is 'Löffel'"
+    },
+    {
+      "key": "spoon",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cuillere",
+      "correct": "Cuillère",
+      "reason": "Stripped accent — French for spoon is 'cuillère'"
+    },
+    {
+      "key": "squirrel",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Eichhornchen",
+      "correct": "Eichhörnchen",
+      "reason": "Stripped ö — German for squirrel is 'Eichhörnchen'"
+    },
+    {
+      "key": "squirrel",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Ecureuil",
+      "correct": "Écureuil",
+      "reason": "Missing acute accent — French for squirrel is 'écureuil'"
+    },
+    {
+      "key": "statue",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Estatua",
+      "correct": "Estátua",
+      "reason": "Missing acute accent — Portuguese 'estátua' requires á"
+    },
+    {
+      "key": "stove",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Cuisiniere",
+      "correct": "Cuisinière",
+      "reason": "Stripped accent — French for stove/cooker is 'cuisinière'"
+    },
+    {
+      "key": "stove",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Fogao",
+      "correct": "Fogão",
+      "reason": "Missing nasal tilde — Portuguese 'fogão' requires ão"
+    },
+    {
+      "key": "sun-hat",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Chapeu de sol",
+      "correct": "Chapéu de sol",
+      "reason": "Missing acute accent — Portuguese 'chapéu' requires é"
+    },
+    {
+      "key": "sunglasses",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Oculos de sol",
+      "correct": "Óculos de sol",
+      "reason": "Missing acute accent — Portuguese 'óculos' requires ó"
+    },
+    {
+      "key": "sunglasses",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Solglasokon",
+      "correct": "Solglasögon",
+      "reason": "Stripped ö — Swedish for sunglasses is 'solglasögon'"
+    },
+    {
+      "key": "suspenders",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Hosentrager",
+      "correct": "Hosenträger",
+      "reason": "Stripped ä — German for suspenders is 'Hosenträger'"
+    },
+    {
+      "key": "suspenders",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Suspensorios",
+      "correct": "Suspensórios",
+      "reason": "Missing acute accent — Portuguese 'suspensórios' requires ó"
+    },
+    {
+      "key": "suspenders",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Hangslen",
+      "correct": "Hängslen",
+      "reason": "Stripped ä — Swedish for suspenders/braces is 'hängslen'"
+    },
+    {
+      "key": "swimming",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Natacao",
+      "correct": "Natação",
+      "reason": "Missing nasal tilde — Portuguese 'natação' requires ção"
+    },
+    {
+      "key": "swimming",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Svomning",
+      "correct": "Svømning",
+      "reason": "Stripped ø — Danish for swimming is 'svømning'"
+    },
+    {
+      "key": "swimming",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Svomming",
+      "correct": "Svømming",
+      "reason": "Stripped ø — Norwegian for swimming is 'svømming'"
+    },
+    {
+      "key": "table",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Poyta",
+      "correct": "Pöytä",
+      "reason": "Stripped ö and ä — Finnish for table is 'pöytä'"
+    },
+    {
+      "key": "teddy-bear",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Teddybar",
+      "correct": "Teddybär",
+      "reason": "Stripped ä — German for teddy bear is 'Teddybär'"
+    },
+    {
+      "key": "teddy-bear",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Nallebjorn",
+      "correct": "Nallebjörn",
+      "reason": "Stripped ö — Swedish for teddy bear is 'nallebjörn'"
+    },
+    {
+      "key": "telephone",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Telephone",
+      "correct": "Téléphone",
+      "reason": "Stripped accents — French for telephone is 'téléphone'"
+    },
+    {
+      "key": "telephone",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Telefono",
+      "correct": "Teléfono",
+      "reason": "Missing acute accent — Spanish 'teléfono' requires é"
+    },
+    {
+      "key": "television",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Television",
+      "correct": "Télévision",
+      "reason": "Stripped accents — French for television is 'télévision'"
+    },
+    {
+      "key": "television",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Television",
+      "correct": "Televisión",
+      "reason": "Missing acute accent — Spanish 'televisión' requires ó"
+    },
+    {
+      "key": "television",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Televisao",
+      "correct": "Televisão",
+      "reason": "Missing nasal tilde — Portuguese 'televisão' requires ão"
+    },
+    {
+      "key": "tennis",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Tenis",
+      "correct": "Tênis",
+      "reason": "Missing circumflex — Portuguese 'tênis' requires ê"
+    },
+    {
+      "key": "theater",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Theatre",
+      "correct": "Théâtre",
+      "reason": "Stripped accents — French for theater is 'théâtre'"
+    },
+    {
+      "key": "tiara",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Diademe",
+      "correct": "Diadème",
+      "reason": "Stripped accent — French for diadem/tiara is 'diadème'"
+    },
+    {
+      "key": "tights",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Meia-calca",
+      "correct": "Meia-calça",
+      "reason": "Missing cedilla — Portuguese 'meia-calça' requires ç"
+    },
+    {
+      "key": "tights",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Strompebukser",
+      "correct": "Strømpebukser",
+      "reason": "Stripped ø — Danish for tights is 'strømpebukser'"
+    },
+    {
+      "key": "tights",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Strompebukse",
+      "correct": "Strømpebukse",
+      "reason": "Stripped ø — Norwegian for tights is 'strømpebukse'"
+    },
+    {
+      "key": "toaster",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Brodrister",
+      "correct": "Brødrister",
+      "reason": "Stripped ø — Norwegian for toaster is 'brødrister'"
+    },
+    {
+      "key": "toilet",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Vaso sanitario",
+      "correct": "Vaso sanitário",
+      "reason": "Missing acute accent — Portuguese 'sanitário' requires á"
+    },
+    {
+      "key": "toilet-paper",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Papel higienico",
+      "correct": "Papel higiénico",
+      "reason": "Missing acute accent — Spanish 'higiénico' requires é"
+    },
+    {
+      "key": "toilet-paper",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Papel higienico",
+      "correct": "Papel higiênico",
+      "reason": "Missing circumflex — Portuguese 'higiênico' requires ê"
+    },
+    {
+      "key": "toolbox",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Boite a outils",
+      "correct": "Boîte à outils",
+      "reason": "Stripped circumflex and grave accent — French for toolbox is 'boîte à outils'"
+    },
+    {
+      "key": "toolbox",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Verktygslada",
+      "correct": "Verktygslåda",
+      "reason": "Stripped å — Swedish for toolbox is 'verktygslåda'"
+    },
+    {
+      "key": "toolbox",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Vaerktojskasse",
+      "correct": "Værktøjskasse",
+      "reason": "Stripped æ and ø — Danish for toolbox is 'værktøjskasse'"
+    },
+    {
+      "key": "toolbox",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Verktoyskasse",
+      "correct": "Verktøykasse",
+      "reason": "Stripped ø — Norwegian for toolbox is 'verktøykasse'"
+    },
+    {
+      "key": "toolbox",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Tyokalulaatikko",
+      "correct": "Työkalulaatikko",
+      "reason": "Stripped ö — Finnish for toolbox is 'työkalulaatikko'"
+    },
+    {
+      "key": "toothbrush",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Zahnburste",
+      "correct": "Zahnbürste",
+      "reason": "Stripped ü — German for toothbrush is 'Zahnbürste'"
+    },
+    {
+      "key": "toothbrush",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Brosse a dents",
+      "correct": "Brosse à dents",
+      "reason": "Missing grave accent — French for toothbrush is 'brosse à dents'"
+    },
+    {
+      "key": "toothpaste",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Tandkram",
+      "correct": "Tandkräm",
+      "reason": "Stripped ä — Swedish for toothpaste is 'tandkräm'"
+    },
+    {
+      "key": "trash-can",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Mulleimer",
+      "correct": "Mülleimer",
+      "reason": "Stripped ü — German for trash can is 'Mülleimer'"
+    },
+    {
+      "key": "trash-can",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Soppelbotte",
+      "correct": "Søppelbøtte",
+      "reason": "Stripped ø — Norwegian for trash can is 'søppelbøtte'"
+    },
+    {
+      "key": "uncle-sam",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Tio Sam",
+      "correct": "Tío Sam",
+      "reason": "Missing acute accent — Spanish 'tío' requires í"
+    },
+    {
+      "key": "unicorn",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Unicornio",
+      "correct": "Unicórnio",
+      "reason": "Missing acute accent — Portuguese 'unicórnio' requires ó"
+    },
+    {
+      "key": "unicorn",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Enhjorning",
+      "correct": "Enhjørning",
+      "reason": "Stripped ø — Danish for unicorn is 'enhjørning'"
+    },
+    {
+      "key": "unicorn",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Enhjorning",
+      "correct": "Enhjørning",
+      "reason": "Stripped ø — Norwegian for unicorn is 'enhjørning'"
+    },
+    {
+      "key": "vacuum-cleaner",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Stovsuger",
+      "correct": "Støvsuger",
+      "reason": "Stripped ø — Danish for vacuum cleaner is 'støvsuger'"
+    },
+    {
+      "key": "vacuum-cleaner",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Stovsuger",
+      "correct": "Støvsuger",
+      "reason": "Stripped ø — Norwegian for vacuum cleaner is 'støvsuger'"
+    },
+    {
+      "key": "vest",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Vast",
+      "correct": "Väst",
+      "reason": "Stripped ä — Swedish for vest is 'väst'"
+    },
+    {
+      "key": "violin",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Violin",
+      "correct": "Violín",
+      "reason": "Missing acute accent — Spanish 'violín' requires í"
+    },
+    {
+      "key": "wand",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Varita magica",
+      "correct": "Varita mágica",
+      "reason": "Missing acute accent — Spanish 'mágica' requires á"
+    },
+    {
+      "key": "wand",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Varinha magica",
+      "correct": "Varinha mágica",
+      "reason": "Missing acute accent — Portuguese 'mágica' requires á"
+    },
+    {
+      "key": "washing-machine",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Machine a laver",
+      "correct": "Machine à laver",
+      "reason": "Missing grave accent — French for washing machine is 'machine à laver'"
+    },
+    {
+      "key": "washing-machine",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Maquina de lavar",
+      "correct": "Máquina de lavar",
+      "reason": "Missing acute accent — Portuguese 'máquina' requires á"
+    },
+    {
+      "key": "washing-machine",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Tvattmaskin",
+      "correct": "Tvättmaskin",
+      "reason": "Stripped ä — Swedish for washing machine is 'tvättmaskin'"
+    },
+    {
+      "key": "watch",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Relogio",
+      "correct": "Relógio",
+      "reason": "Missing acute accent — Portuguese 'relógio' requires ó"
+    },
+    {
+      "key": "watermelon",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Pasteque",
+      "correct": "Pastèque",
+      "reason": "Stripped accent — French for watermelon is 'pastèque'"
+    },
+    {
+      "key": "watermelon",
+      "locale": "es",
+      "field": "singular",
+      "wrong": "Sandia",
+      "correct": "Sandía",
+      "reason": "Missing acute accent — Spanish for watermelon is 'sandía'"
+    },
+    {
+      "key": "watering-can",
+      "locale": "de",
+      "field": "singular",
+      "wrong": "Giesskanne",
+      "correct": "Gießkanne",
+      "reason": "Stripped ß — German for watering can is 'Gießkanne'"
+    },
+    {
+      "key": "whistle",
+      "locale": "da",
+      "field": "singular",
+      "wrong": "Floejte",
+      "correct": "Fløjte",
+      "reason": "Stripped ø — Danish for whistle/flute is 'fløjte'"
+    },
+    {
+      "key": "whistle",
+      "locale": "no",
+      "field": "singular",
+      "wrong": "Floyte",
+      "correct": "Fløyte",
+      "reason": "Stripped ø — Norwegian for whistle is 'fløyte'"
+    },
+    {
+      "key": "window",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Fenetre",
+      "correct": "Fenêtre",
+      "reason": "Stripped circumflex — French for window is 'fenêtre'"
+    },
+    {
+      "key": "window",
+      "locale": "sv",
+      "field": "singular",
+      "wrong": "Fonster",
+      "correct": "Fönster",
+      "reason": "Stripped ö — Swedish for window is 'fönster'"
+    },
+    {
+      "key": "writing",
+      "locale": "fr",
+      "field": "singular",
+      "wrong": "Ecriture",
+      "correct": "Écriture",
+      "reason": "Missing acute accent — French for writing is 'écriture'"
+    },
+    {
+      "key": "zinnia",
+      "locale": "fi",
+      "field": "singular",
+      "wrong": "Sinnia",
+      "correct": "Zinnia",
+      "reason": "Typo — Finnish also uses the loanword 'zinnia'; 'sinnia' does not exist"
+    },
+    {
+      "key": "school-bus",
+      "locale": "pt",
+      "field": "singular",
+      "wrong": "Onibus escolar",
+      "correct": "Ônibus escolar",
+      "reason": "Missing circumflex — Portuguese 'ônibus' requires ô"
+    }
+  ]
+}

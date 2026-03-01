@@ -19,9 +19,9 @@ const OG_IMAGES: Record<string, string> = {
   'word-search-languages': '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
   'math-puzzle': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
   'math-puzzle-library': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
-  'code-addition': '/samples/english/code%20addition/Code%20Breaker%20Addition%201.jpeg',
+  'code-addition': '/samples/english/code%20addition/image_addition_worksheet%20(1).jpeg',
   'code-addition-wordreveal': '/samples/english/code%20addition/Code%20Breaker%20Addition%203.jpeg',
-  'code-addition-library': '/samples/english/code%20addition/Code%20Breaker%20Addition%201.jpeg',
+  'code-addition-library': '/samples/english/code%20addition/image_addition_worksheet%20(1).jpeg',
 };
 
 export function generateStaticParams() {

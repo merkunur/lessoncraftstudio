@@ -20,7 +20,11 @@
       "Jacarés",
       "m"
     ],
-    "fi": "Alligaattorit"
+    "fi": "Alligaattorit",
+    "nl": [
+      "Alligatoren",
+      "d"
+    ]
   },
   "alpaca": {
     "de": [
@@ -66,7 +70,11 @@
       "Formigas",
       "f"
     ],
-    "fi": "Muurahaiset"
+    "fi": "Muurahaiset",
+    "nl": [
+      "Mieren",
+      "d"
+    ]
   },
   "antelope": {
     "de": [
@@ -135,7 +143,11 @@
       "Morcegos",
       "m"
     ],
-    "fi": "Lepakot"
+    "fi": "Lepakot",
+    "nl": [
+      "Vleermuizen",
+      "d"
+    ]
   },
   "bear": {
     "de": [
@@ -158,7 +170,11 @@
       "Ursos",
       "m"
     ],
-    "fi": "Karhut"
+    "fi": "Karhut",
+    "nl": [
+      "Beren",
+      "d"
+    ]
   },
   "beaver": {
     "de": [
@@ -319,7 +335,11 @@
       "Touros",
       "m"
     ],
-    "fi": "Härät"
+    "fi": "Härät",
+    "nl": [
+      "Stieren",
+      "d"
+    ]
   },
   "bunny": {
     "de": [
@@ -410,7 +430,11 @@
       "Camelos",
       "m"
     ],
-    "fi": "Kamelit"
+    "fi": "Kamelit",
+    "nl": [
+      "Kamelen",
+      "d"
+    ]
   },
   "canary": {
     "de": [
@@ -592,7 +616,11 @@
       "Galinhas",
       "f"
     ],
-    "fi": "Kanat"
+    "fi": "Kanat",
+    "nl": [
+      "Kippen",
+      "d"
+    ]
   },
   "chimpanzee": {
     "de": [
@@ -658,6 +686,10 @@
     "pt": [
       "Esquilos listrados",
       "m"
+    ],
+    "nl": [
+      "Wangzakeekhoorns",
+      "d"
     ]
   },
   "clownfish": {
@@ -680,6 +712,10 @@
     "pt": [
       "Peixes-palhaço",
       "m"
+    ],
+    "nl": [
+      "Clownvissen",
+      "d"
     ]
   },
   "cobra": {
@@ -697,7 +733,7 @@
     ],
     "it": [
       "Cobra",
-      "f"
+      "m"
     ],
     "pt": [
       "Cobras",
@@ -747,7 +783,11 @@
       "Vacas",
       "f"
     ],
-    "fi": "Lehmät"
+    "fi": "Lehmät",
+    "nl": [
+      "Koeien",
+      "d"
+    ]
   },
   "crab": {
     "de": [
@@ -769,6 +809,10 @@
     "pt": [
       "Caranguejos",
       "m"
+    ],
+    "nl": [
+      "Krabben",
+      "d"
     ]
   },
   "cricket": {
@@ -813,6 +857,10 @@
     "pt": [
       "Crocodilos",
       "m"
+    ],
+    "nl": [
+      "Krokodillen",
+      "d"
     ]
   },
   "crow": {
@@ -881,6 +929,10 @@
     "pt": [
       "Dinossauros",
       "m"
+    ],
+    "nl": [
+      "Dinosaurussen",
+      "d"
     ]
   },
   "dog": {
@@ -930,6 +982,10 @@
     "pt": [
       "Golfinhos",
       "m"
+    ],
+    "nl": [
+      "Dolfijnen",
+      "d"
     ]
   },
   "donkey": {
@@ -1228,7 +1284,11 @@
       "Raposas",
       "f"
     ],
-    "fi": "Ketut"
+    "fi": "Ketut",
+    "nl": [
+      "Vossen",
+      "d"
+    ]
   },
   "frog": {
     "de": [
@@ -1273,6 +1333,10 @@
     "pt": [
       "Girafas",
       "f"
+    ],
+    "nl": [
+      "Giraffen",
+      "d"
     ]
   },
   "goat": {
@@ -1318,6 +1382,10 @@
     "pt": [
       "Peixes dourados",
       "m"
+    ],
+    "nl": [
+      "Goudvissen",
+      "d"
     ]
   },
   "goose": {
@@ -1341,7 +1409,11 @@
       "Gansos",
       "m"
     ],
-    "fi": "Hanhet"
+    "fi": "Hanhet",
+    "nl": [
+      "Ganzen",
+      "d"
+    ]
   },
   "gorilla": {
     "de": [
@@ -1517,6 +1589,10 @@
     "pt": [
       "Galinhas",
       "f"
+    ],
+    "nl": [
+      "Hennen",
+      "d"
     ]
   },
   "heron": {
@@ -1562,7 +1638,11 @@
       "Hipopótamos",
       "m"
     ],
-    "en": "Hippopotamuses"
+    "en": "Hippopotamuses",
+    "nl": [
+      "Nijlpaarden",
+      "h"
+    ]
   },
   "horse": {
     "de": [
@@ -1585,7 +1665,11 @@
       "Cavalos",
       "m"
     ],
-    "fi": "Hevoset"
+    "fi": "Hevoset",
+    "nl": [
+      "Paarden",
+      "h"
+    ]
   },
   "hummingbird": {
     "de": [
@@ -1695,6 +1779,10 @@
     "pt": [
       "Águas-vivas",
       "f"
+    ],
+    "nl": [
+      "Kwallen",
+      "d"
     ]
   },
   "kangaroo": {
@@ -1717,6 +1805,10 @@
     "pt": [
       "Cangurus",
       "m"
+    ],
+    "nl": [
+      "Kangoeroes",
+      "d"
     ]
   },
   "kitten": {
@@ -1805,6 +1897,10 @@
     "pt": [
       "Cordeiros",
       "m"
+    ],
+    "nl": [
+      "Lammeren",
+      "h"
     ]
   },
   "leopard": {
@@ -1827,6 +1923,10 @@
     "pt": [
       "Leopardos",
       "m"
+    ],
+    "nl": [
+      "Luipaarden",
+      "d"
     ]
   },
   "lion": {
@@ -1962,7 +2062,11 @@
       "m"
     ],
     "fi": "Hirvet",
-    "en": "Moose"
+    "en": "Moose",
+    "nl": [
+      "Elanden",
+      "d"
+    ]
   },
   "moth": {
     "de": [
@@ -2057,7 +2161,11 @@
       "m"
     ],
     "fi": "Tursaat",
-    "en": "Octopuses"
+    "en": "Octopuses",
+    "nl": [
+      "Octopussen",
+      "d"
+    ]
   },
   "orangutan": {
     "de": [
@@ -2168,7 +2276,11 @@
       "Bois",
       "m"
     ],
-    "fi": "Härät"
+    "fi": "Härät",
+    "nl": [
+      "Ossen",
+      "d"
+    ]
   },
   "panda": {
     "de": [
@@ -2323,7 +2435,11 @@
       "Porcos",
       "m"
     ],
-    "fi": "Siat"
+    "fi": "Siat",
+    "nl": [
+      "Varkens",
+      "h"
+    ]
   },
   "pigeon": {
     "de": [
@@ -2367,6 +2483,10 @@
     "pt": [
       "Ursos polares",
       "m"
+    ],
+    "nl": [
+      "IJsberen",
+      "d"
     ]
   },
   "pony": {
@@ -2500,6 +2620,10 @@
     "pt": [
       "Guaxinins",
       "m"
+    ],
+    "nl": [
+      "Wasberen",
+      "d"
     ]
   },
   "ram": {
@@ -2566,6 +2690,10 @@
     "pt": [
       "Renas",
       "f"
+    ],
+    "nl": [
+      "Rendieren",
+      "h"
     ]
   },
   "rhinoceros": {
@@ -2879,6 +3007,10 @@
     "pt": [
       "Preguiças",
       "f"
+    ],
+    "nl": [
+      "Luiaarden",
+      "d"
     ]
   },
   "snail": {
@@ -2901,6 +3033,10 @@
     "pt": [
       "Caracóis",
       "m"
+    ],
+    "nl": [
+      "Slakken",
+      "d"
     ]
   },
   "snake": {
@@ -2945,6 +3081,10 @@
     "pt": [
       "Pardais",
       "m"
+    ],
+    "nl": [
+      "Mussen",
+      "d"
     ]
   },
   "spider": {
@@ -2967,6 +3107,10 @@
     "pt": [
       "Aranhas",
       "f"
+    ],
+    "nl": [
+      "Spinnen",
+      "d"
     ]
   },
   "squid": {
@@ -2990,7 +3134,11 @@
       "Lulas",
       "f"
     ],
-    "en": "Squid"
+    "en": "Squid",
+    "nl": [
+      "Inktvissen",
+      "d"
+    ]
   },
   "squirrel": {
     "de": [
@@ -3012,6 +3160,10 @@
     "pt": [
       "Esquilos",
       "m"
+    ],
+    "nl": [
+      "Eekhoorns",
+      "d"
     ]
   },
   "starfish": {
@@ -3034,6 +3186,10 @@
     "pt": [
       "Estrelas-do-mar",
       "f"
+    ],
+    "nl": [
+      "Zeesterren",
+      "d"
     ]
   },
   "stork": {
@@ -3122,6 +3278,10 @@
     "pt": [
       "Sapos",
       "m"
+    ],
+    "nl": [
+      "Padden",
+      "d"
     ]
   },
   "toucan": {
@@ -3166,6 +3326,10 @@
     "pt": [
       "Perus",
       "m"
+    ],
+    "nl": [
+      "Kalkoenen",
+      "d"
     ]
   },
   "turtle": {
@@ -3254,6 +3418,10 @@
     "pt": [
       "Morsas",
       "f"
+    ],
+    "nl": [
+      "Walrussen",
+      "d"
     ]
   },
   "wasp": {
@@ -3298,6 +3466,10 @@
     "pt": [
       "Baleias",
       "f"
+    ],
+    "nl": [
+      "Walvissen",
+      "d"
     ]
   },
   "wolf": {
@@ -3320,6 +3492,10 @@
     "pt": [
       "Lobos",
       "m"
+    ],
+    "nl": [
+      "Wolven",
+      "d"
     ]
   },
   "woodpecker": {
@@ -3516,6 +3692,14 @@
     "pt": [
       "Bacon",
       "m"
+    ],
+    "it": [
+      "Pancetta",
+      "f"
+    ],
+    "nl": [
+      "Spek",
+      "h"
     ]
   },
   "bagel": {
@@ -3746,6 +3930,10 @@
     "pt": [
       "Doces",
       "m"
+    ],
+    "nl": [
+      "Snoep",
+      "h"
     ]
   },
   "carrot": {
@@ -3825,6 +4013,14 @@
     "de": [
       "Schokolade",
       "f"
+    ],
+    "it": [
+      "Cioccolato",
+      "m"
+    ],
+    "nl": [
+      "Chocolade",
+      "d"
     ]
   },
   "coconut": {
@@ -3876,6 +4072,10 @@
     "de": [
       "Mais",
       "m"
+    ],
+    "nl": [
+      "Maïs",
+      "d"
     ]
   },
   "cranberry": {
@@ -3986,6 +4186,10 @@
     "pt": [
       "Ovos",
       "m"
+    ],
+    "nl": [
+      "Eieren",
+      "h"
     ]
   },
   "eggplant": {
@@ -4040,6 +4244,10 @@
     ],
     "fr": [
       "Aulx",
+      "m"
+    ],
+    "it": [
+      "Aglio",
       "m"
     ]
   },
@@ -4129,6 +4337,10 @@
     "pt": [
       "Presuntos",
       "m"
+    ],
+    "nl": [
+      "Ham",
+      "d"
     ]
   },
   "hamburger": {
@@ -4170,6 +4382,14 @@
     "pt": [
       "Mel",
       "m"
+    ],
+    "it": [
+      "Miele",
+      "m"
+    ],
+    "nl": [
+      "Honing",
+      "d"
     ]
   },
   "hot-dog": {
@@ -4192,6 +4412,10 @@
     "pt": [
       "Cachorros-quentes",
       "m"
+    ],
+    "nl": [
+      "Hotdogs",
+      "d"
     ]
   },
   "ice-cream": {
@@ -4214,6 +4438,10 @@
     "pt": [
       "Sorvetes",
       "m"
+    ],
+    "nl": [
+      "IJs",
+      "h"
     ]
   },
   "kiwi": {
@@ -4258,6 +4486,10 @@
     "pt": [
       "Limões",
       "m"
+    ],
+    "nl": [
+      "Citroenen",
+      "d"
     ]
   },
   "lettuce": {
@@ -4269,6 +4501,14 @@
     "pt": [
       "Alfaces",
       "f"
+    ],
+    "it": [
+      "Lattuga",
+      "f"
+    ],
+    "nl": [
+      "Sla",
+      "d"
     ]
   },
   "lime": {
@@ -4291,6 +4531,10 @@
     "pt": [
       "Limas",
       "f"
+    ],
+    "nl": [
+      "Limoenen",
+      "d"
     ]
   },
   "mango": {
@@ -4335,6 +4579,10 @@
     "pt": [
       "Melões",
       "m"
+    ],
+    "nl": [
+      "Meloenen",
+      "d"
     ]
   },
   "milk": {
@@ -4354,6 +4602,14 @@
     "pt": [
       "Leite",
       "m"
+    ],
+    "it": [
+      "Latte",
+      "m"
+    ],
+    "nl": [
+      "Melk",
+      "d"
     ]
   },
   "mushroom": {
@@ -4376,6 +4632,10 @@
     "pt": [
       "Cogumelos",
       "m"
+    ],
+    "nl": [
+      "Paddenstoelen",
+      "d"
     ]
   },
   "olive": {
@@ -4530,6 +4790,10 @@
     "pt": [
       "Ervilhas",
       "f"
+    ],
+    "nl": [
+      "Erwten",
+      "d"
     ]
   },
   "pepper": {
@@ -4574,6 +4838,10 @@
     "pt": [
       "Abacaxis",
       "m"
+    ],
+    "nl": [
+      "Ananassen",
+      "d"
     ]
   },
   "pizza": {
@@ -4684,6 +4952,10 @@
     "pt": [
       "Abóboras",
       "f"
+    ],
+    "nl": [
+      "Pompoenen",
+      "d"
     ]
   },
   "radish": {
@@ -4747,6 +5019,14 @@
     "pt": [
       "Arroz",
       "m"
+    ],
+    "it": [
+      "Riso",
+      "m"
+    ],
+    "nl": [
+      "Rijst",
+      "d"
     ]
   },
   "salad": {
@@ -4886,6 +5166,10 @@
     "pt": [
       "Melancias",
       "f"
+    ],
+    "nl": [
+      "Watermeloenen",
+      "d"
     ]
   },
   "armchair": {
@@ -4930,6 +5214,10 @@
     "pt": [
       "Bolas",
       "f"
+    ],
+    "nl": [
+      "Ballen",
+      "d"
     ]
   },
   "basket": {
@@ -4974,6 +5262,10 @@
     "pt": [
       "Camas",
       "f"
+    ],
+    "nl": [
+      "Bedden",
+      "h"
     ]
   },
   "bell": {
@@ -4996,6 +5288,10 @@
     "pt": [
       "Sinos",
       "m"
+    ],
+    "nl": [
+      "Bellen",
+      "d"
     ]
   },
   "blanket": {
@@ -5062,6 +5358,10 @@
     "pt": [
       "Livros",
       "m"
+    ],
+    "nl": [
+      "Boeken",
+      "h"
     ]
   },
   "bottle": {
@@ -5084,6 +5384,10 @@
     "pt": [
       "Garrafas",
       "f"
+    ],
+    "nl": [
+      "Flessen",
+      "d"
     ]
   },
   "bowl": {
@@ -5106,6 +5410,10 @@
     "pt": [
       "Tigelas",
       "f"
+    ],
+    "nl": [
+      "Kommen",
+      "d"
     ]
   },
   "box": {
@@ -5304,6 +5612,10 @@
     "pt": [
       "Cadeiras",
       "f"
+    ],
+    "nl": [
+      "Stoelen",
+      "d"
     ]
   },
   "clock": {
@@ -5326,6 +5638,10 @@
     "pt": [
       "Relógios",
       "m"
+    ],
+    "nl": [
+      "Klokken",
+      "d"
     ]
   },
   "closet": {
@@ -5546,6 +5862,10 @@
     "pt": [
       "Ventiladores",
       "m"
+    ],
+    "nl": [
+      "Ventilatoren",
+      "d"
     ]
   },
   "fence": {
@@ -5568,6 +5888,10 @@
     "pt": [
       "Cercas",
       "f"
+    ],
+    "nl": [
+      "Hekken",
+      "h"
     ]
   },
   "flag": {
@@ -5590,6 +5914,10 @@
     "pt": [
       "Bandeiras",
       "f"
+    ],
+    "nl": [
+      "Vlaggen",
+      "d"
     ]
   },
   "flower": {
@@ -5612,6 +5940,10 @@
     "pt": [
       "Flores",
       "f"
+    ],
+    "nl": [
+      "Bloemen",
+      "d"
     ]
   },
   "fork": {
@@ -5656,6 +5988,10 @@
     "pt": [
       "Copos",
       "m"
+    ],
+    "nl": [
+      "Glazen",
+      "h"
     ]
   },
   "globe": {
@@ -5672,7 +6008,7 @@
       "m"
     ],
     "it": [
-      "Globi",
+      "Mappamondi",
       "m"
     ],
     "pt": [
@@ -5744,6 +6080,10 @@
     "pt": [
       "Casas",
       "f"
+    ],
+    "nl": [
+      "Huizen",
+      "h"
     ]
   },
   "key": {
@@ -5788,6 +6128,10 @@
     "pt": [
       "Facas",
       "f"
+    ],
+    "nl": [
+      "Messen",
+      "h"
     ]
   },
   "lamp": {
@@ -5898,6 +6242,10 @@
     "pt": [
       "Pratos",
       "m"
+    ],
+    "nl": [
+      "Borden",
+      "h"
     ]
   },
   "pot": {
@@ -5920,6 +6268,10 @@
     "pt": [
       "Panelas",
       "f"
+    ],
+    "nl": [
+      "Potten",
+      "d"
     ]
   },
   "rug": {
@@ -5942,6 +6294,10 @@
     "pt": [
       "Tapetes",
       "m"
+    ],
+    "nl": [
+      "Kleden",
+      "h"
     ]
   },
   "scissors": {
@@ -5965,7 +6321,11 @@
       "Tesouras",
       "f"
     ],
-    "en": "Scissors"
+    "en": "Scissors",
+    "nl": [
+      "Scharen",
+      "d"
+    ]
   },
   "shelf": {
     "de": [
@@ -5987,6 +6347,10 @@
     "pt": [
       "Prateleiras",
       "f"
+    ],
+    "nl": [
+      "Planken",
+      "d"
     ]
   },
   "shoe": {
@@ -6009,6 +6373,10 @@
     "pt": [
       "Sapatos",
       "m"
+    ],
+    "nl": [
+      "Schoenen",
+      "d"
     ]
   },
   "soap": {
@@ -6114,6 +6482,10 @@
     "pt": [
       "Banquetas",
       "f"
+    ],
+    "nl": [
+      "Krukken",
+      "d"
     ]
   },
   "sun": {
@@ -6136,6 +6508,10 @@
     "pt": [
       "Sóis",
       "m"
+    ],
+    "nl": [
+      "Zonnen",
+      "d"
     ]
   },
   "table": {
@@ -6334,6 +6710,10 @@
     "pt": [
       "Rodas",
       "f"
+    ],
+    "nl": [
+      "Wielen",
+      "h"
     ]
   },
   "window": {
@@ -6356,6 +6736,10 @@
     "pt": [
       "Janelas",
       "f"
+    ],
+    "nl": [
+      "Ramen",
+      "h"
     ]
   },
   "belt": {
@@ -6378,6 +6762,10 @@
     "pt": [
       "Cintos",
       "m"
+    ],
+    "nl": [
+      "Riemen",
+      "d"
     ]
   },
   "boots": {
@@ -6400,6 +6788,10 @@
     "pt": [
       "Botas",
       "f"
+    ],
+    "nl": [
+      "Laarzen",
+      "d"
     ]
   },
   "cap": {
@@ -6422,6 +6814,10 @@
     "pt": [
       "Bonés",
       "m"
+    ],
+    "nl": [
+      "Petten",
+      "d"
     ]
   },
   "coat": {
@@ -6444,6 +6840,10 @@
     "pt": [
       "Casacos",
       "m"
+    ],
+    "nl": [
+      "Jassen",
+      "d"
     ]
   },
   "dress": {
@@ -6488,6 +6888,10 @@
     "pt": [
       "Luvas",
       "f"
+    ],
+    "nl": [
+      "Handschoenen",
+      "d"
     ]
   },
   "jacket": {
@@ -6576,6 +6980,10 @@
     "pt": [
       "Saias",
       "f"
+    ],
+    "nl": [
+      "Rokken",
+      "d"
     ]
   },
   "socks": {
@@ -6642,6 +7050,10 @@
     "pt": [
       "Gravatas",
       "f"
+    ],
+    "nl": [
+      "Stropdassen",
+      "d"
     ]
   },
   "trousers": {
@@ -6730,6 +7142,10 @@
     "pt": [
       "Olhos",
       "m"
+    ],
+    "nl": [
+      "Ogen",
+      "h"
     ]
   },
   "finger": {
@@ -6818,6 +7234,10 @@
     "pt": [
       "Joelhos",
       "m"
+    ],
+    "nl": [
+      "Knieën",
+      "d"
     ]
   },
   "leg": {
@@ -6840,6 +7260,10 @@
     "pt": [
       "Pernas",
       "f"
+    ],
+    "nl": [
+      "Benen",
+      "h"
     ]
   },
   "mouth": {
@@ -6884,6 +7308,10 @@
     "pt": [
       "Narizes",
       "m"
+    ],
+    "nl": [
+      "Neuzen",
+      "d"
     ]
   },
   "shoulder": {
@@ -7087,7 +7515,7 @@
     ],
     "nl": [
       "Zeshoeken",
-      "d"
+      "h"
     ],
     "sv": [
       "Hexagoner",
@@ -7165,7 +7593,7 @@
     ],
     "nl": [
       "Driehoeken",
-      "d"
+      "h"
     ],
     "sv": [
       "Trianglar",
@@ -7245,6 +7673,10 @@
     "pt": [
       "Bicicletas",
       "f"
+    ],
+    "nl": [
+      "Fietsen",
+      "d"
     ]
   },
   "bus": {
@@ -7267,6 +7699,10 @@
     "pt": [
       "Ônibus",
       "m"
+    ],
+    "nl": [
+      "Bussen",
+      "d"
     ]
   },
   "helicopter": {
@@ -7355,6 +7791,10 @@
     "pt": [
       "Navios",
       "m"
+    ],
+    "nl": [
+      "Schepen",
+      "h"
     ]
   },
   "submarine": {
@@ -7399,6 +7839,10 @@
     "pt": [
       "Tratores",
       "m"
+    ],
+    "nl": [
+      "Tractoren",
+      "d"
     ]
   },
   "train": {
@@ -7487,6 +7931,10 @@
     "pt": [
       "Folhas",
       "f"
+    ],
+    "nl": [
+      "Bladeren",
+      "h"
     ]
   },
   "moon": {
@@ -7597,6 +8045,10 @@
     "pt": [
       "Rios",
       "m"
+    ],
+    "nl": [
+      "Rivieren",
+      "d"
     ]
   },
   "rock": {
@@ -7652,6 +8104,14 @@
     "fr": [
       "Sable",
       "m"
+    ],
+    "it": [
+      "Sabbia",
+      "f"
+    ],
+    "nl": [
+      "Zand",
+      "h"
     ]
   },
   "snow": {
@@ -7677,6 +8137,10 @@
     "pt": [
       "Flocos de neve",
       "m"
+    ],
+    "nl": [
+      "Sneeuwvlokken",
+      "d"
     ]
   },
   "sunflower": {
@@ -7699,6 +8163,10 @@
     "pt": [
       "Girassóis",
       "m"
+    ],
+    "nl": [
+      "Zonnebloemen",
+      "d"
     ]
   },
   "tulip": {
@@ -7809,6 +8277,10 @@
     "pt": [
       "Bonecas",
       "f"
+    ],
+    "nl": [
+      "Poppen",
+      "d"
     ]
   },
   "kite": {
@@ -7875,6 +8347,10 @@
     "pt": [
       "Ursos de pelúcia",
       "m"
+    ],
+    "nl": [
+      "Teddyberen",
+      "d"
     ]
   },
   "baby": {
@@ -8161,6 +8637,10 @@
     "pt": [
       "Violões",
       "m"
+    ],
+    "nl": [
+      "Gitaren",
+      "d"
     ]
   },
   "king": {
@@ -8227,6 +8707,10 @@
     "pt": [
       "Canetas",
       "f"
+    ],
+    "nl": [
+      "Pennen",
+      "d"
     ]
   },
   "pencil": {
@@ -8337,6 +8821,10 @@
     "pt": [
       "Robôs",
       "m"
+    ],
+    "nl": [
+      "Robots",
+      "d"
     ]
   },
   "sword": {
@@ -8381,6 +8869,10 @@
     "pt": [
       "Professores",
       "m"
+    ],
+    "nl": [
+      "Leraren",
+      "d"
     ]
   },
   "telephone": {
@@ -8446,6 +8938,10 @@
     "de": [
       "Akkordeons",
       "n"
+    ],
+    "nl": [
+      "Accordeons",
+      "d"
     ]
   },
   "acorn": {
@@ -8462,6 +8958,10 @@
     "fr": [
       "Horloges analogiques",
       "f"
+    ],
+    "nl": [
+      "Analoge klokken",
+      "d"
     ]
   },
   "architect": {
@@ -8496,6 +8996,10 @@
     "pt": [
       "Astronautas",
       "m"
+    ],
+    "it": [
+      "Astronauti",
+      "m"
     ]
   },
   "athlete": {
@@ -8513,6 +9017,10 @@
     ],
     "pt": [
       "Atletas",
+      "m"
+    ],
+    "it": [
+      "Atleti",
       "m"
     ]
   },
@@ -8592,12 +9100,24 @@
     "de": [
       "Bauklötze",
       "m"
+    ],
+    "nl": [
+      "Blokken",
+      "h"
     ]
   },
   "boiled-egg": {
     "de": [
       "Gekochte Eier",
       "n"
+    ],
+    "nl": [
+      "Gekookte eieren",
+      "h"
+    ],
+    "it": [
+      "Uova sode",
+      "f"
     ]
   },
   "bowling-pin": {
@@ -8610,30 +9130,50 @@
     "de": [
       "Bowlingkugeln",
       "f"
+    ],
+    "nl": [
+      "Bowlingballen",
+      "d"
     ]
   },
   "brain": {
     "de": [
       "Gehirne",
       "n"
+    ],
+    "nl": [
+      "Hersenen",
+      "d"
     ]
   },
   "burrito": {
     "de": [
       "Burritos",
       "n"
+    ],
+    "it": [
+      "Burrito",
+      "m"
     ]
   },
   "camping-chair": {
     "de": [
       "Campingstühle",
       "m"
+    ],
+    "nl": [
+      "Campingstoelen",
+      "d"
     ]
   },
   "can": {
     "de": [
       "Dosen",
       "f"
+    ],
+    "nl": [
+      "Blikken",
+      "h"
     ]
   },
   "cheesecake": {
@@ -8643,6 +9183,10 @@
     ],
     "fr": [
       "Cheesecakes",
+      "m"
+    ],
+    "it": [
+      "Cheesecake",
       "m"
     ]
   },
@@ -8710,6 +9254,10 @@
     "es": [
       "Cortinas",
       "f"
+    ],
+    "nl": [
+      "Gordijnen",
+      "d"
     ]
   },
   "detective": {
@@ -8726,12 +9274,20 @@
     "de": [
       "Donuts",
       "m"
+    ],
+    "nl": [
+      "Donuts",
+      "d"
     ]
   },
   "doughnut": {
     "de": [
       "Donuts",
       "m"
+    ],
+    "nl": [
+      "Donuts",
+      "d"
     ]
   },
   "double-decker-bus": {
@@ -8784,12 +9340,24 @@
     "es": [
       "Bolas ocho",
       "f"
+    ],
+    "it": [
+      "Palle otto",
+      "f"
+    ],
+    "nl": [
+      "Achtballen",
+      "d"
     ]
   },
   "ice": {
     "de": [
       "Eis",
       "n"
+    ],
+    "nl": [
+      "IJs",
+      "h"
     ]
   },
   "ice-pop": {
@@ -8812,12 +9380,20 @@
     "fr": [
       "Plumes",
       "f"
+    ],
+    "nl": [
+      "Veren",
+      "d"
     ]
   },
   "face": {
     "de": [
       "Gesichter",
       "n"
+    ],
+    "nl": [
+      "Gezichten",
+      "h"
     ]
   },
   "faucet": {
@@ -8866,11 +9442,19 @@
     "es": [
       "Chanclas",
       "f"
+    ],
+    "nl": [
+      "Slippers",
+      "d"
     ]
   },
   "florist": {
     "de": [
       "Floristen",
+      "m"
+    ],
+    "it": [
+      "Fioristi",
       "m"
     ]
   },
@@ -8878,6 +9462,10 @@
     "de": [
       "Spiegeleier",
       "n"
+    ],
+    "nl": [
+      "Gebakken eieren",
+      "h"
     ]
   },
   "frisbee": {
@@ -8906,6 +9494,10 @@
     "de": [
       "Geschenkboxen",
       "f"
+    ],
+    "it": [
+      "Scatole regalo",
+      "f"
     ]
   },
   "present": {
@@ -8924,11 +9516,19 @@
     "de": [
       "Goldfischgläser",
       "n"
+    ],
+    "nl": [
+      "Vissenkommen",
+      "d"
     ]
   },
   "ghost": {
     "de": [
       "Geister",
+      "m"
+    ],
+    "it": [
+      "Fantasmi",
       "m"
     ]
   },
@@ -8944,6 +9544,14 @@
     "pt": [
       "Gramas",
       "f"
+    ],
+    "it": [
+      "Erba",
+      "f"
+    ],
+    "nl": [
+      "Gras",
+      "h"
     ]
   },
   "grill": {
@@ -8966,6 +9574,10 @@
     "de": [
       "Grüne Bohnen",
       "f"
+    ],
+    "nl": [
+      "Sperziebonen",
+      "d"
     ]
   },
   "hair": {
@@ -8976,6 +9588,10 @@
     "fr": [
       "Cheveux",
       "m"
+    ],
+    "nl": [
+      "Haar",
+      "h"
     ]
   },
   "necklace": {
@@ -9000,6 +9616,14 @@
     "de": [
       "Hausschuhe",
       "m"
+    ],
+    "it": [
+      "Pantofole",
+      "f"
+    ],
+    "nl": [
+      "Pantoffels",
+      "d"
     ]
   },
   "hot-air-balloon": {
@@ -9024,6 +9648,14 @@
     "pt": [
       "Feno",
       "m"
+    ],
+    "it": [
+      "Fieno",
+      "m"
+    ],
+    "nl": [
+      "Hooi",
+      "h"
     ]
   },
   "stove": {
@@ -9040,12 +9672,20 @@
     "de": [
       "Hotels",
       "n"
+    ],
+    "nl": [
+      "Hotels",
+      "h"
     ]
   },
   "igloo": {
     "de": [
       "Iglus",
       "n"
+    ],
+    "it": [
+      "Igloo",
+      "m"
     ]
   },
   "island": {
@@ -9056,6 +9696,10 @@
     "fr": [
       "Îles",
       "f"
+    ],
+    "nl": [
+      "Eilanden",
+      "h"
     ]
   },
   "rollerblade": {
@@ -9128,6 +9772,10 @@
     "de": [
       "Kartoffelchips",
       "m"
+    ],
+    "it": [
+      "Patatine",
+      "f"
     ]
   },
   "crib": {
@@ -9140,12 +9788,20 @@
     "de": [
       "Kinne",
       "n"
+    ],
+    "nl": [
+      "Kinnen",
+      "d"
     ]
   },
   "keyboard": {
     "de": [
       "Keyboards",
       "n"
+    ],
+    "nl": [
+      "Keyboards",
+      "h"
     ]
   },
   "clover": {
@@ -9162,12 +9818,20 @@
     "fr": [
       "Armoires",
       "f"
+    ],
+    "it": [
+      "Guardaroba",
+      "m"
     ]
   },
   "minibus": {
     "de": [
       "Kleinbusse",
       "m"
+    ],
+    "nl": [
+      "Minibussen",
+      "d"
     ]
   },
   "saucepan": {
@@ -9199,6 +9863,10 @@
   "cooler": {
     "de": [
       "Kühlboxen",
+      "f"
+    ],
+    "it": [
+      "Borse frigo",
       "f"
     ]
   },
@@ -9234,6 +9902,10 @@
     "es": [
       "Galletas",
       "f"
+    ],
+    "nl": [
+      "Koekjes",
+      "h"
     ]
   },
   "waitress": {
@@ -9278,6 +9950,14 @@
     "es": [
       "Luces",
       "f"
+    ],
+    "it": [
+      "Luci",
+      "f"
+    ],
+    "nl": [
+      "Lichten",
+      "h"
     ]
   },
   "lights": {
@@ -9292,18 +9972,34 @@
     "es": [
       "Luces",
       "f"
+    ],
+    "it": [
+      "Luci",
+      "f"
+    ],
+    "nl": [
+      "Lichtjes",
+      "h"
     ]
   },
   "deck-chair": {
     "de": [
       "Liegestühle",
       "m"
+    ],
+    "nl": [
+      "Ligstoelen",
+      "d"
     ]
   },
   "lounge-chair": {
     "de": [
       "Liegestühle",
       "m"
+    ],
+    "nl": [
+      "Ligstoelen",
+      "d"
     ]
   },
   "lotus": {
@@ -9316,6 +10012,10 @@
     "de": [
       "Schlösser",
       "n"
+    ],
+    "nl": [
+      "Sloten",
+      "h"
     ]
   },
   "magnifying-glass": {
@@ -9325,6 +10025,10 @@
     ],
     "fr": [
       "Loupes",
+      "f"
+    ],
+    "it": [
+      "Lenti d'ingrandimento",
       "f"
     ]
   },
@@ -9350,6 +10054,10 @@
     "de": [
       "Medizinische Handschuhe",
       "m"
+    ],
+    "nl": [
+      "Medische handschoenen",
+      "d"
     ]
   },
   "mercury": {
@@ -9406,6 +10114,10 @@
     "es": [
       "Muffins",
       "m"
+    ],
+    "nl": [
+      "Muffins",
+      "d"
     ]
   },
   "muffin-tin": {
@@ -9422,12 +10134,20 @@
     "fr": [
       "Muscles",
       "m"
+    ],
+    "nl": [
+      "Spieren",
+      "d"
     ]
   },
   "nut": {
     "de": [
       "Muttern",
       "f"
+    ],
+    "nl": [
+      "Moeren",
+      "d"
     ]
   },
   "beanie": {
@@ -9446,6 +10166,10 @@
     "de": [
       "Notizbücher",
       "n"
+    ],
+    "nl": [
+      "Schriften",
+      "h"
     ]
   },
   "rolling-pin": {
@@ -9461,6 +10185,10 @@
     ],
     "fr": [
       "Pâtes",
+      "f"
+    ],
+    "it": [
+      "Pasta",
       "f"
     ]
   },
@@ -9478,6 +10206,10 @@
     "fr": [
       "Boules de Noël",
       "f"
+    ],
+    "nl": [
+      "Kerstballen",
+      "d"
     ]
   },
   "orchid": {
@@ -9490,12 +10222,24 @@
     "de": [
       "Ostereier",
       "n"
+    ],
+    "nl": [
+      "Paaseieren",
+      "h"
+    ],
+    "it": [
+      "Uova di Pasqua",
+      "f"
     ]
   },
   "oval": {
     "de": [
       "Ovale",
       "n"
+    ],
+    "nl": [
+      "Ovalen",
+      "h"
     ]
   },
   "overall": {
@@ -9508,6 +10252,10 @@
     "de": [
       "Haferbrei",
       "m"
+    ],
+    "it": [
+      "Farina d'avena",
+      "f"
     ]
   },
   "oil": {
@@ -9533,6 +10281,10 @@
   "pajamas": {
     "de": [
       "Schlafanzüge",
+      "m"
+    ],
+    "it": [
+      "Pigiami",
       "m"
     ]
   },
@@ -9576,6 +10328,10 @@
     "fr": [
       "Photographes",
       "m"
+    ],
+    "nl": [
+      "Fotografen",
+      "d"
     ]
   },
   "pie": {
@@ -9604,6 +10360,10 @@
     "fr": [
       "Pilotes",
       "m"
+    ],
+    "it": [
+      "Piloti",
+      "m"
     ]
   },
   "planet": {
@@ -9613,6 +10373,10 @@
     ],
     "es": [
       "Planetas",
+      "m"
+    ],
+    "it": [
+      "Pianeti",
       "m"
     ]
   },
@@ -9638,6 +10402,14 @@
     "pt": [
       "Pipoca",
       "f"
+    ],
+    "nl": [
+      "Popcorn",
+      "d"
+    ],
+    "it": [
+      "Popcorn",
+      "m"
     ]
   },
   "post-office": {
@@ -9654,6 +10426,10 @@
     "fr": [
       "Porridge",
       "m"
+    ],
+    "it": [
+      "Porridge",
+      "m"
     ]
   },
   "price-tag": {
@@ -9666,6 +10442,10 @@
     "de": [
       "Projektoren",
       "m"
+    ],
+    "nl": [
+      "Projectoren",
+      "d"
     ]
   },
   "pudding": {
@@ -9692,6 +10472,10 @@
     "de": [
       "Töpferei",
       "f"
+    ],
+    "nl": [
+      "Pottenbakken",
+      "d"
     ]
   },
   "rake": {
@@ -9708,12 +10492,20 @@
     "de": [
       "Rechtecke",
       "n"
+    ],
+    "nl": [
+      "Rechthoeken",
+      "h"
     ]
   },
   "raincoat": {
     "de": [
       "Regenmäntel",
       "m"
+    ],
+    "nl": [
+      "Regenjassen",
+      "d"
     ]
   },
   "earthworm": {
@@ -9740,12 +10532,24 @@
     "de": [
       "Bänder",
       "n"
+    ],
+    "nl": [
+      "Linten",
+      "h"
     ]
   },
   "wheelchair": {
     "de": [
       "Rollstühle",
       "m"
+    ],
+    "it": [
+      "Sedie a rotelle",
+      "f"
+    ],
+    "nl": [
+      "Rolstoelen",
+      "d"
     ]
   },
   "x-ray": {
@@ -9786,12 +10590,20 @@
     "de": [
       "Saxophone",
       "n"
+    ],
+    "nl": [
+      "Saxofoons",
+      "d"
     ]
   },
   "shovel": {
     "de": [
       "Schaufeln",
       "f"
+    ],
+    "nl": [
+      "Schoppen",
+      "d"
     ]
   },
   "spade": {
@@ -9814,12 +10626,24 @@
     "de": [
       "Schaukelstühle",
       "m"
+    ],
+    "it": [
+      "Sedie a dondolo",
+      "f"
+    ],
+    "nl": [
+      "Schommelstoelen",
+      "d"
     ]
   },
   "rocking-horse": {
     "de": [
       "Schaukelpferde",
       "n"
+    ],
+    "it": [
+      "Cavalli a dondolo",
+      "m"
     ]
   },
   "school-bus": {
@@ -9830,11 +10654,19 @@
     "pt": [
       "Ônibus escolares",
       "m"
+    ],
+    "nl": [
+      "Schoolbussen",
+      "d"
     ]
   },
   "sleeping-bag": {
     "de": [
       "Schlafsäcke",
+      "m"
+    ],
+    "it": [
+      "Sacchi a pelo",
       "m"
     ]
   },
@@ -9846,6 +10678,10 @@
     "fr": [
       "Boules à neige",
       "f"
+    ],
+    "nl": [
+      "Sneeuwbollen",
+      "d"
     ]
   },
   "snow-shovel": {
@@ -9874,6 +10710,10 @@
     "de": [
       "Schwimmbäder",
       "n"
+    ],
+    "nl": [
+      "Zwembaden",
+      "h"
     ]
   },
   "manatee": {
@@ -9886,6 +10726,10 @@
     "de": [
       "Seetang",
       "m"
+    ],
+    "nl": [
+      "Zeewier",
+      "h"
     ]
   },
   "cable-car": {
@@ -9902,18 +10746,34 @@
     "fr": [
       "Faucilles",
       "f"
+    ],
+    "it": [
+      "Falci",
+      "f"
     ]
   },
   "heptagon": {
     "de": [
       "Siebenecke",
       "n"
+    ],
+    "nl": [
+      "Zevenhoeken",
+      "h"
     ]
   },
   "smartphone": {
     "de": [
       "Smartphones",
       "n"
+    ],
+    "it": [
+      "Smartphone",
+      "m"
+    ],
+    "nl": [
+      "Smartphones",
+      "d"
     ]
   },
   "smartwatch": {
@@ -9924,6 +10784,10 @@
     "fr": [
       "Montres connectées",
       "f"
+    ],
+    "nl": [
+      "Smartwatches",
+      "d"
     ]
   },
   "smoothie": {
@@ -9940,6 +10804,10 @@
     "de": [
       "Sofas",
       "n"
+    ],
+    "it": [
+      "Sofà",
+      "m"
     ]
   },
   "sunrise": {
@@ -9972,6 +10840,10 @@
     "fr": [
       "Plages",
       "f"
+    ],
+    "nl": [
+      "Stranden",
+      "h"
     ]
   },
   "forehead": {
@@ -10002,6 +10874,14 @@
     "fr": [
       "Chaussures à talons",
       "f"
+    ],
+    "it": [
+      "Scarpe con tacco",
+      "f"
+    ],
+    "nl": [
+      "Hoge hakken",
+      "d"
     ]
   },
   "stocking": {
@@ -10014,6 +10894,10 @@
     "de": [
       "Surfbretter",
       "n"
+    ],
+    "nl": [
+      "Surfplanken",
+      "d"
     ]
   },
   "sweatshirt": {
@@ -10026,12 +10910,20 @@
     "de": [
       "SUVs",
       "m"
+    ],
+    "nl": [
+      "SUV's",
+      "d"
     ]
   },
   "stopwatch": {
     "de": [
       "Stoppuhren",
       "f"
+    ],
+    "nl": [
+      "Stopwatches",
+      "d"
     ]
   },
   "subway": {
@@ -10068,12 +10960,20 @@
     "de": [
       "T-Shirts",
       "n"
+    ],
+    "nl": [
+      "T-shirts",
+      "h"
     ]
   },
   "tablet": {
     "de": [
       "Tablets",
       "n"
+    ],
+    "nl": [
+      "Tablets",
+      "h"
     ]
   },
   "tissue": {
@@ -10086,6 +10986,10 @@
     "de": [
       "Tassen",
       "f"
+    ],
+    "nl": [
+      "Mokken",
+      "d"
     ]
   },
   "teacup": {
@@ -10102,6 +11006,10 @@
     "fr": [
       "Balles de tennis",
       "f"
+    ],
+    "nl": [
+      "Tennisballen",
+      "d"
     ]
   },
   "theater": {
@@ -10124,6 +11032,10 @@
     "de": [
       "Tickets",
       "n"
+    ],
+    "nl": [
+      "Tickets",
+      "h"
     ]
   },
   "veterinarian": {
@@ -10136,6 +11048,10 @@
     "de": [
       "Toasts",
       "m"
+    ],
+    "nl": [
+      "Toastjes",
+      "h"
     ]
   },
   "toilet": {
@@ -10146,6 +11062,10 @@
     "fr": [
       "Toilettes",
       "f"
+    ],
+    "nl": [
+      "Toiletten",
+      "h"
     ]
   },
   "tuna": {
@@ -10158,6 +11078,10 @@
     "de": [
       "Tüten",
       "f"
+    ],
+    "nl": [
+      "Tassen",
+      "d"
     ]
   },
   "tyrannosaurus-rex": {
@@ -10179,6 +11103,10 @@
   "uniform": {
     "de": [
       "Uniformen",
+      "f"
+    ],
+    "it": [
+      "Uniformi",
       "f"
     ]
   },
@@ -10224,6 +11152,10 @@
     "fr": [
       "Jeux vidéo",
       "m"
+    ],
+    "nl": [
+      "Videospellen",
+      "h"
     ]
   },
   "violet": {
@@ -10240,6 +11172,14 @@
     "fr": [
       "Gaufres",
       "f"
+    ],
+    "it": [
+      "Waffle",
+      "m"
+    ],
+    "nl": [
+      "Wafels",
+      "d"
     ]
   },
   "quail": {
@@ -10256,6 +11196,10 @@
     "de": [
       "Wäschekörbe",
       "m"
+    ],
+    "it": [
+      "Cesti biancheria",
+      "m"
     ]
   },
   "water": {
@@ -10266,6 +11210,10 @@
     "fr": [
       "Eaux",
       "f"
+    ],
+    "nl": [
+      "Water",
+      "h"
     ]
   },
   "water-ball": {
@@ -10284,6 +11232,10 @@
     "de": [
       "Whiteboards",
       "n"
+    ],
+    "nl": [
+      "Whiteboards",
+      "h"
     ]
   },
   "eyelashes": {
@@ -10298,6 +11250,10 @@
     "es": [
       "Pestañas",
       "f"
+    ],
+    "nl": [
+      "Wimpers",
+      "d"
     ]
   },
   "pinwheel": {
@@ -10332,6 +11288,14 @@
     "de": [
       "Zehen",
       "m"
+    ],
+    "it": [
+      "Dita del piede",
+      "f"
+    ],
+    "nl": [
+      "Tenen",
+      "d"
     ]
   },
   "cedar-tree": {
@@ -10382,18 +11346,30 @@
     "de": [
       "Krankenhausbetten",
       "n"
+    ],
+    "it": [
+      "Letti d'ospedale",
+      "m"
     ]
   },
   "hospital-gown": {
     "de": [
       "Krankenhaushemden",
       "n"
+    ],
+    "nl": [
+      "Ziekenhuisjassen",
+      "d"
     ]
   },
   "cruise-ship": {
     "de": [
       "Kreuzfahrtschiffe",
       "n"
+    ],
+    "it": [
+      "Navi da crociera",
+      "f"
     ]
   },
   "nightstand": {
@@ -10419,6 +11395,10 @@
     ],
     "fr": [
       "Vis",
+      "f"
+    ],
+    "it": [
+      "Viti",
       "f"
     ]
   },
@@ -10466,12 +11446,24 @@
     "de": [
       "Löwenzähne",
       "m"
+    ],
+    "nl": [
+      "Paardenbloemen",
+      "d"
     ]
   },
   "painting": {
     "de": [
       "Gemälde",
       "n"
+    ],
+    "it": [
+      "Dipinti",
+      "m"
+    ],
+    "nl": [
+      "Schilderijen",
+      "h"
     ]
   },
   "cereal": {
@@ -10482,12 +11474,20 @@
     "fr": [
       "Céréales",
       "f"
+    ],
+    "nl": [
+      "Ontbijtgranen",
+      "d"
     ]
   },
   "food": {
     "de": [
       "Essen",
       "n"
+    ],
+    "nl": [
+      "Eten",
+      "h"
     ]
   },
   "peanut-butter": {
@@ -10498,12 +11498,24 @@
     "fr": [
       "Beurre de cacahuète",
       "m"
+    ],
+    "nl": [
+      "Pindakaas",
+      "d"
+    ],
+    "it": [
+      "Burro di arachidi",
+      "m"
     ]
   },
   "yogurt": {
     "de": [
       "Joghurt",
       "m"
+    ],
+    "nl": [
+      "Yoghurt",
+      "d"
     ]
   },
   "gingerbread": {
@@ -10522,6 +11534,10 @@
     "de": [
       "Schichtkuchen",
       "m"
+    ],
+    "it": [
+      "Torte a strati",
+      "f"
     ]
   },
   "pancake": {
@@ -10532,6 +11548,10 @@
     "fr": [
       "Crêpes",
       "f"
+    ],
+    "it": [
+      "Pancake",
+      "m"
     ]
   },
   "leek": {
@@ -10556,6 +11576,10 @@
     "de": [
       "Pappeln",
       "f"
+    ],
+    "nl": [
+      "Populieren",
+      "d"
     ]
   },
   "magpie": {
@@ -10578,6 +11602,10 @@
     "fr": [
       "Pelles à poussière",
       "f"
+    ],
+    "nl": [
+      "Blikken",
+      "h"
     ]
   },
   "scallop": {
@@ -10599,6 +11627,10 @@
   "kingfisher": {
     "de": [
       "Eisvögel",
+      "m"
+    ],
+    "it": [
+      "Martin pescatori",
       "m"
     ]
   },
@@ -10636,12 +11668,20 @@
     "de": [
       "Polizeiautos",
       "n"
+    ],
+    "it": [
+      "Auto della polizia",
+      "f"
     ]
   },
   "skateboard": {
     "de": [
       "Skateboards",
       "n"
+    ],
+    "nl": [
+      "Skateboards",
+      "h"
     ]
   },
   "tank-top": {
@@ -10662,18 +11702,34 @@
     "es": [
       "Mitones",
       "m"
+    ],
+    "it": [
+      "Muffole",
+      "f"
+    ],
+    "nl": [
+      "Wanten",
+      "d"
     ]
   },
   "campfire": {
     "de": [
       "Lagerfeuer",
       "n"
+    ],
+    "nl": [
+      "Kampvuren",
+      "h"
     ]
   },
   "bonfire": {
     "de": [
       "Lagerfeuer",
       "n"
+    ],
+    "nl": [
+      "Kampvuren",
+      "h"
     ]
   },
   "jumpsuit": {
@@ -10732,6 +11788,10 @@
     "es": [
       "Mejillas",
       "f"
+    ],
+    "nl": [
+      "Wangen",
+      "d"
     ]
   },
   "colander": {
@@ -10748,6 +11808,14 @@
     "es": [
       "Muletas",
       "f"
+    ],
+    "it": [
+      "Stampelle",
+      "f"
+    ],
+    "nl": [
+      "Krukken",
+      "d"
     ]
   },
   "dresser": {
@@ -10766,6 +11834,10 @@
     "fr": [
       "Gommes",
       "f"
+    ],
+    "nl": [
+      "Gummen",
+      "h"
     ]
   },
   "firefly": {
@@ -10796,6 +11868,10 @@
     "fr": [
       "Lunettes",
       "f"
+    ],
+    "nl": [
+      "Brillen",
+      "d"
     ]
   },
   "glue": {
@@ -10807,6 +11883,10 @@
   "grater": {
     "fr": [
       "Râpes",
+      "f"
+    ],
+    "it": [
+      "Grattugie",
       "f"
     ]
   },
@@ -10844,6 +11924,14 @@
     "fr": [
       "Lèvres",
       "f"
+    ],
+    "it": [
+      "Labbra",
+      "f"
+    ],
+    "nl": [
+      "Lippen",
+      "d"
     ]
   },
   "medal": {
@@ -10874,6 +11962,10 @@
     "fr": [
       "Cordes",
       "f"
+    ],
+    "nl": [
+      "Touwen",
+      "h"
     ]
   },
   "ruler": {
@@ -10886,12 +11978,20 @@
     "fr": [
       "Sandales",
       "f"
+    ],
+    "nl": [
+      "Sandalen",
+      "d"
     ]
   },
   "sled": {
     "fr": [
       "Luges",
       "f"
+    ],
+    "nl": [
+      "Sleeën",
+      "d"
     ]
   },
   "sneaker": {
@@ -10904,6 +12004,10 @@
     "fr": [
       "Baskets",
       "f"
+    ],
+    "nl": [
+      "Sneakers",
+      "d"
     ]
   },
   "soup": {
@@ -10922,6 +12026,14 @@
     "fr": [
       "Scènes",
       "f"
+    ],
+    "it": [
+      "Palcoscenici",
+      "m"
+    ],
+    "nl": [
+      "Podia",
+      "h"
     ]
   },
   "daffodil": {
@@ -10946,6 +12058,10 @@
     "fr": [
       "Horloges à coucou",
       "f"
+    ],
+    "nl": [
+      "Koekoeksklokken",
+      "d"
     ]
   },
   "delivery": {
@@ -11008,6 +12124,10 @@
     "es": [
       "Gafas",
       "f"
+    ],
+    "nl": [
+      "Veiligheidsbrillen",
+      "d"
     ]
   },
   "jelly-beans": {
@@ -11017,6 +12137,10 @@
     ],
     "es": [
       "Gomitas",
+      "f"
+    ],
+    "it": [
+      "Caramelle Gommose",
       "f"
     ]
   },
@@ -11048,12 +12172,20 @@
     "fr": [
       "Lettres d'amour",
       "f"
+    ],
+    "it": [
+      "Lettere d'amore",
+      "f"
     ]
   },
   "morning-glory": {
     "fr": [
       "Gloires du matin",
       "f"
+    ],
+    "nl": [
+      "Dagbloemen",
+      "d"
     ]
   },
   "pan": {
@@ -11080,6 +12212,10 @@
     "es": [
       "Botas de lluvia",
       "f"
+    ],
+    "nl": [
+      "Regenlaarzen",
+      "d"
     ]
   },
   "remote-control": {
@@ -11092,18 +12228,38 @@
     "fr": [
       "Dindes rôties",
       "f"
+    ],
+    "it": [
+      "Tacchini arrosto",
+      "m"
+    ],
+    "nl": [
+      "Gebraden kalkoenen",
+      "d"
     ]
   },
   "shoes": {
     "fr": [
       "Chaussures",
       "f"
+    ],
+    "it": [
+      "Scarpe",
+      "f"
+    ],
+    "nl": [
+      "Schoenen",
+      "d"
     ]
   },
   "snow-boots": {
     "fr": [
       "Bottes de neige",
       "f"
+    ],
+    "nl": [
+      "Snowboots",
+      "d"
     ]
   },
   "snowsuit": {
@@ -11116,17 +12272,29 @@
     "fr": [
       "Coupes glacées",
       "f"
+    ],
+    "it": [
+      "Coppe gelato",
+      "f"
     ]
   },
   "sunglasses": {
     "fr": [
       "Lunettes de soleil",
       "f"
+    ],
+    "nl": [
+      "Zonnebrillen",
+      "d"
     ]
   },
   "sunscreen": {
     "fr": [
       "Crèmes solaires",
+      "f"
+    ],
+    "it": [
+      "Creme solari",
       "f"
     ]
   },
@@ -11138,6 +12306,14 @@
     "es": [
       "Tirantes",
       "m"
+    ],
+    "it": [
+      "Bretelle",
+      "f"
+    ],
+    "nl": [
+      "Bretels",
+      "d"
     ]
   },
   "table-lamp": {
@@ -11150,12 +12326,24 @@
     "fr": [
       "Bouteilles d'eau",
       "f"
+    ],
+    "it": [
+      "Bottiglie d'acqua",
+      "f"
+    ],
+    "nl": [
+      "Waterflessen",
+      "d"
     ]
   },
   "winter-jacket": {
     "fr": [
       "Vestes d'hiver",
       "f"
+    ],
+    "nl": [
+      "Winterjassen",
+      "d"
     ]
   },
   "cookie-cutter": {
@@ -11168,6 +12356,10 @@
     "fr": [
       "Lave-vaisselle",
       "m"
+    ],
+    "it": [
+      "Lavastoviglie",
+      "f"
     ]
   },
   "hermit-crab": {
@@ -11192,6 +12384,10 @@
     "fr": [
       "Musées",
       "m"
+    ],
+    "nl": [
+      "Musea",
+      "h"
     ]
   },
   "nutcracker": {
@@ -11204,6 +12400,10 @@
     "fr": [
       "Squelettes",
       "m"
+    ],
+    "nl": [
+      "Skeletten",
+      "h"
     ]
   },
   "student": {
@@ -11216,6 +12416,10 @@
     "fr": [
       "Pouces",
       "m"
+    ],
+    "nl": [
+      "Duimen",
+      "d"
     ]
   },
   "tiara": {
@@ -11228,90 +12432,150 @@
     "fr": [
       "Trapèzes",
       "m"
+    ],
+    "nl": [
+      "Trapezia",
+      "h"
     ]
   },
   "allosaurus": {
     "fr": [
       "Allosaures",
       "m"
+    ],
+    "nl": [
+      "Allosaurussen",
+      "d"
     ]
   },
   "ankylosaurus": {
     "fr": [
       "Ankylosaures",
       "m"
+    ],
+    "nl": [
+      "Ankylosaurussen",
+      "d"
     ]
   },
   "apatosaurus": {
     "fr": [
       "Apatosaures",
       "m"
+    ],
+    "nl": [
+      "Apatosaurussen",
+      "d"
     ]
   },
   "brachiosaurus": {
     "fr": [
       "Brachiosaures",
       "m"
+    ],
+    "nl": [
+      "Brachiosaurussen",
+      "d"
     ]
   },
   "brontosaurus": {
     "fr": [
       "Brontosaures",
       "m"
+    ],
+    "nl": [
+      "Brontosaurussen",
+      "d"
     ]
   },
   "carnotaurus": {
     "fr": [
       "Carnotaures",
       "m"
+    ],
+    "nl": [
+      "Carnotaurussen",
+      "d"
     ]
   },
   "giganotosaurus": {
     "fr": [
       "Giganotosaures",
       "m"
+    ],
+    "nl": [
+      "Giganotosaurussen",
+      "d"
     ]
   },
   "ichthyosaurus": {
     "fr": [
       "Ichthyosaures",
       "m"
+    ],
+    "nl": [
+      "Ichthyosaurussen",
+      "d"
     ]
   },
   "mosasaurus": {
     "fr": [
       "Mosasaures",
       "m"
+    ],
+    "nl": [
+      "Mosasaurussen",
+      "d"
     ]
   },
   "pachycephalosaurus": {
     "fr": [
       "Pachycéphalosaures",
       "m"
+    ],
+    "nl": [
+      "Pachycephalosaurussen",
+      "d"
     ]
   },
   "plesiosaurus": {
     "fr": [
       "Plésiosaures",
       "m"
+    ],
+    "nl": [
+      "Plesiosaurussen",
+      "d"
     ]
   },
   "stegosaurus": {
     "fr": [
       "Stégosaures",
       "m"
+    ],
+    "nl": [
+      "Stegosaurussen",
+      "d"
     ]
   },
   "styracosaurus": {
     "fr": [
       "Styracosaures",
       "m"
+    ],
+    "nl": [
+      "Styracosaurussen",
+      "d"
     ]
   },
   "therizinosaurus": {
     "fr": [
       "Thérizinosaures",
       "m"
+    ],
+    "nl": [
+      "Therizinosaurussen",
+      "d"
     ]
   },
   "baby-carriage": {
@@ -11330,6 +12594,10 @@
     "fr": [
       "Perce-neige",
       "m"
+    ],
+    "it": [
+      "Bucaneve",
+      "m"
     ]
   },
   "angelfish": {
@@ -11340,12 +12608,20 @@
     "pt": [
       "Peixes-anjo",
       "m"
+    ],
+    "nl": [
+      "Maanvissen",
+      "d"
     ]
   },
   "driftwood": {
     "fr": [
       "Bois flotté",
       "m"
+    ],
+    "nl": [
+      "Drijfhout",
+      "h"
     ]
   },
   "alarm-clock": {
@@ -11364,6 +12640,10 @@
     "fr": [
       "Cheminées",
       "f"
+    ],
+    "nl": [
+      "Open haarden",
+      "d"
     ]
   },
   "television": {
@@ -11382,17 +12662,33 @@
     "fr": [
       "Éviers",
       "m"
+    ],
+    "nl": [
+      "Gootstenen",
+      "d"
     ]
   },
   "liberty": {
     "fr": [
       "Libertés",
       "f"
+    ],
+    "it": [
+      "Libertà",
+      "f"
+    ],
+    "nl": [
+      "Vrijheid",
+      "d"
     ]
   },
   "toaster": {
     "fr": [
       "Grille-pain",
+      "m"
+    ],
+    "it": [
+      "Tostapane",
       "m"
     ]
   },
@@ -11404,12 +12700,28 @@
     "es": [
       "Peces globo",
       "m"
+    ],
+    "it": [
+      "Pesci palla",
+      "m"
+    ],
+    "nl": [
+      "Kogelvissen",
+      "d"
     ]
   },
   "cross": {
     "fr": [
       "Croix",
       "f"
+    ],
+    "it": [
+      "Croci",
+      "f"
+    ],
+    "nl": [
+      "Kruisen",
+      "h"
     ]
   },
   "cards": {
@@ -11424,11 +12736,19 @@
     "pt": [
       "Cartas",
       "f"
+    ],
+    "nl": [
+      "Kaarten",
+      "d"
     ]
   },
   "ufo": {
     "fr": [
       "OVNIs",
+      "m"
+    ],
+    "it": [
+      "UFO",
       "m"
     ]
   },
@@ -11440,18 +12760,38 @@
     "es": [
       "Uvas",
       "f"
+    ],
+    "it": [
+      "Uva",
+      "f"
+    ],
+    "nl": [
+      "Druiven",
+      "d"
     ]
   },
   "vegetables": {
     "fr": [
       "Légumes",
       "m"
+    ],
+    "it": [
+      "Verdure",
+      "f"
+    ],
+    "nl": [
+      "Groenten",
+      "d"
     ]
   },
   "gopher": {
     "fr": [
       "Spermophiles",
       "m"
+    ],
+    "nl": [
+      "Grondeekhoorns",
+      "d"
     ]
   },
   "centipede": {
@@ -11472,11 +12812,19 @@
     "es": [
       "Mapas",
       "m"
+    ],
+    "nl": [
+      "Mappen",
+      "d"
     ]
   },
   "salt": {
     "fr": [
       "Sel",
+      "m"
+    ],
+    "it": [
+      "Sale",
       "m"
     ]
   },
@@ -11490,6 +12838,10 @@
     "fr": [
       "Papiers toilette",
       "m"
+    ],
+    "nl": [
+      "Toiletpapier",
+      "h"
     ]
   },
   "artist": {
@@ -11500,18 +12852,34 @@
     "pt": [
       "Artistas",
       "m"
+    ],
+    "it": [
+      "Artisti",
+      "m"
     ]
   },
   "earmuffs": {
     "es": [
       "Orejeras",
       "f"
+    ],
+    "nl": [
+      "Oorwarmers",
+      "d"
     ]
   },
   "net": {
     "es": [
       "Redes",
       "f"
+    ],
+    "it": [
+      "Reti",
+      "f"
+    ],
+    "nl": [
+      "Netten",
+      "h"
     ]
   },
   "lifeguard-tower": {
@@ -11530,6 +12898,10 @@
     "es": [
       "Chefs",
       "m"
+    ],
+    "nl": [
+      "Chef-koks",
+      "d"
     ]
   },
   "folder": {
@@ -11554,6 +12926,14 @@
     "es": [
       "Garajes",
       "m"
+    ],
+    "it": [
+      "Garage",
+      "m"
+    ],
+    "nl": [
+      "Garages",
+      "d"
     ]
   },
   "cherry-blossom": {
@@ -11570,6 +12950,10 @@
     "pt": [
       "Motoristas de ônibus",
       "m"
+    ],
+    "nl": [
+      "Buschauffeurs",
+      "d"
     ]
   },
   "wrench": {
@@ -11579,6 +12963,10 @@
     ],
     "es": [
       "Llaves inglesas",
+      "f"
+    ],
+    "it": [
+      "Chiavi inglesi",
       "f"
     ]
   },
@@ -11592,12 +12980,20 @@
     "pt": [
       "Botões-de-ouro",
       "m"
+    ],
+    "nl": [
+      "Boterbloemen",
+      "d"
     ]
   },
   "bow-tie": {
     "pt": [
       "Gravatas-borboleta",
       "f"
+    ],
+    "nl": [
+      "Vlinderdassen",
+      "d"
     ]
   },
   "banyan-tree": {
@@ -11616,6 +13012,774 @@
     "fr": [
       "Pégases",
       "m"
+    ],
+    "nl": [
+      "Pegasussen",
+      "d"
+    ]
+  },
+  "picture-frame": {
+    "it": [
+      "Cornici",
+      "f"
+    ]
+  },
+  "pyramid": {
+    "it": [
+      "Piramidi",
+      "f"
+    ]
+  },
+  "swallow": {
+    "it": [
+      "Rondini",
+      "f"
+    ]
+  },
+  "pipe-wrench": {
+    "it": [
+      "Chiavi per tubi",
+      "f"
+    ]
+  },
+  "overalls": {
+    "it": [
+      "Salopette",
+      "f"
+    ]
+  },
+  "pallavolo": {
+    "it": [
+      "Pallavolo",
+      "f"
+    ]
+  },
+  "volleyball": {
+    "it": [
+      "Pallavolo",
+      "f"
+    ]
+  },
+  "walnut-tree": {
+    "it": [
+      "Noci",
+      "f"
+    ],
+    "nl": [
+      "Walnootbomen",
+      "d"
+    ]
+  },
+  "crane": {
+    "it": [
+      "Gru",
+      "f"
+    ]
+  },
+  "ironing-board": {
+    "it": [
+      "Assi da stiro",
+      "f"
+    ]
+  },
+  "musician": {
+    "it": [
+      "Musicisti",
+      "m"
+    ]
+  },
+  "pharmacist": {
+    "it": [
+      "Farmacisti",
+      "m"
+    ]
+  },
+  "truck-driver": {
+    "it": [
+      "Camionisti",
+      "m"
+    ],
+    "nl": [
+      "Vrachtwagenchauffeurs",
+      "d"
+    ]
+  },
+  "parallelogram": {
+    "it": [
+      "Parallelogrammi",
+      "m"
+    ]
+  },
+  "handsaw": {
+    "it": [
+      "Seghe a mano",
+      "f"
+    ]
+  },
+  "sailboat": {
+    "it": [
+      "Barche a vela",
+      "f"
+    ]
+  },
+  "spirit-level": {
+    "it": [
+      "Livelle a bolla",
+      "f"
+    ]
+  },
+  "tape-measure": {
+    "it": [
+      "Metri a nastro",
+      "m"
+    ]
+  },
+  "windmill": {
+    "it": [
+      "Mulini a vento",
+      "m"
+    ]
+  },
+  "love-note": {
+    "it": [
+      "Biglietti d'amore",
+      "m"
+    ]
+  },
+  "lego": {
+    "it": [
+      "Lego",
+      "m"
+    ]
+  },
+  "shampoo": {
+    "it": [
+      "Shampoo",
+      "m"
+    ]
+  },
+  "taco": {
+    "it": [
+      "Taco",
+      "m"
+    ]
+  },
+  "domino": {
+    "it": [
+      "Domino",
+      "m"
+    ]
+  },
+  "lawn-mower": {
+    "it": [
+      "Tosaerba",
+      "f"
+    ]
+  },
+  "lunchbox": {
+    "it": [
+      "Portapranzo",
+      "m"
+    ]
+  },
+  "vacuum-cleaner": {
+    "it": [
+      "Aspirapolvere",
+      "m"
+    ]
+  },
+  "peeler": {
+    "it": [
+      "Pelapatate",
+      "m"
+    ]
+  },
+  "lollipop": {
+    "it": [
+      "Lecca-lecca",
+      "f"
+    ]
+  },
+  "race-car": {
+    "it": [
+      "Auto da corsa",
+      "f"
+    ]
+  },
+  "pliers": {
+    "it": [
+      "Pinze",
+      "f"
+    ]
+  },
+  "tongs": {
+    "it": [
+      "Pinze",
+      "f"
+    ]
+  },
+  "stairs": {
+    "it": [
+      "Scale",
+      "f"
+    ],
+    "nl": [
+      "Trappen",
+      "d"
+    ]
+  },
+  "underpants": {
+    "it": [
+      "Mutande",
+      "f"
+    ]
+  },
+  "pruning-shears": {
+    "it": [
+      "Cesoie",
+      "f"
+    ],
+    "nl": [
+      "Snoeischaren",
+      "d"
+    ]
+  },
+  "uncle-sam": {
+    "it": [
+      "Zii Sam",
+      "m"
+    ],
+    "nl": [
+      "Oom Sam",
+      "d"
+    ]
+  },
+  "swordfish": {
+    "it": [
+      "Pesci spada",
+      "m"
+    ],
+    "nl": [
+      "Zwaardvissen",
+      "d"
+    ]
+  },
+  "santa": {
+    "it": [
+      "Babbi Natale",
+      "m"
+    ],
+    "nl": [
+      "Kerstmannen",
+      "d"
+    ]
+  },
+  "santa-claus": {
+    "it": [
+      "Babbi Natale",
+      "m"
+    ],
+    "nl": [
+      "Kerstmannen",
+      "d"
+    ]
+  },
+  "santa-hat": {
+    "it": [
+      "Cappelli di Babbo Natale",
+      "m"
+    ]
+  },
+  "microwave": {
+    "it": [
+      "Microonde",
+      "m"
+    ]
+  },
+  "heart-monitor": {
+    "it": [
+      "Monitor cardiaci",
+      "m"
+    ]
+  },
+  "hair-tie": {
+    "it": [
+      "Elastici per capelli",
+      "m"
+    ]
+  },
+  "mechanic": {
+    "it": [
+      "Meccanici",
+      "m"
+    ]
+  },
+  "paramedic": {
+    "it": [
+      "Paramedici",
+      "m"
+    ]
+  },
+  "skeptical": {
+    "it": [
+      "Scettico",
+      "m"
+    ]
+  },
+  "pink": {
+    "it": [
+      "Rosa",
+      "f"
+    ]
+  },
+  "animal": {
+    "nl": [
+      "Dieren",
+      "h"
+    ]
+  },
+  "paper": {
+    "nl": [
+      "Papier",
+      "h"
+    ]
+  },
+  "toy": {
+    "nl": [
+      "Speelgoed",
+      "h"
+    ]
+  },
+  "head": {
+    "nl": [
+      "Hoofden",
+      "h"
+    ]
+  },
+  "package": {
+    "nl": [
+      "Pakketten",
+      "h"
+    ]
+  },
+  "perfume": {
+    "nl": [
+      "Parfums",
+      "h"
+    ]
+  },
+  "swimming-pool": {
+    "nl": [
+      "Zwembaden",
+      "h"
+    ]
+  },
+  "toolbox": {
+    "nl": [
+      "Gereedschapskisten",
+      "h"
+    ]
+  },
+  "science": {
+    "nl": [
+      "Wetenschap",
+      "h"
+    ]
+  },
+  "crayons": {
+    "nl": [
+      "Kleurpotloden",
+      "d"
+    ]
+  },
+  "cymbals": {
+    "nl": [
+      "Bekkens",
+      "h"
+    ]
+  },
+  "dice": {
+    "nl": [
+      "Dobbelstenen",
+      "d"
+    ]
+  },
+  "pretzels": {
+    "nl": [
+      "Pretzels",
+      "d"
+    ]
+  },
+  "ice-skates": {
+    "nl": [
+      "Schaatsen",
+      "d"
+    ]
+  },
+  "fried-chicken": {
+    "nl": [
+      "Gefrituurde kippen",
+      "d"
+    ]
+  },
+  "farmer": {
+    "nl": [
+      "Boeren",
+      "d"
+    ]
+  },
+  "heel": {
+    "nl": [
+      "Hielen",
+      "d"
+    ]
+  },
+  "lake": {
+    "nl": [
+      "Meren",
+      "h"
+    ]
+  },
+  "glove": {
+    "nl": [
+      "Handschoenen",
+      "d"
+    ]
+  },
+  "luipaard": {
+    "nl": [
+      "Luipaarden",
+      "d"
+    ]
+  },
+  "squash": {
+    "nl": [
+      "Pompoenen",
+      "d"
+    ]
+  },
+  "carpenter": {
+    "nl": [
+      "Timmermannen",
+      "d"
+    ]
+  },
+  "firefighter": {
+    "nl": [
+      "Brandweermannen",
+      "d"
+    ]
+  },
+  "sanitation-worker": {
+    "nl": [
+      "Vuilnismannen",
+      "d"
+    ]
+  },
+  "gardener": {
+    "nl": [
+      "Tuinmannen",
+      "d"
+    ]
+  },
+  "snowman": {
+    "nl": [
+      "Sneeuwpoppen",
+      "d"
+    ]
+  },
+  "jar": {
+    "nl": [
+      "Potten",
+      "d"
+    ]
+  },
+  "comb": {
+    "nl": [
+      "Kammen",
+      "d"
+    ]
+  },
+  "badger": {
+    "nl": [
+      "Dassen",
+      "d"
+    ]
+  },
+  "handbag": {
+    "nl": [
+      "Handtassen",
+      "d"
+    ]
+  },
+  "shopping-bag": {
+    "nl": [
+      "Boodschappentassen",
+      "d"
+    ]
+  },
+  "beach-bag": {
+    "nl": [
+      "Strandtassen",
+      "d"
+    ]
+  },
+  "tote-bag": {
+    "nl": [
+      "Draagtassen",
+      "d"
+    ]
+  },
+  "necktie": {
+    "nl": [
+      "Stropdassen",
+      "d"
+    ]
+  },
+  "bow": {
+    "nl": [
+      "Strikken",
+      "d"
+    ]
+  },
+  "mosquito": {
+    "nl": [
+      "Muggen",
+      "d"
+    ]
+  },
+  "sock": {
+    "nl": [
+      "Sokken",
+      "d"
+    ]
+  },
+  "slug": {
+    "nl": [
+      "Naaktslakken",
+      "d"
+    ]
+  },
+  "step": {
+    "nl": [
+      "Stappen",
+      "d"
+    ]
+  },
+  "sleigh": {
+    "nl": [
+      "Sleeën",
+      "d"
+    ]
+  },
+  "baby-bottle": {
+    "nl": [
+      "Babyflessen",
+      "d"
+    ]
+  },
+  "paintbrush": {
+    "nl": [
+      "Penselen",
+      "d"
+    ]
+  },
+  "chimney": {
+    "nl": [
+      "Schoorstenen",
+      "d"
+    ]
+  },
+  "cornflower": {
+    "nl": [
+      "Korenbloemen",
+      "d"
+    ]
+  },
+  "marigold": {
+    "nl": [
+      "Goudsbloemen",
+      "d"
+    ]
+  },
+  "phlox": {
+    "nl": [
+      "Vlambloemen",
+      "d"
+    ]
+  },
+  "orchard": {
+    "nl": [
+      "Boomgaarden",
+      "d"
+    ]
+  },
+  "mailbox": {
+    "nl": [
+      "Brievenbussen",
+      "d"
+    ]
+  },
+  "paint": {
+    "nl": [
+      "Verf",
+      "d"
+    ]
+  },
+  "librarian": {
+    "nl": [
+      "Bibliothecarissen",
+      "d"
+    ]
+  },
+  "canon": {
+    "nl": [
+      "Kanonnen",
+      "h"
+    ]
+  },
+  "soccer-ball": {
+    "nl": [
+      "Voetballen",
+      "d"
+    ]
+  },
+  "beach-ball": {
+    "nl": [
+      "Strandballen",
+      "d"
+    ]
+  },
+  "sphere": {
+    "nl": [
+      "Bollen",
+      "d"
+    ]
+  },
+  "freedom": {
+    "nl": [
+      "Vrijheden",
+      "d"
+    ]
+  },
+  "rudolph": {
+    "nl": [
+      "Rudolph",
+      "d"
+    ]
+  },
+  "open-haard": {
+    "nl": [
+      "Open haarden",
+      "d"
+    ]
+  },
+  "scooter": {
+    "nl": [
+      "Steppen",
+      "d"
+    ]
+  },
+  "forest": {
+    "nl": [
+      "Bossen",
+      "h"
+    ]
+  },
+  "trombone": {
+    "nl": [
+      "Trombones",
+      "d"
+    ]
+  },
+  "trophy": {
+    "nl": [
+      "Trofeeën",
+      "d"
+    ]
+  },
+  "cactus": {
+    "nl": [
+      "Cactussen",
+      "d"
+    ]
+  },
+  "argentinosaurus": {
+    "nl": [
+      "Argentinosaurussen",
+      "d"
+    ]
+  },
+  "dimetrodon": {
+    "nl": [
+      "Dimetrodonten",
+      "d"
+    ]
+  },
+  "diplodocus": {
+    "nl": [
+      "Diplodocussen",
+      "d"
+    ]
+  },
+  "parasaurolophus": {
+    "nl": [
+      "Parasaurolophussen",
+      "d"
+    ]
+  },
+  "trumpet": {
+    "nl": [
+      "Trompetten",
+      "d"
+    ]
+  },
+  "violin": {
+    "nl": [
+      "Violen",
+      "d"
+    ]
+  },
+  "hose": {
+    "nl": [
+      "Slangen",
+      "d"
+    ]
+  },
+  "neck": {
+    "nl": [
+      "Nekken",
+      "d"
+    ]
+  },
+  "double-ended-wrench": {
+    "it": [
+      "Chiavi a doppia estremità",
+      "f"
+    ]
+  },
+  "ventilator": {
+    "nl": [
+      "Ventilatoren",
+      "d"
+    ]
+  },
+  "instrument": {
+    "nl": [
+      "Instrumenten",
+      "h"
+    ]
+  },
+  "pentagon": {
+    "nl": [
+      "Vijfhoeken",
+      "h"
+    ]
+  },
+  "octagon": {
+    "nl": [
+      "Achthoeken",
+      "h"
     ]
   }
 }

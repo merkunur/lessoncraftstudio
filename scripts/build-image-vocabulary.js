@@ -620,24 +620,29 @@ function pluralizePt(word) {
 // ITALIAN PLURALIZATION + GENDER
 // ============================================================
 const IT_PREPOSITIONS = new Set([
-  'di','del','della','dello','dei','delle','degli',
+  'a','di','del','della','dello','dei','delle','degli',
   'da','dal','dalla','dallo','con','in','nel','nella',
-  'nello','per','al','alla','allo',
+  'nello','per','al','alla','allo','su','sul','sulla','sullo',
 ]);
 
 function genderIt(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
+  // Strong feminine patterns
   if (lower.endsWith('zione') || lower.endsWith('sione') || lower.endsWith('ezza') ||
       lower.endsWith('anza') || lower.endsWith('enza') || lower.endsWith('ina') ||
       lower.endsWith('etta') || lower.endsWith('essa') || lower.endsWith('trice') ||
-      lower.endsWith('tà') || lower.endsWith('tù') || lower.endsWith('ura')) {
+      lower.endsWith('tà') || lower.endsWith('tù') || lower.endsWith('ura') ||
+      lower.endsWith('iglie') || lower.endsWith('udine')) {
     return 'f';
   }
+  // -a words: feminine EXCEPT Greek/Latin masculine patterns
   if (lower.endsWith('a') && !lower.endsWith('ista') && !lower.endsWith('ema') &&
-      !lower.endsWith('oma') && !lower.endsWith('ama')) {
+      !lower.endsWith('oma') && !lower.endsWith('ama') && !lower.endsWith('asma') &&
+      !lower.endsWith('auta') && !lower.endsWith('amma')) {
     return 'f';
   }
+  // Strong masculine patterns
   if (lower.endsWith('o') || lower.endsWith('ore') || lower.endsWith('one') ||
       lower.endsWith('iere') || lower.endsWith('ente') || lower.endsWith('ismo') ||
       lower.endsWith('amento') || lower.endsWith('mento')) {
@@ -658,10 +663,19 @@ function pluralizeItSingle(word) {
   if (lower.endsWith('ga')) return word.slice(0, -2) + 'ghe';
   // -cia, -gia → -ce, -ge (unstressed i drops)
   if (lower.endsWith('cia') || lower.endsWith('gia')) return word.slice(0, -2) + 'e';
-  // -a → -e (feminine)
+  // Greek/Latin masculine -a words → -i plural
+  if (lower.endsWith('ista')) return word.slice(0, -1) + 'i';
+  if (lower.endsWith('auta')) return word.slice(0, -1) + 'i';
+  if (lower.endsWith('asma')) return word.slice(0, -1) + 'i';
+  if (lower.endsWith('amma')) return word.slice(0, -1) + 'i';
+  if (lower.endsWith('ema')) return word.slice(0, -1) + 'i';
+  // -a → -e (regular feminine)
   if (lower.endsWith('a')) return word.slice(0, -1) + 'e';
-  // -co → -chi, -go → -ghi (hard c/g preserved)
+  // -ico → -ici (NOT -ichi; classico→classici, medico→medici)
+  if (lower.endsWith('ico')) return word.slice(0, -2) + 'ci';
+  // -co → -chi (other: cuoco→cuochi, arco→archi)
   if (lower.endsWith('co')) return word.slice(0, -2) + 'chi';
+  // -go → -ghi
   if (lower.endsWith('go')) return word.slice(0, -2) + 'ghi';
   // -io → -i
   if (lower.endsWith('io')) return word.slice(0, -2) + 'i';
@@ -712,18 +726,14 @@ function pluralizeNlSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
 
-  // Diminutives (-je): add -s
+  // Diminutives (-je/-tje/-pje/-kje): add -s
   if (lower.endsWith('je')) return word + 's';
-  // Unstressed endings: add -s
-  if (lower.endsWith('el') || lower.endsWith('em') || lower.endsWith('en') ||
-      lower.endsWith('er') || lower.endsWith('erd') || lower.endsWith('aar') ||
-      lower.endsWith('aard') || lower.endsWith('ie') || lower.endsWith('ier')) {
-    return word + 's';
-  }
   // -a, -i, -o, -u, -y: add -'s
   if (/[aiouy]$/.test(lower)) return word + "'s";
   // -e: add -n
   if (lower.endsWith('e')) return word + 'n';
+
+  // === VOWEL RULES (must come BEFORE -el/-er/-en/-em check) ===
 
   // Double vowel + f → single vowel + v + en (voicing + shortening)
   const dblVF = lower.match(/^(.*)([aeiou])\2f$/);
@@ -735,19 +745,64 @@ function pluralizeNlSingle(word) {
   if (dblVS) {
     return word.slice(0, dblVS[1].length) + word[dblVS[1].length] + 'zen';
   }
-  // Double vowel + consonant → single vowel + consonant + en (shortening)
+  // Double vowel + single consonant → single vowel + consonant + en
   const dblV = lower.match(/^(.*)([aeiou])\2([bcdfghjklmnpqrtvwxz])$/);
   if (dblV) {
     return word.slice(0, dblV[1].length) + word[dblV[1].length] + word[word.length - 1] + 'en';
   }
 
-  // Diphthong + s → diphthong + zen (huis→huizen)
-  if (/(?:ui|ei|ij|ou|au)s$/.test(lower)) {
+  // Diphthong + s → zen (huis→huizen, vlies→vliezen)
+  if (/(?:ie|oe|ui|ei|ij|ou|au)s$/.test(lower)) {
     return word.slice(0, -1) + 'zen';
   }
-  // Diphthong + f → diphthong + ven (brief→brieven)
+  // Diphthong + f → ven (brief→brieven)
   if (/(?:ie|oe|eu|ui|ei|ij|ou|au)f$/.test(lower)) {
     return word.slice(0, -1) + 'ven';
+  }
+  // Diphthong + other consonant → +en (stoel→stoelen, bloem→bloemen, dier→dieren)
+  if (/(?:ie|oe|eu|ui|ei|ij|ou|au)[bcddghjklmnpqrtvwxz]$/.test(lower)) {
+    return word + 'en';
+  }
+
+  // -lf → -lven (wolf→wolven, elf→elven, golf→golven, kalf→kalven)
+  if (lower.endsWith('lf')) {
+    return word.slice(0, -1) + 'ven';
+  }
+
+  // === UNSTRESSED ENDINGS → -s (multi-syllable words) ===
+  if (lower.endsWith('erd') || lower.endsWith('ier') || lower.endsWith('ie')) {
+    return word + 's';
+  }
+  if (lower.endsWith('el') || lower.endsWith('em') || lower.endsWith('en') ||
+      lower.endsWith('er') || lower.endsWith('aar')) {
+    return word + 's';
+  }
+
+  // Multi-syllable words ending in -or: +en without doubling
+  // (ventilator→ventilatoren, motor→motoren, tractor→tractoren)
+  if (lower.endsWith('or') && lower.length >= 5) {
+    return word + 'en';
+  }
+
+  // === CONSONANT DOUBLING for short vowels ===
+  // Single vowel (not diphthong) + single final consonant → double + en
+  if (lower.length >= 3) {
+    const last = lower[lower.length - 1];
+    const prev = lower[lower.length - 2];
+    const prevprev = lower[lower.length - 3];
+    if (/[bcdfghjklmnpqrstvwxz]/.test(last) &&
+        /[aeiou]/.test(prev) &&
+        /[^aeiou]/.test(prevprev)) {
+      return word + word[word.length - 1] + 'en';
+    }
+  }
+  // 2-letter words: short vowel + consonant
+  if (lower.length === 2) {
+    const last = lower[lower.length - 1];
+    const prev = lower[lower.length - 2];
+    if (/[bcdfghjklmnpqrstvwxz]/.test(last) && /[aeiou]/.test(prev)) {
+      return word + word[word.length - 1] + 'en';
+    }
   }
 
   // Default: add -en

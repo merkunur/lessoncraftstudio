@@ -193,9 +193,32 @@ const DE_UMLAUT_PLURALS = {
   'Kürbis': 'Kürbisse',
 };
 
+// Compound ending → gender (checked before suffix rules)
+const DE_COMPOUND_GENDERS = {
+  'baum': 'm', 'haus': 'n', 'stuhl': 'm', 'schrank': 'm', 'zug': 'm',
+  'ball': 'm', 'hut': 'm', 'turm': 'm', 'topf': 'm', 'korb': 'm',
+  'uhr': 'f', 'band': 'n', 'blech': 'n', 'tuch': 'n', 'buch': 'n',
+  'bett': 'n', 'eck': 'n', 'boot': 'n', 'rad': 'n', 'brett': 'n',
+  'feld': 'n', 'glas': 'n', 'hemd': 'n', 'tier': 'n', 'pferd': 'n',
+  'schiff': 'n', 'zeug': 'n', 'spiel': 'n', 'kleid': 'n',
+  'auto': 'n', 'feuer': 'n', 'wagen': 'm', 'messer': 'n',
+  'kugel': 'f', 'tasche': 'f', 'kette': 'f', 'tasse': 'f',
+  'matte': 'f', 'kanne': 'f', 'flasche': 'f', 'brille': 'f',
+  'weste': 'f', 'hose': 'f', 'jacke': 'f', 'mütze': 'f',
+  'lampe': 'f', 'maschine': 'f',
+};
+
 function genderDe(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
+
+  // Check compound endings first (e.g., Apfelbaum → m, Badewanne → f)
+  for (const [ending, gender] of Object.entries(DE_COMPOUND_GENDERS)) {
+    if (lower.endsWith(ending) && lower.length > ending.length) {
+      return gender;
+    }
+  }
+
   // Feminine suffixes
   if (lower.endsWith('ung') || lower.endsWith('heit') || lower.endsWith('keit') ||
       lower.endsWith('schaft') || lower.endsWith('tion') || lower.endsWith('sion') ||
@@ -235,10 +258,40 @@ function genderDe(word) {
   return 'm';
 }
 
+// Compound endings that get umlaut plurals (checked before general rules)
+const DE_COMPOUND_UMLAUTS = {
+  'baum': 'bäume',   // der Baum → Bäume (masculine)
+  'haus': 'häuser',  // das Haus → Häuser (neuter)
+  'stuhl': 'stühle', // der Stuhl → Stühle (masculine)
+  'schrank': 'schränke', // der Schrank → Schränke (masculine)
+  'zug': 'züge',     // der Zug → Züge (masculine)
+  'ball': 'bälle',   // der Ball → Bälle (masculine)
+  'hut': 'hüte',     // der Hut → Hüte (masculine)
+  'turm': 'türme',   // der Turm → Türme (masculine)
+  'topf': 'töpfe',   // der Topf → Töpfe (masculine)
+  'korb': 'körbe',   // der Korb → Körbe (masculine)
+  'stock': 'stöcke', // der Stock → Stöcke (masculine)
+  'kopf': 'köpfe',   // der Kopf → Köpfe (masculine)
+  'platz': 'plätze', // der Platz → Plätze (masculine)
+  'arzt': 'ärzte',   // der Arzt → Ärzte (masculine)
+  'hals': 'hälse',   // der Hals → Hälse (masculine)
+  // Non-umlaut compound endings (same mechanism, just suffix replacement)
+  'band': 'bänder',  // das Band → Bänder (neuter)
+  'tuch': 'tücher',  // das Tuch → Tücher (neuter)
+  'uhr': 'uhren',    // die Uhr → Uhren (feminine)
+  'schloss': 'schlösser', // das Schloss → Schlösser (neuter)
+  'sack': 'säcke',   // der Sack → Säcke (masculine)
+};
+
+// Weak masculine nouns that take -en (not -e)
+const DE_WEAK_ENDINGS = new Set([
+  'ant','at','ent','ist','oge','oph','graph','graf','nom','soph',
+]);
+
 function pluralizeDeSingle(word) {
   if (!word) return word;
 
-  // Check umlaut dictionary first
+  // Check umlaut dictionary first (exact matches)
   if (DE_UMLAUT_PLURALS[word]) return DE_UMLAUT_PLURALS[word];
 
   // -mann compounds → -männer
@@ -246,11 +299,19 @@ function pluralizeDeSingle(word) {
 
   const lower = word.toLowerCase();
 
+  // Check compound umlaut endings (e.g., Apfelbaum → Apfelbäume)
+  for (const [ending, plural] of Object.entries(DE_COMPOUND_UMLAUTS)) {
+    if (lower.endsWith(ending) && lower.length > ending.length) {
+      return word.slice(0, -ending.length) + plural;
+    }
+  }
+
   // Diminutives: unchanged
   if (lower.endsWith('chen') || lower.endsWith('lein')) return word;
   // -e ending: add -n
   if (lower.endsWith('e') && !lower.endsWith('ee')) return word + 'n';
-  // -el: usually unchanged
+  // -el: usually unchanged (der Deckel, der Engel, der Würfel)
+  // Feminine -el words that take -n (Bibel, Insel, etc.) handled by corrections
   if (lower.endsWith('el')) return word;
   // -er: usually unchanged
   if (lower.endsWith('er')) return word;
@@ -265,10 +326,22 @@ function pluralizeDeSingle(word) {
   if (lower.endsWith('nis')) return word + 'se';
   // -ment: add -e
   if (lower.endsWith('ment')) return word + 'e';
-  // -us → -en (Kaktus→Kakteen, Globus→Globen)
-  if (lower.endsWith('us')) return word.slice(0, -2) + 'en';
-  // -um → -en (Museum→Museen)
-  if (lower.endsWith('um')) return word.slice(0, -2) + 'en';
+  // Weak masculine nouns: -ent, -ant, -at, -ist, -oge, etc. → add -en
+  for (const ending of DE_WEAK_ENDINGS) {
+    if (lower.endsWith(ending) && lower.length > ending.length + 1) {
+      return word + 'en';
+    }
+  }
+  // -us → -en (Kaktus→Kakteen, Globus→Globen) but NOT -bus (Bus→Busse)
+  if (lower.endsWith('us') && !lower.endsWith('bus')) {
+    return word.slice(0, -2) + 'en';
+  }
+  // -bus → -busse
+  if (lower.endsWith('bus')) return word + 'se';
+  // -um → -en (Museum→Museen) but NOT -baum (handled above), -raum
+  if (lower.endsWith('um') && !lower.endsWith('aum')) {
+    return word.slice(0, -2) + 'en';
+  }
   // Foreign words ending in -a, -o, -i: add -s
   if (lower.endsWith('a') || lower.endsWith('o') || lower.endsWith('i')) return word + 's';
   // -ling: add -e

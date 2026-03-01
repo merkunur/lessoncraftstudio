@@ -1286,8 +1286,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition': {
     slug: 'code-addition',
     productId: 'codeaddition-fe',
-    checkoutUrl: '',
-    wpButtonImg: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/qk5spy/jxc7y0',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/qk5spy/459127',
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
@@ -1611,8 +1611,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition-wordreveal': {
     slug: 'code-addition-wordreveal',
     productId: 'codeaddition-oto1-wordreveal',
-    checkoutUrl: '',
-    wpButtonImg: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/tdgbpq/q28kfn',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/tdgbpq/459128',
     freeAppUrl: '',
     isOto: true,
 
@@ -1721,8 +1721,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition-library': {
     slug: 'code-addition-library',
     productId: 'codeaddition-oto2-library',
-    checkoutUrl: '',
-    wpButtonImg: '',
+    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/p4bkd6/lkrppq',
+    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/p4bkd6/459129',
     freeAppUrl: '',
     isOto: true,
 

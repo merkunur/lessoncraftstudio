@@ -463,6 +463,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   // FE ($27): Code Addition Studio Pro — Regular mode, 10 themes, all 11 languages
   'codeaddition-fe': {
     id: 'codeaddition-fe',
+    wplusProductId: 'wso_jxc7y0',
     name: 'Code Addition Studio Pro',
     description: 'Professional code breaker addition worksheet creation studio. Regular mode, 10 image themes, all 11 languages, canvas editor, PDF export. Full commercial rights included.',
     price: 27,
@@ -476,7 +477,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
       'Canvas editor (move, resize, rotate, layers)',
       'All 11 languages included',
       'PDF + JPEG export',
-      'Watermark-free output',
+      'Unlimited worksheet generation',
       'Full commercial/POD/resale rights',
     ],
     imageCount: 300,
@@ -490,6 +491,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   // OTO1 ($37): Word Reveal Mode — unlock the Word Reveal feature
   'codeaddition-oto1-wordreveal': {
     id: 'codeaddition-oto1-wordreveal',
+    wplusProductId: 'wso_q28kfn',
     name: 'Word Reveal Mode',
     description: 'Unlock the Word Reveal mode. Each exercise answer reveals a letter of a secret word. Creates engaging puzzle worksheets that combine math with literacy.',
     price: 37,
@@ -513,6 +515,7 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
   // OTO2 ($37): Complete Image Library — unlock all 104 themes (3,125 images)
   'codeaddition-oto2-library': {
     id: 'codeaddition-oto2-library',
+    wplusProductId: 'wso_lkrppq',
     name: 'Complete Image Library',
     description: 'Unlock all 104 image themes with 3,125 professionally curated PNG images. Create code addition worksheets for any niche.',
     price: 37,

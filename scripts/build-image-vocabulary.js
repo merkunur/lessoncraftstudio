@@ -833,13 +833,33 @@ const SV_ETT_WORDS = new Set([
   'ägg','brev','paket','kuvert','ark','papper','liv','tält','kök',
   'hjul','ankare','pussel','instrument','redskap','verktyg','smycke',
   'segel','fordon','gevär','badkar','lejon','piano','foto','zoo',
+  // Added: common ett-words and compound heads
+  'skåp','hotell','kex','bi','smör','gräs','märke','bälte','bandage',
+  'dragspel','ekollon','vatten','vin','öl','kaffe','te','socker','salt',
+  'guld','silver','järn','stål','trä','tyg','garn','vax','gift',
+  'lim','hav','regn','krig','fred','val','horn','fång','block',
+  'barn','djur','lamm','svin','marsvin','får','nöt','kreatur',
 ]);
+
+// Swedish ett-word suffixes for compound detection
+const SV_ETT_SUFFIXES = [
+  'träd','bord','bär','skåp','kort','plan','spel','ljus','band',
+  'bryn','hus','rum','golv','tak','tält','rep','nät','block',
+  'hjul','segel','horn','ben','land','berg','fält','verk','blad',
+  'barn','djur','svin','lamm','lock','ark','slag','skap',
+];
 
 function genderSv(word) {
   if (!word) return 'n';
   const lower = word.toLowerCase();
   if (SV_ETT_WORDS.has(lower)) return 't';
-  if (lower.endsWith('skap') || lower.endsWith('eri') || lower.endsWith('ande') ||
+  // Check if compound word ends with an ett-word suffix
+  if (lower.length > 4) {
+    for (const suf of SV_ETT_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) return 't';
+    }
+  }
+  if (lower.endsWith('eri') || lower.endsWith('ande') ||
       lower.endsWith('ende') || lower.endsWith('um') || lower.endsWith('ment')) {
     return 't';
   }
@@ -852,15 +872,29 @@ function pluralizeSvSingle(word) {
 
   // Ett-words are often unchanged in indefinite plural
   if (SV_ETT_WORDS.has(lower)) return word;
+  // Compound words with ett-word head: unchanged
+  if (lower.length > 4) {
+    for (const suf of SV_ETT_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) return word;
+    }
+  }
+
+  // MUST come before -e rule: -are/-ande/-ende are unchanged
+  if (lower.endsWith('are') || lower.endsWith('ande') || lower.endsWith('ende')) return word;
 
   // Class 1: -a → -or (flicka→flickor, lampa→lampor)
   if (lower.endsWith('a') && !lower.endsWith('ia')) return word.slice(0, -1) + 'or';
   // Class 4: -e → -ar (pojke→pojkar)
   if (lower.endsWith('e')) return word.slice(0, -1) + 'ar';
-  // Unchanged: -are, -ande, -ende (agent/participial nouns)
-  if (lower.endsWith('are') || lower.endsWith('ande') || lower.endsWith('ende')) return word;
-  // Unchanged: -el, -er, -en
-  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+
+  // -el → drop e, add -lar (ängel→änglar, cykel→cyklar, nyckel→nycklar)
+  if (lower.endsWith('el') && lower.length > 3) return word.slice(0, -2) + 'lar';
+  // -er → drop e, add -rar for some (vinter→vintrar, finger→fingrar)
+  // But many -er words are unchanged (hamster, tiger, etc.)
+  // Only transform if multi-syllable and not English loan
+  if (lower.endsWith('ter') && lower.length > 5 && !lower.match(/[bcdfghjklmnpqrstvwxz]{2}ter$/)) {
+    return word.slice(0, -2) + 'rar';
+  }
 
   // Class 3: -tion/-ion → -er
   if (lower.endsWith('tion') || lower.endsWith('ion')) return word + 'er';
@@ -882,6 +916,12 @@ function pluralizeSvSingle(word) {
   if (lower.endsWith('ek') || lower.endsWith('ik')) return word + 'er';
   // Class 3: -i → -ier
   if (lower.endsWith('i')) return word + 'er';
+  // Class 3: -ot → -oter
+  if (lower.endsWith('ot')) return word + 'er';
+  // Class 3: -at → -ater
+  if (lower.endsWith('at') && lower.length > 4) return word + 'er';
+  // Class 3: -it → -iter
+  if (lower.endsWith('it') && lower.length > 4) return word + 'er';
 
   // Default: -ar (Class 2, most common for consonant-ending en-words)
   return word + 'ar';
@@ -900,9 +940,29 @@ function pluralizeSv(word) {
 // ============================================================
 // DANISH PLURALIZATION + GENDER
 // ============================================================
+
+const DA_T_WORDS = new Set([
+  'hus','bord','barn','dyr','træ','æg','brød','smør','øl','vin',
+  'vand','hav','bjerg','land','lys','kort','spil','tog','skib',
+  'skab','ur','telt','rum','tag','gulv','brev','ben','glas',
+  'knæ','hjerte','øje','øre','bæger','klaver','museum','slot',
+  'hotel','kontor','møbel','køkken','tøj','ansigt','apparat',
+]);
+
+const DA_T_SUFFIXES = [
+  'træ','bord','hus','skab','rum','tag','lys','ben','dyr','barn',
+  'kort','spil','land','bjerg','telt','bæger','gulv','brev',
+];
+
 function genderDa(word) {
   if (!word) return 'n';
   const lower = word.toLowerCase();
+  if (DA_T_WORDS.has(lower)) return 't';
+  if (lower.length > 4) {
+    for (const suf of DA_T_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) return 't';
+    }
+  }
   if (lower.endsWith('skab') || lower.endsWith('eri') || lower.endsWith('ment') ||
       lower.endsWith('um') || lower.endsWith('ium')) {
     return 't';
@@ -913,11 +973,54 @@ function genderDa(word) {
 function pluralizeDaSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
+
+  // Neuter (t-words): add -e or stay unchanged
+  const DA_T_UNCHANGED = ['æg','dyr','brød','ben','glas','lys','tog','spil',
+    'ur','tag','gulv','brev','kort','telt','rum','smør','vand','øl','vin'];
+  if (DA_T_WORDS.has(lower)) {
+    if (DA_T_UNCHANGED.includes(lower)) return word;
+    // Vowel-ending t-words add -er (træ→træer)
+    if (/[aeiouyæøå]$/.test(lower)) return word + 'er';
+    return word + 'e';
+  }
+  // Compound t-words: check if suffix is in unchanged list
+  const DA_T_SUF_UNCHANGED = ['ben','dyr','lys','kort','spil','gulv','brev','tag','telt','rum'];
+  if (lower.length > 4) {
+    for (const suf of DA_T_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) {
+        if (DA_T_SUF_UNCHANGED.includes(suf)) return word;
+        if (/[aeiouyæøå]$/.test(suf)) return word + 'er';
+        return word + 'e';
+      }
+    }
+  }
+
+  // -e ending: add -r (lampe→lamper, drage→drager)
   if (lower.endsWith('e')) return word + 'r';
-  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+
+  // -el → -ler with double-consonant simplification
+  // gaffel→gafler (not gaffler), kartoffel→kartofler
+  if (lower.endsWith('el') && lower.length > 3) {
+    if (lower.length > 4 && lower[lower.length - 3] === lower[lower.length - 4]) {
+      return word.slice(0, -3) + 'ler';
+    }
+    return word.slice(0, -2) + 'ler';
+  }
+  // -er → -ere (forfatter→forfattere, computer→computere)
+  if (lower.endsWith('er') && lower.length > 4) return word + 'e';
+  // -en: add -e (skorsten→skorstene)
+  if (lower.endsWith('en') && lower.length > 3) return word + 'e';
+
+  // -tion → -tioner
   if (lower.endsWith('tion')) return word + 'er';
+  // -hed → -heder
   if (lower.endsWith('hed')) return word + 'er';
+  // -ning → -ninger
   if (lower.endsWith('ning')) return word + 'er';
+  // -ling → -linger
+  if (lower.endsWith('ling')) return word + 'er';
+
+  // Default: -er
   return word + 'er';
 }
 
@@ -934,14 +1037,34 @@ function pluralizeDa(word) {
 // ============================================================
 // NORWEGIAN PLURALIZATION + GENDER
 // ============================================================
+
+const NO_N_WORDS = new Set([
+  'hus','bord','barn','dyr','tre','egg','brød','smør','øl','vin',
+  'vann','hav','fjell','land','lys','kort','spill','tog','skip',
+  'skap','telt','rom','tak','gulv','brev','ben','glass',
+  'kne','hjerte','øye','øre','museum','slott','hotell','kontor',
+  'eple','møbel','kjøkken','ansikt',
+]);
+
+const NO_N_SUFFIXES = [
+  'tre','bord','hus','skap','rom','tak','lys','ben','dyr','barn',
+  'kort','spill','land','fjell','telt','gulv','brev',
+];
+
 function genderNo(word) {
   if (!word) return 'm';
   const lower = word.toLowerCase();
+  if (NO_N_WORDS.has(lower)) return 'n';
+  if (lower.length > 4) {
+    for (const suf of NO_N_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) return 'n';
+    }
+  }
   if (lower.endsWith('ing') || lower.endsWith('ung') || lower.endsWith('het') ||
       lower.endsWith('else') || lower.endsWith('inne')) {
     return 'f';
   }
-  if (lower.endsWith('skap') || lower.endsWith('eri') || lower.endsWith('ment') ||
+  if (lower.endsWith('eri') || lower.endsWith('ment') ||
       lower.endsWith('um') || lower.endsWith('ium')) {
     return 'n';
   }
@@ -951,11 +1074,42 @@ function genderNo(word) {
 function pluralizeNoSingle(word) {
   if (!word) return word;
   const lower = word.toLowerCase();
+
+  // Neuter (n-words): unchanged in indefinite plural (like Swedish)
+  if (NO_N_WORDS.has(lower)) return word;
+  // Compound n-words: unchanged
+  if (lower.length > 4) {
+    for (const suf of NO_N_SUFFIXES) {
+      if (lower.endsWith(suf) && lower.length > suf.length) return word;
+    }
+  }
+
+  // -e ending: add -r (lampe→lamper, gate→gater)
   if (lower.endsWith('e')) return word + 'r';
-  if (lower.endsWith('el') || lower.endsWith('er') || lower.endsWith('en')) return word;
+
+  // -el → -ler with double-consonant simplification
+  // sykkel→sykler (not sykkler), nøkkel→nøkler
+  if (lower.endsWith('el') && lower.length > 3) {
+    if (lower.length > 4 && lower[lower.length - 3] === lower[lower.length - 4]) {
+      return word.slice(0, -3) + 'ler';
+    }
+    return word.slice(0, -2) + 'ler';
+  }
+  // -er → -ere (forfatter→forfattere, baker→bakere)
+  if (lower.endsWith('er') && lower.length > 4) return word + 'e';
+  // -en: add -er
+  if (lower.endsWith('en') && lower.length > 3) return word + 'er';
+
+  // -tion/-sjon → add -er
   if (lower.endsWith('tion') || lower.endsWith('sjon')) return word + 'er';
+  // -het → -heter
   if (lower.endsWith('het')) return word + 'er';
+  // -ning → -ninger
   if (lower.endsWith('ning')) return word + 'er';
+  // -ling → -linger
+  if (lower.endsWith('ling')) return word + 'er';
+
+  // Default: -er
   return word + 'er';
 }
 

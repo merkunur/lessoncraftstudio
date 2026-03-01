@@ -213,7 +213,7 @@ export default function CodeAdditionSalesClient({ config, locale }: Props) {
                 <img src={CODE_ADDITION_SAMPLES.worksheet2} alt="Code breaker addition worksheet variation" loading="eager" />
               </div>
               <div className="ca-hero-stack-card ca-stack-mid">
-                <img src={CODE_ADDITION_SAMPLES.worksheet3} alt="Code breaker addition worksheet with images" loading="eager" />
+                <img src={CODE_ADDITION_SAMPLES.worksheet4} alt="Code breaker addition worksheet variation" loading="eager" />
               </div>
               <div className="ca-hero-stack-card ca-stack-front">
                 <img src={CODE_ADDITION_SAMPLES.worksheet1} alt="Code breaker addition worksheet" loading="eager" />

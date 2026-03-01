@@ -459,6 +459,80 @@ export const WPLUS_PRODUCTS: Record<string, WPlusProduct> = {
     includesCommercialRights: true,
   },
 
+  // --- Code Addition Funnel ---
+  // FE ($27): Code Addition Studio Pro — Regular mode, 10 themes, all 11 languages
+  'codeaddition-fe': {
+    id: 'codeaddition-fe',
+    name: 'Code Addition Studio Pro',
+    description: 'Professional code breaker addition worksheet creation studio. Regular mode, 10 image themes, all 11 languages, canvas editor, PDF export. Full commercial rights included.',
+    price: 27,
+    comparePrice: 97,
+    tier: 'single-app',
+    apps: ['code-addition'] as AppId[],
+    features: [
+      'Code Addition Studio Pro (Regular Mode)',
+      '10 image themes (curated colorful themes)',
+      'Auto answer key generation',
+      'Canvas editor (move, resize, rotate, layers)',
+      'All 11 languages included',
+      'PDF + JPEG export',
+      'Watermark-free output',
+      'Full commercial/POD/resale rights',
+    ],
+    imageCount: 300,
+    languages: 11,
+    funnelPosition: 'frontend',
+    funnelId: 'codeaddition-funnel',
+    includedThemes: ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'],
+    includesCommercialRights: true,
+  },
+
+  // OTO1 ($37): Word Reveal Mode — unlock the Word Reveal feature
+  'codeaddition-oto1-wordreveal': {
+    id: 'codeaddition-oto1-wordreveal',
+    name: 'Word Reveal Mode',
+    description: 'Unlock the Word Reveal mode. Each exercise answer reveals a letter of a secret word. Creates engaging puzzle worksheets that combine math with literacy.',
+    price: 37,
+    comparePrice: 97,
+    tier: 'pro-features',
+    apps: ['code-addition'] as AppId[],
+    features: [
+      'Word Reveal Mode unlocked',
+      'Secret word puzzle worksheets',
+      'Auto letter-to-answer mapping',
+      'Supports all 11 languages with accented characters',
+      'Instant activation',
+    ],
+    imageCount: 300,
+    languages: 11,
+    funnelPosition: 'oto1',
+    funnelId: 'codeaddition-funnel',
+    includesCommercialRights: true,
+  },
+
+  // OTO2 ($37): Complete Image Library — unlock all 104 themes (3,125 images)
+  'codeaddition-oto2-library': {
+    id: 'codeaddition-oto2-library',
+    name: 'Complete Image Library',
+    description: 'Unlock all 104 image themes with 3,125 professionally curated PNG images. Create code addition worksheets for any niche.',
+    price: 37,
+    comparePrice: 147,
+    tier: 'single-app',
+    apps: ['code-addition'] as AppId[],
+    features: [
+      '104 image themes (3,125 images)',
+      '52 colorful themes + 52 black & white themes',
+      'Decorative backgrounds & borders',
+      'Instant activation',
+      'Full commercial rights on all images',
+    ],
+    imageCount: 3125,
+    languages: 11,
+    funnelPosition: 'oto2',
+    funnelId: 'codeaddition-funnel',
+    includesCommercialRights: true,
+  },
+
   // OTO2 ($27): All 11 Languages — unlock all 11 languages
   'wordsearch-oto2-languages': {
     id: 'wordsearch-oto2-languages',
@@ -504,6 +578,8 @@ export interface WPlusFunnel {
   fe: string;
   oto1: string;
   oto2?: string;
+  oto1Unlocks?: 'themes' | 'modes';      // What OTO1 unlocks (default: 'themes')
+  oto2Unlocks?: 'themes' | 'languages';   // What OTO2 unlocks (default: 'languages')
 }
 
 export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
@@ -519,6 +595,15 @@ export const WPLUS_FUNNELS: Record<string, WPlusFunnel> = {
     name: 'Math Puzzle Launch Funnel',
     fe: 'mathpuzzle-fe',
     oto1: 'mathpuzzle-oto1-library',
+  },
+  'codeaddition-funnel': {
+    id: 'codeaddition-funnel',
+    name: 'Code Addition Launch Funnel',
+    fe: 'codeaddition-fe',
+    oto1: 'codeaddition-oto1-wordreveal',
+    oto2: 'codeaddition-oto2-library',
+    oto1Unlocks: 'modes',
+    oto2Unlocks: 'themes',
   },
 };
 

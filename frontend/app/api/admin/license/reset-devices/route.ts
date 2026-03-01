@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic';
  * Lists all registered devices for an email (admin only)
  */
 export async function GET(request: NextRequest) {
-  return withAdmin(request, async (req) => {
+  return withAdmin(request, async (req, _userId) => {
     const email = req.nextUrl.searchParams.get('email');
 
     if (!email) {
@@ -23,7 +23,7 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json({
       email,
-      devices: devices.map(d => ({
+      devices: devices.map((d: { id: string; ipAddress: string; userAgent: string | null; lastSeenAt: Date; createdAt: Date }) => ({
         id: d.id,
         ipAddress: d.ipAddress,
         userAgent: d.userAgent,
@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
  * Body: { email: string }
  */
 export async function POST(request: NextRequest) {
-  return withAdmin(request, async (req) => {
+  return withAdmin(request, async (req, _userId) => {
     const body = await req.json();
     const { email } = body;
 

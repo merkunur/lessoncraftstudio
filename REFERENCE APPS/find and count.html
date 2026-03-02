@@ -3616,7 +3616,10 @@ document.addEventListener("DOMContentLoaded", function() {
         
         // Add task instructions below header (positioned after header visual elements)
         const headerVisualEnd = isLandscape ? 60 + 72 : 70 + 80; // Actual visual header end position
-        const instructionTop = headerVisualEnd + 10; // Position below header with spacing
+        let instructionTop = headerVisualEnd + 10; // Position below header with spacing
+        if (data.isBeginningLetterMode) {
+            instructionTop += 7; // Letter Spotting: shift instruction text down 7px
+        }
         const maxTextWidth = contentWidth - 20; // Ensure padding within content area
         const instructions = new fabric.Textbox(finalInstructionText, {
             left: canvasWidth / 2,
@@ -3642,7 +3645,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Shift grid down in Letter Spotting mode for better vertical alignment
         if (data.isBeginningLetterMode) {
-            gridTopY += 30;
+            gridTopY += 40; // +30 base + 10px additional downward shift
         }
 
         const legendNeeded = !data.isBeginningLetterMode && (isAnswerKey || (questions && questions.length > 0));
@@ -3666,7 +3669,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const gridActualHeight = rows * cellSize + (rows - 1) * cellGap;
 
         // Center the grid horizontally within the content area
-        const gridLeftX = sideMargin + (contentWidth - gridActualWidth) / 2;
+        const gridHorizontalNudge = data.isBeginningLetterMode ? 3 : 4;
+        const gridLeftX = sideMargin + (contentWidth - gridActualWidth) / 2 + gridHorizontalNudge;
 
         const gridImagePromises = gridData.flat().map((cellData, index) => {
             const r = Math.floor(index / gridCols);
@@ -3953,7 +3957,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 const legendGroup = new fabric.Group([legendBackground, ...legendItems], {
                     ...groupOptions,
-                    left: (canvasWidth - legendBoxWidth) / 2,
+                    left: (canvasWidth - legendBoxWidth) / 2 + 4,
                     top: canvasHeight - legendBoxHeight - (isLandscape ? 50 : 55),  // 50px in landscape, 55px in portrait (moved down 5px)
                     [itemTag]: true, originalIndex: 'legend'
                 });

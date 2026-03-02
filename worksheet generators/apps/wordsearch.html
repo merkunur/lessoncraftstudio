@@ -62,7 +62,7 @@
         } else if (allowedThemesParam) {
             themeWhitelist = allowedThemesParam.split(',');
         } else if (tier === 'free') {
-            themeWhitelist = FE_THEMES; // Free users get same themes as FE
+            themeWhitelist = null; // Free users get all themes to try the full funnel
         } else {
             themeWhitelist = null; // Paid with no param = full access
         }
@@ -79,7 +79,7 @@
         } else if (allowedLangsParam) {
             langWhitelist = allowedLangsParam.split(',');
         } else if (tier === 'free') {
-            langWhitelist = ['en'];
+            langWhitelist = null; // Free users get all languages to try the full funnel
         } else {
             langWhitelist = null;
         }

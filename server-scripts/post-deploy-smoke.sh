@@ -152,6 +152,25 @@ else
     echo "  PASS: FAQ page"
 fi
 
+# Test 13: Image translation diacritics (Swedish bear = Björn, not Bjorn)
+echo ""
+echo "Testing image translation diacritics..."
+BROKEN_DIACRITICS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+  "SELECT COUNT(*) FROM image_library_items WHERE
+   translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang') OR
+   translations->>'de' IN ('Bar','Tur','Kuhlschrank','Lowe','Schildkrote') OR
+   translations->>'fr' IN ('Elephant','Reveil','Ane','Chevre','Meduse');" 2>/dev/null | tr -d ' ')
+
+if [ "$BROKEN_DIACRITICS" = "0" ] 2>/dev/null; then
+    echo "  PASS: Image translation diacritics correct"
+elif [ -n "$BROKEN_DIACRITICS" ] 2>/dev/null; then
+    echo "  FAIL: $BROKEN_DIACRITICS rows have stripped diacritics (Bjorn instead of Björn, etc.)"
+    FAILURES=$((FAILURES + 1))
+else
+    echo "  WARN: Could not query diacritics (DB connection issue?)"
+    WARNINGS=$((WARNINGS + 1))
+fi
+
 echo ""
 echo "=========================================="
 

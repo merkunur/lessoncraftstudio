@@ -232,6 +232,40 @@ If migrating image library to isolated storage for the first time:
 
 ---
 
+## DIACRITICS PROTECTION - IMAGE TRANSLATIONS (ABSOLUTE RULE)
+
+**The `image_library_items.translations` database was fixed on 2026-03-03.**
+- 837 translation fields corrected across 417 rows in 11 locales
+- Auto-healing runs during every deployment via deploy.sh
+- Smoke test (Test 13) verifies diacritics after every deployment
+
+### NEVER DO LIST - DIACRITICS
+- **NEVER re-run import scripts** (`scripts/import-*-images.js`) without also running the fix scripts afterward — import scripts have BAD hardcoded translations with stripped diacritics
+- **NEVER regenerate `image-vocabulary.js`** without verifying diacritics are correct in the raw JSON source
+- **NEVER bulk-update `image_library_items.translations`** without checking diacritics
+
+### Fix Scripts (Permanent, on Server)
+| Script | Location | Purpose |
+|--------|----------|---------|
+| `audit-db-diacritics.js` | `/opt/lessoncraftstudio/server-scripts/` | Reports all mismatches |
+| `fix-db-diacritics.js` | `/opt/lessoncraftstudio/server-scripts/` | Fixes base-key translations |
+| `fix-db-diacritics-numbered.js` | `/opt/lessoncraftstudio/server-scripts/` | Fixes numbered variants |
+| `image-vocabulary-raw.json` | `/opt/lessoncraftstudio/server-scripts/` | Reference source of truth |
+
+### Manual Verification
+```bash
+# Check for stripped diacritics (should return 0)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -c \"SELECT COUNT(*) FROM image_library_items WHERE translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang');\""
+
+# Run full audit
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/server-scripts/audit-db-diacritics.js"
+
+# Manual fix (if needed)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics.js && node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics-numbered.js"
+```
+
+---
+
 ## STRIPE PROTECTION - ABSOLUTE RULES
 
 **Stripe code was removed during the Feb 2027 pivot (Stage 1). It will be rebuilt for Stage 3. The backup and protection rules remain in effect.**

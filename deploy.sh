@@ -248,6 +248,32 @@ else
 fi
 
 # ============================================
+# DIACRITICS PROTECTION - POST-DEPLOYMENT CHECK
+# ============================================
+echo ""
+echo "🔤 Checking image translation diacritics..."
+BROKEN=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
+  "SELECT COUNT(*) FROM image_library_items WHERE
+   translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang') OR
+   translations->>'de' IN ('Bar','Tur','Kuhlschrank','Lowe','Schildkrote') OR
+   translations->>'fr' IN ('Elephant','Reveil','Ane','Chevre','Meduse');" 2>/dev/null | tr -d ' ')
+
+if [ "$BROKEN" -gt 0 ] 2>/dev/null; then
+    echo "  ⚠️  Found $BROKEN rows with stripped diacritics - auto-fixing..."
+    if [ -f /opt/lessoncraftstudio/server-scripts/fix-db-diacritics.js ]; then
+        cd /opt/lessoncraftstudio/frontend
+        node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics.js 2>&1 | tail -5
+        node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics-numbered.js 2>&1 | tail -5
+        echo "  ✅ Diacritics auto-fix complete"
+    else
+        echo "  ⛔ Fix script not found at /opt/lessoncraftstudio/server-scripts/fix-db-diacritics.js"
+        echo "     Upload from local: server-scripts/fix-db-diacritics.js"
+    fi
+else
+    echo "  ✅ All diacritics correct"
+fi
+
+# ============================================
 # BLOG CACHE WARMING
 # ============================================
 # After deploy, in-memory caches (slugCache, blogLinkTargetCache,

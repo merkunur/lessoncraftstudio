@@ -255,7 +255,7 @@
         cursor: not-allowed;
      }
 
-    #dict, #selectedImagesPreview, #uploadedImagesPreview {
+    #dict, #ccDict, #selectedImagesPreview, #uploadedImagesPreview {
         border: 1px solid var(--app-border-dark);
         padding:10px;
         max-height: 180px;
@@ -273,7 +273,7 @@
         border-color: var(--app-accent-primary);
      }
 
-    #dict p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+    #dict p.dictionary-message, #ccDict p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
         width: 100%;
         text-align: center;
         padding: 10px;
@@ -1144,6 +1144,7 @@
                 <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
                 <input type="number" id="problemCountInput" value="5" min="1" max="8" />
 
+                <div class="comparison-only-control">
                 <label for="imageSelectionModeSelect" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
                 <select id="imageSelectionModeSelect">
                     <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
@@ -1161,7 +1162,9 @@
                     <label><span data-translate="moreless.theme.worksheet">Theme for Worksheet</span> <select id="themeWorksheet"></select></label>
                     <small data-translate="moreless.theme.random">Images will be randomly selected from this theme.</small>
                 </div>
+                </div>
 
+                <div class="comparison-only-control">
                 <label for="relationsSelect" style="margin-top: 15px;" data-translate="moreless.relations">Relations:</label>
                 <div style="display: flex; gap: 15px; margin-bottom: 15px;">
                     <label class="checkbox-label" style="margin: 0;">
@@ -1183,13 +1186,16 @@
                     <option value="image" data-translate="moreless.display.illustrations">Illustrations</option>
                     <option value="text" data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</option>
                 </select>
+                </div>
 
                 <label for="comparisonModeSelect" style="margin-top: 15px;" data-translate="moreless.comparison.mode">Comparison Mode:</label>
                 <select id="comparisonModeSelect">
                     <option value="image-to-image" data-translate="moreless.mode.imagetoimage">Image to Image</option>
                     <option value="image-to-number" data-translate="moreless.mode.imagetonumber">Image to Number</option>
+                    <option value="check-cross" data-translate="moreless.mode.checkcross">Check &amp; Cross Groups</option>
                 </select>
 
+                <div class="comparison-only-control">
                 <label for="imageVarietySelect" data-translate="moreless.image.variety">Image Variety:</label>
                 <select id="imageVarietySelect">
                     <option value="same" data-translate="moreless.variety.same">Same Images (e.g., 5 cats vs 7 cats)</option>
@@ -1200,11 +1206,49 @@
                     <input type="checkbox" id="showSym">
                     <span data-translate="moreless.symbol.mode.circling">Show symbols for circling</span>
                 </label>
+                </div>
                 <label for="includeNameDate" class="checkbox-label">
                     <input type="checkbox" id="includeNameDate" /><span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
                 </label>
                 <label for="includeExerciseNumbers" class="checkbox-label">
                     <input type="checkbox" id="includeExerciseNumbers" checked /><span data-translate="moreless.include.numbers">Include Exercise Numbers</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="accordion-item" id="checkCrossAccordion" style="display: none;">
+            <button class="accordion-button" data-translate="moreless.checkcross.title">Check &amp; Cross Groups</button>
+            <div class="accordion-content">
+                <small data-translate="moreless.checkcross.hint" style="display: block; margin-bottom: 12px; color: var(--app-text-secondary-dark-theme);">
+                    Two different images are mixed in a box. Students check the group with more and cross the group with less.
+                </small>
+
+                <label for="ccTotalImages" data-translate="moreless.checkcross.totalimages">Total Images in Box (8-20):</label>
+                <input type="number" id="ccTotalImages" value="12" min="8" max="20" />
+
+                <label for="ccImageSelectionMode" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
+                <select id="ccImageSelectionMode">
+                    <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
+                    <option value="theme" data-translate="moreless.mode.theme">Theme for Worksheet</option>
+                </select>
+
+                <div id="ccIndividualSection">
+                    <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="ccThemeDict"></select></label>
+                    <label data-translate="moreless.checkcross.pick2">Pick exactly 2 images</label>
+                    <div id="ccDict"><p class='dictionary-message' data-translate="moreless.loading.themes">Loading themes...</p></div>
+                    <small id="ccSelCount">0 / 2 selected</small>
+                </div>
+
+                <div id="ccThemeSection" style="display: none;">
+                    <label><span data-translate="moreless.theme.worksheet">Theme for Worksheet</span> <select id="ccThemeWorksheet"></select></label>
+                    <small data-translate="moreless.checkcross.theme.hint" style="display: block; margin-top: 4px; color: var(--app-text-secondary-dark-theme);">
+                        Two images will be randomly selected from this theme each time.
+                    </small>
+                </div>
+
+                <label for="ccIncludeNameDate" class="checkbox-label" style="margin-top: 15px;">
+                    <input type="checkbox" id="ccIncludeNameDate" />
+                    <span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
                 </label>
             </div>
         </div>
@@ -1631,6 +1675,20 @@
       let messageTimeout;
       let activePopover = null;
 
+      // Check & Cross mode elements
+      const ccTotalImagesInput = $('#ccTotalImages');
+      const ccImageSelectionMode = $('#ccImageSelectionMode');
+      const ccIndividualSection = $('#ccIndividualSection');
+      const ccThemeSection = $('#ccThemeSection');
+      const ccThemeDictSelect = $('#ccThemeDict');
+      const ccThemeWorksheetSelect = $('#ccThemeWorksheet');
+      const ccDictDiv = $('#ccDict');
+      const ccSelCountSpan = $('#ccSelCount');
+      const ccIncludeNameDateCheckbox = $('#ccIncludeNameDate');
+      const checkCrossAccordion = $('#checkCrossAccordion');
+      let ccSelectedImages = new Set();
+      let ccSearchTimeout;
+
       function getActiveCanvas() {
         const activeTab = document.querySelector('.tab.active');
         return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
@@ -1680,6 +1738,107 @@
       function updateSelCount() {
           if (selCountSpan) selCountSpan.textContent = t('moreless.selected.count').replace('0 / 5', `${selectedImages.size} / ${DEFAULT_MAX_SELECTED_IMAGES}`);
       }
+
+      function updateCcSelCount() {
+          if (ccSelCountSpan) ccSelCountSpan.textContent = `${ccSelectedImages.size} / 2 selected`;
+      }
+
+      function updateModeVisibility() {
+          const mode = comparisonModeSelect.value;
+          const isCheckCross = mode === 'check-cross';
+
+          // Hide standard comparison controls when in check-cross mode
+          document.querySelectorAll('.comparison-only-control').forEach(el => {
+              el.style.display = isCheckCross ? 'none' : '';
+          });
+
+          // Show/hide the Check & Cross accordion
+          if (checkCrossAccordion) {
+              checkCrossAccordion.style.display = isCheckCross ? '' : 'none';
+          }
+
+          // Adjust exercise count limits
+          if (isCheckCross) {
+              problemCountInput.max = 2;
+              problemCountInput.value = Math.min(parseInt(problemCountInput.value) || 1, 2);
+          } else {
+              problemCountInput.max = 8;
+          }
+      }
+
+      function toggleCcImageSelection(image) {
+          if (ccSelectedImages.has(image.path)) {
+              ccSelectedImages.delete(image.path);
+          } else if (ccSelectedImages.size < 2) {
+              ccSelectedImages.add(image.path);
+          } else {
+              showSidebarMessage(t('moreless.checkcross.pick2'), 'info');
+          }
+          updateCcSelCount();
+          // Update visual selection state in ccDict
+          if (ccDictDiv) {
+              ccDictDiv.querySelectorAll('.dictionary-item').forEach(item => {
+                  const imgEl = item.querySelector('img');
+                  if (imgEl) {
+                      const imgPath = imgEl.getAttribute('data-path') || imgEl.src;
+                      item.classList.toggle('selected', ccSelectedImages.has(imgPath));
+                  }
+              });
+          }
+      }
+
+      let renderCcDictionaryFunc = async function renderCcDictionary() {
+          updateCcSelCount();
+          if (!ccDictDiv) return;
+          const selectedThemeForDict = ccThemeDictSelect ? ccThemeDictSelect.value : 'all';
+          const query = (document.getElementById('ccSearchInput') || {}).value || '';
+          const searchTerm = query.trim().toLowerCase();
+          ccDictDiv.innerHTML = '';
+          let imagesToDisplay = [];
+
+          try {
+              let apiUrl;
+              if (selectedThemeForDict === 'all') {
+                  if (!searchTerm) {
+                      apiUrl = `/api/images?theme=animals&locale=${currentLocale}`;
+                  } else {
+                      apiUrl = `/api/images?search=${encodeURIComponent(searchTerm)}&locale=${currentLocale}`;
+                  }
+              } else {
+                  apiUrl = `/api/images?theme=${encodeURIComponent(selectedThemeForDict)}&locale=${currentLocale}`;
+              }
+
+              ccDictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.loading.themes')}</p>`;
+              const response = await fetch(apiUrl);
+              const data = await response.json();
+              const images = data.images || data;
+              imagesToDisplay = images.map(img => {
+                  const mapped = { ...img };
+                  if (!mapped.path) mapped.path = img.url || '/images/placeholder.png';
+                  if (!mapped.word) mapped.word = mapped.name || mapped.displayName || 'Image';
+                  if (!mapped.name) mapped.name = mapped.word || mapped.displayName;
+                  return mapped;
+              });
+
+              if (searchTerm && selectedThemeForDict !== 'all') {
+                  imagesToDisplay = imagesToDisplay.filter(img => (img.word || img.name || '').toLowerCase().includes(searchTerm));
+              }
+          } catch (err) {
+              ccDictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.image.failed')}</p>`;
+              return;
+          }
+
+          ccDictDiv.innerHTML = imagesToDisplay.length === 0 ? `<p class="dictionary-message">${t('moreless.msg.no.images')}</p>` : '';
+          imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+              const item = document.createElement('div');
+              item.className = 'dictionary-item';
+              if (ccSelectedImages.has(img.path)) item.classList.add('selected');
+              const displayName = img.name || img.word;
+              item.innerHTML = `<img src="${img.path}" alt="${displayName}" data-path="${img.path}" loading="lazy"/><span>${displayName}</span>`;
+              item.onclick = () => toggleCcImageSelection(img);
+              ccDictDiv.appendChild(item);
+          });
+      };
 
       function setupDropdown(button, content) {
           if (!button || !content) return;
@@ -2344,19 +2503,26 @@
             const themeData = await res.json();
             themeDictSelect.innerHTML = `<option value="all">${t('moreless.themes.all')}</option>`;
             themeWorksheetSelect.innerHTML = `<option value="">${t('moreless.msg.select.worksheet.theme')}</option>`;
-            
+            // Also initialize CC theme dropdowns
+            if (ccThemeDictSelect) ccThemeDictSelect.innerHTML = `<option value="all">${t('moreless.themes.all')}</option>`;
+            if (ccThemeWorksheetSelect) ccThemeWorksheetSelect.innerHTML = `<option value="">${t('moreless.msg.select.worksheet.theme')}</option>`;
+
+            // All theme selects to populate
+            const allDictSelects = [themeDictSelect, ccThemeDictSelect].filter(Boolean);
+            const allWorksheetSelects = [themeWorksheetSelect, ccThemeWorksheetSelect].filter(Boolean);
+
             // Process themes - API returns array with {value, displayName} format
             if (Array.isArray(themeData)) {
                 themeData.forEach(theme => {
                     if (typeof theme === 'string') {
                         // String format (legacy)
                         const displayName = theme.split('/').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' / ');
-                        [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, theme)));
+                        [...allDictSelects, ...allWorksheetSelects].forEach(sel => sel.add(new Option(displayName, theme)));
                     } else if (typeof theme === 'object') {
                         // Object format - API returns {value, displayName}
                         const displayName = theme.displayName || theme.name || theme.value;
                         const value = theme.value || theme.path || theme.name;
-                        [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, value)));
+                        [...allDictSelects, ...allWorksheetSelects].forEach(sel => sel.add(new Option(displayName, value)));
                     }
                 });
             } else if (themeData.themes) {
@@ -2364,10 +2530,11 @@
                 themeData.themes.forEach(theme => {
                     const displayName = theme.displayName || theme.name || theme.value;
                     const value = theme.value || theme.path || theme.name;
-                    [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, value)));
+                    [...allDictSelects, ...allWorksheetSelects].forEach(sel => sel.add(new Option(displayName, value)));
                 });
             }
             renderDictionaryFunc();
+            renderCcDictionaryFunc();
         } catch (error) { 
             console.error('Error loading themes:', error);
             showSidebarMessage(t('moreless.msg.themes.error') + ': ' + error.message, 'error'); 
@@ -2615,8 +2782,25 @@
             fi: { title: 'Enemmän Vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
         };
 
+        const checkCrossHeaders = {
+            en: { title: 'More Less', description: 'Check the group that is more and cross that is less!' },
+            de: { title: 'Mehr Weniger', description: 'Kreuze die Gruppe an, die mehr hat, und streiche die durch, die weniger hat!' },
+            fr: { title: 'Plus Moins', description: 'Coche le groupe qui a le plus et barre celui qui a le moins !' },
+            es: { title: 'M\u00e1s Menos', description: '\u00a1Marca el grupo que tiene m\u00e1s y tacha el que tiene menos!' },
+            it: { title: 'Pi\u00f9 Meno', description: 'Spunta il gruppo che ha di pi\u00f9 e barra quello che ha di meno!' },
+            pt: { title: 'Mais Menos', description: 'Marca o grupo que tem mais e risca o que tem menos!' },
+            nl: { title: 'Meer Minder', description: 'Vink de groep aan die meer heeft en streep die door die minder heeft!' },
+            sv: { title: 'Mer Mindre', description: 'Bocka av gruppen som har flest och stryk den som har f\u00e4rst!' },
+            da: { title: 'Mere Mindre', description: 'Afkryds gruppen, der har flest, og stryg den, der har f\u00e6rrest!' },
+            no: { title: 'Mer Mindre', description: 'Kryss av gruppen som har flest, og stryk den som har f\u00e6rrest!' },
+            fi: { title: 'Enemm\u00e4n V\u00e4hemm\u00e4n', description: 'Rastita ryhm\u00e4, jossa on enemm\u00e4n, ja yliviivaa se, jossa on v\u00e4hemm\u00e4n!' }
+        };
+
         const locale = currentLocale || 'en';
-        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const comparisonMode = comparisonModeSelect ? comparisonModeSelect.value : 'image-to-image';
+        const isCheckCrossMode = comparisonMode === 'check-cross';
+        const headerSource = isCheckCrossMode ? checkCrossHeaders : defaultHeaders;
+        const defaults = headerSource[locale] || headerSource.en;
         const title = defaults.title;
         const description = defaults.description;
 
@@ -3200,7 +3384,58 @@
         }
         return rows;
     }
-      
+
+    function buildCheckCrossRows(imgs, problemCount) {
+        const rows = [];
+        const totalImageCount = parseInt((ccTotalImagesInput || {}).value, 10) || 12;
+
+        if (!imgs || imgs.length < 2) return rows;
+
+        for (let i = 0; i < problemCount; i++) {
+            // Pick 2 different images randomly
+            const shuffled = [...imgs];
+            for (let k = shuffled.length - 1; k > 0; k--) {
+                const j = rand(0, k);
+                [shuffled[k], shuffled[j]] = [shuffled[j], shuffled[k]];
+            }
+            const imageA = shuffled[0];
+            let imageB = shuffled[1];
+
+            // Ensure different
+            if (imageB === imageA && imgs.length > 1) {
+                imageB = imgs.find(img => img !== imageA) || shuffled[1];
+            }
+
+            // Generate unequal counts summing to totalImageCount
+            const minCount = Math.max(2, Math.floor(totalImageCount * 0.25));
+            const maxCount = totalImageCount - minCount;
+            let countA = rand(minCount, maxCount);
+            let countB = totalImageCount - countA;
+            if (countA === countB) {
+                countA++;
+                countB--;
+            }
+
+            const moreImage = countA > countB ? 'A' : 'B';
+
+            // Pre-shuffle positions for the mixed grid
+            const positions = [];
+            for (let j = 0; j < countA; j++) positions.push('A');
+            for (let j = 0; j < countB; j++) positions.push('B');
+            for (let k = positions.length - 1; k > 0; k--) {
+                const j = rand(0, k);
+                [positions[k], positions[j]] = [positions[j], positions[k]];
+            }
+
+            rows.push({
+                comparisonMode: 'check-cross',
+                imageA, imageB, countA, countB,
+                totalCount: totalImageCount, moreImage, positions
+            });
+        }
+        return rows;
+    }
+
     // Border and Background Functions
     async function loadBorderThemes() {
         try {
@@ -3402,61 +3637,96 @@
                 headerObjects.forEach(obj => worksheetCanvas.add(obj));
             }
 
-            const imageSelectionMode = imageSelectionModeSelect.value;
+            const comparisonMode = comparisonModeSelect.value;
+            const problemCount = parseInt(problemCountInput.value, 10);
+            const maxExercises = comparisonMode === 'check-cross' ? 2 : 8;
+            if (isNaN(problemCount) || problemCount < 1 || problemCount > maxExercises) throw new Error(t('moreless.msg.valid.exercises'));
+
             let imagesForGeneration = [];
-            if (imageSelectionMode === 'theme') {
-                const selectedTheme = themeWorksheetSelect.value;
-                if (!selectedTheme) throw new Error(t('moreless.msg.select.worksheet.theme'));
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
-                if (!res.ok) throw new Error(t('error.theme.loading'));
-                const data = await res.json();
-                const themeImages = data.images || data; // Handle both old and new API formats
-                // Use path property (API returns path, not url)
-                imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
-                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.theme.empty').replace('{theme}', selectedTheme));
+
+            if (comparisonMode === 'check-cross') {
+                // Get images from Check & Cross controls
+                const ccMode = ccImageSelectionMode ? ccImageSelectionMode.value : 'individual';
+                if (ccMode === 'theme') {
+                    const theme = ccThemeWorksheetSelect ? ccThemeWorksheetSelect.value : '';
+                    if (!theme) throw new Error(t('moreless.msg.select.worksheet.theme'));
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(t('error.theme.loading'));
+                    const data = await res.json();
+                    const themeImages = data.images || data;
+                    imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
+                } else {
+                    imagesForGeneration = Array.from(ccSelectedImages);
+                }
+                if (imagesForGeneration.length < 2) throw new Error(t('moreless.checkcross.error.needtwoimages'));
+
+                lastGeneratedRows = buildCheckCrossRows(imagesForGeneration, problemCount);
             } else {
-                imagesForGeneration = Array.from(selectedImages);
-                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.pick.images'));
+                // Standard comparison modes (image-to-image / image-to-number)
+                const imageSelectionMode = imageSelectionModeSelect.value;
+                if (imageSelectionMode === 'theme') {
+                    const selectedTheme = themeWorksheetSelect.value;
+                    if (!selectedTheme) throw new Error(t('moreless.msg.select.worksheet.theme'));
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(t('error.theme.loading'));
+                    const data = await res.json();
+                    const themeImages = data.images || data;
+                    imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
+                    if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.theme.empty').replace('{theme}', selectedTheme));
+                } else {
+                    imagesForGeneration = Array.from(selectedImages);
+                    if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.pick.images'));
+                }
+
+                const rels = Array.from(relationCheckboxes).filter(i => i.checked).map(i => i.value);
+                if (!rels.length) throw new Error(t('moreless.msg.select.relation'));
+
+                lastGeneratedRows = buildRows(imagesForGeneration, rels, problemCount);
             }
 
-            const rels = Array.from(relationCheckboxes).filter(i => i.checked).map(i => i.value);
-            if (!rels.length) throw new Error(t('moreless.msg.select.relation'));
-
-            const problemCount = parseInt(problemCountInput.value, 10);
-            if (isNaN(problemCount) || problemCount < 1 || problemCount > 8) throw new Error(t('moreless.msg.valid.exercises'));
-
-            lastGeneratedRows = buildRows(imagesForGeneration, rels, problemCount);
             if (!lastGeneratedRows.length) throw new Error(t('moreless.msg.generation.failed'));
 
-            if (includeNameDateCheckbox.checked) {
+            // Name/Date fields — use CC checkbox for check-cross mode, standard for others
+            const shouldIncludeNameDate = comparisonMode === 'check-cross'
+                ? (ccIncludeNameDateCheckbox && ccIncludeNameDateCheckbox.checked)
+                : includeNameDateCheckbox.checked;
+
+            if (shouldIncludeNameDate) {
                 // Use actual page dimensions for proper positioning
                 const pageWidth = currentCanvasConfig.width;
                 const pageHeight = currentCanvasConfig.height;
                 const marginRatio = pageWidth > pageHeight ? 0.08 : 0.06;
                 const leftMargin = pageWidth * marginRatio;
                 const topMargin = pageHeight * 0.05; // 5% from top
-                
-                const nameText = new fabric.Text('Name: ____________________', { 
-                    left: leftMargin, 
-                    top: topMargin, 
-                    fontSize: 18, 
-                    fontFamily: 'Arial' 
+
+                const nameText = new fabric.Text('Name: ____________________', {
+                    left: leftMargin,
+                    top: topMargin,
+                    fontSize: 18,
+                    fontFamily: 'Arial'
                 });
-                const dateText = new fabric.Text('Date: ____________________', { 
-                    left: pageWidth - leftMargin - 250, 
-                    top: topMargin, 
-                    fontSize: 18, 
-                    fontFamily: 'Arial' 
+                const dateText = new fabric.Text('Date: ____________________', {
+                    left: pageWidth - leftMargin - 250,
+                    top: topMargin,
+                    fontSize: 18,
+                    fontFamily: 'Arial'
                 });
-                const nameDateGroup = new fabric.Group([nameText, dateText], { 
-                    isNameDateGroup: true, 
-                    selectable: true, 
-                    evented: true 
+                const nameDateGroup = new fabric.Group([nameText, dateText], {
+                    isNameDateGroup: true,
+                    selectable: true,
+                    evented: true
                 });
                 worksheetCanvas.add(nameDateGroup);
             }
 
-            const cardPromises = lastGeneratedRows.map((row, index) => createCompareCard(row, index, lastGeneratedRows.length));
+            let cardPromises;
+            if (comparisonMode === 'check-cross') {
+                cardPromises = lastGeneratedRows.map((row, idx) =>
+                    createCheckCrossCard(row, idx, lastGeneratedRows.length));
+            } else {
+                cardPromises = lastGeneratedRows.map((row, idx) =>
+                    createCompareCard(row, idx, lastGeneratedRows.length));
+            }
             const exerciseCards = (await Promise.all(cardPromises)).filter(Boolean);
             
             // Always apply fresh multi-column layout
@@ -3620,6 +3890,218 @@
         return finalCluster;
     }
 
+    async function createCheckCrossCard(problemData, index, totalExercises) {
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        // Card dimensions — fills most of the available area
+        const cardPadding = 15;
+        const exerciseCount = totalExercises || 1;
+
+        // Available space after header (header is ~220 portrait / ~150 landscape)
+        const headerSpace = isLandscape ? 150 : 220;
+        const bottomMargin = 70;
+        const availableHeight = pageHeight - headerSpace - bottomMargin;
+        const cardHeight = exerciseCount === 1
+            ? availableHeight
+            : (availableHeight - 20) / exerciseCount; // 20px gap between cards
+
+        const cardWidth = pageWidth - 140; // 70px margin each side
+
+        const allElements = [];
+
+        // --- 1. Instruction text ---
+        const instructionText = t('moreless.checkcross.instruction');
+        const instructionFontSize = Math.min(16, cardHeight * 0.04);
+        const instructionObj = new fabric.Text(instructionText, {
+            fontSize: instructionFontSize,
+            fontFamily: 'Fredoka',
+            fontWeight: '500',
+            fill: '#333',
+            left: cardPadding,
+            top: cardPadding,
+            selectable: false,
+            evented: false
+        });
+        allElements.push(instructionObj);
+
+        const instructionBottom = cardPadding + instructionFontSize + 10;
+
+        // --- 2. Large bordered box with mixed images ---
+        const answerAreaHeight = cardHeight * 0.18; // 18% for answer area
+        const boxTop = instructionBottom;
+        const boxHeight = cardHeight - instructionBottom - answerAreaHeight - cardPadding - 10;
+        const boxWidth = cardWidth - (cardPadding * 2);
+
+        // Box border
+        const boxRect = new fabric.Rect({
+            left: cardPadding,
+            top: boxTop,
+            width: boxWidth,
+            height: boxHeight,
+            fill: '#fafafa',
+            stroke: '#333',
+            strokeWidth: 2,
+            rx: 8,
+            ry: 8,
+            selectable: false,
+            evented: false
+        });
+        allElements.push(boxRect);
+
+        // Grid layout inside the box
+        const totalCount = problemData.totalCount;
+        const cols = Math.ceil(Math.sqrt(totalCount));
+        const rows = Math.ceil(totalCount / cols);
+
+        const gridPadding = 12;
+        const gridSpacing = 6;
+        const gridAreaWidth = boxWidth - (gridPadding * 2);
+        const gridAreaHeight = boxHeight - (gridPadding * 2);
+
+        const cellWidth = (gridAreaWidth - (gridSpacing * (cols - 1))) / cols;
+        const cellHeight = (gridAreaHeight - (gridSpacing * (rows - 1))) / rows;
+        const imgSize = Math.min(cellWidth, cellHeight) * 0.85; // 85% of cell for padding
+
+        // Load both source images once
+        const [imgObjA, imgObjB] = await Promise.all([
+            new Promise(res => fabric.Image.fromURL(problemData.imageA, img => res(img), { crossOrigin: 'anonymous' })),
+            new Promise(res => fabric.Image.fromURL(problemData.imageB, img => res(img), { crossOrigin: 'anonymous' }))
+        ]);
+
+        if (!imgObjA || !imgObjB) {
+            console.error('Failed to load check-cross images');
+            return null;
+        }
+
+        // Place images in grid according to pre-shuffled positions
+        for (let p = 0; p < problemData.positions.length; p++) {
+            const row = Math.floor(p / cols);
+            const col = p % cols;
+
+            const sourceImg = problemData.positions[p] === 'A' ? imgObjA : imgObjB;
+
+            const clonedImg = await new Promise(res => sourceImg.clone(c => res(c)));
+            if (!clonedImg) continue;
+
+            // Scale to fit cell
+            const scaleFactor = imgSize / Math.max(clonedImg.width, clonedImg.height);
+            clonedImg.scale(scaleFactor);
+
+            const cellX = cardPadding + gridPadding + col * (cellWidth + gridSpacing) + cellWidth / 2;
+            const cellY = boxTop + gridPadding + row * (cellHeight + gridSpacing) + cellHeight / 2;
+
+            clonedImg.set({
+                left: cellX,
+                top: cellY,
+                originX: 'center',
+                originY: 'center',
+                selectable: false,
+                evented: false
+            });
+            allElements.push(clonedImg);
+        }
+
+        // --- 3. Answer area below the box ---
+        const answerTop = boxTop + boxHeight + 12;
+        const answerThumbSize = Math.min(answerAreaHeight * 0.7, 40);
+        const dashedBoxWidth = Math.min(80, boxWidth * 0.15);
+        const dashedBoxHeight = answerThumbSize * 0.9;
+
+        // Calculate total width of both answer groups to center them
+        const groupWidth = answerThumbSize + 10 + dashedBoxWidth; // thumb + gap + dashed box
+        const totalAnswerWidth = groupWidth * 2 + 40; // two groups + spacing
+        const answerStartX = (cardWidth - totalAnswerWidth) / 2;
+
+        // Group A: [thumb A] [dashed box]
+        const thumbA = await new Promise(res => imgObjA.clone(c => res(c)));
+        if (thumbA) {
+            const scaleA = answerThumbSize / Math.max(thumbA.width, thumbA.height);
+            thumbA.scale(scaleA);
+            thumbA.set({
+                left: answerStartX,
+                top: answerTop + (answerAreaHeight - answerThumbSize) / 2,
+                selectable: false,
+                evented: false
+            });
+            allElements.push(thumbA);
+        }
+
+        const dashedA = new fabric.Rect({
+            left: answerStartX + answerThumbSize + 10,
+            top: answerTop + (answerAreaHeight - dashedBoxHeight) / 2,
+            width: dashedBoxWidth,
+            height: dashedBoxHeight,
+            fill: 'transparent',
+            stroke: '#999',
+            strokeWidth: 1.5,
+            strokeDashArray: [6, 4],
+            rx: 8,
+            ry: 8,
+            selectable: false,
+            evented: false
+        });
+        allElements.push(dashedA);
+
+        // Group B: [thumb B] [dashed box]
+        const groupBStart = answerStartX + groupWidth + 40;
+        const thumbB = await new Promise(res => imgObjB.clone(c => res(c)));
+        if (thumbB) {
+            const scaleB = answerThumbSize / Math.max(thumbB.width, thumbB.height);
+            thumbB.scale(scaleB);
+            thumbB.set({
+                left: groupBStart,
+                top: answerTop + (answerAreaHeight - answerThumbSize) / 2,
+                selectable: false,
+                evented: false
+            });
+            allElements.push(thumbB);
+        }
+
+        const dashedB = new fabric.Rect({
+            left: groupBStart + answerThumbSize + 10,
+            top: answerTop + (answerAreaHeight - dashedBoxHeight) / 2,
+            width: dashedBoxWidth,
+            height: dashedBoxHeight,
+            fill: 'transparent',
+            stroke: '#999',
+            strokeWidth: 1.5,
+            strokeDashArray: [6, 4],
+            rx: 8,
+            ry: 8,
+            selectable: false,
+            evented: false
+        });
+        allElements.push(dashedB);
+
+        // Card background
+        const cardBackground = new fabric.Rect({
+            width: cardWidth,
+            height: cardHeight,
+            fill: 'white',
+            stroke: '#e0e0e0',
+            strokeWidth: 1,
+            rx: 10,
+            ry: 10,
+            shadow: 'rgba(0,0,0,0.1) 0px 2px 4px'
+        });
+
+        const finalGroup = new fabric.Group([cardBackground, ...allElements], {
+            isExerciseCard: true,
+            originalIndex: index,
+            objectCaching: false,
+            subTargetCheck: true,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle'
+        });
+
+        return finalGroup;
+    }
+
     function layoutCardsOnCanvas(canvas, cards, forceRelayout = true) {
         if (!cards || cards.length === 0) return;
 
@@ -3752,6 +4234,12 @@
 
     async function generateAnswerKey() {
         if (!lastGeneratedRows.length) { showSidebarMessage(t('moreless.msg.generate.first'), "error"); return; }
+
+        // Branch for Check & Cross mode
+        if (lastGeneratedRows[0] && lastGeneratedRows[0].comparisonMode === 'check-cross') {
+            await generateCheckCrossAnswerKey();
+            return;
+        }
 
         // Clear all old answer cards - always apply fresh layout
         // This ensures consistent multi-column layout on each generation
@@ -3899,6 +4387,204 @@
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         showSidebarMessage(t('moreless.msg.answer.generated'), "success");
         
+        [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+    }
+
+    async function generateCheckCrossAnswerKey() {
+        // Clear old answer objects
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+        objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+        answerKeyCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
+
+        // Copy background/border from worksheet
+        const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+        if (background) {
+            await new Promise(resolve => background.clone(cloned => {
+                cloned.set({ isBackground: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+        const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+        if (border) {
+            await new Promise(resolve => border.clone(cloned => {
+                cloned.set({ isBorder: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        // Copy header objects from worksheet
+        const worksheetHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+            !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground
+        );
+        for (const headerObj of worksheetHeaderObjects) {
+            await new Promise(resolve => headerObj.clone(cloned => {
+                if (headerObj.isPageBorder) cloned.set({ isPageBorder: true });
+                if (headerObj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                if (headerObj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const margin = {
+            top: isLandscape ? 200 : 270,
+            bottom: isLandscape ? 50 : 66.5,
+            left: 70,
+            right: 70
+        };
+
+        const availableWidth = pageWidth - margin.left - margin.right;
+        const availableHeight = pageHeight - margin.top - margin.bottom;
+
+        // For check-cross, 1-2 exercises — always single column
+        const exerciseCount = lastGeneratedRows.length;
+        const cardSpacing = 20;
+        const answerCardHeight = exerciseCount === 1
+            ? Math.min(200, availableHeight * 0.4)
+            : Math.min(160, (availableHeight - cardSpacing) / exerciseCount);
+        const answerCardWidth = Math.min(availableWidth, 400);
+
+        const startX = margin.left + (availableWidth - answerCardWidth) / 2;
+
+        const allAnswerCards = [];
+
+        for (let i = 0; i < lastGeneratedRows.length; i++) {
+            const r = lastGeneratedRows[i];
+            const cardElements = [];
+
+            // Card background
+            cardElements.push(new fabric.Rect({
+                left: 0, top: 0,
+                width: answerCardWidth, height: answerCardHeight,
+                fill: '#f0f9ff', stroke: '#a3d9ff', rx: 10, ry: 10,
+                selectable: false, evented: false
+            }));
+
+            // Exercise number
+            cardElements.push(new fabric.Text(`${i + 1}.`, {
+                left: 12, top: 10,
+                fontSize: 18, fontWeight: '800', fill: '#c13f2f', fontFamily: 'Nunito'
+            }));
+
+            // Load thumbnails
+            const [thumbA, thumbB] = await Promise.all([
+                new Promise(res => fabric.Image.fromURL(r.imageA, img => res(img), { crossOrigin: 'anonymous' })),
+                new Promise(res => fabric.Image.fromURL(r.imageB, img => res(img), { crossOrigin: 'anonymous' }))
+            ]);
+
+            const thumbSize = Math.min(40, answerCardHeight * 0.3);
+            const rowHeight = thumbSize + 10;
+            const rowStartY = (answerCardHeight - rowHeight * 2 - 5) / 2;
+
+            // Row A: [thumb] [count] [checkmark or cross]
+            if (thumbA) {
+                const scaleA = thumbSize / Math.max(thumbA.width, thumbA.height);
+                thumbA.scale(scaleA);
+                thumbA.set({ left: 40, top: rowStartY, selectable: false, evented: false });
+                cardElements.push(thumbA);
+            }
+
+            const countTextA = new fabric.Text(String(r.countA), {
+                left: 40 + thumbSize + 15,
+                top: rowStartY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 28, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito'
+            });
+            cardElements.push(countTextA);
+
+            // Checkmark or cross for A
+            const isAMore = r.moreImage === 'A';
+            const symbolA = new fabric.Text(isAMore ? '\u2713' : '\u2717', {
+                left: 40 + thumbSize + 65,
+                top: rowStartY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 30, fontWeight: 'bold',
+                fill: isAMore ? '#22c55e' : '#ef4444',
+                fontFamily: 'Arial'
+            });
+            cardElements.push(symbolA);
+
+            // Label for A
+            const labelA = new fabric.Text(isAMore ? 'More' : 'Less', {
+                left: 40 + thumbSize + 95,
+                top: rowStartY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 14, fontWeight: '600',
+                fill: isAMore ? '#22c55e' : '#ef4444',
+                fontFamily: 'Nunito'
+            });
+            cardElements.push(labelA);
+
+            // Row B: [thumb] [count] [checkmark or cross]
+            const rowBY = rowStartY + rowHeight + 5;
+            if (thumbB) {
+                const scaleB = thumbSize / Math.max(thumbB.width, thumbB.height);
+                thumbB.scale(scaleB);
+                thumbB.set({ left: 40, top: rowBY, selectable: false, evented: false });
+                cardElements.push(thumbB);
+            }
+
+            const countTextB = new fabric.Text(String(r.countB), {
+                left: 40 + thumbSize + 15,
+                top: rowBY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 28, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito'
+            });
+            cardElements.push(countTextB);
+
+            const isBMore = r.moreImage === 'B';
+            const symbolB = new fabric.Text(isBMore ? '\u2713' : '\u2717', {
+                left: 40 + thumbSize + 65,
+                top: rowBY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 30, fontWeight: 'bold',
+                fill: isBMore ? '#22c55e' : '#ef4444',
+                fontFamily: 'Arial'
+            });
+            cardElements.push(symbolB);
+
+            const labelB = new fabric.Text(isBMore ? 'More' : 'Less', {
+                left: 40 + thumbSize + 95,
+                top: rowBY + thumbSize / 2,
+                originY: 'center',
+                fontSize: 14, fontWeight: '600',
+                fill: isBMore ? '#22c55e' : '#ef4444',
+                fontFamily: 'Nunito'
+            });
+            cardElements.push(labelB);
+
+            const cardY = margin.top + i * (answerCardHeight + cardSpacing);
+
+            const card = new fabric.Group(cardElements, {
+                left: startX,
+                top: cardY,
+                selectable: true,
+                evented: true,
+                isAnswerCard: true,
+                originalIndex: i,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 8
+            });
+
+            allAnswerCards.push(card);
+        }
+
+        answerKeyCanvas.add(...allAnswerCards);
+        enforceZOrder(answerKeyCanvas);
+        userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
+        answerKeyCanvas.renderAll();
+
+        document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
+        showSidebarMessage(t('moreless.msg.answer.generated'), 'success');
         [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
     }
 
@@ -4176,13 +4862,44 @@ async function downloadPDF(canvasToExport, filename) {
             worksheetThemeSelectionSection.style.display = imageSelectionModeSelect.value === 'theme' ? 'block' : 'none';
         });
         themeDictSelect.addEventListener("change", renderDictionaryFunc);
-        const searchInput = document.createElement('input'); 
+        const searchInput = document.createElement('input');
         searchInput.type = 'text'; searchInput.id = 'searchInput'; searchInput.placeholder = 'Search images...';
-        dictDiv.before(searchInput); 
+        dictDiv.before(searchInput);
         searchInput.addEventListener("input", () => {
           if(searchTimeout) clearTimeout(searchTimeout);
           searchTimeout = setTimeout(renderDictionaryFunc, 300);
         });
+
+        // Check & Cross mode switching
+        comparisonModeSelect.addEventListener('change', updateModeVisibility);
+
+        // Check & Cross image selection mode toggle
+        if (ccImageSelectionMode) {
+            ccImageSelectionMode.addEventListener('change', () => {
+                if (ccIndividualSection) ccIndividualSection.style.display = ccImageSelectionMode.value === 'individual' ? 'block' : 'none';
+                if (ccThemeSection) ccThemeSection.style.display = ccImageSelectionMode.value === 'theme' ? 'block' : 'none';
+            });
+        }
+
+        // Check & Cross theme dictionary change
+        if (ccThemeDictSelect) {
+            ccThemeDictSelect.addEventListener('change', renderCcDictionaryFunc);
+        }
+
+        // Check & Cross search input
+        if (ccDictDiv) {
+            const ccSearchInput = document.createElement('input');
+            ccSearchInput.type = 'text'; ccSearchInput.id = 'ccSearchInput'; ccSearchInput.placeholder = 'Search images...';
+            ccDictDiv.before(ccSearchInput);
+            ccSearchInput.addEventListener('input', () => {
+                if (ccSearchTimeout) clearTimeout(ccSearchTimeout);
+                ccSearchTimeout = setTimeout(renderCcDictionaryFunc, 300);
+            });
+        }
+
+        // Initialize mode visibility on load
+        updateModeVisibility();
+
         // Custom file input button handler
         const customFileButton = document.getElementById('customFileButton');
         const fileSelectionText = document.getElementById('fileSelectionText');
@@ -4262,6 +4979,20 @@ async function downloadPDF(canvasToExport, filename) {
             symbolDisplaySelect.value = 'image'; showSymCheckbox.checked = false;
             comparisonModeSelect.value = 'image-to-image'; imageVarietySelect.value = 'same';
             includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
+            // Reset Check & Cross state
+            ccSelectedImages.clear();
+            if (ccTotalImagesInput) ccTotalImagesInput.value = 12;
+            if (ccImageSelectionMode) ccImageSelectionMode.value = 'individual';
+            if (ccIndividualSection) ccIndividualSection.style.display = 'block';
+            if (ccThemeSection) ccThemeSection.style.display = 'none';
+            if (ccThemeDictSelect) ccThemeDictSelect.value = 'all';
+            if (ccThemeWorksheetSelect) ccThemeWorksheetSelect.value = '';
+            if (ccIncludeNameDateCheckbox) ccIncludeNameDateCheckbox.checked = false;
+            const ccSearch = document.getElementById('ccSearchInput');
+            if (ccSearch) ccSearch.value = '';
+            updateCcSelCount();
+            renderCcDictionaryFunc();
+            updateModeVisibility();
             pageColorInput.value = '#FFFFFF';
             [borderThemeSelect, backgroundThemeSelect].forEach(s => s.value = 'none');
             [borderDictionary, backgroundDictionary].forEach(d => d.innerHTML = `<p class="dictionary-message">${t('moreless.msg.select.theme')}</p>`);

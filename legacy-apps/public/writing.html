@@ -2730,6 +2730,37 @@ async function applyGrayscaleToDataURL(dataURL) {
 async function downloadFile(format) {
     try {
         const capturedCanvas = await captureWorksheetAsCanvas();
+
+        // Add watermark if free tier (using Canvas 2D API since this is a raw HTML canvas)
+        if (typeof isFreeTier === 'function' && isFreeTier()) {
+            const ctx = capturedCanvas.getContext('2d');
+            // Tiled watermarks
+            const spacing = 250;
+            for (let x = 0; x < capturedCanvas.width; x += spacing) {
+                for (let y = 0; y < capturedCanvas.height; y += spacing) {
+                    ctx.save();
+                    ctx.font = '20px Arial, sans-serif';
+                    ctx.fillStyle = 'rgba(0, 0, 0, 0.15)';
+                    ctx.translate(x, y);
+                    ctx.rotate(-Math.PI / 4);
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText('FREE VERSION', 0, 0);
+                    ctx.restore();
+                }
+            }
+            // Main center watermark
+            ctx.save();
+            ctx.font = 'bold 40px Arial, sans-serif';
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.translate(capturedCanvas.width / 2, capturedCanvas.height / 2);
+            ctx.rotate(-Math.PI / 4);
+            ctx.fillText('FREE VERSION - LessonCraftStudio.com', 0, 0);
+            ctx.restore();
+        }
+
         let imageDataURL = capturedCanvas.toDataURL('image/jpeg', 1.0); // High quality JPEG
 
         if (document.getElementById('grayscaleToggle').checked) {

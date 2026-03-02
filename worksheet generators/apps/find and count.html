@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Spy Worksheet Generator</title>
     <script src="js/translations-find-and-count.js"></script>
+    <script src="js/image-vocabulary.js"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
@@ -1112,6 +1113,15 @@
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="hiddenObjectQuestions">Hidden Object Questions</button>
                     <div class="accordion-content">
+                         <div class="selection-mode-toggle" style="margin-bottom: 15px;">
+                             <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                                 <input type="checkbox" id="manualSelectionMode" style="width: 16px; height: 16px;">
+                                 <span data-translate="manualImageSelection">Select images manually</span>
+                             </label>
+                             <p class="mode-hint" id="modeHint" style="font-size: 11px; color: #666; margin-top: 5px;" data-translate="autoModeHint">
+                                 Auto mode: 4 random images with random tasks on each generate
+                             </p>
+                         </div>
                          <div id="selectedObjectConfig">
                             <p class='dictionary-message'>Select images from the library above.</p>
                          </div>
@@ -1238,10 +1248,13 @@
 // Language/locale handling
 // Helper function to get current locale
 function getLocale() {
-    // Always use URL params directly for consistency
+    // Prefer current locale from sidebar selector if set
+    if (window.currentLocale) {
+        return window.currentLocale;
+    }
+    // Fall back to URL params for initial load
     const urlParams = new URLSearchParams(window.location.search);
-    const locale = urlParams.get('locale') || 'en';
-    return locale;
+    return urlParams.get('locale') || 'en';
 }
 
 // currentLocale is already set globally before scripts load
@@ -1447,6 +1460,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let selectedImages = [];
     let uploadedImages = [];
     let currentThemeImages = [];
+    let manualSelectionMode = false;
     let lastGeneratedData = null;
     const downloadMultiplier = 6;
 
@@ -1460,7 +1474,24 @@ document.addEventListener("DOMContentLoaded", function() {
     const borderThemeSelect = document.getElementById('borderThemeSelect');
     const borderDictionary = document.getElementById('borderDictionary');
     const borderOpacitySlider = document.getElementById('borderOpacity');
-    
+    const manualSelectionCheckbox = document.getElementById('manualSelectionMode');
+    const modeHintElement = document.getElementById('modeHint');
+
+    // Handle manual/auto selection mode toggle
+    manualSelectionCheckbox.addEventListener('change', (e) => {
+        manualSelectionMode = e.target.checked;
+        if (manualSelectionMode) {
+            modeHintElement.textContent = t('manualModeHint');
+            modeHintElement.setAttribute('data-translate', 'manualModeHint');
+        } else {
+            modeHintElement.textContent = t('autoModeHint');
+            modeHintElement.setAttribute('data-translate', 'autoModeHint');
+            // Clear manual selections when switching to auto mode
+            selectedImages = [];
+            renderSelectedObjectConfig();
+        }
+    });
+
     function getActiveCanvas() {
         const activeTab = document.querySelector('.tab.active');
         // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
@@ -2179,35 +2210,36 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    function loadThemes() {
+    async function loadThemes() {
         const locale = getLocale();
-        return fetch(`/api/themes-translated?locale=${locale}`)
-            .then(res => res.json())
-            .then(themes => {
-                themeSelect.innerHTML = '';
-                const allThemesOpt = document.createElement("option");
-                allThemesOpt.value = "all";
-                allThemesOpt.textContent = "All Themes";
-                themeSelect.appendChild(allThemesOpt);
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${locale}`);
+            const themes = await res.json();
 
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme.value;
-                    opt.textContent = theme.displayName;
-                    themeSelect.appendChild(opt);
-                });
-                
-                // Set default theme to "animals" if it exists
-                if (themes.some(t => t.value === 'animals')) {
-                    themeSelect.value = 'animals';
-                } else if (themes.length > 0) {
-                    themeSelect.value = themes[0].value;
-                }
-                
-                loadThemeImages();
-            }).catch(err => {
-                showMessage(t('couldNotLoadThemes'), 'error');
+            themeSelect.innerHTML = '';
+            const allThemesOpt = document.createElement("option");
+            allThemesOpt.value = "all";
+            allThemesOpt.textContent = "All Themes";
+            themeSelect.appendChild(allThemesOpt);
+
+            themes.forEach(theme => {
+                const opt = document.createElement("option");
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
+                themeSelect.appendChild(opt);
             });
+
+            // Set default theme to "animals" if it exists
+            if (themes.some(t => t.value === 'animals')) {
+                themeSelect.value = 'animals';
+            } else if (themes.length > 0) {
+                themeSelect.value = themes[0].value;
+            }
+
+            await loadThemeImages();  // Now properly awaited
+        } catch(err) {
+            showMessage(t('couldNotLoadThemes'), 'error');
+        }
     }
 
     async function loadThemeImages(renderDict = true) {
@@ -2625,7 +2657,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const shuffledRequired = [...requiredImages].sort(() => Math.random() - 0.5);
 
         shuffledRequired.forEach(requiredImg => {
-            for (let i = 0; i < 2; i++) {
+            // Randomize count between 1 and 5 for each required image
+            const countForThisImage = Math.floor(Math.random() * 5) + 1;
+            for (let i = 0; i < countForThisImage; i++) {
                 if (availableIndices.length === 0) break;
                 const randIndexInAvailable = Math.floor(Math.random() * availableIndices.length);
                 const gridIndex = availableIndices.splice(randIndexInAvailable, 1)[0];
@@ -3003,10 +3037,30 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         // Task-specific instruction builder (kept for dynamic instructions)
-        const getTaskInstruction = (type, items) => {
-            // Pluralize each item before joining
-            const pluralizedItems = items.map(item => pluralize(item, currentLocale));
+        const getTaskInstruction = (type, imageObjects) => {
+            // Extract vocabulary keys and get correct plurals via ImageVocab
+            const keys = imageObjects.map(img => {
+                if (typeof ImageVocab !== 'undefined' && img.path) {
+                    return ImageVocab.keyFromPath(img.path);
+                }
+                return null;
+            });
+            const pluralizedItems = imageObjects.map((img, i) => {
+                const displayName = img.name || img.word;
+                if (typeof ImageVocab !== 'undefined' && keys[i]) {
+                    return ImageVocab.plural(keys[i], currentLocale) || pluralize(displayName, currentLocale);
+                }
+                return pluralize(displayName, currentLocale);
+            });
             const itemsList = pluralizedItems.join(', ');
+
+            // Get gender-aware quantifier for FR/ES/PT/IT
+            const validKeys = keys.filter(k => k);
+            const q_fr = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'fr') : 'tous les';
+            const q_es = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'es') : 'todos los';
+            const q_pt = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'pt') : 'todos os';
+            const q_it = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'it') : 'tutti i';
+
             const instructions = {
                 en: {
                     circle: `Circle all the ${itemsList}`,
@@ -3021,28 +3075,28 @@ document.addEventListener("DOMContentLoaded", function() {
                     count: `Zähle alle ${itemsList}`
                 },
                 fr: {
-                    circle: `Entoure tous les ${itemsList}`,
-                    square: `Mets un carré autour de tous les ${itemsList}`,
-                    cross: `Barre tous les ${itemsList}`,
-                    count: `Compte tous les ${itemsList}`
+                    circle: `Entoure ${q_fr} ${itemsList}`,
+                    square: `Mets un carré autour de ${q_fr} ${itemsList}`,
+                    cross: `Barre ${q_fr} ${itemsList}`,
+                    count: `Compte ${q_fr} ${itemsList}`
                 },
                 es: {
-                    circle: `Circula todos los ${itemsList}`,
-                    square: `Pon un cuadrado alrededor de todos los ${itemsList}`,
-                    cross: `Tacha todos los ${itemsList}`,
-                    count: `Cuenta todos los ${itemsList}`
+                    circle: `Circula ${q_es} ${itemsList}`,
+                    square: `Pon un cuadrado alrededor de ${q_es} ${itemsList}`,
+                    cross: `Tacha ${q_es} ${itemsList}`,
+                    count: `Cuenta ${q_es} ${itemsList}`
                 },
                 pt: {
-                    circle: `Circule todos os ${itemsList}`,
-                    square: `Coloque um quadrado em volta de todos os ${itemsList}`,
-                    cross: `Risque todos os ${itemsList}`,
-                    count: `Conte todos os ${itemsList}`
+                    circle: `Circule ${q_pt} ${itemsList}`,
+                    square: `Coloque um quadrado em volta de ${q_pt} ${itemsList}`,
+                    cross: `Risque ${q_pt} ${itemsList}`,
+                    count: `Conte ${q_pt} ${itemsList}`
                 },
                 it: {
-                    circle: `Cerchia tutti i ${itemsList}`,
-                    square: `Metti un quadrato intorno a tutti i ${itemsList}`,
-                    cross: `Barra tutti i ${itemsList}`,
-                    count: `Conta tutti i ${itemsList}`
+                    circle: `Cerchia ${q_it} ${itemsList}`,
+                    square: `Metti un quadrato intorno a ${q_it} ${itemsList}`,
+                    cross: `Barra ${q_it} ${itemsList}`,
+                    count: `Conta ${q_it} ${itemsList}`
                 },
                 nl: {
                     circle: `Omcirkel alle ${itemsList}`,
@@ -3086,8 +3140,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!taskTypes[q.type]) {
                 taskTypes[q.type] = [];
             }
-            const displayName = q.name || q.word;
-            taskTypes[q.type].push(displayName);
+            taskTypes[q.type].push(q);
         });
         
         // Build instruction text based on task types
@@ -3773,7 +3826,7 @@ async function downloadPDF(canvasToExport, filename) {
                         if (idx >= 0) selectedImages.splice(idx, 1);
                     } else {
                         item.classList.add('selected');
-                        selectedImages.push(img);
+                        selectedImages.push({ ...img, type: 'none' });
                     }
                     updateSelectedPanels();
                 };
@@ -4084,42 +4137,47 @@ async function downloadPDF(canvasToExport, filename) {
     generateWorksheetBtn.addEventListener('click', async () => {
         if (generateDropdown.content) generateDropdown.content.style.display = 'none';
 
-        // AUTO-SELECT FEATURE: Pick 4 random images and assign random tasks
-        if (currentThemeImages.length >= 4) {
-            // Clear previous selection
-            selectedImages = [];
+        // Check selection mode - only auto-randomize if NOT in manual mode
+        if (!manualSelectionMode) {
+            // AUTO-RANDOMIZE MODE: Select new random images on each generate
+            if (currentThemeImages.length >= 4) {
+                // Clear previous selection
+                selectedImages = [];
 
-            // Shuffle and pick 4 random images
-            const shuffled = [...currentThemeImages].sort(() => Math.random() - 0.5);
-            const selectedFour = shuffled.slice(0, 4);
+                // Shuffle and pick 4 random images
+                const shuffled = [...currentThemeImages].sort(() => Math.random() - 0.5);
+                const selectedFour = shuffled.slice(0, 4);
 
-            // Assign all four task types randomly
-            const taskTypes = ['circle', 'square', 'cross', 'count'];
-            const shuffledTasks = [...taskTypes].sort(() => Math.random() - 0.5);
+                // Assign all four task types randomly
+                const taskTypes = ['circle', 'square', 'cross', 'count'];
+                const shuffledTasks = [...taskTypes].sort(() => Math.random() - 0.5);
 
-            selectedFour.forEach((img, index) => {
-                img.type = shuffledTasks[index];
-                selectedImages.push(img);
-            });
+                selectedFour.forEach((img, index) => {
+                    // Create a COPY with the assigned task type (don't mutate original)
+                    selectedImages.push({ ...img, type: shuffledTasks[index] });
+                });
 
-            // Update UI to show selected images with tasks
-            renderSelectedObjectConfig();
+                // Update UI to show selected images with tasks
+                renderSelectedObjectConfig();
 
-            console.log('Auto-selected 4 images with random tasks:', selectedImages.map(i => `${i.word}(${i.type})`));
-        } else if (currentThemeImages.length > 0) {
-            // If less than 4 images available, select all and assign random tasks
-            selectedImages = [];
-            const available = [...currentThemeImages];
-            const taskTypes = ['circle', 'square', 'cross', 'count'];
+                console.log('Auto-selected 4 images with random tasks:', selectedImages.map(i => `${i.word}(${i.type})`));
+            } else if (currentThemeImages.length > 0) {
+                // If less than 4 images available, select all and assign random tasks
+                selectedImages = [];
+                const available = [...currentThemeImages];
+                const taskTypes = ['circle', 'square', 'cross', 'count'];
 
-            available.forEach((img, index) => {
-                img.type = taskTypes[index % taskTypes.length];
-                selectedImages.push(img);
-            });
+                available.forEach((img, index) => {
+                    // Create a COPY with the assigned task type (don't mutate original)
+                    selectedImages.push({ ...img, type: taskTypes[index % taskTypes.length] });
+                });
 
-            renderSelectedObjectConfig();
-            console.log('Auto-selected', selectedImages.length, 'images (less than 4 available)');
+                renderSelectedObjectConfig();
+                console.log('Auto-selected', selectedImages.length, 'images (less than 4 available)');
+            }
         }
+        // MANUAL MODE: Use whatever user has selected (existing selectedImages)
+        // Validation happens in generateWorksheet()
 
         await generateWorksheet();
     });
@@ -4191,32 +4249,29 @@ async function downloadPDF(canvasToExport, filename) {
 
             // DO NOT call applyTranslations() - UI language is controlled by header selector
 
-            // CRITICAL FIX: Store IDs of currently selected images
-            const selectedIds = selectedImages.map(img => img.id);
-            console.log('Preserving selected image IDs:', selectedIds);
+            // Store paths (unique identifier) and task assignments of currently selected images
+            const selectedPaths = selectedImages.map(img => img.path);
+            const taskAssignments = {};
+            selectedImages.forEach(img => {
+                if (img.path && img.type) {
+                    taskAssignments[img.path] = img.type;
+                }
+            });
+            console.log('Preserving selected image paths:', selectedPaths);
 
             await loadThemes();
-            await loadThemeImages();
+            // loadThemeImages() is now called and awaited inside loadThemes()
 
-            // CRITICAL FIX: Update selectedImages with new language data while preserving task assignments
-            if (selectedIds.length > 0 && currentThemeImages.length > 0) {
-                // Store the old task assignments (type property)
-                const taskAssignments = {};
-                selectedImages.forEach(img => {
-                    if (img.id && img.type) {
-                        taskAssignments[img.id] = img.type;
-                    }
-                });
-
-                // Update selectedImages with fresh data from currentThemeImages
-                selectedImages = selectedIds
-                    .map(id => {
-                        const freshImg = currentThemeImages.find(img => img.id === id);
-                        if (freshImg && taskAssignments[id]) {
-                            // Restore the task assignment
-                            freshImg.type = taskAssignments[id];
+            // Update selectedImages with fresh data from currentThemeImages while preserving task assignments
+            if (selectedPaths.length > 0 && currentThemeImages.length > 0) {
+                selectedImages = selectedPaths
+                    .map(path => {
+                        const freshImg = currentThemeImages.find(img => img.path === path);
+                        if (freshImg) {
+                            // Create a COPY with preserved task assignment (don't mutate original)
+                            return { ...freshImg, type: taskAssignments[path] || 'none' };
                         }
-                        return freshImg;
+                        return undefined;
                     })
                     .filter(img => img !== undefined);
 

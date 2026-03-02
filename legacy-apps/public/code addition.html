@@ -1175,6 +1175,57 @@
     // Canvas config must be global for overlay function
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
     let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+    // ==========================================
+    // FEATURE GATING (themes + modes)
+    // ==========================================
+    const FE_THEMES = ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'];
+
+    const THEME_DB_MAP = {
+        'animals': 'animals',
+        'fruits': 'fruits',
+        'vegetables': 'vegetables',
+        'vehicles': 'vehicles',
+        'ocean-life': 'ocean_life',
+        'dinosaurs': 'dinosaurs',
+        'space': 'space',
+        'birds': 'birds',
+        'flowers': 'flowers',
+        'insects-and-bugs': 'insects_and_bugs',
+    };
+    function toDbTheme(name) { return THEME_DB_MAP[name] || name; }
+
+    const allowedThemesParam = urlParams.get('themes');
+    const tier = urlParams.get('tier') || 'free';
+
+    let themeWhitelist;
+    if (allowedThemesParam === 'all') {
+        themeWhitelist = null; // No restriction (OTO2 owner)
+    } else if (allowedThemesParam) {
+        themeWhitelist = allowedThemesParam.split(',');
+    } else if (tier === 'free') {
+        themeWhitelist = FE_THEMES; // Free/FE users get 10 themes
+    } else {
+        themeWhitelist = null;
+    }
+
+    const dbThemeWhitelist = themeWhitelist
+        ? themeWhitelist.map(name => toDbTheme(name))
+        : null;
+
+    // Mode gating: parse ?modes= param
+    const modesParam = urlParams.get('modes');
+    let allowedModes;
+    if (modesParam === 'all') {
+        allowedModes = null; // No restriction (OTO1 owner)
+    } else if (modesParam) {
+        allowedModes = modesParam.split(',');
+    } else {
+        // Default: regular mode only (FE users)
+        allowedModes = ['regular'];
+    }
+
+    const isWordRevealUnlocked = !allowedModes || allowedModes.includes('wordreveal');
   </script>
 
   <script>
@@ -1603,13 +1654,23 @@
         async function initializeImageLibrary() {
             try {
                 const themePaths = await (await fetch(`/api/themes-translated?locale=${currentLocale}`)).json();
-                
+
                 const worksheetThemeSelect = document.getElementById('worksheetThemeSelect');
-                
-                themeSelect.innerHTML = `<option value="all">${t('codeaddition.themes.all')}</option>`;
+
+                // Filter themes by whitelist (feature gating)
+                const filteredThemes = dbThemeWhitelist
+                    ? themePaths.filter(theme => dbThemeWhitelist.includes(theme.value))
+                    : themePaths;
+
+                themeSelect.innerHTML = '';
                 worksheetThemeSelect.innerHTML = `<option value="use_selected">${t('codeaddition.use.selected')}</option>`;
-                
-                themePaths.forEach(theme => {
+
+                // Only show "All Themes" for unrestricted users
+                if (!dbThemeWhitelist) {
+                    themeSelect.innerHTML = `<option value="all">${t('codeaddition.themes.all')}</option>`;
+                }
+
+                filteredThemes.forEach(theme => {
                     const option = document.createElement('option');
                     option.value = theme.value || theme;
                     option.textContent = theme.displayName || theme;
@@ -1690,6 +1751,10 @@
                         if (!res.ok) throw new Error(`Server search failed`);
                         const searchData = await res.json();
                         imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
+                        // Filter search results by theme whitelist
+                        if (dbThemeWhitelist) {
+                            imagesToDisplay = imagesToDisplay.filter(img => dbThemeWhitelist.includes(img.theme));
+                        }
                     } catch(e) {
                         showMessage(formatTranslation(t('codeaddition.msg.search.error'), {query: query}), 'error');
                     }
@@ -4084,6 +4149,7 @@
                 applyPixelLevelGrayscale: grayscaleToggle.checked
             };
 
+            const watermarkData = addWatermarkToCanvas(canvasInstance);
             try {
                 const dataURL = await getCanvasDataURLWithOptions(canvasInstance, exportOptions);
                 const link = document.createElement('a');
@@ -4094,6 +4160,7 @@
             } catch (e) {
                 showMessage(t('codeaddition.msg.pdf.error'), 'error');
             } finally {
+                removeWatermarkFromCanvas(canvasInstance, watermarkData);
                 updateDownloadButtonsState(true);
             }
         }
@@ -4256,6 +4323,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 applyPixelLevelGrayscale: grayscaleToggle.checked
             };
 
+            const watermarkData = addWatermarkToCanvas(canvasInstance);
             try {
                 // Create PDF with user-selected dimensions
                 const pdf = new jsPDF({ 
@@ -4270,6 +4338,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
             } catch (e) {
                 showMessage(t('codeaddition.msg.pdf.error'), 'error');
             } finally {
+                removeWatermarkFromCanvas(canvasInstance, watermarkData);
                 updateDownloadButtonsState(true);
             }
         }
@@ -4298,6 +4367,10 @@ async function downloadPDF(canvasInstance, baseFileName) {
                         const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Failed to fetch all images for random pool');
                         randomPool = await res.json();
+                        // Filter by theme whitelist
+                        if (dbThemeWhitelist) {
+                            randomPool = randomPool.filter(img => dbThemeWhitelist.includes(img.theme));
+                        }
                     } catch (e) {
                         showMessage(t('codeaddition.msg.images.error'), 'error');
                         return [];
@@ -4386,6 +4459,17 @@ async function downloadPDF(canvasInstance, baseFileName) {
         const wordRevealOptions = document.getElementById('wordRevealOptions');
         const exerciseCountInput = document.getElementById('exerciseCount');
         const secretWordInput = document.getElementById('secretWord');
+
+        // Mode gating: hide Word Reveal if not unlocked
+        const wordRevealSection = document.querySelector('.word-reveal-section');
+        if (!isWordRevealUnlocked && wordRevealSection) {
+            wordRevealSection.innerHTML = `
+                <div style="padding: 12px; background: rgba(255,165,0,0.1); border: 1px solid rgba(255,165,0,0.3); border-radius: 8px; text-align: center;">
+                    <i class="fas fa-lock" style="color: #ffa500; margin-bottom: 6px; font-size: 18px;"></i>
+                    <p style="color: #ffa500; font-size: 13px; font-weight: 600; margin-bottom: 4px;">Word Reveal Mode</p>
+                    <p style="color: var(--app-text-secondary-dark-theme); font-size: 11px;">Upgrade to unlock this feature</p>
+                </div>`;
+        }
 
         if (wordRevealCheckbox && wordRevealOptions) {
             wordRevealCheckbox.addEventListener('change', () => {

@@ -3207,7 +3207,8 @@ document.addEventListener("DOMContentLoaded", function() {
     async function downloadImageFile(canvasToExport, filename) {
         if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage(getTranslation('canvasNotAvailable', currentLocale), 'error');
         showMessage(getTranslation('preparingJPEG', currentLocale), 'info', 0);
-        
+
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             // Save current state
             const currentZoom = canvasToExport.getZoom();
@@ -3239,6 +3240,7 @@ document.addEventListener("DOMContentLoaded", function() {
             link.click();
             showMessage(getTranslation('jpegDownloadInitiated', currentLocale), 'success');
         } catch(e) { showMessage(getTranslation('errorPreparingJPEG', currentLocale), 'error'); console.error(e); }
+    finally { removeWatermarkFromCanvas(canvasToExport, watermarkData); }
     }
 
     
@@ -3384,6 +3386,7 @@ document.addEventListener("DOMContentLoaded", function() {
 async function downloadPDF(canvasToExport, filename) {
         if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage(getTranslation('canvasNotAvailable', currentLocale), 'error');
         showMessage(getTranslation('preparingPDF', currentLocale), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             
@@ -3427,6 +3430,7 @@ async function downloadPDF(canvasToExport, filename) {
             pdf.save(filename);
             showMessage(getTranslation('pdfDownloaded', currentLocale), 'success');
         } catch(e) { showMessage(getTranslation('errorCreatingPDF', currentLocale), 'error'); console.error(e); }
+    finally { removeWatermarkFromCanvas(canvasToExport, watermarkData); }
     }
 
     async function handlePageSizeChange() {

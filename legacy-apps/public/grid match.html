@@ -3278,12 +3278,13 @@
             const btnId = canvasToExport === wsCanvas ? 'downloadWsJpegBtn' : 'downloadAkJpegBtn';
             $(btnId).disabled = true;
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 // Save current state
                 const currentZoom = canvasToExport.getZoom();
                 const currentWidth = canvasToExport.getWidth();
                 const currentHeight = canvasToExport.getHeight();
-                
+
                 // Reset for export
                 canvasToExport.setZoom(1);
                 canvasToExport.setDimensions({
@@ -3309,6 +3310,7 @@
                 console.error("JPEG Download Error:", error);
                 showMessage(`Error preparing JPEG: ${error.message}`, 'error');
             } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
                 $(btnId).disabled = false;
             }
         }
@@ -3460,9 +3462,10 @@ async function downloadPDF(canvasToExport, filename) {
             const btnId = canvasToExport === wsCanvas ? 'downloadWsPdfBtn' : 'downloadAkPdfBtn';
             $(btnId).disabled = true;
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
-                
+
                 // Save current state
                 const currentZoom = canvasToExport.getZoom();
                 const currentWidth = canvasToExport.getWidth();
@@ -3504,6 +3507,7 @@ async function downloadPDF(canvasToExport, filename) {
                 console.error("PDF Download Error:", error);
                 showMessage(`Error creating PDF: ${error.message}`, 'error');
             } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
                 $(btnId).disabled = false;
             }
         }

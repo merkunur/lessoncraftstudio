@@ -1195,6 +1195,43 @@ if (localeParam) {
     currentLocale = localeParam;  // Initial content language matches UI language
 }
 
+// ==========================================
+// FEATURE GATING (themes)
+// ==========================================
+const FE_THEMES = ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'];
+
+const THEME_DB_MAP = {
+    'animals': 'animals',
+    'fruits': 'fruits',
+    'vegetables': 'vegetables',
+    'vehicles': 'vehicles',
+    'ocean-life': 'ocean_life',
+    'dinosaurs': 'dinosaurs',
+    'space': 'space',
+    'birds': 'birds',
+    'flowers': 'flowers',
+    'insects-and-bugs': 'insects_and_bugs',
+};
+function toDbTheme(name) { return THEME_DB_MAP[name] || name; }
+
+const allowedThemesParam = urlParams.get('themes');
+const tier = urlParams.get('tier') || 'free';
+
+let themeWhitelist;
+if (allowedThemesParam === 'all') {
+    themeWhitelist = null; // No restriction (OTO1 owner)
+} else if (allowedThemesParam) {
+    themeWhitelist = allowedThemesParam.split(',');
+} else if (tier === 'free') {
+    themeWhitelist = FE_THEMES; // Free/FE users get 10 themes
+} else {
+    themeWhitelist = null;
+}
+
+const dbThemeWhitelist = themeWhitelist
+    ? themeWhitelist.map(name => toDbTheme(name))
+    : null;
+
 // Set both locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
 window.uiLocale = uiLocale;
 window.currentLocale = currentLocale;
@@ -2387,9 +2424,18 @@ document.addEventListener("DOMContentLoaded", function() {
             const themePaths = await res.json();
             
             elements.themeSelect.innerHTML = ''; // Clear existing
-            elements.themeSelect.add(new Option(t('mathpuzzle.themes.all'), 'all'));
-            
-            themePaths.forEach(theme => {
+
+            // Filter themes by whitelist (feature gating)
+            const filteredThemes = dbThemeWhitelist
+                ? themePaths.filter(theme => dbThemeWhitelist.includes(theme.value))
+                : themePaths;
+
+            // Only show "All Themes" for unrestricted users
+            if (!dbThemeWhitelist) {
+                elements.themeSelect.add(new Option(t('mathpuzzle.themes.all'), 'all'));
+            }
+
+            filteredThemes.forEach(theme => {
                 const option = new Option(theme.displayName, theme.value);
                 elements.themeSelect.add(option);
             });
@@ -2431,10 +2477,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (selectedTheme === 'all') {
             if (!query) {
-                // Load animals theme by default when "All Themes" is selected with no search
+                // Load first allowed theme by default when "All Themes" is selected with no search
+                const defaultTheme = (dbThemeWhitelist && dbThemeWhitelist.length > 0) ? dbThemeWhitelist[0] : 'animals';
                 elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.loading.default')}</p>`;
                 try {
-                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(defaultTheme)}&locale=${currentLocale}`);
                     if (!res.ok) {
                         showMessage(t('mathpuzzle.error.load.default'), 'error');
                         throw new Error(t('mathpuzzle.error.load.default'));
@@ -2457,6 +2504,10 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                     const data = await res.json();
                     imagesToDisplay = data.images || data;
+                    // Filter search results by theme whitelist
+                    if (dbThemeWhitelist) {
+                        imagesToDisplay = imagesToDisplay.filter(img => dbThemeWhitelist.includes(img.theme));
+                    }
                     currentThemeImages = imagesToDisplay; // Cache for random selection
                 } catch (err) {
                      console.error("Error searching images:", err);
@@ -3715,6 +3766,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!canvasToExport) return;
         showMessage(t('mathpuzzle.msg.preparing.jpeg'), 'info', 2000);
 
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getCanvasDataURL(canvasToExport);
             const link = document.createElement('a');
@@ -3723,6 +3775,8 @@ document.addEventListener("DOMContentLoaded", function() {
             link.click();
         } catch (error) {
             showMessage(t('mathpuzzle.msg.jpeg.error').replace('{error}', error.message), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 
@@ -3870,6 +3924,7 @@ async function downloadPDF(canvasToExport, filename) {
         if (!canvasToExport) return;
         showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 2000);
 
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3885,6 +3940,8 @@ async function downloadPDF(canvasToExport, filename) {
 
         } catch (error) {
             showMessage(t('mathpuzzle.msg.pdf.error.detailed').replace('{error}', error.message), "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 

@@ -43,14 +43,10 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Atividade de matem\u00e1tica', nl: 'Rekenwerkblad', da: 'Regneopgaver', sv: 'Matte\u00f6vningsblad', no: 'Matteoppgaver', fi: 'Matematiikkateht\u00e4v\u00e4t',
   },
 
-  // ── Literacy (8) ──
+  // ── Literacy (7) ──
   'alphabet-train': {
     en: 'Alphabet Train', de: 'ABC-Zug', fr: 'Train de l\'alphabet', es: 'Tren del abecedario', it: 'Trenino dell\'alfabeto',
     pt: 'Trenzinho do alfabeto', nl: 'Alfabettrein', da: 'Alfabettog', sv: 'Alfabet\u00e5t\u00e5get', no: 'Alfabettoget', fi: 'Aakkosjuna',
-  },
-  'cvc-words': {
-    en: 'CVC Words', de: 'KVK-W\u00f6rter', fr: 'Mots CVC', es: 'Palabras CVC', it: 'Parole CVC',
-    pt: 'Palavras CVC', nl: 'KMK-woorden', da: 'KVK-ord', sv: 'KVK-ord', no: 'KVK-ord', fi: 'KVK-sanat',
   },
   'prepositions': {
     en: 'Prepositions', de: 'Pr\u00e4positionen', fr: 'Pr\u00e9positions', es: 'Preposiciones', it: 'Preposizioni',

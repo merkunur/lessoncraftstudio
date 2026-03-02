@@ -3271,13 +3271,14 @@
                 return;
             }
             showMessage(t('missingpieces.msg.preparing.jpeg'), 'info', 0);
-            
+
             // Use high multiplier for better quality
-            const exportOptions = { 
-                multiplier: downloadMultiplier || 6, 
-                format: 'jpeg' 
+            const exportOptions = {
+                multiplier: downloadMultiplier || 6,
+                format: 'jpeg'
             };
-            
+
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 const link = document.createElement('a');
@@ -3287,6 +3288,8 @@
                 showMessage(t('missingpieces.msg.jpeg.success'), 'success', 3000);
             } catch (error) {
                 showMessage(t('missingpieces.msg.jpeg.error').replace('{error}', error.message), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         
@@ -3448,6 +3451,7 @@ async function downloadPDF(canvasToExport, filename) {
                 format: [currentCanvasConfig.width, currentCanvasConfig.height]
             });
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 // Use high-quality export function with multiplier
                 const exportOptions = { 
@@ -3462,6 +3466,8 @@ async function downloadPDF(canvasToExport, filename) {
                 showMessage(t('missingpieces.msg.pdf.quality.success'), 'success');
             } catch (error) {
                 showMessage(t('missingpieces.msg.pdf.error.detailed').replace('{error}', error.message), "error");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 

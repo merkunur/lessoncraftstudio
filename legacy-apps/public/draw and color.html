@@ -2910,6 +2910,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function downloadImageFile() {
         showMessage(t('drawcolor.msg.preparing.jpeg'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const exportOptions = {
                 multiplier: downloadMultiplier,
@@ -2924,6 +2925,8 @@ document.addEventListener("DOMContentLoaded", function() {
         } catch (e) {
             showMessage(t('drawcolor.msg.jpeg.error'), 'error');
             console.error(e);
+        } finally {
+            removeWatermarkFromCanvas(worksheetCanvas, watermarkData);
         }
     }
 
@@ -3069,6 +3072,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 async function downloadPDF() {
         showMessage('Preparing PDF...', 'info', 0);
+        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3090,6 +3094,8 @@ async function downloadPDF() {
         } catch (e) {
             showMessage(t('drawcolor.msg.pdf.error'), 'error');
             console.error(e);
+        } finally {
+            removeWatermarkFromCanvas(worksheetCanvas, watermarkData);
         }
     }
 

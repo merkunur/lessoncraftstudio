@@ -3534,6 +3534,7 @@
         });
         
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
             
@@ -3557,6 +3558,8 @@
                 height: currentHeight
             });
             showMessage(t('jpegError') + ': ' + e.message, 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 
@@ -3722,7 +3725,8 @@ async function downloadPDF(canvasToExport, fileName) {
         const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
         const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
-        
+
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const imgData = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
             pdf.addImage(imgData, "JPEG", 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
@@ -3744,6 +3748,8 @@ async function downloadPDF(canvasToExport, fileName) {
                 height: currentHeight
             });
             showMessage(t('pdfError') + ': ' + e.message, "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
     

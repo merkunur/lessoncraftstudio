@@ -2877,6 +2877,7 @@
             }
             showMessage(t('pattern.worksheet.msg.preparing').replace('{format}', format.toUpperCase()), 'info', 0);
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, {
                     format: format,
@@ -2888,6 +2889,8 @@
                 showMessage(t('pattern.worksheet.msg.download.initiated'), 'success', 3000);
             } catch (err) {
                 showMessage(t('pattern.worksheet.msg.file.error').replace('{message}', err.message), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         
@@ -3038,6 +3041,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             }
             showMessage(t('pattern.worksheet.msg.preparing.pdf'), 'info', 0);
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
@@ -3059,6 +3063,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 showMessage(t('pattern.worksheet.msg.pdf.downloaded.alt'), 'success', 3000);
             } catch (err) {
                 showMessage(t('pattern.worksheet.msg.pdf.error.detailed').replace('{message}', err.message), "error");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         

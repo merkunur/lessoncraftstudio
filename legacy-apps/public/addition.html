@@ -3872,12 +3872,13 @@
             return;
         }
         showMessage(`Preparing ${fileName}...`, 'info', 0);
-        
+
         const exportOpts = {
             multiplier: downloadMultiplier,
             applyPixelLevelGrayscale: grayscaleToggle.checked
         };
-        
+
+        const watermarkData = addWatermarkToCanvas(canvasInstance);
         try {
             // Save current state
             const currentZoom = canvasInstance.getZoom();
@@ -3904,6 +3905,8 @@
             showMessage(t('downloadInitiated'), 'success');
         } catch (e) {
             showMessage(t('jpegError').replace('{}', e.message), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasInstance, watermarkData);
         }
     }
 
@@ -3925,21 +3928,22 @@
             applyPixelLevelGrayscale: grayscaleToggle.checked
         };
 
+        const watermarkData = addWatermarkToCanvas(canvasInstance);
         try {
             // Save current state
             const currentZoom = canvasInstance.getZoom();
             const currentWidth = canvasInstance.getWidth();
             const currentHeight = canvasInstance.getHeight();
-            
+
             // Reset to actual size for export
             canvasInstance.setZoom(1);
             canvasInstance.setDimensions({
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
             });
-            
+
             const imgData = await getCanvasDataURLWithOptions(canvasInstance, exportOpts);
-            
+
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
             const pdf = new jsPDF({
                 orientation,
@@ -3948,18 +3952,20 @@
             });
 
             pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-            
+
             // Restore display state
             canvasInstance.setZoom(currentZoom);
             canvasInstance.setDimensions({
                 width: currentWidth,
                 height: currentHeight
             });
-            
+
             pdf.save(fileName);
             showMessage(t('pdfDownloaded'), "success");
         } catch (e) {
             showMessage(t('pdfError').replace('{}', e.message), "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasInstance, watermarkData);
         }
     }
     // END: Standardized Download Functions

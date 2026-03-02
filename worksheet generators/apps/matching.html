@@ -3116,12 +3116,17 @@
             }
             showMessage(t('preparingFile').replace('{filename}', fileName), 'info', 0);
             const exportOptions = { multiplier: downloadMultiplier };
-            const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
-            const link = document.createElement('a');
-            link.download = fileName;
-            link.href = dataURL;
-            link.click();
-            showMessage(t('downloadInitiated').replace('{filename}', fileName), "success");
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            try {
+                const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+                const link = document.createElement('a');
+                link.download = fileName;
+                link.href = dataURL;
+                link.click();
+                showMessage(t('downloadInitiated').replace('{filename}', fileName), "success");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
         };
 
         const downloadPDF = async (canvasToExport, fileName) => {
@@ -3137,10 +3142,15 @@
             });
 
             const exportOptions = { multiplier: downloadMultiplier };
-            const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
-            pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-            pdf.save(fileName);
-            showMessage(t('downloadComplete').replace('{filename}', fileName), "success");
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            try {
+                const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+                pdf.save(fileName);
+                showMessage(t('downloadComplete').replace('{filename}', fileName), "success");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
         };
         
         const clearAll = () => {

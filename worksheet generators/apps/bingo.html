@@ -2816,13 +2816,14 @@
           showMessage('preparingFile', 'info', 0, {filename: filename});
           const btns = [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn];
           btns.forEach(btn => btn.disabled = true);
+          const watermarkData = addWatermarkToCanvas(canvasInstance);
           try {
               if (!canvasInstance || canvasInstance.getObjects().length === 0) throw new Error(t('canvasIsEmpty'));
               const dataURL = await getCanvasDataURL(canvasInstance, { multiplier: downloadMultiplier });
               const link = document.createElement('a'); link.download = filename; link.href = dataURL; link.click();
               showMessage('downloadInitiated', 'success', 3000);
-          } catch (error) { showMessage('errorPreparingJpeg', 'error', 3000, {error: error.message}); } 
-          finally { btns.forEach(btn => btn.disabled = !worksheetCanvas.bingoData); }
+          } catch (error) { showMessage('errorPreparingJpeg', 'error', 3000, {error: error.message}); }
+          finally { removeWatermarkFromCanvas(canvasInstance, watermarkData); btns.forEach(btn => btn.disabled = !worksheetCanvas.bingoData); }
       }
 
       async function downloadWorksheetAsZip() {
@@ -2869,7 +2870,9 @@
                     }));
                 }
                 offscreenCanvas.renderAll();
+                const watermarkData = addWatermarkToCanvas(offscreenCanvas);
                 const pageDataURL = await getCanvasDataURL(offscreenCanvas, { multiplier: downloadMultiplier });
+                removeWatermarkFromCanvas(offscreenCanvas, watermarkData);
                 zip.file(`bingo_card_${i + 1}.jpeg`, dataURLtoBlob(pageDataURL));
             }
 
@@ -2938,13 +2941,16 @@
                             }));
                         }
                         offscreenCanvas.renderAll();
-
+                        const watermarkData = addWatermarkToCanvas(offscreenCanvas);
                         const pageDataURL = await getCanvasDataURL(offscreenCanvas, { multiplier: downloadMultiplier });
+                        removeWatermarkFromCanvas(offscreenCanvas, watermarkData);
                         pdf.addImage(pageDataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                     }
                     offscreenCanvas.dispose();
                 } else {
+                    const watermarkData = addWatermarkToCanvas(canvasInstance);
                     const dataURL = await getCanvasDataURL(canvasInstance, { multiplier: downloadMultiplier });
+                    removeWatermarkFromCanvas(canvasInstance, watermarkData);
                     pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 }
                 

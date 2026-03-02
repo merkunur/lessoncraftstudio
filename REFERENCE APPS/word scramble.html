@@ -3438,16 +3438,19 @@
             const canvasName = canvasToExport === answerKeyCanvas ? 'answer-key' : 'worksheet';
             const canvasText = canvasName.replace('-', ' ');
             showMessage(t('preparingCanvas').replace('{canvas}', canvasText), 'info', 0);
-            
+
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, format);
                 const link = document.createElement('a');
-                link.download = `word-scramble_${canvasName}.${format}`; 
+                link.download = `word-scramble_${canvasName}.${format}`;
                 link.href = dataURL;
                 link.click();
                 showMessage(t('downloadInitiated'), 'success');
-            } catch (error) { 
+            } catch (error) {
                 showMessage(t('errorPreparingImage').replace('{error}', error.message), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 
@@ -3596,22 +3599,25 @@
             const canvasText = canvasName.replace('-', ' ');
             showMessage(t('preparingCanvasPdf').replace('{canvas}', canvasText), 'info', 0);
 
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
-                const pdf = new jsPDF({ 
-                    orientation, 
-                    unit: 'pt', 
-                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+                const pdf = new jsPDF({
+                    orientation,
+                    unit: 'pt',
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height]
                 });
-                
+
                 const imgData = await getCanvasDataURL(canvasToExport, 'jpeg');
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
+
                 pdf.save(`word-scramble_${canvasName}.pdf`);
                 showMessage(t('pdfDownloadComplete'), 'success');
-            } catch (error) { 
+            } catch (error) {
                 showMessage(t('errorCreatingPdfWithMessage').replace('{error}', error.message), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 

@@ -2809,6 +2809,7 @@
             return;
         }
         showMessage(t('message.preparingJpeg'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasInstance);
         try {
             const pngDataURL = await getCanvasDataURL(canvasInstance);
             let jpegDataURL = await convertToJPEG(pngDataURL);
@@ -2826,6 +2827,8 @@
         } catch (e) {
             console.error(e);
             showMessage(t('message.jpegError'), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasInstance, watermarkData);
         }
     }
 
@@ -2835,6 +2838,7 @@
             return;
         }
         showMessage(t('message.preparingPdf'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasInstance);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -2862,6 +2866,8 @@
         } catch (e) {
             console.error(e);
             showMessage(t('message.pdfError'), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasInstance, watermarkData);
         }
     }
     

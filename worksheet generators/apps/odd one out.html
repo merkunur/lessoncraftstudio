@@ -3578,6 +3578,7 @@
               return;
           }
           showMessage(t('oddoneout.msg.preparing.jpeg'), 'info', 0);
+          const watermarkData = addWatermarkToCanvas(canvas);
           try {
               const grayscale = ui.grayscaleToggle.checked;
               const dataURL = await getCanvasDataURL(canvas, grayscale);
@@ -3589,6 +3590,8 @@
           } catch(e) {
               showMessage(t('oddoneout.msg.jpeg.error'), 'error');
               console.error("JPEG Download Error:", e);
+          } finally {
+              removeWatermarkFromCanvas(canvas, watermarkData);
           }
       };
       
@@ -3598,6 +3601,7 @@
               return;
           }
           showMessage(t('oddoneout.msg.preparing.pdf'), 'info', 0);
+          const watermarkData = addWatermarkToCanvas(canvas);
           try {
               const { jsPDF } = window.jspdf;
               const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3613,8 +3617,10 @@
               pdf.save(fileName);
               showMessage(t('oddoneout.msg.pdf.downloaded'), 'success');
           } catch(e) {
-              showMessage(t('oddoneout.msg.pdf.error'), 'error'); 
+              showMessage(t('oddoneout.msg.pdf.error'), 'error');
               console.error("PDF Download Error:", e);
+          } finally {
+              removeWatermarkFromCanvas(canvas, watermarkData);
           }
       };
       // END OF CHANGES

@@ -3910,7 +3910,8 @@
     async function downloadImageFile(format, canvasToExport) {
         const canvasName = canvasToExport === worksheetCanvas ? 'worksheet' : 'answer-key';
         showMessage(t('shadow.match.msg.preparing', {canvasName: canvasName.replace('-', ' ')}), 'info', 0);
-        
+
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getCanvasDataURL(canvasToExport, format);
             if(dataURL){
@@ -3922,7 +3923,10 @@
             } else {
                 throw new Error(t('shadow.match.msg.error'));
             }
-        } catch (error) { showMessage(t('shadow.match.msg.image.error', {message: error.message}), 'error'); } 
+        } catch (error) { showMessage(t('shadow.match.msg.image.error', {message: error.message}), 'error'); }
+        finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
+        }
     }
     
     // Check if user is on free tier
@@ -4067,6 +4071,7 @@
 async function downloadPDF(canvasToExport) {
         const canvasName = canvasToExport === worksheetCanvas ? 'worksheet' : 'answer-key';
         showMessage(t('shadow.match.msg.preparing.hq.pdf', {canvasName: canvasName.replace('-', ' ')}), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -4094,7 +4099,9 @@ async function downloadPDF(canvasToExport) {
             }
         } catch (error) {
             console.error('PDF Error:', error);
-            showMessage(t('shadow.match.msg.pdf.error.detailed', {message: error.message}), "error"); 
+            showMessage(t('shadow.match.msg.pdf.error.detailed', {message: error.message}), "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 

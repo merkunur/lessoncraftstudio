@@ -50,7 +50,6 @@ const appFileMap: Record<string, string> = {
   'big-small-app': 'big small.html',
   'chart-count-color': 'chart count.html',
   'code-addition': 'code addition.html',
-  'cvc-words': 'cvc words.html',
   'draw-and-color': 'draw and color.html',
   'find-objects': 'find objects.html',
   'grid-match': 'grid match.html',
@@ -324,9 +323,6 @@ const appDescriptions: Record<string, Record<string, string>> = {
   },
   'alphabet-train': {
     en: 'Create alphabet train worksheets for letter recognition and sequencing practice.',
-  },
-  'cvc-words': {
-    en: 'Create CVC word worksheets with 10 template layouts. Practice consonant-vowel-consonant words with images, scrambles, crosswords, and more.',
   },
   prepositions: {
     en: 'Generate preposition worksheets with visual scenes for spatial language practice.',

@@ -3421,6 +3421,7 @@
         async function downloadImageFile(canvasToExport, fileName) {
             if (!canvasToExport) { showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
             showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
@@ -3429,6 +3430,8 @@
                 showMessage(t("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
             } catch (error) {
                 showMessage(t("cryptogram.msg.jpeg.error", {error: error.message}) || `Error preparing JPEG: ${error.message}`, 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         
@@ -3575,6 +3578,7 @@
 async function downloadPDF(canvasToExport, fileName) {
             if (!canvasToExport) { showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
             showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3588,6 +3592,8 @@ async function downloadPDF(canvasToExport, fileName) {
                 showMessage(t("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
             } catch (error) {
                 showMessage(t("cryptogram.msg.pdf.error.details", {error: error.message}) || `Error creating PDF: ${error.message}`, "error");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
         

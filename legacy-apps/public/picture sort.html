@@ -3160,6 +3160,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showMessage('info', t('picture.sort.msg.preparing.jpeg', {name}), 0);
         updateDownloadButtonsState(false, false);
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOpts);
             const link = document.createElement('a');
@@ -3170,6 +3171,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
             showMessage('error', t('picture.sort.msg.jpeg.error', {message: e.message}));
         } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
             updateDownloadButtonsState(true, lastGeneratedData != null);
         }
     }
@@ -3320,6 +3322,7 @@ async function downloadPDF(name, canvasToExport) {
         updateDownloadButtonsState(false, false);
         const { jsPDF } = window.jspdf;
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOpts);
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3330,6 +3333,7 @@ async function downloadPDF(name, canvasToExport) {
         } catch (e) {
             showMessage('error', t('picture.sort.msg.pdf.error.detailed', {message: e.message}));
         } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
             updateDownloadButtonsState(true, lastGeneratedData != null);
         }
     }

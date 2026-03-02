@@ -420,9 +420,8 @@ var keyToTheme = {};
 
 function getImageUrl(vocabKey) {
   var theme = keyToTheme[vocabKey];
-  if (!theme || !IMAGE_VOCABULARY[vocabKey]) return null;
-  var enName = IMAGE_VOCABULARY[vocabKey].en[0];
-  return '/images/' + theme + '/' + encodeURIComponent(enName) + '.png';
+  if (!theme) return null;
+  return '/images/' + theme + '/' + encodeURIComponent(vocabKey) + '.png';
 }
 
 function getWord(vocabKey, locale) {

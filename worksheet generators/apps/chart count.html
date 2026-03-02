@@ -3563,7 +3563,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         showMessage('info', t('chartcount.msg.preparing.download'), 0);
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
-        
+
+        const watermarkData = addWatermarkToCanvas(canvas);
         try {
             const dataURL = await getCanvasDataURLWithOptions(canvas, exportOpts);
             const link = document.createElement('a');
@@ -3573,8 +3574,10 @@ document.addEventListener('DOMContentLoaded', function() {
             link.click();
             document.body.removeChild(link);
             showMessage('success', t('chartcount.msg.library.ready'), 3000);
-        } catch (e) { 
+        } catch (e) {
             showMessage('error', t('chartcount.msg.download.error'));
+        } finally {
+            removeWatermarkFromCanvas(canvas, watermarkData);
         }
     }
     
@@ -3585,7 +3588,8 @@ document.addEventListener('DOMContentLoaded', function() {
         showMessage('info', t('chartcount.msg.preparing.download'), 0);
         const { jsPDF } = window.jspdf;
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
-        
+
+        const watermarkData = addWatermarkToCanvas(canvas);
         try {
             const imgData = await getCanvasDataURLWithOptions(canvas, exportOpts);
             // Determine orientation based on user-selected dimensions
@@ -3602,8 +3606,10 @@ document.addEventListener('DOMContentLoaded', function() {
             pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
             showMessage('success', t('chartcount.msg.library.ready'));
-        } catch (e) { 
+        } catch (e) {
             showMessage('error', t('chartcount.msg.pdf.error'));
+        } finally {
+            removeWatermarkFromCanvas(canvas, watermarkData);
         }
     }
 

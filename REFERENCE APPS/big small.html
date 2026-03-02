@@ -3573,6 +3573,7 @@
           showMessage(formatTranslation(t('bigsmall.msg.preparing'), {filename: fileName}), 'info', 0);
           [downloadWorksheetJpegBtn, downloadAnswerKeyJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
           
+          const watermarkData = addWatermarkToCanvas(canvasInstance);
           try {
               const exportOptions = {
                   multiplier: downloadMultiplier,
@@ -3588,6 +3589,7 @@
               showMessage(formatTranslation(t('bigsmall.msg.jpeg.error'), {message: e.message}), 'error');
               console.error(e);
           } finally {
+              removeWatermarkFromCanvas(canvasInstance, watermarkData);
               if(worksheetCanvas.getObjects().some(o => o.isBigSmallExercise)) {
                   downloadWorksheetJpegBtn.disabled = false;
                   downloadWorksheetPdfBtn.disabled = false;
@@ -3747,6 +3749,7 @@ async function downloadPDF(canvasInstance, fileName) {
           showMessage(formatTranslation(t('bigsmall.msg.preparing'), {filename: fileName}), 'info', 0);
           [downloadWorksheetJpegBtn, downloadAnswerKeyJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
           
+          const watermarkData = addWatermarkToCanvas(canvasInstance);
           try {
               const { jsPDF } = window.jspdf;
               const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3761,10 +3764,11 @@ async function downloadPDF(canvasInstance, fileName) {
               pdf.addImage(img, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
               pdf.save(fileName);
               showMessage('PDF Downloaded!', 'success');
-          } catch(e) { 
-              showMessage(`PDF Error: ${e.message}`, "error"); 
+          } catch(e) {
+              showMessage(`PDF Error: ${e.message}`, "error");
               console.error(e);
-          } finally { 
+          } finally {
+              removeWatermarkFromCanvas(canvasInstance, watermarkData);
               if(worksheetCanvas.getObjects().some(o => o.isBigSmallExercise)) {
                   downloadWorksheetJpegBtn.disabled = false;
                   downloadWorksheetPdfBtn.disabled = false;

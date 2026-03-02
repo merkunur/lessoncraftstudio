@@ -3213,6 +3213,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     async function downloadImageFile() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingJpegWait'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             const worksheetDataURL = await getCanvasDataURL(worksheetCanvas, exportOptions);
@@ -3222,6 +3223,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             link.click();
             showMessage(t('jpegDownloadInitiated'), 'success', 3000);
         } catch (error) { showMessage(t('errorPreparingJpeg', {error: error.message}), 'error'); }
+        finally { removeWatermarkFromCanvas(worksheetCanvas, watermarkData); }
     }
     
     
@@ -3367,6 +3369,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 async function downloadPDF() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingPdfWait'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const { jsPDF } = window.jspdf;
             const { width, height } = currentCanvasConfig;
@@ -3378,6 +3381,7 @@ async function downloadPDF() {
             pdf.save("drawing_lines_worksheet.pdf");
             showMessage(t('pdfDownloaded'), 'success', 3000);
         } catch (error) { showMessage(t('errorCreatingPdf', {error: error.message}), "error"); }
+        finally { removeWatermarkFromCanvas(worksheetCanvas, watermarkData); }
     }
 
     initializeApp();

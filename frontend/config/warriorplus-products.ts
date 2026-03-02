@@ -18,9 +18,8 @@ export const ALL_APPS = {
   'math-puzzle': { name: 'Math Puzzle', category: 'math', tier: 3, htmlFile: 'math puzzle.html' },
   'math-worksheet': { name: 'Math Worksheet', category: 'math', tier: 1, htmlFile: 'math worksheet.html' },
 
-  // Literacy apps (8)
+  // Literacy apps (7)
   'alphabet-train': { name: 'Alphabet Train', category: 'literacy', tier: 3, htmlFile: 'alphabet train.html' },
-  'cvc-words': { name: 'CVC Words', category: 'literacy', tier: 3, htmlFile: 'cvc words.html' },
   'prepositions': { name: 'Prepositions', category: 'literacy', tier: 4, htmlFile: 'prepositions.html' },
   'word-guess': { name: 'Word Guess', category: 'literacy', tier: 4, htmlFile: 'word guess.html' },
   'word-scramble': { name: 'Word Scramble', category: 'literacy', tier: 2, htmlFile: 'word scramble.html' },
@@ -74,7 +73,7 @@ export const APP_CATEGORIES = {
   literacy: {
     name: 'Literacy & Language',
     description: 'Word games, writing practice, and language learning tools',
-    apps: ['alphabet-train', 'cvc-words', 'prepositions', 'word-guess', 'word-scramble', 'wordsearch', 'cryptogram', 'writing'] as AppId[],
+    apps: ['alphabet-train', 'prepositions', 'word-guess', 'word-scramble', 'wordsearch', 'cryptogram', 'writing'] as AppId[],
     color: '#10B981',
     icon: 'book-open',
   },

@@ -3460,6 +3460,7 @@
         if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage(t("pattern.train.msg.generate.first"), "error"); return; }
         showMessage(t('pattern.train.msg.preparing.jpeg'), 'info', 0);
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
             const link = document.createElement('a');
@@ -3469,6 +3470,8 @@
             showMessage(t('pattern.train.msg.jpeg.initiated'), 'success');
         } catch (e) {
             showMessage(t('pattern.train.msg.jpeg.error').replace('{error}', e.message), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 
@@ -3622,6 +3625,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
         showMessage(t('pattern.train.msg.preparing.pdf'), 'info', 0);
 
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             // Check if jsPDF is loaded
             if (!window.jspdf) {
@@ -3656,6 +3660,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
         } catch (e) {
             console.error('PDF Error:', e);
             showMessage(t('pattern.train.msg.pdf.error').replace('{error}', e.message), "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
     

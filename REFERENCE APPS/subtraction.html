@@ -3719,6 +3719,7 @@
         if (button) button.disabled = true;
 
         const exportOptions = { multiplier: downloadMultiplier, grayscale: grayscaleToggle.checked };
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
             const link = document.createElement('a');
@@ -3726,7 +3727,7 @@
             link.click();
             showMessage(t('downloadInitiated'), 'success', 3000);
         } catch (error) { showMessage(t('errorPreparingJpeg', {error: error.message}), 'error');
-        } finally { if (button) button.disabled = false; }
+        } finally { removeWatermarkFromCanvas(canvasToExport, watermarkData); if (button) button.disabled = false; }
     }
 
     
@@ -3880,18 +3881,19 @@ async function downloadPDF(canvasToExport, fileName) {
         showMessage(t('preparingFile', {filename: fileName}), 'info', 0);
         if (button) button.disabled = true;
 
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
-            const pdf = new jsPDF({ 
-                orientation, 
-                unit: 'pt', 
-                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            const pdf = new jsPDF({
+                orientation,
+                unit: 'pt',
+                format: [currentCanvasConfig.width, currentCanvasConfig.height]
             });
-            
-            const exportOptions = { 
-                multiplier: downloadMultiplier || 6, 
-                grayscale: grayscaleToggle.checked 
+
+            const exportOptions = {
+                multiplier: downloadMultiplier || 6,
+                grayscale: grayscaleToggle.checked
             };
 
             const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
@@ -3900,7 +3902,7 @@ async function downloadPDF(canvasToExport, fileName) {
             pdf.save(fileName);
             showMessage(t('message.pdfSuccess'), 'success', 3000);
         } catch (error) { showMessage(t('message.pdfCreateError', {error: error.message}), "error");
-        } finally { if (button) button.disabled = false; }
+        } finally { removeWatermarkFromCanvas(canvasToExport, watermarkData); if (button) button.disabled = false; }
     }
 
     // --- Border & Background Logic ---

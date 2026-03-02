@@ -3320,6 +3320,7 @@
                 return;
             }
             showMessage(formatTranslation(t('message.preparing'), { format: format.toUpperCase() }), 'info', 0);
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, format);
                 const link = document.createElement('a');
@@ -3328,6 +3329,8 @@
                 link.click();
                 showMessage(t('message.downloadStarted'), 'success');
             } catch (error) { showMessage(formatTranslation(t('message.imageError'), { error: error.message }), 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 
@@ -3477,6 +3480,7 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
                 return;
             }
             showMessage(t('message.preparingPdf'), 'info', 0);
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -3493,6 +3497,8 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
                 pdf.save(`clue-grid_${fileName}.pdf`);
                 showMessage(t('message.pdfDownloaded'), 'success');
             } catch (error) { showMessage(formatTranslation(t('message.pdfError'), { error: error.message }), "error");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 

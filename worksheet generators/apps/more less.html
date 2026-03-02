@@ -3904,6 +3904,7 @@
 
     async function downloadImageFile(canvasToExport, filename) {
         showSidebarMessage(t('moreless.msg.preparing.jpeg'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const options = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
             const url = await getCanvasDataURLWithOptions(canvasToExport, options);
@@ -3914,6 +3915,8 @@
             showSidebarMessage(t('moreless.msg.jpeg.success'), 'success', 3000);
         } catch (e) {
             showSidebarMessage(t('moreless.msg.jpeg.error').replace('{error}', e.message), 'error');
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 
@@ -4059,6 +4062,7 @@
 
 async function downloadPDF(canvasToExport, filename) {
         showSidebarMessage(t('moreless.msg.preparing.pdf'), 'info', 0);
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;
             // Use the user-selected dimensions from currentCanvasConfig
@@ -4072,6 +4076,8 @@ async function downloadPDF(canvasToExport, filename) {
             showSidebarMessage(t('moreless.msg.pdf.downloaded'), 'success', 3000);
         } catch (e) {
             showSidebarMessage(t('moreless.msg.pdf.error.detailed').replace('{error}', e.message), "error");
+        } finally {
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
     

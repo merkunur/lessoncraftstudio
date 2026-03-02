@@ -6662,6 +6662,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
 
+      const watermarkData = addWatermarkToCanvas(canvasToExport);
       try {
           const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
           const link = document.createElement('a');
@@ -6671,6 +6672,8 @@ document.addEventListener("DOMContentLoaded", function() {
           displayMessage(t('picture.pathway.msg.download.initiated'), 'success', 3000);
       } catch (error) {
           displayMessage(t('picture.pathway.msg.jpeg.error').replace('{message}', error.message), 'error');
+      } finally {
+          removeWatermarkFromCanvas(canvasToExport, watermarkData);
       }
   }
 
@@ -6821,6 +6824,7 @@ async function downloadPDF(canvasToExport, fileName) {
       }
       displayMessage(t('picture.pathway.msg.preparing.file').replace('{fileName}', fileName), 'info', 0);
 
+      const watermarkData = addWatermarkToCanvas(canvasToExport);
       try {
           const { jsPDF } = window.jspdf;
           const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -6836,6 +6840,8 @@ async function downloadPDF(canvasToExport, fileName) {
           displayMessage(t('picture.pathway.msg.pdf.downloaded.alt'), 'success', 3000);
       } catch (error) {
           displayMessage(t('picture.pathway.msg.pdf.error.detailed').replace('{message}', error.message), "error");
+      } finally {
+          removeWatermarkFromCanvas(canvasToExport, watermarkData);
       }
   }
   

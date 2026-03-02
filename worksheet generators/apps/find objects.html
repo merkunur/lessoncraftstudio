@@ -4423,6 +4423,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
         async function downloadImageFile(canvasToExport, baseFileName) {
             showMessage(`Preparing ${baseFileName}.jpeg...`, 'info', 0);
             const exportOptions = { multiplier: downloadMultiplier, grayscale: grayscaleToggle.checked };
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 const link = document.createElement('a');
@@ -4432,6 +4433,8 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 showMessage(t('findobjects.msg.download.initiated'), 'success');
             } catch (error) {
                 showMessage(`Error preparing JPEG: ${error.message}`, 'error');
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 
@@ -4647,6 +4650,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
 async function downloadPDF(canvasToExport, fileName) {
             showMessage(`Preparing ${fileName}...`, 'info', 0);
             const exportOptions = { multiplier: downloadMultiplier, grayscale: grayscaleToggle.checked };
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -4659,6 +4663,8 @@ async function downloadPDF(canvasToExport, fileName) {
                 showMessage('PDF Downloaded!', 'success');
             } catch (error) {
                 showMessage(`Error creating PDF: ${error.message}`, "error");
+            } finally {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
 

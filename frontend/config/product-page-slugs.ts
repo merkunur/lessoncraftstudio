@@ -247,6 +247,22 @@ export const productPageSlugs: AppSlugConfig[] = [
     },
   },
   {
+    appId: 'cvc-words',
+    slugs: {
+      en: 'cvc-words-worksheets',
+      de: 'kvk-woerter-arbeitsblaetter',
+      fr: 'mots-cvc-fiches',
+      es: 'palabras-cvc-fichas',
+      it: 'parole-cvc-schede',
+      pt: 'palavras-cvc-fichas',
+      nl: 'kmk-woorden-werkbladen',
+      da: 'kvk-ord-arbejdsark',
+      sv: 'kvk-ord-arbetsblad',
+      no: 'kvk-ord-arbeidsark',
+      fi: 'kvk-sanat-tyoarkit',
+    },
+  },
+  {
     appId: 'code-addition',
     slugs: {
       en: 'code-addition-worksheets',

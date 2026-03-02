@@ -69,7 +69,8 @@ const urlToSlugMap: { [key: string]: string } = {
   'shadow match.html': 'shadow-match',
   'pattern train.html': 'pattern-train',
   'pattern worksheet.html': 'pattern-worksheet',
-  'missing pieces.html': 'missing-pieces'
+  'missing pieces.html': 'missing-pieces',
+  'cvc words.html': 'cvc-words'
 };
 
 const allApps: WorksheetApp[] = [
@@ -111,6 +112,7 @@ const allApps: WorksheetApp[] = [
   { name: 'Pattern Train', url: '/worksheet-generators/pattern%20train.html', icon: '🚆', tier: 'full', category: 'Logic', description: 'Pattern recognition practice', translationKey: 'patternTrain' },
   { name: 'Pattern Worksheet', url: '/worksheet-generators/pattern%20worksheet.html', icon: '🔷', tier: 'full', category: 'Logic', description: 'Complete pattern sequences', translationKey: 'patternWorksheet' },
   { name: 'Missing Pieces', url: '/worksheet-generators/missing%20pieces.html', icon: '🧩', tier: 'full', category: 'Logic', description: 'Find the missing pieces', translationKey: 'missingPieces' },
+  { name: 'CVC Words', url: '/worksheet-generators/cvc%20words.html', icon: '🔤', tier: 'full', category: 'Language', description: 'CVC word practice with 10 layouts', translationKey: 'cvcWords' },
 ];
 
 export default function DashboardPage() {

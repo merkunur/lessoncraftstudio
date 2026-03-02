@@ -279,7 +279,97 @@
             font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
             color: var(--app-text-secondary-dark-theme);
         }
-        
+
+        /* Letter Spotting Mode */
+        .bl-letter-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            margin: 10px 0;
+        }
+        .bl-letter-btn {
+            height: 34px;
+            border: 1px solid var(--app-border-dark);
+            background-color: var(--app-surface-dark);
+            color: var(--app-text-primary-dark-theme);
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.15s ease;
+            padding: 0;
+        }
+        .bl-letter-btn:hover {
+            background-color: var(--app-accent-primary);
+            color: #fff;
+            border-color: var(--app-accent-primary);
+        }
+        .bl-letter-btn.selected {
+            background-color: var(--app-accent-primary);
+            color: #fff;
+            border-color: var(--app-accent-primary-hover);
+            box-shadow: 0 0 0 2px rgba(0, 122, 255, 0.3);
+        }
+        .beginning-letter-preview {
+            max-height: 150px;
+            overflow-y: auto;
+            margin: 8px 0;
+            padding: 8px;
+            background-color: var(--app-surface-dark);
+            border: 1px solid var(--app-border-dark);
+            border-radius: 5px;
+        }
+        .bl-image-item {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 4px;
+            width: 50px;
+        }
+        .bl-image-item img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            border: 1px solid var(--app-border-dark);
+            border-radius: 3px;
+            background-color: var(--app-surface-light);
+        }
+        .bl-image-item span {
+            font-size: 9px;
+            text-align: center;
+            word-break: break-word;
+            max-width: 50px;
+            color: var(--app-text-secondary-dark-theme);
+            margin-top: 2px;
+        }
+        .accordion-item.mode-disabled {
+            opacity: 0.4;
+            pointer-events: none;
+        }
+        .bl-warning-message {
+            background-color: rgba(255, 152, 0, 0.15);
+            border: 1px solid #FF9800;
+            border-radius: 5px;
+            padding: 8px 10px;
+            margin-top: 8px;
+            font-size: 12px;
+            color: #FFB74D;
+            line-height: 1.4;
+        }
+        .bl-match-count {
+            font-size: 12px;
+            color: var(--app-text-secondary-dark-theme);
+            margin: 6px 0;
+        }
+        .bl-section-label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--app-text-secondary-dark-theme);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 8px 0 4px;
+        }
+
         /* Selected Object Configuration */
         #selectedObjectConfig {
             display: flex;
@@ -1110,7 +1200,7 @@
                     </div>
                 </div>
 
-                <div class="accordion-item">
+                <div class="accordion-item" id="hiddenObjectAccordion">
                     <button class="accordion-button" data-translate="hiddenObjectQuestions">Hidden Object Questions</button>
                     <div class="accordion-content">
                          <div class="selection-mode-toggle" style="margin-bottom: 15px;">
@@ -1125,6 +1215,30 @@
                          <div id="selectedObjectConfig">
                             <p class='dictionary-message'>Select images from the library above.</p>
                          </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="beginningLetterAccordion">
+                    <button class="accordion-button" data-translate="letterSpotting">Letter Spotting</button>
+                    <div class="accordion-content">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                            <input type="checkbox" id="beginningLetterToggle" style="width: 16px; height: 16px;">
+                            <span data-translate="enableLetterSpotting">Enable Letter Spotting Mode</span>
+                        </label>
+                        <p class="mode-hint" id="blHint" style="font-size: 11px; color: #666; margin-top: 5px;" data-translate="letterSpottingHint">
+                            Find images that begin with a selected letter.
+                        </p>
+                        <div id="beginningLetterContainer" style="display: none;">
+                            <div class="bl-section-label" data-translate="selectLetter">Select Letter</div>
+                            <div id="beginningLetterGrid" class="bl-letter-grid"></div>
+                            <div id="letterMatchCount" class="bl-match-count"></div>
+                            <div id="blWarningArea"></div>
+                            <div class="bl-section-label" data-translate="targetImages">Target Images</div>
+                            <div id="targetImagesPreview" class="beginning-letter-preview">
+                                <p class="dictionary-message" data-translate="selectLetterFirst">Select a letter to see matching images.</p>
+                            </div>
+                            <div id="distractorCountDisplay" class="bl-match-count"></div>
+                        </div>
                     </div>
                 </div>
 
@@ -1464,6 +1578,25 @@ document.addEventListener("DOMContentLoaded", function() {
     let lastGeneratedData = null;
     const downloadMultiplier = 6;
 
+    // Letter Spotting Mode state
+    let beginningLetterMode = false;
+    let selectedLetter = null;
+    let blTargetImages = [];
+    let blDistractorImages = [];
+    const languageAlphabets = {
+        en: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00C4\u00D6\u00DC',
+        fr: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        es: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00D1',
+        pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        it: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        nl: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        sv: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00C5\u00C4\u00D6',
+        da: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00C6\u00D8\u00C5',
+        no: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00C6\u00D8\u00C5',
+        fi: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ\u00C5\u00C4\u00D6'
+    };
+
     // --- CANVAS & PAGE SETUP LOGIC ---
     const pageSizeSelect = document.getElementById('pageSizeSelect');
     const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
@@ -1489,6 +1622,49 @@ document.addEventListener("DOMContentLoaded", function() {
             // Clear manual selections when switching to auto mode
             selectedImages = [];
             renderSelectedObjectConfig();
+        }
+    });
+
+    // Handle Letter Spotting mode toggle
+    const beginningLetterToggle = document.getElementById('beginningLetterToggle');
+    const beginningLetterContainer = document.getElementById('beginningLetterContainer');
+    const hiddenObjectAccordion = document.getElementById('hiddenObjectAccordion');
+
+    beginningLetterToggle.addEventListener('change', (e) => {
+        beginningLetterMode = e.target.checked;
+        if (beginningLetterMode) {
+            // Show letter selection UI
+            beginningLetterContainer.style.display = 'block';
+            // Gray out Hidden Object Questions
+            if (hiddenObjectAccordion) hiddenObjectAccordion.classList.add('mode-disabled');
+            // Clear any existing hidden object selections
+            selectedImages = [];
+            manualSelectionMode = false;
+            manualSelectionCheckbox.checked = false;
+            modeHintElement.textContent = t('autoModeHint');
+            modeHintElement.setAttribute('data-translate', 'autoModeHint');
+            renderSelectedObjectConfig();
+            // Render letter grid for current locale/theme
+            renderLetterGrid();
+            // If a letter was previously selected, refresh its state
+            if (selectedLetter) {
+                selectBeginningLetter(selectedLetter);
+            }
+        } else {
+            // Hide letter selection UI
+            beginningLetterContainer.style.display = 'none';
+            // Re-enable Hidden Object Questions
+            if (hiddenObjectAccordion) hiddenObjectAccordion.classList.remove('mode-disabled');
+            // Reset letter mode state
+            selectedLetter = null;
+            blTargetImages = [];
+            blDistractorImages = [];
+            // Reset hint
+            const hintEl = document.getElementById('blHint');
+            if (hintEl) {
+                hintEl.textContent = t('letterSpottingHint');
+                hintEl.setAttribute('data-translate', 'letterSpottingHint');
+            }
         }
     });
 
@@ -2411,7 +2587,187 @@ document.addEventListener("DOMContentLoaded", function() {
         renderUploadedImages();
         renderSelectedObjectConfig();
     });
-    
+
+    // --- LETTER SPOTTING MODE FUNCTIONS ---
+
+    function renderLetterGrid() {
+        const gridDiv = document.getElementById('beginningLetterGrid');
+        if (!gridDiv) return;
+        const locale = currentLocale || 'en';
+        const alphabet = languageAlphabets[locale] || languageAlphabets.en;
+        gridDiv.innerHTML = '';
+        for (let i = 0; i < alphabet.length; i++) {
+            const letter = alphabet[i];
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'bl-letter-btn' + (selectedLetter === letter ? ' selected' : '');
+            btn.textContent = letter;
+            btn.addEventListener('click', () => selectBeginningLetter(letter));
+            gridDiv.appendChild(btn);
+        }
+    }
+
+    function getImagesStartingWith(letter) {
+        if (!letter) return [];
+        const upperLetter = letter.toUpperCase();
+        const allImages = [...currentThemeImages, ...uploadedImages];
+        const seen = new Set();
+        return allImages.filter(img => {
+            if (!img.word) return false;
+            const firstChar = img.word.charAt(0).toUpperCase();
+            if (firstChar === upperLetter && !seen.has(img.path)) {
+                seen.add(img.path);
+                return true;
+            }
+            return false;
+        });
+    }
+
+    function getImagesNotStartingWith(letter) {
+        if (!letter) return [];
+        const upperLetter = letter.toUpperCase();
+        const allImages = [...currentThemeImages, ...uploadedImages];
+        const seen = new Set();
+        return allImages.filter(img => {
+            if (!img.word) return false;
+            const firstChar = img.word.charAt(0).toUpperCase();
+            if (firstChar !== upperLetter && !seen.has(img.path)) {
+                seen.add(img.path);
+                return true;
+            }
+            return false;
+        });
+    }
+
+    function selectBeginningLetter(letter) {
+        selectedLetter = letter;
+        // Update grid button visuals
+        const gridDiv = document.getElementById('beginningLetterGrid');
+        if (gridDiv) {
+            gridDiv.querySelectorAll('.bl-letter-btn').forEach(btn => {
+                btn.classList.toggle('selected', btn.textContent === letter);
+            });
+        }
+        // Compute target and distractor lists
+        blTargetImages = getImagesStartingWith(letter);
+        blDistractorImages = getImagesNotStartingWith(letter);
+        // Update match count
+        const matchCountDiv = document.getElementById('letterMatchCount');
+        if (matchCountDiv) {
+            matchCountDiv.textContent = t('letterMatchCount')
+                .replace('{count}', blTargetImages.length)
+                .replace('{letter}', letter);
+        }
+        // Update warning area
+        const warningArea = document.getElementById('blWarningArea');
+        if (warningArea) {
+            if (blTargetImages.length === 0) {
+                const themeName = themeSelect.options[themeSelect.selectedIndex]
+                    ? themeSelect.options[themeSelect.selectedIndex].text : themeSelect.value;
+                warningArea.innerHTML = '<div class="bl-warning-message">' +
+                    t('noImagesForLetter').replace('{letter}', letter).replace('{theme}', themeName) +
+                    '</div>';
+            } else if (blDistractorImages.length < 5) {
+                warningArea.innerHTML = '<div class="bl-warning-message">' +
+                    t('notEnoughDistractors') + '</div>';
+            } else {
+                warningArea.innerHTML = '';
+            }
+        }
+        // Update hint text
+        const hintEl = document.getElementById('blHint');
+        if (hintEl) {
+            hintEl.textContent = t('letterSpottingActiveHint');
+            hintEl.setAttribute('data-translate', 'letterSpottingActiveHint');
+        }
+        renderTargetImagesPreview();
+        renderDistractorImagesPreview();
+    }
+
+    function renderTargetImagesPreview() {
+        const previewDiv = document.getElementById('targetImagesPreview');
+        if (!previewDiv) return;
+        if (!selectedLetter || blTargetImages.length === 0) {
+            previewDiv.innerHTML = '<p class="dictionary-message">' +
+                (selectedLetter ? t('noImagesForLetter').replace('{letter}', selectedLetter).replace('{theme}',
+                    themeSelect.options[themeSelect.selectedIndex] ? themeSelect.options[themeSelect.selectedIndex].text : '') :
+                    t('selectLetterFirst')) + '</p>';
+            return;
+        }
+        previewDiv.innerHTML = '';
+        blTargetImages.forEach(img => {
+            const item = document.createElement('div');
+            item.className = 'bl-image-item';
+            item.innerHTML = '<img src="' + img.path + '" alt="' + (img.word || '') + '">' +
+                '<span>' + (img.word || '') + '</span>';
+            previewDiv.appendChild(item);
+        });
+    }
+
+    function renderDistractorImagesPreview() {
+        const displayDiv = document.getElementById('distractorCountDisplay');
+        if (!displayDiv) return;
+        if (!selectedLetter) {
+            displayDiv.textContent = '';
+            return;
+        }
+        displayDiv.textContent = t('distractorCount')
+            .replace('{count}', blDistractorImages.length);
+    }
+
+    // --- END LETTER SPOTTING MODE FUNCTIONS ---
+
+    function buildLetterSpottingGrid(rows, cols, targets, distractors) {
+        const totalCells = rows * cols;
+        const grid = new Array(totalCells).fill(null);
+        let availableIndices = Array.from({ length: totalCells }, (_, i) => i);
+
+        // 3-pass Fisher-Yates shuffle for strong randomization
+        for (let pass = 0; pass < 3; pass++) {
+            for (let i = availableIndices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableIndices[i], availableIndices[j]] = [availableIndices[j], availableIndices[i]];
+            }
+        }
+
+        // Place each target image EXACTLY ONCE
+        const shuffledTargets = [...targets].sort(() => Math.random() - 0.5);
+        shuffledTargets.forEach(target => {
+            if (availableIndices.length === 0) return;
+            const randIdx = Math.floor(Math.random() * availableIndices.length);
+            const gridIndex = availableIndices.splice(randIdx, 1)[0];
+            grid[gridIndex] = { word: target.word, path: target.path, isTarget: true };
+        });
+
+        // Fill remaining cells with distractors (random 1-5 copies each)
+        const shuffledDistractors = [...distractors].sort(() => Math.random() - 0.5);
+        let distractorPool = [];
+        shuffledDistractors.forEach(d => {
+            const copies = Math.floor(Math.random() * 5) + 1;
+            for (let i = 0; i < copies; i++) {
+                distractorPool.push({ word: d.word, path: d.path, isTarget: false });
+            }
+        });
+        // Shuffle the distractor pool
+        for (let i = distractorPool.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [distractorPool[i], distractorPool[j]] = [distractorPool[j], distractorPool[i]];
+        }
+
+        // Fill remaining available indices with distractors
+        availableIndices.forEach((gridIndex, idx) => {
+            const poolIndex = idx % distractorPool.length;
+            grid[gridIndex] = distractorPool[poolIndex];
+        });
+
+        // Convert flat grid to 2D array
+        const data = [];
+        for (let r = 0; r < rows; r++) {
+            data.push(grid.slice(r * cols, (r + 1) * cols));
+        }
+        return data;
+    }
+
     // START: REFACTORED CODE (Part B)
     async function generateWorksheet() {
         showMessage(t('generatingPleaseWait'), 'info', 0);
@@ -2419,37 +2775,99 @@ document.addEventListener("DOMContentLoaded", function() {
         // Undo/Redo: Set flag to prevent saving during generation
         isGenerating = true;
 
-        // --- Validation ---
-        if (selectedImages.length < 1 || selectedImages.length > 4) {
-            showMessage(t('selectHiddenObjectsRange'), 'error'); return;
-        }
-        const unassigned = selectedImages.filter(img => !img.type || img.type === 'none');
-        if (unassigned.length > 0) {
-            const items = unassigned.map(i => i.word).join(', ');
-            showMessage(t('assignTaskFor').replace('{items}', items), 'error'); return;
-        }
+        // --- Shared grid dimensions validation ---
         const rows = parseInt(document.getElementById('gridRows').value, 10);
         const cols = parseInt(document.getElementById('gridCols').value, 10);
         if (isNaN(rows) || isNaN(cols) || rows < 5 || rows > 10 || cols < 5 || cols > 10) {
-            showMessage(t('gridDimensionsRange'), 'error'); return;
+            showMessage(t('gridDimensionsRange'), 'error'); isGenerating = false; return;
         }
 
-        // --- Pool images for grid ---
-        let gridImagesPool = [...selectedImages];
-        uploadedImages.forEach(upImg => {
-            if (!gridImagesPool.some(poolImg => poolImg.path === upImg.path)) gridImagesPool.push(upImg);
-        });
-        const theme = themeSelect.value;
-        if (theme !== 'all') {
-            currentThemeImages.forEach(themeImg => {
-                if (!gridImagesPool.some(poolImg => poolImg.path === themeImg.path)) gridImagesPool.push(themeImg);
+        if (beginningLetterMode) {
+            // --- LETTER SPOTTING MODE ---
+            if (!selectedLetter) {
+                showMessage(t('pleaseSelectLetter'), 'error'); isGenerating = false; return;
+            }
+            // Refresh target/distractor lists from current theme
+            blTargetImages = getImagesStartingWith(selectedLetter);
+            blDistractorImages = getImagesNotStartingWith(selectedLetter);
+
+            if (manualSelectionMode) {
+                // Manual mode: validate user's image selections
+                const manualTargets = selectedImages.filter(img =>
+                    img.word && img.word.charAt(0).toUpperCase() === selectedLetter.toUpperCase());
+                const manualDistractors = selectedImages.filter(img =>
+                    img.word && img.word.charAt(0).toUpperCase() !== selectedLetter.toUpperCase());
+                if (manualTargets.length < 1) {
+                    showMessage(t('pleaseSelectTargetImage').replace('{letter}', selectedLetter), 'error');
+                    isGenerating = false; return;
+                }
+                if (manualDistractors.length < 5) {
+                    showMessage(t('pleaseSelectEnoughDistractors'), 'error');
+                    isGenerating = false; return;
+                }
+                const gridData = buildLetterSpottingGrid(rows, cols, manualTargets, manualDistractors);
+                lastGeneratedData = {
+                    gridData, questions: [], rows, cols,
+                    isBeginningLetterMode: true,
+                    selectedLetter: selectedLetter,
+                    targetWords: manualTargets.map(img => img.word.toLowerCase())
+                };
+            } else {
+                // Auto/theme mode: randomly pick targets and distractors
+                if (blTargetImages.length === 0) {
+                    const themeName = themeSelect.options[themeSelect.selectedIndex]
+                        ? themeSelect.options[themeSelect.selectedIndex].text : themeSelect.value;
+                    showMessage(t('noImagesForLetter').replace('{letter}', selectedLetter).replace('{theme}', themeName), 'error');
+                    isGenerating = false; return;
+                }
+                if (blDistractorImages.length < 5) {
+                    showMessage(t('notEnoughDistractors'), 'error');
+                    isGenerating = false; return;
+                }
+                // Randomly pick 1-3 target images (each appears exactly once on grid)
+                const maxTargets = Math.min(3, blTargetImages.length);
+                const numTargets = Math.floor(Math.random() * maxTargets) + 1;
+                const shuffledTargets = [...blTargetImages].sort(() => Math.random() - 0.5);
+                const chosenTargets = shuffledTargets.slice(0, numTargets);
+                const gridData = buildLetterSpottingGrid(rows, cols, chosenTargets, blDistractorImages);
+                lastGeneratedData = {
+                    gridData, questions: [], rows, cols,
+                    isBeginningLetterMode: true,
+                    selectedLetter: selectedLetter,
+                    targetWords: chosenTargets.map(img => img.word.toLowerCase())
+                };
+            }
+        } else {
+            // --- ORIGINAL HIDDEN OBJECT MODE ---
+            if (selectedImages.length < 1 || selectedImages.length > 4) {
+                showMessage(t('selectHiddenObjectsRange'), 'error'); isGenerating = false; return;
+            }
+            const unassigned = selectedImages.filter(img => !img.type || img.type === 'none');
+            if (unassigned.length > 0) {
+                const items = unassigned.map(i => i.word).join(', ');
+                showMessage(t('assignTaskFor').replace('{items}', items), 'error'); isGenerating = false; return;
+            }
+
+            // --- Pool images for grid ---
+            let gridImagesPool = [...selectedImages];
+            uploadedImages.forEach(upImg => {
+                if (!gridImagesPool.some(poolImg => poolImg.path === upImg.path)) gridImagesPool.push(upImg);
             });
-        }
-        if (gridImagesPool.length < 2) {
-            showMessage(t('notEnoughImages'), 'error'); return;
+            const theme = themeSelect.value;
+            if (theme !== 'all') {
+                currentThemeImages.forEach(themeImg => {
+                    if (!gridImagesPool.some(poolImg => poolImg.path === themeImg.path)) gridImagesPool.push(themeImg);
+                });
+            }
+            if (gridImagesPool.length < 2) {
+                showMessage(t('notEnoughImages'), 'error'); isGenerating = false; return;
+            }
+
+            const gridData = buildGrid(rows, cols, gridImagesPool, selectedImages);
+            lastGeneratedData = { gridData, questions: selectedImages, rows: rows, cols: cols };
         }
 
-        // --- Non-destructive regeneration ---
+        // --- Non-destructive regeneration (shared) ---
         // Check if canvas dimensions changed
         const oldCanvasWidth = worksheetCanvas.getWidth();
         const oldCanvasHeight = worksheetCanvas.getHeight();
@@ -2475,10 +2893,6 @@ document.addEventListener("DOMContentLoaded", function() {
         // Step 2: Precise removal of old generated content
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
-
-        // --- Build new grid data ---
-        const gridData = buildGrid(rows, cols, gridImagesPool, selectedImages);
-        lastGeneratedData = { gridData, questions: selectedImages, rows: rows, cols: cols };
 
         // --- Render new content ---
         await renderToCanvas(worksheetCanvas, lastGeneratedData, false);
@@ -2688,21 +3102,37 @@ document.addEventListener("DOMContentLoaded", function() {
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
             en: { title: 'I Spy', description: 'Count the objects and write the number!' },
-            de: { title: 'Ich sehe was', description: 'Zähle die Objekte und schreibe die Zahl!' },
-            fr: { title: 'Je vois, je vois', description: 'Compte les objets et écris le nombre!' },
-            es: { title: 'Veo Veo', description: '¡Cuenta los objetos y escribe el número!' },
+            de: { title: 'Ich sehe was', description: 'Z\u00e4hle die Objekte und schreibe die Zahl!' },
+            fr: { title: 'Je vois, je vois', description: 'Compte les objets et \u00e9cris le nombre!' },
+            es: { title: 'Veo Veo', description: '\u00a1Cuenta los objetos y escribe el n\u00famero!' },
             it: { title: 'Vedo Vedo', description: 'Conta gli oggetti e scrivi il numero!' },
-            pt: { title: 'Vejo, Vejo', description: 'Conta os objetos e escreve o número!' },
+            pt: { title: 'Vejo, Vejo', description: 'Conta os objetos e escreve o n\u00famero!' },
             nl: { title: 'Ik zie, ik zie', description: 'Tel de objecten en schrijf het getal!' },
-            sv: { title: 'Jag ser, jag ser', description: 'Räkna objekten och skriv numret!' },
-            da: { title: 'Jeg ser, jeg ser', description: 'Tæl objekterne og skriv tallet!' },
+            sv: { title: 'Jag ser, jag ser', description: 'R\u00e4kna objekten och skriv numret!' },
+            da: { title: 'Jeg ser, jeg ser', description: 'T\u00e6l objekterne og skriv tallet!' },
             no: { title: 'Jeg ser, jeg ser', description: 'Tell objektene og skriv tallet!' },
-            fi: { title: 'Minä näen', description: 'Laske esineet ja kirjoita numero!' }
+            fi: { title: 'Min\u00e4 n\u00e4en', description: 'Laske esineet ja kirjoita numero!' }
+        };
+
+        const letterSpottingHeaders = {
+            en: 'Letter Spotting',
+            de: 'Buchstaben-Suche',
+            fr: 'Chasse aux lettres',
+            es: 'Busca la letra',
+            pt: 'Ca\u00e7a \u00e0 letra',
+            it: 'Caccia alla lettera',
+            nl: 'Letterzoeker',
+            sv: 'Bokstavsjakten',
+            da: 'Bogstavsjagt',
+            no: 'Bokstavsjakt',
+            fi: 'Kirjainetsint\u00e4'
         };
 
         const locale = currentLocale || 'en';
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
-        const title = defaults.title;
+        const title = beginningLetterMode
+            ? (letterSpottingHeaders[locale] || letterSpottingHeaders.en)
+            : defaults.title;
         const description = defaults.description;
 
         // Get current canvas dimensions for responsive design
@@ -3133,42 +3563,62 @@ document.addEventListener("DOMContentLoaded", function() {
             return langInstructions[type] || '';
         };
 
-        // Generate task-specific instructions based on selected tasks
-        let instructionTexts = [];
-        const taskTypes = {};
-        questions.forEach(q => {
-            if (!taskTypes[q.type]) {
-                taskTypes[q.type] = [];
+        // Generate instruction text
+        let finalInstructionText;
+
+        if (data.isBeginningLetterMode && data.selectedLetter) {
+            // Letter Spotting mode: localized instruction with the letter
+            const blInstructions = {
+                en: 'Find all the pictures that begin with the letter {letter}.',
+                de: 'Finde alle Bilder, die mit dem Buchstaben {letter} beginnen.',
+                fr: 'Trouve toutes les images qui commencent par la lettre {letter}.',
+                es: 'Encuentra todas las im\u00e1genes que empiezan con la letra {letter}.',
+                pt: 'Encontra todas as imagens que come\u00e7am com a letra {letter}.',
+                it: 'Trova tutte le immagini che iniziano con la lettera {letter}.',
+                nl: 'Zoek alle plaatjes die beginnen met de letter {letter}.',
+                sv: 'Hitta alla bilder som b\u00f6rjar med bokstaven {letter}.',
+                da: 'Find alle billeder, der begynder med bogstavet {letter}.',
+                no: 'Finn alle bildene som begynner med bokstaven {letter}.',
+                fi: 'Etsi kaikki kuvat, jotka alkavat kirjaimella {letter}.'
+            };
+            const template = blInstructions[currentLocale] || blInstructions.en;
+            finalInstructionText = template.replace('{letter}', data.selectedLetter);
+        } else {
+            // Original hidden object instruction builder
+            let instructionTexts = [];
+            const taskTypes = {};
+            questions.forEach(q => {
+                if (!taskTypes[q.type]) {
+                    taskTypes[q.type] = [];
+                }
+                taskTypes[q.type].push(q);
+            });
+            for (const [type, items] of Object.entries(taskTypes)) {
+                const instruction = getTaskInstruction(type, items);
+                if (instruction) {
+                    instructionTexts.push(instruction);
+                }
             }
-            taskTypes[q.type].push(q);
-        });
-        
-        // Build instruction text based on task types
-        for (const [type, items] of Object.entries(taskTypes)) {
-            const instruction = getTaskInstruction(type, items);
-            if (instruction) {
-                instructionTexts.push(instruction);
-            }
+            const instructionText = instructionTexts.join('. ') + (instructionTexts.length > 0 ? '.' : '');
+            const defaultInstruction = currentLocale === 'de' ? 'Finde die versteckten Objekte im Bild unten:' :
+                                      currentLocale === 'fr' ? 'Trouve les objets cach\u00e9s dans l\'image ci-dessous:' :
+                                      currentLocale === 'es' ? 'Encuentra los objetos ocultos en la imagen de abajo:' :
+                                      currentLocale === 'pt' ? 'Encontre os objetos escondidos na imagem abaixo:' :
+                                      currentLocale === 'it' ? 'Trova gli oggetti nascosti nell\'immagine qui sotto:' :
+                                      currentLocale === 'nl' ? 'Vind de verborgen objecten in de afbeelding hieronder:' :
+                                      currentLocale === 'sv' ? 'Hitta de dolda objekten i bilden nedan:' :
+                                      currentLocale === 'da' ? 'Find de skjulte objekter i billedet nedenfor:' :
+                                      currentLocale === 'no' ? 'Finn de skjulte objektene i bildet nedenfor:' :
+                                      currentLocale === 'fi' ? 'Etsi piilotetut esineet alla olevasta kuvasta:' :
+                                      'Find the hidden objects in the picture below:';
+            finalInstructionText = instructionText || defaultInstruction;
         }
-        
-        const instructionText = instructionTexts.join('. ') + (instructionTexts.length > 0 ? '.' : '');
-        const defaultInstruction = currentLocale === 'de' ? 'Finde die versteckten Objekte im Bild unten:' :
-                                  currentLocale === 'fr' ? 'Trouve les objets cachés dans l\'image ci-dessous:' :
-                                  currentLocale === 'es' ? 'Encuentra los objetos ocultos en la imagen de abajo:' :
-                                  currentLocale === 'pt' ? 'Encontre os objetos escondidos na imagem abaixo:' :
-                                  currentLocale === 'it' ? 'Trova gli oggetti nascosti nell\'immagine qui sotto:' :
-                                  currentLocale === 'nl' ? 'Vind de verborgen objecten in de afbeelding hieronder:' :
-                                  currentLocale === 'sv' ? 'Hitta de dolda objekten i bilden nedan:' :
-                                  currentLocale === 'da' ? 'Find de skjulte objekter i billedet nedenfor:' :
-                                  currentLocale === 'no' ? 'Finn de skjulte objektene i bildet nedenfor:' :
-                                  currentLocale === 'fi' ? 'Etsi piilotetut esineet alla olevasta kuvasta:' :
-                                  'Find the hidden objects in the picture below:';
         
         // Add task instructions below header (positioned after header visual elements)
         const headerVisualEnd = isLandscape ? 60 + 72 : 70 + 80; // Actual visual header end position
         const instructionTop = headerVisualEnd + 10; // Position below header with spacing
         const maxTextWidth = contentWidth - 20; // Ensure padding within content area
-        const instructions = new fabric.Textbox(instructionText || defaultInstruction, {
+        const instructions = new fabric.Textbox(finalInstructionText, {
             left: canvasWidth / 2,
             top: instructionTop,
             fontSize: 16,
@@ -3186,27 +3636,37 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         canvas.add(instructions);
         
-        const legendNeeded = isAnswerKey || (questions && questions.length > 0);
-        const legendAreaHeight = legendNeeded ? 160 : 0;  // Space allocated for legend
+        // Calculate grid top position FIRST (need this for accurate height)
+        const instructionHeight = instructions.height || 40;
+        let gridTopY = instructionTop + instructionHeight + (isLandscape ? 25 : 20);
+
+        // Shift grid down in Letter Spotting mode for better vertical alignment
+        if (data.isBeginningLetterMode) {
+            gridTopY += 30;
+        }
+
+        const legendNeeded = !data.isBeginningLetterMode && (isAnswerKey || (questions && questions.length > 0));
+        const legendAreaHeight = legendNeeded ? 160 : 0;
 
         const availableGridHeight = canvasHeight - topMargin - bottomMargin - legendAreaHeight;
         const gridContentWidth = contentWidth;
         const gridContentHeight = availableGridHeight;
 
         const cellGap = 2;
-        
-        // Calculate cell size with more conservative sizing to ensure fitting
         const maxCellWidth = (gridContentWidth - (cellGap * (cols - 1))) / cols;
         const maxCellHeight = (gridContentHeight - (cellGap * (rows - 1))) / rows;
-        const cellSize = Math.min(maxCellWidth, maxCellHeight, 80); // Also limit max cell size
+        let cellSize = Math.min(maxCellWidth, maxCellHeight, 80);
+
+        // Reduce grid size by 5% in Letter Spotting mode
+        if (data.isBeginningLetterMode) {
+            cellSize *= 0.95;
+        }
 
         const gridActualWidth = cols * cellSize + (cols - 1) * cellGap;
         const gridActualHeight = rows * cellSize + (rows - 1) * cellGap;
 
         // Center the grid horizontally within the content area
         const gridLeftX = sideMargin + (contentWidth - gridActualWidth) / 2;
-        const instructionHeight = instructions.height || 40; // Approximate instruction height
-        const gridTopY = instructionTop + instructionHeight + (isLandscape ? 25 : 20); // Position after instructions with spacing (5px more in landscape)
 
         const gridImagePromises = gridData.flat().map((cellData, index) => {
             const r = Math.floor(index / gridCols);
@@ -3242,7 +3702,7 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         // Create beautiful container background for the grid
-        const gridPadding = 20; // Padding around the grid inside the container
+        const gridPadding = 20;
         const containerWidth = gridActualWidth + (gridPadding * 2);
         const containerHeight = gridActualHeight + (gridPadding * 2);
 
@@ -3271,39 +3731,66 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (isAnswerKey) {
             const annotations = [];
-            const annotationMap = {};
-            questions.forEach(q => { if(q.type !== 'count') annotationMap[q.word.toLowerCase()] = q.type; });
 
-            gridData.flat().forEach((cellData, index) => {
-                const r = Math.floor(index / gridCols);
-                const c = index % gridCols;
-                const word = cellData.word.toLowerCase();
-                if (annotationMap.hasOwnProperty(word)) {
-                    const type = annotationMap[word];
-                    const x = c * (cellSize + cellGap);
-                    const y = r * (cellSize + cellGap);
-                    let annotation;
-                    if (type === 'circle') annotation = new fabric.Circle({ left: x, top: y, radius: cellSize/2 - 2, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
-                    else if (type === 'square') {
-                        const squareSize = cellSize * 0.9; // Reduce by 10%
-                        const offset = (cellSize - squareSize) / 2;
-                        annotation = new fabric.Rect({ left: x + offset, top: y + offset, width: squareSize, height: squareSize, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
-                    }
-                    else if (type === 'cross') annotation = new fabric.Text('X', { left: x + cellSize/2, top: y + cellSize/2, fontSize: cellSize * 0.8, fill: 'red', originX: 'center', originY: 'center', fontWeight: 'bold' });
-                    
-                    if(annotation) {
-                        annotation.set({ selectable: false, evented: false });
+            if (data.isBeginningLetterMode) {
+                // Letter Spotting answer key: circle around all target images
+                gridData.flat().forEach((cellData, index) => {
+                    if (cellData.isTarget) {
+                        const r = Math.floor(index / gridCols);
+                        const c = index % gridCols;
+                        const x = c * (cellSize + cellGap);
+                        const y = r * (cellSize + cellGap);
+                        const annotation = new fabric.Circle({
+                            left: x + cellSize / 2,
+                            top: y + cellSize / 2,
+                            radius: cellSize / 2 - 2,
+                            fill: 'transparent',
+                            stroke: 'red',
+                            strokeWidth: 3,
+                            originX: 'center',
+                            originY: 'center',
+                            selectable: false,
+                            evented: false
+                        });
                         annotations.push(annotation);
                     }
-                }
-            });
+                });
+            } else {
+                // Original hidden object answer key
+                const annotationMap = {};
+                questions.forEach(q => { if(q.type !== 'count') annotationMap[q.word.toLowerCase()] = q.type; });
+
+                gridData.flat().forEach((cellData, index) => {
+                    const r = Math.floor(index / gridCols);
+                    const c = index % gridCols;
+                    const word = cellData.word.toLowerCase();
+                    if (annotationMap.hasOwnProperty(word)) {
+                        const type = annotationMap[word];
+                        const x = c * (cellSize + cellGap);
+                        const y = r * (cellSize + cellGap);
+                        let annotation;
+                        if (type === 'circle') annotation = new fabric.Circle({ left: x, top: y, radius: cellSize/2 - 2, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
+                        else if (type === 'square') {
+                            const squareSize = cellSize * 0.9;
+                            const offset = (cellSize - squareSize) / 2;
+                            annotation = new fabric.Rect({ left: x + offset, top: y + offset, width: squareSize, height: squareSize, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
+                        }
+                        else if (type === 'cross') annotation = new fabric.Text('X', { left: x + cellSize/2, top: y + cellSize/2, fontSize: cellSize * 0.8, fill: 'red', originX: 'center', originY: 'center', fontWeight: 'bold' });
+
+                        if(annotation) {
+                            annotation.set({ selectable: false, evented: false });
+                            annotations.push(annotation);
+                        }
+                    }
+                });
+            }
 
             const annotatedGridGroup = new fabric.Group(gridImages.concat(annotations), {
                 ...groupOptions, left: gridLeftX, top: gridTopY,
                 [itemTag]: true, originalIndex: 'grid'
             });
             canvas.add(annotatedGridGroup);
-            
+
         } else {
             const worksheetGridGroup = new fabric.Group(gridImages, {
                 ...groupOptions, left: gridLeftX, top: gridTopY,
@@ -3485,6 +3972,15 @@ document.addEventListener("DOMContentLoaded", function() {
         uploadedImages = [];
         lastGeneratedData = null;
         pageColorInput.value = '#FFFFFF';
+
+        // Reset Letter Spotting mode
+        beginningLetterMode = false;
+        selectedLetter = null;
+        blTargetImages = [];
+        blDistractorImages = [];
+        if (beginningLetterToggle) beginningLetterToggle.checked = false;
+        if (beginningLetterContainer) beginningLetterContainer.style.display = 'none';
+        if (hiddenObjectAccordion) hiddenObjectAccordion.classList.remove('mode-disabled');
         
         worksheetCanvas.clear().backgroundColor = pageColorInput.value;
         answerKeyCanvas.clear().backgroundColor = pageColorInput.value;
@@ -4137,8 +4633,8 @@ async function downloadPDF(canvasToExport, filename) {
     generateWorksheetBtn.addEventListener('click', async () => {
         if (generateDropdown.content) generateDropdown.content.style.display = 'none';
 
-        // Check selection mode - only auto-randomize if NOT in manual mode
-        if (!manualSelectionMode) {
+        // Skip auto-randomize hidden objects when in Letter Spotting mode
+        if (!beginningLetterMode && !manualSelectionMode) {
             // AUTO-RANDOMIZE MODE: Select new random images on each generate
             if (currentThemeImages.length >= 4) {
                 // Clear previous selection
@@ -4281,10 +4777,27 @@ async function downloadPDF(canvasToExport, filename) {
                 renderDictionary();
                 renderSelectedObjectConfig();
             }
+
+            // Refresh letter grid for new locale's alphabet and image words
+            if (beginningLetterMode) {
+                renderLetterGrid();
+                if (selectedLetter) {
+                    selectBeginningLetter(selectedLetter);
+                }
+            }
         });
     }
 
-    themeSelect.addEventListener('change', loadThemeImages);
+    themeSelect.addEventListener('change', async () => {
+        await loadThemeImages();
+        // Refresh letter grid state when theme changes
+        if (beginningLetterMode) {
+            renderLetterGrid();
+            if (selectedLetter) {
+                selectBeginningLetter(selectedLetter);
+            }
+        }
+    });
     borderThemeSelect.addEventListener('change', loadBorderImages);
     searchInput.addEventListener('input', () => {
         if(this.searchTimeout) clearTimeout(this.searchTimeout);

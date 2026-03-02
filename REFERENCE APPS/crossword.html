@@ -2250,7 +2250,7 @@ document.addEventListener("DOMContentLoaded", function() {
             sourceImages = shuffleArray(userSelectedImages).slice(0, PUZZLE_IMAGE_COUNT);
         }
         
-        let words = sourceImages.map(i => i.word.toUpperCase());
+        let words = sourceImages.map(i => i.word.replace(/\s+/g, '').toUpperCase());
         // Shuffle words first to ensure different layouts each time, then sort by length for better placement
         words = shuffleArray(words);
         words.sort((a, b) => b.length - a.length);
@@ -2259,7 +2259,7 @@ document.addEventListener("DOMContentLoaded", function() {
         buildGridFromWords(words, N, placed);
         const placedWordsList = placed.map(p => p.word);
         const finalClueImages = sourceImages.filter(img => {
-            const wordToCheck = (img.word || img.name || '').toUpperCase();
+            const wordToCheck = (img.word || img.name || '').replace(/\s+/g, '').toUpperCase();
             return placedWordsList.includes(wordToCheck);
         });
         if (placed.length < 2) {
@@ -2932,7 +2932,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const loadedImages = [];
         for (let i = 0; i < lastGeneratedPlacedWords.length; i++) {
             const p = lastGeneratedPlacedWords[i];
-            const imageInfo = lastGeneratedClueImages.find(s => s.word.toUpperCase() === p.word);
+            const imageInfo = lastGeneratedClueImages.find(s => s.word.replace(/\s+/g, '').toUpperCase() === p.word);
 
             if (imageInfo) {
                 // Check if this is a custom word with hint (no path)

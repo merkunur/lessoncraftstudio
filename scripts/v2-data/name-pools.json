@@ -1,0 +1,48 @@
+{
+  "__comment": "15 short, culturally appropriate first names per gender per locale. Used in sentence templates and word problems. Names should be: (1) common in that culture, (2) short (2-6 letters), (3) easy to read for children, (4) unambiguous gender.",
+
+  "en": {
+    "male": ["Tom", "Jack", "Ben", "Sam", "Max", "Leo", "Dan", "Eli", "Joe", "Luke", "Ryan", "Owen", "Noah", "Cole", "Liam"],
+    "female": ["Emma", "Lily", "Mia", "Zoe", "Amy", "Ella", "Ivy", "Ava", "Ruby", "Lucy", "Nora", "Sara", "Kate", "Rose", "Maya"]
+  },
+  "de": {
+    "male": ["Tim", "Max", "Leo", "Ben", "Paul", "Jan", "Tom", "Luca", "Finn", "Noah", "Emil", "Luis", "Nico", "Erik", "Theo"],
+    "female": ["Emma", "Mia", "Lena", "Anna", "Lea", "Marie", "Lina", "Jana", "Nele", "Clara", "Hanna", "Ida", "Mila", "Lisa", "Sarah"]
+  },
+  "fr": {
+    "male": ["Tom", "Hugo", "Adam", "Paul", "Noah", "Liam", "Léo", "Evan", "Jules", "Théo", "Enzo", "Marc", "Noé", "Axel", "Rémi"],
+    "female": ["Emma", "Léa", "Zoé", "Mia", "Jade", "Lina", "Clara", "Eva", "Alice", "Chloé", "Inès", "Rose", "Anna", "Nina", "Luna"]
+  },
+  "es": {
+    "male": ["Juan", "Pablo", "Luis", "Leo", "Hugo", "Marc", "Nico", "Iván", "Alex", "David", "Lucas", "Mateo", "Diego", "Raúl", "Tomás"],
+    "female": ["Emma", "Mia", "Lucía", "Ana", "Sara", "Elena", "Julia", "Clara", "Alba", "Paula", "Noa", "Luna", "Alma", "Sofía", "Lola"]
+  },
+  "pt": {
+    "male": ["João", "Pedro", "Tomás", "Luís", "Hugo", "David", "Lucas", "Tiago", "Rui", "Diogo", "André", "Bruno", "Luca", "Davi", "Nuno"],
+    "female": ["Emma", "Ana", "Mia", "Inês", "Clara", "Sara", "Maria", "Lara", "Eva", "Alice", "Leonor", "Marta", "Rita", "Lúcia", "Sofia"]
+  },
+  "it": {
+    "male": ["Luca", "Marco", "Leo", "Enzo", "Nico", "Dario", "Paolo", "Fabio", "Giulio", "Matteo", "Diego", "Edoardo", "Andrea", "Bruno", "Carlo"],
+    "female": ["Emma", "Mia", "Giulia", "Sara", "Anna", "Elena", "Alice", "Sofia", "Chiara", "Lucia", "Viola", "Gaia", "Rosa", "Nina", "Lisa"]
+  },
+  "nl": {
+    "male": ["Tom", "Max", "Sam", "Liam", "Daan", "Sem", "Finn", "Noah", "Levi", "Jan", "Luuk", "Lars", "Ruben", "Thijs", "Mees"],
+    "female": ["Emma", "Mila", "Lotte", "Sara", "Anna", "Eva", "Noor", "Tess", "Lisa", "Fien", "Roos", "Julia", "Saar", "Lieke", "Nina"]
+  },
+  "sv": {
+    "male": ["Erik", "Axel", "Hugo", "Nils", "Leo", "Lars", "Emil", "Olle", "Sven", "Liam", "Noah", "Adam", "Elias", "Oscar", "Albin"],
+    "female": ["Emma", "Ella", "Maja", "Ebba", "Saga", "Alma", "Elsa", "Freja", "Astrid", "Ida", "Wilma", "Vera", "Agnes", "Elin", "Klara"]
+  },
+  "da": {
+    "male": ["Emil", "Noah", "Oscar", "Liam", "Hugo", "Erik", "Lars", "Axel", "Mads", "Niels", "Carl", "Otto", "Viggo", "Aksel", "Malte"],
+    "female": ["Emma", "Ida", "Alma", "Ella", "Maja", "Nora", "Freja", "Clara", "Astrid", "Agnes", "Rosa", "Saga", "Signe", "Sofie", "Laura"]
+  },
+  "no": {
+    "male": ["Emil", "Noah", "Oscar", "Liam", "Hugo", "Erik", "Lars", "Aksel", "Odin", "Simen", "Jonas", "Mats", "Leif", "Iver", "Olav"],
+    "female": ["Emma", "Nora", "Ella", "Ida", "Maja", "Alma", "Saga", "Sofie", "Frida", "Ingrid", "Thea", "Astrid", "Hedda", "Tuva", "Solveig"]
+  },
+  "fi": {
+    "male": ["Eetu", "Onni", "Leo", "Elias", "Väinö", "Matti", "Veeti", "Leevi", "Niilo", "Akseli", "Eino", "Ville", "Aleksi", "Joel", "Hugo"],
+    "female": ["Emma", "Aino", "Eevi", "Lilja", "Venla", "Helmi", "Aada", "Ella", "Siiri", "Saimi", "Iida", "Hilla", "Isla", "Pihla", "Ronja"]
+  }
+}

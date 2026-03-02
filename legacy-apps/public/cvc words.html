@@ -1,0 +1,2093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CVC Words Worksheet Generator</title>
+  <script src="js/translations-cvc-words.js"></script>
+  <script src="js/image-vocabulary.js"></script>
+  <script src="js/vocab-indices.js"></script>
+  <script src="js/name-pools.js"></script>
+  <script src="js/template-engine.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+    let currentLocale = urlParams.get('content') || uiLocale;
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+    window.t = function(key) {
+        if (typeof translations === 'undefined') return key;
+        var locale = window.currentLocale || 'en';
+        return (translations[locale] && translations[locale][key]) ||
+               (translations.en && translations.en[key]) || key;
+    };
+  </script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <style>
+    :root {
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e;
+        --app-surface-dark: #3a3a3e;
+        --app-border-dark: #4a4a4a;
+        --app-text-primary-dark-theme: #e0e0e0;
+        --app-text-secondary-dark-theme: #a0a0a0;
+        --app-bg-light: #f0f2f5;
+        --app-surface-light: #ffffff;
+        --app-border-light: #dce1e6;
+        --app-text-primary-light-theme: #1c1c1e;
+        --app-text-secondary-light-theme: #545458;
+        --app-accent-primary: #007aff;
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-danger: #ff3b30;
+        --sidebar-width: 340px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex; margin: 0; height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+    }
+    .layout { display: flex; flex: 1; overflow: hidden; height: 100vh; position: relative; }
+    .panel {
+      width: var(--sidebar-width); min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex; flex-direction: column; z-index: 10; padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+    .panel-header {
+        padding: 20px 25px; border-bottom: 1px solid var(--app-border-dark);
+        display: flex; justify-content: space-between; align-items: center;
+    }
+    .panel-header h2 { font-size: 22px; font-weight: 600; color: var(--app-text-primary-dark-theme); margin: 0; }
+    .panel-content { overflow-y: auto; flex-grow: 1; padding: 10px 15px; }
+    .accordion-item { background-color: transparent; border: none; border-bottom: 1px solid var(--app-border-dark); margin-bottom: 0; border-radius: 0; overflow: hidden; }
+    .accordion-item:last-child { border-bottom: none; }
+    .accordion-button {
+        background-color: transparent; color: var(--app-text-primary-dark-theme);
+        width: 100%; border: none; text-align: left; padding: 18px 10px;
+        font-size: 15px; font-weight: 500; cursor: pointer;
+        display: flex; justify-content: space-between; align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover { background-color: rgba(255,255,255,0.05); }
+    .accordion-button::after {
+        content: '\f078'; font-family: 'Font Awesome 5 Free'; font-weight: 900;
+        font-size: 12px; transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after { transform: rotate(-180deg); }
+    .accordion-content { padding: 10px 10px 20px 10px; display: none; background-color: transparent; }
+    .accordion-content.active { display: block; }
+    .accordion-content h4 {
+        font-size: 13px; color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px; margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark); padding-bottom: 6px; font-weight: 500;
+    }
+    .accordion-content h4:first-child { margin-top: 0; }
+    .accordion-content label {
+        display: block; font-size: 13px; font-weight: 400;
+        color: var(--app-text-secondary-dark-theme); margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content select,
+    .accordion-content textarea {
+      width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px;
+      border: 1px solid var(--app-border-dark);
+      background-color: var(--app-surface-dark);
+      color: var(--app-text-primary-dark-theme); margin-bottom: 12px;
+    }
+    .accordion-content select option { background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); }
+    .radio-group { margin-bottom: 12px; }
+    .radio-group label { display: flex; align-items: center; gap: 8px; padding: 4px 0; cursor: pointer; color: var(--app-text-primary-dark-theme); font-size: 13px; }
+    .radio-group input[type="radio"] { margin: 0; accent-color: var(--app-accent-primary); }
+    .layout-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+    .layout-card {
+      border: 2px solid var(--app-border-dark); border-radius: 8px; padding: 10px 8px;
+      text-align: center; cursor: pointer; transition: all 0.2s; font-size: 11px;
+      color: var(--app-text-secondary-dark-theme); background: var(--app-surface-dark);
+    }
+    .layout-card:hover { border-color: var(--app-accent-primary); color: var(--app-text-primary-dark-theme); }
+    .layout-card.selected { border-color: var(--app-accent-primary); background: rgba(0,122,255,0.15); color: #fff; }
+    .layout-card .layout-icon { font-size: 22px; margin-bottom: 4px; }
+    .main { flex: 1; display: flex; flex-direction: column; overflow: hidden; position: relative; }
+    .menu-toggle-btn {
+      display: none; position: absolute; top: 16px; left: 16px; z-index: 20;
+      background: var(--app-accent-primary); color: #fff; border: none; border-radius: 8px;
+      width: 40px; height: 40px; font-size: 18px; cursor: pointer;
+      justify-content: center; align-items: center;
+    }
+    .menu-close-btn { display: none; background: none; border: none; color: var(--app-text-primary-dark-theme); font-size: 28px; cursor: pointer; }
+    .menu-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 9; }
+    .menu-overlay.is-active { display: block; }
+    .tab-row {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 14px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
+    .tab-buttons-container { display: flex; gap: 8px; }
+    .tab-button {
+      padding: 10px 24px; background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.8);
+      border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500;
+      backdrop-filter: blur(10px); transition: all 0.2s;
+    }
+    .tab-button:hover { background: rgba(255,255,255,0.25); color: #fff; }
+    .tab-button.active { background: rgba(255,255,255,0.95); color: #667eea; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .header-actions { display: flex; align-items: center; gap: 8px; }
+    .action-button {
+      padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer;
+      font-size: 13px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px;
+      transition: all 0.2s;
+    }
+    .generate-btn { background: rgba(255,255,255,0.9); color: #667eea; }
+    .generate-btn:hover { background: #fff; }
+    .download-btn { background: rgba(255,255,255,0.15); color: #fff; }
+    .download-btn:hover { background: rgba(255,255,255,0.25); }
+    .dropdown-container { position: relative; display: inline-block; }
+    .dropdown-content {
+      display: none; position: absolute; right: 0; top: 100%; margin-top: 4px;
+      background: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      min-width: 200px; z-index: 100; overflow: hidden;
+    }
+    .dropdown-content.show { display: block; }
+    .dropdown-content button {
+      width: 100%; padding: 10px 16px; border: none; background: none;
+      text-align: left; font-size: 13px; cursor: pointer; color: #333;
+    }
+    .dropdown-content button:hover { background: #f0f0f0; }
+    .dropdown-content button:disabled { color: #ccc; cursor: default; }
+    .dropdown-content button:disabled:hover { background: none; }
+    .checkbox-label { display: flex; align-items: center; gap: 8px; padding: 10px 16px; font-size: 13px; color: #333; cursor: pointer; }
+    .tab-content-wrapper { flex: 1; overflow: auto; display: flex; flex-direction: column; background: var(--app-bg-light); }
+    .tab { display: none; flex: 1; }
+    .tab.active { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+    .canvas-container-wrapper {
+      background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+      display: inline-block; margin: 0 auto;
+    }
+    .panel-footer { padding: 10px 15px; border-top: 1px solid var(--app-border-dark); }
+    #message { font-size: 12px; min-height: 20px; text-align: center; }
+    .msg-success { color: #4cd964; }
+    .msg-error { color: #ff3b30; }
+    .msg-info { color: #5ac8fa; }
+    @media (max-width: 1024px) {
+      .panel { position: fixed; top: 0; left: 0; height: 100vh; transform: translateX(-100%); z-index: 1000; transition: transform 0.3s ease-in-out; }
+      .panel.is-open { transform: translateX(0); }
+      .menu-toggle-btn { display: flex; }
+      .menu-close-btn { display: block; }
+    }
+  </style>
+</head>
+<body>
+<div class="layout">
+  <!-- ============ SIDEBAR ============ -->
+  <div class="panel" id="panel">
+    <div class="panel-header">
+      <h2 data-translate="cvcWordsTitle">CVC Words</h2>
+      <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+    </div>
+    <div class="panel-content">
+
+      <!-- Language -->
+      <div class="accordion-item">
+        <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
+        <div class="accordion-content active">
+          <label data-translate="language">Language:</label>
+          <select id="localeSelect">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Fran&ccedil;ais</option>
+            <option value="es">Espa&ntilde;ol</option>
+            <option value="pt">Portugu&ecirc;s</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="sv">Svenska</option>
+            <option value="da">Dansk</option>
+            <option value="no">Norsk</option>
+            <option value="fi">Suomi</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- CVC Filters -->
+      <div class="accordion-item">
+        <button class="accordion-button active" data-translate="cvcFilters">CVC Filters</button>
+        <div class="accordion-content active">
+          <label data-translate="vowelSound">Vowel Sound:</label>
+          <select id="vowelSoundSelect">
+            <option value="all" data-translate="allVowelSounds">All Vowel Sounds</option>
+            <option value="short_a">Short A (cat, hat, bag)</option>
+            <option value="short_e">Short E (bed, hen, pen)</option>
+            <option value="short_i">Short I (pig, fish, lip)</option>
+            <option value="short_o">Short O (dog, fox, mop)</option>
+            <option value="short_u">Short U (bus, cup, sun)</option>
+          </select>
+
+          <label data-translate="wordFamily">Word Family:</label>
+          <select id="wordFamilySelect">
+            <option value="all" data-translate="allFamilies">All Families</option>
+          </select>
+
+          <label data-translate="beginningSound">Beginning Sound:</label>
+          <select id="beginSoundSelect">
+            <option value="all" data-translate="allSounds">All Sounds</option>
+          </select>
+
+          <label data-translate="themeFilter">Theme:</label>
+          <select id="themeFilterSelect">
+            <option value="all" data-translate="allThemes">All Themes</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Layout Selection -->
+      <div class="accordion-item">
+        <button class="accordion-button active" data-translate="layoutSelection">Layout Template</button>
+        <div class="accordion-content active">
+          <div class="layout-grid" id="layoutGrid">
+            <div class="layout-card selected" data-layout="1"><div class="layout-icon">&#9997;</div><span data-translate="layout1">Say it & Write it</span></div>
+            <div class="layout-card" data-layout="2"><div class="layout-icon">&#10004;</div><span data-translate="layout2">Which Word?</span></div>
+            <div class="layout-card" data-layout="3"><div class="layout-icon">&#128260;</div><span data-translate="layout3">CVC Scramble</span></div>
+            <div class="layout-card" data-layout="4"><div class="layout-icon">&#128172;</div><span data-translate="layout4">CVC Sentences</span></div>
+            <div class="layout-card" data-layout="5"><div class="layout-icon">&#10067;</div><span data-translate="layout5">Missing Letter</span></div>
+            <div class="layout-card" data-layout="6"><div class="layout-icon">&#127912;</div><span data-translate="layout6">Colour & Write</span></div>
+            <div class="layout-card" data-layout="7"><div class="layout-icon">&#128279;</div><span data-translate="layout7">Match to Picture</span></div>
+            <div class="layout-card" data-layout="8"><div class="layout-icon">&#128218;</div><span data-translate="layout8">Word Family Sort</span></div>
+            <div class="layout-card" data-layout="9"><div class="layout-icon">&#128264;</div><span data-translate="layout9">Beginning Sounds</span></div>
+            <div class="layout-card" data-layout="10"><div class="layout-icon">&#10010;</div><span data-translate="layout10">CVC Crossword</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Exercise Settings -->
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="exerciseSettings">Exercise Settings</button>
+        <div class="accordion-content">
+          <label data-translate="wordCount">Number of Words:</label>
+          <select id="wordCountSelect">
+            <option value="4">4</option>
+            <option value="6" selected>6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+          </select>
+
+          <label data-translate="letterCase">Letter Case:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="letterCase" value="upper" checked> <span data-translate="uppercase">UPPERCASE</span></label>
+            <label><input type="radio" name="letterCase" value="lower"> <span data-translate="lowercase">lowercase</span></label>
+          </div>
+
+          <label><input type="checkbox" id="includeNameDate" checked> <span data-translate="includeNameDate">Include Name/Date line</span></label>
+          <br><br>
+          <label><input type="checkbox" id="includeNumbers" checked> <span data-translate="includeNumbers">Include exercise numbers</span></label>
+        </div>
+      </div>
+
+      <!-- Page Setup -->
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
+        <div class="accordion-content">
+          <label data-translate="pageSize">Page Size:</label>
+          <select id="pageSizeSelect">
+            <option value="letter-portrait" data-translate="letterPortrait">Letter (Portrait)</option>
+            <option value="letter-landscape" data-translate="letterLandscape">Letter (Landscape)</option>
+            <option value="a4-portrait" data-translate="a4Portrait">A4 (Portrait)</option>
+            <option value="a4-landscape" data-translate="a4Landscape">A4 (Landscape)</option>
+          </select>
+          <label data-translate="pageColor">Page Color:</label>
+          <input type="color" id="pageColorInput" value="#ffffff">
+        </div>
+      </div>
+
+    </div>
+    <div class="panel-footer">
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <!-- ============ MAIN AREA ============ -->
+  <div class="main">
+    <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <div class="tab-row">
+      <div class="tab-buttons-container">
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
+      </div>
+      <div class="header-actions">
+        <div class="dropdown-container">
+          <button id="generateDropdownBtn" class="action-button generate-btn">
+            <i class="fas fa-magic"></i> <span data-translate="create">Create</span> <i class="fas fa-caret-down"></i>
+          </button>
+          <div id="generateDropdownContent" class="dropdown-content">
+            <button id="generateWorksheetBtn" data-translate="generateWorksheet">Create Worksheet</button>
+            <button id="generateAnswerKeyBtn" disabled data-translate="generateAnswerKey">Create Answer Key</button>
+          </div>
+        </div>
+        <div class="dropdown-container">
+          <button id="downloadDropdownBtn" class="action-button download-btn">
+            <i class="fas fa-download"></i> <span data-translate="download">Download</span> <i class="fas fa-caret-down"></i>
+          </button>
+          <div id="downloadDropdownContent" class="dropdown-content">
+            <button id="downloadWorksheetJpegBtn" disabled data-translate="downloadWorksheetJpeg">Worksheet (JPEG)</button>
+            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="downloadAnswerKeyJpeg">Answer Key (JPEG)</button>
+            <hr style="margin:6px 0;border-color:#eee;">
+            <button id="downloadWorksheetPdfBtn" disabled data-translate="downloadWorksheetPdf">Worksheet (PDF)</button>
+            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="downloadAnswerKeyPdf">Answer Key (PDF)</button>
+            <hr style="margin:6px 0;border-color:#eee;">
+            <label class="checkbox-label"><input type="checkbox" id="grayscaleToggle"> <span data-translate="grayscale">Grayscale</span></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content-wrapper">
+      <div class="tab active" id="worksheetTab">
+        <div class="canvas-container-wrapper"><canvas id="worksheetCanvas"></canvas></div>
+      </div>
+      <div class="tab" id="answerKeyTab">
+        <div class="canvas-container-wrapper"><canvas id="answerKeyCanvas"></canvas></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="exportArea" style="position:absolute;left:-9999px;top:-9999px;"></div>
+
+<script>
+(function() {
+'use strict';
+
+// ============================================================
+// CONFIGURATION
+// ============================================================
+var PAGE_SIZES = {
+  'letter-portrait':   { w: 612, h: 792 },
+  'letter-landscape':  { w: 792, h: 612 },
+  'a4-portrait':       { w: 595, h: 842 },
+  'a4-landscape':      { w: 842, h: 595 }
+};
+
+var COLORS = {
+  border: '#5B86E5',
+  headerBg: '#667eea',
+  accent: '#764ba2',
+  cellStroke: '#333333',
+  cellFill: '#ffffff',
+  answerFill: '#e8f5e9',
+  correctCircle: '#4caf50',
+  matchLine: '#2196f3'
+};
+
+var currentCanvasConfig = { width: 612, height: 792, color: '#ffffff' };
+var worksheetCanvas = null;
+var answerKeyCanvas = null;
+var currentLayout = 1;
+var lastGeneratedData = null;
+var isGenerating = false;
+
+// ============================================================
+// DATA LAYER — Build key-to-theme reverse index
+// ============================================================
+var keyToTheme = {};
+(function buildKeyToTheme() {
+  var themes = Object.keys(VOCAB_INDEX.theme);
+  for (var i = 0; i < themes.length; i++) {
+    var theme = themes[i];
+    var keys = VOCAB_INDEX.theme[theme].split(',');
+    var isBW = theme.indexOf('_bw') >= 0;
+    for (var j = 0; j < keys.length; j++) {
+      var k = keys[j];
+      if (!keyToTheme[k] || (keyToTheme[k].indexOf('_bw') >= 0 && !isBW)) {
+        keyToTheme[k] = theme;
+      }
+    }
+  }
+})();
+
+function getImageUrl(vocabKey) {
+  var theme = keyToTheme[vocabKey];
+  if (!theme || !IMAGE_VOCABULARY[vocabKey]) return null;
+  var enName = IMAGE_VOCABULARY[vocabKey].en[0];
+  return '/images/' + theme + '/' + encodeURIComponent(enName) + '.png';
+}
+
+function getWord(vocabKey, locale) {
+  return ImageVocab.singular(vocabKey, locale || currentLocale);
+}
+
+// ============================================================
+// WORD SELECTION using VocabQuery
+// ============================================================
+function selectCVCWords(count, seed) {
+  var rng = TemplateEngine.createRNG(seed);
+  var filters = {};
+
+  var vowelSound = document.getElementById('vowelSoundSelect').value;
+  if (vowelSound !== 'all') filters.cvc = vowelSound;
+
+  var wordFamily = document.getElementById('wordFamilySelect').value;
+  if (wordFamily !== 'all') filters.wordFamily = wordFamily;
+
+  var beginSound = document.getElementById('beginSoundSelect').value;
+  if (beginSound !== 'all') filters.beginSound = beginSound;
+
+  var themeFilter = document.getElementById('themeFilterSelect').value;
+  if (themeFilter !== 'all') filters.theme = themeFilter;
+
+  // If no CVC filter specified, default to all CVC words
+  var hasPhonicsFilter = filters.cvc || filters.wordFamily || filters.beginSound;
+  if (!hasPhonicsFilter) {
+    // Get all CVC words across all vowel sounds
+    var allCVC = [];
+    var vowels = VocabQuery.vowelSounds();
+    for (var i = 0; i < vowels.length; i++) {
+      var words = VocabQuery.byCVC(vowels[i]);
+      for (var j = 0; j < words.length; j++) {
+        if (allCVC.indexOf(words[j]) < 0) allCVC.push(words[j]);
+      }
+    }
+    // Apply theme filter if set
+    if (filters.theme) {
+      var themeWords = VocabQuery.byTheme(filters.theme);
+      var themeSet = {};
+      for (var ti = 0; ti < themeWords.length; ti++) themeSet[themeWords[ti]] = true;
+      allCVC = allCVC.filter(function(k) { return themeSet[k]; });
+    }
+    // Shuffle and pick
+    rng.shuffle(allCVC);
+    return allCVC.slice(0, Math.min(count, allCVC.length));
+  }
+
+  var candidates = VocabQuery.query(filters);
+  if (candidates.length === 0) return [];
+
+  // Shuffle with seeded PRNG
+  var shuffled = candidates.slice();
+  rng.shuffle(shuffled);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+// Select words for Layout 8 (Word Family Sort) — needs 2-3 families
+function selectWordFamilyWords(count, seed) {
+  var rng = TemplateEngine.createRNG(seed);
+  var families = VocabQuery.wordFamilies();
+  // Pick 2-3 families that have enough words
+  var goodFamilies = families.filter(function(f) {
+    return VocabQuery.byWordFamily(f).length >= 2;
+  });
+  rng.shuffle(goodFamilies);
+  var selectedFamilies = goodFamilies.slice(0, 3);
+  var result = [];
+  var wordsPerFamily = Math.ceil(count / selectedFamilies.length);
+  for (var i = 0; i < selectedFamilies.length; i++) {
+    var fWords = VocabQuery.byWordFamily(selectedFamilies[i]).slice();
+    rng.shuffle(fWords);
+    for (var j = 0; j < Math.min(wordsPerFamily, fWords.length); j++) {
+      result.push({ key: fWords[j], family: selectedFamilies[i] });
+    }
+  }
+  return { families: selectedFamilies, words: result.slice(0, count) };
+}
+
+// Select words for Layout 9 (Beginning Sound Match)
+function selectBeginSoundWords(seed) {
+  var rng = TemplateEngine.createRNG(seed);
+  var allCVC = [];
+  var vowels = VocabQuery.vowelSounds();
+  for (var i = 0; i < vowels.length; i++) {
+    var words = VocabQuery.byCVC(vowels[i]);
+    for (var j = 0; j < words.length; j++) {
+      if (allCVC.indexOf(words[j]) < 0) allCVC.push(words[j]);
+    }
+  }
+  // Group by first letter
+  var byLetter = {};
+  for (var k = 0; k < allCVC.length; k++) {
+    var word = getWord(allCVC[k], 'en');
+    var letter = word.charAt(0).toUpperCase();
+    if (!byLetter[letter]) byLetter[letter] = [];
+    byLetter[letter].push(allCVC[k]);
+  }
+  // Pick 3 letters that have 2+ words
+  var letters = Object.keys(byLetter).filter(function(l) { return byLetter[l].length >= 2; });
+  rng.shuffle(letters);
+  var selectedLetters = letters.slice(0, 3);
+  var rows = [];
+  for (var li = 0; li < selectedLetters.length; li++) {
+    var l = selectedLetters[li];
+    var matches = byLetter[l].slice();
+    rng.shuffle(matches);
+    // Pick 2 matching + 2 non-matching
+    var matchWords = matches.slice(0, 2);
+    var others = allCVC.filter(function(w) {
+      var wl = getWord(w, 'en').charAt(0).toUpperCase();
+      return wl !== l && matchWords.indexOf(w) < 0;
+    });
+    rng.shuffle(others);
+    var nonMatch = others.slice(0, 2);
+    var row = matchWords.concat(nonMatch);
+    rng.shuffle(row);
+    rows.push({ letter: l, words: row, matches: matchWords });
+  }
+  return rows;
+}
+
+// ============================================================
+// UI REFERENCES
+// ============================================================
+var ui = {};
+function initUI() {
+  ui.localeSelect = document.getElementById('localeSelect');
+  ui.vowelSoundSelect = document.getElementById('vowelSoundSelect');
+  ui.wordFamilySelect = document.getElementById('wordFamilySelect');
+  ui.beginSoundSelect = document.getElementById('beginSoundSelect');
+  ui.themeFilterSelect = document.getElementById('themeFilterSelect');
+  ui.wordCountSelect = document.getElementById('wordCountSelect');
+  ui.pageSizeSelect = document.getElementById('pageSizeSelect');
+  ui.pageColorInput = document.getElementById('pageColorInput');
+  ui.includeNameDate = document.getElementById('includeNameDate');
+  ui.includeNumbers = document.getElementById('includeNumbers');
+  ui.message = document.getElementById('message');
+}
+
+function showMessage(text, type, timeout) {
+  ui.message.textContent = text;
+  ui.message.className = type ? ('msg-' + type) : '';
+  if (timeout !== 0) {
+    setTimeout(function() { ui.message.textContent = ''; ui.message.className = ''; }, timeout || 3000);
+  }
+}
+
+// ============================================================
+// POPULATE FILTER DROPDOWNS
+// ============================================================
+function populateFilters() {
+  // Word families
+  var families = VocabQuery.wordFamilies();
+  var wfSel = ui.wordFamilySelect;
+  for (var i = 0; i < families.length; i++) {
+    var opt = document.createElement('option');
+    opt.value = families[i];
+    opt.textContent = families[i] + ' (' + VocabQuery.byWordFamily(families[i]).length + ')';
+    wfSel.appendChild(opt);
+  }
+
+  // Beginning sounds (only those with CVC words)
+  var allCVCKeys = {};
+  var vowels = VocabQuery.vowelSounds();
+  for (var vi = 0; vi < vowels.length; vi++) {
+    var ws = VocabQuery.byCVC(vowels[vi]);
+    for (var wi = 0; wi < ws.length; wi++) allCVCKeys[ws[wi]] = true;
+  }
+  var soundCounts = {};
+  var allKeys = Object.keys(allCVCKeys);
+  for (var ki = 0; ki < allKeys.length; ki++) {
+    var w = getWord(allKeys[ki], 'en');
+    var s = w.charAt(0).toUpperCase();
+    soundCounts[s] = (soundCounts[s] || 0) + 1;
+  }
+  var sounds = Object.keys(soundCounts).sort();
+  var bsSel = ui.beginSoundSelect;
+  for (var si = 0; si < sounds.length; si++) {
+    var sopt = document.createElement('option');
+    sopt.value = sounds[si].toLowerCase();
+    sopt.textContent = sounds[si] + ' (' + soundCounts[sounds[si]] + ')';
+    bsSel.appendChild(sopt);
+  }
+
+  // Themes (only those containing CVC words)
+  var themesWithCVC = {};
+  for (var ci = 0; ci < allKeys.length; ci++) {
+    var th = keyToTheme[allKeys[ci]];
+    if (th) themesWithCVC[th] = (themesWithCVC[th] || 0) + 1;
+  }
+  var themeNames = Object.keys(themesWithCVC).sort();
+  var thSel = ui.themeFilterSelect;
+  for (var thi = 0; thi < themeNames.length; thi++) {
+    var tn = themeNames[thi];
+    var topt = document.createElement('option');
+    topt.value = tn;
+    topt.textContent = tn.replace(/_/g, ' ') + ' (' + themesWithCVC[tn] + ')';
+    thSel.appendChild(topt);
+  }
+}
+
+// ============================================================
+// CANVAS SETUP
+// ============================================================
+function initCanvases() {
+  worksheetCanvas = new fabric.Canvas('worksheetCanvas', {
+    width: currentCanvasConfig.width,
+    height: currentCanvasConfig.height,
+    backgroundColor: currentCanvasConfig.color,
+    renderOnAddRemove: false,
+    preserveObjectStacking: true
+  });
+  answerKeyCanvas = new fabric.Canvas('answerKeyCanvas', {
+    width: currentCanvasConfig.width,
+    height: currentCanvasConfig.height,
+    backgroundColor: currentCanvasConfig.color,
+    renderOnAddRemove: false,
+    preserveObjectStacking: true
+  });
+}
+
+function updateCanvasSize() {
+  var size = PAGE_SIZES[ui.pageSizeSelect.value] || PAGE_SIZES['letter-portrait'];
+  currentCanvasConfig.width = size.w;
+  currentCanvasConfig.height = size.h;
+  currentCanvasConfig.color = ui.pageColorInput.value;
+  [worksheetCanvas, answerKeyCanvas].forEach(function(c) {
+    c.setWidth(size.w);
+    c.setHeight(size.h);
+    c.setBackgroundColor(currentCanvasConfig.color, function() { c.renderAll(); });
+  });
+}
+
+// ============================================================
+// HEADER / BORDER CREATION
+// ============================================================
+var defaultHeaders = {
+  en: { title: 'CVC Words', desc: 'Read, write, and practice CVC words' },
+  de: { title: 'KVK-W\u00f6rter', desc: 'KVK-W\u00f6rter lesen, schreiben und \u00fcben' },
+  fr: { title: 'Mots CVC', desc: 'Lire, \u00e9crire et pratiquer les mots CVC' },
+  es: { title: 'Palabras CVC', desc: 'Lee, escribe y practica palabras CVC' },
+  pt: { title: 'Palavras CVC', desc: 'Ler, escrever e praticar palavras CVC' },
+  it: { title: 'Parole CVC', desc: 'Leggere, scrivere e praticare le parole CVC' },
+  nl: { title: 'KMK-woorden', desc: 'KMK-woorden lezen, schrijven en oefenen' },
+  sv: { title: 'KVK-ord', desc: 'L\u00e4s, skriv och \u00f6va KVK-ord' },
+  da: { title: 'KVK-ord', desc: 'L\u00e6s, skriv og \u00f8v KVK-ord' },
+  no: { title: 'KVK-ord', desc: 'Les, skriv og \u00f8v KVK-ord' },
+  fi: { title: 'KVK-sanat', desc: 'Lue, kirjoita ja harjoittele KVK-sanoja' }
+};
+
+// Layout-specific subtitles
+var layoutSubtitles = {
+  en: ['Write each letter', 'Circle the correct word', 'Unscramble the letters', 'Complete the sentence', 'Fill in the missing letter', 'Write the word', 'Match words to pictures', 'Sort by word family', 'Circle the beginning sound', 'Solve the crossword'],
+  de: ['Schreibe jeden Buchstaben', 'Kreise das richtige Wort ein', 'Ordne die Buchstaben', 'Vervollst\u00e4ndige den Satz', 'F\u00fclle den fehlenden Buchstaben ein', 'Schreibe das Wort', 'Ordne W\u00f6rter den Bildern zu', 'Sortiere nach Wortfamilie', 'Kreise den Anfangslaut ein', 'L\u00f6se das Kreuzwortr\u00e4tsel'],
+  fr: ['\u00c9cris chaque lettre', 'Entoure le bon mot', 'D\u00e9m\u00eale les lettres', 'Compl\u00e8te la phrase', 'Compl\u00e8te la lettre manquante', '\u00c9cris le mot', 'Relie les mots aux images', 'Trie par famille de mots', 'Entoure le son initial', 'R\u00e9sous les mots crois\u00e9s'],
+  es: ['Escribe cada letra', 'Encierra la palabra correcta', 'Ordena las letras', 'Completa la oraci\u00f3n', 'Completa la letra faltante', 'Escribe la palabra', 'Une las palabras con las im\u00e1genes', 'Clasifica por familia de palabras', 'Encierra el sonido inicial', 'Resuelve el crucigrama'],
+  pt: ['Escreva cada letra', 'Circule a palavra correta', 'Desembaralhe as letras', 'Complete a frase', 'Preencha a letra que falta', 'Escreva a palavra', 'Ligue as palavras \u00e0s imagens', 'Classifique por fam\u00edlia de palavras', 'Circule o som inicial', 'Resolva a palavra cruzada'],
+  it: ['Scrivi ogni lettera', 'Cerchia la parola corretta', 'Riordina le lettere', 'Completa la frase', 'Inserisci la lettera mancante', 'Scrivi la parola', 'Collega le parole alle immagini', 'Ordina per famiglia di parole', 'Cerchia il suono iniziale', 'Risolvi il cruciverba'],
+  nl: ['Schrijf elke letter', 'Omcirkel het juiste woord', 'Ontwar de letters', 'Maak de zin af', 'Vul de ontbrekende letter in', 'Schrijf het woord', 'Verbind woorden met afbeeldingen', 'Sorteer op woordfamilie', 'Omcirkel het begingeluid', 'Los het kruiswoordraadsel op'],
+  sv: ['Skriv varje bokstav', 'Ringa in r\u00e4tt ord', 'Ordna bokst\u00e4verna', 'Fyll i meningen', 'Fyll i den saknade bokstaven', 'Skriv ordet', 'Para ihop ord med bilder', 'Sortera efter ordfamilj', 'Ringa in b\u00f6rjeljudet', 'L\u00f6s korsorden'],
+  da: ['Skriv hvert bogstav', 'S\u00e6t ring om det rigtige ord', 'Ordne bogstaverne', 'Fuldf\u00f8r s\u00e6tningen', 'Udfyld det manglende bogstav', 'Skriv ordet', 'Forbind ord med billeder', 'Sort\u00e9r efter ordfamilie', 'S\u00e6t ring om begyndelseslyden', 'L\u00f8s krydsordet'],
+  no: ['Skriv hver bokstav', 'Sett ring rundt rett ord', 'Ordne bokstavene', 'Fullf\u00f8r setningen', 'Fyll inn den manglende bokstaven', 'Skriv ordet', 'Koble ord til bilder', 'Sorter etter ordfamilie', 'Sett ring rundt begynnelseslyden', 'L\u00f8s kryssordet'],
+  fi: ['Kirjoita jokainen kirjain', 'Ympyr\u00f6i oikea sana', 'J\u00e4rjest\u00e4 kirjaimet', 'T\u00e4ydenn\u00e4 lause', 'T\u00e4yt\u00e4 puuttuva kirjain', 'Kirjoita sana', 'Yhdist\u00e4 sanat kuviin', 'Lajittele sanaper\u00e4heitt\u00e4in', 'Ympyr\u00f6i alkukirjain', 'Ratkaise ristikko']
+};
+
+function createHeaderGroup(canvas, layoutIdx) {
+  var pw = currentCanvasConfig.width;
+  var ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var margin = 30;
+  var objects = [];
+
+  // Outer border
+  var border = new fabric.Rect({
+    left: margin, top: margin, width: pw - 2 * margin, height: ph - 2 * margin,
+    fill: 'transparent', stroke: COLORS.border, strokeWidth: 6, rx: 10, ry: 10,
+    selectable: false, evented: false, isPageBorder: true
+  });
+  objects.push(border);
+
+  // Header background
+  var hh = isLand ? 65 : 80;
+  var headerBg = new fabric.Rect({
+    left: margin, top: margin, width: pw - 2 * margin, height: hh,
+    fill: COLORS.headerBg, rx: 10, ry: 10,
+    selectable: false, evented: false, isHeaderElement: true
+  });
+  // Square off bottom corners
+  var headerFill = new fabric.Rect({
+    left: margin, top: margin + hh - 10, width: pw - 2 * margin, height: 10,
+    fill: COLORS.headerBg,
+    selectable: false, evented: false, isHeaderElement: true
+  });
+  objects.push(headerBg, headerFill);
+
+  var locale = currentLocale || 'en';
+  var hdr = defaultHeaders[locale] || defaultHeaders.en;
+  var li = (layoutIdx || currentLayout) - 1;
+  var subs = layoutSubtitles[locale] || layoutSubtitles.en;
+  var subtitle = subs[li] || '';
+
+  var titleText = new fabric.Text(hdr.title, {
+    left: margin + 20, top: margin + (isLand ? 10 : 12),
+    fontSize: isLand ? 22 : 28, fontFamily: 'Fredoka', fontWeight: '600',
+    fill: '#ffffff', selectable: false, evented: false, isHeaderElement: true
+  });
+  objects.push(titleText);
+
+  if (subtitle) {
+    var subText = new fabric.Text(subtitle, {
+      left: margin + 20, top: margin + (isLand ? 38 : 48),
+      fontSize: isLand ? 14 : 16, fontFamily: 'Nunito', fill: 'rgba(255,255,255,0.85)',
+      selectable: false, evented: false, isHeaderDesc: true
+    });
+    objects.push(subText);
+  }
+
+  return objects;
+}
+
+// ============================================================
+// RENDERING HELPERS
+// ============================================================
+function loadImage(url) {
+  return new Promise(function(resolve) {
+    if (!url) { resolve(null); return; }
+    fabric.Image.fromURL(url, function(img) {
+      resolve(img && img.width > 0 ? img : null);
+    }, { crossOrigin: 'anonymous' });
+  });
+}
+
+function applyCase(text) {
+  var caseVal = document.querySelector('input[name="letterCase"]:checked').value;
+  return caseVal === 'lower' ? text.toLowerCase() : text.toUpperCase();
+}
+
+function createLetterBoxes(word, x, y, cellSize, opts) {
+  opts = opts || {};
+  var objects = [];
+  var letters = word.split('');
+  for (var i = 0; i < letters.length; i++) {
+    var rect = new fabric.Rect({
+      left: x + i * cellSize, top: y,
+      width: cellSize, height: cellSize,
+      fill: opts.fillColor || COLORS.cellFill,
+      stroke: COLORS.cellStroke, strokeWidth: 1.5, rx: 3, ry: 3
+    });
+    objects.push(rect);
+    if (opts.showLetters) {
+      var txt = new fabric.Text(applyCase(letters[i]), {
+        left: x + i * cellSize + cellSize / 2, top: y + cellSize / 2,
+        fontSize: opts.fontSize || cellSize * 0.6,
+        fontFamily: 'Fredoka', fontWeight: '500',
+        fill: opts.letterColor || '#333',
+        originX: 'center', originY: 'center'
+      });
+      objects.push(txt);
+    }
+  }
+  return objects;
+}
+
+function scrambleWord(word, rng) {
+  var arr = word.split('');
+  var result;
+  var attempts = 0;
+  do {
+    result = rng.shuffle(arr.slice()).join('');
+    attempts++;
+  } while (result === word && word.length > 1 && attempts < 20);
+  return result;
+}
+
+function generateDistractors(correctKey, count, rng) {
+  // Get words with similar properties for plausible distractors
+  var correct = getWord(correctKey, 'en');
+  var allCVC = [];
+  var vowels = VocabQuery.vowelSounds();
+  for (var i = 0; i < vowels.length; i++) {
+    var ws = VocabQuery.byCVC(vowels[i]);
+    for (var j = 0; j < ws.length; j++) {
+      if (ws[j] !== correctKey && allCVC.indexOf(ws[j]) < 0) allCVC.push(ws[j]);
+    }
+  }
+  rng.shuffle(allCVC);
+  var distractors = [];
+  // Prefer same-length words
+  var sameLen = allCVC.filter(function(k) { return getWord(k, 'en').length === correct.length; });
+  var diffLen = allCVC.filter(function(k) { return getWord(k, 'en').length !== correct.length; });
+  var pool = sameLen.concat(diffLen);
+  for (var d = 0; d < pool.length && distractors.length < count; d++) {
+    distractors.push(pool[d]);
+  }
+  return distractors;
+}
+
+// ============================================================
+// LAYOUT GENERATORS
+// Each returns array of fabric objects for one worksheet page.
+// ============================================================
+
+// --- LAYOUT 1: Say it & Write it ---
+async function renderLayout1(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var rowH = Math.min(areaH / words.length, isLand ? 55 : 70);
+  var imgSize = rowH * 0.85;
+  var cellSize = Math.min(32, (pw - margin * 2 - imgSize - 80) / 8);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var y = topY + i * rowH + (rowH - imgSize) / 2;
+    var x = margin;
+    var key = words[i];
+    var word = getWord(key, currentLocale);
+    var enWord = getWord(key, 'en');
+
+    // Number
+    if (ui.includeNumbers.checked) {
+      objects.push(new fabric.Text((i + 1) + '.', {
+        left: x, top: y + imgSize / 2, fontSize: 14, fontFamily: 'Nunito',
+        fill: '#666', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+      x += 25;
+    }
+
+    // Image
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: x, top: y, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    x += imgSize + 15;
+
+    // Word label (small, above boxes)
+    objects.push(new fabric.Text(applyCase(enWord), {
+      left: x, top: y - 2, fontSize: 11, fontFamily: 'Nunito', fill: '#999',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Letter boxes
+    var boxes = createLetterBoxes(enWord, x, y + 12, cellSize, {
+      showLetters: isAnswerKey,
+      fillColor: isAnswerKey ? COLORS.answerFill : COLORS.cellFill,
+      fontSize: cellSize * 0.55
+    });
+    for (var b = 0; b < boxes.length; b++) {
+      boxes[b].set({ selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(boxes[b]);
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 2: Which Word? ---
+async function renderLayout2(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var rowH = Math.min(areaH / words.length, isLand ? 60 : 80);
+  var imgSize = rowH * 0.8;
+  var rng = TemplateEngine.createRNG(42 + words.length);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var y = topY + i * rowH;
+    var x = margin;
+    var key = words[i];
+    var word = getWord(key, 'en');
+
+    if (ui.includeNumbers.checked) {
+      objects.push(new fabric.Text((i + 1) + '.', {
+        left: x, top: y + imgSize / 2, fontSize: 14, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+      x += 25;
+    }
+
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: x, top: y, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    x += imgSize + 20;
+
+    // Generate choices: 1 correct + 3 distractors
+    var distractors = generateDistractors(key, 3, rng);
+    var choices = [key].concat(distractors);
+    rng.shuffle(choices);
+
+    var choiceW = (pw - x - margin) / choices.length;
+    for (var c = 0; c < choices.length; c++) {
+      var cWord = applyCase(getWord(choices[c], 'en'));
+      var isCorrect = choices[c] === key;
+      var cx = x + c * choiceW;
+
+      // Circle/box for each choice
+      var choiceRect = new fabric.Rect({
+        left: cx, top: y + 5, width: choiceW - 8, height: imgSize - 10,
+        fill: (isAnswerKey && isCorrect) ? COLORS.answerFill : 'transparent',
+        stroke: (isAnswerKey && isCorrect) ? COLORS.correctCircle : '#ccc',
+        strokeWidth: (isAnswerKey && isCorrect) ? 2.5 : 1, rx: 6, ry: 6,
+        selectable: false, evented: false, isGeneratedItem: true
+      });
+      objects.push(choiceRect);
+
+      objects.push(new fabric.Text(cWord, {
+        left: cx + (choiceW - 8) / 2, top: y + imgSize / 2,
+        fontSize: Math.min(16, choiceW * 0.25), fontFamily: 'Fredoka',
+        fill: '#333', originX: 'center', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 3: CVC Scramble ---
+async function renderLayout3(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var rowH = Math.min(areaH / words.length, isLand ? 60 : 75);
+  var imgSize = rowH * 0.8;
+  var cellSize = Math.min(30, rowH * 0.6);
+  var rng = TemplateEngine.createRNG(99 + words.length);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var y = topY + i * rowH;
+    var x = margin;
+    var key = words[i];
+    var word = getWord(key, 'en');
+    var scrambled = scrambleWord(word, rng);
+
+    if (ui.includeNumbers.checked) {
+      objects.push(new fabric.Text((i + 1) + '.', {
+        left: x, top: y + imgSize / 2, fontSize: 14, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+      x += 25;
+    }
+
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: x, top: y, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    x += imgSize + 15;
+
+    // Scrambled letters
+    objects.push(new fabric.Text(applyCase(scrambled), {
+      left: x, top: y + 5, fontSize: cellSize * 0.7, fontFamily: 'Fredoka',
+      fill: '#e65100', letterSpacing: 4,
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Arrow
+    objects.push(new fabric.Text('\u2192', {
+      left: x + word.length * cellSize * 0.5 + 15, top: y + cellSize / 2,
+      fontSize: 18, fill: '#999', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Answer boxes
+    var boxX = x + word.length * cellSize * 0.5 + 40;
+    var boxes = createLetterBoxes(word, boxX, y + 5, cellSize, {
+      showLetters: isAnswerKey,
+      fillColor: isAnswerKey ? COLORS.answerFill : COLORS.cellFill
+    });
+    for (var b = 0; b < boxes.length; b++) {
+      boxes[b].set({ selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(boxes[b]);
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 4: CVC Sentences ---
+async function renderLayout4(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var rowH = Math.min(areaH / words.length, isLand ? 60 : 80);
+  var imgSize = rowH * 0.8;
+
+  var sentenceTemplates = {
+    en: ['I see a ___.', 'The ___ is here.', 'Look at the ___.', 'I have a ___.', 'Where is the ___?', 'This is a ___.'],
+    de: ['Ich sehe einen ___.', 'Der ___ ist hier.', 'Schau dir den ___ an.'],
+    fr: ['Je vois un ___.', 'Le ___ est ici.', 'Regarde le ___.'],
+    es: ['Veo un ___.', 'El ___ est\u00e1 aqu\u00ed.', 'Mira el ___.'],
+    pt: ['Eu vejo um ___.', 'O ___ est\u00e1 aqui.', 'Olhe o ___.'],
+    it: ['Vedo un ___.', 'Il ___ \u00e8 qui.', 'Guarda il ___.'],
+    nl: ['Ik zie een ___.', 'De ___ is hier.', 'Kijk naar de ___.'],
+    sv: ['Jag ser en ___.', 'H\u00e4r \u00e4r en ___.', 'Titta p\u00e5 ___.'],
+    da: ['Jeg ser en ___.', 'Her er en ___.', 'Se p\u00e5 ___.'],
+    no: ['Jeg ser en ___.', 'Her er en ___.', 'Se p\u00e5 ___.'],
+    fi: ['N\u00e4en ___.', 'T\u00e4ss\u00e4 on ___.', 'Katso ___!']
+  };
+
+  var templates = sentenceTemplates[currentLocale] || sentenceTemplates.en;
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var y = topY + i * rowH;
+    var x = margin;
+    var key = words[i];
+    var word = getWord(key, currentLocale);
+    var template = templates[i % templates.length];
+
+    if (ui.includeNumbers.checked) {
+      objects.push(new fabric.Text((i + 1) + '.', {
+        left: x, top: y + imgSize / 2, fontSize: 14, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+      x += 25;
+    }
+
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: x, top: y, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    x += imgSize + 15;
+
+    // Sentence with blank or answer
+    var displaySentence = isAnswerKey ? template.replace('___', word) : template;
+    objects.push(new fabric.Text(displaySentence, {
+      left: x, top: y + imgSize / 2,
+      fontSize: Math.min(18, rowH * 0.3), fontFamily: 'Nunito', fill: '#333',
+      originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    if (isAnswerKey) {
+      // Underline the answer word
+      var pre = template.split('___')[0];
+      var answerX = x + pre.length * 8;
+      objects.push(new fabric.Line([answerX, y + imgSize / 2 + 12, answerX + word.length * 9, y + imgSize / 2 + 12], {
+        stroke: COLORS.correctCircle, strokeWidth: 2,
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 5: Missing Letter ---
+async function renderLayout5(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+
+  // Two-column layout for more items
+  var cols = words.length > 6 ? 2 : 1;
+  var itemsPerCol = Math.ceil(words.length / cols);
+  var colW = (pw - margin * 2 - (cols > 1 ? 30 : 0)) / cols;
+  var rowH = Math.min(areaH / itemsPerCol, isLand ? 60 : 75);
+  var imgSize = rowH * 0.8;
+  var cellSize = Math.min(32, rowH * 0.6);
+  var rng = TemplateEngine.createRNG(77 + words.length);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var col = Math.floor(i / itemsPerCol);
+    var row = i % itemsPerCol;
+    var baseX = margin + col * (colW + 30);
+    var y = topY + row * rowH;
+    var x = baseX;
+    var key = words[i];
+    var word = getWord(key, 'en');
+
+    // Choose a random position to blank
+    var blankPos = rng.int(0, word.length - 1);
+
+    if (ui.includeNumbers.checked) {
+      objects.push(new fabric.Text((i + 1) + '.', {
+        left: x, top: y + imgSize / 2, fontSize: 14, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+      x += 25;
+    }
+
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: x, top: y, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    x += imgSize + 10;
+
+    // Letters with one blank
+    for (var j = 0; j < word.length; j++) {
+      var isBlank = j === blankPos;
+      var letter = isBlank ? (isAnswerKey ? word[j] : '') : word[j];
+      var rect = new fabric.Rect({
+        left: x + j * cellSize, top: y + (imgSize - cellSize) / 2,
+        width: cellSize, height: cellSize,
+        fill: isBlank ? (isAnswerKey ? COLORS.answerFill : '#fff3e0') : COLORS.cellFill,
+        stroke: isBlank ? '#e65100' : COLORS.cellStroke,
+        strokeWidth: isBlank ? 2 : 1, rx: 3, ry: 3,
+        selectable: false, evented: false, isGeneratedItem: true
+      });
+      objects.push(rect);
+
+      if (letter) {
+        objects.push(new fabric.Text(applyCase(letter), {
+          left: x + j * cellSize + cellSize / 2, top: y + imgSize / 2,
+          fontSize: cellSize * 0.6, fontFamily: 'Fredoka', fontWeight: '500',
+          fill: (isBlank && isAnswerKey) ? COLORS.correctCircle : '#333',
+          originX: 'center', originY: 'center',
+          selectable: false, evented: false, isGeneratedItem: true
+        }));
+      }
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 6: Colour & Write ---
+async function renderLayout6(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var areaW = pw - margin * 2;
+
+  // Grid layout
+  var cols = isLand ? Math.min(4, words.length) : Math.min(3, words.length);
+  var rows = Math.ceil(words.length / cols);
+  var cellW = areaW / cols;
+  var cellH = areaH / rows;
+  var imgSize = Math.min(cellW * 0.7, cellH * 0.55);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var i = 0; i < words.length; i++) {
+    var col = i % cols;
+    var row = Math.floor(i / cols);
+    var cx = margin + col * cellW + cellW / 2;
+    var cy = topY + row * cellH;
+    var key = words[i];
+    var word = getWord(key, 'en');
+
+    // Cell border
+    objects.push(new fabric.Rect({
+      left: margin + col * cellW + 4, top: cy + 4,
+      width: cellW - 8, height: cellH - 8,
+      fill: 'transparent', stroke: '#e0e0e0', strokeWidth: 1, strokeDashArray: [4, 4], rx: 6, ry: 6,
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Image
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({
+        left: cx - imgSize / 2, top: cy + 10,
+        selectable: false, evented: false, isGeneratedItem: true
+      });
+      objects.push(img);
+    }
+
+    // Writing line
+    var lineY = cy + cellH - 30;
+    objects.push(new fabric.Line([cx - cellW * 0.35, lineY, cx + cellW * 0.35, lineY], {
+      stroke: '#ccc', strokeWidth: 1.5, strokeDashArray: [6, 3],
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Answer text
+    if (isAnswerKey) {
+      objects.push(new fabric.Text(applyCase(word), {
+        left: cx, top: lineY - 18,
+        fontSize: 16, fontFamily: 'Fredoka', fill: COLORS.correctCircle,
+        originX: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 7: Match Word to Picture ---
+async function renderLayout7(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var imgSize = Math.min(areaH / words.length * 0.7, 60);
+
+  var rng = TemplateEngine.createRNG(55);
+  // Shuffle right column independently
+  var rightOrder = words.slice();
+  rng.shuffle(rightOrder);
+
+  var leftX = margin + 30;
+  var rightX = pw - margin - 120;
+  var dotLeftX = leftX + imgSize + 20;
+  var dotRightX = rightX - 20;
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  var spacing = areaH / words.length;
+
+  // Left column: images
+  for (var i = 0; i < words.length; i++) {
+    var y = topY + i * spacing + spacing / 2;
+    var key = words[i];
+    var img = await loadImage(getImageUrl(key));
+    if (img) {
+      img.scaleToWidth(imgSize);
+      img.set({ left: leftX, top: y - imgSize / 2, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(img);
+    }
+    // Dot
+    objects.push(new fabric.Circle({
+      left: dotLeftX, top: y, radius: 4, fill: '#333', originX: 'center', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  // Right column: words (shuffled)
+  for (var r = 0; r < rightOrder.length; r++) {
+    var ry = topY + r * spacing + spacing / 2;
+    var rKey = rightOrder[r];
+    var rWord = applyCase(getWord(rKey, 'en'));
+
+    objects.push(new fabric.Text(rWord, {
+      left: rightX, top: ry, fontSize: 16, fontFamily: 'Fredoka', fill: '#333',
+      originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Dot
+    objects.push(new fabric.Circle({
+      left: dotRightX, top: ry, radius: 4, fill: '#333', originX: 'center', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  // Answer key: draw matching lines
+  if (isAnswerKey) {
+    for (var a = 0; a < words.length; a++) {
+      var ay = topY + a * spacing + spacing / 2;
+      var matchIdx = rightOrder.indexOf(words[a]);
+      var my = topY + matchIdx * spacing + spacing / 2;
+      objects.push(new fabric.Line([dotLeftX + 6, ay, dotRightX - 6, my], {
+        stroke: COLORS.matchLine, strokeWidth: 2,
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 8: Word Family Sort ---
+async function renderLayout8(canvas, data, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var areaW = pw - margin * 2;
+
+  var families = data.families;
+  var words = data.words;
+  var colW = areaW / families.length;
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  // Column headers
+  for (var f = 0; f < families.length; f++) {
+    var cx = margin + f * colW + colW / 2;
+    // Header background
+    objects.push(new fabric.Rect({
+      left: margin + f * colW + 4, top: topY,
+      width: colW - 8, height: 40,
+      fill: COLORS.headerBg, rx: 6, ry: 6,
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+    objects.push(new fabric.Text(families[f], {
+      left: cx, top: topY + 20, fontSize: 20, fontFamily: 'Fredoka', fontWeight: '600',
+      fill: '#fff', originX: 'center', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // Column divider
+    if (f > 0) {
+      objects.push(new fabric.Line([margin + f * colW, topY + 45, margin + f * colW, topY + areaH], {
+        stroke: '#e0e0e0', strokeWidth: 1, strokeDashArray: [4, 4],
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+
+  if (isAnswerKey) {
+    // Show words sorted into correct columns
+    var familyGroups = {};
+    for (var fi = 0; fi < families.length; fi++) familyGroups[families[fi]] = [];
+    for (var wi = 0; wi < words.length; wi++) {
+      familyGroups[words[wi].family].push(words[wi].key);
+    }
+    for (var gi = 0; gi < families.length; gi++) {
+      var group = familyGroups[families[gi]];
+      var gcx = margin + gi * colW + colW / 2;
+      for (var gj = 0; gj < group.length; gj++) {
+        var gy = topY + 55 + gj * 50;
+        var img = await loadImage(getImageUrl(group[gj]));
+        if (img) {
+          img.scaleToWidth(35);
+          img.set({ left: gcx - 40, top: gy, selectable: false, evented: false, isGeneratedItem: true });
+          objects.push(img);
+        }
+        objects.push(new fabric.Text(applyCase(getWord(group[gj], 'en')), {
+          left: gcx + 10, top: gy + 15, fontSize: 14, fontFamily: 'Fredoka', fill: COLORS.correctCircle,
+          originY: 'center',
+          selectable: false, evented: false, isGeneratedItem: true
+        }));
+      }
+    }
+  } else {
+    // Show word bank at top (shuffled)
+    var rng = TemplateEngine.createRNG(88);
+    var shuffledWords = words.slice();
+    rng.shuffle(shuffledWords);
+    var bankY = topY + 55;
+    var bankItemW = areaW / Math.min(shuffledWords.length, 6);
+
+    objects.push(new fabric.Text(t('wordBank') || 'Word Bank:', {
+      left: margin, top: bankY, fontSize: 13, fontFamily: 'Nunito', fontWeight: '700', fill: '#666',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    for (var bi = 0; bi < shuffledWords.length; bi++) {
+      var bCol = bi % 6;
+      var bRow = Math.floor(bi / 6);
+      var bx = margin + bCol * bankItemW;
+      var by = bankY + 22 + bRow * 50;
+
+      var bimg = await loadImage(getImageUrl(shuffledWords[bi].key));
+      if (bimg) {
+        bimg.scaleToWidth(30);
+        bimg.set({ left: bx, top: by, selectable: false, evented: false, isGeneratedItem: true });
+        objects.push(bimg);
+      }
+      objects.push(new fabric.Text(applyCase(getWord(shuffledWords[bi].key, 'en')), {
+        left: bx + 35, top: by + 13, fontSize: 12, fontFamily: 'Fredoka', fill: '#333',
+        originY: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 9: Beginning Sound Match ---
+async function renderLayout9(canvas, rows, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var areaW = pw - margin * 2;
+  var rowH = areaH / rows.length;
+  var imgSize = Math.min(rowH * 0.65, (areaW - 80) / 4 * 0.8);
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  for (var r = 0; r < rows.length; r++) {
+    var row = rows[r];
+    var y = topY + r * rowH;
+
+    // Target letter
+    objects.push(new fabric.Rect({
+      left: margin, top: y + 5, width: 50, height: rowH - 10,
+      fill: COLORS.headerBg, rx: 8, ry: 8,
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+    objects.push(new fabric.Text(row.letter, {
+      left: margin + 25, top: y + rowH / 2,
+      fontSize: 28, fontFamily: 'Fredoka', fontWeight: '600', fill: '#fff',
+      originX: 'center', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+
+    // 4 images
+    var itemW = (areaW - 70) / 4;
+    for (var wi = 0; wi < row.words.length; wi++) {
+      var key = row.words[wi];
+      var ix = margin + 60 + wi * itemW;
+      var isMatch = row.matches.indexOf(key) >= 0;
+
+      var img = await loadImage(getImageUrl(key));
+      if (img) {
+        img.scaleToWidth(imgSize);
+        img.set({
+          left: ix + (itemW - imgSize) / 2, top: y + (rowH - imgSize) / 2 - 10,
+          selectable: false, evented: false, isGeneratedItem: true
+        });
+        objects.push(img);
+      }
+
+      // Word label
+      objects.push(new fabric.Text(applyCase(getWord(key, 'en')), {
+        left: ix + itemW / 2, top: y + rowH - 20,
+        fontSize: 11, fontFamily: 'Nunito', fill: '#666',
+        originX: 'center',
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+
+      // Answer key: circle correct ones
+      if (isAnswerKey && isMatch) {
+        objects.push(new fabric.Circle({
+          left: ix + itemW / 2, top: y + rowH / 2 - 5,
+          radius: imgSize / 2 + 8, fill: 'transparent',
+          stroke: COLORS.correctCircle, strokeWidth: 3,
+          originX: 'center', originY: 'center',
+          selectable: false, evented: false, isGeneratedItem: true
+        }));
+      }
+    }
+  }
+  return objects;
+}
+
+// --- LAYOUT 10: CVC Crossword ---
+async function renderLayout10(canvas, words, isAnswerKey) {
+  var pw = currentCanvasConfig.width, ph = currentCanvasConfig.height;
+  var isLand = pw > ph;
+  var headerH = isLand ? 95 : 110;
+  var margin = 50;
+  var topY = headerH + (ui.includeNameDate.checked && !isAnswerKey ? 40 : 0);
+  var areaH = ph - topY - margin;
+  var areaW = pw - margin * 2;
+
+  // Use first 5 words for crossword
+  var cWords = words.slice(0, Math.min(5, words.length));
+  var enWords = cWords.map(function(k) { return getWord(k, 'en').toUpperCase(); });
+
+  // Simple crossword: place words alternating horizontal/vertical
+  var gridSize = 12;
+  var grid = [];
+  for (var gi = 0; gi < gridSize; gi++) {
+    grid.push([]);
+    for (var gj = 0; gj < gridSize; gj++) grid[gi].push('');
+  }
+
+  var placements = [];
+  // Place first word horizontally in center
+  var startRow = Math.floor(gridSize / 2);
+  var startCol = Math.floor((gridSize - enWords[0].length) / 2);
+  for (var li = 0; li < enWords[0].length; li++) {
+    grid[startRow][startCol + li] = enWords[0][li];
+  }
+  placements.push({ key: cWords[0], word: enWords[0], row: startRow, col: startCol, dir: 'across' });
+
+  // Place subsequent words by finding intersections
+  for (var wi = 1; wi < enWords.length; wi++) {
+    var placed = false;
+    var w = enWords[wi];
+    var dir = wi % 2 === 1 ? 'down' : 'across';
+
+    for (var pi = 0; pi < placements.length && !placed; pi++) {
+      var prev = placements[pi];
+      for (var ci = 0; ci < w.length && !placed; ci++) {
+        for (var pci = 0; pci < prev.word.length && !placed; pci++) {
+          if (w[ci] !== prev.word[pci]) continue;
+
+          var pr, pc;
+          if (dir === 'down') {
+            pr = prev.dir === 'across' ? prev.row - ci : prev.row + pci - ci;
+            pc = prev.dir === 'across' ? prev.col + pci : prev.col - 1;
+          } else {
+            pr = prev.dir === 'down' ? prev.row + pci : prev.row - 1;
+            pc = prev.dir === 'down' ? prev.col - ci : prev.col + pci - ci;
+          }
+
+          // Check bounds
+          if (pr < 0 || pc < 0) continue;
+          if (dir === 'down' && pr + w.length > gridSize) continue;
+          if (dir === 'across' && pc + w.length > gridSize) continue;
+
+          // Check no conflicts
+          var ok = true;
+          for (var ch = 0; ch < w.length && ok; ch++) {
+            var cr = dir === 'down' ? pr + ch : pr;
+            var cc = dir === 'across' ? pc + ch : pc;
+            if (grid[cr][cc] !== '' && grid[cr][cc] !== w[ch]) ok = false;
+          }
+          if (!ok) continue;
+
+          // Place word
+          for (var ch2 = 0; ch2 < w.length; ch2++) {
+            var cr2 = dir === 'down' ? pr + ch2 : pr;
+            var cc2 = dir === 'across' ? pc + ch2 : pc;
+            grid[cr2][cc2] = w[ch2];
+          }
+          placements.push({ key: cWords[wi], word: w, row: pr, col: pc, dir: dir });
+          placed = true;
+        }
+      }
+    }
+  }
+
+  // Find grid bounds
+  var minR = gridSize, maxR = 0, minC = gridSize, maxC = 0;
+  for (var br = 0; br < gridSize; br++) {
+    for (var bc = 0; bc < gridSize; bc++) {
+      if (grid[br][bc]) {
+        minR = Math.min(minR, br); maxR = Math.max(maxR, br);
+        minC = Math.min(minC, bc); maxC = Math.max(maxC, bc);
+      }
+    }
+  }
+
+  var gridW = maxC - minC + 1;
+  var gridH = maxR - minR + 1;
+  var cellSize = Math.min((areaW * 0.55) / gridW, (areaH * 0.7) / gridH, 40);
+  var gridStartX = margin + 20;
+  var gridStartY = topY + 10;
+
+  var objects = [];
+
+  if (ui.includeNameDate.checked && !isAnswerKey) {
+    objects.push(new fabric.Text('Name: ________________    Date: ________', {
+      left: margin, top: headerH + 5, fontSize: 14, fontFamily: 'Nunito', fill: '#555',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+  }
+
+  // Number placements
+  var numberMap = {};
+  for (var ni = 0; ni < placements.length; ni++) {
+    var nKey = placements[ni].row + ',' + placements[ni].col;
+    if (!numberMap[nKey]) numberMap[nKey] = ni + 1;
+  }
+
+  // Render grid
+  for (var gr = minR; gr <= maxR; gr++) {
+    for (var gc = minC; gc <= maxC; gc++) {
+      if (!grid[gr][gc]) continue;
+      var cx = gridStartX + (gc - minC) * cellSize;
+      var cy = gridStartY + (gr - minR) * cellSize;
+
+      objects.push(new fabric.Rect({
+        left: cx, top: cy, width: cellSize, height: cellSize,
+        fill: isAnswerKey ? COLORS.answerFill : '#fff',
+        stroke: '#333', strokeWidth: 1,
+        selectable: false, evented: false, isGeneratedItem: true
+      }));
+
+      // Number in corner
+      var numKey = gr + ',' + gc;
+      if (numberMap[numKey]) {
+        objects.push(new fabric.Text(String(numberMap[numKey]), {
+          left: cx + 3, top: cy + 2, fontSize: 8, fontFamily: 'Nunito', fill: '#999',
+          selectable: false, evented: false, isGeneratedItem: true
+        }));
+      }
+
+      // Letter (answer key only)
+      if (isAnswerKey) {
+        objects.push(new fabric.Text(grid[gr][gc], {
+          left: cx + cellSize / 2, top: cy + cellSize / 2 + 2,
+          fontSize: cellSize * 0.5, fontFamily: 'Fredoka', fill: '#333',
+          originX: 'center', originY: 'center',
+          selectable: false, evented: false, isGeneratedItem: true
+        }));
+      }
+    }
+  }
+
+  // Clue images (right side)
+  var clueX = gridStartX + (gridW + 1) * cellSize + 20;
+  var clueImgSize = Math.min(50, (areaH - 20) / placements.length * 0.7);
+  var acrossLabel = currentLocale === 'de' ? 'Waagerecht' : currentLocale === 'fr' ? 'Horizontal' : 'Across';
+  var downLabel = currentLocale === 'de' ? 'Senkrecht' : currentLocale === 'fr' ? 'Vertical' : 'Down';
+
+  var acrossClues = placements.filter(function(p) { return p.dir === 'across'; });
+  var downClues = placements.filter(function(p) { return p.dir === 'down'; });
+
+  var clueY = topY + 10;
+  objects.push(new fabric.Text(acrossLabel, {
+    left: clueX, top: clueY, fontSize: 14, fontFamily: 'Fredoka', fontWeight: '600', fill: '#333',
+    selectable: false, evented: false, isGeneratedItem: true
+  }));
+  clueY += 22;
+
+  for (var ai = 0; ai < acrossClues.length; ai++) {
+    var ac = acrossClues[ai];
+    var num = numberMap[ac.row + ',' + ac.col];
+    objects.push(new fabric.Text(num + '.', {
+      left: clueX, top: clueY + clueImgSize / 2, fontSize: 12, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+    var aimg = await loadImage(getImageUrl(ac.key));
+    if (aimg) {
+      aimg.scaleToWidth(clueImgSize);
+      aimg.set({ left: clueX + 20, top: clueY, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(aimg);
+    }
+    clueY += clueImgSize + 8;
+  }
+
+  clueY += 10;
+  objects.push(new fabric.Text(downLabel, {
+    left: clueX, top: clueY, fontSize: 14, fontFamily: 'Fredoka', fontWeight: '600', fill: '#333',
+    selectable: false, evented: false, isGeneratedItem: true
+  }));
+  clueY += 22;
+
+  for (var di = 0; di < downClues.length; di++) {
+    var dc = downClues[di];
+    var dnum = numberMap[dc.row + ',' + dc.col];
+    objects.push(new fabric.Text(dnum + '.', {
+      left: clueX, top: clueY + clueImgSize / 2, fontSize: 12, fontFamily: 'Nunito', fill: '#666', originY: 'center',
+      selectable: false, evented: false, isGeneratedItem: true
+    }));
+    var dimg = await loadImage(getImageUrl(dc.key));
+    if (dimg) {
+      dimg.scaleToWidth(clueImgSize);
+      dimg.set({ left: clueX + 20, top: clueY, selectable: false, evented: false, isGeneratedItem: true });
+      objects.push(dimg);
+    }
+    clueY += clueImgSize + 8;
+  }
+
+  return objects;
+}
+
+// ============================================================
+// GENERATION DISPATCHER
+// ============================================================
+async function generateWorksheet() {
+  if (isGenerating) return;
+  isGenerating = true;
+  showMessage(t('generatingWorksheet') || 'Generating worksheet...', 'info', 0);
+
+  // Remove old generated items
+  var oldItems = worksheetCanvas.getObjects().filter(function(o) { return o.isGeneratedItem || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc; });
+  oldItems.forEach(function(o) { worksheetCanvas.remove(o); });
+
+  var seed = Date.now();
+  var wordCount = parseInt(ui.wordCountSelect.value) || 6;
+  var layout = currentLayout;
+  var data;
+
+  if (layout === 8) {
+    data = selectWordFamilyWords(wordCount, seed);
+    if (data.words.length === 0) {
+      showMessage(t('noWordsFound') || 'No CVC words found. Try different filters.', 'error');
+      isGenerating = false;
+      return;
+    }
+  } else if (layout === 9) {
+    data = selectBeginSoundWords(seed);
+    if (data.length === 0) {
+      showMessage(t('noWordsFound') || 'No CVC words found. Try different filters.', 'error');
+      isGenerating = false;
+      return;
+    }
+  } else {
+    var words = selectCVCWords(wordCount, seed);
+    if (words.length === 0) {
+      showMessage(t('noWordsFound') || 'No CVC words found matching these filters. Try different options.', 'error');
+      isGenerating = false;
+      return;
+    }
+    data = words;
+  }
+
+  lastGeneratedData = { layout: layout, data: data, seed: seed };
+
+  // Create header
+  var headerObjects = createHeaderGroup(worksheetCanvas, layout);
+  headerObjects.forEach(function(o) { worksheetCanvas.add(o); });
+
+  // Generate layout
+  var layoutObjects;
+  try {
+    switch (layout) {
+      case 1: layoutObjects = await renderLayout1(worksheetCanvas, data, false); break;
+      case 2: layoutObjects = await renderLayout2(worksheetCanvas, data, false); break;
+      case 3: layoutObjects = await renderLayout3(worksheetCanvas, data, false); break;
+      case 4: layoutObjects = await renderLayout4(worksheetCanvas, data, false); break;
+      case 5: layoutObjects = await renderLayout5(worksheetCanvas, data, false); break;
+      case 6: layoutObjects = await renderLayout6(worksheetCanvas, data, false); break;
+      case 7: layoutObjects = await renderLayout7(worksheetCanvas, data, false); break;
+      case 8: layoutObjects = await renderLayout8(worksheetCanvas, data, false); break;
+      case 9: layoutObjects = await renderLayout9(worksheetCanvas, data, false); break;
+      case 10: layoutObjects = await renderLayout10(worksheetCanvas, data, false); break;
+      default: layoutObjects = await renderLayout1(worksheetCanvas, data, false);
+    }
+  } catch (err) {
+    console.error('Layout generation error:', err);
+    showMessage('Error generating layout: ' + err.message, 'error');
+    isGenerating = false;
+    return;
+  }
+
+  layoutObjects.forEach(function(o) { worksheetCanvas.add(o); });
+  worksheetCanvas.renderAll();
+
+  // Enable buttons
+  document.getElementById('generateAnswerKeyBtn').disabled = false;
+  document.getElementById('downloadWorksheetJpegBtn').disabled = false;
+  document.getElementById('downloadWorksheetPdfBtn').disabled = false;
+
+  showMessage(t('worksheetGenerated') || 'Worksheet generated!', 'success');
+  isGenerating = false;
+}
+
+async function generateAnswerKey() {
+  if (!lastGeneratedData) {
+    showMessage(t('generateFirst') || 'Please generate a worksheet first.', 'error');
+    return;
+  }
+
+  // Remove old answer key items
+  var oldItems = answerKeyCanvas.getObjects().filter(function(o) { return o.isGeneratedItem || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc; });
+  oldItems.forEach(function(o) { answerKeyCanvas.remove(o); });
+
+  var layout = lastGeneratedData.layout;
+  var data = lastGeneratedData.data;
+
+  // Header
+  var headerObjects = createHeaderGroup(answerKeyCanvas, layout);
+  headerObjects.forEach(function(o) { answerKeyCanvas.add(o); });
+
+  // Add "ANSWER KEY" label
+  answerKeyCanvas.add(new fabric.Text('ANSWER KEY', {
+    left: currentCanvasConfig.width - 150, top: 40,
+    fontSize: 14, fontFamily: 'Fredoka', fontWeight: '600',
+    fill: '#ff3b30', selectable: false, evented: false, isGeneratedItem: true
+  }));
+
+  var layoutObjects;
+  switch (layout) {
+    case 1: layoutObjects = await renderLayout1(answerKeyCanvas, data, true); break;
+    case 2: layoutObjects = await renderLayout2(answerKeyCanvas, data, true); break;
+    case 3: layoutObjects = await renderLayout3(answerKeyCanvas, data, true); break;
+    case 4: layoutObjects = await renderLayout4(answerKeyCanvas, data, true); break;
+    case 5: layoutObjects = await renderLayout5(answerKeyCanvas, data, true); break;
+    case 6: layoutObjects = await renderLayout6(answerKeyCanvas, data, true); break;
+    case 7: layoutObjects = await renderLayout7(answerKeyCanvas, data, true); break;
+    case 8: layoutObjects = await renderLayout8(answerKeyCanvas, data, true); break;
+    case 9: layoutObjects = await renderLayout9(answerKeyCanvas, data, true); break;
+    case 10: layoutObjects = await renderLayout10(answerKeyCanvas, data, true); break;
+    default: layoutObjects = await renderLayout1(answerKeyCanvas, data, true);
+  }
+
+  layoutObjects.forEach(function(o) { answerKeyCanvas.add(o); });
+  answerKeyCanvas.renderAll();
+
+  document.getElementById('downloadAnswerKeyJpegBtn').disabled = false;
+  document.getElementById('downloadAnswerKeyPdfBtn').disabled = false;
+
+  // Switch to answer key tab
+  switchTab('answerKeyTab');
+  showMessage(t('answerKeyGenerated') || 'Answer key generated!', 'success');
+}
+
+// ============================================================
+// EXPORT (PDF, JPEG)
+// ============================================================
+function downloadImage(canvasObj, format) {
+  var grayscale = document.getElementById('grayscaleToggle').checked;
+  var multiplier = 2;
+  var dataURL;
+
+  if (grayscale) {
+    var tempCanvas = document.createElement('canvas');
+    tempCanvas.width = canvasObj.getWidth() * multiplier;
+    tempCanvas.height = canvasObj.getHeight() * multiplier;
+    var ctx = tempCanvas.getContext('2d');
+    var srcData = canvasObj.toDataURL({ format: 'png', multiplier: multiplier });
+    var imgEl = new Image();
+    imgEl.onload = function() {
+      ctx.drawImage(imgEl, 0, 0);
+      var imageData = ctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+      var d = imageData.data;
+      for (var px = 0; px < d.length; px += 4) {
+        var gray = 0.299 * d[px] + 0.587 * d[px + 1] + 0.114 * d[px + 2];
+        d[px] = d[px + 1] = d[px + 2] = gray;
+      }
+      ctx.putImageData(imageData, 0, 0);
+      dataURL = tempCanvas.toDataURL('image/' + format, 0.95);
+      triggerDownload(dataURL, 'cvc-words.' + format);
+    };
+    imgEl.src = srcData;
+  } else {
+    dataURL = canvasObj.toDataURL({ format: format, quality: 0.95, multiplier: multiplier });
+    triggerDownload(dataURL, 'cvc-words.' + format);
+  }
+}
+
+function downloadPDF(canvasObj) {
+  var jsPDF = window.jspdf.jsPDF;
+  var w = currentCanvasConfig.width;
+  var h = currentCanvasConfig.height;
+  var pdfW = w / 72 * 25.4;
+  var pdfH = h / 72 * 25.4;
+  var orientation = w > h ? 'landscape' : 'portrait';
+
+  var imgData = canvasObj.toDataURL({ format: 'jpeg', quality: 0.95, multiplier: 2 });
+  var doc = new jsPDF({ orientation: orientation, unit: 'mm', format: [pdfW, pdfH] });
+  doc.addImage(imgData, 'JPEG', 0, 0, pdfW, pdfH);
+  doc.save('cvc-words.pdf');
+}
+
+function triggerDownload(dataURL, filename) {
+  var link = document.createElement('a');
+  link.href = dataURL;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+// ============================================================
+// TAB SWITCHING
+// ============================================================
+function switchTab(tabId) {
+  document.querySelectorAll('.tab-button').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.tab === tabId);
+  });
+  document.querySelectorAll('.tab').forEach(function(tab) {
+    tab.classList.toggle('active', tab.id === tabId);
+  });
+}
+
+// ============================================================
+// EVENT HANDLERS
+// ============================================================
+function initEvents() {
+  // Accordion toggles
+  document.querySelectorAll('.accordion-button').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      this.classList.toggle('active');
+      var content = this.nextElementSibling;
+      if (content) content.classList.toggle('active');
+    });
+  });
+
+  // Tab switching
+  document.querySelectorAll('.tab-button').forEach(function(btn) {
+    btn.addEventListener('click', function() { switchTab(this.dataset.tab); });
+  });
+
+  // Layout selection
+  document.querySelectorAll('.layout-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      document.querySelectorAll('.layout-card').forEach(function(c) { c.classList.remove('selected'); });
+      this.classList.add('selected');
+      currentLayout = parseInt(this.dataset.layout);
+    });
+  });
+
+  // Generate dropdown
+  var genBtn = document.getElementById('generateDropdownBtn');
+  var genContent = document.getElementById('generateDropdownContent');
+  genBtn.addEventListener('click', function(e) { e.stopPropagation(); genContent.classList.toggle('show'); });
+
+  document.getElementById('generateWorksheetBtn').addEventListener('click', function() {
+    genContent.classList.remove('show');
+    generateWorksheet();
+  });
+  document.getElementById('generateAnswerKeyBtn').addEventListener('click', function() {
+    genContent.classList.remove('show');
+    generateAnswerKey();
+  });
+
+  // Download dropdown
+  var dlBtn = document.getElementById('downloadDropdownBtn');
+  var dlContent = document.getElementById('downloadDropdownContent');
+  dlBtn.addEventListener('click', function(e) { e.stopPropagation(); dlContent.classList.toggle('show'); });
+
+  document.getElementById('downloadWorksheetJpegBtn').addEventListener('click', function() {
+    dlContent.classList.remove('show');
+    downloadImage(worksheetCanvas, 'jpeg');
+  });
+  document.getElementById('downloadAnswerKeyJpegBtn').addEventListener('click', function() {
+    dlContent.classList.remove('show');
+    downloadImage(answerKeyCanvas, 'jpeg');
+  });
+  document.getElementById('downloadWorksheetPdfBtn').addEventListener('click', function() {
+    dlContent.classList.remove('show');
+    downloadPDF(worksheetCanvas);
+  });
+  document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', function() {
+    dlContent.classList.remove('show');
+    downloadPDF(answerKeyCanvas);
+  });
+
+  // Close dropdowns on outside click
+  document.addEventListener('click', function() {
+    genContent.classList.remove('show');
+    dlContent.classList.remove('show');
+  });
+
+  // Page setup changes
+  ui.pageSizeSelect.addEventListener('change', function() {
+    updateCanvasSize();
+    if (lastGeneratedData) generateWorksheet();
+  });
+  ui.pageColorInput.addEventListener('change', updateCanvasSize);
+
+  // Locale change
+  ui.localeSelect.addEventListener('change', function() {
+    currentLocale = this.value;
+    window.currentLocale = currentLocale;
+    // Update all data-translate elements
+    document.querySelectorAll('[data-translate]').forEach(function(el) {
+      var key = el.getAttribute('data-translate');
+      var translated = t(key);
+      if (translated !== key) {
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+          el.placeholder = translated;
+        } else {
+          el.textContent = translated;
+        }
+      }
+    });
+    if (lastGeneratedData) generateWorksheet();
+  });
+
+  // Mobile menu
+  var panel = document.getElementById('panel');
+  var overlay = document.getElementById('menuOverlay');
+  document.getElementById('menuToggleBtn').addEventListener('click', function() {
+    panel.classList.add('is-open');
+    overlay.classList.add('is-active');
+  });
+  document.getElementById('menuCloseBtn').addEventListener('click', function() {
+    panel.classList.remove('is-open');
+    overlay.classList.remove('is-active');
+  });
+  overlay.addEventListener('click', function() {
+    panel.classList.remove('is-open');
+    overlay.classList.remove('is-active');
+  });
+}
+
+// ============================================================
+// INITIALIZATION
+// ============================================================
+document.addEventListener('DOMContentLoaded', function() {
+  initUI();
+  initCanvases();
+  populateFilters();
+  initEvents();
+
+  // Set locale from URL
+  if (currentLocale && ui.localeSelect) {
+    ui.localeSelect.value = currentLocale;
+  }
+
+  // Apply initial translations
+  document.querySelectorAll('[data-translate]').forEach(function(el) {
+    var key = el.getAttribute('data-translate');
+    var translated = t(key);
+    if (translated !== key) {
+      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+        el.placeholder = translated;
+      } else {
+        el.textContent = translated;
+      }
+    }
+  });
+
+  // Auto-generate first worksheet
+  setTimeout(function() { generateWorksheet(); }, 500);
+});
+
+})();
+</script>
+</body>
+</html>

@@ -40,6 +40,12 @@ export interface SalesPageConfig {
     trustBadges?: string[];
   };
 
+  // ─── Video Tutorial (between hero and testimonial) ─
+  videoTutorial?: {
+    youtubeId: string;
+    title: string;
+  };
+
   // ─── Section 2: Testimonial ──────────────────────
   testimonial?: {
     name: string;
@@ -239,6 +245,12 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         'Commercial Rights Included',
         'Instant Download Access',
       ],
+    },
+
+    // ── Video Tutorial ────────────────────────
+    videoTutorial: {
+      youtubeId: '36keBFzJbPo',
+      title: 'See How It Works in 2 Minutes',
     },
 
     // ── 2. Testimonial ───────────────────────

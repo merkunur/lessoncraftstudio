@@ -180,6 +180,70 @@ export function ComplianceFooter({ locale }: { locale: string }) {
 }
 
 /* ═══════════════════════════════════════════
+   VIDEO TUTORIAL — Click-to-load YouTube Facade
+   ═══════════════════════════════════════════ */
+
+function VideoSection({ videoTutorial }: { videoTutorial: { youtubeId: string; title: string } }) {
+  const [playing, setPlaying] = useState(false);
+
+  return (
+    <section className="py-14 md:py-20 bg-gradient-to-b from-slate-50 to-white">
+      <div className="max-w-4xl mx-auto px-4 md:px-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-slate-900 mb-8">
+          {videoTutorial.title}
+        </h2>
+
+        {/* 16:9 video container */}
+        <div
+          className="relative w-full overflow-hidden rounded-2xl shadow-xl bg-black"
+          style={{ paddingBottom: '56.25%' }}
+        >
+          {playing ? (
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src={`https://www.youtube-nocookie.com/embed/${videoTutorial.youtubeId}?autoplay=1&rel=0`}
+              title={videoTutorial.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          ) : (
+            <button
+              type="button"
+              onClick={() => setPlaying(true)}
+              className="absolute inset-0 w-full h-full cursor-pointer group"
+              aria-label="Play video"
+            >
+              {/* Thumbnail */}
+              <img
+                src={`https://img.youtube.com/vi/${videoTutorial.youtubeId}/maxresdefault.jpg`}
+                alt={videoTutorial.title}
+                className="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
+              />
+              {/* Dark overlay on hover */}
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
+              {/* Play button */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:bg-red-700 group-hover:scale-110 transition-all">
+                  <svg className="w-7 h-7 md:w-9 md:h-9 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+            </button>
+          )}
+        </div>
+
+        {/* Disclaimer */}
+        <p className="text-center text-sm text-slate-500 mt-4 max-w-2xl mx-auto italic">
+          This tutorial showcases all available features. The base product includes 10 image themes in English. Additional themes and languages are available as optional upgrades.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════
    FE LAYOUT — 21-Section Sales Page
    ═══════════════════════════════════════════ */
 
@@ -231,6 +295,9 @@ function FELayout({ config, locale }: Props) {
           </div>
         </div>
       </section>
+
+      {/* ── VIDEO TUTORIAL ─────────────────────────────── */}
+      {config.videoTutorial && <VideoSection videoTutorial={config.videoTutorial} />}
 
       {/* ── 2. TESTIMONIAL ───────────────────────────── */}
       {config.testimonial && (

@@ -2797,23 +2797,30 @@
             for (let i = 0; i < puzzleCount; i++) {
                 const image = puzzleImagePool[i % puzzleImagePool.length];
                 const displayWord = (image.name || image.word).toUpperCase();
-                const word = displayWord;
-                
-                let scrambled;
-                do {
-                  scrambled = shuffleArray(word.split('')).join('');
-                } while (scrambled === word && word.length > 1);
-                
-                const clueIndices = new Set();
-                if (difficulty > 0) {
-                    const possibleClueIndices = [...word].map((_, idx) => idx);
-                    shuffleArray(possibleClueIndices);
-                    const clueCount = Math.floor(word.length / difficulty);
-                    for(let j=0; j<clueCount; j++) {
-                        if (possibleClueIndices[j] !== undefined) clueIndices.add(possibleClueIndices[j]);
+                const words = displayWord.split(/\s+/).filter(w => w.length > 0);
+
+                const scrambledWords = words.map(w => {
+                    let s;
+                    do {
+                        s = shuffleArray(w.split('')).join('');
+                    } while (s === w && w.length > 1);
+                    return s;
+                });
+
+                const clueIndices = words.map(w => {
+                    const indices = new Set();
+                    if (difficulty > 0) {
+                        const possibleClueIndices = [...w].map((_, idx) => idx);
+                        shuffleArray(possibleClueIndices);
+                        const clueCount = Math.floor(w.length / difficulty);
+                        for (let j = 0; j < clueCount; j++) {
+                            if (possibleClueIndices[j] !== undefined) indices.add(possibleClueIndices[j]);
+                        }
                     }
-                }
-                lastGeneratedPuzzles.push({ image, word, scrambled, clueIndices });
+                    return indices;
+                });
+
+                lastGeneratedPuzzles.push({ image, words, scrambledWords, clueIndices });
             }
             
             await renderPuzzles(worksheetCanvas, lastGeneratedPuzzles, false, oldTransforms);
@@ -3052,29 +3059,47 @@
                     const puzzleContentGroup = new fabric.Group([], { objectCaching: false });
 
                     const answerGridElements = [];
-                    for (let j = 0; j < puzzle.word.length; j++) {
-                        const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
-                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : '#ffffff';
-                        const rect = new fabric.Rect({ width: cellWidth, height: cellHeight, fill: bgColor, stroke: '#333', strokeWidth: 1 });
-                        const text = new fabric.Text(letter, {
-                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle', left: cellWidth / 2, top: cellHeight / 2,
-                            visible: isAnswerKey || puzzle.clueIndices.has(j)
-                        });
-                        answerGridElements.push(new fabric.Group([rect, text], { left: j * cellWidth, top: 0 }));
+                    let answerCellX = 0;
+                    const wordGap = cellWidth * 0.5;
+                    for (let wi = 0; wi < puzzle.words.length; wi++) {
+                        const w = puzzle.words[wi];
+                        const wordClues = puzzle.clueIndices[wi];
+                        for (let j = 0; j < w.length; j++) {
+                            const letter = caseValue === 'lower' ? w[j].toLowerCase() : w[j];
+                            const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : '#ffffff';
+                            const rect = new fabric.Rect({ width: cellWidth, height: cellHeight, fill: bgColor, stroke: '#333', strokeWidth: 1 });
+                            const text = new fabric.Text(letter, {
+                                fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle', left: cellWidth / 2, top: cellHeight / 2,
+                                visible: isAnswerKey || wordClues.has(j)
+                            });
+                            answerGridElements.push(new fabric.Group([rect, text], { left: answerCellX, top: 0 }));
+                            answerCellX += cellWidth;
+                        }
+                        if (wi < puzzle.words.length - 1) {
+                            answerCellX += wordGap;
+                        }
                     }
                     const answerGridGroup = new fabric.Group(answerGridElements, { top: 0 });
                     puzzleContentGroup.addWithUpdate(answerGridGroup);
 
                     const scrambledElements = [];
-                    for (let j = 0; j < puzzle.scrambled.length; j++) {
-                        const letter = caseValue === 'lower' ? puzzle.scrambled[j].toLowerCase() : puzzle.scrambled[j];
-                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : 'transparent';
-                        const text = new fabric.Text(letter, {
-                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle',
-                            left: cellWidth / 2, top: cellHeight / 2
-                        });
-                        const cellGroup = new fabric.Group([new fabric.Rect({width: cellWidth, height: cellHeight, fill: bgColor, stroke: 'transparent'}), text], { left: j * cellWidth });
-                        scrambledElements.push(cellGroup);
+                    let scrambledCellX = 0;
+                    for (let wi = 0; wi < puzzle.scrambledWords.length; wi++) {
+                        const sw = puzzle.scrambledWords[wi];
+                        for (let j = 0; j < sw.length; j++) {
+                            const letter = caseValue === 'lower' ? sw[j].toLowerCase() : sw[j];
+                            const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : 'transparent';
+                            const text = new fabric.Text(letter, {
+                                fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle',
+                                left: cellWidth / 2, top: cellHeight / 2
+                            });
+                            const cellGroup = new fabric.Group([new fabric.Rect({width: cellWidth, height: cellHeight, fill: bgColor, stroke: 'transparent'}), text], { left: scrambledCellX });
+                            scrambledElements.push(cellGroup);
+                            scrambledCellX += cellWidth;
+                        }
+                        if (wi < puzzle.scrambledWords.length - 1) {
+                            scrambledCellX += wordGap;
+                        }
                     }
                     const scrambledGroup = new fabric.Group(scrambledElements, { top: answerGridGroup.height + (5 * scale) });
                     if (!isAnswerKey) {

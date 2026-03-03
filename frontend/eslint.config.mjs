@@ -18,6 +18,8 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      "public/worksheet-generators/**",  // symlink to /var/www/lcs-media — large HTML apps
+      "public/admin/**",                  // symlink to /var/www/lcs-media — admin panels
     ],
   },
 ];

@@ -70,19 +70,25 @@ git add samples/  # BLOCKED by pre-commit hook
 
 ### Scenario 2: Worksheet Generator Updates (HTML files)
 ```bash
-# Upload from REFERENCE APPS folder
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\[app].html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/[app].html"
+# 1. Upload to /tmp (files are immutable at destination)
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\[app].html" root@65.108.5.250:/tmp/[app].html
 
-# Copy to standalone and restart
+# 2. Safe update (unlock -> copy -> re-lock)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/[app].html [app].html"
+
+# 3. Copy to standalone and restart
 "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app].html' '.next/standalone/public/worksheet-generators/[app].html' && pm2 restart lessoncraftstudio"
 ```
 
 ### Scenario 3: Translation File Updates
 ```bash
-# Upload from REFERENCE TRANSLATIONS folder
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app].js" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/js/translations-[app].js"
+# 1. Upload to /tmp
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app].js" root@65.108.5.250:/tmp/translations-[app].js
 
-# Copy to standalone and restart
+# 2. Safe update (unlock -> copy -> re-lock)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-[app].js js/translations-[app].js"
+
+# 3. Copy to standalone and restart
 "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-[app].js' '.next/standalone/public/worksheet-generators/js/translations-[app].js' && pm2 restart lessoncraftstudio"
 ```
 
@@ -111,12 +117,27 @@ git add samples/  # BLOCKED by pre-commit hook
 │   ├── food/
 │   ├── vehicles/
 │   └── ... (101 more themes)
+├── worksheet-generators/              (33+ HTML apps + 42+ JS translations)
+│   ├── addition.html                  (worksheet generator apps)
+│   ├── subtraction.html
+│   ├── ...
+│   └── js/
+│       ├── translations-addition-complete.js
+│       ├── image-vocabulary.js
+│       └── ...
+├── admin-panels/                      (admin tool HTML files)
+│   ├── product-sample-manager.html
+│   ├── homepage-thumbnail-manager.html
+│   └── ...
 ├── scripts/                           (backup/health scripts)
 │   ├── pre-deploy-backup.sh
 │   ├── scheduled-backup.sh
 │   ├── health-check.sh
 │   ├── emergency-restore.sh
-│   └── protect-image-library.sh
+│   ├── emergency-restore-worksheets.sh
+│   ├── protect-image-library.sh
+│   ├── setup-worksheet-isolation.sh
+│   └── update-worksheet.sh
 └── backups/                           (backup archives)
     ├── pre-deploy/
     ├── hourly/
@@ -126,6 +147,11 @@ git add samples/  # BLOCKED by pre-commit hook
 
 /opt/lessoncraftstudio/                (CODE ONLY - git repo)
 ├── frontend/
+│   └── public/
+│       ├── worksheet-generators → /var/www/lcs-media/worksheet-generators  (SYMLINK)
+│       ├── admin → /var/www/lcs-media/admin-panels  (SYMLINK)
+│       ├── homepage-content-manager.html  (immutable flag)
+│       └── user-control.html              (immutable flag)
 ├── deploy.sh                          (CANNOT touch /var/www/lcs-media/)
 ├── image library -> /var/www/lcs-media/image-library  (SYMLINK)
 └── ...
@@ -228,6 +254,131 @@ cp /var/www/lcs-media/image-library/animals/cat.png /tmp/
 If migrating image library to isolated storage for the first time:
 ```bash
 "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/protect-image-library.sh"
+```
+
+---
+
+## WORKSHEET & CONTENT MANAGER PROTECTION - ISOLATED STORAGE (ABSOLUTE RULE)
+
+**Worksheet generators, translations, and admin panels are stored in ISOLATED STORAGE at `/var/www/lcs-media/`**
+
+Symlinks at `frontend/public/worksheet-generators` and `frontend/public/admin` point to isolated storage. Next.js and deploy.sh follow symlinks transparently. No nginx changes needed.
+
+### 7-Layer Protection
+
+| Layer | Protection | How It Works |
+|-------|------------|--------------|
+| 1 | **Physical Isolation** | Files at `/var/www/lcs-media/worksheet-generators/` and `/var/www/lcs-media/admin-panels/` |
+| 2 | **Dedicated User** | `lcs-media` owns files - deploy runs as different user |
+| 3 | **Immutable Flags** | `chattr +i` on all files - prevents deletion even by root |
+| 4 | **Pre-deploy Backup** | `worksheets_*.tar.gz` before EVERY deployment |
+| 5 | **Deployment Guards** | `deploy.sh` aborts if HTML < 30 or JS < 30 |
+| 6 | **Scheduled Backups** | Hourly/daily/weekly/monthly rotation |
+| 7 | **Health Monitoring** | 15-minute count checks with alerting |
+
+### NEVER DO LIST - WORKSHEETS & CONTENT MANAGERS
+
+**Claude must NEVER run these commands:**
+
+```bash
+# NEVER DELETE
+rm -rf /var/www/lcs-media/worksheet-generators
+rm -rf /var/www/lcs-media/admin-panels
+rm -rf /var/www/lcs-media/worksheet-generators/*
+rm -rf /var/www/lcs-media/admin-panels/*
+
+# NEVER REMOVE IMMUTABLE FLAGS without explicit user request
+chattr -i /var/www/lcs-media/worksheet-generators/*
+chattr -R -i /var/www/lcs-media/worksheet-generators
+chattr -i /var/www/lcs-media/admin-panels/*
+
+# NEVER BULK DELETE
+find /var/www/lcs-media/worksheet-generators -delete
+find /var/www/lcs-media/admin-panels -delete
+
+# NEVER MOVE
+mv /var/www/lcs-media/worksheet-generators /some/other/path
+mv /var/www/lcs-media/admin-panels /some/other/path
+
+# NEVER REMOVE SYMLINKS
+rm /opt/lessoncraftstudio/frontend/public/worksheet-generators
+rm /opt/lessoncraftstudio/frontend/public/admin
+```
+
+### Safe Operations
+
+```bash
+# READ operations - safe
+ls /var/www/lcs-media/worksheet-generators/
+find /var/www/lcs-media/worksheet-generators -name "*.html" | wc -l
+lsattr /var/www/lcs-media/worksheet-generators/addition.html
+
+# SAFE UPDATE (use update-worksheet.sh helper)
+bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/addition.html addition.html
+bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-addition.js js/translations-addition.js
+bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/manager.html manager.html
+bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/homepage-content-manager.html homepage-content-manager.html
+```
+
+### Updated Deployment Scenarios (Post-Isolation)
+
+#### Worksheet App Update
+```bash
+# 1. Upload to /tmp
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\[app].html" root@65.108.5.250:/tmp/[app].html
+
+# 2. Safe update (unlock -> copy -> re-lock)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/[app].html [app].html"
+
+# 3. Copy to standalone + restart
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app].html' '.next/standalone/public/worksheet-generators/[app].html' && pm2 restart lessoncraftstudio"
+```
+
+#### Translation Update
+```bash
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app].js" root@65.108.5.250:/tmp/translations-[app].js
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-[app].js js/translations-[app].js"
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-[app].js' '.next/standalone/public/worksheet-generators/js/translations-[app].js' && pm2 restart lessoncraftstudio"
+```
+
+#### Content Manager Update
+```bash
+# For admin/ managers:
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\[manager].html" root@65.108.5.250:/tmp/[manager].html
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/[manager].html [manager].html"
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/admin/[manager].html' '.next/standalone/public/admin/[manager].html' && pm2 restart lessoncraftstudio"
+
+# For public/ root managers (homepage-content-manager.html, user-control.html):
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/[file].html [file].html"
+```
+
+### Verification Commands - Worksheets
+
+```bash
+# Check file counts (HTML should be 30+, JS should be 30+)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "echo 'HTML:' && find /var/www/lcs-media/worksheet-generators -maxdepth 1 -name '*.html' -type f | wc -l && echo 'JS:' && find /var/www/lcs-media/worksheet-generators/js -name '*.js' -type f | wc -l"
+
+# Check symlink
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/worksheet-generators"
+
+# Check immutable flags
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/worksheet-generators/addition.html 2>/dev/null"
+
+# Emergency restore
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/emergency-restore-worksheets.sh"
+```
+
+### Initial Setup (One-Time)
+
+```bash
+# Upload and run the migration script
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\server-scripts\*.sh" root@65.108.5.250:/opt/lessoncraftstudio/server-scripts/
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/setup-worksheet-isolation.sh"
 ```
 
 ---
@@ -438,15 +589,21 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **Code Path**: /opt/lessoncraftstudio
 - **Samples Path**: /var/www/lcs-media/samples (ISOLATED)
 - **Image Library Path**: /var/www/lcs-media/image-library (ISOLATED)
+- **Worksheet Generators Path**: /var/www/lcs-media/worksheet-generators (ISOLATED)
+- **Admin Panels Path**: /var/www/lcs-media/admin-panels (ISOLATED)
 
 ## Critical Rules
 - **ALWAYS** include `-hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU` in plink/pscp commands
 - **ALWAYS** commit and push BEFORE deploying (git pull gets nothing otherwise)
 - **ALWAYS** use REFERENCE folders for worksheet generators and translations
+- **ALWAYS** use `update-worksheet.sh` to update protected files on server (never direct `cp`)
 - **NEVER** store sample images directly in `frontend/public/` (gets wiped on build)
 - **NEVER** delete or modify `/var/www/lcs-media/samples/`
 - **NEVER** delete or modify `/var/www/lcs-media/image-library/`
-- **NEVER** run `rm -rf` on any image or sample directories
+- **NEVER** delete or modify `/var/www/lcs-media/worksheet-generators/`
+- **NEVER** delete or modify `/var/www/lcs-media/admin-panels/`
+- **NEVER** remove symlinks at `frontend/public/worksheet-generators` or `frontend/public/admin`
+- **NEVER** run `rm -rf` on any image, sample, or worksheet directories
 - **NEVER** run `chattr -i` on protected files without explicit user request
 - **NEVER** run `git add .` in project root (could include samples/images)
 - **NEVER** modify Stripe environment variables without explicit user request

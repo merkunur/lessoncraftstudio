@@ -61,6 +61,41 @@ echo "✅ Image library protected"
 echo ""
 
 # ============================================
+# WORKSHEET & CONTENT MANAGER PROTECTION - ISOLATED STORAGE
+# ============================================
+echo "🔒 Worksheet generator protection check..."
+WG_HTML_COUNT=$(find /var/www/lcs-media/worksheet-generators -maxdepth 1 -name "*.html" -type f 2>/dev/null | wc -l)
+WG_JS_COUNT=$(find /var/www/lcs-media/worksheet-generators/js -name "*.js" -type f 2>/dev/null | wc -l)
+ADMIN_COUNT=$(find /var/www/lcs-media/admin-panels -maxdepth 1 -name "*.html" -type f 2>/dev/null | wc -l)
+
+if [ "$WG_HTML_COUNT" -lt 30 ]; then
+    echo ""
+    echo "⛔ CRITICAL: Worksheet generator protection check FAILED!"
+    echo "   Expected: 30+ HTML files"
+    echo "   Found: $WG_HTML_COUNT files"
+    echo ""
+    echo "   Check: /var/www/lcs-media/worksheet-generators/"
+    echo "   Or run: /opt/lessoncraftstudio/server-scripts/setup-worksheet-isolation.sh"
+    echo ""
+    exit 1
+fi
+
+if [ "$WG_JS_COUNT" -lt 30 ]; then
+    echo ""
+    echo "⛔ CRITICAL: Translation JS protection check FAILED!"
+    echo "   Expected: 30+ JS files"
+    echo "   Found: $WG_JS_COUNT files"
+    echo ""
+    echo "   Check: /var/www/lcs-media/worksheet-generators/js/"
+    echo ""
+    exit 1
+fi
+
+echo "   Found $WG_HTML_COUNT HTML apps, $WG_JS_COUNT JS translations, $ADMIN_COUNT admin panels"
+echo "✅ Worksheet generators protected"
+echo ""
+
+# ============================================
 # DATABASE PROTECTION - PRE-DEPLOYMENT BACKUP
 # ============================================
 echo "🗄️  Checking database and creating backup..."
@@ -192,6 +227,26 @@ if [ "$POST_IMAGE_LIB_COUNT" -lt "$IMAGE_LIB_COUNT" ]; then
     echo "    Investigate immediately."
 else
     echo "✅ Image library verified in isolated storage"
+fi
+
+# ============================================
+# WORKSHEET & CONTENT MANAGER VERIFICATION
+# ============================================
+echo ""
+echo "🔒 Verifying worksheet generators in isolated storage..."
+POST_WG_HTML=$(find /var/www/lcs-media/worksheet-generators -maxdepth 1 -name "*.html" -type f 2>/dev/null | wc -l)
+POST_WG_JS=$(find /var/www/lcs-media/worksheet-generators/js -name "*.js" -type f 2>/dev/null | wc -l)
+POST_ADMIN=$(find /var/www/lcs-media/admin-panels -maxdepth 1 -name "*.html" -type f 2>/dev/null | wc -l)
+echo "   Found $POST_WG_HTML HTML apps, $POST_WG_JS JS translations, $POST_ADMIN admin panels"
+
+if [ "$POST_WG_HTML" -lt "$WG_HTML_COUNT" ]; then
+    echo "   ⚠️  WARNING: Worksheet HTML count dropped from $WG_HTML_COUNT to $POST_WG_HTML"
+    echo "      This should NOT happen - worksheets are in isolated storage!"
+elif [ "$POST_WG_JS" -lt "$WG_JS_COUNT" ]; then
+    echo "   ⚠️  WARNING: Translation JS count dropped from $WG_JS_COUNT to $POST_WG_JS"
+    echo "      This should NOT happen - translations are in isolated storage!"
+else
+    echo "✅ Worksheet generators verified in isolated storage"
 fi
 
 # Quick HTTP test for sample accessibility (via nginx)
@@ -331,5 +386,6 @@ echo ""
 echo "Website should now be accessible with all CSS/JavaScript working!"
 echo "Sample images: $POST_SAMPLE_COUNT JPEG + $POST_WEBP_COUNT WebP files (isolated)"
 echo "Image library: $POST_IMAGE_LIB_COUNT PNG files (isolated)"
+echo "Worksheets: $POST_WG_HTML HTML + $POST_WG_JS JS + $POST_ADMIN admin (isolated)"
 echo "Database: $POST_DB_PRODUCT_SAMPLES product samples, $POST_DB_SAMPLE_WORKSHEETS sample worksheets"
 echo ""

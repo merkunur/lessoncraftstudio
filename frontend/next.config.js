@@ -6,6 +6,12 @@ const nextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
 
+  // Restrict ESLint to source dirs only — prevents following symlinks
+  // (public/worksheet-generators and public/admin are symlinks to /var/www/lcs-media)
+  eslint: {
+    dirs: ['app', 'components', 'lib', 'config', 'i18n', 'hooks', 'types', 'utils'],
+  },
+
   // SEO FIX: Normalize all URLs to no trailing slash
   // Prevents duplicate URLs like /en/apps/addition-worksheets and /en/apps/addition-worksheets/
   trailingSlash: false,

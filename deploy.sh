@@ -130,9 +130,14 @@ cd frontend
 # 3. Build the application
 # NOTE: Samples are in /var/www/lcs-media/samples/ - completely isolated
 # No symlinks needed - nginx serves samples directly
-# IMPORTANT: Build writes to .next/ but the running server reads from
-# .next/standalone/ (from the PREVIOUS build), so this is safe.
+# CRITICAL: Remove stale .next/standalone BEFORE building.
+# The postbuild script (cp -r public .next/standalone/public) follows symlinks
+# at public/worksheet-generators and public/admin, copying ~25MB of HTML apps
+# into standalone/public/. On the NEXT build, next build scans this leftover
+# directory and hangs processing 149+ large files. Cleaning it first prevents this.
 echo ""
+echo "🧹 Cleaning stale .next/standalone to prevent build hang..."
+rm -rf .next/standalone
 echo "🔨 Building Next.js application..."
 npm run build
 

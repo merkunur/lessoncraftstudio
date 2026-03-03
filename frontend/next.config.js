@@ -6,9 +6,10 @@ const nextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
 
-  // Skip ESLint during build — symlinks to /var/www/lcs-media cause infinite hang
+  // Run ESLint only on source directories — NOT on public/ which contains
+  // symlinks to /var/www/lcs-media (worksheet-generators, admin) with large HTML files
   eslint: {
-    ignoreDuringBuilds: true,
+    dirs: ['app', 'components', 'lib', 'config', 'i18n', 'hooks', 'types', 'utils'],
   },
 
   // SEO FIX: Normalize all URLs to no trailing slash

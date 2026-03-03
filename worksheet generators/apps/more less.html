@@ -1497,17 +1497,34 @@
           window.languageManager = window.UnifiedLanguageManager;
 
           // Register callback to reload image library when content language changes
-          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+          window.languageManager.onLanguageChange(async function(newLocale, oldLocale) {
               console.log('[More Less] Content language changed from', oldLocale, 'to', newLocale);
               currentLocale = newLocale;
               window.currentLocale = newLocale;
 
-              // Reload image themes and library for the new content language
+              // Save current theme selections before reload (slugs are language-agnostic)
+              const savedTheme = themeWorksheetSelect ? themeWorksheetSelect.value : '';
+              const savedCcTheme = ccThemeWorksheetSelect ? ccThemeWorksheetSelect.value : 'animals';
+
+              // Reload themes and dictionaries for new language
               if (loadThemesFunc) {
-                  loadThemesFunc();
+                  await loadThemesFunc();
               }
-              if (renderDictionaryFunc) {
-                  renderDictionaryFunc();
+
+              // Restore theme selections after reload
+              if (savedTheme && themeWorksheetSelect) themeWorksheetSelect.value = savedTheme;
+              if (savedCcTheme && ccThemeWorksheetSelect) ccThemeWorksheetSelect.value = savedCcTheme;
+
+              // Clear stale answer key
+              if (answerKeyCanvas) {
+                  answerKeyCanvas.clear();
+                  answerKeyCanvas.backgroundColor = '#FFFFFF';
+                  answerKeyCanvas.renderAll();
+              }
+
+              // Generate fresh worksheet with new language content
+              if (generateWorksheetFunc) {
+                  await generateWorksheetFunc();
               }
           });
       } else {
@@ -3137,8 +3154,12 @@
 
         // Recreate exercise/answer cards
         if (isAnswerKey) {
-            // Regenerate answer key cards
-            await regenerateAnswerKeyCards(canvas);
+            // Check if this is a check-cross answer key
+            if (lastGeneratedRows[0] && lastGeneratedRows[0].comparisonMode === 'check-cross') {
+                await generateCheckCrossAnswerKey();
+            } else {
+                await regenerateAnswerKeyCards(canvas);
+            }
         } else {
             // Regenerate worksheet cards
             await regenerateWorksheetCards(canvas);
@@ -3179,7 +3200,11 @@
         }
 
         // Recreate exercise cards
-        const cardPromises = lastGeneratedRows.map((row, index) => createCompareCard(row, index, lastGeneratedRows.length));
+        const isCC = lastGeneratedRows[0] && lastGeneratedRows[0].comparisonMode === 'check-cross';
+        const cardPromises = lastGeneratedRows.map((row, index) =>
+            isCC ? createCheckCrossCard(row, index, lastGeneratedRows.length)
+                 : createCompareCard(row, index, lastGeneratedRows.length)
+        );
         const exerciseCards = (await Promise.all(cardPromises)).filter(Boolean);
 
         layoutCardsOnCanvas(canvas, exerciseCards, true);
@@ -4469,6 +4494,13 @@
 
         const allAnswerCards = [];
 
+        // Use content locale for printed worksheet text (not UI locale which t() uses)
+        const contentLocale = currentLocale || 'en';
+        const moreText = (translations[contentLocale] && translations[contentLocale]['moreless.checkcross.more']) ||
+                         (translations.en && translations.en['moreless.checkcross.more']) || 'More';
+        const lessText = (translations[contentLocale] && translations[contentLocale]['moreless.checkcross.less']) ||
+                         (translations.en && translations.en['moreless.checkcross.less']) || 'Less';
+
         for (let i = 0; i < lastGeneratedRows.length; i++) {
             const r = lastGeneratedRows[i];
             const cardElements = [];
@@ -4526,7 +4558,7 @@
             cardElements.push(symbolA);
 
             // Label for A
-            const labelA = new fabric.Text(isAMore ? t('moreless.checkcross.more') : t('moreless.checkcross.less'), {
+            const labelA = new fabric.Text(isAMore ? moreText : lessText, {
                 left: 40 + thumbSize + 95,
                 top: rowStartY + thumbSize / 2,
                 originY: 'center',
@@ -4564,7 +4596,7 @@
             });
             cardElements.push(symbolB);
 
-            const labelB = new fabric.Text(isBMore ? t('moreless.checkcross.more') : t('moreless.checkcross.less'), {
+            const labelB = new fabric.Text(isBMore ? moreText : lessText, {
                 left: 40 + thumbSize + 95,
                 top: rowBY + thumbSize / 2,
                 originY: 'center',

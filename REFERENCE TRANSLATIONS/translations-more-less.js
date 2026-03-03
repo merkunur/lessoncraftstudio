@@ -292,7 +292,9 @@ const translations = {
     "moreless.checkcross.hint": "Two different images are mixed in a box. Students check the group with more and cross the group with less.",
     "moreless.checkcross.theme.hint": "Two images will be randomly selected from this theme each time.",
     "moreless.checkcross.pick2": "Pick exactly 2 images",
-    "moreless.checkcross.error.needtwoimages": "Check & Cross mode needs at least 2 different images."
+    "moreless.checkcross.error.needtwoimages": "Check & Cross mode needs at least 2 different images.",
+    "moreless.checkcross.more": "More",
+    "moreless.checkcross.less": "Less"
   },
   "de": {
     "moreless.msg.answer.generated": "Lösungsblatt erstellt!",
@@ -537,7 +539,9 @@ const translations = {
     "moreless.checkcross.hint": "Zwei verschiedene Bilder werden im Kasten gemischt. Schüler kreuzen die größere Gruppe an und streichen die kleinere durch.",
     "moreless.checkcross.theme.hint": "Zwei Bilder werden jedes Mal zufällig aus diesem Thema ausgewählt.",
     "moreless.checkcross.pick2": "Wähle genau 2 Bilder",
-    "moreless.checkcross.error.needtwoimages": "Der Ankreuzmodus benötigt mindestens 2 verschiedene Bilder."
+    "moreless.checkcross.error.needtwoimages": "Der Ankreuzmodus benötigt mindestens 2 verschiedene Bilder.",
+    "moreless.checkcross.more": "Mehr",
+    "moreless.checkcross.less": "Weniger"
   },
   "fr": {
     "moreless.msg.answer.generated": "Corrigé créé !",
@@ -912,7 +916,9 @@ const translations = {
     "moreless.checkcross.hint": "Deux images différentes sont mélangées dans un cadre. Les élèves cochent le groupe le plus nombreux et barrent le moins nombreux.",
     "moreless.checkcross.theme.hint": "Deux images seront choisies au hasard dans ce thème à chaque fois.",
     "moreless.checkcross.pick2": "Choisissez exactement 2 images",
-    "moreless.checkcross.error.needtwoimages": "Le mode cocher et barrer nécessite au moins 2 images différentes."
+    "moreless.checkcross.error.needtwoimages": "Le mode cocher et barrer nécessite au moins 2 images différentes.",
+    "moreless.checkcross.more": "Plus",
+    "moreless.checkcross.less": "Moins"
   },
   "es": {
     "moreless.msg.answer.generated": "Respuestas creadas!",
@@ -1287,7 +1293,9 @@ const translations = {
     "moreless.checkcross.hint": "Dos imágenes diferentes se mezclan en un recuadro. Los alumnos marcan el grupo con más y tachan el grupo con menos.",
     "moreless.checkcross.theme.hint": "Dos imágenes se seleccionarán al azar de este tema cada vez.",
     "moreless.checkcross.pick2": "Selecciona exactamente 2 imágenes",
-    "moreless.checkcross.error.needtwoimages": "El modo marcar y tachar necesita al menos 2 imágenes diferentes."
+    "moreless.checkcross.error.needtwoimages": "El modo marcar y tachar necesita al menos 2 imágenes diferentes.",
+    "moreless.checkcross.more": "Más",
+    "moreless.checkcross.less": "Menos"
   },
   "it": {
     "moreless.msg.answer.generated": "Soluzioni create!",
@@ -1662,7 +1670,9 @@ const translations = {
     "moreless.checkcross.hint": "Due immagini diverse vengono mescolate in un riquadro. Gli studenti spuntano il gruppo più numeroso e barrano quello meno numeroso.",
     "moreless.checkcross.theme.hint": "Due immagini verranno scelte casualmente da questo tema ogni volta.",
     "moreless.checkcross.pick2": "Scegli esattamente 2 immagini",
-    "moreless.checkcross.error.needtwoimages": "La modalità spunta e barra richiede almeno 2 immagini diverse."
+    "moreless.checkcross.error.needtwoimages": "La modalità spunta e barra richiede almeno 2 immagini diverse.",
+    "moreless.checkcross.more": "Di più",
+    "moreless.checkcross.less": "Di meno"
   },
   "pt": {
     "moreless.msg.answer.generated": "Respostas criadas!",
@@ -2037,7 +2047,9 @@ const translations = {
     "moreless.checkcross.hint": "Duas imagens diferentes são misturadas numa caixa. Os alunos marcam o grupo com mais e riscam o grupo com menos.",
     "moreless.checkcross.theme.hint": "Duas imagens serão selecionadas aleatoriamente deste tema a cada vez.",
     "moreless.checkcross.pick2": "Escolha exatamente 2 imagens",
-    "moreless.checkcross.error.needtwoimages": "O modo marcar e riscar precisa de pelo menos 2 imagens diferentes."
+    "moreless.checkcross.error.needtwoimages": "O modo marcar e riscar precisa de pelo menos 2 imagens diferentes.",
+    "moreless.checkcross.more": "Mais",
+    "moreless.checkcross.less": "Menos"
   },
   "nl": {
     "moreless.msg.answer.generated": "Antwoordblad gemaakt!",
@@ -2412,7 +2424,9 @@ const translations = {
     "moreless.checkcross.hint": "Twee verschillende afbeeldingen worden in een vak gemengd. Leerlingen vinken de grotere groep aan en strepen de kleinere door.",
     "moreless.checkcross.theme.hint": "Twee afbeeldingen worden elke keer willekeurig uit dit thema gekozen.",
     "moreless.checkcross.pick2": "Kies precies 2 afbeeldingen",
-    "moreless.checkcross.error.needtwoimages": "De modus aanvinken en doorstrepen vereist minstens 2 verschillende afbeeldingen."
+    "moreless.checkcross.error.needtwoimages": "De modus aanvinken en doorstrepen vereist minstens 2 verschillende afbeeldingen.",
+    "moreless.checkcross.more": "Meer",
+    "moreless.checkcross.less": "Minder"
   },
   "sv": {
     "moreless.msg.answer.generated": "Facit skapat!",
@@ -2785,7 +2799,9 @@ const translations = {
     "moreless.checkcross.hint": "Två olika bilder blandas i en ruta. Eleverna bockar av gruppen med flest och stryker den med färst.",
     "moreless.checkcross.theme.hint": "Två bilder väljs slumpvis från detta tema varje gång.",
     "moreless.checkcross.pick2": "Välj exakt 2 bilder",
-    "moreless.checkcross.error.needtwoimages": "Bocka och stryk-läget kräver minst 2 olika bilder."
+    "moreless.checkcross.error.needtwoimages": "Bocka och stryk-läget kräver minst 2 olika bilder.",
+    "moreless.checkcross.more": "Fler",
+    "moreless.checkcross.less": "Färre"
   },
   "da": {
     "moreless.msg.answer.generated": "Facitliste oprettet!",
@@ -3160,7 +3176,9 @@ const translations = {
     "moreless.checkcross.hint": "To forskellige billeder blandes i en boks. Eleverne afkrydser gruppen med flest og stryger den med færrest.",
     "moreless.checkcross.theme.hint": "To billeder vælges tilfældigt fra dette tema hver gang.",
     "moreless.checkcross.pick2": "Vælg præcis 2 billeder",
-    "moreless.checkcross.error.needtwoimages": "Afkryds og stryg-tilstand kræver mindst 2 forskellige billeder."
+    "moreless.checkcross.error.needtwoimages": "Afkryds og stryg-tilstand kræver mindst 2 forskellige billeder.",
+    "moreless.checkcross.more": "Flere",
+    "moreless.checkcross.less": "Færre"
   },
   "no": {
     "moreless.msg.answer.generated": "Svar laget!",
@@ -3535,7 +3553,9 @@ const translations = {
     "moreless.checkcross.hint": "To forskjellige bilder blandes i en boks. Elevene krysser av gruppen med flest og stryker den med færrest.",
     "moreless.checkcross.theme.hint": "To bilder velges tilfeldig fra dette temaet hver gang.",
     "moreless.checkcross.pick2": "Velg nøyaktig 2 bilder",
-    "moreless.checkcross.error.needtwoimages": "Kryss av og stryk-modus krever minst 2 forskjellige bilder."
+    "moreless.checkcross.error.needtwoimages": "Kryss av og stryk-modus krever minst 2 forskjellige bilder.",
+    "moreless.checkcross.more": "Flere",
+    "moreless.checkcross.less": "Færre"
   },
   "fi": {
     "moreless.msg.answer.generated": "Vastaukset luotu!",
@@ -3910,6 +3930,8 @@ const translations = {
     "moreless.checkcross.hint": "Kaksi erilaista kuvaa sekoitetaan laatikossa. Oppilaat rastitvat ryhmän, jossa on enemmän, ja yliviivaavat sen, jossa on vähemmän.",
     "moreless.checkcross.theme.hint": "Kaksi kuvaa valitaan satunnaisesti tästä teemasta joka kerta.",
     "moreless.checkcross.pick2": "Valitse tarkalleen 2 kuvaa",
-    "moreless.checkcross.error.needtwoimages": "Rastitus- ja yliviivaustilaesta tarvitsee vähintään 2 erilaista kuvaa."
+    "moreless.checkcross.error.needtwoimages": "Rastitus- ja yliviivaustilaesta tarvitsee vähintään 2 erilaista kuvaa.",
+    "moreless.checkcross.more": "Enemmän",
+    "moreless.checkcross.less": "Vähemmän"
   }
 };

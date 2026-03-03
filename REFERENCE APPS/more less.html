@@ -6,7 +6,7 @@
   <title>Compare Numbers Worksheet</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-more-less.js?v=8"></script>
+  <script src="js/translations-more-less.js?v=10"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1141,8 +1141,10 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="moreless.worksheet.config">Worksheet Configuration</button>
             <div class="accordion-content">
+                <div class="comparison-only-control">
                 <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
                 <input type="number" id="problemCountInput" value="5" min="1" max="8" />
+                </div>
 
                 <div class="comparison-only-control">
                 <label for="imageSelectionModeSelect" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
@@ -1223,23 +1225,26 @@
                     Two different images are mixed in a box. Students check the group with more and cross the group with less.
                 </small>
 
+                <label for="ccExerciseCount" id="ccExerciseCountLabel">Number of Exercises (1–3):</label>
+                <input type="number" id="ccExerciseCount" value="1" min="1" max="3" />
+
                 <label for="ccTotalImages" data-translate="moreless.checkcross.totalimages">Total Images in Box (8-20):</label>
-                <input type="number" id="ccTotalImages" value="12" min="8" max="20" />
+                <input type="number" id="ccTotalImages" value="16" min="8" max="20" />
 
                 <label for="ccImageSelectionMode" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
                 <select id="ccImageSelectionMode">
                     <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
-                    <option value="theme" data-translate="moreless.mode.theme">Theme for Worksheet</option>
+                    <option value="theme" selected data-translate="moreless.mode.theme">Theme for Worksheet</option>
                 </select>
 
-                <div id="ccIndividualSection">
+                <div id="ccIndividualSection" style="display: none;">
                     <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="ccThemeDict"></select></label>
                     <label data-translate="moreless.checkcross.pick2">Pick exactly 2 images</label>
                     <div id="ccDict"><p class='dictionary-message' data-translate="moreless.loading.themes">Loading themes...</p></div>
                     <small id="ccSelCount">0 / 2 selected</small>
                 </div>
 
-                <div id="ccThemeSection" style="display: none;">
+                <div id="ccThemeSection">
                     <label><span data-translate="moreless.theme.worksheet">Theme for Worksheet</span> <select id="ccThemeWorksheet"></select></label>
                     <small data-translate="moreless.checkcross.theme.hint" style="display: block; margin-top: 4px; color: var(--app-text-secondary-dark-theme);">
                         Two images will be randomly selected from this theme each time.
@@ -1682,6 +1687,7 @@
       const ccThemeSection = $('#ccThemeSection');
       const ccThemeDictSelect = $('#ccThemeDict');
       const ccThemeWorksheetSelect = $('#ccThemeWorksheet');
+      const ccExerciseCountInput = $('#ccExerciseCount');
       const ccDictDiv = $('#ccDict');
       const ccSelCountSpan = $('#ccSelCount');
       const ccIncludeNameDateCheckbox = $('#ccIncludeNameDate');
@@ -1757,13 +1763,12 @@
               checkCrossAccordion.style.display = isCheckCross ? '' : 'none';
           }
 
-          // Adjust exercise count limits
-          if (isCheckCross) {
-              problemCountInput.max = 2;
-              problemCountInput.value = Math.min(parseInt(problemCountInput.value) || 1, 2);
-          } else {
-              problemCountInput.max = 8;
-          }
+          // Re-apply translations so newly-visible CC accordion labels are translated
+          applyTranslations();
+
+          // Set CC exercise count label using existing proven key
+          const ccExLabel = document.getElementById('ccExerciseCountLabel');
+          if (ccExLabel) ccExLabel.textContent = t('moreless.exercises.count').replace('1–8', '1–3');
       }
 
       function toggleCcImageSelection(image) {
@@ -2533,6 +2538,9 @@
                     [...allDictSelects, ...allWorksheetSelects].forEach(sel => sel.add(new Option(displayName, value)));
                 });
             }
+            // Default CC theme selects to "animals" after populating
+            if (ccThemeWorksheetSelect) ccThemeWorksheetSelect.value = 'animals';
+            if (ccThemeDictSelect) ccThemeDictSelect.value = 'animals';
             renderDictionaryFunc();
             renderCcDictionaryFunc();
         } catch (error) { 
@@ -3387,24 +3395,44 @@
 
     function buildCheckCrossRows(imgs, problemCount) {
         const rows = [];
-        const totalImageCount = parseInt((ccTotalImagesInput || {}).value, 10) || 12;
+        const totalImageCount = parseInt((ccTotalImagesInput || {}).value, 10) || 16;
 
         if (!imgs || imgs.length < 2) return rows;
 
-        for (let i = 0; i < problemCount; i++) {
-            // Pick 2 different images randomly
-            const shuffled = [...imgs];
-            for (let k = shuffled.length - 1; k > 0; k--) {
-                const j = rand(0, k);
-                [shuffled[k], shuffled[j]] = [shuffled[j], shuffled[k]];
-            }
-            const imageA = shuffled[0];
-            let imageB = shuffled[1];
+        // Pre-assign unique image pairs for each exercise
+        const shuffled = [...imgs];
+        for (let k = shuffled.length - 1; k > 0; k--) {
+            const j = rand(0, k);
+            [shuffled[k], shuffled[j]] = [shuffled[j], shuffled[k]];
+        }
 
-            // Ensure different
-            if (imageB === imageA && imgs.length > 1) {
-                imageB = imgs.find(img => img !== imageA) || shuffled[1];
+        const pairs = [];
+        if (shuffled.length >= problemCount * 2) {
+            // Enough images for completely unique pairs
+            for (let p = 0; p < problemCount; p++) {
+                pairs.push([shuffled[p * 2], shuffled[p * 2 + 1]]);
             }
+        } else {
+            // Build all distinct pairs, shuffle, assign
+            const allPairs = [];
+            for (let a = 0; a < shuffled.length; a++) {
+                for (let b = a + 1; b < shuffled.length; b++) {
+                    allPairs.push([shuffled[a], shuffled[b]]);
+                }
+            }
+            for (let k = allPairs.length - 1; k > 0; k--) {
+                const j = rand(0, k);
+                [allPairs[k], allPairs[j]] = [allPairs[j], allPairs[k]];
+            }
+            for (let p = 0; p < problemCount; p++) {
+                pairs.push(allPairs[p % allPairs.length]);
+            }
+        }
+
+        for (let i = 0; i < problemCount; i++) {
+            let [imageA, imageB] = pairs[i];
+            // Randomly swap A/B assignment so "more" image varies
+            if (Math.random() < 0.5) [imageA, imageB] = [imageB, imageA];
 
             // Generate unequal counts summing to totalImageCount
             const minCount = Math.max(2, Math.floor(totalImageCount * 0.25));
@@ -3638,8 +3666,10 @@
             }
 
             const comparisonMode = comparisonModeSelect.value;
-            const problemCount = parseInt(problemCountInput.value, 10);
-            const maxExercises = comparisonMode === 'check-cross' ? 2 : 8;
+            const problemCount = comparisonMode === 'check-cross'
+                ? parseInt(ccExerciseCountInput.value, 10)
+                : parseInt(problemCountInput.value, 10);
+            const maxExercises = comparisonMode === 'check-cross' ? 3 : 8;
             if (isNaN(problemCount) || problemCount < 1 || problemCount > maxExercises) throw new Error(t('moreless.msg.valid.exercises'));
 
             let imagesForGeneration = [];
@@ -3911,27 +3941,10 @@
 
         const allElements = [];
 
-        // --- 1. Instruction text ---
-        const instructionText = t('moreless.checkcross.instruction');
-        const instructionFontSize = Math.min(16, cardHeight * 0.04);
-        const instructionObj = new fabric.Text(instructionText, {
-            fontSize: instructionFontSize,
-            fontFamily: 'Fredoka',
-            fontWeight: '500',
-            fill: '#333',
-            left: cardPadding,
-            top: cardPadding,
-            selectable: false,
-            evented: false
-        });
-        allElements.push(instructionObj);
-
-        const instructionBottom = cardPadding + instructionFontSize + 10;
-
-        // --- 2. Large bordered box with mixed images ---
+        // --- 1. Large bordered box with mixed images ---
         const answerAreaHeight = cardHeight * 0.18; // 18% for answer area
-        const boxTop = instructionBottom;
-        const boxHeight = cardHeight - instructionBottom - answerAreaHeight - cardPadding - 10;
+        const boxTop = cardPadding;
+        const boxHeight = cardHeight - cardPadding - answerAreaHeight - cardPadding - 10;
         const boxWidth = cardWidth - (cardPadding * 2);
 
         // Box border
@@ -4513,7 +4526,7 @@
             cardElements.push(symbolA);
 
             // Label for A
-            const labelA = new fabric.Text(isAMore ? 'More' : 'Less', {
+            const labelA = new fabric.Text(isAMore ? t('moreless.checkcross.more') : t('moreless.checkcross.less'), {
                 left: 40 + thumbSize + 95,
                 top: rowStartY + thumbSize / 2,
                 originY: 'center',
@@ -4551,7 +4564,7 @@
             });
             cardElements.push(symbolB);
 
-            const labelB = new fabric.Text(isBMore ? 'More' : 'Less', {
+            const labelB = new fabric.Text(isBMore ? t('moreless.checkcross.more') : t('moreless.checkcross.less'), {
                 left: 40 + thumbSize + 95,
                 top: rowBY + thumbSize / 2,
                 originY: 'center',
@@ -4981,12 +4994,13 @@ async function downloadPDF(canvasToExport, filename) {
             includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
             // Reset Check & Cross state
             ccSelectedImages.clear();
-            if (ccTotalImagesInput) ccTotalImagesInput.value = 12;
-            if (ccImageSelectionMode) ccImageSelectionMode.value = 'individual';
-            if (ccIndividualSection) ccIndividualSection.style.display = 'block';
-            if (ccThemeSection) ccThemeSection.style.display = 'none';
-            if (ccThemeDictSelect) ccThemeDictSelect.value = 'all';
-            if (ccThemeWorksheetSelect) ccThemeWorksheetSelect.value = '';
+            if (ccExerciseCountInput) ccExerciseCountInput.value = 1;
+            if (ccTotalImagesInput) ccTotalImagesInput.value = 16;
+            if (ccImageSelectionMode) ccImageSelectionMode.value = 'theme';
+            if (ccIndividualSection) ccIndividualSection.style.display = 'none';
+            if (ccThemeSection) ccThemeSection.style.display = 'block';
+            if (ccThemeDictSelect) ccThemeDictSelect.value = 'animals';
+            if (ccThemeWorksheetSelect) ccThemeWorksheetSelect.value = 'animals';
             if (ccIncludeNameDateCheckbox) ccIncludeNameDateCheckbox.checked = false;
             const ccSearch = document.getElementById('ccSearchInput');
             if (ccSearch) ccSearch.value = '';

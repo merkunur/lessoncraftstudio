@@ -250,7 +250,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── Video Tutorial ────────────────────────
     videoTutorial: {
       youtubeId: '36keBFzJbPo',
-      title: 'See How It Works in 2 Minutes',
+      title: 'See How It Works',
     },
 
     // ── 2. Testimonial ───────────────────────

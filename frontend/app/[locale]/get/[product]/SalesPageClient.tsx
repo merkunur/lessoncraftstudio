@@ -249,6 +249,7 @@ function VideoSection({ videoTutorial }: { videoTutorial: { youtubeId: string; t
 
 function FELayout({ config, locale }: Props) {
   const { pricing } = config;
+  const [heroVideoPlaying, setHeroVideoPlaying] = useState(false);
 
   return (
     <>
@@ -281,23 +282,57 @@ function FELayout({ config, locale }: Props) {
               </div>
             )}
           </div>
-          {/* Fanned puzzle screenshots */}
-          <div className="relative flex items-center justify-center h-[340px] md:h-[440px] mt-4">
-            <div className="absolute w-[220px] md:w-[280px] rounded-xl shadow-2xl overflow-hidden border-4 border-white transition-transform hover:scale-105 hover:z-20" style={{ transform: 'rotate(-8deg) translateX(-60px)', zIndex: 1 }}>
-              <img src={PUZZLE_SAMPLES.landscape} alt="Landscape word search puzzle" className="w-full" loading="eager" />
+          {/* Video tutorial inline */}
+          {config.videoTutorial && (
+            <div className="mt-8 max-w-4xl mx-auto">
+              <h2 className="text-2xl md:text-3xl font-bold text-center text-slate-900 mb-6">
+                {config.videoTutorial.title}
+              </h2>
+              <div
+                className="relative w-full overflow-hidden rounded-2xl shadow-xl bg-black"
+                style={{ paddingBottom: '56.25%' }}
+              >
+                {heroVideoPlaying ? (
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    src={`https://www.youtube-nocookie.com/embed/${config.videoTutorial.youtubeId}?autoplay=1&rel=0`}
+                    title={config.videoTutorial.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                ) : (
+                  <button
+                    type="button"
+                    onClick={() => setHeroVideoPlaying(true)}
+                    className="absolute inset-0 w-full h-full cursor-pointer group"
+                    aria-label="Play video"
+                  >
+                    <img
+                      src={`https://img.youtube.com/vi/${config.videoTutorial.youtubeId}/maxresdefault.jpg`}
+                      alt={config.videoTutorial.title}
+                      className="absolute inset-0 w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:bg-red-700 group-hover:scale-110 transition-all">
+                        <svg className="w-7 h-7 md:w-9 md:h-9 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </div>
+                    </div>
+                  </button>
+                )}
+              </div>
+              <p className="text-center text-sm text-slate-500 mt-4 max-w-2xl mx-auto italic">
+                This tutorial showcases all available features. The base product includes 10 image themes in English. Additional themes and languages are available as optional upgrades.
+              </p>
             </div>
-            <div className="absolute w-[220px] md:w-[280px] rounded-xl shadow-2xl overflow-hidden border-4 border-white transition-transform hover:scale-105 hover:z-20" style={{ zIndex: 3 }}>
-              <img src={PUZZLE_SAMPLES.portrait} alt="Portrait word search puzzle" className="w-full" loading="eager" />
-            </div>
-            <div className="absolute w-[220px] md:w-[280px] rounded-xl shadow-2xl overflow-hidden border-4 border-white transition-transform hover:scale-105 hover:z-20" style={{ transform: 'rotate(8deg) translateX(60px)', zIndex: 2 }}>
-              <img src={PUZZLE_SAMPLES.custom} alt="Custom word list puzzle" className="w-full" loading="eager" />
-            </div>
-          </div>
+          )}
         </div>
       </section>
 
-      {/* ── VIDEO TUTORIAL ─────────────────────────────── */}
-      {config.videoTutorial && <VideoSection videoTutorial={config.videoTutorial} />}
+      {/* Video tutorial now embedded in hero — standalone section removed */}
 
       {/* ── 2. TESTIMONIAL ───────────────────────────── */}
       {config.testimonial && (

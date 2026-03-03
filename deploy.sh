@@ -131,15 +131,14 @@ cd frontend
 # NOTE: Samples are in /var/www/lcs-media/samples/ - completely isolated
 # No symlinks needed - nginx serves samples directly
 # CRITICAL: Remove stale .next/standalone BEFORE building.
-# The postbuild script (cp -r public .next/standalone/public) follows symlinks
-# at public/worksheet-generators and public/admin, copying ~25MB of HTML apps
-# into standalone/public/. On the NEXT build, next build scans this leftover
-# directory and hangs processing 149+ large files. Cleaning it first prevents this.
+# The postbuild script uses cp -a (preserves symlinks), but if someone reverts
+# to cp -r, it would follow symlinks at public/worksheet-generators and public/admin,
+# copying ~25MB of HTML apps into standalone/public/. Cleaning first is a safety net.
 echo ""
 echo "🧹 Cleaning stale .next/standalone to prevent build hang..."
 rm -rf .next/standalone
 echo "🔨 Building Next.js application..."
-npm run build
+timeout 300 npm run build || { echo "BUILD TIMED OUT after 5 minutes — likely symlink bloat. Aborting."; exit 1; }
 
 # 4. CRITICAL: Stage new release in separate directory (zero-downtime)
 # The running server continues serving from .next/standalone/ while we prepare
@@ -151,6 +150,22 @@ echo "   → Copying .next/static to staged release"
 cp -r .next/static "$RELEASE_DIR/.next/static"
 echo "   → Copying public to staged release"
 cp -a public "$RELEASE_DIR/public"
+
+# Validate symlinks survived the copy (cp -a preserves them, cp -r would not)
+echo "   → Validating symlinks in staged release..."
+if [ -d "$RELEASE_DIR/public/worksheet-generators" ] && [ ! -L "$RELEASE_DIR/public/worksheet-generators" ]; then
+    echo "FATAL: public/worksheet-generators is a directory, not a symlink!"
+    echo "       Someone changed cp -a back to cp -r. Fix package.json and deploy.sh."
+    rm -rf "$RELEASE_DIR"
+    exit 1
+fi
+if [ -d "$RELEASE_DIR/public/admin" ] && [ ! -L "$RELEASE_DIR/public/admin" ]; then
+    echo "FATAL: public/admin is a directory, not a symlink!"
+    rm -rf "$RELEASE_DIR"
+    exit 1
+fi
+echo "   ✅ Symlinks preserved correctly"
+
 echo "   → Copying .env.production to staged release"
 cp .env.production "$RELEASE_DIR/.env.production"
 

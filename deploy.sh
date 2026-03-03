@@ -150,7 +150,7 @@ cp -a .next/standalone "$RELEASE_DIR"
 echo "   → Copying .next/static to staged release"
 cp -r .next/static "$RELEASE_DIR/.next/static"
 echo "   → Copying public to staged release"
-cp -r public "$RELEASE_DIR/public"
+cp -a public "$RELEASE_DIR/public"
 echo "   → Copying .env.production to staged release"
 cp .env.production "$RELEASE_DIR/.env.production"
 

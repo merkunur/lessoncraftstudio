@@ -98,7 +98,9 @@ export async function generateStaticParams() {
 
 // Metadata generation
 export async function generateMetadata({ params }: PageProps) {
+  try {
   const { locale, slug } = params;
+  if (!slug || slug.length === 0) return {};
   const pageName = slug[slug.length - 1];
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -223,4 +225,7 @@ export async function generateMetadata({ params }: PageProps) {
       alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
     },
   };
+  } catch {
+    return {};
+  }
 }

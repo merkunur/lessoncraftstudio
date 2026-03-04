@@ -541,41 +541,47 @@ export async function generateMetadata({
 }: {
   params: { locale: string; slug: string };
 }): Promise<Metadata> {
-  const locale = params.locale as SupportedLocale;
-  const slug = params.slug;
-  const baseUrl = 'https://www.lessoncraftstudio.com';
+  try {
+    const locale = params.locale as SupportedLocale;
+    const slug = params.slug;
+    const baseUrl = 'https://www.lessoncraftstudio.com';
 
-  const appConfig = getAppConfigBySlug(slug);
-  if (!appConfig) return {};
+    const appConfig = getAppConfigBySlug(slug);
+    if (!appConfig) return {};
 
-  const wpAppId = getWpAppId(appConfig.appId);
-  if (!wpAppId) return {};
+    const wpAppId = getWpAppId(appConfig.appId);
+    if (!wpAppId) return {};
 
-  const appData = ALL_APPS[wpAppId];
-  const desc = appDescriptions[wpAppId]?.[locale] || appDescriptions[wpAppId]?.en || '';
-  const alternateUrls = getAlternateUrls(appConfig.appId, baseUrl);
-  const localeSlug = getSlugForLocale(appConfig.appId, locale);
+    const appData = ALL_APPS[wpAppId];
+    if (!appData) return {};
 
-  const localizedName = getLocalizedAppName(wpAppId, locale);
-  const localizedSuffix = getLocalizedSuffix(locale);
-  const title = `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
+    const desc = appDescriptions[wpAppId]?.[locale] || appDescriptions[wpAppId]?.en || '';
+    const alternateUrls = getAlternateUrls(appConfig.appId, baseUrl);
+    const localeSlug = getSlugForLocale(appConfig.appId, locale);
 
-  return {
-    title,
-    description: desc,
-    alternates: {
-      canonical: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
-      languages: alternateUrls,
-    },
-    openGraph: {
+    const localizedName = getLocalizedAppName(wpAppId, locale);
+    const localizedSuffix = getLocalizedSuffix(locale);
+    const title = `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
+
+    return {
       title,
       description: desc,
-      type: 'website',
-      url: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
-      siteName: 'LessonCraftStudio',
-      locale: ogLocaleMap[locale] || locale,
-    },
-  };
+      alternates: {
+        canonical: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
+        languages: alternateUrls,
+      },
+      openGraph: {
+        title,
+        description: desc,
+        type: 'website',
+        url: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
+        siteName: 'LessonCraftStudio',
+        locale: ogLocaleMap[locale] || locale,
+      },
+    };
+  } catch {
+    return {};
+  }
 }
 
 export default async function AppDetailPage({
@@ -593,6 +599,7 @@ export default async function AppDetailPage({
   if (!wpAppId) notFound();
 
   const appData = ALL_APPS[wpAppId];
+  if (!appData) notFound();
   const category = appData.category as CategoryId;
   const categoryData = APP_CATEGORIES[category];
   const ui = uiStrings[locale] || uiStrings.en;

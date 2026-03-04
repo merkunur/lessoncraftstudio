@@ -108,23 +108,23 @@
     animation: shimmer 3s infinite linear;
   }
 
-  /* Hero entrance animations — CSS-only replacements for Framer Motion initial={{ opacity: 0 }} */
+  /* Hero entrance animations — subtle fade, content always readable */
   @keyframes heroFadeIn {
-    from { opacity: 0; transform: translateY(10px); }
+    from { opacity: 0.7; transform: translateY(6px); }
     to { opacity: 1; transform: translateY(0); }
   }
   @keyframes heroFadeInLeft {
-    from { opacity: 0; transform: translateX(-20px); }
+    from { opacity: 0.7; transform: translateX(-10px); }
     to { opacity: 1; transform: translateX(0); }
   }
 
-  .hero-fade-in { animation: heroFadeIn 0.6s ease-out both; }
-  .hero-fade-in-left { animation: heroFadeInLeft 0.8s ease-out both; }
-  .hero-stagger-1 { animation-delay: 0.1s; animation-fill-mode: both; }
-  .hero-stagger-2 { animation-delay: 0.2s; animation-fill-mode: both; }
-  .hero-stagger-3 { animation-delay: 0.3s; animation-fill-mode: both; }
-  .hero-stagger-4 { animation-delay: 0.4s; animation-fill-mode: both; }
-  .hero-stagger-5 { animation-delay: 0.55s; animation-fill-mode: both; }
+  .hero-fade-in { animation: heroFadeIn 0.4s ease-out both; }
+  .hero-fade-in-left { animation: heroFadeInLeft 0.5s ease-out both; }
+  .hero-stagger-1 { animation-delay: 0.05s; animation-fill-mode: both; }
+  .hero-stagger-2 { animation-delay: 0.1s; animation-fill-mode: both; }
+  .hero-stagger-3 { animation-delay: 0.15s; animation-fill-mode: both; }
+  .hero-stagger-4 { animation-delay: 0.2s; animation-fill-mode: both; }
+  .hero-stagger-5 { animation-delay: 0.25s; animation-fill-mode: both; }
 
   /* Video demo button pulsing ring — CSS replacement for Framer Motion animate */
   @keyframes videoPulseRing {

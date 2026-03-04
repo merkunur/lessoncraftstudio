@@ -105,8 +105,6 @@ export default async function RootLayout({
 
         {/* YouTube preconnects moved to VideoLightbox component — only needed when video is present */}
         {/* M5: Removed vestigial Google Fonts preconnects (next/font self-hosts) and self dns-prefetch */}
-        {/* RSS feed for blog discovery */}
-        <link rel="alternate" type="application/rss+xml" title="LessonCraftStudio Blog RSS" href="/feed.xml" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} min-h-screen bg-gray-50 font-sans`}>
         <NavigationProgress />

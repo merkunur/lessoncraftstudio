@@ -1,7 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
+import { useState, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -182,7 +181,6 @@ const localeContent: Record<string, {
 };
 
 export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
   const isVideoPlaying = false;
   const containerRef = useRef<HTMLDivElement>(null);
@@ -193,33 +191,6 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
   // Use server-provided hero images (baked into ISR HTML for immediate display)
   // Falls back to empty strings if prop not provided
   const heroImageSources = heroImages || { portrait: '', landscape: '' };
-
-  const { scrollY } = useScroll();
-  const opacity = useTransform(scrollY, [0, 400], [1, 0]);
-
-  const springConfig = { stiffness: 100, damping: 30 };
-  const springX = useSpring(mousePosition.x, springConfig);
-  const springY = useSpring(mousePosition.y, springConfig);
-
-  // Pre-compute inverted spring transforms at top level (hooks must not be called conditionally)
-  const invertedSpringX = useTransform(springX, v => v * -0.5);
-  const invertedSpringY = useTransform(springY, v => v * -0.5);
-
-  useEffect(() => {
-    // Skip on touch devices \u2014 mousemove is irrelevant and wastes CPU
-    if (typeof window !== 'undefined' && window.matchMedia('(hover: none)').matches) return;
-    const handleMouseMove = (e: MouseEvent) => {
-      if (containerRef.current) {
-        const rect = containerRef.current.getBoundingClientRect();
-        setMousePosition({
-          x: ((e.clientX - rect.left) / rect.width - 0.5) * 40,
-          y: ((e.clientY - rect.top) / rect.height - 0.5) * 40,
-        });
-      }
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
 
   // Preview worksheets - real samples
   const getAltText = (type: 'addition' | 'wordsearch') => {
@@ -375,9 +346,8 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
       />
 
       {/* Main content */}
-      <motion.div
+      <div
         className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-12"
-        style={{ opacity }}
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -488,19 +458,14 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                 />
 
                 {/* Left preview card */}
-                <motion.div
-                  className="absolute top-8 left-0 w-[280px]"
+                <div
+                  className="absolute top-8 left-0 w-[280px] transition-transform duration-300"
                   style={{
-                    x: springX,
-                    y: springY,
-                    rotateY: isHovered === 'left' ? 5 : -5,
-                    rotateX: isHovered === 'left' ? -5 : 5,
-                    scale: isHovered === 'left' ? 1.05 : 1,
+                    transform: isHovered === 'left' ? 'scale(1.05) rotateY(5deg) rotateX(-5deg)' : 'rotateY(-5deg) rotateX(5deg)',
                     zIndex: isHovered === 'left' ? 20 : 1,
                   }}
-                  onHoverStart={() => setIsHovered('left')}
-                  onHoverEnd={() => setIsHovered(null)}
-                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                  onMouseEnter={() => setIsHovered('left')}
+                  onMouseLeave={() => setIsHovered(null)}
                 >
                   <div
                     className="relative rounded-2xl overflow-hidden shadow-2xl"
@@ -543,22 +508,17 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                       300 DPI
                     </div>
                   </div>
-                </motion.div>
+                </div>
 
                 {/* Right preview card */}
-                <motion.div
-                  className="absolute bottom-8 right-0 w-[300px]"
+                <div
+                  className="absolute bottom-8 right-0 w-[300px] transition-transform duration-300"
                   style={{
-                    x: invertedSpringX,
-                    y: invertedSpringY,
-                    rotateY: isHovered === 'right' ? -5 : 5,
-                    rotateX: isHovered === 'right' ? 5 : -5,
-                    scale: isHovered === 'right' ? 1.05 : 1,
+                    transform: isHovered === 'right' ? 'scale(1.05) rotateY(-5deg) rotateX(5deg)' : 'rotateY(5deg) rotateX(-5deg)',
                     zIndex: isHovered === 'right' ? 20 : 1,
                   }}
-                  onHoverStart={() => setIsHovered('right')}
-                  onHoverEnd={() => setIsHovered(null)}
-                  transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                  onMouseEnter={() => setIsHovered('right')}
+                  onMouseLeave={() => setIsHovered(null)}
                 >
                   <div
                     className="relative rounded-2xl overflow-hidden shadow-2xl"
@@ -604,7 +564,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                       {content.answerKey}
                     </div>
                   </div>
-                </motion.div>
+                </div>
 
                 {/* Center decorative element */}
                 <div
@@ -618,7 +578,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
             )}
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 scroll-indicator">

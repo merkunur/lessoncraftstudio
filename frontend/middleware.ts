@@ -7,6 +7,11 @@ import { isValidLocale } from '@/config/locales';
 // Import product page slugs for legacy appId → localized slug redirects
 // App detail pages survive the pivot — these redirects are still needed
 import { productPageSlugs } from './config/product-page-slugs';
+import { toolPageSlugs } from './config/tool-page-slugs';
+import { bundlePageSlugs } from './config/bundle-page-slugs';
+import { startPageSlugs } from './config/start-page-slugs';
+import { guidePageSlugs } from './config/guide-page-slugs';
+import { ideaPageSlugs } from './config/idea-page-slugs';
 
 // Build legacy appId → localized slugs map for product page redirects
 // This redirects /de/apps/image-addition → /de/apps/addition-arbeitsblaetter
@@ -47,6 +52,103 @@ for (const app of productPageSlugs) {
   }
   for (const slug of Object.values(app.slugs)) {
     if (slug) anySlugToLocaleSlugs.set(slug, localeToSlug);
+  }
+}
+
+// Build legacy appId → localized slugs map for tool page redirects
+const legacyToolIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+for (const tool of toolPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(tool.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  legacyToolIdToLocalizedSlugs.set(tool.appId, localeToSlug);
+}
+
+const englishSlugToToolSlugs = new Map<string, Record<string, string>>();
+for (const tool of toolPageSlugs) {
+  const enSlug = tool.slugs.en;
+  if (enSlug) {
+    const localeToSlug: Record<string, string> = {};
+    for (const [locale, slug] of Object.entries(tool.slugs)) {
+      if (slug) localeToSlug[locale] = slug;
+    }
+    englishSlugToToolSlugs.set(enSlug, localeToSlug);
+  }
+}
+
+const anySlugToToolSlugs = new Map<string, Record<string, string>>();
+for (const tool of toolPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(tool.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  for (const slug of Object.values(tool.slugs)) {
+    if (slug) anySlugToToolSlugs.set(slug, localeToSlug);
+  }
+}
+
+// Build redirect maps for bundle pages
+const legacyBundleIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+const englishSlugToBundleSlugs = new Map<string, Record<string, string>>();
+const anySlugToBundleSlugs = new Map<string, Record<string, string>>();
+for (const bundle of bundlePageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(bundle.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  legacyBundleIdToLocalizedSlugs.set(bundle.bundleId, localeToSlug);
+  if (bundle.slugs.en) englishSlugToBundleSlugs.set(bundle.slugs.en, localeToSlug);
+  for (const slug of Object.values(bundle.slugs)) {
+    if (slug) anySlugToBundleSlugs.set(slug, localeToSlug);
+  }
+}
+
+// Build redirect maps for start (cornerstone guide) pages
+const legacyStartIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+const englishSlugToStartSlugs = new Map<string, Record<string, string>>();
+const anySlugToStartSlugs = new Map<string, Record<string, string>>();
+for (const start of startPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(start.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  legacyStartIdToLocalizedSlugs.set(start.guideId, localeToSlug);
+  if (start.slugs.en) englishSlugToStartSlugs.set(start.slugs.en, localeToSlug);
+  for (const slug of Object.values(start.slugs)) {
+    if (slug) anySlugToStartSlugs.set(slug, localeToSlug);
+  }
+}
+
+// Build redirect maps for guide (Create X) pages
+const legacyGuideIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+const englishSlugToGuideSlugs = new Map<string, Record<string, string>>();
+const anySlugToGuideSlugs = new Map<string, Record<string, string>>();
+for (const guide of guidePageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(guide.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  legacyGuideIdToLocalizedSlugs.set(guide.guideId, localeToSlug);
+  if (guide.slugs.en) englishSlugToGuideSlugs.set(guide.slugs.en, localeToSlug);
+  for (const slug of Object.values(guide.slugs)) {
+    if (slug) anySlugToGuideSlugs.set(slug, localeToSlug);
+  }
+}
+
+// Build redirect maps for idea (niche idea) pages
+const legacyIdeaIdToLocalizedSlugs = new Map<string, Record<string, string>>();
+const englishSlugToIdeaSlugs = new Map<string, Record<string, string>>();
+const anySlugToIdeaSlugs = new Map<string, Record<string, string>>();
+for (const idea of ideaPageSlugs) {
+  const localeToSlug: Record<string, string> = {};
+  for (const [locale, slug] of Object.entries(idea.slugs)) {
+    if (slug) localeToSlug[locale] = slug;
+  }
+  legacyIdeaIdToLocalizedSlugs.set(idea.ideaId, localeToSlug);
+  if (idea.slugs.en) englishSlugToIdeaSlugs.set(idea.slugs.en, localeToSlug);
+  for (const slug of Object.values(idea.slugs)) {
+    if (slug) anySlugToIdeaSlugs.set(slug, localeToSlug);
   }
 }
 
@@ -270,6 +372,157 @@ export default function middleware(request: NextRequest) {
       if (correctSlug && correctSlug !== slug) {
         const newUrl = new URL(`/${locale}/apps/${correctSlug}`, request.url);
         return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+  }
+
+  // Handle tool page slug redirects
+  const toolsMatch = pathname.match(/^\/([a-z]{2})\/tools\/([a-z0-9-]+)$/);
+  if (toolsMatch) {
+    const [, locale, slug] = toolsMatch;
+
+    const localizedSlugs = legacyToolIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      if (targetSlug && targetSlug !== slug) {
+        const newUrl = new URL(`/${locale}/tools/${targetSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+
+    if (locale !== 'en') {
+      const toolSlugs = englishSlugToToolSlugs.get(slug);
+      if (toolSlugs) {
+        const localizedSlug = toolSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          const newUrl = new URL(`/${locale}/tools/${localizedSlug}`, request.url);
+          return NextResponse.redirect(newUrl, { status: 301 });
+        }
+      }
+    }
+
+    const toolSlugsAll = anySlugToToolSlugs.get(slug);
+    if (toolSlugsAll) {
+      const correctSlug = toolSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        const newUrl = new URL(`/${locale}/tools/${correctSlug}`, request.url);
+        return NextResponse.redirect(newUrl, { status: 301 });
+      }
+    }
+  }
+
+  // Handle bundle page slug redirects
+  const bundlesMatch = pathname.match(/^\/([a-z]{2})\/bundles\/([a-z0-9-]+)$/);
+  if (bundlesMatch) {
+    const [, locale, slug] = bundlesMatch;
+    const localizedSlugs = legacyBundleIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      if (targetSlug && targetSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/bundles/${targetSlug}`, request.url), { status: 301 });
+      }
+    }
+    if (locale !== 'en') {
+      const bundleSlugs = englishSlugToBundleSlugs.get(slug);
+      if (bundleSlugs) {
+        const localizedSlug = bundleSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          return NextResponse.redirect(new URL(`/${locale}/bundles/${localizedSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+    const bundleSlugsAll = anySlugToBundleSlugs.get(slug);
+    if (bundleSlugsAll) {
+      const correctSlug = bundleSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/bundles/${correctSlug}`, request.url), { status: 301 });
+      }
+    }
+  }
+
+  // Handle start (cornerstone guide) page slug redirects
+  const startMatch = pathname.match(/^\/([a-z]{2})\/start\/([a-z0-9-]+)$/);
+  if (startMatch) {
+    const [, locale, slug] = startMatch;
+    const localizedSlugs = legacyStartIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      if (targetSlug && targetSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/start/${targetSlug}`, request.url), { status: 301 });
+      }
+    }
+    if (locale !== 'en') {
+      const startSlugs = englishSlugToStartSlugs.get(slug);
+      if (startSlugs) {
+        const localizedSlug = startSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          return NextResponse.redirect(new URL(`/${locale}/start/${localizedSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+    const startSlugsAll = anySlugToStartSlugs.get(slug);
+    if (startSlugsAll) {
+      const correctSlug = startSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/start/${correctSlug}`, request.url), { status: 301 });
+      }
+    }
+  }
+
+  // Handle guide (Create X) page slug redirects
+  const guidesMatch = pathname.match(/^\/([a-z]{2})\/guides\/([a-z0-9-]+)$/);
+  if (guidesMatch) {
+    const [, locale, slug] = guidesMatch;
+    const localizedSlugs = legacyGuideIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      if (targetSlug && targetSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/guides/${targetSlug}`, request.url), { status: 301 });
+      }
+    }
+    if (locale !== 'en') {
+      const guideSlugs = englishSlugToGuideSlugs.get(slug);
+      if (guideSlugs) {
+        const localizedSlug = guideSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          return NextResponse.redirect(new URL(`/${locale}/guides/${localizedSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+    const guideSlugsAll = anySlugToGuideSlugs.get(slug);
+    if (guideSlugsAll) {
+      const correctSlug = guideSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/guides/${correctSlug}`, request.url), { status: 301 });
+      }
+    }
+  }
+
+  // Handle idea (niche idea) page slug redirects
+  const ideasMatch = pathname.match(/^\/([a-z]{2})\/ideas\/([a-z0-9-]+)$/);
+  if (ideasMatch) {
+    const [, locale, slug] = ideasMatch;
+    const localizedSlugs = legacyIdeaIdToLocalizedSlugs.get(slug);
+    if (localizedSlugs) {
+      const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
+      if (targetSlug && targetSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/ideas/${targetSlug}`, request.url), { status: 301 });
+      }
+    }
+    if (locale !== 'en') {
+      const ideaSlugs = englishSlugToIdeaSlugs.get(slug);
+      if (ideaSlugs) {
+        const localizedSlug = ideaSlugs[locale];
+        if (localizedSlug && localizedSlug !== slug) {
+          return NextResponse.redirect(new URL(`/${locale}/ideas/${localizedSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+    const ideaSlugsAll = anySlugToIdeaSlugs.get(slug);
+    if (ideaSlugsAll) {
+      const correctSlug = ideaSlugsAll[locale];
+      if (correctSlug && correctSlug !== slug) {
+        return NextResponse.redirect(new URL(`/${locale}/ideas/${correctSlug}`, request.url), { status: 301 });
       }
     }
   }

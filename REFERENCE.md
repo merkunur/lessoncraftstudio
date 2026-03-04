@@ -2,13 +2,16 @@
 
 **Purpose:** Single source of truth for creating ~2,134 pages across 6 page types, each with 3,000+ words, in 11 languages. Any Claude Code session can pick up and execute independently.
 
+> **CRITICAL — FREE TRIAL MESSAGING (applies to ALL 2,134 pages):**
+> Every page must prominently communicate that all 33 apps are **free to try with full features** — no signup, no credit card, no feature restrictions. The ONLY difference between free and paid is a **watermark on downloaded files**. This is our #1 trust builder and conversion driver. Additionally, every FAQ section must include a **no-refund policy** FAQ that points visitors to the free trial: "Try before you buy."
+
 ---
 
 ## TABLE OF CONTENTS
 
 | # | Section | Description |
 |---|---------|-------------|
-| 1 | [Rules & Mandates](#1-rules--mandates) | ALL rules consolidated: stop rule, fabrication ban, feature verification, tier accuracy, performance, content principles, SEO, visual integration |
+| 1 | [Rules & Mandates](#1-rules--mandates) | ALL rules consolidated: stop rule, fabrication ban, feature verification, tier accuracy, performance, content principles, SEO keywords, visual integration, localization, conversion voice, SEO perfection checklist, free trial & refund policy |
 | 2 | [Business & Product Context](#2-business--product-context) | 6 categories, 2 tiers, language sensitivity classification, language importance by category |
 | 3 | [Page Type Overview](#3-page-type-overview) | Summary table of all 6 page types with counts, URL patterns, priorities |
 | 4 | [Page Type 1: App Detail Pages](#4-page-type-1-app-detail-pages) | 33 apps x 11 locales = 363 pages — transform existing thin pages |
@@ -255,6 +258,332 @@ Every page in the system MUST prominently feature visual assets. Visuals communi
 - If a translation is missing, the helpers fall back to English automatically — but this should never happen for the 11 supported locales
 - Source of truth: `frontend/config/app-translations.ts`
 
+### 1.10 Conversion-Focused Content Voice
+
+**Section 1.2 (Zero Fabrication) still applies unconditionally.** Excitement must come from real capabilities, never invented claims. The rules below govern *how* we present truthful information — energetically, not lifelessly.
+
+#### 1.10.1 Target Audience Mindset
+
+Every page speaks to real people at different stages of their printable-selling journey. Write for these four personas:
+
+| Persona | Mindset | What They Need |
+|---------|---------|----------------|
+| **Curious Explorer** | "I heard you can make money selling printables — is this real?" | Proof it's achievable, clear next steps, low barrier to entry |
+| **Overwhelmed Beginner** | "There are so many tools and platforms — where do I even start?" | Simplicity, hand-holding, confidence that this tool removes the hard parts |
+| **Active Seller** | "I already sell on Etsy/KDP but need to scale faster and stand out" | Speed, variety, competitive advantage, professional quality |
+| **Teacher-Turned-Entrepreneur** | "I make great classroom resources — can I turn this into a real business?" | Validation of their skills, path from classroom to marketplace, commercial licensing |
+
+**Key insight:** These visitors are excited but uncertain. They need **confidence**, not hype. Show them the path clearly and honestly.
+
+#### 1.10.2 Voice Principles
+
+| Principle | DO | DON'T | Example |
+|-----------|-----|--------|---------|
+| **Energetic** | Use active verbs, short sentences, forward momentum | Sound robotic, clinical, or like a product manual | DO: "Create a complete word search in under 60 seconds" / DON'T: "The word search generator allows users to create word searches" |
+| **Empowering** | Make the reader the hero — they create, they earn, they build | Position the tool as the hero or talk down to the reader | DO: "You choose the theme, the words, the layout — your brand, your way" / DON'T: "Our powerful tool does everything for you" |
+| **Specific** | Name exact features, exact platforms, exact formats | Use vague marketing language or empty superlatives | DO: "Export at 300 DPI — the minimum for Amazon KDP print quality" / DON'T: "High-quality professional output" |
+| **Honest** | State real capabilities, real limitations, real use cases | Oversell, imply guaranteed income, or hide restrictions | DO: "Commercial Pack includes 10 image themes — enough to launch your first 50+ products" / DON'T: "Unlimited creative possibilities" |
+| **Action-Oriented** | End sections with a clear next step | Leave the reader wondering "so what?" or "what now?" | DO: "Try the free version below — no signup needed" / DON'T: "The tool is available for use" |
+| **Benefit-First** | Lead with what the reader gains, then explain the feature | Lead with technical details or feature names | DO: "Stand out on Etsy with 104 hand-drawn image themes that no competitor can replicate" / DON'T: "The image library contains 104 themes" |
+
+#### 1.10.3 Opening Hook Rules
+
+**Every content section** (hero, description, how-it-works intro, feature intro, FAQ intro, guide intro) must open with one of these patterns. NEVER open with a feature statement.
+
+| Pattern | Structure | Example |
+|---------|-----------|---------|
+| **Benefit Lead** | "[Outcome] + [how]" | "Turn any vocabulary list into a professional word search puzzle — complete with answer key — in under a minute." |
+| **Transformation** | "[Before state] → [After state]" | "Stop spending hours on generic worksheet templates. Start creating unique, branded printables that sell." |
+| **Question Hook** | "[Pain question] + [Implied answer]" | "What if you could add 20 new products to your Etsy shop this weekend — without any design skills?" |
+| **Scenario** | "[Imagine/Picture this] + [desirable situation]" | "Picture this: a customer searches Etsy for 'farm animals word search' and your product is the only one with hand-drawn illustrations." |
+
+**Anti-pattern (BANNED):**
+- NEVER open with "This tool..." or "[Product Name] is a..."
+- NEVER open with "Welcome to..." or "In this section..."
+- NEVER open with a dictionary definition or generic industry statement
+- NEVER open with "Are you looking for...?" (overused, sounds like spam)
+
+#### 1.10.4 Pain-to-Solution Framework
+
+Every page must follow this 3-step emotional arc at least once (typically in the hero/description section):
+
+1. **Acknowledge the struggle** — Name the specific pain the reader faces (time, complexity, cost, quality)
+2. **Show the easy path** — Position the tool as the bridge, not the destination
+3. **Demonstrate the result** — Paint a concrete picture of the outcome
+
+**Per-page-type mapping:**
+
+| Page Type | Pain Point | Solution Bridge | Result Emphasis |
+|-----------|-----------|-----------------|-----------------|
+| 1: App Detail | "Creating professional printables requires expensive software and design skills" | "This generator handles the design — you handle the creativity" | Specific output: "300 DPI PDFs ready for print-on-demand" |
+| 2: Free Tool | "You can't test a tool properly from screenshots alone" | "Try it right now, free, no signup — see the quality yourself" | Conversion: "When you're ready to sell, the Commercial Pack removes the watermark" |
+| 3: Bundle | "Buying tools one-by-one adds up fast and still leaves gaps in your catalog" | "One purchase, six generators, thousands of product combinations" | Scale: "Create an entire printable category from a single bundle" |
+| 4: Cornerstone Guide | "The printable business space looks crowded and confusing from the outside" | "Here's the proven path — platform by platform, step by step" | Authority: "This is how working sellers actually operate" |
+| 5: Create X Guide | "I want to sell [product type] but don't know where to start" | "Here's exactly how to create, format, and list [product type]" | Actionable: "Follow these steps and list your first product today" |
+| 6: Niche/Theme Ideas | "I don't know what niche to target or what will actually sell" | "Here are proven niches with real demand and low competition" | Opportunity: "These niches have buyer demand — here's proof and how to enter" |
+
+#### 1.10.5 Platform-Specific Excitement Rules
+
+Readers get excited when they see their exact platform named with realistic scenarios. Follow these rules:
+
+1. **Name real platforms explicitly:** Etsy, Amazon KDP, Teachers Pay Teachers (TPT), Gumroad, Creative Fabrica, Creative Market, Shopify. Never use vague "online marketplaces."
+
+2. **Use locale-appropriate platform domains:** Reference etsy.com for EN, etsy.de for DE, amazon.fr for FR, etc. See Section 11.8 for the full locale-marketplace reference table.
+
+3. **Describe realistic scenarios, not income guarantees:**
+   - DO: "A single theme like 'farm animals' can generate 10+ unique product listings — each targeting different age groups, puzzle sizes, and difficulty levels"
+   - DON'T: "Make $500/month from farm animal worksheets"
+
+4. **Mention factual platform advantages:**
+   - Etsy: "Etsy's search algorithm favors shops with more listings — every new printable increases your visibility"
+   - KDP: "KDP handles printing, shipping, and customer service — you focus on creating"
+   - TPT: "TPT's built-in teacher audience means less marketing — upload and let the platform drive traffic"
+
+5. **Use locale-appropriate school terminology:**
+   - EN: "kindergarten, first grade, elementary school"
+   - DE: "Kindergarten, erste Klasse, Grundschule"
+   - FR: "maternelle, CP, ecole primaire"
+   - (See Section 11.8 for all locales)
+
+6. **Language-as-multiplier framing** — ONLY for language-sensitive apps (see Section 2.3):
+   - DO: "With 11 languages, every puzzle template becomes 11 unique products — one for each market"
+   - DON'T use this framing for visual-only apps where language only changes the UI
+
+7. **Banned phrases** (violate Section 1.2 or sound like empty hype):
+   - "passive income" (implies no effort)
+   - "money machine" / "cash cow"
+   - "guaranteed sales" / "guaranteed income"
+   - "everyone is buying" / "trending now" (unverifiable)
+   - "limited time" / "act now" / "don't miss out" (fake urgency)
+   - "best-selling" (unverifiable for our products)
+   - "revolutionary" / "game-changing" / "industry-leading"
+
+#### 1.10.6 CTA (Call-to-Action) Rules
+
+Every CTA must follow these principles:
+
+| Rule | Requirement | Example |
+|------|-------------|---------|
+| **Action verb first** | Start with a verb that describes what happens next | "Try the free version" not "Free version available" |
+| **Mention value** | Include what the reader gets | "Download your first worksheet" not "Click here" |
+| **Context-specific** | Match the CTA to the page type and section | "Create your first word search now" not generic "Get started" |
+| **Match page type** | Different types have different primary CTAs | Type 1: "Try Free / Buy Now" · Type 2: "Use Free Tool Below" · Type 3: "Get the Bundle" · Type 4-6: "Try [App] Free" |
+
+**Placement rules:**
+- **Minimum 3 CTAs per page:** Hero section + after How It Works + final section
+- **Maximum spacing:** Never more than ~800 words between CTAs on any page
+- **CTA variety:** Don't repeat the exact same CTA text — vary the action verb and context
+
+**Banned CTA patterns:**
+- No fake urgency: "Buy now before price increases!" (unless a real, dated price change exists)
+- No fake scarcity: "Only X left!" (digital products have unlimited inventory)
+- No manipulative language: "You'd be crazy not to..." / "Don't make this mistake..."
+- No "Click here" — always describe the action/result
+
+#### 1.10.7 Anti-Patterns (Content That Kills Conversions)
+
+These 8 patterns make pages feel "soulless and dull." Each must be actively avoided:
+
+| # | Anti-Pattern | What It Sounds Like | Fix |
+|---|-------------|---------------------|-----|
+| 1 | **Generic opener** | "Welcome to our word search generator page" | Lead with a benefit or transformation (see 1.10.3) |
+| 2 | **Feature without benefit** | "Supports 11 languages" | "Sell in 11 markets — each language opens a new customer base" |
+| 3 | **Passive voice** | "Worksheets can be generated with this tool" | "Generate professional worksheets in seconds" |
+| 4 | **No audience connection** | Describes the tool without mentioning who uses it or why | Name the persona: "Whether you're an Etsy seller scaling your shop or a teacher creating custom resources..." |
+| 5 | **Wall of text** | 500+ words with no subheadings, bullets, or visual breaks | Break into scannable sections: heading + 2-3 sentence intro + bullet list or table |
+| 6 | **Identical siblings** | Two app pages that read nearly the same with swapped product names | Each app has unique features (verify via REFERENCE APPS/) — highlight what makes THIS app different |
+| 7 | **Missing business angle** | Describes what the tool does but never why it matters for selling | Always connect to the business: "...which means more unique listings in your shop" |
+| 8 | **Template-sounding FAQ** | "Q: What is [Product]? A: [Product] is a tool that..." | Write FAQs that address real buyer concerns: "Q: Can I use these commercially on Etsy? A: Yes — both tiers include a commercial license..." |
+
+#### 1.10.8 Per-Page-Type Tone Adaptation
+
+While the voice principles (1.10.2) apply everywhere, each page type emphasizes different emotional notes:
+
+| Page Type | Tone Emphasis | Lead Emotion | Key Phrase Patterns |
+|-----------|--------------|--------------|---------------------|
+| 1: App Detail | Confident, demo-focused | "I can see exactly what I'll get" | "See it in action" · "Here's what you'll create" · "Try it free" |
+| 2: Free Tool | Inviting, low-pressure | "I can try this risk-free right now" | "No signup needed" · "Free, right here" · "When you're ready to sell..." |
+| 3: Bundle | Value-focused, strategic | "This is the smart way to buy" | "Everything you need for [category]" · "One purchase, [N] generators" · "Save [X]% vs. individual" |
+| 4: Cornerstone Guide | Authoritative, mentoring | "I trust this guide — it knows the space" | "Here's how it actually works" · "The path from zero to selling" · "What successful sellers do" |
+| 5: Create X Guide | Practical, step-by-step | "I can follow this and get a result today" | "Step 1..." · "Here's exactly how" · "By the end of this guide..." |
+| 6: Niche/Theme Ideas | Inspiring, opportunity-focused | "I see an opening I can fill" | "Underserved niche" · "Growing demand" · "Here's your angle" · "Low competition" |
+
+### 1.11 Per-Page SEO Perfection Checklist
+
+Every page created under this blueprint MUST pass ALL applicable items before the part is marked complete. This checklist consolidates and extends rules from Sections 1.5 (Performance), 1.7 (SEO Keywords/Linking), and the verification in Section 14.
+
+#### Category A: Technical SEO (7 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| A1 | **Title tag** | Unique, contains primary keyword, <= 60 characters, locale language |
+| A2 | **Meta description** | Unique, contains primary keyword, 150-160 characters, locale language, includes CTA verb |
+| A3 | **Canonical URL** | Self-referencing canonical on every page, fully qualified URL with locale prefix |
+| A4 | **Hreflang tags** | All 11 locales + `x-default` (pointing to EN), bidirectional (every page links to all siblings) |
+| A5 | **Robots directives** | `index, follow` on all public pages; `noindex` only on auth/admin/error pages |
+| A6 | **JSON-LD schema** | Valid schema matching the page type (see schema type table below), language matches locale |
+| A7 | **OpenGraph tags** | `og:title`, `og:description`, `og:url`, `og:type`, `og:image`, `og:locale` — all in page locale |
+
+#### Category B: On-Page SEO (6 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| B1 | **Single H1** | Exactly one `<h1>` per page, contains primary keyword, locale language |
+| B2 | **Heading hierarchy** | H1 > H2 > H3 (no skipping levels), all headings in locale language |
+| B3 | **Keyword in first 100 words** | Primary keyword appears in the first 100 words of visible body text |
+| B4 | **Keyword density** | Primary keyword appears at 1-2% density (not stuffed, not absent) |
+| B5 | **Image alt text** | Every `<img>` has descriptive alt text in the page's locale language |
+| B6 | **Internal link anchors** | Anchor text is descriptive and keyword-relevant — never "click here" or "read more" |
+
+#### Category C: Content SEO (8 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| C1 | **Word count** | Rendered page >= 3,000 words (per Section 1.6) |
+| C2 | **Internal link count** | Minimum per page type: Type 1-3: 5 links · Type 4: 8 links · Type 5-6: 6 links |
+| C3 | **Link topology** | Links follow the hub-spoke model in Section 1.7 — no orphan pages, no dead ends |
+| C4 | **Keywords in headings** | Primary keyword in H1, secondary keywords distributed across H2/H3 tags |
+| C5 | **No duplicate primary keyword** | No two pages in the same locale target the identical primary keyword |
+| C6 | **Voice rules compliance** | Content follows Section 1.10 — benefit-first openings, pain-to-solution arc, active voice |
+| C7 | **Free trial messaging** | Free trial mention present per Section 1.12.2 table — correct locations for this page type, no "limited free version" language |
+| C8 | **Refund policy FAQ** | Refund policy Q&A present in FAQ array per Section 1.12.3, positioned among last 3 FAQs, included in FAQPage schema |
+
+#### Category D: Structured Data (4 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| D1 | **FAQ schema** | `FAQPage` schema present on Types 1, 2, 4, 5, 6 — questions/answers match rendered text exactly |
+| D2 | **Breadcrumbs** | `BreadcrumbList` schema present on Types 4, 5, 6 — matches visible breadcrumb trail |
+| D3 | **Rich Results validation** | Schema passes Google Rich Results Test (no errors, no warnings) |
+| D4 | **Schema language** | All text within JSON-LD matches the page locale — no English leaking into non-EN schemas |
+
+**Schema type table:**
+
+| Page Type | Required `@type` | Notes |
+|-----------|-----------------|-------|
+| 1: App Detail | `SoftwareApplication` + `FAQPage` | Use `schema-generator.ts` existing patterns |
+| 2: Free Tool | `WebApplication` + `FAQPage` | `applicationCategory: "EducationalApplication"` |
+| 3: Bundle | `Product` + `Offer` | Price, currency, availability from `warriorplus-products.ts` |
+| 4: Cornerstone Guide | `Article` + `FAQPage` + `BreadcrumbList` | `articleSection` matches category |
+| 5: Create X Guide | `HowTo` + `FAQPage` + `BreadcrumbList` | Steps match rendered how-to sections |
+| 6: Niche/Theme Ideas | `Article` + `FAQPage` + `BreadcrumbList` | `articleSection: "Business Ideas"` |
+
+#### Category E: Performance (5 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| E1 | **YouTube facade** | ALL YouTube embeds use click-to-play facade (Section 1.5) — no raw iframes |
+| E2 | **Image optimization** | All images use Next.js `<Image>` with appropriate `width`, `height`, `loading="lazy"` |
+| E3 | **No blocking scripts** | No `<script>` tags in initial HTML that block rendering (defer/async or dynamic import) |
+| E4 | **No animation libraries** | No framer-motion, GSAP, or similar — use CSS `@keyframes` only (Section 1.5 learning) |
+| E5 | **Font loading** | All fonts loaded via `next/font` — no external font CSS imports |
+
+#### Category F: Mobile & Accessibility (4 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| F1 | **Responsive layout** | Page renders correctly on 320px-1440px viewports, no broken layouts |
+| F2 | **Touch targets** | All interactive elements (buttons, links) are minimum 44x44px on mobile |
+| F3 | **No horizontal scroll** | No content overflows viewport width on any screen size |
+| F4 | **Semantic HTML** | Proper use of `<main>`, `<nav>`, `<article>`, `<section>`, `<aside>`, `<header>`, `<footer>` |
+
+#### Category G: Cross-Locale (3 items)
+
+| # | Check | Requirement |
+|---|-------|-------------|
+| G1 | **No untranslated English** | Zero English strings on non-EN pages — includes product names, tier names, category names (Section 1.9) |
+| G2 | **Localized slug** | URL slug is translated per the slug config file for this page type (Section 10) |
+| G3 | **Locale-appropriate references** | Marketplace domains, school terminology, and example scenarios match the locale (Section 11.8) |
+
+#### Mandatory Items Per Page Type
+
+| Page Type | A (7) | B (6) | C (8) | D (4) | E (5) | F (4) | G (3) | Total |
+|-----------|-------|-------|-------|-------|-------|-------|-------|-------|
+| 1: App Detail | All 7 | All 6 | All 8 | D1, D3, D4 | All 5 | All 4 | All 3 | **36** |
+| 2: Free Tool | All 7 | All 6 | All 8 | D1, D3, D4 | All 5 | All 4 | All 3 | **36** |
+| 3: Bundle | All 7 | All 6 | All 8 | D3, D4 | All 5 | All 4 | All 3 | **35** |
+| 4: Cornerstone | All 7 | All 6 | All 8 | All 4 | All 5 | All 4 | All 3 | **37** |
+| 5: Create X | All 7 | All 6 | All 8 | All 4 | All 5 | All 4 | All 3 | **37** |
+| 6: Niche/Theme | All 7 | All 6 | All 8 | All 4 | All 5 | All 4 | All 3 | **37** |
+
+#### How to Use This Checklist
+
+- **During content creation (Phase 1-6):** Categories A, B, C, D, G are validated per part via the content file and page component
+- **During build verification:** Categories E, F are validated by building and inspecting the rendered page
+- **During deploy verification:** All categories spot-checked on live pages
+- **Translation phases (7-16):** Focus on A1-A2 (translated title/meta), B1-B2 (translated headings), C6 (voice rules), D4 (schema language), G1-G3 (full cross-locale)
+
+#### Content File SEO Integration
+
+Every content file should export an `seoChecklist` object for automated validation:
+
+```typescript
+interface SEOChecklist {
+  primaryKeyword: string;           // The #1 keyword this page targets
+  secondaryKeywords: string[];      // 3-5 additional keywords
+  titleTag: string;                 // Exact title tag (<= 60 chars)
+  metaDescription: string;          // Exact meta description (150-160 chars)
+  targetWordCount: number;          // Minimum word count for this page
+  internalLinkTargets: string[];    // Slugs this page MUST link to
+  faqCount: number;                 // Number of FAQ items (for schema validation)
+  schemaType: string;               // Primary schema type for this page
+}
+```
+
+This interface is informational — the exact implementation may vary based on the content file pattern established in Phase 0.
+
+### 1.12 Free Trial Emphasis & Refund Policy
+
+Every page in the system must communicate the free trial advantage and include a no-refund FAQ. This section defines what to say, where to say it, and how to enforce it. These rules work alongside Section 1.2 (Zero Fabrication) and Section 1.4 (Two-Tier Accuracy) — never overstate what the free version includes.
+
+#### 1.12.1 The Free Trial Fact
+
+All 33 apps work in the browser with ZERO restrictions on features:
+
+- Every setting, every theme (within tier), every language, every export option works
+- The ONLY difference: downloaded PDFs have a watermark
+- No signup required, no credit card, no email, no time limit
+- This applies equally to Commercial Pack and Full Access Pack features being previewed
+- Purchasing removes the watermark — that is the sole change
+
+#### 1.12.2 Mandatory Free Trial Mentions (Per Page Type)
+
+Every page type must mention the free trial in specific locations. Use natural phrasing appropriate to the context — the table below shows WHERE and provides framing guidance:
+
+| Page Type | Where to Mention | How to Frame |
+|-----------|-----------------|--------------|
+| 1: App Detail | Hero section, How It Works, CTA sections, FAQ | "Try it free right now — all features, no signup. Only downloaded files have a watermark." |
+| 2: Free Tool | Hero (primary message), embedded tool intro, FAQ | "Use the full tool below — free, no signup. Love it? Remove the watermark with a one-time purchase." |
+| 3: Bundle | Value proposition, comparison table, FAQ | "Try every app in this bundle free before buying. All features work — watermark is the only difference." |
+| 4: Cornerstone Guide | Tools Recommended section, FAQ | "Every tool mentioned in this guide is free to try — test them all before investing." |
+| 5: Create X Guide | Tool introduction, step-by-step section, FAQ | "Follow along with the free version — it has all the same features. Buy when you're ready to sell." |
+| 6: Niche/Theme Ideas | How to Create section, tool links, FAQ | "Start creating in this niche today — every tool is free to try with full features." |
+
+#### 1.12.3 Mandatory Refund Policy FAQ
+
+EVERY page's FAQ section must include a refund policy Q&A. This is non-negotiable across all 6 page types and all 11 locales.
+
+**Question pattern:** "What is your refund policy?" (localized naturally per locale)
+
+**Answer pattern:** "We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy — test the app thoroughly, create worksheets, check the quality, and only purchase when you're completely satisfied."
+
+**Rules:**
+- This FAQ must appear on ALL 6 page types, ALL 11 locales
+- It must be included in the `FAQPage` JSON-LD schema
+- Position: among the last 3 FAQs (not first — lead with value FAQs)
+- The answer must reference the free trial as justification — never state the policy without the reason
+- Locale versions must use natural phrasing, not literal translations
+
+#### 1.12.4 Free Trial Framing Rules
+
+| Rule | Correct | Incorrect |
+|------|---------|-----------|
+| Use "free to try" or "try free" | "Try it free with all features" | "Start your free trial" (implies time limit) |
+| Always mention no signup | "No signup, no credit card" | Omitting the signup detail |
+| Clarify watermark is the ONLY difference | "The only difference is a watermark" | "Some features require purchase" |
+| Never imply feature limits | "All features included" | "Limited free version" or "Basic free version" |
+| Locale-appropriate phrasing | Natural equivalent in target language | Word-for-word translation of English phrase |
+
 ---
 
 ## 2. BUSINESS & PRODUCT CONTEXT
@@ -455,7 +784,7 @@ Every page in the system MUST prominently feature visual assets. Visuals communi
 | Business Use Cases (5-6 scenarios) | 600 | App x Locale |
 | Who Is This For (4 audience segments) | 300 | Category x Locale |
 | What You Get (tier breakdown) | 250 | Locale (with {name}) |
-| FAQ (5-7 app-specific + 5 generic) | 700 | App x Locale |
+| FAQ (5-7 app-specific + 5 generic + 1 mandatory refund policy Q&A) | 700 | App x Locale |
 | Template UI (headings, CTAs, badges) | 200 | Locale |
 
 ### File Structure
@@ -519,7 +848,7 @@ SEO magnets targeting "free [type] worksheet generator" keywords. Each page embe
 | Business Ideas (5-6 money-making scenarios with this tool) | 600 |
 | Pro Tips (5-7 expert tips for best results) | 400 |
 | Related Tools (4-5 complementary generators) | 200 |
-| FAQ (8-10 tool-specific questions) | 450 |
+| FAQ (8-10 tool-specific questions + 1 mandatory refund policy Q&A) | 450 |
 
 ### All 33 Tool Pages
 
@@ -589,7 +918,7 @@ Dedicated sales pages for 6 category bundles. Each showcases all apps in the cat
 | Business Use Cases (5-6 scenarios using multiple apps together) | 600 |
 | Feature Comparison (Commercial Pack vs Full Access) | 300 |
 | Who Is This For (4 audience segments) | 300 |
-| FAQ (8-10 bundle-specific questions) | 500 |
+| FAQ (8-10 bundle-specific questions + 1 mandatory refund policy Q&A) | 500 |
 | Social Proof / Trust Signals | 150 |
 
 ### All 6 Bundle Pages
@@ -632,7 +961,7 @@ Pillar content pages targeting high-volume "how to start a printable business" k
 | Main Content (8-12 sections with detailed guidance) | 1,800 |
 | Action Steps (numbered checklist) | 300 |
 | Tools Recommended (our apps as solutions) | 300 |
-| FAQ (6-8 questions) | 400 |
+| FAQ (6-8 questions + 1 mandatory refund policy Q&A) | 400 |
 | Next Steps / Related Guides | 200 |
 
 ### All 12 Cornerstone Guides
@@ -682,7 +1011,7 @@ Mid-funnel content targeting "how to create/sell [specific product]" keywords. E
 | Platform-Specific Tips (publishing/listing advice) | 400 |
 | Monetization Strategies (pricing, bundling, marketing) | 400 |
 | Examples & Inspiration | 400 |
-| FAQ (5-7 questions) | 400 |
+| FAQ (5-7 questions + 1 mandatory refund policy Q&A) | 400 |
 | Related Guides + Tool Links | 200 |
 
 ### All 65 Guide Topics
@@ -797,7 +1126,7 @@ Bottom-of-funnel content targeting "[niche] printable business ideas" keywords. 
 | How to Create (step-by-step with our tools) | 500 |
 | Platform Selling Tips (where to sell this niche) | 400 |
 | Pricing & Bundling Ideas | 300 |
-| FAQ (5-7 niche-specific questions) | 400 |
+| FAQ (5-7 niche-specific questions + 1 mandatory refund policy Q&A) | 400 |
 | Related Niches + Tool Links | 250 |
 
 ### All 45 Niche/Theme Idea Pages
@@ -1682,22 +2011,61 @@ With fine-grained infrastructure splitting (each component/file = 1 part) and pe
 
 ## 14. VERIFICATION STRATEGY
 
-### Per-File Checks (automated script)
+Every part must pass the checks below before being marked complete. Section 1.11 (SEO Perfection Checklist) provides the item-level detail — this section defines *when* and *how* those items are verified.
+
+### Per-File Checks (automated script — run after every content file)
+
 1. File exports `content` object matching expected type
 2. All required sections present (description, howItWorks, features, useCases, faq)
-3. Word count >= 2,800 per content file
-4. No untranslated English text in non-English files
+3. Word count >= 2,800 per content file (C1 buffer for rendered page >= 3,000)
+4. No untranslated English text in non-English files (G1)
 5. No duplicate content across files in same category
+6. `seoChecklist.primaryKeyword` is unique — no other file in the same locale targets the same keyword (C5)
+7. `seoChecklist.titleTag` is <= 60 characters and contains primary keyword (A1)
+8. `seoChecklist.metaDescription` is 150-160 characters and contains primary keyword (A2)
+9. `seoChecklist.internalLinkTargets` has minimum link count for this page type (C2)
+10. Primary keyword appears in the first 100 words of description text (B3)
+11. FAQ items count matches `seoChecklist.faqCount` (D1)
+12. Opening sentences follow Section 1.10.3 hook patterns — no banned openers (C6)
+13. Pain-to-solution arc present in description section per Section 1.10.4 (C6)
+14. All product names, tier names, category names use locale helpers not English strings (G1, Section 1.9)
+15. Platform references use locale-appropriate domains per Section 11.8 (G3)
+16. Free trial mention present in content per Section 1.12.2 table for this page type (C7)
+17. Refund policy FAQ present in FAQ array, positioned among last 3 FAQs (C8)
+18. No "limited free version", "basic free version", or "free trial" (implies time limit) language — per Section 1.12.4 framing rules
 
-### Per-Build Checks
+### Per-Build Checks (run after `npm run build`)
+
 1. TypeScript compiles without errors
 2. All routes render (no 500 errors)
-3. Word count on rendered page >= 3,000
+3. Word count on rendered page >= 3,000 (C1)
+4. Exactly one `<h1>` per page, containing primary keyword (B1)
+5. Heading hierarchy H1 > H2 > H3 with no skipped levels (B2)
+6. All `<img>` tags have alt text in the page's locale language (B5)
+7. All YouTube embeds use facade pattern — no raw `<iframe>` in initial HTML (E1)
+8. No framer-motion, GSAP, or animation library imports in the page bundle (E4)
+9. JSON-LD schema is valid JSON and matches the required `@type` for this page type (A6, D3)
+10. All text within JSON-LD matches the page locale — no English in non-EN schemas (D4)
 
-### Per-Deploy Checks
-1. Google Rich Results Test passes for FAQ schema
-2. Sample pages load correctly in all 11 locales
-3. hreflang tags present and bidirectional
+### Per-Deploy Checks (run after deploy.sh on live server)
+
+1. Google Rich Results Test passes for FAQ/HowTo schema — no errors (D3)
+2. Sample pages load correctly in all 11 locales (smoke test)
+3. Hreflang tags present, bidirectional, all 11 locales + x-default (A4)
+4. Canonical URL resolves to self (no redirect chains) (A3)
+5. Google PageSpeed Insights >= 90 on mobile for 2 random pages per page type (E1-E5)
+6. Random spot-check: pick 3 pages, verify all 35-37 SEO checklist items from Section 1.11 pass
+
+### Per-Page SEO Audit (mandatory for every part)
+
+Before any part is marked complete, confirm:
+
+1. **All applicable items from Section 1.11** have been addressed (35-37 items depending on page type)
+2. **Section 1.10 voice rules** are reflected in the content — benefit-first openings, active voice, platform-specific excitement, no anti-patterns from 1.10.7
+3. **Keyword uniqueness** — the primary keyword is not used by any other page in the same locale
+4. **Link topology** — new pages are linked FROM existing pages (no orphans) and link TO related pages per Section 1.7
+
+If any item fails, fix it before marking the part complete. Do not defer SEO fixes to a later phase.
 
 ---
 

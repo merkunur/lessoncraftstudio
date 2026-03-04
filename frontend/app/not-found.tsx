@@ -11,7 +11,6 @@ const translations: Record<string, {
   description: string;
   goToHomepage: string;
   browseAllApps: string;
-  readOurBlog: string;
   needHelp: string;
   contactUs: string;
 }> = {
@@ -20,7 +19,6 @@ const translations: Record<string, {
     description: "Sorry, we couldn't find the page you're looking for.",
     goToHomepage: 'Go to Homepage',
     browseAllApps: 'Browse All Apps',
-    readOurBlog: 'Read Our Blog',
     needHelp: 'Need help?',
     contactUs: 'Contact us',
   },
@@ -29,7 +27,6 @@ const translations: Record<string, {
     description: 'Die gesuchte Seite konnte leider nicht gefunden werden.',
     goToHomepage: 'Zur Startseite',
     browseAllApps: 'Alle Generatoren ansehen',
-    readOurBlog: 'Blog lesen',
     needHelp: 'Brauchen Sie Hilfe?',
     contactUs: 'Kontaktieren Sie uns',
   },
@@ -38,7 +35,6 @@ const translations: Record<string, {
     description: "Desole, la page que vous recherchez est introuvable.",
     goToHomepage: "Aller a l'accueil",
     browseAllApps: 'Parcourir toutes les applis',
-    readOurBlog: 'Lire notre blog',
     needHelp: "Besoin d'aide ?",
     contactUs: 'Contactez-nous',
   },
@@ -47,7 +43,6 @@ const translations: Record<string, {
     description: 'Lo sentimos, no pudimos encontrar la pagina que buscas.',
     goToHomepage: 'Ir a la pagina principal',
     browseAllApps: 'Ver todas las aplicaciones',
-    readOurBlog: 'Leer nuestro blog',
     needHelp: 'Necesitas ayuda?',
     contactUs: 'Contactanos',
   },
@@ -56,7 +51,6 @@ const translations: Record<string, {
     description: 'Desculpe, nao conseguimos encontrar a pagina que procura.',
     goToHomepage: 'Ir para a pagina inicial',
     browseAllApps: 'Ver todas as aplicacoes',
-    readOurBlog: 'Ler o nosso blog',
     needHelp: 'Precisa de ajuda?',
     contactUs: 'Contacte-nos',
   },
@@ -65,7 +59,6 @@ const translations: Record<string, {
     description: 'Ci dispiace, non siamo riusciti a trovare la pagina.',
     goToHomepage: 'Vai alla home page',
     browseAllApps: 'Sfoglia tutte le app',
-    readOurBlog: 'Leggi il nostro blog',
     needHelp: 'Hai bisogno di aiuto?',
     contactUs: 'Contattaci',
   },
@@ -74,7 +67,6 @@ const translations: Record<string, {
     description: 'Sorry, we konden de pagina die je zoekt niet vinden.',
     goToHomepage: 'Ga naar startpagina',
     browseAllApps: 'Bekijk alle apps',
-    readOurBlog: 'Lees onze blog',
     needHelp: 'Hulp nodig?',
     contactUs: 'Neem contact op',
   },
@@ -83,7 +75,6 @@ const translations: Record<string, {
     description: 'Tyvarr kunde vi inte hitta sidan du letar efter.',
     goToHomepage: 'Ga till startsidan',
     browseAllApps: 'Blaeddra bland alla appar',
-    readOurBlog: 'Laes var blogg',
     needHelp: 'Behover du hjaelp?',
     contactUs: 'Kontakta oss',
   },
@@ -92,7 +83,6 @@ const translations: Record<string, {
     description: 'Beklager, vi kunne ikke finde den side, du leder efter.',
     goToHomepage: 'Ga til forsiden',
     browseAllApps: 'Se alle apps',
-    readOurBlog: 'Laes vores blog',
     needHelp: 'Brug for hjaelp?',
     contactUs: 'Kontakt os',
   },
@@ -101,7 +91,6 @@ const translations: Record<string, {
     description: 'Beklager, vi kunne ikke finne siden du leter etter.',
     goToHomepage: 'Ga til forsiden',
     browseAllApps: 'Se alle apper',
-    readOurBlog: 'Les bloggen var',
     needHelp: 'Trenger du hjelp?',
     contactUs: 'Kontakt oss',
   },
@@ -110,7 +99,6 @@ const translations: Record<string, {
     description: 'Valitettavasti emme loytaneet etsimaasi sivua.',
     goToHomepage: 'Siirry etusivulle',
     browseAllApps: 'Selaa kaikkia sovelluksia',
-    readOurBlog: 'Lue blogiamme',
     needHelp: 'Tarvitsetko apua?',
     contactUs: 'Ota yhteytta',
   },
@@ -176,12 +164,6 @@ export default function NotFound() {
             className="block w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
           >
             {t.browseAllApps}
-          </Link>
-          <Link
-            href={`/${locale}/blog`}
-            className="block w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
-          >
-            {t.readOurBlog}
           </Link>
         </div>
         <p className="mt-6 text-sm text-gray-500">

@@ -16,7 +16,6 @@ const notFoundMessages: Record<string, {
   description: string;
   homepage: string;
   apps: string;
-  blog: string;
   help: string;
   contact: string;
 }> = {
@@ -25,7 +24,6 @@ const notFoundMessages: Record<string, {
     description: "Sorry, we couldn't find the page you're looking for. The page may have been moved or no longer exists.",
     homepage: 'Go to Homepage',
     apps: 'Browse All Apps',
-    blog: 'Read Our Blog',
     help: 'Need help?',
     contact: 'Contact us',
   },
@@ -34,7 +32,6 @@ const notFoundMessages: Record<string, {
     description: 'Entschuldigung, wir konnten die gesuchte Seite nicht finden. Die Seite wurde moglicherweise verschoben oder existiert nicht mehr.',
     homepage: 'Zur Startseite',
     apps: 'Alle Apps durchsuchen',
-    blog: 'Unseren Blog lesen',
     help: 'Brauchen Sie Hilfe?',
     contact: 'Kontaktieren Sie uns',
   },
@@ -43,7 +40,6 @@ const notFoundMessages: Record<string, {
     description: "Desolee, nous n'avons pas pu trouver la page que vous cherchez. La page a peut-etre ete deplacee ou n'existe plus.",
     homepage: "Aller a l'accueil",
     apps: 'Parcourir toutes les applications',
-    blog: 'Lire notre blog',
     help: "Besoin d'aide?",
     contact: 'Contactez-nous',
   },
@@ -52,7 +48,6 @@ const notFoundMessages: Record<string, {
     description: 'Lo sentimos, no pudimos encontrar la pagina que buscas. Es posible que la pagina se haya movido o ya no exista.',
     homepage: 'Ir al inicio',
     apps: 'Ver todas las aplicaciones',
-    blog: 'Leer nuestro blog',
     help: 'Necesitas ayuda?',
     contact: 'Contactanos',
   },
@@ -61,7 +56,6 @@ const notFoundMessages: Record<string, {
     description: 'Spiacenti, non siamo riusciti a trovare la pagina che stavi cercando. La pagina potrebbe essere stata spostata o non esiste piu.',
     homepage: 'Vai alla home',
     apps: 'Sfoglia tutte le app',
-    blog: 'Leggi il nostro blog',
     help: 'Hai bisogno di aiuto?',
     contact: 'Contattaci',
   },
@@ -70,7 +64,6 @@ const notFoundMessages: Record<string, {
     description: 'Desculpe, nao conseguimos encontrar a pagina que voce esta procurando. A pagina pode ter sido movida ou nao existe mais.',
     homepage: 'Ir para a pagina inicial',
     apps: 'Ver todos os aplicativos',
-    blog: 'Ler nosso blog',
     help: 'Precisa de ajuda?',
     contact: 'Entre em contato',
   },
@@ -79,7 +72,6 @@ const notFoundMessages: Record<string, {
     description: 'Sorry, we konden de pagina die je zoekt niet vinden. De pagina is mogelijk verplaatst of bestaat niet meer.',
     homepage: 'Naar de startpagina',
     apps: 'Alle apps bekijken',
-    blog: 'Lees onze blog',
     help: 'Hulp nodig?',
     contact: 'Neem contact op',
   },
@@ -88,7 +80,6 @@ const notFoundMessages: Record<string, {
     description: 'Tyvarr kunde vi inte hitta sidan du letar efter. Sidan kan ha flyttats eller existerar inte langre.',
     homepage: 'Ga till startsidan',
     apps: 'Blaeddra bland alla appar',
-    blog: 'Laes var blogg',
     help: 'Behover du hjalp?',
     contact: 'Kontakta oss',
   },
@@ -97,7 +88,6 @@ const notFoundMessages: Record<string, {
     description: 'Beklager, vi kunne ikke finde den side, du leder efter. Siden er muligvis blevet flyttet eller eksisterer ikke laengere.',
     homepage: 'Ga til forsiden',
     apps: 'Gennemse alle apps',
-    blog: 'Laes vores blog',
     help: 'Brug for hjaelp?',
     contact: 'Kontakt os',
   },
@@ -106,7 +96,6 @@ const notFoundMessages: Record<string, {
     description: 'Beklager, vi kunne ikke finne siden du leter etter. Siden kan ha blitt flyttet eller eksisterer ikke lenger.',
     homepage: 'Ga til hjemmesiden',
     apps: 'Bla gjennom alle apper',
-    blog: 'Les bloggen var',
     help: 'Trenger du hjelp?',
     contact: 'Kontakt oss',
   },
@@ -115,7 +104,6 @@ const notFoundMessages: Record<string, {
     description: 'Valitettavasti emme loytaneet etsimaaasi sivua. Sivu on ehka siirretty tai sita ei ole enaa olemassa.',
     homepage: 'Siirry etusivulle',
     apps: 'Selaa kaikkia sovelluksia',
-    blog: 'Lue blogiamme',
     help: 'Tarvitsetko apua?',
     contact: 'Ota yhteytta',
   },
@@ -168,12 +156,6 @@ export default function LocaleNotFound() {
             {messages.apps}
           </Link>
 
-          <Link
-            href={`/${locale}/blog`}
-            className="block w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
-          >
-            {messages.blog}
-          </Link>
         </div>
 
         <p className="mt-6 text-sm text-gray-500">

@@ -135,8 +135,11 @@ function return410(): NextResponse {
 function isRemovedRoute(pathname: string): boolean {
   // Non-locale-prefixed removed routes
   if (pathname === '/blog' || pathname.startsWith('/blog/')) return true;
+  if (pathname === '/worksheets' || pathname.startsWith('/worksheets/')) return true;
   if (pathname === '/pricing') return true;
   if (pathname.startsWith('/buy')) return true;
+  if (pathname.startsWith('/apps/category/') || pathname === '/apps/category') return true;
+  if (pathname.startsWith('/apps/grades/') || pathname === '/apps/grades') return true;
   if (pathname === '/feed.xml') return true;
   if (pathname === '/sitemap-news.xml') return true;
   if (pathname === '/sitemap-images.xml') return true;

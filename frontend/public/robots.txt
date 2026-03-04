@@ -8,10 +8,15 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+# Block locale-prefixed private pages (e.g. /en/auth/, /de/dashboard/)
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 
 # Allow image crawlers explicit access to worksheet samples
 User-agent: Googlebot-Image
@@ -29,10 +34,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 
 User-agent: ChatGPT-User
 Allow: /
@@ -41,10 +50,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 
 User-agent: CCBot
 Allow: /
@@ -53,10 +66,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 
 User-agent: Google-Extended
 Allow: /
@@ -65,10 +82,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 
 # Bingbot rate limiting
 User-agent: Bingbot
@@ -78,10 +99,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 Crawl-delay: 1
 
 # Yandex rate limiting (deprecated per Yandex since 2018, but harmless to include)
@@ -92,10 +117,14 @@ Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /api/
 Disallow: /auth/
+Disallow: /member/
 Allow: /_next/static/
 Disallow: /_next/
 Disallow: /testing/
 Disallow: /uploads/
+Disallow: /*/auth/
+Disallow: /*/dashboard/
+Disallow: /*/admin/
 Crawl-delay: 2
 
 # Sitemaps

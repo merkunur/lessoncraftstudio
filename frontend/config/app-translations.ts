@@ -11,6 +11,7 @@
 import type { AppId, CategoryId } from './warriorplus-products';
 
 type Locale = 'en' | 'de' | 'fr' | 'es' | 'it' | 'pt' | 'nl' | 'da' | 'sv' | 'no' | 'fi';
+export type TierId = 'commercial' | 'full-access';
 
 // ============================================================
 // APP NAME TRANSLATIONS (33 apps x 11 locales)
@@ -230,4 +231,25 @@ export function getLocalizedCategoryName(categoryId: string, locale: string): st
 
 export function getLocalizedSuffix(locale: string): string {
   return WORKSHEET_GENERATOR_SUFFIX[locale as Locale] || WORKSHEET_GENERATOR_SUFFIX.en;
+}
+
+// ============================================================
+// TIER NAME TRANSLATIONS (2 tiers x 11 locales)
+// ============================================================
+
+export const TIER_NAME_TRANSLATIONS: Record<TierId, Record<Locale, string>> = {
+  commercial: {
+    en: 'Commercial Pack', de: 'Kommerzielles Paket', fr: 'Pack Commercial', es: 'Paquete Comercial', it: 'Pacchetto Commerciale',
+    pt: 'Pacote Comercial', nl: 'Commercieel Pakket', da: 'Kommerciel Pakke', sv: 'Kommersiellt Paket', no: 'Kommersiell Pakke', fi: 'Kaupallinen Paketti',
+  },
+  'full-access': {
+    en: 'Full Access Pack', de: 'Vollzugriff-Paket', fr: 'Pack Acc\u00e8s Complet', es: 'Paquete Acceso Completo', it: 'Pacchetto Accesso Completo',
+    pt: 'Pacote Acesso Completo', nl: 'Volledig Toegang Pakket', da: 'Fuld Adgang Pakke', sv: 'Fullst\u00e4ndigt Paket', no: 'Full Tilgang Pakke', fi: 'T\u00e4ysi P\u00e4\u00e4sy -paketti',
+  },
+};
+
+export function getLocalizedTierName(tierId: string, locale: string): string {
+  const translations = TIER_NAME_TRANSLATIONS[tierId as TierId];
+  if (!translations) return tierId;
+  return translations[locale as Locale] || translations.en;
 }

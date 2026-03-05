@@ -68,20 +68,20 @@ export default function ToolsListingPage({
   const locale = params.locale as SupportedLocale;
 
   // Group tools by category
-  const toolsByCategory: Record<string, Array<{ appId: string; name: string; slug: string }>> = {};
+  const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string }>> = {};
 
   for (const tool of toolPageSlugs) {
-    const wpId = toolToWpApp[tool.appId] || tool.appId;
+    const wpId = toolToWpApp[tool.toolId] || tool.toolId;
     const appData = ALL_APPS[wpId as AppId];
     if (!appData) continue;
 
     const category = appData.category;
     if (!toolsByCategory[category]) toolsByCategory[category] = [];
 
-    const slug = getToolSlugForLocale(tool.appId, locale) || tool.slugs.en;
+    const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
     const name = getLocalizedAppName(wpId, locale);
 
-    toolsByCategory[category].push({ appId: tool.appId, name, slug });
+    toolsByCategory[category].push({ toolId: tool.toolId, name, slug });
   }
 
   return (
@@ -109,7 +109,7 @@ export default function ToolsListingPage({
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   {tools.map(tool => (
                     <Link
-                      key={tool.appId}
+                      key={tool.toolId}
                       href={`/${locale}/tools/${tool.slug}`}
                       className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
                     >

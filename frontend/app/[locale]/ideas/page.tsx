@@ -4,6 +4,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { ideaPageSlugs, getIdeaSlugForLocale } from '@/config/idea-page-slugs';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import type { SupportedLocale } from '@/config/product-page-slugs';
+import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -11,7 +12,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const ideaSubcategories = [
   {
     id: 'age',
-    name: 'By Age Group',
+    labelKey: 'byAgeGroup',
     description: 'Printable niches organized by target age group',
     ideaIds: new Set([
       'toddler-printable-ideas', 'preschool-printable-ideas', 'kindergarten-printable-ideas',
@@ -21,7 +22,7 @@ const ideaSubcategories = [
   },
   {
     id: 'subject',
-    name: 'By Subject',
+    labelKey: 'bySubject',
     description: 'Printable niches organized by educational subject',
     ideaIds: new Set([
       'math-printable-ideas', 'reading-printable-ideas', 'science-printable-ideas',
@@ -31,7 +32,7 @@ const ideaSubcategories = [
   },
   {
     id: 'season',
-    name: 'By Season & Holiday',
+    labelKey: 'bySeasonHoliday',
     description: 'Seasonal and holiday-themed printable niches',
     ideaIds: new Set([
       'back-to-school-printable-ideas', 'halloween-printable-ideas', 'christmas-printable-ideas',
@@ -41,7 +42,7 @@ const ideaSubcategories = [
   },
   {
     id: 'theme',
-    name: 'By Theme',
+    labelKey: 'byTheme',
     description: 'Popular themes for printable products',
     ideaIds: new Set([
       'animal-printable-ideas', 'dinosaur-printable-ideas', 'space-printable-ideas',
@@ -51,7 +52,7 @@ const ideaSubcategories = [
   },
   {
     id: 'format',
-    name: 'By Product Format',
+    labelKey: 'byProductFormat',
     description: 'Different printable product formats and types',
     ideaIds: new Set([
       'worksheet-bundle-ideas', 'activity-book-ideas', 'flashcard-ideas',
@@ -128,7 +129,7 @@ export default function IdeasListingPage({
 
             return (
               <div key={subcat.id} className="mb-12">
-                <h2 className="text-xl font-bold text-gray-900 mb-2">{subcat.name}</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">{getSectionLabel(subcat.labelKey, locale)}</h2>
                 <p className="text-gray-600 text-sm mb-4">{subcat.description}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                   {ideas.map(idea => {

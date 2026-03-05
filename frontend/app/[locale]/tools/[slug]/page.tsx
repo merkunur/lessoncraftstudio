@@ -13,6 +13,7 @@ import { ogLocaleMap } from '@/lib/schema-generator';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
+import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -53,13 +54,13 @@ export async function generateMetadata({
     const toolConfig = getToolConfigBySlug(slug);
     if (!toolConfig) return {};
 
-    const wpAppId = getWpAppId(toolConfig.appId);
+    const wpAppId = getWpAppId(toolConfig.toolId);
     if (!wpAppId) return {};
 
-    const content = await getToolContent(toolConfig.appId, locale);
+    const content = await getToolContent(toolConfig.toolId, locale);
     const localizedName = getLocalizedAppName(wpAppId, locale);
-    const alternateUrls = getToolAlternateUrls(toolConfig.appId, baseUrl);
-    const localeSlug = getToolSlugForLocale(toolConfig.appId, locale);
+    const alternateUrls = getToolAlternateUrls(toolConfig.toolId, baseUrl);
+    const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
 
     const title = content?.seo?.titleTag || `Free ${localizedName} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || `Try ${localizedName} free online. No signup required.`;
@@ -97,15 +98,15 @@ export default async function ToolPage({
   const toolConfig = getToolConfigBySlug(slug);
   if (!toolConfig) notFound();
 
-  const wpAppId = getWpAppId(toolConfig.appId);
+  const wpAppId = getWpAppId(toolConfig.toolId);
   if (!wpAppId) notFound();
 
   const appData = ALL_APPS[wpAppId];
   if (!appData) notFound();
 
-  const content = await getToolContent(toolConfig.appId, locale);
+  const content = await getToolContent(toolConfig.toolId, locale);
   const localizedName = getLocalizedAppName(wpAppId, locale);
-  const localeSlug = getToolSlugForLocale(toolConfig.appId, locale);
+  const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
 
   // App launch URL
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;
@@ -158,7 +159,7 @@ export default async function ToolPage({
         {content.whatYouCanCreate && content.whatYouCanCreate.length > 0 && (
           <section className="py-12 md:py-16 bg-white">
             <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">What You Can Create</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('whatYouCanCreate', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {content.whatYouCanCreate.map((example, i) => (
                   <div key={i} className="p-6 bg-gray-50 rounded-lg">
@@ -175,7 +176,7 @@ export default async function ToolPage({
         {content.businessIdeas && content.businessIdeas.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Business Ideas</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('businessIdeas', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {content.businessIdeas.map((idea, i) => (
                   <div key={i} className="p-6 bg-white border border-gray-200 rounded-lg">
@@ -197,7 +198,7 @@ export default async function ToolPage({
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-white">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('faq', locale)}</h2>
               <div className="space-y-4">
                 {content.faq.map((faq, i) => (
                   <details key={i} className="group border border-gray-200 rounded-lg">
@@ -219,7 +220,7 @@ export default async function ToolPage({
         {content.internalLinks && content.internalLinks.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Related</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('related', locale)}</h2>
               <div className="flex flex-wrap gap-3">
                 {content.internalLinks.map((link, i) => (
                   <Link

@@ -62,7 +62,7 @@ for (const tool of toolPageSlugs) {
   for (const [locale, slug] of Object.entries(tool.slugs)) {
     if (slug) localeToSlug[locale] = slug;
   }
-  legacyToolIdToLocalizedSlugs.set(tool.appId, localeToSlug);
+  legacyToolIdToLocalizedSlugs.set(tool.toolId, localeToSlug);
 }
 
 const englishSlugToToolSlugs = new Map<string, Record<string, string>>();
@@ -113,7 +113,7 @@ for (const start of startPageSlugs) {
   for (const [locale, slug] of Object.entries(start.slugs)) {
     if (slug) localeToSlug[locale] = slug;
   }
-  legacyStartIdToLocalizedSlugs.set(start.guideId, localeToSlug);
+  legacyStartIdToLocalizedSlugs.set(start.startId, localeToSlug);
   if (start.slugs.en) englishSlugToStartSlugs.set(start.slugs.en, localeToSlug);
   for (const slug of Object.values(start.slugs)) {
     if (slug) anySlugToStartSlugs.set(slug, localeToSlug);

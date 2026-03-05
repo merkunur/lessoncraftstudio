@@ -1,22 +1,9 @@
-/**
- * "Create X" Guide Content Loader
- *
- * Dynamically loads content for mid-funnel guide pages.
- * Returns null if content file doesn't exist (graceful fallback).
- */
+export type { GuideContent } from './types';
 
-import type { SupportedLocale } from '../product-page-slugs';
-import type { CreateXContent } from './types';
-
-export type { CreateXContent } from './types';
-
-export async function getGuideContent(
-  guideId: string,
-  locale: SupportedLocale
-): Promise<CreateXContent | null> {
+export async function getGuideContent(guideId: string, locale: string) {
   try {
     const mod = await import(`./${locale}/${guideId}`);
-    return mod.content || null;
+    return (mod.default ?? null) as import('./types').GuideContent | null;
   } catch {
     return null;
   }

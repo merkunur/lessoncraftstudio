@@ -10,6 +10,7 @@ import {
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { getGuideContent } from '@/config/guide-content';
+import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -117,7 +118,7 @@ export default async function GuidePage({
         {content.platformTips && content.platformTips.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Platform Tips</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('platformTips', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.platformTips.map((tip, i) => (
                   <div key={i} className="p-4 bg-white rounded-lg border border-gray-200">
@@ -135,7 +136,7 @@ export default async function GuidePage({
         {content.monetization && content.monetization.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Monetization Strategies</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('monetizationStrategies', locale)}</h2>
               <div className="space-y-4">
                 {content.monetization.map((strategy, i) => (
                   <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
@@ -152,7 +153,7 @@ export default async function GuidePage({
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('faq', locale)}</h2>
               <div className="space-y-4">
                 {content.faq.map((faq, i) => (
                   <details key={i} className="group border border-gray-200 rounded-lg bg-white">
@@ -174,7 +175,7 @@ export default async function GuidePage({
         {content.internalLinks && content.internalLinks.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Related</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('related', locale)}</h2>
               <div className="flex flex-wrap gap-3">
                 {content.internalLinks.map((link, i) => (
                   <Link

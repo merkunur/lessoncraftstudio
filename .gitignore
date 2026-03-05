@@ -97,6 +97,7 @@ frontend/public/content-managers/*.html
 # They are uploaded directly to the server via pscp
 frontend/public/samples/
 samples/
+scripts/sample-inventory.json
 
 # All local working copies and variations (NOT tracked by git)
 *-MODIFIED.html
@@ -132,6 +133,10 @@ backups/
 C:temp*
 C:Users*
 image library/
+
+# Stripe product creation (contains internal IDs, one-time use)
+scripts/stripe-products-map.json
+scripts/create-stripe-products.js
 
 # ============================================
 # ASSET DIRECTORIES (local only, not in git)

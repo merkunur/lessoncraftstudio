@@ -86,13 +86,13 @@ export default function StartListingPage({
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {startPageSlugs.map(guide => {
-              const info = guideInfo[guide.guideId];
+              const info = guideInfo[guide.startId];
               if (!info) return null;
-              const slug = getStartSlugForLocale(guide.guideId, locale) || guide.slugs.en;
+              const slug = getStartSlugForLocale(guide.startId, locale) || guide.slugs.en;
 
               return (
                 <Link
-                  key={guide.guideId}
+                  key={guide.startId}
                   href={`/${locale}/start/${slug}`}
                   className="p-5 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                 >

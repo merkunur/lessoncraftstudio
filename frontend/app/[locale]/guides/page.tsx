@@ -4,6 +4,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { guidePageSlugs, getGuideSlugForLocale } from '@/config/guide-page-slugs';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import type { SupportedLocale } from '@/config/product-page-slugs';
+import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -11,7 +12,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const guideSubcategories = [
   {
     id: 'platform',
-    name: 'Platform Guides',
+    labelKey: 'platformGuides',
     description: 'How to create and sell on specific platforms',
     guideIds: new Set([
       'create-etsy-worksheets', 'create-kdp-activity-books', 'create-tpt-resources',
@@ -25,7 +26,7 @@ const guideSubcategories = [
   },
   {
     id: 'product',
-    name: 'Product Creation Guides',
+    labelKey: 'productCreationGuides',
     description: 'How to create specific types of printable products',
     guideIds: new Set([
       'create-word-search-books', 'create-math-workbooks', 'create-coloring-books',
@@ -41,7 +42,7 @@ const guideSubcategories = [
   },
   {
     id: 'business',
-    name: 'Business Strategy Guides',
+    labelKey: 'businessStrategyGuides',
     description: 'Growing and scaling your printable business',
     guideIds: new Set([
       'printable-seo-strategy', 'printable-keyword-research', 'printable-listing-optimization',
@@ -122,7 +123,7 @@ export default function GuidesListingPage({
 
             return (
               <div key={subcat.id} className="mb-12">
-                <h2 className="text-xl font-bold text-gray-900 mb-2">{subcat.name}</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">{getSectionLabel(subcat.labelKey, locale)}</h2>
                 <p className="text-gray-600 text-sm mb-4">{subcat.description}</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                   {guides.map(guide => {

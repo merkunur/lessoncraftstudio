@@ -1,22 +1,9 @@
-/**
- * Free Tool Content Loader
- *
- * Dynamically loads content for free tool landing pages.
- * Returns null if content file doesn't exist (graceful fallback).
- */
+export type { ToolContent } from './types';
 
-import type { SupportedLocale } from '../product-page-slugs';
-import type { FreeToolContent } from './types';
-
-export type { FreeToolContent } from './types';
-
-export async function getToolContent(
-  toolSlug: string,
-  locale: SupportedLocale
-): Promise<FreeToolContent | null> {
+export async function getToolContent(toolId: string, locale: string) {
   try {
-    const mod = await import(`./${locale}/${toolSlug}`);
-    return mod.content || null;
+    const mod = await import(`./${locale}/${toolId}`);
+    return (mod.default ?? null) as import('./types').ToolContent | null;
   } catch {
     return null;
   }

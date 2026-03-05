@@ -10,6 +10,7 @@ import {
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
+import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -31,11 +32,11 @@ export async function generateMetadata({
     const config = getStartConfigBySlug(slug);
     if (!config) return {};
 
-    const content = await getStartContent(config.guideId, locale);
-    const alternateUrls = getStartAlternateUrls(config.guideId, baseUrl);
-    const localeSlug = getStartSlugForLocale(config.guideId, locale);
+    const content = await getStartContent(config.startId, locale);
+    const alternateUrls = getStartAlternateUrls(config.startId, baseUrl);
+    const localeSlug = getStartSlugForLocale(config.startId, locale);
 
-    const title = content?.seo?.titleTag || `${config.guideId} | LessonCraftStudio`;
+    const title = content?.seo?.titleTag || `${config.startId} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || '';
 
     return {
@@ -71,7 +72,7 @@ export default async function CornerstonePage({
   const config = getStartConfigBySlug(slug);
   if (!config) notFound();
 
-  const content = await getStartContent(config.guideId, locale);
+  const content = await getStartContent(config.startId, locale);
 
   if (content) {
     return (
@@ -111,7 +112,7 @@ export default async function CornerstonePage({
         {content.actionSteps && content.actionSteps.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Action Steps</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('actionSteps', locale)}</h2>
               <div className="space-y-4">
                 {content.actionSteps.map((step, i) => (
                   <div key={i} className="flex gap-4 p-4 bg-white rounded-lg border border-gray-200">
@@ -133,7 +134,7 @@ export default async function CornerstonePage({
         {content.toolsRecommended && content.toolsRecommended.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Recommended Tools</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('recommendedTools', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.toolsRecommended.map((tool, i) => (
                   <Link
@@ -154,7 +155,7 @@ export default async function CornerstonePage({
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('faq', locale)}</h2>
               <div className="space-y-4">
                 {content.faq.map((faq, i) => (
                   <details key={i} className="group border border-gray-200 rounded-lg bg-white">
@@ -176,7 +177,7 @@ export default async function CornerstonePage({
         {content.internalLinks && content.internalLinks.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Guides</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('relatedGuides', locale)}</h2>
               <div className="flex flex-wrap gap-3">
                 {content.internalLinks.map((link, i) => (
                   <Link

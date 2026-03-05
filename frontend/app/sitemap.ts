@@ -121,7 +121,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   if (id === 3) {
     const routes: MetadataRoute.Sitemap = [];
     for (const tool of toolPageSlugs) {
-      const toolAlternates = getToolAlternateUrls(tool.appId, baseUrl);
+      const toolAlternates = getToolAlternateUrls(tool.toolId, baseUrl);
       for (const [locale, slug] of Object.entries(tool.slugs)) {
         if (slug) {
           routes.push({
@@ -161,7 +161,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   if (id === 5) {
     const routes: MetadataRoute.Sitemap = [];
     for (const start of startPageSlugs) {
-      const startAlternates = getStartAlternateUrls(start.guideId, baseUrl);
+      const startAlternates = getStartAlternateUrls(start.startId, baseUrl);
       for (const [locale, slug] of Object.entries(start.slugs)) {
         if (slug) {
           routes.push({

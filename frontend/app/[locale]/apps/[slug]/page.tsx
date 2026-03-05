@@ -13,6 +13,10 @@ import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/
 import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
 import TryFreeButton from './TryFreeButton';
+import { getAppContent, getCategoryAudience } from '@/config/app-content';
+import type { AppContent } from '@/config/app-content';
+import VideoFacade from './VideoFacade';
+import { getSectionLabel } from '@/config/section-labels';
 
 // ── Slug-appId to WP-appId mapping ──
 // product-page-slugs uses different IDs than warriorplus-products for some apps
@@ -561,18 +565,22 @@ export async function generateMetadata({
 
     const localizedName = getLocalizedAppName(wpAppId, locale);
     const localizedSuffix = getLocalizedSuffix(locale);
-    const title = `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
+
+    // Use enriched SEO if content file exists
+    const content = await getAppContent(wpAppId, locale);
+    const title = content?.seo?.titleTag || `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
+    const description = content?.seo?.metaDescription || desc;
 
     return {
       title,
-      description: desc,
+      description,
       alternates: {
         canonical: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
         languages: alternateUrls,
       },
       openGraph: {
         title,
-        description: desc,
+        description,
         type: 'website',
         url: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
@@ -608,6 +616,10 @@ export default async function AppDetailPage({
   const localizedName = getLocalizedAppName(wpAppId, locale);
   const localizedSuffix = getLocalizedSuffix(locale);
   const localizedCategoryName = getLocalizedCategoryName(category, locale);
+
+  // Fetch enriched content (null if no content file exists)
+  const content = await getAppContent(wpAppId, locale);
+  const audience = getCategoryAudience(category, locale);
 
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
@@ -653,6 +665,284 @@ export default async function AppDetailPage({
     },
   };
 
+  // FAQPage JSON-LD (only when enriched content exists)
+  const faqJsonLd = content?.faq?.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: content.faq.map(f => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: f.answer,
+      },
+    })),
+  } : null;
+
+  // ── Enriched layout (when content file exists) ──
+  if (content) {
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {faqJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+        )}
+
+        <div className="min-h-screen bg-gray-50">
+          {/* Hero Section */}
+          <section className="bg-white border-b">
+            <div className="container mx-auto px-4 py-12 md:py-16">
+              <div className="max-w-4xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                  <div>
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium mb-4" style={{ backgroundColor: `${categoryData.color}15`, color: categoryData.color }}>
+                      <CategoryIcon category={category} />
+                      {localizedCategoryName}
+                    </div>
+                    <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                      {content.hero.title}
+                    </h1>
+                    <p className="text-lg font-medium text-indigo-600 mb-4">{content.hero.tagline}</p>
+                    <p className="text-gray-600 mb-6">{content.hero.description}</p>
+                    <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} />
+                    <p className="mt-3 text-sm text-gray-500">{ui.tryFreeDesc}</p>
+                    <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">
+                      <span className="flex items-center gap-1.5">
+                        <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                        {ui.noSignup}
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                        {ui.languages}
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                        {ui.pdfExport}
+                      </span>
+                    </div>
+                  </div>
+                  <div>
+                    {content.visuals.youtubeId ? (
+                      <VideoFacade videoId={content.visuals.youtubeId} title={content.visuals.videoTitle} />
+                    ) : content.visuals.heroImages.primary ? (
+                      <div className="rounded-xl overflow-hidden shadow-lg">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={content.visuals.heroImages.primary}
+                          alt={content.visuals.heroImages.primaryAlt}
+                          className="w-full h-auto"
+                          loading="eager"
+                        />
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* How It Works (enriched — 5 steps) */}
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4">
+              <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{content.howItWorks.title}</h2>
+              <div className="max-w-3xl mx-auto space-y-6">
+                {content.howItWorks.steps.map((step, i) => (
+                  <div key={i} className="flex gap-4 items-start">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 font-bold flex items-center justify-center">
+                      {i + 1}
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900 mb-1">{step.title}</h3>
+                      <p className="text-gray-600 text-sm">{step.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Key Features (enriched — 8 feature cards) */}
+          <section className="py-12 md:py-16 bg-white">
+            <div className="container mx-auto px-4">
+              <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{content.keyFeatures.title}</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+                {content.keyFeatures.features.map((feat, i) => (
+                  <div key={i} className="p-5 rounded-lg border border-gray-100 bg-gray-50">
+                    <h3 className="font-semibold text-gray-900 mb-2">{feat.title}</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">{feat.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Business Use Cases */}
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4">
+              <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{content.businessUseCases.title}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                {content.businessUseCases.cases.map((uc, i) => (
+                  <div key={i} className="p-5 rounded-lg bg-white border border-gray-200">
+                    <h3 className="font-semibold text-gray-900 mb-2">{uc.title}</h3>
+                    {uc.platform && (
+                      <span className="inline-block px-2 py-0.5 text-xs font-medium rounded bg-indigo-50 text-indigo-600 mb-2">{uc.platform}</span>
+                    )}
+                    <p className="text-gray-600 text-sm leading-relaxed">{uc.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* Who Is This For */}
+          {audience.length > 0 && (
+            <section className="py-12 md:py-16 bg-white">
+              <div className="container mx-auto px-4">
+                <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('whoIsThisFor', locale)}</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                  {audience.map((seg, i) => (
+                    <div key={i} className="p-5 rounded-lg border border-gray-100 bg-gray-50">
+                      <h3 className="font-semibold text-gray-900 mb-2">{seg.persona}</h3>
+                      <p className="text-gray-600 text-sm leading-relaxed">{seg.description}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Sample Gallery */}
+          {content.visuals.sampleGallery.length > 0 && (
+            <section className="py-12 md:py-16">
+              <div className="container mx-auto px-4">
+                <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('sampleWorksheets', locale)}</h2>
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+                  {content.visuals.sampleGallery.map((img, i) => (
+                    <div key={i} className="rounded-lg overflow-hidden shadow-sm border border-gray-200">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={img.src} alt={img.alt} className="w-full h-auto" loading="lazy" />
+                      {img.caption && (
+                        <p className="text-xs text-gray-500 p-2 text-center">{img.caption}</p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Watermark Note */}
+          <section className="py-8 bg-amber-50 border-y border-amber-100">
+            <div className="container mx-auto px-4 text-center">
+              <p className="text-sm text-amber-800">{ui.watermarkNote}</p>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          {content.faq.length > 0 && (
+            <section className="py-12 md:py-16 bg-white">
+              <div className="container mx-auto px-4">
+                <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('faq', locale)}</h2>
+                <div className="max-w-3xl mx-auto space-y-4">
+                  {content.faq.map((item, i) => (
+                    <details key={i} className="group border border-gray-200 rounded-lg">
+                      <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-900 hover:bg-gray-50">
+                        {item.question}
+                        <svg className="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </summary>
+                      <div className="px-4 pb-4 text-gray-600 text-sm leading-relaxed">
+                        {item.answer}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Internal Links */}
+          {content.internalLinks.length > 0 && (
+            <section className="py-12 md:py-16">
+              <div className="container mx-auto px-4">
+                <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('exploreMore', locale)}</h2>
+                <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                  {content.internalLinks.map((link, i) => {
+                    const prefix = link.pageType === 'app' ? 'apps'
+                      : link.pageType === 'tool' ? 'tools'
+                      : link.pageType === 'bundle' ? 'bundles'
+                      : link.pageType === 'start' ? 'start'
+                      : link.pageType === 'guide' ? 'guides'
+                      : 'ideas';
+                    return (
+                      <Link
+                        key={i}
+                        href={`/${locale}/${prefix}/${link.slug}`}
+                        className="px-4 py-2 rounded-full text-sm font-medium bg-white border border-gray-200 text-gray-700 hover:border-indigo-300 hover:text-indigo-600 transition-colors"
+                      >
+                        {link.anchorText}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Related Apps */}
+          {relatedApps.length > 0 && (
+            <section className="py-12 md:py-16 bg-white">
+              <div className="container mx-auto px-4">
+                <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{ui.relatedApps}</h2>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
+                  {relatedApps.map(app => (
+                    <Link
+                      key={app.id}
+                      href={`/${locale}/apps/${app.slug}`}
+                      className="flex flex-col items-center p-4 rounded-lg bg-gray-50 border border-gray-200 hover:border-indigo-300 hover:shadow-md transition-all text-center"
+                    >
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center mb-2" style={{ backgroundColor: `${categoryData.color}15` }}>
+                        <CategoryIcon category={category} />
+                      </div>
+                      <span className="text-sm font-medium text-gray-900">{app.name}</span>
+                    </Link>
+                  ))}
+                </div>
+                <div className="text-center mt-8">
+                  <Link
+                    href={`/${locale}/apps`}
+                    className="text-indigo-600 hover:text-indigo-700 font-medium text-sm"
+                  >
+                    {ui.viewAll} &rarr;
+                  </Link>
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* Bottom CTA */}
+          <section className="py-12 md:py-16 bg-indigo-600">
+            <div className="container mx-auto px-4 text-center">
+              <h2 className="text-2xl font-bold text-white mb-4">
+                {content.hero.title}
+              </h2>
+              <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{content.hero.tagline}</p>
+              <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} variant="light" />
+            </div>
+          </section>
+        </div>
+      </>
+    );
+  }
+
+  // ── Thin fallback layout (no content file) ──
   return (
     <>
       <script

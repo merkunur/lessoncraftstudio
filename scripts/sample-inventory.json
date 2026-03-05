@@ -1,0 +1,58 @@
+{
+  "english": {
+    "code addition": [
+      "Code Breaker Addition 1 answer_key.jpeg",
+      "Code Breaker Addition 1.jpeg",
+      "Code Breaker Addition 2 answer_key.jpeg",
+      "Code Breaker Addition 2.jpeg",
+      "Code Breaker Addition 3 answer_key.jpeg",
+      "Code Breaker Addition 3.jpeg",
+      "Code Breaker Addition 4 answer_key.jpeg",
+      "Code Breaker Addition 4.jpeg",
+      "image_addition_answer_key (1).jpeg",
+      "image_addition_answer_key (2).jpeg",
+      "image_addition_worksheet (1).jpeg",
+      "image_addition_worksheet (2).jpeg",
+      "image_addition_worksheet (3).jpeg",
+      "image_addition_worksheet (4).jpeg"
+    ],
+    "math puzzle": [
+      "Math Puzzles (1).jpeg",
+      "Math Puzzles (10).jpeg",
+      "Math Puzzles (15).jpeg",
+      "Math Puzzles (5).jpeg",
+      "Math Puzzles answer_key (1).jpeg",
+      "Math Puzzles answer_key (5).jpeg"
+    ],
+    "wordsearch": [
+      "custom word list.jpeg",
+      "wordsearch landscape.jpeg",
+      "wordsearch portrait answer_key.jpeg",
+      "wordsearch portrait.jpeg"
+    ]
+  },
+  "french": {
+    "code addition": [
+      "Code Secret Addition 1.jpeg"
+    ],
+    "math puzzle": [
+      "Casse-Têtes Mathématiques 1 answer_key.jpeg",
+      "Casse-Têtes Mathématiques 1.jpeg"
+    ],
+    "wordsearch": [
+      "Mots Caches 1.jpeg"
+    ]
+  },
+  "german": {
+    "code addition": [
+      "Code-Knacker Addition 1.jpeg"
+    ],
+    "math puzzle": [
+      "Mathe-Rätsel 1 answer_key.jpeg",
+      "Mathe-Rätsel 1.jpeg"
+    ],
+    "wordsearch": [
+      "Worter suchen 1.jpeg"
+    ]
+  }
+}

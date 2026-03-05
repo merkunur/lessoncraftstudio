@@ -177,13 +177,38 @@ Each page gets:
 - Secondary keywords may partially overlap between pages, but no two pages should share more than 1 secondary keyword
 - The combination of primary + secondary keywords forms a unique "keyword fingerprint" per page
 
-**How existing keyword targets map:**
-- Page Type 1 (App Detail): Primary = app name + "worksheet generator" (e.g., "addition worksheet generator")
-- Page Type 2 (Free Tool): Primary = "free" + app name + "worksheet maker" (e.g., "free addition worksheet maker")
-- Page Type 3 (Bundle): Primary = category + "worksheet bundle" (e.g., "math worksheet bundle")
-- Page Type 4 (Cornerstone): Primary = business topic keyword (already documented, e.g., "how to start a printable business")
-- Page Type 5 (Create X): Primary = "how to create" + product type (e.g., "how to create word search worksheets")
-- Page Type 6 (Niche Ideas): Primary = niche + "printable business ideas" (e.g., "farm animals printable business ideas")
+---
+
+#### SELLER-FOCUSED KEYWORD STRATEGY (ABSOLUTE RULE — OVERRIDES ALL PRIOR KEYWORD GUIDANCE)
+
+**Our target audience is 100% sellers and entrepreneurs:** Etsy printable sellers, Amazon KDP publishers, TPT sellers, Gumroad/Shopify printable entrepreneurs. Every keyword on every page must reflect seller/creator intent. NEVER target consumers, teachers, parents, or students.
+
+**BANNED keyword patterns (NEVER use on ANY page):**
+- "for kids", "for kindergarten", "for students", "for preschoolers"
+- "practice sheets", "learning activities", "educational worksheets"
+- "homework help", "classroom resources", "study materials"
+- Any term a BUYER of worksheets would search (we target SELLERS of worksheets)
+
+**REQUIRED keyword patterns (EVERY page must use):**
+- Seller-intent verbs: "create to sell", "make to sell", "sell on [platform]", "commercial license"
+- Platform names: "Etsy", "Amazon KDP", "Teachers Pay Teachers", "TPT", "Gumroad", "Shopify"
+- Business concepts: "passive income", "printable business", "digital products", "commercial use"
+
+**How keyword targets map by page type:**
+- Page Type 1 (App Detail): "create [product type] to sell on [platform]" (e.g., "create math worksheets to sell")
+- Page Type 2 (Free Tool): "free [product type] maker for sellers" (e.g., "free addition worksheet maker for Etsy sellers")
+- Page Type 3 (Bundle): "[category] printable toolkit for entrepreneurs" (e.g., "math printable toolkit for entrepreneurs")
+- Page Type 4 (Cornerstone): "[business model] printable business guide" (e.g., "how to start a printable business on Etsy")
+- Page Type 5 (Create X): "how to sell [product type] on [platform]" (e.g., "how to sell word search worksheets on Etsy")
+- Page Type 6 (Niche Ideas): "[niche] printable ideas to sell" (e.g., "farm animals printable ideas to sell on Etsy")
+
+**Title tags:** Must signal "Create & Sell" — never just "Create". Example: "Addition Worksheet Generator | Create & Sell Math Printables"
+
+**Meta descriptions:** Must mention at least one platform (Etsy, KDP, or TPT). Example: "Create professional addition worksheets to sell on Etsy, Amazon KDP, and TPT."
+
+**Self-test for every keyword:** Ask "Would an Etsy seller or KDP publisher search this?" If NO, the keyword is WRONG. Replace it.
+
+---
 
 **Cross-locale:** The same page in different locales targets the TRANSLATED equivalent of the same keyword — these are not duplicates. "addition worksheet generator" (en) and "Additions-Arbeitsblatt-Generator" (de) target the same intent in different markets.
 
@@ -833,7 +858,7 @@ Before writing content for any app, READ `REFERENCE APPS/[app].html` and extract
 ## 5. PAGE TYPE 2: FREE TOOL LANDING PAGES (33 tools x 11 locales = 363 pages)
 
 ### Purpose
-SEO magnets targeting "free [type] worksheet generator" keywords. Each page embeds the actual free app (via iframe) surrounded by substantial content. The free tool with watermark IS the lead magnet — it demonstrates value and drives paid conversions.
+SEO magnets targeting "free [type] maker for sellers" keywords — every keyword must signal seller/entrepreneur intent per Section 1.7. Each page embeds the actual free app (via iframe) surrounded by substantial content. The free tool with watermark IS the lead magnet — it demonstrates value and drives paid conversions.
 
 ### Route: `/{locale}/tools/{localized-slug}`
 
@@ -948,7 +973,7 @@ frontend/config/bundle-content/
 ## 7. PAGE TYPE 4: BUSINESS CORNERSTONE GUIDES (12 guides x 11 locales = 132 pages)
 
 ### Purpose
-Pillar content pages targeting high-volume "how to start a printable business" keywords. These are the authority pages that build topical relevance for the entire domain.
+Pillar content pages targeting high-volume seller-intent keywords like "how to start a printable business on Etsy". Every keyword must target sellers per Section 1.7. These are the authority pages that build topical relevance for the entire domain.
 
 ### Route: `/{locale}/start/{localized-slug}`
 
@@ -997,7 +1022,7 @@ frontend/config/start-content/
 ## 8. PAGE TYPE 5: "CREATE X" GUIDES (65 guides x 11 locales = 715 pages)
 
 ### Purpose
-Mid-funnel content targeting "how to create/sell [specific product]" keywords. Each guide teaches how to create a specific product type using our tools, then naturally links to the relevant app.
+Mid-funnel content targeting "how to sell [specific product] on [platform]" keywords — seller-focused per Section 1.7. Each guide teaches how to create a specific product type using our tools, then naturally links to the relevant app.
 
 ### Route: `/{locale}/guides/{localized-slug}`
 
@@ -1112,7 +1137,7 @@ frontend/config/guide-content/
 ## 9. PAGE TYPE 6: NICHE/THEME IDEA PAGES (45 pages x 11 locales = 495 pages)
 
 ### Purpose
-Bottom-of-funnel content targeting "[niche] printable business ideas" keywords. Each page explores a specific theme/niche and shows how to build a business around it using our tools.
+Bottom-of-funnel content targeting "[niche] printable ideas to sell on [platform]" keywords — seller-focused per Section 1.7. Each page explores a specific theme/niche and shows how to build a business around it using our tools.
 
 ### Route: `/{locale}/ideas/{localized-slug}`
 

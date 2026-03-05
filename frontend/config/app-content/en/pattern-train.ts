@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Pattern Train Worksheet Generator for Repeating Sequence Exercises',
     tagline: 'Five pattern types \u2014 AB, AAB, ABB, ABC, AABB \u2014 displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
-      'Design professional pattern recognition worksheets where students identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank \u2014 students identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only on train cars and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated math centers for TPT, the Pattern Train Worksheet Generator delivers unique train-format products in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional pattern recognition worksheets where students identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank \u2014 students identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only on train cars and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated math centers for TPT, the Pattern Train Worksheet Generator delivers unique train-format products in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. The custom image upload feature lets you add any image to the pattern train exercises. Upload photos, illustrations, or graphics relevant to your specific subject or audience. Custom images work with all five pattern types and appear on the train wagons alongside or instead of library images. This is useful for creating subject-specific worksheets beyond the built-in 104 theme collections.',
     },
     {
-      question: 'Is the Pattern Train Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all five pattern types, adjustable clue count, the image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all five pattern types, adjustable clue count, the image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Pattern Train generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every pattern type, every clue count setting, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every pattern type, every clue count setting, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-pattern-train-maker',
-      anchorText: 'Free Pattern Train Worksheet Maker',
+      slug: 'pattern-train-maker',
+      anchorText: 'Pattern Train Worksheet Maker',
     },
     {
       pageType: 'start',

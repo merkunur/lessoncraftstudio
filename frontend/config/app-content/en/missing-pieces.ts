@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Missing Pieces Puzzle Generator for Jigsaw-Style Visual Puzzles',
     tagline: 'Generate jigsaw-style puzzles where pieces are cut from images and students identify the correct numbered option \u2014 with 6 piece shapes, 1\u20135 missing pieces, 2\u20136 solution options including distractors, auto-generated answer keys, and visual-only design that works in every language.',
     description:
-      'Build professional missing piece puzzles where an image has holes cut out and students identify which numbered option fills each gap. The smart piece extraction algorithm finds visually distinct areas with sufficient color variance, ensuring every puzzle is solvable and engaging. Choose from 6 piece shapes \u2014 square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape \u2014 and configure difficulty with 1\u20135 missing pieces and 2\u20136 solution options that include distractor pieces to challenge visual discrimination skills. Every puzzle includes an auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option. The auto-generated header renders \u201cMissing Pieces\u201d in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system \u2014 teal outer (#14B8A6, 8px) and hot pink inner (#EC4899, 3px) \u2014 localized in all 11 supported languages. Missing Pieces is NOT language-sensitive: puzzles are purely visual with no locale-dependent content, so every puzzle works identically worldwide. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile puzzle workbooks for Amazon KDP, or create critical thinking activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional missing piece puzzles where an image has holes cut out and students identify which numbered option fills each gap. The smart piece extraction algorithm finds visually distinct areas with sufficient color variance, ensuring every puzzle is solvable and engaging. Choose from 6 piece shapes \u2014 square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape \u2014 and configure difficulty with 1\u20135 missing pieces and 2\u20136 solution options that include distractor pieces to challenge visual discrimination skills. Every puzzle includes an auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option. The auto-generated header renders \u201cMissing Pieces\u201d in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system \u2014 teal outer (#14B8A6, 8px) and hot pink inner (#EC4899, 3px) \u2014 localized in all 11 supported languages. Missing Pieces is NOT language-sensitive: puzzles are purely visual with no locale-dependent content, so every puzzle works identically worldwide. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile puzzle workbooks for Amazon KDP, or create critical thinking activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Every generated puzzle features two decorative borders. The outer border uses bright teal (#14B8A6) with an 8px stroke, 34px margins, and 12px border radius. The inner border uses hot pink (#EC4899) with a 3px stroke, 46.5px margins, 8px border radius, and a slight offset of 2px right and 3px down. Together they create a polished, professional frame that increases the visual quality of your puzzle worksheets for marketplace listings.',
     },
     {
-      question: 'Is the Missing Pieces Puzzle Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all 6 piece shapes, configurable missing pieces and solution options, the auto-generated answer key, the full image library, background and border themes, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all 6 piece shapes, configurable missing pieces and solution options, the auto-generated answer key, the full image library, background and border themes, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to puzzles?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all 6 piece shapes, configurable difficulty settings, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all 6 piece shapes, configurable difficulty settings, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-missing-pieces-maker',
-      anchorText: 'Free Missing Pieces Puzzle Maker',
+      slug: 'missing-pieces-maker',
+      anchorText: 'Missing Pieces Puzzle Maker',
     },
     {
       pageType: 'start',

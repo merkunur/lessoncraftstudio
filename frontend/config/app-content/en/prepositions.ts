@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Preposition Worksheet Generator for Spatial Language Practice',
     tagline: 'Eight spatial prepositions meet image-and-shape exercises \u2014 building spatial vocabulary one sentence at a time.',
     description:
-      'Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Students practice eight core prepositions \u2014 in, on top of, under, next to, behind, between, above, and in front of \u2014 using two distinct exercise modes: Fill-in-the-Blank sentences where students supply the missing preposition, and Multiple Choice questions where students identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions \u2014 German with dative contractions like \u201eim\u201d and \u201eam\u201c, French with elision rules for \u201cl\u2019\u201d before vowels, Spanish with gendered articles \u2014 multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or create differentiated language centers for TPT, the Preposition Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Students practice eight core prepositions \u2014 in, on top of, under, next to, behind, between, above, and in front of \u2014 using two distinct exercise modes: Fill-in-the-Blank sentences where students supply the missing preposition, and Multiple Choice questions where students identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions \u2014 German with dative contractions like \u201eim\u201d and \u201eam\u201c, French with elision rules for \u201cl\u2019\u201d before vowels, Spanish with gendered articles \u2014 multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or create differentiated language centers for TPT, the Preposition Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Click the Generate Answer Key button to create a solved version of your worksheet. For Fill-in-the-Blank exercises, the answer key shows every blank filled with the correct preposition. For Multiple Choice, it marks the correct image. Export the answer key as a separate JPEG or PDF file alongside the student worksheet.',
     },
     {
-      question: 'Is the Preposition Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both exercise modes, all eight prepositions, the full image library, all shapes, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both exercise modes, all eight prepositions, the full image library, all shapes, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both exercise modes, every preposition, every theme, every shape, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, every preposition, every theme, every shape, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-prepositions-worksheet-maker',
-      anchorText: 'Free Preposition Worksheet Maker',
+      slug: 'prepositions-worksheet-maker',
+      anchorText: 'Preposition Worksheet Maker',
     },
     {
       pageType: 'guide',

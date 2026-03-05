@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Algebra Puzzle Worksheet Generator for Picture-Based Equation Solving',
     tagline: 'Transform early algebra into a visual adventure \u2014 images become variables, and every puzzle has exactly one solution.',
     description:
-      'Create captivating algebraic picture-puzzle worksheets where images stand in for unknown variables in multi-equation systems. Students solve linked equations to determine the value each image represents \u2014 turning abstract algebra into a concrete, visual experience. Choose from four difficulty levels: Very Easy and Easy use two symbols, Medium introduces three, and Hard challenges learners with four simultaneous unknowns. Select addition-only problems or mix in subtraction for advanced practice, and fine-tune number ranges from 0 to 20 with an optional toggle for negative results. The built-in algebraic solver guarantees every puzzle has exactly one correct solution \u2014 no ambiguity, no guessing. Browse over 3,100 curated illustrations across 104 themes to use as your algebraic symbols, or upload custom images for a branded look. Each worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive algebra books for Amazon KDP, or create differentiated math centers for your classroom, the Math Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Create captivating algebraic picture-puzzle worksheets where images stand in for unknown variables in multi-equation systems. Students solve linked equations to determine the value each image represents \u2014 turning abstract algebra into a concrete, visual experience. Choose from four difficulty levels: Very Easy and Easy use two symbols, Medium introduces three, and Hard challenges learners with four simultaneous unknowns. Select addition-only problems or mix in subtraction for advanced practice, and fine-tune number ranges from 0 to 20 with an optional toggle for negative results. The built-in algebraic solver guarantees every puzzle has exactly one correct solution \u2014 no ambiguity, no guessing. Browse over 3,100 curated illustrations across 104 themes to use as your algebraic symbols, or upload custom images for a branded look. Each worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive algebra books for Amazon KDP, or create differentiated math centers for your classroom, the Math Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'No. These worksheets are visual-only \u2014 the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\u2019s interface labels, not the worksheet content, making your products instantly sellable in any market.',
     },
     {
-      question: 'Is the Math Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all four difficulty levels, both operation modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all four difficulty levels, both operation modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every difficulty level, every operation mode, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every difficulty level, every operation mode, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-math-worksheet-maker',
-      anchorText: 'Free Math Worksheet Maker',
+      slug: 'math-worksheet-maker',
+      anchorText: 'Math Worksheet Maker',
     },
     {
       pageType: 'guide',

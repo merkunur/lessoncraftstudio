@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'More or Less Worksheet Generator for Visual Number Comparison',
     tagline: 'Transform number comparison into a visual discovery with picture-based greater-than and less-than worksheets.',
     description:
-      'Build eye-catching comparison worksheets that teach students to identify which group has more, which has less, and when two groups are equal. Choose from three distinct exercise modes \u2014 Image to Image, Image to Number, and the unique Check & Cross Groups mode where students analyze mixed-image boxes to find the majority group. Toggle between same-image and different-image comparisons, pick illustration-style or standard math symbols, and draw from over 3,100 curated images across 104 themes. Every worksheet generates an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell themed bundles on Etsy, compile comparison activity books for Amazon KDP, or create differentiated centers for your classroom, the More or Less Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build eye-catching comparison worksheets that teach students to identify which group has more, which has less, and when two groups are equal. Choose from three distinct exercise modes \u2014 Image to Image, Image to Number, and the unique Check & Cross Groups mode where students analyze mixed-image boxes to find the majority group. Toggle between same-image and different-image comparisons, pick illustration-style or standard math symbols, and draw from over 3,100 curated images across 104 themes. Every worksheet generates an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell themed bundles on Etsy, compile comparison activity books for Amazon KDP, or create differentiated centers for your classroom, the More or Less Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Toggle the Grayscale option in the Download panel to convert your colorful worksheets to black-and-white before exporting. This is perfect for classroom printing where you want to save ink while still delivering high-quality comparison practice. Both JPEG and PDF exports support grayscale mode.',
     },
     {
-      question: 'Is the More or Less Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature of the generator \u2014 all three comparison modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. The only difference is that free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature of the generator \u2014 all three comparison modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -225,8 +225,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-more-or-less-worksheet-maker',
-      anchorText: 'Free More or Less Worksheet Maker',
+      slug: 'more-or-less-worksheet-maker',
+      anchorText: 'More or Less Worksheet Maker',
     },
     {
       pageType: 'guide',

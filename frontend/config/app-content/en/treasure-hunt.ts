@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Treasure Hunt Worksheet Generator for Path-Finding Direction Puzzles',
     tagline: 'Generate directional path-finding puzzles on a 5\u00d75 coordinate grid \u2014 two direction vocabularies (Basic: up/down/left/right and Cardinal: north/south/east/west), fully localized directional clues in 11 languages, auto-generated answer key with highlighted treasure location, and treasure-themed headers across 104 image collections.',
     description:
-      'Build professional treasure hunt worksheets where students follow sequential movement clues to locate hidden treasure on a 5\u00d75 letter-number coordinate grid (A\u2013E rows, 1\u20135 columns). Every puzzle scatters 6 themed images across the grid as landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. Choose between two direction vocabularies: Basic mode uses up, down, left, and right for early learners, while Cardinal mode uses north, south, east, and west for more advanced spatial reasoning. The Treasure Hunt Generator is language-sensitive: switching languages changes both the directional instruction text and the image content, with all directions fully translated into 11 supported languages. Every puzzle includes an auto-generated localized header with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka font, and sandy description in Quicksand \u2014 displaying \u201cTreasure Hunt\u201d and \u201cFollow the clues and find the treasure!\u201d in the selected language. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key highlights the final treasure cell in pale yellow so you never have to mark it manually. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized directions and images. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell treasure hunt bundles on Etsy, compile directional skills workbooks for Amazon KDP, or create coordinate grid activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional treasure hunt worksheets where students follow sequential movement clues to locate hidden treasure on a 5\u00d75 letter-number coordinate grid (A\u2013E rows, 1\u20135 columns). Every puzzle scatters 6 themed images across the grid as landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. Choose between two direction vocabularies: Basic mode uses up, down, left, and right for early learners, while Cardinal mode uses north, south, east, and west for more advanced spatial reasoning. The Treasure Hunt Generator is language-sensitive: switching languages changes both the directional instruction text and the image content, with all directions fully translated into 11 supported languages. Every puzzle includes an auto-generated localized header with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka font, and sandy description in Quicksand \u2014 displaying \u201cTreasure Hunt\u201d and \u201cFollow the clues and find the treasure!\u201d in the selected language. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key highlights the final treasure cell in pale yellow so you never have to mark it manually. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized directions and images. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell treasure hunt bundles on Etsy, compile directional skills workbooks for Amazon KDP, or create coordinate grid activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab, each with separate undo/redo stacks. The worksheet shows the 5\u00d75 grid with scattered images and directional clues \u2014 ready for students to follow. The answer key reproduces the identical layout and highlights the final treasure cell in pale yellow (rgba(255, 250, 205, 0.8)) with a dark gray stroke, making the destination immediately visible. Both versions export separately using four dedicated download buttons: worksheet.jpeg, answer_key.jpeg, worksheet.pdf, and answer_key.pdf.',
     },
     {
-      question: 'Is the Treasure Hunt Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both direction types, the 5\u00d75 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both direction types, the 5\u00d75 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to treasure hunt worksheets?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both direction types, the 5\u00d75 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both direction types, the 5\u00d75 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-treasure-hunt-maker',
-      anchorText: 'Free Treasure Hunt Worksheet Maker',
+      slug: 'treasure-hunt-maker',
+      anchorText: 'Treasure Hunt Worksheet Maker',
     },
     {
       pageType: 'start',

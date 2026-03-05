@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Sudoku Worksheet Generator for 4\u00d74 Image Logic Puzzles',
     tagline: 'Visual-only 4\u00d74 sudoku puzzles using images instead of numbers \u2014 three difficulty levels from 4 to 8 blank cells, auto-generated answer keys with complete filled grids, and theme-based image selection across 104 collections for puzzles that sell worldwide without translation.',
     description:
-      'Build professional 4\u00d74 picture sudoku worksheets where students fill blank cells with the correct images using row-and-column logic. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column \u2014 the same rules as classic sudoku, but with colorful illustrations instead of numbers. Choose from three difficulty levels: Easy removes 4 cells, Medium removes 6, and Hard removes 8 \u2014 half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually choose exactly 4 images from the library, search, or your own uploads. The premium grid design features alternating 2\u00d72 block colors in light blue and light pink, multi-layered shadows, and an indigo outer border with rounded corners. Every puzzle includes an auto-generated \u201cPicture Sudoku\u201d header localized in all 11 languages and a dual-canvas answer key showing the complete filled grid with all 16 cells populated. Add background themes and border themes with independent opacity controls, then export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Because picture sudoku is entirely visual \u2014 no words appear on the puzzle grid \u2014 every worksheet works identically in all 11 languages, making your products sellable worldwide without any modification. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Whether you sell themed sudoku bundles on Etsy, compile logic workbooks for Amazon KDP, or create reasoning activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional 4\u00d74 picture sudoku worksheets where students fill blank cells with the correct images using row-and-column logic. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column \u2014 the same rules as classic sudoku, but with colorful illustrations instead of numbers. Choose from three difficulty levels: Easy removes 4 cells, Medium removes 6, and Hard removes 8 \u2014 half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually choose exactly 4 images from the library, search, or your own uploads. The premium grid design features alternating 2\u00d72 block colors in light blue and light pink, multi-layered shadows, and an indigo outer border with rounded corners. Every puzzle includes an auto-generated \u201cPicture Sudoku\u201d header localized in all 11 languages and a dual-canvas answer key showing the complete filled grid with all 16 cells populated. Add background themes and border themes with independent opacity controls, then export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Because picture sudoku is entirely visual \u2014 no words appear on the puzzle grid \u2014 every worksheet works identically in all 11 languages, making your products sellable worldwide without any modification. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Whether you sell themed sudoku bundles on Etsy, compile logic workbooks for Amazon KDP, or create reasoning activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. The app shuffles images randomly before populating the 4\u00d74 grid, and then randomly selects which cells to blank based on the difficulty level. Even with the same 4 images and same difficulty setting, regenerating produces a different valid sudoku arrangement with different blank cell positions. This randomization lets you create large collections of unique puzzles from a small set of themed images.',
     },
     {
-      question: 'Is the Picture Sudoku Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Are picture sudoku worksheets language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-sudoku-maker',
-      anchorText: 'Free Picture Sudoku Maker',
+      slug: 'sudoku-maker',
+      anchorText: 'Picture Sudoku Maker',
     },
     {
       pageType: 'start',

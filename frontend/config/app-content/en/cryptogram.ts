@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Cryptogram Worksheet Generator for Picture Cipher Puzzles',
     tagline: 'Map alphabet letters to images and encode entire phrases into visual cipher puzzles \u2014 adjustable difficulty from zero hints to heavily scaffolded with Letters to Reveal.',
     description:
-      'Turn any phrase or sentence into a picture cryptogram puzzle where every alphabet letter is replaced by an image, and students crack the code by deducing which image represents which letter. Each puzzle encodes a complete readable message \u2014 not just a single word \u2014 giving solvers the satisfaction of revealing an entire sentence through pattern recognition and deduction. The Letters to Reveal slider (0\u201310) controls how many letter-to-image mappings are pre-solved as hints, creating a smooth difficulty gradient from zero-hint expert challenges to heavily-scaffolded beginner puzzles. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill unassigned letters instantly, or use Manual Assignment to hand-pick specific images for specific letters with a full visual preview of all mappings. The answer key includes a complete letter legend showing every alphabet letter paired with its assigned image in sorted order \u2014 the definitive reference for checking solutions. Full Access unlocks all 11 supported languages where both the secret message text and the available alphabet set change by locale: German cryptograms encode German phrases with \u00e4, \u00f6, \u00fc in the alphabet; French cryptograms encode French phrases with \u00e9, \u00e8, \u00e7, \u00e0 \u2014 each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed cipher bundles on Etsy, compile cryptogram puzzle books for Amazon KDP, or create differentiated code-breaking centers for TPT, the Cryptogram Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Turn any phrase or sentence into a picture cryptogram puzzle where every alphabet letter is replaced by an image, and students crack the code by deducing which image represents which letter. Each puzzle encodes a complete readable message \u2014 not just a single word \u2014 giving solvers the satisfaction of revealing an entire sentence through pattern recognition and deduction. The Letters to Reveal slider (0\u201310) controls how many letter-to-image mappings are pre-solved as hints, creating a smooth difficulty gradient from zero-hint expert challenges to heavily-scaffolded beginner puzzles. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill unassigned letters instantly, or use Manual Assignment to hand-pick specific images for specific letters with a full visual preview of all mappings. The answer key includes a complete letter legend showing every alphabet letter paired with its assigned image in sorted order \u2014 the definitive reference for checking solutions. Full Access unlocks all 11 supported languages where both the secret message text and the available alphabet set change by locale: German cryptograms encode German phrases with \u00e4, \u00f6, \u00fc in the alphabet; French cryptograms encode French phrases with \u00e9, \u00e8, \u00e7, \u00e0 \u2014 each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed cipher bundles on Etsy, compile cryptogram puzzle books for Amazon KDP, or create differentiated code-breaking centers for TPT, the Cryptogram Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'When you select a language, the available alphabet set automatically adjusts to include that language\u2019s characters. German adds \u00e4, \u00f6, \u00fc, \u00df to the standard 26 letters. French adds \u00e9, \u00e8, \u00e7, \u00e0, and other accented characters. Each locale\u2019s alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
     },
     {
-      question: 'Is the Cryptogram Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 Auto-Assign, Manual Assignment, custom image upload, Letters to Reveal, all 104 themes, the letter legend answer key, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 Auto-Assign, Manual Assignment, custom image upload, Letters to Reveal, all 104 themes, the letter legend answer key, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test Auto-Assign, Manual Assignment, Letters to Reveal, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test Auto-Assign, Manual Assignment, Letters to Reveal, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-cryptogram-maker',
-      anchorText: 'Free Cryptogram Worksheet Maker',
+      slug: 'cryptogram-maker',
+      anchorText: 'Cryptogram Worksheet Maker',
     },
     {
       pageType: 'guide',

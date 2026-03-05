@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Code Addition Worksheet Generator \u2014 Crack-the-Code Math Puzzles',
     tagline: 'Turn addition practice into a detective mission where every image hides a secret number.',
     description:
-      'Create cryptarithmetic addition worksheets that challenge students to crack a visual code. Each image on the worksheet represents a hidden number \u2014 students solve addition equations to deduce which number belongs to which picture, combining math fluency with logical reasoning in a single exercise. Switch to Word Reveal mode and the stakes rise: enter a secret word of up to ten letters, and each correctly solved equation reveals one letter of the answer while three distractor letters with wrong sums keep students guessing. The generator supports eleven language-specific alphabets, so Word Reveal works natively in English, German, French, Spanish, and seven more locales \u2014 a feature no other worksheet maker offers. Choose from over 3,100 images across 104 visual themes, set number ranges from 1 to 20 with two to five code symbols per sheet, and export print-ready PDFs or JPEGs at 400+ DPI with automatic answer keys that overlay the hidden number on each image. Completely free to try with no signup and no credit card.',
+      'Create cryptarithmetic addition worksheets that challenge students to crack a visual code. Each image on the worksheet represents a hidden number \u2014 students solve addition equations to deduce which number belongs to which picture, combining math fluency with logical reasoning in a single exercise. Switch to Word Reveal mode and the stakes rise: enter a secret word of up to ten letters, and each correctly solved equation reveals one letter of the answer while three distractor letters with wrong sums keep students guessing. The generator supports eleven language-specific alphabets, so Word Reveal works natively in English, German, French, Spanish, and seven more locales \u2014 a feature no other worksheet maker offers. Choose from over 3,100 images across 104 visual themes, set number ranges from 1 to 20 with two to five code symbols per sheet, and export print-ready PDFs or JPEGs at 400+ DPI with automatic answer keys that overlay the hidden number on each image. Free to try with all features \u2014 no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'The answer key mirrors the worksheet layout and overlays the hidden number directly on top of each image symbol. In Word Reveal mode, the answer key also displays the decoded secret word and marks which equations were distractors. You can export it as a separate JPEG or PDF file, making it easy to include in commercial product bundles or hand out to parents.',
     },
     {
-      question: 'Is the Code Addition Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both modes, all symbol counts, the full image library, Word Reveal in all eleven languages, answer key generation, and every export format \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both modes, all symbol counts, the full image library, Word Reveal in all eleven languages, answer key generation, and every export format \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -225,8 +225,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-code-addition-worksheet-maker',
-      anchorText: 'Free Code Addition Worksheet Maker',
+      slug: 'code-addition-worksheet-maker',
+      anchorText: 'Code Addition Worksheet Maker',
     },
     {
       pageType: 'guide',

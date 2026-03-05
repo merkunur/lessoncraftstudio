@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Big & Small Worksheet Generator for Size Comparison Exercises',
     tagline: 'Five question types \u2014 circle the big one, circle the small one, circle the medium, number ascending, number descending \u2014 with identical and different image modes for visual size discrimination.',
     description:
-      'Design professional size comparison worksheets where students look at themed images displayed at different sizes and identify which is bigger, smaller, or medium-sized, or number them in order from smallest to largest or largest to smallest. Five distinct question types cover every size discrimination skill: Circle the Big One, Circle the Small One, Circle the Medium One, Number 1\u20132\u20133 Small to Big, and Number 1\u20132\u20133 Big to Small. Two image modes create fundamentally different exercises: Identical Images shows the same picture at different sizes for pure size perception, while Different Images shows distinct objects for relative size reasoning. Configure 1\u201310 exercises per page with 2 or 3 images per exercise \u2014 two images for simpler comparisons, three for harder ones that include a medium option. Every worksheet is fully visual with zero text on the output, making them universally usable regardless of language or reading level. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. An auto-generated answer key highlights correct answers for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell size comparison bundles on Etsy, compile early learning workbooks for Amazon KDP, or create differentiated visual centers for TPT, the Big & Small Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional size comparison worksheets where students look at themed images displayed at different sizes and identify which is bigger, smaller, or medium-sized, or number them in order from smallest to largest or largest to smallest. Five distinct question types cover every size discrimination skill: Circle the Big One, Circle the Small One, Circle the Medium One, Number 1\u20132\u20133 Small to Big, and Number 1\u20132\u20133 Big to Small. Two image modes create fundamentally different exercises: Identical Images shows the same picture at different sizes for pure size perception, while Different Images shows distinct objects for relative size reasoning. Configure 1\u201310 exercises per page with 2 or 3 images per exercise \u2014 two images for simpler comparisons, three for harder ones that include a medium option. Every worksheet is fully visual with zero text on the output, making them universally usable regardless of language or reading level. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. An auto-generated answer key highlights correct answers for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell size comparison bundles on Etsy, compile early learning workbooks for Amazon KDP, or create differentiated visual centers for TPT, the Big & Small Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200\u00d71200), and fully custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Toggle grayscale export for ink-friendly versions. The Square format is ideal for social media or digital products; Letter and A4 are standard for printable worksheets and workbooks.',
     },
     {
-      question: 'Is the Big & Small Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all five question types, both image modes, the image library, adjustable exercise counts, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all five question types, both image modes, the image library, adjustable exercise counts, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Big & Small generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every question type, every image mode, every exercise configuration, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every question type, every image mode, every exercise configuration, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-big-and-small-worksheet-maker',
-      anchorText: 'Free Big & Small Worksheet Maker',
+      slug: 'big-and-small-worksheet-maker',
+      anchorText: 'Big & Small Worksheet Maker',
     },
     {
       pageType: 'start',

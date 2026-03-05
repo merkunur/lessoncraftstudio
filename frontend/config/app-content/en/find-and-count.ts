@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'I Spy Worksheet Generator for Find and Count Activities',
     tagline: 'Two activity modes in one generator \u2014 Hidden Object I Spy and Letter Spotting \u2014 with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
-      'Build professional I Spy and find-and-count worksheets where students search a scattered image scene to find, circle, cross out, or count specific objects. Choose between two activity modes: Hidden Object mode scatters images across a configurable grid (5\u201310 rows \u00d7 5\u201310 columns) and lets you assign up to 4 target objects with individual task types \u2014 circle the object, put a square around it, cross it out, or count how many appear. Letter Spotting mode displays a locale-specific alphabet grid with accented letters (German \u00c4\u00d6\u00dc, Spanish \u00d1, Swedish \u00c5\u00c4\u00d6, Danish/Norwegian \u00c6\u00d8\u00c5) and generates I Spy scenes using images that start with the selected letter. Every worksheet includes an auto-generated header \u2014 \u201cI Spy\u201d or \u201cLetter Spotting\u201d \u2014 localized in all 11 supported languages with a blue border (#2196F3). The dual-canvas system generates both a worksheet tab and an answer key tab with red circle, square, and cross annotations plus quantity count displays. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized labels. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell I Spy activity bundles on Etsy, compile hidden object workbooks for Amazon KDP, or create counting activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional I Spy and find-and-count worksheets where students search a scattered image scene to find, circle, cross out, or count specific objects. Choose between two activity modes: Hidden Object mode scatters images across a configurable grid (5\u201310 rows \u00d7 5\u201310 columns) and lets you assign up to 4 target objects with individual task types \u2014 circle the object, put a square around it, cross it out, or count how many appear. Letter Spotting mode displays a locale-specific alphabet grid with accented letters (German \u00c4\u00d6\u00dc, Spanish \u00d1, Swedish \u00c5\u00c4\u00d6, Danish/Norwegian \u00c6\u00d8\u00c5) and generates I Spy scenes using images that start with the selected letter. Every worksheet includes an auto-generated header \u2014 \u201cI Spy\u201d or \u201cLetter Spotting\u201d \u2014 localized in all 11 supported languages with a blue border (#2196F3). The dual-canvas system generates both a worksheet tab and an answer key tab with red circle, square, and cross annotations plus quantity count displays. The Find & Count Generator is language-sensitive: image name labels on the worksheet are rendered in the selected language via the Image Vocabulary system. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized labels. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell I Spy activity bundles on Etsy, compile hidden object workbooks for Amazon KDP, or create counting activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. The app automatically generates a complete I Spy worksheet when you open it \u2014 using the animals theme, 4 randomly selected images, and randomly assigned task types on a 6\u00d76 grid. This gives you an instant preview of what the tool produces. From there, you can customize the theme, grid dimensions, target objects, task types, and activity mode, then click Generate to rebuild with your settings.',
     },
     {
-      question: 'Is the Find & Count Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both activity modes, all four task types, Letter Spotting with locale-specific alphabets, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both activity modes, all four task types, Letter Spotting with locale-specific alphabets, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to I Spy worksheets?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both activity modes, all four task types, Letter Spotting mode, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both activity modes, all four task types, Letter Spotting mode, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-find-and-count-maker',
-      anchorText: 'Free Find & Count Worksheet Maker',
+      slug: 'find-and-count-maker',
+      anchorText: 'Find & Count Worksheet Maker',
     },
     {
       pageType: 'start',

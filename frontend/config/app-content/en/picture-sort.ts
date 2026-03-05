@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Sort Worksheet Generator for Two-Category Sorting Activities',
     tagline: 'Two-category sorting in one powerful generator \u2014 theme-based or manual image selection \u2014 with auto-generated answer keys, 4\u201312 configurable images, a localized \u201cPicture Sort\u201d header in 11 languages, and 104 themed image collections.',
     description:
-      'Build professional sorting worksheets where students classify images into two categories by sorting cut-out pictures into the correct left or right group. Choose theme mode to auto-populate categories from the image library \u2014 select a left theme and a right theme, and the app pulls 4\u20136 random images per theme \u2014 or switch to manual mode to hand-select individual images and assign each to a category. Every worksheet features two dashed-border category frames at the top for sorting destinations and a shuffled cutout grid below with mixed images ready to be cut and sorted. The dual-canvas system generates both a worksheet tab and an answer key tab with 6\u00d7 larger images organized into category boxes, so you never create answer keys manually. The Picture Sort Generator is language-sensitive: category labels use localized image names, so switching languages changes the text on the worksheet. A localized \u201cPicture Sort\u201d header with mint green background and teal title renders automatically in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized category labels. Add background themes and border themes with independent opacity controls, include name and date fields for classroom accountability, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell sorting activity bundles on Etsy, compile classification workbooks for Amazon KDP, or create sorting center activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional sorting worksheets where students classify images into two categories by sorting cut-out pictures into the correct left or right group. Choose theme mode to auto-populate categories from the image library \u2014 select a left theme and a right theme, and the app pulls 4\u20136 random images per theme \u2014 or switch to manual mode to hand-select individual images and assign each to a category. Every worksheet features two dashed-border category frames at the top for sorting destinations and a shuffled cutout grid below with mixed images ready to be cut and sorted. The dual-canvas system generates both a worksheet tab and an answer key tab with 6\u00d7 larger images organized into category boxes, so you never create answer keys manually. The Picture Sort Generator is language-sensitive: category labels use localized image names, so switching languages changes the text on the worksheet. A localized \u201cPicture Sort\u201d header with mint green background and teal title renders automatically in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized category labels. Add background themes and border themes with independent opacity controls, include name and date fields for classroom accountability, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell sorting activity bundles on Etsy, compile classification workbooks for Amazon KDP, or create sorting center activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Check the \u201cInclude Name/Date Fields\u201d checkbox in the Page Setup panel to add student name and date lines to the worksheet. These fields ensure student accountability in classroom settings and make your sorting worksheets ready for teacher collection and grading without any additional preparation.',
     },
     {
-      question: 'Is the Picture Sort Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to sorting worksheets?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-picture-sort-maker',
-      anchorText: 'Free Picture Sort Worksheet Maker',
+      slug: 'picture-sort-maker',
+      anchorText: 'Picture Sort Worksheet Maker',
     },
     {
       pageType: 'start',

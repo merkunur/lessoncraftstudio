@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Draw & Color Worksheet Generator for Grid-Based Drawing Exercises',
     tagline: 'Dual grid system \u2014 practice grid and clue grid side by side \u2014 with adjustable clue percentage from 10% to 75%, horizontal and vertical symmetry modes, and 100+ black & white outline themes for drawing and coloring activities.',
     description:
-      'Design professional grid drawing worksheets where students reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells where students draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty \u2014 fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3\u00d73 (9 cells) to 10\u00d710 (100 cells), with rows and columns adjustable independently from 3 to 10. Three symmetry modes add a spatial reasoning dimension: Random places clues in scattered positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring \u2014 not colorful themes, but clean outlines that students reproduce and then color in. This is a purely visual app: worksheets contain only grid images with no text, making them universally usable regardless of language. No answer key is needed because the clue grid itself serves as the reference solution. Full Access unlocks all 100+ B&W themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell grid drawing bundles on Etsy, compile drawing skills workbooks for Amazon KDP, or create spatial reasoning centers for TPT, the Draw & Color Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional grid drawing worksheets where students reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells where students draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty \u2014 fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3\u00d73 (9 cells) to 10\u00d710 (100 cells), with rows and columns adjustable independently from 3 to 10. Three symmetry modes add a spatial reasoning dimension: Random places clues in scattered positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring \u2014 not colorful themes, but clean outlines that students reproduce and then color in. This is a purely visual app: worksheets contain only grid images with no text, making them universally usable regardless of language. No answer key is needed because the clue grid itself serves as the reference solution. Full Access unlocks all 100+ B&W themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell grid drawing bundles on Etsy, compile drawing skills workbooks for Amazon KDP, or create spatial reasoning centers for TPT, the Draw & Color Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Toggle the Include Name/Date Fields option to add student identification areas to your worksheet. You can also use the Text Tools panel to add a custom title, instructions, or any other text with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. All text elements are fully editable on the canvas \u2014 drag, resize, rotate, and reposition as needed.',
     },
     {
-      question: 'Is the Draw & Color Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all grid sizes, all clue percentages, all symmetry modes, the B&W theme library, custom image upload, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all grid sizes, all clue percentages, all symmetry modes, the B&W theme library, custom image upload, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Draw & Color generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every grid size, every clue percentage, every symmetry mode, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every grid size, every clue percentage, every symmetry mode, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-draw-and-color-maker',
-      anchorText: 'Free Draw & Color Worksheet Maker',
+      slug: 'draw-and-color-maker',
+      anchorText: 'Draw & Color Worksheet Maker',
     },
     {
       pageType: 'start',

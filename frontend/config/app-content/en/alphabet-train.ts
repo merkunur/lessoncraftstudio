@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Alphabet Train Worksheet Generator for Letter Recognition Practice',
     tagline: 'Every wagon carries a letter and a matching image \u2014 building letter recognition one train car at a time.',
     description:
-      'Design eye-catching alphabet train worksheets where 11 colorful wagons roll across the page, each carrying a letter paired with a matching illustration. Choose Auto Create mode for instant random letter selections or Manual mode to hand-pick exactly 11 letters from the alphabet for targeted practice. Add 3 to 11 configurable clues per worksheet \u2014 image hints that students match to the correct letter wagon \u2014 turning passive letter recognition into an active problem-solving exercise. Browse over 3,100 curated illustrations across 104 themes to find the perfect image for every letter. Full Access unlocks all 11 supported languages with their native alphabets \u2014 German with \u00c4/\u00d6/\u00dc, Swedish with \u00c5/\u00c4/\u00d6, Spanish with \u00d1, and more \u2014 multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or Square sizes. Whether you sell themed alphabet bundles on Etsy, compile progressive literacy books for Amazon KDP, or create differentiated letter centers for TPT, the Alphabet Train Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design eye-catching alphabet train worksheets where 11 colorful wagons roll across the page, each carrying a letter paired with a matching illustration. Choose Auto Create mode for instant random letter selections or Manual mode to hand-pick exactly 11 letters from the alphabet for targeted practice. Add 3 to 11 configurable clues per worksheet \u2014 image hints that students match to the correct letter wagon \u2014 turning passive letter recognition into an active problem-solving exercise. Browse over 3,100 curated illustrations across 104 themes to find the perfect image for every letter. Full Access unlocks all 11 supported languages with their native alphabets \u2014 German with \u00c4/\u00d6/\u00dc, Swedish with \u00c5/\u00c4/\u00d6, Spanish with \u00d1, and more \u2014 multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or Square sizes. Whether you sell themed alphabet bundles on Etsy, compile progressive literacy books for Amazon KDP, or create differentiated letter centers for TPT, the Alphabet Train Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Click the Generate Answer Key button to create a solved version showing every wagon with its correct letter-image pairing and all clues matched. You can preview it on screen and download it as a separate JPEG or PDF file to include in teacher editions or product bundles.',
     },
     {
-      question: 'Is the Alphabet Train Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both creation modes, the full image library, all clue settings, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both creation modes, the full image library, all clue settings, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-alphabet-train-maker',
-      anchorText: 'Free Alphabet Train Worksheet Maker',
+      slug: 'alphabet-train-maker',
+      anchorText: 'Alphabet Train Worksheet Maker',
     },
     {
       pageType: 'guide',

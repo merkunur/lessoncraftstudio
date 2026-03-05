@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Math Puzzle Worksheet Generator for Picture-Based Problem Solving',
     tagline: 'Merge math practice with puzzle-solving excitement \u2014 every piece holds a problem, every solution reveals the picture.',
     description:
-      'Build captivating math puzzle worksheets where a full image is split into a grid of pieces, each containing an addition or subtraction problem. Students solve the math, then match numbered answers to the scrambled puzzle pieces shown below the grid \u2014 turning routine arithmetic into a visual mystery. Configure grid sizes from 2\u00d72 up to 4\u00d74 to create puzzles with 4 to 16 pieces, and choose addition, subtraction, or mixed operations to match any skill level. Draw from over 3,100 curated illustrations across 104 themes like farm animals, space, dinosaurs, and holidays to make every puzzle unique. Each worksheet generates an automatic answer key showing the solved grid alongside the complete image. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive activity books for Amazon KDP, or create hands-on math centers for your classroom, the Math Puzzle Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build captivating math puzzle worksheets where a full image is split into a grid of pieces, each containing an addition or subtraction problem. Students solve the math, then match numbered answers to the scrambled puzzle pieces shown below the grid \u2014 turning routine arithmetic into a visual mystery. Configure grid sizes from 2\u00d72 up to 4\u00d74 to create puzzles with 4 to 16 pieces, and choose addition, subtraction, or mixed operations to match any skill level. Draw from over 3,100 curated illustrations across 104 themes like farm animals, space, dinosaurs, and holidays to make every puzzle unique. Each worksheet generates an automatic answer key showing the solved grid alongside the complete image. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive activity books for Amazon KDP, or create hands-on math centers for your classroom, the Math Puzzle Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -186,9 +186,9 @@ const content: AppContent = {
         'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for classroom printing, homework packets, or activity books where color printing isn\u2019t practical. Both JPEG and PDF exports support the grayscale toggle.',
     },
     {
-      question: 'Is the Math Puzzle Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three operations, all grid sizes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three operations, all grid sizes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every operation, every grid size, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every operation, every grid size, every theme, and every export format before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -230,8 +230,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-math-puzzle-maker',
-      anchorText: 'Free Math Puzzle Worksheet Maker',
+      slug: 'math-puzzle-maker',
+      anchorText: 'Math Puzzle Worksheet Maker',
     },
     {
       pageType: 'guide',

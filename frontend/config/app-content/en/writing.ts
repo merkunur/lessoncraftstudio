@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Handwriting Worksheet Generator for Letter Practice Sheets',
     tagline: 'Three progressive practice modes with arrow-guided stroke order and fading letter guides \u2014 build handwriting fluency from full tracing to independent writing on a single worksheet.',
     description:
-      'Design professional handwriting practice worksheets with three distinct modes that create a natural learning progression: Trace mode provides solid letter guides for beginners to follow, Fading Trace progressively reduces letter visibility across the row to build confidence, and Guided Copy offers a faint outline for near-independent writing. Choose from five font styles \u2014 Print Regular, Print Regular Arrow with numbered stroke-order directions, Print Tracing, Print Tracing Arrow combining tracing outlines with stroke arrows, and Cursive (Great Vibes) \u2014 to match any handwriting curriculum. Every row on the worksheet is independently configurable: mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review, all on the same page. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, and zigzag lines) add fine motor warm-ups that prepare hands for letter formation. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes: use Beginning Letter mode to practice the first letter of each image name, Whole File Name mode to write complete words, or type any Custom Text. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at ~300 DPI in Letter, A4, or custom sizes. Whether you sell handwriting practice bundles on Etsy, compile writing workbooks for Amazon KDP, or create differentiated writing centers for TPT, the Writing Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional handwriting practice worksheets with three distinct modes that create a natural learning progression: Trace mode provides solid letter guides for beginners to follow, Fading Trace progressively reduces letter visibility across the row to build confidence, and Guided Copy offers a faint outline for near-independent writing. Choose from five font styles \u2014 Print Regular, Print Regular Arrow with numbered stroke-order directions, Print Tracing, Print Tracing Arrow combining tracing outlines with stroke arrows, and Cursive (Great Vibes) \u2014 to match any handwriting curriculum. Every row on the worksheet is independently configurable: mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review, all on the same page. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, and zigzag lines) add fine motor warm-ups that prepare hands for letter formation. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes: use Beginning Letter mode to practice the first letter of each image name, Whole File Name mode to write complete words, or type any Custom Text. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at ~300 DPI in Letter, A4, or custom sizes. Whether you sell handwriting practice bundles on Etsy, compile writing workbooks for Amazon KDP, or create differentiated writing centers for TPT, the Writing Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide \u2014 students trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that students couldn\u2019t see during the exercise.',
     },
     {
-      question: 'Is the Writing Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three practice modes, all five font styles, pre-writing strokes, the image library, per-row configuration, custom text input, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three practice modes, all five font styles, pre-writing strokes, the image library, per-row configuration, custom text input, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Writing generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every practice mode, every font style, pre-writing strokes, every content source, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every practice mode, every font style, pre-writing strokes, every content source, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-handwriting-worksheet-maker',
-      anchorText: 'Free Handwriting Worksheet Maker',
+      slug: 'handwriting-worksheet-maker',
+      anchorText: 'Handwriting Worksheet Maker',
     },
     {
       pageType: 'start',

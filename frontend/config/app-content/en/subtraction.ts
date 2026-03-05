@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Subtraction Worksheet Generator with Cross-Out Visualization',
     tagline: 'Make subtraction click with picture-based worksheets where kids cross out images to find the answer.',
     description:
-      'Create engaging image-based subtraction worksheets that teach take-away math through a powerful visual method: crossed-out images. Students see a group of pictures, then watch diagonal X marks drawn through the subtracted items \u2014 making the abstract concept of \u201ctaking away\u201d concrete and intuitive. Choose from four exercise modes \u2014 Cross Out, Image \u2212 Number, Find the Subtrahend, and Mixed \u2014 to scaffold learning from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like dinosaurs, ocean life, and vehicles. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. A built-in grayscale toggle lets you create ink-friendly black-and-white versions with one click. Whether you sell themed bundles on Etsy, publish activity books on Amazon KDP, or print practice sheets for your own students, the Subtraction Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Create engaging image-based subtraction worksheets that teach take-away math through a powerful visual method: crossed-out images. Students see a group of pictures, then watch diagonal X marks drawn through the subtracted items \u2014 making the abstract concept of \u201ctaking away\u201d concrete and intuitive. Choose from four exercise modes \u2014 Cross Out, Image \u2212 Number, Find the Subtrahend, and Mixed \u2014 to scaffold learning from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like dinosaurs, ocean life, and vehicles. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. A built-in grayscale toggle lets you create ink-friendly black-and-white versions with one click. Whether you sell themed bundles on Etsy, publish activity books on Amazon KDP, or print practice sheets for your own students, the Subtraction Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -176,9 +176,9 @@ const content: AppContent = {
         'The download dropdown includes a Grayscale checkbox that converts your entire worksheet and answer key to black-and-white before exporting. This produces ink-friendly versions perfect for classroom printing, low-cost activity book production on Amazon KDP, or any situation where color printing is not available or too expensive.',
     },
     {
-      question: 'Is the Subtraction Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature of the generator \u2014 all four exercise modes, the full image library, answer key generation, grayscale export, and all page sizes \u2014 without creating an account, entering a credit card, or installing any software. The only difference is that free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature of the generator \u2014 all four exercise modes, the full image library, answer key generation, grayscale export, and all page sizes \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
     {
       question: 'Do I need to install any software?',
@@ -225,8 +225,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-subtraction-worksheet-maker',
-      anchorText: 'Free Subtraction Worksheet Maker',
+      slug: 'subtraction-worksheet-maker',
+      anchorText: 'Subtraction Worksheet Maker',
     },
     {
       pageType: 'guide',

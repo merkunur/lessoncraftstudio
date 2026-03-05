@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Drawing Lines Worksheet Generator for Line Tracing Exercises',
     tagline: 'Eight SVG line templates \u2014 curves, diagonals, horizontal, and vertical \u2014 with 4\u20135 image pairs per page for fine motor skill development through guided line tracing.',
     description:
-      'Build professional line tracing worksheets where students draw along guided paths to connect matching image pairs. Eight SVG-based templates cover four line types: four curved line templates for flowing movements, two diagonal templates for angled strokes, one horizontal template for straight-across tracing, and one vertical template for top-to-bottom practice. Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving students a visual goal at each end. Auto-fill randomly assigns image pairs from any selected theme or across all themes at once. Content draws from the built-in Image Library with 3,100+ colorful illustrations across 104 themes \u2014 animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making them universally usable regardless of language or reading level. Template selection drives page orientation automatically: curve templates default to landscape for sweeping movements, while diagonal, horizontal, and vertical templates use portrait for focused top-to-bottom practice. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell line tracing bundles on Etsy, compile fine motor workbooks for Amazon KDP, or create handwriting readiness centers for TPT, the Drawing Lines Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional line tracing worksheets where students draw along guided paths to connect matching image pairs. Eight SVG-based templates cover four line types: four curved line templates for flowing movements, two diagonal templates for angled strokes, one horizontal template for straight-across tracing, and one vertical template for top-to-bottom practice. Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving students a visual goal at each end. Auto-fill randomly assigns image pairs from any selected theme or across all themes at once. Content draws from the built-in Image Library with 3,100+ colorful illustrations across 104 themes \u2014 animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making them universally usable regardless of language or reading level. Template selection drives page orientation automatically: curve templates default to landscape for sweeping movements, while diagonal, horizontal, and vertical templates use portrait for focused top-to-bottom practice. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell line tracing bundles on Etsy, compile fine motor workbooks for Amazon KDP, or create handwriting readiness centers for TPT, the Drawing Lines Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Toggle the name and date fields on from the Content panel. They appear in Fredoka font at 18px in a dark gray (#333) color. You can also add custom text with the Text Tools panel using any of the available fonts \u2014 Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand \u2014 and reposition them anywhere on the canvas.',
     },
     {
-      question: 'Is the Drawing Lines Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all eight line templates, the full image library, auto-fill, all export formats, and the complete canvas editing tools \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all eight line templates, the full image library, auto-fill, all export formats, and the complete canvas editing tools \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Drawing Lines generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every line template, every image theme, the auto-fill feature, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every line template, every image theme, the auto-fill feature, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-drawing-lines-maker',
-      anchorText: 'Free Drawing Lines Worksheet Maker',
+      slug: 'drawing-lines-maker',
+      anchorText: 'Drawing Lines Worksheet Maker',
     },
     {
       pageType: 'start',

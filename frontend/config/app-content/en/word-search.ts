@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Word Search Worksheet Generator for Hidden-Word Grid Puzzles',
     tagline: 'Adjustable grids from 5\u00d75 to 30\u00d730 with diagonal and reverse direction controls \u2014 build the perfect difficulty for every audience.',
     description:
-      'Design professional word search worksheets where hidden words are embedded in a grid of random filler letters and students scan rows, columns, and diagonals to find them \u2014 the classic puzzle format that never goes out of style. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Adjust the grid from 5\u00d75 for quick warm-ups to 30\u00d730 for serious challenges, and toggle diagonal words and reverse (backwards) words on or off to fine-tune difficulty across four to eight possible placement directions. Three display modes \u2014 words plus images, images only, or words only \u2014 control how clues appear alongside the grid. Full Access unlocks all 11 supported languages where both the hidden words and the grid filler letters change by language: German grids include \u00e4, \u00f6, \u00fc at natural frequency weights, French grids include \u00e9, \u00e8, \u00e7, \u00e0, and every other locale uses its authentic character set. A color-coded answer key highlights each found word in one of six cycling colors for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile word search books for Amazon KDP, or create differentiated vocabulary centers for TPT, the Word Search Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional word search worksheets where hidden words are embedded in a grid of random filler letters and students scan rows, columns, and diagonals to find them \u2014 the classic puzzle format that never goes out of style. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Adjust the grid from 5\u00d75 for quick warm-ups to 30\u00d730 for serious challenges, and toggle diagonal words and reverse (backwards) words on or off to fine-tune difficulty across four to eight possible placement directions. Three display modes \u2014 words plus images, images only, or words only \u2014 control how clues appear alongside the grid. Full Access unlocks all 11 supported languages where both the hidden words and the grid filler letters change by language: German grids include \u00e4, \u00f6, \u00fc at natural frequency weights, French grids include \u00e9, \u00e8, \u00e7, \u00e0, and every other locale uses its authentic character set. A color-coded answer key highlights each found word in one of six cycling colors for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile word search books for Amazon KDP, or create differentiated vocabulary centers for TPT, the Word Search Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -186,9 +186,9 @@ const content: AppContent = {
         'Yes. Because hidden words are image names in the selected language, changing the language changes the puzzle content entirely. Additionally, the grid filler letters change to match the target language\u2019s character set with proper frequency weights. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct product with different words and different filler characters.',
     },
     {
-      question: 'Is the Word Search Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three content sources, all display modes, the full image library, adjustable grid sizes, direction controls, color-coded answer keys, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three content sources, all display modes, the full image library, adjustable grid sizes, direction controls, color-coded answer keys, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every content source, every grid size, every direction setting, every display mode, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every grid size, every direction setting, every display mode, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-word-search-maker',
-      anchorText: 'Free Word Search Worksheet Maker',
+      slug: 'word-search-maker',
+      anchorText: 'Word Search Worksheet Maker',
     },
     {
       pageType: 'guide',

@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Matching Worksheet Generator for Draw-a-Line Matching Activities',
     tagline: 'Four matching modes in one generator \u2014 Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word \u2014 with auto-generated answer keys, configurable pair counts, and a localized \u201cMatch Up!\u201d header across 104 themed image collections.',
     description:
-      'Build professional draw-a-line matching worksheets where students connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image \u2194 Beginning Letter matches images to their first letter, Image+Word \u2194 Image+Word pairs labeled images on both sides, Image/Word \u2194 Image/Word mixes images and words per row with dropdown controls, and Image \u2194 Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized \u201cMatch Up!\u201d header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or create matching center activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional draw-a-line matching worksheets where students connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image \u2194 Beginning Letter matches images to their first letter, Image+Word \u2194 Image+Word pairs labeled images on both sides, Image/Word \u2194 Image/Word mixes images and words per row with dropdown controls, and Image \u2194 Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized \u201cMatch Up!\u201d header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or create matching center activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Yes. Beginning Letter and Image+Word modes use localized image names from the Image Library, so switching languages changes the words and first letters that appear on the worksheet. For example, a cat image shows \u201cC\u201d in English Beginning Letter mode but \u201cK\u201d in German (Katze) and \u201cC\u201d in French (Chat). The localized \u201cMatch Up!\u201d header also changes with the selected language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
     },
     {
-      question: 'Is the Matching Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all four matching modes, configurable pair counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all four matching modes, configurable pair counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to matching worksheets?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all four matching modes, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four matching modes, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-matching-worksheet-maker',
-      anchorText: 'Free Matching Worksheet Maker',
+      slug: 'matching-worksheet-maker',
+      anchorText: 'Matching Worksheet Maker',
     },
     {
       pageType: 'start',

@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Path Maze Worksheet Generator for Pathway and Maze Activities',
     tagline: 'Three game modes in one generator \u2014 Picture Pathway, Classic Maze, and Choose the Right Path \u2014 powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
-      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where students follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout \u2014 configure grid sizes from 15\u00d715 to 20\u00d720, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1\u201310px), and opacity (10\u2013100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where students identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab \u2014 solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a \u201c\u2713 CORRECT PATH\u201d label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated \u201cPicture Pathway\u201d header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Picture Path is completely visual \u2014 mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with no signup and no credit card.',
+      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where students follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout \u2014 configure grid sizes from 15\u00d715 to 20\u00d720, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1\u201310px), and opacity (10\u2013100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where students identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab \u2014 solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a \u201c\u2713 CORRECT PATH\u201d label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated \u201cPicture Pathway\u201d header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Picture Path is completely visual \u2014 mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features \u2014 no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title \u201cPicture Pathway\u201d and description \u201cFollow the path from start to finish!\u201d are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d\u2019Images), Spanish (Camino de Im\u00e1genes), and all other supported languages.',
     },
     {
-      question: 'Is the Picture Path Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Are Picture Path worksheets language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-picture-path-maker',
-      anchorText: 'Free Picture Path Maze Maker',
+      slug: 'picture-path-maker',
+      anchorText: 'Picture Path Maze Maker',
     },
     {
       pageType: 'start',

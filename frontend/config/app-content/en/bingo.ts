@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Bingo Card Generator for Printable Bingo Activities',
     tagline: 'Generate 1\u201310 unique bingo cards per batch with configurable grids from 3\u00d73 to 5\u00d75 \u2014 image or word fill for both card cells and circular chips, a dedicated call-out sheet for the caller, ZIP batch export of all cards, and 104 themed image collections.',
     description:
-      'Build professional picture bingo cards where players mark matching images or words on their unique card grids. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3\u00d73 (9 cells) up to 5\u00d75 (25 cells) with a default of 4\u00d74 (16 cells). Choose image fill or word fill independently for both card cells and circular chips \u2014 chips feature dashed borders and shuffled Fisher-Yates ordering for authentic bingo play. Generate 1\u201310 unique bingo cards per batch, each with a different random image selection from the pool. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller, with columns calculated based on longest word length and uniform font sizing. Hand-pick specific images for custom call-out selection or let the app choose from your theme. The Picture Bingo Card Generator is language-sensitive: word fill uses localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Batch export all generated cards as individual JPEGs in a single ZIP file. Whether you sell bingo card bundles on Etsy, compile bingo activity books for Amazon KDP, or create classroom bingo sets for TPT, this generator delivers production-ready bingo cards in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional picture bingo cards where players mark matching images or words on their unique card grids. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3\u00d73 (9 cells) up to 5\u00d75 (25 cells) with a default of 4\u00d74 (16 cells). Choose image fill or word fill independently for both card cells and circular chips \u2014 chips feature dashed borders and shuffled Fisher-Yates ordering for authentic bingo play. Generate 1\u201310 unique bingo cards per batch, each with a different random image selection from the pool. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller, with columns calculated based on longest word length and uniform font sizing. Hand-pick specific images for custom call-out selection or let the app choose from your theme. The Picture Bingo Card Generator is language-sensitive: word fill uses localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Batch export all generated cards as individual JPEGs in a single ZIP file. Whether you sell bingo card bundles on Etsy, compile bingo activity books for Amazon KDP, or create classroom bingo sets for TPT, this generator delivers production-ready bingo cards in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards \u2014 there is no single \u201ccorrect answer\u201d since every player\u2019s card has different items in different positions. The call-out sheet serves as the game\u2019s reference document, listing all possible items the caller can announce during the game.',
     },
     {
-      question: 'Is the Picture Bingo Card Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all grid sizes, batch generation of up to 10 cards, ZIP batch export, both image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all grid sizes, batch generation of up to 10 cards, ZIP batch export, both image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I add background themes and border themes to bingo cards?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all grid sizes, batch generation, ZIP export, image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, batch generation, ZIP export, image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-bingo-card-maker',
-      anchorText: 'Free Bingo Card Maker',
+      slug: 'bingo-card-maker',
+      anchorText: 'Bingo Card Maker',
     },
     {
       pageType: 'start',

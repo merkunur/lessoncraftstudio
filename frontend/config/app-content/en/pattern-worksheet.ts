@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Pattern Worksheet Generator for Grid-Based Pattern Completion Exercises',
     tagline: 'Nine pattern types from AB to ABCD \u2014 two question modes (fill-in-the-blank and multiple choice) \u2014 with per-exercise independent configuration for pattern type, question mode, and theme on every page.',
     description:
-      'Design professional pattern completion worksheets where students identify repeating sequences and fill in the missing item \u2014 or choose the correct answer from multiple-choice options. Nine distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space for students to fill in, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1\u20138 exercises per page with each exercise independently set for pattern type, question mode, and theme \u2014 one page can mix an AB blank-box exercise with an ABCD multiple-choice exercise. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence for added difficulty. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all blanks filled with the correct pattern items for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only in grid rows and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated visual centers for TPT, the Pattern Worksheet Generator delivers the widest variety of pattern exercises available \u2014 completely free to try with no signup and no credit card.',
+      'Design professional pattern completion worksheets where students identify repeating sequences and fill in the missing item \u2014 or choose the correct answer from multiple-choice options. Nine distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space for students to fill in, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1\u20138 exercises per page with each exercise independently set for pattern type, question mode, and theme \u2014 one page can mix an AB blank-box exercise with an ABCD multiple-choice exercise. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence for added difficulty. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all blanks filled with the correct pattern items for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only in grid rows and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated visual centers for TPT, the Pattern Worksheet Generator delivers the widest variety of pattern exercises available \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Pattern Worksheet uses a standard grid-based layout with 1\u20138 independently configured exercises per page, nine pattern types (AB through ABCD), and two question modes (blank box and multiple choice). Pattern Train displays a single pattern across 11 themed train wagons in a distinctive visual format with five pattern types (AB through AABB) and adjustable clue count. Pattern Worksheet excels at volume, variety, and mixed-difficulty pages; Pattern Train excels at visual engagement with its unique train car format.',
     },
     {
-      question: 'Is the Pattern Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all nine pattern types, both question modes, per-exercise configuration, the image library, random start and random blank position, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all nine pattern types, both question modes, per-exercise configuration, the image library, random start and random blank position, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Pattern Worksheet generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every pattern type, every question mode, every exercise configuration, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every pattern type, every question mode, every exercise configuration, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-pattern-worksheet-maker',
-      anchorText: 'Free Pattern Worksheet Maker',
+      slug: 'pattern-worksheet-maker',
+      anchorText: 'Pattern Worksheet Maker',
     },
     {
       pageType: 'start',

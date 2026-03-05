@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Grid Match Puzzle Generator for Picture Tile Matching Activities',
     tagline: 'Turn any image into a grid-based picture puzzle \u2014 divide it into tiles, reveal configurable clue cells, shuffle remaining tiles into a numbered palette, and auto-generate an answer key with numbered circle overlays across 104 themed image collections.',
     description:
-      'Build professional grid match puzzles where a single image is divided into a grid of tiles and students match numbered tiles back to their correct positions. Configure the grid from 2\u00d72 up to 4\u00d74 (2\u20134 rows \u00d7 2\u20134 columns) and set 1\u20135 clue cells that remain visible as hints \u2014 fewer clues mean harder puzzles. The app shuffles remaining tiles using Fisher-Yates randomization and displays them in a numbered palette beside or below the grid. Students study the revealed clue cells, examine the numbered tiles, and write which number belongs in each empty cell. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key displays the complete image with numbered circles overlaid on each cell showing the correct tile placement, so you never create answer keys manually. Grid Match is NOT language-sensitive: the puzzle output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or create quick-finish puzzle activities for TPT, this generator delivers production-ready grid puzzles in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional grid match puzzles where a single image is divided into a grid of tiles and students match numbered tiles back to their correct positions. Configure the grid from 2\u00d72 up to 4\u00d74 (2\u20134 rows \u00d7 2\u20134 columns) and set 1\u20135 clue cells that remain visible as hints \u2014 fewer clues mean harder puzzles. The app shuffles remaining tiles using Fisher-Yates randomization and displays them in a numbered palette beside or below the grid. Students study the revealed clue cells, examine the numbered tiles, and write which number belongs in each empty cell. The dual-canvas system generates both a worksheet tab and an answer key tab \u2014 the answer key displays the complete image with numbered circles overlaid on each cell showing the correct tile placement, so you never create answer keys manually. Grid Match is NOT language-sensitive: the puzzle output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or create quick-finish puzzle activities for TPT, this generator delivers production-ready grid puzzles in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Difficulty depends on two factors: total tiles (grid size) and visible clues. A 2\u00d72 grid with 3 clues leaves only 1 tile to match \u2014 the easiest possible puzzle. A 4\u00d74 grid with 1 clue requires matching 15 tiles \u2014 the hardest configuration. Between these extremes, you can create any difficulty level. For graduated workbooks, start with 2\u00d72 grids (3 clues), progress to 3\u00d73 (2 clues), and finish with 4\u00d74 (1 clue) for a natural difficulty curve.',
     },
     {
-      question: 'Is the Grid Match Puzzle Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all grid sizes, adjustable clue cells, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all grid sizes, adjustable clue cells, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Grid Match Puzzle Generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all grid sizes, clue cell configurations, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, clue cell configurations, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-grid-match-maker',
-      anchorText: 'Free Grid Match Puzzle Maker',
+      slug: 'grid-match-maker',
+      anchorText: 'Grid Match Puzzle Maker',
     },
     {
       pageType: 'start',

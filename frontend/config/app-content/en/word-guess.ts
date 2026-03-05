@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Word Guess Worksheet Generator for Image-Clue Vocabulary Puzzles',
     tagline: 'Hangman-style deduction meets image clues \u2014 four difficulty levels turn every word into a satisfying puzzle.',
     description:
-      'Design professional word guess worksheets where students see an image clue and deduce the hidden word by filling in blank letter cells \u2014 a hangman-style puzzle that builds spelling, vocabulary, and deductive reasoning simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using any vocabulary you type. Four difficulty levels control how many letters are pre-revealed as clues \u2014 from no clues at all to easy mode showing half the letters \u2014 creating natural scaffolding from beginner to advanced. Place 1 to 10 puzzles per worksheet and toggle uppercase or lowercase letter grids. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed vocabulary bundles on Etsy, compile word puzzle books for Amazon KDP, or create differentiated literacy centers for TPT, the Word Guess Worksheet Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional word guess worksheets where students see an image clue and deduce the hidden word by filling in blank letter cells \u2014 a hangman-style puzzle that builds spelling, vocabulary, and deductive reasoning simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using any vocabulary you type. Four difficulty levels control how many letters are pre-revealed as clues \u2014 from no clues at all to easy mode showing half the letters \u2014 creating natural scaffolding from beginner to advanced. Place 1 to 10 puzzles per worksheet and toggle uppercase or lowercase letter grids. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed vocabulary bundles on Etsy, compile word puzzle books for Amazon KDP, or create differentiated literacy centers for TPT, the Word Guess Worksheet Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -186,9 +186,9 @@ const content: AppContent = {
         'Yes. Because the word to guess is the image name in the selected language, changing the language changes the puzzle content entirely. \u201cDog\u201d in English becomes \u201cHund\u201d in German, \u201cchien\u201d in French, \u201cperro\u201d in Spanish \u2014 each with different letters and different letter counts. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
     },
     {
-      question: 'Is the Word Guess Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all three content sources, all four difficulty levels, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all three content sources, all four difficulty levels, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-word-guess-maker',
-      anchorText: 'Free Word Guess Worksheet Maker',
+      slug: 'word-guess-maker',
+      anchorText: 'Word Guess Worksheet Maker',
     },
     {
       pageType: 'guide',

@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Odd One Out Worksheet Generator for Find-the-Different Puzzles',
     tagline: 'Two generation modes \u2014 Identical and Similar \u2014 with per-exercise difficulty override, 5\u201310 configurable exercises, auto-generated answer keys with red circle markers, and visual-only puzzles that work across all 11 languages without translation.',
     description:
-      'Build professional find-the-different worksheets where students identify and circle the odd item in each row of four pictures. Choose between two generation modes: Identical mode places three clones of the same image alongside one different image from the same theme for spot-the-difference challenges, while Similar mode draws three images from Theme A and one image from Theme B for cross-theme discrimination puzzles. Override the mode per exercise to mix difficulty levels within a single worksheet. Configure 5 to 10 exercises per page with the default set to 6, and toggle optional name and date fields and exercise numbers for classroom-ready formatting. Every worksheet generates a companion answer key on a separate canvas tab \u2014 the answer key draws a red circle around the odd item in each row so you never mark answers manually. The auto-generated header features a coral outer border, amber inner border, and turquoise background with the localized title \u201cFind the Odd One Out\u201d rendered in Fredoka and instructions in Quicksand across all 11 languages. Because the puzzles are entirely visual \u2014 no words appear on the worksheet itself \u2014 they are not language-sensitive and work identically in every locale. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile critical thinking workbooks for Amazon KDP, or create classroom activities for TPT, this generator delivers production-ready odd one out worksheets in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional find-the-different worksheets where students identify and circle the odd item in each row of four pictures. Choose between two generation modes: Identical mode places three clones of the same image alongside one different image from the same theme for spot-the-difference challenges, while Similar mode draws three images from Theme A and one image from Theme B for cross-theme discrimination puzzles. Override the mode per exercise to mix difficulty levels within a single worksheet. Configure 5 to 10 exercises per page with the default set to 6, and toggle optional name and date fields and exercise numbers for classroom-ready formatting. Every worksheet generates a companion answer key on a separate canvas tab \u2014 the answer key draws a red circle around the odd item in each row so you never mark answers manually. The auto-generated header features a coral outer border, amber inner border, and turquoise background with the localized title \u201cFind the Odd One Out\u201d rendered in Fredoka and instructions in Quicksand across all 11 languages. Because the puzzles are entirely visual \u2014 no words appear on the worksheet itself \u2014 they are not language-sensitive and work identically in every locale. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile critical thinking workbooks for Amazon KDP, or create classroom activities for TPT, this generator delivers production-ready odd one out worksheets in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Toggle the \u201cInclude Exercise Numbers\u201d checkbox in the Exercise Configuration panel to display numerals on the left side of each exercise card. Numbers use a 25px width with a 15px gap from the card content. Exercise numbers help during classroom review and make it easy for teachers to reference specific exercises during discussion.',
     },
     {
-      question: 'Is the Odd One Out Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both generation modes, per-exercise overrides, configurable exercise counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both generation modes, per-exercise overrides, configurable exercise counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Are odd one out worksheets language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both generation modes, the per-exercise override system, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both generation modes, the per-exercise override system, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -235,8 +235,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-odd-one-out-maker',
-      anchorText: 'Free Odd One Out Worksheet Maker',
+      slug: 'odd-one-out-maker',
+      anchorText: 'Odd One Out Worksheet Maker',
     },
     {
       pageType: 'start',

@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Addition Worksheet Generator for Visual Math Practice',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
-      'Create stunning image-based addition worksheets that make early math tangible and fun. Choose from four distinct exercise modes \u2014 Image + Image, Image + Number, Find the Addend, and Mixed \u2014 to match every skill level from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like farm animals, vehicles, and food to bring each problem to life. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell on Etsy, publish activity books on Amazon KDP, or hand worksheets to your own students, the Addition Worksheet Generator gives you professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Create stunning image-based addition worksheets that make early math tangible and fun. Choose from four distinct exercise modes \u2014 Image + Image, Image + Number, Find the Addend, and Mixed \u2014 to match every skill level from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like farm animals, vehicles, and food to bring each problem to life. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell on Etsy, publish activity books on Amazon KDP, or hand worksheets to your own students, the Addition Worksheet Generator gives you professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -176,9 +176,9 @@ const content: AppContent = {
         'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look.',
     },
     {
-      question: 'Is the Addition Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature of the generator \u2014 all four exercise modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. The only difference is that free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature of the generator \u2014 all four exercise modes, the full image library, answer key generation, and all export formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'What does the commercial license include?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
     {
       question: 'Do I need to install any software?',
@@ -225,8 +225,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-addition-worksheet-maker',
-      anchorText: 'Free Addition Worksheet Maker',
+      slug: 'addition-worksheet-maker',
+      anchorText: 'Addition Worksheet Maker',
     },
     {
       pageType: 'guide',

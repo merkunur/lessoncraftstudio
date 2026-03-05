@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Coloring Page Generator for Custom Printable Coloring Worksheets',
     tagline: 'Free-form canvas coloring page designer \u2014 browse 104 themed image collections, add freehand drawings, include classroom helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
-      'Design professional coloring pages on a free-form canvas where you place images exactly where you want them \u2014 no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Classroom helpers add a student name field and handwriting practice lines with a single click \u2014 turning coloring pages into ready-to-use classroom activities. When you\u2019re finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive \u2014 output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or create classroom coloring activities for TPT, the Coloring Page Generator delivers professional results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Design professional coloring pages on a free-form canvas where you place images exactly where you want them \u2014 no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Classroom helpers add a student name field and handwriting practice lines with a single click \u2014 turning coloring pages into ready-to-use classroom activities. When you\u2019re finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive \u2014 output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or create classroom coloring activities for TPT, the Coloring Page Generator delivers professional results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Coloring pages are creative activities with no single correct answer \u2014 the entire purpose is for students or colorists to add their own colors. Unlike math worksheets or letter tracing exercises, there is no right or wrong way to color a page. This makes coloring pages ideal low-preparation products for sellers because you export only the coloring page itself, with no additional answer key file to create.',
     },
     {
-      question: 'Is the Coloring Page Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 the free-form canvas, all drawing tools, the image library, classroom helpers, border themes, grayscale export, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 the free-form canvas, all drawing tools, the image library, classroom helpers, border themes, grayscale export, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Coloring Page Generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, classroom helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, classroom helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-coloring-page-maker',
-      anchorText: 'Free Coloring Page Maker',
+      slug: 'coloring-page-maker',
+      anchorText: 'Coloring Page Maker',
     },
     {
       pageType: 'start',

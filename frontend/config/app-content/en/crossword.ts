@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Crossword Generator for Image-Based Crossword Puzzles',
     tagline: 'Replace traditional text clues with image clues on a 15\u00d715 crossword grid \u2014 four input methods (theme auto-select, manual image editing, custom word list, and image upload), auto-generated answer key with filled grid, and a localized \u201cPicture Crossword\u201d header across 104 themed image collections.',
     description:
-      'Build professional picture crossword puzzles where colorful images replace the text clues found in traditional crosswords. Eight images generate eight words on a fixed 15\u00d715 grid \u2014 the algorithm extracts words from image names, sorts by length for optimal placement, and fills the grid with numbered clue positions. Choose from four input methods: Quick Theme Generation auto-selects 8 random images from any theme and generates instantly; Manual Image Name Editing lets you click individual images and rename them before generation; Custom Word List with Clues switches to traditional text-clue crosswords using a WORD: clue format; and Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names via the Image Vocabulary system, so switching languages changes the actual crossword words. The dual-canvas system generates both a puzzle tab and an answer key tab \u2014 the answer key shows the filled grid with all answers visible. Every puzzle includes an auto-generated localized header with a blue background (#5B9BD5), Fredoka title, and Quicksand description rendered in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized puzzle words. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture crossword bundles on Etsy, compile crossword workbooks for Amazon KDP, or create vocabulary crossword activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional picture crossword puzzles where colorful images replace the text clues found in traditional crosswords. Eight images generate eight words on a fixed 15\u00d715 grid \u2014 the algorithm extracts words from image names, sorts by length for optimal placement, and fills the grid with numbered clue positions. Choose from four input methods: Quick Theme Generation auto-selects 8 random images from any theme and generates instantly; Manual Image Name Editing lets you click individual images and rename them before generation; Custom Word List with Clues switches to traditional text-clue crosswords using a WORD: clue format; and Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names via the Image Vocabulary system, so switching languages changes the actual crossword words. The dual-canvas system generates both a puzzle tab and an answer key tab \u2014 the answer key shows the filled grid with all answers visible. Every puzzle includes an auto-generated localized header with a blue background (#5B9BD5), Fredoka title, and Quicksand description rendered in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized puzzle words. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture crossword bundles on Etsy, compile crossword workbooks for Amazon KDP, or create vocabulary crossword activities for TPT, this generator delivers production-ready puzzles in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'Every generated crossword includes a responsive header with a blue background (#5B9BD5), white pill, and localized title and description. Portrait mode displays a full-width header (220px height); landscape mode uses a compact centered layout (145px height). The title \u201cPicture Crossword\u201d renders in Fredoka font with dynamic sizing (48px for short titles down to 28px for longer translations), and the description \u201cLook at the pictures and fill in the words!\u201d renders in Quicksand. Both text elements translate automatically into all 11 supported languages. A bright blue border (#4A90E2, 8px stroke, 12px rounded corners) frames the header.',
     },
     {
-      question: 'Is the Picture Crossword Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 all four input methods, the 15\u00d715 grid generator, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 all four input methods, the 15\u00d715 grid generator, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'How does the auto-generated answer key work?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test all four input methods, the 15\u00d715 grid generator, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four input methods, the 15\u00d715 grid generator, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -245,8 +245,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-crossword-maker',
-      anchorText: 'Free Picture Crossword Maker',
+      slug: 'crossword-maker',
+      anchorText: 'Picture Crossword Maker',
     },
     {
       pageType: 'start',

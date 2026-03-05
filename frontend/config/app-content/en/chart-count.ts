@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Picture Graph Worksheet Generator for Printable Chart Count Activities',
     tagline: 'Dual-canvas pictograph maker \u2014 generate scattered image grids with 6 image types, auto-filled bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets.',
     description:
-      'Turn visual counting into a complete data skills activity with the only worksheet generator built specifically for picture graphs. Each worksheet features a scattered image grid with 20 icons from 6 different types arranged in a 4\u00d75 layout \u2014 students count how many of each type appear, then color the corresponding cells in the bar chart below. The app simultaneously generates an answer key with yellow-highlighted cells showing the correct counts, so teachers can verify student work instantly. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown, or manually pick exactly 6 images from the browsable Image Library with 3,100+ illustrations across 104 collections. Every worksheet includes an auto-generated header with a localized \u201cPicture Graph\u201d title and counting instructions \u2014 the header adapts to all 11 supported languages automatically. Add student name and date fields with a single checkbox, apply background and border themes with independent opacity controls, and customize with text tools and freehand canvas editing. The Chart Count Generator is not language-sensitive \u2014 visual counting uses universal numbers and images, so worksheets work identically in every language. Full Access unlocks all 104 themes and all 11 UI languages. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Download all four files \u2014 worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF \u2014 with a single session. Whether you sell picture graph bundles on Etsy, compile data skills workbooks for Amazon KDP, or create math center activities for TPT, the Chart Count Generator delivers classroom-ready results in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Turn visual counting into a complete data skills activity with the only worksheet generator built specifically for picture graphs. Each worksheet features a scattered image grid with 20 icons from 6 different types arranged in a 4\u00d75 layout \u2014 students count how many of each type appear, then color the corresponding cells in the bar chart below. The app simultaneously generates an answer key with yellow-highlighted cells showing the correct counts, so teachers can verify student work instantly. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown, or manually pick exactly 6 images from the browsable Image Library with 3,100+ illustrations across 104 collections. Every worksheet includes an auto-generated header with a localized \u201cPicture Graph\u201d title and counting instructions \u2014 the header adapts to all 11 supported languages automatically. Add student name and date fields with a single checkbox, apply background and border themes with independent opacity controls, and customize with text tools and freehand canvas editing. The Chart Count Generator is not language-sensitive \u2014 visual counting uses universal numbers and images, so worksheets work identically in every language. Full Access unlocks all 104 themes and all 11 UI languages. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Download all four files \u2014 worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF \u2014 with a single session. Whether you sell picture graph bundles on Etsy, compile data skills workbooks for Amazon KDP, or create math center activities for TPT, the Chart Count Generator delivers classroom-ready results in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'The canvas area has two tabs: Worksheet and Answer Key. Click the Answer Key tab to view the auto-generated solution with yellow-filled chart cells. Click the Worksheet tab to return to the student version with empty cells. Each tab has its own pair of download buttons (JPEG and PDF), giving you four total download options. Edits to canvas elements like text, background, and borders apply to both tabs \u2014 the only difference between them is the bar chart fill state.',
     },
     {
-      question: 'Is the Chart Count Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 the dual canvas, image grid generation, bar chart creation, auto answer key, image library, background and border themes, name/date fields, grayscale export, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 the dual canvas, image grid generation, bar chart creation, auto answer key, image library, background and border themes, name/date fields, grayscale export, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Chart Count Generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test the dual canvas, image grid generation, auto answer key, the full image library, background and border themes, name/date fields, grayscale export, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the dual canvas, image grid generation, auto answer key, the full image library, background and border themes, name/date fields, grayscale export, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-chart-count-maker',
-      anchorText: 'Free Chart Count Maker',
+      slug: 'chart-count-maker',
+      anchorText: 'Chart Count Maker',
     },
     {
       pageType: 'start',

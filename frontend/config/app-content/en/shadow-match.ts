@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Shadow Match Worksheet Generator for Silhouette and Split-Image Matching Activities',
     tagline: 'Two matching modes in one generator \u2014 Shadow Match creates auto-generated black silhouettes from any image, Make It Whole splits images into halves \u2014 both with Fisher-Yates derangement ensuring no trivial matches, auto-generated answer keys, and 104 themed image collections.',
     description:
-      'Build professional shadow matching worksheets where students match colored images to their silhouettes or reconnect split image halves. Shadow Match mode places 4 colored images labeled A, B, C, D in the top row and 4 auto-generated black silhouettes labeled 1, 2, 3, 4 in the bottom row \u2014 silhouettes are created through pixel-level image processing that converts every pixel with alpha > 10 to pure black, producing accurate outlines that preserve each image\u2019s exact transparency profile. Make It Whole mode splits images into halves with horizontal or vertical cut direction, labels first halves A\u2013D and second halves 1\u20134, and adapts layout based on orientation. Both modes use Fisher-Yates derangement to guarantee no item appears in its original position, creating genuine matching challenges every time. Toggle show/hide labels for the A/B/C/D and 1/2/3/4 identifiers, add optional name and date fields for classroom use, and generate auto-answer keys that display each correct letter-to-number pairing. The Shadow Match Worksheet Generator is NOT language-sensitive: the output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell shadow puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or create quick-finish activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 completely free to try with no signup and no credit card.',
+      'Build professional shadow matching worksheets where students match colored images to their silhouettes or reconnect split image halves. Shadow Match mode places 4 colored images labeled A, B, C, D in the top row and 4 auto-generated black silhouettes labeled 1, 2, 3, 4 in the bottom row \u2014 silhouettes are created through pixel-level image processing that converts every pixel with alpha > 10 to pure black, producing accurate outlines that preserve each image\u2019s exact transparency profile. Make It Whole mode splits images into halves with horizontal or vertical cut direction, labels first halves A\u2013D and second halves 1\u20134, and adapts layout based on orientation. Both modes use Fisher-Yates derangement to guarantee no item appears in its original position, creating genuine matching challenges every time. Toggle show/hide labels for the A/B/C/D and 1/2/3/4 identifiers, add optional name and date fields for classroom use, and generate auto-answer keys that display each correct letter-to-number pairing. The Shadow Match Worksheet Generator is NOT language-sensitive: the output is purely visual with no localized word content on the worksheet itself. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for the app interface. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200\u00d71200), or custom sizes. Whether you sell shadow puzzle bundles on Etsy, compile visual perception workbooks for Amazon KDP, or create quick-finish activities for TPT, this generator delivers production-ready worksheets in minutes \u2014 free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -181,9 +181,9 @@ const content: AppContent = {
         'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. In Shadow Match mode, the answer key shows a grid where each cell displays the original image alongside its silhouette with a label like \u201cA \u2192 2\u201d. In Make It Whole mode, each cell shows the complete original image with its match label. The grid uses 4 columns with consistent spacing. Both versions export separately using four dedicated download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
     },
     {
-      question: 'Is the Shadow Match Worksheet Generator really free to try?',
+      question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature \u2014 both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature \u2014 both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats \u2014 without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Shadow Match Worksheet Generator language-sensitive?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the generator is completely free to try with all features unlocked, we do not offer refunds on commercial license purchases. You can test both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats before buying. The free trial is the refund policy \u2014 make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -240,8 +240,8 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'free-shadow-match-maker',
-      anchorText: 'Free Shadow Match Worksheet Maker',
+      slug: 'shadow-match-maker',
+      anchorText: 'Shadow Match Worksheet Maker',
     },
     {
       pageType: 'start',

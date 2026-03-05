@@ -2,21 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'code addition worksheet generator',
+    primaryKeyword: 'create code breaker math puzzles to sell',
     secondaryKeywords: [
-      'crack the code math worksheets',
-      'code breaker addition worksheets for kids',
-      'secret word math puzzle worksheets',
-      'cryptarithmetic addition puzzles printable',
+      'printable math puzzle worksheets for Etsy',
+      'crack the code printables for Amazon KDP',
+      'math puzzle maker for TPT sellers',
+      'code breaking worksheet commercial license',
     ],
     lsiKeywords: [
-      'cryptarithmetic puzzles for kids',
-      'decode the math worksheets',
-      'symbol addition code breaking',
+      'printable puzzle business ideas',
+      'sell educational puzzles online',
+      'math puzzle book creator for entrepreneurs',
     ],
-    titleTag: 'Code Addition Worksheet Generator | Crack-the-Code Math',
+    titleTag: 'Code Addition Worksheet Generator | Create & Sell Math Puzzles',
     metaDescription:
-      'Create code-breaking addition worksheets where images hide secret numbers. Includes Word Reveal mode, 104 themes, answer keys, and 400+ DPI export. Free to try.',
+      'Create code-breaking addition puzzles to sell on Etsy, Amazon KDP, and TPT. Word Reveal mode, 104 themes, 11 languages, answer keys, 400+ DPI. Free to try.',
   },
 
   hero: {

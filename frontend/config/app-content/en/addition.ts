@@ -2,21 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'addition worksheet generator',
+    primaryKeyword: 'create math worksheets to sell',
     secondaryKeywords: [
-      'math addition worksheets for kids',
-      'printable addition practice sheets',
-      'image-based addition worksheets',
-      'visual addition exercises for kindergarten',
+      'printable addition worksheets for Etsy',
+      'math worksheet maker for KDP publishers',
+      'sell addition worksheets on Teachers Pay Teachers',
+      'addition printables commercial license',
     ],
     lsiKeywords: [
-      'early math practice',
-      'counting and adding activities',
-      'number sense worksheets',
+      'digital math products passive income',
+      'printable worksheet business',
+      'commercial use worksheet generator',
     ],
-    titleTag: 'Addition Worksheet Generator | Create Visual Math Sheets',
+    titleTag: 'Addition Worksheet Generator | Create & Sell Math Printables',
     metaDescription:
-      'Create beautiful image-based addition worksheets with 4 exercise modes, 104 visual themes, and instant answer keys. Free to try \u2014 no signup required.',
+      'Create professional addition worksheets to sell on Etsy, Amazon KDP, and TPT. 104 themes, 4 exercise modes, answer keys, 400+ DPI export. Free to try \u2014 commercial license available.',
   },
 
   hero: {

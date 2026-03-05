@@ -2,21 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator',
+    primaryKeyword: 'make subtraction worksheets to sell online',
     secondaryKeywords: [
-      'image subtraction worksheets for kids',
-      'printable subtraction practice sheets',
-      'visual subtraction exercises for kindergarten',
-      'cross out subtraction worksheets',
+      'subtraction printables for Etsy sellers',
+      'create subtraction activity books for Amazon KDP',
+      'sell subtraction worksheets Teachers Pay Teachers',
+      'printable subtraction sheets commercial use',
     ],
     lsiKeywords: [
-      'take away math practice',
-      'minus worksheets for early learners',
-      'counting backwards activities',
+      'digital printable products for entrepreneurs',
+      'math printable business ideas',
+      'worksheet creator for online sellers',
     ],
-    titleTag: 'Subtraction Worksheet Generator | Visual Cross-Out Math',
+    titleTag: 'Subtraction Worksheet Generator | Create & Sell Printables',
     metaDescription:
-      'Create image-based subtraction worksheets with cross-out visualization, 4 exercise modes, 104 themes, and automatic answer keys. Free to try \u2014 no signup required.',
+      'Make professional subtraction worksheets to sell on Etsy, Amazon KDP, or TPT. 5 exercise modes, 104 visual themes, answer keys, and 400+ DPI export. Free to try.',
   },
 
   hero: {

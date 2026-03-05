@@ -235,7 +235,7 @@ ${images.slice(1, 5).map(img => `      { src: '${img}', alt: '' }, // TODO: loca
     // MANDATORY: Refund policy FAQ (among last 3)
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -258,9 +258,9 @@ export const content: FreeToolContent = {
   locale: '${locale}',
 
   seo: {
-    titleTag: '', // TODO: <= 60 chars, e.g. "Free ${appId} Worksheet Maker | No Signup"
+    titleTag: '', // TODO: <= 60 chars, e.g. "${appId} Worksheet Maker | No Signup"
     metaDescription: '', // TODO: 150-160 chars
-    primaryKeyword: '', // TODO: e.g. "free ${appId} worksheet generator"
+    primaryKeyword: '', // TODO: e.g. "${appId} worksheet generator"
     secondaryKeywords: [],
     lsiKeywords: [],
   },
@@ -337,7 +337,7 @@ ${images.slice(1, 6).map(img => `      { src: '${img}', alt: '' },`).join('\n')}
     { question: '', answer: '' },
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -390,7 +390,7 @@ export const content: BundleContent = {
     // TODO: 8-10 bundle-specific Q&As + mandatory refund FAQ
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -447,7 +447,7 @@ export const content: CornerstoneContent = {
     // TODO: 6-8 questions + mandatory refund FAQ
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -507,7 +507,7 @@ export const content: CreateXContent = {
     // TODO: 5-7 questions + mandatory refund FAQ
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -562,7 +562,7 @@ export const content: NicheIdeaContent = {
     // TODO: 5-7 niche-specific Q&As + mandatory refund FAQ
     {
       question: 'What is your refund policy?',
-      answer: 'We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
+      answer: 'We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy.',
     },
   ],
 
@@ -606,7 +606,7 @@ function main() {
       break;
     case 'free-tool':
       // For free-tool, use the tool slug as file name
-      fileId = params.id || `free-${appId}-worksheet-maker`;
+      fileId = params.id || `${appId}-worksheet-maker`;
       content = generateFreeTool(appId, locale);
       break;
     case 'bundle':

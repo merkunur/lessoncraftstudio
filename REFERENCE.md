@@ -3,7 +3,7 @@
 **Purpose:** Single source of truth for creating ~2,134 pages across 6 page types, each with 3,000+ words, in 11 languages. Any Claude Code session can pick up and execute independently.
 
 > **CRITICAL — FREE TRIAL MESSAGING (applies to ALL 2,134 pages):**
-> Every page must prominently communicate that all 33 apps are **free to try with full features** — no signup, no credit card, no feature restrictions. The ONLY difference between free and paid is a **watermark on downloaded files**. This is our #1 trust builder and conversion driver. Additionally, every FAQ section must include a **no-refund policy** FAQ that points visitors to the free trial: "Try before you buy."
+> Every page must prominently communicate that all 33 apps offer a **free trial with watermark** — no signup, no credit card, no feature restrictions. Downloads include a watermark; a paid license removes it. NEVER say "free" without "trial" qualifier. This is our #1 trust builder and conversion driver. Additionally, every FAQ section must include a **no-refund policy** FAQ that points visitors to the free trial: "Try before you buy."
 
 ---
 
@@ -32,6 +32,13 @@
 ## 1. RULES & MANDATES
 
 Everything in this section is mandatory. A session that reads Section 1 has ALL rules — no additional rules are introduced in later sections.
+
+### 1.0 FREE TRIAL MESSAGING (ABSOLUTE RULE)
+- The apps are **NOT free**. They offer a **free trial with watermark**.
+- NEVER write "free [tool name]" or "free generator" — always say "free trial" or "try free with watermark"
+- NEVER use "free" in URL slugs, page titles, or SEO keywords without "trial"
+- Downloads include a watermark. Removing it requires a paid license.
+- This overrides the old "free to try" messaging in the CRITICAL FREE TRIAL note at the top of REFERENCE.md
 
 ### 1.1 Mandatory Stop Rule
 
@@ -158,7 +165,7 @@ All YouTube embeds MUST use the click-to-play facade pattern (proven implementat
 - Links appear naturally within content (not just in a "Related" section at the bottom)
 
 **Anchor text rules:**
-- Use descriptive, keyword-rich anchor text (e.g., "free addition worksheet maker" not "click here")
+- Use descriptive, keyword-rich anchor text (e.g., "addition worksheet maker" not "click here")
 - Vary anchor text — don't use the same exact text for every link to the same page
 - Anchor text must be in the page's locale language
 - Never use bare URLs as link text
@@ -196,7 +203,7 @@ Each page gets:
 
 **How keyword targets map by page type:**
 - Page Type 1 (App Detail): "create [product type] to sell on [platform]" (e.g., "create math worksheets to sell")
-- Page Type 2 (Free Tool): "free [product type] maker for sellers" (e.g., "free addition worksheet maker for Etsy sellers")
+- Page Type 2 (Free Tool): "[product type] maker for sellers" (e.g., "addition worksheet maker for Etsy sellers")
 - Page Type 3 (Bundle): "[category] printable toolkit for entrepreneurs" (e.g., "math printable toolkit for entrepreneurs")
 - Page Type 4 (Cornerstone): "[business model] printable business guide" (e.g., "how to start a printable business on Etsy")
 - Page Type 5 (Create X): "how to sell [product type] on [platform]" (e.g., "how to sell word search worksheets on Etsy")
@@ -308,7 +315,7 @@ Every page speaks to real people at different stages of their printable-selling 
 | **Empowering** | Make the reader the hero — they create, they earn, they build | Position the tool as the hero or talk down to the reader | DO: "You choose the theme, the words, the layout — your brand, your way" / DON'T: "Our powerful tool does everything for you" |
 | **Specific** | Name exact features, exact platforms, exact formats | Use vague marketing language or empty superlatives | DO: "Export at 300 DPI — the minimum for Amazon KDP print quality" / DON'T: "High-quality professional output" |
 | **Honest** | State real capabilities, real limitations, real use cases | Oversell, imply guaranteed income, or hide restrictions | DO: "Commercial Pack includes 10 image themes — enough to launch your first 50+ products" / DON'T: "Unlimited creative possibilities" |
-| **Action-Oriented** | End sections with a clear next step | Leave the reader wondering "so what?" or "what now?" | DO: "Try the free version below — no signup needed" / DON'T: "The tool is available for use" |
+| **Action-Oriented** | End sections with a clear next step | Leave the reader wondering "so what?" or "what now?" | DO: "Try the free trial below — no signup needed" / DON'T: "The tool is available for use" |
 | **Benefit-First** | Lead with what the reader gains, then explain the feature | Lead with technical details or feature names | DO: "Stand out on Etsy with 104 hand-drawn image themes that no competitor can replicate" / DON'T: "The image library contains 104 themes" |
 
 #### 1.10.3 Opening Hook Rules
@@ -341,7 +348,7 @@ Every page must follow this 3-step emotional arc at least once (typically in the
 | Page Type | Pain Point | Solution Bridge | Result Emphasis |
 |-----------|-----------|-----------------|-----------------|
 | 1: App Detail | "Creating professional printables requires expensive software and design skills" | "This generator handles the design — you handle the creativity" | Specific output: "300 DPI PDFs ready for print-on-demand" |
-| 2: Free Tool | "You can't test a tool properly from screenshots alone" | "Try it right now, free, no signup — see the quality yourself" | Conversion: "When you're ready to sell, the Commercial Pack removes the watermark" |
+| 2: Free Tool | "You can't test a tool properly from screenshots alone" | "Try the free trial right now, no signup — see the quality yourself" | Conversion: "When you're ready to sell, the Commercial Pack removes the watermark" |
 | 3: Bundle | "Buying tools one-by-one adds up fast and still leaves gaps in your catalog" | "One purchase, six generators, thousands of product combinations" | Scale: "Create an entire printable category from a single bundle" |
 | 4: Cornerstone Guide | "The printable business space looks crowded and confusing from the outside" | "Here's the proven path — platform by platform, step by step" | Authority: "This is how working sellers actually operate" |
 | 5: Create X Guide | "I want to sell [product type] but don't know where to start" | "Here's exactly how to create, format, and list [product type]" | Actionable: "Follow these steps and list your first product today" |
@@ -389,10 +396,10 @@ Every CTA must follow these principles:
 
 | Rule | Requirement | Example |
 |------|-------------|---------|
-| **Action verb first** | Start with a verb that describes what happens next | "Try the free version" not "Free version available" |
+| **Action verb first** | Start with a verb that describes what happens next | "Try the free trial" not "Free version available" |
 | **Mention value** | Include what the reader gets | "Download your first worksheet" not "Click here" |
 | **Context-specific** | Match the CTA to the page type and section | "Create your first word search now" not generic "Get started" |
-| **Match page type** | Different types have different primary CTAs | Type 1: "Try Free / Buy Now" · Type 2: "Use Free Tool Below" · Type 3: "Get the Bundle" · Type 4-6: "Try [App] Free" |
+| **Match page type** | Different types have different primary CTAs | Type 1: "Try Free Trial / Buy Now" · Type 2: "Use Free Trial Below" · Type 3: "Get the Bundle" · Type 4-6: "Try [App] Free Trial" |
 
 **Placement rules:**
 - **Minimum 3 CTAs per page:** Hero section + after How It Works + final section
@@ -426,8 +433,8 @@ While the voice principles (1.10.2) apply everywhere, each page type emphasizes 
 
 | Page Type | Tone Emphasis | Lead Emotion | Key Phrase Patterns |
 |-----------|--------------|--------------|---------------------|
-| 1: App Detail | Confident, demo-focused | "I can see exactly what I'll get" | "See it in action" · "Here's what you'll create" · "Try it free" |
-| 2: Free Tool | Inviting, low-pressure | "I can try this risk-free right now" | "No signup needed" · "Free, right here" · "When you're ready to sell..." |
+| 1: App Detail | Confident, demo-focused | "I can see exactly what I'll get" | "See it in action" · "Here's what you'll create" · "Try the free trial" |
+| 2: Free Tool | Inviting, low-pressure | "I can try this risk-free right now" | "No signup needed" · "Free trial, right here" · "When you're ready to sell..." |
 | 3: Bundle | Value-focused, strategic | "This is the smart way to buy" | "Everything you need for [category]" · "One purchase, [N] generators" · "Save [X]% vs. individual" |
 | 4: Cornerstone Guide | Authoritative, mentoring | "I trust this guide — it knows the space" | "Here's how it actually works" · "The path from zero to selling" · "What successful sellers do" |
 | 5: Create X Guide | Practical, step-by-step | "I can follow this and get a result today" | "Step 1..." · "Here's exactly how" · "By the end of this guide..." |
@@ -577,12 +584,12 @@ Every page type must mention the free trial in specific locations. Use natural p
 
 | Page Type | Where to Mention | How to Frame |
 |-----------|-----------------|--------------|
-| 1: App Detail | Hero section, How It Works, CTA sections, FAQ | "Try it free right now — all features, no signup. Only downloaded files have a watermark." |
-| 2: Free Tool | Hero (primary message), embedded tool intro, FAQ | "Use the full tool below — free, no signup. Love it? Remove the watermark with a one-time purchase." |
-| 3: Bundle | Value proposition, comparison table, FAQ | "Try every app in this bundle free before buying. All features work — watermark is the only difference." |
-| 4: Cornerstone Guide | Tools Recommended section, FAQ | "Every tool mentioned in this guide is free to try — test them all before investing." |
-| 5: Create X Guide | Tool introduction, step-by-step section, FAQ | "Follow along with the free version — it has all the same features. Buy when you're ready to sell." |
-| 6: Niche/Theme Ideas | How to Create section, tool links, FAQ | "Start creating in this niche today — every tool is free to try with full features." |
+| 1: App Detail | Hero section, How It Works, CTA sections, FAQ | "Try the free trial right now — all features, no signup. Downloads include a watermark; purchase a license to remove it." |
+| 2: Free Tool | Hero (primary message), embedded tool intro, FAQ | "Use the full free trial below — no signup. Love it? Remove the watermark with a one-time purchase." |
+| 3: Bundle | Value proposition, comparison table, FAQ | "Try every app in this bundle with the free trial before buying. All features work — the only difference is a watermark." |
+| 4: Cornerstone Guide | Tools Recommended section, FAQ | "Every tool mentioned in this guide has a free trial — test them all before investing." |
+| 5: Create X Guide | Tool introduction, step-by-step section, FAQ | "Follow along with the free trial — it has all the same features. Buy when you're ready to sell." |
+| 6: Niche/Theme Ideas | How to Create section, tool links, FAQ | "Start creating in this niche today — every tool has a free trial with full features." |
 
 #### 1.12.3 Mandatory Refund Policy FAQ
 
@@ -590,7 +597,7 @@ EVERY page's FAQ section must include a refund policy Q&A. This is non-negotiabl
 
 **Question pattern:** "What is your refund policy?" (localized naturally per locale)
 
-**Answer pattern:** "We do not offer refunds because every app is free to try with all features before you buy. The only difference between the free version and the paid version is a watermark on downloaded files. We encourage you to try before you buy — test the app thoroughly, create worksheets, check the quality, and only purchase when you're completely satisfied."
+**Answer pattern:** "We do not offer refunds because every app has a free trial with all features before you buy. The only difference between the free trial and the paid version is a watermark on downloaded files. We encourage you to try before you buy — test the app thoroughly, create worksheets, check the quality, and only purchase when you're completely satisfied."
 
 **Rules:**
 - This FAQ must appear on ALL 6 page types, ALL 11 locales
@@ -603,10 +610,10 @@ EVERY page's FAQ section must include a refund policy Q&A. This is non-negotiabl
 
 | Rule | Correct | Incorrect |
 |------|---------|-----------|
-| Use "free to try" or "try free" | "Try it free with all features" | "Start your free trial" (implies time limit) |
+| Use "free trial" or "try the free trial" | "Try the free trial with all features" | "Start your free trial" (implies time limit) or bare "free" without "trial" |
 | Always mention no signup | "No signup, no credit card" | Omitting the signup detail |
-| Clarify watermark is the ONLY difference | "The only difference is a watermark" | "Some features require purchase" |
-| Never imply feature limits | "All features included" | "Limited free version" or "Basic free version" |
+| Clarify watermark is the ONLY difference | "Free trial downloads include a watermark" | "Some features require purchase" |
+| Never imply feature limits | "All features included in the free trial" | "Limited free version" or "Basic free version" |
 | Locale-appropriate phrasing | Natural equivalent in target language | Word-for-word translation of English phrase |
 
 ---
@@ -858,7 +865,7 @@ Before writing content for any app, READ `REFERENCE APPS/[app].html` and extract
 ## 5. PAGE TYPE 2: FREE TOOL LANDING PAGES (33 tools x 11 locales = 363 pages)
 
 ### Purpose
-SEO magnets targeting "free [type] maker for sellers" keywords — every keyword must signal seller/entrepreneur intent per Section 1.7. Each page embeds the actual free app (via iframe) surrounded by substantial content. The free tool with watermark IS the lead magnet — it demonstrates value and drives paid conversions.
+SEO magnets targeting "[type] maker for sellers" keywords — every keyword must signal seller/entrepreneur intent per Section 1.7. Each page embeds the actual app free trial (via iframe) surrounded by substantial content. The free trial with watermark IS the lead magnet — it demonstrates value and drives paid conversions.
 
 ### Route: `/{locale}/tools/{localized-slug}`
 
@@ -879,39 +886,39 @@ SEO magnets targeting "free [type] maker for sellers" keywords — every keyword
 
 | # | Tool Page | URL Slug (English) | Target Keyword |
 |---|-----------|-------------------|----------------|
-| 1 | Free Addition Worksheet Maker | free-addition-worksheet-maker | free addition worksheet generator |
-| 2 | Free Subtraction Worksheet Maker | free-subtraction-worksheet-maker | free subtraction worksheet generator |
-| 3 | Free Code Addition Worksheet Maker | free-code-addition-worksheet-maker | free code breaker math worksheet |
-| 4 | Free More or Less Worksheet Maker | free-more-or-less-worksheet-maker | free greater than less than worksheets |
-| 5 | Free Math Puzzle Maker | free-math-puzzle-maker | free math puzzle worksheet generator |
-| 6 | Free Math Worksheet Maker | free-math-worksheet-maker | free math worksheet generator |
-| 7 | Free Alphabet Train Worksheet Maker | free-alphabet-train-maker | free alphabet worksheet generator |
-| 8 | Free Prepositions Worksheet Maker | free-prepositions-worksheet-maker | free prepositions worksheet generator |
-| 9 | Free Word Guess Worksheet Maker | free-word-guess-maker | free hangman worksheet generator |
-| 10 | Free Word Scramble Maker | free-word-scramble-maker | free word scramble generator |
-| 11 | Free Word Search Maker | free-word-search-maker | free word search generator |
-| 12 | Free Cryptogram Maker | free-cryptogram-maker | free cryptogram puzzle generator |
-| 13 | Free Handwriting Worksheet Maker | free-handwriting-worksheet-maker | free handwriting practice generator |
-| 14 | Free Big & Small Worksheet Maker | free-big-and-small-worksheet-maker | free size comparison worksheet |
-| 15 | Free Pattern Train Maker | free-pattern-train-maker | free pattern worksheet generator |
-| 16 | Free Pattern Worksheet Maker | free-pattern-worksheet-maker | free pattern recognition worksheet |
-| 17 | Free Draw & Color Worksheet Maker | free-draw-and-color-maker | free drawing worksheet generator |
-| 18 | Free Drawing Lines Worksheet Maker | free-drawing-lines-maker | free line tracing worksheet |
-| 19 | Free Coloring Page Maker | free-coloring-page-maker | free coloring page generator |
-| 20 | Free Chart Count Worksheet Maker | free-chart-count-maker | free picture graph worksheet |
-| 21 | Free Matching Worksheet Maker | free-matching-worksheet-maker | free matching worksheet generator |
-| 22 | Free Grid Match Maker | free-grid-match-maker | free grid matching worksheet |
-| 23 | Free Shadow Match Maker | free-shadow-match-maker | free shadow matching worksheet |
-| 24 | Free Bingo Card Maker | free-bingo-card-maker | free picture bingo card generator |
-| 25 | Free Picture Sort Maker | free-picture-sort-maker | free sorting worksheet generator |
-| 26 | Free Missing Pieces Puzzle Maker | free-missing-pieces-maker | free jigsaw puzzle worksheet |
-| 27 | Free Odd One Out Maker | free-odd-one-out-maker | free odd one out worksheet |
-| 28 | Free Picture Sudoku Maker | free-sudoku-maker | free picture sudoku for kids |
-| 29 | Free Picture Path Maze Maker | free-picture-path-maker | free maze worksheet generator |
-| 30 | Free Find & Count Maker | free-find-and-count-maker | free I spy worksheet generator |
-| 31 | Free Hidden Object Maker | free-hidden-object-maker | free hidden object worksheet |
-| 32 | Free Crossword Puzzle Maker | free-crossword-maker | free picture crossword generator |
-| 33 | Free Treasure Hunt Maker | free-treasure-hunt-maker | free treasure hunt worksheet |
+| 1 | Addition Worksheet Maker | addition-worksheet-maker | addition worksheet generator |
+| 2 | Subtraction Worksheet Maker | subtraction-worksheet-maker | subtraction worksheet generator |
+| 3 | Code Addition Worksheet Maker | code-addition-worksheet-maker | code breaker math worksheet |
+| 4 | More or Less Worksheet Maker | more-or-less-worksheet-maker | greater than less than worksheets |
+| 5 | Math Puzzle Maker | math-puzzle-maker | math puzzle worksheet generator |
+| 6 | Math Worksheet Maker | math-worksheet-maker | math worksheet generator |
+| 7 | Alphabet Train Worksheet Maker | alphabet-train-maker | alphabet worksheet generator |
+| 8 | Prepositions Worksheet Maker | prepositions-worksheet-maker | prepositions worksheet generator |
+| 9 | Word Guess Worksheet Maker | word-guess-maker | hangman worksheet generator |
+| 10 | Word Scramble Maker | word-scramble-maker | word scramble generator |
+| 11 | Word Search Maker | word-search-maker | word search generator |
+| 12 | Cryptogram Maker | cryptogram-maker | cryptogram puzzle generator |
+| 13 | Handwriting Worksheet Maker | handwriting-worksheet-maker | handwriting practice generator |
+| 14 | Big & Small Worksheet Maker | big-and-small-worksheet-maker | size comparison worksheet |
+| 15 | Pattern Train Maker | pattern-train-maker | pattern worksheet generator |
+| 16 | Pattern Worksheet Maker | pattern-worksheet-maker | pattern recognition worksheet |
+| 17 | Draw & Color Worksheet Maker | draw-and-color-maker | drawing worksheet generator |
+| 18 | Drawing Lines Worksheet Maker | drawing-lines-maker | line tracing worksheet |
+| 19 | Coloring Page Maker | coloring-page-maker | coloring page generator |
+| 20 | Chart Count Worksheet Maker | chart-count-maker | picture graph worksheet |
+| 21 | Matching Worksheet Maker | matching-worksheet-maker | matching worksheet generator |
+| 22 | Grid Match Maker | grid-match-maker | grid matching worksheet |
+| 23 | Shadow Match Maker | shadow-match-maker | shadow matching worksheet |
+| 24 | Bingo Card Maker | bingo-card-maker | picture bingo card generator |
+| 25 | Picture Sort Maker | picture-sort-maker | sorting worksheet generator |
+| 26 | Missing Pieces Puzzle Maker | missing-pieces-maker | jigsaw puzzle worksheet |
+| 27 | Odd One Out Maker | odd-one-out-maker | odd one out worksheet |
+| 28 | Picture Sudoku Maker | sudoku-maker | picture sudoku for kids |
+| 29 | Picture Path Maze Maker | picture-path-maker | maze worksheet generator |
+| 30 | Find & Count Maker | find-and-count-maker | I spy worksheet generator |
+| 31 | Hidden Object Maker | hidden-object-maker | hidden object worksheet |
+| 32 | Crossword Puzzle Maker | crossword-maker | picture crossword generator |
+| 33 | Treasure Hunt Maker | treasure-hunt-maker | treasure hunt worksheet |
 
 ### File Structure
 ```
@@ -919,8 +926,8 @@ frontend/app/[locale]/tools/[tool]/page.tsx    -- Template (new)
 frontend/config/tool-content/
   types.ts
   index.ts
-  en/free-addition-worksheet-maker.ts
-  en/free-subtraction-worksheet-maker.ts
+  en/addition-worksheet-maker.ts
+  en/subtraction-worksheet-maker.ts
   ... (33 per locale x 11 locales)
 ```
 
@@ -1253,16 +1260,16 @@ frontend/config/idea-content/
 
 **URL slug = localized per language.** Stored in a slug config file per page type, following the exact pattern of `product-page-slugs.ts`.
 
-Example for Free Tool "free-addition-worksheet-maker":
+Example for Free Tool "addition-worksheet-maker":
 
 | Locale | URL |
 |--------|-----|
-| en | `/en/tools/free-addition-worksheet-maker` |
-| de | `/de/tools/kostenloser-additions-arbeitsblatt-ersteller` |
-| fr | `/fr/tools/generateur-gratuit-fiches-addition` |
-| es | `/es/tools/generador-gratuito-fichas-suma` |
-| it | `/it/tools/generatore-gratuito-schede-addizione` |
-| pt | `/pt/tools/gerador-gratuito-fichas-adicao` |
+| en | `/en/tools/addition-worksheet-maker` |
+| de | `/de/tools/additions-arbeitsblatt-ersteller` |
+| fr | `/fr/tools/generateur-fiches-addition` |
+| es | `/es/tools/generador-fichas-suma` |
+| it | `/it/tools/generatore-schede-addizione` |
+| pt | `/pt/tools/gerador-fichas-adicao` |
 | nl | `/nl/tools/gratis-optellen-werkblad-maker` |
 | sv | `/sv/tools/gratis-additions-arbetsblad-skapare` |
 | da | `/da/tools/gratis-additions-arbejdsark-maker` |
@@ -1305,11 +1312,11 @@ export interface ToolSlugConfig {
 
 export const toolPageSlugs: ToolSlugConfig[] = [
   {
-    toolId: 'free-addition-worksheet-maker',
+    toolId: 'addition-worksheet-maker',
     slugs: {
-      en: 'free-addition-worksheet-maker',
-      de: 'kostenloser-additions-arbeitsblatt-ersteller',
-      fr: 'generateur-gratuit-fiches-addition',
+      en: 'addition-worksheet-maker',
+      de: 'additions-arbeitsblatt-ersteller',
+      fr: 'generateur-fiches-addition',
       // ... all 11 locales
     },
   },
@@ -1352,13 +1359,13 @@ The existing `middleware.ts` (lines 11-51) builds **3 redirect maps** at startup
 For each new page type, middleware needs:
 
 **Map 1: Legacy/Internal ID -> Localized Slug Redirect**
-- Catches: `/de/tools/free-addition-worksheet-maker` (internal ID used as slug)
-- Redirects to: `/de/tools/kostenloser-additions-arbeitsblatt-ersteller`
+- Catches: `/de/tools/addition-worksheet-maker` (internal ID used as slug)
+- Redirects to: `/de/tools/additions-arbeitsblatt-ersteller`
 - Status: 301
 
 **Map 2: English Slug -> Correct Locale Slug Redirect**
-- Catches: `/de/tools/free-addition-worksheet-maker` (English slug on non-English locale)
-- Redirects to: `/de/tools/kostenloser-additions-arbeitsblatt-ersteller`
+- Catches: `/de/tools/addition-worksheet-maker` (English slug on non-English locale)
+- Redirects to: `/de/tools/additions-arbeitsblatt-ersteller`
 - Status: 301
 
 **Map 3: Cross-Locale Slug -> Correct Locale Slug Redirect**
@@ -1458,7 +1465,7 @@ Create `scripts/verify-all-slugs.js` that:
 
 ### 11.2 Universal Features (All 33 Apps)
 - PDF export at 300 DPI (print-ready, US Letter + A4)
-- Free to use with watermark (no signup required)
+- Free trial with watermark (no signup required)
 - Full editing of all generated elements on canvas
 - 11-language UI support (interface labels and controls)
 - Image library integration with theme browsing + search (32/33 — Math Worksheet is the exception)
@@ -1881,39 +1888,39 @@ Same 33 apps, same order as Phase 1. Each tool page = 1 part.
 
 | Part | Tool |
 |------|------|
-| P2-EN-001 | Free Addition Worksheet Maker |
-| P2-EN-002 | Free Subtraction Worksheet Maker |
-| P2-EN-003 | Free Code Addition Worksheet Maker |
-| P2-EN-004 | Free More or Less Worksheet Maker |
-| P2-EN-005 | Free Math Puzzle Maker |
-| P2-EN-006 | Free Math Worksheet Maker |
-| P2-EN-007 | Free Alphabet Train Maker |
-| P2-EN-008 | Free Prepositions Worksheet Maker |
-| P2-EN-009 | Free Word Guess Maker |
-| P2-EN-010 | Free Word Scramble Maker |
-| P2-EN-011 | Free Word Search Maker |
-| P2-EN-012 | Free Cryptogram Maker |
-| P2-EN-013 | Free Writing Worksheet Maker |
-| P2-EN-014 | Free Big & Small Worksheet Maker |
-| P2-EN-015 | Free Pattern Train Maker |
-| P2-EN-016 | Free Pattern Worksheet Maker |
-| P2-EN-017 | Free Draw & Color Maker |
-| P2-EN-018 | Free Drawing Lines Maker |
-| P2-EN-019 | Free Coloring Page Maker |
-| P2-EN-020 | Free Chart Count Maker |
-| P2-EN-021 | Free Matching Worksheet Maker |
-| P2-EN-022 | Free Grid Match Maker |
-| P2-EN-023 | Free Shadow Match Maker |
-| P2-EN-024 | Free Bingo Card Maker |
-| P2-EN-025 | Free Picture Sort Maker |
-| P2-EN-026 | Free Missing Pieces Maker |
-| P2-EN-027 | Free Odd One Out Maker |
-| P2-EN-028 | Free Sudoku Maker |
-| P2-EN-029 | Free Picture Path Maker |
-| P2-EN-030 | Free Find & Count Maker |
-| P2-EN-031 | Free Find Objects Maker |
-| P2-EN-032 | Free Crossword Maker |
-| P2-EN-033 | Free Treasure Hunt Maker |
+| P2-EN-001 | Addition Worksheet Maker |
+| P2-EN-002 | Subtraction Worksheet Maker |
+| P2-EN-003 | Code Addition Worksheet Maker |
+| P2-EN-004 | More or Less Worksheet Maker |
+| P2-EN-005 | Math Puzzle Maker |
+| P2-EN-006 | Math Worksheet Maker |
+| P2-EN-007 | Alphabet Train Maker |
+| P2-EN-008 | Prepositions Worksheet Maker |
+| P2-EN-009 | Word Guess Maker |
+| P2-EN-010 | Word Scramble Maker |
+| P2-EN-011 | Word Search Maker |
+| P2-EN-012 | Cryptogram Maker |
+| P2-EN-013 | Writing Worksheet Maker |
+| P2-EN-014 | Big & Small Worksheet Maker |
+| P2-EN-015 | Pattern Train Maker |
+| P2-EN-016 | Pattern Worksheet Maker |
+| P2-EN-017 | Draw & Color Maker |
+| P2-EN-018 | Drawing Lines Maker |
+| P2-EN-019 | Coloring Page Maker |
+| P2-EN-020 | Chart Count Maker |
+| P2-EN-021 | Matching Worksheet Maker |
+| P2-EN-022 | Grid Match Maker |
+| P2-EN-023 | Shadow Match Maker |
+| P2-EN-024 | Bingo Card Maker |
+| P2-EN-025 | Picture Sort Maker |
+| P2-EN-026 | Missing Pieces Maker |
+| P2-EN-027 | Odd One Out Maker |
+| P2-EN-028 | Sudoku Maker |
+| P2-EN-029 | Picture Path Maker |
+| P2-EN-030 | Find & Count Maker |
+| P2-EN-031 | Find Objects Maker |
+| P2-EN-032 | Crossword Maker |
+| P2-EN-033 | Treasure Hunt Maker |
 
 ---
 
@@ -2001,7 +2008,7 @@ Full list of 45 niches determined during Phase 0 infrastructure when idea conten
 - `P7-DE-003`: Subtraction app detail (German)
 - ...
 - `P7-DE-034`: Treasure Hunt app detail (German)
-- `P7-DE-035`: Free Addition Worksheet Maker (German)
+- `P7-DE-035`: Addition Worksheet Maker (German)
 - ...
 - `P7-DE-195`: Holiday & Seasonal Ideas (German)
 
@@ -2057,7 +2064,7 @@ Every part must pass the checks below before being marked complete. Section 1.11
 15. Platform references use locale-appropriate domains per Section 11.8 (G3)
 16. Free trial mention present in content per Section 1.12.2 table for this page type (C7)
 17. Refund policy FAQ present in FAQ array, positioned among last 3 FAQs (C8)
-18. No "limited free version", "basic free version", or "free trial" (implies time limit) language — per Section 1.12.4 framing rules
+18. No "limited free version", "basic free version", or bare "free" without "trial" qualifier — per Section 1.0 and 1.12.4 framing rules
 
 ### Per-Build Checks (run after `npm run build`)
 

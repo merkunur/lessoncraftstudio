@@ -138,6 +138,44 @@ function hasHeroImage(content) {
          /heroImages/i.test(content);
 }
 
+// 14. Bare "free" without "trial" qualifier (Section 1.0)
+function findBareFreeClaims(content) {
+  const violations = [];
+  const lines = content.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    // Skip import/export lines and comments
+    if (/^\s*(import|export|\/\/)/.test(line)) continue;
+
+    // Find all "free" word occurrences
+    const matches = [...line.matchAll(/\bfree\b/gi)];
+    for (const m of matches) {
+      const start = Math.max(0, m.index - 40);
+      const end = Math.min(line.length, m.index + m[0].length + 40);
+      const ctx = line.substring(start, end);
+      // Safe patterns to skip
+      if (/free\s*trial/i.test(ctx)) continue;
+      if (/free-form/i.test(ctx)) continue;
+      if (/freely/i.test(ctx)) continue;
+      if (/watermark-free/i.test(ctx)) continue;
+      if (/fee-free/i.test(ctx)) continue;
+      if (/gluten-free/i.test(ctx)) continue;
+      if (/risk-free/i.test(ctx)) continue;
+      if (/Try Free Now/i.test(ctx)) continue;
+      if (/free\s+\d+-page/i.test(ctx)) continue;
+      if (/free\s+to\s+try/i.test(ctx)) continue;
+      if (/experiment\s+free/i.test(ctx)) continue;
+      if (/Free Sample Funnel/i.test(ctx)) continue;
+      if (/freehand/i.test(ctx)) continue;
+      if (/free\s+writing/i.test(ctx)) continue;
+      if (/free\s+canvas/i.test(ctx)) continue;
+
+      violations.push(`Line ${i + 1}: bare "free" without "trial" -> "${ctx.trim()}"`);
+    }
+  }
+  return violations;
+}
+
 function validateFile(filePath) {
   if (!fs.existsSync(filePath)) {
     console.log(`  FILE NOT FOUND: ${filePath}`);
@@ -270,6 +308,14 @@ function validateFile(filePath) {
       if (matches && matches.length > 0) {
         errors.push(`Untranslated English in ${locale.toUpperCase()}: ${pattern.source}`);
       }
+    }
+  }
+
+  // 14. Bare "free" without "trial" (Section 1.0)
+  const bareFreeClaims = findBareFreeClaims(content);
+  if (bareFreeClaims.length > 0) {
+    for (const v of bareFreeClaims) {
+      warnings.push(v);
     }
   }
 

@@ -14,6 +14,7 @@ import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
 import { getSectionLabel } from '@/config/section-labels';
+import YouTubeFacade from './YouTubeFacade';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -65,9 +66,14 @@ export async function generateMetadata({
     const title = content?.seo?.titleTag || `Free ${localizedName} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || `Try ${localizedName} free online. No signup required.`;
 
+    const keywords = content?.seo?.primaryKeyword
+      ? [content.seo.primaryKeyword, ...content.seo.secondaryKeywords, ...content.seo.lsiKeywords]
+      : undefined;
+
     return {
       title,
       description,
+      keywords,
       alternates: {
         canonical: `${baseUrl}/${locale}/tools/${localeSlug || slug}`,
         languages: alternateUrls,
@@ -119,6 +125,14 @@ export default async function ToolPage({
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">
+            {content.visuals?.heroImages?.primary && (
+              <img
+                src={content.visuals.heroImages.primary}
+                alt={content.visuals.heroImages.primaryAlt}
+                className="w-full max-w-2xl mx-auto rounded-xl shadow-lg mb-8"
+                loading="eager"
+              />
+            )}
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
@@ -132,6 +146,21 @@ export default async function ToolPage({
             </a>
           </div>
         </section>
+
+        {/* Video Tutorial */}
+        {content.visuals?.youtubeId && (
+          <section className="py-12 md:py-16 bg-white">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+                {content.visuals.videoTitle}
+              </h2>
+              <YouTubeFacade
+                youtubeId={content.visuals.youtubeId}
+                title={content.visuals.videoTitle}
+              />
+            </div>
+          </section>
+        )}
 
         {/* How It Works */}
         {content.tutorial && content.tutorial.steps.length > 0 && (
@@ -149,6 +178,30 @@ export default async function ToolPage({
                       <p className="text-gray-600 mt-1">{step.description}</p>
                     </div>
                   </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Sample Gallery */}
+        {content.visuals?.sampleGallery && content.visuals.sampleGallery.length > 0 && (
+          <section className="py-12 md:py-16 bg-white">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('sampleWorksheets', locale)}</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {content.visuals.sampleGallery.map((img, i) => (
+                  <figure key={i} className="rounded-lg overflow-hidden shadow-md">
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                    {img.caption && (
+                      <figcaption className="p-3 text-sm text-gray-600 bg-gray-50">{img.caption}</figcaption>
+                    )}
+                  </figure>
                 ))}
               </div>
             </div>
@@ -187,6 +240,28 @@ export default async function ToolPage({
                         {idea.platform}
                       </span>
                     )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Pro Tips */}
+        {content.proTips && content.proTips.length > 0 && (
+          <section className="py-12 md:py-16 bg-amber-50">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('proTips', locale)}</h2>
+              <div className="space-y-4">
+                {content.proTips.map((tip, i) => (
+                  <div key={i} className="flex gap-4 p-4 bg-white rounded-lg border border-amber-200">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">
+                      {i + 1}
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900">{tip.title}</h3>
+                      <p className="text-gray-600 mt-1 text-sm">{tip.description}</p>
+                    </div>
                   </div>
                 ))}
               </div>

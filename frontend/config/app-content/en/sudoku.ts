@@ -267,7 +267,7 @@ const content: AppContent = {
         caption: 'Easy difficulty \u2014 4 blank cells for beginners learning row-and-column logic',
       },
       {
-        src: '/samples/english/sudoku/sudoku_hard.webp',
+        src: '/samples/english/sudoku/sudoku hard.webp',
         alt: 'Hard difficulty picture sudoku with 8 blank cells and 8 filled cells in a 4\u00d74 grid',
         caption: 'Hard difficulty \u2014 8 blank cells requiring multi-step logical reasoning',
       },

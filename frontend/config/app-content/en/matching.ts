@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching_worksheet.webp',
+      primary: '/samples/english/matching/matching portrait.webp',
       primaryAlt: 'Draw-a-line matching worksheet with themed images arranged in two columns with localized Match Up header and item numbers',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching_letter.webp',
+        src: '/samples/english/matching/matching portrait.webp',
         alt: 'Beginning letter matching worksheet with images on the left and first letters on the right',
         caption: 'Beginning Letter mode \u2014 students match images to their first letters',
       },
       {
-        src: '/samples/english/matching/matching_imgword.webp',
+        src: '/samples/english/matching/image and word.webp',
         alt: 'Image and word matching worksheet with labeled pairs on both sides',
         caption: 'Image+Word mode \u2014 labeled image pairs for vocabulary matching',
       },
       {
-        src: '/samples/english/matching/matching_answer_key.webp',
+        src: '/samples/english/matching/matching portrait answer_key.webp',
         alt: 'Matching worksheet answer key with connecting lines drawn between correct pairs',
         caption: 'Auto-generated answer key \u2014 connecting lines show correct matches',
       },

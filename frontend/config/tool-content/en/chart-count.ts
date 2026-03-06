@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/chart_count_worksheet.webp',
+      primary: '/samples/english/chart count/chart count.webp',
       primaryAlt: 'Picture graph worksheet with scattered 4\u00d75 image grid showing 20 icons from 6 types and empty bar chart for students to count and graph data',
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/chart_count_animals.webp',
+        src: '/samples/english/chart count/Picture Graph 1.webp',
         alt: 'Animal theme picture graph worksheet with 20 scattered animal icons in a 4\u00d75 grid and 6-column bar chart below for counting practice',
         caption: 'Animal theme picture graph \u2014 6 animal types scattered across the grid with bar chart below for data representation practice',
       },
       {
-        src: '/samples/english/chart count/chart_count_answer_key.webp',
+        src: '/samples/english/chart count/Picture Graph 5.webp',
         alt: 'Picture graph answer key with yellow highlighted cells showing correct counts for each of the 6 image types in the bar chart',
         caption: 'Auto-generated answer key \u2014 yellow-filled cells (#FFC857) show the correct count for each image type',
       },
       {
-        src: '/samples/english/chart count/chart_count_decorated.webp',
+        src: '/samples/english/chart count/chart count answer_key.webp',
         alt: 'Picture graph worksheet with decorative background and border themes applied using independent opacity controls for polished marketplace presentation',
         caption: 'Decorated picture graph \u2014 background and border themes with independent opacity controls for professional product styling',
       },

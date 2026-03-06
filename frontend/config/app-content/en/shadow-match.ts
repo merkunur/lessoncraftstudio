@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/shadow-match/shadow_match_worksheet.webp',
+      primary: '/samples/english/shadow match/shadow-match-worksheet.webp',
       primaryAlt: 'Shadow match worksheet with colored images in top row and auto-generated black silhouettes in bottom row with amber header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/shadow-match/shadow_match_silhouette.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal.webp',
         alt: 'Shadow match worksheet showing four colored images matched to four black silhouettes with letter and number labels',
         caption: 'Shadow Match mode \u2014 students match images to their auto-generated silhouettes',
       },
       {
-        src: '/samples/english/shadow-match/shadow_match_whole.webp',
+        src: '/samples/english/shadow match/shadow-match-vertical.webp',
         alt: 'Make it whole worksheet with split image halves that students reconnect by matching first and second halves',
         caption: 'Make It Whole mode \u2014 students match split image halves to complete pictures',
       },
       {
-        src: '/samples/english/shadow-match/shadow_match_answer_key.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
         alt: 'Shadow match answer key showing original images with silhouettes and correct letter-to-number match labels',
         caption: 'Auto-generated answer key \u2014 letter-to-number labels show correct matches',
       },

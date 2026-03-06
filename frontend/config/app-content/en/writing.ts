@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/writing/writing_worksheet.webp',
+      primary: '/samples/english/writing/writing.webp',
       primaryAlt: 'Handwriting practice worksheet with trace, fading trace, and guided copy modes showing arrow-guided stroke order letters',
     },
     sampleGallery: [
       {
-        src: '/samples/english/writing/writing_trace_arrows.webp',
+        src: '/samples/english/writing/writing.webp',
         alt: 'Handwriting worksheet in trace mode with print arrow font showing numbered stroke-order directions',
         caption: 'Trace mode with arrow stroke order \u2014 numbered directional arrows show exact letter formation sequence',
       },
       {
-        src: '/samples/english/writing/writing_fading.webp',
+        src: '/samples/english/writing/writing beginning letter.webp',
         alt: 'Handwriting worksheet in fading trace mode with letters progressively fading across each row',
         caption: 'Fading Trace mode \u2014 letters progressively fade out to build independent writing confidence',
       },
       {
-        src: '/samples/english/writing/writing_cursive.webp',
+        src: '/samples/english/writing/writing custom.webp',
         alt: 'Handwriting worksheet in guided copy mode with cursive font style on three-line guides',
         caption: 'Cursive Guided Copy \u2014 faint cursive outlines on three-line guide system for flowing script practice',
       },

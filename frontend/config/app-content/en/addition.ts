@@ -272,7 +272,7 @@ const content: AppContent = {
         caption: 'Image + Number mode \u2014 pairs picture groups with numerals for bridging skills',
       },
       {
-        src: '/samples/english/addition/addition_worksheet find-addend.webp',
+        src: '/samples/english/addition/find addend.webp',
         alt: 'Addition worksheet in Find the Addend mode with vehicle theme',
         caption: 'Find the Addend mode \u2014 students figure out the missing group for early algebra',
       },

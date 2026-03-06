@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: 'Landscape layout \u2014 wider grid with diagonal and reverse words enabled',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch custom.webp',
+        src: '/samples/english/wordsearch/custom word list.webp',
         alt: 'Word search worksheet using custom word list mode without images for text-only puzzles',
         caption: 'Custom Word List mode \u2014 text-only word search without image clues',
       },

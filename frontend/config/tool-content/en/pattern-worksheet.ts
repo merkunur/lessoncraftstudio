@@ -218,17 +218,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet_ab_blank.webp',
+        src: '/samples/english/pattern worksheet/pattern_worksheet (1).webp',
         alt: 'Pattern worksheet with AB fill-in-the-blank exercises using animal images in a grid layout with empty boxes for students to complete',
         caption: 'AB blank-box exercises with animal theme \u2014 students identify the alternating pattern and fill in the missing image',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet_abc_choice.webp',
+        src: '/samples/english/pattern worksheet/pattern_worksheet (5).webp',
         alt: 'Pattern worksheet with ABC multiple-choice exercises using vehicle images with three answer options per exercise',
         caption: 'ABC multiple-choice exercises with vehicle theme \u2014 students choose the correct missing item from three options',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet_answer_key.webp',
+        src: '/samples/english/pattern worksheet/pattern_answer_key.webp',
         alt: 'Pattern worksheet answer key showing all blank positions filled with the correct pattern items for verification',
         caption: 'Answer key view \u2014 all blanks filled with correct pattern items for teacher verification',
       },

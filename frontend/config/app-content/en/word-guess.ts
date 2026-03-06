@@ -267,12 +267,12 @@ const content: AppContent = {
         caption: 'Easy difficulty \u2014 half the letters pre-revealed as clues for emerging readers',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet_tough.webp',
+        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
         alt: 'Word guess worksheet at Tough difficulty with minimal clue letters and animal theme',
         caption: 'Tough difficulty \u2014 only one sixth of letters revealed for advanced spellers',
       },
       {
-        src: '/samples/english/word guess/clue-grid_answer_key.webp',
+        src: '/samples/english/word guess/clue-grid_answer-key.webp',
         alt: 'Word guess answer key with all letters filled in and no blank cells',
         caption: 'Answer key \u2014 all letters revealed for easy grading and self-checking',
       },

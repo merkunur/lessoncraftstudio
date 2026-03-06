@@ -223,7 +223,7 @@ const content: ToolContent = {
         caption: 'Picture cipher puzzle \u2014 decode the secret message by identifying which image represents which letter',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_themed.webp',
+        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
         alt: 'Cryptogram worksheet with animal theme images and Letters to Reveal hints for scaffolded difficulty',
         caption: 'Themed cipher with Letters to Reveal \u2014 pre-solved mappings provide scaffolding for beginners',
       },

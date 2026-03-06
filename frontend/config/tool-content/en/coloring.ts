@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/coloring_page.webp',
+      primary: '/samples/english/coloring/coloring portrait 1.webp',
       primaryAlt: 'Custom coloring page created on free-form canvas with colorful themed illustrations arranged in an original composition with decorative border',
     },
     sampleGallery: [
       {
-        src: '/samples/english/coloring/coloring_animals.webp',
+        src: '/samples/english/coloring/coloring portrait 2.webp',
         alt: 'Animal themed coloring page with multiple illustrations arranged on free-form canvas showing creative layout possibilities',
         caption: 'Animal theme coloring page \u2014 free-form canvas layout with multiple illustrations arranged in a unique composition',
       },
       {
-        src: '/samples/english/coloring/coloring_classroom.webp',
+        src: '/samples/english/coloring/coloring portrait 3.webp',
         alt: 'Classroom-ready coloring page with name field and handwriting practice lines added using one-click classroom helpers',
         caption: 'Classroom activity sheet \u2014 name field and handwriting lines transform coloring pages into structured learning activities',
       },
       {
-        src: '/samples/english/coloring/coloring_grayscale.webp',
+        src: '/samples/english/coloring/coloring landscape 1.webp',
         alt: 'Grayscale coloring page export showing ink-friendly conversion from colorful composition for KDP interiors and classroom printing',
         caption: 'Grayscale export \u2014 colorful compositions convert to ink-friendly coloring pages for KDP interiors and bulk printing',
       },

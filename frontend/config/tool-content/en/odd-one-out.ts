@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/odd one out/odd_one_out_worksheet.webp',
+      primary: '/samples/english/odd one out/Find the Odd One Out.webp',
       primaryAlt: 'Odd one out worksheet with four images per exercise row showing three common items and one odd item with coral-amber-turquoise header reading Find the Odd One Out',
     },
     sampleGallery: [
       {
-        src: '/samples/english/odd one out/odd_one_out_similar.webp',
+        src: '/samples/english/odd one out/Find the Odd One Out (1).webp',
         alt: 'Similar mode odd one out worksheet with three images from Theme A and one thematic outlier from Theme B per exercise row',
         caption: 'Similar mode — three images from Theme A and one odd item from Theme B for cross-theme discrimination',
       },
       {
-        src: '/samples/english/odd one out/odd_one_out_identical.webp',
+        src: '/samples/english/odd one out/Find the Odd One Out (5).webp',
         alt: 'Identical mode odd one out worksheet with three clones of the same image and one different image from the same theme per row',
         caption: 'Identical mode — three clones of the same image and one different image for spot-the-duplicate challenges',
       },
       {
-        src: '/samples/english/odd one out/odd_one_out_answer_key.webp',
+        src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp',
         alt: 'Odd one out answer key with red circle outlines drawn around the odd item in each exercise row with stroke width scaled to image size',
         caption: 'Auto-generated answer key — red circle markers (stroke = max(imageSize \u00d7 0.04, 3px)) identify the odd item in each row',
       },

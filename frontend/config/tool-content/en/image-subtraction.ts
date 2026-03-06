@@ -207,22 +207,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/sample-1.webp',
+      primary: '/samples/english/subtraction/Subtraction Fun 1.webp',
       primaryAlt: 'Subtraction worksheet with cross-out images showing visual take-away math exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/sample-1.webp',
+        src: '/samples/english/subtraction/Subtraction Fun 1.webp',
         alt: 'Cross Out subtraction worksheet with animal theme showing crossed-out images',
         caption: 'Cross Out mode with animal theme',
       },
       {
-        src: '/samples/english/subtraction/sample-2.webp',
+        src: '/samples/english/subtraction/cross out.webp',
         alt: 'Subtraction worksheet using food images in Image minus Number mode',
         caption: 'Image \u2212 Number mode with food theme',
       },
       {
-        src: '/samples/english/subtraction/sample-3.webp',
+        src: '/samples/english/subtraction/image number.webp',
         alt: 'Find Subtrahend worksheet with vehicle images and decorative border',
         caption: 'Find Subtrahend mode with vehicles and border',
       },

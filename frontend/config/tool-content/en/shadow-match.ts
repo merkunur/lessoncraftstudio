@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/shadow-match/shadow_match_worksheet.webp',
+      primary: '/samples/english/shadow match/shadow-match-worksheet.webp',
       primaryAlt: 'Shadow match worksheet with colored images in top row and auto-generated black silhouettes in bottom row with amber header and letter-number labels for matching activity',
     },
     sampleGallery: [
       {
-        src: '/samples/english/shadow-match/shadow_match_silhouette.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal.webp',
         alt: 'Shadow match worksheet showing four colored images matched to four pixel-level black silhouettes with A B C D and 1 2 3 4 labels',
         caption: 'Shadow Match mode \u2014 students match images to their auto-generated pixel-level silhouettes',
       },
       {
-        src: '/samples/english/shadow-match/shadow_match_whole.webp',
+        src: '/samples/english/shadow match/shadow-match-vertical.webp',
         alt: 'Make it whole worksheet with split image halves that students reconnect by matching first and second halves labeled A through D and 1 through 4',
         caption: 'Make It Whole mode \u2014 students match split image halves to complete pictures with horizontal or vertical cuts',
       },
       {
-        src: '/samples/english/shadow-match/shadow_match_answer_key.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
         alt: 'Shadow match answer key showing original images alongside silhouettes with correct letter-to-number match labels like A to 2',
         caption: 'Auto-generated answer key \u2014 letter-to-number labels show correct matches for both exercise modes',
       },

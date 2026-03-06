@@ -262,12 +262,12 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern train/pattern_train_ab.webp',
+        src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
         alt: 'Pattern train worksheet in AB alternating pattern mode with animal images across 11 themed train wagons',
         caption: 'AB pattern with animal theme \u2014 students identify the alternating sequence and fill in the missing wagon',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_abc.webp',
+        src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
         alt: 'Pattern train worksheet in ABC three-element pattern mode with vehicle images across themed train wagons',
         caption: 'ABC pattern with vehicle theme \u2014 three rotating items create a more complex repeating sequence',
       },

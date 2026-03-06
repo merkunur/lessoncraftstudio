@@ -227,7 +227,7 @@ const content: ToolContent = {
         caption: 'Easy difficulty — 4 blank cells for beginners learning row-and-column logic',
       },
       {
-        src: '/samples/english/sudoku/sudoku_hard.webp',
+        src: '/samples/english/sudoku/sudoku hard.webp',
         alt: 'Hard difficulty picture sudoku with 8 blank cells and 8 filled cells in a 4×4 grid requiring multi-step reasoning',
         caption: 'Hard difficulty — 8 blank cells (half the grid) requiring multi-step logical reasoning',
       },

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/drawing lines/drawing_lines_worksheet.webp',
+      primary: '/samples/english/drawing lines/drawing_lines_horizontal.webp',
       primaryAlt: 'Drawing lines worksheet with curved line template connecting matched animal image pairs in landscape format',
     },
     sampleGallery: [
       {
-        src: '/samples/english/drawing lines/drawing_lines_curve.webp',
+        src: '/samples/english/drawing lines/drawing_lines_curve 1.webp',
         alt: 'Line tracing worksheet with curve template connecting matched animal image pairs in landscape orientation',
         caption: 'Curve template \u2014 students trace flowing curved lines to connect matching image pairs',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_diagonal.webp',
+        src: '/samples/english/drawing lines/drawing_lines_diagonal 1.webp',
         alt: 'Line tracing worksheet with diagonal template connecting five image pairs in portrait orientation',
         caption: 'Diagonal template \u2014 angled lines with 5 image pairs for cross-body coordination practice',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_horizontal.webp',
+        src: '/samples/english/drawing lines/drawing_lines_vertical.webp',
         alt: 'Line tracing worksheet with horizontal template connecting nature-themed image pairs in portrait format',
         caption: 'Horizontal template \u2014 straight left-to-right lines with nature theme images',
       },

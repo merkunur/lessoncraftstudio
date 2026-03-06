@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/big small/big_small_worksheet.webp',
+      primary: '/samples/english/big small/big-small-worksheet_worksheet.webp',
       primaryAlt: 'Big and small size comparison worksheet with themed images at different sizes showing circle the big one exercise',
     },
     sampleGallery: [
       {
-        src: '/samples/english/big small/big_small_circle_big.webp',
+        src: '/samples/english/big small/big-small-different images.webp',
         alt: 'Size comparison worksheet in circle the big one mode with themed animal images at different sizes',
         caption: 'Circle the Big One mode \u2014 students identify the largest image in each exercise',
       },
       {
-        src: '/samples/english/big small/big_small_number_order.webp',
+        src: '/samples/english/big small/big-small number 1-2-3.webp',
         alt: 'Size ordering worksheet with three images numbered from smallest to largest',
         caption: 'Number 1\u20132\u20133 Small to Big \u2014 students order images by size from smallest to largest',
       },
       {
-        src: '/samples/english/big small/big_small_identical.webp',
+        src: '/samples/english/big small/big-small identical images.webp',
         alt: 'Size comparison worksheet using identical images mode with same picture at three different sizes',
         caption: 'Identical Images mode \u2014 same image at different sizes for pure size perception exercises',
       },

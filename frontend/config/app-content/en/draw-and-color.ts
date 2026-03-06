@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/draw and color/draw_and_color_worksheet.webp',
+      primary: '/samples/english/draw and color/grid-drawing_worksheet.webp',
       primaryAlt: 'Draw and color grid drawing worksheet with dual grid system showing practice grid and clue grid with B&W outline theme',
     },
     sampleGallery: [
       {
-        src: '/samples/english/draw and color/draw_and_color_animal.webp',
+        src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp',
         alt: 'Grid drawing worksheet with animal B&W outline theme at 25% clue percentage showing practice grid and clue grid',
         caption: 'Animal theme at 25% clues \u2014 students reproduce the outline from scattered grid hints',
       },
       {
-        src: '/samples/english/draw and color/draw_and_color_symmetry.webp',
+        src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp',
         alt: 'Grid drawing worksheet using horizontal symmetry mirror mode with clue cells mirrored left to right',
         caption: 'Horizontal symmetry mode \u2014 clue cells mirror left-to-right for spatial reasoning practice',
       },
       {
-        src: '/samples/english/draw and color/draw_and_color_challenge.webp',
+        src: '/samples/english/draw and color/grid-drawing_worksheet (10).webp',
         alt: 'Grid drawing worksheet with 10% clue percentage showing minimal reference cells for expert-level challenge',
         caption: '10% clue challenge \u2014 minimal reference cells for expert-level grid reproduction',
       },

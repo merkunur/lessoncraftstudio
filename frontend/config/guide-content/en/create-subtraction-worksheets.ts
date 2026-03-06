@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/subtraction/sample-1.webp', alt: 'Subtraction worksheet with crossed-out themed images showing take-away exercises for kids' },
+    heroImage: { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Subtraction worksheet with crossed-out themed images showing take-away exercises for kids' },
     samples: [
-      { src: '/samples/english/subtraction/sample-1.webp', alt: 'Image-based subtraction worksheet with crossed-out animals for kindergarten', caption: 'Kindergarten subtraction worksheet using the Cross Out exercise mode with themed images' },
-      { src: '/samples/english/subtraction/sample-2.webp', alt: 'Subtraction worksheet with answer key showing correct solutions', caption: 'Automatic answer key generated alongside each subtraction worksheet' },
+      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Image-based subtraction worksheet with crossed-out animals for kindergarten', caption: 'Kindergarten subtraction worksheet using the Cross Out exercise mode with themed images' },
+      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Subtraction worksheet with answer key showing correct solutions', caption: 'Automatic answer key generated alongside each subtraction worksheet' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'How to Create Subtraction Worksheets \u2014 Complete Tutorial',

@@ -193,10 +193,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search worksheet resource optimized for Teachers Pay Teachers store visibility and sales' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet resource optimized for Teachers Pay Teachers store visibility and sales' },
     samples: [
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle optimized for TPT store catalog growth', caption: 'Word search puzzles are among the most versatile TPT resources \u2014 create themed seasonal variations for rapid catalog expansion' },
-      { src: '/samples/english/math-puzzle/math_puzzle_worksheet.webp', alt: 'Math puzzle worksheet for TPT store differentiation', caption: 'Unique math puzzle formats face lower competition on TPT than standard worksheets \u2014 a differentiation strategy for crowded categories' },
+      { src: '/samples/english/math puzzle/math_puzzle_worksheet.webp', alt: 'Math puzzle worksheet for TPT store differentiation', caption: 'Unique math puzzle formats face lower competition on TPT than standard worksheets \u2014 a differentiation strategy for crowded categories' },
       { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle activity for TPT vocabulary resources', caption: 'Crossword puzzles are high-demand vocabulary activities that teachers search for by subject and grade level on TPT' },
     ],
     youtubeId: '36keBFzJbPo',

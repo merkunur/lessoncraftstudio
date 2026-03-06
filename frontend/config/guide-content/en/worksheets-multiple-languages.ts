@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/sample-1.webp',
+      src: '/samples/english/wordsearch/wordsearch portrait.webp',
       alt: 'Word search worksheet demonstrating multi-language content generation with correct character handling',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/sample-1.webp',
+        src: '/samples/english/wordsearch/wordsearch portrait.webp',
         alt: 'Word search puzzle showing vocabulary-based content requiring correct multi-language character support',
         caption: 'Word search worksheets demonstrate the importance of correct character handling across languages',
       },
       {
-        src: '/samples/english/alphabet-train/sample-1.webp',
+        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
         alt: 'Alphabet train worksheet showing language-specific letter and character generation',
         caption: 'Alphabet worksheets require language-specific characters including umlauts and accented letters',
       },
       {
-        src: '/samples/english/matching/sample-1.webp',
+        src: '/samples/english/matching/matching portrait.webp',
         alt: 'Matching worksheet showing multi-language production with visual and text elements',
         caption: 'Matching worksheets combine visual elements with language-specific vocabulary for international markets',
       },

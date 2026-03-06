@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet demonstrating consistent product format for a printable product line' },
+    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet demonstrating consistent product format for a printable product line' },
     samples: [
       { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet showing consistent format across themes for product line building', caption: 'Matching worksheets maintain the same professional format across any theme \u2014 the foundation of a visually consistent product line' },
       { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet representing math product line with progressive difficulty levels', caption: 'Math worksheets at multiple difficulty levels create progressive depth within your product line \u2014 single digit to advanced operations' },

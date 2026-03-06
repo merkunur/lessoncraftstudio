@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/sample-1.webp',
+      src: '/samples/english/matching/matching portrait.webp',
       alt: 'Professional matching worksheet demonstrating clear product design that prevents customer support issues',
     },
     samples: [
       {
-        src: '/samples/english/matching/sample-1.webp',
+        src: '/samples/english/matching/matching portrait.webp',
         alt: 'Matching worksheet showing clear layout and instructions that reduce buyer questions',
         caption: 'Clear worksheet design and comprehensive product descriptions prevent common support requests',
       },
       {
-        src: '/samples/english/addition/sample-1.webp',
+        src: '/samples/english/addition/Addition Fun 1.webp',
         alt: 'Addition worksheet with professional formatting that sets accurate buyer expectations',
         caption: 'Professional formatting and detailed specifications eliminate expectation mismatch issues',
       },
       {
-        src: '/samples/english/wordsearch/sample-1.webp',
+        src: '/samples/english/wordsearch/wordsearch portrait.webp',
         alt: 'Word search puzzle with themed content demonstrating product clarity for buyers',
         caption: 'Content-rich products benefit most from comprehensive documentation and self-service support',
       },

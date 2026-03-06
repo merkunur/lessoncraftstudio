@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
     samples: [
       { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Printable coloring page for Creative Fabrica Classroom section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica \u2014 appealing to both designer and teacher audiences' },
       { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Classroom section' },

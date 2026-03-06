@@ -224,9 +224,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle worksheet example for Amazon KDP activity book publishing' },
     samples: [
       { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle worksheet for KDP activity book interior', caption: 'Sudoku \u2014 Top KDP Puzzle Category' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle for Amazon KDP activity book', caption: 'Word Search \u2014 KDP Best Seller Category' },
-      { src: '/samples/english/math puzzle/sample-1.webp', alt: 'Math puzzle worksheet for KDP workbook interior', caption: 'Math Puzzle \u2014 Evergreen KDP Niche' },
-      { src: '/samples/english/crossword/sample-1.webp', alt: 'Crossword puzzle worksheet for KDP activity book', caption: 'Crossword \u2014 Classic Activity Book Format' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle for Amazon KDP activity book', caption: 'Word Search \u2014 KDP Best Seller Category' },
+      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle worksheet for KDP workbook interior', caption: 'Math Puzzle \u2014 Evergreen KDP Niche' },
+      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle worksheet for KDP activity book', caption: 'Crossword \u2014 Classic Activity Book Format' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Sudoku Puzzle Worksheets \u2014 LessonCraftStudio Demo',

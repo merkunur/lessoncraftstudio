@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page worksheet example created with LessonCraftStudio generator for Etsy sellers' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet example created with LessonCraftStudio generator for Etsy sellers' },
     samples: [
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page worksheet for Etsy printable shop', caption: 'Coloring Page \u2014 Etsy Top Category' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search printable worksheet for Etsy listing', caption: 'Word Search \u2014 High Search Volume' },
-      { src: '/samples/english/addition/sample-1.webp', alt: 'Addition worksheet with image-based math problems', caption: 'Addition \u2014 Evergreen Math Category' },
-      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet for international Etsy buyers', caption: 'Matching \u2014 No-Text Visual Activity' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet for Etsy printable shop', caption: 'Coloring Page \u2014 Etsy Top Category' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search printable worksheet for Etsy listing', caption: 'Word Search \u2014 High Search Volume' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with image-based math problems', caption: 'Addition \u2014 Evergreen Math Category' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet for international Etsy buyers', caption: 'Matching \u2014 No-Text Visual Activity' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Page Worksheets \u2014 LessonCraftStudio Demo',

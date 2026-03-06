@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/sample-1.webp', alt: 'Handwriting practice worksheet showing progressive trace-to-copy letter formation exercises for kids' },
+    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice worksheet showing progressive trace-to-copy letter formation exercises for kids' },
     samples: [
-      { src: '/samples/english/writing/sample-1.webp', alt: 'Handwriting practice sheet with tracing rows and stroke-order arrows for letter formation', caption: 'Progressive handwriting worksheet with trace, fading trace, and guided copy rows for letter practice' },
-      { src: '/samples/english/writing/sample-2.webp', alt: 'Handwriting worksheet with themed images paired with letter tracing practice', caption: 'Themed handwriting practice sheet pairing letter tracing with image library visuals' },
+      { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice sheet with tracing rows and stroke-order arrows for letter formation', caption: 'Progressive handwriting worksheet with trace, fading trace, and guided copy rows for letter practice' },
+      { src: '/samples/english/writing/writing.webp', alt: 'Handwriting worksheet with themed images paired with letter tracing practice', caption: 'Themed handwriting practice sheet pairing letter tracing with image library visuals' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Handwriting Practice Sheets \u2014 Complete Tutorial',

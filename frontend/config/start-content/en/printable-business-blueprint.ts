@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/sample-1.webp', alt: 'Math puzzle worksheet example created with LessonCraftStudio generator' },
+    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle worksheet example created with LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/english/math puzzle/sample-1.webp', alt: 'Math puzzle worksheet showing configurable output variety', caption: 'Math Puzzle \u2014 Configurable Difficulty' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search worksheet with themed word list', caption: 'Word Search \u2014 Themed Puzzle' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Visual Appeal' },
-      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet demonstrating visual-only international format', caption: 'Matching \u2014 Works in Any Language' },
+      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle worksheet showing configurable output variety', caption: 'Math Puzzle \u2014 Configurable Difficulty' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet with themed word list', caption: 'Word Search \u2014 Themed Puzzle' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Visual Appeal' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet demonstrating visual-only international format', caption: 'Matching \u2014 Works in Any Language' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'How to Create Math Puzzle Worksheets \u2014 LessonCraftStudio Demo',

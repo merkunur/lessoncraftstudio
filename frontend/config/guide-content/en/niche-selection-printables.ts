@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search worksheet demonstrating themed niche content for printable businesses' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet demonstrating themed niche content for printable businesses' },
     samples: [
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Themed word search puzzle showing niche application across topics', caption: 'Word search puzzles adapt to any niche theme \u2014 animals, holidays, subjects, and seasonal topics all work with the same product format' },
       { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Coloring page demonstrating visual niche product versatility', caption: 'Coloring pages are among the most versatile niche products, appealing across age ranges and applying to virtually any visual theme' },

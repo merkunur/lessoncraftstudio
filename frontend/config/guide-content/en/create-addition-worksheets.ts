@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/sample-1.webp', alt: 'Addition worksheet with themed images showing visual counting exercises for kids' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with themed images showing visual counting exercises for kids' },
     samples: [
-      { src: '/samples/english/addition/sample-1.webp', alt: 'Image-based addition worksheet with animal theme for kindergarten', caption: 'Kindergarten addition worksheet using the farm animals theme with Image + Image exercise mode' },
-      { src: '/samples/english/addition/sample-2.webp', alt: 'Addition worksheet with answer key showing correct solutions', caption: 'Automatic answer key generated alongside each addition worksheet' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Image-based addition worksheet with animal theme for kindergarten', caption: 'Kindergarten addition worksheet using the farm animals theme with Image + Image exercise mode' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with answer key showing correct solutions', caption: 'Automatic answer key generated alongside each addition worksheet' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets \u2014 Complete Tutorial',

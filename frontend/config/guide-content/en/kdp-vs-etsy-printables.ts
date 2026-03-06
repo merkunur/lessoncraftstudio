@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book' },
     samples: [
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal themed word search puzzle for Etsy and KDP', caption: 'Word search puzzles sell on both platforms \u2014 as individual digital downloads on Etsy and compiled into puzzle books on KDP' },
       { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Addition worksheet for Etsy digital download or KDP activity book', caption: 'Math worksheets work as Etsy singles and small packs or compiled into KDP math activity books' },

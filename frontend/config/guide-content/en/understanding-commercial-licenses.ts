@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/sample-1.webp',
+      src: '/samples/english/wordsearch/wordsearch portrait.webp',
       alt: 'Professional word search worksheet demonstrating commercially licensed printable output',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/sample-1.webp',
+        src: '/samples/english/wordsearch/wordsearch portrait.webp',
         alt: 'Word search puzzle created with commercial license for multi-platform selling',
         caption: 'Word search puzzles created under commercial license can be sold on any platform',
       },
       {
-        src: '/samples/english/addition/sample-1.webp',
+        src: '/samples/english/addition/Addition Fun 1.webp',
         alt: 'Addition worksheet generated with royalty-free commercial licensing',
         caption: 'One commercial license covers unlimited addition worksheet generation with no per-product fees',
       },
       {
-        src: '/samples/english/coloring/sample-1.webp',
+        src: '/samples/english/coloring/coloring portrait 1.webp',
         alt: 'Coloring page with properly licensed themed imagery for commercial sale',
         caption: 'Commercial licenses that include embedded imagery simplify compliance for visual products',
       },

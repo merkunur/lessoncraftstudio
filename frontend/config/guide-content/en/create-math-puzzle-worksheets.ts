@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/sample-1.webp', alt: 'Math puzzle worksheet showing scrambled image pieces with math equations for kids to solve and reassemble' },
+    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle worksheet showing scrambled image pieces with math equations for kids to solve and reassemble' },
     samples: [
-      { src: '/samples/english/math puzzle/sample-1.webp', alt: 'Math puzzle worksheet with animal theme showing grid equations and numbered image fragments', caption: 'Math puzzle worksheet \u2014 children solve equations to determine where each numbered image piece belongs in the grid' },
-      { src: '/samples/english/math puzzle/sample-2.webp', alt: 'Math puzzle answer key showing reconstructed image with solved equations', caption: 'Automatic answer key showing the reconstructed image at 30% opacity with complete solved equations' },
+      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle worksheet with animal theme showing grid equations and numbered image fragments', caption: 'Math puzzle worksheet \u2014 children solve equations to determine where each numbered image piece belongs in the grid' },
+      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math puzzle answer key showing reconstructed image with solved equations', caption: 'Automatic answer key showing the reconstructed image at 30% opacity with complete solved equations' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'How to Create Math Puzzle Worksheets \u2014 Complete Tutorial',

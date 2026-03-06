@@ -187,7 +187,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages' },
     samples: [
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal themed word search puzzle formatted for KDP word search book', caption: 'Themed animal word search puzzle \u2014 themed word lists create engaging content that outperforms random word collections in buyer reviews' },
       { src: '/samples/english/wordsearch/wordsearch_food.webp', alt: 'Food themed word search puzzle for KDP book', caption: 'Food themed word search \u2014 themed sections add editorial structure that distinguishes professional word search books from amateur compilations' },

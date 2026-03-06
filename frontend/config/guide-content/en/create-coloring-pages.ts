@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page created from themed images showing grayscale conversion for print-ready coloring sheets' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page created from themed images showing grayscale conversion for print-ready coloring sheets' },
     samples: [
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Themed coloring page with animal illustrations arranged on a free-form canvas', caption: 'Coloring page created using themed images from the library with free-form canvas placement' },
-      { src: '/samples/english/coloring/sample-2.webp', alt: 'Grayscale coloring page ready for printing with clean black-and-white outlines', caption: 'Grayscale export converts colorful designs into print-ready coloring pages' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Themed coloring page with animal illustrations arranged on a free-form canvas', caption: 'Coloring page created using themed images from the library with free-form canvas placement' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Grayscale coloring page ready for printing with clean black-and-white outlines', caption: 'Grayscale export converts colorful designs into print-ready coloring pages' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages from Themed Images \u2014 Complete Tutorial',

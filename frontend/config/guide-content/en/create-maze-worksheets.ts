@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture-path/sample-1.webp', alt: 'Maze worksheet showing a themed picture path activity with start and end images for kids' },
+    heroImage: { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Maze worksheet showing a themed picture path activity with start and end images for kids' },
     samples: [
-      { src: '/samples/english/picture-path/sample-1.webp', alt: 'Picture pathway maze worksheet with themed images for preschool and kindergarten', caption: 'Picture Pathway mode: children follow a visual path from start image to end image through themed decorations' },
-      { src: '/samples/english/picture-path/sample-2.webp', alt: 'Classic maze worksheet with collectible counting and answer key', caption: 'Classic Maze mode with collectible images and automatic answer key showing solution path and counts' },
+      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Picture pathway maze worksheet with themed images for preschool and kindergarten', caption: 'Picture Pathway mode: children follow a visual path from start image to end image through themed decorations' },
+      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Classic maze worksheet with collectible counting and answer key', caption: 'Classic Maze mode with collectible images and automatic answer key showing solution path and counts' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'How to Create Maze Worksheets \u2014 Complete Tutorial',

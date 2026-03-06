@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/sample-1.webp', alt: 'Bingo card worksheet demonstrating highly shareable printable product design' },
+    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingo card worksheet demonstrating highly shareable printable product design' },
     samples: [
-      { src: '/samples/english/bingo/sample-1.webp', alt: 'Bingo card showing event-driven marketing potential for parties and classrooms', caption: 'Bingo \u2014 Highly Shareable for Events and Holidays' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle demonstrating strong marketplace SEO potential', caption: 'Word Search \u2014 Top Searched Puzzle Type' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page showing visual appeal for Pinterest marketing', caption: 'Coloring \u2014 Pinterest-Ready Visual Content' },
-      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet showing themed seasonal marketing versatility', caption: 'Matching \u2014 Versatile Seasonal Marketing' },
+      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingo card showing event-driven marketing potential for parties and classrooms', caption: 'Bingo \u2014 Highly Shareable for Events and Holidays' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle demonstrating strong marketplace SEO potential', caption: 'Word Search \u2014 Top Searched Puzzle Type' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page showing visual appeal for Pinterest marketing', caption: 'Coloring \u2014 Pinterest-Ready Visual Content' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet showing themed seasonal marketing versatility', caption: 'Matching \u2014 Versatile Seasonal Marketing' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Create Bingo Cards for Your Printable Business \u2014 LessonCraftStudio Demo',

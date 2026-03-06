@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/sample-1.webp', alt: 'Math worksheet product ready for bundling into a high-value worksheet collection' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Math worksheet product ready for bundling into a high-value worksheet collection' },
     samples: [
       { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet for math worksheet bundle creation', caption: 'Math worksheets are among the most popular products for bundle creation \u2014 combine addition, subtraction, and number sense for comprehensive bundles' },
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle for themed worksheet bundle', caption: 'Word search puzzles add variety to themed bundles and work across subject, grade, and seasonal bundle types' },

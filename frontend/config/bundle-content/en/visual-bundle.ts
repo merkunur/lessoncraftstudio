@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/sample-1.webp',
+      primary: '/samples/english/coloring/coloring portrait 1.webp',
       primaryAlt: 'Coloring page worksheet with black-and-white outline image ready for coloring',
     },
     sampleGallery: [
-      { src: '/samples/english/big-small/sample-1.webp', alt: 'Size comparison worksheet with themed images for circling biggest and smallest', caption: 'Big & Small Worksheet' },
-      { src: '/samples/english/pattern-train/sample-1.webp', alt: 'Train car pattern sequence worksheet with missing pattern item', caption: 'Pattern Train Worksheet' },
-      { src: '/samples/english/pattern-worksheet/sample-1.webp', alt: 'Pattern recognition worksheet with fill-in-the-blank sequences', caption: 'Pattern Worksheet' },
-      { src: '/samples/english/draw-and-color/sample-1.webp', alt: 'Reference image drawing worksheet with grid for reproducing the picture', caption: 'Draw & Color Worksheet' },
-      { src: '/samples/english/drawing-lines/sample-1.webp', alt: 'Line tracing worksheet with paired objects and curved line paths', caption: 'Drawing Lines Worksheet' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page with black-and-white outline converted from themed image', caption: 'Coloring Page' },
-      { src: '/samples/english/chart-count/sample-1.webp', alt: 'Bar chart counting worksheet with themed image data points', caption: 'Chart Count Worksheet' },
+      { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Size comparison worksheet with themed images for circling biggest and smallest', caption: 'Big & Small Worksheet' },
+      { src: '/samples/english/pattern train/pattern_train_worksheet.webp', alt: 'Train car pattern sequence worksheet with missing pattern item', caption: 'Pattern Train Worksheet' },
+      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Pattern recognition worksheet with fill-in-the-blank sequences', caption: 'Pattern Worksheet' },
+      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Reference image drawing worksheet with grid for reproducing the picture', caption: 'Draw & Color Worksheet' },
+      { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Line tracing worksheet with paired objects and curved line paths', caption: 'Drawing Lines Worksheet' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page with black-and-white outline converted from themed image', caption: 'Coloring Page' },
+      { src: '/samples/english/chart count/chart count.webp', alt: 'Bar chart counting worksheet with themed image data points', caption: 'Chart Count Worksheet' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visual Learning Bundle — See All 7 Generators in Action',

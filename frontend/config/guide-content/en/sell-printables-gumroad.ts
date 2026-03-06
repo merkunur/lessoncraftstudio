@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page printable product ready for selling on Gumroad storefront' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable product ready for selling on Gumroad storefront' },
     samples: [
       { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Printable coloring page for Gumroad digital product sales', caption: 'Coloring pages create visually compelling product images that drive social media traffic to your Gumroad store' },
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle printable for Gumroad store catalog', caption: 'Word search puzzles have broad appeal across parent and teacher audiences \u2014 a versatile Gumroad product type' },

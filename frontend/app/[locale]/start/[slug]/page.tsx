@@ -11,6 +11,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
+import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -89,6 +90,29 @@ export default async function CornerstonePage({
               {content.hero.title}
             </h1>
             <p className="text-lg text-gray-600">{content.hero.description}</p>
+
+            {/* Hero Image */}
+            {content.visuals?.heroImage?.src && (
+              <div className="mt-8 rounded-xl overflow-hidden shadow-lg">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={content.visuals.heroImage.src}
+                  alt={content.visuals.heroImage.alt}
+                  className="w-full h-auto"
+                  loading="eager"
+                />
+              </div>
+            )}
+
+            {/* YouTube Video */}
+            {content.visuals?.youtubeId && (
+              <div className="mt-8">
+                <VideoFacade
+                  videoId={content.visuals.youtubeId}
+                  title={content.visuals.videoTitle || content.hero.title}
+                />
+              </div>
+            )}
           </div>
         </section>
 
@@ -106,6 +130,31 @@ export default async function CornerstonePage({
               ))}
             </div>
           </article>
+        )}
+
+        {/* Sample Gallery */}
+        {content.visuals?.samples && content.visuals.samples.length > 0 && (
+          <section className="py-12 md:py-16 bg-gray-50">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('sampleWorksheets', locale)}</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {content.visuals.samples.map((sample, i) => (
+                  <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={sample.src}
+                      alt={sample.alt}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                    {sample.caption && (
+                      <figcaption className="p-3 text-sm text-gray-600 text-center">{sample.caption}</figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* Action Steps */}

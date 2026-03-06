@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/sample-1.webp',
+      src: '/samples/english/wordsearch/wordsearch portrait.webp',
       alt: 'Professional word search worksheet demonstrating lead magnet quality for email marketing campaigns',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/sample-1.webp',
+        src: '/samples/english/wordsearch/wordsearch portrait.webp',
         alt: 'Word search worksheet ideal for email lead magnets that attract printable buyers',
         caption: 'Word searches make compelling lead magnets that attract your target buyer audience',
       },
       {
-        src: '/samples/english/coloring/sample-1.webp',
+        src: '/samples/english/coloring/coloring portrait 1.webp',
         alt: 'Coloring page showing visually appealing product for email campaign promotion',
         caption: 'Visually striking products drive higher click-through rates in email campaigns',
       },
       {
-        src: '/samples/english/addition/sample-1.webp',
+        src: '/samples/english/addition/Addition Fun 1.webp',
         alt: 'Addition worksheet demonstrating evergreen content for automated email sequences',
         caption: 'Evergreen math content powers automated seasonal email campaigns year-round',
       },

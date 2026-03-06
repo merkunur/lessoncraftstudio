@@ -193,7 +193,7 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/sample-1.webp', alt: 'Professional addition worksheet demonstrating the quality that supports premium pricing strategies' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professional addition worksheet demonstrating the quality that supports premium pricing strategies' },
     samples: [
       { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet with themed images supporting premium pricing', caption: 'Professional formatting and themed images justify higher price points \u2014 buyers pay more for quality and visual appeal' },
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle demonstrating feature differentiation for pricing', caption: 'Word search puzzles with themed images command higher prices than basic text-only versions across all platforms' },

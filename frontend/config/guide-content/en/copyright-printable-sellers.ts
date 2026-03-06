@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/sample-1.webp',
+      src: '/samples/english/writing/writing.webp',
       alt: 'Professional writing worksheet demonstrating original creative design elements that are copyrightable',
     },
     samples: [
       {
-        src: '/samples/english/writing/sample-1.webp',
+        src: '/samples/english/writing/writing.webp',
         alt: 'Writing worksheet showing original instructional text and creative layout choices',
         caption: 'Writing worksheets contain substantial original creative expression in their instructional text and design',
       },
       {
-        src: '/samples/english/wordsearch/sample-1.webp',
+        src: '/samples/english/wordsearch/wordsearch portrait.webp',
         alt: 'Word search puzzle with themed imagery demonstrating creative arrangement of educational content',
         caption: 'Word search puzzles demonstrate copyrightable creative arrangement of vocabulary elements',
       },
       {
-        src: '/samples/english/coloring/sample-1.webp',
+        src: '/samples/english/coloring/coloring portrait 1.webp',
         alt: 'Coloring page with original themed illustration design',
         caption: 'Coloring pages have strong copyright positions due to the visual originality of their designs',
       },

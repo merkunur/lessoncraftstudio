@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/sample-1.webp', alt: 'Writing worksheet demonstrating commercially licensable educational content for printable business sellers' },
+    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Writing worksheet demonstrating commercially licensable educational content for printable business sellers' },
     samples: [
-      { src: '/samples/english/writing/sample-1.webp', alt: 'Writing worksheet showing commercially licensable educational content', caption: 'Writing \u2014 Commercially Licensable Educational Content' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle demonstrating high-volume commercial product potential', caption: 'Word Search \u2014 Most Popular Commercial Puzzle Type' },
-      { src: '/samples/english/crossword/sample-1.webp', alt: 'Crossword puzzle showing multilingual commercial product capability', caption: 'Crossword \u2014 Multilingual Commercial Products' },
-      { src: '/samples/english/math/sample-1.webp', alt: 'Math worksheet demonstrating evergreen commercial product generation', caption: 'Math \u2014 Evergreen Commercial Product Generation' },
+      { src: '/samples/english/writing/writing.webp', alt: 'Writing worksheet showing commercially licensable educational content', caption: 'Writing \u2014 Commercially Licensable Educational Content' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle demonstrating high-volume commercial product potential', caption: 'Word Search \u2014 Most Popular Commercial Puzzle Type' },
+      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle showing multilingual commercial product capability', caption: 'Crossword \u2014 Multilingual Commercial Products' },
+      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Math worksheet demonstrating evergreen commercial product generation', caption: 'Math \u2014 Evergreen Commercial Product Generation' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Writing Worksheets for Your Printable Business \u2014 LessonCraftStudio Demo',

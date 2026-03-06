@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word search/sample-1.webp', alt: 'Word search worksheet example created with LessonCraftStudio generator' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet example created with LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search printable worksheet with animal theme', caption: 'Word Search \u2014 Animal Theme' },
-      { src: '/samples/english/addition/sample-1.webp', alt: 'Addition worksheet with picture-based math problems', caption: 'Addition \u2014 Image-Based Problems' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Themed Illustrations' },
-      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet with visual pair activities', caption: 'Matching \u2014 Visual Pair Activity' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search printable worksheet with animal theme', caption: 'Word Search \u2014 Animal Theme' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with picture-based math problems', caption: 'Addition \u2014 Image-Based Problems' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Themed Illustrations' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet with visual pair activities', caption: 'Matching \u2014 Visual Pair Activity' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Worksheets \u2014 LessonCraftStudio Demo',

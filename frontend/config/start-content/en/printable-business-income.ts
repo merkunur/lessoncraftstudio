@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/sample-1.webp', alt: 'Math worksheet demonstrating professional output quality from worksheet generators' },
+    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet demonstrating professional output quality from worksheet generators' },
     samples: [
-      { src: '/samples/english/math worksheet/sample-1.webp', alt: 'Math worksheet showing professional layout and 300 DPI print quality', caption: 'Math Worksheet \u2014 Versatile Revenue Builder' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle worksheet for Etsy and Amazon KDP sales', caption: 'Word Search \u2014 Top-Selling Puzzle Category' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page for KDP activity book publishing', caption: 'Coloring \u2014 High-Volume KDP Category' },
-      { src: '/samples/english/sudoku/sample-1.webp', alt: 'Sudoku puzzle worksheet with universal international appeal', caption: 'Sudoku \u2014 Universal Market Appeal' },
+      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet showing professional layout and 300 DPI print quality', caption: 'Math Worksheet \u2014 Versatile Revenue Builder' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet for Etsy and Amazon KDP sales', caption: 'Word Search \u2014 Top-Selling Puzzle Category' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page for KDP activity book publishing', caption: 'Coloring \u2014 High-Volume KDP Category' },
+      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle worksheet with universal international appeal', caption: 'Sudoku \u2014 Universal Market Appeal' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Math Worksheets for Your Printable Business \u2014 LessonCraftStudio Demo',

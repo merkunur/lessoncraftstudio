@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet demonstrating tool versatility and themed image library output' },
+    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet demonstrating tool versatility and themed image library output' },
     samples: [
-      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet showing image-to-word matching with themed illustrations', caption: 'Matching \u2014 Versatile Tool with Multiple Modes' },
-      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle worksheet demonstrating language-sensitive generation', caption: 'Word Search \u2014 Most Popular Puzzle Generator' },
-      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page showing design quality without language dependency', caption: 'Coloring \u2014 Universal Visual Content' },
-      { src: '/samples/english/crossword/sample-1.webp', alt: 'Crossword puzzle demonstrating multilingual generation capabilities', caption: 'Crossword \u2014 Multilingual Puzzle Tool' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet showing image-to-word matching with themed illustrations', caption: 'Matching \u2014 Versatile Tool with Multiple Modes' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet demonstrating language-sensitive generation', caption: 'Word Search \u2014 Most Popular Puzzle Generator' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page showing design quality without language dependency', caption: 'Coloring \u2014 Universal Visual Content' },
+      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle demonstrating multilingual generation capabilities', caption: 'Crossword \u2014 Multilingual Puzzle Tool' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets for Your Printable Business \u2014 LessonCraftStudio Demo',

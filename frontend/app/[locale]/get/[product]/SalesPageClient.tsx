@@ -24,25 +24,25 @@ const PUZZLE_SAMPLES = {
 
 const LIBRARY_IMAGES = [
   // Animals (real library: 36 images)
-  { src: '/image-library/animals/cat.png', label: 'Cat' },
-  { src: '/image-library/animals/dog.png', label: 'Dog' },
-  { src: '/image-library/animals/elephant.png', label: 'Elephant' },
-  { src: '/image-library/animals/penguin.png', label: 'Penguin' },
+  { src: '/image-library/animals/cat.webp', label: 'Cat' },
+  { src: '/image-library/animals/dog.webp', label: 'Dog' },
+  { src: '/image-library/animals/elephant.webp', label: 'Elephant' },
+  { src: '/image-library/animals/penguin.webp', label: 'Penguin' },
   // Fruits
-  { src: '/image-library/fruits/apple.png', label: 'Apple' },
-  { src: '/image-library/fruits/banana.png', label: 'Banana' },
-  { src: '/image-library/fruits/cherry.png', label: 'Cherry' },
-  { src: '/image-library/fruits/kiwi.png', label: 'Kiwi' },
+  { src: '/image-library/fruits/apple.webp', label: 'Apple' },
+  { src: '/image-library/fruits/banana.webp', label: 'Banana' },
+  { src: '/image-library/fruits/cherry.webp', label: 'Cherry' },
+  { src: '/image-library/fruits/kiwi.webp', label: 'Kiwi' },
   // Vegetables
-  { src: '/image-library/vegetables/carrot.png', label: 'Carrot' },
-  { src: '/image-library/vegetables/broccoli.png', label: 'Broccoli' },
-  { src: '/image-library/vegetables/corn.png', label: 'Corn' },
-  { src: '/image-library/vegetables/eggplant.png', label: 'Eggplant' },
+  { src: '/image-library/vegetables/carrot.webp', label: 'Carrot' },
+  { src: '/image-library/vegetables/broccoli.webp', label: 'Broccoli' },
+  { src: '/image-library/vegetables/corn.webp', label: 'Corn' },
+  { src: '/image-library/vegetables/eggplant.webp', label: 'Eggplant' },
   // Christmas
-  { src: '/image-library/christmas/candy cane.png', label: 'Candy Cane' },
-  { src: '/image-library/christmas/gingerbread.png', label: 'Gingerbread' },
-  { src: '/image-library/christmas/bell.png', label: 'Bell' },
-  { src: '/image-library/christmas/angel.png', label: 'Angel' },
+  { src: '/image-library/christmas/candy cane.webp', label: 'Candy Cane' },
+  { src: '/image-library/christmas/gingerbread.webp', label: 'Gingerbread' },
+  { src: '/image-library/christmas/bell.webp', label: 'Bell' },
+  { src: '/image-library/christmas/angel.webp', label: 'Angel' },
 ];
 
 const FLAG_EMOJI: Record<string, string> = {

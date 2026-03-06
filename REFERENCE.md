@@ -119,6 +119,12 @@ All YouTube embeds MUST use the click-to-play facade pattern (proven implementat
 - Above-the-fold hero images: `priority={true}` (skip lazy)
 - Use WebP/AVIF via Next.js automatic optimization
 
+**Image Library References — WebP ONLY:**
+- All `/image-library/` references in content files MUST use `.webp` extension, NEVER `.png`
+- WebP versions exist for all 3,125 images (converted at quality 80, 79% smaller than PNG)
+- PNG originals remain on server for worksheet generator apps — pages never reference them
+- Worksheet sample images (`/samples/...`) stay as `.jpeg` — Next.js `<Image>` auto-optimizes these
+
 **Animations:**
 - CSS `@keyframes` ONLY — never JS-driven animation libraries
 - framer-motion is **banned** (already removed; causes invisible SSR content with `initial={{ opacity: 0 }}`)
@@ -270,6 +276,11 @@ Every page in the system MUST prominently feature visual assets. Visuals communi
 - `sampleGallery` must have at least 3 entries for page types 1-3, at least 2 for types 4-6
 - All `alt` text must be in the page's locale language, never English (unless locale IS English)
 - Image paths are URL strings only — actual files live in isolated storage, never in git
+
+**Image format rules:**
+- Image library images: ALWAYS `.webp` — e.g., `/image-library/animals/cat.webp`
+- Worksheet samples: ALWAYS `.jpeg` — e.g., `/samples/english/addition/Addition%20Fun%201.jpeg` (Next.js auto-optimizes)
+- NEVER reference `.png` in any content file — PNGs are source files for worksheet apps only
 
 ### 1.9 Localization of Product Names
 
@@ -1590,8 +1601,8 @@ The specific video assignment for each niche page is determined during content c
 |----------|-------|
 | **Local path (symlink)** | `C:\Users\rkgen\lessoncraftstudio\image library\` |
 | **Server path (prod)** | `/var/www/lcs-media/image-library/` (isolated storage) |
-| **URL pattern** | `/image-library/{theme-folder}/{image}.png` |
-| **File type** | PNG only |
+| **URL pattern** | `/image-library/{theme-folder}/{image}.webp` |
+| **File type** | WebP (converted from PNG; originals preserved for worksheet apps) |
 | **Language-independent** | Same PNG images for all locales; only `alt` text is localized |
 
 **102 theme folders** including: animals, birds, dinosaurs, food, ocean life, space, vehicles, farm, insects, flowers, fruits, vegetables, sports, musical instruments, weather, and many more.
@@ -1625,7 +1636,7 @@ interface PageVisuals {
     caption?: string;     // Optional localized caption
   }>;
   themeImages?: Array<{   // Image library showcase
-    src: string;          // URL path (/image-library/...)
+    src: string;          // URL path (/image-library/...webp) — MUST be .webp, never .png
     alt: string;          // Localized alt text
     theme: string;        // Theme folder name
   }>;

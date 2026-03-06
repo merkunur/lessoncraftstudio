@@ -42,14 +42,14 @@ export async function GET(request: NextRequest) {
         const fileName = asset.attributes.fileName;
         
         // Check if file exists
-        const imagePath = path.join(process.cwd(), 'public', 'images', theme, `${fileName}.png`);
-        let fileExt = '.png';
-        
+        const imagePath = path.join(process.cwd(), 'public', 'images', theme, `${fileName}.webp`);
+        let fileExt = '.webp';
+
         try {
           await fs.access(imagePath);
         } catch {
           // Try other extensions
-          for (const ext of ['.jpg', '.jpeg', '.gif', '.svg']) {
+          for (const ext of ['.png', '.jpg', '.jpeg', '.gif', '.svg']) {
             const altPath = path.join(process.cwd(), 'public', 'images', theme, `${fileName}${ext}`);
             try {
               await fs.access(altPath);

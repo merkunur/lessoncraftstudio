@@ -38,8 +38,8 @@ export async function GET(request: Request) {
       const data = await response.json();
       
       const images = data.data.map((item: any) => ({
-        path: item.image_file ? `/assets/${item.image_file.id}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.png`,
-        url: item.image_file ? `${DIRECTUS_URL}/assets/${item.image_file.id}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.png`,
+        path: item.image_file ? `/assets/${item.image_file.id}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.webp`,
+        url: item.image_file ? `${DIRECTUS_URL}/assets/${item.image_file.id}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.webp`,
         name: item.translations?.[locale] || item.file_name,
         word: item.translations?.[locale] || item.file_name,
         theme: item.theme_id?.folder_name || 'unknown'
@@ -118,8 +118,8 @@ export async function GET(request: Request) {
       const data = await response.json();
       
       const images = data.data.map((item: any) => ({
-        path: item.image_file ? `/assets/${item.image_file.id}` : `/images/${theme}/${item.file_name}.png`,
-        url: item.image_file ? `${DIRECTUS_URL}/assets/${item.image_file.id}` : `/images/${theme}/${item.file_name}.png`,
+        path: item.image_file ? `/assets/${item.image_file.id}` : `/images/${theme}/${item.file_name}.webp`,
+        url: item.image_file ? `${DIRECTUS_URL}/assets/${item.image_file.id}` : `/images/${theme}/${item.file_name}.webp`,
         name: item.translations?.[locale] || item.file_name,
         word: item.translations?.[locale] || item.file_name
       }));

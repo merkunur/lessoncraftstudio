@@ -24,22 +24,22 @@ const CODE_ADDITION_SAMPLES = {
 };
 
 const LIBRARY_IMAGES = [
-  { src: '/image-library/animals/cat.png', label: 'Cat' },
-  { src: '/image-library/animals/dog.png', label: 'Dog' },
-  { src: '/image-library/animals/elephant.png', label: 'Elephant' },
-  { src: '/image-library/animals/fox.png', label: 'Fox' },
-  { src: '/image-library/fruits/apple.png', label: 'Apple' },
-  { src: '/image-library/fruits/banana.png', label: 'Banana' },
-  { src: '/image-library/fruits/cherry.png', label: 'Cherry' },
-  { src: '/image-library/fruits/kiwi.png', label: 'Kiwi' },
-  { src: '/image-library/vegetables/carrot.png', label: 'Carrot' },
-  { src: '/image-library/vegetables/broccoli.png', label: 'Broccoli' },
-  { src: '/image-library/vehicles/car.png', label: 'Car' },
-  { src: '/image-library/vehicles/airplane.png', label: 'Airplane' },
-  { src: '/image-library/dinosaurs/brachiosaurus.png', label: 'Brachiosaurus' },
-  { src: '/image-library/space/astronaut.png', label: 'Astronaut' },
-  { src: '/image-library/birds/owl.png', label: 'Owl' },
-  { src: '/image-library/ocean%20life/octopus.png', label: 'Octopus' },
+  { src: '/image-library/animals/cat.webp', label: 'Cat' },
+  { src: '/image-library/animals/dog.webp', label: 'Dog' },
+  { src: '/image-library/animals/elephant.webp', label: 'Elephant' },
+  { src: '/image-library/animals/fox.webp', label: 'Fox' },
+  { src: '/image-library/fruits/apple.webp', label: 'Apple' },
+  { src: '/image-library/fruits/banana.webp', label: 'Banana' },
+  { src: '/image-library/fruits/cherry.webp', label: 'Cherry' },
+  { src: '/image-library/fruits/kiwi.webp', label: 'Kiwi' },
+  { src: '/image-library/vegetables/carrot.webp', label: 'Carrot' },
+  { src: '/image-library/vegetables/broccoli.webp', label: 'Broccoli' },
+  { src: '/image-library/vehicles/car.webp', label: 'Car' },
+  { src: '/image-library/vehicles/airplane.webp', label: 'Airplane' },
+  { src: '/image-library/dinosaurs/brachiosaurus.webp', label: 'Brachiosaurus' },
+  { src: '/image-library/space/astronaut.webp', label: 'Astronaut' },
+  { src: '/image-library/birds/owl.webp', label: 'Owl' },
+  { src: '/image-library/ocean%20life/octopus.webp', label: 'Octopus' },
 ];
 
 /* ═══════════════════════════════════════════════════════

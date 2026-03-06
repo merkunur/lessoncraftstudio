@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/sample-1.jpeg',
+      src: '/samples/english/matching/sample-1.webp',
       alt: 'Professional matching worksheet demonstrating the product quality that earns positive buyer reviews',
     },
     samples: [
       {
-        src: '/samples/english/matching/sample-1.jpeg',
+        src: '/samples/english/matching/sample-1.webp',
         alt: 'Matching worksheet showcasing visual quality that drives positive buyer reviews',
         caption: 'High-quality matching worksheets naturally earn positive reviews through visual appeal and educational value',
       },
       {
-        src: '/samples/english/coloring/sample-1.jpeg',
+        src: '/samples/english/coloring/sample-1.webp',
         alt: 'Coloring page demonstrating professional design quality that motivates buyer feedback',
         caption: 'Professional coloring pages generate reviews because buyers can immediately see and appreciate design quality',
       },
       {
-        src: '/samples/english/wordsearch/sample-1.jpeg',
+        src: '/samples/english/wordsearch/sample-1.webp',
         alt: 'Word search puzzle showing the popular product format that generates high review volume',
         caption: 'Word searches generate high sales volume and consistent positive review rates across age groups',
       },

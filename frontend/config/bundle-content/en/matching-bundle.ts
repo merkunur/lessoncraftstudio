@@ -204,15 +204,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/sample-1.jpeg',
+      primary: '/samples/english/matching/sample-1.webp',
       primaryAlt: 'Matching worksheet with themed images showing pair-matching exercise',
     },
     sampleGallery: [
-      { src: '/samples/english/matching/sample-1.jpeg', alt: 'Matching worksheet with four matching modes and themed images', caption: 'Matching Worksheet' },
-      { src: '/samples/english/grid-match/sample-1.jpeg', alt: 'Grid match puzzle with coordinate-based matching on structured grid', caption: 'Grid Match Worksheet' },
-      { src: '/samples/english/shadow-match/sample-1.jpeg', alt: 'Shadow match worksheet with silhouette pairing and draw-line format', caption: 'Shadow Match Worksheet' },
-      { src: '/samples/english/bingo/sample-1.jpeg', alt: 'Bingo card with themed images in randomized grid layout', caption: 'Bingo Card' },
-      { src: '/samples/english/picture-sort/sample-1.jpeg', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
+      { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet with four matching modes and themed images', caption: 'Matching Worksheet' },
+      { src: '/samples/english/grid-match/sample-1.webp', alt: 'Grid match puzzle with coordinate-based matching on structured grid', caption: 'Grid Match Worksheet' },
+      { src: '/samples/english/shadow-match/sample-1.webp', alt: 'Shadow match worksheet with silhouette pairing and draw-line format', caption: 'Shadow Match Worksheet' },
+      { src: '/samples/english/bingo/sample-1.webp', alt: 'Bingo card with themed images in randomized grid layout', caption: 'Bingo Card' },
+      { src: '/samples/english/picture-sort/sample-1.webp', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matching & Sorting Bundle — See All 5 Generators in Action',

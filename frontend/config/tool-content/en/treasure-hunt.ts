@@ -213,17 +213,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/treasure_hunt_puzzle.jpeg',
+      primary: '/samples/english/treasure hunt/treasure_hunt_puzzle.webp',
       primaryAlt: 'Treasure hunt path-finding worksheet with 5 by 5 coordinate grid, 6 scattered themed images as landmarks, directional clues, and treasure-themed teal header with golden title',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/treasure_hunt_cardinal.jpeg',
+        src: '/samples/english/treasure hunt/treasure_hunt_cardinal.webp',
         alt: 'Treasure hunt puzzle worksheet with Cardinal direction clues using north south east and west on a 5 by 5 coordinate grid',
         caption: 'Cardinal direction mode \u2014 compass directions for advanced spatial reasoning and map-reading skills',
       },
       {
-        src: '/samples/english/treasure hunt/treasure_hunt_answer_key.jpeg',
+        src: '/samples/english/treasure hunt/treasure_hunt_answer_key.webp',
         alt: 'Treasure hunt answer key with final treasure cell highlighted in pale yellow on the 5 by 5 coordinate grid',
         caption: 'Auto-generated answer key \u2014 pale yellow highlight marks the treasure destination for self-checking',
       },

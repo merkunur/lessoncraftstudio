@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/chart_count_worksheet.jpeg',
+      primary: '/samples/english/chart count/chart_count_worksheet.webp',
       primaryAlt: 'Picture graph worksheet with scattered image grid and bar chart for students to count and graph 6 image types',
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/chart_count_animals.jpeg',
+        src: '/samples/english/chart count/chart_count_animals.webp',
         alt: 'Animal theme picture graph worksheet with 20 scattered animal icons and empty bar chart',
         caption: 'Animal theme picture graph \u2014 6 animal types scattered across the grid with bar chart below',
       },
       {
-        src: '/samples/english/chart count/chart_count_answer_key.jpeg',
+        src: '/samples/english/chart count/chart_count_answer_key.webp',
         alt: 'Picture graph answer key with yellow highlighted cells showing correct counts for each image type',
         caption: 'Auto-generated answer key \u2014 yellow-filled cells show the correct count for each image type',
       },
       {
-        src: '/samples/english/chart count/chart_count_decorated.jpeg',
+        src: '/samples/english/chart count/chart_count_decorated.webp',
         alt: 'Picture graph worksheet with decorative background theme and border frame applied',
         caption: 'Decorated picture graph \u2014 background and border themes with independent opacity controls',
       },

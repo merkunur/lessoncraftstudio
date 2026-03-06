@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/sample-1.jpeg',
+      primary: '/samples/english/wordsearch/sample-1.webp',
       primaryAlt: 'Word search worksheet with themed vocabulary grid and color-coded answer key',
     },
     sampleGallery: [
-      { src: '/samples/english/alphabet-train/sample-1.jpeg', alt: 'Alphabet train worksheet with letter-image matching cars', caption: 'Alphabet Train Worksheet' },
-      { src: '/samples/english/prepositions/sample-1.jpeg', alt: 'Prepositions worksheet showing spatial relationships with images', caption: 'Prepositions Worksheet' },
-      { src: '/samples/english/word-guess/sample-1.jpeg', alt: 'Word guess worksheet with image clues and letter blanks', caption: 'Word Guess Worksheet' },
-      { src: '/samples/english/word-scramble/sample-1.jpeg', alt: 'Word scramble worksheet with color-coded letter tiles', caption: 'Word Scramble Worksheet' },
-      { src: '/samples/english/wordsearch/sample-1.jpeg', alt: 'Word search grid with hidden vocabulary words', caption: 'Word Search Worksheet' },
-      { src: '/samples/english/cryptogram/sample-1.jpeg', alt: 'Cryptogram puzzle with image cipher encoding', caption: 'Cryptogram Worksheet' },
-      { src: '/samples/english/writing/sample-1.jpeg', alt: 'Handwriting practice worksheet with guided letter strokes', caption: 'Writing Worksheet' },
+      { src: '/samples/english/alphabet-train/sample-1.webp', alt: 'Alphabet train worksheet with letter-image matching cars', caption: 'Alphabet Train Worksheet' },
+      { src: '/samples/english/prepositions/sample-1.webp', alt: 'Prepositions worksheet showing spatial relationships with images', caption: 'Prepositions Worksheet' },
+      { src: '/samples/english/word-guess/sample-1.webp', alt: 'Word guess worksheet with image clues and letter blanks', caption: 'Word Guess Worksheet' },
+      { src: '/samples/english/word-scramble/sample-1.webp', alt: 'Word scramble worksheet with color-coded letter tiles', caption: 'Word Scramble Worksheet' },
+      { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search grid with hidden vocabulary words', caption: 'Word Search Worksheet' },
+      { src: '/samples/english/cryptogram/sample-1.webp', alt: 'Cryptogram puzzle with image cipher encoding', caption: 'Cryptogram Worksheet' },
+      { src: '/samples/english/writing/sample-1.webp', alt: 'Handwriting practice worksheet with guided letter strokes', caption: 'Writing Worksheet' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Literacy & Language Bundle — See All 7 Generators in Action',

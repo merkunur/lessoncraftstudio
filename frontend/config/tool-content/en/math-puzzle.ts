@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free math puzzle worksheet generator',
+    primaryKeyword: 'math puzzle worksheet generator',
     secondaryKeywords: [
       'math puzzle maker for sellers',
       'create math puzzle worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'picture puzzle worksheet tool',
       'math jigsaw activity generator',
     ],
-    titleTag: 'Free Math Puzzle Worksheet Generator | Create & Sell Jigsaw Math Puzzles',
+    titleTag: 'Math Puzzle Worksheet Generator | Create & Sell Jigsaw Math Puzzles',
     metaDescription: 'Generate jigsaw-style math puzzles with image grids, three operation modes, and custom image upload. Create unique printables to sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Math Puzzle Worksheet Generator',
+    title: 'Math Puzzle Worksheet Generator',
     tagline: 'Create jigsaw-style image puzzles with math equations in under 60 seconds',
-    description: 'Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This free tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below \u2014 students solve each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2\u00d72 (4 pieces, easiest) up to 4\u00d74 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results \u2014 buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free version includes a small watermark \u2014 perfect for testing before you buy a commercial license.',
+    description: 'Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below \u2014 students solve each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2\u00d72 (4 pieces, easiest) up to 4\u00d74 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results \u2014 buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the math puzzle generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download puzzles without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How does the math puzzle format work?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the puzzles for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell puzzles on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell puzzles on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create.',
     },
     {
       question: 'Do the puzzles work in languages other than English?',
@@ -192,39 +192,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-addition-worksheet-maker', anchorText: 'Free Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-subtraction-worksheet-maker', anchorText: 'Free Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-code-addition-worksheet-maker', anchorText: 'Free Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-more-or-less-worksheet-maker', anchorText: 'Free More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-worksheet-maker', anchorText: 'Free Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-missing-pieces-maker', anchorText: 'Free Missing Pieces Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/Math Puzzle (10).jpeg',
+      primary: '/samples/english/math puzzle/Math Puzzle (10).webp',
       primaryAlt: 'Math puzzle worksheet showing a jigsaw-style image grid with addition equations and scrambled answer pieces',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math puzzle/Math Puzzle (10).jpeg',
+        src: '/samples/english/math puzzle/Math Puzzle (10).webp',
         alt: 'Jigsaw math puzzle worksheet with addition equations in a colorful image grid',
         caption: 'Addition mode with themed image puzzle',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzle (25).jpeg',
+        src: '/samples/english/math puzzle/Math Puzzle (25).webp',
         alt: 'Math puzzle worksheet with subtraction equations and scrambled number pieces below the grid',
         caption: 'Subtraction mode \u2014 solve equations to reconstruct the picture',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzle (40).jpeg',
+        src: '/samples/english/math puzzle/Math Puzzle (40).webp',
         alt: 'Mixed addition and subtraction math puzzle with a larger grid for advanced students',
         caption: 'Mixed operations \u2014 addition and subtraction in one puzzle',
       },

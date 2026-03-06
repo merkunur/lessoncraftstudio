@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find-objects/find_objects_scene.jpeg',
+      primary: '/samples/english/find-objects/find_objects_scene.webp',
       primaryAlt: 'Hidden object I Spy worksheet with scattered images placed using zero-overlap algorithm showing legend at bottom with objects to find and decorative Fredoka header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find-objects/find_objects_ispy.jpeg',
+        src: '/samples/english/find-objects/find_objects_ispy.webp',
         alt: 'I Spy hidden object scene with scattered images and legend showing target objects at the bottom of the worksheet',
         caption: 'I Spy mode — free-form hidden object scene with zero-overlap placement and bottom legend display',
       },
       {
-        src: '/samples/english/find-objects/find_objects_oddoneout.jpeg',
+        src: '/samples/english/find-objects/find_objects_oddoneout.webp',
         alt: 'Odd One Out worksheet with paired images in rows and unpaired items to identify rendered 50 percent larger',
         caption: 'Odd One Out mode — paired images with unpaired items for visual discrimination activities',
       },
       {
-        src: '/samples/english/find-objects/find_objects_answer_key.jpeg',
+        src: '/samples/english/find-objects/find_objects_answer_key.webp',
         alt: 'Hidden object worksheet answer key with red circles drawn around target objects sized 3 to 5 pixels larger than each object',
         caption: 'Auto-generated answer key — red circle annotations mark hidden and unpaired objects for self-checking',
       },

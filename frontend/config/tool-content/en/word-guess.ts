@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free word guess worksheet generator',
+    primaryKeyword: 'word guess worksheet generator',
     secondaryKeywords: [
       'word guess worksheet maker for sellers',
       'create spelling guess worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'image-based word building worksheet tool',
       'multilingual spelling activity generator',
     ],
-    titleTag: 'Free Word Guess Worksheet Generator | Create & Sell Spelling Printables',
+    titleTag: 'Word Guess Worksheet Generator | Create & Sell Spelling Printables',
     metaDescription: 'Generate word guess worksheets with 4 clue difficulty levels, dual input modes, and exclude letters across 11 languages. 104 image themes. Create spelling printables to sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Word Guess Worksheet Generator',
+    title: 'Word Guess Worksheet Generator',
     tagline: 'Create image-based spelling worksheets with 4 clue levels in 11 languages',
-    description: 'Turn vocabulary practice into a visual puzzle students love solving. This free tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks \u2014 students study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids \u2014 exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free version includes a small watermark \u2014 perfect for testing before purchasing a commercial license.',
+    description: 'Turn vocabulary practice into a visual puzzle students love solving. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks \u2014 students study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids \u2014 exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the word guess worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download word guess worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How do the four clue difficulty levels work?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',
@@ -196,39 +196,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-alphabet-train-maker', anchorText: 'Free Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'free-prepositions-worksheet-maker', anchorText: 'Free Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-word-scramble-maker', anchorText: 'Free Word Scramble Maker' },
-    { pageType: 'tool', slug: 'free-word-search-maker', anchorText: 'Free Word Search Maker' },
-    { pageType: 'tool', slug: 'free-cryptogram-maker', anchorText: 'Free Cryptogram Maker' },
-    { pageType: 'tool', slug: 'free-handwriting-worksheet-maker', anchorText: 'Free Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
+    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
+    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
+    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
       primaryAlt: 'Word guess worksheet showing image clues paired with letter grids containing blanks for spelling practice',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+        src: '/samples/english/word guess/clue-grid_worksheet.webp',
         alt: 'Word guess worksheet with image clues and partially filled letter grids for spelling practice',
         caption: 'Image-based word guess exercises with progressive clue levels',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (2).jpeg',
+        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
         alt: 'Word guess worksheet showing multiple difficulty levels with different amounts of revealed letters',
         caption: 'Adjustable clue difficulty from Easy to No Clues',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (4).jpeg',
+        src: '/samples/english/word guess/clue-grid_worksheet (4).webp',
         alt: 'Word guess worksheet with themed image collection and colorful letter grids',
         caption: 'Themed collections create cohesive spelling activity packs',
       },

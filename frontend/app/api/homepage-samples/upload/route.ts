@@ -116,7 +116,7 @@ async function processImageUpload(
   const dir = path.join(SAMPLES_BASE, language, 'homepage');
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `${appId}-thumbnail.jpeg`);
+  const originalPath = path.join(dir, `${appId}-thumbnail.webp`);
   const thumbPath = path.join(dir, `${appId}-thumbnail_thumb.webp`);
   const previewPath = path.join(dir, `${appId}-thumbnail_preview.webp`);
 
@@ -132,7 +132,7 @@ async function processImageUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: ${appId}-thumbnail.jpeg. Set overwrite=true to replace.`
+      error: `File already exists: ${appId}-thumbnail.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -144,8 +144,9 @@ async function processImageUpload(
   }
 
   try {
-    // Save original JPEG
-    await fs.writeFile(originalPath, buffer);
+    // Save original as WebP
+    const webpOriginal = await sharp(buffer).webp({ quality: 90 }).toBuffer();
+    await fs.writeFile(originalPath, webpOriginal);
     setImmutable(originalPath);
     console.log(`[HOMEPAGE-SAMPLES] Saved original: ${originalPath}`);
 
@@ -186,7 +187,7 @@ async function processImageUpload(
       success: true,
       message: 'Image uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/homepage/${appId}-thumbnail.jpeg`,
+        original: `/samples/${language}/homepage/${appId}-thumbnail.webp`,
         thumb: `/samples/${language}/homepage/${appId}-thumbnail_thumb.webp`,
         preview: `/samples/${language}/homepage/${appId}-thumbnail_preview.webp`
       },
@@ -267,7 +268,7 @@ async function processHeroImageUpload(
   const dir = path.join(SAMPLES_BASE, language, 'homepage');
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `hero-${orientation}.jpeg`);
+  const originalPath = path.join(dir, `hero-${orientation}.webp`);
   const thumbPath = path.join(dir, `hero-${orientation}_thumb.webp`);
   const previewPath = path.join(dir, `hero-${orientation}_preview.webp`);
 
@@ -283,7 +284,7 @@ async function processHeroImageUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: hero-${orientation}.jpeg. Set overwrite=true to replace.`
+      error: `File already exists: hero-${orientation}.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -295,8 +296,9 @@ async function processHeroImageUpload(
   }
 
   try {
-    // Save original JPEG
-    await fs.writeFile(originalPath, buffer);
+    // Save original as WebP
+    const webpHero = await sharp(buffer).webp({ quality: 90 }).toBuffer();
+    await fs.writeFile(originalPath, webpHero);
     setImmutable(originalPath);
     console.log(`[HOMEPAGE-SAMPLES] Saved hero original: ${originalPath}`);
 
@@ -337,7 +339,7 @@ async function processHeroImageUpload(
       success: true,
       message: `Hero ${orientation} image uploaded and WebP variants generated successfully`,
       paths: {
-        original: `/samples/${language}/homepage/hero-${orientation}.jpeg`,
+        original: `/samples/${language}/homepage/hero-${orientation}.webp`,
         thumb: `/samples/${language}/homepage/hero-${orientation}_thumb.webp`,
         preview: `/samples/${language}/homepage/hero-${orientation}_preview.webp`
       },

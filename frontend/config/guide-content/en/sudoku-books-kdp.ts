@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sample-1.jpeg', alt: 'Picture sudoku puzzle worksheet showing themed image grid suitable for Amazon KDP sudoku book interior pages' },
+    heroImage: { src: '/samples/english/sudoku/sample-1.webp', alt: 'Picture sudoku puzzle worksheet showing themed image grid suitable for Amazon KDP sudoku book interior pages' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_animals.jpeg', alt: 'Animal themed picture sudoku puzzle formatted for KDP kids sudoku book', caption: 'Picture sudoku with animal theme \u2014 image-based grids make sudoku logic accessible to children ages 3 to 7 who have not yet learned numbers' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.jpeg', alt: 'Picture sudoku puzzle worksheet for KDP book interior', caption: 'Picture sudoku worksheet \u2014 4x4 grids with clear images and generous cell sizing for comfortable solving by young children' },
-      { src: '/samples/english/math-puzzle/math_puzzle_worksheet.jpeg', alt: 'Math puzzle worksheet for companion KDP puzzle catalog', caption: 'Math puzzle \u2014 number-based logic puzzles complement sudoku naturally in variety puzzle books and cross-promote through your author page' },
+      { src: '/samples/english/sudoku/sudoku_animals.webp', alt: 'Animal themed picture sudoku puzzle formatted for KDP kids sudoku book', caption: 'Picture sudoku with animal theme \u2014 image-based grids make sudoku logic accessible to children ages 3 to 7 who have not yet learned numbers' },
+      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Picture sudoku puzzle worksheet for KDP book interior', caption: 'Picture sudoku worksheet \u2014 4x4 grids with clear images and generous cell sizing for comfortable solving by young children' },
+      { src: '/samples/english/math-puzzle/math_puzzle_worksheet.webp', alt: 'Math puzzle worksheet for companion KDP puzzle catalog', caption: 'Math puzzle \u2014 number-based logic puzzles complement sudoku naturally in variety puzzle books and cross-promote through your author page' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Picture Sudoku Puzzles for Amazon KDP Books \u2014 Step-by-Step Tutorial',

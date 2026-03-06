@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/sudoku/sudoku_worksheet.jpeg',
+      primary: '/samples/english/sudoku/sudoku_worksheet.webp',
       primaryAlt: '4×4 picture sudoku worksheet with themed images in a premium grid featuring alternating blue and pink block colors, bold center dividers, and indigo outer border with rounded corners',
     },
     sampleGallery: [
       {
-        src: '/samples/english/sudoku/sudoku_easy.jpeg',
+        src: '/samples/english/sudoku/sudoku_easy.webp',
         alt: 'Easy difficulty picture sudoku with 4 blank cells and 12 filled cells in a 4×4 grid with alternating block colors',
         caption: 'Easy difficulty — 4 blank cells for beginners learning row-and-column logic',
       },
       {
-        src: '/samples/english/sudoku/sudoku_hard.jpeg',
+        src: '/samples/english/sudoku/sudoku_hard.webp',
         alt: 'Hard difficulty picture sudoku with 8 blank cells and 8 filled cells in a 4×4 grid requiring multi-step reasoning',
         caption: 'Hard difficulty — 8 blank cells (half the grid) requiring multi-step logical reasoning',
       },
       {
-        src: '/samples/english/sudoku/sudoku_answer_key.jpeg',
+        src: '/samples/english/sudoku/sudoku_answer_key.webp',
         alt: 'Picture sudoku answer key showing complete filled 4×4 grid with all 16 cells populated with the correct images',
         caption: 'Auto-generated answer key — complete filled grid with all 16 cells showing correct image placement',
       },

@@ -213,17 +213,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_puzzle.jpeg',
+      primary: '/samples/english/crossword/crossword_puzzle.webp',
       primaryAlt: 'Picture crossword puzzle with image clues alongside a 15 by 15 crossword grid with numbered clue positions and localized blue header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_custom.jpeg',
+        src: '/samples/english/crossword/crossword_custom.webp',
         alt: 'Custom word list crossword with text clues and crossword grid showing WORD clue format input method',
         caption: 'Custom Word List mode \u2014 traditional text-clue crosswords with your own vocabulary',
       },
       {
-        src: '/samples/english/crossword/crossword_answer_key.jpeg',
+        src: '/samples/english/crossword/crossword_answer_key.webp',
         alt: 'Crossword puzzle answer key with all correct letters filled into the 15 by 15 grid cells',
         caption: 'Auto-generated answer key \u2014 filled grid shows all correct answers for self-checking',
       },

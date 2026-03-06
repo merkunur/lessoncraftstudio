@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/sample-1.jpeg',
+      src: '/samples/english/bingo/sample-1.webp',
       alt: 'Professional bingo card worksheet demonstrating visually appealing printable products ideal for social media marketing',
     },
     samples: [
       {
-        src: '/samples/english/bingo/sample-1.jpeg',
+        src: '/samples/english/bingo/sample-1.webp',
         alt: 'Bingo card showing highly shareable printable product for social media content',
         caption: 'Visually appealing products like bingo cards create compelling social media content that drives engagement',
       },
       {
-        src: '/samples/english/coloring/sample-1.jpeg',
+        src: '/samples/english/coloring/sample-1.webp',
         alt: 'Coloring page demonstrating photogenic printable product for Instagram and Pinterest',
         caption: 'Coloring pages photograph beautifully for flat-lay product showcases on visual platforms',
       },
       {
-        src: '/samples/english/wordsearch/sample-1.jpeg',
+        src: '/samples/english/wordsearch/sample-1.webp',
         alt: 'Word search puzzle showing popular printable product type with strong social media appeal',
         caption: 'Word searches attract broad audience engagement and perform well across social media platforms',
       },

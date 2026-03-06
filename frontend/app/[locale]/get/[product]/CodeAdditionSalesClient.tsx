@@ -15,12 +15,12 @@ interface Props {
 
 const CODE_ADDITION_SAMPLES = {
   // Regular mode (image-based) — what FE buyers actually get
-  worksheet1: '/samples/english/code%20addition/image_addition_worksheet%20(1).jpeg',
-  worksheet2: '/samples/english/code%20addition/image_addition_worksheet%20(2).jpeg',
-  worksheet3: '/samples/english/code%20addition/image_addition_worksheet%20(3).jpeg',
-  worksheet4: '/samples/english/code%20addition/image_addition_worksheet%20(4).jpeg',
-  answerKey1: '/samples/english/code%20addition/image_addition_answer_key%20(1).jpeg',
-  answerKey2: '/samples/english/code%20addition/image_addition_answer_key%20(2).jpeg',
+  worksheet1: '/samples/english/code%20addition/image_addition_worksheet%20(1).webp',
+  worksheet2: '/samples/english/code%20addition/image_addition_worksheet%20(2).webp',
+  worksheet3: '/samples/english/code%20addition/image_addition_worksheet%20(3).webp',
+  worksheet4: '/samples/english/code%20addition/image_addition_worksheet%20(4).webp',
+  answerKey1: '/samples/english/code%20addition/image_addition_answer_key%20(1).webp',
+  answerKey2: '/samples/english/code%20addition/image_addition_answer_key%20(2).webp',
 };
 
 const LIBRARY_IMAGES = [

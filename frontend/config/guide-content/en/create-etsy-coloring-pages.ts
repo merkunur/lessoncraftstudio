@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring_worksheet.jpeg', alt: 'Coloring page with themed illustrations showing B&W line art for selling on Etsy' },
+    heroImage: { src: '/samples/english/coloring/coloring_worksheet.webp', alt: 'Coloring page with themed illustrations showing B&W line art for selling on Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring_animals.jpeg', alt: 'Animal themed coloring page created for Etsy digital download listing', caption: 'Animal coloring page from the themed image library \u2014 clean B&W line art that creates eye-catching Etsy listing photos' },
-      { src: '/samples/english/coloring/coloring_nature.jpeg', alt: 'Nature themed coloring page showing detailed compositions for adult and kids markets', caption: 'Nature coloring page \u2014 versatile theme that appeals to both kids and adult coloring buyers on Etsy' },
-      { src: '/samples/english/coloring/coloring_holiday.jpeg', alt: 'Holiday themed coloring page demonstrating seasonal product for Etsy demand peaks', caption: 'Holiday coloring page \u2014 seasonal themes drive major demand spikes on Etsy throughout the year' },
+      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Animal themed coloring page created for Etsy digital download listing', caption: 'Animal coloring page from the themed image library \u2014 clean B&W line art that creates eye-catching Etsy listing photos' },
+      { src: '/samples/english/coloring/coloring_nature.webp', alt: 'Nature themed coloring page showing detailed compositions for adult and kids markets', caption: 'Nature coloring page \u2014 versatile theme that appeals to both kids and adult coloring buyers on Etsy' },
+      { src: '/samples/english/coloring/coloring_holiday.webp', alt: 'Holiday themed coloring page demonstrating seasonal product for Etsy demand peaks', caption: 'Holiday coloring page \u2014 seasonal themes drive major demand spikes on Etsy throughout the year' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages for Selling on Etsy \u2014 Step-by-Step Tutorial',

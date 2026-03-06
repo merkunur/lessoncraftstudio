@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/drawing lines/drawing_lines_worksheet.jpeg',
+      primary: '/samples/english/drawing lines/drawing_lines_worksheet.webp',
       primaryAlt: 'Line tracing worksheet with SVG curve template connecting matched colorful image pairs in landscape format',
     },
     sampleGallery: [
       {
-        src: '/samples/english/drawing lines/drawing_lines_curve.jpeg',
+        src: '/samples/english/drawing lines/drawing_lines_curve.webp',
         alt: 'Line tracing worksheet with curve template connecting matched animal image pairs in landscape orientation',
         caption: 'Curve template \u2014 flowing line paths with 4 colorful image pairs in landscape orientation',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_diagonal.jpeg',
+        src: '/samples/english/drawing lines/drawing_lines_diagonal.webp',
         alt: 'Line tracing worksheet with diagonal template connecting five image pairs in portrait orientation',
         caption: 'Diagonal template \u2014 angled lines with 5 image pairs for cross-body coordination practice',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        src: '/samples/english/drawing lines/drawing_lines_horizontal.webp',
         alt: 'Line tracing worksheet with horizontal template connecting nature-themed image pairs in portrait format',
         caption: 'Horizontal template \u2014 straight left-to-right lines for beginner fine motor practice',
       },

@@ -14,12 +14,12 @@ interface Props {
    ═══════════════════════════════════════════ */
 
 const PUZZLE_SAMPLES = {
-  portrait: '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
-  landscape: '/samples/english/wordsearch/wordsearch%20landscape.jpeg',
-  custom: '/samples/english/wordsearch/custom%20word%20list.jpeg',
-  answerKey: '/samples/english/wordsearch/wordsearch%20portrait%20answer_key.jpeg',
-  german: '/samples/german/wordsearch/Worter%20suchen%201.jpeg',
-  french: '/samples/french/wordsearch/Mots%20Caches%201.jpeg',
+  portrait: '/samples/english/wordsearch/wordsearch%20portrait.webp',
+  landscape: '/samples/english/wordsearch/wordsearch%20landscape.webp',
+  custom: '/samples/english/wordsearch/custom%20word%20list.webp',
+  answerKey: '/samples/english/wordsearch/wordsearch%20portrait%20answer_key.webp',
+  german: '/samples/german/wordsearch/Worter%20suchen%201.webp',
+  french: '/samples/french/wordsearch/Mots%20Caches%201.webp',
 };
 
 const LIBRARY_IMAGES = [

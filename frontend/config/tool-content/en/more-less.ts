@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free greater than less than worksheets',
+    primaryKeyword: 'greater than less than worksheets',
     secondaryKeywords: [
       'greater than less than worksheet maker for sellers',
       'create comparison worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'quantity comparison worksheet tool',
       'check and cross math activity generator',
     ],
-    titleTag: 'Free Greater Than Less Than Worksheet Maker | Create & Sell Comparison Worksheets',
+    titleTag: 'Greater Than Less Than Worksheet Maker | Create & Sell Comparison Worksheets',
     metaDescription: 'Create visual greater than, less than, and equal to worksheets with images in seconds. Three modes including unique Check & Cross. Sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Greater Than Less Than Worksheet Maker',
+    title: 'Greater Than Less Than Worksheet Maker',
     tagline: 'Create visual comparison worksheets with three exercise modes in under 60 seconds',
-    description: 'Teach greater than, less than, and equal to with picture-based comparison worksheets that make abstract concepts concrete. This free tool generates three distinct exercise types: Image to Image (compare two picture groups side by side), Image to Number (bridge visual counting with written numerals), and the unique Check & Cross Groups mode where students sort a mixed box of shuffled images into majority and minority categories. Choose from over 100 image themes, set your number range, pick between illustrated or standard comparison symbols, and download print-ready PDFs or high-resolution JPEGs. Because worksheets use images, numbers, and symbols only, they work identically in all 11 supported languages \u2014 create once and sell to buyers worldwide. The free version includes a small watermark \u2014 perfect for testing before you buy a commercial license.',
+    description: 'Teach greater than, less than, and equal to with picture-based comparison worksheets that make abstract concepts concrete. This tool generates three distinct exercise types: Image to Image (compare two picture groups side by side), Image to Number (bridge visual counting with written numerals), and the unique Check & Cross Groups mode where students sort a mixed box of shuffled images into majority and minority categories. Choose from over 100 image themes, set your number range, pick between illustrated or standard comparison symbols, and download print-ready PDFs or high-resolution JPEGs. Because worksheets use images, numbers, and symbols only, they work identically in all 11 supported languages \u2014 create once and sell to buyers worldwide. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -154,8 +154,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the comparison worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'What are the three exercise modes?',
@@ -175,7 +175,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'Do the worksheets work in languages other than English?',
@@ -191,39 +191,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-addition-worksheet-maker', anchorText: 'Free Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-subtraction-worksheet-maker', anchorText: 'Free Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-code-addition-worksheet-maker', anchorText: 'Free Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-puzzle-maker', anchorText: 'Free Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'free-math-worksheet-maker', anchorText: 'Free Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-big-and-small-worksheet-maker', anchorText: 'Free Big and Small Worksheet Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
+    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Big and Small Worksheet Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).jpeg',
+      primary: '/samples/english/more less/More Less (10).webp',
       primaryAlt: 'More or less worksheet with image comparison groups showing greater than and less than exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).jpeg',
+        src: '/samples/english/more less/More Less (10).webp',
         alt: 'Image to Image comparison worksheet with animal theme showing two picture groups side by side',
         caption: 'Image to Image mode with animal theme',
       },
       {
-        src: '/samples/english/more less/More Less (12).jpeg',
+        src: '/samples/english/more less/More Less (12).webp',
         alt: 'Image to Number comparison worksheet bridging visual counting with written numerals',
         caption: 'Image to Number mode \u2014 bridges pictures and numerals',
       },
       {
-        src: '/samples/english/more less/More Less (14).jpeg',
+        src: '/samples/english/more less/More Less (14).webp',
         alt: 'Check and Cross Groups worksheet with mixed shuffled images for sorting and comparing',
         caption: 'Check & Cross Groups \u2014 unique sorting and comparison mode',
       },

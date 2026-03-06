@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet.jpeg', alt: 'Addition worksheet with themed illustrations showing image-based math problems for selling on Etsy' },
+    heroImage: { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Addition worksheet with themed illustrations showing image-based math problems for selling on Etsy' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.jpeg', alt: 'Animal themed addition worksheet created for Etsy digital download listing', caption: 'Addition worksheet with animal theme \u2014 image-based math problems that create eye-catching Etsy listing photos' },
-      { src: '/samples/english/subtraction/subtraction_worksheet.jpeg', alt: 'Subtraction worksheet complementing addition products in an Etsy math worksheet shop', caption: 'Subtraction worksheet \u2014 natural cross-sell companion to addition listings in your Etsy shop' },
-      { src: '/samples/english/math puzzle/math_puzzle_grid.jpeg', alt: 'Math puzzle grid worksheet showing unique format that differentiates Etsy listings', caption: 'Math puzzle grid \u2014 unique format with less Etsy competition than standard worksheets' },
+      { src: '/samples/english/addition/addition_animals.webp', alt: 'Animal themed addition worksheet created for Etsy digital download listing', caption: 'Addition worksheet with animal theme \u2014 image-based math problems that create eye-catching Etsy listing photos' },
+      { src: '/samples/english/subtraction/subtraction_worksheet.webp', alt: 'Subtraction worksheet complementing addition products in an Etsy math worksheet shop', caption: 'Subtraction worksheet \u2014 natural cross-sell companion to addition listings in your Etsy shop' },
+      { src: '/samples/english/math puzzle/math_puzzle_grid.webp', alt: 'Math puzzle grid worksheet showing unique format that differentiates Etsy listings', caption: 'Math puzzle grid \u2014 unique format with less Etsy competition than standard worksheets' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Selling on Etsy \u2014 Step-by-Step Tutorial',

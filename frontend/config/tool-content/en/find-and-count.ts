@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find-and-count/find_and_count_portrait.jpeg',
+      primary: '/samples/english/find-and-count/find_and_count_portrait.webp',
       primaryAlt: 'I Spy find-and-count worksheet with scattered images on a configurable grid featuring blue header border and four task type instructions for circle square cross and count',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find-and-count/find_and_count_landscape.jpeg',
+        src: '/samples/english/find-and-count/find_and_count_landscape.webp',
         alt: 'I Spy find-and-count worksheet in landscape mode with wider grid layout and scattered themed images among distractor objects',
         caption: 'Hidden Object mode — classic I Spy with circle, square, cross, and count task types on a scattered image grid',
       },
       {
-        src: '/samples/english/find-and-count/find_and_count_answer_key.jpeg',
+        src: '/samples/english/find-and-count/find_and_count_answer_key.webp',
         alt: 'Find-and-count answer key with red circle square and cross annotations over correct target objects and quantity count displays',
         caption: 'Auto-generated answer key — red annotations mark circles, squares, crosses, and count totals for each target object',
       },

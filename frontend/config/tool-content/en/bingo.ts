@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card_worksheet.jpeg',
+      primary: '/samples/english/bingo/bingo_card_worksheet.webp',
       primaryAlt: 'Picture bingo card with themed images in a configurable grid layout and circular chips with dashed borders below for matching during bingo play',
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_image_fill.jpeg',
+        src: '/samples/english/bingo/bingo_image_fill.webp',
         alt: 'Picture bingo card with image fill showing colorful themed illustrations in grid cells and circular image chips with dashed borders',
         caption: 'Image fill mode \u2014 colorful illustrations in both card cells and circular chips for visual bingo',
       },
       {
-        src: '/samples/english/bingo/bingo_word_fill.jpeg',
+        src: '/samples/english/bingo/bingo_word_fill.webp',
         alt: 'Picture bingo card with word fill showing localized image names in grid cells and word chips for vocabulary bingo',
         caption: 'Word fill mode \u2014 localized image names for vocabulary-based multilingual bingo products',
       },
       {
-        src: '/samples/english/bingo/bingo_callout_sheet.jpeg',
+        src: '/samples/english/bingo/bingo_callout_sheet.webp',
         alt: 'Bingo call-out sheet with dynamic word grid showing all game items organized in columns for the caller',
         caption: 'Call-out sheet \u2014 dynamic word grid with calculated columns and uniform font sizing for the caller',
       },

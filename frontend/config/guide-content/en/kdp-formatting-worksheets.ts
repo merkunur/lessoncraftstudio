@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math-worksheet/sample-1.jpeg', alt: 'Math worksheet showing grid layout and spacing formatted for Amazon KDP print specifications' },
+    heroImage: { src: '/samples/english/math-worksheet/sample-1.webp', alt: 'Math worksheet showing grid layout and spacing formatted for Amazon KDP print specifications' },
     samples: [
-      { src: '/samples/english/math-worksheet/math_worksheet.jpeg', alt: 'Math worksheet with precise grid spacing demonstrating KDP margin and layout requirements', caption: 'Math worksheet layout \u2014 grid-based formatting with adequate cell sizing for comfortable handwriting within KDP margin specifications' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.jpeg', alt: 'Word search puzzle grid showing letter spacing formatted for KDP print', caption: 'Word search grid \u2014 consistent letter spacing at 0.3-inch cells ensures comfortable circling and readability in KDP printed books' },
-      { src: '/samples/english/addition/addition_worksheet.jpeg', alt: 'Addition worksheet demonstrating clean single-page KDP layout', caption: 'Addition worksheet \u2014 clean single-operation layout with clear answer spaces that demonstrates professional KDP interior formatting' },
+      { src: '/samples/english/math-worksheet/math_worksheet.webp', alt: 'Math worksheet with precise grid spacing demonstrating KDP margin and layout requirements', caption: 'Math worksheet layout \u2014 grid-based formatting with adequate cell sizing for comfortable handwriting within KDP margin specifications' },
+      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle grid showing letter spacing formatted for KDP print', caption: 'Word search grid \u2014 consistent letter spacing at 0.3-inch cells ensures comfortable circling and readability in KDP printed books' },
+      { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Addition worksheet demonstrating clean single-page KDP layout', caption: 'Addition worksheet \u2014 clean single-operation layout with clear answer spaces that demonstrates professional KDP interior formatting' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Print-Ready Math Worksheets for Amazon KDP \u2014 Formatting Tutorial',

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/subtraction/worksheet.jpeg',
+      primary: '/samples/german/subtraction/worksheet.webp',
       primaryAlt: 'Subtraktions-Arbeitsblatt mit Durchstreich-Visualisierung und diagonalen X-Markierungen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/subtraction/worksheet.jpeg',
+        src: '/samples/german/subtraction/worksheet.webp',
         alt: 'Subtraktions-Arbeitsblatt im Durchstreich-Modus mit X-Markierungen durch abgezogene Bilder',
         caption: 'Durchstreich-Modus \u2014 diagonale X-Markierungen zeigen, welche Bilder abgezogen werden',
       },
       {
-        src: '/samples/german/subtraction/worksheet (1).jpeg',
+        src: '/samples/german/subtraction/worksheet (1).webp',
         alt: 'Subtraktions-Arbeitsblatt im Bild \u2212 Zahl-Modus mit Bildergruppen und Ziffern',
         caption: 'Bild \u2212 Zahl-Modus \u2014 kombiniert Bildergruppen mit Ziffern f\u00fcr Br\u00fcckenbildung',
       },
       {
-        src: '/samples/german/subtraction/worksheet (2).jpeg',
+        src: '/samples/german/subtraction/worksheet (2).webp',
         alt: 'Subtraktions-Arbeitsblatt im Subtrahend-finden-Modus',
         caption: 'Subtrahend-finden-Modus \u2014 Sch\u00fcler ermitteln, wie viele weggenommen wurden',
       },

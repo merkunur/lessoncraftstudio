@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_puzzle.jpeg',
+      primary: '/samples/english/crossword/crossword_puzzle.webp',
       primaryAlt: 'Picture crossword puzzle with image clues on a 15 by 15 grid with localized Picture Crossword header and numbered clue positions',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_puzzle.jpeg',
+        src: '/samples/english/crossword/crossword_puzzle.webp',
         alt: 'Picture crossword puzzle with themed image clues alongside a 15 by 15 crossword grid',
         caption: 'Picture crossword \u2014 image clues replace traditional text clues on a 15\u00d715 grid',
       },
       {
-        src: '/samples/english/crossword/crossword_custom.jpeg',
+        src: '/samples/english/crossword/crossword_custom.webp',
         alt: 'Custom word list crossword with text clues and filled crossword grid',
         caption: 'Custom Word List mode \u2014 traditional text-clue crosswords with your own vocabulary',
       },
       {
-        src: '/samples/english/crossword/crossword_answer_key.jpeg',
+        src: '/samples/english/crossword/crossword_answer_key.webp',
         alt: 'Crossword puzzle answer key with all correct letters filled into the grid',
         caption: 'Auto-generated answer key \u2014 filled grid shows all correct answers',
       },

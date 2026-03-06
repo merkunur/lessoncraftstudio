@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch_puzzle.jpeg', alt: 'Word search puzzle worksheet showing multi-keyword educational printable product for Etsy SEO optimization' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch_puzzle.webp', alt: 'Word search puzzle worksheet showing multi-keyword educational printable product for Etsy SEO optimization' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch_animals.jpeg', alt: 'Animal themed word search puzzle worksheet demonstrating theme-based Etsy keyword targeting', caption: 'Word search with animal theme \u2014 each language and theme variation targets different Etsy search keywords' },
-      { src: '/samples/english/addition/addition_animals.jpeg', alt: 'Animal themed addition worksheet targeting high-volume Etsy math printable keywords', caption: 'Addition worksheet with animal theme \u2014 targets high-volume math printable keywords on Etsy' },
-      { src: '/samples/english/coloring/coloring_animals.jpeg', alt: 'Animal coloring page showing theme-driven Etsy keyword strategy for printable sellers', caption: 'Coloring page with animal theme \u2014 theme-specific keywords drive targeted Etsy search traffic' },
+      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal themed word search puzzle worksheet demonstrating theme-based Etsy keyword targeting', caption: 'Word search with animal theme \u2014 each language and theme variation targets different Etsy search keywords' },
+      { src: '/samples/english/addition/addition_animals.webp', alt: 'Animal themed addition worksheet targeting high-volume Etsy math printable keywords', caption: 'Addition worksheet with animal theme \u2014 targets high-volume math printable keywords on Etsy' },
+      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Animal coloring page showing theme-driven Etsy keyword strategy for printable sellers', caption: 'Coloring page with animal theme \u2014 theme-specific keywords drive targeted Etsy search traffic' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Worksheets for Etsy SEO \u2014 Multi-Keyword Product Strategy',

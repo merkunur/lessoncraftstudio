@@ -174,7 +174,7 @@ function isAnswerKey(filename: string): boolean {
 
 /**
  * Get the base name of a file without extension.
- * E.g. "sample-1.jpeg" → "sample-1", "addition_worksheet portrait.jpeg" → "addition_worksheet portrait"
+ * E.g. "sample-1.webp" → "sample-1", "addition_worksheet portrait.webp" → "addition_worksheet portrait"
  */
 function getBaseName(filename: string): string {
   const lastDot = filename.lastIndexOf('.');
@@ -184,9 +184,9 @@ function getBaseName(filename: string): string {
 /**
  * Try to find a matching answer key for a given worksheet filename.
  * Matching strategies:
- * 1. sample-N.jpeg → sample-N-answer.jpeg
- * 2. {name}.jpeg → {name} answer key.jpeg, {name}_answer_key.jpeg
- * 3. Fuzzy: any answer key JPEG that shares significant words with the worksheet
+ * 1. sample-N.webp → sample-N-answer.webp
+ * 2. {name}.webp → {name} answer key.webp, {name}_answer_key.webp
+ * 3. Fuzzy: any answer key WebP that shares significant words with the worksheet
  */
 function findAnswerKey(worksheetFilename: string, answerKeyFiles: string[]): string | undefined {
   const wsBase = getBaseName(worksheetFilename);
@@ -264,14 +264,14 @@ async function scanAppDirectory(dir: string, language: string, folderName: strin
     return [];
   }
 
-  // Classify files
-  const jpegFiles = files.filter(f => /\.(jpeg|jpg)$/i.test(f));
-  const webpFiles = new Set(files.filter(f => /\.webp$/i.test(f)).map(f => f.toLowerCase()));
+  // Classify files - primary images are .webp (excluding _thumb and _preview variants)
+  const primaryWebp = files.filter(f => /\.webp$/i.test(f) && !/_thumb\.webp$/i.test(f) && !/_preview\.webp$/i.test(f));
+  const allWebpFiles = new Set(files.filter(f => /\.webp$/i.test(f)).map(f => f.toLowerCase()));
   const pdfFiles = new Set(files.filter(f => /\.pdf$/i.test(f)).map(f => f.toLowerCase()));
 
   // Separate worksheets from answer keys
-  const worksheetFiles = jpegFiles.filter(f => !isAnswerKey(f));
-  const answerKeyFiles = jpegFiles.filter(f => isAnswerKey(f));
+  const worksheetFiles = primaryWebp.filter(f => !isAnswerKey(f));
+  const answerKeyFiles = primaryWebp.filter(f => isAnswerKey(f));
 
   // Sort worksheets alphabetically for consistent ordering
   worksheetFiles.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
@@ -287,8 +287,8 @@ async function scanAppDirectory(dir: string, language: string, folderName: strin
     const answerFile = findAnswerKey(wsFile, answerKeyFiles);
 
     // Check for WebP variants (thumbnail and preview)
-    const hasThumb = webpFiles.has(`${wsBase}_thumb.webp`.toLowerCase());
-    const hasPreview = webpFiles.has(`${wsBase}_preview.webp`.toLowerCase());
+    const hasThumb = allWebpFiles.has(`${wsBase}_thumb.webp`.toLowerCase());
+    const hasPreview = allWebpFiles.has(`${wsBase}_preview.webp`.toLowerCase());
 
     // Check for PDF
     const pdfFilename = `${wsBase}.pdf`.toLowerCase();

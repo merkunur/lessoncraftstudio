@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/missing_pieces_worksheet.jpeg', alt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing' },
+    heroImage: { src: '/samples/english/missing pieces/missing_pieces_worksheet.webp', alt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing' },
     samples: [
-      { src: '/samples/english/missing pieces/missing_pieces_worksheet.jpeg', alt: 'Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header', caption: 'Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors' },
-      { src: '/samples/english/missing pieces/missing_pieces_answer_key.jpeg', alt: 'Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index', caption: 'Auto-generated answer key with yellow-highlighted labels showing correct option for each hole' },
+      { src: '/samples/english/missing pieces/missing_pieces_worksheet.webp', alt: 'Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header', caption: 'Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors' },
+      { src: '/samples/english/missing pieces/missing_pieces_answer_key.webp', alt: 'Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index', caption: 'Auto-generated answer key with yellow-highlighted labels showing correct option for each hole' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'How to Create Missing Pieces Puzzles \u2014 Complete Tutorial',

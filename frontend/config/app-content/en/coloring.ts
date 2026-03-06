@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/coloring_page.jpeg',
+      primary: '/samples/english/coloring/coloring_page.webp',
       primaryAlt: 'Custom coloring page with themed images arranged on free-form canvas with decorative border and classroom name field',
     },
     sampleGallery: [
       {
-        src: '/samples/english/coloring/coloring_animals.jpeg',
+        src: '/samples/english/coloring/coloring_animals.webp',
         alt: 'Animal theme coloring page with colorful illustrations arranged on free-form canvas',
         caption: 'Animal theme coloring page \u2014 colorful illustrations arranged freely on the canvas',
       },
       {
-        src: '/samples/english/coloring/coloring_classroom.jpeg',
+        src: '/samples/english/coloring/coloring_classroom.webp',
         alt: 'Coloring page with handwriting lines and student name field for classroom use',
         caption: 'Classroom-ready coloring page \u2014 name field and handwriting practice lines included',
       },
       {
-        src: '/samples/english/coloring/coloring_grayscale.jpeg',
+        src: '/samples/english/coloring/coloring_grayscale.webp',
         alt: 'Grayscale coloring page with decorative border ready for ink-friendly printing',
         caption: 'Grayscale export \u2014 ink-friendly coloring page with decorative border theme',
       },

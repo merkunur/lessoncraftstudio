@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free subtraction worksheet generator',
+    primaryKeyword: 'subtraction worksheet generator',
     secondaryKeywords: [
       'subtraction worksheet maker for Etsy sellers',
       'create subtraction worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'cross-out math worksheet tool',
       'take-away worksheet generator',
     ],
-    titleTag: 'Free Subtraction Worksheet Generator | Create & Sell Printable Math Worksheets',
+    titleTag: 'Subtraction Worksheet Generator | Create & Sell Printable Math Worksheets',
     metaDescription: 'Create custom subtraction worksheets with cross-out visuals in seconds. Choose themes, set difficulty, and download print-ready PDFs. Sell on Etsy, TpT, or Amazon KDP.',
   },
 
   hero: {
-    title: 'Free Subtraction Worksheet Generator',
+    title: 'Subtraction Worksheet Generator',
     tagline: 'Create visual cross-out subtraction worksheets in under 60 seconds',
-    description: 'Make subtraction click with cross-out visuals that children intuitively understand. This free online tool generates image-based subtraction worksheets where students cross out pictures to find the answer \u2014 the most natural way to learn take-away math. Choose from over 100 image themes, set your minuend range, pick from four exercise modes including the unique Cross Out format, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers building differentiated math product lines, teachers creating classroom packets, and KDP publishers compiling subtraction workbooks. The free version includes a small watermark \u2014 ideal for testing before you buy.',
+    description: 'Make subtraction click with cross-out visuals that children intuitively understand. This tool generates image-based subtraction worksheets where students cross out pictures to find the answer \u2014 the most natural way to learn take-away math. Choose from over 100 image themes, set your minuend range, pick from four exercise modes including the unique Cross Out format, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers building differentiated math product lines, teachers creating classroom packets, and KDP publishers compiling subtraction workbooks. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -153,8 +153,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the subtraction worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'What are the four exercise modes?',
@@ -166,7 +166,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'How does Cross Out mode work?',
@@ -190,39 +190,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-addition-worksheet-maker', anchorText: 'Free Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-code-addition-worksheet-maker', anchorText: 'Free Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-more-or-less-worksheet-maker', anchorText: 'Free More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-puzzle-maker', anchorText: 'Free Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'free-math-worksheet-maker', anchorText: 'Free Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-coloring-page-maker', anchorText: 'Free Coloring Page Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
+    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/sample-1.jpeg',
+      primary: '/samples/english/subtraction/sample-1.webp',
       primaryAlt: 'Subtraction worksheet with cross-out images showing visual take-away math exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/sample-1.jpeg',
+        src: '/samples/english/subtraction/sample-1.webp',
         alt: 'Cross Out subtraction worksheet with animal theme showing crossed-out images',
         caption: 'Cross Out mode with animal theme',
       },
       {
-        src: '/samples/english/subtraction/sample-2.jpeg',
+        src: '/samples/english/subtraction/sample-2.webp',
         alt: 'Subtraction worksheet using food images in Image minus Number mode',
         caption: 'Image \u2212 Number mode with food theme',
       },
       {
-        src: '/samples/english/subtraction/sample-3.jpeg',
+        src: '/samples/english/subtraction/sample-3.webp',
         alt: 'Find Subtrahend worksheet with vehicle images and decorative border',
         caption: 'Find Subtrahend mode with vehicles and border',
       },

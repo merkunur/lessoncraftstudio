@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
       primaryAlt: 'Word guess worksheet with image clues and blank letter grids showing hangman-style vocabulary puzzles',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+        src: '/samples/english/word guess/clue-grid_worksheet.webp',
         alt: 'Word guess worksheet with image clues at Easy difficulty showing half letters revealed',
         caption: 'Easy difficulty \u2014 half the letters pre-revealed as clues for emerging readers',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet_tough.jpeg',
+        src: '/samples/english/word guess/clue-grid_worksheet_tough.webp',
         alt: 'Word guess worksheet at Tough difficulty with minimal clue letters and animal theme',
         caption: 'Tough difficulty \u2014 only one sixth of letters revealed for advanced spellers',
       },
       {
-        src: '/samples/english/word guess/clue-grid_answer_key.jpeg',
+        src: '/samples/english/word guess/clue-grid_answer_key.webp',
         alt: 'Word guess answer key with all letters filled in and no blank cells',
         caption: 'Answer key \u2014 all letters revealed for easy grading and self-checking',
       },

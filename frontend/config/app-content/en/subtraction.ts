@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/cross out.jpeg',
+      primary: '/samples/english/subtraction/cross out.webp',
       primaryAlt: 'Subtraction worksheet showing cross-out visualization with diagonal X marks through subtracted images',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/cross out.jpeg',
+        src: '/samples/english/subtraction/cross out.webp',
         alt: 'Subtraction worksheet in Cross Out mode with X marks through subtracted images',
         caption: 'Cross Out mode \u2014 diagonal X marks show which images are subtracted',
       },
       {
-        src: '/samples/english/subtraction/image number.jpeg',
+        src: '/samples/english/subtraction/image number.webp',
         alt: 'Subtraction worksheet in Image minus Number mode with picture groups and numerals',
         caption: 'Image \u2212 Number mode \u2014 pairs picture groups with numerals for bridging skills',
       },
       {
-        src: '/samples/english/subtraction/find subtrahend.jpeg',
+        src: '/samples/english/subtraction/find subtrahend.webp',
         alt: 'Subtraction worksheet in Find the Subtrahend mode challenging students to find the missing value',
         caption: 'Find the Subtrahend mode \u2014 students determine how many were taken away',
       },

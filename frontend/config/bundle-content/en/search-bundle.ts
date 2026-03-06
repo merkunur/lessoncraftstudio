@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find and count/sample-1.jpeg',
+      primary: '/samples/english/find and count/sample-1.webp',
       primaryAlt: 'I Spy find and count worksheet with themed images scattered across a grid for visual scanning and counting',
     },
     sampleGallery: [
-      { src: '/samples/english/find and count/sample-1.jpeg', alt: 'I Spy find and count worksheet with hidden objects to locate and count', caption: 'Find & Count I Spy' },
-      { src: '/samples/english/find objects/sample-1.jpeg', alt: 'Hidden object worksheet with zero-overlap scene and visual legend', caption: 'Find Objects Hidden Object' },
-      { src: '/samples/english/crossword/sample-1.jpeg', alt: '15x15 crossword puzzle with image clues instead of text definitions', caption: 'Picture Crossword Puzzle' },
-      { src: '/samples/english/treasure hunt/sample-1.jpeg', alt: 'Treasure hunt worksheet with 5x5 coordinate grid and directional clues', caption: 'Treasure Hunt Grid' },
+      { src: '/samples/english/find and count/sample-1.webp', alt: 'I Spy find and count worksheet with hidden objects to locate and count', caption: 'Find & Count I Spy' },
+      { src: '/samples/english/find objects/sample-1.webp', alt: 'Hidden object worksheet with zero-overlap scene and visual legend', caption: 'Find Objects Hidden Object' },
+      { src: '/samples/english/crossword/sample-1.webp', alt: '15x15 crossword puzzle with image clues instead of text definitions', caption: 'Picture Crossword Puzzle' },
+      { src: '/samples/english/treasure hunt/sample-1.webp', alt: 'Treasure hunt worksheet with 5x5 coordinate grid and directional clues', caption: 'Treasure Hunt Grid' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Search & Find Bundle — See All 4 Discovery Generators in Action',

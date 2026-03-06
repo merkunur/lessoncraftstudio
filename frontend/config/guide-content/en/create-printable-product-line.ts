@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/sample-1.jpeg', alt: 'Matching worksheet demonstrating consistent product format for a printable product line' },
+    heroImage: { src: '/samples/english/matching/sample-1.webp', alt: 'Matching worksheet demonstrating consistent product format for a printable product line' },
     samples: [
-      { src: '/samples/english/matching/matching_animals.jpeg', alt: 'Matching worksheet showing consistent format across themes for product line building', caption: 'Matching worksheets maintain the same professional format across any theme \u2014 the foundation of a visually consistent product line' },
-      { src: '/samples/english/addition/addition_animals.jpeg', alt: 'Addition worksheet representing math product line with progressive difficulty levels', caption: 'Math worksheets at multiple difficulty levels create progressive depth within your product line \u2014 single digit to advanced operations' },
-      { src: '/samples/english/coloring/coloring_animals.jpeg', alt: 'Coloring page showing visual consistency across themed product variations', caption: 'Coloring pages across different themes demonstrate how a product line maintains visual cohesion while offering variety to buyers' },
+      { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet showing consistent format across themes for product line building', caption: 'Matching worksheets maintain the same professional format across any theme \u2014 the foundation of a visually consistent product line' },
+      { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet representing math product line with progressive difficulty levels', caption: 'Math worksheets at multiple difficulty levels create progressive depth within your product line \u2014 single digit to advanced operations' },
+      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Coloring page showing visual consistency across themed product variations', caption: 'Coloring pages across different themes demonstrate how a product line maintains visual cohesion while offering variety to buyers' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets for a Consistent Printable Product Line',

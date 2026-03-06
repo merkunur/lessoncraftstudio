@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free prepositions worksheet generator',
+    primaryKeyword: 'prepositions worksheet generator',
     secondaryKeywords: [
       'prepositions worksheet maker for sellers',
       'create prepositions worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'position words worksheet tool',
       'multilingual prepositions activity generator',
     ],
-    titleTag: 'Free Prepositions Worksheet Generator | Create & Sell Spatial Language Printables',
+    titleTag: 'Prepositions Worksheet Generator | Create & Sell Spatial Language Printables',
     metaDescription: 'Generate prepositions worksheets with fill-in-the-blank and multiple choice modes across 11 languages. Shape replacement, 104 image themes. Create printables to sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Prepositions Worksheet Generator',
+    title: 'Prepositions Worksheet Generator',
     tagline: 'Create spatial preposition worksheets with two exercise modes in 11 languages',
-    description: 'Teach position words through image-based exercises that students actually enjoy. This free tool generates prepositions worksheets where learners identify spatial relationships \u2014 on, under, above, beside, between, inside, outside \u2014 by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where students write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1\u20138 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool\u2019s standout feature is Shape Replacement \u2014 a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses \u201eauf, unter, \u00fcber, neben, zwischen, drinnen, drau\u00dfen\u201c; French uses \u00absur, sous, au-dessus, \u00e0 c\u00f4t\u00e9, entre, dedans, dehors\u00bb. One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free version includes a small watermark \u2014 perfect for testing before purchasing a commercial license.',
+    description: 'Teach position words through image-based exercises that students actually enjoy. This tool generates prepositions worksheets where learners identify spatial relationships \u2014 on, under, above, beside, between, inside, outside \u2014 by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where students write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1\u20138 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool\u2019s standout feature is Shape Replacement \u2014 a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses \u201eauf, unter, \u00fcber, neben, zwischen, drinnen, drau\u00dfen\u201c; French uses \u00absur, sous, au-dessus, \u00e0 c\u00f4t\u00e9, entre, dedans, dehors\u00bb. One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the prepositions worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download prepositions worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How do the two exercise modes work?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',
@@ -196,39 +196,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-alphabet-train-maker', anchorText: 'Free Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'free-word-guess-maker', anchorText: 'Free Word Guess Maker' },
-    { pageType: 'tool', slug: 'free-word-scramble-maker', anchorText: 'Free Word Scramble Maker' },
-    { pageType: 'tool', slug: 'free-word-search-maker', anchorText: 'Free Word Search Maker' },
-    { pageType: 'tool', slug: 'free-cryptogram-maker', anchorText: 'Free Cryptogram Maker' },
-    { pageType: 'tool', slug: 'free-handwriting-worksheet-maker', anchorText: 'Free Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
+    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
+    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
+    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).jpeg',
+      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
       primaryAlt: 'Prepositions worksheet showing image scenes with spatial relationship exercises for position word practice',
     },
     sampleGallery: [
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (1).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
         alt: 'Prepositions worksheet with fill-in-the-blank exercises using colorful image scenes',
         caption: 'Fill-in-the-blank preposition exercises with image scenes',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (5).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
         alt: 'Prepositions worksheet with multiple choice spatial relationship exercises',
         caption: 'Multiple choice mode for beginner-friendly practice',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (10).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (10).webp',
         alt: 'Advanced prepositions worksheet with shape replacement and multiple exercises per page',
         caption: 'Shape replacement creates unique scene combinations',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).jpeg', alt: 'Preposition worksheet showing image scenes with spatial relationship exercises for position word practice' },
+    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Preposition worksheet showing image scenes with spatial relationship exercises for position word practice' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).jpeg', alt: 'Preposition worksheet with fill-in-the-blank exercises using colorful image scenes showing spatial relationships', caption: 'Fill-in-the-blank preposition exercises with image scenes' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).jpeg', alt: 'Preposition worksheet with multiple choice spatial relationship exercises for scaffolded practice', caption: 'Multiple choice mode for scaffolded beginner-friendly practice' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).jpeg', alt: 'Advanced preposition worksheet with shape replacement creating unique scene combinations', caption: 'Shape replacement multiplies visual combinations for product variety' },
+      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Preposition worksheet with fill-in-the-blank exercises using colorful image scenes showing spatial relationships', caption: 'Fill-in-the-blank preposition exercises with image scenes' },
+      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Preposition worksheet with multiple choice spatial relationship exercises for scaffolded practice', caption: 'Multiple choice mode for scaffolded beginner-friendly practice' },
+      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Advanced preposition worksheet with shape replacement creating unique scene combinations', caption: 'Shape replacement multiplies visual combinations for product variety' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'How to Create Preposition Worksheets \u2014 Complete Tutorial',

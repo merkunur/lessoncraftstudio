@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free addition worksheet generator',
+    primaryKeyword: 'addition worksheet generator',
     secondaryKeywords: [
       'addition worksheet maker',
       'create addition worksheets online',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'picture-based addition practice',
       'kindergarten math printables',
     ],
-    titleTag: 'Free Addition Worksheet Generator | Create Printable Math Worksheets',
-    metaDescription: 'Create custom addition worksheets with images in seconds. Choose themes, set difficulty levels, and download print-ready PDFs. Free online tool, no signup required.',
+    titleTag: 'Addition Worksheet Generator | Create Printable Math Worksheets',
+    metaDescription: 'Create custom addition worksheets with images in seconds. Choose themes, set difficulty levels, and download print-ready PDFs. Free trial with full features, no signup required.',
   },
 
   hero: {
-    title: 'Free Addition Worksheet Generator',
+    title: 'Addition Worksheet Generator',
     tagline: 'Create beautiful, image-based addition worksheets in under 60 seconds',
-    description: 'Turn math practice into a visual adventure. This free online tool lets you create custom addition worksheets featuring themed images that children actually want to complete. Choose from over 100 image themes, set your difficulty range, pick your page layout, and download print-ready PDFs or high-resolution JPEGs. Perfect for teachers building differentiated homework packets, parents supplementing classroom learning, and Etsy sellers creating printable math products. The free version includes a small watermark \u2014 ideal for testing before you buy.',
+    description: 'Turn math practice into a visual adventure. This tool lets you create custom addition worksheets featuring themed images that children actually want to complete. Choose from over 100 image themes, set your difficulty range, pick your page layout, and download print-ready PDFs or high-resolution JPEGs. Perfect for teachers building differentiated homework packets, parents supplementing classroom learning, and Etsy sellers creating printable math products. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -153,8 +153,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the addition worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'What file formats can I download?',
@@ -162,7 +162,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'How many image themes are available?',
@@ -190,39 +190,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-subtraction-worksheet-maker', anchorText: 'Free Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-worksheet-maker', anchorText: 'Free Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-code-addition-worksheet-maker', anchorText: 'Free Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-more-or-less-worksheet-maker', anchorText: 'Free More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-find-and-count-maker', anchorText: 'Free Find and Count Maker' },
-    { pageType: 'tool', slug: 'free-coloring-page-maker', anchorText: 'Free Coloring Page Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Find and Count Maker' },
+    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Coloring Page Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/sample-1.jpeg',
+      primary: '/samples/english/addition/sample-1.webp',
       primaryAlt: 'Addition worksheet with animal images showing picture-based math exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/sample-1.jpeg',
+        src: '/samples/english/addition/sample-1.webp',
         alt: 'Image addition worksheet with animal theme showing Image + Image mode',
         caption: 'Image + Image mode with animal theme',
       },
       {
-        src: '/samples/english/addition/sample-2.jpeg',
+        src: '/samples/english/addition/sample-2.webp',
         alt: 'Addition worksheet using food images in Find Addend mode',
         caption: 'Find Addend mode with food theme',
       },
       {
-        src: '/samples/english/addition/sample-3.jpeg',
+        src: '/samples/english/addition/sample-3.webp',
         alt: 'Mixed mode addition worksheet with vehicle images and decorative border',
         caption: 'Mixed mode with vehicles and border decoration',
       },

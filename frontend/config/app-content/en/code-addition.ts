@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code addition/Code Breaker Addition 1.jpeg',
+      primary: '/samples/english/code addition/Code Breaker Addition 1.webp',
       primaryAlt: 'Code addition worksheet with animal images hiding secret numbers in a code-breaking puzzle',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code addition/Code Breaker Addition 1.jpeg',
+        src: '/samples/english/code addition/Code Breaker Addition 1.webp',
         alt: 'Code breaker addition worksheet in Regular Mode with animal theme images as code symbols',
         caption: 'Regular Mode \u2014 students crack the code by deducing which number each image represents',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 2.jpeg',
+        src: '/samples/english/code addition/Code Breaker Addition 2.webp',
         alt: 'Code addition worksheet with different visual theme showing image-based cryptarithmetic equations',
         caption: 'Multiple symbol challenge \u2014 more images increase the deduction complexity',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 3.jpeg',
+        src: '/samples/english/code addition/Code Breaker Addition 3.webp',
         alt: 'Code breaker addition puzzle worksheet with colorful themed images and equations',
         caption: 'Themed code puzzles \u2014 104 visual themes make every worksheet unique and engaging',
       },

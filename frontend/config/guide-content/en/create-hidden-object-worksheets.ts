@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find-objects/sample-1.jpeg', alt: 'Hidden object scene worksheet showing themed images arranged for children to find specific objects' },
+    heroImage: { src: '/samples/english/find-objects/sample-1.webp', alt: 'Hidden object scene worksheet showing themed images arranged for children to find specific objects' },
     samples: [
-      { src: '/samples/english/find-objects/sample-1.jpeg', alt: 'I Spy hidden object worksheet with themed scene for visual search activity', caption: 'I Spy hidden object scene with themed images and distractor objects for visual search practice' },
-      { src: '/samples/english/find-objects/sample-2.jpeg', alt: 'Hidden object worksheet answer key highlighting locations of hidden items', caption: 'Automatic answer key generated for every hidden object scene worksheet' },
+      { src: '/samples/english/find-objects/sample-1.webp', alt: 'I Spy hidden object worksheet with themed scene for visual search activity', caption: 'I Spy hidden object scene with themed images and distractor objects for visual search practice' },
+      { src: '/samples/english/find-objects/sample-2.webp', alt: 'Hidden object worksheet answer key highlighting locations of hidden items', caption: 'Automatic answer key generated for every hidden object scene worksheet' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'How to Create Hidden Object Scene Worksheets \u2014 Complete Tutorial',

@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet.jpeg', alt: 'Addition worksheet showing image-based math problems suitable for Amazon KDP activity book interior pages' },
+    heroImage: { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Addition worksheet showing image-based math problems suitable for Amazon KDP activity book interior pages' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.jpeg', alt: 'Animal themed addition worksheet formatted for KDP math activity book', caption: 'Addition worksheet with animal theme \u2014 image-based math problems that create engaging KDP activity book pages' },
-      { src: '/samples/english/subtraction/subtraction_worksheet.jpeg', alt: 'Subtraction worksheet for multi-operation KDP math workbook', caption: 'Subtraction worksheet \u2014 pairs with addition pages to create comprehensive math activity books on Amazon' },
-      { src: '/samples/english/math puzzle/math_puzzle_grid.jpeg', alt: 'Math puzzle grid worksheet adding variety to KDP activity books', caption: 'Math puzzle grid \u2014 adds engaging variety to activity book pages beyond standard worksheet drills' },
+      { src: '/samples/english/addition/addition_animals.webp', alt: 'Animal themed addition worksheet formatted for KDP math activity book', caption: 'Addition worksheet with animal theme \u2014 image-based math problems that create engaging KDP activity book pages' },
+      { src: '/samples/english/subtraction/subtraction_worksheet.webp', alt: 'Subtraction worksheet for multi-operation KDP math workbook', caption: 'Subtraction worksheet \u2014 pairs with addition pages to create comprehensive math activity books on Amazon' },
+      { src: '/samples/english/math puzzle/math_puzzle_grid.webp', alt: 'Math puzzle grid worksheet adding variety to KDP activity books', caption: 'Math puzzle grid \u2014 adds engaging variety to activity book pages beyond standard worksheet drills' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Math Worksheets for Amazon KDP Activity Books \u2014 Step-by-Step Tutorial',

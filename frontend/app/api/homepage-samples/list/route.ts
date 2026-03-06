@@ -154,7 +154,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
   const appChecks = await Promise.all(
     validAppIds.map(async (appId) => {
       const [hasThumbnail, hasThumbWebp, hasPreviewWebp, hasPdf] = await Promise.all([
-        fileExists(path.join(dir, `${appId}-thumbnail.jpeg`)),
+        fileExists(path.join(dir, `${appId}-thumbnail.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_thumb.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_preview.webp`)),
         fileExists(path.join(dir, `${appId}-sample.pdf`))
@@ -179,10 +179,10 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     hasPortrait, hasPortraitThumb, hasPortraitPreview,
     hasLandscape, hasLandscapeThumb, hasLandscapePreview
   ] = await Promise.all([
-    fileExists(path.join(dir, 'hero-portrait.jpeg')),
+    fileExists(path.join(dir, 'hero-portrait.webp')),
     fileExists(path.join(dir, 'hero-portrait_thumb.webp')),
     fileExists(path.join(dir, 'hero-portrait_preview.webp')),
-    fileExists(path.join(dir, 'hero-landscape.jpeg')),
+    fileExists(path.join(dir, 'hero-landscape.webp')),
     fileExists(path.join(dir, 'hero-landscape_thumb.webp')),
     fileExists(path.join(dir, 'hero-landscape_preview.webp'))
   ]);
@@ -216,7 +216,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     const seoRecords = await prisma.productSample.findMany({
       where: {
         locale,
-        filename: { endsWith: '-thumbnail.jpeg' }
+        filename: { endsWith: '-thumbnail.webp' }
       },
       select: {
         appId: true,

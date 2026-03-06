@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).jpeg',
+      primary: '/samples/english/more less/More Less (10).webp',
       primaryAlt: 'More or Less worksheet with colorful animal images showing Image to Image comparison mode',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).jpeg',
+        src: '/samples/english/more less/More Less (10).webp',
         alt: 'Comparison worksheet with Image to Image mode using animal theme',
         caption: 'Image to Image mode \u2014 students count two picture groups and compare quantities',
       },
       {
-        src: '/samples/english/more less/More Less (12).jpeg',
+        src: '/samples/english/more less/More Less (12).webp',
         alt: 'Comparison worksheet with Image to Number mode using food theme',
         caption: 'Image to Number mode \u2014 pairs picture groups with numerals for bridging skills',
       },
       {
-        src: '/samples/english/more less/More Less (14).jpeg',
+        src: '/samples/english/more less/More Less (14).webp',
         alt: 'Check and Cross Groups worksheet with mixed images for visual sorting',
         caption: 'Check & Cross Groups mode \u2014 students find the majority group in a mixed-image box',
       },

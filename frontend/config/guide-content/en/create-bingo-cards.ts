@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/sample-1.jpeg', alt: 'Themed picture bingo cards showing colorful illustrated grid with caller card for kids' },
+    heroImage: { src: '/samples/english/bingo/sample-1.webp', alt: 'Themed picture bingo cards showing colorful illustrated grid with caller card for kids' },
     samples: [
-      { src: '/samples/english/bingo/sample-1.jpeg', alt: 'Picture bingo card with animal theme showing 4x4 grid layout for classroom use', caption: 'A 4\u00d74 picture bingo card using the animals theme with image-only display mode' },
-      { src: '/samples/english/bingo/sample-2.jpeg', alt: 'Bingo caller card showing all themed images used across the card set', caption: 'Caller reference card showing all images used across the bingo card set' },
+      { src: '/samples/english/bingo/sample-1.webp', alt: 'Picture bingo card with animal theme showing 4x4 grid layout for classroom use', caption: 'A 4\u00d74 picture bingo card using the animals theme with image-only display mode' },
+      { src: '/samples/english/bingo/sample-2.webp', alt: 'Bingo caller card showing all themed images used across the card set', caption: 'Caller reference card showing all images used across the bingo card set' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Create Bingo Cards with Themed Images \u2014 Complete Tutorial',

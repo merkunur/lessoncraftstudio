@@ -140,7 +140,7 @@ async function processWorksheetUpload(
   const dir = path.join(SAMPLES_BASE, language, folderName);
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `sample-${slot}.jpeg`);
+  const originalPath = path.join(dir, `sample-${slot}.webp`);
   const thumbPath = path.join(dir, `sample-${slot}_thumb.webp`);
   const previewPath = path.join(dir, `sample-${slot}_preview.webp`);
 
@@ -156,7 +156,7 @@ async function processWorksheetUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: sample-${slot}.jpeg. Set overwrite=true to replace.`
+      error: `File already exists: sample-${slot}.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -172,11 +172,11 @@ async function processWorksheetUpload(
   }
 
   try {
-    // Convert to JPEG and save original
-    const jpegBuffer = await sharp(buffer)
-      .jpeg({ quality: 90 })
+    // Convert to WebP and save original
+    const webpBuffer = await sharp(buffer)
+      .webp({ quality: 90 })
       .toBuffer();
-    await fs.writeFile(originalPath, jpegBuffer);
+    await fs.writeFile(originalPath, webpBuffer);
     console.log(`[PRODUCT-SAMPLES] Saved original: ${originalPath}`);
 
     // Generate 400px thumbnail WebP
@@ -205,7 +205,7 @@ async function processWorksheetUpload(
       success: true,
       message: 'Worksheet uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/${folderName}/sample-${slot}.jpeg`,
+        original: `/samples/${language}/${folderName}/sample-${slot}.webp`,
         thumb: `/samples/${language}/${folderName}/sample-${slot}_thumb.webp`,
         preview: `/samples/${language}/${folderName}/sample-${slot}_preview.webp`
       }
@@ -229,7 +229,7 @@ async function processAnswerUpload(
   const dir = path.join(SAMPLES_BASE, language, folderName);
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `sample-${slot}-answer.jpeg`);
+  const originalPath = path.join(dir, `sample-${slot}-answer.webp`);
   const thumbPath = path.join(dir, `sample-${slot}-answer_thumb.webp`);
   const previewPath = path.join(dir, `sample-${slot}-answer_preview.webp`);
 
@@ -245,7 +245,7 @@ async function processAnswerUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: sample-${slot}-answer.jpeg. Set overwrite=true to replace.`
+      error: `File already exists: sample-${slot}-answer.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -261,11 +261,11 @@ async function processAnswerUpload(
   }
 
   try {
-    // Convert to JPEG and save original
-    const jpegBuffer = await sharp(buffer)
-      .jpeg({ quality: 90 })
+    // Convert to WebP and save original
+    const webpBuffer = await sharp(buffer)
+      .webp({ quality: 90 })
       .toBuffer();
-    await fs.writeFile(originalPath, jpegBuffer);
+    await fs.writeFile(originalPath, webpBuffer);
     console.log(`[PRODUCT-SAMPLES] Saved answer original: ${originalPath}`);
 
     // Generate 400px thumbnail WebP
@@ -294,7 +294,7 @@ async function processAnswerUpload(
       success: true,
       message: 'Answer key uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/${folderName}/sample-${slot}-answer.jpeg`,
+        original: `/samples/${language}/${folderName}/sample-${slot}-answer.webp`,
         thumb: `/samples/${language}/${folderName}/sample-${slot}-answer_thumb.webp`,
         preview: `/samples/${language}/${folderName}/sample-${slot}-answer_preview.webp`
       }

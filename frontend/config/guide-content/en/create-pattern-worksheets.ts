@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/sample-1.jpeg', alt: 'Pattern recognition worksheet with themed images showing visual pattern completion exercises for kids' },
+    heroImage: { src: '/samples/english/pattern worksheet/sample-1.webp', alt: 'Pattern recognition worksheet with themed images showing visual pattern completion exercises for kids' },
     samples: [
-      { src: '/samples/english/pattern worksheet/sample-1.jpeg', alt: 'Pattern recognition worksheet with animal theme showing AB and ABC pattern exercises', caption: 'Pattern recognition worksheet using themed images with multiple pattern types and automatic answer key' },
-      { src: '/samples/english/pattern worksheet/sample-2.jpeg', alt: 'Pattern worksheet answer key showing completed patterns with correct images filled in', caption: 'Automatic answer key generated alongside each pattern worksheet for quick grading' },
+      { src: '/samples/english/pattern worksheet/sample-1.webp', alt: 'Pattern recognition worksheet with animal theme showing AB and ABC pattern exercises', caption: 'Pattern recognition worksheet using themed images with multiple pattern types and automatic answer key' },
+      { src: '/samples/english/pattern worksheet/sample-2.webp', alt: 'Pattern worksheet answer key showing completed patterns with correct images filled in', caption: 'Automatic answer key generated alongside each pattern worksheet for quick grading' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'How to Create Pattern Recognition Worksheets \u2014 Complete Tutorial',

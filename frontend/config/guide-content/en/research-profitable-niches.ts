@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/sample-1.jpeg',
+      src: '/samples/english/matching/sample-1.webp',
       alt: 'Matching worksheet showing theme versatility for profitable niche exploration across educational topics',
     },
     samples: [
       {
-        src: '/samples/english/matching/sample-1.jpeg',
+        src: '/samples/english/matching/sample-1.webp',
         alt: 'Themed matching worksheet demonstrating niche diversity across educational printable topics',
         caption: 'Matching worksheets span dozens of themes, letting you explore and test multiple niches quickly',
       },
       {
-        src: '/samples/english/wordsearch/sample-1.jpeg',
+        src: '/samples/english/wordsearch/sample-1.webp',
         alt: 'Word search puzzle showing cross-subject niche testing potential in multiple languages',
         caption: 'Word searches validate niche demand across subjects and languages with minimal production time',
       },
       {
-        src: '/samples/english/coloring/sample-1.jpeg',
+        src: '/samples/english/coloring/sample-1.webp',
         alt: 'Themed coloring page demonstrating how visual niches translate to sellable printable products',
         caption: 'Coloring pages reveal which visual themes attract buyer interest across different market segments',
       },

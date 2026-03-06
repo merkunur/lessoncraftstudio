@@ -209,16 +209,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/sample-1.jpeg',
+      primary: '/samples/english/addition/sample-1.webp',
       primaryAlt: 'Addition worksheet with themed images showing visual counting problems',
     },
     sampleGallery: [
-      { src: '/samples/english/addition/sample-1.jpeg', alt: 'Addition worksheet with themed animal images', caption: 'Addition Worksheet' },
-      { src: '/samples/english/subtraction/sample-1.jpeg', alt: 'Subtraction worksheet with cross-out counting', caption: 'Subtraction Worksheet' },
-      { src: '/samples/english/code-addition/sample-1.jpeg', alt: 'Code addition puzzle with letter decoding', caption: 'Code Addition Puzzle' },
-      { src: '/samples/english/more-less/sample-1.jpeg', alt: 'Greater than less than comparison worksheet', caption: 'More or Less Worksheet' },
-      { src: '/samples/english/math-puzzle/sample-1.jpeg', alt: 'Jigsaw grid math puzzle with equations', caption: 'Math Puzzle Worksheet' },
-      { src: '/samples/english/math-worksheet/sample-1.jpeg', alt: 'Visual algebra puzzle with image variables', caption: 'Math Worksheet Puzzle' },
+      { src: '/samples/english/addition/sample-1.webp', alt: 'Addition worksheet with themed animal images', caption: 'Addition Worksheet' },
+      { src: '/samples/english/subtraction/sample-1.webp', alt: 'Subtraction worksheet with cross-out counting', caption: 'Subtraction Worksheet' },
+      { src: '/samples/english/code-addition/sample-1.webp', alt: 'Code addition puzzle with letter decoding', caption: 'Code Addition Puzzle' },
+      { src: '/samples/english/more-less/sample-1.webp', alt: 'Greater than less than comparison worksheet', caption: 'More or Less Worksheet' },
+      { src: '/samples/english/math-puzzle/sample-1.webp', alt: 'Jigsaw grid math puzzle with equations', caption: 'Math Puzzle Worksheet' },
+      { src: '/samples/english/math-worksheet/sample-1.webp', alt: 'Visual algebra puzzle with image variables', caption: 'Math Worksheet Puzzle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Math Mastery Bundle — See All 6 Generators in Action',

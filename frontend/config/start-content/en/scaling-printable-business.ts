@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/sample-1.jpeg', alt: 'Draw and color worksheet demonstrating creative range for printable business scaling' },
+    heroImage: { src: '/samples/english/draw and color/sample-1.webp', alt: 'Draw and color worksheet demonstrating creative range for printable business scaling' },
     samples: [
-      { src: '/samples/english/draw and color/sample-1.jpeg', alt: 'Draw and color worksheet showing theme variety for catalog expansion', caption: 'Draw & Color \u2014 Creative Range for Catalog Depth' },
-      { src: '/samples/english/word search/sample-1.jpeg', alt: 'Word search puzzle demonstrating high-volume scalability across themes', caption: 'Word Search \u2014 Highest Volume Scaling Potential' },
-      { src: '/samples/english/coloring/sample-1.jpeg', alt: 'Coloring page showing language-independent international scalability', caption: 'Coloring \u2014 International Scaling Without Translation' },
-      { src: '/samples/english/sudoku/sample-1.jpeg', alt: 'Sudoku puzzle demonstrating platform-agnostic product distribution', caption: 'Sudoku \u2014 Platform-Agnostic Distribution' },
+      { src: '/samples/english/draw and color/sample-1.webp', alt: 'Draw and color worksheet showing theme variety for catalog expansion', caption: 'Draw & Color \u2014 Creative Range for Catalog Depth' },
+      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle demonstrating high-volume scalability across themes', caption: 'Word Search \u2014 Highest Volume Scaling Potential' },
+      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page showing language-independent international scalability', caption: 'Coloring \u2014 International Scaling Without Translation' },
+      { src: '/samples/english/sudoku/sample-1.webp', alt: 'Sudoku puzzle demonstrating platform-agnostic product distribution', caption: 'Sudoku \u2014 Platform-Agnostic Distribution' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'How to Create Draw & Color Worksheets for Your Printable Business \u2014 LessonCraftStudio Demo',

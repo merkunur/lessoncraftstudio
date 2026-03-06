@@ -14,14 +14,14 @@ interface PageProps {
 
 /* OG preview images — one per product, served via nginx */
 const OG_IMAGES: Record<string, string> = {
-  'word-search': '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
-  'word-search-library': '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
-  'word-search-languages': '/samples/english/wordsearch/wordsearch%20portrait.jpeg',
-  'math-puzzle': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
-  'math-puzzle-library': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
-  'code-addition': '/samples/english/code%20addition/image_addition_worksheet%20(1).jpeg',
-  'code-addition-wordreveal': '/samples/english/code%20addition/Code%20Breaker%20Addition%203.jpeg',
-  'code-addition-library': '/samples/english/code%20addition/image_addition_worksheet%20(1).jpeg',
+  'word-search': '/samples/english/wordsearch/wordsearch%20portrait.webp',
+  'word-search-library': '/samples/english/wordsearch/wordsearch%20portrait.webp',
+  'word-search-languages': '/samples/english/wordsearch/wordsearch%20portrait.webp',
+  'math-puzzle': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).webp',
+  'math-puzzle-library': '/samples/english/math%20puzzle/Math%20Puzzles%20(1).webp',
+  'code-addition': '/samples/english/code%20addition/image_addition_worksheet%20(1).webp',
+  'code-addition-wordreveal': '/samples/english/code%20addition/Code%20Breaker%20Addition%203.webp',
+  'code-addition-library': '/samples/english/code%20addition/image_addition_worksheet%20(1).webp',
 };
 
 export function generateStaticParams() {

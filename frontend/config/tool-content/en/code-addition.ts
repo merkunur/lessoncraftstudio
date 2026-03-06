@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free code breaker math worksheet',
+    primaryKeyword: 'code breaker math worksheet',
     secondaryKeywords: [
       'code breaker worksheet maker for sellers',
       'create crack the code math puzzles to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'secret code worksheet tool',
       'number cipher puzzle generator',
     ],
-    titleTag: 'Free Code Breaker Math Worksheet Maker | Create & Sell Cryptarithmetic Puzzles',
+    titleTag: 'Code Breaker Math Worksheet Maker | Create & Sell Cryptarithmetic Puzzles',
     metaDescription: 'Create cryptarithmetic code-cracking math puzzles with images in seconds. Two modes, 11 languages, commercial license available. Sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Code Breaker Math Worksheet Maker',
+    title: 'Code Breaker Math Worksheet Maker',
     tagline: 'Create cryptarithmetic puzzles where students crack secret codes through addition',
-    description: 'This is not another addition worksheet \u2014 it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and students must solve addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping students guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free version includes a small watermark \u2014 perfect for testing before you buy a commercial license.',
+    description: 'This is not another addition worksheet \u2014 it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and students must solve addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping students guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -163,8 +163,8 @@ const content: ToolContent = {
       answer: 'In Regular Mode, each image hides a unique secret number and students solve addition equations to crack the code. In Word Reveal Mode, each solved equation reveals a letter of a hidden word, and distractor letters with incorrect sums keep students guessing. Word Reveal Mode is a premium upgrade feature.',
     },
     {
-      question: 'Is the code addition worksheet maker really free?',
-      answer: 'Yes, the generator is 100% free to use with no signup required. You can create, preview, and download puzzles immediately. The free version adds a small watermark to downloads. Purchase a license to remove the watermark and unlock commercial use rights for selling on Etsy, KDP, and other marketplaces.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many puzzles as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How does the Symbol Count setting work?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell the worksheets I create?',
-      answer: 'The free watermarked version is for personal and classroom use only. To sell on Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate.',
+      answer: 'The free trial version with watermark is for personal and classroom use only. To sell on Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate.',
     },
     {
       question: 'What languages are supported?',
@@ -192,39 +192,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-addition-worksheet-maker', anchorText: 'Free Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-subtraction-worksheet-maker', anchorText: 'Free Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-puzzle-maker', anchorText: 'Free Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'free-math-worksheet-maker', anchorText: 'Free Math Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-cryptogram-maker', anchorText: 'Free Cryptogram Maker' },
-    { pageType: 'tool', slug: 'free-word-search-maker', anchorText: 'Free Word Search Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
+    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code-addition/sample-1.jpeg',
+      primary: '/samples/english/code-addition/sample-1.webp',
       primaryAlt: 'Code addition worksheet showing cryptarithmetic puzzles with image symbols hiding secret numbers',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code-addition/sample-1.jpeg',
+        src: '/samples/english/code-addition/sample-1.webp',
         alt: 'Code breaker math puzzle with animal symbols in Regular Mode',
         caption: 'Regular Mode with animal theme \u2014 each symbol hides a unique number',
       },
       {
-        src: '/samples/english/code-addition/sample-2.jpeg',
+        src: '/samples/english/code-addition/sample-2.webp',
         alt: 'Code addition worksheet in Word Reveal Mode with food images',
         caption: 'Word Reveal Mode \u2014 solve equations to spell a secret word',
       },
       {
-        src: '/samples/english/code-addition/sample-3.jpeg',
+        src: '/samples/english/code-addition/sample-3.webp',
         alt: 'Cryptarithmetic puzzle worksheet with mixed addends and decorative border',
         caption: 'Mixed addends with border decoration for product-ready output',
       },

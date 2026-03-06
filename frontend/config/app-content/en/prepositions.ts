@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).jpeg',
+      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
       primaryAlt: 'Preposition worksheet with colorful images showing spatial relationships between items and geometric shapes',
     },
     sampleGallery: [
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (1).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
         alt: 'Fill-in-the-blank preposition worksheet with animal theme and geometric shapes',
         caption: 'Fill-in-the-Blank mode \u2014 students complete sentences with the correct preposition',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (5).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
         alt: 'Multiple choice preposition worksheet with vehicle theme showing spatial descriptions',
         caption: 'Multiple Choice mode \u2014 students identify the image matching the spatial description',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (10).jpeg',
+        src: '/samples/english/prepositions/prepositions_worksheet (10).webp',
         alt: 'Preposition worksheet with all eight spatial prepositions and answer key',
         caption: 'Full 8-exercise worksheet \u2014 comprehensive review of all spatial prepositions',
       },

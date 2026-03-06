@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture-sort/picture_sort_worksheet.jpeg',
+      primary: '/samples/english/picture-sort/picture_sort_worksheet.webp',
       primaryAlt: 'Two-category picture sorting worksheet with themed category frames, shuffled cutout grid, and localized Picture Sort header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture-sort/picture_sort_theme.jpeg',
+        src: '/samples/english/picture-sort/picture_sort_theme.webp',
         alt: 'Theme-mode sorting worksheet with animals on the left and food on the right categories',
         caption: 'Theme mode \u2014 auto-populated categories from the image library',
       },
       {
-        src: '/samples/english/picture-sort/picture_sort_manual.jpeg',
+        src: '/samples/english/picture-sort/picture_sort_manual.webp',
         alt: 'Manual-mode sorting worksheet with hand-selected images assigned to left and right categories',
         caption: 'Manual mode \u2014 hand-select images and assign to categories',
       },
       {
-        src: '/samples/english/picture-sort/picture_sort_answer_key.jpeg',
+        src: '/samples/english/picture-sort/picture_sort_answer_key.webp',
         alt: 'Picture sort answer key with 6x larger images organized into correct category boxes',
         caption: 'Auto-generated answer key \u2014 6\u00d7 larger images in category boxes',
       },

@@ -113,7 +113,7 @@ async function deleteWorksheetFiles(
 ): Promise<string[]> {
   const deletedFiles: string[] = [];
   const files = [
-    `sample-${slot}.jpeg`,
+    `sample-${slot}.webp`,
     `sample-${slot}_thumb.webp`,
     `sample-${slot}_preview.webp`
   ];
@@ -142,7 +142,7 @@ async function deleteAnswerFiles(
 ): Promise<string[]> {
   const deletedFiles: string[] = [];
   const files = [
-    `sample-${slot}-answer.jpeg`,
+    `sample-${slot}-answer.webp`,
     `sample-${slot}-answer_thumb.webp`,
     `sample-${slot}-answer_preview.webp`
   ];

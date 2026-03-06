@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math worksheet/Math Worksheet 10.jpeg',
+      primary: '/samples/english/math worksheet/Math Worksheet 10.webp',
       primaryAlt: 'Algebra picture-puzzle worksheet with image symbols representing unknown variables in a system of equations',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 1.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 1.webp',
         alt: 'Very Easy algebra puzzle worksheet with two image symbols and addition-only equations',
         caption: 'Very Easy level \u2014 two image symbols in a simple equation system with addition only',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 5.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 5.webp',
         alt: 'Medium algebra puzzle worksheet with three image symbols and mixed operations',
         caption: 'Medium level \u2014 three symbols across linked equations with addition and subtraction',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
         alt: 'Hard algebra puzzle worksheet with four image symbols in a four-equation system',
         caption: 'Hard level \u2014 four simultaneous unknowns for advanced algebraic problem solving',
       },

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture-sort/picture_sort_worksheet.jpeg', alt: 'Two-category sorting worksheet with dashed-border category frames and shuffled cutout grid for classification activities' },
+    heroImage: { src: '/samples/english/picture-sort/picture_sort_worksheet.webp', alt: 'Two-category sorting worksheet with dashed-border category frames and shuffled cutout grid for classification activities' },
     samples: [
-      { src: '/samples/english/picture-sort/picture_sort_worksheet.jpeg', alt: 'Picture sort worksheet showing two side-by-side category frames and shuffled cutout grid below', caption: 'Two-category sorting worksheet with side-by-side category frames and shuffled cutout grid' },
-      { src: '/samples/english/picture-sort/picture_sort_answer_key.jpeg', alt: 'Auto-generated answer key with enlarged images sorted into correct category boxes', caption: 'Auto-generated answer key with images displayed at six times the cutout grid cell size' },
+      { src: '/samples/english/picture-sort/picture_sort_worksheet.webp', alt: 'Picture sort worksheet showing two side-by-side category frames and shuffled cutout grid below', caption: 'Two-category sorting worksheet with side-by-side category frames and shuffled cutout grid' },
+      { src: '/samples/english/picture-sort/picture_sort_answer_key.webp', alt: 'Auto-generated answer key with enlarged images sorted into correct category boxes', caption: 'Auto-generated answer key with images displayed at six times the cutout grid cell size' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'How to Create Category Sorting Worksheets \u2014 Complete Tutorial',

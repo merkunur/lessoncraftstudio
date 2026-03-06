@@ -128,7 +128,7 @@ export async function GET(request: Request): Promise<NextResponse> {
     const appDiagnoses: AppDiagnosis[] = await Promise.all(
       validAppIds.map(async (appId) => {
         const [thumbnail, thumbWebp, previewWebp, pdf] = await Promise.all([
-          getFileInfo(path.join(homepageDir, `${appId}-thumbnail.jpeg`)),
+          getFileInfo(path.join(homepageDir, `${appId}-thumbnail.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-thumbnail_thumb.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-thumbnail_preview.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-sample.pdf`)),
@@ -137,9 +137,9 @@ export async function GET(request: Request): Promise<NextResponse> {
         const issues: string[] = [];
 
         if (!thumbnail.exists) {
-          issues.push('Missing thumbnail JPEG');
+          issues.push('Missing thumbnail WebP');
         } else if (thumbnail.size === 0) {
-          issues.push('Thumbnail JPEG is empty (0 bytes)');
+          issues.push('Thumbnail WebP is empty (0 bytes)');
         }
 
         if (!thumbWebp.exists) {
@@ -174,10 +174,10 @@ export async function GET(request: Request): Promise<NextResponse> {
       portrait, portraitThumb, portraitPreview,
       landscape, landscapeThumb, landscapePreview
     ] = await Promise.all([
-      getFileInfo(path.join(homepageDir, 'hero-portrait.jpeg')),
+      getFileInfo(path.join(homepageDir, 'hero-portrait.webp')),
       getFileInfo(path.join(homepageDir, 'hero-portrait_thumb.webp')),
       getFileInfo(path.join(homepageDir, 'hero-portrait_preview.webp')),
-      getFileInfo(path.join(homepageDir, 'hero-landscape.jpeg')),
+      getFileInfo(path.join(homepageDir, 'hero-landscape.webp')),
       getFileInfo(path.join(homepageDir, 'hero-landscape_thumb.webp')),
       getFileInfo(path.join(homepageDir, 'hero-landscape_preview.webp')),
     ]);

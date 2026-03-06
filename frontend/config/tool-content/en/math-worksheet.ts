@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free math worksheet generator',
+    primaryKeyword: 'math worksheet generator',
     secondaryKeywords: [
       'math worksheet maker for sellers',
       'create algebra puzzle worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'picture equation worksheet tool',
       'image variable math activity generator',
     ],
-    titleTag: 'Free Math Worksheet Generator | Create & Sell Visual Algebra Puzzles',
+    titleTag: 'Math Worksheet Generator | Create & Sell Visual Algebra Puzzles',
     metaDescription: 'Generate algebra picture puzzles where images represent unknown variables in linked equations. Four difficulty levels, guaranteed unique solutions. Create printables to sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Math Worksheet Generator',
+    title: 'Math Worksheet Generator',
     tagline: 'Create visual algebra puzzles with images as variables in under 60 seconds',
-    description: 'Move beyond standard arithmetic drills with algebra picture puzzles that challenge students to think in systems of equations. Each worksheet presents a set of linked equations where images replace unknown variables \u2014 students must determine the numeric value each picture represents. Four difficulty levels scale from two symbols with simple addition to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution \u2014 no ambiguity, no guesswork. Choose Addition Only for focused practice or Addition & Subtraction for advanced problem-solving. Set the number range, toggle negative results for older learners, and control puzzles per page from 1 to 6 with automatic layout. Select images individually, load an entire theme set, or upload your own PNG or JPEG for branded puzzles. Since puzzles use only images and numbers, they work identically in every language \u2014 sell the same PDF worldwide without translation. Download as print-ready PDF or high-resolution JPEG. The free version includes a small watermark \u2014 perfect for testing before you buy a commercial license.',
+    description: 'Move beyond standard arithmetic drills with algebra picture puzzles that challenge students to think in systems of equations. Each worksheet presents a set of linked equations where images replace unknown variables \u2014 students must determine the numeric value each picture represents. Four difficulty levels scale from two symbols with simple addition to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution \u2014 no ambiguity, no guesswork. Choose Addition Only for focused practice or Addition & Subtraction for advanced problem-solving. Set the number range, toggle negative results for older learners, and control puzzles per page from 1 to 6 with automatic layout. Select images individually, load an entire theme set, or upload your own PNG or JPEG for branded puzzles. Since puzzles use only images and numbers, they work identically in every language \u2014 sell the same PDF worldwide without translation. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the math worksheet generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download algebra picture puzzles without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How do the algebra picture puzzles work?',
@@ -192,43 +192,43 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-addition-worksheet-maker', anchorText: 'Free Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-subtraction-worksheet-maker', anchorText: 'Free Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-code-addition-worksheet-maker', anchorText: 'Free Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-more-or-less-worksheet-maker', anchorText: 'Free More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-math-puzzle-maker', anchorText: 'Free Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'free-matching-worksheet-maker', anchorText: 'Free Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-missing-pieces-maker', anchorText: 'Free Missing Pieces Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
+    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
+    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
+    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Matching Worksheet Maker' },
+    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Missing Pieces Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math worksheet/Math Worksheet 10.jpeg',
+      primary: '/samples/english/math worksheet/Math Worksheet 10.webp',
       primaryAlt: 'Algebra picture puzzle worksheet with image symbols as unknown variables in linked equations',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 1.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 1.webp',
         alt: 'Visual algebra puzzle with two image symbols and addition equations for beginners',
         caption: 'Very Easy mode \u2014 two symbols with simple addition',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 5.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 5.webp',
         alt: 'Medium difficulty algebra picture puzzle with three image variables across linked equations',
         caption: 'Medium difficulty \u2014 three unknowns in linked equations',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.jpeg',
+        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
         alt: 'Hard algebra puzzle worksheet with four simultaneous unknowns and mixed operations',
         caption: 'Hard mode \u2014 four variables with addition and subtraction',
       },

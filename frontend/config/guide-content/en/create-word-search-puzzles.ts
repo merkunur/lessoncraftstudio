@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/sample-1.jpeg', alt: 'Word search puzzle with themed image clues showing vocabulary words hidden in a letter grid' },
+    heroImage: { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search puzzle with themed image clues showing vocabulary words hidden in a letter grid' },
     samples: [
-      { src: '/samples/english/wordsearch/sample-1.jpeg', alt: 'Word search puzzle with animal theme image clues for kids', caption: 'Themed word search puzzle using Vocabulary Mode with animal image clues and configurable grid size' },
-      { src: '/samples/english/wordsearch/sample-2.jpeg', alt: 'Word search answer key with color-coded word highlighting', caption: 'Color-coded answer key where each hidden word is highlighted in a distinct color for easy grading' },
+      { src: '/samples/english/wordsearch/sample-1.webp', alt: 'Word search puzzle with animal theme image clues for kids', caption: 'Themed word search puzzle using Vocabulary Mode with animal image clues and configurable grid size' },
+      { src: '/samples/english/wordsearch/sample-2.webp', alt: 'Word search answer key with color-coded word highlighting', caption: 'Color-coded answer key where each hidden word is highlighted in a distinct color for easy grading' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles \u2014 Complete Tutorial',

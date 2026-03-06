@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/sample-1.jpeg', alt: 'Professional addition worksheet created with LessonCraftStudio generator' },
+    heroImage: { src: '/samples/english/addition/sample-1.webp', alt: 'Professional addition worksheet created with LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/english/addition/sample-1.jpeg', alt: 'Addition worksheet with themed image-based math problems', caption: 'Addition \u2014 Image-Based Problems' },
-      { src: '/samples/english/subtraction/sample-1.jpeg', alt: 'Subtraction worksheet with visual number problems', caption: 'Subtraction \u2014 Visual Math Practice' },
-      { src: '/samples/english/word search/sample-1.jpeg', alt: 'Word search puzzle worksheet with themed word list', caption: 'Word Search \u2014 Themed Puzzle' },
-      { src: '/samples/english/coloring/sample-1.jpeg', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Themed Illustrations' },
+      { src: '/samples/english/addition/sample-1.webp', alt: 'Addition worksheet with themed image-based math problems', caption: 'Addition \u2014 Image-Based Problems' },
+      { src: '/samples/english/subtraction/sample-1.webp', alt: 'Subtraction worksheet with visual number problems', caption: 'Subtraction \u2014 Visual Math Practice' },
+      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle worksheet with themed word list', caption: 'Word Search \u2014 Themed Puzzle' },
+      { src: '/samples/english/coloring/sample-1.webp', alt: 'Coloring page worksheet with themed illustrations', caption: 'Coloring Page \u2014 Themed Illustrations' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets \u2014 LessonCraftStudio Demo',

@@ -14,14 +14,14 @@ interface Props {
    ═══════════════════════════════════════════════════════ */
 
 const MATH_PUZZLE_SAMPLES = {
-  worksheet1: '/samples/english/math%20puzzle/Math%20Puzzles%20(1).jpeg',
-  worksheet5: '/samples/english/math%20puzzle/Math%20Puzzles%20(5).jpeg',
-  worksheet10: '/samples/english/math%20puzzle/Math%20Puzzles%20(10).jpeg',
-  worksheet15: '/samples/english/math%20puzzle/Math%20Puzzles%20(15).jpeg',
-  answerKey1: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(1).jpeg',
-  answerKey5: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(5).jpeg',
-  german: '/samples/german/math%20puzzle/Mathe-R%C3%A4tsel%201.jpeg',
-  french: '/samples/french/math%20puzzle/Casse-T%C3%AAtes%20Math%C3%A9matiques%201.jpeg',
+  worksheet1: '/samples/english/math%20puzzle/Math%20Puzzles%20(1).webp',
+  worksheet5: '/samples/english/math%20puzzle/Math%20Puzzles%20(5).webp',
+  worksheet10: '/samples/english/math%20puzzle/Math%20Puzzles%20(10).webp',
+  worksheet15: '/samples/english/math%20puzzle/Math%20Puzzles%20(15).webp',
+  answerKey1: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(1).webp',
+  answerKey5: '/samples/english/math%20puzzle/Math%20Puzzles%20answer_key%20(5).webp',
+  german: '/samples/german/math%20puzzle/Mathe-R%C3%A4tsel%201.webp',
+  french: '/samples/french/math%20puzzle/Casse-T%C3%AAtes%20Math%C3%A9matiques%201.webp',
 };
 
 const LIBRARY_IMAGES = [

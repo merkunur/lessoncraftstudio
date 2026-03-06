@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word search/sample-1.jpeg', alt: 'Word search puzzle worksheet demonstrating multilingual worksheet generation in 11 languages' },
+    heroImage: { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle worksheet demonstrating multilingual worksheet generation in 11 languages' },
     samples: [
-      { src: '/samples/english/word search/sample-1.jpeg', alt: 'Word search puzzle worksheet with language-sensitive vocabulary', caption: 'Word Search \u2014 Best Multilingual Demo' },
-      { src: '/samples/english/crossword/sample-1.jpeg', alt: 'Crossword puzzle with localized clues and answers', caption: 'Crossword \u2014 Fully Localized Puzzles' },
-      { src: '/samples/english/word scramble/sample-1.jpeg', alt: 'Word scramble worksheet with language-adapted vocabulary', caption: 'Word Scramble \u2014 Language-Sensitive Output' },
-      { src: '/samples/english/alphabet train/sample-1.jpeg', alt: 'Alphabet train worksheet showing language-specific letter sets', caption: 'Alphabet Train \u2014 Adapted Letter Sets' },
+      { src: '/samples/english/word search/sample-1.webp', alt: 'Word search puzzle worksheet with language-sensitive vocabulary', caption: 'Word Search \u2014 Best Multilingual Demo' },
+      { src: '/samples/english/crossword/sample-1.webp', alt: 'Crossword puzzle with localized clues and answers', caption: 'Crossword \u2014 Fully Localized Puzzles' },
+      { src: '/samples/english/word scramble/sample-1.webp', alt: 'Word scramble worksheet with language-adapted vocabulary', caption: 'Word Scramble \u2014 Language-Sensitive Output' },
+      { src: '/samples/english/alphabet train/sample-1.webp', alt: 'Alphabet train worksheet showing language-specific letter sets', caption: 'Alphabet Train \u2014 Adapted Letter Sets' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Worksheets in Multiple Languages \u2014 LessonCraftStudio Demo',

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/draw_and_color_worksheet.jpeg', alt: 'Grid drawing worksheet with dual grid system showing empty practice grid and partially revealed clue grid with B&W outline theme' },
+    heroImage: { src: '/samples/english/draw and color/draw_and_color_worksheet.webp', alt: 'Grid drawing worksheet with dual grid system showing empty practice grid and partially revealed clue grid with B&W outline theme' },
     samples: [
-      { src: '/samples/english/draw and color/draw_and_color_worksheet.jpeg', alt: 'Grid drawing worksheet showing dual-grid system with practice grid and clue grid for cell-by-cell reproduction', caption: 'Dual-grid format: empty practice grid on top and clue grid with partial reference below for structured drawing exercises' },
-      { src: '/samples/english/draw and color/draw_and_color_animal.jpeg', alt: 'Animal theme grid drawing worksheet with B&W outline at moderate clue percentage', caption: 'Animal B&W outline theme at 25% clues \u2014 students reproduce the outline from scattered grid hints then color their drawing' },
+      { src: '/samples/english/draw and color/draw_and_color_worksheet.webp', alt: 'Grid drawing worksheet showing dual-grid system with practice grid and clue grid for cell-by-cell reproduction', caption: 'Dual-grid format: empty practice grid on top and clue grid with partial reference below for structured drawing exercises' },
+      { src: '/samples/english/draw and color/draw_and_color_animal.webp', alt: 'Animal theme grid drawing worksheet with B&W outline at moderate clue percentage', caption: 'Animal B&W outline theme at 25% clues \u2014 students reproduce the outline from scattered grid hints then color their drawing' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'How to Create Drawing and Symmetry Worksheets \u2014 Complete Tutorial',

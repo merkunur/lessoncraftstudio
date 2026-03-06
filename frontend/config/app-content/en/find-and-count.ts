@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find-and-count/find_and_count_portrait.jpeg',
+      primary: '/samples/english/find-and-count/find_and_count_portrait.webp',
       primaryAlt: 'I Spy find-and-count worksheet with scattered images on a grid, blue header border, and four task type instructions',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find-and-count/find_and_count_portrait.jpeg',
+        src: '/samples/english/find-and-count/find_and_count_portrait.webp',
         alt: 'I Spy hidden object worksheet in portrait mode with scattered animal images and task instructions',
         caption: 'Hidden Object mode \u2014 classic I Spy with circle, square, cross, and count tasks',
       },
       {
-        src: '/samples/english/find-and-count/find_and_count_landscape.jpeg',
+        src: '/samples/english/find-and-count/find_and_count_landscape.webp',
         alt: 'I Spy find-and-count worksheet in landscape mode with wider grid layout',
         caption: 'Landscape mode \u2014 wider grid layout for more columns and varied visual density',
       },
       {
-        src: '/samples/english/find-and-count/find_and_count_answer_key.jpeg',
+        src: '/samples/english/find-and-count/find_and_count_answer_key.webp',
         alt: 'Find-and-count answer key with red circle, square, and cross annotations over correct objects',
         caption: 'Auto-generated answer key \u2014 red annotations and count displays mark correct answers',
       },

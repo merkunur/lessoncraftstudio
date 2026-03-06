@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'free alphabet train worksheet generator',
+    primaryKeyword: 'alphabet train worksheet generator',
     secondaryKeywords: [
       'alphabet worksheet maker for sellers',
       'create alphabet train worksheets to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'alphabet matching worksheet tool',
       'multilingual alphabet activity generator',
     ],
-    titleTag: 'Free Alphabet Train Worksheet Generator | Create & Sell Letter Recognition Printables',
+    titleTag: 'Alphabet Train Worksheet Generator | Create & Sell Letter Recognition Printables',
     metaDescription: 'Generate colorful alphabet train worksheets with letter-image matching across 11 languages. Create unique multilingual printables to sell on Etsy, KDP, and TpT.',
   },
 
   hero: {
-    title: 'Free Alphabet Train Worksheet Generator',
+    title: 'Alphabet Train Worksheet Generator',
     tagline: 'Create colorful letter-train worksheets with image-to-letter matching in 11 languages',
-    description: 'Build alphabet worksheets that look nothing like the standard letter-tracing page. This free tool arranges 11 vibrant train wagons across the page, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train \u2014 students identify which letter each image starts with and match it to the correct wagon. Choose between Auto Create mode (the tool randomly picks 11 letters and assigns matching images) or Manual Selection (hand-pick every letter from a full alphabet grid and assign each image yourself). Adjust difficulty with the clue count slider: 3 clues for beginners, 5\u20137 for intermediate learners, and 9\u201311 for advanced students who must match nearly every wagon. The real power is language sensitivity \u2014 select from 11 native alphabets including German (\u00c4/\u00d6/\u00dc), Swedish (\u00c5/\u00c4/\u00d6), Spanish (\u00d1), and more. The same image pairs with different letters in each language: "dog" matches D in English but H in German (Hund). One worksheet template becomes 11 unique products. Browse 3,100+ images across 104 themes, or upload your own for branded designs. Choose from 7 font families and export as print-ready PDF or high-resolution JPEG. The free version includes a small watermark \u2014 perfect for testing before purchasing a commercial license.',
+    description: 'Build alphabet worksheets that look nothing like the standard letter-tracing page. This tool arranges 11 vibrant train wagons across the page, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train \u2014 students identify which letter each image starts with and match it to the correct wagon. Choose between Auto Create mode (the tool randomly picks 11 letters and assigns matching images) or Manual Selection (hand-pick every letter from a full alphabet grid and assign each image yourself). Adjust difficulty with the clue count slider: 3 clues for beginners, 5\u20137 for intermediate learners, and 9\u201311 for advanced students who must match nearly every wagon. The real power is language sensitivity \u2014 select from 11 native alphabets including German (\u00c4/\u00d6/\u00dc), Swedish (\u00c5/\u00c4/\u00d6), Spanish (\u00d1), and more. The same image pairs with different letters in each language: "dog" matches D in English but H in German (Hund). One worksheet template becomes 11 unique products. Browse 3,100+ images across 104 themes, or upload your own for branded designs. Choose from 7 font families and export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -155,8 +155,8 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Is the alphabet train generator really free?',
-      answer: 'Yes, the generator is 100% free to use. You can create, preview, and download alphabet train worksheets without signing up or paying anything. The free version adds a small watermark to downloaded files. Purchase a license to remove the watermark and unlock commercial use rights.',
+      question: 'Is there a free trial?',
+      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
       question: 'How does the alphabet train format work?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free version with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',
@@ -196,39 +196,39 @@ const content: ToolContent = {
     },
     {
       question: 'What is your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee on all purchases. If you are not satisfied with the product for any reason, contact our support team within 30 days of purchase for a full refund. No questions asked.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 
   internalLinks: [
     { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Worksheets \u2014 Full Product Details' },
-    { pageType: 'tool', slug: 'free-prepositions-worksheet-maker', anchorText: 'Free Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-word-guess-maker', anchorText: 'Free Word Guess Maker' },
-    { pageType: 'tool', slug: 'free-word-scramble-maker', anchorText: 'Free Word Scramble Maker' },
-    { pageType: 'tool', slug: 'free-word-search-maker', anchorText: 'Free Word Search Maker' },
-    { pageType: 'tool', slug: 'free-cryptogram-maker', anchorText: 'Free Cryptogram Maker' },
-    { pageType: 'tool', slug: 'free-handwriting-worksheet-maker', anchorText: 'Free Handwriting Worksheet Maker' },
-    { pageType: 'tool', slug: 'free-pattern-train-maker', anchorText: 'Free Pattern Train Maker' },
+    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
+    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
+    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
+    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Word Search Maker' },
+    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
+    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Handwriting Worksheet Maker' },
+    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
   ],
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/Alphabet Train 1.jpeg',
+      primary: '/samples/english/alphabet train/Alphabet Train 1.webp',
       primaryAlt: 'Alphabet train worksheet showing 11 colorful wagons with letters and matching clue images for letter recognition',
     },
     sampleGallery: [
       {
-        src: '/samples/english/alphabet train/Alphabet Train 1.jpeg',
+        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
         alt: 'Colorful alphabet train worksheet with letter-image matching activity for young learners',
         caption: 'Train-wagon format with letter-image matching',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 5.jpeg',
+        src: '/samples/english/alphabet train/Alphabet Train 5.webp',
         alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks',
         caption: 'Themed images with configurable clue count',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 10.jpeg',
+        src: '/samples/english/alphabet train/Alphabet Train 10.webp',
         alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty letter recognition',
         caption: 'Full 11-clue difficulty for advanced students',
       },

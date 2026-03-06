@@ -14,8 +14,8 @@ interface Props {
    ═══════════════════════════════════════════════════════ */
 
 const CODE_ADDITION_SAMPLES = {
-  regularWorksheet: '/samples/english/code%20addition/Code%20Breaker%20Addition%201.jpeg',
-  wordRevealWorksheet: '/samples/english/code%20addition/Code%20Breaker%20Addition%203.jpeg',
+  regularWorksheet: '/samples/english/code%20addition/Code%20Breaker%20Addition%201.webp',
+  wordRevealWorksheet: '/samples/english/code%20addition/Code%20Breaker%20Addition%203.webp',
 };
 
 /* ═══════════════════════════════════════════════════════

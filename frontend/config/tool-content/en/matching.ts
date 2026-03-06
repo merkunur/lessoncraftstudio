@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching_worksheet.jpeg',
+      primary: '/samples/english/matching/matching_worksheet.webp',
       primaryAlt: 'Draw-a-line matching worksheet with themed images arranged in two columns with localized Match Up header, item numbers, and decorative bullet dots',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching_letter.jpeg',
+        src: '/samples/english/matching/matching_letter.webp',
         alt: 'Beginning letter matching worksheet with images on the left and their first letters on the right for phonics practice',
         caption: 'Beginning Letter mode \u2014 students match images to their first letters with uppercase or lowercase display',
       },
       {
-        src: '/samples/english/matching/matching_imgword.jpeg',
+        src: '/samples/english/matching/matching_imgword.webp',
         alt: 'Image and word matching worksheet with labeled pairs on both sides for vocabulary reinforcement activities',
         caption: 'Image+Word mode \u2014 labeled image pairs on both sides for vocabulary matching and word recognition',
       },
       {
-        src: '/samples/english/matching/matching_answer_key.jpeg',
+        src: '/samples/english/matching/matching_answer_key.webp',
         alt: 'Matching worksheet answer key with horizontal connecting lines drawn between correct pairs for instant answer verification',
         caption: 'Auto-generated answer key \u2014 connecting lines (#555) between correct pairs for instant verification',
       },

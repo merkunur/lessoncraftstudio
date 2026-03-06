@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/draw and color/draw_and_color_worksheet.jpeg',
+      primary: '/samples/english/draw and color/draw_and_color_worksheet.webp',
       primaryAlt: 'Draw and color grid drawing worksheet with dual grid system showing empty practice grid and partially revealed clue grid with B&W outline theme',
     },
     sampleGallery: [
       {
-        src: '/samples/english/draw and color/draw_and_color_animal.jpeg',
+        src: '/samples/english/draw and color/draw_and_color_animal.webp',
         alt: 'Grid drawing worksheet with animal B&W outline theme at 25% clue percentage showing practice grid and clue grid side by side',
         caption: 'Animal theme at 25% clues \u2014 students reproduce the outline from scattered grid hints then color in their drawing',
       },
       {
-        src: '/samples/english/draw and color/draw_and_color_symmetry.jpeg',
+        src: '/samples/english/draw and color/draw_and_color_symmetry.webp',
         alt: 'Grid drawing worksheet using horizontal symmetry mirror mode with clue cells revealed on the left half for spatial reasoning practice',
         caption: 'Horizontal symmetry mode \u2014 clue cells mirror left-to-right for spatial reasoning and bilateral symmetry practice',
       },
       {
-        src: '/samples/english/draw and color/draw_and_color_challenge.jpeg',
+        src: '/samples/english/draw and color/draw_and_color_challenge.webp',
         alt: 'Grid drawing worksheet with 10% clue percentage showing minimal reference cells in a large grid for expert-level reproduction challenge',
         caption: '10% clue expert challenge \u2014 minimal reference cells demand precise observation and spatial reasoning',
       },

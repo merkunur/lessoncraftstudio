@@ -128,6 +128,19 @@ export default async function CornerstonePage({
           </section>
         )}
 
+        {/* CTA 1 */}
+        <section className="py-8">
+          <div className="container mx-auto px-4 max-w-3xl text-center">
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
+            >
+              {getSectionLabel('ctaTryFree', locale)}
+            </Link>
+            <p className="text-sm text-gray-500 mt-2">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
+          </div>
+        </section>
+
         {/* Content Sections */}
         {content.mainContent && content.mainContent.length > 0 && (
           <article className="py-12 md:py-16">
@@ -213,6 +226,18 @@ export default async function CornerstonePage({
           </section>
         )}
 
+        {/* CTA 2 */}
+        <section className="py-8">
+          <div className="container mx-auto px-4 max-w-3xl text-center">
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
+            >
+              {getSectionLabel('ctaBrowseAll', locale)}
+            </Link>
+          </div>
+        </section>
+
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
@@ -255,6 +280,20 @@ export default async function CornerstonePage({
             </div>
           </section>
         )}
+
+        {/* CTA 3 - Final */}
+        <section className="py-12 md:py-16 bg-indigo-600">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-2xl font-bold text-white mb-4">{getSectionLabel('ctaReadyToStart', locale)}</h2>
+            <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-50 transition-colors"
+            >
+              {getSectionLabel('ctaBrowseAll', locale)}
+            </Link>
+          </div>
+        </section>
 
         {/* Internal Links */}
         {content.internalLinks && content.internalLinks.length > 0 && (

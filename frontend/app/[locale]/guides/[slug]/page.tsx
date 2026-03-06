@@ -128,6 +128,19 @@ export default async function GuidePage({
           </section>
         )}
 
+        {/* CTA 1 */}
+        <section className="py-8">
+          <div className="container mx-auto px-4 max-w-3xl text-center">
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition-colors"
+            >
+              {getSectionLabel('ctaTryFree', locale)}
+            </Link>
+            <p className="text-sm text-gray-500 mt-2">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
+          </div>
+        </section>
+
         {/* Tutorial Steps */}
         {content.tutorial && content.tutorial.length > 0 && (
           <article className="py-12 md:py-16">
@@ -227,6 +240,18 @@ export default async function GuidePage({
           </section>
         )}
 
+        {/* CTA 2 */}
+        <section className="py-8">
+          <div className="container mx-auto px-4 max-w-3xl text-center">
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition-colors"
+            >
+              {getSectionLabel('ctaBrowseAll', locale)}
+            </Link>
+          </div>
+        </section>
+
         {/* Tools Recommended */}
         {content.toolsRecommended && content.toolsRecommended.length > 0 && (
           <section className="py-12 md:py-16">
@@ -290,6 +315,20 @@ export default async function GuidePage({
             </div>
           </section>
         )}
+
+        {/* CTA 3 - Final */}
+        <section className="py-12 md:py-16 bg-emerald-600">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-2xl font-bold text-white mb-4">{getSectionLabel('ctaReadyToStart', locale)}</h2>
+            <p className="text-emerald-100 mb-8 max-w-lg mx-auto">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
+            <Link
+              href={`/${locale}/apps`}
+              className="inline-flex items-center px-8 py-3 bg-white text-emerald-600 font-semibold rounded-lg hover:bg-emerald-50 transition-colors"
+            >
+              {getSectionLabel('ctaBrowseAll', locale)}
+            </Link>
+          </div>
+        </section>
 
         {/* Internal Links */}
         {content.internalLinks && content.internalLinks.length > 0 && (

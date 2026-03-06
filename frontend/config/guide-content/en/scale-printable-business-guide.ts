@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professional addition worksheet demonstrating the product quality that supports scalable printable business growth' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet with themed images showing product diversity for catalog scaling', caption: 'Themed worksheet variations demonstrate how one product concept scales into multiple listings across themes, grades, and languages' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle showing multi-language scaling potential', caption: 'Word search puzzles created in 11 languages multiply your catalog without multiplying creative effort \u2014 the same concept reaches international markets' },
-      { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet demonstrating systematic catalog expansion through theme variations', caption: 'Matching worksheets across themes show systematic product line extension \u2014 each new theme adds products using proven formats and existing image assets' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with themed images showing product diversity for catalog scaling', caption: 'Themed worksheet variations demonstrate how one product concept scales into multiple listings across themes, grades, and languages' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle showing multi-language scaling potential', caption: 'Word search puzzles created in 11 languages multiply your catalog without multiplying creative effort \u2014 the same concept reaches international markets' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet demonstrating systematic catalog expansion through theme variations', caption: 'Matching worksheets across themes show systematic product line extension \u2014 each new theme adds products using proven formats and existing image assets' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'How to Create Coloring Pages with Draw & Color \u2014 Demonstrating Creative Range for Catalog Scaling',

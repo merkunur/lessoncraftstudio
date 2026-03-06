@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Math worksheet product ready for bundling into a high-value worksheet collection' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet for math worksheet bundle creation', caption: 'Math worksheets are among the most popular products for bundle creation \u2014 combine addition, subtraction, and number sense for comprehensive bundles' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle for themed worksheet bundle', caption: 'Word search puzzles add variety to themed bundles and work across subject, grade, and seasonal bundle types' },
-      { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet activity for printable bundle collection', caption: 'Matching activities complement other worksheet types in format bundles \u2014 variety keeps students engaged across multiple sessions' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet for math worksheet bundle creation', caption: 'Math worksheets are among the most popular products for bundle creation \u2014 combine addition, subtraction, and number sense for comprehensive bundles' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle for themed worksheet bundle', caption: 'Word search puzzles add variety to themed bundles and work across subject, grade, and seasonal bundle types' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet activity for printable bundle collection', caption: 'Matching activities complement other worksheet types in format bundles \u2014 variety keeps students engaged across multiple sessions' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Bundling into High-Value Collections',

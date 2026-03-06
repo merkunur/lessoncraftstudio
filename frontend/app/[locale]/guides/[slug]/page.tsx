@@ -12,6 +12,7 @@ import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } f
 import { getGuideContent } from '@/config/guide-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -161,7 +162,7 @@ export default async function GuidePage({
           <section className="py-10 md:py-14">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{getSectionLabel('introduction', locale)}</h2>
-              <div className="text-gray-700 leading-relaxed whitespace-pre-line">{content.introduction}</div>
+              <ReadMoreText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
             </div>
           </section>
         )}
@@ -192,7 +193,7 @@ export default async function GuidePage({
                     </div>
                     <div className="flex-1">
                       <h2 className="text-xl font-bold text-gray-900 mb-2">{step.heading}</h2>
-                      <p className="text-gray-700 leading-relaxed">{step.content}</p>
+                      <ReadMoreText text={step.content} locale={locale} className="text-gray-700 leading-relaxed" />
                     </div>
                   </div>
                 ))}
@@ -210,7 +211,7 @@ export default async function GuidePage({
                 {content.examples.map((example, i) => (
                   <div key={i} className="p-5 bg-white rounded-lg border border-gray-200">
                     <h3 className="font-semibold text-gray-900 mb-2">{example.heading}</h3>
-                    <p className="text-gray-700 leading-relaxed">{example.content}</p>
+                    <ReadMoreText text={example.content} locale={locale} className="text-gray-700 leading-relaxed" />
                   </div>
                 ))}
               </div>
@@ -275,7 +276,7 @@ export default async function GuidePage({
                 {content.platformTips.map((tip, i) => (
                   <div key={i} className="p-4 bg-white rounded-lg border border-gray-200">
                     <h3 className="font-semibold text-gray-900">{tip.heading}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{tip.content}</p>
+                    <ReadMoreText text={tip.content} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </div>
                 ))}
               </div>
@@ -292,7 +293,7 @@ export default async function GuidePage({
                 {content.monetization.map((strategy, i) => (
                   <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
                     <h3 className="font-semibold text-gray-900">{strategy.heading}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{strategy.content}</p>
+                    <ReadMoreText text={strategy.content} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </div>
                 ))}
               </div>

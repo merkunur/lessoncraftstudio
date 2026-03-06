@@ -192,7 +192,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Cryptogram worksheet with picture cipher showing themed images mapped to alphabet letters encoding a secret phrase' },
     samples: [
       { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Cryptogram worksheet with themed images replacing letters in an encoded secret phrase', caption: 'Picture cipher puzzle \u2014 decode the secret message by identifying which image represents which letter' },
-      { src: '/samples/english/cryptogram/cryptogram_themed.webp', alt: 'Cryptogram worksheet with themed images and Letters to Reveal hints for scaffolded difficulty', caption: 'Themed cipher with Letters to Reveal \u2014 pre-solved mappings provide scaffolding for beginners' },
+      { src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp', alt: 'Cryptogram worksheet with themed images and Letters to Reveal hints for scaffolded difficulty', caption: 'Themed cipher with Letters to Reveal \u2014 pre-solved mappings provide scaffolding for beginners' },
       { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Cryptogram answer key with complete letter legend showing all alphabet-to-image mappings in sorted order', caption: 'Letter legend answer key \u2014 every alphabet letter paired with its assigned image for definitive solution reference' },
     ],
     youtubeId: '9U0BIIjCnco',

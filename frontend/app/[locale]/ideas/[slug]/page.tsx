@@ -12,6 +12,7 @@ import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } f
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '../../apps/[slug]/VideoFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -195,9 +196,7 @@ export default async function IdeaPage({
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{getSectionLabel('marketOverview', locale)}</h2>
-              <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                {content.marketOverview}
-              </div>
+              <ReadMoreText text={content.marketOverview} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
             </div>
           </section>
         )}
@@ -222,7 +221,7 @@ export default async function IdeaPage({
                     )}
                     <div className="flex-1 min-w-0">
                       <h3 className="font-semibold text-gray-900">{idea.title}</h3>
-                      <p className="text-gray-600 text-sm mt-1">{idea.description}</p>
+                      <ReadMoreText text={idea.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                       <span className="inline-block mt-2 text-xs bg-amber-50 text-amber-700 px-2 py-0.5 rounded">
                         {idea.appId}
                       </span>
@@ -268,7 +267,7 @@ export default async function IdeaPage({
                   <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
                     <span className="text-xs font-medium text-amber-700 bg-amber-50 px-2 py-0.5 rounded">{tip.platform}</span>
                     <h3 className="font-semibold text-gray-900 mt-2">{tip.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{tip.description}</p>
+                    <ReadMoreText text={tip.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </div>
                 ))}
               </div>

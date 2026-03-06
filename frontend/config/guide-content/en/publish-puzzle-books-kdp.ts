@@ -204,7 +204,7 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP puzzle book interior pages' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal themed word search puzzle formatted for KDP puzzle book', caption: 'Word search with animal theme \u2014 the most popular puzzle type for KDP books targeting both adult and kids markets' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Animal themed word search puzzle formatted for KDP puzzle book', caption: 'Word search with animal theme \u2014 the most popular puzzle type for KDP books targeting both adult and kids markets' },
       { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle with themed clues for KDP puzzle book', caption: 'Crossword puzzle \u2014 adds substantial engagement value to puzzle books and variety collections on Amazon' },
       { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Picture sudoku puzzle for kids variety puzzle book on KDP', caption: 'Picture sudoku \u2014 visual logic puzzles that make kids variety puzzle books more diverse and engaging' },
     ],

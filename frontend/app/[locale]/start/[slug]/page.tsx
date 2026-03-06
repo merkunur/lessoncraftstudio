@@ -12,6 +12,7 @@ import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } f
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -155,7 +156,7 @@ export default async function CornerstonePage({
           <section className="py-10 md:py-14">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">{getSectionLabel('introduction', locale)}</h2>
-              <div className="text-gray-700 leading-relaxed whitespace-pre-line">{content.introduction}</div>
+              <ReadMoreText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
             </div>
           </section>
         )}
@@ -180,9 +181,7 @@ export default async function CornerstonePage({
               {content.mainContent.map((section, i) => (
                 <div key={i} className="mb-12">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">{section.heading}</h2>
-                  <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                    {section.content}
-                  </div>
+                  <ReadMoreText text={section.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
                 </div>
               ))}
             </div>
@@ -250,7 +249,7 @@ export default async function CornerstonePage({
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">{step.step}</h3>
-                      <p className="text-gray-600 text-sm mt-1">{step.description}</p>
+                      <ReadMoreText text={step.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                     </div>
                   </div>
                 ))}
@@ -272,7 +271,7 @@ export default async function CornerstonePage({
                     className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                   >
                     <h3 className="font-semibold text-gray-900">{tool.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{tool.description}</p>
+                    <ReadMoreText text={tool.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </Link>
                 ))}
               </div>

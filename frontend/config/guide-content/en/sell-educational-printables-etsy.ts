@@ -201,11 +201,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Educational printable worksheet showing image-based math problems for selling on Etsy across multiple categories' },
+    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Educational printable worksheet showing image-based math problems for selling on Etsy across multiple categories' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.webp', alt: 'Animal themed addition worksheet for a diversified educational printable Etsy shop', caption: 'Addition worksheet with animal theme \u2014 one of dozens of math products you can create for your Etsy shop' },
-      { src: '/samples/english/wordsearch/wordsearch_puzzle.webp', alt: 'Word search puzzle worksheet showing language-based educational printable for Etsy', caption: 'Word search puzzle \u2014 language-sensitive format that multiplies across 11 language markets on Etsy' },
-      { src: '/samples/english/coloring/coloring_page.webp', alt: 'Coloring page printable showing visual learning product for Etsy educational shop', caption: 'Coloring page \u2014 broadest buyer demographic of any educational printable category on Etsy' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Animal themed addition worksheet for a diversified educational printable Etsy shop', caption: 'Addition worksheet with animal theme \u2014 one of dozens of math products you can create for your Etsy shop' },
+      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Word search puzzle worksheet showing language-based educational printable for Etsy', caption: 'Word search puzzle \u2014 language-sensitive format that multiplies across 11 language markets on Etsy' },
+      { src: '/samples/english/coloring/coloring portrait 5.webp', alt: 'Coloring page printable showing visual learning product for Etsy educational shop', caption: 'Coloring page \u2014 broadest buyer demographic of any educational printable category on Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Educational Printables for Selling on Etsy \u2014 Multi-Category Shop Strategy',

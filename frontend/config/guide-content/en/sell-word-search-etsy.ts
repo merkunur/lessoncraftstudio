@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch_worksheet.webp', alt: 'Word search puzzle with themed vocabulary grid showing hidden words for selling on Etsy' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle with themed vocabulary grid showing hidden words for selling on Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal themed word search puzzle created for Etsy digital download listing', caption: 'Word search puzzle with animal vocabulary theme \u2014 grid-based format that creates eye-catching Etsy listing photos' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Animal themed word search puzzle created for Etsy digital download listing', caption: 'Word search puzzle with animal vocabulary theme \u2014 grid-based format that creates eye-catching Etsy listing photos' },
       { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle complementing word search products in an Etsy puzzle shop', caption: 'Crossword puzzle \u2014 natural cross-sell companion to word search listings in your Etsy shop' },
-      { src: '/samples/english/word scramble/word_scramble_worksheet.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle \u2014 quick vocabulary activity that adds variety to multi-format bundles' },
+      { src: '/samples/english/word scramble/Word Scramble 1.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle \u2014 quick vocabulary activity that adds variety to multi-format bundles' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Selling on Etsy \u2014 Step-by-Step Tutorial',

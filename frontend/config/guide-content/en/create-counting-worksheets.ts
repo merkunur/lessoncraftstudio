@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/chart count/chart_count_worksheet.webp', alt: 'Picture graph worksheet with scattered 4\u00d75 image grid and bar chart for counting and graphing practice' },
+    heroImage: { src: '/samples/english/chart count/chart count.webp', alt: 'Picture graph worksheet with scattered 4\u00d75 image grid and bar chart for counting and graphing practice' },
     samples: [
-      { src: '/samples/english/chart count/chart_count_worksheet.webp', alt: 'Picture graph worksheet with 20 scattered icons in a 4\u00d75 grid and 6-column bar chart below', caption: 'Complete picture graph worksheet with scattered image grid and bar chart for student counting practice' },
-      { src: '/samples/english/chart count/chart_count_answer_key.webp', alt: 'Picture graph answer key with yellow highlighted cells showing correct counts', caption: 'Auto-generated answer key with yellow-highlighted cells (#FFC857) showing the correct count for each image type' },
+      { src: '/samples/english/chart count/chart count.webp', alt: 'Picture graph worksheet with 20 scattered icons in a 4\u00d75 grid and 6-column bar chart below', caption: 'Complete picture graph worksheet with scattered image grid and bar chart for student counting practice' },
+      { src: '/samples/english/chart count/chart count answer_key.webp', alt: 'Picture graph answer key with yellow highlighted cells showing correct counts', caption: 'Auto-generated answer key with yellow-highlighted cells (#FFC857) showing the correct count for each image type' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'How to Create Counting and Graphing Worksheets \u2014 Complete Tutorial',

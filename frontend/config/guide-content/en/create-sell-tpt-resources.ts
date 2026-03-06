@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet resource suitable for selling on Teachers Pay Teachers marketplace' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet.webp', alt: 'Math addition worksheet for TPT classroom resource', caption: 'Math worksheets are among the most searched resource types on TPT \u2014 teachers need standards-aligned practice for every skill' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle activity for TPT store listing', caption: 'Word search puzzles work across all grade levels on TPT as vocabulary builders, centers activities, and early finisher work' },
-      { src: '/samples/english/matching/matching_worksheet.webp', alt: 'Matching activity worksheet for TPT educators', caption: 'Matching activities are versatile TPT resources that teachers use for assessment, practice, and review across multiple subjects' },
+      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Math addition worksheet for TPT classroom resource', caption: 'Math worksheets are among the most searched resource types on TPT \u2014 teachers need standards-aligned practice for every skill' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle activity for TPT store listing', caption: 'Word search puzzles work across all grade levels on TPT as vocabulary builders, centers activities, and early finisher work' },
+      { src: '/samples/english/matching/image and word.webp', alt: 'Matching activity worksheet for TPT educators', caption: 'Matching activities are versatile TPT resources that teachers use for assessment, practice, and review across multiple subjects' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Teachers Pay Teachers \u2014 Step-by-Step Tutorial',

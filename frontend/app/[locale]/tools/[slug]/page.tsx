@@ -15,6 +15,7 @@ import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
 import { getSectionLabel } from '@/config/section-labels';
 import YouTubeFacade from './YouTubeFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -217,7 +218,7 @@ export default async function ToolPage({
                 {content.whatYouCanCreate.map((example, i) => (
                   <div key={i} className="p-6 bg-gray-50 rounded-lg">
                     <h3 className="font-semibold text-gray-900 mb-2">{example.title}</h3>
-                    <p className="text-gray-600 text-sm">{example.description}</p>
+                    <ReadMoreText text={example.description} locale={locale} className="text-gray-600 text-sm" />
                   </div>
                 ))}
               </div>
@@ -234,7 +235,7 @@ export default async function ToolPage({
                 {content.businessIdeas.map((idea, i) => (
                   <div key={i} className="p-6 bg-white border border-gray-200 rounded-lg">
                     <h3 className="font-semibold text-gray-900 mb-2">{idea.title}</h3>
-                    <p className="text-gray-600 text-sm">{idea.description}</p>
+                    <ReadMoreText text={idea.description} locale={locale} className="text-gray-600 text-sm" />
                     {idea.platform && (
                       <span className="inline-block mt-2 text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded">
                         {idea.platform}
@@ -260,7 +261,7 @@ export default async function ToolPage({
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">{tip.title}</h3>
-                      <p className="text-gray-600 mt-1 text-sm">{tip.description}</p>
+                      <ReadMoreText text={tip.description} locale={locale} className="text-gray-600 mt-1 text-sm" />
                     </div>
                   </div>
                 ))}

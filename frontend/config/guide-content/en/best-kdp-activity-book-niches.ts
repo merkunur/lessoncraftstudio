@@ -199,9 +199,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet demonstrating a broad-appeal KDP activity book niche for publishers' },
     samples: [
-      { src: '/samples/english/coloring/coloring_worksheet.webp', alt: 'Coloring book content representing one of the largest KDP activity book niches', caption: 'Coloring books \u2014 a massive KDP niche spanning kids, adults, and themed editions with strong year-round demand' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle demonstrating themed sub-niche targeting within the puzzle category', caption: 'Themed word search \u2014 sub-niche targeting through animal, travel, and holiday themes reduces competition while maintaining strong demand' },
-      { src: '/samples/english/math worksheet/math_worksheet.webp', alt: 'Math worksheet showing grade-level audience segmentation for KDP niche strategy', caption: 'Math workbooks \u2014 audience segmentation by grade level and operation type creates dozens of distinct sub-niches from one category' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring book content representing one of the largest KDP activity book niches', caption: 'Coloring books \u2014 a massive KDP niche spanning kids, adults, and themed editions with strong year-round demand' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle demonstrating themed sub-niche targeting within the puzzle category', caption: 'Themed word search \u2014 sub-niche targeting through animal, travel, and holiday themes reduces competition while maintaining strong demand' },
+      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Math worksheet showing grade-level audience segmentation for KDP niche strategy', caption: 'Math workbooks \u2014 audience segmentation by grade level and operation type creates dozens of distinct sub-niches from one category' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Math Worksheets for KDP Activity Books \u2014 Niche Content Creation Tutorial',

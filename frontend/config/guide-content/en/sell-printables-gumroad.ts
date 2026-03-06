@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable product ready for selling on Gumroad storefront' },
     samples: [
-      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Printable coloring page for Gumroad digital product sales', caption: 'Coloring pages create visually compelling product images that drive social media traffic to your Gumroad store' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle printable for Gumroad store catalog', caption: 'Word search puzzles have broad appeal across parent and teacher audiences \u2014 a versatile Gumroad product type' },
-      { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet activity for Gumroad printable business', caption: 'Matching activities are high-demand educational printables that work well as individual products and in bundles' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page for Gumroad digital product sales', caption: 'Coloring pages create visually compelling product images that drive social media traffic to your Gumroad store' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle printable for Gumroad store catalog', caption: 'Word search puzzles have broad appeal across parent and teacher audiences \u2014 a versatile Gumroad product type' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet activity for Gumroad printable business', caption: 'Matching activities are high-demand educational printables that work well as individual products and in bundles' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages for Your Gumroad Printable Store',

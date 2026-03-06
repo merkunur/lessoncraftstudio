@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/shadow match/shadow_match_worksheet.webp', alt: 'Shadow matching worksheet with colored images and auto-generated pixel-level black silhouettes for visual perception matching activity' },
+    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching worksheet with colored images and auto-generated pixel-level black silhouettes for visual perception matching activity' },
     samples: [
-      { src: '/samples/english/shadow match/shadow_match_worksheet.webp', alt: 'Shadow match worksheet showing four colored images matched to four pixel-level black silhouettes with letter and number labels', caption: 'Shadow Match mode with four colored images and their auto-generated black silhouettes' },
-      { src: '/samples/english/shadow match/shadow_match_answer_key.webp', alt: 'Auto-generated answer key showing original images alongside silhouettes with correct letter-to-number match labels', caption: 'Auto-generated answer key with letter-to-number pairings for quick verification' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow match worksheet showing four colored images matched to four pixel-level black silhouettes with letter and number labels', caption: 'Shadow Match mode with four colored images and their auto-generated black silhouettes' },
+      { src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp', alt: 'Auto-generated answer key showing original images alongside silhouettes with correct letter-to-number match labels', caption: 'Auto-generated answer key with letter-to-number pairings for quick verification' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'How to Create Shadow Matching Worksheets \u2014 Complete Tutorial',

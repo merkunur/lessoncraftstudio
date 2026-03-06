@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professional addition worksheet demonstrating the quality that supports premium pricing strategies' },
     samples: [
-      { src: '/samples/english/addition/addition_animals.webp', alt: 'Addition worksheet with themed images supporting premium pricing', caption: 'Professional formatting and themed images justify higher price points \u2014 buyers pay more for quality and visual appeal' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle demonstrating feature differentiation for pricing', caption: 'Word search puzzles with themed images command higher prices than basic text-only versions across all platforms' },
-      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Coloring page showing quality that supports competitive pricing', caption: 'High-quality coloring pages demonstrate how product quality directly enables premium pricing in competitive categories' },
+      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with themed images supporting premium pricing', caption: 'Professional formatting and themed images justify higher price points \u2014 buyers pay more for quality and visual appeal' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle demonstrating feature differentiation for pricing', caption: 'Word search puzzles with themed images command higher prices than basic text-only versions across all platforms' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page showing quality that supports competitive pricing', caption: 'High-quality coloring pages demonstrate how product quality directly enables premium pricing in competitive categories' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Math Worksheets Quickly \u2014 Efficient Production for Better Profit Margins',

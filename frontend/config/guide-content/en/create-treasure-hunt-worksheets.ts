@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/treasure hunt/treasure_hunt_puzzle.webp', alt: 'Treasure hunt path-finding worksheet with 5 by 5 coordinate grid, 6 scattered themed images as landmarks, directional clues, and treasure-themed teal header with golden Fredoka title' },
+    heroImage: { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Treasure hunt path-finding worksheet with 5 by 5 coordinate grid, 6 scattered themed images as landmarks, directional clues, and treasure-themed teal header with golden Fredoka title' },
     samples: [
-      { src: '/samples/english/treasure hunt/treasure_hunt_puzzle.webp', alt: 'Treasure hunt worksheet showing 5 by 5 coordinate grid with scattered themed images and directional clue instructions below the treasure-themed header', caption: 'Treasure hunt worksheet with Basic direction clues on a 5 by 5 coordinate grid with 6 themed landmark images' },
-      { src: '/samples/english/treasure hunt/treasure_hunt_cardinal.webp', alt: 'Treasure hunt worksheet with Cardinal direction clues using north south east and west on the 5 by 5 coordinate grid', caption: 'Cardinal direction mode using compass vocabulary for advanced spatial reasoning and map-reading skills' },
-      { src: '/samples/english/treasure hunt/treasure_hunt_answer_key.webp', alt: 'Auto-generated answer key with final treasure cell highlighted in pale yellow on the 5 by 5 coordinate grid', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
+      { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Treasure hunt worksheet showing 5 by 5 coordinate grid with scattered themed images and directional clue instructions below the treasure-themed header', caption: 'Treasure hunt worksheet with Basic direction clues on a 5 by 5 coordinate grid with 6 themed landmark images' },
+      { src: '/samples/english/treasure hunt/north south.webp', alt: 'Treasure hunt worksheet with Cardinal direction clues using north south east and west on the 5 by 5 coordinate grid', caption: 'Cardinal direction mode using compass vocabulary for advanced spatial reasoning and map-reading skills' },
+      { src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp', alt: 'Auto-generated answer key with final treasure cell highlighted in pale yellow on the 5 by 5 coordinate grid', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'How to Create Treasure Hunt Worksheets \u2014 Complete Tutorial',

@@ -195,9 +195,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
     samples: [
-      { src: '/samples/english/coloring/coloring_animals.webp', alt: 'Printable coloring page for Creative Fabrica Classroom section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica \u2014 appealing to both designer and teacher audiences' },
-      { src: '/samples/english/matching/matching_animals.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Classroom section' },
-      { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both educators and parents on Creative Fabrica' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page for Creative Fabrica Classroom section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica \u2014 appealing to both designer and teacher audiences' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Classroom section' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both educators and parents on Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Creative Fabrica',

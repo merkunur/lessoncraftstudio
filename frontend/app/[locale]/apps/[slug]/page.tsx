@@ -16,6 +16,7 @@ import TryFreeButton from './TryFreeButton';
 import { getAppContent, getCategoryAudience } from '@/config/app-content';
 import type { AppContent } from '@/config/app-content';
 import VideoFacade from './VideoFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 import { getSectionLabel } from '@/config/section-labels';
 
 // ── Slug-appId to WP-appId mapping ──
@@ -775,7 +776,7 @@ export default async function AppDetailPage({
                 {content.keyFeatures.features.map((feat, i) => (
                   <div key={i} className="p-5 rounded-lg border border-gray-100 bg-gray-50">
                     <h3 className="font-semibold text-gray-900 mb-2">{feat.title}</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">{feat.description}</p>
+                    <ReadMoreText text={feat.description} locale={locale} className="text-gray-600 text-sm leading-relaxed" />
                   </div>
                 ))}
               </div>
@@ -793,7 +794,7 @@ export default async function AppDetailPage({
                     {uc.platform && (
                       <span className="inline-block px-2 py-0.5 text-xs font-medium rounded bg-indigo-50 text-indigo-600 mb-2">{uc.platform}</span>
                     )}
-                    <p className="text-gray-600 text-sm leading-relaxed">{uc.description}</p>
+                    <ReadMoreText text={uc.description} locale={locale} className="text-gray-600 text-sm leading-relaxed" />
                   </div>
                 ))}
               </div>
@@ -809,7 +810,7 @@ export default async function AppDetailPage({
                   {audience.map((seg, i) => (
                     <div key={i} className="p-5 rounded-lg border border-gray-100 bg-gray-50">
                       <h3 className="font-semibold text-gray-900 mb-2">{seg.persona}</h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">{seg.description}</p>
+                      <ReadMoreText text={seg.description} locale={locale} className="text-gray-600 text-sm leading-relaxed" />
                     </div>
                   ))}
                 </div>

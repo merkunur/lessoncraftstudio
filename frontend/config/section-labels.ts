@@ -562,6 +562,16 @@ const labels: Record<string, Record<string, string>> = {
     no: 'Skaff pakken',
     fi: 'Hanki paketti',
   },
+  readMore: {
+    en: 'Read more', de: 'Mehr lesen', fr: 'Lire la suite', es: 'Leer m\u00e1s',
+    pt: 'Ler mais', it: 'Leggi di pi\u00f9', nl: 'Lees meer', sv: 'L\u00e4s mer',
+    da: 'L\u00e6s mere', no: 'Les mer', fi: 'Lue lis\u00e4\u00e4',
+  },
+  readLess: {
+    en: 'Read less', de: 'Weniger lesen', fr: 'Lire moins', es: 'Leer menos',
+    pt: 'Ler menos', it: 'Leggi meno', nl: 'Lees minder', sv: 'L\u00e4s mindre',
+    da: 'L\u00e6s mindre', no: 'Les mindre', fi: 'Lue v\u00e4hemm\u00e4n',
+  },
   ctaExploreIdeas: {
     en: 'Explore Niche Ideas',
     de: 'Nischen-Ideen entdecken',

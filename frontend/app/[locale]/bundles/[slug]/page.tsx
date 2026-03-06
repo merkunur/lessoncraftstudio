@@ -15,6 +15,7 @@ import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
+import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -189,7 +190,7 @@ export default async function BundlePage({
                 {content.appsIncluded.map((app, i) => (
                   <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
                     <h3 className="font-semibold text-gray-900">{app.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{app.description}</p>
+                    <ReadMoreText text={app.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </div>
                 ))}
               </div>
@@ -244,7 +245,7 @@ export default async function BundlePage({
                     </svg>
                     <div>
                       <h3 className="font-semibold text-gray-900">{benefit.title}</h3>
-                      <p className="text-gray-600 text-sm mt-1">{benefit.description}</p>
+                      <ReadMoreText text={benefit.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                     </div>
                   </div>
                 ))}
@@ -322,7 +323,7 @@ export default async function BundlePage({
                 {content.businessUseCases.map((uc, i) => (
                   <div key={i} className="p-5 bg-white border border-gray-200 rounded-lg">
                     <h3 className="font-semibold text-gray-900 mb-2">{uc.title}</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed">{uc.description}</p>
+                    <ReadMoreText text={uc.description} locale={locale} className="text-gray-700 text-sm leading-relaxed" />
                     {uc.platform && (
                       <span className="inline-block mt-2 text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{uc.platform}</span>
                     )}
@@ -346,7 +347,7 @@ export default async function BundlePage({
                     </svg>
                     <div>
                       <h3 className="font-semibold text-gray-900">{persona.title}</h3>
-                      <p className="text-gray-600 text-sm mt-1">{persona.description}</p>
+                      <ReadMoreText text={persona.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                     </div>
                   </div>
                 ))}

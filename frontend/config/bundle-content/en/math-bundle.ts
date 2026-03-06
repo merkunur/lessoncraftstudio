@@ -90,7 +90,7 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: 'Etsy Math Worksheet Shop',
-      description: 'Create a complete Etsy shop around math printables. List addition packs, subtraction bundles, comparison worksheets, and puzzle collections as separate products. The bundle gives you six product categories from day one — enough to fill a storefront that buyers take seriously. Use the 100+ themed image sets to create seasonal listings: back-to-school animal math, holiday-themed subtraction, spring garden addition. Each theme variation becomes a separate listing that captures different search traffic.',
+      description: 'Create a complete Etsy shop around math printables. List addition packs, subtraction bundles, comparison worksheets, and puzzle collections as separate products. The bundle gives you six product categories from day one — enough to fill a storefront that buyers take seriously. Use the 100+ themed image sets to create seasonal listings: back-to-school animal math, holiday-themed subtraction, spring garden addition. Each theme variation becomes a separate listing that captures different search traffic. Etsy rewards shops with deep catalogs in a focused niche, and the math bundle gives you the tools to create dozens of distinct product listings without switching between separate generators. Seasonal refreshes using different image themes keep your shop appearing active in search results, which Etsy algorithms favor over dormant shops with static inventory.',
       platform: 'Etsy',
     },
     {
@@ -105,11 +105,11 @@ const content: BundleContent = {
     },
     {
       title: 'Tutoring and Homeschool Materials',
-      description: 'Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so students never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for younger learners and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle.',
+      description: 'Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so students never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for younger learners and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple students can generate personalized worksheet sets tailored to each learner\u2019s current skill level and interests, creating a differentiated instruction approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math instruction.',
     },
     {
       title: 'Classroom Supplement Sales',
-      description: 'Schools and districts purchase supplemental math materials in bulk. Create grade-aligned worksheet packs and offer them directly through your website or educational marketplace. The commercial license lets you sell to institutions without per-copy restrictions. Package worksheets from all six generators into comprehensive grade-level kits that cover the full scope of elementary math standards.',
+      description: 'Schools and districts purchase supplemental math materials in bulk. Create grade-aligned worksheet packs and offer them directly through your website or educational marketplace. The commercial license lets you sell to institutions without per-copy restrictions. Package worksheets from all six generators into comprehensive grade-level kits that cover the full scope of elementary math standards. District-level sales are particularly lucrative because a single purchase decision can cover multiple classrooms and grade levels, generating significantly higher revenue per transaction than individual consumer sales. The six generators in this bundle provide enough variety to create complete kindergarten through third grade math supplement packages that schools can adopt as standard supplementary materials.',
     },
     {
       title: 'International Market Expansion',
@@ -133,11 +133,11 @@ const content: BundleContent = {
   whoIsThisFor: [
     {
       title: 'Etsy and KDP Printable Sellers',
-      description: 'You sell digital downloads on Etsy or publish workbooks on Amazon KDP and want a fast, reliable way to produce professional math worksheets at scale. The bundle gives you six generators and hundreds of theme combinations to build a diverse product catalog without design skills or expensive software. Create new listings in minutes rather than hours and keep your shop stocked with fresh, seasonal content year-round.',
+      description: 'You sell digital downloads on Etsy or publish workbooks on Amazon KDP and want a fast, reliable way to produce professional math worksheets at scale. The bundle gives you six generators and hundreds of theme combinations to build a diverse product catalog without design skills or expensive software. Create new listings in minutes rather than hours and keep your shop stocked with fresh, seasonal content year-round. The six-generator approach means you never hit a creative wall — when one generator has produced enough addition worksheets for your catalog, switch to subtraction, puzzles, or comparison activities and create entirely new product listings with minimal effort. Seasonal theme rotations using the built-in image library let you refresh your shop appearance monthly without creating products from scratch.',
     },
     {
       title: 'Teachers Pay Teachers Authors',
-      description: 'You create and sell educational resources on TpT and need tools that match the platform expectations. Each generator produces curriculum-aligned worksheets with automatic answer keys and multiple difficulty settings — exactly what TpT reviewers and buyers expect from premium math resources. The four difficulty levels per generator make it easy to create differentiated instruction packs that teachers search for by grade level and skill.',
+      description: 'You create and sell educational resources on TpT and need tools that match the platform expectations. Each generator produces curriculum-aligned worksheets with automatic answer keys and multiple difficulty settings — exactly what TpT reviewers and buyers expect from premium math resources. The four difficulty levels per generator make it easy to create differentiated instruction packs that teachers search for by grade level and skill. TpT buyers expect polished, ready-to-use classroom materials with consistent visual presentation across a product line — the shared design engine across all six generators ensures your math resources maintain a cohesive professional appearance that builds brand credibility and earns repeat purchases from teachers who trust your quality standards.',
     },
     {
       title: 'Tutors and Homeschool Parents',
@@ -145,7 +145,7 @@ const content: BundleContent = {
     },
     {
       title: 'Educational Content Creators',
-      description: 'You produce content for blogs, YouTube channels, or social media accounts focused on education. Use the generators to create sample worksheets for tutorials, lead magnets, or downloadable resources that drive traffic to your paid products. The free trial with watermark lets you showcase worksheet quality in your content before committing to a license.',
+      description: 'You produce content for blogs, YouTube channels, or social media accounts focused on education. Use the generators to create sample worksheets for tutorials, lead magnets, or downloadable resources that drive traffic to your paid products. The free trial with watermark lets you showcase worksheet quality in your content before committing to a license. Content creators who demonstrate worksheet generation in tutorial videos find that live creation demonstrations generate strong viewer engagement and drive direct conversions to their printable product shops. The six generators provide enough variety to create an entire series of math content — one video per generator — building a content library that continues driving traffic to your products long after publication.',
     },
   ],
 
@@ -185,6 +185,14 @@ const content: BundleContent = {
     {
       question: 'Do I need design software to use these generators?',
       answer: 'No. The generators run entirely in your browser with no installation, plugins, or accounts required. You configure settings in the sidebar, preview the result in real time on the canvas, and download finished files directly. No Photoshop, Canva, InDesign, or any other software is needed. The built-in border library, background options, and layout controls handle all the design work for you.',
+    },
+    {
+      question: 'How long does it take to create a complete math product line with this bundle?',
+      answer: 'Most sellers build their initial math product catalog within a single weekend using the bundle. Each generator produces a finished, print-ready worksheet with answer key in under a minute. A typical production session involves selecting a theme, configuring difficulty settings, and generating a batch of ten to twenty worksheets that become a themed product listing. With six generators, you can create six to twelve distinct product listings in a single day — enough to launch a credible math printable shop on Etsy or TPT. Experienced sellers report that after learning the interface during their first session, they can produce a complete themed math bundle containing worksheets from all six generators in under two hours. The time savings compared to manual design in graphic software is dramatic because the generators handle layout, answer key generation, and visual design automatically.',
+    },
+    {
+      question: 'Can I upgrade from Commercial to Full Access later?',
+      answer: 'The Commercial and Full Access tiers are separate purchase options. If you start with Commercial and later want access to all 104 themed image sets and all 11 interface languages, you would purchase the Full Access tier. We recommend starting with the free trial to evaluate all six generators thoroughly before choosing your tier. The free trial includes full functionality with all 104 themes and all languages — the only difference is a watermark on downloaded files. This lets you test the complete Full Access experience before deciding which tier matches your business needs. Many sellers start with Commercial for English-market products and upgrade to Full Access when they are ready to expand into multilingual markets or need the complete themed image library for maximum product variety.',
     },
     {
       question: 'What is the refund policy for commercial licenses?',

@@ -9,18 +9,18 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 
 // Guide display info
 const guideInfo: Record<string, { title: string; description: string }> = {
-  'start-printable-business': { title: 'How to Start a Printable Business', description: 'Complete guide to launching a profitable printable business from scratch.' },
-  'sell-printables-etsy': { title: 'How to Sell Printables on Etsy', description: 'Step-by-step guide to creating and selling printable products on Etsy.' },
-  'sell-worksheets-tpt': { title: 'How to Sell on Teachers Pay Teachers', description: 'Guide to building a successful TPT shop with worksheet products.' },
+  'complete-guide-printable-business': { title: 'Complete Guide to Printable Business', description: 'Everything you need to launch and grow a profitable printable business from scratch.' },
+  'create-worksheets-that-sell': { title: 'Create Worksheets That Sell', description: 'Design tips and strategies for creating professional, sellable worksheets.' },
+  'printable-business-blueprint': { title: 'Printable Business Blueprint', description: 'Step-by-step blueprint for building a successful printable product business.' },
+  'etsy-printable-business': { title: 'Etsy Printable Business', description: 'How to create and sell printable products on Etsy for consistent income.' },
   'amazon-kdp-activity-books': { title: 'Amazon KDP Activity Books', description: 'How to create and publish activity books on Amazon KDP.' },
-  'printable-business-tools': { title: 'Essential Printable Business Tools', description: 'The tools and resources you need to run a printable business.' },
-  'pricing-printables': { title: 'How to Price Your Printables', description: 'Pricing strategies for digital downloads across different platforms.' },
+  'create-multilingual-worksheets': { title: 'Create Multilingual Worksheets', description: 'How to reach international customers with multi-language printable products.' },
   'commercial-license-guide': { title: 'Commercial License Guide', description: 'Understanding commercial licenses for printable products.' },
-  'printable-niches': { title: 'Most Profitable Printable Niches', description: 'Research-backed guide to the most profitable printable niches.' },
-  'worksheet-design-tips': { title: 'Worksheet Design Best Practices', description: 'Design tips for creating professional, sellable worksheets.' },
-  'multilingual-printables': { title: 'Selling Multilingual Printables', description: 'How to reach international customers with multi-language products.' },
-  'passive-income-printables': { title: 'Passive Income with Printables', description: 'Building passive income streams with digital printable products.' },
-  'printable-marketing': { title: 'Marketing Your Printable Business', description: 'Marketing strategies to grow your printable product sales.' },
+  'printable-business-income': { title: 'Printable Business Income', description: 'Building reliable income streams with digital printable products.' },
+  'tools-for-printable-business': { title: 'Tools for Printable Business', description: 'The essential tools and resources you need to run a printable business.' },
+  'marketing-printable-business': { title: 'Marketing Your Printable Business', description: 'Marketing strategies to grow your printable product sales.' },
+  'scaling-printable-business': { title: 'Scaling Your Printable Business', description: 'How to scale from side hustle to full-time printable business.' },
+  'printable-business-legal': { title: 'Printable Business Legal Guide', description: 'Legal essentials for running a printable business — licenses, taxes, and compliance.' },
 };
 
 export const revalidate = 3600;

@@ -11,23 +11,13 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 // Subcategories for niche ideas
 const ideaSubcategories = [
   {
-    id: 'age',
-    labelKey: 'byAgeGroup',
-    description: 'Printable niches organized by target age group',
+    id: 'animals',
+    labelKey: 'byTheme',
+    description: 'Animal and nature themed printable niches',
     ideaIds: new Set([
-      'toddler-printable-ideas', 'preschool-printable-ideas', 'kindergarten-printable-ideas',
-      'first-grade-printable-ideas', 'second-grade-printable-ideas', 'third-grade-printable-ideas',
-      'middle-school-printable-ideas', 'adult-printable-ideas', 'senior-printable-ideas',
-    ]),
-  },
-  {
-    id: 'subject',
-    labelKey: 'bySubject',
-    description: 'Printable niches organized by educational subject',
-    ideaIds: new Set([
-      'math-printable-ideas', 'reading-printable-ideas', 'science-printable-ideas',
-      'social-studies-printable-ideas', 'art-printable-ideas', 'music-printable-ideas',
-      'foreign-language-printable-ideas', 'life-skills-printable-ideas', 'stem-printable-ideas',
+      'farm-animals-printable-ideas', 'ocean-animals-printable-ideas', 'safari-animals-printable-ideas',
+      'pets-printable-ideas', 'dinosaur-printable-ideas', 'birds-printable-ideas',
+      'insects-printable-ideas', 'forest-animals-printable-ideas',
     ]),
   },
   {
@@ -35,29 +25,42 @@ const ideaSubcategories = [
     labelKey: 'bySeasonHoliday',
     description: 'Seasonal and holiday-themed printable niches',
     ideaIds: new Set([
-      'back-to-school-printable-ideas', 'halloween-printable-ideas', 'christmas-printable-ideas',
-      'valentines-day-printable-ideas', 'easter-printable-ideas', 'summer-printable-ideas',
-      'thanksgiving-printable-ideas', 'new-year-printable-ideas', 'mothers-day-printable-ideas',
+      'christmas-printable-ideas', 'halloween-printable-ideas', 'easter-printable-ideas',
+      'valentines-day-printable-ideas', 'back-to-school-printable-ideas', 'summer-printable-ideas',
+      'winter-printable-ideas', 'spring-printable-ideas', 'thanksgiving-printable-ideas',
+      'parents-day-printable-ideas',
     ]),
   },
   {
-    id: 'theme',
-    labelKey: 'byTheme',
-    description: 'Popular themes for printable products',
+    id: 'interests',
+    labelKey: 'bySubject',
+    description: 'Interest and activity based printable niches',
     ideaIds: new Set([
-      'animal-printable-ideas', 'dinosaur-printable-ideas', 'space-printable-ideas',
-      'ocean-printable-ideas', 'farm-printable-ideas', 'unicorn-printable-ideas',
-      'superhero-printable-ideas', 'princess-printable-ideas', 'sports-printable-ideas',
+      'space-printable-ideas', 'transportation-printable-ideas', 'food-cooking-printable-ideas',
+      'sports-printable-ideas', 'music-printable-ideas', 'construction-printable-ideas',
+      'pirates-printable-ideas', 'fairy-tale-printable-ideas', 'camping-printable-ideas',
+      'underwater-printable-ideas',
     ]),
   },
   {
-    id: 'format',
+    id: 'education',
+    labelKey: 'byAgeGroup',
+    description: 'Educational focus and grade-level printable niches',
+    ideaIds: new Set([
+      'preschool-printable-ideas', 'kindergarten-printable-ideas', 'first-grade-printable-ideas',
+      'second-grade-printable-ideas', 'third-grade-printable-ideas', 'homeschool-printable-ideas',
+      'special-education-printable-ideas', 'esl-printable-ideas', 'summer-learning-printable-ideas',
+      'math-facts-printable-ideas',
+    ]),
+  },
+  {
+    id: 'business',
     labelKey: 'byProductFormat',
-    description: 'Different printable product formats and types',
+    description: 'Business model and product format niches',
     ideaIds: new Set([
-      'worksheet-bundle-ideas', 'activity-book-ideas', 'flashcard-ideas',
-      'poster-printable-ideas', 'planner-printable-ideas', 'game-printable-ideas',
-      'craft-printable-ideas', 'journal-printable-ideas', 'calendar-printable-ideas',
+      'subscription-box-printable-ideas', 'print-on-demand-printable-ideas', 'digital-download-printable-ideas',
+      'physical-printable-product-ideas', 'party-supply-printable-ideas', 'custom-worksheet-service-ideas',
+      'bulk-licensing-printable-ideas',
     ]),
   },
 ];

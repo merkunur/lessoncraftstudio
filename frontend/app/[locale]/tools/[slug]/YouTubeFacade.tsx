@@ -30,6 +30,12 @@ export default function YouTubeFacade({ youtubeId, title }: { youtubeId: string;
             alt={title}
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"
+            onError={(e) => {
+              const img = e.currentTarget;
+              if (!img.src.includes('hqdefault')) {
+                img.src = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
+              }
+            }}
           />
           <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors" />
           <div className="absolute inset-0 flex items-center justify-center">

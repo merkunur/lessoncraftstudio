@@ -38,6 +38,12 @@ export default function VideoFacade({
         alt={title}
         className="absolute inset-0 w-full h-full object-cover"
         loading="lazy"
+        onError={(e) => {
+          const img = e.currentTarget;
+          if (!img.src.includes('hqdefault')) {
+            img.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+          }
+        }}
       />
       <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors flex items-center justify-center">
         <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">

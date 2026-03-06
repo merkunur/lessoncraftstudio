@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   getBundleConfigBySlug,
@@ -105,12 +106,13 @@ export default async function BundlePage({
             {/* Hero Image */}
             {content.visuals?.heroImages?.primary && (
               <div className="rounded-xl overflow-hidden shadow-lg">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={content.visuals.heroImages.primary}
                   alt={content.visuals.heroImages.primaryAlt}
+                  width={800}
+                  height={600}
                   className="w-full h-auto"
-                  loading="eager"
+                  priority
                 />
               </div>
             )}
@@ -208,10 +210,11 @@ export default async function BundlePage({
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {content.visuals.sampleGallery.map((sample, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                    <Image
                       src={sample.src}
                       alt={sample.alt}
+                      width={400}
+                      height={300}
                       className="w-full h-auto"
                       loading="lazy"
                     />

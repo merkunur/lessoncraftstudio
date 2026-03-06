@@ -253,8 +253,8 @@ function validateFile(filePath) {
     errors.push('Missing free trial mention (Section 1.12.2)');
   }
 
-  // 8. YouTube ID
-  if (!hasYoutubeId(content)) {
+  // 8. YouTube ID (not applicable to niche-ideas pages)
+  if (contentType !== 'niche-ideas' && !hasYoutubeId(content)) {
     errors.push('Missing youtubeId');
   }
 

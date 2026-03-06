@@ -9,7 +9,7 @@ import {
   getStartSlugForLocale,
 } from '@/config/start-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
@@ -77,8 +77,43 @@ export default async function CornerstonePage({
   const content = await getStartContent(config.startId, locale);
 
   if (content) {
+    const localeSlug = getStartSlugForLocale(config.startId, locale);
+    const pageUrl = `${baseUrl}/${locale}/start/${localeSlug || slug}`;
+
+    const articleSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      '@id': `${pageUrl}#article`,
+      headline: content.hero.title,
+      description: content.hero.description,
+      url: pageUrl,
+      inLanguage: getHreflangCode(locale),
+      publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
+      author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
+    };
+
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: localizedHomeLabel[locale] || 'Home', item: `${baseUrl}/${locale}` },
+        { '@type': 'ListItem', position: 2, name: getSectionLabel('businessStrategyGuides', locale), item: `${baseUrl}/${locale}/start` },
+        { '@type': 'ListItem', position: 3, name: content.hero.title },
+      ],
+    };
+
+    const schemas: object[] = [articleSchema, breadcrumbSchema];
+    if (content.faq?.length) {
+      schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
+    }
+
     return (
       <div className="min-h-screen bg-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+        />
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

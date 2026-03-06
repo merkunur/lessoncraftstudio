@@ -9,7 +9,7 @@ import {
   getGuideSlugForLocale,
 } from '@/config/guide-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getGuideContent } from '@/config/guide-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
@@ -77,8 +77,49 @@ export default async function GuidePage({
   const content = await getGuideContent(config.guideId, locale);
 
   if (content) {
+    const localeSlug = getGuideSlugForLocale(config.guideId, locale);
+    const pageUrl = `${baseUrl}/${locale}/guides/${localeSlug || slug}`;
+
+    const howToSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      '@id': `${pageUrl}#howto`,
+      name: content.hero.title,
+      description: content.hero.description,
+      url: pageUrl,
+      inLanguage: getHreflangCode(locale),
+      ...(content.tutorial?.length && {
+        step: content.tutorial.map((s, i) => ({
+          '@type': 'HowToStep',
+          position: i + 1,
+          name: s.heading,
+          text: s.content,
+        })),
+      }),
+    };
+
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: localizedHomeLabel[locale] || 'Home', item: `${baseUrl}/${locale}` },
+        { '@type': 'ListItem', position: 2, name: getSectionLabel('platformGuides', locale), item: `${baseUrl}/${locale}/guides` },
+        { '@type': 'ListItem', position: 3, name: content.hero.title },
+      ],
+    };
+
+    const schemas: object[] = [howToSchema, breadcrumbSchema];
+    if (content.faq?.length) {
+      schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
+    }
+
     return (
       <div className="min-h-screen bg-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+        />
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-emerald-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

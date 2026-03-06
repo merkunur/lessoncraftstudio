@@ -11,7 +11,7 @@ import {
   bundlePageSlugs,
 } from '@/config/bundle-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
@@ -93,8 +93,49 @@ export default async function BundlePage({
   const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
 
   if (content) {
+    const localeSlug = getBundleSlugForLocale(bundleConfig.bundleId, locale);
+    const pageUrl = `${baseUrl}/${locale}/bundles/${localeSlug || slug}`;
+
+    const productSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      '@id': `${pageUrl}#product`,
+      name: content.hero.title,
+      description: content.hero.description,
+      url: pageUrl,
+      brand: { '@type': 'Organization', name: 'LessonCraftStudio' },
+      offers: {
+        '@type': 'AggregateOffer',
+        lowPrice: '79',
+        highPrice: '119',
+        priceCurrency: 'USD',
+        offerCount: 2,
+        availability: 'https://schema.org/InStock',
+      },
+    };
+
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      '@id': `${pageUrl}#breadcrumb`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: localizedHomeLabel[locale] || 'Home', item: `${baseUrl}/${locale}` },
+        { '@type': 'ListItem', position: 2, name: getSectionLabel('whatsIncluded', locale), item: `${baseUrl}/${locale}/bundles` },
+        { '@type': 'ListItem', position: 3, name: content.hero.title },
+      ],
+    };
+
+    const schemas: object[] = [productSchema, breadcrumbSchema];
+    if (content.faq?.length) {
+      schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
+    }
+
     return (
       <div className="min-h-screen bg-gray-50">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+        />
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">

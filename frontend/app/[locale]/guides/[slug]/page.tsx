@@ -93,19 +93,19 @@ export default async function GuidePage({
         </section>
 
         {/* Tutorial Steps */}
-        {content.tutorial && content.tutorial.steps.length > 0 && (
+        {content.tutorial && content.tutorial.length > 0 && (
           <article className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{content.tutorial.title}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">Tutorial</h2>
               <div className="space-y-8">
-                {content.tutorial.steps.map((step, i) => (
+                {content.tutorial.map((step, i) => (
                   <div key={i} className="flex gap-4">
                     <div className="flex-shrink-0 w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
                       {i + 1}
                     </div>
                     <div className="flex-1">
-                      <h2 className="text-xl font-bold text-gray-900 mb-2">{step.title}</h2>
-                      <p className="text-gray-700 leading-relaxed">{step.description}</p>
+                      <h2 className="text-xl font-bold text-gray-900 mb-2">{step.heading}</h2>
+                      <p className="text-gray-700 leading-relaxed">{step.content}</p>
                     </div>
                   </div>
                 ))}

@@ -20,4 +20,5 @@ export interface StartContent {
     youtubeId: string;
     videoTitle: string;
   };
+  themeImages?: { src: string; alt: string; caption?: string }[];
 }

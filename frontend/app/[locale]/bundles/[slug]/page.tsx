@@ -294,6 +294,32 @@ export default async function BundlePage({
           </section>
         )}
 
+        {/* Theme Images */}
+        {content.themeImages && content.themeImages.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('themeImages', locale)}</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                {content.themeImages.map((img, i) => (
+                  <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      width={200}
+                      height={200}
+                      className="w-full h-auto"
+                      loading="lazy"
+                    />
+                    {img.caption && (
+                      <figcaption className="p-2 text-xs text-gray-600 text-center">{img.caption}</figcaption>
+                    )}
+                  </figure>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Business Use Cases */}
         {content.businessUseCases && content.businessUseCases.length > 0 && (
           <section className="py-12 md:py-16">

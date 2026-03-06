@@ -6,4 +6,5 @@ export interface IdeaContent {
   platformTips?: { platform: string; title: string; description: string }[];
   faq?: { question: string; answer: string }[];
   internalLinks?: { pageType: string; slug: string; anchorText: string }[];
+  themeImages?: { src: string; alt: string; caption?: string }[];
 }

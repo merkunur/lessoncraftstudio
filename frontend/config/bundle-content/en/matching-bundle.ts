@@ -217,6 +217,16 @@ const content: BundleContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matching & Sorting Bundle — See All 5 Generators in Action',
   },
+  themeImages: [
+    { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog - themed educational image', caption: 'Dog' },
+    { src: '/image-library/animals/elephant.webp', alt: 'Elephant - themed educational image', caption: 'Elephant' },
+    { src: '/image-library/animals/fox.webp', alt: 'Fox - themed educational image', caption: 'Fox' },
+    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
+    { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
+    { src: '/image-library/animals/panda.webp', alt: 'Panda - themed educational image', caption: 'Panda' },
+    { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit - themed educational image', caption: 'Rabbit' },
+  ],
 };
 
 export default content;

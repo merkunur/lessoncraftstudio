@@ -22,4 +22,5 @@ export interface GuideContent {
     youtubeId: string;
     videoTitle: string;
   };
+  themeImages?: { src: string; alt: string; caption?: string }[];
 }

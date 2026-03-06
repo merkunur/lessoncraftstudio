@@ -166,6 +166,14 @@ The niche is significantly underserved relative to its size because the vast maj
       anchorText: 'Special Education Printable Business Ideas',
     },
   ],
+  themeImages: [
+    { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog - themed educational image', caption: 'Dog' },
+    { src: '/image-library/animals/elephant.webp', alt: 'Elephant - themed educational image', caption: 'Elephant' },
+    { src: '/image-library/animals/fox.webp', alt: 'Fox - themed educational image', caption: 'Fox' },
+    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
+    { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
+  ],
 };
 
 export default content;

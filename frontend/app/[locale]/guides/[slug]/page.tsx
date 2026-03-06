@@ -122,9 +122,8 @@ export default async function GuidePage({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {content.platformTips.map((tip, i) => (
                   <div key={i} className="p-4 bg-white rounded-lg border border-gray-200">
-                    <span className="text-xs font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">{tip.platform}</span>
-                    <h3 className="font-semibold text-gray-900 mt-2">{tip.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{tip.description}</p>
+                    <h3 className="font-semibold text-gray-900">{tip.heading}</h3>
+                    <p className="text-gray-600 text-sm mt-1">{tip.content}</p>
                   </div>
                 ))}
               </div>
@@ -140,8 +139,8 @@ export default async function GuidePage({
               <div className="space-y-4">
                 {content.monetization.map((strategy, i) => (
                   <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
-                    <h3 className="font-semibold text-gray-900">{strategy.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{strategy.description}</p>
+                    <h3 className="font-semibold text-gray-900">{strategy.heading}</h3>
+                    <p className="text-gray-600 text-sm mt-1">{strategy.content}</p>
                   </div>
                 ))}
               </div>

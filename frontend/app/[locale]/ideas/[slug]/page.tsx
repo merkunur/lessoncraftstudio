@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
 import {
   getIdeaConfigBySlug,
   getAllIdeaPageSlugs,
@@ -202,11 +201,9 @@ export default async function IdeaPage({
                   <div key={i} className="p-5 bg-white rounded-lg border border-gray-200 flex gap-4">
                     {appHeroImages[idea.appId] && (
                       <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden bg-gray-100">
-                        <Image
+                        <img
                           src={appHeroImages[idea.appId]}
                           alt={idea.title}
-                          width={80}
-                          height={80}
                           className="w-full h-full object-cover"
                           loading="lazy"
                         />
@@ -234,11 +231,9 @@ export default async function IdeaPage({
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                 {content.themeImages.map((img, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
-                    <Image
+                    <img
                       src={img.src}
                       alt={img.alt}
-                      width={200}
-                      height={200}
                       className="w-full h-auto"
                       loading="lazy"
                     />

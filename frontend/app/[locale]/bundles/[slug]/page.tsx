@@ -402,13 +402,13 @@ export default async function BundlePage({
         <div className="container mx-auto px-4 text-center max-w-2xl">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">{name}</h1>
           <p className="text-gray-600 mb-8">
-            Get all generators in this category at a bundled price.
+            {getSectionLabel('bundleFallbackDesc', locale)}
           </p>
           <Link
             href={`/${locale}/apps`}
             className="text-indigo-600 hover:text-indigo-700 font-medium"
           >
-            Browse All Generators
+            {getSectionLabel('ctaBrowseAll', locale)}
           </Link>
         </div>
       </section>

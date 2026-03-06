@@ -118,7 +118,7 @@ export default async function CornerstonePage({
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">
             <nav className="text-sm text-gray-500 mb-4">
-              <Link href={`/${locale}/start`} className="hover:text-indigo-600">Guides</Link>
+              <Link href={`/${locale}/start`} className="hover:text-indigo-600">{getSectionLabel('gettingStarted', locale)}</Link>
               <span className="mx-2">/</span>
               <span className="text-gray-700">{content.hero.title}</span>
             </nav>
@@ -358,10 +358,10 @@ export default async function CornerstonePage({
     <div className="min-h-screen bg-gray-50">
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 text-center max-w-2xl">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Guide</h1>
-          <p className="text-gray-600 mb-8">This guide is coming soon.</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">{getSectionLabel('gettingStarted', locale)}</h1>
+          <p className="text-gray-600 mb-8">{getSectionLabel('comingSoon', locale)}</p>
           <Link href={`/${locale}/start`} className="text-indigo-600 hover:text-indigo-700 font-medium">
-            Browse All Guides
+            {getSectionLabel('ctaBrowseAll', locale)}
           </Link>
         </div>
       </section>

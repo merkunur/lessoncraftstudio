@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'This depends entirely on the specific license terms. Some licenses grant commercial rights to output in any language, while others may restrict commercial use to specific languages or regions. If you plan to create multi-language versions of your products \u2014 which is one of the most effective revenue multiplication strategies \u2014 verify that your commercial license covers output in all languages you plan to use. The LessonCraft Studio generators support 11 languages, and the commercial licenses cover output in all supported languages without additional fees or restrictions.',
     },
     {
-      question: 'What is the refund policy if I purchase a commercial license and the tool does not meet my needs?',
-      answer: 'Refund policies vary by provider and platform. Before purchasing any commercial license, review both the provider\u2019s refund policy and the selling platform\u2019s buyer protection terms. Many digital product sellers offer limited refund windows (typically 7 to 30 days) for commercial license purchases. The best way to avoid needing a refund is to thoroughly evaluate the tool before purchasing. The LessonCraft Studio generators offer a free trial with watermark that lets you test every feature and evaluate output quality before committing to a commercial license purchase. Using the free trial with watermark ensures you know exactly what you are buying before investing in a commercial license.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

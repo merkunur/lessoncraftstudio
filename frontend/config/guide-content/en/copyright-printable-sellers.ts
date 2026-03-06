@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Most fonts come with license terms that specify permitted uses, and a basic desktop license typically does not cover embedding fonts in commercial products for distribution. Many no-cost fonts include restrictions on commercial use. Before using any font in worksheets you sell, check the font\u2019s license to confirm it permits commercial embedding in digital products. Google Fonts are generally safe for commercial use, including embedding in PDFs. System fonts vary by operating system. When in doubt, use fonts with explicit open licenses or purchase a commercial embedding license. Font licensing may seem like a minor detail, but using improperly licensed fonts in thousands of commercial products creates real legal exposure.',
     },
     {
-      question: 'What is the refund policy for worksheet generator tools?',
-      answer: 'Worksheet generator refund policies vary by platform and seller. When evaluating any worksheet generator tool, check the specific refund policy before purchasing. Many generators offer the ability to try the tool as a free trial with watermark before committing to a commercial license purchase. This try-before-you-buy approach lets you evaluate the output quality, available features, and suitability for your needs before any financial commitment. If the generator\u2019s output meets your standards during the trial, you can purchase with confidence knowing the tool produces the results you expect.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'The percentage depends on your growth phase and personal circumstances, but the priority order matters more than the amount. Reinvest in production capacity first (additional generator licenses and category bundles), platform optimization tools second, design improvements third, and paid advertising last. Only advertise products that have already demonstrated organic sales. Even modest reinvestment compounds significantly when directed at the right priorities.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully test all features, themes, and output quality before purchasing. We encourage thorough testing during the trial period to confirm the generators meet your production needs. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

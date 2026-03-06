@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'Upload PDF files as your primary deliverable \u2014 PDF is the standard format buyers expect for printable products. Each generator also produces high-resolution JPEG files, which you can include as bonus formats. Etsy allows up to five digital files per listing, so you can include both US Letter and A4 versions.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully evaluate the product and create sample worksheets before purchasing a commercial license. We encourage thorough testing during the trial period. Refund requests after purchase are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

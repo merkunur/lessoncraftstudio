@@ -187,8 +187,8 @@ const content: BundleContent = {
       answer: 'No. The generators run entirely in your browser with no installation, plugins, or accounts required. You configure settings in the sidebar, preview the result in real time on the canvas, and download finished files directly. No Photoshop, Canva, InDesign, or any other software is needed. The built-in border library, background options, and layout controls handle all the design work for you.',
     },
     {
-      question: 'What is the refund policy?',
-      answer: 'Digital products are eligible for a refund within 30 days of purchase if you experience technical issues that prevent you from using the generators. Since every generator offers a free trial with watermark before purchase, we encourage you to test all six generators thoroughly before buying. The free trial includes full functionality — the only difference is a watermark on downloaded files.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

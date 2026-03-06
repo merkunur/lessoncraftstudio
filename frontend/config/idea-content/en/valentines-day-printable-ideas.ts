@@ -123,8 +123,8 @@ To capture maximum Valentine revenue, develop products across multiple sub-theme
       answer: 'Worksheet generator tools dramatically reduce production time compared to manual design in graphic editors, which is especially valuable for the Valentine niche where you need a complete catalog published before the early January early-bird window opens. Select a generator matching your target activity type, choose Valentine themes and love-themed vocabulary, customize difficulty settings for your target age group, and generate professional worksheets ready for sale. Our generators offer a free trial with watermark so you can evaluate the output quality before purchasing a commercial license. With a commercial license, you can create unlimited Valentine worksheets across all our generator tools and sell them on any platform. Most sellers find they can build a complete February product line covering multiple sub-themes and age groups in a fraction of the time manual design would require, leaving more time for marketing, listing optimization, and expanding into complementary seasonal niches.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'We offer a 30-day money-back guarantee on all worksheet generator licenses. If you are not satisfied with the tools for any reason, contact our support team within 30 days of purchase for a full refund. This applies to both individual app licenses and bundle purchases. We want you to feel confident investing in tools for your printable business, so there is no risk in trying our generators to see if they fit your workflow and product creation needs.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

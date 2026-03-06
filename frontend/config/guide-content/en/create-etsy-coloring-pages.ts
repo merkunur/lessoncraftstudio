@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Use all 13 available tag slots with multi-word phrases that match actual buyer search queries. Effective tag patterns for coloring pages include: "[theme] coloring pages" (e.g., "animal coloring pages"), "printable coloring sheets," "[demographic] coloring activity" (e.g., "kids coloring activity"), "[use case] coloring pages" (e.g., "classroom coloring pages"), "[season] coloring printable" (e.g., "Christmas coloring printable"), "digital download coloring," and "coloring book pages." Avoid single-word tags like "coloring" or "printable" since they are too broad to rank competitively. Each tag should be a phrase of 2 to 4 words that a real buyer would type into Etsy search.',
     },
     {
-      question: 'What is your refund policy for digital coloring page products?',
-      answer: 'Digital download products, including coloring pages, are generally non-refundable once the buyer has accessed the download. This is standard practice across Etsy for digital products because the buyer receives the complete product instantly. State your refund policy clearly in your shop policies and in each listing description. If a buyer reports a technical issue (corrupted file, wrong format), provide a replacement file promptly \u2014 this resolves most support requests without requiring a refund. Etsy\u2019s seller protection policies support digital sellers who deliver the product as described.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'A niche is likely too competitive for a new entrant when the first page of search results is dominated by products with over 1,000 reviews each, the top sellers have been established for three or more years with extensive product catalogs in that specific niche, and new listings (published in the last six months) rarely appear in the first two pages of results. These conditions indicate that search ranking in the niche is effectively locked by established sellers, making it very difficult for new products to gain visibility regardless of quality. In such niches, consider adjacent variations (more specific sub-niches), different platforms where the competition is less entrenched, or non-English language markets where the same niche typically has far fewer competitors.',
     },
     {
-      question: 'What is the refund policy for worksheet generator products?',
-      answer: 'Digital worksheet products generally experience very low refund rates because buyers can preview product content before purchasing. On marketplaces like Etsy and TPT, preview images and detailed descriptions set clear expectations about what the product contains. When your listing accurately represents the content \u2014 showing actual worksheet pages, specifying the page count, noting the grade level and included features like answer keys \u2014 buyers rarely request refunds because they know what they are purchasing. Maintaining accurate, detailed product listings is the most effective refund prevention strategy, and it also builds the positive review history that strengthens your marketplace position over time.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'Create a lead magnet — a sampler pack of three to five worksheets that demonstrates your product quality. Set up a no-cost email service account and a simple landing page. Mention your email list in your digital download packaging and shop descriptions where platform policies allow. Focus on delivering value in every email so subscribers stay engaged and open your product announcements.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully test all features, themes, and output quality before purchasing. We encourage thorough testing during the trial period to confirm the generators meet your production needs. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -178,8 +178,8 @@ const content: BundleContent = {
       answer: 'There is no limit. Once licensed, you can generate as many worksheets as you want across all four generators. There are no per-download fees, monthly caps, or usage restrictions. With four generators, multiple difficulty levels per generator, 100+ image themes, and 11 language options for the language-sensitive apps, the number of unique products you can create is practically unlimited. Many sellers generate entire themed activity books in a single session.',
     },
     {
-      question: 'What is the refund policy?',
-      answer: 'Digital products are eligible for a refund within 30 days of purchase if you experience technical issues that prevent you from using the generators. Since every generator offers a free trial with watermark before purchase, we encourage you to test all four generators thoroughly before buying. The free trial includes full functionality — the only difference is a watermark on downloaded files.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'Yes. A commercial license allows you to sell your generated worksheets on any platform: Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, or your own website. Each platform has different formatting requirements and audience expectations, so you may need to adapt listings and bundle formats. But the underlying worksheets can be used across all platforms simultaneously.',
     },
     {
-      question: 'What is your refund policy for commercial licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully evaluate the product quality and creation workflow before purchasing. We encourage all buyers to create sample worksheets, test different configurations, and confirm the output meets their business needs during the trial period. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

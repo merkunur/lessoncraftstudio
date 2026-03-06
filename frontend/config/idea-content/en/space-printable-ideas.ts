@@ -123,8 +123,8 @@ To maximize your space printable revenue, develop products across multiple sub-t
       answer: 'Worksheet generator tools dramatically reduce production time compared to manual design in graphic editors, which is especially valuable for building a deep space catalog across multiple sub-themes and skill types. Select a generator matching your target activity type, choose space themes and astronomy-specific vocabulary, customize difficulty settings for your target age group, and generate professional worksheets ready for sale. Our generators offer a free trial with watermark so you can evaluate the output quality before purchasing a commercial license. With a commercial license, you can create unlimited space worksheets across all our generator tools and sell them on any platform. Most sellers find they can build a comprehensive space product line covering planets, rockets, astronauts, and solar system themes across multiple skill areas in a fraction of the time manual design would require, leaving more time for listing optimization, marketing, and expanding into complementary science niches.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'We offer a 30-day money-back guarantee on all worksheet generator licenses. If you are not satisfied with the tools for any reason, contact our support team within 30 days of purchase for a full refund. This applies to both individual app licenses and bundle purchases. We want you to feel confident investing in tools for your printable business, so there is no risk in trying our generators to see if they fit your workflow and product creation needs.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

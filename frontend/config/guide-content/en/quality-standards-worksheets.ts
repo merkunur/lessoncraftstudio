@@ -130,8 +130,8 @@ const content: GuideContent = {
       answer: 'Worksheet generators produce output with consistent resolution, formatting, and layout standards because the technical specifications are built into the generation engine. This eliminates many manual quality variables like inconsistent margins, resolution errors, and font rendering issues. Generators also compute answer keys automatically, reducing the risk of manual calculation errors in math worksheets. You can try any generator as a free trial with watermark to verify the output meets your quality standards before purchasing a license for your production workflow.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your quality standards before committing to a purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

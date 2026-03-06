@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. PDF is the standard format for printable products on Etsy and TpT. JPEG is used for Amazon KDP interior pages and for product thumbnails. Both formats are included with every download.',
     },
     {
-      question: 'What is your refund policy for commercial licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully evaluate the product before purchasing. We encourage all buyers to create sample worksheets during the trial period to ensure the generator meets their needs. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

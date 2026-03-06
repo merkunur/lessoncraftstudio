@@ -130,8 +130,8 @@ const content: GuideContent = {
       answer: 'Worksheet generators are one of the most efficient tools for seasonal variation creation because they allow you to change themes and visual elements without redesigning the underlying educational content or layout structure. A generator that produces math worksheets with themed illustrations can create Halloween, Christmas, spring, and summer versions of the same math content by switching the theme setting. This dramatically reduces per-product creation time for seasonal variations compared to manual design. You can try any worksheet generator as a free trial with watermark to evaluate the output quality and theme options before purchasing a license for your seasonal production workflow.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

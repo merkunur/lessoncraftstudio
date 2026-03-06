@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Reviews are specific to the platform where they are posted and do not directly transfer between marketplaces. Your Etsy reviews have no impact on your Amazon search rankings, and vice versa. This means you need to build review profiles independently on each platform where you sell. However, the product quality and customer service practices that earn positive reviews on one platform will generate similar results on every platform. A well-formatted worksheet with clear instructions and accurate content earns positive reviews regardless of where it is sold. Build your review generation systems (insert pages, follow-up timing, response practices) once and apply them consistently across all platforms.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

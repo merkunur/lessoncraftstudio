@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Yes. The generators offer a free trial with watermark for evaluating the tools. Products created during the free trial include a visible watermark and are intended for personal evaluation only. To sell worksheets commercially on Etsy or any other platform, you need a commercial license that removes the watermark and grants you the right to sell the generated products. Each generator\u2019s product page details the specific license tiers and what commercial rights are included. See the Commercial License Guide for complete details on licensing terms and permitted commercial uses.',
     },
     {
-      question: 'What is Etsy\u2019s refund policy for digital downloads?',
-      answer: 'Etsy\u2019s standard policy states that digital download items are non-refundable because the buyer receives the files immediately upon purchase. However, as a seller, you set your own shop refund policy. Most successful printable sellers state that digital sales are final while emphasizing that they will work to resolve any issues with the product files. If a buyer reports a problem such as a corrupted file or formatting issue, providing a replacement file or store credit typically resolves the situation and prevents a negative review. Etsy can intervene in disputes, so maintaining clear policies and responsive customer service protects your shop.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

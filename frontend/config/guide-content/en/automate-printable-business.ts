@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Products that seem unique usually share more common elements than you realize. Two math worksheets with different themes and difficulty levels still share the same page layout, the same description structure, the same thumbnail format, the same file naming pattern, and the same listing process. Batching does not require products to be identical \u2014 it requires tasks to be similar enough that performing them consecutively builds efficiency. Writing 10 descriptions in a row is faster per description than writing them individually, even if each description covers a different product, because the mental framework for description writing stays active throughout the session. The same applies to thumbnail creation, file processing, and listing creation.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

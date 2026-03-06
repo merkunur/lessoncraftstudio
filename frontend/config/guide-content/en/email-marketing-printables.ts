@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Yes. You can build and operate a complete email marketing system using only your email service provider\u2019s built-in tools. Most providers include a landing page builder for creating opt-in pages (no separate website needed), digital file delivery for sending lead magnets automatically, and email templates for composing broadcasts. Your landing page URL can be linked from your Etsy shop announcement, social media profiles, product inserts, and anywhere else you connect with potential subscribers. When linking to products in your emails, link directly to your Etsy listings. While having your own website provides additional email capture opportunities and direct sales capability, it is not a prerequisite for effective email marketing. Many successful printable sellers build substantial email lists and drive significant Etsy sales entirely through their email provider\u2019s landing pages.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

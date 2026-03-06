@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Build language-specific QA checklists that cover the most common error categories for each language. Run every product through its language checklist before listing. Use multiple verification passes: first check character correctness (diacritical marks, special characters), then check natural language flow (does it sound translated or native?), then check educational accuracy (are instructions clear, is content age-appropriate?). Compare your output against professionally published educational materials in each target language to calibrate your quality standard. Document errors you find and update your checklists to prevent recurrence. Over time, your QA process becomes faster and more reliable as you learn each language\u2019s common pitfalls.',
     },
     {
-      question: 'What is the refund policy impact on multi-language worksheets?',
-      answer: 'Multi-language worksheets experience refund rates comparable to English products when the listing accurately describes the product and clearly indicates the language. The most common refund trigger for multi-language products is a buyer accidentally purchasing the wrong language version because the listing did not make the language sufficiently clear. Prevent this by including the language name in the product title, adding language identification to thumbnail images, and stating the language prominently in the first line of the product description. When buyers know exactly what language they are purchasing, refund rates for digital worksheets typically stay well below 2% regardless of language.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Track three metrics to measure social media\'s sales impact. First, monitor link clicks from your social profiles using the analytics built into each platform (Instagram Insights, Pinterest Analytics). Second, check your marketplace analytics for traffic sources \u2014 Etsy Stats shows visits from social media channels, and you can track which platforms drive the most traffic. Third, note the correlation between social posting and sales: track whether product showcase posts are followed by increased sales of those specific products within 24-48 hours. Over time, these data points reveal which platforms, content types, and posting strategies generate actual revenue versus vanity engagement metrics. Focus your time on the channels and content types that drive measurable shop traffic and sales.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

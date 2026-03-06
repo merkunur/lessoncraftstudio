@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Pinterest differs from social media in three fundamental ways that matter for worksheet sellers. First, Pinterest is a search engine, not a social feed \u2014 content is discovered through keyword searches, not follower timelines, so keyword optimization matters more than follower count. Second, Pinterest content is evergreen \u2014 pins drive traffic for months or years, while Instagram posts and Facebook updates reach maximum audience within 48 hours. Third, Pinterest users have buyer intent \u2014 they search for specific products and ideas to purchase, not to socialize. These differences mean Pinterest marketing strategies should prioritize SEO optimization and consistent content creation over engagement tactics, trending formats, or community interaction that drive results on social platforms.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your production and Pinterest marketing needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

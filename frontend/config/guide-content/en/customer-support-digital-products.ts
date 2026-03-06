@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Create a core set of support documents and response templates that work across all platforms, then customize the platform-specific details (download instructions, messaging procedures, review response options) for each marketplace. Maintain a single FAQ document that you update centrally and distribute to all platforms when changes occur. Use platform-specific response templates for download and access issues since each marketplace has different buyer-facing processes. Track support metrics separately by platform to identify whether certain platforms generate more support requests than others, which may indicate that your listings on those platforms need description improvements or that the platform\u2019s buyer demographics have different support expectations.',
     },
     {
-      question: 'What is the refund policy for worksheet generator tools?',
-      answer: 'Refund policies vary by platform and individual seller terms. When evaluating worksheet generator tools, check whether the tool offers the ability to try it as a free trial with watermark before purchasing a commercial license. This try-before-you-buy approach lets you evaluate the output quality, available features, and suitability for your needs before making any financial commitment. Testing the tool with your actual use cases during the trial period ensures that you know exactly what you are purchasing, which reduces the likelihood of needing a refund. If the generator meets your standards during the trial, you can purchase the commercial license with confidence.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

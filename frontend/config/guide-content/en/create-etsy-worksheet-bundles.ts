@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Yes, you can update bundle files and listing content at any time. Etsy allows you to replace digital files, update descriptions, change photos, and modify tags on published listings. When adding new items to an existing bundle, update the listing description and photos to reflect the additional content \u2014 this can trigger a renewal boost in search. Previous buyers do not automatically receive updated files, so note in your description that the bundle is the \u201Ccurrent version\u201D and buyers can message you for the updated files if a significant change is made.',
     },
     {
-      question: 'What is the refund policy for digital bundles on Etsy?',
-      answer: 'Digital bundles follow the same refund framework as individual digital products on Etsy. Since digital files are delivered instantly and cannot be returned, most sellers offer refunds only for technical issues such as corrupted files or incorrect products delivered. State your refund policy clearly in your listing description and shop policies. For bundles specifically, note that the purchase includes all listed items as a single transaction \u2014 partial refunds for individual items within a bundle are not standard practice. A clear, fair policy in your listing prevents misunderstandings and protects against unwarranted refund requests.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

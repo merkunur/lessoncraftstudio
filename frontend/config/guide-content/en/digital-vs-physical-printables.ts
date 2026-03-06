@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Digital buyers expect instant delivery, clear printing instructions, and files that print cleanly on standard home printers. They accept responsibility for print quality and paper selection, but they expect the files to be properly formatted with correct margins and professional design. Physical buyers expect professional print quality, attractive packaging, and a product that looks at least as good as the listing photos. They expect prompt shipping (ideally within 1-3 business days) and a product that arrives undamaged. Meeting these expectations is critical for reviews: digital buyers leave negative reviews for poorly formatted files, while physical buyers leave negative reviews for print quality issues, shipping delays, or damaged packaging.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Refund policies vary depending on where you purchase the license. Each marketplace has its own refund terms and procedures. Before purchasing, review the specific refund policy listed on the product sales page. You can evaluate any worksheet generator as a free trial with watermark before purchasing a license, which allows you to test the full feature set, output quality, and workflow compatibility with zero financial risk. This trial-before-purchase approach means you can verify the tool meets your needs before committing to a license purchase.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

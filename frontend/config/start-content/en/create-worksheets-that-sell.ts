@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. PDF is the standard format for printable products on Etsy and Teachers Pay Teachers. JPEG is needed for Amazon KDP interior pages and for creating listing thumbnails and mockups. Both formats are included with every download at 300 DPI print resolution.',
     },
     {
-      question: 'What is your refund policy for commercial licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully evaluate the product and creation workflow before purchasing. We encourage all buyers to create sample worksheets, run print tests, and confirm the output meets their needs during the trial period. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

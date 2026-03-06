@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'While Etsy SEO should be your primary traffic strategy, complement it with Etsy Ads (which use your existing tags and titles for ad targeting), Pinterest pins linking to your Etsy listings (Pinterest is the top external traffic source for printable sellers), and social media showcasing your products. However, invest the majority of your optimization time in organic Etsy SEO. Paid advertising and social media require ongoing effort, while a well-optimized listing generates organic traffic continuously.',
     },
     {
-      question: 'What is the refund policy for digital printable products?',
-      answer: 'Etsy allows sellers to set their own refund policies for digital products. Since digital downloads are delivered instantly and cannot be \u201Creturned,\u201D most printable sellers offer refunds only for technical issues (corrupted files, wrong product delivered) rather than blanket satisfaction guarantees. State your policy clearly in your listing description and shop policies. A clear, fair refund policy builds buyer confidence without exposing you to excessive refund requests. Note that Etsy\u2019s seller protection covers you when your policies are clearly stated.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

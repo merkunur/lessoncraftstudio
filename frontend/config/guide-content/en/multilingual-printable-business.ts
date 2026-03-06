@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Start by adapting your best-performing English products, as these have proven market demand. Adapting proven products is faster and lower risk than creating entirely new concepts. Once you have established a presence in a language market, you can develop market-specific products based on local educational standards or cultural preferences. The adaptation-first approach lets you generate revenue quickly while building market knowledge.',
     },
     {
-      question: 'What is your refund policy for printable products?',
-      answer: 'Digital printable products are typically non-refundable once downloaded, since the buyer has received the complete product. However, if a product has technical issues, formatting problems, or does not match its description, sellers should offer prompt replacements or refunds. Most marketplace platforms have their own refund policies that apply to digital products, so review the specific terms for each platform where you sell.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

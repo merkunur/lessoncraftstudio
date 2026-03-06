@@ -178,8 +178,8 @@ const content: StartContent = {
       answer: 'KDP typically reviews and publishes new titles within 24\u201372 hours. Once published, your book appears on Amazon.com and other marketplaces you selected. It may take a few additional days for your book to become fully indexed in Amazon search results.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'Because every generator offers a free trial with watermark, you can fully evaluate the product and create sample activity book pages before purchasing. We encourage thorough testing during the trial period to confirm the generators meet your KDP publishing needs. Refund requests are handled on a case-by-case basis through our support team.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

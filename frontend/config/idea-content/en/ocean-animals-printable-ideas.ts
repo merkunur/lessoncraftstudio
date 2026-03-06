@@ -121,8 +121,8 @@ Pricing in the ocean animal printable niche follows established educational prin
       answer: 'Worksheet generator tools dramatically reduce production time compared to manual design in graphic software. Select a generator matching your target activity type, choose ocean animal themes and marine vocabulary, customize difficulty settings for your intended age group, and generate professional worksheets ready for marketplace listing. Our generators offer a free trial with watermark so you can evaluate output quality before purchasing a commercial license. With a commercial license, you can create unlimited ocean-themed worksheets across all generator tools and sell them on any platform. Most sellers find they can produce a complete ocean animal product in a fraction of the time manual design would require, allowing faster catalog growth and quicker market testing.',
     },
     {
-      question: 'What is the refund policy for worksheet generator licenses?',
-      answer: 'We offer a 30-day money-back guarantee on all worksheet generator licenses. If you are not satisfied with the tools for any reason, contact our support team within 30 days of purchase for a full refund. This applies to both individual app licenses and bundle purchases. We want you to feel confident investing in tools for your printable business, so there is no risk in trying our generators to see if they fit your workflow and product creation needs.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

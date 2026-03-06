@@ -131,8 +131,8 @@ const content: GuideContent = {
       answer: 'Multi-platform selling is one of the most proven strategies for building substantial worksheet revenue. Each platform represents an independent buyer pool, and the effort to list an existing product on a new platform is minimal compared to the effort of creating the product initially. Sellers with 30 to 50 products distributed across three or more platforms commonly report that their non-primary platforms collectively generate as much revenue as their primary platform. The key is adapting your listings to each platform\u2019s conventions rather than copying listings verbatim, and tracking per-platform performance to understand which product types perform best on which platforms.',
     },
     {
-      question: 'What is the refund policy impact on worksheet revenue?',
-      answer: 'Digital product refund rates are typically very low compared to physical products \u2014 most marketplace sellers report refund rates below 2% for digital downloads. Worksheets have particularly low refund rates when the listing accurately describes the product content, includes preview images showing actual worksheet pages, and specifies the format and page count. The key to minimizing refunds is setting accurate buyer expectations in your listing. If a buyer knows exactly what they are purchasing \u2014 the number of pages, the difficulty level, the format, whether answer keys are included \u2014 there are few surprises that would prompt a refund request. Professional-quality worksheets with accurate listings experience refund rates well below 1%.',
+      question: 'What is the refund policy for commercial licenses?',
+      answer: 'Every generator offers a free trial with watermark so you can test all features, create sample worksheets, and evaluate output quality before purchasing. Because you can fully evaluate the product before buying, all commercial license sales are final. This is standard practice for digital product tools where the full product can be previewed before purchase.',
     },
   ],
 

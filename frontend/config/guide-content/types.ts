@@ -19,8 +19,8 @@ export interface GuideContent {
   visuals: {
     heroImage: { src: string; alt: string };
     samples: { src: string; alt: string; caption?: string }[];
-    youtubeId: string;
-    videoTitle: string;
+    youtubeId?: string;
+    videoTitle?: string;
   };
   themeImages?: { src: string; alt: string; caption?: string }[];
 }

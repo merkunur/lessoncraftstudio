@@ -228,8 +228,6 @@ const content: BundleContent = {
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page with black-and-white outline converted from themed image', caption: 'Coloring Page' },
       { src: '/samples/english/chart count/chart count.webp', alt: 'Bar chart counting worksheet with themed image data points', caption: 'Chart Count Worksheet' },
     ],
-    youtubeId: 'ZdpCr2txHcc',
-    videoTitle: 'Visual Learning Bundle — See All 7 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

@@ -17,8 +17,8 @@ export interface BundleContent {
   visuals: {
     heroImages: { primary: string; primaryAlt: string };
     sampleGallery: { src: string; alt: string; caption?: string }[];
-    youtubeId: string;
-    videoTitle: string;
+    youtubeId?: string;
+    videoTitle?: string;
   };
   themeImages?: { src: string; alt: string; caption?: string }[];
 }

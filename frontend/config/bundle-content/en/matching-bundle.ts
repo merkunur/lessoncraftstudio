@@ -214,8 +214,6 @@ const content: BundleContent = {
       { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingo card with themed images in randomized grid layout', caption: 'Bingo Card' },
       { src: '/samples/english/picture sort/Picture Sort.webp', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
     ],
-    youtubeId: 'y3ghkjt_67s',
-    videoTitle: 'Matching & Sorting Bundle — See All 5 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

@@ -6,7 +6,20 @@
     "signUp": "S'inscrire",
     "startFree": "Commencer gratuitement",
     "signOut": "Déconnexion",
-    "memberArea": "Espace Membre"
+    "memberArea": "Espace Membre",
+    "resources": "Ressources",
+    "tools": "Outils gratuits",
+    "guides": "Guides pratiques",
+    "bundles": "Packs",
+    "ideas": "Idées de niches",
+    "start": "Démarrer",
+    "resourcesDesc": {
+      "tools": "Essayez les 33 générateurs en ligne",
+      "guides": "Guides de vente étape par étape",
+      "bundles": "Économisez avec les packs",
+      "ideas": "Inspiration de niches rentables",
+      "start": "Lancez votre activité"
+    }
   },
   "homepage": {
     "hero": {

@@ -5,9 +5,17 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { useAuth } from '@/contexts/auth-context';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
+
+const resourceLinks = [
+  { key: 'tools', href: '/tools', icon: '\u{1F527}' },
+  { key: 'guides', href: '/guides', icon: '\u{1F4D6}' },
+  { key: 'bundles', href: '/bundles', icon: '\u{1F4E6}' },
+  { key: 'ideas', href: '/ideas', icon: '\u{1F4A1}' },
+  { key: 'start', href: '/start', icon: '\u{1F680}' },
+] as const;
 
 export function Navigation() {
   const t = useTranslations('navigation');
@@ -15,6 +23,18 @@ export function Navigation() {
   const locale = pathname.split('/')[1] || 'en';
   const { user } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
+  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
+
+  const handleMouseEnter = () => {
+    if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
+    setDesktopDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    closeTimeoutRef.current = setTimeout(() => setDesktopDropdownOpen(false), 150);
+  };
 
   return (
     <nav className="bg-white border-b border-gray-200 relative z-50">
@@ -64,6 +84,39 @@ export function Navigation() {
             <Link href={`/${locale}/apps`} className="text-gray-600 hover:text-primary transition-colors">
               {t('apps')}
             </Link>
+
+            {/* Resources Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button className="flex items-center gap-1 text-gray-600 hover:text-primary transition-colors">
+                {t('resources')}
+                <ChevronDown size={16} className={`transition-transform ${desktopDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {desktopDropdownOpen && (
+                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
+                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-64">
+                    {resourceLinks.map(item => (
+                      <Link
+                        key={item.key}
+                        href={`/${locale}${item.href}`}
+                        className="flex items-start gap-3 px-4 py-2.5 hover:bg-gray-50 transition-colors"
+                      >
+                        <span className="text-lg mt-0.5">{item.icon}</span>
+                        <div>
+                          <div className="text-sm font-medium text-gray-900">{t(item.key)}</div>
+                          <div className="text-xs text-gray-500">{t(`resourcesDesc.${item.key}`)}</div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             <Link href="/member" className="text-gray-600 hover:text-primary transition-colors font-medium">
               {t('memberArea')}
             </Link>
@@ -109,7 +162,7 @@ export function Navigation() {
       {/* Mobile Menu - CSS transition instead of conditional render to avoid CLS */}
       <div
         className={`md:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
-          mobileMenuOpen ? 'max-h-[500px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
+          mobileMenuOpen ? 'max-h-[700px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
         } bg-white`}
       >
         <div className="container mx-auto px-4 py-4 space-y-4">
@@ -121,6 +174,33 @@ export function Navigation() {
             >
               {t('apps')}
             </Link>
+
+            {/* Mobile Resources Section */}
+            <div>
+              <button
+                onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
+                className="flex items-center justify-between w-full py-2 text-gray-600 hover:text-primary transition-colors"
+              >
+                <span>{t('resources')}</span>
+                <ChevronDown size={16} className={`transition-transform ${mobileResourcesOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {mobileResourcesOpen && (
+                <div className="pl-4 space-y-1">
+                  {resourceLinks.map(item => (
+                    <Link
+                      key={item.key}
+                      href={`/${locale}${item.href}`}
+                      className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      <span>{item.icon}</span>
+                      <span>{t(item.key)}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
             <Link
               href="/member"
               className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"

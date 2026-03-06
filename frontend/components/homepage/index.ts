@@ -4,3 +4,4 @@ export { default as HomepageFeatures } from './HomepageFeatures';
 export { default as HowItWorks } from './HowItWorks';
 export { default as HomepageCTA } from './HomepageCTA';
 export { default as HomepageFAQ } from './HomepageFAQ';
+export { default as ResourceHighlights } from './ResourceHighlights';

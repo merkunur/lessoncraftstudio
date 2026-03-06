@@ -8,6 +8,7 @@ import {
   HowItWorks,
   HomepageCTA,
   HomepageFAQ,
+  ResourceHighlights,
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
@@ -162,6 +163,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
       {/* App Categories */}
       <AppCategories locale={locale} />
+
+      {/* Resource Highlights */}
+      <ResourceHighlights locale={locale} />
 
       {/* Features */}
       <HomepageFeatures locale={locale} />

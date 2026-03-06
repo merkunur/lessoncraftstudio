@@ -106,7 +106,7 @@ export function Footer() {
     <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
       <div className="container mx-auto px-4">
         {/* Main footer grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">{companyName}</h3>
@@ -131,6 +131,20 @@ export function Footer() {
                   </li>
                 );
               })}
+            </ul>
+          </div>
+
+          {/* Resources Section */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">
+              {{ en: 'Resources', de: 'Ressourcen', fr: 'Ressources', es: 'Recursos', pt: 'Recursos', it: 'Risorse', nl: 'Bronnen', sv: 'Resurser', da: 'Ressourcer', no: 'Ressurser', fi: 'Resurssit' }[locale] || 'Resources'}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href={`/${locale}/tools`} className="hover:text-white">{{ en: 'Free Tools', de: 'Kostenlose Tools', fr: 'Outils gratuits', es: 'Herramientas gratis', pt: 'Ferramentas gr\u00e1tis', it: 'Strumenti gratuiti', nl: 'Gratis tools', sv: 'Gratisverktyg', da: 'Gratis v\u00e6rkt\u00f8jer', no: 'Gratisverkt\u00f8y', fi: 'Ilmaiset ty\u00f6kalut' }[locale] || 'Free Tools'}</Link></li>
+              <li><Link href={`/${locale}/guides`} className="hover:text-white">{{ en: 'How-To Guides', de: 'Anleitungen', fr: 'Guides pratiques', es: 'Gu\u00edas pr\u00e1cticas', pt: 'Guias pr\u00e1ticos', it: 'Guide pratiche', nl: 'Handleidingen', sv: 'Guider', da: 'Vejledninger', no: 'Veiledninger', fi: 'Oppaat' }[locale] || 'How-To Guides'}</Link></li>
+              <li><Link href={`/${locale}/bundles`} className="hover:text-white">{{ en: 'Bundles', de: 'Pakete', fr: 'Packs', es: 'Paquetes', pt: 'Pacotes', it: 'Pacchetti', nl: 'Bundels', sv: 'Paket', da: 'Pakker', no: 'Pakker', fi: 'Paketit' }[locale] || 'Bundles'}</Link></li>
+              <li><Link href={`/${locale}/ideas`} className="hover:text-white">{{ en: 'Niche Ideas', de: 'Nischen-Ideen', fr: 'Id\u00e9es de niches', es: 'Ideas de nichos', pt: 'Ideias de nichos', it: 'Idee di nicchia', nl: 'Niche-idee\u00ebn', sv: 'Nischid\u00e9er', da: 'Nicheideer', no: 'Nisjeideer', fi: 'Niche-ideat' }[locale] || 'Niche Ideas'}</Link></li>
+              <li><Link href={`/${locale}/start`} className="hover:text-white">{{ en: 'Get Started', de: 'Erste Schritte', fr: 'D\u00e9marrer', es: 'Comenzar', pt: 'Come\u00e7ar', it: 'Inizia', nl: 'Aan de slag', sv: 'Kom ig\u00e5ng', da: 'Kom i gang', no: 'Kom i gang', fi: 'Aloita' }[locale] || 'Get Started'}</Link></li>
             </ul>
           </div>
 

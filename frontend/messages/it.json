@@ -6,7 +6,20 @@
     "signUp": "Registrati",
     "startFree": "Inizia gratis",
     "signOut": "Esci",
-    "memberArea": "Area Membri"
+    "memberArea": "Area Membri",
+    "resources": "Risorse",
+    "tools": "Strumenti gratuiti",
+    "guides": "Guide pratiche",
+    "bundles": "Pacchetti",
+    "ideas": "Idee di nicchia",
+    "start": "Inizia",
+    "resourcesDesc": {
+      "tools": "Prova tutti i 33 generatori online",
+      "guides": "Guide alla vendita passo passo",
+      "bundles": "Risparmia con i pacchetti",
+      "ideas": "Ispirazione per nicchie redditizie",
+      "start": "Avvia la tua attività"
+    }
   },
   "homepage": {
     "hero": {

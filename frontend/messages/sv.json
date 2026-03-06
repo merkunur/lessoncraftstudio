@@ -6,7 +6,20 @@
     "signUp": "Registrera",
     "startFree": "Börja gratis",
     "signOut": "Logga ut",
-    "memberArea": "Medlemsområde"
+    "memberArea": "Medlemsområde",
+    "resources": "Resurser",
+    "tools": "Gratisverktyg",
+    "guides": "Guider",
+    "bundles": "Paket",
+    "ideas": "Nischidéer",
+    "start": "Kom igång",
+    "resourcesDesc": {
+      "tools": "Testa alla 33 generatorer online",
+      "guides": "Steg-för-steg säljguider",
+      "bundles": "Spara med paket",
+      "ideas": "Inspiration för lönsamma nischer",
+      "start": "Starta din verksamhet"
+    }
   },
   "homepage": {
     "hero": {

@@ -123,6 +123,25 @@ export default function ToolsListingPage({
         </div>
       </section>
 
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 max-w-3xl text-center">
+          <h2 className="text-lg font-semibold text-gray-700 mb-4">
+            {{ en: 'Explore More', de: 'Mehr entdecken', fr: 'Explorer plus', es: 'Explorar m\u00e1s', pt: 'Explorar mais', it: 'Esplora di pi\u00f9', nl: 'Ontdek meer', sv: 'Utforska mer', da: 'Udforsk mere', no: 'Utforsk mer', fi: 'Tutustu lis\u00e4\u00e4' }[locale] || 'Explore More'}
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link href={`/${locale}/guides`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+              {{ en: 'How-To Guides', de: 'Anleitungen', fr: 'Guides pratiques', es: 'Gu\u00edas', pt: 'Guias', it: 'Guide', nl: 'Handleidingen', sv: 'Guider', da: 'Vejledninger', no: 'Veiledninger', fi: 'Oppaat' }[locale] || 'How-To Guides'}
+            </Link>
+            <Link href={`/${locale}/bundles`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+              {{ en: 'Bundles', de: 'Pakete', fr: 'Packs', es: 'Paquetes', pt: 'Pacotes', it: 'Pacchetti', nl: 'Bundels', sv: 'Paket', da: 'Pakker', no: 'Pakker', fi: 'Paketit' }[locale] || 'Bundles'}
+            </Link>
+            <Link href={`/${locale}/start`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+              {{ en: 'Get Started', de: 'Erste Schritte', fr: 'D\u00e9marrer', es: 'Comenzar', pt: 'Come\u00e7ar', it: 'Inizia', nl: 'Aan de slag', sv: 'Kom ig\u00e5ng', da: 'Kom i gang', no: 'Kom i gang', fi: 'Aloita' }[locale] || 'Get Started'}
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 md:py-16 bg-indigo-600">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Want More Features?</h2>

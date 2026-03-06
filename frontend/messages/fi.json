@@ -6,7 +6,20 @@
     "signUp": "Rekisteröidy",
     "startFree": "Aloita ilmaiseksi",
     "signOut": "Kirjaudu ulos",
-    "memberArea": "Jäsenalue"
+    "memberArea": "Jäsenalue",
+    "resources": "Resurssit",
+    "tools": "Ilmaiset työkalut",
+    "guides": "Oppaat",
+    "bundles": "Paketit",
+    "ideas": "Niche-ideat",
+    "start": "Aloita",
+    "resourcesDesc": {
+      "tools": "Kokeile kaikkia 33 generaattoria verkossa",
+      "guides": "Vaihe vaiheelta myyntioppaita",
+      "bundles": "Säästä paketeilla",
+      "ideas": "Inspiraatiota tuottoisiin nicheihin",
+      "start": "Käynnistä liiketoimintasi"
+    }
   },
   "homepage": {
     "hero": {

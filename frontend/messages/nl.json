@@ -6,7 +6,20 @@
     "signUp": "Registreren",
     "startFree": "Gratis beginnen",
     "signOut": "Uitloggen",
-    "memberArea": "Ledengedeelte"
+    "memberArea": "Ledengedeelte",
+    "resources": "Bronnen",
+    "tools": "Gratis tools",
+    "guides": "Handleidingen",
+    "bundles": "Bundels",
+    "ideas": "Niche-ideeën",
+    "start": "Aan de slag",
+    "resourcesDesc": {
+      "tools": "Probeer alle 33 generators online",
+      "guides": "Stap-voor-stap verkoopgidsen",
+      "bundles": "Bespaar met bundels",
+      "ideas": "Inspiratie voor winstgevende niches",
+      "start": "Start uw bedrijf"
+    }
   },
   "homepage": {
     "hero": {

@@ -6,7 +6,20 @@
     "signUp": "Registrieren",
     "startFree": "Kostenlos starten",
     "signOut": "Abmelden",
-    "memberArea": "Mitgliederbereich"
+    "memberArea": "Mitgliederbereich",
+    "resources": "Ressourcen",
+    "tools": "Kostenlose Tools",
+    "guides": "Anleitungen",
+    "bundles": "Pakete",
+    "ideas": "Nischen-Ideen",
+    "start": "Erste Schritte",
+    "resourcesDesc": {
+      "tools": "Alle 33 Generatoren online testen",
+      "guides": "Schritt-für-Schritt Verkaufsanleitungen",
+      "bundles": "Sparen mit Kategoriepaketen",
+      "ideas": "Profitable Nischen-Inspiration",
+      "start": "Starten Sie Ihr Geschäft"
+    }
   },
   "homepage": {
     "hero": {

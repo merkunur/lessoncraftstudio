@@ -6,7 +6,20 @@
     "signUp": "Tilmeld",
     "startFree": "Start gratis",
     "signOut": "Log ud",
-    "memberArea": "Medlemsområde"
+    "memberArea": "Medlemsområde",
+    "resources": "Ressourcer",
+    "tools": "Gratis værktøjer",
+    "guides": "Vejledninger",
+    "bundles": "Pakker",
+    "ideas": "Nicheideer",
+    "start": "Kom i gang",
+    "resourcesDesc": {
+      "tools": "Prøv alle 33 generatorer online",
+      "guides": "Trin-for-trin salgsguider",
+      "bundles": "Spar med pakker",
+      "ideas": "Inspiration til profitable nicher",
+      "start": "Start din virksomhed"
+    }
   },
   "homepage": {
     "hero": {

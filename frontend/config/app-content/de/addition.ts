@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/addition_worksheet portrait.jpeg',
+      primary: '/samples/german/addition/Additionsspa 1.jpeg',
       primaryAlt: 'Additions-Arbeitsblatt mit bunten Tierbildern im Bild + Bild-\u00dcbungsmodus',
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/addition_worksheet portrait.jpeg',
+        src: '/samples/german/addition/Additionsspa 1.jpeg',
         alt: 'Hochformat-Additions-Arbeitsblatt im Bild + Bild-Modus mit Tierthema',
         caption: 'Bild + Bild-Modus \u2014 Sch\u00fcler z\u00e4hlen zwei Bildergruppen und schreiben die Summe',
       },
       {
-        src: '/samples/english/addition/addition_worksheet landscape.jpeg',
+        src: '/samples/german/addition/Additionsspa 2.jpeg',
         alt: 'Querformat-Additions-Arbeitsblatt im Bild + Zahl-Modus mit Essensthema',
         caption: 'Bild + Zahl-Modus \u2014 verbindet Bildergruppen mit Ziffern f\u00fcr Br\u00fcckenbildung',
       },
       {
-        src: '/samples/english/addition/addition_worksheet find-addend.jpeg',
+        src: '/samples/german/addition/Additionsspa 3.jpeg',
         alt: 'Additions-Arbeitsblatt im Summand-finden-Modus mit Fahrzeugthema',
         caption: 'Summand-finden-Modus \u2014 Sch\u00fcler ermitteln die fehlende Gruppe f\u00fcr fr\u00fche Algebra',
       },

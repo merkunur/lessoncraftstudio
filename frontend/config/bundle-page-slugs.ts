@@ -40,36 +40,42 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     bundleId: 'math-bundle',
     slugs: {
       en: 'math-mastery-bundle',
+      de: 'mathematik-meister-paket',
     },
   },
   {
     bundleId: 'literacy-bundle',
     slugs: {
       en: 'literacy-language-bundle',
+      de: 'lese-sprach-paket',
     },
   },
   {
     bundleId: 'visual-bundle',
     slugs: {
       en: 'visual-learning-bundle',
+      de: 'visuelles-lernen-paket',
     },
   },
   {
     bundleId: 'matching-bundle',
     slugs: {
       en: 'matching-sorting-bundle',
+      de: 'zuordnung-sortierung-paket',
     },
   },
   {
     bundleId: 'puzzle-bundle',
     slugs: {
       en: 'puzzles-logic-bundle',
+      de: 'raetsel-logik-paket',
     },
   },
   {
     bundleId: 'search-bundle',
     slugs: {
       en: 'search-find-bundle',
+      de: 'suchen-finden-paket',
     },
   },
 ];

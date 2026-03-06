@@ -2,10 +2,10 @@
  * Tool Page Slug Configuration
  *
  * This file maps each app to its language-specific SEO slugs for /tools/ pages.
- * These are the free tool landing pages (distinct from /apps/ product pages).
+ * These are the tool landing pages (distinct from /apps/ product pages).
  *
  * Example:
- * - English: /en/tools/free-addition-worksheet-maker
+ * - English: /en/tools/addition-worksheet-maker
  */
 
 import { getHreflangCode } from '@/lib/schema-generator';
@@ -39,199 +39,232 @@ export const toolPageSlugs: ToolSlugConfig[] = [
   {
     toolId: 'image-addition',
     slugs: {
-      en: 'free-addition-worksheet-maker',
+      en: 'addition-worksheet-maker',
+      de: 'additions-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'image-subtraction',
     slugs: {
-      en: 'free-subtraction-worksheet-maker',
+      en: 'subtraction-worksheet-maker',
+      de: 'subtraktions-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'code-addition',
     slugs: {
-      en: 'free-code-addition-worksheet-maker',
+      en: 'code-addition-worksheet-maker',
+      de: 'bilder-additions-ersteller',
     },
   },
   {
     toolId: 'more-less',
     slugs: {
-      en: 'free-more-or-less-worksheet-maker',
+      en: 'more-or-less-worksheet-maker',
+      de: 'mehr-weniger-ersteller',
     },
   },
   {
     toolId: 'math-puzzle',
     slugs: {
-      en: 'free-math-puzzle-maker',
+      en: 'math-puzzle-maker',
+      de: 'mathe-raetsel-ersteller',
     },
   },
   {
     toolId: 'math-worksheet',
     slugs: {
-      en: 'free-math-worksheet-maker',
+      en: 'math-worksheet-maker',
+      de: 'mathe-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'alphabet-train',
     slugs: {
-      en: 'free-alphabet-train-maker',
+      en: 'alphabet-train-maker',
+      de: 'alphabet-zug-ersteller',
     },
   },
   {
     toolId: 'prepositions',
     slugs: {
-      en: 'free-prepositions-worksheet-maker',
+      en: 'prepositions-worksheet-maker',
+      de: 'praepositionen-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'word-guess',
     slugs: {
-      en: 'free-word-guess-maker',
+      en: 'word-guess-maker',
+      de: 'woerter-raten-ersteller',
     },
   },
   {
     toolId: 'word-scramble',
     slugs: {
-      en: 'free-word-scramble-maker',
+      en: 'word-scramble-maker',
+      de: 'buchstabensalat-ersteller',
     },
   },
   {
     toolId: 'word-search',
     slugs: {
-      en: 'free-word-search-maker',
+      en: 'word-search-maker',
+      de: 'wortsuche-ersteller',
     },
   },
   {
     toolId: 'cryptogram',
     slugs: {
-      en: 'free-cryptogram-maker',
+      en: 'cryptogram-maker',
+      de: 'kryptogramm-ersteller',
     },
   },
   {
     toolId: 'writing',
     slugs: {
-      en: 'free-handwriting-worksheet-maker',
+      en: 'handwriting-worksheet-maker',
+      de: 'schreibuebungen-ersteller',
     },
   },
   {
     toolId: 'big-small',
     slugs: {
-      en: 'free-big-and-small-worksheet-maker',
+      en: 'big-and-small-worksheet-maker',
+      de: 'gross-klein-ersteller',
     },
   },
   {
     toolId: 'pattern-train',
     slugs: {
-      en: 'free-pattern-train-maker',
+      en: 'pattern-train-maker',
+      de: 'muster-zug-ersteller',
     },
   },
   {
     toolId: 'pattern-worksheet',
     slugs: {
-      en: 'free-pattern-worksheet-maker',
+      en: 'pattern-worksheet-maker',
+      de: 'muster-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'draw-and-color',
     slugs: {
-      en: 'free-draw-and-color-maker',
+      en: 'draw-and-color-maker',
+      de: 'rasterzeichnen-ersteller',
     },
   },
   {
     toolId: 'drawing-lines',
     slugs: {
-      en: 'free-drawing-lines-maker',
+      en: 'drawing-lines-maker',
+      de: 'linien-ziehen-ersteller',
     },
   },
   {
     toolId: 'coloring',
     slugs: {
-      en: 'free-coloring-page-maker',
+      en: 'coloring-page-maker',
+      de: 'malvorlagen-ersteller',
     },
   },
   {
     toolId: 'chart-count',
     slugs: {
-      en: 'free-chart-count-maker',
+      en: 'chart-count-maker',
+      de: 'bilddiagramm-ersteller',
     },
   },
   {
     toolId: 'matching',
     slugs: {
-      en: 'free-matching-worksheet-maker',
+      en: 'matching-worksheet-maker',
+      de: 'zuordnungs-arbeitsblatt-ersteller',
     },
   },
   {
     toolId: 'grid-match',
     slugs: {
-      en: 'free-grid-match-maker',
+      en: 'grid-match-maker',
+      de: 'raster-puzzle-ersteller',
     },
   },
   {
     toolId: 'shadow-match',
     slugs: {
-      en: 'free-shadow-match-maker',
+      en: 'shadow-match-maker',
+      de: 'schattenbilder-ersteller',
     },
   },
   {
     toolId: 'bingo',
     slugs: {
-      en: 'free-bingo-card-maker',
+      en: 'bingo-card-maker',
+      de: 'bingo-karten-ersteller',
     },
   },
   {
     toolId: 'picture-sort',
     slugs: {
-      en: 'free-picture-sort-maker',
+      en: 'picture-sort-maker',
+      de: 'bilder-sortieren-ersteller',
     },
   },
   {
     toolId: 'missing-pieces',
     slugs: {
-      en: 'free-missing-pieces-maker',
+      en: 'missing-pieces-maker',
+      de: 'fehlende-puzzleteile-ersteller',
     },
   },
   {
     toolId: 'odd-one-out',
     slugs: {
-      en: 'free-odd-one-out-maker',
+      en: 'odd-one-out-maker',
+      de: 'was-passt-nicht-ersteller',
     },
   },
   {
     toolId: 'sudoku',
     slugs: {
-      en: 'free-sudoku-maker',
+      en: 'sudoku-maker',
+      de: 'kinder-sudoku-ersteller',
     },
   },
   {
     toolId: 'picture-path',
     slugs: {
-      en: 'free-picture-path-maker',
+      en: 'picture-path-maker',
+      de: 'bilderpfad-ersteller',
     },
   },
   {
     toolId: 'find-and-count',
     slugs: {
-      en: 'free-find-and-count-maker',
+      en: 'find-and-count-maker',
+      de: 'suchen-und-zaehlen-ersteller',
     },
   },
   {
     toolId: 'find-objects',
     slugs: {
-      en: 'free-hidden-object-maker',
+      en: 'hidden-object-maker',
+      de: 'suchbilder-ersteller',
     },
   },
   {
     toolId: 'crossword',
     slugs: {
-      en: 'free-crossword-maker',
+      en: 'crossword-maker',
+      de: 'bilderkreuzwortraetsel-ersteller',
     },
   },
   {
     toolId: 'treasure-hunt',
     slugs: {
-      en: 'free-treasure-hunt-maker',
+      en: 'treasure-hunt-maker',
+      de: 'schatzsuche-ersteller',
     },
   },
 ];

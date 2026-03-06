@@ -116,6 +116,16 @@ export default async function GuidePage({
           </div>
         </section>
 
+        {/* Introduction */}
+        {content.introduction && (
+          <section className="py-10 md:py-14">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">{getSectionLabel('introduction', locale)}</h2>
+              <div className="text-gray-700 leading-relaxed whitespace-pre-line">{content.introduction}</div>
+            </div>
+          </section>
+        )}
+
         {/* Tutorial Steps */}
         {content.tutorial && content.tutorial.length > 0 && (
           <article className="py-12 md:py-16">
@@ -136,6 +146,23 @@ export default async function GuidePage({
               </div>
             </div>
           </article>
+        )}
+
+        {/* Examples */}
+        {content.examples && content.examples.length > 0 && (
+          <section className="py-12 md:py-16 bg-gray-50">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('examples', locale)}</h2>
+              <div className="space-y-6">
+                {content.examples.map((example, i) => (
+                  <div key={i} className="p-5 bg-white rounded-lg border border-gray-200">
+                    <h3 className="font-semibold text-gray-900 mb-2">{example.heading}</h3>
+                    <p className="text-gray-700 leading-relaxed">{example.content}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* Sample Gallery */}
@@ -197,6 +224,27 @@ export default async function GuidePage({
           </section>
         )}
 
+        {/* Tools Recommended */}
+        {content.toolsRecommended && content.toolsRecommended.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('recommendedTools', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.toolsRecommended.map((tool, i) => (
+                  <Link
+                    key={i}
+                    href={`/${locale}/apps/${tool.appId}`}
+                    className="p-4 bg-white border border-gray-200 rounded-lg hover:border-emerald-300 hover:shadow-sm transition-all"
+                  >
+                    <h3 className="font-semibold text-gray-900">{tool.title}</h3>
+                    <p className="text-gray-600 text-sm mt-1">{tool.description}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
@@ -213,6 +261,27 @@ export default async function GuidePage({
                     </summary>
                     <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
                   </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Next Steps */}
+        {content.nextSteps && content.nextSteps.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('nextSteps', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.nextSteps.map((ns, i) => (
+                  <Link
+                    key={i}
+                    href={`/${locale}/guides/${ns.slug}`}
+                    className="p-4 bg-emerald-50 border border-emerald-200 rounded-lg hover:bg-emerald-100 transition-colors"
+                  >
+                    <h3 className="font-semibold text-gray-900">{ns.title}</h3>
+                    <p className="text-gray-600 text-sm mt-1">{ns.description}</p>
+                  </Link>
                 ))}
               </div>
             </div>

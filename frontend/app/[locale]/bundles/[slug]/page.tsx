@@ -225,6 +225,48 @@ export default async function BundlePage({
           </section>
         )}
 
+        {/* Business Use Cases */}
+        {content.businessUseCases && content.businessUseCases.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('businessUseCases', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {content.businessUseCases.map((uc, i) => (
+                  <div key={i} className="p-5 bg-white border border-gray-200 rounded-lg">
+                    <h3 className="font-semibold text-gray-900 mb-2">{uc.title}</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed">{uc.description}</p>
+                    {uc.platform && (
+                      <span className="inline-block mt-2 text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">{uc.platform}</span>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Who Is This For */}
+        {content.whoIsThisFor && content.whoIsThisFor.length > 0 && (
+          <section className="py-12 md:py-16 bg-gray-50">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('whoIsThisFor', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.whoIsThisFor.map((persona, i) => (
+                  <div key={i} className="flex gap-3 p-4 bg-white rounded-lg border border-gray-200">
+                    <svg className="w-5 h-5 text-indigo-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                    <div>
+                      <h3 className="font-semibold text-gray-900">{persona.title}</h3>
+                      <p className="text-gray-600 text-sm mt-1">{persona.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (
           <section className="py-12 md:py-16 bg-white">
@@ -241,6 +283,26 @@ export default async function BundlePage({
                     </summary>
                     <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
                   </details>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Internal Links */}
+        {content.internalLinks && content.internalLinks.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('related', locale)}</h2>
+              <div className="flex flex-wrap gap-3">
+                {content.internalLinks.map((link, i) => (
+                  <Link
+                    key={i}
+                    href={`/${locale}/${link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : 'ideas'}/${link.slug}`}
+                    className="text-sm text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-full"
+                  >
+                    {link.anchorText}
+                  </Link>
                 ))}
               </div>
             </div>

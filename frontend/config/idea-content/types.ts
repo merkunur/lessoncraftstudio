@@ -7,4 +7,6 @@ export interface IdeaContent {
   faq?: { question: string; answer: string }[];
   internalLinks?: { pageType: string; slug: string; anchorText: string }[];
   themeImages?: { src: string; alt: string; caption?: string }[];
+  youtubeId?: string;
+  videoTitle?: string;
 }

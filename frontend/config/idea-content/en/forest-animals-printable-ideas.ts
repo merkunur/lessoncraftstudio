@@ -188,6 +188,9 @@ Pricing analysis shows that forest animals printable products command a slight p
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Forest Animals Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

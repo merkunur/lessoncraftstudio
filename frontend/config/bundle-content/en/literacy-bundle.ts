@@ -228,6 +228,8 @@ const content: BundleContent = {
       { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Cryptogram puzzle with image cipher encoding', caption: 'Cryptogram Worksheet' },
       { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice worksheet with guided letter strokes', caption: 'Writing Worksheet' },
     ],
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'Literacy & Language Bundle \u2014 See All 7 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

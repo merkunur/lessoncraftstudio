@@ -180,6 +180,9 @@ The kindergarten buyer segment also includes a substantial proportion of first-y
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Kindergarten Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

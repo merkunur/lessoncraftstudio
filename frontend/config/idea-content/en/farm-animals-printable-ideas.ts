@@ -188,6 +188,9 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Farm Animals Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

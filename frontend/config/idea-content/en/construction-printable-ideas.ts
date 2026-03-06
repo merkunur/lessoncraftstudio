@@ -178,6 +178,9 @@ The construction toy crossover market represents a particularly valuable audienc
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Construction Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

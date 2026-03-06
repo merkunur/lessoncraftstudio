@@ -203,6 +203,8 @@ const content: BundleContent = {
       { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: '4x4 picture Sudoku puzzle with themed images instead of numbers', caption: 'Picture Sudoku Puzzle' },
       { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Picture path maze with themed image route through grid', caption: 'Picture Path Maze' },
     ],
+    youtubeId: 'gb-xE_Ay4fc',
+    videoTitle: 'Puzzles & Logic Bundle \u2014 See All 4 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

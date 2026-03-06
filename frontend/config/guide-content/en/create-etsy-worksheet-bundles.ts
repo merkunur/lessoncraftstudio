@@ -198,6 +198,8 @@ const content: GuideContent = {
       { src: '/samples/english/subtraction/subtraction_animals.webp', alt: 'Animal themed subtraction worksheet complementing addition in Etsy math bundles', caption: 'Subtraction worksheet with animal theme \u2014 pairs with addition worksheets for complete math bundles' },
       { src: '/samples/english/wordsearch/wordsearch_animals.webp', alt: 'Animal word search puzzle adding cross-category variety to Etsy worksheet bundles', caption: 'Word search puzzle with animal theme \u2014 adds literacy value to cross-category theme bundles' },
     ],
+    youtubeId: '6O5aCzHkh8M',
+    videoTitle: 'How to Create Addition Worksheets for Etsy Bundles \u2014 Multi-Product Bundle Strategy',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

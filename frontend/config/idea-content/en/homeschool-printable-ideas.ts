@@ -174,6 +174,9 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '6O5aCzHkh8M',
+  videoTitle: 'Homeschool Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

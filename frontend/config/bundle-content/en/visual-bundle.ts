@@ -225,9 +225,12 @@ const content: BundleContent = {
       { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Pattern recognition worksheet with fill-in-the-blank sequences', caption: 'Pattern Worksheet' },
       { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Reference image drawing worksheet with grid for reproducing the picture', caption: 'Draw & Color Worksheet' },
       { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Line tracing worksheet with paired objects and curved line paths', caption: 'Drawing Lines Worksheet' },
+
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page with black-and-white outline converted from themed image', caption: 'Coloring Page' },
       { src: '/samples/english/chart count/chart count.webp', alt: 'Bar chart counting worksheet with themed image data points', caption: 'Chart Count Worksheet' },
     ],
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'Visual Learning Bundle \u2014 See All 7 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

@@ -205,6 +205,8 @@ const content: BundleContent = {
       { src: '/samples/english/crossword/crossword_worksheet.webp', alt: '15x15 crossword puzzle with image clues instead of text definitions', caption: 'Picture Crossword Puzzle' },
       { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Treasure hunt worksheet with 5x5 coordinate grid and directional clues', caption: 'Treasure Hunt Grid' },
     ],
+    youtubeId: '0cOPi7eajLs',
+    videoTitle: 'Search & Find Bundle \u2014 See All 4 Discovery Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

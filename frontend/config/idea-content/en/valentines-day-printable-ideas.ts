@@ -188,6 +188,9 @@ The Valentine's Day keyword landscape reveals several underserved sub-niches wor
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Valentine\ — Product Demo',
 };
 
 export default content;

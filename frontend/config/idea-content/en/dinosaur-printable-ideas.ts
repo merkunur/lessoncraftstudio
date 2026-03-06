@@ -184,6 +184,9 @@ From a product variety standpoint, the dinosaur niche supports an unusually deep
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Dinosaur Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

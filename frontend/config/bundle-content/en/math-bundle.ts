@@ -228,6 +228,8 @@ const content: BundleContent = {
       { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Jigsaw grid math puzzle with equations', caption: 'Math Puzzle Worksheet' },
       { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Visual algebra puzzle with image variables', caption: 'Math Worksheet Puzzle' },
     ],
+    youtubeId: '6O5aCzHkh8M',
+    videoTitle: 'Math Mastery Bundle \u2014 See All 6 Generators in Action',
   },
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },

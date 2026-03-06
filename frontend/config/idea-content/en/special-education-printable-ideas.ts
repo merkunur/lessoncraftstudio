@@ -180,6 +180,9 @@ Cross-listing special education printables across platforms reaches different se
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '6O5aCzHkh8M',
+  videoTitle: 'Special Education Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

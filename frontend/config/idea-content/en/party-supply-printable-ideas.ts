@@ -176,6 +176,9 @@ Party printables have strong gift-giving and viral marketing potential because s
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '36keBFzJbPo',
+  videoTitle: 'Printable Party Supply Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

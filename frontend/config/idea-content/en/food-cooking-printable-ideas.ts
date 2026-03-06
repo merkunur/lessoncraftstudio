@@ -178,6 +178,9 @@ Cultural inclusivity through international foods represents a valuable different
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Food & Cooking Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

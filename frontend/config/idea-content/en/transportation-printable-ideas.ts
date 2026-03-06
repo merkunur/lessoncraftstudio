@@ -178,6 +178,9 @@ Gender-neutral positioning is an important strategic consideration for transport
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Transportation Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

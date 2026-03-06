@@ -178,6 +178,9 @@ The subscription model works across multiple platforms including Gumroad which o
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '6O5aCzHkh8M',
+  videoTitle: 'Worksheet Subscription Box Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

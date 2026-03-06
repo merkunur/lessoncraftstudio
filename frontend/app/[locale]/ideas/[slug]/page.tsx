@@ -11,6 +11,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
+import VideoFacade from '../../apps/[slug]/VideoFacade';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -165,6 +166,16 @@ export default async function IdeaPage({
             <p className="text-lg text-gray-600">{content.hero.description}</p>
           </div>
         </section>
+
+        {/* Video */}
+        {content.youtubeId && (
+          <div className="container mx-auto px-4 max-w-3xl mt-8">
+            <VideoFacade
+              videoId={content.youtubeId}
+              title={content.videoTitle || content.hero.title}
+            />
+          </div>
+        )}
 
         {/* CTA 1 */}
         <section className="py-8">

@@ -178,6 +178,9 @@ The princess and knight birthday party crossover market represents a particularl
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Fairy Tale Printable Business Ideas for Sellers — Product Demo',
 };
 
 export default content;

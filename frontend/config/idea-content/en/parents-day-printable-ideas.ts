@@ -180,6 +180,9 @@ To capture maximum revenue from both holidays, develop products across multiple 
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
   ],
+
+  youtubeId: '0cOPi7eajLs',
+  videoTitle: 'Mother\ — Product Demo',
 };
 
 export default content;

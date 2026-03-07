@@ -80,22 +80,16 @@ export default async function GuidePage({
     const localeSlug = getGuideSlugForLocale(config.guideId, locale);
     const pageUrl = `${baseUrl}/${locale}/guides/${localeSlug || slug}`;
 
-    const howToSchema = {
+    const articleSchema = {
       '@context': 'https://schema.org',
-      '@type': 'HowTo',
-      '@id': `${pageUrl}#howto`,
-      name: content.hero.title,
+      '@type': 'Article',
+      '@id': `${pageUrl}#article`,
+      headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
       inLanguage: getHreflangCode(locale),
-      ...(content.tutorial?.length && {
-        step: content.tutorial.map((s, i) => ({
-          '@type': 'HowToStep',
-          position: i + 1,
-          name: s.heading,
-          text: s.content,
-        })),
-      }),
+      publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
+      author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
     };
 
     const breadcrumbSchema = {
@@ -104,12 +98,12 @@ export default async function GuidePage({
       '@id': `${pageUrl}#breadcrumb`,
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: localizedHomeLabel[locale] || 'Home', item: `${baseUrl}/${locale}` },
-        { '@type': 'ListItem', position: 2, name: getSectionLabel('platformGuides', locale), item: `${baseUrl}/${locale}/guides` },
+        { '@type': 'ListItem', position: 2, name: getSectionLabel('guides', locale), item: `${baseUrl}/${locale}/guides` },
         { '@type': 'ListItem', position: 3, name: content.hero.title },
       ],
     };
 
-    const schemas: object[] = [howToSchema, breadcrumbSchema];
+    const schemas: object[] = [articleSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }
@@ -121,10 +115,10 @@ export default async function GuidePage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
         {/* Hero */}
-        <section className="py-12 md:py-20 bg-gradient-to-b from-emerald-50 to-white">
+        <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">
             <nav className="text-sm text-gray-500 mb-4">
-              <Link href={`/${locale}/guides`} className="hover:text-emerald-600">{getSectionLabel('guides', locale)}</Link>
+              <Link href={`/${locale}/guides`} className="hover:text-indigo-600">{getSectionLabel('guides', locale)}</Link>
               <span className="mx-2">/</span>
               <span className="text-gray-700">{content.hero.title}</span>
             </nav>
@@ -172,7 +166,7 @@ export default async function GuidePage({
           <div className="container mx-auto px-4 max-w-3xl text-center">
             <Link
               href={`/${locale}/apps`}
-              className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
             >
               {getSectionLabel('ctaTryFree', locale)}
             </Link>
@@ -180,7 +174,7 @@ export default async function GuidePage({
           </div>
         </section>
 
-        {/* Tutorial Steps */}
+        {/* Tutorial Sections */}
         {content.tutorial && content.tutorial.length > 0 && (
           <article className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
@@ -188,18 +182,52 @@ export default async function GuidePage({
               <div className="space-y-8">
                 {content.tutorial.map((step, i) => (
                   <div key={i} className="flex gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">
                       {i + 1}
                     </div>
                     <div className="flex-1">
-                      <h2 className="text-xl font-bold text-gray-900 mb-2">{step.heading}</h2>
-                      <ReadMoreText text={step.content} locale={locale} className="text-gray-700 leading-relaxed" />
+                      <h3 className="text-xl font-bold text-gray-900 mb-2">{step.heading}</h3>
+                      <ReadMoreText text={step.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace />
                     </div>
                   </div>
                 ))}
               </div>
             </div>
           </article>
+        )}
+
+        {/* Platform Tips */}
+        {content.platformTips && content.platformTips.length > 0 && (
+          <section className="py-12 md:py-16 bg-gray-50">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('platformTips', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.platformTips.map((tip, i) => (
+                  <div key={i} className="p-4 bg-white rounded-lg border border-gray-200">
+                    <h3 className="font-semibold text-gray-900">{tip.heading}</h3>
+                    <ReadMoreText text={tip.content} locale={locale} className="text-gray-600 text-sm mt-1" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Monetization Strategies */}
+        {content.monetization && content.monetization.length > 0 && (
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-3xl">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('monetizationStrategies', locale)}</h2>
+              <div className="space-y-4">
+                {content.monetization.map((strategy, i) => (
+                  <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
+                    <h3 className="font-semibold text-gray-900">{strategy.heading}</h3>
+                    <ReadMoreText text={strategy.content} locale={locale} className="text-gray-600 text-sm mt-1" />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
         )}
 
         {/* Examples */}
@@ -267,34 +295,21 @@ export default async function GuidePage({
           </section>
         )}
 
-        {/* Platform Tips */}
-        {content.platformTips && content.platformTips.length > 0 && (
-          <section className="py-12 md:py-16 bg-gray-50">
-            <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('platformTips', locale)}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {content.platformTips.map((tip, i) => (
-                  <div key={i} className="p-4 bg-white rounded-lg border border-gray-200">
-                    <h3 className="font-semibold text-gray-900">{tip.heading}</h3>
-                    <ReadMoreText text={tip.content} locale={locale} className="text-gray-600 text-sm mt-1" />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
-        {/* Monetization Strategies */}
-        {content.monetization && content.monetization.length > 0 && (
+        {/* Tools Recommended */}
+        {content.toolsRecommended && content.toolsRecommended.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('monetizationStrategies', locale)}</h2>
-              <div className="space-y-4">
-                {content.monetization.map((strategy, i) => (
-                  <div key={i} className="p-4 bg-white border border-gray-200 rounded-lg">
-                    <h3 className="font-semibold text-gray-900">{strategy.heading}</h3>
-                    <ReadMoreText text={strategy.content} locale={locale} className="text-gray-600 text-sm mt-1" />
-                  </div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('recommendedTools', locale)}</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {content.toolsRecommended.map((tool, i) => (
+                  <Link
+                    key={i}
+                    href={`/${locale}/apps/${tool.appId}`}
+                    className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
+                  >
+                    <h3 className="font-semibold text-gray-900">{tool.title}</h3>
+                    <ReadMoreText text={tool.description} locale={locale} className="text-gray-600 text-sm mt-1" />
+                  </Link>
                 ))}
               </div>
             </div>
@@ -306,33 +321,12 @@ export default async function GuidePage({
           <div className="container mx-auto px-4 max-w-3xl text-center">
             <Link
               href={`/${locale}/apps`}
-              className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white font-semibold rounded-lg hover:bg-emerald-700 transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
             >
               {getSectionLabel('ctaBrowseAll', locale)}
             </Link>
           </div>
         </section>
-
-        {/* Tools Recommended */}
-        {content.toolsRecommended && content.toolsRecommended.length > 0 && (
-          <section className="py-12 md:py-16">
-            <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('recommendedTools', locale)}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {content.toolsRecommended.map((tool, i) => (
-                  <Link
-                    key={i}
-                    href={`/${locale}/apps/${tool.appId}`}
-                    className="p-4 bg-white border border-gray-200 rounded-lg hover:border-emerald-300 hover:shadow-sm transition-all"
-                  >
-                    <h3 className="font-semibold text-gray-900">{tool.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{tool.description}</p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (
@@ -366,7 +360,7 @@ export default async function GuidePage({
                   <Link
                     key={i}
                     href={`/${locale}/guides/${ns.slug}`}
-                    className="p-4 bg-emerald-50 border border-emerald-200 rounded-lg hover:bg-emerald-100 transition-colors"
+                    className="p-4 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
                   >
                     <h3 className="font-semibold text-gray-900">{ns.title}</h3>
                     <p className="text-gray-600 text-sm mt-1">{ns.description}</p>
@@ -378,13 +372,13 @@ export default async function GuidePage({
         )}
 
         {/* CTA 3 - Final */}
-        <section className="py-12 md:py-16 bg-emerald-600">
+        <section className="py-12 md:py-16 bg-indigo-600">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">{getSectionLabel('ctaReadyToStart', locale)}</h2>
-            <p className="text-emerald-100 mb-8 max-w-lg mx-auto">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
+            <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{getSectionLabel('ctaTryFreeDesc', locale)}</p>
             <Link
               href={`/${locale}/apps`}
-              className="inline-flex items-center px-8 py-3 bg-white text-emerald-600 font-semibold rounded-lg hover:bg-emerald-50 transition-colors"
+              className="inline-flex items-center px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-50 transition-colors"
             >
               {getSectionLabel('ctaBrowseAll', locale)}
             </Link>
@@ -395,13 +389,13 @@ export default async function GuidePage({
         {content.internalLinks && content.internalLinks.length > 0 && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-3xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('related', locale)}</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('relatedGuides', locale)}</h2>
               <div className="flex flex-wrap gap-3">
                 {content.internalLinks.map((link, i) => (
                   <Link
                     key={i}
                     href={`/${locale}/${link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : 'ideas'}/${link.slug}`}
-                    className="text-sm text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-full"
+                    className="text-sm text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-full"
                   >
                     {link.anchorText}
                   </Link>

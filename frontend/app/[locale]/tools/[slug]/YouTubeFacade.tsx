@@ -30,6 +30,12 @@ export default function YouTubeFacade({ youtubeId, title }: { youtubeId: string;
             alt={title}
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"
+            onLoad={(e) => {
+              const img = e.currentTarget;
+              if (img.naturalWidth <= 120 && img.src.includes('maxresdefault')) {
+                img.src = `https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`;
+              }
+            }}
             onError={(e) => {
               const img = e.currentTarget;
               if (!img.src.includes('hqdefault')) {

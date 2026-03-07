@@ -46,15 +46,15 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/opengraph-image.png',
-        width: 512,
-        height: 512,
-        alt: 'LessonCraftStudio Logo',
+        width: 1200,
+        height: 630,
+        alt: 'LessonCraftStudio - 33 Printable Generators',
       },
     ],
     type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'LessonCraftStudio - Professional Worksheet Generator',
     description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
     images: ['/opengraph-image.png'],

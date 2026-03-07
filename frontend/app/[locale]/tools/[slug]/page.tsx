@@ -9,7 +9,7 @@ import {
   getToolSlugForLocale,
 } from '@/config/tool-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, localizedHomeLabel } from '@/lib/schema-generator';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
@@ -37,6 +37,33 @@ function getWpAppId(slugAppId: string): AppId | null {
   if (wpId in ALL_APPS) return wpId as AppId;
   return null;
 }
+
+// Localized CTA strings for tool detail pages
+const toolCta: Record<string, {
+  tryFreeNow: string;
+  tryFreeDesc: string;
+  fallbackTitle: (name: string) => string;
+  fallbackDesc: string;
+  tryFreeWithWatermark: string;
+  watermarkNote: string;
+}> = {
+  en: { tryFreeNow: 'Try Free Now', tryFreeDesc: 'Try it free with watermark. No signup required.', fallbackTitle: (n) => `Free Trial: ${n}`, fallbackDesc: 'Create professional worksheets instantly. No signup required.', tryFreeWithWatermark: 'Try Free with Watermark', watermarkNote: 'Free trial includes a small watermark. Purchase to remove.' },
+  de: { tryFreeNow: 'Jetzt kostenlos testen', tryFreeDesc: 'Kostenlos mit Wasserzeichen testen. Keine Anmeldung erforderlich.', fallbackTitle: (n) => `Gratis testen: ${n}`, fallbackDesc: 'Professionelle Arbeitsbl\ätter sofort erstellen. Keine Anmeldung.', tryFreeWithWatermark: 'Gratis mit Wasserzeichen testen', watermarkNote: 'Die kostenlose Version enth\ält ein kleines Wasserzeichen. Kaufen Sie, um es zu entfernen.' },
+  fr: { tryFreeNow: 'Essayer gratuitement', tryFreeDesc: 'Essayez gratuitement avec filigrane. Aucune inscription requise.', fallbackTitle: (n) => `Essai gratuit : ${n}`, fallbackDesc: 'Cr\éez des fiches professionnelles instantan\ément. Sans inscription.', tryFreeWithWatermark: 'Essai gratuit avec filigrane', watermarkNote: 'La version gratuite inclut un petit filigrane. Achetez pour le supprimer.' },
+  es: { tryFreeNow: 'Probar gratis ahora', tryFreeDesc: 'Prueba gratis con marca de agua. Sin registro.', fallbackTitle: (n) => `Prueba gratis: ${n}`, fallbackDesc: 'Crea fichas profesionales al instante. Sin registro.', tryFreeWithWatermark: 'Probar gratis con marca de agua', watermarkNote: 'La versi\ón gratuita incluye una peque\ña marca de agua. Compra para eliminarla.' },
+  pt: { tryFreeNow: 'Experimentar gr\átis', tryFreeDesc: 'Experimente gr\átis com marca d\’\água. Sem registo.', fallbackTitle: (n) => `Teste gr\átis: ${n}`, fallbackDesc: 'Crie fichas profissionais instantaneamente. Sem registo.', tryFreeWithWatermark: 'Testar gr\átis com marca d\’\água', watermarkNote: 'A vers\ão gratuita inclui uma pequena marca d\’\água. Compre para remover.' },
+  it: { tryFreeNow: 'Prova gratis ora', tryFreeDesc: 'Prova gratis con filigrana. Nessuna registrazione richiesta.', fallbackTitle: (n) => `Prova gratis: ${n}`, fallbackDesc: 'Crea schede professionali all\’istante. Senza registrazione.', tryFreeWithWatermark: 'Prova gratis con filigrana', watermarkNote: 'La versione gratuita include una piccola filigrana. Acquista per rimuoverla.' },
+  nl: { tryFreeNow: 'Gratis proberen', tryFreeDesc: 'Gratis proberen met watermerk. Geen registratie nodig.', fallbackTitle: (n) => `Gratis testen: ${n}`, fallbackDesc: 'Maak direct professionele werkbladen. Geen registratie.', tryFreeWithWatermark: 'Gratis proberen met watermerk', watermarkNote: 'De gratis versie bevat een klein watermerk. Koop om te verwijderen.' },
+  sv: { tryFreeNow: 'Prova gratis nu', tryFreeDesc: 'Prova gratis med vattenst\ämpel. Ingen registrering kr\ävs.', fallbackTitle: (n) => `Prova gratis: ${n}`, fallbackDesc: 'Skapa professionella arbetsblad direkt. Ingen registrering.', tryFreeWithWatermark: 'Prova gratis med vattenst\ämpel', watermarkNote: 'Gratisversionen inkluderar en liten vattenst\ämpel. K\öp f\ör att ta bort.' },
+  da: { tryFreeNow: 'Pr\øv gratis nu', tryFreeDesc: 'Pr\øv gratis med vandm\ærke. Ingen tilmelding kr\æves.', fallbackTitle: (n) => `Pr\øv gratis: ${n}`, fallbackDesc: 'Opret professionelle opgaveark med det samme. Ingen tilmelding.', tryFreeWithWatermark: 'Pr\øv gratis med vandm\ærke', watermarkNote: 'Gratisversionen indeholder et lille vandm\ærke. K\øb for at fjerne.' },
+  no: { tryFreeNow: 'Pr\øv gratis n\å', tryFreeDesc: 'Pr\øv gratis med vannmerke. Ingen registrering kreves.', fallbackTitle: (n) => `Pr\øv gratis: ${n}`, fallbackDesc: 'Lag profesjonelle oppgaveark med en gang. Ingen registrering.', tryFreeWithWatermark: 'Pr\øv gratis med vannmerke', watermarkNote: 'Gratisversjonen inkluderer et lite vannmerke. Kj\øp for \å fjerne.' },
+  fi: { tryFreeNow: 'Kokeile ilmaiseksi nyt', tryFreeDesc: 'Kokeile ilmaiseksi vesileimalla. Ei rekister\öitymist\ä.', fallbackTitle: (n) => `Kokeile ilmaiseksi: ${n}`, fallbackDesc: 'Luo ammattimaisia teht\ävi\ä heti. Ei rekister\öitymist\ä.', tryFreeWithWatermark: 'Kokeile ilmaiseksi vesileimalla', watermarkNote: 'Ilmainen versio sis\ält\ä\ä pienen vesileiman. Osta poistaaksesi.' },
+};
+
+const toolsLabel: Record<string, string> = {
+  en: 'Tools', de: 'Tools', fr: 'Outils', es: 'Herramientas', pt: 'Ferramentas',
+  it: 'Strumenti', nl: 'Tools', sv: 'Verktyg', da: 'V\ærkt\øjer', no: 'Verkt\øy', fi: 'Ty\ökalut',
+};
 
 export const revalidate = 3600;
 
@@ -86,6 +113,7 @@ export async function generateMetadata({
         url: `${baseUrl}/${locale}/tools/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
       robots: content ? undefined : { index: false },
     };
@@ -114,15 +142,92 @@ export default async function ToolPage({
   const content = await getToolContent(toolConfig.toolId, locale);
   const localizedName = getLocalizedAppName(wpAppId, locale);
   const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
+  const cta = toolCta[locale] || toolCta.en;
 
   // App launch URL
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;
   const launchUrl = `/worksheet-generators/${htmlFile}`;
 
+  // JSON-LD schemas
+  const pageUrl = `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
+  const schemas: any[] = [];
+
+  // SoftwareApplication schema
+  const softwareSchema: any = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": localizedName,
+    "url": pageUrl,
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Web Browser",
+    "inLanguage": getHreflangCode(locale),
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": cta.tryFreeDesc,
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl,
+    },
+  };
+  if (content?.hero?.description) {
+    softwareSchema.description = content.hero.description;
+  }
+  schemas.push(softwareSchema);
+
+  // BreadcrumbList schema
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": localizedHomeLabel[locale] || "Home",
+        "item": `${baseUrl}/${locale}`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": toolsLabel[locale] || "Tools",
+        "item": `${baseUrl}/${locale}/tools`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": localizedName,
+      },
+    ],
+  });
+
+  // FAQPage schema (when FAQ content exists)
+  if (content?.faq && content.faq.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": content.faq.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.answer,
+        },
+      })),
+    });
+  }
+
   // If enriched content exists, render full page
   if (content) {
     return (
       <div className="min-h-screen bg-gray-50">
+        {/* JSON-LD Structured Data */}
+        {schemas.map((schema, i) => (
+          <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+        ))}
+
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">
@@ -143,7 +248,7 @@ export default async function ToolPage({
               href={launchUrl}
               className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
             >
-              Try Free Now
+              {cta.tryFreeNow}
             </a>
           </div>
         </section>
@@ -316,12 +421,12 @@ export default async function ToolPage({
         <section className="py-12 md:py-16 bg-indigo-600">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">{localizedName}</h2>
-            <p className="text-indigo-100 mb-8 max-w-lg mx-auto">Try it free with watermark. No signup required.</p>
+            <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{cta.tryFreeDesc}</p>
             <a
               href={launchUrl}
               className="inline-flex items-center px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-50 transition-colors"
             >
-              Try Free Now
+              {cta.tryFreeNow}
             </a>
           </div>
         </section>
@@ -332,22 +437,27 @@ export default async function ToolPage({
   // Fallback: minimal page when content file doesn't exist yet
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* JSON-LD Structured Data */}
+      {schemas.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
+
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4 text-center max-w-2xl">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            Free {localizedName}
+            {cta.fallbackTitle(localizedName)}
           </h1>
           <p className="text-gray-600 mb-8">
-            Create professional worksheets instantly. No signup required.
+            {cta.fallbackDesc}
           </p>
           <a
             href={launchUrl}
             className="inline-flex items-center px-8 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
           >
-            Try Free with Watermark
+            {cta.tryFreeWithWatermark}
           </a>
           <p className="mt-4 text-sm text-gray-500">
-            Free version includes a small watermark. Purchase to remove.
+            {cta.watermarkNote}
           </p>
         </div>
       </section>

@@ -4,209 +4,209 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'Mathe-Arbeitsblatt-Generator',
     secondaryKeywords: [
-      'Algebra-Bilderr\u00e4tsel-Ersteller f\u00fcr Verk\u00e4ufer',
-      'Algebra-Puzzle-Arbeitsbl\u00e4tter online erstellen',
-      'druckbare Mathe-R\u00e4tsel-Arbeitsbl\u00e4tter mit Bildern',
-      'Gleichungsr\u00e4tsel-Generator f\u00fcr KDP',
+      'Algebra-Bilderrätsel-Ersteller für Verkäufer',
+      'Algebra-Puzzle-Arbeitsblätter online erstellen',
+      'druckbare Mathe-Rätsel-Arbeitsblätter mit Bildern',
+      'Gleichungsrätsel-Generator für KDP',
     ],
     lsiKeywords: [
-      'visuelle Algebra-Druckvorlagen f\u00fcr Etsy',
+      'visuelle Algebra-Druckvorlagen für Etsy',
       'Bildsymbol-Gleichungs-Arbeitsblatt-Tool',
-      'Bildvariablen-Mathe-Aktivit\u00e4ten Generator',
+      'Bildvariablen-Mathe-Aktivitäten Generator',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Generator | Algebra-Bilderr\u00e4tsel erstellen & verkaufen',
-    metaDescription: 'Algebra-Bilderr\u00e4tsel mit Bildsymbolen als Variablen in verkn\u00fcpften Gleichungssystemen erstellen. Vier Schwierigkeitsstufen, garantiert eindeutige L\u00f6sungen. Druckvorlagen f\u00fcr Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Arbeitsblatt-Generator | Algebra-Bilderrätsel erstellen & verkaufen',
+    metaDescription: 'Algebra-Bilderrätsel mit Bildsymbolen als Variablen in verknüpften Gleichungssystemen erstellen. Vier Schwierigkeitsstufen, garantiert eindeutige Lösungen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
     title: 'Mathe-Arbeitsblatt-Generator',
-    tagline: 'Visuelle Algebra-Bilderr\u00e4tsel mit Bildsymbolen als Variablen in unter 60 Sekunden erstellen',
-    description: 'Gehen Sie \u00fcber Standard-Rechenaufgaben hinaus mit Algebra-Bilderr\u00e4tseln, die Sch\u00fcler zum Denken in Gleichungssystemen herausfordern. Jedes Arbeitsblatt pr\u00e4sentiert verkn\u00fcpfte Gleichungen, in denen Bilder unbekannte Variablen ersetzen \u2014 Sch\u00fcler m\u00fcssen den numerischen Wert bestimmen, den jedes Bild darstellt. Vier Schwierigkeitsstufen skalieren von zwei Symbolen mit einfacher Addition bis zu vier simultanen Unbekannten mit gemischten Rechenarten. Ein integrierter algebraischer L\u00f6ser garantiert, dass jedes R\u00e4tsel genau eine korrekte L\u00f6sung hat \u2014 keine Mehrdeutigkeit, kein Raten. W\u00e4hlen Sie Nur Addition f\u00fcr gezieltes \u00dcben oder Addition & Subtraktion f\u00fcr fortgeschrittenes Probleml\u00f6sen. Legen Sie den Zahlenbereich fest, aktivieren Sie negative Ergebnisse f\u00fcr \u00e4ltere Lernende und steuern Sie die R\u00e4tsel pro Seite von 1 bis 6 mit automatischem Layout. W\u00e4hlen Sie Bilder einzeln aus, laden Sie ein komplettes Themenset oder laden Sie eigene PNG- oder JPEG-Dateien f\u00fcr markentypische Puzzles hoch. Da R\u00e4tsel ausschlie\u00dflich Bilder und Zahlen verwenden, funktionieren sie identisch in jeder Sprache \u2014 verkaufen Sie dasselbe PDF weltweit ohne \u00dcbersetzung. Download als druckfertiges PDF oder hochaufl\u00f6sendes JPEG. Die kostenlose Testversion enth\u00e4lt ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    tagline: 'Visuelle Algebra-Bilderrätsel mit Bildsymbolen als Variablen in unter 60 Sekunden erstellen',
+    description: 'Gehen Sie über Standard-Rechenaufgaben hinaus mit Algebra-Bilderrätseln, die Schüler zum Denken in Gleichungssystemen herausfordern. Jedes Arbeitsblatt präsentiert verknüpfte Gleichungen, in denen Bilder unbekannte Variablen ersetzen — Schüler müssen den numerischen Wert bestimmen, den jedes Bild darstellt. Vier Schwierigkeitsstufen skalieren von zwei Symbolen mit einfacher Addition bis zu vier simultanen Unbekannten mit gemischten Rechenarten. Ein integrierter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat — keine Mehrdeutigkeit, kein Raten. Wählen Sie Nur Addition für gezieltes Üben oder Addition & Subtraktion für fortgeschrittenes Problemlösen. Legen Sie den Zahlenbereich fest, aktivieren Sie negative Ergebnisse für ältere Lernende und steuern Sie die Rätsel pro Seite von 1 bis 6 mit automatischem Layout. Wählen Sie Bilder einzeln aus, laden Sie ein komplettes Themenset oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Puzzles hoch. Da Rätsel ausschließlich Bilder und Zahlen verwenden, funktionieren sie identisch in jeder Sprache — verkaufen Sie dasselbe PDF weltweit ohne Übersetzung. Download als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
-    title: 'Algebra-Bilderr\u00e4tsel erstellen in 8 einfachen Schritten',
+    title: 'Algebra-Bilderrätsel erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Arbeitsblatt-Generator \u00f6ffnen',
-        description: 'Klicken Sie auf \u201eKostenlos testen\u201c, um den Mathe-Arbeitsblatt-Ersteller zu starten. Das Tool \u00f6ffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links f\u00fcr alle Einstellungen und einer hellen Arbeitsfl\u00e4che rechts f\u00fcr die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        title: 'Den Arbeitsblatt-Generator öffnen',
+        description: 'Klicken Sie auf „Kostenlos testen“, um den Mathe-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Das Seitenlayout festlegen',
-        description: 'Im Bereich \u201eSeiten-Setup\u201c w\u00e4hlen Sie Ihre Seitengr\u00f6\u00dfe: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, f\u00fcgen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und w\u00e4hlen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Diese Einstellungen definieren das Gesamterscheinungsbild Ihres fertigen Arbeitsblatts.',
+        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Diese Einstellungen definieren das Gesamterscheinungsbild Ihres fertigen Arbeitsblatts.',
       },
       {
-        title: 'Schwierigkeitsstufe und Rechenart w\u00e4hlen',
-        description: 'W\u00e4hlen Sie eine Schwierigkeitsstufe: Sehr Leicht (2 Symbole, einfache Gleichungen), Leicht (2 Symbole, schwierigere Gleichungen), Mittel (3 Symbole, 3 verkn\u00fcpfte Gleichungen) oder Schwer (4 simultane Unbekannte \u00fcber 4 Gleichungen). W\u00e4hlen Sie dann den Rechenmodus: Nur Addition f\u00fcr gezieltes \u00dcben oder Addition & Subtraktion f\u00fcr gemischte, fortgeschrittene R\u00e4tsel.',
+        title: 'Schwierigkeitsstufe und Rechenart wählen',
+        description: 'Wählen Sie eine Schwierigkeitsstufe: Sehr Leicht (2 Symbole, einfache Gleichungen), Leicht (2 Symbole, schwierigere Gleichungen), Mittel (3 Symbole, 3 verknüpfte Gleichungen) oder Schwer (4 simultane Unbekannte über 4 Gleichungen). Wählen Sie dann den Rechenmodus: Nur Addition für gezieltes Üben oder Addition & Subtraktion für gemischte, fortgeschrittene Rätsel.',
       },
       {
         title: 'Zahlenbereich und Optionen konfigurieren',
-        description: 'Legen Sie die Mindest- und H\u00f6chstwerte f\u00fcr die Gleichungen fest (Standard 0\u201320). F\u00fcr fortgeschrittene Sch\u00fcler aktivieren Sie den Schalter \u201eNegative Ergebnisse erlauben\u201c, damit Subtraktionsgleichungen Werte unter Null erzeugen k\u00f6nnen. Diese Steuerungen erm\u00f6glichen es Ihnen, jedes Arbeitsblatt pr\u00e4zise an die Zielgruppe und das Lehrplanniveau anzupassen.',
+        description: 'Legen Sie die Mindest- und Höchstwerte für die Gleichungen fest (Standard 0–20). Für fortgeschrittene Schüler aktivieren Sie den Schalter „Negative Ergebnisse erlauben“, damit Subtraktionsgleichungen Werte unter Null erzeugen können. Diese Steuerungen ermöglichen es Ihnen, jedes Arbeitsblatt präzise an die Zielgruppe und das Lehrplanniveau anzupassen.',
       },
       {
-        title: 'Bilder ausw\u00e4hlen',
-        description: '\u00d6ffnen Sie das Panel \u201eBildbibliothek\u201c und durchst\u00f6bern Sie \u00fcber 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Sie k\u00f6nnen einzelne Bilder ausw\u00e4hlen, ein komplettes Thema laden oder auf \u201eEigenes Bild hochladen\u201c klicken, um eigene PNG- oder JPEG-Dateien als Variablensymbole zu verwenden.',
+        title: 'Bilder auswählen',
+        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Sie können einzelne Bilder auswählen, ein komplettes Thema laden oder auf „Eigenes Bild hochladen“ klicken, um eigene PNG- oder JPEG-Dateien als Variablensymbole zu verwenden.',
       },
       {
-        title: 'Die Bildbibliothek durchst\u00f6bern',
-        description: 'Die integrierte Bibliothek enth\u00e4lt \u00fcber 3.100 Bilder in 104 thematischen Sammlungen. Klicken Sie auf ein Bild, um es als Variablensymbol zuzuweisen. Beliebte Themen sind Tiere, Dinosaurier, Fahrzeuge, Essen, Meeresbewohner, Sport und Feiertage. Jedes Thema bietet genug Vielfalt, um ganze Arbeitsb\u00fccher zu f\u00fcllen, ohne Symbole zu wiederholen.',
+        title: 'Die Bildbibliothek durchstöbern',
+        description: 'Die integrierte Bibliothek enthält über 3.100 Bilder in 104 thematischen Sammlungen. Klicken Sie auf ein Bild, um es als Variablensymbol zuzuweisen. Beliebte Themen sind Tiere, Dinosaurier, Fahrzeuge, Essen, Meeresbewohner, Sport und Feiertage. Jedes Thema bietet genug Vielfalt, um ganze Arbeitsbücher zu füllen, ohne Symbole zu wiederholen.',
       },
       {
-        title: 'Text, Nummerierung und R\u00e4tsel pro Seite einstellen',
-        description: 'F\u00fcgen Sie einen Titel, Untertitel oder benutzerdefinierten Textblock hinzu. Aktivieren Sie die automatische Nummerierung \u00fcber Seiten hinweg. Verwenden Sie die Steuerung \u201eR\u00e4tsel pro Seite\u201c, um 1 bis 6 R\u00e4tsel auf jeder Seite zu platzieren \u2014 das Layout passt sich automatisch an. Weniger R\u00e4tsel pro Seite geben Sch\u00fclern mehr Arbeitsraum; mehr R\u00e4tsel pro Seite erzeugen kompakte \u00dcbungsbl\u00e4tter.',
+        title: 'Text, Nummerierung und Rätsel pro Seite einstellen',
+        description: 'Fügen Sie einen Titel, Untertitel oder benutzerdefinierten Textblock hinzu. Aktivieren Sie die automatische Nummerierung über Seiten hinweg. Verwenden Sie die Steuerung „Rätsel pro Seite“, um 1 bis 6 Rätsel auf jeder Seite zu platzieren — das Layout passt sich automatisch an. Weniger Rätsel pro Seite geben Schülern mehr Arbeitsraum; mehr Rätsel pro Seite erzeugen kompakte Übungsblätter.',
       },
       {
-        title: 'Generieren, pr\u00fcfen und herunterladen',
-        description: 'Klicken Sie auf \u201eGenerieren\u201c, um Ihr Algebra-R\u00e4tsel-Arbeitsblatt zu erstellen. Der integrierte L\u00f6ser \u00fcberpr\u00fcft, dass jedes R\u00e4tsel genau eine L\u00f6sung hat, bevor es gerendert wird. Sehen Sie sich die Vorschau auf der Arbeitsfl\u00e4che an und laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren Sie immer den passenden L\u00f6sungsschl\u00fcssel \u2014 er zeigt den numerischen Wert jedes Bildsymbols f\u00fcr schnelle Bewertung.',
+        title: 'Generieren, prüfen und herunterladen',
+        description: 'Klicken Sie auf „Generieren“, um Ihr Algebra-Rätsel-Arbeitsblatt zu erstellen. Der integrierte Löser überprüft, dass jedes Rätsel genau eine Lösung hat, bevor es gerendert wird. Sehen Sie sich die Vorschau auf der Arbeitsfläche an und laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren Sie immer den passenden Lösungsschlüssel — er zeigt den numerischen Wert jedes Bildsymbols für schnelle Bewertung.',
       },
     ],
   },
 
   whatYouCanCreate: [
     {
-      title: 'Thematische Algebra-Bilderr\u00e4tsel-Pakete',
-      description: 'Erstellen Sie Sets mit 15\u201320 Algebra-Bilderr\u00e4tseln mit thematischen Bildsymbolen aus der Bibliothek \u2014 Dinosaurier, Weltraum, Tiere, Fahrzeuge. Jedes R\u00e4tsel verwendet andere Bilder als Variablen bei gleichbleibender Schwierigkeitsstufe. B\u00fcndeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das visuelle Algebra-Format ist einzigartig und l\u00e4sst Ihr Listing-Vorschaubild sofort aus der Masse gew\u00f6hnlicher Mathe-Arbeitsbl\u00e4tter herausstechen.',
+      title: 'Thematische Algebra-Bilderrätsel-Pakete',
+      description: 'Erstellen Sie Sets mit 15–20 Algebra-Bilderrätseln mit thematischen Bildsymbolen aus der Bibliothek — Dinosaurier, Weltraum, Tiere, Fahrzeuge. Jedes Rätsel verwendet andere Bilder als Variablen bei gleichbleibender Schwierigkeitsstufe. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das visuelle Algebra-Format ist einzigartig und lässt Ihr Listing-Vorschaubild sofort aus der Masse gewöhnlicher Mathe-Arbeitsblätter herausstechen.',
     },
     {
-      title: 'KDP-Algebra-Arbeitsb\u00fccher mit Schwierigkeitsstufen',
-      description: 'Stellen Sie 60\u2013100 Seiten Algebra-Bilderr\u00e4tsel zusammen, strukturiert nach Schwierigkeit. Beginnen Sie mit Sehr Leicht (2 Symbole, nur Addition) und steigern Sie \u00fcber Leicht und Mittel bis zu Schwer (4 Unbekannte, gemischte Rechenarten). Ver\u00f6ffentlichen Sie als strukturiertes Aktivit\u00e4ts-Arbeitsbuch auf Amazon KDP. Die progressive Schwierigkeitssteigerung erzeugt einen nat\u00fcrlichen Lehrplan, dem Eltern und Lehrkr\u00e4fte von Anfang bis Ende folgen k\u00f6nnen.',
+      title: 'KDP-Algebra-Arbeitsbücher mit Schwierigkeitsstufen',
+      description: 'Stellen Sie 60–100 Seiten Algebra-Bilderrätsel zusammen, strukturiert nach Schwierigkeit. Beginnen Sie mit Sehr Leicht (2 Symbole, nur Addition) und steigern Sie über Leicht und Mittel bis zu Schwer (4 Unbekannte, gemischte Rechenarten). Veröffentlichen Sie als strukturiertes Aktivitäts-Arbeitsbuch auf Amazon KDP. Die progressive Schwierigkeitssteigerung erzeugt einen natürlichen Lehrplan, dem Eltern und Lehrkräfte von Anfang bis Ende folgen können.',
     },
     {
       title: 'Differenzierte Klassensatz-Pakete',
-      description: 'Generieren Sie vier Versionen desselben thematischen R\u00e4tsels auf jeder Schwierigkeitsstufe: Sehr Leicht, Leicht, Mittel und Schwer. Lehrkr\u00e4fte teilen jeder Sch\u00fclerin und jedem Sch\u00fcler die passende Version zu. Alle Versionen verwenden dasselbe Bildthema, sodass sich niemand ausgeschlossen f\u00fchlt. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz.',
+      description: 'Generieren Sie vier Versionen desselben thematischen Rätsels auf jeder Schwierigkeitsstufe: Sehr Leicht, Leicht, Mittel und Schwer. Lehrkräfte teilen jeder Schülerin und jedem Schüler die passende Version zu. Alle Versionen verwenden dasselbe Bildthema, sodass sich niemand ausgeschlossen fühlt. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz.',
     },
     {
       title: 'Eigene-Bilder-Marken-Puzzles',
-      description: 'Laden Sie eigene Illustrationen, Logos oder lizenzierte Grafiken hoch, um Algebra-R\u00e4tsel zu erstellen, die kein Wettbewerber kopieren kann. Die hochgeladenen Bilder werden zu den Variablensymbolen in jeder Gleichung. Perfekt f\u00fcr den Aufbau einer unverwechselbaren visuellen Marke auf Etsy, personalisierte Klassenmaterialien oder ma\u00dfgeschneiderte Mathe-Aktivit\u00e4ten f\u00fcr Nachhilfe-Unternehmen.',
+      description: 'Laden Sie eigene Illustrationen, Logos oder lizenzierte Grafiken hoch, um Algebra-Rätsel zu erstellen, die kein Wettbewerber kopieren kann. Die hochgeladenen Bilder werden zu den Variablensymbolen in jeder Gleichung. Perfekt für den Aufbau einer unverwechselbaren visuellen Marke auf Etsy, personalisierte Klassenmaterialien oder maßgeschneiderte Mathe-Aktivitäten für Nachhilfe-Unternehmen.',
     },
     {
-      title: 'Saisonale Algebra-B\u00fcndel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte B\u00fcndel zu erstellen. Ein \u201eWeihnachts-Algebra-R\u00e4tsel\u201c-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November\u2013Dezember. Halloween-, Valentinstag- und Schulanfangs-R\u00e4tsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz. Das Algebra-Format erh\u00f6ht den wahrgenommenen Schwierigkeitsgrad und Wert gegen\u00fcber einfacher Arithmetik.',
+      title: 'Saisonale Algebra-Bündel',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Algebra-Rätsel“-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Rätsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz. Das Algebra-Format erhöht den wahrgenommenen Schwierigkeitsgrad und Wert gegenüber einfacher Arithmetik.',
     },
     {
       title: 'Gemischte-Schwierigkeit-Sampler-Pakete',
-      description: 'Erstellen Sie Vielfalt-Pakete mit R\u00e4tseln aus allen vier Schwierigkeitsstufen und beiden Rechenmodi. F\u00fcgen Sie je 5 R\u00e4tsel in Sehr Leicht, Leicht, Mittel und Schwer in ein einzelnes Produkt ein. K\u00e4ufer erhalten eine komplette Bandbreite an Herausforderungen in einem Kauf. Perfekt f\u00fcr Homeschool-Familien und Nachmittagsbetreuungen, die mehrere Altersgruppen gleichzeitig bedienen.',
+      description: 'Erstellen Sie Vielfalt-Pakete mit Rätseln aus allen vier Schwierigkeitsstufen und beiden Rechenmodi. Fügen Sie je 5 Rätsel in Sehr Leicht, Leicht, Mittel und Schwer in ein einzelnes Produkt ein. Käufer erhalten eine komplette Bandbreite an Herausforderungen in einem Kauf. Perfekt für Homeschool-Familien und Nachmittagsbetreuungen, die mehrere Altersgruppen gleichzeitig bedienen.',
     },
   ],
 
   businessIdeas: [
     {
-      title: 'Visueller Algebra-R\u00e4tsel-Shop auf Etsy.de',
-      description: 'Er\u00f6ffnen Sie einen Etsy-Shop, der sich auf Algebra-Bilderr\u00e4tsel spezialisiert. Dieses Format ist einzigartig \u2014 die meisten Mathe-Druckvorlagen auf Etsy sind Standard-Rechenarbeitsbl\u00e4tter. Ihre visuellen Algebra-R\u00e4tsel mit Bildvariablen und garantiert eindeutigen L\u00f6sungen stechen in Suchergebnissen hervor. Erstellen Sie 15\u201320 thematische B\u00fcndel zum Preis von 3\u20135 \u20ac pro St\u00fcck. Da R\u00e4tsel nur Bilder und Zahlen verwenden, funktioniert jedes Listing f\u00fcr K\u00e4ufer weltweit ohne \u00dcbersetzung.',
+      title: 'Visueller Algebra-Rätsel-Shop auf Etsy.de',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Algebra-Bilderrätsel spezialisiert. Dieses Format ist einzigartig — die meisten Mathe-Druckvorlagen auf Etsy sind Standard-Rechenarbeitsblätter. Ihre visuellen Algebra-Rätsel mit Bildvariablen und garantiert eindeutigen Lösungen stechen in Suchergebnissen hervor. Erstellen Sie 15–20 thematische Bündel zum Preis von 3–5 € pro Stück. Da Rätsel nur Bilder und Zahlen verwenden, funktioniert jedes Listing für Käufer weltweit ohne Übersetzung.',
       platform: 'Etsy.de',
     },
     {
-      title: 'Algebra-Aktivit\u00e4tsb\u00fccher auf Amazon KDP',
-      description: 'Stellen Sie \u00fcber 60 Seiten visueller Algebra-R\u00e4tsel zu einem physischen Aktivit\u00e4ts-Arbeitsbuch zusammen. Strukturieren Sie Kapitel nach Schwierigkeitsstufe: Sehr Leicht zum Aufw\u00e4rmen, Leicht zum \u00dcben, Mittel als Herausforderung und Schwer als Denksportaufgaben. Mischen Sie Nur-Addition- und Addition-&-Subtraktion-Modi f\u00fcr Abwechslung. Setzen Sie den Preis bei 7,99\u20139,99 \u20ac und lassen Sie Amazon Druck und Versand \u00fcbernehmen.',
+      title: 'Algebra-Aktivitätsbücher auf Amazon KDP',
+      description: 'Stellen Sie über 60 Seiten visueller Algebra-Rätsel zu einem physischen Aktivitäts-Arbeitsbuch zusammen. Strukturieren Sie Kapitel nach Schwierigkeitsstufe: Sehr Leicht zum Aufwärmen, Leicht zum Üben, Mittel als Herausforderung und Schwer als Denksportaufgaben. Mischen Sie Nur-Addition- und Addition-&-Subtraktion-Modi für Abwechslung. Setzen Sie den Preis bei 7,99–9,99 € und lassen Sie Amazon Druck und Versand übernehmen.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Premium-Algebra-Pakete auf Lehrermarktplatz',
-      description: 'Laden Sie differenzierte Algebra-R\u00e4tsel-Pakete auf den Lehrermarktplatz hoch. Lehrkr\u00e4fte suchen st\u00e4ndig nach \u201eAlgebra-Arbeitsbl\u00e4tter\u201c und \u201eMathe-R\u00e4tsel\u201c. F\u00fcgen Sie alle vier Schwierigkeitsstufen, beide Rechenmodi, L\u00f6sungsschl\u00fcssel und eine Lehreranleitung ein, die erkl\u00e4rt, wie das visuelle Algebra-Format funktioniert. Die Garantie eindeutiger L\u00f6sungen erh\u00f6ht die Glaubw\u00fcrdigkeit, die Lehrkr\u00e4fte bei der Materialauswahl sch\u00e4tzen.',
+      description: 'Laden Sie differenzierte Algebra-Rätsel-Pakete auf den Lehrermarktplatz hoch. Lehrkräfte suchen ständig nach „Algebra-Arbeitsblätter“ und „Mathe-Rätsel“. Fügen Sie alle vier Schwierigkeitsstufen, beide Rechenmodi, Lösungsschlüssel und eine Lehreranleitung ein, die erklärt, wie das visuelle Algebra-Format funktioniert. Die Garantie eindeutiger Lösungen erhöht die Glaubwürdigkeit, die Lehrkräfte bei der Materialauswahl schätzen.',
       platform: 'Lehrermarktplatz',
     },
     {
       title: 'Mathe-Challenge-Kits auf Gumroad',
-      description: 'Erstellen Sie ein Premium-R\u00e4tsel-Kit auf Gumroad mit \u00fcber 40 Algebra-R\u00e4tseln auf Mittel- und Schwer-Niveau. Sprechen Sie Homeschool-Eltern und Mathe-Nachhilfelehrer an, die anspruchsvolle, motivierende Materialien suchen. Legen Sie eine Elternanleitung bei, die erkl\u00e4rt, wie jede Schwierigkeitsstufe altersgerechten Algebra-Konzepten entspricht. Das visuelle Format macht abstrakte Algebra f\u00fcr j\u00fcngere Lernende zug\u00e4nglich.',
+      description: 'Erstellen Sie ein Premium-Rätsel-Kit auf Gumroad mit über 40 Algebra-Rätseln auf Mittel- und Schwer-Niveau. Sprechen Sie Homeschool-Eltern und Mathe-Nachhilfelehrer an, die anspruchsvolle, motivierende Materialien suchen. Legen Sie eine Elternanleitung bei, die erklärt, wie jede Schwierigkeitsstufe altersgerechten Algebra-Konzepten entspricht. Das visuelle Format macht abstrakte Algebra für jüngere Lernende zugänglich.',
       platform: 'Gumroad',
     },
     {
-      title: 'Pinterest-Algebra-R\u00e4tsel-Trichter',
-      description: 'Das visuelle Algebra-Format erzeugt auff\u00e4llige Pins \u2014 farbenfrohe Bildsymbole in Gleichungslayouts sind sofort erkennbar und wecken Neugier. Bieten Sie eine kostenlose 5-seitige Probe auf Pinterest an, sammeln Sie E-Mail-Adressen und verkaufen Sie dann Ihre vollst\u00e4ndigen thematischen B\u00fcndel und KDP-Arbeitsb\u00fccher als Upsell. R\u00e4tselbilder mit Tier- oder Essens-Symbolen erhalten deutlich mehr Speicherungen als einfache Arbeitsblatt-Vorschaubilder.',
+      title: 'Pinterest-Algebra-Rätsel-Trichter',
+      description: 'Das visuelle Algebra-Format erzeugt auffällige Pins — farbenfrohe Bildsymbole in Gleichungslayouts sind sofort erkennbar und wecken Neugier. Bieten Sie eine kostenlose 5-seitige Probe auf Pinterest an, sammeln Sie E-Mail-Adressen und verkaufen Sie dann Ihre vollständigen thematischen Bündel und KDP-Arbeitsbücher als Upsell. Rätselbilder mit Tier- oder Essens-Symbolen erhalten deutlich mehr Speicherungen als einfache Arbeitsblatt-Vorschaubilder.',
       platform: 'Pinterest',
     },
     {
-      title: 'Mehrsprachige Algebra-R\u00e4tsel-Expansion',
-      description: 'Algebra-Bilderr\u00e4tsel verwenden ausschlie\u00dflich Bilder, Zahlen und mathematische Operatoren \u2014 kein Text. Ein einzelnes R\u00e4tsel-PDF funktioniert identisch in jeder Sprache. Listen Sie dasselbe Produkt auf Etsy Deutschland, Frankreich, Spanien, Italien und Japan, ohne \u00dcbersetzungsarbeit. Die meisten Wettbewerber bedienen nur englischsprachige K\u00e4ufer \u2014 Sie erreichen sofort 5\u201310 Mal mehr potenzielle Kunden ohne zus\u00e4tzlichen Aufwand.',
+      title: 'Mehrsprachige Algebra-Rätsel-Expansion',
+      description: 'Algebra-Bilderrätsel verwenden ausschließlich Bilder, Zahlen und mathematische Operatoren — kein Text. Ein einzelnes Rätsel-PDF funktioniert identisch in jeder Sprache. Listen Sie dasselbe Produkt auf Etsy Deutschland, Frankreich, Spanien, Italien und Japan, ohne Übersetzungsarbeit. Die meisten Wettbewerber bedienen nur englischsprachige Käufer — Sie erreichen sofort 5–10 Mal mehr potenzielle Kunden ohne zusätzlichen Aufwand.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Mit Sehr Leicht f\u00fcr Einsteiger beginnen',
-      description: 'Sehr Leicht verwendet nur 2 Bildsymbole mit einfachen Additionsgleichungen. Das ist perfekt f\u00fcr Sch\u00fcler, die visueller Algebra zum ersten Mal begegnen. Lassen Sie sie Vertrauen aufbauen, indem sie das Muster erkennen, bevor sie zu Leicht, Mittel und Schwer aufsteigen. Schrittweise Steigerung h\u00e4lt die Frustration niedrig und das Engagement hoch.',
+      title: 'Mit Sehr Leicht für Einsteiger beginnen',
+      description: 'Sehr Leicht verwendet nur 2 Bildsymbole mit einfachen Additionsgleichungen. Das ist perfekt für Schüler, die visueller Algebra zum ersten Mal begegnen. Lassen Sie sie Vertrauen aufbauen, indem sie das Muster erkennen, bevor sie zu Leicht, Mittel und Schwer aufsteigen. Schrittweise Steigerung hält die Frustration niedrig und das Engagement hoch.',
     },
     {
-      title: 'Gemischte Rechenarten f\u00fcr Abwechslung nutzen',
-      description: 'Der Modus Addition & Subtraktion erzeugt R\u00e4tsel, die unterschiedliche L\u00f6sungsstrategien innerhalb desselben Arbeitsblatts erfordern. Das verhindert, dass Sch\u00fcler in ein repetitives Muster verfallen, und testet beide Rechenf\u00e4higkeiten gleichzeitig. R\u00e4tsel mit gemischten Rechenarten haben au\u00dferdem einen h\u00f6heren wahrgenommenen Wert in Marktplatz-Listings, weil sie mehr Lehrplaninhalt abdecken.',
+      title: 'Gemischte Rechenarten für Abwechslung nutzen',
+      description: 'Der Modus Addition & Subtraktion erzeugt Rätsel, die unterschiedliche Lösungsstrategien innerhalb desselben Arbeitsblatts erfordern. Das verhindert, dass Schüler in ein repetitives Muster verfallen, und testet beide Rechenfähigkeiten gleichzeitig. Rätsel mit gemischten Rechenarten haben außerdem einen höheren wahrgenommenen Wert in Marktplatz-Listings, weil sie mehr Lehrplaninhalt abdecken.',
     },
     {
-      title: 'Eigene Bilder f\u00fcr Wiedererkennungswert hochladen',
-      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um R\u00e4tsel zu erstellen, die kein Wettbewerber kopieren kann. Die hochgeladenen Bilder werden zu den Gleichungsvariablen und machen Ihre Produkte visuell unverwechselbar. K\u00e4ufer, die Ihren Symbolstil wiedererkennen, kehren zu Ihrem Shop zur\u00fcck. Eigene Bilder erm\u00f6glichen auch ultaspezifische Nischen.',
+      title: 'Eigene Bilder für Wiedererkennungswert hochladen',
+      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Rätsel zu erstellen, die kein Wettbewerber kopieren kann. Die hochgeladenen Bilder werden zu den Gleichungsvariablen und machen Ihre Produkte visuell unverwechselbar. Käufer, die Ihren Symbolstil wiedererkennen, kehren zu Ihrem Shop zurück. Eigene Bilder ermöglichen auch ultaspezifische Nischen.',
     },
     {
-      title: '1\u20132 R\u00e4tsel pro Seite f\u00fcr j\u00fcngere Lernende',
-      description: 'Stellen Sie R\u00e4tsel pro Seite auf 1 oder 2 f\u00fcr j\u00fcngere Sch\u00fcler, die mehr Arbeitsraum ben\u00f6tigen. Gr\u00f6\u00dfere R\u00e4tsel mit gr\u00f6\u00dferen Symbolen und Gleichungen sind leichter zu lesen und weniger \u00fcberw\u00e4ltigend. Reservieren Sie 4\u20136 R\u00e4tsel pro Seite f\u00fcr \u00e4ltere Sch\u00fcler oder kompakte \u00dcbungsbl\u00e4tter f\u00fcr schnelle Wiederholungseinheiten.',
+      title: '1–2 Rätsel pro Seite für jüngere Lernende',
+      description: 'Stellen Sie Rätsel pro Seite auf 1 oder 2 für jüngere Schüler, die mehr Arbeitsraum benötigen. Größere Rätsel mit größeren Symbolen und Gleichungen sind leichter zu lesen und weniger überwältigend. Reservieren Sie 4–6 Rätsel pro Seite für ältere Schüler oder kompakte Übungsblätter für schnelle Wiederholungseinheiten.',
     },
     {
       title: 'Mit Standard-Mathe-Tools kombinieren',
-      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-R\u00e4tsel-Ersteller. Verkaufen Sie einzeln und als kombiniertes \u201eMathe-\u00dcbung + Algebra-R\u00e4tsel\u201c-B\u00fcndel. Die visuelle Algebra-Komponente f\u00fcgt ein Herausforderungselement hinzu, das das B\u00fcndel attraktiver macht als reine Arbeitsbl\u00e4tter.',
+      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-Rätsel-Ersteller. Verkaufen Sie einzeln und als kombiniertes „Mathe-Übung + Algebra-Rätsel“-Bündel. Die visuelle Algebra-Komponente fügt ein Herausforderungselement hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
     },
     {
       title: 'Beide Formate exportieren',
-      description: 'Laden Sie Arbeitsbl\u00e4tter sowohl als PDF als auch als JPEG herunter. PDFs eignen sich ideal zum direkten Drucken und als digitale Produktlieferung. JPEGs sind perfekt f\u00fcr Produkt-Mockups, Social-Media-Beitr\u00e4ge und Etsy-Listing-Vorschaubilder. Beide Formate bereit zu haben spart Zeit beim Einstellen von Produkten auf mehreren Plattformen.',
+      description: 'Laden Sie Arbeitsblätter sowohl als PDF als auch als JPEG herunter. PDFs eignen sich ideal zum direkten Drucken und als digitale Produktlieferung. JPEGs sind perfekt für Produkt-Mockups, Social-Media-Beiträge und Etsy-Listing-Vorschaubilder. Beide Formate bereit zu haben spart Zeit beim Einstellen von Produkten auf mehreren Plattformen.',
     },
     {
-      title: 'Immer den L\u00f6sungsschl\u00fcssel beilegen',
-      description: 'Generieren Sie den L\u00f6sungsschl\u00fcssel vor dem Herunterladen Ihrer Arbeitsbl\u00e4tter. Der L\u00f6sungsschl\u00fcssel zeigt den numerischen Wert jedes Bildsymbols und das vollst\u00e4ndig gel\u00f6ste Gleichungssystem. K\u00e4ufer auf Etsy und Lehrermarktplatz bewerten Produkte durchgehend h\u00f6her, wenn ein L\u00f6sungsschl\u00fcssel enthalten ist \u2014 das spart Lehrkr\u00e4ften wertvolle Korrekturzeit und gibt Eltern Sicherheit bei der L\u00f6sung.',
+      title: 'Immer den Lösungsschlüssel beilegen',
+      description: 'Generieren Sie den Lösungsschlüssel vor dem Herunterladen Ihrer Arbeitsblätter. Der Lösungsschlüssel zeigt den numerischen Wert jedes Bildsymbols und das vollständig gelöste Gleichungssystem. Käufer auf Etsy und Lehrermarktplatz bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist — das spart Lehrkräften wertvolle Korrekturzeit und gibt Eltern Sicherheit bei der Lösung.',
     },
   ],
 
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit s\u00e4mtlichen Funktionen \u2014 keine Anmeldung, keine Kreditkarte erforderlich. Sie k\u00f6nnen so viele Arbeitsbl\u00e4tter erstellen, in der Vorschau ansehen und herunterladen, wie Sie m\u00f6chten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
     },
     {
-      question: 'Wie funktionieren die Algebra-Bilderr\u00e4tsel?',
-      answer: 'Jedes R\u00e4tsel pr\u00e4sentiert ein System verkn\u00fcpfter Gleichungen, in denen Bilder unbekannte Variablen ersetzen. Sch\u00fcler analysieren die Beziehungen zwischen den Gleichungen, um den numerischen Wert jedes Bildes zu bestimmen. Zum Beispiel: Wenn Katze + Hund = 7 und Katze + Katze = 6, dann ist Katze = 3 und Hund = 4. Der integrierte L\u00f6ser garantiert, dass jedes R\u00e4tsel genau eine korrekte L\u00f6sung hat.',
+      question: 'Wie funktionieren die Algebra-Bilderrätsel?',
+      answer: 'Jedes Rätsel präsentiert ein System verknüpfter Gleichungen, in denen Bilder unbekannte Variablen ersetzen. Schüler analysieren die Beziehungen zwischen den Gleichungen, um den numerischen Wert jedes Bildes zu bestimmen. Zum Beispiel: Wenn Katze + Hund = 7 und Katze + Katze = 6, dann ist Katze = 3 und Hund = 4. Der integrierte Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat.',
     },
     {
       question: 'Welche vier Schwierigkeitsstufen gibt es?',
-      answer: 'Sehr Leicht verwendet 2 Bildsymbole mit einfachen Gleichungen. Leicht verwendet 2 Symbole mit etwas anspruchsvolleren Gleichungen. Mittel f\u00fchrt 3 Symbole \u00fcber 3 verkn\u00fcpfte Gleichungen ein. Schwer pr\u00e4sentiert 4 simultane Unbekannte \u00fcber 4 Gleichungen. Jede Stufe erh\u00f6ht schrittweise die Anzahl der Variablen und die Komplexit\u00e4t des Gleichungssystems.',
+      answer: 'Sehr Leicht verwendet 2 Bildsymbole mit einfachen Gleichungen. Leicht verwendet 2 Symbole mit etwas anspruchsvolleren Gleichungen. Mittel führt 3 Symbole über 3 verknüpfte Gleichungen ein. Schwer präsentiert 4 simultane Unbekannte über 4 Gleichungen. Jede Stufe erhöht schrittweise die Anzahl der Variablen und die Komplexität des Gleichungssystems.',
     },
     {
-      question: 'Welche Rechenmodi sind verf\u00fcgbar?',
-      answer: 'Der Modus Nur Addition erzeugt Gleichungen ausschlie\u00dflich mit Addition. Der Modus Addition & Subtraktion mischt beide Rechenarten \u00fcber das Gleichungssystem. Der gemischte Modus ist ideal f\u00fcr fortgeschrittenes \u00dcben und Wiederholungs-Arbeitsbl\u00e4tter, die beide F\u00e4higkeiten gleichzeitig in einem einzelnen R\u00e4tsel testen.',
+      question: 'Welche Rechenmodi sind verfügbar?',
+      answer: 'Der Modus Nur Addition erzeugt Gleichungen ausschließlich mit Addition. Der Modus Addition & Subtraktion mischt beide Rechenarten über das Gleichungssystem. Der gemischte Modus ist ideal für fortgeschrittenes Üben und Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig in einem einzelnen Rätsel testen.',
     },
     {
-      question: 'Wie funktioniert die Garantie eindeutiger L\u00f6sungen?',
-      answer: 'Das Tool verwendet einen integrierten algebraischen L\u00f6ser, der jedes generierte R\u00e4tsel \u00fcberpr\u00fcft, bevor es gerendert wird. Wenn eine zuf\u00e4llige R\u00e4tselkonfiguration mehrere L\u00f6sungen oder keine L\u00f6sung ergibt, verwirft der Generator sie automatisch und erstellt eine neue. Sie m\u00fcssen nie manuell pr\u00fcfen, ob ein R\u00e4tsel l\u00f6sbar ist.',
+      question: 'Wie funktioniert die Garantie eindeutiger Lösungen?',
+      answer: 'Das Tool verwendet einen integrierten algebraischen Löser, der jedes generierte Rätsel überprüft, bevor es gerendert wird. Wenn eine zufällige Rätselkonfiguration mehrere Lösungen oder keine Lösung ergibt, verwirft der Generator sie automatisch und erstellt eine neue. Sie müssen nie manuell prüfen, ob ein Rätsel lösbar ist.',
     },
     {
-      question: 'Was bewirkt der Schalter f\u00fcr negative Ergebnisse?',
-      answer: 'Wenn aktiviert, k\u00f6nnen Subtraktionsgleichungen Werte unter Null erzeugen. Das erh\u00f6ht die Schwierigkeit f\u00fcr fortgeschrittene Lernende, die mit negativen Zahlen vertraut sind. Wenn deaktiviert (die Standardeinstellung), bleiben alle Gleichungsergebnisse innerhalb des positiven Zahlenbereichs, den Sie festgelegt haben. Lassen Sie ihn f\u00fcr Grundsch\u00fcler ausgeschaltet und aktivieren Sie ihn f\u00fcr weiterf\u00fchrende Schule oder fortgeschrittenes Mathe\u00fcben.',
+      question: 'Was bewirkt der Schalter für negative Ergebnisse?',
+      answer: 'Wenn aktiviert, können Subtraktionsgleichungen Werte unter Null erzeugen. Das erhöht die Schwierigkeit für fortgeschrittene Lernende, die mit negativen Zahlen vertraut sind. Wenn deaktiviert (die Standardeinstellung), bleiben alle Gleichungsergebnisse innerhalb des positiven Zahlenbereichs, den Sie festgelegt haben. Lassen Sie ihn für Grundschüler ausgeschaltet und aktivieren Sie ihn für weiterführende Schule oder fortgeschrittenes Matheüben.',
     },
     {
       question: 'Kann ich eigene Bilder als Variablensymbole hochladen?',
-      answer: 'Ja. Klicken Sie auf \u201eEigenes Bild hochladen\u201c, um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So k\u00f6nnen Sie markentypische R\u00e4tsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verk\u00e4ufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So können Sie markentypische Rätsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann.',
     },
     {
-      question: 'Wie viele R\u00e4tsel passen auf eine Seite?',
-      answer: 'Sie k\u00f6nnen 1 bis 6 R\u00e4tsel pro Seite mit der Steuerung \u201eR\u00e4tsel pro Seite\u201c platzieren. Das Layout passt sich automatisch an die gew\u00e4hlte Anzahl an. Verwenden Sie 1\u20132 R\u00e4tsel pro Seite f\u00fcr j\u00fcngere Lernende, die mehr Arbeitsraum ben\u00f6tigen, oder 4\u20136 pro Seite f\u00fcr kompakte \u00dcbungsbl\u00e4tter und Arbeitsbuch-Produkte.',
+      question: 'Wie viele Rätsel passen auf eine Seite?',
+      answer: 'Sie können 1 bis 6 Rätsel pro Seite mit der Steuerung „Rätsel pro Seite“ platzieren. Das Layout passt sich automatisch an die gewählte Anzahl an. Verwenden Sie 1–2 Rätsel pro Seite für jüngere Lernende, die mehr Arbeitsraum benötigen, oder 4–6 pro Seite für kompakte Übungsblätter und Arbeitsbuch-Produkte.',
     },
     {
-      question: 'Funktionieren die R\u00e4tsel in allen Sprachen?',
-      answer: 'Ja. Algebra-Bilderr\u00e4tsel verwenden ausschlie\u00dflich Bilder, Zahlen und mathematische Operatoren \u2014 kein Text. Ein einzelnes R\u00e4tsel-PDF funktioniert identisch in jeder Sprache. Sie k\u00f6nnen dasselbe Produkt an K\u00e4ufer in jedem Land verkaufen, ohne \u00dcbersetzung, und so Ihren erreichbaren Markt sofort vervielfachen.',
+      question: 'Funktionieren die Rätsel in allen Sprachen?',
+      answer: 'Ja. Algebra-Bilderrätsel verwenden ausschließlich Bilder, Zahlen und mathematische Operatoren — kein Text. Ein einzelnes Rätsel-PDF funktioniert identisch in jeder Sprache. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen.',
     },
     {
-      question: 'Kann ich die Arbeitsbl\u00e4tter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur f\u00fcr den pers\u00f6nlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsbl\u00e4tter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, ben\u00f6tigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gew\u00e4hrt volle Weiterverkaufsrechte f\u00fcr alle von Ihnen erstellten Arbeitsbl\u00e4tter.',
+      question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
     },
     {
-      question: 'Was ist Ihre R\u00fcckgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion \u2014 jede Funktion steht Ihnen zur Verf\u00fcgung, damit Sie das Tool vollst\u00e4ndig bewerten k\u00f6nnen, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gew\u00e4hrt, bieten wir keine R\u00fcckerstattung f\u00fcr Lizenzk\u00e4ufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      question: 'Was ist Ihre Rückgabepolitik?',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsbl\u00e4tter \u2014 Vollst\u00e4ndige Produktdetails' },
+    { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblätter — Vollständige Produktdetails' },
     { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },
     { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-R\u00e4tsel-Ersteller' },
+    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
     { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller' },
   ],
@@ -214,27 +214,27 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/german/math worksheet/Math Worksheet 10.webp',
-      primaryAlt: 'Algebra-Bilderr\u00e4tsel-Arbeitsblatt mit Bildsymbolen als unbekannte Variablen in verkn\u00fcpften Gleichungen',
+      primaryAlt: 'Algebra-Bilderrätsel-Arbeitsblatt mit Bildsymbolen als unbekannte Variablen in verknüpften Gleichungen',
     },
     sampleGallery: [
       {
         src: '/samples/german/math worksheet/Math Worksheet 1.webp',
-        alt: 'Visuelles Algebra-R\u00e4tsel mit zwei Bildsymbolen und Additionsgleichungen f\u00fcr Einsteiger',
-        caption: 'Sehr Leicht \u2014 zwei Symbole mit einfacher Addition',
+        alt: 'Visuelles Algebra-Rätsel mit zwei Bildsymbolen und Additionsgleichungen für Einsteiger',
+        caption: 'Sehr Leicht — zwei Symbole mit einfacher Addition',
       },
       {
         src: '/samples/german/math worksheet/Math Worksheet 5.webp',
-        alt: 'Algebra-Bilderr\u00e4tsel mittlerer Schwierigkeit mit drei Bildvariablen in verkn\u00fcpften Gleichungen',
-        caption: 'Mittlere Schwierigkeit \u2014 drei Unbekannte in verkn\u00fcpften Gleichungen',
+        alt: 'Algebra-Bilderrätsel mittlerer Schwierigkeit mit drei Bildvariablen in verknüpften Gleichungen',
+        caption: 'Mittlere Schwierigkeit — drei Unbekannte in verknüpften Gleichungen',
       },
       {
         src: '/samples/german/math worksheet/Math Worksheet 10.webp',
-        alt: 'Schweres Algebra-R\u00e4tsel-Arbeitsblatt mit vier simultanen Unbekannten und gemischten Rechenarten',
-        caption: 'Schwer \u2014 vier Variablen mit Addition und Subtraktion',
+        alt: 'Schweres Algebra-Rätsel-Arbeitsblatt mit vier simultanen Unbekannten und gemischten Rechenarten',
+        caption: 'Schwer — vier Variablen mit Addition und Subtraktion',
       },
     ],
     youtubeId: '-JIawojGNr0',
-    videoTitle: 'Algebra-Bilderr\u00e4tsel-Arbeitsbl\u00e4tter erstellen \u2014 Video-Anleitung',
+    videoTitle: 'Algebra-Bilderrätsel-Arbeitsblätter erstellen — Video-Anleitung',
   },
 };
 

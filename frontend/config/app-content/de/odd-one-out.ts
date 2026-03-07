@@ -2,57 +2,57 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Arbeitsbl\u00e4tter erstellen und verkaufen',
+    primaryKeyword: 'Was-passt-nicht-Arbeitsblätter erstellen und verkaufen',
     secondaryKeywords: [
-      'druckbarer Ausrei\u00dfer-R\u00e4tsel-Generator f\u00fcr Etsy-Verk\u00e4ufer',
-      'Was-passt-nicht-Arbeitsblatt-Generator f\u00fcr KDP-Verleger',
-      'Ausrei\u00dfer-Puzzle-Ersteller kommerzielle Lizenz',
-      'visuelle Unterscheidungs-Arbeitsbl\u00e4tter auf Lehrermarktplatz verkaufen',
+      'druckbarer Ausreißer-Rätsel-Generator für Etsy-Verkäufer',
+      'Was-passt-nicht-Arbeitsblatt-Generator für KDP-Verleger',
+      'Ausreißer-Puzzle-Ersteller kommerzielle Lizenz',
+      'visuelle Unterscheidungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
       'digitale Was-passt-nicht-Druckvorlagen passives Einkommen',
-      'kommerzieller Ausrei\u00dfer-R\u00e4tsel-Generator mit L\u00f6sungsschl\u00fcssel',
-      'Druckvorlagen-Gesch\u00e4ft visuelle Unterscheidung Werkzeuge',
+      'kommerzieller Ausreißer-Rätsel-Generator mit Lösungsschlüssel',
+      'Druckvorlagen-Geschäft visuelle Unterscheidung Werkzeuge',
     ],
-    titleTag: 'Was-Passt-Nicht-Generator | Ausrei\u00dfer-R\u00e4tsel erstellen und verkaufen',
+    titleTag: 'Was-Passt-Nicht-Generator | Ausreißer-Rätsel erstellen und verkaufen',
     metaDescription:
-      'Professionelle Was-passt-nicht-Arbeitsbl\u00e4tter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Erzeugungsmodi (Identisch & \u00c4hnlich), Modus-\u00dcberschreibung pro \u00dcbung, automatischer L\u00f6sungsschl\u00fcssel mit roten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen \u2014 kommerzielle Lizenz verf\u00fcgbar.',
+      'Professionelle Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Erzeugungsmodi (Identisch & Ähnlich), Modus-Überschreibung pro Übung, automatischer Lösungsschlüssel mit roten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
   },
 
   hero: {
-    title: 'Was-Passt-Nicht-Generator f\u00fcr Ausrei\u00dfer-R\u00e4tsel',
-    tagline: 'Zwei Erzeugungsmodi \u2014 Identisch und \u00c4hnlich \u2014 mit Modus-\u00dcberschreibung pro \u00dcbung, 5\u201310 konfigurierbaren \u00dcbungen, automatisch generierten L\u00f6sungsschl\u00fcsseln mit roten Kreismarkierungen und rein visuellen R\u00e4tseln, die in allen 11 Sprachen ohne \u00dcbersetzung funktionieren.',
+    title: 'Was-Passt-Nicht-Generator für Ausreißer-Rätsel',
+    tagline: 'Zwei Erzeugungsmodi — Identisch und Ähnlich — mit Modus-Überschreibung pro Übung, 5–10 konfigurierbaren Übungen, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen und rein visuellen Rätseln, die in allen 11 Sprachen ohne Übersetzung funktionieren.',
     description:
-      'Erstellen Sie professionelle Was-passt-nicht-Arbeitsbl\u00e4tter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. W\u00e4hlen Sie zwischen zwei Erzeugungsmodi: Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema f\u00fcr Finde-den-Unterschied-Herausforderungen, w\u00e4hrend der \u00c4hnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B f\u00fcr themen\u00fcbergreifende Unterscheidungsr\u00e4tsel verwendet. \u00dcberschreiben Sie den Modus pro \u00dcbung, um Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts zu mischen. Konfigurieren Sie 5 bis 10 \u00dcbungen pro Seite (Standard: 6) und aktivieren Sie optionale Name-und-Datum-Felder sowie \u00dcbungsnummern f\u00fcr unterrichtsfertige Formatierung. Jedes Arbeitsblatt generiert automatisch einen begleitenden L\u00f6sungsschl\u00fcssel auf einem separaten Canvas-Tab \u2014 der L\u00f6sungsschl\u00fcssel zeichnet einen roten Kreis um den Ausrei\u00dfer in jeder Reihe, sodass Sie Antworten niemals manuell markieren m\u00fcssen. Der automatisch generierte Header verwendet einen korallenroten \u00e4u\u00dferen Rahmen (#FF6B6B, 8px), einen bernsteinfarbenen inneren Rahmen (#FFB84D, 3px) und einen t\u00fcrkisfarbenen Hintergrund (#4ECDC4) mit dem lokalisierten Titel \u201eFinde den Ausrei\u00dfer\u201c in Fredoka und Anweisungen in Quicksand \u00fcber alle 11 Sprachen. Da die R\u00e4tsel vollst\u00e4ndig visuell sind \u2014 keine W\u00f6rter erscheinen auf dem Arbeitsblatt selbst \u2014 sind sie NICHT sprachabh\u00e4ngig und funktionieren in jedem Land identisch. Vollzugriff schaltet alle 104 Themen mit \u00fcber 3.100 Illustrationen und alle 11 Oberfl\u00e4chensprachen frei. F\u00fcgen Sie Hintergrundthemen und Rahmenthemen mit unabh\u00e4ngigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Gr\u00f6\u00dfen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Arbeitsb\u00fccher zur visuellen Unterscheidung f\u00fcr Amazon KDP zusammenstellen oder R\u00e4tsel-Aktivit\u00e4ten f\u00fcr den Lehrermarktplatz erstellen \u2014 dieser Generator liefert produktionsfertige Was-passt-nicht-Arbeitsbl\u00e4tter in Minuten. Kostenlos testen mit allen Funktionen \u2014 keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Was-passt-nicht-Arbeitsblätter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. Wählen Sie zwischen zwei Erzeugungsmodi: Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema für Finde-den-Unterschied-Herausforderungen, während der Ähnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B für themenübergreifende Unterscheidungsrätsel verwendet. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Seite (Standard: 6) und aktivieren Sie optionale Name-und-Datum-Felder sowie Übungsnummern für unterrichtsfertige Formatierung. Jedes Arbeitsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — der Lösungsschlüssel zeichnet einen roten Kreis um den Ausreißer in jeder Reihe, sodass Sie Antworten niemals manuell markieren müssen. Der automatisch generierte Header verwendet einen korallenroten äußeren Rahmen (#FF6B6B, 8px), einen bernsteinfarbenen inneren Rahmen (#FFB84D, 3px) und einen türkisfarbenen Hintergrund (#4ECDC4) mit dem lokalisierten Titel „Finde den Ausreißer“ in Fredoka und Anweisungen in Quicksand über alle 11 Sprachen. Da die Rätsel vollständig visuell sind — keine Wörter erscheinen auf dem Arbeitsblatt selbst — sind sie NICHT sprachabhängig und funktionieren in jedem Land identisch. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Arbeitsbücher zur visuellen Unterscheidung für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Was-passt-nicht-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
-    title: 'Was-Passt-Nicht-Arbeitsbl\u00e4tter erstellen in 5 Schritten',
+    title: 'Was-Passt-Nicht-Arbeitsblätter erstellen in 5 Schritten',
     steps: [
       {
         title: 'Seitenlayout festlegen',
         description:
-          '\u00d6ffnen Sie das Seiten-Setup-Panel und w\u00e4hlen Sie eine Seitengr\u00f6\u00dfe: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200\u00d71200) oder eine beliebige benutzerdefinierte Dimension. W\u00e4hlen Sie eine Seitenfarbe mit dem Farbw\u00e4hler als Fallback-Hintergrund. W\u00e4hlen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an (0\u20131, Schrittweite 0,05), dann w\u00e4hlen Sie ein Rahmenthema mit eigenem unabh\u00e4ngigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Was-passt-nicht-Arbeitsblatt, bevor Sie \u00dcbungen konfigurieren.',
+          'Öffnen Sie das Seiten-Setup-Panel und wählen Sie eine Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine beliebige benutzerdefinierte Dimension. Wählen Sie eine Seitenfarbe mit dem Farbwähler als Fallback-Hintergrund. Wählen Sie ein Hintergrundthema und passen Sie dessen Deckkraft an (0–1, Schrittweite 0,05), dann wählen Sie ein Rahmenthema mit eigenem unabhängigem Deckkraftregler. Diese Layout-Einstellungen rahmen Ihr Was-passt-nicht-Arbeitsblatt, bevor Sie Übungen konfigurieren.',
       },
       {
-        title: '\u00dcbungen konfigurieren',
+        title: 'Übungen konfigurieren',
         description:
-          '\u00d6ffnen Sie das \u00dcbungskonfigurations-Panel und legen Sie die Anzahl der \u00dcbungen von 5 bis 10 fest (Standard: 6). W\u00e4hlen Sie einen globalen Erzeugungsmodus: Der Identisch-Modus verwendet drei Klone desselben Bildes plus ein anderes Bild aus demselben Thema, w\u00e4hrend der \u00c4hnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B verwendet. \u00dcberschreiben Sie den Modus pro \u00dcbung mithilfe der Dropdown-Auswahl auf jeder Zeile \u2014 mischen Sie Identisch- und \u00c4hnlich-\u00dcbungen auf einem einzigen Arbeitsblatt f\u00fcr progressive Schwierigkeit. Aktivieren Sie das Kontrollk\u00e4stchen \u201eName-und-Datum-Felder einf\u00fcgen\u201c, um Namens- und Datumszeilen hinzuzuf\u00fcgen, und aktivieren Sie \u201e\u00dcbungsnummern einf\u00fcgen\u201c, um Nummern auf der linken Seite jeder \u00dcbungskarte anzuzeigen.',
+          'Öffnen Sie das Übungskonfigurations-Panel und legen Sie die Anzahl der Übungen von 5 bis 10 fest (Standard: 6). Wählen Sie einen globalen Erzeugungsmodus: Der Identisch-Modus verwendet drei Klone desselben Bildes plus ein anderes Bild aus demselben Thema, während der Ähnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B verwendet. Überschreiben Sie den Modus pro Übung mithilfe der Dropdown-Auswahl auf jeder Zeile — mischen Sie Identisch- und Ähnlich-Übungen auf einem einzigen Arbeitsblatt für progressive Schwierigkeit. Aktivieren Sie das Kontrollkästchen „Name-und-Datum-Felder einfügen“, um Namens- und Datumszeilen hinzuzufügen, und aktivieren Sie „Übungsnummern einfügen“, um Nummern auf der linken Seite jeder Übungskarte anzuzeigen.',
       },
       {
-        title: 'Themen und Bilder ausw\u00e4hlen',
+        title: 'Themen und Bilder auswählen',
         description:
-          '\u00d6ffnen Sie das Bildbibliothek-Panel und w\u00e4hlen Sie Thema A aus dem Dropdown \u2014 dieses liefert die drei gemeinsamen Bilder im \u00c4hnlich-Modus. W\u00e4hlen Sie Thema B f\u00fcr den Ausrei\u00dfer im \u00c4hnlich-Modus (z.\u00a0B. Thema A = Tiere, Thema B = Lebensmittel). Durchsuchen Sie 104 thematische Sammlungen mit \u00fcber 3.100 farbenfrohen Illustrationen oder suchen Sie per Stichwort. Im Identisch-Modus wird nur ein Thema ben\u00f6tigt, da sowohl die gemeinsamen als auch die abweichenden Bilder aus derselben Sammlung stammen. Sie k\u00f6nnen auch eigene PNG-, JPG- oder GIF-Bilder hochladen, um sie neben Bibliotheksinhalten zu verwenden.',
+          'Öffnen Sie das Bildbibliothek-Panel und wählen Sie Thema A aus dem Dropdown — dieses liefert die drei gemeinsamen Bilder im Ähnlich-Modus. Wählen Sie Thema B für den Ausreißer im Ähnlich-Modus (z. B. Thema A = Tiere, Thema B = Lebensmittel). Durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen oder suchen Sie per Stichwort. Im Identisch-Modus wird nur ein Thema benötigt, da sowohl die gemeinsamen als auch die abweichenden Bilder aus derselben Sammlung stammen. Sie können auch eigene PNG-, JPG- oder GIF-Bilder hochladen, um sie neben Bibliotheksinhalten zu verwenden.',
       },
       {
         title: 'Was-Passt-Nicht-Arbeitsblatt generieren',
         description:
-          'Klicken Sie auf Generieren, um die \u00dcbungskarten zu erstellen. Jede Karte zeigt vier Bilder in einer horizontalen Reihe \u2014 drei gemeinsame Bilder und ein abweichendes Bild mit zuf\u00e4llig vertauschter Position. Die App ordnet Karten in 1\u20132 Spalten an, abh\u00e4ngig von Seitenausrichtung und \u00dcbungsanzahl (2 Spalten f\u00fcr Querformat oder Hochformat mit 7+ \u00dcbungen). Ein gestalteter \u201eFinde den Ausrei\u00dfer\u201c-Header erscheint oben mit einem korallenroten \u00e4u\u00dferen Rahmen (#FF6B6B, 8px Strichst\u00e4rke), bernsteinfarbenem inneren Rahmen (#FFB84D, 3px Strichst\u00e4rke) und t\u00fcrkisfarbenem Hintergrund (#4ECDC4) \u2014 mit dem Titel in dunklem Blaugr\u00fcn in Fredoka (#1A535C) und Anweisungen in Rot in Quicksand (#E63946).',
+          'Klicken Sie auf Generieren, um die Übungskarten zu erstellen. Jede Karte zeigt vier Bilder in einer horizontalen Reihe — drei gemeinsame Bilder und ein abweichendes Bild mit zufällig vertauschter Position. Die App ordnet Karten in 1–2 Spalten an, abhängig von Seitenausrichtung und Übungsanzahl (2 Spalten für Querformat oder Hochformat mit 7+ Übungen). Ein gestalteter „Finde den Ausreißer“-Header erscheint oben mit einem korallenroten äußeren Rahmen (#FF6B6B, 8px Strichstärke), bernsteinfarbenem inneren Rahmen (#FFB84D, 3px Strichstärke) und türkisfarbenem Hintergrund (#4ECDC4) — mit dem Titel in dunklem Blaugrün in Fredoka (#1A535C) und Anweisungen in Rot in Quicksand (#E63946).',
       },
       {
-        title: 'L\u00f6sungsschl\u00fcssel generieren und herunterladen',
+        title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum L\u00f6sungsschl\u00fcssel-Tab, um den automatisch generierten L\u00f6sungsschl\u00fcssel mit einem roten Kreis um den Ausrei\u00dfer in jeder \u00dcbungsreihe zu sehen. Die Strichst\u00e4rke des Kreises skaliert mit der Bildgr\u00f6\u00dfe (Maximum von Bildgr\u00f6\u00dfe \u00d7 0,04 oder 3px) f\u00fcr gleichm\u00e4\u00dfige Sichtbarkeit \u00fcber alle Seitengr\u00f6\u00dfen. Laden Sie beide Versionen \u00fcber vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, L\u00f6sungsschl\u00fcssel-JPEG, Arbeitsblatt-PDF und L\u00f6sungsschl\u00fcssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter f\u00fcr tintenschonende Versionen. Jeder Export ist produktionsfertig f\u00fcr Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit einem roten Kreis um den Ausreißer in jeder Übungsreihe zu sehen. Die Strichstärke des Kreises skaliert mit der Bildgröße (Maximum von Bildgröße × 0,04 oder 3px) für gleichmäßige Sichtbarkeit über alle Seitengrößen. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
       },
     ],
   },
@@ -61,80 +61,80 @@ const content: AppContent = {
     title: 'Hauptfunktionen des Was-Passt-Nicht-Generators',
     features: [
       {
-        title: 'Was-Passt-Nicht-R\u00e4tsel mit zwei Erzeugungsmodi',
+        title: 'Was-Passt-Nicht-Rätsel mit zwei Erzeugungsmodi',
         description:
-          'Jede \u00dcbung zeigt vier Bilder in einer horizontalen Karte \u2014 drei gemeinsame Bilder und ein abweichendes Bild \u2014 und es muss das Bild eingekreist werden, das nicht dazugeh\u00f6rt. Der Generator bietet zwei verschiedene Modi. Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema und erzeugt eine \u00fcbersichtliche Finde-den-Unterschied-Herausforderung. Der \u00c4hnlich-Modus verwendet drei Bilder aus Thema A (z.\u00a0B. Tiere) und ein Bild aus Thema B (z.\u00a0B. Lebensmittel), wobei der thematische Ausrei\u00dfer statt eines visuellen Duplikats erkannt werden muss. Jeder Modus erzeugt eine grundlegend andere kognitive Herausforderung aus derselben Bildbibliothek \u2014 verdoppeln Sie Ihre Produktvielfalt ohne zus\u00e4tzlichen Aufwand, indem Sie beide Modi f\u00fcr dasselbe Thema nutzen.',
+          'Jede Übung zeigt vier Bilder in einer horizontalen Karte — drei gemeinsame Bilder und ein abweichendes Bild — und es muss das Bild eingekreist werden, das nicht dazugehört. Der Generator bietet zwei verschiedene Modi. Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema und erzeugt eine übersichtliche Finde-den-Unterschied-Herausforderung. Der Ähnlich-Modus verwendet drei Bilder aus Thema A (z. B. Tiere) und ein Bild aus Thema B (z. B. Lebensmittel), wobei der thematische Ausreißer statt eines visuellen Duplikats erkannt werden muss. Jeder Modus erzeugt eine grundlegend andere kognitive Herausforderung aus derselben Bildbibliothek — verdoppeln Sie Ihre Produktvielfalt ohne zusätzlichen Aufwand, indem Sie beide Modi für dasselbe Thema nutzen.',
       },
       {
-        title: 'Modus-\u00dcberschreibung pro \u00dcbung f\u00fcr gemischte Schwierigkeitsgrade',
+        title: 'Modus-Überschreibung pro Übung für gemischte Schwierigkeitsgrade',
         description:
-          'Jede \u00dcbungszeile enth\u00e4lt ein eigenes Modus-Dropdown, mit dem Sie den globalen Modus pro \u00dcbung \u00fcberschreiben k\u00f6nnen. Beginnen Sie mit einfachen Identisch-\u00dcbungen am Anfang und gehen Sie zu schwereren \u00c4hnlich-\u00dcbungen am Ende \u00fcber \u2014 oder wechseln Sie die Modi durchgehend ab f\u00fcr vielf\u00e4ltige Herausforderungen. Ein \u201eAuswahl zur\u00fccksetzen\u201c-Button setzt alle \u00dcberschreibungen auf die globale Einstellung zur\u00fcck. Diese fein granulare Steuerung erm\u00f6glicht es Verk\u00e4ufern, Arbeitsbl\u00e4tter mit progressiver Schwierigkeit zu erstellen, die mehrere Leistungsniveaus auf einer einzigen Seite bedienen und den wahrgenommenen Wert jeder Druckvorlage steigern.',
+          'Jede Übungszeile enthält ein eigenes Modus-Dropdown, mit dem Sie den globalen Modus pro Übung überschreiben können. Beginnen Sie mit einfachen Identisch-Übungen am Anfang und gehen Sie zu schwereren Ähnlich-Übungen am Ende über — oder wechseln Sie die Modi durchgehend ab für vielfältige Herausforderungen. Ein „Auswahl zurücksetzen“-Button setzt alle Überschreibungen auf die globale Einstellung zurück. Diese fein granulare Steuerung ermöglicht es Verkäufern, Arbeitsblätter mit progressiver Schwierigkeit zu erstellen, die mehrere Leistungsniveaus auf einer einzigen Seite bedienen und den wahrgenommenen Wert jeder Druckvorlage steigern.',
       },
       {
-        title: 'Konfigurierbare \u00dcbungsanzahl von 5 bis 10 pro Arbeitsblatt',
+        title: 'Konfigurierbare Übungsanzahl von 5 bis 10 pro Arbeitsblatt',
         description:
-          'Legen Sie die Anzahl der \u00dcbungen von 5 bis 10 im \u00dcbungskonfigurations-Panel fest (Standard: 6). Weniger \u00dcbungen erzeugen Arbeitsbl\u00e4tter mit gr\u00f6\u00dferen Bildkarten und mehr Abstand \u2014 ideal f\u00fcr j\u00fcngere Zielgruppen oder Arbeitsbl\u00e4tter, bei denen das Einkreisen gen\u00fcgend Platz ben\u00f6tigt. Mehr \u00dcbungen erh\u00f6hen die Inhaltsdichte und die Herausforderung f\u00fcr fortgeschrittene Nutzer. Das Layout passt sich automatisch an: Hochformat-Seiten mit 7 oder mehr \u00dcbungen wechseln zu einem 2-Spalten-Layout, und Querformat-Seiten verwenden stets 2 Spalten f\u00fcr optimalen Abstand.',
+          'Legen Sie die Anzahl der Übungen von 5 bis 10 im Übungskonfigurations-Panel fest (Standard: 6). Weniger Übungen erzeugen Arbeitsblätter mit größeren Bildkarten und mehr Abstand — ideal für jüngere Zielgruppen oder Arbeitsblätter, bei denen das Einkreisen genügend Platz benötigt. Mehr Übungen erhöhen die Inhaltsdichte und die Herausforderung für fortgeschrittene Nutzer. Das Layout passt sich automatisch an: Hochformat-Seiten mit 7 oder mehr Übungen wechseln zu einem 2-Spalten-Layout, und Querformat-Seiten verwenden stets 2 Spalten für optimalen Abstand.',
       },
       {
-        title: 'Zwei-Themen-System mit Thema A (gemeinsam) und Thema B (Ausrei\u00dfer)',
+        title: 'Zwei-Themen-System mit Thema A (gemeinsam) und Thema B (Ausreißer)',
         description:
-          'Der \u00c4hnlich-Modus nutzt ein Zwei-Themen-System, das themen\u00fcbergreifende Unterscheidungsr\u00e4tsel m\u00fchelos erzeugt. W\u00e4hlen Sie Thema A aus dem Dropdown f\u00fcr die drei gemeinsamen Bilder jeder \u00dcbung, dann w\u00e4hlen Sie Thema B f\u00fcr den einzelnen Ausrei\u00dfer. Kombinieren Sie Tiere mit Lebensmitteln, Fahrzeuge mit Natur, Berufe mit Sport \u2014 beliebige Kombinationen aus den 104 verf\u00fcgbaren Themen. Dieses System garantiert, dass der Ausrei\u00dfer immer thematisch verschieden ist, und erzeugt klare, p\u00e4dagogisch sinnvolle R\u00e4tsel ohne manuelle Bildauswahl f\u00fcr jede \u00dcbung.',
+          'Der Ähnlich-Modus nutzt ein Zwei-Themen-System, das themenübergreifende Unterscheidungsrätsel mühelos erzeugt. Wählen Sie Thema A aus dem Dropdown für die drei gemeinsamen Bilder jeder Übung, dann wählen Sie Thema B für den einzelnen Ausreißer. Kombinieren Sie Tiere mit Lebensmitteln, Fahrzeuge mit Natur, Berufe mit Sport — beliebige Kombinationen aus den 104 verfügbaren Themen. Dieses System garantiert, dass der Ausreißer immer thematisch verschieden ist, und erzeugt klare, pädagogisch sinnvolle Rätsel ohne manuelle Bildauswahl für jede Übung.',
       },
       {
-        title: 'Automatisch generierter L\u00f6sungsschl\u00fcssel mit roten Kreismarkierungen',
+        title: 'Automatisch generierter Lösungsschlüssel mit roten Kreismarkierungen',
         description:
-          'Jedes Was-passt-nicht-Arbeitsblatt generiert automatisch einen begleitenden L\u00f6sungsschl\u00fcssel auf einem separaten Canvas-Tab. Der L\u00f6sungsschl\u00fcssel reproduziert das exakte Arbeitsblatt-Layout und zeichnet einen roten Kreisumriss um den Ausrei\u00dfer in jeder \u00dcbungsreihe. Die Strichst\u00e4rke des Kreises skaliert dynamisch mit der Bildgr\u00f6\u00dfe \u2014 berechnet als Maximum von Bildgr\u00f6\u00dfe \u00d7 0,04 oder 3 Pixel \u2014 und gew\u00e4hrleistet gleichm\u00e4\u00dfige Sichtbarkeit \u00fcber alle Seitengr\u00f6\u00dfen und \u00dcbungsanzahlen hinweg. Keine manuelle Markierung, keine separate Dateierstellung \u2014 der L\u00f6sungsschl\u00fcssel bleibt automatisch mit dem Arbeitsblatt synchronisiert. Diese Automatisierung eliminiert den gr\u00f6\u00dften Zeitfresser in der Arbeitsblatt-Produktion und erm\u00f6glicht die schnelle Erstellung umfangreicher Produktpakete.',
+          'Jedes Was-passt-nicht-Arbeitsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und zeichnet einen roten Kreisumriss um den Ausreißer in jeder Übungsreihe. Die Strichstärke des Kreises skaliert dynamisch mit der Bildgröße — berechnet als Maximum von Bildgröße × 0,04 oder 3 Pixel — und gewährleistet gleichmäßige Sichtbarkeit über alle Seitengrößen und Übungsanzahlen hinweg. Keine manuelle Markierung, keine separate Dateierstellung — der Lösungsschlüssel bleibt automatisch mit dem Arbeitsblatt synchronisiert. Diese Automatisierung eliminiert den größten Zeitfresser in der Arbeitsblatt-Produktion und ermöglicht die schnelle Erstellung umfangreicher Produktpakete.',
       },
       {
-        title: 'Bildbibliothek mit 104 thematischen Sammlungen und \u00fcber 3.100 Illustrationen',
+        title: 'Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen',
         description:
-          'Durchsuchen Sie 104 thematische Bildsammlungen mit Tieren, Lebensmitteln, Fahrzeugen, Natur, Berufen, Feiertagen, Sport, Jahreszeiten und Dutzenden mehr. Jedes Thema bietet einen koordinierten Satz farbenfroher Illustrationen, die zusammen in Was-passt-nicht-\u00dcbungen funktionieren. Filtern Sie nach Thema \u00fcber das Dropdown-Men\u00fc oder suchen Sie nach bestimmten Bildern per Stichwort. Bilder laden mit Lazy Loading (20 gleichzeitig) f\u00fcr fl\u00fcssiges Durchsuchen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen f\u00fcr den Einstieg; Vollzugriff schaltet alle 104 Themen f\u00fcr maximale Vielfalt \u00fcber beide Erzeugungsmodi frei.',
+          'Durchsuchen Sie 104 thematische Bildsammlungen mit Tieren, Lebensmitteln, Fahrzeugen, Natur, Berufen, Feiertagen, Sport, Jahreszeiten und Dutzenden mehr. Jedes Thema bietet einen koordinierten Satz farbenfroher Illustrationen, die zusammen in Was-passt-nicht-Übungen funktionieren. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie nach bestimmten Bildern per Stichwort. Bilder laden mit Lazy Loading (20 gleichzeitig) für flüssiges Durchsuchen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen für den Einstieg; Vollzugriff schaltet alle 104 Themen für maximale Vielfalt über beide Erzeugungsmodi frei.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Was-passt-nicht-Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel als hochaufl\u00f6sende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6\u00d7 Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren Arbeitsblatt-JPEG, L\u00f6sungsschl\u00fcssel-JPEG, Arbeitsblatt-PDF und L\u00f6sungsschl\u00fcssel-PDF separat. Seitengr\u00f6\u00dfen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200\u00d71200) und v\u00f6llig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter f\u00fcr tintenschonende Versionen, die Toner sparen. Jeder Export ist produktionsfertig f\u00fcr digitale Downloads, gedruckte Arbeitsb\u00fccher und Unterrichtsmaterialien.',
+          'Laden Sie Was-passt-nicht-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
       },
       {
-        title: 'Vollst\u00e4ndige Canvas-Bearbeitung mit Textwerkzeugen, Name/Datum und \u00dcbungsnummern',
+        title: 'Vollständige Canvas-Bearbeitung mit Textwerkzeugen, Name/Datum und Übungsnummern',
         description:
-          'Die Fabric.js-Arbeitsfl\u00e4che bietet vollst\u00e4ndige Kontrolle \u00fcber jedes Element auf Ihrem Arbeitsblatt. Verschieben, skalieren, drehen und positionieren Sie Bilder, Text und generierte Inhalte frei. Die Ebenensteuerung verwaltet die Stapelreihenfolge, und fertige Elemente k\u00f6nnen gesperrt werden, w\u00e4hrend andere bearbeitet werden. F\u00fcgen Sie benutzerdefinierten Text mit sieben Schriftarten hinzu (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), mit einstellbarer Gr\u00f6\u00dfe und Farbe sowie Textumriss-Breite von 0 bis 10 mit 0,5-Schritt-Granularit\u00e4t. Aktivieren Sie Name-und-Datum-Felder f\u00fcr unterrichtsfertige Formatierung und \u00dcbungsnummern (25px Breite, 15px Abstand) f\u00fcr einfache Referenz bei der Besprechung. Zoomen Sie von 25% bis 300% f\u00fcr Detailarbeit. R\u00fcckg\u00e4ngig und Wiederholen mit bis zu 20 Verlaufszust\u00e4nden \u00fcber Strg+Z und Strg+Y.',
+          'Die Fabric.js-Arbeitsfläche bietet vollständige Kontrolle über jedes Element auf Ihrem Arbeitsblatt. Verschieben, skalieren, drehen und positionieren Sie Bilder, Text und generierte Inhalte frei. Die Ebenensteuerung verwaltet die Stapelreihenfolge, und fertige Elemente können gesperrt werden, während andere bearbeitet werden. Fügen Sie benutzerdefinierten Text mit sieben Schriftarten hinzu (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), mit einstellbarer Größe und Farbe sowie Textumriss-Breite von 0 bis 10 mit 0,5-Schritt-Granularität. Aktivieren Sie Name-und-Datum-Felder für unterrichtsfertige Formatierung und Übungsnummern (25px Breite, 15px Abstand) für einfache Referenz bei der Besprechung. Zoomen Sie von 25% bis 300% für Detailarbeit. Rückgängig und Wiederholen mit bis zu 20 Verlaufszuständen über Strg+Z und Strg+Y.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Was-Passt-Nicht-Arbeitsbl\u00e4tter online verkaufen',
+    title: 'Was-Passt-Nicht-Arbeitsblätter online verkaufen',
     cases: [
       {
-        title: 'Thematische Ausrei\u00dfer-R\u00e4tsel-Pakete auf Etsy',
+        title: 'Thematische Ausreißer-Rätsel-Pakete auf Etsy',
         description:
-          'Erstellen Sie thematische Pakete zur visuellen Unterscheidung mithilfe des Zwei-Themen-Systems \u2014 Tiere gegen Lebensmittel, Fahrzeuge gegen Natur, Feiertage gegen Sport und Dutzende weitere themen\u00fcbergreifende Kombinationen. Jede Themen-Paarung erzeugt gen\u00fcgend einzigartige \u00dcbungen f\u00fcr mehrere Arbeitsbl\u00e4tter mit Identisch- und \u00c4hnlich-Modus. Verpacken Sie 10\u201320 Was-passt-nicht-Arbeitsbl\u00e4tter pro Paket mit beigelegten L\u00f6sungsschl\u00fcsseln und verkaufen Sie zu 3\u20137\u00a0\u20ac pro Set. Das rein visuelle Format bedeutet, dass jedes Paket ohne Anpassung f\u00fcr jeden Sprachmarkt funktioniert und Ihre Kundenbasis global erweitert. Nutzen Sie passende Hintergrund- und Rahmenthemen, um jedem Paket ein stimmiges visuelles Erscheinungsbild zu verleihen, das K\u00e4ufer auf Etsy.de sofort anspricht.',
+          'Erstellen Sie thematische Pakete zur visuellen Unterscheidung mithilfe des Zwei-Themen-Systems — Tiere gegen Lebensmittel, Fahrzeuge gegen Natur, Feiertage gegen Sport und Dutzende weitere themenübergreifende Kombinationen. Jede Themen-Paarung erzeugt genügend einzigartige Übungen für mehrere Arbeitsblätter mit Identisch- und Ähnlich-Modus. Verpacken Sie 10–20 Was-passt-nicht-Arbeitsblätter pro Paket mit beigelegten Lösungsschlüsseln und verkaufen Sie zu 3–7 € pro Set. Das rein visuelle Format bedeutet, dass jedes Paket ohne Anpassung für jeden Sprachmarkt funktioniert und Ihre Kundenbasis global erweitert. Nutzen Sie passende Hintergrund- und Rahmenthemen, um jedem Paket ein stimmiges visuelles Erscheinungsbild zu verleihen, das Käufer auf Etsy.de sofort anspricht.',
         platform: 'Etsy (etsy.de)',
       },
       {
-        title: 'Arbeitsb\u00fccher zur visuellen Unterscheidung auf Amazon KDP',
+        title: 'Arbeitsbücher zur visuellen Unterscheidung auf Amazon KDP',
         description:
-          'Stellen Sie 40\u201380 Was-passt-nicht-Arbeitsbl\u00e4tter zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch mit progressivem Schwierigkeitsgrad: Fr\u00fche Kapitel verwenden den Identisch-Modus (Finde den Nicht-Klon), mittlere Kapitel verwenden den \u00c4hnlich-Modus mit offensichtlichen Themenkontrasten, und fortgeschrittene Kapitel verwenden den \u00c4hnlich-Modus mit subtileren Unterscheidungen. Nutzen Sie die Modus-\u00dcberschreibung pro \u00dcbung, um gemischte Schwierigkeitsstufen auf einzelnen Seiten zu erstellen, die zwischen visuellen Strategien wechseln. F\u00fcgen Sie L\u00f6sungsschl\u00fcssel am Ende des Buches ein, erstellt mit dem automatischen L\u00f6sungsschl\u00fcssel mit roten Kreisen. Der Graustufen-Schalter erzeugt tintenschonende Seiten f\u00fcr Schwarzwei\u00df-Buchinhalte, die Druckkosten niedrig halten. Rein visuelle R\u00e4tsel ben\u00f6tigen keine \u00dcbersetzung \u2014 ein einziges Buch ist in jedem Amazon-Markt verkaufbar, von Amazon.de bis Amazon.com und dar\u00fcber hinaus. Nutzen Sie die Seitengr\u00f6\u00dfe-Optionen, um KDP-konforme Formate wie Letter oder A4 direkt zu exportieren, ohne nachtr\u00e4gliche Anpassungen vornehmen zu m\u00fcssen.',
+          'Stellen Sie 40–80 Was-passt-nicht-Arbeitsblätter zu einem gedruckten Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Ihr Buch mit progressivem Schwierigkeitsgrad: Frühe Kapitel verwenden den Identisch-Modus (Finde den Nicht-Klon), mittlere Kapitel verwenden den Ähnlich-Modus mit offensichtlichen Themenkontrasten, und fortgeschrittene Kapitel verwenden den Ähnlich-Modus mit subtileren Unterscheidungen. Nutzen Sie die Modus-Überschreibung pro Übung, um gemischte Schwierigkeitsstufen auf einzelnen Seiten zu erstellen, die zwischen visuellen Strategien wechseln. Fügen Sie Lösungsschlüssel am Ende des Buches ein, erstellt mit dem automatischen Lösungsschlüssel mit roten Kreisen. Der Graustufen-Schalter erzeugt tintenschonende Seiten für Schwarzweiß-Buchinhalte, die Druckkosten niedrig halten. Rein visuelle Rätsel benötigen keine Übersetzung — ein einziges Buch ist in jedem Amazon-Markt verkaufbar, von Amazon.de bis Amazon.com und darüber hinaus. Nutzen Sie die Seitengröße-Optionen, um KDP-konforme Formate wie Letter oder A4 direkt zu exportieren, ohne nachträgliche Anpassungen vornehmen zu müssen.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'R\u00e4tsel-Aktivit\u00e4ten f\u00fcr kritisches Denken auf dem Lehrermarktplatz',
+        title: 'Rätsel-Aktivitäten für kritisches Denken auf dem Lehrermarktplatz',
         description:
-          'Erstellen Sie sofort einsetzbare Was-passt-nicht-Arbeitsbl\u00e4tter mit Name-und-Datum-Feldern, \u00dcbungsnummern und gedruckten L\u00f6sungsschl\u00fcsseln. Auf dem Lehrermarktplatz werden Arbeitsbl\u00e4tter f\u00fcr kritisches Denken gesch\u00e4tzt, die unterrichtsfertig ankommen \u2014 das Namensfeld sichert die Zuordnung, \u00dcbungsnummern erleichtern die Klassenbesprechung, und der L\u00f6sungsschl\u00fcssel mit roten Kreisen spart Korrekturzeit. Erstellen Sie lehrplanbezogene Sets: Tierklassifikations-Herausforderungen, Lebensmittelgruppen-Unterscheidung, Berufe-Identifikation und jahreszeitliche Wahrnehmungsr\u00e4tsel. Jedes Set enth\u00e4lt Arbeitsbl\u00e4tter und L\u00f6sungsschl\u00fcssel in PDF- und JPEG-Formaten. Kombinieren Sie verschiedene \u00dcbungsanzahlen und Modi innerhalb eines Produkts, damit Lehrkr\u00e4fte Material f\u00fcr unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
+          'Erstellen Sie sofort einsetzbare Was-passt-nicht-Arbeitsblätter mit Name-und-Datum-Feldern, Übungsnummern und gedruckten Lösungsschlüsseln. Auf dem Lehrermarktplatz werden Arbeitsblätter für kritisches Denken geschätzt, die unterrichtsfertig ankommen — das Namensfeld sichert die Zuordnung, Übungsnummern erleichtern die Klassenbesprechung, und der Lösungsschlüssel mit roten Kreisen spart Korrekturzeit. Erstellen Sie lehrplanbezogene Sets: Tierklassifikations-Herausforderungen, Lebensmittelgruppen-Unterscheidung, Berufe-Identifikation und jahreszeitliche Wahrnehmungsrätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Kombinieren Sie verschiedene Übungsanzahlen und Modi innerhalb eines Produkts, damit Lehrkräfte Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
         platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
       },
       {
         title: 'Saisonale und feiertagsbezogene Puzzle-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab \u2014 Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Was-passt-nicht-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Ver\u00f6ffentlichen Sie Halloween-R\u00e4tsel-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Mischen Sie Identisch- und \u00c4hnlich-Modi innerhalb jedes saisonalen Sets f\u00fcr Vielfalt und gesteigerten wahrgenommenen Wert. Saisonale Produkte erzielen h\u00f6here Preise w\u00e4hrend ihrer Spitzenzeiten und schaffen nat\u00fcrliche Gr\u00fcnde f\u00fcr Wiederholungsk\u00e4ufe, da K\u00e4ufer zu jeder neuen Saison frische R\u00e4tsel-Aktivit\u00e4ten suchen.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Was-passt-nicht-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Rätsel-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Mischen Sie Identisch- und Ähnlich-Modi innerhalb jedes saisonalen Sets für Vielfalt und gesteigerten wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {
-        title: 'Globale Marktreichweite mit rein visuellen R\u00e4tseln',
+        title: 'Globale Marktreichweite mit rein visuellen Rätseln',
         description:
-          'Was-passt-nicht-Arbeitsbl\u00e4tter sind vollst\u00e4ndig visuell \u2014 kein Text erscheint auf dem R\u00e4tselinhalt selbst. Der automatisch generierte Header \u00fcbersetzt sich in alle 11 unterst\u00fctzten Sprachen, aber die \u00dcbungsinhalte enthalten nur Bilder. Das bedeutet, jedes Arbeitsblatt funktioniert in jeder Sprache ohne Anpassung und macht Was-passt-nicht-R\u00e4tsel einzigartig effizient f\u00fcr internationale M\u00e4rkte. Erstellen Sie ein Set von Arbeitsbl\u00e4ttern und listen Sie es in mehreren sprachspezifischen Etsy-Shops oder Amazon-KDP-Marktpl\u00e4tzen auf. Dasselbe Produkt bedient englische, deutsche, franz\u00f6sische, spanische und jeden anderen Markt gleichzeitig \u2014 maximale Reichweite ohne zus\u00e4tzlichen Produktionsaufwand. Diese Sprachunabh\u00e4ngigkeit ist ein einzigartiger Wettbewerbsvorteil gegen\u00fcber textbasierten Arbeitsblatt-Produkten, die f\u00fcr jeden Zielmarkt separat \u00fcbersetzt und angepasst werden m\u00fcssen. W\u00e4hrend Ihre Konkurrenz in \u00dcbersetzungsarbeit investiert, verkaufen Sie dasselbe Produkt weltweit und maximieren Ihren Umsatz pro erstelltem Arbeitsblatt.',
-        platform: 'Etsy / Amazon KDP (globale M\u00e4rkte)',
+          'Was-passt-nicht-Arbeitsblätter sind vollständig visuell — kein Text erscheint auf dem Rätselinhalt selbst. Der automatisch generierte Header übersetzt sich in alle 11 unterstützten Sprachen, aber die Übungsinhalte enthalten nur Bilder. Das bedeutet, jedes Arbeitsblatt funktioniert in jeder Sprache ohne Anpassung und macht Was-passt-nicht-Rätsel einzigartig effizient für internationale Märkte. Erstellen Sie ein Set von Arbeitsblättern und listen Sie es in mehreren sprachspezifischen Etsy-Shops oder Amazon-KDP-Marktplätzen auf. Dasselbe Produkt bedient englische, deutsche, französische, spanische und jeden anderen Markt gleichzeitig — maximale Reichweite ohne zusätzlichen Produktionsaufwand. Diese Sprachunabhängigkeit ist ein einzigartiger Wettbewerbsvorteil gegenüber textbasierten Arbeitsblatt-Produkten, die für jeden Zielmarkt separat übersetzt und angepasst werden müssen. Während Ihre Konkurrenz in Übersetzungsarbeit investiert, verkaufen Sie dasselbe Produkt weltweit und maximieren Ihren Umsatz pro erstelltem Arbeitsblatt.',
+        platform: 'Etsy / Amazon KDP (globale Märkte)',
       },
     ],
   },
@@ -143,62 +143,62 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert die Was-passt-nicht-Mechanik?',
       answer:
-        'Jede \u00dcbung zeigt vier Bilder in einer horizontalen Karte \u2014 drei gemeinsame Bilder und ein abweichendes Bild. Es wird die Reihe betrachtet, das nicht dazugeh\u00f6rende Bild identifiziert und eingekreist. Die Position des Ausrei\u00dfers wird innerhalb der Reihe zuf\u00e4llig gemischt, sodass er in jedem der vier Pl\u00e4tze erscheinen kann. \u00dcbungen werden vertikal auf der Seite angeordnet, wobei das Layout bei Querformat oder Hochformat mit 7 oder mehr \u00dcbungen auf 2 Spalten umschaltet. Diese Mechanik f\u00f6rdert visuelle Wahrnehmung und kategoriales Denken auf eine intuitiv verst\u00e4ndliche Weise, die keine Textkenntnis oder Sprachf\u00e4higkeiten voraussetzt und deshalb f\u00fcr jedes Alter und jede Sprache sofort zug\u00e4nglich ist.',
+        'Jede Übung zeigt vier Bilder in einer horizontalen Karte — drei gemeinsame Bilder und ein abweichendes Bild. Es wird die Reihe betrachtet, das nicht dazugehörende Bild identifiziert und eingekreist. Die Position des Ausreißers wird innerhalb der Reihe zufällig gemischt, sodass er in jedem der vier Plätze erscheinen kann. Übungen werden vertikal auf der Seite angeordnet, wobei das Layout bei Querformat oder Hochformat mit 7 oder mehr Übungen auf 2 Spalten umschaltet. Diese Mechanik fördert visuelle Wahrnehmung und kategoriales Denken auf eine intuitiv verständliche Weise, die keine Textkenntnis oder Sprachfähigkeiten voraussetzt und deshalb für jedes Alter und jede Sprache sofort zugänglich ist.',
     },
     {
-      question: 'Was ist der Unterschied zwischen Identisch- und \u00c4hnlich-Modus?',
+      question: 'Was ist der Unterschied zwischen Identisch- und Ähnlich-Modus?',
       answer:
-        'Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema \u2014 hier wird das Nicht-Duplikat erkannt. Der \u00c4hnlich-Modus verwendet drei Bilder aus Thema A (z.\u00a0B. Tiere) und ein Bild aus Thema B (z.\u00a0B. Lebensmittel) \u2014 hier wird der thematische Ausrei\u00dfer identifiziert. Der Identisch-Modus ist einfacher, weil visuelle Duplikate verglichen werden. Der \u00c4hnlich-Modus ist schwieriger, weil alle vier Bilder unterschiedlich sind und die Unterscheidung kategorial statt visuell ist.',
+        'Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema — hier wird das Nicht-Duplikat erkannt. Der Ähnlich-Modus verwendet drei Bilder aus Thema A (z. B. Tiere) und ein Bild aus Thema B (z. B. Lebensmittel) — hier wird der thematische Ausreißer identifiziert. Der Identisch-Modus ist einfacher, weil visuelle Duplikate verglichen werden. Der Ähnlich-Modus ist schwieriger, weil alle vier Bilder unterschiedlich sind und die Unterscheidung kategorial statt visuell ist.',
     },
     {
-      question: 'Wie funktioniert die Modus-\u00dcberschreibung pro \u00dcbung?',
+      question: 'Wie funktioniert die Modus-Überschreibung pro Übung?',
       answer:
-        'Jede \u00dcbungszeile enth\u00e4lt ein eigenes Modus-Dropdown, mit dem der globale Modus \u00fcberschrieben werden kann. Setzen Sie den globalen Modus auf \u00c4hnlich und schalten Sie einzelne \u00dcbungen auf Identisch um \u2014 oder umgekehrt. So entstehen gemischte Schwierigkeits-Arbeitsbl\u00e4tter, bei denen einige \u00dcbungen einfacher (Identisch) und andere schwieriger (\u00c4hnlich) sind \u2014 alles auf derselben Seite. Ein \u201eAuswahl zur\u00fccksetzen\u201c-Button setzt alle \u00dcberschreibungen auf die globale Einstellung zur\u00fcck.',
+        'Jede Übungszeile enthält ein eigenes Modus-Dropdown, mit dem der globale Modus überschrieben werden kann. Setzen Sie den globalen Modus auf Ähnlich und schalten Sie einzelne Übungen auf Identisch um — oder umgekehrt. So entstehen gemischte Schwierigkeits-Arbeitsblätter, bei denen einige Übungen einfacher (Identisch) und andere schwieriger (Ähnlich) sind — alles auf derselben Seite. Ein „Auswahl zurücksetzen“-Button setzt alle Überschreibungen auf die globale Einstellung zurück.',
     },
     {
-      question: 'Wie viele \u00dcbungen kann ich auf ein Arbeitsblatt setzen?',
+      question: 'Wie viele Übungen kann ich auf ein Arbeitsblatt setzen?',
       answer:
-        'Die \u00dcbungsanzahl ist von 5 bis 10 konfigurierbar (Standard: 6). Jede \u00dcbung enth\u00e4lt immer genau 4 Bilder (3 gemeinsame + 1 Ausrei\u00dfer). Weniger \u00dcbungen erzeugen gr\u00f6\u00dfere Bildkarten mit mehr Abstand; mehr \u00dcbungen erh\u00f6hen die Inhaltsdichte. Das Layout passt sich automatisch an \u2014 Hochformat-Seiten mit 7+ \u00dcbungen und alle Querformat-Seiten verwenden ein 2-Spalten-Layout f\u00fcr optimalen Abstand.',
+        'Die Übungsanzahl ist von 5 bis 10 konfigurierbar (Standard: 6). Jede Übung enthält immer genau 4 Bilder (3 gemeinsame + 1 Ausreißer). Weniger Übungen erzeugen größere Bildkarten mit mehr Abstand; mehr Übungen erhöhen die Inhaltsdichte. Das Layout passt sich automatisch an — Hochformat-Seiten mit 7+ Übungen und alle Querformat-Seiten verwenden ein 2-Spalten-Layout für optimalen Abstand.',
     },
     {
-      question: 'Wie funktioniert das Zwei-Themen-System im \u00c4hnlich-Modus?',
+      question: 'Wie funktioniert das Zwei-Themen-System im Ähnlich-Modus?',
       answer:
-        'Im \u00c4hnlich-Modus w\u00e4hlen Sie zwei Themen aus den Dropdown-Men\u00fcs. Thema A liefert die drei gemeinsamen Bilder f\u00fcr jede \u00dcbung (z.\u00a0B. Tiere), und Thema B liefert den einzelnen Ausrei\u00dfer (z.\u00a0B. Lebensmittel). Dies garantiert, dass der Ausrei\u00dfer immer thematisch verschieden ist. W\u00e4hlen Sie aus beliebigen Kombinationen der 104 verf\u00fcgbaren Themen. Im Identisch-Modus wird nur ein Thema ben\u00f6tigt, da sowohl die gemeinsamen Klone als auch das abweichende Bild aus derselben Sammlung stammen.',
+        'Im Ähnlich-Modus wählen Sie zwei Themen aus den Dropdown-Menüs. Thema A liefert die drei gemeinsamen Bilder für jede Übung (z. B. Tiere), und Thema B liefert den einzelnen Ausreißer (z. B. Lebensmittel). Dies garantiert, dass der Ausreißer immer thematisch verschieden ist. Wählen Sie aus beliebigen Kombinationen der 104 verfügbaren Themen. Im Identisch-Modus wird nur ein Thema benötigt, da sowohl die gemeinsamen Klone als auch das abweichende Bild aus derselben Sammlung stammen.',
     },
     {
-      question: 'Wie funktioniert der automatisch generierte L\u00f6sungsschl\u00fcssel mit roten Kreisen?',
+      question: 'Wie funktioniert der automatisch generierte Lösungsschlüssel mit roten Kreisen?',
       answer:
-        'Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab und einem L\u00f6sungsschl\u00fcssel-Tab. Das Arbeitsblatt zeigt die \u00dcbungskarten ohne Markierungen \u2014 der Ausrei\u00dfer wird selbst eingekreist. Der L\u00f6sungsschl\u00fcssel reproduziert das identische Layout und zeichnet einen roten Kreisumriss um den Ausrei\u00dfer in jeder Reihe. Die Strichst\u00e4rke des Kreises skaliert dynamisch mit der Bildgr\u00f6\u00dfe (das Gr\u00f6\u00dfere von Bildgr\u00f6\u00dfe \u00d7 0,04 oder 3 Pixel). Beide Versionen werden separat \u00fcber vier dedizierte Download-Buttons in JPEG und PDF exportiert.',
+        'Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Das Arbeitsblatt zeigt die Übungskarten ohne Markierungen — der Ausreißer wird selbst eingekreist. Der Lösungsschlüssel reproduziert das identische Layout und zeichnet einen roten Kreisumriss um den Ausreißer in jeder Reihe. Die Strichstärke des Kreises skaliert dynamisch mit der Bildgröße (das Größere von Bildgröße × 0,04 oder 3 Pixel). Beide Versionen werden separat über vier dedizierte Download-Buttons in JPEG und PDF exportiert.',
     },
     {
-      question: 'Kann ich Name-und-Datum-Felder zu Was-passt-nicht-Arbeitsbl\u00e4ttern hinzuf\u00fcgen?',
+      question: 'Kann ich Name-und-Datum-Felder zu Was-passt-nicht-Arbeitsblättern hinzufügen?',
       answer:
-        'Ja. Aktivieren Sie das Kontrollk\u00e4stchen \u201eName-und-Datum-Felder einf\u00fcgen\u201c im \u00dcbungskonfigurations-Panel, um Namens- und Datumszeilen hinzuzuf\u00fcgen. Diese Felder positionieren sich responsiv basierend auf dem Seitenlayout. Name-und-Datum-Felder machen Arbeitsbl\u00e4tter unterrichtsfertig \u2014 Lehrkr\u00e4fte k\u00f6nnen die Zuordnung nachverfolgen und erledigte Aktivit\u00e4ten nach Datum organisieren. Diese Funktion steigert den wahrgenommenen Wert f\u00fcr K\u00e4ufer auf dem Lehrermarktplatz erheblich, da unterrichtsfertige Formatierung ein entscheidendes Kaufkriterium darstellt.',
+        'Ja. Aktivieren Sie das Kontrollkästchen „Name-und-Datum-Felder einfügen“ im Übungskonfigurations-Panel, um Namens- und Datumszeilen hinzuzufügen. Diese Felder positionieren sich responsiv basierend auf dem Seitenlayout. Name-und-Datum-Felder machen Arbeitsblätter unterrichtsfertig — Lehrkräfte können die Zuordnung nachverfolgen und erledigte Aktivitäten nach Datum organisieren. Diese Funktion steigert den wahrgenommenen Wert für Käufer auf dem Lehrermarktplatz erheblich, da unterrichtsfertige Formatierung ein entscheidendes Kaufkriterium darstellt.',
     },
     {
-      question: 'Wie funktionieren \u00dcbungsnummern?',
+      question: 'Wie funktionieren Übungsnummern?',
       answer:
-        'Aktivieren Sie das Kontrollk\u00e4stchen \u201e\u00dcbungsnummern einf\u00fcgen\u201c im \u00dcbungskonfigurations-Panel, um Nummern auf der linken Seite jeder \u00dcbungskarte anzuzeigen. Die Nummern verwenden 25px Breite mit 15px Abstand zum Karteninhalt. \u00dcbungsnummern helfen bei der Klassenbesprechung und erleichtern es Lehrkr\u00e4ften, auf bestimmte \u00dcbungen w\u00e4hrend der Diskussion zu verweisen. F\u00fcr Verk\u00e4ufer auf dem Lehrermarktplatz sind nummerierte \u00dcbungen ein wichtiges Qualit\u00e4tsmerkmal, das den professionellen Eindruck Ihrer Druckvorlagen verst\u00e4rkt.',
+        'Aktivieren Sie das Kontrollkästchen „Übungsnummern einfügen“ im Übungskonfigurations-Panel, um Nummern auf der linken Seite jeder Übungskarte anzuzeigen. Die Nummern verwenden 25px Breite mit 15px Abstand zum Karteninhalt. Übungsnummern helfen bei der Klassenbesprechung und erleichtern es Lehrkräften, auf bestimmte Übungen während der Diskussion zu verweisen. Für Verkäufer auf dem Lehrermarktplatz sind nummerierte Übungen ein wichtiges Qualitätsmerkmal, das den professionellen Eindruck Ihrer Druckvorlagen verstärkt.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
       answer:
-        'Ja. Sie k\u00f6nnen jede Funktion nutzen \u2014 beide Erzeugungsmodi, Modus-\u00dcberschreibung pro \u00dcbung, konfigurierbare \u00dcbungsanzahl, den automatisch generierten L\u00f6sungsschl\u00fcssel, die vollst\u00e4ndige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, \u00dcbungsnummern und alle Download-Formate \u2014 ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gew\u00e4hrt volle Verkaufsrechte f\u00fcr alle erstellten Was-passt-nicht-Arbeitsbl\u00e4tter. Der Generator l\u00e4uft vollst\u00e4ndig im Browser \u2014 keine Installation erforderlich.',
+        'Ja. Sie können jede Funktion nutzen — beide Erzeugungsmodi, Modus-Überschreibung pro Übung, konfigurierbare Übungsanzahl, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, Übungsnummern und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle erstellten Was-passt-nicht-Arbeitsblätter. Der Generator läuft vollständig im Browser — keine Installation erforderlich.',
     },
     {
-      question: 'Sind Was-passt-nicht-Arbeitsbl\u00e4tter sprachabh\u00e4ngig?',
+      question: 'Sind Was-passt-nicht-Arbeitsblätter sprachabhängig?',
       answer:
-        'Nein. Anders als bei Apps, die W\u00f6rter auf dem Arbeitsblatt anzeigen, sind Was-passt-nicht-R\u00e4tsel vollst\u00e4ndig visuell \u2014 kein Text erscheint auf dem R\u00e4tselinhalt selbst. Der automatisch generierte Header (\u201eFinde den Ausrei\u00dfer\u201c) \u00fcbersetzt sich in alle 11 unterst\u00fctzten Sprachen, aber die eigentlichen \u00dcbungen enthalten nur Bilder. Das bedeutet, jedes Arbeitsblatt funktioniert in jeder Sprache ohne Anpassung, was Was-passt-nicht-R\u00e4tsel ideal f\u00fcr globale Marktplatz-Verk\u00e4ufe macht. Ein in Deutschland erstelltes Arbeitsblatt funktioniert identisch f\u00fcr K\u00e4ufer in Frankreich, den USA, Japan oder Brasilien.',
+        'Nein. Anders als bei Apps, die Wörter auf dem Arbeitsblatt anzeigen, sind Was-passt-nicht-Rätsel vollständig visuell — kein Text erscheint auf dem Rätselinhalt selbst. Der automatisch generierte Header („Finde den Ausreißer“) übersetzt sich in alle 11 unterstützten Sprachen, aber die eigentlichen Übungen enthalten nur Bilder. Das bedeutet, jedes Arbeitsblatt funktioniert in jeder Sprache ohne Anpassung, was Was-passt-nicht-Rätsel ideal für globale Marktplatz-Verkäufe macht. Ein in Deutschland erstelltes Arbeitsblatt funktioniert identisch für Käufer in Frankreich, den USA, Japan oder Brasilien.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Was-passt-nicht-Arbeitsbl\u00e4tter auf Etsy und Amazon KDP verkaufen?',
+      question: 'Kann ich mit diesem Tool erstellte Was-passt-nicht-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Was-passt-nicht-Arbeitsbl\u00e4tter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsb\u00fccher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder \u00fcber jeden anderen Vertriebskanal zu verkaufen. Die zwei Erzeugungsmodi, Modus-\u00dcberschreibung pro \u00dcbung und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Produkte zur visuellen Unterscheidung zu erstellen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Was-passt-nicht-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Erzeugungsmodi, Modus-Überschreibung pro Übung und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Produkte zur visuellen Unterscheidung zu erstellen.',
     },
     {
-      question: 'Was ist Ihre R\u00fcckgabepolitik?',
+      question: 'Was ist Ihre Rückgabepolitik?',
       answer:
-        'Da die kostenlose Testversion Ihnen vollst\u00e4ndigen Zugang zu jeder Funktion gew\u00e4hrt, bieten wir keine R\u00fcckerstattung f\u00fcr kommerzielle Lizenzen an. Sie k\u00f6nnen beide Erzeugungsmodi, das Modus-\u00dcberschreibungssystem pro \u00dcbung, den automatisch generierten L\u00f6sungsschl\u00fcssel, die vollst\u00e4ndige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, \u00dcbungsnummern und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die R\u00fcckgabepolitik \u2014 stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung f\u00fcr die Testphase vorgesehen \u2014 erstellen Sie so viele Arbeitsbl\u00e4tter wie Sie m\u00f6chten und \u00fcberzeugen Sie sich in Ruhe von der Qualit\u00e4t, bevor Sie sich f\u00fcr einen Kauf entscheiden.',
+        'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Erzeugungsmodi, das Modus-Überschreibungssystem pro Übung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, Übungsnummern und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Arbeitsblätter wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität, bevor Sie sich für einen Kauf entscheiden.',
     },
   ],
 
@@ -226,12 +226,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'suchen-und-zaehlen-arbeitsblaetter',
-      anchorText: 'Suchen-und-Z\u00e4hlen-Arbeitsblatt-Generator',
+      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Generator',
     },
     {
       pageType: 'bundle',
       slug: 'raetsel-logik-paket',
-      anchorText: 'R\u00e4tsel-und-Logik-Paket \u2014 Alle Puzzle-Apps in einem Paket',
+      anchorText: 'Rätsel-und-Logik-Paket — Alle Puzzle-Apps in einem Paket',
     },
     {
       pageType: 'tool',
@@ -241,39 +241,39 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung f\u00fcr Ihr Druckvorlagen-Gesch\u00e4ft',
+      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
     },
     {
       pageType: 'idea',
       slug: 'bauernhof-druckvorlagen-ideen',
-      anchorText: 'Bauernhof-Druckvorlagen-Ideen f\u00fcr Arbeitsbl\u00e4tter',
+      anchorText: 'Bauernhof-Druckvorlagen-Ideen für Arbeitsblätter',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/german/odd one out/Find the Odd One Out.webp',
-      primaryAlt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro \u00dcbungsreihe, farbenfrohen thematischen Illustrationen und lokalisiertem Finde-den-Ausrei\u00dfer-Header',
+      primaryAlt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, farbenfrohen thematischen Illustrationen und lokalisiertem Finde-den-Ausreißer-Header',
     },
     sampleGallery: [
       {
         src: '/samples/german/odd one out/Find the Odd One Out (1).webp',
-        alt: '\u00c4hnlich-Modus-Was-passt-nicht-Arbeitsblatt mit drei Tierbildern und einem Lebensmittelbild pro Reihe',
-        caption: '\u00c4hnlich-Modus \u2014 drei Bilder aus Thema A und ein Ausrei\u00dfer aus Thema B',
+        alt: 'Ähnlich-Modus-Was-passt-nicht-Arbeitsblatt mit drei Tierbildern und einem Lebensmittelbild pro Reihe',
+        caption: 'Ähnlich-Modus — drei Bilder aus Thema A und ein Ausreißer aus Thema B',
       },
       {
         src: '/samples/german/odd one out/Find the Odd One Out (5).webp',
         alt: 'Identisch-Modus-Was-passt-nicht-Arbeitsblatt mit drei identischen Bildern und einem abweichenden Bild pro Reihe',
-        caption: 'Identisch-Modus \u2014 drei Klone desselben Bildes und ein abweichendes Bild',
+        caption: 'Identisch-Modus — drei Klone desselben Bildes und ein abweichendes Bild',
       },
       {
         src: '/samples/german/odd one out/Find the Odd One Out answer-key.webp',
-        alt: 'Was-passt-nicht-L\u00f6sungsschl\u00fcssel mit roten Kreisen um den Ausrei\u00dfer in jeder \u00dcbungsreihe',
-        caption: 'Automatisch generierter L\u00f6sungsschl\u00fcssel \u2014 rote Kreise markieren den Ausrei\u00dfer in jeder Reihe',
+        alt: 'Was-passt-nicht-Lösungsschlüssel mit roten Kreisen um den Ausreißer in jeder Übungsreihe',
+        caption: 'Automatisch generierter Lösungsschlüssel — rote Kreise markieren den Ausreißer in jeder Reihe',
       },
     ],
     youtubeId: '0R6WFUfY7Mk',
-    videoTitle: 'Was-Passt-Nicht-Arbeitsbl\u00e4tter mit zwei Modi und automatischen L\u00f6sungsschl\u00fcsseln erstellen \u2014 Schritt-f\u00fcr-Schritt-Anleitung',
+    videoTitle: 'Was-Passt-Nicht-Arbeitsblätter mit zwei Modi und automatischen Lösungsschlüsseln erstellen — Schritt-für-Schritt-Anleitung',
   },
 };
 

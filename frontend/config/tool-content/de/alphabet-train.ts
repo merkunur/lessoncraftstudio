@@ -4,60 +4,60 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'Alphabet-Zug-Arbeitsblatt-Generator',
     secondaryKeywords: [
-      'Buchstabenzug-Ersteller f\u00fcr Verk\u00e4ufer',
-      'Buchstabenerkennung-Arbeitsbl\u00e4tter online erstellen',
-      'druckbare Alphabet-Zug-Arbeitsbl\u00e4tter kommerziell',
-      'mehrsprachiger Alphabet-Generator f\u00fcr KDP',
+      'Buchstabenzug-Ersteller für Verkäufer',
+      'Buchstabenerkennung-Arbeitsblätter online erstellen',
+      'druckbare Alphabet-Zug-Arbeitsblätter kommerziell',
+      'mehrsprachiger Alphabet-Generator für KDP',
     ],
     lsiKeywords: [
-      'Buchstabe-Bild-Zuordnung Druckvorlagen f\u00fcr Etsy',
-      'Alphabet-Zug-Aktivit\u00e4t Arbeitsblatt-Tool',
+      'Buchstabe-Bild-Zuordnung Druckvorlagen für Etsy',
+      'Alphabet-Zug-Aktivität Arbeitsblatt-Tool',
       'mehrsprachige Buchstabenerkennung Generator',
     ],
     titleTag: 'Alphabet-Zug-Arbeitsblatt-Generator | Buchstabenzug-Druckvorlagen erstellen & verkaufen',
-    metaDescription: 'Farbenfrohe Alphabet-Zug-Arbeitsbl\u00e4tter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. Einzigartige mehrsprachige Druckvorlagen f\u00fcr Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Farbenfrohe Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. Einzigartige mehrsprachige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
     title: 'Alphabet-Zug-Arbeitsblatt-Generator',
-    tagline: 'Farbenfrohe Buchstabenzug-Arbeitsbl\u00e4tter mit Bild-Buchstabe-Zuordnung in 11 Sprachen erstellen',
-    description: 'Erstellen Sie Alphabet-Arbeitsbl\u00e4tter, die sich grundlegend von Standard-Buchstaben-Nachschreibseiten unterscheiden. Dieses Tool ordnet 11 farbenfrohe Zugwaggons \u00fcber die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug \u2014 Sch\u00fcler erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. W\u00e4hlen Sie zwischen Auto-Erstellen (das Tool w\u00e4hlt zuf\u00e4llig 11 Buchstaben und weist passende Bilder zu) oder Manuellem Modus (w\u00e4hlen Sie jeden Buchstaben einzeln aus dem vollst\u00e4ndigen Alphabet-Raster). Passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an: 3 Hinweise f\u00fcr Anf\u00e4nger, 5\u20137 f\u00fcr Fortgeschrittene und 9\u201311 f\u00fcr erfahrene Lernende, die fast jeden Waggon zuordnen m\u00fcssen. Die besondere St\u00e4rke ist die Sprachsensitivit\u00e4t \u2014 w\u00e4hlen Sie aus 11 nativen Alphabeten einschlie\u00dflich Deutsch (30 Buchstaben mit \u00c4/\u00d6/\u00dc/\u00df), Schwedisch (\u00c5/\u00c4/\u00d6), Spanisch (\u00d1) und weiteren. Dasselbe Bild wird in jeder Sprache einem anderen Buchstaben zugeordnet: \u201eHund\u201c passt zu H auf Deutsch, aber zu D auf Englisch (Dog). Eine Arbeitsblatt-Vorlage wird zu 11 einzigartigen Produkten. Durchst\u00f6bern Sie \u00fcber 3.100 Bilder in 104 Themen oder laden Sie eigene Grafiken f\u00fcr markentypische Designs hoch. W\u00e4hlen Sie aus 7 Schriftfamilien und exportieren Sie als druckfertiges PDF oder hochaufl\u00f6sendes JPEG. Die kostenlose Testversion enth\u00e4lt ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    tagline: 'Farbenfrohe Buchstabenzug-Arbeitsblätter mit Bild-Buchstabe-Zuordnung in 11 Sprachen erstellen',
+    description: 'Erstellen Sie Alphabet-Arbeitsblätter, die sich grundlegend von Standard-Buchstaben-Nachschreibseiten unterscheiden. Dieses Tool ordnet 11 farbenfrohe Zugwaggons über die Seite an, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug — Schüler erkennen, mit welchem Buchstaben jedes Bild beginnt, und ordnen es dem richtigen Waggon zu. Wählen Sie zwischen Auto-Erstellen (das Tool wählt zufällig 11 Buchstaben und weist passende Bilder zu) oder Manuellem Modus (wählen Sie jeden Buchstaben einzeln aus dem vollständigen Alphabet-Raster). Passen Sie die Schwierigkeit mit dem Hinweisanzahl-Regler an: 3 Hinweise für Anfänger, 5–7 für Fortgeschrittene und 9–11 für erfahrene Lernende, die fast jeden Waggon zuordnen müssen. Die besondere Stärke ist die Sprachsensitivität — wählen Sie aus 11 nativen Alphabeten einschließlich Deutsch (30 Buchstaben mit Ä/Ö/Ü/ß), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und weiteren. Dasselbe Bild wird in jeder Sprache einem anderen Buchstaben zugeordnet: „Hund“ passt zu H auf Deutsch, aber zu D auf Englisch (Dog). Eine Arbeitsblatt-Vorlage wird zu 11 einzigartigen Produkten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene Grafiken für markentypische Designs hoch. Wählen Sie aus 7 Schriftfamilien und exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
-    title: 'Alphabet-Zug-Arbeitsbl\u00e4tter erstellen in 8 einfachen Schritten',
+    title: 'Alphabet-Zug-Arbeitsblätter erstellen in 8 einfachen Schritten',
     steps: [
       {
-        title: 'Den Alphabet-Zug-Ersteller \u00f6ffnen',
-        description: 'Klicken Sie auf \u201eKostenlos testen\u201c, um den Generator zu starten. Das Tool \u00f6ffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
+        title: 'Den Alphabet-Zug-Ersteller öffnen',
+        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
         title: 'Das Seitenlayout festlegen',
-        description: 'Im Bereich \u201eSeiten-Setup\u201c w\u00e4hlen Sie Ihre Seitengr\u00f6\u00dfe: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, f\u00fcgen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und w\u00e4hlen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Hochformat eignet sich am besten f\u00fcr das Zug-Layout.',
+        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Hochformat eignet sich am besten für das Zug-Layout.',
       },
       {
-        title: 'Den Erstellungsmodus w\u00e4hlen',
-        description: 'W\u00e4hlen Sie Auto-Erstellen, damit das Tool zuf\u00e4llig 11 Buchstaben ausw\u00e4hlt und automatisch passende Bilder aus dem gew\u00e4hlten Thema zuweist \u2014 ideal f\u00fcr schnelle Massenproduktion. W\u00e4hlen Sie Manuelle Auswahl f\u00fcr volle Kontrolle: Sie w\u00e4hlen genau 11 Buchstaben aus dem Alphabet-Raster und weisen jedes Bild einzeln zu. Der manuelle Modus eignet sich am besten f\u00fcr lehrplanorientierte Arbeitsbl\u00e4tter, die bestimmte Buchstabengruppen abdecken.',
+        title: 'Den Erstellungsmodus wählen',
+        description: 'Wählen Sie Auto-Erstellen, damit das Tool zufällig 11 Buchstaben auswählt und automatisch passende Bilder aus dem gewählten Thema zuweist — ideal für schnelle Massenproduktion. Wählen Sie Manuelle Auswahl für volle Kontrolle: Sie wählen genau 11 Buchstaben aus dem Alphabet-Raster und weisen jedes Bild einzeln zu. Der manuelle Modus eignet sich am besten für lehrplanorientierte Arbeitsblätter, die bestimmte Buchstabengruppen abdecken.',
       },
       {
-        title: 'Buchstaben ausw\u00e4hlen (Manueller Modus)',
-        description: 'Im manuellen Modus zeigt das Tool ein vollst\u00e4ndiges Alphabet-Raster f\u00fcr die gew\u00e4hlte Sprache an. Klicken Sie auf genau 11 Buchstaben, um die Zugwaggons zu f\u00fcllen. Das Raster passt sich jeder Sprache an \u2014 Deutsch zeigt 30 Buchstaben einschlie\u00dflich \u00c4, \u00d6, \u00dc und \u00df; Schwedisch zeigt 29 Buchstaben einschlie\u00dflich \u00c5, \u00c4 und \u00d6; Spanisch enth\u00e4lt \u00d1. Jede Sprache verwendet ihre korrekte native Sortierung.',
+        title: 'Buchstaben auswählen (Manueller Modus)',
+        description: 'Im manuellen Modus zeigt das Tool ein vollständiges Alphabet-Raster für die gewählte Sprache an. Klicken Sie auf genau 11 Buchstaben, um die Zugwaggons zu füllen. Das Raster passt sich jeder Sprache an — Deutsch zeigt 30 Buchstaben einschließlich Ä, Ö, Ü und ß; Schwedisch zeigt 29 Buchstaben einschließlich Å, Ä und Ö; Spanisch enthält Ñ. Jede Sprache verwendet ihre korrekte native Sortierung.',
       },
       {
-        title: 'Bilder und Thema ausw\u00e4hlen',
-        description: '\u00d6ffnen Sie das Panel \u201eBildbibliothek\u201c und durchst\u00f6bern Sie \u00fcber 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Jedes Bild wird automatisch dem richtigen Buchstaben basierend auf der gew\u00e4hlten Sprache zugeordnet \u2014 dasselbe Katzenbild passt zu K auf Deutsch, aber zu C auf Englisch (Cat). Laden Sie eigene PNG- oder JPEG-Dateien f\u00fcr markentypische Arbeitsbl\u00e4tter hoch.',
+        title: 'Bilder und Thema auswählen',
+        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Jedes Bild wird automatisch dem richtigen Buchstaben basierend auf der gewählten Sprache zugeordnet — dasselbe Katzenbild passt zu K auf Deutsch, aber zu C auf Englisch (Cat). Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
       },
       {
         title: 'Hinweisanzahl und Name/Datum konfigurieren',
-        description: 'Verwenden Sie den Hinweisanzahl-Regler, um festzulegen, wie viele zugeordnete Hinweisbilder neben dem Zug erscheinen. Stellen Sie 3 Hinweise f\u00fcr die leichteste Stufe ein (die meisten Waggons bleiben ohne Zuordnungsaufgabe), 5\u20137 f\u00fcr mittlere Schwierigkeit oder 9\u201311 f\u00fcr fortgeschrittene Sch\u00fcler, die fast jeden Waggon zuordnen m\u00fcssen. Schalten Sie die Felder Name und Datum je nach Bedarf ein oder aus.',
+        description: 'Verwenden Sie den Hinweisanzahl-Regler, um festzulegen, wie viele zugeordnete Hinweisbilder neben dem Zug erscheinen. Stellen Sie 3 Hinweise für die leichteste Stufe ein (die meisten Waggons bleiben ohne Zuordnungsaufgabe), 5–7 für mittlere Schwierigkeit oder 9–11 für fortgeschrittene Schüler, die fast jeden Waggon zuordnen müssen. Schalten Sie die Felder Name und Datum je nach Bedarf ein oder aus.',
       },
       {
         title: 'Text und Schriften anpassen',
-        description: 'W\u00e4hlen Sie aus 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial oder Verdana. Passen Sie Textfarbe, Gr\u00f6\u00dfe und Stil an. Verwenden Sie die Fabric.js-Leinwandwerkzeuge zum Neupositionieren, Ausrichten, Sperren oder Entsperren einzelner Elemente. Die R\u00fcckg\u00e4ngig/Wiederherstellen-Schaltfl\u00e4chen erm\u00f6glichen sicheres Experimentieren.',
+        description: 'Wählen Sie aus 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial oder Verdana. Passen Sie Textfarbe, Größe und Stil an. Verwenden Sie die Fabric.js-Leinwandwerkzeuge zum Neupositionieren, Ausrichten, Sperren oder Entsperren einzelner Elemente. Die Rückgängig/Wiederherstellen-Schaltflächen ermöglichen sicheres Experimentieren.',
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf \u201eGenerieren\u201c, um Ihr Alphabet-Zug-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfl\u00e4che. Aktivieren Sie den Graustufen-Schalter f\u00fcr tintenfreundliche Schwarzwei\u00df-Ausgabe, ideal f\u00fcr KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochaufl\u00f6sendes JPEG herunter. Generieren Sie einen passenden L\u00f6sungsschl\u00fcssel, der jedes Hinweisbild mit seinem richtigen Waggon verbindet.',
+        description: 'Klicken Sie auf „Generieren“, um Ihr Alphabet-Zug-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der jedes Hinweisbild mit seinem richtigen Waggon verbindet.',
       },
     ],
   },
@@ -65,161 +65,161 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Alphabet-Zug-Pakete',
-      description: 'Erstellen Sie Sets mit 10\u201315 Alphabet-Zug-Arbeitsbl\u00e4ttern mit thematischen Bildersammlungen \u2014 Tiere, Essen, Fahrzeuge, Natur. Jedes Arbeitsblatt verwendet andere Buchstaben und Bilder bei gleichbleibender Hinweisanzahl. B\u00fcndeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das farbenfrohe Zugwaggon-Format l\u00e4sst Ihr Listing-Vorschaubild sofort aus der Masse flacher Buchstaben-Nachschreibbl\u00e4tter herausstechen.',
+      description: 'Erstellen Sie Sets mit 10–15 Alphabet-Zug-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Natur. Jedes Arbeitsblatt verwendet andere Buchstaben und Bilder bei gleichbleibender Hinweisanzahl. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das farbenfrohe Zugwaggon-Format lässt Ihr Listing-Vorschaubild sofort aus der Masse flacher Buchstaben-Nachschreibblätter herausstechen.',
     },
     {
-      title: 'KDP-Alphabet-Aktivit\u00e4tsb\u00fccher',
-      description: 'Generieren Sie 50\u2013100 Alphabet-Zug-Seiten mit progressiver Schwierigkeit: 3 Hinweise im Er\u00f6ffnungskapitel, 5\u20137 im Hauptteil und 9\u201311 f\u00fcr den Herausforderungsabschnitt. Exportieren Sie als hochaufl\u00f6sende PDFs und ver\u00f6ffentlichen Sie als Low-Content-Aktivit\u00e4ts-Arbeitsbuch auf Amazon KDP. Nutzen Sie den Graustufen-Modus f\u00fcr geringere Druckkosten. Das Zugformat hebt sich visuell deutlich von konkurrierenden Alphabet-Arbeitsb\u00fcchern ab.',
+      title: 'KDP-Alphabet-Aktivitätsbücher',
+      description: 'Generieren Sie 50–100 Alphabet-Zug-Seiten mit progressiver Schwierigkeit: 3 Hinweise im Eröffnungskapitel, 5–7 im Hauptteil und 9–11 für den Herausforderungsabschnitt. Exportieren Sie als hochauflösende PDFs und veröffentlichen Sie als Low-Content-Aktivitäts-Arbeitsbuch auf Amazon KDP. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Das Zugformat hebt sich visuell deutlich von konkurrierenden Alphabet-Arbeitsbüchern ab.',
     },
     {
       title: 'Differenzierte Hinweisanzahl-Sets',
-      description: 'Generieren Sie drei Versionen desselben thematischen Alphabet-Zugs auf verschiedenen Schwierigkeitsstufen: Leicht (3 Hinweise), Mittel (7 Hinweise) und Schwer (11 Hinweise). Lehrkr\u00e4fte k\u00f6nnen jeder Sch\u00fclerin und jedem Sch\u00fcler die passende Version entsprechend ihrem Leseniveau zuteilen. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz oder Etsy.de.',
+      description: 'Generieren Sie drei Versionen desselben thematischen Alphabet-Zugs auf verschiedenen Schwierigkeitsstufen: Leicht (3 Hinweise), Mittel (7 Hinweise) und Schwer (11 Hinweise). Lehrkräfte können jeder Schülerin und jedem Schüler die passende Version entsprechend ihrem Leseniveau zuteilen. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz oder Etsy.de.',
     },
     {
       title: 'Mehrsprachige Alphabet-Produkte',
-      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterst\u00fctzten Sprachen. Das Tool passt automatisch das Alphabet, die Buchstabenreihenfolge und die Bild-Buchstabe-Zuordnungen f\u00fcr jede Sprache an. Eine Designsitzung erzeugt 11 verschiedene Produkte \u2014 Englisch, Deutsch, Franz\u00f6sisch, Spanisch, Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch, D\u00e4nisch, Norwegisch und Finnisch \u2014 jedes bereit f\u00fcr den lokalen Marktplatz.',
+      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterstützten Sprachen. Das Tool passt automatisch das Alphabet, die Buchstabenreihenfolge und die Bild-Buchstabe-Zuordnungen für jede Sprache an. Eine Designsitzung erzeugt 11 verschiedene Produkte — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — jedes bereit für den lokalen Marktplatz.',
     },
     {
-      title: 'Eigene-Bilder-Marken-Arbeitsbl\u00e4tter',
-      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Alphabet-Z\u00fcge zu erstellen, die kein Wettbewerber kopieren kann. Homeschool-Ersteller k\u00f6nnen Familienfotos verwenden, Lehrkr\u00e4fte Schulmaskottchen und Etsy-Verk\u00e4ufer eine unverwechselbare visuelle Markenidentit\u00e4t \u00fcber den gesamten Shop aufbauen.',
+      title: 'Eigene-Bilder-Marken-Arbeitsblätter',
+      description: 'Laden Sie eigene Illustrationen, Maskottchen oder lizenzierte Grafiken hoch, um Alphabet-Züge zu erstellen, die kein Wettbewerber kopieren kann. Homeschool-Ersteller können Familienfotos verwenden, Lehrkräfte Schulmaskottchen und Etsy-Verkäufer eine unverwechselbare visuelle Markenidentität über den gesamten Shop aufbauen.',
     },
     {
-      title: 'Saisonale Alphabet-Zug-B\u00fcndel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte B\u00fcndel zu erstellen. Ein \u201eWeihnachts-Alphabet-Zug\u201c-Paket mit festlichen Illustrationen verkauft sich besonders stark im November\u2013Dezember. Schulanfang, Halloween, Valentinstag und Fr\u00fchling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
+      title: 'Saisonale Alphabet-Zug-Bündel',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Alphabet-Zug“-Paket mit festlichen Illustrationen verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween, Valentinstag und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Mehrsprachiger Alphabet-Zug-Shop auf Etsy.de',
-      description: 'Er\u00f6ffnen Sie einen Etsy-Shop, der sich auf Alphabet-Zug-Arbeitsbl\u00e4tter in allen 11 unterst\u00fctzten Sprachen spezialisiert. Die meisten Alphabet-Druckvorlagen-Verk\u00e4ufer bedienen nur Englisch \u2014 Sie k\u00f6nnen identische Designs auf Etsy Deutschland, Frankreich, Spanien, Italien, Schweden und weiteren M\u00e4rkten listen. Jede Sprachversion ist ein einzigartiges Produkt mit eigenem nativen Alphabet und eigenen Bild-Buchstabe-Zuordnungen. Ein Nachmittag Designarbeit erzeugt 11 Listings, jedes f\u00fcr einen anderen K\u00e4ufermarkt ohne Wettbewerbs\u00fcberschneidung.',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Alphabet-Zug-Arbeitsblätter in allen 11 unterstützten Sprachen spezialisiert. Die meisten Alphabet-Druckvorlagen-Verkäufer bedienen nur Englisch — Sie können identische Designs auf Etsy Deutschland, Frankreich, Spanien, Italien, Schweden und weiteren Märkten listen. Jede Sprachversion ist ein einzigartiges Produkt mit eigenem nativen Alphabet und eigenen Bild-Buchstabe-Zuordnungen. Ein Nachmittag Designarbeit erzeugt 11 Listings, jedes für einen anderen Käufermarkt ohne Wettbewerbsüberschneidung.',
       platform: 'Etsy.de',
     },
     {
-      title: 'Buchstabenerkennung-Aktivit\u00e4tsb\u00fccher auf Amazon KDP',
-      description: 'Stellen Sie \u00fcber 60 Alphabet-Zug-Seiten zu einem physischen Aktivit\u00e4ts-Arbeitsbuch zusammen. Strukturieren Sie Kapitel nach Schwierigkeit: 3-Hinweis-Seiten zum Aufw\u00e4rmen, 7-Hinweis-Seiten f\u00fcr den Hauptteil und 11-Hinweis-Seiten f\u00fcr Herausforderungsrunden. Nutzen Sie den Graustufen-Modus f\u00fcr geringere Druckkosten. Das Zugformat sieht v\u00f6llig anders aus als Standard-Alphabet-Nachschreibb\u00fccher und verschafft Ihrem Listing einen visuellen Vorteil. Ver\u00f6ffentlichen Sie separate Ausgaben f\u00fcr jede Sprache, um Ihren Katalog zu vervielfachen.',
+      title: 'Buchstabenerkennung-Aktivitätsbücher auf Amazon KDP',
+      description: 'Stellen Sie über 60 Alphabet-Zug-Seiten zu einem physischen Aktivitäts-Arbeitsbuch zusammen. Strukturieren Sie Kapitel nach Schwierigkeit: 3-Hinweis-Seiten zum Aufwärmen, 7-Hinweis-Seiten für den Hauptteil und 11-Hinweis-Seiten für Herausforderungsrunden. Nutzen Sie den Graustufen-Modus für geringere Druckkosten. Das Zugformat sieht völlig anders aus als Standard-Alphabet-Nachschreibbücher und verschafft Ihrem Listing einen visuellen Vorteil. Veröffentlichen Sie separate Ausgaben für jede Sprache, um Ihren Katalog zu vervielfachen.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Literacy-B\u00fcndel auf Lehrermarktplatz',
-      description: 'Laden Sie differenzierte Alphabet-Zug-Pakete auf den Lehrermarktplatz hoch. F\u00fcgen Sie Arbeitsbl\u00e4tter auf drei Hinweisstufen, eine Lehreranleitung zum Zugformat und L\u00f6sungsschl\u00fcssel f\u00fcr jede Seite ein. Lehrkr\u00e4fte suchen st\u00e4ndig nach \u201eAlphabet-Aktivit\u00e4ten\u201c und \u201eBuchstabenerkennung-Arbeitsbl\u00e4tter\u201c. Das visuelle Zugformat bietet erh\u00f6hten wahrgenommenen Wert, weil es sich wie ein Spiel anf\u00fchlt, nicht wie eine \u00dcbung. Bieten Sie Auto-Erstellen-B\u00fcndel f\u00fcr Vielfalt und Manuelle-Auswahl-B\u00fcndel f\u00fcr lehrplanbezogene Buchstabengruppen an.',
+      title: 'Literacy-Bündel auf Lehrermarktplatz',
+      description: 'Laden Sie differenzierte Alphabet-Zug-Pakete auf den Lehrermarktplatz hoch. Fügen Sie Arbeitsblätter auf drei Hinweisstufen, eine Lehreranleitung zum Zugformat und Lösungsschlüssel für jede Seite ein. Lehrkräfte suchen ständig nach „Alphabet-Aktivitäten“ und „Buchstabenerkennung-Arbeitsblätter“. Das visuelle Zugformat bietet erhöhten wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung. Bieten Sie Auto-Erstellen-Bündel für Vielfalt und Manuelle-Auswahl-Bündel für lehrplanbezogene Buchstabengruppen an.',
       platform: 'Lehrermarktplatz',
     },
     {
       title: 'Mehrsprachige Alphabet-Kits auf Gumroad',
-      description: 'Erstellen Sie Premium-Alphabet-Kits auf Gumroad, die dasselbe Arbeitsblatt-Design in 5\u201311 Sprachen enthalten. Sprechen Sie zweisprachige Familien, internationale Schulen und DaF-Lehrkr\u00e4fte an, die Buchstabenerkennungsmaterialien in mehreren Sprachen ben\u00f6tigen. Der Sprache-als-Multiplikator-Ansatz bedeutet, dass jedes Kit 5\u201311 Mal so viel Inhalt hat wie ein einsprachiger Wettbewerber, was einen h\u00f6heren Preis rechtfertigt.',
+      description: 'Erstellen Sie Premium-Alphabet-Kits auf Gumroad, die dasselbe Arbeitsblatt-Design in 5–11 Sprachen enthalten. Sprechen Sie zweisprachige Familien, internationale Schulen und DaF-Lehrkräfte an, die Buchstabenerkennungsmaterialien in mehreren Sprachen benötigen. Der Sprache-als-Multiplikator-Ansatz bedeutet, dass jedes Kit 5–11 Mal so viel Inhalt hat wie ein einsprachiger Wettbewerber, was einen höheren Preis rechtfertigt.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest-Alphabet-Zug-Trichter',
-      description: 'Das farbenfrohe Zugwaggon-Format erzeugt auff\u00e4llige Pins, die Klicks generieren \u2014 11 bunte Waggons mit Buchstaben und Bildern sind sofort erkennbar und stoppen das Scrollen. Bieten Sie eine kostenlose 3-seitige Probe an, sammeln Sie E-Mail-Adressen und verkaufen Sie dann Ihre vollst\u00e4ndigen thematischen und mehrsprachigen B\u00fcndel als Upsell. Alphabet-Zug-Bilder erhalten deutlich mehr Speicherungen als gew\u00f6hnliche Buchstaben-Arbeitsbl\u00e4tter.',
+      description: 'Das farbenfrohe Zugwaggon-Format erzeugt auffällige Pins, die Klicks generieren — 11 bunte Waggons mit Buchstaben und Bildern sind sofort erkennbar und stoppen das Scrollen. Bieten Sie eine kostenlose 3-seitige Probe an, sammeln Sie E-Mail-Adressen und verkaufen Sie dann Ihre vollständigen thematischen und mehrsprachigen Bündel als Upsell. Alphabet-Zug-Bilder erhalten deutlich mehr Speicherungen als gewöhnliche Buchstaben-Arbeitsblätter.',
       platform: 'Pinterest',
     },
     {
       title: 'Sprachspezifische Etsy-Nischen-Shops',
-      description: 'Erstellen Sie separate Etsy-Shops oder Listings mit lokalen Schl\u00fcsselw\u00f6rtern f\u00fcr deutsche, franz\u00f6sische, spanische und schwedische Alphabet-Z\u00fcge. In jedem Markt konkurrieren Sie gegen weit weniger Verk\u00e4ufer als im englischsprachigen Bereich. Deutsche Alphabet-Arbeitsbl\u00e4tter mit \u00c4/\u00d6/\u00dc, schwedische mit \u00c5/\u00c4/\u00d6 und spanische mit \u00d1 sind unterversorgte Nischen. Das Tool \u00fcbernimmt alle sprachspezifischen Details automatisch.',
+      description: 'Erstellen Sie separate Etsy-Shops oder Listings mit lokalen Schlüsselwörtern für deutsche, französische, spanische und schwedische Alphabet-Züge. In jedem Markt konkurrieren Sie gegen weit weniger Verkäufer als im englischsprachigen Bereich. Deutsche Alphabet-Arbeitsblätter mit Ä/Ö/Ü, schwedische mit Å/Ä/Ö und spanische mit Ñ sind unterversorgte Nischen. Das Tool übernimmt alle sprachspezifischen Details automatisch.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Mit 3 Hinweisen f\u00fcr Anf\u00e4nger starten',
-      description: 'Ein 3-Hinweis-Arbeitsblatt bietet jungen Lernenden einen sanften Einstieg \u2014 sie m\u00fcssen nur 3 Bilder den Waggons zuordnen, w\u00e4hrend die verbleibenden 8 Waggons Buchstaben ohne Zuordnungsaufgabe zeigen. Das verhindert \u00dcberforderung bei Vorsch\u00fclern und jungen Erstklasslern. Steigern Sie auf 7 oder 11 Hinweise, wenn die Sch\u00fcler sicherer werden.',
+      title: 'Mit 3 Hinweisen für Anfänger starten',
+      description: 'Ein 3-Hinweis-Arbeitsblatt bietet jungen Lernenden einen sanften Einstieg — sie müssen nur 3 Bilder den Waggons zuordnen, während die verbleibenden 8 Waggons Buchstaben ohne Zuordnungsaufgabe zeigen. Das verhindert Überforderung bei Vorschülern und jungen Erstklasslern. Steigern Sie auf 7 oder 11 Hinweise, wenn die Schüler sicherer werden.',
     },
     {
-      title: 'Auto-Erstellen f\u00fcr Geschwindigkeit, Manuell f\u00fcr Kontrolle',
-      description: 'Der Auto-Erstellen-Modus w\u00e4hlt zuf\u00e4llig Buchstaben und weist Bilder zu, sodass Sie in Minuten Dutzende einzigartige Arbeitsbl\u00e4tter generieren k\u00f6nnen. Wechseln Sie zur Manuellen Auswahl, wenn Sie bestimmte Buchstabengruppen ben\u00f6tigen \u2014 zum Beispiel nur Vokale, nur Konsonanten oder Buchstaben, die Ihre Sch\u00fcler gerade im Unterricht lernen.',
+      title: 'Auto-Erstellen für Geschwindigkeit, Manuell für Kontrolle',
+      description: 'Der Auto-Erstellen-Modus wählt zufällig Buchstaben und weist Bilder zu, sodass Sie in Minuten Dutzende einzigartige Arbeitsblätter generieren können. Wechseln Sie zur Manuellen Auswahl, wenn Sie bestimmte Buchstabengruppen benötigen — zum Beispiel nur Vokale, nur Konsonanten oder Buchstaben, die Ihre Schüler gerade im Unterricht lernen.',
     },
     {
-      title: 'Mehrsprachig f\u00fcr 11-fache Produktpalette',
-      description: 'Jedes Alphabet-Zug-Design, das Sie erstellen, kann durch Wechseln der Spracheinstellung zu 11 Produkten werden. Das Tool passt automatisch Buchstabens\u00e4tze, Sortierung und Bild-Buchstabe-Zuordnungen an. Eine einzige thematische Designsitzung mit Tiermotiven erzeugt ein englisches, deutsches, franz\u00f6sisches, spanisches, portugiesisches, italienisches, niederl\u00e4ndisches, schwedisches, d\u00e4nisches, norwegisches und finnisches Produkt \u2014 jedes mit einem einzigartigen nativen Alphabet.',
+      title: 'Mehrsprachig für 11-fache Produktpalette',
+      description: 'Jedes Alphabet-Zug-Design, das Sie erstellen, kann durch Wechseln der Spracheinstellung zu 11 Produkten werden. Das Tool passt automatisch Buchstabensätze, Sortierung und Bild-Buchstabe-Zuordnungen an. Eine einzige thematische Designsitzung mit Tiermotiven erzeugt ein englisches, deutsches, französisches, spanisches, portugiesisches, italienisches, niederländisches, schwedisches, dänisches, norwegisches und finnisches Produkt — jedes mit einem einzigartigen nativen Alphabet.',
     },
     {
-      title: 'Graustufen f\u00fcr KDP und Massendruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter f\u00fcr Arbeitsbl\u00e4tter, die f\u00fcr Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzwei\u00df-Z\u00fcge sind deutlich g\u00fcnstiger im Druck. Speichern Sie den Farbmodus f\u00fcr Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Waggons Klicks anziehen.',
+      title: 'Graustufen für KDP und Massendruck nutzen',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Züge sind deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Waggons Klicks anziehen.',
     },
     {
-      title: 'Eigene Bilder f\u00fcr Wiedererkennungswert hochladen',
-      description: 'Laden Sie eigene Illustrationen oder lizenzierte Grafiken hoch, um Alphabet-Z\u00fcge zu erstellen, die kein Wettbewerber kopieren kann. Eigene Bilder erm\u00f6glichen es Ihnen, eine konsistente visuelle Marke \u00fcber Ihren gesamten Etsy-Shop aufzubauen und machen Ihre Produkte f\u00fcr wiederkehrende Kunden sofort wiedererkennbar.',
+      title: 'Eigene Bilder für Wiedererkennungswert hochladen',
+      description: 'Laden Sie eigene Illustrationen oder lizenzierte Grafiken hoch, um Alphabet-Züge zu erstellen, die kein Wettbewerber kopieren kann. Eigene Bilder ermöglichen es Ihnen, eine konsistente visuelle Marke über Ihren gesamten Etsy-Shop aufzubauen und machen Ihre Produkte für wiederkehrende Kunden sofort wiedererkennbar.',
     },
     {
       title: 'Mit anderen Literacy-Tools kombinieren',
-      description: 'Kombinieren Sie Alphabet-Zug-Arbeitsbl\u00e4tter mit Schreib\u00fcbungen, Wortsuche-R\u00e4tseln und Buchstabensalat-Aktivit\u00e4ten zu umfassenden Literacy-B\u00fcndeln. Ein \u201eKomplettes Buchstaben-Lernpaket\u201c mit mehreren Aktivit\u00e4tstypen erzielt einen h\u00f6heren Preis als jedes einzelne Arbeitsblatt-Format.',
+      description: 'Kombinieren Sie Alphabet-Zug-Arbeitsblätter mit Schreibübungen, Wortsuche-Rätseln und Buchstabensalat-Aktivitäten zu umfassenden Literacy-Bündeln. Ein „Komplettes Buchstaben-Lernpaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format.',
     },
     {
-      title: 'Mit Muster-Zug f\u00fcr ein Zug-Themen-B\u00fcndel kombinieren',
-      description: 'Der Muster-Zug-Ersteller verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. B\u00fcndeln Sie die Ausgaben beider Tools zu einem \u201eZug-Aktivit\u00e4ten\u201c-Mega-Paket, das Literacy- und Logik-F\u00e4higkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenh\u00e4ngende Produktlinie.',
+      title: 'Mit Muster-Zug für ein Zug-Themen-Bündel kombinieren',
+      description: 'Der Muster-Zug-Ersteller verwendet dasselbe Zugwaggon-Format, konzentriert sich aber auf Mustererkennung statt auf Buchstaben. Bündeln Sie die Ausgaben beider Tools zu einem „Zug-Aktivitäten“-Mega-Paket, das Literacy- und Logik-Fähigkeiten abdeckt. Der einheitliche visuelle Stil erzeugt eine zusammenhängende Produktlinie.',
     },
   ],
 
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit s\u00e4mtlichen Funktionen \u2014 keine Anmeldung, keine Kreditkarte erforderlich. Sie k\u00f6nnen so viele Arbeitsbl\u00e4tter erstellen, in der Vorschau ansehen und herunterladen, wie Sie m\u00f6chten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
     },
     {
       question: 'Wie funktioniert das Alphabet-Zug-Format?',
-      answer: 'Das Tool erstellt 11 farbenfrohe Zugwaggons, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug. Sch\u00fcler erkennen, mit welchem Buchstaben jedes Hinweisbild beginnt, und ordnen es dem richtigen Waggon zu. Die Anzahl der Hinweisbilder ist von 3 bis 11 einstellbar.',
+      answer: 'Das Tool erstellt 11 farbenfrohe Zugwaggons, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug. Schüler erkennen, mit welchem Buchstaben jedes Hinweisbild beginnt, und ordnen es dem richtigen Waggon zu. Die Anzahl der Hinweisbilder ist von 3 bis 11 einstellbar.',
     },
     {
       question: 'Was ist der Unterschied zwischen Auto-Erstellen und Manueller Auswahl?',
-      answer: 'Auto-Erstellen w\u00e4hlt zuf\u00e4llig 11 Buchstaben aus dem Alphabet und weist automatisch passende Bilder aus dem gew\u00e4hlten Thema zu \u2014 ideal f\u00fcr schnelle Massenproduktion. Manuelle Auswahl erm\u00f6glicht es Ihnen, genau 11 Buchstaben aus dem vollst\u00e4ndigen Alphabet-Raster auszuw\u00e4hlen und jedes Bild einzeln zuzuweisen, sodass Sie volle Kontrolle dar\u00fcber haben, welche Buchstaben auf dem Arbeitsblatt erscheinen.',
+      answer: 'Auto-Erstellen wählt zufällig 11 Buchstaben aus dem Alphabet und weist automatisch passende Bilder aus dem gewählten Thema zu — ideal für schnelle Massenproduktion. Manuelle Auswahl ermöglicht es Ihnen, genau 11 Buchstaben aus dem vollständigen Alphabet-Raster auszuwählen und jedes Bild einzeln zuzuweisen, sodass Sie volle Kontrolle darüber haben, welche Buchstaben auf dem Arbeitsblatt erscheinen.',
     },
     {
       question: 'Wie funktioniert das Hinweisanzahl-System?',
-      answer: 'Der Hinweisanzahl-Regler steuert, wie viele zugeordnete Bilder neben dem Zug erscheinen. Mit 3 Hinweisen haben nur 3 der 11 Waggons eine Zuordnungsaufgabe \u2014 die leichteste Stufe. Mit 11 Hinweisen hat jeder Waggon eine Zuordnung, was die schwerste Version ergibt. Passen Sie die Anzahl an, um Arbeitsbl\u00e4tter nach Schwierigkeit zu differenzieren.',
+      answer: 'Der Hinweisanzahl-Regler steuert, wie viele zugeordnete Bilder neben dem Zug erscheinen. Mit 3 Hinweisen haben nur 3 der 11 Waggons eine Zuordnungsaufgabe — die leichteste Stufe. Mit 11 Hinweisen hat jeder Waggon eine Zuordnung, was die schwerste Version ergibt. Passen Sie die Anzahl an, um Arbeitsblätter nach Schwierigkeit zu differenzieren.',
     },
     {
-      question: 'Welche Sprachen werden unterst\u00fctzt?',
-      answer: 'Das Tool unterst\u00fctzt 11 Sprachen mit nativen Alphabeten: Englisch (26 Buchstaben), Deutsch (30 Buchstaben einschlie\u00dflich \u00c4, \u00d6, \u00dc, \u00df), Franz\u00f6sisch, Spanisch (\u00d1), Portugiesisch, Italienisch, Niederl\u00e4ndisch, Schwedisch (29 Buchstaben einschlie\u00dflich \u00c5, \u00c4, \u00d6), D\u00e4nisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekte Buchstabenreihenfolge und ihren Zeichensatz.',
+      question: 'Welche Sprachen werden unterstützt?',
+      answer: 'Das Tool unterstützt 11 Sprachen mit nativen Alphabeten: Englisch (26 Buchstaben), Deutsch (30 Buchstaben einschließlich Ä, Ö, Ü, ß), Französisch, Spanisch (Ñ), Portugiesisch, Italienisch, Niederländisch, Schwedisch (29 Buchstaben einschließlich Å, Ä, Ö), Dänisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekte Buchstabenreihenfolge und ihren Zeichensatz.',
     },
     {
       question: 'Wie funktioniert die sprachsensitive Bildzuordnung?',
-      answer: 'Das Tool ordnet jedes Bild dem Buchstaben zu, mit dem es in der gew\u00e4hlten Sprache beginnt. Zum Beispiel passt ein Hund-Bild zu H auf Deutsch, D auf Englisch (Dog), C auf Franz\u00f6sisch (Chien) und P auf Spanisch (Perro). Das bedeutet, dass derselbe Bildsatz in jeder Sprache wirklich unterschiedliche Arbeitsbl\u00e4tter erzeugt, nicht nur \u00fcbersetzte Beschriftungen.',
+      answer: 'Das Tool ordnet jedes Bild dem Buchstaben zu, mit dem es in der gewählten Sprache beginnt. Zum Beispiel passt ein Hund-Bild zu H auf Deutsch, D auf Englisch (Dog), C auf Französisch (Chien) und P auf Spanisch (Perro). Das bedeutet, dass derselbe Bildsatz in jeder Sprache wirklich unterschiedliche Arbeitsblätter erzeugt, nicht nur übersetzte Beschriftungen.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf \u201eEigenes Bild hochladen\u201c, um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder erm\u00f6glichen es Ihnen, markentypische Arbeitsbl\u00e4tter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verk\u00e4ufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann.',
     },
     {
-      question: 'Kann ich die Arbeitsbl\u00e4tter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur f\u00fcr den pers\u00f6nlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsbl\u00e4tter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, ben\u00f6tigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gew\u00e4hrt volle Weiterverkaufsrechte f\u00fcr alle von Ihnen erstellten Arbeitsbl\u00e4tter.',
+      question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie k\u00f6nnen Arbeitsbl\u00e4tter als hochaufl\u00f6sende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende L\u00f6sungsschl\u00fcssel sind in beiden Formaten verf\u00fcgbar. PDFs eignen sich ideal zum direkten Drucken und f\u00fcr den KDP-Upload; JPEGs sind perfekt f\u00fcr Produkt-Mockups und Social-Media-Beitr\u00e4ge.',
+      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und für den KDP-Upload; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge.',
     },
     {
-      question: 'Welche Schriftoptionen sind verf\u00fcgbar?',
-      answer: 'Das Tool bietet 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Jede Schrift ist in Arbeitsblattgr\u00f6\u00dfen klar und gut lesbar. W\u00e4hlen Sie runde, verspielte Schriften wie Fredoka f\u00fcr j\u00fcngere Lernende oder klare Schriften wie Lexend Deca f\u00fcr ein professionelles Erscheinungsbild.',
+      question: 'Welche Schriftoptionen sind verfügbar?',
+      answer: 'Das Tool bietet 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Jede Schrift ist in Arbeitsblattgrößen klar und gut lesbar. Wählen Sie runde, verspielte Schriften wie Fredoka für jüngere Lernende oder klare Schriften wie Lexend Deca für ein professionelles Erscheinungsbild.',
     },
     {
-      question: 'Was ist Ihre R\u00fcckgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion \u2014 jede Funktion steht Ihnen zur Verf\u00fcgung, damit Sie das Tool vollst\u00e4ndig bewerten k\u00f6nnen, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gew\u00e4hrt, bieten wir keine R\u00fcckerstattung f\u00fcr Lizenzk\u00e4ufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      question: 'Was ist Ihre Rückgabepolitik?',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'alphabet-zug-arbeitsblaetter', anchorText: 'Alphabet-Zug-Arbeitsbl\u00e4tter \u2014 Vollst\u00e4ndige Produktdetails' },
-    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Pr\u00e4positionen-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'W\u00f6rter-Raten-Ersteller' },
+    { pageType: 'app', slug: 'alphabet-zug-arbeitsblaetter', anchorText: 'Alphabet-Zug-Arbeitsblätter — Vollständige Produktdetails' },
+    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Präpositionen-Arbeitsblatt-Ersteller' },
+    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller' },
     { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller' },
     { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreib\u00fcbungen-Ersteller' },
+    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller' },
     { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller' },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/german/alphabet train/Alphabet Train 1.webp',
-      primaryAlt: 'Alphabet-Zug-Arbeitsblatt mit 11 farbenfrohen Waggons, Buchstaben und Hinweisbildern f\u00fcr Buchstabenerkennung',
+      primaryAlt: 'Alphabet-Zug-Arbeitsblatt mit 11 farbenfrohen Waggons, Buchstaben und Hinweisbildern für Buchstabenerkennung',
     },
     sampleGallery: [
       {
         src: '/samples/german/alphabet train/Alphabet Train 1.webp',
-        alt: 'Farbenfroher Alphabet-Zug mit Buchstabe-Bild-Zuordnung f\u00fcr junge Lernende',
+        alt: 'Farbenfroher Alphabet-Zug mit Buchstabe-Bild-Zuordnung für junge Lernende',
         caption: 'Zugwaggon-Format mit Buchstabe-Bild-Zuordnung',
       },
       {
@@ -229,12 +229,12 @@ const content: ToolContent = {
       },
       {
         src: '/samples/german/alphabet train/Alphabet Train 10.webp',
-        alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen f\u00fcr maximale Schwierigkeit',
-        caption: 'Volle 11-Hinweis-Schwierigkeit f\u00fcr fortgeschrittene Sch\u00fcler',
+        alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen für maximale Schwierigkeit',
+        caption: 'Volle 11-Hinweis-Schwierigkeit für fortgeschrittene Schüler',
       },
     ],
     youtubeId: '_dDQegRq9JQ',
-    videoTitle: 'Alphabet-Zug-Arbeitsbl\u00e4tter erstellen \u2014 Video-Anleitung',
+    videoTitle: 'Alphabet-Zug-Arbeitsblätter erstellen — Video-Anleitung',
   },
 };
 

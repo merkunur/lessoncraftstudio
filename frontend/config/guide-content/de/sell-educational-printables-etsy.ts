@@ -201,9 +201,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Pädagogisches Druckvorlagen-Arbeitsblatt mit bildbasierten Mathe-Aufgaben zum Verkauf auf Etsy über mehrere Kategorien' },
+    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Pädagogisches Druckvorlagen-Arbeitsblatt mit bildbasierten Mathe-Aufgaben zum Verkauf auf Etsy über mehrere Kategorien' },
     samples: [
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tierthematisiertes Additions-Arbeitsblatt für einen diversifizierten pädagogischen Druckvorlagen-Etsy-Shop', caption: 'Additions-Arbeitsblatt mit Tierthema — eines von Dutzenden Mathe-Produkten, die Sie für Ihren Etsy-Shop erstellen können' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tierthematisiertes Additions-Arbeitsblatt für einen diversifizierten pädagogischen Druckvorlagen-Etsy-Shop', caption: 'Additions-Arbeitsblatt mit Tierthema — eines von Dutzenden Mathe-Produkten, die Sie für Ihren Etsy-Shop erstellen können' },
       { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt als sprachbasierte pädagogische Druckvorlage für Etsy', caption: 'Wortsuchrätsel — sprachsensitives Format, das über 11 Sprachmärkte auf Etsy multipliziert werden kann' },
       { src: '/samples/german/coloring/coloring portrait 5.webp', alt: 'Malvorlagen-Druckvorlage als visuelles Lernprodukt für einen pädagogischen Etsy-Shop', caption: 'Malvorlage — die breiteste Käuferdemografie aller pädagogischen Druckvorlagen-Kategorien auf Etsy' },
     ],

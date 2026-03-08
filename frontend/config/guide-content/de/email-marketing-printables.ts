@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Visuell beeindruckende Produkte erzielen höhere Klickraten in E-Mail-Kampagnen',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt demonstriert immergrüne Inhalte für automatisierte E-Mail-Sequenzen',
         caption: 'Immergrüne Mathe-Inhalte treiben automatisierte saisonale E-Mail-Kampagnen das ganze Jahr über an',
       },

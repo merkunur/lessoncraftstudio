@@ -223,7 +223,7 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio Generator' },
     samples: [
       { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Druckbares Wortsuche-Arbeitsblatt mit Tierthema', caption: 'Wortsuche — Tierthema' },
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
       { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit visuellen Paar-Aktivitäten', caption: 'Zuordnung — Visuelle Paar-Aktivität' },
     ],

@@ -217,7 +217,7 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find objects/find objects portrait.webp',
+      primary: '/samples/german/find objects/Finde das Unpassende 1.webp',
       primaryAlt: 'Suchbild-Arbeitsblatt mit verteilten Bildern durch überlappungsfreien Algorithmus, Legende am unteren Rand mit Suchobjekten und dekorativem Fredoka-Header',
     },
     sampleGallery: [

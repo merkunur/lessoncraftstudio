@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Visuelle Zuordnungs-Arbeitsblätter verwenden Bilder, die sich universell über Sprachen übertragen',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Mathe-Arbeitsblatt zeigt universelle Attraktivität über Sprachbarrieren hinweg',
         caption: 'Mathe-Arbeitsblätter überwinden Sprachbarrieren natürlich, da Zahlen marktübergreifend universell sind',
       },

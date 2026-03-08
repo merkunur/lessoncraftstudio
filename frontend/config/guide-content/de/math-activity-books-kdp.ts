@@ -197,10 +197,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Mathe-Aufgaben für Amazon KDP Aktivitätsbuch-Innenseiten' },
+    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Mathe-Aufgaben für Amazon KDP Aktivitätsbuch-Innenseiten' },
     samples: [
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tier-Thema Additions-Arbeitsblatt formatiert für KDP Mathe-Aktivitätsbuch', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben für ansprechende KDP-Aktivitätsbuch-Seiten' },
-      { src: '/samples/german/subtraction/cross out.webp', alt: 'Subtraktions-Arbeitsblatt für Multi-Rechenarten KDP Mathe-Arbeitsbuch', caption: 'Subtraktions-Arbeitsblatt — ergänzt Additionsseiten für umfassende Mathe-Aktivitätsbücher auf Amazon' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tier-Thema Additions-Arbeitsblatt formatiert für KDP Mathe-Aktivitätsbuch', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben für ansprechende KDP-Aktivitätsbuch-Seiten' },
+      { src: '/samples/german/subtraction/worksheet (1).webp', alt: 'Subtraktions-Arbeitsblatt für Multi-Rechenarten KDP Mathe-Arbeitsbuch', caption: 'Subtraktions-Arbeitsblatt — ergänzt Additionsseiten für umfassende Mathe-Aktivitätsbücher auf Amazon' },
       { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Raster-Arbeitsblatt für Vielfalt in KDP-Aktivitätsbüchern', caption: 'Mathe-Rätsel-Raster — fügt ansprechende Vielfalt zu Aktivitätsbuch-Seiten jenseits standardmäßiger Arbeitsblattübungen hinzu' },
     ],
     youtubeId: '6O5aCzHkh8M',

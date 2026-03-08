@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern und visuellen Zählübungen für Kinder' },
+    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern und visuellen Zählübungen für Kinder' },
     samples: [
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Bildbasiertes Additions-Arbeitsblatt mit Tierthema für den Kindergarten', caption: 'Kindergarten-Additions-Arbeitsblatt mit Bauernhoftiere-Thema im Übungsmodus Bild + Bild' },
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit Lösungsschlüssel und korrekten Lösungen', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Additions-Arbeitsblatt generiert wird' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Bildbasiertes Additions-Arbeitsblatt mit Tierthema für den Kindergarten', caption: 'Kindergarten-Additions-Arbeitsblatt mit Bauernhoftiere-Thema im Übungsmodus Bild + Bild' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit Lösungsschlüssel und korrekten Lösungen', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Additions-Arbeitsblatt generiert wird' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter erstellen — Komplettes Tutorial',

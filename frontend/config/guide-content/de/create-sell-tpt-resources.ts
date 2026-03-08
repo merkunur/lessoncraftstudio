@@ -193,9 +193,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt-Ressource geeignet zum Verkauf auf dem Teachers Pay Teachers Marktplatz' },
+    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt-Ressource geeignet zum Verkauf auf dem Teachers Pay Teachers Marktplatz' },
     samples: [
-      { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Mathe-Additions-Arbeitsblatt für TPT-Unterrichtsressource', caption: 'Mathe-Arbeitsblätter gehören zu den meistgesuchten Ressourcentypen auf TPT — Lehrer brauchen standardkonforme Übungen für jede Fertigkeit' },
+      { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Mathe-Additions-Arbeitsblatt für TPT-Unterrichtsressource', caption: 'Mathe-Arbeitsblätter gehören zu den meistgesuchten Ressourcentypen auf TPT — Lehrer brauchen standardkonforme Übungen für jede Fertigkeit' },
       { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Aktivität für TPT-Shop-Listing', caption: 'Wortsuchrätsel funktionieren auf TPT über alle Klassenstufen als Vokabel-Aufbau, Stationsaktivitäten und Arbeit für schnelle Schüler' },
       { src: '/samples/german/matching/Paare Finden 2.webp', alt: 'Zuordnungsaktivitäts-Arbeitsblatt für TPT-Pädagogen', caption: 'Zuordnungsaktivitäten sind vielseitige TPT-Ressourcen, die Lehrer für Bewertung, Übung und Wiederholung über mehrere Fächer nutzen' },
     ],

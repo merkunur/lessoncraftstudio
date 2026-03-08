@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Addition Fun 1.webp',
+      src: '/samples/german/addition/Additionsspa 1.webp',
       alt: 'Professionelles Additions-Arbeitsblatt, das die Erstellung digitaler Druckprodukte für sowohl digitale Downloads als auch physische Druckformate demonstriert',
     },
     samples: [
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt als digitales Druckprodukt für Download und physischen Druck geeignet',
         caption: 'Mathe-Arbeitsblätter funktionieren gut als digitale Downloads und als Seiten in gedruckten Arbeitsbüchern',
       },

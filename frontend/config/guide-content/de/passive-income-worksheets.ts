@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Addition Fun 1.webp',
+      src: '/samples/german/addition/Additionsspa 1.webp',
       alt: 'Professionelles Additions-Arbeitsblatt als Beispiel für immergrünen Bildungsinhalt für wiederkehrenden Umsatz',
     },
     samples: [
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt mit professioneller Formatierung für Marktplatzverkauf',
         caption: 'Mathe-Arbeitsblätter generieren konsistenten ganzjährigen Umsatz als immergrüne Bildungsprodukte',
       },

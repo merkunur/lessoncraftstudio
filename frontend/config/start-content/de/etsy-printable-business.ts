@@ -225,7 +225,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt für Etsy-Druckvorlagen-Shop', caption: 'Malvorlage — Etsy Top-Kategorie' },
       { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Druckvorlagen-Arbeitsblatt für Etsy-Listing', caption: 'Wortsuche — Hohes Suchvolumen' },
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Zeitlose Mathe-Kategorie' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Zeitlose Mathe-Kategorie' },
       { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt für internationale Etsy-Käufer', caption: 'Zuordnung — Rein visuelle Aktivität' },
     ],
     youtubeId: 'ZdpCr2txHcc',

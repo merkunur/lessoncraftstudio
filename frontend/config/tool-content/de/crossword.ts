@@ -218,7 +218,7 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/crossword/crossword_worksheet (1).webp',
+        src: '/samples/german/crossword/crossword_worksheet.webp',
         alt: 'Benutzerdefiniertes Wortlisten-Kreuzworträtsel mit Text-Hinweisen und Kreuzwortraster im WORT-Hinweis-Format',
         caption: 'Benutzerdefinierter Wortlisten-Modus — traditionelle Text-Hinweis-Kreuzworträtsel mit eigenem Vokabular',
       },

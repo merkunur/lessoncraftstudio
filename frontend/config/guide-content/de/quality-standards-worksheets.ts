@@ -185,7 +185,7 @@ const content: GuideContent = {
         caption: 'Professionelle Wortsuchrätsel-Ausgabe demonstriert sauberes Layout, lesbare Typografie und präzise Rasterausrichtung',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt mit Qualitätsstandards für Zahlenausrichtung und Lösungsschlüssel-Genauigkeit',
         caption: 'Mathe-Arbeitsblätter erfordern präzise Ausrichtung, klare Typografie und überprüfte Lösungsschlüssel für professionelle Qualität',
       },

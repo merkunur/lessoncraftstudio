@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Klares Arbeitsblattdesign und umfassende Produktbeschreibungen verhindern häufige Supportanfragen',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additionsarbeitsblatt mit professioneller Formatierung für genaue Käufererwartungen',
         caption: 'Professionelle Formatierung und detaillierte Spezifikationen eliminieren Erwartungsabweichungen',
       },

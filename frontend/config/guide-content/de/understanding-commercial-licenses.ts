@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Unter kommerzieller Lizenz erstellte Wortsuchrätsel können auf jeder Plattform verkauft werden',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt generiert mit lizenzgebührenfreier kommerzieller Lizenzierung',
         caption: 'Eine kommerzielle Lizenz deckt unbegrenzte Additions-Arbeitsblattgenerierung ohne Pro-Produkt-Gebühren ab',
       },

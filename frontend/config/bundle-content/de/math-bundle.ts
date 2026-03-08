@@ -218,14 +218,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/addition/Addition Fun 1.webp',
+      primary: '/samples/german/addition/Additionsspa 1.webp',
       primaryAlt: 'Additions-Arbeitsblatt mit thematischen Bildern und visuellen Zählaufgaben',
     },
     sampleGallery: [
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Tierbildern', caption: 'Additions-Arbeitsblatt' },
-      { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktions-Arbeitsblatt mit Durchstreichen-Zählung', caption: 'Subtraktions-Arbeitsblatt' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Tierbildern', caption: 'Additions-Arbeitsblatt' },
+      { src: '/samples/german/subtraction/worksheet.webp', alt: 'Subtraktions-Arbeitsblatt mit Durchstreichen-Zählung', caption: 'Subtraktions-Arbeitsblatt' },
       { src: '/samples/german/code addition/Code-Knacker Addition 1.webp', alt: 'Bilder-Additions-Rätsel mit Buchstaben-Entschlüsselung', caption: 'Bilder-Additions-Rätsel' },
-      { src: '/samples/german/more less/More Less (10).webp', alt: 'Größer-als-Kleiner-als-Vergleichs-Arbeitsblatt', caption: 'Mehr-oder-Weniger-Arbeitsblatt' },
+      { src: '/samples/german/more less/Mehr Weniger 1.webp', alt: 'Größer-als-Kleiner-als-Vergleichs-Arbeitsblatt', caption: 'Mehr-oder-Weniger-Arbeitsblatt' },
       { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Puzzle-Raster-Mathe-Rätsel mit Gleichungen', caption: 'Mathe-Rätsel-Arbeitsblatt' },
       { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Visuelle Bildalgebra mit Bildvariablen', caption: 'Mathe-Arbeitsblatt-Rätsel' },
     ],

@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Arbeitsblatt-Generatoren automatisieren den zeitintensivsten Schritt in der Druckvorlagen-Produktion',
       },
       {
-        src: '/samples/german/addition/Addition Fun 1.webp',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblatt demonstriert Stapelverarbeitung mit Themenvariationen',
         caption: 'Stapelverarbeitung thematischer Variationen multipliziert die Katalogproduktion effizient',
       },

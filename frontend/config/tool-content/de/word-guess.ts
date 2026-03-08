@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: 'Einstellbare Hinweis-Schwierigkeit von Leicht bis Keine Hinweise',
       },
       {
-        src: '/samples/german/word guess/clue-grid_worksheet (4).webp',
+        src: '/samples/german/word guess/clue-grid_worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit thematischer Bildersammlung und farbenfrohen Buchstabengittern',
         caption: 'Thematische Sammlungen für zusammenhängende Rechtschreib-Aktivitätspakete',
       },

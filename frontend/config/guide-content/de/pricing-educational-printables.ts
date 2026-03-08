@@ -193,9 +193,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Professionelles Additions-Arbeitsblatt, das die Qualität zeigt, die Premium-Preisstrategien unterstützt' },
+    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Professionelles Additions-Arbeitsblatt, das die Qualität zeigt, die Premium-Preisstrategien unterstützt' },
     samples: [
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern für Premium-Preisgestaltung', caption: 'Professionelle Formatierung und thematische Bilder rechtfertigen höhere Preispunkte — Käufer zahlen mehr für Qualität und visuelle Anziehungskraft' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern für Premium-Preisgestaltung', caption: 'Professionelle Formatierung und thematische Bilder rechtfertigen höhere Preispunkte — Käufer zahlen mehr für Qualität und visuelle Anziehungskraft' },
       { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuch-Rätsel, das Feature-Differenzierung für Preisgestaltung demonstriert', caption: 'Wortsuch-Rätsel mit thematischen Bildern erzielen höhere Preise als einfache Nur-Text-Versionen auf allen Plattformen' },
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Malvorlage, die Qualität zeigt, die wettbewerbsfähige Preisgestaltung unterstützt', caption: 'Hochwertige Malvorlagen zeigen, wie Produktqualität direkt Premium-Preise in wettbewerbsintensiven Kategorien ermöglicht' },
     ],

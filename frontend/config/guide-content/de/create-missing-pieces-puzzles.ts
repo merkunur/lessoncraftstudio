@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/missing pieces/Fehlende Puzzleteile 1.webp', alt: 'Puzzle-Arbeitsblatt mit Löchern in einer farbenfrohen Illustration und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen darunter mit türkisfarbener Kopfzeile und türkis-pinkem Dual-Rahmen' },
+    heroImage: { src: '/samples/german/missing pieces/Fehlende Teile 1.webp', alt: 'Puzzle-Arbeitsblatt mit Löchern in einer farbenfrohen Illustration und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen darunter mit türkisfarbener Kopfzeile und türkis-pinkem Dual-Rahmen' },
     samples: [
-      { src: '/samples/german/missing pieces/Fehlende Puzzleteile 1.webp', alt: 'Fehlende-Teile-Rätsel-Arbeitsblatt mit einem Bild mit herausgeschnittenen Löchern und nummerierten Lösungsoptionen unter der Dual-Rahmen-Kopfzeile', caption: 'Puzzle-Arbeitsblatt mit intelligent extrahierten Teilen und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen' },
-      { src: '/samples/german/missing pieces/Fehlende Puzzleteile 1 answer_key.webp', alt: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen in jedem Loch, die den korrekten Optionsindex anzeigen', caption: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen für jedes Loch' },
+      { src: '/samples/german/missing pieces/Fehlende Teile 1.webp', alt: 'Fehlende-Teile-Rätsel-Arbeitsblatt mit einem Bild mit herausgeschnittenen Löchern und nummerierten Lösungsoptionen unter der Dual-Rahmen-Kopfzeile', caption: 'Puzzle-Arbeitsblatt mit intelligent extrahierten Teilen und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen' },
+      { src: '/samples/german/missing pieces/Fehlende Teile 1 answer_key.webp', alt: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen in jedem Loch, die den korrekten Optionsindex anzeigen', caption: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen für jedes Loch' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'So erstellen Sie Fehlende-Teile-Rätsel — Komplette Anleitung',

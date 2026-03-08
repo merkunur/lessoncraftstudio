@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktions-Arbeitsblatt mit durchgestrichenen thematischen Bildern für Wegnehmen-Übungen für Kinder' },
+    heroImage: { src: '/samples/german/subtraction/worksheet.webp', alt: 'Subtraktions-Arbeitsblatt mit durchgestrichenen thematischen Bildern für Wegnehmen-Übungen für Kinder' },
     samples: [
-      { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Bildbasiertes Subtraktions-Arbeitsblatt mit durchgestrichenen Tieren für den Kindergarten', caption: 'Kindergarten-Subtraktions-Arbeitsblatt im Modus Durchstreichen mit thematischen Bildern' },
-      { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktions-Arbeitsblatt mit Lösungsschlüssel und korrekten Antworten', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Subtraktions-Arbeitsblatt generiert wird' },
+      { src: '/samples/german/subtraction/worksheet.webp', alt: 'Bildbasiertes Subtraktions-Arbeitsblatt mit durchgestrichenen Tieren für den Kindergarten', caption: 'Kindergarten-Subtraktions-Arbeitsblatt im Modus Durchstreichen mit thematischen Bildern' },
+      { src: '/samples/german/subtraction/worksheet.webp', alt: 'Subtraktions-Arbeitsblatt mit Lösungsschlüssel und korrekten Antworten', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Subtraktions-Arbeitsblatt generiert wird' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Subtraktions-Arbeitsblätter erstellen — Komplettes Tutorial',

@@ -216,7 +216,7 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt zeigt die Ausgabequalität der kommerziellen Lizenz für Druckvorlagen-Verkäufer' },
     samples: [
       { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt bereit für den kommerziellen Verkauf', caption: 'Wortsuche — Top-Verkäufer kommerziell' },
-      { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Mathe-Arbeitsblatt mit kommerzieller Lizenz', caption: 'Addition — Ganzjähriger Mathe-Grundpfeiler' },
+      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Mathe-Arbeitsblatt mit kommerzieller Lizenz', caption: 'Addition — Ganzjähriger Mathe-Grundpfeiler' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalbilder-Arbeitsblatt für KDP-Aktivitätsbücher', caption: 'Ausmalbilder — Volumenstärkste KDP-Kategorie' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel zeigt den Wert der mehrsprachigen kommerziellen Lizenz', caption: 'Kreuzworträtsel — Mehrsprachiger Lizenzwert' },
     ],

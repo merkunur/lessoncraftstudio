@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp',
       primaryAlt: 'Bildkryptogramm-Arbeitsblatt mit Bilder-Chiffre, die Bilder Buchstaben des deutschen Alphabets zuordnet und einen Geheimtext verschlüsselt',
     },
     sampleGallery: [
       {
-        src: '/samples/german/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp',
         alt: 'Bildkryptogramm-Arbeitsblatt mit thematischen Bildern, die Buchstaben in einem verschlüsselten Satz ersetzen',
         caption: 'Bilder-Chiffre-Rätsel — entschlüsseln Sie die geheime Nachricht, indem Sie herausfinden, welches Bild welchen Buchstaben darstellt',
       },
       {
-        src: '/samples/german/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/german/cryptogram/Bilder-Kryptogramm 2.webp',
         alt: 'Bildkryptogramm-Arbeitsblatt mit Tierthema und aufgedeckten Buchstaben als Hinweise',
         caption: 'Tierthema mit Buchstaben aufdecken — vorausgelöste Zuordnungen bieten Hilfestellung für Einsteiger',
       },
       {
-        src: '/samples/german/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/german/cryptogram/Bilder-Kryptogramm 3.webp',
         alt: 'Bildkryptogramm-Lösungsschlüssel mit vollständiger Buchstabenlegende aller Alphabet-Bild-Zuordnungen',
         caption: 'Lösungsschlüssel mit Buchstabenlegende — jeder Buchstabe des Alphabets mit seinem zugeordneten Bild in sortierter Reihenfolge',
       },

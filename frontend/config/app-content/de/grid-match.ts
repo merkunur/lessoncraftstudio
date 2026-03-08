@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/grid match/Grid Match.webp',
+      primary: '/samples/german/grid match/Raster-Puzzle 1.webp',
       primaryAlt: 'Raster-Puzzle-Arbeitsblatt mit Bildkacheln in einem Raster aufgeteilt, sichtbaren Hinweiszellen und nummerierter Kachelpalette zur Zuordnung',
     },
     sampleGallery: [
       {
-        src: '/samples/german/grid match/Grid Match (1).webp',
+        src: '/samples/german/grid match/Raster-Puzzle 2.webp',
         alt: 'Drei-mal-drei-Rasterpuzzle mit einer Hinweiszelle und acht nummerierten Kacheln in der Palette',
         caption: '3×3-Rasterpuzzle — eine Hinweiszelle sichtbar, acht Kacheln aus nummerierter Palette zuordnen',
       },
       {
-        src: '/samples/german/grid match/Grid Match (5).webp',
+        src: '/samples/german/grid match/Raster-Puzzle 3.webp',
         alt: 'Vier-mal-vier-Rasterpuzzle mit sechzehn Kacheln und minimalen Hinweisen für fortgeschrittene Rätsel',
         caption: '4×4-Fortgeschrittenes Rätsel — maximale Rastergröße für anspruchsvolle visuelle Wahrnehmungsaktivitäten',
       },
       {
-        src: '/samples/german/grid match/Grid Match answer_key.webp',
+        src: '/samples/german/grid match/Raster-Puzzle 1 answer_key.webp',
         alt: 'Raster-Puzzle-Lösungsschlüssel mit vollständigem Bild und nummerierten Kreisen über jeder Rasterzelle',
         caption: 'Automatisch generierter Lösungsschlüssel — nummerierte Kreise zeigen die korrekte Kachelplatzierung auf dem vollständigen Bild',
       },

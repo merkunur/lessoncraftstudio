@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/prepositions/prepositions_worksheet (1).webp',
+      primary: '/samples/german/prepositions/prepositions_worksheet.webp',
       primaryAlt: 'Präpositionen-Arbeitsblatt mit bunten Bildern, die räumliche Beziehungen zwischen Gegenständen und geometrischen Formen zeigen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/prepositions/prepositions_worksheet (1).webp',
+        src: '/samples/german/prepositions/prepositions_worksheet.webp',
         alt: 'Lückentext-Präpositionen-Arbeitsblatt mit Tierthema und geometrischen Formen',
         caption: 'Lückentext-Modus — Schüler ergänzen Sätze mit der richtigen Präposition',
       },
       {
-        src: '/samples/german/prepositions/prepositions_worksheet (5).webp',
+        src: '/samples/german/prepositions/prepositions_answer_key.webp',
         alt: 'Multiple-Choice-Präpositionen-Arbeitsblatt mit Fahrzeugthema und räumlichen Beschreibungen',
         caption: 'Multiple-Choice-Modus — Schüler identifizieren das Bild, das zur räumlichen Beschreibung passt',
       },
       {
-        src: '/samples/german/prepositions/prepositions_worksheet (10).webp',
+        src: '/samples/german/prepositions/prepositions_worksheet.webp',
         alt: 'Präpositionen-Arbeitsblatt mit allen acht Ortspräpositionen und Lösungsschlüssel',
         caption: 'Vollständiges 8-Übungen-Arbeitsblatt — umfassende Wiederholung aller Ortspräpositionen',
       },

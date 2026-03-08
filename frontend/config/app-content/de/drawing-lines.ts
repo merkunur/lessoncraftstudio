@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/drawing lines/drawing_lines_horizontal.webp',
+      primary: '/samples/german/drawing lines/Linien Zeichnen Üben 1.webp',
       primaryAlt: 'Linien-Ziehen-Arbeitsblatt mit Kurvenvorlage, die zusammengehörige Tier-Bildpaare im Querformat verbindet',
     },
     sampleGallery: [
       {
-        src: '/samples/german/drawing lines/drawing_lines_curve 1.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 2.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Kurvenvorlage, die zusammengehörige Tier-Bildpaare im Querformat verbindet',
         caption: 'Kurvenvorlage — Lernende ziehen fließende Kurvenlinien, um passende Bildpaare zu verbinden',
       },
       {
-        src: '/samples/german/drawing lines/drawing_lines_diagonal 1.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 3.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Diagonalvorlage, die fünf Bildpaare im Hochformat verbindet',
         caption: 'Diagonalvorlage — schräge Linien mit 5 Bildpaaren für bilaterale Koordinationsübungen',
       },
       {
-        src: '/samples/german/drawing lines/drawing_lines_vertical.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 4.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Horizontalvorlage, die Natur-Bildpaare im Hochformat verbindet',
         caption: 'Horizontalvorlage — gerade Links-nach-Rechts-Linien mit Naturthema-Bildern',
       },

@@ -252,17 +252,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/bingo/bingo_card.webp',
+      primary: '/samples/german/bingo/bilder-bingo 1.webp',
       primaryAlt: 'Bilder-Bingo-Karte mit thematischen Illustrationen im Rasterlayout und runden Chips mit gestrichelten Rändern darunter',
     },
     sampleGallery: [
       {
-        src: '/samples/german/bingo/bingo_card_1.webp',
+        src: '/samples/german/bingo/bilder-bingo 2.webp',
         alt: 'Bilder-Bingo-Karte mit Bild-Füllung, die farbenfrohe thematische Illustrationen in Rasterzellen und runde Bild-Chips zeigt',
         caption: 'Bild-Füllmodus — farbenfrohe Illustrationen in Kartenzellen und runden Chips',
       },
       {
-        src: '/samples/german/bingo/bingo_card_1 word.webp',
+        src: '/samples/german/bingo/bilder-bingo 3.webp',
         alt: 'Bilder-Bingo-Karte mit Wort-Füllung, die lokalisierte Bildnamen in Rasterzellen und Wort-Chips zeigt',
         caption: 'Wort-Füllmodus — lokalisierte Bildnamen für vokabelbasiertes Bingo',
       },

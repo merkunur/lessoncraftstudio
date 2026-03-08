@@ -78,6 +78,7 @@ const toolsContent: Record<string, {
   wantMore: string;
   wantMoreDesc: string;
   viewAll: string;
+  categories: Record<string, string>;
 }> = {
   en: {
     heroTitle: 'Free Printable Generators',
@@ -89,6 +90,7 @@ const toolsContent: Record<string, {
     wantMore: 'Want More Features?',
     wantMoreDesc: 'Upgrade to remove watermarks and unlock all image themes and languages.',
     viewAll: 'View All Generators',
+    categories: { math: 'Math Mastery', literacy: 'Literacy & Language', visual: 'Visual Learning', matching: 'Matching & Sorting', puzzle: 'Puzzles & Logic', search: 'Search & Find' },
   },
   de: {
     heroTitle: 'Kostenlose Druckvorlagen-Generatoren',
@@ -100,6 +102,7 @@ const toolsContent: Record<string, {
     wantMore: 'Mehr Funktionen gew\ünscht?',
     wantMoreDesc: 'Upgraden Sie, um Wasserzeichen zu entfernen und alle Bildthemen und Sprachen freizuschalten.',
     viewAll: 'Alle Generatoren ansehen',
+    categories: { math: 'Mathematik', literacy: 'Lesen & Sprache', visual: 'Visuelles Lernen', matching: 'Zuordnung & Sortierung', puzzle: 'Rätsel & Logik', search: 'Suchen & Finden' },
   },
   fr: {
     heroTitle: 'G\én\érateurs d\’imprimables gratuits',
@@ -111,6 +114,7 @@ const toolsContent: Record<string, {
     wantMore: 'Vous voulez plus de fonctionnalit\és ?',
     wantMoreDesc: 'Passez \à la version sup\érieure pour supprimer les filigranes et d\ébloquer tous les th\èmes et langues.',
     viewAll: 'Voir tous les g\én\érateurs',
+    categories: { math: 'Math\ématiques', literacy: 'Lecture & Langage', visual: 'Apprentissage visuel', matching: 'Association & Tri', puzzle: 'Puzzles & Logique', search: 'Chercher & Trouver' },
   },
   es: {
     heroTitle: 'Generadores de imprimibles gratis',
@@ -122,6 +126,7 @@ const toolsContent: Record<string, {
     wantMore: '\¿Quiere m\ás funciones?',
     wantMoreDesc: 'Actualice para eliminar marcas de agua y desbloquear todos los temas e idiomas.',
     viewAll: 'Ver todos los generadores',
+    categories: { math: 'Matem\áticas', literacy: 'Lectura y Lenguaje', visual: 'Aprendizaje Visual', matching: 'Emparejamiento', puzzle: 'Puzzles y L\ógica', search: 'Busca y Encuentra' },
   },
   pt: {
     heroTitle: 'Geradores de imprimir gr\átis',
@@ -133,6 +138,7 @@ const toolsContent: Record<string, {
     wantMore: 'Quer mais funcionalidades?',
     wantMoreDesc: 'Fa\ça upgrade para remover marcas d\’\água e desbloquear todos os temas e idiomas.',
     viewAll: 'Ver todos os geradores',
+    categories: { math: 'Matem\ática', literacy: 'Leitura e Linguagem', visual: 'Aprendizagem Visual', matching: 'Correspond\ência', puzzle: 'Puzzles e L\ógica', search: 'Procure e Encontre' },
   },
   it: {
     heroTitle: 'Generatori di stampabili gratis',
@@ -144,6 +150,7 @@ const toolsContent: Record<string, {
     wantMore: 'Vuoi pi\ù funzionalit\à?',
     wantMoreDesc: 'Aggiorna per rimuovere le filigrane e sbloccare tutti i temi e le lingue.',
     viewAll: 'Vedi tutti i generatori',
+    categories: { math: 'Matematica', literacy: 'Lettura e Linguaggio', visual: 'Apprendimento Visivo', matching: 'Abbinamento', puzzle: 'Puzzle e Logica', search: 'Cerca e Trova' },
   },
   nl: {
     heroTitle: 'Gratis printbare generatoren',
@@ -155,6 +162,7 @@ const toolsContent: Record<string, {
     wantMore: 'Meer functies gewenst?',
     wantMoreDesc: 'Upgrade om watermerken te verwijderen en alle thema\’s en talen te ontgrendelen.',
     viewAll: 'Alle generators bekijken',
+    categories: { math: 'Wiskunde', literacy: 'Lezen & Taal', visual: 'Visueel Leren', matching: 'Matchen & Sorteren', puzzle: 'Puzzels & Logica', search: 'Zoeken & Vinden' },
   },
   sv: {
     heroTitle: 'Gratis utskriftsgeneratorer',
@@ -166,6 +174,7 @@ const toolsContent: Record<string, {
     wantMore: 'Vill du ha fler funktioner?',
     wantMoreDesc: 'Uppgradera f\ör att ta bort vattenst\ämplar och l\åsa upp alla teman och spr\åk.',
     viewAll: 'Visa alla generatorer',
+    categories: { math: 'Matematik', literacy: 'L\äsning & Spr\åk', visual: 'Visuellt L\ärande', matching: 'Matchning & Sortering', puzzle: 'Pussel & Logik', search: 'S\ök & Hitta' },
   },
   da: {
     heroTitle: 'Gratis printbare generatorer',
@@ -177,6 +186,7 @@ const toolsContent: Record<string, {
     wantMore: 'Vil du have flere funktioner?',
     wantMoreDesc: 'Opgrader for at fjerne vandm\ærker og l\åse op for alle temaer og sprog.',
     viewAll: 'Se alle generatorer',
+    categories: { math: 'Matematik', literacy: 'L\æsning & Sprog', visual: 'Visuel L\æring', matching: 'Matching & Sortering', puzzle: 'Puslespil & Logik', search: 'S\øg & Find' },
   },
   no: {
     heroTitle: 'Gratis utskriftsgeneratorer',
@@ -188,6 +198,7 @@ const toolsContent: Record<string, {
     wantMore: 'Vil du ha flere funksjoner?',
     wantMoreDesc: 'Oppgrader for \å fjerne vannmerker og l\åse opp alle temaer og spr\åk.',
     viewAll: 'Se alle generatorer',
+    categories: { math: 'Matematikk', literacy: 'Lesing & Spr\åk', visual: 'Visuell L\æring', matching: 'Matching & Sortering', puzzle: 'Puslespill & Logikk', search: 'S\øk & Finn' },
   },
   fi: {
     heroTitle: 'Ilmaiset tulostettavat generaattorit',
@@ -199,6 +210,7 @@ const toolsContent: Record<string, {
     wantMore: 'Haluatko lis\ä\ä ominaisuuksia?',
     wantMoreDesc: 'P\äivit\ä poistaaksesi vesileimat ja avataksesi kaikki teemat ja kielet.',
     viewAll: 'N\äyt\ä kaikki generaattorit',
+    categories: { math: 'Matematiikka', literacy: 'Lukutaito & Kieli', visual: 'Visuaalinen oppiminen', matching: 'Yhdist\äminen & Lajittelu', puzzle: 'Palapelit & Logiikka', search: 'Etsi & L\öyd\ä' },
   },
 };
 
@@ -287,7 +299,7 @@ export default function ToolsListingPage({
 
             return (
               <div key={catId} className="mb-12">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">{catData.name}</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-4">{content.categories[catId] || catData.name}</h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                   {tools.map(tool => (
                     <Link

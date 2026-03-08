@@ -267,7 +267,7 @@ const content: AppContent = {
         caption: 'Bilderkreuzworträtsel — Bildhinweise ersetzen traditionelle Text-Hinweise auf einem 15×15-Raster',
       },
       {
-        src: '/samples/german/crossword/crossword_worksheet (5).webp',
+        src: '/samples/german/crossword/crossword_worksheet.webp',
         alt: 'Benutzerdefiniertes Wortlisten-Kreuzworträtsel mit Text-Hinweisen und ausgefülltem Raster',
         caption: 'Benutzerdefinierter Wortlisten-Modus — traditionelle Text-Hinweis-Kreuzworträtsel mit eigenem Vokabular',
       },

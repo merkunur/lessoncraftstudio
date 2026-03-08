@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/matching/matching portrait.webp',
+      primary: '/samples/german/matching/Paare Finden 1.webp',
       primaryAlt: 'Zuordnungs-Arbeitsblatt mit thematischen Bildern in zwei Spalten und lokalisierter Finde-die-Paare-Überschrift mit Elementnummern',
     },
     sampleGallery: [
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Anfangsbuchstaben-Zuordnungsarbeitsblatt mit Bildern links und Anfangsbuchstaben rechts',
         caption: 'Anfangsbuchstaben-Modus — Lernende ordnen Bilder ihren Anfangsbuchstaben zu',
       },
       {
-        src: '/samples/german/matching/image and word.webp',
+        src: '/samples/german/matching/Paare Finden 2.webp',
         alt: 'Bild-und-Wort-Zuordnungsarbeitsblatt mit beschrifteten Paaren auf beiden Seiten',
         caption: 'Bild+Wort-Modus — beschriftete Bildpaare für Wortschatz-Zuordnung',
       },
       {
-        src: '/samples/german/matching/matching portrait answer_key.webp',
+        src: '/samples/german/matching/Paare Finden 1 answer_key.webp',
         alt: 'Zuordnungs-Arbeitsblatt-Lösungsschlüssel mit Verbindungslinien zwischen den korrekten Paaren',
         caption: 'Automatisch generierter Lösungsschlüssel — Verbindungslinien zeigen die korrekten Zuordnungen',
       },

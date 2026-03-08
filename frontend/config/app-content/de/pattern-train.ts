@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/pattern train/pattern_train_worksheet.webp',
+      primary: '/samples/german/pattern train/Musterzug 1.webp',
       primaryAlt: 'Muster-Zug-Arbeitsblatt mit thematischen Zugwaggons, die ein AB-Muster mit einem fehlenden Waggon zum Ausfüllen zeigen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/pattern train/pattern_train_worksheet (1).webp',
+        src: '/samples/german/pattern train/Musterzug 2.webp',
         alt: 'Muster-Zug-Arbeitsblatt im AB-Abwechslungsmodus mit Tierbildern auf 11 thematischen Zugwaggons',
         caption: 'AB-Muster mit Tierthema — Lernende erkennen die abwechselnde Sequenz und füllen den fehlenden Waggon aus',
       },
       {
-        src: '/samples/german/pattern train/pattern_train_worksheet (5).webp',
+        src: '/samples/german/pattern train/Musterzug 3.webp',
         alt: 'Muster-Zug-Arbeitsblatt im ABC-Drei-Element-Modus mit Fahrzeugbildern auf thematischen Zugwaggons',
         caption: 'ABC-Muster mit Fahrzeugthema — drei rotierende Elemente erzeugen eine komplexere sich wiederholende Sequenz',
       },
       {
-        src: '/samples/german/pattern train/pattern_train_answer_key.webp',
+        src: '/samples/german/pattern train/Musterzug 1answer_key.webp',
         alt: 'Muster-Zug-Lösungsschlüssel mit allen 11 Waggons ausgefüllt mit der korrekten Musterfolge',
         caption: 'Lösungsschlüssel-Ansicht — alle 11 Waggons mit dem korrekten Muster ausgefüllt zur Überprüfung durch die Lehrkraft',
       },

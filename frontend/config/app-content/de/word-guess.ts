@@ -268,7 +268,7 @@ const content: AppContent = {
         caption: 'Schwierigkeitsstufe Leicht — die Hälfte der Buchstaben vorausgefüllt als Hinweise für Leseanfänger',
       },
       {
-        src: '/samples/german/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/german/word guess/clue-grid_worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt auf Stufe Schwer mit minimalen Hinweis-Buchstaben und Tierthema',
         caption: 'Schwierigkeitsstufe Schwer — nur ein Sechstel der Buchstaben für fortgeschrittene Rechtschreiber',
       },

@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/code addition/Code Breaker Addition 1.webp',
+      primary: '/samples/german/code addition/Code-Knacker Addition 1.webp',
       primaryAlt: 'Code-Knacker-Additions-Arbeitsblatt mit Tierbildern als versteckte Zahlen in einem Detektiv-Mathe-Rätsel',
     },
     sampleGallery: [
       {
-        src: '/samples/german/code addition/Code Breaker Addition 1.webp',
+        src: '/samples/german/code addition/Code-Knacker Addition 1.webp',
         alt: 'Code-Knacker-Additions-Arbeitsblatt im Regulären Modus mit Tierthema-Bildern als Code-Symbole',
         caption: 'Regulärer Modus — Schüler knacken den Code, indem sie herausfinden, welche Zahl jedes Bild repräsentiert',
       },
       {
-        src: '/samples/german/code addition/Code Breaker Addition 2.webp',
+        src: '/samples/german/code addition/Code-Knacker Addition 2.webp',
         alt: 'Code-Additions-Arbeitsblatt mit verschiedenem Thema und bildbasierten kryptarithmetischen Gleichungen',
         caption: 'Mehrere Symbole — mehr Bilder erhöhen die Komplexität der Entschlüsselung',
       },
       {
-        src: '/samples/german/code addition/Code Breaker Addition 3.webp',
+        src: '/samples/german/code addition/Code-Knacker Addition 3.webp',
         alt: 'Code-Knacker-Additions-Rätsel mit farbenfrohen thematischen Bildern und Gleichungen',
         caption: 'Thematische Code-Rätsel — 104 visuelle Themen machen jedes Arbeitsblatt einzigartig und ansprechend',
       },

@@ -262,17 +262,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/big small/big-small-different images.webp',
+        src: '/samples/german/big small/big-small-worksheet_worksheet.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Kreise-das-Große-ein-Modus mit thematischen Tierbildern in verschiedenen Größen',
         caption: 'Kreise das Große ein — Lernende identifizieren das größte Bild in jeder Übung',
       },
       {
-        src: '/samples/german/big small/big-small number 1-2-3.webp',
+        src: '/samples/german/big small/big-small-worksheet_answer_key.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Nummerierungsmodus mit drei Bildern zur Sortierung vom Kleinsten zum Größten',
         caption: 'Nummeriere 1–2–3 Klein nach Groß — Lernende ordnen Bilder nach Größe vom Kleinsten zum Größten',
       },
       {
-        src: '/samples/german/big small/big-small identical images.webp',
+        src: '/samples/german/big small/big-small-worksheet_worksheet.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Identische-Bilder-Modus mit demselben Bild in drei verschiedenen Größen',
         caption: 'Identische-Bilder-Modus — dasselbe Bild in verschiedenen Größen für reine Größenwahrnehmungs-Übungen',
       },

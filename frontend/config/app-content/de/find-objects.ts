@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find objects/spotworks_worksheet.webp',
+      primary: '/samples/german/find objects/Finde das Unpassende 1.webp',
       primaryAlt: 'Versteckte-Objekte-Suchbild-Arbeitsblatt mit verteilten Bildern durch überlappungsfreien Algorithmus, Legende am unteren Rand und dekorativem Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/find objects/spotworks_worksheet (1).webp',
+        src: '/samples/german/find objects/Finde das Unpassende 2.webp',
         alt: 'Ich-sehe-was-Suchszene mit verteilten Bildern und Legende am unteren Rand, die Suchobjekte zeigt',
         caption: 'Ich-sehe-was-Modus — Suchszene mit frei verteilten Objekten und Legenden-Anzeige',
       },
       {
-        src: '/samples/german/find objects/spotworks_worksheet (5).webp',
+        src: '/samples/german/find objects/Finde das Unpassende (1).webp',
         alt: 'Welches-passt-nicht-Arbeitsblatt mit gepaarten Bildern in Reihen und unpaaren Elementen zum Identifizieren',
         caption: 'Welches-passt-nicht-Modus — gepaarte Bilder mit unpaaren Elementen für visuelle Unterscheidung',
       },
       {
-        src: '/samples/german/find objects/spotworks_answer_key.webp',
+        src: '/samples/german/find objects/Finde das Unpassende 1 answer_key.webp',
         alt: 'Versteckte-Objekte-Lösungsschlüssel mit roten Kreisen um die Suchobjekte',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Kreise markieren versteckte und unpaare Objekte',
       },

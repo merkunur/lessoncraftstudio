@@ -252,22 +252,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/picture path/Picture Pathway.webp',
+      primary: '/samples/german/picture path/Bilderpfad 1.webp',
       primaryAlt: 'Bilderpfad-Labyrinth-Arbeitsblatt mit thematischen Bildern in einem Raster mit orangefarbenem Header-Rahmen und automatisch generiertem Bilderpfad-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/picture path/Picture Pathway (1).webp',
+        src: '/samples/german/picture path/Bilderpfad 2.webp',
         alt: 'Bilderpfad-Modus-Arbeitsblatt mit Bildern in einem Raster, das den korrekten Pfad vom Start zum Ziel zeigt',
         caption: 'Bilderpfad-Modus — die korrekte Route vom Start zum Ziel über Pfadbilder verfolgen',
       },
       {
-        src: '/samples/german/picture path/Picture Pathway (5).webp',
+        src: '/samples/german/picture path/Bilderpfad 3.webp',
         alt: 'Klassisches-Labyrinth-Modus-Arbeitsblatt mit wandbasierten Korridoren und verteilten Sammelbildern',
         caption: 'Klassisches Labyrinth — LPF-Algorithmus generiert wandbasierte Labyrinthe mit Sammelbildern',
       },
       {
-        src: '/samples/german/picture path/Picture Pathway answer_key.webp',
+        src: '/samples/german/picture path/Bilderpfad 1 answer_key (1).webp',
         alt: 'Bilderpfad-Labyrinth-Lösungsschlüssel mit Lösungspfad hervorgehoben durch rosa Kreise entlang der korrekten Route',
         caption: 'Automatisch generierter Lösungsschlüssel — Lösungspfad hervorgehoben mit rosa Kreisen',
       },

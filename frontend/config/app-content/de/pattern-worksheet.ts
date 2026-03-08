@@ -262,12 +262,12 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/pattern worksheet/pattern_worksheet (1).webp',
+        src: '/samples/german/pattern worksheet/pattern_answer_key.webp',
         alt: 'Muster-Arbeitsblatt mit AB-Lückenfeld-Übungen mit Tierbildern in einem Rasterlayout mit leeren Kästchen zum Ausfüllen',
         caption: 'AB-Lückenfeld-Übungen mit Tierthema — Lernende erkennen das abwechselnde Muster und füllen das fehlende Bild ein',
       },
       {
-        src: '/samples/german/pattern worksheet/pattern_worksheet (5).webp',
+        src: '/samples/german/pattern worksheet/pattern_worksheet.webp',
         alt: 'Muster-Arbeitsblatt mit ABC-Multiple-Choice-Übungen mit Fahrzeugbildern und drei Antwortoptionen pro Übung',
         caption: 'ABC-Multiple-Choice-Übungen mit Fahrzeugthema — Lernende wählen das korrekte fehlende Element aus drei Optionen',
       },

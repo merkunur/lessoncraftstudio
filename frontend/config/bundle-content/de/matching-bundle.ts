@@ -217,6 +217,17 @@ const content: BundleContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnung-&-Sortierung-Paket — Alle 5 Generatoren in Aktion',
   },
+
+  themeImages: [
+    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: '/image-library/farm%20animals/chick.webp', alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
+    { src: '/image-library/farm%20animals/chicken.webp', alt: 'Huhn — thematisches Lernbild', caption: 'Huhn' },
+    { src: '/image-library/farm%20animals/cow.webp', alt: 'Kuh — thematisches Lernbild', caption: 'Kuh' },
+  ],
 };
 
 export default content;

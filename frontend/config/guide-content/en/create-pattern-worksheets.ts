@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'How to Create Pattern Recognition Worksheets \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/shapes/circle.webp', alt: 'Circle — themed educational image', caption: 'Circle' },
+    { src: '/image-library/shapes/cone.webp', alt: 'Cone — themed educational image', caption: 'Cone' },
+    { src: '/image-library/shapes/cube.webp', alt: 'Cube — themed educational image', caption: 'Cube' },
+    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — themed educational image', caption: 'Cylinder' },
+    { src: '/image-library/shapes/diamond.webp', alt: 'Diamond — themed educational image', caption: 'Diamond' },
+  ],
 };
 
 export default content;

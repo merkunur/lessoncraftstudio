@@ -201,6 +201,14 @@ const content: GuideContent = {
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Picture Sudoku Puzzles for Amazon KDP Books \u2014 Step-by-Step Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — themed educational image', caption: 'Armadillo' },
+    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — themed educational image', caption: 'Bison' },
+  ],
 };
 
 export default content;

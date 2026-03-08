@@ -232,6 +232,14 @@ const content: StartContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Bingo-Karten für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/vehicles/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
+    { src: '/image-library/vehicles/ambulance.webp', alt: 'Krankenwagen — thematisches Lernbild', caption: 'Krankenwagen' },
+    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
+    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
+    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematisches Lernbild', caption: 'Bulldozer' },
+  ],
 };
 
 export default content;

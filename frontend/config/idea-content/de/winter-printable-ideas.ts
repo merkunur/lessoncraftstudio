@@ -177,6 +177,16 @@ Der Wettbewerbsvorteil bei Winter-Druckvorlagen ergibt sich aus visueller Qualit
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/winter/boots.webp', alt: 'Stiefel — thematisches Lernbild', caption: 'Stiefel' },
+    { src: '/image-library/winter/cabin.webp', alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
+    { src: '/image-library/winter/coat.webp', alt: 'Mantel — thematisches Lernbild', caption: 'Mantel' },
+    { src: '/image-library/winter/cocoa.webp', alt: 'Heiße Schokolade — thematisches Lernbild', caption: 'Heiße Schokolade' },
+    { src: '/image-library/winter/earmuffs.webp', alt: 'Ohrenschützer — thematisches Lernbild', caption: 'Ohrenschützer' },
+    { src: '/image-library/winter/evergreen.webp', alt: 'Immergrün — thematisches Lernbild', caption: 'Immergrün' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Winter-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

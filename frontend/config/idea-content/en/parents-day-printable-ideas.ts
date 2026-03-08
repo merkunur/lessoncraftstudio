@@ -173,6 +173,16 @@ To capture maximum revenue from both holidays, develop products across multiple 
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/flowers/aster.webp', alt: 'Aster — themed educational image', caption: 'Aster' },
+    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — themed educational image', caption: 'Azalea' },
+    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — themed educational image', caption: 'Begonia' },
+    { src: '/image-library/flowers/bluebell.webp', alt: 'Bluebell — themed educational image', caption: 'Bluebell' },
+    { src: '/image-library/flowers/buttercup.webp', alt: 'Buttercup — themed educational image', caption: 'Buttercup' },
+    { src: '/image-library/flowers/carnation.webp', alt: 'Carnation — themed educational image', caption: 'Carnation' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Mother\ — Product Demo',
 };

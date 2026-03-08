@@ -217,6 +217,17 @@ const content: BundleContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matching & Sorting Bundle \u2014 See All 5 Generators in Action',
   },
+
+  themeImages: [
+    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm%20animals/chick.webp', alt: 'Chick — themed educational image', caption: 'Chick' },
+    { src: '/image-library/farm%20animals/chicken.webp', alt: 'Chicken — themed educational image', caption: 'Chicken' },
+    { src: '/image-library/farm%20animals/cow.webp', alt: 'Cow — themed educational image', caption: 'Cow' },
+  ],
 };
 
 export default content;

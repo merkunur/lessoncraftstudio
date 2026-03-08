@@ -171,6 +171,16 @@ Competition exists in the math facts niche but demand is so consistently large t
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/shapes/circle.webp', alt: 'Circle — themed educational image', caption: 'Circle' },
+    { src: '/image-library/shapes/cone.webp', alt: 'Cone — themed educational image', caption: 'Cone' },
+    { src: '/image-library/shapes/cube.webp', alt: 'Cube — themed educational image', caption: 'Cube' },
+    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — themed educational image', caption: 'Cylinder' },
+    { src: '/image-library/shapes/diamond.webp', alt: 'Diamond — themed educational image', caption: 'Diamond' },
+    { src: '/image-library/shapes/heart.webp', alt: 'Heart — themed educational image', caption: 'Heart' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Math Facts Printable Business Ideas for Sellers — Product Demo',
 };

@@ -228,6 +228,14 @@ const content: StartContent = {
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schreibübungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
+    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Dachs — thematisches Lernbild', caption: 'Dachs' },
+    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Biber — thematisches Lernbild', caption: 'Biber' },
+  ],
 };
 
 export default content;

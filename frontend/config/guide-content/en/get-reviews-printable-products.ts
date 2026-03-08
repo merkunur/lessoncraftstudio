@@ -199,6 +199,14 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Get Reviews for Your Printable Products',
   },
+
+  themeImages: [
+    { src: '/image-library/flowers/aster.webp', alt: 'Aster — themed educational image', caption: 'Aster' },
+    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — themed educational image', caption: 'Azalea' },
+    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — themed educational image', caption: 'Begonia' },
+    { src: '/image-library/flowers/bluebell.webp', alt: 'Bluebell — themed educational image', caption: 'Bluebell' },
+    { src: '/image-library/flowers/buttercup.webp', alt: 'Buttercup — themed educational image', caption: 'Buttercup' },
+  ],
 };
 
 export default content;

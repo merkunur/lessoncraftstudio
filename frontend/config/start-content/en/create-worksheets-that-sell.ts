@@ -231,6 +231,14 @@ const content: StartContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets \u2014 LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+  ],
 };
 
 export default content;

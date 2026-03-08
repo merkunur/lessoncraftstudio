@@ -228,6 +228,14 @@ const content: StartContent = {
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Writing Worksheets for Your Printable Business \u2014 LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+  ],
 };
 
 export default content;

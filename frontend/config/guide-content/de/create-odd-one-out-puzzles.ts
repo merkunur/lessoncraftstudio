@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'So erstellen Sie Was-passt-nicht-Rätsel — Komplettes Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/vegetables/asparagus.webp', alt: 'Spargel — thematisches Lernbild', caption: 'Spargel' },
+    { src: '/image-library/vegetables/beetroot.webp', alt: 'Rote Bete — thematisches Lernbild', caption: 'Rote Bete' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — thematisches Lernbild', caption: 'Paprika' },
+    { src: '/image-library/vegetables/broccoli.webp', alt: 'Brokkoli — thematisches Lernbild', caption: 'Brokkoli' },
+    { src: '/image-library/vegetables/cabbage.webp', alt: 'Kohl — thematisches Lernbild', caption: 'Kohl' },
+  ],
 };
 
 export default content;

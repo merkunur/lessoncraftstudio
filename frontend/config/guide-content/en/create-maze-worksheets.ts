@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'How to Create Maze Worksheets \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+  ],
 };
 
 export default content;

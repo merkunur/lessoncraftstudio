@@ -169,6 +169,16 @@ Digitale Produkte bieten auch einzigartigen Mehrwert nach dem Verkauf durch die 
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: '/image-library/animals/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Digitaler Download Arbeitsblatt-Geschäftsideen für Verkäufer — Produktdemo',
 };

@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen für Ihren Gumroad-Druckvorlagen-Shop erstellen',
   },
+
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+  ],
 };
 
 export default content;

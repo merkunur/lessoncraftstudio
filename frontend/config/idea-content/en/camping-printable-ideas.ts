@@ -171,6 +171,16 @@ The summer camp preparation market represents a particularly valuable audience t
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/camping/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/camping/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/camping/binoculars.webp', alt: 'Binoculars — themed educational image', caption: 'Binoculars' },
+    { src: '/image-library/camping/boots.webp', alt: 'Boots — themed educational image', caption: 'Boots' },
+    { src: '/image-library/camping/cabin.webp', alt: 'Cabin — themed educational image', caption: 'Cabin' },
+    { src: '/image-library/camping/camper.webp', alt: 'Camper — themed educational image', caption: 'Camper' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Camping Printable Business Ideas for Sellers — Product Demo',
 };

@@ -206,6 +206,14 @@ const content: GuideContent = {
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Sudoku Activity Books for Amazon KDP \u2014 Revenue-Building Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+  ],
 };
 
 export default content;

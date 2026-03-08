@@ -175,6 +175,16 @@ The safari theme also performs exceptionally well in the nursery and early child
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Armadillo — themed educational image', caption: 'Armadillo' },
+    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — themed educational image', caption: 'Bison' },
+    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Safari Animals Printable Business Ideas for Sellers — Product Demo',
 };

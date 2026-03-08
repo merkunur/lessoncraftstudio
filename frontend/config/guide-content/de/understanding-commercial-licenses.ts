@@ -199,6 +199,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'So erstellen Sie Wortsuche-Rätsel mit kommerzieller Lizenzierung',
   },
+
+  themeImages: [
+    { src: '/image-library/weather/cloud.webp', alt: 'Wolke — thematisches Lernbild', caption: 'Wolke' },
+    { src: '/image-library/weather/cloudy.webp', alt: 'Bewölkt — thematisches Lernbild', caption: 'Bewölkt' },
+    { src: '/image-library/weather/cold.webp', alt: 'Kalt — thematisches Lernbild', caption: 'Kalt' },
+    { src: '/image-library/weather/hot.webp', alt: 'Heiß — thematisches Lernbild', caption: 'Heiß' },
+    { src: '/image-library/weather/mittens.webp', alt: 'Fäustlinge — thematisches Lernbild', caption: 'Fäustlinge' },
+  ],
 };
 
 export default content;

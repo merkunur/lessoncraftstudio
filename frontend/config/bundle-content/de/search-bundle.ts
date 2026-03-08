@@ -208,6 +208,17 @@ const content: BundleContent = {
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Suchen-&-Finden-Paket — Alle 4 Entdecker-Generatoren in Aktion',
   },
+
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
+    { src: '/image-library/ocean%20life/jellyfish.webp', alt: 'Qualle — thematisches Lernbild', caption: 'Qualle' },
+    { src: '/image-library/ocean%20life/manatee.webp', alt: 'Seekuh — thematisches Lernbild', caption: 'Seekuh' },
+  ],
 };
 
 export default content;

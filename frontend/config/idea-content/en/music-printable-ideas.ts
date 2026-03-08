@@ -171,6 +171,16 @@ The music teacher buyer segment represents a particularly valuable audience that
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/music/accordion.webp', alt: 'Accordion — themed educational image', caption: 'Accordion' },
+    { src: '/image-library/music/cymbals.webp', alt: 'Cymbals — themed educational image', caption: 'Cymbals' },
+    { src: '/image-library/music/drum.webp', alt: 'Drum — themed educational image', caption: 'Drum' },
+    { src: '/image-library/music/flute.webp', alt: 'Flute — themed educational image', caption: 'Flute' },
+    { src: '/image-library/music/guitar.webp', alt: 'Guitar — themed educational image', caption: 'Guitar' },
+    { src: '/image-library/music/harp.webp', alt: 'Harp — themed educational image', caption: 'Harp' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Music Printable Business Ideas for Sellers — Product Demo',
 };

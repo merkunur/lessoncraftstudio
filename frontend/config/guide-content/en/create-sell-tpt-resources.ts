@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Teachers Pay Teachers \u2014 Step-by-Step Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
+  ],
 };
 
 export default content;

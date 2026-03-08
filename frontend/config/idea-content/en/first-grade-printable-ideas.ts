@@ -167,6 +167,16 @@ The competitive landscape in first grade printables rewards sellers who understa
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
+    { src: '/image-library/classroom/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'First Grade Printable Business Ideas for Sellers — Product Demo',
 };

@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Picture Sudoku \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+  ],
 };
 
 export default content;

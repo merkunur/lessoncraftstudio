@@ -171,6 +171,16 @@ Um maximalen Oster-Umsatz zu erzielen, entwickeln Sie Produkte über mehrere Unt
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/spring/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: '/image-library/spring/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
+    { src: '/image-library/spring/bird.webp', alt: 'Vogel — thematisches Lernbild', caption: 'Vogel' },
+    { src: '/image-library/spring/birdhouse.webp', alt: 'Vogelhaus — thematisches Lernbild', caption: 'Vogelhaus' },
+    { src: '/image-library/spring/bud.webp', alt: 'Knospe — thematisches Lernbild', caption: 'Knospe' },
+    { src: '/image-library/spring/bunny.webp', alt: 'Häschen — thematisches Lernbild', caption: 'Häschen' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Ostern-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

@@ -211,6 +211,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel für Amazon KDP Rätselbücher erstellen — Schritt-für-Schritt-Anleitung',
   },
+
+  themeImages: [
+    { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — thematisches Lernbild', caption: 'Asteroid' },
+    { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematisches Lernbild', caption: 'Astronaut' },
+    { src: '/image-library/space/comet.webp', alt: 'Komet — thematisches Lernbild', caption: 'Komet' },
+    { src: '/image-library/space/earth.webp', alt: 'Erde — thematisches Lernbild', caption: 'Erde' },
+    { src: '/image-library/space/galaxy.webp', alt: 'Galaxie — thematisches Lernbild', caption: 'Galaxie' },
+  ],
 };
 
 export default content;

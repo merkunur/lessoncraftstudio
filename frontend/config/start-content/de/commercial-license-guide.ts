@@ -223,6 +223,14 @@ const content: StartContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter für den kommerziellen Verkauf erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
+    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+  ],
 };
 
 export default content;

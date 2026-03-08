@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/caterpillar.webp', alt: 'Caterpillar — themed educational image', caption: 'Caterpillar' },
+    { src: '/image-library/insects%20and%20bugs/centipede.webp', alt: 'Centipede — themed educational image', caption: 'Centipede' },
+  ],
 };
 
 export default content;

@@ -206,6 +206,14 @@ const content: GuideContent = {
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Print-Ready Math Worksheets for Amazon KDP \u2014 Formatting Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+  ],
 };
 
 export default content;

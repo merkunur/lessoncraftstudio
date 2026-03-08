@@ -206,6 +206,17 @@ const content: BundleContent = {
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Rätsel-&-Logik-Paket — Alle 4 Generatoren in Aktion',
   },
+
+  themeImages: [
+    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — thematisches Lernbild', caption: 'Allosaurus' },
+    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — thematisches Lernbild', caption: 'Ankylosaurus' },
+    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — thematisches Lernbild', caption: 'Apatosaurus' },
+    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — thematisches Lernbild', caption: 'Argentinosaurus' },
+    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — thematisches Lernbild', caption: 'Brachiosaurus' },
+    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurus — thematisches Lernbild', caption: 'Brontosaurus' },
+    { src: '/image-library/dinosaurs/carnotaurus.webp', alt: 'Carnotaurus — thematisches Lernbild', caption: 'Carnotaurus' },
+    { src: '/image-library/dinosaurs/deinonychus.webp', alt: 'Deinonychus — thematisches Lernbild', caption: 'Deinonychus' },
+  ],
 };
 
 export default content;

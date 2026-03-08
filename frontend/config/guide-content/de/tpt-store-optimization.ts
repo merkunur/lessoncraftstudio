@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel für Ihren TPT-Shop erstellen — Optimierungs-Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
+    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
+  ],
 };
 
 export default content;

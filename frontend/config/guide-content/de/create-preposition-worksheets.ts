@@ -198,6 +198,14 @@ const content: GuideContent = {
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Präpositionen-Arbeitsblätter erstellen — Komplettes Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Wecker — thematisches Lernbild', caption: 'Wecker' },
+    { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Sessel — thematisches Lernbild', caption: 'Sessel' },
+    { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Badewanne — thematisches Lernbild', caption: 'Badewanne' },
+    { src: '/image-library/around%20the%20house/bed.webp', alt: 'Bett — thematisches Lernbild', caption: 'Bett' },
+    { src: '/image-library/around%20the%20house/blender.webp', alt: 'Mixer — thematisches Lernbild', caption: 'Mixer' },
+  ],
 };
 
 export default content;

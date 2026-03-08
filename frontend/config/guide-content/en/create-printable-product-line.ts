@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets for a Consistent Printable Product Line',
   },
+
+  themeImages: [
+    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — themed educational image', caption: 'Allosaurus' },
+    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — themed educational image', caption: 'Ankylosaurus' },
+    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — themed educational image', caption: 'Apatosaurus' },
+    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — themed educational image', caption: 'Argentinosaurus' },
+    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — themed educational image', caption: 'Brachiosaurus' },
+  ],
 };
 
 export default content;

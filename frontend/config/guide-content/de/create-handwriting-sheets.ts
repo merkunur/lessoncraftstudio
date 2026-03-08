@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schreibübungen-Arbeitsblätter erstellen — Komplette Anleitung',
   },
+
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+  ],
 };
 
 export default content;

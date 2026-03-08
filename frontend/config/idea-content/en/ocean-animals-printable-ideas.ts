@@ -175,6 +175,16 @@ Science education connections make ocean animal printables particularly valuable
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fish — themed educational image', caption: 'Fish' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Ocean Animals Printable Business Ideas for Sellers — Product Demo',
 };

@@ -169,6 +169,16 @@ Physical products also serve the gift market in ways that digital downloads cann
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Physical Printable Product Business Ideas for Sellers — Product Demo',
 };

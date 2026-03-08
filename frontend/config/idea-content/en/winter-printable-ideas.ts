@@ -177,6 +177,16 @@ The competitive advantage in winter printables comes from visual quality and the
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/winter/boots.webp', alt: 'Boots — themed educational image', caption: 'Boots' },
+    { src: '/image-library/winter/cabin.webp', alt: 'Cabin — themed educational image', caption: 'Cabin' },
+    { src: '/image-library/winter/coat.webp', alt: 'Coat — themed educational image', caption: 'Coat' },
+    { src: '/image-library/winter/cocoa.webp', alt: 'Cocoa — themed educational image', caption: 'Cocoa' },
+    { src: '/image-library/winter/earmuffs.webp', alt: 'Earmuffs — themed educational image', caption: 'Earmuffs' },
+    { src: '/image-library/winter/evergreen.webp', alt: 'Evergreen — themed educational image', caption: 'Evergreen' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Winter Printable Business Ideas for Sellers — Product Demo',
 };

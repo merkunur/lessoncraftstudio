@@ -175,6 +175,16 @@ Naturwissenschaftliche Lehrplananbindungen machen Meerestier-Druckvorlagen beson
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Kaiserfisch — thematisches Lernbild', caption: 'Kaiserfisch' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfisch — thematisches Lernbild', caption: 'Clownfisch' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Koralle — thematisches Lernbild', caption: 'Koralle' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Krabbe — thematisches Lernbild', caption: 'Krabbe' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Delfin — thematisches Lernbild', caption: 'Delfin' },
+    { src: '/image-library/ocean%20life/fish.webp', alt: 'Fisch — thematisches Lernbild', caption: 'Fisch' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Meerestiere Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

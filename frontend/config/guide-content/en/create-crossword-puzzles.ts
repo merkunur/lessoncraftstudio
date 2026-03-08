@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'How to Create Crossword Puzzles for Kids \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
+    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
+  ],
 };
 
 export default content;

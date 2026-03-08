@@ -232,6 +232,14 @@ const content: StartContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Create Bingo Cards for Your Printable Business \u2014 LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
+    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulance — themed educational image', caption: 'Ambulance' },
+    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: '/image-library/vehicles/boat.webp', alt: 'Boat — themed educational image', caption: 'Boat' },
+    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — themed educational image', caption: 'Bulldozer' },
+  ],
 };
 
 export default content;

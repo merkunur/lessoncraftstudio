@@ -198,6 +198,14 @@ const content: GuideContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Plan Seasonal Marketing for Your Printable Business',
   },
+
+  themeImages: [
+    { src: '/image-library/christmas/angel.webp', alt: 'Angel — themed educational image', caption: 'Angel' },
+    { src: '/image-library/christmas/bell.webp', alt: 'Bell — themed educational image', caption: 'Bell' },
+    { src: '/image-library/christmas/candle.webp', alt: 'Candle — themed educational image', caption: 'Candle' },
+    { src: '/image-library/christmas/candy-cane.webp', alt: 'Candy Cane — themed educational image', caption: 'Candy Cane' },
+    { src: '/image-library/christmas/chimney.webp', alt: 'Chimney — themed educational image', caption: 'Chimney' },
+  ],
 };
 
 export default content;

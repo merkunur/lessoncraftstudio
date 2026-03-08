@@ -171,6 +171,16 @@ Cultural inclusivity through international foods represents a valuable different
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple — themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/apricot.webp', alt: 'Apricot — themed educational image', caption: 'Apricot' },
+    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — themed educational image', caption: 'Avocado' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana — themed educational image', caption: 'Banana' },
+    { src: '/image-library/fruits/blackberry.webp', alt: 'Blackberry — themed educational image', caption: 'Blackberry' },
+    { src: '/image-library/fruits/blueberry.webp', alt: 'Blueberry — themed educational image', caption: 'Blueberry' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Food & Cooking Printable Business Ideas for Sellers — Product Demo',
 };

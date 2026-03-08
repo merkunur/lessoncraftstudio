@@ -169,6 +169,16 @@ The custom service model works alongside a pre-made product catalog rather than 
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Custom Worksheet Service Business Ideas for Sellers — Product Demo',
 };

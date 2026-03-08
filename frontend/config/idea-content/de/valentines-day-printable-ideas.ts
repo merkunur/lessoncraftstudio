@@ -181,6 +181,16 @@ Die Valentinstag-Keyword-Landschaft offenbart mehrere unterversorgte Unternische
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
+    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
+    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
+    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+    { src: '/image-library/flowers/carnation.webp', alt: 'Nelke — thematisches Lernbild', caption: 'Nelke' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Valentinstag — Produktdemo',
 };

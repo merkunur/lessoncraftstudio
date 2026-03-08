@@ -228,6 +228,14 @@ const content: StartContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Ameise — thematisches Lernbild', caption: 'Ameise' },
+    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Schmetterling — thematisches Lernbild', caption: 'Schmetterling' },
+    { src: '/image-library/insects%20and%20bugs/caterpillar.webp', alt: 'Raupe — thematisches Lernbild', caption: 'Raupe' },
+    { src: '/image-library/insects%20and%20bugs/centipede.webp', alt: 'Tausendfüßler — thematisches Lernbild', caption: 'Tausendfüßler' },
+  ],
 };
 
 export default content;

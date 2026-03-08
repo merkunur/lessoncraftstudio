@@ -231,6 +231,14 @@ const content: StartContent = {
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sudoku-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — thematisches Lernbild', caption: 'Allosaurus' },
+    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — thematisches Lernbild', caption: 'Ankylosaurus' },
+    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — thematisches Lernbild', caption: 'Apatosaurus' },
+    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — thematisches Lernbild', caption: 'Argentinosaurus' },
+    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — thematisches Lernbild', caption: 'Brachiosaurus' },
+  ],
 };
 
 export default content;

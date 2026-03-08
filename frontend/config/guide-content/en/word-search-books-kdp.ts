@@ -196,6 +196,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Amazon KDP Books \u2014 Step-by-Step Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/camping/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/camping/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/camping/binoculars.webp', alt: 'Binoculars — themed educational image', caption: 'Binoculars' },
+    { src: '/image-library/camping/boots.webp', alt: 'Boots — themed educational image', caption: 'Boots' },
+    { src: '/image-library/camping/cabin.webp', alt: 'Cabin — themed educational image', caption: 'Cabin' },
+  ],
 };
 
 export default content;

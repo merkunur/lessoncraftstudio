@@ -173,6 +173,16 @@ Die plattformübergreifende Listung von sonderpädagogischen Druckvorlagen errei
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
+    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
+    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: '/image-library/shapes/heart.webp', alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Sonderpädagogik-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

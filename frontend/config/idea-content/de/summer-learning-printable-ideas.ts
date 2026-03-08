@@ -169,6 +169,16 @@ Die saisonale Konzentration der Sommerlernen-Nachfrage schafft intensive Umsatzf
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/summer/barbecue.webp', alt: 'Grill — thematisches Lernbild', caption: 'Grill' },
+    { src: '/image-library/summer/beach.webp', alt: 'Strand — thematisches Lernbild', caption: 'Strand' },
+    { src: '/image-library/summer/beach-ball.webp', alt: 'Wasserball — thematisches Lernbild', caption: 'Wasserball' },
+    { src: '/image-library/summer/bucket.webp', alt: 'Eimer — thematisches Lernbild', caption: 'Eimer' },
+    { src: '/image-library/summer/butterfly.webp', alt: 'Schmetterling — thematisches Lernbild', caption: 'Schmetterling' },
+    { src: '/image-library/summer/campfire.webp', alt: 'Lagerfeuer — thematisches Lernbild', caption: 'Lagerfeuer' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Sommerlernen-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

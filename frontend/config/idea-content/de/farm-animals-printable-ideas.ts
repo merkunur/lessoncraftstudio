@@ -181,6 +181,16 @@ Saisonale Marketingmöglichkeiten in der Bauernhof-Nische gehen über die offens
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/farm%20animals/bee.webp', alt: 'Biene — thematisches Lernbild', caption: 'Biene' },
+    { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
+    { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
+    { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: '/image-library/farm%20animals/chick.webp', alt: 'Küken — thematisches Lernbild', caption: 'Küken' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Bauernhoftiere Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

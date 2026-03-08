@@ -230,6 +230,14 @@ const content: StartContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+  ],
 };
 
 export default content;

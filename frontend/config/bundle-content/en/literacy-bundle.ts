@@ -231,6 +231,17 @@ const content: BundleContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Literacy & Language Bundle \u2014 See All 7 Generators in Action',
   },
+
+  themeImages: [
+    { src: '/image-library/animals/antelope.webp', alt: 'Antelope — themed educational image', caption: 'Antelope' },
+    { src: '/image-library/animals/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/animals/camel.webp', alt: 'Camel — themed educational image', caption: 'Camel' },
+    { src: '/image-library/animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/animals/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/animals/donkey.webp', alt: 'Donkey — themed educational image', caption: 'Donkey' },
+    { src: '/image-library/animals/duck.webp', alt: 'Duck — themed educational image', caption: 'Duck' },
+  ],
 };
 
 export default content;

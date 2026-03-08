@@ -198,6 +198,14 @@ const content: GuideContent = {
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'So erstellen Sie Schatzsuche-Arbeitsblätter — Komplettes Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/camping/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
+    { src: '/image-library/camping/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: '/image-library/camping/binoculars.webp', alt: 'Fernglas — thematisches Lernbild', caption: 'Fernglas' },
+    { src: '/image-library/camping/boots.webp', alt: 'Stiefel — thematisches Lernbild', caption: 'Stiefel' },
+    { src: '/image-library/camping/cabin.webp', alt: 'Hütte — thematisches Lernbild', caption: 'Hütte' },
+  ],
 };
 
 export default content;

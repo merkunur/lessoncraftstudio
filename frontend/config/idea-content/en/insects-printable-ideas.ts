@@ -177,6 +177,16 @@ Science education alignment gives insect printables particular value on Teachers
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/caterpillar.webp', alt: 'Caterpillar — themed educational image', caption: 'Caterpillar' },
+    { src: '/image-library/insects%20and%20bugs/centipede.webp', alt: 'Centipede — themed educational image', caption: 'Centipede' },
+    { src: '/image-library/insects%20and%20bugs/cricket.webp', alt: 'Cricket — themed educational image', caption: 'Cricket' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Insects Printable Business Ideas for Sellers — Product Demo',
 };

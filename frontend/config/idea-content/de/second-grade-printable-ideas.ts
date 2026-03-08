@@ -167,6 +167,16 @@ Das Eltern-Käufersegment wächst in der zweiten Klasse erheblich, weil der Wech
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/classroom/backpack.webp', alt: 'Rucksack — thematisches Lernbild', caption: 'Rucksack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Ordner — thematisches Lernbild', caption: 'Ordner' },
+    { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
+    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+  ],
+
+
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Zweite-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer — Produktdemo',
 };

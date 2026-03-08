@@ -171,6 +171,16 @@ To capture maximum Easter revenue, develop products across multiple sub-themes a
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/spring/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/spring/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: '/image-library/spring/bird.webp', alt: 'Bird — themed educational image', caption: 'Bird' },
+    { src: '/image-library/spring/birdhouse.webp', alt: 'Birdhouse — themed educational image', caption: 'Birdhouse' },
+    { src: '/image-library/spring/bud.webp', alt: 'Bud — themed educational image', caption: 'Bud' },
+    { src: '/image-library/spring/bunny.webp', alt: 'Bunny — themed educational image', caption: 'Bunny' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Easter Printable Business Ideas for Sellers — Product Demo',
 };

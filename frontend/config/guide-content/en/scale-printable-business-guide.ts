@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'How to Create Coloring Pages with Draw & Color \u2014 Demonstrating Creative Range for Catalog Scaling',
   },
+
+  themeImages: [
+    { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
+    { src: '/image-library/vehicles/ambulance.webp', alt: 'Ambulance — themed educational image', caption: 'Ambulance' },
+    { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
+    { src: '/image-library/vehicles/boat.webp', alt: 'Boat — themed educational image', caption: 'Boat' },
+    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — themed educational image', caption: 'Bulldozer' },
+  ],
 };
 
 export default content;

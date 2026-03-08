@@ -198,6 +198,14 @@ const content: GuideContent = {
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'How to Create Preposition Worksheets \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Alarm Clock — themed educational image', caption: 'Alarm Clock' },
+    { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Armchair — themed educational image', caption: 'Armchair' },
+    { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Bathtub — themed educational image', caption: 'Bathtub' },
+    { src: '/image-library/around%20the%20house/bed.webp', alt: 'Bed — themed educational image', caption: 'Bed' },
+    { src: '/image-library/around%20the%20house/blender.webp', alt: 'Blender — themed educational image', caption: 'Blender' },
+  ],
 };
 
 export default content;

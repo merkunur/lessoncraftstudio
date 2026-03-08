@@ -177,6 +177,16 @@ The birds niche also offers strong differentiation opportunities through regiona
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/birds/eagle.webp', alt: 'Eagle — themed educational image', caption: 'Eagle' },
+    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — themed educational image', caption: 'Flamingo' },
+    { src: '/image-library/birds/hornbill.webp', alt: 'Hornbill — themed educational image', caption: 'Hornbill' },
+    { src: '/image-library/birds/macaw.webp', alt: 'Macaw — themed educational image', caption: 'Macaw' },
+    { src: '/image-library/birds/ostrich.webp', alt: 'Ostrich — themed educational image', caption: 'Ostrich' },
+    { src: '/image-library/birds/owl.webp', alt: 'Owl — themed educational image', caption: 'Owl' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Birds Printable Business Ideas for Sellers — Product Demo',
 };

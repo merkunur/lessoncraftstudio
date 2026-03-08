@@ -171,6 +171,16 @@ Das Musiklehrer-Käufersegment stellt ein besonders wertvolles Publikum dar, das
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/music/accordion.webp', alt: 'Akkordeon — thematisches Lernbild', caption: 'Akkordeon' },
+    { src: '/image-library/music/cymbals.webp', alt: 'Becken — thematisches Lernbild', caption: 'Becken' },
+    { src: '/image-library/music/drum.webp', alt: 'Trommel — thematisches Lernbild', caption: 'Trommel' },
+    { src: '/image-library/music/flute.webp', alt: 'Flöte — thematisches Lernbild', caption: 'Flöte' },
+    { src: '/image-library/music/guitar.webp', alt: 'Gitarre — thematisches Lernbild', caption: 'Gitarre' },
+    { src: '/image-library/music/harp.webp', alt: 'Harfe — thematisches Lernbild', caption: 'Harfe' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Musik-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

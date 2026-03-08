@@ -231,6 +231,14 @@ const content: StartContent = {
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Page Worksheets \u2014 LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
+    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
+  ],
 };
 
 export default content;

@@ -199,6 +199,14 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Customer Support for Digital Product Businesses',
   },
+
+  themeImages: [
+    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
+    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
+  ],
 };
 
 export default content;

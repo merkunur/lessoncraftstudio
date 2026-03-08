@@ -198,6 +198,14 @@ const content: GuideContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Selling on Etsy \u2014 Step-by-Step Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/shapes/circle.webp', alt: 'Circle — themed educational image', caption: 'Circle' },
+    { src: '/image-library/shapes/cone.webp', alt: 'Cone — themed educational image', caption: 'Cone' },
+    { src: '/image-library/shapes/cube.webp', alt: 'Cube — themed educational image', caption: 'Cube' },
+    { src: '/image-library/shapes/cylinder.webp', alt: 'Cylinder — themed educational image', caption: 'Cylinder' },
+    { src: '/image-library/shapes/diamond.webp', alt: 'Diamond — themed educational image', caption: 'Diamond' },
+  ],
 };
 
 export default content;

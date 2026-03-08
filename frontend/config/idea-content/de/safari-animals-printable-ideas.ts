@@ -175,6 +175,16 @@ Das Safari-Thema schneidet auch außergewöhnlich gut im Kinderzimmer- und Früh
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
+    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Safaritiere Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

@@ -177,6 +177,16 @@ Nach-Weihnachten-Möglichkeiten verlängern die Feiertagsverkaufssaison für str
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/christmas/angel.webp', alt: 'Engel — thematisches Lernbild', caption: 'Engel' },
+    { src: '/image-library/christmas/bell.webp', alt: 'Glocke — thematisches Lernbild', caption: 'Glocke' },
+    { src: '/image-library/christmas/candle.webp', alt: 'Kerze — thematisches Lernbild', caption: 'Kerze' },
+    { src: '/image-library/christmas/candy-cane.webp', alt: 'Zuckerstange — thematisches Lernbild', caption: 'Zuckerstange' },
+    { src: '/image-library/christmas/chimney.webp', alt: 'Schornstein — thematisches Lernbild', caption: 'Schornstein' },
+    { src: '/image-library/christmas/church.webp', alt: 'Kirche — thematisches Lernbild', caption: 'Kirche' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Weihnachts-Druckvorlagen: Geschäftsideen für Verkäufer — Produktdemo',
 };

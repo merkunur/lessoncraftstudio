@@ -206,6 +206,17 @@ const content: BundleContent = {
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Puzzles & Logic Bundle \u2014 See All 4 Generators in Action',
   },
+
+  themeImages: [
+    { src: '/image-library/dinosaurs/allosaurus.webp', alt: 'Allosaurus — themed educational image', caption: 'Allosaurus' },
+    { src: '/image-library/dinosaurs/ankylosaurus.webp', alt: 'Ankylosaurus — themed educational image', caption: 'Ankylosaurus' },
+    { src: '/image-library/dinosaurs/apatosaurus.webp', alt: 'Apatosaurus — themed educational image', caption: 'Apatosaurus' },
+    { src: '/image-library/dinosaurs/argentinosaurus.webp', alt: 'Argentinosaurus — themed educational image', caption: 'Argentinosaurus' },
+    { src: '/image-library/dinosaurs/brachiosaurus.webp', alt: 'Brachiosaurus — themed educational image', caption: 'Brachiosaurus' },
+    { src: '/image-library/dinosaurs/brontosaurus.webp', alt: 'Brontosaurus — themed educational image', caption: 'Brontosaurus' },
+    { src: '/image-library/dinosaurs/carnotaurus.webp', alt: 'Carnotaurus — themed educational image', caption: 'Carnotaurus' },
+    { src: '/image-library/dinosaurs/deinonychus.webp', alt: 'Deinonychus — themed educational image', caption: 'Deinonychus' },
+  ],
 };
 
 export default content;

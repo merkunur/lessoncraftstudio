@@ -200,6 +200,14 @@ const content: GuideContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Printable Worksheets for Selling on Etsy \u2014 Understanding Product Value and Pricing',
   },
+
+  themeImages: [
+    { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparagus — themed educational image', caption: 'Asparagus' },
+    { src: '/image-library/vegetables/beetroot.webp', alt: 'Beetroot — themed educational image', caption: 'Beetroot' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Bell Pepper — themed educational image', caption: 'Bell Pepper' },
+    { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — themed educational image', caption: 'Broccoli' },
+    { src: '/image-library/vegetables/cabbage.webp', alt: 'Cabbage — themed educational image', caption: 'Cabbage' },
+  ],
 };
 
 export default content;

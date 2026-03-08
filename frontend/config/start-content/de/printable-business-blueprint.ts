@@ -231,6 +231,14 @@ const content: StartContent = {
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Mathe-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/flowers/aster.webp', alt: 'Aster — thematisches Lernbild', caption: 'Aster' },
+    { src: '/image-library/flowers/azalea.webp', alt: 'Azalee — thematisches Lernbild', caption: 'Azalee' },
+    { src: '/image-library/flowers/begonia.webp', alt: 'Begonie — thematisches Lernbild', caption: 'Begonie' },
+    { src: '/image-library/flowers/bluebell.webp', alt: 'Glockenblume — thematisches Lernbild', caption: 'Glockenblume' },
+    { src: '/image-library/flowers/buttercup.webp', alt: 'Butterblume — thematisches Lernbild', caption: 'Butterblume' },
+  ],
 };
 
 export default content;

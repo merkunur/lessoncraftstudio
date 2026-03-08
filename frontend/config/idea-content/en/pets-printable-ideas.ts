@@ -175,6 +175,16 @@ The pets niche offers exceptional bundling and cross-selling opportunities becau
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/pets/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — themed educational image', caption: 'Chinchilla' },
+    { src: '/image-library/pets/cockatiel.webp', alt: 'Cockatiel — themed educational image', caption: 'Cockatiel' },
+    { src: '/image-library/pets/dog.webp', alt: 'Dog — themed educational image', caption: 'Dog' },
+    { src: '/image-library/pets/ferret.webp', alt: 'Ferret — themed educational image', caption: 'Ferret' },
+    { src: '/image-library/pets/finch.webp', alt: 'Finch — themed educational image', caption: 'Finch' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Pets Printable Business Ideas for Sellers — Product Demo',
 };

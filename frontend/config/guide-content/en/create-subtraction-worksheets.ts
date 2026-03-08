@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'How to Create Subtraction Worksheets \u2014 Complete Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/birds/eagle.webp', alt: 'Eagle — themed educational image', caption: 'Eagle' },
+    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — themed educational image', caption: 'Flamingo' },
+    { src: '/image-library/birds/hornbill.webp', alt: 'Hornbill — themed educational image', caption: 'Hornbill' },
+    { src: '/image-library/birds/macaw.webp', alt: 'Macaw — themed educational image', caption: 'Macaw' },
+    { src: '/image-library/birds/ostrich.webp', alt: 'Ostrich — themed educational image', caption: 'Ostrich' },
+  ],
 };
 
 export default content;

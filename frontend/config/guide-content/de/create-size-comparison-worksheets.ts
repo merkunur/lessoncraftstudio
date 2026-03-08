@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'So erstellen Sie Größenvergleich-Arbeitsblätter — Komplettes Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
+    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
+    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
+  ],
 };
 
 export default content;

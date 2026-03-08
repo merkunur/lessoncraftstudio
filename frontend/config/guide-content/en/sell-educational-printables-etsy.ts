@@ -210,6 +210,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Educational Printables for Selling on Etsy \u2014 Multi-Category Shop Strategy',
   },
+
+  themeImages: [
+    { src: '/image-library/flowers/aster.webp', alt: 'Aster — themed educational image', caption: 'Aster' },
+    { src: '/image-library/flowers/azalea.webp', alt: 'Azalea — themed educational image', caption: 'Azalea' },
+    { src: '/image-library/flowers/begonia.webp', alt: 'Begonia — themed educational image', caption: 'Begonia' },
+    { src: '/image-library/flowers/bluebell.webp', alt: 'Bluebell — themed educational image', caption: 'Bluebell' },
+    { src: '/image-library/flowers/buttercup.webp', alt: 'Buttercup — themed educational image', caption: 'Buttercup' },
+  ],
 };
 
 export default content;

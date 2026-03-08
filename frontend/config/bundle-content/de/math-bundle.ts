@@ -232,6 +232,17 @@ const content: BundleContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Mathematik-Meister-Paket — Alle 6 Generatoren in Aktion',
   },
+
+  themeImages: [
+    { src: '/image-library/shapes/circle.webp', alt: 'Kreis — thematisches Lernbild', caption: 'Kreis' },
+    { src: '/image-library/shapes/cone.webp', alt: 'Kegel — thematisches Lernbild', caption: 'Kegel' },
+    { src: '/image-library/shapes/cube.webp', alt: 'Würfel — thematisches Lernbild', caption: 'Würfel' },
+    { src: '/image-library/shapes/cylinder.webp', alt: 'Zylinder — thematisches Lernbild', caption: 'Zylinder' },
+    { src: '/image-library/shapes/diamond.webp', alt: 'Raute — thematisches Lernbild', caption: 'Raute' },
+    { src: '/image-library/shapes/heart.webp', alt: 'Herz — thematisches Lernbild', caption: 'Herz' },
+    { src: '/image-library/shapes/heptagon.webp', alt: 'Siebeneck — thematisches Lernbild', caption: 'Siebeneck' },
+    { src: '/image-library/shapes/hexagon.webp', alt: 'Sechseck — thematisches Lernbild', caption: 'Sechseck' },
+  ],
 };
 
 export default content;

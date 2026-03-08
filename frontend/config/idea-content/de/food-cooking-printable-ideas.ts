@@ -171,6 +171,16 @@ Kulturelle Inklusivität durch internationale Küche stellt einen wertvollen Dif
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/fruits/apple.webp', alt: 'Apfel — thematisches Lernbild', caption: 'Apfel' },
+    { src: '/image-library/fruits/apricot.webp', alt: 'Aprikose — thematisches Lernbild', caption: 'Aprikose' },
+    { src: '/image-library/fruits/avocado.webp', alt: 'Avocado — thematisches Lernbild', caption: 'Avocado' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banane — thematisches Lernbild', caption: 'Banane' },
+    { src: '/image-library/fruits/blackberry.webp', alt: 'Brombeere — thematisches Lernbild', caption: 'Brombeere' },
+    { src: '/image-library/fruits/blueberry.webp', alt: 'Blaubeere — thematisches Lernbild', caption: 'Blaubeere' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Essen & Kochen Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

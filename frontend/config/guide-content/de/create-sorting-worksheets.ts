@@ -197,6 +197,14 @@ const content: GuideContent = {
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'So erstellen Sie Kategoriesortierung-Arbeitsblätter — Komplettes Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/pets/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
+    { src: '/image-library/pets/chinchilla.webp', alt: 'Chinchilla — thematisches Lernbild', caption: 'Chinchilla' },
+    { src: '/image-library/pets/cockatiel.webp', alt: 'Nymphensittich — thematisches Lernbild', caption: 'Nymphensittich' },
+    { src: '/image-library/pets/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
+    { src: '/image-library/pets/ferret.webp', alt: 'Frettchen — thematisches Lernbild', caption: 'Frettchen' },
+  ],
 };
 
 export default content;

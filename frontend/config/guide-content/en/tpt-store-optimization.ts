@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Your TPT Store \u2014 Optimization Tutorial',
   },
+
+  themeImages: [
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
+  ],
 };
 
 export default content;

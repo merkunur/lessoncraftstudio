@@ -171,6 +171,16 @@ Geschlechtsneutrale Positionierung ist eine wichtige strategische Überlegung f�
     },
   ],
 
+  themeImages: [
+    { src: '/image-library/vehicles/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
+    { src: '/image-library/vehicles/ambulance.webp', alt: 'Krankenwagen — thematisches Lernbild', caption: 'Krankenwagen' },
+    { src: '/image-library/vehicles/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
+    { src: '/image-library/vehicles/boat.webp', alt: 'Boot — thematisches Lernbild', caption: 'Boot' },
+    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematisches Lernbild', caption: 'Bulldozer' },
+    { src: '/image-library/vehicles/bus.webp', alt: 'Bus — thematisches Lernbild', caption: 'Bus' },
+  ],
+
+
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Fahrzeuge Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',
 };

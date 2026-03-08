@@ -231,6 +231,17 @@ const content: BundleContent = {
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuelles-Lernen-Paket — Alle 7 Generatoren in Aktion',
   },
+
+  themeImages: [
+    { src: '/image-library/zoo%20animals/antelope.webp', alt: 'Antilope — thematisches Lernbild', caption: 'Antilope' },
+    { src: '/image-library/zoo%20animals/armadillo.webp', alt: 'Gürteltier — thematisches Lernbild', caption: 'Gürteltier' },
+    { src: '/image-library/zoo%20animals/bat.webp', alt: 'Fledermaus — thematisches Lernbild', caption: 'Fledermaus' },
+    { src: '/image-library/zoo%20animals/bear.webp', alt: 'Bär — thematisches Lernbild', caption: 'Bär' },
+    { src: '/image-library/zoo%20animals/bison.webp', alt: 'Bison — thematisches Lernbild', caption: 'Bison' },
+    { src: '/image-library/zoo%20animals/camel.webp', alt: 'Kamel — thematisches Lernbild', caption: 'Kamel' },
+    { src: '/image-library/zoo%20animals/cheetah.webp', alt: 'Gepard — thematisches Lernbild', caption: 'Gepard' },
+    { src: '/image-library/zoo%20animals/chimpanzee.webp', alt: 'Schimpanse — thematisches Lernbild', caption: 'Schimpanse' },
+  ],
 };
 
 export default content;

@@ -202,6 +202,14 @@ const content: GuideContent = {
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages for Your Gumroad Printable Store',
   },
+
+  themeImages: [
+    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+  ],
 };
 
 export default content;

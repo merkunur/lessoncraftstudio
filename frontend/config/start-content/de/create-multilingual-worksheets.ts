@@ -227,6 +227,14 @@ const content: StartContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter in mehreren Sprachen erstellen — LessonCraftStudio Demo',
   },
+
+  themeImages: [
+    { src: '/image-library/birds/eagle.webp', alt: 'Adler — thematisches Lernbild', caption: 'Adler' },
+    { src: '/image-library/birds/flamingo.webp', alt: 'Flamingo — thematisches Lernbild', caption: 'Flamingo' },
+    { src: '/image-library/birds/hornbill.webp', alt: 'Nashornvogel — thematisches Lernbild', caption: 'Nashornvogel' },
+    { src: '/image-library/birds/macaw.webp', alt: 'Ara — thematisches Lernbild', caption: 'Ara' },
+    { src: '/image-library/birds/ostrich.webp', alt: 'Strauß — thematisches Lernbild', caption: 'Strauß' },
+  ],
 };
 
 export default content;

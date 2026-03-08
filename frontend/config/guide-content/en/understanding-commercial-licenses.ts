@@ -199,6 +199,14 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles with Commercial Licensing',
   },
+
+  themeImages: [
+    { src: '/image-library/weather/cloud.webp', alt: 'Cloud — themed educational image', caption: 'Cloud' },
+    { src: '/image-library/weather/cloudy.webp', alt: 'Cloudy — themed educational image', caption: 'Cloudy' },
+    { src: '/image-library/weather/cold.webp', alt: 'Cold — themed educational image', caption: 'Cold' },
+    { src: '/image-library/weather/hot.webp', alt: 'Hot — themed educational image', caption: 'Hot' },
+    { src: '/image-library/weather/mittens.webp', alt: 'Mittens — themed educational image', caption: 'Mittens' },
+  ],
 };
 
 export default content;

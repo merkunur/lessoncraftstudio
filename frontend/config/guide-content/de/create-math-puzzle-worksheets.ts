@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit durcheinander gewürfelten Bildteilen und Rechenaufgaben, die Kinder lösen und zusammensetzen' },
+    heroImage: { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit durcheinander gewürfelten Bildteilen und Rechenaufgaben, die Kinder lösen und zusammensetzen' },
     samples: [
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit Tierthema, das Rastergleichungen und nummerierte Bildfragmente zeigt', caption: 'Mathe-Rätsel-Arbeitsblatt — Kinder lösen Gleichungen, um zu bestimmen, wohin jedes nummerierte Bildteil im Raster gehört' },
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Lösungsschlüssel mit rekonstruiertem Bild und gelösten Gleichungen', caption: 'Automatischer Lösungsschlüssel mit dem rekonstruierten Bild bei 30 % Deckkraft und vollständig gelösten Gleichungen' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit Tierthema, das Rastergleichungen und nummerierte Bildfragmente zeigt', caption: 'Mathe-Rätsel-Arbeitsblatt — Kinder lösen Gleichungen, um zu bestimmen, wohin jedes nummerierte Bildteil im Raster gehört' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Lösungsschlüssel mit rekonstruiertem Bild und gelösten Gleichungen', caption: 'Automatischer Lösungsschlüssel mit dem rekonstruierten Bild bei 30 % Deckkraft und vollständig gelösten Gleichungen' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Mathe-Rätsel-Arbeitsblätter erstellen — Vollständiges Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/math worksheet/Math Worksheet 10.webp',
+      src: '/samples/german/math worksheet/worksheet.webp',
       alt: 'Professionelles Mathe-Arbeitsblatt zur Demonstration schneller automatisierter Erstellung für Druckvorlagen-Geschäftseffizienz',
     },
     samples: [
       {
-        src: '/samples/german/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/german/math worksheet/worksheet.webp',
         alt: 'Mathe-Arbeitsblatt zeigt die Ausgabequalität automatisierter Produktion',
         caption: 'Arbeitsblatt-Generatoren automatisieren den zeitintensivsten Schritt in der Druckvorlagen-Produktion',
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Stapelverarbeitung thematischer Variationen multipliziert die Katalogproduktion effizient',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel zeigt systematische Inhaltserstellung über Themen hinweg',
         caption: 'Systematische Variation über Themen und Sprachen skaliert das Katalogwachstum',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Wie Sie die Arbeitsblatt-Erstellung für Ihr Druckvorlagen-Geschäft automatisieren',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

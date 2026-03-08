@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/matching portrait.webp',
+      src: '/samples/german/matching/Paare Finden 1.webp',
       alt: 'Professionelles Zuordnungsarbeitsblatt mit klarem Produktdesign zur Vermeidung von Kundensupport-Problemen',
     },
     samples: [
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Zuordnungsarbeitsblatt mit übersichtlichem Layout und Anweisungen zur Reduzierung von Käuferfragen',
         caption: 'Klares Arbeitsblattdesign und umfassende Produktbeschreibungen verhindern häufige Supportanfragen',
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Professionelle Formatierung und detaillierte Spezifikationen eliminieren Erwartungsabweichungen',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel mit thematischem Inhalt zur Demonstration von Produktklarheit für Käufer',
         caption: 'Inhaltsreiche Produkte profitieren am meisten von umfassender Dokumentation und Self-Service-Support',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kundensupport für digitale Produktgeschäfte',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

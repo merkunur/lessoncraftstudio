@@ -176,17 +176,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/matching portrait.webp',
+      src: '/samples/german/matching/Paare Finden 1.webp',
       alt: 'Zuordnungsarbeitsblatt zeigt Themenvielseitigkeit für profitable Nischenrecherche über Bildungsthemen',
     },
     samples: [
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Thematisches Zuordnungsarbeitsblatt demonstriert Nischenvielfalt über Lernmaterialthemen',
         caption: 'Zuordnungsarbeitsblätter umfassen Dutzende von Themen und ermöglichen schnelles Erkunden und Testen mehrerer Nischen',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel zeigt fächerübergreifendes Nischentestpotenzial in mehreren Sprachen',
         caption: 'Wortsuchrätsel validieren Nischennachfrage über Fächer und Sprachen mit minimaler Produktionszeit',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Profitable Druckvorlagen-Nischen recherchieren mit Arbeitsblatt-Generatoren',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

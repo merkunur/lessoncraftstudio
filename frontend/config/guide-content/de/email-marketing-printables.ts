@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/wordsearch portrait.webp',
+      src: '/samples/german/wordsearch/Worter suchen 1.webp',
       alt: 'Professionelles Wortsuchrätsel-Arbeitsblatt zur Demonstration der Lead-Magnet-Qualität für E-Mail-Marketing-Kampagnen',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel-Arbeitsblatt ideal für E-Mail-Lead-Magnete, die Druckvorlagen-Käufer anziehen',
         caption: 'Wortsuchrätsel sind überzeugende Lead-Magnete, die Ihre Zielkäufer-Zielgruppe anziehen',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuchrätsel-Generator — Lead-Magnete für Ihre E-Mail-Marketing-Strategie erstellen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

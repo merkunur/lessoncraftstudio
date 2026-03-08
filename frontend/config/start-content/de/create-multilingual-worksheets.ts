@@ -217,22 +217,16 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular', caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular', caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel mit lokalisierten Hinweisen und Antworten', caption: 'Kreuzworträtsel — Vollständig lokalisierte Rätsel' },
-      { src: '/samples/german/word scramble/word scramble portrait.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
-      { src: '/samples/german/alphabet train/Alphabet Train 1.webp', alt: 'Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze', caption: 'Buchstabenzug — Angepasste Zeichensätze' },
+      { src: '/samples/german/word scramble/Buchstabensala 1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
+      { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze', caption: 'Buchstabenzug — Angepasste Zeichensätze' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter in mehreren Sprachen erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

@@ -174,14 +174,6 @@ Die Haustier-Nische bietet außergewöhnliche Bündelungs- und Cross-Selling-Mö
       anchorText: 'Safaritiere-Druckvorlagen: Geschäftsideen',
     },
   ],
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches pädagogisches Bild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches pädagogisches Bild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches pädagogisches Bild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches pädagogisches Bild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches pädagogisches Bild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches pädagogisches Bild', caption: 'Koala' },
-  ],
 
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Haustier-Druckvorlagen: Geschäftsideen für Verkäufer — Produktdemo',

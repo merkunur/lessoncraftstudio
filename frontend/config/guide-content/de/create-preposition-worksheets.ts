@@ -189,22 +189,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/prepositions/prepositions_worksheet (1).webp', alt: 'Präpositionen-Arbeitsblatt mit Bildszenen und räumlichen Beziehungsübungen für Positionswort-Übung' },
+    heroImage: { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Bildszenen und räumlichen Beziehungsübungen für Positionswort-Übung' },
     samples: [
-      { src: '/samples/german/prepositions/prepositions_worksheet (1).webp', alt: 'Präpositionen-Arbeitsblatt mit Lückentext-Übungen und farbenfrohen Bildszenen, die räumliche Beziehungen zeigen', caption: 'Lückentext-Präpositionsübungen mit Bildszenen' },
-      { src: '/samples/german/prepositions/prepositions_worksheet (5).webp', alt: 'Präpositionen-Arbeitsblatt mit Multiple-Choice räumlichen Beziehungsübungen für angeleitetes Üben', caption: 'Multiple-Choice-Modus für angeleitetes anfängerfreundliches Üben' },
-      { src: '/samples/german/prepositions/prepositions_worksheet (10).webp', alt: 'Fortgeschrittenes Präpositionen-Arbeitsblatt mit Formaustausch für einzigartige Szenenkombinationen', caption: 'Formaustausch vervielfacht visuelle Kombinationen für Produktvielfalt' },
+      { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Lückentext-Übungen und farbenfrohen Bildszenen, die räumliche Beziehungen zeigen', caption: 'Lückentext-Präpositionsübungen mit Bildszenen' },
+      { src: '/samples/german/prepositions/prepositions_answer_key.webp', alt: 'Präpositionen-Arbeitsblatt mit Multiple-Choice räumlichen Beziehungsübungen für angeleitetes Üben', caption: 'Multiple-Choice-Modus für angeleitetes anfängerfreundliches Üben' },
+      { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Fortgeschrittenes Präpositionen-Arbeitsblatt mit Formaustausch für einzigartige Szenenkombinationen', caption: 'Formaustausch vervielfacht visuelle Kombinationen für Produktvielfalt' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Präpositionen-Arbeitsblätter erstellen — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildungsbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

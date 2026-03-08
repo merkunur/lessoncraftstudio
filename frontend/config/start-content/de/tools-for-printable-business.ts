@@ -218,22 +218,16 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert' },
+    heroImage: { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert' },
     samples: [
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen', caption: 'Zuordnung — Vielseitiges Werkzeug mit mehreren Modi' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert', caption: 'Wortsuchrätsel — Beliebtester Rätselgenerator' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen', caption: 'Zuordnung — Vielseitiges Werkzeug mit mehreren Modi' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert', caption: 'Wortsuchrätsel — Beliebtester Rätselgenerator' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalseite die Designqualität ohne Sprachabhängigkeit zeigt', caption: 'Ausmalen — Universelle visuelle Inhalte' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel das mehrsprachige Generierungsfähigkeiten demonstriert', caption: 'Kreuzworträtsel — Mehrsprachiges Rätselwerkzeug' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

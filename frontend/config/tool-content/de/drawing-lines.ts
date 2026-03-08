@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/drawing lines/drawing_lines_horizontal.webp',
+      primary: '/samples/german/drawing lines/Linien Zeichnen Üben 1.webp',
       primaryAlt: 'Linienverfolgung-Arbeitsblatt mit SVG-Kurvenvorlage und farbenfrohen Bildpaaren im Querformat',
     },
     sampleGallery: [
       {
-        src: '/samples/german/drawing lines/drawing_lines_curve 1.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 2.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Kurvenvorlage und passenden Tier-Bildpaaren im Querformat',
         caption: 'Kurvenvorlage — fließende Linienpfade mit 4 farbenfrohen Bildpaaren im Querformat',
       },
       {
-        src: '/samples/german/drawing lines/drawing_lines_diagonal 1.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 3.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Diagonalvorlage und fünf Bildpaaren im Hochformat',
         caption: 'Diagonalvorlage — Schräglinien mit 5 Bildpaaren für bilaterale Koordinationsübung',
       },
       {
-        src: '/samples/german/drawing lines/drawing_lines_vertical.webp',
+        src: '/samples/german/drawing lines/Linien Zeichnen Üben 4.webp',
         alt: 'Linienverfolgung-Arbeitsblatt mit Horizontalvorlage und Natur-Bildpaaren im Hochformat',
         caption: 'Horizontalvorlage — gerade Links-nach-Rechts-Linien für Anfänger-Feinmotorik-Übung',
       },

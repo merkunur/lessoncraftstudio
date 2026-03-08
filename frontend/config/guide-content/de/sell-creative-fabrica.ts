@@ -196,19 +196,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Druckbare Malvorlage zum Verkauf von Lernressourcen auf dem Creative Fabrica-Marktplatz' },
     samples: [
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Druckbare Malvorlage für den Creative Fabrica-Klassenzimmer-Bereich', caption: 'Malvorlagen überbrücken die Lücke zwischen Craft und Bildung auf Creative Fabrica — sie sprechen sowohl Designer- als auch Lehrerpublikum an' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte', caption: 'Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Klassenzimmer-Bereich' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz', caption: 'Wortsuchrätsel ziehen Abo-Downloads von Pädagogen und Eltern auf Creative Fabrica an' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte', caption: 'Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Klassenzimmer-Bereich' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz', caption: 'Wortsuchrätsel ziehen Abo-Downloads von Pädagogen und Eltern auf Creative Fabrica an' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'So erstellen Sie Lern-Arbeitsblätter für Creative Fabrica',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

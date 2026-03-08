@@ -193,22 +193,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Arbeitsblatt geeignet für Etsy-Digitaldownload oder Amazon-KDP-Rätselbuch' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt geeignet für Etsy-Digitaldownload oder Amazon-KDP-Rätselbuch' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Thematisches Wortsuchrätsel für Etsy und KDP', caption: 'Wortsuchrätsel verkaufen sich auf beiden Plattformen — als einzelne digitale Downloads auf Etsy und zusammengestellt zu Rätselbüchern auf KDP' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Thematisches Wortsuchrätsel für Etsy und KDP', caption: 'Wortsuchrätsel verkaufen sich auf beiden Plattformen — als einzelne digitale Downloads auf Etsy und zusammengestellt zu Rätselbüchern auf KDP' },
       { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Additions-Arbeitsblatt für Etsy-Digitaldownload oder KDP-Aktivitätsbuch', caption: 'Mathe-Arbeitsblätter funktionieren als Etsy-Einzelblätter und kleine Pakete oder kompiliert zu KDP-Mathe-Aktivitätsbüchern' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage für Verkauf auf Etsy und KDP', caption: 'Malvorlagen sind eine Top-Kategorie auf beiden Plattformen — einzelne Downloads auf Etsy und Malbücher auf KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Druckvorlagen-Arbeitsblätter für Etsy und Amazon KDP erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

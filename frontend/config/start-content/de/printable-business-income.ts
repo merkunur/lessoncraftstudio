@@ -217,22 +217,16 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math worksheet/Math Worksheet 10.webp', alt: 'Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren' },
+    heroImage: { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren' },
     samples: [
-      { src: '/samples/german/math worksheet/Math Worksheet 10.webp', alt: 'Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität', caption: 'Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt für Etsy- und Amazon KDP-Verkauf', caption: 'Wortsuche — Meistverkaufte Rätselkategorie' },
+      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität', caption: 'Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt für Etsy- und Amazon KDP-Verkauf', caption: 'Wortsuche — Meistverkaufte Rätselkategorie' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage für KDP-Aktivitätsbuch-Veröffentlichung', caption: 'Malvorlagen — Umsatzstarke KDP-Kategorie' },
       { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt mit universellem internationalen Potenzial', caption: 'Sudoku — Universelle Marktattraktivität' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Mathe-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

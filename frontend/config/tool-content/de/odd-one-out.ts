@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/odd one out/Find the Odd One Out.webp',
+      primary: '/samples/german/odd one out/Finde das Andere 1.webp',
       primaryAlt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Bildern und einem Ausreißer mit korallenrot-bernstein-türkisfarbenem Header Finde den Ausreißer',
     },
     sampleGallery: [
       {
-        src: '/samples/german/odd one out/Find the Odd One Out (1).webp',
+        src: '/samples/german/odd one out/Finde das Andere 2.webp',
         alt: 'Ähnlich-Modus-Was-passt-nicht-Arbeitsblatt mit drei Bildern aus Thema A und einem thematischen Ausreißer aus Thema B pro Übungsreihe',
         caption: 'Ähnlich-Modus — drei Bilder aus Thema A und ein Ausreißer aus Thema B für themenübergreifende Unterscheidung',
       },
       {
-        src: '/samples/german/odd one out/Find the Odd One Out (5).webp',
+        src: '/samples/german/odd one out/Finde das Andere 3.webp',
         alt: 'Identisch-Modus-Was-passt-nicht-Arbeitsblatt mit drei Klonen desselben Bildes und einem abweichenden Bild pro Reihe',
         caption: 'Identisch-Modus — drei Klone desselben Bildes und ein abweichendes Bild für Finde-das-Duplikat-Herausforderungen',
       },
       {
-        src: '/samples/german/odd one out/Find the Odd One Out answer-key.webp',
+        src: '/samples/german/odd one out/Finde das Andere 1 answer-key.webp',
         alt: 'Was-passt-nicht-Lösungsschlüssel mit roten Kreisumrissen um den Ausreißer in jeder Übungsreihe mit zur Bildgröße skalierter Strichstärke',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Kreismarkierungen (Strichstärke = Maximum(Bildgröße × 0,04, 3px)) kennzeichnen den Ausreißer in jeder Reihe',
       },

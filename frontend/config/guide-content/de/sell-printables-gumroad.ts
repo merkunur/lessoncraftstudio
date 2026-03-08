@@ -196,19 +196,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Druckbare Malvorlage bereit zum Verkauf im Gumroad-Storefront' },
     samples: [
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Druckbare Malvorlage für den digitalen Produktverkauf auf Gumroad', caption: 'Malvorlagen erzeugen visuell überzeugende Produktbilder, die Social-Media-Traffic zu Ihrem Gumroad-Shop leiten' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Druckvorlage für den Gumroad-Shop-Katalog', caption: 'Wortsuchrätsel haben breite Anziehungskraft bei Eltern- und Lehrer-Publikum — ein vielseitiger Gumroad-Produkttyp' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für das Gumroad-Druckvorlagen-Geschäft', caption: 'Zuordnungsaktivitäten sind gefragte Lern-Druckvorlagen, die als Einzelprodukte und in Paketen gut funktionieren' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Druckvorlage für den Gumroad-Shop-Katalog', caption: 'Wortsuchrätsel haben breite Anziehungskraft bei Eltern- und Lehrer-Publikum — ein vielseitiger Gumroad-Produkttyp' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für das Gumroad-Druckvorlagen-Geschäft', caption: 'Zuordnungsaktivitäten sind gefragte Lern-Druckvorlagen, die als Einzelprodukte und in Paketen gut funktionieren' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen für Ihren Gumroad-Druckvorlagen-Shop erstellen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

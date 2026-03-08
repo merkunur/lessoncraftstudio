@@ -193,22 +193,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Arbeitsblatt zur Demonstration thematischer Nischeninhalte für Druckvorlagen-Geschäfte' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt zur Demonstration thematischer Nischeninhalte für Druckvorlagen-Geschäfte' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Thematisches Wortsuchrätsel zur Nischenanwendung über verschiedene Themen', caption: 'Wortsuchrätsel passen sich an jedes Nischenthema an — Tiere, Feiertage, Schulfächer und saisonale Themen funktionieren alle mit demselben Produktformat' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Thematisches Wortsuchrätsel zur Nischenanwendung über verschiedene Themen', caption: 'Wortsuchrätsel passen sich an jedes Nischenthema an — Tiere, Feiertage, Schulfächer und saisonale Themen funktionieren alle mit demselben Produktformat' },
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Malvorlage zur Demonstration visueller Nischenprodukt-Vielseitigkeit', caption: 'Malvorlagen gehören zu den vielseitigsten Nischenprodukten — sie sprechen über Altersgruppen hinweg an und lassen sich auf praktisch jedes visuelle Thema anwenden' },
       { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt zur Darstellung der Bildungsnischen-Produktvielfalt', caption: 'Zuordnungsaktivitäten funktionieren über Bildungsnischen hinweg von Vokabeln bis Mathe — ein einzelner Produkttyp, der die Nischennachfrage schnell validiert' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'So erstellen Sie Wortsuchrätsel für jedes Nischenthema',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildungsbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

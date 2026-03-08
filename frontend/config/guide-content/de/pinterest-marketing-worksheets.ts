@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Visuell beeindruckende Arbeitsblätter schaffen natürlich überzeugende Pinterest-Pin-Bilder',
       },
       {
-        src: '/samples/german/bingo/bingo_card.webp',
+        src: '/samples/german/bingo/bilder-bingo 1.webp',
         alt: 'Bingo-Karten-Arbeitsblatt demonstriert farbenfrohe Pin-würdige Produktdesigns',
         caption: 'Farbenfrohe, thematische Produkte generieren höhere Speicherungsraten und Klickraten auf Pinterest',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel zeigt vielseitigen Produkttyp für Pinterest-Marketing',
         caption: 'Vielseitige Produkttypen unterstützen mehrere Pin-Varianten für breitere Suchabdeckung',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Pinterest-Marketing-Strategie für Druckvorlagen-Arbeitsblatt-Geschäfte',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

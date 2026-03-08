@@ -196,28 +196,18 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find and count/find and count portrait.webp',
+      primary: '/samples/german/find and count/Ich sehe was 1.webp',
       primaryAlt: 'Suchbild-Arbeitsblatt mit thematischen Bildern über ein Raster verteilt für visuelles Scannen und Zählen',
     },
     sampleGallery: [
-      { src: '/samples/german/find and count/find and count portrait.webp', alt: 'Suchbild-Arbeitsblatt mit versteckten Objekten zum Finden und Zählen', caption: 'Suchen-und-Zählen-Suchbild' },
-      { src: '/samples/german/find objects/spotworks_worksheet.webp', alt: 'Suchbild-Arbeitsblatt mit überlappungsfreier Szene und visueller Legende', caption: 'Suchbilder-Arbeitsblatt' },
+      { src: '/samples/german/find and count/Ich sehe was 1.webp', alt: 'Suchbild-Arbeitsblatt mit versteckten Objekten zum Finden und Zählen', caption: 'Suchen-und-Zählen-Suchbild' },
+      { src: '/samples/german/find objects/Finde das Unpassende 1.webp', alt: 'Suchbild-Arbeitsblatt mit überlappungsfreier Szene und visueller Legende', caption: 'Suchbilder-Arbeitsblatt' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: '15x15-Kreuzworträtsel mit Bild-Hinweisen statt Textdefinitionen', caption: 'Bilderkreuzworträtsel' },
-      { src: '/samples/german/treasure hunt/Treasure Hunt 1.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5x5-Koordinatenraster und Richtungsanweisungen', caption: 'Schatzsuche-Koordinatenraster' },
+      { src: '/samples/german/treasure hunt/worksheet.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5x5-Koordinatenraster und Richtungsanweisungen', caption: 'Schatzsuche-Koordinatenraster' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Suchen-&-Finden-Paket — Alle 4 Entdecker-Generatoren in Aktion',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-    { src: '/image-library/animals/panda.webp', alt: 'Panda — thematisches Lernbild', caption: 'Panda' },
-    { src: '/image-library/animals/rabbit.webp', alt: 'Kaninchen — thematisches Lernbild', caption: 'Kaninchen' },
-  ],
 };
 
 export default content;

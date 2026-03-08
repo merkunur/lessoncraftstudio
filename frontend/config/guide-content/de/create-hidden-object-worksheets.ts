@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/find objects/spotworks_worksheet.webp', alt: 'Suchbilder-Szenen-Arbeitsblatt mit thematischen Bildern, in denen Kinder bestimmte Objekte finden sollen' },
+    heroImage: { src: '/samples/german/find objects/Finde das Unpassende 1.webp', alt: 'Suchbilder-Szenen-Arbeitsblatt mit thematischen Bildern, in denen Kinder bestimmte Objekte finden sollen' },
     samples: [
-      { src: '/samples/german/find objects/spotworks_worksheet.webp', alt: 'Ich-sehe-was-Suchbilder-Arbeitsblatt mit thematischer Szene für visuelle Suchaktivität', caption: 'Ich-sehe-was-Suchbilder-Szene mit thematischen Bildern und Ablenkerbildern für visuelle Suchübungen' },
-      { src: '/samples/german/find objects/spotworks_worksheet.webp', alt: 'Suchbilder-Arbeitsblatt-Lösungsschlüssel mit hervorgehobenen Positionen versteckter Objekte', caption: 'Automatischer Lösungsschlüssel für jedes Suchbilder-Szenen-Arbeitsblatt generiert' },
+      { src: '/samples/german/find objects/Finde das Unpassende 1.webp', alt: 'Ich-sehe-was-Suchbilder-Arbeitsblatt mit thematischer Szene für visuelle Suchaktivität', caption: 'Ich-sehe-was-Suchbilder-Szene mit thematischen Bildern und Ablenkerbildern für visuelle Suchübungen' },
+      { src: '/samples/german/find objects/Finde das Unpassende 1.webp', alt: 'Suchbilder-Arbeitsblatt-Lösungsschlüssel mit hervorgehobenen Positionen versteckter Objekte', caption: 'Automatischer Lösungsschlüssel für jedes Suchbilder-Szenen-Arbeitsblatt generiert' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Wie Sie Suchbilder-Szenen-Arbeitsblätter erstellen — Komplette Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

@@ -174,14 +174,6 @@ Um maximalen Thanksgiving-Umsatz zu erzielen, entwickeln Sie Produkte über mehr
       anchorText: 'Weihnachten-Druckvorlagen-Geschäftsideen',
     },
   ],
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-  ],
 
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Thanksgiving-Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',

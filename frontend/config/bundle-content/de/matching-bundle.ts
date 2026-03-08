@@ -204,29 +204,19 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/matching/matching portrait.webp',
+      primary: '/samples/german/matching/Paare Finden 1.webp',
       primaryAlt: 'Zuordnungs-Arbeitsblatt mit thematischen Bildern und Paar-Zuordnungsübung',
     },
     sampleGallery: [
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern', caption: 'Zuordnungs-Arbeitsblatt' },
-      { src: '/samples/german/grid match/Grid Match.webp', alt: 'Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster', caption: 'Raster-Puzzle-Arbeitsblatt' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern', caption: 'Zuordnungs-Arbeitsblatt' },
+      { src: '/samples/german/grid match/Raster-Puzzle 1.webp', alt: 'Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster', caption: 'Raster-Puzzle-Arbeitsblatt' },
       { src: '/samples/german/shadow match/shadow-match-worksheet.webp', alt: 'Schattenbilder-Arbeitsblatt mit Silhouetten-Zuordnung und Linienzieh-Format', caption: 'Schattenbilder-Arbeitsblatt' },
-      { src: '/samples/german/bingo/bingo_card.webp', alt: 'Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout', caption: 'Bingo-Karte' },
-      { src: '/samples/german/picture sort/Picture Sort.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung', caption: 'Bilder-Sortieren-Arbeitsblatt' },
+      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout', caption: 'Bingo-Karte' },
+      { src: '/samples/german/picture sort/Bilder Sortieren 1.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung', caption: 'Bilder-Sortieren-Arbeitsblatt' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnung-&-Sortierung-Paket — Alle 5 Generatoren in Aktion',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-    { src: '/image-library/animals/panda.webp', alt: 'Panda — thematisches Lernbild', caption: 'Panda' },
-    { src: '/image-library/animals/rabbit.webp', alt: 'Kaninchen — thematisches Lernbild', caption: 'Kaninchen' },
-  ],
 };
 
 export default content;

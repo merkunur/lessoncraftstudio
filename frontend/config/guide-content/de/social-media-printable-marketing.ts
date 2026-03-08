@@ -172,12 +172,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bingo_card.webp',
+      src: '/samples/german/bingo/bilder-bingo 1.webp',
       alt: 'Professionelle Bingo-Karte als Beispiel für visuell ansprechende Druckvorlagen-Produkte, ideal für Social-Media-Marketing',
     },
     samples: [
       {
-        src: '/samples/german/bingo/bingo_card.webp',
+        src: '/samples/german/bingo/bilder-bingo 1.webp',
         alt: 'Bingo-Karte als teilbares Druckvorlagen-Produkt für Social-Media-Inhalte',
         caption: 'Visuell ansprechende Produkte wie Bingo-Karten erzeugen überzeugende Social-Media-Inhalte, die Engagement generieren',
       },
@@ -187,7 +187,7 @@ const content: GuideContent = {
         caption: 'Ausmalseiten lassen sich wunderbar für Flat-Lay-Produktpräsentationen auf visuellen Plattformen fotografieren',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel als beliebter Druckvorlagen-Produkttyp mit starker Social-Media-Anziehungskraft',
         caption: 'Wortsuchrätsel ziehen breites Publikums-Engagement an und funktionieren gut über Social-Media-Plattformen hinweg',
       },
@@ -195,13 +195,6 @@ const content: GuideContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Druckvorlagen-Arbeitsblätter in sozialen Medien vermarkten',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

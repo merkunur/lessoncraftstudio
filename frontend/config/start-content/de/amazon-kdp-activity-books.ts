@@ -224,19 +224,13 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt-Beispiel für Amazon KDP Aktivitätsbuch-Veröffentlichung' },
     samples: [
       { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt für KDP-Aktivitätsbuch-Innenteil', caption: 'Sudoku — Top KDP-Rätselkategorie' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel für Amazon KDP Aktivitätsbuch', caption: 'Wortsuche — KDP-Bestseller-Kategorie' },
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel für Amazon KDP Aktivitätsbuch', caption: 'Wortsuche — KDP-Bestseller-Kategorie' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel-Arbeitsblatt für KDP-Aktivitätsbuch', caption: 'Kreuzworträtsel — Klassisches Aktivitätsbuch-Format' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sudoku-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

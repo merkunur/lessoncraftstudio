@@ -189,22 +189,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/alphabet train/Alphabet Train 1.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit 11 bunten Zug-Waggons mit Buchstaben und passenden Hinweis-Bildern zur Buchstabenerkennung' },
+    heroImage: { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit 11 bunten Zug-Waggons mit Buchstaben und passenden Hinweis-Bildern zur Buchstabenerkennung' },
     samples: [
-      { src: '/samples/german/alphabet train/Alphabet Train 1.webp', alt: 'Buntes Alphabet-Zug-Arbeitsblatt mit 11 Waggons, die Buchstaben tragen, und verstreuten Hinweis-Bildern zur Buchstaben-Bild-Zuordnung', caption: 'Alphabet-Zug-Arbeitsblatt mit 11 bunten Waggons und Buchstaben-Bild-Zuordnungshinweisen' },
-      { src: '/samples/german/alphabet train/Alphabet Train 5.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit thematischen Bildern und mehreren Zuordnungsaufgaben bei mittlerer Schwierigkeit', caption: 'Thematischer Alphabet-Zug mit konfigurierbarer Hinweisanzahl für Schwierigkeitsskalierung' },
-      { src: '/samples/german/alphabet train/Alphabet Train 10.webp', alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen für maximale Schwierigkeit und umfassende Buchstabenerkennung', caption: 'Volle 11-Hinweis-Schwierigkeitsstufe für fortgeschrittene Buchstabenerkennungsübung' },
+      { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Buntes Alphabet-Zug-Arbeitsblatt mit 11 Waggons, die Buchstaben tragen, und verstreuten Hinweis-Bildern zur Buchstaben-Bild-Zuordnung', caption: 'Alphabet-Zug-Arbeitsblatt mit 11 bunten Waggons und Buchstaben-Bild-Zuordnungshinweisen' },
+      { src: '/samples/german/alphabet train/worksheet (1).webp', alt: 'Alphabet-Zug-Arbeitsblatt mit thematischen Bildern und mehreren Zuordnungsaufgaben bei mittlerer Schwierigkeit', caption: 'Thematischer Alphabet-Zug mit konfigurierbarer Hinweisanzahl für Schwierigkeitsskalierung' },
+      { src: '/samples/german/alphabet train/worksheet (2).webp', alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen für maximale Schwierigkeit und umfassende Buchstabenerkennung', caption: 'Volle 11-Hinweis-Schwierigkeitsstufe für fortgeschrittene Buchstabenerkennungsübung' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'So erstellen Sie Alphabet-Zug-Arbeitsblätter — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

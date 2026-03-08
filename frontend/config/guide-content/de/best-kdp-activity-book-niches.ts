@@ -200,19 +200,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalseite als Beispiel für eine breit ansprechende KDP-Aktivitätsbuch-Nische für Verleger' },
     samples: [
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalbuch-Inhalt als Beispiel für eine der größten KDP-Aktivitätsbuch-Nischen', caption: 'Ausmalbücher — eine riesige KDP-Nische, die Kinder, Erwachsene und thematische Ausgaben mit starker Ganzjahresnachfrage umfasst' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel als Beispiel für thematische Unter-Nischen-Ausrichtung innerhalb der Rätselkategorie', caption: 'Thematische Wortsuche — Unter-Nischen-Ausrichtung durch Tier-, Reise- und Feiertagsthemen reduziert Wettbewerb bei gleichbleibend starker Nachfrage' },
-      { src: '/samples/german/math worksheet/Math Worksheet 1.webp', alt: 'Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Klassenstufe für KDP-Nischenstrategie', caption: 'Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Klassenstufe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel als Beispiel für thematische Unter-Nischen-Ausrichtung innerhalb der Rätselkategorie', caption: 'Thematische Wortsuche — Unter-Nischen-Ausrichtung durch Tier-, Reise- und Feiertagsthemen reduziert Wettbewerb bei gleichbleibend starker Nachfrage' },
+      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Klassenstufe für KDP-Nischenstrategie', caption: 'Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Klassenstufe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Mathe-Arbeitsblätter für KDP-Aktivitätsbücher erstellen — Tutorial zur Nischen-Inhaltserstellung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

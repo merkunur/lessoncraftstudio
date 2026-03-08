@@ -224,24 +224,14 @@ const content: BundleContent = {
     sampleGallery: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Tierbildern', caption: 'Additions-Arbeitsblatt' },
       { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktions-Arbeitsblatt mit Durchstreichen-Zählung', caption: 'Subtraktions-Arbeitsblatt' },
-      { src: '/samples/german/code addition/Code Breaker Addition 1.webp', alt: 'Bilder-Additions-Rätsel mit Buchstaben-Entschlüsselung', caption: 'Bilder-Additions-Rätsel' },
+      { src: '/samples/german/code addition/Code-Knacker Addition 1.webp', alt: 'Bilder-Additions-Rätsel mit Buchstaben-Entschlüsselung', caption: 'Bilder-Additions-Rätsel' },
       { src: '/samples/german/more less/More Less (10).webp', alt: 'Größer-als-Kleiner-als-Vergleichs-Arbeitsblatt', caption: 'Mehr-oder-Weniger-Arbeitsblatt' },
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Puzzle-Raster-Mathe-Rätsel mit Gleichungen', caption: 'Mathe-Rätsel-Arbeitsblatt' },
-      { src: '/samples/german/math worksheet/Math Worksheet 10.webp', alt: 'Visuelle Bildalgebra mit Bildvariablen', caption: 'Mathe-Arbeitsblatt-Rätsel' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Puzzle-Raster-Mathe-Rätsel mit Gleichungen', caption: 'Mathe-Rätsel-Arbeitsblatt' },
+      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Visuelle Bildalgebra mit Bildvariablen', caption: 'Mathe-Arbeitsblatt-Rätsel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Mathematik-Meister-Paket — Alle 6 Generatoren in Aktion',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-    { src: '/image-library/animals/panda.webp', alt: 'Panda — thematisches Lernbild', caption: 'Panda' },
-    { src: '/image-library/animals/rabbit.webp', alt: 'Kaninchen — thematisches Lernbild', caption: 'Kaninchen' },
-  ],
 };
 
 export default content;

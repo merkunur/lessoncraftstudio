@@ -201,18 +201,11 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tier-Thema Additions-Arbeitsblatt formatiert für KDP Mathe-Aktivitätsbuch', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben für ansprechende KDP-Aktivitätsbuch-Seiten' },
       { src: '/samples/german/subtraction/cross out.webp', alt: 'Subtraktions-Arbeitsblatt für Multi-Rechenarten KDP Mathe-Arbeitsbuch', caption: 'Subtraktions-Arbeitsblatt — ergänzt Additionsseiten für umfassende Mathe-Aktivitätsbücher auf Amazon' },
-      { src: '/samples/german/math puzzle/Math Puzzles (1).webp', alt: 'Mathe-Rätsel-Raster-Arbeitsblatt für Vielfalt in KDP-Aktivitätsbüchern', caption: 'Mathe-Rätsel-Raster — fügt ansprechende Vielfalt zu Aktivitätsbuch-Seiten jenseits standardmäßiger Arbeitsblattübungen hinzu' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Raster-Arbeitsblatt für Vielfalt in KDP-Aktivitätsbüchern', caption: 'Mathe-Rätsel-Raster — fügt ansprechende Vielfalt zu Aktivitätsbuch-Seiten jenseits standardmäßiger Arbeitsblattübungen hinzu' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Mathe-Arbeitsblätter für Amazon KDP Aktivitätsbücher erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — pädagogisches Themenbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

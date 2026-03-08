@@ -16,44 +16,87 @@ import ReadMoreText from '@/components/ReadMoreText';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
-// Static hero image mapping for product idea thumbnails
-const appHeroImages: Record<string, string> = {
-  'addition': '/samples/english/addition/Addition Fun 1.webp',
-  'image-addition': '/samples/english/addition/Addition Fun 1.webp',
-  'image-subtraction': '/samples/english/subtraction/Subtraction Fun 1.webp',
-  'subtraction': '/samples/english/subtraction/Subtraction Fun 1.webp',
-  'alphabet-train': '/samples/english/alphabet train/Alphabet Train 1.webp',
-  'big-small': '/samples/english/big small/big-small-worksheet_worksheet.webp',
-  'bingo': '/samples/english/bingo/bingo_card.webp',
-  'chart-count': '/samples/english/chart count/chart count.webp',
-  'code-addition': '/samples/english/code addition/Code Breaker Addition 1.webp',
-  'coloring': '/samples/english/coloring/coloring portrait 1.webp',
-  'crossword': '/samples/english/crossword/crossword_worksheet.webp',
-  'cryptogram': '/samples/english/cryptogram/cryptogram_worksheet.webp',
-  'draw-and-color': '/samples/english/draw and color/grid-drawing_worksheet.webp',
-  'drawing-lines': '/samples/english/drawing lines/drawing_lines_horizontal.webp',
-  'find-and-count': '/samples/english/find and count/find and count portrait.webp',
-  'find-objects': '/samples/english/find objects/spotworks_worksheet.webp',
-  'grid-match': '/samples/english/grid match/Grid Match.webp',
-  'matching': '/samples/english/matching/matching portrait.webp',
-  'math-puzzle': '/samples/english/math puzzle/Math Puzzles.webp',
-  'math-worksheet': '/samples/english/math worksheet/Math Worksheet 10.webp',
-  'missing-pieces': '/samples/english/missing pieces/Missing Pieces.webp',
-  'more-less': '/samples/english/more less/More Less (10).webp',
-  'odd-one-out': '/samples/english/odd one out/Find the Odd One Out.webp',
-  'pattern-train': '/samples/english/pattern train/pattern_train_worksheet.webp',
-  'pattern-worksheet': '/samples/english/pattern worksheet/pattern_worksheet.webp',
-  'picture-path': '/samples/english/picture path/Picture Pathway.webp',
-  'picture-sort': '/samples/english/picture sort/Picture Sort.webp',
-  'prepositions': '/samples/english/prepositions/prepositions_worksheet (1).webp',
-  'shadow-match': '/samples/english/shadow match/shadow-match-worksheet.webp',
-  'sudoku': '/samples/english/sudoku/sudoku_worksheet.webp',
-  'treasure-hunt': '/samples/english/treasure hunt/Treasure Hunt 1.webp',
-  'word-guess': '/samples/english/word guess/clue-grid_worksheet.webp',
-  'word-scramble': '/samples/english/word scramble/word scramble portrait.webp',
-  'word-search': '/samples/english/wordsearch/wordsearch portrait.webp',
-  'writing': '/samples/english/writing/writing.webp',
+// Static hero image mapping for product idea thumbnails (per locale)
+const appHeroImagesByLocale: Record<string, Record<string, string>> = {
+  en: {
+    'addition': '/samples/english/addition/Addition Fun 1.webp',
+    'image-addition': '/samples/english/addition/Addition Fun 1.webp',
+    'image-subtraction': '/samples/english/subtraction/Subtraction Fun 1.webp',
+    'subtraction': '/samples/english/subtraction/Subtraction Fun 1.webp',
+    'alphabet-train': '/samples/english/alphabet train/Alphabet Train 1.webp',
+    'big-small': '/samples/english/big small/big-small-worksheet_worksheet.webp',
+    'bingo': '/samples/english/bingo/bingo_card.webp',
+    'chart-count': '/samples/english/chart count/chart count.webp',
+    'code-addition': '/samples/english/code addition/Code Breaker Addition 1.webp',
+    'coloring': '/samples/english/coloring/coloring portrait 1.webp',
+    'crossword': '/samples/english/crossword/crossword_worksheet.webp',
+    'cryptogram': '/samples/english/cryptogram/cryptogram_worksheet.webp',
+    'draw-and-color': '/samples/english/draw and color/grid-drawing_worksheet.webp',
+    'drawing-lines': '/samples/english/drawing lines/drawing_lines_horizontal.webp',
+    'find-and-count': '/samples/english/find and count/find and count portrait.webp',
+    'find-objects': '/samples/english/find objects/spotworks_worksheet.webp',
+    'grid-match': '/samples/english/grid match/Grid Match.webp',
+    'matching': '/samples/english/matching/matching portrait.webp',
+    'math-puzzle': '/samples/english/math puzzle/Math Puzzles.webp',
+    'math-worksheet': '/samples/english/math worksheet/Math Worksheet 10.webp',
+    'missing-pieces': '/samples/english/missing pieces/Missing Pieces.webp',
+    'more-less': '/samples/english/more less/More Less (10).webp',
+    'odd-one-out': '/samples/english/odd one out/Find the Odd One Out.webp',
+    'pattern-train': '/samples/english/pattern train/pattern_train_worksheet.webp',
+    'pattern-worksheet': '/samples/english/pattern worksheet/pattern_worksheet.webp',
+    'picture-path': '/samples/english/picture path/Picture Pathway.webp',
+    'picture-sort': '/samples/english/picture sort/Picture Sort.webp',
+    'prepositions': '/samples/english/prepositions/prepositions_worksheet (1).webp',
+    'shadow-match': '/samples/english/shadow match/shadow-match-worksheet.webp',
+    'sudoku': '/samples/english/sudoku/sudoku_worksheet.webp',
+    'treasure-hunt': '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+    'word-guess': '/samples/english/word guess/clue-grid_worksheet.webp',
+    'word-scramble': '/samples/english/word scramble/word scramble portrait.webp',
+    'word-search': '/samples/english/wordsearch/wordsearch portrait.webp',
+    'writing': '/samples/english/writing/writing.webp',
+  },
+  de: {
+    'addition': '/samples/german/addition/Addition Fun 1.webp',
+    'image-addition': '/samples/german/addition/Addition Fun 1.webp',
+    'image-subtraction': '/samples/german/subtraction/Subtraction Fun 1.webp',
+    'subtraction': '/samples/german/subtraction/Subtraction Fun 1.webp',
+    'alphabet-train': '/samples/german/alphabet train/worksheet.webp',
+    'big-small': '/samples/german/big small/big-small-worksheet_worksheet.webp',
+    'bingo': '/samples/german/bingo/bilder-bingo 1.webp',
+    'chart-count': '/samples/german/chart count/Bilddiagramm 1.webp',
+    'code-addition': '/samples/german/code addition/Code-Knacker Addition 1.webp',
+    'coloring': '/samples/german/coloring/coloring portrait 1.webp',
+    'crossword': '/samples/german/crossword/crossword_worksheet.webp',
+    'cryptogram': '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp',
+    'draw-and-color': '/samples/german/draw and color/Zeichnen und Ausmale 1.webp',
+    'drawing-lines': '/samples/german/drawing lines/Linien Zeichnen \u00dcben 1.webp',
+    'find-and-count': '/samples/german/find and count/Ich sehe was 1.webp',
+    'find-objects': '/samples/german/find objects/Finde das Unpassende 1.webp',
+    'grid-match': '/samples/german/grid match/Raster-Puzzle 1.webp',
+    'matching': '/samples/german/matching/Paare Finden 1.webp',
+    'math-puzzle': '/samples/german/math puzzle/Mathe-R\u00e4tsel 1.webp',
+    'math-worksheet': '/samples/german/math worksheet/worksheet.webp',
+    'missing-pieces': '/samples/german/missing pieces/Fehlende Teile 1.webp',
+    'more-less': '/samples/german/more less/More Less (10).webp',
+    'odd-one-out': '/samples/german/odd one out/Finde das Andere 1.webp',
+    'pattern-train': '/samples/german/pattern train/Musterzug 1.webp',
+    'pattern-worksheet': '/samples/german/pattern worksheet/pattern_worksheet.webp',
+    'picture-path': '/samples/german/picture path/Bilderpfad 1.webp',
+    'picture-sort': '/samples/german/picture sort/Bilder Sortieren 1.webp',
+    'prepositions': '/samples/german/prepositions/prepositions_worksheet.webp',
+    'shadow-match': '/samples/german/shadow match/Schatten Zuordnen 1.webp',
+    'sudoku': '/samples/german/sudoku/Bilder-Sudoku 1.webp',
+    'treasure-hunt': '/samples/german/treasure hunt/worksheet.webp',
+    'word-guess': '/samples/german/word guess/clue-grid_worksheet.webp',
+    'word-scramble': '/samples/german/word scramble/Buchstabensala 1.webp',
+    'word-search': '/samples/german/wordsearch/Worter suchen 1.webp',
+    'writing': '/samples/german/writing/writing.webp',
+  },
 };
+
+function getAppHeroImage(appId: string, locale: string): string | undefined {
+  return appHeroImagesByLocale[locale]?.[appId] || appHeroImagesByLocale.en[appId];
+}
 
 export const revalidate = 3600;
 
@@ -209,10 +252,10 @@ export default async function IdeaPage({
               <div className="space-y-4">
                 {content.productIdeas.map((idea, i) => (
                   <div key={i} className="p-5 bg-white rounded-lg border border-gray-200 flex gap-4">
-                    {appHeroImages[idea.appId] && (
+                    {getAppHeroImage(idea.appId, locale) && (
                       <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden bg-gray-100">
                         <img
-                          src={appHeroImages[idea.appId]}
+                          src={getAppHeroImage(idea.appId, locale)!}
                           alt={idea.title}
                           className="w-full h-full object-cover"
                           loading="lazy"

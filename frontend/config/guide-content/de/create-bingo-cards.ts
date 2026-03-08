@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/bingo/bingo_card.webp', alt: 'Thematische Bilder-Bingo-Karten mit farbenfrohem illustriertem Raster und Kontrollkarte für Kinder' },
+    heroImage: { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Thematische Bilder-Bingo-Karten mit farbenfrohem illustriertem Raster und Kontrollkarte für Kinder' },
     samples: [
-      { src: '/samples/german/bingo/bingo_card.webp', alt: 'Bilder-Bingo-Karte mit Tier-Thema im 4×4-Rasterlayout für den Unterricht', caption: 'Eine 4×4 Bilder-Bingo-Karte mit dem Tier-Thema im Nur-Bilder-Anzeigemodus' },
-      { src: '/samples/german/bingo/bingo_card.webp', alt: 'Bingo-Kontrollkarte mit allen thematischen Bildern des Kartensets', caption: 'Kontrollreferenzkarte mit allen im Bingo-Karten-Set verwendeten Bildern' },
+      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bilder-Bingo-Karte mit Tier-Thema im 4×4-Rasterlayout für den Unterricht', caption: 'Eine 4×4 Bilder-Bingo-Karte mit dem Tier-Thema im Nur-Bilder-Anzeigemodus' },
+      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Kontrollkarte mit allen thematischen Bildern des Kartensets', caption: 'Kontrollreferenzkarte mit allen im Bingo-Karten-Set verwendeten Bildern' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'So erstellen Sie Bingo-Karten mit thematischen Bildern — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches pädagogisches Bild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches pädagogisches Bild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches pädagogisches Bild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches pädagogisches Bild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches pädagogisches Bild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

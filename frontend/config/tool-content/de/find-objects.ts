@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/find objects/spotworks_worksheet (1).webp',
+        src: '/samples/german/find objects/Finde das Unpassende 2.webp',
         alt: 'Ich-sehe-was-Suchszene mit verteilten Bildern und Legende am unteren Rand, die Suchobjekte zeigt',
         caption: 'Ich-sehe-was-Modus — Suchszene mit frei verteilten Objekten und überlappungsfreier Platzierung und Legenden-Anzeige',
       },
       {
-        src: '/samples/german/find objects/spotworks_worksheet (5).webp',
+        src: '/samples/german/find objects/Finde das Unpassende (1).webp',
         alt: 'Welches-passt-nicht-Arbeitsblatt mit gepaarten Bildern in Reihen und unpaaren Elementen, 50 Prozent größer gerendert',
         caption: 'Welches-passt-nicht-Modus — gepaarte Bilder mit unpaaren Elementen für visuelle Unterscheidungs-Aktivitäten',
       },
       {
-        src: '/samples/german/find objects/spotworks_answer_key.webp',
+        src: '/samples/german/find objects/Finde das Unpassende 1 answer_key.webp',
         alt: 'Suchbild-Lösungsschlüssel mit roten Kreisen um die Suchobjekte, 3 bis 5 Pixel größer als jedes Objekt',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Kreis-Markierungen um versteckte und unpaare Objekte zur Selbstkontrolle',
       },

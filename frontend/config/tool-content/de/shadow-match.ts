@@ -222,17 +222,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/shadow match/shadow-match-horizontal.webp',
+        src: '/samples/german/shadow match/Schatten Zuordnen 1.webp',
         alt: 'Schattenbilder-Zuordnungsblatt mit vier farbigen Bildern und vier pixelgenauen schwarzen Silhouetten mit A B C D und 1 2 3 4 Beschriftungen',
         caption: 'Schattenbild-Zuordnungsmodus — Lernende ordnen Bilder ihren automatisch generierten pixelgenauen Silhouetten zu',
       },
       {
-        src: '/samples/german/shadow match/shadow-match-vertical.webp',
+        src: '/samples/german/shadow match/Schatten Zuordnen 2.webp',
         alt: 'Bild-Vervollständigen-Arbeitsblatt mit geteilten Bildhälften, die Lernende durch Zuordnung von ersten und zweiten Hälften mit Beschriftungen A bis D und 1 bis 4 wieder zusammenfügen',
         caption: 'Modus Bild Vervollständigen — Lernende ordnen geteilte Bildhälften zu, um Bilder mit horizontalen oder vertikalen Schnitten zu vervollständigen',
       },
       {
-        src: '/samples/german/shadow match/shadow-match-horizontal answer-key.webp',
+        src: '/samples/german/shadow match/Schatten Zuordnen 1 answer-key.webp',
         alt: 'Schattenbilder-Zuordnung Lösungsschlüssel mit Originalbildern neben Silhouetten und korrekten Buchstabe-zu-Nummer-Zuordnungsbeschriftungen wie A zu 2',
         caption: 'Automatisch generierter Lösungsschlüssel — Buchstabe-zu-Nummer-Beschriftungen zeigen die korrekten Zuordnungen für beide Übungsmodi',
       },

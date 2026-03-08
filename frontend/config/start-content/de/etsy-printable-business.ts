@@ -224,19 +224,13 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator für Etsy-Verkäufer' },
     samples: [
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt für Etsy-Druckvorlagen-Shop', caption: 'Malvorlage — Etsy Top-Kategorie' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Druckvorlagen-Arbeitsblatt für Etsy-Listing', caption: 'Wortsuche — Hohes Suchvolumen' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Druckvorlagen-Arbeitsblatt für Etsy-Listing', caption: 'Wortsuche — Hohes Suchvolumen' },
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Zeitlose Mathe-Kategorie' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt für internationale Etsy-Käufer', caption: 'Zuordnung — Rein visuelle Aktivität' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt für internationale Etsy-Käufer', caption: 'Zuordnung — Rein visuelle Aktivität' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

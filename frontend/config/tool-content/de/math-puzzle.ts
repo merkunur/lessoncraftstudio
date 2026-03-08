@@ -209,22 +209,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/math puzzle/Math Puzzles.webp',
+      primary: '/samples/german/math puzzle/Mathe-Rätsel 1.webp',
       primaryAlt: 'Mathe-Rätsel-Arbeitsblatt im Jigsaw-Stil mit Bildraster, Additionsgleichungen und durcheinander geworfenen Lösungs-Puzzleteilen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/math puzzle/Math Puzzles (1).webp',
+        src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp',
         alt: 'Jigsaw-Mathe-Puzzle-Arbeitsblatt mit Additionsgleichungen in einem farbenfrohen Bildraster',
         caption: 'Additionsmodus mit thematischem Bilderpuzzle',
       },
       {
-        src: '/samples/german/math puzzle/Math Puzzles (5).webp',
+        src: '/samples/german/math puzzle/Mathe-Rätsel 3.webp',
         alt: 'Mathe-Puzzle-Arbeitsblatt mit Subtraktionsgleichungen und durcheinander geworfenen Zahlenteilen unter dem Raster',
         caption: 'Subtraktionsmodus — Gleichungen lösen und das Bild rekonstruieren',
       },
       {
-        src: '/samples/german/math puzzle/Math Puzzles (10).webp',
+        src: '/samples/german/math puzzle/Mathe-Rätsel 4.webp',
         alt: 'Gemischtes Additions- und Subtraktions-Mathe-Puzzle mit größerem Raster für fortgeschrittene Schüler',
         caption: 'Gemischte Rechenarten — Addition und Subtraktion in einem Puzzle',
       },

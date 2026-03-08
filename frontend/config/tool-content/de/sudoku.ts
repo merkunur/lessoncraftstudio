@@ -222,12 +222,12 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/german/sudoku/sudoku_easy.webp',
+        src: '/samples/german/sudoku/Bilder-Sudoku 1.webp',
         alt: 'Leichtes Bilder-Sudoku mit 4 leeren Zellen und 12 gefüllten Zellen in einem 4×4-Raster mit abwechselnden Blockfarben',
         caption: 'Leicht — 4 leere Zellen für Anfänger, die Zeilen-und-Spalten-Logik lernen',
       },
       {
-        src: '/samples/german/sudoku/sudoku_hard.webp',
+        src: '/samples/german/sudoku/Bilder-Sudoku 2.webp',
         alt: 'Schweres Bilder-Sudoku mit 8 leeren Zellen und 8 gefüllten Zellen in einem 4×4-Raster, das mehrstufiges Denken erfordert',
         caption: 'Schwer — 8 leere Zellen (die Hälfte des Rasters) für mehrstufiges logisches Denken',
       },

@@ -187,22 +187,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Arbeitsblatt mit thematischem Wortgitter geeignet für Amazon-KDP-Wortsuchbuch-Innenseiten' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt mit thematischem Wortgitter geeignet für Amazon-KDP-Wortsuchbuch-Innenseiten' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Thematisches Tier-Wortsuchrätsel formatiert für KDP-Wortsuchbuch', caption: 'Thematisches Tier-Wortsuchrätsel — thematische Wortlisten schaffen ansprechende Inhalte, die zufällige Wortsammlungen in Käuferbewertungen übertreffen' },
-      { src: '/samples/german/wordsearch/custom word list.webp', alt: 'Essen-thematisches Wortsuchrätsel für KDP-Buch', caption: 'Essen-thematische Wortsuche — thematische Abschnitte verleihen redaktionelle Struktur, die professionelle Wortsuchbücher von Amateurkompilationen unterscheidet' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Thematisches Tier-Wortsuchrätsel formatiert für KDP-Wortsuchbuch', caption: 'Thematisches Tier-Wortsuchrätsel — thematische Wortlisten schaffen ansprechende Inhalte, die zufällige Wortsammlungen in Käuferbewertungen übertreffen' },
+      { src: '/samples/german/wordsearch/answer_key.webp', alt: 'Essen-thematisches Wortsuchrätsel für KDP-Buch', caption: 'Essen-thematische Wortsuche — thematische Abschnitte verleihen redaktionelle Struktur, die professionelle Wortsuchbücher von Amateurkompilationen unterscheidet' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Begleit-Rätseltyp für KDP-Rätselkatalog', caption: 'Kreuzworträtsel — Begleit-Rätseltyp für Katalogdiversifizierung und Cross-Promotion mit Wortsuchtiteln' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuchrätsel für Amazon-KDP-Bücher erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

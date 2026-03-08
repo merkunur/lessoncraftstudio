@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/chart count/chart count.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen' },
+    heroImage: { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen' },
     samples: [
-      { src: '/samples/german/chart count/chart count.webp', alt: 'Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter', caption: 'Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Schüler-Zählübungen' },
-      { src: '/samples/german/chart count/chart count answer_key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen', caption: 'Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen' },
+      { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter', caption: 'Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Schüler-Zählübungen' },
+      { src: '/samples/german/chart count/answer_key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen', caption: 'Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'So erstellen Sie Zähl- und Diagramm-Arbeitsblätter — Vollständiges Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildungsbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

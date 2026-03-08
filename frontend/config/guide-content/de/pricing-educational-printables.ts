@@ -196,19 +196,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Professionelles Additions-Arbeitsblatt, das die Qualität zeigt, die Premium-Preisstrategien unterstützt' },
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern für Premium-Preisgestaltung', caption: 'Professionelle Formatierung und thematische Bilder rechtfertigen höhere Preispunkte — Käufer zahlen mehr für Qualität und visuelle Anziehungskraft' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuch-Rätsel, das Feature-Differenzierung für Preisgestaltung demonstriert', caption: 'Wortsuch-Rätsel mit thematischen Bildern erzielen höhere Preise als einfache Nur-Text-Versionen auf allen Plattformen' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuch-Rätsel, das Feature-Differenzierung für Preisgestaltung demonstriert', caption: 'Wortsuch-Rätsel mit thematischen Bildern erzielen höhere Preise als einfache Nur-Text-Versionen auf allen Plattformen' },
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Malvorlage, die Qualität zeigt, die wettbewerbsfähige Preisgestaltung unterstützt', caption: 'Hochwertige Malvorlagen zeigen, wie Produktqualität direkt Premium-Preise in wettbewerbsintensiven Kategorien ermöglicht' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'So erstellen Sie Mathe-Arbeitsblätter schnell — Effiziente Produktion für bessere Gewinnmargen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

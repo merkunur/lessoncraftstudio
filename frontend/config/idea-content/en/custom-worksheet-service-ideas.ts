@@ -168,14 +168,6 @@ The custom service model works alongside a pre-made product catalog rather than 
       anchorText: 'Printable Party Supply Business Ideas',
     },
   ],
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Cat - themed educational image', caption: 'Cat' },
-    { src: '/image-library/animals/dog.webp', alt: 'Dog - themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elephant - themed educational image', caption: 'Elephant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fox - themed educational image', caption: 'Fox' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe - themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala - themed educational image', caption: 'Koala' },
-  ],
 
   youtubeId: '6O5aCzHkh8M',
   videoTitle: 'Custom Worksheet Service Business Ideas for Sellers — Product Demo',

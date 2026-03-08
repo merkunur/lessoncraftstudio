@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/draw and color/grid-drawing_worksheet (5).webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt' },
+    heroImage: { src: '/samples/german/draw and color/Zeichnen und Ausmale 3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt' },
     samples: [
-      { src: '/samples/german/draw and color/grid-drawing_worksheet (5).webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion', caption: 'Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen' },
-      { src: '/samples/german/draw and color/grid-drawing_worksheet (1).webp', alt: 'Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz', caption: 'Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Schüler reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus' },
+      { src: '/samples/german/draw and color/Zeichnen und Ausmale 3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion', caption: 'Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen' },
+      { src: '/samples/german/draw and color/Zeichnen und Ausmale 2.webp', alt: 'Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz', caption: 'Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Schüler reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'So erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

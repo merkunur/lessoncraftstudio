@@ -180,14 +180,6 @@ Preisanalysen zeigen, dass Waldtier-Druckvorlagen-Produkte einen leichten Preisa
       anchorText: 'Insekten-Druckvorlagen: Geschäftsideen',
     },
   ],
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — pädagogisches Themenbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — pädagogisches Themenbild', caption: 'Koala' },
-  ],
 
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Waldtier-Druckvorlagen: Geschäftsideen für Verkäufer — Produktdemo',

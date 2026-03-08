@@ -189,22 +189,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel mit thematischem Vokabular-Gitter, das versteckte Wörter zum Verkauf auf Etsy zeigt' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel mit thematischem Vokabular-Gitter, das versteckte Wörter zum Verkauf auf Etsy zeigt' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Tier-thematisches Wortsuche-Rätsel, erstellt für Etsy digitalen Download', caption: 'Wortsuche-Rätsel mit Tier-Vokabular-Thema — gitterbasiertes Format, das auffällige Etsy-Angebotsfotos erzeugt' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Tier-thematisches Wortsuche-Rätsel, erstellt für Etsy digitalen Download', caption: 'Wortsuche-Rätsel mit Tier-Vokabular-Thema — gitterbasiertes Format, das auffällige Etsy-Angebotsfotos erzeugt' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Ergänzung zu Wortsuche-Produkten in einem Etsy-Rätsel-Shop', caption: 'Kreuzworträtsel — natürlicher Cross-Sell-Begleiter zu Wortsuche-Angeboten in Ihrem Etsy-Shop' },
-      { src: '/samples/german/word scramble/Word Scramble 1.webp', alt: 'Buchstabensalat-Rätsel, das ein ergänzendes Format für Etsy-Rätselbündel zeigt', caption: 'Buchstabensalat-Rätsel — schnelle Vokabelaktivität, die Multi-Format-Bündeln Vielfalt hinzufügt' },
+      { src: '/samples/german/word scramble/Buchstabensala 2.webp', alt: 'Buchstabensalat-Rätsel, das ein ergänzendes Format für Etsy-Rätselbündel zeigt', caption: 'Buchstabensalat-Rätsel — schnelle Vokabelaktivität, die Multi-Format-Bündeln Vielfalt hinzufügt' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel zum Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

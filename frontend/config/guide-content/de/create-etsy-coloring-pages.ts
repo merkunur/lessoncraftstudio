@@ -188,13 +188,6 @@ const content: GuideContent = {
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen für den Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches pädagogisches Bild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches pädagogisches Bild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches pädagogisches Bild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches pädagogisches Bild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches pädagogisches Bild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bingo_card.webp',
+      src: '/samples/german/bingo/bilder-bingo 1.webp',
       alt: 'Bingokarten-Arbeitsblatt als Beispiel für ein saisonales Druckvorlagen-Produkt für Feiertags-Marketingkampagnen',
     },
     samples: [
       {
-        src: '/samples/german/bingo/bingo_card.webp',
+        src: '/samples/german/bingo/bilder-bingo 1.webp',
         alt: 'Bingokarte als saisonales Druckvorlagen-Produkt für Feiertagsveranstaltungen und Feiern',
         caption: 'Bingokarten passen sich an jedes saisonale Thema an und sind damit ideale Produkte für ganzjähriges saisonales Marketing',
       },
@@ -190,7 +190,7 @@ const content: GuideContent = {
         caption: 'Saisonale Malvorlagen sind konstante Top-Verkäufer während der Feiertags-Nachfragespitzen auf allen Druckvorlagen-Marktplätzen',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel als saisonale Vokabel-Druckvorlage für Feiertags-Marketing',
         caption: 'Thematische Wortsuchaufgaben verbinden saisonale Attraktivität mit pädagogischem Wert für starke saisonale Marktplatzleistung',
       },
@@ -198,13 +198,6 @@ const content: GuideContent = {
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Saisonales Marketing für Ihr Druckvorlagen-Geschäft planen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

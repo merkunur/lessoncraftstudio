@@ -221,26 +221,16 @@ const content: BundleContent = {
     },
     sampleGallery: [
       { src: '/samples/german/big small/big-small-worksheet_worksheet.webp', alt: 'Größenvergleichs-Arbeitsblatt mit thematischen Bildern zum Einkreisen des Größten und Kleinsten', caption: 'Groß-&-Klein-Arbeitsblatt' },
-      { src: '/samples/german/pattern train/pattern_train_worksheet.webp', alt: 'Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement', caption: 'Muster-Zug-Arbeitsblatt' },
+      { src: '/samples/german/pattern train/Musterzug 1.webp', alt: 'Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement', caption: 'Muster-Zug-Arbeitsblatt' },
       { src: '/samples/german/pattern worksheet/pattern_worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit Lückentext-Folgen', caption: 'Muster-Arbeitsblatt' },
-      { src: '/samples/german/draw and color/grid-drawing_worksheet.webp', alt: 'Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion', caption: 'Rasterzeichnen-Arbeitsblatt' },
-      { src: '/samples/german/drawing lines/drawing_lines_horizontal.webp', alt: 'Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien', caption: 'Linien-Ziehen-Arbeitsblatt' },
+      { src: '/samples/german/draw and color/Zeichnen und Ausmale 1.webp', alt: 'Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion', caption: 'Rasterzeichnen-Arbeitsblatt' },
+      { src: '/samples/german/drawing lines/Linien Zeichnen Üben 1.webp', alt: 'Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien', caption: 'Linien-Ziehen-Arbeitsblatt' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage mit Schwarz-Weiß-Umriss aus thematischem Bild konvertiert', caption: 'Malvorlage' },
-      { src: '/samples/german/chart count/chart count.webp', alt: 'Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten', caption: 'Bilddiagramm-Arbeitsblatt' },
+      { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: 'Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten', caption: 'Bilddiagramm-Arbeitsblatt' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuelles-Lernen-Paket — Alle 7 Generatoren in Aktion',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-    { src: '/image-library/animals/panda.webp', alt: 'Panda — thematisches Lernbild', caption: 'Panda' },
-    { src: '/image-library/animals/rabbit.webp', alt: 'Kaninchen — thematisches Lernbild', caption: 'Kaninchen' },
-  ],
 };
 
 export default content;

@@ -192,22 +192,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch landscape.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt als mehrsprachiges pädagogisches Druckvorlagen-Produkt für Etsy SEO Optimierung' },
+    heroImage: { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt als mehrsprachiges pädagogisches Druckvorlagen-Produkt für Etsy SEO Optimierung' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung', caption: 'Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung', caption: 'Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab' },
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tierthematisches Additions-Arbeitsblatt für volumenreiche Etsy-Mathe-Druckvorlagen-Keywords', caption: 'Additions-Arbeitsblatt mit Tierthema — zielt auf volumenreiche Mathe-Druckvorlagen-Keywords auf Etsy ab' },
       { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Tier-Malvorlage zur Demonstration themengesteuerter Etsy-Keyword-Strategie für Druckvorlagen-Verkäufer', caption: 'Malvorlage mit Tierthema — themenspezifische Keywords bringen gezielten Etsy-Suchtraffic' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter für Etsy SEO erstellen — Multi-Keyword-Produktstrategie',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

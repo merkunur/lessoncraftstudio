@@ -221,19 +221,13 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungs-Arbeitsblatt als Beispiel für kommerziell lizenzierbare pädagogische Inhalte für Druckvorlagen-Verkäufer' },
     samples: [
       { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungs-Arbeitsblatt mit kommerziell lizenzierbarem pädagogischem Inhalt', caption: 'Schreibübungen — Kommerziell lizenzierbare pädagogische Inhalte' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen', caption: 'Wortsuche — Beliebtester kommerzieller Rätseltyp' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen', caption: 'Wortsuche — Beliebtester kommerzieller Rätseltyp' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Beispiel für mehrsprachige kommerzielle Produktfähigkeit', caption: 'Kreuzworträtsel — Mehrsprachige kommerzielle Produkte' },
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung', caption: 'Mathe — Zeitlose kommerzielle Produktgenerierung' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung', caption: 'Mathe — Zeitlose kommerzielle Produktgenerierung' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schreibübungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches pädagogisches Bild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches pädagogisches Bild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches pädagogisches Bild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches pädagogisches Bild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

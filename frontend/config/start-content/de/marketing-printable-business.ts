@@ -222,22 +222,16 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/bingo/bingo_card.webp', alt: 'Bingo-Karte Arbeitsblatt das hochgradig teilbares Druckvorlagen-Produktdesign demonstriert' },
+    heroImage: { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte Arbeitsblatt das hochgradig teilbares Druckvorlagen-Produktdesign demonstriert' },
     samples: [
-      { src: '/samples/german/bingo/bingo_card.webp', alt: 'Bingo-Karte zeigt ereignisgesteuertes Marketing-Potenzial für Partys und Klassenzimmer', caption: 'Bingo — Hochgradig teilbar für Veranstaltungen und Feiertage' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel demonstriert starkes Marktplatz-SEO-Potenzial', caption: 'Wortsuche — Meistgesuchter Rätseltyp' },
+      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte zeigt ereignisgesteuertes Marketing-Potenzial für Partys und Klassenzimmer', caption: 'Bingo — Hochgradig teilbar für Veranstaltungen und Feiertage' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel demonstriert starkes Marktplatz-SEO-Potenzial', caption: 'Wortsuche — Meistgesuchter Rätseltyp' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage zeigt visuelle Anziehungskraft für Pinterest-Marketing', caption: 'Malvorlagen — Pinterest-fertige visuelle Inhalte' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt zeigt thematische saisonale Marketing-Vielseitigkeit', caption: 'Zuordnung — Vielseitiges saisonales Marketing' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt zeigt thematische saisonale Marketing-Vielseitigkeit', caption: 'Zuordnung — Vielseitiges saisonales Marketing' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Bingo-Karten für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

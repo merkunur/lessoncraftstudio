@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Ausmalbilder sind Bestseller in digitalen Download- und Print-on-Demand-Buchformaten',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wörtersuche-Rätsel als Produkt ideal für hybrides digitales und physisches Verkaufsmodell',
         caption: 'Wörtersuchen verkaufen sich einzeln als digitale Downloads und zusammengestellt in physischen Rätselbüchern',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'So erstellen Sie digitale und physische Druckprodukte',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — pädagogisches Themenbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/wordsearch portrait.webp',
+      src: '/samples/german/wordsearch/Worter suchen 1.webp',
       alt: 'Wortsuchrätsel-Arbeitsblatt mit professionellen Qualitätsstandards, sauberem Layout und präziser Formatierung',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel mit professioneller druckfertiger Formatierung und präziser Rasterausrichtung',
         caption: 'Professionelle Wortsuchrätsel-Ausgabe demonstriert sauberes Layout, lesbare Typografie und präzise Rasterausrichtung',
       },
@@ -198,13 +198,6 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'So halten Sie Qualitätsstandards für druckbare Arbeitsblätter ein',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — pädagogisches Themenbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

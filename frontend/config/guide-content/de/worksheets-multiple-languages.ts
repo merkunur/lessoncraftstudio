@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/wordsearch portrait.webp',
+      src: '/samples/german/wordsearch/Worter suchen 1.webp',
       alt: 'Wortsuche-Arbeitsblatt als Demonstration mehrsprachiger Inhaltsgenerierung mit korrekter Zeichenbehandlung',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuchrätsel mit vokabelbasiertem Inhalt, der korrekte mehrsprachige Zeichenunterstützung erfordert',
         caption: 'Wortsuchrätsel-Arbeitsblätter demonstrieren die Bedeutung korrekter Zeichenbehandlung über Sprachen hinweg',
       },
       {
-        src: '/samples/german/alphabet train/Alphabet Train 1.webp',
+        src: '/samples/german/alphabet train/worksheet.webp',
         alt: 'Alphabet-Zug Arbeitsblatt mit sprachspezifischer Buchstaben- und Zeichengenerierung',
         caption: 'Alphabet-Arbeitsblätter erfordern sprachspezifische Zeichen einschließlich Umlauten und akzentuierten Buchstaben',
       },
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Zuordnungs-Arbeitsblatt mit mehrsprachiger Produktion aus visuellen und Textelementen',
         caption: 'Zuordnungsarbeitsblätter kombinieren visuelle Elemente mit sprachspezifischem Vokabular für internationale Märkte',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Mehrsprachige Alphabet-Arbeitsblätter erstellen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

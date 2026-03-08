@@ -196,19 +196,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Professionelles Additions-Arbeitsblatt, das die Produktqualität demonstriert, die skalierbares Druckvorlagen-Geschäftswachstum unterstützt' },
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen Bildern, das Produktvielfalt für Katalogskalierung zeigt', caption: 'Thematische Arbeitsblattvarianten demonstrieren, wie ein Produktkonzept in mehrere Listings über Themen, Klassenstufen und Sprachen skaliert' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel, das mehrsprachiges Skalierungspotenzial zeigt', caption: 'Wortsuche-Rätsel in 11 Sprachen erstellt vervielfachen Ihren Katalog, ohne den kreativen Aufwand zu vervielfachen — das gleiche Konzept erreicht internationale Märkte' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt, das systematische Katalogerweiterung durch Themenvariationen demonstriert', caption: 'Zuordnungs-Arbeitsblätter über Themen hinweg zeigen systematische Produktlinienerweiterung — jedes neue Thema fügt Produkte mit bewährten Formaten und bestehenden Bild-Assets hinzu' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel, das mehrsprachiges Skalierungspotenzial zeigt', caption: 'Wortsuche-Rätsel in 11 Sprachen erstellt vervielfachen Ihren Katalog, ohne den kreativen Aufwand zu vervielfachen — das gleiche Konzept erreicht internationale Märkte' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt, das systematische Katalogerweiterung durch Themenvariationen demonstriert', caption: 'Zuordnungs-Arbeitsblätter über Themen hinweg zeigen systematische Produktlinienerweiterung — jedes neue Thema fügt Produkte mit bewährten Formaten und bestehenden Bild-Assets hinzu' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Malvorlagen erstellen mit dem Mal- und Zeichengenerator — Kreative Bandbreite für Katalogskalierung demonstriert',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

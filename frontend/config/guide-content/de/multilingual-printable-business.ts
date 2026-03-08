@@ -176,17 +176,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/wordsearch portrait.webp',
+      src: '/samples/german/wordsearch/Worter suchen 1.webp',
       alt: 'Wortsuche-Arbeitsblatt zeigt das Potenzial eines mehrsprachigen Druckvorlagen-Geschäfts auf internationalen Märkten',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt Mehrsprachigkeitsfähigkeit für internationalen Druckvorlagen-Verkauf',
         caption: 'Wortsuche-Arbeitsblätter können in 11 Sprachen generiert werden — ideal für mehrsprachige Expansion',
       },
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Zuordnungs-Arbeitsblatt mit visuellen Themen, die über Sprachmärkte hinweg funktionieren',
         caption: 'Visuelle Zuordnungs-Arbeitsblätter verwenden Bilder, die sich universell über Sprachen übertragen',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wie Sie mehrsprachige Wortsuche-Arbeitsblätter für internationale Märkte erstellen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

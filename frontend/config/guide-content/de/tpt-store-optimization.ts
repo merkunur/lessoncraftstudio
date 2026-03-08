@@ -193,22 +193,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Arbeitsblatt optimiert für Teachers Pay Teachers Shop-Sichtbarkeit und Verkäufe' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt optimiert für Teachers Pay Teachers Shop-Sichtbarkeit und Verkäufe' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel optimiert für TPT-Shop-Katalogwachstum', caption: 'Wortsuche-Rätsel gehören zu den vielseitigsten TPT-Materialien — erstellen Sie thematische saisonale Variationen für schnelle Katalogexpansion' },
-      { src: '/samples/german/math puzzle/Math Puzzles (5).webp', alt: 'Mathe-Rätsel-Arbeitsblatt für TPT-Shop-Differenzierung', caption: 'Einzigartige Mathe-Rätsel-Formate haben weniger Wettbewerb auf TPT als Standard-Arbeitsblätter — eine Differenzierungsstrategie für überfüllte Kategorien' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel optimiert für TPT-Shop-Katalogwachstum', caption: 'Wortsuche-Rätsel gehören zu den vielseitigsten TPT-Materialien — erstellen Sie thematische saisonale Variationen für schnelle Katalogexpansion' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 3.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für TPT-Shop-Differenzierung', caption: 'Einzigartige Mathe-Rätsel-Formate haben weniger Wettbewerb auf TPT als Standard-Arbeitsblätter — eine Differenzierungsstrategie für überfüllte Kategorien' },
       { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel-Aktivität für TPT-Vokabel-Materialien', caption: 'Kreuzworträtsel sind stark nachgefragte Vokabelaktivitäten, die Lehrkräfte nach Fach und Klassenstufe auf TPT suchen' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel für Ihren TPT-Shop erstellen — Optimierungs-Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

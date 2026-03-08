@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Mathe-Arbeitsblätter generieren konsistenten ganzjährigen Umsatz als immergrüne Bildungsprodukte',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuche-Rätsel in mehreren Sprachen verfügbar für erweiterte Marktreichweite',
         caption: 'Mehrsprachige Wortsuchen multiplizieren den Umsatz durch Erreichen unterversorgter internationaler Märkte',
       },
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Thematisches Zuordnungs-Arbeitsblatt als Beispiel für Katalogtiefe durch Themenvielseitigkeit',
         caption: 'Thematische Zuordnungsaktivitäten bauen Katalogtiefe auf, die zusammensetzende Auffindbarkeit antreibt',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '-JIawojGNr0',
     videoTitle: 'So erstellen Sie Mathe-Arbeitsblätter für wiederkehrenden Umsatz',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildungsbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

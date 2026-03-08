@@ -197,22 +197,15 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math worksheet/Math Worksheet 10.webp', alt: 'Mathe-Arbeitsblatt mit Rasterlayout und Abständen, formatiert für Amazon KDP Druckspezifikationen' },
+    heroImage: { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt mit Rasterlayout und Abständen, formatiert für Amazon KDP Druckspezifikationen' },
     samples: [
-      { src: '/samples/german/math worksheet/Math Worksheet 1.webp', alt: 'Mathe-Arbeitsblatt mit präzisen Rasterabständen zur Demonstration von KDP-Rand- und Layoutanforderungen', caption: 'Mathe-Arbeitsblatt-Layout — rasterbasierte Formatierung mit ausreichender Zelldimensionierung für komfortables Schreiben innerhalb der KDP-Randspezifikationen' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Gitter mit Buchstabenabstand, formatiert für KDP-Druck', caption: 'Wortsuchgitter — konsistenter Buchstabenabstand bei 0,3-Zoll-Zellen gewährleistet komfortables Einkreisen und Lesbarkeit in gedruckten KDP-Büchern' },
+      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt mit präzisen Rasterabständen zur Demonstration von KDP-Rand- und Layoutanforderungen', caption: 'Mathe-Arbeitsblatt-Layout — rasterbasierte Formatierung mit ausreichender Zelldimensionierung für komfortables Schreiben innerhalb der KDP-Randspezifikationen' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Gitter mit Buchstabenabstand, formatiert für KDP-Druck', caption: 'Wortsuchgitter — konsistenter Buchstabenabstand bei 0,3-Zoll-Zellen gewährleistet komfortables Einkreisen und Lesbarkeit in gedruckten KDP-Büchern' },
       { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Additions-Arbeitsblatt mit sauberem einseitigem KDP-Layout', caption: 'Additions-Arbeitsblatt — sauberes Einzelrechenart-Layout mit klaren Antwortfeldern, das professionelle KDP-Innenteil-Formatierung demonstriert' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Druckfertige Mathe-Arbeitsblätter für Amazon KDP erstellen — Formatierungs-Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

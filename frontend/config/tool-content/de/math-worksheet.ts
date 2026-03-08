@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/math worksheet/Math Worksheet 10.webp',
+      primary: '/samples/german/math worksheet/worksheet.webp',
       primaryAlt: 'Algebra-Bilderrätsel-Arbeitsblatt mit Bildsymbolen als unbekannte Variablen in verknüpften Gleichungen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/math worksheet/Math Worksheet 1.webp',
+        src: '/samples/german/math worksheet/worksheet.webp',
         alt: 'Visuelles Algebra-Rätsel mit zwei Bildsymbolen und Additionsgleichungen für Einsteiger',
         caption: 'Sehr Leicht — zwei Symbole mit einfacher Addition',
       },
       {
-        src: '/samples/german/math worksheet/Math Worksheet 5.webp',
+        src: '/samples/german/math worksheet/answer_key.webp',
         alt: 'Algebra-Bilderrätsel mittlerer Schwierigkeit mit drei Bildvariablen in verknüpften Gleichungen',
         caption: 'Mittlere Schwierigkeit — drei Unbekannte in verknüpften Gleichungen',
       },
       {
-        src: '/samples/german/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/german/math worksheet/worksheet.webp',
         alt: 'Schweres Algebra-Rätsel-Arbeitsblatt mit vier simultanen Unbekannten und gemischten Rechenarten',
         caption: 'Schwer — vier Variablen mit Addition und Subtraktion',
       },

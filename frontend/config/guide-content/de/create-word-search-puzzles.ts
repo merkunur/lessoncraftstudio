@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel mit thematischen Bildhinweisen, die Vokabelwörter in einem Buchstabengitter zeigen' },
+    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel mit thematischen Bildhinweisen, die Vokabelwörter in einem Buchstabengitter zeigen' },
     samples: [
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel mit Tierthema-Bildhinweisen für Kinder', caption: 'Thematisches Wortsuchrätsel im Vokabelmodus mit Tier-Bildhinweisen und konfigurierbarer Rastergröße' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Lösungsschlüssel mit farbcodierter Worthervorhebung', caption: 'Farbcodierter Lösungsschlüssel, bei dem jedes versteckte Wort in einer eigenen Farbe hervorgehoben wird' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel mit Tierthema-Bildhinweisen für Kinder', caption: 'Thematisches Wortsuchrätsel im Vokabelmodus mit Tier-Bildhinweisen und konfigurierbarer Rastergröße' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Lösungsschlüssel mit farbcodierter Worthervorhebung', caption: 'Farbcodierter Lösungsschlüssel, bei dem jedes versteckte Wort in einer eigenen Farbe hervorgehoben wird' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuchrätsel erstellen — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildmotiv', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildmotiv', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildmotiv', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildmotiv', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildmotiv', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

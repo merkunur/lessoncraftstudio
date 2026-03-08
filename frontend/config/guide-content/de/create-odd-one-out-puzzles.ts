@@ -189,21 +189,14 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/odd one out/Find the Odd One Out (1).webp', alt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header' },
+    heroImage: { src: '/samples/german/odd one out/Finde das Andere 2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header' },
     samples: [
-      { src: '/samples/german/odd one out/Find the Odd One Out (1).webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header', caption: 'Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout' },
-      { src: '/samples/german/odd one out/Find the Odd One Out answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe', caption: 'Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe' },
+      { src: '/samples/german/odd one out/Finde das Andere 2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header', caption: 'Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout' },
+      { src: '/samples/german/odd one out/Finde das Andere 1 answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe', caption: 'Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'So erstellen Sie Was-passt-nicht-Rätsel — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

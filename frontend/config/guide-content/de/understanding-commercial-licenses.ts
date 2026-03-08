@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/wordsearch portrait.webp',
+      src: '/samples/german/wordsearch/Worter suchen 1.webp',
       alt: 'Professionelles Wortsuche-Arbeitsblatt als Beispiel für kommerziell lizenzierte Druckvorlagen-Ausgabe',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuche-Rätsel erstellt mit kommerzieller Lizenz für plattformübergreifenden Verkauf',
         caption: 'Unter kommerzieller Lizenz erstellte Wortsuchrätsel können auf jeder Plattform verkauft werden',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: '36keBFzJbPo',
     videoTitle: 'So erstellen Sie Wortsuche-Rätsel mit kommerzieller Lizenzierung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

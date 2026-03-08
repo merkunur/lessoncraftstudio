@@ -194,19 +194,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Pädagogisches druckbares Arbeitsblatt zur Demonstration der Preisstrategie auf Etsy' },
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt als Einstiegs-Preisprodukt für Etsy', caption: 'Additions-Arbeitsblatt mit Tierthema — ein typisches Einstiegsprodukt zu $3,99 für ein 10-Seiten-Paket' },
-      { src: '/samples/german/wordsearch/wordsearch landscape.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zur Demonstration der Premium-Preisgestaltung für sprachspezifische Produkte', caption: 'Wortsuche-Rätsel — Sprachversionen erzielen Premium-Preise mit weniger Wettbewerb in nicht-englischen Märkten' },
+      { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zur Demonstration der Premium-Preisgestaltung für sprachspezifische Produkte', caption: 'Wortsuche-Rätsel — Sprachversionen erzielen Premium-Preise mit weniger Wettbewerb in nicht-englischen Märkten' },
       { src: '/samples/german/sudoku/sudoku hard.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt zur Veranschaulichung der schwierigkeitsbasierten Preisstrategie', caption: 'Sudoku-Rätsel — schwierigkeitsbasierte Staffelung unterstützt progressive Preisgestaltung innerhalb einer einzelnen Produktkategorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Druckbare Arbeitsblätter für den Etsy-Verkauf erstellen — Produktwert und Preisgestaltung verstehen',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — pädagogisches Themenbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — pädagogisches Themenbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — pädagogisches Themenbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — pädagogisches Themenbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — pädagogisches Themenbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

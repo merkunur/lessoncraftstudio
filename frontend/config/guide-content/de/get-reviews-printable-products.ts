@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/matching portrait.webp',
+      src: '/samples/german/matching/Paare Finden 1.webp',
       alt: 'Professionelles Zuordnungsarbeitsblatt, das die Produktqualität demonstriert, die positive Käuferbewertungen verdient',
     },
     samples: [
       {
-        src: '/samples/german/matching/matching portrait.webp',
+        src: '/samples/german/matching/Paare Finden 1.webp',
         alt: 'Zuordnungsarbeitsblatt, das visuelle Qualität zeigt, die positive Käuferbewertungen antreibt',
         caption: 'Hochwertige Zuordnungsarbeitsblätter verdienen natürlich positive Bewertungen durch visuelle Attraktivität und pädagogischen Wert',
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Professionelle Malvorlagen generieren Bewertungen, weil Käufer die Designqualität sofort sehen und schätzen können',
       },
       {
-        src: '/samples/german/wordsearch/wordsearch portrait.webp',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wörtersuchrätsel, das das beliebte Produktformat zeigt, das hohes Bewertungsvolumen generiert',
         caption: 'Wörtersuchrätsel generieren hohes Verkaufsvolumen und konsistente positive Bewertungsraten über Altersgruppen hinweg',
       },
@@ -199,13 +199,6 @@ const content: GuideContent = {
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'So erhalten Sie Bewertungen für Ihre Druckvorlagen-Produkte',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

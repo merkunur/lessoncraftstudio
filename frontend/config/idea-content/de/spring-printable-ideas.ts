@@ -172,14 +172,6 @@ Um den Frühlingsumsatz zu maximieren, beginnen Sie mit der Veröffentlichung Ih
       anchorText: 'Winter Druckvorlagen-Geschäftsideen',
     },
   ],
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Bildungsbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Bildungsbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Bildungsbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Bildungsbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Bildungsbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Bildungsbild', caption: 'Koala' },
-  ],
 
   youtubeId: '0cOPi7eajLs',
   videoTitle: 'Frühling Druckvorlagen-Geschäftsideen für Verkäufer — Produktdemo',

@@ -194,20 +194,13 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt mit thematischem Bildraster, geeignet für Amazon KDP Sudoku-Buch-Innenseiten' },
     samples: [
-      { src: '/samples/german/sudoku/sudoku_easy.webp', alt: 'Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch', caption: 'Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben' },
+      { src: '/samples/german/sudoku/Bilder-Sudoku 1.webp', alt: 'Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch', caption: 'Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben' },
       { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt für KDP-Buchinnenseiten', caption: 'Bilder-Sudoku-Arbeitsblatt — 4×4-Raster mit klaren Bildern und großzügiger Zellengröße für bequemes Lösen durch kleine Kinder' },
-      { src: '/samples/german/math puzzle/Math Puzzles (1).webp', alt: 'Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog', caption: 'Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog', caption: 'Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Bilder-Sudoku-Rätsel für Amazon KDP-Bücher erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

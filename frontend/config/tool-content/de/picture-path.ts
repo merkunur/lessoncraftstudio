@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/picture path/Picture Pathway.webp',
+      primary: '/samples/german/picture path/Bilderpfad 1.webp',
       primaryAlt: 'Bilderpfad-Labyrinth-Arbeitsblatt mit thematischen Bildern in einem Raster mit orangefarbenem Header-Rahmen und automatisch generiertem Bilderpfad-Header mit lokalisiertem Titeltext',
     },
     sampleGallery: [
       {
-        src: '/samples/german/picture path/Picture Pathway (1).webp',
+        src: '/samples/german/picture path/Bilderpfad 2.webp',
         alt: 'Bilderpfad-Modus-Arbeitsblatt mit Bildern in einem Raster, das den korrekten Pfad vom Start zum Ziel unter Ablenkungsbildern zeigt',
         caption: 'Bilderpfad-Modus — Schüler folgen dem korrekten Bildpfad vom Start zum Ziel unter Ablenkungsbildern',
       },
       {
-        src: '/samples/german/picture path/Picture Pathway (5).webp',
+        src: '/samples/german/picture path/Bilderpfad 3.webp',
         alt: 'Klassisches-Labyrinth-Modus-Arbeitsblatt mit LPF-Algorithmus-wandbasierten Korridoren und Sammelobjekt-Bildern im Labyrinth',
         caption: 'Klassisches Labyrinth — LPF-Algorithmus generiert wandbasierte Labyrinthe mit Sammelobjekt-Bildern in Korridoren',
       },
       {
-        src: '/samples/german/picture path/Picture Pathway answer_key.webp',
+        src: '/samples/german/picture path/Bilderpfad 1 answer_key (1).webp',
         alt: 'Bilderpfad-Labyrinth-Lösungsschlüssel mit Lösungspfad durch rosa Kreise entlang der korrekten Route und Sammelobjekt-Legende hervorgehoben',
         caption: 'Automatisch generierter Lösungsschlüssel — rosa Kreise heben den Lösungspfad hervor mit Sammelobjekt-Legende',
       },

@@ -193,18 +193,11 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt, erstellt für Etsy digitalen Download', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben, die auffällige Etsy-Angebotsfotos erzeugen' },
       { src: '/samples/german/subtraction/cross out.webp', alt: 'Subtraktions-Arbeitsblatt als Ergänzung zu Additions-Produkten in einem Etsy-Mathe-Arbeitsblatt-Shop', caption: 'Subtraktions-Arbeitsblatt — natürlicher Cross-Sell-Begleiter zu Additions-Angeboten in Ihrem Etsy-Shop' },
-      { src: '/samples/german/math puzzle/Math Puzzles (1).webp', alt: 'Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote differenziert', caption: 'Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote differenziert', caption: 'Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter zum Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

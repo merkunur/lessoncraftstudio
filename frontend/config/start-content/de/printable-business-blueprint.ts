@@ -221,22 +221,16 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator' },
+    heroImage: { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio-Generator' },
     samples: [
-      { src: '/samples/german/math puzzle/Math Puzzles.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit konfigurierbarer Ausgabevielfalt', caption: 'Mathe-Rätsel — Konfigurierbarer Schwierigkeitsgrad' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
+      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit konfigurierbarer Ausgabevielfalt', caption: 'Mathe-Rätsel — Konfigurierbarer Schwierigkeitsgrad' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Visuelle Anziehungskraft' },
-      { src: '/samples/german/matching/matching portrait.webp', alt: 'Zuordnungs-Arbeitsblatt im rein visuellen internationalen Format', caption: 'Zuordnung — Funktioniert in jeder Sprache' },
+      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt im rein visuellen internationalen Format', caption: 'Zuordnung — Funktioniert in jeder Sprache' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Mathe-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

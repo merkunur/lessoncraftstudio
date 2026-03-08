@@ -216,31 +216,21 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/german/wordsearch/Worter suchen 1.webp',
       primaryAlt: 'Wortsuche-Arbeitsblatt mit thematischem Vokabelraster und farbkodiertem Lösungsschlüssel',
     },
     sampleGallery: [
-      { src: '/samples/german/alphabet train/Alphabet Train 1.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit Buchstaben-Bild-Zuordnung in Waggons', caption: 'Alphabet-Zug-Arbeitsblatt' },
-      { src: '/samples/german/prepositions/prepositions_worksheet (1).webp', alt: 'Präpositionen-Arbeitsblatt mit räumlichen Beziehungen und Bildern', caption: 'Präpositionen-Arbeitsblatt' },
+      { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit Buchstaben-Bild-Zuordnung in Waggons', caption: 'Alphabet-Zug-Arbeitsblatt' },
+      { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit räumlichen Beziehungen und Bildern', caption: 'Präpositionen-Arbeitsblatt' },
       { src: '/samples/german/word guess/clue-grid_worksheet.webp', alt: 'Wörter-Raten-Arbeitsblatt mit Bildhinweisen und Buchstabenlücken', caption: 'Wörter-Raten-Arbeitsblatt' },
-      { src: '/samples/german/word scramble/word scramble portrait.webp', alt: 'Buchstabensalat-Arbeitsblatt mit farbkodierten Buchstabenplättchen', caption: 'Buchstabensalat-Arbeitsblatt' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Raster mit versteckten Vokabelwörtern', caption: 'Wortsuche-Arbeitsblatt' },
-      { src: '/samples/german/cryptogram/cryptogram_worksheet.webp', alt: 'Kryptogramm-Rätsel mit Bild-Chiffre-Verschlüsselung', caption: 'Kryptogramm-Arbeitsblatt' },
+      { src: '/samples/german/word scramble/Buchstabensala 1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit farbkodierten Buchstabenplättchen', caption: 'Buchstabensalat-Arbeitsblatt' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Raster mit versteckten Vokabelwörtern', caption: 'Wortsuche-Arbeitsblatt' },
+      { src: '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp', alt: 'Kryptogramm-Rätsel mit Bild-Chiffre-Verschlüsselung', caption: 'Kryptogramm-Arbeitsblatt' },
       { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungen-Arbeitsblatt mit geführten Buchstabenstrichen', caption: 'Schreibübungen-Arbeitsblatt' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Lese- & Sprach-Paket — Alle 7 Generatoren in Aktion',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-    { src: '/image-library/animals/koala.webp', alt: 'Koala — thematisches Lernbild', caption: 'Koala' },
-    { src: '/image-library/animals/panda.webp', alt: 'Panda — thematisches Lernbild', caption: 'Panda' },
-    { src: '/image-library/animals/rabbit.webp', alt: 'Kaninchen — thematisches Lernbild', caption: 'Kaninchen' },
-  ],
 };
 
 export default content;

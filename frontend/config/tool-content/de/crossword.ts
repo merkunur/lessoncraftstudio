@@ -223,7 +223,7 @@ const content: ToolContent = {
         caption: 'Benutzerdefinierter Wortlisten-Modus — traditionelle Text-Hinweis-Kreuzworträtsel mit eigenem Vokabular',
       },
       {
-        src: '/samples/german/crossword/crossword_worksheet (5).webp',
+        src: '/samples/german/crossword/crossword_worksheet.webp',
         alt: 'Kreuzworträtsel-Lösungsschlüssel mit allen korrekten Buchstaben im ausgefüllten 15×15-Raster',
         caption: 'Automatisch generierter Lösungsschlüssel — ausgefülltes Raster zeigt alle korrekten Antworten zur Selbstüberprüfung',
       },

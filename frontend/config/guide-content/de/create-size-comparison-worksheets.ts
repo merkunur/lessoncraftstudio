@@ -192,18 +192,11 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/big small/big-small-worksheet_worksheet.webp', alt: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen für Vorschul-Übungen zum Kreise das Große ein' },
     samples: [
       { src: '/samples/german/big small/big-small-worksheet_worksheet.webp', alt: 'Groß-und-Klein Größenvergleich-Arbeitsblatt mit thematischen Bildern und fünf Aufgabentypen', caption: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern und automatisch generierten Antwortindikatoren' },
-      { src: '/samples/german/big small/big-small-different images.webp', alt: 'Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen', caption: 'Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung' },
+      { src: '/samples/german/big small/big-small-worksheet_worksheet.webp', alt: 'Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen', caption: 'Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'So erstellen Sie Größenvergleich-Arbeitsblätter — Komplettes Tutorial',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

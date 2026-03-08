@@ -196,19 +196,12 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt-Ressource geeignet zum Verkauf auf dem Teachers Pay Teachers Marktplatz' },
     samples: [
       { src: '/samples/german/addition/addition_worksheet portrait.webp', alt: 'Mathe-Additions-Arbeitsblatt für TPT-Unterrichtsressource', caption: 'Mathe-Arbeitsblätter gehören zu den meistgesuchten Ressourcentypen auf TPT — Lehrer brauchen standardkonforme Übungen für jede Fertigkeit' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuchrätsel-Aktivität für TPT-Shop-Listing', caption: 'Wortsuchrätsel funktionieren auf TPT über alle Klassenstufen als Vokabel-Aufbau, Stationsaktivitäten und Arbeit für schnelle Schüler' },
-      { src: '/samples/german/matching/image and word.webp', alt: 'Zuordnungsaktivitäts-Arbeitsblatt für TPT-Pädagogen', caption: 'Zuordnungsaktivitäten sind vielseitige TPT-Ressourcen, die Lehrer für Bewertung, Übung und Wiederholung über mehrere Fächer nutzen' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Aktivität für TPT-Shop-Listing', caption: 'Wortsuchrätsel funktionieren auf TPT über alle Klassenstufen als Vokabel-Aufbau, Stationsaktivitäten und Arbeit für schnelle Schüler' },
+      { src: '/samples/german/matching/Paare Finden 2.webp', alt: 'Zuordnungsaktivitäts-Arbeitsblatt für TPT-Pädagogen', caption: 'Zuordnungsaktivitäten sind vielseitige TPT-Ressourcen, die Lehrer für Bewertung, Übung und Wiederholung über mehrere Fächer nutzen' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Unterrichts-Arbeitsblätter für Teachers Pay Teachers erstellen — Schritt-für-Schritt-Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches Lernbild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

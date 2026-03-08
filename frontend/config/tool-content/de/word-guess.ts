@@ -223,7 +223,7 @@ const content: ToolContent = {
         caption: 'Bildbasierte Wörter-Raten-Übungen mit progressiven Hinweisstufen',
       },
       {
-        src: '/samples/german/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/german/word guess/clue-grid_worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit verschiedenen Schwierigkeitsstufen und unterschiedlich vielen enthüllten Buchstaben',
         caption: 'Einstellbare Hinweis-Schwierigkeit von Leicht bis Keine Hinweise',
       },

@@ -192,18 +192,11 @@ const content: GuideContent = {
     heroImage: { src: '/samples/german/shadow match/shadow-match-worksheet (1).webp', alt: 'Schattenbilder-Zuordnungs-Arbeitsblatt mit farbigen Bildern und automatisch generierten pixelgenauen schwarzen Silhouetten für visuelle Wahrnehmungs-Zuordnungsaktivität' },
     samples: [
       { src: '/samples/german/shadow match/shadow-match-worksheet (1).webp', alt: 'Schattenbilder-Zuordnungs-Arbeitsblatt mit vier farbigen Bildern zugeordnet zu vier pixelgenauen schwarzen Silhouetten mit Buchstaben- und Zahlenbeschriftungen', caption: 'Schattenbilder-Zuordnungs-Modus mit vier farbigen Bildern und ihren automatisch generierten schwarzen Silhouetten' },
-      { src: '/samples/german/shadow match/shadow-match-horizontal answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit Originalbildern neben Silhouetten und korrekten Buchstaben-zu-Zahlen-Zuordnungsbeschriftungen', caption: 'Automatisch generierter Lösungsschlüssel mit Buchstaben-zu-Zahlen-Paarungen zur schnellen Überprüfung' },
+      { src: '/samples/german/shadow match/Schatten Zuordnen 1 answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit Originalbildern neben Silhouetten und korrekten Buchstaben-zu-Zahlen-Zuordnungsbeschriftungen', caption: 'Automatisch generierter Lösungsschlüssel mit Buchstaben-zu-Zahlen-Paarungen zur schnellen Überprüfung' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen — Komplette Anleitung',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches pädagogisches Bild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches pädagogisches Bild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches pädagogisches Bild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches pädagogisches Bild', caption: 'Fuchs' },
-    { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe — thematisches pädagogisches Bild', caption: 'Giraffe' },
-  ],
 };
 
 export default content;

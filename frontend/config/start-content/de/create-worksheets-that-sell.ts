@@ -225,18 +225,12 @@ const content: StartContent = {
     samples: [
       { src: '/samples/german/addition/Addition Fun 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
       { src: '/samples/german/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktions-Arbeitsblatt mit visuellen Zahlenaufgaben', caption: 'Subtraktion — Visuelle Matheübung' },
-      { src: '/samples/german/wordsearch/wordsearch portrait.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
+      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
       { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter erstellen — LessonCraftStudio Demo',
   },
-  themeImages: [
-    { src: '/image-library/animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/animals/dog.webp', alt: 'Hund — thematisches Lernbild', caption: 'Hund' },
-    { src: '/image-library/animals/elephant.webp', alt: 'Elefant — thematisches Lernbild', caption: 'Elefant' },
-    { src: '/image-library/animals/fox.webp', alt: 'Fuchs — thematisches Lernbild', caption: 'Fuchs' },
-  ],
 };
 
 export default content;

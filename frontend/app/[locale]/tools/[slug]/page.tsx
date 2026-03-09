@@ -16,6 +16,8 @@ import { getToolContent } from '@/config/tool-content';
 import { getSectionLabel } from '@/config/section-labels';
 import YouTubeFacade from './YouTubeFacade';
 import ReadMoreText from '@/components/ReadMoreText';
+import { WorksheetShowcaseSection, TieredShowcaseSection, SpotlightSection, GallerySection } from '@/components/showcase';
+import { getToolShowcaseConfig } from '@/config/tool-showcase-configs';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -144,6 +146,9 @@ export default async function ToolPage({
   const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
   const cta = toolCta[locale] || toolCta.en;
 
+  // Showcase config (English only)
+  const showcaseConfig = locale === 'en' ? getToolShowcaseConfig(toolConfig.toolId) : null;
+
   // App launch URL
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;
   const launchUrl = `/worksheet-generators/${htmlFile}`;
@@ -253,6 +258,9 @@ export default async function ToolPage({
           </div>
         </section>
 
+        {/* Showcase: Hero Staircase */}
+        {showcaseConfig && <WorksheetShowcaseSection config={showcaseConfig.hero} />}
+
         {/* Video Tutorial */}
         {content.visuals?.youtubeId && (
           <section className="py-12 md:py-16 bg-white">
@@ -290,6 +298,9 @@ export default async function ToolPage({
           </section>
         )}
 
+        {/* Showcase: Tiered Difficulty */}
+        {showcaseConfig && <TieredShowcaseSection config={showcaseConfig.tiered} />}
+
         {/* Sample Gallery */}
         {content.visuals?.sampleGallery && content.visuals.sampleGallery.length > 0 && (
           <section className="py-12 md:py-16 bg-white">
@@ -313,6 +324,9 @@ export default async function ToolPage({
             </div>
           </section>
         )}
+
+        {/* Showcase: Spotlight */}
+        {showcaseConfig && <SpotlightSection config={showcaseConfig.spotlight} />}
 
         {/* Product Examples */}
         {content.whatYouCanCreate && content.whatYouCanCreate.length > 0 && (
@@ -352,6 +366,9 @@ export default async function ToolPage({
             </div>
           </section>
         )}
+
+        {/* Showcase: Gallery */}
+        {showcaseConfig && <GallerySection config={showcaseConfig.gallery} />}
 
         {/* Pro Tips */}
         {content.proTips && content.proTips.length > 0 && (

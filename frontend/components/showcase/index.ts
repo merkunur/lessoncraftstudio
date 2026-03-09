@@ -1,10 +1,9 @@
-// Re-export from shared showcase components
 export {
   WorksheetShowcaseSection,
   TieredShowcaseSection,
   SpotlightSection,
   GallerySection,
-} from '@/components/showcase/ShowcaseSections';
+} from './ShowcaseSections';
 
 export type {
   ShowcaseImage,
@@ -14,4 +13,4 @@ export type {
   SpotlightConfig,
   GalleryConfig,
   GalleryItem,
-} from '@/components/showcase/ShowcaseSections';
+} from './ShowcaseSections';

@@ -1,4 +1,6 @@
 import type { HeroShowcaseConfig, TieredShowcaseConfig, SpotlightConfig, GalleryConfig } from './ShowcaseSections';
+import { imgUrl, t, tPills, tStringPills } from '@/config/showcase-i18n';
+import { germanImages } from '@/config/german-showcase-images';
 
 export interface ShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -2297,3 +2299,342 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
     },
   },
 };
+
+// ═══════════════════════════════════════════════════════════════════
+// GERMAN LOCALIZATION — per-app text overrides
+// Format: [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub]
+// ═══════════════════════════════════════════════════════════════════
+
+type DeTextTuple = [string, string, string, string, string, string, string, string, string, string, string, string];
+
+const deAppText: Record<string, DeTextTuple> = {
+  addition: [
+    'Rechnen mit Bildern lernen!', 'Professionelle Additionsarbeitsblätter, die Ihre Schüler lieben werden',
+    'Differenziertes Lernen für jedes Kind', 'Drei Schwierigkeitsstufen, die mit Ihren Schülern wachsen',
+    'Einfaches Bilder-Zählen (1-5)', 'Gemischte Bilder mit Summen bis 10', 'Mehrstufige Aufgaben bis 20',
+    'Jedes Kind kann in seinem eigenen Tempo Erfolg haben',
+    'Additionsspaß!', 'Mathe mit Freude!',
+    'Die Kunst der Mathematik', 'Professionelle Arbeitsblätter mit Sorgfalt und Präzision gestaltet',
+  ],
+  subtraction: [
+    'Visuelles Subtrahieren leicht gemacht!', 'Durchstreichen, vergleichen und lösen mit thematischen Bildern',
+    'Schritt für Schritt Subtraktion meistern', 'Drei Schwierigkeitsstufen von einfach bis herausfordernd',
+    'Bilder durchstreichen (1-5)', 'Bild-Zahl-Subtraktion bis 10', 'Gemischte Modi bis 20',
+    'Mit jeder gelösten Aufgabe wächst das Selbstvertrauen',
+    'Subtraktionsspaß!', 'Abziehen leicht gemacht!',
+    'Professionelle Subtraktionsarbeitsblätter', 'Klare Layouts für junge Lerner',
+  ],
+  'code-addition': [
+    'Knack den Code mit Addition!', 'Löse Rechenaufgaben, um Geheimbotschaften zu entschlüsseln',
+    'Von einfachen Summen zu Geheimcodes', 'Drei Schwierigkeitsstufen zum Codeknacken',
+    'Einfache Additionscodes (1-5)', 'Größere Summen entschlüsseln längere Botschaften', 'Mehrstufige Codes bis 20',
+    'Jeder geknackte Code stärkt das Mathe-Selbstvertrauen',
+    'Code knacken!', 'Mathe trifft Geheimnis!',
+    'Die Kunst des Codeknackens', 'Professionelle Arbeitsblätter, die Mathe mit Rätseln verbinden',
+  ],
+  'more-less': [
+    'Mehr, Weniger oder Gleich?', 'Mengen vergleichen mit bunten Bilderarbeitsblättern',
+    'Zahlenvergleiche meistern', 'Drei Stufen der Vergleichsherausforderung',
+    'Erkennen welche Gruppe mehr hat (1-5)', 'Thematische Gruppen bis 10 vergleichen', 'Größer als, kleiner als und gleich',
+    'Vergleichsfähigkeiten bilden mathematische Grundlagen',
+    'Vergleichen & Entdecken!', 'Zahlenverständnis visuell!',
+    'Professionelle Vergleichsarbeitsblätter', 'Klare Layouts für intuitives Mengenvergleichen',
+  ],
+  'math-puzzle': [
+    'Löse & Enthülle Bilder-Rätsel!', 'Rechenaufgaben enthüllen versteckte Tierbilder',
+    'Rätsel für jedes Können', 'Von einfachen Summen bis zu kniffligen Rastern',
+    'Einfache 3×3-Raster mit Addition', 'Thematische Rätsel mit gemischten Rechenarten', 'Komplexe Raster mit größeren Zahlen',
+    'Jedes gelöste Rätsel enthüllt etwas Tolles',
+    'Rätselzeit!', 'Mathe + Bilder = Spaß!',
+    'Professionelle Mathe-Rätsel', 'Motivierende Raster, die Matheübung spannend machen',
+  ],
+  'math-worksheet': [
+    'Bilder-Algebra für kleine Mathematiker!', 'Gleichungen lösen mit niedlichen Tierbildern',
+    'Algebra-Konzepte für jede Stufe', 'Visuelle Gleichungen, die mit Ihren Schülern wachsen',
+    'Einfache Bildgleichungen (1-5)', 'Gemischte Themengleichungen bis 10', 'Mehrstufige Bildgleichungen bis 20',
+    'Algebraisches Denken von Anfang an aufbauen',
+    'Bilder-Algebra!', 'Tiere + Mathe = Lernen!',
+    'Professionelle Bilder-Algebra', 'Schöne Arbeitsblätter für visuelles Algebralernen',
+  ],
+  'alphabet-train': [
+    'Alle einsteigen zum Alphabet-Zug!', 'Buchstaben lernen mit einer lustigen Ausschneide-Aktivität',
+    'Buchstaben für jeden Lerner', 'Aufbauende Buchstabenerkennungsaktivitäten',
+    'Großbuchstaben zuordnen A-M', 'Volles Alphabet mit Themenbildern', 'Groß- und Kleinbuchstaben zuordnen',
+    'Jeder Buchstabe ist ein Abenteuer auf dem Zug',
+    'Tut-Tut Buchstaben!', 'Buchstaben lernen ist eine Reise!',
+    'Wunderschöne Buchstabenaktivitäten', 'Professionell gestaltete Zug-Arbeitsblätter',
+  ],
+  prepositions: [
+    'Raumwörter mit Bildern lernen!', 'Auf, unter, neben, in — Präpositionen visuell und lustig',
+    'Präpositionen für jeden Lerner', 'Aufbauende räumliche Wortschatzaktivitäten',
+    'Grundlegende Raumwörter: auf, in, unter', 'Erweiterter Wortschatz mit Themenszenen', 'Komplexe räumliche Beziehungen und Sätze',
+    'Raumwörter verbessern die Kommunikation',
+    'Wo ist es?', 'Raumwörter mit Spaß!',
+    'Professionelle Spracharbeitsblätter', 'Schön gestaltete räumliche Wortschatzaktivitäten',
+  ],
+  'word-guess': [
+    'Errate das Wort mit Bilderhinweisen!', 'Fehlende Buchstaben mit Bildhinweisen ergänzen',
+    'Wortschatz für jeden Leser', 'Drei Stufen der Worträtsel-Herausforderung',
+    'Einfache 3-4 Buchstabenwörter mit Bildhinweisen', 'Themenwortschatz mit 2+ fehlenden Buchstaben', 'Längere Wörter mit eigenen Wortlisten',
+    'Jedes erratene Wort stärkt das Lesevertrauen',
+    'Wortdetektiv!', 'Bilder + Buchstaben = Spaß!',
+    'Professionelle Worträtsel', 'Motivierende Wortschatzarbeitsblätter mit Bilderhinweisen',
+  ],
+  'word-scramble': [
+    'Buchstabensalat mit Bilderhinweisen!', 'Buchstaben neu ordnen zum abgebildeten Wort',
+    'Rechtschreibspaß für jede Stufe', 'Drei Stufen der Buchstabensalat-Herausforderung',
+    'Einfache 3-4 Buchstaben-Wörter', 'Themenwörter mit 5-6 Buchstaben', 'Längere Wörter und eigene Wortlisten',
+    'Jedes entworrene Wort verbessert die Rechtschreibung',
+    'Buchstabensalat!', 'Rechtschreibung mit Spaß!',
+    'Professionelle Buchstabenrätsel', 'Motivierende Arbeitsblätter für die Rechtschreibung',
+  ],
+  wordsearch: [
+    'Versteckte Wörter im Buchstabengitter!', 'Finde die versteckten Wörter in thematischen Wortsuchrätseln',
+    'Wortsuche für jede Stufe', 'Drei Schwierigkeitsstufen der Wortsuche',
+    'Einfache 6×6-Raster', 'Mittlere 10×10-Rätsel', 'Anspruchsvolle 15×15-Raster',
+    'Jedes gefundene Wort erweitert den Wortschatz',
+    'Finde die Wörter!', 'Wortsuche Abenteuer!',
+    'Professionelle Wortsuchrätsel', 'Klare Layouts für spannendes Wörtersuchen',
+  ],
+  cryptogram: [
+    'Geheime Bildercodes entschlüsseln!', 'Buchstaben-Ersetzungsrätsel mit thematischen Bildern',
+    'Entschlüsselung für jeden Level', 'Drei Stufen der Kryptogramm-Herausforderung',
+    'Einfache Buchstabencodes', 'Mittelschwere Verschlüsselungen', 'Fortgeschrittene Kryptogramme',
+    'Jeder geknackte Code schärft das logische Denken',
+    'Knack den Code!', 'Buchstaben-Rätsel Spaß!',
+    'Professionelle Kryptogramme', 'Motivierende Logik-Rätsel zum Ausdrucken',
+  ],
+  writing: [
+    'Schönschreiben mit Führungslinien!', 'Buchstaben und Wörter sauber schreiben lernen',
+    'Schreiben für jeden Lerner', 'Aufbauende Handschrift-Übungen',
+    'Nachzeichnen üben', 'Geführtes Buchstabenschreiben', 'Selbstständiges Schreiben',
+    'Schöne Handschrift öffnet Türen',
+    'Schreiben & Lernen!', 'Buchstaben meistern!',
+    'Professionelle Schreibübungen', 'Sorgfältig gestaltete Handschrift-Arbeitsblätter',
+  ],
+  'big-small': [
+    'Groß oder Klein erkennen!', 'Größen vergleichen mit lustigen Bildern',
+    'Größenvergleiche meistern', 'Drei Stufen des Größenverständnisses',
+    'Einfach: groß vs. klein', 'Nach Größe ordnen', 'Komplexe Vergleiche',
+    'Größenverständnis stärkt mathematisches Denken',
+    'Groß oder Klein?', 'Größen entdecken!',
+    'Professionelle Größenvergleiche', 'Klare Arbeitsblätter zum Größenvergleichen',
+  ],
+  'pattern-train': [
+    'Muster auf dem Zug vervollständigen!', 'Erkenne und setze Bildmuster auf dem Zug fort',
+    'Muster für jede Stufe', 'Drei Schwierigkeitsgrade der Mustererkennung',
+    'AB-Muster', 'ABC-Muster', 'Komplexe ABCD-Muster',
+    'Mustererkennung schult logisches Denken',
+    'Muster vervollständigen!', 'Zug-Muster Spaß!',
+    'Professionelle Muster-Arbeitsblätter', 'Ansprechende Zug-Themen für die Mustererkennung',
+  ],
+  'pattern-worksheet': [
+    'Muster erkennen und fortsetzen!', 'Logisches Denken mit Bildmustern trainieren',
+    'Musterübungen für jede Stufe', 'Drei Schwierigkeitsgrade der Mustererkennung',
+    'Einfache Wiederholungsmuster', 'Wachsende Muster', 'Komplexe gemischte Muster',
+    'Mustererkennung ist der Schlüssel zum logischen Denken',
+    'Erkenne das Muster!', 'Logisches Denken Spaß!',
+    'Professionelle Muster-Rätsel', 'Durchdachte Arbeitsblätter für kritisches Denken',
+  ],
+  'draw-and-color': [
+    'Zeichnen nach Raster!', 'Schritt für Schritt zeichnen lernen mit Rastervorlagen',
+    'Zeichnen für jede Stufe', 'Drei Schwierigkeitsgrade des Rasterzeichnens',
+    'Einfache Raster-Kopien', 'Detaillierte Rasterzeichnungen', 'Freie Zeichenherausforderungen',
+    'Jedes Bild stärkt die künstlerischen Fähigkeiten',
+    'Zeichne es!', 'Kreatives Zeichnen!',
+    'Professionelle Zeichenübungen', 'Schritt-für-Schritt Arbeitsblätter für jedes Thema',
+  ],
+  'drawing-lines': [
+    'Linien nachzeichnen üben!', 'Feinmotorik trainieren mit verschiedenen Linienformen',
+    'Linienübungen für jede Stufe', 'Drei Schwierigkeitsgrade der Linienverfolgung',
+    'Gerade Linien', 'Geschwungene Pfade', 'Komplexe Muster',
+    'Feinmotorik bildet die Grundlage für das Schreiben',
+    'Nachzeichnen & Lernen!', 'Linien meistern!',
+    'Professionelle Linienübungen', 'Aufbauende Arbeitsblätter für die Feinmotorik',
+  ],
+  coloring: [
+    'Ausmalbilder zu jedem Thema!', 'Über 100 Themen zum Ausmalen und kreativen Gestalten',
+    'Ausmalbilder für jede Stufe', 'Drei Detailstufen zum Ausmalen',
+    'Einfache Umrisse', 'Detaillierte Szenen', 'Komplexe Muster',
+    'Kreativität kennt keine Grenzen',
+    'Male deine Welt!', 'Farben entdecken!',
+    'Professionelle Ausmalbilder', 'Wunderschöne Vorlagen für jedes Thema',
+  ],
+  'chart-count': [
+    'Bilddiagramme erstellen und lesen!', 'Daten sammeln und in Diagrammen darstellen',
+    'Diagramme für jede Stufe', 'Drei Schwierigkeitsgrade der Datenvisualisierung',
+    'Zählen und grafisch darstellen (1-5)', 'Diagramme lesen und interpretieren', 'Mehrere Kategorien darstellen',
+    'Datenkompetenz von Anfang an aufbauen',
+    'Daten machen Spaß!', 'Visuelles Zählen!',
+    'Professionelle Bilddiagramme', 'Klare Arbeitsblätter für visuelles Datenlernen',
+  ],
+  matching: [
+    'Paare finden!', 'Zusammengehörendes visuell zuordnen mit thematischen Bildern',
+    'Zuordnung für jede Stufe', 'Drei Schwierigkeitsgrade der Paarbildung',
+    'Einfache 3-Paar-Zuordnung', 'Mittlere 5-Paar-Zuordnung', 'Fortgeschrittene 8+ Paare',
+    'Zuordnungsfähigkeiten stärken das Denken',
+    'Finde das Paar!', 'Visuelles Zuordnen!',
+    'Professionelle Zuordnungsarbeitsblätter', 'Klare Layouts für kognitive Entwicklung',
+  ],
+  'grid-match': [
+    'Raster-Puzzle lösen!', 'Bilder im Gitter richtig zuordnen',
+    'Raster-Rätsel für jede Stufe', 'Drei Schwierigkeitsgrade der Gitterzuordnung',
+    'Einfache 2×2-Raster', 'Mittlere 3×3-Raster', 'Fortgeschrittene 4×4-Raster',
+    'Räumliches Denken durch Rätsel stärken',
+    'Raster zuordnen!', 'Puzzle-Spaß!',
+    'Professionelle Raster-Rätsel', 'Durchdachte Arbeitsblätter für räumliches Denken',
+  ],
+  'shadow-match': [
+    'Schatten zuordnen!', 'Welcher Schatten gehört zu welchem Bild?',
+    'Schattenzuordnung für jede Stufe', 'Drei Schwierigkeitsgrade der Schattenrätsel',
+    'Einfache Schattenpaare', 'Gedrehte Schatten', 'Komplexe Schattenrätsel',
+    'Beobachtungsgabe durch Schatten schärfen',
+    'Finde den Schatten!', 'Schatten-Rätsel Spaß!',
+    'Professionelle Schattenrätsel', 'Herausfordernde Arbeitsblätter für die Beobachtungsgabe',
+  ],
+  bingo: [
+    'Bilder-Bingo Karten erstellen!', 'Ausdrucken und Spielen mit thematischen Bingokarten',
+    'Bingo für jede Stufe', 'Drei Kartengrößen für verschiedene Altersgruppen',
+    'Einfaches 3×3-Bingo', '4×4 Bilder-Bingo', '5×5 Vollständige Bingokarten',
+    'Gemeinsam spielen und lernen',
+    'BINGO!', 'Bingo-Spaß für alle!',
+    'Professionelle Bingokarten', 'Thematische Karten für Gruppen- und Klassenaktivitäten',
+  ],
+  'picture-sort': [
+    'Bilder sortieren und zuordnen!', 'In Kategorien einteilen lernen mit bunten Bildern',
+    'Sortierübungen für jede Stufe', 'Drei Schwierigkeitsgrade der Klassifizierung',
+    '2-Kategorien-Sortierung', '3-Kategorien-Sortierung', '4+ Kategorien-Herausforderungen',
+    'Sortieren schärft das kritische Denken',
+    'Sortiere es!', 'Ordnung macht Spaß!',
+    'Professionelle Sortierübungen', 'Durchdachte Arbeitsblätter für Klassifizierung',
+  ],
+  'missing-pieces': [
+    'Fehlende Teile finden!', 'Welches Teil fehlt im Bild?',
+    'Puzzles für jede Stufe', 'Drei Schwierigkeitsgrade der visuellen Rätsel',
+    'Einfache fehlende Teile', 'Mehrteilige Puzzles', 'Komplexe visuelle Herausforderungen',
+    'Beobachtungsgabe durch Rätsel stärken',
+    'Vervollständige das Bild!', 'Puzzle-Detektiv!',
+    'Professionelle Puzzle-Arbeitsblätter', 'Herausfordernde Rätsel für die Beobachtungsgabe',
+  ],
+  'odd-one-out': [
+    'Finde das Andere!', 'Welches Bild passt nicht in die Reihe?',
+    'Unterschiede finden für jede Stufe', 'Drei Schwierigkeitsgrade der Logik-Rätsel',
+    'Einfache 3er-Gruppen', 'Mittlere 4er-Gruppen', 'Fortgeschrittene 6+ Bilder',
+    'Logisches Denken durch Beobachtung stärken',
+    'Welches ist anders?', 'Adlerauge gefragt!',
+    'Professionelle Logik-Rätsel', 'Durchdachte Arbeitsblätter für Beobachtungsgabe',
+  ],
+  sudoku: [
+    'Bilder-Sudoku Spaß!', 'Logik-Rätsel mit Bildern statt Zahlen',
+    'Sudoku für jede Stufe', 'Drei Schwierigkeitsgrade der Sudoku-Rätsel',
+    'Einfaches 4×4 Bilder-Sudoku', 'Mittlere 6×6-Raster', 'Schwere 9×9-Herausforderungen',
+    'Logisches Denken spielerisch trainieren',
+    'Sudoku-Spaß!', 'Bilder-Logik!',
+    'Professionelle Bilder-Sudoku', 'Gehirntraining-Rätsel zum Ausdrucken',
+  ],
+  'picture-path': [
+    'Bilderpfad finden!', 'Folge dem richtigen Weg durch das Bilder-Labyrinth',
+    'Pfadsuche für jede Stufe', 'Drei Schwierigkeitsgrade der Wegfindung',
+    'Einfache gerade Pfade', 'Verzweigte Wege', 'Komplexe Labyrinth-Pfade',
+    'Orientierungsfähigkeiten spielerisch trainieren',
+    'Finde den Weg!', 'Labyrinth-Abenteuer!',
+    'Professionelle Labyrinth-Arbeitsblätter', 'Spannende Pfadsuche mit verschiedenen Themen',
+  ],
+  'find-and-count': [
+    'Ich sehe was & Zählen!', 'Finde und zähle die versteckten Bilder in bunten Szenen',
+    'Suchen & Zählen für jede Stufe', 'Drei Schwierigkeitsgrade der Suchbilder',
+    '3-5 Objekte finden', 'Bis zu 10 Gegenstände zählen', 'Fortgeschrittene Mehrfach-Zählszenen',
+    'Aufmerksames Beobachten macht Spaß',
+    'Ich sehe was!', 'Zählen & Finden!',
+    'Professionelle Suchbilder', 'Liebevoll gestaltete Szenen zum Suchen und Zählen',
+  ],
+  'find-objects': [
+    'Versteckte Objekte finden!', 'Schärfe deine Augen mit detaillierten Suchbildern',
+    'Suchbilder für jede Stufe', 'Drei Schwierigkeitsgrade der Objektsuche',
+    'Einfache versteckte Objekte', 'Mittelschwere Szenensuche', 'Komplexe Suchherausforderungen',
+    'Scharfe Augen werden belohnt',
+    'Finde sie alle!', 'Adleraugen gefragt!',
+    'Professionelle Suchbilder', 'Detaillierte Szenen für aufmerksames Beobachten',
+  ],
+  crossword: [
+    'Bilderkreuzworträtsel lösen!', 'Löse die Bilderhinweise und fülle das Gitter',
+    'Kreuzworträtsel für jede Stufe', 'Drei Schwierigkeitsgrade der Worträtsel',
+    'Einfache 5-Wort-Kreuzworträtsel', 'Mittlere 10-Wort-Rätsel', 'Fortgeschrittene 15+ Wort-Gitter',
+    'Wortschatz spielerisch erweitern',
+    'Kreuzworträtsel-Spaß!', 'Wörter-Rätsel Abenteuer!',
+    'Professionelle Kreuzworträtsel', 'Durchdachte Wort-Gitter für den Wortschatz',
+  ],
+  'treasure-hunt': [
+    'Schatzsuche auf der Karte!', 'Folge den Hinweisen und finde den versteckten Schatz',
+    'Schatzsuche für jede Stufe', 'Drei Schwierigkeitsgrade der Kartenrätsel',
+    'Einfache Gitterkarten', 'Richtungsbasierte Schatzkarten', 'Komplexe mehrstufige Jagden',
+    'Jede Schatzsuche ist ein Abenteuer',
+    'Schatzsuche!', 'Karten-Abenteuer!',
+    'Professionelle Schatzsuche-Arbeitsblätter', 'Spannende Kartenabenteuer für kleine Entdecker',
+  ],
+};
+
+// ─── Localization function ───
+
+function localizeShowcase(config: ShowcaseConfig, appId: string): ShowcaseConfig | null {
+  const gi = germanImages[appId];
+  const dt = deAppText[appId];
+  if (!gi || !dt) return null;
+
+  const [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub] = dt;
+  const di = (filename: string) => imgUrl(gi.folder, filename, 'de');
+
+  return {
+    hero: {
+      ...config.hero,
+      badge: t(config.hero.badge, 'de'),
+      heading: heroH,
+      subheading: heroSub,
+      images: [
+        { src: di(gi.imgs[0]), alt: config.hero.images[0]?.alt || '' },
+        { src: di(gi.imgs[1]), alt: config.hero.images[1]?.alt || '' },
+        { src: di(gi.imgs[2]), alt: config.hero.images[2]?.alt || '' },
+      ],
+      pills: tPills(config.hero.pills, 'de'),
+    },
+    tiered: {
+      ...config.tiered,
+      badge: t(config.tiered.badge, 'de'),
+      heading: tieredH,
+      subheading: tieredSub,
+      tiers: config.tiered.tiers.map((tier, i) => ({
+        ...tier,
+        name: t(tier.name, 'de'),
+        image: { src: di(gi.imgs[i]), alt: tier.image.alt },
+        desc: [t1, t2, t3][i] || tier.desc,
+      })) as [typeof config.tiered.tiers[0], typeof config.tiered.tiers[1], typeof config.tiered.tiers[2]],
+      trophyText: trophy,
+    },
+    spotlight: {
+      ...config.spotlight,
+      heading: spotH,
+      tagline: spotTag,
+      image: { src: di(gi.imgs[3]), alt: config.spotlight.image.alt },
+      pills: tStringPills(config.spotlight.pills, 'de'),
+    },
+    gallery: {
+      ...config.gallery,
+      heading: galH,
+      subheading: galSub,
+      items: [
+        { image: { src: di(gi.imgs[4]), alt: config.gallery.items[0]?.image.alt || '' }, label: t(config.gallery.items[0]?.label || '', 'de') },
+        { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: config.gallery.items[1]?.image.alt || '' }, label: t(config.gallery.items[1]?.label || '', 'de') },
+        { image: { src: di(gi.answerKey), alt: config.gallery.items[2]?.image.alt || '' }, label: t('Answer Key', 'de') },
+      ],
+      pills: tStringPills(config.gallery.pills, 'de'),
+    },
+  };
+}
+
+/** Get showcase config for a given app ID and locale */
+export function getLocalizedShowcaseConfig(appId: string, locale: string): ShowcaseConfig | null {
+  const enConfig = showcaseConfigs[appId] ?? null;
+  if (!enConfig) return null;
+  if (locale === 'de') return localizeShowcase(enConfig, appId);
+  return enConfig;
+}

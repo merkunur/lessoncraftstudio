@@ -99,9 +99,9 @@ export default async function BundlePage({
   const tierData = getBundleTierComparison(locale);
   const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
 
-  // Look up visual showcase config (English only)
-  const showcaseConfig = locale === 'en'
-    ? getPageShowcaseConfig('bundle', bundleConfig.bundleId)
+  // Look up visual showcase config (EN + DE)
+  const showcaseConfig = (locale === 'en' || locale === 'de')
+    ? getPageShowcaseConfig('bundle', bundleConfig.bundleId, locale)
     : null;
 
   if (content) {

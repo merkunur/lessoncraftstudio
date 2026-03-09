@@ -13,6 +13,8 @@ import type {
   SpotlightConfig,
   GalleryConfig,
 } from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
+import { imgUrl, tPills, tStringPills } from '@/config/showcase-i18n';
+import { germanImages } from '@/config/german-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -24,6 +26,11 @@ export interface PageShowcaseConfig {
 // ─── Image URL builder ───
 function img(appFolder: string, filename: string) {
   return `/samples/english/${encodeURIComponent(appFolder)}/${encodeURIComponent(filename)}`;
+}
+
+function localizedImg(appFolder: string, filename: string, locale: string) {
+  if (locale === 'de') return imgUrl(appFolder, filename, 'de');
+  return img(appFolder, filename);
 }
 
 // ─── Per-app visual data ───
@@ -408,6 +415,77 @@ const spotlightGradients = [
 
 const galleryGradient = 'linear-gradient(180deg, #fefcf3 0%, #fdf6e3 50%, #f5edd6 100%)';
 
+// ─── German app visual data ───
+// Built from English appData + German image filenames + German text.
+
+const deLabels: Record<string, string> = {
+  addition: 'Additions', subtraction: 'Subtraktions', 'code-addition': 'Codeknacker',
+  'more-less': 'Vergleichs', 'math-puzzle': 'Mathe-Rätsel', 'math-worksheet': 'Mathe-Übungs',
+  'chart-count': 'Bilddiagramm', wordsearch: 'Wortsuche', crossword: 'Kreuzworträtsel',
+  'word-scramble': 'Buchstabensalat', cryptogram: 'Kryptogramm', 'word-guess': 'Worträtsel',
+  writing: 'Schreib', 'alphabet-train': 'Alphabet-Zug', prepositions: 'Präpositions',
+  coloring: 'Ausmal', 'draw-and-color': 'Rasterzeichen', 'drawing-lines': 'Linien',
+  'big-small': 'Größenvergleichs', 'pattern-train': 'Musterzug', 'pattern-worksheet': 'Muster',
+  matching: 'Zuordnungs', 'grid-match': 'Raster-Puzzle', 'shadow-match': 'Schatten',
+  bingo: 'Bilder-Bingo', 'picture-sort': 'Sortier', 'missing-pieces': 'Puzzle',
+  'odd-one-out': 'Logik', sudoku: 'Sudoku', 'picture-path': 'Pfad',
+  'find-and-count': 'Such-und-Zähl', 'find-objects': 'Suchbild', 'treasure-hunt': 'Schatzsuche',
+};
+
+const deTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Einfaches Bilder-Zählen (1-5)', 'Gemischte Bilder bis 10', 'Mehrstufige Aufgaben bis 20'],
+  subtraction: ['Bilder durchstreichen (1-5)', 'Bild-Zahl-Subtraktion bis 10', 'Gemischte Modi bis 20'],
+  'code-addition': ['Einfache Codes (1-5)', 'Mittlere Codes bis 10', 'Komplexe Codes bis 20'],
+  'more-less': ['Gruppen vergleichen (1-5)', 'Themengruppen bis 10', 'Größer/kleiner/gleich'],
+  'math-puzzle': ['Einfache Zahlenrätsel', 'Mehrstufige Rätsel', 'Komplexe Logik-Aufgaben'],
+  'math-worksheet': ['Einfache Rechenaufgaben (1-5)', 'Gemischte Aufgaben bis 10', 'Fortgeschrittene Mehrstufenaufgaben'],
+  'chart-count': ['Zählen und darstellen (1-5)', 'Diagramme interpretieren', 'Mehrkategorien-Diagramme'],
+  wordsearch: ['Einfache 6×6-Raster', 'Mittlere 10×10-Rätsel', 'Anspruchsvolle 15×15-Raster'],
+  crossword: ['Einfache 5-Wort-Rätsel', 'Mittlere 10-Wort-Rätsel', 'Fortgeschrittene 15+ Wort-Gitter'],
+  'word-scramble': ['3-4 Buchstabenwörter', '5-6 Buchstaben-Rätsel', '7+ Buchstaben-Herausforderungen'],
+  cryptogram: ['Einfache Buchstabencodes', 'Mittelschwere Verschlüsselungen', 'Fortgeschrittene Kryptogramme'],
+  'word-guess': ['Einfache Bilderhinweise', 'Mehrteilige Rätsel', 'Fortgeschrittenes Wort-Raten'],
+  writing: ['Nachzeichnen üben', 'Geführtes Schreiben', 'Selbstständiges Schreiben'],
+  'alphabet-train': ['Buchstaben A-H', 'Buchstaben I-P', 'Ganzes Alphabet'],
+  prepositions: ['Grundpositionen (auf, in, unter)', 'Erweiterte Präpositionen', 'Komplexe Raumbeschreibungen'],
+  coloring: ['Einfache Umrisse', 'Detaillierte Szenen', 'Komplexe Muster'],
+  'draw-and-color': ['Einfache Rasterkopien', 'Detaillierte Rasterzeichnungen', 'Freie Herausforderungen'],
+  'drawing-lines': ['Gerade Linien', 'Geschwungene Pfade', 'Komplexe Muster'],
+  'big-small': ['Einfach groß vs. klein', 'Nach Größe ordnen', 'Komplexe Vergleiche'],
+  'pattern-train': ['AB-Muster', 'ABC-Muster', 'Komplexe ABCD-Muster'],
+  'pattern-worksheet': ['Einfache Wiederholungen', 'Wachsende Muster', 'Gemischte Komplexmuster'],
+  matching: ['Einfache 3-Paar-Zuordnung', 'Mittlere 5-Paar-Zuordnung', 'Fortgeschrittene 8+ Paare'],
+  'grid-match': ['Einfache 2×2-Raster', 'Mittlere 3×3-Raster', 'Fortgeschrittene 4×4-Raster'],
+  'shadow-match': ['Einfache Schattenpaare', 'Gedrehte Schatten', 'Komplexe Schattenrätsel'],
+  bingo: ['Einfaches 3×3-Bingo', '4×4 Bilder-Bingo', '5×5 Vollbingo'],
+  'picture-sort': ['2-Kategorien-Sortierung', '3-Kategorien-Sortierung', '4+ Kategorien'],
+  'missing-pieces': ['Einfache fehlende Teile', 'Mehrteilige Puzzles', 'Komplexe visuelle Rätsel'],
+  'odd-one-out': ['Einfache 3er-Gruppen', 'Mittlere 4er-Gruppen', 'Fortgeschrittene 6+ Gruppen'],
+  sudoku: ['Einfaches 4×4 Bilder-Sudoku', 'Mittlere 6×6-Raster', 'Schwere 9×9-Raster'],
+  'picture-path': ['Einfache gerade Pfade', 'Verzweigte Wege', 'Komplexe Labyrinth-Pfade'],
+  'find-and-count': ['3-5 Objekte finden', 'Bis zu 10 zählen', 'Fortgeschrittene Zählszenen'],
+  'find-objects': ['Einfache Objekte', 'Mittelschwere Szenen', 'Komplexe Suchbilder'],
+  'treasure-hunt': ['Einfache Gitterkarten', 'Richtungsbasierte Karten', 'Mehrstufige Jagden'],
+};
+
+function getDeAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const gi = germanImages[key];
+  if (!gi) return en;
+
+  return {
+    ...en,
+    label: deLabels[key] || en.label,
+    imgs: gi.imgs,
+    answerKey: gi.answerKey,
+    pills: tPills(en.pills, 'de'),
+    spotPills: tStringPills(en.spotPills, 'de'),
+    galleryPills: tStringPills(en.galleryPills, 'de'),
+    tierDesc: deTierDescs[key] || en.tierDesc,
+  };
+}
+
 // ─── Config generator ───
 // Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
 // The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
@@ -416,57 +494,63 @@ function buildConfig(
   apps: [string, string, string, string],
   pageTitle: string,
   seed: number,
+  locale: string = 'en',
 ): PageShowcaseConfig {
   const [a1, a2, a3, a4] = apps;
-  const d1 = appData[a1] || appData.addition;
-  const d2 = appData[a2] || appData.wordsearch;
-  const d3 = appData[a3] || appData.coloring;
-  const d4 = appData[a4] || appData.matching;
+  const isDe = locale === 'de';
+  const getData = isDe ? getDeAppData : (k: string) => appData[k] || appData.addition;
+  const d1 = getData(a1);
+  const d2 = getData(a2);
+  const d3 = getData(a3);
+  const d4 = getData(a4);
+  const imgFn = (folder: string, filename: string) => localizedImg(folder, filename, locale);
 
   return {
     hero: {
       gradient: heroGradients[seed % heroGradients.length],
       accentColor: d1.accent,
-      badge: 'Professional Printables',
+      badge: isDe ? 'Professionelle Druckvorlagen' : 'Professional Printables',
       heading: pageTitle,
-      subheading: `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
+      subheading: isDe
+        ? `Erstellen Sie beeindruckende ${d1.label}-Arbeitsblätter, die Ihre Kunden lieben werden`
+        : `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
       images: [
-        { src: img(d1.folder, d1.imgs[0]), alt: `${d1.label} worksheet sample 1` },
-        { src: img(d1.folder, d1.imgs[1]), alt: `${d1.label} worksheet sample 2` },
-        { src: img(d1.folder, d1.imgs[2]), alt: `${d1.label} worksheet sample 3` },
+        { src: imgFn(d1.folder, d1.imgs[0]), alt: `${d1.label} worksheet sample 1` },
+        { src: imgFn(d1.folder, d1.imgs[1]), alt: `${d1.label} worksheet sample 2` },
+        { src: imgFn(d1.folder, d1.imgs[2]), alt: `${d1.label} worksheet sample 3` },
       ],
       pills: d1.pills,
       decorativeSymbol: d1.symbol,
     },
     tiered: {
       gradient: tieredGradients[seed % tieredGradients.length],
-      badge: 'Skill Levels',
-      heading: 'Worksheets for Every Level',
-      subheading: 'Three difficulty tiers for differentiated content',
+      badge: isDe ? 'Schwierigkeitsstufen' : 'Skill Levels',
+      heading: isDe ? 'Arbeitsblätter für jede Stufe' : 'Worksheets for Every Level',
+      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : 'Three difficulty tiers for differentiated content',
       tiers: [
         {
-          name: 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
-          image: { src: img(d2.folder, d2.imgs[0]), alt: `${d2.label} beginner worksheet` },
+          name: isDe ? 'Anfänger' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: `${d2.label} beginner worksheet` },
           desc: d2.tierDesc[0],
         },
         {
-          name: 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
-          image: { src: img(d3.folder, d3.imgs[1]), alt: `${d3.label} intermediate worksheet` },
+          name: isDe ? 'Entdecker' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: `${d3.label} intermediate worksheet` },
           desc: d3.tierDesc[1],
         },
         {
-          name: 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
-          image: { src: img(d4.folder, d4.imgs[2]), alt: `${d4.label} advanced worksheet` },
+          name: isDe ? 'Experte' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: `${d4.label} advanced worksheet` },
           desc: d4.tierDesc[2],
         },
       ],
-      trophyText: 'Professional quality at every difficulty level',
+      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : 'Professional quality at every difficulty level',
     },
     spotlight: {
       gradient: spotlightGradients[seed % spotlightGradients.length],
-      heading: `${d1.label} Showcase`,
-      tagline: 'See What You Can Create!',
-      image: { src: img(d1.folder, d1.imgs[3]), alt: `Featured ${d1.label.toLowerCase()} worksheet` },
+      heading: isDe ? `${d1.label}-Präsentation` : `${d1.label} Showcase`,
+      tagline: isDe ? 'So sieht es aus!' : 'See What You Can Create!',
+      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: `Featured ${d1.label.toLowerCase()} worksheet` },
       pills: d1.spotPills,
       hasBunting: seed % 2 === 0,
       hasConfetti: true,
@@ -474,14 +558,16 @@ function buildConfig(
     },
     gallery: {
       gradient: galleryGradient,
-      heading: 'Professional Worksheet Gallery',
-      subheading: 'Clean, polished layouts ready for your business',
+      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : 'Professional Worksheet Gallery',
+      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : 'Clean, polished layouts ready for your business',
       items: [
-        { image: { src: img(d2.folder, d2.imgs[3]), alt: `${d2.label} professional worksheet` }, label: d2.label },
-        { image: { src: img(d3.folder, d3.imgs[4]), alt: `${d3.label} professional worksheet` }, label: d3.label },
-        { image: { src: img(d4.folder, d4.imgs[0]), alt: `${d4.label} professional worksheet` }, label: d4.label },
+        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: `${d2.label} professional worksheet` }, label: d2.label },
+        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: `${d3.label} professional worksheet` }, label: d3.label },
+        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: `${d4.label} professional worksheet` }, label: d4.label },
       ],
-      pills: ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
+      pills: isDe
+        ? ['Druckfertig', 'Professionelle Qualität', 'Verschiedene Formate', 'Lösungsschlüssel']
+        : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },
   };
@@ -636,18 +722,24 @@ const pages: PageEntry[] = [
   { type: 'start', id: 'printable-business-legal', title: 'Legal Guide for Printables', apps: ['writing', 'wordsearch', 'math-worksheet', 'crossword'] },
 ];
 
-// ─── Build config map ───
+// ─── Build config maps ───
 type PageKey = `${'guide' | 'bundle' | 'idea' | 'start'}:${string}`;
-const configMap = new Map<PageKey, PageShowcaseConfig>();
+const enConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const deConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
-  configMap.set(`${p.type}:${p.id}` as PageKey, buildConfig(p.apps, p.title, i));
+  const key = `${p.type}:${p.id}` as PageKey;
+  enConfigMap.set(key, buildConfig(p.apps, p.title, i, 'en'));
+  deConfigMap.set(key, buildConfig(p.apps, p.title, i, 'de'));
 });
 
 // ─── Public API ───
 export function getPageShowcaseConfig(
   pageType: 'guide' | 'bundle' | 'idea' | 'start',
   pageId: string,
+  locale: string = 'en',
 ): PageShowcaseConfig | null {
-  return configMap.get(`${pageType}:${pageId}` as PageKey) ?? null;
+  const key = `${pageType}:${pageId}` as PageKey;
+  if (locale === 'de') return deConfigMap.get(key) ?? null;
+  return enConfigMap.get(key) ?? null;
 }

@@ -12,12 +12,12 @@ export type {
   GalleryConfig,
 } from './ShowcaseSections';
 
-import { showcaseConfigs, type ShowcaseConfig } from './showcase-configs';
+import { showcaseConfigs, getLocalizedShowcaseConfig, type ShowcaseConfig } from './showcase-configs';
 
 export type { ShowcaseConfig };
 
-export function getShowcaseConfig(appId: string): ShowcaseConfig | null {
-  return showcaseConfigs[appId] ?? null;
+export function getShowcaseConfig(appId: string, locale: string = 'en'): ShowcaseConfig | null {
+  return getLocalizedShowcaseConfig(appId, locale);
 }
 
 export function hasShowcase(appId: string): boolean {

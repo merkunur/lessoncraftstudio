@@ -146,8 +146,8 @@ export default async function ToolPage({
   const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
   const cta = toolCta[locale] || toolCta.en;
 
-  // Showcase config (English only)
-  const showcaseConfig = locale === 'en' ? getToolShowcaseConfig(toolConfig.toolId) : null;
+  // Showcase config (EN + DE)
+  const showcaseConfig = (locale === 'en' || locale === 'de') ? getToolShowcaseConfig(toolConfig.toolId, locale) : null;
 
   // App launch URL
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;

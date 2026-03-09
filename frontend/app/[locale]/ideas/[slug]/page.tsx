@@ -165,9 +165,9 @@ export default async function IdeaPage({
 
   const content = await getIdeaContent(config.ideaId, locale);
 
-  // Look up visual showcase config (English only)
-  const showcaseConfig = locale === 'en'
-    ? getPageShowcaseConfig('idea', config.ideaId)
+  // Look up visual showcase config (EN + DE)
+  const showcaseConfig = (locale === 'en' || locale === 'de')
+    ? getPageShowcaseConfig('idea', config.ideaId, locale)
     : null;
 
   if (content) {

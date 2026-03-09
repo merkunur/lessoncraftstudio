@@ -629,8 +629,8 @@ export default async function AppDetailPage({
   const content = await getAppContent(wpAppId, locale);
   const audience = getCategoryAudience(category, locale);
 
-  // Visual showcase sections — EN only, config-driven per app
-  const showcaseConfig = locale === 'en' ? getShowcaseConfig(wpAppId) : null;
+  // Visual showcase sections — EN + DE, config-driven per app
+  const showcaseConfig = (locale === 'en' || locale === 'de') ? getShowcaseConfig(wpAppId, locale) : null;
 
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;

@@ -18,6 +18,7 @@ import type { AppContent } from '@/config/app-content';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import { getSectionLabel } from '@/config/section-labels';
+import { WorksheetShowcase, DifficultyLevels, FunFactor, ProfessionalQuality } from './AdditionShowcase';
 
 // ── Slug-appId to WP-appId mapping ──
 // product-page-slugs uses different IDs than warriorplus-products for some apps
@@ -622,6 +623,9 @@ export default async function AppDetailPage({
   const content = await getAppContent(wpAppId, locale);
   const audience = getCategoryAudience(category, locale);
 
+  // Visual showcase sections — currently addition EN only (test run)
+  const showVisualShowcase = wpAppId === 'addition' && locale === 'en';
+
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
   const launchUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${locale}&tier=free`;
@@ -748,6 +752,9 @@ export default async function AppDetailPage({
             </div>
           </section>
 
+          {/* Visual Showcase: Worksheet Showcase (after Hero) */}
+          {showVisualShowcase && <WorksheetShowcase />}
+
           {/* How It Works (enriched — 5 steps) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4">
@@ -768,6 +775,9 @@ export default async function AppDetailPage({
             </div>
           </section>
 
+          {/* Visual Showcase: Difficulty Levels (after How It Works) */}
+          {showVisualShowcase && <DifficultyLevels />}
+
           {/* Key Features (enriched — 8 feature cards) */}
           <section className="py-12 md:py-16 bg-white">
             <div className="container mx-auto px-4">
@@ -782,6 +792,9 @@ export default async function AppDetailPage({
               </div>
             </div>
           </section>
+
+          {/* Visual Showcase: Fun Factor (after Key Features) */}
+          {showVisualShowcase && <FunFactor />}
 
           {/* Business Use Cases */}
           <section className="py-12 md:py-16">
@@ -800,6 +813,9 @@ export default async function AppDetailPage({
               </div>
             </div>
           </section>
+
+          {/* Visual Showcase: Professional Quality (after Business Use Cases) */}
+          {showVisualShowcase && <ProfessionalQuality />}
 
           {/* Who Is This For */}
           {audience.length > 0 && (

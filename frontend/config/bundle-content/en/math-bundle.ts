@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk math worksheet creation tool',
     ],
     titleTag: 'Math Worksheet Bundle — 6 Generators | Math Mastery',
-    metaDescription: 'Get 6 professional math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, jigsaw math, and algebra worksheets to sell on Etsy, KDP, and TpT. Commercial license included.',
+    metaDescription: 'Get 6 math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, and algebra worksheets to sell on Etsy, KDP & TPT.',
   },
 
   hero: {

@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Space Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover space printable ideas to sell on Etsy, Amazon KDP, and TPT. Outer space product concepts, STEM strategies, and platform tips for printable sellers.',
+
+    primaryKeyword: 'space printable ideas',
+    secondaryKeywords: [
+      'space themed worksheets to sell',
+      'space printable business ideas',
+      'space activity sheets for sellers',
+      'sell space printables on Etsy',
+    ],
+    lsiKeywords: [
+      'astronomy educational worksheets',
+      'planet and rocket activity pages',
+      'solar system classroom printables',
+    ],
   },
   hero: {
     title: 'Space Printable Business Ideas for Sellers',

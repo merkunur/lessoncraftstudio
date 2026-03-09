@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Custom Worksheet Service Business Ideas to Sell \u2014 Guide',
-    metaDescription: 'Custom worksheet service business ideas for Etsy and freelance sellers. Offer made-to-order educational printables with premium per-order pricing.',
+    metaDescription: 'Custom worksheet service business ideas for Etsy and freelance sellers. Offer made-to-order educational printables with premium per-order pricing strategies.',
+
+    primaryKeyword: 'custom worksheet service',
+    secondaryKeywords: [
+      'custom worksheet business ideas',
+      'bespoke printable creation service',
+      'made-to-order worksheet business',
+      'sell custom worksheets online',
+    ],
+    lsiKeywords: [
+      'personalized educational printables',
+      'on-demand worksheet creation',
+      'freelance printable design service',
+    ],
   },
   hero: {
     title: 'Custom Worksheet Service Business Ideas for Sellers',

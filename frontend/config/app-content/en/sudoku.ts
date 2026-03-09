@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create picture sudoku worksheets to sell',
+    primaryKeyword: 'picture sudoku generator',
     secondaryKeywords: [
       'printable picture sudoku maker for Etsy sellers',
       'image sudoku puzzle generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell sudoku puzzle worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital sudoku printables passive income',
+      'digital sudoku printables online business',
       'commercial use picture puzzle generator',
       'printable logic puzzle business tools',
     ],
-    titleTag: 'Picture Sudoku Generator | Create & Sell Sudoku Worksheets',
-    metaDescription:
-      'Create 4\u00d74 picture sudoku worksheets to sell on Etsy, Amazon KDP, and TPT. Three difficulty levels, auto answer key, 104 themes, visual-only puzzles. Free to try \u2014 commercial license available.',
+    titleTag: 'Picture Sudoku Generator | Create & Sell Worksheets',
+    metaDescription: 'Create picture sudoku worksheets to sell on Etsy, KDP & TPT. 4x4 grid, three difficulty levels, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {

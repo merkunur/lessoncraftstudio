@@ -15,7 +15,7 @@ const content: ToolContent = {
       'image pair matching line tracing printables',
     ],
     titleTag: 'Line Tracing Worksheet Maker \u2014 Drawing Lines Generator',
-    metaDescription: 'Create professional line tracing worksheets with eight SVG line templates \u2014 curves, diagonals, horizontal, vertical \u2014 plus 3,100+ colorful illustrations across 104 themes. Auto-fill image pairs for fast batch creation. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create line tracing worksheets with eight SVG templates, 3,100+ illustrations across 104 themes, and auto-fill image pairs. Try free — license available.',
   },
 
   hero: {

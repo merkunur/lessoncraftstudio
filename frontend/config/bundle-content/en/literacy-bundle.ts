@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk language worksheet creation tool',
     ],
     titleTag: 'Literacy Worksheet Bundle — 7 Language & Word Generators',
-    metaDescription: 'Get 7 professional literacy and language worksheet generators in one bundle. Create alphabet, word search, word scramble, cryptogram, prepositions, word guess, and handwriting worksheets in 11 languages. Sell on Etsy, KDP, and TpT with commercial license.',
+    metaDescription: 'Get 7 literacy worksheet generators in one bundle. Create alphabet, word search, cryptogram, prepositions, and handwriting worksheets in 11 languages.',
   },
 
   hero: {

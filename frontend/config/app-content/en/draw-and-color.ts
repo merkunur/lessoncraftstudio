@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create draw and color worksheets to sell',
+    primaryKeyword: 'draw & color generator',
     secondaryKeywords: [
       'printable grid drawing worksheet maker for Etsy sellers',
       'custom draw and color worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'draw and color worksheets commercial license',
     ],
     lsiKeywords: [
-      'digital grid drawing printables passive income',
+      'digital grid drawing printables online business',
       'printable cell-by-cell reproduction worksheet business',
       'commercial use draw and color worksheet generator',
     ],
-    titleTag: 'Draw & Color Worksheet Generator | Create & Sell Grid Drawing',
-    metaDescription:
-      'Create professional grid drawing worksheets to sell on Etsy, Amazon KDP, and TPT. Dual grid system with adjustable clue percentage, symmetry modes, 100+ B&W themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Draw & Color Generator | Create Grid Art Worksheets',
+    metaDescription: 'Create grid drawing worksheets to sell on Etsy, KDP & TPT. Dual grid system, adjustable clue percentage, symmetry modes. Try free — license available.',
   },
 
   hero: {

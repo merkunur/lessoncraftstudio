@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Kindergarten Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore kindergarten printable ideas to sell on Etsy, Amazon KDP, and TPT. K-level product concepts and niche strategies for printable sellers and entrepreneurs.',
+    metaDescription: 'Explore kindergarten printable ideas to sell on Etsy, Amazon KDP, and TPT. K-level product concepts and niche strategies for printable sellers worldwide.',
+
+    primaryKeyword: 'kindergarten printable ideas',
+    secondaryKeywords: [
+      'kindergarten worksheets to sell',
+      'K-level printable business ideas',
+      'kindergarten activity sheets for sellers',
+      'sell kindergarten printables on TPT',
+    ],
+    lsiKeywords: [
+      'pre-K and K educational worksheets',
+      'early childhood learning printables',
+      'age 5-6 classroom activity pages',
+    ],
   },
   hero: {
     title: 'Kindergarten Printable Business Ideas for Sellers',

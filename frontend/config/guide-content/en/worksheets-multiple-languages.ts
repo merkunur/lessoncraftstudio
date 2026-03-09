@@ -18,7 +18,7 @@ const content: GuideContent = {
       'batch production multi-language content generation automated translation tools vocabulary databases',
     ],
     titleTag: 'Create Worksheets Multiple Languages \u2014 Guide',
-    metaDescription: 'Create worksheets multiple languages with production workflows, character set handling, font selection, quality assurance, and listing adaptation.',
+    metaDescription: 'How to create worksheets in multiple languages with production workflows, character handling, font selection, quality assurance, and listing adaptation.',
   },
 
   hero: {

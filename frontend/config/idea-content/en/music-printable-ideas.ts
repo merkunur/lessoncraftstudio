@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Music Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Explore music printable ideas to sell on Etsy, Amazon KDP, and TPT. Instrument-themed product concepts, platform tips, and niche strategies for sellers.',
+
+    primaryKeyword: 'music printable ideas',
+    secondaryKeywords: [
+      'music themed worksheets to sell',
+      'music printable business ideas',
+      'music activity sheets for sellers',
+      'sell music printables on Etsy',
+    ],
+    lsiKeywords: [
+      'instrument themed educational worksheets',
+      'rhythm and note activities for kids',
+      'music theory classroom printables',
+    ],
   },
   hero: {
     title: 'Music Printable Business Ideas for Sellers',

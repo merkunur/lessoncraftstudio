@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license worksheet tool',
     ],
     titleTag: 'How to Create Pattern Worksheets \u2014 Step-by-Step Guide',
-    metaDescription: 'Create pattern worksheets with 9 types, themed images, answer keys, and 2 question formats. Export PDFs to sell on Etsy and KDP.',
+    metaDescription: 'Create pattern worksheets with 9 types, themed images, auto answer keys, and 2 question formats. Export print-ready PDFs to sell on Etsy, Amazon KDP, and TpT.',
   },
 
   hero: {

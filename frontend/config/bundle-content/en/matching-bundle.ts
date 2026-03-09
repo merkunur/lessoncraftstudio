@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk matching worksheet creation tool',
     ],
     titleTag: 'Matching Worksheet Bundle — 5 Sorting & Matching Generators',
-    metaDescription: 'Get 5 professional matching and sorting worksheet generators in one bundle. Create matching, grid match, shadow match, bingo cards, and picture sort worksheets to sell on Etsy, KDP, and TpT. Commercial license included.',
+    metaDescription: 'Get 5 matching worksheet generators in one bundle. Create matching, grid match, shadow match, bingo, and sorting worksheets to sell on Etsy, KDP & TPT.',
   },
 
   hero: {

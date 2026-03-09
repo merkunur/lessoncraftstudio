@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Camping Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover camping printable ideas to sell on Etsy, Amazon KDP, and TPT. Outdoor-themed product concepts, platform strategies, and niche tips for printable sellers.',
+    metaDescription: 'Discover camping printable ideas to sell on Etsy, Amazon KDP, and TPT. Outdoor-themed product concepts, platform strategies, and niche tips for sellers.',
+
+    primaryKeyword: 'camping printable ideas',
+    secondaryKeywords: [
+      'camping worksheets to sell',
+      'camping activity sheets for sellers',
+      'outdoor themed printable business',
+      'sell camping printables on Etsy',
+    ],
+    lsiKeywords: [
+      'outdoor adventure educational worksheets',
+      'nature themed activity pages',
+      'summer camp printable resources',
+    ],
   },
   hero: {
     title: 'Camping Printable Business Ideas for Sellers',

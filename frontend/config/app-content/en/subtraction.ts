@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'make subtraction worksheets to sell online',
+    primaryKeyword: 'subtraction worksheet generator',
     secondaryKeywords: [
       'subtraction printables for Etsy sellers',
       'create subtraction activity books for Amazon KDP',
@@ -14,9 +14,8 @@ const content: AppContent = {
       'math printable business ideas',
       'worksheet creator for online sellers',
     ],
-    titleTag: 'Subtraction Worksheet Generator | Create & Sell Printables',
-    metaDescription:
-      'Make professional subtraction worksheets to sell on Etsy, Amazon KDP, or TPT. 5 exercise modes, 104 visual themes, answer keys, and 400+ DPI export. Free to try.',
+    titleTag: 'Subtraction Worksheet Generator | Sell Printables',
+    metaDescription: 'Create subtraction worksheets to sell on Etsy, KDP & TPT. 5 exercise modes, 104 visual themes, auto answer keys, 400+ DPI export. Try free — license available.',
   },
 
   hero: {
@@ -188,7 +187,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your subtraction worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent passive income.',
+        'Yes. With a commercial license, you have full rights to sell your subtraction worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue.',
     },
     {
       question: 'What is the refund policy?',

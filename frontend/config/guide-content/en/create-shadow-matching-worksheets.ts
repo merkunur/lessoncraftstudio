@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license shadow matching tool',
     ],
     titleTag: 'Shadow Matching Worksheets \u2014 Guide',
-    metaDescription: 'How to create shadow matching worksheets with two modes. Step-by-step guide: Shadow Match generates pixel-level silhouettes, Make It Whole splits images into halves, auto answer keys, and sell on Etsy and KDP.',
+    metaDescription: 'Create shadow matching worksheets with two modes: Shadow Match for silhouettes and Make It Whole for split images. Step-by-step guide to sell on Etsy & KDP.',
   },
 
   hero: {

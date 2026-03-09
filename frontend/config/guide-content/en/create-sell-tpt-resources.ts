@@ -18,7 +18,7 @@ const content: GuideContent = {
       'worksheet bundle curriculum unit activity pack pricing strategy',
     ],
     titleTag: 'How to Create and Sell TPT Resources \u2014 Guide',
-    metaDescription: 'How to create and sell TPT resources. Account setup, resource formatting, listing optimization, pricing strategy, and building momentum on the teacher marketplace.',
+    metaDescription: 'How to create and sell TPT resources. Account setup, resource formatting, listing optimization, pricing, and building momentum on Teachers Pay Teachers.',
   },
 
   hero: {

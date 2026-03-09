@@ -18,7 +18,7 @@ const content: StartContent = {
       'print-ready PDF worksheets',
     ],
     titleTag: 'How to Create Worksheets to Sell \u2014 Professional Guide',
-    metaDescription: 'How to create worksheets to sell on Etsy, Amazon KDP, and TpT. Step-by-step creation process with generators, themed images, and answer keys.',
+    metaDescription: 'How to create worksheets that sell on Etsy, Amazon KDP, and TpT. Step-by-step guide covering themed images, answer keys, pricing, and listing optimization.',
   },
 
   hero: {

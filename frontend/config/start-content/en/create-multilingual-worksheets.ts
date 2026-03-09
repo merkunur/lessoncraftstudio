@@ -18,7 +18,7 @@ const content: StartContent = {
       'sell worksheets on etsy.de etsy.fr',
     ],
     titleTag: 'Multilingual Worksheet Generator \u2014 11 Languages',
-    metaDescription: 'Use a multilingual worksheet generator to create and sell worksheets in 11 languages. Reach German, French, Spanish buyers on Etsy and Amazon KDP.',
+    metaDescription: 'Create and sell worksheets in 11 languages with a multilingual generator. Reach German, French, and Spanish buyers on Etsy, Amazon KDP, and global markets.',
   },
 
   hero: {

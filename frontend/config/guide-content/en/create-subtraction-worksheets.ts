@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license worksheet tool',
     ],
     titleTag: 'Create Subtraction Worksheets \u2014 Step-by-Step Guide',
-    metaDescription: 'Create subtraction worksheets for kids with crossed-out images, themed visuals, and answer keys. Step-by-step guide to selling on Etsy, KDP, and TpT.',
+    metaDescription: 'Create subtraction worksheets for kids with crossed-out images, themed visuals, and auto answer keys. Step-by-step guide to selling on Etsy, KDP, and TpT.',
   },
 
   hero: {

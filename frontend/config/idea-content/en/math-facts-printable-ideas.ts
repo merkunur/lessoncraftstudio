@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Math Facts Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the evergreen high-volume market where teachers, parents, tutors, and homeschool families purchase math fact fluency worksheets, timed practice drills, and computational mastery materials year-round.',
+    metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers and parents who need practice sheets.',
+
+    primaryKeyword: 'math facts printable ideas',
+    secondaryKeywords: [
+      'math fact worksheets to sell',
+      'math drill printable business ideas',
+      'arithmetic activity sheets for sellers',
+      'sell math facts printables on TPT',
+    ],
+    lsiKeywords: [
+      'number fluency practice worksheets',
+      'timed math drill printable pages',
+      'basic arithmetic educational resources',
+    ],
   },
   hero: {
     title: 'Math Facts Printable Business Ideas for Sellers',

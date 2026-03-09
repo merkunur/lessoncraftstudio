@@ -15,7 +15,7 @@ const content: ToolContent = {
       'symmetry mirror mode drawing worksheet maker',
     ],
     titleTag: 'Drawing Worksheet Generator \u2014 Grid Drawing Maker | Sell',
-    metaDescription: 'Generate grid drawing worksheets with a dual grid system (practice grid + clue grid), adjustable clue percentage from 10% to 75%, three symmetry modes, configurable grid sizes from 3\u00d73 to 10\u00d710, and 100+ B&W outline theme collections. Create draw and color worksheets to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate grid drawing worksheets with dual grids, adjustable clue percentage, three symmetry modes, and themed image sets. Try free — license available.',
   },
 
   hero: {

@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Summer Learning Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover summer learning printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the high-demand seasonal market where parents, teachers, and camp directors purchase summer bridge worksheets, vacation activity packs, and skill-retention printables to prevent summer learning loss.',
+    metaDescription: 'Discover summer learning printable ideas to sell on Etsy, Amazon KDP, and TPT. Seasonal product concepts for parents, teachers, and camp activity coordinators.',
+
+    primaryKeyword: 'summer learning printable ideas',
+    secondaryKeywords: [
+      'summer learning worksheets to sell',
+      'summer slide printable business',
+      'summer practice sheets for sellers',
+      'sell summer learning printables on TPT',
+    ],
+    lsiKeywords: [
+      'summer brain prevention worksheets',
+      'vacation learning activity pages',
+      'skill retention printable resources',
+    ],
   },
   hero: {
     title: 'Summer Learning Printable Business Ideas for Sellers',

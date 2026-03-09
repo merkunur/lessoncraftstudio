@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'First Grade Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover first grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts and niche strategies for printable sellers targeting 1st grade academics.',
+    metaDescription: 'Discover first grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts and niche strategies for sellers targeting first grade academics.',
+
+    primaryKeyword: 'first grade printable ideas',
+    secondaryKeywords: [
+      'first grade worksheets to sell',
+      'grade 1 printable business ideas',
+      'first grade activity sheets for sellers',
+      'sell first grade printables on TPT',
+    ],
+    lsiKeywords: [
+      'early elementary educational worksheets',
+      'grade 1 curriculum printables',
+      'age 6-7 learning activity pages',
+    ],
   },
   hero: {
     title: 'First Grade Printable Business Ideas for Sellers',

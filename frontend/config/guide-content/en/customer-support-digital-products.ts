@@ -18,7 +18,7 @@ const content: GuideContent = {
       'scalable support systems template libraries pattern tracking feedback loops',
     ],
     titleTag: 'Customer Support Digital Products \u2014 Guide',
-    metaDescription: 'Learn customer support digital products strategies: issue prevention, response templates, refund handling, review management, and scalable systems.',
+    metaDescription: 'Customer support strategies for digital product sellers. Covers issue prevention, response templates, refund handling, review management, and scalable systems.',
   },
 
   hero: {

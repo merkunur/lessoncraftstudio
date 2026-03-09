@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create word search worksheets to sell',
+    primaryKeyword: 'word search generator',
     secondaryKeywords: [
       'printable word search puzzle maker for Etsy sellers',
       'custom word search worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'word search printables commercial license',
     ],
     lsiKeywords: [
-      'digital word search puzzle products passive income',
+      'digital word search puzzle products online business',
       'printable hidden-word grid worksheet business',
       'commercial use word search generator',
     ],
-    titleTag: 'Word Search Worksheet Generator | Create & Sell Grid Puzzles',
-    metaDescription:
-      'Create professional word search worksheets to sell on Etsy, Amazon KDP, and TPT. Adjustable grid size 5\u201330, direction controls, locale-aware fillers, 11 languages. Free to try \u2014 commercial license available.',
+    titleTag: 'Word Search Generator | Create & Sell Worksheets',
+    metaDescription: 'Create word search worksheets to sell on Etsy, KDP & TPT. Adjustable grid size 5-30, direction controls, locale-aware fillers. Try free — license available.',
   },
 
   hero: {

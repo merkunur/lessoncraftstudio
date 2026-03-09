@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Subscription Box Printable Ideas to Sell \u2014 Guide',
     metaDescription: 'Worksheet subscription box ideas to sell on Etsy, Gumroad, and Patreon. Build recurring revenue with monthly curated worksheet packs and themed bundles.',
+
+    primaryKeyword: 'subscription box printable ideas',
+    secondaryKeywords: [
+      'printable subscription box business',
+      'monthly worksheet subscription model',
+      'recurring printable delivery service',
+      'sell printable subscriptions online',
+    ],
+    lsiKeywords: [
+      'monthly educational delivery products',
+      'recurring worksheet revenue model',
+      'curated printable package service',
+    ],
   },
   hero: {
     title: 'Worksheet Subscription Box Business Ideas for Sellers',

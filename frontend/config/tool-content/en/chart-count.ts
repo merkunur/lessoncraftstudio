@@ -15,7 +15,7 @@ const content: ToolContent = {
       'dual-canvas data representation worksheet maker',
     ],
     titleTag: 'Picture Graph Worksheet Maker \u2014 Chart Count Generator',
-    metaDescription: 'Create picture graph worksheets with a scattered 4\u00d75 image grid, 6 image types per sheet, auto-generated answer key with yellow-highlighted cells, localized headers in 11 languages, and 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create picture graph worksheets with scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, and 104 themed images. Try free — license available.',
   },
 
   hero: {

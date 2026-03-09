@@ -18,7 +18,7 @@ const content: StartContent = {
       'reinvestment strategy for printable business',
     ],
     titleTag: 'Scale Printable Business \u2014 Side Hustle to Full-Time',
-    metaDescription: 'How to scale printable business from side hustle to full-time: catalog expansion, multi-platform distribution, bundling, and workflow optimization.',
+    metaDescription: 'How to scale your printable business from side hustle to full-time. Covers catalog expansion, multi-platform distribution, bundling, and workflow automation.',
   },
 
   hero: {

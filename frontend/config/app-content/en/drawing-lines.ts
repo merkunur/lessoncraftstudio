@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create drawing lines worksheets to sell',
+    primaryKeyword: 'drawing lines generator',
     secondaryKeywords: [
       'printable line tracing worksheet maker for Etsy sellers',
       'custom drawing lines worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'drawing lines worksheets commercial license',
     ],
     lsiKeywords: [
-      'digital line tracing printables passive income',
+      'digital line tracing printables online business',
       'printable fine motor skills worksheet business',
       'commercial use drawing lines worksheet generator',
     ],
-    titleTag: 'Drawing Lines Worksheet Generator | Create & Sell Line Tracing',
-    metaDescription:
-      'Create professional line tracing worksheets to sell on Etsy, Amazon KDP, and TPT. Eight SVG line templates \u2014 curves, diagonals, horizontal, vertical \u2014 with image pair matching. Free to try \u2014 commercial license available.',
+    titleTag: 'Drawing Lines Generator | Create Tracing Worksheets',
+    metaDescription: 'Create line tracing worksheets to sell on Etsy, KDP & TPT. Eight SVG templates, image pair matching, 104 themed collections. Try free — license available.',
   },
 
   hero: {

@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Forest Animals Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Explore forest animal printable ideas to sell on Etsy, Amazon KDP, and TPT. Woodland product concepts, platform tips, and niche strategies for sellers.',
+
+    primaryKeyword: 'forest animals printable ideas',
+    secondaryKeywords: [
+      'forest animal worksheets to sell',
+      'woodland themed printable business',
+      'forest activity sheets for sellers',
+      'sell forest animal printables online',
+    ],
+    lsiKeywords: [
+      'woodland creature educational worksheets',
+      'nature habitat activities for kids',
+      'wildlife themed classroom printables',
+    ],
   },
   hero: {
     title: 'Forest Animals Printable Business Ideas for Sellers',

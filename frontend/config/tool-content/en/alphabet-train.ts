@@ -14,7 +14,7 @@ const content: ToolContent = {
       'alphabet matching worksheet tool',
       'multilingual alphabet activity generator',
     ],
-    titleTag: 'Alphabet Train Worksheet Generator | Create & Sell Letter Recognition Printables',
+    titleTag: 'Alphabet Train Worksheet Generator | Sell Printables',
     metaDescription: 'Generate colorful alphabet train worksheets with letter-image matching across 11 languages. Create unique multilingual printables to sell on Etsy, KDP, and TpT.',
   },
 
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Alphabet Train Packs',
-      description: 'Create sets of 10\u201315 alphabet train worksheets using themed image collections \u2014 animals, food, vehicles, nature. Each worksheet uses different letters and images at a consistent clue count. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The colorful train-wagon format makes your listing thumbnail pop against flat letter-tracing worksheets.',
+      description: 'Create sets of 10\u201315 alphabet train worksheets using themed image collections \u2014 animals, food, vehicles, nature. Each worksheet uses different letters and images at a consistent clue count. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The colorful train-wagon format makes your listing thumbnail pop against flat letter-tracing worksheets. Include answer keys with every set so buyers get a complete, classroom-ready resource that requires no additional preparation from the teacher.',
     },
     {
       title: 'KDP Alphabet Activity Books',
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Start with 3 Clues for Beginners',
-      description: 'A 3-clue worksheet gives young learners a gentle introduction \u2014 they only need to match 3 images to wagons while the remaining 8 wagons display letters without a matching task. This prevents overwhelm for preschoolers and early kindergartners. Increase to 7 or 11 clues as students gain confidence.',
+      description: 'A 3-clue worksheet gives young learners a gentle introduction \u2014 they only need to match 3 images to wagons while the remaining 8 wagons display letters without a matching task. This prevents overwhelm for preschoolers and early kindergartners. Increase to 7 or 11 clues as students gain confidence. Sellers on Etsy and TpT can package easy, medium, and hard versions together as a differentiated set, giving teachers exactly what they search for and justifying a higher bundle price point for the complete collection.',
     },
     {
       title: 'Use Auto Create for Speed, Manual for Control',
-      description: 'Auto Create mode randomly selects letters and assigns images, letting you generate dozens of unique worksheets in minutes. Switch to Manual Selection when you need specific letter groups \u2014 for example, only vowels, only consonants, or letters your students are currently learning in class.',
+      description: 'Auto Create mode randomly selects letters and assigns images, letting you generate dozens of unique worksheets in minutes. Switch to Manual Selection when you need specific letter groups \u2014 for example, only vowels, only consonants, or letters your students are currently learning in class. From a seller\'s perspective, Auto Create is ideal for building high-volume variety packs quickly, while Manual Selection lets you create curriculum-aligned products targeting specific phonics units that teachers actively search for on TpT and Etsy.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets intended for Amazon KDP interiors or classroom bulk printing. Black-and-white trains cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant wagons attract clicks.',
+      description: 'Enable the grayscale toggle for worksheets intended for Amazon KDP interiors or classroom bulk printing. Black-and-white trains cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant wagons attract clicks. Many KDP sellers create two editions of the same book \u2014 a full-color digital version and a grayscale print version \u2014 doubling their catalog from a single design session without any extra artwork.',
     },
     {
       title: 'Upload Custom Images for Branding',
-      description: 'Upload your own illustrations or licensed artwork to create alphabet trains no competitor can replicate. Custom images let you build a consistent visual brand across your Etsy shop and make your products instantly recognizable to returning customers.',
+      description: 'Upload your own illustrations or licensed artwork to create alphabet trains no competitor can replicate. Custom images let you build a consistent visual brand across your Etsy shop and make your products instantly recognizable to returning customers. This is especially valuable for sellers who commission original clipart \u2014 your alphabet train listings become impossible to duplicate, reducing direct competition and strengthening your store\u2019s unique identity in search results.',
     },
     {
       title: 'Pair with Other Literacy Tools',
-      description: 'Combine alphabet train worksheets with handwriting worksheets, word search puzzles, and word scramble activities to create comprehensive literacy bundles. A "Complete Letter Learning" pack with multiple activity types commands a higher price than any single worksheet format.',
+      description: 'Combine alphabet train worksheets with handwriting worksheets, word search puzzles, and word scramble activities to create comprehensive literacy bundles. A "Complete Letter Learning" pack with multiple activity types commands a higher price than any single worksheet format. Cross-linking between individual product listings and the combined bundle in your shop descriptions drives internal traffic and encourages multi-item cart purchases, increasing your average order value across the entire store.',
     },
     {
       title: 'Pair with Pattern Train for a Train-Theme Bundle',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does the alphabet train format work?',
-      answer: 'The tool creates 11 colorful train wagons, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train. Students identify which letter each clue image starts with and match it to the correct wagon. The number of clue images is configurable from 3 to 11.',
+      answer: 'The tool creates 11 colorful train wagons, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train. Students identify which letter each clue image starts with and match it to the correct wagon. The number of clue images is configurable from 3 to 11. An answer key is generated alongside every worksheet, showing the correct letter-image connections so teachers and parents can check work quickly without needing to solve the puzzle themselves.',
     },
     {
       question: 'What is the difference between Auto Create and Manual Selection?',

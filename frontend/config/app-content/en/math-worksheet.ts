@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create algebra puzzle worksheets to sell',
+    primaryKeyword: 'algebra puzzle generator',
     secondaryKeywords: [
       'printable algebra picture puzzles for Etsy sellers',
       'algebraic equation worksheet maker for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'algebra puzzle printables commercial license',
     ],
     lsiKeywords: [
-      'digital algebra worksheet products passive income',
+      'digital algebra worksheet products online business',
       'printable equation puzzle business',
       'commercial use algebraic worksheet generator',
     ],
-    titleTag: 'Algebra Puzzle Worksheet Generator | Create & Sell Math Printables',
-    metaDescription:
-      'Create professional algebra picture-puzzle worksheets to sell on Etsy, Amazon KDP, and TPT. Images as variables, 4 difficulty levels, unique solutions, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Algebra Puzzle Generator | Create Math Worksheets',
+    metaDescription: 'Create algebra puzzle worksheets to sell on Etsy, KDP & TPT. Images as variables, 4 difficulty levels, unique solutions. Try free — license available.',
   },
 
   hero: {
@@ -148,12 +147,12 @@ const content: AppContent = {
     {
       question: 'What do the four difficulty levels mean?',
       answer:
-        'Very Easy and Easy levels use two image symbols in a small system of equations \u2014 ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging students to track multiple unknowns. Each level produces a system that the generator\u2019s solver has verified has exactly one solution.',
+        'Very Easy and Easy levels use two image symbols in a small system of equations \u2014 ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging students to track multiple unknowns. Each level produces a system that the generator\u2019s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide learners from beginner to advanced, maximizing the number of distinct products you can list.',
     },
     {
       question: 'What math operations are available?',
       answer:
-        'You can choose Addition Only, which generates equations using only addition, or Addition & Subtraction, which mixes both operations within the same puzzle. Addition Only is ideal for younger students, while mixed operations add complexity for advanced learners and create more varied equation structures.',
+        'You can choose Addition Only, which generates equations using only addition, or Addition & Subtraction, which mixes both operations within the same puzzle. Addition Only is ideal for younger students, while mixed operations add complexity for advanced learners and create more varied equation structures. Offering both operation modes in your product listings gives buyers clear differentiation and lets you position separate SKUs for early learners versus students ready for multi-operation algebraic challenges.',
     },
     {
       question: 'What number ranges can I set for the puzzles?',
@@ -163,22 +162,22 @@ const content: AppContent = {
     {
       question: 'Does every puzzle really have exactly one solution?',
       answer:
-        'Yes. The generator includes a built-in algebraic solver that validates every puzzle before placing it on the worksheet. If a randomly generated system would have multiple solutions or no solution, the generator discards it and creates a new one. You never need to manually verify the math \u2014 every puzzle is guaranteed to be uniquely solvable.',
+        'Yes. The generator includes a built-in algebraic solver that validates every puzzle before placing it on the worksheet. If a randomly generated system would have multiple solutions or no solution, the generator discards it and creates a new one. You never need to manually verify the math \u2014 every puzzle is guaranteed to be uniquely solvable. This built-in validation is a major time saver for sellers producing large puzzle batches, because you can generate dozens of worksheets in a single session with complete confidence that every puzzle is mathematically sound and ready for customers.',
     },
     {
       question: 'How do images work as algebraic variables?',
       answer:
-        'Each image you select from the library (or upload yourself) is assigned to represent one unknown variable in the equation system. The same image always represents the same value within a single puzzle. Students see familiar pictures instead of abstract letters, making the concept of variables concrete and accessible even for young learners who have never encountered formal algebra.',
+        'Each image you select from the library (or upload yourself) is assigned to represent one unknown variable in the equation system. The same image always represents the same value within a single puzzle. Students see familiar pictures instead of abstract letters, making the concept of variables concrete and accessible even for young learners who have never encountered formal algebra. Parents and teachers consistently respond well to this visual approach, and product listings that highlight the picture-variable concept in their descriptions tend to attract higher click-through rates on Etsy and Teachers Pay Teachers.',
     },
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a solved version that reveals the numeric value assigned to every image symbol. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet.',
+        'Yes. Click the Generate Answer Key button to create a solved version that reveals the numeric value assigned to every image symbol. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet. Including answer keys in every listing adds perceived value for buyers, since parents and teachers expect ready-made solutions they can use immediately without solving each puzzle themselves.',
     },
     {
       question: 'Are algebra puzzle worksheets language-sensitive?',
       answer:
-        'No. These worksheets are visual-only \u2014 the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\u2019s interface labels, not the worksheet content, making your products instantly sellable in any market.',
+        'No. These worksheets are visual-only \u2014 the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\u2019s interface labels, not the worksheet content, making your products instantly sellable in any market. This language independence is a genuine competitive advantage for sellers, because a single algebra puzzle PDF can be listed on marketplaces in North America, Europe, and Asia without modification or additional production costs.',
     },
     {
       question: 'Is there a free trial?',
@@ -193,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your algebra puzzle worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create difficulty-graded bundles and progressive algebra books that generate consistent passive income.',
+        'Yes. With a commercial license, you have full rights to sell your algebra puzzle worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create difficulty-graded bundles and progressive algebra books that generate consistent revenue. Try every feature with the free trial before purchasing \u2014 the trial includes all difficulty levels, themes, and export options so you can evaluate product quality firsthand.',
     },
     {
       question: 'What is the refund policy?',

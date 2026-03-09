@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create missing pieces puzzles to sell',
+    primaryKeyword: 'missing pieces generator',
     secondaryKeywords: [
       'printable jigsaw puzzle maker for Etsy sellers',
       'missing piece worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell missing pieces worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital puzzle printables passive income',
+      'digital puzzle printables online business',
       'commercial use visual puzzle generator',
       'printable jigsaw activity business tools',
     ],
-    titleTag: 'Missing Pieces Puzzle Generator | Create & Sell Visual Puzzles',
-    metaDescription:
-      'Create professional missing pieces puzzles to sell on Etsy, Amazon KDP, and TPT. 6 piece shapes, configurable difficulty, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Missing Pieces Generator | Create Visual Puzzles',
+    metaDescription: 'Create missing pieces puzzles to sell on Etsy, KDP & TPT. 6 piece shapes, configurable difficulty, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {

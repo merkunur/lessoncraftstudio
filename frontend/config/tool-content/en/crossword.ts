@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key filled grid dual-canvas crossword creator',
     ],
     titleTag: 'Crossword Maker \u2014 Picture Crossword Puzzle Generator',
-    metaDescription: 'Create picture crossword puzzles with image clues on a fixed 15\u00d715 grid \u2014 four input methods (quick theme, manual editing, custom word list, image upload), auto-generated answer key with filled grid, language-sensitive words in 11 languages via Image Vocabulary, 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create picture crosswords with image clues on a 15x15 grid, four input methods, auto answer keys, and 104 themed image sets. Try free — license available.',
   },
 
   hero: {

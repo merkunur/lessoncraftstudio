@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Spring Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover spring printable ideas to sell on Etsy, Amazon KDP, and TPT. Seasonal product concepts, March-May strategies, and platform tips for printable sellers.',
+
+    primaryKeyword: 'spring printable ideas',
+    secondaryKeywords: [
+      'spring worksheets to sell',
+      'spring themed printable business',
+      'spring activity sheets for sellers',
+      'sell spring printables on Etsy',
+    ],
+    lsiKeywords: [
+      'flower and garden educational worksheets',
+      'seasonal nature activity pages',
+      'springtime classroom printable resources',
+    ],
   },
   hero: {
     title: 'Spring Printable Business Ideas for Sellers',

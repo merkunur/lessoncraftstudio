@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license missing pieces tool',
     ],
     titleTag: 'Jigsaw Puzzle Worksheets \u2014 Guide',
-    metaDescription: 'How to create jigsaw puzzle worksheets with 6 piece shapes, smart extraction algorithm with brightness variance detection, distractor pieces from non-extracted regions, two independent difficulty controls, and auto answer keys with yellow highlighting for global sales on Etsy and KDP.',
+    metaDescription: 'Create jigsaw puzzle worksheets with 6 piece shapes, smart extraction, distractor pieces, and auto answer keys. Step-by-step selling guide for Etsy & KDP.',
   },
 
   hero: {

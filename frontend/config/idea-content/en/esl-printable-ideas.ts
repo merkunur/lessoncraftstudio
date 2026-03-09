@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'ESL Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover ESL printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the growing global market where ESL/ELL teachers, tutors, language schools, and immigrant families purchase vocabulary worksheets, visual-support activities, and scaffolded practice materials.',
+    metaDescription: 'Discover ESL printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers, tutors, and language learners worldwide.',
+
+    primaryKeyword: 'ESL printable ideas',
+    secondaryKeywords: [
+      'ESL worksheets to sell',
+      'ESL printable business ideas',
+      'English learner activity sheets',
+      'sell ESL printables on TPT',
+    ],
+    lsiKeywords: [
+      'English language learner worksheets',
+      'multilingual educational printables',
+      'TESOL classroom activity resources',
+    ],
   },
   hero: {
     title: 'ESL Printable Business Ideas for Sellers',

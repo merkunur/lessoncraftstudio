@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC pattern sequence worksheet maker',
     ],
     titleTag: 'Pattern Worksheet Generator \u2014 Train Maker | Sell',
-    metaDescription: 'Generate pattern train worksheets with five pattern types (AB, AAB, ABB, ABC, AABB), 11 themed train wagons, adjustable clue count from 4 to 10, auto answer keys, and 104 image collections. Create repeating sequence worksheets to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate pattern train worksheets with five pattern types, 11 themed train wagons, adjustable clue count, and auto answer keys. Try free — license available.',
   },
 
   hero: {

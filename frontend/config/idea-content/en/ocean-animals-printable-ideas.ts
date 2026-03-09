@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ocean Animals Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore profitable ocean animals printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and pricing tips for printable sellers.',
+    metaDescription: 'Explore ocean animals printable ideas to sell on Etsy, Amazon KDP, and TPT. Sea-themed product concepts, platform strategies, and tips for printable sellers.',
+
+    primaryKeyword: 'ocean animals printable ideas',
+    secondaryKeywords: [
+      'ocean animal worksheets to sell',
+      'sea creature printable business ideas',
+      'ocean activity sheets for sellers',
+      'sell ocean printables on Etsy',
+    ],
+    lsiKeywords: [
+      'marine life educational worksheets',
+      'underwater themed activity pages',
+      'sea creature classroom printables',
+    ],
   },
   hero: {
     title: 'Ocean Animals Printable Business Ideas for Sellers',

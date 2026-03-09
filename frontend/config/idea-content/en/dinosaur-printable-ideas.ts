@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Dinosaur Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Explore profitable dinosaur printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche tips for printable sellers.',
+
+    primaryKeyword: 'dinosaur printable ideas',
+    secondaryKeywords: [
+      'dinosaur worksheets to sell',
+      'dinosaur themed printable business',
+      'dinosaur activity sheets for sellers',
+      'sell dinosaur printables on Etsy',
+    ],
+    lsiKeywords: [
+      'prehistoric themed educational worksheets',
+      'paleontology activities for kids',
+      'Jurassic themed classroom printables',
+    ],
   },
   hero: {
     title: 'Dinosaur Printable Business Ideas for Sellers',

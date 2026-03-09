@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create pattern train worksheets to sell',
+    primaryKeyword: 'pattern train generator',
     secondaryKeywords: [
       'printable pattern sequence worksheet maker for Etsy sellers',
       'custom train pattern worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'pattern train worksheets commercial license',
     ],
     lsiKeywords: [
-      'digital pattern completion printables passive income',
+      'digital pattern completion printables online business',
       'printable visual pattern sequence worksheet business',
       'commercial use pattern train worksheet generator',
     ],
-    titleTag: 'Pattern Train Worksheet Generator | Create & Sell Pattern Sequences',
-    metaDescription:
-      'Create professional pattern train worksheets to sell on Etsy, Amazon KDP, and TPT. Five pattern types, 11 train wagons, adjustable clue count, auto answer key. Free to try \u2014 commercial license available.',
+    titleTag: 'Pattern Train Generator | Create Sequence Worksheets',
+    metaDescription: 'Create pattern train worksheets to sell on Etsy, KDP & TPT. Five pattern types, 11 themed train wagons, adjustable clue count. Try free — license available.',
   },
 
   hero: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create I spy worksheets to sell',
+    primaryKeyword: 'I spy worksheet generator',
     secondaryKeywords: [
       'printable find and count worksheet maker for Etsy sellers',
       'hidden object I spy activity generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell find and count worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital I spy printables passive income',
+      'digital I spy printables online business',
       'commercial use hidden object worksheet generator',
       'printable counting activity business tools',
     ],
-    titleTag: 'I Spy Worksheet Generator | Create & Sell Find and Count Activities',
-    metaDescription:
-      'Create professional I Spy and find-and-count worksheets to sell on Etsy, Amazon KDP, and TPT. 4 task types, Letter Spotting mode, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'I Spy Worksheet Generator | Create Count Printables',
+    metaDescription: 'Create I Spy counting worksheets to sell on Etsy, KDP & TPT. 4 task types, Letter Spotting mode, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {

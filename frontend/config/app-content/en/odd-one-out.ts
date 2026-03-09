@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create odd one out worksheets to sell',
+    primaryKeyword: 'odd one out generator',
     secondaryKeywords: [
       'printable odd one out puzzle maker for Etsy sellers',
       'find the different picture worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell odd one out puzzles on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital odd one out printables passive income',
+      'digital odd one out printables online business',
       'commercial use visual discrimination worksheet generator',
       'printable find the different puzzle business tools',
     ],
-    titleTag: 'Odd One Out Worksheet Generator | Create & Sell Puzzles',
-    metaDescription:
-      'Create professional odd one out worksheets to sell on Etsy, Amazon KDP, and TPT. Two puzzle modes, auto answer key with red circles, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Odd One Out Generator | Create & Sell Worksheets',
+    metaDescription: 'Create odd one out worksheets to sell on Etsy, KDP & TPT. Two puzzle modes, auto answer key with red circles, 104 themes. Try free — license available.',
   },
 
   hero: {

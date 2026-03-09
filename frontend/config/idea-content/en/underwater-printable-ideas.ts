@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Underwater Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover underwater printable ideas to sell on Etsy, Amazon KDP, and TPT. Ocean-themed product concepts and niche strategies for printable sellers.',
+    metaDescription: 'Discover underwater printable ideas to sell on Etsy, Amazon KDP, and TPT. Ocean-themed product concepts, deep-sea worksheets, and niche tips for sellers.',
+
+    primaryKeyword: 'underwater printable ideas',
+    secondaryKeywords: [
+      'underwater worksheets to sell',
+      'deep sea printable business ideas',
+      'underwater activity sheets for sellers',
+      'sell underwater printables on Etsy',
+    ],
+    lsiKeywords: [
+      'deep sea creature educational worksheets',
+      'coral reef activity pages',
+      'aquatic themed classroom printables',
+    ],
   },
   hero: {
     title: 'Underwater Printable Business Ideas for Sellers',

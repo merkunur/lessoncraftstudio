@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key red circle annotations hidden object creator',
     ],
     titleTag: 'Hidden Object Maker — Hidden Object Worksheet Generator',
-    metaDescription: 'Create hidden object worksheets with two activity modes — I Spy (zero-overlap scattered scenes with legend) and Odd One Out (paired images with unpaired items). Auto-generated answer keys with red circle annotations, adaptive image sizing algorithm, 104 themed collections. Free trial with all features — commercial license available.',
+    metaDescription: 'Create hidden object worksheets with I Spy and Odd One Out modes, zero-overlap scenes, auto answer keys, and 104 themed images. Try free — license available.',
   },
 
   hero: {

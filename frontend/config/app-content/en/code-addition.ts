@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create code breaker math puzzles to sell',
+    primaryKeyword: 'code addition generator',
     secondaryKeywords: [
       'printable math puzzle worksheets for Etsy',
       'crack the code printables for Amazon KDP',
@@ -14,7 +14,7 @@ const content: AppContent = {
       'sell educational puzzles online',
       'math puzzle book creator for entrepreneurs',
     ],
-    titleTag: 'Code Addition Worksheet Generator | Create & Sell Math Puzzles',
+    titleTag: 'Code Addition Generator | Create Math Cipher Puzzles',
     metaDescription:
       'Create code-breaking addition puzzles to sell on Etsy, Amazon KDP, and TPT. Word Reveal mode, 104 themes, 11 languages, answer keys, 400+ DPI. Free to try.',
   },
@@ -199,6 +199,10 @@ const content: AppContent = {
       question: 'Do I need to install any software?',
       answer:
         'No. The Code Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating code-cracking math puzzles.',
+    },
+    {
+      question: 'What is your refund policy?',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 

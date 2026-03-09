@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create picture sorting worksheets to sell',
+    primaryKeyword: 'picture sort generator',
     secondaryKeywords: [
       'printable sorting activity maker for Etsy sellers',
       'two-category sorting worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell sorting worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital sorting printables passive income',
+      'digital sorting printables online business',
       'commercial use classification worksheet generator',
       'printable category sorting activity business tools',
     ],
-    titleTag: 'Picture Sort Worksheet Generator | Create & Sell Sorting Activities',
-    metaDescription:
-      'Create professional picture sorting worksheets to sell on Etsy, Amazon KDP, and TPT. Two-category sorting, auto answer key, 104 themes, 4\u201312 images. Free to try \u2014 commercial license available.',
+    titleTag: 'Picture Sort Generator | Create Sorting Worksheets',
+    metaDescription: 'Create picture sorting worksheets to sell on Etsy, KDP & TPT. Two-category sorting, auto answer key, 104 themes, 4-12 images. Try free — license available.',
   },
 
   hero: {

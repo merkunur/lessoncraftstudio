@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key pink circle solution path maze generator',
     ],
     titleTag: 'Picture Path Maker — Maze Worksheet Generator for Sellers',
-    metaDescription: 'Create maze worksheets with three game modes — Picture Pathway, Classic Maze (LPF algorithm), and Choose the Right Path. Five image roles, wall customization, collectible system, auto-generated answer keys with pink circle solution paths, 104 themed collections. Free trial with all features — commercial license available.',
+    metaDescription: 'Create maze worksheets with Picture Pathway, Classic Maze, and Choose the Right Path modes, collectibles, and auto answer keys. Try free — license available.',
   },
 
   hero: {

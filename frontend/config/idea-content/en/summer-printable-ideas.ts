@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Summer Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover summer printable ideas to sell on Etsy, Amazon KDP, and TPT. Beach and sun-themed product concepts, seasonal strategies, and platform tips for sellers.',
+
+    primaryKeyword: 'summer printable ideas',
+    secondaryKeywords: [
+      'summer themed worksheets to sell',
+      'summer printable business ideas',
+      'summer activity sheets for sellers',
+      'sell summer printables on Etsy',
+    ],
+    lsiKeywords: [
+      'beach and sun educational worksheets',
+      'warm weather activity pages',
+      'vacation themed classroom printables',
+    ],
   },
   hero: {
     title: 'Summer Printable Business Ideas for Sellers',

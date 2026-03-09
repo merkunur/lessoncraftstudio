@@ -14,8 +14,8 @@ const content: ToolContent = {
       'picture equation worksheet tool',
       'image variable math activity generator',
     ],
-    titleTag: 'Math Worksheet Generator | Create & Sell Visual Algebra Puzzles',
-    metaDescription: 'Generate algebra picture puzzles where images represent unknown variables in linked equations. Four difficulty levels, guaranteed unique solutions. Create printables to sell on Etsy, KDP, and TpT.',
+    titleTag: 'Math Worksheet Generator | Visual Algebra Puzzles',
+    metaDescription: 'Generate algebra picture puzzles where images represent variables in linked equations. Four difficulty levels, unique solutions. Try free — license available.',
   },
 
   hero: {
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Visual Algebra Packs',
-      description: 'Create sets of 15\u201320 algebra picture puzzles using themed image symbols from the library \u2014 dinosaurs, space, animals, vehicles. Each puzzle uses different images as variables with consistent difficulty. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The visual algebra format is genuinely unique and makes your listing thumbnail stand out instantly from standard math worksheets.',
+      description: 'Create sets of 15\u201320 algebra picture puzzles using themed image symbols from the library \u2014 dinosaurs, space, animals, vehicles. Each puzzle uses different images as variables with consistent difficulty. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The visual algebra format is genuinely unique and makes your listing thumbnail stand out instantly from standard math worksheets. Themed packs also encourage repeat purchases because buyers who enjoy one theme often return for others, building long-term customer loyalty for your shop.',
     },
     {
       title: 'KDP Progressive Algebra Workbooks',
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Teachers Pay Teachers Premium Algebra Packs',
-      description: 'Upload differentiated algebra puzzle packs to TpT. Teachers search for "algebra worksheets" and "math puzzles" constantly. Include all four difficulty levels, both operation modes, answer keys, and a teacher guide explaining how the visual algebra format works. The guaranteed-solution feature adds credibility that teachers value when choosing classroom materials.',
+      description: 'Upload differentiated algebra puzzle packs to TpT. Teachers search for "algebra worksheets" and "math puzzles" constantly. Include all four difficulty levels, both operation modes, answer keys, and a teacher guide explaining how the visual algebra format works. The guaranteed-solution feature adds credibility that teachers value when choosing classroom materials. Adding a usage guide that maps each difficulty level to specific grade standards helps teachers justify the purchase to administrators and increases positive reviews on your listing.',
       platform: 'Teachers Pay Teachers',
     },
     {
@@ -125,15 +125,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Start with Very Easy for Beginners',
-      description: 'Very Easy uses only 2 image symbols with simple addition equations. This is perfect for students encountering visual algebra for the first time. Let them build confidence recognizing the pattern before moving to Easy, Medium, and Hard levels. Gradual progression keeps frustration low and engagement high.',
+      description: 'Very Easy uses only 2 image symbols with simple addition equations. This is perfect for students encountering visual algebra for the first time. Let them build confidence recognizing the pattern before moving to Easy, Medium, and Hard levels. Gradual progression keeps frustration low and engagement high. From a seller\'s perspective, beginner-friendly puzzles attract the widest audience because parents of younger children actively search for introductory algebra activities they can use at home.',
     },
     {
       title: 'Use Mixed Operations for Variety',
-      description: 'The Addition & Subtraction mode creates puzzles that require different solving strategies within the same worksheet. This prevents students from falling into a repetitive pattern and tests both operation skills simultaneously. Mixed-mode puzzles also have higher perceived value in marketplace listings because they cover more curriculum ground.',
+      description: 'The Addition & Subtraction mode creates puzzles that require different solving strategies within the same worksheet. This prevents students from falling into a repetitive pattern and tests both operation skills simultaneously. Mixed-mode puzzles also have higher perceived value in marketplace listings because they cover more curriculum ground. On Etsy and TpT, labeling your listing as "mixed operations" captures search traffic from teachers specifically looking for review materials that span multiple math skills in one activity, which broadens your buyer audience beyond single-operation searchers.',
     },
     {
       title: 'Upload Custom Images for Branding',
-      description: 'Upload your own illustrations, mascots, or licensed artwork to create puzzles no competitor can replicate. The uploaded images become the equation variables, making your products visually distinctive. Buyers who recognize your symbol style will return to your shop. Custom images also let you target ultra-specific niches.',
+      description: 'Upload your own illustrations, mascots, or licensed artwork to create puzzles no competitor can replicate. The uploaded images become the equation variables, making your products visually distinctive. Buyers who recognize your symbol style will return to your shop. Custom images also let you target ultra-specific niches like seasonal classroom decor, bilingual learning, or subject-specific review sheets that mainstream sellers overlook entirely.',
     },
     {
       title: 'Use 1\u20132 Puzzles Per Page for Younger Learners',
@@ -160,19 +160,19 @@ const content: ToolContent = {
     },
     {
       question: 'How do the algebra picture puzzles work?',
-      answer: 'Each puzzle presents a system of linked equations where images replace unknown variables. Students analyze the relationships between equations to determine the numeric value each image represents. For example, if cat + dog = 7 and cat + cat = 6, then cat = 3 and dog = 4. The built-in solver guarantees every puzzle has exactly one correct solution.',
+      answer: 'Each puzzle presents a system of linked equations where images replace unknown variables. Students analyze the relationships between equations to determine the numeric value each image represents. For example, if cat + dog = 7 and cat + cat = 6, then cat = 3 and dog = 4. The built-in solver guarantees every puzzle has exactly one correct solution. This approach introduces algebraic reasoning visually, making it accessible to younger learners who aren\'t ready for traditional variable notation with letters like x and y.',
     },
     {
       question: 'What are the four difficulty levels?',
-      answer: 'Very Easy uses 2 image symbols with simple equations. Easy uses 2 symbols with slightly harder equations. Medium introduces 3 symbols across 3 linked equations. Hard presents 4 simultaneous unknowns across 4 equations. Each level progressively increases the number of variables and the complexity of the equation system.',
+      answer: 'Very Easy uses 2 image symbols with simple equations. Easy uses 2 symbols with slightly harder equations. Medium introduces 3 symbols across 3 linked equations. Hard presents 4 simultaneous unknowns across 4 equations. Each level progressively increases the number of variables and the complexity of the equation system. For sellers building differentiated product lines, these four levels map naturally to grade bands: Very Easy for kindergarten, Easy for first grade, Medium for second grade, and Hard for third grade and above. Labeling your listings with the corresponding grade range helps buyers find the right difficulty quickly.',
     },
     {
       question: 'What operation modes are available?',
-      answer: 'Addition Only mode creates equations using only addition. Addition & Subtraction mode mixes both operations across the equation system. Mixed mode is ideal for advanced practice and review worksheets that test both skills simultaneously in a single puzzle.',
+      answer: 'Addition Only mode creates equations using only addition. Addition & Subtraction mode mixes both operations across the equation system. Mixed mode is ideal for advanced practice and review worksheets that test both skills simultaneously in a single puzzle. Having two distinct operation modes lets sellers create separate product listings for each mode plus a combined bundle, effectively tripling catalog size from the same worksheet designs without additional creative effort.',
     },
     {
       question: 'How does the unique solution guarantee work?',
-      answer: 'The tool uses a built-in algebraic solver that verifies every generated puzzle has exactly one valid solution before rendering it. If a random puzzle configuration produces multiple solutions or no solution, the generator automatically discards it and creates a new one. You never have to manually check whether a puzzle is solvable.',
+      answer: 'The tool uses a built-in algebraic solver that verifies every generated puzzle has exactly one valid solution before rendering it. If a random puzzle configuration produces multiple solutions or no solution, the generator automatically discards it and creates a new one. You never have to manually check whether a puzzle is solvable. This guarantee is a strong selling point you can highlight in your product descriptions — buyers trust worksheets that have been algorithmically verified over hand-made puzzles that might contain errors.',
     },
     {
       question: 'What does the negative results toggle do?',

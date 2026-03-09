@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC ABCD pattern sequence worksheet maker',
     ],
     titleTag: 'Pattern Recognition Worksheet Maker | Create & Sell',
-    metaDescription: 'Generate pattern recognition worksheets with nine pattern types (AB to ABCD), two question modes (fill-in-blank and multiple choice), per-exercise configuration, 1\u20138 exercises per page, auto answer keys, and 104 image collections. Create pattern completion worksheets to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate pattern worksheets with nine types, two question modes, per-exercise config, auto answer keys, and 104 themed images. Try free — license available.',
   },
 
   hero: {

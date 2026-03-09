@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license odd one out tool',
     ],
     titleTag: 'Odd One Out Worksheets \u2014 Guide',
-    metaDescription: 'How to create odd one out worksheets with Identical and Similar modes, per-exercise overrides for mixed difficulty, auto answer keys with red circle markers, and purely visual format for global sales on Etsy and KDP.',
+    metaDescription: 'Create odd one out worksheets with Identical and Similar modes, per-exercise overrides, and auto answer keys. Step-by-step guide for Etsy and KDP sellers.',
   },
 
   hero: {

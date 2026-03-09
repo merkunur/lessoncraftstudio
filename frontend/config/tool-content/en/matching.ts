@@ -15,7 +15,7 @@ const content: ToolContent = {
       'beginning letter image word matching maker',
     ],
     titleTag: 'Matching Worksheet Generator \u2014 Draw-a-Line Maker',
-    metaDescription: 'Create draw-a-line matching worksheets with 4 modes (Beginning Letter, Image+Word, Mixed, Custom Word), auto answer key with connecting lines, configurable 4\u20136 pairs, localized Match Up header in 11 languages, and 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create matching worksheets with 4 modes, auto answer key with connecting lines, configurable pairs, 11 languages, 104 themes. Try free — license available.',
   },
 
   hero: {

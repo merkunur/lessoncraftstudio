@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Pirates Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover pirates printable ideas to sell on Etsy, Amazon KDP, and TPT. Pirate-themed product concepts, platform tips, and strategies for sellers.',
+    metaDescription: 'Discover pirate-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Pirate product concepts, adventure worksheets, and niche strategies for sellers.',
+
+    primaryKeyword: 'pirates printable ideas',
+    secondaryKeywords: [
+      'pirate themed worksheets to sell',
+      'pirate printable business ideas',
+      'pirate activity sheets for sellers',
+      'sell pirate printables on Etsy',
+    ],
+    lsiKeywords: [
+      'treasure hunt educational worksheets',
+      'nautical adventure activity pages',
+      'swashbuckler themed classroom printables',
+    ],
   },
   hero: {
     title: 'Pirates Printable Business Ideas for Sellers',

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'business systems repeatable processes production pipeline content multiplication',
     ],
     titleTag: 'Scale Printable Business \u2014 Growth Strategy Guide',
-    metaDescription: 'How to scale printable business revenue with batch production systems, multi-platform expansion, catalog growth, multi-language markets, and automation strategies.',
+    metaDescription: 'How to scale your printable business with batch production, multi-platform expansion, catalog growth, multi-language markets, and automation strategies.',
   },
 
   hero: {

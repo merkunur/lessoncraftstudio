@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create hidden object worksheets to sell',
+    primaryKeyword: 'hidden object generator',
     secondaryKeywords: [
       'printable I spy hidden object maker for Etsy sellers',
       'find objects worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell odd one out worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital hidden object printables passive income',
+      'digital hidden object printables online business',
       'commercial use find objects worksheet generator',
       'printable visual search activity business tools',
     ],
-    titleTag: 'Hidden Object Worksheet Generator | Create & Sell Find Objects Activities',
-    metaDescription:
-      'Create professional hidden object worksheets to sell on Etsy, Amazon KDP, and TPT. I Spy and Odd One Out modes, zero-overlap scenes, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Hidden Object Generator | Create Search Worksheets',
+    metaDescription: 'Create hidden object worksheets to sell on Etsy, KDP & TPT. I Spy and Odd One Out modes, zero-overlap scenes, auto answer key. Try free — license available.',
   },
 
   hero: {

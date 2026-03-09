@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Print-on-Demand Worksheet Ideas to Sell \u2014 Guide',
-    metaDescription: 'Print-on-demand worksheet ideas for Etsy, Amazon KDP, and Shopify sellers. Build a zero-inventory business with printed workbooks and activity packs.',
+    metaDescription: 'Print-on-demand worksheet ideas for Etsy, KDP, and Shopify sellers. Build a zero-inventory printable business with workbooks, activity packs, and puzzle books.',
+
+    primaryKeyword: 'print-on-demand worksheet ideas',
+    secondaryKeywords: [
+      'POD printable business ideas',
+      'print-on-demand educational products',
+      'sell worksheets with print-on-demand',
+      'POD worksheet business model',
+    ],
+    lsiKeywords: [
+      'automated printing and fulfillment',
+      'on-demand educational product sales',
+      'zero-inventory worksheet business',
+    ],
   },
   hero: {
     title: 'Print-on-Demand Worksheet Business Ideas for Sellers',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'cursive and print handwriting generator',
     ],
     titleTag: 'Handwriting Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate handwriting worksheets with three practice modes (Trace, Fading Trace, Guided Copy), five font styles including arrow-guided stroke order, pre-writing strokes, and per-row independence across 104 image themes. Create letter practice sheets to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate handwriting worksheets with three practice modes, five font styles, arrow stroke order, fading guides, 104 themes. Try free — license available.',
   },
 
   hero: {

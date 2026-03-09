@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create picture crossword puzzles to sell',
+    primaryKeyword: 'picture crossword generator',
     secondaryKeywords: [
       'printable picture crossword maker for Etsy sellers',
       'image crossword puzzle generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell crossword puzzles on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital crossword printables passive income',
+      'digital crossword printables online business',
       'commercial use crossword puzzle generator',
       'printable picture crossword business tools',
     ],
-    titleTag: 'Picture Crossword Generator | Create & Sell Image Crosswords',
-    metaDescription:
-      'Create picture crossword puzzles to sell on Etsy, Amazon KDP, and TPT. Image clues on a 15\u00d715 grid, 4 input methods, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Picture Crossword Generator | Create & Sell Puzzles',
+    metaDescription: 'Create picture crossword puzzles to sell on Etsy, KDP & TPT. Image clues on a 15x15 grid, 4 input methods, auto answer key. Try free — license available.',
   },
 
   hero: {

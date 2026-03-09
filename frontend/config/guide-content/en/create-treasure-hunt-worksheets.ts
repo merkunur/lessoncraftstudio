@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license treasure hunt tool',
     ],
     titleTag: 'Treasure Hunt Worksheets \u2014 Guide',
-    metaDescription: 'How to create treasure hunt worksheets on a 5\u00d75 coordinate grid with two direction types (basic and cardinal), exactly 4 directional moves, 6 themed landmark images, auto answer keys with pale yellow highlighted treasure cell, and fully localized clues in 11 languages for sales on Etsy and KDP.',
+    metaDescription: 'Create treasure hunt worksheets on a 5x5 grid with directional moves, themed landmarks, and auto answer keys. Step-by-step guide to sell on Etsy and KDP.',
   },
 
   hero: {

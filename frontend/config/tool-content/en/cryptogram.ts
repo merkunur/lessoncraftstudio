@@ -15,7 +15,7 @@ const content: ToolContent = {
       'multilingual picture cryptogram maker',
     ],
     titleTag: 'Cryptogram Worksheet Generator | Create & Sell Puzzles',
-    metaDescription: 'Generate picture cryptogram worksheets with image-to-letter cipher encoding, Letters to Reveal difficulty slider (0\u201310), Auto-Assign and Manual Assignment, letter legend answer keys across 11 languages. 104 image themes. Create code-breaking puzzles to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate cryptogram worksheets with picture cipher encoding, difficulty slider, auto-assign mode, answer keys across 11 languages. Try free — license available.',
   },
 
   hero: {

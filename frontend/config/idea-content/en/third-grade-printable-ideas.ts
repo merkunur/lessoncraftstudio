@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Third Grade Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover third grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the pivotal 3rd grade academic year.',
+
+    primaryKeyword: 'third grade printable ideas',
+    secondaryKeywords: [
+      'third grade worksheets to sell',
+      'grade 3 printable business ideas',
+      'third grade activity sheets for sellers',
+      'sell third grade printables on TPT',
+    ],
+    lsiKeywords: [
+      'upper elementary educational worksheets',
+      'grade 3 curriculum printable resources',
+      'age 8-9 learning activity pages',
+    ],
   },
   hero: {
     title: 'Third Grade Printable Business Ideas for Sellers',

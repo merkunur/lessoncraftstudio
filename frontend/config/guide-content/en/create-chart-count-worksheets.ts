@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license chart count worksheet tool',
     ],
     titleTag: 'Picture Graph Worksheets \u2014 Guide',
-    metaDescription: 'Create picture graph worksheets with 4\u00d75 scattered grids, auto answer key with yellow-highlighted cells, random distribution for unique generations, 104 themes.',
+    metaDescription: 'Create picture graph worksheets with 4x5 scattered grids, auto answer keys, random image distribution, and 104 themes. Step-by-step guide for Etsy & KDP.',
   },
 
   hero: {

@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Transportation Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore transportation printable ideas to sell on Etsy, Amazon KDP, and TPT. Vehicle-themed product concepts, platform strategies, and tips for printable sellers.',
+    metaDescription: 'Explore transportation printable ideas to sell on Etsy, Amazon KDP, and TPT. Vehicle-themed product concepts, platform strategies, and tips for sellers.',
+
+    primaryKeyword: 'transportation printable ideas',
+    secondaryKeywords: [
+      'transportation worksheets to sell',
+      'vehicle themed printable business',
+      'transportation activity sheets for sellers',
+      'sell transportation printables on Etsy',
+    ],
+    lsiKeywords: [
+      'car and truck educational worksheets',
+      'vehicle themed activity pages',
+      'travel and transport classroom printables',
+    ],
   },
   hero: {
     title: 'Transportation Printable Business Ideas for Sellers',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create pattern worksheets to sell',
+    primaryKeyword: 'pattern worksheet generator',
     secondaryKeywords: [
       'printable pattern completion worksheet maker for Etsy sellers',
       'custom pattern recognition worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'pattern worksheets commercial license',
     ],
     lsiKeywords: [
-      'digital pattern completion printables passive income',
+      'digital pattern completion printables online business',
       'printable visual pattern worksheet business',
       'commercial use pattern recognition worksheet generator',
     ],
-    titleTag: 'Pattern Worksheet Generator | Create & Sell Pattern Exercises',
-    metaDescription:
-      'Create professional pattern completion worksheets to sell on Etsy, Amazon KDP, and TPT. Nine pattern types, two question modes, per-exercise config, 104 themes, auto answer key. Free to try \u2014 commercial license available.',
+    titleTag: 'Pattern Worksheet Generator | Create & Sell Online',
+    metaDescription: 'Create pattern worksheets to sell on Etsy, KDP & TPT. Nine pattern types, two question modes, per-exercise config, 104 themes. Try free — license available.',
   },
 
   hero: {

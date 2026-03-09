@@ -18,7 +18,7 @@ const content: GuideContent = {
       'production systems scalable processes catalog management workflow design',
     ],
     titleTag: 'Automate Printable Business \u2014 Efficiency Guide',
-    metaDescription: 'Automate printable business workflows with batch production, template systems, and systematic processes that save hours and scale output.',
+    metaDescription: 'How to automate your printable business with batch production, template systems, and systematic workflows. Save hours weekly and scale output across platforms.',
   },
 
   hero: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create maze worksheets to sell',
+    primaryKeyword: 'maze worksheet generator',
     secondaryKeywords: [
       'printable maze activity maker for Etsy sellers',
       'picture path worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell pathway puzzle worksheets on Etsy and Amazon',
     ],
     lsiKeywords: [
-      'digital maze printables passive income',
+      'digital maze printables online business',
       'commercial use pathway worksheet generator',
       'printable puzzle activity business tools',
     ],
-    titleTag: 'Maze Worksheet Generator | Create & Sell Picture Path Activities',
-    metaDescription:
-      'Create professional maze worksheets to sell on Etsy, Amazon KDP, and TPT. 3 game modes, LPF algorithm, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Maze Worksheet Generator | Create Path Printables',
+    metaDescription: 'Create maze worksheets to sell on Etsy, KDP & TPT. 3 game modes, LPF algorithm, auto answer key, 104 themes, print-ready PDFs. Try free — license available.',
   },
 
   hero: {

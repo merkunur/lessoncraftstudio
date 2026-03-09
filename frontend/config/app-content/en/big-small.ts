@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create size comparison worksheets to sell',
+    primaryKeyword: 'big & small worksheet generator',
     secondaryKeywords: [
       'printable big and small worksheet maker for Etsy sellers',
       'custom size comparison worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'big and small worksheets commercial license',
     ],
     lsiKeywords: [
-      'digital size comparison printables passive income',
+      'digital size comparison printables online business',
       'printable visual discrimination worksheet business',
       'commercial use big small worksheet generator',
     ],
-    titleTag: 'Big & Small Worksheet Generator | Create & Sell Size Comparisons',
-    metaDescription:
-      'Create professional size comparison worksheets to sell on Etsy, Amazon KDP, and TPT. Five question types, identical and different image modes, 104 themes, auto answer key. Free to try \u2014 commercial license available.',
+    titleTag: 'Big & Small Worksheet Generator | Sell Printables',
+    metaDescription: 'Create size comparison worksheets to sell on Etsy, KDP & TPT. Five question types, identical and different modes, 104 themes. Try free — license available.',
   },
 
   hero: {

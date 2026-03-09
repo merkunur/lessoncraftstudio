@@ -14,7 +14,7 @@ const content: ToolContent = {
       'picture puzzle worksheet tool',
       'math jigsaw activity generator',
     ],
-    titleTag: 'Math Puzzle Worksheet Generator | Create & Sell Jigsaw Math Puzzles',
+    titleTag: 'Math Puzzle Worksheet Generator | Sell Printables',
     metaDescription: 'Generate jigsaw-style math puzzles with image grids, three operation modes, and custom image upload. Create unique printables to sell on Etsy, KDP, and TpT.',
   },
 
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Math Puzzle Packs',
-      description: 'Create sets of 15\u201320 puzzles using themed images from the library \u2014 dinosaurs, space, animals, vehicles. Each puzzle uses a different image with Addition or Subtraction equations at a consistent grid size. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The jigsaw format makes your listing thumbnail instantly stand out from standard math worksheets.',
+      description: 'Create sets of 15\u201320 puzzles using themed images from the library \u2014 dinosaurs, space, animals, vehicles. Each puzzle uses a different image with Addition or Subtraction equations at a consistent grid size. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The jigsaw format makes your listing thumbnail instantly stand out from standard math worksheets. Consider pairing each theme pack with a matching answer key booklet and a cover page featuring the theme artwork. Sellers who include professional cover pages and consistent formatting across every page report stronger customer reviews and repeat purchases from the same buyer.',
     },
     {
       title: 'KDP Puzzle Workbooks',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Visual Math Puzzle Shop',
-      description: 'Open an Etsy shop specializing in jigsaw-style math puzzles. The visual format is genuinely unique \u2014 most math printables on Etsy are text-heavy worksheets. Your colorful image-grid puzzles will stand out in search results and attract clicks. Create 15\u201320 themed bundles priced at $3\u2013$5 each. Upload custom images to build a brand identity no competitor can copy.',
+      description: 'Open an Etsy shop specializing in jigsaw-style math puzzles. The visual format is genuinely unique \u2014 most math printables on Etsy are text-heavy worksheets. Your colorful image-grid puzzles will stand out in search results and attract clicks. Create 15\u201320 themed bundles priced at $3\u2013$5 each. Upload custom images to build a brand identity no competitor can copy. Use Etsy tags like "math puzzle printable," "jigsaw math worksheet," and "visual math activity" to rank for keywords that text-only worksheet sellers miss entirely. Refresh your shop seasonally by releasing holiday-themed puzzle packs tied to search trends \u2014 back-to-school in August, Halloween in October, Christmas in November.',
       platform: 'Etsy',
     },
     {
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Teachers Pay Teachers Premium Packs',
-      description: 'Upload differentiated math puzzle packs to TpT. Teachers search for "math puzzles" and "math games" constantly. Include all three operation modes, three difficulty levels, answer keys, and a teacher guide in each listing. The jigsaw format adds perceived value because it feels like a game, not a drill.',
+      description: 'Upload differentiated math puzzle packs to TpT. Teachers search for "math puzzles" and "math games" constantly. Include all three operation modes, three difficulty levels, answer keys, and a teacher guide in each listing. The jigsaw format adds perceived value because it feels like a game, not a drill. Add a one-page "How to Use" instruction sheet explaining grid difficulty levels, suggested grade ranges, and tips for classroom implementation. TpT buyers consistently leave higher ratings for resources that include teacher-facing documentation, which in turn boosts your listing\'s visibility in TpT search results.',
       platform: 'Teachers Pay Teachers',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multilingual Math Puzzle Seller',
-      description: 'Math puzzles use only images, numbers, and equations \u2014 no text required. A single puzzle PDF works identically in every language. List the same product on Etsy Germany, France, Spain, Italy, and any other market without translation. Most competitors only serve English-speaking buyers, giving you a 5\u201310x market advantage.',
+      description: 'Math puzzles use only images, numbers, and equations \u2014 no text required. A single puzzle PDF works identically in every language. List the same product on Etsy Germany, France, Spain, Italy, and any other market without translation. Most competitors only serve English-speaking buyers, giving you a 5\u201310x market advantage. Creating math puzzles in German, French, and Spanish opens international marketplace opportunities where English-dominant sellers have minimal presence. The visual nature of jigsaw puzzles means they require minimal text translation, making multilingual expansion faster and more cost-effective than text-heavy educational products.',
       platform: 'Etsy',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Start with 2\u00d72 for Young Learners',
-      description: 'A 2\u00d72 grid has only 4 puzzle pieces and 4 equations \u2014 manageable for preschoolers and kindergartners just learning addition. Increase to 3\u00d73 for first graders and 4\u00d74 for second grade and above. Matching grid size to age group is the easiest way to create differentiated products.',
+      description: 'A 2\u00d72 grid has only 4 puzzle pieces and 4 equations \u2014 manageable for preschoolers and kindergartners just learning addition. Increase to 3\u00d73 for first graders and 4\u00d74 for second grade and above. Matching grid size to age group is the easiest way to create differentiated products. When selling on marketplaces, clearly label the recommended age or grade range in your product title and description. Buyers filter by grade level, so a listing titled "Kindergarten Math Puzzles \u2014 2\u00d72 Grid Addition" will reach the right audience faster than a generic "Math Puzzles" title.',
     },
     {
       title: 'Use Mixed Mode for Maximum Variety',
-      description: 'The "Addition & Subtraction" mode randomly mixes both operations in a single puzzle. This creates review worksheets that test both skills simultaneously and prevents students from falling into a repetitive pattern. Mixed mode puzzles also have higher perceived value in marketplace listings.',
+      description: 'The "Addition & Subtraction" mode randomly mixes both operations in a single puzzle. This creates review worksheets that test both skills simultaneously and prevents students from falling into a repetitive pattern. Mixed mode puzzles also have higher perceived value in marketplace listings. Etsy and TpT buyers searching for "math review" or "end of unit assessment" activities specifically look for mixed-operation resources, so tagging your listings with these terms captures a distinct buyer segment that single-operation sellers miss entirely.',
     },
     {
       title: 'Upload Custom Images for Brand Recognition',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pair with Regular Math Worksheets',
-      description: 'Create matching puzzle and standard worksheet sets using the Addition and Subtraction generators with the same number range and theme. Sell them individually and as a combined "Math Practice + Puzzle" bundle. The puzzle adds a game element that makes the bundle more appealing than worksheets alone.',
+      description: 'Create matching puzzle and standard worksheet sets using the Addition and Subtraction generators with the same number range and theme. Sell them individually and as a combined "Math Practice + Puzzle" bundle. The puzzle adds a game element that makes the bundle more appealing than worksheets alone. This cross-product strategy also increases your average order value \u2014 buyers who find your puzzle listing may click through to your standard worksheet listing and purchase both. On Etsy, linking related products in your listing descriptions builds internal shop traffic and encourages multi-item carts.',
     },
     {
       title: 'Showcase the Puzzle Format in Thumbnails',
@@ -156,7 +156,7 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Is there a free trial?',
-      answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
+      answer: 'Yes. The tool offers a free trial with full features \u2014 no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights. The free trial lets you test every setting \u2014 all grid sizes, all three operation modes, image upload, page layout options, grayscale toggle, and answer key generation \u2014 so you can fully evaluate the output quality before committing to a purchase.',
     },
     {
       question: 'How does the math puzzle format work?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are the three operation modes?',
-      answer: 'Addition mode fills every cell with an addition equation. Subtraction mode uses subtraction equations. Addition & Subtraction mode randomly mixes both operations across the grid, creating review puzzles that test both skills in a single activity.',
+      answer: 'Addition mode fills every cell with an addition equation. Subtraction mode uses subtraction equations. Addition & Subtraction mode randomly mixes both operations across the grid, creating review puzzles that test both skills in a single activity. For product sellers, offering all three modes within a single bundle increases perceived value because teachers get focused practice sheets and comprehensive review sheets in one purchase. Listing each mode as a separate product also works well, giving you three distinct listings from the same design template.',
     },
     {
       question: 'Can I upload my own images?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the puzzles for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell puzzles on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell puzzles on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create. There is no limit on how many puzzles you can generate or sell once licensed. You own the output files and can list them on multiple platforms simultaneously \u2014 the same puzzle pack can appear on Etsy, TpT, Gumroad, and KDP without additional fees.',
     },
     {
       question: 'Do the puzzles work in languages other than English?',

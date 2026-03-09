@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key highlighted treasure cell dual-canvas creator',
     ],
     titleTag: 'Treasure Hunt Maker \u2014 Treasure Hunt Worksheet Generator',
-    metaDescription: 'Create treasure hunt path-finding worksheets on a 5\u00d75 coordinate grid \u2014 two direction types (basic and cardinal), 6 themed images as landmarks, exactly 4 directional moves per puzzle, auto-generated answer key with highlighted treasure cell, fully localized clues in 11 languages, 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create treasure hunt worksheets on a 5x5 grid with two direction types, themed landmarks, auto answer keys, and 104 image sets. Try free — license available.',
   },
 
   hero: {

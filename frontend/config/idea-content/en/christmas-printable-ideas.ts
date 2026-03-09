@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Christmas Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover Christmas printable ideas to sell on Etsy, Amazon KDP, and TPT. Holiday product concepts, seasonal strategies, and platform tips for printable sellers.',
+
+    primaryKeyword: 'christmas printable ideas',
+    secondaryKeywords: [
+      'Christmas worksheets to sell',
+      'holiday printable business ideas',
+      'Christmas activity sheets for sellers',
+      'sell Christmas printables on Etsy',
+    ],
+    lsiKeywords: [
+      'seasonal holiday worksheet bundles',
+      'winter themed educational activities',
+      'festive classroom printable resources',
+    ],
   },
   hero: {
     title: 'Christmas Printable Business Ideas for Sellers',

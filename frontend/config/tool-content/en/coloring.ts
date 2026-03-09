@@ -15,7 +15,7 @@ const content: ToolContent = {
       'freehand drawing coloring worksheet maker',
     ],
     titleTag: 'Coloring Page Generator \u2014 Custom Coloring Page Maker',
-    metaDescription: 'Create custom coloring pages on a free-form canvas with 3,100+ illustrations across 104 themes, freehand drawing, classroom helpers (name field + handwriting lines), and grayscale export. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create coloring pages on a free-form canvas with 3,100+ illustrations across 104 themes, freehand drawing, and grayscale export. Try free — license available.',
   },
 
   hero: {

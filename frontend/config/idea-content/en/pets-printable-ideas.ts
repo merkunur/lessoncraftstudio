@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Pets Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Explore profitable pets printable ideas to sell on Etsy, Amazon KDP, and TPT. Cat, dog, and small pet product concepts with platform strategies for sellers.',
+
+    primaryKeyword: 'pets printable ideas',
+    secondaryKeywords: [
+      'pet themed worksheets to sell',
+      'pets printable business ideas',
+      'pet activity sheets for sellers',
+      'sell pet printables on Etsy',
+    ],
+    lsiKeywords: [
+      'domestic animal educational worksheets',
+      'cat and dog themed activity pages',
+      'pet care classroom printables',
+    ],
   },
   hero: {
     title: 'Pets Printable Business Ideas for Sellers',

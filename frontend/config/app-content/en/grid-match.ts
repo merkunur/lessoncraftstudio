@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create grid match puzzles to sell',
+    primaryKeyword: 'grid match puzzle generator',
     secondaryKeywords: [
       'printable grid puzzle maker for Etsy sellers',
       'picture tile matching worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell grid picture puzzles on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital tile matching printables passive income',
+      'digital tile matching printables online business',
       'commercial use grid puzzle worksheet generator',
       'printable picture puzzle business tools',
     ],
-    titleTag: 'Grid Match Puzzle Generator | Create & Sell Grid Puzzles',
-    metaDescription:
-      'Create professional grid match puzzles to sell on Etsy, Amazon KDP, and TPT. Configurable grid size, adjustable clue cells, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Grid Match Puzzle Generator | Create & Sell Puzzles',
+    metaDescription: 'Create grid match puzzles to sell on Etsy, KDP & TPT. Configurable grid size, adjustable clue cells, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {

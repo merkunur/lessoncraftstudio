@@ -18,7 +18,7 @@ const content: GuideContent = {
       'license records license documentation multi-platform licensing competitive advantage',
     ],
     titleTag: 'Commercial Use License Printables \u2014 Seller Guide',
-    metaDescription: 'Understand commercial use license printables before selling. Learn licensing types, common mistakes, and how proper licensing protects your business.',
+    metaDescription: 'Understand commercial use licenses for printables before selling. Learn licensing types, common mistakes, and how proper licensing protects your business.',
   },
 
   hero: {

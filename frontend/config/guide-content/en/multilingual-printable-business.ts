@@ -18,7 +18,7 @@ const content: GuideContent = {
       'cross-language revenue streams platform internationalization multi-market distribution',
     ],
     titleTag: 'Multilingual Printable Business \u2014 Strategy Guide',
-    metaDescription: 'Build a multilingual printable business by expanding into international markets. Learn which languages to prioritize and how to multiply revenue.',
+    metaDescription: 'Build a multilingual printable business by expanding into international markets. Learn which languages to target, translation workflows, and revenue strategies.',
   },
 
   hero: {

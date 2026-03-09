@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Printable Party Supply Business Ideas to Sell \u2014 Guide',
-    metaDescription: 'Printable party supply business ideas for Etsy and marketplace sellers. Create themed party packs, birthday games, and celebration worksheets.',
+    metaDescription: 'Printable party supply business ideas for Etsy sellers. Create themed party packs, birthday games, celebration worksheets, and seasonal event printables.',
+
+    primaryKeyword: 'printable party supply',
+    secondaryKeywords: [
+      'printable party supplies to sell',
+      'party decoration printable business',
+      'birthday party printable ideas',
+      'sell party supply printables on Etsy',
+    ],
+    lsiKeywords: [
+      'celebration themed printable products',
+      'party invitation and banner templates',
+      'event decoration digital downloads',
+    ],
   },
   hero: {
     title: 'Printable Party Supply Business Ideas for Sellers',

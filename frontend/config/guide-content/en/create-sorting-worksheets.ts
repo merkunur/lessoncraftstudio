@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license sorting tool',
     ],
     titleTag: 'Category Sorting Worksheets \u2014 Guide',
-    metaDescription: 'How to create two-category sorting worksheets. Step-by-step guide: choose theme or manual mode, configure 4\u201312 images, generate shuffled cutout grids with auto answer keys, and sell on Etsy and KDP.',
+    metaDescription: 'Create sorting worksheets with two-category theme mode, 4-12 images, shuffled cutout grids, and auto answer keys. Step-by-step guide to sell on Etsy & KDP.',
   },
 
   hero: {

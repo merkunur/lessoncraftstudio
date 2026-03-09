@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create coloring pages to sell',
+    primaryKeyword: 'coloring page generator',
     secondaryKeywords: [
       'printable coloring page maker for Etsy sellers',
       'custom coloring worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'coloring page creator commercial license',
     ],
     lsiKeywords: [
-      'digital coloring printables passive income',
+      'digital coloring printables online business',
       'printable coloring book business tools',
       'commercial use coloring page generator',
     ],
-    titleTag: 'Coloring Page Generator | Create & Sell Custom Coloring Pages',
-    metaDescription:
-      'Create professional coloring pages to sell on Etsy, Amazon KDP, and TPT. Free-form canvas, 104 themes, freehand drawing tool, grayscale export, classroom helpers. Free to try \u2014 commercial license available.',
+    titleTag: 'Coloring Page Generator | Create & Sell Printables',
+    metaDescription: 'Create custom coloring pages to sell on Etsy, KDP & TPT. Free-form canvas, 104 themes, freehand drawing, grayscale export. Try free — license available.',
   },
 
   hero: {

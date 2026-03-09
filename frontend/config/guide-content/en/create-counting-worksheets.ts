@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license picture graph maker',
     ],
     titleTag: 'Counting and Graphing Worksheets \u2014 Guide',
-    metaDescription: 'How to create counting and graphing worksheets with picture graphs, auto answer keys, and 104 themes. Step-by-step guide to selling on Etsy, Amazon KDP, and TpT.',
+    metaDescription: 'How to create counting worksheets with picture graphs, auto answer keys, and 104 themes. Step-by-step guide to selling printables on Etsy, KDP, and TpT.',
   },
 
   hero: {

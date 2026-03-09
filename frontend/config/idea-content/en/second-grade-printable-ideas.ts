@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Second Grade Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore second grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts and niche strategies for sellers targeting 2nd grade academic skills.',
+    metaDescription: 'Explore second grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts and niche strategies for sellers targeting second grade academics.',
+
+    primaryKeyword: 'second grade printable ideas',
+    secondaryKeywords: [
+      'second grade worksheets to sell',
+      'grade 2 printable business ideas',
+      'second grade activity sheets for sellers',
+      'sell second grade printables on TPT',
+    ],
+    lsiKeywords: [
+      'elementary math and reading worksheets',
+      'grade 2 curriculum printable resources',
+      'age 7-8 learning activity pages',
+    ],
   },
   hero: {
     title: 'Second Grade Printable Business Ideas for Sellers',

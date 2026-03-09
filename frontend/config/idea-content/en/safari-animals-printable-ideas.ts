@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Safari Animals Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover profitable safari animals printable ideas to sell on Etsy, Amazon KDP, and TPT. African wildlife product concepts and platform tips for sellers.',
+
+    primaryKeyword: 'safari animals printable ideas',
+    secondaryKeywords: [
+      'safari animal worksheets to sell',
+      'safari themed printable business',
+      'jungle activity sheets for sellers',
+      'sell safari printables on Etsy',
+    ],
+    lsiKeywords: [
+      'African wildlife educational worksheets',
+      'jungle and savanna activity pages',
+      'exotic animal classroom printables',
+    ],
   },
   hero: {
     title: 'Safari Animals Printable Business Ideas for Sellers',

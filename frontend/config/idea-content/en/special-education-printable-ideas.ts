@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Special Education Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover special education printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the underserved SPED market where teachers, therapists, and parents purchase adapted worksheets and visual supports.',
+    metaDescription: 'Discover special education printable ideas to sell on Etsy, KDP, and TPT. SPED product concepts for teachers, therapists, and parents of diverse learners.',
+
+    primaryKeyword: 'special education printable ideas',
+    secondaryKeywords: [
+      'special education worksheets to sell',
+      'SPED printable business ideas',
+      'special needs activity sheets for sellers',
+      'sell special education printables on TPT',
+    ],
+    lsiKeywords: [
+      'differentiated learning worksheets',
+      'adaptive classroom activity pages',
+      'IEP-aligned printable resources',
+    ],
   },
   hero: {
     title: 'Special Education Printable Business Ideas for Sellers',

@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Easter Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover Easter printable ideas to sell on Etsy, Amazon KDP, and TPT. Spring holiday product concepts, seasonal strategies, and platform tips for sellers.',
+
+    primaryKeyword: 'easter printable ideas',
+    secondaryKeywords: [
+      'Easter worksheets to sell',
+      'Easter themed printable business',
+      'Easter activity sheets for sellers',
+      'sell Easter printables on Etsy',
+    ],
+    lsiKeywords: [
+      'spring holiday educational worksheets',
+      'egg hunt themed activity pages',
+      'seasonal Easter classroom resources',
+    ],
   },
   hero: {
     title: 'Easter Printable Business Ideas for Sellers',

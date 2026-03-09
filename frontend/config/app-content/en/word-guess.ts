@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create word guess worksheets to sell',
+    primaryKeyword: 'word guess generator',
     secondaryKeywords: [
       'printable word guessing worksheets for Etsy sellers',
       'hangman-style vocabulary worksheet maker for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'word guess printables commercial license',
     ],
     lsiKeywords: [
-      'digital vocabulary puzzle products passive income',
+      'digital vocabulary puzzle products online business',
       'printable word deduction worksheet business',
       'commercial use word guess generator',
     ],
-    titleTag: 'Word Guess Worksheet Generator | Create & Sell Vocabulary Puzzles',
-    metaDescription:
-      'Create professional word guess worksheets to sell on Etsy, Amazon KDP, and TPT. Image clues, 4 difficulty levels, 3 content sources, 11 languages. Free to try \u2014 commercial license available.',
+    titleTag: 'Word Guess Generator | Create Vocabulary Puzzles',
+    metaDescription: 'Create word guess worksheets to sell on Etsy, KDP & TPT. Image clues, 4 difficulty levels, 3 content sources, 11 languages. Try free — license available.',
   },
 
   hero: {

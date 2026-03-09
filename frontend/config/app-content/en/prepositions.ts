@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create preposition worksheets to sell',
+    primaryKeyword: 'preposition worksheet generator',
     secondaryKeywords: [
       'printable preposition worksheets for Etsy sellers',
       'spatial language worksheet maker for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'preposition printables commercial license',
     ],
     lsiKeywords: [
-      'digital spatial vocabulary products passive income',
+      'digital spatial vocabulary products online business',
       'printable preposition worksheet business',
       'commercial use language worksheet generator',
     ],
-    titleTag: 'Preposition Worksheet Generator | Create & Sell Language Printables',
-    metaDescription:
-      'Create professional preposition worksheets to sell on Etsy, Amazon KDP, and TPT. 8 spatial prepositions, fill-in-the-blank & multiple choice, 11 languages. Free to try \u2014 commercial license available.',
+    titleTag: 'Preposition Worksheet Generator | Sell Printables',
+    metaDescription: 'Create preposition worksheets to sell on Etsy, KDP & TPT. 8 spatial prepositions, fill-in-the-blank and multiple choice. Try free — license available.',
   },
 
   hero: {
@@ -148,7 +147,7 @@ const content: AppContent = {
     {
       question: 'What are the 8 prepositions available?',
       answer:
-        'The generator supports eight spatial prepositions: in, on top of, under, next to, behind, between, above, and in front of. You select which prepositions to include from a checklist, so you can focus on all eight for comprehensive review or narrow the selection to just two or three for targeted practice.',
+        'The generator supports eight spatial prepositions: in, on top of, under, next to, behind, between, above, and in front of. You select which prepositions to include from a checklist, so you can focus on all eight for comprehensive review or narrow the selection to just two or three for targeted practice. Sellers who create separate worksheet packs for each preposition pair can build a larger catalog from the same tool, giving buyers focused practice options while increasing the total number of product listings in their store.',
     },
     {
       question: 'What is the difference between items and shapes?',
@@ -158,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How many exercises can I put on each worksheet?',
       answer:
-        'You can set anywhere from 1 to 8 exercises per worksheet. Fewer exercises create simpler, less cluttered pages ideal for younger students or focused practice. More exercises maximize practice density for review sessions, assessments, or homework sheets.',
+        'You can set anywhere from 1 to 8 exercises per worksheet. Fewer exercises create simpler, less cluttered pages ideal for younger students or focused practice. More exercises maximize practice density for review sessions, assessments, or homework sheets. Varying the exercise count across your product listings also helps you create distinct price tiers \u2014 a single-exercise introductory sheet as a low-cost entry point and a full eight-exercise review pack at a premium price.',
     },
     {
       question: 'Is the Preposition Worksheet Generator language-sensitive?',

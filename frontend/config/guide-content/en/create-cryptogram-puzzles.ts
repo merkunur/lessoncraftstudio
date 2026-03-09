@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license cryptogram worksheet tool',
     ],
     titleTag: 'Cryptogram Puzzles \u2014 Guide',
-    metaDescription: 'Create cryptogram puzzles with picture cipher encoding, Letters to Reveal (0\u201310) difficulty, Auto-Assign and Manual Assignment, locale-aware alphabet across 11 languages, letter legend answer keys.',
+    metaDescription: 'Create cryptogram puzzles with picture cipher encoding, adjustable difficulty, auto-assign mode, and locale-aware alphabets. Guide for Etsy & KDP sellers.',
   },
 
   hero: {

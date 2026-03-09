@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Construction Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover construction printable ideas to sell on Etsy, Amazon KDP, and TPT. Vehicle and tool themed product concepts, platform tips, and strategies for sellers.',
+
+    primaryKeyword: 'construction printable ideas',
+    secondaryKeywords: [
+      'construction worksheets to sell',
+      'building themed printable business',
+      'construction activity sheets for sellers',
+      'sell construction printables online',
+    ],
+    lsiKeywords: [
+      'building site themed worksheets',
+      'STEM construction activities for kids',
+      'vehicle and machinery educational printables',
+    ],
   },
   hero: {
     title: 'Construction Printable Business Ideas for Sellers',

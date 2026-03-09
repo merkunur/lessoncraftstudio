@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create cryptogram worksheets to sell',
+    primaryKeyword: 'cryptogram generator',
     secondaryKeywords: [
       'printable picture cryptogram puzzle maker for Etsy sellers',
       'custom cryptogram worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'cryptogram printables commercial license',
     ],
     lsiKeywords: [
-      'digital picture cipher puzzle products passive income',
+      'digital picture cipher puzzle products online business',
       'printable code-breaking worksheet business',
       'commercial use cryptogram generator',
     ],
-    titleTag: 'Cryptogram Worksheet Generator | Create & Sell Cipher Puzzles',
-    metaDescription:
-      'Create professional cryptogram worksheets to sell on Etsy, Amazon KDP, and TPT. Picture cipher with image-to-letter mapping, Letters to Reveal 0\u201310, 104 themes, 11 languages. Free to try \u2014 commercial license available.',
+    titleTag: 'Cryptogram Generator | Create & Sell Cipher Puzzles',
+    metaDescription: 'Create cryptogram worksheets to sell on Etsy, KDP & TPT. Picture cipher encoding, Letters to Reveal difficulty, 104 themes. Try free — license available.',
   },
 
   hero: {

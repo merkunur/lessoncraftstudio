@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk visual worksheet creation tool',
     ],
     titleTag: 'Visual Learning Worksheet Bundle — 7 Activity Generators',
-    metaDescription: 'Get 7 professional visual learning worksheet generators in one bundle. Create coloring pages, drawing activities, pattern sequences, size comparison, chart counting, and line tracing worksheets. Sell on Etsy, KDP, and TpT with commercial license.',
+    metaDescription: 'Get 7 visual learning generators in one bundle. Create coloring, drawing, pattern, size comparison, charts, and line tracing worksheets to sell online.',
   },
 
   hero: {

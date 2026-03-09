@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create alphabet train worksheets to sell',
+    primaryKeyword: 'alphabet train generator',
     secondaryKeywords: [
       'printable alphabet train maker for Etsy sellers',
       'letter recognition worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'alphabet train printables commercial license',
     ],
     lsiKeywords: [
-      'digital letter recognition products passive income',
+      'digital letter recognition products online business',
       'printable alphabet worksheet business',
       'commercial use alphabet train generator',
     ],
-    titleTag: 'Alphabet Train Worksheet Generator | Create & Sell Literacy Printables',
-    metaDescription:
-      'Create alphabet train worksheets to sell on Etsy, Amazon KDP, and TPT. Train-car format with letter-image matching, 11 languages, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Alphabet Train Generator | Create Literacy Printables',
+    metaDescription: 'Create alphabet train worksheets to sell on Etsy, KDP & TPT. Train-car letter-image matching across 11 languages, 104 themes. Try free — license available.',
   },
 
   hero: {
@@ -115,7 +114,7 @@ const content: AppContent = {
       {
         title: 'Alphabet Activity Books on Amazon KDP',
         description:
-          'Compile 50\u2013100 alphabet train worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty by starting with 3 clues per page and advancing to 11, introducing letter groups sequentially from A\u2013K through L\u2013V to full alphabet coverage. Add a title page, instructions explaining the train format, and an answer key section at the back. Alphabet activity books for ages 3\u20136 sell consistently year-round and the train theme differentiates your book from generic letter worksheets.',
+          'Compile 50\u2013100 alphabet train worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty by starting with 3 clues per page and advancing to 11, introducing letter groups sequentially from A\u2013K through L\u2013V to full alphabet coverage. Add a title page, instructions explaining the train format, and an answer key section at the back. Alphabet activity books for ages 3\u20136 sell consistently year-round and the train theme differentiates your book from generic letter worksheets. Consider publishing separate theme editions \u2014 an ocean animals alphabet train book, a dinosaurs edition, a farm edition \u2014 so each title targets a distinct keyword niche and attracts buyers searching for specific interests.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -153,7 +152,7 @@ const content: AppContent = {
     {
       question: 'How does the clue system work?',
       answer:
-        'Clues are image hints shown separately from the train wagons. Students look at each clue image, identify what it represents, determine its starting letter, and match it to the correct wagon. You can set anywhere from 3 to 11 clues per worksheet \u2014 fewer clues make the activity easier, while more clues increase the challenge.',
+        'Clues are image hints shown separately from the train wagons. Students look at each clue image, identify what it represents, determine its starting letter, and match it to the correct wagon. You can set anywhere from 3 to 11 clues per worksheet \u2014 fewer clues make the activity easier, while more clues increase the challenge. For sellers, this adjustable clue range lets you create tiered difficulty packs from one tool \u2014 bundle easy, medium, and hard versions together and charge a premium for the differentiated set.',
     },
     {
       question: 'Why are there always 11 letters per worksheet?',
@@ -178,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a solved version showing every wagon with its correct letter-image pairing and all clues matched. You can preview it on screen and download it as a separate JPEG or PDF file to include in teacher editions or product bundles.',
+        'Yes. Click the Generate Answer Key button to create a solved version showing every wagon with its correct letter-image pairing and all clues matched. You can preview it on screen and download it as a separate JPEG or PDF file to include in teacher editions or product bundles. Having a ready-made answer key adds perceived value to your listings and lets you advertise "answer key included" \u2014 a detail that Etsy and TPT buyers specifically filter for when comparing competing products.',
     },
     {
       question: 'Is there a free trial?',

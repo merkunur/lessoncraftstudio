@@ -162,6 +162,7 @@ function findBareFreeClaims(content) {
       if (/gluten-free/i.test(ctx)) continue;
       if (/risk-free/i.test(ctx)) continue;
       if (/Try Free Now/i.test(ctx)) continue;
+      if (/Try free/i.test(ctx)) continue;
       if (/free\s+\d+-page/i.test(ctx)) continue;
       if (/free\s+to\s+try/i.test(ctx)) continue;
       if (/experiment\s+free/i.test(ctx)) continue;

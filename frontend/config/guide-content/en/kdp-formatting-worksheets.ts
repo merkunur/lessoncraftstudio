@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP upload errors rejection troubleshooting previewer proof',
     ],
     titleTag: 'KDP Formatting Worksheets \u2014 Complete Guide',
-    metaDescription: 'KDP formatting worksheets guide covering trim sizes, margins, bleed settings, PDF export at 300 DPI, cover dimensions, and upload troubleshooting for activity books.',
+    metaDescription: 'KDP formatting guide covering trim sizes, margins, bleed settings, PDF export at 300 DPI, cover dimensions, and upload troubleshooting for activity books.',
   },
 
   hero: {

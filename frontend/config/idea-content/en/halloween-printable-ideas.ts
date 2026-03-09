@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Halloween Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore Halloween printable ideas to sell on Etsy, Amazon KDP, and TPT. Spooky-themed product concepts, seasonal strategies, and platform tips for printable sellers.',
+    metaDescription: 'Explore Halloween printable ideas to sell on Etsy, Amazon KDP, and TPT. Spooky-themed product concepts, seasonal strategies, and tips for printable sellers.',
+
+    primaryKeyword: 'halloween printable ideas',
+    secondaryKeywords: [
+      'Halloween worksheets to sell',
+      'Halloween themed printable business',
+      'Halloween activity sheets for sellers',
+      'sell Halloween printables on Etsy',
+    ],
+    lsiKeywords: [
+      'spooky themed educational worksheets',
+      'October classroom activity pages',
+      'costume and pumpkin themed printables',
+    ],
   },
   hero: {
     title: 'Halloween Printable Business Ideas for Sellers',

@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Fairy Tale Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover fairy tale printable ideas to sell on Etsy, Amazon KDP, and TPT. Storybook-themed product concepts, platform tips, and strategies for printable sellers.',
+    metaDescription: 'Discover fairy tale printable ideas to sell on Etsy, Amazon KDP, and TPT. Storybook-themed product concepts, platform tips, and strategies for sellers.',
+
+    primaryKeyword: 'fairy tale printable ideas',
+    secondaryKeywords: [
+      'fairy tale worksheets to sell',
+      'storybook themed printable business',
+      'fairy tale activity sheets for sellers',
+      'sell fairy tale printables online',
+    ],
+    lsiKeywords: [
+      'storybook themed educational worksheets',
+      'classic tale literacy activities',
+      'fantasy themed classroom printables',
+    ],
   },
   hero: {
     title: 'Fairy Tale Printable Business Ideas for Sellers',

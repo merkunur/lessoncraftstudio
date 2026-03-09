@@ -15,7 +15,7 @@ const content: ToolContent = {
       'locale-specific alphabet accented letters I spy generator',
     ],
     titleTag: 'Find & Count Maker — I Spy Worksheet Generator for Sellers',
-    metaDescription: 'Create I Spy worksheets with two activity modes — Hidden Object and Letter Spotting — four mixable task types (circle, square, cross, count), locale-specific alphabets with accented letters, localized image labels in 11 languages, configurable grid density, auto-generated answer keys with red annotations. Free trial with all features — commercial license available.',
+    metaDescription: 'Create I Spy worksheets with Hidden Object and Letter Spotting modes, four task types, locale-specific alphabets, 104 themes. Try free — license available.',
   },
 
   hero: {

@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Back to School Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover back to school printable ideas to sell on Etsy, KDP, and TPT. Classroom product concepts, July-September strategies, and platform tips for sellers.',
+
+    primaryKeyword: 'back to school printable ideas',
+    secondaryKeywords: [
+      'back to school worksheets to sell',
+      'school printable business ideas',
+      'back to school activity sheets',
+      'sell back to school printables online',
+    ],
+    lsiKeywords: [
+      'classroom worksheet bundles',
+      'teacher resource printables',
+      'school supply themed activities',
+    ],
   },
   hero: {
     title: 'Back to School Printable Business Ideas for Sellers',

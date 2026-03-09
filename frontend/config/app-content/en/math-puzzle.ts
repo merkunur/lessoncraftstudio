@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create math puzzle worksheets to sell',
+    primaryKeyword: 'math puzzle generator',
     secondaryKeywords: [
       'printable math puzzle maker for Etsy sellers',
       'picture puzzle worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'math puzzle printables commercial license',
     ],
     lsiKeywords: [
-      'digital math puzzle products passive income',
+      'digital math puzzle products online business',
       'printable puzzle worksheet business',
       'commercial use math puzzle generator',
     ],
-    titleTag: 'Math Puzzle Worksheet Generator | Create & Sell Puzzle Printables',
-    metaDescription:
-      'Create professional math puzzle worksheets to sell on Etsy, Amazon KDP, and TPT. Picture puzzles with addition & subtraction, configurable grids, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Math Puzzle Generator | Create & Sell Printables',
+    metaDescription: 'Create math puzzle worksheets to sell on Etsy, KDP & TPT. Picture puzzles with addition and subtraction, configurable grids. Try free — license available.',
   },
 
   hero: {
@@ -109,13 +108,13 @@ const content: AppContent = {
       {
         title: 'Themed Math Puzzle Bundles on Etsy',
         description:
-          'Create sets of 10\u201320 math puzzle worksheets grouped by theme \u2014 farm animals, dinosaurs, ocean life, holidays \u2014 and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The puzzle format stands out from standard drill sheets, attracting parents who want engaging math practice and teachers looking for creative classroom activities. Price individual theme packs at $3\u2013$5 and mega-bundles at $12\u2013$18.',
+          'Create sets of 10\u201320 math puzzle worksheets grouped by theme \u2014 farm animals, dinosaurs, ocean life, holidays \u2014 and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The puzzle format stands out from standard drill sheets, attracting parents who want engaging math practice and teachers looking for creative classroom activities. Price individual theme packs at $3\u2013$5 and mega-bundles at $12\u2013$18. Seasonal collections around back-to-school, Halloween, and spring break tend to spike in search traffic, so plan your listings calendar around these high-demand windows to maximize visibility and conversions.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Math Puzzle Activity Books on Amazon KDP',
         description:
-          'Compile 50\u2013100 math puzzle worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty \u2014 start with 2\u00d72 addition-only puzzles and advance to 4\u00d74 mixed-operation grids \u2014 to create a structured learning path that keeps children engaged across dozens of pages. Add a title page, instructions explaining the puzzle format, and an answer key section at the back. Math puzzle books occupy a less crowded niche than standard worksheet books, giving you a competitive edge.',
+          'Compile 50\u2013100 math puzzle worksheets into a printed activity book formatted for Amazon KDP. Use progressive difficulty \u2014 start with 2\u00d72 addition-only puzzles and advance to 4\u00d74 mixed-operation grids \u2014 to create a structured learning path that keeps children engaged across dozens of pages. Add a title page, instructions explaining the puzzle format, and an answer key section at the back. Math puzzle books occupy a less crowded niche than standard worksheet books, giving you a competitive edge. Consider publishing separate volumes for each grade level or operation type, as focused titles rank better in Amazon search results and let you capture buyers looking for targeted skill practice.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -127,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Printable Subscription Content for Your Own Store',
         description:
-          'Use the generator to produce fresh weekly math puzzle packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model \u2014 new themed puzzle pack every week \u2014 creates recurring revenue and builds a loyal customer base of homeschool families and tutoring centers. With three operations, variable grid sizes, and 104 themes, you have enough combinations for years of unique content without repeating.',
+          'Use the generator to produce fresh weekly math puzzle packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model \u2014 new themed puzzle pack every week \u2014 creates recurring revenue and builds a loyal customer base of homeschool families and tutoring centers. With three operations, variable grid sizes, and 104 themes, you have enough combinations for years of unique content without repeating. Offering a free trial sample pack on your store landing page lets potential subscribers experience the puzzle quality firsthand before committing, which significantly improves conversion rates for digital product subscriptions.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
@@ -143,17 +142,17 @@ const content: AppContent = {
     {
       question: 'How does the math puzzle format work?',
       answer:
-        'A selected image is split into a grid of cells. Each cell contains a math problem (addition, subtraction, or mixed). Below the grid, the same image pieces are shown scrambled and numbered. Students solve each math problem, then match the answer to the correct scrambled piece \u2014 when all pieces are matched correctly, the puzzle is solved and the full image is revealed.',
+        'A selected image is split into a grid of cells. Each cell contains a math problem (addition, subtraction, or mixed). Below the grid, the same image pieces are shown scrambled and numbered. Students solve each math problem, then match the answer to the correct scrambled piece \u2014 when all pieces are matched correctly, the puzzle is solved and the full image is revealed. This reveal mechanic adds a layer of motivation that standard drill sheets lack, making students eager to complete every problem rather than abandoning the worksheet halfway through.',
     },
     {
       question: 'What grid sizes are available for the puzzles?',
       answer:
-        'You can set rows from 2 to 4 and columns from 2 to 4, creating puzzles with anywhere from 4 pieces (2\u00d72) to 16 pieces (4\u00d74). Smaller grids are ideal for younger students or quick activities, while larger grids provide more problems and a greater puzzle-solving challenge.',
+        'You can set rows from 2 to 4 and columns from 2 to 4, creating puzzles with anywhere from 4 pieces (2\u00d72) to 16 pieces (4\u00d74). Smaller grids are ideal for younger students or quick activities, while larger grids provide more problems and a greater puzzle-solving challenge. This range of grid options also makes it easy to create tiered product bundles \u2014 group easy, medium, and hard puzzles into a single listing that appeals to buyers across multiple age groups and skill levels.',
     },
     {
       question: 'What math operations does the Math Puzzle Generator support?',
       answer:
-        'The generator supports three operation modes: Addition (two numbers that sum to the solution), Subtraction (one number minus another equals the solution), and Addition & Subtraction mixed (both operations randomized across the grid). This lets you target specific skills or create varied practice on a single worksheet.',
+        'The generator supports three operation modes: Addition (two numbers that sum to the solution), Subtraction (one number minus another equals the solution), and Addition & Subtraction mixed (both operations randomized across the grid). This lets you target specific skills or create varied practice on a single worksheet. Sellers who offer all three operation modes as separate SKUs or bundle them together into a comprehensive math puzzle collection can cover a wider range of buyer needs and attract both early-stage and advanced learners.',
     },
     {
       question: 'How are the math problem numbers generated?',
@@ -183,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Can I export puzzles in grayscale for ink-friendly printing?',
       answer:
-        'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for classroom printing, homework packets, or activity books where color printing isn\u2019t practical. Both JPEG and PDF exports support the grayscale toggle.',
+        'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for classroom printing, homework packets, or activity books where color printing isn\u2019t practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.',
     },
     {
       question: 'Is there a free trial?',
@@ -193,7 +192,7 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create \u2014 on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many puzzles you produce or sell.',
+        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create \u2014 on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many puzzles you produce or sell. You retain full ownership of every worksheet you generate, and you can list products across multiple marketplaces simultaneously without any additional licensing fees or platform restrictions.',
     },
     {
       question: 'What is the refund policy?',
@@ -277,7 +276,7 @@ const content: AppContent = {
         caption: 'Mixed mode \u2014 4\u00d74 grid with 16 pieces for advanced problem-solving practice',
       },
     ],
-    youtubeId: '',
+    youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'How to Create Math Puzzle Worksheets \u2014 Step-by-Step Tutorial',
   },
 };

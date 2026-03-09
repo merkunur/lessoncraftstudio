@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Digital Download Worksheet Ideas to Sell \u2014 Guide',
     metaDescription: 'Digital download worksheet ideas for Etsy, Gumroad, and TPT sellers. Build a zero-inventory printable business with instant-delivery educational PDFs.',
+
+    primaryKeyword: 'digital download worksheet ideas',
+    secondaryKeywords: [
+      'digital download printable business',
+      'sell digital worksheets online',
+      'digital printable product ideas',
+      'downloadable worksheet business model',
+    ],
+    lsiKeywords: [
+      'instant download educational products',
+      'PDF worksheet marketplace selling',
+      'automated digital product delivery',
+    ],
   },
   hero: {
     title: 'Digital Download Worksheet Business Ideas for Sellers',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'configurable clue cell difficulty grid maker',
     ],
     titleTag: 'Grid Match Maker \u2014 Grid Matching Worksheet Generator',
-    metaDescription: 'Create grid matching worksheets where one image is divided into tiles and students match numbered tiles to correct positions. Configurable grid size (2\u00d72 to 4\u00d74), adjustable clue cells, Fisher-Yates randomization, auto answer key with numbered circle overlays, and 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create grid matching worksheets with configurable grid size, adjustable clue cells, Fisher-Yates shuffling, and 104 themed images. Try free — license available.',
   },
 
   hero: {

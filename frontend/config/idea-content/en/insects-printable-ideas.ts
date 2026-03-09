@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Insects Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover profitable insect-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche tips for printable sellers.',
+    metaDescription: 'Discover insect-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Bug and butterfly product concepts, platform strategies, and niche seller tips.',
+
+    primaryKeyword: 'insects printable ideas',
+    secondaryKeywords: [
+      'insect themed worksheets to sell',
+      'bug printable business ideas',
+      'insect activity sheets for sellers',
+      'sell insect printables on Etsy',
+    ],
+    lsiKeywords: [
+      'entomology activities for kids',
+      'bug themed educational worksheets',
+      'creepy crawly classroom printables',
+    ],
   },
   hero: {
     title: 'Insects Printable Business Ideas for Sellers',

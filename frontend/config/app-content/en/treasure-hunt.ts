@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create treasure hunt worksheets to sell',
+    primaryKeyword: 'treasure hunt generator',
     secondaryKeywords: [
       'printable treasure hunt path-finding maker for Etsy sellers',
       'directional puzzle worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell treasure hunt worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital treasure hunt printables passive income',
+      'digital treasure hunt printables online business',
       'commercial use directional worksheet generator',
       'printable path-finding puzzle business tools',
     ],
-    titleTag: 'Treasure Hunt Generator | Create & Sell Path-Finding Puzzles',
-    metaDescription:
-      'Create treasure hunt path-finding worksheets to sell on Etsy, Amazon KDP, and TPT. 5\u00d75 coordinate grid, two direction types, auto answer key, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Treasure Hunt Generator | Create Path Worksheets',
+    metaDescription: 'Create treasure hunt worksheets to sell on Etsy, KDP & TPT. 5x5 coordinate grid, two direction types, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {

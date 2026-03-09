@@ -15,7 +15,7 @@ const content: ToolContent = {
       'call-out sheet bingo worksheet creator tool',
     ],
     titleTag: 'Bingo Card Maker \u2014 Picture Bingo Card Generator',
-    metaDescription: 'Create picture bingo cards with configurable grids from 3\u00d73 to 5\u00d75, batch generation of 1\u201310 unique cards per set, ZIP export, dual fill modes for cells and chips, dedicated call-out sheet, and 104 themed image collections. Word fill uses localized image names for multilingual bingo products. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create picture bingo cards with grids from 3x3 to 5x5, batch generation of unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
   },
 
   hero: {

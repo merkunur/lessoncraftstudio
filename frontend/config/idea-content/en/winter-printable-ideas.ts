@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Winter Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover winter printable ideas to sell on Etsy, Amazon KDP, and TPT. Cold-weather product concepts with strong November-February demand for worksheet sellers.',
+
+    primaryKeyword: 'winter printable ideas',
+    secondaryKeywords: [
+      'winter worksheets to sell',
+      'winter themed printable business',
+      'winter activity sheets for sellers',
+      'sell winter printables on Etsy',
+    ],
+    lsiKeywords: [
+      'snow and ice educational worksheets',
+      'cold weather activity pages',
+      'seasonal winter classroom printables',
+    ],
   },
   hero: {
     title: 'Winter Printable Business Ideas for Sellers',

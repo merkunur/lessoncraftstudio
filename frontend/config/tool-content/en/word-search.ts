@@ -15,7 +15,7 @@ const content: ToolContent = {
       'multilingual word search puzzle generator',
     ],
     titleTag: 'Word Search Worksheet Generator | Create & Sell Grid Puzzles',
-    metaDescription: 'Generate word search worksheets with adjustable grids from 5\u00d75 to 30\u00d730, diagonal and reverse direction controls, locale-aware fillers, and color-coded answer keys across 11 languages. 104 image themes. Create hidden-word puzzles to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate word search worksheets with adjustable grids from 5x5 to 30x30, direction controls, locale-aware fillers, 11 languages. Try free — license available.',
   },
 
   hero: {

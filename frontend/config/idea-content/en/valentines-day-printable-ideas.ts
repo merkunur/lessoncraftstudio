@@ -3,7 +3,19 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Valentine Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore Valentine\'s Day printable ideas to sell on Etsy, Amazon KDP, and TPT. Love-themed product concepts, seasonal timing strategies, and platform tips for sellers.',
+    metaDescription: "Explore Valentine's Day printable ideas to sell on Etsy, KDP, and TPT. Love-themed product concepts, seasonal timing strategies, and tips for sellers.",
+    primaryKeyword: 'valentine printable ideas',
+    secondaryKeywords: [
+      'Valentine\'s Day worksheets to sell',
+      'Valentine printable business ideas',
+      'Valentine activity sheets for sellers',
+      'sell Valentine printables on Etsy',
+    ],
+    lsiKeywords: [
+      'heart themed educational worksheets',
+      'February classroom activity pages',
+      'love and friendship themed printables',
+    ],
   },
   hero: {
     title: 'Valentine\'s Day Printable Business Ideas for Sellers',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create picture bingo cards to sell',
+    primaryKeyword: 'bingo card generator',
     secondaryKeywords: [
       'printable bingo card maker for Etsy sellers',
       'picture bingo worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell printable bingo cards on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital bingo printables passive income',
+      'digital bingo printables online business',
       'commercial use bingo card generator',
       'printable picture bingo business tools',
     ],
-    titleTag: 'Picture Bingo Card Generator | Create & Sell Bingo Cards',
-    metaDescription:
-      'Create professional picture bingo cards to sell on Etsy, Amazon KDP, and TPT. Batch generate 1\u201310 unique cards, ZIP export, call-out sheet, 104 themes. Free to try \u2014 commercial license available.',
+    titleTag: 'Bingo Card Generator | Create & Sell Bingo Printables',
+    metaDescription: 'Create picture bingo cards to sell on Etsy, KDP & TPT. Batch-generate unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
   },
 
   hero: {

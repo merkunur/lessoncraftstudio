@@ -15,7 +15,7 @@ const content: ToolContent = {
       'big small medium ordering worksheet maker',
     ],
     titleTag: 'Size Comparison Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate size comparison worksheets with five question types (circle big, circle small, circle medium, number ascending, number descending), identical and different image modes, 1\u201310 exercises per page, auto answer keys, and 104 themed image collections. Create big-and-small worksheets to sell on Etsy, KDP, and TpT.',
+    metaDescription: 'Generate size comparison worksheets with five question types, identical and different image modes, and 104 themes. Export PDFs. Try free — license available.',
   },
 
   hero: {

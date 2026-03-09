@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key complete filled grid sudoku generator',
     ],
     titleTag: 'Picture Sudoku Maker — Picture Sudoku for Kids Generator',
-    metaDescription: 'Create picture sudoku for kids with a 4×4 grid using images instead of numbers. Three difficulty levels (4, 6, or 8 blank cells), auto-generated answer key with complete filled grid, 104 themed image collections. Free trial with all features — commercial license available.',
+    metaDescription: 'Create picture sudoku for kids with 4x4 image grids, three difficulty levels, auto answer keys, and 104 themed collections. Try free — license available.',
   },
 
   hero: {

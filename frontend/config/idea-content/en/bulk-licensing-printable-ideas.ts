@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Bulk Licensing Printable Business Ideas to Sell \u2014 Guide',
     metaDescription: 'Bulk licensing printable business ideas for selling worksheet collections to schools, districts, and organizations. Volume licensing strategies for educators.',
+
+    primaryKeyword: 'bulk licensing printable',
+    secondaryKeywords: [
+      'bulk license worksheet business',
+      'school district printable licensing',
+      'wholesale printable worksheet sales',
+      'bulk educational printable deals',
+    ],
+    lsiKeywords: [
+      'volume licensing for digital products',
+      'institutional printable agreements',
+      'district-wide worksheet packages',
+    ],
   },
   hero: {
     title: 'Bulk Licensing Printable Business Ideas for Sellers',

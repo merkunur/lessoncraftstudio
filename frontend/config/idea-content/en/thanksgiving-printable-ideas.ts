@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Thanksgiving Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover Thanksgiving printable ideas to sell on Etsy, Amazon KDP, and TPT. Harvest-themed product concepts, seasonal strategies, and platform tips for sellers.',
+
+    primaryKeyword: 'thanksgiving printable ideas',
+    secondaryKeywords: [
+      'Thanksgiving worksheets to sell',
+      'Thanksgiving printable business ideas',
+      'Thanksgiving activity sheets for sellers',
+      'sell Thanksgiving printables on Etsy',
+    ],
+    lsiKeywords: [
+      'harvest and gratitude educational worksheets',
+      'November themed classroom activity pages',
+      'turkey and pilgrim themed printables',
+    ],
   },
   hero: {
     title: 'Thanksgiving Printable Business Ideas for Sellers',

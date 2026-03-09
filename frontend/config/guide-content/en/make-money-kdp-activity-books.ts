@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP reports performance tracking revenue per title analysis',
     ],
     titleTag: 'Make Money KDP Activity Books \u2014 Revenue Guide',
-    metaDescription: 'Make money KDP activity books with pricing, catalog, and royalty strategies. Covers revenue math, seasonal publishing, and multi-platform scaling.',
+    metaDescription: 'How to make money with KDP activity books. Covers pricing, catalog building, royalty calculations, seasonal publishing, and multi-platform scaling strategies.',
   },
 
   hero: {

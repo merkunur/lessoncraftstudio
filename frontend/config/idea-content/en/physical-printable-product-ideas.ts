@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Physical Printable Product Ideas to Sell \u2014 Guide',
     metaDescription: 'Physical printable product ideas for Etsy and craft fair sellers. Build a premium business printing, laminating, and shipping tangible worksheet products.',
+
+    primaryKeyword: 'physical printable product ideas',
+    secondaryKeywords: [
+      'printed worksheet product business',
+      'physical printable products to sell',
+      'tangible printable business ideas',
+      'sell printed worksheets offline',
+    ],
+    lsiKeywords: [
+      'print-and-ship educational products',
+      'physical workbook publishing',
+      'tangible classroom resource sales',
+    ],
   },
   hero: {
     title: 'Physical Printable Product Business Ideas for Sellers',

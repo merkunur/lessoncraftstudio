@@ -3,7 +3,19 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Parents Day Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover Mother\'s Day and Father\'s Day printable ideas to sell on Etsy, Amazon KDP, and TPT. Parent appreciation product concepts and platform tips for sellers.',
+    metaDescription: "Discover Mother's Day and Father's Day printable ideas to sell on Etsy, KDP, and TPT. Parent appreciation product concepts and platform tips for sellers.",
+    primaryKeyword: 'parents day printable ideas',
+    secondaryKeywords: [
+      'Mother\'s Day worksheets to sell',
+      'Father\'s Day printable business ideas',
+      'parents day activity sheets for sellers',
+      'sell parents day printables on Etsy',
+    ],
+    lsiKeywords: [
+      'family celebration educational worksheets',
+      'parent appreciation activity pages',
+      'seasonal family themed printables',
+    ],
   },
   hero: {
     title: 'Mother\'s & Father\'s Day Printable Business Ideas for Sellers',

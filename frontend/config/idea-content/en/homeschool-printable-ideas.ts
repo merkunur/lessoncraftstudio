@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Homeschool Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover homeschool printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting the rapidly growing homeschool market where parents build entire curricula from purchased resources.',
+    metaDescription: 'Discover homeschool printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting parents who build homeschool curricula.',
+
+    primaryKeyword: 'homeschool printable ideas',
+    secondaryKeywords: [
+      'homeschool worksheets to sell',
+      'homeschool printable business ideas',
+      'homeschool activity sheets for sellers',
+      'sell homeschool printables online',
+    ],
+    lsiKeywords: [
+      'home education curriculum worksheets',
+      'parent-led learning printable resources',
+      'homeschool co-op activity pages',
+    ],
   },
   hero: {
     title: 'Homeschool Printable Business Ideas for Sellers',

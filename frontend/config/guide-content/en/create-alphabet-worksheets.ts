@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license alphabet train tool',
     ],
     titleTag: 'Alphabet Train Worksheets \u2014 Guide',
-    metaDescription: 'How to create alphabet train worksheets with 11 colorful train wagons, two creation modes (Auto Create and Manual Selection), configurable 3\u201311 clue count for difficulty scaling, language-sensitive letter matching across 11 native alphabets, auto answer keys, and 300 DPI export for sales on Etsy and KDP.',
+    metaDescription: 'How to create alphabet train worksheets with train wagons, two creation modes, configurable difficulty, and 104 themed images. Sell on Etsy, KDP & TPT.',
   },
 
   hero: {

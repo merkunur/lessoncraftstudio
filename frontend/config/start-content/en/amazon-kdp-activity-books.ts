@@ -18,7 +18,7 @@ const content: StartContent = {
       'print on demand activity book business',
     ],
     titleTag: 'How to Sell Activity Books on Amazon KDP \u2014 Guide',
-    metaDescription: 'How to sell activity books on Amazon KDP. Covers interior formatting, cover design, keyword research, pricing, categories, and scaling a KDP activity book business.',
+    metaDescription: 'How to sell activity books on Amazon KDP. Covers interior formatting, cover design, keyword research, pricing strategy, and scaling your KDP book business.',
   },
 
   hero: {

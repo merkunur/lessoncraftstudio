@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create shadow matching worksheets to sell',
+    primaryKeyword: 'shadow match generator',
     secondaryKeywords: [
       'printable silhouette matching activity maker for Etsy sellers',
       'picture shadow puzzle worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'sell shadow matching worksheets on Teachers Pay Teachers',
     ],
     lsiKeywords: [
-      'digital silhouette matching printables passive income',
+      'digital silhouette matching printables online business',
       'commercial use shadow puzzle worksheet generator',
       'printable visual matching activity business tools',
     ],
-    titleTag: 'Shadow Match Worksheet Generator | Create & Sell Shadow Puzzles',
-    metaDescription:
-      'Create professional shadow matching worksheets to sell on Etsy, Amazon KDP, and TPT. Two modes \u2014 shadow match and make it whole \u2014 auto silhouettes, answer key, 104 themes. Free to try.',
+    titleTag: 'Shadow Match Generator | Create Silhouette Puzzles',
+    metaDescription: 'Create shadow matching worksheets to sell on Etsy, KDP & TPT. Shadow match and make-it-whole modes, auto silhouettes, 104 themes. Try free — license available.',
   },
 
   hero: {

@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Food & Cooking Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Discover food and cooking printable ideas to sell on Etsy, Amazon KDP, and TPT. Recipe-themed product concepts, platform strategies, and tips for printable sellers.',
+    metaDescription: 'Discover food and cooking printable ideas to sell on Etsy, Amazon KDP, and TPT. Recipe-themed product concepts, platform strategies, and tips for sellers.',
+
+    primaryKeyword: 'food & cooking printable ideas',
+    secondaryKeywords: [
+      'food themed worksheets to sell',
+      'cooking printable business ideas',
+      'kitchen activity sheets for sellers',
+      'sell food printables on Etsy',
+    ],
+    lsiKeywords: [
+      'culinary themed educational worksheets',
+      'nutrition activities for kids',
+      'recipe themed classroom printables',
+    ],
   },
   hero: {
     title: 'Food & Cooking Printable Business Ideas for Sellers',

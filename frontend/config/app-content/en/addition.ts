@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create math worksheets to sell',
+    primaryKeyword: 'addition worksheet generator',
     secondaryKeywords: [
       'printable addition worksheets for Etsy',
       'math worksheet maker for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'addition printables commercial license',
     ],
     lsiKeywords: [
-      'digital math products passive income',
+      'digital math products online business',
       'printable worksheet business',
       'commercial use worksheet generator',
     ],
-    titleTag: 'Addition Worksheet Generator | Create & Sell Math Printables',
-    metaDescription:
-      'Create professional addition worksheets to sell on Etsy, Amazon KDP, and TPT. 104 themes, 4 exercise modes, answer keys, 400+ DPI export. Free to try \u2014 commercial license available.',
+    titleTag: 'Addition Worksheet Generator | Create & Sell Printables',
+    metaDescription: 'Create addition worksheets to sell on Etsy, KDP & TPT. 104 themes, 4 exercise modes, answer keys included, 400+ DPI export. Try free — license available.',
   },
 
   hero: {
@@ -32,7 +31,7 @@ const content: AppContent = {
       {
         title: 'Set Your Page Layout',
         description:
-          'Open the Page Setup panel and pick a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or any custom dimension you need. Choose a background color, select a decorative background theme from the image library, and adjust opacity to keep problems readable. Add a matching border frame to give worksheets a polished, print-ready look.',
+          'Open the Page Setup panel and pick a page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or any custom dimension you need. Choose a background color, select a decorative background theme from the image library, and adjust opacity to keep problems readable. Add a matching border frame to give worksheets a polished, print-ready look. The preview canvas updates in real time as you make changes, so you can see exactly how your finished worksheet will look before committing to a download. This live preview eliminates trial-and-error iterations that waste time during batch production sessions.',
       },
       {
         title: 'Configure the Exercise Mode and Number Range',
@@ -42,7 +41,7 @@ const content: AppContent = {
       {
         title: 'Pick Images from the Theme Library',
         description:
-          'Open the Image Library panel and browse 104 themes \u2014 from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Click to select the images you want on your worksheet; each exercise pulls from your selections. You can also upload your own custom images for a completely unique look that matches your brand or classroom theme.',
+          'Open the Image Library panel and browse 104 themes \u2014 from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Click to select the images you want on your worksheet; each exercise pulls from your selections. You can also upload your own custom images for a completely unique look that matches your brand or classroom theme. Sellers who curate cohesive image sets within a single theme consistently report stronger buyer engagement, because themed consistency signals professional quality and justifies premium pricing on marketplaces like Etsy and Teachers Pay Teachers.',
       },
       {
         title: 'Add Text, Titles, and Custom Touches',
@@ -68,7 +67,7 @@ const content: AppContent = {
       {
         title: 'Configurable Number Ranges',
         description:
-          'Set the minimum and maximum number of items per group anywhere from 1 to 10, giving you full control over problem difficulty. Create gentle 1+1 through 3+3 worksheets for preschoolers, standard 1\u201310 practice for kindergarteners, or challenging near-ten problems for first and second graders. Adjusting the range takes a single click, so you can differentiate instruction across an entire class in minutes.',
+          'Set the minimum and maximum number of items per group anywhere from 1 to 10, giving you full control over problem difficulty. Create gentle 1+1 through 3+3 worksheets for preschoolers, standard 1\u201310 practice for kindergarteners, or challenging near-ten problems for first and second graders. Adjusting the range takes a single click, so you can differentiate instruction across an entire class in minutes. This granular control over number ranges means you can create precisely targeted products for each developmental stage, from early counting skills through multi-digit addition mastery. Teachers appreciate worksheets that match their exact curriculum progression rather than generic one-size-fits-all difficulty levels.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
@@ -133,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Classroom and Tutoring Practice Sheets',
         description:
-          'Generate custom addition worksheets tailored to each student\u2019s current skill level. Print a stack of Image + Image sheets for beginners and Find the Addend sheets for advanced learners \u2014 all in the same session. The automatic answer key saves grading time. Whether you run a tutoring center, teach a kindergarten class, or homeschool your own children, the generator replaces hours of manual worksheet creation with a few clicks.',
+          'Generate custom addition worksheets tailored to each student\u2019s current skill level. Print a stack of Image + Image sheets for beginners and Find the Addend sheets for advanced learners \u2014 all in the same session. The automatic answer key saves grading time. Whether you run a tutoring center, teach a kindergarten class, or homeschool your own children, the generator replaces hours of manual worksheet creation with a few clicks. The ability to regenerate worksheets with different image arrangements while maintaining identical difficulty parameters means every student session feels fresh without requiring additional preparation time. Tutors who build a systematic library of themed addition worksheets at progressive difficulty levels can scale their practice from a handful of students to dozens without proportionally increasing their material preparation workload.',
         platform: 'Classroom / Tutoring / Homeschool',
       },
     ],
@@ -143,37 +142,37 @@ const content: AppContent = {
     {
       question: 'What exercise modes does the Addition Worksheet Generator offer?',
       answer:
-        'The generator includes four modes: Image + Image (two picture groups to count and add), Image + Number (one picture group plus a numeral), Find the Addend (the sum is shown and students find the missing group), and Mixed Mode (randomizes all three). Each mode targets a different skill level, from pure visual counting to early algebraic reasoning.',
+        'The generator includes four modes: Image + Image (two picture groups to count and add), Image + Number (one picture group plus a numeral), Find the Addend (the sum is shown and students find the missing group), and Mixed Mode (randomizes all three). Each mode targets a different skill level, from pure visual counting to early algebraic reasoning. Sellers who package all four modes into a single differentiated bundle can charge premium prices, because buyers receive a complete progression from beginner to advanced without needing separate resources.',
     },
     {
       question: 'What number ranges can I set for addition problems?',
       answer:
-        'You can set the minimum and maximum items per group from 1 to 10. This lets you create easy problems like 1+1 for preschoolers or challenging sums near 10+10 for first and second graders. Adjust the range with two simple inputs in the Exercise Configuration panel.',
+        'You can set the minimum and maximum items per group from 1 to 10. This lets you create easy problems like 1+1 for preschoolers or challenging sums near 10+10 for first and second graders. Adjust the range with two simple inputs in the Exercise Configuration panel. This precise control makes it easy to build grade-specific product lines \u2014 a preschool bundle at 1\u20133, a kindergarten set at 1\u20135, and a first-grade pack at 1\u201310 \u2014 each targeting a distinct buyer segment on Etsy or Amazon KDP.',
     },
     {
       question: 'How many images and themes are available?',
       answer:
-        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork.',
+        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and child-friendly, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
     },
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct sums filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet.',
+        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct sums filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet. Including answer keys in your product listings adds perceived value for teacher buyers, who expect ready-to-use resources that save grading time. Bundles that include answer keys alongside student pages consistently attract higher review scores on Teachers Pay Teachers and Etsy.',
     },
     {
       question: 'What page sizes and export formats are supported?',
       answer:
-        'Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200\u00d71200), or any custom dimension. Export as high-resolution JPEG or print-ready PDF. All exports render above 400 DPI, ensuring professional print quality for both home printers and commercial services.',
+        'Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200\u00d71200), or any custom dimension. Export as high-resolution JPEG or print-ready PDF. All exports render above 400 DPI, ensuring professional print quality for both home printers and commercial services. The variety of page sizes lets you create products for different regional markets \u2014 Letter for North American buyers on Etsy, A4 for European and Australian customers \u2014 expanding your potential audience without redesigning content from scratch.',
     },
     {
       question: 'Are addition worksheets language-sensitive?',
       answer:
-        'No. Addition worksheets are visual-only \u2014 the math content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\u2019s interface labels, not the worksheet content itself, making your products instantly sellable worldwide.',
+        'No. Addition worksheets are visual-only \u2014 the math content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\u2019s interface labels, not the worksheet content itself, making your products instantly sellable worldwide. Sellers who recognize this advantage can list identical PDFs across multiple regional Etsy shops or Amazon KDP marketplaces without any translation effort, effectively multiplying their storefront reach from a single production session.',
     },
     {
       question: 'Can I use my own images instead of the built-in library?',
       answer:
-        'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look.',
+        'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look. This capability is especially valuable for sellers who purchase commercial clipart sets and want to build a distinctive brand identity that buyers recognize across multiple product listings on Etsy or Teachers Pay Teachers.',
     },
     {
       question: 'Is there a free trial?',
@@ -188,7 +187,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your addition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent passive income.',
+        'Yes. With a commercial license, you have full rights to sell your addition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue.',
     },
     {
       question: 'What is the refund policy?',
@@ -198,7 +197,7 @@ const content: AppContent = {
     {
       question: 'Do I need to install any software?',
       answer:
-        'No. The Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating.',
+        'No. The Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating. Because everything runs client-side, your worksheet designs stay private on your own device and are never uploaded to external servers, which gives sellers full confidence that their product layouts and creative choices remain protected.',
     },
   ],
 

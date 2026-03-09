@@ -14,7 +14,7 @@ const content: ToolContent = {
       'quantity comparison worksheet tool',
       'check and cross math activity generator',
     ],
-    titleTag: 'Greater Than Less Than Worksheet Maker | Create & Sell Comparison Worksheets',
+    titleTag: 'Greater Than Less Than Worksheets | Sell Online',
     metaDescription: 'Create visual greater than, less than, and equal to worksheets with images in seconds. Three modes including unique Check & Cross. Sell on Etsy, KDP, and TpT.',
   },
 
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'KDP Comparison Workbooks',
-      description: 'Generate 50\u2013100 pages of number comparison exercises across all three modes, export as high-resolution PDFs, and publish as a low-content activity workbook on Amazon KDP. Use square format (1200\u00d71200) for KDP activity books and mix exercise modes for variety across chapters.',
+      description: 'Generate 50\u2013100 pages of number comparison exercises across all three modes, export as high-resolution PDFs, and publish as a low-content activity workbook on Amazon KDP. Use square format (1200\u00d71200) for KDP activity books and mix exercise modes for variety across chapters. Organize your workbook with a clear progression: start with Image to Image exercises using small number ranges, advance to Image to Number in the middle section, and finish with Check & Cross challenges at higher ranges. This structured approach appeals to parents looking for complete math readiness resources.',
     },
     {
       title: 'Differentiated Classroom Sets',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Comparison Printables Shop',
-      description: 'Open an Etsy shop specializing in greater than, less than, and equal to worksheets. The visual format is highly sought after by parents and teachers because it makes abstract comparison concrete. Create 15\u201320 themed bundles priced at $3\u2013$5 each. Since worksheets are image-only, list each product in multiple Etsy markets without translation.',
+      description: 'Open an Etsy shop specializing in greater than, less than, and equal to worksheets. The visual format is highly sought after by parents and teachers because it makes abstract comparison concrete. Create 15\u201320 themed bundles priced at $3\u2013$5 each. Since worksheets are image-only, list each product in multiple Etsy markets without translation. Focus your shop branding around early math printables and cross-promote with addition and subtraction worksheet bundles for repeat customers. Etsy\'s algorithm rewards shops with multiple related listings, so building a catalog of 20\u201330 comparison bundles across different themes significantly boosts your shop\'s visibility in search results.',
       platform: 'Etsy',
     },
     {
@@ -107,12 +107,12 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad Comparison Curriculum Pack',
-      description: 'Create a structured 10-week comparison curriculum with progressive difficulty \u2014 start with Image to Image at range 1\u20134, build to Check & Cross at range 1\u201310. Sell as a premium digital download on Gumroad. Homeschool parents actively seek complete, hands-on math programs.',
+      description: 'Create a structured 10-week comparison curriculum with progressive difficulty \u2014 start with Image to Image at range 1\u20134, build to Check & Cross at range 1\u201310. Sell as a premium digital download on Gumroad. Homeschool parents actively seek complete, hands-on math programs. Include a printable progress tracker and parent instruction sheet to justify premium pricing at $12\u2013$19. Structured curriculum packs command higher prices than individual worksheet bundles because they save parents hours of lesson planning.',
       platform: 'Gumroad',
     },
     {
       title: 'Multilingual Market Expansion',
-      description: 'Because comparison worksheets are visual-only, a single product works in every language market. List the same PDF on Etsy Germany, France, Spain, Italy, and more without changing a single page. Most competitors only serve English-speaking buyers \u2014 you instantly reach 5\u201310 times more potential customers.',
+      description: 'Because comparison worksheets are visual-only, a single product works in every language market. List the same PDF on Etsy Germany, France, Spain, Italy, and more without changing a single page. Most competitors only serve English-speaking buyers \u2014 you instantly reach 5\u201310 times more potential customers. Comparison concepts are universal across languages and cultures, which makes multilingual expansion particularly straightforward for this product category. German and French comparison worksheets face substantially less marketplace competition than English versions. Create complete multi-language product lines to capture international buyers searching in their native language on Etsy and Amazon.',
       platform: 'Etsy',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use Illustrations for Younger Learners',
-      description: 'The illustrated comparison symbols are colorful and kid-friendly, making them ideal for preschool and kindergarten products. Switch to Normal Symbols for first grade and above, or include both versions in your bundle so teachers can choose the right fit for their classroom.',
+      description: 'The illustrated comparison symbols are colorful and kid-friendly, making them ideal for preschool and kindergarten products. Switch to Normal Symbols for first grade and above, or include both versions in your bundle so teachers can choose the right fit for their classroom. Including both symbol styles in a single product listing also increases your keyword reach on Etsy because buyers search for both "picture comparison worksheets" and "greater than less than symbol worksheets" \u2014 covering both versions means your listing matches a wider range of search queries.',
     },
     {
       title: 'Scale Difficulty with Image Variety',
@@ -132,11 +132,11 @@ const content: ToolContent = {
     },
     {
       title: 'Check & Cross Is Your Unique Selling Point',
-      description: 'No other worksheet generator offers Check & Cross Groups mode. Highlight it prominently in your product titles, descriptions, and preview images. Buyers scanning Etsy search results will stop scrolling when they see a format they have never encountered before.',
+      description: 'No other worksheet generator offers Check & Cross Groups mode. Highlight it prominently in your product titles, descriptions, and preview images. Buyers scanning Etsy search results will stop scrolling when they see a format they have never encountered before. Use the Check & Cross preview as your primary listing thumbnail because it looks visually distinct from every other comparison worksheet on the market. When teachers and parents see a format they cannot find elsewhere, they are far more likely to click through and purchase your product rather than scrolling to a competitor.',
     },
     {
       title: 'Pair with Addition and Subtraction for Math Bundles',
-      description: 'Create matching comparison, addition, and subtraction worksheet sets using the same theme and number range. Sell them individually and as a combined "Early Math Mega-Bundle" at a slight discount. Bundled products have higher average order values on every marketplace.',
+      description: 'Create matching comparison, addition, and subtraction worksheet sets using the same theme and number range. Sell them individually and as a combined "Early Math Mega-Bundle" at a slight discount. Bundled products have higher average order values on every marketplace. When you use the same animal or seasonal theme across all three math skills, the bundle feels cohesive and professionally designed. Buyers perceive themed bundles as significantly more valuable than random collections of worksheets, which translates directly into higher conversion rates on your listings.',
     },
     {
       title: 'Keep Check & Cross Exercises at 1\u20133 per Page',
@@ -148,7 +148,7 @@ const content: ToolContent = {
     },
     {
       title: 'Always Include the Answer Key',
-      description: 'Click "Generate Answer Key" before downloading. For comparison worksheets, the answer key shows the correct symbol (>, <, or =) for each exercise. Buyers on Etsy and TpT consistently rate products higher when an answer key is included.',
+      description: 'Click "Generate Answer Key" before downloading. For comparison worksheets, the answer key shows the correct symbol (>, <, or =) for each exercise. Buyers on Etsy and TpT consistently rate products higher when an answer key is included. For Check & Cross mode, the answer key clearly marks which image group is the majority and which is the minority, saving teachers valuable grading time. Including answer keys also makes your products suitable for independent learning and homework assignments where parents need to verify correctness without math expertise.',
     },
   ],
 
@@ -163,7 +163,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does Check & Cross Groups mode work?',
-      answer: 'In Check & Cross mode, the worksheet shows a single box filled with 8\u201320 images from two different categories (for example, cats and dogs) shuffled randomly together. The student counts each category, draws a check mark next to the group with more items, and draws a cross next to the group with fewer items. This develops sorting, counting, and comparison skills simultaneously.',
+      answer: 'In Check & Cross mode, the worksheet shows a single box filled with 8\u201320 images from two different categories (for example, cats and dogs) shuffled randomly together. The student counts each category, draws a check mark next to the group with more items, and draws a cross next to the group with fewer items. This develops sorting, counting, and comparison skills simultaneously. The exercise is particularly effective because students must first classify the images into two groups, then count each group separately, and finally compare the totals \u2014 engaging three cognitive skills in a single activity. Teachers report that this format keeps students focused longer than standard side-by-side comparison exercises.',
     },
     {
       question: 'What is the difference between Illustrations and Normal Symbols?',
@@ -175,7 +175,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create. There is no limit on how many worksheets you can generate or how many platforms you can sell on with a commercial license. You retain full ownership of the worksheets you create, and you can modify, bundle, and reprice them however you choose.',
     },
     {
       question: 'Do the worksheets work in languages other than English?',
@@ -187,7 +187,7 @@ const content: ToolContent = {
     },
     {
       question: 'Do I need to install any software?',
-      answer: 'No. The generator runs entirely in your web browser. It works on any modern device \u2014 Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.',
+      answer: 'No. The generator runs entirely in your web browser. It works on any modern device \u2014 Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create. Simply open the tool, configure your worksheet settings, and download your finished files. All processing happens locally in your browser, so your worksheets are generated instantly without waiting for server-side rendering or uploads.',
     },
     {
       question: 'What is your refund policy?',

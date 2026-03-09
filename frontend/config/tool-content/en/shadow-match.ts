@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key shadow puzzle worksheet generator',
     ],
     titleTag: 'Shadow Match Maker — Shadow Matching Worksheet Generator',
-    metaDescription: 'Create shadow matching worksheets with two modes \u2014 Shadow Match generates pixel-level black silhouettes, Make It Whole splits images into halves with horizontal or vertical cuts. Fisher-Yates derangement ensures no trivial matches. Auto answer key, toggle labels, 104 themed collections. Free trial with all features \u2014 commercial license available.',
+    metaDescription: 'Create shadow matching worksheets with pixel-level silhouettes and Make It Whole image splitting, auto answer keys, 104 themes. Try free — license available.',
   },
 
   hero: {

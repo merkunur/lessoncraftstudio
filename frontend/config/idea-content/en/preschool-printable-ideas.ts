@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Preschool Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover preschool printable ideas to sell on Etsy, Amazon KDP, and TPT. Pre-K product concepts and niche strategies for printable sellers and entrepreneurs.',
+
+    primaryKeyword: 'preschool printable ideas',
+    secondaryKeywords: [
+      'preschool worksheets to sell',
+      'pre-K printable business ideas',
+      'preschool activity sheets for sellers',
+      'sell preschool printables on TPT',
+    ],
+    lsiKeywords: [
+      'early childhood educational worksheets',
+      'toddler learning activity pages',
+      'age 3-5 classroom printable resources',
+    ],
   },
   hero: {
     title: 'Preschool Printable Business Ideas for Sellers',

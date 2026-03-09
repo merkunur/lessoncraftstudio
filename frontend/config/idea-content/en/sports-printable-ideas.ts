@@ -4,6 +4,19 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Sports Printable Ideas to Sell \u2014 Niche Guide',
     metaDescription: 'Discover sports printable ideas to sell on Etsy, Amazon KDP, and TPT. Athletic-themed product concepts, platform strategies, and tips for this year-round niche.',
+
+    primaryKeyword: 'sports printable ideas',
+    secondaryKeywords: [
+      'sports themed worksheets to sell',
+      'sports printable business ideas',
+      'athletic activity sheets for sellers',
+      'sell sports printables on Etsy',
+    ],
+    lsiKeywords: [
+      'team sport educational worksheets',
+      'ball game themed activity pages',
+      'physical education classroom printables',
+    ],
   },
   hero: {
     title: 'Sports Printable Business Ideas for Sellers',

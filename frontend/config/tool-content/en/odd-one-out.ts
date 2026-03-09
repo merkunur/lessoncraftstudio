@@ -15,7 +15,7 @@ const content: ToolContent = {
       'auto answer key red circle odd item worksheet creator',
     ],
     titleTag: 'Odd One Out Maker — Odd One Out Worksheet Generator',
-    metaDescription: 'Create odd one out worksheets with two generation modes — Identical (3 clones + 1 different) and Similar (Theme A + Theme B). Per-exercise mode override for mixed-difficulty pages, 5–10 configurable exercises, auto-generated answer key with red circle markers, 104 themed collections. Free trial with all features — commercial license available.',
+    metaDescription: 'Create odd one out worksheets with Identical and Similar modes, per-exercise overrides, auto answer keys with red circles. Try free — license available.',
   },
 
   hero: {

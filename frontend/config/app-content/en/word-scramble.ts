@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create word scramble worksheets to sell',
+    primaryKeyword: 'word scramble generator',
     secondaryKeywords: [
       'printable word unscramble worksheets for Etsy sellers',
       'letter rearrangement puzzle maker for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'word scramble printables commercial license',
     ],
     lsiKeywords: [
-      'digital spelling puzzle products passive income',
+      'digital spelling puzzle products online business',
       'printable letter unscramble worksheet business',
       'commercial use word scramble generator',
     ],
-    titleTag: 'Word Scramble Worksheet Generator | Create & Sell Spelling Puzzles',
-    metaDescription:
-      'Create professional word scramble worksheets to sell on Etsy, Amazon KDP, and TPT. Image clues, shuffled letter tiles, vowel color coding, 11 languages. Free to try \u2014 commercial license available.',
+    titleTag: 'Word Scramble Generator | Create Spelling Puzzles',
+    metaDescription: 'Create word scramble worksheets to sell on Etsy, KDP & TPT. Image clues, shuffled letter tiles, vowel color coding, 11 languages. Try free — license available.',
   },
 
   hero: {

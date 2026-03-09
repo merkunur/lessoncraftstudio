@@ -14,8 +14,8 @@ const content: ToolContent = {
       'image-based word building worksheet tool',
       'multilingual spelling activity generator',
     ],
-    titleTag: 'Word Guess Worksheet Generator | Create & Sell Spelling Printables',
-    metaDescription: 'Generate word guess worksheets with 4 clue difficulty levels, dual input modes, and exclude letters across 11 languages. 104 image themes. Create spelling printables to sell on Etsy, KDP, and TpT.',
+    titleTag: 'Word Guess Worksheet Generator | Sell Printables',
+    metaDescription: 'Generate word guess worksheets with 4 difficulty levels, dual input modes, exclude letters, 11 languages, and 104 themed images. Try free — license available.',
   },
 
   hero: {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pair with Other Literacy Tools',
-      description: 'Combine word guess worksheets with word scrambles, word searches, handwriting practice, and matching worksheets to create comprehensive spelling bundles. A "Complete Spelling Practice" pack with multiple activity types sells for more than any single worksheet format alone and gives students varied practice with the same vocabulary.',
+      description: 'Combine word guess worksheets with word scrambles, word searches, handwriting practice, and matching worksheets to create comprehensive spelling bundles. A "Complete Spelling Practice" pack with multiple activity types sells for more than any single worksheet format alone and gives students varied practice with the same vocabulary. Reusing the same themed images across different activity types also keeps your visual branding consistent, which strengthens buyer recognition when they browse your shop.',
     },
   ],
 
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I upload my own images?',
-      answer: 'Yes. Click the "Upload Image" button to use your own PNG or JPEG files as image clues. Custom images let you create branded worksheets with your own illustrations or licensed artwork that no other seller can replicate.',
+      answer: 'Yes. Click the "Upload Image" button to use your own PNG or JPEG files as image clues. Custom images let you create branded worksheets with your own illustrations or licensed artwork that no other seller can replicate. This is especially valuable for sellers building a recognizable brand, since your unique artwork makes your listings impossible for competitors to duplicate exactly.',
     },
     {
       question: 'Does the tool generate answer keys?',

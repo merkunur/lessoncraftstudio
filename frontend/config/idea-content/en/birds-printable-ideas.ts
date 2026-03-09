@@ -3,7 +3,20 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Birds Printable Ideas to Sell \u2014 Niche Guide',
-    metaDescription: 'Explore profitable bird-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche tips for printable sellers.',
+    metaDescription: 'Explore bird-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche positioning tips for sellers.',
+
+    primaryKeyword: 'birds printable ideas',
+    secondaryKeywords: [
+      'bird themed worksheets to sell',
+      'bird printable business ideas',
+      'sell bird activity sheets online',
+      'bird worksheet niche for sellers',
+    ],
+    lsiKeywords: [
+      'wildlife themed educational printables',
+      'nature observation worksheets',
+      'ornithology activities for kids',
+    ],
   },
   hero: {
     title: 'Birds Printable Business Ideas for Sellers',

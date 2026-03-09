@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'create picture graph worksheets to sell',
+    primaryKeyword: 'picture graph generator',
     secondaryKeywords: [
       'printable pictograph worksheet maker for Etsy sellers',
       'chart count worksheet generator for KDP publishers',
@@ -10,13 +10,12 @@ const content: AppContent = {
       'data graphing worksheet creator commercial license',
     ],
     lsiKeywords: [
-      'digital pictograph printables passive income',
+      'digital pictograph printables online business',
       'printable data representation worksheet business',
       'commercial use picture graph generator',
     ],
-    titleTag: 'Picture Graph Generator | Create & Sell Chart Count Worksheets',
-    metaDescription:
-      'Create professional picture graph worksheets to sell on Etsy, Amazon KDP, and TPT. Auto answer key, 104 themes, 6 image types per sheet, grayscale export. Free to try \u2014 commercial license available.',
+    titleTag: 'Picture Graph Generator | Create Chart Worksheets',
+    metaDescription: 'Create picture graph worksheets to sell on Etsy, KDP & TPT. Auto answer key with highlights, 104 themes, 6 image types per sheet. Try free — license available.',
   },
 
   hero: {

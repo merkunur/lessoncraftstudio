@@ -289,7 +289,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('more less', 'More Less (11).webp'), alt: 'Professional more-less worksheet' }, label: 'Worksheet' },
         { image: { src: img('more less', 'More Less (12).webp'), alt: 'More-less worksheet — another themed variation' }, label: 'Worksheet' },
-        { image: { src: img('more less', 'More Less (8) answer_key.webp'), alt: 'More-less answer key' }, label: 'Answer Key' },
+        { image: { src: img('more less', 'More Less answer_key (8).webp'), alt: 'More-less answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', '3 Comparison Types'],
       frameColor: '#5E35B1',
@@ -358,7 +358,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('math puzzle', 'Math Puzzles (12).webp'), alt: 'Professional math puzzle worksheet' }, label: 'Puzzle' },
         { image: { src: img('math puzzle', 'Math Puzzles (15).webp'), alt: 'Math puzzle — themed variation' }, label: 'Puzzle' },
-        { image: { src: img('math puzzle', 'Math Puzzles (1) answer_key.webp'), alt: 'Math puzzle answer key' }, label: 'Answer Key' },
+        { image: { src: img('math puzzle', 'Math Puzzles answer_key (1).webp'), alt: 'Math puzzle answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Cute Animals'],
       frameColor: '#006D77',
@@ -565,7 +565,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('prepositions', 'prepositions_worksheet (8).webp'), alt: 'Professional prepositions worksheet' }, label: 'Worksheet' },
         { image: { src: img('prepositions', 'prepositions_worksheet (12).webp'), alt: 'Prepositions — themed variation' }, label: 'Worksheet' },
-        { image: { src: img('prepositions', 'prepositions_worksheet (1) answer_key.webp'), alt: 'Prepositions answer key' }, label: 'Answer Key' },
+        { image: { src: img('prepositions', 'prepositions_answer_key (1).webp'), alt: 'Prepositions answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Cut & Paste'],
       frameColor: '#6D28D9',
@@ -634,7 +634,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('word guess', 'clue-grid_worksheet.webp'), alt: 'Professional word guess worksheet' }, label: 'Clue Grid' },
         { image: { src: img('word guess', 'clue-grid_worksheet (2).webp'), alt: 'Word guess — themed variation' }, label: 'Themed' },
-        { image: { src: img('word guess', 'clue-grid_worksheet (1) answer_key.webp'), alt: 'Word guess answer key' }, label: 'Answer Key' },
+        { image: { src: img('word guess', 'clue-grid_answer-key (1).webp'), alt: 'Word guess answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Custom Lists'],
       frameColor: '#6B21A8',
@@ -703,7 +703,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('word scramble', 'Word Scramble 12.webp'), alt: 'Professional word scramble worksheet' }, label: 'Worksheet' },
         { image: { src: img('word scramble', 'Word Scramble 15.webp'), alt: 'Word scramble — themed variation' }, label: 'Worksheet' },
-        { image: { src: img('word scramble', 'Word Scramble 1 answer_key.webp'), alt: 'Word scramble answer key' }, label: 'Answer Key' },
+        { image: { src: img('word scramble', 'Word Scramble 1 answer-key.webp'), alt: 'Word scramble answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Custom Lists'],
       frameColor: '#0D9488',
@@ -841,7 +841,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('cryptogram', 'cryptogram_worksheet (12).webp'), alt: 'Professional cryptogram worksheet' }, label: 'Cipher' },
         { image: { src: img('cryptogram', 'cryptogram_worksheet (15).webp'), alt: 'Cryptogram — themed variation' }, label: 'Cipher' },
-        { image: { src: img('cryptogram', 'cryptogram_worksheet (1) answer_key.webp'), alt: 'Cryptogram answer key' }, label: 'Answer Key' },
+        { image: { src: img('cryptogram', 'cryptogram_answer_key (1).webp'), alt: 'Cryptogram answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Themes'],
       frameColor: '#7C3AED',
@@ -979,7 +979,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('big small', 'big-small-worksheet_worksheet (20).webp'), alt: 'Professional big-small worksheet' }, label: 'Worksheet' },
         { image: { src: img('big small', 'big-small-worksheet_worksheet (25).webp'), alt: 'Big-small — themed variation' }, label: 'Worksheet' },
-        { image: { src: img('big small', 'big-small-worksheet_worksheet (1) answer_key.webp'), alt: 'Big-small answer key' }, label: 'Answer Key' },
+        { image: { src: img('big small', 'big-small-worksheet_answer_key (1).webp'), alt: 'Big-small answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', '3 Activity Types'],
       frameColor: '#0284C7',
@@ -1048,7 +1048,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('pattern train', 'pattern_train_worksheet (10).webp'), alt: 'Professional pattern train worksheet' }, label: 'Worksheet' },
         { image: { src: img('pattern train', 'pattern_train_worksheet (18).webp'), alt: 'Pattern train — themed variation' }, label: 'Worksheet' },
-        { image: { src: img('pattern train', 'pattern_train_worksheet (1) answer_key.webp'), alt: 'Pattern train answer key' }, label: 'Answer Key' },
+        { image: { src: img('pattern train', 'pattern_train_answer_key (1).webp'), alt: 'Pattern train answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Cut & Paste'],
       frameColor: '#E65100',
@@ -1117,7 +1117,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('pattern worksheet', 'pattern_worksheet (10).webp'), alt: 'Professional pattern worksheet' }, label: 'Worksheet' },
         { image: { src: img('pattern worksheet', 'pattern_worksheet (12).webp'), alt: 'Pattern worksheet — themed variation' }, label: 'Worksheet' },
-        { image: { src: img('pattern worksheet', 'pattern_worksheet (1) answer_key.webp'), alt: 'Pattern worksheet answer key' }, label: 'Answer Key' },
+        { image: { src: img('pattern worksheet', 'pattern_answer_key (1).webp'), alt: 'Pattern worksheet answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Levels'],
       frameColor: '#6C3483',
@@ -1222,7 +1222,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       tiers: [
         {
           name: 'Starter', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
-          image: { src: img('drawing lines', 'drawing_lines_worksheet.webp'), alt: 'Easy line drawing — guided straight lines' },
+          image: { src: img('drawing lines', 'drawing_lines_worksheet (1).webp'), alt: 'Easy line drawing — guided straight lines' },
           desc: 'Straight horizontal and vertical lines',
         },
         {
@@ -1531,7 +1531,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('grid match', 'Grid Match (12).webp'), alt: 'Professional grid match worksheet' }, label: 'Puzzle' },
         { image: { src: img('grid match', 'Grid Match (15).webp'), alt: 'Grid match — themed variation' }, label: 'Puzzle' },
-        { image: { src: img('grid match', 'Grid Match (1) answer_key.webp'), alt: 'Grid match answer key' }, label: 'Answer Key' },
+        { image: { src: img('grid match', 'Grid Match answer_key (1).webp'), alt: 'Grid match answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Cute Animals'],
       frameColor: '#00838F',
@@ -1600,7 +1600,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('shadow match', 'shadow-match-horizontal.webp'), alt: 'Professional shadow match — horizontal' }, label: 'Horizontal' },
         { image: { src: img('shadow match', 'shadow-match-vertical.webp'), alt: 'Shadow match — vertical layout' }, label: 'Vertical' },
-        { image: { src: img('shadow match', 'shadow-match-worksheet (1) answer_key.webp'), alt: 'Shadow match answer key' }, label: 'Answer Key' },
+        { image: { src: img('shadow match', 'shadow-match-answer-key (1).webp'), alt: 'Shadow match answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Visual Skills'],
       frameColor: '#FFD93D',
@@ -1738,7 +1738,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('picture sort', 'Picture Sort (8).webp'), alt: 'Professional picture sort worksheet' }, label: 'Sorting' },
         { image: { src: img('picture sort', 'Picture Sort (12).webp'), alt: 'Picture sort — themed variation' }, label: 'Sorting' },
-        { image: { src: img('picture sort', 'Picture Sort (1) answer_key.webp'), alt: 'Picture sort answer key' }, label: 'Answer Key' },
+        { image: { src: img('picture sort', 'Picture Sort answer_key (1).webp'), alt: 'Picture sort answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Themes'],
       frameColor: '#C2185B',
@@ -1807,7 +1807,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('missing pieces', 'Missing Pieces (12).webp'), alt: 'Professional missing pieces worksheet' }, label: 'Puzzle' },
         { image: { src: img('missing pieces', 'Missing Pieces (15).webp'), alt: 'Missing pieces — themed variation' }, label: 'Puzzle' },
-        { image: { src: img('missing pieces', 'Missing Pieces (1) answer_key.webp'), alt: 'Missing pieces answer key' }, label: 'Answer Key' },
+        { image: { src: img('missing pieces', 'Missing Pieces answer_key (1).webp'), alt: 'Missing pieces answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Themes'],
       frameColor: '#2E7D32',
@@ -1876,7 +1876,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('odd one out', 'Find the Odd One Out (12).webp'), alt: 'Professional odd one out worksheet' }, label: 'Challenge' },
         { image: { src: img('odd one out', 'Find the Odd One Out (15).webp'), alt: 'Odd one out — themed variation' }, label: 'Challenge' },
-        { image: { src: img('odd one out', 'Find the Odd One Out (1) answer_key.webp'), alt: 'Odd one out answer key' }, label: 'Answer Key' },
+        { image: { src: img('odd one out', 'Find the Odd One Out answer-key (1).webp'), alt: 'Odd one out answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Categories'],
       frameColor: '#D97706',
@@ -1945,7 +1945,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('sudoku', 'sudoku_worksheet (15).webp'), alt: 'Professional picture sudoku worksheet' }, label: 'Puzzle' },
         { image: { src: img('sudoku', 'sudoku_worksheet (20).webp'), alt: 'Picture sudoku — themed variation' }, label: 'Puzzle' },
-        { image: { src: img('sudoku', 'sudoku_worksheet (1) answer_key.webp'), alt: 'Picture sudoku answer key' }, label: 'Answer Key' },
+        { image: { src: img('sudoku', 'sudoku_answer_key (1).webp'), alt: 'Picture sudoku answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Levels'],
       frameColor: '#00897B',
@@ -2014,7 +2014,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('picture path', 'Picture Pathway (12).webp'), alt: 'Professional picture pathway worksheet' }, label: 'Pathway' },
         { image: { src: img('picture path', 'Picture Pathway (15).webp'), alt: 'Picture pathway — themed variation' }, label: 'Pathway' },
-        { image: { src: img('picture path', 'Picture Pathway (1) answer_key.webp'), alt: 'Picture pathway answer key' }, label: 'Answer Key' },
+        { image: { src: img('picture path', 'Picture Pathway answer_key (1).webp'), alt: 'Picture pathway answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Themes'],
       frameColor: '#2E7D32',
@@ -2152,7 +2152,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('find objects', 'spotworks_worksheet (15).webp'), alt: 'Professional find objects worksheet' }, label: 'Challenge' },
         { image: { src: img('find objects', 'spotworks_worksheet (25).webp'), alt: 'Find objects — themed variation' }, label: 'Challenge' },
-        { image: { src: img('find objects', 'spotworks_worksheet (1) answer_key.webp'), alt: 'Find objects answer key' }, label: 'Answer Key' },
+        { image: { src: img('find objects', 'spotworks_answer_key (1).webp'), alt: 'Find objects answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Themes'],
       frameColor: '#D32F2F',
@@ -2221,7 +2221,7 @@ export const showcaseConfigs: Record<string, ShowcaseConfig> = {
       items: [
         { image: { src: img('crossword', 'crossword_worksheet (8).webp'), alt: 'Professional picture crossword' }, label: 'Puzzle' },
         { image: { src: img('crossword', 'crossword_worksheet (12).webp'), alt: 'Crossword — themed variation' }, label: 'Puzzle' },
-        { image: { src: img('crossword', 'crossword_worksheet (1) answer_key.webp'), alt: 'Crossword answer key' }, label: 'Answer Key' },
+        { image: { src: img('crossword', 'crossword_answer_key (1).webp'), alt: 'Crossword answer key' }, label: 'Answer Key' },
       ],
       pills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Grid Sizes'],
       frameColor: '#1A365D',

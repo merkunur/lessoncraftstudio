@@ -290,7 +290,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('more less', 'More Less (11).webp'), alt: 'Comparison practice sheet — themed pictures' }, label: 'Practice Sheet' },
         { image: { src: img('more less', 'More Less (12).webp'), alt: 'More-less activity — another themed variation' }, label: 'Activity Page' },
-        { image: { src: img('more less', 'More Less (8) answer_key.webp'), alt: 'More-less solution key' }, label: 'Solutions' },
+        { image: { src: img('more less', 'More Less answer_key (8).webp'), alt: 'More-less solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Needed', 'Full Solutions', 'Three Comparison Types'],
       frameColor: '#283593',
@@ -359,7 +359,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('math puzzle', 'Math Puzzles (12).webp'), alt: 'Math puzzle practice — themed grid layout' }, label: 'Grid Puzzle' },
         { image: { src: img('math puzzle', 'Math Puzzles (15).webp'), alt: 'Math puzzle variation — different animal theme' }, label: 'Themed Puzzle' },
-        { image: { src: img('math puzzle', 'Math Puzzles (1) answer_key.webp'), alt: 'Math puzzle solution key' }, label: 'Solutions' },
+        { image: { src: img('math puzzle', 'Math Puzzles answer_key (1).webp'), alt: 'Math puzzle solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Zero Prep', 'Full Solutions', 'Animal Themes'],
       frameColor: '#00695C',
@@ -566,7 +566,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('prepositions', 'prepositions_worksheet (8).webp'), alt: 'Preposition practice sheet — themed layout' }, label: 'Practice Sheet' },
         { image: { src: img('prepositions', 'prepositions_worksheet (12).webp'), alt: 'Preposition activity — different scene theme' }, label: 'Scene Activity' },
-        { image: { src: img('prepositions', 'prepositions_worksheet (1) answer_key.webp'), alt: 'Preposition answer key — all solutions' }, label: 'Solutions' },
+        { image: { src: img('prepositions', 'prepositions_answer_key (1).webp'), alt: 'Preposition answer key — all solutions' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Cut & Paste Ready', 'Full Solutions', 'Themed Scenes'],
       frameColor: '#512DA8',
@@ -635,7 +635,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('word guess', 'clue-grid_worksheet.webp'), alt: 'Word guess practice — clue grid format' }, label: 'Clue Grid' },
         { image: { src: img('word guess', 'clue-grid_worksheet (2).webp'), alt: 'Word guess variation — different theme' }, label: 'Themed Puzzle' },
-        { image: { src: img('word guess', 'clue-grid_worksheet (1) answer_key.webp'), alt: 'Word guess solution key' }, label: 'Solutions' },
+        { image: { src: img('word guess', 'clue-grid_answer-key (1).webp'), alt: 'Word guess solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Custom Lists', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#7B1FA2',
@@ -704,7 +704,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('word scramble', 'Word Scramble 12.webp'), alt: 'Word scramble practice — themed layout' }, label: 'Scramble Sheet' },
         { image: { src: img('word scramble', 'Word Scramble 15.webp'), alt: 'Word scramble variation — different theme' }, label: 'Themed Activity' },
-        { image: { src: img('word scramble', 'Word Scramble 1 answer_key.webp'), alt: 'Word scramble answer key' }, label: 'Solutions' },
+        { image: { src: img('word scramble', 'Word Scramble 1 answer-key.webp'), alt: 'Word scramble answer key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Custom Lists', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#00796B',
@@ -842,7 +842,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('cryptogram', 'cryptogram_worksheet (12).webp'), alt: 'Cryptogram practice — professional layout' }, label: 'Cipher Sheet' },
         { image: { src: img('cryptogram', 'cryptogram_worksheet (15).webp'), alt: 'Cryptogram variation — different theme' }, label: 'Themed Cipher' },
-        { image: { src: img('cryptogram', 'cryptogram_worksheet (1) answer_key.webp'), alt: 'Cryptogram solution key' }, label: 'Solutions' },
+        { image: { src: img('cryptogram', 'cryptogram_answer_key (1).webp'), alt: 'Cryptogram solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#4A148C',
@@ -980,7 +980,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('big small', 'big-small-worksheet_worksheet (20).webp'), alt: 'Size comparison practice — themed layout' }, label: 'Size Sort' },
         { image: { src: img('big small', 'big-small-worksheet_worksheet (25).webp'), alt: 'Size comparison variation — different theme' }, label: 'Compare' },
-        { image: { src: img('big small', 'big-small-worksheet_worksheet (1) answer_key.webp'), alt: 'Big-small answer key' }, label: 'Solutions' },
+        { image: { src: img('big small', 'big-small-worksheet_answer_key (1).webp'), alt: 'Big-small answer key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Three Activity Types'],
       frameColor: '#0277BD',
@@ -1049,7 +1049,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('pattern train', 'pattern_train_worksheet (10).webp'), alt: 'Pattern train practice — themed layout' }, label: 'Train Activity' },
         { image: { src: img('pattern train', 'pattern_train_worksheet (18).webp'), alt: 'Pattern train variation — different pattern type' }, label: 'Sequence Sheet' },
-        { image: { src: img('pattern train', 'pattern_train_worksheet (1) answer_key.webp'), alt: 'Pattern train solution key' }, label: 'Solutions' },
+        { image: { src: img('pattern train', 'pattern_train_answer_key (1).webp'), alt: 'Pattern train solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Scissor Practice', 'Full Solutions', 'Multiple Patterns'],
       frameColor: '#E65100',
@@ -1118,7 +1118,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('pattern worksheet', 'pattern_worksheet (10).webp'), alt: 'Pattern practice — professional layout' }, label: 'Sequence Sheet' },
         { image: { src: img('pattern worksheet', 'pattern_worksheet (12).webp'), alt: 'Pattern variation — different element types' }, label: 'Pattern Activity' },
-        { image: { src: img('pattern worksheet', 'pattern_worksheet (1) answer_key.webp'), alt: 'Pattern worksheet solution key' }, label: 'Solutions' },
+        { image: { src: img('pattern worksheet', 'pattern_answer_key (1).webp'), alt: 'Pattern worksheet solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Levels'],
       frameColor: '#6A1B9A',
@@ -1223,7 +1223,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       tiers: [
         {
           name: 'Starter', gradientClass: 'from-green-400 to-emerald-500', textColorClass: 'text-green-700', borderColorClass: 'border-green-300', stars: 1,
-          image: { src: img('drawing lines', 'drawing_lines_worksheet.webp'), alt: 'Easy line tracing — horizontal and vertical guides' },
+          image: { src: img('drawing lines', 'drawing_lines_worksheet (1).webp'), alt: 'Easy line tracing — horizontal and vertical guides' },
           desc: 'Guided straight lines: horizontal and vertical',
         },
         {
@@ -1532,7 +1532,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('grid match', 'Grid Match (12).webp'), alt: 'Grid match practice — professional layout' }, label: 'Grid Puzzle' },
         { image: { src: img('grid match', 'Grid Match (15).webp'), alt: 'Grid match variation — different animal theme' }, label: 'Themed Grid' },
-        { image: { src: img('grid match', 'Grid Match (1) answer_key.webp'), alt: 'Grid match solution key' }, label: 'Solutions' },
+        { image: { src: img('grid match', 'Grid Match answer_key (1).webp'), alt: 'Grid match solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Animal Themes'],
       frameColor: '#00695C',
@@ -1601,7 +1601,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('shadow match', 'shadow-match-horizontal.webp'), alt: 'Shadow match horizontal — professional layout' }, label: 'Horizontal' },
         { image: { src: img('shadow match', 'shadow-match-vertical.webp'), alt: 'Shadow match vertical — alternate layout' }, label: 'Vertical' },
-        { image: { src: img('shadow match', 'shadow-match-worksheet (1) answer_key.webp'), alt: 'Shadow match solution key' }, label: 'Solutions' },
+        { image: { src: img('shadow match', 'shadow-match-answer-key (1).webp'), alt: 'Shadow match solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Visual Skills'],
       frameColor: '#F9A825',
@@ -1739,7 +1739,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('picture sort', 'Picture Sort (8).webp'), alt: 'Picture sort practice — themed layout' }, label: 'Sort Activity' },
         { image: { src: img('picture sort', 'Picture Sort (12).webp'), alt: 'Picture sort variation — different category theme' }, label: 'Category Sheet' },
-        { image: { src: img('picture sort', 'Picture Sort (1) answer_key.webp'), alt: 'Picture sort solution key' }, label: 'Solutions' },
+        { image: { src: img('picture sort', 'Picture Sort answer_key (1).webp'), alt: 'Picture sort solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'Cut & Paste Ready', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#AD1457',
@@ -1808,7 +1808,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('missing pieces', 'Missing Pieces (12).webp'), alt: 'Missing pieces practice — professional layout' }, label: 'Puzzle Sheet' },
         { image: { src: img('missing pieces', 'Missing Pieces (15).webp'), alt: 'Missing pieces variation — different theme' }, label: 'Themed Puzzle' },
-        { image: { src: img('missing pieces', 'Missing Pieces (1) answer_key.webp'), alt: 'Missing pieces solution key' }, label: 'Solutions' },
+        { image: { src: img('missing pieces', 'Missing Pieces answer_key (1).webp'), alt: 'Missing pieces solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#2E7D32',
@@ -1877,7 +1877,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('odd one out', 'Find the Odd One Out (12).webp'), alt: 'Odd one out practice — themed layout' }, label: 'Challenge' },
         { image: { src: img('odd one out', 'Find the Odd One Out (15).webp'), alt: 'Odd one out variation — different category' }, label: 'Puzzle' },
-        { image: { src: img('odd one out', 'Find the Odd One Out (1) answer_key.webp'), alt: 'Odd one out solution key' }, label: 'Solutions' },
+        { image: { src: img('odd one out', 'Find the Odd One Out answer-key (1).webp'), alt: 'Odd one out solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Categories'],
       frameColor: '#F57F17',
@@ -1946,7 +1946,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('sudoku', 'sudoku_worksheet (15).webp'), alt: 'Sudoku practice — professional layout' }, label: 'Logic Puzzle' },
         { image: { src: img('sudoku', 'sudoku_worksheet (20).webp'), alt: 'Sudoku variation — different animal set' }, label: 'Themed Grid' },
-        { image: { src: img('sudoku', 'sudoku_worksheet (1) answer_key.webp'), alt: 'Sudoku solution key' }, label: 'Solutions' },
+        { image: { src: img('sudoku', 'sudoku_answer_key (1).webp'), alt: 'Sudoku solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Animal Themes'],
       frameColor: '#00695C',
@@ -2015,7 +2015,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('picture path', 'Picture Pathway (12).webp'), alt: 'Picture pathway practice — professional layout' }, label: 'Pathway' },
         { image: { src: img('picture path', 'Picture Pathway (15).webp'), alt: 'Picture pathway variation — different theme' }, label: 'Trail Puzzle' },
-        { image: { src: img('picture path', 'Picture Pathway (1) answer_key.webp'), alt: 'Picture pathway solution key' }, label: 'Solutions' },
+        { image: { src: img('picture path', 'Picture Pathway answer_key (1).webp'), alt: 'Picture pathway solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#1B5E20',
@@ -2153,7 +2153,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('find objects', 'spotworks_worksheet (15).webp'), alt: 'Object finding practice — professional layout' }, label: 'Search Sheet' },
         { image: { src: img('find objects', 'spotworks_worksheet (25).webp'), alt: 'Object finding variation — different theme' }, label: 'Challenge' },
-        { image: { src: img('find objects', 'spotworks_worksheet (1) answer_key.webp'), alt: 'Object finding solution key' }, label: 'Solutions' },
+        { image: { src: img('find objects', 'spotworks_answer_key (1).webp'), alt: 'Object finding solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Themes'],
       frameColor: '#C62828',
@@ -2222,7 +2222,7 @@ export const toolShowcaseConfigs: Record<string, ToolShowcaseConfig> = {
       items: [
         { image: { src: img('crossword', 'crossword_worksheet (8).webp'), alt: 'Crossword practice — professional layout' }, label: 'Puzzle Grid' },
         { image: { src: img('crossword', 'crossword_worksheet (12).webp'), alt: 'Crossword variation — different theme' }, label: 'Themed Puzzle' },
-        { image: { src: img('crossword', 'crossword_worksheet (1) answer_key.webp'), alt: 'Crossword solution key' }, label: 'Solutions' },
+        { image: { src: img('crossword', 'crossword_answer_key (1).webp'), alt: 'Crossword solution key' }, label: 'Solutions' },
       ],
       pills: ['Instant Download', 'No Prep Time', 'Full Solutions', 'Multiple Grid Sizes'],
       frameColor: '#1565C0',

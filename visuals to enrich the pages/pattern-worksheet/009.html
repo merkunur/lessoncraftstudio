@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Muster-Arbeitsbl&auml;tter - Professional Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(160deg, #263238 0%, #37474F 45%, #455A64 100%); overflow: hidden;">
+
+        <!-- Subtle dot texture overlay -->
+        <div style="position: absolute; inset: 0; opacity: 0.03; background-image: radial-gradient(circle, #fff 0.8px, transparent 0.8px); background-size: 24px 24px;"></div>
+
+        <!-- Spotlight beams from top -->
+        <div style="position: absolute; top: -50px; left: 30%; width: 200px; height: 700px; background: linear-gradient(180deg, rgba(232,180,184,0.08) 0%, transparent 100%); transform: rotate(-5deg); border-radius: 0 0 50% 50%;"></div>
+        <div style="position: absolute; top: -50px; left: 50%; width: 180px; height: 650px; background: linear-gradient(180deg, rgba(232,180,184,0.06) 0%, transparent 100%); transform: translateX(-50%); border-radius: 0 0 50% 50%;"></div>
+        <div style="position: absolute; top: -50px; right: 28%; width: 200px; height: 700px; background: linear-gradient(180deg, rgba(232,180,184,0.08) 0%, transparent 100%); transform: rotate(5deg); border-radius: 0 0 50% 50%;"></div>
+
+        <!-- Rose gold corner accents (4 L-shapes) -->
+        <!-- Top-left -->
+        <div style="position: absolute; top: 16px; left: 16px;">
+            <div style="width: 120px; height: 3px; background: linear-gradient(90deg, #E8B4B8, rgba(232,180,184,0.3));"></div>
+            <div style="width: 3px; height: 120px; background: linear-gradient(180deg, #E8B4B8, rgba(232,180,184,0.3));"></div>
+        </div>
+        <!-- Top-right -->
+        <div style="position: absolute; top: 16px; right: 16px;">
+            <div style="width: 120px; height: 3px; background: linear-gradient(270deg, #E8B4B8, rgba(232,180,184,0.3)); margin-left: auto;"></div>
+            <div style="width: 3px; height: 120px; background: linear-gradient(180deg, #E8B4B8, rgba(232,180,184,0.3)); margin-left: auto;"></div>
+        </div>
+        <!-- Bottom-left -->
+        <div style="position: absolute; bottom: 16px; left: 16px;">
+            <div style="width: 3px; height: 120px; background: linear-gradient(0deg, #E8B4B8, rgba(232,180,184,0.3));"></div>
+            <div style="width: 120px; height: 3px; background: linear-gradient(90deg, #E8B4B8, rgba(232,180,184,0.3));"></div>
+        </div>
+        <!-- Bottom-right -->
+        <div style="position: absolute; bottom: 16px; right: 16px;">
+            <div style="width: 3px; height: 120px; background: linear-gradient(0deg, #E8B4B8, rgba(232,180,184,0.3)); margin-left: auto;"></div>
+            <div style="width: 120px; height: 3px; background: linear-gradient(270deg, #E8B4B8, rgba(232,180,184,0.3)); margin-left: auto;"></div>
+        </div>
+
+        <!-- GRATIS Badge (top-left) - museum ticket style -->
+        <div style="position: absolute; top: 35px; left: 35px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #FEF9E7 0%, #FCF3CF 100%); padding: 12px 22px; border-radius: 6px; border: 2px solid #D4AF37; box-shadow: 0 4px 18px rgba(0,0,0,0.3); position: relative;">
+                <!-- Perforated edge (left) -->
+                <div style="position: absolute; left: -4px; top: 8px; width: 8px; height: 8px; background: #37474F; border-radius: 50%;"></div>
+                <div style="position: absolute; left: -4px; top: 24px; width: 8px; height: 8px; background: #37474F; border-radius: 50%;"></div>
+                <div style="position: absolute; left: -4px; top: 40px; width: 8px; height: 8px; background: #37474F; border-radius: 50%;"></div>
+                <div style="text-align: center;">
+                    <div style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 22px; color: #7C4DFF; line-height: 1;">GRATIS</div>
+                    <div style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 9px; color: #888; letter-spacing: 2px; margin-top: 2px;">EINTRITT</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grade Badge (top-right) - rose gold pill -->
+        <div style="position: absolute; top: 40px; right: 35px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #E8B4B8 0%, #D4A0A5 100%); padding: 10px 22px; border-radius: 24px; border: 2px solid #D4AF37; box-shadow: 0 4px 16px rgba(0,0,0,0.25);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 14px; color: #263238; letter-spacing: 1px;">VORSCHULE &ndash; 3. KL.</span>
+            </div>
+        </div>
+
+        <!-- Title Block -->
+        <div style="position: absolute; top: 80px; left: 0; right: 0; text-align: center; z-index: 40;">
+            <h1 style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 72px; color: #FEF9E7; margin: 0; letter-spacing: 6px; text-shadow: 3px 3px 8px rgba(0,0,0,0.4);">MUSTER</h1>
+            <h1 style="font-family: 'Playfair Display', serif; font-weight: 700; font-size: 52px; color: #FEF9E7; margin: -6px 0 0 0; letter-spacing: 4px; text-shadow: 3px 3px 8px rgba(0,0,0,0.4);">ARBEITSBL&Auml;TTER</h1>
+            <div style="margin-top: 10px;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 22px; color: #E8B4B8; letter-spacing: 6px; text-shadow: 1px 1px 4px rgba(0,0,0,0.3);">PREMIUM KOLLEKTION</span>
+            </div>
+        </div>
+
+        <!-- Gallery Wall - 3 framed worksheets -->
+        <div style="position: absolute; top: 290px; left: 50%; transform: translateX(-50%); width: 880px; height: 400px; z-index: 30;">
+
+            <!-- LEFT FRAME (smaller) -->
+            <div style="position: absolute; left: 40px; top: 30px;">
+                <!-- Gold frame -->
+                <div style="padding: 8px; background: linear-gradient(145deg, #D4AF37, #B8860B, #D4AF37); border-radius: 4px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                    <!-- Teal inner matte -->
+                    <div style="padding: 10px; background: #00897B;">
+                        <!-- Gold inner border -->
+                        <div style="padding: 3px; background: linear-gradient(145deg, #D4AF37, #C9A020);">
+                            <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-2.jpeg" style="width: 160px; height: 207px; object-fit: cover; display: block;" alt="Muster-Arbeitsblatt Galerie">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CENTER FRAME (large, main - ornate) -->
+            <div style="position: absolute; left: 50%; top: 0; transform: translateX(-50%);">
+                <!-- Spotlight glow above -->
+                <div style="position: absolute; top: -40px; left: 50%; transform: translateX(-50%); width: 200px; height: 60px; background: radial-gradient(ellipse, rgba(232,180,184,0.15) 0%, transparent 80%); border-radius: 50%;"></div>
+                <!-- Gold frame (ornate - thicker) -->
+                <div style="padding: 12px; background: linear-gradient(145deg, #D4AF37 0%, #B8860B 30%, #D4AF37 50%, #B8860B 70%, #D4AF37 100%); border-radius: 4px; box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 25px rgba(212,175,55,0.15); position: relative;">
+                    <!-- Ornate corner decorations (inside frame) -->
+                    <div style="position: absolute; top: 4px; left: 4px; width: 24px; height: 2px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; top: 4px; left: 4px; width: 2px; height: 24px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; top: 4px; right: 4px; width: 24px; height: 2px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; top: 4px; right: 4px; width: 2px; height: 24px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; bottom: 4px; left: 4px; width: 24px; height: 2px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; bottom: 4px; left: 4px; width: 2px; height: 24px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; bottom: 4px; right: 4px; width: 24px; height: 2px; background: #FEF9E7;"></div>
+                    <div style="position: absolute; bottom: 4px; right: 4px; width: 2px; height: 24px; background: #FEF9E7;"></div>
+                    <!-- Rose/purple inner matte -->
+                    <div style="padding: 14px; background: #880E4F;">
+                        <!-- Gold inner border -->
+                        <div style="padding: 3px; background: linear-gradient(145deg, #D4AF37, #C9A020);">
+                            <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-1.jpeg" style="width: 220px; height: 285px; object-fit: cover; display: block;" alt="Muster-Arbeitsblatt Premium">
+                        </div>
+                    </div>
+                </div>
+                <!-- Brass plaque under center frame -->
+                <div style="margin-top: 12px; text-align: center;">
+                    <div style="display: inline-block; background: linear-gradient(180deg, #D4AF37, #B8860B); padding: 6px 24px; border-radius: 3px; box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+                        <span style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 14px; color: #263238;">Die Kunst des logischen Denkens</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT FRAME (answer key) -->
+            <div style="position: absolute; right: 40px; top: 30px;">
+                <!-- Gold frame -->
+                <div style="padding: 8px; background: linear-gradient(145deg, #D4AF37, #B8860B, #D4AF37); border-radius: 4px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                    <!-- Teal inner matte -->
+                    <div style="padding: 10px; background: #00897B;">
+                        <!-- Gold inner border -->
+                        <div style="padding: 3px; background: linear-gradient(145deg, #D4AF37, #C9A020);">
+                            <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-1-answer.jpeg" style="width: 160px; height: 207px; object-fit: cover; display: block;" alt="Muster-Arbeitsblatt L&ouml;sungsblatt">
+                        </div>
+                    </div>
+                </div>
+                <!-- Answer key label -->
+                <div style="text-align: center; margin-top: 8px;">
+                    <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 12px; color: #E8B4B8; letter-spacing: 2px;">L&Ouml;SUNGSBLATT</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Frosted glass feature cards (bottom) -->
+        <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); display: flex; gap: 14px; z-index: 60;">
+            <div style="background: rgba(254,249,231,0.08); padding: 12px 18px; border-radius: 10px; border: 1px solid rgba(232,180,184,0.35); backdrop-filter: blur(6px); box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #FEF9E7;">Druckfertig</span>
+            </div>
+            <div style="background: rgba(254,249,231,0.08); padding: 12px 18px; border-radius: 10px; border: 1px solid rgba(232,180,184,0.35); backdrop-filter: blur(6px); box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #FEF9E7;">Ohne Vorbereitung</span>
+            </div>
+            <div style="background: rgba(254,249,231,0.08); padding: 12px 18px; border-radius: 10px; border: 1px solid rgba(232,180,184,0.35); backdrop-filter: blur(6px); box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #FEF9E7;">L&ouml;sungsbl&auml;tter</span>
+            </div>
+            <div style="background: rgba(254,249,231,0.08); padding: 12px 18px; border-radius: 10px; border: 1px solid rgba(232,180,184,0.35); backdrop-filter: blur(6px); box-shadow: 0 4px 16px rgba(0,0,0,0.2);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #FEF9E7;">Kommerzielle Lizenz</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

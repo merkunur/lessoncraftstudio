@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000, height=1000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(160deg, #581C87 0%, #7C3AED 35%, #8B5CF6 60%, #A855F7 100%);
+    position: relative;
+  }
+
+  /* Pixel-like sparkle dots */
+  .pixel-dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 1px;
+    z-index: 3;
+  }
+  .pd1 { top: 140px; left: 80px; background: rgba(250,204,21,0.3); width: 8px; height: 8px; }
+  .pd2 { top: 200px; right: 100px; background: rgba(250,204,21,0.25); }
+  .pd3 { top: 500px; left: 50px; background: rgba(20,184,166,0.3); width: 7px; height: 7px; }
+  .pd4 { top: 600px; right: 60px; background: rgba(244,63,94,0.3); width: 5px; height: 5px; }
+  .pd5 { top: 350px; left: 120px; background: rgba(250,204,21,0.2); width: 4px; height: 4px; }
+  .pd6 { top: 420px; right: 130px; background: rgba(20,184,166,0.25); width: 6px; height: 6px; }
+  .pd7 { bottom: 200px; left: 90px; background: rgba(244,63,94,0.25); width: 5px; height: 5px; }
+  .pd8 { bottom: 250px; right: 80px; background: rgba(250,204,21,0.3); width: 7px; height: 7px; }
+
+  /* Atmospheric glow */
+  .atmo {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 55%, rgba(20,184,166,0.12) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 55%, rgba(244,63,94,0.12) 0%, transparent 50%);
+    z-index: 1;
+  }
+
+  /* GRATIS badge */
+  .gratis {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #F43F5E 0%, #E11D48 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    z-index: 20;
+    box-shadow: 0 6px 25px rgba(244,63,94,0.5);
+    transform: rotate(-8deg);
+    border: 3px solid rgba(255,255,255,0.3);
+  }
+
+  /* Title */
+  .title-area {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .title-line1 {
+    font-size: 68px;
+    font-weight: 700;
+    color: #FACC15;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  .title-line2 {
+    font-size: 68px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-top: -2px;
+  }
+
+  /* Grade badge */
+  .grade {
+    position: absolute;
+    top: 178px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.25);
+    z-index: 10;
+  }
+  .grade span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 0.5px;
+  }
+
+  /* Subtitle */
+  .sub {
+    position: absolute;
+    top: 222px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .sub span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(206,176,255,0.85);
+    letter-spacing: 0.5px;
+  }
+
+  /* Game cards container */
+  .cards-area {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 860px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    z-index: 10;
+  }
+
+  /* Game card */
+  .game-card {
+    width: 370px;
+    height: 430px;
+    border-radius: 20px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .game-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    z-index: 1;
+  }
+
+  /* Mode 1 - Teal "Ich sehe was" */
+  .card-teal {
+    background: linear-gradient(165deg, #0F766E 0%, #0D9488 40%, #14B8A6 100%);
+    box-shadow: 0 10px 35px rgba(13,148,136,0.4), 0 0 25px rgba(20,184,166,0.2);
+  }
+  .card-teal::before {
+    border-color: rgba(20,184,166,0.5);
+    box-shadow: 0 0 15px rgba(20,184,166,0.3);
+  }
+
+  /* Mode 2 - Rose "Welches passt nicht" */
+  .card-rose {
+    background: linear-gradient(165deg, #BE123C 0%, #E11D48 40%, #F43F5E 100%);
+    box-shadow: 0 10px 35px rgba(225,29,72,0.4), 0 0 25px rgba(244,63,94,0.2);
+  }
+  .card-rose::before {
+    border-color: rgba(244,63,94,0.5);
+    box-shadow: 0 0 15px rgba(244,63,94,0.3);
+  }
+
+  .card-icon {
+    font-size: 44px;
+    margin-bottom: 6px;
+  }
+  .card-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .card-img-frame {
+    width: 210px;
+    height: 272px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    flex-shrink: 0;
+  }
+  .card-img-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+  }
+
+  /* VS circle */
+  .vs-circle {
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #FACC15 0%, #EAB308 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 15;
+    box-shadow: 0 4px 16px rgba(234,179,8,0.5), 0 0 20px rgba(250,204,21,0.3);
+    border: 3px solid rgba(255,255,255,0.4);
+  }
+  .vs-circle span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #581C87;
+    letter-spacing: 1px;
+  }
+
+  /* Feature pills */
+  .pills {
+    position: absolute;
+    bottom: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 15;
+  }
+  .pill {
+    background: rgba(255,255,255,0.12);
+    border: 2px solid rgba(255,255,255,0.25);
+    border-radius: 22px;
+    padding: 8px 18px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* Tagline */
+  .tagline {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 15;
+  }
+  .tagline span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- Atmospheric glow -->
+<div class="atmo"></div>
+
+<!-- Pixel sparkle dots -->
+<div class="pixel-dot pd1"></div>
+<div class="pixel-dot pd2"></div>
+<div class="pixel-dot pd3"></div>
+<div class="pixel-dot pd4"></div>
+<div class="pixel-dot pd5"></div>
+<div class="pixel-dot pd6"></div>
+<div class="pixel-dot pd7"></div>
+<div class="pixel-dot pd8"></div>
+
+<!-- GRATIS badge -->
+<div class="gratis">GRATIS</div>
+
+<!-- Title -->
+<div class="title-area">
+  <div class="title-line1">ZWEI</div>
+  <div class="title-line2">SPIELMODI</div>
+</div>
+
+<!-- Grade badge (below title, centered) -->
+<div class="grade"><span>Vorschule bis 2. Klasse</span></div>
+
+<!-- Subtitle -->
+<div class="sub"><span>Welchen Modus w&auml;hlst du?</span></div>
+
+<!-- Game Cards -->
+<div class="cards-area">
+  <!-- Mode 1: Ich sehe was -->
+  <div class="game-card card-teal">
+    <div class="card-icon">&#x1F50D;</div>
+    <div class="card-title">ICH SEHE WAS</div>
+    <div class="card-img-frame">
+      <img src="https://www.lessoncraftstudio.com/samples/german/find%20objects/sample-3.jpeg" alt="Suchbild Modus 1">
+    </div>
+    <div class="card-caption">Versteckte Objekte finden</div>
+  </div>
+
+  <!-- Mode 2: Welches passt nicht -->
+  <div class="game-card card-rose">
+    <div class="card-icon">&#x274C;</div>
+    <div class="card-title">WELCHES PASST NICHT</div>
+    <div class="card-img-frame">
+      <img src="https://www.lessoncraftstudio.com/samples/german/find%20objects/sample-7.jpeg" alt="Suchbild Modus 2">
+    </div>
+    <div class="card-caption">Ungepaarte Bilder erkennen</div>
+  </div>
+</div>
+
+<!-- VS circle -->
+<div class="vs-circle"><span>VS</span></div>
+
+<!-- Feature pills -->
+<div class="pills">
+  <div class="pill">Zwei Lernmodi</div>
+  <div class="pill">Anpassbare Schwierigkeit</div>
+  <div class="pill">L&ouml;sungsbl&auml;tter</div>
+</div>
+
+<!-- Tagline -->
+<div class="tagline">
+  <span>Doppelter Spa&szlig; &mdash; doppelter Lerneffekt!</span>
+</div>
+
+</body>
+</html>

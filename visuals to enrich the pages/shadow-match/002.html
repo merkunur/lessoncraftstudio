@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Shadow Match - Features Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Left side: warm cream -->
+        <div style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 550px;
+            height: 1000px;
+            background: #FFF8EE;
+        ">
+            <!-- Subtle dot pattern -->
+            <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.15;" viewBox="0 0 550 1000">
+                <defs>
+                    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+                        <circle cx="15" cy="15" r="2" fill="#E0C9A6"/>
+                    </pattern>
+                </defs>
+                <rect width="550" height="1000" fill="url(#dots)"/>
+            </svg>
+            <!-- Colored accent dots on cream side -->
+            <div style="position: absolute; top: 180px; left: 40px; width: 14px; height: 14px; background: #FF6B6B; border-radius: 50%; opacity: 0.5;"></div>
+            <div style="position: absolute; top: 420px; left: 25px; width: 10px; height: 10px; background: #4ECDC4; border-radius: 50%; opacity: 0.4;"></div>
+            <div style="position: absolute; top: 700px; left: 50px; width: 12px; height: 12px; background: #FFB347; border-radius: 50%; opacity: 0.45;"></div>
+            <div style="position: absolute; top: 850px; left: 30px; width: 8px; height: 8px; background: #A78BFA; border-radius: 50%; opacity: 0.4;"></div>
+        </div>
+
+        <!-- Right side: charcoal dark -->
+        <div style="
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 450px;
+            height: 1000px;
+            background: #2D3142;
+        ">
+            <!-- Diagonal stripe overlay -->
+            <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.08;" viewBox="0 0 450 1000">
+                <defs>
+                    <pattern id="stripes" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                        <line x1="0" y1="0" x2="0" y2="20" stroke="#FFFFFF" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="450" height="1000" fill="url(#stripes)"/>
+            </svg>
+            <!-- Faint animal silhouette outlines on dark side -->
+            <svg style="position: absolute; top: 200px; right: 30px; opacity: 0.06;" width="80" height="80" viewBox="0 0 60 60">
+                <path d="M10,50 L10,25 L5,10 L15,18 L20,12 L22,22 L30,18 L38,22 L40,12 L45,18 L55,10 L50,25 L50,50 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+            </svg>
+            <svg style="position: absolute; top: 600px; right: 50px; opacity: 0.06;" width="70" height="70" viewBox="0 0 55 55">
+                <path d="M8,45 L8,20 L3,8 L15,18 L27,8 L40,18 L52,8 L47,20 L47,45 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+            </svg>
+            <svg style="position: absolute; top: 400px; right: 15px; opacity: 0.05;" width="60" height="60" viewBox="0 0 50 50">
+                <path d="M10,42 Q10,15 25,8 Q40,15 40,42 Z" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+                <circle cx="25" cy="5" r="4" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+            </svg>
+        </div>
+
+        <!-- Coral accent divider -->
+        <div style="
+            position: absolute;
+            top: 0;
+            left: 547px;
+            width: 6px;
+            height: 1000px;
+            background: #FF6B6B;
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(255, 107, 107, 0.4);
+        "></div>
+
+        <!-- Title spanning both sides -->
+        <div style="
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 15;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 60px;
+                color: white;
+                margin: 0;
+                text-shadow:
+                    2px 2px 0 rgba(0, 0, 0, 0.6),
+                    -1px -1px 0 rgba(0, 0, 0, 0.3),
+                    0 4px 15px rgba(0, 0, 0, 0.4);
+                letter-spacing: 3px;
+                line-height: 1;
+            ">SHADOW MATCH</h1>
+            <p style="
+                font-family: 'Nunito', sans-serif;
+                font-weight: 700;
+                font-size: 28px;
+                color: #FF6B6B;
+                margin: 6px 0 0 0;
+                text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+                letter-spacing: 2px;
+            ">WORKSHEETS</p>
+        </div>
+
+        <!-- Left side: 3 staggered worksheet cards -->
+        <div style="
+            position: absolute;
+            top: 175px;
+            left: 45px;
+            z-index: 12;
+        ">
+            <div style="
+                background: white;
+                padding: 8px;
+                border-radius: 8px;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-1.jpeg"
+                    alt="Shadow Match Worksheet 1"
+                    style="
+                        width: 260px;
+                        height: 201px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 5px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <div style="
+            position: absolute;
+            top: 410px;
+            left: 70px;
+            z-index: 11;
+        ">
+            <div style="
+                background: white;
+                padding: 7px;
+                border-radius: 8px;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-2.jpeg"
+                    alt="Shadow Match Worksheet 2"
+                    style="
+                        width: 240px;
+                        height: 186px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 5px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <div style="
+            position: absolute;
+            top: 630px;
+            left: 55px;
+            z-index: 10;
+        ">
+            <div style="
+                background: white;
+                padding: 6px;
+                border-radius: 8px;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-4.jpeg"
+                    alt="Shadow Match Worksheet 3"
+                    style="
+                        width: 220px;
+                        height: 170px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 5px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <!-- Right side: 4 feature cards -->
+        <div style="
+            position: absolute;
+            top: 185px;
+            right: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            z-index: 12;
+        ">
+            <!-- Shadow Matching -->
+            <div style="
+                background: #4ECDC4;
+                padding: 16px 22px;
+                border-radius: 12px;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                box-shadow: 0 4px 15px rgba(78, 205, 196, 0.35);
+            ">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <rect x="2" y="2" width="12" height="12" rx="2" fill="white" opacity="0.9"/>
+                    <rect x="16" y="16" width="12" height="12" rx="2" fill="#1A1A1A"/>
+                    <path d="M14,8 L16,22" stroke="white" stroke-width="1.5" stroke-dasharray="3 2"/>
+                </svg>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: white;">Shadow Matching</span>
+            </div>
+
+            <!-- Complete the Picture -->
+            <div style="
+                background: #FFB347;
+                padding: 16px 22px;
+                border-radius: 12px;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                box-shadow: 0 4px 15px rgba(255, 179, 71, 0.35);
+            ">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <rect x="3" y="3" width="24" height="24" rx="3" stroke="white" stroke-width="2" stroke-dasharray="4 3"/>
+                    <rect x="8" y="8" width="10" height="10" rx="1" fill="white" opacity="0.9"/>
+                </svg>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: white;">Complete Picture</span>
+            </div>
+
+            <!-- Answer Keys -->
+            <div style="
+                background: #A78BFA;
+                padding: 16px 22px;
+                border-radius: 12px;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                box-shadow: 0 4px 15px rgba(167, 139, 250, 0.35);
+            ">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <circle cx="15" cy="15" r="11" stroke="white" stroke-width="2"/>
+                    <path d="M10,15 L14,19 L21,11" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: white;">Answer Keys</span>
+            </div>
+
+            <!-- Print & Go -->
+            <div style="
+                background: #FF6B6B;
+                padding: 16px 22px;
+                border-radius: 12px;
+                width: 200px;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                box-shadow: 0 4px 15px rgba(255, 107, 107, 0.35);
+            ">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <rect x="7" y="3" width="16" height="8" rx="1" stroke="white" stroke-width="2"/>
+                    <rect x="3" y="11" width="24" height="12" rx="2" fill="white" opacity="0.3" stroke="white" stroke-width="2"/>
+                    <rect x="8" y="20" width="14" height="8" rx="1" stroke="white" stroke-width="2"/>
+                </svg>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: white;">Print & Go</span>
+            </div>
+        </div>
+
+        <!-- FREE badge - bottom left -->
+        <div style="
+            position: absolute;
+            bottom: 50px;
+            left: 55px;
+            transform: rotate(-5deg);
+            z-index: 25;
+        ">
+            <div style="
+                background: #4ECDC4;
+                padding: 8px 24px;
+                border-radius: 20px;
+                box-shadow: 0 4px 12px rgba(78, 205, 196, 0.4);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: white;
+                ">FREE</span>
+            </div>
+        </div>
+
+        <!-- Grade badge - bottom right -->
+        <div style="
+            position: absolute;
+            bottom: 50px;
+            right: 45px;
+            z-index: 25;
+        ">
+            <div style="
+                background: white;
+                padding: 8px 20px;
+                border-radius: 20px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #2D3142;
+                ">Grades K-2</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

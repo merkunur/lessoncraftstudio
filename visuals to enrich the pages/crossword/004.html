@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Picture Crossword - Fun Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Fredoka', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; overflow: hidden; background: linear-gradient(180deg, #FFFFFF 0%, #FEF3C7 100%);">
+
+        <!-- Colorful letter splashes background -->
+        <div style="position: absolute; top: 80px; left: 50px; width: 120px; height: 120px; background: rgba(249,115,22,0.15); border-radius: 50%; filter: blur(30px);"></div>
+        <div style="position: absolute; top: 200px; right: 80px; width: 150px; height: 150px; background: rgba(244,114,182,0.15); border-radius: 50%; filter: blur(40px);"></div>
+        <div style="position: absolute; bottom: 200px; left: 100px; width: 180px; height: 180px; background: rgba(13,148,136,0.12); border-radius: 50%; filter: blur(50px);"></div>
+        <div style="position: absolute; bottom: 300px; right: 60px; width: 140px; height: 140px; background: rgba(212,164,57,0.15); border-radius: 50%; filter: blur(35px);"></div>
+
+        <!-- FREE Badge -->
+        <div style="position: absolute; top: 20px; left: 20px;">
+            <div style="width: 85px; height: 85px; background: linear-gradient(145deg, #F97316 0%, #EA580C 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(249,115,22,0.5); transform: rotate(-10deg);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 26px; font-weight: 700; color: white;">FREE</span>
+            </div>
+        </div>
+
+        <!-- Main WORDS! title - large rainbow gradient -->
+        <div style="position: absolute; top: 40px; left: 50%; transform: translateX(-50%); text-align: center;">
+            <h1 style="margin: 0; font-family: 'Fredoka', sans-serif; font-size: 130px; font-weight: 700; background: linear-gradient(90deg, #F97316 0%, #EAB308 20%, #22C55E 40%, #0D9488 60%, #3B82F6 80%, #F472B6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: none; letter-spacing: -3px;">WORDS!</h1>
+            <p style="margin: -10px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 42px; font-weight: 600; color: #F472B6;">Picture Puzzle Fun!</p>
+        </div>
+
+        <!-- Exploding letters around the worksheet -->
+        <!-- Letter A - top left -->
+        <div style="position: absolute; top: 200px; left: 60px; width: 70px; height: 70px; background: linear-gradient(145deg, #F97316 0%, #EA580C 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(-20deg);">
+            <span style="font-size: 45px; font-weight: 700; color: white;">A</span>
+        </div>
+
+        <!-- Letter B - top right -->
+        <div style="position: absolute; top: 180px; right: 70px; width: 65px; height: 65px; background: linear-gradient(145deg, #22C55E 0%, #16A34A 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(15deg);">
+            <span style="font-size: 42px; font-weight: 700; color: white;">B</span>
+        </div>
+
+        <!-- Letter C - left side -->
+        <div style="position: absolute; top: 380px; left: 40px; width: 60px; height: 60px; background: linear-gradient(145deg, #3B82F6 0%, #2563EB 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(-8deg);">
+            <span style="font-size: 40px; font-weight: 700; color: white;">C</span>
+        </div>
+
+        <!-- Letter D - right side -->
+        <div style="position: absolute; top: 400px; right: 50px; width: 62px; height: 62px; background: linear-gradient(145deg, #F472B6 0%, #DB2777 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(12deg);">
+            <span style="font-size: 40px; font-weight: 700; color: white;">D</span>
+        </div>
+
+        <!-- Letter E - bottom left -->
+        <div style="position: absolute; bottom: 220px; left: 80px; width: 58px; height: 58px; background: linear-gradient(145deg, #D4A439 0%, #B8860B 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(18deg);">
+            <span style="font-size: 38px; font-weight: 700; color: white;">E</span>
+        </div>
+
+        <!-- Letter W - bottom right -->
+        <div style="position: absolute; bottom: 200px; right: 70px; width: 64px; height: 64px; background: linear-gradient(145deg, #0D9488 0%, #0F766E 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 rgba(0,0,0,0.2); transform: rotate(-15deg);">
+            <span style="font-size: 40px; font-weight: 700; color: white;">W</span>
+        </div>
+
+        <!-- Center worksheet at dynamic angle -->
+        <div style="position: absolute; top: 280px; left: 50%; transform: translateX(-50%) rotate(8deg); z-index: 10;">
+            <div style="width: 340px; height: 440px; background: white; border-radius: 15px; box-shadow: 0 15px 50px rgba(0,0,0,0.25), 0 0 0 5px #F97316; overflow: hidden;">
+                <img src="https://www.lessoncraftstudio.com/samples/english/crossword/sample-1.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Fun Worksheet">
+            </div>
+        </div>
+
+        <!-- Speech bubble - I FOUND IT! -->
+        <div style="position: absolute; top: 320px; right: 100px; z-index: 15;">
+            <div style="background: #22C55E; padding: 15px 25px; border-radius: 20px; position: relative; box-shadow: 0 4px 15px rgba(34,197,94,0.4);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 24px; font-weight: 700; color: white;">I FOUND IT!</span>
+                <!-- Speech bubble tail -->
+                <div style="position: absolute; bottom: -12px; left: 30px; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 15px solid #22C55E;"></div>
+            </div>
+        </div>
+
+        <!-- Circular burst - SO FUN! -->
+        <div style="position: absolute; top: 520px; left: 90px; z-index: 15;">
+            <div style="width: 110px; height: 110px; background: linear-gradient(145deg, #F97316 0%, #FBBF24 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 20px rgba(249,115,22,0.5); transform: rotate(-10deg);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 26px; font-weight: 700; color: white; text-align: center; line-height: 1.1;">SO<br>FUN!</span>
+            </div>
+        </div>
+
+        <!-- Cartoon pencil -->
+        <div style="position: absolute; bottom: 160px; right: 130px; transform: rotate(-45deg); z-index: 12;">
+            <div style="width: 140px; height: 20px; background: linear-gradient(to bottom, #FFD93D 0%, #F9C823 50%, #E8B30D 100%); border-radius: 2px; position: relative; box-shadow: 2px 3px 8px rgba(0,0,0,0.2);">
+                <!-- Pencil tip -->
+                <div style="position: absolute; right: -18px; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-left: 20px solid #E8B30D; border-top: 10px solid transparent; border-bottom: 10px solid transparent;"></div>
+                <div style="position: absolute; right: -12px; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-left: 14px solid #4A5568; border-top: 5px solid transparent; border-bottom: 5px solid transparent;"></div>
+                <!-- Eraser -->
+                <div style="position: absolute; left: -10px; top: -1px; width: 12px; height: 22px; background: linear-gradient(to bottom, #F472B6 0%, #DB2777 100%); border-radius: 3px 0 0 3px;"></div>
+                <!-- Metal band -->
+                <div style="position: absolute; left: 2px; top: -2px; width: 8px; height: 24px; background: linear-gradient(to bottom, #D4A439 0%, #92710A 50%, #D4A439 100%);"></div>
+            </div>
+        </div>
+
+        <!-- Confetti and sparkles -->
+        <div style="position: absolute; top: 160px; left: 180px; font-size: 30px;">✨</div>
+        <div style="position: absolute; top: 240px; right: 180px; font-size: 25px;">🎉</div>
+        <div style="position: absolute; top: 450px; left: 170px; font-size: 22px;">⭐</div>
+        <div style="position: absolute; bottom: 280px; right: 180px; font-size: 28px;">✨</div>
+        <div style="position: absolute; top: 350px; left: 130px; font-size: 20px;">💫</div>
+        <div style="position: absolute; bottom: 350px; right: 150px; font-size: 24px;">🌟</div>
+
+        <!-- Hearts scattered -->
+        <div style="position: absolute; top: 280px; left: 200px; font-size: 26px; transform: rotate(15deg);">❤️</div>
+        <div style="position: absolute; bottom: 300px; right: 200px; font-size: 22px; transform: rotate(-10deg);">💖</div>
+        <div style="position: absolute; top: 500px; right: 210px; font-size: 20px; transform: rotate(8deg);">💕</div>
+
+        <!-- Bottom pill - Kids LOVE This! -->
+        <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%);">
+            <div style="background: linear-gradient(145deg, #F472B6 0%, #DB2777 100%); padding: 18px 50px; border-radius: 40px; box-shadow: 0 6px 25px rgba(244,114,182,0.5);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 36px; font-weight: 700; color: white;">💖 Kids LOVE This! 💖</span>
+            </div>
+        </div>
+
+        <!-- Grade badge - bottom corner -->
+        <div style="position: absolute; bottom: 25px; right: 25px;">
+            <div style="background: #1A365D; padding: 10px 20px; border-radius: 20px;">
+                <span style="font-family: 'Nunito', sans-serif; font-size: 14px; font-weight: 800; color: #FDF5E6;">GRADES K-3</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

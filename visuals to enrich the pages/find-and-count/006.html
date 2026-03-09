@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000, height=1000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(155deg, #4A148C 0%, #7B1FA2 40%, #CE93D8 100%);
+    position: relative;
+  }
+
+  /* Floating search icons */
+  .search-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 214, 0, 0.15);
+    z-index: 1;
+  }
+  .search-icon::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 3px;
+    background: rgba(255, 214, 0, 0.15);
+    bottom: -8px;
+    right: -12px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+  .si1 { top: 60px; right: 80px; width: 50px; height: 50px; }
+  .si2 { top: 180px; left: 40px; width: 40px; height: 40px; }
+  .si2::after { width: 14px; }
+  .si3 { bottom: 200px; right: 50px; width: 55px; height: 55px; }
+  .si4 { bottom: 120px; left: 70px; width: 35px; height: 35px; }
+  .si4::after { width: 12px; }
+
+  /* Golden radial glow behind book */
+  .glow {
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 500px;
+    background: radial-gradient(ellipse, rgba(255, 214, 0, 0.18) 0%, transparent 70%);
+    z-index: 1;
+  }
+
+  /* GRATIS badge */
+  .gratis {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #F43F5E 0%, #E11D48 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    z-index: 20;
+    box-shadow: 0 6px 25px rgba(244, 63, 94, 0.5);
+    transform: rotate(-8deg);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+  }
+
+  /* Title area */
+  .title-area {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .title-line1 {
+    font-size: 82px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    letter-spacing: 2px;
+    line-height: 1;
+  }
+  .title-line2 {
+    font-size: 82px;
+    font-weight: 700;
+    color: #FFD600;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-top: -4px;
+  }
+  .subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 8px;
+    letter-spacing: 1px;
+  }
+
+  /* Open book */
+  .book-container {
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 740px;
+    height: 440px;
+    z-index: 5;
+    perspective: 800px;
+  }
+  .book-shadow {
+    position: absolute;
+    bottom: -18px;
+    left: 30px;
+    right: 30px;
+    height: 30px;
+    background: radial-gradient(ellipse, rgba(0,0,0,0.35) 0%, transparent 75%);
+    border-radius: 50%;
+  }
+  .book {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.2);
+  }
+  .page-left, .page-right {
+    flex: 1;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #FEFDF8;
+  }
+  .page-left {
+    border-right: none;
+  }
+  .page-right {
+    border-left: none;
+  }
+  /* Spine */
+  .spine {
+    width: 14px;
+    background: linear-gradient(90deg, #8D6E63, #6D4C41 40%, #5D4037 50%, #6D4C41 60%, #8D6E63);
+    flex-shrink: 0;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
+    position: relative;
+  }
+  .spine::before, .spine::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(0,0,0,0.15);
+  }
+  .spine::before { top: 30px; }
+  .spine::after { bottom: 30px; }
+
+  .page-left img, .page-right img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  /* Page curl on right page */
+  .page-curl {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(225deg, #E8E0D4 0%, #FEFDF8 50%);
+    box-shadow: -3px -3px 6px rgba(0,0,0,0.08);
+    z-index: 3;
+  }
+
+  /* Banner */
+  .banner {
+    position: absolute;
+    bottom: 155px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #FF6D00, #FF8F00);
+    padding: 10px 32px;
+    border-radius: 30px;
+    z-index: 10;
+    box-shadow: 0 4px 16px rgba(255, 109, 0, 0.4);
+  }
+  .banner span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    color: white;
+    white-space: nowrap;
+  }
+
+  /* Pills */
+  .pills {
+    position: absolute;
+    bottom: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+    white-space: nowrap;
+  }
+  .pill {
+    background: rgba(255, 255, 255, 0.18);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 20px;
+    padding: 7px 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* Tagline */
+  .tagline {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .tagline span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Floating search icons -->
+<div class="search-icon si1"></div>
+<div class="search-icon si2"></div>
+<div class="search-icon si3"></div>
+<div class="search-icon si4"></div>
+
+<!-- Golden glow -->
+<div class="glow"></div>
+
+<!-- GRATIS badge -->
+<div class="gratis">GRATIS</div>
+
+<!-- Title -->
+<div class="title-area">
+  <div class="title-line1">WIMMELBILD</div>
+  <div class="title-line2">ABENTEUER</div>
+  <div class="subtitle">Suchen, zählen, entdecken!</div>
+</div>
+
+<!-- Open Book with worksheets -->
+<div class="book-container">
+  <div class="book-shadow"></div>
+  <div class="book">
+    <div class="page-left">
+      <img src="https://www.lessoncraftstudio.com/samples/german/find%20and%20count/sample-1.jpeg" alt="Suchbild Arbeitsblatt 1">
+    </div>
+    <div class="spine"></div>
+    <div class="page-right">
+      <img src="https://www.lessoncraftstudio.com/samples/german/find%20and%20count/sample-2.jpeg" alt="Suchbild Arbeitsblatt 2">
+      <div class="page-curl"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Banner -->
+<div class="banner">
+  <span>Dein Wimmelbild-Abenteuer beginnt hier!</span>
+</div>
+
+<!-- Pills -->
+<div class="pills">
+  <div class="pill">Suchen & Finden</div>
+  <div class="pill">Zählen üben</div>
+  <div class="pill">Lösungsblätter</div>
+  <div class="pill">Sofort drucken</div>
+</div>
+
+<!-- Tagline -->
+<div class="tagline">
+  <span>Die deutsche Wimmelbild-Tradition — als Arbeitsblatt</span>
+</div>
+
+</body>
+</html>

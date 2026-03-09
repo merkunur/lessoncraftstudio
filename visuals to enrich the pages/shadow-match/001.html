@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Shadow Match - Hero Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        background: linear-gradient(170deg, #0B1628 0%, #101D3A 40%, #142240 100%);
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Star field -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" viewBox="0 0 1000 1000">
+            <circle cx="80" cy="120" r="1.5" fill="#FFFFFF" opacity="0.6"/>
+            <circle cx="220" cy="80" r="1" fill="#FFFFFF" opacity="0.4"/>
+            <circle cx="350" cy="150" r="1.2" fill="#FFFFFF" opacity="0.5"/>
+            <circle cx="750" cy="60" r="1.5" fill="#FFFFFF" opacity="0.5"/>
+            <circle cx="900" cy="130" r="1" fill="#FFFFFF" opacity="0.4"/>
+            <circle cx="60" cy="300" r="1" fill="#FFFFFF" opacity="0.3"/>
+            <circle cx="920" cy="280" r="1.3" fill="#FFFFFF" opacity="0.45"/>
+            <circle cx="150" cy="450" r="1" fill="#FFFFFF" opacity="0.3"/>
+            <circle cx="850" cy="420" r="1.2" fill="#FFFFFF" opacity="0.35"/>
+            <circle cx="40" cy="600" r="1" fill="#FFFFFF" opacity="0.25"/>
+            <circle cx="960" cy="550" r="1" fill="#FFFFFF" opacity="0.3"/>
+            <circle cx="100" cy="780" r="1.5" fill="#FFFFFF" opacity="0.3"/>
+            <circle cx="880" cy="750" r="1" fill="#FFFFFF" opacity="0.25"/>
+            <circle cx="450" cy="50" r="1.8" fill="#FFF8E0" opacity="0.6"/>
+            <circle cx="600" cy="100" r="1" fill="#FFF8E0" opacity="0.4"/>
+            <circle cx="300" cy="250" r="1" fill="#FFFFFF" opacity="0.3"/>
+            <circle cx="700" cy="200" r="1.3" fill="#FFFFFF" opacity="0.35"/>
+            <circle cx="200" cy="900" r="1" fill="#FFFFFF" opacity="0.2"/>
+            <circle cx="780" cy="880" r="1.2" fill="#FFFFFF" opacity="0.2"/>
+        </svg>
+
+        <!-- Spotlight cone from top center -->
+        <div style="
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 320px solid transparent;
+            border-right: 320px solid transparent;
+            border-top: 700px solid rgba(255, 248, 224, 0.08);
+            z-index: 2;
+            filter: blur(30px);
+        "></div>
+        <div style="
+            position: absolute;
+            top: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 200px solid transparent;
+            border-right: 200px solid transparent;
+            border-top: 650px solid rgba(255, 248, 224, 0.06);
+            z-index: 3;
+            filter: blur(20px);
+        "></div>
+
+        <!-- Radial glow behind worksheet -->
+        <div style="
+            position: absolute;
+            top: 340px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 550px;
+            height: 400px;
+            background: radial-gradient(ellipse at center, rgba(255, 217, 61, 0.18) 0%, rgba(255, 217, 61, 0.06) 40%, transparent 70%);
+            z-index: 3;
+            filter: blur(10px);
+        "></div>
+
+        <!-- Title Section -->
+        <div style="
+            position: absolute;
+            top: 80px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 15;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 82px;
+                color: #FFFFFF;
+                margin: 0;
+                text-shadow:
+                    0 0 40px rgba(255, 248, 224, 0.4),
+                    0 0 80px rgba(255, 217, 61, 0.2),
+                    0 4px 8px rgba(0, 0, 0, 0.5);
+                letter-spacing: 6px;
+                line-height: 1;
+            ">SHADOW</h1>
+            <h2 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 72px;
+                color: #FFD93D;
+                margin: -5px 0 0 0;
+                text-shadow:
+                    0 0 30px rgba(255, 217, 61, 0.5),
+                    0 0 60px rgba(255, 217, 61, 0.2),
+                    0 4px 8px rgba(0, 0, 0, 0.5);
+                letter-spacing: 8px;
+                line-height: 1;
+            ">MATCH</h2>
+        </div>
+
+        <!-- FREE Badge - Top Left (Cyan Neon) -->
+        <div style="
+            position: absolute;
+            top: 40px;
+            left: 35px;
+            transform: rotate(-8deg);
+            z-index: 25;
+        ">
+            <div style="
+                background: rgba(0, 229, 255, 0.15);
+                border: 2px solid #00E5FF;
+                padding: 8px 22px;
+                border-radius: 10px;
+                box-shadow:
+                    0 0 15px rgba(0, 229, 255, 0.4),
+                    0 0 30px rgba(0, 229, 255, 0.15),
+                    inset 0 0 10px rgba(0, 229, 255, 0.1);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    color: #00E5FF;
+                    text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+                ">FREE</span>
+            </div>
+        </div>
+
+        <!-- Grade Badge - Top Right -->
+        <div style="
+            position: absolute;
+            top: 45px;
+            right: 40px;
+            background: transparent;
+            border: 2px solid #FFD93D;
+            padding: 8px 20px;
+            border-radius: 25px;
+            z-index: 20;
+        ">
+            <span style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 600;
+                font-size: 21px;
+                color: #FFD93D;
+                text-shadow: 0 0 8px rgba(255, 217, 61, 0.4);
+            ">Grades K-2</span>
+        </div>
+
+        <!-- Cat silhouette circle - left -->
+        <div style="
+            position: absolute;
+            top: 340px;
+            left: 65px;
+            z-index: 10;
+        ">
+            <div style="
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                background: rgba(255, 217, 61, 0.08);
+                border: 2px solid rgba(255, 217, 61, 0.25);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            ">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="#0D0D0D">
+                    <!-- Cat silhouette -->
+                    <path d="M10,50 L10,25 L5,10 L15,18 L20,12 L22,22 L30,18 L38,22 L40,12 L45,18 L55,10 L50,25 L50,50 Z" fill="#111111"/>
+                    <circle cx="22" cy="30" r="3" fill="#FFD93D"/>
+                    <circle cx="38" cy="30" r="3" fill="#FFD93D"/>
+                    <path d="M28,36 Q30,38 32,36" stroke="#FFD93D" stroke-width="1.5" fill="none"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Fox silhouette circle - right -->
+        <div style="
+            position: absolute;
+            top: 360px;
+            right: 55px;
+            z-index: 10;
+        ">
+            <div style="
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background: rgba(255, 152, 0, 0.1);
+                border: 2px solid rgba(255, 152, 0, 0.3);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            ">
+                <svg width="55" height="55" viewBox="0 0 55 55" fill="none">
+                    <!-- Fox colored -->
+                    <path d="M8,45 L8,20 L3,8 L15,18 L27,8 L40,18 L52,8 L47,20 L47,45 Z" fill="#FF8C00"/>
+                    <path d="M18,30 L27,45 L37,30 Z" fill="white"/>
+                    <circle cx="18" cy="26" r="3" fill="#1A1A1A"/>
+                    <circle cx="37" cy="26" r="3" fill="#1A1A1A"/>
+                    <circle cx="27" cy="34" r="2.5" fill="#1A1A1A"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Curved dashed connection line between circles -->
+        <svg style="position: absolute; top: 330px; left: 0; width: 1000px; height: 200px; z-index: 5; pointer-events: none;" viewBox="0 0 1000 200">
+            <path d="M175,65 Q500,180 835,55" stroke="#FFD93D" stroke-width="2" fill="none" stroke-dasharray="10 8" opacity="0.35"/>
+        </svg>
+
+        <!-- Main Worksheet - Center -->
+        <div style="
+            position: absolute;
+            top: 330px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 15;
+        ">
+            <div style="
+                background: white;
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow:
+                    0 20px 60px rgba(0, 0, 0, 0.5),
+                    0 0 40px rgba(255, 217, 61, 0.2),
+                    0 0 80px rgba(255, 217, 61, 0.08),
+                    0 0 0 2px rgba(255, 217, 61, 0.3);
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-1.jpeg"
+                    alt="Shadow Match Worksheet"
+                    style="
+                        width: 320px;
+                        height: 247px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 6px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <!-- Secondary Worksheet - Bottom Left (peeking) -->
+        <div style="
+            position: absolute;
+            bottom: 130px;
+            left: 80px;
+            z-index: 12;
+        ">
+            <div style="
+                background: white;
+                padding: 7px;
+                border-radius: 8px;
+                box-shadow:
+                    0 10px 30px rgba(0, 0, 0, 0.4),
+                    0 0 20px rgba(255, 217, 61, 0.1);
+                opacity: 0.85;
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-3.jpeg"
+                    alt="Shadow Match Worksheet 2"
+                    style="
+                        width: 180px;
+                        height: 139px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 4px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <!-- Feature pills at bottom -->
+        <div style="
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            z-index: 20;
+        ">
+            <div style="
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(8px);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                padding: 9px 18px;
+                border-radius: 20px;
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: rgba(255, 255, 255, 0.85);">Visual Perception</span>
+            </div>
+            <div style="
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(8px);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                padding: 9px 18px;
+                border-radius: 20px;
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: rgba(255, 255, 255, 0.85);">Answer Keys</span>
+            </div>
+            <div style="
+                background: rgba(255, 255, 255, 0.08);
+                backdrop-filter: blur(8px);
+                border: 1px solid rgba(255, 255, 255, 0.15);
+                padding: 9px 18px;
+                border-radius: 20px;
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: rgba(255, 255, 255, 0.85);">Print & Go</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

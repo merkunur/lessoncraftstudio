@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Bilder-Bingo Kartengenerator - Fun Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(170deg, #FF8A65 0%, #FFB74D 40%, #FFF176 100%); overflow: hidden;">
+
+        <!-- Sunburst glow behind center -->
+        <div style="position: absolute; top: 45%; left: 50%; width: 800px; height: 800px; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.05) 40%, transparent 65%); border-radius: 50%;"></div>
+
+        <!-- Confetti dots -->
+        <div style="position: absolute; top: 95px; left: 85px; width: 12px; height: 12px; background: #AD1457; border-radius: 50%; opacity: 0.7;"></div>
+        <div style="position: absolute; top: 155px; left: 40px; width: 8px; height: 8px; background: #00695C; border-radius: 50%; opacity: 0.6;"></div>
+        <div style="position: absolute; top: 210px; right: 65px; width: 10px; height: 10px; background: #1565C0; border-radius: 50%; opacity: 0.6;"></div>
+        <div style="position: absolute; top: 125px; right: 125px; width: 9px; height: 9px; background: #F57F17; border-radius: 50%; opacity: 0.6;"></div>
+        <div style="position: absolute; top: 370px; left: 25px; width: 11px; height: 11px; background: #6A1B9A; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; top: 320px; right: 35px; width: 7px; height: 7px; background: #E64A19; border-radius: 50%; opacity: 0.55;"></div>
+        <div style="position: absolute; top: 460px; left: 55px; width: 10px; height: 10px; background: #00BCD4; border-radius: 50%; opacity: 0.55;"></div>
+        <div style="position: absolute; top: 520px; right: 50px; width: 8px; height: 8px; background: #FFD600; border-radius: 50%; opacity: 0.7;"></div>
+        <div style="position: absolute; bottom: 250px; left: 30px; width: 9px; height: 9px; background: #43A047; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; bottom: 300px; right: 45px; width: 11px; height: 11px; background: #AD1457; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; top: 600px; left: 70px; width: 7px; height: 7px; background: #1565C0; border-radius: 50%; opacity: 0.45;"></div>
+        <div style="position: absolute; top: 550px; right: 80px; width: 10px; height: 10px; background: #E64A19; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; bottom: 210px; left: 100px; width: 6px; height: 6px; background: #6A1B9A; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; bottom: 190px; right: 90px; width: 8px; height: 8px; background: #43A047; border-radius: 50%; opacity: 0.45;"></div>
+        <div style="position: absolute; top: 280px; left: 130px; width: 5px; height: 5px; background: #00BCD4; border-radius: 50%; opacity: 0.5;"></div>
+
+        <!-- Wimpelkette (pennant bunting) -->
+        <svg width="1000" height="80" viewBox="0 0 1000 80" style="position: absolute; top: 0; left: 0;">
+            <!-- String -->
+            <path d="M0,10 Q125,55 250,25 Q375,55 500,25 Q625,55 750,25 Q875,55 1000,10" fill="none" stroke="#5D4037" stroke-width="3"/>
+            <!-- Pennants -->
+            <polygon points="80,18 110,18 95,55" fill="#AD1457" opacity="0.85"/>
+            <polygon points="140,28 170,28 155,65" fill="#00695C" opacity="0.85"/>
+            <polygon points="210,22 240,22 225,59" fill="#FFD600" opacity="0.85"/>
+            <polygon points="280,30 310,30 295,67" fill="#1565C0" opacity="0.85"/>
+            <polygon points="350,22 380,22 365,59" fill="#E64A19" opacity="0.85"/>
+            <polygon points="420,28 450,28 435,65" fill="#6A1B9A" opacity="0.85"/>
+            <polygon points="490,22 520,22 505,59" fill="#AD1457" opacity="0.85"/>
+            <polygon points="560,30 590,30 575,67" fill="#00BCD4" opacity="0.85"/>
+            <polygon points="630,22 660,22 645,59" fill="#FFD600" opacity="0.85"/>
+            <polygon points="700,28 730,28 715,65" fill="#43A047" opacity="0.85"/>
+            <polygon points="770,22 800,22 785,59" fill="#E64A19" opacity="0.85"/>
+            <polygon points="840,28 870,28 855,65" fill="#1565C0" opacity="0.85"/>
+            <polygon points="910,18 940,18 925,55" fill="#6A1B9A" opacity="0.85"/>
+        </svg>
+
+        <!-- GRATIS pill -->
+        <div style="position: absolute; top: 80px; left: 30px; z-index: 100;">
+            <div style="width: 90px; height: 90px; background: linear-gradient(145deg, #AD1457 0%, #880E4F 100%); border-radius: 50%; box-shadow: 0 6px 22px rgba(173,20,87,0.45); display: flex; align-items: center; justify-content: center; transform: rotate(-6deg); border: 4px solid rgba(255,255,255,0.7);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 21px; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">GRATIS</span>
+            </div>
+        </div>
+
+        <!-- "Kinder lieben das!" heart badge -->
+        <div style="position: absolute; top: 85px; right: 30px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #EC407A, #AD1457); padding: 10px 20px; border-radius: 22px; box-shadow: 0 4px 15px rgba(173,20,87,0.35); border: 3px solid rgba(255,255,255,0.6);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 16px; color: white;">&#x2764; Kinder lieben das!</span>
+            </div>
+        </div>
+
+        <!-- Center Burst: BINGO! -->
+        <div style="position: absolute; top: 170px; left: 50%; transform: translateX(-50%); z-index: 50; text-align: center;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 90px; color: #C62828; margin: 0; text-shadow: 5px 5px 0 #FFD600, 8px 8px 0 rgba(0,0,0,0.15); letter-spacing: 8px;">BINGO!</h1>
+        </div>
+
+        <!-- Floating B-I-N-G-O letter balls -->
+        <div style="position: absolute; top: 120px; left: 160px; z-index: 45;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff 0%, #fff 8%, #1565C0 35%, #0D47A1 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">B</span>
+            </div>
+        </div>
+        <div style="position: absolute; top: 100px; left: 240px; z-index: 45;">
+            <div style="width: 45px; height: 45px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff 0%, #fff 8%, #C62828 35%, #B71C1C 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">I</span>
+            </div>
+        </div>
+        <div style="position: absolute; top: 108px; left: 490px; z-index: 45;">
+            <div style="width: 48px; height: 48px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff 0%, #fff 8%, #43A047 35%, #1B5E20 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 27px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">N</span>
+            </div>
+        </div>
+        <div style="position: absolute; top: 125px; right: 220px; z-index: 45;">
+            <div style="width: 52px; height: 52px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff 0%, #fff 8%, #FFD600 35%, #F9A825 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 29px; color: #5D4037; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">G</span>
+            </div>
+        </div>
+        <div style="position: absolute; top: 110px; right: 140px; z-index: 45;">
+            <div style="width: 46px; height: 46px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fff 0%, #fff 8%, #6A1B9A 35%, #4A148C 100%); box-shadow: 0 4px 14px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">O</span>
+            </div>
+        </div>
+
+        <!-- Left peek: callout word card -->
+        <div style="position: absolute; top: 350px; left: 35px; z-index: 30;">
+            <div style="box-shadow: 0 8px 25px rgba(0,0,0,0.25), 0 0 0 4px white; border-radius: 8px; overflow: hidden;">
+                <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/german/bingo/bilder-bingo%201%20callout.jpeg" style="width: 140px; height: 181px; object-fit: cover; display: block;">
+            </div>
+        </div>
+
+        <!-- Hero card center with dauber marks -->
+        <div style="position: absolute; top: 290px; left: 50%; transform: translateX(-50%); z-index: 40;">
+            <div style="position: relative;">
+                <div style="box-shadow: 0 18px 55px rgba(0,0,0,0.35), 0 0 0 7px white; border-radius: 14px; overflow: hidden;">
+                    <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/german/bingo/bilder-bingo%201.jpeg" style="width: 340px; height: 440px; object-fit: cover; display: block;">
+                </div>
+                <!-- Dauber marks (semi-transparent magenta circles) -->
+                <div style="position: absolute; top: 120px; left: 60px; width: 45px; height: 45px; background: radial-gradient(circle, rgba(173,20,87,0.55) 0%, rgba(173,20,87,0.25) 60%, transparent 70%); border-radius: 50%;"></div>
+                <div style="position: absolute; top: 200px; left: 180px; width: 42px; height: 42px; background: radial-gradient(circle, rgba(173,20,87,0.55) 0%, rgba(173,20,87,0.25) 60%, transparent 70%); border-radius: 50%;"></div>
+                <div style="position: absolute; top: 280px; right: 70px; width: 48px; height: 48px; background: radial-gradient(circle, rgba(173,20,87,0.55) 0%, rgba(173,20,87,0.25) 60%, transparent 70%); border-radius: 50%;"></div>
+                <div style="position: absolute; top: 160px; right: 55px; width: 40px; height: 40px; background: radial-gradient(circle, rgba(173,20,87,0.55) 0%, rgba(173,20,87,0.25) 60%, transparent 70%); border-radius: 50%;"></div>
+                <div style="position: absolute; top: 340px; left: 120px; width: 44px; height: 44px; background: radial-gradient(circle, rgba(173,20,87,0.55) 0%, rgba(173,20,87,0.25) 60%, transparent 70%); border-radius: 50%;"></div>
+            </div>
+        </div>
+
+        <!-- "GEWONNEN!" speech bubble -->
+        <div style="position: absolute; top: 410px; right: 40px; z-index: 55;">
+            <div style="background: linear-gradient(135deg, #43A047, #2E7D32); padding: 14px 24px; border-radius: 22px; box-shadow: 0 6px 20px rgba(67,160,71,0.4); position: relative;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.15);">GEWONNEN!</span>
+                <!-- Bubble tail -->
+                <div style="position: absolute; bottom: -10px; left: 25px; width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 12px solid #2E7D32;"></div>
+            </div>
+        </div>
+
+        <!-- Bottom burst: "SO MACHT LERNEN SPASS!" -->
+        <div style="position: absolute; bottom: 105px; left: 50%; transform: translateX(-50%); z-index: 60;">
+            <div style="background: linear-gradient(135deg, #FFD600, #FF8F00); padding: 16px 40px; border-radius: 30px; box-shadow: 0 6px 22px rgba(255,143,0,0.4); border: 4px solid rgba(255,255,255,0.6);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; color: #3E2723; letter-spacing: 2px; text-shadow: 0 1px 2px rgba(255,255,255,0.4);">SO MACHT LERNEN SPASS!</span>
+            </div>
+        </div>
+
+        <!-- Bottom pill -->
+        <div style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); z-index: 60;">
+            <div style="background: linear-gradient(135deg, #6A1B9A, #4A148C); padding: 12px 30px; border-radius: 25px; box-shadow: 0 4px 16px rgba(106,27,154,0.35); border: 3px solid rgba(255,255,255,0.4);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: white; letter-spacing: 1px;">Bingo-Fieber im Klassenzimmer!</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

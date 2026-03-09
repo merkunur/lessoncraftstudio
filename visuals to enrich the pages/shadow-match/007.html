@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Schattenbilder - Features Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: #1E1E2F; overflow: hidden;">
+
+        <!-- Subtle radial gradient in center -->
+        <div style="position: absolute; top: 50%; left: 50%; width: 900px; height: 900px; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(45,27,105,0.4) 0%, transparent 65%); border-radius: 50%;"></div>
+
+        <!-- Top gradient accent bar (cyan to magenta) -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 6px; background: linear-gradient(90deg, #00E5FF 0%, #7C4DFF 50%, #E040FB 100%);"></div>
+
+        <!-- Title Section -->
+        <div style="position: absolute; top: 30px; left: 0; right: 0; text-align: center; z-index: 40;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 52px; color: #FFFFFF; margin: 0; text-shadow: 0 0 30px rgba(0,229,255,0.15), 2px 2px 0 rgba(0,0,0,0.3); letter-spacing: 3px;">2 &Uuml;BUNGSMODI</h1>
+            <p style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 24px; color: #E8E0F0; margin: 8px 0 0 0; text-shadow: 1px 1px 3px rgba(0,0,0,0.4);">Ein Arbeitsblatt, zwei Herausforderungen</p>
+        </div>
+
+        <!-- Two Side-by-Side Mode Cards -->
+        <div style="position: absolute; top: 155px; left: 50%; transform: translateX(-50%); display: flex; gap: 24px; z-index: 20;">
+
+            <!-- Left Card: Schattenmodus (cyan accent) -->
+            <div style="width: 420px; background: rgba(255,255,255,0.06); backdrop-filter: blur(8px); border-radius: 18px; border-top: 5px solid #00E5FF; box-shadow: 0 12px 40px rgba(0,0,0,0.35), 0 0 20px rgba(0,229,255,0.08); padding: 25px 25px 20px 25px;">
+                <!-- Icon circle -->
+                <div style="width: 58px; height: 58px; background: linear-gradient(145deg, #00E5FF, #0097A7); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; box-shadow: 0 6px 20px rgba(0,229,255,0.35);">
+                    <span style="font-size: 28px;">&#128065;</span>
+                </div>
+                <!-- Mode Title -->
+                <div style="text-align: center; margin-bottom: 6px;">
+                    <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 24px; color: #00E5FF;">Schattenmodus</span>
+                </div>
+                <!-- Mode Subtitle -->
+                <div style="text-align: center; margin-bottom: 18px;">
+                    <span style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 13px; color: #B0BEC5;">Bilder den Silhouetten zuordnen</span>
+                </div>
+                <!-- Worksheet Frame -->
+                <div style="width: 370px; height: 286px; background: white; border-radius: 10px; box-shadow: 0 8px 25px rgba(0,0,0,0.3), 0 0 0 2px rgba(0,229,255,0.25); overflow: hidden; margin: 0 auto;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/shadow%20match/sample-1.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Schattenmodus Arbeitsblatt">
+                </div>
+            </div>
+
+            <!-- Right Card: Zusammenfügen (magenta accent) -->
+            <div style="width: 420px; background: rgba(255,255,255,0.06); backdrop-filter: blur(8px); border-radius: 18px; border-top: 5px solid #E040FB; box-shadow: 0 12px 40px rgba(0,0,0,0.35), 0 0 20px rgba(224,64,251,0.08); padding: 25px 25px 20px 25px;">
+                <!-- Icon circle -->
+                <div style="width: 58px; height: 58px; background: linear-gradient(145deg, #E040FB, #AB47BC); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; box-shadow: 0 6px 20px rgba(224,64,251,0.35);">
+                    <span style="font-size: 28px;">&#129513;</span>
+                </div>
+                <!-- Mode Title -->
+                <div style="text-align: center; margin-bottom: 6px;">
+                    <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 24px; color: #E040FB;">Zusammenf&uuml;gen</span>
+                </div>
+                <!-- Mode Subtitle -->
+                <div style="text-align: center; margin-bottom: 18px;">
+                    <span style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 13px; color: #B0BEC5;">Bildh&auml;lften wieder vereinen</span>
+                </div>
+                <!-- Worksheet Frame -->
+                <div style="width: 370px; height: 286px; background: white; border-radius: 10px; box-shadow: 0 8px 25px rgba(0,0,0,0.3), 0 0 0 2px rgba(224,64,251,0.25); overflow: hidden; margin: 0 auto;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/shadow%20match/sample-4.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Zusammenf&uuml;gen Arbeitsblatt">
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Accent Pill -->
+        <div style="position: absolute; bottom: 115px; left: 50%; transform: translateX(-50%); z-index: 30;">
+            <div style="background: linear-gradient(90deg, #2D1B69, #1A1A3E); padding: 14px 36px; border-radius: 30px; box-shadow: 0 6px 24px rgba(0,0,0,0.35); border: 2px solid rgba(0,229,255,0.25);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 22px; color: white; text-shadow: 0 0 15px rgba(0,229,255,0.2);">Visuelle Wahrnehmung spielerisch f&ouml;rdern!</span>
+            </div>
+        </div>
+
+        <!-- Feature Pills -->
+        <div style="position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; gap: 16px;">
+            <div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); padding: 12px 20px; border-radius: 26px; box-shadow: 0 4px 14px rgba(0,0,0,0.25); border: 2px solid rgba(0,229,255,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #00E5FF;">L&ouml;sungen inklusive</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); padding: 12px 20px; border-radius: 26px; box-shadow: 0 4px 14px rgba(0,0,0,0.25); border: 2px solid rgba(224,64,251,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #E040FB;">Verschiedene Themen</span>
+            </div>
+            <div style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); padding: 12px 20px; border-radius: 26px; box-shadow: 0 4px 14px rgba(0,0,0,0.25); border: 2px solid rgba(255,179,0,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #FFB300;">Sofort einsetzbar</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

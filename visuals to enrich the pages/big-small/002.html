@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Big or Small - Progression Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; background: #f0f0f0; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+    <div style="width: 1000px; height: 1000px; position: relative; overflow: hidden; background: linear-gradient(160deg, #E8F5E9 0%, #FFF8E1 40%, #FFEBEE 100%); font-family: 'Fredoka', sans-serif;">
+
+        <!-- Background pattern - subtle stairs outline -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.04;" viewBox="0 0 1000 1000">
+            <path d="M0 1000 L0 700 L333 700 L333 450 L666 450 L666 200 L1000 200 L1000 1000 Z" fill="none" stroke="#26A69A" stroke-width="40"/>
+        </svg>
+
+        <!-- FREE Badge -->
+        <div style="position: absolute; top: 25px; left: 25px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #FF8A80 0%, #FF6B6B 100%); color: white; padding: 10px 24px; font-size: 22px; font-weight: 700; border-radius: 25px; box-shadow: 0 4px 15px rgba(255,138,128,0.4); letter-spacing: 2px;">FREE</div>
+        </div>
+
+        <!-- Grade Badge -->
+        <div style="position: absolute; top: 28px; right: 25px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #26A69A 0%, #00897B 100%); color: white; padding: 8px 20px; font-size: 16px; font-weight: 600; border-radius: 20px; box-shadow: 0 4px 12px rgba(38,166,154,0.4); font-family: 'Nunito', sans-serif;">PreK-K</div>
+        </div>
+
+        <!-- Header Title -->
+        <div style="position: absolute; top: 85px; left: 0; right: 0; text-align: center;">
+            <div style="font-size: 52px; font-weight: 700; color: #26A69A;">Learning Path</div>
+            <div style="font-size: 24px; color: #FF8A80; font-family: 'Nunito', sans-serif; font-weight: 600; margin-top: 5px;">for Little Ones</div>
+        </div>
+
+        <!-- Staircase Container -->
+        <div style="position: absolute; top: 180px; left: 40px; right: 40px; bottom: 100px;">
+
+            <!-- Connecting path line -->
+            <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;" viewBox="0 0 920 620">
+                <path d="M160 550 Q200 530 240 480 Q280 430 400 400 Q520 370 560 320 Q600 270 720 220 Q780 190 800 150" fill="none" stroke="url(#pathGradient)" stroke-width="6" stroke-dasharray="15,10" stroke-linecap="round"/>
+                <defs>
+                    <linearGradient id="pathGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#81C784"/>
+                        <stop offset="50%" style="stop-color:#FFD54F"/>
+                        <stop offset="100%" style="stop-color:#FF8A80"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <!-- Step 1: Easy Start (Bottom Left) -->
+            <div style="position: absolute; bottom: 20px; left: 0; width: 300px; z-index: 10;">
+                <!-- Step card -->
+                <div style="background: linear-gradient(145deg, #C8E6C9 0%, #A5D6A7 100%); border-radius: 20px; padding: 20px; border: 4px solid #81C784; box-shadow: 0 10px 35px rgba(129,199,132,0.3);">
+                    <!-- Star badge -->
+                    <div style="position: absolute; top: -15px; right: 15px; background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                        <span style="font-size: 22px;">⭐</span>
+                    </div>
+
+                    <!-- Level indicator -->
+                    <div style="background: #4CAF50; color: white; display: inline-block; padding: 6px 16px; border-radius: 15px; font-size: 14px; font-weight: 700; margin-bottom: 12px;">STEP 1</div>
+
+                    <div style="font-size: 24px; font-weight: 700; color: #2E7D32; margin-bottom: 5px;">Easy Start</div>
+                    <div style="font-size: 14px; color: #43A047; font-family: 'Nunito', sans-serif; font-weight: 600;">2 Identical Items</div>
+
+                    <!-- Mini worksheet preview -->
+                    <div style="margin-top: 12px;">
+                        <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/english/big%20small/big-small%20identical%20images.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.15); border: 3px solid white;">
+                    </div>
+                </div>
+
+                <!-- Arrow up -->
+                <div style="position: absolute; top: -40px; right: -30px; font-size: 36px; color: #81C784; transform: rotate(-30deg);">➤</div>
+            </div>
+
+            <!-- Step 2: Getting Better (Middle) -->
+            <div style="position: absolute; top: 180px; left: 50%; transform: translateX(-50%); width: 300px; z-index: 10;">
+                <!-- Step card -->
+                <div style="background: linear-gradient(145deg, #FFF9C4 0%, #FFF59D 100%); border-radius: 20px; padding: 20px; border: 4px solid #FFD54F; box-shadow: 0 10px 35px rgba(255,213,79,0.3);">
+                    <!-- Star badges -->
+                    <div style="position: absolute; top: -15px; right: 15px; display: flex; gap: 5px;">
+                        <div style="background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                            <span style="font-size: 18px;">⭐</span>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                            <span style="font-size: 18px;">⭐</span>
+                        </div>
+                    </div>
+
+                    <!-- Level indicator -->
+                    <div style="background: #FFC107; color: white; display: inline-block; padding: 6px 16px; border-radius: 15px; font-size: 14px; font-weight: 700; margin-bottom: 12px;">STEP 2</div>
+
+                    <div style="font-size: 24px; font-weight: 700; color: #F57F17; margin-bottom: 5px;">Level Up!</div>
+                    <div style="font-size: 14px; color: #F9A825; font-family: 'Nunito', sans-serif; font-weight: 600;">2 Different Items</div>
+
+                    <!-- Mini worksheet preview -->
+                    <div style="margin-top: 12px;">
+                        <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/english/big%20small/big-small-different%20images.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.15); border: 3px solid white;">
+                    </div>
+                </div>
+
+                <!-- Arrow up -->
+                <div style="position: absolute; top: -40px; right: -30px; font-size: 36px; color: #FFD54F; transform: rotate(-30deg);">➤</div>
+            </div>
+
+            <!-- Step 3: Challenge (Top Right) -->
+            <div style="position: absolute; top: 0; right: 0; width: 300px; z-index: 10;">
+                <!-- Step card -->
+                <div style="background: linear-gradient(145deg, #FFCDD2 0%, #FFAB91 100%); border-radius: 20px; padding: 20px; border: 4px solid #FF8A80; box-shadow: 0 10px 35px rgba(255,138,128,0.3); position: relative;">
+                    <!-- Star badges -->
+                    <div style="position: absolute; top: -15px; right: 10px; display: flex; gap: 4px;">
+                        <div style="background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                            <span style="font-size: 16px;">⭐</span>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                            <span style="font-size: 16px;">⭐</span>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #FFD54F 0%, #FFC107 100%); width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(255,193,7,0.4); border: 3px solid white;">
+                            <span style="font-size: 16px;">⭐</span>
+                        </div>
+                    </div>
+
+                    <!-- Level indicator -->
+                    <div style="background: linear-gradient(135deg, #FF8A80 0%, #FF6B6B 100%); color: white; display: inline-block; padding: 6px 16px; border-radius: 15px; font-size: 14px; font-weight: 700; margin-bottom: 12px;">STEP 3</div>
+
+                    <div style="font-size: 24px; font-weight: 700; color: #D32F2F; margin-bottom: 5px;">Size Expert!</div>
+                    <div style="font-size: 14px; color: #E57373; font-family: 'Nunito', sans-serif; font-weight: 600;">Order 3 Items 1-2-3</div>
+
+                    <!-- Mini worksheet preview -->
+                    <div style="margin-top: 12px;">
+                        <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/english/big%20small/big-small%20number%201-2-3.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.15); border: 3px solid white;">
+                    </div>
+
+                    <!-- Celebration burst -->
+                    <div style="position: absolute; top: -30px; left: -20px; font-size: 28px; transform: rotate(-15deg);">🎉</div>
+                </div>
+
+                <!-- You Did It badge -->
+                <div style="position: absolute; top: -50px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #26A69A 0%, #00897B 100%); color: white; padding: 10px 20px; border-radius: 20px; font-size: 18px; font-weight: 700; box-shadow: 0 4px 15px rgba(38,166,154,0.4); white-space: nowrap;">🏆 You Did It!</div>
+            </div>
+
+        </div>
+
+        <!-- Bottom Banner -->
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 90px; background: linear-gradient(90deg, #81C784 0%, #FFD54F 50%, #FF8A80 100%); display: flex; align-items: center; justify-content: center; gap: 30px;">
+            <div style="background: white; color: #26A69A; padding: 12px 25px; border-radius: 25px; font-size: 20px; font-weight: 700; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">Progressive Difficulty</div>
+            <div style="background: white; color: #FF8A80; padding: 12px 25px; border-radius: 25px; font-size: 20px; font-weight: 700; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">Build Confidence!</div>
+        </div>
+
+    </div>
+</body>
+</html>

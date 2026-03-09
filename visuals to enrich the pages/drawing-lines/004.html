@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Lines - Fun Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; background: white; position: relative; overflow: hidden;">
+
+        <!-- Paint splash corners -->
+        <!-- Top Left - Coral -->
+        <svg style="position: absolute; top: -50px; left: -50px; width: 300px; height: 300px;" viewBox="0 0 300 300">
+            <ellipse cx="80" cy="80" rx="130" ry="110" fill="#FF6B6B" opacity="0.8"/>
+            <ellipse cx="50" cy="120" rx="60" ry="40" fill="#FF8A80" opacity="0.6"/>
+            <circle cx="150" cy="60" r="25" fill="#FF6B6B" opacity="0.5"/>
+            <circle cx="180" cy="100" r="15" fill="#FFAB91" opacity="0.4"/>
+        </svg>
+
+        <!-- Top Right - Yellow -->
+        <svg style="position: absolute; top: -30px; right: -30px; width: 280px; height: 280px;" viewBox="0 0 280 280">
+            <ellipse cx="200" cy="70" rx="120" ry="100" fill="#FFE066" opacity="0.8"/>
+            <ellipse cx="230" cy="120" rx="50" ry="35" fill="#FFF59D" opacity="0.6"/>
+            <circle cx="140" cy="50" r="20" fill="#FFD54F" opacity="0.5"/>
+        </svg>
+
+        <!-- Bottom Left - Blue -->
+        <svg style="position: absolute; bottom: -40px; left: -40px; width: 260px; height: 260px;" viewBox="0 0 260 260">
+            <ellipse cx="70" cy="190" rx="110" ry="90" fill="#64B5F6" opacity="0.7"/>
+            <ellipse cx="40" cy="160" rx="45" ry="30" fill="#90CAF9" opacity="0.5"/>
+            <circle cx="130" cy="210" r="18" fill="#42A5F5" opacity="0.4"/>
+        </svg>
+
+        <!-- Bottom Right - Green -->
+        <svg style="position: absolute; bottom: -30px; right: -30px; width: 250px; height: 250px;" viewBox="0 0 250 250">
+            <ellipse cx="180" cy="180" rx="100" ry="85" fill="#81C784" opacity="0.7"/>
+            <ellipse cx="210" cy="150" rx="40" ry="30" fill="#A5D6A7" opacity="0.5"/>
+            <circle cx="130" cy="200" r="15" fill="#66BB6A" opacity="0.4"/>
+        </svg>
+
+        <!-- FREE Badge -->
+        <div style="position: absolute; top: 25px; left: 25px; z-index: 25;">
+            <div style="background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%); color: white; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; padding: 12px 24px; border-radius: 30px; box-shadow: 0 5px 20px rgba(255,107,107,0.5); transform: rotate(-8deg); border: 3px solid white;">
+                FREE!
+            </div>
+        </div>
+
+        <!-- Owl character (top left) with pencil -->
+        <div style="position: absolute; top: 150px; left: 60px; z-index: 20;">
+            <div style="position: relative;">
+                <!-- Owl body -->
+                <div style="width: 120px; height: 130px; background: linear-gradient(180deg, #8D6E63 0%, #6D4C41 100%); border-radius: 50% 50% 45% 45%; position: relative; box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                    <!-- Owl face circle -->
+                    <div style="position: absolute; top: 15px; left: 50%; transform: translateX(-50%); width: 90px; height: 80px; background: #D7CCC8; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                        <!-- Eyes -->
+                        <div style="position: absolute; top: 15px; left: 12px; width: 28px; height: 28px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <div style="width: 14px; height: 14px; background: #333; border-radius: 50%;"></div>
+                        </div>
+                        <div style="position: absolute; top: 15px; right: 12px; width: 28px; height: 28px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <div style="width: 14px; height: 14px; background: #333; border-radius: 50%;"></div>
+                        </div>
+                        <!-- Beak -->
+                        <div style="position: absolute; top: 45px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 18px solid #FF9800;"></div>
+                    </div>
+                    <!-- Wings -->
+                    <div style="position: absolute; bottom: 20px; left: -10px; width: 35px; height: 50px; background: #5D4037; border-radius: 50%; transform: rotate(15deg);"></div>
+                    <div style="position: absolute; bottom: 20px; right: -10px; width: 35px; height: 50px; background: #5D4037; border-radius: 50%; transform: rotate(-15deg);"></div>
+                    <!-- Feet -->
+                    <div style="position: absolute; bottom: -15px; left: 25px; width: 25px; height: 20px; background: #FF9800; border-radius: 0 0 10px 10px;"></div>
+                    <div style="position: absolute; bottom: -15px; right: 25px; width: 25px; height: 20px; background: #FF9800; border-radius: 0 0 10px 10px;"></div>
+                </div>
+                <!-- Pencil in wing -->
+                <div style="position: absolute; top: 30px; right: -60px; transform: rotate(30deg);">
+                    <div style="width: 90px; height: 18px; background: #FFE066; border-radius: 0 0 3px 3px; position: relative;">
+                        <div style="position: absolute; right: -12px; top: 3px; width: 0; height: 0; border-left: 12px solid #DEB887; border-top: 6px solid transparent; border-bottom: 6px solid transparent;"></div>
+                        <div style="position: absolute; left: -8px; top: 0; width: 8px; height: 18px; background: #FFB6C1; border-radius: 3px 0 0 3px;"></div>
+                    </div>
+                </div>
+                <!-- Speech bubble -->
+                <div style="position: absolute; top: -50px; right: -80px; background: white; padding: 10px 18px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: 2px solid #8D6E63;">
+                    <p style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 18px; color: #5D4037; margin: 0;">Let's Draw!</p>
+                    <div style="position: absolute; bottom: -10px; left: 25px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 12px solid white;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Worksheet (center) -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(5deg); z-index: 15;">
+            <div style="width: 450px; height: 350px; background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.25); overflow: hidden; border: 5px solid #FF6B6B; position: relative;">
+                <!-- Decorative tape strips -->
+                <div style="position: absolute; top: -8px; left: 40px; width: 60px; height: 25px; background: rgba(255,224,102,0.8); transform: rotate(-5deg);"></div>
+                <div style="position: absolute; top: -8px; right: 50px; width: 50px; height: 25px; background: rgba(129,199,132,0.8); transform: rotate(8deg);"></div>
+                <img src="https://www.lessoncraftstudio.com/samples/english/drawing%20lines/sample-3.jpeg"
+                     style="width: 100%; height: 100%; object-fit: cover;" alt="Sample worksheet"/>
+            </div>
+        </div>
+
+        <!-- Deer character (bottom right) -->
+        <div style="position: absolute; bottom: 130px; right: 80px; z-index: 20;">
+            <div style="position: relative;">
+                <!-- Deer head -->
+                <div style="width: 90px; height: 100px; background: linear-gradient(180deg, #FFCC80 0%, #FFB74D 100%); border-radius: 45% 45% 40% 40%; position: relative; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+                    <!-- Ears -->
+                    <div style="position: absolute; top: -5px; left: 5px; width: 25px; height: 35px; background: #FFB74D; border-radius: 50% 50% 30% 30%; transform: rotate(-20deg);"></div>
+                    <div style="position: absolute; top: -5px; right: 5px; width: 25px; height: 35px; background: #FFB74D; border-radius: 50% 50% 30% 30%; transform: rotate(20deg);"></div>
+                    <div style="position: absolute; top: 0px; left: 10px; width: 15px; height: 22px; background: #FFECB3; border-radius: 50% 50% 30% 30%; transform: rotate(-20deg);"></div>
+                    <div style="position: absolute; top: 0px; right: 10px; width: 15px; height: 22px; background: #FFECB3; border-radius: 50% 50% 30% 30%; transform: rotate(20deg);"></div>
+                    <!-- Eyes -->
+                    <div style="position: absolute; top: 35px; left: 18px; width: 18px; height: 18px; background: #333; border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 35px; right: 18px; width: 18px; height: 18px; background: #333; border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 37px; left: 22px; width: 6px; height: 6px; background: white; border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 37px; right: 22px; width: 6px; height: 6px; background: white; border-radius: 50%;"></div>
+                    <!-- Nose -->
+                    <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); width: 18px; height: 12px; background: #5D4037; border-radius: 50%;"></div>
+                    <!-- Spots -->
+                    <div style="position: absolute; top: 25px; left: 50%; transform: translateX(-50%); width: 10px; height: 10px; background: #FFE0B2; border-radius: 50%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Penguin character (top right) -->
+        <div style="position: absolute; top: 160px; right: 100px; z-index: 18;">
+            <div style="width: 70px; height: 85px; background: linear-gradient(180deg, #37474F 0%, #263238 100%); border-radius: 35% 35% 40% 40%; position: relative; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                <!-- White belly -->
+                <div style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); width: 45px; height: 55px; background: white; border-radius: 50%;"></div>
+                <!-- Eyes -->
+                <div style="position: absolute; top: 20px; left: 12px; width: 14px; height: 14px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 8px; height: 8px; background: #333; border-radius: 50%;"></div>
+                </div>
+                <div style="position: absolute; top: 20px; right: 12px; width: 14px; height: 14px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 8px; height: 8px; background: #333; border-radius: 50%;"></div>
+                </div>
+                <!-- Beak -->
+                <div style="position: absolute; top: 35px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 12px solid #FF9800;"></div>
+                <!-- Waving flipper -->
+                <div style="position: absolute; top: 30px; right: -15px; width: 20px; height: 35px; background: #37474F; border-radius: 50%; transform: rotate(-30deg);"></div>
+            </div>
+        </div>
+
+        <!-- Dashed line trails connecting animals -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 12;" viewBox="0 0 1000 1000">
+            <!-- Rainbow gradient dashed paths -->
+            <defs>
+                <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#FF6B6B"/>
+                    <stop offset="25%" style="stop-color:#FFE066"/>
+                    <stop offset="50%" style="stop-color:#81C784"/>
+                    <stop offset="75%" style="stop-color:#64B5F6"/>
+                    <stop offset="100%" style="stop-color:#BA68C8"/>
+                </linearGradient>
+            </defs>
+            <!-- Path from owl to worksheet -->
+            <path d="M200 280 Q320 320 350 420" stroke="url(#rainbowGrad)" stroke-width="6" fill="none" stroke-dasharray="12 8" stroke-linecap="round"/>
+            <!-- Path from worksheet to deer -->
+            <path d="M680 580 Q780 680 870 730" stroke="url(#rainbowGrad)" stroke-width="6" fill="none" stroke-dasharray="12 8" stroke-linecap="round"/>
+            <!-- Path from penguin to worksheet -->
+            <path d="M850 250 Q780 350 680 420" stroke="url(#rainbowGrad)" stroke-width="6" fill="none" stroke-dasharray="12 8" stroke-linecap="round"/>
+        </svg>
+
+        <!-- Confetti elements -->
+        <div style="position: absolute; top: 100px; left: 300px; font-size: 28px; transform: rotate(15deg);">⭐</div>
+        <div style="position: absolute; top: 200px; right: 250px; font-size: 22px; transform: rotate(-20deg);">💫</div>
+        <div style="position: absolute; bottom: 200px; left: 250px; font-size: 25px; transform: rotate(10deg);">✨</div>
+        <div style="position: absolute; top: 350px; left: 200px; font-size: 20px;">❤️</div>
+        <div style="position: absolute; bottom: 280px; right: 250px; font-size: 24px; transform: rotate(-15deg);">🌟</div>
+
+        <!-- Title -->
+        <div style="position: absolute; top: 30px; left: 50%; transform: translateX(-50%); text-align: center; z-index: 20;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 62px; margin: 0; background: linear-gradient(135deg, #FF6B6B, #FF9800, #FFE066, #81C784, #64B5F6, #BA68C8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: none; filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px -2px 0 white);">
+                Kids LOVE This!
+            </h1>
+        </div>
+
+        <!-- Subtitle -->
+        <div style="position: absolute; top: 100px; left: 50%; transform: translateX(-50%); text-align: center; z-index: 20;">
+            <p style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 22px; color: #5D4037; margin: 0; background: white; padding: 8px 20px; border-radius: 20px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                Adorable Animals + Line Practice = FUN!
+            </p>
+        </div>
+
+        <!-- Bottom pill -->
+        <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%); z-index: 20;">
+            <div style="background: linear-gradient(135deg, #FF6B6B 0%, #FF8A80 100%); color: white; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 24px; padding: 15px 35px; border-radius: 40px; box-shadow: 0 6px 25px rgba(255,107,107,0.4); border: 3px solid white;">
+                Makes Practice Feel Like Play! 🎉
+            </div>
+        </div>
+
+        <!-- Tagline -->
+        <div style="position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); z-index: 15;">
+            <p style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 14px; color: #888; margin: 0; font-style: italic;">
+                So fun, they forget they're learning
+            </p>
+        </div>
+    </div>
+</body>
+</html>

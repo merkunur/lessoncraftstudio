@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Raster-Puzzle - Vorher &amp; Nachher</title>
+</head>
+<body style="margin:0;padding:0;width:1000px;height:1000px;overflow:hidden;font-family:'Nunito',sans-serif;">
+    <div style="width:1000px;height:1000px;position:relative;overflow:hidden;">
+
+        <!-- Left half: Sky Blue -->
+        <div style="position:absolute;top:0;left:0;width:500px;height:1000px;background:linear-gradient(170deg,#E3F2FD 0%,#BBDEFB 100%);"></div>
+
+        <!-- Right half: Meadow Mint -->
+        <div style="position:absolute;top:0;right:0;width:500px;height:1000px;background:linear-gradient(170deg,#E8F5E9 0%,#C8E6C9 100%);"></div>
+
+        <!-- Amber center divider stripe -->
+        <div style="position:absolute;top:0;left:486px;width:28px;height:1000px;background:linear-gradient(180deg,#FF8F00 0%,#FF6F00 100%);z-index:30;box-shadow:0 0 20px rgba(255,143,0,0.3);"></div>
+
+        <!-- Subtle dot pattern -->
+        <div style="position:absolute;inset:0;opacity:0.04;background-image:radial-gradient(circle 1.5px,#1A237E 1px,transparent 1px);background-size:24px 24px;"></div>
+
+        <!-- GRATIS badge -->
+        <div style="position:absolute;top:22px;left:25px;z-index:100;">
+            <div style="width:90px;height:90px;background:linear-gradient(145deg,#FF8F00 0%,#FF6F00 100%);border-radius:50%;box-shadow:0 6px 24px rgba(255,143,0,0.5),inset 0 -3px 8px rgba(0,0,0,0.12),inset 0 3px 6px rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center;transform:rotate(-8deg);border:4px solid rgba(255,255,255,0.6);">
+                <span style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:21px;color:white;text-shadow:1px 2px 3px rgba(0,0,0,0.25);">GRATIS</span>
+            </div>
+        </div>
+
+        <!-- Grade Badge -->
+        <div style="position:absolute;top:32px;right:30px;background:rgba(255,255,255,0.95);padding:10px 20px;border-radius:26px;box-shadow:0 4px 14px rgba(0,0,0,0.12);border:3px solid #43A047;z-index:100;">
+            <span style="font-family:'Nunito',sans-serif;font-weight:800;font-size:15px;color:#1A237E;letter-spacing:1px;">KLASSE K-2</span>
+        </div>
+
+        <!-- Main Title centered across both halves -->
+        <div style="position:absolute;top:85px;left:0;right:0;text-align:center;z-index:40;">
+            <h1 style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:60px;color:#1A237E;margin:0;text-shadow:2px 2px 0 rgba(26,35,126,0.08);">RASTER-PUZZLE</h1>
+        </div>
+
+        <!-- Left side: "Vorher" -->
+        <div style="position:absolute;top:175px;left:245px;transform:translateX(-50%);z-index:20;text-align:center;">
+            <!-- Red label chip -->
+            <div style="display:inline-block;background:linear-gradient(135deg,#E53935,#C62828);padding:8px 28px;border-radius:20px;margin-bottom:16px;box-shadow:0 4px 12px rgba(229,57,53,0.35);">
+                <span style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:22px;color:white;letter-spacing:1px;">VORHER</span>
+            </div>
+            <!-- Sample 2 worksheet -->
+            <div style="margin-top:10px;position:relative;">
+                <img src="https://www.lessoncraftstudio.com/samples/german/grid%20match/sample-2.jpeg" style="width:280px;height:362px;object-fit:cover;border-radius:10px;border:6px solid white;box-shadow:0 12px 40px rgba(229,57,53,0.2),0 4px 15px rgba(0,0,0,0.15);">
+                <!-- Scattered question marks overlays -->
+                <div style="position:absolute;top:40px;left:30px;font-family:'Fredoka',sans-serif;font-weight:700;font-size:42px;color:rgba(229,57,53,0.2);transform:rotate(-10deg);">?</div>
+                <div style="position:absolute;top:130px;right:25px;font-family:'Fredoka',sans-serif;font-weight:700;font-size:36px;color:rgba(229,57,53,0.18);transform:rotate(15deg);">?</div>
+                <div style="position:absolute;bottom:80px;left:55px;font-family:'Fredoka',sans-serif;font-weight:700;font-size:34px;color:rgba(229,57,53,0.2);transform:rotate(5deg);">?</div>
+            </div>
+        </div>
+
+        <!-- Center arrow on divider -->
+        <div style="position:absolute;top:420px;left:50%;transform:translateX(-50%);z-index:50;">
+            <div style="width:60px;height:60px;background:linear-gradient(135deg,#FF8F00,#FF6F00);border-radius:50%;box-shadow:0 6px 20px rgba(255,143,0,0.5);display:flex;align-items:center;justify-content:center;border:4px solid white;">
+                <svg width="28" height="22" viewBox="0 0 28 22" fill="none">
+                    <path d="M16 1L26 11L16 21M1 11H26" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Right side: "Nachher" -->
+        <div style="position:absolute;top:175px;left:755px;transform:translateX(-50%);z-index:20;text-align:center;">
+            <!-- Green label chip -->
+            <div style="display:inline-block;background:linear-gradient(135deg,#43A047,#2E7D32);padding:8px 28px;border-radius:20px;margin-bottom:16px;box-shadow:0 4px 12px rgba(67,160,71,0.35);">
+                <span style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:22px;color:white;letter-spacing:1px;">NACHHER</span>
+            </div>
+            <!-- Sample 2 answer -->
+            <div style="margin-top:10px;position:relative;">
+                <img src="https://www.lessoncraftstudio.com/samples/german/grid%20match/sample-2-answer.jpeg" style="width:280px;height:362px;object-fit:cover;border-radius:10px;border:6px solid white;box-shadow:0 12px 40px rgba(67,160,71,0.25),0 4px 15px rgba(0,0,0,0.15),0 0 30px rgba(67,160,71,0.12);">
+                <!-- Green glow behind -->
+                <div style="position:absolute;inset:-18px;border-radius:24px;background:radial-gradient(ellipse,rgba(67,160,71,0.1) 0%,transparent 70%);z-index:-1;"></div>
+                <!-- Checkmark badge -->
+                <div style="position:absolute;top:-18px;right:-18px;width:48px;height:48px;background:linear-gradient(135deg,#43A047,#2E7D32);border-radius:50%;box-shadow:0 4px 12px rgba(67,160,71,0.5);display:flex;align-items:center;justify-content:center;border:3px solid white;">
+                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none">
+                        <path d="M2 9L9 16L22 2" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <!-- Sparkle stars -->
+                <div style="position:absolute;top:20px;left:-22px;width:12px;height:12px;background:#FFD600;clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);"></div>
+                <div style="position:absolute;bottom:40px;right:-18px;width:10px;height:10px;background:#FFD600;clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);"></div>
+                <div style="position:absolute;top:100px;left:-16px;width:8px;height:8px;background:#FFC107;clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);"></div>
+            </div>
+        </div>
+
+        <!-- Tagline banner -->
+        <div style="position:absolute;bottom:120px;left:50%;transform:translateX(-50%);z-index:40;white-space:nowrap;">
+            <div style="background:linear-gradient(90deg,#FF8F00,#FF6F00);padding:14px 38px;border-radius:30px;box-shadow:0 6px 22px rgba(255,143,0,0.4);">
+                <span style="font-family:'Fredoka',sans-serif;font-weight:700;font-size:26px;color:white;text-shadow:1px 2px 3px rgba(0,0,0,0.2);">Vom R&auml;tsel zum fertigen Bild!</span>
+            </div>
+        </div>
+
+        <!-- Feature Pills -->
+        <div style="position:absolute;bottom:35px;left:50%;transform:translateX(-50%);display:flex;gap:16px;z-index:40;">
+            <div style="background:white;padding:12px 20px;border-radius:26px;box-shadow:0 4px 14px rgba(0,0,0,0.1);border:3px solid #E53935;">
+                <span style="font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:#E53935;">Visuelles Denken</span>
+            </div>
+            <div style="background:white;padding:12px 20px;border-radius:26px;box-shadow:0 4px 14px rgba(0,0,0,0.1);border:3px solid #43A047;">
+                <span style="font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:#43A047;">Selbstkontrolle</span>
+            </div>
+            <div style="background:white;padding:12px 20px;border-radius:26px;box-shadow:0 4px 14px rgba(0,0,0,0.1);border:3px solid #FF8F00;">
+                <span style="font-family:'Nunito',sans-serif;font-weight:700;font-size:14px;color:#FF8F00;">Ab Vorschule</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

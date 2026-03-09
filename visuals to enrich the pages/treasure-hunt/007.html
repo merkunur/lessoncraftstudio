@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Schatzsuche - Progression Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(170deg, #E8F5E9 0%, #E0F2F1 100%); overflow: hidden;">
+
+        <!-- Soft jungle mist overlay -->
+        <div style="position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 60%, rgba(255,255,255,0.4) 0%, transparent 60%); pointer-events: none;"></div>
+
+        <!-- Left side subtle green wash -->
+        <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; background: linear-gradient(180deg, rgba(46,125,50,0.06) 0%, rgba(67,160,71,0.04) 100%);"></div>
+
+        <!-- Right side subtle teal wash -->
+        <div style="position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: linear-gradient(180deg, rgba(0,105,92,0.06) 0%, rgba(0,137,123,0.04) 100%);"></div>
+
+        <!-- Title - centered top -->
+        <div style="position: absolute; top: 30px; left: 0; right: 0; text-align: center; z-index: 15;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 54px; color: #1B5E20; margin: 0; text-shadow: 0 2px 8px rgba(0,0,0,0.06);">Zwei Abenteuer-Pfade</h1>
+            <div style="width: 200px; height: 4px; background: linear-gradient(90deg, #2E7D32, #F9A825, #00695C); margin: 10px auto 0; border-radius: 2px;"></div>
+        </div>
+
+        <!-- Golden forking path SVG -->
+        <svg style="position: absolute; top: 80px; left: 50%; transform: translateX(-50%); pointer-events: none; z-index: 5;" width="400" height="250" viewBox="0 0 400 250">
+            <!-- Main trunk path -->
+            <path d="M200,0 L200,80" stroke="#F9A825" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+            <!-- Left fork -->
+            <path d="M200,80 Q180,120 120,160 Q80,190 50,240" stroke="#F9A825" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="14 8" opacity="0.4"/>
+            <!-- Right fork -->
+            <path d="M200,80 Q220,120 280,160 Q320,190 350,240" stroke="#F9A825" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="14 8" opacity="0.4"/>
+            <!-- Fork point glow -->
+            <circle cx="200" cy="80" r="12" fill="#F9A825" opacity="0.35"/>
+            <circle cx="200" cy="80" r="6" fill="#F9A825" opacity="0.6"/>
+        </svg>
+
+        <!-- LEFT ZONE: Grundrichtungen -->
+        <div style="position: absolute; top: 120px; left: 30px; width: 440px; z-index: 15;">
+            <!-- Badge -->
+            <div style="text-align: center; margin-bottom: 14px;">
+                <div style="display: inline-block; background: linear-gradient(135deg, #43A047 0%, #2E7D32 100%); padding: 10px 32px; border-radius: 30px; box-shadow: 0 4px 16px rgba(46,125,50,0.35);">
+                    <span style="font-family: 'Fredoka', sans-serif; font-size: 24px; font-weight: 700; color: white; letter-spacing: 2px;">GRUNDRICHTUNGEN</span>
+                </div>
+            </div>
+
+            <!-- Arrow direction icons -->
+            <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 14px;">
+                <div style="width: 50px; height: 50px; background: #2E7D32; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 10px rgba(46,125,50,0.25);">
+                    <svg width="22" height="22" viewBox="0 0 24 24"><polygon points="12,4 20,16 4,16" fill="white"/></svg>
+                </div>
+                <div style="width: 50px; height: 50px; background: #2E7D32; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 10px rgba(46,125,50,0.25);">
+                    <svg width="22" height="22" viewBox="0 0 24 24"><polygon points="12,20 20,8 4,8" fill="white"/></svg>
+                </div>
+                <div style="width: 50px; height: 50px; background: #2E7D32; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 10px rgba(46,125,50,0.25);">
+                    <svg width="22" height="22" viewBox="0 0 24 24"><polygon points="4,12 16,4 16,20" fill="white"/></svg>
+                </div>
+                <div style="width: 50px; height: 50px; background: #2E7D32; border-radius: 10px; display: flex; align-items: center; justify-content: center; box-shadow: 0 3px 10px rgba(46,125,50,0.25);">
+                    <svg width="22" height="22" viewBox="0 0 24 24"><polygon points="20,12 8,4 8,20" fill="white"/></svg>
+                </div>
+            </div>
+
+            <!-- Worksheet in green frame -->
+            <div style="position: relative; width: 260px; margin: 0 auto;">
+                <!-- Answer key behind -->
+                <div style="position: absolute; top: 8px; left: 18px; width: 230px; height: 297px; background: white; border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.12); overflow: hidden; z-index: 1;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/treasure%20hunt/sample-1-answer.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: top;" alt="Grundrichtungen L&#246;sung">
+                </div>
+                <!-- Main worksheet -->
+                <div style="position: relative; width: 230px; height: 297px; background: white; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.18), 0 0 0 3px #2E7D32; overflow: hidden; z-index: 2;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/treasure%20hunt/sample-1.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: top;" alt="Grundrichtungen Arbeitsblatt">
+                </div>
+            </div>
+
+            <!-- Subtitle -->
+            <p style="text-align: center; font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #2E7D32; margin: 14px 0 0 0;">Der perfekte Einstieg</p>
+        </div>
+
+        <!-- RIGHT ZONE: Himmelsrichtungen -->
+        <div style="position: absolute; top: 120px; right: 30px; width: 440px; z-index: 15;">
+            <!-- Badge -->
+            <div style="text-align: center; margin-bottom: 14px;">
+                <div style="display: inline-block; background: linear-gradient(135deg, #00897B 0%, #00695C 100%); padding: 10px 28px; border-radius: 30px; box-shadow: 0 4px 16px rgba(0,137,123,0.35);">
+                    <span style="font-family: 'Fredoka', sans-serif; font-size: 24px; font-weight: 700; color: white; letter-spacing: 2px;">HIMMELSRICHTUNGEN</span>
+                </div>
+            </div>
+
+            <!-- Compass rose -->
+            <div style="display: flex; justify-content: center; margin-bottom: 14px;">
+                <svg width="65" height="65" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="42" stroke="#00695C" stroke-width="3" fill="none" opacity="0.5"/>
+                    <circle cx="50" cy="50" r="32" stroke="#00695C" stroke-width="1.5" fill="none" opacity="0.3"/>
+                    <polygon points="50,12 46,38 54,38" fill="#00695C"/>
+                    <polygon points="50,88 46,62 54,62" fill="#00695C" opacity="0.5"/>
+                    <polygon points="12,50 38,46 38,54" fill="#00695C" opacity="0.5"/>
+                    <polygon points="88,50 62,46 62,54" fill="#00695C" opacity="0.5"/>
+                    <text x="50" y="9" text-anchor="middle" fill="#00695C" font-size="12" font-weight="bold" font-family="Fredoka, sans-serif">N</text>
+                    <text x="50" y="98" text-anchor="middle" fill="#00695C" font-size="12" font-weight="bold" font-family="Fredoka, sans-serif">S</text>
+                    <text x="96" y="54" text-anchor="end" fill="#00695C" font-size="12" font-weight="bold" font-family="Fredoka, sans-serif">O</text>
+                    <text x="5" y="54" text-anchor="start" fill="#00695C" font-size="12" font-weight="bold" font-family="Fredoka, sans-serif">W</text>
+                </svg>
+            </div>
+
+            <!-- Worksheet in teal frame -->
+            <div style="position: relative; width: 260px; margin: 0 auto;">
+                <!-- Answer key behind -->
+                <div style="position: absolute; top: 8px; right: 18px; width: 230px; height: 297px; background: white; border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.12); overflow: hidden; z-index: 1;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/treasure%20hunt/sample-2-answer.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: top;" alt="Himmelsrichtungen L&#246;sung">
+                </div>
+                <!-- Main worksheet -->
+                <div style="position: relative; width: 230px; height: 297px; background: white; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.18), 0 0 0 3px #00695C; overflow: hidden; z-index: 2; margin-left: auto;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/treasure%20hunt/sample-2.jpeg" style="width: 100%; height: 100%; object-fit: cover; object-position: top;" alt="Himmelsrichtungen Arbeitsblatt">
+                </div>
+            </div>
+
+            <!-- Subtitle -->
+            <p style="text-align: center; font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #00695C; margin: 14px 0 0 0;">F&#252;r kleine Entdecker</p>
+        </div>
+
+        <!-- Bottom Golden Banner -->
+        <div style="position: absolute; bottom: 80px; left: 50%; transform: translateX(-50%); z-index: 20;">
+            <div style="background: linear-gradient(135deg, #F9A825 0%, #C8860B 100%); padding: 12px 45px; border-radius: 8px; box-shadow: 0 5px 18px rgba(249,168,37,0.4); position: relative;">
+                <div style="position: absolute; left: -10px; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-right: 10px solid #F9A825;"></div>
+                <div style="position: absolute; right: -10px; top: 50%; transform: translateY(-50%); width: 0; height: 0; border-top: 12px solid transparent; border-bottom: 12px solid transparent; border-left: 10px solid #C8860B;"></div>
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; letter-spacing: 2px; text-shadow: 0 2px 4px rgba(0,0,0,0.25);">Vom Anf&#228;nger zum Experten!</span>
+            </div>
+        </div>
+
+        <!-- Bottom progression pills -->
+        <div style="position: absolute; bottom: 28px; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 16px; z-index: 20;">
+            <div style="background: #2E7D32; padding: 10px 24px; border-radius: 25px; box-shadow: 0 3px 12px rgba(46,125,50,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 18px; font-weight: 700; color: white;">Einfach starten</span>
+            </div>
+            <svg width="45" height="22" viewBox="0 0 50 24">
+                <line x1="0" y1="12" x2="38" y2="12" stroke="#F9A825" stroke-width="4" stroke-linecap="round"/>
+                <polygon points="36,4 50,12 36,20" fill="#F9A825"/>
+            </svg>
+            <div style="background: #00695C; padding: 10px 24px; border-radius: 25px; box-shadow: 0 3px 12px rgba(0,105,92,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 18px; font-weight: 700; color: white;">Schwierigkeit steigern</span>
+            </div>
+            <svg width="45" height="22" viewBox="0 0 50 24">
+                <line x1="0" y1="12" x2="38" y2="12" stroke="#F9A825" stroke-width="4" stroke-linecap="round"/>
+                <polygon points="36,4 50,12 36,20" fill="#F9A825"/>
+            </svg>
+            <div style="background: linear-gradient(135deg, #F9A825, #C8860B); padding: 10px 24px; border-radius: 25px; box-shadow: 0 3px 12px rgba(200,134,11,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 18px; font-weight: 700; color: white;">L&#246;sungen dabei</span>
+            </div>
+        </div>
+
+        <!-- Decorative leaf dots -->
+        <div style="position: absolute; top: 100px; left: 15px; width: 10px; height: 10px; background: #43A047; border-radius: 50%; opacity: 0.25;"></div>
+        <div style="position: absolute; top: 100px; right: 15px; width: 8px; height: 8px; background: #00897B; border-radius: 50%; opacity: 0.25;"></div>
+        <div style="position: absolute; bottom: 130px; left: 45px; width: 7px; height: 7px; background: #F9A825; border-radius: 50%; opacity: 0.3;"></div>
+        <div style="position: absolute; bottom: 130px; right: 45px; width: 9px; height: 9px; background: #F9A825; border-radius: 50%; opacity: 0.3;"></div>
+    </div>
+</body>
+</html>

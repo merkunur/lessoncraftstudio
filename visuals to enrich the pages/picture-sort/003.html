@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Bilder Sortieren - Professional Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: #F5F5F5; overflow: hidden;">
+
+        <!-- Subtle grid overlay -->
+        <svg style="position: absolute; top: 0; left: 0; width: 1000px; height: 1000px; opacity: 0.02;" viewBox="0 0 1000 1000">
+            <defs>
+                <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1B5E20" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="1000" height="1000" fill="url(#grid)"/>
+        </svg>
+
+        <!-- Header bar -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 140px; background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 60%, #388E3C 100%); box-shadow: 0 6px 25px rgba(0,0,0,0.2); z-index: 50;">
+            <!-- Gold accent line at bottom -->
+            <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #FFD54F, #FFE082, #FFD54F);"></div>
+
+            <!-- GRATIS badge (gold rectangle) -->
+            <div style="position: absolute; top: 20px; left: 25px; background: linear-gradient(145deg, #FFD54F, #FFE082); padding: 8px 20px; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); border: 2px solid rgba(255,255,255,0.4);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: #1B5E20;">GRATIS</span>
+            </div>
+
+            <div style="text-align: center; padding-top: 28px;">
+                <h1 style="font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; font-size: 42px; color: white; margin: 0; text-shadow: 2px 2px 0 rgba(0,0,0,0.2);">P&auml;dagogisch wertvoll</h1>
+                <p style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 20px; color: #FFD54F; margin: 4px 0 0 0; letter-spacing: 4px; text-transform: uppercase;">Sortierarbeitsbl&auml;tter</p>
+            </div>
+        </div>
+
+        <!-- Quality seal -->
+        <div style="position: absolute; top: 160px; left: 50%; transform: translateX(-50%); z-index: 60;">
+            <div style="width: 160px; height: 160px; border-radius: 50%; background: linear-gradient(145deg, #1B5E20, #2E7D32); border: 5px solid #FFD54F; box-shadow: 0 8px 30px rgba(27,94,32,0.3), inset 0 0 20px rgba(0,0,0,0.1); display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 14px; color: #C8E6C9; letter-spacing: 1px;">Von Lehrern</span>
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; color: white; margin: 2px 0;">GEPR&Uuml;FT</span>
+                <span style="font-size: 16px; color: #FFD54F; letter-spacing: 2px;">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 11px; color: #C8E6C9; margin-top: 2px;">Von Kindern geliebt</span>
+            </div>
+        </div>
+
+        <!-- Side label LEFT -->
+        <div style="position: absolute; top: 440px; left: 40px; z-index: 30;">
+            <div style="writing-mode: vertical-lr; transform: rotate(180deg);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #2E7D32; letter-spacing: 3px; text-transform: uppercase;">Sortieren &amp; Zuordnen</span>
+            </div>
+        </div>
+
+        <!-- Side label RIGHT -->
+        <div style="position: absolute; top: 440px; right: 40px; z-index: 30;">
+            <div style="writing-mode: vertical-lr;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #2E7D32; letter-spacing: 3px; text-transform: uppercase;">Kategorien bilden</span>
+            </div>
+        </div>
+
+        <!-- Central worksheet with gold corner brackets -->
+        <div style="position: absolute; top: 350px; left: 50%; transform: translateX(-50%); z-index: 40;">
+            <!-- Gold corner brackets -->
+            <!-- Top-left -->
+            <div style="position: absolute; top: -10px; left: -10px; width: 35px; height: 35px; border-top: 4px solid #FFD54F; border-left: 4px solid #FFD54F;"></div>
+            <!-- Top-right -->
+            <div style="position: absolute; top: -10px; right: -10px; width: 35px; height: 35px; border-top: 4px solid #FFD54F; border-right: 4px solid #FFD54F;"></div>
+            <!-- Bottom-left -->
+            <div style="position: absolute; bottom: -10px; left: -10px; width: 35px; height: 35px; border-bottom: 4px solid #FFD54F; border-left: 4px solid #FFD54F;"></div>
+            <!-- Bottom-right -->
+            <div style="position: absolute; bottom: -10px; right: -10px; width: 35px; height: 35px; border-bottom: 4px solid #FFD54F; border-right: 4px solid #FFD54F;"></div>
+
+            <!-- Worksheet card -->
+            <div style="width: 300px; height: 388px; background: white; border-radius: 10px; box-shadow: 0 12px 40px rgba(0,0,0,0.15); padding: 8px; box-sizing: border-box; position: relative;">
+                <img src="https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-5.jpeg" style="width: 100%; height: 100%; object-fit: cover; border-radius: 6px;" alt="Sortierarbeitsblatt Qualit&auml;t">
+
+                <!-- Answer key badge overlay -->
+                <div style="position: absolute; bottom: 18px; right: 18px; background: linear-gradient(145deg, #2E7D32, #43A047); padding: 8px 16px; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); border: 2px solid rgba(255,255,255,0.4);">
+                    <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 13px; color: white;">&#x2713; L&ouml;sungsblatt dabei</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quality cards row (4 cards) -->
+        <div style="position: absolute; bottom: 100px; left: 50%; transform: translateX(-50%); display: flex; gap: 16px; z-index: 50;">
+            <!-- Card 1 -->
+            <div style="width: 130px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 14px 10px; text-align: center; border-top: 4px solid #2E7D32;">
+                <div style="font-size: 26px; margin-bottom: 6px;">&#x1F4F7;</div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #1B5E20;">300 DPI</span>
+            </div>
+            <!-- Card 2 -->
+            <div style="width: 130px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 14px 10px; text-align: center; border-top: 4px solid #FFD54F;">
+                <div style="font-size: 26px; margin-bottom: 6px;">&#x1F5A8;&#xFE0F;</div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #1B5E20;">Druckfertig</span>
+            </div>
+            <!-- Card 3 -->
+            <div style="width: 130px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 14px 10px; text-align: center; border-top: 4px solid #2E7D32;">
+                <div style="font-size: 26px; margin-bottom: 6px;">&#x1F4C4;</div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #1B5E20;">PDF-Format</span>
+            </div>
+            <!-- Card 4 -->
+            <div style="width: 130px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 14px 10px; text-align: center; border-top: 4px solid #FFD54F;">
+                <div style="font-size: 26px; margin-bottom: 6px;">&#x26A1;</div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 13px; color: #1B5E20;">Keine Vorbereitung</span>
+            </div>
+        </div>
+
+        <!-- Footer bar -->
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 60px; background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 60%, #388E3C 100%); box-shadow: 0 -4px 20px rgba(0,0,0,0.15); z-index: 50; display: flex; align-items: center; justify-content: center;">
+            <!-- Gold accent line at top -->
+            <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #FFD54F, #FFE082, #FFD54F);"></div>
+            <span style="font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; font-size: 22px; color: white; text-shadow: 1px 1px 0 rgba(0,0,0,0.2);">Von P&auml;dagogen, f&uuml;r P&auml;dagogen</span>
+        </div>
+
+    </div>
+</body>
+</html>

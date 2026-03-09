@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Bilderpfad - Fun Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(160deg, #283593 0%, #1A237E 50%, #0D47A1 100%); overflow: hidden;">
+
+        <!-- Subtle passport texture pattern -->
+        <div style="position: absolute; inset: 0; opacity: 0.04; background-image: repeating-linear-gradient(45deg, white 0px, white 1px, transparent 1px, transparent 20px), repeating-linear-gradient(-45deg, white 0px, white 1px, transparent 1px, transparent 20px);"></div>
+
+        <!-- Decorative border (passport edge) -->
+        <div style="position: absolute; inset: 12px; border: 2px solid rgba(255,255,255,0.1); border-radius: 8px;"></div>
+        <div style="position: absolute; inset: 18px; border: 1px solid rgba(255,255,255,0.06); border-radius: 6px;"></div>
+
+        <!-- GRATIS Badge -->
+        <div style="position: absolute; top: 18px; left: 22px; z-index: 100;">
+            <div style="width: 88px; height: 88px; background: linear-gradient(145deg, #FFD54F 0%, #F9A825 100%); border-radius: 50%; box-shadow: 0 6px 20px rgba(249,168,37,0.5), inset 0 -3px 8px rgba(0,0,0,0.12), inset 0 3px 6px rgba(255,255,255,0.5); display: flex; align-items: center; justify-content: center; transform: rotate(-8deg); border: 3px solid rgba(255,255,255,0.5);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 20px; color: #3E2723;">GRATIS</span>
+            </div>
+        </div>
+
+        <!-- Title Area with Globe Emblem -->
+        <div style="position: absolute; top: 20px; left: 0; right: 0; text-align: center; z-index: 40;">
+            <!-- SVG Globe emblem -->
+            <svg style="display: inline-block; vertical-align: middle; margin-bottom: 4px;" width="60" height="60" viewBox="0 0 60 60">
+                <circle cx="30" cy="30" r="27" fill="none" stroke="#D4A017" stroke-width="2.5" opacity="0.7"/>
+                <ellipse cx="30" cy="30" rx="14" ry="27" fill="none" stroke="#D4A017" stroke-width="1.5" opacity="0.5"/>
+                <line x1="3" y1="30" x2="57" y2="30" stroke="#D4A017" stroke-width="1.2" opacity="0.4"/>
+                <path d="M6,18 Q30,14 54,18" fill="none" stroke="#D4A017" stroke-width="1" opacity="0.35"/>
+                <path d="M6,42 Q30,46 54,42" fill="none" stroke="#D4A017" stroke-width="1" opacity="0.35"/>
+            </svg>
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 56px; color: #D4A017; margin: 2px 0 0 0; text-shadow: 0 3px 12px rgba(0,0,0,0.4), 0 0 40px rgba(212,160,23,0.15); letter-spacing: 5px;">ENTDECKERPASS</h1>
+        </div>
+
+        <!-- ===== PASSPORT PAGE (cream rectangle) ===== -->
+        <div style="position: absolute; top: 155px; left: 80px; right: 80px; height: 590px; background: linear-gradient(170deg, #FFF8E1 0%, #FFF3CD 50%, #FFECB3 100%); border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,0.4), 8px 0 25px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,0,0,0.05); z-index: 20;">
+
+            <!-- Page fold shadow (left edge) -->
+            <div style="position: absolute; top: 0; left: 0; width: 25px; height: 100%; background: linear-gradient(90deg, rgba(0,0,0,0.06), transparent); border-radius: 10px 0 0 10px;"></div>
+
+            <!-- Passport page header line -->
+            <div style="position: absolute; top: 18px; left: 40px; right: 40px; border-bottom: 2px dashed rgba(139,90,43,0.15);"></div>
+
+            <!-- Page title -->
+            <div style="position: absolute; top: 28px; left: 0; right: 0; text-align: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 20px; color: #8D6E63; letter-spacing: 3px; opacity: 0.5;">MEINE ABENTEUER</span>
+            </div>
+
+            <!-- ===== WORKSHEET PHOTO 1 (left) ===== -->
+            <div style="position: absolute; top: 75px; left: 60px;">
+                <!-- Photo with corner brackets -->
+                <div style="position: relative; width: 230px; height: 297px;">
+                    <!-- Corner brackets (photo album style) -->
+                    <div style="position: absolute; top: -4px; left: -4px; width: 22px; height: 22px; border-top: 3px solid #8D6E63; border-left: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; top: -4px; right: -4px; width: 22px; height: 22px; border-top: 3px solid #8D6E63; border-right: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; bottom: -4px; left: -4px; width: 22px; height: 22px; border-bottom: 3px solid #8D6E63; border-left: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; bottom: -4px; right: -4px; width: 22px; height: 22px; border-bottom: 3px solid #8D6E63; border-right: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <!-- Image -->
+                    <img src="https://www.lessoncraftstudio.com/samples/german/picture%20path/sample-3.jpeg" style="display: block; width: 230px; height: 297px; object-fit: cover; border-radius: 4px; box-shadow: 0 6px 18px rgba(0,0,0,0.15);" alt="Bilderpfad Arbeitsblatt">
+                </div>
+
+                <!-- "GESCHAFFT!" stamp overlay (red, rotated) -->
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-18deg); z-index: 30;">
+                    <div style="border: 4px solid #C62828; border-radius: 8px; padding: 6px 18px; background: rgba(198,40,40,0.12);">
+                        <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; color: #C62828; letter-spacing: 3px; opacity: 0.85;">GESCHAFFT!</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== WORKSHEET PHOTO 2 (right) ===== -->
+            <div style="position: absolute; top: 95px; right: 60px;">
+                <!-- Photo with corner brackets -->
+                <div style="position: relative; width: 220px; height: 284px;">
+                    <!-- Corner brackets -->
+                    <div style="position: absolute; top: -4px; left: -4px; width: 22px; height: 22px; border-top: 3px solid #8D6E63; border-left: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; top: -4px; right: -4px; width: 22px; height: 22px; border-top: 3px solid #8D6E63; border-right: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; bottom: -4px; left: -4px; width: 22px; height: 22px; border-bottom: 3px solid #8D6E63; border-left: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <div style="position: absolute; bottom: -4px; right: -4px; width: 22px; height: 22px; border-bottom: 3px solid #8D6E63; border-right: 3px solid #8D6E63; opacity: 0.5;"></div>
+                    <!-- Image -->
+                    <img src="https://www.lessoncraftstudio.com/samples/german/picture%20path/sample-5.jpeg" style="display: block; width: 220px; height: 284px; object-fit: cover; border-radius: 4px; box-shadow: 0 6px 18px rgba(0,0,0,0.15);" alt="Bilderpfad Arbeitsblatt">
+                </div>
+
+                <!-- "SUPER!" stamp overlay (green, rotated) -->
+                <div style="position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%) rotate(12deg); z-index: 30;">
+                    <div style="border: 4px solid #2E7D32; border-radius: 8px; padding: 6px 22px; background: rgba(46,125,50,0.12);">
+                        <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 32px; color: #2E7D32; letter-spacing: 3px; opacity: 0.85;">SUPER!</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== PASSPORT STAMPS (scalloped-edge circles) ===== -->
+
+            <!-- Stamp 1: BILDERPFAD -->
+            <div style="position: absolute; bottom: 60px; left: 55px; width: 110px; height: 110px; z-index: 25;">
+                <svg width="110" height="110" viewBox="0 0 110 110">
+                    <circle cx="55" cy="55" r="48" fill="none" stroke="#5C6BC0" stroke-width="3" stroke-dasharray="6,4" opacity="0.7"/>
+                    <circle cx="55" cy="55" r="40" fill="none" stroke="#5C6BC0" stroke-width="1.5" opacity="0.5"/>
+                    <text x="55" y="50" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="12" fill="#5C6BC0" letter-spacing="1">BILDER-</text>
+                    <text x="55" y="66" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="12" fill="#5C6BC0" letter-spacing="1">PFAD</text>
+                </svg>
+            </div>
+
+            <!-- Stamp 2: LABYRINTH -->
+            <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%) rotate(8deg); width: 120px; height: 120px; z-index: 25;">
+                <svg width="120" height="120" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="52" fill="none" stroke="#E53935" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+                    <circle cx="60" cy="60" r="44" fill="none" stroke="#E53935" stroke-width="1.5" opacity="0.4"/>
+                    <text x="60" y="56" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="12" fill="#E53935" letter-spacing="1">LABY-</text>
+                    <text x="60" y="72" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="12" fill="#E53935" letter-spacing="1">RINTH</text>
+                </svg>
+            </div>
+
+            <!-- Stamp 3: PFADFINDER -->
+            <div style="position: absolute; bottom: 50px; right: 50px; width: 115px; height: 115px; z-index: 25; transform: rotate(-6deg);">
+                <svg width="115" height="115" viewBox="0 0 115 115">
+                    <circle cx="57" cy="57" r="50" fill="none" stroke="#2E7D32" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+                    <circle cx="57" cy="57" r="42" fill="none" stroke="#2E7D32" stroke-width="1.5" opacity="0.4"/>
+                    <text x="57" y="52" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="11" fill="#2E7D32" letter-spacing="1">PFAD-</text>
+                    <text x="57" y="68" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="11" fill="#2E7D32" letter-spacing="1">FINDER</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- ===== BOTTOM AREA ===== -->
+
+        <!-- Achievement Badges Row -->
+        <div style="position: absolute; bottom: 110px; left: 50%; transform: translateX(-50%); display: flex; gap: 22px; z-index: 50;">
+            <div style="width: 80px; height: 80px; background: linear-gradient(145deg, rgba(255,255,255,0.15), rgba(255,255,255,0.08)); border-radius: 50%; border: 2.5px solid rgba(212,160,23,0.6); display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 20px; color: #FFD54F;">3</span>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 11px; color: rgba(255,255,255,0.8);">Modi</span>
+            </div>
+            <div style="width: 80px; height: 80px; background: linear-gradient(145deg, rgba(255,255,255,0.15), rgba(255,255,255,0.08)); border-radius: 50%; border: 2.5px solid rgba(212,160,23,0.6); display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: #FFD54F;">300</span>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 11px; color: rgba(255,255,255,0.8);">DPI</span>
+            </div>
+            <div style="width: 80px; height: 80px; background: linear-gradient(145deg, rgba(255,255,255,0.15), rgba(255,255,255,0.08)); border-radius: 50%; border: 2.5px solid rgba(212,160,23,0.6); display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 13px; color: #FFD54F;">&#10003;</span>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 10px; color: rgba(255,255,255,0.8); text-align: center; line-height: 1.1;">L&ouml;sun-<br>gen</span>
+            </div>
+        </div>
+
+        <!-- Bottom text + KLASSE pill -->
+        <div style="position: absolute; bottom: 25px; left: 0; right: 0; text-align: center; z-index: 50;">
+            <span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 22px; color: rgba(255,255,255,0.9); text-shadow: 0 2px 8px rgba(0,0,0,0.3);">Dein Labyrinth-Abenteuer beginnt hier!</span>
+            <div style="display: inline-block; margin-left: 18px; background: rgba(255,255,255,0.12); padding: 6px 18px; border-radius: 20px; border: 2px solid rgba(255,255,255,0.3); vertical-align: middle;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 14px; color: white; letter-spacing: 1px;">KLASSE K-3</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

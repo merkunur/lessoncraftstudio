@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Picture Sudoku - Fun Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(160deg, #81D4FA 0%, #B3E5FC 50%, #E1F5FE 100%); overflow: hidden;">
+
+        <!-- Confetti pieces -->
+        <div style="position: absolute; top: 40px; left: 80px; width: 20px; height: 8px; background: #FF6E40; border-radius: 4px; transform: rotate(35deg);"></div>
+        <div style="position: absolute; top: 100px; left: 200px; width: 18px; height: 7px; background: #FFD740; border-radius: 3px; transform: rotate(-20deg);"></div>
+        <div style="position: absolute; top: 60px; left: 350px; width: 16px; height: 6px; background: #AB47BC; border-radius: 3px; transform: rotate(55deg);"></div>
+        <div style="position: absolute; top: 130px; left: 50px; width: 14px; height: 6px; background: #66BB6A; border-radius: 3px; transform: rotate(-45deg);"></div>
+        <div style="position: absolute; top: 45px; right: 150px; width: 20px; height: 8px; background: #00897B; border-radius: 4px; transform: rotate(15deg);"></div>
+        <div style="position: absolute; top: 100px; right: 80px; width: 16px; height: 6px; background: #FF6E40; border-radius: 3px; transform: rotate(-65deg);"></div>
+        <div style="position: absolute; top: 170px; right: 200px; width: 18px; height: 7px; background: #FFD740; border-radius: 3px; transform: rotate(40deg);"></div>
+        <div style="position: absolute; top: 200px; left: 120px; width: 14px; height: 6px; background: #AB47BC; border-radius: 3px; transform: rotate(-30deg);"></div>
+        <div style="position: absolute; top: 230px; right: 100px; width: 20px; height: 8px; background: #66BB6A; border-radius: 4px; transform: rotate(70deg);"></div>
+        <div style="position: absolute; bottom: 200px; left: 50px; width: 16px; height: 6px; background: #FF6E40; border-radius: 3px; transform: rotate(-50deg);"></div>
+        <div style="position: absolute; bottom: 250px; right: 60px; width: 18px; height: 7px; background: #00897B; border-radius: 3px; transform: rotate(25deg);"></div>
+        <div style="position: absolute; bottom: 300px; left: 180px; width: 14px; height: 6px; background: #FFD740; border-radius: 3px; transform: rotate(-15deg);"></div>
+        <div style="position: absolute; top: 300px; left: 30px; width: 12px; height: 5px; background: #AB47BC; border-radius: 3px; transform: rotate(60deg);"></div>
+        <div style="position: absolute; top: 350px; right: 40px; width: 15px; height: 6px; background: #66BB6A; border-radius: 3px; transform: rotate(-40deg);"></div>
+        <div style="position: absolute; bottom: 170px; left: 300px; width: 17px; height: 7px; background: #FF6E40; border-radius: 3px; transform: rotate(45deg);"></div>
+        <div style="position: absolute; bottom: 220px; right: 280px; width: 13px; height: 5px; background: #00897B; border-radius: 3px; transform: rotate(-55deg);"></div>
+        <div style="position: absolute; top: 80px; left: 500px; width: 11px; height: 5px; background: #FFD740; border-radius: 3px; transform: rotate(30deg);"></div>
+        <div style="position: absolute; top: 140px; left: 700px; width: 19px; height: 7px; background: #AB47BC; border-radius: 3px; transform: rotate(-25deg);"></div>
+        <div style="position: absolute; bottom: 350px; left: 70px; width: 15px; height: 6px; background: #66BB6A; border-radius: 3px; transform: rotate(50deg);"></div>
+        <div style="position: absolute; bottom: 280px; right: 140px; width: 16px; height: 6px; background: #FF6E40; border-radius: 3px; transform: rotate(-35deg);"></div>
+
+        <!-- Confetti circles -->
+        <div style="position: absolute; top: 55px; left: 450px; width: 12px; height: 12px; background: #FF6E40; border-radius: 50%;"></div>
+        <div style="position: absolute; top: 160px; right: 130px; width: 10px; height: 10px; background: #FFD740; border-radius: 50%;"></div>
+        <div style="position: absolute; bottom: 260px; left: 100px; width: 11px; height: 11px; background: #AB47BC; border-radius: 50%;"></div>
+        <div style="position: absolute; top: 250px; left: 60px; width: 9px; height: 9px; background: #66BB6A; border-radius: 50%;"></div>
+        <div style="position: absolute; bottom: 320px; right: 70px; width: 12px; height: 12px; background: #00897B; border-radius: 50%;"></div>
+
+        <!-- FREE Pill -->
+        <div style="position: absolute; top: 25px; left: 25px; z-index: 100;">
+            <div style="width: 85px; height: 85px; border-radius: 50%; background: linear-gradient(145deg, #FFD740 0%, #FF6E40 100%); box-shadow: 0 6px 25px rgba(255,215,64,0.5), inset 0 -4px 12px rgba(0,0,0,0.2), inset 0 4px 8px rgba(255,255,255,0.3); display: flex; align-items: center; justify-content: center; transform: rotate(-5deg);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">FREE</span>
+            </div>
+        </div>
+
+        <!-- "Kids LOVE This!" badge -->
+        <div style="position: absolute; top: 25px; right: 25px; z-index: 100;">
+            <div style="background: linear-gradient(135deg, #EC407A, #AD1457); padding: 12px 22px; border-radius: 25px; box-shadow: 0 6px 20px rgba(236,64,122,0.4); transform: rotate(3deg);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: white;">Kids LOVE This!</span>
+            </div>
+        </div>
+
+        <!-- Grade Badge below Kids LOVE This -->
+        <div style="position: absolute; top: 80px; right: 40px; background: rgba(255,255,255,0.95); padding: 8px 18px; border-radius: 20px; box-shadow: 0 3px 12px rgba(0,0,0,0.15); z-index: 100;">
+            <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 15px; color: #00695C;">GRADES K-2</span>
+        </div>
+
+        <!-- Comic burst background -->
+        <div style="position: absolute; top: 110px; left: 50%; transform: translateX(-50%); z-index: 10;">
+            <!-- Starburst SVG -->
+            <svg width="500" height="130" viewBox="0 0 500 130">
+                <polygon points="250,0 270,35 310,10 295,48 340,38 310,65 350,70 310,82 335,105 295,95 280,130 260,98 230,125 225,90 190,110 205,80 160,85 190,65 155,50 195,48 175,25 210,38 215,5 240,32" fill="#FF6E40" stroke="#FFD740" stroke-width="4"/>
+                <text x="250" y="82" text-anchor="middle" font-family="Fredoka, sans-serif" font-weight="700" font-size="60" fill="white" stroke="#BF360C" stroke-width="2">SUDOKU!</text>
+            </svg>
+        </div>
+
+        <!-- Large central worksheet (sample-3 = food theme) -->
+        <div style="position: absolute; top: 240px; left: 50%; transform: translateX(-50%); z-index: 30;">
+            <div style="box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 0 8px white, 0 0 0 12px rgba(255,110,64,0.3);">
+                <img src="file:///C:/Users/rkgen/lessoncraftstudio/samples/english/sudoku/sudoku_worksheet%20(3).jpeg" style="width: 320px; height: auto; border-radius: 8px; display: block;">
+            </div>
+        </div>
+
+        <!-- CSS Magnifying glass examining worksheet corner -->
+        <div style="position: absolute; top: 280px; right: 130px; z-index: 40;">
+            <div style="width: 80px; height: 80px; border: 6px solid #5D4037; border-radius: 50%; background: rgba(255,255,255,0.3); box-shadow: 0 4px 15px rgba(0,0,0,0.2);"></div>
+            <div style="width: 6px; height: 40px; background: #5D4037; border-radius: 3px; position: absolute; bottom: -32px; right: -8px; transform: rotate(-45deg);"></div>
+        </div>
+
+        <!-- Speech bubble left: "I SOLVED IT!" -->
+        <div style="position: absolute; top: 360px; left: 40px; z-index: 35;">
+            <div style="background: white; padding: 14px 20px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); position: relative; max-width: 145px;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: #00695C; display: block; text-align: center;">I SOLVED IT!</span>
+                <!-- Speech bubble tail -->
+                <div style="position: absolute; bottom: -12px; right: 20px; width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 14px solid white;"></div>
+            </div>
+        </div>
+
+        <!-- Speech bubble right: "SO COOL!" -->
+        <div style="position: absolute; top: 490px; right: 55px; z-index: 35;">
+            <div style="background: white; padding: 14px 20px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); position: relative; max-width: 130px;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 18px; color: #AB47BC; display: block; text-align: center;">SO COOL!</span>
+                <div style="position: absolute; bottom: -12px; left: 20px; width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 14px solid white;"></div>
+            </div>
+        </div>
+
+        <!-- Theme emoji circles floating -->
+        <div style="position: absolute; top: 260px; left: 50px; width: 50px; height: 50px; background: rgba(255,255,255,0.85); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 26px;">&#129409;</div>
+        <div style="position: absolute; top: 520px; left: 70px; width: 46px; height: 46px; background: rgba(255,255,255,0.85); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 24px;">&#127829;</div>
+        <div style="position: absolute; top: 620px; right: 50px; width: 48px; height: 48px; background: rgba(255,255,255,0.85); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 25px;">&#128024;</div>
+        <div style="position: absolute; top: 190px; left: 140px; width: 44px; height: 44px; background: rgba(255,255,255,0.85); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 23px;">&#127793;</div>
+        <div style="position: absolute; top: 200px; right: 60px; width: 46px; height: 46px; background: rgba(255,255,255,0.85); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); font-size: 24px;">&#128663;</div>
+
+        <!-- Bottom pills -->
+        <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); display: flex; gap: 20px; z-index: 50;">
+            <div style="background: linear-gradient(135deg, #FF6E40, #FF3D00); padding: 14px 28px; border-radius: 30px; box-shadow: 0 6px 20px rgba(255,110,64,0.4);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 22px; color: white;">Brain-Boosting Fun!</span>
+            </div>
+            <div style="background: white; padding: 14px 28px; border-radius: 30px; box-shadow: 0 6px 20px rgba(0,0,0,0.15); border: 3px solid #00897B;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 20px; color: #00897B;">Grades K-2</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

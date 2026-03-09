@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Lines - Hero Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; background: linear-gradient(145deg, #FFFBF0 0%, #FFE4E1 50%, #FFF0E8 100%); position: relative; overflow: hidden;">
+
+        <!-- Decorative dashed path background -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" viewBox="0 0 1000 1000">
+            <!-- Main flowing path -->
+            <path d="M -50 700 Q 200 650 350 500 T 600 400 T 850 300 T 1050 200"
+                  stroke="url(#pathGradient)" stroke-width="8" fill="none"
+                  stroke-dasharray="20 15" stroke-linecap="round" opacity="0.6"/>
+            <path d="M -50 800 Q 250 700 400 550 T 700 450 T 950 350"
+                  stroke="url(#pathGradient)" stroke-width="6" fill="none"
+                  stroke-dasharray="15 12" stroke-linecap="round" opacity="0.4"/>
+            <defs>
+                <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#FF6B6B"/>
+                    <stop offset="50%" style="stop-color:#FFE066"/>
+                    <stop offset="100%" style="stop-color:#8BC34A"/>
+                </linearGradient>
+            </defs>
+        </svg>
+
+        <!-- FREE Badge - Top Left -->
+        <div style="position: absolute; top: 30px; left: 30px; z-index: 20;">
+            <div style="background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%); color: white; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 32px; padding: 14px 28px; border-radius: 50px; box-shadow: 0 6px 20px rgba(255,107,107,0.5), inset 0 2px 0 rgba(255,255,255,0.3); transform: rotate(-5deg); border: 3px solid white;">
+                FREE!
+            </div>
+        </div>
+
+        <!-- Grade Badge - Top Right -->
+        <div style="position: absolute; top: 35px; right: 30px; z-index: 20;">
+            <div style="background: linear-gradient(135deg, #8BC34A 0%, #7CB342 100%); color: white; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 22px; padding: 12px 24px; border-radius: 30px; box-shadow: 0 4px 15px rgba(139,195,74,0.4), inset 0 2px 0 rgba(255,255,255,0.2); border: 2px solid white;">
+                GRADES PreK-K
+            </div>
+        </div>
+
+        <!-- Giant 3D Pencil -->
+        <div style="position: absolute; bottom: -80px; left: -100px; transform: rotate(-35deg); z-index: 5;">
+            <svg width="650" height="180" viewBox="0 0 650 180">
+                <!-- Pencil body -->
+                <rect x="100" y="50" width="500" height="80" fill="#FFE066" rx="5"/>
+                <rect x="100" y="50" width="500" height="25" fill="#FFEB99" rx="5"/>
+                <rect x="100" y="105" width="500" height="25" fill="#E6C84A" rx="5"/>
+
+                <!-- Metal ferrule -->
+                <rect x="60" y="45" width="50" height="90" fill="linear-gradient(180deg, #C0C0C0, #A0A0A0, #C0C0C0)" rx="3"/>
+                <rect x="60" y="45" width="50" height="90" fill="#B8B8B8"/>
+                <rect x="60" y="45" width="50" height="30" fill="#D4D4D4"/>
+                <rect x="65" y="50" width="5" height="80" fill="#9A9A9A"/>
+                <rect x="80" y="50" width="3" height="80" fill="#9A9A9A"/>
+                <rect x="95" y="50" width="3" height="80" fill="#9A9A9A"/>
+
+                <!-- Eraser -->
+                <rect x="10" y="55" width="55" height="70" fill="#FFB6C1" rx="8"/>
+                <rect x="10" y="55" width="55" height="25" fill="#FFC8D4" rx="8"/>
+
+                <!-- Pencil tip (wood + graphite) -->
+                <polygon points="600,50 650,90 600,130" fill="#DEB887"/>
+                <polygon points="600,65 640,90 600,115" fill="#8B7355"/>
+                <polygon points="630,80 650,90 630,100" fill="#333"/>
+            </svg>
+        </div>
+
+        <!-- Main Worksheet Stack -->
+        <div style="position: absolute; top: 220px; left: 50%; transform: translateX(-50%); z-index: 10;">
+            <!-- Back worksheet (fanned) -->
+            <div style="position: absolute; top: 20px; left: -50px; transform: rotate(-8deg); z-index: 1;">
+                <div style="width: 380px; height: 295px; background: white; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); overflow: hidden; border: 3px solid #eee;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/drawing%20lines/sample-5.jpeg"
+                         style="width: 100%; height: 100%; object-fit: cover;" alt="Sample worksheet"/>
+                </div>
+            </div>
+
+            <!-- Middle worksheet (fanned) -->
+            <div style="position: absolute; top: 10px; left: 30px; transform: rotate(6deg); z-index: 2;">
+                <div style="width: 380px; height: 295px; background: white; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); overflow: hidden; border: 3px solid #eee;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/drawing%20lines/sample-15.jpeg"
+                         style="width: 100%; height: 100%; object-fit: cover;" alt="Sample worksheet"/>
+                </div>
+            </div>
+
+            <!-- Front worksheet (main) -->
+            <div style="position: relative; z-index: 3;">
+                <div style="width: 450px; height: 350px; background: white; border-radius: 16px; box-shadow: 0 15px 50px rgba(0,0,0,0.25), 0 5px 15px rgba(0,0,0,0.1); overflow: hidden; border: 4px solid #FF6B6B;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/drawing%20lines/sample-1.jpeg"
+                         style="width: 100%; height: 100%; object-fit: cover;" alt="Main sample worksheet"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Title Section -->
+        <div style="position: absolute; bottom: 180px; left: 50%; transform: translateX(-50%); text-align: center; z-index: 15;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 72px; color: #FF6B6B; margin: 0; text-shadow: 3px 3px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white; letter-spacing: -1px;">
+                DRAWING LINES
+            </h1>
+            <p style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 32px; color: #26A69A; margin: 8px 0 0 0; text-shadow: 2px 2px 0 white;">
+                Pre-Writing Practice
+            </p>
+        </div>
+
+        <!-- Feature Pills -->
+        <div style="position: absolute; bottom: 45px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 15;">
+            <div style="background: white; color: #FF6B6B; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 18px; padding: 10px 18px; border-radius: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); border: 2px solid #FF6B6B;">
+                ✏️ Fine Motor Skills
+            </div>
+            <div style="background: white; color: #8BC34A; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 18px; padding: 10px 18px; border-radius: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); border: 2px solid #8BC34A;">
+                📄 No Prep
+            </div>
+            <div style="background: white; color: #FFB300; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 18px; padding: 10px 18px; border-radius: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); border: 2px solid #FFB300;">
+                🖨️ Print & Go
+            </div>
+            <div style="background: white; color: #AB47BC; font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 18px; padding: 10px 18px; border-radius: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); border: 2px solid #AB47BC;">
+                🦌 Cute Animals!
+            </div>
+        </div>
+
+        <!-- Tagline -->
+        <div style="position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); z-index: 15;">
+            <p style="font-family: 'Nunito', sans-serif; font-weight: 600; font-size: 16px; color: #888; margin: 0; font-style: italic;">
+                Little hands, big confidence
+            </p>
+        </div>
+
+        <!-- Corner decorations -->
+        <div style="position: absolute; top: 120px; right: 40px; width: 60px; height: 60px; background: #FFE066; border-radius: 50%; opacity: 0.5;"></div>
+        <div style="position: absolute; bottom: 250px; right: 60px; width: 30px; height: 30px; background: #8BC34A; border-radius: 50%; opacity: 0.4;"></div>
+        <div style="position: absolute; top: 200px; left: 40px; width: 40px; height: 40px; background: #FF6B6B; border-radius: 50%; opacity: 0.3;"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Shadow Match - Fun Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        background: radial-gradient(circle at 50% 50%, #FFD93D 0%, #FF9800 50%, #E65100 100%);
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Comic sunburst rays -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" viewBox="0 0 1000 1000">
+            <defs>
+                <clipPath id="fullClip">
+                    <rect x="0" y="0" width="1000" height="1000"/>
+                </clipPath>
+            </defs>
+            <g clip-path="url(#fullClip)" opacity="0.12">
+                <polygon points="500,500 300,-100 500,-100" fill="white"/>
+                <polygon points="500,500 600,-100 800,-100" fill="white"/>
+                <polygon points="500,500 1100,100 1100,300" fill="white"/>
+                <polygon points="500,500 1100,500 1100,700" fill="white"/>
+                <polygon points="500,500 900,1100 700,1100" fill="white"/>
+                <polygon points="500,500 400,1100 200,1100" fill="white"/>
+                <polygon points="500,500 -100,900 -100,700" fill="white"/>
+                <polygon points="500,500 -100,400 -100,200" fill="white"/>
+            </g>
+        </svg>
+
+        <!-- Halftone dot pattern overlay -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.06;" viewBox="0 0 1000 1000">
+            <defs>
+                <pattern id="halftone" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+                    <circle cx="8" cy="8" r="3" fill="#000000"/>
+                </pattern>
+            </defs>
+            <rect width="1000" height="1000" fill="url(#halftone)"/>
+        </svg>
+
+        <!-- Title -->
+        <div style="
+            position: absolute;
+            top: 45px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 15;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 78px;
+                color: #4A148C;
+                margin: 0;
+                text-shadow:
+                    3px 3px 0 #FFD93D,
+                    6px 6px 0 rgba(74, 20, 140, 0.25),
+                    0 0 20px rgba(255, 217, 61, 0.3);
+                letter-spacing: 2px;
+                line-height: 1;
+            ">SHADOW</h1>
+            <h2 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 58px;
+                color: #FF5722;
+                margin: -2px 0 0 0;
+                text-shadow:
+                    3px 3px 0 #FFD93D,
+                    5px 5px 0 rgba(255, 87, 34, 0.2);
+                letter-spacing: 4px;
+                line-height: 1;
+            ">DETECTIVE</h2>
+        </div>
+
+        <!-- FREE badge - Hot pink starburst top-left -->
+        <div style="
+            position: absolute;
+            top: 35px;
+            left: 30px;
+            transform: rotate(-12deg);
+            z-index: 25;
+        ">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+                <polygon points="50,2 58,35 95,22 68,48 95,78 58,65 50,98 42,65 5,78 32,48 5,22 42,35" fill="#FF1493" filter="drop-shadow(0 3px 6px rgba(0,0,0,0.2))"/>
+            </svg>
+            <div style="
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                color: white;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            ">FREE</div>
+        </div>
+
+        <!-- Grade badge - Top right -->
+        <div style="
+            position: absolute;
+            top: 50px;
+            right: 35px;
+            background: linear-gradient(135deg, #00897B, #26A69A);
+            padding: 8px 20px;
+            border-radius: 22px;
+            box-shadow: 0 4px 12px rgba(0, 137, 123, 0.4);
+            z-index: 20;
+        ">
+            <span style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                color: white;
+            ">Grades K-2</span>
+        </div>
+
+        <!-- Magnifying glass with worksheet inside -->
+        <div style="
+            position: absolute;
+            top: 230px;
+            left: 50%;
+            transform: translateX(-55%);
+            z-index: 15;
+        ">
+            <svg width="420" height="420" viewBox="0 0 420 420" style="filter: drop-shadow(0 8px 25px rgba(0,0,0,0.3));">
+                <defs>
+                    <clipPath id="lensClip">
+                        <circle cx="170" cy="170" r="140"/>
+                    </clipPath>
+                    <radialGradient id="lensShine" cx="35%" cy="35%" r="60%">
+                        <stop offset="0%" style="stop-color:rgba(255,255,255,0.3)"/>
+                        <stop offset="100%" style="stop-color:rgba(255,255,255,0)"/>
+                    </radialGradient>
+                </defs>
+                <!-- Lens background -->
+                <circle cx="170" cy="170" r="145" fill="rgba(200, 230, 255, 0.2)"/>
+                <!-- Rim -->
+                <circle cx="170" cy="170" r="145" fill="none" stroke="#5D4037" stroke-width="16"/>
+                <circle cx="170" cy="170" r="145" fill="none" stroke="#795548" stroke-width="10"/>
+                <!-- Handle -->
+                <rect x="290" y="280" width="20" height="100" rx="8" fill="#5D4037" transform="rotate(45, 300, 310)"/>
+                <rect x="293" y="283" width="14" height="90" rx="6" fill="#795548" transform="rotate(45, 300, 310)"/>
+                <!-- Shine -->
+                <circle cx="170" cy="170" r="140" fill="url(#lensShine)"/>
+            </svg>
+            <!-- Worksheet visible through the lens -->
+            <div style="
+                position: absolute;
+                top: 42px;
+                left: 42px;
+                width: 256px;
+                height: 256px;
+                border-radius: 50%;
+                overflow: hidden;
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-5.jpeg"
+                    alt="Shadow Match Worksheet"
+                    style="
+                        width: 340px;
+                        height: 263px;
+                        object-fit: cover;
+                        object-position: center;
+                        margin-left: -42px;
+                        margin-top: -3px;
+                        display: block;
+                    "
+                />
+            </div>
+        </div>
+
+        <!-- Secondary worksheet - bottom right with CLUE label -->
+        <div style="
+            position: absolute;
+            bottom: 140px;
+            right: 60px;
+            z-index: 14;
+        ">
+            <div style="
+                background: white;
+                padding: 6px;
+                border-radius: 8px;
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+            ">
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-6.jpeg"
+                    alt="Shadow Match Clue"
+                    style="
+                        width: 170px;
+                        height: 131px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 4px;
+                        display: block;
+                    "
+                />
+            </div>
+            <!-- CLUE label -->
+            <div style="
+                position: absolute;
+                top: -12px;
+                right: -10px;
+                background: #FF1493;
+                padding: 4px 14px;
+                border-radius: 10px;
+                transform: rotate(8deg);
+                box-shadow: 0 3px 8px rgba(255, 20, 147, 0.4);
+            ">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 16px; color: white;">CLUE!</span>
+            </div>
+        </div>
+
+        <!-- Cat silhouette with question mark - left -->
+        <div style="
+            position: absolute;
+            top: 380px;
+            left: 40px;
+            z-index: 12;
+        ">
+            <svg width="90" height="100" viewBox="0 0 60 70" fill="none">
+                <path d="M10,55 L10,25 L5,10 L15,18 L20,12 L22,22 L30,18 L38,22 L40,12 L45,18 L55,10 L50,25 L50,55 Z" fill="#1A1A1A"/>
+                <text x="30" y="6" font-family="Fredoka" font-weight="700" font-size="20" fill="#9C27B0" text-anchor="middle">?</text>
+            </svg>
+        </div>
+
+        <!-- Bird with speech bubble - right side -->
+        <div style="
+            position: absolute;
+            top: 260px;
+            right: 40px;
+            z-index: 12;
+        ">
+            <!-- Speech bubble -->
+            <div style="
+                background: white;
+                padding: 8px 14px;
+                border-radius: 14px;
+                box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+                margin-bottom: 6px;
+                position: relative;
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 13px; color: #4A148C;">Match My Shadow!</span>
+                <!-- bubble tail -->
+                <div style="
+                    position: absolute;
+                    bottom: -6px;
+                    left: 30px;
+                    width: 0;
+                    height: 0;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-top: 8px solid white;
+                "></div>
+            </div>
+            <!-- Colorful bird SVG -->
+            <svg width="55" height="55" viewBox="0 0 55 55" fill="none" style="margin-left: 15px;">
+                <ellipse cx="27" cy="30" rx="18" ry="16" fill="#42A5F5"/>
+                <ellipse cx="27" cy="30" rx="12" ry="11" fill="#FFD93D"/>
+                <polygon points="27,8 22,18 32,18" fill="#42A5F5"/>
+                <polygon points="8,28 0,22 8,34" fill="#EF5350"/>
+                <circle cx="22" cy="26" r="3" fill="#1A1A1A"/>
+                <circle cx="22" cy="25" r="1" fill="white"/>
+                <polygon points="30,28 38,26 30,32" fill="#FF9800"/>
+            </svg>
+        </div>
+
+        <!-- Scattered question marks -->
+        <div style="position: absolute; top: 200px; left: 170px; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 32px; color: #4A148C; opacity: 0.25; transform: rotate(-15deg); z-index: 5;">?</div>
+        <div style="position: absolute; top: 700px; left: 300px; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 28px; color: #4A148C; opacity: 0.2; transform: rotate(10deg); z-index: 5;">?</div>
+        <div style="position: absolute; top: 500px; right: 100px; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 24px; color: white; opacity: 0.2; transform: rotate(-8deg); z-index: 5;">?</div>
+        <div style="position: absolute; bottom: 200px; left: 150px; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 36px; color: #4A148C; opacity: 0.15; transform: rotate(20deg); z-index: 5;">?</div>
+
+        <!-- Motion lines -->
+        <svg style="position: absolute; top: 380px; left: 135px; z-index: 4; opacity: 0.3;" width="40" height="60" viewBox="0 0 40 60">
+            <line x1="5" y1="0" x2="5" y2="55" stroke="#4A148C" stroke-width="3" stroke-linecap="round"/>
+            <line x1="20" y1="10" x2="20" y2="50" stroke="#4A148C" stroke-width="3" stroke-linecap="round"/>
+            <line x1="35" y1="5" x2="35" y2="45" stroke="#4A148C" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+
+        <!-- Comic burst shapes -->
+        <svg style="position: absolute; bottom: 80px; left: 350px; z-index: 4; opacity: 0.2;" width="60" height="60" viewBox="0 0 60 60">
+            <polygon points="30,0 35,22 58,15 40,30 55,50 35,38 30,60 25,38 5,50 20,30 2,15 25,22" fill="#4A148C"/>
+        </svg>
+
+        <!-- Feature pills at bottom -->
+        <div style="
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            z-index: 20;
+        ">
+            <div style="
+                background: white;
+                border: 2px solid #4A148C;
+                padding: 7px 16px;
+                border-radius: 18px;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #4A148C;">Visual Perception</span>
+            </div>
+            <div style="
+                background: white;
+                border: 2px solid #FF5722;
+                padding: 7px 16px;
+                border-radius: 18px;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #FF5722;">Answer Keys</span>
+            </div>
+            <div style="
+                background: white;
+                border: 2px solid #00897B;
+                padding: 7px 16px;
+                border-radius: 18px;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #00897B;">Print & Go</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

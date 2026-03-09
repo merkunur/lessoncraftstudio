@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Draw and Color - Progression Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(160deg, #E3F2FD 0%, #BBDEFB 50%, #E1F5FE 100%); overflow: hidden;">
+
+        <!-- Subtle grid pattern overlay -->
+        <div style="position: absolute; inset: 0; background-image: linear-gradient(rgba(26,35,126,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(26,35,126,0.03) 1px, transparent 1px); background-size: 40px 40px;"></div>
+
+        <!-- FREE Badge - Ribbon Style -->
+        <div style="position: absolute; top: 20px; left: -10px; z-index: 100;">
+            <div style="position: relative;">
+                <div style="background: linear-gradient(145deg, #4CAF50 0%, #388E3C 100%); padding: 14px 35px 14px 45px; font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 24px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); box-shadow: 0 4px 15px rgba(76,175,80,0.4);">
+                    FREE
+                </div>
+                <!-- Ribbon fold -->
+                <div style="position: absolute; bottom: -10px; left: 0; width: 0; height: 0; border-left: 10px solid transparent; border-top: 10px solid #2E7D32;"></div>
+            </div>
+        </div>
+
+        <!-- Grade Badge -->
+        <div style="position: absolute; top: 28px; right: 30px; background: linear-gradient(145deg, #1A237E 0%, #283593 100%); padding: 12px 24px; border-radius: 25px; box-shadow: 0 4px 18px rgba(26,35,126,0.4);">
+            <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 17px; color: white;">GRADES PreK-2</span>
+        </div>
+
+        <!-- Main Title -->
+        <div style="position: absolute; top: 85px; left: 0; right: 0; text-align: center;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 58px; color: #1A237E; margin: 0; text-shadow: 2px 2px 0 rgba(255,255,255,0.8);">Build Drawing Skills!</h1>
+            <div style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 22px; color: #5C6BC0; margin-top: 8px; letter-spacing: 1px;">Step by Step Success</div>
+            <!-- Grid underline decoration -->
+            <div style="width: 200px; height: 8px; background: repeating-linear-gradient(90deg, #1A237E 0px, #1A237E 15px, transparent 15px, transparent 25px); margin: 12px auto 0; border-radius: 4px;"></div>
+        </div>
+
+        <!-- Connecting Path SVG -->
+        <svg style="position: absolute; top: 200px; left: 0; width: 100%; height: 600px; z-index: 1;" viewBox="0 0 1000 600">
+            <defs>
+                <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#4CAF50"/>
+                    <stop offset="50%" style="stop-color:#FF9800"/>
+                    <stop offset="100%" style="stop-color:#E91E63"/>
+                </linearGradient>
+            </defs>
+            <path d="M180 420 Q300 400 380 320 Q460 240 540 240 Q620 240 700 160 Q780 80 850 80" fill="none" stroke="url(#pathGrad)" stroke-width="8" stroke-dasharray="20,12" stroke-linecap="round" opacity="0.6"/>
+        </svg>
+
+        <!-- Step 1: Observe -->
+        <div style="position: absolute; top: 480px; left: 50px; z-index: 10;">
+            <div style="background: linear-gradient(145deg, #C8E6C9 0%, #A5D6A7 100%); border-radius: 20px; padding: 18px; border: 4px solid #4CAF50; box-shadow: 0 12px 40px rgba(76,175,80,0.35); width: 260px; position: relative;">
+                <!-- Step number badge -->
+                <div style="position: absolute; top: -20px; left: 20px; background: linear-gradient(145deg, #4CAF50 0%, #388E3C 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(76,175,80,0.5); border: 4px solid white;">
+                    <span style="font-family: 'Fredoka', sans-serif; font-size: 26px; font-weight: 700; color: white;">1</span>
+                </div>
+
+                <div style="margin-top: 25px;">
+                    <div style="font-family: 'Fredoka', sans-serif; font-size: 28px; font-weight: 700; color: #2E7D32;">Observe</div>
+                    <div style="font-family: 'Nunito', sans-serif; font-size: 14px; font-weight: 600; color: #43A047; margin-top: 4px;">See the grid overlay</div>
+                </div>
+
+                <!-- Mini worksheet preview -->
+                <div style="margin-top: 12px;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/draw%20and%20color/sample-1.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.2); border: 4px solid white;">
+                </div>
+            </div>
+
+            <!-- Arrow pointing right -->
+            <div style="position: absolute; top: 50%; right: -50px; transform: translateY(-50%); font-size: 40px; color: #4CAF50;">➤</div>
+        </div>
+
+        <!-- Step 2: Copy -->
+        <div style="position: absolute; top: 280px; left: 50%; transform: translateX(-50%); z-index: 10;">
+            <div style="background: linear-gradient(145deg, #FFE0B2 0%, #FFCC80 100%); border-radius: 20px; padding: 18px; border: 4px solid #FF9800; box-shadow: 0 12px 40px rgba(255,152,0,0.35); width: 260px; position: relative;">
+                <!-- Step number badge -->
+                <div style="position: absolute; top: -20px; left: 20px; background: linear-gradient(145deg, #FF9800 0%, #F57C00 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(255,152,0,0.5); border: 4px solid white;">
+                    <span style="font-family: 'Fredoka', sans-serif; font-size: 26px; font-weight: 700; color: white;">2</span>
+                </div>
+
+                <div style="margin-top: 25px;">
+                    <div style="font-family: 'Fredoka', sans-serif; font-size: 28px; font-weight: 700; color: #E65100;">Copy</div>
+                    <div style="font-family: 'Nunito', sans-serif; font-size: 14px; font-weight: 600; color: #FF8F00; margin-top: 4px;">Draw grid by grid</div>
+                </div>
+
+                <!-- Mini worksheet preview -->
+                <div style="margin-top: 12px;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/draw%20and%20color/sample-6.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.2); border: 4px solid white;">
+                </div>
+            </div>
+
+            <!-- Arrow pointing right -->
+            <div style="position: absolute; top: 50%; right: -50px; transform: translateY(-50%); font-size: 40px; color: #FF9800;">➤</div>
+        </div>
+
+        <!-- Step 3: Create! -->
+        <div style="position: absolute; top: 100px; right: 50px; z-index: 10;">
+            <div style="background: linear-gradient(145deg, #FCE4EC 0%, #F8BBD9 100%); border-radius: 20px; padding: 18px; border: 4px solid #E91E63; box-shadow: 0 12px 40px rgba(233,30,99,0.35); width: 260px; position: relative;">
+                <!-- Step number badge -->
+                <div style="position: absolute; top: -20px; left: 20px; background: linear-gradient(145deg, #E91E63 0%, #C2185B 100%); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(233,30,99,0.5); border: 4px solid white;">
+                    <span style="font-family: 'Fredoka', sans-serif; font-size: 26px; font-weight: 700; color: white;">3</span>
+                </div>
+
+                <!-- Celebration burst -->
+                <div style="position: absolute; top: -30px; right: 15px; font-size: 28px;">🎉</div>
+
+                <div style="margin-top: 25px;">
+                    <div style="font-family: 'Fredoka', sans-serif; font-size: 28px; font-weight: 700; color: #AD1457;">Create!</div>
+                    <div style="font-family: 'Nunito', sans-serif; font-size: 14px; font-weight: 600; color: #D81B60; margin-top: 4px;">Complete the picture</div>
+                </div>
+
+                <!-- Mini worksheet preview -->
+                <div style="margin-top: 12px;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/draw%20and%20color/sample-10.jpeg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.2); border: 4px solid white;">
+                </div>
+
+                <!-- Success badge -->
+                <div style="position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); background: linear-gradient(145deg, #1A237E 0%, #283593 100%); color: white; padding: 8px 20px; border-radius: 20px; font-family: 'Fredoka', sans-serif; font-size: 14px; font-weight: 700; box-shadow: 0 4px 15px rgba(26,35,126,0.4); white-space: nowrap;">🏆 You Did It!</div>
+            </div>
+        </div>
+
+        <!-- Hook Text -->
+        <div style="position: absolute; bottom: 130px; left: 50%; transform: translateX(-50%); text-align: center; z-index: 20;">
+            <div style="background: linear-gradient(145deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.9) 100%); padding: 16px 35px; border-radius: 30px; box-shadow: 0 8px 30px rgba(26,35,126,0.2);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #1A237E;">From "</span>
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #E91E63;">I can't draw</span>
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #1A237E;">" to "</span>
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #4CAF50;">Look what I made!</span>
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #1A237E;">"</span>
+            </div>
+        </div>
+
+        <!-- Skills Pills at Bottom -->
+        <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%); display: flex; gap: 16px;">
+            <div style="background: #4CAF50; padding: 12px 22px; border-radius: 25px; box-shadow: 0 4px 15px rgba(76,175,80,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: white;">Observation</span>
+            </div>
+            <div style="background: #FF9800; padding: 12px 22px; border-radius: 25px; box-shadow: 0 4px 15px rgba(255,152,0,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: white;">Proportion</span>
+            </div>
+            <div style="background: #E91E63; padding: 12px 22px; border-radius: 25px; box-shadow: 0 4px 15px rgba(233,30,99,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: white;">Fine Motor</span>
+            </div>
+            <div style="background: #1A237E; padding: 12px 22px; border-radius: 25px; box-shadow: 0 4px 15px rgba(26,35,126,0.35);">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: white;">Creativity</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

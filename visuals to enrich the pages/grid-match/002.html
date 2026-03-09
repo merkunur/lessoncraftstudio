@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Grid Match - Features Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Fredoka', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; overflow: hidden; background: linear-gradient(180deg, #FFF8E7 0%, #F5E6C8 100%);">
+
+        <!-- Subtle paper texture overlay -->
+        <div style="position: absolute; inset: 0; opacity: 0.03; background-image: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\"><rect fill=\"%231A365D\" x=\"0\" y=\"0\" width=\"1\" height=\"1\"/></svg>'); background-size: 4px 4px;"></div>
+
+        <!-- Grid pattern subtle background -->
+        <div style="position: absolute; inset: 0; opacity: 0.04; background-image:
+            linear-gradient(to right, #6A1B9A 2px, transparent 2px),
+            linear-gradient(to bottom, #6A1B9A 2px, transparent 2px);
+            background-size: 60px 60px;"></div>
+
+        <!-- FREE Badge - newspaper hanging tab style -->
+        <div style="position: absolute; top: 0; left: 30px;">
+            <div style="background: linear-gradient(145deg, #FF8C42 0%, #E65100 100%); padding: 12px 28px 16px 28px; border-radius: 0 0 12px 12px; box-shadow: 0 4px 15px rgba(255,140,66,0.4);">
+                <span style="font-family: 'Fredoka', sans-serif; font-size: 28px; font-weight: 700; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">FREE!</span>
+            </div>
+        </div>
+
+        <!-- Grade Badge - top right -->
+        <div style="position: absolute; top: 25px; right: 30px;">
+            <div style="background: #6A1B9A; padding: 10px 22px; border-radius: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.15);">
+                <span style="font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 800; color: white; letter-spacing: 1px;">GRADES PreK-2</span>
+            </div>
+        </div>
+
+        <!-- Main Title -->
+        <div style="position: absolute; top: 70px; left: 50%; transform: translateX(-50%); text-align: center;">
+            <h1 style="margin: 0; font-family: 'Fredoka', sans-serif; font-size: 68px; font-weight: 700; color: #6A1B9A; text-shadow: 0 3px 6px rgba(0,0,0,0.1);">What's Inside?</h1>
+            <div style="width: 200px; height: 5px; background: linear-gradient(90deg, transparent, #FF8C42, transparent); margin: 10px auto 0;"></div>
+        </div>
+
+        <!-- Feature Circles - arc arrangement -->
+        <div style="position: absolute; top: 180px; left: 50%; transform: translateX(-50%); width: 900px; height: 320px;">
+
+            <!-- Circle 1 - 3x3 Grid Puzzles (left) -->
+            <div style="position: absolute; left: 30px; top: 60px; text-align: center;">
+                <div style="width: 140px; height: 140px; background: linear-gradient(145deg, #00BCD4 0%, #0097A7 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(0,188,212,0.4), inset 0 -3px 10px rgba(0,0,0,0.2); border: 5px solid #FFB74D;">
+                    <span style="font-size: 60px;">🧩</span>
+                </div>
+                <p style="margin: 15px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 20px; font-weight: 600; color: #6A1B9A;">3x3 Grid<br>Puzzles</p>
+            </div>
+
+            <!-- Circle 2 - Answer Keys -->
+            <div style="position: absolute; left: 185px; top: 10px; text-align: center;">
+                <div style="width: 140px; height: 140px; background: linear-gradient(145deg, #26A69A 0%, #00897B 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(38,166,154,0.4), inset 0 -3px 10px rgba(0,0,0,0.2); border: 5px solid #FFB74D;">
+                    <span style="font-size: 60px;">🔑</span>
+                </div>
+                <p style="margin: 15px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 20px; font-weight: 600; color: #6A1B9A;">Answer<br>Keys</p>
+            </div>
+
+            <!-- Circle 3 - Cute Animals (center top - largest) -->
+            <div style="position: absolute; left: 375px; top: -20px; text-align: center;">
+                <div style="width: 160px; height: 160px; background: linear-gradient(145deg, #FF8C42 0%, #E65100 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(255,140,66,0.5), inset 0 -3px 10px rgba(0,0,0,0.2); border: 6px solid #FFB74D;">
+                    <span style="font-size: 70px;">🐾</span>
+                </div>
+                <p style="margin: 18px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 22px; font-weight: 600; color: #6A1B9A;">Cute<br>Animals</p>
+            </div>
+
+            <!-- Circle 4 - Self-Checking -->
+            <div style="position: absolute; right: 185px; top: 10px; text-align: center;">
+                <div style="width: 140px; height: 140px; background: linear-gradient(145deg, #6A1B9A 0%, #4A148C 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(106,27,154,0.4), inset 0 -3px 10px rgba(0,0,0,0.2); border: 5px solid #FFB74D;">
+                    <span style="font-size: 60px;">✅</span>
+                </div>
+                <p style="margin: 15px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 20px; font-weight: 600; color: #6A1B9A;">Self-<br>Checking</p>
+            </div>
+
+            <!-- Circle 5 - No Prep (right) -->
+            <div style="position: absolute; right: 30px; top: 60px; text-align: center;">
+                <div style="width: 140px; height: 140px; background: linear-gradient(145deg, #EC407A 0%, #D81B60 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(236,64,122,0.4), inset 0 -3px 10px rgba(0,0,0,0.2); border: 5px solid #FFB74D;">
+                    <span style="font-size: 60px;">🖨️</span>
+                </div>
+                <p style="margin: 15px 0 0 0; font-family: 'Fredoka', sans-serif; font-size: 20px; font-weight: 600; color: #6A1B9A;">No<br>Prep</p>
+            </div>
+        </div>
+
+        <!-- Sample Display Section -->
+        <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); display: flex; gap: 60px; align-items: flex-end;">
+
+            <!-- Worksheet Preview -->
+            <div style="text-align: center;">
+                <div style="width: 280px; height: 360px; background: white; border-radius: 12px; box-shadow: 0 10px 35px rgba(0,0,0,0.2), 0 0 0 4px #6A1B9A; overflow: hidden;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/grid%20match/sample-2.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Worksheet">
+                </div>
+                <div style="margin-top: 15px; background: #6A1B9A; padding: 8px 25px; border-radius: 20px; display: inline-block;">
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 700; color: white;">WORKSHEET</span>
+                </div>
+            </div>
+
+            <!-- Answer Key Preview -->
+            <div style="text-align: center;">
+                <div style="width: 280px; height: 360px; background: white; border-radius: 12px; box-shadow: 0 10px 35px rgba(0,0,0,0.2), 0 0 0 4px #26A69A; overflow: hidden;">
+                    <img src="https://www.lessoncraftstudio.com/samples/english/grid%20match/sample-2-answer.jpeg" style="width: 100%; height: 100%; object-fit: cover;" alt="Answer Key">
+                </div>
+                <div style="margin-top: 15px; background: #26A69A; padding: 8px 25px; border-radius: 20px; display: inline-block;">
+                    <span style="font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 700; color: white;">ANSWER KEY</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative puzzle pieces in corners -->
+        <div style="position: absolute; bottom: 420px; left: 25px; width: 50px; height: 50px; background: linear-gradient(145deg, #00BCD4 0%, #0097A7 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 3px 3px 0 rgba(0,0,0,0.15); transform: rotate(-12deg);">
+            <span style="font-size: 24px; font-weight: 700; color: white;">1</span>
+        </div>
+        <div style="position: absolute; bottom: 440px; right: 25px; width: 50px; height: 50px; background: linear-gradient(145deg, #FF8C42 0%, #E65100 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 3px 3px 0 rgba(0,0,0,0.15); transform: rotate(10deg);">
+            <span style="font-size: 24px; font-weight: 700; color: white;">9</span>
+        </div>
+
+    </div>
+</body>
+</html>

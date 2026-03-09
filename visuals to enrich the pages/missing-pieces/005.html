@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000, height=1000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(160deg, #0F766E 0%, #14B8A6 40%, #2DD4BF 100%);
+    position: relative;
+  }
+
+  /* Subtle dot pattern */
+  .dot-pattern {
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.06) 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
+    z-index: 1;
+  }
+
+  /* GRATIS badge */
+  .gratis {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #F43F5E 0%, #E11D48 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 27px;
+    color: white;
+    z-index: 20;
+    box-shadow: 0 6px 25px rgba(244,63,94,0.5);
+    transform: rotate(-8deg);
+    border: 3px solid rgba(255,255,255,0.3);
+  }
+
+  /* Grade badge */
+  .grade {
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: 2px solid rgba(255,255,255,0.3);
+    z-index: 20;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  }
+  .grade span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 0.5px;
+  }
+
+  /* Title area */
+  .title-area {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .title-main {
+    font-size: 62px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  .title-accent {
+    color: #FDE68A;
+  }
+  .subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.9);
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Card panels */
+  .card-panel {
+    position: absolute;
+    top: 230px;
+    width: 340px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.2);
+    padding: 18px;
+    z-index: 10;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  }
+  .card-left {
+    left: 45px;
+  }
+  .card-right {
+    right: 45px;
+  }
+
+  /* Card labels */
+  .card-label {
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  .label-task {
+    background: linear-gradient(135deg, #FB7185, #F43F5E);
+    color: white;
+  }
+  .label-solution {
+    background: linear-gradient(135deg, #34D399, #10B981);
+    color: white;
+  }
+
+  /* Worksheet frame inside cards */
+  .ws-frame {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 7px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  .ws-frame img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 6px;
+  }
+
+  /* Center arrow */
+  .arrow-container {
+    position: absolute;
+    top: 410px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+  }
+  .arrow-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FDE68A, #F59E0B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(245,158,11,0.5);
+    border: 3px solid rgba(255,255,255,0.5);
+  }
+  .arrow-icon {
+    font-size: 36px;
+    color: #92400E;
+    line-height: 1;
+  }
+
+  /* Feature pills */
+  .pills {
+    position: absolute;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 15;
+  }
+  .pill {
+    background: rgba(255,255,255,0.18);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 22px;
+    padding: 8px 16px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+  }
+
+  /* Bottom tagline */
+  .tagline {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 15;
+  }
+  .tagline span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.65);
+    font-style: italic;
+  }
+
+  /* Step indicators */
+  .steps-bar {
+    position: absolute;
+    bottom: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 15;
+  }
+  .step-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+  }
+  .step-line {
+    width: 60px;
+    height: 2px;
+    background: rgba(255,255,255,0.3);
+  }
+  .step-label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.8);
+  }
+
+  /* Decorative sparkles */
+  .sparkle {
+    position: absolute;
+    z-index: 4;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  .s1 { top: 220px; left: 20px; }
+  .s2 { top: 200px; right: 20px; }
+  .s3 { bottom: 250px; left: 150px; font-size: 16px; }
+  .s4 { bottom: 280px; right: 150px; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<!-- Dot pattern -->
+<div class="dot-pattern"></div>
+
+<!-- GRATIS badge -->
+<div class="gratis">GRATIS</div>
+
+<!-- Grade badge -->
+<div class="grade"><span>VORSCHULE&ndash;2. KL.</span></div>
+
+<!-- Title -->
+<div class="title-area">
+  <div class="title-main">SO <span class="title-accent">FUNKTIONIERT'S</span></div>
+  <div class="subtitle">Puzzleteile richtig zuordnen</div>
+</div>
+
+<!-- Left card: AUFGABE (Task) -->
+<div class="card-panel card-left">
+  <div class="card-label label-task">AUFGABE</div>
+  <div class="ws-frame">
+    <img src="https://www.lessoncraftstudio.com/samples/german/missing%20pieces/sample-2.jpeg" alt="Giraffe Aufgabe">
+  </div>
+</div>
+
+<!-- Center arrow -->
+<div class="arrow-container">
+  <div class="arrow-circle">
+    <span class="arrow-icon">&#x27A1;</span>
+  </div>
+</div>
+
+<!-- Right card: L&Ouml;SUNG (Solution) -->
+<div class="card-panel card-right">
+  <div class="card-label label-solution">L&Ouml;SUNG</div>
+  <div class="ws-frame">
+    <img src="https://www.lessoncraftstudio.com/samples/german/missing%20pieces/sample-2-answer.jpeg" alt="Giraffe L&ouml;sung">
+  </div>
+</div>
+
+<!-- Sparkles -->
+<div class="sparkle s1">&#x2728;</div>
+<div class="sparkle s2">&#x2728;</div>
+<div class="sparkle s3">&#x2728;</div>
+<div class="sparkle s4">&#x2728;</div>
+
+<!-- Steps bar -->
+<div class="steps-bar">
+  <span class="step-label">Aufgabe</span>
+  <div class="step-dot" style="background:#FB7185;"></div>
+  <div class="step-line"></div>
+  <div class="step-dot" style="background:#FDE68A;"></div>
+  <div class="step-line"></div>
+  <div class="step-dot" style="background:#34D399;"></div>
+  <span class="step-label">L&ouml;sung</span>
+</div>
+
+<!-- Feature pills -->
+<div class="pills">
+  <div class="pill">L&ouml;sungsbl&auml;tter inklusive</div>
+  <div class="pill">Selbstkontrolle</div>
+  <div class="pill">Ohne Vorbereitung</div>
+</div>
+
+<!-- Tagline -->
+<div class="tagline">
+  <span>Aufgabe verstehen &mdash; L&ouml;sung finden &mdash; Ergebnis pr&uuml;fen</span>
+</div>
+
+</body>
+</html>

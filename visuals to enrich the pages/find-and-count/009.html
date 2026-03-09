@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000, height=1000">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    background: #FFFFFF;
+    position: relative;
+  }
+
+  @keyframes bounce1 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  @keyframes bounce2 {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes sparkle {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.3); }
+  }
+
+  /* GRATIS badge */
+  .gratis {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #FF6B6B, #E53935);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    z-index: 20;
+    box-shadow: 0 6px 25px rgba(229, 57, 53, 0.4);
+    transform: rotate(-6deg);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+  }
+
+  /* Corner paint splashes (SVG) */
+  .splash {
+    position: absolute;
+    z-index: 1;
+  }
+  .splash-tl { top: -20px; left: -20px; }
+  .splash-tr { top: -20px; right: -20px; }
+  .splash-bl { bottom: -20px; left: -20px; }
+  .splash-br { bottom: -20px; right: -20px; }
+
+  /* Title: rainbow gradient */
+  .title-area {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .title {
+    font-size: 62px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF6B6B, #FF9800, #FFEB3B, #66BB6A, #42A5F5, #AB47BC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  }
+  .subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #555;
+    margin-top: 4px;
+  }
+  .subtitle .plus {
+    color: #66BB6A;
+    font-size: 34px;
+  }
+  .subtitle .equals {
+    color: #FF6B6B;
+    font-size: 34px;
+  }
+  .subtitle .spass {
+    color: #FF6B6B;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 2px;
+  }
+
+  /* Speech bubble */
+  .speech-bubble {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .speech-bubble-inner {
+    background: white;
+    border: 4px solid #FF6B6B;
+    border-radius: 30px;
+    padding: 10px 36px;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(255, 107, 107, 0.2);
+  }
+  .speech-bubble-inner span {
+    font-size: 52px;
+    font-weight: 700;
+    color: #FF6B6B;
+  }
+  /* Bubble tail */
+  .speech-bubble-inner::after {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 18px solid #FF6B6B;
+  }
+  .speech-bubble-inner::before {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 14px solid white;
+    z-index: 2;
+  }
+
+  /* Center worksheet */
+  .worksheet-frame {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 340px;
+    height: 440px;
+    z-index: 5;
+  }
+  .worksheet-card {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    overflow: hidden;
+    position: relative;
+  }
+  .worksheet-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 8px;
+  }
+  /* Tape strips on corners */
+  .tape {
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    background: rgba(255, 235, 59, 0.6);
+    z-index: 6;
+    border-radius: 2px;
+  }
+  .tape-tl { top: -6px; left: 12px; transform: rotate(-15deg); }
+  .tape-tr { top: -6px; right: 12px; transform: rotate(15deg); }
+  .tape-bl { bottom: -6px; left: 12px; transform: rotate(15deg); }
+  .tape-br { bottom: -6px; right: 12px; transform: rotate(-15deg); }
+
+  /* CSS character faces */
+  .character {
+    position: absolute;
+    z-index: 8;
+  }
+  .face {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  }
+  .eye {
+    position: absolute;
+    width: 14px;
+    height: 18px;
+    background: #333;
+    border-radius: 50%;
+    top: 28px;
+  }
+  .eye-left { left: 20px; }
+  .eye-right { right: 20px; }
+  .eye::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    top: 3px;
+    right: 2px;
+  }
+  .mouth-smile {
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    border-bottom: 4px solid #333;
+    border-radius: 0 0 50% 50%;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cheek {
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255, 150, 150, 0.5);
+    bottom: 26px;
+  }
+  .cheek-l { left: 8px; }
+  .cheek-r { right: 8px; }
+
+  /* Left character - coral */
+  .char-left {
+    left: 50px;
+    top: 380px;
+    animation: bounce1 3s ease-in-out infinite;
+  }
+  .char-left .face { background: linear-gradient(145deg, #FFB74D, #FFA726); }
+
+  /* Right character - sky blue */
+  .char-right {
+    right: 50px;
+    top: 400px;
+    animation: bounce2 3.5s ease-in-out infinite 0.5s;
+  }
+  .char-right .face { background: linear-gradient(145deg, #81D4FA, #4FC3F7); }
+
+  /* Gold stars */
+  .star {
+    position: absolute;
+    color: #FFD600;
+    font-size: 28px;
+    z-index: 7;
+    animation: sparkle 2s ease-in-out infinite;
+  }
+  .star1 { top: 300px; left: 160px; animation-delay: 0s; }
+  .star2 { top: 440px; right: 160px; animation-delay: 0.7s; }
+  .star3 { top: 350px; left: 80px; font-size: 20px; animation-delay: 1.2s; }
+  .star4 { top: 500px; right: 85px; font-size: 22px; animation-delay: 0.4s; }
+  .star5 { top: 260px; right: 200px; font-size: 18px; animation-delay: 1.5s; }
+
+  /* Celebration pill */
+  .celebration {
+    position: absolute;
+    bottom: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #FF6B6B, #E53935);
+    padding: 10px 30px;
+    border-radius: 30px;
+    z-index: 10;
+    box-shadow: 0 4px 16px rgba(229, 57, 53, 0.35);
+  }
+  .celebration span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+    white-space: nowrap;
+  }
+
+  /* Pills */
+  .pills {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+    z-index: 10;
+    white-space: nowrap;
+  }
+  .pill {
+    background: #F5F5F5;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    padding: 7px 18px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+  }
+
+  /* Tagline */
+  .tagline {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .tagline span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #999;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- Corner paint splashes -->
+<svg class="splash splash-tl" width="200" height="200" viewBox="0 0 200 200">
+  <ellipse cx="60" cy="60" rx="100" ry="80" fill="#FF6B6B" opacity="0.12"/>
+</svg>
+<svg class="splash splash-tr" width="200" height="200" viewBox="0 0 200 200">
+  <ellipse cx="140" cy="60" rx="90" ry="85" fill="#66BB6A" opacity="0.1"/>
+</svg>
+<svg class="splash splash-bl" width="200" height="200" viewBox="0 0 200 200">
+  <ellipse cx="60" cy="140" rx="95" ry="80" fill="#64B5F6" opacity="0.1"/>
+</svg>
+<svg class="splash splash-br" width="200" height="200" viewBox="0 0 200 200">
+  <ellipse cx="140" cy="140" rx="100" ry="75" fill="#FFD54F" opacity="0.12"/>
+</svg>
+
+<!-- GRATIS badge -->
+<div class="gratis">GRATIS</div>
+
+<!-- Title -->
+<div class="title-area">
+  <div class="title">KLEINE ENTDECKER</div>
+  <div class="subtitle">Suchen <span class="plus">+</span> Zählen <span class="equals">=</span> <span class="spass">SPASS!</span></div>
+</div>
+
+<!-- Speech bubble -->
+<div class="speech-bubble">
+  <div class="speech-bubble-inner">
+    <span>Gefunden!</span>
+  </div>
+</div>
+
+<!-- Gold stars -->
+<div class="star star1">⭐</div>
+<div class="star star2">✨</div>
+<div class="star star3">⭐</div>
+<div class="star star4">✨</div>
+<div class="star star5">⭐</div>
+
+<!-- Center worksheet -->
+<div class="worksheet-frame">
+  <div class="tape tape-tl"></div>
+  <div class="tape tape-tr"></div>
+  <div class="tape tape-bl"></div>
+  <div class="tape tape-br"></div>
+  <div class="worksheet-card">
+    <img src="https://www.lessoncraftstudio.com/samples/german/find%20and%20count/sample-2.jpeg" alt="Suchbild Arbeitsblatt">
+  </div>
+</div>
+
+<!-- CSS character left (orange) -->
+<div class="character char-left">
+  <div class="face">
+    <div class="eye eye-left"></div>
+    <div class="eye eye-right"></div>
+    <div class="mouth-smile"></div>
+    <div class="cheek cheek-l"></div>
+    <div class="cheek cheek-r"></div>
+  </div>
+</div>
+
+<!-- CSS character right (blue) -->
+<div class="character char-right">
+  <div class="face">
+    <div class="eye eye-left"></div>
+    <div class="eye eye-right"></div>
+    <div class="mouth-smile"></div>
+    <div class="cheek cheek-l"></div>
+    <div class="cheek cheek-r"></div>
+  </div>
+</div>
+
+<!-- Celebration pill -->
+<div class="celebration">
+  <span>Spaß in jeder Stunde!</span>
+</div>
+
+<!-- Pills -->
+<div class="pills">
+  <div class="pill">Für Freiarbeit</div>
+  <div class="pill">Morgenarbeit</div>
+  <div class="pill">Frühfertige</div>
+</div>
+
+<!-- Tagline -->
+<div class="tagline">
+  <span>So viel Spaß, dass sie vergessen, dass sie lernen</span>
+</div>
+
+</body>
+</html>

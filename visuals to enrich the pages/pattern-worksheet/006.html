@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Muster-Arbeitsbl&auml;tter - Hero Thumbnail</title>
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="width: 1000px; height: 1000px; position: relative; background: linear-gradient(160deg, #004D40 0%, #00695C 40%, #00897B 100%); overflow: hidden;">
+
+        <!-- Kaleidoscope radial burst behind worksheets -->
+        <div style="position: absolute; top: 50%; left: 50%; width: 900px; height: 900px; transform: translate(-50%, -50%); background: radial-gradient(circle, rgba(0,230,180,0.15) 0%, rgba(0,150,136,0.06) 40%, transparent 65%); border-radius: 50%;"></div>
+
+        <!-- Kaleidoscope geometric rays (8 wedges) -->
+        <div style="position: absolute; top: 50%; left: 50%; width: 0; height: 0; transform: translate(-50%, -50%); z-index: 1;">
+            <div style="position: absolute; width: 500px; height: 500px; top: -250px; left: -250px;">
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,200,160,0.05) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(0deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,150,136,0.04) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(45deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,230,180,0.06) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(90deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,150,136,0.04) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(135deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,200,160,0.05) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(180deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,150,136,0.04) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(225deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,230,180,0.06) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(270deg);"></div>
+                <div style="position: absolute; top: 0; left: 50%; width: 50%; height: 50%; background: linear-gradient(135deg, rgba(0,150,136,0.04) 0%, transparent 100%); transform-origin: bottom left; transform: rotate(315deg);"></div>
+            </div>
+        </div>
+
+        <!-- Subtle geometric hex pattern overlay -->
+        <div style="position: absolute; inset: 0; opacity: 0.035; background-image: linear-gradient(60deg, #fff 1px, transparent 1px), linear-gradient(-60deg, #fff 1px, transparent 1px); background-size: 50px 86px;"></div>
+
+        <!-- Top decorative border - alternating geometric pattern blocks -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 16px; background: linear-gradient(90deg, #00897B 0%, #00897B 12.5%, #FF6F61 12.5%, #FF6F61 25%, #FFB300 25%, #FFB300 37.5%, #FFFFFF 37.5%, #FFFFFF 50%, #00897B 50%, #00897B 62.5%, #FF6F61 62.5%, #FF6F61 75%, #FFB300 75%, #FFB300 87.5%, #FFFFFF 87.5%, #FFFFFF 100%); z-index: 60;"></div>
+
+        <!-- Bottom decorative border -->
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 16px; background: linear-gradient(90deg, #FF6F61 0%, #FFB300 16.66%, #00897B 33.33%, #FF6F61 50%, #FFB300 66.66%, #00897B 83.33%, #FF6F61 100%); z-index: 60;"></div>
+
+        <!-- GRATIS Badge (top-left) - circular coral-red -->
+        <div style="position: absolute; top: 28px; left: 28px; z-index: 100;">
+            <div style="width: 100px; height: 100px; background: linear-gradient(145deg, #FF6F61 0%, #E53935 100%); border-radius: 50%; box-shadow: 0 8px 30px rgba(255,111,97,0.55), inset 0 -4px 10px rgba(0,0,0,0.15), inset 0 4px 8px rgba(255,255,255,0.3); display: flex; align-items: center; justify-content: center; transform: rotate(-8deg); border: 4px solid rgba(255,255,255,0.5);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 26px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">GRATIS</span>
+            </div>
+        </div>
+
+        <!-- Grade Badge (top-right) -->
+        <div style="position: absolute; top: 38px; right: 32px; background: rgba(255,255,255,0.95); padding: 11px 22px; border-radius: 28px; box-shadow: 0 4px 18px rgba(0,0,0,0.2); border: 3px solid #00695C; z-index: 100;">
+            <span style="font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 16px; color: #004D40; letter-spacing: 1px;">VORSCHULE &ndash; 3. KL.</span>
+        </div>
+
+        <!-- Main Title Block -->
+        <div style="position: absolute; top: 90px; left: 0; right: 0; text-align: center; z-index: 40;">
+            <h1 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 82px; color: white; margin: 0; letter-spacing: 6px; text-shadow: 4px 4px 0 rgba(0,0,0,0.25), 0 0 50px rgba(0,230,180,0.2);">MUSTER</h1>
+            <h2 style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 52px; color: #FFB300; margin: -4px 0 0 0; text-shadow: 3px 3px 0 rgba(0,0,0,0.2), 0 0 30px rgba(255,179,0,0.25);">ARBEITSBL&Auml;TTER</h2>
+            <div style="display: inline-block; margin-top: 12px; background: rgba(255,255,255,0.12); padding: 8px 28px; border-radius: 30px; backdrop-filter: blur(4px);">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 28px; color: white; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">Die Welt der Muster entdecken!</span>
+            </div>
+        </div>
+
+        <!-- Floating geometric shapes (edges only, NOT near worksheets) -->
+        <!-- Coral circles -->
+        <div style="position: absolute; top: 200px; left: 30px; width: 28px; height: 28px; background: #FF6F61; border-radius: 50%; box-shadow: 0 4px 12px rgba(255,111,97,0.4); z-index: 2;"></div>
+        <div style="position: absolute; top: 520px; left: 20px; width: 20px; height: 20px; background: #FF6F61; border-radius: 50%; box-shadow: 0 3px 10px rgba(255,111,97,0.35); z-index: 2;"></div>
+        <div style="position: absolute; top: 380px; right: 25px; width: 24px; height: 24px; background: #FF6F61; border-radius: 50%; box-shadow: 0 4px 10px rgba(255,111,97,0.4); z-index: 2;"></div>
+
+        <!-- Amber squares -->
+        <div style="position: absolute; top: 300px; left: 45px; width: 22px; height: 22px; background: #FFB300; border-radius: 4px; box-shadow: 0 4px 10px rgba(255,179,0,0.4); z-index: 2;"></div>
+        <div style="position: absolute; top: 450px; right: 35px; width: 18px; height: 18px; background: #FFB300; border-radius: 4px; box-shadow: 0 3px 8px rgba(255,179,0,0.35); z-index: 2;"></div>
+
+        <!-- White diamonds -->
+        <div style="position: absolute; top: 260px; right: 50px; width: 20px; height: 20px; background: rgba(255,255,255,0.7); transform: rotate(45deg); box-shadow: 0 4px 10px rgba(255,255,255,0.2); z-index: 2;"></div>
+        <div style="position: absolute; top: 480px; left: 60px; width: 16px; height: 16px; background: rgba(255,255,255,0.6); transform: rotate(45deg); box-shadow: 0 3px 8px rgba(255,255,255,0.15); z-index: 2;"></div>
+
+        <!-- Teal triangles -->
+        <div style="position: absolute; top: 350px; left: 15px; width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-bottom: 21px solid rgba(0,230,180,0.5); filter: drop-shadow(0 3px 6px rgba(0,230,180,0.3)); z-index: 2;"></div>
+        <div style="position: absolute; top: 300px; right: 30px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 17px solid rgba(0,230,180,0.45); filter: drop-shadow(0 3px 6px rgba(0,230,180,0.25)); z-index: 2;"></div>
+
+        <!-- Sparkle emojis with teal glow -->
+        <div style="position: absolute; top: 165px; left: 180px; font-size: 30px; filter: drop-shadow(0 0 10px rgba(0,230,180,0.7)); z-index: 3;">&#10024;</div>
+        <div style="position: absolute; top: 200px; right: 170px; font-size: 26px; filter: drop-shadow(0 0 10px rgba(0,230,180,0.7)); z-index: 3;">&#10024;</div>
+        <div style="position: absolute; top: 600px; left: 120px; font-size: 22px; filter: drop-shadow(0 0 8px rgba(0,230,180,0.6)); z-index: 3;">&#10024;</div>
+
+        <!-- Sparkle dots -->
+        <div style="position: absolute; top: 180px; left: 110px; width: 8px; height: 8px; background: #FFB300; border-radius: 50%; box-shadow: 0 0 16px 6px rgba(255,179,0,0.5); z-index: 2;"></div>
+        <div style="position: absolute; top: 330px; right: 90px; width: 6px; height: 6px; background: #FF6F61; border-radius: 50%; box-shadow: 0 0 14px 5px rgba(255,111,97,0.4); z-index: 2;"></div>
+        <div style="position: absolute; top: 550px; right: 60px; width: 7px; height: 7px; background: #00E6B4; border-radius: 50%; box-shadow: 0 0 15px 5px rgba(0,230,180,0.5); z-index: 2;"></div>
+        <div style="position: absolute; top: 600px; right: 100px; width: 5px; height: 5px; background: #FFB300; border-radius: 50%; box-shadow: 0 0 12px 4px rgba(255,179,0,0.4); z-index: 2;"></div>
+
+        <!-- Main Worksheet Display - 3 fanned PORTRAIT worksheets -->
+        <div style="position: absolute; top: 310px; left: 50%; transform: translateX(-50%); width: 920px; height: 420px; z-index: 20;">
+
+            <!-- Left worksheet (smaller, offset left) -->
+            <div style="position: absolute; left: 155px; top: 30px; z-index: 15;">
+                <div style="position: relative; transform: translateX(-25px);">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-3.jpeg" style="width: 220px; height: 285px; object-fit: cover; border-radius: 10px; border: 5px solid white; box-shadow: 0 14px 40px rgba(0,0,0,0.35);" alt="Muster-Arbeitsblatt Beispiel">
+                </div>
+            </div>
+
+            <!-- Center worksheet (hero, largest) -->
+            <div style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); z-index: 20;">
+                <div style="position: relative;">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-1.jpeg" style="width: 260px; height: 337px; object-fit: cover; border-radius: 14px; border: 7px solid white; box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 40px rgba(0,230,180,0.2);" alt="Muster-Arbeitsblatt Hauptbeispiel">
+                    <!-- Teal glow halo -->
+                    <div style="position: absolute; inset: -22px; background: radial-gradient(ellipse, rgba(0,230,180,0.12) 0%, transparent 65%); z-index: -1; border-radius: 30px;"></div>
+                </div>
+            </div>
+
+            <!-- Right worksheet (smaller, offset right) -->
+            <div style="position: absolute; right: 155px; top: 30px; z-index: 15;">
+                <div style="position: relative; transform: translateX(25px);">
+                    <img src="https://www.lessoncraftstudio.com/samples/german/pattern%20worksheet/sample-5.jpeg" style="width: 220px; height: 285px; object-fit: cover; border-radius: 10px; border: 5px solid white; box-shadow: 0 14px 40px rgba(0,0,0,0.35);" alt="Muster-Arbeitsblatt Beispiel">
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Banner -->
+        <div style="position: absolute; bottom: 108px; left: 0; right: 0; background: linear-gradient(90deg, rgba(0,55,45,0.96) 0%, rgba(0,77,64,0.96) 50%, rgba(0,55,45,0.96) 100%); padding: 17px 0; box-shadow: 0 -5px 25px rgba(0,0,0,0.2), 0 5px 25px rgba(0,0,0,0.2); z-index: 50;">
+            <div style="text-align: center;">
+                <span style="font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 30px; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); letter-spacing: 2px;">MUSTERERKENNUNG LEICHT GEMACHT!</span>
+            </div>
+        </div>
+
+        <!-- Feature Pills -->
+        <div style="position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%); display: flex; gap: 16px; z-index: 60;">
+            <div style="background: white; padding: 12px 20px; border-radius: 28px; box-shadow: 0 5px 18px rgba(0,0,0,0.2); border: 3px solid #00897B;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #00695C;">L&ouml;sungsbl&auml;tter</span>
+            </div>
+            <div style="background: white; padding: 12px 20px; border-radius: 28px; box-shadow: 0 5px 18px rgba(0,0,0,0.2); border: 3px solid #FF6F61;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #E53935;">Visuelles Lernen</span>
+            </div>
+            <div style="background: white; padding: 12px 20px; border-radius: 28px; box-shadow: 0 5px 18px rgba(0,0,0,0.2); border: 3px solid #FFB300;">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 15px; color: #E69500;">Druckfertig</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Picture Path - Fun Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        background: linear-gradient(145deg, #00BFA5 0%, #69F0AE 50%, #00E676 100%);
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Large compass rose watermark -->
+        <svg style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.08; pointer-events: none;" width="800" height="800" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none"/>
+            <circle cx="50" cy="50" r="35" stroke="white" stroke-width="1" fill="none"/>
+            <line x1="50" y1="2" x2="50" y2="98" stroke="white" stroke-width="2"/>
+            <line x1="2" y1="50" x2="98" y2="50" stroke="white" stroke-width="2"/>
+            <line x1="15" y1="15" x2="85" y2="85" stroke="white" stroke-width="1"/>
+            <line x1="85" y1="15" x2="15" y2="85" stroke="white" stroke-width="1"/>
+            <polygon points="50,5 45,25 55,25" fill="white"/>
+        </svg>
+
+        <!-- Confetti/sparkles scattered -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" viewBox="0 0 1000 1000">
+            <!-- Sparkle shapes -->
+            <polygon points="80,150 85,165 100,165 88,175 93,190 80,180 67,190 72,175 60,165 75,165" fill="#FFD54F" opacity="0.8"/>
+            <polygon points="920,200 925,215 940,215 928,225 933,240 920,230 907,240 912,225 900,215 915,215" fill="white" opacity="0.7"/>
+            <polygon points="150,800 155,815 170,815 158,825 163,840 150,830 137,840 142,825 130,815 145,815" fill="#FFD54F" opacity="0.8"/>
+            <polygon points="850,750 855,765 870,765 858,775 863,790 850,780 837,790 842,775 830,765 845,765" fill="white" opacity="0.6"/>
+            <!-- Small circles -->
+            <circle cx="200" cy="300" r="8" fill="#FFD54F" opacity="0.6"/>
+            <circle cx="800" cy="400" r="6" fill="white" opacity="0.5"/>
+            <circle cx="120" cy="500" r="5" fill="#FF8A65" opacity="0.7"/>
+            <circle cx="880" cy="600" r="7" fill="#FFD54F" opacity="0.5"/>
+        </svg>
+
+        <!-- KIDS LOVE THIS Badge - Top Right -->
+        <div style="
+            position: absolute;
+            top: 40px;
+            right: 35px;
+            transform: rotate(8deg);
+            z-index: 20;
+        ">
+            <div style="
+                background: linear-gradient(135deg, #E91E63 0%, #F06292 100%);
+                color: white;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                padding: 12px 22px;
+                border-radius: 12px;
+                box-shadow: 0 6px 20px rgba(233, 30, 99, 0.5), inset 0 2px 0 rgba(255,255,255,0.3);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            ">KIDS LOVE THIS!</div>
+        </div>
+
+        <!-- Cartoon Compass Icon - Top Left -->
+        <div style="
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            z-index: 15;
+        ">
+            <div style="
+                background: white;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            ">
+                <svg width="70" height="70" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="45" fill="#E0F7FA" stroke="#00BFA5" stroke-width="3"/>
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#00BFA5" stroke-width="1"/>
+                    <polygon points="50,15 45,50 55,50" fill="#F44336"/>
+                    <polygon points="50,85 45,50 55,50" fill="#90A4AE"/>
+                    <circle cx="50" cy="50" r="6" fill="#FFD54F"/>
+                    <text x="50" y="10" text-anchor="middle" fill="#00BFA5" font-size="8" font-weight="bold">N</text>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Main Title -->
+        <div style="
+            position: absolute;
+            top: 160px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 15;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 85px;
+                color: white;
+                margin: 0;
+                text-shadow: 0 5px 20px rgba(0,0,0,0.25), 0 3px 0 rgba(0,0,0,0.15);
+                letter-spacing: -2px;
+            ">MAZE</h1>
+            <h2 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 85px;
+                color: #FFD54F;
+                margin: -20px 0 0 0;
+                text-shadow: 0 5px 20px rgba(0,0,0,0.2), 0 3px 0 rgba(0,0,0,0.1);
+                letter-spacing: -2px;
+            ">EXPLORER!</h2>
+        </div>
+
+        <!-- Binoculars peeking from left -->
+        <div style="
+            position: absolute;
+            left: -30px;
+            top: 450px;
+            z-index: 10;
+        ">
+            <svg width="120" height="100" viewBox="0 0 120 100">
+                <ellipse cx="35" cy="50" rx="30" ry="35" fill="#37474F"/>
+                <ellipse cx="85" cy="50" rx="30" ry="35" fill="#37474F"/>
+                <rect x="50" y="35" width="20" height="30" fill="#455A64"/>
+                <ellipse cx="35" cy="50" rx="22" ry="27" fill="#78909C"/>
+                <ellipse cx="85" cy="50" rx="22" ry="27" fill="#78909C"/>
+                <ellipse cx="35" cy="50" rx="15" ry="20" fill="#B0BEC5"/>
+                <ellipse cx="85" cy="50" rx="15" ry="20" fill="#B0BEC5"/>
+            </svg>
+        </div>
+
+        <!-- Main Worksheet Display - Center, Map Frame Style -->
+        <div style="
+            position: absolute;
+            top: 360px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 15;
+        ">
+            <!-- Torn paper/map effect frame -->
+            <div style="
+                background: #FFF8E1;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 20px 60px rgba(0,0,0,0.35), 0 8px 25px rgba(0,0,0,0.25);
+                position: relative;
+            ">
+                <!-- Corner tape effects -->
+                <div style="
+                    position: absolute;
+                    top: -8px;
+                    left: 20px;
+                    width: 50px;
+                    height: 20px;
+                    background: rgba(255,214,0,0.7);
+                    transform: rotate(-5deg);
+                    border-radius: 2px;
+                "></div>
+                <div style="
+                    position: absolute;
+                    top: -8px;
+                    right: 20px;
+                    width: 50px;
+                    height: 20px;
+                    background: rgba(255,214,0,0.7);
+                    transform: rotate(5deg);
+                    border-radius: 2px;
+                "></div>
+                <img
+                    src="https://www.lessoncraftstudio.com/samples/english/picture%20path/sample-4.jpeg"
+                    alt="Picture Path Worksheet"
+                    style="
+                        width: 280px;
+                        height: 362px;
+                        object-fit: cover;
+                        object-position: top;
+                        border-radius: 4px;
+                        display: block;
+                        border: 2px solid #D7CCC8;
+                    "
+                />
+            </div>
+        </div>
+
+        <!-- Footprint trail leading to worksheet -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 12;" viewBox="0 0 1000 1000">
+            <!-- Footprints -->
+            <g fill="#FF8A65" opacity="0.6">
+                <ellipse cx="180" cy="950" rx="12" ry="18"/>
+                <circle cx="170" cy="925" r="5"/>
+                <circle cx="182" cy="920" r="4"/>
+                <circle cx="195" cy="925" r="4"/>
+            </g>
+            <g fill="#FF8A65" opacity="0.55" transform="rotate(-15 250 880)">
+                <ellipse cx="250" cy="880" rx="11" ry="16"/>
+                <circle cx="240" cy="858" r="4"/>
+                <circle cx="252" cy="854" r="4"/>
+                <circle cx="263" cy="860" r="4"/>
+            </g>
+            <g fill="#FF8A65" opacity="0.5" transform="rotate(-25 310 810)">
+                <ellipse cx="310" cy="810" rx="10" ry="15"/>
+                <circle cx="300" cy="790" r="4"/>
+                <circle cx="312" cy="786" r="3"/>
+                <circle cx="322" cy="792" r="3"/>
+            </g>
+        </svg>
+
+        <!-- Treasure Chest Icon - Bottom Right -->
+        <div style="
+            position: absolute;
+            right: 80px;
+            bottom: 200px;
+            z-index: 15;
+        ">
+            <svg width="90" height="80" viewBox="0 0 100 90">
+                <rect x="10" y="40" width="80" height="45" rx="5" fill="#8D6E63"/>
+                <rect x="10" y="40" width="80" height="15" fill="#A1887F"/>
+                <path d="M 10 40 Q 50 20 90 40" fill="#6D4C41"/>
+                <rect x="40" y="35" width="20" height="25" rx="3" fill="#FFD54F"/>
+                <circle cx="50" cy="50" r="5" fill="#FFC107"/>
+                <!-- Gold coins peeking out -->
+                <circle cx="25" cy="38" r="8" fill="#FFD54F"/>
+                <circle cx="75" cy="38" r="8" fill="#FFD54F"/>
+                <circle cx="50" cy="30" r="6" fill="#FFC107"/>
+            </svg>
+        </div>
+
+        <!-- Subtitle Banner -->
+        <div style="
+            position: absolute;
+            bottom: 120px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 15;
+        ">
+            <div style="
+                display: inline-block;
+                background: rgba(255,255,255,0.95);
+                padding: 14px 35px;
+                border-radius: 50px;
+                box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            ">
+                <span style="
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #00897B;
+                    letter-spacing: 0.5px;
+                ">Navigate. Collect. Discover!</span>
+            </div>
+        </div>
+
+        <!-- Bottom Pills -->
+        <div style="
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            z-index: 15;
+        ">
+            <div style="
+                background: rgba(255,255,255,0.9);
+                padding: 10px 18px;
+                border-radius: 25px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #00897B;">Perfect for Centers!</span>
+            </div>
+            <div style="
+                background: rgba(255,255,255,0.9);
+                padding: 10px 18px;
+                border-radius: 25px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #00897B;">Brain Breaks!</span>
+            </div>
+            <div style="
+                background: rgba(255,255,255,0.9);
+                padding: 10px 18px;
+                border-radius: 25px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            ">
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 14px; color: #00897B;">Early Finishers!</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

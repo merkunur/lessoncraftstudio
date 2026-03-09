@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Shadow Match - Professional Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        background: linear-gradient(160deg, #FFF8E7 0%, #FFEFCC 100%);
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Subtle diagonal hatching -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; opacity: 0.04;" viewBox="0 0 1000 1000">
+            <defs>
+                <pattern id="hatch" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                    <line x1="0" y1="0" x2="0" y2="12" stroke="#8B7355" stroke-width="0.5"/>
+                </pattern>
+            </defs>
+            <rect width="1000" height="1000" fill="url(#hatch)"/>
+        </svg>
+
+        <!-- Outer border (navy) -->
+        <div style="
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            right: 16px;
+            bottom: 16px;
+            border: 6px solid #1B2A4A;
+            border-radius: 4px;
+            z-index: 5;
+        "></div>
+
+        <!-- Inner border (gold) -->
+        <div style="
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            right: 30px;
+            bottom: 30px;
+            border: 3px solid #D4A017;
+            border-radius: 2px;
+            z-index: 5;
+        "></div>
+
+        <!-- Corner flourishes -->
+        <svg style="position: absolute; top: 20px; left: 20px; z-index: 6;" width="60" height="60" viewBox="0 0 60 60">
+            <path d="M5,50 Q5,5 50,5" stroke="#D4A017" stroke-width="2.5" fill="none"/>
+            <path d="M10,45 Q10,10 45,10" stroke="#1B2A4A" stroke-width="1.5" fill="none"/>
+            <circle cx="8" cy="8" r="3" fill="#D4A017"/>
+        </svg>
+        <svg style="position: absolute; top: 20px; right: 20px; z-index: 6;" width="60" height="60" viewBox="0 0 60 60">
+            <path d="M55,50 Q55,5 10,5" stroke="#D4A017" stroke-width="2.5" fill="none"/>
+            <path d="M50,45 Q50,10 15,10" stroke="#1B2A4A" stroke-width="1.5" fill="none"/>
+            <circle cx="52" cy="8" r="3" fill="#D4A017"/>
+        </svg>
+        <svg style="position: absolute; bottom: 20px; left: 20px; z-index: 6;" width="60" height="60" viewBox="0 0 60 60">
+            <path d="M5,10 Q5,55 50,55" stroke="#D4A017" stroke-width="2.5" fill="none"/>
+            <path d="M10,15 Q10,50 45,50" stroke="#1B2A4A" stroke-width="1.5" fill="none"/>
+            <circle cx="8" cy="52" r="3" fill="#D4A017"/>
+        </svg>
+        <svg style="position: absolute; bottom: 20px; right: 20px; z-index: 6;" width="60" height="60" viewBox="0 0 60 60">
+            <path d="M55,10 Q55,55 10,55" stroke="#D4A017" stroke-width="2.5" fill="none"/>
+            <path d="M50,15 Q50,50 15,50" stroke="#1B2A4A" stroke-width="1.5" fill="none"/>
+            <circle cx="52" cy="52" r="3" fill="#D4A017"/>
+        </svg>
+
+        <!-- Red ribbon banner - NO PREP REQUIRED (top-left diagonal) -->
+        <div style="
+            position: absolute;
+            top: 95px;
+            left: -55px;
+            transform: rotate(-8deg);
+            z-index: 20;
+        ">
+            <div style="
+                background: linear-gradient(180deg, #D32F2F, #B71C1C);
+                padding: 10px 70px;
+                box-shadow: 0 4px 12px rgba(183, 28, 28, 0.35);
+                position: relative;
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: white;
+                    letter-spacing: 2px;
+                    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+                ">NO PREP REQUIRED</span>
+                <!-- Left triangle tail -->
+                <div style="
+                    position: absolute;
+                    left: 0;
+                    bottom: -8px;
+                    width: 0;
+                    height: 0;
+                    border-left: 12px solid #8B0000;
+                    border-bottom: 8px solid transparent;
+                "></div>
+                <!-- Right triangle tail -->
+                <div style="
+                    position: absolute;
+                    right: 0;
+                    bottom: -8px;
+                    width: 0;
+                    height: 0;
+                    border-right: 12px solid #8B0000;
+                    border-bottom: 8px solid transparent;
+                "></div>
+            </div>
+        </div>
+
+        <!-- Title Section -->
+        <div style="
+            position: absolute;
+            top: 70px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 10;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 52px;
+                color: #1B2A4A;
+                margin: 0;
+                letter-spacing: 2px;
+                line-height: 1.1;
+            ">SHADOW MATCH</h1>
+            <h2 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 42px;
+                color: #1B2A4A;
+                margin: -2px 0 0 0;
+                letter-spacing: 2px;
+                line-height: 1;
+            ">WORKSHEETS</h2>
+            <!-- Gold divider line -->
+            <div style="
+                width: 280px;
+                height: 3px;
+                background: linear-gradient(90deg, transparent, #D4A017, transparent);
+                margin: 12px auto 10px;
+            "></div>
+            <p style="
+                font-family: 'Nunito', sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                color: #8B7355;
+                margin: 0;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            ">PREMIUM QUALITY</p>
+        </div>
+
+        <!-- Two worksheets side by side -->
+        <div style="
+            position: absolute;
+            top: 300px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 40px;
+            z-index: 12;
+        ">
+            <!-- Left: Worksheet -->
+            <div style="text-align: center;">
+                <div style="
+                    background: white;
+                    padding: 8px;
+                    border-radius: 8px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(212, 160, 23, 0.2);
+                ">
+                    <img
+                        src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-1.jpeg"
+                        alt="Shadow Match Worksheet"
+                        style="
+                            width: 240px;
+                            height: 186px;
+                            object-fit: cover;
+                            object-position: top;
+                            border-radius: 5px;
+                            display: block;
+                        "
+                    />
+                </div>
+                <p style="
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: 700;
+                    font-size: 17px;
+                    color: #1B2A4A;
+                    margin: 10px 0 0 0;
+                ">Worksheet</p>
+            </div>
+
+            <!-- Right: Answer Key -->
+            <div style="text-align: center; position: relative;">
+                <div style="
+                    background: white;
+                    padding: 8px;
+                    border-radius: 8px;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(212, 160, 23, 0.2);
+                ">
+                    <img
+                        src="https://www.lessoncraftstudio.com/samples/english/shadow%20match/sample-1-answer.jpeg"
+                        alt="Shadow Match Answer Key"
+                        style="
+                            width: 240px;
+                            height: 186px;
+                            object-fit: cover;
+                            object-position: top;
+                            border-radius: 5px;
+                            display: block;
+                        "
+                    />
+                </div>
+                <p style="
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: 700;
+                    font-size: 17px;
+                    color: #1B2A4A;
+                    margin: 10px 0 0 0;
+                ">Answer Key</p>
+
+                <!-- Gold award seal overlapping right worksheet -->
+                <div style="
+                    position: absolute;
+                    top: -30px;
+                    right: -35px;
+                    z-index: 15;
+                ">
+                    <svg width="130" height="130" viewBox="0 0 130 130" style="filter: drop-shadow(0 4px 10px rgba(212, 160, 23, 0.4));">
+                        <defs>
+                            <linearGradient id="sealGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#F0C040"/>
+                                <stop offset="50%" style="stop-color:#D4A017"/>
+                                <stop offset="100%" style="stop-color:#C49000"/>
+                            </linearGradient>
+                        </defs>
+                        <!-- 12 rays starburst -->
+                        <polygon points="65,5 72,42 100,15 78,47 110,35 83,55 115,65 83,75 110,95 78,83 100,115 72,88 65,125 58,88 30,115 52,83 20,95 47,75 15,65 47,55 20,35 52,47 30,15 58,42" fill="url(#sealGold)"/>
+                        <!-- Inner circle -->
+                        <circle cx="65" cy="65" r="38" fill="url(#sealGold)" stroke="#8B6914" stroke-width="2"/>
+                        <circle cx="65" cy="65" r="32" fill="none" stroke="#FFF8E0" stroke-width="1.5" stroke-dasharray="3 3"/>
+                        <!-- Text -->
+                        <text x="65" y="58" font-family="Fredoka" font-weight="700" font-size="11" fill="#5C3D00" text-anchor="middle">TEACHER'S</text>
+                        <text x="65" y="74" font-family="Fredoka" font-weight="700" font-size="11" fill="#5C3D00" text-anchor="middle">CHOICE</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature checkmarks -->
+        <div style="
+            position: absolute;
+            bottom: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 35px;
+            z-index: 12;
+        ">
+            <!-- Answer Keys -->
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background: linear-gradient(135deg, #F0C040, #D4A017);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 2px 6px rgba(212, 160, 23, 0.3);
+                ">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <path d="M3,8 L6.5,11.5 L13,4.5" stroke="#1B2A4A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: #1B2A4A;">Answer Keys</span>
+            </div>
+
+            <!-- Print-Ready -->
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background: linear-gradient(135deg, #F0C040, #D4A017);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 2px 6px rgba(212, 160, 23, 0.3);
+                ">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <path d="M3,8 L6.5,11.5 L13,4.5" stroke="#1B2A4A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: #1B2A4A;">Print-Ready</span>
+            </div>
+
+            <!-- Multiple Layouts -->
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background: linear-gradient(135deg, #F0C040, #D4A017);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 2px 6px rgba(212, 160, 23, 0.3);
+                ">
+                    <svg width="16" height="16" viewBox="0 0 16 16">
+                        <path d="M3,8 L6.5,11.5 L13,4.5" stroke="#1B2A4A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span style="font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 17px; color: #1B2A4A;">Multiple Layouts</span>
+            </div>
+        </div>
+
+        <!-- FREE badge - formal red rectangle -->
+        <div style="
+            position: absolute;
+            bottom: 55px;
+            left: 80px;
+            z-index: 25;
+        ">
+            <div style="
+                background: #D32F2F;
+                padding: 8px 22px;
+                box-shadow: 0 3px 10px rgba(211, 47, 47, 0.35);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: white;
+                    letter-spacing: 2px;
+                ">FREE</span>
+            </div>
+        </div>
+
+        <!-- Grade badge - navy rectangle -->
+        <div style="
+            position: absolute;
+            bottom: 55px;
+            right: 80px;
+            z-index: 25;
+        ">
+            <div style="
+                background: #1B2A4A;
+                padding: 8px 22px;
+                box-shadow: 0 3px 10px rgba(27, 42, 74, 0.3);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #F0C040;
+                    letter-spacing: 1px;
+                ">Grades K-2</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

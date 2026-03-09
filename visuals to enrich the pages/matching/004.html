@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, height=1000">
+    <title>Matching Worksheets - Match Mania Arcade Thumbnail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; width: 1000px; height: 1000px; overflow: hidden; font-family: 'Nunito', sans-serif;">
+    <div style="
+        width: 1000px;
+        height: 1000px;
+        background: linear-gradient(135deg, #1A0A2E 0%, #2D1B4E 50%, #1A0A2E 100%);
+        position: relative;
+        overflow: hidden;
+    ">
+        <!-- Neon grid background -->
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.15;" viewBox="0 0 1000 1000">
+            <defs>
+                <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+                    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#6B5BFF" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#grid)"/>
+        </svg>
+
+        <!-- Neon glow effects background -->
+        <div style="
+            position: absolute;
+            top: 100px;
+            left: 150px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(107, 91, 255, 0.3) 0%, transparent 70%);
+            filter: blur(40px);
+        "></div>
+        <div style="
+            position: absolute;
+            bottom: 150px;
+            right: 100px;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(255, 20, 147, 0.25) 0%, transparent 70%);
+            filter: blur(50px);
+        "></div>
+
+        <!-- Main Title - MATCH MANIA! with neon effect -->
+        <div style="
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 20;
+        ">
+            <h1 style="
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 700;
+                font-size: 85px;
+                color: #FFFF00;
+                margin: 0;
+                text-shadow:
+                    0 0 10px #FFFF00,
+                    0 0 20px #FFFF00,
+                    0 0 40px #FF9900,
+                    0 0 80px #FF9900,
+                    4px 4px 0 #FF6B00;
+                letter-spacing: -2px;
+            ">MATCH MANIA!</h1>
+            <p style="
+                font-family: 'Nunito', sans-serif;
+                font-weight: 700;
+                font-size: 28px;
+                color: #00FFFF;
+                margin: 5px 0 0 0;
+                text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+                letter-spacing: 3px;
+            ">PLAYER 1: READY!</p>
+        </div>
+
+        <!-- Left Side - Large Animal (Dog) -->
+        <div style="
+            position: absolute;
+            left: 50px;
+            top: 280px;
+            z-index: 15;
+        ">
+            <div style="
+                width: 160px;
+                height: 160px;
+                background: linear-gradient(135deg, #FF1493 0%, #FF69B4 100%);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 30px rgba(255, 20, 147, 0.6), 0 0 60px rgba(255, 20, 147, 0.3);
+                border: 4px solid #FF69B4;
+            ">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                    <!-- Cute dog face -->
+                    <ellipse cx="50" cy="55" rx="38" ry="35" fill="#8B6914"/>
+                    <ellipse cx="22" cy="32" rx="16" ry="22" fill="#8B6914"/>
+                    <ellipse cx="78" cy="32" rx="16" ry="22" fill="#8B6914"/>
+                    <ellipse cx="50" cy="62" rx="22" ry="20" fill="#F5E6D3"/>
+                    <ellipse cx="36" cy="50" rx="9" ry="10" fill="white"/>
+                    <ellipse cx="64" cy="50" rx="9" ry="10" fill="white"/>
+                    <circle cx="36" cy="52" r="5" fill="#2D3748"/>
+                    <circle cx="64" cy="52" r="5" fill="#2D3748"/>
+                    <ellipse cx="50" cy="65" rx="10" ry="8" fill="#2D3748"/>
+                    <ellipse cx="50" cy="62" rx="4" ry="3" fill="#FF8A8A"/>
+                    <path d="M 40 78 Q 50 85 60 78" stroke="#2D3748" stroke-width="3" fill="none"/>
+                </svg>
+            </div>
+            <!-- Neon connection line from dog -->
+            <svg style="position: absolute; top: 80px; left: 160px; z-index: 5;" width="150" height="100" viewBox="0 0 150 100">
+                <path d="M 0 0 Q 75 50 150 20" stroke="#FF1493" stroke-width="4" fill="none" stroke-dasharray="10 6" filter="drop-shadow(0 0 8px #FF1493)"/>
+                <circle cx="0" cy="0" r="8" fill="#FF1493" filter="drop-shadow(0 0 10px #FF1493)"/>
+            </svg>
+        </div>
+
+        <!-- Right Side - Letters A, B, C -->
+        <div style="
+            position: absolute;
+            right: 60px;
+            top: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+            z-index: 15;
+        ">
+            <div style="
+                width: 80px;
+                height: 80px;
+                background: linear-gradient(135deg, #00FFFF 0%, #00CED1 100%);
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+                border: 3px solid #00FFFF;
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 48px;
+                    color: #1A0A2E;
+                ">A</span>
+            </div>
+            <div style="
+                width: 80px;
+                height: 80px;
+                background: linear-gradient(135deg, #FFFF00 0%, #FFD700 100%);
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 25px rgba(255, 255, 0, 0.5);
+                border: 3px solid #FFFF00;
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 48px;
+                    color: #1A0A2E;
+                ">B</span>
+            </div>
+            <div style="
+                width: 80px;
+                height: 80px;
+                background: linear-gradient(135deg, #FF1493 0%, #FF69B4 100%);
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 25px rgba(255, 20, 147, 0.5);
+                border: 3px solid #FF1493;
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 48px;
+                    color: white;
+                ">C</span>
+            </div>
+        </div>
+
+        <!-- Main Worksheet in Arcade Cabinet Frame -->
+        <div style="
+            position: absolute;
+            top: 210px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 15;
+        ">
+            <!-- Arcade cabinet frame -->
+            <div style="
+                background: linear-gradient(180deg, #6B5BFF 0%, #4A3ADB 100%);
+                padding: 20px 20px 30px 20px;
+                border-radius: 20px 20px 10px 10px;
+                box-shadow: 0 0 40px rgba(107, 91, 255, 0.6), 0 15px 50px rgba(0,0,0,0.4);
+                border: 4px solid #8B7BFF;
+                position: relative;
+            ">
+                <!-- Screen bezel -->
+                <div style="
+                    background: #1A0A2E;
+                    padding: 12px;
+                    border-radius: 10px;
+                    border: 3px solid #00FFFF;
+                    box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.3);
+                ">
+                    <img
+                        src="https://www.lessoncraftstudio.com/samples/english/matching/sample-1.jpeg"
+                        alt="Matching Worksheet"
+                        style="
+                            width: 240px;
+                            height: 310px;
+                            object-fit: cover;
+                            object-position: top;
+                            border-radius: 5px;
+                            display: block;
+                        "
+                    />
+                </div>
+                <!-- Arcade buttons -->
+                <div style="
+                    position: absolute;
+                    bottom: -15px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: flex;
+                    gap: 15px;
+                ">
+                    <div style="
+                        width: 25px;
+                        height: 25px;
+                        background: #FF1493;
+                        border-radius: 50%;
+                        box-shadow: 0 0 10px #FF1493, 0 3px 0 #AA0055;
+                    "></div>
+                    <div style="
+                        width: 25px;
+                        height: 25px;
+                        background: #00FFFF;
+                        border-radius: 50%;
+                        box-shadow: 0 0 10px #00FFFF, 0 3px 0 #008888;
+                    "></div>
+                    <div style="
+                        width: 25px;
+                        height: 25px;
+                        background: #FFFF00;
+                        border-radius: 50%;
+                        box-shadow: 0 0 10px #FFFF00, 0 3px 0 #AA8800;
+                    "></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Cat on Left -->
+        <div style="
+            position: absolute;
+            left: 80px;
+            bottom: 180px;
+            z-index: 15;
+        ">
+            <div style="
+                width: 120px;
+                height: 120px;
+                background: linear-gradient(135deg, #00FFFF 0%, #00CED1 100%);
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 25px rgba(0, 255, 255, 0.5);
+                border: 3px solid #00FFFF;
+            ">
+                <svg width="75" height="75" viewBox="0 0 100 100">
+                    <!-- Cat face -->
+                    <polygon points="25,35 15,8 38,25" fill="#FF8A5C"/>
+                    <polygon points="75,35 85,8 62,25" fill="#FF8A5C"/>
+                    <ellipse cx="50" cy="55" rx="38" ry="35" fill="#FF8A5C"/>
+                    <ellipse cx="35" cy="52" rx="10" ry="12" fill="white"/>
+                    <ellipse cx="65" cy="52" rx="10" ry="12" fill="white"/>
+                    <circle cx="35" cy="54" r="6" fill="#2D3748"/>
+                    <circle cx="65" cy="54" r="6" fill="#2D3748"/>
+                    <ellipse cx="50" cy="68" rx="6" ry="4" fill="#FF6B6B"/>
+                    <path d="M 42 76 Q 50 83 58 76" stroke="#2D3748" stroke-width="2" fill="none"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Joystick Icon -->
+        <div style="
+            position: absolute;
+            right: 70px;
+            bottom: 200px;
+            z-index: 15;
+        ">
+            <svg width="90" height="90" viewBox="0 0 100 100">
+                <rect x="30" y="70" width="40" height="25" rx="5" fill="#6B5BFF" filter="drop-shadow(0 0 10px #6B5BFF)"/>
+                <circle cx="50" cy="75" r="8" fill="#2D1B4E"/>
+                <rect x="45" y="30" width="10" height="45" rx="5" fill="#FF1493" filter="drop-shadow(0 0 8px #FF1493)"/>
+                <circle cx="50" cy="25" r="15" fill="#FFFF00" filter="drop-shadow(0 0 10px #FFFF00)"/>
+            </svg>
+        </div>
+
+        <!-- Star Decorations -->
+        <svg style="position: absolute; top: 160px; left: 280px; z-index: 10;" width="40" height="40" viewBox="0 0 100 100">
+            <polygon points="50,5 61,40 98,40 68,62 79,97 50,75 21,97 32,62 2,40 39,40" fill="#FFFF00" filter="drop-shadow(0 0 10px #FFFF00)"/>
+        </svg>
+        <svg style="position: absolute; top: 200px; right: 250px; z-index: 10;" width="35" height="35" viewBox="0 0 100 100">
+            <polygon points="50,5 61,40 98,40 68,62 79,97 50,75 21,97 32,62 2,40 39,40" fill="#00FFFF" filter="drop-shadow(0 0 10px #00FFFF)"/>
+        </svg>
+        <svg style="position: absolute; bottom: 120px; left: 300px; z-index: 10;" width="30" height="30" viewBox="0 0 100 100">
+            <polygon points="50,5 61,40 98,40 68,62 79,97 50,75 21,97 32,62 2,40 39,40" fill="#FF1493" filter="drop-shadow(0 0 10px #FF1493)"/>
+        </svg>
+
+        <!-- Bottom Banner -->
+        <div style="
+            position: absolute;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 20;
+        ">
+            <div style="
+                display: inline-flex;
+                align-items: center;
+                gap: 25px;
+                background: rgba(26, 10, 46, 0.9);
+                padding: 14px 35px;
+                border-radius: 50px;
+                border: 3px solid #6B5BFF;
+                box-shadow: 0 0 20px rgba(107, 91, 255, 0.4);
+            ">
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 700;
+                    font-size: 26px;
+                    color: #FFFF00;
+                    text-shadow: 0 0 10px #FFFF00;
+                ">FREE</span>
+                <span style="
+                    width: 3px;
+                    height: 30px;
+                    background: #6B5BFF;
+                    box-shadow: 0 0 8px #6B5BFF;
+                "></span>
+                <span style="
+                    font-family: 'Nunito', sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #00FFFF;
+                    text-shadow: 0 0 8px #00FFFF;
+                ">Themes Kids Love!</span>
+                <span style="
+                    width: 3px;
+                    height: 30px;
+                    background: #6B5BFF;
+                    box-shadow: 0 0 8px #6B5BFF;
+                "></span>
+                <span style="
+                    font-family: 'Fredoka', sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #FF1493;
+                    text-shadow: 0 0 8px #FF1493;
+                ">K-2</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

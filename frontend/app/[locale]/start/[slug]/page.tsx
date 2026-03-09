@@ -13,8 +13,13 @@ import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
-import { pageVisualAssignments } from '@/config/page-visual-assignments';
-import { VisualShowcaseEmbed } from '@/components/showcase/VisualShowcaseEmbed';
+import {
+  WorksheetShowcaseSection,
+  TieredShowcaseSection,
+  SpotlightSection,
+  GallerySection,
+} from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
+import { getPageShowcaseConfig } from '@/config/guide-showcase-configs';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -78,9 +83,9 @@ export default async function CornerstonePage({
 
   const content = await getStartContent(config.startId, locale);
 
-  // Look up visual showcase assignments (English only)
-  const pageVisuals = locale === 'en'
-    ? pageVisualAssignments.find(p => p.pageType === 'start' && p.pageId === config.startId)?.visuals
+  // Look up visual showcase config (English only)
+  const showcaseConfig = locale === 'en'
+    ? getPageShowcaseConfig('start', config.startId)
     : null;
 
   if (content) {
@@ -159,7 +164,7 @@ export default async function CornerstonePage({
         </section>
 
         {/* Visual Showcase 1 — Hero */}
-        {pageVisuals?.[0] && <VisualShowcaseEmbed file={pageVisuals[0].file} />}
+        {showcaseConfig && <WorksheetShowcaseSection config={showcaseConfig.hero} />}
 
         {/* Introduction */}
         {content.introduction && (
@@ -199,7 +204,7 @@ export default async function CornerstonePage({
         )}
 
         {/* Visual Showcase 3 — Progression */}
-        {pageVisuals?.[2] && <VisualShowcaseEmbed file={pageVisuals[2].file} />}
+        {showcaseConfig && <SpotlightSection config={showcaseConfig.spotlight} />}
 
         {/* Sample Gallery */}
         {content.visuals?.samples && content.visuals.samples.length > 0 && (
@@ -272,7 +277,7 @@ export default async function CornerstonePage({
         )}
 
         {/* Visual Showcase 2 — Features */}
-        {pageVisuals?.[1] && <VisualShowcaseEmbed file={pageVisuals[1].file} />}
+        {showcaseConfig && <TieredShowcaseSection config={showcaseConfig.tiered} />}
 
         {/* Tool Recommendations */}
         {content.toolsRecommended && content.toolsRecommended.length > 0 && (
@@ -308,7 +313,7 @@ export default async function CornerstonePage({
         </section>
 
         {/* Visual Showcase 4 — Fun */}
-        {pageVisuals?.[3] && <VisualShowcaseEmbed file={pageVisuals[3].file} />}
+        {showcaseConfig && <GallerySection config={showcaseConfig.gallery} />}
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (

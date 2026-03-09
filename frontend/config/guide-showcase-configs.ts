@@ -1,0 +1,653 @@
+/**
+ * guide-showcase-configs.ts — Config-driven visual showcase data for
+ * guide / bundle / idea / start pages.
+ *
+ * Uses the SAME component types (HeroShowcaseConfig, TieredShowcaseConfig,
+ * SpotlightConfig, GalleryConfig) and /samples/ image URLs as tool pages.
+ * Zero file reads, zero build-time risk.
+ */
+
+import type {
+  HeroShowcaseConfig,
+  TieredShowcaseConfig,
+  SpotlightConfig,
+  GalleryConfig,
+} from '@/app/[locale]/apps/[slug]/showcase/ShowcaseSections';
+
+export interface PageShowcaseConfig {
+  hero: HeroShowcaseConfig;
+  tiered: TieredShowcaseConfig;
+  spotlight: SpotlightConfig;
+  gallery: GalleryConfig;
+}
+
+// ─── Image URL builder ───
+function img(appFolder: string, filename: string) {
+  return `/samples/english/${encodeURIComponent(appFolder)}/${encodeURIComponent(filename)}`;
+}
+
+// ─── Per-app visual data ───
+// Each app provides: representative images, accent color, decorative symbol,
+// display name, and short descriptors for generated configs.
+
+interface AppVisualData {
+  folder: string;           // /samples/english/{folder}/
+  accent: string;           // Tailwind color name
+  symbol: string;           // decorative symbol
+  label: string;            // short display name
+  imgs: string[];           // 6+ filenames (hero×3, tiered×1, spotlight×1, gallery×3)
+  answerKey: string;        // answer key image filename
+  pills: Array<{ label: string; icon: string }>;
+  spotPills: string[];
+  galleryPills: string[];
+  tierDesc: [string, string, string]; // beginner, explorer, expert
+  frameColor: string;       // gallery frame hex
+}
+
+const appData: Record<string, AppVisualData> = {
+  addition: {
+    folder: 'addition', accent: 'orange', symbol: '+', label: 'Addition',
+    imgs: ['Addition Fun 1.webp', 'Addition Fun 2.webp', 'Addition Fun 3.webp', 'Addition Fun 4.webp', 'Addition Fun 5.webp', 'Addition Fun 6.webp'],
+    answerKey: 'Addition Fun 5 answer_key.webp',
+    pills: [{ label: 'Pictures + Numbers', icon: '🖼' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Print Instantly!', 'Pictures for Math', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Differentiated'],
+    tierDesc: ['Simple picture counting (1-5)', 'Mixed images with sums to 10', 'Multi-step problems up to 20'],
+    frameColor: '#b87333',
+  },
+  subtraction: {
+    folder: 'subtraction', accent: 'pink', symbol: '−', label: 'Subtraction',
+    imgs: ['Subtraction Fun 1.webp', 'Subtraction Fun 2.webp', 'Subtraction Fun 3.webp', 'Subtraction Fun 4.webp', 'cross out.webp', 'image number.webp'],
+    answerKey: 'Subtraction Fun 1 answer_key.webp',
+    pills: [{ label: 'Cross Out Method', icon: '✕' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Print Instantly!', 'Cross Out Pictures', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'No Prep Required', 'Answers Included', 'Multiple Modes'],
+    tierDesc: ['Cross out pictures (1-5)', 'Image-number subtraction to 10', 'Mixed modes up to 20'],
+    frameColor: '#C2185B',
+  },
+  'code-addition': {
+    folder: 'code addition', accent: 'purple', symbol: '🔓', label: 'Code Addition',
+    imgs: ['Code Breaker Addition 1.webp', 'Code Breaker Addition 2.webp', 'Code Breaker Addition 3.webp', 'Code Breaker Addition 4.webp', 'image_addition_worksheet.webp', 'Code Breaker Addition 1.webp'],
+    answerKey: 'Code Breaker Addition 1 answer_key.webp',
+    pills: [{ label: 'Decode Messages', icon: '🔓' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Crack the Code!', 'Math + Logic', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Engaging', 'Answers Included', 'Problem Solving'],
+    tierDesc: ['Simple addition codes (1-5)', 'Intermediate codes to 10', 'Advanced decoding to 20'],
+    frameColor: '#7B1FA2',
+  },
+  'more-less': {
+    folder: 'more less', accent: 'teal', symbol: '⟨', label: 'More or Less',
+    imgs: ['More Less.webp', 'More Less (8).webp', 'More Less (9).webp', 'More Less (10).webp', 'More Less (11).webp', 'More Less (12).webp'],
+    answerKey: 'More Less answer_key (8).webp',
+    pills: [{ label: 'Compare Amounts', icon: '⟨' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Compare & Learn!', 'Visual Comparisons', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Visual Learning', 'Answers Included', 'Number Sense'],
+    tierDesc: ['Compare groups of 1-5', 'Compare amounts to 10', 'Greater/less than to 20'],
+    frameColor: '#00796B',
+  },
+  'math-puzzle': {
+    folder: 'math puzzle', accent: 'indigo', symbol: '✧', label: 'Math Puzzle',
+    imgs: ['Math Puzzles.webp', 'Math Puzzles (1).webp', 'Math Puzzles (2).webp', 'Math Puzzles (3).webp', 'Math Puzzles (5).webp', 'Math Puzzles (8).webp'],
+    answerKey: 'Math Puzzles answer_key (1).webp',
+    pills: [{ label: 'Brain Teasers', icon: '🧩' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Puzzle Fun!', 'Math + Logic', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Challenging', 'Answers Included', 'Critical Thinking'],
+    tierDesc: ['Simple number puzzles', 'Multi-step math puzzles', 'Advanced logic challenges'],
+    frameColor: '#303F9F',
+  },
+  'math-worksheet': {
+    folder: 'math worksheet', accent: 'blue', symbol: '=', label: 'Math Worksheet',
+    imgs: ['Math Worksheet 1.webp', 'Math Worksheet 2.webp', 'Math Worksheet 3.webp', 'Math Worksheet 4.webp', 'Math Worksheet 8.webp', 'Math Worksheet 10.webp'],
+    answerKey: 'Math Worksheet 1 answer_key.webp',
+    pills: [{ label: 'Practice Problems', icon: '📝' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Practice Makes Perfect!', 'All Operations', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Comprehensive', 'Answers Included', 'All Skill Levels'],
+    tierDesc: ['Basic operations (1-5)', 'Mixed problems to 10', 'Advanced multi-operation'],
+    frameColor: '#1565C0',
+  },
+  'chart-count': {
+    folder: 'chart count', accent: 'emerald', symbol: '📊', label: 'Chart Count',
+    imgs: ['Picture Graph 1.webp', 'Picture Graph 2.webp', 'Picture Graph 3.webp', 'Picture Graph 5.webp', 'Picture Graph 8.webp', 'chart count.webp'],
+    answerKey: 'Picture Graph 1 answer_key.webp',
+    pills: [{ label: 'Picture Graphs', icon: '📊' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Data Made Fun!', 'Visual Graphing', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Data Skills', 'Answers Included', 'Visual Learning'],
+    tierDesc: ['Count and graph (1-5)', 'Read and interpret graphs', 'Create multi-category graphs'],
+    frameColor: '#2E7D32',
+  },
+  wordsearch: {
+    folder: 'wordsearch', accent: 'sky', symbol: '🔍', label: 'Word Search',
+    imgs: ['Word Search 1.webp', 'Word Search 2.webp', 'Word Search 3.webp', 'Word Search 4.webp', 'Word Search 6.webp', 'Word Search 8.webp'],
+    answerKey: 'Word Search 1 answer_key.webp',
+    pills: [{ label: 'Find Hidden Words', icon: '🔍' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Find the Words!', 'Custom Themes', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Vocabulary Builder', 'Answers Included', 'Any Theme'],
+    tierDesc: ['Simple 6×6 grids', 'Medium 10×10 puzzles', 'Challenging 15×15 grids'],
+    frameColor: '#0277BD',
+  },
+  crossword: {
+    folder: 'crossword', accent: 'violet', symbol: '✦', label: 'Crossword',
+    imgs: ['crossword_worksheet.webp', 'crossword_worksheet (1).webp', 'crossword_worksheet (2).webp', 'crossword_worksheet (3).webp', 'crossword_worksheet (5).webp', 'crossword_worksheet (6).webp'],
+    answerKey: 'crossword_answer_key (1).webp',
+    pills: [{ label: 'Crossword Puzzles', icon: '✦' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Solve the Clues!', 'Vocabulary Fun', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Word Skills', 'Answers Included', 'Custom Words'],
+    tierDesc: ['Simple 5-word crosswords', 'Medium 10-word puzzles', 'Advanced 15+ word grids'],
+    frameColor: '#7C3AED',
+  },
+  'word-scramble': {
+    folder: 'word scramble', accent: 'rose', symbol: '🔀', label: 'Word Scramble',
+    imgs: ['Word Scramble 1.webp', 'Word Scramble 2.webp', 'Word Scramble 3.webp', 'Word Scramble 4.webp', 'Word Scramble 8.webp', 'Word Scramble 10.webp'],
+    answerKey: 'Word Scramble 1 answer-key.webp',
+    pills: [{ label: 'Unscramble Words', icon: '🔀' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Unscramble Fun!', 'Spelling Practice', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Spelling Skills', 'Answers Included', 'Any Theme'],
+    tierDesc: ['3-4 letter words', '5-6 letter scrambles', '7+ letter challenges'],
+    frameColor: '#E91E63',
+  },
+  cryptogram: {
+    folder: 'cryptogram', accent: 'amber', symbol: '🔐', label: 'Cryptogram',
+    imgs: ['cryptogram_worksheet.webp', 'cryptogram_worksheet (1).webp', 'cryptogram_worksheet (2).webp', 'cryptogram_worksheet (3).webp', 'cryptogram_worksheet (6).webp', 'cryptogram_worksheet (8).webp'],
+    answerKey: 'cryptogram_answer_key (1).webp',
+    pills: [{ label: 'Decode Secrets', icon: '🔐' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Crack the Code!', 'Letter Substitution', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Logic Skills', 'Answers Included', 'Engaging'],
+    tierDesc: ['Simple letter codes', 'Intermediate ciphers', 'Advanced cryptograms'],
+    frameColor: '#F57C00',
+  },
+  'word-guess': {
+    folder: 'word guess', accent: 'cyan', symbol: '💡', label: 'Word Guess',
+    imgs: ['clue-grid_worksheet.webp', 'clue-grid_worksheet (1).webp', 'clue-grid_worksheet (2).webp', 'clue-grid_worksheet (3).webp', 'clue-grid_worksheet (4).webp', 'custom word list.webp'],
+    answerKey: 'clue-grid_answer-key (1).webp',
+    pills: [{ label: 'Guess the Word', icon: '💡' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Guess It!', 'Picture Clues', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Vocabulary', 'Answers Included', 'Picture Clues'],
+    tierDesc: ['Simple picture clues', 'Multi-clue puzzles', 'Advanced word deduction'],
+    frameColor: '#00838F',
+  },
+  writing: {
+    folder: 'writing', accent: 'indigo', symbol: '✏', label: 'Writing',
+    imgs: ['writing.webp', 'writing beginning letter.webp', 'writing custom.webp', 'writing.webp', 'writing beginning letter.webp', 'writing custom.webp'],
+    answerKey: 'writing.webp',
+    pills: [{ label: 'Handwriting Practice', icon: '✏' }, { label: 'Guided Lines', icon: '─' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Write & Learn!', 'Letter Formation', 'Guided Practice'],
+    galleryPills: ['Print-Ready', 'Fine Motor Skills', 'Traceable', 'All Letters'],
+    tierDesc: ['Tracing practice', 'Guided letter writing', 'Independent writing'],
+    frameColor: '#283593',
+  },
+  'alphabet-train': {
+    folder: 'alphabet train', accent: 'green', symbol: '🚂', label: 'Alphabet Train',
+    imgs: ['Alphabet Train 1.webp', 'Alphabet Train 2.webp', 'Alphabet Train 3.webp', 'Alphabet Train 4.webp', 'Alphabet Train 5.webp', 'Alphabet Train 8.webp'],
+    answerKey: 'Alphabet Train 1 answer_key.webp',
+    pills: [{ label: 'ABC Learning', icon: '🚂' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['All Aboard ABC!', 'Letter Recognition', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Phonics', 'Answers Included', 'Fun Theme'],
+    tierDesc: ['Letter recognition A-H', 'Letter matching I-P', 'Full alphabet challenges'],
+    frameColor: '#388E3C',
+  },
+  prepositions: {
+    folder: 'prepositions', accent: 'teal', symbol: '📍', label: 'Prepositions',
+    imgs: ['prepositions_worksheet.webp', 'prepositions_worksheet (1).webp', 'prepositions_worksheet (2).webp', 'prepositions_worksheet (3).webp', 'prepositions_worksheet (5).webp', 'prepositions_worksheet (6).webp'],
+    answerKey: 'prepositions_answer_key (1).webp',
+    pills: [{ label: 'Position Words', icon: '📍' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Where Is It?', 'Position Practice', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Grammar', 'Answers Included', 'Visual Learning'],
+    tierDesc: ['Basic positions (in, on, under)', 'Intermediate prepositions', 'Advanced spatial words'],
+    frameColor: '#00695C',
+  },
+  coloring: {
+    folder: 'coloring', accent: 'rose', symbol: '🎨', label: 'Coloring',
+    imgs: ['coloring portrait 1.webp', 'coloring portrait 2.webp', 'coloring portrait 3.webp', 'coloring portrait 4.webp', 'coloring portrait 5.webp', 'coloring portrait 6.webp'],
+    answerKey: 'coloring portrait 1.webp',
+    pills: [{ label: 'Color & Create', icon: '🎨' }, { label: 'Themed Pages', icon: '🖌' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Color Your World!', '100+ Themes', 'Print & Color'],
+    galleryPills: ['Print-Ready', 'Creative Fun', 'Any Theme', 'Fine Motor Skills'],
+    tierDesc: ['Simple outlines', 'Detailed scenes', 'Complex patterns'],
+    frameColor: '#AD1457',
+  },
+  'draw-and-color': {
+    folder: 'draw and color', accent: 'amber', symbol: '✏', label: 'Draw & Color',
+    imgs: ['grid-drawing_worksheet.webp', 'grid-drawing_worksheet (1).webp', 'grid-drawing_worksheet (2).webp', 'grid-drawing_worksheet (5).webp', 'grid-drawing_worksheet (8).webp', 'grid-drawing_worksheet (10).webp'],
+    answerKey: 'grid-drawing_worksheet.webp',
+    pills: [{ label: 'Grid Drawing', icon: '✏' }, { label: 'Step-by-Step', icon: '📐' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Draw It!', 'Grid Guidance', 'Creative Fun'],
+    galleryPills: ['Print-Ready', 'Art Skills', 'Step-by-Step', 'Any Theme'],
+    tierDesc: ['Simple grid copies', 'Detailed grid drawings', 'Freehand challenges'],
+    frameColor: '#E65100',
+  },
+  'drawing-lines': {
+    folder: 'drawing lines', accent: 'cyan', symbol: '〰', label: 'Drawing Lines',
+    imgs: ['drawing_lines_horizontal.webp', 'drawing_lines_vertical.webp', 'drawing_lines_curve 1.webp', 'drawing_lines_curve 2.webp', 'drawing_lines_curve 3.webp', 'drawing_lines_worksheet (1).webp'],
+    answerKey: 'drawing_lines_horizontal.webp',
+    pills: [{ label: 'Trace Lines', icon: '〰' }, { label: 'Fine Motor', icon: '✋' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Trace & Learn!', 'Motor Skills', 'Pre-Writing'],
+    galleryPills: ['Print-Ready', 'Pre-Writing', 'Fine Motor', 'Progressive'],
+    tierDesc: ['Straight lines', 'Curved paths', 'Complex patterns'],
+    frameColor: '#006064',
+  },
+  matching: {
+    folder: 'matching', accent: 'emerald', symbol: '🔗', label: 'Matching',
+    imgs: ['Match Up 1.webp', 'Match Up 2.webp', 'Match Up 3.webp', 'Match Up 5.webp', 'Match Up 8.webp', 'matching portrait.webp'],
+    answerKey: 'Match Up 1 answer_key.webp',
+    pills: [{ label: 'Match Pairs', icon: '🔗' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Find the Match!', 'Visual Pairing', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Cognitive Skills', 'Answers Included', 'Any Theme'],
+    tierDesc: ['Simple 3-pair matching', 'Medium 5-pair matching', 'Advanced 8+ pairs'],
+    frameColor: '#1B5E20',
+  },
+  'grid-match': {
+    folder: 'grid match', accent: 'blue', symbol: '⊞', label: 'Grid Match',
+    imgs: ['Grid Match.webp', 'Grid Match (1).webp', 'Grid Match (2).webp', 'Grid Match (3).webp', 'Grid Match (6).webp', 'Grid Match (8).webp'],
+    answerKey: 'Grid Match answer_key (1).webp',
+    pills: [{ label: 'Grid Puzzles', icon: '⊞' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Match the Grid!', 'Spatial Skills', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Logic', 'Answers Included', 'Visual Thinking'],
+    tierDesc: ['Simple 2×2 grids', 'Medium 3×3 grids', 'Advanced 4×4 grids'],
+    frameColor: '#1565C0',
+  },
+  'shadow-match': {
+    folder: 'shadow match', accent: 'violet', symbol: '👤', label: 'Shadow Match',
+    imgs: ['shadow-match-worksheet.webp', 'shadow-match-worksheet (1).webp', 'shadow-match-worksheet (2).webp', 'shadow-match-worksheet (3).webp', 'shadow-match-horizontal.webp', 'shadow-match-vertical.webp'],
+    answerKey: 'shadow-match-answer-key (1).webp',
+    pills: [{ label: 'Match Shadows', icon: '👤' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Find the Shadow!', 'Visual Matching', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Observation', 'Answers Included', 'Fun Challenge'],
+    tierDesc: ['Simple shadow pairs', 'Rotated shadows', 'Complex shadow puzzles'],
+    frameColor: '#4527A0',
+  },
+  bingo: {
+    folder: 'bingo', accent: 'red', symbol: '🎯', label: 'Bingo',
+    imgs: ['bingo_card.webp', 'bingo_card_1.webp', 'bingo_card_2.webp', 'bingo_card_3.webp', 'bingo_card_4.webp', 'callout.webp'],
+    answerKey: 'callout.webp',
+    pills: [{ label: 'Bingo Cards', icon: '🎯' }, { label: 'Callout Sheets', icon: '📋' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['BINGO!', 'Group Activity', 'Print & Play'],
+    galleryPills: ['Print-Ready', 'Group Fun', 'Custom Themes', 'Callouts Included'],
+    tierDesc: ['3×3 simple bingo', '4×4 picture bingo', '5×5 full bingo cards'],
+    frameColor: '#C62828',
+  },
+  'picture-sort': {
+    folder: 'picture sort', accent: 'orange', symbol: '📦', label: 'Picture Sort',
+    imgs: ['Picture Sort.webp', 'Picture Sort (1).webp', 'Picture Sort (2).webp', 'Picture Sort (3).webp', 'Picture Sort (5).webp', 'Picture Sort (6).webp'],
+    answerKey: 'Picture Sort answer_key (1).webp',
+    pills: [{ label: 'Sort & Classify', icon: '📦' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Sort It Out!', 'Categories', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Classification', 'Answers Included', 'Critical Thinking'],
+    tierDesc: ['2-category sorting', '3-category sorting', '4+ category challenges'],
+    frameColor: '#E65100',
+  },
+  'missing-pieces': {
+    folder: 'missing pieces', accent: 'indigo', symbol: '🧩', label: 'Missing Pieces',
+    imgs: ['Missing Pieces.webp', 'Missing Pieces (1).webp', 'Missing Pieces (2).webp', 'Missing Pieces (3).webp', 'Missing Pieces (6).webp', 'Missing Pieces (8).webp'],
+    answerKey: 'Missing Pieces answer_key (1).webp',
+    pills: [{ label: 'Find Missing Parts', icon: '🧩' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Complete the Picture!', 'Visual Logic', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Observation', 'Answers Included', 'Spatial Skills'],
+    tierDesc: ['Simple missing parts', 'Multi-piece puzzles', 'Complex visual challenges'],
+    frameColor: '#283593',
+  },
+  'odd-one-out': {
+    folder: 'odd one out', accent: 'amber', symbol: '❓', label: 'Odd One Out',
+    imgs: ['Find the Odd One Out.webp', 'Find the Odd One Out (1).webp', 'Find the Odd One Out (2).webp', 'Find the Odd One Out (3).webp', 'Find the Odd One Out (5).webp', 'Find the Odd One Out (6).webp'],
+    answerKey: 'Find the Odd One Out answer-key (1).webp',
+    pills: [{ label: 'Spot the Odd One', icon: '❓' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Which One Is Different?', 'Visual Reasoning', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Logic', 'Answers Included', 'Observation Skills'],
+    tierDesc: ['Simple 3-item groups', 'Medium 4-item groups', 'Advanced 6+ items'],
+    frameColor: '#FF8F00',
+  },
+  sudoku: {
+    folder: 'sudoku', accent: 'teal', symbol: '▦', label: 'Sudoku',
+    imgs: ['sudoku_easy.webp', 'sudoku medium.webp', 'sudoku hard.webp', 'sudoku_worksheet.webp', 'sudoku_worksheet (3).webp', 'sudoku_worksheet (5).webp'],
+    answerKey: 'sudoku_answer_key (1).webp',
+    pills: [{ label: 'Picture Sudoku', icon: '▦' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Sudoku Fun!', 'Logic Puzzles', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Brain Training', 'Answers Included', '3 Difficulties'],
+    tierDesc: ['Easy 4×4 picture sudoku', 'Medium 6×6 grids', 'Hard 9×9 challenges'],
+    frameColor: '#00695C',
+  },
+  'picture-path': {
+    folder: 'picture path', accent: 'green', symbol: '🛤', label: 'Picture Path',
+    imgs: ['Picture Pathway.webp', 'Picture Pathway (1).webp', 'Picture Pathway (2).webp', 'Picture Pathway (3).webp', 'Picture Pathway (5).webp', 'Picture Pathway (6).webp'],
+    answerKey: 'Picture Pathway answer_key (1).webp',
+    pills: [{ label: 'Follow the Path', icon: '🛤' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Find the Way!', 'Maze & Path', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Navigation', 'Answers Included', 'Fun Themes'],
+    tierDesc: ['Simple straight paths', 'Branching pathways', 'Complex maze paths'],
+    frameColor: '#2E7D32',
+  },
+  'find-and-count': {
+    folder: 'find and count', accent: 'sky', symbol: '👁', label: 'Find & Count',
+    imgs: ['I Spy 1.webp', 'I Spy 2.webp', 'I Spy 3.webp', 'I Spy 4.webp', 'I Spy 8.webp', 'I Spy 10.webp'],
+    answerKey: 'I Spy 1 answer_key.webp',
+    pills: [{ label: 'I Spy & Count', icon: '👁' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['I Spy!', 'Count & Find', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Counting', 'Answers Included', 'Themed Scenes'],
+    tierDesc: ['Find 3-5 objects', 'Count up to 10 items', 'Advanced multi-count scenes'],
+    frameColor: '#0277BD',
+  },
+  'find-objects': {
+    folder: 'find objects', accent: 'purple', symbol: '🔎', label: 'Find Objects',
+    imgs: ['spotworks_worksheet.webp', 'spotworks_worksheet (1).webp', 'spotworks_worksheet (2).webp', 'spotworks_worksheet (5).webp', 'spotworks_worksheet (8).webp', 'spotworks_worksheet (10).webp'],
+    answerKey: 'spotworks_answer_key (1).webp',
+    pills: [{ label: 'Hidden Objects', icon: '🔎' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Find Them All!', 'Sharp Eyes', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Observation', 'Answers Included', 'Detailed Scenes'],
+    tierDesc: ['Simple hidden objects', 'Moderate scene searches', 'Complex find challenges'],
+    frameColor: '#6A1B9A',
+  },
+  'treasure-hunt': {
+    folder: 'treasure hunt', accent: 'amber', symbol: '🗺', label: 'Treasure Hunt',
+    imgs: ['Treasure Hunt 1.webp', 'Treasure Hunt 2.webp', 'Treasure Hunt 3.webp', 'Treasure Hunt 4.webp', 'Treasure Hunt 5.webp', 'north south.webp'],
+    answerKey: 'Treasure Hunt 1 answer_key.webp',
+    pills: [{ label: 'Map Adventures', icon: '🗺' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Hunt for Treasure!', 'Map Reading', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Navigation', 'Answers Included', 'Adventure'],
+    tierDesc: ['Simple grid maps', 'Directional treasure maps', 'Complex multi-step hunts'],
+    frameColor: '#F57F17',
+  },
+  'big-small': {
+    folder: 'big small', accent: 'pink', symbol: '↕', label: 'Big & Small',
+    imgs: ['big-small-worksheet_worksheet.webp', 'big-small identical images.webp', 'big-small-different images.webp', 'big-small number 1-2-3.webp', 'big-small-worksheet_worksheet (5).webp', 'big-small-worksheet_worksheet (10).webp'],
+    answerKey: 'big-small-worksheet_answer_key (1).webp',
+    pills: [{ label: 'Size Comparison', icon: '↕' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Big or Small?', 'Visual Comparison', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Size Concepts', 'Answers Included', 'Visual Learning'],
+    tierDesc: ['Simple big vs small', 'Order by size', 'Complex comparisons'],
+    frameColor: '#C2185B',
+  },
+  'pattern-train': {
+    folder: 'pattern train', accent: 'orange', symbol: '🔄', label: 'Pattern Train',
+    imgs: ['pattern_train_worksheet.webp', 'pattern_train_worksheet (1).webp', 'pattern_train_worksheet (2).webp', 'pattern_train_worksheet (3).webp', 'pattern_train_worksheet (5).webp', 'pattern_train_worksheet (8).webp'],
+    answerKey: 'pattern_train_answer_key (1).webp',
+    pills: [{ label: 'Pattern Fun', icon: '🔄' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Complete the Pattern!', 'Train Theme', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Pattern Skills', 'Answers Included', 'Engaging Theme'],
+    tierDesc: ['AB patterns', 'ABC patterns', 'Complex ABCD patterns'],
+    frameColor: '#E65100',
+  },
+  'pattern-worksheet': {
+    folder: 'pattern worksheet', accent: 'violet', symbol: '◆', label: 'Pattern Worksheet',
+    imgs: ['pattern_worksheet.webp', 'pattern_worksheet (1).webp', 'pattern_worksheet (2).webp', 'pattern_worksheet (3).webp', 'pattern_worksheet (5).webp', 'pattern_worksheet (8).webp'],
+    answerKey: 'pattern_answer_key (1).webp',
+    pills: [{ label: 'Pattern Recognition', icon: '◆' }, { label: 'Answer Keys', icon: '✓' }, { label: 'Print-Ready', icon: '🖨' }, { label: 'Free Trial with Watermark', icon: '★' }],
+    spotPills: ['Spot the Pattern!', 'Logical Thinking', 'With Answer Keys'],
+    galleryPills: ['Print-Ready', 'Critical Thinking', 'Answers Included', 'Multiple Modes'],
+    tierDesc: ['Simple repeating patterns', 'Growing patterns', 'Complex mixed patterns'],
+    frameColor: '#4527A0',
+  },
+};
+
+// ─── Gradient presets ───
+const heroGradients = [
+  'linear-gradient(135deg, #fff7ed 0%, #fed7aa 30%, #fdba74 60%, #fb923c 100%)',
+  'linear-gradient(155deg, #F3E5F5 0%, #FCE4EC 50%, #FFF3E0 100%)',
+  'linear-gradient(145deg, #ecfdf5 0%, #d1fae5 40%, #a7f3d0 100%)',
+  'linear-gradient(135deg, #eff6ff 0%, #dbeafe 40%, #bfdbfe 100%)',
+  'linear-gradient(155deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%)',
+  'linear-gradient(135deg, #f5f3ff 0%, #ede9fe 40%, #ddd6fe 100%)',
+  'linear-gradient(145deg, #ecfeff 0%, #cffafe 40%, #a5f3fc 100%)',
+  'linear-gradient(135deg, #fefce8 0%, #fef9c3 40%, #fde68a 100%)',
+];
+
+const tieredGradients = [
+  'linear-gradient(180deg, #dbeafe 0%, #fef3c7 40%, #fed7aa 70%, #fecaca 100%)',
+  'linear-gradient(180deg, #f3e8ff 0%, #fce7f3 40%, #fef3c7 100%)',
+  'linear-gradient(180deg, #d1fae5 0%, #dbeafe 40%, #fef3c7 100%)',
+  'linear-gradient(180deg, #cffafe 0%, #dbeafe 40%, #ede9fe 100%)',
+  'linear-gradient(180deg, #fce7f3 0%, #fef3c7 40%, #d1fae5 100%)',
+];
+
+const spotlightGradients = [
+  'linear-gradient(180deg, #faf5ff 0%, #f3e8ff 50%, #ede9fe 100%)',
+  'linear-gradient(180deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%)',
+  'linear-gradient(180deg, #ecfdf5 0%, #d1fae5 50%, #a7f3d0 100%)',
+  'linear-gradient(180deg, #eff6ff 0%, #dbeafe 50%, #bfdbfe 100%)',
+  'linear-gradient(180deg, #fff7ed 0%, #fed7aa 50%, #fdba74 100%)',
+  'linear-gradient(180deg, #fefce8 0%, #fef9c3 50%, #fde68a 100%)',
+];
+
+const galleryGradient = 'linear-gradient(180deg, #fefcf3 0%, #fdf6e3 50%, #f5edd6 100%)';
+
+// ─── Config generator ───
+// Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
+// The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
+
+function buildConfig(
+  apps: [string, string, string, string],
+  pageTitle: string,
+  seed: number,
+): PageShowcaseConfig {
+  const [a1, a2, a3, a4] = apps;
+  const d1 = appData[a1] || appData.addition;
+  const d2 = appData[a2] || appData.wordsearch;
+  const d3 = appData[a3] || appData.coloring;
+  const d4 = appData[a4] || appData.matching;
+
+  return {
+    hero: {
+      gradient: heroGradients[seed % heroGradients.length],
+      accentColor: d1.accent,
+      badge: 'Professional Printables',
+      heading: pageTitle,
+      subheading: `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
+      images: [
+        { src: img(d1.folder, d1.imgs[0]), alt: `${d1.label} worksheet sample 1` },
+        { src: img(d1.folder, d1.imgs[1]), alt: `${d1.label} worksheet sample 2` },
+        { src: img(d1.folder, d1.imgs[2]), alt: `${d1.label} worksheet sample 3` },
+      ],
+      pills: d1.pills,
+      decorativeSymbol: d1.symbol,
+    },
+    tiered: {
+      gradient: tieredGradients[seed % tieredGradients.length],
+      badge: 'Skill Levels',
+      heading: 'Worksheets for Every Level',
+      subheading: 'Three difficulty tiers for differentiated content',
+      tiers: [
+        {
+          name: 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          image: { src: img(d2.folder, d2.imgs[0]), alt: `${d2.label} beginner worksheet` },
+          desc: d2.tierDesc[0],
+        },
+        {
+          name: 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          image: { src: img(d3.folder, d3.imgs[1]), alt: `${d3.label} intermediate worksheet` },
+          desc: d3.tierDesc[1],
+        },
+        {
+          name: 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          image: { src: img(d4.folder, d4.imgs[2]), alt: `${d4.label} advanced worksheet` },
+          desc: d4.tierDesc[2],
+        },
+      ],
+      trophyText: 'Professional quality at every difficulty level',
+    },
+    spotlight: {
+      gradient: spotlightGradients[seed % spotlightGradients.length],
+      heading: `${d1.label} Showcase`,
+      tagline: 'See What You Can Create!',
+      image: { src: img(d1.folder, d1.imgs[3]), alt: `Featured ${d1.label.toLowerCase()} worksheet` },
+      pills: d1.spotPills,
+      hasBunting: seed % 2 === 0,
+      hasConfetti: true,
+      accentColor: d1.accent,
+    },
+    gallery: {
+      gradient: galleryGradient,
+      heading: 'Professional Worksheet Gallery',
+      subheading: 'Clean, polished layouts ready for your business',
+      items: [
+        { image: { src: img(d2.folder, d2.imgs[3]), alt: `${d2.label} professional worksheet` }, label: d2.label },
+        { image: { src: img(d3.folder, d3.imgs[4]), alt: `${d3.label} professional worksheet` }, label: d3.label },
+        { image: { src: img(d4.folder, d4.imgs[0]), alt: `${d4.label} professional worksheet` }, label: d4.label },
+      ],
+      pills: ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
+      frameColor: d1.frameColor,
+    },
+  };
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// PAGE ASSIGNMENTS — pageType + pageId → 4 app IDs + display title
+// ═══════════════════════════════════════════════════════════════════
+
+interface PageEntry {
+  type: 'guide' | 'bundle' | 'idea' | 'start';
+  id: string;
+  title: string;
+  apps: [string, string, string, string];
+}
+
+const pages: PageEntry[] = [
+  // ─── GUIDES (65) ───
+  { type: 'guide', id: 'sell-math-worksheets-etsy', title: 'Math Worksheets for Etsy', apps: ['addition', 'subtraction', 'math-puzzle', 'math-worksheet'] },
+  { type: 'guide', id: 'sell-word-search-etsy', title: 'Word Search for Etsy', apps: ['wordsearch', 'crossword', 'word-scramble', 'cryptogram'] },
+  { type: 'guide', id: 'start-etsy-printable-shop', title: 'Start Your Etsy Shop', apps: ['addition', 'wordsearch', 'coloring', 'matching'] },
+  { type: 'guide', id: 'create-etsy-coloring-pages', title: 'Coloring Pages for Etsy', apps: ['coloring', 'draw-and-color', 'big-small', 'alphabet-train'] },
+  { type: 'guide', id: 'sell-educational-printables-etsy', title: 'Educational Printables', apps: ['addition', 'wordsearch', 'coloring', 'matching'] },
+  { type: 'guide', id: 'price-etsy-printables', title: 'Pricing Your Printables', apps: ['addition', 'wordsearch', 'sudoku', 'coloring'] },
+  { type: 'guide', id: 'etsy-seo-educational-printables', title: 'Etsy SEO for Printables', apps: ['wordsearch', 'addition', 'coloring', 'sudoku'] },
+  { type: 'guide', id: 'create-etsy-worksheet-bundles', title: 'Worksheet Bundles', apps: ['addition', 'subtraction', 'wordsearch', 'coloring'] },
+  { type: 'guide', id: 'math-activity-books-kdp', title: 'Math Activity Books', apps: ['addition', 'subtraction', 'math-puzzle', 'math-worksheet'] },
+  { type: 'guide', id: 'publish-puzzle-books-kdp', title: 'Puzzle Books for KDP', apps: ['wordsearch', 'crossword', 'sudoku', 'math-puzzle'] },
+  { type: 'guide', id: 'word-search-books-kdp', title: 'Word Search Books', apps: ['wordsearch', 'crossword', 'math-puzzle', 'bingo'] },
+  { type: 'guide', id: 'make-money-kdp-activity-books', title: 'KDP Activity Books', apps: ['math-worksheet', 'wordsearch', 'sudoku', 'coloring'] },
+  { type: 'guide', id: 'kdp-formatting-worksheets', title: 'KDP Formatting Guide', apps: ['math-worksheet', 'addition', 'wordsearch', 'writing'] },
+  { type: 'guide', id: 'best-kdp-activity-book-niches', title: 'Best KDP Niches', apps: ['math-worksheet', 'wordsearch', 'coloring', 'sudoku'] },
+  { type: 'guide', id: 'sudoku-books-kdp', title: 'Sudoku Books for KDP', apps: ['sudoku', 'math-puzzle', 'wordsearch', 'coloring'] },
+  { type: 'guide', id: 'kdp-vs-etsy-printables', title: 'KDP vs Etsy', apps: ['wordsearch', 'addition', 'coloring', 'math-puzzle'] },
+  { type: 'guide', id: 'create-sell-tpt-resources', title: 'TPT Resources', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'guide', id: 'tpt-store-optimization', title: 'TPT Store Optimization', apps: ['wordsearch', 'math-puzzle', 'matching', 'crossword'] },
+  { type: 'guide', id: 'sell-printables-gumroad', title: 'Sell on Gumroad', apps: ['coloring', 'wordsearch', 'math-worksheet', 'matching'] },
+  { type: 'guide', id: 'sell-creative-fabrica', title: 'Sell on Creative Fabrica', apps: ['coloring', 'matching', 'wordsearch', 'drawing-lines'] },
+  { type: 'guide', id: 'create-addition-worksheets', title: 'Addition Worksheets', apps: ['addition', 'math-worksheet', 'code-addition', 'subtraction'] },
+  { type: 'guide', id: 'create-subtraction-worksheets', title: 'Subtraction Worksheets', apps: ['subtraction', 'addition', 'math-worksheet', 'code-addition'] },
+  { type: 'guide', id: 'create-word-search-puzzles', title: 'Word Search Puzzles', apps: ['wordsearch', 'crossword', 'word-scramble', 'cryptogram'] },
+  { type: 'guide', id: 'create-crossword-puzzles', title: 'Crossword Puzzles', apps: ['crossword', 'wordsearch', 'word-scramble', 'cryptogram'] },
+  { type: 'guide', id: 'create-math-puzzle-worksheets', title: 'Math Puzzle Worksheets', apps: ['math-puzzle', 'addition', 'subtraction', 'code-addition'] },
+  { type: 'guide', id: 'create-handwriting-sheets', title: 'Handwriting Sheets', apps: ['writing', 'alphabet-train', 'drawing-lines', 'word-guess'] },
+  { type: 'guide', id: 'create-coloring-pages', title: 'Coloring Pages', apps: ['coloring', 'draw-and-color', 'drawing-lines', 'pattern-worksheet'] },
+  { type: 'guide', id: 'create-bingo-cards', title: 'Bingo Cards', apps: ['bingo', 'matching', 'picture-sort', 'grid-match'] },
+  { type: 'guide', id: 'create-matching-worksheets', title: 'Matching Worksheets', apps: ['matching', 'bingo', 'grid-match', 'shadow-match'] },
+  { type: 'guide', id: 'create-pattern-worksheets', title: 'Pattern Worksheets', apps: ['pattern-worksheet', 'pattern-train', 'big-small', 'matching'] },
+  { type: 'guide', id: 'create-picture-sudoku', title: 'Picture Sudoku', apps: ['sudoku', 'pattern-worksheet', 'matching', 'bingo'] },
+  { type: 'guide', id: 'create-maze-worksheets', title: 'Maze Worksheets', apps: ['picture-path', 'sudoku', 'treasure-hunt', 'find-objects'] },
+  { type: 'guide', id: 'create-hidden-object-worksheets', title: 'Hidden Object Worksheets', apps: ['find-objects', 'find-and-count', 'picture-path', 'wordsearch'] },
+  { type: 'guide', id: 'create-size-comparison-worksheets', title: 'Size Comparison Worksheets', apps: ['big-small', 'more-less', 'pattern-worksheet', 'odd-one-out'] },
+  { type: 'guide', id: 'create-counting-worksheets', title: 'Counting Worksheets', apps: ['chart-count', 'addition', 'more-less', 'matching'] },
+  { type: 'guide', id: 'create-drawing-worksheets', title: 'Drawing Worksheets', apps: ['draw-and-color', 'drawing-lines', 'coloring', 'pattern-train'] },
+  { type: 'guide', id: 'create-sorting-worksheets', title: 'Sorting Worksheets', apps: ['picture-sort', 'matching', 'odd-one-out', 'bingo'] },
+  { type: 'guide', id: 'create-shadow-matching-worksheets', title: 'Shadow Matching', apps: ['shadow-match', 'matching', 'picture-sort', 'odd-one-out'] },
+  { type: 'guide', id: 'create-odd-one-out-puzzles', title: 'Odd One Out Puzzles', apps: ['odd-one-out', 'shadow-match', 'missing-pieces', 'picture-sort'] },
+  { type: 'guide', id: 'create-missing-pieces-puzzles', title: 'Missing Pieces Puzzles', apps: ['missing-pieces', 'odd-one-out', 'shadow-match', 'grid-match'] },
+  { type: 'guide', id: 'create-treasure-hunt-worksheets', title: 'Treasure Hunt Worksheets', apps: ['treasure-hunt', 'find-objects', 'picture-path', 'grid-match'] },
+  { type: 'guide', id: 'create-alphabet-worksheets', title: 'Alphabet Worksheets', apps: ['alphabet-train', 'writing', 'wordsearch', 'pattern-train'] },
+  { type: 'guide', id: 'create-preposition-worksheets', title: 'Preposition Worksheets', apps: ['prepositions', 'alphabet-train', 'word-guess', 'matching'] },
+  { type: 'guide', id: 'create-cryptogram-puzzles', title: 'Cryptogram Puzzles', apps: ['cryptogram', 'wordsearch', 'word-scramble', 'word-guess'] },
+  { type: 'guide', id: 'create-chart-count-worksheets', title: 'Chart & Count Worksheets', apps: ['chart-count', 'big-small', 'pattern-train', 'matching'] },
+  { type: 'guide', id: 'create-worksheet-bundles', title: 'Worksheet Bundles', apps: ['addition', 'wordsearch', 'coloring', 'matching'] },
+  { type: 'guide', id: 'niche-selection-printables', title: 'Niche Selection', apps: ['wordsearch', 'coloring', 'matching', 'addition'] },
+  { type: 'guide', id: 'create-printable-product-line', title: 'Product Line Creation', apps: ['matching', 'addition', 'coloring', 'wordsearch'] },
+  { type: 'guide', id: 'pricing-educational-printables', title: 'Pricing Strategy', apps: ['math-worksheet', 'addition', 'wordsearch', 'coloring'] },
+  { type: 'guide', id: 'scale-printable-business-guide', title: 'Scale Your Business', apps: ['draw-and-color', 'math-worksheet', 'wordsearch', 'matching'] },
+  { type: 'guide', id: 'passive-income-worksheets', title: 'Passive Income', apps: ['math-worksheet', 'addition', 'wordsearch', 'matching'] },
+  { type: 'guide', id: 'understanding-commercial-licenses', title: 'Commercial Licenses', apps: ['wordsearch', 'addition', 'coloring', 'matching'] },
+  { type: 'guide', id: 'research-profitable-niches', title: 'Research Niches', apps: ['matching', 'wordsearch', 'coloring', 'math-worksheet'] },
+  { type: 'guide', id: 'multilingual-printable-business', title: 'Multilingual Printables', apps: ['wordsearch', 'word-guess', 'matching', 'addition'] },
+  { type: 'guide', id: 'worksheets-multiple-languages', title: 'Multi-Language Worksheets', apps: ['alphabet-train', 'wordsearch', 'word-guess', 'prepositions'] },
+  { type: 'guide', id: 'copyright-printable-sellers', title: 'Copyright Guide', apps: ['writing', 'wordsearch', 'coloring', 'math-worksheet'] },
+  { type: 'guide', id: 'customer-support-digital-products', title: 'Customer Support', apps: ['matching', 'addition', 'wordsearch', 'math-worksheet'] },
+  { type: 'guide', id: 'automate-printable-business', title: 'Automate Your Business', apps: ['math-worksheet', 'addition', 'wordsearch', 'coloring'] },
+  { type: 'guide', id: 'social-media-printable-marketing', title: 'Social Media Marketing', apps: ['bingo', 'coloring', 'wordsearch', 'matching'] },
+  { type: 'guide', id: 'pinterest-marketing-worksheets', title: 'Pinterest Marketing', apps: ['coloring', 'bingo', 'wordsearch', 'matching'] },
+  { type: 'guide', id: 'email-marketing-printables', title: 'Email Marketing', apps: ['wordsearch', 'coloring', 'addition', 'matching'] },
+  { type: 'guide', id: 'get-reviews-printable-products', title: 'Getting Reviews', apps: ['matching', 'coloring', 'wordsearch', 'addition'] },
+  { type: 'guide', id: 'seasonal-marketing-printables', title: 'Seasonal Marketing', apps: ['bingo', 'coloring', 'wordsearch', 'find-and-count'] },
+  { type: 'guide', id: 'digital-vs-physical-printables', title: 'Digital vs Physical', apps: ['addition', 'coloring', 'wordsearch', 'bingo'] },
+  { type: 'guide', id: 'quality-standards-worksheets', title: 'Quality Standards', apps: ['wordsearch', 'addition', 'coloring', 'math-worksheet'] },
+
+  // ─── BUNDLES (6) ───
+  { type: 'bundle', id: 'math-bundle', title: 'Math & Number Bundle', apps: ['addition', 'subtraction', 'code-addition', 'more-less'] },
+  { type: 'bundle', id: 'literacy-bundle', title: 'Letters & Words Bundle', apps: ['alphabet-train', 'prepositions', 'word-guess', 'word-scramble'] },
+  { type: 'bundle', id: 'visual-bundle', title: 'Drawing & Art Bundle', apps: ['big-small', 'pattern-train', 'pattern-worksheet', 'draw-and-color'] },
+  { type: 'bundle', id: 'matching-bundle', title: 'Matching & Sorting Bundle', apps: ['matching', 'grid-match', 'shadow-match', 'bingo'] },
+  { type: 'bundle', id: 'puzzle-bundle', title: 'Puzzles & Games Bundle', apps: ['missing-pieces', 'odd-one-out', 'sudoku', 'picture-path'] },
+  { type: 'bundle', id: 'search-bundle', title: 'Search & Find Bundle', apps: ['find-and-count', 'find-objects', 'crossword', 'treasure-hunt'] },
+
+  // ─── IDEAS (45) ───
+  { type: 'idea', id: 'farm-animals-printable-ideas', title: 'Farm Animals Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'ocean-animals-printable-ideas', title: 'Ocean Animals Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'safari-animals-printable-ideas', title: 'Safari Animals Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'pets-printable-ideas', title: 'Pets Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'dinosaur-printable-ideas', title: 'Dinosaur Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'birds-printable-ideas', title: 'Birds Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'insects-printable-ideas', title: 'Insects Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'forest-animals-printable-ideas', title: 'Forest Animals Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'christmas-printable-ideas', title: 'Christmas Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'halloween-printable-ideas', title: 'Halloween Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'easter-printable-ideas', title: 'Easter Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'valentines-day-printable-ideas', title: "Valentine's Day Printables", apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'back-to-school-printable-ideas', title: 'Back to School Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'summer-printable-ideas', title: 'Summer Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'winter-printable-ideas', title: 'Winter Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'spring-printable-ideas', title: 'Spring Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'thanksgiving-printable-ideas', title: 'Thanksgiving Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'parents-day-printable-ideas', title: "Parents' Day Printables", apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'space-printable-ideas', title: 'Space Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'transportation-printable-ideas', title: 'Transportation Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'food-cooking-printable-ideas', title: 'Food & Cooking Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'sports-printable-ideas', title: 'Sports Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'music-printable-ideas', title: 'Music Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'construction-printable-ideas', title: 'Construction Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'pirates-printable-ideas', title: 'Pirates Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'fairy-tale-printable-ideas', title: 'Fairy Tale Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'camping-printable-ideas', title: 'Camping Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'underwater-printable-ideas', title: 'Underwater Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'preschool-printable-ideas', title: 'Preschool Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'kindergarten-printable-ideas', title: 'Kindergarten Printables', apps: ['find-and-count', 'wordsearch', 'matching', 'addition'] },
+  { type: 'idea', id: 'first-grade-printable-ideas', title: 'First Grade Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'second-grade-printable-ideas', title: 'Second Grade Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'third-grade-printable-ideas', title: 'Third Grade Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'homeschool-printable-ideas', title: 'Homeschool Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'special-education-printable-ideas', title: 'Special Education Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'esl-printable-ideas', title: 'ESL Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'summer-learning-printable-ideas', title: 'Summer Learning Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'math-facts-printable-ideas', title: 'Math Facts Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'subscription-box-printable-ideas', title: 'Subscription Box Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'print-on-demand-printable-ideas', title: 'Print on Demand Printables', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'digital-download-printable-ideas', title: 'Digital Download Ideas', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'physical-printable-product-ideas', title: 'Physical Product Ideas', apps: ['addition', 'wordsearch', 'matching', 'coloring'] },
+  { type: 'idea', id: 'party-supply-printable-ideas', title: 'Party Supply Printables', apps: ['wordsearch', 'coloring', 'bingo', 'matching'] },
+  { type: 'idea', id: 'custom-worksheet-service-ideas', title: 'Custom Worksheet Services', apps: ['addition', 'wordsearch', 'coloring', 'bingo'] },
+  { type: 'idea', id: 'bulk-licensing-printable-ideas', title: 'Bulk Licensing Ideas', apps: ['addition', 'wordsearch', 'coloring', 'bingo'] },
+
+  // ─── START (12) ───
+  { type: 'start', id: 'complete-guide-printable-business', title: 'Complete Printable Business Guide', apps: ['wordsearch', 'addition', 'coloring', 'matching'] },
+  { type: 'start', id: 'create-worksheets-that-sell', title: 'Create Worksheets That Sell', apps: ['addition', 'subtraction', 'wordsearch', 'coloring'] },
+  { type: 'start', id: 'printable-business-blueprint', title: 'Printable Business Blueprint', apps: ['math-puzzle', 'wordsearch', 'coloring', 'addition'] },
+  { type: 'start', id: 'etsy-printable-business', title: 'Etsy Printable Business', apps: ['coloring', 'wordsearch', 'addition', 'find-and-count'] },
+  { type: 'start', id: 'amazon-kdp-activity-books', title: 'Amazon KDP Activity Books', apps: ['sudoku', 'wordsearch', 'math-puzzle', 'crossword'] },
+  { type: 'start', id: 'create-multilingual-worksheets', title: 'Multilingual Worksheets', apps: ['wordsearch', 'crossword', 'word-scramble', 'alphabet-train'] },
+  { type: 'start', id: 'commercial-license-guide', title: 'Commercial License Guide', apps: ['wordsearch', 'addition', 'coloring', 'crossword'] },
+  { type: 'start', id: 'printable-business-income', title: 'Printable Business Income', apps: ['math-worksheet', 'wordsearch', 'coloring', 'sudoku'] },
+  { type: 'start', id: 'tools-for-printable-business', title: 'Tools for Your Business', apps: ['matching', 'wordsearch', 'math-worksheet', 'coloring'] },
+  { type: 'start', id: 'marketing-printable-business', title: 'Marketing Your Business', apps: ['bingo', 'wordsearch', 'coloring', 'math-worksheet'] },
+  { type: 'start', id: 'scaling-printable-business', title: 'Scaling Your Business', apps: ['draw-and-color', 'wordsearch', 'math-worksheet', 'coloring'] },
+  { type: 'start', id: 'printable-business-legal', title: 'Legal Guide for Printables', apps: ['writing', 'wordsearch', 'math-worksheet', 'crossword'] },
+];
+
+// ─── Build config map ───
+type PageKey = `${'guide' | 'bundle' | 'idea' | 'start'}:${string}`;
+const configMap = new Map<PageKey, PageShowcaseConfig>();
+
+pages.forEach((p, i) => {
+  configMap.set(`${p.type}:${p.id}` as PageKey, buildConfig(p.apps, p.title, i));
+});
+
+// ─── Public API ───
+export function getPageShowcaseConfig(
+  pageType: 'guide' | 'bundle' | 'idea' | 'start',
+  pageId: string,
+): PageShowcaseConfig | null {
+  return configMap.get(`${pageType}:${pageId}` as PageKey) ?? null;
+}

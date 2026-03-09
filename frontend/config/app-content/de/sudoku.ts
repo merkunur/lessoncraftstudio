@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Bild-Sudoku-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Logikrätsel Werkzeuge',
     ],
-    titleTag: 'Bilder-Sudoku-Generator | 4×4-Bild-Sudoku erstellen und verkaufen',
-    metaDescription:
-      'Professionelle 4×4-Bilder-Sudoku-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Drei Schwierigkeitsgrade, automatischer Lösungsschlüssel mit vollständigem Raster, 104 Themen, rein visuelle Rätsel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Bilder-Sudoku-Generator | 4×4-Bild-Sudoku',
+    metaDescription: 'Bilder-Sudoku erstellen und auf Etsy, KDP verkaufen. 4×4-Raster, drei Schwierigkeitsgrade, rein visuelle Rätsel, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

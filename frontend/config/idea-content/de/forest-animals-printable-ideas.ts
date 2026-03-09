@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Waldtiere Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Waldtier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Waldtier-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Waldtier-Arbeitsblätter auf Etsy erstellen',
+      'Wald-Tierwelt-Druckvorlagen auf KDP verkaufen',
+      'Fuchs-Hirsch-Eule Aktivitätsblätter für TPT',
+      'Wald-Natur-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Naturthema Druckvorlagen Ganzjahres-Nische',
+      'Waldtiere-Bildungsthema Arbeitsblatt-Markt',
+      'Fuchs-Bär-Reh Lernmaterialien Etsy-Verkauf',
+    ],
+    titleTag: 'Waldtiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Waldtier-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für erfolgreiche Arbeitsblatt-Verkäufer online.',
   },
   hero: {
     title: 'Waldtier-Druckvorlagen: Geschäftsideen für Verkäufer',

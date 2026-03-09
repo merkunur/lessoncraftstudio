@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Wort-Entwirr-Arbeitsblätter',
       'kommerzieller Buchstabensalat-Generator Rechtschreibtraining',
     ],
-    titleTag: 'Buchstabensalat-Arbeitsblatt-Generator | Buchstaben-Rätsel erstellen und verkaufen',
-    metaDescription:
-      'Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Gemischte Buchstabenplättchen, 4 Schwierigkeitsstufen, Vokal-Konsonanten-Farbcodierung, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
+    metaDescription: 'Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Buchstabenplättchen, Vokal-Farbcodierung, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

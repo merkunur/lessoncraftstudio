@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Essen & Kochen Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Essen- und Koch-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Rezeptthemen-Produktkonzepte, Plattformstrategien und Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Essen-und-Koch-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Koch-Arbeitsblätter auf Etsy erstellen',
+      'Lebensmittel-Aktivitätsblätter auf KDP verkaufen',
+      'Küchen-Thema Druckvorlagen auf TPT anbieten',
+      'Rezept-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Ernährungs-Bildungsthema Druckvorlagen-Nische',
+      'Kochen-Lebensmittel Arbeitsblätter Etsy-Markt',
+      'Hauswirtschaft-Thema Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Essen & Kochen Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Essen- und Koch-Druckvorlagen-Ideen für Etsy, KDP und TPT. Rezeptthemen-Produktkonzepte und Plattformstrategien für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Essen & Kochen Druckvorlagen-Geschäftsideen für Verkäufer',

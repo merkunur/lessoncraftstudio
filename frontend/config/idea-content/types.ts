@@ -1,5 +1,11 @@
 export interface IdeaContent {
-  seo: { titleTag: string; metaDescription: string };
+  seo: {
+    primaryKeyword?: string;
+    secondaryKeywords?: string[];
+    lsiKeywords?: string[];
+    titleTag: string;
+    metaDescription: string;
+  };
   hero: { title: string; description: string };
   marketOverview?: string;
   productIdeas?: { title: string; description: string; appId: string }[];

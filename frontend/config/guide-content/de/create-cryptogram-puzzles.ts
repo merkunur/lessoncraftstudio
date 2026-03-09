@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Kryptogramm-Arbeitsblatt-Tool',
     ],
     titleTag: 'Kryptogramm-Rätsel erstellen — Anleitung',
-    metaDescription: 'Kryptogramm-Rätsel mit Bildchiffre-Codierung erstellen. Aufzudeckende Buchstaben (0–10) Schwierigkeit, Automatische und Manuelle Zuweisung, sprachspezifisches Alphabet in 11 Sprachen, Buchstabenlegenden-Lösungsschlüssel.',
+    metaDescription: 'Kryptogramm-Rätsel mit Bildchiffre erstellen. Schwierigkeit über aufzudeckende Buchstaben steuern. 11 Sprachen, Lösungsschlüssel. Anleitung für Etsy und KDP.',
   },
 
   hero: {

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'einstellbarer Hinweisprozentsatz-Arbeitsblatt-Generator',
       'Symmetriemodus-Spiegelzeichnen-Arbeitsblatt-Ersteller',
     ],
-    titleTag: 'Rasterzeichnen-Arbeitsblatt-Generator — Gitterzeichnungs-Ersteller | Verkaufen',
-    metaDescription: 'Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem (Übungsraster + Hinweisraster), einstellbarem Hinweisprozent von 10 % bis 75 %, drei Symmetriemodi, konfigurierbaren Rastergrößen von 3×3 bis 10×10 und über 100 S&W-Umriss-Themensammlungen erstellen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Rasterzeichnen-Generator | Gitter-Zeichnungen',
+    metaDescription: 'Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem und Hinweisprozent 10–75% erstellen. Drei Symmetriemodi, 100+ Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

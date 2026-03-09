@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Schreibübungen auf Etsy verkaufen',
       'Amazon KDP Schreibübungs-Arbeitshefte',
     ],
-    titleTag: 'Schreibübungen-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Erstellen Sie Schreibübungen mit Nachfahr-, Verblassendem-Nachfahr- und Geführtem-Abschreib-Modus. Strichreihenfolge-Pfeile, fünf Schriftarten und PDF-Export für Etsy und KDP.',
+    titleTag: 'Schreibübungen-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Schreibübungen mit Nachfahr- und Geführtem-Abschreib-Modus erstellen. Strichreihenfolge-Pfeile, fünf Schriftarten und druckfertige PDFs für Etsy KDP-Verkauf.',
   },
 
   hero: {

@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerzielle Lizenz Zuordnungs-Arbeitsblätter',
       'Zuordnungs-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Zuordnung-Sortierung-Arbeitsblatt-Paket — 5 Generatoren | Zuordnung & Sortierung',
-    metaDescription: 'Holen Sie sich 5 professionelle Zuordnungs- und Sortier-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Zuordnungs-, Raster-Puzzle-, Schattenbilder-, Bingo-Karten- und Bilder-Sortieren-Arbeitsblätter zum Verkauf auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.',
+    titleTag: 'Zuordnung & Sortierung — 5-Generatoren-Paket',
+    metaDescription: '5 Zuordnungs-Generatoren im Paket: Zuordnung, Raster-Puzzle, Schattenbilder, Bingo und Sortieren. Verkaufen auf Etsy, KDP und Lehrermarktplatz mit Lizenz.',
   },
 
   hero: {

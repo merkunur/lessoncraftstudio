@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Camping-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Camping-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Outdoor-Produktkonzepte, Plattformstrategien und Nischentipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Camping-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Camping-Arbeitsblätter auf Etsy erstellen',
+      'Outdoor-Aktivitätsblätter auf KDP verkaufen',
+      'Natur-Druckvorlagen Camping-Thema für TPT',
+      'Sommerlager-Arbeitsblätter für Druckvorlagen-Verkäufer',
+    ],
+    lsiKeywords: [
+      'saisonal-plus-evergreen Outdoor-Nische',
+      'Campingplatz-Lernmaterialien Etsy-Markt',
+      'Wandern-Natur-Thema Arbeitsblatt-Geschäft',
+    ],
+    titleTag: 'Camping-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Camping-Druckvorlagen-Ideen für Etsy, KDP und TPT. Outdoor-Produktkonzepte, Plattformstrategien und Nischentipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Camping-Druckvorlagen-Geschäftsideen für Verkäufer',

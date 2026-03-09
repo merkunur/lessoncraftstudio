@@ -14,8 +14,8 @@ const content: ToolContent = {
       'überlappungsfreie Szenengeneration adaptive Bildgrößenanpassung Algorithmus',
       'automatischer Lösungsschlüssel rote Kreis-Markierungen Suchbilder-Generator',
     ],
-    titleTag: 'Suchbilder-Ersteller — Suchbilder-Arbeitsblatt-Generator für Verkäufer',
-    metaDescription: 'Erstellen Sie Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi — Ich-sehe-was (verteilte Suchszenen mit überlappungsfreier Platzierung und Legende) und Welches-passt-nicht (gepaarte Bilder mit unpaaren Elementen). Automatische Lösungsschlüssel mit roten Kreis-Markierungen, adaptiver Platzierungsalgorithmus, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Suchbilder-Ersteller | Versteckte-Objekte-Rätsel',
+    metaDescription: 'Suchbild-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
   },
 
   hero: {

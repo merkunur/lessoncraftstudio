@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Alphabet-Zug-Aktivität Arbeitsblatt-Tool',
       'mehrsprachige Buchstabenerkennung Generator',
     ],
-    titleTag: 'Alphabet-Zug-Arbeitsblatt-Generator | Buchstabenzug-Druckvorlagen erstellen & verkaufen',
-    metaDescription: 'Farbenfrohe Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. Einzigartige mehrsprachige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Alphabet-Zug-Generator | Buchstabenzug-Ersteller',
+    metaDescription: 'Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

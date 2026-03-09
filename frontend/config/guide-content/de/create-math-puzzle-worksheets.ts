@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Mathe-Rätsel-Bücher',
       'kommerzielle Lizenz Rätsel-Ersteller',
     ],
-    titleTag: 'Mathe-Rätsel-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Mathe-Rätsel-Arbeitsblätter erstellen, bei denen Kinder Gleichungen lösen, um Bilder zusammenzusetzen. Rastergrößen, Rechenoperationen, Lösungsschlüssel und Tipps zum Verkauf auf Etsy und KDP.',
+    titleTag: 'Mathe-Rätsel-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Mathe-Rätsel-Arbeitsblätter erstellen, bei denen Kinder Gleichungen lösen. Rastergrößen, Rechenoperationen und Lösungsschlüssel. Verkaufen auf Etsy und KDP.',
   },
 
   hero: {

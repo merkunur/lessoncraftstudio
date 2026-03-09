@@ -18,7 +18,7 @@ const content: StartContent = {
       'kommerzielle Lizenz Druckvorlagen-Werkzeuge',
     ],
     titleTag: 'Druckvorlagen-Geschäft starten — Komplettanleitung',
-    metaDescription: 'Druckvorlagen-Geschäft von Grund auf starten. Schritt-für-Schritt-Anleitung für Etsy.de, Amazon KDP und Lehrermarktplatz-Verkäufer mit Arbeitsblatt-Generatoren für Produkte, die sich verkaufen.',
+    metaDescription: 'Druckvorlagen-Geschäft starten. Schritt-für-Schritt-Anleitung für Etsy, KDP und Lehrermarktplatz mit Arbeitsblatt-Generatoren für Produkte, die sich verkaufen.',
   },
 
   hero: {

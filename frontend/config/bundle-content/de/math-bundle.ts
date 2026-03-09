@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerzielle Lizenz Mathe-Arbeitsblätter',
       'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Paket — 6 Generatoren | Mathematik-Meister',
-    metaDescription: 'Holen Sie sich 6 professionelle Mathe-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Additions-, Subtraktions-, Code-Rätsel-, Vergleichs-, Puzzle- und Algebra-Arbeitsblätter zum Verkauf auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.',
+    titleTag: 'Mathe-Arbeitsblatt-Paket — 6 Mathe-Generatoren',
+    metaDescription: '6 Mathe-Generatoren im Paket: Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra. Verkaufen auf Etsy, KDP und Lehrermarktplatz mit Lizenz.',
   },
 
   hero: {

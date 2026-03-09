@@ -18,7 +18,7 @@ const content: GuideContent = {
       'internationale Preisgestaltung Währung Etsy digitale Downloads A4 Letter',
     ],
     titleTag: 'Etsy Druckvorlagen Preisgestaltung — Preisleitfaden',
-    metaDescription: 'Druckbare Arbeitsblätter auf Etsy bepreisen mit Gebührenberechnung, dreistufiger Preisstruktur, Bündelstrategien und saisonalen Anpassungen. Vollständiger Preisleitfaden für Arbeitsblatt-Verkäufer.',
+    metaDescription: 'Druckbare Arbeitsblätter auf Etsy bepreisen. Gebührenberechnung, dreistufige Preisstruktur und Bündelstrategien. Saisonale Anpassungen für mehr Gewinn.',
   },
 
   hero: {

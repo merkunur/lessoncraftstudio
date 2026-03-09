@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sommerlernen-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Sommerlernen-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im saisonalen Hochnachfrage-Markt, in dem Eltern, Lehrer und Feriencamp-Leiter Sommerbrücken-Arbeitsblätter, Ferienaktivitätspakete und Fähigkeitserhaltungs-Druckvorlagen zur Prävention von Sommerlernverlust kaufen.',
+    primaryKeyword: 'Sommerlernen-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Sommerbrücken-Arbeitsblätter auf Etsy erstellen',
+      'Ferienlern-Druckvorlagen auf KDP verkaufen',
+      'Sommerlernverlust-Aktivitätsblätter auf TPT',
+      'Sommer-Lernpakete für Druckvorlagen-Verkäufer',
+    ],
+    lsiKeywords: [
+      'Sommerlernverlust-Prävention Druckvorlagen',
+      'Ferienaktivitäten Bildungsthema Arbeitsblätter',
+      'Mai-August-Nachfrage Lernmaterialien Etsy',
+    ],
+    titleTag: 'Sommerlernen-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Sommerlernen-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ferienaktivitäten und Sommerbrücken-Arbeitsblätter zur Vermeidung von Sommerlernverlust. Verkaufs-Guide.',
   },
   hero: {
     title: 'Sommerlernen-Druckvorlagen-Geschäftsideen für Verkäufer',

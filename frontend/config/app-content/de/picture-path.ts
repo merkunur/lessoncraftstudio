@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Bilderpfad-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft räumliches Denken Werkzeuge',
     ],
-    titleTag: 'Labyrinth-Generator | Bilderpfad-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Labyrinth-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 3 Spielmodi, LPF-Algorithmus, automatischer Lösungsschlüssel mit rosa Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Labyrinth-Generator | Bilderpfad-Arbeitsblätter',
+    metaDescription: 'Labyrinth-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 3 Spielmodi, LPF-Algorithmus, 104 Themen, Lösungspfad. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

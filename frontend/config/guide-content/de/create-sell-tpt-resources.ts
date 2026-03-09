@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Arbeitsblatt-Paket Lehrplan-Einheit Aktivitätspaket Preisstrategie',
     ],
     titleTag: 'TPT Materialien erstellen und verkaufen — Leitfaden',
-    metaDescription: 'Wie Sie TPT Materialien erstellen und verkaufen. Kontoeinrichtung, Materialformatierung, Listing-Optimierung, Preisstrategie und Dynamik aufbauen auf dem Lehrermarktplatz.',
+    metaDescription: 'TPT-Materialien erstellen und verkaufen. Kontoeinrichtung, Materialformatierung, Listing-Optimierung und Preisstrategie für den Lehrermarktplatz erklärt.',
   },
 
   hero: {

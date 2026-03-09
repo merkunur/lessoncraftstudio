@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerzielle Lizenz Rätsel-Arbeitsblätter',
       'Rätsel-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Rätsel-Logik-Arbeitsblatt-Paket — 4 Rätsel- und Logik-Generatoren',
-    metaDescription: 'Rätsel-Arbeitsblatt-Paket mit 4 Generatoren: Fehlende Puzzleteile, Was passt nicht, Kinder-Sudoku und Bilderpfad-Labyrinthe. Verkaufen auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.',
+    titleTag: 'Rätsel & Logik — 4-Generatoren-Paket',
+    metaDescription: 'Rätsel-Paket mit 4 Generatoren: Fehlende Puzzleteile, Was passt nicht, Bilder-Sudoku und Labyrinthe. Verkaufen auf Etsy, KDP und Lehrermarktplatz mit Lizenz.',
   },
 
   hero: {

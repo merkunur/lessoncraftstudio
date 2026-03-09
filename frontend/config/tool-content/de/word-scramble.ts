@@ -14,8 +14,8 @@ const content: ToolContent = {
       'bildbasiertes Buchstabensalat-Arbeitsblatt-Tool',
       'mehrsprachiger Rechtschreib-Rätsel-Generator',
     ],
-    titleTag: 'Buchstabensalat-Arbeitsblatt-Generator | Buchstaben-Rätsel erstellen & verkaufen',
-    metaDescription: 'Buchstabensalat-Arbeitsblätter mit gemischten Buchstabenplättchen, Bild-Hinweisen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
+    metaDescription: 'Buchstabensalat-Arbeitsblätter mit Buchstabenplättchen und Vokal-Farbcodierung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

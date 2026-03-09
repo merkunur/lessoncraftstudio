@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Bild-Buchstaben-Chiffre-Arbeitsblätter',
       'kommerzieller Bildkryptogramm-Generator mit Buchstabenlegende',
     ],
-    titleTag: 'Bildkryptogramm-Arbeitsblatt-Generator | Bilder-Chiffre-Rätsel erstellen und verkaufen',
-    metaDescription:
-      'Bildkryptogramm-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bild-Buchstaben-Chiffre mit Buchstaben aufdecken 0–10, 104 Themen, erweitertes deutsches Alphabet mit ä/ö/ü/ß, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
+    metaDescription: 'Kryptogramm-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bild-Buchstaben-Chiffre, deutsches Alphabet mit ä/ö/ü/ß. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

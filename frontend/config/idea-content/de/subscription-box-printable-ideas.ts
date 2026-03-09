@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Arbeitsblatt-Abo-Box-Ideen verkaufen',
+    secondaryKeywords: [
+      'monatliche Arbeitsblatt-Pakete auf Etsy',
+      'Druckvorlagen-Abonnement auf Gumroad erstellen',
+      'wiederkehrende Einnahmen mit Patreon-Bundles',
+      'Abo-Geschäftsmodell für Arbeitsblatt-Verkäufer',
+    ],
+    lsiKeywords: [
+      'wiederkehrende Einnahmen Druckvorlagen-Geschäft',
+      'monatliche Bundles Abonnement-Modell',
+      'Patreon-Gumroad Druckvorlagen-Abo aufbauen',
+    ],
     titleTag: 'Abo-Box Druckvorlagen-Ideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Arbeitsblatt-Abo-Box-Ideen zum Verkauf auf Etsy, Gumroad und Patreon. Bauen Sie wiederkehrende Einnahmen mit monatlich kuratierten Arbeitsblatt-Paketen und thematischen Bundles auf.',
+    metaDescription: 'Arbeitsblatt-Abo-Box-Ideen für Etsy, Gumroad und Patreon. Wiederkehrende Einnahmen mit monatlichen Arbeitsblatt-Paketen und thematischen Bundles aufbauen.',
   },
   hero: {
     title: 'Arbeitsblatt-Abo-Box Geschäftsideen für Verkäufer',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Ansageblatt-Bingo-Arbeitsblatt-Erstellungstool mit dynamischem Wortraster',
     ],
     titleTag: 'Bingo-Karten-Ersteller — Bilder-Bingo-Karten-Generator',
-    metaDescription: 'Bilder-Bingo-Karten erstellen mit konfigurierbaren Rastern von 3×3 bis 5×5, Stapel-Generierung von 1–10 einzigartigen Karten pro Satz, ZIP-Export, Doppel-Füllmodi für Zellen und Chips, eigenem Ansageblatt, benutzerdefinierter Ansage-Auswahl und 104 thematischen Bildsammlungen. Wort-Füllung verwendet lokalisierte Bildnamen für mehrsprachige Bingo-Produkte. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    metaDescription: 'Bilder-Bingo-Karten mit Rastern von 3×3 bis 5×5, Stapel-Generierung und ZIP-Export erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

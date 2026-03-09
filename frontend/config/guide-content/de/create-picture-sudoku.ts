@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Rätsel-Tool',
     ],
     titleTag: 'Bilder-Sudoku-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Bilder-Sudoku für junge Lerner erstellen. 4×4-Bildraster, 3 Schwierigkeitsstufen, thematische Bilder, Lösungsschlüssel und druckfertige PDFs zum Verkauf auf Etsy und KDP.',
+    metaDescription: 'Bilder-Sudoku für junge Lerner erstellen. 4×4-Bildraster, drei Schwierigkeitsstufen, thematische Bilder und Lösungsschlüssel. Druckfertige PDFs für Etsy, KDP.',
   },
 
   hero: {

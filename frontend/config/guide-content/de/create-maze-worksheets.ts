@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Labyrinth-Arbeitsblätter mit thematischen Bildern',
       'kommerzielle Lizenz Labyrinth-Generator',
     ],
-    titleTag: 'Labyrinth-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'So erstellen Sie Labyrinth-Arbeitsblätter mit 3 Spielmodi, thematischen Bildern und Lösungsschlüsseln. Druckbare Labyrinth-Aktivitätsblätter für Etsy und Amazon KDP generieren.',
+    titleTag: 'Labyrinth-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Labyrinth-Arbeitsblätter mit 3 Spielmodi und thematischen Bildern erstellen. Druckbare Aktivitätsblätter mit Lösungsschlüsseln für den Verkauf auf Etsy und KDP.',
   },
 
   hero: {

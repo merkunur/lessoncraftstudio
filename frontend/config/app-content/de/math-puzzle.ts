@@ -15,9 +15,8 @@ const content: AppContent = {
       'Puzzle-Arbeitsblatt-Geschäft Druckvorlagen',
       'kommerzieller Mathe-Puzzle-Generator',
     ],
-    titleTag: 'Mathe-Rätsel-Arbeitsblatt-Generator | Puzzle-Druckvorlagen erstellen',
-    metaDescription:
-      'Professionelle Mathe-Rätsel-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bilderpuzzle mit Addition und Subtraktion, konfigurierbares Raster, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Rätsel-Generator | Puzzle-Druckvorlagen',
+    metaDescription: 'Mathe-Rätsel-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bilderpuzzle mit Addition, Subtraktion, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

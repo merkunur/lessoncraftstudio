@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Produktionssysteme skalierbare Prozesse Katalogverwaltung Workflow-Design',
     ],
     titleTag: 'Druckvorlagen-Geschäft automatisieren — Effizienz-Leitfaden',
-    metaDescription: 'Automatisieren Sie Ihr Druckvorlagen-Geschäft mit Stapelverarbeitung, Vorlagensystemen und systematischen Prozessen, die Stunden sparen und die Produktionsleistung skalieren.',
+    metaDescription: 'Druckvorlagen-Geschäft automatisieren mit Stapelverarbeitung und Vorlagensystemen. Systematische Prozesse, die Stunden sparen und die Produktionsleistung.',
   },
 
   hero: {

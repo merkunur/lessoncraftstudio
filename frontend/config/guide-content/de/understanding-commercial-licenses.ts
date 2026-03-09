@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Lizenzunterlagen Lizenzdokumentation plattformübergreifende Lizenzierung Wettbewerbsvorteil',
     ],
     titleTag: 'Kommerzielle Lizenz Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Verstehen Sie kommerzielle Lizenzen für Druckvorlagen vor dem Verkauf. Lernen Sie Lizenztypen, häufige Fehler und wie korrekte Lizenzierung Ihr Geschäft schützt.',
+    metaDescription: 'Kommerzielle Lizenzen für Druckvorlagen verstehen. Lizenztypen, häufige Fehler und wie korrekte Lizenzierung Ihr Arbeitsblatt-Geschäft auf Etsy und KDP.',
   },
 
   hero: {

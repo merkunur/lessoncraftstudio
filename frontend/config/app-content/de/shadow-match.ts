@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Silhouetten-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Wahrnehmung Werkzeuge',
     ],
-    titleTag: 'Schattenbilder-Zuordnen-Generator | Silhouetten-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Modi — Schattenbild-Zuordnung und Bild-Vervollständigung — automatische Silhouetten, Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schattenbilder-Generator | Silhouetten-Zuordnung',
+    metaDescription: 'Schattenbilder-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Silhouetten-Zuordnung, Bild-Vervollständigung. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

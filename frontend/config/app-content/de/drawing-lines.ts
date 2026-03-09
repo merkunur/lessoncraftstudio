@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Feinmotorik-Schwungübungen',
       'kommerzieller Linien-Ziehen-Arbeitsblatt-Generator',
     ],
-    titleTag: 'Linien-Ziehen-Generator | Linien-Ziehen-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Linien-Ziehen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal, Vertikal — mit Bildpaar-Zuordnung. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Linien-Ziehen-Generator | Schwungübungen',
+    metaDescription: 'Linien-Ziehen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Acht SVG-Vorlagen mit Bildpaar-Zuordnung, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

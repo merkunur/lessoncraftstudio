@@ -14,8 +14,8 @@ const content: ToolContent = {
       'vier Aufgabentypen Einkreisen Umrahmen Durchstreichen Zählen mischbar',
       'sprachspezifische Alphabete Umlaute ÄÖÜ Suchbild-Generator',
     ],
-    titleTag: 'Suchen-und-Zählen-Ersteller — Suchbild-Arbeitsblatt-Generator für Verkäufer',
-    metaDescription: 'Erstellen Sie Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi — Suchbild-Modus und Buchstabenerkennung — vier mischbaren Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen), sprachspezifischen Alphabeten mit Umlauten, lokalisierten Bildbezeichnungen in 11 Sprachen, konfigurierbarer Rasterdichte, automatisch generierten Lösungsschlüsseln mit roten Markierungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Suchen-und-Zählen-Ersteller | Suchbild-Generator',
+    metaDescription: 'Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi und vier Aufgabentypen erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

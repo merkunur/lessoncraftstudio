@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP visuelle Wahrnehmungs-Arbeitsbücher',
       'kommerzielle Lizenz Schattenbilder-Zuordnungs-Tool',
     ],
-    titleTag: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Schattenbilder-Zuordnungs-Arbeitsblätter mit zwei Modi erstellen. Schritt-für-Schritt-Anleitung: Schattenbilder-Zuordnung generiert pixelgenaue Silhouetten, Halb-Bilder teilt Bilder in Hälften, automatische Lösungsschlüssel und auf Etsy und KDP verkaufen.',
+    titleTag: 'Schattenbilder-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Schattenbilder-Zuordnungs-Arbeitsblätter mit pixelgenauen Silhouetten und Halb-Bilder-Modus erstellen. Lösungsschlüssel. Verkaufen auf Etsy und Amazon KDP.',
   },
 
   hero: {

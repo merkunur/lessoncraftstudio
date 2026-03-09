@@ -14,8 +14,8 @@ const content: ToolContent = {
       'textfreier Mustervervollständigungs-Arbeitsblatt-Generator',
       'AB ABC ABCD Muster-Raster-Arbeitsblatt-Ersteller',
     ],
-    titleTag: 'Mustervervollständigungs-Arbeitsblatt-Generator | Erstellen & Verkaufen',
-    metaDescription: 'Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen (AB bis ABCD), zwei Fragemodi (Lückenfeld und Multiple-Choice), Pro-Übung-Konfiguration, 1–8 Übungen pro Seite, automatischen Lösungsschlüsseln und 104 Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Muster-Generator | Muster-Arbeitsblätter',
+    metaDescription: 'Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen und zwei Fragemodi erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

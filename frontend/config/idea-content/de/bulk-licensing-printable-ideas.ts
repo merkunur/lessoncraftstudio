@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Massenlizenzierung Arbeitsblätter Geschäftsideen',
+    secondaryKeywords: [
+      'Volumenlizenz Druckvorlagen an Schulen verkaufen',
+      'Klassensatz-Arbeitsblätter für Bildungseinrichtungen',
+      'Schullizenzen für Druckvorlagen-Produkte erstellen',
+      'institutionelle Preisgestaltung Arbeitsblatt-Verkäufer',
+    ],
+    lsiKeywords: [
+      'B2B-Druckvorlagen-Vertrieb Bildungssektor',
+      'Volumenlizenz-Preismodelle Arbeitsblätter',
+      'Schullizenz-Geschäftsmodell Druckvorlagen',
+    ],
     titleTag: 'Massenlizenzierung Druckvorlagen Geschäftsideen — Leitfaden',
-    metaDescription: 'Geschäftsideen für Massenlizenzierung von Arbeitsblatt-Kollektionen an Schulen, Bezirke und Organisationen. Volumenlizenzierungsstrategien für Bildungsanbieter und Verkäufer.',
+    metaDescription: 'Geschäftsideen für Massenlizenzierung von Arbeitsblättern an Schulen und Organisationen. Volumenlizenzierung und Preisstrategien für Bildungsanbieter erklärt.',
   },
   hero: {
     title: 'Massenlizenzierung Druckvorlagen Geschäftsideen für Verkäufer',

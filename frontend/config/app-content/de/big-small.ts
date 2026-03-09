@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft visuelle Größenunterscheidung-Übungen',
       'kommerzieller Groß-Klein-Arbeitsblatt-Generator mit Lösungsschlüssel',
     ],
-    titleTag: 'Groß-Klein-Arbeitsblatt-Generator | Größenvergleich-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Größenvergleich-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Fünf Fragetypen, identische und verschiedene Bildmodi, 104 Themen, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Groß-Klein-Generator | Größenvergleich-Übungen',
+    metaDescription: 'Größenvergleich-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Fünf Fragetypen, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

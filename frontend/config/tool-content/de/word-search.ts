@@ -14,8 +14,8 @@ const content: ToolContent = {
       'sprachabhängiges Wortsuche-Arbeitsblatt-Tool',
       'mehrsprachiger Buchstabengitter-Rätsel-Generator',
     ],
-    titleTag: 'Wortsuche-Arbeitsblatt-Generator | Buchstabengitter-Rätsel erstellen & verkaufen',
-    metaDescription: 'Wortsuche-Arbeitsblätter mit einstellbaren Gittern von 5×5 bis 30×30, Diagonal- und Rückwärts-Richtungssteuerung, sprachabhängigen Füllbuchstaben und farbcodierten Lösungsschlüsseln in 11 Sprachen erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Wortsuche-Generator | Buchstabengitter-Rätsel',
+    metaDescription: 'Wortsuche-Arbeitsblätter mit Gittern 5×5 bis 30×30 und Richtungssteuerung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen. Professionell.',
   },
 
   hero: {

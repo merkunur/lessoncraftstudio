@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Meerestiere Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Meerestiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Preistipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Meerestiere-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
+      'Meerestier-Druckvorlagen auf KDP verkaufen',
+      'Ozean-Aktivitätsblätter auf TPT anbieten',
+      'Wal-Delphin-Lernmaterialien für Etsy-Shops',
+    ],
+    lsiKeywords: [
+      'Meeresbiologie-Thema Druckvorlagen-Nische',
+      'Unterwasser-Bildungsthema Arbeitsblätter',
+      'Ozean-Ganzjahres-Nische Lernmaterialien',
+    ],
+    titleTag: 'Meerestiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Meerestiere-Druckvorlagen-Ideen für Etsy, KDP und TPT. Unterwasser-Produktkonzepte, Plattformstrategien und Preistipps für Druckvorlagen-Verkäufer und Shops.',
   },
   hero: {
     title: 'Meerestiere-Druckvorlagen: Geschäftsideen für Verkäufer',

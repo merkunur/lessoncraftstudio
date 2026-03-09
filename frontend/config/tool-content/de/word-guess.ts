@@ -14,8 +14,8 @@ const content: ToolContent = {
       'bildbasiertes Wortbildungs-Arbeitsblatt-Tool',
       'mehrsprachiger Buchstabengitter-Generator',
     ],
-    titleTag: 'Wörter-Raten-Arbeitsblatt-Generator | Rechtschreib-Druckvorlagen erstellen & verkaufen',
-    metaDescription: 'Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen, dualem Eingabemodus und Buchstaben-Ausschluss in 11 Sprachen erstellen. 104 Bildthemen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Wörter-Raten-Generator | Rechtschreib-Übungen',
+    metaDescription: 'Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen und dualem Eingabemodus erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
   },
 
   hero: {

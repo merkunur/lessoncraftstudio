@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Buchstaben-Nachspuren-Arbeitsblätter',
       'kommerzieller Schreibübungen-Generator mit Strichrichtungspfeilen',
     ],
-    titleTag: 'Schreibübungen-Arbeitsblatt-Generator | Handschrift-Übungsblätter erstellen und verkaufen',
-    metaDescription:
-      'Schreibübungen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Drei Übungsmodi, fünf Schriftarten, Strichrichtungspfeile, verblassende Buchstabenführung, Vorübungen zur Feinmotorik, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schreibübungen-Generator | Handschrift-Übungen',
+    metaDescription: 'Schreibübungen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Drei Übungsmodi, fünf Schriftarten, Strichpfeile. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

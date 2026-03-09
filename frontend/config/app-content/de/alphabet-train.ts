@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Buchstabenerkennung',
       'kommerzieller Alphabet-Arbeitsblatt-Generator mehrsprachig',
     ],
-    titleTag: 'Alphabet-Zug-Arbeitsblatt-Generator | Buchstaben-Druckvorlagen erstellen & verkaufen',
-    metaDescription:
-      'Alphabet-Zug-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Zugwaggon-Format mit Buchstaben-Bild-Zuordnung, 11 Sprachen mit nativen Alphabeten, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Alphabet-Zug-Generator | Buchstaben-Druckvorlagen',
+    metaDescription: 'Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. 104 Themen, native Alphabete. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

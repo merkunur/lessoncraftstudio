@@ -15,7 +15,7 @@ const content: ToolContent = {
       'themenbasierte Bildauswahl 104 Sammlungen Sudoku-Arbeitsblatt-Ersteller',
     ],
     titleTag: 'Bilder-Sudoku-Ersteller — Bilder-Sudoku-Generator für Kinder',
-    metaDescription: 'Erstellen Sie Bilder-Sudoku für Kinder mit einem 4×4-Raster und Bildern statt Zahlen. Drei Schwierigkeitsgrade (4, 6 oder 8 leere Zellen), automatisch generierter Lösungsschlüssel mit vollständig gefülltem Raster, 104 thematische Bildsammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    metaDescription: 'Bilder-Sudoku mit 4×4-Raster und drei Schwierigkeitsgraden erstellen. Lösungsschlüssel, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -2,7 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Elterntag Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
+    primaryKeyword: 'Elterntag-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Muttertag-Arbeitsblätter auf Etsy erstellen',
+      'Vatertag-Druckvorlagen auf KDP verkaufen',
+      'Elterntag-Aktivitätsblätter auf TPT anbieten',
+      'Familien-Feiertags-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'saisonale Mai-Juni-Nachfrage Druckvorlagen',
+      'Muttertag-Vatertag-Nische Arbeitsblätter',
+      'Familienfest-Thema Lernmaterialien Etsy',
+    ],
+    titleTag: 'Elterntag-Druckvorlagen-Ideen — Verkäufer-Guide',
     metaDescription: 'Entdecken Sie Muttertag- und Vatertag-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte zur Elternwürdigung und Plattformtipps für Verkäufer.',
   },
   hero: {

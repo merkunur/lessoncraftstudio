@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Skalierbares Umsatzmodell Arbeitsblatt-Einkommensströme Multiplattform-Umsatz',
     ],
     titleTag: 'Wiederkehrender Umsatz Arbeitsblätter — Einkommens-Leitfaden',
-    metaDescription: 'Bauen Sie wiederkehrenden Umsatz mit Arbeitsblättern auf durch immergrüne Kataloge, Multiplattform-Vertrieb, Sprachexpansion und Katalog-Zusammensetzungsstrategien.',
+    metaDescription: 'Wiederkehrenden Umsatz mit Arbeitsblättern aufbauen. Immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion. Katalog-Zusammensetzung Etsy-Verkäufer.',
   },
 
   hero: {

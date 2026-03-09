@@ -14,8 +14,8 @@ const content: ToolContent = {
       'textfreier Groß-Klein-Arbeitsblatt-Generator',
       'Größensortierung-Übungsblatt-Ersteller',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblatt-Generator | Groß-Klein-Übungen erstellen & verkaufen',
-    metaDescription: 'Größenvergleich-Arbeitsblätter mit fünf Fragetypen (Großes einkreisen, Kleines einkreisen, Mittleres einkreisen, Nummerierung aufsteigend, Nummerierung absteigend), identischem und verschiedenem Bildmodus, 1–10 Übungen pro Seite und Auto-Lösungsschlüssel erstellen. Textfreie Ausgabe — weltweit verkaufbar ohne Übersetzung. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Größenvergleich-Generator | Groß-Klein-Übungen',
+    metaDescription: 'Größenvergleich-Arbeitsblätter mit fünf Fragetypen und textfreier Ausgabe erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

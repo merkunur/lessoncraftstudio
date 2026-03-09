@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Mengenvergleich-Arbeitsblatt-Tool',
       'Ankreuzen-und-Durchstreichen-Aktivitäten Generator',
     ],
-    titleTag: 'Mehr-oder-Weniger-Ersteller | Größer-Kleiner-Arbeitsblätter generieren',
-    metaDescription: 'Visuelle Größer-als-, Kleiner-als- und Gleich-Arbeitsblätter mit Bildern in Sekunden erstellen. Drei Modi inkl. einzigartigem Ankreuzen und Durchstreichen. Auf Etsy, KDP und Lehrermarktplatz verkaufen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mehr-oder-Weniger-Ersteller | Vergleichsübungen',
+    metaDescription: 'Größer-als- und Kleiner-als-Arbeitsblätter mit Bildern erstellen. Drei Modi inkl. Ankreuzen und Durchstreichen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

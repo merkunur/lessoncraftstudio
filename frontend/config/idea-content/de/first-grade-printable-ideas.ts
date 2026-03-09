@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Erste-Klasse-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Erste-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer im Bereich Grundschule erste Klasse.',
+    primaryKeyword: 'Erste-Klasse-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Erstklässler-Arbeitsblätter auf Etsy erstellen',
+      'Grundschul-Lernmaterialien auf KDP verkaufen',
+      'erste Klasse Druckvorlagen auf TPT anbieten',
+      'Schulanfänger-Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Grundschul-Klassenstufe Arbeitsblatt-Nische',
+      'altersgerechte Lernmaterialien Erst-Klasse',
+      'Lehrplan-Arbeitsblätter Grundschule Etsy-Markt',
+    ],
+    titleTag: 'Erste-Klasse-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Erste-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und Lernmaterialien erklärt.',
   },
   hero: {
     title: 'Erste-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer',

@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dritte-Klasse-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Dritte-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im entscheidenden dritten Grundschuljahr.',
+    primaryKeyword: 'Dritte-Klasse-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Drittklässler-Arbeitsblätter auf Etsy erstellen',
+      'Grundschul-Druckvorlagen dritte Klasse KDP',
+      'Dritte-Klasse-Aktivitätsblätter auf TPT',
+      'Klassenstufe-drei-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Grundschul-Oberstufe Druckvorlagen-Nische',
+      'anspruchsvollere Lernmaterialien dritte Klasse',
+      'Drittklässler-Arbeitsblätter Etsy-Markt',
+    ],
+    titleTag: 'Dritte-Klasse-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Dritte-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Nischenstrategien und Produktkonzepte für Verkäufer im dritten Grundschuljahr. Arbeitsblatt-Ideen.',
   },
   hero: {
     title: 'Dritte-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer',

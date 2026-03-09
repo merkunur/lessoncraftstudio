@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schulanfang-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Schulanfang-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Einschulung-Produktkonzepte, Juli-September-Strategien und Plattformtipps für Verkäufer.',
+    primaryKeyword: 'Schulanfang-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Einschulung-Arbeitsblätter für Etsy erstellen',
+      'Schulanfang-Aktivitäten auf KDP verkaufen',
+      'Back-to-School-Druckvorlagen auf TPT anbieten',
+      'saisonale Schulstart-Produkte für Druckvorlagen-Verkäufer',
+    ],
+    lsiKeywords: [
+      'Juli-September-Nachfragespitze Lernmaterialien',
+      'Grundschul-Arbeitsblätter saisonaler Verkauf',
+      'Schulbeginn-Nische Druckvorlagen-Geschäft',
+    ],
+    titleTag: 'Schulanfang-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Schulanfang-Druckvorlagen-Ideen für Etsy, KDP und TPT. Einschulung-Produktkonzepte, Juli-September-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Schulanfang-Druckvorlagen-Geschäftsideen für Verkäufer',

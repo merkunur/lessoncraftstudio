@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Auto-Lösungsschlüssel Zuordnungs-Aktivitäten-Generator',
       'Anfangsbuchstaben Bild-Wort Zuordnungs-Ersteller',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblatt-Generator — Paare-Verbinden-Ersteller für Verkäufer',
-    metaDescription: 'Professionelle Zuordnungs-Arbeitsblätter mit 4 Modi (Anfangsbuchstabe, Bild+Wort, Mischung, Eigenes Wort), automatischem Lösungsschlüssel mit Verbindungslinien, konfigurierbarer Paaranzahl 4–6, lokalisierter „Finde die Paare!“-Überschrift in 11 Sprachen und 104 thematischen Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Ersteller',
+    metaDescription: 'Zuordnungs-Arbeitsblätter mit 4 Modi und automatischem Lösungsschlüssel erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

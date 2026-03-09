@@ -15,9 +15,8 @@ const content: AppContent = {
       'Gleichungsrätsel-Arbeitsblatt-Geschäft Druckvorlagen',
       'kommerzieller Algebra-Bilderätsel-Generator',
     ],
-    titleTag: 'Algebra-Bilderätsel-Generator | Gleichungsrätsel-Arbeitsblätter erstellen',
-    metaDescription:
-      'Professionelle Algebra-Bilderätsel-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bilder als Variablen, 4 Schwierigkeitsstufen, eindeutige Lösungen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Algebra-Bilderrätsel-Generator | Gleichungen',
+    metaDescription: 'Algebra-Bilderrätsel erstellen und auf Etsy, KDP verkaufen. Bilder als Variablen, 4 Schwierigkeitsstufen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

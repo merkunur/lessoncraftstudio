@@ -16,7 +16,7 @@ const content: BundleContent = {
       'Sprach-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Lese-Arbeitsblatt-Paket — 7 Sprach- & Wort-Generatoren',
-    metaDescription: 'Holen Sie sich 7 professionelle Lese- und Sprach-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Alphabet-Zug-, Wortsuche-, Buchstabensalat-, Kryptogramm-, Präpositionen-, Wörter-Raten- und Schreibübungen-Arbeitsblätter in 11 Sprachen. Verkaufen Sie auf Etsy.de, KDP und Lehrermarktplatz mit kommerzieller Lizenz.',
+    metaDescription: '7 Lese- und Sprach-Generatoren im Paket: Wortsuche, Buchstabensalat, Kryptogramm, Präpositionen, Wörter-Raten und Schreibübungen. 11 Sprachen für Etsy.',
   },
 
   hero: {

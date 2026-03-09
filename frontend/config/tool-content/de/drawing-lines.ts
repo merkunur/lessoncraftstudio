@@ -14,8 +14,8 @@ const content: ToolContent = {
       'SVG-Linienvorlagen-Arbeitsblatt-Generator',
       'Bildpaar-Zuordnung-Linienverfolgung-Druckvorlagen',
     ],
-    titleTag: 'Linienverfolgung-Arbeitsblatt-Generator — Linien-Ziehen-Ersteller | Verkaufen',
-    metaDescription: 'Professionelle Linienverfolgung-Arbeitsblätter mit acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal, Vertikal — plus über 3.100 farbenfrohe Illustrationen aus 104 Themen erstellen. Auto-Füllen für schnelle Stapelerstellung. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Linienverfolgung-Generator | Schwungübungen',
+    metaDescription: 'Linienverfolgung-Arbeitsblätter mit acht SVG-Vorlagen und Auto-Füllen erstellen. 3.100+ Illustrationen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

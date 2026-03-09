@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Halloween-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Gruselige Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Halloween-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'gruselige Arbeitsblätter auf Etsy erstellen',
+      'Halloween-Aktivitätsblätter auf KDP verkaufen',
+      'Oktober-Druckvorlagen auf TPT anbieten',
+      'Kürbis-Geister-Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Oktober-Nachfragespitze saisonale Druckvorlagen',
+      'gruseliges Thema Arbeitsblätter Etsy-Markt',
+      'Halloween-Saison Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Halloween-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Halloween-Druckvorlagen-Ideen für Etsy, KDP und TPT. Gruselige Produktkonzepte, saisonale Strategien, Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Halloween-Druckvorlagen-Geschäftsideen für Verkäufer',

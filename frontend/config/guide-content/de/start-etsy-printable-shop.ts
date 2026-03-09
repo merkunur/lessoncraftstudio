@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Druckvorlagen-Shop Startstrategie erste 30 Tage Wachstumsplan',
     ],
     titleTag: 'Etsy-Druckvorlagen-Shop von Grund auf starten — Leitfaden',
-    metaDescription: 'Etsy-Druckvorlagen-Shop von Grund auf starten mit 33 Generatoren. Shop-Einrichtung, Branding, Angebotsoptimierung, Preisgestaltung, Etsy-Gebühren und 30-Tage-Startplan.',
+    metaDescription: 'Etsy-Druckvorlagen-Shop starten mit 33 Generatoren. Shop-Einrichtung, Branding, Angebotsoptimierung und Preisgestaltung. Etsy-Gebühren und 30-Tage-Startplan.',
   },
 
   hero: {

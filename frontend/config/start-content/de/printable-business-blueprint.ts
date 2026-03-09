@@ -18,7 +18,7 @@ const content: StartContent = {
       'Druckvorlagen-Geschäft Start-Checkliste',
     ],
     titleTag: 'Druckvorlagen-Geschäft Ideen — Bauplan zum Einkommen',
-    metaDescription: 'Verwandeln Sie Druckvorlagen-Geschäftsideen in einen strukturierten Bauplan. Planen Sie Ihre Produktlinie, wählen Sie Plattformen, setzen Sie Preise und starten Sie mit Arbeitsblatt-Generatoren.',
+    metaDescription: 'Druckvorlagen-Geschäftsideen in einen Bauplan verwandeln. Produktlinie planen, Plattformen wählen, Preise setzen und mit Arbeitsblatt-Generatoren durchstarten.',
   },
 
   hero: {

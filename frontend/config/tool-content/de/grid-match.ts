@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Auto-Lösungsschlüssel nummerierte Kreis-Overlays Generator',
       'konfigurierbarer Hinweiszellen-Schwierigkeitsgrad Raster-Ersteller',
     ],
-    titleTag: 'Raster-Puzzle-Ersteller — Raster-Puzzle-Generator für Verkäufer',
-    metaDescription: 'Professionelle Raster-Puzzle-Arbeitsblätter erstellen, bei denen ein einzelnes Bild in Kacheln geteilt wird und Lernende nummerierte Kacheln den richtigen Positionen zuordnen. Konfigurierbare Rastergröße (2×2 bis 4×4), einstellbare Hinweiszellen 1–5, Fisher-Yates-Zufallsverteilung, automatischer Lösungsschlüssel mit nummerierten Kreis-Overlays und 104 thematische Sammlungen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Raster-Puzzle-Ersteller | Bilder-Rasterpuzzle',
+    metaDescription: 'Raster-Puzzle-Arbeitsblätter mit Raster 2×2 bis 4×4 und Hinweiszellen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

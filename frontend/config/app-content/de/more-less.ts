@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Vergleichsübungen',
       'kommerzieller Vergleichs-Arbeitsblatt-Generator',
     ],
-    titleTag: 'Mehr-oder-Weniger-Arbeitsblatt-Generator | Vergleichs-Druckvorlagen',
-    metaDescription:
-      'Vergleichs-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 3 Vergleichsmodi, Check & Cross, 104 Themen, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mehr-oder-Weniger-Generator | Vergleichsübungen',
+    metaDescription: 'Vergleichs-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 3 Vergleichsmodi, Check-und-Cross, 104 Themen, 400+ DPI. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

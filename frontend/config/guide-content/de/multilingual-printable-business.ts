@@ -18,7 +18,7 @@ const content: GuideContent = {
       'sprachübergreifende Einkommensströme Plattform-Internationalisierung Mehrmarkt-Vertrieb',
     ],
     titleTag: 'Mehrsprachiges Druckvorlagen-Geschäft — Strategie-Leitfaden',
-    metaDescription: 'Bauen Sie ein mehrsprachiges Druckvorlagen-Geschäft auf, indem Sie in internationale Märkte expandieren. Erfahren Sie, welche Sprachen Priorität haben und wie Sie Ihren Umsatz vervielfachen.',
+    metaDescription: 'Mehrsprachiges Druckvorlagen-Geschäft aufbauen und in internationale Märkte expandieren. Sprachpriorisierung und Strategien für mehr Umsatz auf Etsy und KDP.',
   },
 
   hero: {

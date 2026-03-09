@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Bildsymbol-Gleichungs-Arbeitsblatt-Tool',
       'Bildvariablen-Mathe-Aktivitäten Generator',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Generator | Algebra-Bilderrätsel erstellen & verkaufen',
-    metaDescription: 'Algebra-Bilderrätsel mit Bildsymbolen als Variablen in verknüpften Gleichungssystemen erstellen. Vier Schwierigkeitsstufen, garantiert eindeutige Lösungen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Generator | Algebra-Bilderrätsel erstellen',
+    metaDescription: 'Algebra-Bilderrätsel mit Bildsymbolen als Variablen erstellen. Vier Schwierigkeitsstufen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

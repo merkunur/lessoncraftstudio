@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Größenanordnung Aktivitätsbücher',
       'kommerzielle Lizenz Größenvergleich-Werkzeug',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'So erstellen Sie Größenvergleich-Arbeitsblätter mit 5 Aufgabentypen und 2 Bildmodi. Textfreie Ausgabe verkauft sich weltweit. Schritt-für-Schritt-Anleitung für Etsy, KDP und TpT.',
+    titleTag: 'Größenvergleich-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Größenvergleich-Arbeitsblätter mit 5 Aufgabentypen und 2 Bildmodi erstellen. Textfreie Ausgabe für weltweiten Verkauf. Schritt-für-Schritt für Etsy und KDP.',
   },
 
   hero: {

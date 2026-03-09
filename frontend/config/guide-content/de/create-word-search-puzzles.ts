@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Rätsel-Tool',
     ],
     titleTag: 'Wortsuchrätsel erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Wortsuchrätsel mit Bildhinweisen erstellen. Themen wählen, Rastergröße einstellen, Suchrichtungen konfigurieren, Lösungsschlüssel generieren und auf Etsy und KDP verkaufen.',
+    metaDescription: 'Wortsuchrätsel mit Bildhinweisen erstellen. Themen wählen, Rastergröße einstellen, Lösungsschlüssel generieren. Druckvorlagen für den Verkauf auf Etsy, KDP.',
   },
 
   hero: {

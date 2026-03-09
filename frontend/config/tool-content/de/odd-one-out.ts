@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Modus-Überschreibung pro Übung Was-passt-nicht-Generator',
       'automatischer Lösungsschlüssel rote Kreismarkierungen Ausreißer-Rätsel-Ersteller',
     ],
-    titleTag: 'Was-Passt-Nicht-Ersteller — Ausreißer-Rätsel-Arbeitsblatt-Generator',
-    metaDescription: 'Erstellen Sie Was-passt-nicht-Arbeitsblätter mit zwei Erzeugungsmodi — Identisch (3 Klone + 1 anderes) und Ähnlich (Thema A + Thema B). Modus-Überschreibung pro Übung für gemischte Schwierigkeitsgrade, 5–10 konfigurierbare Übungen, automatischer Lösungsschlüssel mit roten Kreismarkierungen, 104 Themensammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Was-Passt-Nicht-Ersteller | Ausreißer-Rätsel',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

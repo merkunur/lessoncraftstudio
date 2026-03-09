@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sonderpädagogik-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Sonderpädagogik-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im unterversorgten SPED-Markt, wo Förderschullehrer, Therapeuten und Eltern angepasste Arbeitsblätter und visuelle Hilfen kaufen.',
+    primaryKeyword: 'Sonderpädagogik-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'SPED-Arbeitsblätter auf Etsy erstellen',
+      'angepasste Lernmaterialien auf KDP verkaufen',
+      'visuelle Hilfen Sonderpädagogik auf TPT',
+      'inklusive Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'unterversorgter SPED-Markt Druckvorlagen',
+      'Förderschul-Thema Arbeitsblätter Etsy-Nische',
+      'differenzierte Lernmaterialien Sonderpädagogik',
+    ],
+    titleTag: 'Sonderpädagogik-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Sonderpädagogik-Druckvorlagen-Ideen für Etsy, KDP und TPT. Angepasste Arbeitsblätter und visuelle Hilfen für den unterversorgten SPED-Markt. Verkäufer-Guide.',
   },
   hero: {
     title: 'Sonderpädagogik-Druckvorlagen-Geschäftsideen für Verkäufer',

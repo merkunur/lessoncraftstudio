@@ -2,7 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bauernhoftiere Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
+    primaryKeyword: 'Bauernhoftiere-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Bauernhof-Arbeitsblätter auf Etsy erstellen',
+      'Nutztier-Aktivitätsblätter auf KDP verkaufen',
+      'Bauernhof-Thema Druckvorlagen auf TPT anbieten',
+      'Kuh-Schwein-Huhn Arbeitsblätter für Verkäufer',
+    ],
+    lsiKeywords: [
+      'frühkindliche Bildung Tierthema Druckvorlagen',
+      'Bauernhof-Nische Ganzjahres-Lernmaterialien',
+      'Vorschul-Lieblingsthema Arbeitsblatt-Markt',
+    ],
+    titleTag: 'Bauernhoftiere-Druckvorlagen — Verkäufer-Guide',
     metaDescription: 'Entdecken Sie profitable Bauernhoftiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Preisstrategien und Plattformtipps für Verkäufer.',
   },
   hero: {

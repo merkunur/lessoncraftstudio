@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Angebotsfotos Mockups für Wortsuche-Rätsel-Produkte',
     ],
     titleTag: 'Wortsuche-Rätsel auf Etsy verkaufen — Leitfaden',
-    metaDescription: 'Wortsuche-Rätsel auf Etsy verkaufen mit 4 Rätsel-Generatoren. Etsy SEO, Angebotsoptimierung, Preisgestaltung, Bündelstrategien mit Kreuzworträtseln und Buchstabensalat sowie saisonales Timing.',
+    metaDescription: 'Wortsuchrätsel auf Etsy verkaufen mit 4 Generatoren. Etsy-SEO, Angebotsoptimierung und Bündelstrategien mit Kreuzworträtseln. Saisonales Timing für Verkäufer.',
   },
 
   hero: {

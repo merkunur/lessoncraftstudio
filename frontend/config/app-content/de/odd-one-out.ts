@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Ausreißer-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Unterscheidung Werkzeuge',
     ],
-    titleTag: 'Was-Passt-Nicht-Generator | Ausreißer-Rätsel erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Erzeugungsmodi (Identisch & Ähnlich), Modus-Überschreibung pro Übung, automatischer Lösungsschlüssel mit roten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Was-Passt-Nicht-Generator | Ausreißer-Rätsel',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Identisch- und Ähnlich-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

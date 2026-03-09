@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Erntedankfest-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Erntedankfest-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Thanksgiving-Produktkonzepte, saisonale Strategien und Plattform-Tipps für Verkäufer.',
+    primaryKeyword: 'Erntedankfest-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Thanksgiving-Arbeitsblätter auf Etsy erstellen',
+      'Herbst-Erntedank-Druckvorlagen auf KDP',
+      'November-Feiertags-Aktivitätsblätter für TPT',
+      'Truthahn-Ernte-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'November-Nachfragespitze saisonale Druckvorlagen',
+      'Erntedank-Nische Arbeitsblätter Etsy-Markt',
+      'Herbst-Feiertags-Thema Lernmaterialien',
+    ],
+    titleTag: 'Erntedankfest-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Erntedankfest-Druckvorlagen-Ideen für Etsy, KDP und TPT. Thanksgiving-Produktkonzepte und saisonale Strategien. Plattformtipps für Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Thanksgiving-Druckvorlagen-Geschäftsideen für Verkäufer',

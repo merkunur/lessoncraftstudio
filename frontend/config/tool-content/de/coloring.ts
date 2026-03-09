@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Freihand-Zeichenwerkzeug-Ausmalseiten-Ersteller',
     ],
     titleTag: 'Ausmalseiten-Generator — Malvorlagen-Ersteller für Verkäufer',
-    metaDescription: 'Professionelle Ausmalseiten auf freier Arbeitsfläche mit über 3.100 Schwarzweiß-Umrisszeichnungen aus 104 Themen, Freihand-Zeichenwerkzeug, Klassenzimmer-Helfern (Namensfeld + Handschrift-Übungslinien) und Graustufen-Export erstellen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Ausmalseiten mit 3.100+ Umrisszeichnungen aus 104 Themen erstellen. Graustufen-Export für Etsy und KDP-Verkauf. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

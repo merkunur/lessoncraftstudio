@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Veröffentlichungszeitpunkt saisonale Schlüsselwörter Trendanalyse Inhaltskalender Quartalsplanung',
     ],
     titleTag: 'Saisonales Marketing Druckvorlagen — Verkäuferkalender',
-    metaDescription: 'Planen Sie saisonale Druckvorlagen-Kampagnen abgestimmt auf Nachfragezyklen. Ein Verkäuferkalender für Produktionstiming, Schlüsselwörter und Strategien für Hauptverkaufszeiten.',
+    metaDescription: 'Saisonale Druckvorlagen-Kampagnen planen. Verkäuferkalender, Produktionstiming, Schlüsselwörter und Strategien für Hauptverkaufszeiten auf Lehrermarktplatz.',
   },
 
   hero: {

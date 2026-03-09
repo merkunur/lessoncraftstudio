@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Auto-Lösungsschlüssel Bilddiagramm-Generator',
       'Dual-Canvas Datendarstellungs-Arbeitsblatt-Ersteller',
     ],
-    titleTag: 'Bilddiagramm-Arbeitsblatt-Generator — Bilddiagramm-Ersteller für Verkäufer',
-    metaDescription: 'Professionelle Bilddiagramm-Arbeitsblätter mit verteiltem 4×5-Bildraster, 6 Bildtypen pro Blatt, automatisch generiertem Lösungsschlüssel mit gelb hervorgehobenen Zellen, lokalisierten Überschriften in 11 Sprachen und 104 thematischen Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilddiagramm-Generator | Ersteller für Verkäufer',
+    metaDescription: 'Bilddiagramm-Arbeitsblätter mit 4×5-Raster und automatischem Lösungsschlüssel erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Positionswörter-Arbeitsblatt-Tool',
       'mehrsprachiger Ortspräpositionen-Generator',
     ],
-    titleTag: 'Präpositionen-Arbeitsblatt-Generator | Ortspräpositionen-Druckvorlagen erstellen & verkaufen',
-    metaDescription: 'Präpositionen-Arbeitsblätter mit Lückentext und Multiple Choice in 11 Sprachen erstellen. Formenaustausch, 104 Bildthemen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Präpositionen-Generator | Ortspräpositionen',
+    metaDescription: 'Präpositionen-Arbeitsblätter mit Lückentext und Multiple Choice in 11 Sprachen erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

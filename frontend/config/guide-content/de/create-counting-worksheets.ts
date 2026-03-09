@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Bilddiagramm-Ersteller',
     ],
     titleTag: 'Zähl- und Diagramm-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Zähl- und Diagramm-Arbeitsblätter mit Bilddiagrammen, automatischen Lösungsschlüsseln und 104 Themen. Schritt-für-Schritt-Anleitung für Etsy, Amazon KDP und TpT.',
+    metaDescription: 'Zähl-Arbeitsblätter mit Bilddiagrammen und automatischen Lösungsschlüsseln erstellen. 104 Themen. Schritt-für-Schritt-Anleitung für Etsy, Amazon KDP und TpT.',
   },
 
   hero: {

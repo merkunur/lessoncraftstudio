@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Buchstaben-Deduktion Arbeitsblätter',
       'kommerzieller Wörter-Raten-Generator Rechtschreibung',
     ],
-    titleTag: 'Wörter-Raten-Arbeitsblatt-Generator | Bild-Hinweis-Vokabel-Rätsel erstellen',
-    metaDescription:
-      'Wörter-Raten-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, 3 Inhaltsquellen, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Wörter-Raten-Generator | Bild-Hinweis-Vokabel',
+    metaDescription: 'Wörter-Raten-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'gemischtes Ausschneidegitter Sortier-Aktivitäten-Erstellungstool',
     ],
     titleTag: 'Bilder-Sortieren-Ersteller — Bilder-Sortieren-Generator',
-    metaDescription: 'Zwei-Kategorien-Sortier-Arbeitsblätter erstellen mit Themen-Modus oder manueller Bildauswahl, gemischtem Ausschneidegitter mit 4–12 Bildern, automatisch generierten Lösungsschlüsseln mit 6× größeren Bildern in Kategorieboxen und lokalisiertem Header in 11 Sprachen. 104 thematische Sammlungen mit über 3.100 Illustrationen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    metaDescription: 'Zwei-Kategorien-Sortier-Arbeitsblätter mit 4–12 Bildern und Lösungsschlüssel erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

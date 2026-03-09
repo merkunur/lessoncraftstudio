@@ -17,8 +17,8 @@ const content: StartContent = {
       'Marktplatz-Optimierung für Aktivitätsbücher',
       'Content-Marketing für Druckvorlagen-Unternehmer',
     ],
-    titleTag: 'Druckvorlagen-Arbeitsblätter vermarkten — Verkäufer-Leitfaden',
-    metaDescription: 'Druckvorlagen-Arbeitsblätter online vermarkten: Plattform-SEO, Pinterest-Strategie, E-Mail-Marketing, saisonales Timing und Markenaufbau für Druckvorlagen-Unternehmer.',
+    titleTag: 'Druckvorlagen vermarkten — Verkäufer-Leitfaden',
+    metaDescription: 'Druckvorlagen online vermarkten: Plattform-SEO, Pinterest-Strategie, E-Mail-Marketing und saisonales Timing. Markenaufbau für Druckvorlagen-Unternehmer erklärt.',
   },
 
   hero: {

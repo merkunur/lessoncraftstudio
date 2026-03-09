@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safaritiere Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Safaritiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Afrikanische Wildtier-Produktkonzepte und Plattformstrategien für Verkäufer.',
+    primaryKeyword: 'Safaritiere-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Safari-Arbeitsblätter auf Etsy erstellen',
+      'afrikanische Wildtier-Druckvorlagen auf KDP',
+      'Löwe-Elefant-Giraffe Aktivitätsblätter TPT',
+      'Safari-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'afrikanische Tierwelt Druckvorlagen-Nische',
+      'Wildtier-Bildungsthema Arbeitsblätter Etsy',
+      'Savannen-Thema Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Safaritiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Safaritiere-Druckvorlagen-Ideen für Etsy, KDP und TPT. Afrikanische Wildtier-Produktkonzepte und Plattformstrategien für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Safaritiere-Druckvorlagen: Geschäftsideen für Verkäufer',

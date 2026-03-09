@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insekten Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Insekten-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Insekten-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Insekten-Arbeitsblätter auf Etsy erstellen',
+      'Käfer-Schmetterling-Druckvorlagen auf KDP',
+      'Insekten-Aktivitätsblätter auf TPT verkaufen',
+      'Krabbeltier-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Naturwissenschaft-Thema Insekten-Druckvorlagen',
+      'Entomologie-Bildungsthema Arbeitsblätter Etsy',
+      'Frühling-Sommer-Insekten Lernmaterialien',
+    ],
+    titleTag: 'Insekten-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Insekten-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Arbeitsblatt-Verkäufer und Druckvorlagen-Shops.',
   },
   hero: {
     title: 'Insekten-Druckvorlagen: Geschäftsideen für Verkäufer',

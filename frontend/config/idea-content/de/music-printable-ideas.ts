@@ -2,6 +2,18 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Musik-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Musik-Arbeitsblätter auf Etsy erstellen',
+      'Instrumente-Druckvorlagen auf KDP verkaufen',
+      'Musiktheorie-Aktivitätsblätter für TPT',
+      'Noten-und-Rhythmus-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Musikunterricht-Thema Druckvorlagen-Nische',
+      'Instrumente-Bildungsthema Arbeitsblätter',
+      'Musikalische Früherziehung Lernmaterialien',
+    ],
     titleTag: 'Musik-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
     metaDescription: 'Entdecken Sie Musik-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Instrumenten-Produktkonzepte, Plattform-Tipps und Nischenstrategien für Verkäufer.',
   },

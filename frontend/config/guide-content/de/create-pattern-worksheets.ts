@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Muster-Aktivitätsbücher',
       'kommerzielle Lizenz Arbeitsblatt-Tool',
     ],
-    titleTag: 'Muster-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Erstellen Sie Muster-Arbeitsblätter mit 9 Mustertypen, thematischen Bildern, Lösungsschlüsseln und 2 Frageformaten. Exportieren Sie PDFs zum Verkauf auf Etsy und KDP.',
+    titleTag: 'Muster-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Muster-Arbeitsblätter mit 9 Mustertypen und thematischen Bildern erstellen. Lösungsschlüssel, 2 Frageformate und druckfertige PDFs für Etsy und KDP-Verkauf.',
   },
 
   hero: {

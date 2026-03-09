@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Subtraktions-Aktivitätsbücher',
       'kommerzielle Lizenz Arbeitsblatt-Tool',
     ],
-    titleTag: 'Subtraktions-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Subtraktions-Arbeitsblätter für Kinder mit durchgestrichenen Bildern, visuellen Themen und Lösungsschlüsseln erstellen. Schritt-für-Schritt-Anleitung zum Verkauf auf Etsy, KDP und TpT.',
+    titleTag: 'Subtraktions-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Subtraktions-Arbeitsblätter mit durchgestrichenen Bildern und Lösungsschlüsseln erstellen. Visuelle Themen wählen und auf Etsy, Amazon KDP und TpT verkaufen.',
   },
 
   hero: {

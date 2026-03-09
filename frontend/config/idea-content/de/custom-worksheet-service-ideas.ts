@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Maßgeschneiderte Arbeitsblatt-Service Geschäftsideen — Leitfaden',
-    metaDescription: 'Geschäftsideen für maßgeschneiderte Arbeitsblatt-Services auf Etsy und als Freelancer. Bieten Sie individuelle Lernmaterialien mit Premium-Preisgestaltung pro Auftrag an.',
+    primaryKeyword: 'maßgeschneiderte Arbeitsblatt-Services verkaufen',
+    secondaryKeywords: [
+      'individuelle Lernmaterialien auf Etsy anbieten',
+      'Freelance-Arbeitsblatt-Erstellung als Service',
+      'Premium-Druckvorlagen auf Bestellung erstellen',
+      'personalisierte Arbeitsblätter für Bildungskunden',
+    ],
+    lsiKeywords: [
+      'Auftragsfertigung Druckvorlagen-Service',
+      'Premium-Preisgestaltung individuelle Arbeitsblätter',
+      'maßgeschneiderte Lernmaterialien Geschäftsmodell',
+    ],
+    titleTag: 'Arbeitsblatt-Service Geschäftsideen — Leitfaden',
+    metaDescription: 'Geschäftsideen für maßgeschneiderte Arbeitsblatt-Services. Individuelle Lernmaterialien auf Etsy und als Freelancer mit Premium-Preisgestaltung pro Auftrag.',
   },
   hero: {
     title: 'Maßgeschneiderte Arbeitsblatt-Service Geschäftsideen für Verkäufer',

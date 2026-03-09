@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Präpositionen-Arbeitsblatt-Tool',
     ],
     titleTag: 'Präpositionen-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Präpositionen-Arbeitsblätter mit zwei Übungsmodi, Formaustausch für Szenenvielfalt, 7-Präpositionen-Kontrollkästchen, muttersprachlichen Positionswörtern in 11 Sprachen erstellen.',
+    metaDescription: 'Präpositionen-Arbeitsblätter mit Lückentext und Multiple Choice erstellen. Formenaustausch für Szenenvielfalt, muttersprachliche Positionswörter in 11 Sprachen.',
   },
 
   hero: {

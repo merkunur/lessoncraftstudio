@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fahrzeuge Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Fahrzeuge-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Fahrzeugthemen-Produktkonzepte, Plattformstrategien und Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Fahrzeuge-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Fahrzeug-Arbeitsblätter auf Etsy erstellen',
+      'Transport-Druckvorlagen auf KDP verkaufen',
+      'Auto-Zug-Flugzeug-Aktivitätsblätter TPT',
+      'Verkehrsmittel-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Fahrzeuge-Lieblingsthema Kinder-Druckvorlagen',
+      'Transportmittel-Bildungsthema Arbeitsblätter',
+      'Auto-Bus-Bahn Lernmaterialien Etsy-Nische',
+    ],
+    titleTag: 'Fahrzeuge-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Fahrzeuge-Druckvorlagen-Ideen für Etsy, KDP und TPT. Fahrzeugthemen-Produktkonzepte und Plattformstrategien. Nischentipps für Druckvorlagen-Verkäufer erklärt.',
   },
   hero: {
     title: 'Fahrzeuge Druckvorlagen-Geschäftsideen für Verkäufer',

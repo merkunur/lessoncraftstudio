@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Alphabet-Zug-Werkzeug',
     ],
     titleTag: 'Alphabet-Zug-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Alphabet-Zug-Arbeitsblätter mit 11 bunten Waggons, zwei Erstellungsmodi (Automatische Erstellung und Manuelle Auswahl), konfigurierbarer Hinweisanzahl 3–11, sprachsensitiver Buchstabenzuordnung in 11 Sprachen und automatischen Lösungsschlüsseln für Etsy und KDP.',
+    metaDescription: 'Alphabet-Zug-Arbeitsblätter mit 11 Waggons und sprachsensitiver Buchstabenzuordnung erstellen. Hinweisanzahl 3–11, Lösungsschlüssel für Etsy und KDP-Verkauf.',
   },
 
   hero: {

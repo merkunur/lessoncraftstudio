@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Unterwasser-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Unterwasser-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Ozean-Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Unterwasser-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
+      'Ozean-Druckvorlagen auf KDP verkaufen',
+      'Meereslebewesen-Aktivitätsblätter für TPT',
+      'Korallen-Fisch-Lernmaterialien für Etsy-Shops',
+    ],
+    lsiKeywords: [
+      'Unterwasser-Ozean-Nische Druckvorlagen',
+      'Meeresbiologie-Thema Arbeitsblätter Etsy',
+      'Unterwasserwelt Ganzjahres-Lernmaterialien',
+    ],
+    titleTag: 'Unterwasser-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Unterwasser-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ozean-Produktkonzepte und Nischenstrategien für erfolgreiche Druckvorlagen-Verkäufer Arbeitsblatt-Shops.',
   },
   hero: {
     title: 'Unterwasser-Druckvorlagen-Geschäftsideen für Verkäufer',

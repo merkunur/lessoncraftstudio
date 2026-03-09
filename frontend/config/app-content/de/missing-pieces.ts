@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Fehlende-Puzzleteile-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Rätsel Werkzeuge',
     ],
-    titleTag: 'Fehlende-Puzzleteile-Generator | Visuelle Puzzle-Rätsel erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Fehlende-Puzzleteile-Rätsel erstellen und auf Etsy.de, Amazon KDP verkaufen. 6 Teilformen, 1–5 fehlende Teile, 2–6 Lösungsoptionen, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Fehlende-Puzzleteile-Generator | Puzzle-Rätsel',
+    metaDescription: 'Fehlende-Puzzleteile-Rätsel erstellen und auf Etsy, KDP verkaufen. 6 Teilformen, 1–5 fehlende Teile, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

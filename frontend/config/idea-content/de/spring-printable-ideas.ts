@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Frühling Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Frühling Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Frühling-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Frühlings-Arbeitsblätter auf Etsy erstellen',
+      'März-Mai-Druckvorlagen auf KDP verkaufen',
+      'saisonale Frühlings-Aktivitätsblätter TPT',
+      'Blumen-Schmetterling-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Frühjahrssaison Druckvorlagen-Nachfrage',
+      'saisonale Natur-Thema Arbeitsblätter Etsy',
+      'Frühling-Garten Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Frühling-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Frühling-Druckvorlagen-Ideen für Etsy, KDP und TPT. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Frühling Druckvorlagen-Geschäftsideen für Verkäufer',

@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Bingo-Karten-Generator mit Ansageblatt',
       'Druckvorlagen-Geschäft Bingo-Aktivitäten Werkzeuge',
     ],
-    titleTag: 'Bilder-Bingo-Karten-Generator | Bingo-Karten erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Bilder-Bingo-Karten erstellen und auf Etsy.de, Amazon KDP verkaufen. Stapel-Generierung von 1–10 einzigartigen Karten, ZIP-Export, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Bilder-Bingo-Generator | Bingo-Karten erstellen',
+    metaDescription: 'Bilder-Bingo-Karten erstellen und auf Etsy, KDP verkaufen. Stapel-Generierung, ZIP-Export, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

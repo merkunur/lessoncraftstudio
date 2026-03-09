@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Bilderdiagramm-Werkzeuge',
       'kommerzieller Bilddiagramm-Generator mit Lösungsschlüssel',
     ],
-    titleTag: 'Bilddiagramm-Generator | Piktogramm-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Bilddiagramm-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Automatischer Lösungsschlüssel, 104 Themen, 6 Bildtypen pro Blatt, Graustufen-Export. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Bilddiagramm-Generator | Piktogramm-Übungen',
+    metaDescription: 'Bilddiagramm-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Lösungsschlüssel, 6 Bildtypen pro Blatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

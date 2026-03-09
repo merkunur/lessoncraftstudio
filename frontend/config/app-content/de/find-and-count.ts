@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Ich-sehe-was-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Zählaktivitäten Werkzeuge',
     ],
-    titleTag: 'Suchbild-Generator | Ich-sehe-was-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Suchbild- und Suchen-und-Zählen-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 4 Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Suchbild-Generator | Ich-sehe-was-Übungen',
+    metaDescription: 'Suchbild-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

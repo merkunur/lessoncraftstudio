@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft visuelle Muster-Raster-Übungen',
       'kommerzieller Muster-Vervollständigungs-Arbeitsblatt-Generator',
     ],
-    titleTag: 'Muster-Arbeitsblatt-Generator | Muster-Raster-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Muster-Raster-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Neun Mustertypen (AB bis ABCD), zwei Fragemodi, pro-Übung-Konfiguration, 104 Themen, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Muster-Raster-Generator | Muster-Arbeitsblätter',
+    metaDescription: 'Muster-Raster-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Neun Mustertypen, zwei Fragemodi, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

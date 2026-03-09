@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Such- und Finde-Aktivitätsbücher',
       'kommerzielle Lizenz Suchbilder-Ersteller',
     ],
-    titleTag: 'Suchbilder-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Wie Sie Suchbilder-Arbeitsblätter mit 2 Spielmodi erstellen: Ich sehe was und Was passt nicht. Thematische Szenen aufbauen, Lösungsschlüssel generieren und auf Etsy und Amazon KDP verkaufen.',
+    titleTag: 'Suchbilder-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Suchbilder-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. Thematische Szenen, Lösungsschlüssel. Verkaufen auf Etsy und Amazon KDP.',
   },
 
   hero: {

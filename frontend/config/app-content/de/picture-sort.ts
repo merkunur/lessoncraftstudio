@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Bilder-Sortieren-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Klassifizierungs-Aktivitäten Werkzeuge',
     ],
-    titleTag: 'Bilder-Sortieren-Arbeitsblatt-Generator | Sortier-Aktivitäten erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei-Kategorien-Sortierung, automatischer Lösungsschlüssel, 104 Themen, 4–12 Bilder. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Bilder-Sortieren-Generator | Sortier-Aktivitäten',
+    metaDescription: 'Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Zwei-Kategorien-Sortierung, 4–12 Bilder. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

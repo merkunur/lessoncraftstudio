@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Sudoku Rätselzählung Seitenlayout Lösungsschlüssel Druck Beschnitt',
     ],
     titleTag: 'Sudoku-Bücher KDP — Veröffentlichungsleitfaden',
-    metaDescription: 'Erstellen Sie Sudoku-Bücher für KDP mit Bilder-Sudoku für Kinder und Zahlen-Sudoku für Erwachsene. Schwierigkeitsprogression, Rasterformatierung und Serienaufbau-Strategie.',
+    metaDescription: 'Sudoku-Bücher für KDP erstellen. Bilder-Sudoku für Kinder und Zahlen-Sudoku für Erwachsene, Schwierigkeitsprogression, Rasterformatierung und Serienaufbau.',
   },
 
   hero: {

@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaurier Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Dinosaurier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Dinosaurier-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Dino-Arbeitsblätter auf Etsy erstellen',
+      'Dinosaurier-Aktivitätsblätter auf KDP verkaufen',
+      'Urzeit-Druckvorlagen für Kinder auf TPT',
+      'Dinosaurier-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Evergreen-Kinderthema Druckvorlagen-Nische',
+      'Paläontologie-Bildungsthema Arbeitsblätter',
+      'T-Rex-Stegosaurus-Thema Lernmaterialien Etsy',
+    ],
+    titleTag: 'Dinosaurier-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Dinosaurier-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Dinosaurier-Druckvorlagen: Geschäftsideen für Verkäufer',

@@ -2,7 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Baustelle Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
+    primaryKeyword: 'Baustellen-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Baufahrzeug-Arbeitsblätter auf Etsy erstellen',
+      'Werkzeug-Baustellen-Druckvorlagen auf KDP verkaufen',
+      'Bagger-und-Kran-Aktivitätsblätter für TPT',
+      'Baustellen-Thema Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Jungen-Lieblingsthema Druckvorlagen-Nische',
+      'Fahrzeuge-Werkzeuge Lernmaterialien Etsy',
+      'Baustellen-Bildungsthema Arbeitsblatt-Markt',
+    ],
+    titleTag: 'Baustelle Druckvorlagen-Ideen — Verkäufer-Guide',
     metaDescription: 'Entdecken Sie Baustelle-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Fahrzeug- und Werkzeug-Produktkonzepte, Plattformtipps und Strategien für Verkäufer.',
   },
   hero: {

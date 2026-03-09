@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Keyword-Nachfrage Suchvolumen Marktplatz-Trends Käuferintentionssignale',
     ],
     titleTag: 'Nischenauswahl für Druckvorlagen-Geschäfte — Leitfaden',
-    metaDescription: 'Nischenauswahl für Druckvorlagen-Geschäfte: Nachfrage recherchieren, Wettbewerb analysieren, Rentabilität bewerten, vor dem Festlegen validieren und Expansion planen.',
+    metaDescription: 'Nischenauswahl für Druckvorlagen: Nachfrage recherchieren, Wettbewerb analysieren, Rentabilität bewerten und validieren. Expansionsplanung für Verkäufer.',
   },
 
   hero: {

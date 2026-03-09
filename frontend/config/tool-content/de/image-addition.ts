@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Bilderrechnen Arbeitsblatt-Tool',
       'Zahlenraum 1–10 Additionsübungen',
     ],
-    titleTag: 'Additions-Arbeitsblatt-Ersteller | Mathe-Übungen mit Bildern generieren',
-    metaDescription: 'Additions-Arbeitsblätter mit Bildern in Sekunden erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen mit Wasserzeichen — keine Anmeldung nötig.',
+    titleTag: 'Additions-Ersteller | Mathe-Übungen mit Bildern',
+    metaDescription: 'Additions-Arbeitsblätter mit Bildern erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel und druckfertige PDFs. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

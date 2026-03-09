@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Angebotsfotos Mockups für pädagogische Druckvorlagen-Produkte',
     ],
     titleTag: 'Lernmaterial auf Etsy verkaufen — Leitfaden',
-    metaDescription: 'Pädagogische Druckvorlagen auf Etsy verkaufen mit 33 Generatoren in 6 Kategorien. Shop-Strategie, Etsy SEO, kategorieübergreifende Bündelung und Preisgestaltung für Verkäufer.',
+    metaDescription: 'Pädagogische Druckvorlagen auf Etsy verkaufen mit 33 Generatoren. Shop-Strategie, Etsy-SEO und kategorieübergreifende Bündelung. Preisgestaltung Arbeitsblätter.',
   },
 
   hero: {

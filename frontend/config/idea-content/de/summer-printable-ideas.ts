@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Sommer-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Sommer-Arbeitsblätter auf Etsy erstellen',
+      'Strand-Ferien-Druckvorlagen auf KDP verkaufen',
+      'saisonale Sommer-Aktivitätsblätter für TPT',
+      'Sonnenschein-Thema Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Sommer-Saison Druckvorlagen-Nachfrage',
+      'Strand-Ferien-Nische Arbeitsblätter Etsy',
+      'saisonaler Sommer-Markt Lernmaterialien',
+    ],
     titleTag: 'Sommer-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Sommer-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Strand- und Sonnenschein-Produktkonzepte, saisonale Strategien und Plattformtipps für Verkäufer.',
+    metaDescription: 'Sommer-Druckvorlagen-Ideen für Etsy, KDP und TPT. Strand- und Ferien-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Sommer-Druckvorlagen-Geschäftsideen für Verkäufer',

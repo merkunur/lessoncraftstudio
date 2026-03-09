@@ -14,8 +14,8 @@ const content: ToolContent = {
       'LPF Longest Path First Algorithmus wandbasierter Labyrinth-Ersteller',
       'automatischer Lösungsschlüssel rosa Kreis-Lösungspfad Labyrinth-Generator',
     ],
-    titleTag: 'Bilderpfad-Ersteller — Labyrinth-Arbeitsblatt-Generator für Verkäufer',
-    metaDescription: 'Erstellen Sie Labyrinth-Arbeitsblätter mit drei Spielmodi — Bilderpfad, Klassisches Labyrinth (LPF-Algorithmus) und Wähle den richtigen Weg. Fünf Bildrollen, Wandanpassung, Sammelobjekt-System, automatisch generierte Lösungsschlüssel mit rosa Kreis-Lösungspfaden, 104 thematische Bildsammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Bilderpfad-Ersteller | Labyrinth-Generator',
+    metaDescription: 'Labyrinth-Arbeitsblätter mit drei Spielmodi und LPF-Algorithmus erstellen. Lösungsschlüssel, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: StartContent = {
       'Arbeitsblätter auf Etsy.de Etsy.fr verkaufen',
     ],
     titleTag: 'Mehrsprachiger Arbeitsblatt-Generator — 11 Sprachen',
-    metaDescription: 'Mit einem mehrsprachigen Arbeitsblatt-Generator Arbeitsblätter in 11 Sprachen erstellen und verkaufen. Deutsche, französische und spanische Käufer auf Etsy und Amazon KDP erreichen.',
+    metaDescription: 'Arbeitsblätter in 11 Sprachen erstellen und auf internationalen Märkten verkaufen. Deutsche, französische und spanische Käufer auf Etsy und KDP erreichen.',
   },
 
   hero: {

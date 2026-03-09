@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Märchen-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Märchen-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Geschichtenbuch-Produktkonzepte, Plattformtipps und Strategien für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Märchen-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Märchen-Arbeitsblätter auf Etsy erstellen',
+      'Geschichtenbuch-Druckvorlagen auf KDP verkaufen',
+      'Märchenthema-Aktivitätsblätter für TPT',
+      'klassische Märchen-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'zeitlose Erzählthemen Druckvorlagen-Nische',
+      'Lesekompetenz Märchenthema Arbeitsblätter',
+      'Fantasie-Bildungsthema Lernmaterialien Etsy',
+    ],
+    titleTag: 'Märchen-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Märchen-Druckvorlagen-Ideen für Etsy, KDP und TPT. Geschichtenbuch-Produktkonzepte und Plattformstrategien für erfolgreiche Druckvorlagen-Verkäufer und Shops.',
   },
   hero: {
     title: 'Märchen-Druckvorlagen-Geschäftsideen für Verkäufer',

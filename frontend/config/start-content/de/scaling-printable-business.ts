@@ -17,7 +17,7 @@ const content: StartContent = {
       'mehrsprachige Marktexpansion Druckvorlagen',
       'Reinvestitionsstrategie für Druckvorlagen-Geschäft',
     ],
-    titleTag: 'Druckvorlagen-Geschäft skalieren — Vom Nebenerwerb zum Vollzeit-Geschäft',
+    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
     metaDescription: 'Druckvorlagen-Geschäft skalieren vom Nebenerwerb zum Vollzeit-Geschäft: Katalogerweiterung, Multi-Plattform-Distribution, Bündelung und Workflow-Optimierung.',
   },
 

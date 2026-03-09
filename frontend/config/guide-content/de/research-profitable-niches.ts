@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Nachfragequantifizierung Marktsättigung Keyword-Tools datengestützte Entscheidungen',
       'Mindestprodukt testen Recherche-Workflow Nischenentdeckung systematischer Prozess',
     ],
-    titleTag: 'Profitable Druckvorlagen-Nischen recherchieren — Methoden-Leitfaden',
-    metaDescription: 'Lernen Sie, profitable Druckvorlagen-Nischen mit Marktplatzdaten, Keyword-Analyse, Wettbewerbsforschung, Nachfragesignalen und systematischen Validierungsmethoden zu recherchieren.',
+    titleTag: 'Profitable Druckvorlagen-Nischen recherchieren',
+    metaDescription: 'Profitable Druckvorlagen-Nischen recherchieren mit Marktplatzdaten, Keyword-Analyse und Wettbewerbsforschung. Systematische Validierungsmethoden Verkaufserfolg.',
   },
 
   hero: {

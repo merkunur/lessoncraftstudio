@@ -14,8 +14,8 @@ const content: ToolContent = {
       'verblassendes Nachspuren Schreibübungen-Tool',
       'Schreibschrift- und Druckschrift-Handschrift-Generator',
     ],
-    titleTag: 'Schreibübungen-Arbeitsblatt-Generator | Handschrift-Übungsblätter erstellen & verkaufen',
-    metaDescription: 'Schreibübungen-Arbeitsblätter mit drei Übungsmodi (Nachspuren, Verblassendes Nachspuren, Geführte Abschrift), fünf Schriftstilen mit pfeilgeführter Strichrichtung, Vorübungen zur Feinmotorik und zeilenweiser Unabhängigkeit erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Schreibübungen-Generator | Handschrift-Übungen',
+    metaDescription: 'Schreibübungen-Arbeitsblätter mit drei Übungsmodi und fünf Schriftstilen erstellen. Strichrichtungspfeile, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

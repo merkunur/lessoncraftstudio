@@ -18,7 +18,7 @@ const content: StartContent = {
       'absetzbare Betriebsausgaben Druckvorlagen-Geschäft',
     ],
     titleTag: 'Druckvorlagen verkaufen Steuerpflichten — Rechts-Leitfaden',
-    metaDescription: 'Steuerpflichten beim Verkauf von Druckvorlagen erklärt. Unternehmensform, absetzbare Ausgaben, geistiges Eigentum und Plattform-Compliance für Druckvorlagen-Verkäufer.',
+    metaDescription: 'Steuerpflichten beim Druckvorlagen-Verkauf erklärt. Unternehmensform, absetzbare Ausgaben, geistiges Eigentum und Plattform-Compliance Arbeitsblatt-Verkäufer.',
   },
 
   hero: {

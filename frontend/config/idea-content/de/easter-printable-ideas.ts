@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Ostern-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Oster-Arbeitsblätter auf Etsy erstellen',
+      'Frühlings-Ostern-Aktivitätsblätter auf KDP',
+      'saisonale Oster-Druckvorlagen auf TPT verkaufen',
+      'Osterhase-Thema Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Frühlings-Saison Osternachfrage Druckvorlagen',
+      'März-April-Verkaufsspitze Lernmaterialien',
+      'Oster-Nische saisonaler Arbeitsblatt-Markt',
+    ],
     titleTag: 'Ostern-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Ostern-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Frühlings-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
+    metaDescription: 'Ostern-Druckvorlagen-Ideen für Etsy, KDP und TPT. Frühlings-Produktkonzepte, saisonale Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Ostern-Druckvorlagen-Geschäftsideen für Verkäufer',

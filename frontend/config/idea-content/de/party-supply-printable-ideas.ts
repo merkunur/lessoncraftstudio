@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Druckbare Partyzubehör-Geschäftsideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Druckbare Partyzubehör-Geschäftsideen für Etsy- und Marktplatz-Verkäufer. Erstellen Sie thematische Partypakete, Geburtstagsspiele und Aktivitätsblätter für Feiern.',
+    primaryKeyword: 'druckbare Partyzubehör-Ideen verkaufen',
+    secondaryKeywords: [
+      'Party-Aktivitätsblätter auf Etsy erstellen',
+      'Geburtstag-Druckvorlagen auf KDP verkaufen',
+      'Feier-Spiele-Arbeitsblätter für Etsy-Shops',
+      'thematische Partypakete für Druckvorlagen-Verkäufer',
+    ],
+    lsiKeywords: [
+      'Geburtstags-Nische Druckvorlagen-Geschäft',
+      'Partyspiele Aktivitätsblätter Etsy-Markt',
+      'Feier-Thema Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Druckbare Partyzubehör-Ideen — Verkäufer-Guide',
+    metaDescription: 'Druckbare Partyzubehör-Ideen für Etsy-Verkäufer. Thematische Partypakete, Geburtstagsspiele und Aktivitätsblätter für Feiern erstellen und gewinnbringend.',
   },
   hero: {
     title: 'Druckbare Partyzubehör-Geschäftsideen für Verkäufer',

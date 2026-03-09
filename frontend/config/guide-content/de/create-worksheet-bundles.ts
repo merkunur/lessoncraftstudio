@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Multi-Plattform Paket-Listings universelle Strategie plattformübergreifender Verkauf',
     ],
     titleTag: 'Arbeitsblatt-Pakete erstellen die sich verkaufen — Leitfaden',
-    metaDescription: 'So erstellen Sie Arbeitsblatt-Pakete, die sich auf jeder Plattform verkaufen. Pakettypen, Preispsychologie, Wert-Stapelung und professionelle Verpackung für mehr Umsatz.',
+    metaDescription: 'Arbeitsblatt-Pakete erstellen, die sich auf jeder Plattform verkaufen. Pakettypen, Preispsychologie und professionelle Verpackung für mehr Profi-Anleitung.',
   },
 
   hero: {

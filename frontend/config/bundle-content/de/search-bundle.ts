@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerzielle Lizenz Entdecker-Arbeitsblätter',
       'Suchen-und-Finden-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Suchen-Finden-Arbeitsblatt-Paket — 4 Such- und Entdecker-Generatoren',
-    metaDescription: 'Suchen-Finden-Arbeitsblatt-Paket mit 4 Generatoren: Suchbilder, Bilderkreuzworträtsel, Schatzsuche und Suchen-und-Zählen. Verkaufen auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.',
+    titleTag: 'Suchen & Finden — 4-Generatoren-Paket',
+    metaDescription: 'Such-Paket mit 4 Generatoren: Suchbilder, Kreuzworträtsel, Schatzsuche und Suchen-und-Zählen. Verkaufen auf Etsy, KDP und Lehrermarktplatz mit Lizenz.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kreative Entscheidungen Ausdruck versus Ideen Fakten Standardmethoden Bildungsinhalte',
     ],
     titleTag: 'Urheberrecht Druckvorlagen-Verkäufer — Grundlagen-Leitfaden',
-    metaDescription: 'Erfahren Sie, was Druckvorlagen-Verkäufer über Urheberrecht wissen müssen: welche Arbeitsblatt-Elemente schutzfähig sind, Registrierungsvorteile, Durchsetzung und Vermeidung von Urheberrechtsverletzungen.',
+    metaDescription: 'Was Druckvorlagen-Verkäufer über Urheberrecht wissen müssen: schutzfähige Elemente, Registrierung, Durchsetzung und Vermeidung von Urheberrechtsverletzungen.',
   },
 
   hero: {

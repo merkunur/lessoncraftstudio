@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Vögel-Druckvorlagen-Ideen für Verkäufer',
+    secondaryKeywords: [
+      'Vogel-Arbeitsblätter auf Etsy verkaufen',
+      'Vogelarten-Lernmaterialien auf KDP erstellen',
+      'Natur-Druckvorlagen mit Vogelthemen auf TPT',
+      'Vogelbeobachtungs-Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Natur-Bildungsthema Druckvorlagen-Nische',
+      'Ganzjahres-Tierthema Arbeitsblätter Umsatz',
+      'ornithologische Lernmaterialien Etsy-Markt',
+    ],
     titleTag: 'Vögel Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Vögel-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.',
+    metaDescription: 'Profitable Vögel-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Arbeitsblatt-Verkäufer und Etsy-Shops.',
   },
   hero: {
     title: 'Vögel-Druckvorlagen: Geschäftsideen für Verkäufer',

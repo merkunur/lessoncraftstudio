@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Angebotsfotos Mockups für Mathe-Arbeitsblatt-Produkte',
     ],
     titleTag: 'Mathe-Arbeitsblätter auf Etsy verkaufen — Leitfaden',
-    metaDescription: 'Mathe-Arbeitsblätter auf Etsy verkaufen mit 6 Generatoren. Etsy SEO, Angebotsoptimierung, Preisgestaltung, Bündelstrategien und saisonales Timing für Druckvorlagen-Verkäufer.',
+    metaDescription: 'Mathe-Arbeitsblätter auf Etsy verkaufen mit 6 Generatoren. Etsy-SEO, Angebotsoptimierung, Preisgestaltung und Bündelstrategien. Saisonales Timing für Verkäufer.',
   },
 
   hero: {

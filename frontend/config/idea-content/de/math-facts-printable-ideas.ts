@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mathe-Grundlagen-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Mathe-Grundlagen-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer, die den immergrünen Hochvolumen-Markt erschließen wollen, in dem Lehrer, Eltern, Nachhilfelehrer und Homeschool-Familien Rechenflüssigkeits-Arbeitsblätter, zeitbasierte Übungsblätter und Materialien zur Automatisierung der Grundrechenarten ganzjährig kaufen.',
+    primaryKeyword: 'Mathe-Grundlagen-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Rechenflüssigkeit-Arbeitsblätter auf Etsy erstellen',
+      'Mathe-Übungsblätter auf KDP verkaufen',
+      'Einmaleins-Druckvorlagen auf TPT anbieten',
+      'Grundrechenarten-Lernmaterialien für Verkäufer',
+    ],
+    lsiKeywords: [
+      'immergrüner Mathematik-Markt Druckvorlagen',
+      'Hochvolumen-Bildungsbereich Arbeitsblätter',
+      'Rechenübungen Grundschule Etsy-Nische',
+    ],
+    titleTag: 'Mathe-Grundlagen-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Mathe-Grundlagen-Druckvorlagen-Ideen für Etsy, KDP und TPT. Rechenflüssigkeits-Arbeitsblätter für den immergrünen Hochvolumen-Bildungsmarkt. Verkäufer-Guide.',
   },
   hero: {
     title: 'Mathe-Grundlagen-Druckvorlagen — Geschäftsideen für Verkäufer',

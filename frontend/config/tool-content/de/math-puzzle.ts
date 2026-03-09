@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Bilderpuzzle-Arbeitsblatt-Tool',
       'Mathe-Puzzle-Aktivitäten Generator',
     ],
-    titleTag: 'Mathe-Rätsel-Arbeitsblatt-Generator | Puzzle-Mathe-Arbeitsblätter erstellen & verkaufen',
-    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil mit Bildraster, drei Rechenarten und eigenem Bild-Upload erstellen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Mathe-Rätsel-Generator | Puzzle-Mathe-Übungen',
+    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil mit Bildraster und drei Rechenarten erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

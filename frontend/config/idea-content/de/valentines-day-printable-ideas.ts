@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentinstag-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Valentinstag-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Liebes-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Valentinstag-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Valentinstag-Arbeitsblätter auf Etsy erstellen',
+      'Liebes-Herz-Druckvorlagen auf KDP verkaufen',
+      'Februar-Feiertags-Aktivitätsblätter für TPT',
+      'Valentinstag-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Februar-Nachfragespitze saisonale Druckvorlagen',
+      'Valentinstag-Nische Arbeitsblätter Etsy',
+      'Liebes-Thema Lernmaterialien saisonaler Markt',
+    ],
+    titleTag: 'Valentinstag-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Valentinstag-Druckvorlagen-Ideen für Etsy, KDP und TPT. Liebes-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer und Shops.',
   },
   hero: {
     title: 'Valentinstag-Druckvorlagen-Geschäftsideen für Verkäufer',

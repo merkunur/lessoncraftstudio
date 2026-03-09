@@ -15,8 +15,8 @@ const content: BundleContent = {
       'kommerzielle Lizenz visuelle Aktivitäts-Arbeitsblätter',
       'visuelle Arbeitsblatt-Massenproduktion Werkzeug',
     ],
-    titleTag: 'Visuelles-Lernen-Arbeitsblatt-Paket — 7 Aktivitäts-Generatoren',
-    metaDescription: 'Holen Sie sich 7 professionelle visuelle Lern-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Malvorlagen, Zeichenaktivitäten, Musterübungen, Größenvergleiche, Bilddiagramme und Linienübungen. Textunabhängig — weltweit einsetzbar. Verkaufen Sie auf Etsy.de, KDP und Lehrermarktplatz.',
+    titleTag: 'Visuelles Lernen — 7-Generatoren-Paket',
+    metaDescription: '7 visuelle Lern-Generatoren im Paket: Malvorlagen, Zeichenaktivitäten, Muster, Größenvergleiche, Bilddiagramme und Linienübungen. Weltweit einsetzbar.',
   },
 
   hero: {

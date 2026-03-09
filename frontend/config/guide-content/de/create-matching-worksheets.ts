@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Zuordnungs-Aktivitätsbücher',
       'kommerzielle Lizenz Arbeitsblatt-Tool',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblätter für die Vorschule erstellen — Leitfaden',
-    metaDescription: 'So erstellen Sie Zuordnungs-Arbeitsblätter für die Vorschule. Nutzen Sie 4 Modi, thematische Bilder, automatische Lösungsschlüssel mit Verbindungslinien und exportieren Sie PDFs zum Verkauf auf Etsy und KDP.',
+    titleTag: 'Zuordnungs-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Zuordnungs-Arbeitsblätter für die Vorschule erstellen. 4 Modi, thematische Bilder und Lösungsschlüssel mit Linien. PDFs zum Verkauf auf Etsy und exportieren.',
   },
 
   hero: {

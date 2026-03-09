@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Winter-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Winter-Arbeitsblätter auf Etsy erstellen',
+      'Schnee-Eis-Druckvorlagen auf KDP verkaufen',
+      'Kaltwetter-Aktivitätsblätter auf TPT anbieten',
+      'Schneemann-Pinguin-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'November-Februar-Nachfrage Druckvorlagen',
+      'Kaltwetter-Nische Arbeitsblätter Etsy-Markt',
+      'Winter-Saison Lernmaterialien Verkauf',
+    ],
     titleTag: 'Winter-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Winter-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Kaltwetter-Produktkonzepte mit starker Nachfrage von November bis Februar für Arbeitsblatt-Verkäufer.',
+    metaDescription: 'Winter-Druckvorlagen-Ideen für Etsy, KDP und TPT. Kaltwetter-Produktkonzepte mit Nachfrage von November bis Februar. Nischenstrategien Arbeitsblatt-Verkäufer.',
   },
   hero: {
     title: 'Winter-Druckvorlagen-Geschäftsideen für Verkäufer',

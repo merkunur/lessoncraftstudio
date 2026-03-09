@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Zeichen-Aktivitätsbücher',
       'Schwarz-Weiß-Umriss Arbeitsblatt-Tool',
     ],
-    titleTag: 'Zeichen-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter mit Doppelraster-System, einstellbarem Hinweisprozentsatz, drei Symmetriemodi und Schwarz-Weiß-Umrissen. Verkauf auf Etsy und KDP.',
+    titleTag: 'Zeichen-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Zeichen-Arbeitsblätter mit Doppelraster-System und einstellbarem Hinweisprozentsatz erstellen. Drei Symmetriemodi, S/W-Export für den Verkauf auf Etsy und KDP.',
   },
 
   hero: {

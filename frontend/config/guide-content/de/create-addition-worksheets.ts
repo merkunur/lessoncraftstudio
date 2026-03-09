@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Amazon KDP Mathe-Aktivitätsbücher',
       'kommerzielle Lizenz Arbeitsblatt-Tool',
     ],
-    titleTag: 'Additions-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Additions-Arbeitsblätter für Kinder erstellen. Schritt-für-Schritt-Anleitung: Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs zum Verkauf auf Etsy und KDP exportieren.',
+    titleTag: 'Additions-Arbeitsblätter erstellen — Anleitung',
+    metaDescription: 'Additions-Arbeitsblätter für Kinder erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP exportieren.',
   },
 
   hero: {

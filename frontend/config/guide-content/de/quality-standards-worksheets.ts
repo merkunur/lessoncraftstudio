@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Bewertungen Käufervertrauen Produktionscheckliste Qualitätssicherung',
     ],
     titleTag: 'Qualitätsstandards Arbeitsblätter für Verkäufer — Checkliste',
-    metaDescription: 'Qualitätsstandards für Arbeitsblätter, die Verkäufer für professionelle Ergebnisse brauchen. Deckt Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests für Marktplätze ab.',
+    metaDescription: 'Qualitätsstandards für Arbeitsblätter: Auflösung, Seitenränder, Typografie und Lösungsschlüssel. Drucktests und professionelle Ergebnisse Marktplatz-Verkäufer.',
   },
 
   hero: {

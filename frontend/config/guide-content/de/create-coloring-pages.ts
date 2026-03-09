@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Malvorlagen-Tool',
     ],
     titleTag: 'Malvorlagen aus thematischen Bildern erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Malvorlagen aus über 3.100 thematischen Bildern. Freie Leinwand mit Graustufen-Export, Freihand-Zeichenwerkzeug und Klassenzimmer-Hilfen. Verkaufen auf Etsy und KDP.',
+    metaDescription: 'Malvorlagen aus 3.100+ thematischen Bildern erstellen. Freie Leinwand, Graustufen-Export und Freihand-Zeichenwerkzeug. Druckvorlagen für Etsy und KDP-Verkauf.',
   },
 
   hero: {

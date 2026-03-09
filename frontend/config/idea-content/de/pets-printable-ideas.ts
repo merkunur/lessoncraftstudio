@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Haustiere Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Haustier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Hunde-, Katzen- und Kleintier-Produktkonzepte mit Plattformstrategien für Verkäufer.',
+    primaryKeyword: 'Haustier-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Hunde-Katzen-Arbeitsblätter auf Etsy erstellen',
+      'Haustier-Druckvorlagen auf KDP verkaufen',
+      'Kleintier-Aktivitätsblätter auf TPT anbieten',
+      'Tierpflege-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Haustier-Lieblingsthema Kinder-Druckvorlagen',
+      'Hund-Katze-Bildungsthema Arbeitsblätter',
+      'Tierliebe Ganzjahres-Nische Etsy-Verkauf',
+    ],
+    titleTag: 'Haustiere-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Haustier-Druckvorlagen-Ideen für Etsy, KDP und TPT. Hunde-, Katzen- und Kleintier-Produktkonzepte mit Plattformstrategien für Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Haustier-Druckvorlagen: Geschäftsideen für Verkäufer',

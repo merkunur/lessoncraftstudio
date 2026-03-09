@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Inhaltskalender E-Mail-Analytik A/B-Testing Personalisierungs-Tags',
     ],
     titleTag: 'E-Mail-Marketing Druckvorlagen — Verkäuferstrategie',
-    metaDescription: 'E-Mail-Marketing-Strategie für Druckvorlagen-Verkäufer. Bauen Sie eine Abonnentenliste auf, erstellen Sie Lead-Magnete, automatisieren Sie Sequenzen und steigern Sie Wiederholungskäufe.',
+    metaDescription: 'E-Mail-Marketing für Druckvorlagen-Verkäufer. Abonnentenliste aufbauen, Lead-Magnete erstellen und Sequenzen automatisieren. Wiederholungskäufe steigern.',
   },
 
   hero: {

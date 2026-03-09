@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'ESL-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Sprachlern-Arbeitsblätter auf Etsy erstellen',
+      'ESL-Vokabel-Druckvorlagen auf TPT verkaufen',
+      'visuell unterstützte Sprachübungen auf KDP',
+      'Fremdsprachen-Arbeitsblätter für Druckvorlagen-Verkäufer',
+    ],
+    lsiKeywords: [
+      'wachsender Sprachlernmarkt Druckvorlagen',
+      'Vokabel-Bildkarten Arbeitsblätter ESL-Nische',
+      'mehrsprachige Lernmaterialien Etsy-Geschäft',
+    ],
     titleTag: 'ESL-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie ESL-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im wachsenden globalen Markt, in dem ESL/ELL-Lehrkräfte, Nachhilfelehrer, Sprachschulen und Einwandererfamilien Vokabel-Arbeitsblätter, visuell unterstützte Übungen und gestufte Lernmaterialien kaufen.',
+    metaDescription: 'ESL-Druckvorlagen-Ideen für Etsy, KDP und TPT. Vokabel-Arbeitsblätter und visuell unterstützte Übungen für den wachsenden Markt der Sprachlernmaterialien.',
   },
   hero: {
     title: 'ESL-Druckvorlagen-Geschäftsideen für Verkäufer',

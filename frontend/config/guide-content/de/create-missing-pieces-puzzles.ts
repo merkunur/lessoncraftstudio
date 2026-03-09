@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Fehlende-Teile-Tool',
     ],
     titleTag: 'Puzzle-Arbeitsblätter fehlende Teile erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Puzzle-Arbeitsblätter mit fehlenden Teilen mit 6 Puzzleteil-Formen, intelligentem Extraktionsalgorithmus mit Helligkeitsvarianz-Erkennung, Ablenkungsteilen, zwei unabhängigen Schwierigkeitssteuerungen und automatischen Lösungsschlüsseln mit gelber Hervorhebung für weltweiten Verkauf auf Etsy und KDP.',
+    metaDescription: 'Puzzle-Arbeitsblätter mit fehlenden Teilen erstellen. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Druckvorlagen für den Verkauf auf Etsy.',
   },
 
   hero: {

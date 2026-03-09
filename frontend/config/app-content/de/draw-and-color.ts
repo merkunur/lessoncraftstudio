@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Zelle-für-Zelle-Zeichenraster',
       'kommerzieller Rasterzeichnen-Arbeitsblatt-Generator',
     ],
-    titleTag: 'Rasterzeichnen-Generator | Rasterzeichnen-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Rasterzeichnen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Duales Rastersystem mit einstellbarem Hinweisprozent 10–75%, drei Symmetriemodi, über 100 S&W-Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Rasterzeichnen-Generator | Gitterzeichnungen',
+    metaDescription: 'Rasterzeichnen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Duales Rastersystem, Hinweisprozent 10–75%. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

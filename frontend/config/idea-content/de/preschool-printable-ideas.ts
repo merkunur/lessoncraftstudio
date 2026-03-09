@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vorschule Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Vorschule-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Vorschul-Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer und Unternehmer.',
+    primaryKeyword: 'Vorschule-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Vorschul-Arbeitsblätter auf Etsy erstellen',
+      'frühkindliche Druckvorlagen auf KDP verkaufen',
+      'Vorschulalter-Aktivitätsblätter auf TPT',
+      'Vorschul-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'frühkindliche Bildung Druckvorlagen-Markt',
+      'Vorschulalter visuelles Lernen Arbeitsblätter',
+      'Kleinkind-Lernmaterialien Etsy-Nische',
+    ],
+    titleTag: 'Vorschule-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Vorschule-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für erfolgreiche Verkäufer im Bereich frühkindliche Lernmaterialien.',
   },
   hero: {
     title: 'Vorschule Druckvorlagen-Geschäftsideen für Verkäufer',

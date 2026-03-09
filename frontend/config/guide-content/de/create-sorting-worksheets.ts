@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Sortier-Tool',
     ],
     titleTag: 'Kategoriesortierung Arbeitsblätter — Anleitung',
-    metaDescription: 'So erstellen Sie Zwei-Kategorien-Sortier-Arbeitsblätter. Schritt-für-Schritt-Anleitung: Themen- oder manuellen Modus wählen, 4–12 Bilder konfigurieren, gemischte Ausschneideraster mit automatischen Lösungsschlüsseln generieren und auf Etsy und KDP verkaufen.',
+    metaDescription: 'Sortier-Arbeitsblätter mit Zwei-Kategorien-Modus erstellen. 4–12 Bilder und Lösungsschlüssel. Druckvorlagen für den Verkauf auf Etsy und KDP. Verkäufer-Guide.',
   },
 
   hero: {

@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft räumliches Vokabular',
       'kommerzieller Präpositionen-Generator Dativ',
     ],
-    titleTag: 'Präpositionen-Arbeitsblatt-Generator | Räumliche Beziehungen Druckvorlagen',
-    metaDescription:
-      'Präpositionen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 8 Ortspräpositionen, Lückentext & Multiple Choice, Dativ-Grammatik, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Präpositionen-Generator | Räumliche Beziehungen',
+    metaDescription: 'Präpositionen-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 8 Ortspräpositionen, Lückentext, Multiple Choice. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

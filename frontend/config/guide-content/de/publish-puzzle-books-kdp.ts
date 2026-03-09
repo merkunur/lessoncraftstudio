@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Rätselgitter Abstände Buchformat Lösungsschlüssel Anhang',
     ],
     titleTag: 'Rätselbücher auf Amazon KDP veröffentlichen — Leitfaden',
-    metaDescription: 'Rätselbücher auf KDP veröffentlichen mit Wortsuche, Kreuzworträtsel und Sudoku. Formatierung, Variety-Bücher, Serienaufbau und Amazon-Optimierung.',
+    metaDescription: 'Rätselbücher auf KDP veröffentlichen: Wortsuche, Kreuzworträtsel und Sudoku formatieren. Variety-Bücher, Serienaufbau und Amazon-Optimierung. Verleger-Guide.',
   },
 
   hero: {

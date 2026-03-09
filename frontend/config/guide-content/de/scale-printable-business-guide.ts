@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Katalogwachstum Umsatz pro Produkt Plattformdiversifizierung Skalierungsengpass',
       'Geschäftssysteme wiederholbare Prozesse Produktionspipeline Inhaltsmultiplikation',
     ],
-    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumsstrategie-Leitfaden',
-    metaDescription: 'So skalieren Sie Ihr Druckvorlagen-Geschäft mit Stapelproduktionssystemen, Multiplattform-Expansion, Katalogwachstum, mehrsprachigen Märkten und Automatisierungsstrategien.',
+    titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
+    metaDescription: 'Druckvorlagen-Geschäft skalieren mit Stapelproduktion, Multiplattform-Expansion und Katalogwachstum. Mehrsprachige Märkte und Automatisierung für mehr Wachstum.',
   },
 
   hero: {

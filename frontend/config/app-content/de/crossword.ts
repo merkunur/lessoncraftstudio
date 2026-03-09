@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Kreuzworträtsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Bild-Kreuzworträtsel Werkzeuge',
     ],
-    titleTag: 'Bilderkreuzworträtsel-Generator | Bild-Kreuzworträtsel erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Bilderkreuzworträtsel erstellen und auf Etsy.de, Amazon KDP verkaufen. Bildhinweise auf 15×15-Raster, 4 Eingabemethoden, automatischer Lösungsschlüssel, 104 Themen, lokalisierte Kreuzwortwörter in 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kreuzworträtsel-Generator | Bilder-Kreuzworträtsel',
+    metaDescription: 'Bilderkreuzworträtsel erstellen und auf Etsy, KDP verkaufen. 15×15-Raster, 4 Eingabemethoden, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

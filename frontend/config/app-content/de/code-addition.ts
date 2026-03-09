@@ -15,9 +15,8 @@ const content: AppContent = {
       'Detektiv-Mathe-Arbeitsblätter verkaufen',
       'Rätsel-Arbeitsblatt-Generator für Unternehmer',
     ],
-    titleTag: 'Bilder-Additions-Arbeitsblatt-Generator | Code-Knacker-Mathe-Rätsel',
-    metaDescription:
-      'Code-Knacker-Additions-Rätsel erstellen und auf Etsy, Amazon KDP verkaufen. Wort-Entschlüsselung, 11 Sprach-Alphabete, 104 Themen, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilder-Additions-Generator | Code-Knacker-Mathe',
+    metaDescription: 'Code-Knacker-Additions-Rätsel erstellen und auf Etsy, KDP verkaufen. Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Richtungs-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Wegfindungs-Rätsel Werkzeuge',
     ],
-    titleTag: 'Schatzsuche-Generator | Richtungs-Rätsel erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Schatzsuche-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 5×5-Koordinatenraster, zwei Richtungstypen, automatischer Lösungsschlüssel, 104 Themen, lokalisierte Richtungsanweisungen in 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schatzsuche-Generator | Richtungs-Rätsel',
+    metaDescription: 'Schatzsuche-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 5×5-Koordinatenraster, zwei Richtungstypen, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

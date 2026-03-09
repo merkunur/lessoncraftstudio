@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Print-on-Demand Arbeitsblatt-Ideen verkaufen',
+    secondaryKeywords: [
+      'POD-Druckvorlagen auf Etsy erstellen',
+      'gedruckte Arbeitshefte auf KDP verkaufen',
+      'Print-on-Demand Aktivitätspakete auf Shopify',
+      'lagerloses Druckvorlagen-Geschäft aufbauen',
+    ],
+    lsiKeywords: [
+      'Print-on-Demand Geschäftsmodell Arbeitsblätter',
+      'lagerlose Produktion Druckvorlagen-Verkauf',
+      'Aktivitätshefte POD profitabel aufbauen',
+    ],
     titleTag: 'Print-on-Demand Arbeitsblatt-Ideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Print-on-Demand Arbeitsblatt-Ideen für Etsy-, Amazon-KDP- und Shopify-Verkäufer. Bauen Sie ein Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen auf.',
+    metaDescription: 'Print-on-Demand Arbeitsblatt-Ideen für Etsy, KDP und Shopify. Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen profitabel aufbauen.',
   },
   hero: {
     title: 'Print-on-Demand Arbeitsblatt-Geschäftsideen für Verkäufer',

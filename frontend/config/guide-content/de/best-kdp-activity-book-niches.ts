@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kategorie-übergreifende Hybrid-Aktivitätsbücher thematische Unter-Nische',
     ],
     titleTag: 'KDP Aktivitätsbuch Nischen — Beste Auswahl Leitfaden',
-    metaDescription: 'Entdecken Sie die besten KDP Aktivitätsbuch-Nischen für Verleger. Umfasst Nachfrageanalyse, Wettbewerbsbewertung, unterversorgte Kategorien und saisonales Timing.',
+    metaDescription: 'Beste KDP-Aktivitätsbuch-Nischen für Verleger entdecken. Nachfrageanalyse, Wettbewerbsbewertung, unterversorgte Kategorien und saisonales Timing für KDP-Umsatz.',
   },
 
   hero: {

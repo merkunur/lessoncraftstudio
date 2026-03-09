@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kindergarten Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Kindergarten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer und Unternehmer im Kindergarten-Bereich.',
+    primaryKeyword: 'Kindergarten-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Kindergarten-Arbeitsblätter auf Etsy erstellen',
+      'Vorschul-Kindergarten-Druckvorlagen auf KDP',
+      'frühkindliche Aktivitätsblätter auf TPT verkaufen',
+      'Kindergarten-Lernmaterialien für Etsy-Shops',
+    ],
+    lsiKeywords: [
+      'frühkindliche Bildung Druckvorlagen-Nische',
+      'Kindergarten-Klassenstufe Arbeitsblatt-Markt',
+      'visuelles Lernen Vorschulalter Etsy-Verkauf',
+    ],
+    titleTag: 'Kindergarten-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Kindergarten-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich frühkindliche Bildung Lernmaterialien.',
   },
   hero: {
     title: 'Kindergarten Druckvorlagen-Geschäftsideen für Verkäufer',

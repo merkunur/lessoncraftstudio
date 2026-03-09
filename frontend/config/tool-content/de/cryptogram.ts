@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Codeknacker-Arbeitsblatt-Generator-Tool',
       'mehrsprachiger Bildkryptogramm-Ersteller',
     ],
-    titleTag: 'Kryptogramm-Arbeitsblatt-Generator | Bilder-Chiffre-Rätsel erstellen & verkaufen',
-    metaDescription: 'Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre, Buchstaben aufdecken (0–10), Auto-Zuordnung und manueller Zuordnung, Buchstabenlegende-Lösungsschlüssel in 11 Sprachen erstellen. 104 Bildthemen. Deutsches 30-Buchstaben-Alphabet mit ä/ö/ü/ß. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
+    metaDescription: 'Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre erstellen. Deutsches 30-Buchstaben-Alphabet, 104 Themen für Etsy und KDP. Kostenlos testen. Druckfertig.',
   },
 
   hero: {

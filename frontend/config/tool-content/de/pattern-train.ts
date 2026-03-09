@@ -14,8 +14,8 @@ const content: ToolContent = {
       'textfreier Zugwaggon-Musterfolge-Generator',
       'AB ABC Musterfolge-Arbeitsblatt-Ersteller',
     ],
-    titleTag: 'Musterfolge-Arbeitsblatt-Generator — Muster-Zug-Ersteller | Verkaufen',
-    metaDescription: 'Muster-Zug-Arbeitsblätter mit fünf Mustertypen (AB, AAB, ABB, ABC, AABB), 11 thematischen Zugwaggons, einstellbarer Hinweisanzahl von 4 bis 10, automatischen Lösungsschlüsseln und 104 Bildsammlungen erstellen. Textfreie Ausgabe — weltweit verkaufbar. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Muster-Zug-Ersteller | Musterfolge-Generator',
+    metaDescription: 'Muster-Zug-Arbeitsblätter mit fünf Mustertypen und 11 Waggons erstellen. Textfreie Ausgabe, 104 Themen. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
   },
 
   hero: {

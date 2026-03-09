@@ -18,7 +18,7 @@ const content: GuideContent = {
       'mehrere einzigartige Bingo-Karten Generator',
     ],
     titleTag: 'Bingo-Karten mit thematischen Bildern erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Bingo-Karten mit thematischen Bildern. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren und PDFs für Etsy und KDP exportieren.',
+    metaDescription: 'Bingo-Karten mit thematischen Bildern erstellen. Rastergrößen wählen, einzigartige Karten generieren und PDFs zum Verkauf auf Etsy und Amazon KDP exportieren.',
   },
 
   hero: {

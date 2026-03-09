@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Heimunterricht-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Heimunterricht-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer, die den wachsenden Heimunterricht-Markt ansprechen, in dem Eltern komplette Lehrpläne aus gekauften Materialien zusammenstellen.',
+    primaryKeyword: 'Heimunterricht-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Homeschool-Arbeitsblätter auf Etsy erstellen',
+      'Lehrplan-Druckvorlagen auf KDP verkaufen',
+      'Heimunterricht-Aktivitätsblätter für TPT',
+      'häuslicher Unterricht Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'wachsender Homeschool-Markt Druckvorlagen',
+      'Eltern-Lehrplan Arbeitsblätter Etsy-Nische',
+      'Heimunterricht-Ressourcen Druckvorlagen-Geschäft',
+    ],
+    titleTag: 'Heimunterricht-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Heimunterricht-Druckvorlagen-Ideen für Etsy, KDP und TPT. Nischenstrategien für den wachsenden Markt, in dem Eltern Lehrpläne aus Druckvorlagen zusammenstellen.',
   },
   hero: {
     title: 'Heimunterricht-Druckvorlagen-Geschäftsideen für Verkäufer',

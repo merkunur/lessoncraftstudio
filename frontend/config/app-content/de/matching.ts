@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Zuordnungs-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Paare-Verbinden-Werkzeuge',
     ],
-    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Zuordnungs-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 4 Zuordnungsmodi, automatischer Lösungsschlüssel, 104 Themen, konfigurierbare Paaranzahl. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Zuordnungs-Generator | Paare-Verbinden-Übungen',
+    metaDescription: 'Zuordnungs-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. 4 Zuordnungsmodi, konfigurierbare Paaranzahl, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

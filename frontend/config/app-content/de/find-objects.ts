@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Versteckte-Objekte-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Suchaktivitäten Werkzeuge',
     ],
-    titleTag: 'Versteckte-Objekte-Generator | Suchbild-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Versteckte-Objekte- und Suchbild-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Ich-sehe-was- und Welches-passt-nicht-Modus, überlappungsfreie Szenen, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Versteckte-Objekte-Generator | Suchbilder',
+    metaDescription: 'Versteckte-Objekte-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Suchbild- und Was-passt-nicht-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

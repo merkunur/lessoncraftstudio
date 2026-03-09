@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Physische Druckvorlagen-Produkt-Ideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Physische Druckvorlagen-Produkt-Ideen für Etsy- und Kunstmessen-Verkäufer. Bauen Sie ein Premium-Geschäft auf durch Drucken, Laminieren und Versenden greifbarer Arbeitsblatt-Produkte.',
+    primaryKeyword: 'physische Druckvorlagen-Produkte verkaufen',
+    secondaryKeywords: [
+      'gedruckte Arbeitsblätter auf Etsy versenden',
+      'laminierte Lernmaterialien auf Kunstmessen',
+      'Premium-Druckprodukte als physische Ware',
+      'Versand-Druckvorlagen Etsy-Geschäftsmodell',
+    ],
+    lsiKeywords: [
+      'physische Produkte höhere Margen Druckvorlagen',
+      'laminierte Arbeitsblätter Premium-Preise',
+      'greifbare Lernmaterialien Direktvertrieb',
+    ],
+    titleTag: 'Physische Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Physische Druckvorlagen-Ideen für Etsy und Kunstmessen. Premium-Geschäft durch Drucken, Laminieren und Versenden greifbarer Arbeitsblatt-Produkte aufbauen.',
   },
   hero: {
     title: 'Physische Druckvorlagen-Produkt-Geschäftsideen für Verkäufer',

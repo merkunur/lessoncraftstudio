@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Bildzählungs-Arbeitsblatt-Tool',
     ],
     titleTag: 'Bilddiagramm-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Bilddiagramm-Arbeitsblätter mit 4×5-Bildraster erstellen. Automatischer Lösungsschlüssel mit gelb hervorgehobenen Zellen, Zufallsverteilung für einzigartige Generierungen, 104 Themen.',
+    metaDescription: 'Bilddiagramm-Arbeitsblätter mit 4×5-Raster erstellen. Lösungsschlüssel mit gelb hervorgehobenen Zellen, Zufallsverteilung und 104 Themen für Etsy und KDP.',
   },
 
   hero: {

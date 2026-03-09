@@ -17,8 +17,8 @@ const content: StartContent = {
       'thematische Arbeitsblatt-Bilder',
       'druckfertige PDF-Arbeitsblätter',
     ],
-    titleTag: 'Arbeitsblätter erstellen, die sich verkaufen — Profi-Leitfaden',
-    metaDescription: 'Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP und Lehrermarktplatz verkaufen. Schritt-für-Schritt-Erstellungsprozess mit Generatoren, thematischen Bildern und Lösungsschlüsseln.',
+    titleTag: 'Arbeitsblätter die sich verkaufen — Profi-Tipps',
+    metaDescription: 'Arbeitsblätter erstellen und auf Etsy, KDP und Lehrermarktplatz verkaufen. Erstellungsprozess mit Generatoren, Bildern und Lösungsschlüsseln. Profi-Guide.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP Upload-Fehler Ablehnung Fehlerbehebung Vorschau Probeexemplar',
     ],
     titleTag: 'KDP Formatierung Arbeitsblätter — Vollständige Anleitung',
-    metaDescription: 'KDP Formatierungsanleitung für Arbeitsblätter mit Beschnittgrößen, Seitenrändern, Beschnitteinstellungen, PDF-Export bei 300 DPI, Cover-Maßen und Upload-Fehlerbehebung für Aktivitätsbücher.',
+    metaDescription: 'KDP-Formatierung für Arbeitsblätter: Beschnittgrößen, Seitenränder, PDF-Export bei 300 DPI und Cover-Maße. Upload-Fehlerbehebung für KDP-Aktivitätsbücher.',
   },
 
   hero: {

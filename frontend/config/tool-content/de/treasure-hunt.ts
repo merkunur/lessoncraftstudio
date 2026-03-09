@@ -14,8 +14,8 @@ const content: ToolContent = {
       'sprachabhängig lokalisierte Richtungsanweisungen 11 Sprachen Bildvokabular',
       'automatischer Lösungsschlüssel hervorgehobene Schatzzelle Dual-Canvas Wegfindungs-Rätsel',
     ],
-    titleTag: 'Schatzsuche-Ersteller — Schatzsuche-Arbeitsblatt-Generator für Verkäufer',
-    metaDescription: 'Erstellen Sie Schatzsuche-Wegfindungs-Arbeitsblätter auf einem 5×5-Koordinatenraster — zwei Richtungstypen (Grundrichtungen und Himmelsrichtungen), 6 thematische Bilder als Orientierungspunkte, genau 4 Richtungsbewegungen pro Rätsel, automatisch generierter Lösungsschlüssel mit hervorgehobener Schatzzelle, lokalisierte Richtungsanweisungen in 11 Sprachen, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schatzsuche-Ersteller | Richtungs-Rätsel',
+    metaDescription: 'Schatzsuche-Arbeitsblätter auf 5×5-Koordinatenraster mit zwei Richtungstypen erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.',
   },
 
   hero: {

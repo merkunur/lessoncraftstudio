@@ -14,8 +14,8 @@ const content: ToolContent = {
       'pixelgenaue Schattenbilderzeugung mit Derangement-Algorithmus',
       'automatischer Lösungsschlüssel Schattenbilder-Zuordnungs-Generator',
     ],
-    titleTag: 'Schattenbilder-Ersteller — Schattenbilder-Zuordnungs-Arbeitsblatt-Generator',
-    metaDescription: 'Schattenbilder-Zuordnungsblätter erstellen mit zwei Modi — Schattenbild-Zuordnung generiert pixelgenaue schwarze Silhouetten, Bild Vervollständigen teilt Bilder in Hälften mit horizontalen oder vertikalen Schnitten. Fisher-Yates-Derangement garantiert echte Zuordnungsherausforderungen. Automatischer Lösungsschlüssel, umschaltbare Beschriftungen, 104 Themensammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Schattenbilder-Ersteller | Silhouetten-Zuordnung',
+    metaDescription: 'Schattenbilder-Zuordnungsblätter mit pixelgenauen Silhouetten und Bild-Vervollständigung erstellen. 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

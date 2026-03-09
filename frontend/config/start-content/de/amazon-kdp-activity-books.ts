@@ -18,7 +18,7 @@ const content: StartContent = {
       'Print-on-Demand Aktivitätsbuch-Geschäft',
     ],
     titleTag: 'Aktivitätsbücher auf Amazon KDP verkaufen — Leitfaden',
-    metaDescription: 'Aktivitätsbücher auf Amazon KDP verkaufen Schritt für Schritt. Innenformatierung, Cover-Design, Keyword-Recherche, Preisgestaltung, Kategorien und Skalierung eines KDP-Aktivitätsbuch-Geschäfts.',
+    metaDescription: 'Aktivitätsbücher auf Amazon KDP veröffentlichen und verkaufen. Innenformatierung, Cover-Design, Keyword-Recherche und Skalierung Ihres KDP-Geschäfts erklärt.',
   },
 
   hero: {

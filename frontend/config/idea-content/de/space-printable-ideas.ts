@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Weltraum-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Weltraum-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Weltraum-Produktkonzepte, STEM-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Weltraum-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Weltraum-Arbeitsblätter auf Etsy erstellen',
+      'Planeten-Raketen-Druckvorlagen auf KDP',
+      'STEM-Weltraum-Aktivitätsblätter auf TPT',
+      'Astronomie-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'STEM-Bildungsthema Druckvorlagen-Nische',
+      'Weltraum-Planeten Arbeitsblätter Etsy-Markt',
+      'Raumfahrt-Thema Lernmaterialien Verkauf',
+    ],
+    titleTag: 'Weltraum-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Weltraum-Druckvorlagen-Ideen für Etsy, KDP und TPT. Weltraum-Produktkonzepte, STEM-Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Weltraum-Druckvorlagen-Geschäftsideen für Verkäufer',

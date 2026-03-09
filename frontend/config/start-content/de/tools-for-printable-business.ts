@@ -17,8 +17,8 @@ const content: StartContent = {
       'mehrsprachige Arbeitsblatt-Generator Werkzeuge',
       'kommerzielle Lizenz Arbeitsblatt-Produktion',
     ],
-    titleTag: 'Beste Werkzeuge für Druckvorlagen-Verkäufer — Komplettanleitung',
-    metaDescription: 'Beste Werkzeuge für Druckvorlagen-Verkäufer: Arbeitsblatt-Generatoren, Design-Werkzeuge, Plattform-Hilfsmittel und Workflows für ein professionelles Druckvorlagen-Geschäft-Toolkit.',
+    titleTag: 'Beste Werkzeuge für Druckvorlagen-Verkäufer',
+    metaDescription: 'Beste Werkzeuge für Druckvorlagen-Verkäufer: Arbeitsblatt-Generatoren, Design-Software und Plattform-Hilfsmittel für ein professionelles Geschäfts-Toolkit.',
   },
 
   hero: {

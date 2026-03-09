@@ -14,9 +14,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft visuelle Sequenz-Muster-Übungen',
       'kommerzieller Muster-Zug-Arbeitsblatt-Generator mit Lösungsschlüssel',
     ],
-    titleTag: 'Muster-Zug-Arbeitsblatt-Generator | Musterfolge-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Musterfolge-Zug-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Fünf Mustertypen (AB, AAB, ABB, ABC, AABB), 11 Zugwaggons, einstellbare Hinweisanzahl, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Muster-Zug-Generator | Musterfolge-Übungen',
+    metaDescription: 'Musterfolge-Zug-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Fünf Mustertypen, 11 Waggons, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

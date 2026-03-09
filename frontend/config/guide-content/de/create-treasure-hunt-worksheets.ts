@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Schatzsuche-Werkzeug',
     ],
     titleTag: 'Schatzsuche-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'So erstellen Sie Schatzsuche-Arbeitsblätter auf einem 5×5-Koordinatenraster mit zwei Richtungstypen (Grundrichtungen und Himmelsrichtungen), genau 4 Richtungsbewegungen, 6 thematischen Orientierungsbildern, automatischen Lösungsschlüsseln mit blassgelb hervorgehobener Schatzzelle und vollständig lokalisierten Hinweisen in 11 Sprachen für den Verkauf auf Etsy und KDP.',
+    metaDescription: 'Schatzsuche-Arbeitsblätter auf 5×5-Raster mit zwei Richtungstypen erstellen. 6 Orientierungsbilder, Lösungsschlüssel, 11 Sprachen. Verkaufen auf Etsy, KDP.',
   },
 
   hero: {

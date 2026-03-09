@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Code-Additions-Rätsel-Generator',
       'Bildsymbol-Mathe-Arbeitsblatt-Tool',
     ],
-    titleTag: 'Bilder-Additions-Ersteller | Code-Knacker-Mathe-Rätsel generieren',
-    metaDescription: 'Kryptarithmetische Code-Knacker-Additions-Rätsel mit Bildern in Sekunden erstellen. Regulärer Modus und Wort-Entschlüsselung, 11 Sprachen, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilder-Additions-Ersteller | Code-Knacker-Mathe',
+    metaDescription: 'Code-Knacker-Additions-Rätsel mit Bildern erstellen. Regulärer Modus, Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

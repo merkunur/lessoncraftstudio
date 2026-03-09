@@ -14,8 +14,8 @@ const content: ToolContent = {
       'sprachabhängige lokalisierte Kreuzwortwörter Bildvokabular-System',
       'automatischer Lösungsschlüssel ausgefülltes Raster Dual-Canvas Bilderkreuzworträtsel-Ersteller',
     ],
-    titleTag: 'Bilderkreuzworträtsel-Ersteller — Bilderkreuzworträtsel-Generator für Verkäufer',
-    metaDescription: 'Erstellen Sie Bilderkreuzworträtsel mit Bildhinweisen auf einem festen 15×15-Raster — vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste, Eigene Bilder hochladen), automatisch generierter Lösungsschlüssel mit ausgefülltem Raster, sprachabhängige Kreuzwortwörter in 11 Sprachen über das Bildvokabular-System, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Kreuzworträtsel-Ersteller | Bilder-Rätsel',
+    metaDescription: 'Bilderkreuzworträtsel auf 15×15-Raster mit vier Eingabemethoden erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

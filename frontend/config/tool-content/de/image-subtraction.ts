@@ -14,8 +14,8 @@ const content: ToolContent = {
       'Durchstreichen Mathe-Arbeitsblatt-Tool',
       'Zahlenraum 2–20 Subtraktionsübungen',
     ],
-    titleTag: 'Subtraktions-Arbeitsblatt-Ersteller | Durchstreich-Übungen mit Bildern generieren',
-    metaDescription: 'Subtraktions-Arbeitsblätter mit Durchstreich-Visualisierung in Sekunden erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel, Graustufen-Export. Kostenlos testen mit Wasserzeichen — keine Anmeldung nötig.',
+    titleTag: 'Subtraktions-Ersteller | Durchstreich-Übungen',
+    metaDescription: 'Subtraktions-Arbeitsblätter mit Durchstreich-Bildern erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

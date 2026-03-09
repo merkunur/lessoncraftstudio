@@ -2,6 +2,18 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
+    primaryKeyword: 'Sport-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Sport-Arbeitsblätter auf Etsy erstellen',
+      'Ballsport-Druckvorlagen auf KDP verkaufen',
+      'Sportthema-Aktivitätsblätter auf TPT anbieten',
+      'Fußball-Basketball-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Sportthema Ganzjahres-Druckvorlagen-Nische',
+      'Bewegungs-Bildungsthema Arbeitsblätter',
+      'Sport-Lernmaterialien Etsy-Markt',
+    ],
     titleTag: 'Sport-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
     metaDescription: 'Entdecken Sie Sport-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Sportliche Produktkonzepte, Plattformstrategien und Tipps für diese ganzjährige Nische.',
   },

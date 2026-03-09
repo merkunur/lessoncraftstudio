@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Rätsel-Tool',
     ],
     titleTag: 'Kreuzworträtsel erstellen — Schritt-für-Schritt-Anleitung',
-    metaDescription: 'Kreuzworträtsel für Kinder mit Bildhinweisen erstellen. Themen wählen, Kreuzungsraster generieren, nummerierte Hinweise, Lösungsschlüssel und auf Etsy und KDP verkaufen.',
+    metaDescription: 'Kreuzworträtsel mit Bildhinweisen für Kinder erstellen. Themen wählen, Raster generieren und Lösungsschlüssel erstellen. Druckvorlagen für Etsy und KDP-Verkauf.',
   },
 
   hero: {

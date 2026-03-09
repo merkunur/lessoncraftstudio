@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Listing-Optimierung Erwartungsmanagement Käuferkommunikation Nachkauf-Erfahrung',
     ],
     titleTag: 'Bewertungen Druckvorlagen-Produkte — Verkäuferleitfaden',
-    metaDescription: 'Bewährte Strategien für Bewertungen, die Druckvorlagen-Verkäufer brauchen. Sozialen Beweis aufbauen, authentisches Käuferfeedback verdienen und Shop-Glaubwürdigkeit steigern.',
+    metaDescription: 'Bewertungen für Druckvorlagen-Produkte verdienen. Sozialen Beweis aufbauen, authentisches Käuferfeedback erhalten und die Shop-Glaubwürdigkeit nachhaltig.',
   },
 
   hero: {

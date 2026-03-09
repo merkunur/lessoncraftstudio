@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Zweite-Klasse-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie Zweite-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule zweite Klasse.',
+    primaryKeyword: 'Zweite-Klasse-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Zweitklässler-Arbeitsblätter auf Etsy erstellen',
+      'Grundschul-Druckvorlagen zweite Klasse KDP',
+      'Zweite-Klasse-Aktivitätsblätter auf TPT',
+      'Klassenstufe-zwei-Lernmaterialien für Shops',
+    ],
+    lsiKeywords: [
+      'Grundschul-Klassenstufe Druckvorlagen-Nische',
+      'altersgerechte Lernmaterialien zweite Klasse',
+      'Zweitklässler-Arbeitsblätter Etsy-Markt',
+    ],
+    titleTag: 'Zweite-Klasse-Druckvorlagen — Verkäufer-Guide',
+    metaDescription: 'Zweite-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und Arbeitsblatt-Erstellung.',
   },
   hero: {
     title: 'Zweite-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer',

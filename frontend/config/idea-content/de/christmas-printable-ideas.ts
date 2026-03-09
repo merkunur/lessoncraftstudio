@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Weihnachts-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
-    metaDescription: 'Entdecken Sie profitable Weihnachts-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Saisonale Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.',
+    primaryKeyword: 'Weihnachts-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Weihnachts-Arbeitsblätter auf Etsy erstellen',
+      'Advents-Aktivitätsblätter auf KDP verkaufen',
+      'saisonale Weihnachts-Druckvorlagen für TPT',
+      'Weihnachtszeit-Arbeitsblätter für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Adventszeit-Nachfragespitze Druckvorlagen',
+      'Winter-Festtags-Nische Arbeitsblatt-Umsatz',
+      'Dezember-Saison Lernmaterialien Etsy-Verkauf',
+    ],
+    titleTag: 'Weihnachts-Druckvorlagen-Ideen — Verkäufer-Guide',
+    metaDescription: 'Weihnachts-Druckvorlagen-Ideen für Etsy, KDP und TPT. Saisonale Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer im Advent.',
   },
   hero: {
     title: 'Weihnachts-Druckvorlagen: Geschäftsideen für Verkäufer',

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'sechs Teilformen Fehlende-Puzzleteile-Ersteller mit Lösungsschlüssel',
       'Distraktoren Jigsaw-Puzzle-Arbeitsblatt-Ersteller visuelles Rätsel-Werkzeug',
     ],
-    titleTag: 'Fehlende-Puzzleteile-Ersteller — Jigsaw-Puzzle-Arbeitsblatt-Generator',
-    metaDescription: 'Erstellen Sie Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen (Quadrat, Kreis, Rechteck, Ellipse-Varianten), 1–5 fehlenden Teilen, 2–6 Lösungsoptionen mit Distraktoren, intelligenter Teileextraktion mit Farbvarianz-Erkennung und automatisch generierten Lösungsschlüsseln mit gelb hervorgehobenen Beschriftungen. 104 Themensammlungen mit über 3.100 Illustrationen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Fehlende-Puzzleteile-Ersteller | Puzzle-Rätsel',
+    metaDescription: 'Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen und 1–5 fehlenden Teilen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
   },
 
   hero: {

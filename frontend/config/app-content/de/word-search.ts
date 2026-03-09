@@ -15,9 +15,8 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Buchstabengitter-Arbeitsblätter',
       'kommerzieller Wortsuche-Generator mit Farbcode-Lösungsschlüssel',
     ],
-    titleTag: 'Wortsuche-Arbeitsblatt-Generator | Wortsuchrätsel erstellen und verkaufen',
-    metaDescription:
-      'Wortsuche-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Einstellbare Gittergröße 5–30, Diagonal- und Rückwärts-Steuerung, sprachabhängige Füllbuchstaben, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Wortsuche-Generator | Wortsuchrätsel erstellen',
+    metaDescription: 'Wortsuche-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Gittergröße 5–30, Diagonal- und Rückwärts-Steuerung. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

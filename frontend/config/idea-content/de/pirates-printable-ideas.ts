@@ -2,7 +2,19 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Piraten-Druckvorlagen-Ideen zum Verkaufen — Nischen-Leitfaden',
+    primaryKeyword: 'Piraten-Druckvorlagen-Ideen verkaufen',
+    secondaryKeywords: [
+      'Piraten-Arbeitsblätter auf Etsy erstellen',
+      'Seeräuber-Druckvorlagen auf KDP verkaufen',
+      'Abenteuer-Piraten-Aktivitätsblätter für TPT',
+      'Schatzkarte-Lernmaterialien für Druckvorlagen-Shops',
+    ],
+    lsiKeywords: [
+      'Abenteuer-Thema Druckvorlagen-Nische',
+      'Piratenschiff-Bildungsthema Arbeitsblätter',
+      'Schatzkarte-Thema Lernmaterialien Etsy',
+    ],
+    titleTag: 'Piraten-Druckvorlagen-Ideen — Verkäufer-Guide',
     metaDescription: 'Entdecken Sie Piraten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Piratenthema-Produktkonzepte, Plattformtipps und Strategien für Verkäufer.',
   },
   hero: {

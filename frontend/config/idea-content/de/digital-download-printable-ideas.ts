@@ -2,8 +2,20 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digitaler Download Arbeitsblatt-Ideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Digitale Download-Arbeitsblatt-Ideen für Etsy-, Gumroad- und TPT-Verkäufer. Bauen Sie ein Druckvorlagen-Geschäft ohne Lagerhaltung mit sofort lieferbaren Lern-PDFs auf.',
+    primaryKeyword: 'digitale Download-Arbeitsblatt-Ideen verkaufen',
+    secondaryKeywords: [
+      'sofort lieferbare Lern-PDFs auf Etsy erstellen',
+      'Digital-Download-Druckvorlagen auf Gumroad verkaufen',
+      'druckfertige Arbeitsblätter ohne Lagerhaltung anbieten',
+      'digitale Bildungsprodukte auf TPT und Etsy',
+    ],
+    lsiKeywords: [
+      'lagerloses Druckvorlagen-Geschäftsmodell',
+      'sofortige Lieferung digitale Lernmaterialien',
+      'PDF-Arbeitsblätter passives Einkommen online',
+    ],
+    titleTag: 'Digitale Download-Arbeitsblatt-Ideen — Leitfaden',
+    metaDescription: 'Digitale Download-Arbeitsblatt-Ideen für Etsy, Gumroad und TPT. Druckvorlagen-Geschäft ohne Lagerhaltung mit sofort lieferbaren Lern-PDFs für Verkäufer.',
   },
   hero: {
     title: 'Digitaler Download Arbeitsblatt-Geschäftsideen für Verkäufer',

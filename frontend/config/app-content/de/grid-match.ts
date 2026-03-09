@@ -14,9 +14,8 @@ const content: AppContent = {
       'kommerzieller Raster-Puzzle-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Bilder-Rasterpuzzle-Werkzeuge',
     ],
-    titleTag: 'Raster-Puzzle-Generator | Bilder-Rasterpuzzle-Arbeitsblätter erstellen und verkaufen',
-    metaDescription:
-      'Professionelle Raster-Puzzle-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Konfigurierbares Raster (2–4 Zeilen × 2–4 Spalten), einstellbare Hinweiszellen, automatischer Lösungsschlüssel mit nummerierten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.',
+    titleTag: 'Raster-Puzzle-Generator | Bilder-Rasterpuzzle',
+    metaDescription: 'Raster-Puzzle-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Konfigurierbares Raster, Hinweiszellen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -13,6 +13,8 @@ import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
+import { pageVisualAssignments } from '@/config/page-visual-assignments';
+import { VisualShowcaseEmbed } from '@/components/showcase/VisualShowcaseEmbed';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -75,6 +77,11 @@ export default async function CornerstonePage({
   if (!config) notFound();
 
   const content = await getStartContent(config.startId, locale);
+
+  // Look up visual showcase assignments (English only)
+  const pageVisuals = locale === 'en'
+    ? pageVisualAssignments.find(p => p.pageType === 'start' && p.pageId === config.startId)?.visuals
+    : null;
 
   if (content) {
     const localeSlug = getStartSlugForLocale(config.startId, locale);
@@ -151,6 +158,9 @@ export default async function CornerstonePage({
           </div>
         </section>
 
+        {/* Visual Showcase 1 — Hero */}
+        {pageVisuals?.[0] && <VisualShowcaseEmbed file={pageVisuals[0].file} />}
+
         {/* Introduction */}
         {content.introduction && (
           <section className="py-10 md:py-14">
@@ -187,6 +197,9 @@ export default async function CornerstonePage({
             </div>
           </article>
         )}
+
+        {/* Visual Showcase 3 — Progression */}
+        {pageVisuals?.[2] && <VisualShowcaseEmbed file={pageVisuals[2].file} />}
 
         {/* Sample Gallery */}
         {content.visuals?.samples && content.visuals.samples.length > 0 && (
@@ -258,6 +271,9 @@ export default async function CornerstonePage({
           </section>
         )}
 
+        {/* Visual Showcase 2 — Features */}
+        {pageVisuals?.[1] && <VisualShowcaseEmbed file={pageVisuals[1].file} />}
+
         {/* Tool Recommendations */}
         {content.toolsRecommended && content.toolsRecommended.length > 0 && (
           <section className="py-12 md:py-16">
@@ -290,6 +306,9 @@ export default async function CornerstonePage({
             </Link>
           </div>
         </section>
+
+        {/* Visual Showcase 4 — Fun */}
+        {pageVisuals?.[3] && <VisualShowcaseEmbed file={pageVisuals[3].file} />}
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (

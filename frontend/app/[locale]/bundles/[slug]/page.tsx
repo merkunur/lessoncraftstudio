@@ -16,6 +16,8 @@ import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
+import { pageVisualAssignments } from '@/config/page-visual-assignments';
+import { VisualShowcaseEmbed } from '@/components/showcase/VisualShowcaseEmbed';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -91,6 +93,11 @@ export default async function BundlePage({
   const content = await getBundleContent(bundleConfig.bundleId, locale);
   const tierData = getBundleTierComparison(locale);
   const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
+
+  // Look up visual showcase assignments (English only)
+  const pageVisuals = locale === 'en'
+    ? pageVisualAssignments.find(p => p.pageType === 'bundle' && p.pageId === bundleConfig.bundleId)?.visuals
+    : null;
 
   if (content) {
     const localeSlug = getBundleSlugForLocale(bundleConfig.bundleId, locale);
@@ -168,6 +175,9 @@ export default async function BundlePage({
           </div>
         </section>
 
+        {/* Visual Showcase 1 — Hero */}
+        {pageVisuals?.[0] && <VisualShowcaseEmbed file={pageVisuals[0].file} />}
+
         {/* CTA 1 */}
         <section className="py-8">
           <div className="container mx-auto px-4 max-w-4xl text-center">
@@ -197,6 +207,9 @@ export default async function BundlePage({
             </div>
           </section>
         )}
+
+        {/* Visual Showcase 2 — Features */}
+        {pageVisuals?.[1] && <VisualShowcaseEmbed file={pageVisuals[1].file} />}
 
         {/* Tier Comparison */}
         <section className="py-12 md:py-16 bg-white">
@@ -253,6 +266,9 @@ export default async function BundlePage({
             </div>
           </section>
         )}
+
+        {/* Visual Showcase 3 — Progression */}
+        {pageVisuals?.[2] && <VisualShowcaseEmbed file={pageVisuals[2].file} />}
 
         {/* CTA 2 */}
         <section className="py-8">
@@ -355,6 +371,9 @@ export default async function BundlePage({
             </div>
           </section>
         )}
+
+        {/* Visual Showcase 4 — Fun */}
+        {pageVisuals?.[3] && <VisualShowcaseEmbed file={pageVisuals[3].file} />}
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (

@@ -13,6 +13,8 @@ import { getGuideContent } from '@/config/guide-content';
 import { getSectionLabel } from '@/config/section-labels';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
+import { pageVisualAssignments } from '@/config/page-visual-assignments';
+import { VisualShowcaseEmbed } from '@/components/showcase/VisualShowcaseEmbed';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -75,6 +77,11 @@ export default async function GuidePage({
   if (!config) notFound();
 
   const content = await getGuideContent(config.guideId, locale);
+
+  // Look up visual showcase assignments (English only)
+  const pageVisuals = locale === 'en'
+    ? pageVisualAssignments.find(p => p.pageType === 'guide' && p.pageId === config.guideId)?.visuals
+    : null;
 
   if (content) {
     const localeSlug = getGuideSlugForLocale(config.guideId, locale);
@@ -151,6 +158,9 @@ export default async function GuidePage({
           </div>
         </section>
 
+        {/* Visual Showcase 1 — Hero */}
+        {pageVisuals?.[0] && <VisualShowcaseEmbed file={pageVisuals[0].file} />}
+
         {/* Introduction */}
         {content.introduction && (
           <section className="py-10 md:py-14">
@@ -196,6 +206,9 @@ export default async function GuidePage({
           </article>
         )}
 
+        {/* Visual Showcase 2 — Features */}
+        {pageVisuals?.[1] && <VisualShowcaseEmbed file={pageVisuals[1].file} />}
+
         {/* Platform Tips */}
         {content.platformTips && content.platformTips.length > 0 && (
           <section className="py-12 md:py-16 bg-gray-50">
@@ -212,6 +225,9 @@ export default async function GuidePage({
             </div>
           </section>
         )}
+
+        {/* Visual Showcase 3 — Progression */}
+        {pageVisuals?.[2] && <VisualShowcaseEmbed file={pageVisuals[2].file} />}
 
         {/* Monetization Strategies */}
         {content.monetization && content.monetization.length > 0 && (
@@ -327,6 +343,9 @@ export default async function GuidePage({
             </Link>
           </div>
         </section>
+
+        {/* Visual Showcase 4 — Fun */}
+        {pageVisuals?.[3] && <VisualShowcaseEmbed file={pageVisuals[3].file} />}
 
         {/* FAQ */}
         {content.faq && content.faq.length > 0 && (

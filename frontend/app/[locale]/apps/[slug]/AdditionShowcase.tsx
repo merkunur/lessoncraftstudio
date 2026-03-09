@@ -43,7 +43,7 @@ export function WorksheetShowcase() {
           <div className="w-full md:w-1/3 md:self-end">
             <div className="rounded-xl overflow-hidden shadow-xl bg-white border-2 border-orange-200 transform md:translate-y-8">
               <img
-                src="/samples/english/addition/sample-1.webp"
+                src="/samples/english/addition/Addition%20Fun%201.webp"
                 alt="Addition worksheet with themed pictures — beginner level"
                 className="w-full h-auto"
                 loading="lazy"
@@ -60,7 +60,7 @@ export function WorksheetShowcase() {
           <div className="w-full md:w-1/3">
             <div className="rounded-xl overflow-hidden shadow-xl bg-white border-2 border-orange-200 transform md:translate-y-0">
               <img
-                src="/samples/english/addition/sample-2.webp"
+                src="/samples/english/addition/Addition%20Fun%202.webp"
                 alt="Addition worksheet with themed pictures — intermediate level"
                 className="w-full h-auto"
                 loading="lazy"
@@ -77,7 +77,7 @@ export function WorksheetShowcase() {
           <div className="w-full md:w-1/3 md:self-start">
             <div className="rounded-xl overflow-hidden shadow-xl bg-white border-2 border-orange-200 transform md:-translate-y-8">
               <img
-                src="/samples/english/addition/sample-3.webp"
+                src="/samples/english/addition/Addition%20Fun%203.webp"
                 alt="Addition worksheet with themed pictures — advanced level"
                 className="w-full h-auto"
                 loading="lazy"
@@ -119,7 +119,7 @@ export function DifficultyLevels() {
       borderColor: 'border-emerald-300',
       suns: 1,
       desc: 'Simple picture counting with numbers 1-5',
-      image: '/samples/english/addition/sample-1.webp',
+      image: '/samples/english/addition/Addition%20Fun%201.webp',
       imageAlt: 'Beginner addition worksheet — simple picture counting',
     },
     {
@@ -130,7 +130,7 @@ export function DifficultyLevels() {
       borderColor: 'border-blue-300',
       suns: 2,
       desc: 'Mixed images with sums up to 10',
-      image: '/samples/english/addition/sample-3.webp',
+      image: '/samples/english/addition/addition_worksheet%20portrait.webp',
       imageAlt: 'Explorer addition worksheet — mixed images with sums to 10',
     },
     {
@@ -141,7 +141,7 @@ export function DifficultyLevels() {
       borderColor: 'border-amber-300',
       suns: 3,
       desc: 'Multi-step problems with sums up to 20',
-      image: '/samples/english/addition/sample-5.webp',
+      image: '/samples/english/addition/image%20and%20number.webp',
       imageAlt: 'Expert addition worksheet — multi-step problems',
     },
   ];
@@ -286,7 +286,7 @@ export function FunFactor() {
           <div className="p-1.5 rounded-2xl bg-gradient-to-br from-yellow-400 via-amber-500 to-yellow-600 shadow-2xl">
             <div className="rounded-xl overflow-hidden bg-white">
               <img
-                src="/samples/english/addition/sample-1.webp"
+                src="/samples/english/addition/Addition%20Fun%204.webp"
                 alt="Featured addition worksheet — colorful themed pictures for joyful math learning"
                 className="w-full h-auto"
                 loading="lazy"
@@ -324,17 +324,17 @@ export function FunFactor() {
 export function ProfessionalQuality() {
   const worksheets = [
     {
-      image: '/samples/english/addition/sample-1.webp',
+      image: '/samples/english/addition/Addition%20Fun%205.webp',
       label: 'Worksheet',
       alt: 'Professional addition worksheet — clean layout with themed images',
     },
     {
-      image: '/samples/english/addition/sample-2.webp',
+      image: '/samples/english/addition/Addition%20Fun%206.webp',
       label: 'Worksheet',
       alt: 'Professional addition worksheet — intermediate difficulty with themed visuals',
     },
     {
-      image: '/samples/english/addition/sample-1-answer.webp',
+      image: '/samples/english/addition/Addition%20Fun%205%20answer_key.webp',
       label: 'Answer Key',
       alt: 'Professional addition answer key — complete solutions included',
     },

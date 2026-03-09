@@ -172,7 +172,7 @@ Pricing in the preschool niche follows standard educational printable convention
   themeImages: [
     { src: '/image-library/toys/airplane.webp', alt: 'Airplane — themed educational image', caption: 'Airplane' },
     { src: '/image-library/toys/baby.webp', alt: 'Baby — themed educational image', caption: 'Baby' },
-    { src: '/image-library/toys/baby-girl.webp', alt: 'Baby Girl — themed educational image', caption: 'Baby Girl' },
+    { src: '/image-library/toys/baby%20girl.webp', alt: 'Baby Girl — themed educational image', caption: 'Baby Girl' },
     { src: '/image-library/toys/ball.webp', alt: 'Ball — themed educational image', caption: 'Ball' },
     { src: '/image-library/toys/balloon.webp', alt: 'Balloon — themed educational image', caption: 'Balloon' },
     { src: '/image-library/toys/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },

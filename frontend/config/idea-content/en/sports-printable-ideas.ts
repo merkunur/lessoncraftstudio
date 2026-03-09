@@ -174,9 +174,9 @@ Gender-inclusive appeal represents a valuable strength of the sports printable n
   themeImages: [
     { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — themed educational image', caption: 'Badminton' },
     { src: '/image-library/sports%20bw/baseball.webp', alt: 'Baseball — themed educational image', caption: 'Baseball' },
-    { src: '/image-library/sports%20bw/baseball-2.webp', alt: 'Baseball 2 — themed educational image', caption: 'Baseball 2' },
+    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Baseball 2 — themed educational image', caption: 'Baseball 2' },
     { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basketball — themed educational image', caption: 'Basketball' },
-    { src: '/image-library/sports%20bw/beach-ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
+    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
     { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Bicycle — themed educational image', caption: 'Bicycle' },
   ],
 

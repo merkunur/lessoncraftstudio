@@ -173,9 +173,9 @@ Der Markt für Bauspielzeug-Querverweise stellt ein besonders wertvolles Publiku
 
   themeImages: [
     { src: '/image-library/tools/bolt.webp', alt: 'Schraube — thematisches Lernbild', caption: 'Schraube' },
-    { src: '/image-library/tools/caulking-gun.webp', alt: 'Kartuschenpistole — thematisches Lernbild', caption: 'Kartuschenpistole' },
-    { src: '/image-library/tools/electric-drill.webp', alt: 'Bohrmaschine — thematisches Lernbild', caption: 'Bohrmaschine' },
-    { src: '/image-library/tools/extension-cord.webp', alt: 'Verlängerungskabel — thematisches Lernbild', caption: 'Verlängerungskabel' },
+    { src: '/image-library/tools/caulking%20gun.webp', alt: 'Kartuschenpistole — thematisches Lernbild', caption: 'Kartuschenpistole' },
+    { src: '/image-library/tools/electric%20drill.webp', alt: 'Bohrmaschine — thematisches Lernbild', caption: 'Bohrmaschine' },
+    { src: '/image-library/tools/extension%20cord.webp', alt: 'Verlängerungskabel — thematisches Lernbild', caption: 'Verlängerungskabel' },
     { src: '/image-library/tools/flashlight.webp', alt: 'Taschenlampe — thematisches Lernbild', caption: 'Taschenlampe' },
     { src: '/image-library/tools/hammer.webp', alt: 'Hammer — thematisches Lernbild', caption: 'Hammer' },
   ],

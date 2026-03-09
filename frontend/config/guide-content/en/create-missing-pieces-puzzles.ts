@@ -203,7 +203,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
   ],
 };
 

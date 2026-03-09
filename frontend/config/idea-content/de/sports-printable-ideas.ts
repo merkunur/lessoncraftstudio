@@ -174,9 +174,9 @@ Geschlechterinklusive Attraktivität stellt eine wertvolle Stärke der Sport-Dru
   themeImages: [
     { src: '/image-library/sports%20bw/badminton.webp', alt: 'Badminton — thematisches Lernbild', caption: 'Badminton' },
     { src: '/image-library/sports%20bw/baseball.webp', alt: 'Baseball — thematisches Lernbild', caption: 'Baseball' },
-    { src: '/image-library/sports%20bw/baseball-2.webp', alt: 'Baseball 2 — thematisches Lernbild', caption: 'Baseball 2' },
+    { src: '/image-library/sports%20bw/baseball%202.webp', alt: 'Baseball 2 — thematisches Lernbild', caption: 'Baseball 2' },
     { src: '/image-library/sports%20bw/basketball.webp', alt: 'Basketball — thematisches Lernbild', caption: 'Basketball' },
-    { src: '/image-library/sports%20bw/beach-ball.webp', alt: 'Wasserball — thematisches Lernbild', caption: 'Wasserball' },
+    { src: '/image-library/sports%20bw/beach%20ball.webp', alt: 'Wasserball — thematisches Lernbild', caption: 'Wasserball' },
     { src: '/image-library/sports%20bw/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },
   ],
 

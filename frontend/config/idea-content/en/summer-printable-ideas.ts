@@ -174,7 +174,7 @@ To capture maximum summer revenue, develop products across multiple sub-themes a
   themeImages: [
     { src: '/image-library/summer/barbecue.webp', alt: 'Barbecue — themed educational image', caption: 'Barbecue' },
     { src: '/image-library/summer/beach.webp', alt: 'Beach — themed educational image', caption: 'Beach' },
-    { src: '/image-library/summer/beach-ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
+    { src: '/image-library/summer/beach%20ball.webp', alt: 'Beach Ball — themed educational image', caption: 'Beach Ball' },
     { src: '/image-library/summer/bucket.webp', alt: 'Bucket — themed educational image', caption: 'Bucket' },
     { src: '/image-library/summer/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
     { src: '/image-library/summer/campfire.webp', alt: 'Campfire — themed educational image', caption: 'Campfire' },

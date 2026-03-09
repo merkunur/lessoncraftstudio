@@ -172,7 +172,7 @@ Die Preisgestaltung in der Vorschul-Nische folgt den Standard-Konventionen für 
   themeImages: [
     { src: '/image-library/toys/airplane.webp', alt: 'Flugzeug — thematisches Lernbild', caption: 'Flugzeug' },
     { src: '/image-library/toys/baby.webp', alt: 'Baby — thematisches Lernbild', caption: 'Baby' },
-    { src: '/image-library/toys/baby-girl.webp', alt: 'Baby Mädchen — thematisches Lernbild', caption: 'Baby Mädchen' },
+    { src: '/image-library/toys/baby%20girl.webp', alt: 'Baby Mädchen — thematisches Lernbild', caption: 'Baby Mädchen' },
     { src: '/image-library/toys/ball.webp', alt: 'Ball — thematisches Lernbild', caption: 'Ball' },
     { src: '/image-library/toys/balloon.webp', alt: 'Luftballon — thematisches Lernbild', caption: 'Luftballon' },
     { src: '/image-library/toys/bicycle.webp', alt: 'Fahrrad — thematisches Lernbild', caption: 'Fahrrad' },

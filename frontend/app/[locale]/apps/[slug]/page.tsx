@@ -18,7 +18,13 @@ import type { AppContent } from '@/config/app-content';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import { getSectionLabel } from '@/config/section-labels';
-import { WorksheetShowcase, DifficultyLevels, FunFactor, ProfessionalQuality } from './AdditionShowcase';
+import {
+  WorksheetShowcaseSection,
+  TieredShowcaseSection,
+  SpotlightSection,
+  GallerySection,
+  getShowcaseConfig,
+} from './showcase';
 
 // ── Slug-appId to WP-appId mapping ──
 // product-page-slugs uses different IDs than warriorplus-products for some apps
@@ -623,8 +629,8 @@ export default async function AppDetailPage({
   const content = await getAppContent(wpAppId, locale);
   const audience = getCategoryAudience(category, locale);
 
-  // Visual showcase sections — currently addition EN only (test run)
-  const showVisualShowcase = wpAppId === 'addition' && locale === 'en';
+  // Visual showcase sections — EN only, config-driven per app
+  const showcaseConfig = locale === 'en' ? getShowcaseConfig(wpAppId) : null;
 
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
@@ -753,7 +759,7 @@ export default async function AppDetailPage({
           </section>
 
           {/* Visual Showcase: Worksheet Showcase (after Hero) */}
-          {showVisualShowcase && <WorksheetShowcase />}
+          {showcaseConfig && <WorksheetShowcaseSection config={showcaseConfig.hero} />}
 
           {/* How It Works (enriched — 5 steps) */}
           <section className="py-12 md:py-16">
@@ -775,8 +781,8 @@ export default async function AppDetailPage({
             </div>
           </section>
 
-          {/* Visual Showcase: Difficulty Levels (after How It Works) */}
-          {showVisualShowcase && <DifficultyLevels />}
+          {/* Visual Showcase: Tiered Showcase (after How It Works) */}
+          {showcaseConfig && <TieredShowcaseSection config={showcaseConfig.tiered} />}
 
           {/* Key Features (enriched — 8 feature cards) */}
           <section className="py-12 md:py-16 bg-white">
@@ -793,8 +799,8 @@ export default async function AppDetailPage({
             </div>
           </section>
 
-          {/* Visual Showcase: Fun Factor (after Key Features) */}
-          {showVisualShowcase && <FunFactor />}
+          {/* Visual Showcase: Spotlight (after Key Features) */}
+          {showcaseConfig && <SpotlightSection config={showcaseConfig.spotlight} />}
 
           {/* Business Use Cases */}
           <section className="py-12 md:py-16">
@@ -814,8 +820,8 @@ export default async function AppDetailPage({
             </div>
           </section>
 
-          {/* Visual Showcase: Professional Quality (after Business Use Cases) */}
-          {showVisualShowcase && <ProfessionalQuality />}
+          {/* Visual Showcase: Gallery (after Business Use Cases) */}
+          {showcaseConfig && <GallerySection config={showcaseConfig.gallery} />}
 
           {/* Who Is This For */}
           {audience.length > 0 && (

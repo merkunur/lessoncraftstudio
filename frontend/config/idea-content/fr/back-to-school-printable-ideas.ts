@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\u0027Imprimables de Rentrée Scolaire à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\u0027imprimables de rentrée scolaire à vendre sur Etsy, KDP et TPT. Concepts de produits pour la classe, stratégies juillet-septembre et conseils par plateforme pour les vendeurs.',
+    titleTag: 'Idées d\'Imprimables de Rentrée Scolaire à Vendre — Guide de Niche',
+    metaDescription: 'Découvrez des idées d\'imprimables de rentrée scolaire à vendre sur Etsy, KDP et TPT. Concepts de produits pour la classe, stratégies juillet-septembre et conseils par plateforme pour les vendeurs.',
 
     primaryKeyword: 'idées imprimables rentrée scolaire',
     secondaryKeywords: [

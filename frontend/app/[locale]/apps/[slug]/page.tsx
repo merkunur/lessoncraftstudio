@@ -720,7 +720,7 @@ export default async function AppDetailPage({
                       {content.hero.title}
                     </h1>
                     <p className="text-lg font-medium text-indigo-600 mb-4">{content.hero.tagline}</p>
-                    <p className="text-gray-600 mb-6">{content.hero.description}</p>
+                    <ReadMoreText text={content.hero.description} locale={locale} className="text-gray-600 mb-6" lines={10} />
                     <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} />
                     <p className="mt-3 text-sm text-gray-500">{ui.tryFreeDesc}</p>
                     <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">

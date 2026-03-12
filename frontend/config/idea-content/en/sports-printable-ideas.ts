@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sports Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Sports Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover sports printable ideas to sell on Etsy, Amazon KDP, and TPT. Athletic-themed product concepts, platform strategies, and tips for this year-round niche.',
 
     primaryKeyword: 'sports printable ideas',

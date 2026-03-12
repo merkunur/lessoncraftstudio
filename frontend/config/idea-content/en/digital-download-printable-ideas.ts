@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digital Download Worksheet Ideas to Sell \u2014 Guide',
+    titleTag: 'Digital Download Worksheet Ideas to Sell — Guide',
     metaDescription: 'Digital download worksheet ideas for Etsy, Gumroad, and TPT sellers. Build a zero-inventory printable business with instant-delivery educational PDFs.',
 
     primaryKeyword: 'digital download worksheet ideas',

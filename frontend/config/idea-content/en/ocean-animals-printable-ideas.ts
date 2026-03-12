@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ocean Animals Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Ocean Animals Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore ocean animals printable ideas to sell on Etsy, Amazon KDP, and TPT. Sea-themed product concepts, platform strategies, and tips for printable sellers.',
 
     primaryKeyword: 'ocean animals printable ideas',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Math Facts Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Math Facts Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers and parents who need practice sheets.',
 
     primaryKeyword: 'math facts printable ideas',

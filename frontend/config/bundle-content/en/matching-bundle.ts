@@ -215,7 +215,7 @@ const content: BundleContent = {
       { src: '/samples/english/picture sort/Picture Sort.webp', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
     ],
     youtubeId: 'y3ghkjt_67s',
-    videoTitle: 'Matching & Sorting Bundle \u2014 See All 5 Generators in Action',
+    videoTitle: 'Matching & Sorting Bundle — See All 5 Generators in Action',
   },
 
   themeImages: [

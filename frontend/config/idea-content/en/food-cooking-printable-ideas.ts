@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Food & Cooking Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Food & Cooking Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover food and cooking printable ideas to sell on Etsy, Amazon KDP, and TPT. Recipe-themed product concepts, platform strategies, and tips for sellers.',
 
     primaryKeyword: 'food & cooking printable ideas',

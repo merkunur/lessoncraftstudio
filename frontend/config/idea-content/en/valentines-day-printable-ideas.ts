@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentine Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Valentine Printable Ideas to Sell — Niche Guide',
     metaDescription: "Explore Valentine's Day printable ideas to sell on Etsy, KDP, and TPT. Love-themed product concepts, seasonal timing strategies, and tips for sellers.",
     primaryKeyword: 'valentine printable ideas',
     secondaryKeywords: [

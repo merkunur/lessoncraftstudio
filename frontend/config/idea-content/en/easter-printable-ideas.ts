@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Easter Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Easter Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover Easter printable ideas to sell on Etsy, Amazon KDP, and TPT. Spring holiday product concepts, seasonal strategies, and platform tips for sellers.',
 
     primaryKeyword: 'easter printable ideas',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insects Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Insects Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover insect-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Bug and butterfly product concepts, platform strategies, and niche seller tips.',
 
     primaryKeyword: 'insects printable ideas',

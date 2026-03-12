@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Custom Worksheet Service Business Ideas to Sell \u2014 Guide',
+    titleTag: 'Custom Worksheet Service Business Ideas to Sell — Guide',
     metaDescription: 'Custom worksheet service business ideas for Etsy and freelance sellers. Offer made-to-order educational printables with premium per-order pricing strategies.',
 
     primaryKeyword: 'custom worksheet service',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Dinosaur Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore profitable dinosaur printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche tips for printable sellers.',
 
     primaryKeyword: 'dinosaur printable ideas',

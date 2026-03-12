@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulk Licensing Printable Business Ideas to Sell \u2014 Guide',
+    titleTag: 'Bulk Licensing Printable Business Ideas to Sell — Guide',
     metaDescription: 'Bulk licensing printable business ideas for selling worksheet collections to schools, districts, and organizations. Volume licensing strategies for educators.',
 
     primaryKeyword: 'bulk licensing printable',

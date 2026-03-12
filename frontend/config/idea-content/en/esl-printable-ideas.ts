@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'ESL Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'ESL Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover ESL printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers, tutors, and language learners worldwide.',
 
     primaryKeyword: 'ESL printable ideas',

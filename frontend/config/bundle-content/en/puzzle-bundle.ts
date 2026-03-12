@@ -204,7 +204,7 @@ const content: BundleContent = {
       { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Picture path maze with themed image route through grid', caption: 'Picture Path Maze' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
-    videoTitle: 'Puzzles & Logic Bundle \u2014 See All 4 Generators in Action',
+    videoTitle: 'Puzzles & Logic Bundle — See All 4 Generators in Action',
   },
 
   themeImages: [

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Construction Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Construction Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover construction printable ideas to sell on Etsy, Amazon KDP, and TPT. Vehicle and tool themed product concepts, platform tips, and strategies for sellers.',
 
     primaryKeyword: 'construction printable ideas',

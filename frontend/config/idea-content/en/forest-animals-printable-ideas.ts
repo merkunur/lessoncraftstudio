@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Forest Animals Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Forest Animals Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore forest animal printable ideas to sell on Etsy, Amazon KDP, and TPT. Woodland product concepts, platform tips, and niche strategies for sellers.',
 
     primaryKeyword: 'forest animals printable ideas',

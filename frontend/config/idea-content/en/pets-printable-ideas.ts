@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pets Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Pets Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore profitable pets printable ideas to sell on Etsy, Amazon KDP, and TPT. Cat, dog, and small pet product concepts with platform strategies for sellers.',
 
     primaryKeyword: 'pets printable ideas',

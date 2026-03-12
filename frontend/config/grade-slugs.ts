@@ -57,27 +57,27 @@ export const gradeSlugMap: Record<string, Record<string, string>> = {
 export const gradeDisplayNames: Record<string, Record<string, string>> = {
   preschool: {
     en: 'Preschool', de: 'Vorschule', fr: 'Maternelle', es: 'Preescolar',
-    pt: 'Pr\u00e9-escolar', it: 'Prescuola', nl: 'Kleuterschool', sv: 'F\u00f6rskola',
-    da: 'F\u00f8rskole', no: 'F\u00f8rskole', fi: 'Esikoulu',
+    pt: 'Pré-escolar', it: 'Prescuola', nl: 'Kleuterschool', sv: 'Förskola',
+    da: 'Førskole', no: 'Førskole', fi: 'Esikoulu',
   },
   kindergarten: {
     en: 'Kindergarten', de: 'Kindergarten', fr: 'Grande Section', es: 'Infantil',
-    pt: 'Jardim de Inf\u00e2ncia', it: 'Scuola dell\u2019Infanzia', nl: 'Groep 1-2', sv: 'F\u00f6rskoleklass',
-    da: 'B\u00f8rnehaveklasse', no: 'Barnehage', fi: 'Esiopetus',
+    pt: 'Jardim de Infância', it: 'Scuola dell’Infanzia', nl: 'Groep 1-2', sv: 'Förskoleklass',
+    da: 'Børnehaveklasse', no: 'Barnehage', fi: 'Esiopetus',
   },
   'first-grade': {
     en: '1st Grade', de: '1. Klasse', fr: 'CP', es: '1er Grado',
-    pt: '1\u00ba Ano', it: '1\u00aa Elementare', nl: 'Groep 3', sv: '\u00c5rskurs 1',
+    pt: '1º Ano', it: '1ª Elementare', nl: 'Groep 3', sv: 'Årskurs 1',
     da: '1. Klasse', no: '1. Klasse', fi: '1. Luokka',
   },
   'second-grade': {
-    en: '2nd Grade', de: '2. Klasse', fr: 'CE1', es: '2\u00ba Grado',
-    pt: '2\u00ba Ano', it: '2\u00aa Elementare', nl: 'Groep 4', sv: '\u00c5rskurs 2',
+    en: '2nd Grade', de: '2. Klasse', fr: 'CE1', es: '2º Grado',
+    pt: '2º Ano', it: '2ª Elementare', nl: 'Groep 4', sv: 'Årskurs 2',
     da: '2. Klasse', no: '2. Klasse', fi: '2. Luokka',
   },
   'third-grade': {
     en: '3rd Grade', de: '3. Klasse', fr: 'CE2', es: '3er Grado',
-    pt: '3\u00ba Ano', it: '3\u00aa Elementare', nl: 'Groep 5', sv: '\u00c5rskurs 3',
+    pt: '3º Ano', it: '3ª Elementare', nl: 'Groep 5', sv: 'Årskurs 3',
     da: '3. Klasse', no: '3. Klasse', fi: '3. Luokka',
   },
 };
@@ -85,29 +85,29 @@ export const gradeDisplayNames: Record<string, Record<string, string>> = {
 /** Age ranges per grade */
 export const gradeAgeRanges: Record<string, Record<string, string>> = {
   preschool: {
-    en: 'Ages 3\u20134', de: '3\u20134 Jahre', fr: '3\u20134 ans', es: '3\u20134 a\u00f1os',
-    pt: '3\u20134 anos', it: '3\u20134 anni', nl: '3\u20134 jaar', sv: '3\u20134 \u00e5r',
-    da: '3\u20134 \u00e5r', no: '3\u20134 \u00e5r', fi: '3\u20134 vuotta',
+    en: 'Ages 3–4', de: '3–4 Jahre', fr: '3–4 ans', es: '3–4 años',
+    pt: '3–4 anos', it: '3–4 anni', nl: '3–4 jaar', sv: '3–4 år',
+    da: '3–4 år', no: '3–4 år', fi: '3–4 vuotta',
   },
   kindergarten: {
-    en: 'Ages 5\u20136', de: '5\u20136 Jahre', fr: '5\u20136 ans', es: '5\u20136 a\u00f1os',
-    pt: '5\u20136 anos', it: '5\u20136 anni', nl: '5\u20136 jaar', sv: '5\u20136 \u00e5r',
-    da: '5\u20136 \u00e5r', no: '5\u20136 \u00e5r', fi: '5\u20136 vuotta',
+    en: 'Ages 5–6', de: '5–6 Jahre', fr: '5–6 ans', es: '5–6 años',
+    pt: '5–6 anos', it: '5–6 anni', nl: '5–6 jaar', sv: '5–6 år',
+    da: '5–6 år', no: '5–6 år', fi: '5–6 vuotta',
   },
   'first-grade': {
-    en: 'Ages 6\u20137', de: '6\u20137 Jahre', fr: '6\u20137 ans', es: '6\u20137 a\u00f1os',
-    pt: '6\u20137 anos', it: '6\u20137 anni', nl: '6\u20137 jaar', sv: '6\u20137 \u00e5r',
-    da: '6\u20137 \u00e5r', no: '6\u20137 \u00e5r', fi: '6\u20137 vuotta',
+    en: 'Ages 6–7', de: '6–7 Jahre', fr: '6–7 ans', es: '6–7 años',
+    pt: '6–7 anos', it: '6–7 anni', nl: '6–7 jaar', sv: '6–7 år',
+    da: '6–7 år', no: '6–7 år', fi: '6–7 vuotta',
   },
   'second-grade': {
-    en: 'Ages 7\u20138', de: '7\u20138 Jahre', fr: '7\u20138 ans', es: '7\u20138 a\u00f1os',
-    pt: '7\u20138 anos', it: '7\u20138 anni', nl: '7\u20138 jaar', sv: '7\u20138 \u00e5r',
-    da: '7\u20138 \u00e5r', no: '7\u20138 \u00e5r', fi: '7\u20138 vuotta',
+    en: 'Ages 7–8', de: '7–8 Jahre', fr: '7–8 ans', es: '7–8 años',
+    pt: '7–8 anos', it: '7–8 anni', nl: '7–8 jaar', sv: '7–8 år',
+    da: '7–8 år', no: '7–8 år', fi: '7–8 vuotta',
   },
   'third-grade': {
-    en: 'Ages 8\u20139', de: '8\u20139 Jahre', fr: '8\u20139 ans', es: '8\u20139 a\u00f1os',
-    pt: '8\u20139 anos', it: '8\u20139 anni', nl: '8\u20139 jaar', sv: '8\u20139 \u00e5r',
-    da: '8\u20139 \u00e5r', no: '8\u20139 \u00e5r', fi: '8\u20139 vuotta',
+    en: 'Ages 8–9', de: '8–9 Jahre', fr: '8–9 ans', es: '8–9 años',
+    pt: '8–9 anos', it: '8–9 anni', nl: '8–9 jaar', sv: '8–9 år',
+    da: '8–9 år', no: '8–9 år', fi: '8–9 vuotta',
   },
 };
 

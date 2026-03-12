@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Parents Day Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Parents Day Printable Ideas to Sell — Niche Guide',
     metaDescription: "Discover Mother's Day and Father's Day printable ideas to sell on Etsy, KDP, and TPT. Parent appreciation product concepts and platform tips for sellers.",
     primaryKeyword: 'parents day printable ideas',
     secondaryKeywords: [

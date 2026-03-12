@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Winter Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Winter Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover winter printable ideas to sell on Etsy, Amazon KDP, and TPT. Cold-weather product concepts with strong November-February demand for worksheet sellers.',
 
     primaryKeyword: 'winter printable ideas',

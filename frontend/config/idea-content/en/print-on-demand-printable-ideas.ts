@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-Demand Worksheet Ideas to Sell \u2014 Guide',
+    titleTag: 'Print-on-Demand Worksheet Ideas to Sell — Guide',
     metaDescription: 'Print-on-demand worksheet ideas for Etsy, KDP, and Shopify sellers. Build a zero-inventory printable business with workbooks, activity packs, and puzzle books.',
 
     primaryKeyword: 'print-on-demand worksheet ideas',

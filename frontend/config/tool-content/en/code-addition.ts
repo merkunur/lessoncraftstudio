@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Code Breaker Math Worksheet Maker',
     tagline: 'Create cryptarithmetic puzzles where students crack secret codes through addition',
-    description: 'This is not another addition worksheet \u2014 it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and students must solve addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping students guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'This is not another addition worksheet — it is a code-cracking challenge. Each puzzle hides numbers behind image symbols, and students must solve addition equations to figure out which number belongs to which picture. In Regular Mode, every symbol stands for a unique digit. Switch to Word Reveal Mode and each solved equation uncovers a letter of a secret word, with distractor letters keeping students guessing. Choose from over 100 image themes, adjust symbol count and addend complexity, and download print-ready PDFs or JPEGs. Supports 11 languages with locale-aware alphabets. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -33,7 +33,7 @@ const content: ToolContent = {
       },
       {
         title: 'Set the Symbol Count',
-        description: 'In the "Exercise Configuration" panel, use the Symbol Count dropdown to choose how many image-symbols appear in your code. Fewer symbols (3\u20134) are easier for beginners; more symbols (6\u20138) create a tougher logic challenge. Each symbol hides a unique secret number in Regular Mode.',
+        description: 'In the "Exercise Configuration" panel, use the Symbol Count dropdown to choose how many image-symbols appear in your code. Fewer symbols (3–4) are easier for beginners; more symbols (6–8) create a tougher logic challenge. Each symbol hides a unique secret number in Regular Mode.',
       },
       {
         title: 'Choose Addends per Question',
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Switch to Word Reveal Mode (Optional)',
-        description: 'Toggle Word Reveal Mode to unlock an entirely different puzzle format. Type a secret word (up to 10 characters) and each correctly solved equation reveals one letter. Distractor letters with wrong sums keep students guessing. This mode is an OTO upgrade feature \u2014 great for premium products.',
+        description: 'Toggle Word Reveal Mode to unlock an entirely different puzzle format. Type a secret word (up to 10 characters) and each correctly solved equation reveals one letter. Distractor letters with wrong sums keep students guessing. This mode is an OTO upgrade feature — great for premium products.',
       },
       {
         title: 'Select Images from the Theme Library',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Code-Cracker Puzzle Packs',
-      description: 'Build themed sets of 10\u201320 cryptarithmetic puzzles using animal, space, or holiday images. Each puzzle assigns different secret numbers to the symbols, so every page is unique. Bundle as a PDF activity pack and sell on Etsy or Teachers Pay Teachers.',
+      description: 'Build themed sets of 10–20 cryptarithmetic puzzles using animal, space, or holiday images. Each puzzle assigns different secret numbers to the symbols, so every page is unique. Bundle as a PDF activity pack and sell on Etsy or Teachers Pay Teachers.',
     },
     {
       title: 'Word Reveal Activity Books',
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'KDP Cryptarithmetic Workbooks',
-      description: 'Generate 50\u2013100 pages of code-breaking math puzzles with progressive difficulty. Start with 3 symbols and 2 addends, then increase to 6+ symbols and mixed addends. Export in square format (1200\u00d71200) and publish as a unique KDP activity book that stands out from generic math workbooks.',
+      description: 'Generate 50–100 pages of code-breaking math puzzles with progressive difficulty. Start with 3 symbols and 2 addends, then increase to 6+ symbols and mixed addends. Export in square format (1200×1200) and publish as a unique KDP activity book that stands out from generic math workbooks.',
     },
     {
       title: 'Multilingual Code Puzzle Sets',
-      description: 'Switch between 11 supported languages to create code puzzles for international markets. In Word Reveal Mode, the generator uses locale-aware alphabets \u2014 German umlauts, French accents, Scandinavian characters \u2014 so the hidden words are linguistically correct. Few competitors offer this.',
+      description: 'Switch between 11 supported languages to create code puzzles for international markets. In Word Reveal Mode, the generator uses locale-aware alphabets — German umlauts, French accents, Scandinavian characters — so the hidden words are linguistically correct. Few competitors offer this.',
     },
     {
       title: 'Differentiated Cipher Worksheets',
@@ -85,29 +85,29 @@ const content: ToolContent = {
     },
     {
       title: 'Classroom Warm-Up Challenges',
-      description: 'Generate quick 5-minute code-breaking puzzles for daily bell work. Use 3\u20134 symbols so students can finish fast, or increase to 6+ for a full-period challenge. Include the answer key so students can self-check and track their progress.',
+      description: 'Generate quick 5-minute code-breaking puzzles for daily bell work. Use 3–4 symbols so students can finish fast, or increase to 6+ for a full-period challenge. Include the answer key so students can self-check and track their progress.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Etsy Cryptarithmetic Puzzle Shop',
-      description: 'Open a niche Etsy shop focused on code-breaking math worksheets. This is a genuinely underserved category \u2014 most sellers offer standard addition drills, not cryptarithmetic puzzles. Create 15\u201320 themed bundles priced at $3\u2013$5 each. The novelty factor drives higher click-through rates in search. Consider organizing your shop into seasonal collections \u2014 Halloween code crackers in October, winter holiday cipher packs in December, back-to-school bundles in August. Seasonal products tend to spike in Etsy search during their relevant period, giving you predictable traffic windows you can plan around.',
+      description: 'Open a niche Etsy shop focused on code-breaking math worksheets. This is a genuinely underserved category — most sellers offer standard addition drills, not cryptarithmetic puzzles. Create 15–20 themed bundles priced at $3–$5 each. The novelty factor drives higher click-through rates in search. Consider organizing your shop into seasonal collections — Halloween code crackers in October, winter holiday cipher packs in December, back-to-school bundles in August. Seasonal products tend to spike in Etsy search during their relevant period, giving you predictable traffic windows you can plan around.',
       platform: 'Etsy',
     },
     {
       title: 'Teachers Pay Teachers Premium Puzzles',
-      description: 'Upload differentiated code-cracker packs to TpT. Teachers search for engaging math activities that go beyond repetitive worksheets. Include a teacher guide explaining Regular Mode vs. Word Reveal Mode, plus answer keys for every puzzle. Premium pricing ($5\u2013$8) is justified by the unique format.',
+      description: 'Upload differentiated code-cracker packs to TpT. Teachers search for engaging math activities that go beyond repetitive worksheets. Include a teacher guide explaining Regular Mode vs. Word Reveal Mode, plus answer keys for every puzzle. Premium pricing ($5–$8) is justified by the unique format.',
       platform: 'Teachers Pay Teachers',
     },
     {
       title: 'Amazon KDP Puzzle Book Series',
-      description: 'Publish a series of cryptarithmetic puzzle books on KDP: "Code Breaker Math: Animals Edition," "Code Breaker Math: Space Edition," and so on. Each book contains 80\u2013100 puzzles with progressive difficulty. Price at $7.99\u2013$9.99 and let Amazon handle printing. Puzzle books have strong KDP margins.',
+      description: 'Publish a series of cryptarithmetic puzzle books on KDP: "Code Breaker Math: Animals Edition," "Code Breaker Math: Space Edition," and so on. Each book contains 80–100 puzzles with progressive difficulty. Price at $7.99–$9.99 and let Amazon handle printing. Puzzle books have strong KDP margins.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Digital Curriculum Pack',
-      description: 'Create a structured 8-week "Code Breaker Math" curriculum with weekly puzzle sets. Week 1 starts with 3 symbols, Week 8 ends with mixed addends and Word Reveal challenges. Sell as a premium digital download ($12\u2013$15) on Gumroad. Homeschool parents pay well for complete, structured programs. Include a one-page teacher guide at the front explaining how to use each week\'s puzzles, what skills each difficulty level targets, and how to assess student progress. Adding this kind of instructional scaffolding justifies the premium price point and earns positive reviews that drive future sales.',
+      description: 'Create a structured 8-week "Code Breaker Math" curriculum with weekly puzzle sets. Week 1 starts with 3 symbols, Week 8 ends with mixed addends and Word Reveal challenges. Sell as a premium digital download ($12–$15) on Gumroad. Homeschool parents pay well for complete, structured programs. Include a one-page teacher guide at the front explaining how to use each week\'s puzzles, what skills each difficulty level targets, and how to assess student progress. Adding this kind of instructional scaffolding justifies the premium price point and earns positive reviews that drive future sales.',
       platform: 'Gumroad',
     },
     {
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pair with Regular Addition Worksheets',
-      description: 'Create bundles that combine standard addition worksheets with code-breaking puzzles. The addition worksheets build fluency; the code puzzles apply that fluency in a logic context. Bundled products have higher perceived value and command better prices on every marketplace. A strong bundle structure might include 20 standard addition pages, 10 code breaker puzzles in Regular Mode, and 5 Word Reveal challenges \u2014 all with answer keys. Price the bundle higher than the individual packs, and cross-link between your listings so customers who buy one product discover the bundle option.',
+      description: 'Create bundles that combine standard addition worksheets with code-breaking puzzles. The addition worksheets build fluency; the code puzzles apply that fluency in a logic context. Bundled products have higher perceived value and command better prices on every marketplace. A strong bundle structure might include 20 standard addition pages, 10 code breaker puzzles in Regular Mode, and 5 Word Reveal challenges — all with answer keys. Price the bundle higher than the individual packs, and cross-link between your listings so customers who buy one product discover the bundle option.',
     },
     {
       title: 'Always Include the Answer Key',
@@ -168,11 +168,11 @@ const content: ToolContent = {
     },
     {
       question: 'How does the Symbol Count setting work?',
-      answer: 'Symbol Count determines how many different image-symbols appear in your puzzle. Fewer symbols (3\u20134) make the puzzle easier because there are fewer unknowns to deduce. More symbols (6\u20138) increase difficulty. In Regular Mode, each symbol must represent a different number within any single question. For sellers building differentiated product bundles, the Symbol Count setting is your primary difficulty lever. A well-structured puzzle pack might include three tiers: easy (3 symbols), medium (5 symbols), and hard (7\u20138 symbols). Labeling each tier clearly in your product listing helps buyers understand the value and choose the right level for their students. Teachers especially appreciate this kind of scaffolded approach because it saves them the planning work.',
+      answer: 'Symbol Count determines how many different image-symbols appear in your puzzle. Fewer symbols (3–4) make the puzzle easier because there are fewer unknowns to deduce. More symbols (6–8) increase difficulty. In Regular Mode, each symbol must represent a different number within any single question. For sellers building differentiated product bundles, the Symbol Count setting is your primary difficulty lever. A well-structured puzzle pack might include three tiers: easy (3 symbols), medium (5 symbols), and hard (7–8 symbols). Labeling each tier clearly in your product listing helps buyers understand the value and choose the right level for their students. Teachers especially appreciate this kind of scaffolded approach because it saves them the planning work.',
     },
     {
       question: 'Can I sell the worksheets I create?',
-      answer: 'The free trial version with watermark is for personal and classroom use only. To sell on Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate. Once licensed, there are no per-download limits and no royalty fees \u2014 you keep 100% of your sales revenue. The license covers all output from this specific tool, so you can generate as many unique puzzles as you need for as many product listings as you want.',
+      answer: 'The free trial version with watermark is for personal and classroom use only. To sell on Etsy, Teachers Pay Teachers, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate. Once licensed, there are no per-download limits and no royalty fees — you keep 100% of your sales revenue. The license covers all output from this specific tool, so you can generate as many unique puzzles as you need for as many product listings as you want.',
     },
     {
       question: 'What languages are supported?',
@@ -184,7 +184,7 @@ const content: ToolContent = {
     },
     {
       question: 'Do I need to install any software?',
-      answer: 'No. The generator runs entirely in your web browser on any modern device \u2014 Windows, Mac, Chromebook, iPad, or Android tablet. Nothing to install, no plugins required, and no account to create.',
+      answer: 'No. The generator runs entirely in your web browser on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. Nothing to install, no plugins required, and no account to create.',
     },
     {
       question: 'How is this different from regular addition worksheets?',
@@ -197,7 +197,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheets \u2014 Full Product Details' },
+    { pageType: 'app', slug: 'code-addition-worksheets', anchorText: 'Code Addition Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Math Puzzle Maker' },
@@ -216,12 +216,12 @@ const content: ToolContent = {
       {
         src: '/samples/english/code addition/Code Breaker Addition 1.webp',
         alt: 'Code breaker math puzzle with animal symbols in Regular Mode',
-        caption: 'Regular Mode with animal theme \u2014 each symbol hides a unique number',
+        caption: 'Regular Mode with animal theme — each symbol hides a unique number',
       },
       {
         src: '/samples/english/code addition/Code Breaker Addition 2.webp',
         alt: 'Code addition worksheet in Word Reveal Mode with food images',
-        caption: 'Word Reveal Mode \u2014 solve equations to spell a secret word',
+        caption: 'Word Reveal Mode — solve equations to spell a secret word',
       },
       {
         src: '/samples/english/code addition/Code Breaker Addition 3.webp',
@@ -230,7 +230,7 @@ const content: ToolContent = {
       },
     ],
     youtubeId: 'vVd11Kjk9iA',
-    videoTitle: 'How to Create Code Breaker Math Worksheets \u2014 Video Tutorial',
+    videoTitle: 'How to Create Code Breaker Math Worksheets — Video Tutorial',
   },
 };
 

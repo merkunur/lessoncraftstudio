@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Music Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Music Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore music printable ideas to sell on Etsy, Amazon KDP, and TPT. Instrument-themed product concepts, platform tips, and niche strategies for sellers.',
 
     primaryKeyword: 'music printable ideas',

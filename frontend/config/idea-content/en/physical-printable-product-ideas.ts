@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Physical Printable Product Ideas to Sell \u2014 Guide',
+    titleTag: 'Physical Printable Product Ideas to Sell — Guide',
     metaDescription: 'Physical printable product ideas for Etsy and craft fair sellers. Build a premium business printing, laminating, and shipping tangible worksheet products.',
 
     primaryKeyword: 'physical printable product ideas',

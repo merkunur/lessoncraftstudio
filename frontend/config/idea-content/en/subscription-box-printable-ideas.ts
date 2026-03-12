@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Subscription Box Printable Ideas to Sell \u2014 Guide',
+    titleTag: 'Subscription Box Printable Ideas to Sell — Guide',
     metaDescription: 'Worksheet subscription box ideas to sell on Etsy, Gumroad, and Patreon. Build recurring revenue with monthly curated worksheet packs and themed bundles.',
 
     primaryKeyword: 'subscription box printable ideas',

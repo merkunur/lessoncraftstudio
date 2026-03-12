@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Space Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Space Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover space printable ideas to sell on Etsy, Amazon KDP, and TPT. Outer space product concepts, STEM strategies, and platform tips for printable sellers.',
 
     primaryKeyword: 'space printable ideas',

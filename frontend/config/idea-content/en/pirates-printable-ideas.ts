@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirates Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Pirates Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover pirate-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Pirate product concepts, adventure worksheets, and niche strategies for sellers.',
 
     primaryKeyword: 'pirates printable ideas',

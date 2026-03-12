@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Special Education Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Special Education Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover special education printable ideas to sell on Etsy, KDP, and TPT. SPED product concepts for teachers, therapists, and parents of diverse learners.',
 
     primaryKeyword: 'special education printable ideas',

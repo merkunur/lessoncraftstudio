@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'First Grade Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'First Grade Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover first grade printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts and niche strategies for sellers targeting first grade academics.',
 
     primaryKeyword: 'first grade printable ideas',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Birds Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Birds Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore bird-themed printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, platform strategies, and niche positioning tips for sellers.',
 
     primaryKeyword: 'birds printable ideas',

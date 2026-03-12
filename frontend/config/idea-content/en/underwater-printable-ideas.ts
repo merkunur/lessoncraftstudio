@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Underwater Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Underwater Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover underwater printable ideas to sell on Etsy, Amazon KDP, and TPT. Ocean-themed product concepts, deep-sea worksheets, and niche tips for sellers.',
 
     primaryKeyword: 'underwater printable ideas',

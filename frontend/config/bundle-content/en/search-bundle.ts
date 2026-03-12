@@ -206,7 +206,7 @@ const content: BundleContent = {
       { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Treasure hunt worksheet with 5x5 coordinate grid and directional clues', caption: 'Treasure Hunt Grid' },
     ],
     youtubeId: '0cOPi7eajLs',
-    videoTitle: 'Search & Find Bundle \u2014 See All 4 Discovery Generators in Action',
+    videoTitle: 'Search & Find Bundle — See All 4 Discovery Generators in Action',
   },
 
   themeImages: [

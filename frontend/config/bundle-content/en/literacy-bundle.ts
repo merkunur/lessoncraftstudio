@@ -94,7 +94,7 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: 'Multilingual Etsy Literacy Shop',
-      description: 'Build an Etsy shop that dominates literacy printables across multiple languages. A single word search design becomes 11 separate listings — English Word Search Pack, German Wortsuche Pack, French Mots Cach\u00e9s Pack — each one targeting different buyer demographics and search queries. Multiply this across seven generators and 100+ themes, and you have thousands of unique product combinations. Sellers with multilingual listings capture international traffic that monolingual competitors miss entirely, with no additional design work required.',
+      description: 'Build an Etsy shop that dominates literacy printables across multiple languages. A single word search design becomes 11 separate listings — English Word Search Pack, German Wortsuche Pack, French Mots Cachés Pack — each one targeting different buyer demographics and search queries. Multiply this across seven generators and 100+ themes, and you have thousands of unique product combinations. Sellers with multilingual listings capture international traffic that monolingual competitors miss entirely, with no additional design work required.',
       platform: 'Etsy',
     },
     {
@@ -229,7 +229,7 @@ const content: BundleContent = {
       { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice worksheet with guided letter strokes', caption: 'Writing Worksheet' },
     ],
     youtubeId: '36keBFzJbPo',
-    videoTitle: 'Literacy & Language Bundle \u2014 See All 7 Generators in Action',
+    videoTitle: 'Literacy & Language Bundle — See All 7 Generators in Action',
   },
 
   themeImages: [

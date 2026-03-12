@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Summer Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Summer Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover summer printable ideas to sell on Etsy, Amazon KDP, and TPT. Beach and sun-themed product concepts, seasonal strategies, and platform tips for sellers.',
 
     primaryKeyword: 'summer printable ideas',

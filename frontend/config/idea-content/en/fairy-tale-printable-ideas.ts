@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fairy Tale Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Fairy Tale Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover fairy tale printable ideas to sell on Etsy, Amazon KDP, and TPT. Storybook-themed product concepts, platform tips, and strategies for sellers.',
 
     primaryKeyword: 'fairy tale printable ideas',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Subtraction Worksheet Generator',
     tagline: 'Create visual cross-out subtraction worksheets in under 60 seconds',
-    description: 'Make subtraction click with cross-out visuals that children intuitively understand. This tool generates image-based subtraction worksheets where students cross out pictures to find the answer \u2014 the most natural way to learn take-away math. Choose from over 100 image themes, set your minuend range, pick from four exercise modes including the unique Cross Out format, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers building differentiated math product lines, teachers creating classroom packets, and KDP publishers compiling subtraction workbooks. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Make subtraction click with cross-out visuals that children intuitively understand. This tool generates image-based subtraction worksheets where students cross out pictures to find the answer — the most natural way to learn take-away math. Choose from over 100 image themes, set your minuend range, pick from four exercise modes including the unique Cross Out format, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers building differentiated math product lines, teachers creating classroom packets, and KDP publishers compiling subtraction workbooks. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -33,11 +33,11 @@ const content: ToolContent = {
       },
       {
         title: 'Choose Your Exercise Mode',
-        description: 'Open the "Exercise Configuration" panel and select from four modes: Cross Out (students cross out images to visualize subtraction \u2014 the most intuitive mode for young learners), Image \u2212 Number (a picture group minus a numeral), Find Subtrahend (shows the minuend and result; the child figures out what was taken away), or Mixed Mode (randomly combines all three styles on one sheet).',
+        description: 'Open the "Exercise Configuration" panel and select from four modes: Cross Out (students cross out images to visualize subtraction — the most intuitive mode for young learners), Image − Number (a picture group minus a numeral), Find Subtrahend (shows the minuend and result; the child figures out what was taken away), or Mixed Mode (randomly combines all three styles on one sheet).',
       },
       {
         title: 'Set the Difficulty Range',
-        description: 'Adjust the "Max Minuend" slider to control the largest number used in exercises (range: 2\u201320). For preschoolers, keep it at 5 or below. Kindergartners handle up to 10 well. First graders can work with the full range up to 20. You can also set the number of exercises per worksheet (1 to 10).',
+        description: 'Adjust the "Max Minuend" slider to control the largest number used in exercises (range: 2–20). For preschoolers, keep it at 5 or below. Kindergartners handle up to 10 well. First graders can work with the full range up to 20. You can also set the number of exercises per worksheet (1 to 10).',
       },
       {
         title: 'Select a Theme from the Image Library',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generate and Download',
-        description: 'Click the "Generate" button to build your worksheet. The preview updates on the canvas in real time. When satisfied, use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). You can also generate and download a matching answer key with all solutions filled in \u2014 crossed-out images clearly marked.',
+        description: 'Click the "Generate" button to build your worksheet. The preview updates on the canvas in real time. When satisfied, use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). You can also generate and download a matching answer key with all solutions filled in — crossed-out images clearly marked.',
       },
     ],
   },
@@ -65,11 +65,11 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Cross-Out Subtraction Activity Packs',
-      description: 'Create sets of 10\u201320 worksheets using the Cross Out mode where children physically cross out images to solve each problem. Bundle them by theme \u2014 dinosaurs, farm animals, ocean creatures \u2014 and sell as visual subtraction packs on Etsy or Teachers Pay Teachers. The cross-out format is the number one request from early childhood educators.',
+      description: 'Create sets of 10–20 worksheets using the Cross Out mode where children physically cross out images to solve each problem. Bundle them by theme — dinosaurs, farm animals, ocean creatures — and sell as visual subtraction packs on Etsy or Teachers Pay Teachers. The cross-out format is the number one request from early childhood educators.',
     },
     {
       title: 'Take-Away Math Workbooks for KDP',
-      description: 'Generate 50\u2013100 pages of subtraction worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content activity workbook on Amazon KDP. Use square format (1200\u00d71200) for KDP activity books and mix Cross Out with Image \u2212 Number for variety.',
+      description: 'Generate 50–100 pages of subtraction worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content activity workbook on Amazon KDP. Use square format (1200×1200) for KDP activity books and mix Cross Out with Image − Number for variety.',
     },
     {
       title: 'Differentiated Classroom Sets',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Visual Math Printables Shop',
-      description: 'Open an Etsy shop specializing in visual subtraction worksheets. The Cross Out format is highly sought after by parents and teachers because it makes abstract subtraction concrete. Create 15\u201320 themed bundles priced at $3\u2013$5 each. With zero inventory and instant digital delivery, margins are nearly 100% after Etsy fees. Focus your shop SEO on long-tail keywords like "cross out subtraction worksheets printable" and "visual take away math activities" to stand out from generic math worksheet listings. Refresh your thumbnail images seasonally and add new theme bundles each month to keep your shop active in Etsy\'s search algorithm.',
+      description: 'Open an Etsy shop specializing in visual subtraction worksheets. The Cross Out format is highly sought after by parents and teachers because it makes abstract subtraction concrete. Create 15–20 themed bundles priced at $3–$5 each. With zero inventory and instant digital delivery, margins are nearly 100% after Etsy fees. Focus your shop SEO on long-tail keywords like "cross out subtraction worksheets printable" and "visual take away math activities" to stand out from generic math worksheet listings. Refresh your thumbnail images seasonally and add new theme bundles each month to keep your shop active in Etsy\'s search algorithm.',
       platform: 'Etsy',
     },
     {
@@ -102,17 +102,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Subtraction Workbooks',
-      description: 'Compile 50+ pages of image subtraction exercises into a physical activity workbook. Use mixed modes and multiple themes to add variety. Price at $6.99\u2013$9.99 and let Amazon handle printing and fulfillment. Cross-out worksheets photograph especially well for KDP listing images.',
+      description: 'Compile 50+ pages of image subtraction exercises into a physical activity workbook. Use mixed modes and multiple themes to add variety. Price at $6.99–$9.99 and let Amazon handle printing and fulfillment. Cross-out worksheets photograph especially well for KDP listing images.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Subtraction Curriculum Pack',
-      description: 'Create a structured 12-week subtraction curriculum with progressive difficulty \u2014 start with Cross Out at maxMinuend 5, build to Find Subtrahend at maxMinuend 20. Sell it as a premium digital download on Gumroad. Homeschool parents actively seek hands-on, visual math materials. Include a one-page scope-and-sequence document explaining which skills each week targets and how the difficulty ramp aligns with common core math standards for grades K\u20132. Structured curriculum products command premium pricing on Gumroad \u2014 typically $12\u2013$19 \u2014 because buyers perceive them as complete teaching solutions rather than loose worksheet collections.',
+      description: 'Create a structured 12-week subtraction curriculum with progressive difficulty — start with Cross Out at maxMinuend 5, build to Find Subtrahend at maxMinuend 20. Sell it as a premium digital download on Gumroad. Homeschool parents actively seek hands-on, visual math materials. Include a one-page scope-and-sequence document explaining which skills each week targets and how the difficulty ramp aligns with common core math standards for grades K–2. Structured curriculum products command premium pricing on Gumroad — typically $12–$19 — because buyers perceive them as complete teaching solutions rather than loose worksheet collections.',
       platform: 'Gumroad',
     },
     {
       title: 'Tutoring Center Subtraction Resources',
-      description: 'If you run a tutoring business, generate custom subtraction worksheets for each student session. Start struggling students with Cross Out mode to build conceptual understanding, then progress to Find Subtrahend when they are ready. Use the answer key for instant grading between sessions. Personalized worksheets featuring themes each child enjoys \u2014 dinosaurs for one student, unicorns for another \u2014 dramatically increase engagement and make your tutoring sessions more effective. Parents notice and appreciate this level of customization, which strengthens client retention and generates word-of-mouth referrals.',
+      description: 'If you run a tutoring business, generate custom subtraction worksheets for each student session. Start struggling students with Cross Out mode to build conceptual understanding, then progress to Find Subtrahend when they are ready. Use the answer key for instant grading between sessions. Personalized worksheets featuring themes each child enjoys — dinosaurs for one student, unicorns for another — dramatically increase engagement and make your tutoring sessions more effective. Parents notice and appreciate this level of customization, which strengthens client retention and generates word-of-mouth referrals.',
     },
     {
       title: 'Pinterest-Driven Free Sample Funnel',
@@ -123,7 +123,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Start with Cross Out Mode for Young Learners',
-      description: 'Cross Out is the most intuitive subtraction format for preschoolers and kindergartners. Children see a group of images, cross some out, and count what remains. Start every new student or product line with Cross Out before introducing other modes \u2014 it builds the foundational understanding that subtraction means "taking away." Research consistently shows that concrete-to-abstract progression produces stronger math outcomes, and Cross Out worksheets sit perfectly in the concrete-representational stage. Parents and teachers overwhelmingly prefer this format for children aged 3\u20136 because it removes the intimidation factor of working with bare numerals.',
+      description: 'Cross Out is the most intuitive subtraction format for preschoolers and kindergartners. Children see a group of images, cross some out, and count what remains. Start every new student or product line with Cross Out before introducing other modes — it builds the foundational understanding that subtraction means "taking away." Research consistently shows that concrete-to-abstract progression produces stronger math outcomes, and Cross Out worksheets sit perfectly in the concrete-representational stage. Parents and teachers overwhelmingly prefer this format for children aged 3–6 because it removes the intimidation factor of working with bare numerals.',
     },
     {
       title: 'Keep maxMinuend Low for Early Learners',
@@ -131,7 +131,7 @@ const content: ToolContent = {
     },
     {
       title: 'Use Find Subtrahend for Advanced Students',
-      description: 'The Find Subtrahend mode shows the starting amount and the result, asking the child to figure out how many were taken away. This is significantly harder and develops early algebraic thinking. Save it for first graders and above, or market it as a separate "challenge" product tier. On Etsy and TpT, "missing number" subtraction worksheets attract a distinct buyer segment \u2014 teachers preparing students for standardized assessments where inverse operations appear frequently. Labeling your listing with terms like "find the missing number" and "subtraction challenge" captures this search traffic effectively.',
+      description: 'The Find Subtrahend mode shows the starting amount and the result, asking the child to figure out how many were taken away. This is significantly harder and develops early algebraic thinking. Save it for first graders and above, or market it as a separate "challenge" product tier. On Etsy and TpT, "missing number" subtraction worksheets attract a distinct buyer segment — teachers preparing students for standardized assessments where inverse operations appear frequently. Labeling your listing with terms like "find the missing number" and "subtraction challenge" captures this search traffic effectively.',
     },
     {
       title: 'Always Include the Answer Key',
@@ -143,11 +143,11 @@ const content: ToolContent = {
     },
     {
       title: 'Pair with Addition for Complete Math Bundles',
-      description: 'Create matching addition and subtraction worksheet sets using the same theme and difficulty range. Sell them individually and as a combined "Addition & Subtraction" mega-bundle at a slight discount. Bundled products have higher average order values on every marketplace. Combined addition and subtraction mega-bundles command significantly higher prices than individual operation packs because they provide comprehensive fact family coverage. Create matching theme sets where the same images appear in both addition and subtraction worksheets, reinforcing the inverse relationship between operations. Price mega-bundles at $7\u2013$9 for maximum revenue per transaction. Many top-selling Etsy math shops structure their entire catalog around this pairing strategy, offering individual operation packs at $3\u2013$5 and combined bundles at nearly double the price.',
+      description: 'Create matching addition and subtraction worksheet sets using the same theme and difficulty range. Sell them individually and as a combined "Addition & Subtraction" mega-bundle at a slight discount. Bundled products have higher average order values on every marketplace. Combined addition and subtraction mega-bundles command significantly higher prices than individual operation packs because they provide comprehensive fact family coverage. Create matching theme sets where the same images appear in both addition and subtraction worksheets, reinforcing the inverse relationship between operations. Price mega-bundles at $7–$9 for maximum revenue per transaction. Many top-selling Etsy math shops structure their entire catalog around this pairing strategy, offering individual operation packs at $3–$5 and combined bundles at nearly double the price.',
     },
     {
       title: 'Add Themed Borders for Premium Pricing',
-      description: 'A plain white worksheet and a worksheet with a themed border and subtle background look completely different in product listings. Adding visual polish takes 30 seconds and can justify a $1\u2013$2 higher price point. Adjust background opacity to keep the cross-out exercises readable.',
+      description: 'A plain white worksheet and a worksheet with a themed border and subtle background look completely different in product listings. Adding visual polish takes 30 seconds and can justify a $1–$2 higher price point. Adjust background opacity to keep the cross-out exercises readable.',
     },
   ],
 
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are the four exercise modes?',
-      answer: 'The generator supports four modes: Cross Out (students cross out images to visualize take-away subtraction), Image \u2212 Number (a picture group minus a numeral), Find Subtrahend (the minuend and result are shown; the child determines what was taken away), and Mixed Mode (randomly combines all three styles on one worksheet for maximum variety).',
+      answer: 'The generator supports four modes: Cross Out (students cross out images to visualize take-away subtraction), Image − Number (a picture group minus a numeral), Find Subtrahend (the minuend and result are shown; the child determines what was taken away), and Mixed Mode (randomly combines all three styles on one worksheet for maximum variety).',
     },
     {
       question: 'What file formats can I download?',
@@ -174,15 +174,15 @@ const content: ToolContent = {
     },
     {
       question: 'What does the maxMinuend setting control?',
-      answer: 'The maxMinuend slider (range 2\u201320) sets the largest starting number in each subtraction exercise. For example, if maxMinuend is set to 10, exercises will show up to 10 images. Lower values are easier for younger children; higher values provide more challenge for older students. For product sellers, this setting is the primary difficulty control. A well-structured listing might include three tiers labeled "easy," "medium," and "hard" based on the maxMinuend value, giving teachers the flexibility to assign the appropriate level to each student without extra design work.',
+      answer: 'The maxMinuend slider (range 2–20) sets the largest starting number in each subtraction exercise. For example, if maxMinuend is set to 10, exercises will show up to 10 images. Lower values are easier for younger children; higher values provide more challenge for older students. For product sellers, this setting is the primary difficulty control. A well-structured listing might include three tiers labeled "easy," "medium," and "hard" based on the maxMinuend value, giving teachers the flexibility to assign the appropriate level to each student without extra design work.',
     },
     {
       question: 'Can I create worksheets in languages other than English?',
-      answer: 'Yes. The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Switch the content language to generate worksheets with image labels and instructions in your chosen language. This opens up international selling opportunities \u2014 create German subtraction worksheets for the DACH market, French worksheets for Canadian and European buyers, or Spanish worksheets for the large Latin American homeschool community. Each language version can be listed as a separate product on Etsy, effectively multiplying your catalog without additional design effort.',
+      answer: 'Yes. The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Switch the content language to generate worksheets with image labels and instructions in your chosen language. This opens up international selling opportunities — create German subtraction worksheets for the DACH market, French worksheets for Canadian and European buyers, or Spanish worksheets for the large Latin American homeschool community. Each language version can be listed as a separate product on Etsy, effectively multiplying your catalog without additional design effort.',
     },
     {
       question: 'Do I need to install any software?',
-      answer: 'No. The generator runs entirely in your web browser. It works on any modern device \u2014 Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.',
+      answer: 'No. The generator runs entirely in your web browser. It works on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.',
     },
     {
       question: 'Can I generate an answer key?',
@@ -195,7 +195,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheets \u2014 Full Product Details' },
+    { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'More or Less Worksheet Maker' },
@@ -219,7 +219,7 @@ const content: ToolContent = {
       {
         src: '/samples/english/subtraction/cross out.webp',
         alt: 'Subtraction worksheet using food images in Image minus Number mode',
-        caption: 'Image \u2212 Number mode with food theme',
+        caption: 'Image − Number mode with food theme',
       },
       {
         src: '/samples/english/subtraction/image number.webp',
@@ -228,7 +228,7 @@ const content: ToolContent = {
       },
     ],
     youtubeId: 'til2mrWMUxk',
-    videoTitle: 'How to Create Subtraction Worksheets \u2014 Video Tutorial',
+    videoTitle: 'How to Create Subtraction Worksheets — Video Tutorial',
   },
 };
 

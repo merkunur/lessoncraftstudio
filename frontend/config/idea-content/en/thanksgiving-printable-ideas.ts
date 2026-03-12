@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thanksgiving Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Thanksgiving Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover Thanksgiving printable ideas to sell on Etsy, Amazon KDP, and TPT. Harvest-themed product concepts, seasonal strategies, and platform tips for sellers.',
 
     primaryKeyword: 'thanksgiving printable ideas',

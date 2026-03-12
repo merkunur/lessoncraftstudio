@@ -230,7 +230,7 @@ const content: BundleContent = {
       { src: '/samples/english/chart count/chart count.webp', alt: 'Bar chart counting worksheet with themed image data points', caption: 'Chart Count Worksheet' },
     ],
     youtubeId: 'ZdpCr2txHcc',
-    videoTitle: 'Visual Learning Bundle \u2014 See All 7 Generators in Action',
+    videoTitle: 'Visual Learning Bundle — See All 7 Generators in Action',
   },
 
   themeImages: [

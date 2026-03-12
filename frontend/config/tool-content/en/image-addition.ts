@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Set the Difficulty Range',
-        description: 'Adjust "Min items per group" and "Max items per group" sliders to control the numbers used. For preschoolers, try 1\u20133. For kindergarten, use 1\u20135. First graders can handle 1\u201310. You can also set the number of exercises per worksheet (1 to 10).',
+        description: 'Adjust "Min items per group" and "Max items per group" sliders to control the numbers used. For preschoolers, try 1–3. For kindergarten, use 1–5. First graders can handle 1–10. You can also set the number of exercises per worksheet (1 to 10).',
       },
       {
         title: 'Select a Theme from the Image Library',
@@ -65,11 +65,11 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Addition Activity Packs',
-      description: 'Create a set of 10\u201320 worksheets around a single theme \u2014 dinosaurs, farm animals, or ocean creatures. Bundle them as a PDF activity pack and sell on Etsy or Teachers Pay Teachers. Parents love themed packs because they keep children engaged longer. Each theme in the library contains enough variety to fill an entire pack without repeating images, which means buyers get genuine visual diversity in every download. Position your packs at $3 to $5 for individual themes and $8 to $12 for mega-bundles that combine multiple themes with a progressive difficulty curve from simple counting to challenging multi-addend problems.',
+      description: 'Create a set of 10–20 worksheets around a single theme — dinosaurs, farm animals, or ocean creatures. Bundle them as a PDF activity pack and sell on Etsy or Teachers Pay Teachers. Parents love themed packs because they keep children engaged longer. Each theme in the library contains enough variety to fill an entire pack without repeating images, which means buyers get genuine visual diversity in every download. Position your packs at $3 to $5 for individual themes and $8 to $12 for mega-bundles that combine multiple themes with a progressive difficulty curve from simple counting to challenging multi-addend problems.',
     },
     {
       title: 'Differentiated Homework Sets',
-      description: 'Generate three versions of the same worksheet at different difficulty levels: easy (1\u20133), medium (1\u20135), and hard (1\u201310). Teachers can hand the right level to each student without spending extra prep time. This approach works particularly well on Teachers Pay Teachers where educators specifically search for differentiated materials that save classroom preparation time. Bundle the three difficulty versions together as a single listing priced at $4 to $6, and include a teacher guide explaining which level suits which student profile for maximum perceived value and stronger customer reviews.',
+      description: 'Generate three versions of the same worksheet at different difficulty levels: easy (1–3), medium (1–5), and hard (1–10). Teachers can hand the right level to each student without spending extra prep time. This approach works particularly well on Teachers Pay Teachers where educators specifically search for differentiated materials that save classroom preparation time. Bundle the three difficulty versions together as a single listing priced at $4 to $6, and include a teacher guide explaining which level suits which student profile for maximum perceived value and stronger customer reviews.',
     },
     {
       title: 'Seasonal Math Bundles',
@@ -77,11 +77,11 @@ const content: ToolContent = {
     },
     {
       title: 'KDP Math Workbooks',
-      description: 'Generate 50\u2013100 pages of addition worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content math workbook on Amazon KDP. Square format (1200\u00d71200) works great for KDP activity books. Use a consistent theme throughout the book or alternate themes chapter by chapter to give the workbook a cohesive professional feel. Include a table of contents, introduction page with instructions for parents, and a complete answer key section at the back. Price your KDP workbooks between $5.99 and $8.99 for optimal royalty returns.',
+      description: 'Generate 50–100 pages of addition worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content math workbook on Amazon KDP. Square format (1200×1200) works great for KDP activity books. Use a consistent theme throughout the book or alternate themes chapter by chapter to give the workbook a cohesive professional feel. Include a table of contents, introduction page with instructions for parents, and a complete answer key section at the back. Price your KDP workbooks between $5.99 and $8.99 for optimal royalty returns.',
     },
     {
       title: 'Classroom Morning Work Packets',
-      description: 'Build a month of daily addition warm-ups. Each worksheet takes 5\u201310 minutes, making it perfect for morning bell work. Include the answer key so students can self-check. Morning work packets sell consistently on both Etsy and Teachers Pay Teachers because teachers purchase them at the start of every school year and often reorder when they run out. Create monthly packs with 20 to 25 worksheets each, priced at $5 to $8, and offer a discounted full-year bundle at $35 to $45 for maximum revenue per customer.',
+      description: 'Build a month of daily addition warm-ups. Each worksheet takes 5–10 minutes, making it perfect for morning bell work. Include the answer key so students can self-check. Morning work packets sell consistently on both Etsy and Teachers Pay Teachers because teachers purchase them at the start of every school year and often reorder when they run out. Create monthly packs with 20 to 25 worksheets each, priced at $5 to $8, and offer a discounted full-year bundle at $35 to $45 for maximum revenue per customer.',
     },
     {
       title: 'Bilingual Math Worksheets',
@@ -92,7 +92,7 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Printable Math Shop',
-      description: 'Open an Etsy shop specializing in printable addition worksheets. Create 15\u201320 themed bundles (animals, vehicles, food, etc.) priced at $3\u2013$5 each. With zero inventory and instant digital delivery, margins are nearly 100% after Etsy fees. Focus on building a cohesive brand identity with consistent naming conventions and visual style across all your listings. Use the border and background features to create a recognizable aesthetic that makes your shop look curated rather than random. Reinvest early revenue into expanding your theme coverage systematically rather than jumping between unrelated product categories.',
+      description: 'Open an Etsy shop specializing in printable addition worksheets. Create 15–20 themed bundles (animals, vehicles, food, etc.) priced at $3–$5 each. With zero inventory and instant digital delivery, margins are nearly 100% after Etsy fees. Focus on building a cohesive brand identity with consistent naming conventions and visual style across all your listings. Use the border and background features to create a recognizable aesthetic that makes your shop look curated rather than random. Reinvest early revenue into expanding your theme coverage systematically rather than jumping between unrelated product categories.',
       platform: 'Etsy',
     },
     {
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Activity Books',
-      description: 'Compile 50+ pages of image addition exercises into a physical activity workbook. Use mixed modes and multiple themes to add variety. Price at $6.99\u2013$9.99 and let Amazon handle printing and fulfillment. Research competing workbooks in your target category to identify gaps in theme coverage or difficulty range that your book can fill. Use Amazon Brand Analytics or keyword tools to find underserved search terms where you can rank quickly. Interior quality matters: ensure consistent margins, proper bleed settings, and professional page numbering throughout.',
+      description: 'Compile 50+ pages of image addition exercises into a physical activity workbook. Use mixed modes and multiple themes to add variety. Price at $6.99–$9.99 and let Amazon handle printing and fulfillment. Research competing workbooks in your target category to identify gaps in theme coverage or difficulty range that your book can fill. Use Amazon Brand Analytics or keyword tools to find underserved search terms where you can rank quickly. Interior quality matters: ensure consistent margins, proper bleed settings, and professional page numbering throughout.',
       platform: 'Amazon KDP',
     },
     {
@@ -127,7 +127,7 @@ const content: ToolContent = {
     },
     {
       title: 'Match Theme to Season for Best Sales',
-      description: 'Seasonal products outperform evergreen ones during peak windows. Create pumpkin-themed addition packs in September, snowman-themed packs in November, and flower-themed packs in March. List them 2\u20133 weeks before the season starts to catch early shoppers. Track which seasonal themes generate the most favorites and purchases so you can prioritize restocking and expanding those collections the following year for compounding returns on your creative effort.',
+      description: 'Seasonal products outperform evergreen ones during peak windows. Create pumpkin-themed addition packs in September, snowman-themed packs in November, and flower-themed packs in March. List them 2–3 weeks before the season starts to catch early shoppers. Track which seasonal themes generate the most favorites and purchases so you can prioritize restocking and expanding those collections the following year for compounding returns on your creative effort.',
     },
     {
       title: 'Always Include the Answer Key',
@@ -139,7 +139,7 @@ const content: ToolContent = {
     },
     {
       title: 'Start with Low Number Ranges',
-      description: 'For preschool and kindergarten products, keep max items per group at 3\u20135. Young children get overwhelmed by large numbers. Create separate "easy" and "challenge" versions of each worksheet so parents and teachers can choose the right level.',
+      description: 'For preschool and kindergarten products, keep max items per group at 3–5. Young children get overwhelmed by large numbers. Create separate "easy" and "challenge" versions of each worksheet so parents and teachers can choose the right level.',
     },
     {
       title: 'Add Custom Text for Branding',
@@ -178,7 +178,7 @@ const content: ToolContent = {
     },
     {
       question: 'Do I need to install any software?',
-      answer: 'No. The generator runs entirely in your web browser. It works on any modern device \u2014 Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.',
+      answer: 'No. The generator runs entirely in your web browser. It works on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create.',
     },
     {
       question: 'Can I generate an answer key?',
@@ -186,7 +186,7 @@ const content: ToolContent = {
     },
     {
       question: 'What page sizes are supported?',
-      answer: 'The generator supports US Letter (portrait and landscape), A4 (portrait and landscape), Square (1200\u00d71200 px), and fully custom dimensions. Square format is ideal for social media content and Amazon KDP activity books.',
+      answer: 'The generator supports US Letter (portrait and landscape), A4 (portrait and landscape), Square (1200×1200 px), and fully custom dimensions. Square format is ideal for social media content and Amazon KDP activity books.',
     },
     {
       question: 'What is your refund policy?',
@@ -195,7 +195,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheets \u2014 Full Product Details' },
+    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Math Worksheet Maker' },
     { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
@@ -228,7 +228,7 @@ const content: ToolContent = {
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Addition Worksheets \u2014 Video Tutorial',
+    videoTitle: 'How to Create Addition Worksheets — Video Tutorial',
   },
 };
 

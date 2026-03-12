@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Back to School Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Back to School Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover back to school printable ideas to sell on Etsy, KDP, and TPT. Classroom product concepts, July-September strategies, and platform tips for sellers.',
 
     primaryKeyword: 'back to school printable ideas',

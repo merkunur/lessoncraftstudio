@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Preschool Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Preschool Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover preschool printable ideas to sell on Etsy, Amazon KDP, and TPT. Pre-K product concepts and niche strategies for printable sellers and entrepreneurs.',
 
     primaryKeyword: 'preschool printable ideas',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printable Party Supply Business Ideas to Sell \u2014 Guide',
+    titleTag: 'Printable Party Supply Business Ideas to Sell — Guide',
     metaDescription: 'Printable party supply business ideas for Etsy sellers. Create themed party packs, birthday games, celebration worksheets, and seasonal event printables.',
 
     primaryKeyword: 'printable party supply',

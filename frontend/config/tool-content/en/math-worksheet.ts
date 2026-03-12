@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Math Worksheet Generator',
     tagline: 'Create visual algebra puzzles with images as variables in under 60 seconds',
-    description: 'Move beyond standard arithmetic drills with algebra picture puzzles that challenge students to think in systems of equations. Each worksheet presents a set of linked equations where images replace unknown variables \u2014 students must determine the numeric value each picture represents. Four difficulty levels scale from two symbols with simple addition to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution \u2014 no ambiguity, no guesswork. Choose Addition Only for focused practice or Addition & Subtraction for advanced problem-solving. Set the number range, toggle negative results for older learners, and control puzzles per page from 1 to 6 with automatic layout. Select images individually, load an entire theme set, or upload your own PNG or JPEG for branded puzzles. Since puzzles use only images and numbers, they work identically in every language \u2014 sell the same PDF worldwide without translation. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Move beyond standard arithmetic drills with algebra picture puzzles that challenge students to think in systems of equations. Each worksheet presents a set of linked equations where images replace unknown variables — students must determine the numeric value each picture represents. Four difficulty levels scale from two symbols with simple addition to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no guesswork. Choose Addition Only for focused practice or Addition & Subtraction for advanced problem-solving. Set the number range, toggle negative results for older learners, and control puzzles per page from 1 to 6 with automatic layout. Select images individually, load an entire theme set, or upload your own PNG or JPEG for branded puzzles. Since puzzles use only images and numbers, they work identically in every language — sell the same PDF worldwide without translation. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configure Number Range and Options',
-        description: 'Set the minimum and maximum values for the equations (default 0\u201320). For advanced students, enable the "Allow Negative Results" toggle so subtraction equations can produce values below zero. These controls let you match each worksheet precisely to your target age group and curriculum level.',
+        description: 'Set the minimum and maximum values for the equations (default 0–20). For advanced students, enable the "Allow Negative Results" toggle so subtraction equations can produce values below zero. These controls let you match each worksheet precisely to your target age group and curriculum level.',
       },
       {
         title: 'Select Your Images',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Add Text, Numbering, and Set Puzzles Per Page',
-        description: 'Add a title, subtitle, or custom text block to your worksheet. Enable automatic numbering across pages. Use the "Puzzles Per Page" control to place 1 to 6 puzzles on each sheet \u2014 the layout adjusts automatically. Fewer puzzles per page give students more working space; more puzzles per page create compact practice sheets.',
+        description: 'Add a title, subtitle, or custom text block to your worksheet. Enable automatic numbering across pages. Use the "Puzzles Per Page" control to place 1 to 6 puzzles on each sheet — the layout adjusts automatically. Fewer puzzles per page give students more working space; more puzzles per page create compact practice sheets.',
       },
       {
         title: 'Generate, Review, and Download',
-        description: 'Click "Generate" to build your algebra puzzle worksheet. The built-in solver verifies that every puzzle has exactly one solution before rendering. Preview on the canvas, then use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). Always generate the matching answer key \u2014 it shows each symbol\u2019s numeric value for quick grading.',
+        description: 'Click "Generate" to build your algebra puzzle worksheet. The built-in solver verifies that every puzzle has exactly one solution before rendering. Preview on the canvas, then use the "Download" dropdown to save as JPEG (single image) or PDF (print-optimized). Always generate the matching answer key — it shows each symbol’s numeric value for quick grading.',
       },
     ],
   },
@@ -65,11 +65,11 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Visual Algebra Packs',
-      description: 'Create sets of 15\u201320 algebra picture puzzles using themed image symbols from the library \u2014 dinosaurs, space, animals, vehicles. Each puzzle uses different images as variables with consistent difficulty. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The visual algebra format is genuinely unique and makes your listing thumbnail stand out instantly from standard math worksheets. Themed packs also encourage repeat purchases because buyers who enjoy one theme often return for others, building long-term customer loyalty for your shop.',
+      description: 'Create sets of 15–20 algebra picture puzzles using themed image symbols from the library — dinosaurs, space, animals, vehicles. Each puzzle uses different images as variables with consistent difficulty. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The visual algebra format is genuinely unique and makes your listing thumbnail stand out instantly from standard math worksheets. Themed packs also encourage repeat purchases because buyers who enjoy one theme often return for others, building long-term customer loyalty for your shop.',
     },
     {
       title: 'KDP Progressive Algebra Workbooks',
-      description: 'Compile 60\u2013100 pages of algebra picture puzzles structured by difficulty. Start with Very Easy (2 symbols, addition only) and progress through Easy, Medium, to Hard (4 unknowns, mixed operations). Publish as a structured math activity workbook on Amazon KDP. The progressive difficulty creates a natural curriculum that parents and teachers can follow from cover to cover.',
+      description: 'Compile 60–100 pages of algebra picture puzzles structured by difficulty. Start with Very Easy (2 symbols, addition only) and progress through Easy, Medium, to Hard (4 unknowns, mixed operations). Publish as a structured math activity workbook on Amazon KDP. The progressive difficulty creates a natural curriculum that parents and teachers can follow from cover to cover.',
     },
     {
       title: 'Differentiated Classroom Sets',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Algebra Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Algebra Puzzle" pack with festive symbol images sells strongly in November\u2013December. Halloween, Valentine\u2019s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and TpT. The algebra format adds perceived difficulty and value over simple arithmetic.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Algebra Puzzle" pack with festive symbol images sells strongly in November–December. Halloween, Valentine’s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and TpT. The algebra format adds perceived difficulty and value over simple arithmetic.',
     },
     {
       title: 'Mixed-Difficulty Sampler Packs',
@@ -92,12 +92,12 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Etsy Visual Algebra Puzzle Shop',
-      description: 'Open an Etsy shop specializing in algebra picture puzzles. This format is genuinely rare \u2014 most math printables on Etsy are standard arithmetic worksheets. Your visual algebra puzzles with image variables and guaranteed unique solutions will stand out in search results. Create 15\u201320 themed bundles priced at $3\u2013$5 each. Since puzzles use only images and numbers, every listing works for buyers worldwide without translation.',
+      description: 'Open an Etsy shop specializing in algebra picture puzzles. This format is genuinely rare — most math printables on Etsy are standard arithmetic worksheets. Your visual algebra puzzles with image variables and guaranteed unique solutions will stand out in search results. Create 15–20 themed bundles priced at $3–$5 each. Since puzzles use only images and numbers, every listing works for buyers worldwide without translation.',
       platform: 'Etsy',
     },
     {
       title: 'Amazon KDP Algebra Activity Books',
-      description: 'Compile 60+ pages of visual algebra puzzles into a physical activity book. Structure chapters by difficulty level: Very Easy warm-ups, Easy practice, Medium challenges, and Hard brain-teasers. Mix Addition Only and Addition & Subtraction modes for variety. Price at $7.99\u2013$10.99 and let Amazon handle printing and fulfillment. The puzzle format photographs exceptionally well for KDP listing images.',
+      description: 'Compile 60+ pages of visual algebra puzzles into a physical activity book. Structure chapters by difficulty level: Very Easy warm-ups, Easy practice, Medium challenges, and Hard brain-teasers. Mix Addition Only and Addition & Subtraction modes for variety. Price at $7.99–$10.99 and let Amazon handle printing and fulfillment. The puzzle format photographs exceptionally well for KDP listing images.',
       platform: 'Amazon KDP',
     },
     {
@@ -112,12 +112,12 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest Algebra Puzzle Funnel',
-      description: 'The visual algebra format makes eye-catching pins \u2014 colorful image symbols inside equation layouts are instantly recognizable and curiosity-inducing. Offer a free 5-page sampler on Pinterest, collect email addresses, then upsell your full themed bundles and KDP workbooks. Puzzle images with animal or food symbols get significantly more saves than plain worksheet previews.',
+      description: 'The visual algebra format makes eye-catching pins — colorful image symbols inside equation layouts are instantly recognizable and curiosity-inducing. Offer a free 5-page sampler on Pinterest, collect email addresses, then upsell your full themed bundles and KDP workbooks. Puzzle images with animal or food symbols get significantly more saves than plain worksheet previews.',
       platform: 'Pinterest',
     },
     {
       title: 'Multilingual Math Puzzle Seller',
-      description: 'Algebra picture puzzles use only images, numbers, and mathematical operators \u2014 zero text. A single puzzle PDF works identically in every language. List the same product on Etsy Germany, France, Spain, Italy, and Japan without any translation work. Most competitors only serve English-speaking buyers, giving you a 5\u201310x market advantage with zero extra effort.',
+      description: 'Algebra picture puzzles use only images, numbers, and mathematical operators — zero text. A single puzzle PDF works identically in every language. List the same product on Etsy Germany, France, Spain, Italy, and Japan without any translation work. Most competitors only serve English-speaking buyers, giving you a 5–10x market advantage with zero extra effort.',
       platform: 'Etsy',
     },
   ],
@@ -136,8 +136,8 @@ const content: ToolContent = {
       description: 'Upload your own illustrations, mascots, or licensed artwork to create puzzles no competitor can replicate. The uploaded images become the equation variables, making your products visually distinctive. Buyers who recognize your symbol style will return to your shop. Custom images also let you target ultra-specific niches like seasonal classroom decor, bilingual learning, or subject-specific review sheets that mainstream sellers overlook entirely.',
     },
     {
-      title: 'Use 1\u20132 Puzzles Per Page for Younger Learners',
-      description: 'Set puzzles per page to 1 or 2 for younger students who need more working space. Larger puzzles with bigger symbols and equations are easier to read and less overwhelming. Save 4\u20136 puzzles per page for older students or compact practice sets designed for quick review sessions.',
+      title: 'Use 1–2 Puzzles Per Page for Younger Learners',
+      description: 'Set puzzles per page to 1 or 2 for younger students who need more working space. Larger puzzles with bigger symbols and equations are easier to read and less overwhelming. Save 4–6 puzzles per page for older students or compact practice sets designed for quick review sessions.',
     },
     {
       title: 'Pair with Standard Math Worksheet Tools',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Always Include the Answer Key',
-      description: 'Generate the answer key before downloading your worksheets. The answer key shows each image symbol\u2019s numeric value and the fully solved equation system. Buyers on Etsy and TpT consistently rate products higher when answer keys are included \u2014 it saves teachers grading time and gives parents confidence in the solution.',
+      description: 'Generate the answer key before downloading your worksheets. The answer key shows each image symbol’s numeric value and the fully solved equation system. Buyers on Etsy and TpT consistently rate products higher when answer keys are included — it saves teachers grading time and gives parents confidence in the solution.',
     },
   ],
 
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'How many puzzles can I put on one page?',
-      answer: 'You can place 1 to 6 puzzles per page using the "Puzzles Per Page" control. The layout adjusts automatically to fit the selected number. Use 1\u20132 puzzles per page for younger learners who need more space, or 4\u20136 per page for compact practice sheets and workbook-style products.',
+      answer: 'You can place 1 to 6 puzzles per page using the "Puzzles Per Page" control. The layout adjusts automatically to fit the selected number. Use 1–2 puzzles per page for younger learners who need more space, or 4–6 per page for compact practice sheets and workbook-style products.',
     },
     {
       question: 'Do the puzzles work in all languages?',
-      answer: 'Yes. Algebra picture puzzles use only images, numbers, and mathematical operators \u2014 no text at all. A single puzzle PDF works identically in every language. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.',
+      answer: 'Yes. Algebra picture puzzles use only images, numbers, and mathematical operators — no text at all. A single puzzle PDF works identically in every language. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.',
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheets \u2014 Full Product Details' },
+    { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Addition Worksheet Maker' },
     { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Subtraction Worksheet Maker' },
     { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Code Addition Worksheet Maker' },
@@ -220,21 +220,21 @@ const content: ToolContent = {
       {
         src: '/samples/english/math worksheet/Math Worksheet 1.webp',
         alt: 'Visual algebra puzzle with two image symbols and addition equations for beginners',
-        caption: 'Very Easy mode \u2014 two symbols with simple addition',
+        caption: 'Very Easy mode — two symbols with simple addition',
       },
       {
         src: '/samples/english/math worksheet/Math Worksheet 5.webp',
         alt: 'Medium difficulty algebra picture puzzle with three image variables across linked equations',
-        caption: 'Medium difficulty \u2014 three unknowns in linked equations',
+        caption: 'Medium difficulty — three unknowns in linked equations',
       },
       {
         src: '/samples/english/math worksheet/Math Worksheet 10.webp',
         alt: 'Hard algebra puzzle worksheet with four simultaneous unknowns and mixed operations',
-        caption: 'Hard mode \u2014 four variables with addition and subtraction',
+        caption: 'Hard mode — four variables with addition and subtraction',
       },
     ],
     youtubeId: '-JIawojGNr0',
-    videoTitle: 'How to Create Math Worksheets \u2014 Video Tutorial',
+    videoTitle: 'How to Create Math Worksheets — Video Tutorial',
   },
 };
 

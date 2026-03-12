@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Halloween Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Explore Halloween printable ideas to sell on Etsy, Amazon KDP, and TPT. Spooky-themed product concepts, seasonal strategies, and tips for printable sellers.',
 
     primaryKeyword: 'halloween printable ideas',

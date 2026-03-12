@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safari Animals Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Safari Animals Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover profitable safari animals printable ideas to sell on Etsy, Amazon KDP, and TPT. African wildlife product concepts and platform tips for sellers.',
 
     primaryKeyword: 'safari animals printable ideas',

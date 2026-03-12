@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Word Guess Worksheet Generator',
     tagline: 'Create image-based spelling worksheets with 4 clue levels in 11 languages',
-    description: 'Turn vocabulary practice into a visual puzzle students love solving. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks \u2014 students study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids \u2014 exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Turn vocabulary practice into a visual puzzle students love solving. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks — students study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids — exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: 'Choose Your Input Mode',
-        description: 'Select Image Clue or Custom Word List. Image Clue mode uses pictures from the built-in library \u2014 the tool automatically generates letter grids from the image\u2019s word in the selected language. Custom Word List mode lets you type words directly without images, ideal for niche vocabulary, spelling lists, or subject-specific terminology that the image library doesn\u2019t cover.',
+        description: 'Select Image Clue or Custom Word List. Image Clue mode uses pictures from the built-in library — the tool automatically generates letter grids from the image’s word in the selected language. Custom Word List mode lets you type words directly without images, ideal for niche vocabulary, spelling lists, or subject-specific terminology that the image library doesn’t cover.',
       },
       {
         title: 'Set the Clue Difficulty Level',
-        description: 'Choose from four progressive difficulty levels. No Clues leaves the entire grid blank for pure recall \u2014 ideal for advanced spellers. Easy reveals half the letters, providing scaffolding for young learners just starting to spell. Normal reveals a quarter of the letters for balanced challenge. Tough reveals only one-sixth of the letters for confident students who need minimal hints. Mix difficulty levels across pages to create differentiated worksheet packs.',
+        description: 'Choose from four progressive difficulty levels. No Clues leaves the entire grid blank for pure recall — ideal for advanced spellers. Easy reveals half the letters, providing scaffolding for young learners just starting to spell. Normal reveals a quarter of the letters for balanced challenge. Tough reveals only one-sixth of the letters for confident students who need minimal hints. Mix difficulty levels across pages to create differentiated worksheet packs.',
       },
       {
         title: 'Select Images and Theme',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configure Exclude Letters, Case, and Numbering',
-        description: 'Use the Exclude Letters feature to remove specific letters from the grids \u2014 for example, exclude all vowels so students must supply them, creating a phonics-focused exercise. Set letter case to uppercase or lowercase output. Toggle exercise numbering on or off. Add a custom text overlay with instructions like "Fill in the missing letters!" for clear student guidance.',
+        description: 'Use the Exclude Letters feature to remove specific letters from the grids — for example, exclude all vowels so students must supply them, creating a phonics-focused exercise. Set letter case to uppercase or lowercase output. Toggle exercise numbering on or off. Add a custom text overlay with instructions like "Fill in the missing letters!" for clear student guidance.',
       },
       {
         title: 'Customize Fonts, Text, and Canvas',
@@ -65,34 +65,34 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Spelling Guess Packs',
-      description: 'Create sets of 10\u201315 word guess worksheets using themed image collections \u2014 animals, food, vehicles, nature scenes. Each worksheet pairs images with letter grids at a consistent difficulty level. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The image-plus-puzzle format makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
+      description: 'Create sets of 10–15 word guess worksheets using themed image collections — animals, food, vehicles, nature scenes. Each worksheet pairs images with letter grids at a consistent difficulty level. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The image-plus-puzzle format makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
     },
     {
       title: 'KDP Word Guess Activity Books',
-      description: 'Generate 50\u2013100 word guess pages with progressive difficulty structure: Easy clue level in the opening chapter, Normal for the middle section, and Tough for the final challenge chapters. Export as high-resolution PDFs and publish as a low-content activity workbook on Amazon KDP. Use grayscale mode for lower printing costs. Each page looks like a visual puzzle, making your book stand out in KDP search results.',
+      description: 'Generate 50–100 word guess pages with progressive difficulty structure: Easy clue level in the opening chapter, Normal for the middle section, and Tough for the final challenge chapters. Export as high-resolution PDFs and publish as a low-content activity workbook on Amazon KDP. Use grayscale mode for lower printing costs. Each page looks like a visual puzzle, making your book stand out in KDP search results.',
     },
     {
       title: 'Differentiated Clue-Level Sets',
-      description: 'Generate four versions of the same themed worksheet \u2014 one at each clue level: No Clues, Easy, Normal, and Tough. Teachers can hand the right version to each student based on ability. Sell as a differentiated pack at a premium price on TpT or Etsy. Four difficulty tiers from one design session, with answer keys included for every version.',
+      description: 'Generate four versions of the same themed worksheet — one at each clue level: No Clues, Easy, Normal, and Tough. Teachers can hand the right version to each student based on ability. Sell as a differentiated pack at a premium price on TpT or Etsy. Four difficulty tiers from one design session, with answer keys included for every version.',
     },
     {
       title: 'Multilingual Spelling Products',
-      description: 'Switch the language setting and regenerate the same worksheet design in all 11 supported languages. The same dog image produces "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish \u2014 each with genuinely different letter grids and correct answers. One design session produces 11 distinct products, each ready to list on its local marketplace.',
+      description: 'Switch the language setting and regenerate the same worksheet design in all 11 supported languages. The same dog image produces "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish — each with genuinely different letter grids and correct answers. One design session produces 11 distinct products, each ready to list on its local marketplace.',
     },
     {
       title: 'Custom Word List Vocabulary Worksheets',
-      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, or foreign language vocabulary. No images needed \u2014 the tool generates letter grids from your typed words. Create targeted spelling practice for any curriculum, grade level, or niche topic that the image library doesn\u2019t cover.',
+      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, or foreign language vocabulary. No images needed — the tool generates letter grids from your typed words. Create targeted spelling practice for any curriculum, grade level, or niche topic that the image library doesn’t cover.',
     },
     {
       title: 'Seasonal Spelling Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Word Guess" pack with festive vocabulary \u2014 REINDEER, SNOWFLAKE, PRESENT \u2014 sells strongly in November\u2013December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and TpT. The visual puzzle format makes seasonal products feel fresh and engaging.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Word Guess" pack with festive vocabulary — REINDEER, SNOWFLAKE, PRESENT — sells strongly in November–December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and TpT. The visual puzzle format makes seasonal products feel fresh and engaging.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Multilingual Spelling Shop on Etsy',
-      description: 'Open an Etsy shop specializing in word guess worksheets across all 11 supported languages. Most spelling worksheet sellers only serve English \u2014 you can list identical designs on Etsy Germany, France, Spain, Italy, Sweden, and more. Each language version uses different correct spellings from the same images, creating genuinely unique products. One afternoon of design work produces 11 listings, each targeting a different buyer market with minimal competition.',
+      description: 'Open an Etsy shop specializing in word guess worksheets across all 11 supported languages. Most spelling worksheet sellers only serve English — you can list identical designs on Etsy Germany, France, Spain, Italy, Sweden, and more. Each language version uses different correct spellings from the same images, creating genuinely unique products. One afternoon of design work produces 11 listings, each targeting a different buyer market with minimal competition.',
       platform: 'Etsy',
     },
     {
@@ -107,17 +107,17 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad Phonics Focus Kits',
-      description: 'Create premium phonics kits on Gumroad that use the Exclude Letters feature strategically \u2014 exclude vowels for vowel-focus exercises, exclude consonant blends for blend practice. Bundle with Custom Word List worksheets targeting specific phonics patterns. Include a teacher guide explaining how each exclusion pattern targets a different phonics skill. Sell to homeschool parents and ESL teachers.',
+      description: 'Create premium phonics kits on Gumroad that use the Exclude Letters feature strategically — exclude vowels for vowel-focus exercises, exclude consonant blends for blend practice. Bundle with Custom Word List worksheets targeting specific phonics patterns. Include a teacher guide explaining how each exclusion pattern targets a different phonics skill. Sell to homeschool parents and ESL teachers.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visual Spelling Funnel',
-      description: 'The image-plus-letter-grid format is inherently visual and pin-worthy \u2014 a colorful animal image paired with a partially filled letter grid is instantly recognizable as a fun activity. Pin a free 3-page sampler, collect email addresses, then upsell your full themed and multilingual bundles. Word guess worksheets get significantly more saves than plain spelling lists because they look like puzzles.',
+      description: 'The image-plus-letter-grid format is inherently visual and pin-worthy — a colorful animal image paired with a partially filled letter grid is instantly recognizable as a fun activity. Pin a free 3-page sampler, collect email addresses, then upsell your full themed and multilingual bundles. Word guess worksheets get significantly more saves than plain spelling lists because they look like puzzles.',
       platform: 'Pinterest',
     },
     {
       title: 'Dual-Mode Vocabulary Packs on Etsy',
-      description: 'Leverage both input modes to create comprehensive vocabulary packs. Use Image Clue mode for visual vocabulary building and Custom Word List mode for curriculum-aligned spelling words. Bundle both into a single product: "Complete Spelling Practice Kit \u2014 Visual + Written." The dual-mode approach justifies a premium price point and serves both visual and traditional learners.',
+      description: 'Leverage both input modes to create comprehensive vocabulary packs. Use Image Clue mode for visual vocabulary building and Custom Word List mode for curriculum-aligned spelling words. Bundle both into a single product: "Complete Spelling Practice Kit — Visual + Written." The dual-mode approach justifies a premium price point and serves both visual and traditional learners.',
       platform: 'Etsy',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use No Clues for Advanced Spellers',
-      description: 'No Clues mode leaves the entire letter grid blank \u2014 students must recall the complete spelling from the image alone. This is genuine spelling assessment, not recognition. Use it for older students, spelling tests, or the final "challenge" section of a progressive workbook.',
+      description: 'No Clues mode leaves the entire letter grid blank — students must recall the complete spelling from the image alone. This is genuine spelling assessment, not recognition. Use it for older students, spelling tests, or the final "challenge" section of a progressive workbook.',
     },
     {
       title: 'Use Easy Mode for Young Beginners',
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Go Multilingual for 11x Product Range',
-      description: 'Every word guess worksheet you design can become 11 products by switching the language. The same cat image produces "CAT," "KATZE," "CHAT," "GATO," "GATTO," and more \u2014 each with different letter grids and different correct answers. Language-specific spelling worksheets are a dramatically underserved niche outside English.',
+      description: 'Every word guess worksheet you design can become 11 products by switching the language. The same cat image produces "CAT," "KATZE," "CHAT," "GATO," "GATTO," and more — each with different letter grids and different correct answers. Language-specific spelling worksheets are a dramatically underserved niche outside English.',
     },
     {
       title: 'Use Custom Word Lists for Niche Vocabulary',
-      description: 'Custom Word List mode lets you type any words directly, bypassing the image library. Create spelling worksheets for science terms, sight word lists, spelling bee preparation, foreign language vocabulary, or any subject-specific terminology. This mode opens markets the image library alone can\u2019t reach.',
+      description: 'Custom Word List mode lets you type any words directly, bypassing the image library. Create spelling worksheets for science terms, sight word lists, spelling bee preparation, foreign language vocabulary, or any subject-specific terminology. This mode opens markets the image library alone can’t reach.',
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are the two input modes?',
-      answer: 'Image Clue mode uses pictures from the built-in library of 3,100+ images across 104 themes. The tool automatically generates letter grids from the image\u2019s word in the selected language. Custom Word List mode lets you type any words directly \u2014 the tool generates letter grids without images, ideal for spelling lists, subject-specific vocabulary, or words the image library doesn\u2019t cover.',
+      answer: 'Image Clue mode uses pictures from the built-in library of 3,100+ images across 104 themes. The tool automatically generates letter grids from the image’s word in the selected language. Custom Word List mode lets you type any words directly — the tool generates letter grids without images, ideal for spelling lists, subject-specific vocabulary, or words the image library doesn’t cover.',
     },
     {
       question: 'What does the Exclude Letters feature do?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does the language sensitivity work?',
-      answer: 'When you switch languages, the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish, "CANE" in Italian, and so on across all 11 supported languages. The letter grid, blanks, and answer key all update to match the new language\u2019s spelling.',
+      answer: 'When you switch languages, the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish, "CANE" in Italian, and so on across all 11 supported languages. The letter grid, blanks, and answer key all update to match the new language’s spelling.',
     },
     {
       question: 'Which languages are supported?',
@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Worksheets \u2014 Full Product Details' },
+    { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
     { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Prepositions Worksheet Maker' },
     { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },
@@ -234,7 +234,7 @@ const content: ToolContent = {
       },
     ],
     youtubeId: 'DSwX_p4dRNM',
-    videoTitle: 'How to Create Word Guess Worksheets \u2014 Video Tutorial',
+    videoTitle: 'How to Create Word Guess Worksheets — Video Tutorial',
   },
 };
 

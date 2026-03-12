@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Farm Animals Printable Ideas to Sell \u2014 Niche Guide',
+    titleTag: 'Farm Animals Printable Ideas to Sell — Niche Guide',
     metaDescription: 'Discover profitable farm animals printable ideas to sell on Etsy, Amazon KDP, and TPT. Product concepts, pricing strategies, and platform tips for sellers.',
 
     primaryKeyword: 'farm animals printable ideas',

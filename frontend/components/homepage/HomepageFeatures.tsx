@@ -385,7 +385,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
         {/* Section header */}
         <div ref={headerRef} className="text-center mb-16 reveal">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-200/50 border border-amber-300">
-            <span className="text-amber-700">{'\ud83c\udf1f'}</span>
+            <span className="text-amber-700">{'🌟'}</span>
             <span className="text-sm font-medium text-amber-800">{content.badge}</span>
           </div>
 

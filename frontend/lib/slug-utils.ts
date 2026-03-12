@@ -48,8 +48,8 @@ const CHAR_MAP: Record<string, string> = {
   'Š': 'S', 'Ť': 'T', 'Ů': 'U', 'Ž': 'Z',
 
   // Other common characters (using Unicode escape sequences)
-  '\u2018': '', '\u2019': '', '\u201C': '', '\u201D': '', '\u2013': '-', '\u2014': '-',
-  '\u2026': '...', '\u00AB': '', '\u00BB': '', '\u2039': '', '\u203A': '',
+  '‘': '', '’': '', '“': '', '”': '', '–': '-', '—': '-',
+  '…': '...', '«': '', '»': '', '‹': '', '›': '',
 };
 
 /**
@@ -71,7 +71,7 @@ export function normalizeSlug(text: string): string {
   slug = slug.toLowerCase();
 
   // Step 3: Remove any remaining non-ASCII characters
-  slug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  slug = slug.normalize('NFD').replace(/[̀-ͯ]/g, '');
 
   // Step 4: Replace spaces and underscores with hyphens
   slug = slug.replace(/[\s_]+/g, '-');

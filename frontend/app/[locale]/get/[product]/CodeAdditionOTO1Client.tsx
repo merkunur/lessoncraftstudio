@@ -47,7 +47,7 @@ function AmberCTA({ config }: { config: SalesPageConfig }) {
   if (config.wpButtonImg) {
     return <WPBuyButton config={config} />;
   }
-  const text = `${config.hero.ctaPrimary} \u2014 ${config.pricing.currency}${config.pricing.price}`;
+  const text = `${config.hero.ctaPrimary} — ${config.pricing.currency}${config.pricing.price}`;
   return (
     <a
       href={config.checkoutUrl || '#'}

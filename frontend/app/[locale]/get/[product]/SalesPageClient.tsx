@@ -46,10 +46,10 @@ const LIBRARY_IMAGES = [
 ];
 
 const FLAG_EMOJI: Record<string, string> = {
-  gb: '\ud83c\uddec\ud83c\udde7', de: '\ud83c\udde9\ud83c\uddea', fr: '\ud83c\uddeb\ud83c\uddf7',
-  es: '\ud83c\uddea\ud83c\uddf8', pt: '\ud83c\uddf5\ud83c\uddf9', it: '\ud83c\uddee\ud83c\uddf9',
-  nl: '\ud83c\uddf3\ud83c\uddf1', se: '\ud83c\uddf8\ud83c\uddea', dk: '\ud83c\udde9\ud83c\uddf0',
-  no: '\ud83c\uddf3\ud83c\uddf4', fi: '\ud83c\uddeb\ud83c\uddee',
+  gb: '🇬🇧', de: '🇩🇪', fr: '🇫🇷',
+  es: '🇪🇸', pt: '🇵🇹', it: '🇮🇹',
+  nl: '🇳🇱', se: '🇸🇪', dk: '🇩🇰',
+  no: '🇳🇴', fi: '🇫🇮',
 };
 
 /* ═══════════════════════════════════════════
@@ -143,7 +143,7 @@ export function WPBuyButton({ config }: { config: SalesPageConfig }) {
       </div>
     );
   }
-  const ctaText = `${config.hero.ctaPrimary} \u2014 $${config.pricing.price}`;
+  const ctaText = `${config.hero.ctaPrimary} — $${config.pricing.price}`;
   return <CTAButton text={ctaText} href={config.checkoutUrl || '#'} />;
 }
 

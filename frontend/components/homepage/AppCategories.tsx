@@ -372,7 +372,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
         {/* Section header */}
         <div ref={headerRef} className="text-center mb-12 reveal">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-100 border border-amber-200">
-            <span className="text-amber-600">{'\u2728'}</span>
+            <span className="text-amber-600">{'✨'}</span>
             <span className="text-sm font-medium text-amber-700">{content.badge}</span>
           </div>
 

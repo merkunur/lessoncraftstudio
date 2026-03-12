@@ -72,7 +72,7 @@ function AmberCTA({ config }: { config: SalesPageConfig }) {
   if (config.wpButtonImg) {
     return <WPBuyButton config={config} />;
   }
-  const text = `${config.hero.ctaPrimary} \u2014 ${config.pricing.currency}${config.pricing.price}`;
+  const text = `${config.hero.ctaPrimary} — ${config.pricing.currency}${config.pricing.price}`;
   return (
     <a
       href={config.checkoutUrl || '#'}
@@ -490,19 +490,19 @@ export default function MathPuzzleSalesClient({ config, locale }: Props) {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
               <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
-                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddec\ud83c\udde7'} English</span>
+                <span className="text-sm font-semibold text-slate-700">{'🇬🇧'} English</span>
               </div>
               <img src={MATH_PUZZLE_SAMPLES.worksheet1} alt="English math puzzle worksheet" className="w-full" loading="lazy" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
               <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
-                <span className="text-sm font-semibold text-slate-700">{'\ud83c\udde9\ud83c\uddea'} Deutsch</span>
+                <span className="text-sm font-semibold text-slate-700">{'🇩🇪'} Deutsch</span>
               </div>
               <img src={MATH_PUZZLE_SAMPLES.german} alt="German math puzzle worksheet" className="w-full" loading="lazy" />
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200">
               <div className="bg-slate-100 px-3 py-2 text-center border-b border-slate-200">
-                <span className="text-sm font-semibold text-slate-700">{'\ud83c\uddeb\ud83c\uddf7 Fran\u00e7ais'}</span>
+                <span className="text-sm font-semibold text-slate-700">{'🇫🇷 Français'}</span>
               </div>
               <img src={MATH_PUZZLE_SAMPLES.french} alt="French math puzzle worksheet" className="w-full" loading="lazy" />
             </div>

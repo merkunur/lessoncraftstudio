@@ -65,10 +65,10 @@ export function Navigation() {
               </span>
               <span className="hidden sm:block text-[10px] md:text-xs text-gray-500 tracking-wide mt-0.5">
                 {locale === 'de' ? 'Professioneller Druckvorlagen-Generator' :
-                 locale === 'fr' ? "G\u00e9n\u00e9rateur d'Imprimables Professionnels" :
+                 locale === 'fr' ? "Générateur d'Imprimables Professionnels" :
                  locale === 'es' ? 'Generador de Imprimibles Profesionales' :
                  locale === 'it' ? 'Generatore di Stampabili Professionali' :
-                 locale === 'pt' ? 'Gerador de Imprim\u00edveis Profissionais' :
+                 locale === 'pt' ? 'Gerador de Imprimíveis Profissionais' :
                  locale === 'nl' ? 'Professionele Printbare Generator' :
                  locale === 'sv' ? 'Professionell Utskriftsgenerator' :
                  locale === 'da' ? 'Professionel Printbar Generator' :
@@ -212,7 +212,7 @@ export function Navigation() {
             {/* Mobile Actions */}
             <div className="pt-4 border-t border-gray-200 space-y-3">
               <div className="flex items-center justify-between">
-                <span className="text-sm text-gray-600">{{ en:'Language:', de:'Sprache:', fr:'Langue:', es:'Idioma:', pt:'Idioma:', it:'Lingua:', nl:'Taal:', sv:'Spr\u00e5k:', da:'Sprog:', no:'Spr\u00e5k:', fi:'Kieli:' }[locale] || 'Language:'}</span>
+                <span className="text-sm text-gray-600">{{ en:'Language:', de:'Sprache:', fr:'Langue:', es:'Idioma:', pt:'Idioma:', it:'Lingua:', nl:'Taal:', sv:'Språk:', da:'Sprog:', no:'Språk:', fi:'Kieli:' }[locale] || 'Language:'}</span>
                 <LanguageSelector />
               </div>
 

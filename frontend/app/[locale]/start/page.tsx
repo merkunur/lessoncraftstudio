@@ -27,44 +27,44 @@ const startPageContent: Record<string, {
     ctaButton: 'Try Free Generators',
   },
   de: {
-    heroTitle: 'Druckvorlagen-Gesch\u00e4ftsleitf\u00e4den',
-    heroDescription: 'Alles, was Sie brauchen, um ein profitables Druckvorlagen-Gesch\u00e4ft zu starten und auszubauen. Von der Nischenwahl bis zur Umsatzsteigerung.',
-    metaTitle: 'Druckvorlagen-Gesch\u00e4ftsleitf\u00e4den | Starten & Wachsen | LessonCraftStudio',
-    metaDescription: 'Umfassende Leitf\u00e4den zum Starten und Ausbauen eines Druckvorlagen-Gesch\u00e4fts. Verkauf auf Etsy, Amazon KDP, TPT. Preisgestaltung, Marketing und Nischenstrategie.',
+    heroTitle: 'Druckvorlagen-Geschäftsleitfäden',
+    heroDescription: 'Alles, was Sie brauchen, um ein profitables Druckvorlagen-Geschäft zu starten und auszubauen. Von der Nischenwahl bis zur Umsatzsteigerung.',
+    metaTitle: 'Druckvorlagen-Geschäftsleitfäden | Starten & Wachsen | LessonCraftStudio',
+    metaDescription: 'Umfassende Leitfäden zum Starten und Ausbauen eines Druckvorlagen-Geschäfts. Verkauf auf Etsy, Amazon KDP, TPT. Preisgestaltung, Marketing und Nischenstrategie.',
     ctaTitle: 'Bereit zum Erstellen?',
     ctaDescription: 'Alle 33 Druckvorlagen-Generatoren gratis mit Wasserzeichen testen. Keine Anmeldung.',
     ctaButton: 'Generatoren gratis testen',
   },
   fr: {
-    heroTitle: "Guides pour votre entreprise d\u2019imprimables",
-    heroDescription: "Tout ce qu\u2019il faut pour lancer et d\u00e9velopper une entreprise d\u2019imprimables rentable. Du choix de niche \u00e0 la croissance des ventes.",
-    metaTitle: "Guides d\u2019entreprise d\u2019imprimables | Lancer et d\u00e9velopper | LessonCraftStudio",
-    metaDescription: "Guides complets pour lancer et d\u00e9velopper une entreprise d\u2019imprimables. Vente sur Etsy, Amazon KDP, TPT. Prix, marketing et strat\u00e9gies de niche.",
-    ctaTitle: 'Pr\u00eat \u00e0 cr\u00e9er\u00a0?',
-    ctaDescription: 'Essayez les 33 g\u00e9n\u00e9rateurs gratuits avec filigrane. Sans inscription.',
-    ctaButton: 'Essayer les g\u00e9n\u00e9rateurs',
+    heroTitle: "Guides pour votre entreprise d’imprimables",
+    heroDescription: "Tout ce qu’il faut pour lancer et développer une entreprise d’imprimables rentable. Du choix de niche à la croissance des ventes.",
+    metaTitle: "Guides d’entreprise d’imprimables | Lancer et développer | LessonCraftStudio",
+    metaDescription: "Guides complets pour lancer et développer une entreprise d’imprimables. Vente sur Etsy, Amazon KDP, TPT. Prix, marketing et stratégies de niche.",
+    ctaTitle: 'Prêt à créer ?',
+    ctaDescription: 'Essayez les 33 générateurs gratuits avec filigrane. Sans inscription.',
+    ctaButton: 'Essayer les générateurs',
   },
   es: {
-    heroTitle: 'Gu\u00edas de negocio de imprimibles',
+    heroTitle: 'Guías de negocio de imprimibles',
     heroDescription: 'Todo lo que necesitas para iniciar y hacer crecer un negocio de imprimibles rentable. Desde elegir un nicho hasta escalar tus ventas.',
-    metaTitle: 'Gu\u00edas de negocio de imprimibles | Iniciar y crecer | LessonCraftStudio',
-    metaDescription: 'Gu\u00edas completas para iniciar y hacer crecer un negocio de imprimibles. Venta en Etsy, Amazon KDP, TPT. Precios, marketing y estrategias de nicho.',
-    ctaTitle: '\u00bfListo para crear?',
+    metaTitle: 'Guías de negocio de imprimibles | Iniciar y crecer | LessonCraftStudio',
+    metaDescription: 'Guías completas para iniciar y hacer crecer un negocio de imprimibles. Venta en Etsy, Amazon KDP, TPT. Precios, marketing y estrategias de nicho.',
+    ctaTitle: '¿Listo para crear?',
     ctaDescription: 'Prueba los 33 generadores gratis con marca de agua. Sin registro.',
     ctaButton: 'Probar generadores gratis',
   },
   pt: {
-    heroTitle: 'Guias de neg\u00f3cio de imprim\u00edveis',
-    heroDescription: 'Tudo o que precisa para iniciar e fazer crescer um neg\u00f3cio de imprim\u00edveis rent\u00e1vel. Da escolha de nicho ao crescimento das vendas.',
-    metaTitle: 'Guias de neg\u00f3cio de imprim\u00edveis | Iniciar e crescer | LessonCraftStudio',
-    metaDescription: 'Guias completos para iniciar e fazer crescer um neg\u00f3cio de imprim\u00edveis. Venda no Etsy, Amazon KDP, TPT. Pre\u00e7os, marketing e estrat\u00e9gias de nicho.',
+    heroTitle: 'Guias de negócio de imprimíveis',
+    heroDescription: 'Tudo o que precisa para iniciar e fazer crescer um negócio de imprimíveis rentável. Da escolha de nicho ao crescimento das vendas.',
+    metaTitle: 'Guias de negócio de imprimíveis | Iniciar e crescer | LessonCraftStudio',
+    metaDescription: 'Guias completos para iniciar e fazer crescer um negócio de imprimíveis. Venda no Etsy, Amazon KDP, TPT. Preços, marketing e estratégias de nicho.',
     ctaTitle: 'Pronto para criar?',
-    ctaDescription: "Experimente os 33 geradores gr\u00e1tis com marca d\u2019\u00e1gua. Sem registo.",
-    ctaButton: 'Experimentar geradores gr\u00e1tis',
+    ctaDescription: "Experimente os 33 geradores grátis com marca d’água. Sem registo.",
+    ctaButton: 'Experimentar geradores grátis',
   },
   it: {
     heroTitle: 'Guide per il business di stampabili',
-    heroDescription: 'Tutto ci\u00f2 che serve per avviare e far crescere un business di stampabili redditizio. Dalla scelta della nicchia alla crescita delle vendite.',
+    heroDescription: 'Tutto ciò che serve per avviare e far crescere un business di stampabili redditizio. Dalla scelta della nicchia alla crescita delle vendite.',
     metaTitle: 'Guide per il business di stampabili | Avviare e crescere | LessonCraftStudio',
     metaDescription: 'Guide complete per avviare e far crescere un business di stampabili. Vendita su Etsy, Amazon KDP, TPT. Prezzi, marketing e strategie di nicchia.',
     ctaTitle: 'Pronto a creare?',
@@ -81,39 +81,39 @@ const startPageContent: Record<string, {
     ctaButton: 'Generatoren gratis proberen',
   },
   sv: {
-    heroTitle: 'Guider f\u00f6r utskriftsf\u00f6retag',
-    heroDescription: 'Allt du beh\u00f6ver f\u00f6r att starta och v\u00e4xa ett l\u00f6nsamt utskriftsf\u00f6retag. Fr\u00e5n nischval till f\u00f6rs\u00e4ljningstillv\u00e4xt.',
-    metaTitle: 'Guider f\u00f6r utskriftsf\u00f6retag | Starta och v\u00e4x | LessonCraftStudio',
-    metaDescription: 'Kompletta guider f\u00f6r att starta och v\u00e4xa ett utskriftsf\u00f6retag. F\u00f6rs\u00e4ljning p\u00e5 Etsy, Amazon KDP, TPT. Priser, marknadsf\u00f6ring och nischstrategier.',
+    heroTitle: 'Guider för utskriftsföretag',
+    heroDescription: 'Allt du behöver för att starta och växa ett lönsamt utskriftsföretag. Från nischval till försäljningstillväxt.',
+    metaTitle: 'Guider för utskriftsföretag | Starta och väx | LessonCraftStudio',
+    metaDescription: 'Kompletta guider för att starta och växa ett utskriftsföretag. Försäljning på Etsy, Amazon KDP, TPT. Priser, marknadsföring och nischstrategier.',
     ctaTitle: 'Redo att skapa?',
-    ctaDescription: 'Prova alla 33 generatorer gratis med vattenst\u00e4mpel. Ingen registrering.',
+    ctaDescription: 'Prova alla 33 generatorer gratis med vattenstämpel. Ingen registrering.',
     ctaButton: 'Prova generatorerna gratis',
   },
   da: {
     heroTitle: 'Guider til printable-forretning',
-    heroDescription: 'Alt du beh\u00f8ver for at starte og v\u00e6kste en profitabel printable-forretning. Fra nichevalg til salgsv\u00e6kst.',
-    metaTitle: 'Guider til printable-forretning | Start og v\u00e6kst | LessonCraftStudio',
-    metaDescription: 'Omfattende guider til at starte og v\u00e6kste en printable-forretning. Salg p\u00e5 Etsy, Amazon KDP, TPT. Priser, marketing og nichestrategier.',
+    heroDescription: 'Alt du behøver for at starte og vækste en profitabel printable-forretning. Fra nichevalg til salgsvækst.',
+    metaTitle: 'Guider til printable-forretning | Start og vækst | LessonCraftStudio',
+    metaDescription: 'Omfattende guider til at starte og vækste en printable-forretning. Salg på Etsy, Amazon KDP, TPT. Priser, marketing og nichestrategier.',
     ctaTitle: 'Klar til at skabe?',
-    ctaDescription: 'Pr\u00f8v alle 33 generatorer gratis med vandm\u00e6rke. Ingen tilmelding.',
-    ctaButton: 'Pr\u00f8v generatorerne gratis',
+    ctaDescription: 'Prøv alle 33 generatorer gratis med vandmærke. Ingen tilmelding.',
+    ctaButton: 'Prøv generatorerne gratis',
   },
   no: {
     heroTitle: 'Guider for utskriftsvirksomhet',
-    heroDescription: 'Alt du trenger for \u00e5 starte og vokse en l\u00f8nnsom utskriftsvirksomhet. Fra nisjevalg til salgsvekst.',
+    heroDescription: 'Alt du trenger for å starte og vokse en lønnsom utskriftsvirksomhet. Fra nisjevalg til salgsvekst.',
     metaTitle: 'Guider for utskriftsvirksomhet | Start og voks | LessonCraftStudio',
-    metaDescription: 'Omfattende guider for \u00e5 starte og vokse en utskriftsvirksomhet. Salg p\u00e5 Etsy, Amazon KDP, TPT. Priser, markedsf\u00f8ring og nisjestrategier.',
-    ctaTitle: 'Klar til \u00e5 lage?',
-    ctaDescription: 'Pr\u00f8v alle 33 generatorer gratis med vannmerke. Ingen registrering.',
-    ctaButton: 'Pr\u00f8v generatorene gratis',
+    metaDescription: 'Omfattende guider for å starte og vokse en utskriftsvirksomhet. Salg på Etsy, Amazon KDP, TPT. Priser, markedsføring og nisjestrategier.',
+    ctaTitle: 'Klar til å lage?',
+    ctaDescription: 'Prøv alle 33 generatorer gratis med vannmerke. Ingen registrering.',
+    ctaButton: 'Prøv generatorene gratis',
   },
   fi: {
     heroTitle: 'Tulostettavien yritysoppaat',
-    heroDescription: 'Kaikki mit\u00e4 tarvitset kannattavan tulostettavien yrityksen perustamiseen ja kasvattamiseen. Nichevalinnasta myynnin kasvattamiseen.',
+    heroDescription: 'Kaikki mitä tarvitset kannattavan tulostettavien yrityksen perustamiseen ja kasvattamiseen. Nichevalinnasta myynnin kasvattamiseen.',
     metaTitle: 'Tulostettavien yritysoppaat | Perusta ja kasvata | LessonCraftStudio',
-    metaDescription: 'Kattavat oppaat tulostettavien yrityksen perustamiseen ja kasvattamiseen. Myynti Etsyss\u00e4, Amazon KDP:ss\u00e4, TPT:ss\u00e4. Hinnoittelu, markkinointi ja nichestrategiat.',
+    metaDescription: 'Kattavat oppaat tulostettavien yrityksen perustamiseen ja kasvattamiseen. Myynti Etsyssä, Amazon KDP:ssä, TPT:ssä. Hinnoittelu, markkinointi ja nichestrategiat.',
     ctaTitle: 'Valmis luomaan?',
-    ctaDescription: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Ei rekister\u00f6itymist\u00e4.',
+    ctaDescription: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Ei rekisteröitymistä.',
     ctaButton: 'Kokeile generaattoreita ilmaiseksi',
   },
 };
@@ -131,7 +131,7 @@ const guideInfoFallback: Record<string, { title: string; description: string }> 
   'tools-for-printable-business': { title: 'Tools for Printable Business', description: 'The essential tools and resources you need to run a printable business.' },
   'marketing-printable-business': { title: 'Marketing Your Printable Business', description: 'Marketing strategies to grow your printable product sales.' },
   'scaling-printable-business': { title: 'Scaling Your Printable Business', description: 'How to scale from side hustle to full-time printable business.' },
-  'printable-business-legal': { title: 'Printable Business Legal Guide', description: 'Legal essentials for running a printable business \u2014 licenses, taxes, and compliance.' },
+  'printable-business-legal': { title: 'Printable Business Legal Guide', description: 'Legal essentials for running a printable business — licenses, taxes, and compliance.' },
 };
 
 export const revalidate = 3600;
@@ -233,17 +233,17 @@ export default async function StartListingPage({
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h2 className="text-lg font-semibold text-gray-700 mb-4">
-            {{ en: 'Explore More', de: 'Mehr entdecken', fr: 'Explorer plus', es: 'Explorar m\u00e1s', pt: 'Explorar mais', it: 'Esplora di pi\u00f9', nl: 'Ontdek meer', sv: 'Utforska mer', da: 'Udforsk mere', no: 'Utforsk mer', fi: 'Tutustu lis\u00e4\u00e4' }[locale] || 'Explore More'}
+            {{ en: 'Explore More', de: 'Mehr entdecken', fr: 'Explorer plus', es: 'Explorar más', pt: 'Explorar mais', it: 'Esplora di più', nl: 'Ontdek meer', sv: 'Utforska mer', da: 'Udforsk mere', no: 'Utforsk mer', fi: 'Tutustu lisää' }[locale] || 'Explore More'}
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
             <Link href={`/${locale}/tools`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {{ en: 'Free Tools', de: 'Kostenlose Tools', fr: 'Outils gratuits', es: 'Herramientas gratis', pt: 'Ferramentas gr\u00e1tis', it: 'Strumenti gratuiti', nl: 'Gratis tools', sv: 'Gratisverktyg', da: 'Gratis v\u00e6rkt\u00f8jer', no: 'Gratisverkt\u00f8y', fi: 'Ilmaiset ty\u00f6kalut' }[locale] || 'Free Tools'}
+              {{ en: 'Free Tools', de: 'Kostenlose Tools', fr: 'Outils gratuits', es: 'Herramientas gratis', pt: 'Ferramentas grátis', it: 'Strumenti gratuiti', nl: 'Gratis tools', sv: 'Gratisverktyg', da: 'Gratis værktøjer', no: 'Gratisverktøy', fi: 'Ilmaiset työkalut' }[locale] || 'Free Tools'}
             </Link>
             <Link href={`/${locale}/ideas`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {{ en: 'Niche Ideas', de: 'Nischen-Ideen', fr: 'Id\u00e9es de niches', es: 'Ideas de nichos', pt: 'Ideias de nichos', it: 'Idee di nicchia', nl: 'Niche-idee\u00ebn', sv: 'Nischid\u00e9er', da: 'Nicheideer', no: 'Nisjeideer', fi: 'Niche-ideat' }[locale] || 'Niche Ideas'}
+              {{ en: 'Niche Ideas', de: 'Nischen-Ideen', fr: 'Idées de niches', es: 'Ideas de nichos', pt: 'Ideias de nichos', it: 'Idee di nicchia', nl: 'Niche-ideeën', sv: 'Nischidéer', da: 'Nicheideer', no: 'Nisjeideer', fi: 'Niche-ideat' }[locale] || 'Niche Ideas'}
             </Link>
             <Link href={`/${locale}/guides`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {{ en: 'How-To Guides', de: 'Anleitungen', fr: 'Guides pratiques', es: 'Gu\u00edas', pt: 'Guias', it: 'Guide', nl: 'Handleidingen', sv: 'Guider', da: 'Vejledninger', no: 'Veiledninger', fi: 'Oppaat' }[locale] || 'How-To Guides'}
+              {{ en: 'How-To Guides', de: 'Anleitungen', fr: 'Guides pratiques', es: 'Guías', pt: 'Guias', it: 'Guide', nl: 'Handleidingen', sv: 'Guider', da: 'Vejledninger', no: 'Veiledninger', fi: 'Oppaat' }[locale] || 'How-To Guides'}
             </Link>
           </div>
         </div>

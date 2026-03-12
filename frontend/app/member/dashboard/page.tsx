@@ -536,7 +536,7 @@ export default function MemberDashboard() {
       <footer className="border-t border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-gray-400">
-            {'\u00A9'} {new Date().getFullYear()} LessonCraftStudio
+            {'©'} {new Date().getFullYear()} LessonCraftStudio
           </p>
           <a
             href="mailto:support@lessoncraftstudio.com"

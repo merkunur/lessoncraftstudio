@@ -201,25 +201,25 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         fr: 'Exemple de fiche d\'addition',
         es: 'Ejemplo de ficha de sumas',
         it: 'Esempio di scheda di addizioni',
-        pt: 'Exemplo de atividade de adi\u00e7\u00e3o',
+        pt: 'Exemplo de atividade de adição',
         nl: 'Voorbeeld optelwerkblad',
-        da: 'Eksempel p\u00e5 additionsopgave',
-        sv: 'Exempel p\u00e5 additions\u00f6vningsblad',
-        no: 'Eksempel p\u00e5 addisjonsoppgave',
-        fi: 'Esimerkki yhteenlaskuteht\u00e4v\u00e4st\u00e4',
+        da: 'Eksempel på additionsopgave',
+        sv: 'Exempel på additionsövningsblad',
+        no: 'Eksempel på addisjonsoppgave',
+        fi: 'Esimerkki yhteenlaskutehtävästä',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
         de: 'Wortsuche-Arbeitsblatt Beispiel',
-        fr: 'Exemple de mots m\u00eal\u00e9s',
+        fr: 'Exemple de mots mêlés',
         es: 'Ejemplo de sopa de letras',
         it: 'Esempio di cerca parole',
-        pt: 'Exemplo de ca\u00e7a-palavras',
+        pt: 'Exemplo de caça-palavras',
         nl: 'Voorbeeld woordzoeker',
-        da: 'Eksempel p\u00e5 find ord-opgave',
-        sv: 'Exempel p\u00e5 ords\u00f6ks\u00f6vningsblad',
-        no: 'Eksempel p\u00e5 finn ord-oppgave',
-        fi: 'Esimerkki sananetsint\u00e4teht\u00e4v\u00e4st\u00e4',
+        da: 'Eksempel på find ord-opgave',
+        sv: 'Exempel på ordsöksövningsblad',
+        no: 'Eksempel på finn ord-oppgave',
+        fi: 'Esimerkki sananetsintätehtävästä',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;
@@ -271,7 +271,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         }}
       />
 
-      {/* Animated mesh gradient orbs \u2014 CSS animations, paused via class when video plays */}
+      {/* Animated mesh gradient orbs — CSS animations, paused via class when video plays */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Primary cyan orb */}
         <div
@@ -304,7 +304,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
         />
       </div>
 
-      {/* Floating geometric shapes \u2014 hidden on mobile to reduce paint cost */}
+      {/* Floating geometric shapes — hidden on mobile to reduce paint cost */}
       <div className="absolute inset-0 pointer-events-none hidden md:block">
         {/* Floating diamond */}
         <div
@@ -351,7 +351,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
       >
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left column - Text content \u2014 CSS animations instead of Framer Motion */}
+            {/* Left column - Text content — CSS animations instead of Framer Motion */}
             <div className="text-center lg:text-left">
               {/* Badge */}
               <div
@@ -369,7 +369,7 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
                 </span>
               </div>
 
-              {/* Title \u2014 NO animation, must be visible instantly (LCP element) */}
+              {/* Title — NO animation, must be visible instantly (LCP element) */}
               <h1
                 className="speakable-headline text-[clamp(2.25rem,8vw,3rem)] lg:text-[clamp(2rem,3vw,2.5rem)] font-black leading-[1.1] tracking-tight mb-6 break-words"
                 style={{
@@ -430,9 +430,9 @@ export default function HomepageHero({ locale, heroImages }: HomepageHeroProps) 
               {/* Trust badges */}
               <div className="flex flex-wrap gap-6 justify-center lg:justify-start hero-fade-in hero-stagger-4">
                 {[
-                  { icon: '\ud83c\udf0d', label: content.trustLanguages },
-                  { icon: '\ud83c\udfa8', label: content.trustImages },
-                  { icon: '\ud83d\udcbc', label: content.trustLicense },
+                  { icon: '🌍', label: content.trustLanguages },
+                  { icon: '🎨', label: content.trustImages },
+                  { icon: '💼', label: content.trustLicense },
                 ].map((badge, index) => (
                   <div
                     key={index}

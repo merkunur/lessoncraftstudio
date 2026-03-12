@@ -71,7 +71,7 @@ function AmberCTA({ config }: { config: SalesPageConfig }) {
   if (config.wpButtonImg) {
     return <WPBuyButton config={config} />;
   }
-  const text = `${config.hero.ctaPrimary} \u2014 ${config.pricing.currency}${config.pricing.price}`;
+  const text = `${config.hero.ctaPrimary} — ${config.pricing.currency}${config.pricing.price}`;
   return (
     <a
       href={config.checkoutUrl || '#'}
@@ -484,7 +484,7 @@ export default function CodeAdditionSalesClient({ config, locale }: Props) {
           <h2 className="ca-serif text-3xl md:text-4xl text-slate-900 mb-4">11 Languages Built In</h2>
           <p className="text-slate-500 mb-12 max-w-2xl mx-auto">Every worksheet element — instructions, labels, number words — automatically translates. Sell to customers worldwide.</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['English', 'Deutsch', 'Fran\u00e7ais', 'Espa\u00f1ol', 'Portugu\u00eas', 'Italiano', 'Nederlands', 'Svenska', 'Dansk', 'Norsk', 'Suomi'].map((lang) => (
+            {['English', 'Deutsch', 'Français', 'Español', 'Português', 'Italiano', 'Nederlands', 'Svenska', 'Dansk', 'Norsk', 'Suomi'].map((lang) => (
               <span key={lang} className="px-5 py-2.5 bg-teal-50 text-teal-700 rounded-full text-sm font-medium border border-teal-100">{lang}</span>
             ))}
           </div>

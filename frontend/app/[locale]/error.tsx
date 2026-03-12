@@ -5,16 +5,16 @@ import { useParams } from 'next/navigation';
 
 const messages: Record<string, { heading: string; body: string; retry: string; home: string }> = {
   en: { heading: 'Something went wrong', body: 'We apologize for the inconvenience. Please try again in a moment.', retry: 'Try again', home: 'Go to homepage' },
-  de: { heading: 'Etwas ist schiefgelaufen', body: 'Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten. Bitte versuchen Sie es in einem Moment erneut.', retry: 'Erneut versuchen', home: 'Zur Startseite' },
-  fr: { heading: 'Une erreur est survenue', body: 'Nous nous excusons pour le d\u00e9sagr\u00e9ment. Veuillez r\u00e9essayer dans un instant.', retry: 'R\u00e9essayer', home: 'Aller \u00e0 l\u2019accueil' },
-  es: { heading: 'Algo sali\u00f3 mal', body: 'Nos disculpamos por las molestias. Por favor, int\u00e9ntelo de nuevo en un momento.', retry: 'Intentar de nuevo', home: 'Ir al inicio' },
-  pt: { heading: 'Algo deu errado', body: 'Pedimos desculpas pelo inconveniente. Por favor, tente novamente em um momento.', retry: 'Tentar novamente', home: 'Ir para o in\u00edcio' },
-  it: { heading: 'Qualcosa \u00e8 andato storto', body: 'Ci scusiamo per l\u2019inconveniente. Riprova tra un momento.', retry: 'Riprova', home: 'Vai alla home' },
+  de: { heading: 'Etwas ist schiefgelaufen', body: 'Wir entschuldigen uns für die Unannehmlichkeiten. Bitte versuchen Sie es in einem Moment erneut.', retry: 'Erneut versuchen', home: 'Zur Startseite' },
+  fr: { heading: 'Une erreur est survenue', body: 'Nous nous excusons pour le désagrément. Veuillez réessayer dans un instant.', retry: 'Réessayer', home: 'Aller à l’accueil' },
+  es: { heading: 'Algo salió mal', body: 'Nos disculpamos por las molestias. Por favor, inténtelo de nuevo en un momento.', retry: 'Intentar de nuevo', home: 'Ir al inicio' },
+  pt: { heading: 'Algo deu errado', body: 'Pedimos desculpas pelo inconveniente. Por favor, tente novamente em um momento.', retry: 'Tentar novamente', home: 'Ir para o início' },
+  it: { heading: 'Qualcosa è andato storto', body: 'Ci scusiamo per l’inconveniente. Riprova tra un momento.', retry: 'Riprova', home: 'Vai alla home' },
   nl: { heading: 'Er is iets misgegaan', body: 'Onze excuses voor het ongemak. Probeer het over een moment opnieuw.', retry: 'Opnieuw proberen', home: 'Naar startpagina' },
-  sv: { heading: 'N\u00e5got gick fel', body: 'Vi ber om urs\u00e4kt f\u00f6r besv\u00e4ret. F\u00f6rs\u00f6k igen om en stund.', retry: 'F\u00f6rs\u00f6k igen', home: 'Till startsidan' },
-  da: { heading: 'Noget gik galt', body: 'Vi beklager ulejligheden. Pr\u00f8v venligst igen om et \u00f8jeblik.', retry: 'Pr\u00f8v igen', home: 'G\u00e5 til forsiden' },
-  no: { heading: 'Noe gikk galt', body: 'Vi beklager ulempen. Vennligst pr\u00f8v igjen om et \u00f8yeblikk.', retry: 'Pr\u00f8v igjen', home: 'G\u00e5 til forsiden' },
-  fi: { heading: 'Jokin meni pieleen', body: 'Pahoittelemme haittaa. Yrit\u00e4 uudelleen hetken kuluttua.', retry: 'Yrit\u00e4 uudelleen', home: 'Etusivulle' },
+  sv: { heading: 'Något gick fel', body: 'Vi ber om ursäkt för besväret. Försök igen om en stund.', retry: 'Försök igen', home: 'Till startsidan' },
+  da: { heading: 'Noget gik galt', body: 'Vi beklager ulejligheden. Prøv venligst igen om et øjeblik.', retry: 'Prøv igen', home: 'Gå til forsiden' },
+  no: { heading: 'Noe gikk galt', body: 'Vi beklager ulempen. Vennligst prøv igjen om et øyeblikk.', retry: 'Prøv igjen', home: 'Gå til forsiden' },
+  fi: { heading: 'Jokin meni pieleen', body: 'Pahoittelemme haittaa. Yritä uudelleen hetken kuluttua.', retry: 'Yritä uudelleen', home: 'Etusivulle' },
 };
 
 export default function LocaleError({

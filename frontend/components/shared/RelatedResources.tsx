@@ -25,7 +25,7 @@ const BADGE_STYLES: Partial<Record<PageType, { bg: string; text: string; label: 
 const SECTION_HEADING: Record<string, string> = {
   en: 'Related Resources',
   de: 'Verwandte Ressourcen',
-  fr: 'Ressources associ\u00e9es',
+  fr: 'Ressources associées',
   es: 'Recursos relacionados',
   pt: 'Recursos relacionados',
   it: 'Risorse correlate',
@@ -33,7 +33,7 @@ const SECTION_HEADING: Record<string, string> = {
   sv: 'Relaterade resurser',
   da: 'Relaterede ressourcer',
   no: 'Relaterte ressurser',
-  fi: 'Aiheeseen liittyv\u00e4t resurssit',
+  fi: 'Aiheeseen liittyvät resurssit',
 };
 
 // ── Component ───────────────────────────────────────────────────────────────

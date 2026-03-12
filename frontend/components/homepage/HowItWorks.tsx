@@ -266,7 +266,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
         {/* Section header */}
         <div ref={headerRef} className="text-center mb-16 reveal">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-stone-100 border border-stone-200">
-            <span className="text-stone-600">{'\ud83d\ude80'}</span>
+            <span className="text-stone-600">{'🚀'}</span>
             <span className="text-sm font-medium text-stone-700">{content.badge}</span>
           </div>
 

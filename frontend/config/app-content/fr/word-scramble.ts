@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/word scramble/Mots Mélangés 1.webp',
+      primary: '/samples/french/word scramble/Mots M%EAl%E9s 1.webp',
       primaryAlt: 'Fiche mots mélangés avec indices images et tuiles de lettres mélangées montrant des puzzles d\'orthographe par réarrangement',
     },
     sampleGallery: [
       {
-        src: '/samples/french/word scramble/Mots Mélangés 1.webp',
+        src: '/samples/french/word scramble/Mots M%EAl%E9s 1.webp',
         alt: 'Fiche mots mélangés en difficulté Facile montrant la moitié des lettres pré-placées avec thème animaux',
         caption: 'Difficulté Facile — la moitié des lettres pré-placées comme indices pour les orthographeurs débutants',
       },
       {
-        src: '/samples/french/word scramble/Mots Mélangés 2.webp',
+        src: '/samples/french/word scramble/Mots M%EAl%E9s 2.webp',
         alt: 'Fiche mots mélangés avec code couleur voyelles-consonnes montrant des tuiles de lettres colorées',
         caption: 'Mode Code Couleur — voyelles et consonnes dans des couleurs différentes pour la conscience phonique',
       },
       {
-        src: '/samples/french/word scramble/Mots Mélangés 3.webp',
+        src: '/samples/french/word scramble/Mots M%EAl%E9s 3.webp',
         alt: 'Corrigé mots mélangés avec toutes les lettres correctement reconstituées',
         caption: 'Corrigé — mots correctement reconstitués pour une correction et auto-vérification faciles',
       },

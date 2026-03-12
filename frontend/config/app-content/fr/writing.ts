@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/writing/Écriture 1.webp',
+      primary: '/samples/french/writing/writing beginning letter.webp',
       primaryAlt: 'Fiche de pratique d\'écriture manuscrite avec modes tracé, tracé progressif et copie guidée montrant l\'ordre des traits guidé par des flèches',
     },
     sampleGallery: [
       {
-        src: '/samples/french/writing/Écriture 1.webp',
+        src: '/samples/french/writing/writing beginning letter.webp',
         alt: 'Fiche d\'écriture en mode tracé avec police imprimé fléché montrant les directions numérotées de l\'ordre des traits',
         caption: 'Mode Tracé avec ordre des traits fléché — flèches directionnelles numérotées montrant la séquence exacte de formation des lettres',
       },
       {
-        src: '/samples/french/writing/Écriture 2.webp',
+        src: '/samples/french/writing/writing custom.webp',
         alt: 'Fiche d\'écriture en mode tracé progressif avec lettres s\'estompant progressivement à travers chaque ligne',
         caption: 'Mode Tracé Progressif — les lettres s\'estompent progressivement pour renforcer la confiance en écriture autonome',
       },
       {
-        src: '/samples/french/writing/Écriture 3.webp',
+        src: '/samples/french/writing/writing.webp',
         alt: 'Fiche d\'écriture en mode copie guidée avec police cursive sur système de guidage à trois lignes',
         caption: 'Copie Guidée Cursive — contours légers en cursive sur le système de guidage à trois lignes pour la pratique de l\'écriture liée',
       },

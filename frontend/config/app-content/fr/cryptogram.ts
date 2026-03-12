@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/cryptogram/Cryptogramme 1.webp',
+      primary: '/samples/french/cryptogram/Cryptogramme en Images 1.webp',
       primaryAlt: 'Fiche cryptogramme avec chiffre par images montrant des images associées aux lettres de l\'alphabet encodant une phrase secrète',
     },
     sampleGallery: [
       {
-        src: '/samples/french/cryptogram/Cryptogramme 1.webp',
+        src: '/samples/french/cryptogram/Cryptogramme en Images 1.webp',
         alt: 'Fiche cryptogramme avec images thématiques remplaçant les lettres dans une phrase encodée',
         caption: 'Puzzle chiffre par images — décodez le message secret en identifiant quelle image représente quelle lettre',
       },
       {
-        src: '/samples/french/cryptogram/Cryptogramme 2.webp',
+        src: '/samples/french/cryptogram/Cryptogramme en Images 2.webp',
         alt: 'Fiche cryptogramme avec thème animaux et indices Lettres à Révéler affichés',
         caption: 'Thème animaux avec Lettres à Révéler — les correspondances pré-résolues guident les débutants',
       },
       {
-        src: '/samples/french/cryptogram/Cryptogramme 3.webp',
+        src: '/samples/french/cryptogram/Cryptogramme en Images 3.webp',
         alt: 'Corrigé du cryptogramme avec légende des lettres complète montrant toutes les correspondances alphabet-image',
         caption: 'Corrigé avec légende des lettres — chaque lettre de l\'alphabet associée à son image par ordre alphabétique',
       },

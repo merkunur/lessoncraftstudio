@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/prepositions/Prépositions 1.webp',
+      primary: '/samples/french/prepositions/Pr%E9positions 1.webp',
       primaryAlt: 'Fiche de prépositions avec des images colorées montrant les relations spatiales entre objets et formes géométriques',
     },
     sampleGallery: [
       {
-        src: '/samples/french/prepositions/Prépositions 1.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 1.webp',
         alt: 'Fiche texte à trous de prépositions avec thème animaux et formes géométriques',
         caption: 'Mode Texte à Trous — les élèves complètent les phrases avec la préposition correcte',
       },
       {
-        src: '/samples/french/prepositions/Prépositions 2.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 2.webp',
         alt: 'Fiche choix multiple de prépositions avec thème véhicules montrant des descriptions spatiales',
         caption: 'Mode Choix Multiple — les élèves identifient l\'image correspondant à la description spatiale',
       },
       {
-        src: '/samples/french/prepositions/Prépositions 3.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 3.webp',
         alt: 'Fiche de prépositions complète avec les huit prépositions spatiales et corrigé',
         caption: 'Fiche complète à 8 exercices — révision approfondie de toutes les prépositions spatiales',
       },

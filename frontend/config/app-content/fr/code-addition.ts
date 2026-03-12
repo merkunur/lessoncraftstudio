@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/code addition/Addition Codée 1.webp',
+      primary: '/samples/french/code addition/Code Secret Addition 1.webp',
       primaryAlt: 'Fiche d\'addition codée avec des images d\'animaux cachant des nombres secrets dans un puzzle de décodage',
     },
     sampleGallery: [
       {
-        src: '/samples/french/code addition/Addition Codée 1.webp',
+        src: '/samples/french/code addition/Code Secret Addition 1.webp',
         alt: 'Fiche d\'addition codée en Mode Classique avec des images thématiques d\'animaux comme symboles-codes',
         caption: 'Mode Classique — les élèves déchiffrent le code en déduisant quel nombre chaque image représente',
       },
       {
-        src: '/samples/french/code addition/Addition Codée 2.webp',
+        src: '/samples/french/code addition/Code Secret Addition 2.webp',
         alt: 'Fiche d\'addition codée avec un thème visuel différent montrant des équations cryptarithmétiques',
         caption: 'Défi multi-symboles — plus d\'images augmentent la complexité de la déduction',
       },
       {
-        src: '/samples/french/code addition/Addition Codée 3.webp',
+        src: '/samples/french/code addition/Code Secret Addition 3.webp',
         alt: 'Puzzle d\'addition codée avec des images thématiques colorées et des équations',
         caption: 'Puzzles thématiques — 104 thèmes visuels rendent chaque fiche unique et captivante',
       },

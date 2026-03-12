@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/coloring/Coloriage 1.webp',
+      primary: '/samples/french/coloring/coloring portrait 1.webp',
       primaryAlt: 'Page de coloriage personnalisée avec images thématiques arrangées sur canevas libre avec bordure décorative et champ nom pour la classe',
     },
     sampleGallery: [
       {
-        src: '/samples/french/coloring/Coloriage 1.webp',
+        src: '/samples/french/coloring/coloring portrait 1.webp',
         alt: 'Page de coloriage thème animaux avec illustrations colorées arrangées librement sur le canevas',
         caption: 'Page de coloriage thème animaux — illustrations colorées arrangées librement sur le canevas',
       },
       {
-        src: '/samples/french/coloring/Coloriage 2.webp',
+        src: '/samples/french/coloring/coloring portrait 2.webp',
         alt: 'Page de coloriage avec lignes d\'écriture et champ nom d\'élève pour utilisation en classe',
         caption: 'Page de coloriage prête pour la classe — champ nom et lignes de pratique d\'écriture inclus',
       },
       {
-        src: '/samples/french/coloring/Coloriage 3.webp',
+        src: '/samples/french/coloring/coloring portrait 3.webp',
         alt: 'Page de coloriage en niveaux de gris avec bordure décorative prête pour impression économique en encre',
         caption: 'Export en niveaux de gris — page de coloriage économique en encre avec thème de bordure décorative',
       },

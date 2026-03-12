@@ -252,22 +252,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/drawing lines/Graphisme 1.webp',
+      primary: '/samples/french/drawing lines/Pratique de Tracer des Lignes 1.webp',
       primaryAlt: 'Fiche de graphisme avec modèle de courbe reliant des paires d\'images assorties d\'animaux en format paysage',
     },
     sampleGallery: [
       {
-        src: '/samples/french/drawing lines/Graphisme 1.webp',
+        src: '/samples/french/drawing lines/Pratique de Tracer des Lignes 1.webp',
         alt: 'Fiche de tracé de lignes avec modèle de courbe reliant des paires d\'images assorties d\'animaux en orientation paysage',
         caption: 'Modèle de courbe — les élèves tracent des lignes courbes fluides pour relier les paires d\'images assorties',
       },
       {
-        src: '/samples/french/drawing lines/Graphisme 2.webp',
+        src: '/samples/french/drawing lines/Pratique de Tracer des Lignes 2.webp',
         alt: 'Fiche de tracé de lignes avec modèle de diagonale reliant cinq paires d\'images en orientation portrait',
         caption: 'Modèle de diagonale — lignes en angle avec 5 paires d\'images pour la pratique de la coordination croisée',
       },
       {
-        src: '/samples/french/drawing lines/Graphisme 3.webp',
+        src: '/samples/french/drawing lines/Pratique de Tracer des Lignes 3.webp',
         alt: 'Fiche de tracé de lignes avec modèle horizontal reliant des paires d\'images thème nature en format portrait',
         caption: 'Modèle horizontal — lignes droites de gauche à droite avec des images thème nature',
       },

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/odd one out/Find the Odd One Out.webp',
+      primary: '/samples/french/odd one out/Trouve l\'Intrus 1.webp',
       primaryAlt: 'Fiche intrus avec quatre images par rangée d\'exercice, illustrations thématiques colorées et en-tête localisé Trouve l\'Intrus',
     },
     sampleGallery: [
       {
-        src: '/samples/english/odd one out/Find the Odd One Out (1).webp',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 1.webp',
         alt: 'Fiche intrus en mode Similaire avec trois animaux et un aliment par rangée',
         caption: 'Mode Similaire — trois images du Thème A et un élément intrus du Thème B',
       },
       {
-        src: '/samples/english/odd one out/Find the Odd One Out (5).webp',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 2.webp',
         alt: 'Fiche intrus en mode Identique avec trois images identiques et une image différente par rangée',
         caption: 'Mode Identique — trois clones de la même image et une image différente',
       },
       {
-        src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 1 answer-key.webp',
         alt: 'Corrigé intrus avec des cercles rouges dessinés autour de l\'élément intrus dans chaque rangée d\'exercice',
         caption: 'Corrigé auto-généré — les cercles rouges marquent l\'élément intrus dans chaque rangée',
       },

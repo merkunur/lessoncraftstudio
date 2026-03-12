@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/shadow match/Trouve l\'Ombre 1.jpeg',
+      primary: '/samples/french/shadow match/Trouve l\'Ombre 1.webp',
       primaryAlt: 'Fiche de discrimination visuelle avec images en couleur dans la rangée du haut et silhouettes noires auto-générées dans la rangée du bas avec en-tête ambre',
     },
     sampleGallery: [
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 1.jpeg',
+        src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp',
         alt: 'Fiche Trouve l\'Ombre montrant quatre images en couleur associées à quatre silhouettes noires avec étiquettes lettres et numéros',
         caption: 'Mode Trouve l\'Ombre — les élèves associent les images à leurs silhouettes auto-générées',
       },
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 2.jpeg',
+        src: '/samples/french/shadow match/Trouve l\'Ombre 2.webp',
         alt: 'Fiche Reconstitue l\'Image avec des moitiés d\'images séparées que les élèves reconnectent en associant premières et secondes moitiés',
         caption: 'Mode Reconstitue l\'Image — les élèves associent les moitiés d\'images pour compléter les illustrations',
       },
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 1 answer-key.jpeg',
+        src: '/samples/french/shadow match/Trouve l\'Ombre 1 answer-key.webp',
         alt: 'Corrigé de discrimination visuelle montrant les images originales avec silhouettes et étiquettes de correspondance lettre-numéro correctes',
         caption: 'Corrigé auto-généré — les étiquettes lettre-numéro indiquent les correspondances correctes',
       },

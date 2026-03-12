@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/coloring/Coloriage 1.webp',
+      primary: '/samples/french/coloring/coloring portrait 1.webp',
       primaryAlt: 'Page de coloriage personnalisée créée sur canevas libre avec illustrations thématiques colorées arrangées dans une composition originale avec bordure décorative',
     },
     sampleGallery: [
       {
-        src: '/samples/french/coloring/Coloriage 1.webp',
+        src: '/samples/french/coloring/coloring portrait 1.webp',
         alt: 'Page de coloriage thème animaux avec plusieurs illustrations arrangées sur le canevas libre montrant les possibilités de mise en page créative',
         caption: 'Page de coloriage thème animaux — mise en page canevas libre avec plusieurs illustrations arrangées dans une composition unique',
       },
       {
-        src: '/samples/french/coloring/Coloriage 2.webp',
+        src: '/samples/french/coloring/coloring portrait 2.webp',
         alt: 'Page de coloriage prête pour la classe avec champ nom et lignes de pratique d\'écriture ajoutées avec les aides pour la classe en un clic',
         caption: 'Fiche d\'activité pour la classe — champ nom et lignes d\'écriture transforment les pages de coloriage en activités d\'apprentissage structurées',
       },
       {
-        src: '/samples/french/coloring/Coloriage 3.webp',
+        src: '/samples/french/coloring/coloring portrait 3.webp',
         alt: 'Export en niveaux de gris d\'une page de coloriage montrant la conversion économique en encre depuis une composition colorée pour intérieurs KDP et impression en classe',
         caption: 'Export en niveaux de gris — les compositions colorées se convertissent en pages de coloriage économiques en encre pour intérieurs KDP et impression en volume',
       },

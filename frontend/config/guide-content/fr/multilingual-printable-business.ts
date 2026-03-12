@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Les fiches de mots cachés peuvent être générées dans 11 langues, idéales pour l\'expansion multilingue',
       },
       {
-        src: '/samples/french/matching/Relier les Paires 1.webp',
+        src: '/samples/french/matching/Trouve les Paires 1.webp',
         alt: 'Fiche d\'association avec des thèmes visuels fonctionnant sur tous les marchés linguistiques',
         caption: 'Les fiches d\'association visuelles utilisent des images qui se transfèrent universellement dans toutes les langues',
       },
       {
-        src: '/samples/french/addition/Addition Amusante 1.webp',
+        src: '/samples/french/addition/Addition Amusant 1.webp',
         alt: 'Fiche de maths d\'addition démontrant l\'attrait universel au-delà des barrières linguistiques',
         caption: 'Les fiches de maths franchissent naturellement les barrières linguistiques car les chiffres sont universels sur tous les marchés',
       },

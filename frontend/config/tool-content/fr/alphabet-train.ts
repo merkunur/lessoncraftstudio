@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/alphabet train/Train Alphabet 1.webp',
+      primary: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp',
       primaryAlt: 'Fiche train alphabet montrant 11 wagons colorés avec des lettres et des images-indices correspondantes pour la reconnaissance des lettres',
     },
     sampleGallery: [
       {
-        src: '/samples/french/alphabet train/Train Alphabet 1.webp',
+        src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp',
         alt: 'Fiche train alphabet colorée avec activité d\'association lettre-image pour jeunes apprenants',
         caption: 'Format wagon de train avec association lettre-image',
       },
       {
-        src: '/samples/french/alphabet train/Train Alphabet 2.webp',
+        src: '/samples/french/alphabet train/Train de l\'Alphabet 2.webp',
         alt: 'Fiche train alphabet avec images thématiques et plusieurs tâches d\'association d\'indices',
         caption: 'Images thématiques avec nombre d\'indices configurable',
       },
       {
-        src: '/samples/french/alphabet train/Train Alphabet 3.webp',
+        src: '/samples/french/alphabet train/Train de l\'Alphabet 3.webp',
         alt: 'Fiche train alphabet avancée avec 11 indices pour un exercice de reconnaissance des lettres de difficulté maximale',
         caption: 'Difficulté maximale avec 11 indices pour les élèves avancés',
       },

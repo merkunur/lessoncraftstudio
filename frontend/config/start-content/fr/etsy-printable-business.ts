@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/coloring/coloriage portrait 1.webp', alt: 'Exemple de page de coloriage créée avec le générateur LessonCraftStudio pour vendeurs Etsy' },
+    heroImage: { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Exemple de page de coloriage créée avec le générateur LessonCraftStudio pour vendeurs Etsy' },
     samples: [
-      { src: '/samples/french/coloring/coloriage portrait 1.webp', alt: 'Page de coloriage pour boutique Etsy d\'imprimables', caption: 'Coloriage — Catégorie Phare Etsy' },
+      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage pour boutique Etsy d\'imprimables', caption: 'Coloriage — Catégorie Phare Etsy' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche imprimable de mots cachés pour annonce Etsy', caption: 'Mots Cachés — Fort Volume de Recherche' },
-      { src: '/samples/french/addition/Addition Amusante 1.webp', alt: 'Fiche d\'addition avec problèmes de maths basés sur des images', caption: 'Addition — Catégorie Maths Intemporelle' },
-      { src: '/samples/french/matching/Trouver les Paires 1.webp', alt: 'Fiche d\'association pour acheteurs Etsy internationaux', caption: 'Association — Activité Visuelle Sans Texte' },
+      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec problèmes de maths basés sur des images', caption: 'Addition — Catégorie Maths Intemporelle' },
+      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association pour acheteurs Etsy internationaux', caption: 'Association — Activité Visuelle Sans Texte' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Comment Créer des Pages de Coloriage — Démo LessonCraftStudio',

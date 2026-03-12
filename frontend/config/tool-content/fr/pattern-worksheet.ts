@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/pattern worksheet/Séquences Logiques 1.webp',
+      primary: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp',
       primaryAlt: 'Fiche de séquences logiques avec exercices en grille montrant des motifs répétitifs d\'images avec des cases vides et des options à choix multiple à compléter par les élèves',
     },
     sampleGallery: [
       {
-        src: '/samples/french/pattern worksheet/Séquences Logiques 1.webp',
+        src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp',
         alt: 'Fiche de séquences logiques avec exercices AB en case vide utilisant des images d\'animaux dans une mise en page en grille avec des espaces vides à compléter',
         caption: 'Exercices AB en case vide avec thème animaux — les élèves identifient le motif alternant et complètent l\'image manquante',
       },
       {
-        src: '/samples/french/pattern worksheet/Séquences Logiques 2.webp',
+        src: '/samples/french/pattern worksheet/Puzzles de Motifs 2.webp',
         alt: 'Fiche de séquences logiques avec exercices ABC en choix multiple utilisant des images de véhicules avec trois options de réponse par exercice',
         caption: 'Exercices ABC en choix multiple avec thème véhicules — les élèves choisissent l\'élément manquant correct parmi trois options',
       },
       {
-        src: '/samples/french/pattern worksheet/Séquences Logiques 3.webp',
+        src: '/samples/french/pattern worksheet/Puzzles de Motifs 3.webp',
         alt: 'Corrigé de la fiche de séquences logiques montrant toutes les cases vides remplies avec les éléments corrects du motif pour vérification',
         caption: 'Vue corrigé — toutes les cases remplies avec les éléments corrects du motif pour la vérification par l\'enseignant',
       },

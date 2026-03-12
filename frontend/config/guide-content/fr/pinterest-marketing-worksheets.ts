@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Les fiches exercices visuellement frappantes créent des images d’épingles Pinterest naturellement convaincantes',
       },
       {
-        src: '/samples/french/bingo/Bingo 1.webp',
+        src: '/samples/french/bingo/Loto d\'Images 1.webp',
         alt: 'Fiche exercice carte de bingo démontrant des designs de produits colorés dignes d’épingles',
         caption: 'Les produits thématiques et colorés génèrent des taux d’enregistrement et de clics plus élevés sur Pinterest',
       },
       {
-        src: '/samples/french/wordsearch/wordsearch portrait.webp',
+        src: '/samples/french/wordsearch/Mots Caches 1.webp',
         alt: 'Puzzle mots mêlés montrant un type de produit polyvalent pour le marketing Pinterest',
         caption: 'Les types de produits polyvalents prennent en charge plusieurs variantes d’épingles pour une couverture de recherche plus large',
       },

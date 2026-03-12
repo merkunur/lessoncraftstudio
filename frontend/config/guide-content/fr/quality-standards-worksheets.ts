@@ -175,17 +175,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/wordsearch/wordsearch portrait.webp',
+      src: '/samples/french/wordsearch/Mots Caches 1.webp',
       alt: 'Fiche de mots mêlés démontrant des normes de qualité professionnelles avec une mise en page soignée et un formatage précis',
     },
     samples: [
       {
-        src: '/samples/french/wordsearch/wordsearch portrait.webp',
+        src: '/samples/french/wordsearch/Mots Caches 1.webp',
         alt: 'Mots mêlés montrant un formatage professionnel prêt à imprimer et un alignement de grille précis',
         caption: 'Rendu professionnel de mots mêlés démontrant une mise en page soignée, une typographie lisible et un alignement de grille précis',
       },
       {
-        src: '/samples/french/addition/Addition Fun 1.webp',
+        src: '/samples/french/addition/Addition Amusant 1.webp',
         alt: 'Fiche d\'addition montrant les normes de qualité pour l\'alignement des nombres et la précision des corrigés',
         caption: 'Les fiches de maths nécessitent un alignement précis, une typographie claire et des corrigés vérifiés pour une qualité professionnelle',
       },

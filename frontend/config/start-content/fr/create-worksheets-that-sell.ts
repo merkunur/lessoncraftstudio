@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusante 1.webp', alt: 'Fiche d\'addition professionnelle créée avec le générateur LessonCraftStudio' },
+    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition professionnelle créée avec le générateur LessonCraftStudio' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusante 1.webp', alt: 'Fiche d\'addition avec problèmes mathématiques basés sur des images thématiques', caption: 'Addition — Problèmes Basés sur des Images' },
-      { src: '/samples/french/subtraction/Soustraction Amusante 1.webp', alt: 'Fiche de soustraction avec problèmes visuels de nombres', caption: 'Soustraction — Exercices Visuels de Maths' },
+      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec problèmes mathématiques basés sur des images thématiques', caption: 'Addition — Problèmes Basés sur des Images' },
+      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction avec problèmes visuels de nombres', caption: 'Soustraction — Exercices Visuels de Maths' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés avec liste de mots thématique', caption: 'Mots Cachés — Puzzle Thématique' },
-      { src: '/samples/french/coloring/coloriage portrait 1.webp', alt: 'Fiche de coloriage avec illustrations thématiques', caption: 'Coloriage — Illustrations Thématiques' },
+      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Fiche de coloriage avec illustrations thématiques', caption: 'Coloriage — Illustrations Thématiques' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment Créer des Fiches d\'Addition — Démo LessonCraftStudio',

@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/prepositions/Prépositions 1.webp',
+      primary: '/samples/french/prepositions/Pr%E9positions 1.webp',
       primaryAlt: 'Fiche de prépositions montrant des scènes imagées avec des exercices de relations spatiales pour la pratique du vocabulaire de position',
     },
     sampleGallery: [
       {
-        src: '/samples/french/prepositions/Prépositions 1.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 1.webp',
         alt: 'Fiche texte à trous de prépositions avec des scènes imagées colorées',
         caption: 'Exercices texte à trous de prépositions avec scènes imagées',
       },
       {
-        src: '/samples/french/prepositions/Prépositions 2.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 2.webp',
         alt: 'Fiche choix multiple de prépositions avec exercices de relations spatiales',
         caption: 'Mode choix multiple pour une pratique adaptée aux débutants',
       },
       {
-        src: '/samples/french/prepositions/Prépositions 3.webp',
+        src: '/samples/french/prepositions/Pr%E9positions 3.webp',
         alt: 'Fiche avancée de prépositions avec remplacement de formes et plusieurs exercices par page',
         caption: 'Le remplacement de formes crée des combinaisons de scènes uniques',
       },

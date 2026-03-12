@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/chart count/Graphique Images 1.webp',
+      primary: '/samples/french/chart count/worksheet.webp',
       primaryAlt: 'Fiche graphique à images avec grille 4×5 d\'images dispersées montrant 20 icônes de 6 types et diagramme à barres vide pour compter et représenter les données',
     },
     sampleGallery: [
       {
-        src: '/samples/french/chart count/Graphique Images 1.webp',
+        src: '/samples/french/chart count/worksheet.webp',
         alt: 'Fiche graphique à images thème animaux avec 20 icônes animaux dispersées dans une grille 4×5 et diagramme à barres de 6 colonnes en dessous pour la pratique du comptage',
         caption: 'Graphique à images thème animaux — 6 types d\'animaux dispersés dans la grille avec diagramme à barres en dessous pour la pratique de la représentation de données',
       },
       {
-        src: '/samples/french/chart count/Graphique Images 2.webp',
+        src: '/samples/french/chart count/worksheet (1).webp',
         alt: 'Corrigé graphique à images avec cases surlignées en jaune montrant les décomptes corrects pour chacun des 6 types d\'images dans le diagramme à barres',
         caption: 'Corrigé auto-généré — cases remplies en jaune (#FFC857) montrant le décompte correct pour chaque type d\'image',
       },
       {
-        src: '/samples/french/chart count/Graphique Images 3.webp',
+        src: '/samples/french/chart count/worksheet (2).webp',
         alt: 'Fiche graphique à images avec thèmes de fond et de bordure décoratifs appliqués avec contrôles d\'opacité indépendants pour une présentation soignée',
         caption: 'Graphique à images décoré — thèmes de fond et de bordure avec contrôles d\'opacité indépendants pour un style de produit professionnel',
       },

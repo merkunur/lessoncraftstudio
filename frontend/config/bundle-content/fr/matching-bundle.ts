@@ -204,15 +204,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/matching/Association 1.webp',
+      primary: '/samples/french/matching/Trouve les Paires 1.webp',
       primaryAlt: 'Fiche d\'association avec images thématiques montrant un exercice d\'appariement',
     },
     sampleGallery: [
-      { src: '/samples/french/matching/Association 1.webp', alt: 'Fiche d\'association avec quatre modes et images thématiques', caption: 'Fiche d\'Association' },
+      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association avec quatre modes et images thématiques', caption: 'Fiche d\'Association' },
       { src: '/samples/french/grid match/Puzzle Grille 1.webp', alt: 'Puzzle grille avec association par coordonnées sur grille structurée', caption: 'Fiche Puzzle Grille' },
-      { src: '/samples/french/shadow match/Discrimination Visuelle 1.webp', alt: 'Fiche de discrimination visuelle avec appariement de silhouettes et tracé de lignes', caption: 'Fiche Discrimination Visuelle' },
-      { src: '/samples/french/bingo/Bingo Images 1.webp', alt: 'Carte de bingo avec images thématiques en grille aléatoire', caption: 'Carte de Bingo' },
-      { src: '/samples/french/picture sort/Tri Images 1.webp', alt: 'Fiche de tri d\'images avec exercice de classification en deux catégories', caption: 'Fiche Tri d\'Images' },
+      { src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp', alt: 'Fiche de discrimination visuelle avec appariement de silhouettes et tracé de lignes', caption: 'Fiche Discrimination Visuelle' },
+      { src: '/samples/french/bingo/Loto d\'Images 1.webp', alt: 'Carte de bingo avec images thématiques en grille aléatoire', caption: 'Carte de Bingo' },
+      { src: '/samples/french/picture sort/Tri d\'Images 1.webp', alt: 'Fiche de tri d\'images avec exercice de classification en deux catégories', caption: 'Fiche Tri d\'Images' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Pack Association & Tri — Découvrez les 5 Générateurs en Action',

@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/math puzzle/Puzzle Maths 1.webp', alt: 'Exemple de fiche puzzle maths créée avec le générateur LessonCraftStudio' },
+    heroImage: { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Exemple de fiche puzzle maths créée avec le générateur LessonCraftStudio' },
     samples: [
-      { src: '/samples/french/math puzzle/Puzzle Maths 1.webp', alt: 'Fiche puzzle maths montrant la variété configurable des résultats', caption: 'Puzzle Maths — Difficulté Configurable' },
+      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche puzzle maths montrant la variété configurable des résultats', caption: 'Puzzle Maths — Difficulté Configurable' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche mots cachés avec liste de mots thématique', caption: 'Mots Cachés — Puzzle Thématique' },
       { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage avec illustrations thématiques', caption: 'Page de Coloriage — Attrait Visuel' },
-      { src: '/samples/french/matching/Trouver les Paires 1.webp', alt: 'Fiche d\'appariement au format visuel international', caption: 'Appariement — Fonctionne dans Toutes les Langues' },
+      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'appariement au format visuel international', caption: 'Appariement — Fonctionne dans Toutes les Langues' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Comment Créer des Fiches Puzzles Maths — Démo LessonCraftStudio',

@@ -172,12 +172,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/matching/Relier les Paires 1.webp',
+      src: '/samples/french/matching/Trouve les Paires 1.webp',
       alt: 'Fiche d’association professionnelle démontrant la qualité produit qui génère des avis positifs',
     },
     samples: [
       {
-        src: '/samples/french/matching/Relier les Paires 1.webp',
+        src: '/samples/french/matching/Trouve les Paires 1.webp',
         alt: 'Fiche d’association montrant la qualité visuelle qui génère des avis positifs',
         caption: 'Des fiches d’association de haute qualité génèrent naturellement des avis positifs grâce à leur attrait visuel et leur valeur éducative',
       },

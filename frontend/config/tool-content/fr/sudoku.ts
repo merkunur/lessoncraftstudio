@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/sudoku/Sudoku en Images 1.jpeg',
+      primary: '/samples/french/sudoku/Sudoku en Images 1.webp',
       primaryAlt: 'Fiche sudoku en images 4×4 avec des illustrations thématiques dans une grille premium avec couleurs alternées des blocs bleu et rose, séparateurs centraux épais et bordure extérieure indigo avec coins arrondis',
     },
     sampleGallery: [
       {
-        src: '/samples/french/sudoku/Sudoku en Images 1.jpeg',
+        src: '/samples/french/sudoku/Sudoku en Images 1.webp',
         alt: 'Sudoku en images difficulté Facile avec 4 cases vides et 12 cases remplies dans une grille 4×4 avec couleurs alternées des blocs',
         caption: 'Difficulté Facile — 4 cases vides pour les débutants apprenant la logique de lignes et colonnes',
       },
       {
-        src: '/samples/french/sudoku/Sudoku en Images 2.jpeg',
+        src: '/samples/french/sudoku/Sudoku en Images 2.webp',
         alt: 'Sudoku en images difficulté Difficile avec 8 cases vides et 8 cases remplies dans une grille 4×4 nécessitant un raisonnement en plusieurs étapes',
         caption: 'Difficulté Difficile — 8 cases vides (la moitié de la grille) nécessitant un raisonnement logique en plusieurs étapes',
       },
       {
-        src: '/samples/french/sudoku/Sudoku en Images 1 answer_key.jpeg',
+        src: '/samples/french/sudoku/Sudoku en Images 1 answer_key.webp',
         alt: 'Corrigé du sudoku en images montrant la grille 4×4 complète remplie avec les 16 cases remplies avec les bonnes images',
         caption: 'Corrigé auto-généré — grille complète remplie avec les 16 cases montrant le placement correct des images',
       },

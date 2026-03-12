@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/pattern train/Train Suites Logiques 1.webp',
+      primary: '/samples/french/pattern train/Train %E0 Motifs 1.webp',
       primaryAlt: 'Fiche train de suites logiques avec wagons thématiques montrant un motif répétitif avec un wagon manquant à compléter par les élèves',
     },
     sampleGallery: [
       {
-        src: '/samples/french/pattern train/Train Suites Logiques 1.webp',
+        src: '/samples/french/pattern train/Train %E0 Motifs 1.webp',
         alt: 'Fiche train de suites logiques en mode motif AB alternant avec des images d\'animaux sur 11 wagons thématiques',
         caption: 'Motif AB avec thème animaux — les élèves identifient la séquence alternante et complètent le wagon manquant',
       },
       {
-        src: '/samples/french/pattern train/Train Suites Logiques 2.webp',
+        src: '/samples/french/pattern train/Train %E0 Motifs 2.webp',
         alt: 'Fiche train de suites logiques en mode motif ABC à trois éléments avec des images de véhicules sur des wagons thématiques',
         caption: 'Motif ABC avec thème véhicules — trois éléments en rotation créent une séquence répétitive plus complexe',
       },
       {
-        src: '/samples/french/pattern train/Train Suites Logiques 3.webp',
+        src: '/samples/french/pattern train/Train %E0 Motifs 3.webp',
         alt: 'Corrigé du train de suites logiques montrant les 11 wagons remplis avec la séquence correcte du motif',
         caption: 'Vue corrigé — les 11 wagons remplis avec le motif correct pour la vérification par l\'enseignant',
       },

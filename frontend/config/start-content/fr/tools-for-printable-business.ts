@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/matching/matching portrait.webp', alt: 'Fiche d\'association démontrant la polyvalence de l\'outil et la sortie de la bibliothèque d\'images thématiques' },
+    heroImage: { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association démontrant la polyvalence de l\'outil et la sortie de la bibliothèque d\'images thématiques' },
     samples: [
-      { src: '/samples/french/matching/matching portrait.webp', alt: 'Fiche d\'association montrant l\'association image-mot avec des illustrations thématiques', caption: 'Association — Outil polyvalent à modes multiples' },
+      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association montrant l\'association image-mot avec des illustrations thématiques', caption: 'Association — Outil polyvalent à modes multiples' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés démontrant la génération sensible à la langue', caption: 'Mots cachés — Générateur de puzzles le plus populaire' },
       { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Coloriage montrant la qualité du design sans dépendance linguistique', caption: 'Coloriage — Contenu visuel universel' },
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés démontrant les capacités de génération multilingue', caption: 'Mots croisés — Outil de puzzles multilingue' },
+      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Mots croisés démontrant les capacités de génération multilingue', caption: 'Mots croisés — Outil de puzzles multilingue' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Comment créer des fiches d\'association pour votre activité d\'imprimables — Démo LessonCraftStudio',

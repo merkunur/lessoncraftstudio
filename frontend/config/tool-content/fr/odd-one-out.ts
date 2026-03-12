@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/odd one out/Trouve l\'Intrus 1.jpeg',
+      primary: '/samples/french/odd one out/Trouve l\'Intrus 1.webp',
       primaryAlt: 'Fiche intrus avec quatre images par rangée d\'exercice montrant trois éléments communs et un élément intrus avec en-tête corail-ambre-turquoise Trouve l\'Intrus',
     },
     sampleGallery: [
       {
-        src: '/samples/french/odd one out/Trouve l\'Intrus 1.jpeg',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 1.webp',
         alt: 'Fiche intrus en mode Similaire avec trois images du Thème A et un intrus thématique du Thème B par rangée d\'exercice',
         caption: 'Mode Similaire — trois images du Thème A et un élément intrus du Thème B pour la discrimination inter-thèmes',
       },
       {
-        src: '/samples/french/odd one out/Trouve l\'Intrus 2.jpeg',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 2.webp',
         alt: 'Fiche intrus en mode Identique avec trois clones de la même image et une image différente du même thème par rangée',
         caption: 'Mode Identique — trois clones de la même image et une image différente pour les défis de repérage du doublon',
       },
       {
-        src: '/samples/french/odd one out/Trouve l\'Intrus 1 answer-key.jpeg',
+        src: '/samples/french/odd one out/Trouve l\'Intrus 1 answer-key.webp',
         alt: 'Corrigé intrus avec des contours de cercle rouge dessinés autour de l\'élément intrus dans chaque rangée d\'exercice avec largeur de trait proportionnelle à la taille de l\'image',
         caption: 'Corrigé auto-généré — les marqueurs cercle rouge (trait = max(taille de l\'image × 0,04, 3px)) identifient l\'élément intrus dans chaque rangée',
       },

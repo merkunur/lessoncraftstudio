@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/writing/Écriture 1.webp', alt: 'Fiche d\'écriture démontrant du contenu éducatif sous licence commerciale pour les vendeurs d\'imprimables' },
+    heroImage: { src: '/samples/french/writing/writing beginning letter.webp', alt: 'Fiche d\'écriture démontrant du contenu éducatif sous licence commerciale pour les vendeurs d\'imprimables' },
     samples: [
-      { src: '/samples/french/writing/Écriture 1.webp', alt: 'Fiche d\'écriture montrant du contenu éducatif sous licence commerciale', caption: 'Écriture — Contenu Éducatif sous Licence Commerciale' },
+      { src: '/samples/french/writing/writing beginning letter.webp', alt: 'Fiche d\'écriture montrant du contenu éducatif sous licence commerciale', caption: 'Écriture — Contenu Éducatif sous Licence Commerciale' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés démontrant le potentiel commercial à gros volume', caption: 'Mots Cachés — Type de Puzzle Commercial le Plus Populaire' },
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés montrant la capacité de produits commerciaux multilingues', caption: 'Mots Croisés — Produits Commerciaux Multilingues' },
-      { src: '/samples/french/math puzzle/Puzzle Maths 1.webp', alt: 'Fiche de maths démontrant la génération de produits commerciaux intemporels', caption: 'Maths — Génération de Produits Commerciaux Intemporels' },
+      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Mots croisés montrant la capacité de produits commerciaux multilingues', caption: 'Mots Croisés — Produits Commerciaux Multilingues' },
+      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de maths démontrant la génération de produits commerciaux intemporels', caption: 'Maths — Génération de Produits Commerciaux Intemporels' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Comment Créer des Fiches d\'Écriture pour Votre Activité d\'Imprimables — Démo LessonCraftStudio',

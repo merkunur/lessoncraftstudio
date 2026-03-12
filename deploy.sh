@@ -138,7 +138,7 @@ echo ""
 echo "🧹 Cleaning stale .next/standalone to prevent build hang..."
 rm -rf .next/standalone
 echo "🔨 Building Next.js application..."
-timeout 300 npm run build || { echo "BUILD TIMED OUT after 5 minutes — likely symlink bloat. Aborting."; exit 1; }
+timeout 900 npm run build || { echo "BUILD TIMED OUT after 15 minutes — likely symlink bloat. Aborting."; exit 1; }
 
 # 4. CRITICAL: Stage new release in separate directory (zero-downtime)
 # The running server continues serving from .next/standalone/ while we prepare

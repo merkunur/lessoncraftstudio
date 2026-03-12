@@ -41,6 +41,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'math-mastery-bundle',
       de: 'mathematik-meister-paket',
+      fr: 'pack-maitrise-maths',
     },
   },
   {
@@ -48,6 +49,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'literacy-language-bundle',
       de: 'lese-sprach-paket',
+      fr: 'pack-lecture-langage',
     },
   },
   {
@@ -55,6 +57,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'visual-learning-bundle',
       de: 'visuelles-lernen-paket',
+      fr: 'pack-apprentissage-visuel',
     },
   },
   {
@@ -62,6 +65,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'matching-sorting-bundle',
       de: 'zuordnung-sortierung-paket',
+      fr: 'pack-association-tri',
     },
   },
   {
@@ -69,6 +73,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'puzzles-logic-bundle',
       de: 'raetsel-logik-paket',
+      fr: 'pack-puzzles-logique',
     },
   },
   {
@@ -76,6 +81,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
     slugs: {
       en: 'search-find-bundle',
       de: 'suchen-finden-paket',
+      fr: 'pack-cherche-trouve',
     },
   },
 ];

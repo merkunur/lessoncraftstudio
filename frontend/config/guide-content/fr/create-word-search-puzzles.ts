@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil puzzles avec licence commerciale',
     ],
     titleTag: 'Créer des puzzles de mots cachés — Guide étape par étape',
-    metaDescription: 'Comment créer des puzzles de mots cachés avec des indices visuels. Choisissez les thèmes, réglez la taille de la grille, configurez les directions, générez les corrigés et vendez sur Etsy et KDP.',
+    metaDescription: 'Comment créer des mots cachés avec indices visuels. Choisissez thèmes, taille de grille, directions, générez les corrigés auto et vendez sur Etsy et KDP.',
   },
 
   hero: {

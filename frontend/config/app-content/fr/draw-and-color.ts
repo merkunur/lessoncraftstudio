@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Dessin Quadrillage | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de dessin sur quadrillage à vendre sur Etsy, Amazon KDP et TPT. Double grille, pourcentage d\'indices réglable, modes symétrie. Essai gratuit avec filigrane — licence.',
+      'Créez des fiches dessin sur grille pour Etsy, KDP et TPT. Double quadrillage, indices réglables, modes symétrie, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

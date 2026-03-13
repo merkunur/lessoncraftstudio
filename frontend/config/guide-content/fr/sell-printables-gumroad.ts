@@ -18,7 +18,7 @@ const content: GuideContent = {
       'lots produits abonnements revenus récurrents catalogue croissance',
     ],
     titleTag: 'Comment vendre des imprimables sur Gumroad — Guide',
-    metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration de boutique, stratégies de tarification, marketing par e-mail et relations directes avec les clients.',
+    metaDescription: 'Vendez des imprimables sur Gumroad sans frais mensuels. Configuration boutique, stratégies tarification, marketing par e-mail et relations directes clients.',
   },
 
   hero: {

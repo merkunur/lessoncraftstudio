@@ -18,7 +18,7 @@ const content: GuideContent = {
       'stratégie hashtags calendrier publication taux engagement optimisation profil',
     ],
     titleTag: 'Marketing Réseaux Sociaux pour Imprimables — Guide Vendeur',
-    metaDescription: 'Stratégies de marketing réseaux sociaux pour imprimables couvrant le choix des plateformes, le contenu visuel, la construction d\'audience et l\'engagement qui génère du trafic.',
+    metaDescription: 'Stratégies marketing réseaux sociaux pour imprimables : choix des plateformes, contenu visuel, construction d’audience et engagement générant du trafic.',
   },
 
   hero: {

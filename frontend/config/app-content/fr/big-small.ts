@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Grand Petit | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de comparaison de tailles à vendre sur Etsy, Amazon KDP et TPT. Cinq types de questions, modes images identiques et différentes, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches comparaison de tailles pour Etsy, KDP et TPT. 5 types de questions, modes identiques et différents, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

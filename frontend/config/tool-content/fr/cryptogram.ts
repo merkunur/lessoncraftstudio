@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur de cryptogramme multilingue à images',
     ],
     titleTag: 'Générateur Fiches Cryptogramme | Puzzles Chiffrés',
-    metaDescription: 'Créez des fiches cryptogramme avec chiffre par images, Lettres à Révéler 0–10, Attribution Automatique, corrigé avec légende, 11 langues. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Créez des fiches cryptogramme avec chiffre par images, Lettres à Révéler 0–10, attribution auto, corrigé légende, 11 langues. Essai gratuit avec filigrane.',
   },
 
   hero: {

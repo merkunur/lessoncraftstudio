@@ -17,7 +17,7 @@ const content: GuideContent = {
       'évaluations notes confiance acheteurs checklist production assurance qualité',
     ],
     titleTag: 'Normes qualité fiches exercices pour vendeurs — Checklist',
-    metaDescription: 'Normes qualité que les vendeurs de fiches exercices doivent respecter pour un résultat professionnel. Résolution, marges, typographie, corrigés et tests impression.',
+    metaDescription: 'Normes qualité pour vendeurs de fiches : résultat professionnel, résolution, marges, typographie, corrigés et tests impression. Vendez sur Etsy et KDP.',
   },
 
   hero: {

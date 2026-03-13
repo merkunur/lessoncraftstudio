@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur fiches séquences AB ABC ABCD en grille',
     ],
     titleTag: 'Générateur Fiches Séquences Logiques | Vendre',
-    metaDescription: 'Créez des fiches de séquences logiques avec neuf types de motifs, deux modes de question, configuration par exercice, corrigé auto et 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches séquences logiques avec neuf types de motifs, deux modes de question, configuration par exercice, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

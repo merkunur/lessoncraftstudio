@@ -18,7 +18,7 @@ const content: GuideContent = {
       'fiche imprimable livre activités coloriage livre puzzles marché',
     ],
     titleTag: 'KDP ou Etsy imprimables — Guide comparatif',
-    metaDescription: 'KDP ou Etsy pour les vendeurs d\'imprimables. Comparez structures de frais, formats de produits, mécanismes de trafic et stratégies multi-plateformes pour votre activité d\'imprimables.',
+    metaDescription: 'KDP ou Etsy pour vendeurs d’imprimables. Comparez frais, formats, mécanismes de trafic et stratégies multi-plateformes pour votre activité d’imprimables.',
   },
 
   hero: {

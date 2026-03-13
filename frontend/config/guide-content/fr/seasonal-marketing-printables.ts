@@ -17,7 +17,7 @@ const content: GuideContent = {
       'timing lancement mots-clés saisonniers analyse tendances calendrier contenu planification trimestrielle',
     ],
     titleTag: 'Marketing Saisonnier Imprimables — Calendrier Vendeur',
-    metaDescription: 'Planifiez vos campagnes de marketing saisonnier pour imprimables en fonction des cycles de demande. Un calendrier vendeur couvrant le timing de production, les mots-clés et les stratégies de pics de vente.',
+    metaDescription: 'Planifiez vos campagnes saisonnières pour imprimables selon les cycles de demande. Calendrier vendeur, timing de production, mots-clés et pics de vente.',
   },
 
   hero: {

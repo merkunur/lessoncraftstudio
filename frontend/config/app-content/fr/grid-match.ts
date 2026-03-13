@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Puzzles Grille | Créer et Vendre',
     metaDescription:
-      'Créez des puzzles grille à vendre sur Etsy, Amazon KDP et TPT. Grille configurable, cases-indices ajustables, corrigé automatique, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des puzzles grille à vendre sur Etsy, KDP et TPT. Taille configurable, cases-indices ajustables, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

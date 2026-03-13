@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Sudoku en Images | Fiches Logique 4×4',
     metaDescription:
-      'Créez des fiches sudoku en images à vendre sur Etsy, KDP et TPT. Grille 4×4, trois niveaux de difficulté, corrigé auto, 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches sudoku en images pour Etsy, KDP et TPT. Grille 4×4, trois niveaux de difficulté, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

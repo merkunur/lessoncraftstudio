@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur de chiffre secret maths pour KDP',
     ],
     titleTag: 'Générateur d\'Addition Codée | Puzzles à Décoder',
-    metaDescription: 'Créez des puzzles d\'addition codée avec images en quelques secondes. Mode Classique, Mode Mot Mystère, 11 langues, licence commerciale. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des puzzles d’addition codée avec images. Modes Classique et Mot Mystère, 104 thèmes, 11 langues, licence commerciale. Essai gratuit avec filigrane.',
   },
 
   hero: {

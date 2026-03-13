@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur d\'activités cocher et barrer',
     ],
     titleTag: 'Générateur Fiches Plus ou Moins | Vendre en Ligne',
-    metaDescription: 'Créez des fiches de comparaison visuelles plus grand, plus petit et égal avec images en quelques secondes. Trois modes dont Cocher et Barrer. Vendez sur Etsy, KDP et TPT.',
+    metaDescription: 'Créez des fiches comparaison plus grand, plus petit et égal avec images thématiques. 3 modes dont Cocher et Barrer, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Labyrinthes | 3 Modes de Jeu',
     metaDescription:
-      'Créez des fiches labyrinthes à vendre sur Etsy, KDP et TPT. 3 modes de jeu, algorithme LPF, corrigé auto, 104 thèmes, PDF prêts à imprimer. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches labyrinthes pour Etsy, KDP et TPT. 3 modes de jeu, algorithme LPF, corrigé auto, 104 thèmes, PDF imprimables. Essai gratuit avec filigrane.',
   },
 
   hero: {

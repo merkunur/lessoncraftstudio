@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Pièces Manquantes | Puzzles Visuels',
     metaDescription:
-      'Créez des puzzles pièces manquantes à vendre sur Etsy, KDP et TPT. 6 formes de pièces, difficulté configurable, corrigé auto, 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des puzzles pièces manquantes pour Etsy, KDP et TPT. 6 formes de pièces, difficulté configurable, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

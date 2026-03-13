@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil train alphabet licence commerciale',
     ],
     titleTag: 'Fiches train alphabet — Guide étape par étape',
-    metaDescription: 'Comment créer des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes illustrés. À vendre sur Etsy, KDP et TPT.',
+    metaDescription: 'Comment créer des fiches train alphabet avec wagons colorés, deux modes de création, difficulté configurable et 104 thèmes. Vendez sur Etsy, KDP et TPT.',
   },
 
   hero: {

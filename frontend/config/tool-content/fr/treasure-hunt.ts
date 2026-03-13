@@ -14,8 +14,8 @@ const content: ToolContent = {
       'indices directionnels localisés sensibles à la langue 11 langues',
       'corrigé auto-généré case trésor surlignée système double canevas créateur',
     ],
-    titleTag: 'Créateur Chasse au Trésor — Générateur Fiches Directionnelles',
-    metaDescription: 'Créez des fiches chasse au trésor sur une grille 5×5 avec deux types de direction, repères thématiques, corrigés automatiques et 104 collections d\'images. Essai gratuit — licence disponible.',
+    titleTag: 'Créateur Chasse au Trésor — Fiches Directionnelles',
+    metaDescription: 'Créez des fiches chasse au trésor sur grille 5×5 avec deux types de direction, repères thématiques, corrigés automatiques. Essai gratuit avec filigrane.',
   },
 
   hero: {

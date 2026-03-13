@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil sudoku en images licence commerciale',
     ],
     titleTag: 'Sudoku en Images à Imprimer — Guide Étape par Étape',
-    metaDescription: 'Créez des sudoku en images pour jeunes enfants. Grilles 4x4, 3 niveaux de difficulté, images thématiques, corrigés automatiques et PDF prêts à imprimer pour vendre sur Etsy et KDP.',
+    metaDescription: 'Créez des sudoku en images pour enfants. Grilles 4×4, 3 niveaux de difficulté, images thématiques, corrigés auto et PDF prêts à imprimer pour Etsy et KDP.',
   },
 
   hero: {

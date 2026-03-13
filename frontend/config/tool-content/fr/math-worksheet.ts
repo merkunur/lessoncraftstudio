@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur d\'activités avec variables-images',
     ],
     titleTag: 'Générateur d\'Exercices de Maths | Puzzles Algébriques',
-    metaDescription: 'Créez des puzzles algébriques illustrés où les images représentent des variables dans des équations liées. Quatre niveaux, solution unique garantie. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des puzzles algébriques illustrés où les images sont des variables. 4 niveaux de difficulté, solution unique garantie. Essai gratuit avec filigrane.',
   },
 
   hero: {

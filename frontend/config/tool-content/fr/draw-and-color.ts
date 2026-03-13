@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur fiches dessin mode miroir symétrie',
     ],
     titleTag: 'Générateur Fiches Dessin Quadrillage — Créateur | Vendre',
-    metaDescription: 'Créez des fiches de dessin sur quadrillage avec double grille, pourcentage d\'indices réglable, trois modes symétrie et thèmes contours N&B. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches dessin sur grille avec double quadrillage, indices réglables, trois modes symétrie et thèmes contours N&B. Essai gratuit avec filigrane.',
   },
 
   hero: {

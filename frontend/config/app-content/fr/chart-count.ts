@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Graphique à Images | Créer et Vendre',
     metaDescription:
-      'Créez des fiches graphique à images à vendre sur Etsy, Amazon KDP et TPT. Corrigé automatique avec cases surlignées, 104 thèmes, 6 types d\'images par fiche. Essai gratuit avec filigrane.',
+      'Créez des fiches graphique à images pour Etsy, KDP et TPT. Corrigé auto avec surlignage, 104 thèmes, 6 types d’images par fiche. Essai gratuit avec filigrane.',
   },
 
   hero: {

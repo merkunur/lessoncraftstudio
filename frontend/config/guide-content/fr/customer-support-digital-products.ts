@@ -18,7 +18,7 @@ const content: GuideContent = {
       'systèmes support évolutifs bibliothèques modèles suivi tendances boucles retour',
     ],
     titleTag: 'Support client produits numériques — Guide',
-    metaDescription: 'Stratégies de support client pour vendeurs de produits numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements, avis clients et systèmes évolutifs.',
+    metaDescription: 'Stratégies de support client pour vendeurs numériques. Prévention des problèmes, modèles de réponse, gestion des remboursements, avis et systèmes évolutifs.',
   },
 
   hero: {

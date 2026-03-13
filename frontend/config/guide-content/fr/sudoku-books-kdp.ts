@@ -18,7 +18,7 @@ const content: GuideContent = {
       'sudoku nombre puzzles mise en page corrigés impression format',
     ],
     titleTag: 'Livres sudoku KDP — Guide de publication',
-    metaDescription: 'Créez des livres sudoku KDP avec sudoku en images pour enfants et sudoku avec chiffres pour adultes. Progression de difficulté, formatage des grilles et stratégie de séries.',
+    metaDescription: 'Créez des livres sudoku KDP avec sudoku images pour enfants et sudoku chiffres pour adultes. Difficulté progressive, formatage grilles et stratégie séries.',
   },
 
   hero: {

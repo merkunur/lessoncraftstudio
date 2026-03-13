@@ -18,7 +18,7 @@ const content: GuideContent = {
       'calendrier contenu analytique email tests A/B personnalisation balises',
     ],
     titleTag: 'Email marketing imprimables — Stratégie vendeur',
-    metaDescription: 'Stratégies d’email marketing pour vendeurs d’imprimables. Construisez votre liste d’abonnés, créez des lead magnets et automatisez vos séquences pour des ventes récurrentes.',
+    metaDescription: 'Email marketing pour vendeurs d’imprimables. Construisez votre liste d’abonnés, créez des lead magnets et automatisez vos séquences pour des ventes récurrentes.',
   },
 
   hero: {

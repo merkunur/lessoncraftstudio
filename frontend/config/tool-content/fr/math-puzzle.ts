@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur d\'activités puzzles maths jigsaw',
     ],
     titleTag: 'Générateur de Puzzles Maths | Vendre des Imprimables',
-    metaDescription: 'Créez des puzzles mathématiques jigsaw avec grilles d\'images, trois modes d\'opération et téléchargement d\'images personnalisées. Vendez sur Etsy, KDP et TPT. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des puzzles maths jigsaw avec grilles d’images, 3 modes d’opération et images personnalisées. Vendez sur Etsy, KDP et TPT. Essai gratuit avec filigrane.',
   },
 
   hero: {

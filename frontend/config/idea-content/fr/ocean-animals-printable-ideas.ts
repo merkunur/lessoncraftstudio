@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Animaux Marins à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\'imprimables animaux marins à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits océaniques, stratégies de plateformes et conseils pour les vendeurs d\'imprimables.',
+    metaDescription: 'Idées d’imprimables animaux marins à vendre sur Etsy, Amazon KDP et TPT. Concepts produits océaniques, stratégies de plateformes et conseils pour vendeurs.',
 
     primaryKeyword: 'idées imprimables animaux marins',
     secondaryKeywords: [

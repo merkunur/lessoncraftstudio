@@ -18,7 +18,7 @@ const content: GuideContent = {
       'lot vs annonce individuelle cannibalisation stratégie boutique Etsy',
     ],
     titleTag: 'Créer des lots de fiches Etsy — Guide',
-    metaDescription: 'Créez des lots de fiches Etsy qui augmentent le panier moyen. Types de lots, organisation des fichiers, images de prévisualisation, optimisation des annonces et stratégie de prix.',
+    metaDescription: 'Créez des lots de fiches Etsy qui augmentent le panier moyen. Types de lots, organisation fichiers, prévisualisation, optimisation annonces et stratégie prix.',
   },
 
   hero: {

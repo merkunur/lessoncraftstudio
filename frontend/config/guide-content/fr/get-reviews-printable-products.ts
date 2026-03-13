@@ -18,7 +18,7 @@ const content: GuideContent = {
       'optimisation annonce gestion attentes communication acheteur expérience après-achat',
     ],
     titleTag: 'Obtenir avis produits imprimables — Guide vendeur',
-    metaDescription: 'Stratégies éprouvées pour obtenir des avis sur vos produits imprimables. Construisez la preuve sociale, récoltez des retours authentiques et renforcez la crédibilité de votre boutique Etsy, KDP et TpT.',
+    metaDescription: 'Stratégies pour obtenir des avis sur vos imprimables. Preuve sociale, retours authentiques et crédibilité de votre boutique Etsy, KDP et TpT. Guide vendeurs.',
   },
 
   hero: {

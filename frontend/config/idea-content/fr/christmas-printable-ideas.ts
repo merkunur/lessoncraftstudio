@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables de Noël à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\'imprimables de Noël à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits festifs, stratégies saisonnières et conseils par plateforme pour les vendeurs d\'imprimables.',
+    metaDescription: 'Idées d’imprimables de Noël à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits festifs, stratégies saisonnières et conseils pour les vendeurs.',
 
     primaryKeyword: 'idées imprimables de Noël',
     secondaryKeywords: [

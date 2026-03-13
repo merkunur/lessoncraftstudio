@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Discrimination Visuelle | Silhouettes',
     metaDescription:
-      'Créez des fiches de discrimination visuelle à vendre sur Etsy, Amazon KDP et TPT. Modes Trouve l\'Ombre et Reconstitue l\'Image, silhouettes auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches discrimination visuelle pour Etsy, KDP et TPT. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

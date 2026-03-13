@@ -18,7 +18,7 @@ const content: StartContent = {
       'flux revenus multiples produits imprimables',
     ],
     titleTag: 'Combien peut-on gagner en vendant des imprimables ?',
-    metaDescription: 'Combien peut-on gagner en vendant des imprimables ? Attentes de revenus réalistes, structures de frais des plateformes, stratégies de tarification et variables qui déterminent les gains.',
+    metaDescription: 'Combien peut-on gagner en vendant des imprimables ? Attentes réalistes, frais de plateformes, stratégies de tarification et variables déterminant les gains.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'livres puzzles maths Amazon KDP',
       'créateur puzzles licence commerciale',
     ],
-    titleTag: 'Créer des fiches de puzzles mathématiques — Guide étape par étape',
-    metaDescription: 'Comment créer des fiches de puzzles mathématiques où les enfants résolvent des équations pour reconstruire des images. Tailles de grille, opérations, corrigés et conseils pour vendre sur Etsy et KDP.',
+    titleTag: 'Créer des fiches puzzles maths — Guide étape par étape',
+    metaDescription: 'Comment créer des fiches puzzles maths où les enfants résolvent des équations pour reconstruire des images. Grilles, opérations et vente sur Etsy et KDP.',
   },
 
   hero: {

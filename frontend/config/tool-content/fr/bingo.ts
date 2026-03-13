@@ -15,7 +15,7 @@ const content: ToolContent = {
       'feuille d\'appel outil créateur fiches bingo',
     ],
     titleTag: 'Créateur Cartes Bingo — Générateur Bingo à Images',
-    metaDescription: 'Créez des cartes bingo à images avec grilles de 3×3 à 5×5, génération par lot de cartes uniques, export ZIP, feuilles d\'appel, 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des cartes bingo à images avec grilles 3×3 à 5×5, lot de cartes uniques, export ZIP, feuilles d’appel, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

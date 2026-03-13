@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur d\'Addition Codée | Puzzles Mathématiques',
     metaDescription:
-      'Créez des puzzles d\'addition codée à vendre sur Etsy, Amazon KDP et TPT. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des puzzles d’addition codée pour Etsy, KDP et TPT. Mode Mot Mystère, 104 thèmes, 11 langues, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {

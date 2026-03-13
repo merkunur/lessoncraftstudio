@@ -18,7 +18,7 @@ const content: GuideContent = {
       'production par lots génération contenu multi-langues outils traduction automatisée bases vocabulaire',
     ],
     titleTag: 'Créer des Fiches en Plusieurs Langues — Guide',
-    metaDescription: 'Comment créer des fiches en plusieurs langues avec des flux de production, la gestion des caractères, la sélection des polices, l\'assurance qualité et l\'adaptation des annonces.',
+    metaDescription: 'Comment créer des fiches en plusieurs langues : flux de production, gestion des caractères, sélection polices, assurance qualité et adaptation des annonces.',
   },
 
   hero: {

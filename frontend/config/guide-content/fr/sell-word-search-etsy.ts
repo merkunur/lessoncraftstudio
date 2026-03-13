@@ -18,7 +18,7 @@ const content: GuideContent = {
       'photos annonces Etsy mockups pour produits mots cachés',
     ],
     titleTag: 'Vendre des mots cachés sur Etsy — Guide',
-    metaDescription: 'Vendez des mots cachés sur Etsy avec 4 générateurs de puzzles. SEO Etsy, optimisation des annonces, tarification, lots avec mots croisés et mots mélangés, timing saisonnier.',
+    metaDescription: 'Vendez des mots cachés sur Etsy avec 4 générateurs. SEO Etsy, optimisation annonces, tarification, lots avec mots croisés et mots mélangés et timing saisonnier.',
   },
 
   hero: {

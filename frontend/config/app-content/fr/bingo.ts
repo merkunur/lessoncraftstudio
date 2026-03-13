@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Cartes Bingo à Images | Créer et Vendre',
     metaDescription:
-      'Créez des cartes bingo à images à vendre sur Etsy, Amazon KDP et TPT. Génération par lot de cartes uniques, export ZIP, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des cartes bingo à images pour Etsy, KDP et TPT. Lots de cartes uniques, export ZIP, feuilles d’appel, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

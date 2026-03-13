@@ -18,7 +18,7 @@ const content: GuideContent = {
       'classement recherche taux enregistrement clics sortants données audience modèles épingles',
     ],
     titleTag: 'Marketing Pinterest Fiches Exercices — Stratégie Vendeurs',
-    metaDescription: 'Stratégie marketing Pinterest pour vendeurs de fiches exercices imprimables. Générez du trafic durable grâce à l’optimisation des épingles, la stratégie de tableaux et le contenu riche en mots-clés.',
+    metaDescription: 'Stratégie marketing Pinterest pour vendeurs de fiches imprimables. Trafic durable, optimisation des épingles, stratégie tableaux et contenu mots-clés.',
   },
 
   hero: {

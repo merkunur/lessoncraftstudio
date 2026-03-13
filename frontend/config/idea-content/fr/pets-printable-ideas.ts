@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Animaux de Compagnie à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\'imprimables animaux de compagnie à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits chats, chiens et petits animaux avec stratégies de plateformes pour les vendeurs.',
+    titleTag: 'Imprimables Animaux de Compagnie à Vendre — Guide Niche',
+    metaDescription: 'Idées d’imprimables animaux de compagnie à vendre sur Etsy, Amazon KDP et TPT. Concepts produits chats, chiens et petits animaux avec stratégies vendeurs.',
 
     primaryKeyword: 'idées imprimables animaux de compagnie',
     secondaryKeywords: [

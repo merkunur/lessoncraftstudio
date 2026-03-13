@@ -17,8 +17,8 @@ const content: GuideContent = {
       'workflow rationalisé standardisation processus efficacité opérationnelle regroupement tâches',
       'systèmes production processus évolutifs gestion catalogue conception workflow',
     ],
-    titleTag: 'Automatiser votre business d’imprimables — Guide d’efficacité',
-    metaDescription: 'Comment automatiser votre business d’imprimables avec la production par lots, les systèmes de modèles et les workflows systématiques. Gagnez des heures chaque semaine et augmentez votre production sur toutes les plateformes.',
+    titleTag: 'Automatiser votre activité d’imprimables — Guide pratique',
+    metaDescription: 'Comment automatiser votre business d’imprimables avec la production par lots, les modèles et les workflows. Gagnez du temps et augmentez votre production.',
   },
 
   hero: {

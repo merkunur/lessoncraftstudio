@@ -15,7 +15,7 @@ const content: ToolContent = {
       'créateur de fiches représentation de données double canevas',
     ],
     titleTag: 'Créateur Fiches Graphique à Images — Générateur Comptage',
-    metaDescription: 'Créez des fiches graphique à images avec grilles 4×5 dispersées, 6 types d\'images, corrigés automatiques, 11 langues et 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches graphique à images avec grilles 4×5 dispersées, 6 types d’images, corrigés auto, 11 langues et 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

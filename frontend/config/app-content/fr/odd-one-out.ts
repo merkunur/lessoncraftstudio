@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Intrus | Créer & Vendre',
     metaDescription:
-      'Créez des fiches intrus à vendre sur Etsy, KDP et TPT. Deux modes (Identique et Similaire), corrigé auto avec cercles rouges, 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches trouve l’intrus pour Etsy, KDP et TPT. Modes Identique et Similaire, corrigé auto cercles rouges, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

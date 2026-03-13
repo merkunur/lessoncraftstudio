@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy boutique imprimables stratégie de lancement premiers 30 jours plan de croissance',
     ],
     titleTag: 'Ouvrir une boutique Etsy d’imprimables de zéro — Guide',
-    metaDescription: 'Ouvrez votre boutique Etsy d’imprimables de zéro avec 33 générateurs. Configuration de boutique, image de marque, optimisation des annonces, tarification, frais Etsy et plan de lancement sur 30 jours.',
+    metaDescription: 'Ouvrez votre boutique Etsy d’imprimables avec 33 générateurs. Configuration, image de marque, optimisation annonces, tarification et plan de lancement.',
   },
 
   hero: {

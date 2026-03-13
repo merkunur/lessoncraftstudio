@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Mots Croisés en Images | Créer & Vendre',
     metaDescription:
-      'Créez des mots croisés en images à vendre sur Etsy, KDP et TPT. Indices visuels sur grille 15×15, 4 méthodes de saisie, corrigé automatique. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des mots croisés en images pour Etsy, KDP et TPT. Indices visuels sur grille 15×15, 4 méthodes de saisie, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {

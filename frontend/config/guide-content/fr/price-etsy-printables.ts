@@ -18,7 +18,7 @@ const content: GuideContent = {
       'tarification internationale devises Etsy téléchargements numériques A4 Letter',
     ],
     titleTag: 'Tarification imprimables Etsy — Guide des prix',
-    metaDescription: 'Fixez les prix de vos fiches imprimables Etsy avec le calcul des frais, la tarification à trois paliers, les stratégies de lots et les ajustements saisonniers. Guide complet pour vendeurs.',
+    metaDescription: 'Fixez les prix de vos fiches Etsy avec calcul des frais, tarification à trois paliers, les stratégies de lots et les ajustements saisonniers. Guide vendeurs.',
   },
 
   hero: {

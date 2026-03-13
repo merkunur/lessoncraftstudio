@@ -18,7 +18,7 @@ const content: GuideContent = {
       'licence commerciale outil fiches cryptogrammes',
     ],
     titleTag: 'Puzzles cryptogrammes — Guide',
-    metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement en images, difficulté réglable, mode attribution automatique et alphabets adaptés aux langues. Guide pour vendeurs Etsy et KDP.',
+    metaDescription: 'Créez des puzzles cryptogrammes avec chiffrement images, difficulté réglable, attribution automatique et alphabets adaptés. Guide pour vendeurs Etsy et KDP.',
   },
 
   hero: {

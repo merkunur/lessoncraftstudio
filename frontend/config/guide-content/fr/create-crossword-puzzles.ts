@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil puzzles avec licence commerciale',
     ],
     titleTag: 'Créer des mots croisés en images — Guide étape par étape',
-    metaDescription: 'Comment créer des mots croisés pour enfants avec des indices en images. Choisissez les thèmes, générez des grilles croisées, des indices numérotés, des corrigés et vendez sur Etsy et KDP.',
+    metaDescription: 'Comment créer des mots croisés en images pour enfants. Thèmes, grilles 15×15 croisées, indices numérotés, corrigés automatiques et vente sur Etsy et KDP.',
   },
 
   hero: {

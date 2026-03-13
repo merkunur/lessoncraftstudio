@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fiches de calcul maternelle et primaire',
     ],
     titleTag: 'Générateur de Fiches d\'Addition | Maths Imprimables',
-    metaDescription: 'Créez des fiches d\'addition avec des images thématiques en quelques secondes. 104 thèmes, difficulté réglable, export PDF prêt à imprimer. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches d’addition avec images thématiques. 104 thèmes, difficulté réglable, corrigés inclus, export PDF prêt à imprimer. Essai gratuit avec filigrane.',
   },
 
   hero: {

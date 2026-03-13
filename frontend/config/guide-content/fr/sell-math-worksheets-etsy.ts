@@ -18,7 +18,7 @@ const content: GuideContent = {
       'photos annonces Etsy mockups pour produits fiches de maths',
     ],
     titleTag: 'Vendre des fiches de maths sur Etsy — Guide',
-    metaDescription: 'Vendez des fiches de maths sur Etsy avec 6 générateurs. SEO Etsy, optimisation des annonces, tarification, stratégies de lots et timing saisonnier pour vendeurs.',
+    metaDescription: 'Vendez des fiches de maths sur Etsy avec nos 6 générateurs. SEO Etsy, optimisation des annonces, tarification, stratégies de lots et timing saisonnier.',
   },
 
   hero: {

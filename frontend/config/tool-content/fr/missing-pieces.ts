@@ -15,7 +15,7 @@ const content: ToolContent = {
       'pièces distractrices générateur fiches puzzle visuelles',
     ],
     titleTag: 'Créateur Pièces Manquantes — Générateur Puzzles Visuels',
-    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes de pièces, difficulté configurable, extraction intelligente avec distractrices, 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, difficulté configurable, extraction intelligente, distractrices, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

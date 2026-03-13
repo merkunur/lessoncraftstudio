@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur de puzzles d\'orthographe multilingue',
     ],
     titleTag: 'Générateur Fiches Mots Mélangés | Imprimables',
-    metaDescription: 'Créez des fiches mots mélangés avec tuiles de lettres, indices images, code couleur voyelles-consonnes, 4 niveaux de difficulté, 11 langues. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Créez des fiches mots mélangés avec tuiles de lettres, indices images, code couleur voyelles-consonnes, 4 niveaux, 11 langues. Essai gratuit avec filigrane.',
   },
 
   hero: {

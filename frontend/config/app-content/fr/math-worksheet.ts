@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Puzzles Algébriques Illustrés | Créer et Vendre',
     metaDescription:
-      'Créez des puzzles algébriques illustrés à vendre sur Etsy, KDP et TPT. Images comme variables, 4 niveaux, solution unique garantie. Essai gratuit avec filigrane.',
+      'Créez des puzzles algébriques illustrés pour Etsy, KDP et TPT. Images comme variables, 4 niveaux de difficulté, solution unique. Essai gratuit avec filigrane.',
   },
 
   hero: {

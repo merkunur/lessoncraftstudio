@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur d\'activités prépositions multilingue',
     ],
     titleTag: 'Générateur Fiches Prépositions | Imprimables Spatial',
-    metaDescription: 'Créez des fiches de prépositions avec texte à trous et choix multiple, remplacement de formes, 104 thèmes, 11 langues. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Créez des fiches de prépositions avec texte à trous et choix multiple, remplacement de formes, 104 thèmes et 11 langues. Essai gratuit avec filigrane.',
   },
 
   hero: {

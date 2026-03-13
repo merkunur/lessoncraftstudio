@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil correspondance ombres licence commerciale',
     ],
     titleTag: 'Fiches de Discrimination Visuelle par Ombres — Guide',
-    metaDescription: 'Créez des fiches de discrimination visuelle avec deux modes : Correspondance d\'Ombres pour les silhouettes et Reconstitution d\'Image pour les moitiés découpées. Guide étape par étape pour vendre sur Etsy et KDP.',
+    metaDescription: 'Créez des fiches discrimination visuelle avec deux modes : Ombres pour silhouettes et Reconstitution pour moitiés découpées. Guide complet pour Etsy et KDP.',
   },
 
   hero: {

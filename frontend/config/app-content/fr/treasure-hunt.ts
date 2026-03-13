@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Chasse au Trésor | Créer & Vendre',
     metaDescription:
-      'Créez des fiches chasse au trésor à vendre sur Etsy, KDP et TPT. Grille 5×5, deux types de directions, corrigé automatique, 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches chasse au trésor pour Etsy, KDP et TPT. Grille 5×5, deux types de directions, corrigé auto, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

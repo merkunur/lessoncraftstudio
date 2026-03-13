@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Cherche et Compte | Objets Cachés',
     metaDescription:
-      'Créez des fiches cherche et compte à vendre sur Etsy, KDP et TPT. Mode Objets Cachés + Repérage de Lettres, 4 types de tâches, corrigé automatique. Essai gratuit avec filigrane.',
+      'Créez des fiches cherche et compte pour Etsy, KDP et TPT. Modes Objets Cachés et Repérage de Lettres, 4 types de tâches, corrigé. Essai gratuit avec filigrane.',
   },
 
   hero: {

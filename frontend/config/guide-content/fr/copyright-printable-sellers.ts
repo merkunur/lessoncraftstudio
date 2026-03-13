@@ -18,7 +18,7 @@ const content: GuideContent = {
       'choix créatifs expression versus idées faits méthodes standard contenu éducatif',
     ],
     titleTag: 'Droit d’auteur vendeurs imprimables — Guide essentiel',
-    metaDescription: 'Comprendre le droit d’auteur pour les vendeurs d’imprimables : quels éléments de fiches sont protégeables, avantages de l’enregistrement, application et comment éviter la contrefaçon.',
+    metaDescription: 'Droit d’auteur pour vendeurs d’imprimables : quels éléments de fiches sont protégeables, enregistrement, application et comment éviter la contrefaçon.',
   },
 
   hero: {

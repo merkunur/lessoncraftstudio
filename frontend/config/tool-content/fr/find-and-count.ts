@@ -15,7 +15,7 @@ const content: ToolContent = {
       'alphabets spécifiques à la langue lettres accentuées générateur je vois je vois',
     ],
     titleTag: 'Créateur Cherche et Compte — Générateur Fiches Je Vois',
-    metaDescription: 'Créez des fiches Je Vois Je Vois avec les modes Objets Cachés et Repérage de Lettres, quatre types de tâches, alphabets avec lettres accentuées, 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches cherche et compte avec modes Objets Cachés et Repérage de Lettres, quatre types de tâches, 104 thèmes illustrés. Essai gratuit avec filigrane.',
   },
 
   hero: {

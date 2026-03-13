@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil pièces manquantes licence commerciale',
     ],
     titleTag: 'Puzzles Pièces Manquantes à Imprimer — Guide',
-    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes de pièces, extraction intelligente, pièces distractrices et corrigés automatiques. Guide de vente étape par étape pour Etsy et KDP.',
+    metaDescription: 'Créez des puzzles pièces manquantes avec 6 formes, extraction intelligente, distractrices et corrigés automatiques. Guide complet de vente pour Etsy et KDP.',
   },
 
   hero: {

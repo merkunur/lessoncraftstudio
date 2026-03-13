@@ -18,7 +18,7 @@ const content: GuideContent = {
       'adultes enfants mots cachés marché public formatage de grille',
     ],
     titleTag: 'Créer des livres de mots cachés KDP — Guide',
-    metaDescription: 'Créez des livres de mots cachés KDP avec des listes de mots thématiques, des formats gros caractères et une stratégie de série. Taille de grille, ciblage d\'audience et optimisation Amazon.',
+    metaDescription: 'Créez des livres mots cachés KDP avec listes de mots thématiques, formats gros caractères et stratégie de série. Taille de grille et optimisation Amazon.',
   },
 
   hero: {

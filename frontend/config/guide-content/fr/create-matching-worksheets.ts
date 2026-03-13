@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil fiches association licence commerciale',
     ],
     titleTag: 'Créer des fiches d\'association pour la maternelle — Guide',
-    metaDescription: 'Comment créer des fiches d\'association pour la maternelle. Utilisez 4 modes, des images thématiques, des corrigés automatiques avec lignes de liaison et exportez des PDF prêts à imprimer pour Etsy et KDP.',
+    metaDescription: 'Comment créer des fiches d’association pour enfants. 4 modes, images thématiques, corrigés auto avec lignes de liaison et PDF prêts à imprimer pour Etsy et KDP.',
   },
 
   hero: {

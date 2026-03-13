@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur fiches séquences AB ABC AABB train wagons',
     ],
     titleTag: 'Générateur Fiches Train Suites Logiques | Vendre',
-    metaDescription: 'Créez des fiches train de suites logiques avec cinq types de motifs, 11 wagons thématiques, nombre d\'indices ajustable et corrigé automatique. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches train de suites logiques avec 5 types de motifs, 11 wagons thématiques, indices ajustables, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {

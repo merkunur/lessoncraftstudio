@@ -18,7 +18,7 @@ const content: GuideContent = {
       'catégorie attributs Etsy pour produits éducatifs numériques',
     ],
     titleTag: 'SEO Etsy Matériel Pédagogique Imprimable — Guide',
-    metaDescription: 'Guide SEO Etsy pour matériel pédagogique imprimable. Recherche de mots-clés, optimisation des titres, 13 tags, descriptions et facteurs de classement pour vendeurs.',
+    metaDescription: 'Guide SEO Etsy pour matériel pédagogique imprimable. Recherche de mots-clés, optimisation des titres, 13 tags, descriptions et facteurs de classement.',
   },
 
   hero: {

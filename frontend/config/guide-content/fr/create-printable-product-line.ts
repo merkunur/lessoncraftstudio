@@ -18,7 +18,7 @@ const content: GuideContent = {
       'identité visuelle hiérarchie produits produits complémentaires écosystème produits cohésion gamme',
     ],
     titleTag: 'Créer une gamme de produits imprimables — Guide',
-    metaDescription: 'Apprenez à créer une gamme de produits imprimables avec un branding cohérent, un séquençage stratégique et une expansion systématique pour construire un catalogue cohésif.',
+    metaDescription: 'Créez une gamme de produits imprimables avec branding cohérent, séquençage stratégique et expansion systématique pour un catalogue professionnel vendeur.',
   },
 
   hero: {

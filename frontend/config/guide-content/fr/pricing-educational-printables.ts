@@ -17,8 +17,8 @@ const content: GuideContent = {
       'tarification saisonnière ajustement des prix étude de marché disposition à payer modèle de tarification',
       'cadre de tarification positionnement tarifaire sous-tarification surtarification tarification durable',
     ],
-    titleTag: 'Stratégies de tarification pour imprimables éducatifs — Guide',
-    metaDescription: 'Stratégies éprouvées de tarification pour imprimables éducatifs. Couvre la psychologie des prix, l\'analyse concurrentielle, les frais de plateforme, les marges et les tests de prix.',
+    titleTag: 'Tarification imprimables éducatifs — Guide vendeur',
+    metaDescription: 'Stratégies de tarification pour imprimables éducatifs. Psychologie des prix, analyse concurrentielle, frais de plateforme, marges et tests pour vendeurs.',
   },
 
   hero: {

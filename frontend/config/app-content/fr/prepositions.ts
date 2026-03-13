@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Prépositions | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de prépositions à vendre sur Etsy, Amazon KDP et TPT. 8 prépositions spatiales, texte à trous et choix multiple. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches de prépositions pour Etsy, KDP et TPT. 8 prépositions spatiales, texte à trous et choix multiple, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

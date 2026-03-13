@@ -18,7 +18,7 @@ const content: GuideContent = {
       'registres de licence documentation de licence licence multi-plateforme avantage concurrentiel',
     ],
     titleTag: 'Licence Commerciale Imprimables — Guide du Vendeur',
-    metaDescription: 'Comprenez les licences commerciales pour les imprimables avant de vendre. Découvrez les types de licences, les erreurs courantes et comment une licence appropriée protège votre activité.',
+    metaDescription: 'Licences commerciales pour imprimables avant de vendre. Types de licences, erreurs courantes et comment une licence appropriée protège votre activité.',
   },
 
   hero: {

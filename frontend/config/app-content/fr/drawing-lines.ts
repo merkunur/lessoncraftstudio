@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Graphisme | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de graphisme à vendre sur Etsy, Amazon KDP et TPT. Huit modèles SVG, association de paires d\'images, 104 collections thématiques. Essai gratuit avec filigrane — licence.',
+      'Créez des fiches de graphisme à vendre sur Etsy, KDP et TPT. Huit modèles SVG, association de paires d’images, 104 collections. Essai gratuit avec filigrane.',
   },
 
   hero: {

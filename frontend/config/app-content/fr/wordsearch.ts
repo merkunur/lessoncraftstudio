@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Mots Cachés | Créer et Vendre',
     metaDescription:
-      'Créez des fiches mots cachés à vendre sur Etsy, Amazon KDP et TPT. Grille ajustable 5×5 à 30×30, directions diagonales, lettres de remplissage adaptées à la langue. Essai gratuit avec filigrane.',
+      'Créez des fiches mots cachés pour Etsy, KDP et TPT. Grille 5×5 à 30×30, directions diagonales, lettres adaptées à la langue. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur de puzzles mots cachés multilingue',
     ],
     titleTag: 'Générateur Fiches Mots Cachés | Grilles Imprimables',
-    metaDescription: 'Créez des fiches mots cachés avec grilles ajustables de 5×5 à 30×30, directions diagonales, lettres de remplissage adaptées à la langue, 11 langues. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Créez des fiches mots cachés avec grilles ajustables 5×5 à 30×30, directions diagonales, lettres adaptées à la langue, 11 langues. Essai gratuit avec filigrane.',
   },
 
   hero: {

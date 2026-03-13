@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idées d\'Imprimables Animaux de la Forêt à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\'imprimables animaux de la forêt à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits thème bois, conseils par plateforme et stratégies de niche pour les vendeurs.',
+    titleTag: 'Imprimables Animaux de la Forêt à Vendre — Guide Niche',
+    metaDescription: 'Idées d’imprimables animaux de la forêt à vendre sur Etsy, Amazon KDP et TPT. Concepts produits thème bois, conseils par plateforme et stratégies de niche.',
 
     primaryKeyword: 'idées imprimables animaux de la forêt',
     secondaryKeywords: [

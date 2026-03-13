@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé auto cercles roses chemin de solution générateur labyrinthes',
     ],
     titleTag: 'Créateur Labyrinthes — Générateur Fiches Labyrinthes',
-    metaDescription: 'Créez des fiches labyrinthes avec les modes Chemin d\'Images, Labyrinthe Classique et Choisis le Bon Chemin, objets à collectionner et corrigés auto. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches labyrinthes avec modes Chemin d’Images, Labyrinthe Classique et Bon Chemin, objets à récolter, corrigés. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'cahiers classement par taille Amazon KDP',
       'outil fiches tailles licence commerciale',
     ],
-    titleTag: 'Fiches de Comparaison de Tailles à Imprimer — Guide Étape par Étape',
-    metaDescription: 'Créez des fiches de comparaison de tailles avec 5 types de questions et 2 modes d\'image. Sortie sans texte vendable dans le monde entier. Guide étape par étape pour Etsy, KDP et TpT.',
+    titleTag: 'Fiches Comparaison de Tailles — Guide Étape par Étape',
+    metaDescription: 'Créez des fiches comparaison de tailles avec 5 types de questions et 2 modes d’image. Sortie sans texte vendable partout. Guide pour Etsy, KDP et TpT.',
   },
 
   hero: {

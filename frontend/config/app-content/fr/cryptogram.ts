@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Cryptogramme | Créer et Vendre',
     metaDescription:
-      'Créez des fiches cryptogramme à vendre sur Etsy, Amazon KDP et TPT. Chiffre par images, Lettres à Révéler 0–10, 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches cryptogramme à vendre sur Etsy, KDP et TPT. Chiffre par images, Lettres à Révéler 0–10, 104 thèmes, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {

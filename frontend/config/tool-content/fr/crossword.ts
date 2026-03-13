@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé auto-généré grille remplie système double canevas',
     ],
     titleTag: 'Créateur Mots Croisés — Générateur Mots Croisés Images',
-    metaDescription: 'Créez des mots croisés en images avec indices visuels sur grille 15×15, quatre méthodes de saisie, corrigés automatiques, 104 collections thématiques. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des mots croisés en images avec grille 15×15, quatre méthodes de saisie, corrigés auto et 104 collections thématiques. Essai gratuit avec filigrane.',
   },
 
   hero: {

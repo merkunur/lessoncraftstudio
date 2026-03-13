@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP erreurs téléversement rejet dépannage prévisualiseur épreuve',
     ],
     titleTag: 'Formatage KDP fiches exercices — Guide complet',
-    metaDescription: 'Guide de formatage KDP couvrant formats de coupe, marges, fond perdu, export PDF 300 DPI, dimensions de couverture et dépannage du téléversement pour livres d\'activités.',
+    metaDescription: 'Guide formatage KDP : formats de coupe, marges, fond perdu, export PDF 300 DPI, dimensions de couverture et dépannage du téléversement pour livres d’activités.',
   },
 
   hero: {

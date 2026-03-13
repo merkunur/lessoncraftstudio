@@ -17,8 +17,8 @@ const content: StartContent = {
       'optimisation de marketplace pour livres d\'activités',
       'marketing de contenu pour entrepreneurs en imprimables',
     ],
-    titleTag: 'Comment commercialiser des fiches imprimables — Guide vendeur',
-    metaDescription: 'Comment commercialiser des fiches imprimables en ligne : SEO de plateforme, stratégie Pinterest, marketing par e-mail, timing saisonnier et construction de marque pour entrepreneurs en imprimables.',
+    titleTag: 'Commercialiser des fiches imprimables — Guide vendeur',
+    metaDescription: 'Comment commercialiser des fiches imprimables : SEO, stratégie Pinterest, e-mail marketing, timing saisonnier et construction de marque pour entrepreneurs.',
   },
 
   hero: {

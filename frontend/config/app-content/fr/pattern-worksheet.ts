@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Séquences Logiques | Vendre',
     metaDescription:
-      'Créez des fiches de séquences logiques à vendre sur Etsy, KDP et TPT. Neuf types de motifs, deux modes de question, configuration par exercice, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches séquences logiques pour Etsy, KDP et TPT. Neuf types de motifs, deux modes de question, 104 thèmes, corrigé auto. Essai gratuit avec filigrane.',
   },
 
   hero: {

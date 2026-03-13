@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Train Alphabet | Créer des Fiches Lettres',
     metaDescription:
-      'Créez des fiches train alphabet à vendre sur Etsy, Amazon KDP et TPT. 11 wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches train alphabet à vendre sur Etsy, KDP et TPT. Wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'créateur de fiches grand petit moyen classement par taille',
     ],
     titleTag: 'Générateur Fiches Grand & Petit | Créer et Vendre',
-    metaDescription: 'Créez des fiches de comparaison de tailles avec cinq types de questions, modes images identiques et différentes, 104 thèmes. Export PDF à 300 DPI. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Générez des fiches comparaison de tailles avec 5 types de questions, modes identiques et différents, 104 thèmes, export PDF. Essai gratuit avec filigrane.',
   },
 
   hero: {

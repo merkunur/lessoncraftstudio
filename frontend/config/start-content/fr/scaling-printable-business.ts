@@ -17,8 +17,8 @@ const content: StartContent = {
       'expansion multilingue des marchés imprimables',
       'stratégie de réinvestissement pour activité imprimables',
     ],
-    titleTag: 'Développer activité imprimables — D\'activité secondaire à temps plein',
-    metaDescription: 'Comment développer votre activité d\'imprimables d\'activité secondaire à temps plein. Expansion du catalogue, distribution multi-plateforme, regroupement et automatisation du workflow.',
+    titleTag: 'Développer activité imprimables — Guide de croissance',
+    metaDescription: 'Développez votre activité d’imprimables d’activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
   },
 
   hero: {

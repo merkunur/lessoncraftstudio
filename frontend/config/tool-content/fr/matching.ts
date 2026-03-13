@@ -15,7 +15,7 @@ const content: ToolContent = {
       'créateur d\'activités lettre initiale image mot association',
     ],
     titleTag: 'Créateur Fiches d\'Association — Générateur Relier',
-    metaDescription: 'Créez des fiches d\'association avec 4 modes, corrigé automatique avec lignes de liaison, paires configurables, 11 langues et 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches d’association avec 4 modes, corrigé auto avec lignes de liaison, paires configurables, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

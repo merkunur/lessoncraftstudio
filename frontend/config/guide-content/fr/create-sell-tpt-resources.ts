@@ -18,7 +18,7 @@ const content: GuideContent = {
       'pack fiches unité programme activités lot stratégie tarifaire',
     ],
     titleTag: 'Créer et vendre des ressources TPT — Guide',
-    metaDescription: 'Comment créer et vendre des ressources TPT. Configuration du compte, formatage des ressources, optimisation des fiches produit, tarification et lancement sur Teachers Pay Teachers.',
+    metaDescription: 'Comment créer et vendre des ressources TPT. Configuration compte, formatage, optimisation des fiches produit, tarification et lancement. Guide vendeurs TPT.',
   },
 
   hero: {

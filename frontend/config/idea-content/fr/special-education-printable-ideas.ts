@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Éducation Spécialisée à Vendre',
-    metaDescription: 'Idées d\'imprimables éducation spécialisée à vendre sur Etsy, KDP et TPT. Concepts de produits adaptés pour enseignants, thérapeutes et parents.',
+    metaDescription: 'Idées d’imprimables éducation spécialisée à vendre sur Etsy, KDP et TPT. Concepts de produits adaptés pour enseignants, thérapeutes et parents d’élèves.',
 
     primaryKeyword: 'idées imprimables éducation spécialisée',
     secondaryKeywords: [

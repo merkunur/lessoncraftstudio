@@ -18,7 +18,7 @@ const content: StartContent = {
       'vendre des fiches sur etsy.de etsy.fr',
     ],
     titleTag: 'Générateur de Fiches Multilingues — 11 Langues',
-    metaDescription: 'Créez et vendez des fiches en 11 langues avec un générateur multilingue. Atteignez les acheteurs allemands, français et espagnols sur Etsy, Amazon KDP et les marchés internationaux.',
+    metaDescription: 'Créez et vendez des fiches dans 11 langues avec un générateur multilingue. Atteignez les acheteurs sur Etsy, Amazon KDP et les marchés internationaux.',
   },
 
   hero: {

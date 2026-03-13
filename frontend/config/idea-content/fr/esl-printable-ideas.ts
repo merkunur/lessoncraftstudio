@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables FLE à Vendre — Guide Niche',
-    metaDescription: 'Idées d\'imprimables FLE/ESL à vendre sur Etsy, KDP et TPT. Stratégies de niche pour vendeurs ciblant enseignants, tuteurs et apprenants d\'anglais.',
+    metaDescription: 'Idées d’imprimables FLE/ESL à vendre sur Etsy, KDP et TPT. Stratégies de niche pour vendeurs ciblant enseignants, tuteurs et apprenants d’anglais dans le monde.',
 
     primaryKeyword: 'idées imprimables FLE ESL',
     secondaryKeywords: [

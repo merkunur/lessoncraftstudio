@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sections boutique catégories navigation organisation conviviale',
       'TPT analytique planification saisonnière stratégie de mise à l\'échelle catalogue basée données',
     ],
-    titleTag: 'Guide d\'optimisation boutique TPT — Vendre plus de ressources',
-    metaDescription: 'Stratégies d\'optimisation de boutique TPT pour un meilleur classement dans les recherches et plus de ventes. Conversion des aperçus, lots de produits, construction d\'avis et mise à l\'échelle du catalogue.',
+    titleTag: 'Optimisation boutique TPT — Vendre plus de ressources',
+    metaDescription: 'Stratégies d’optimisation boutique TPT pour un meilleur classement et plus de ventes. Conversion aperçus, lots, avis et mise à l’échelle du catalogue.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fiches association de paires d\'images tracé de lignes',
     ],
     titleTag: 'Générateur Fiches Graphisme — Tracé de Lignes | Vendre',
-    metaDescription: 'Créez des fiches de graphisme avec huit modèles SVG, 3 100+ illustrations colorées dans 104 thèmes et remplissage automatique de paires d\'images. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches de graphisme avec huit modèles SVG, 3 100+ illustrations dans 104 thèmes et remplissage auto des paires. Essai gratuit avec filigrane.',
   },
 
   hero: {

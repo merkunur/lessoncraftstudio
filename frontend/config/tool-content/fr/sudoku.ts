@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé auto grille complète remplie générateur sudoku en images',
     ],
     titleTag: 'Créateur Sudoku en Images — Générateur Puzzles 4×4',
-    metaDescription: 'Créez des sudoku en images pour enfants avec grilles 4×4, trois niveaux de difficulté, corrigés auto et 104 collections thématiques. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des sudoku en images pour enfants avec grilles 4×4, trois niveaux de difficulté, corrigés automatiques et 104 collections. Essai gratuit avec filigrane.',
   },
 
   hero: {

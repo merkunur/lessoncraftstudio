@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches visuelles en masse',
     ],
     titleTag: 'Pack Apprentissage Visuel — 7 Générateurs d\'Activités',
-    metaDescription: '7 générateurs d\'apprentissage visuel en un seul pack. Créez des fiches de coloriage, dessin, motifs, comparaison de tailles, graphiques et tracé de lignes à vendre en ligne.',
+    metaDescription: '7 générateurs d’apprentissage visuel en un pack. Coloriage, dessin, motifs, tailles, graphiques et tracé de lignes à vendre sur Etsy, KDP et TPT. Essai gratuit.',
   },
 
   hero: {

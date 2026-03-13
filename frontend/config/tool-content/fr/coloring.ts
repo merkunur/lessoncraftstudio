@@ -15,7 +15,7 @@ const content: ToolContent = {
       'créateur de fiches de coloriage avec dessin à main levée',
     ],
     titleTag: 'Générateur Pages de Coloriage — Créateur Fiches | Vendre',
-    metaDescription: 'Créez des pages de coloriage sur un canevas libre avec 3 100+ illustrations dans 104 thèmes, dessin à main levée et export en niveaux de gris. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des pages de coloriage sur canevas libre avec 3 100+ illustrations, 104 thèmes, dessin libre, export niveaux de gris. Essai gratuit avec filigrane.',
   },
 
   hero: {

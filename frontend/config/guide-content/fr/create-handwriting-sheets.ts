@@ -17,8 +17,8 @@ const content: GuideContent = {
       'vendre fiches écriture sur Etsy',
       'cahiers écriture Amazon KDP',
     ],
-    titleTag: 'Créer des fiches d\'écriture manuscrite — Guide étape par étape',
-    metaDescription: 'Créez des fiches d\'écriture manuscrite avec modes tracé, tracé progressif et copie guidée. Flèches d\'ordre des traits, cinq styles de police et export PDF pour Etsy et KDP.',
+    titleTag: 'Créer des fiches d’écriture — Guide étape par étape',
+    metaDescription: 'Créez des fiches d’écriture manuscrite avec modes tracé, progressif et copie guidée. Flèches d’ordre des traits, cinq polices et export PDF pour Etsy et KDP.',
   },
 
   hero: {

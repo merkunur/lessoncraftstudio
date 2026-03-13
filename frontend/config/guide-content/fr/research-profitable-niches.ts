@@ -17,8 +17,8 @@ const content: GuideContent = {
       'quantification demande analyse saturation marché outils mots-clés décisions basées données',
       'test produit minimum viable workflow recherche découverte niches processus systématique',
     ],
-    titleTag: 'Rechercher des créneaux imprimables rentables — Guide méthodes',
-    metaDescription: 'Comment rechercher des créneaux imprimables rentables grâce aux données marketplace, analyse de mots-clés, étude de la concurrence, signaux de demande et méthodes de validation systématiques.',
+    titleTag: 'Rechercher des créneaux imprimables rentables — Guide',
+    metaDescription: 'Comment rechercher des créneaux imprimables rentables avec données marketplace, analyse mots-clés, étude concurrence, signaux de demande et validation.',
   },
 
   hero: {

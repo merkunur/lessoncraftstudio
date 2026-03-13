@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil suites logiques licence commerciale',
     ],
     titleTag: 'Fiches de Suites Logiques à Imprimer — Guide Étape par Étape',
-    metaDescription: 'Créez des fiches de suites logiques avec 9 types de motifs, images thématiques, corrigés automatiques et 2 formats de questions. Exportez des PDF prêts à imprimer pour vendre sur Etsy, Amazon KDP et TpT.',
+    metaDescription: 'Créez des fiches suites logiques avec 9 types de motifs, images thématiques, corrigés auto et 2 formats de questions. PDF pour Etsy, Amazon KDP et TpT.',
   },
 
   hero: {

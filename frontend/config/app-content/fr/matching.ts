@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches d\'Association | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d\'association à vendre sur Etsy, Amazon KDP et TPT. 4 modes, corrigé automatique, 104 thèmes, paires configurables. Essai gratuit avec filigrane.',
+      'Créez des fiches d’association pour Etsy, KDP et TPT. 4 modes d’association, corrigé auto, 104 thèmes, paires configurables. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Deviner les Mots | Créer et Vendre',
     metaDescription:
-      'Créez des fiches deviner les mots à vendre sur Etsy, Amazon KDP et TPT. Indices images, 4 niveaux de difficulté, 3 sources de contenu, 11 langues. Essai gratuit avec filigrane — licence disponible.',
+      'Créez des fiches deviner les mots pour Etsy, KDP et TPT. Indices images, 4 difficultés, 3 sources de contenu, 11 langues. Essai gratuit avec filigrane.',
   },
 
   hero: {

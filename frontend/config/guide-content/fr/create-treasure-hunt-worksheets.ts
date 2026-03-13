@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil chasse au trésor licence commerciale',
     ],
     titleTag: 'Fiches de Chasse au Trésor — Guide',
-    metaDescription: 'Créez des fiches de chasse au trésor sur une grille 5×5 avec déplacements directionnels, images-repères thématiques et corrigés automatiques. Guide étape par étape pour vendre sur Etsy et KDP.',
+    metaDescription: 'Créez des fiches chasse au trésor sur grille 5×5 avec déplacements directionnels, images-repères et corrigés auto. Guide étape par étape pour Etsy et KDP.',
   },
 
   hero: {

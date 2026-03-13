@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Pages de Coloriage | Créer et Vendre',
     metaDescription:
-      'Créez des pages de coloriage à vendre sur Etsy, Amazon KDP et TPT. Canevas libre, 104 thèmes, dessin à main levée, export niveaux de gris. Essai gratuit avec filigrane — licence.',
+      'Créez des pages de coloriage pour Etsy, KDP et TPT. Canevas libre, 104 thèmes, dessin à main levée, export niveaux de gris. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Plus ou Moins | Fiches de Comparaison',
     metaDescription:
-      'Créez des fiches de comparaison de quantités à vendre sur Etsy, KDP et TPT. 3 modes de comparaison, 104 thèmes, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches comparaison de quantités pour Etsy, KDP et TPT. 3 modes de comparaison, 104 thèmes, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {

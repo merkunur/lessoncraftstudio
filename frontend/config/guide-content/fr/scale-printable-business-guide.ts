@@ -17,8 +17,8 @@ const content: GuideContent = {
       'croissance catalogue revenu par produit diversification plateformes goulot étranglement',
       'systèmes entreprise processus reproductibles pipeline production multiplication contenu',
     ],
-    titleTag: 'Développer Activité Imprimables — Guide Stratégie de Croissance',
-    metaDescription: 'Comment développer votre activité d\'imprimables avec la production par lots, l\'expansion multiplateforme, la croissance du catalogue, les marchés multilingues et les stratégies d\'automatisation.',
+    titleTag: 'Développer Activité Imprimables — Guide de Croissance',
+    metaDescription: 'Comment développer votre activité d’imprimables avec production par lots, expansion multiplateforme, catalogue, marchés multilingues et automatisation.',
   },
 
   hero: {

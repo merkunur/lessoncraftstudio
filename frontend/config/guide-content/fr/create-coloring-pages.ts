@@ -17,8 +17,8 @@ const content: GuideContent = {
       'fiches activité coloriage pour la classe',
       'outil coloriage licence commerciale',
     ],
-    titleTag: 'Créer des pages de coloriage à partir d\'images thématiques — Guide',
-    metaDescription: 'Comment créer des pages de coloriage à partir de 3 100+ images thématiques. Canevas libre avec export niveaux de gris, dessin à main levée et outils de classe. Vendez sur Etsy et KDP.',
+    titleTag: 'Créer des coloriages à partir d’images — Guide pratique',
+    metaDescription: 'Comment créer des pages de coloriage avec 3 100+ images thématiques. Canevas libre, export niveaux de gris et dessin à main levée. Vendez sur Etsy et KDP.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'photos annonces Etsy mockups pour produits coloriages',
     ],
     titleTag: 'Créer des coloriages Etsy qui se vendent — Guide',
-    metaDescription: 'Créez des coloriages Etsy à partir de 104 thèmes d’images. Export N&B et niveaux de gris, optimisation des annonces, tarification et stratégies de vente saisonnières.',
+    metaDescription: 'Créez des coloriages Etsy avec 104 thèmes d’images. Export N&B et niveaux de gris, optimisation des annonces, tarification et stratégies saisonnières de vente.',
   },
 
   hero: {

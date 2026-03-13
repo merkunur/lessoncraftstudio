@@ -18,7 +18,7 @@ const content: GuideContent = {
       'hybride inter-catégories livres activités thématiques sous-niche',
     ],
     titleTag: 'Niches livres activités KDP — Guide des meilleurs choix',
-    metaDescription: 'Découvrez les meilleures niches de livres d\'activités KDP pour éditeurs. Analyse de la demande, évaluation de la concurrence, catégories sous-exploitées et timing saisonnier.',
+    metaDescription: 'Meilleures niches de livres d’activités KDP pour éditeurs. Analyse de la demande, évaluation concurrence, catégories sous-exploitées et timing saisonnier.',
   },
 
   hero: {

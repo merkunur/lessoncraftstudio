@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé auto-généré annotations cercles rouges créateur objets cachés',
     ],
     titleTag: 'Créateur Objets Cachés — Générateur Fiches Cherche Objets',
-    metaDescription: 'Créez des fiches objets cachés avec les modes Je Vois Je Vois et Trouve l\'Intrus, scènes sans chevauchement, corrigés automatiques, 104 collections thématiques. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches objets cachés avec modes Cherche et Intrus, scènes sans chevauchement, corrigés auto et 104 thèmes d’images. Essai gratuit avec filigrane.',
   },
 
   hero: {

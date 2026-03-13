@@ -17,8 +17,8 @@ const content: GuideContent = {
       'labyrinthes thématiques avec images licence commerciale',
       'générateur labyrinthes licence commerciale',
     ],
-    titleTag: 'Créer des fiches labyrinthes à imprimer — Guide étape par étape',
-    metaDescription: 'Comment créer des fiches labyrinthes avec 3 modes de jeu, des images thématiques et des corrigés. Générez des fiches labyrinthes imprimables à vendre sur Etsy et Amazon KDP.',
+    titleTag: 'Créer des fiches labyrinthes — Guide étape par étape',
+    metaDescription: 'Comment créer des fiches labyrinthes avec 3 modes de jeu, images thématiques et corrigés automatiques. Fiches labyrinthes imprimables pour Etsy et Amazon KDP.',
   },
 
   hero: {

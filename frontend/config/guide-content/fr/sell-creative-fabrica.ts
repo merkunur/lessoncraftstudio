@@ -17,8 +17,8 @@ const content: GuideContent = {
       'tags produit catégories optimisation recherche images couverture formatage description',
       'montée en charge catalogue lots promotion intercatégories polices graphiques ressources éducatives',
     ],
-    titleTag: 'Vendre des ressources éducatives sur Creative Fabrica — Guide',
-    metaDescription: 'Vendez des ressources éducatives sur Creative Fabrica. Gagnez grâce aux abonnements et aux ventes individuelles, touchez le public créatif et éducateur dans la section Classroom.',
+    titleTag: 'Vendre des ressources sur Creative Fabrica — Guide',
+    metaDescription: 'Vendez des ressources éducatives sur Creative Fabrica. Revenus abonnements et ventes individuelles, public créatif et section Classroom pour éducateurs.',
   },
 
   hero: {

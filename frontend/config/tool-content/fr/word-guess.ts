@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur d\'activités orthographe multilingue',
     ],
     titleTag: 'Générateur Fiches Deviner les Mots | Imprimables',
-    metaDescription: 'Créez des fiches deviner les mots avec 4 niveaux de difficulté, deux modes de saisie, exclure des lettres, 11 langues et 104 thèmes. Essai gratuit avec filigrane — licence disponible.',
+    metaDescription: 'Créez des fiches deviner les mots avec 4 niveaux de difficulté, deux modes de saisie, lettres exclues, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

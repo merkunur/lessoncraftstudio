@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d’Imprimables de Pâques à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d’imprimables de Pâques à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits printaniers, stratégies saisonnières et conseils de plateforme pour les vendeurs.',
+    metaDescription: 'Idées d’imprimables de Pâques à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits printaniers, stratégies saisonnières et conseils pour les vendeurs.',
 
     primaryKeyword: 'idées d’imprimables de Pâques',
     secondaryKeywords: [

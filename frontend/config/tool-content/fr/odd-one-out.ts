@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé auto cercles rouges élément intrus créateur fiches',
     ],
     titleTag: 'Créateur Fiches Intrus — Générateur Puzzles Visuels',
-    metaDescription: 'Créez des fiches intrus avec modes Identique et Similaire, remplacements par exercice, corrigés auto avec cercles rouges, 104 thèmes. Essai gratuit — licence disponible.',
+    metaDescription: 'Créez des fiches trouve l’intrus avec modes Identique et Similaire, corrigés auto avec cercles rouges, 104 thèmes d’images. Essai gratuit avec filigrane.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Fiches d\'Addition | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d\'addition à vendre sur Etsy, Amazon KDP et TPT. 104 thèmes, 4 modes d\'exercice, corrigés inclus, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches d’addition à vendre sur Etsy, KDP et TPT. 104 thèmes, 4 modes d’exercice, corrigés inclus, export 400+ DPI. Essai gratuit avec filigrane.',
   },
 
   hero: {

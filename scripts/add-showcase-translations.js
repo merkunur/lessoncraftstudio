@@ -1,253 +1,15 @@
 /**
- * showcase-i18n.ts — Shared locale infrastructure for visual showcases.
- *
- * Provides:
- * 1. Locale-aware image URL builder
- * 2. German translation table for shared UI strings
- * 3. Per-app German text overrides (headings, descriptions, etc.)
+ * add-showcase-translations.js
+ * Adds all 338 missing DE + 338 missing FR translations to showcase-i18n.ts
  */
+const fs = require('fs');
+const path = require('path');
 
-// ─── Locale-aware image URL builder ───
+const filePath = path.join(__dirname, '..', 'frontend', 'config', 'showcase-i18n.ts');
 
-const localeFolderMap: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-};
-
-/** Build a sample image URL for any locale */
-export function imgUrl(appFolder: string, filename: string, locale: string = 'en') {
-  const langFolder = localeFolderMap[locale] || 'english';
-  return `/samples/${langFolder}/${encodeURIComponent(appFolder)}/${encodeURIComponent(filename)}`;
-}
-
-// ─── Shared German string translations ───
-// Used by all 3 config files to auto-translate common strings.
-
-const deStringTable: Record<string, string> = {
-  // ── Badges ──
-  'Grades K-2': 'Klassen K-2',
-  'Grades 1-3': 'Klassen 1-3',
-  'Grades 1-4': 'Klassen 1-4',
-  'Skill Levels': 'Schwierigkeitsstufen',
-  'Challenge Levels': 'Herausforderungsstufen',
-  'Professional Printables': 'Professionelle Druckvorlagen',
-  'Early Math Skills': 'Erste Rechenschritte',
-  'Early Math Foundations': 'Mathe-Grundlagen',
-  'Progression Path': 'Lernpfad',
-  'Visual Learning': 'Visuelles Lernen',
-  'Fine Motor Skills': 'Feinmotorik',
-  'Pre-Writing': 'Vorschulschreiben',
-  'Language Skills': 'Sprachkompetenz',
-  'Word Skills': 'Wortschatz',
-  'Logic & Fun': 'Logik & Spaß',
-  'Creative Skills': 'Kreativität',
-  'Observation Skills': 'Beobachtungsgabe',
-  'Group Activities': 'Gruppenaktivitäten',
-
-  // ── Tier names ──
-  'Beginner': 'Anfänger',
-  'Explorer': 'Entdecker',
-  'Expert': 'Experte',
-  'Rookie': 'Einsteiger',
-  'Codebreaker': 'Codeknacker',
-  'Mastermind': 'Meisterdetektiv',
-  'Standard': 'Standard',
-  'Advanced': 'Fortgeschritten',
-  'Creative': 'Kreativ',
-
-  // ── Common pill labels ──
-  'Pictures + Numbers': 'Bilder + Zahlen',
-  'Answer Keys': 'Lösungsschlüssel',
-  'Answer Key Included': 'Lösungsschlüssel inklusive',
-  'Print-Ready': 'Druckfertig',
-  'Free Trial with Watermark': 'Kostenlos testen mit Wasserzeichen',
-  'Cross Out Method': 'Durchstreich-Methode',
-  'Decode Messages': 'Nachrichten entschlüsseln',
-  'Compare Amounts': 'Mengen vergleichen',
-  'Brain Teasers': 'Denksportaufgaben',
-  'Practice Problems': 'Übungsaufgaben',
-  'ABC Learning': 'ABC Lernen',
-  'Position Words': 'Positionswörter',
-  'Guess the Word': 'Wort erraten',
-  'Unscramble Words': 'Buchstabensalat lösen',
-  'Find Hidden Words': 'Versteckte Wörter finden',
-  'Crossword Puzzles': 'Kreuzworträtsel',
-  'Decode Secrets': 'Geheimcodes knacken',
-  'Handwriting Practice': 'Schreibübung',
-  'Guided Lines': 'Führungslinien',
-  'Size Comparison': 'Größenvergleich',
-  'Pattern Fun': 'Musterspaß',
-  'Pattern Recognition': 'Mustererkennung',
-  'Grid Drawing': 'Rasterzeichnen',
-  'Step-by-Step': 'Schritt für Schritt',
-  'Trace Lines': 'Linien nachzeichnen',
-  'Fine Motor': 'Feinmotorik',
-  'Color & Create': 'Ausmalen & Gestalten',
-  'Themed Pages': 'Themen-Seiten',
-  'Picture Graphs': 'Bilddiagramme',
-  'Match Pairs': 'Paare finden',
-  'Grid Puzzles': 'Raster-Puzzle',
-  'Match Shadows': 'Schatten zuordnen',
-  'Bingo Cards': 'Bingokarten',
-  'Callout Sheets': 'Aufruflisten',
-  'Sort & Classify': 'Sortieren & Zuordnen',
-  'Find Missing Parts': 'Fehlende Teile finden',
-  'Spot the Odd One': 'Finde den Unterschied',
-  'Picture Sudoku': 'Bilder-Sudoku',
-  'Follow the Path': 'Folge dem Pfad',
-  'I Spy & Count': 'Ich sehe was & Zählen',
-  'Hidden Objects': 'Versteckte Objekte',
-  'Map Adventures': 'Kartenabenteuer',
-  'Themed Pictures': 'Themenbilder',
-  'Instant Download': 'Sofort-Download',
-
-  // ── Spotlight pills ──
-  'Print Instantly!': 'Sofort ausdrucken!',
-  'Pictures for Math': 'Bilder für Mathe',
-  'With Answer Keys': 'Mit Lösungsschlüssel',
-  'Cross Out Pictures': 'Bilder durchstreichen',
-  'Crack the Code!': 'Knack den Code!',
-  'Math + Logic': 'Mathe + Logik',
-  'Compare & Learn!': 'Vergleichen & Lernen!',
-  'Visual Comparisons': 'Visuelle Vergleiche',
-  'Puzzle Fun!': 'Puzzle-Spaß!',
-  'Practice Makes Perfect!': 'Übung macht den Meister!',
-  'All Operations': 'Alle Rechenarten',
-  'All Aboard ABC!': 'Alle einsteigen zum ABC!',
-  'Letter Recognition': 'Buchstabenerkennung',
-  'Where Is It?': 'Wo ist es?',
-  'Position Practice': 'Positionsübung',
-  'Guess It!': 'Rate mal!',
-  'Picture Clues': 'Bilderhinweise',
-  'Unscramble Fun!': 'Buchstabensalat!',
-  'Spelling Practice': 'Rechtschreibübung',
-  'Find the Words!': 'Finde die Wörter!',
-  'Custom Themes': 'Eigene Themen',
-  'Solve the Clues!': 'Löse die Hinweise!',
-  'Vocabulary Fun': 'Vokabel-Spaß',
-  'Letter Substitution': 'Buchstaben-Ersetzung',
-  'Write & Learn!': 'Schreiben & Lernen!',
-  'Letter Formation': 'Buchstabenform',
-  'Guided Practice': 'Geführtes Üben',
-  'Big or Small?': 'Groß oder Klein?',
-  'Visual Comparison': 'Visueller Vergleich',
-  'Complete the Pattern!': 'Vervollständige das Muster!',
-  'Train Theme': 'Zug-Thema',
-  'Spot the Pattern!': 'Erkenne das Muster!',
-  'Logical Thinking': 'Logisches Denken',
-  'Draw It!': 'Zeichne es!',
-  'Grid Guidance': 'Raster-Hilfe',
-  'Creative Fun': 'Kreativer Spaß',
-  'Trace & Learn!': 'Nachzeichnen & Lernen!',
-  'Motor Skills': 'Motorik',
-  'Color Your World!': 'Male deine Welt!',
-  '100+ Themes': '100+ Themen',
-  'Print & Color': 'Ausdrucken & Ausmalen',
-  'Data Made Fun!': 'Daten machen Spaß!',
-  'Visual Graphing': 'Visuelles Diagramm',
-  'Find the Match!': 'Finde das Paar!',
-  'Visual Pairing': 'Visuelles Zuordnen',
-  'Match the Grid!': 'Raster zuordnen!',
-  'Spatial Skills': 'Räumliches Denken',
-  'Find the Shadow!': 'Finde den Schatten!',
-  'Visual Matching': 'Visuelles Zuordnen',
-  'BINGO!': 'BINGO!',
-  'Group Activity': 'Gruppenaktivität',
-  'Print & Play': 'Ausdrucken & Spielen',
-  'Sort It Out!': 'Sortiere es!',
-  'Categories': 'Kategorien',
-  'Complete the Picture!': 'Vervollständige das Bild!',
-  'Visual Logic': 'Visuelle Logik',
-  'Which One Is Different?': 'Welches ist anders?',
-  'Visual Reasoning': 'Visuelles Denken',
-  'Sudoku Fun!': 'Sudoku-Spaß!',
-  'Logic Puzzles': 'Logik-Rätsel',
-  'Find the Way!': 'Finde den Weg!',
-  'Maze & Path': 'Labyrinth & Pfad',
-  'I Spy!': 'Ich sehe was!',
-  'Count & Find': 'Zählen & Finden',
-  'Find Them All!': 'Finde sie alle!',
-  'Sharp Eyes': 'Scharfe Augen',
-  'Hunt for Treasure!': 'Schatzsuche!',
-  'Map Reading': 'Karten lesen',
-  'Download & Print': 'Herunterladen & Drucken',
-  'Themed Images': 'Themenbilder',
-  'Solutions Included': 'Lösungen inklusive',
-
-  // ── Gallery pills ──
-  'No Prep Required': 'Keine Vorbereitung nötig',
-  'Answers Included': 'Lösungen inklusive',
-  'Differentiated': 'Differenziert',
-  'Multiple Modes': 'Verschiedene Modi',
-  'Problem Solving': 'Problemlösung',
-  'All Skill Levels': 'Alle Schwierigkeitsstufen',
-  'Vocabulary Builder': 'Wortschatztraining',
-  'Any Theme': 'Jedes Thema',
-  'Custom Words': 'Eigene Wörter',
-  'Spelling Skills': 'Rechtschreibung',
-  'Logic Skills': 'Logikfähigkeiten',
-  'Engaging': 'Motivierend',
-  'Vocabulary': 'Wortschatz',
-  'Traceable': 'Nachzeichenbar',
-  'All Letters': 'Alle Buchstaben',
-  'Grammar': 'Grammatik',
-  'Size Concepts': 'Größenkonzepte',
-  'Pattern Skills': 'Mustererkennung',
-  'Engaging Theme': 'Ansprechendes Thema',
-  'Critical Thinking': 'Kritisches Denken',
-  'Art Skills': 'Kunstfertigkeiten',
-  'Progressive': 'Aufbauend',
-  'Data Skills': 'Datenkompetenz',
-  'Cognitive Skills': 'Kognitive Fähigkeiten',
-  'Logic': 'Logik',
-  'Visual Thinking': 'Visuelles Denken',
-  'Observation': 'Beobachtung',
-  'Fun Challenge': 'Spaßige Herausforderung',
-  'Group Fun': 'Gruppenspaß',
-  'Callouts Included': 'Aufruflisten inklusive',
-  'Classification': 'Klassifizierung',
-  'Brain Training': 'Gehirntraining',
-  '3 Difficulties': '3 Schwierigkeiten',
-  'Navigation': 'Navigation',
-  'Fun Themes': 'Spaßige Themen',
-  'Counting': 'Zählen',
-  'Themed Scenes': 'Themen-Szenen',
-  'Detailed Scenes': 'Detaillierte Szenen',
-  'Adventure': 'Abenteuer',
-  'Number Sense': 'Zahlenverständnis',
-  'Comprehensive': 'Umfassend',
-  'Challenging': 'Herausfordernd',
-  'Phonics': 'Lautlehre',
-  'Fun Theme': 'Lustiges Thema',
-  'Multiple Themes': 'Verschiedene Themen',
-
-  // ── Gallery labels ──
-  'Worksheet': 'Arbeitsblatt',
-  'Answer Key': 'Lösungsschlüssel',
-  'Activity Page': 'Aktivitätsseite',
-  'Practice Sheet': 'Übungsblatt',
-  'Solutions': 'Lösungen',
-  'Find Subtrahend': 'Subtrahend finden',
-  'Code Puzzle': 'Code-Rätsel',
-  'More or Less': 'Mehr oder Weniger',
-  'Bingo Card': 'Bingokarte',
-  'Callout Sheet': 'Aufrufliste',
-
-  // ── Gallery/tool pills ──
-  'Print-Ready PDFs': 'Druckfertige PDFs',
-  'Zero Prep Time': 'Null Vorbereitungszeit',
-  'Full Solutions': 'Vollständige Lösungen',
-  'Professional Quality': 'Professionelle Qualität',
-  'Multiple Formats': 'Verschiedene Formate',
-
-  // ── Trophy/motivational text ──
-  'Every child can succeed at their own pace': 'Jedes Kind kann in seinem eigenen Tempo Erfolg haben',
-  'Build confidence with every problem solved': 'Mit jeder gelösten Aufgabe wächst das Selbstvertrauen',
-  'Professional quality at every difficulty level': 'Professionelle Qualität auf jedem Schwierigkeitsniveau',
-  'Progress at your own pace with visual math': 'In eigenem Tempo mit visueller Mathematik lernen',
-
-  // ── Additional translations (auto-generated) ──
+// ── ALL 338 missing German translations ──
+const newDE = {
+  // ── App display names / gallery labels ──
   'Addition': 'Addition',
   'Subtraction': 'Subtraktion',
   'Sudoku': 'Sudoku',
@@ -282,6 +44,8 @@ const deStringTable: Record<string, string> = {
   'Sorting': 'Sortieren',
   'Prepositions': 'Präpositionen',
   'Writing': 'Schreiben',
+
+  // ── Tier/level names ──
   'Adventurer': 'Abenteurer',
   'Detective': 'Detektiv',
   'Master': 'Meister',
@@ -322,6 +86,8 @@ const deStringTable: Record<string, string> = {
   'Writer': 'Schreiber',
   'Sharp Eye': 'Scharfes Auge',
   'Eagle Eye Vision': 'Adlerblick',
+
+  // ── Badge text ──
   'Grades K-3': 'Klassen K-3',
   'Activity Types': 'Aktivitätstypen',
   'Code Levels': 'Code-Stufen',
@@ -454,6 +220,9 @@ const deStringTable: Record<string, string> = {
   'Word Puzzles': 'Worträtsel',
   'Code Puzzles': 'Code-Rätsel',
   'Code Mode': 'Code-Modus',
+
+  // ── Gallery/display labels ──
+  'Worksheet': 'Arbeitsblatt',  // already exists but harmless
   'Equation Sheet': 'Gleichungsblatt',
   'Scramble Sheet': 'Buchstabensalat-Blatt',
   'Search Sheet': 'Suchblatt',
@@ -519,9 +288,13 @@ const deStringTable: Record<string, string> = {
   'Easy': 'Leicht',
   'Grid Method': 'Raster-Methode',
   'Draw-the-Line': 'Ziehe-die-Linie',
-  '3×3 Grid': '3×3 Raster',
-  '4×4 Grid': '4×4 Raster',
-  '4×4 Grids': '4×4 Raster',
+
+  // ── Badges (additional) ──
+  '3\u00d73 Grid': '3\u00d73 Raster',
+  '4\u00d74 Grid': '4\u00d74 Raster',
+  '4\u00d74 Grids': '4\u00d74 Raster',
+
+  // ── Trophy/motivational text ──
   'Every code cracked builds math confidence': 'Jeder geknackte Code stärkt das Mathe-Selbstvertrauen',
   'Every code cracked sharpens critical thinking': 'Jeder geknackte Code schärft das kritische Denken',
   'Crack every code and sharpen math skills': 'Knacke jeden Code und schärfe deine Mathefähigkeiten',
@@ -585,236 +358,11 @@ const deStringTable: Record<string, string> = {
   'Bingo turns vocabulary practice into a party': 'Bingo verwandelt Wortschatzübung in eine Party',
   'Data literacy starts with picture graphs': 'Datenkompetenz beginnt mit Bilddiagrammen',
   'Data skills start with picture graphs': 'Datenfähigkeiten beginnen mit Bilddiagrammen',
-  'Size Sort': 'Größensortierung',
-  'Size Sorting': 'Größensortierung',
 };
 
-// ─── Shared French string translations ───
-
-const frStringTable: Record<string, string> = {
-  // ── Badges ──
-  'Grades K-2': 'Niveaux M-2',
-  'Grades 1-3': 'Niveaux 1-3',
-  'Grades 1-4': 'Niveaux 1-4',
-  'Skill Levels': 'Niveaux de compétence',
-  'Challenge Levels': 'Niveaux de défi',
-  'Professional Printables': 'Imprimables professionnels',
-  'Early Math Skills': 'Premiers pas en maths',
-  'Early Math Foundations': 'Bases mathématiques',
-  'Progression Path': 'Parcours progressif',
-  'Visual Learning': 'Apprentissage visuel',
-  'Fine Motor Skills': 'Motricité fine',
-  'Pre-Writing': 'Pré-écriture',
-  'Language Skills': 'Compétences linguistiques',
-  'Word Skills': 'Vocabulaire',
-  'Logic & Fun': 'Logique et plaisir',
-  'Creative Skills': 'Créativité',
-  'Observation Skills': 'Sens de l\'observation',
-  'Group Activities': 'Activités de groupe',
-
-  // ── Tier names ──
-  'Beginner': 'Débutant',
-  'Explorer': 'Explorateur',
-  'Expert': 'Expert',
-  'Rookie': 'Débutant',
-  'Codebreaker': 'Déchiffreur',
-  'Mastermind': 'Maître espion',
-  'Standard': 'Standard',
-  'Advanced': 'Avancé',
-  'Creative': 'Créatif',
-
-  // ── Common pill labels ──
-  'Pictures + Numbers': 'Images + Nombres',
-  'Answer Keys': 'Corrigés',
-  'Answer Key Included': 'Corrigé inclus',
-  'Print-Ready': 'Prêt à imprimer',
-  'Free Trial with Watermark': 'Essai gratuit avec filigrane',
-  'Cross Out Method': 'Méthode de barrage',
-  'Decode Messages': 'Décoder des messages',
-  'Compare Amounts': 'Comparer les quantités',
-  'Brain Teasers': 'Casse-têtes',
-  'Practice Problems': 'Exercices pratiques',
-  'ABC Learning': 'Apprentissage ABC',
-  'Position Words': 'Mots de position',
-  'Guess the Word': 'Devine le mot',
-  'Unscramble Words': 'Déchiffrer les mots',
-  'Find Hidden Words': 'Trouver les mots cachés',
-  'Crossword Puzzles': 'Mots croisés',
-  'Decode Secrets': 'Décoder les secrets',
-  'Handwriting Practice': 'Pratique d\'écriture',
-  'Guided Lines': 'Lignes guidées',
-  'Size Comparison': 'Comparaison de tailles',
-  'Pattern Fun': 'Amusement avec les motifs',
-  'Pattern Recognition': 'Reconnaissance de motifs',
-  'Grid Drawing': 'Dessin sur grille',
-  'Step-by-Step': 'Étape par étape',
-  'Trace Lines': 'Tracer des lignes',
-  'Fine Motor': 'Motricité fine',
-  'Color & Create': 'Colorier et créer',
-  'Themed Pages': 'Pages thématiques',
-  'Picture Graphs': 'Graphiques en images',
-  'Match Pairs': 'Trouver les paires',
-  'Grid Puzzles': 'Puzzles en grille',
-  'Match Shadows': 'Associer les ombres',
-  'Bingo Cards': 'Cartes de loto',
-  'Callout Sheets': 'Fiches d\'appel',
-  'Sort & Classify': 'Trier et classer',
-  'Find Missing Parts': 'Trouver les pièces manquantes',
-  'Spot the Odd One': 'Trouver l\'intrus',
-  'Picture Sudoku': 'Sudoku en images',
-  'Follow the Path': 'Suivre le chemin',
-  'I Spy & Count': 'Je vois et je compte',
-  'Hidden Objects': 'Objets cachés',
-  'Map Adventures': 'Aventures sur la carte',
-  'Themed Pictures': 'Images thématiques',
-  'Instant Download': 'Téléchargement instantané',
-
-  // ── Spotlight pills ──
-  'Print Instantly!': 'Imprimez instantanément !',
-  'Pictures for Math': 'Images pour les maths',
-  'With Answer Keys': 'Avec corrigés',
-  'Cross Out Pictures': 'Barrer les images',
-  'Crack the Code!': 'Déchiffre le code !',
-  'Math + Logic': 'Maths + Logique',
-  'Compare & Learn!': 'Comparer et apprendre !',
-  'Visual Comparisons': 'Comparaisons visuelles',
-  'Puzzle Fun!': 'Amusement puzzle !',
-  'Practice Makes Perfect!': 'C\'est en forgeant qu\'on devient forgeron !',
-  'All Operations': 'Toutes les opérations',
-  'All Aboard ABC!': 'En voiture pour l\'ABC !',
-  'Letter Recognition': 'Reconnaissance des lettres',
-  'Where Is It?': 'Où est-ce ?',
-  'Position Practice': 'Pratique de position',
-  'Guess It!': 'Devine !',
-  'Picture Clues': 'Indices en images',
-  'Unscramble Fun!': 'Déchiffrage amusant !',
-  'Spelling Practice': 'Pratique d\'orthographe',
-  'Find the Words!': 'Trouve les mots !',
-  'Custom Themes': 'Thèmes personnalisés',
-  'Solve the Clues!': 'Résous les indices !',
-  'Vocabulary Fun': 'Vocabulaire amusant',
-  'Letter Substitution': 'Substitution de lettres',
-  'Write & Learn!': 'Écrire et apprendre !',
-  'Letter Formation': 'Formation des lettres',
-  'Guided Practice': 'Pratique guidée',
-  'Big or Small?': 'Grand ou petit ?',
-  'Visual Comparison': 'Comparaison visuelle',
-  'Complete the Pattern!': 'Complète le motif !',
-  'Train Theme': 'Thème du train',
-  'Spot the Pattern!': 'Repère le motif !',
-  'Logical Thinking': 'Pensée logique',
-  'Draw It!': 'Dessine-le !',
-  'Grid Guidance': 'Guidage par grille',
-  'Creative Fun': 'Amusement créatif',
-  'Trace & Learn!': 'Trace et apprends !',
-  'Motor Skills': 'Motricité',
-  'Color Your World!': 'Colorie ton monde !',
-  '100+ Themes': '100+ thèmes',
-  'Print & Color': 'Imprimer et colorier',
-  'Data Made Fun!': 'Les données en s\'amusant !',
-  'Visual Graphing': 'Graphiques visuels',
-  'Find the Match!': 'Trouve la paire !',
-  'Visual Pairing': 'Association visuelle',
-  'Match the Grid!': 'Associe la grille !',
-  'Spatial Skills': 'Raisonnement spatial',
-  'Find the Shadow!': 'Trouve l\'ombre !',
-  'Visual Matching': 'Association visuelle',
-  'BINGO!': 'LOTO !',
-  'Group Activity': 'Activité de groupe',
-  'Print & Play': 'Imprimer et jouer',
-  'Sort It Out!': 'Trie tout !',
-  'Categories': 'Catégories',
-  'Complete the Picture!': 'Complète l\'image !',
-  'Visual Logic': 'Logique visuelle',
-  'Which One Is Different?': 'Lequel est différent ?',
-  'Visual Reasoning': 'Raisonnement visuel',
-  'Sudoku Fun!': 'Sudoku amusant !',
-  'Logic Puzzles': 'Puzzles logiques',
-  'Find the Way!': 'Trouve le chemin !',
-  'Maze & Path': 'Labyrinthe et chemin',
-  'I Spy!': 'Je vois !',
-  'Count & Find': 'Compter et trouver',
-  'Find Them All!': 'Trouve-les tous !',
-  'Sharp Eyes': 'Yeux de lynx',
-  'Hunt for Treasure!': 'Chasse au trésor !',
-  'Map Reading': 'Lecture de carte',
-  'Download & Print': 'Télécharger et imprimer',
-  'Themed Images': 'Images thématiques',
-  'Solutions Included': 'Solutions incluses',
-
-  // ── Gallery pills ──
-  'No Prep Required': 'Aucune préparation requise',
-  'Answers Included': 'Réponses incluses',
-  'Differentiated': 'Différencié',
-  'Multiple Modes': 'Plusieurs modes',
-  'Problem Solving': 'Résolution de problèmes',
-  'All Skill Levels': 'Tous les niveaux',
-  'Vocabulary Builder': 'Construction du vocabulaire',
-  'Any Theme': 'Tout thème',
-  'Custom Words': 'Mots personnalisés',
-  'Spelling Skills': 'Compétences en orthographe',
-  'Logic Skills': 'Compétences logiques',
-  'Engaging': 'Captivant',
-  'Vocabulary': 'Vocabulaire',
-  'Traceable': 'À tracer',
-  'All Letters': 'Toutes les lettres',
-  'Grammar': 'Grammaire',
-  'Size Concepts': 'Concepts de taille',
-  'Pattern Skills': 'Reconnaissance de motifs',
-  'Engaging Theme': 'Thème captivant',
-  'Critical Thinking': 'Pensée critique',
-  'Art Skills': 'Compétences artistiques',
-  'Progressive': 'Progressif',
-  'Data Skills': 'Compétences en données',
-  'Cognitive Skills': 'Compétences cognitives',
-  'Logic': 'Logique',
-  'Visual Thinking': 'Pensée visuelle',
-  'Observation': 'Observation',
-  'Fun Challenge': 'Défi amusant',
-  'Group Fun': 'Amusement en groupe',
-  'Callouts Included': 'Fiches d\'appel incluses',
-  'Classification': 'Classification',
-  'Brain Training': 'Entraînement cérébral',
-  '3 Difficulties': '3 niveaux de difficulté',
-  'Navigation': 'Navigation',
-  'Fun Themes': 'Thèmes amusants',
-  'Counting': 'Comptage',
-  'Themed Scenes': 'Scènes thématiques',
-  'Detailed Scenes': 'Scènes détaillées',
-  'Adventure': 'Aventure',
-  'Number Sense': 'Sens des nombres',
-  'Comprehensive': 'Complet',
-  'Challenging': 'Stimulant',
-  'Phonics': 'Phonétique',
-  'Fun Theme': 'Thème amusant',
-  'Multiple Themes': 'Thèmes variés',
-
-  // ── Gallery labels ──
-  'Worksheet': 'Fiche d\'exercice',
-  'Answer Key': 'Corrigé',
-  'Activity Page': 'Page d\'activité',
-  'Practice Sheet': 'Fiche de pratique',
-  'Solutions': 'Solutions',
-  'Find Subtrahend': 'Trouver le nombre à soustraire',
-  'Code Puzzle': 'Puzzle codé',
-  'More or Less': 'Plus ou moins',
-  'Bingo Card': 'Carte de loto',
-  'Callout Sheet': 'Fiche d\'appel',
-
-  // ── Gallery/tool pills ──
-  'Print-Ready PDFs': 'PDF prêts à imprimer',
-  'Zero Prep Time': 'Zéro préparation',
-  'Full Solutions': 'Solutions complètes',
-  'Professional Quality': 'Qualité professionnelle',
-  'Multiple Formats': 'Formats multiples',
-
-  // ── Trophy/motivational text ──
-  'Every child can succeed at their own pace': 'Chaque enfant peut réussir à son propre rythme',
-  'Build confidence with every problem solved': 'Gagnez en confiance avec chaque problème résolu',
-  'Professional quality at every difficulty level': 'Qualité professionnelle à chaque niveau de difficulté',
-  'Progress at your own pace with visual math': 'Progressez à votre rythme avec les maths visuelles',
-
-  // ── Additional translations (auto-generated) ──
+// ── ALL 338 missing French translations ──
+const newFR = {
+  // ── App display names / gallery labels ──
   'Addition': 'Addition',
   'Subtraction': 'Soustraction',
   'Sudoku': 'Sudoku',
@@ -849,6 +397,8 @@ const frStringTable: Record<string, string> = {
   'Sorting': 'Tri',
   'Prepositions': 'Prépositions',
   'Writing': 'Écriture',
+
+  // ── Tier/level names ──
   'Adventurer': 'Aventurier',
   'Detective': 'Détective',
   'Master': 'Maître',
@@ -889,6 +439,8 @@ const frStringTable: Record<string, string> = {
   'Writer': 'Rédacteur',
   'Sharp Eye': 'Regard aiguisé',
   'Eagle Eye Vision': 'Vision d\'aigle',
+
+  // ── Badge text ──
   'Grades K-3': 'Niveaux M-3',
   'Activity Types': 'Types d\'activités',
   'Code Levels': 'Niveaux de code',
@@ -1021,6 +573,8 @@ const frStringTable: Record<string, string> = {
   'Word Puzzles': 'Puzzles de mots',
   'Code Puzzles': 'Puzzles codés',
   'Code Mode': 'Mode code',
+
+  // ── Gallery/display labels ──
   'Equation Sheet': 'Fiche d\'équations',
   'Scramble Sheet': 'Fiche de mots mélangés',
   'Search Sheet': 'Fiche de recherche',
@@ -1086,9 +640,13 @@ const frStringTable: Record<string, string> = {
   'Easy': 'Facile',
   'Grid Method': 'Méthode par grille',
   'Draw-the-Line': 'Tracer la ligne',
-  '3×3 Grid': 'Grille 3×3',
-  '4×4 Grid': 'Grille 4×4',
-  '4×4 Grids': 'Grilles 4×4',
+
+  // ── Badges (additional) ──
+  '3\u00d73 Grid': 'Grille 3\u00d73',
+  '4\u00d74 Grid': 'Grille 4\u00d74',
+  '4\u00d74 Grids': 'Grilles 4\u00d74',
+
+  // ── Trophy/motivational text ──
   'Every code cracked builds math confidence': 'Chaque code déchiffré renforce la confiance en maths',
   'Every code cracked sharpens critical thinking': 'Chaque code déchiffré aiguise la pensée critique',
   'Crack every code and sharpen math skills': 'Déchiffre chaque code et améliore tes compétences en maths',
@@ -1152,44 +710,48 @@ const frStringTable: Record<string, string> = {
   'Bingo turns vocabulary practice into a party': 'Le loto transforme la pratique du vocabulaire en fête',
   'Data literacy starts with picture graphs': 'La littératie des données commence par les graphiques en images',
   'Data skills start with picture graphs': 'Les compétences en données commencent par les graphiques en images',
-  'Size Sort': 'Tri par taille',
-  'Size Sorting': 'Tri par taille',
 };
 
-/** Get the string table for a given locale */
-function getStringTable(locale: string): Record<string, string> | null {
-  if (locale === 'de') return deStringTable;
-  if (locale === 'fr') return frStringTable;
-  return null;
-}
+// ── Read the file ──
+let content = fs.readFileSync(filePath, 'utf8');
 
-/**
- * Translate a shared UI string for a given locale.
- * Returns the original string if no translation is found.
- */
-export function t(s: string, locale: string): string {
-  const table = getStringTable(locale);
-  if (!table) return s;
-  return table[s] ?? s;
-}
+// ── Build DE insert block ──
+const deLines = Object.entries(newDE).map(([k, v]) => {
+  const ek = k.replace(/'/g, "\\'");
+  const ev = v.replace(/'/g, "\\'");
+  return `  '${ek}': '${ev}',`;
+}).join('\n');
 
-/**
- * Translate an array of pill objects (with label + icon).
- */
-export function tPills(
-  pills: Array<{ label: string; icon: string }>,
-  locale: string,
-): Array<{ label: string; icon: string }> {
-  const table = getStringTable(locale);
-  if (!table) return pills;
-  return pills.map(p => ({ ...p, label: table[p.label] ?? p.label }));
-}
+// ── Build FR insert block ──
+const frLines = Object.entries(newFR).map(([k, v]) => {
+  const ek = k.replace(/'/g, "\\'");
+  const ev = v.replace(/'/g, "\\'");
+  return `  '${ek}': '${ev}',`;
+}).join('\n');
 
-/**
- * Translate an array of string pills.
- */
-export function tStringPills(pills: string[], locale: string): string[] {
-  const table = getStringTable(locale);
-  if (!table) return pills;
-  return pills.map(p => table[p] ?? p);
+// ── Find DE table closing and insert before it ──
+// The DE table ends with `};\n\n// ─── Shared French`
+const deClosingPattern = /(\n)(};\n\n\/\/ ─── Shared French)/;
+const deMatch = content.match(deClosingPattern);
+if (!deMatch) {
+  console.error('ERROR: Could not find DE table closing pattern');
+  process.exit(1);
 }
+content = content.replace(deClosingPattern, `\n\n  // ── Additional translations (auto-generated) ──\n${deLines}\n$2`);
+
+// ── Find FR table closing and insert before it ──
+// The FR table ends with `};\n\n/** Get the string table`
+const frClosingPattern = /(\n)(};\n\n\/\*\* Get the string table)/;
+const frMatch = content.match(frClosingPattern);
+if (!frMatch) {
+  console.error('ERROR: Could not find FR table closing pattern');
+  process.exit(1);
+}
+content = content.replace(frClosingPattern, `\n\n  // ── Additional translations (auto-generated) ──\n${frLines}\n$2`);
+
+// ── Write it back ──
+fs.writeFileSync(filePath, content, 'utf8');
+
+console.log('Done! Inserted DE + FR translations.');
+console.log(`DE entries added: ${Object.keys(newDE).length}`);
+console.log(`FR entries added: ${Object.keys(newFR).length}`);

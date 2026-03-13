@@ -12,6 +12,7 @@
 const localeFolderMap: Record<string, string> = {
   en: 'english',
   de: 'german',
+  fr: 'french',
 };
 
 /** Build a sample image URL for any locale */
@@ -247,13 +248,247 @@ const deStringTable: Record<string, string> = {
   'Progress at your own pace with visual math': 'In eigenem Tempo mit visueller Mathematik lernen',
 };
 
+// ─── Shared French string translations ───
+
+const frStringTable: Record<string, string> = {
+  // ── Badges ──
+  'Grades K-2': 'Niveaux M-2',
+  'Grades 1-3': 'Niveaux 1-3',
+  'Grades 1-4': 'Niveaux 1-4',
+  'Skill Levels': 'Niveaux de compétence',
+  'Challenge Levels': 'Niveaux de défi',
+  'Professional Printables': 'Imprimables professionnels',
+  'Early Math Skills': 'Premiers pas en maths',
+  'Early Math Foundations': 'Bases mathématiques',
+  'Progression Path': 'Parcours progressif',
+  'Visual Learning': 'Apprentissage visuel',
+  'Fine Motor Skills': 'Motricité fine',
+  'Pre-Writing': 'Pré-écriture',
+  'Language Skills': 'Compétences linguistiques',
+  'Word Skills': 'Vocabulaire',
+  'Logic & Fun': 'Logique et plaisir',
+  'Creative Skills': 'Créativité',
+  'Observation Skills': 'Sens de l\'observation',
+  'Group Activities': 'Activités de groupe',
+
+  // ── Tier names ──
+  'Beginner': 'Débutant',
+  'Explorer': 'Explorateur',
+  'Expert': 'Expert',
+  'Rookie': 'Débutant',
+  'Codebreaker': 'Déchiffreur',
+  'Mastermind': 'Maître espion',
+  'Standard': 'Standard',
+  'Advanced': 'Avancé',
+  'Creative': 'Créatif',
+
+  // ── Common pill labels ──
+  'Pictures + Numbers': 'Images + Nombres',
+  'Answer Keys': 'Corrigés',
+  'Answer Key Included': 'Corrigé inclus',
+  'Print-Ready': 'Prêt à imprimer',
+  'Free Trial with Watermark': 'Essai gratuit avec filigrane',
+  'Cross Out Method': 'Méthode de barrage',
+  'Decode Messages': 'Décoder des messages',
+  'Compare Amounts': 'Comparer les quantités',
+  'Brain Teasers': 'Casse-têtes',
+  'Practice Problems': 'Exercices pratiques',
+  'ABC Learning': 'Apprentissage ABC',
+  'Position Words': 'Mots de position',
+  'Guess the Word': 'Devine le mot',
+  'Unscramble Words': 'Déchiffrer les mots',
+  'Find Hidden Words': 'Trouver les mots cachés',
+  'Crossword Puzzles': 'Mots croisés',
+  'Decode Secrets': 'Décoder les secrets',
+  'Handwriting Practice': 'Pratique d\'écriture',
+  'Guided Lines': 'Lignes guidées',
+  'Size Comparison': 'Comparaison de tailles',
+  'Pattern Fun': 'Amusement avec les motifs',
+  'Pattern Recognition': 'Reconnaissance de motifs',
+  'Grid Drawing': 'Dessin sur grille',
+  'Step-by-Step': 'Étape par étape',
+  'Trace Lines': 'Tracer des lignes',
+  'Fine Motor': 'Motricité fine',
+  'Color & Create': 'Colorier et créer',
+  'Themed Pages': 'Pages thématiques',
+  'Picture Graphs': 'Graphiques en images',
+  'Match Pairs': 'Trouver les paires',
+  'Grid Puzzles': 'Puzzles en grille',
+  'Match Shadows': 'Associer les ombres',
+  'Bingo Cards': 'Cartes de loto',
+  'Callout Sheets': 'Fiches d\'appel',
+  'Sort & Classify': 'Trier et classer',
+  'Find Missing Parts': 'Trouver les pièces manquantes',
+  'Spot the Odd One': 'Trouver l\'intrus',
+  'Picture Sudoku': 'Sudoku en images',
+  'Follow the Path': 'Suivre le chemin',
+  'I Spy & Count': 'Je vois et je compte',
+  'Hidden Objects': 'Objets cachés',
+  'Map Adventures': 'Aventures sur la carte',
+  'Themed Pictures': 'Images thématiques',
+  'Instant Download': 'Téléchargement instantané',
+
+  // ── Spotlight pills ──
+  'Print Instantly!': 'Imprimez instantanément !',
+  'Pictures for Math': 'Images pour les maths',
+  'With Answer Keys': 'Avec corrigés',
+  'Cross Out Pictures': 'Barrer les images',
+  'Crack the Code!': 'Déchiffre le code !',
+  'Math + Logic': 'Maths + Logique',
+  'Compare & Learn!': 'Comparer et apprendre !',
+  'Visual Comparisons': 'Comparaisons visuelles',
+  'Puzzle Fun!': 'Amusement puzzle !',
+  'Practice Makes Perfect!': 'C\'est en forgeant qu\'on devient forgeron !',
+  'All Operations': 'Toutes les opérations',
+  'All Aboard ABC!': 'En voiture pour l\'ABC !',
+  'Letter Recognition': 'Reconnaissance des lettres',
+  'Where Is It?': 'Où est-ce ?',
+  'Position Practice': 'Pratique de position',
+  'Guess It!': 'Devine !',
+  'Picture Clues': 'Indices en images',
+  'Unscramble Fun!': 'Déchiffrage amusant !',
+  'Spelling Practice': 'Pratique d\'orthographe',
+  'Find the Words!': 'Trouve les mots !',
+  'Custom Themes': 'Thèmes personnalisés',
+  'Solve the Clues!': 'Résous les indices !',
+  'Vocabulary Fun': 'Vocabulaire amusant',
+  'Letter Substitution': 'Substitution de lettres',
+  'Write & Learn!': 'Écrire et apprendre !',
+  'Letter Formation': 'Formation des lettres',
+  'Guided Practice': 'Pratique guidée',
+  'Big or Small?': 'Grand ou petit ?',
+  'Visual Comparison': 'Comparaison visuelle',
+  'Complete the Pattern!': 'Complète le motif !',
+  'Train Theme': 'Thème du train',
+  'Spot the Pattern!': 'Repère le motif !',
+  'Logical Thinking': 'Pensée logique',
+  'Draw It!': 'Dessine-le !',
+  'Grid Guidance': 'Guidage par grille',
+  'Creative Fun': 'Amusement créatif',
+  'Trace & Learn!': 'Trace et apprends !',
+  'Motor Skills': 'Motricité',
+  'Color Your World!': 'Colorie ton monde !',
+  '100+ Themes': '100+ thèmes',
+  'Print & Color': 'Imprimer et colorier',
+  'Data Made Fun!': 'Les données en s\'amusant !',
+  'Visual Graphing': 'Graphiques visuels',
+  'Find the Match!': 'Trouve la paire !',
+  'Visual Pairing': 'Association visuelle',
+  'Match the Grid!': 'Associe la grille !',
+  'Spatial Skills': 'Raisonnement spatial',
+  'Find the Shadow!': 'Trouve l\'ombre !',
+  'Visual Matching': 'Association visuelle',
+  'BINGO!': 'LOTO !',
+  'Group Activity': 'Activité de groupe',
+  'Print & Play': 'Imprimer et jouer',
+  'Sort It Out!': 'Trie tout !',
+  'Categories': 'Catégories',
+  'Complete the Picture!': 'Complète l\'image !',
+  'Visual Logic': 'Logique visuelle',
+  'Which One Is Different?': 'Lequel est différent ?',
+  'Visual Reasoning': 'Raisonnement visuel',
+  'Sudoku Fun!': 'Sudoku amusant !',
+  'Logic Puzzles': 'Puzzles logiques',
+  'Find the Way!': 'Trouve le chemin !',
+  'Maze & Path': 'Labyrinthe et chemin',
+  'I Spy!': 'Je vois !',
+  'Count & Find': 'Compter et trouver',
+  'Find Them All!': 'Trouve-les tous !',
+  'Sharp Eyes': 'Yeux de lynx',
+  'Hunt for Treasure!': 'Chasse au trésor !',
+  'Map Reading': 'Lecture de carte',
+  'Download & Print': 'Télécharger et imprimer',
+  'Themed Images': 'Images thématiques',
+  'Solutions Included': 'Solutions incluses',
+
+  // ── Gallery pills ──
+  'No Prep Required': 'Aucune préparation requise',
+  'Answers Included': 'Réponses incluses',
+  'Differentiated': 'Différencié',
+  'Multiple Modes': 'Plusieurs modes',
+  'Problem Solving': 'Résolution de problèmes',
+  'All Skill Levels': 'Tous les niveaux',
+  'Vocabulary Builder': 'Construction du vocabulaire',
+  'Any Theme': 'Tout thème',
+  'Custom Words': 'Mots personnalisés',
+  'Spelling Skills': 'Compétences en orthographe',
+  'Logic Skills': 'Compétences logiques',
+  'Engaging': 'Captivant',
+  'Vocabulary': 'Vocabulaire',
+  'Traceable': 'À tracer',
+  'All Letters': 'Toutes les lettres',
+  'Grammar': 'Grammaire',
+  'Size Concepts': 'Concepts de taille',
+  'Pattern Skills': 'Reconnaissance de motifs',
+  'Engaging Theme': 'Thème captivant',
+  'Critical Thinking': 'Pensée critique',
+  'Art Skills': 'Compétences artistiques',
+  'Progressive': 'Progressif',
+  'Data Skills': 'Compétences en données',
+  'Cognitive Skills': 'Compétences cognitives',
+  'Logic': 'Logique',
+  'Visual Thinking': 'Pensée visuelle',
+  'Observation': 'Observation',
+  'Fun Challenge': 'Défi amusant',
+  'Group Fun': 'Amusement en groupe',
+  'Callouts Included': 'Fiches d\'appel incluses',
+  'Classification': 'Classification',
+  'Brain Training': 'Entraînement cérébral',
+  '3 Difficulties': '3 niveaux de difficulté',
+  'Navigation': 'Navigation',
+  'Fun Themes': 'Thèmes amusants',
+  'Counting': 'Comptage',
+  'Themed Scenes': 'Scènes thématiques',
+  'Detailed Scenes': 'Scènes détaillées',
+  'Adventure': 'Aventure',
+  'Number Sense': 'Sens des nombres',
+  'Comprehensive': 'Complet',
+  'Challenging': 'Stimulant',
+  'Phonics': 'Phonétique',
+  'Fun Theme': 'Thème amusant',
+  'Multiple Themes': 'Thèmes variés',
+
+  // ── Gallery labels ──
+  'Worksheet': 'Fiche d\'exercice',
+  'Answer Key': 'Corrigé',
+  'Activity Page': 'Page d\'activité',
+  'Practice Sheet': 'Fiche de pratique',
+  'Solutions': 'Solutions',
+  'Find Subtrahend': 'Trouver le nombre à soustraire',
+  'Code Puzzle': 'Puzzle codé',
+  'More or Less': 'Plus ou moins',
+  'Bingo Card': 'Carte de loto',
+  'Callout Sheet': 'Fiche d\'appel',
+
+  // ── Gallery/tool pills ──
+  'Print-Ready PDFs': 'PDF prêts à imprimer',
+  'Zero Prep Time': 'Zéro préparation',
+  'Full Solutions': 'Solutions complètes',
+  'Professional Quality': 'Qualité professionnelle',
+  'Multiple Formats': 'Formats multiples',
+
+  // ── Trophy/motivational text ──
+  'Every child can succeed at their own pace': 'Chaque enfant peut réussir à son propre rythme',
+  'Build confidence with every problem solved': 'Gagnez en confiance avec chaque problème résolu',
+  'Professional quality at every difficulty level': 'Qualité professionnelle à chaque niveau de difficulté',
+  'Progress at your own pace with visual math': 'Progressez à votre rythme avec les maths visuelles',
+};
+
+/** Get the string table for a given locale */
+function getStringTable(locale: string): Record<string, string> | null {
+  if (locale === 'de') return deStringTable;
+  if (locale === 'fr') return frStringTable;
+  return null;
+}
+
 /**
- * Translate a shared UI string to German.
+ * Translate a shared UI string for a given locale.
  * Returns the original string if no translation is found.
  */
 export function t(s: string, locale: string): string {
-  if (locale !== 'de') return s;
-  return deStringTable[s] ?? s;
+  const table = getStringTable(locale);
+  if (!table) return s;
+  return table[s] ?? s;
 }
 
 /**
@@ -263,14 +498,16 @@ export function tPills(
   pills: Array<{ label: string; icon: string }>,
   locale: string,
 ): Array<{ label: string; icon: string }> {
-  if (locale !== 'de') return pills;
-  return pills.map(p => ({ ...p, label: deStringTable[p.label] ?? p.label }));
+  const table = getStringTable(locale);
+  if (!table) return pills;
+  return pills.map(p => ({ ...p, label: table[p.label] ?? p.label }));
 }
 
 /**
  * Translate an array of string pills.
  */
 export function tStringPills(pills: string[], locale: string): string[] {
-  if (locale !== 'de') return pills;
-  return pills.map(p => deStringTable[p] ?? p);
+  const table = getStringTable(locale);
+  if (!table) return pills;
+  return pills.map(p => table[p] ?? p);
 }

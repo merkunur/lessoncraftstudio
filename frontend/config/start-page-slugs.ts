@@ -36,18 +36,18 @@ export interface StartSlugConfig {
  * Add language-specific slugs as start pages are created for each language.
  */
 export const startPageSlugs: StartSlugConfig[] = [
-  { startId: 'complete-guide-printable-business', slugs: { en: 'complete-guide-printable-business', de: 'komplettanleitung-druckvorlagen-geschaeft', fr: 'guide-complet-activite-imprimables' } },
-  { startId: 'create-worksheets-that-sell', slugs: { en: 'create-worksheets-that-sell', de: 'arbeitsblaetter-erstellen-die-verkaufen', fr: 'creer-fiches-qui-se-vendent' } },
-  { startId: 'printable-business-blueprint', slugs: { en: 'printable-business-blueprint', de: 'druckvorlagen-geschaeft-bauplan', fr: 'plan-activite-imprimables' } },
-  { startId: 'etsy-printable-business', slugs: { en: 'etsy-printable-business', de: 'etsy-druckvorlagen-geschaeft', fr: 'activite-imprimables-etsy' } },
-  { startId: 'amazon-kdp-activity-books', slugs: { en: 'amazon-kdp-activity-books', de: 'amazon-kdp-aktivitaetsbuecher', fr: 'livres-activites-amazon-kdp' } },
-  { startId: 'create-multilingual-worksheets', slugs: { en: 'create-multilingual-worksheets', de: 'mehrsprachige-arbeitsblaetter-erstellen', fr: 'creer-fiches-multilingues' } },
-  { startId: 'commercial-license-guide', slugs: { en: 'commercial-license-guide', de: 'kommerzielle-lizenz-leitfaden', fr: 'guide-licence-commerciale' } },
-  { startId: 'printable-business-income', slugs: { en: 'printable-business-income', de: 'druckvorlagen-geschaeft-einkommen', fr: 'revenus-activite-imprimables' } },
-  { startId: 'tools-for-printable-business', slugs: { en: 'tools-for-printable-business', de: 'werkzeuge-fuer-druckvorlagen-geschaeft', fr: 'outils-activite-imprimables' } },
-  { startId: 'marketing-printable-business', slugs: { en: 'marketing-printable-business', de: 'marketing-druckvorlagen-geschaeft', fr: 'marketing-activite-imprimables' } },
-  { startId: 'scaling-printable-business', slugs: { en: 'scaling-printable-business', de: 'druckvorlagen-geschaeft-skalieren', fr: 'croissance-activite-imprimables' } },
-  { startId: 'printable-business-legal', slugs: { en: 'printable-business-legal', de: 'druckvorlagen-geschaeft-recht', fr: 'aspects-juridiques-activite-imprimables' } },
+  { startId: 'complete-guide-printable-business', slugs: { en: 'complete-guide-printable-business', de: 'komplettanleitung-druckvorlagen-geschaeft', fr: 'guide-complet-activite-imprimables', es: 'guia-completa-negocio-imprimibles', pt: 'guia-completo-negocio-imprimiveis' } },
+  { startId: 'create-worksheets-that-sell', slugs: { en: 'create-worksheets-that-sell', de: 'arbeitsblaetter-erstellen-die-verkaufen', fr: 'creer-fiches-qui-se-vendent', es: 'crear-fichas-que-se-venden', pt: 'criar-fichas-que-vendem' } },
+  { startId: 'printable-business-blueprint', slugs: { en: 'printable-business-blueprint', de: 'druckvorlagen-geschaeft-bauplan', fr: 'plan-activite-imprimables', es: 'plan-negocio-imprimibles', pt: 'plano-negocio-imprimiveis' } },
+  { startId: 'etsy-printable-business', slugs: { en: 'etsy-printable-business', de: 'etsy-druckvorlagen-geschaeft', fr: 'activite-imprimables-etsy', es: 'negocio-imprimibles-etsy', pt: 'negocio-imprimiveis-etsy' } },
+  { startId: 'amazon-kdp-activity-books', slugs: { en: 'amazon-kdp-activity-books', de: 'amazon-kdp-aktivitaetsbuecher', fr: 'livres-activites-amazon-kdp', es: 'libros-actividades-amazon-kdp', pt: 'livros-atividades-amazon-kdp' } },
+  { startId: 'create-multilingual-worksheets', slugs: { en: 'create-multilingual-worksheets', de: 'mehrsprachige-arbeitsblaetter-erstellen', fr: 'creer-fiches-multilingues', es: 'crear-fichas-multilingues', pt: 'criar-fichas-multilingues' } },
+  { startId: 'commercial-license-guide', slugs: { en: 'commercial-license-guide', de: 'kommerzielle-lizenz-leitfaden', fr: 'guide-licence-commerciale', es: 'guia-licencia-comercial', pt: 'guia-licenca-comercial' } },
+  { startId: 'printable-business-income', slugs: { en: 'printable-business-income', de: 'druckvorlagen-geschaeft-einkommen', fr: 'revenus-activite-imprimables', es: 'ingresos-negocio-imprimibles', pt: 'rendimentos-negocio-imprimiveis' } },
+  { startId: 'tools-for-printable-business', slugs: { en: 'tools-for-printable-business', de: 'werkzeuge-fuer-druckvorlagen-geschaeft', fr: 'outils-activite-imprimables', es: 'herramientas-negocio-imprimibles', pt: 'ferramentas-negocio-imprimiveis' } },
+  { startId: 'marketing-printable-business', slugs: { en: 'marketing-printable-business', de: 'marketing-druckvorlagen-geschaeft', fr: 'marketing-activite-imprimables', es: 'marketing-negocio-imprimibles', pt: 'marketing-negocio-imprimiveis' } },
+  { startId: 'scaling-printable-business', slugs: { en: 'scaling-printable-business', de: 'druckvorlagen-geschaeft-skalieren', fr: 'croissance-activite-imprimables', es: 'escalar-negocio-imprimibles', pt: 'escalar-negocio-imprimiveis' } },
+  { startId: 'printable-business-legal', slugs: { en: 'printable-business-legal', de: 'druckvorlagen-geschaeft-recht', fr: 'aspects-juridiques-activite-imprimables', es: 'aspectos-legales-negocio-imprimibles', pt: 'aspectos-legais-negocio-imprimiveis' } },
 ];
 
 /**

@@ -137,43 +137,45 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { text: 'Selección de nichos para imprimibles', slug: 'seleccion-nicho-imprimibles', pageType: 'guide' as const },
-    { text: 'Crear una línea de productos imprimibles', slug: 'crear-linea-productos-imprimibles', pageType: 'guide' as const },
-    { text: 'Vender fichas de matemáticas en Etsy', slug: 'vender-fichas-matematicas-etsy', pageType: 'guide' as const },
-    { text: 'Abrir una tienda Etsy de imprimibles', slug: 'abrir-tienda-etsy-imprimibles', pageType: 'guide' as const },
-    { text: 'Mejores nichos KDP para libros de actividades', slug: 'mejores-nichos-kdp-libros-actividades', pageType: 'guide' as const },
-    { text: 'Precios para material educativo', slug: 'precios-material-educativo', pageType: 'guide' as const },
-    { text: 'Guía para escalar tu negocio de imprimibles', slug: 'guia-escalar-negocio-imprimibles', pageType: 'guide' as const },
-    { text: 'Crear paquetes de fichas de ejercicios', slug: 'crear-paquetes-fichas-ejercicios', pageType: 'guide' as const },
-    { text: 'Ingresos pasivos con fichas de ejercicios', slug: 'ingresos-pasivos-fichas-ejercicios', pageType: 'guide' as const },
-    { text: 'SEO en Etsy para material educativo', slug: 'seo-etsy-material-educativo', pageType: 'guide' as const },
-    { text: 'Guía completa del negocio de imprimibles', slug: 'guia-completa-negocio-imprimibles', pageType: 'start' as const },
-    { text: 'Guía de licencia comercial', slug: 'guia-licencia-comercial', pageType: 'start' as const },
+    { pageType: 'guide', slug: 'seleccion-nicho-imprimibles', anchorText: 'Selección de nichos para imprimibles' },
+    { pageType: 'guide', slug: 'crear-linea-productos-imprimibles', anchorText: 'Crear una línea de productos imprimibles' },
+    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: 'Abrir una tienda Etsy de imprimibles' },
+    { pageType: 'guide', slug: 'mejores-nichos-kdp-libros-actividades', anchorText: 'Mejores nichos KDP para libros de actividades' },
+    { pageType: 'guide', slug: 'precios-material-educativo', anchorText: 'Precios para material educativo' },
+    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimibles', anchorText: 'Guía para escalar tu negocio de imprimibles' },
+    { pageType: 'guide', slug: 'crear-paquetes-fichas-ejercicios', anchorText: 'Crear paquetes de fichas de ejercicios' },
+    { pageType: 'guide', slug: 'ingresos-pasivos-fichas-ejercicios', anchorText: 'Ingresos pasivos con fichas de ejercicios' },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO en Etsy para material educativo' },
+    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa del negocio de imprimibles' },
+    { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
   ],
 
   toolsRecommended: [
-    { slug: 'matching', name: 'Matching Worksheet Generator' },
-    { slug: 'wordsearch', name: 'Word Search Generator' },
-    { slug: 'coloring', name: 'Coloring Page Creator' },
-    { slug: 'math-worksheet', name: 'Math Worksheet Generator' },
+    { appId: 'matching', title: 'Generador de fichas de asociación', description: 'Crea actividades de asociación versátiles que funcionan en múltiples nichos temáticos, ideales para probar la demanda de nuevos nichos con productos de producción rápida.' },
+    { appId: 'wordsearch', title: 'Generador de sopas de letras', description: 'Produce sopas de letras temáticas que se adaptan a cualquier nicho. Un formato universal para validar la demanda en nuevos temas antes de invertir en producción completa.' },
+    { appId: 'coloring', title: 'Generador de páginas para colorear', description: 'Crea páginas para colorear con amplio atractivo visual que trascienden nichos individuales, ideales para probar la demanda en categorías temáticas con mínima inversión.' },
+    { appId: 'math-worksheet', title: 'Generador de fichas de matemáticas', description: 'Produce fichas de matemáticas dirigidas que permiten probar nichos específicos de nivel de grado y tipo de operación con contenido profesional.' },
   ],
 
   visuals: {
-    youtubeId: 'y3ghkjt_67s',
-    videoTitle: 'Cómo investigar nichos rentables de imprimibles — proceso paso a paso',
+    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos' },
     samples: [
-      { image: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos', caption: 'Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos' },
-      { image: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras para validar nichos de imprimibles educativos', caption: 'Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año' },
-      { image: '/samples/english/coloring/coloring portrait.webp', alt: 'Página para colorear para explorar nichos de mercado de imprimibles', caption: 'Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos', caption: 'Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos' },
+      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras para validar nichos de imprimibles educativos', caption: 'Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear para explorar nichos de mercado de imprimibles', caption: 'Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión' },
     ],
-    themeImages: [
-      { image: '/image-library/birds/eagle.png', alt: 'Imagen de águila de la biblioteca de 104 temas para imprimibles', caption: 'Águila — disponible en la biblioteca de imágenes temáticas' },
-      { image: '/image-library/birds/flamingo.png', alt: 'Imagen de flamenco de la biblioteca de temas de imprimibles educativos', caption: 'Flamenco — investiga nichos temáticos con imágenes de alta calidad' },
-      { image: '/image-library/birds/hornbill.png', alt: 'Imagen de cálao de la biblioteca de temas para fichas de ejercicios', caption: 'Cálao — explora nichos de aves con la colección completa' },
-      { image: '/image-library/birds/macaw.png', alt: 'Imagen de guacamayo de la biblioteca de temas para imprimibles educativos', caption: 'Guacamayo — prueba diferentes temas visuales al investigar nichos' },
-      { image: '/image-library/birds/ostrich.png', alt: 'Imagen de avestruz de la biblioteca de temas para material educativo imprimible', caption: 'Avestruz — valida la demanda de temas específicos de aves' },
-    ],
+    youtubeId: '6O5aCzHkh8M',
+    videoTitle: 'Cómo investigar nichos rentables de imprimibles — proceso paso a paso',
   },
+
+  themeImages: [
+    { src: '/image-library/birds/eagle.webp', alt: 'Águila — imagen educativa temática', caption: 'Águila' },
+    { src: '/image-library/birds/flamingo.webp', alt: 'Flamenco — imagen educativa temática', caption: 'Flamenco' },
+    { src: '/image-library/birds/hornbill.webp', alt: 'Cálao — imagen educativa temática', caption: 'Cálao' },
+    { src: '/image-library/birds/macaw.webp', alt: 'Guacamayo — imagen educativa temática', caption: 'Guacamayo' },
+    { src: '/image-library/birds/ostrich.webp', alt: 'Avestruz — imagen educativa temática', caption: 'Avestruz' },
+  ],
 };
 
 export default content;

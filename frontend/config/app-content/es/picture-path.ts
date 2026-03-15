@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: '¿Cómo funciona el encabezado generado automáticamente?',
       answer:
-        'Cada ficha incluye un encabezado estilizado con un borde exterior naranja (trazo de 8px) y márgenes de 34px. El título «Camino de Imágenes» y la descripción «¡Sigue el camino desde el inicio hasta el final!» se traducen automáticamente a los 11 idiomas soportados. Las fichas en vertical muestran un encabezado de 240px; las fichas en horizontal usan un diseño compacto de 165px. El encabezado se renderiza en texto localizado para inglés, alemán (Bilderpfad), francés (Chemin d'Images), español (Camino de Imágenes) y todos los demás idiomas soportados.',
+        'Cada ficha incluye un encabezado estilizado con un borde exterior naranja (trazo de 8px) y márgenes de 34px. El título «Camino de Imágenes» y la descripción «¡Sigue el camino desde el inicio hasta el final!» se traducen automáticamente a los 11 idiomas soportados. Las fichas en vertical muestran un encabezado de 240px; las fichas en horizontal usan un diseño compacto de 165px. El encabezado se renderiza en texto localizado para inglés, alemán (Bilderpfad), francés (Chemin d\'Images), español (Camino de Imágenes) y todos los demás idiomas soportados.',
     },
     {
       question: '¿Hay una prueba gratis?',

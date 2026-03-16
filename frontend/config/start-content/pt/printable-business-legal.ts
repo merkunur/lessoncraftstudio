@@ -175,7 +175,7 @@ const content: StartContent = {
     },
     {
       question: 'Qual é a política de reembolso para as licenças comerciais?',
-      answer: 'Cada gerador oferece um teste grátis com marca d'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade do resultado antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser testado antes da compra.',
+      answer: 'Cada gerador oferece um teste grátis com marca d\'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade do resultado antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser testado antes da compra.',
     },
   ],
 

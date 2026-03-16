@@ -27,23 +27,19 @@ const content: GuideContent = {
     description: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo. Este guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad ou qualquer outra plataforma.',
   },
 
-  sections: [
+  introduction: 'A diferença entre vendedores de imprimíveis que constroem negócios sustentáveis e os que lutam durante anos resume-se muitas vezes a uma única decisão inicial: a seleção de nicho. Escolher o nicho certo determina a sua audiência, o seu poder de fixação de preços, o seu nível de concorrência e o seu potencial de crescimento a longo prazo.\n\nEste guia fornece um enquadramento sistemático para avaliar, escolher e validar um nicho de imprimíveis — quer venda no Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad ou qualquer outra plataforma. Vai aprender a identificar as suas vantagens iniciais, pesquisar a procura do mercado, analisar a concorrência, avaliar a rentabilidade, validar antes de se comprometer e planear a sua estratégia de expansão.\n\nTodas as ferramentas mencionadas neste guia estão disponíveis no teste grátis com marca d\'água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a qualidade do resultado antes de comprar uma licença comercial.',
+
+  tutorial: [
     {
-      title: 'Por que a seleção de nicho é o seu primeiro passo crítico',
+      heading: 'Por que a seleção de nicho é o seu primeiro passo crítico',
       content: `Muitos vendedores de imprimíveis novos saltam diretamente para a criação de produtos sem primeiro escolher um nicho claro. Criam fichas de matemática, depois páginas para colorir, depois planificadores — tudo sem foco. O resultado é uma loja que parece uma garagem onde se vende de tudo: muitos produtos sem identidade.
 
 Um nicho bem escolhido resolve vários problemas ao mesmo tempo. Dá-lhe posicionamento nos motores de busca porque o seu conteúdo se concentra em torno de palavras-chave relacionadas. Dá-lhe poder de fixação de preços porque pode criar pacotes especializados que compradores genéricos não conseguem igualar. Dá-lhe eficiência porque cada novo produto reutiliza pesquisa, modelos e estruturas existentes. E dá-lhe crescimento porque clientes satisfeitos num nicho compram repetidamente.
 
 A questão mais importante que precisa responder antes de criar o seu primeiro produto não é "O que é que eu sei fazer?" — é "Quem é que precisa disto, e já está a pagar por isso?"`,
-      keyTakeaways: [
-        'A seleção de nicho determina o seu posicionamento SEO, poder de fixação de preços e eficiência de produção',
-        'Lojas sem foco parecem garagens de venda — muitos produtos sem identidade para o comprador',
-        'A pergunta certa não é "O que sei fazer?" mas "Quem precisa disto e já paga por isso?"',
-        'Cada decisão subsequente — design, preço, marketing — decorre da sua escolha de nicho',
-      ],
     },
     {
-      title: 'Identificar as suas vantagens iniciais',
+      heading: 'Identificar as suas vantagens iniciais',
       content: `Antes de pesquisar a procura do mercado, faça um inventário do que já traz consigo. O nicho mais rentável do mundo é inútil se não tiver capacidade de criar produtos competitivos nele. A seleção de nicho ideal encontra-se na interseção entre procura do mercado e as suas capacidades pessoais.
 
 Comece por listar os seus conhecimentos específicos. Ensina ou ensinou numa escola? Tem filhos de uma determinada faixa etária? Trabalhou numa área específica como terapia da fala, educação especial ou ensino de línguas? Essas experiências dão-lhe uma perspetiva que criadores genéricos não possuem. Sabe que exercícios realmente funcionam, que formatos os alunos preferem e que lacunas existem nos materiais disponíveis.
@@ -51,15 +47,9 @@ Comece por listar os seus conhecimentos específicos. Ensina ou ensinou numa esc
 Depois, considere as suas capacidades técnicas. Consegue criar ilustrações originais ou depende de clipart? Tem experiência com design gráfico? Domina ferramentas como o LessonCraft Studio que permitem gerar fichas profissionais rapidamente? As suas capacidades técnicas determinam que tipos de produtos pode criar de forma realista — e com que rapidez.
 
 Finalmente, considere os seus interesses a longo prazo. A seleção de nicho não é uma decisão pontual — é um compromisso. Se escolher um nicho que o entedia, vai abandonar antes de ganhar tração. Os vendedores mais bem-sucedidos escolhem nichos que consideram genuinamente interessantes, porque a consistência a longo prazo supera a perfeição a curto prazo.`,
-      keyTakeaways: [
-        'O nicho ideal encontra-se na interseção entre procura do mercado e as suas capacidades pessoais',
-        'Experiência profissional em educação dá uma perspetiva que criadores genéricos não possuem',
-        'As capacidades técnicas determinam que produtos pode criar de forma realista e a que velocidade',
-        'Escolha um nicho que considere genuinamente interessante — a consistência supera a perfeição',
-      ],
     },
     {
-      title: 'Pesquisar a procura do mercado',
+      heading: 'Pesquisar a procura do mercado',
       content: `A pesquisa de mercado para imprimíveis é diferente da pesquisa para produtos físicos. Não precisa de inventário, armazém ou cadeia de abastecimento — mas precisa de compreender onde os compradores procuram e o que sinaliza verdadeira procura.
 
 **Pesquisa de palavras-chave em marketplaces.** Comece pelo Etsy, Amazon KDP e Teachers Pay Teachers. Escreva os seus temas de nicho potenciais na barra de pesquisa e observe as sugestões automáticas. Estas sugestões refletem pesquisas reais de compradores. Se "fichas de matemática pré-escolar" aparece como sugestão, há procura. Se "fichas de topologia algébrica" não aparece, provavelmente não há.
@@ -69,15 +59,9 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Verificar tendências sazonais.** Use o Google Trends para comparar os seus nichos potenciais. Procure nichos com procura consistente ao longo do ano (perenes) versus nichos com picos sazonais. Ambos podem ser rentáveis, mas requerem estratégias diferentes. Um nicho de "fichas de regresso às aulas" tem um pico forte em agosto/setembro, mas pouca procura no resto do ano. Um nicho de "fichas de matemática para 1.º ano" mantém procura estável.
 
 **Avaliar o volume de pesquisa.** Ferramentas como eRank (para Etsy) ou Publisher Rocket (para KDP) fornecem dados de volume de pesquisa específicos do marketplace. Procure nichos com pesquisa mensal suficiente para sustentar um negócio, mas não tão competitivos que um novo vendedor não consiga posicionar-se.`,
-      keyTakeaways: [
-        'As sugestões automáticas nos marketplaces refletem pesquisas reais de compradores — use-as',
-        'Produtos com centenas de avaliações confirmam procura; poucas avaliações podem indicar saturação',
-        'Compare nichos perenes (procura estável) versus sazonais (picos) no Google Trends',
-        'Ferramentas como eRank e Publisher Rocket fornecem volumes de pesquisa específicos por marketplace',
-      ],
     },
     {
-      title: 'Analisar a concorrência no seu nicho potencial',
+      heading: 'Analisar a concorrência no seu nicho potencial',
       content: `Encontrar procura não é suficiente — também precisa de avaliar se consegue competir. A análise de concorrência para imprimíveis envolve observar tanto a quantidade como a qualidade dos vendedores existentes.
 
 **Contar os concorrentes.** Pesquise o seu nicho nos principais marketplaces e observe quantos resultados aparecem. Uma pesquisa por "fichas de matemática pré-escolar" no Etsy pode devolver 50.000 resultados. Isso parece assustador, mas a maioria desses listados é de baixa qualidade, mal otimizada ou abandonada. O que importa é quantos vendedores ativos e de alta qualidade estão nos primeiros 20 resultados.
@@ -87,15 +71,9 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Identificar lacunas.** As melhores oportunidades de nicho muitas vezes estão em lacunas dentro de mercados existentes. Talvez haja muitas fichas de matemática para pré-escolar, mas poucas especificamente para crianças com necessidades educativas especiais. Talvez haja muitas páginas para colorir de animais, mas poucas com informações educativas integradas. Estas lacunas são onde um novo vendedor pode diferenciar-se imediatamente.
 
 **Analisar as estratégias de preços.** Observe o que os concorrentes cobram por produtos semelhantes. Se toda a gente cobra 2–3 € por fichas individuais, isso define o seu ponto de referência. Mas se consegue criar pacotes abrangentes que justifiquem 10–15 €, pode posicionar-se acima do mercado genérico.`,
-      keyTakeaways: [
-        'O número bruto de resultados engana — avalie os primeiros 20 vendedores ativos de alta qualidade',
-        'Se os primeiros resultados são medianos, há oportunidade clara para entrar',
-        'Procure lacunas em mercados existentes: subgrupos mal servidos ou ângulos inexplorados',
-        'Analise a estratégia de preços dos concorrentes para definir o seu posicionamento',
-      ],
     },
     {
-      title: 'Avaliar a rentabilidade do nicho',
+      heading: 'Avaliar a rentabilidade do nicho',
       content: `Nem todos os nichos com procura são rentáveis. Alguns nichos têm muito tráfego mas margens baixas, enquanto outros têm menos tráfego mas compradores dispostos a pagar mais.
 
 **Calcular o valor médio de encomenda.** Observe os preços dos produtos mais vendidos no seu nicho e estime o preço médio. Nichos onde os produtos mais vendidos custam 2–3 € exigem volume muito alto para gerar rendimento significativo. Nichos onde pacotes de 15–25 € vendem regularmente precisam de muito menos vendas.
@@ -106,16 +84,10 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 
 **Avaliar o potencial de expansão.** Um nicho que permite expansão para nichos adjacentes é mais valioso do que um nicho sem saída. Se começa com "fichas de adição para pré-escolar", pode expandir para subtração, depois multiplicação, depois para o 1.º ano — cada expansão reutiliza os seus modelos, público e posicionamento existentes. Um nicho muito estreito sem expansão natural limita o seu crescimento.
 
-**Calcular o custo de produção.** Com ferramentas como o LessonCraft Studio, pode criar fichas profissionais em minutos em vez de horas. Isto muda radicalmente a equação de rentabilidade — um nicho que seria pouco rentável com criação manual torna-se altamente rentável quando pode produzir 50 fichas no tempo que levaria a fazer 5. Experimente as ferramentas com um teste grátis com marca d'água para avaliar a sua velocidade de produção antes de se comprometer com um nicho.`,
-      keyTakeaways: [
-        'Nichos com preço médio baixo (2–3 €) exigem volume alto; pacotes de 15–25 € precisam de menos vendas',
-        'Nichos com potencial de compra recorrente são mais valiosos a longo prazo',
-        'Nichos que se prestam a pacotes temáticos ou por nível escolar são naturalmente mais rentáveis',
-        'Ferramentas de geração rápida transformam a equação de rentabilidade — avalie a velocidade de produção',
-      ],
+**Calcular o custo de produção.** Com ferramentas como o LessonCraft Studio, pode criar fichas profissionais em minutos em vez de horas. Isto muda radicalmente a equação de rentabilidade — um nicho que seria pouco rentável com criação manual torna-se altamente rentável quando pode produzir 50 fichas no tempo que levaria a fazer 5. Experimente as ferramentas com um teste grátis com marca d\'água para avaliar a sua velocidade de produção antes de se comprometer com um nicho.`,
     },
     {
-      title: 'Validar o seu nicho antes de se comprometer',
+      heading: 'Validar o seu nicho antes de se comprometer',
       content: `Antes de investir semanas a criar uma linha de produtos completa, valide a sua escolha de nicho com o mínimo de investimento. A validação protege-o de investir tempo significativo num nicho que não funciona.
 
 **Criar um produto mínimo viável.** Escolha o tipo de produto mais simples do seu nicho e crie 3–5 fichas. Se vai focar-se em fichas de matemática para pré-escolar, crie um pequeno pacote de adição com 5 páginas. Não precisa de ser perfeito — precisa de ser suficientemente bom para testar a reação do mercado.
@@ -127,15 +99,9 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Testar 2–3 nichos simultaneamente.** Se não tem a certeza entre nichos, crie um produto de teste para cada um e compare os resultados. Isto é muito mais fiável do que tentar adivinhar qual funcionará melhor. Os dados do mercado real superam qualquer quantidade de especulação.
 
 **Definir critérios de decisão antes de testar.** Antes de lançar os seus testes, decida antecipadamente que resultados significam "avançar", "ajustar" ou "abandonar". Por exemplo: se obter pelo menos 50 visualizações e 3 favoritos em 2 semanas, avança. Se não, testa variações ou muda de nicho. Critérios pré-definidos evitam decisões emocionais.`,
-      keyTakeaways: [
-        'Valide com um produto mínimo viável: 3–5 fichas, não uma linha completa',
-        'Liste e observe durante 2–4 semanas — visualizações e favoritos indicam interesse mesmo sem vendas',
-        'Teste 2–3 nichos simultaneamente para comparar com dados reais, não suposições',
-        'Defina critérios de decisão antes de testar para evitar decisões emocionais',
-      ],
     },
     {
-      title: 'Nichos perenes versus sazonais',
+      heading: 'Nichos perenes versus sazonais',
       content: `Uma decisão estratégica importante é se vai focar-se em nichos perenes (procura constante ao longo do ano) ou sazonais (picos de procura em alturas específicas). Ambos podem ser rentáveis, mas exigem abordagens diferentes.
 
 **Nichos perenes** mantêm procura estável durante todo o ano. Exemplos incluem fichas de matemática por nível escolar, atividades de motricidade fina, exercícios de caligrafia ou fichas de vocabulário. A vantagem é rendimento previsível — pode contar com vendas consistentes mês após mês. A desvantagem é que estes nichos tendem a ser mais competitivos porque atraem vendedores a longo prazo.
@@ -145,15 +111,9 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **A estratégia ótima combina ambos.** Use nichos perenes como base do seu rendimento — fichas que vendem todos os meses. Depois complemente com produtos sazonais que aproveitam picos de procura. Esta combinação dá-lhe estabilidade e oportunidades de crescimento.
 
 **Planear com antecedência os sazonais.** Se vai incluir produtos sazonais na sua estratégia, comece a criar 2–3 meses antes do pico de procura. Isso dá tempo para os listados ganharem tração nos motores de busca do marketplace antes de a procura atingir o pico. Lançar um produto de Natal em dezembro é demasiado tarde — precisa de estar listado em outubro.`,
-      keyTakeaways: [
-        'Nichos perenes dão rendimento previsível mas enfrentam mais concorrência a longo prazo',
-        'Nichos sazonais geram picos concentrados mas exigem planeamento antecipado de 2–3 meses',
-        'A estratégia ótima combina uma base perene com complementos sazonais',
-        'Lance produtos sazonais 2–3 meses antes do pico — lançar no pico é demasiado tarde',
-      ],
     },
     {
-      title: 'Planear a sua estratégia de expansão de nicho',
+      heading: 'Planear a sua estratégia de expansão de nicho',
       content: `Depois de validar o seu nicho inicial e começar a gerar vendas, o passo seguinte é planear como expandir. A expansão de nicho é o que transforma um pequeno negócio secundário num rendimento significativo.
 
 **Expansão vertical: aprofundar o nicho.** Se começou com fichas de adição para pré-escolar, expanda para mais conteúdo dentro do mesmo nicho. Mais temas, mais níveis de dificuldade, mais formatos (fichas individuais, pacotes, cadernos de atividades). Cada novo produto aproveita o posicionamento e a audiência que já construiu.
@@ -165,12 +125,6 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
 **Expansão por idioma.** Os mercados de imprimíveis educativos não se limitam ao inglês. Versões em português, espanhol, francês, alemão e outros idiomas abrem mercados inteiros com muito menos concorrência. Se os seus designs já estão prontos, a localização é o passo mais eficiente de expansão.
 
 **A regra de expansão 80/20.** Antes de expandir, certifique-se de que o seu nicho base está sólido. A regra geral é: expanda apenas quando 80% do seu catálogo inicial está completo e a vender. Expandir demasiado cedo dispersa o seu foco e atrasa o crescimento no seu nicho principal.`,
-      keyTakeaways: [
-        'Expansão vertical: mais conteúdo dentro do mesmo nicho (temas, dificuldade, formatos)',
-        'Expansão horizontal: nichos adjacentes que partilham o mesmo público-alvo',
-        'Expansão por nível escolar e idioma multiplica o catálogo com esforço mínimo',
-        'Regra 80/20: só expanda quando 80% do catálogo base está completo e a vender',
-      ],
     },
   ],
 
@@ -189,22 +143,40 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
   ],
 
-  productShowcase: {
-    products: [
-      { appId: 'word-search', text: 'O gerador de caça-palavras permite criar fichas temáticas para qualquer nicho — desde animais marinhos a transportes. Cada caça-palavras pode incluir imagens personalizadas da nossa biblioteca com mais de 3.000 ilustrações, tornando-o perfeito para testar nichos com um produto visualmente apelativo. Experimente com um teste grátis com marca d\'água para ver como funciona.' },
-      { appId: 'matching', text: 'As fichas de associação funcionam em praticamente qualquer nicho educativo. Combine imagens com palavras, números com quantidades, ou maiúsculas com minúsculas. É um dos tipos de produto mais versáteis para validar um novo nicho — se consegue criar fichas de associação para o seu tema, provavelmente há um mercado.' },
-      { appId: 'coloring', text: 'As páginas para colorir são o ponto de entrada mais popular para novos vendedores de imprimíveis. Cada nicho temático — animais, veículos, alimentos, profissões — pode gerar dezenas de páginas para colorir. O gerador de páginas para colorir permite experimentar diferentes nichos rapidamente antes de se comprometer.' },
-      { appId: 'bingo', text: 'Os cartões de bingo são um produto de nicho excepcional porque servem tanto contextos educativos como recreativos. Um único tema pode gerar cartões de bingo para salas de aula, festas de aniversário e terapia da fala — três segmentos de mercado diferentes com um único tipo de produto.' },
-    ],
-    relevance: 'A seleção de nicho torna-se mais prática quando pode experimentar rapidamente com diferentes tipos de produtos. Estas ferramentas permitem-lhe criar fichas de teste grátis com marca d\'água para múltiplos nichos em minutos, ajudando-o a validar a procura antes de investir tempo significativo num nicho específico.',
-  },
+  faq: [
+    {
+      question: 'Como sei se o meu nicho de imprimíveis tem procura suficiente?',
+      answer: 'Pesquise o seu nicho nos principais marketplaces (Etsy, Amazon KDP, Teachers Pay Teachers) e observe as sugestões automáticas, o número de resultados e as avaliações dos produtos mais vendidos. Sugestões automáticas indicam pesquisas reais. Produtos com centenas de avaliações confirmam procura forte. Ferramentas como eRank (Etsy) ou Publisher Rocket (KDP) fornecem dados de volume de pesquisa específicos.',
+    },
+    {
+      question: 'Devo começar com um nicho perene ou sazonal?',
+      answer: 'A estratégia ótima combina ambos. Use nichos perenes como base do seu rendimento — fichas que vendem todos os meses — e complemente com produtos sazonais que aproveitam picos de procura. Nichos perenes dão estabilidade. Nichos sazonais dão oportunidades de crescimento concentrado.',
+    },
+    {
+      question: 'Como posso validar um nicho antes de investir muito tempo?',
+      answer: 'Crie um produto mínimo viável de 3-5 fichas para o nicho potencial. Liste-o nos marketplaces relevantes com SEO bem otimizado e observe durante 2-4 semanas. Visualizações e favoritos indicam interesse. Se possível, teste 2-3 nichos simultaneamente para comparar com dados reais. Defina critérios de decisão antes de testar.',
+    },
+    {
+      question: 'Quando devo expandir para um nicho adjacente?',
+      answer: 'A regra geral é expandir quando 80% do seu catálogo base está completo e a vender. Expanda primeiro verticalmente (mais conteúdo no mesmo nicho), depois horizontalmente (nichos adjacentes com o mesmo público), e depois por nível escolar ou idioma. Cada tipo de expansão reutiliza os seus modelos, público e posicionamento existentes.',
+    },
+    {
+      question: 'Posso experimentar ferramentas de criação antes de escolher um nicho?',
+      answer: 'Sim. Todas as ferramentas do LessonCraft Studio oferecem um teste grátis com marca d\'água. Pode criar fichas de exemplo para múltiplos nichos, testar diferentes tipos de produtos e avaliar a velocidade de produção antes de se comprometer com um nicho específico. A licença comercial remove a marca d\'água quando estiver pronto para vender.',
+    },
+    {
+      question: 'Que tipos de imprimíveis são mais fáceis de começar a vender?',
+      answer: 'Fichas de matemática (adição, subtração), sopas de letras, páginas para colorir e cartões de bingo são os tipos de produtos mais acessíveis para iniciantes. Têm procura consistente, são rápidos de criar com geradores e funcionam em múltiplos nichos temáticos. Comece com o tipo que melhor se adequa ao seu nicho escolhido.',
+    },
+  ],
 
-  gallery: {
-    images: [
+  visuals: {
+    heroImage: { src: '/samples/english/word-search/word search portrait.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de produtos em múltiplos nichos' },
+    samples: [
       { src: '/samples/english/word-search/word search portrait.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de um produto em múltiplos nichos', caption: 'Os caça-palavras funcionam em qualquer nicho temático — animais, alimentos, veículos, profissões — tornando-os ideais para testar a procura de nicho' },
-      { src: '/samples/english/coloring/coloring portrait.webp', alt: 'Página para colorir mostrando possibilidades de produtos temáticos de nicho', caption: 'As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações sem criar do zero' },
-      { src: '/samples/english/bingo/bingo portrait.webp', alt: 'Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado', caption: 'Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia — triplicando o seu mercado potencial' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação mostrando a variedade de produtos de nicho educativo', caption: 'As atividades de associação funcionam em nichos educativos desde vocabulário a matemática — um único tipo de produto que valida a procura de nicho rapidamente' },
+      { src: '/samples/english/coloring/coloring portrait.webp', alt: 'Página para colorir mostrando possibilidades de produtos temáticos de nicho', caption: 'As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações' },
+      { src: '/samples/english/bingo/bingo portrait.webp', alt: 'Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado', caption: 'Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia' },
+      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação mostrando a variedade de produtos de nicho educativo', caption: 'As atividades de associação funcionam em nichos educativos desde vocabulário a matemática' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar caça-palavras para qualquer tema de nicho',

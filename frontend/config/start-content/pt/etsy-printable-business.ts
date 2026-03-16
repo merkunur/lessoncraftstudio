@@ -27,7 +27,7 @@ const content: StartContent = {
     description: 'O Etsy é o maior marketplace para transferências digitais imprimíveis. Esta masterclass abrange tudo o que precisa para construir uma loja rentável de fichas imprimíveis na plataforma — desde a configuração inicial da loja e o SEO específico do Etsy até à otimização de anúncios, estratégia de preços, publicidade e escalamento para além dos primeiros 50 produtos. Cada estratégia neste guia está adaptada especificamente ao funcionamento do Etsy, não são conselhos genéricos aplicáveis a qualquer marketplace.',
   },
 
-  introduction: 'O Etsy processa milhares de milhões de dólares em vendas de transferências digitais todos os anos, e as fichas imprimíveis são uma das categorias de crescimento mais rápido da plataforma. Ao contrário de vender no seu próprio website onde tem de gerar cada visitante sozinho, o Etsy traz-lhe compradores que já estão à procura exatamente do que cria. Os pais escrevem «fichas de soma imprimíveis» na pesquisa do Etsy. Os professores procuram «pacote de páginas para colorir do jardim de infância». As famílias que fazem ensino doméstico procuram «fichas de prática de matemática do primeiro ano». O seu trabalho é ser a loja que encontram.\n\nMas o Etsy também está saturado. Milhares de vendedores publicam fichas imprimíveis, e o algoritmo de pesquisa da plataforma decide quem obtém visibilidade e quem fica enterrado. Ter sucesso no Etsy requer compreender como funciona a pesquisa da plataforma, o que faz os compradores clicarem no seu anúncio em vez do de um concorrente, e como estruturar a sua loja para máxima descobribilidade.\n\nEsta masterclass é específica do Etsy do início ao fim. Os conselhos genéricos sobre negócios de imprimíveis aparecem no nosso Guia Completo para Iniciar um Negócio de Imprimíveis. Este guia assume que decidiu que o Etsy é a sua plataforma e quer o conhecimento tático ao nível da plataforma para fazê-lo funcionar.\n\nUma nota antes de começarmos: cada gerador de fichas mencionado neste guia oferece um teste grátis com marca d'água. Pode criar produtos de amostra, testar anúncios no Etsy e validar o seu nicho antes de comprar uma licença comercial.',
+  introduction: 'O Etsy processa milhares de milhões de dólares em vendas de transferências digitais todos os anos, e as fichas imprimíveis são uma das categorias de crescimento mais rápido da plataforma. Ao contrário de vender no seu próprio website onde tem de gerar cada visitante sozinho, o Etsy traz-lhe compradores que já estão à procura exatamente do que cria. Os pais escrevem «fichas de soma imprimíveis» na pesquisa do Etsy. Os professores procuram «pacote de páginas para colorir do jardim de infância». As famílias que fazem ensino doméstico procuram «fichas de prática de matemática do primeiro ano». O seu trabalho é ser a loja que encontram.\n\nMas o Etsy também está saturado. Milhares de vendedores publicam fichas imprimíveis, e o algoritmo de pesquisa da plataforma decide quem obtém visibilidade e quem fica enterrado. Ter sucesso no Etsy requer compreender como funciona a pesquisa da plataforma, o que faz os compradores clicarem no seu anúncio em vez do de um concorrente, e como estruturar a sua loja para máxima descobribilidade.\n\nEsta masterclass é específica do Etsy do início ao fim. Os conselhos genéricos sobre negócios de imprimíveis aparecem no nosso Guia Completo para Iniciar um Negócio de Imprimíveis. Este guia assume que decidiu que o Etsy é a sua plataforma e quer o conhecimento tático ao nível da plataforma para fazê-lo funcionar.\n\nUma nota antes de começarmos: cada gerador de fichas mencionado neste guia oferece um teste grátis com marca d\'água. Pode criar produtos de amostra, testar anúncios no Etsy e validar o seu nicho antes de comprar uma licença comercial.',
 
   mainContent: [
     {
@@ -79,7 +79,7 @@ const content: StartContent = {
     },
     {
       step: 'Crie produtos de amostra com o teste grátis',
-      description: 'Use o teste grátis com marca d'água em 2–3 geradores de fichas para criar produtos de amostra no seu nicho escolhido. Avalie a qualidade dos resultados e teste diferentes temas, níveis de dificuldade e configurações de página.',
+      description: 'Use o teste grátis com marca d\'água em 2–3 geradores de fichas para criar produtos de amostra no seu nicho escolhido. Avalie a qualidade dos resultados e teste diferentes temas, níveis de dificuldade e configurações de página.',
     },
     {
       step: 'Configure a sua conta de vendedor no Etsy',
@@ -151,7 +151,7 @@ const content: StartContent = {
   faq: [
     {
       question: 'Posso experimentar os geradores de fichas antes de configurar a minha loja do Etsy?',
-      answer: 'Sim. Cada gerador oferece um teste grátis com marca d'água. Pode criar fichas de amostra, testar diferentes temas e configurações, e avaliar se a qualidade dos resultados cumpre os seus padrões antes de comprar uma licença comercial ou publicar algo no Etsy.',
+      answer: 'Sim. Cada gerador oferece um teste grátis com marca d\'água. Pode criar fichas de amostra, testar diferentes temas e configurações, e avaliar se a qualidade dos resultados cumpre os seus padrões antes de comprar uma licença comercial ou publicar algo no Etsy.',
     },
     {
       question: 'Quanto custa começar a vender imprimíveis no Etsy?',
@@ -163,7 +163,7 @@ const content: StartContent = {
     },
     {
       question: 'Preciso de uma licença comercial para vender fichas no Etsy?',
-      answer: 'Sim. O teste grátis com marca d'água destina-se apenas a avaliação. Para vender fichas comercialmente no Etsy ou em qualquer outra plataforma, precisa de uma licença comercial que remove a marca d'água e concede direitos de venda. Cada licença abrange uma ferramenta geradora.',
+      answer: 'Sim. O teste grátis com marca d\'água destina-se apenas a avaliação. Para vender fichas comercialmente no Etsy ou em qualquer outra plataforma, precisa de uma licença comercial que remove a marca d\'água e concede direitos de venda. Cada licença abrange uma ferramenta geradora.',
     },
     {
       question: 'Quantos anúncios no Etsy posso criar com um único gerador de fichas?',
@@ -179,7 +179,7 @@ const content: StartContent = {
     },
     {
       question: 'Qual é a política de reembolso para as licenças comerciais?',
-      answer: 'Cada gerador oferece um teste grátis com marca d'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade dos resultados antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser testado antes da compra.',
+      answer: 'Cada gerador oferece um teste grátis com marca d\'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade dos resultados antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser testado antes da compra.',
     },
   ],
 

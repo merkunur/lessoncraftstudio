@@ -75,7 +75,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Dicas de automatização específicas para Teachers Pay Teachers',
-      content: 'O Teachers Pay Teachers requer pré-visualizações e miniaturas que mostrem o conteúdo real do produto. Os modelos de pré-visualização devem incluir slides padrão: página de capa, exemplo de conteúdo, instruções de utilização e informação de licenciamento. Crie estes slides de modelo uma vez e atualize o conteúdo para cada novo produto. O TPT também permite pré-visualizações descarregáveis — crie um modelo de pré-visualização com marca d'água para que esta etapa esteja automatizada. Os modelos de descrição do TPT devem incluir as categorias de padrão e campos de alinhamento com o currículo que são específicos desta plataforma.',
+      content: 'O Teachers Pay Teachers requer pré-visualizações e miniaturas que mostrem o conteúdo real do produto. Os modelos de pré-visualização devem incluir slides padrão: página de capa, exemplo de conteúdo, instruções de utilização e informação de licenciamento. Crie estes slides de modelo uma vez e atualize o conteúdo para cada novo produto. O TPT também permite pré-visualizações descarregáveis — crie um modelo de pré-visualização com marca d\'água para que esta etapa esteja automatizada. Os modelos de descrição do TPT devem incluir as categorias de padrão e campos de alinhamento com o currículo que são específicos desta plataforma.',
     },
   ],
 
@@ -132,7 +132,7 @@ const content: GuideContent = {
     },
     {
       question: 'Qual é a política de reembolso para licenças comerciais?',
-      answer: 'Cada gerador oferece um teste grátis com marca d'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade do resultado antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser pré-visualizado antes da compra.',
+      answer: 'Cada gerador oferece um teste grátis com marca d\'água para que possa testar todas as funcionalidades, criar fichas de amostra e avaliar a qualidade do resultado antes de comprar. Dado que pode avaliar completamente o produto antes da compra, todas as vendas de licenças comerciais são finais. Esta é a prática padrão para ferramentas de produtos digitais onde o produto completo pode ser pré-visualizado antes da compra.',
     },
   ],
 

@@ -278,7 +278,7 @@ export default async function GuidePage({
                 {content.visuals.samples.map((sample, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
                     <img
-                      src={sample.src}
+                      src={encodeImagePath(sample.src)}
                       alt={sample.alt}
                       className="w-full h-auto"
                       loading="lazy"

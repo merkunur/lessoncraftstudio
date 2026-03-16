@@ -321,7 +321,7 @@ export default async function BundlePage({
                 {content.themeImages.map((img, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
                     <img
-                      src={img.src}
+                      src={encodeImagePath(img.src)}
                       alt={img.alt}
                       className="w-full h-auto"
                       loading="lazy"

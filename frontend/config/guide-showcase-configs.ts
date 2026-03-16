@@ -35,6 +35,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
   if (locale === 'de') return imgUrl(appFolder, filename, 'de');
   if (locale === 'fr') return imgUrl(appFolder, filename, 'fr');
   if (locale === 'es') return imgUrl(appFolder, filename, 'es');
+  if (locale === 'pt') return imgUrl(appFolder, filename, 'pt');
   return img(appFolder, filename);
 }
 

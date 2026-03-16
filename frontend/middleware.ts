@@ -213,11 +213,26 @@ function getPreferredLanguage(request: NextRequest): string {
  * Fast de-indexing signal for search engines.
  */
 function return410(): NextResponse {
-  return new NextResponse('Gone', {
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Page Removed</title>
+</head>
+<body>
+<h1>This page has been removed</h1>
+<p>The content you are looking for is no longer available.</p>
+<p><a href="https://www.lessoncraftstudio.com/">Visit our homepage</a></p>
+</body>
+</html>`;
+
+  return new NextResponse(html, {
     status: 410,
     headers: {
-      'Content-Type': 'text/plain',
+      'Content-Type': 'text/html; charset=utf-8',
       'X-Robots-Tag': 'noindex',
+      'Cache-Control': 'public, max-age=86400',
     },
   });
 }

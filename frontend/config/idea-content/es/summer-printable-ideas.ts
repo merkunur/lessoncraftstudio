@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Verano para Vender — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de verano para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de playa y sol, estrategias estacionales y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de verano para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de playa y sol, estrategias estacionales.',
     primaryKeyword: 'ideas imprimibles verano',
     secondaryKeywords: [
       'fichas temática verano para vender',

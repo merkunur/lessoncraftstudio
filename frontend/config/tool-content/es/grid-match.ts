@@ -14,7 +14,7 @@ const content: ToolContent = {
       'clave de respuestas automática con círculos numerados superpuestos',
       'creador de fichas con celdas pista configurables',
     ],
-    titleTag: 'Generador de Puzzle de Cuadrícula | Fichas',
+    titleTag: 'Generador Puzzle de Cuadrícula | para Vender',
     metaDescription: 'Crea puzzles de cuadrícula con tamaño de 2×2 a 4×4, celdas pista ajustables, aleatorización Fisher-Yates y 104 temas ilustrados. Prueba gratuita con marca.',
   },
 

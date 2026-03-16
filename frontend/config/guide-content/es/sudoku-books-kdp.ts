@@ -18,7 +18,7 @@ const content: GuideContent = {
       'número puzles sudoku diseño página claves respuestas impresión recorte',
     ],
     titleTag: 'Libros sudoku KDP — Guía de publicación',
-    metaDescription: 'Crea libros de sudoku KDP con sudoku de imágenes para niños y sudoku numérico para adultos. Progresión de dificultad, formateo de cuadrículas y estrategia de series.',
+    metaDescription: 'Crea libros de sudoku KDP con sudoku de imágenes para niños y sudoku numérico para adultos. Progresión de dificultad, formateo de cuadrículas y estrategia.',
   },
 
   hero: {

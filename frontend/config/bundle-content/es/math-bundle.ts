@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas de matemáticas',
       'herramienta de creación masiva de fichas de matemáticas',
     ],
-    titleTag: 'Paquete de Fichas de Matemáticas — 6 Generadores',
+    titleTag: 'Paquete Fichas de Matemáticas | para Vender',
     metaDescription: '6 generadores de fichas de matemáticas en un paquete: suma, resta, código, comparación, puzzles y álgebra. Vende en Etsy, KDP y TPT con licencia comercial.',
   },
 

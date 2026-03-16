@@ -14,7 +14,7 @@ const content: AppContent = {
       'vender puzzles educativos en línea',
       'creador de cuadernos de puzzles matemáticos',
     ],
-    titleTag: 'Generador de Suma Codificada | Puzzles Matemáticos',
+    titleTag: 'Generador Suma Codificada | Crear y Vender',
     metaDescription:
       'Crea puzzles de suma codificada para vender en Etsy, KDP y TPT. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI. Prueba gratis con marca de agua.',
   },

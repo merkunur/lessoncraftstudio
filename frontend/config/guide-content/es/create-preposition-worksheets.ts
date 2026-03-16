@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de fichas de preposiciones con licencia comercial',
     ],
     titleTag: 'Fichas de preposiciones — Guía',
-    metaDescription: 'Crea fichas de preposiciones con dos modos de ejercicio, Reemplazo de Formas para variedad de escenas, cuadrícula de 7 preposiciones y palabras nativas en 11 idiomas.',
+    metaDescription: 'Crea fichas de preposiciones con dos modos de ejercicio, Reemplazo de Formas para variedad de escenas, cuadrícula de 7 preposiciones y palabras nativas.',
   },
 
   hero: {

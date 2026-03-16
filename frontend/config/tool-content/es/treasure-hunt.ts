@@ -14,8 +14,8 @@ const content: ToolContent = {
       'pistas direccionales localizadas 11 idiomas contenido imágenes sensible',
       'clave respuestas celda tesoro resaltada sistema doble lienzo creador',
     ],
-    titleTag: 'Creador Búsqueda del Tesoro — Generador Fichas Direccionales Imprimibles',
-    metaDescription: 'Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con dos tipos de dirección, pistas localizadas en 11 idiomas, clave de respuestas automática y 104 temas. Prueba gratuita con marca de agua.',
+    titleTag: 'Creador Búsqueda del Tesoro — Fichas para Vender',
+    metaDescription: 'Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con dos tipos de dirección, pistas localizadas en 11 idiomas, clave de respuestas automática y 104 temas.',
   },
 
   hero: {

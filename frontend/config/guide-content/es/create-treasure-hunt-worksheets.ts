@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de búsqueda del tesoro con licencia comercial',
     ],
     titleTag: 'Fichas de búsqueda del tesoro — Guía',
-    metaDescription: 'Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con movimientos direccionales, referencias temáticas y claves de respuestas automáticas. Guía paso a paso para Etsy y KDP.',
+    metaDescription: 'Crea fichas de búsqueda del tesoro en cuadrícula 5×5 con movimientos direccionales, referencias temáticas y claves de respuestas automáticas. Guía paso.',
   },
 
   hero: {

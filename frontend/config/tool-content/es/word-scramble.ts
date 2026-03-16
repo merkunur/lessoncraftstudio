@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de puzzles de ortografía multilingüe',
       'generador de actividades de reordenar letras',
     ],
-    titleTag: 'Generador de Letras Revueltas | Imprimibles',
+    titleTag: 'Generador de Letras Revueltas | para Vender',
     metaDescription: 'Genera fichas de letras revueltas con código de colores para vocales, imágenes, 4 niveles de dificultad y 11 idiomas. Prueba gratuita con marca de agua.',
   },
 

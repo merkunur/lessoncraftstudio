@@ -18,7 +18,7 @@ const content: StartContent = {
       'checklist de lanzamiento de negocio de imprimibles',
     ],
     titleTag: 'Ideas de Negocio de Imprimibles — Plan Estratégico',
-    metaDescription: 'Convierte tus ideas de negocio de imprimibles en un plan estratégico estructurado. Planifica tu línea de productos, elige plataformas, fija precios y lanza con generadores de fichas.',
+    metaDescription: 'Convierte tus ideas de negocio de imprimibles en un plan estratégico estructurado. Planifica tu línea de productos, elige plataformas, fija precios y lanza.',
   },
 
   hero: {

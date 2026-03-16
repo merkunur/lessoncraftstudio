@@ -18,7 +18,7 @@ const content: GuideContent = {
       'estrategia de hashtags calendario de publicaciones tasa de engagement optimización de perfil',
     ],
     titleTag: 'Marketing Redes Sociales Imprimibles — Guía Vendedor',
-    metaDescription: 'Estrategias de marketing en redes sociales para imprimibles: selección de plataformas, contenido visual, construcción de audiencia y engagement que genera tráfico.',
+    metaDescription: 'Estrategias de marketing en redes sociales para imprimibles: selección de plataformas, contenido visual, construcción de audiencia y engagement que genera.',
   },
 
   hero: {

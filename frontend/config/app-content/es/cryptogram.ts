@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Criptograma | Crear y Vender',
     metaDescription:
-      'Crea fichas de criptograma para Etsy, KDP y TPT. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave auto. Prueba gratis con marca de agua.',
+      'Crea fichas de criptograma para Etsy, KDP y TPT. Cifrado por imágenes, Letras a Revelar 0–10, 104 temas, clave automática. Prueba gratis con marca de agua.',
   },
 
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'clave de respuestas automática con líneas de conexión',
       'creador de fichas de letra inicial imagen y palabra',
     ],
-    titleTag: 'Generador de Fichas de Asociación | Relacionar',
+    titleTag: 'Generador Fichas de Asociación | para Vender',
     metaDescription: 'Crea fichas de asociación con 4 modos, clave de respuestas automática con líneas, pares configurables, 11 idiomas y 104 temas. Prueba gratuita con marca.',
   },
 

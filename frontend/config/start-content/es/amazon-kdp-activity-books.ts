@@ -18,7 +18,7 @@ const content: StartContent = {
       'impresión bajo demanda negocio libros de actividades',
     ],
     titleTag: 'Vender Libros de Actividades en Amazon KDP — Guía',
-    metaDescription: 'Cómo vender libros de actividades en Amazon KDP. Formato interior, diseño de portada, investigación de palabras clave, estrategia de precios y escalado de tu negocio KDP.',
+    metaDescription: 'Cómo vender libros de actividades en Amazon KDP. Formato interior, diseño de portada, investigación de palabras clave, estrategia de precios y escalado.',
   },
 
   hero: {

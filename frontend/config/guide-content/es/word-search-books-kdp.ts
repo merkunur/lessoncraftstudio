@@ -18,7 +18,7 @@ const content: GuideContent = {
       'mercado sopas letras adultos niños audiencia formateo cuadrícula',
     ],
     titleTag: 'Crear libros sopas letras KDP — Guía',
-    metaDescription: 'Crea libros de sopas de letras KDP con listas de palabras temáticas, formatos de letra grande y estrategia de series. Tamaño de cuadrícula, segmentación de audiencia y optimización en Amazon.',
+    metaDescription: 'Crea libros de sopas de letras KDP con listas de palabras temáticas, formatos de letra grande y estrategia de series. Tamaño de cuadrícula, segmentación.',
   },
 
   hero: {

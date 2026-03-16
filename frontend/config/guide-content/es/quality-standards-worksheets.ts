@@ -17,7 +17,7 @@ const content: GuideContent = {
       'calificaciones reseñas confianza comprador lista verificación producción aseguramiento calidad',
     ],
     titleTag: 'Estándares Calidad Fichas Ejercicios Vendedores',
-    metaDescription: 'Estándares de calidad que los vendedores de fichas necesitan para resultados profesionales. Cubre resolución, márgenes, tipografía, claves de respuestas y pruebas de impresión.',
+    metaDescription: 'Estándares de calidad que los vendedores de fichas necesitan para resultados profesionales. Cubre resolución, márgenes, tipografía, claves de respuestas.',
   },
 
   hero: {

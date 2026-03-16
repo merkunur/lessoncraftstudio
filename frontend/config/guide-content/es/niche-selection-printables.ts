@@ -18,7 +18,7 @@ const content: GuideContent = {
       'demanda palabras clave volumen búsqueda tendencias marketplace señales intención compra',
     ],
     titleTag: 'Selección de nicho para negocios de imprimibles — Guía',
-    metaDescription: 'Selección de nicho para negocios de imprimibles: investigar demanda, analizar competencia, evaluar rentabilidad, validar antes de comprometerse y planificar expansión.',
+    metaDescription: 'Selección de nicho para negocios de imprimibles: investigar demanda, analizar competencia, evaluar rentabilidad, validar antes de comprometerse y planificar.',
   },
 
   hero: {

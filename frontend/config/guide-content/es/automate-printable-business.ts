@@ -18,7 +18,7 @@ const content: GuideContent = {
       'sistemas producción procesos escalables gestión catálogo diseño flujo trabajo',
     ],
     titleTag: 'Automatizar negocio imprimibles — Guía eficiencia',
-    metaDescription: 'Cómo automatizar tu negocio de imprimibles con producción por lotes, sistemas de plantillas y flujos de trabajo sistemáticos. Ahorra horas y escala tu producción.',
+    metaDescription: 'Cómo automatizar tu negocio de imprimibles con producción por lotes, sistemas de plantillas y flujos de trabajo sistemáticos. Ahorra horas y escala tu tienda.',
   },
 
   hero: {

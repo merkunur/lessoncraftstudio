@@ -14,7 +14,7 @@ const content: ToolContent = {
       'creador de siluetas a nivel de píxel con algoritmo de derangement',
       'clave de respuestas automática generador de fichas de sombras',
     ],
-    titleTag: 'Generador de Discriminación Visual | Fichas',
+    titleTag: 'Generador Discriminación Visual | para Vender',
     metaDescription: 'Crea fichas de asociación de sombras con siluetas a nivel de píxel y modo Completa la Imagen, claves de respuestas automáticas y 104 temas. Prueba con marca.',
   },
 

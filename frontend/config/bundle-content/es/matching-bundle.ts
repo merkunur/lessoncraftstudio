@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas de asociación',
       'herramienta de creación masiva de fichas de clasificación',
     ],
-    titleTag: 'Paquete de Fichas de Asociación — 5 Generadores',
+    titleTag: 'Paquete Fichas de Asociación | para Vender',
     metaDescription: '5 generadores de fichas de asociación y clasificación en un paquete: asociación, cuadrícula, sombras, bingo y clasificación para vender en Etsy, KDP y TPT.',
   },
 

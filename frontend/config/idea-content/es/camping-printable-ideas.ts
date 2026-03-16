@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Camping — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de camping para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática al aire libre, estrategias por plataforma y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de camping para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática al aire libre, estrategias por plataforma.',
     primaryKeyword: 'ideas imprimibles camping',
     secondaryKeywords: [
       'fichas de camping para vender',

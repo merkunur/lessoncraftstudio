@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Acción de Gracias — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de Acción de Gracias para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de cosecha, estrategias estacionales y consejos por plataforma.',
+    metaDescription: 'Descubre ideas de imprimibles de Acción de Gracias para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de cosecha, estrategias.',
     primaryKeyword: 'ideas imprimibles Acción de Gracias',
     secondaryKeywords: [
       'fichas Acción de Gracias para vender',

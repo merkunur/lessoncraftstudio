@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Día de los Padres para Vender — Guía',
-    metaDescription: 'Descubre ideas de imprimibles del Día de la Madre y del Padre para vender en Etsy, KDP y TPT. Conceptos de productos de agradecimiento familiar y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles del Día de la Madre y del Padre para vender en Etsy, KDP y TPT. Conceptos de productos de agradecimiento familiar y consejos.',
     primaryKeyword: 'ideas imprimibles día de los padres',
     secondaryKeywords: [
       'fichas Día de la Madre para vender',

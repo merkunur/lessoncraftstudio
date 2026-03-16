@@ -17,8 +17,8 @@ const content: StartContent = {
       'expansión a mercados multilingües para imprimibles',
       'estrategia de reinversión para negocio de imprimibles',
     ],
-    titleTag: 'Escalar Negocio de Imprimibles — De Proyecto Secundario a Tiempo Completo',
-    metaDescription: 'Cómo escalar tu negocio de imprimibles de proyecto secundario a tiempo completo. Cubre expansión de catálogo, distribución multiplataforma, paquetes y automatización del flujo de trabajo.',
+    titleTag: 'Escalar Negocio de Imprimibles — Guía para Crecer',
+    metaDescription: 'Cómo escalar tu negocio de imprimibles de proyecto secundario a tiempo completo. Expansión de catálogo, distribución multiplataforma, paquetes y optimización.',
   },
 
   hero: {

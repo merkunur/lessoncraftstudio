@@ -14,8 +14,8 @@ const content: ToolContent = {
       'palabras sensibles al idioma vocabulario de imágenes multilingüe crucigramas',
       'clave respuestas cuadrícula completada sistema doble lienzo crucigrama',
     ],
-    titleTag: 'Creador Crucigramas con Imágenes — Generador Ilustrado Imprimible',
-    metaDescription: 'Crea crucigramas con pistas de imágenes en cuadrícula 15×15, cuatro métodos de entrada, clave de respuestas automática, 104 temas y 11 idiomas. Prueba gratuita con marca de agua.',
+    titleTag: 'Creador Crucigramas con Imágenes — Fichas para Vender',
+    metaDescription: 'Crea crucigramas con pistas de imágenes en cuadrícula 15×15, cuatro métodos de entrada, clave de respuestas automática, 104 temas y 11 idiomas. Prueba.',
   },
 
   hero: {

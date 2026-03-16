@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licencia comercial fichas de descubrimiento',
       'herramienta de creación masiva de fichas de búsqueda',
     ],
-    titleTag: 'Paquete Fichas Búsqueda y Descubrimiento — 4 Generadores',
+    titleTag: 'Paquete Fichas Búsqueda | Crear y Vender',
     metaDescription: 'Paquete con 4 generadores de búsqueda: I Spy, objetos ocultos, crucigramas con imágenes y búsqueda del tesoro. Vende en Etsy, KDP y TPT con licencia comercial.',
   },
 

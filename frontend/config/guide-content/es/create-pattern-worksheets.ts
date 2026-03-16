@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de fichas con licencia comercial',
     ],
     titleTag: 'Crear fichas de patrones para preescolar — Guía',
-    metaDescription: 'Cómo crear fichas de patrones con 9 tipos, imágenes temáticas, claves de respuestas automáticas y 2 formatos de preguntas. Exporta PDFs para vender en Etsy, Amazon KDP y TpT.',
+    metaDescription: 'Cómo crear fichas de patrones con 9 tipos, imágenes temáticas, claves de respuestas automáticas y 2 formatos de preguntas. Exporta PDFs para vender en Etsy.',
   },
 
   hero: {

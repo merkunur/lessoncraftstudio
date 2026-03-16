@@ -14,7 +14,7 @@ const content: AppContent = {
       'negocio de fichas imprimibles sentido numérico',
       'generador de fichas de comparación uso comercial',
     ],
-    titleTag: 'Generador Más o Menos | Fichas de Comparación',
+    titleTag: 'Generador Más o Menos | Crear y Vender',
     metaDescription:
       'Crea fichas de comparación de cantidades para vender en Etsy, KDP y TPT. 3 modos, 104 temas, claves de respuesta, 400+ DPI. Prueba gratis con marca de agua.',
   },

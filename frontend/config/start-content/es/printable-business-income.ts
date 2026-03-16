@@ -17,8 +17,8 @@ const content: StartContent = {
       'inversión de tiempo negocio de descargas digitales',
       'múltiples fuentes de ingresos productos imprimibles',
     ],
-    titleTag: '¿Cuánto Se Gana Vendiendo Imprimibles?',
-    metaDescription: '¿Cuánto se gana vendiendo imprimibles? Expectativas realistas de ingresos, estructura de comisiones, estrategias de precios y las variables que determinan las ganancias.',
+    titleTag: 'Vender Imprimibles: ¿Cuánto Se Gana en Etsy?',
+    metaDescription: '¿Cuánto se gana vendiendo imprimibles? Expectativas realistas de ingresos, estructura de comisiones, estrategias de precios y las variables que determinan.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'proceso de revisión publicación KDP prueba de impresión copias de autor',
     ],
     titleTag: 'Crear libros actividades matemáticas KDP — Guía',
-    metaDescription: 'Aprende a crear libros de actividades de matemáticas que los editores KDP usan para ganar regalías. Formateo de manuscrito, diseño de portada y optimización de palabras clave en Amazon.',
+    metaDescription: 'Aprende a crear libros de actividades de matemáticas que los editores KDP usan para ganar regalías. Formateo de manuscrito, diseño de portada y optimización.',
   },
 
   hero: {

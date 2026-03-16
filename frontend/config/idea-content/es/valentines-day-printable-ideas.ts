@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles San Valentín para Vender — Guía',
-    metaDescription: 'Descubre ideas de imprimibles de San Valentín para vender en Etsy, Amazon KDP y TPT. Conceptos de productos temáticos de amor, estrategias estacionales y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de San Valentín para vender en Etsy, Amazon KDP y TPT. Conceptos de productos temáticos de amor, estrategias estacionales.',
     primaryKeyword: 'ideas imprimibles san valentín',
     secondaryKeywords: [
       'fichas de San Valentín para vender',

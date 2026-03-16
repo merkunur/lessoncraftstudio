@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Caja Suscripción — Guía de Nicho',
-    metaDescription: 'Ideas de imprimibles de caja de suscripción para vender en Etsy, Gumroad y Patreon. Construye ingresos recurrentes con paquetes mensuales curados de fichas temáticas.',
+    metaDescription: 'Ideas de imprimibles de caja de suscripción para vender en Etsy, Gumroad y Patreon. Construye ingresos recurrentes con paquetes mensuales curados de fichas.',
     primaryKeyword: 'ideas imprimibles caja suscripción',
     secondaryKeywords: [
       'negocio suscripción imprimibles educativos',

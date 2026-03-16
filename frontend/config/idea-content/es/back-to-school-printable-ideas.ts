@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Vuelta al Cole para Vender — Guía',
-    metaDescription: 'Descubre ideas de imprimibles de vuelta al cole para vender en Etsy, Amazon KDP y TPT. Conceptos de productos escolares, estrategias julio-septiembre y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de vuelta al cole para vender en Etsy, Amazon KDP y TPT. Conceptos de productos escolares, estrategias julio-septiembre.',
     primaryKeyword: 'ideas imprimibles vuelta al cole',
     secondaryKeywords: [
       'fichas regreso a clases para vender',

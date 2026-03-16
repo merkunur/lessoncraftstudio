@@ -15,8 +15,8 @@ const content: BundleContent = {
       'licencia comercial fichas de lectoescritura',
       'herramienta de creación masiva de fichas de lenguaje',
     ],
-    titleTag: 'Paquete de Fichas de Lectura y Lenguaje — 7 Generadores',
-    metaDescription: '7 generadores de fichas de lectoescritura en un paquete: abecedario, sopa de letras, criptogramas, preposiciones y escritura. Crea fichas en 11 idiomas para Etsy, KDP y TPT.',
+    titleTag: 'Paquete Fichas Lectura y Lenguaje | para Vender',
+    metaDescription: '7 generadores de fichas de lectoescritura en un paquete: abecedario, sopa de letras, criptogramas, preposiciones y escritura. Crea fichas en 11 idiomas.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de clasificación con licencia comercial',
     ],
     titleTag: 'Fichas de clasificación por categorías — Guía',
-    metaDescription: 'Crea fichas de clasificación con modo de temas en dos categorías, 4–12 imágenes, cuadrículas de recortables mezclados y claves de respuestas automáticas. Guía paso a paso para vender en Etsy y KDP.',
+    metaDescription: 'Crea fichas de clasificación con modo de temas en dos categorías, 4–12 imágenes, cuadrículas de recortables mezclados y claves de respuestas automáticas.',
   },
 
   hero: {

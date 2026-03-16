@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de puzzles de imágenes con ecuaciones',
       'generador de actividades tipo rompecabezas matemático',
     ],
-    titleTag: 'Generador de Puzzles Matemáticos | Imprimibles',
+    titleTag: 'Generador de Puzzles Matemáticos | para Vender',
     metaDescription: 'Genera puzzles matemáticos tipo rompecabezas con cuadrículas de imágenes, tres modos de operación y subida de imagen propia. Imprimibles para Etsy y KDP.',
   },
 

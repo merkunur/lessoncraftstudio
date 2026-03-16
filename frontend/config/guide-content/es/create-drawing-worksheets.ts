@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de fichas de contorno B/N',
     ],
     titleTag: 'Crear fichas de dibujo y simetría — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de dibujo y simetría con sistema de doble cuadrícula, porcentaje de pistas ajustable, tres modos de simetría y contornos B/N. Vende en Etsy y KDP.',
+    metaDescription: 'Cómo crear fichas de dibujo y simetría con sistema de doble cuadrícula, porcentaje de pistas ajustable, tres modos de simetría y contornos B/N. Vende.',
   },
 
   hero: {

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'herramienta de asociación imagen-letra',
       'generador de actividades del abecedario multilingüe',
     ],
-    titleTag: 'Generador Tren del Abecedario | Imprimibles',
-    metaDescription: 'Genera fichas de tren del abecedario con asociación imagen-letra en 11 idiomas. Crea imprimibles multilingües únicos para vender en Etsy, KDP y TpT.',
+    titleTag: 'Generador Tren del Abecedario | para Vender',
+    metaDescription: 'Genera fichas de tren del abecedario con asociación imagen-letra en 11 idiomas. Crea imprimibles multilingües únicos para vender en Etsy, KDP y TpT. 104 temas.',
   },
 
   hero: {

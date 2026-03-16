@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de crucigramas con licencia comercial',
     ],
     titleTag: 'Crear crucigramas — Guía paso a paso',
-    metaDescription: 'Cómo crear crucigramas para niños con pistas de imágenes. Elige temas, genera cuadrículas con intersecciones, pistas numeradas y claves de respuestas para vender en Etsy y KDP.',
+    metaDescription: 'Cómo crear crucigramas para niños con pistas de imágenes. Elige temas, genera cuadrículas con intersecciones, pistas numeradas y claves de respuestas.',
   },
 
   hero: {

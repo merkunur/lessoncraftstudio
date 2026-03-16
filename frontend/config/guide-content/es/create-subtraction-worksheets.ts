@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de fichas con licencia comercial',
     ],
     titleTag: 'Crear fichas de restas — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de restas para niños con imágenes tachadas, temas visuales y claves de respuestas. Guía paso a paso para vender en Etsy, KDP y TpT.',
+    metaDescription: 'Cómo crear fichas de restas para niños con imágenes tachadas, temas visuales y claves de respuestas. Guía paso a paso para vender en Etsy, KDP y TpT. 104 temas.',
   },
 
   hero: {

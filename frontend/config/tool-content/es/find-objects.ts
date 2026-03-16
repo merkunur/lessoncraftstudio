@@ -15,7 +15,7 @@ const content: ToolContent = {
       'clave de respuestas autogenerada círculos rojos anotaciones objetos ocultos',
     ],
     titleTag: 'Generador Fichas Objetos Ocultos — Yo Espío para Vendedores',
-    metaDescription: 'Crea fichas de objetos ocultos con modos Yo Espío y Encuentra el Diferente, escenas sin superposición, claves de respuestas con círculos rojos, 104 temas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Crea fichas de objetos ocultos con modos Yo Espío y Encuentra el Diferente, escenas sin superposición, claves de respuestas con círculos rojos, 104 temas.',
   },
 
   hero: {

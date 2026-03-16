@@ -18,7 +18,7 @@ const content: GuideContent = {
       'categorías y atributos Etsy para productos digitales educativos',
     ],
     titleTag: 'SEO Etsy imprimibles educativos — Guía',
-    metaDescription: 'Guía de SEO Etsy para imprimibles educativos. Investigación de palabras clave, optimización de títulos, las 13 etiquetas, descripciones de anuncios y factores de posicionamiento para vendedores.',
+    metaDescription: 'Guía de SEO Etsy para imprimibles educativos. Investigación de palabras clave, optimización de títulos, las 13 etiquetas y descripciones de anuncios efectivas.',
   },
 
   hero: {

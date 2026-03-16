@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generador de fichas de descifrado de códigos',
       'criptogramas multilingües con imágenes temáticas',
     ],
-    titleTag: 'Generador de Criptogramas | Cifrado con Imágenes',
+    titleTag: 'Generador de Criptogramas | Crear y Vender',
     metaDescription: 'Genera criptogramas con cifrado de imágenes, control de dificultad, asignación automática, claves de respuesta en 11 idiomas. Prueba gratuita con marca de agua.',
   },
 

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Laberintos | Crear Fichas de Caminos',
     metaDescription:
-      'Crea fichas de laberintos para vender en Etsy, KDP y TPT. 3 modos de juego, algoritmo LPF, clave de respuesta automática, 104 temas. Prueba gratis.',
+      'Crea fichas de laberintos para vender en Etsy, KDP y TPT. 3 modos de juego, algoritmo LPF, clave de respuesta automática, 104 temas. Prueba gratis con marca.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de piezas faltantes con licencia comercial',
     ],
     titleTag: 'Fichas de puzles de piezas faltantes — Guía',
-    metaDescription: 'Crea fichas de puzles de rompecabezas con 6 formas de pieza, extracción inteligente, piezas distractoras y claves de respuestas automáticas. Guía paso a paso para Etsy y KDP.',
+    metaDescription: 'Crea fichas de puzles de rompecabezas con 6 formas de pieza, extracción inteligente, piezas distractoras y claves de respuestas automáticas. Guía paso.',
   },
 
   hero: {

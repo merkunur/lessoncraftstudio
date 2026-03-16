@@ -18,7 +18,7 @@ const content: GuideContent = {
       'estrategia de tienda Etsy paquetes vs anuncios individuales canibalización',
     ],
     titleTag: 'Crear paquetes de fichas Etsy — Guía',
-    metaDescription: 'Crea paquetes de fichas Etsy que aumentan el valor medio del pedido. Tipos de paquetes, organización de archivos, imágenes de vista previa, optimización de anuncios y estrategia de precios.',
+    metaDescription: 'Crea paquetes de fichas Etsy que aumentan el valor medio del pedido. Tipos de paquetes, organización de archivos, imágenes de vista previa, optimización.',
   },
 
   hero: {

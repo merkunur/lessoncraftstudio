@@ -14,7 +14,7 @@ const content: ToolContent = {
       'ejercicios de mayor que menor que con imágenes',
       'generador de fichas marca y tacha grupos',
     ],
-    titleTag: 'Fichas Mayor Que Menor Que | Comparación Visual',
+    titleTag: 'Fichas Mayor Que Menor Que | Crear y Vender',
     metaDescription: 'Crea fichas de mayor que, menor que e igual a con imágenes. Tres modos incluido Marca y Tacha exclusivo. Vende en Etsy y KDP. Prueba gratis con marca de agua.',
   },
 

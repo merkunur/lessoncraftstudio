@@ -14,7 +14,7 @@ const content: ToolContent = {
       'clave de respuestas automática para gráficos pictóricos',
       'creador de fichas de representación de datos con lienzo dual',
     ],
-    titleTag: 'Generador de Gráficos de Imágenes | Conteo',
+    titleTag: 'Generador Gráficos de Imágenes | para Vender',
     metaDescription: 'Crea fichas de gráficos pictóricos con cuadrícula 4×5, 6 tipos de imágenes, clave de respuestas automática, 11 idiomas y 104 temas. Prueba gratuita con marca.',
   },
 

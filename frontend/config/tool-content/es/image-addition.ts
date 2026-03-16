@@ -14,8 +14,8 @@ const content: ToolContent = {
       'ejercicios de suma con imágenes para imprimir',
       'fichas de cálculo preescolar y primaria',
     ],
-    titleTag: 'Generador de Fichas de Suma | Matemáticas Imprimibles',
-    metaDescription: 'Crea fichas de suma con imágenes temáticas. 104 temas, dificultad ajustable, clave de respuestas, PDF para imprimir. Prueba gratis con marca de agua.',
+    titleTag: 'Generador Fichas de Suma | Crear y Vender',
+    metaDescription: 'Crea fichas de suma con imágenes temáticas para vender. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de agua.',
   },
 
   hero: {

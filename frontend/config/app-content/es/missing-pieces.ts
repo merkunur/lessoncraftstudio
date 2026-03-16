@@ -14,7 +14,7 @@ const content: AppContent = {
       'generador de rompecabezas de piezas faltantes a uso comercial',
       'actividades de puzzles imprimibles para negocio en línea',
     ],
-    titleTag: 'Generador de Piezas Faltantes | Puzzles Visuales',
+    titleTag: 'Generador Piezas Faltantes | Crear y Vender',
     metaDescription: 'Crea puzzles de piezas faltantes para vender en Etsy, KDP y TPT. 6 formas, dificultad configurable, clave de respuestas automática, 104 temas. Prueba gratis.',
   },
 

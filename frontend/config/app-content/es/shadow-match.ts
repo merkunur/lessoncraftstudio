@@ -14,7 +14,7 @@ const content: AppContent = {
       'generador de puzzles de siluetas a uso comercial',
       'actividades de percepción visual imprimibles para negocio en línea',
     ],
-    titleTag: 'Generador Fichas Asociación Sombras | Siluetas',
+    titleTag: 'Generador Asociación Sombras | Crear y Vender',
     metaDescription:
       'Crea fichas de asociación de sombras para Etsy, KDP y TPT. Modos Sombra y Completa la Imagen, siluetas auto, 104 temas. Prueba gratis con marca de agua.',
   },

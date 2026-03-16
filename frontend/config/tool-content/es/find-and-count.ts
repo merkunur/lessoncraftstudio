@@ -15,7 +15,7 @@ const content: ToolContent = {
       'alfabetos específicos por idioma letras acentuadas generador yo espío',
     ],
     titleTag: 'Generador Fichas Yo Espío — Busca y Cuenta para Vendedores',
-    metaDescription: 'Crea fichas yo espío con modos Objeto Oculto e Identificación de Letras, cuatro tipos de tarea, alfabetos con letras acentuadas, 104 temas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Crea fichas yo espío con modos Objeto Oculto e Identificación de Letras, cuatro tipos de tarea, alfabetos con letras acentuadas, 104 temas. Prueba gratuita.',
   },
 
   hero: {

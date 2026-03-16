@@ -18,7 +18,7 @@ const content: GuideContent = {
       'generador de laberintos con licencia comercial',
     ],
     titleTag: 'Crear fichas de laberintos — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de laberintos con 3 modos de juego, imágenes temáticas y claves de respuestas. Genera fichas de laberintos imprimibles para vender en Etsy y Amazon KDP.',
+    metaDescription: 'Cómo crear fichas de laberintos con 3 modos de juego, imágenes temáticas y claves de respuestas. Genera fichas de laberintos imprimibles para vender en Etsy.',
   },
 
   hero: {

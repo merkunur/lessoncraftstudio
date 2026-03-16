@@ -18,7 +18,7 @@ const content: GuideContent = {
       'generador de fichas de tamaños con licencia comercial',
     ],
     titleTag: 'Crear fichas de comparación de tamaños — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de comparación de tamaños con 5 tipos de preguntas y 2 modos de imagen. Resultado sin texto que se vende en todo el mundo. Guía para Etsy, KDP y TpT.',
+    metaDescription: 'Cómo crear fichas de comparación de tamaños con 5 tipos de preguntas y 2 modos de imagen. Resultado sin texto que se vende en todo el mundo. Guía para Etsy.',
   },
 
   hero: {

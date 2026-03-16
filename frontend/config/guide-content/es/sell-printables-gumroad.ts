@@ -18,7 +18,7 @@ const content: GuideContent = {
       'paquetes productos membresías suscripciones ingresos recurrentes escalado catálogo',
     ],
     titleTag: 'Cómo vender imprimibles en Gumroad — Guía',
-    metaDescription: 'Cómo vender imprimibles en Gumroad sin cuotas mensuales. Configuración de tienda, estrategias de precios, email marketing y construcción de relaciones directas con clientes.',
+    metaDescription: 'Cómo vender imprimibles en Gumroad sin cuotas mensuales. Configuración de tienda, estrategias de precios, email marketing y construcción de relaciones.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'escalado catálogo paquetes promoción multicategoría fuentes gráficos recursos educativos',
     ],
     titleTag: 'Vender recursos educativos en Creative Fabrica — Guía',
-    metaDescription: 'Vende recursos educativos en Creative Fabrica. Gana de suscripciones y ventas individuales, alcanza audiencias de manualidades y educadores en la sección Classroom.',
+    metaDescription: 'Vende recursos educativos en Creative Fabrica. Gana de suscripciones y ventas individuales, alcanza audiencias de manualidades y educadores en la sección.',
   },
 
   hero: {

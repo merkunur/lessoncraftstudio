@@ -14,8 +14,8 @@ const content: ToolContent = {
       'clave de respuestas automática círculo rojo intruso creador',
       'puzzles visuales sin texto vendibles en todos los idiomas generador',
     ],
-    titleTag: 'Creador de Fichas del Intruso — Generador de Puzzles Visuales',
-    metaDescription: 'Crea fichas del intruso con modos Idéntico y Similar, anulación por ejercicio, claves de respuestas con círculos rojos, 104 temas. Prueba gratuita con marca de agua — licencia disponible.',
+    titleTag: 'Creador Fichas del Intruso — Puzzles Visuales para Vender',
+    metaDescription: 'Crea fichas del intruso con modos Idéntico y Similar, anulación por ejercicio, claves de respuestas con círculos rojos, 104 temas. Prueba gratuita con marca.',
   },
 
   hero: {

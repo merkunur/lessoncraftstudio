@@ -14,7 +14,7 @@ const content: ToolContent = {
       'creador de bingo doble modo relleno imagen y palabra',
       'hoja de referencia bingo con cuadrícula dinámica de palabras',
     ],
-    titleTag: 'Generador de Tarjetas de Bingo | Imágenes',
+    titleTag: 'Generador Tarjetas de Bingo | Crear y Vender',
     metaDescription: 'Crea tarjetas de bingo con cuadrículas de 3×3 a 5×5, lotes de 10 tarjetas únicas, exportación ZIP, hojas de referencia y 104 temas. Prueba con marca de agua.',
   },
 

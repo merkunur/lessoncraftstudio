@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de fichas con licencia comercial',
     ],
     titleTag: 'Crear fichas de asociación para preescolar — Guía',
-    metaDescription: 'Cómo crear fichas de asociación para preescolar. Usa 4 modos, imágenes temáticas, claves de respuestas automáticas con líneas de conexión y exporta PDFs para vender en Etsy y KDP.',
+    metaDescription: 'Cómo crear fichas de asociación para preescolar. Usa 4 modos, imágenes temáticas, claves de respuestas automáticas con líneas de conexión y exporta PDFs.',
   },
 
   hero: {

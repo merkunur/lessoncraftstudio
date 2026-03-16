@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de puzzles con licencia comercial',
     ],
     titleTag: 'Crear sudoku con imágenes para niños — Guía',
-    metaDescription: 'Crea sudoku con imágenes para niños. Cuadrículas 4×4 con imágenes temáticas, 3 niveles de dificultad, claves de respuestas y PDFs listos para imprimir. Vende en Etsy, Amazon KDP y TpT.',
+    metaDescription: 'Crea sudoku con imágenes para niños. Cuadrículas 4×4 con imágenes temáticas, 3 niveles de dificultad, claves de respuestas y PDFs listos para imprimir.',
   },
 
   hero: {

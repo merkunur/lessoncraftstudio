@@ -17,7 +17,7 @@ const content: StartContent = {
       'negocio internacional de imprimibles',
       'vender fichas en etsy.de etsy.fr',
     ],
-    titleTag: 'Generador de Fichas Multilingüe — 11 Idiomas',
+    titleTag: 'Generador Fichas Multilingüe | Crear y Vender',
     metaDescription: 'Crea y vende fichas en 11 idiomas con un generador multilingüe. Llega a compradores alemanes, franceses y españoles en Etsy, Amazon KDP y mercados globales.',
   },
 

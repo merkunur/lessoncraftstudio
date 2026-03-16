@@ -18,7 +18,7 @@ const content: GuideContent = {
       'posicionamiento en búsqueda tasa de guardado clics de salida análisis de audiencia plantillas de pines',
     ],
     titleTag: 'Marketing Pinterest Fichas — Estrategia Vendedor',
-    metaDescription: 'Estrategia de marketing en Pinterest para vendedores de imprimibles. Genera tráfico a largo plazo con optimización de pines, estrategia de tableros y contenido rico en palabras clave.',
+    metaDescription: 'Estrategia de marketing en Pinterest para vendedores de imprimibles. Genera tráfico orgánico a largo plazo con optimización de pines, estrategia de tableros.',
   },
 
   hero: {

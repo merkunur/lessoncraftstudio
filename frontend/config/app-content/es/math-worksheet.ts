@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Puzzles Algebraicos Ilustrados | Crear y Vender',
     metaDescription:
-      'Crea puzzles algebraicos ilustrados para Etsy, KDP y TPT. Imágenes como variables, 4 niveles, solución única. Prueba gratis con marca de agua.',
+      'Crea puzzles algebraicos ilustrados para Etsy, KDP y TPT. Imágenes como variables, 4 niveles, solución única, 104 temas. Prueba gratis con marca de agua.',
   },
 
   hero: {

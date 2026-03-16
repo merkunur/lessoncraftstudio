@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Páginas para Colorear | Crear y Vender',
     metaDescription:
-      'Crea páginas para colorear para Etsy, KDP y TPT. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.',
+      'Crea páginas para colorear para vender en Etsy, KDP y TPT. Lienzo libre, 104 temas, dibujo a mano alzada, escala de grises. Prueba gratis con marca de agua.',
   },
 
   hero: {

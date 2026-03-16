@@ -14,8 +14,8 @@ const content: ToolContent = {
       'algoritmo LPF camino más largo primero laberintos con paredes generador',
       'clave respuesta automática círculos rosas camino solución laberintos generador',
     ],
-    titleTag: 'Creador de Laberintos con Imágenes — Generador de Fichas de Caminos y Laberintos',
-    metaDescription: 'Crea fichas de laberintos con 3 modos de juego, algoritmo LPF, coleccionables, claves de respuesta automáticas con círculos rosas, 104 temas. Prueba gratuita con marca de agua — licencia disponible.',
+    titleTag: 'Creador de Laberintos con Imágenes — Fichas para Vender',
+    metaDescription: 'Crea fichas de laberintos con 3 modos de juego, algoritmo LPF, coleccionables, claves de respuesta automáticas con círculos rosas, 104 temas. Prueba gratuita.',
   },
 
   hero: {

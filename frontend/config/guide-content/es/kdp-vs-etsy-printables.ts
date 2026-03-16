@@ -18,7 +18,7 @@ const content: GuideContent = {
       'ficha imprimible libro actividades página colorear libro puzles marketplace',
     ],
     titleTag: 'KDP o Etsy imprimibles — Guía comparativa',
-    metaDescription: 'KDP o Etsy para vendedores de imprimibles. Compara estructuras de comisiones, formatos de producto, mecánicas de tráfico y aprende estrategias multiplataforma para tu negocio.',
+    metaDescription: 'KDP o Etsy para vendedores de imprimibles. Compara estructuras de comisiones, formatos de producto, mecánicas de tráfico y aprende estrategias multiplataform.',
   },
 
   hero: {

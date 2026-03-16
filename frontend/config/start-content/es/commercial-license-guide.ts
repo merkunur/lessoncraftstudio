@@ -18,7 +18,7 @@ const content: StartContent = {
       'uso comercial vs uso personal imprimibles',
     ],
     titleTag: 'Guía de Licencia Comercial de Imprimibles para Vendedores',
-    metaDescription: 'Entiende las licencias de uso comercial para vender fichas en Etsy, Amazon KDP y otras plataformas. Dos niveles explicados con derechos claros y precios detallados.',
+    metaDescription: 'Entiende las licencias de uso comercial para vender fichas en Etsy, Amazon KDP y otras plataformas. Dos niveles explicados con derechos claros y precios.',
   },
 
   hero: {

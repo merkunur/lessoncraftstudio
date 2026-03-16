@@ -14,7 +14,7 @@ const content: AppContent = {
       'negocio de fichas de letras imprimibles en línea',
       'generador de fichas de abecedario de uso comercial',
     ],
-    titleTag: 'Generador Tren del Abecedario | Fichas de Letras',
+    titleTag: 'Generador Tren del Abecedario | Crear y Vender',
     metaDescription:
       'Crea fichas tren del abecedario para vender en Etsy, KDP y TPT. Vagones con letras e imágenes, 11 idiomas, 104 temas. Prueba gratis con marca de agua.',
   },

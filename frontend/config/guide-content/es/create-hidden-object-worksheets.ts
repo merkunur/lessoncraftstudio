@@ -18,7 +18,7 @@ const content: GuideContent = {
       'generador de objetos ocultos con licencia comercial',
     ],
     titleTag: 'Crear fichas de objetos ocultos — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de objetos ocultos con 2 modos de juego: busca y encuentra y encuentra el intruso. Crea escenas temáticas, genera claves y vende en Etsy y Amazon KDP.',
+    metaDescription: 'Cómo crear fichas de objetos ocultos con 2 modos de juego: busca y encuentra y encuentra el intruso. Crea escenas temáticas, genera claves y vende en Etsy.',
   },
 
   hero: {

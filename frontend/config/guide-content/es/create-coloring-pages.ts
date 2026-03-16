@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta para colorear con licencia comercial',
     ],
     titleTag: 'Crear páginas para colorear a partir de imágenes — Guía',
-    metaDescription: 'Cómo crear páginas para colorear a partir de más de 3100 imágenes temáticas. Lienzo de forma libre con exportación en escala de grises, dibujo a mano alzada y ayudas para el aula. Vende en Etsy y KDP.',
+    metaDescription: 'Cómo crear páginas para colorear a partir de más de 3100 imágenes temáticas. Lienzo de forma libre con exportación en escala de grises, dibujo a mano alzada.',
   },
 
   hero: {

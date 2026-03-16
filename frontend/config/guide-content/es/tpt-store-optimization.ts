@@ -18,7 +18,7 @@ const content: GuideContent = {
       'analíticas TPT planificación estacional escalado catálogo estrategia basada datos',
     ],
     titleTag: 'Guía optimización tienda TPT — Vende más recursos',
-    metaDescription: 'Estrategias de optimización de tienda TPT para mejor posicionamiento en búsquedas y más ventas. Conversión de vistas previas, agrupación de productos, generación de reseñas y escalado de catálogo.',
+    metaDescription: 'Estrategias de optimización de tienda TPT para mejor posicionamiento en búsquedas y más ventas. Conversión de vistas previas, agrupación de productos.',
   },
 
   hero: {

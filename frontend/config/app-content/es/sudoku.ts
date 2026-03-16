@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Sudoku con Imágenes | Crear y Vender',
     metaDescription:
-      'Crea fichas de sudoku con imágenes para vender en Etsy, KDP y TPT. Cuadrícula 4×4, tres dificultades, clave de respuesta automática. Prueba gratis.',
+      'Crea fichas de sudoku con imágenes para vender en Etsy, KDP y TPT. Cuadrícula 4×4, tres dificultades, 104 temas, clave de respuesta automática. Prueba gratis.',
   },
 
   hero: {

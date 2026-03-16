@@ -18,7 +18,7 @@ const content: GuideContent = {
       'modelo ingresos escalable flujos ingresos fichas multi-plataforma ingresos',
     ],
     titleTag: 'Ingresos Recurrentes Fichas Ejercicios — Guía',
-    metaDescription: 'Construye ingresos recurrentes con fichas de ejercicios. Catálogos perennes, distribución multiplataforma, expansión lingüística y efectos de catálogo compuesto.',
+    metaDescription: 'Construye ingresos recurrentes con fichas de ejercicios. Catálogos perennes, distribución multiplataforma, expansión lingüística y efectos de catálogo.',
   },
 
   hero: {

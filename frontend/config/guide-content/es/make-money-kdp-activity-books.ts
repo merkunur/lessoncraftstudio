@@ -18,7 +18,7 @@ const content: GuideContent = {
       'informes KDP seguimiento de rendimiento análisis de ingresos por título',
     ],
     titleTag: 'Ganar dinero libros actividades KDP — Guía de ingresos',
-    metaDescription: 'Cómo ganar dinero con libros de actividades KDP. Precios, construcción de catálogo, cálculos de regalías, publicación estacional y estrategias de escalado multiplataforma.',
+    metaDescription: 'Cómo ganar dinero con libros de actividades KDP. Precios, construcción de catálogo, cálculos de regalías, publicación estacional y estrategias de escalado.',
   },
 
   hero: {

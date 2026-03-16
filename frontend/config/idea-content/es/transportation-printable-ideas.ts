@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Transporte para Vender — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de transporte para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de vehículos, estrategias por plataforma y consejos para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de transporte para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de vehículos, estrategias por platafor.',
     primaryKeyword: 'ideas imprimibles de transporte',
     secondaryKeywords: [
       'fichas de transporte para vender',

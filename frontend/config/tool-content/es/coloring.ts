@@ -15,7 +15,7 @@ const content: ToolContent = {
       'creador de fichas para colorear con dibujo a mano alzada',
     ],
     titleTag: 'Generador de Páginas para Colorear | Vender',
-    metaDescription: 'Crea páginas para colorear en lienzo libre con 3.100+ ilustraciones en 104 temas, dibujo a mano alzada y escala de grises. Prueba gratuita con marca.',
+    metaDescription: 'Crea páginas para colorear en lienzo libre con 3.100+ ilustraciones en 104 temas, dibujo a mano alzada y escala de grises. Prueba gratuita con marca de agua.',
   },
 
   hero: {

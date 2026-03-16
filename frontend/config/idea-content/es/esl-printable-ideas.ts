@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles ESL para Vender — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles ESL para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores dirigidos a maestros, tutores y aprendices de inglés.',
+    metaDescription: 'Descubre ideas de imprimibles ESL para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores dirigidos a maestros, tutores y aprendices.',
     primaryKeyword: 'ideas imprimibles ESL',
     secondaryKeywords: [
       'fichas ESL para vender',

@@ -18,7 +18,7 @@ const content: StartContent = {
       'gastos deducibles negocio de imprimibles',
     ],
     titleTag: 'Impuestos y Aspectos Legales para Vender Imprimibles — Guía',
-    metaDescription: 'Requisitos fiscales para vender imprimibles explicados. Estructura empresarial, gastos deducibles, propiedad intelectual y cumplimiento de plataformas para vendedores de imprimibles.',
+    metaDescription: 'Requisitos fiscales para vender imprimibles explicados. Estructura empresarial, gastos deducibles, propiedad intelectual y cumplimiento de plataformas.',
   },
 
   hero: {

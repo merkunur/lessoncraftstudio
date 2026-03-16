@@ -18,7 +18,7 @@ const content: GuideContent = {
       'fotos anuncios mockups productos sopas letras Etsy',
     ],
     titleTag: 'Vender sopas de letras en Etsy — Guía',
-    metaDescription: 'Vende sopas de letras en Etsy con 4 generadores de puzles. SEO Etsy, optimización de anuncios, precios, agrupación con crucigramas y anagramas, y timing estacional.',
+    metaDescription: 'Vende sopas de letras en Etsy con 4 generadores de puzles. SEO Etsy, optimización de anuncios, precios, agrupación con crucigramas y anagramas, y timing.',
   },
 
   hero: {

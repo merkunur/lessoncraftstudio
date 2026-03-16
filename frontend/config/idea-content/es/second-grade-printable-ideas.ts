@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Segundo Grado — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de segundo grado para vender en Etsy, Amazon KDP y TPT. Productos nivel segundo de primaria y estrategias de nicho para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de segundo grado para vender en Etsy, Amazon KDP y TPT. Productos educativos nivel segundo de primaria y estrategias de nicho.',
     primaryKeyword: 'ideas imprimibles segundo grado',
     secondaryKeywords: [
       'fichas segundo grado para vender',

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'ejercicios de sustracción con imágenes para imprimir',
       'fichas de quitar y contar para preescolar',
     ],
-    titleTag: 'Generador de Fichas de Resta | Matemáticas Imprimibles',
+    titleTag: 'Generador Fichas de Resta | Crear y Vender',
     metaDescription: 'Crea fichas de resta con imágenes para tachar. 104 temas, modo Tachar Imágenes, dificultad ajustable, PDF para imprimir. Prueba gratis con marca de agua.',
   },
 

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de asociación de sombras con licencia comercial',
     ],
     titleTag: 'Fichas de discriminación visual con sombras — Guía',
-    metaDescription: 'Crea fichas de discriminación visual con dos modos: Asociación de sombras para siluetas y Completa la imagen para mitades divididas. Guía paso a paso para vender en Etsy y KDP.',
+    metaDescription: 'Crea fichas de discriminación visual con dos modos: Asociación de sombras para siluetas y Completa la imagen para mitades divididas. Guía paso a paso.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Aprendizaje Verano — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de aprendizaje de verano para vender en Etsy, Amazon KDP y TPT. Conceptos de productos estacionales para padres, maestros y coordinadores.',
+    metaDescription: 'Descubre ideas de imprimibles de aprendizaje de verano para vender en Etsy, Amazon KDP y TPT. Conceptos de productos estacionales para padres, maestros.',
     primaryKeyword: 'ideas imprimibles aprendizaje verano',
     secondaryKeywords: [
       'fichas aprendizaje verano para vender',

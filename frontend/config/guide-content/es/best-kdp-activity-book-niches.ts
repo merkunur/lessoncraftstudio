@@ -18,7 +18,7 @@ const content: GuideContent = {
       'híbrido multicategoría libro actividades temático sub-nicho',
     ],
     titleTag: 'Nichos libros actividades KDP — Guía de mejores opciones',
-    metaDescription: 'Descubre los mejores nichos de libros de actividades KDP para editores. Análisis de demanda, evaluación de competencia, categorías desatendidas y temporalidad estacional.',
+    metaDescription: 'Descubre los mejores nichos de libros de actividades KDP para editores. Análisis de demanda, evaluación de competencia, categorías desatendidas y temporalida.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Productos Impresos Físicos para Vender — Guía',
-    metaDescription: 'Ideas de productos impresos físicos para vendedores de Etsy y ferias de artesanía. Construye un negocio premium imprimiendo, laminando y enviando fichas tangibles.',
+    metaDescription: 'Ideas de productos impresos físicos para vendedores de Etsy y ferias de artesanía. Construye un negocio premium imprimiendo, laminando y enviando fichas.',
     primaryKeyword: 'ideas productos impresos físicos',
     secondaryKeywords: [
       'negocio fichas impresas físicas',

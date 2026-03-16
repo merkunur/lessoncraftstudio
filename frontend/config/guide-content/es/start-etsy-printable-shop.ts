@@ -18,7 +18,7 @@ const content: GuideContent = {
       'estrategia lanzamiento tienda Etsy imprimibles plan primeros 30 días crecimiento',
     ],
     titleTag: 'Cómo abrir tienda Etsy de imprimibles desde cero — Guía',
-    metaDescription: 'Aprende a abrir una tienda Etsy de imprimibles desde cero con 33 generadores. Configuración, branding, optimización de anuncios, precios, comisiones y plan de 30 días.',
+    metaDescription: 'Aprende a abrir una tienda Etsy de imprimibles desde cero con 33 generadores. Configuración, branding, optimización de anuncios, precios, comisiones y plan.',
   },
 
   hero: {

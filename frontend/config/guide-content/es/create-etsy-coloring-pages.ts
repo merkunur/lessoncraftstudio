@@ -18,7 +18,7 @@ const content: GuideContent = {
       'fotos de anuncios mockups para productos de páginas para colorear Etsy',
     ],
     titleTag: 'Crear páginas para colorear Etsy que se venden — Guía',
-    metaDescription: 'Crea páginas para colorear Etsy a partir de 104 temas de imágenes. Exportaciones B/N y escala de grises, optimización de anuncios, precios para paquetes temáticos y estrategias de venta estacional.',
+    metaDescription: 'Crea páginas para colorear Etsy a partir de 104 temas de imágenes. Exportaciones B/N y escala de grises, optimización de anuncios, precios para paquetes.',
   },
 
   hero: {

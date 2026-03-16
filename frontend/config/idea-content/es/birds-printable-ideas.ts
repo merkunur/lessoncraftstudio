@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas de Imprimibles de Aves — Guía de Nicho',
-    metaDescription: 'Ideas rentables de imprimibles con temática de aves para vender en Etsy, Amazon KDP y TPT. Conceptos de productos, estrategias por plataforma y consejos de nicho para vendedores.',
+    metaDescription: 'Ideas rentables de imprimibles con temática de aves para vender en Etsy, Amazon KDP y TPT. Conceptos de productos, estrategias por plataforma y consejos.',
 
     primaryKeyword: 'ideas imprimibles aves',
     secondaryKeywords: [

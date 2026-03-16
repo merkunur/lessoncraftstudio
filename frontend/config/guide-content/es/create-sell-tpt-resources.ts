@@ -18,7 +18,7 @@ const content: GuideContent = {
       'paquete fichas unidad curricular packs actividades estrategia precios',
     ],
     titleTag: 'Crear y vender recursos TPT — Guía',
-    metaDescription: 'Cómo crear y vender recursos TPT. Configuración de cuenta, formateo de recursos, optimización de anuncios, precios y cómo construir impulso en Teachers Pay Teachers.',
+    metaDescription: 'Cómo crear y vender recursos TPT. Configuración de cuenta, formateo de recursos, optimización de anuncios, precios y cómo construir impulso en Teachers Pay.',
   },
 
   hero: {

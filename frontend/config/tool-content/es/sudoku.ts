@@ -14,8 +14,8 @@ const content: ToolContent = {
       'clave de respuestas automática cuadrícula completa sudoku generador',
       'puzzles lógicos visuales sin texto vendibles globalmente generador',
     ],
-    titleTag: 'Creador de Sudoku con Imágenes — Generador de Puzzles Lógicos 4×4',
-    metaDescription: 'Crea sudoku con imágenes 4×4 con tres niveles de dificultad, claves de respuestas automáticas con cuadrícula completa, 104 temas. Prueba gratuita con marca de agua — licencia disponible.',
+    titleTag: 'Creador Sudoku con Imágenes — Puzzles 4×4 para Vender',
+    metaDescription: 'Crea sudoku con imágenes 4×4 con tres niveles de dificultad, claves de respuestas automáticas con cuadrícula completa, 104 temas. Prueba gratuita con marca.',
   },
 
   hero: {

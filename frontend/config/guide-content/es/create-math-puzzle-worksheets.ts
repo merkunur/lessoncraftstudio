@@ -18,7 +18,7 @@ const content: GuideContent = {
       'creador de puzzles con licencia comercial',
     ],
     titleTag: 'Crear fichas de puzzles matemáticos — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de puzzles matemáticos donde los niños resuelven ecuaciones para reconstruir imágenes. Tamaños de cuadrícula, operaciones, claves de respuestas y consejos para vender en Etsy y KDP.',
+    metaDescription: 'Cómo crear fichas de puzzles matemáticos donde los niños resuelven ecuaciones para reconstruir imágenes. Tamaños de cuadrícula, operaciones y claves incluidas.',
   },
 
   hero: {

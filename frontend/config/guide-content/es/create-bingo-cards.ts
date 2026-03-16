@@ -18,7 +18,7 @@ const content: GuideContent = {
       'generador de múltiples tarjetas de bingo únicas',
     ],
     titleTag: 'Crear tarjetas de bingo con imágenes temáticas — Guía',
-    metaDescription: 'Cómo crear tarjetas de bingo con imágenes temáticas. Elige tamaños de cuadrícula, genera tarjetas únicas con tarjetas del cantante y exporta PDFs listos para imprimir para Etsy y KDP.',
+    metaDescription: 'Cómo crear tarjetas de bingo con imágenes temáticas. Elige tamaños de cuadrícula, genera tarjetas únicas con tarjetas del cantante y exporta PDFs listos.',
   },
 
   hero: {

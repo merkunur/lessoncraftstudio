@@ -14,7 +14,7 @@ const content: ToolContent = {
       'creador de fichas de rompecabezas seis formas con clave de respuestas',
       'piezas distractoras puzzle visual generador de fichas imprimibles',
     ],
-    titleTag: 'Creador de Fichas de Rompecabezas | Piezas Faltantes',
+    titleTag: 'Creador Fichas de Rompecabezas | para Vender',
     metaDescription: 'Crea fichas de rompecabezas con 6 formas de pieza, dificultad configurable, extracción inteligente con piezas distractoras, 104 temas. Prueba con marca de agua.',
   },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de sopa de letras con relleno adaptado al idioma',
       'generador de sopa de letras multilingüe',
     ],
-    titleTag: 'Generador de Sopa de Letras | Fichas Imprimibles',
+    titleTag: 'Generador Sopa de Letras | Crear y Vender',
     metaDescription: 'Genera sopas de letras con cuadrículas de 5×5 a 30×30, controles de dirección y relleno adaptado al idioma en 11 idiomas. Prueba gratuita con marca de agua.',
   },
 

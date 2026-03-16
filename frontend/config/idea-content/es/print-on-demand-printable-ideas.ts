@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Impresión Bajo Demanda — Guía',
-    metaDescription: 'Ideas de fichas de impresión bajo demanda para vendedores de Etsy, KDP y Shopify. Construye un negocio de imprimibles sin inventario con cuadernos, paquetes y libros.',
+    metaDescription: 'Ideas de fichas de impresión bajo demanda para vendedores de Etsy, KDP y Shopify. Construye un negocio de imprimibles sin inventario con cuadernos, paquetes.',
     primaryKeyword: 'ideas fichas impresión bajo demanda',
     secondaryKeywords: [
       'negocio imprimibles POD ideas',

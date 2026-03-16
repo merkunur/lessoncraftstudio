@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de puzzles criptaritméticos online',
       'generador de cifra secreta matemáticas para vendedores',
     ],
-    titleTag: 'Generador de Suma Codificada | Puzzles Matemáticos',
+    titleTag: 'Generador Suma Codificada | Crear y Vender',
     metaDescription: 'Crea puzzles de suma codificada con imágenes. Modos Regular y Descubrir Palabra, 104 temas, 11 idiomas, licencia comercial. Prueba gratis con marca de agua.',
   },
 

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Educación en Casa — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de educación en casa para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores dirigidos a padres que educan en casa.',
+    metaDescription: 'Descubre ideas de imprimibles de educación en casa para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores dirigidos a padres que educan.',
     primaryKeyword: 'ideas imprimibles educación en casa',
     secondaryKeywords: [
       'fichas educación en casa para vender',

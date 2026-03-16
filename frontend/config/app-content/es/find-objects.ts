@@ -14,7 +14,7 @@ const content: AppContent = {
       'generador de fichas de búsqueda visual a uso comercial',
       'fichas de busca y encuentra imprimibles para negocio en línea',
     ],
-    titleTag: 'Generador Fichas Objetos Ocultos | Yo Espío',
+    titleTag: 'Generador Fichas Objetos Ocultos | para Vender',
     metaDescription:
       'Crea fichas de objetos ocultos para Etsy, KDP y TPT. Modos Yo Espío y Encuentra el Diferente, escenas sin superposición, clave de respuestas. Prueba gratis.',
   },

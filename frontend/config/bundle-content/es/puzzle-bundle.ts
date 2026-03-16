@@ -15,8 +15,8 @@ const content: BundleContent = {
       'licencia comercial fichas de puzzles',
       'herramienta de creación masiva de fichas de puzzles',
     ],
-    titleTag: 'Paquete de Fichas de Puzzles — 4 Generadores Lógica',
-    metaDescription: 'Paquete con 4 generadores de puzzles y lógica: piezas faltantes, encuentra el diferente, sudoku con imágenes y laberintos. Vende en Etsy, KDP y TPT con licencia comercial.',
+    titleTag: 'Paquete Fichas de Puzzles | Crear y Vender',
+    metaDescription: 'Paquete con 4 generadores de puzzles y lógica: piezas faltantes, encuentra el diferente, sudoku con imágenes y laberintos. Vende en Etsy, KDP y TPT fácilmente.',
   },
 
   hero: {

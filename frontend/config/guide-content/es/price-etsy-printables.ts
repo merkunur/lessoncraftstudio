@@ -18,7 +18,7 @@ const content: GuideContent = {
       'precios internacionales divisas Etsy descargas digitales A4 Carta',
     ],
     titleTag: 'Fijar precios imprimibles Etsy — Guía de precios',
-    metaDescription: 'Fija precios de tus imprimibles Etsy con cálculo de comisiones, precios en tres niveles, estrategias de paquetes y ajustes estacionales. Guía completa de precios para vendedores de fichas.',
+    metaDescription: 'Fija precios de tus imprimibles Etsy con cálculo de comisiones, precios en tres niveles, estrategias de paquetes y ajustes estacionales. Guía completa.',
   },
 
   hero: {

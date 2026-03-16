@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Licencias Volumen Imprimibles para Vender — Guía',
-    metaDescription: 'Ideas de negocio de licencias en volumen de imprimibles para vender colecciones de fichas a escuelas, distritos y organizaciones. Estrategias de licencias a granel.',
+    metaDescription: 'Ideas de negocio de licencias en volumen de imprimibles para vender colecciones de fichas a escuelas, distritos y organizaciones. Estrategias de licencias.',
     primaryKeyword: 'licencias volumen imprimibles',
     secondaryKeywords: [
       'negocio licencias fichas a granel',

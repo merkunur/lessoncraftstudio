@@ -18,7 +18,7 @@ const content: GuideContent = {
       'errores de subida KDP rechazo solución de problemas previsualizador prueba',
     ],
     titleTag: 'Formateo KDP fichas — Guía completa',
-    metaDescription: 'Guía de formateo KDP que cubre tamaños de recorte, márgenes, ajustes de sangrado, exportación PDF a 300 DPI, dimensiones de portada y solución de problemas de subida para libros de actividades.',
+    metaDescription: 'Guía de formateo KDP que cubre tamaños de recorte, márgenes, ajustes de sangrado, exportación PDF a 300 DPI, dimensiones de portada y solución de problemas.',
   },
 
   hero: {

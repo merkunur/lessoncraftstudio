@@ -18,7 +18,7 @@ const content: GuideContent = {
       'selección formato comparación modelos negocio estrategia vendedor trayectoria crecimiento',
     ],
     titleTag: 'Digital o Físico Imprimibles — Guía Vendedor',
-    metaDescription: 'Comparación digital vs físico para vendedores de imprimibles: márgenes de beneficio, escalabilidad, logística de envío y cómo elegir el formato ideal para tu negocio.',
+    metaDescription: 'Comparación digital vs físico para vendedores de imprimibles: márgenes de beneficio, escalabilidad, logística de envío y cómo elegir el formato ideal.',
   },
 
   hero: {

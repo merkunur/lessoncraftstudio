@@ -18,7 +18,7 @@ const content: GuideContent = {
       'cuadernos de escritura en Amazon KDP',
     ],
     titleTag: 'Crear fichas de práctica de escritura — Guía paso a paso',
-    metaDescription: 'Crea fichas de práctica de escritura con modos trazado, trazado progresivo y copia guiada. Flechas de orden de trazos, cinco estilos de fuente y exportación PDF para Etsy y KDP.',
+    metaDescription: 'Crea fichas de práctica de escritura con modos trazado, trazado progresivo y copia guiada. Flechas de orden de trazos, cinco estilos de fuente y exportación.',
   },
 
   hero: {

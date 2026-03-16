@@ -14,7 +14,7 @@ const content: ToolContent = {
       'creador de fichas de clasificación con clave de respuestas automática',
       'actividades de clasificación en dos categorías con imágenes temáticas',
     ],
-    titleTag: 'Generador de Clasificación de Imágenes',
+    titleTag: 'Generador Clasificación de Imágenes | Vender',
     metaDescription: 'Crea fichas de clasificación con dos categorías, cuadrícula de recortes barajada, clave de respuestas automática y 104 temas. Prueba con marca de agua.',
   },
 

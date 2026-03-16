@@ -14,7 +14,7 @@ const content: AppContent = {
       'generador de fichas de rastreo direccional uso comercial',
       'negocio de puzzles de coordenadas imprimibles herramientas',
     ],
-    titleTag: 'Generador Búsqueda del Tesoro | Fichas Direccionales',
+    titleTag: 'Generador Búsqueda del Tesoro | para Vender',
     metaDescription:
       'Crea fichas de búsqueda del tesoro para Etsy, KDP y TPT. Cuadrícula 5×5, dos direcciones, clave de respuestas auto, 104 temas. Prueba gratis con marca de agua.',
   },

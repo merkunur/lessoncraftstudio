@@ -17,7 +17,7 @@ const content: GuideContent = {
       'momento lanzamiento palabras clave estacionales análisis tendencias calendario contenido planificación trimestral',
     ],
     titleTag: 'Marketing Estacional Imprimibles — Calendario',
-    metaDescription: 'Planifica campañas de marketing estacional para imprimibles alineadas con ciclos de demanda. Calendario de vendedor con producción, palabras clave y estrategias de venta pico.',
+    metaDescription: 'Planifica campañas de marketing estacional para imprimibles alineadas con ciclos de demanda. Calendario de vendedor con producción, palabras clave y estrateg.',
   },
 
   hero: {

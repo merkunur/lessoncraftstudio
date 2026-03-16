@@ -18,7 +18,7 @@ const content: GuideContent = {
       'espaciado cuadrícula puzle tamaño recorte claves respuestas páginas finales',
     ],
     titleTag: 'Publicar libros de puzles KDP — Guía',
-    metaDescription: 'Cómo publicar libros de puzles en KDP con sopas de letras, crucigramas y sudoku. Formateo, libros de variedad, estrategia de series y optimización de anuncios en Amazon.',
+    metaDescription: 'Cómo publicar libros de puzles en KDP con sopas de letras, crucigramas y sudoku. Formateo profesional, libros de variedad, series y optimización de listados.',
   },
 
   hero: {

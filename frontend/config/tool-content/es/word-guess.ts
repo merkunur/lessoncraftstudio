@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de deletreo con pistas de imágenes',
       'generador de actividades de ortografía multilingüe',
     ],
-    titleTag: 'Generador Fichas Adivinar Palabras | Imprimibles',
+    titleTag: 'Generador Fichas Adivinar Palabras | Vender',
     metaDescription: 'Genera fichas de adivinar palabras con 4 niveles de pista, dos modos de entrada, excluir letras, 11 idiomas y 104 temas. Prueba gratuita con marca de agua.',
   },
 

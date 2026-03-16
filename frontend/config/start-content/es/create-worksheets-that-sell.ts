@@ -18,7 +18,7 @@ const content: StartContent = {
       'fichas PDF listas para imprimir',
     ],
     titleTag: 'Cómo Crear Fichas que se Venden — Guía Profesional',
-    metaDescription: 'Cómo crear fichas que se venden en Etsy, Amazon KDP y TpT. Guía paso a paso sobre imágenes temáticas, claves de respuestas, precios y optimización de publicaciones.',
+    metaDescription: 'Cómo crear fichas que se venden en Etsy, Amazon KDP y TpT. Guía paso a paso sobre imágenes temáticas, claves de respuestas, precios y optimización de ventas.',
   },
 
   hero: {

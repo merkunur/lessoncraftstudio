@@ -18,7 +18,7 @@ const content: GuideContent = {
       'herramienta de intruso con licencia comercial',
     ],
     titleTag: 'Fichas de intruso encuentra el diferente — Guía',
-    metaDescription: 'Crea fichas de intruso con modos Idéntico y Similar, anulaciones por ejercicio y claves de respuestas automáticas con círculo rojo. Guía paso a paso para Etsy y KDP.',
+    metaDescription: 'Crea fichas de intruso con modos Idéntico y Similar, anulaciones por ejercicio y claves de respuestas automáticas con círculo rojo. Guía paso a paso completa.',
   },
 
   hero: {

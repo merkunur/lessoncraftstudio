@@ -14,7 +14,7 @@ const content: ToolContent = {
       'herramienta de puzzles de ecuaciones con imágenes',
       'generador de actividades de álgebra con incógnitas visuales',
     ],
-    titleTag: 'Generador de Acertijos Algebraicos con Imágenes',
+    titleTag: 'Generador Acertijos Algebraicos | para Vender',
     metaDescription: 'Genera puzzles de álgebra donde imágenes reemplazan variables en ecuaciones. Cuatro niveles de dificultad, solución única garantizada. Prueba gratuita.',
   },
 

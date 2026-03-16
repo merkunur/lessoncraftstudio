@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern worksheet/pattern_worksheet.webp',
+      primary: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp',
       primaryAlt: 'Ficha de padrões com exercícios em grelha mostrando sequências repetitivas de imagens com caixas em branco e opções de escolha múltipla',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (1).webp',
+        src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 2.webp',
         alt: 'Ficha de padrões com exercícios AB em caixa em branco usando imagens de animais num layout em grelha com espaços vazios para os alunos completarem',
         caption: 'Exercícios AB em caixa em branco com tema animais — os alunos identificam o padrão alternante e completam a imagem em falta',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (5).webp',
+        src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 3.webp',
         alt: 'Ficha de padrões com exercícios ABC em escolha múltipla usando imagens de veículos com três opções de resposta por exercício',
         caption: 'Exercícios ABC em escolha múltipla com tema veículos — os alunos escolhem o elemento correto em falta entre três opções',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_answer_key.webp',
+        src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 4.webp',
         alt: 'Gabarito da ficha de padrões mostrando todas as caixas em branco preenchidas com os elementos corretos do padrão',
         caption: 'Vista do gabarito — todas as caixas preenchidas com os elementos corretos do padrão para verificação pelo professor',
       },

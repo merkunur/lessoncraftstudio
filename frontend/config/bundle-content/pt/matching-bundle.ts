@@ -204,15 +204,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/portuguese/matching/Encontre os Pares 1.webp',
       primaryAlt: 'Ficha de associação com imagens temáticas mostrando exercício de emparelhamento',
     },
     sampleGallery: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação com quatro modos de emparelhamento e imagens temáticas', caption: 'Ficha de Associação' },
-      { src: '/samples/english/grid match/Grid Match.webp', alt: 'Puzzle de grelha com associação baseada em coordenadas sobre grelha estruturada', caption: 'Ficha Puzzle de Quadrícula' },
-      { src: '/samples/english/shadow match/shadow-match-worksheet.webp', alt: 'Ficha de associação de sombras com emparelhamento de silhuetas e formato de traçar linhas', caption: 'Ficha de Discriminação Visual' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartela de bingo com imagens temáticas em grelha de disposição aleatória', caption: 'Cartela de Bingo' },
-      { src: '/samples/english/picture sort/Picture Sort.webp', alt: 'Ficha de classificação de imagens com exercício de categorização em dois grupos', caption: 'Ficha de Classificação de Imagens' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Ficha de associação com quatro modos de emparelhamento e imagens temáticas', caption: 'Ficha de Associação' },
+      { src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 1.webp', alt: 'Puzzle de grelha com associação baseada em coordenadas sobre grelha estruturada', caption: 'Ficha Puzzle de Quadrícula' },
+      { src: '/samples/portuguese/shadow match/Combine as Sombras 1.webp', alt: 'Ficha de associação de sombras com emparelhamento de silhuetas e formato de traçar linhas', caption: 'Ficha de Discriminação Visual' },
+      { src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp', alt: 'Cartela de bingo com imagens temáticas em grelha de disposição aleatória', caption: 'Cartela de Bingo' },
+      { src: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp', alt: 'Ficha de classificação de imagens com exercício de categorização em dois grupos', caption: 'Ficha de Classificação de Imagens' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Pacote Associação e Classificação — Os 5 Geradores em Ação',

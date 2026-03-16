@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Ficha de associação de sombras com imagens a cores e silhuetas negras autogeradas a nível de píxel para atividade de perceção visual' },
+    heroImage: { src: '/samples/portuguese/shadow match/Combine as Sombras 1.webp', alt: 'Ficha de associação de sombras com imagens a cores e silhuetas negras autogeradas a nível de píxel para atividade de perceção visual' },
     samples: [
-      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Ficha de associação de sombras mostrando quatro imagens a cores emparelhadas com quatro silhuetas negras a nível de píxel com etiquetas de letras e números', caption: 'Modo Associação de sombras com quatro imagens a cores e as suas silhuetas negras autogeradas' },
-      { src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp', alt: 'Chave de respostas autogerada mostrando imagens originais junto a silhuetas com etiquetas corretas de emparelhamento letra a número', caption: 'Chave de respostas autogerada com emparelhamentos letra a número para verificação rápida' },
+      { src: '/samples/portuguese/shadow match/Combine as Sombras 2.webp', alt: 'Ficha de associação de sombras mostrando quatro imagens a cores emparelhadas com quatro silhuetas negras a nível de píxel com etiquetas de letras e números', caption: 'Modo Associação de sombras com quatro imagens a cores e as suas silhuetas negras autogeradas' },
+      { src: '/samples/portuguese/shadow match/Combine as Sombras 3.webp', alt: 'Chave de respostas autogerada mostrando imagens originais junto a silhuetas com etiquetas corretas de emparelhamento letra a número', caption: 'Chave de respostas autogerada com emparelhamentos letra a número para verificação rápida' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Como criar fichas de discriminação visual com sombras — Tutorial completo',

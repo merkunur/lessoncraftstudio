@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Ficha de escrita que demonstra conteúdo educativo com licença comercial para vendedores de imprimíveis' },
+    heroImage: { src: '/samples/portuguese/writing/writing beginning letter.webp', alt: 'Ficha de escrita que demonstra conteúdo educativo com licença comercial para vendedores de imprimíveis' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Ficha de escrita mostrando conteúdo educativo com licença comercial', caption: 'Escrita — Conteúdo Educativo com Licença Comercial' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras demonstrando o potencial de produto comercial de alto volume', caption: 'Sopa de Letras — Tipo de Puzzle Comercial Mais Popular' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Palavras cruzadas mostrando a capacidade de produto comercial multilingue', caption: 'Palavras Cruzadas — Produtos Comerciais Multilingues' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Ficha de matemática demonstrando a geração de produto comercial permanente', caption: 'Matemática — Geração de Produto Comercial Permanente' },
+      { src: '/samples/portuguese/writing/writing custom.webp', alt: 'Ficha de escrita mostrando conteúdo educativo com licença comercial', caption: 'Escrita — Conteúdo Educativo com Licença Comercial' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Sopa de letras demonstrando o potencial de produto comercial de alto volume', caption: 'Sopa de Letras — Tipo de Puzzle Comercial Mais Popular' },
+      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavras cruzadas mostrando a capacidade de produto comercial multilingue', caption: 'Palavras Cruzadas — Produtos Comerciais Multilingues' },
+      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Ficha de matemática demonstrando a geração de produto comercial permanente', caption: 'Matemática — Geração de Produto Comercial Permanente' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Como Criar Fichas de Escrita para o Seu Negócio de Imprimíveis — Demo do LessonCraftStudio',

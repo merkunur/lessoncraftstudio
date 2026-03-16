@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find and count/find and count portrait.webp',
+      primary: '/samples/portuguese/find and count/Vejo, Vejo 1.webp',
       primaryAlt: 'Ficha I Spy de encontre e conte com imagens temáticas dispersas numa grelha para exploração visual e contagem',
     },
     sampleGallery: [
-      { src: '/samples/english/find and count/find and count portrait.webp', alt: 'Ficha I Spy de encontre e conte com objetos escondidos para localizar e contar', caption: 'Encontre e Conte I Spy' },
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Ficha de objetos escondidos com cena sem sobreposição e legenda visual', caption: 'Ficha de Procura Objetos' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Palavras cruzadas de 15×15 com pistas de imagens em vez de definições de texto', caption: 'Palavras Cruzadas com Imagens' },
-      { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Ficha de caça ao tesouro com grelha de coordenadas de 5×5 e pistas direcionais', caption: 'Caça ao Tesouro' },
+      { src: '/samples/portuguese/find and count/Vejo, Vejo 2.webp', alt: 'Ficha I Spy de encontre e conte com objetos escondidos para localizar e contar', caption: 'Encontre e Conte I Spy' },
+      { src: '/samples/portuguese/find objects/Encontra o Diferente (1).webp', alt: 'Ficha de objetos escondidos com cena sem sobreposição e legenda visual', caption: 'Ficha de Procura Objetos' },
+      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavras cruzadas de 15×15 com pistas de imagens em vez de definições de texto', caption: 'Palavras Cruzadas com Imagens' },
+      { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1.webp', alt: 'Ficha de caça ao tesouro com grelha de coordenadas de 5×5 e pistas direcionais', caption: 'Caça ao Tesouro' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Pacote Procura e Encontra — Os 4 Geradores em Ação',

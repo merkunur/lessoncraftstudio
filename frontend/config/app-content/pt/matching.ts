@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/portuguese/matching/Encontre os Pares 1.webp',
       primaryAlt: 'Ficha de associação com imagens temáticas dispostas em duas colunas com cabeçalho localizado Liga! e números dos itens',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 2.webp',
         alt: 'Ficha de associação por letra inicial com imagens à esquerda e primeiras letras à direita',
         caption: 'Modo Letra Inicial — os alunos associam imagens com a sua primeira letra',
       },
       {
-        src: '/samples/english/matching/image and word.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 3.webp',
         alt: 'Ficha de associação imagem e palavra com pares legendados em ambos os lados',
         caption: 'Modo Imagem+Palavra — pares de imagens legendadas para associação de vocabulário',
       },
       {
-        src: '/samples/english/matching/matching portrait answer_key.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 4.webp',
         alt: 'Gabarito da ficha de associação com linhas de ligação desenhadas entre as correspondências corretas',
         caption: 'Gabarito autogerado — as linhas de ligação mostram as associações corretas',
       },

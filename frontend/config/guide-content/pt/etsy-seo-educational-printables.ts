@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ficha de caça-palavras mostrando produto educativo imprimível multi-palavras-chave para otimização SEO Etsy' },
+    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de caça-palavras mostrando produto educativo imprimível multi-palavras-chave para otimização SEO Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Caça-palavras temático de animais demonstrando segmentação de palavras-chave por tema no Etsy', caption: 'Caça-palavras com tema de animais — cada variação de idioma e tema aponta a diferentes palavras-chave de pesquisa no Etsy' },
-      { src: '/samples/english/addition/addition landscape.webp', alt: 'Ficha de adição temática de animais apontando a palavras-chave de alto volume de material educativo de matemática no Etsy', caption: 'Ficha de adição com tema de animais — aponta a palavras-chave de alto volume de material educativo de matemática no Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Página para colorir de animais mostrando estratégia de palavras-chave por tema no Etsy para vendedores de imprimíveis', caption: 'Página para colorir com tema de animais — as palavras-chave específicas por tema geram tráfego de pesquisa segmentado no Etsy' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Caça-palavras temático de animais demonstrando segmentação de palavras-chave por tema no Etsy', caption: 'Caça-palavras com tema de animais — cada variação de idioma e tema aponta a diferentes palavras-chave de pesquisa no Etsy' },
+      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de adição temática de animais apontando a palavras-chave de alto volume de material educativo de matemática no Etsy', caption: 'Ficha de adição com tema de animais — aponta a palavras-chave de alto volume de material educativo de matemática no Etsy' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir de animais mostrando estratégia de palavras-chave por tema no Etsy para vendedores de imprimíveis', caption: 'Página para colorir com tema de animais — as palavras-chave específicas por tema geram tráfego de pesquisa segmentado no Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar fichas de caça-palavras para SEO Etsy — Estratégia de produtos multi-palavras-chave',

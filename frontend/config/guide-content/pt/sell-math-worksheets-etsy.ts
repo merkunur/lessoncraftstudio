@@ -180,11 +180,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de matemática com problemas de adição baseados em imagens para vender no Etsy' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de matemática com problemas de adição baseados em imagens para vender no Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição com tema de animais para loja Etsy de fichas de matemática', caption: 'Ficha de adição com tema de animais — as ilustrações visuais destacam-se nos resultados de pesquisa do Etsy em relação a exercícios de texto simples' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de subtração com tema de veículos mostrando formato complementar de matemática', caption: 'Ficha de subtração com tema de veículos — combine com fichas de adição para pacotes de matemática multi-competência' },
-      { src: '/samples/english/code-addition/code addition Fun 1.webp', alt: 'Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy', caption: 'Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição com tema de animais para loja Etsy de fichas de matemática', caption: 'Ficha de adição com tema de animais — as ilustrações visuais destacam-se nos resultados de pesquisa do Etsy em relação a exercícios de texto simples' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Ficha de subtração com tema de veículos mostrando formato complementar de matemática', caption: 'Ficha de subtração com tema de veículos — combine com fichas de adição para pacotes de matemática multi-competência' },
+      { src: '/samples/portuguese/code addition/Código Secreto Adição 1.webp', alt: 'Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy', caption: 'Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar fichas de matemática para vender no Etsy — Tutorial passo a passo',

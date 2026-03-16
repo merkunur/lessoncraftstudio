@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: '/samples/portuguese/matching/Encontre os Pares 1.webp',
       alt: 'Ficha profissional de emparelhamento a demonstrar a qualidade de produto que conquista avaliações positivas dos compradores',
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 2.webp',
         alt: 'Ficha de emparelhamento a mostrar qualidade visual que impulsiona avaliações positivas dos compradores',
         caption: 'As fichas de emparelhamento de alta qualidade conquistam avaliações positivas naturalmente através do apelo visual e do valor educativo',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
         alt: 'Página para colorir a demonstrar qualidade de design profissional que motiva feedback dos compradores',
         caption: 'As páginas para colorir profissionais geram avaliações porque os compradores podem ver e apreciar imediatamente a qualidade do design',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras a mostrar o formato de produto popular que gera alto volume de avaliações',
         caption: 'As sopas de letras geram alto volume de vendas e taxas de avaliações positivas consistentes em todos os grupos etários',
       },

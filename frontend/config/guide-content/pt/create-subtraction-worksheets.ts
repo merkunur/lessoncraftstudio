@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de subtração com imagens temáticas riscadas mostrando exercícios de tirar para crianças' },
+    heroImage: { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Ficha de subtração com imagens temáticas riscadas mostrando exercícios de tirar para crianças' },
     samples: [
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de subtração baseada em imagens com animais riscados para jardim de infância', caption: 'Ficha de subtração de jardim de infância usando o modo de exercício Riscar com imagens temáticas' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de subtração com chave de respostas mostrando as soluções corretas', caption: 'Chave de respostas automática gerada junto com cada ficha de subtração' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 2.webp', alt: 'Ficha de subtração baseada em imagens com animais riscados para jardim de infância', caption: 'Ficha de subtração de jardim de infância usando o modo de exercício Riscar com imagens temáticas' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 3.webp', alt: 'Ficha de subtração com chave de respostas mostrando as soluções corretas', caption: 'Chave de respostas automática gerada junto com cada ficha de subtração' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Como criar fichas de subtração — Tutorial completo',

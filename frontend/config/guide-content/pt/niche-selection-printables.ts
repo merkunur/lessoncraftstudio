@@ -171,12 +171,12 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word-search/word search portrait.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de produtos em múltiplos nichos' },
+    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de produtos em múltiplos nichos' },
     samples: [
-      { src: '/samples/english/word-search/word search portrait.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de um produto em múltiplos nichos', caption: 'Os caça-palavras funcionam em qualquer nicho temático — animais, alimentos, veículos, profissões — tornando-os ideais para testar a procura de nicho' },
-      { src: '/samples/english/coloring/coloring portrait.webp', alt: 'Página para colorir mostrando possibilidades de produtos temáticos de nicho', caption: 'As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações' },
-      { src: '/samples/english/bingo/bingo portrait.webp', alt: 'Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado', caption: 'Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação mostrando a variedade de produtos de nicho educativo', caption: 'As atividades de associação funcionam em nichos educativos desde vocabulário a matemática' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Ficha de caça-palavras mostrando a versatilidade de um produto em múltiplos nichos', caption: 'Os caça-palavras funcionam em qualquer nicho temático — animais, alimentos, veículos, profissões — tornando-os ideais para testar a procura de nicho' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando possibilidades de produtos temáticos de nicho', caption: 'As páginas para colorir são o produto de entrada mais popular — cada nicho temático gera dezenas de variações' },
+      { src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp', alt: 'Cartão de bingo mostrando como um tipo de produto serve múltiplos segmentos de mercado', caption: 'Um único tipo de produto pode servir múltiplos segmentos — salas de aula, festas e terapia' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de associação mostrando a variedade de produtos de nicho educativo', caption: 'As atividades de associação funcionam em nichos educativos desde vocabulário a matemática' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar caça-palavras para qualquer tema de nicho',

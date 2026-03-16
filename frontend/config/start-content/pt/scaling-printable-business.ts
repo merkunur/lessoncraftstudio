@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de desenho em grelha demonstrando a gama criativa para escalar um negócio de imprimíveis' },
+    heroImage: { src: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp', alt: 'Ficha de desenho em grelha demonstrando a gama criativa para escalar um negócio de imprimíveis' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de desenho em grelha mostrando variedade de temas para expansão do catálogo', caption: 'Desenho em Grelha — Gama Criativa para Profundidade do Catálogo' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle de caça-palavras demonstrando escalabilidade de alto volume em múltiplos temas', caption: 'Caça-Palavras — Maior Potencial de Escalamento em Volume' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorir mostrando escalabilidade internacional sem dependência linguística', caption: 'Colorir — Escalamento Internacional sem Tradução' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle de sudoku demonstrando distribuição de produto agnóstica de plataforma', caption: 'Sudoku — Distribuição Agnóstica de Plataforma' },
+      { src: '/samples/portuguese/draw and color/Desenha e Pinta 2.webp', alt: 'Ficha de desenho em grelha mostrando variedade de temas para expansão do catálogo', caption: 'Desenho em Grelha — Gama Criativa para Profundidade do Catálogo' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Puzzle de caça-palavras demonstrando escalabilidade de alto volume em múltiplos temas', caption: 'Caça-Palavras — Maior Potencial de Escalamento em Volume' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando escalabilidade internacional sem dependência linguística', caption: 'Colorir — Escalamento Internacional sem Tradução' },
+      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Puzzle de sudoku demonstrando distribuição de produto agnóstica de plataforma', caption: 'Sudoku — Distribuição Agnóstica de Plataforma' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Como Criar Fichas de Desenho em Grelha para o Teu Negócio de Imprimíveis — Demo LessonCraftStudio',

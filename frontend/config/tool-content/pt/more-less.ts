@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).webp',
+      primary: '/samples/portuguese/more less/Mais Menos 1.webp',
       primaryAlt: 'Ficha de maior que menor que com grupos de imagens para comparação mostrando exercícios de maior que e menor que',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).webp',
+        src: '/samples/portuguese/more less/Mais Menos 2.webp',
         alt: 'Ficha de comparação Imagem contra Imagem com tema de animais mostrando dois grupos de imagens lado a lado',
         caption: 'Modo Imagem contra Imagem com tema de animais',
       },
       {
-        src: '/samples/english/more less/More Less (12).webp',
+        src: '/samples/portuguese/more less/Mais Menos 3.webp',
         alt: 'Ficha de comparação Imagem contra Número ligando a contagem visual a números escritos',
         caption: 'Modo Imagem contra Número — liga imagens e números',
       },
       {
-        src: '/samples/english/more less/More Less (14).webp',
+        src: '/samples/portuguese/more less/Mais Menos 4.webp',
         alt: 'Ficha de Marcar e Riscar Grupos com imagens misturadas para classificar e comparar',
         caption: 'Marcar e Riscar Grupos — modo exclusivo de classificação e comparação',
       },

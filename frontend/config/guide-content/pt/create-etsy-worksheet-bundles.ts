@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de adição como componente central de pacotes de fichas educativas para o Etsy' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de adição como componente central de pacotes de fichas educativas para o Etsy' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de adição com tema de animais como componente de pacote de matemática para o Etsy', caption: 'Ficha de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy' },
-      { src: '/samples/english/subtraction/subtraction_worksheet portrait.webp', alt: 'Ficha de subtração com tema de animais complementando adição em pacotes de matemática Etsy', caption: 'Ficha de subtração com tema de animais — emparelha com fichas de adição para pacotes completos de matemática' },
-      { src: '/samples/english/wordsearch/wordsearch_worksheet portrait.webp', alt: 'Caça-palavras de animais acrescentando variedade multicategoria a pacotes de fichas Etsy', caption: 'Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição com tema de animais como componente de pacote de matemática para o Etsy', caption: 'Ficha de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Ficha de subtração com tema de animais complementando adição em pacotes de matemática Etsy', caption: 'Ficha de subtração com tema de animais — emparelha com fichas de adição para pacotes completos de matemática' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras de animais acrescentando variedade multicategoria a pacotes de fichas Etsy', caption: 'Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar fichas de adição para pacotes Etsy — Estratégia de pacotes multiproduto',

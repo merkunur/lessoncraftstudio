@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Recurso de fichas de caça-palavras otimizado para visibilidade e vendas na loja Teachers Pay Teachers' },
+    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Recurso de fichas de caça-palavras otimizado para visibilidade e vendas na loja Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle de caça-palavras otimizado para crescimento de catálogo de loja TPT', caption: 'Os caças-palavras estão entre os recursos TPT mais versáteis — crie variações temáticas sazonais para expansão rápida do catálogo' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Ficha de puzzle de matemática para diferenciação de loja TPT', caption: 'Formatos únicos de puzzles de matemática enfrentam menor concorrência no TPT do que fichas standard — uma estratégia de diferenciação para categorias com muita concorrência' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Atividade de palavras cruzadas para recursos de vocabulário TPT', caption: 'As palavras cruzadas são atividades de vocabulário de alta procura que os professores pesquisam por disciplina e nível escolar no TPT' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Puzzle de caça-palavras otimizado para crescimento de catálogo de loja TPT', caption: 'Os caças-palavras estão entre os recursos TPT mais versáteis — crie variações temáticas sazonais para expansão rápida do catálogo' },
+      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Ficha de puzzle de matemática para diferenciação de loja TPT', caption: 'Formatos únicos de puzzles de matemática enfrentam menor concorrência no TPT do que fichas standard — uma estratégia de diferenciação para categorias com muita concorrência' },
+      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Atividade de palavras cruzadas para recursos de vocabulário TPT', caption: 'As palavras cruzadas são atividades de vocabulário de alta procura que os professores pesquisam por disciplina e nível escolar no TPT' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar caças-palavras para a sua loja TPT — Tutorial de otimização',

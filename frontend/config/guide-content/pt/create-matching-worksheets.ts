@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação com imagens temáticas mostrando pares de traçar linhas para pré-escolar' },
+    heroImage: { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de associação com imagens temáticas mostrando pares de traçar linhas para pré-escolar' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação de traçar linhas com tema de animais para pré-escolar', caption: 'Ficha de associação para pré-escolar usando o tema de animais com modo de Associação de letras e 5 pares' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Chave de respostas de ficha de associação mostrando linhas de ligação entre pares corretos', caption: 'Chave de respostas automática com linhas de ligação horizontais entre pares associados' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Ficha de associação de traçar linhas com tema de animais para pré-escolar', caption: 'Ficha de associação para pré-escolar usando o tema de animais com modo de Associação de letras e 5 pares' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 3.webp', alt: 'Chave de respostas de ficha de associação mostrando linhas de ligação entre pares corretos', caption: 'Chave de respostas automática com linhas de ligação horizontais entre pares associados' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Como criar fichas de associação — Tutorial completo',

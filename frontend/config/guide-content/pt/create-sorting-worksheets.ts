@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Ficha de classificação em duas categorias com quadros de categoria de moldura tracejada e grelha de recortáveis misturados para atividades de classificação' },
+    heroImage: { src: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp', alt: 'Ficha de classificação em duas categorias com quadros de categoria de moldura tracejada e grelha de recortáveis misturados para atividades de classificação' },
     samples: [
-      { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Ficha de classificação de imagens mostrando dois quadros de categoria lado a lado e grelha de recortáveis misturados abaixo', caption: 'Ficha de classificação em duas categorias com quadros de categoria lado a lado e grelha de recortáveis misturados' },
-      { src: '/samples/english/picture sort/Picture Sort answer_key.webp', alt: 'Chave de respostas autogerada com imagens ampliadas classificadas nas caixas de categoria corretas', caption: 'Chave de respostas autogerada com imagens apresentadas a seis vezes o tamanho da célula da grelha de recortáveis' },
+      { src: '/samples/portuguese/picture sort/Classificação de Imagens 2.webp', alt: 'Ficha de classificação de imagens mostrando dois quadros de categoria lado a lado e grelha de recortáveis misturados abaixo', caption: 'Ficha de classificação em duas categorias com quadros de categoria lado a lado e grelha de recortáveis misturados' },
+      { src: '/samples/portuguese/picture sort/Classificação de Imagens 3.webp', alt: 'Chave de respostas autogerada com imagens ampliadas classificadas nas caixas de categoria corretas', caption: 'Chave de respostas autogerada com imagens apresentadas a seis vezes o tamanho da célula da grelha de recortáveis' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Como criar fichas de classificação por categorias — Tutorial completo',

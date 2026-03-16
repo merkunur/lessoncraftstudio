@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/shadow match/Shadow Match.webp',
+      primary: '/samples/portuguese/shadow match/Combine as Sombras 1.webp',
       primaryAlt: 'Ficha de associação de sombras com imagens a cores na linha superior e siluetas negras autogeradas na linha inferior com cabeçalho âmbar e etiquetas letra-número para atividade de correspondência',
     },
     sampleGallery: [
       {
-        src: '/samples/english/shadow match/Shadow Match (1).webp',
+        src: '/samples/portuguese/shadow match/Combine as Sombras 2.webp',
         alt: 'Ficha de associação de sombras com quatro imagens a cores associadas a quatro siluetas negras geradas a nível de píxel com etiquetas A B C D e 1 2 3 4',
         caption: 'Modo Associação de Sombras — os alunos associam imagens às suas siluetas autogeradas a nível de píxel',
       },
       {
-        src: '/samples/english/shadow match/Shadow Match (5).webp',
+        src: '/samples/portuguese/shadow match/Combine as Sombras 3.webp',
         alt: 'Ficha Complete a Imagem com metades de imagens divididas que os alunos reconectam associando primeiras e segundas metades etiquetadas A a D e 1 a 4',
         caption: 'Modo Complete a Imagem — os alunos associam metades de imagens divididas para completar as ilustrações com cortes horizontais ou verticais',
       },
       {
-        src: '/samples/english/shadow match/Shadow Match answer_key.webp',
+        src: '/samples/portuguese/shadow match/Combine as Sombras 4.webp',
         alt: 'Gabarito de associação de sombras mostrando imagens originais junto a siluetas com etiquetas de correspondência correta letra-número como A a 2',
         caption: 'Gabarito autogerado — etiquetas letra-número mostram as correspondências corretas para ambos os modos de exercício',
       },

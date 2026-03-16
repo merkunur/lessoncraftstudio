@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/chart count.webp',
+      primary: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp',
       primaryAlt: 'Ficha de gráfico pictórico com grelha de ícones dispersos e gráfico de barras para os alunos contarem e representarem 6 tipos de imagens',
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/Picture Graph 1.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 2.webp',
         alt: 'Ficha de gráfico pictórico com tema de animais com 20 ícones de animais dispersos e gráfico de barras vazio',
         caption: 'Gráfico pictórico com tema de animais — 6 tipos de animais dispersos na grelha com gráfico de barras abaixo',
       },
       {
-        src: '/samples/english/chart count/Picture Graph 5.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 3.webp',
         alt: 'Gabarito do gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas para cada tipo de imagem',
         caption: 'Gabarito autogerado — células preenchidas a amarelo mostrando a contagem correta para cada tipo de imagem',
       },
       {
-        src: '/samples/english/chart count/chart count answer_key.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 4.webp',
         alt: 'Ficha de gráfico pictórico com tema de fundo decorativo e moldura de borda aplicados',
         caption: 'Gráfico pictórico decorado — temas de fundo e borda com controlos de opacidade independentes',
       },

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 1.webp',
       primaryAlt: 'Ficha de puzzle de quadrícula com peças de imagens divididas numa grelha, caselas-dica reveladas e paleta de peças numeradas para associação',
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 2.webp',
         alt: 'Puzzle de quadrícula 3×3 com uma casela-dica e oito peças numeradas na paleta',
         caption: 'Puzzle de quadrícula 3×3 — uma casela-dica revelada, oito peças por associar da paleta numerada',
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 3.webp',
         alt: 'Puzzle de quadrícula 4×4 avançado com dezasseis peças e dicas mínimas',
         caption: 'Puzzle 4×4 avançado — tamanho máximo de grelha para atividades estimulantes de perceção visual',
       },
       {
-        src: '/samples/english/grid match/Grid Match answer_key.webp',
+        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 4.webp',
         alt: 'Gabarito do puzzle de quadrícula mostrando a imagem completa com círculos numerados sobrepostos em cada célula',
         caption: 'Gabarito autogerado — os círculos numerados mostram a colocação correta das peças na imagem completa',
       },

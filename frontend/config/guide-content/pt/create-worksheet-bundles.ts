@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de matemática pronta para agrupamento num pacote de fichas de alto valor' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de matemática pronta para agrupamento num pacote de fichas de alto valor' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição para criação de pacotes de fichas de matemática', caption: 'Fichas de matemática estão entre os produtos mais populares para criação de pacotes — combine adição, subtração e sentido numérico para pacotes abrangentes' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle de caça-palavras para pacote temático de fichas', caption: 'Puzzles de caça-palavras acrescentam variedade a pacotes temáticos e funcionam em pacotes por disciplina, nível escolar e sazonais' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Atividade de associação para coleção de pacotes imprimíveis', caption: 'Atividades de associação complementam outros tipos de fichas em pacotes por formato — a variedade mantém os alunos envolvidos ao longo de múltiplas sessões' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição para criação de pacotes de fichas de matemática', caption: 'Fichas de matemática estão entre os produtos mais populares para criação de pacotes — combine adição, subtração e sentido numérico para pacotes abrangentes' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Puzzle de caça-palavras para pacote temático de fichas', caption: 'Puzzles de caça-palavras acrescentam variedade a pacotes temáticos e funcionam em pacotes por disciplina, nível escolar e sazonais' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação para coleção de pacotes imprimíveis', caption: 'Atividades de associação complementam outros tipos de fichas em pacotes por formato — a variedade mantém os alunos envolvidos ao longo de múltiplas sessões' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar fichas de adição para agrupamento em coleções de alto valor',

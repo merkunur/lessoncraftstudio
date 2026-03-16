@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/Alphabet Train 1.webp',
+      primary: '/samples/portuguese/alphabet train/Comboio do Alfabeto 1.webp',
       primaryAlt: 'Ficha de trem do alfabeto com vagões coloridos transportando letras e imagens correspondentes de animais',
     },
     sampleGallery: [
       {
-        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
+        src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 2.webp',
         alt: 'Ficha de trem do alfabeto com tema de animais mostrando 11 vagões-letra e imagens-pista',
         caption: 'Modo Criação Automática — 11 vagões-letra aleatórios com pistas de imagens do tema animais',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 5.webp',
+        src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 3.webp',
         alt: 'Ficha de trem do alfabeto com tema de alimentos e 5 imagens-pista para associação',
         caption: 'Modo Manual — letras selecionadas com tema de alimentos e 5 pistas para associação mais fácil',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 10.webp',
+        src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 4.webp',
         alt: 'Ficha de trem do alfabeto com tema de veículos e 11 pistas completas para prática avançada',
         caption: 'Desafio de pistas completo — 11 pistas para prática completa de associação letra-imagem',
       },

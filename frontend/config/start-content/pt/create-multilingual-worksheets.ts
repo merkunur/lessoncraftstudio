@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de puzzle de caça-palavras que demonstra a geração de fichas multilingue em 11 idiomas' },
+    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de puzzle de caça-palavras que demonstra a geração de fichas multilingue em 11 idiomas' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de puzzle de caça-palavras com vocabulário sensível ao idioma', caption: 'Caça-Palavras — A Melhor Demo Multilingue' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Puzzle de crucigrama com pistas e respostas localizadas', caption: 'Crucigrama — Puzzles Completamente Localizados' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Ficha de palavras desordenadas com vocabulário adaptado ao idioma', caption: 'Palavras Desordenadas — Resultado Sensível ao Idioma' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Ficha do comboio do abecedário mostrando conjuntos de letras específicos por idioma', caption: 'Comboio do Abecedário — Conjuntos de Letras Adaptados' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Ficha de puzzle de caça-palavras com vocabulário sensível ao idioma', caption: 'Caça-Palavras — A Melhor Demo Multilingue' },
+      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Puzzle de crucigrama com pistas e respostas localizadas', caption: 'Crucigrama — Puzzles Completamente Localizados' },
+      { src: '/samples/portuguese/word scramble/Letras Embaralhadas 1.webp', alt: 'Ficha de palavras desordenadas com vocabulário adaptado ao idioma', caption: 'Palavras Desordenadas — Resultado Sensível ao Idioma' },
+      { src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 1.webp', alt: 'Ficha do comboio do abecedário mostrando conjuntos de letras específicos por idioma', caption: 'Comboio do Abecedário — Conjuntos de Letras Adaptados' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como Criar Fichas de Caça-Palavras em Múltiplos Idiomas — Demo do LessonCraftStudio',

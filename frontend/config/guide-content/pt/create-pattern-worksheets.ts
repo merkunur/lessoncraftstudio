@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconhecimento de padrões com imagens temáticas mostrando exercícios de completar padrões visuais para crianças' },
+    heroImage: { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp', alt: 'Ficha de reconhecimento de padrões com imagens temáticas mostrando exercícios de completar padrões visuais para crianças' },
     samples: [
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconhecimento de padrões com tema de animais mostrando exercícios de padrões AB e ABC', caption: 'Ficha de reconhecimento de padrões usando imagens temáticas com múltiplos tipos de padrões e chave de respostas automática' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Chave de respostas de ficha de padrões mostrando os padrões completados com as imagens corretas', caption: 'Chave de respostas automática gerada junto com cada ficha de padrões para correção rápida' },
+      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 2.webp', alt: 'Ficha de reconhecimento de padrões com tema de animais mostrando exercícios de padrões AB e ABC', caption: 'Ficha de reconhecimento de padrões usando imagens temáticas com múltiplos tipos de padrões e chave de respostas automática' },
+      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 3.webp', alt: 'Chave de respostas de ficha de padrões mostrando os padrões completados com as imagens corretas', caption: 'Chave de respostas automática gerada junto com cada ficha de padrões para correção rápida' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Como criar fichas de reconhecimento de padrões — Tutorial completo',

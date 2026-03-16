@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: '/samples/portuguese/matching/Encontre os Pares 1.webp',
       alt: 'Ficha de associação profissional que demonstra um design claro do produto que previne problemas de suporte ao cliente',
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 2.webp',
         alt: 'Ficha de associação mostrando layout claro e instruções que reduzem as questões dos compradores',
         caption: 'O design claro de fichas e as descrições abrangentes do produto previnem os pedidos de suporte comuns',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
         alt: 'Ficha de adição com formato profissional que estabelece expetativas precisas do comprador',
         caption: 'O formato profissional e as especificações detalhadas eliminam os problemas de discrepância de expetativas',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras com conteúdo temático demonstrando clareza do produto para os compradores',
         caption: 'Os produtos ricos em conteúdo beneficiam mais de documentação abrangente e suporte de autoatendimento',
       },

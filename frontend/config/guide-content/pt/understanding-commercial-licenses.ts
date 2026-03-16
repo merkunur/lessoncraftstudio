@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
       alt: 'Ficha profissional de caça-palavras que demonstra a produção imprimível com licença comercial',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp',
         alt: 'Caça-palavras criado com licença comercial para venda multiplataforma',
         caption: 'Os caça-palavras criados com licença comercial podem ser vendidos em qualquer plataforma',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
         alt: 'Ficha de adição gerada com licença comercial livre de royalties',
         caption: 'Uma licença comercial abrange a geração ilimitada de fichas de adição sem taxas por produto',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
         alt: 'Página para colorir com imagens temáticas devidamente licenciadas para venda comercial',
         caption: 'As licenças comerciais que incluem imagens integradas simplificam a conformidade para produtos visuais',
       },

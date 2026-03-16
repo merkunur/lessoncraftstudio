@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/Missing Pieces.webp',
+      primary: '/samples/portuguese/missing pieces/Peças em Falta 1.webp',
       primaryAlt: 'Ficha de puzzle com lacunas recortadas de uma ilustração colorida e opções de solução numeradas incluindo distratoras em baixo com cabeçalho turquesa Peças em Falta e dupla borda decorativa verde-azulado e rosa',
     },
     sampleGallery: [
       {
-        src: '/samples/english/missing pieces/Missing Pieces (1).webp',
+        src: '/samples/portuguese/missing pieces/Peças em Falta 2.webp',
         alt: 'Puzzle de peças faltantes com lacunas quadradas recortadas de uma ilustração colorida e opções de solução numeradas para identificação visual',
         caption: 'Forma de peça quadrada — cortes geométricos limpos com opções de solução numeradas incluindo distratoras',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces (5).webp',
+        src: '/samples/portuguese/missing pieces/Peças em Falta 3.webp',
         alt: 'Puzzle de peças faltantes com lacunas circulares e opções de solução numeradas incluindo peças distratoras para desafio de discriminação visual',
         caption: 'Forma de peça circular — cortes arredondados com opções distratoras que impedem resolver por eliminação',
       },
       {
-        src: '/samples/english/missing pieces/Missing Pieces answer_key.webp',
+        src: '/samples/portuguese/missing pieces/Peças em Falta 4.webp',
         alt: 'Gabarito do puzzle de peças faltantes com etiquetas numéricas realçadas em amarelo colocadas dentro de cada lacuna mostrando o índice de opção correto',
         caption: 'Gabarito autogerado — etiquetas amarelas (rgba(255,255,0,0.7)) mostram a opção correta para cada lacuna',
       },

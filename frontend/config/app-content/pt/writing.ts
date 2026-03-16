@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/writing/writing.webp',
+      primary: '/samples/portuguese/writing/writing beginning letter.webp',
       primaryAlt: 'Ficha de prática de escrita manuscrita com modos traçado, traçado progressivo e cópia guiada mostrando letras com setas da ordem dos traços',
     },
     sampleGallery: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/portuguese/writing/writing custom.webp',
         alt: 'Ficha de escrita em modo traçado com fonte imprensa com setas mostrando direções numeradas da ordem dos traços',
         caption: 'Modo Traçado com ordem de traços por setas — setas direcionais numeradas mostram a sequência exata de formação de letras',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/portuguese/writing/writing.webp',
         alt: 'Ficha de escrita em modo traçado progressivo com letras a desvanecer progressivamente ao longo de cada fila',
         caption: 'Modo Traçado Progressivo — as letras desvanecem progressivamente para desenvolver a confiança na escrita autónoma',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/portuguese/writing/writing beginning letter.webp',
         alt: 'Ficha de escrita em modo cópia guiada com estilo cursiva sobre sistema de três linhas-guia',
         caption: 'Cópia Guiada Cursiva — contornos ténues em cursiva sobre o sistema de três linhas-guia para prática de escrita cursiva',
       },

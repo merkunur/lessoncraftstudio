@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
+      primary: '/samples/portuguese/word guess/Adivinha a Palavra 1.webp',
       primaryAlt: 'Ficha de adivinhar palavras mostrando pistas de imagem combinadas com grelhas de letras com espaços em branco para prática de ortografia',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 2.webp',
         alt: 'Ficha de adivinhar palavras com pistas de imagem e grelhas de letras parcialmente preenchidas para prática de ortografia',
         caption: 'Exercícios de adivinhar palavras com imagens e níveis de pista progressivos',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 3.webp',
         alt: 'Ficha de adivinhar palavras mostrando múltiplos níveis de dificuldade com diferentes quantidades de letras reveladas',
         caption: 'Dificuldade de pistas ajustável de Fácil até Sem Pistas',
       },
       {
-        src: '/samples/english/word guess/clue-grid_answer-key.webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 4.webp',
         alt: 'Gabarito de adivinhar palavras com todas as letras preenchidas mostrando as ortografias corretas',
         caption: 'Gabarito com todas as letras reveladas para correção fácil',
       },

@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/portuguese/matching/Encontre os Pares 1.webp',
       primaryAlt: 'Ficha de associação com imagens temáticas organizadas em duas colunas com cabeçalho localizado Liga!, números dos itens e pontos decorativos',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 2.webp',
         alt: 'Ficha de associação de letra inicial com imagens à esquerda e as suas primeiras letras à direita para prática fonética',
         caption: 'Modo Letra Inicial — os alunos associam imagens com as suas primeiras letras em maiúsculas ou minúsculas',
       },
       {
-        src: '/samples/english/matching/image and word.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 3.webp',
         alt: 'Ficha de associação de imagem e palavra com pares legendados em ambos os lados para atividades de reforço de vocabulário',
         caption: 'Modo Imagem+Palavra — pares de imagens legendadas em ambos os lados para associação de vocabulário e reconhecimento de palavras',
       },
       {
-        src: '/samples/english/matching/matching portrait answer_key.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 4.webp',
         alt: 'Gabarito da ficha de associação com linhas de ligação horizontais desenhadas entre os pares corretos para verificação instantânea',
         caption: 'Gabarito autogerado — linhas de ligação (#555) entre pares corretos para verificação instantânea',
       },

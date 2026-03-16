@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Ficha de matemática mostrando layout de grelha e espaçamento formatado para especificações de impressão da Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp', alt: 'Ficha de matemática mostrando layout de grelha e espaçamento formatado para especificações de impressão da Amazon KDP' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Ficha de matemática com espaçamento preciso de grelha demonstrando requisitos de margens e layout KDP', caption: 'Layout de ficha de matemática — formatação baseada em grelha com tamanho de células adequado para caligrafia confortável dentro das especificações de margens KDP' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Grelha de caça-palavras mostrando espaçamento de letras formatado para impressão KDP', caption: 'Grelha de caça-palavras — espaçamento de letras consistente a células de 0,3 polegadas garante um rodear e legibilidade confortáveis em livros impressos KDP' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de adição demonstrando layout limpo de página única KDP', caption: 'Ficha de adição — layout limpo de operação única com espaços de resposta claros que demonstra formatação interior profissional KDP' },
+      { src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp', alt: 'Ficha de matemática com espaçamento preciso de grelha demonstrando requisitos de margens e layout KDP', caption: 'Layout de ficha de matemática — formatação baseada em grelha com tamanho de células adequado para caligrafia confortável dentro das especificações de margens KDP' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Grelha de caça-palavras mostrando espaçamento de letras formatado para impressão KDP', caption: 'Grelha de caça-palavras — espaçamento de letras consistente a células de 0,3 polegadas garante um rodear e legibilidade confortáveis em livros impressos KDP' },
+      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de adição demonstrando layout limpo de página única KDP', caption: 'Ficha de adição — layout limpo de operação única com espaços de resposta claros que demonstra formatação interior profissional KDP' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Como criar fichas de matemática prontas para imprimir para Amazon KDP — Tutorial de formatação',

@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Exemplo de ficha para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Exemplo de ficha para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Ficha para colorir para loja de imprimíveis no Etsy', caption: 'Página para Colorir — Categoria Top no Etsy' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha imprimível de sopa de letras para anúncio no Etsy', caption: 'Sopa de Letras — Alto Volume de Pesquisa' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de soma com problemas de matemática baseados em imagens', caption: 'Soma — Categoria de Matemática Permanente' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação para compradores internacionais do Etsy', caption: 'Associação — Atividade Visual sem Texto' },
+      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Ficha para colorir para loja de imprimíveis no Etsy', caption: 'Página para Colorir — Categoria Top no Etsy' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha imprimível de sopa de letras para anúncio no Etsy', caption: 'Sopa de Letras — Alto Volume de Pesquisa' },
+      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de soma com problemas de matemática baseados em imagens', caption: 'Soma — Categoria de Matemática Permanente' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de associação para compradores internacionais do Etsy', caption: 'Associação — Atividade Visual sem Texto' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como Criar Fichas para Colorir — Demo do LessonCraftStudio',

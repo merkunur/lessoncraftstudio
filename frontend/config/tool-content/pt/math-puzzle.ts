@@ -209,22 +209,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/Math Puzzles.webp',
+      primary: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp',
       primaryAlt: 'Ficha de puzzle matemático mostrando uma quadrícula de imagens tipo quebra-cabeça com equações de adição e peças desordenadas',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math puzzle/Math Puzzles (1).webp',
+        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp',
         alt: 'Puzzle matemático tipo quebra-cabeça com equações de adição numa quadrícula de imagens colorida',
         caption: 'Modo Adição com puzzle de imagem temática',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzles (5).webp',
+        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3.webp',
         alt: 'Ficha de puzzle matemático com equações de subtração e peças numeradas desordenadas abaixo da quadrícula',
         caption: 'Modo Subtração — resolva equações para reconstruir a imagem',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzles (10).webp',
+        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 4.webp',
         alt: 'Puzzle matemático misto de adição e subtração com quadrícula grande para alunos avançados',
         caption: 'Operações mistas — adição e subtração num único puzzle',
       },

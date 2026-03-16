@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+      src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp',
       alt: 'Ficha de matemática profissional demonstrando a criação rápida automatizada para eficiência de negócio de imprimíveis',
     },
     samples: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp',
         alt: 'Ficha de matemática mostrando a qualidade de produção automatizada',
         caption: 'Os geradores de fichas automatizam o passo mais trabalhoso na produção de imprimíveis',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
         alt: 'Ficha de soma demonstrando produção em lote com variações de tema',
         caption: 'A produção em lote de variações temáticas multiplica a produção do catálogo eficientemente',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras mostrando criação sistemática de conteúdo através de temas',
         caption: 'A variação sistemática através de temas e idiomas escala o crescimento do catálogo',
       },

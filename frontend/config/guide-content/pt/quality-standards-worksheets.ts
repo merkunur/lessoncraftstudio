@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
       alt: 'Ficha de caça-palavras que demonstra padrões de qualidade profissional com design limpo e formatação precisa',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp',
         alt: 'Puzzle de caça-palavras que mostra formatação profissional pronta a imprimir e alinhamento preciso de grelha',
         caption: 'A saída profissional de caça-palavras demonstra design limpo, tipografia legível e alinhamento preciso de grelha',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
         alt: 'Ficha de adição que mostra padrões de qualidade para alinhamento de números e precisão da grelha de respostas',
         caption: 'As fichas de matemática requerem alinhamento preciso, tipografia clara e grelhas de respostas verificadas para qualidade profissional',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
         alt: 'Página para colorir que demonstra padrões de qualidade visual com espessuras de linha consistentes e otimização de impressão',
         caption: 'Os produtos visuais requerem espessuras de linha consistentes, otimização de escala de cinzentos e qualidade de impressão profissional',
       },

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word scramble/word scramble portrait.webp',
+      primary: '/samples/portuguese/word scramble/Letras Embaralhadas 1.webp',
       primaryAlt: 'Ficha de palavras embaralhadas com pistas de imagem e peças de letras embaralhadas mostrando puzzles de ortografia por reorganização',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word scramble/word scramble portrait.webp',
+        src: '/samples/portuguese/word scramble/Letras Embaralhadas 2.webp',
         alt: 'Ficha de palavras embaralhadas em dificuldade Fácil mostrando metade das letras pré-posicionadas',
         caption: 'Dificuldade Fácil — metade das letras pré-posicionadas como pistas para iniciantes em ortografia',
       },
       {
-        src: '/samples/english/word scramble/Word Scramble 1.webp',
+        src: '/samples/portuguese/word scramble/Letras Embaralhadas 3.webp',
         alt: 'Ficha de palavras embaralhadas com código de cores vogais-consoantes mostrando peças de letras coloridas',
         caption: 'Modo Código de Cores — vogais e consoantes em cores diferentes para consciência fonética',
       },
       {
-        src: '/samples/english/word scramble/word scramble portrait answer-key.webp',
+        src: '/samples/portuguese/word scramble/Letras Embaralhadas 4.webp',
         alt: 'Gabarito de palavras embaralhadas com todas as letras corretamente desembaralhadas',
         caption: 'Gabarito — palavras corretamente desembaralhadas para correção e autoverificação fáceis',
       },

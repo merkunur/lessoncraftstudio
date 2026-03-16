@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de gráfico pictórico com grelha de 4×5 de imagens dispersas e gráfico de barras para prática de contagem e gráficos' },
+    heroImage: { src: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp', alt: 'Ficha de gráfico pictórico com grelha de 4×5 de imagens dispersas e gráfico de barras para prática de contagem e gráficos' },
     samples: [
-      { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de gráfico pictórico com 20 ícones dispersos numa grelha de 4×5 e gráfico de barras de 6 colunas abaixo', caption: 'Ficha completa de gráfico pictórico com grelha de imagens dispersas e gráfico de barras para prática de contagem do aluno' },
-      { src: '/samples/english/chart count/chart count answer_key.webp', alt: 'Chave de resposta de gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas', caption: 'Chave de resposta autogerada com células destacadas a amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem' },
+      { src: '/samples/portuguese/chart count/Gráfico de Figuras 2.webp', alt: 'Ficha de gráfico pictórico com 20 ícones dispersos numa grelha de 4×5 e gráfico de barras de 6 colunas abaixo', caption: 'Ficha completa de gráfico pictórico com grelha de imagens dispersas e gráfico de barras para prática de contagem do aluno' },
+      { src: '/samples/portuguese/chart count/Gráfico de Figuras 3.webp', alt: 'Chave de resposta de gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas', caption: 'Chave de resposta autogerada com células destacadas a amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Como criar fichas de contagem e gráficos — Tutorial completo',

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/odd one out/Odd One Out.webp',
+      primary: '/samples/portuguese/odd one out/Encontra o Diferente 1.webp',
       primaryAlt: 'Ficha do intruso com quatro imagens por fila de exercício mostrando três elementos comuns e um elemento intruso com cabeçalho coral-âmbar-turquesa Encontra o Diferente',
     },
     sampleGallery: [
       {
-        src: '/samples/english/odd one out/Odd One Out (1).webp',
+        src: '/samples/portuguese/odd one out/Encontra o Diferente 2.webp',
         alt: 'Ficha do intruso em modo Similar com três imagens do Tema A e um intruso temático do Tema B por fila de exercício',
         caption: 'Modo Similar — três imagens do Tema A e um elemento intruso do Tema B para discriminação entre temas',
       },
       {
-        src: '/samples/english/odd one out/Odd One Out (2).webp',
+        src: '/samples/portuguese/odd one out/Encontra o Diferente 3.webp',
         alt: 'Ficha do intruso em modo Idêntico com três clones da mesma imagem e uma imagem diferente do mesmo tema por fila',
         caption: 'Modo Idêntico — três clones da mesma imagem e uma imagem diferente para desafios de detetar o duplicado',
       },
       {
-        src: '/samples/english/odd one out/Odd One Out answer-key.webp',
+        src: '/samples/portuguese/odd one out/Encontra o Diferente 4.webp',
         alt: 'Gabarito do intruso com contornos de círculo vermelho desenhados à volta do elemento intruso em cada fila de exercício com espessura de traço escalada ao tamanho de imagem',
         caption: 'Gabarito autogerado — marcadores de círculo vermelho (traço = máx(tamanhoImagem × 0,04, 3px)) identificam o elemento intruso em cada fila',
       },

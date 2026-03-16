@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
+      primary: '/samples/portuguese/word guess/Adivinha a Palavra 1.webp',
       primaryAlt: 'Ficha de adivinhar palavras com pistas de imagem e grelhas de letras vazias mostrando puzzles de vocabulário estilo forca',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 2.webp',
         alt: 'Ficha de adivinhar palavras em dificuldade Fácil mostrando metade das letras reveladas',
         caption: 'Dificuldade Fácil — metade das letras pré-reveladas como pistas para leitores iniciantes',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 3.webp',
         alt: 'Ficha de adivinhar palavras em dificuldade Difícil com mínimas letras-pista e tema de animais',
         caption: 'Dificuldade Difícil — apenas um sexto das letras reveladas para alunos avançados em ortografia',
       },
       {
-        src: '/samples/english/word guess/clue-grid_answer-key.webp',
+        src: '/samples/portuguese/word guess/Adivinha a Palavra 4.webp',
         alt: 'Gabarito de adivinhar palavras com todas as letras preenchidas e nenhuma casilla vazia',
         caption: 'Gabarito — todas as letras reveladas para correção e autoverificação fáceis',
       },

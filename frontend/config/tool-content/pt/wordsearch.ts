@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
       primaryAlt: 'Ficha de caça-palavras com palavras ocultas incorporadas numa grelha de letras e pistas de imagens temáticas para prática de vocabulário',
     },
     sampleGallery: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp',
         alt: 'Ficha de caça-palavras em formato vertical com grelha 12×12 e pistas de imagens temáticas',
         caption: 'Formato vertical — grelha 12×12 com pistas de imagens temáticas e lista de palavras',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch landscape.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 3.webp',
         alt: 'Ficha de caça-palavras em formato horizontal com grelha maior e palavras em diagonal ativadas',
         caption: 'Formato horizontal — grelha mais ampla com palavras em diagonal e invertidas ativadas',
       },
       {
-        src: '/samples/english/wordsearch/custom word list.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 4.webp',
         alt: 'Ficha de caça-palavras usando o modo lista de palavras personalizada sem imagens para puzzles apenas de texto',
         caption: 'Modo Lista de Palavras Personalizada — caça-palavras apenas de texto sem pistas de imagem',
       },

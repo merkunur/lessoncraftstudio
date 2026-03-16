@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartelas de bingo temáticas com imagens mostrando grelha ilustrada colorida com cartão do apresentador para crianças' },
+    heroImage: { src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp', alt: 'Cartelas de bingo temáticas com imagens mostrando grelha ilustrada colorida com cartão do apresentador para crianças' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartela de bingo com imagens com tema de animais mostrando grelha de 4×4 para uso na sala de aula', caption: 'Uma cartela de bingo com imagens de 4×4 usando o tema de animais com modo apenas imagens' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartão do apresentador de bingo mostrando todas as imagens temáticas usadas no conjunto de cartelas', caption: 'Cartão de referência do apresentador mostrando todas as imagens usadas no conjunto de cartelas de bingo' },
+      { src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp', alt: 'Cartela de bingo com imagens com tema de animais mostrando grelha de 4×4 para uso na sala de aula', caption: 'Uma cartela de bingo com imagens de 4×4 usando o tema de animais com modo apenas imagens' },
+      { src: '/samples/portuguese/bingo/Bingo de Imagenes 3.webp', alt: 'Cartão do apresentador de bingo mostrando todas as imagens temáticas usadas no conjunto de cartelas', caption: 'Cartão de referência do apresentador mostrando todas as imagens usadas no conjunto de cartelas de bingo' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Como criar cartelas de bingo com imagens temáticas — Tutorial completo',

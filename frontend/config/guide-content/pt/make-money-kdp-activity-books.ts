@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Ficha de puzzle de sudoku a demonstrar conteúdo de livros de atividades KDP para geração de receitas' },
+    heroImage: { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Ficha de puzzle de sudoku a demonstrar conteúdo de livros de atividades KDP para geração de receitas' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle de sudoku formatado para páginas interiores de livros de atividades KDP', caption: 'Puzzles de sudoku — uma categoria de livros de atividades consistentemente rentável na Amazon KDP com compradores fiéis recorrentes' },
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Ficha de matemática formatada para páginas interiores de cadernos KDP', caption: 'Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle de caça-palavras para diversificação do catálogo de livros de puzzles KDP', caption: 'Livros de caça-palavras — a maior categoria de livros de puzzles na Amazon com forte potencial de receitas em séries de múltiplos volumes' },
+      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 2.webp', alt: 'Puzzle de sudoku formatado para páginas interiores de livros de atividades KDP', caption: 'Puzzles de sudoku — uma categoria de livros de atividades consistentemente rentável na Amazon KDP com compradores fiéis recorrentes' },
+      { src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp', alt: 'Ficha de matemática formatada para páginas interiores de cadernos KDP', caption: 'Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Puzzle de caça-palavras para diversificação do catálogo de livros de puzzles KDP', caption: 'Livros de caça-palavras — a maior categoria de livros de puzzles na Amazon com forte potencial de receitas em séries de múltiplos volumes' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Como criar livros de atividades de sudoku para Amazon KDP — Tutorial de construção de receitas',

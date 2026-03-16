@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/Word Search 1.webp',
+      primary: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
       primaryAlt: 'Ficha de caça-palavras com grelha de vocabulário temático e gabarito codificado por cores',
     },
     sampleGallery: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Ficha de comboio do alfabeto com vagões de associação letra-imagem', caption: 'Ficha Comboio do Alfabeto' },
-      { src: '/samples/english/prepositions/Prepositions 1.webp', alt: 'Ficha de preposições mostrando relações espaciais com imagens', caption: 'Ficha de Preposições' },
-      { src: '/samples/english/word guess/Word Guess 1.webp', alt: 'Ficha de adivinhar palavras com pistas de imagens e espaços para letras', caption: 'Ficha de Adivinhar Palavras' },
-      { src: '/samples/english/word scramble/Word Scramble 1.webp', alt: 'Ficha de palavras embaralhadas com peças de letras codificadas por cores', caption: 'Ficha de Palavras Embaralhadas' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Grelha de caça-palavras com palavras de vocabulário ocultas', caption: 'Ficha de Caça-Palavras' },
-      { src: '/samples/english/cryptogram/Image Cryptogram 1.webp', alt: 'Puzzle de criptograma com cifra de imagens', caption: 'Ficha de Criptograma' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Ficha de prática de caligrafia com traços de letras guiados', caption: 'Ficha de Caligrafia' },
+      { src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 1.webp', alt: 'Ficha de comboio do alfabeto com vagões de associação letra-imagem', caption: 'Ficha Comboio do Alfabeto' },
+      { src: '/samples/portuguese/prepositions/Preposições 1.webp', alt: 'Ficha de preposições mostrando relações espaciais com imagens', caption: 'Ficha de Preposições' },
+      { src: '/samples/portuguese/word guess/Adivinha a Palavra 1.webp', alt: 'Ficha de adivinhar palavras com pistas de imagens e espaços para letras', caption: 'Ficha de Adivinhar Palavras' },
+      { src: '/samples/portuguese/word scramble/Letras Embaralhadas 1.webp', alt: 'Ficha de palavras embaralhadas com peças de letras codificadas por cores', caption: 'Ficha de Palavras Embaralhadas' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Grelha de caça-palavras com palavras de vocabulário ocultas', caption: 'Ficha de Caça-Palavras' },
+      { src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 1.webp', alt: 'Puzzle de criptograma com cifra de imagens', caption: 'Ficha de Criptograma' },
+      { src: '/samples/portuguese/writing/writing beginning letter.webp', alt: 'Ficha de prática de caligrafia com traços de letras guiados', caption: 'Ficha de Caligrafia' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Pacote Leitura e Linguagem — Os 7 Geradores em Ação',

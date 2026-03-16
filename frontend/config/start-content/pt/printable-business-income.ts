@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Ficha de matemática que demonstra a qualidade profissional de resultado dos geradores de fichas' },
+    heroImage: { src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp', alt: 'Ficha de matemática que demonstra a qualidade profissional de resultado dos geradores de fichas' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Ficha de matemática com design profissional e qualidade de impressão de 300 PPP', caption: 'Ficha de Matemática — Construtor de Rendimentos Versátil' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de caça-palavras para vendas no Etsy e Amazon KDP', caption: 'Caça-Palavras — Categoria de Puzzles Mais Vendida' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorir para publicação de livros de atividades no KDP', caption: 'Colorir — Categoria de Grande Volume no KDP' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Ficha de Sudoku com apelo universal internacional', caption: 'Sudoku — Apelo Universal no Mercado' },
+      { src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp', alt: 'Ficha de matemática com design profissional e qualidade de impressão de 300 PPP', caption: 'Ficha de Matemática — Construtor de Rendimentos Versátil' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de caça-palavras para vendas no Etsy e Amazon KDP', caption: 'Caça-Palavras — Categoria de Puzzles Mais Vendida' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir para publicação de livros de atividades no KDP', caption: 'Colorir — Categoria de Grande Volume no KDP' },
+      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Ficha de Sudoku com apelo universal internacional', caption: 'Sudoku — Apelo Universal no Mercado' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Como Criar Fichas de Matemática para o Teu Negócio de Imprimíveis — Demo LessonCraftStudio',

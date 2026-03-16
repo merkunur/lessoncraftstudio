@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/subtraction/cross out.webp',
+      primary: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp',
       primaryAlt: 'Ficha de subtração mostrando a visualização de riscar com cruzes diagonais sobre as imagens subtraídas',
     },
     sampleGallery: [
       {
-        src: '/samples/english/subtraction/cross out.webp',
+        src: '/samples/portuguese/subtraction/Subtrações Divertidas 2.webp',
         alt: 'Ficha de subtração no modo Riscar com cruzes sobre as imagens subtraídas',
         caption: 'Modo Riscar — cruzes diagonais mostram que elementos são subtraídos',
       },
       {
-        src: '/samples/english/subtraction/image number.webp',
+        src: '/samples/portuguese/subtraction/Subtrações Divertidas 3.webp',
         alt: 'Ficha de subtração no modo Imagem menos Número com grupos de imagens e números',
         caption: 'Modo Imagem − Número — associa grupos de imagens a números para competências de transição',
       },
       {
-        src: '/samples/english/subtraction/find subtrahend.webp',
+        src: '/samples/portuguese/subtraction/Subtrações Divertidas 4.webp',
         alt: 'Ficha de subtração no modo Encontrar o Subtraendo desafiando os alunos a encontrar o valor em falta',
         caption: 'Modo Encontrar o Subtraendo — os alunos determinam quantos foram retirados',
       },

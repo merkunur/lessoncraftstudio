@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/coloring/coloring portrait 1.webp',
+      src: '/samples/portuguese/coloring/coloring landscape 1.webp',
       alt: 'Ficha profissional de página para colorir a demonstrar conteúdo de pins visualmente marcante para vendedores de imprimíveis no Pinterest',
     },
     samples: [
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring landscape 2.webp',
         alt: 'Ficha de página para colorir a mostrar o impacto visual para o design de pins no Pinterest',
         caption: 'As fichas visualmente marcantes criam imagens de pins naturalmente apelativos no Pinterest',
       },
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp',
         alt: 'Ficha de cartão de bingo a demonstrar designs de produtos coloridos e dignos de pin',
         caption: 'Os produtos coloridos e temáticos geram taxas de guardado e de cliques mais altas no Pinterest',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras a mostrar tipo de produto versátil para marketing no Pinterest',
         caption: 'Os tipos de produtos versáteis suportam múltiplas variantes de pin para maior cobertura de pesquisa',
       },

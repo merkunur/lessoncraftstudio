@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Recurso de fichas de adição adequado para vender no marketplace Teachers Pay Teachers' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Recurso de fichas de adição adequado para vender no marketplace Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de adição de matemática para recurso de sala de aula TPT', caption: 'As fichas de matemática estão entre os tipos de recursos mais pesquisados no TPT — os professores precisam de prática alinhada com padrões para cada competência' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Atividade de caça-palavras para anúncio de loja TPT', caption: 'Os caças-palavras funcionam em todos os níveis escolares no TPT como construtores de vocabulário, atividades de centros e trabalho para quem termina cedo' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Ficha de atividade de correspondência para educadores TPT', caption: 'As atividades de correspondência são recursos TPT versáteis que os professores usam para avaliação, prática e revisão em múltiplas disciplinas' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição de matemática para recurso de sala de aula TPT', caption: 'As fichas de matemática estão entre os tipos de recursos mais pesquisados no TPT — os professores precisam de prática alinhada com padrões para cada competência' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de caça-palavras para anúncio de loja TPT', caption: 'Os caças-palavras funcionam em todos os níveis escolares no TPT como construtores de vocabulário, atividades de centros e trabalho para quem termina cedo' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de atividade de correspondência para educadores TPT', caption: 'As atividades de correspondência são recursos TPT versáteis que os professores usam para avaliação, prática e revisão em múltiplas disciplinas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar fichas educativas para Teachers Pay Teachers — Tutorial passo a passo',

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/portuguese/addition/Adição Divertida 1.webp',
       alt: 'Ficha de adição profissional demonstrando conteúdo educativo perene para rendimento passivo',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/portuguese/addition/Adição Divertida 2.webp',
         alt: 'Ficha de adição mostrando formato de qualidade profissional para vendas em marketplaces',
         caption: 'As fichas de matemática geram rendimento consistente durante todo o ano como produtos educativos perenes',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras disponível em múltiplos idiomas para alcance de mercado alargado',
         caption: 'As sopas de letras multilingues multiplicam o rendimento ao alcançar mercados internacionais pouco explorados',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/portuguese/matching/Encontre os Pares 1.webp',
         alt: 'Ficha de associação temática demonstrando profundidade de catálogo através da versatilidade temática',
         caption: 'As atividades de associação temáticas constroem profundidade de catálogo que impulsiona a descobribilidade composta',
       },

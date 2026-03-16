@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Exemplo de ficha de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio' },
+    heroImage: { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Exemplo de ficha de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio' },
     samples: [
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Ficha de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis', caption: 'Quebra-Cabeças Matemáticos — Dificuldade Configurável' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de caça-palavras com lista de palavras temáticas', caption: 'Caça-Palavras — Puzzle Temático' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Ficha para colorir com ilustrações temáticas', caption: 'Colorir — Apelo Visual' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de associação com formato internacional puramente visual', caption: 'Associação — Funciona em Qualquer Idioma' },
+      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp', alt: 'Ficha de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis', caption: 'Quebra-Cabeças Matemáticos — Dificuldade Configurável' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de caça-palavras com lista de palavras temáticas', caption: 'Caça-Palavras — Puzzle Temático' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Ficha para colorir com ilustrações temáticas', caption: 'Colorir — Apelo Visual' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de associação com formato internacional puramente visual', caption: 'Associação — Funciona em Qualquer Idioma' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Como Criar Fichas de Quebra-Cabeças Matemáticos — Demo LessonCraftStudio',

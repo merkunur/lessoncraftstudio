@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição com imagens temáticas mostrando exercícios de contagem visual para crianças' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha de adição com imagens temáticas mostrando exercícios de contagem visual para crianças' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição baseada em imagens com tema de animais para jardim de infância', caption: 'Ficha de adição de jardim de infância usando o tema de animais da quinta com modo de exercício Imagem + Imagem' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição com chave de resposta mostrando as soluções corretas', caption: 'Chave de resposta automática gerada juntamente com cada ficha de adição' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição baseada em imagens com tema de animais para jardim de infância', caption: 'Ficha de adição de jardim de infância usando o tema de animais da quinta com modo de exercício Imagem + Imagem' },
+      { src: '/samples/portuguese/addition/Adição Divertida 3.webp', alt: 'Ficha de adição com chave de resposta mostrando as soluções corretas', caption: 'Chave de resposta automática gerada juntamente com cada ficha de adição' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar fichas de adição — Tutorial completo',

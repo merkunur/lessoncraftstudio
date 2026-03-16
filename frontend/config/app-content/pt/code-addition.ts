@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code addition/Code Breaker Addition 1.webp',
+      primary: '/samples/portuguese/code addition/Código Secreto Adição 1.webp',
       primaryAlt: 'Ficha de adição codificada com imagens de animais que escondem números secretos num puzzle de decifrar código',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code addition/Code Breaker Addition 1.webp',
+        src: '/samples/portuguese/code addition/Código Secreto Adição 2.webp',
         alt: 'Ficha de adição codificada no Modo Clássico com imagens temáticas de animais como símbolos-código',
         caption: 'Modo Clássico — os alunos decifram o código deduzindo qual número cada imagem representa',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 2.webp',
+        src: '/samples/portuguese/code addition/Código Secreto Adição 3.webp',
         alt: 'Ficha de adição codificada com tema visual diferente mostrando equações criptaritméticas baseadas em imagens',
         caption: 'Desafio multi-símbolo — mais imagens aumentam a complexidade da dedução',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 3.webp',
+        src: '/samples/portuguese/code addition/Código Secreto Adição 4.webp',
         alt: 'Puzzle de adição codificada com imagens temáticas coloridas e equações',
         caption: 'Puzzles temáticos — 104 temas visuais tornam cada ficha única e envolvente',
       },

@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/coloring portrait 1.webp',
+      primary: '/samples/portuguese/coloring/coloring landscape 1.webp',
       primaryAlt: 'Página para colorir com contorno de imagem a preto e branco pronta para colorir',
     },
     sampleGallery: [
-      { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Ficha de comparação de tamanhos com imagens temáticas para rodear o maior e o menor', caption: 'Ficha Grande e Pequeno' },
-      { src: '/samples/english/pattern train/pattern_train_worksheet.webp', alt: 'Ficha de sequência de padrões em vagões de comboio com elemento em falta', caption: 'Ficha Comboio de Padrões' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconhecimento de padrões com sequências para completar espaços em branco', caption: 'Ficha de Padrões' },
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de desenho com imagem de referência e grelha para reproduzir a imagem', caption: 'Ficha Desenho em Quadrícula' },
-      { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Ficha de traçado de linhas com objetos emparelhados e caminhos de linhas curvas', caption: 'Ficha de Grafomotricidade' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorir com contorno a preto e branco convertido de imagem temática', caption: 'Página para Colorir' },
-      { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de contagem com gráfico de barras com pontos de dados de imagens temáticas', caption: 'Ficha Gráficos de Contagem' },
+      { src: '/samples/portuguese/big small/Grande ou Pequeno 1.webp', alt: 'Ficha de comparação de tamanhos com imagens temáticas para rodear o maior e o menor', caption: 'Ficha Grande e Pequeno' },
+      { src: '/samples/portuguese/pattern train/Comboio de Padrões 1.webp', alt: 'Ficha de sequência de padrões em vagões de comboio com elemento em falta', caption: 'Ficha Comboio de Padrões' },
+      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp', alt: 'Ficha de reconhecimento de padrões com sequências para completar espaços em branco', caption: 'Ficha de Padrões' },
+      { src: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp', alt: 'Ficha de desenho com imagem de referência e grelha para reproduzir a imagem', caption: 'Ficha Desenho em Quadrícula' },
+      { src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 1.webp', alt: 'Ficha de traçado de linhas com objetos emparelhados e caminhos de linhas curvas', caption: 'Ficha de Grafomotricidade' },
+      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir com contorno a preto e branco convertido de imagem temática', caption: 'Página para Colorir' },
+      { src: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp', alt: 'Ficha de contagem com gráfico de barras com pontos de dados de imagens temáticas', caption: 'Ficha Gráficos de Contagem' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Pacote Aprendizagem Visual — Os 7 Geradores em Ação',

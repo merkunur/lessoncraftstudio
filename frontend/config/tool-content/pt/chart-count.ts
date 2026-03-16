@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/chart count/chart count.webp',
+      primary: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp',
       primaryAlt: 'Ficha de gráfico pictórico com grelha 4×5 de imagens dispersas mostrando 20 ícones de 6 tipos e gráfico de barras vazio para os alunos contarem e representarem dados',
     },
     sampleGallery: [
       {
-        src: '/samples/english/chart count/Picture Graph 1.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 2.webp',
         alt: 'Ficha de gráfico pictórico com tema de animais com 20 ícones de animais dispersos na grelha 4×5 e gráfico de barras de 6 colunas abaixo para prática de contagem',
         caption: 'Gráfico pictórico com tema de animais — 6 tipos de animais dispersos na grelha com gráfico de barras abaixo para prática de representação de dados',
       },
       {
-        src: '/samples/english/chart count/Picture Graph 5.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 3.webp',
         alt: 'Gabarito do gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas para cada um dos 6 tipos de imagens no gráfico de barras',
         caption: 'Gabarito autogerado — células amarelas (#FFC857) mostram a contagem correta para cada tipo de imagem',
       },
       {
-        src: '/samples/english/chart count/chart count answer_key.webp',
+        src: '/samples/portuguese/chart count/Gráfico de Figuras 4.webp',
         alt: 'Ficha de gráfico pictórico com fundos e bordas decorativas temáticas aplicadas usando controlos de opacidade independentes para apresentação polida nos mercados',
         caption: 'Gráfico pictórico decorado — fundos e bordas temáticas com controlos de opacidade independentes para estilo de produto profissional',
       },

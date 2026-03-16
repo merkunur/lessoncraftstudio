@@ -177,11 +177,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Ficha de preposições mostrando cenas de imagens com exercícios de relações espaciais para prática de palavras de posição' },
+    heroImage: { src: '/samples/portuguese/prepositions/Preposições 1.webp', alt: 'Ficha de preposições mostrando cenas de imagens com exercícios de relações espaciais para prática de palavras de posição' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Ficha de preposições com exercícios de preencher espaços usando cenas de imagens coloridas mostrando relações espaciais', caption: 'Exercícios de preposições para preencher espaços com cenas de imagens' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Ficha de preposições com exercícios de escolha múltipla de relações espaciais para prática guiada', caption: 'Modo de escolha múltipla para prática guiada adequada a principiantes' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Ficha avançada de preposições com substituição de formas criando combinações de cenas únicas', caption: 'A substituição de formas multiplica as combinações visuais para variedade de produtos' },
+      { src: '/samples/portuguese/prepositions/Preposições 2.webp', alt: 'Ficha de preposições com exercícios de preencher espaços usando cenas de imagens coloridas mostrando relações espaciais', caption: 'Exercícios de preposições para preencher espaços com cenas de imagens' },
+      { src: '/samples/portuguese/prepositions/Preposições 3.webp', alt: 'Ficha de preposições com exercícios de escolha múltipla de relações espaciais para prática guiada', caption: 'Modo de escolha múltipla para prática guiada adequada a principiantes' },
+      { src: '/samples/portuguese/prepositions/Preposições 4.webp', alt: 'Ficha avançada de preposições com substituição de formas criando combinações de cenas únicas', caption: 'A substituição de formas multiplica as combinações visuais para variedade de produtos' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Como criar fichas de preposições — Tutorial completo',

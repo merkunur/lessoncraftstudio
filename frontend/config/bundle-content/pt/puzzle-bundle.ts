@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/Missing Pieces.webp',
+      primary: '/samples/portuguese/missing pieces/Peças em Falta 1.webp',
       primaryAlt: 'Ficha de puzzle de peças faltantes com segmentos de grelha removidos para desafio de raciocínio espacial',
     },
     sampleGallery: [
-      { src: '/samples/english/missing pieces/Missing Pieces.webp', alt: 'Puzzle de peças faltantes com segmentos de grelha de imagem removidos', caption: 'Puzzle de Peças Faltantes' },
-      { src: '/samples/english/odd one out/Find the Odd One Out.webp', alt: 'Ficha de encontre o diferente com filas de imagens semelhantes e uma diferente', caption: 'Ficha Encontre o Diferente' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle de sudoku 4×4 com imagens temáticas em vez de números', caption: 'Puzzle de Sudoku de Imagens' },
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Labirinto de percurso de imagens com rota temática através de grelha', caption: 'Labirinto de Percurso de Imagens' },
+      { src: '/samples/portuguese/missing pieces/Peças em Falta 2.webp', alt: 'Puzzle de peças faltantes com segmentos de grelha de imagem removidos', caption: 'Puzzle de Peças Faltantes' },
+      { src: '/samples/portuguese/odd one out/Encontra o Diferente 1.webp', alt: 'Ficha de encontre o diferente com filas de imagens semelhantes e uma diferente', caption: 'Ficha Encontre o Diferente' },
+      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Puzzle de sudoku 4×4 com imagens temáticas em vez de números', caption: 'Puzzle de Sudoku de Imagens' },
+      { src: '/samples/portuguese/picture path/Caminho de Imagen 1.webp', alt: 'Labirinto de percurso de imagens com rota temática através de grelha', caption: 'Labirinto de Percurso de Imagens' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Pacote Puzzles e Lógica — Os 4 Geradores em Ação',

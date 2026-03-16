@@ -159,11 +159,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/Matching 1.webp', alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos' },
+    heroImage: { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos' },
     samples: [
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos', caption: 'Exemplo de ficha de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Caça-palavras para validar nichos de imprimíveis educativos', caption: 'Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorir para explorar nichos de mercado de imprimíveis', caption: 'Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Ficha de associação para pesquisar nichos de produtos imprimíveis educativos', caption: 'Exemplo de ficha de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras para validar nichos de imprimíveis educativos', caption: 'Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir para explorar nichos de mercado de imprimíveis', caption: 'Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como pesquisar nichos rentáveis de imprimíveis — processo passo a passo',

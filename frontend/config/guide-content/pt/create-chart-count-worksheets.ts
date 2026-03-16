@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de gráfico de imagens com grelha 4×5 de imagens dispersas mostrando 20 ícones de 6 tipos e gráfico de barras para os alunos contarem e representarem dados' },
+    heroImage: { src: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp', alt: 'Ficha de gráfico de imagens com grelha 4×5 de imagens dispersas mostrando 20 ícones de 6 tipos e gráfico de barras para os alunos contarem e representarem dados' },
     samples: [
-      { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de gráfico de imagens com grelha 4×5 de imagens dispersas e gráfico de barras de 6 colunas para prática de contagem', caption: 'Gráfico de imagens — 6 tipos de imagem dispersos na grelha com gráfico de barras abaixo para prática de representação de dados' },
-      { src: '/samples/english/chart count/chart count answer_key.webp', alt: 'Chave de resposta de gráfico de imagens com células destacadas a amarelo mostrando as contagens corretas para cada um dos 6 tipos de imagem', caption: 'Chave de resposta autogerada — células amarelas (#FFC857) mostram a contagem correta para cada tipo de imagem' },
+      { src: '/samples/portuguese/chart count/Gráfico de Figuras 2.webp', alt: 'Ficha de gráfico de imagens com grelha 4×5 de imagens dispersas e gráfico de barras de 6 colunas para prática de contagem', caption: 'Gráfico de imagens — 6 tipos de imagem dispersos na grelha com gráfico de barras abaixo para prática de representação de dados' },
+      { src: '/samples/portuguese/chart count/Gráfico de Figuras 3.webp', alt: 'Chave de resposta de gráfico de imagens com células destacadas a amarelo mostrando as contagens corretas para cada um dos 6 tipos de imagem', caption: 'Chave de resposta autogerada — células amarelas (#FFC857) mostram a contagem correta para cada tipo de imagem' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Como criar fichas de gráficos de imagens com chaves de resposta automáticas e grelhas de imagens dispersas — Tutorial passo a passo',

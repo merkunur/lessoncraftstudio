@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Ficha de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos' },
+    heroImage: { src: '/samples/portuguese/find objects/Encontra o Diferente (1).webp', alt: 'Ficha de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos' },
     samples: [
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Ficha de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual', caption: 'Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual' },
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Chave de respostas de ficha de objetos ocultos destacando as localizações dos elementos escondidos', caption: 'Chave de respostas automática gerada para cada ficha de cena de objetos ocultos' },
+      { src: '/samples/portuguese/find objects/Encontra o Diferente (2).webp', alt: 'Ficha de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual', caption: 'Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual' },
+      { src: '/samples/portuguese/find objects/Encontra o Diferente (3).webp', alt: 'Chave de respostas de ficha de objetos ocultos destacando as localizações dos elementos escondidos', caption: 'Chave de respostas automática gerada para cada ficha de cena de objetos ocultos' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Como criar fichas de cenas de objetos ocultos — Tutorial completo',

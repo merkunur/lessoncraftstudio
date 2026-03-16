@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture sort/Picture Sort.webp',
+      primary: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp',
       primaryAlt: 'Ficha de classificação de imagens a duas categorias com molduras de categoria com borda tracejada em cima e grelha de recortes misturada em baixo com cabeçalho verde-menta localizado',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture sort/Picture Sort (1).webp',
+        src: '/samples/portuguese/picture sort/Classificação de Imagens 2.webp',
         alt: 'Ficha de classificação em modo de tema com categorias esquerda e direita preenchidas automaticamente a partir da biblioteca de imagens com grelha de recortes misturada',
         caption: 'Modo de tema — categorias preenchidas automaticamente a partir da biblioteca de imagens com grelha de recortes aleatorizada',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort (5).webp',
+        src: '/samples/portuguese/picture sort/Classificação de Imagens 3.webp',
         alt: 'Ficha de classificação em modo manual com imagens selecionadas individualmente e atribuídas às categorias esquerda e direita para classificação alinhada com o currículo',
         caption: 'Modo manual — selecione imagens individualmente e atribua cada uma à categoria esquerda ou direita',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort answer_key.webp',
+        src: '/samples/portuguese/picture sort/Classificação de Imagens 4.webp',
         alt: 'Gabarito de classificação de imagens com imagens 6× maiores organizadas nas caixas de categorias corretas com bordas tracejadas e preenchimento FAFAFA',
         caption: 'Gabarito autogerado — imagens 6× maiores em caixas de categorias com máximo de 2 colunas por caixa',
       },

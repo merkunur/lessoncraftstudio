@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find and count/find and count portrait.webp',
+      primary: '/samples/portuguese/find and count/Vejo, Vejo 1.webp',
       primaryAlt: 'Ficha eu vejo encontra e conta com imagens dispersas numa grelha configurável, moldura de cabeçalho azul e instruções de quatro tipos de tarefa para circular, quadrado, riscar e contar',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find and count/find and count portrait.webp',
+        src: '/samples/portuguese/find and count/Vejo, Vejo 2.webp',
         alt: 'Ficha eu vejo encontra e conta em modo retrato com grelha de imagens dispersas e imagens temáticas entre objetos distratores',
         caption: 'Modo Objeto Escondido — eu vejo clássico com tipos de tarefa circular, quadrado, riscar e contar numa grelha de imagens dispersas',
       },
       {
-        src: '/samples/english/find and count/find and count landscape.webp',
+        src: '/samples/portuguese/find and count/Vejo, Vejo 3.webp',
         alt: 'Gabarito encontra e conta com anotações vermelhas de círculo, quadrado e cruz sobre objetos-alvo corretos e contagens de quantidade',
         caption: 'Gabarito autogerado — anotações vermelhas marcam círculos, quadrados, cruzes e totais de contagem para cada objeto-alvo',
       },

@@ -217,16 +217,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition 1.webp',
+      primary: '/samples/portuguese/addition/Adição Divertida 1.webp',
       primaryAlt: 'Ficha de adição com imagens temáticas mostrando problemas de contagem visual',
     },
     sampleGallery: [
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Ficha de adição com imagens temáticas de animais', caption: 'Ficha de Adição' },
-      { src: '/samples/english/subtraction/Subtraction 1.webp', alt: 'Ficha de subtração com contagem por riscado', caption: 'Ficha de Subtração' },
-      { src: '/samples/english/code addition/Code Addition 1.webp', alt: 'Puzzle de adição codificada com descodificação de letras', caption: 'Puzzle de Adição Codificada' },
-      { src: '/samples/english/more less/More Less 1.webp', alt: 'Ficha de comparação maior que menor que', caption: 'Ficha Maior ou Menor' },
-      { src: '/samples/english/math puzzle/Math Puzzle 1.webp', alt: 'Puzzle de grelha matemática com equações', caption: 'Ficha de Puzzle Matemático' },
-      { src: '/samples/english/math worksheet/Math Worksheet 3.webp', alt: 'Puzzle de álgebra visual com variáveis de imagem', caption: 'Puzzle Algébrico Ilustrado' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição com imagens temáticas de animais', caption: 'Ficha de Adição' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Ficha de subtração com contagem por riscado', caption: 'Ficha de Subtração' },
+      { src: '/samples/portuguese/code addition/Código Secreto Adição 1.webp', alt: 'Puzzle de adição codificada com descodificação de letras', caption: 'Puzzle de Adição Codificada' },
+      { src: '/samples/portuguese/more less/Mais Menos 1.webp', alt: 'Ficha de comparação maior que menor que', caption: 'Ficha Maior ou Menor' },
+      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Puzzle de grelha matemática com equações', caption: 'Ficha de Puzzle Matemático' },
+      { src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp', alt: 'Puzzle de álgebra visual com variáveis de imagem', caption: 'Puzzle Algébrico Ilustrado' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Pacote Domínio de Matemática — Os 6 Geradores em Ação',

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find objects/spotworks_worksheet.webp',
+      primary: '/samples/portuguese/find objects/Encontra o Diferente (1).webp',
       primaryAlt: 'Ficha de objetos ocultos Eu Vejo com imagens dispersas usando algoritmo sem sobreposição, legenda inferior mostrando objetos a encontrar e cabeçalho decorativo na fonte Fredoka',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find objects/spotworks_worksheet (1).webp',
+        src: '/samples/portuguese/find objects/Encontra o Diferente (2).webp',
         alt: 'Cena de objetos ocultos Eu Vejo com imagens dispersas e legenda mostrando objetos-alvo na parte inferior da ficha',
         caption: 'Modo Eu Vejo — cena de objetos ocultos em forma livre com posicionamento sem sobreposição e legenda inferior',
       },
       {
-        src: '/samples/english/find objects/spotworks_worksheet (5).webp',
+        src: '/samples/portuguese/find objects/Encontra o Diferente (3).webp',
         alt: 'Ficha Encontra o Diferente com imagens emparelhadas em linhas e elementos sem par a identificar apresentados 50 por cento maiores',
         caption: 'Modo Encontra o Diferente — imagens emparelhadas com elementos sem par para atividades de discriminação visual',
       },
       {
-        src: '/samples/english/find objects/spotworks_answer_key.webp',
+        src: '/samples/portuguese/find objects/Encontra o Diferente (4).webp',
         alt: 'Gabarito de ficha de objetos ocultos com círculos vermelhos desenhados à volta dos objetos-alvo de 3 a 5 píxeis maiores que cada objeto',
         caption: 'Gabarito autogerado — anotações de círculos vermelhos marcam objetos ocultos e sem par para autocorreção',
       },

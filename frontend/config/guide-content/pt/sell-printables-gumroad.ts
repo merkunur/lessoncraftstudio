@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorir imprimível pronta para venda na loja do Gumroad' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir imprimível pronta para venda na loja do Gumroad' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Página para colorir imprimível para vendas de produtos digitais no Gumroad', caption: 'As páginas para colorir criam imagens de produto visualmente convincentes que geram tráfego nas redes sociais para a sua loja no Gumroad' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de sopa de letras imprimível para catálogo de loja no Gumroad', caption: 'As sopas de letras têm apelo alargado a audiências de pais e professores — um tipo versátil de produto no Gumroad' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de atividade de correspondência para negócio de imprimíveis no Gumroad', caption: 'As atividades de correspondência são imprimíveis educativos de alta procura que funcionam bem como produtos individuais e em pacotes' },
+      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir imprimível para vendas de produtos digitais no Gumroad', caption: 'As páginas para colorir criam imagens de produto visualmente convincentes que geram tráfego nas redes sociais para a sua loja no Gumroad' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de sopa de letras imprimível para catálogo de loja no Gumroad', caption: 'As sopas de letras têm apelo alargado a audiências de pais e professores — um tipo versátil de produto no Gumroad' },
+      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Ficha de atividade de correspondência para negócio de imprimíveis no Gumroad', caption: 'As atividades de correspondência são imprimíveis educativos de alta procura que funcionam bem como produtos individuais e em pacotes' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como criar páginas para colorir para a sua loja de imprimíveis no Gumroad',

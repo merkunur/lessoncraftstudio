@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/big small/big-small-worksheet_worksheet.webp',
+      primary: '/samples/portuguese/big small/Grande ou Pequeno 1.webp',
       primaryAlt: 'Ficha de comparação de tamanhos grande e pequeno com imagens temáticas em diferentes tamanhos mostrando um exercício de circundar o maior',
     },
     sampleGallery: [
       {
-        src: '/samples/english/big small/big-small-different images.webp',
+        src: '/samples/portuguese/big small/Grande ou Pequeno 2.webp',
         alt: 'Ficha de comparação de tamanhos em modo circundar o maior com imagens temáticas de animais em diferentes tamanhos',
         caption: 'Modo Circundar o Maior — os alunos identificam a imagem mais grande em cada exercício',
       },
       {
-        src: '/samples/english/big small/big-small number 1-2-3.webp',
+        src: '/samples/portuguese/big small/Grande ou Pequeno 3.webp',
         alt: 'Ficha de ordenar por tamanho com três imagens numeradas da mais pequena à mais grande',
         caption: 'Numerar 1–2–3 do Menor ao Maior — os alunos ordenam as imagens por tamanho ascendente',
       },
       {
-        src: '/samples/english/big small/big-small identical images.webp',
+        src: '/samples/portuguese/big small/Grande ou Pequeno 4.webp',
         alt: 'Ficha de comparação de tamanhos usando o modo imagens idênticas com a mesma imagem em três tamanhos diferentes',
         caption: 'Modo Imagens Idênticas — mesma imagem em diferentes tamanhos para exercícios de perceção pura do tamanho',
       },

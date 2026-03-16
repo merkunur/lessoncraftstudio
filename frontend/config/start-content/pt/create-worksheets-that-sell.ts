@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha profissional de adição criada com o gerador LessonCraftStudio' },
+    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Ficha profissional de adição criada com o gerador LessonCraftStudio' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de adição com problemas de matemática baseados em imagens temáticas', caption: 'Adição — Problemas Baseados em Imagens' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de subtração com problemas numéricos visuais', caption: 'Subtração — Prática de Matemática Visual' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de sopa de letras com lista de palavras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Ficha para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
+      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Ficha de adição com problemas de matemática baseados em imagens temáticas', caption: 'Adição — Problemas Baseados em Imagens' },
+      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Ficha de subtração com problemas numéricos visuais', caption: 'Subtração — Prática de Matemática Visual' },
+      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Ficha de sopa de letras com lista de palavras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
+      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Ficha para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como Criar Fichas de Adição — Demo do LessonCraftStudio',

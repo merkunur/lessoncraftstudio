@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Ficha de desenho em grelha com sistema de grelha dupla mostrando grelha de prática vazia e grelha de pistas parcialmente revelada com tema de contorno P/B' },
+    heroImage: { src: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp', alt: 'Ficha de desenho em grelha com sistema de grelha dupla mostrando grelha de prática vazia e grelha de pistas parcialmente revelada com tema de contorno P/B' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Ficha de desenho em grelha mostrando sistema de grelha dupla com grelha de prática e grelha de pistas para reprodução célula por célula', caption: 'Formato de grelha dupla: grelha de prática vazia em cima e grelha de pistas com referência parcial em baixo para exercícios de desenho estruturados' },
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp', alt: 'Ficha de desenho em grelha com tema de animais em contorno P/B a percentagem de pistas moderada', caption: 'Tema de contorno P/B de animais a 25% de pistas — os alunos reproduzem o contorno a partir de pistas dispersas na grelha e depois colorem o seu desenho' },
+      { src: '/samples/portuguese/draw and color/Desenha e Pinta 2.webp', alt: 'Ficha de desenho em grelha mostrando sistema de grelha dupla com grelha de prática e grelha de pistas para reprodução célula por célula', caption: 'Formato de grelha dupla: grelha de prática vazia em cima e grelha de pistas com referência parcial em baixo para exercícios de desenho estruturados' },
+      { src: '/samples/portuguese/draw and color/Desenha e Pinta 3.webp', alt: 'Ficha de desenho em grelha com tema de animais em contorno P/B a percentagem de pistas moderada', caption: 'Tema de contorno P/B de animais a 25% de pistas — os alunos reproduzem o contorno a partir de pistas dispersas na grelha e depois colorem o seu desenho' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Como criar fichas de desenho e simetria — Tutorial completo',

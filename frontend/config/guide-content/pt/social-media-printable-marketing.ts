@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp',
       alt: 'Cartão de bingo profissional a demonstrar produtos imprimíveis visualmente apelativos ideais para marketing nas redes sociais',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp',
         alt: 'Cartão de bingo a mostrar produto imprimível altamente partilhável para conteúdo de redes sociais',
         caption: 'Os produtos visualmente apelativos como os cartões de bingo criam conteúdo convincente de redes sociais que gera envolvimento',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
         alt: 'Página para colorir a demonstrar produto imprimível fotogénico para Instagram e Pinterest',
         caption: 'As páginas para colorir fotografam belamente para apresentações planas de produtos nas plataformas visuais',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
         alt: 'Sopa de letras a mostrar tipo de produto imprimível popular com forte apelo nas redes sociais',
         caption: 'As sopas de letras atraem envolvimento amplo de audiência e têm bom desempenho em todas as plataformas de redes sociais',
       },

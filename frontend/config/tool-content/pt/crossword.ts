@@ -221,17 +221,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_worksheet.webp',
+      primary: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp',
       primaryAlt: 'Palavras cruzadas com imagens com pistas visuais numa grelha de 15 por 15 com posições de pista numeradas e cabeçalho localizado azul',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_worksheet (1).webp',
+        src: '/samples/portuguese/crossword/Palavras Cruzadas 2.webp',
         alt: 'Palavras cruzadas com lista de palavras personalizada com pistas de texto e grelha de palavras cruzadas mostrando o formato de entrada PALAVRA pista',
         caption: 'Modo Lista de Palavras Personalizadas — palavras cruzadas tradicionais com pistas de texto e o seu próprio vocabulário',
       },
       {
-        src: '/samples/english/crossword/crossword_worksheet (5).webp',
+        src: '/samples/portuguese/crossword/Palavras Cruzadas 3.webp',
         alt: 'Gabarito das palavras cruzadas com todas as letras corretas preenchidas nas células da grelha 15 por 15',
         caption: 'Gabarito autogerado — a grelha preenchida mostra todas as respostas corretas para autocorreção',
       },

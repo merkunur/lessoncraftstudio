@@ -3407,6 +3407,44 @@ const ptToolText: Record<string, EsTextTuple> = {
 
 // ─── Generic tool localization function ───
 
+// Locale-aware alt text templates for tool showcases
+const toolAltTemplates: Record<string, {
+  sample: (name: string, n: number) => string;
+  tier: (name: string, tierName: string) => string;
+  spotlight: (name: string) => string;
+  gallery: (label: string) => string;
+  answerKey: (label: string) => string;
+}> = {
+  de: {
+    sample: (name, n) => `${name} — Arbeitsblatt Beispiel ${n}`,
+    tier: (name, tierName) => `${name} — ${tierName} Arbeitsblatt`,
+    spotlight: (name) => `${name} — Hervorgehobenes Arbeitsblatt`,
+    gallery: (label) => `${label} — Professionelles Arbeitsblatt`,
+    answerKey: (label) => `${label} — Lösungsschlüssel`,
+  },
+  fr: {
+    sample: (name, n) => `${name} — Fiche exemple ${n}`,
+    tier: (name, tierName) => `${name} — Fiche ${tierName}`,
+    spotlight: (name) => `${name} — Fiche en vedette`,
+    gallery: (label) => `${label} — Fiche professionnelle`,
+    answerKey: (label) => `${label} — Corrigé`,
+  },
+  es: {
+    sample: (name, n) => `${name} — Hoja de trabajo ejemplo ${n}`,
+    tier: (name, tierName) => `${name} — Hoja de trabajo ${tierName}`,
+    spotlight: (name) => `${name} — Hoja de trabajo destacada`,
+    gallery: (label) => `${label} — Hoja de trabajo profesional`,
+    answerKey: (label) => `${label} — Clave de respuestas`,
+  },
+  pt: {
+    sample: (name, n) => `${name} — Folha de trabalho exemplo ${n}`,
+    tier: (name, tierName) => `${name} — Folha de trabalho ${tierName}`,
+    spotlight: (name) => `${name} — Folha de trabalho em destaque`,
+    gallery: (label) => `${label} — Folha de trabalho profissional`,
+    answerKey: (label) => `${label} — Chave de respostas`,
+  },
+};
+
 function localizeToolShowcase(
   config: ToolShowcaseConfig,
   toolId: string,
@@ -3421,6 +3459,7 @@ function localizeToolShowcase(
 
   const [heroH, heroSub, tieredH, tieredSub, t1Desc, t2Desc, t3Desc, trophy, spotH, spotTag, galH, galSub] = dt;
   const di = (filename: string) => imgUrl(gi.folder, filename, locale);
+  const alt = toolAltTemplates[locale];
 
   return {
     hero: {
@@ -3429,9 +3468,9 @@ function localizeToolShowcase(
       heading: heroH,
       subheading: heroSub,
       images: [
-        { src: di(gi.imgs[0]), alt: config.hero.images[0]?.alt || '' },
-        { src: di(gi.imgs[1]), alt: config.hero.images[1]?.alt || '' },
-        { src: di(gi.imgs[2]), alt: config.hero.images[2]?.alt || '' },
+        { src: di(gi.imgs[0]), alt: alt ? alt.sample(heroH, 1) : config.hero.images[0]?.alt || '' },
+        { src: di(gi.imgs[1]), alt: alt ? alt.sample(heroH, 2) : config.hero.images[1]?.alt || '' },
+        { src: di(gi.imgs[2]), alt: alt ? alt.sample(heroH, 3) : config.hero.images[2]?.alt || '' },
       ],
       pills: tPills(config.hero.pills, locale),
     },
@@ -3440,19 +3479,22 @@ function localizeToolShowcase(
       badge: t(config.tiered.badge, locale),
       heading: tieredH,
       subheading: tieredSub,
-      tiers: config.tiered.tiers.map((tier, i) => ({
-        ...tier,
-        name: t(tier.name, locale),
-        image: { src: di(gi.imgs[i]), alt: tier.image.alt },
-        desc: [t1Desc, t2Desc, t3Desc][i] || tier.desc,
-      })) as [typeof config.tiered.tiers[0], typeof config.tiered.tiers[1], typeof config.tiered.tiers[2]],
+      tiers: config.tiered.tiers.map((tier, i) => {
+        const tierName = t(tier.name, locale);
+        return {
+          ...tier,
+          name: tierName,
+          image: { src: di(gi.imgs[i]), alt: alt ? alt.tier(heroH, tierName) : tier.image.alt },
+          desc: [t1Desc, t2Desc, t3Desc][i] || tier.desc,
+        };
+      }) as [typeof config.tiered.tiers[0], typeof config.tiered.tiers[1], typeof config.tiered.tiers[2]],
       trophyText: trophy,
     },
     spotlight: {
       ...config.spotlight,
       heading: spotH,
       tagline: spotTag,
-      image: { src: di(gi.imgs[3]), alt: config.spotlight.image.alt },
+      image: { src: di(gi.imgs[3]), alt: alt ? alt.spotlight(heroH) : config.spotlight.image.alt },
       pills: tStringPills(config.spotlight.pills, locale),
     },
     gallery: {
@@ -3460,9 +3502,9 @@ function localizeToolShowcase(
       heading: galH,
       subheading: galSub,
       items: [
-        { image: { src: di(gi.imgs[4]), alt: config.gallery.items[0]?.image.alt || '' }, label: t(config.gallery.items[0]?.label || '', locale) },
-        { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: config.gallery.items[1]?.image.alt || '' }, label: t(config.gallery.items[1]?.label || '', locale) },
-        { image: { src: di(gi.answerKey), alt: config.gallery.items[2]?.image.alt || '' }, label: t('Answer Key', locale) },
+        { image: { src: di(gi.imgs[4]), alt: alt ? alt.gallery(t(config.gallery.items[0]?.label || '', locale)) : config.gallery.items[0]?.image.alt || '' }, label: t(config.gallery.items[0]?.label || '', locale) },
+        { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: alt ? alt.gallery(t(config.gallery.items[1]?.label || '', locale)) : config.gallery.items[1]?.image.alt || '' }, label: t(config.gallery.items[1]?.label || '', locale) },
+        { image: { src: di(gi.answerKey), alt: alt ? alt.answerKey(t('Answer Key', locale)) : config.gallery.items[2]?.image.alt || '' }, label: t('Answer Key', locale) },
       ],
       pills: tStringPills(config.gallery.pills, locale),
     },

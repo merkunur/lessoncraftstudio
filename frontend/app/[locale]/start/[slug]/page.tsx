@@ -84,10 +84,15 @@ export default async function CornerstonePage({
 
   const content = await getStartContent(config.startId, locale);
 
-  // Look up visual showcase config (EN + DE + FR)
+  // Look up visual showcase config (EN + DE + FR + ES + PT)
   const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
     ? getPageShowcaseConfig('start', config.startId, locale)
     : null;
+
+  // Override English hero heading with localized content title
+  if (showcaseConfig && content) {
+    showcaseConfig.hero.heading = content.hero.title;
+  }
 
   if (content) {
     const localeSlug = getStartSlugForLocale(config.startId, locale);

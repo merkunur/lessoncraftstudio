@@ -166,10 +166,15 @@ export default async function IdeaPage({
 
   const content = await getIdeaContent(config.ideaId, locale);
 
-  // Look up visual showcase config (EN + DE + FR)
+  // Look up visual showcase config (EN + DE + FR + ES + PT)
   const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
     ? getPageShowcaseConfig('idea', config.ideaId, locale)
     : null;
+
+  // Override English hero heading with localized content title
+  if (showcaseConfig && content) {
+    showcaseConfig.hero.heading = content.hero.title;
+  }
 
   if (content) {
     const localeSlug = getIdeaSlugForLocale(config.ideaId, locale);

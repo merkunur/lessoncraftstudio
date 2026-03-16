@@ -100,10 +100,15 @@ export default async function BundlePage({
   const tierData = getBundleTierComparison(locale);
   const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
 
-  // Look up visual showcase config (EN + DE + FR)
+  // Look up visual showcase config (EN + DE + FR + ES + PT)
   const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
     ? getPageShowcaseConfig('bundle', bundleConfig.bundleId, locale)
     : null;
+
+  // Override English hero heading with localized content title
+  if (showcaseConfig && content) {
+    showcaseConfig.hero.heading = content.hero.title;
+  }
 
   if (content) {
     const localeSlug = getBundleSlugForLocale(bundleConfig.bundleId, locale);

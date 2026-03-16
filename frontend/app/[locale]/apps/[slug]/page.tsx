@@ -18,6 +18,7 @@ import type { AppContent } from '@/config/app-content';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import { getSectionLabel } from '@/config/section-labels';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import {
   WorksheetShowcaseSection,
   TieredShowcaseSection,
@@ -745,7 +746,7 @@ export default async function AppDetailPage({
                       <div className="rounded-xl overflow-hidden shadow-lg">
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
-                          src={content.visuals.heroImages.primary}
+                          src={encodeImagePath(content.visuals.heroImages.primary)}
                           alt={content.visuals.heroImages.primaryAlt}
                           className="w-full h-auto"
                           loading="eager"
@@ -849,7 +850,7 @@ export default async function AppDetailPage({
                   {content.visuals.sampleGallery.map((img, i) => (
                     <div key={i} className="rounded-lg overflow-hidden shadow-sm border border-gray-200">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={img.src} alt={img.alt} className="w-full h-auto" loading="lazy" />
+                      <img src={encodeImagePath(img.src)} alt={img.alt} className="w-full h-auto" loading="lazy" />
                       {img.caption && (
                         <p className="text-xs text-gray-500 p-2 text-center">{img.caption}</p>
                       )}

@@ -14,6 +14,7 @@ import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
 import { getSectionLabel } from '@/config/section-labels';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import YouTubeFacade from './YouTubeFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import { WorksheetShowcaseSection, TieredShowcaseSection, SpotlightSection, GallerySection } from '@/components/showcase';
@@ -238,7 +239,7 @@ export default async function ToolPage({
           <div className="container mx-auto px-4 max-w-4xl">
             {content.visuals?.heroImages?.primary && (
               <img
-                src={content.visuals.heroImages.primary}
+                src={encodeImagePath(content.visuals.heroImages.primary)}
                 alt={content.visuals.heroImages.primaryAlt}
                 className="w-full max-w-2xl mx-auto rounded-xl shadow-lg mb-8"
                 loading="eager"
@@ -310,7 +311,7 @@ export default async function ToolPage({
                 {content.visuals.sampleGallery.map((img, i) => (
                   <figure key={i} className="rounded-lg overflow-hidden shadow-md">
                     <img
-                      src={img.src}
+                      src={encodeImagePath(img.src)}
                       alt={img.alt}
                       className="w-full h-auto"
                       loading="lazy"

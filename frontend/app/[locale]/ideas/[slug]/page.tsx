@@ -11,6 +11,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import VideoFacade from '../../apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import {
@@ -270,7 +271,7 @@ export default async function IdeaPage({
                     {getAppHeroImage(idea.appId, locale) && (
                       <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden bg-gray-100">
                         <img
-                          src={getAppHeroImage(idea.appId, locale)!}
+                          src={encodeImagePath(getAppHeroImage(idea.appId, locale)!)}
                           alt={idea.title}
                           className="w-full h-full object-cover"
                           loading="lazy"
@@ -303,7 +304,7 @@ export default async function IdeaPage({
                 {content.themeImages.map((img, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
                     <img
-                      src={img.src}
+                      src={encodeImagePath(img.src)}
                       alt={img.alt}
                       className="w-full h-auto"
                       loading="lazy"

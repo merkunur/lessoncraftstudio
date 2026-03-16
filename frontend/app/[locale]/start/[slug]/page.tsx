@@ -11,6 +11,7 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import {
@@ -143,7 +144,7 @@ export default async function CornerstonePage({
             {content.visuals?.heroImage?.src && (
               <div className="mt-8 rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src={content.visuals.heroImage.src}
+                  src={encodeImagePath(content.visuals.heroImage.src)}
                   alt={content.visuals.heroImage.alt}
                   className="w-full h-auto"
                   loading="eager"
@@ -239,7 +240,7 @@ export default async function CornerstonePage({
                 {content.themeImages.map((img, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
                     <img
-                      src={img.src}
+                      src={encodeImagePath(img.src)}
                       alt={img.alt}
                       className="w-full h-auto"
                       loading="lazy"

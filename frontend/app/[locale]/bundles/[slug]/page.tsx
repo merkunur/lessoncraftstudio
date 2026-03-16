@@ -14,6 +14,7 @@ import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } f
 import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import {
@@ -160,7 +161,7 @@ export default async function BundlePage({
             {content.visuals?.heroImages?.primary && (
               <div className="rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src={content.visuals.heroImages.primary}
+                  src={encodeImagePath(content.visuals.heroImages.primary)}
                   alt={content.visuals.heroImages.primaryAlt}
                   className="w-full h-auto"
                   loading="eager"
@@ -296,7 +297,7 @@ export default async function BundlePage({
                 {content.visuals.sampleGallery.map((sample, i) => (
                   <figure key={i} className="bg-white rounded-lg overflow-hidden shadow-sm border border-gray-200">
                     <img
-                      src={sample.src}
+                      src={encodeImagePath(sample.src)}
                       alt={sample.alt}
                       className="w-full h-auto"
                       loading="lazy"

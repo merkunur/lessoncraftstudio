@@ -3,6 +3,7 @@ import { imgUrl, t, tPills, tStringPills } from '@/config/showcase-i18n';
 import { germanImages } from '@/config/german-showcase-images';
 import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
+import { portugueseImages } from '@/config/portuguese-showcase-images';
 
 export interface ShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -3124,6 +3125,279 @@ const esAppText: Record<string, EsTextTuple> = {
   ],
 };
 
+
+// ═══════════════════════════════════════════════════════════════════
+// PORTUGUESE LOCALIZATION — per-app text overrides
+// Format: [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub]
+// ═══════════════════════════════════════════════════════════════════
+
+const ptAppText: Record<string, EsTextTuple> = {
+  addition: [
+    'Aprende matemática com imagens!', 'Folhas de adição profissionais que os teus alunos vão adorar',
+    'Aprendizagem diferenciada para cada criança', 'Três níveis de dificuldade que crescem com os teus alunos',
+    'Contagem simples com imagens (1-5)', 'Imagens mistas com somas até 10', 'Problemas de vários passos até 20',
+    'Cada criança pode ter sucesso ao seu próprio ritmo',
+    'Adição divertida!', 'Matemática com alegria!',
+    'A arte da matemática', 'Folhas de trabalho profissionais elaboradas com cuidado e precisão',
+  ],
+  subtraction: [
+    'Subtração visual simplificada!', 'Risca, compara e resolve com imagens temáticas',
+    'Domina a subtração passo a passo', 'Três níveis de dificuldade, do simples ao desafiante',
+    'Riscar imagens (1-5)', 'Subtração imagem-número até 10', 'Modos mistos até 20',
+    'Ganha confiança com cada problema resolvido',
+    'Subtração divertida!', 'Subtrair é fácil!',
+    'Folhas de subtração profissionais', 'Designs claros para jovens aprendizes',
+  ],
+  'code-addition': [
+    'Decifra o código com a adição!', 'Resolve operações para decifrar mensagens secretas',
+    'De somas simples a códigos secretos', 'Três níveis de desafio de decifração',
+    'Códigos de adição simples (1-5)', 'Somas maiores decifram mensagens mais longas', 'Códigos de vários passos até 20',
+    'Cada código decifrado aumenta a confiança na matemática',
+    'Decifra o código!', 'Matemática e mistério!',
+    'A arte de decifrar códigos', 'Folhas profissionais que combinam matemática com enigmas',
+  ],
+  'more-less': [
+    'Mais, menos ou igual?', 'Compara quantidades com folhas de imagens coloridas',
+    'Domina as comparações numéricas', 'Três níveis de desafio de comparação',
+    'Reconhecer qual grupo tem mais (1-5)', 'Comparar grupos temáticos até 10', 'Maior que, menor que e igual',
+    'As competências de comparação constroem as bases matemáticas',
+    'Compara e descobre!', 'Compreensão numérica visual!',
+    'Folhas de comparação profissionais', 'Designs claros para a comparação intuitiva de quantidades',
+  ],
+  'math-puzzle': [
+    'Resolve e revela puzzles com imagens!', 'As operações revelam imagens de animais escondidas',
+    'Puzzles para cada nível', 'De somas simples a grelhas complexas',
+    'Grelhas simples 3×3 com adição', 'Puzzles temáticos com operações mistas', 'Grelhas complexas com números maiores',
+    'Cada puzzle resolvido revela algo extraordinário',
+    'Hora do puzzle!', 'Matemática + Imagens = Diversão!',
+    'Puzzles matemáticos profissionais', 'Grelhas motivadoras que tornam a prática matemática emocionante',
+  ],
+  'math-worksheet': [
+    'Álgebra com imagens para pequenos matemáticos!', 'Resolve equações com imagens de animais adoráveis',
+    'Conceitos de álgebra para cada nível', 'Equações visuais que crescem com os teus alunos',
+    'Equações de imagens simples (1-5)', 'Equações temáticas mistas até 10', 'Equações de imagens de vários passos até 20',
+    'O pensamento algébrico começa com imagens',
+    'Álgebra com imagens!', 'Animais + Matemática = Aprendizagem!',
+    'Álgebra com imagens profissional', 'Belas folhas para a aprendizagem visual da álgebra',
+  ],
+  'alphabet-train': [
+    'Todos a bordo do comboio do alfabeto!', 'Aprende as letras com uma divertida atividade de recortar',
+    'Letras para cada aprendiz', 'Atividades progressivas de reconhecimento de letras',
+    'Associar maiúsculas A-M', 'Alfabeto completo com imagens temáticas', 'Associar maiúsculas e minúsculas',
+    'Cada letra é uma aventura no comboio',
+    'Chu-chu letras!', 'Aprender letras é uma viagem!',
+    'Belas atividades de letras', 'Folhas de comboio desenhadas profissionalmente',
+  ],
+  prepositions: [
+    'Aprende palavras de posição com imagens!', 'Sobre, debaixo, ao lado, dentro — preposições visuais e divertidas',
+    'Preposições para cada aprendiz', 'Atividades progressivas de vocabulário espacial',
+    'Palavras espaciais básicas: sobre, em, debaixo', 'Vocabulário alargado com cenas temáticas', 'Relações espaciais complexas e frases',
+    'As palavras de posição fortalecem a linguagem e a matemática',
+    'Onde está?', 'Palavras de posição divertidas!',
+    'Folhas de linguagem profissionais', 'Atividades de vocabulário espacial lindamente desenhadas',
+  ],
+  'word-guess': [
+    'Adivinha a palavra com pistas de imagens!', 'Completa as letras em falta com pistas visuais',
+    'Vocabulário para cada leitor', 'Três níveis de desafio de adivinhação',
+    'Palavras simples de 3-4 letras com pistas visuais', 'Vocabulário temático com 2+ letras em falta', 'Palavras mais longas com listas personalizadas',
+    'Cada palavra adivinhada fortalece a confiança na leitura',
+    'Detetive de palavras!', 'Imagens + Letras = Diversão!',
+    'Adivinhações de palavras profissionais', 'Folhas de vocabulário motivadoras com pistas de imagens',
+  ],
+  'word-scramble': [
+    'Letras embaralhadas com pistas de imagens!', 'Reordena as letras para formar a palavra ilustrada',
+    'Diversão ortográfica para cada nível', 'Três níveis de desafio de letras embaralhadas',
+    'Palavras simples de 3-4 letras', 'Palavras temáticas de 5-6 letras', 'Palavras mais longas e listas personalizadas',
+    'Cada palavra desembaralhada fortalece as competências ortográficas',
+    'Letras embaralhadas!', 'Ortografia divertida!',
+    'Puzzles de letras profissionais', 'Folhas motivadoras para a ortografia',
+  ],
+  wordsearch: [
+    'Palavras escondidas na caça-palavras!', 'Encontra as palavras escondidas em caça-palavras temáticas',
+    'Caça-palavras para cada nível', 'Três níveis de dificuldade de pesquisa',
+    'Grelhas simples 6×6', 'Grelhas médias 10×10', 'Grelhas avançadas 15×15',
+    'A caça-palavras desenvolve a concentração e o vocabulário',
+    'Encontra as palavras!', 'Aventura de caça-palavras!',
+    'Caça-palavras profissionais', 'Designs claros para uma pesquisa de palavras emocionante',
+  ],
+  cryptogram: [
+    'Decifra códigos secretos com imagens!', 'Puzzles de substituição de letras com imagens temáticas',
+    'Decifração para cada nível', 'Três níveis de desafio de criptograma',
+    'Códigos de letras simples', 'Cifras intermédias', 'Criptogramas avançados',
+    'Cada código decifrado aguça o pensamento crítico',
+    'Decifra o código!', 'Puzzles de letras divertidos!',
+    'Criptogramas profissionais', 'Puzzles lógicos motivadores para imprimir',
+  ],
+  writing: [
+    'Escrita guiada com linhas de referência!', 'Aprende a escrever letras e palavras com clareza',
+    'Escrita para cada aprendiz', 'Exercícios progressivos de escrita à mão',
+    'Prática de traçado', 'Escrita guiada de letras', 'Escrita independente',
+    'Cada letra praticada fortalece a confiança na escrita',
+    'Escreve e aprende!', 'Domina as letras!',
+    'Exercícios de escrita profissionais', 'Folhas de escrita à mão cuidadosamente desenhadas',
+  ],
+  'big-small': [
+    'Reconhece grande ou pequeno!', 'Compara tamanhos com imagens divertidas',
+    'Domina as comparações de tamanho', 'Três níveis de compreensão de tamanhos',
+    'Simples: grande vs. pequeno', 'Ordenar por tamanho', 'Comparações complexas',
+    'A comparação de tamanhos constrói as bases matemáticas',
+    'Grande ou pequeno?', 'Descobre os tamanhos!',
+    'Comparações de tamanho profissionais', 'Folhas claras para comparar tamanhos',
+  ],
+  'pattern-train': [
+    'Completa os padrões no comboio!', 'Reconhece e continua padrões de imagens no comboio',
+    'Padrões para cada nível', 'Três níveis de reconhecimento de padrões',
+    'Padrões AB', 'Padrões ABC', 'Padrões complexos ABCD',
+    'O reconhecimento de padrões desenvolve o pensamento lógico',
+    'Completa o padrão!', 'Diversão com padrões do comboio!',
+    'Folhas de padrões profissionais', 'Temas de comboio atrativos para o reconhecimento de padrões',
+  ],
+  'pattern-worksheet': [
+    'Reconhece e continua os padrões!', 'Treina o pensamento lógico com padrões de imagens',
+    'Exercícios de padrões para cada nível', 'Três níveis de reconhecimento de padrões',
+    'Padrões de repetição simples', 'Padrões crescentes', 'Padrões mistos complexos',
+    'Os padrões são a base do pensamento matemático',
+    'Identifica o padrão!', 'Pensamento lógico divertido!',
+    'Puzzles de padrões profissionais', 'Folhas bem desenhadas para o pensamento crítico',
+  ],
+  'draw-and-color': [
+    'Desenhar com grelha!', 'Aprende a desenhar passo a passo com modelos de grelha',
+    'Desenho para cada nível', 'Três níveis de desenho com grelha',
+    'Cópias de grelha simples', 'Desenhos de grelha detalhados', 'Desafios de desenho livre',
+    'Cada desenho desenvolve a motricidade fina',
+    'Desenha!', 'Desenho criativo!',
+    'Exercícios de desenho profissionais', 'Folhas passo a passo para cada tema',
+  ],
+  'drawing-lines': [
+    'Prática de traçado de linhas!', 'Treina a motricidade fina com diferentes formas de linhas',
+    'Exercícios de linhas para cada nível', 'Três níveis de traçado de linhas',
+    'Linhas retas', 'Caminhos curvos', 'Padrões complexos',
+    'A prática de linhas prepara as crianças para a escrita',
+    'Traça e aprende!', 'Domina as linhas!',
+    'Exercícios de linhas profissionais', 'Folhas progressivas para a motricidade fina',
+  ],
+  coloring: [
+    'Páginas para colorir de todos os temas!', 'Mais de 100 temas para colorir e criar',
+    'Páginas para colorir para cada nível', 'Três níveis de detalhe para colorir',
+    'Contornos simples', 'Cenas detalhadas', 'Padrões complexos',
+    'Colorir desenvolve a concentração e a criatividade',
+    'Colore o teu mundo!', 'Descobre as cores!',
+    'Páginas para colorir profissionais', 'Belos modelos para cada tema',
+  ],
+  'chart-count': [
+    'Cria e lê gráficos com imagens!', 'Recolhe dados e representa-os em gráficos',
+    'Gráficos para cada nível', 'Três níveis de visualização de dados',
+    'Contar e representar (1-5)', 'Ler e interpretar gráficos', 'Representar múltiplas categorias',
+    'A literacia de dados começa com gráficos de imagens',
+    'Dados divertidos!', 'Contagem visual!',
+    'Gráficos com imagens profissionais', 'Folhas claras para a aprendizagem visual de dados',
+  ],
+  matching: [
+    'Encontra os pares!', 'Associa visualmente os elementos com imagens temáticas',
+    'Associação para cada nível', 'Três níveis de formação de pares',
+    'Associação simples de 3 pares', 'Associação média de 5 pares', 'Associação avançada de 8+ pares',
+    'A associação desenvolve o vocabulário e as competências visuais',
+    'Encontra o par!', 'Associação visual!',
+    'Folhas de associação profissionais', 'Designs claros para o desenvolvimento cognitivo',
+  ],
+  'grid-match': [
+    'Resolve puzzles de grelha!', 'Associa corretamente as imagens na grelha',
+    'Puzzles de grelha para cada nível', 'Três níveis de associação em grelha',
+    'Grelhas simples 2×2', 'Grelhas médias 3×3', 'Grelhas avançadas 4×4',
+    'A associação em grelha desenvolve o raciocínio espacial',
+    'Associa a grelha!', 'Diversão com puzzles!',
+    'Puzzles de grelha profissionais', 'Folhas bem desenhadas para o raciocínio espacial',
+  ],
+  'shadow-match': [
+    'Associa as sombras!', 'Que sombra corresponde a cada imagem?',
+    'Associação de sombras para cada nível', 'Três níveis de puzzles de sombras',
+    'Pares de sombras simples', 'Sombras rodadas', 'Puzzles de sombras complexos',
+    'A associação de sombras aguça as competências visuais',
+    'Encontra a sombra!', 'Puzzles de sombras divertidos!',
+    'Puzzles de sombras profissionais', 'Folhas estimulantes para a capacidade de observação',
+  ],
+  bingo: [
+    'Cria cartões de bingo com imagens!', 'Imprime e joga com cartões de bingo temáticos',
+    'Bingo para cada nível', 'Três tamanhos de cartões para diferentes idades',
+    'Bingo simples 3×3', 'Bingo de imagens 4×4', 'Cartões de bingo completos 5×5',
+    'O bingo transforma a aprendizagem numa celebração',
+    'BINGO!', 'Diversão de bingo para todos!',
+    'Cartões de bingo profissionais', 'Cartões temáticos para atividades de grupo e de turma',
+  ],
+  'picture-sort': [
+    'Classifica e ordena as imagens!', 'Aprende a classificar por categorias com imagens coloridas',
+    'Exercícios de classificação para cada nível', 'Três níveis de classificação',
+    'Classificação em 2 categorias', 'Classificação em 3 categorias', 'Desafios de 4+ categorias',
+    'Classificar desenvolve o pensamento crítico',
+    'Classifica!', 'A ordem é divertida!',
+    'Exercícios de classificação profissionais', 'Folhas bem desenhadas para a classificação',
+  ],
+  'missing-pieces': [
+    'Encontra as peças em falta!', 'Que peça falta na imagem?',
+    'Puzzles para cada nível', 'Três níveis de puzzles visuais',
+    'Peças em falta simples', 'Puzzles de várias peças', 'Desafios visuais complexos',
+    'Resolver puzzles desenvolve a capacidade de observação',
+    'Completa a imagem!', 'Detetive de puzzles!',
+    'Folhas de puzzles profissionais', 'Puzzles estimulantes para a capacidade de observação',
+  ],
+  'odd-one-out': [
+    'Encontra o diferente!', 'Que imagem não pertence à série?',
+    'Encontra as diferenças para cada nível', 'Três níveis de puzzles lógicos',
+    'Grupos simples de 3', 'Grupos médios de 4', 'Avançado 6+ imagens',
+    'Encontrar o diferente desenvolve as competências de classificação',
+    'Qual é o diferente?', 'Olho de águia necessário!',
+    'Puzzles lógicos profissionais', 'Folhas bem desenhadas para a capacidade de observação',
+  ],
+  sudoku: [
+    'Sudoku com imagens divertido!', 'Puzzles lógicos com imagens em vez de números',
+    'Sudoku para cada nível', 'Três níveis de puzzles de sudoku',
+    'Sudoku de imagens simples 4×4', 'Grelhas médias 6×6', 'Desafios difíceis 9×9',
+    'O sudoku desenvolve as competências de raciocínio lógico',
+    'Sudoku divertido!', 'Lógica com imagens!',
+    'Sudoku com imagens profissional', 'Puzzles de treino cerebral para imprimir',
+  ],
+  'picture-path': [
+    'Encontra o caminho de imagens!', 'Segue o caminho correto através do labirinto de imagens',
+    'Busca de caminhos para cada nível', 'Três níveis de busca de caminhos',
+    'Caminhos retos simples', 'Caminhos ramificados', 'Caminhos de labirinto complexos',
+    'Encontrar o caminho desenvolve a resolução de problemas',
+    'Encontra o caminho!', 'Aventura de labirinto!',
+    'Folhas de labirinto profissionais', 'Busca de caminhos emocionante com diferentes temas',
+  ],
+  'find-and-count': [
+    'Vejo, vejo e conto!', 'Encontra e conta as imagens escondidas em cenas coloridas',
+    'Procurar e contar para cada nível', 'Três níveis de imagens de pesquisa',
+    'Encontrar 3-5 objetos', 'Contar até 10 objetos', 'Cenas avançadas de contagem múltipla',
+    'Encontrar e contar desenvolve a atenção ao detalhe',
+    'Vejo, vejo!', 'Contar e encontrar!',
+    'Imagens de pesquisa profissionais', 'Cenas lindamente desenhadas para procurar e contar',
+  ],
+  'find-objects': [
+    'Encontra os objetos escondidos!', 'Aguça os teus olhos com imagens de pesquisa detalhadas',
+    'Imagens de pesquisa para cada nível', 'Três níveis de busca de objetos',
+    'Objetos escondidos simples', 'Pesquisa de cenas intermédias', 'Desafios de pesquisa complexos',
+    'Encontrar objetos treina o teu cérebro',
+    'Encontra-os todos!', 'Olhos de lince necessários!',
+    'Imagens de pesquisa profissionais', 'Cenas detalhadas para a observação atenta',
+  ],
+  crossword: [
+    'Resolve palavras cruzadas com imagens!', 'Resolve as pistas de imagens e completa a grelha',
+    'Palavras cruzadas para cada nível', 'Três níveis de puzzles de palavras',
+    'Palavras cruzadas simples de 5 palavras', 'Puzzles intermédios de 10 palavras', 'Grelhas avançadas de 15+ palavras',
+    'As palavras cruzadas enriquecem o vocabulário e a ortografia',
+    'Palavras cruzadas divertidas!', 'Aventura de palavras!',
+    'Palavras cruzadas profissionais', 'Grelhas de palavras bem desenhadas para o vocabulário',
+  ],
+  'treasure-hunt': [
+    'Caça ao tesouro no mapa!', 'Segue as pistas e encontra o tesouro escondido',
+    'Caça ao tesouro para cada nível', 'Três níveis de puzzles de mapas',
+    'Mapas de grelha simples', 'Mapas do tesouro com direções', 'Caças complexas de vários passos',
+    'Cada tesouro encontrado fortalece a resolução de problemas',
+    'Caça ao tesouro!', 'Aventura no mapa!',
+    'Folhas de caça ao tesouro profissionais', 'Emocionantes aventuras de mapas para pequenos exploradores',
+  ],
+};
+
 // ─── Generic localization function ───
 
 function localizeShowcase(
@@ -3194,5 +3468,6 @@ export function getLocalizedShowcaseConfig(appId: string, locale: string): Showc
   if (locale === 'de') return localizeShowcase(enConfig, appId, germanImages, deAppText, 'de');
   if (locale === 'fr') return localizeShowcase(enConfig, appId, frenchImages, frAppText, 'fr');
   if (locale === 'es') return localizeShowcase(enConfig, appId, spanishImages, esAppText, 'es');
+  if (locale === 'pt') return localizeShowcase(enConfig, appId, portugueseImages, ptAppText, 'pt');
   return enConfig;
 }

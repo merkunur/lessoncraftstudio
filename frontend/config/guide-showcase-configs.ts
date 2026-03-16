@@ -17,6 +17,7 @@ import { imgUrl, tPills, tStringPills } from '@/config/showcase-i18n';
 import { germanImages } from '@/config/german-showcase-images';
 import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
+import { portugueseImages } from '@/config/portuguese-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -630,6 +631,77 @@ function getEsAppData(key: string): AppVisualData {
   };
 }
 
+
+// ─── Portuguese app visual data ───
+
+const ptLabels: Record<string, string> = {
+  addition: 'Adição', subtraction: 'Subtração', 'code-addition': 'Código adição',
+  'more-less': 'Comparação', 'math-puzzle': 'Puzzle matemático', 'math-worksheet': 'Folha de matemática',
+  'chart-count': 'Gráfico', wordsearch: 'Caça-palavras', crossword: 'Palavras cruzadas',
+  'word-scramble': 'Letras embaralhadas', cryptogram: 'Criptograma', 'word-guess': 'Adivinha a palavra',
+  writing: 'Escrita', 'alphabet-train': 'Comboio do alfabeto', prepositions: 'Preposições',
+  coloring: 'Colorir', 'draw-and-color': 'Desenho grelha', 'drawing-lines': 'Linhas',
+  'big-small': 'Comparação de tamanhos', 'pattern-train': 'Comboio de padrões', 'pattern-worksheet': 'Padrões',
+  matching: 'Associação', 'grid-match': 'Puzzle grelha', 'shadow-match': 'Sombras',
+  bingo: 'Bingo de imagens', 'picture-sort': 'Classificação', 'missing-pieces': 'Puzzle',
+  'odd-one-out': 'Lógica', sudoku: 'Sudoku', 'picture-path': 'Caminho',
+  'find-and-count': 'Procurar e contar', 'find-objects': 'Objetos escondidos', 'treasure-hunt': 'Caça ao tesouro',
+};
+
+const ptTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Contagem simples com imagens (1-5)', 'Imagens mistas até 10', 'Problemas de vários passos até 20'],
+  subtraction: ['Riscar imagens (1-5)', 'Subtração imagem-número até 10', 'Modos mistos até 20'],
+  'code-addition': ['Códigos simples (1-5)', 'Códigos intermédios até 10', 'Códigos complexos até 20'],
+  'more-less': ['Comparar grupos (1-5)', 'Grupos temáticos até 10', 'Maior/menor/igual'],
+  'math-puzzle': ['Puzzles numéricos simples', 'Puzzles de vários passos', 'Desafios lógicos complexos'],
+  'math-worksheet': ['Operações simples (1-5)', 'Problemas mistos até 10', 'Operações avançadas múltiplas'],
+  'chart-count': ['Contar e representar (1-5)', 'Interpretar gráficos', 'Gráficos multi-categoria'],
+  wordsearch: ['Grelhas simples 6×6', 'Grelhas médias 10×10', 'Grelhas avançadas 15×15'],
+  crossword: ['Palavras cruzadas simples de 5 palavras', 'Puzzles intermédios de 10 palavras', 'Grelhas avançadas de 15+ palavras'],
+  'word-scramble': ['Palavras de 3-4 letras', 'Palavras de 5-6 letras', 'Desafios de 7+ letras'],
+  cryptogram: ['Códigos de letras simples', 'Cifras intermédias', 'Criptogramas avançados'],
+  'word-guess': ['Pistas de imagens simples', 'Puzzles de várias partes', 'Adivinhações avançadas'],
+  writing: ['Prática de traçado', 'Escrita guiada', 'Escrita autónoma'],
+  'alphabet-train': ['Letras A-H', 'Letras I-P', 'Alfabeto completo'],
+  prepositions: ['Posições básicas (sobre, em, debaixo)', 'Preposições alargadas', 'Relações espaciais complexas'],
+  coloring: ['Contornos simples', 'Cenas detalhadas', 'Padrões complexos'],
+  'draw-and-color': ['Cópias de grelha simples', 'Desenhos de grelha detalhados', 'Desafios livres'],
+  'drawing-lines': ['Linhas retas', 'Caminhos curvos', 'Padrões complexos'],
+  'big-small': ['Simples: grande vs. pequeno', 'Ordenar por tamanho', 'Comparações complexas'],
+  'pattern-train': ['Padrões AB', 'Padrões ABC', 'Padrões ABCD complexos'],
+  'pattern-worksheet': ['Repetições simples', 'Padrões crescentes', 'Padrões mistos complexos'],
+  matching: ['Associação simples de 3 pares', 'Associação média de 5 pares', 'Associação avançada de 8+ pares'],
+  'grid-match': ['Grelhas simples 2×2', 'Grelhas médias 3×3', 'Grelhas avançadas 4×4'],
+  'shadow-match': ['Pares de sombras simples', 'Sombras rodadas', 'Puzzles de sombras complexos'],
+  bingo: ['Bingo simples 3×3', 'Bingo de imagens 4×4', 'Bingo completo 5×5'],
+  'picture-sort': ['Classificação em 2 categorias', 'Classificação em 3 categorias', '4+ categorias'],
+  'missing-pieces': ['Peças em falta simples', 'Puzzles de várias peças', 'Puzzles visuais complexos'],
+  'odd-one-out': ['Grupos simples de 3', 'Grupos médios de 4', 'Avançado: grupos de 6+'],
+  sudoku: ['Sudoku de imagens simples 4×4', 'Grelhas médias 6×6', 'Grelhas difíceis 9×9'],
+  'picture-path': ['Caminhos retos simples', 'Caminhos ramificados', 'Labirintos complexos'],
+  'find-and-count': ['Encontrar 3-5 objetos', 'Contar até 10', 'Cenas avançadas'],
+  'find-objects': ['Objetos simples', 'Cenas intermédias', 'Pesquisas complexas'],
+  'treasure-hunt': ['Mapas de grelha simples', 'Mapas com direções', 'Caças de vários passos'],
+};
+
+function getPtAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const pi = portugueseImages[key];
+  if (!pi) return en;
+
+  return {
+    ...en,
+    label: ptLabels[key] || en.label,
+    imgs: pi.imgs,
+    answerKey: pi.answerKey,
+    pills: tPills(en.pills, 'pt'),
+    spotPills: tStringPills(en.spotPills, 'pt'),
+    galleryPills: tStringPills(en.galleryPills, 'pt'),
+    tierDesc: ptTierDescs[key] || en.tierDesc,
+  };
+}
+
 // ─── Config generator ───
 // Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
 // The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
@@ -644,7 +716,8 @@ function buildConfig(
   const isDe = locale === 'de';
   const isFr = locale === 'fr';
   const isEs = locale === 'es';
-  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : (k: string) => appData[k] || appData.addition;
+  const isPt = locale === 'pt';
+  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : (k: string) => appData[k] || appData.addition;
   const d1 = getData(a1);
   const d2 = getData(a2);
   const d3 = getData(a3);
@@ -655,7 +728,7 @@ function buildConfig(
     hero: {
       gradient: heroGradients[seed % heroGradients.length],
       accentColor: d1.accent,
-      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : 'Professional Printables',
+      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : 'Professional Printables',
       heading: pageTitle,
       subheading: isDe
         ? `Erstellen Sie beeindruckende ${d1.label}-Arbeitsblätter, die Ihre Kunden lieben werden`
@@ -663,6 +736,8 @@ function buildConfig(
         ? `Créez de superbes fiches ${d1.label.toLowerCase()} que vos clients adoreront`
         : isEs
         ? `Crea impresionantes hojas de ${d1.label.toLowerCase()} que a tus clientes les encantarán`
+        : isPt
+        ? `Crie impressionantes folhas de ${d1.label.toLowerCase()} que os seus clientes vão adorar`
         : `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
       images: [
         { src: imgFn(d1.folder, d1.imgs[0]), alt: `${d1.label} worksheet sample 1` },
@@ -674,32 +749,32 @@ function buildConfig(
     },
     tiered: {
       gradient: tieredGradients[seed % tieredGradients.length],
-      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : 'Skill Levels',
-      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : 'Worksheets for Every Level',
-      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : 'Three difficulty tiers for differentiated content',
+      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : 'Skill Levels',
+      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : 'Worksheets for Every Level',
+      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : 'Three difficulty tiers for differentiated content',
       tiers: [
         {
-          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
           image: { src: imgFn(d2.folder, d2.imgs[0]), alt: `${d2.label} beginner worksheet` },
           desc: d2.tierDesc[0],
         },
         {
-          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
           image: { src: imgFn(d3.folder, d3.imgs[1]), alt: `${d3.label} intermediate worksheet` },
           desc: d3.tierDesc[1],
         },
         {
-          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
           image: { src: imgFn(d4.folder, d4.imgs[2]), alt: `${d4.label} advanced worksheet` },
           desc: d4.tierDesc[2],
         },
       ],
-      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : 'Professional quality at every difficulty level',
+      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : 'Professional quality at every difficulty level',
     },
     spotlight: {
       gradient: spotlightGradients[seed % spotlightGradients.length],
-      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : `${d1.label} Showcase`,
-      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : 'See What You Can Create!',
+      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : `${d1.label} Showcase`,
+      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : 'See What You Can Create!',
       image: { src: imgFn(d1.folder, d1.imgs[3]), alt: `Featured ${d1.label.toLowerCase()} worksheet` },
       pills: d1.spotPills,
       hasBunting: seed % 2 === 0,
@@ -708,8 +783,8 @@ function buildConfig(
     },
     gallery: {
       gradient: galleryGradient,
-      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : 'Professional Worksheet Gallery',
-      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : 'Clean, polished layouts ready for your business',
+      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : 'Professional Worksheet Gallery',
+      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : 'Clean, polished layouts ready for your business',
       items: [
         { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: `${d2.label} professional worksheet` }, label: d2.label },
         { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: `${d3.label} professional worksheet` }, label: d3.label },
@@ -721,6 +796,8 @@ function buildConfig(
         ? ['Prêt à imprimer', 'Qualité professionnelle', 'Formats multiples', 'Corrigés']
         : isEs
         ? ['Listo para imprimir', 'Calidad profesional', 'Múltiples formatos', 'Claves de respuesta']
+        : isPt
+        ? ['Pronto para imprimir', 'Qualidade profissional', 'Múltiplos formatos', 'Chaves de resposta']
         : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },
@@ -882,6 +959,7 @@ const enConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const deConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const frConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const esConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const ptConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
   const key = `${p.type}:${p.id}` as PageKey;
@@ -889,6 +967,7 @@ pages.forEach((p, i) => {
   deConfigMap.set(key, buildConfig(p.apps, p.title, i, 'de'));
   frConfigMap.set(key, buildConfig(p.apps, p.title, i, 'fr'));
   esConfigMap.set(key, buildConfig(p.apps, p.title, i, 'es'));
+  ptConfigMap.set(key, buildConfig(p.apps, p.title, i, 'pt'));
 });
 
 // ─── Public API ───
@@ -901,5 +980,6 @@ export function getPageShowcaseConfig(
   if (locale === 'de') return deConfigMap.get(key) ?? null;
   if (locale === 'fr') return frConfigMap.get(key) ?? null;
   if (locale === 'es') return esConfigMap.get(key) ?? null;
+  if (locale === 'pt') return ptConfigMap.get(key) ?? null;
   return enConfigMap.get(key) ?? null;
 }

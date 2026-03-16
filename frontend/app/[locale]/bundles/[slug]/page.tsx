@@ -100,7 +100,7 @@ export default async function BundlePage({
   const name = bundleNames[bundleConfig.bundleId] || bundleConfig.bundleId;
 
   // Look up visual showcase config (EN + DE + FR)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es')
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
     ? getPageShowcaseConfig('bundle', bundleConfig.bundleId, locale)
     : null;
 

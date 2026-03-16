@@ -84,7 +84,7 @@ export default async function CornerstonePage({
   const content = await getStartContent(config.startId, locale);
 
   // Look up visual showcase config (EN + DE + FR)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es')
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
     ? getPageShowcaseConfig('start', config.startId, locale)
     : null;
 

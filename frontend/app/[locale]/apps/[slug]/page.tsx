@@ -774,7 +774,7 @@ export default async function AppDetailPage({
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">{step.title}</h3>
-                      <p className="text-gray-600 text-sm">{step.description}</p>
+                      <ReadMoreText text={step.description} locale={locale} className="text-gray-600 text-sm" lines={8} />
                     </div>
                   </div>
                 ))}
@@ -882,8 +882,8 @@ export default async function AppDetailPage({
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                         </svg>
                       </summary>
-                      <div className="px-4 pb-4 text-gray-600 text-sm leading-relaxed">
-                        {item.answer}
+                      <div className="px-4 pb-4">
+                        <ReadMoreText text={item.answer} locale={locale} className="text-gray-600 text-sm leading-relaxed" lines={8} />
                       </div>
                     </details>
                   ))}

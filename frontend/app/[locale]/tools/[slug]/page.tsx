@@ -290,7 +290,7 @@ export default async function ToolPage({
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">{step.title}</h3>
-                      <p className="text-gray-600 mt-1">{step.description}</p>
+                      <ReadMoreText text={step.description} locale={locale} className="text-gray-600 mt-1" lines={8} />
                     </div>
                   </div>
                 ))}
@@ -407,7 +407,9 @@ export default async function ToolPage({
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                       </svg>
                     </summary>
-                    <div className="px-4 pb-4 text-gray-600">{faq.answer}</div>
+                    <div className="px-4 pb-4">
+                      <ReadMoreText text={faq.answer} locale={locale} className="text-gray-600" lines={8} />
+                    </div>
                   </details>
                 ))}
               </div>

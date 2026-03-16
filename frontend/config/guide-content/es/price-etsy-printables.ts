@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha imprimible educativa para demostración de estrategia de precios en Etsy' },
+    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha imprimible educativa para demostración de estrategia de precios en Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de sumas temática de animales mostrando producto de precios de nivel de entrada para Etsy', caption: 'Ficha de sumas con tema de animales — un producto típico de nivel de entrada con precio de $3,99 por un paquete de 10 páginas' },
-      { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ficha de sopa de letras demostrando precios premium para productos específicos de idioma', caption: 'Sopa de letras — las versiones en otros idiomas tienen precios premium con menos competencia en mercados no ingleses' },
-      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Ficha de puzle de sudoku mostrando estrategia de precios escalonados por dificultad', caption: 'Puzle de sudoku — los niveles de dificultad soportan precios progresivos dentro de una sola categoría de producto' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas temática de animales mostrando producto de precios de nivel de entrada para Etsy', caption: 'Ficha de sumas con tema de animales — un producto típico de nivel de entrada con precio de $3,99 por un paquete de 10 páginas' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp', alt: 'Ficha de sopa de letras demostrando precios premium para productos específicos de idioma', caption: 'Sopa de letras — las versiones en otros idiomas tienen precios premium con menos competencia en mercados no ingleses' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp', alt: 'Ficha de puzle de sudoku mostrando estrategia de precios escalonados por dificultad', caption: 'Puzle de sudoku — los niveles de dificultad soportan precios progresivos dentro de una sola categoría de producto' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas imprimibles para vender en Etsy — Entendiendo el valor del producto y los precios',

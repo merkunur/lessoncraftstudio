@@ -252,22 +252,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+      primary: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp',
       primaryAlt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas 5 por 5, imágenes distribuidas, pistas direccionales y encabezado temático de tesoro',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+        src: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp',
         alt: 'Ficha de puzzle de búsqueda del tesoro con 6 imágenes temáticas en una cuadrícula 5 por 5 y pistas direccionales Básicas',
         caption: 'Modo de dirección Básica — sigue pistas de arriba, abajo, izquierda y derecha para encontrar el tesoro',
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 2.webp',
         alt: 'Ficha de puzzle de búsqueda del tesoro con pistas de dirección Cardinal usando norte, sur, este y oeste',
         caption: 'Modo de dirección Cardinal — direcciones de brújula para razonamiento espacial avanzado',
       },
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp',
+        src: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 1 answer_key.webp',
         alt: 'Clave de respuestas de búsqueda del tesoro con la celda final del tesoro resaltada en amarillo pálido en la cuadrícula de coordenadas',
         caption: 'Clave de respuestas autogenerada — el resaltado en amarillo pálido marca el destino del tesoro',
       },

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Tarjetas de bingo temáticas con imágenes mostrando cuadrícula ilustrada colorida con tarjeta del cantante para niños' },
+    heroImage: { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjetas de bingo temáticas con imágenes mostrando cuadrícula ilustrada colorida con tarjeta del cantante para niños' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Tarjeta de bingo con imágenes con tema de animales mostrando cuadrícula de 4×4 para uso en el aula', caption: 'Una tarjeta de bingo con imágenes de 4×4 usando el tema de animales con modo solo imágenes' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Tarjeta del cantante de bingo mostrando todas las imágenes temáticas usadas en el set de tarjetas', caption: 'Tarjeta de referencia del cantante mostrando todas las imágenes usadas en el set de tarjetas de bingo' },
+      { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjeta de bingo con imágenes con tema de animales mostrando cuadrícula de 4×4 para uso en el aula', caption: 'Una tarjeta de bingo con imágenes de 4×4 usando el tema de animales con modo solo imágenes' },
+      { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjeta del cantante de bingo mostrando todas las imágenes temáticas usadas en el set de tarjetas', caption: 'Tarjeta de referencia del cantante mostrando todas las imágenes usadas en el set de tarjetas de bingo' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Cómo crear tarjetas de bingo con imágenes temáticas — Tutorial completo',

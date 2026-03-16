@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzle de sudoku con imágenes mostrando cuadrícula temática de imágenes adecuada para páginas interiores de libros de sudoku Amazon KDP' },
+    heroImage: { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Puzle de sudoku con imágenes mostrando cuadrícula temática de imágenes adecuada para páginas interiores de libros de sudoku Amazon KDP' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Sudoku con imágenes temático de animales formateado para libro de sudoku infantil KDP', caption: 'Sudoku con imágenes con tema de animales — cuadrículas basadas en imágenes hacen la lógica del sudoku accesible a niños de 3 a 7 años que aún no han aprendido los números' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Ficha de sudoku con imágenes para interior de libro KDP', caption: 'Ficha de sudoku con imágenes — cuadrículas de 4×4 con imágenes claras y tamaño de celdas generoso para resolución cómoda por niños pequeños' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Ficha de puzle matemático para catálogo complementario de puzles KDP', caption: 'Puzle matemático — puzles de lógica basados en números complementan al sudoku naturalmente en libros de puzles de variedad y se promocionan cruzadamente a través de tu página de autor' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 2.webp', alt: 'Sudoku con imágenes temático de animales formateado para libro de sudoku infantil KDP', caption: 'Sudoku con imágenes con tema de animales — cuadrículas basadas en imágenes hacen la lógica del sudoku accesible a niños de 3 a 7 años que aún no han aprendido los números' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Ficha de sudoku con imágenes para interior de libro KDP', caption: 'Ficha de sudoku con imágenes — cuadrículas de 4×4 con imágenes claras y tamaño de celdas generoso para resolución cómoda por niños pequeños' },
+      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp', alt: 'Ficha de puzle matemático para catálogo complementario de puzles KDP', caption: 'Puzle matemático — puzles de lógica basados en números complementan al sudoku naturalmente en libros de puzles de variedad y se promocionan cruzadamente a través de tu página de autor' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Cómo crear puzles de sudoku con imágenes para libros Amazon KDP — Tutorial paso a paso',

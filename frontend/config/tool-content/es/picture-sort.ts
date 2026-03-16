@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture sort/Picture Sort.webp',
+      primary: '/samples/spanish/picture sort/Clasificación de Imágenes 1.webp',
       primaryAlt: 'Ficha de clasificación de imágenes en dos categorías con marcos de categoría con borde discontinuo arriba y cuadrícula de recortes barajada abajo con encabezado verde menta localizado',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture sort/Picture Sort (1).webp',
+        src: '/samples/spanish/picture sort/Clasificación de Imágenes 2.webp',
         alt: 'Ficha de clasificación en modo temático con categorías izquierda y derecha rellenadas automáticamente desde la biblioteca de imágenes con cuadrícula de recortes barajada',
         caption: 'Modo temático — categorías rellenadas automáticamente desde la biblioteca de imágenes con cuadrícula de recortes aleatorizada',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort (5).webp',
+        src: '/samples/spanish/picture sort/Clasificación de Imágenes 3.webp',
         alt: 'Ficha de clasificación en modo manual con imágenes seleccionadas individualmente y asignadas a categorías izquierda y derecha para clasificación alineada con el currículo',
         caption: 'Modo manual — selecciona imágenes individualmente y asigna cada una a la categoría izquierda o derecha',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort answer_key.webp',
+        src: '/samples/spanish/picture sort/Clasificación de Imágenes 1 answer_key.webp',
         alt: 'Clave de respuestas de clasificación de imágenes con imágenes 6× más grandes organizadas en cajas de categoría correctas con bordes discontinuos y relleno FAFAFA',
         caption: 'Clave de respuestas autogenerada — imágenes 6× más grandes en cajas de categoría con máximo 2 columnas por caja',
       },

@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
       primaryAlt: 'Ficha de sopa de letras con palabras ocultas incrustadas en una cuadrícula de letras y pistas de imágenes temáticas para práctica de vocabulario',
     },
     sampleGallery: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Sopa de letras en formato vertical con cuadrícula 12×12 y pistas de imágenes temáticas',
         caption: 'Formato vertical — cuadrícula 12×12 con pistas de imágenes temáticas y lista de palabras',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch landscape.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp',
         alt: 'Sopa de letras en formato horizontal con cuadrícula más grande y palabras diagonales activadas',
         caption: 'Formato horizontal — cuadrícula más amplia con palabras diagonales y en reverso activadas',
       },
       {
-        src: '/samples/english/wordsearch/custom word list.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 3.webp',
         alt: 'Sopa de letras usando el modo lista de palabras personalizada sin imágenes para puzzles solo con texto',
         caption: 'Modo Lista de Palabras Personalizada — sopa de letras solo con texto sin pistas de imágenes',
       },

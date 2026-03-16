@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern worksheet/pattern_worksheet.webp',
+      primary: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp',
       primaryAlt: 'Ficha de patrones con ejercicios en cuadrícula mostrando secuencias repetitivas de imágenes con casillas vacías y opciones múltiples',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (1).webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 2.webp',
         alt: 'Ficha de patrones con ejercicios AB en casilla vacía usando imágenes de animales en un diseño en cuadrícula con espacios vacíos para que los alumnos completen',
         caption: 'Ejercicios AB en casilla vacía con tema animales — los alumnos identifican el patrón alternante y completan la imagen que falta',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (5).webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 3.webp',
         alt: 'Ficha de patrones con ejercicios ABC en opción múltiple usando imágenes de vehículos con tres opciones de respuesta por ejercicio',
         caption: 'Ejercicios ABC en opción múltiple con tema vehículos — los alumnos eligen el elemento correcto que falta entre tres opciones',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_answer_key.webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1 answer_key.webp',
         alt: 'Clave de respuesta de la ficha de patrones mostrando todas las casillas vacías completadas con los elementos correctos del patrón',
         caption: 'Vista de clave de respuesta — todas las casillas completadas con los elementos correctos del patrón para la verificación del profesor',
       },

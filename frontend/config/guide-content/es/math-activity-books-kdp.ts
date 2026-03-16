@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de sumas mostrando problemas de matemáticas basados en imágenes adecuados para páginas interiores de libros de actividades Amazon KDP' },
+    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas mostrando problemas de matemáticas basados en imágenes adecuados para páginas interiores de libros de actividades Amazon KDP' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de sumas temática de animales formateada para libro de actividades de matemáticas KDP', caption: 'Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean atractivas páginas de libros de actividades KDP' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Ficha de restas para cuaderno de matemáticas multi-operación KDP', caption: 'Ficha de restas — se empareja con páginas de sumas para crear libros de actividades de matemáticas integrales en Amazon' },
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Cuadrícula de puzle matemático añadiendo variedad a libros de actividades KDP', caption: 'Cuadrícula de puzle matemático — añade variedad atractiva a las páginas de libros de actividades más allá de los ejercicios estándar' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas temática de animales formateada para libro de actividades de matemáticas KDP', caption: 'Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean atractivas páginas de libros de actividades KDP' },
+      { src: '/samples/spanish/subtraction/Restas Divertidas 2.webp', alt: 'Ficha de restas para cuaderno de matemáticas multi-operación KDP', caption: 'Ficha de restas — se empareja con páginas de sumas para crear libros de actividades de matemáticas integrales en Amazon' },
+      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp', alt: 'Cuadrícula de puzle matemático añadiendo variedad a libros de actividades KDP', caption: 'Cuadrícula de puzle matemático — añade variedad atractiva a las páginas de libros de actividades más allá de los ejercicios estándar' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de matemáticas para libros de actividades Amazon KDP — Tutorial paso a paso',

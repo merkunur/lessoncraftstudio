@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/drawing lines/drawing_lines_horizontal.webp',
+      primary: '/samples/spanish/drawing lines/Practica de Dibujar Línea 1.webp',
       primaryAlt: 'Ficha de grafomotricidad con plantilla de línea curva conectando pares de imágenes de animales emparejados en formato horizontal',
     },
     sampleGallery: [
       {
-        src: '/samples/english/drawing lines/drawing_lines_curve 1.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 4.webp',
         alt: 'Ficha de trazado de líneas con plantilla de curva conectando pares de imágenes de animales emparejados en orientación horizontal',
         caption: 'Plantilla de curva — los alumnos trazan líneas curvas fluidas para conectar los pares de imágenes emparejadas',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_diagonal 1.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 3.webp',
         alt: 'Ficha de trazado de líneas con plantilla de diagonal conectando cinco pares de imágenes en orientación vertical',
         caption: 'Plantilla de diagonal — líneas en ángulo con 5 pares de imágenes para práctica de coordinación cruzada',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_vertical.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 2.webp',
         alt: 'Ficha de trazado de líneas con plantilla horizontal conectando pares de imágenes de tema naturaleza en formato vertical',
         caption: 'Plantilla horizontal — líneas rectas de izquierda a derecha con imágenes de tema naturaleza',
       },

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: '/samples/spanish/grid match/Puzzle de Cuadrícula 1.webp',
       primaryAlt: 'Ficha de puzzle de cuadrícula con imagen dividida en piezas, celdas pista reveladas y paleta de piezas numeradas para actividad de razonamiento espacial',
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: '/samples/spanish/grid match/Puzzle de Cuadrícula 2.webp',
         alt: 'Puzzle de cuadrícula de tres por tres con una celda pista visible y ocho piezas numeradas en paleta barajada para asociar',
         caption: 'Puzzle de cuadrícula 3×3 — una celda pista revelada, ocho piezas por asociar de la paleta numerada',
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: '/samples/spanish/grid match/Puzzle de Cuadrícula 3.webp',
         alt: 'Puzzle de cuadrícula avanzado de cuatro por cuatro con dieciséis piezas y pistas mínimas para actividad desafiante de percepción visual',
         caption: 'Puzzle avanzado 4×4 — tamaño máximo de cuadrícula con 16 piezas para razonamiento espacial desafiante',
       },
       {
-        src: '/samples/english/grid match/Grid Match answer_key.webp',
+        src: '/samples/spanish/grid match/Puzzle de Cuadrícula 1 answer_key.webp',
         alt: 'Clave de respuestas de puzzle de cuadrícula mostrando imagen completa con círculos amarillos numerados superpuestos en cada celda indicando la colocación correcta de piezas',
         caption: 'Clave de respuestas autogenerada — círculos numerados (#ffffe0) muestran la colocación correcta de piezas en la imagen completa',
       },

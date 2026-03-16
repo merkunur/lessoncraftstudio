@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de sopa de letras adecuada para vender como descarga digital en Etsy o compilar en libro de puzles Amazon KDP' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de sopa de letras adecuada para vender como descarga digital en Etsy o compilar en libro de puzles Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras temática de animales para Etsy y KDP', caption: 'Los puzles de sopas de letras se venden en ambas plataformas — como descargas digitales individuales en Etsy y compilados en libros de puzles en KDP' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de sumas para descarga digital Etsy o libro de actividades KDP', caption: 'Las fichas de matemáticas funcionan como individuales y paquetes pequeños en Etsy o compiladas en libros de actividades de matemáticas KDP' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear para venta tanto en Etsy como KDP', caption: 'Las páginas para colorear son una categoría principal en ambas plataformas — descargas individuales en Etsy y libros para colorear en KDP' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras temática de animales para Etsy y KDP', caption: 'Los puzles de sopas de letras se venden en ambas plataformas — como descargas digitales individuales en Etsy y compilados en libros de puzles en KDP' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas para descarga digital Etsy o libro de actividades KDP', caption: 'Las fichas de matemáticas funcionan como individuales y paquetes pequeños en Etsy o compiladas en libros de actividades de matemáticas KDP' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear para venta tanto en Etsy como KDP', caption: 'Las páginas para colorear son una categoría principal en ambas plataformas — descargas individuales en Etsy y libros para colorear en KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear fichas imprimibles para Etsy y Amazon KDP — Tutorial paso a paso',

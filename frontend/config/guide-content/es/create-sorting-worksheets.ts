@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Ficha de clasificación en dos categorías con marcos de categoría de borde discontinuo y cuadrícula de recortables mezclados para actividades de clasificación' },
+    heroImage: { src: '/samples/spanish/picture sort/Clasificación de Imágenes 2.webp', alt: 'Ficha de clasificación en dos categorías con marcos de categoría de borde discontinuo y cuadrícula de recortables mezclados para actividades de clasificación' },
     samples: [
-      { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Ficha de clasificación de imágenes mostrando dos marcos de categoría lado a lado y cuadrícula de recortables mezclados debajo', caption: 'Ficha de clasificación en dos categorías con marcos de categoría lado a lado y cuadrícula de recortables mezclados' },
-      { src: '/samples/english/picture sort/Picture Sort answer_key.webp', alt: 'Clave de respuestas autogenerada con imágenes ampliadas clasificadas en las cajas de categoría correctas', caption: 'Clave de respuestas autogenerada con imágenes mostradas a seis veces el tamaño de la celda de la cuadrícula de recortables' },
+      { src: '/samples/spanish/picture sort/Clasificación de Imágenes 2.webp', alt: 'Ficha de clasificación de imágenes mostrando dos marcos de categoría lado a lado y cuadrícula de recortables mezclados debajo', caption: 'Ficha de clasificación en dos categorías con marcos de categoría lado a lado y cuadrícula de recortables mezclados' },
+      { src: '/samples/spanish/picture sort/Clasificación de Imágenes 1 answer_key.webp', alt: 'Clave de respuestas autogenerada con imágenes ampliadas clasificadas en las cajas de categoría correctas', caption: 'Clave de respuestas autogenerada con imágenes mostradas a seis veces el tamaño de la celda de la cuadrícula de recortables' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Cómo crear fichas de clasificación por categorías — Tutorial completo',

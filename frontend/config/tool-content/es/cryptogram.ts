@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp',
       primaryAlt: 'Ficha de criptograma con cifrado de imágenes mostrando imágenes temáticas asociadas a letras del alfabeto codificando una frase secreta',
     },
     sampleGallery: [
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp',
         alt: 'Ficha de criptograma con imágenes temáticas reemplazando letras en una frase secreta codificada',
         caption: 'Puzzle de cifrado con imágenes — descifra el mensaje secreto identificando qué imagen representa cada letra',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 2.webp',
         alt: 'Ficha de criptograma con tema de animales y pistas de Letras a Revelar para dificultad con andamiaje',
         caption: 'Cifrado temático con Letras a Revelar — las asociaciones preresueltas proporcionan andamiaje para principiantes',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1 answer_key.webp',
         alt: 'Clave de respuestas del criptograma con leyenda de letras completa mostrando todas las asociaciones alfabeto-imagen en orden',
         caption: 'Leyenda de letras con clave de respuestas — cada letra del alfabeto emparejada con su imagen asignada para referencia definitiva',
       },

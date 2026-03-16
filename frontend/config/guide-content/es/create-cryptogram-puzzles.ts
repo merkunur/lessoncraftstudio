@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Ficha de criptograma con cifrado de imágenes mostrando imágenes temáticas asociadas a letras del alfabeto codificando una frase secreta' },
+    heroImage: { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp', alt: 'Ficha de criptograma con cifrado de imágenes mostrando imágenes temáticas asociadas a letras del alfabeto codificando una frase secreta' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Ficha de criptograma con imágenes temáticas reemplazando letras en una frase secreta codificada', caption: 'Puzzle de cifrado con imágenes — descifra el mensaje secreto identificando qué imagen representa qué letra' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp', alt: 'Ficha de criptograma con imágenes temáticas y pistas de Letras a Revelar para dificultad progresiva', caption: 'Cifrado temático con Letras a Revelar — correspondencias pre-resueltas proporcionan andamiaje para principiantes' },
-      { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Clave de respuestas de criptograma con leyenda de letras completa mostrando todas las correspondencias alfabeto-imagen en orden', caption: 'Clave de respuestas con leyenda de letras — cada letra del alfabeto emparejada con su imagen asignada como referencia de solución definitiva' },
+      { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp', alt: 'Ficha de criptograma con imágenes temáticas reemplazando letras en una frase secreta codificada', caption: 'Puzzle de cifrado con imágenes — descifra el mensaje secreto identificando qué imagen representa qué letra' },
+      { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 2.webp', alt: 'Ficha de criptograma con imágenes temáticas y pistas de Letras a Revelar para dificultad progresiva', caption: 'Cifrado temático con Letras a Revelar — correspondencias pre-resueltas proporcionan andamiaje para principiantes' },
+      { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1 answer_key.webp', alt: 'Clave de respuestas de criptograma con leyenda de letras completa mostrando todas las correspondencias alfabeto-imagen en orden', caption: 'Clave de respuestas con leyenda de letras — cada letra del alfabeto emparejada con su imagen asignada como referencia de solución definitiva' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Cómo crear puzzles de criptogramas con cifrado de imágenes — Tutorial paso a paso',

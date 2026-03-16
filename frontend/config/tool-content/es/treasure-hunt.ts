@@ -213,17 +213,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+      primary: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp',
       primaryAlt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas 5 por 5, 6 imágenes temáticas distribuidas como puntos de referencia, pistas direccionales y encabezado temático de tesoro verde azulado con título dorado',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+        src: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 1.webp',
         alt: 'Puzzle de búsqueda del tesoro con pistas de dirección Cardinal usando norte, sur, este y oeste en una cuadrícula de coordenadas 5 por 5',
         caption: 'Modo de dirección Cardinal — direcciones de brújula para razonamiento espacial avanzado y habilidades de lectura de mapas',
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: '/samples/spanish/treasure hunt/Búsqueda del Tesoro 2.webp',
         alt: 'Clave de respuestas de búsqueda del tesoro con la celda final del tesoro resaltada en amarillo pálido en la cuadrícula de coordenadas 5 por 5',
         caption: 'Clave de respuestas autogenerada — el resaltado en amarillo pálido marca el destino del tesoro para autocorrección',
       },

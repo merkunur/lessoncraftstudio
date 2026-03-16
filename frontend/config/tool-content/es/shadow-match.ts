@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/shadow match/shadow-match-worksheet.webp',
+      primary: '/samples/spanish/shadow match/Empareja las Sombras 1.webp',
       primaryAlt: 'Ficha de asociación de sombras con imágenes a color en la fila superior y siluetas negras autogeneradas en la fila inferior con encabezado ámbar y etiquetas letra-número para actividad de asociación',
     },
     sampleGallery: [
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 4.webp',
         alt: 'Ficha de asociación de sombras con cuatro imágenes a color asociadas a cuatro siluetas negras generadas a nivel de píxel con etiquetas A B C D y 1 2 3 4',
         caption: 'Modo Asociación de Sombras — los alumnos asocian imágenes con sus siluetas autogeneradas a nivel de píxel',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-vertical.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 3.webp',
         alt: 'Ficha Completa la Imagen con mitades de imagen dividida que los alumnos reconectan asociando primeras y segundas mitades etiquetadas A a D y 1 a 4',
         caption: 'Modo Completa la Imagen — los alumnos asocian mitades de imagen dividida para completar imágenes con cortes horizontales o verticales',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp',
         alt: 'Clave de respuestas de asociación de sombras mostrando imágenes originales junto a siluetas con etiquetas de coincidencia correcta letra-número como A a 2',
         caption: 'Clave de respuestas autogenerada — etiquetas letra-número muestran las coincidencias correctas para ambos modos de ejercicio',
       },

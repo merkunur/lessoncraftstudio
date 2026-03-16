@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconocimiento de patrones con imágenes temáticas mostrando ejercicios de completar patrones visuales para niños' },
+    heroImage: { src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp', alt: 'Ficha de reconocimiento de patrones con imágenes temáticas mostrando ejercicios de completar patrones visuales para niños' },
     samples: [
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconocimiento de patrones con tema de animales mostrando ejercicios de patrones AB y ABC', caption: 'Ficha de reconocimiento de patrones usando imágenes temáticas con múltiples tipos de patrones y clave de respuestas automática' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Clave de respuestas de ficha de patrones mostrando los patrones completados con las imágenes correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de patrones para corrección rápida' },
+      { src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp', alt: 'Ficha de reconocimiento de patrones con tema de animales mostrando ejercicios de patrones AB y ABC', caption: 'Ficha de reconocimiento de patrones usando imágenes temáticas con múltiples tipos de patrones y clave de respuestas automática' },
+      { src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp', alt: 'Clave de respuestas de ficha de patrones mostrando los patrones completados con las imágenes correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de patrones para corrección rápida' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Cómo crear fichas de reconocimiento de patrones — Tutorial completo',

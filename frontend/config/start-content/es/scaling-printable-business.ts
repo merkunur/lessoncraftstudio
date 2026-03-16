@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de dibujo en cuadrícula demostrando la gama creativa para escalar un negocio de imprimibles' },
+    heroImage: { src: '/samples/spanish/draw and color/Dibuja y Colorea 1.webp', alt: 'Ficha de dibujo en cuadrícula demostrando la gama creativa para escalar un negocio de imprimibles' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de dibujo en cuadrícula mostrando variedad de temas para expansión del catálogo', caption: 'Dibujo en Cuadrícula — Gama Creativa para Profundidad del Catálogo' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle de sopa de letras demostrando escalabilidad de alto volumen en múltiples temas', caption: 'Sopa de Letras — Mayor Potencial de Escalado en Volumen' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear mostrando escalabilidad internacional sin dependencia lingüística', caption: 'Colorear — Escalado Internacional sin Traducción' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle de sudoku demostrando distribución de producto agnóstica de plataforma', caption: 'Sudoku — Distribución Agnóstica de Plataforma' },
+      { src: '/samples/spanish/draw and color/Dibuja y Colorea 1.webp', alt: 'Ficha de dibujo en cuadrícula mostrando variedad de temas para expansión del catálogo', caption: 'Dibujo en Cuadrícula — Gama Creativa para Profundidad del Catálogo' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Puzzle de sopa de letras demostrando escalabilidad de alto volumen en múltiples temas', caption: 'Sopa de Letras — Mayor Potencial de Escalado en Volumen' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear mostrando escalabilidad internacional sin dependencia lingüística', caption: 'Colorear — Escalado Internacional sin Traducción' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Puzzle de sudoku demostrando distribución de producto agnóstica de plataforma', caption: 'Sudoku — Distribución Agnóstica de Plataforma' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Cómo Crear Fichas de Dibujo en Cuadrícula para tu Negocio de Imprimibles — Demo de LessonCraftStudio',

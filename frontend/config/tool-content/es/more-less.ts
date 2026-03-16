@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).webp',
+      primary: '/samples/spanish/more less/Más Menos 1.webp',
       primaryAlt: 'Ficha de mayor que menor que con grupos de imágenes para comparación mostrando ejercicios de mayor que y menor que',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).webp',
+        src: '/samples/spanish/more less/Más Menos 1.webp',
         alt: 'Ficha de comparación Imagen a Imagen con tema de animales mostrando dos grupos de imágenes lado a lado',
         caption: 'Modo Imagen a Imagen con tema de animales',
       },
       {
-        src: '/samples/english/more less/More Less (12).webp',
+        src: '/samples/spanish/more less/Más Menos 2.webp',
         alt: 'Ficha de comparación Imagen a Número conectando el conteo visual con números escritos',
         caption: 'Modo Imagen a Número — conecta imágenes y números',
       },
       {
-        src: '/samples/english/more less/More Less (14).webp',
+        src: '/samples/spanish/more less/Más Menos 3.webp',
         alt: 'Ficha de Marca y Tacha Grupos con imágenes mezcladas para clasificar y comparar',
         caption: 'Marca y Tacha Grupos — modo exclusivo de clasificación y comparación',
       },

@@ -207,22 +207,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition Fun 1.webp',
+      primary: '/samples/spanish/addition/Suma Divertida 1.webp',
       primaryAlt: 'Ficha de suma con imágenes de animales mostrando ejercicios de matemáticas basados en imágenes',
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/spanish/addition/Suma Divertida 1.webp',
         alt: 'Ficha de suma con tema de animales en modo Imagen + Imagen',
         caption: 'Modo Imagen + Imagen con tema de animales',
       },
       {
-        src: '/samples/english/addition/addition_worksheet portrait.webp',
+        src: '/samples/spanish/addition/Suma Divertida 1.webp',
         alt: 'Ficha de suma con imágenes de comida en modo Encontrar el Sumando',
         caption: 'Modo Encontrar el Sumando con tema de comida',
       },
       {
-        src: '/samples/english/addition/image and number.webp',
+        src: '/samples/spanish/addition/Suma Divertida 4.webp',
         alt: 'Ficha de suma en modo mixto con imágenes de vehículos y borde decorativo',
         caption: 'Modo mixto con vehículos y borde decorativo',
       },

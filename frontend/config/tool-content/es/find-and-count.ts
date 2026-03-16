@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find and count/find and count portrait.webp',
+      primary: '/samples/spanish/find and count/Veo Veo 1.webp',
       primaryAlt: 'Ficha yo espío busca y cuenta con imágenes dispersas en una cuadrícula configurable, borde de encabezado azul e instrucciones de cuatro tipos de tarea para rodear, cuadrado, tachar y contar',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find and count/find and count portrait.webp',
+        src: '/samples/spanish/find and count/Veo Veo 1.webp',
         alt: 'Ficha yo espío busca y cuenta en modo retrato con cuadrícula de imágenes dispersas e imágenes temáticas entre objetos distractores',
         caption: 'Modo Objeto Oculto — yo espío clásico con tipos de tarea rodear, cuadrado, tachar y contar en una cuadrícula de imágenes dispersas',
       },
       {
-        src: '/samples/english/find and count/find and count landscape.webp',
+        src: '/samples/spanish/find and count/Veo Veo 2.webp',
         alt: 'Clave de respuesta busca y cuenta con anotaciones rojas de círculo, cuadrado y cruz sobre objetos objetivo correctos y conteos de cantidad',
         caption: 'Clave de respuesta autogenerada — anotaciones rojas marcan círculos, cuadrados, cruces y totales de conteo para cada objeto objetivo',
       },

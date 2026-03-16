@@ -213,17 +213,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_worksheet.webp',
+      primary: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp',
       primaryAlt: 'Crucigrama con imágenes con pistas visuales en una cuadrícula de 15 por 15 con posiciones de pista numeradas y encabezado localizado azul',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_worksheet (1).webp',
+        src: '/samples/spanish/crossword/Crucigrama con Dibujos 2.webp',
         alt: 'Crucigrama con lista de palabras personalizada con pistas de texto y cuadrícula de crucigrama mostrando el formato de entrada PALABRA pista',
         caption: 'Modo Lista de Palabras Personalizadas — crucigramas tradicionales con pistas de texto y tu propio vocabulario',
       },
       {
-        src: '/samples/english/crossword/crossword_worksheet (5).webp',
+        src: '/samples/spanish/crossword/Crucigrama con Dibujos 3.webp',
         alt: 'Clave de respuestas del crucigrama con todas las letras correctas rellenadas en las celdas de la cuadrícula 15 por 15',
         caption: 'Clave de respuestas autogenerada — la cuadrícula completada muestra todas las respuestas correctas para autocorrección',
       },

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/spanish/addition/Suma Divertida 1.webp',
       alt: 'Ficha de suma profesional que demuestra contenido educativo perenne para ingresos recurrentes',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/spanish/addition/Suma Divertida 1.webp',
         alt: 'Ficha de suma mostrando formato de calidad profesional para ventas en marketplaces',
         caption: 'Las fichas de matemáticas generan ingresos constantes durante todo el año como productos educativos perennes',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Sopa de letras disponible en múltiples idiomas para un alcance de mercado ampliado',
         caption: 'Las sopas de letras multilingües multiplican ingresos al alcanzar mercados internacionales desatendidos',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
         alt: 'Ficha de emparejamiento temática que demuestra profundidad de catálogo a través de la versatilidad temática',
         caption: 'Las actividades temáticas de emparejamiento construyen profundidad de catálogo que impulsa la descubribilidad compuesta',
       },

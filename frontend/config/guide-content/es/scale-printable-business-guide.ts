@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de suma profesional demostrando la calidad de producto que respalda el crecimiento escalable de un negocio de imprimibles' },
+    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma profesional demostrando la calidad de producto que respalda el crecimiento escalable de un negocio de imprimibles' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de suma con imágenes temáticas mostrando la diversidad de productos para el escalamiento del catálogo', caption: 'Las variaciones temáticas de fichas demuestran cómo un concepto de producto escala en múltiples listados a través de temas, grados e idiomas' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras mostrando el potencial de escalamiento multilingüe', caption: 'Las sopas de letras creadas en 11 idiomas multiplican tu catálogo sin multiplicar el esfuerzo creativo — el mismo concepto alcanza mercados internacionales' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de emparejamiento demostrando la expansión sistemática del catálogo a través de variaciones temáticas', caption: 'Las fichas de emparejamiento a través de temas muestran la extensión sistemática de línea de productos — cada nuevo tema añade productos usando formatos probados y recursos de imágenes existentes' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con imágenes temáticas mostrando la diversidad de productos para el escalamiento del catálogo', caption: 'Las variaciones temáticas de fichas demuestran cómo un concepto de producto escala en múltiples listados a través de temas, grados e idiomas' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras mostrando el potencial de escalamiento multilingüe', caption: 'Las sopas de letras creadas en 11 idiomas multiplican tu catálogo sin multiplicar el esfuerzo creativo — el mismo concepto alcanza mercados internacionales' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de emparejamiento demostrando la expansión sistemática del catálogo a través de variaciones temáticas', caption: 'Las fichas de emparejamiento a través de temas muestran la extensión sistemática de línea de productos — cada nuevo tema añade productos usando formatos probados y recursos de imágenes existentes' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Cómo crear páginas para colorear con Dibujar y Colorear — Demostrando la gama creativa para el escalamiento del catálogo',

@@ -217,16 +217,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition Fun 1.webp',
+      primary: '/samples/spanish/addition/Suma Divertida 1.webp',
       primaryAlt: 'Ficha de suma con imágenes temáticas mostrando problemas de conteo visual',
     },
     sampleGallery: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de suma con imágenes temáticas de animales', caption: 'Ficha de Suma' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Ficha de resta con conteo por tachado', caption: 'Ficha de Resta' },
-      { src: '/samples/english/code addition/Code Breaker Addition 1.webp', alt: 'Puzzle de suma codificada con decodificación de letras', caption: 'Puzzle de Suma Codificada' },
-      { src: '/samples/english/more less/More Less (10).webp', alt: 'Ficha de comparación mayor que menor que', caption: 'Ficha Más o Menos' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Puzzle de cuadrícula matemática con ecuaciones', caption: 'Ficha de Puzzle Matemático' },
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Puzzle de álgebra visual con variables de imagen', caption: 'Puzzle Algebraico Ilustrado' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con imágenes temáticas de animales', caption: 'Ficha de Suma' },
+      { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de resta con conteo por tachado', caption: 'Ficha de Resta' },
+      { src: '/samples/spanish/code addition/Código Secreto Suma 1.webp', alt: 'Puzzle de suma codificada con decodificación de letras', caption: 'Puzzle de Suma Codificada' },
+      { src: '/samples/spanish/more less/Más Menos 1.webp', alt: 'Ficha de comparación mayor que menor que', caption: 'Ficha Más o Menos' },
+      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp', alt: 'Puzzle de cuadrícula matemática con ecuaciones', caption: 'Ficha de Puzzle Matemático' },
+      { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp', alt: 'Puzzle de álgebra visual con variables de imagen', caption: 'Puzzle Algebraico Ilustrado' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Paquete Dominio de Matemáticas — Los 6 Generadores en Acción',

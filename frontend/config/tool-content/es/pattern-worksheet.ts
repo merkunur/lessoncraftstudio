@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern worksheet/pattern_worksheet.webp',
+      primary: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp',
       primaryAlt: 'Ficha de reconocimiento de patrones con ejercicios en cuadrícula mostrando secuencias de imágenes repetitivas con casillas vacías y opciones múltiples para que los alumnos completen',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (1).webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 2.webp',
         alt: 'Ficha de patrones con ejercicios AB de casilla vacía usando imágenes de animales en un diseño de cuadrícula con espacios vacíos para que los alumnos completen',
         caption: 'Ejercicios AB de casilla vacía con tema de animales — los alumnos identifican el patrón alternante y rellenan la imagen faltante',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_worksheet (5).webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 3.webp',
         alt: 'Ficha de patrones con ejercicios ABC de opción múltiple usando imágenes de vehículos con tres opciones de respuesta por ejercicio',
         caption: 'Ejercicios ABC de opción múltiple con tema de vehículos — los alumnos eligen el elemento faltante correcto entre tres opciones',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern_answer_key.webp',
+        src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1 answer_key.webp',
         alt: 'Clave de respuestas de la ficha de patrones mostrando todas las posiciones vacías rellenadas con los elementos correctos del patrón para verificación',
         caption: 'Vista de clave de respuestas — todos los espacios vacíos rellenados con los elementos correctos del patrón para verificación del maestro',
       },

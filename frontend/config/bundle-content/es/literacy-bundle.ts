@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
       primaryAlt: 'Ficha de sopa de letras con cuadrícula de vocabulario temático y clave de respuesta codificada por colores',
     },
     sampleGallery: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Ficha de tren del abecedario con vagones de asociación letra-imagen', caption: 'Ficha Tren del Abecedario' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Ficha de preposiciones mostrando relaciones espaciales con imágenes', caption: 'Ficha de Preposiciones' },
-      { src: '/samples/english/word guess/clue-grid_worksheet.webp', alt: 'Ficha de adivinar palabras con pistas de imágenes y espacios para letras', caption: 'Ficha de Adivinar Palabras' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Ficha de letras revueltas con fichas de letras codificadas por color', caption: 'Ficha de Letras Revueltas' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Cuadrícula de sopa de letras con palabras de vocabulario ocultas', caption: 'Ficha de Sopa de Letras' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Puzzle de criptograma con cifrado de imágenes', caption: 'Ficha de Criptograma' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Ficha de práctica de escritura con trazos de letras guiados', caption: 'Ficha de Escritura' },
+      { src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp', alt: 'Ficha de tren del abecedario con vagones de asociación letra-imagen', caption: 'Ficha Tren del Abecedario' },
+      { src: '/samples/spanish/prepositions/Preposiciones 1.webp', alt: 'Ficha de preposiciones mostrando relaciones espaciales con imágenes', caption: 'Ficha de Preposiciones' },
+      { src: '/samples/spanish/word guess/Adivina la Palabra 1.webp', alt: 'Ficha de adivinar palabras con pistas de imágenes y espacios para letras', caption: 'Ficha de Adivinar Palabras' },
+      { src: '/samples/spanish/word scramble/Palabras Revueltas 1.webp', alt: 'Ficha de letras revueltas con fichas de letras codificadas por color', caption: 'Ficha de Letras Revueltas' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Cuadrícula de sopa de letras con palabras de vocabulario ocultas', caption: 'Ficha de Sopa de Letras' },
+      { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp', alt: 'Puzzle de criptograma con cifrado de imágenes', caption: 'Ficha de Criptograma' },
+      { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de práctica de escritura con trazos de letras guiados', caption: 'Ficha de Escritura' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Paquete Lectura y Lenguaje — Los 7 Generadores en Acción',

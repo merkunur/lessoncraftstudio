@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Ficha de puzle de rompecabezas con huecos recortados de una ilustración colorida y opciones de solución numeradas incluyendo distractoras debajo con encabezado turquesa Piezas faltantes y enmarcado de borde dual teal-rosa' },
+    heroImage: { src: '/samples/spanish/missing pieces/Piezas Perdidas 2.webp', alt: 'Ficha de puzle de rompecabezas con huecos recortados de una ilustración colorida y opciones de solución numeradas incluyendo distractoras debajo con encabezado turquesa Piezas faltantes y enmarcado de borde dual teal-rosa' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Ficha de puzle de piezas faltantes mostrando una imagen con huecos recortados y opciones de solución numeradas debajo con encabezado de borde dual', caption: 'Ficha de puzle de rompecabezas con piezas extraídas inteligentemente y opciones de solución numeradas incluyendo distractoras' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Clave de respuestas autogenerada con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando el índice de la opción correcta', caption: 'Clave de respuestas autogenerada con etiquetas resaltadas en amarillo mostrando la opción correcta para cada hueco' },
+      { src: '/samples/spanish/missing pieces/Piezas Perdidas 2.webp', alt: 'Ficha de puzle de piezas faltantes mostrando una imagen con huecos recortados y opciones de solución numeradas debajo con encabezado de borde dual', caption: 'Ficha de puzle de rompecabezas con piezas extraídas inteligentemente y opciones de solución numeradas incluyendo distractoras' },
+      { src: '/samples/spanish/missing pieces/Piezas Perdidas 1 answer_key.webp', alt: 'Clave de respuestas autogenerada con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando el índice de la opción correcta', caption: 'Clave de respuestas autogenerada con etiquetas resaltadas en amarillo mostrando la opción correcta para cada hueco' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Cómo crear puzles de piezas faltantes — Tutorial completo',

@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Ficha de puzle de sopa de letras mostrando producto imprimible educativo multi-palabra clave para optimización SEO Etsy' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp', alt: 'Ficha de puzle de sopa de letras mostrando producto imprimible educativo multi-palabra clave para optimización SEO Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras temática de animales demostrando segmentación de palabras clave por tema en Etsy', caption: 'Sopa de letras con tema de animales — cada variación de idioma y tema apunta a diferentes palabras clave de búsqueda en Etsy' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de sumas temática de animales apuntando a palabras clave de alto volumen de imprimibles matemáticos en Etsy', caption: 'Ficha de sumas con tema de animales — apunta a palabras clave de alto volumen de imprimibles matemáticos en Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Página para colorear de animales mostrando estrategia de palabras clave por tema en Etsy para vendedores de imprimibles', caption: 'Página para colorear con tema de animales — las palabras clave específicas por tema generan tráfico de búsqueda segmentado en Etsy' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras temática de animales demostrando segmentación de palabras clave por tema en Etsy', caption: 'Sopa de letras con tema de animales — cada variación de idioma y tema apunta a diferentes palabras clave de búsqueda en Etsy' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas temática de animales apuntando a palabras clave de alto volumen de imprimibles matemáticos en Etsy', caption: 'Ficha de sumas con tema de animales — apunta a palabras clave de alto volumen de imprimibles matemáticos en Etsy' },
+      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear de animales mostrando estrategia de palabras clave por tema en Etsy para vendedores de imprimibles', caption: 'Página para colorear con tema de animales — las palabras clave específicas por tema generan tráfico de búsqueda segmentado en Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear fichas de sopa de letras para SEO Etsy — Estrategia de productos multi-palabra clave',

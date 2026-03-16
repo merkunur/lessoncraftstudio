@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card.webp',
+      primary: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
       primaryAlt: 'Tarjeta de bingo con imágenes temáticas en una cuadrícula configurable y fichas circulares con bordes punteados debajo para asociación durante el juego de bingo',
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: '/samples/spanish/bingo/Bingo de Imágenes 2.webp',
         alt: 'Tarjeta de bingo con relleno de imagen mostrando ilustraciones temáticas a color en celdas de la cuadrícula y fichas circulares con imágenes y bordes punteados',
         caption: 'Modo de relleno de imagen — ilustraciones a color en celdas de la tarjeta y fichas circulares para bingo visual',
       },
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: '/samples/spanish/bingo/Bingo de Imágenes 3.webp',
         alt: 'Tarjeta de bingo con relleno de palabra mostrando nombres localizados de imágenes en celdas de la cuadrícula y fichas con palabras para bingo de vocabulario',
         caption: 'Modo de relleno de palabra — nombres localizados de imágenes para productos de bingo de vocabulario multilingüe',
       },
       {
-        src: '/samples/english/bingo/callout.webp',
+        src: '/samples/spanish/bingo/Bingo de Imágenes 1 callout.webp',
         alt: 'Hoja de referencia de bingo con cuadrícula dinámica de palabras mostrando todos los elementos del juego organizados en columnas para el cantante',
         caption: 'Hoja de referencia — cuadrícula dinámica de palabras con columnas calculadas y tamaño de fuente uniforme para el cantante',
       },

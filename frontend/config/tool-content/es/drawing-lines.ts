@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/drawing lines/drawing_lines_horizontal.webp',
+      primary: '/samples/spanish/drawing lines/Practica de Dibujar Línea 1.webp',
       primaryAlt: 'Ficha de trazado de líneas con plantilla SVG de curvas conectando pares de imágenes a color coincidentes en formato horizontal',
     },
     sampleGallery: [
       {
-        src: '/samples/english/drawing lines/drawing_lines_curve 1.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 4.webp',
         alt: 'Ficha de trazado de líneas con plantilla de curvas conectando pares de imágenes de animales a color en orientación horizontal',
         caption: 'Plantilla de curvas — trazos fluidos con 4 pares de imágenes a color en orientación horizontal',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_diagonal 1.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 3.webp',
         alt: 'Ficha de trazado de líneas con plantilla diagonal conectando cinco pares de imágenes en orientación vertical',
         caption: 'Plantilla diagonal — líneas anguladas con 5 pares de imágenes para práctica de coordinación bilateral',
       },
       {
-        src: '/samples/english/drawing lines/drawing_lines_vertical.webp',
+        src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 2.webp',
         alt: 'Ficha de trazado de líneas con plantilla horizontal conectando pares de imágenes temáticas de naturaleza en formato vertical',
         caption: 'Plantilla horizontal — líneas rectas de izquierda a derecha para práctica inicial de motricidad fina',
       },

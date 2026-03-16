@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
       alt: 'Ficha de sopa de letras demostrando el potencial de un negocio de imprimibles multilingüe en mercados internacionales',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Ficha de sopa de letras mostrando la capacidad multilingüe para ventas internacionales de imprimibles',
         caption: 'Las sopas de letras se pueden generar en 11 idiomas, ideales para la expansión multilingüe',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
         alt: 'Ficha de emparejamiento con temas visuales que funcionan en todos los mercados lingüísticos',
         caption: 'Las fichas de emparejamiento visual usan imágenes que se traducen universalmente entre idiomas',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/spanish/addition/Suma Divertida 1.webp',
         alt: 'Ficha de matemáticas de sumas demostrando atractivo universal más allá de las barreras lingüísticas',
         caption: 'Las fichas de matemáticas cruzan las barreras lingüísticas naturalmente ya que los números son universales en todos los mercados',
       },

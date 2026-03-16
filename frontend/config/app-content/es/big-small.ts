@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/big small/big-small-worksheet_worksheet.webp',
+      primary: '/samples/spanish/big small/Grande o Pequeño 1.webp',
       primaryAlt: 'Ficha de comparación de tamaños grande y pequeño con imágenes temáticas a diferentes tamaños mostrando un ejercicio de rodear el más grande',
     },
     sampleGallery: [
       {
-        src: '/samples/english/big small/big-small-different images.webp',
+        src: '/samples/spanish/big small/Grande o Pequeño 2.webp',
         alt: 'Ficha de comparación de tamaños en modo rodea el más grande con imágenes temáticas de animales a diferentes tamaños',
         caption: 'Modo Rodea el Más Grande — los alumnos identifican la imagen más grande en cada ejercicio',
       },
       {
-        src: '/samples/english/big small/big-small number 1-2-3.webp',
+        src: '/samples/spanish/big small/Grande o Pequeño 3.webp',
         alt: 'Ficha de comparación de tamaños en modo numeración con tres imágenes a ordenar del más pequeño al más grande',
         caption: 'Numerar 1–2–3 del Más Pequeño al Más Grande — los alumnos ordenan las imágenes por tamaño ascendente',
       },
       {
-        src: '/samples/english/big small/big-small identical images.webp',
+        src: '/samples/spanish/big small/Grande o Pequeño 4.webp',
         alt: 'Ficha de comparación de tamaños usando el modo imágenes idénticas con la misma imagen a tres tamaños diferentes',
         caption: 'Modo Imágenes Idénticas — misma imagen a diferentes tamaños para ejercicios de percepción pura del tamaño',
       },

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find objects/spotworks_worksheet.webp',
+      primary: '/samples/spanish/find objects/Encuentra el Diferente 1.webp',
       primaryAlt: 'Ficha de objetos ocultos Yo Espío con imágenes dispersas usando algoritmo sin superposición, leyenda inferior mostrando objetos a encontrar y encabezado decorativo en fuente Fredoka',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find objects/spotworks_worksheet (1).webp',
+        src: '/samples/spanish/find objects/Encuentra el Diferente 2.webp',
         alt: 'Escena de objetos ocultos Yo Espío con imágenes dispersas y leyenda mostrando objetos objetivo en la parte inferior de la ficha',
         caption: 'Modo Yo Espío — escena de objetos ocultos en forma libre con posicionamiento sin superposición y leyenda inferior',
       },
       {
-        src: '/samples/english/find objects/spotworks_worksheet (5).webp',
+        src: '/samples/spanish/find objects/Encuentra el Diferente 3.webp',
         alt: 'Ficha Encuentra el Diferente con imágenes emparejadas en filas y elementos sin pareja a identificar renderizados un 50 por ciento más grandes',
         caption: 'Modo Encuentra el Diferente — imágenes emparejadas con elementos sin pareja para actividades de discriminación visual',
       },
       {
-        src: '/samples/english/find objects/spotworks_answer_key.webp',
+        src: '/samples/spanish/find objects/Encuentra el Diferente 1 answer_key.webp',
         alt: 'Clave de respuestas de ficha de objetos ocultos con círculos rojos dibujados alrededor de los objetos objetivo de 3 a 5 píxeles más grandes que cada objeto',
         caption: 'Clave de respuestas autogenerada — anotaciones de círculos rojos marcan objetos ocultos y sin pareja para autocorrección',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Recurso de sopa de letras optimizado para visibilidad y ventas en tienda Teachers Pay Teachers' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Recurso de sopa de letras optimizado para visibilidad y ventas en tienda Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras optimizada para crecimiento de catálogo de tienda TPT', caption: 'Las sopas de letras están entre los recursos TPT más versátiles — crea variaciones temáticas estacionales para expansión rápida del catálogo' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Ficha de puzle matemático para diferenciación de tienda TPT', caption: 'Los formatos únicos de puzles matemáticos enfrentan menor competencia en TPT que las fichas estándar — una estrategia de diferenciación para categorías saturadas' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Actividad de crucigrama para recursos de vocabulario TPT', caption: 'Los crucigramas son actividades de vocabulario de alta demanda que los profesores buscan por asignatura y nivel de grado en TPT' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras optimizada para crecimiento de catálogo de tienda TPT', caption: 'Las sopas de letras están entre los recursos TPT más versátiles — crea variaciones temáticas estacionales para expansión rápida del catálogo' },
+      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp', alt: 'Ficha de puzle matemático para diferenciación de tienda TPT', caption: 'Los formatos únicos de puzles matemáticos enfrentan menor competencia en TPT que las fichas estándar — una estrategia de diferenciación para categorías saturadas' },
+      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Actividad de crucigrama para recursos de vocabulario TPT', caption: 'Los crucigramas son actividades de vocabulario de alta demanda que los profesores buscan por asignatura y nivel de grado en TPT' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras para tu tienda TPT — Tutorial de optimización',

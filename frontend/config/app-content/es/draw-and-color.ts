@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/draw and color/grid-drawing_worksheet.webp',
+      primary: '/samples/spanish/draw and color/Dibuja y Colorea 1.webp',
       primaryAlt: 'Ficha de dibujo en cuadrícula con sistema de doble cuadrícula mostrando cuadrícula de práctica y cuadrícula de pistas con tema de contornos en blanco y negro',
     },
     sampleGallery: [
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp',
+        src: '/samples/spanish/draw and color/Dibuja y Colorea 2.webp',
         alt: 'Ficha de dibujo en cuadrícula con tema animales de contornos en blanco y negro al 25 % de porcentaje de pistas mostrando cuadrícula de práctica y cuadrícula de pistas',
         caption: 'Tema animales al 25 % de pistas — los alumnos reproducen el contorno a partir de pistas dispersas en la cuadrícula',
       },
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp',
+        src: '/samples/spanish/draw and color/Dibuja y Colorea 5.webp',
         alt: 'Ficha de dibujo en cuadrícula usando modo simetría espejo horizontal con celdas de pistas reflejadas de izquierda a derecha',
         caption: 'Modo simetría horizontal — las celdas de pistas se reflejan de izquierda a derecha para práctica de razonamiento espacial',
       },
       {
-        src: '/samples/english/draw and color/grid-drawing_worksheet (10).webp',
+        src: '/samples/spanish/draw and color/Dibuja y Colorea 10.webp',
         alt: 'Ficha de dibujo en cuadrícula con 10 % de porcentaje de pistas mostrando celdas de referencia mínimas para un desafío de nivel experto',
         caption: 'Desafío 10 % de pistas — celdas de referencia mínimas para reproducción en cuadrícula de nivel experto',
       },

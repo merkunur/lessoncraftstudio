@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
+      primary: '/samples/spanish/word guess/Adivina la Palabra 1.webp',
       primaryAlt: 'Ficha de adivinar palabras mostrando pistas con imágenes combinadas con cuadrículas de letras con espacios en blanco para práctica de ortografía',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.webp',
+        src: '/samples/spanish/word guess/Adivina la Palabra 1.webp',
         alt: 'Ficha de adivinar palabras con pistas de imágenes y cuadrículas de letras parcialmente completas para práctica de ortografía',
         caption: 'Ejercicios de adivinar palabras con imágenes y niveles de pista progresivos',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/spanish/word guess/Adivina la Palabra 2.webp',
         alt: 'Ficha de adivinar palabras mostrando múltiples niveles de dificultad con diferentes cantidades de letras reveladas',
         caption: 'Dificultad de pistas ajustable desde Fácil hasta Sin Pistas',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (4).webp',
+        src: '/samples/spanish/word guess/Adivina la Palabra 3.webp',
         alt: 'Ficha de adivinar palabras con colección temática de imágenes y cuadrículas de letras coloridas',
         caption: 'Las colecciones temáticas crean packs coherentes de actividades de ortografía',
       },

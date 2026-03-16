@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de sopas de letras Amazon KDP' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de sopas de letras Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras temática de animales formateada para libro de sopas de letras KDP', caption: 'Sopa de letras temática de animales — las listas de palabras temáticas crean contenido atractivo que supera a las colecciones de palabras aleatorias en reseñas de compradores' },
-      { src: '/samples/english/wordsearch/custom word list.webp', alt: 'Sopa de letras temática de alimentos para libro KDP', caption: 'Sopa de letras temática de alimentos — las secciones temáticas añaden estructura editorial que distingue los libros profesionales de las compilaciones amateur' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crucigrama para catálogo compañero de puzles KDP', caption: 'Crucigrama — tipo de puzle compañero para diversificación de catálogo y promoción cruzada con títulos de sopas de letras' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras temática de animales formateada para libro de sopas de letras KDP', caption: 'Sopa de letras temática de animales — las listas de palabras temáticas crean contenido atractivo que supera a las colecciones de palabras aleatorias en reseñas de compradores' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 3.webp', alt: 'Sopa de letras temática de alimentos para libro KDP', caption: 'Sopa de letras temática de alimentos — las secciones temáticas añaden estructura editorial que distingue los libros profesionales de las compilaciones amateur' },
+      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama para catálogo compañero de puzles KDP', caption: 'Crucigrama — tipo de puzle compañero para diversificación de catálogo y promoción cruzada con títulos de sopas de letras' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras para libros Amazon KDP — Tutorial paso a paso',

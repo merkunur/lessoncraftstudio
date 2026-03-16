@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/sudoku/sudoku_worksheet.webp',
+      primary: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp',
       primaryAlt: 'Ficha de sudoku con imágenes 4×4 con ilustraciones temáticas en una cuadrícula premium con colores de bloque alternos y encabezado de Sudoku con Imágenes',
     },
     sampleGallery: [
       {
-        src: '/samples/english/sudoku/sudoku_easy.webp',
+        src: '/samples/spanish/sudoku/Sudoku de Imágenes 2.webp',
         alt: 'Sudoku con imágenes de dificultad Fácil con 4 celdas vacías y 12 celdas rellenadas en una cuadrícula 4×4',
         caption: 'Dificultad Fácil — 4 celdas vacías para principiantes que aprenden lógica de filas y columnas',
       },
       {
-        src: '/samples/english/sudoku/sudoku hard.webp',
+        src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp',
         alt: 'Sudoku con imágenes de dificultad Difícil con 8 celdas vacías y 8 celdas rellenadas en una cuadrícula 4×4',
         caption: 'Dificultad Difícil — 8 celdas vacías que requieren razonamiento lógico en varios pasos',
       },
       {
-        src: '/samples/english/sudoku/sudoku_answer_key.webp',
+        src: '/samples/spanish/sudoku/Sudoku de Imágenes 1 answer_key.webp',
         alt: 'Clave de respuesta de sudoku con imágenes mostrando la cuadrícula 4×4 completa con las 16 celdas rellenadas',
         caption: 'Clave de respuesta automática — cuadrícula completa con todas las imágenes colocadas',
       },

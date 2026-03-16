@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/spanish/matching/Encuentra Parejas 1.webp',
       primaryAlt: 'Ficha de asociación trazando líneas con imágenes temáticas organizadas en dos columnas con encabezado localizado ¡Relaciona!, números de elementos y puntos decorativos',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
         alt: 'Ficha de asociación de letra inicial con imágenes a la izquierda y sus primeras letras a la derecha para práctica fonética',
         caption: 'Modo Letra Inicial — los alumnos asocian imágenes con sus primeras letras en mayúsculas o minúsculas',
       },
       {
-        src: '/samples/english/matching/image and word.webp',
+        src: '/samples/spanish/matching/Encuentra Parejas 2.webp',
         alt: 'Ficha de asociación de imagen y palabra con pares etiquetados en ambos lados para actividades de refuerzo de vocabulario',
         caption: 'Modo Imagen y Palabra — pares de imágenes etiquetadas en ambos lados para asociación de vocabulario y reconocimiento de palabras',
       },
       {
-        src: '/samples/english/matching/matching portrait answer_key.webp',
+        src: '/samples/spanish/matching/Encuentra Parejas 1 answer_key.webp',
         alt: 'Clave de respuestas de ficha de asociación con líneas de conexión horizontales dibujadas entre los pares correctos para verificación instantánea',
         caption: 'Clave de respuestas autogenerada — líneas de conexión (#555) entre pares correctos para verificación instantánea',
       },

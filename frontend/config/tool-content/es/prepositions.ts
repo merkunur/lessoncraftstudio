@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+      primary: '/samples/spanish/prepositions/Preposiciones 1.webp',
       primaryAlt: 'Ficha de preposiciones mostrando escenas con imágenes y ejercicios de relaciones espaciales para práctica de palabras de posición',
     },
     sampleGallery: [
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 1.webp',
         alt: 'Ficha de preposiciones con ejercicios de rellenar espacios en blanco usando escenas coloridas con imágenes',
         caption: 'Ejercicios de rellenar espacios en blanco con escenas de imágenes',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 2.webp',
         alt: 'Ficha de preposiciones con ejercicios de opción múltiple sobre relaciones espaciales',
         caption: 'Modo opción múltiple para práctica adaptada a principiantes',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (10).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 3.webp',
         alt: 'Ficha avanzada de preposiciones con reemplazo de formas y múltiples ejercicios por página',
         caption: 'El reemplazo de formas crea combinaciones de escenas únicas',
       },

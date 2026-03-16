@@ -209,22 +209,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/Math Puzzles.webp',
+      primary: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp',
       primaryAlt: 'Ficha de puzzle matemático mostrando una cuadrícula de imágenes tipo rompecabezas con ecuaciones de suma y piezas desordenadas',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math puzzle/Math Puzzles (1).webp',
+        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp',
         alt: 'Puzzle matemático tipo rompecabezas con ecuaciones de suma en una cuadrícula de imágenes colorida',
         caption: 'Modo Suma con puzzle de imagen temática',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzles (5).webp',
+        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp',
         alt: 'Ficha de puzzle matemático con ecuaciones de resta y piezas numeradas desordenadas debajo de la cuadrícula',
         caption: 'Modo Resta — resuelve ecuaciones para reconstruir la imagen',
       },
       {
-        src: '/samples/english/math puzzle/Math Puzzles (10).webp',
+        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 4.webp',
         alt: 'Puzzle matemático mixto de suma y resta con cuadrícula grande para alumnos avanzados',
         caption: 'Operaciones mixtas — suma y resta en un solo puzzle',
       },

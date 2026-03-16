@@ -209,12 +209,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de sopa de letras que demuestra la calidad de salida de licencia comercial para vendedores de imprimibles' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de sopa de letras que demuestra la calidad de salida de licencia comercial para vendedores de imprimibles' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de puzzle de sopa de letras lista para venta comercial', caption: 'Sopa de Letras — Mayor Venta Comercial' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de matemáticas de suma con licencia comercial', caption: 'Suma — Básico Permanente de Matemáticas' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Ficha de página para colorear para libros de actividades KDP', caption: 'Colorear — Categoría de Alto Volumen en KDP' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Puzzle de crucigrama que demuestra el valor comercial multilingüe', caption: 'Crucigrama — Valor de Licencia Multilingüe' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de puzzle de sopa de letras lista para venta comercial', caption: 'Sopa de Letras — Mayor Venta Comercial' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de matemáticas de suma con licencia comercial', caption: 'Suma — Básico Permanente de Matemáticas' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Ficha de página para colorear para libros de actividades KDP', caption: 'Colorear — Categoría de Alto Volumen en KDP' },
+      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Puzzle de crucigrama que demuestra el valor comercial multilingüe', caption: 'Crucigrama — Valor de Licencia Multilingüe' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo Crear Fichas de Sopa de Letras para Venta Comercial — Demo de LessonCraftStudio',

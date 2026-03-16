@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/Missing Pieces.webp',
+      primary: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp',
       primaryAlt: 'Ficha de puzzle de piezas faltantes con segmentos de cuadrícula eliminados para desafío de razonamiento espacial',
     },
     sampleGallery: [
-      { src: '/samples/english/missing pieces/Missing Pieces.webp', alt: 'Puzzle de piezas faltantes con segmentos de cuadrícula de imagen eliminados', caption: 'Puzzle de Piezas Faltantes' },
-      { src: '/samples/english/odd one out/Find the Odd One Out.webp', alt: 'Ficha de encuentra el diferente con filas de imágenes similares y una diferente', caption: 'Ficha Encuentra el Diferente' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle de sudoku 4×4 con imágenes temáticas en lugar de números', caption: 'Puzzle de Sudoku de Imágenes' },
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Laberinto de recorrido de imágenes con ruta temática a través de cuadrícula', caption: 'Laberinto de Recorrido de Imágenes' },
+      { src: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp', alt: 'Puzzle de piezas faltantes con segmentos de cuadrícula de imagen eliminados', caption: 'Puzzle de Piezas Faltantes' },
+      { src: '/samples/spanish/odd one out/Encuentra el Diferente 1.webp', alt: 'Ficha de encuentra el diferente con filas de imágenes similares y una diferente', caption: 'Ficha Encuentra el Diferente' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Puzzle de sudoku 4×4 con imágenes temáticas en lugar de números', caption: 'Puzzle de Sudoku de Imágenes' },
+      { src: '/samples/spanish/picture path/Camino de Imágenes 1.webp', alt: 'Laberinto de recorrido de imágenes con ruta temática a través de cuadrícula', caption: 'Laberinto de Recorrido de Imágenes' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Paquete Puzzles y Lógica — Los 4 Generadores en Acción',

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de sumas con ilustraciones temáticas mostrando problemas de matemáticas basados en imágenes para vender en Etsy' },
+    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con ilustraciones temáticas mostrando problemas de matemáticas basados en imágenes para vender en Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de sumas con tema de animales creada para anuncio de descarga digital en Etsy', caption: 'Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean fotos de anuncio llamativas en Etsy' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Ficha de restas complementando productos de sumas en una tienda Etsy de fichas de matemáticas', caption: 'Ficha de restas — compañera natural de venta cruzada para anuncios de sumas en tu tienda Etsy' },
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Ficha de puzle de cuadrícula matemática mostrando formato único que diferencia anuncios de Etsy', caption: 'Puzle de cuadrícula matemática — formato único con menos competencia en Etsy que las fichas estándar' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con tema de animales creada para anuncio de descarga digital en Etsy', caption: 'Ficha de sumas con tema de animales — problemas de matemáticas basados en imágenes que crean fotos de anuncio llamativas en Etsy' },
+      { src: '/samples/spanish/subtraction/Restas Divertidas 2.webp', alt: 'Ficha de restas complementando productos de sumas en una tienda Etsy de fichas de matemáticas', caption: 'Ficha de restas — compañera natural de venta cruzada para anuncios de sumas en tu tienda Etsy' },
+      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp', alt: 'Ficha de puzle de cuadrícula matemática mostrando formato único que diferencia anuncios de Etsy', caption: 'Puzle de cuadrícula matemática — formato único con menos competencia en Etsy que las fichas estándar' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de sumas para vender en Etsy — Tutorial paso a paso',

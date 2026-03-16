@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Ficha de laberinto mostrando una actividad de recorrido de imágenes temática con imágenes de inicio y destino para niños' },
+    heroImage: { src: '/samples/spanish/picture path/Camino de Imágenes 1.webp', alt: 'Ficha de laberinto mostrando una actividad de recorrido de imágenes temática con imágenes de inicio y destino para niños' },
     samples: [
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Ficha de laberinto de recorrido de imágenes con imágenes temáticas para preescolar e infantil', caption: 'Modo Recorrido de imágenes: los niños siguen un camino visual desde la imagen de inicio hasta la imagen de destino a través de decoraciones temáticas' },
-      { src: '/samples/english/picture path/Picture Pathway.webp', alt: 'Ficha de laberinto clásico con conteo de coleccionables y clave de respuestas', caption: 'Modo Laberinto clásico con imágenes coleccionables y clave de respuestas automática mostrando el camino de solución y los recuentos' },
+      { src: '/samples/spanish/picture path/Camino de Imágenes 1.webp', alt: 'Ficha de laberinto de recorrido de imágenes con imágenes temáticas para preescolar e infantil', caption: 'Modo Recorrido de imágenes: los niños siguen un camino visual desde la imagen de inicio hasta la imagen de destino a través de decoraciones temáticas' },
+      { src: '/samples/spanish/picture path/Camino de Imágenes 1.webp', alt: 'Ficha de laberinto clásico con conteo de coleccionables y clave de respuestas', caption: 'Modo Laberinto clásico con imágenes coleccionables y clave de respuestas automática mostrando el camino de solución y los recuentos' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Cómo crear fichas de laberintos — Tutorial completo',

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Ficha de práctica de escritura mostrando ejercicios progresivos de trazado a copia para la formación de letras para niños' },
+    heroImage: { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de práctica de escritura mostrando ejercicios progresivos de trazado a copia para la formación de letras para niños' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Ficha de práctica de escritura con filas de trazado y flechas de orden de trazos para la formación de letras', caption: 'Ficha de escritura progresiva con filas de trazado, trazado progresivo y copia guiada para la práctica de letras' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Ficha de escritura con imágenes temáticas combinadas con práctica de trazado de letras', caption: 'Ficha de práctica de escritura temática combinando trazado de letras con imágenes de la biblioteca visual' },
+      { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de práctica de escritura con filas de trazado y flechas de orden de trazos para la formación de letras', caption: 'Ficha de escritura progresiva con filas de trazado, trazado progresivo y copia guiada para la práctica de letras' },
+      { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de escritura con imágenes temáticas combinadas con práctica de trazado de letras', caption: 'Ficha de práctica de escritura temática combinando trazado de letras con imágenes de la biblioteca visual' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Cómo crear fichas de práctica de escritura — Tutorial completo',

@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ejemplo de ficha de sopa de letras creada con el generador LessonCraftStudio' },
+    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ejemplo de ficha de sopa de letras creada con el generador LessonCraftStudio' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha imprimible de sopa de letras con tema de animales', caption: 'Sopa de Letras — Tema Animales' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes', caption: 'Suma — Problemas Basados en Imágenes' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación con actividades de pares visuales', caption: 'Asociación — Actividad de Pares Visuales' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha imprimible de sopa de letras con tema de animales', caption: 'Sopa de Letras — Tema Animales' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes', caption: 'Suma — Problemas Basados en Imágenes' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación con actividades de pares visuales', caption: 'Asociación — Actividad de Pares Visuales' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo Crear Fichas de Sopa de Letras — Demo de LessonCraftStudio',

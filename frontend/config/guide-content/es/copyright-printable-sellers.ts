@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing.webp',
+      src: '/samples/spanish/writing/writing.webp',
       alt: 'Ficha profesional de escritura demostrando elementos de diseño creativo original protegibles por derechos de autor',
     },
     samples: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/spanish/writing/writing.webp',
         alt: 'Ficha de escritura mostrando texto instructivo original y elecciones creativas de diseño',
         caption: 'Las fichas de escritura contienen expresión creativa original sustancial en su texto instructivo y diseño',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Puzle de sopa de letras con imágenes temáticas demostrando arreglo creativo de contenido educativo',
         caption: 'Los puzles de sopa de letras demuestran arreglo creativo protegible de elementos de vocabulario',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring portrait 1.webp',
         alt: 'Página para colorear con diseño de ilustración temática original',
         caption: 'Las páginas para colorear tienen posiciones fuertes de derechos de autor debido a la originalidad visual de sus diseños',
       },

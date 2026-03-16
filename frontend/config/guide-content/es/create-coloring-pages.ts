@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear creada a partir de imágenes temáticas mostrando la conversión a escala de grises para fichas para colorear listas para imprimir' },
+    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear creada a partir de imágenes temáticas mostrando la conversión a escala de grises para fichas para colorear listas para imprimir' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear temática con ilustraciones de animales dispuestas en un lienzo de forma libre', caption: 'Página para colorear creada usando imágenes temáticas de la biblioteca con colocación en lienzo de forma libre' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear en escala de grises lista para imprimir con contornos limpios en blanco y negro', caption: 'La exportación en escala de grises convierte diseños coloridos en páginas para colorear listas para imprimir' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear temática con ilustraciones de animales dispuestas en un lienzo de forma libre', caption: 'Página para colorear creada usando imágenes temáticas de la biblioteca con colocación en lienzo de forma libre' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear en escala de grises lista para imprimir con contornos limpios en blanco y negro', caption: 'La exportación en escala de grises convierte diseños coloridos en páginas para colorear listas para imprimir' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Cómo crear páginas para colorear a partir de imágenes temáticas — Tutorial completo',

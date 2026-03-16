@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación demostrando formato de producto consistente para una línea de productos imprimibles' },
+    heroImage: { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación demostrando formato de producto consistente para una línea de productos imprimibles' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación mostrando formato consistente a través de temas para construcción de línea de productos', caption: 'Las fichas de asociación mantienen el mismo formato profesional a través de cualquier tema — la base de una línea de productos visualmente consistente' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Ficha de suma representando línea de productos de matemáticas con niveles de dificultad progresivos', caption: 'Fichas de matemáticas a múltiples niveles de dificultad crean profundidad progresiva dentro de tu línea de productos — de un dígito a operaciones avanzadas' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Página para colorear mostrando consistencia visual a través de variaciones temáticas de productos', caption: 'Páginas para colorear a través de diferentes temas demuestran cómo una línea de productos mantiene cohesión visual mientras ofrece variedad a los compradores' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación mostrando formato consistente a través de temas para construcción de línea de productos', caption: 'Las fichas de asociación mantienen el mismo formato profesional a través de cualquier tema — la base de una línea de productos visualmente consistente' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma representando línea de productos de matemáticas con niveles de dificultad progresivos', caption: 'Fichas de matemáticas a múltiples niveles de dificultad crean profundidad progresiva dentro de tu línea de productos — de un dígito a operaciones avanzadas' },
+      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear mostrando consistencia visual a través de variaciones temáticas de productos', caption: 'Páginas para colorear a través de diferentes temas demuestran cómo una línea de productos mantiene cohesión visual mientras ofrece variedad a los compradores' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Cómo crear fichas de asociación para una línea de productos imprimibles consistente',

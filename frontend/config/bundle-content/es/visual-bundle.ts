@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/coloring portrait 1.webp',
+      primary: '/samples/spanish/coloring/coloring portrait 1.webp',
       primaryAlt: 'Página para colorear con contorno de imagen en blanco y negro lista para colorear',
     },
     sampleGallery: [
-      { src: '/samples/english/big small/big-small-worksheet_worksheet.webp', alt: 'Ficha de comparación de tamaños con imágenes temáticas para rodear el más grande y el más pequeño', caption: 'Ficha Grande y Pequeño' },
-      { src: '/samples/english/pattern train/pattern_train_worksheet.webp', alt: 'Ficha de secuencia de patrones en vagones de tren con elemento faltante', caption: 'Ficha Tren de Patrones' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Ficha de reconocimiento de patrones con secuencias para completar espacios en blanco', caption: 'Ficha de Patrones' },
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Ficha de dibujo con imagen de referencia y cuadrícula para reproducir la imagen', caption: 'Ficha Dibujo en Cuadrícula' },
-      { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Ficha de trazado de líneas con objetos emparejados y caminos de líneas curvas', caption: 'Ficha de Grafomotricidad' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear con contorno en blanco y negro convertido de imagen temática', caption: 'Página para Colorear' },
-      { src: '/samples/english/chart count/chart count.webp', alt: 'Ficha de conteo con gráfico de barras con puntos de datos de imágenes temáticas', caption: 'Ficha Gráficos de Conteo' },
+      { src: '/samples/spanish/big small/Grande o Pequeño 1.webp', alt: 'Ficha de comparación de tamaños con imágenes temáticas para rodear el más grande y el más pequeño', caption: 'Ficha Grande y Pequeño' },
+      { src: '/samples/spanish/pattern train/Tren de Patrones 1.webp', alt: 'Ficha de secuencia de patrones en vagones de tren con elemento faltante', caption: 'Ficha Tren de Patrones' },
+      { src: '/samples/spanish/pattern worksheet/Rompecabezas de Patrones 1.webp', alt: 'Ficha de reconocimiento de patrones con secuencias para completar espacios en blanco', caption: 'Ficha de Patrones' },
+      { src: '/samples/spanish/draw and color/Dibuja y Colorea 1.webp', alt: 'Ficha de dibujo con imagen de referencia y cuadrícula para reproducir la imagen', caption: 'Ficha Dibujo en Cuadrícula' },
+      { src: '/samples/spanish/drawing lines/Practica de Dibujar Línea 1.webp', alt: 'Ficha de trazado de líneas con objetos emparejados y caminos de líneas curvas', caption: 'Ficha de Grafomotricidad' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear con contorno en blanco y negro convertido de imagen temática', caption: 'Página para Colorear' },
+      { src: '/samples/spanish/chart count/Gráfico de Dibujos 1.webp', alt: 'Ficha de conteo con gráfico de barras con puntos de datos de imágenes temáticas', caption: 'Ficha Gráficos de Conteo' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Paquete Aprendizaje Visual — Los 7 Generadores en Acción',

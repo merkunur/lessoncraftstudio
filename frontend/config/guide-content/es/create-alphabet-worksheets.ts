@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Ficha de tren del abecedario mostrando 11 vagones de tren coloridos con letras e imágenes de pista correspondientes para reconocimiento de letras' },
+    heroImage: { src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp', alt: 'Ficha de tren del abecedario mostrando 11 vagones de tren coloridos con letras e imágenes de pista correspondientes para reconocimiento de letras' },
     samples: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Ficha colorida de tren del abecedario con 11 vagones transportando letras e imágenes de pista dispersas para emparejamiento letra-imagen', caption: 'Ficha de tren del abecedario con 11 vagones coloridos y pistas de emparejamiento letra-imagen' },
-      { src: '/samples/english/alphabet train/Alphabet Train 5.webp', alt: 'Ficha de tren del abecedario con imágenes temáticas y múltiples tareas de emparejamiento de pistas a dificultad intermedia', caption: 'Tren del abecedario temático con cantidad de pistas configurable para escalado de dificultad' },
-      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Ficha avanzada de tren del abecedario con 11 pistas para reconocimiento integral de letras de máxima dificultad', caption: 'Nivel completo de 11 pistas de dificultad para práctica avanzada de reconocimiento de letras' },
+      { src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp', alt: 'Ficha colorida de tren del abecedario con 11 vagones transportando letras e imágenes de pista dispersas para emparejamiento letra-imagen', caption: 'Ficha de tren del abecedario con 11 vagones coloridos y pistas de emparejamiento letra-imagen' },
+      { src: '/samples/spanish/alphabet train/Tren del Alfabeto 2.webp', alt: 'Ficha de tren del abecedario con imágenes temáticas y múltiples tareas de emparejamiento de pistas a dificultad intermedia', caption: 'Tren del abecedario temático con cantidad de pistas configurable para escalado de dificultad' },
+      { src: '/samples/spanish/alphabet train/Tren del Alfabeto 3.webp', alt: 'Ficha avanzada de tren del abecedario con 11 pistas para reconocimiento integral de letras de máxima dificultad', caption: 'Nivel completo de 11 pistas de dificultad para práctica avanzada de reconocimiento de letras' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Cómo crear fichas de tren del abecedario — Tutorial completo',

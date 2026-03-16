@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
       alt: 'Tarjeta de bingo demostrando un producto imprimible estacional ideal para campañas de marketing de festividades',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
         alt: 'Tarjeta de bingo mostrando un producto imprimible estacional para eventos festivos y celebraciones',
         caption: 'Las tarjetas de bingo se adaptan a cada tema estacional, haciéndolas productos ideales para el marketing estacional durante todo el año',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring portrait 1.webp',
         alt: 'Página para colorear demostrando contenido imprimible estacional para listados de marketplace festivos',
         caption: 'Las páginas para colorear estacionales son consistentemente los más vendidos durante los picos de demanda festiva en todos los marketplaces de imprimibles',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Puzzle de sopa de letras mostrando imprimible de construcción de vocabulario estacional para marketing festivo',
         caption: 'Las sopas de letras temáticas combinan atractivo estacional con valor educativo para un fuerte rendimiento estacional en el marketplace',
       },

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/shadow match/shadow-match-worksheet.webp',
+      primary: '/samples/spanish/shadow match/Empareja las Sombras 1.webp',
       primaryAlt: 'Ficha de asociación de sombras con imágenes en color en la fila superior y siluetas negras auto-generadas en la fila inferior con encabezado ámbar',
     },
     sampleGallery: [
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 4.webp',
         alt: 'Ficha de asociación de sombras mostrando cuatro imágenes en color asociadas a cuatro siluetas negras con etiquetas de letras y números',
         caption: 'Modo Asociación de Sombras — los alumnos asocian imágenes a sus siluetas auto-generadas',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-vertical.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 3.webp',
         alt: 'Ficha Completa la Imagen con mitades de imágenes divididas que los alumnos reconectan asociando primeras y segundas mitades',
         caption: 'Modo Completa la Imagen — los alumnos asocian las mitades de imágenes para completar las ilustraciones',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
+        src: '/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp',
         alt: 'Clave de respuesta de asociación de sombras mostrando las imágenes originales con siluetas y etiquetas de correspondencia letra-número correctas',
         caption: 'Clave de respuesta auto-generada — las etiquetas letra-número muestran las correspondencias correctas',
       },

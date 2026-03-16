@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Ficha de intruso con cuatro imágenes por fila de ejercicio mostrando tres elementos comunes y un elemento intruso con encabezado coral-ámbar-turquesa' },
+    heroImage: { src: '/samples/spanish/odd one out/Encuentra el Diferente 2.webp', alt: 'Ficha de intruso con cuatro imágenes por fila de ejercicio mostrando tres elementos comunes y un elemento intruso con encabezado coral-ámbar-turquesa' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Ficha de intruso mostrando tarjetas de ejercicio con cuatro imágenes por fila y encabezado estilizado Encuentra el intruso', caption: 'Ficha de intruso con filas de cuatro imágenes por ejercicio y diseño de columnas adaptativo' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Clave de respuestas autogenerada con contornos de círculo rojo dibujados alrededor del elemento intruso en cada fila de ejercicio', caption: 'Clave de respuestas autogenerada con marcadores de círculo rojo identificando el elemento intruso en cada fila' },
+      { src: '/samples/spanish/odd one out/Encuentra el Diferente 2.webp', alt: 'Ficha de intruso mostrando tarjetas de ejercicio con cuatro imágenes por fila y encabezado estilizado Encuentra el intruso', caption: 'Ficha de intruso con filas de cuatro imágenes por ejercicio y diseño de columnas adaptativo' },
+      { src: '/samples/spanish/odd one out/Encuentra el Diferente 1 answer-key.webp', alt: 'Clave de respuestas autogenerada con contornos de círculo rojo dibujados alrededor del elemento intruso en cada fila de ejercicio', caption: 'Clave de respuestas autogenerada con marcadores de círculo rojo identificando el elemento intruso en cada fila' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Cómo crear fichas de intruso — Tutorial completo',

@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
       alt: 'Ficha de sopa de letras demostrando estándares de calidad profesional con diseño limpio y formato preciso',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
         alt: 'Sopa de letras mostrando formato profesional listo para imprimir y alineación de cuadrícula precisa',
         caption: 'La salida profesional de sopas de letras demuestra diseño limpio, tipografía legible y alineación precisa de cuadrícula',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/spanish/addition/Suma Divertida 1.webp',
         alt: 'Ficha de suma mostrando estándares de calidad para alineación de números y precisión de clave de respuestas',
         caption: 'Las fichas de matemáticas requieren alineación precisa, tipografía clara y claves de respuestas verificadas para calidad profesional',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring portrait 1.webp',
         alt: 'Página para colorear demostrando estándares de calidad visual con grosores de línea consistentes y optimización de impresión',
         caption: 'Los productos visuales requieren grosores de línea consistentes, optimización de escala de grises y calidad de impresión profesional',
       },

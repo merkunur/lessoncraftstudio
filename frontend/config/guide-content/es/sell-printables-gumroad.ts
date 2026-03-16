@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear imprimible lista para vender en la tienda Gumroad' },
+    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear imprimible lista para vender en la tienda Gumroad' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Página para colorear imprimible para ventas de productos digitales en Gumroad', caption: 'Las páginas para colorear crean imágenes de producto visualmente atractivas que generan tráfico de redes sociales hacia tu tienda Gumroad' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras imprimible para catálogo de tienda Gumroad', caption: 'Las sopas de letras tienen amplio atractivo en audiencias de padres y profesores — un tipo de producto versátil para Gumroad' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Actividad de asociación para negocio de imprimibles en Gumroad', caption: 'Las actividades de asociación son imprimibles educativos de alta demanda que funcionan bien como productos individuales y en paquetes' },
+      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear imprimible para ventas de productos digitales en Gumroad', caption: 'Las páginas para colorear crean imágenes de producto visualmente atractivas que generan tráfico de redes sociales hacia tu tienda Gumroad' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras imprimible para catálogo de tienda Gumroad', caption: 'Las sopas de letras tienen amplio atractivo en audiencias de padres y profesores — un tipo de producto versátil para Gumroad' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Actividad de asociación para negocio de imprimibles en Gumroad', caption: 'Las actividades de asociación son imprimibles educativos de alta demanda que funcionan bien como productos individuales y en paquetes' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Cómo crear páginas para colorear para tu tienda de imprimibles en Gumroad',

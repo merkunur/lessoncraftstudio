@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Tarjeta de bingo demostrando diseño de producto imprimible altamente compartible' },
+    heroImage: { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjeta de bingo demostrando diseño de producto imprimible altamente compartible' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Tarjeta de bingo mostrando potencial de marketing para fiestas y aulas', caption: 'Bingo — Altamente Compartible para Eventos y Festivos' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Sopa de letras demostrando fuerte potencial de SEO en marketplace', caption: 'Sopa de Letras — Tipo de Puzzle Más Buscado' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear mostrando atractivo visual para marketing en Pinterest', caption: 'Colorear — Contenido Visual Listo para Pinterest' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Ficha de asociación mostrando versatilidad de marketing estacional temático', caption: 'Asociación — Marketing Estacional Versátil' },
+      { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjeta de bingo mostrando potencial de marketing para fiestas y aulas', caption: 'Bingo — Altamente Compartible para Eventos y Festivos' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras demostrando fuerte potencial de SEO en marketplace', caption: 'Sopa de Letras — Tipo de Puzzle Más Buscado' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear mostrando atractivo visual para marketing en Pinterest', caption: 'Colorear — Contenido Visual Listo para Pinterest' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación mostrando versatilidad de marketing estacional temático', caption: 'Asociación — Marketing Estacional Versátil' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Cómo Crear Tarjetas de Bingo para tu Negocio de Imprimibles — Demo de LessonCraftStudio',

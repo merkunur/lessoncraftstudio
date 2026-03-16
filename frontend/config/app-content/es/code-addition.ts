@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code addition/Code Breaker Addition 1.webp',
+      primary: '/samples/spanish/code addition/Código Secreto Suma 1.webp',
       primaryAlt: 'Ficha de suma codificada con imágenes de animales que esconden números secretos en un puzzle de descifrar código',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code addition/Code Breaker Addition 1.webp',
+        src: '/samples/spanish/code addition/Código Secreto Suma 1.webp',
         alt: 'Ficha de suma codificada en Modo Clásico con imágenes temáticas de animales como símbolos-código',
         caption: 'Modo Clásico — los alumnos descifran el código deduciendo qué número representa cada imagen',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 2.webp',
+        src: '/samples/spanish/code addition/Código Secreto Suma 2.webp',
         alt: 'Ficha de suma codificada con tema visual diferente mostrando ecuaciones criptaritméticas basadas en imágenes',
         caption: 'Desafío multi-símbolo — más imágenes aumentan la complejidad de la deducción',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 3.webp',
+        src: '/samples/spanish/code addition/Código Secreto Suma 3.webp',
         alt: 'Puzzle de suma codificada con imágenes temáticas coloridas y ecuaciones',
         caption: 'Puzzles temáticos — 104 temas visuales hacen cada ficha única y atractiva',
       },

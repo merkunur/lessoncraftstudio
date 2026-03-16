@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern train/pattern_train_worksheet.webp',
+      primary: '/samples/spanish/pattern train/Tren de Patrones 1.webp',
       primaryAlt: 'Ficha tren de patrones con vagones temáticos mostrando un patrón repetitivo AB con un vagón vacío para que los alumnos lo completen',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
+        src: '/samples/spanish/pattern train/Tren de Patrones 2.webp',
         alt: 'Ficha tren de patrones en modo patrón AB alternante con imágenes de animales en 11 vagones temáticos',
         caption: 'Patrón AB con tema animales — los alumnos identifican la secuencia alternante y completan el vagón que falta',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
+        src: '/samples/spanish/pattern train/Tren de Patrones 3.webp',
         alt: 'Ficha tren de patrones en modo patrón ABC de tres elementos con imágenes de vehículos en vagones temáticos',
         caption: 'Patrón ABC con tema vehículos — tres elementos en rotación crean una secuencia repetitiva más compleja',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_answer_key.webp',
+        src: '/samples/spanish/pattern train/Tren de Patrones 1 answer_key.webp',
         alt: 'Clave de respuesta del tren de patrones mostrando los 11 vagones llenos con la secuencia correcta del patrón',
         caption: 'Vista de clave de respuesta — los 11 vagones llenos con el patrón correcto para la verificación del profesor',
       },

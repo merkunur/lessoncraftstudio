@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+      primary: '/samples/spanish/prepositions/Preposiciones 1.webp',
       primaryAlt: 'Ficha de preposiciones con imágenes coloridas mostrando relaciones espaciales entre objetos y formas geométricas',
     },
     sampleGallery: [
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 1.webp',
         alt: 'Ficha de preposiciones completar el hueco con tema de animales y formas geométricas',
         caption: 'Modo Completar el Hueco — los alumnos completan las frases con la preposición correcta',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 2.webp',
         alt: 'Ficha de preposiciones opción múltiple con tema de vehículos mostrando descripciones espaciales',
         caption: 'Modo Opción Múltiple — los alumnos identifican la imagen que corresponde a la descripción espacial',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (10).webp',
+        src: '/samples/spanish/prepositions/Preposiciones 3.webp',
         alt: 'Ficha de preposiciones completa con las ocho preposiciones espaciales y clave de respuesta',
         caption: 'Ficha completa de 8 ejercicios — revisión exhaustiva de todas las preposiciones espaciales',
       },

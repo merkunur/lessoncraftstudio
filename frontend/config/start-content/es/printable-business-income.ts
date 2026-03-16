@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Ficha de matemáticas que demuestra la calidad profesional de salida de los generadores de fichas' },
+    heroImage: { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp', alt: 'Ficha de matemáticas que demuestra la calidad profesional de salida de los generadores de fichas' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Ficha de matemáticas con diseño profesional y calidad de impresión de 300 PPP', caption: 'Ficha de Matemáticas — Constructor de Ingresos Versátil' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ficha de sopa de letras para ventas en Etsy y Amazon KDP', caption: 'Sopa de Letras — Categoría de Puzzles Más Vendida' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Página para colorear para publicación de libros de actividades en KDP', caption: 'Colorear — Categoría de Gran Volumen en KDP' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Ficha de Sudoku con atractivo universal internacional', caption: 'Sudoku — Atractivo Universal en el Mercado' },
+      { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp', alt: 'Ficha de matemáticas con diseño profesional y calidad de impresión de 300 PPP', caption: 'Ficha de Matemáticas — Constructor de Ingresos Versátil' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de sopa de letras para ventas en Etsy y Amazon KDP', caption: 'Sopa de Letras — Categoría de Puzzles Más Vendida' },
+      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear para publicación de libros de actividades en KDP', caption: 'Colorear — Categoría de Gran Volumen en KDP' },
+      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Ficha de Sudoku con atractivo universal internacional', caption: 'Sudoku — Atractivo Universal en el Mercado' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Cómo Crear Fichas de Matemáticas para Tu Negocio de Imprimibles — Demo de LessonCraftStudio',

@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/writing/writing.webp',
+      primary: '/samples/spanish/writing/writing.webp',
       primaryAlt: 'Ficha de práctica de escritura manuscrita con modos trazado, trazado progresivo y copia guiada mostrando letras con flechas del orden de los trazos',
     },
     sampleGallery: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/spanish/writing/writing.webp',
         alt: 'Ficha de escritura en modo trazado con fuente imprenta con flechas mostrando direcciones numeradas del orden de los trazos',
         caption: 'Modo Trazado con orden de trazos flechado — flechas direccionales numeradas muestran la secuencia exacta de formación de letras',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/spanish/writing/writing beginning letter.webp',
         alt: 'Ficha de escritura en modo trazado progresivo con letras desvaneciéndose progresivamente a lo largo de cada fila',
         caption: 'Modo Trazado Progresivo — las letras se desvanecen progresivamente para desarrollar la confianza en la escritura autónoma',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/spanish/writing/writing custom.webp',
         alt: 'Ficha de escritura en modo copia guiada con estilo cursiva sobre sistema de tres líneas guía',
         caption: 'Copia Guiada Cursiva — contornos tenues en cursiva sobre el sistema de tres líneas guía para práctica de escritura cursiva',
       },

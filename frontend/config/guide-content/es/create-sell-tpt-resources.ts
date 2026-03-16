@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Recurso de fichas de sumas adecuado para vender en el marketplace Teachers Pay Teachers' },
+    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Recurso de fichas de sumas adecuado para vender en el marketplace Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Ficha de sumas de matemáticas para recurso de aula TPT', caption: 'Las fichas de matemáticas están entre los tipos de recursos más buscados en TPT — los profesores necesitan práctica alineada con estándares para cada habilidad' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Actividad de sopa de letras para anuncio de tienda TPT', caption: 'Las sopas de letras funcionan en todos los niveles de grado en TPT como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Ficha de actividad de asociación para educadores TPT', caption: 'Las actividades de asociación son recursos TPT versátiles que los profesores usan para evaluación, práctica y repaso en múltiples asignaturas' },
+      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas de matemáticas para recurso de aula TPT', caption: 'Las fichas de matemáticas están entre los tipos de recursos más buscados en TPT — los profesores necesitan práctica alineada con estándares para cada habilidad' },
+      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Actividad de sopa de letras para anuncio de tienda TPT', caption: 'Las sopas de letras funcionan en todos los niveles de grado en TPT como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano' },
+      { src: '/samples/spanish/matching/Encuentra Parejas 2.webp', alt: 'Ficha de actividad de asociación para educadores TPT', caption: 'Las actividades de asociación son recursos TPT versátiles que los profesores usan para evaluación, práctica y repaso en múltiples asignaturas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas educativas para Teachers Pay Teachers — Tutorial paso a paso',

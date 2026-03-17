@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack fiches association et tri imprimables',
+    primaryKeyword: 'pack association & tri',
     secondaryKeywords: [
       'pack générateurs fiches association tri pour vendeurs',
       'kit fiches association imprimables licence commerciale',

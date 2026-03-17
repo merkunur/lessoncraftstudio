@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de laberintos con imágenes para vender',
+    primaryKeyword: 'generador de laberintos',
     secondaryKeywords: [
       'fichas de laberintos imprimibles para vendedores de Etsy',
       'generador de fichas de recorridos con imágenes para Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Laberintos Estacionales y Festivos',
         description:
-          'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de laberintos por tiempo limitado que se alineen con los períodos de mayor demanda. Lanza paquetes de laberintos de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres modos de juego en cada conjunto estacional para máximo valor. Los productos estacionales tienen precios más altos durante los períodos pico y crean razones naturales para compras repetidas de clientes recurrentes.',
+          'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de laberintos por disponible ahora que se alineen con los períodos de mayor demanda. Lanza paquetes de laberintos de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres modos de juego en cada conjunto estacional para máximo valor. Los productos estacionales tienen precios más altos durante los períodos pico y crean razones naturales para compras repetidas de clientes recurrentes.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

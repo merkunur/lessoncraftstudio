@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Additions-Arbeitsblatt-Ersteller',
+    primaryKeyword: 'additions-ersteller',
     secondaryKeywords: [
       'Additionsaufgaben Generator online',
       'Mathe-Arbeitsblätter mit Bildern erstellen',
@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Additions-Arbeitsblatt-Ersteller',
     tagline: 'Erstellen Sie professionelle, bildbasierte Additions-Arbeitsblätter in unter 60 Sekunden',
-    description: 'Verwandeln Sie Mathe-Übungen in ein visuelles Erlebnis, das Kinder begeistert und Verkäufern solide Einnahmen bringt. Mit diesem leistungsstarken Tool erstellen Sie individuelle Additions-Arbeitsblätter mit thematischen Bildern, die Kinder wirklich gerne bearbeiten. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Perfekt für Etsy.de-Verkäufer, die druckbare Mathe-Produkte erstellen und passives Einkommen generieren möchten, Amazon-KDP-Verleger, die Aktivitätsbücher zusammenstellen, und Lehrermarktplatz-Anbieter, die differenzierte Übungsmaterialien für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter auf jeder Plattform kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Mathe-Übungen in ein visuelles Erlebnis, das Kinder begeistert und Verkäufern solide Einnahmen bringt. Mit diesem leistungsstarken Tool erstellen Sie individuelle Additions-Arbeitsblätter mit thematischen Bildern, die Kinder wirklich gerne bearbeiten. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Perfekt für Etsy.de-Verkäufer, die druckbare Mathe-Produkte erstellen und skalierbares Einkommen generieren möchten, Amazon-KDP-Verleger, die Aktivitätsbücher zusammenstellen, und Lehrermarktplatz-Anbieter, die differenzierte Übungsmaterialien für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter auf jeder Plattform kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Mathe-Bündel',
-      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für zeitlich begrenzte Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Listen Sie Ihre saisonalen Additions-Pakete 2–3 Wochen vor dem jeweiligen Anlass ein, um Frühkäufer zu erreichen und die organische Sichtbarkeit in der Etsy-Suche zu maximieren.',
+      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für aktuell verfügbare Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Listen Sie Ihre saisonalen Additions-Pakete 2–3 Wochen vor dem jeweiligen Anlass ein, um Frühkäufer zu erreichen und die organische Sichtbarkeit in der Etsy-Suche zu maximieren.',
     },
     {
       title: 'KDP-Mathe-Aktivitätsbücher',
@@ -158,39 +158,39 @@ const content: ToolContent = {
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und als Lieferformat für digitale Produkte. JPEGs sind perfekt für Produkt-Mockups, Social-Media-Beiträge und Shop-Vorschaubilder.',
+      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und als Lieferformat für digitale Produkte. JPEGs sind perfekt für Produkt-Mockups, Social-Media-Beiträge und Shop-Vorschaubilder. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell nutzen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter, ohne Tantiemen oder monatliche Gebühren.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter, ohne Tantiemen oder monatliche Gebühren. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Wie viele Bildthemen sind verfügbar?',
-      answer: 'Die Bildbibliothek umfasst über 100 thematische Sammlungen mit insgesamt mehr als 3.100 Illustrationen. Die Themen reichen von Tieren, Essen und Fahrzeugen über Sport, Natur und Feiertage bis hin zu Schulmaterial, Weltraum und vielem mehr. Jedes Thema enthält mehrere einzelne Bilder, sodass Ihre Arbeitsblätter immer abwechslungsreich aussehen — selbst innerhalb eines einzelnen Themas.',
+      answer: 'Die Bildbibliothek umfasst über 100 thematische Sammlungen mit insgesamt mehr als 3.100 Illustrationen. Die Themen reichen von Tieren, Essen und Fahrzeugen über Sport, Natur und Feiertage bis hin zu Schulmaterial, Weltraum und vielem mehr. Jedes Thema enthält mehrere einzelne Bilder, sodass Ihre Arbeitsblätter immer abwechslungsreich aussehen — selbst innerhalb eines einzelnen Themas. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Welche Übungsmodi unterstützt der Ersteller?',
-      answer: 'Es gibt vier Modi: Bild + Bild (beide Summanden als Bildergruppen zum visuellen Zählen), Bild + Zahl (eine Bildergruppe plus eine Ziffer für die Brücke zum abstrakten Rechnen), Summand finden (ein Summand ist verdeckt und muss ermittelt werden) und Gemischter Modus (kombiniert alle drei zufällig auf einem Arbeitsblatt). Der Gemischte Modus ist besonders beliebt für abwechslungsreiche, anspruchsvolle Aktivitätsseiten.',
+      answer: 'Es gibt vier Modi: Bild + Bild (beide Summanden als Bildergruppen zum visuellen Zählen), Bild + Zahl (eine Bildergruppe plus eine Ziffer für die Brücke zum abstrakten Rechnen), Summand finden (ein Summand ist verdeckt und muss ermittelt werden) und Gemischter Modus (kombiniert alle drei zufällig auf einem Arbeitsblatt). Der Gemischte Modus ist besonders beliebt für abwechslungsreiche, anspruchsvolle Aktivitätsseiten. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Kann ich Arbeitsblätter in anderen Sprachen als Deutsch erstellen?',
-      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Wechseln Sie die Inhaltssprache, um Arbeitsblätter mit Bildbeschriftungen und Anweisungen in Ihrer gewählten Sprache zu erstellen. So können Sie denselben Inhalt in mehreren Sprachen anbieten und Ihren adressierbaren Markt vervielfachen.',
+      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Wechseln Sie die Inhaltssprache, um Arbeitsblätter mit Bildbeschriftungen und Anweisungen in Ihrer gewählten Sprache zu erstellen. So können Sie denselben Inhalt in mehreren Sprachen anbieten und Ihren adressierbaren Markt vervielfachen. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los.',
+      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
-      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Lehrkräfte, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten.',
+      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Lehrkräfte, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Seitengrößen werden unterstützt?',
-      answer: 'Der Ersteller unterstützt US Letter (Hoch- und Querformat), DIN A4 (Hoch- und Querformat), Quadrat (1200×1200 Pixel) und vollständig benutzerdefinierte Abmessungen. Das Quadratformat eignet sich ideal für Social-Media-Inhalte und Amazon-KDP-Aktivitätsbücher. Benutzerdefinierte Größen ermöglichen spezielle Formate für Nischenprodukte.',
+      answer: 'Der Ersteller unterstützt US Letter (Hoch- und Querformat), DIN A4 (Hoch- und Querformat), Quadrat (1200×1200 Pixel) und vollständig benutzerdefinierte Abmessungen. Das Quadratformat eignet sich ideal für Social-Media-Inhalte und Amazon-KDP-Aktivitätsbücher. Benutzerdefinierte Größen ermöglichen spezielle Formate für Nischenprodukte. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang zu allen Funktionen gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion ausgiebig nutzen, bevor Sie eine Lizenz erwerben.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang zu allen Funktionen gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion ausgiebig nutzen, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
     },
   ],
 

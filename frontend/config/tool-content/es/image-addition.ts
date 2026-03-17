@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de suma',
+    primaryKeyword: 'generador fichas de suma',
     secondaryKeywords: [
       'crear fichas de suma online',
       'fichas de suma imprimibles con imágenes',

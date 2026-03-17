@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Weihnachts-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'weihnachts-druckvorlagen-ideen',
     secondaryKeywords: [
       'Weihnachts-Arbeitsblätter auf Etsy erstellen',
       'Advents-Aktivitätsblätter auf KDP verkaufen',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Lernmaterialien verkaufen Creative Fabrica',
+    primaryKeyword: 'lernmaterialien verkaufen auf creative fabrica',
     secondaryKeywords: [
       'wie auf Creative Fabrica verkaufen',
       'Creative Fabrica für Pädagogen',

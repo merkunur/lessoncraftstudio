@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles pièces manquantes',
+    primaryKeyword: 'créateur pièces manquantes',
     secondaryKeywords: [
       'générateur de puzzles pièces manquantes pour vendeurs',
       'créer des puzzles pièces manquantes à vendre',

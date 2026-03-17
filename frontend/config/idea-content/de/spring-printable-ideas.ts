@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Frühling-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'frühling-druckvorlagen-ideen',
     secondaryKeywords: [
       'Frühlings-Arbeitsblätter auf Etsy erstellen',
       'März-Mai-Druckvorlagen auf KDP verkaufen',

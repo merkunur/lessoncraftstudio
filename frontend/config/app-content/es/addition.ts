@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de suma',
+    primaryKeyword: 'generador de fichas de suma',
     secondaryKeywords: [
       'fichas de suma imprimibles para Etsy',
       'generador de fichas de matemáticas para Amazon KDP',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: '¿Cuál es la política de reembolso?',
       answer:
-        'Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia.',
+        'Como la prueba gratuita te da acceso a todas las funciones, no ofrecemos reembolsos en compras de licencias comerciales. Puedes probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrate de que la herramienta se adapta a tus necesidades antes de adquirir una licencia. La prueba con marca de agua te da acceso ilimitado para explorar todas las funciones a tu propio ritmo sin límite de tiempo — úsala todo el tiempo que necesites para evaluar si la herramienta se ajusta a tu flujo de producción.',
     },
     {
       question: '¿Necesito instalar algún software?',
       answer:
-        'No. El Generador de Fichas de Suma funciona completamente en tu navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abre la página y empieza a crear.',
+        'No. El Generador de Fichas de Suma funciona completamente en tu navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abre la página y empieza a crear. Este enfoque garantiza que puedas evaluar cada función, formato de exportación y combinación de temas antes de tomar una decisión de compra, dándote total confianza en tu inversión.',
     },
   ],
 

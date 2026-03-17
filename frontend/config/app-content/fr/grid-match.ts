@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des puzzles grille à imprimer',
+    primaryKeyword: 'générateur de puzzles grille',
     secondaryKeywords: [
       'générateur de puzzles grille imprimables pour vendeurs Etsy',
       'créateur de puzzles de correspondance par tuiles pour éditeurs Amazon KDP',

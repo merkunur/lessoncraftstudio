@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Waldtier-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'waldtiere-druckvorlagen-ideen',
     secondaryKeywords: [
       'Waldtier-Arbeitsblätter auf Etsy erstellen',
       'Wald-Tierwelt-Druckvorlagen auf KDP verkaufen',

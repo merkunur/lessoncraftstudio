@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de prépositions imprimables',
+    primaryKeyword: 'générateur fiches prépositions',
     secondaryKeywords: [
       'créateur de fiches prépositions spatiales pour vendeurs',
       'créer des fiches de prépositions à vendre',

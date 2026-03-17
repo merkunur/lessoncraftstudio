@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches d\'écriture',
+    primaryKeyword: 'générateur fiches d\'écriture',
     secondaryKeywords: [
       'générateur de fiches d\'écriture pour vendeurs Etsy',
       'créateur de fiches écriture manuscrite pour éditeurs Amazon KDP',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Raster-Puzzle-Generator',
+    primaryKeyword: 'raster-puzzle-ersteller',
     secondaryKeywords: [
       'Raster-Puzzle-Ersteller für Verkäufer',
       'Bilder-Rasterpuzzle online erstellen und verkaufen',

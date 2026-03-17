@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblatt-Abo-Box-Ideen verkaufen',
+    primaryKeyword: 'abo-box druckvorlagen-ideen zum verkaufen',
     secondaryKeywords: [
       'monatliche Arbeitsblatt-Pakete auf Etsy',
       'Druckvorlagen-Abonnement auf Gumroad erstellen',

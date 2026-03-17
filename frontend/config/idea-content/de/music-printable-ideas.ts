@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Musik-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'musik-druckvorlagen-ideen zum verkaufen',
     secondaryKeywords: [
       'Musik-Arbeitsblätter auf Etsy erstellen',
       'Instrumente-Druckvorlagen auf KDP verkaufen',

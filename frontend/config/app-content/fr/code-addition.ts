@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur d\'addition codée pour fiches éducatives',
+    primaryKeyword: 'générateur d\'addition codée',
     secondaryKeywords: [
       'fiches de puzzles mathématiques imprimables pour Etsy',
       'fiches de décodage maths pour Amazon KDP',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'Quelle est la politique de remboursement ?',
       answer:
-        'Testez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour évaluer l\'outil avant d\'acheter. L\'essai gratuit donnant un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins grâce à l\'essai gratuit avant d\'acheter.',
+        'Testez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour évaluer l\'outil avant d\'acheter. L\'essai gratuit donnant un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins grâce à l\'essai gratuit avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
     },
   ],
 

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables d\'Hiver à Vendre — Guide Niche',
     metaDescription: 'Idées d\'imprimables d\'hiver à vendre sur Etsy, Amazon KDP et TPT. Produits hivernaux avec forte demande de novembre à février pour vendeurs de fiches.',
 
-    primaryKeyword: 'idées imprimables hiver',
+    primaryKeyword: 'idées d\'imprimables d\'hiver à vendre',
     secondaryKeywords: [
       'fiches d\'hiver à vendre',
       'activités imprimables thème hiver',

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Arbeitsblätter vermarkten',
+    primaryKeyword: 'druckvorlagen vermarkten',
     secondaryKeywords: [
       'Marketing-Strategien für Druckvorlagen-Verkäufer',
       'Druckvorlagen-Arbeitsblätter online bewerben',

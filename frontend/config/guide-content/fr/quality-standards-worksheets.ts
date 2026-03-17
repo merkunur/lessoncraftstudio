@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'normes qualité fiches exercices vendeurs',
+    primaryKeyword: 'normes qualité fiches exercices pour vendeurs',
     secondaryKeywords: [
       'checklist qualité imprimables professionnels',
       'standards conception fiches professionnelles',

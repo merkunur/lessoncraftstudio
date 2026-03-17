@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de chasse au trésor',
+    primaryKeyword: 'générateur chasse au trésor',
     secondaryKeywords: [
       'créer des fiches chasse au trésor à vendre sur Etsy',
       'générateur de puzzles directionnels pour éditeurs Amazon KDP',

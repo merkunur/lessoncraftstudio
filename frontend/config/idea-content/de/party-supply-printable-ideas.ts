@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'druckbare Partyzubehör-Ideen verkaufen',
+    primaryKeyword: 'druckbare partyzubehör-ideen',
     secondaryKeywords: [
       'Party-Aktivitätsblätter auf Etsy erstellen',
       'Geburtstag-Druckvorlagen auf KDP verkaufen',

@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Suchen-Finden-Arbeitsblatt-Paket',
+    primaryKeyword: 'suchen & finden',
     secondaryKeywords: [
       'Suchen-Finden-Arbeitsblatt-Generatoren-Paket für Verkäufer',
       'druckbares Suchbild-Toolkit kommerzielle Nutzung',
@@ -82,7 +82,7 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: 'Amazon KDP Suchbild- und Aktivitätsbücher',
-      description: 'Suchbild- und Suchen-und-Finden-Bücher sind eine Dauerbrenner-Bestseller-Kategorie auf Amazon KDP. Kombinieren Sie alle vier Generatoren zu thematischen Aktivitätsbüchern: „Tier-Suchen-und-Finden-Aktivitätsbuch“ mit Suchbild-Zählszenen, Suchbild-Seiten, Bilderkreuzworträtseln und Schatzsuchen — vier Aktivitätstypen pro Buch statt einem. Der Suchen-und-Zählen-Generator und der Schatzsuche-Generator erzeugen sprachsensitive Arbeitsblätter — Sie können separate deutsche, englische, spanische und französische Ausgaben veröffentlichen, jede ein einzigartiges Produktangebot auf dem jeweiligen Amazon-Marktplatz. Generieren Sie 50 bis 100 Seiten pro Buch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Mehrformat-Aktivitätsbücher erzielen höhere Preise als Einformat-Suchbild-Bücher und generieren bessere Bewertungen, weil Käufer mehr Wert pro Seite wahrnehmen.',
+      description: 'Suchbild- und Suchen-und-Finden-Bücher sind eine Dauerbrenner-Verkaufsschlager-Kategorie auf Amazon KDP. Kombinieren Sie alle vier Generatoren zu thematischen Aktivitätsbüchern: „Tier-Suchen-und-Finden-Aktivitätsbuch“ mit Suchbild-Zählszenen, Suchbild-Seiten, Bilderkreuzworträtseln und Schatzsuchen — vier Aktivitätstypen pro Buch statt einem. Der Suchen-und-Zählen-Generator und der Schatzsuche-Generator erzeugen sprachsensitive Arbeitsblätter — Sie können separate deutsche, englische, spanische und französische Ausgaben veröffentlichen, jede ein einzigartiges Produktangebot auf dem jeweiligen Amazon-Marktplatz. Generieren Sie 50 bis 100 Seiten pro Buch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Mehrformat-Aktivitätsbücher erzielen höhere Preise als Einformat-Suchbild-Bücher und generieren bessere Bewertungen, weil Käufer mehr Wert pro Seite wahrnehmen.',
       platform: 'Amazon KDP',
     },
     {

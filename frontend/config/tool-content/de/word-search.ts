@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Wortsuche-Arbeitsblatt-Generator',
+    primaryKeyword: 'wortsuche-generator',
     secondaryKeywords: [
       'Wortsuchrätsel-Ersteller für Verkäufer',
       'Buchstabengitter-Arbeitsblätter online erstellen',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Rätsel-Bündel',
-      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Halloween-Wortsuche“-Paket mit gruseligem Vokabular in progressiv größeren Gittern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Frühling und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Lehrermarktplatz. Kombinieren Sie kleine einfache Gitter für jüngere Schüler mit großen herausfordernden Gittern für ältere Kinder in einem einzigen saisonalen Bündel, um Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Halloween-Wortsuche“-Paket mit gruseligem Vokabular in progressiv größeren Gittern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Frühling und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Lehrermarktplatz. Kombinieren Sie kleine einfache Gitter für jüngere Schüler mit großen herausfordernden Gittern für ältere Kinder in einem einzigen saisonalen Bündel, um Ihre Käuferzielgruppe zu maximieren.',
     },
   ],
 

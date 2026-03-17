@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas mayor que menor que',
+    primaryKeyword: 'fichas mayor que menor que',
     secondaryKeywords: [
       'fichas de comparación de cantidades para vender',
       'crear fichas de mayor que menor que imprimibles',

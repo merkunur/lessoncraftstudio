@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Dinosaurier-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'dinosaurier-druckvorlagen-ideen',
     secondaryKeywords: [
       'Dino-Arbeitsblätter auf Etsy erstellen',
       'Dinosaurier-Aktivitätsblätter auf KDP verkaufen',

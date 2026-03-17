@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Wortsuche-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'wortsuche-generator',
     secondaryKeywords: [
       'druckbare Wortsuchrätsel-Generator für Etsy-Verkäufer',
       'Wortgitter-Arbeitsblatt-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Wortsuchrätsel-Generator mit sprachabhängigem Buchstabengitter',
     ],
     lsiKeywords: [
-      'digitale Wortgitter-Rätsel-Produkte passives Einkommen',
+      'digitale Wortgitter-Rätsel-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Buchstabengitter-Arbeitsblätter',
       'kommerzieller Wortsuche-Generator mit Farbcode-Lösungsschlüssel',
     ],

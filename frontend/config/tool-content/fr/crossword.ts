@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de mots croisés en images',
+    primaryKeyword: 'créateur mots croisés',
     secondaryKeywords: [
       'créateur de mots croisés en images pour vendeurs',
       'créer des mots croisés visuels à vendre',

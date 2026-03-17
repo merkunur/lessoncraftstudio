@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Halloween-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'halloween-druckvorlagen-ideen',
     secondaryKeywords: [
       'gruselige Arbeitsblätter auf Etsy erstellen',
       'Halloween-Aktivitätsblätter auf KDP verkaufen',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur fiches chasse au trésor',
+    primaryKeyword: 'créateur chasse au trésor',
     secondaryKeywords: [
       'créateur de fiches chasse au trésor pour vendeurs',
       'créer des puzzles directionnels de recherche de chemin à vendre',

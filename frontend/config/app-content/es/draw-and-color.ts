@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de dibujo en cuadrícula',
+    primaryKeyword: 'generador fichas dibujo cuadrícula',
     secondaryKeywords: [
       'generador de fichas de dibujo en cuadrícula para vendedores Etsy',
       'creador de fichas de reproducción en cuadrícula para Amazon KDP',

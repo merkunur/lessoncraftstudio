@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des cartes bingo à images',
+    primaryKeyword: 'générateur cartes bingo à images',
     secondaryKeywords: [
       'générateur de cartes bingo imprimables pour vendeurs Etsy',
       'créateur de cartes bingo à images pour éditeurs Amazon KDP',

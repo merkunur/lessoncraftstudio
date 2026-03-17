@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Transports à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables transports à vendre sur Etsy, KDP et TPT. Concepts de produits véhicules, stratégies par plateforme et conseils vendeurs.',
 
-    primaryKeyword: 'idées imprimables transports',
+    primaryKeyword: 'idées d\'imprimables transports à vendre',
     secondaryKeywords: [
       'fiches transports à vendre',
       'idées business imprimables véhicules',

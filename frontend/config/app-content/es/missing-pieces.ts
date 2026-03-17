@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de piezas faltantes',
+    primaryKeyword: 'generador piezas faltantes',
     secondaryKeywords: [
       'creador de rompecabezas de piezas faltantes para vendedores Etsy',
       'generador de fichas de puzzles visuales para editores Amazon KDP',
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Puzzles Estacionales y Festivos',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, Día de San Valentín, vuelta al colegio, vacaciones de verano y más. Crea colecciones de puzzles de tiempo limitado que se alineen con los períodos de mayor demanda comercial. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Varía las formas de pieza y los niveles de dificultad dentro de cada conjunto estacional para máximo valor. Los productos estacionales obtienen precios más altos durante sus ventanas de mayor demanda y crean razones naturales para compras recurrentes de tu base de clientes.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, Día de San Valentín, vuelta al colegio, vacaciones de verano y más. Crea colecciones de puzzles de disponible ahora que se alineen con los períodos de mayor demanda comercial. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Varía las formas de pieza y los niveles de dificultad dentro de cada conjunto estacional para máximo valor. Los productos estacionales obtienen precios más altos durante sus ventanas de mayor demanda y crean razones naturales para compras recurrentes de tu base de clientes.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

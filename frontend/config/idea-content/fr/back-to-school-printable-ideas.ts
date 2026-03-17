@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables Rentrée Scolaire à Vendre — Guide de Niche',
     metaDescription: 'Idées d’imprimables de rentrée scolaire à vendre sur Etsy, KDP et TPT. Concepts produits pour la classe, stratégies juillet-septembre et conseils vendeurs.',
 
-    primaryKeyword: 'idées imprimables rentrée scolaire',
+    primaryKeyword: 'imprimables rentrée scolaire à vendre',
     secondaryKeywords: [
       'fiches rentrée scolaire à vendre',
       'idées business imprimables école',

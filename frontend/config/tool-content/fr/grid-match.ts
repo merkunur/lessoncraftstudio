@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles grille',
+    primaryKeyword: 'créateur puzzles grille',
     secondaryKeywords: [
       'créateur de fiches puzzle grille pour vendeurs',
       'créer des puzzles grille d\'images à vendre',

@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Cuentos de Hadas — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de cuentos de hadas para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de libros de cuentos, estrategia.',
-    primaryKeyword: 'ideas imprimibles cuentos de hadas',
+    primaryKeyword: 'ideas imprimibles de cuentos de hadas',
     secondaryKeywords: [
       'fichas temáticas cuentos de hadas para vender',
       'negocio imprimibles temática cuentos de hadas',

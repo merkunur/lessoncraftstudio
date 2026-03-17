@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de dessin sur quadrillage',
+    primaryKeyword: 'générateur fiches dessin quadrillage',
     secondaryKeywords: [
       'créateur de fiches dessin sur grille pour vendeurs',
       'créer des fiches de reproduction sur quadrillage à vendre',

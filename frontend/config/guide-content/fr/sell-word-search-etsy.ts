@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre mots cachés sur Etsy',
+    primaryKeyword: 'vendre des mots cachés sur etsy',
     secondaryKeywords: [
       'comment vendre mots cachés sur Etsy',
       'créer boutique Etsy mots cachés imprimables',

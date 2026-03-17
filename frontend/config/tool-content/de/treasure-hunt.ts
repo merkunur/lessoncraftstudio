@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche-Arbeitsblatt-Generator',
+    primaryKeyword: 'schatzsuche-ersteller',
     secondaryKeywords: [
       'Schatzsuche-Ersteller für Verkäufer',
       'Richtungsrätsel-Arbeitsblätter online erstellen und verkaufen',

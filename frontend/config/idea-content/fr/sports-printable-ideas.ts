@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Sportifs à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables sportifs à vendre sur Etsy, KDP et TPT. Concepts de produits sportifs, stratégies par plateforme et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables sportifs',
+    primaryKeyword: 'idées d\'imprimables sportifs à vendre',
     secondaryKeywords: [
       'fiches sportives à vendre',
       'idées business imprimables sport',

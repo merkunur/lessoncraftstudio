@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Rasterzeichnen-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'rasterzeichnen-generator',
     secondaryKeywords: [
       'druckbarer Gitterzeichnungs-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Rasterzeichnen-Generator mit Hinweisprozent für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Rasterzeichnen-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Gitterzeichnungs-Druckvorlagen passives Einkommen',
+      'digitale Gitterzeichnungs-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft Zelle-für-Zelle-Zeichenraster',
       'kommerzieller Rasterzeichnen-Arbeitsblatt-Generator',
     ],

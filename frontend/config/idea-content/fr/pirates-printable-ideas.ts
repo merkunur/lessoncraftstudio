@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Pirates à Vendre — Guide',
     metaDescription: 'Découvrez des idées d’imprimables pirates à vendre sur Etsy, KDP et TPT. Concepts de produits aventure, chasses au trésor et stratégies pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables pirates',
+    primaryKeyword: 'idées d\'imprimables pirates à vendre',
     secondaryKeywords: [
       'fiches pirates à vendre',
       'idées business imprimables pirates',

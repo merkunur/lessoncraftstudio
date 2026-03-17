@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de sopa de letras',
+    primaryKeyword: 'generador sopa de letras',
     secondaryKeywords: [
       'crear fichas de sopa de letras imprimibles para vender',
       'generador de sopa de letras para vendedores',

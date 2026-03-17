@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre ressources TPT',
+    primaryKeyword: 'créer et vendre des ressources tpt',
     secondaryKeywords: [
       'comment vendre sur Teachers Pay Teachers',
       'créer ressources TPT pour enseignants',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de tri d\'images',
+    primaryKeyword: 'générateur de tri d\'images',
     secondaryKeywords: [
       'générateur de fiches de tri à deux catégories pour vendeurs Etsy',
       'créateur d\'activités de classification d\'images pour éditeurs Amazon KDP',

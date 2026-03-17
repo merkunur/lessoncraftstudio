@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches de prépositions à imprimer',
+    primaryKeyword: 'fiches de prépositions à imprimer',
     secondaryKeywords: [
       'fiches prépositions spatiales à vendre licence commerciale',
       'générateur fiches de prépositions usage commercial Etsy et KDP',

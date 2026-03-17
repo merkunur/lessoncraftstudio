@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches train de suites logiques',
+    primaryKeyword: 'générateur fiches train suites logiques',
     secondaryKeywords: [
       'créateur de fiches train suites logiques pour vendeurs',
       'créer des fiches de séquences répétitives train à vendre',

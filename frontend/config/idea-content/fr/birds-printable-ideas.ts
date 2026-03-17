@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Oiseaux à Vendre — Guide de Niche',
     metaDescription: 'Idées d’imprimables oiseaux à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits, stratégies de plateformes et positionnement de niche pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables oiseaux',
+    primaryKeyword: 'idées d\'imprimables oiseaux à vendre',
     secondaryKeywords: [
       'fiches thème oiseaux à vendre',
       'idées business imprimables oiseaux',

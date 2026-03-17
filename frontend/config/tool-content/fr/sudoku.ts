@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'sudoku en images pour enfants',
+    primaryKeyword: 'créateur sudoku en images',
     secondaryKeywords: [
       'créateur de sudoku en images pour vendeurs',
       'créer des puzzles sudoku visuels à vendre',

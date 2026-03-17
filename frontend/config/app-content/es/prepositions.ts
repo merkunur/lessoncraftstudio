@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de preposiciones',
+    primaryKeyword: 'generador fichas preposiciones',
     secondaryKeywords: [
       'fichas de preposiciones imprimibles para Etsy',
       'generador de fichas de vocabulario espacial para Amazon KDP',

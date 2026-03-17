@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de puzzle de cuadrícula',
+    primaryKeyword: 'generador puzzle de cuadrícula',
     secondaryKeywords: [
       'creador de fichas de rompecabezas de cuadrícula para vendedores',
       'crear puzzles de cuadrícula para vender uso comercial',

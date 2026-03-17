@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear fichas de puzzles algebraicos para vender',
+    primaryKeyword: 'puzzles algebraicos ilustrados',
     secondaryKeywords: [
       'fichas de puzzles algebraicos imprimibles para Etsy',
       'generador de acertijos algebraicos para Amazon KDP',

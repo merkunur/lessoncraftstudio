@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Erntedankfest-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'erntedankfest-druckvorlagen',
     secondaryKeywords: [
       'Thanksgiving-Arbeitsblätter auf Etsy erstellen',
       'Herbst-Erntedank-Druckvorlagen auf KDP',

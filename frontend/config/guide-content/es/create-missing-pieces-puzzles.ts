@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fichas de puzles de rompecabezas piezas faltantes',
+    primaryKeyword: 'fichas de puzles de piezas faltantes',
     secondaryKeywords: [
       'crear puzles de piezas faltantes para vender',
       'generador de fichas de rompecabezas uso comercial',

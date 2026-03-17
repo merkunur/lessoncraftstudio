@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Visuelles-Lernen-Arbeitsblatt-Paket',
+    primaryKeyword: 'visuelles lernen',
     secondaryKeywords: [
       'Malvorlagen-Zeichnen-Arbeitsblatt-Generator-Paket für Verkäufer',
       'visuelle Aktivitäten druckbares Toolkit kommerzielle Nutzung',
@@ -32,7 +32,7 @@ const content: BundleContent = {
     },
     {
       title: 'Muster-Zug-Generator',
-      description: 'Generieren Sie Zugwaggon-Musterfolge-Arbeitsblätter, bei denen jeder Waggon ein thematisches Bild in einem sich wiederholenden Muster trägt. Schüler erkennen die Musterregel und bestimmen, welches Bild in den fehlenden Waggon gehört. Die Zug-Metapher macht abstrakte Mustererkennung greifbar und ansprechend für junge Lernende. Muster verwenden zwei bis vier sich wiederholende Elemente je nach Schwierigkeitsstufe, von einfachen AB-Folgen bis zu komplexen ABCD-Mustern. Alle Inhalte sind bildbasiert — kein Text, keine Zahlen, keine Sprachabhängigkeit. Wählen Sie aus über 100 thematischen Bildsets, um visuell unterschiedliche Produkte für verschiedene Nischen zu erstellen. Das Zugformat ist ein bewährter Bestseller im frühkindlichen Lernmaterial, da es visuelle Unterscheidung, logisches Denken und Vorhersage in einer einzigen ansprechenden Aktivität verbindet.',
+      description: 'Generieren Sie Zugwaggon-Musterfolge-Arbeitsblätter, bei denen jeder Waggon ein thematisches Bild in einem sich wiederholenden Muster trägt. Schüler erkennen die Musterregel und bestimmen, welches Bild in den fehlenden Waggon gehört. Die Zug-Metapher macht abstrakte Mustererkennung greifbar und ansprechend für junge Lernende. Muster verwenden zwei bis vier sich wiederholende Elemente je nach Schwierigkeitsstufe, von einfachen AB-Folgen bis zu komplexen ABCD-Mustern. Alle Inhalte sind bildbasiert — kein Text, keine Zahlen, keine Sprachabhängigkeit. Wählen Sie aus über 100 thematischen Bildsets, um visuell unterschiedliche Produkte für verschiedene Nischen zu erstellen. Das Zugformat ist ein bewährter Verkaufsschlager im frühkindlichen Lernmaterial, da es visuelle Unterscheidung, logisches Denken und Vorhersage in einer einzigen ansprechenden Aktivität verbindet.',
     },
     {
       title: 'Muster-Arbeitsblatt-Generator',

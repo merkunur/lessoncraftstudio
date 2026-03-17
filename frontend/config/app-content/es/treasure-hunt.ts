@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de búsqueda del tesoro',
+    primaryKeyword: 'generador búsqueda del tesoro',
     secondaryKeywords: [
       'fichas de búsqueda del tesoro imprimibles para vendedores Etsy',
       'generador de puzzles direccionales para editores Amazon KDP',
@@ -128,7 +128,7 @@ const content: AppContent = {
       {
         title: 'Colecciones Estacionales de Búsqueda del Tesoro',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de búsqueda del tesoro de tiempo limitado que se alineen con los períodos de mayor demanda. Lanza búsquedas del tesoro de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye ambos tipos de dirección Básico y Cardinal en cada conjunto estacional para máximo valor. Los productos estacionales alcanzan precios más altos durante sus ventanas pico y crean razones naturales para compras recurrentes.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de búsqueda del tesoro de disponible ahora que se alineen con los períodos de mayor demanda. Lanza búsquedas del tesoro de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye ambos tipos de dirección Básico y Cardinal en cada conjunto estacional para máximo valor. Los productos estacionales alcanzan precios más altos durante sus ventanas pico y crean razones naturales para compras recurrentes.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
     ],

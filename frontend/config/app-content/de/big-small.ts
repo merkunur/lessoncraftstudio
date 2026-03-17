@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'groß-klein-generator',
     secondaryKeywords: [
       'druckbare Groß-und-Klein-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Größenvergleich-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Groß-Klein-Vergleichs-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Größenvergleich-Druckvorlagen passives Einkommen',
+      'digitale Größenvergleich-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft visuelle Größenunterscheidung-Übungen',
       'kommerzieller Groß-Klein-Arbeitsblatt-Generator mit Lösungsschlüssel',
     ],

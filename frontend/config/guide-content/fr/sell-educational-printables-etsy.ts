@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre matériel pédagogique imprimable sur Etsy',
+    primaryKeyword: 'vendre du matériel pédagogique sur etsy',
     secondaryKeywords: [
       'comment vendre imprimables éducatifs sur Etsy',
       'stratégie boutique Etsy imprimables éducatifs',

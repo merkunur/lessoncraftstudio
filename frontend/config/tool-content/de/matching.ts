@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Arbeitsblatt-Generator',
+    primaryKeyword: 'zuordnungs-generator',
     secondaryKeywords: [
       'Zuordnungs-Ersteller für Verkäufer',
       'Paare-Verbinden-Arbeitsblätter online erstellen und verkaufen',

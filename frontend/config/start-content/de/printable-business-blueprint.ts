@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft Ideen Bauplan',
+    primaryKeyword: 'druckvorlagen-geschäft ideen',
     secondaryKeywords: [
       'Druckvorlagen-Geschäftsplan für Verkäufer',
       'profitable Druckvorlagen-Produktideen',

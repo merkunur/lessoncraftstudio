@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'licence commerciale fiches imprimables',
+    primaryKeyword: 'guide licence commerciale pour vendeurs d\'imprimables',
     secondaryKeywords: [
       'licence commerciale pour vendre des fiches',
       'vendre des fiches commercialement Etsy Amazon',

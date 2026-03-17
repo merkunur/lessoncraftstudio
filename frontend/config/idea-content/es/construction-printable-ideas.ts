@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Construcción — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de construcción para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de vehículos y herramientas, estrate.',
-    primaryKeyword: 'ideas imprimibles construcción',
+    primaryKeyword: 'ideas imprimibles de construcción',
     secondaryKeywords: [
       'fichas temáticas construcción para vender',
       'negocio imprimibles temática construcción',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de tarjetas de bingo con imágenes',
+    primaryKeyword: 'generador tarjetas de bingo',
     secondaryKeywords: [
       'creador de tarjetas de bingo para vendedores uso comercial',
       'crear tarjetas de bingo para vender en Etsy y KDP',

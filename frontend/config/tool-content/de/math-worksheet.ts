@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Mathe-Arbeitsblatt-Generator',
+    primaryKeyword: 'mathe-generator',
     secondaryKeywords: [
       'Algebra-Bilderrätsel-Ersteller für Verkäufer',
       'Algebra-Puzzle-Arbeitsblätter online erstellen',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Algebra-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Algebra-Rätsel“-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Rätsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz. Das Algebra-Format erhöht den wahrgenommenen Schwierigkeitsgrad und Wert gegenüber einfacher Arithmetik.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Algebra-Rätsel“-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Rätsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz. Das Algebra-Format erhöht den wahrgenommenen Schwierigkeitsgrad und Wert gegenüber einfacher Arithmetik.',
     },
     {
       title: 'Gemischte-Schwierigkeit-Sampler-Pakete',
@@ -156,47 +156,47 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Wie funktionieren die Algebra-Bilderrätsel?',
-      answer: 'Jedes Rätsel präsentiert ein System verknüpfter Gleichungen, in denen Bilder unbekannte Variablen ersetzen. Schüler analysieren die Beziehungen zwischen den Gleichungen, um den numerischen Wert jedes Bildes zu bestimmen. Zum Beispiel: Wenn Katze + Hund = 7 und Katze + Katze = 6, dann ist Katze = 3 und Hund = 4. Der integrierte Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat.',
+      answer: 'Jedes Rätsel präsentiert ein System verknüpfter Gleichungen, in denen Bilder unbekannte Variablen ersetzen. Schüler analysieren die Beziehungen zwischen den Gleichungen, um den numerischen Wert jedes Bildes zu bestimmen. Zum Beispiel: Wenn Katze + Hund = 7 und Katze + Katze = 6, dann ist Katze = 3 und Hund = 4. Der integrierte Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Welche vier Schwierigkeitsstufen gibt es?',
-      answer: 'Sehr Leicht verwendet 2 Bildsymbole mit einfachen Gleichungen. Leicht verwendet 2 Symbole mit etwas anspruchsvolleren Gleichungen. Mittel führt 3 Symbole über 3 verknüpfte Gleichungen ein. Schwer präsentiert 4 simultane Unbekannte über 4 Gleichungen. Jede Stufe erhöht schrittweise die Anzahl der Variablen und die Komplexität des Gleichungssystems.',
+      answer: 'Sehr Leicht verwendet 2 Bildsymbole mit einfachen Gleichungen. Leicht verwendet 2 Symbole mit etwas anspruchsvolleren Gleichungen. Mittel führt 3 Symbole über 3 verknüpfte Gleichungen ein. Schwer präsentiert 4 simultane Unbekannte über 4 Gleichungen. Jede Stufe erhöht schrittweise die Anzahl der Variablen und die Komplexität des Gleichungssystems. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Welche Rechenmodi sind verfügbar?',
-      answer: 'Der Modus Nur Addition erzeugt Gleichungen ausschließlich mit Addition. Der Modus Addition & Subtraktion mischt beide Rechenarten über das Gleichungssystem. Der gemischte Modus ist ideal für fortgeschrittenes Üben und Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig in einem einzelnen Rätsel testen.',
+      answer: 'Der Modus Nur Addition erzeugt Gleichungen ausschließlich mit Addition. Der Modus Addition & Subtraktion mischt beide Rechenarten über das Gleichungssystem. Der gemischte Modus ist ideal für fortgeschrittenes Üben und Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig in einem einzelnen Rätsel testen. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Wie funktioniert die Garantie eindeutiger Lösungen?',
-      answer: 'Das Tool verwendet einen integrierten algebraischen Löser, der jedes generierte Rätsel überprüft, bevor es gerendert wird. Wenn eine zufällige Rätselkonfiguration mehrere Lösungen oder keine Lösung ergibt, verwirft der Generator sie automatisch und erstellt eine neue. Sie müssen nie manuell prüfen, ob ein Rätsel lösbar ist.',
+      answer: 'Das Tool verwendet einen integrierten algebraischen Löser, der jedes generierte Rätsel überprüft, bevor es gerendert wird. Wenn eine zufällige Rätselkonfiguration mehrere Lösungen oder keine Lösung ergibt, verwirft der Generator sie automatisch und erstellt eine neue. Sie müssen nie manuell prüfen, ob ein Rätsel lösbar ist. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Was bewirkt der Schalter für negative Ergebnisse?',
-      answer: 'Wenn aktiviert, können Subtraktionsgleichungen Werte unter Null erzeugen. Das erhöht die Schwierigkeit für fortgeschrittene Lernende, die mit negativen Zahlen vertraut sind. Wenn deaktiviert (die Standardeinstellung), bleiben alle Gleichungsergebnisse innerhalb des positiven Zahlenbereichs, den Sie festgelegt haben. Lassen Sie ihn für Grundschüler ausgeschaltet und aktivieren Sie ihn für weiterführende Schule oder fortgeschrittenes Matheüben.',
+      answer: 'Wenn aktiviert, können Subtraktionsgleichungen Werte unter Null erzeugen. Das erhöht die Schwierigkeit für fortgeschrittene Lernende, die mit negativen Zahlen vertraut sind. Wenn deaktiviert (die Standardeinstellung), bleiben alle Gleichungsergebnisse innerhalb des positiven Zahlenbereichs, den Sie festgelegt haben. Lassen Sie ihn für Grundschüler ausgeschaltet und aktivieren Sie ihn für weiterführende Schule oder fortgeschrittenes Matheüben. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Kann ich eigene Bilder als Variablensymbole hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So können Sie markentypische Rätsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So können Sie markentypische Rätsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Wie viele Rätsel passen auf eine Seite?',
-      answer: 'Sie können 1 bis 6 Rätsel pro Seite mit der Steuerung „Rätsel pro Seite“ platzieren. Das Layout passt sich automatisch an die gewählte Anzahl an. Verwenden Sie 1–2 Rätsel pro Seite für jüngere Lernende, die mehr Arbeitsraum benötigen, oder 4–6 pro Seite für kompakte Übungsblätter und Arbeitsbuch-Produkte.',
+      answer: 'Sie können 1 bis 6 Rätsel pro Seite mit der Steuerung „Rätsel pro Seite“ platzieren. Das Layout passt sich automatisch an die gewählte Anzahl an. Verwenden Sie 1–2 Rätsel pro Seite für jüngere Lernende, die mehr Arbeitsraum benötigen, oder 4–6 pro Seite für kompakte Übungsblätter und Arbeitsbuch-Produkte. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Funktionieren die Rätsel in allen Sprachen?',
-      answer: 'Ja. Algebra-Bilderrätsel verwenden ausschließlich Bilder, Zahlen und mathematische Operatoren — kein Text. Ein einzelnes Rätsel-PDF funktioniert identisch in jeder Sprache. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen.',
+      answer: 'Ja. Algebra-Bilderrätsel verwenden ausschließlich Bilder, Zahlen und mathematische Operatoren — kein Text. Ein einzelnes Rätsel-PDF funktioniert identisch in jeder Sprache. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
   ],
 

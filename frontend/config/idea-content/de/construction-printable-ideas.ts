@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Baustellen-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'baustelle druckvorlagen-ideen',
     secondaryKeywords: [
       'Baufahrzeug-Arbeitsblätter auf Etsy erstellen',
       'Werkzeug-Baustellen-Druckvorlagen auf KDP verkaufen',

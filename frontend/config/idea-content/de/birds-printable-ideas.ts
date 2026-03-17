@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Vögel-Druckvorlagen-Ideen für Verkäufer',
+    primaryKeyword: 'vögel druckvorlagen-ideen zum verkaufen',
     secondaryKeywords: [
       'Vogel-Arbeitsblätter auf Etsy verkaufen',
       'Vogelarten-Lernmaterialien auf KDP erstellen',

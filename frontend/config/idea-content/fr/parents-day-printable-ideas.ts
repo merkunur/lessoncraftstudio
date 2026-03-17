@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Fête des Parents — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables Fête des Mères et Fête des Pères à vendre sur Etsy, KDP et TPT. Concepts produits et conseils vendeurs pour les deux fêtes.',
-    primaryKeyword: 'idées imprimables fête des parents',
+    primaryKeyword: 'idées d\'imprimables fête des parents',
     secondaryKeywords: [
       'fiches Fête des Mères à vendre',
       'idées business imprimables Fête des Pères',

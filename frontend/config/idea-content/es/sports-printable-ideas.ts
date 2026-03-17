@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Deportes — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de deportes para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática deportiva, estrategias por plataforma.',
-    primaryKeyword: 'ideas imprimibles deportes',
+    primaryKeyword: 'ideas imprimibles de deportes',
     secondaryKeywords: [
       'fichas temáticas deportivas para vender',
       'negocio imprimibles temática deportiva',

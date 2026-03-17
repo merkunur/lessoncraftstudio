@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Subtraktions-Arbeitsblatt-Ersteller',
+    primaryKeyword: 'subtraktions-ersteller',
     secondaryKeywords: [
       'Subtraktions-Arbeitsblätter Generator online',
       'Durchstreich-Arbeitsblätter erstellen',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Subtraktions-Bündel',
-      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für zeitlich begrenzte Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Ein „Halloween-Durchstreich-Subtraktionspaket“ mit gruseligen Bildern ist ein garantierter Blickfang in den Suchergebnissen.',
+      description: 'Nutzen Sie Feiertags- und Saisonthemen wie Weihnachten, Halloween, Ostern, Frühlingsblumen und Sommerurlaub für aktuell verfügbare Bündel. Saisonale Produkte verkaufen sich auf Etsy.de besonders gut, weil Käufer in bestimmten Zeitfenstern gezielt danach suchen. Ein „Halloween-Durchstreich-Subtraktionspaket“ mit gruseligen Bildern ist ein garantierter Blickfang in den Suchergebnissen.',
     },
     {
       title: 'Fehlende-Zahl-Arbeitsblätter',
@@ -154,43 +154,43 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Welche vier Übungsmodi gibt es?',
-      answer: 'Der Ersteller unterstützt vier Modi: Durchstreichen (Schüler streichen Bilder durch, um Subtraktion visuell zu begreifen), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (der Minuend und das Ergebnis werden angezeigt; das Kind ermittelt, wie viele weggenommen wurden) und Gemischter Modus (kombiniert alle drei Stile zufällig auf einem Arbeitsblatt für maximale Abwechslung).',
+      answer: 'Der Ersteller unterstützt vier Modi: Durchstreichen (Schüler streichen Bilder durch, um Subtraktion visuell zu begreifen), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (der Minuend und das Ergebnis werden angezeigt; das Kind ermittelt, wie viele weggenommen wurden) und Gemischter Modus (kombiniert alle drei Stile zufällig auf einem Arbeitsblatt für maximale Abwechslung). Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und als Lieferformat für digitale Produkte. JPEGs sind perfekt für Produkt-Mockups, Social-Media-Beiträge und Shop-Vorschaubilder. Der Graustufen-Export erzeugt tintenfreundliche Schwarz-Weiß-Versionen.',
+      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und als Lieferformat für digitale Produkte. JPEGs sind perfekt für Produkt-Mockups, Social-Media-Beiträge und Shop-Vorschaubilder. Der Graustufen-Export erzeugt tintenfreundliche Schwarz-Weiß-Versionen. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell nutzen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Wie funktioniert der Durchstreich-Modus?',
-      answer: 'Im Durchstreich-Modus zeigt das Arbeitsblatt eine Bildergruppe, die den Minuenden darstellt. Diagonale X-Markierungen werden durch die abgezogene Anzahl von Bildern gezeichnet, und das Kind zählt die verbleibenden unmarkierten Bilder, um die Antwort zu finden. Das ist die visuellste und intuitivste Methode, um jungen Lernenden Subtraktion beizubringen.',
+      answer: 'Im Durchstreich-Modus zeigt das Arbeitsblatt eine Bildergruppe, die den Minuenden darstellt. Diagonale X-Markierungen werden durch die abgezogene Anzahl von Bildern gezeichnet, und das Kind zählt die verbleibenden unmarkierten Bilder, um die Antwort zu finden. Das ist die visuellste und intuitivste Methode, um jungen Lernenden Subtraktion beizubringen. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Was steuert die Einstellung „Maximaler Minuend“?',
-      answer: 'Der Regler für den maximalen Minuenden (Bereich 2–20) legt die größte Ausgangszahl in jeder Subtraktionsaufgabe fest. Wenn der maximale Minuend beispielsweise auf 10 eingestellt ist, zeigen die Aufgaben bis zu 10 Bilder. Niedrigere Werte sind einfacher für jüngere Kinder; höhere Werte bieten mehr Herausforderung für ältere Schüler.',
+      answer: 'Der Regler für den maximalen Minuenden (Bereich 2–20) legt die größte Ausgangszahl in jeder Subtraktionsaufgabe fest. Wenn der maximale Minuend beispielsweise auf 10 eingestellt ist, zeigen die Aufgaben bis zu 10 Bilder. Niedrigere Werte sind einfacher für jüngere Kinder; höhere Werte bieten mehr Herausforderung für ältere Schüler. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Kann ich Arbeitsblätter in anderen Sprachen erstellen?',
-      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Da Subtraktions-Arbeitsblätter rein visuell sind — Bilder, X-Markierungen und Zahlen statt Wörter — funktionieren Ihre Produkte in jeder Sprache und jedem Klassenzimmer weltweit.',
+      answer: 'Ja. Der Ersteller unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Da Subtraktions-Arbeitsblätter rein visuell sind — Bilder, X-Markierungen und Zahlen statt Wörter — funktionieren Ihre Produkte in jeder Sprache und jedem Klassenzimmer weltweit. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los.',
+      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
-      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass die Korrektur auf einen Blick möglich ist. Laden Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunter.',
+      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Bei Durchstreich-Arbeitsblättern zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass die Korrektur auf einen Blick möglich ist. Laden Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunter. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang zu allen Funktionen gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion ausgiebig nutzen.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang zu allen Funktionen gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion ausgiebig nutzen. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
   ],
 

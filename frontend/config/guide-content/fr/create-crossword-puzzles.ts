@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer mots croisés en images',
+    primaryKeyword: 'créer des mots croisés en images',
     secondaryKeywords: [
       'générateur mots croisés pour enfants',
       'créateur mots croisés imprimables',

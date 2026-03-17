@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Raster-Puzzle-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'raster-puzzle-generator',
     secondaryKeywords: [
       'druckbarer Bilder-Rasterpuzzle-Generator für Etsy-Verkäufer',
       'Kachel-Zuordnungs-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Bilder-Rasterpuzzle-Arbeitsblätter auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Kachel-Zuordnungs-Druckvorlagen passives Einkommen',
+      'digitale Kachel-Zuordnungs-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Raster-Puzzle-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Bilder-Rasterpuzzle-Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Rasterpuzzle-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Rasterpuzzle-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Rätselpakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie mehrere Rastergrößen und Schwierigkeitsgrade in jedes saisonale Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Rasterpuzzle-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Rätselpakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie mehrere Rastergrößen und Schwierigkeitsgrade in jedes saisonale Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

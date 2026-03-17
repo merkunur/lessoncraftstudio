@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées de Fiches Téléchargeables à Vendre — Guide',
     metaDescription: 'Idées de fiches téléchargeables pour vendeurs Etsy, Gumroad et TPT. Créez un business d\'imprimables sans stock avec des PDF éducatifs en livraison instantanée.',
 
-    primaryKeyword: 'idées fiches téléchargeables à vendre',
+    primaryKeyword: 'idées de fiches téléchargeables à vendre',
     secondaryKeywords: [
       'business imprimables téléchargeables',
       'vendre fiches numériques en ligne',

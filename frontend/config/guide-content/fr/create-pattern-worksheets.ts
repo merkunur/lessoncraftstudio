@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches de suites logiques à imprimer',
+    primaryKeyword: 'fiches de suites logiques à imprimer',
     secondaryKeywords: [
       'générateur fiches reconnaissance de motifs licence commerciale',
       'fiches suites logiques visuelles à vendre Etsy et KDP',

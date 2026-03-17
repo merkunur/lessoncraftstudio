@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches intrus',
+    primaryKeyword: 'créateur fiches intrus',
     secondaryKeywords: [
       'générateur de fiches intrus pour vendeurs',
       'créer des puzzles trouve l\'intrus à vendre',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de objetos ocultos',
+    primaryKeyword: 'generador fichas objetos ocultos',
     secondaryKeywords: [
       'generador de fichas busca y encuentra imprimibles para vendedores Etsy',
       'creador de fichas de objetos ocultos para editores Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones Estacionales de Actividades de Objetos Ocultos',
         description:
-          'Las 104 colecciones temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de objetos ocultos por tiempo limitado que se alineen con los períodos de mayor demanda. Publica paquetes de Yo Espío de Halloween en septiembre, colecciones de objetos ocultos de Navidad en octubre, y paquetes de busca y encuentra de San Valentín en enero. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente en cada conjunto estacional para máximo valor.',
+          'Las 104 colecciones temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de fichas de objetos ocultos por disponible ahora que se alineen con los períodos de mayor demanda. Publica paquetes de Yo Espío de Halloween en septiembre, colecciones de objetos ocultos de Navidad en octubre, y paquetes de busca y encuentra de San Valentín en enero. Incluye fichas tanto de Yo Espío como de Encuentra el Diferente en cada conjunto estacional para máximo valor.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

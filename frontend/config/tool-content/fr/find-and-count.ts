@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches cherche et compte',
+    primaryKeyword: 'créateur cherche et compte',
     secondaryKeywords: [
       'générateur de fiches je vois je vois pour vendeurs',
       'créer des fiches cherche et compte à vendre',

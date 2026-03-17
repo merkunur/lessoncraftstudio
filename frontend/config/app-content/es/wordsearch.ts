@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de sopa de letras',
+    primaryKeyword: 'generador fichas sopa de letras',
     secondaryKeywords: [
       'fichas de sopa de letras imprimibles para vendedores Etsy',
       'generador de cuadrículas de palabras ocultas para Amazon KDP',

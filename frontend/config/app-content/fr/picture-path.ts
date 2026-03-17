@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches labyrinthes et parcours',
+    primaryKeyword: 'générateur fiches labyrinthes',
     secondaryKeywords: [
       'créer des fiches labyrinthes à vendre sur Etsy',
       'générateur de parcours en images pour éditeurs Amazon KDP',

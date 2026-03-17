@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables CE2 à Vendre — Guide Niche',
     metaDescription: 'Découvrez des idées d\'imprimables CE2 à vendre sur Etsy, Amazon KDP et TPT. Stratégies de niche pour les vendeurs ciblant l\'année scolaire décisive du CE2.',
 
-    primaryKeyword: 'idées imprimables CE2',
+    primaryKeyword: 'idées d\'imprimables ce2 à vendre',
     secondaryKeywords: [
       'fiches CE2 à vendre',
       'idées business imprimables cours élémentaire 2',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Präpositionen-Arbeitsblatt-Generator',
+    primaryKeyword: 'präpositionen-generator',
     secondaryKeywords: [
       'Ortspräpositionen-Ersteller für Verkäufer',
       'Lückentext-Präpositionen-Arbeitsblätter online erstellen',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Präpositions-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Präpositionen“-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Präpositionen“-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
     },
   ],
 
@@ -156,47 +156,47 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Wie funktionieren die beiden Übungsmodi?',
-      answer: 'Der Lückentext-Modus zeigt eine Bildszene mit einer Leerstelle, in die Schüler die korrekte Präposition schreiben (auf, unter, über usw.). Der Multiple-Choice-Modus präsentiert dieselbe Szene, aber mit auswählbaren Optionen, sodass Schüler die richtige Antwort ankreuzen. Sie können den Aufgabentext im Multiple-Choice-Modus anpassen, um ihn an Ihren Unterrichtsstil anzupassen.',
+      answer: 'Der Lückentext-Modus zeigt eine Bildszene mit einer Leerstelle, in die Schüler die korrekte Präposition schreiben (auf, unter, über usw.). Der Multiple-Choice-Modus präsentiert dieselbe Szene, aber mit auswählbaren Optionen, sodass Schüler die richtige Antwort ankreuzen. Sie können den Aufgabentext im Multiple-Choice-Modus anpassen, um ihn an Ihren Unterrichtsstil anzupassen. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Wie funktioniert die Präpositionsauswahl?',
-      answer: 'Das Tool zeigt ein Kontrollkästchen-Raster mit allen verfügbaren Präpositionen für die gewählte Sprache an. Markieren Sie die gewünschten Positionen: auf, unter, über, neben, zwischen, drinnen, draußen. Sie können alle für umfassende Übung auswählen oder sich auf eine bestimmte Teilmenge für gezieltes Training konzentrieren.',
+      answer: 'Das Tool zeigt ein Kontrollkästchen-Raster mit allen verfügbaren Präpositionen für die gewählte Sprache an. Markieren Sie die gewünschten Positionen: auf, unter, über, neben, zwischen, drinnen, draußen. Sie können alle für umfassende Übung auswählen oder sich auf eine bestimmte Teilmenge für gezieltes Training konzentrieren. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Was ist der Formenaustausch?',
-      answer: 'Der Formenaustausch ist eine Funktion, die einzigartig beim Präpositionen-Tool ist. Er fügt eine separate Bildebene für Szenenformen hinzu — die Objekte, die den räumlichen Kontext erzeugen (eine Kiste, ein Tisch, ein Regal). Sie können Formen unabhängig von Hauptbildern austauschen und so die Anzahl einzigartiger Übungsszenen vervielfachen, die Sie aus demselben Bildsatz generieren können.',
+      answer: 'Der Formenaustausch ist eine Funktion, die einzigartig beim Präpositionen-Tool ist. Er fügt eine separate Bildebene für Szenenformen hinzu — die Objekte, die den räumlichen Kontext erzeugen (eine Kiste, ein Tisch, ein Regal). Sie können Formen unabhängig von Hauptbildern austauschen und so die Anzahl einzigartiger Übungsszenen vervielfachen, die Sie aus demselben Bildsatz generieren können. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Wie funktioniert die Sprachsensitivität?',
-      answer: 'Beim Sprachwechsel wird jedes Präpositionswört auf dem Arbeitsblatt in sein natives Äquivalent aktualisiert. Deutsch „auf, unter, über“ wird zu Englisch „on, under, above“, Französisch „sur, sous, au-dessus“, Spanisch „sobre, debajo, encima“ und so weiter über alle 11 unterstützten Sprachen. Das Übungsformat bleibt identisch — nur die Positionswörter ändern sich.',
+      answer: 'Beim Sprachwechsel wird jedes Präpositionswört auf dem Arbeitsblatt in sein natives Äquivalent aktualisiert. Deutsch „auf, unter, über“ wird zu Englisch „on, under, above“, Französisch „sur, sous, au-dessus“, Spanisch „sobre, debajo, encima“ und so weiter über alle 11 unterstützten Sprachen. Das Übungsformat bleibt identisch — nur die Positionswörter ändern sich. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Welche Sprachen werden unterstützt?',
-      answer: 'Das Tool unterstützt 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekten nativen Präpositionswörter. Wechseln Sie die Sprache, um dasselbe Arbeitsblatt-Design mit unterschiedlichen Positionswörtern für jeden Markt zu erstellen.',
+      answer: 'Das Tool unterstützt 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekten nativen Präpositionswörter. Wechseln Sie die Sprache, um dasselbe Arbeitsblatt-Design mit unterschiedlichen Positionswörtern für jeden Markt zu erstellen. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Wie viele Übungen kann ich auf eine Seite setzen?',
-      answer: 'Sie können 1 bis 8 Übungen pro Arbeitsblatt einstellen. Weniger Übungen pro Seite geben jeder Szene mehr visuellen Raum, was für jüngere Schüler gut funktioniert. Mehr Übungen pro Seite erzeugen dichtere Arbeitsblätter für ältere Lernende oder Zeitübungen. Das Layout passt sich automatisch an die Übungsanzahl und Seitengröße an.',
+      answer: 'Sie können 1 bis 8 Übungen pro Arbeitsblatt einstellen. Weniger Übungen pro Seite geben jeder Szene mehr visuellen Raum, was für jüngere Schüler gut funktioniert. Mehr Übungen pro Seite erzeugen dichtere Arbeitsblätter für ältere Lernende oder Zeitübungen. Das Layout passt sich automatisch an die Übungsanzahl und Seitengröße an. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und für den KDP-Upload; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge.',
+      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und für den KDP-Upload; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt.',
     },
   ],
 

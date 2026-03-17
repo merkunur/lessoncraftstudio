@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Kryptarithmetik-Additions-Rätsel erstellen und verkaufen',
+    primaryKeyword: 'bilder-additions-generator',
     secondaryKeywords: [
       'druckbare Code-Knacker-Mathe-Rätsel für Etsy',
       'Bilder-Additions-Rätsel für Amazon KDP',

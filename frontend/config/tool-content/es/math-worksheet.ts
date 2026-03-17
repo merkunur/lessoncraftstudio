@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de acertijos algebraicos',
+    primaryKeyword: 'generador acertijos algebraicos',
     secondaryKeywords: [
       'crear puzzles de álgebra con imágenes para vender',
       'generador de fichas de álgebra visual imprimibles',

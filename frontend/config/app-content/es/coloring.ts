@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender páginas para colorear',
+    primaryKeyword: 'generador páginas para colorear',
     secondaryKeywords: [
       'generador de páginas para colorear para vendedores Etsy',
       'creador de fichas para colorear para editores Amazon KDP',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de páginas para colorear estacionales y festivas',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano, fiestas de invierno y mucho más. Crea colecciones de páginas para colorear por tiempo limitado alineadas con los picos de compra. Lanza los packs de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Los productos estacionales alcanzan precios más altos durante sus ventanas de máxima demanda y crean razones naturales para compras recurrentes de la misma base de clientes.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano, fiestas de invierno y mucho más. Crea colecciones de páginas para colorear por disponible ahora alineadas con los picos de compra. Lanza los packs de Halloween en septiembre, las colecciones de Navidad en octubre y los packs de San Valentín en enero. Los productos estacionales alcanzan precios más altos durante sus ventanas de máxima demanda y crean razones naturales para compras recurrentes de la misma base de clientes.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
     ],

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer pages de coloriage',
+    primaryKeyword: 'créer des coloriages à partir d’images',
     secondaryKeywords: [
       'créateur pages coloriage à partir d\'images',
       'pages coloriage imprimables à vendre',

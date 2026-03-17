@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Heimunterricht-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'heimunterricht-druckvorlagen',
     secondaryKeywords: [
       'Homeschool-Arbeitsblätter auf Etsy erstellen',
       'Lehrplan-Druckvorlagen auf KDP verkaufen',

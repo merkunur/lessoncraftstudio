@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables pour Fêtes à Vendre — Guide',
     metaDescription: 'Idées d\'imprimables pour fêtes à vendre sur Etsy. Créez des packs d\'activités thématiques, jeux d\'anniversaire, fiches de célébration et imprimables de fête.',
 
-    primaryKeyword: 'imprimables fournitures de fête',
+    primaryKeyword: 'idées d\'imprimables pour fêtes à vendre',
     secondaryKeywords: [
       'imprimables fournitures de fête à vendre',
       'business imprimables décoration de fête',

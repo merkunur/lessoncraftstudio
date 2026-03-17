@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles mathématiques imprimables',
+    primaryKeyword: 'générateur de puzzles maths',
     secondaryKeywords: [
       'créateur de puzzles maths pour vendeurs Etsy',
       'créer des fiches de puzzles mathématiques à vendre',

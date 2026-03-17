@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Révisions d\'Été à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables révisions d\'été à vendre sur Etsy, KDP et TPT. Concepts produits pour parents, enseignants et animateurs de stages estivaux.',
 
-    primaryKeyword: 'idées imprimables révisions été',
+    primaryKeyword: 'idées d\'imprimables révisions d\'été à vendre',
     secondaryKeywords: [
       'fiches apprentissage été à vendre',
       'idées business imprimables vacances scolaires',

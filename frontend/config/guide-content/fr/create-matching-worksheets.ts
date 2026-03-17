@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches d\'association',
+    primaryKeyword: 'créer des fiches d\'association pour la maternelle',
     secondaryKeywords: [
       'fiches d\'association pour la maternelle',
       'générateur fiches d\'association',

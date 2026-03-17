@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Tables de Maths à Vendre — Guide',
     metaDescription: 'Idées d\'imprimables calcul mental et tables de maths à vendre sur Etsy, KDP et TPT. Stratégies de niche et conseils pour vendeurs ciblant les enseignants.',
 
-    primaryKeyword: 'idées imprimables tables de maths',
+    primaryKeyword: 'idées d\'imprimables tables de maths à vendre',
     secondaryKeywords: [
       'fiches calcul mental à vendre',
       'idées business imprimables arithmétique',

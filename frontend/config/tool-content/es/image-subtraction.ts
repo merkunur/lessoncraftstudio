@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de resta',
+    primaryKeyword: 'generador fichas de resta',
     secondaryKeywords: [
       'crear fichas de resta online',
       'fichas de resta imprimibles con imágenes',

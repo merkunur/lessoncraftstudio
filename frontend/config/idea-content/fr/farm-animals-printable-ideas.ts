@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Imprimables Animaux de la Ferme à Vendre — Guide Niche',
     metaDescription: 'Idées d’imprimables animaux de la ferme à vendre sur Etsy, Amazon KDP et TPT. Concepts produits, stratégies de prix et conseils de plateformes pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables animaux de la ferme',
+    primaryKeyword: 'imprimables animaux de la ferme à vendre',
     secondaryKeywords: [
       'fiches animaux de la ferme à vendre',
       'activité imprimable thème ferme business',

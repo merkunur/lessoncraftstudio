@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo crear fichas para vender',
+    primaryKeyword: 'cómo crear fichas que se venden',
     secondaryKeywords: [
       'crear fichas profesionales para vender',
       'hacer fichas para vender en Etsy',

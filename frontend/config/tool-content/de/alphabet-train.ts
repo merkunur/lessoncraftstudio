@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Alphabet-Zug-Arbeitsblatt-Generator',
+    primaryKeyword: 'alphabet-zug-generator',
     secondaryKeywords: [
       'Buchstabenzug-Ersteller für Verkäufer',
       'Buchstabenerkennung-Arbeitsblätter online erstellen',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Alphabet-Zug-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Alphabet-Zug“-Paket mit festlichen Illustrationen verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween, Valentinstag und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Alphabet-Zug“-Paket mit festlichen Illustrationen verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween, Valentinstag und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
     },
   ],
 
@@ -156,47 +156,47 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Wie funktioniert das Alphabet-Zug-Format?',
-      answer: 'Das Tool erstellt 11 farbenfrohe Zugwaggons, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug. Schüler erkennen, mit welchem Buchstaben jedes Hinweisbild beginnt, und ordnen es dem richtigen Waggon zu. Die Anzahl der Hinweisbilder ist von 3 bis 11 einstellbar.',
+      answer: 'Das Tool erstellt 11 farbenfrohe Zugwaggons, jeder mit einem Buchstaben und einer passenden Illustration. Verstreute Hinweisbilder erscheinen neben dem Zug. Schüler erkennen, mit welchem Buchstaben jedes Hinweisbild beginnt, und ordnen es dem richtigen Waggon zu. Die Anzahl der Hinweisbilder ist von 3 bis 11 einstellbar. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Was ist der Unterschied zwischen Auto-Erstellen und Manueller Auswahl?',
-      answer: 'Auto-Erstellen wählt zufällig 11 Buchstaben aus dem Alphabet und weist automatisch passende Bilder aus dem gewählten Thema zu — ideal für schnelle Massenproduktion. Manuelle Auswahl ermöglicht es Ihnen, genau 11 Buchstaben aus dem vollständigen Alphabet-Raster auszuwählen und jedes Bild einzeln zuzuweisen, sodass Sie volle Kontrolle darüber haben, welche Buchstaben auf dem Arbeitsblatt erscheinen.',
+      answer: 'Auto-Erstellen wählt zufällig 11 Buchstaben aus dem Alphabet und weist automatisch passende Bilder aus dem gewählten Thema zu — ideal für schnelle Massenproduktion. Manuelle Auswahl ermöglicht es Ihnen, genau 11 Buchstaben aus dem vollständigen Alphabet-Raster auszuwählen und jedes Bild einzeln zuzuweisen, sodass Sie volle Kontrolle darüber haben, welche Buchstaben auf dem Arbeitsblatt erscheinen. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden.',
     },
     {
       question: 'Wie funktioniert das Hinweisanzahl-System?',
-      answer: 'Der Hinweisanzahl-Regler steuert, wie viele zugeordnete Bilder neben dem Zug erscheinen. Mit 3 Hinweisen haben nur 3 der 11 Waggons eine Zuordnungsaufgabe — die leichteste Stufe. Mit 11 Hinweisen hat jeder Waggon eine Zuordnung, was die schwerste Version ergibt. Passen Sie die Anzahl an, um Arbeitsblätter nach Schwierigkeit zu differenzieren.',
+      answer: 'Der Hinweisanzahl-Regler steuert, wie viele zugeordnete Bilder neben dem Zug erscheinen. Mit 3 Hinweisen haben nur 3 der 11 Waggons eine Zuordnungsaufgabe — die leichteste Stufe. Mit 11 Hinweisen hat jeder Waggon eine Zuordnung, was die schwerste Version ergibt. Passen Sie die Anzahl an, um Arbeitsblätter nach Schwierigkeit zu differenzieren. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Welche Sprachen werden unterstützt?',
-      answer: 'Das Tool unterstützt 11 Sprachen mit nativen Alphabeten: Englisch (26 Buchstaben), Deutsch (30 Buchstaben einschließlich Ä, Ö, Ü, ß), Französisch, Spanisch (Ñ), Portugiesisch, Italienisch, Niederländisch, Schwedisch (29 Buchstaben einschließlich Å, Ä, Ö), Dänisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekte Buchstabenreihenfolge und ihren Zeichensatz.',
+      answer: 'Das Tool unterstützt 11 Sprachen mit nativen Alphabeten: Englisch (26 Buchstaben), Deutsch (30 Buchstaben einschließlich Ä, Ö, Ü, ß), Französisch, Spanisch (Ñ), Portugiesisch, Italienisch, Niederländisch, Schwedisch (29 Buchstaben einschließlich Å, Ä, Ö), Dänisch, Norwegisch und Finnisch. Jede Sprache verwendet ihre korrekte Buchstabenreihenfolge und ihren Zeichensatz. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Wie funktioniert die sprachsensitive Bildzuordnung?',
-      answer: 'Das Tool ordnet jedes Bild dem Buchstaben zu, mit dem es in der gewählten Sprache beginnt. Zum Beispiel passt ein Hund-Bild zu H auf Deutsch, D auf Englisch (Dog), C auf Französisch (Chien) und P auf Spanisch (Perro). Das bedeutet, dass derselbe Bildsatz in jeder Sprache wirklich unterschiedliche Arbeitsblätter erzeugt, nicht nur übersetzte Beschriftungen.',
+      answer: 'Das Tool ordnet jedes Bild dem Buchstaben zu, mit dem es in der gewählten Sprache beginnt. Zum Beispiel passt ein Hund-Bild zu H auf Deutsch, D auf Englisch (Dog), C auf Französisch (Chien) und P auf Spanisch (Perro). Das bedeutet, dass derselbe Bildsatz in jeder Sprache wirklich unterschiedliche Arbeitsblätter erzeugt, nicht nur übersetzte Beschriftungen. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen, Schulmaskottchen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und für den KDP-Upload; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge.',
+      answer: 'Sie können Arbeitsblätter als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken und für den KDP-Upload; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
     },
     {
       question: 'Welche Schriftoptionen sind verfügbar?',
-      answer: 'Das Tool bietet 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Jede Schrift ist in Arbeitsblattgrößen klar und gut lesbar. Wählen Sie runde, verspielte Schriften wie Fredoka für jüngere Lernende oder klare Schriften wie Lexend Deca für ein professionelles Erscheinungsbild.',
+      answer: 'Das Tool bietet 7 Schriftfamilien: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Jede Schrift ist in Arbeitsblattgrößen klar und gut lesbar. Wählen Sie runde, verspielte Schriften wie Fredoka für jüngere Lernende oder klare Schriften wie Lexend Deca für ein professionelles Erscheinungsbild. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
   ],
 

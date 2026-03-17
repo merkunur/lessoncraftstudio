@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des puzzles pièces manquantes',
+    primaryKeyword: 'générateur pièces manquantes',
     secondaryKeywords: [
       'générateur de puzzles pièces manquantes pour vendeurs Etsy',
       'créateur de fiches puzzle visuelles pour éditeurs Amazon KDP',

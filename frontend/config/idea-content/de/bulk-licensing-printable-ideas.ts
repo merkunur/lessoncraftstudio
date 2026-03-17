@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Massenlizenzierung Arbeitsblätter Geschäftsideen',
+    primaryKeyword: 'massenlizenzierung druckvorlagen geschäftsideen',
     secondaryKeywords: [
       'Volumenlizenz Druckvorlagen an Schulen verkaufen',
       'Klassensatz-Arbeitsblätter für Bildungseinrichtungen',

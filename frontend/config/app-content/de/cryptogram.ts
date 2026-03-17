@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bildkryptogramm-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'kryptogramm-generator',
     secondaryKeywords: [
       'druckbare Bilder-Chiffre-Rätsel-Generator für Etsy-Verkäufer',
       'Bildkryptogramm-Arbeitsblatt-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Bilder-Chiffre-Generator mit sprachabhängigem Alphabet',
     ],
     lsiKeywords: [
-      'digitale Geheimschrift-Rätsel-Produkte passives Einkommen',
+      'digitale Geheimschrift-Rätsel-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Bild-Buchstaben-Chiffre-Arbeitsblätter',
       'kommerzieller Bildkryptogramm-Generator mit Buchstabenlegende',
     ],

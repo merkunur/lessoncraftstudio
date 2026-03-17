@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fiche de discrimination visuelle',
+    primaryKeyword: 'créateur discrimination visuelle',
     secondaryKeywords: [
       'créateur de fiches de discrimination visuelle pour vendeurs',
       'créer des fiches de correspondance de silhouettes à vendre',

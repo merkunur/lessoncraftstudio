@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de clasificación de imágenes',
+    primaryKeyword: 'generador clasificación de imágenes',
     secondaryKeywords: [
       'creador de fichas de clasificación para vendedores uso comercial',
       'crear fichas de clasificación para vender en Etsy y KDP',

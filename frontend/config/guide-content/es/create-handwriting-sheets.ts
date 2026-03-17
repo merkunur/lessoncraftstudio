@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas práctica escritura',
+    primaryKeyword: 'crear fichas de práctica de escritura',
     secondaryKeywords: [
       'generador de fichas de escritura para niños',
       'generador de fichas de escritura manuscrita',

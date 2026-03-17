@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables FLE à Vendre — Guide Niche',
     metaDescription: 'Idées d’imprimables FLE/ESL à vendre sur Etsy, KDP et TPT. Stratégies de niche pour vendeurs ciblant enseignants, tuteurs et apprenants d’anglais dans le monde.',
 
-    primaryKeyword: 'idées imprimables FLE ESL',
+    primaryKeyword: 'idées d\'imprimables fle à vendre',
     secondaryKeywords: [
       'fiches ESL à vendre',
       'idées business imprimables anglais',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de comparaison de quantités',
+    primaryKeyword: 'générateur plus ou moins',
     secondaryKeywords: [
       'fiches plus ou moins imprimables pour Etsy',
       'créateur de fiches de comparaison de nombres pour Amazon KDP',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
       answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison en téléchargement numérique sur Etsy, en cahiers d\'activités sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal. Vous pouvez aussi combiner des fiches de comparaison avec d\'autres types de fiches de maths — addition ou soustraction — pour créer des packs complets à prix plus élevé.',
+        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison en téléchargement numérique sur Etsy, en cahiers d\'activités sur Amazon KDP, en ressources pédagogiques sur TPT ou via tout autre canal. Vous pouvez aussi combiner des fiches de comparaison avec d\'autres types de fiches de maths — addition ou soustraction — pour créer des packs complets à prix plus élevé. L\'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l\'outil convient à votre flux de production.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
       answer:
-        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d\'export et taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter.',
+        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d\'export et taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
     },
   ],
 

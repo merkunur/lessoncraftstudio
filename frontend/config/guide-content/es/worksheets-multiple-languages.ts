@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear fichas varios idiomas',
+    primaryKeyword: 'crear fichas en varios idiomas',
     secondaryKeywords: [
       'creación fichas multilingües',
       'traducir fichas para vender',
@@ -71,7 +71,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Estrategia de Amazon KDP para plataformas internacionales',
-      content: 'Amazon opera plataformas separadas por país, cada una con rankings de búsqueda y grupos de compradores independientes. Tus fichas en alemán en amazon.de compiten solo contra otros productos alemanes en esa plataforma, no contra los millones de productos en inglés en amazon.com. Al publicar en plataformas internacionales de Amazon, asegúrate de que las descripciones de tus libros y palabras clave del backend estén escritas en el idioma de la plataforma — no traducidas del inglés. Investiga las listas de best-sellers por categoría en cada plataforma para entender qué formatos y puntos de precio funcionan mejor en ese mercado específico.',
+      content: 'Amazon opera plataformas separadas por país, cada una con rankings de búsqueda y grupos de compradores independientes. Tus fichas en alemán en amazon.de compiten solo contra otros productos alemanes en esa plataforma, no contra los millones de productos en inglés en amazon.com. Al publicar en plataformas internacionales de Amazon, asegúrate de que las descripciones de tus libros y palabras clave del backend estén escritas en el idioma de la plataforma — no traducidas del inglés. Investiga las listas de muy demandados por categoría en cada plataforma para entender qué formatos y puntos de precio funcionan mejor en ese mercado específico.',
     },
     {
       heading: 'Canal de ventas directas para productos multilingües',

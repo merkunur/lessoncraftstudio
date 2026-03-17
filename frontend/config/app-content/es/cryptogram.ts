@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de criptograma',
+    primaryKeyword: 'generador fichas criptograma',
     secondaryKeywords: [
       'fichas de criptograma con imágenes imprimibles para vendedores Etsy',
       'generador de puzzles de criptograma cifrado para Amazon KDP',

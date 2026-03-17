@@ -192,11 +192,11 @@ const content: ToolContent = {
     },
     {
       question: 'What font options are available?',
-      answer: 'The tool offers 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Each font is clear and readable at worksheet sizes. Choose rounded, playful fonts like Fredoka for younger learners or clean fonts like Lexend Deca for a professional look.',
+      answer: 'The tool offers 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Each font is clear and readable at worksheet sizes. Choose rounded, playful fonts like Fredoka for younger learners or clean fonts like Lexend Deca for a professional look. The watermarked trial gives you unlimited access to explore all features at your own pace with no time limit — use it as long as you need to evaluate whether the tool fits your production workflow.',
     },
     {
       question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
+      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',
     },
   ],
 

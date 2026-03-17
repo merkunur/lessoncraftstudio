@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rechercher créneaux imprimables rentables',
+    primaryKeyword: 'rechercher des créneaux imprimables rentables',
     secondaryKeywords: [
       'méthodes recherche niches imprimables',
       'trouver niches fiches exercices rentables',

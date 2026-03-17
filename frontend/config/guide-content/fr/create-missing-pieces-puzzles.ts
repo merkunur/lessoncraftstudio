@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer puzzles pièces manquantes à imprimer',
+    primaryKeyword: 'puzzles pièces manquantes à imprimer',
     secondaryKeywords: [
       'générateur puzzles pièces manquantes licence commerciale',
       'fiches puzzles visuels à vendre Etsy et KDP',

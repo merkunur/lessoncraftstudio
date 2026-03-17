@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de fichas de asociación y clasificación',
+    primaryKeyword: 'paquete fichas de asociación',
     secondaryKeywords: [
       'paquete de generadores de fichas de asociación para vendedores',
       'kit de fichas de asociación y clasificación uso comercial',

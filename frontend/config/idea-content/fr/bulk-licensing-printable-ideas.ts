@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées Licences en Gros d\'Imprimables — Guide',
     metaDescription: 'Idées de licences en gros d\'imprimables pour vendre des collections de fiches aux écoles et districts. Stratégies de licences en volume pour éducateurs.',
 
-    primaryKeyword: 'licences en gros imprimables',
+    primaryKeyword: 'idées licences en gros d\'imprimables',
     secondaryKeywords: [
       'business licences fiches en gros',
       'licences imprimables districts scolaires',

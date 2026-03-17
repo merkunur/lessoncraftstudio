@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommerzielle Lizenz für druckbare Arbeitsblätter',
+    primaryKeyword: 'kommerzielle lizenz-leitfaden für druckvorlagen-verkäufer',
     secondaryKeywords: [
       'kommerzielle Lizenz Arbeitsblätter verkaufen',
       'Arbeitsblätter kommerziell verkaufen Etsy Amazon',

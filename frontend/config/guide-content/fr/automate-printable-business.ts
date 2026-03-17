@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatiser business imprimables',
+    primaryKeyword: 'automatiser votre activité d’imprimables',
     secondaryKeywords: [
       'automatisation business imprimables',
       'automatiser création fiches',

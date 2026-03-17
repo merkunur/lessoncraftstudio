@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Mathe-Grundlagen-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'mathe-grundlagen-druckvorlagen',
     secondaryKeywords: [
       'Rechenflüssigkeit-Arbeitsblätter auf Etsy erstellen',
       'Mathe-Übungsblätter auf KDP verkaufen',

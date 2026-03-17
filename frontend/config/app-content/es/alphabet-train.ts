@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas tren del abecedario',
+    primaryKeyword: 'generador tren del abecedario',
     secondaryKeywords: [
       'fichas tren alfabético imprimibles para Etsy',
       'generador de fichas de reconocimiento de letras para Amazon KDP',

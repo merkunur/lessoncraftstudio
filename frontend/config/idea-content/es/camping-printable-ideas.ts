@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Camping — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de camping para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática al aire libre, estrategias por plataforma.',
-    primaryKeyword: 'ideas imprimibles camping',
+    primaryKeyword: 'ideas imprimibles de camping',
     secondaryKeywords: [
       'fichas de camping para vender',
       'fichas actividades camping para vendedores',

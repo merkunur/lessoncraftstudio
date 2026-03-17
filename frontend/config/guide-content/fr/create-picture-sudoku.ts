@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer sudoku en images à imprimer',
+    primaryKeyword: 'sudoku en images à imprimer',
     secondaryKeywords: [
       'sudoku illustré pour enfants licence commerciale',
       'générateur sudoku en images fiches à vendre Etsy et KDP',

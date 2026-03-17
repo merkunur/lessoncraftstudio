@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sudoku-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'bilder-sudoku-generator',
     secondaryKeywords: [
       'druckbarer Bild-Sudoku-Generator für Etsy-Verkäufer',
       'Bilder-Sudoku-Rätsel-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'visuelle Logikrätsel-Arbeitsblätter auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Bilder-Sudoku-Druckvorlagen passives Einkommen',
+      'digitale Bilder-Sudoku-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Bild-Sudoku-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Logikrätsel Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale und feiertagsbezogene Sudoku-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Bilder-Sudoku-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Sudoku-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Rätsel im Januar. Mischen Sie alle drei Schwierigkeitsgrade innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Bilder-Sudoku-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Sudoku-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Rätsel im Januar. Mischen Sie alle drei Schwierigkeitsgrade innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

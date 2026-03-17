@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideas de Imprimibles de Dinosaurios — Guía de Nicho',
     metaDescription: 'Ideas rentables de imprimibles de dinosaurios para vender en Etsy, Amazon KDP y TPT. Conceptos de productos, estrategias por plataforma y consejos de nicho.',
 
-    primaryKeyword: 'ideas imprimibles dinosaurios',
+    primaryKeyword: 'ideas de imprimibles de dinosaurios',
     secondaryKeywords: [
       'fichas temática dinosaurios para vender',
       'negocio imprimibles dinosaurios',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre imprimables sur Gumroad',
+    primaryKeyword: 'comment vendre des imprimables sur gumroad',
     secondaryKeywords: [
       'comment vendre imprimables sur Gumroad',
       'créer boutique Gumroad imprimables',

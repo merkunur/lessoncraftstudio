@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches discrimination visuelle ombres',
+    primaryKeyword: 'fiches de discrimination visuelle par ombres',
     secondaryKeywords: [
       'créer fiches discrimination visuelle ombres à vendre',
       'générateur fiches silhouettes correspondance',

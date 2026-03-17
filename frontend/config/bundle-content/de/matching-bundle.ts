@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'Zuordnung-Sortierung-Arbeitsblatt-Paket',
+    primaryKeyword: 'zuordnung & sortierung',
     secondaryKeywords: [
       'Zuordnungs-Arbeitsblätter-Paket für Verkäufer',
       'druckbare Zuordnungs-Aktivitäten-Toolkit kommerzielle Nutzung',

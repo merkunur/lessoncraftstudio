@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches plusieurs langues',
+    primaryKeyword: 'créer des fiches en plusieurs langues',
     secondaryKeywords: [
       'création fiches multilingues',
       'traduire fiches pour vendre',

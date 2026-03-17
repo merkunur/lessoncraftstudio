@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Wörter-Raten-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'wörter-raten-generator',
     secondaryKeywords: [
       'druckbare Bild-Vokabel-Rätsel für Etsy-Verkäufer',
       'Buchstaben-Rate-Arbeitsblatt-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Bild-Hinweis-Wort-Rätsel Arbeitsblatt-Generator',
     ],
     lsiKeywords: [
-      'digitale Vokabel-Rätsel Produkte passives Einkommen',
+      'digitale Vokabel-Rätsel Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Buchstaben-Deduktion Arbeitsblätter',
       'kommerzieller Wörter-Raten-Generator Rechtschreibung',
     ],

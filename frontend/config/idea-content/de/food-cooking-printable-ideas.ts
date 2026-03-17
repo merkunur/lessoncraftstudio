@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Essen-und-Koch-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'essen & kochen druckvorlagen',
     secondaryKeywords: [
       'Koch-Arbeitsblätter auf Etsy erstellen',
       'Lebensmittel-Aktivitätsblätter auf KDP verkaufen',

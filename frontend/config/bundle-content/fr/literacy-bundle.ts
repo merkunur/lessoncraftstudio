@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack fiches lecture et langage',
+    primaryKeyword: 'pack lecture & langage',
     secondaryKeywords: [
       'pack générateurs fiches de lecture pour vendeurs',
       'kit fiches de vocabulaire licence commerciale',
@@ -28,7 +28,7 @@ const content: BundleContent = {
   appsIncluded: [
     {
       title: 'Générateur de Fiches Train Alphabet',
-      description: 'Créez des fiches alphabet sur le thème du train où chaque wagon transporte une lettre associée à une image correspondante. Les élèves relient lettres et images, renforçant les associations lettre-son dans un format ludique et visuel. Le générateur prend en charge les 11 alphabets natifs — les fiches allemandes incluent les trémas et l\'eszett, les langues scandinaves obtiennent leurs voyelles supplémentaires, et l\'espagnol conserve le tilde. Choisissez entre majuscules, minuscules ou présentation mixte. Sélectionnez des images parmi plus de 100 ensembles thématiques ou importez les vôtres. Chaque fiche génère automatiquement un corrigé correspondant. Le format train est un best-seller éprouvé en alphabétisation précoce car il combine le séquençage, la reconnaissance des lettres et la construction du vocabulaire en une seule activité engageante.',
+      description: 'Créez des fiches alphabet sur le thème du train où chaque wagon transporte une lettre associée à une image correspondante. Les élèves relient lettres et images, renforçant les associations lettre-son dans un format ludique et visuel. Le générateur prend en charge les 11 alphabets natifs — les fiches allemandes incluent les trémas et l\'eszett, les langues scandinaves obtiennent leurs voyelles supplémentaires, et l\'espagnol conserve le tilde. Choisissez entre majuscules, minuscules ou présentation mixte. Sélectionnez des images parmi plus de 100 ensembles thématiques ou importez les vôtres. Chaque fiche génère automatiquement un corrigé correspondant. Le format train est un très demandé éprouvé en alphabétisation précoce car il combine le séquençage, la reconnaissance des lettres et la construction du vocabulaire en une seule activité engageante.',
     },
     {
       title: 'Générateur de Fiches de Prépositions',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Haustier-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'haustiere-druckvorlagen-ideen',
     secondaryKeywords: [
       'Hunde-Katzen-Arbeitsblätter auf Etsy erstellen',
       'Haustier-Druckvorlagen auf KDP verkaufen',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des pages de coloriage',
+    primaryKeyword: 'générateur pages de coloriage',
     secondaryKeywords: [
       'générateur de pages de coloriage pour vendeurs Etsy',
       'créateur de fiches de coloriage pour éditeurs Amazon KDP',

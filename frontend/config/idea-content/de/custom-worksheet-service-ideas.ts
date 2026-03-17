@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'maßgeschneiderte Arbeitsblatt-Services verkaufen',
+    primaryKeyword: 'arbeitsblatt-service geschäftsideen',
     secondaryKeywords: [
       'individuelle Lernmaterialien auf Etsy anbieten',
       'Freelance-Arbeitsblatt-Erstellung als Service',

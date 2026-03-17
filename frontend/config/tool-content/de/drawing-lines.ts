@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Linienverfolgung-Arbeitsblatt-Generator',
+    primaryKeyword: 'linienverfolgung-generator',
     secondaryKeywords: [
       'Linien-Ziehen-Ersteller für Verkäufer',
       'Schwungübungen-Arbeitsblätter online erstellen',

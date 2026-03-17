@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilderkreuzworträtsel-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'kreuzworträtsel-generator',
     secondaryKeywords: [
       'druckbarer Bild-Kreuzworträtsel-Generator für Etsy-Verkäufer',
       'Bilderkreuzworträtsel-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Bild-Kreuzworträtsel auf Etsy.de und Amazon verkaufen',
     ],
     lsiKeywords: [
-      'digitale Bilderkreuzworträtsel-Druckvorlagen passives Einkommen',
+      'digitale Bilderkreuzworträtsel-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Kreuzworträtsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Bild-Kreuzworträtsel Werkzeuge',
     ],
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Bilderkreuzworträtsel-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie zeitlich begrenzte Bilderkreuzworträtsel-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Kreuzworträtsel-Pakete im September, Weihnachts-Kreuzworträtsel-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Die visuelle Natur der Bilderkreuzworträtsel macht saisonale Themen besonders überzeugend — Feiertagsbilder als Hinweise erzeugen sofortige saisonale Anziehungskraft in Listing-Thumbnails. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen — dasselbe Weihnachtsthema erzeugt in jeder Sprache ein einzigartiges Kreuzworträtsel.',
+          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Bilderkreuzworträtsel-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Kreuzworträtsel-Pakete im September, Weihnachts-Kreuzworträtsel-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Die visuelle Natur der Bilderkreuzworträtsel macht saisonale Themen besonders überzeugend — Feiertagsbilder als Hinweise erzeugen sofortige saisonale Anziehungskraft in Listing-Thumbnails. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen — dasselbe Weihnachtsthema erzeugt in jeder Sprache ein einzigartiges Kreuzworträtsel.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
     ],

@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'créer des fiches à vendre',
+    primaryKeyword: 'créer des fiches qui se vendent',
     secondaryKeywords: [
       'créer des fiches professionnelles',
       'faire des fiches à vendre sur Etsy.fr',

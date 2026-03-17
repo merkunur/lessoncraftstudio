@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de pages de coloriage',
+    primaryKeyword: 'générateur pages de coloriage',
     secondaryKeywords: [
       'créateur de pages de coloriage pour vendeurs',
       'créer des pages de coloriage personnalisées à vendre',

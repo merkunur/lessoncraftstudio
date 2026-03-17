@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Malvorlagen-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'malvorlagen-generator',
     secondaryKeywords: [
       'druckbarer Ausmalseiten-Generator für Etsy-Verkäufer',
       'Ausmalbilder-Generator mit Freihand-Zeichenwerkzeug für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Ausmalseiten-Ersteller kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Ausmalseiten-Druckvorlagen passives Einkommen',
+      'digitale Ausmalseiten-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft Malvorlagen-Werkzeuge',
       'kommerzieller Ausmalbilder-Generator mit Graustufen-Export',
     ],
@@ -114,7 +114,7 @@ const content: AppContent = {
       {
         title: 'Ausmalbücher auf Amazon KDP',
         description:
-          'Stellen Sie 60–100 Ausmalseiten zu einem gedruckten Ausmalbuch im Amazon-KDP-Format zusammen. Der Graustufen-Export erzeugt tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind. Strukturieren Sie Ihr Buch nach Themen: Kapitel 1 behandelt Bauernhoftiere, Kapitel 2 Meeresbewohner, Kapitel 3 Fahrzeuge und so weiter. Nutzen Sie das Freihand-Zeichenwerkzeug, um eigene Titelseiten und Abschnittstrennblätter zu erstellen. Die freie Arbeitsfläche ermöglicht die Steuerung der Bilddichte pro Seite — einzelne große Bilder für jüngere Zielgruppen, mehrere kleinere Bilder für Fortgeschrittene. Fügen Sie dekorative Rahmen und Klassenzimmer-Helfer wie Namensfelder hinzu, um Ihren Ausmalbüchern zusätzlichen pädagogischen Wert zu verleihen. Ausmalbücher haben ganzjährige Nachfrage mit saisonalen Spitzen rund um Feiertage und bieten eine langfristige passive Einkommensquelle.',
+          'Stellen Sie 60–100 Ausmalseiten zu einem gedruckten Ausmalbuch im Amazon-KDP-Format zusammen. Der Graustufen-Export erzeugt tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind. Strukturieren Sie Ihr Buch nach Themen: Kapitel 1 behandelt Bauernhoftiere, Kapitel 2 Meeresbewohner, Kapitel 3 Fahrzeuge und so weiter. Nutzen Sie das Freihand-Zeichenwerkzeug, um eigene Titelseiten und Abschnittstrennblätter zu erstellen. Die freie Arbeitsfläche ermöglicht die Steuerung der Bilddichte pro Seite — einzelne große Bilder für jüngere Zielgruppen, mehrere kleinere Bilder für Fortgeschrittene. Fügen Sie dekorative Rahmen und Klassenzimmer-Helfer wie Namensfelder hinzu, um Ihren Ausmalbüchern zusätzlichen pädagogischen Wert zu verleihen. Ausmalbücher haben ganzjährige Nachfrage mit saisonalen Spitzen rund um Feiertage und bieten eine langfristige skalierbares Einkommensquelle.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Saisonale und Feiertags-Malvorlagen-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien, Winterfeiertage und mehr. Erstellen Sie zeitlich begrenzte Malvorlagen-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Malvorlagen-Pakete im September, Weihnachtssammlungen im Oktober und Valentinstag-Sets im Januar. Nutzen Sie dekorative Rahmen passend zur jeweiligen Saison und fügen Sie Klassenzimmer-Helfer hinzu, um thematische Aktivitätsblätter für Lehrkräfte zu erstellen. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Das rein visuelle Format ohne Text ermöglicht den Verkauf derselben saisonalen Sammlung weltweit ohne Übersetzungsaufwand.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien, Winterfeiertage und mehr. Erstellen Sie aktuell verfügbare Malvorlagen-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Malvorlagen-Pakete im September, Weihnachtssammlungen im Oktober und Valentinstag-Sets im Januar. Nutzen Sie dekorative Rahmen passend zur jeweiligen Saison und fügen Sie Klassenzimmer-Helfer hinzu, um thematische Aktivitätsblätter für Lehrkräfte zu erstellen. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Das rein visuelle Format ohne Text ermöglicht den Verkauf derselben saisonalen Sammlung weltweit ohne Übersetzungsaufwand.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
     ],

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Bilderkreuzworträtsel-Generator',
+    primaryKeyword: 'kreuzworträtsel-ersteller',
     secondaryKeywords: [
       'Bilderkreuzworträtsel-Ersteller für Verkäufer',
       'Kreuzworträtsel mit Bildhinweisen online erstellen und verkaufen',

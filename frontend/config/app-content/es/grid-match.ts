@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender puzzles de cuadrícula imprimibles',
+    primaryKeyword: 'generador puzzles cuadrícula',
     secondaryKeywords: [
       'generador de puzzles de cuadrícula imprimibles para vendedores Etsy',
       'creador de puzzles de casillas de imágenes para editores Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Puzzles de Cuadrícula de Temporada',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de cuadrícula por tiempo limitado alineadas con los períodos de mayor demanda. Lanza packs de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye múltiples tamaños de cuadrícula y niveles de dificultad en cada conjunto estacional para máximo valor. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de cuadrícula por disponible ahora alineadas con los períodos de mayor demanda. Lanza packs de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Incluye múltiples tamaños de cuadrícula y niveles de dificultad en cada conjunto estacional para máximo valor. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

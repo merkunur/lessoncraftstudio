@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de asociación de sombras',
+    primaryKeyword: 'generador asociación sombras',
     secondaryKeywords: [
       'generador de fichas de asociación de sombras para vendedores Etsy',
       'creador de puzzles de siluetas imprimibles para editores Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Asociación de Sombras de Temporada',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Las actividades de siluetas tienen un atractivo especial durante Halloween cuando los temas de sombras y misterio son naturalmente populares. Crea colecciones de asociación de sombras por tiempo limitado alineadas con los períodos de mayor demanda. Incluye fichas de Asociación de Sombras y Completa la Imagen en cada conjunto estacional para máximo valor y variedad. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Las actividades de siluetas tienen un atractivo especial durante Halloween cuando los temas de sombras y misterio son naturalmente populares. Crea colecciones de asociación de sombras por disponible ahora alineadas con los períodos de mayor demanda. Incluye fichas de Asociación de Sombras y Completa la Imagen en cada conjunto estacional para máximo valor y variedad. Los productos estacionales pueden venderse a precios más altos durante sus períodos pico.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur sudoku en images pour enfants',
+    primaryKeyword: 'générateur sudoku en images',
     secondaryKeywords: [
       'créer et vendre des sudoku en images pour vendeurs Etsy',
       'générateur de puzzles sudoku visuels pour éditeurs Amazon KDP',

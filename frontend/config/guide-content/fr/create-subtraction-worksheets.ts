@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches soustraction',
+    primaryKeyword: 'créer des fiches de soustraction',
     secondaryKeywords: [
       'faire fiches soustraction pour enfants',
       'générateur fiches soustraction',

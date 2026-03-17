@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches comparaison de tailles',
+    primaryKeyword: 'générateur fiches grand & petit',
     secondaryKeywords: [
       'créateur de fiches grand et petit pour vendeurs',
       'créer des fiches discrimination visuelle de tailles à vendre',

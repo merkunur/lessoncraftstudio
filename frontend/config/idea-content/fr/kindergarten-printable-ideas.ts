@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Grande Section à Vendre — Guide',
     metaDescription: 'Idées d\'imprimables Grande Section à vendre sur Etsy, KDP et TPT. Concepts de produits maternelle, stratégies par plateforme et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables grande section',
+    primaryKeyword: 'idées d\'imprimables grande section à vendre',
     secondaryKeywords: [
       'fiches maternelle à vendre',
       'idées business imprimables maternelle',

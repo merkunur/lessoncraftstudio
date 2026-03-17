@@ -14,7 +14,7 @@ const content: GuideContent = {
       'costos envío margen beneficio comparación gestión inventario escalabilidad',
       'costos producción método entrega experiencia cliente formato producto',
       'modelo híbrido mercado digital ferias artesanías gastos fijos',
-      'ingresos pasivos costos impresión empaquetado control calidad producto',
+      'ingresos recurrentes costos impresión empaquetado control calidad producto',
       'selección formato comparación modelos negocio estrategia vendedor trayectoria crecimiento',
     ],
     titleTag: 'Digital o Físico Imprimibles — Guía Vendedor',

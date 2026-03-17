@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer puzzles mots cachés',
+    primaryKeyword: 'créer des puzzles de mots cachés',
     secondaryKeywords: [
       'générateur puzzles mots cachés',
       'créateur mots cachés imprimables',

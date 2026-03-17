@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches mots cachés imprimables',
+    primaryKeyword: 'générateur fiches mots cachés',
     secondaryKeywords: [
       'créateur de fiches mots cachés pour vendeurs',
       'créer des grilles de mots cachés à vendre',

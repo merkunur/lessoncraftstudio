@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Rasterzeichnen-Arbeitsblatt-Generator',
+    primaryKeyword: 'rasterzeichnen-generator',
     secondaryKeywords: [
       'Rasterzeichnen-Ersteller für Verkäufer',
       'Gitterzeichnungs-Arbeitsblätter online erstellen',

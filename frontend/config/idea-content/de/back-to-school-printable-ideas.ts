@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Schulanfang-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'schulanfang-druckvorlagen-ideen',
     secondaryKeywords: [
       'Einschulung-Arbeitsblätter für Etsy erstellen',
       'Schulanfang-Aktivitäten auf KDP verkaufen',

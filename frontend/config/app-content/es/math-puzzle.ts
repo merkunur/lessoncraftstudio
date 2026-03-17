@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear fichas de puzzles matemáticos para vender',
+    primaryKeyword: 'generador de puzzles matemáticos',
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimibles para Etsy',
       'generador de puzzles de imágenes para Amazon KDP',

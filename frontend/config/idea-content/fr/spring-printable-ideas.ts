@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables de Printemps à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables de printemps à vendre sur Etsy, KDP et TPT. Concepts saisonniers mars-mai, stratégies nature et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables printemps',
+    primaryKeyword: 'idées d\'imprimables de printemps à vendre',
     secondaryKeywords: [
       'fiches de printemps à vendre',
       'idées business imprimables printemps',

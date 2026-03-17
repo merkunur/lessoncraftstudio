@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches mots mélangés imprimables',
+    primaryKeyword: 'générateur fiches mots mélangés',
     secondaryKeywords: [
       'créateur de fiches mots mélangés pour vendeurs',
       'créer des puzzles réarrangement de lettres à vendre',

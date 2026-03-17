@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Was-Passt-Nicht-Generator',
+    primaryKeyword: 'was-passt-nicht-ersteller',
     secondaryKeywords: [
       'Was-Passt-Nicht-Ersteller für Verkäufer',
       'Ausreißer-Rätsel online erstellen und verkaufen',

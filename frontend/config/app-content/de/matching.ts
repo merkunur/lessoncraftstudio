@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Zuordnungs-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'zuordnungs-generator',
     secondaryKeywords: [
       'druckbarer Zuordnungs-Aktivitäten-Generator für Etsy-Verkäufer',
       'Paare-Verbinden-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Zuordnungs-Arbeitsblatt-Ersteller kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Zuordnungs-Druckvorlagen passives Einkommen',
+      'digitale Zuordnungs-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Zuordnungs-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Paare-Verbinden-Werkzeuge',
     ],
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Zuordnungs-Aktivitäts-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Zuordnungs-Arbeitsblatt-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zuordnungspakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer in der Vorschau sofort anspricht.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Zuordnungs-Arbeitsblatt-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zuordnungspakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer in der Vorschau sofort anspricht.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
     ],

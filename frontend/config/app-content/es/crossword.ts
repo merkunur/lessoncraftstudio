@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de crucigramas con imágenes',
+    primaryKeyword: 'generador crucigramas con imágenes',
     secondaryKeywords: [
       'crucigramas ilustrados imprimibles para vendedores Etsy',
       'generador de crucigramas con pistas visuales para Amazon KDP',
@@ -128,7 +128,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Crucigramas con Imágenes de Temporada',
         description:
-          'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de crucigramas con imágenes de tiempo limitado alineadas con los períodos de mayor venta. Lanza paquetes de crucigramas de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. La naturaleza visual de los crucigramas con imágenes hace que los temas estacionales sean particularmente atractivos — imágenes festivas como pistas crean un atractivo estacional inmediato. Los productos estacionales tienen precios más altos durante sus períodos pico y generan compras recurrentes.',
+          'Las 104 colecciones temáticas de imágenes cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de crucigramas con imágenes de disponible ahora alineadas con los períodos de mayor venta. Lanza paquetes de crucigramas de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. La naturaleza visual de los crucigramas con imágenes hace que los temas estacionales sean particularmente atractivos — imágenes festivas como pistas crean un atractivo estacional inmediato. Los productos estacionales tienen precios más altos durante sus períodos pico y generan compras recurrentes.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
     ],

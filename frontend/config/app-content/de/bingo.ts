@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Bingo-Karten erstellen und verkaufen',
+    primaryKeyword: 'bilder-bingo-generator',
     secondaryKeywords: [
       'druckbarer Bingo-Karten-Generator für Etsy-Verkäufer',
       'Bilder-Bingo-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Bingo-Aktivitäten auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Bingo-Druckvorlagen passives Einkommen',
+      'digitale Bingo-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Bingo-Karten-Generator mit Ansageblatt',
       'Druckvorlagen-Geschäft Bingo-Aktivitäten Werkzeuge',
     ],

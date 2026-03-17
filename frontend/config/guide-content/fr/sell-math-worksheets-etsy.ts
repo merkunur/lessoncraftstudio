@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'vendre fiches de maths sur Etsy',
+    primaryKeyword: 'vendre des fiches de maths sur etsy',
     secondaryKeywords: [
       'comment vendre fiches de maths sur Etsy',
       'créer boutique Etsy fiches mathématiques',

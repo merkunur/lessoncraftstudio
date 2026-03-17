@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Rätselbücher KDP veröffentlichen',
+    primaryKeyword: 'rätselbücher auf amazon kdp veröffentlichen',
     secondaryKeywords: [
       'Rätselbücher auf Amazon KDP veröffentlichen Anleitung',
       'KDP Rätselbuch Veröffentlichung Leitfaden',

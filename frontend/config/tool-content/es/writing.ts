@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de escritura y caligrafía',
+    primaryKeyword: 'generador de fichas de escritura',
     secondaryKeywords: [
       'crear fichas de caligrafía imprimibles para vender',
       'generador de fichas de escritura con trazos guiados uso comercial',

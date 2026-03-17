@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches graphique à images',
+    primaryKeyword: 'générateur fiches graphique à images',
     secondaryKeywords: [
       'générateur de fiches graphique à images pour vendeurs Etsy',
       'créateur de fiches pictogramme pour éditeurs Amazon KDP',

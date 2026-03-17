@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideas de Imprimibles de Pascua para Vender — Guía',
     metaDescription: 'Descubre ideas de imprimibles de Pascua para vender en Etsy, Amazon KDP y TPT. Conceptos de productos primaverales, estrategias estacionales y consejos.',
 
-    primaryKeyword: 'ideas imprimibles pascua',
+    primaryKeyword: 'ideas de imprimibles de pascua para vender',
     secondaryKeywords: [
       'fichas de Pascua para vender',
       'negocio imprimibles Pascua',

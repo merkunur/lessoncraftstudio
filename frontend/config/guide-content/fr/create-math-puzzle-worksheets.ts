@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches puzzles mathématiques',
+    primaryKeyword: 'créer des fiches puzzles maths',
     secondaryKeywords: [
       'générateur puzzles maths pour enfants',
       'puzzles mathématiques reconstruction d\'images',

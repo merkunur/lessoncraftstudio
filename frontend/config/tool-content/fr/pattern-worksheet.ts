@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de séquences logiques',
+    primaryKeyword: 'générateur fiches séquences logiques',
     secondaryKeywords: [
       'créateur de fiches séquences logiques pour vendeurs',
       'créer des fiches de complétion de motifs à vendre',

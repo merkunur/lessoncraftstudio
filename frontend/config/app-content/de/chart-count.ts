@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilddiagramm-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'bilddiagramm-generator',
     secondaryKeywords: [
       'druckbarer Bilddiagramm-Generator für Etsy-Verkäufer',
       'Piktogramm-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Bilderzähl-Arbeitsblatt-Ersteller kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Piktogramm-Druckvorlagen passives Einkommen',
+      'digitale Piktogramm-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft Bilderdiagramm-Werkzeuge',
       'kommerzieller Bilddiagramm-Generator mit Lösungsschlüssel',
     ],
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Datenerfassungs-Arbeitsbücher auf Amazon KDP',
         description:
-          'Stellen Sie 60–100 Bilddiagramm-Arbeitsblätter zu einem gedruckten Datenerfassungs-Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Kapitel nach Themen: Kapitel 1 behandelt Tierzählung, Kapitel 2 Lebensmitteldiagramme, Kapitel 3 Fahrzeugdaten und so weiter. Aktivieren Sie den Graustufen-Export für tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind. Integrieren Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels als Lehrkraft- und Elternreferenz. Die Doppel-Canvas-Generierung erzeugt Arbeitsblatt und Lösungsschlüssel automatisch, sodass der Aufbau eines 100-seitigen Arbeitsbuchs mit vollständigen Lösungen einen Bruchteil der Zeit im Vergleich zur manuellen Erstellung benötigt. Datenerfassungs-Arbeitsbücher haben ganzjährige Nachfrage im Grundschulbereich und bieten eine langfristige passive Einkommensquelle auf Amazon.de.',
+          'Stellen Sie 60–100 Bilddiagramm-Arbeitsblätter zu einem gedruckten Datenerfassungs-Arbeitsbuch im Amazon-KDP-Format zusammen. Strukturieren Sie Kapitel nach Themen: Kapitel 1 behandelt Tierzählung, Kapitel 2 Lebensmitteldiagramme, Kapitel 3 Fahrzeugdaten und so weiter. Aktivieren Sie den Graustufen-Export für tintenschonende Seiten, die direkt als Schwarzweiß-Buchinhalte einsetzbar sind. Integrieren Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels als Lehrkraft- und Elternreferenz. Die Doppel-Canvas-Generierung erzeugt Arbeitsblatt und Lösungsschlüssel automatisch, sodass der Aufbau eines 100-seitigen Arbeitsbuchs mit vollständigen Lösungen einen Bruchteil der Zeit im Vergleich zur manuellen Erstellung benötigt. Datenerfassungs-Arbeitsbücher haben ganzjährige Nachfrage im Grundschulbereich und bieten eine langfristige skalierbares Einkommensquelle auf Amazon.de.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Zähl- und Diagramm-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachtsornamente, Halloween-Symbole, Osterelemente, Valentinstag-Herzen, Schulanfangs-Materialien, Sommeraktivitäten und Winterszenen. Erstellen Sie zeitlich begrenzte Bilddiagramm-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zählpakete im September, Weihnachts-Diagramm-Sets im Oktober und Valentinstag-Datenaktivitäten im Januar. Legen Sie jedem Set Lösungsschlüssel bei für vollständige Lehrkraft-Pakete. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer sofort anspricht. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachtsornamente, Halloween-Symbole, Osterelemente, Valentinstag-Herzen, Schulanfangs-Materialien, Sommeraktivitäten und Winterszenen. Erstellen Sie aktuell verfügbare Bilddiagramm-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zählpakete im September, Weihnachts-Diagramm-Sets im Oktober und Valentinstag-Datenaktivitäten im Januar. Legen Sie jedem Set Lösungsschlüssel bei für vollständige Lehrkraft-Pakete. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer sofort anspricht. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
     ],

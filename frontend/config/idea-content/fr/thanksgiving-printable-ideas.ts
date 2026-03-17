@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Thanksgiving à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables Thanksgiving à vendre sur Etsy, KDP et TPT. Concepts de produits automne-récolte, stratégies saisonnières et conseils pros.',
 
-    primaryKeyword: 'idées imprimables thanksgiving',
+    primaryKeyword: 'idées d\'imprimables thanksgiving à vendre',
     secondaryKeywords: [
       'fiches Thanksgiving à vendre',
       'idées business imprimables Thanksgiving',

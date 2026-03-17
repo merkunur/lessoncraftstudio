@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Camping-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'camping-druckvorlagen-ideen',
     secondaryKeywords: [
       'Camping-Arbeitsblätter auf Etsy erstellen',
       'Outdoor-Aktivitätsblätter auf KDP verkaufen',

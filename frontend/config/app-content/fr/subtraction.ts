@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de soustraction',
+    primaryKeyword: 'générateur de fiches de soustraction',
     secondaryKeywords: [
       'fiches de soustraction imprimables pour Etsy',
       'générateur de fiches de soustraction pour Amazon KDP',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: 'Quelle est la politique de remboursement ?',
       answer:
-        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d\'export et taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter.',
+        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque mode, thème, format d\'export et taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter. L\'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l\'outil convient à votre flux de production.',
     },
     {
       question: 'Dois-je installer un logiciel ?',
       answer:
-        'Non. Le Générateur de Fiches de Soustraction fonctionne entièrement dans votre navigateur web. Il n\'y a rien à télécharger, installer ou mettre à jour. Il fonctionne sur tout navigateur moderne : Chrome, Firefox, Safari et Edge. Ouvrez la page et commencez à créer.',
+        'Non. Le Générateur de Fiches de Soustraction fonctionne entièrement dans votre navigateur web. Il n\'y a rien à télécharger, installer ou mettre à jour. Il fonctionne sur tout navigateur moderne : Chrome, Firefox, Safari et Edge. Ouvrez la page et commencez à créer. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
     },
   ],
 

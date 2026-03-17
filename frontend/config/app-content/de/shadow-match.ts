@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'schattenbilder-generator',
     secondaryKeywords: [
       'druckbarer Silhouetten-Zuordnungs-Generator für Etsy-Verkäufer',
       'Schattenbild-Rätsel-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Silhouetten-Arbeitsblätter auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Schattenbilder-Zuordnung Druckvorlagen passives Einkommen',
+      'digitale Schattenbilder-Zuordnung Druckvorlagen skalierbares Einkommen',
       'kommerzieller Silhouetten-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Wahrnehmung Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Schattenbilder-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Silhouetten-Aktivitäten haben besondere Anziehungskraft während Halloween, wenn Schatten- und Geheimnis-Themen natürlich beliebt sind. Erstellen Sie zeitlich begrenzte Schattenbilder-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Integrieren Sie sowohl Schattenbild-Zuordnungs- als auch Bild-Vervollständigungs-Arbeitsblätter in jedes saisonale Set für maximalen Wert und Vielfalt. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert. Veröffentlichen Sie Halloween-Silhouettenpakete im September, Weihnachts-Schattensammlungen im Oktober und Valentinstag-Pakete im Januar für maximale Sichtbarkeit während der jeweiligen Hochsaison.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Silhouetten-Aktivitäten haben besondere Anziehungskraft während Halloween, wenn Schatten- und Geheimnis-Themen natürlich beliebt sind. Erstellen Sie aktuell verfügbare Schattenbilder-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Integrieren Sie sowohl Schattenbild-Zuordnungs- als auch Bild-Vervollständigungs-Arbeitsblätter in jedes saisonale Set für maximalen Wert und Vielfalt. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert. Veröffentlichen Sie Halloween-Silhouettenpakete im September, Weihnachts-Schattensammlungen im Oktober und Valentinstag-Pakete im Januar für maximale Sichtbarkeit während der jeweiligen Hochsaison.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

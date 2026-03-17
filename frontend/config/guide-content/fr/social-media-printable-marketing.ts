@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'marketing réseaux sociaux imprimables',
+    primaryKeyword: 'marketing réseaux sociaux pour imprimables',
     secondaryKeywords: [
       'réseaux sociaux pour vendeurs imprimables',
       'promouvoir imprimables sur réseaux sociaux',

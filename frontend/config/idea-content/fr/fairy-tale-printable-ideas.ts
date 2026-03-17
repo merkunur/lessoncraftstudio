@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Contes de Fées — Guide',
     metaDescription: 'Découvrez des idées d’imprimables contes de fées à vendre sur Etsy, KDP et TPT. Concepts de produits féériques, stratégies et conseils pour les vendeurs.',
 
-    primaryKeyword: 'idées imprimables contes de fées',
+    primaryKeyword: 'idées d\'imprimables contes de fées',
     secondaryKeywords: [
       'fiches contes de fées à vendre',
       'idées business imprimables féeriques',

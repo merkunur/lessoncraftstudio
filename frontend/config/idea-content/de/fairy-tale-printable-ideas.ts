@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Märchen-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'märchen-druckvorlagen-ideen',
     secondaryKeywords: [
       'Märchen-Arbeitsblätter auf Etsy erstellen',
       'Geschichtenbuch-Druckvorlagen auf KDP verkaufen',

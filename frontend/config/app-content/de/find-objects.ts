@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Versteckte-Objekte-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'versteckte-objekte-generator',
     secondaryKeywords: [
       'druckbarer Suchbild-Generator für Etsy-Verkäufer',
       'Versteckte-Objekte-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Welches-passt-nicht-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
     ],
     lsiKeywords: [
-      'digitale Suchbild-Druckvorlagen passives Einkommen',
+      'digitale Suchbild-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Versteckte-Objekte-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Suchaktivitäten Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Suchbild-Aktivitätssammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie zeitlich begrenzte Suchbild-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Suchbild-Pakete im September, Weihnachts-Suchbild-Sammlungen im Oktober und Valentinstag-Suchszenen im Januar. Kombinieren Sie sowohl Ich-sehe-was- als auch Welches-passt-nicht-Arbeitsblätter in jedem saisonalen Set für maximalen Mehrwert und breitere Kundenzielgruppe.',
+          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Suchbild-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Suchbild-Pakete im September, Weihnachts-Suchbild-Sammlungen im Oktober und Valentinstag-Suchszenen im Januar. Kombinieren Sie sowohl Ich-sehe-was- als auch Welches-passt-nicht-Arbeitsblätter in jedem saisonalen Set für maximalen Mehrwert und breitere Kundenzielgruppe.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

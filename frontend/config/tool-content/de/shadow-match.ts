@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder-Generator',
+    primaryKeyword: 'schattenbilder-ersteller',
     secondaryKeywords: [
       'Schattenbilder-Ersteller für Verkäufer',
       'Silhouetten-Zuordnungs-Arbeitsblätter online erstellen und verkaufen',

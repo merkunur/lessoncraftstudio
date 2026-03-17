@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'paquete de fichas de aprendizaje visual',
+    primaryKeyword: 'paquete fichas aprendizaje visual',
     secondaryKeywords: [
       'paquete de generadores de fichas de colorear y dibujo para vendedores',
       'kit de fichas de actividades visuales uso comercial',

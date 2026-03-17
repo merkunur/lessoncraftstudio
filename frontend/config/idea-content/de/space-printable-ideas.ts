@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Weltraum-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'weltraum-druckvorlagen-ideen',
     secondaryKeywords: [
       'Weltraum-Arbeitsblätter auf Etsy erstellen',
       'Planeten-Raketen-Druckvorlagen auf KDP',

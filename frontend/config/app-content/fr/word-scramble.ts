@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches mots mélangés',
+    primaryKeyword: 'générateur fiches mots mélangés',
     secondaryKeywords: [
       'fiches mots mélangés imprimables pour vendeurs Etsy',
       'générateur de puzzles réarrangement de lettres pour Amazon KDP',

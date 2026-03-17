@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publier livres de puzzles KDP',
+    primaryKeyword: 'comment publier des livres de puzzles kdp',
     secondaryKeywords: [
       'comment publier des livres de puzzles sur Amazon KDP',
       'guide publication livres de puzzles KDP',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Print-on-Demand Arbeitsblatt-Ideen verkaufen',
+    primaryKeyword: 'print-on-demand arbeitsblatt-ideen zum verkaufen',
     secondaryKeywords: [
       'POD-Druckvorlagen auf Etsy erstellen',
       'gedruckte Arbeitshefte auf KDP verkaufen',

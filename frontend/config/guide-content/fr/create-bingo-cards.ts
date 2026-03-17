@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer cartes de bingo',
+    primaryKeyword: 'créer des cartes bingo avec images thématiques',
     secondaryKeywords: [
       'créer cartes bingo avec images',
       'générateur cartes bingo pour enfants',

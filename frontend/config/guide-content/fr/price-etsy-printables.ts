@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tarification imprimables Etsy fiches',
+    primaryKeyword: 'tarification imprimables etsy',
     secondaryKeywords: [
       'comment fixer les prix des fiches imprimables sur Etsy',
       'stratégie de prix Etsy imprimables éducatifs',

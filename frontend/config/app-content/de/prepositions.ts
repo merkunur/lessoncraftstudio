@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Präpositionen-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'präpositionen-generator',
     secondaryKeywords: [
       'druckbare Präpositionen-Arbeitsblätter für Etsy',
       'räumliche Beziehungen Arbeitsblatt-Generator für KDP',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Ortspräpositionen Arbeitsblätter mit Bildern',
     ],
     lsiKeywords: [
-      'digitale Sprachförderung Produkte passives Einkommen',
+      'digitale Sprachförderung Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft räumliches Vokabular',
       'kommerzieller Präpositionen-Generator Dativ',
     ],
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Präpositionen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-und-Form-Format und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete mit Lösungsschlüsseln, die konstantes passives Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Präpositionen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-und-Form-Format und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete mit Lösungsschlüsseln, die konstantes skalierbares Einkommen generieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

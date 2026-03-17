@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de grafomotricidad',
+    primaryKeyword: 'generador fichas grafomotricidad',
     secondaryKeywords: [
       'generador de fichas de trazado de líneas para vendedores Etsy',
       'creador de fichas de grafomotricidad para editores Amazon KDP',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Malvorlagen erstellen',
+    primaryKeyword: 'malvorlagen aus thematischen bildern erstellen',
     secondaryKeywords: [
       'Malvorlagen-Ersteller aus Bildern',
       'druckbare Malvorlagen zum Verkaufen',

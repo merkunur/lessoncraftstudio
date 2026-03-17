@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Muster-Raster-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'muster-raster-generator',
     secondaryKeywords: [
       'druckbarer Muster-Raster-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Sequenzmuster-Raster-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Muster-Raster-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Mustererkennung-Raster-Druckvorlagen passives Einkommen',
+      'digitale Mustererkennung-Raster-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft visuelle Muster-Raster-Übungen',
       'kommerzieller Muster-Vervollständigungs-Arbeitsblatt-Generator',
     ],

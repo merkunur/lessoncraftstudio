@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de graphisme',
+    primaryKeyword: 'générateur fiches graphisme',
     secondaryKeywords: [
       'créateur de fiches de tracé de lignes pour vendeurs',
       'créer des fiches de graphisme à vendre',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables de Camping à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables de camping à vendre sur Etsy, KDP et TPT. Concepts de produits plein air, fiches nature et conseils de niche pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables camping',
+    primaryKeyword: 'idées d\'imprimables de camping à vendre',
     secondaryKeywords: [
       'fiches camping à vendre',
       'idées business imprimables plein air',

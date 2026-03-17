@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Meerestiere-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'meerestiere-druckvorlagen-ideen',
     secondaryKeywords: [
       'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
       'Meerestier-Druckvorlagen auf KDP verkaufen',

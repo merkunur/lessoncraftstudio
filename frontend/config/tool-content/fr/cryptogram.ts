@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches cryptogramme imprimables',
+    primaryKeyword: 'générateur fiches cryptogramme',
     secondaryKeywords: [
       'créateur de puzzles cryptogramme chiffré pour vendeurs',
       'créer des fiches cryptogramme à images à vendre',

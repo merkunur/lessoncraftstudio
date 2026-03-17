@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideas de Imprimibles de Mascotas — Guía de Nicho',
     metaDescription: 'Ideas rentables de imprimibles de mascotas para vender en Etsy, Amazon KDP y TPT. Conceptos de productos de perros, gatos y animales domésticos con estrategi.',
 
-    primaryKeyword: 'ideas imprimibles mascotas',
+    primaryKeyword: 'ideas de imprimibles de mascotas',
     secondaryKeywords: [
       'fichas temática mascotas para vender',
       'negocio imprimibles mascotas',

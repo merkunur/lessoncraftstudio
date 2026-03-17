@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches mots cachés',
+    primaryKeyword: 'générateur fiches mots cachés',
     secondaryKeywords: [
       'fiches mots cachés imprimables pour vendeurs Etsy',
       'générateur de grilles de mots cachés pour Amazon KDP',

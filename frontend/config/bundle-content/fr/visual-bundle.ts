@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack fiches apprentissage visuel imprimables',
+    primaryKeyword: 'pack apprentissage visuel',
     secondaryKeywords: [
       'pack générateur fiches coloriage dessin pour vendeurs',
       'toolkit activités visuelles imprimables licence commerciale',
@@ -32,7 +32,7 @@ const content: BundleContent = {
     },
     {
       title: 'Générateur de Fiches Train Suites Logiques',
-      description: 'Générez des fiches de suites logiques en wagons où chaque wagon transporte une image thématique dans un motif répétitif. Les élèves identifient la règle du motif et déterminent quelle image va dans le wagon manquant. La métaphore du train rend la reconnaissance abstraite des motifs tangible et engageante pour les jeunes apprenants. Les motifs utilisent deux à quatre éléments répétitifs selon le niveau de difficulté, progressant des séquences simples AB aux motifs complexes ABCD. Tout le contenu est basé sur les images — pas de texte, pas de nombres, pas de dépendance linguistique. Choisissez parmi plus de 100 ensembles d\'images thématiques pour créer des produits visuellement distincts pour différentes niches. Le format train est un best-seller éprouvé dans les imprimables d\'apprentissage précoce car il combine discrimination visuelle, raisonnement logique et prédiction en une seule activité attrayante.',
+      description: 'Générez des fiches de suites logiques en wagons où chaque wagon transporte une image thématique dans un motif répétitif. Les élèves identifient la règle du motif et déterminent quelle image va dans le wagon manquant. La métaphore du train rend la reconnaissance abstraite des motifs tangible et engageante pour les jeunes apprenants. Les motifs utilisent deux à quatre éléments répétitifs selon le niveau de difficulté, progressant des séquences simples AB aux motifs complexes ABCD. Tout le contenu est basé sur les images — pas de texte, pas de nombres, pas de dépendance linguistique. Choisissez parmi plus de 100 ensembles d\'images thématiques pour créer des produits visuellement distincts pour différentes niches. Le format train est un très demandé éprouvé dans les imprimables d\'apprentissage précoce car il combine discrimination visuelle, raisonnement logique et prédiction en une seule activité attrayante.',
     },
     {
       title: 'Générateur de Fiches Séquences Logiques',

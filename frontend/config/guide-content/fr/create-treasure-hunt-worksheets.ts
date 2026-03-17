@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'fiches chasse au trésor',
+    primaryKeyword: 'fiches de chasse au trésor',
     secondaryKeywords: [
       'créer fiches chasse au trésor à vendre',
       'générateur fiches chasse au trésor licence commerciale',

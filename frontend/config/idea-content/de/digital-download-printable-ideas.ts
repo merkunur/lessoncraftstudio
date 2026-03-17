@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'digitale Download-Arbeitsblatt-Ideen verkaufen',
+    primaryKeyword: 'digitale download-arbeitsblatt-ideen',
     secondaryKeywords: [
       'sofort lieferbare Lern-PDFs auf Etsy erstellen',
       'Digital-Download-Druckvorlagen auf Gumroad verkaufen',
@@ -12,7 +12,7 @@ const content: IdeaContent = {
     lsiKeywords: [
       'lagerloses Druckvorlagen-Geschäftsmodell',
       'sofortige Lieferung digitale Lernmaterialien',
-      'PDF-Arbeitsblätter passives Einkommen online',
+      'PDF-Arbeitsblätter skalierbares Einkommen online',
     ],
     titleTag: 'Digitale Download-Arbeitsblatt-Ideen — Leitfaden',
     metaDescription: 'Digitale Download-Arbeitsblatt-Ideen für Etsy, Gumroad und TPT. Druckvorlagen-Geschäft ohne Lagerhaltung mit sofort lieferbaren Lern-PDFs für Verkäufer.',

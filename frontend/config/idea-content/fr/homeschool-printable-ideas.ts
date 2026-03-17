@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables École à la Maison à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables pour l\'école à la maison à vendre sur Etsy, KDP et TPT. Stratégies de niche pour vendeurs ciblant les familles en IEF.',
 
-    primaryKeyword: 'idées imprimables école à la maison',
+    primaryKeyword: 'idées d\'imprimables école à la maison à vendre',
     secondaryKeywords: [
       'fiches école maison à vendre',
       'idées business imprimables IEF',

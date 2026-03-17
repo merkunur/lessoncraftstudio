@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Qualitätsstandards Arbeitsblätter Verkäufer',
+    primaryKeyword: 'qualitätsstandards arbeitsblätter für verkäufer',
     secondaryKeywords: [
       'Druckvorlagen Qualitätscheckliste',
       'professionelle Arbeitsblatt-Designstandards',

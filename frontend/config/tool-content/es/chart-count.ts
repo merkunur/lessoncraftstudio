@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de gráficos de imágenes',
+    primaryKeyword: 'generador gráficos de imágenes',
     secondaryKeywords: [
       'creador de fichas de gráficos pictóricos para vendedores',
       'crear fichas de gráficos de conteo uso comercial',

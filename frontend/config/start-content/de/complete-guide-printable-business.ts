@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Druckvorlagen-Geschäft starten Anleitung',
+    primaryKeyword: 'druckvorlagen-geschäft starten',
     secondaryKeywords: [
       'Druckvorlagen-Geschäft für Anfänger',
       'Arbeitsblätter online verkaufen',
@@ -124,7 +124,7 @@ const content: StartContent = {
     {
       appId: 'addition-worksheets',
       title: 'Additions-Arbeitsblatt-Generator',
-      description: 'Mathe-Arbeitsblätter sind zeitlose Bestseller. Erstellen Sie bildbasierte Additionsaufgaben mit konfigurierbarem Schwierigkeitsgrad, thematischen Bildersets und vier verschiedenen Aufgabenmodi für maximale Produktvielfalt.',
+      description: 'Mathe-Arbeitsblätter sind zeitlose Verkaufsschlager. Erstellen Sie bildbasierte Additionsaufgaben mit konfigurierbarem Schwierigkeitsgrad, thematischen Bildersets und vier verschiedenen Aufgabenmodi für maximale Produktvielfalt.',
     },
     {
       appId: 'coloring-worksheets',

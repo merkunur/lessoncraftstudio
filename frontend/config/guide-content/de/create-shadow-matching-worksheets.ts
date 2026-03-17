@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen',
+    primaryKeyword: 'schattenbilder-arbeitsblätter erstellen',
     secondaryKeywords: [
       'Schattenbilder-Zuordnungs-Arbeitsblätter zum Verkaufen erstellen',
       'Silhouetten-Zuordnungs-Generator für Arbeitsblätter',

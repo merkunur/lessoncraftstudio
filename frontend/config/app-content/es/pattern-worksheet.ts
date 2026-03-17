@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de patrones en cuadrícula',
+    primaryKeyword: 'generador fichas de patrones',
     secondaryKeywords: [
       'generador de fichas de patrones imprimibles para vendedores Etsy',
       'creador de fichas de reconocimiento de secuencias para Amazon KDP',

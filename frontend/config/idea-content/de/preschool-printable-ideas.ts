@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Vorschule-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'vorschule-druckvorlagen-ideen',
     secondaryKeywords: [
       'Vorschul-Arbeitsblätter auf Etsy erstellen',
       'frühkindliche Druckvorlagen auf KDP verkaufen',

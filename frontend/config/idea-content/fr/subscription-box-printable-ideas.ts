@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées de Box d\'Abonnement Imprimables à Vendre — Guide',
     metaDescription: 'Idées de box d\'abonnement de fiches à vendre sur Etsy, Gumroad et Patreon. Créez des revenus récurrents avec des packs mensuels et des lots thématiques.',
 
-    primaryKeyword: 'idées box abonnement imprimables',
+    primaryKeyword: 'idées de box d\'abonnement imprimables à vendre',
     secondaryKeywords: [
       'business abonnement fiches imprimables',
       'modèle abonnement mensuel fiches éducatives',

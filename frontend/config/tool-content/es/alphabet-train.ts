@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de tren del abecedario',
+    primaryKeyword: 'generador tren del abecedario',
     secondaryKeywords: [
       'crear fichas de tren de letras imprimibles',
       'generador de fichas del alfabeto para vender',

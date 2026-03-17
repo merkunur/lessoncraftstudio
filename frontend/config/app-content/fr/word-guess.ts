@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches deviner les mots',
+    primaryKeyword: 'générateur fiches deviner les mots',
     secondaryKeywords: [
       'fiches deviner les mots imprimables pour vendeurs Etsy',
       'générateur de fiches vocabulaire style pendu pour Amazon KDP',

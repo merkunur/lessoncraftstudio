@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Imprimables Saint-Valentin à Vendre — Guide de Niche',
     metaDescription: 'Idées d’imprimables de Saint-Valentin à vendre sur Etsy, KDP et TPT. Concepts produits thème amour, stratégies timing saisonnier et conseils pour vendeurs.',
-    primaryKeyword: 'idées imprimables saint-valentin',
+    primaryKeyword: 'imprimables saint-valentin à vendre',
     secondaryKeywords: [
       'fiches de Saint-Valentin à vendre',
       'idées commerciales imprimables Saint-Valentin',

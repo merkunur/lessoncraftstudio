@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches labyrinthes à imprimer',
+    primaryKeyword: 'créer des fiches labyrinthes',
     secondaryKeywords: [
       'générateur de labyrinthes imprimables',
       'fiches labyrinthes thématiques pour enfants à vendre',

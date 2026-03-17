@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'ESL-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'esl-druckvorlagen-ideen zum verkaufen',
     secondaryKeywords: [
       'Sprachlern-Arbeitsblätter auf Etsy erstellen',
       'ESL-Vokabel-Druckvorlagen auf TPT verkaufen',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Unterwasser-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'unterwasser-druckvorlagen-ideen',
     secondaryKeywords: [
       'Unterwasserwelt-Arbeitsblätter auf Etsy erstellen',
       'Ozean-Druckvorlagen auf KDP verkaufen',

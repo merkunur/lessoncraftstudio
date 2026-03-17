@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables d\'Été à Vendre — Guide Niche',
     metaDescription: 'Découvrez des idées d\'imprimables d\'été à vendre sur Etsy, KDP et TPT. Concepts de produits plage et soleil, stratégies saisonnières et conseils vendeurs.',
 
-    primaryKeyword: 'idées imprimables été',
+    primaryKeyword: 'idées d\'imprimables d\'été à vendre',
     secondaryKeywords: [
       'fiches thème été à vendre',
       'idées business imprimables été',

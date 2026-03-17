@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear fichas de suma codificada para vender',
+    primaryKeyword: 'generador suma codificada',
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimibles para Etsy',
       'fichas de descifrar código de suma para Amazon KDP',

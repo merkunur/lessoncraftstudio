@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de adivinar palabras',
+    primaryKeyword: 'generador fichas adivinar palabras',
     secondaryKeywords: [
       'fichas de adivinar palabras imprimibles para vendedores Etsy',
       'generador de fichas de vocabulario estilo ahorcado para Amazon KDP',

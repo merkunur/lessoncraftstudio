@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Sonderpädagogik-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'sonderpädagogik-druckvorlagen',
     secondaryKeywords: [
       'SPED-Arbeitsblätter auf Etsy erstellen',
       'angepasste Lernmaterialien auf KDP verkaufen',

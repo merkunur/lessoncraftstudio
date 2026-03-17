@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Elterntag-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'elterntag-druckvorlagen-ideen',
     secondaryKeywords: [
       'Muttertag-Arbeitsblätter auf Etsy erstellen',
       'Vatertag-Druckvorlagen auf KDP verkaufen',

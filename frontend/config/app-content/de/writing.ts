@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'schreibübungen-generator',
     secondaryKeywords: [
       'druckbare Handschrift-Übungsblätter-Generator für Etsy-Verkäufer',
       'Schreibübungen-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Schreibübungen-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Handschrift-Übungsprodukte passives Einkommen',
+      'digitale Handschrift-Übungsprodukte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Buchstaben-Nachspuren-Arbeitsblätter',
       'kommerzieller Schreibübungen-Generator mit Strichrichtungspfeilen',
     ],

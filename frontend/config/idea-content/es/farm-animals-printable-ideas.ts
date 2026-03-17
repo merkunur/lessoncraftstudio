@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideas de Imprimibles Animales de Granja — Guía de Nicho',
     metaDescription: 'Ideas rentables de imprimibles de animales de granja para vender en Etsy, Amazon KDP y TPT. Conceptos, estrategias de precios y consejos por plataforma.',
 
-    primaryKeyword: 'ideas imprimibles animales de granja',
+    primaryKeyword: 'ideas de imprimibles animales de granja',
     secondaryKeywords: [
       'fichas animales de granja para vender',
       'negocio imprimibles tema granja',

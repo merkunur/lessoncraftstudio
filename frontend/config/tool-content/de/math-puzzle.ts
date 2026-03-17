@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Mathe-Rätsel-Arbeitsblatt-Generator',
+    primaryKeyword: 'mathe-rätsel-generator',
     secondaryKeywords: [
       'Mathe-Puzzle-Ersteller für Verkäufer',
       'Puzzle-Mathe-Arbeitsblätter online erstellen',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Puzzle-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um zeitlich begrenzte Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle“-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle“-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz.',
     },
     {
       title: 'Tägliche Aufwärm-Puzzles für den Unterricht',
@@ -156,43 +156,43 @@ const content: ToolContent = {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit sämtlichen Funktionen — keine Anmeldung, keine Kreditkarte erforderlich. Sie können so viele Arbeitsblätter erstellen, in der Vorschau ansehen und herunterladen, wie Sie möchten. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und volle Verkaufsrechte freizuschalten. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Wie funktioniert das Mathe-Puzzle-Format?',
-      answer: 'Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen. Jede Zelle zeigt eine Mathe-Gleichung (Addition, Subtraktion oder beides). Unterhalb des Rasters erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen. Schüler lösen jede Gleichung, finden das passende Teil und setzen es in die richtige Zelle ein, um das vollständige Bild zu rekonstruieren.',
+      answer: 'Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen. Jede Zelle zeigt eine Mathe-Gleichung (Addition, Subtraktion oder beides). Unterhalb des Rasters erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen. Schüler lösen jede Gleichung, finden das passende Teil und setzen es in die richtige Zelle ein, um das vollständige Bild zu rekonstruieren. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Kombination verschiedener Übungsformate innerhalb eines Bündels — etwa Zuordnung, Zählen, Muster und Wortsuche rund um ein gemeinsames Thema — schafft umfassende Lernpakete, die deutlich höhere Preise als einzelne Arbeitsblätter erzielen.',
     },
     {
       question: 'Welche Rastergrößen sind verfügbar?',
-      answer: 'Sie können Zeilen von 2 bis 4 und Spalten von 2 bis 4 einstellen, was Raster von 2×2 (4 Teile) bis 4×4 (16 Teile) ergibt. Gängige Konfigurationen sind 2×2 (am einfachsten, 4 Teile), 2×3 oder 3×2 (6 Teile), 3×3 (9 Teile, mittel), 3×4 oder 4×3 (12 Teile) und 4×4 (16 Teile, am schwierigsten).',
+      answer: 'Sie können Zeilen von 2 bis 4 und Spalten von 2 bis 4 einstellen, was Raster von 2×2 (4 Teile) bis 4×4 (16 Teile) ergibt. Gängige Konfigurationen sind 2×2 (am einfachsten, 4 Teile), 2×3 oder 3×2 (6 Teile), 3×3 (9 Teile, mittel), 3×4 oder 4×3 (12 Teile) und 4×4 (16 Teile, am schwierigsten). Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen. Saisonale Themen wie Weihnachten, Ostern, Herbst und Sommer bieten vorhersagbare Nachfragespitzen, die erfahrene Verkäufer durch vorausgeplante Produktveröffentlichungen strategisch nutzen, um maximale Sichtbarkeit während der Haupteinkaufszeiten zu erreichen.',
     },
     {
       question: 'Was sind die drei Rechenarten?',
-      answer: 'Der Additionsmodus füllt jede Zelle mit einer Additionsgleichung. Der Subtraktionsmodus verwendet Subtraktionsgleichungen. Der Modus Addition & Subtraktion mischt beide Operationen zufällig über das Raster und erzeugt Wiederholungs-Puzzles, die beide Fähigkeiten in einer einzelnen Aktivität testen.',
+      answer: 'Der Additionsmodus füllt jede Zelle mit einer Additionsgleichung. Der Subtraktionsmodus verwendet Subtraktionsgleichungen. Der Modus Addition & Subtraktion mischt beide Operationen zufällig über das Raster und erzeugt Wiederholungs-Puzzles, die beide Fähigkeiten in einer einzelnen Aktivität testen. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Lehrkräften und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um Ihre eigene PNG- oder JPEG-Datei als Puzzlebild zu verwenden. So können Sie markentypische Puzzles mit eigenen Illustrationen, Logos, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um Ihre eigene PNG- oder JPEG-Datei als Puzzlebild zu verwenden. So können Sie markentypische Puzzles mit eigenen Illustrationen, Logos, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
     },
     {
       question: 'Was bewirkt der Graustufen-Schalter?',
-      answer: 'Die Aktivierung der Graustufen wandelt das Puzzlebild in Schwarz-Weiß um. Das erzeugt tintensparende Arbeitsblätter, die günstiger im Massendruck sind. Besonders nützlich für Amazon-KDP-Arbeitsbücher, bei denen Graustufen-Inhalte niedrigere Druckgebühren haben als Farbe.',
+      answer: 'Die Aktivierung der Graustufen wandelt das Puzzlebild in Schwarz-Weiß um. Das erzeugt tintensparende Arbeitsblätter, die günstiger im Massendruck sind. Besonders nützlich für Amazon-KDP-Arbeitsbücher, bei denen Graustufen-Inhalte niedrigere Druckgebühren haben als Farbe. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen. Die Möglichkeit, eigene Bilder hochzuladen, erweitert Ihre kreative Flexibilität erheblich. Sie können markenspezifische Illustrationen, lizenzierte Clipart-Sets oder benutzerdefinierte Fotografien verwenden, um völlig einzigartige Produkte zu erstellen, die kein anderer Verkäufer replizieren kann.',
     },
     {
       question: 'Kann ich die Puzzles kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Puzzles auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Puzzles.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Puzzles auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Puzzles. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
     },
     {
       question: 'Funktionieren die Puzzles auch in anderen Sprachen?',
-      answer: 'Ja. Mathe-Puzzles verwenden ausschließlich Bilder, Zahlen und Gleichungen — kein Text. Die von Ihnen erstellten Puzzles funktionieren identisch in allen Sprachen. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen.',
+      answer: 'Ja. Mathe-Puzzles verwenden ausschließlich Bilder, Zahlen und Gleichungen — kein Text. Die von Ihnen erstellten Puzzles funktionieren identisch in allen Sprachen. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
-      answer: 'Sie können Puzzles als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Puzzle-Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge.',
+      answer: 'Sie können Puzzles als hochauflösende JPEG-Bilder oder druckoptimierte PDF-Dateien herunterladen. Sowohl das Puzzle-Arbeitsblatt als auch der passende Lösungsschlüssel sind in beiden Formaten verfügbar. PDFs eignen sich ideal zum direkten Drucken; JPEGs sind perfekt für Produkt-Mockups und Social-Media-Beiträge. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion steht Ihnen zur Verfügung, damit Sie das Tool vollständig bewerten können, bevor Sie eine Kaufentscheidung treffen. Da die kostenlose Testversion Ihnen kompletten Zugang gewährt, bieten wir keine Rückerstattung für Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
   ],
 

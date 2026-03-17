@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Sous-Marins à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables sous-marins à vendre sur Etsy, KDP et TPT. Concepts de produits océaniques, fiches marines et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables sous-marins',
+    primaryKeyword: 'idées d\'imprimables sous-marins à vendre',
     secondaryKeywords: [
       'fiches sous-marines à vendre',
       'idées business imprimables océan',

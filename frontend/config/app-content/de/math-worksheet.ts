@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Algebra-Bilderätsel-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'algebra-bilderrätsel-generator',
     secondaryKeywords: [
       'druckbare Gleichungsrätsel-Arbeitsblätter für Etsy',
       'Algebra-Puzzle-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Gleichungssystem-Arbeitsblätter mit Bildern erstellen',
     ],
     lsiKeywords: [
-      'digitale Algebra-Rätsel-Produkte passives Einkommen',
+      'digitale Algebra-Rätsel-Produkte skalierbares Einkommen',
       'Gleichungsrätsel-Arbeitsblatt-Geschäft Druckvorlagen',
       'kommerzieller Algebra-Bilderätsel-Generator',
     ],
@@ -104,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'So verkaufen Sie Algebra-Bilderätsel-Arbeitsblätter online als passives Einkommen',
+    title: 'So verkaufen Sie Algebra-Bilderätsel-Arbeitsblätter online als skalierbares Einkommen',
     cases: [
       {
         title: 'Thematische Algebra-Rätsel-Pakete auf Etsy',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Algebra-Bilderätsel-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen schwierigkeitsgestufte Pakete und progressive Algebra-Bücher, die konstantes passives Einkommen generieren. Da die Arbeitsblätter rein visuell sind, können Sie dieselben Produkte gleichzeitig auf internationalen Etsy-Marktplätzen in mehreren Ländern anbieten.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Algebra-Bilderätsel-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen schwierigkeitsgestufte Pakete und progressive Algebra-Bücher, die konstantes skalierbares Einkommen generieren. Da die Arbeitsblätter rein visuell sind, können Sie dieselben Produkte gleichzeitig auf internationalen Etsy-Marktplätzen in mehreren Ländern anbieten.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

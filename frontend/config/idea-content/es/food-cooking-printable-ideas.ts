@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Cocina y Alimentación — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de cocina y alimentación para vender en Etsy, Amazon KDP y TPT. Conceptos de productos con temática de comida, estrategias.',
-    primaryKeyword: 'ideas imprimibles cocina alimentación',
+    primaryKeyword: 'ideas imprimibles de cocina y alimentación',
     secondaryKeywords: [
       'fichas de comida para vender',
       'negocio imprimibles temática comida',

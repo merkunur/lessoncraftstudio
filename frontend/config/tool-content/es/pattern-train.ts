@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de tren de patrones',
+    primaryKeyword: 'generador de fichas tren de patrones',
     secondaryKeywords: [
       'fichas de patrones repetitivos imprimibles para vender',
       'crear fichas de tren de patrones uso comercial',

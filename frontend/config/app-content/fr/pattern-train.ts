@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de suites logiques train',
+    primaryKeyword: 'générateur fiches train suites logiques',
     secondaryKeywords: [
       'générateur de fiches train de suites logiques pour vendeurs Etsy',
       'créateur de fiches de séquences répétitives train pour éditeurs Amazon KDP',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Espace à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables sur l\'espace à vendre sur Etsy, KDP et TPT. Concepts STEM, stratégies par plateforme et conseils pour vendeurs créatifs.',
 
-    primaryKeyword: 'idées imprimables espace',
+    primaryKeyword: 'idées d\'imprimables espace à vendre',
     secondaryKeywords: [
       'fiches thème espace à vendre',
       'idées business imprimables espace',

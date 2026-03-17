@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de encuentra el diferente',
+    primaryKeyword: 'generador fichas intruso',
     secondaryKeywords: [
       'generador de fichas del intruso imprimibles para vendedores Etsy',
       'creador de fichas de discriminación visual para editores Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de Puzzles Estacionales y Festivos',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones del intruso de tiempo limitado que se alineen con los períodos de mayor compra. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Mezcla los modos Idéntico y Similar dentro de cada conjunto estacional para variedad y valor percibido. Los productos estacionales obtienen precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Pascua, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones del intruso de disponible ahora que se alineen con los períodos de mayor compra. Lanza paquetes de puzzles de Halloween en septiembre, colecciones de Navidad en octubre y packs de San Valentín en enero. Mezcla los modos Idéntico y Similar dentro de cada conjunto estacional para variedad y valor percibido. Los productos estacionales obtienen precios más altos durante sus períodos pico y crean razones naturales para compras repetidas.',
         platform: 'Etsy / Amazon KDP / TPT (estacional)',
       },
       {

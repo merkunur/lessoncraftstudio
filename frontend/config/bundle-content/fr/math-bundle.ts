@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack fiches de maths imprimables',
+    primaryKeyword: 'pack fiches de maths',
     secondaryKeywords: [
       'pack fiches de maths pour vendeurs Etsy',
       'générateur fiches maths licence commerciale',

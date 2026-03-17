@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cuánto se gana vendiendo imprimibles',
+    primaryKeyword: 'vender imprimibles',
     secondaryKeywords: [
       'expectativas de ingresos negocio de imprimibles',
       'ingresos realistas vendiendo fichas imprimibles',

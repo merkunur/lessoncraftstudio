@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador de sudoku con imágenes para vender',
+    primaryKeyword: 'creador sudoku con imágenes',
     secondaryKeywords: [
       'generador de puzzles de sudoku visual para Etsy y KDP',
       'creador de fichas de sudoku 4×4 con imágenes uso comercial',

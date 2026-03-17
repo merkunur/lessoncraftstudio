@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Bilddiagramm-Arbeitsblatt-Generator',
+    primaryKeyword: 'bilddiagramm-generator',
     secondaryKeywords: [
       'Bilddiagramm-Ersteller für Verkäufer',
       'Piktogramm-Arbeitsblätter online erstellen und verkaufen',

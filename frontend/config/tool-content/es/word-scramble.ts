@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de letras revueltas',
+    primaryKeyword: 'generador de letras revueltas',
     secondaryKeywords: [
       'crear fichas de palabras desordenadas para vender',
       'generador de fichas de ortografía con letras revueltas',

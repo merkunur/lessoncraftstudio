@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de séquences logiques',
+    primaryKeyword: 'générateur fiches séquences logiques',
     secondaryKeywords: [
       'générateur de fiches de séquences logiques imprimables pour vendeurs Etsy',
       'créateur de fiches de reconnaissance de motifs pour éditeurs Amazon KDP',

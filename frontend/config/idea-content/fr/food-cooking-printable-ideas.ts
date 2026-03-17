@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Cuisine à Vendre — Guide',
     metaDescription: 'Découvrez des idées d’imprimables cuisine et alimentation à vendre sur Etsy, KDP et TPT. Concepts de produits recettes, stratégies et conseils pour vendeurs.',
 
-    primaryKeyword: 'idées imprimables cuisine alimentation',
+    primaryKeyword: 'idées d\'imprimables cuisine à vendre',
     secondaryKeywords: [
       'fiches cuisine à vendre',
       'idées business imprimables alimentation',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador de fichas de asociación',
+    primaryKeyword: 'generador fichas de asociación',
     secondaryKeywords: [
       'creador de fichas de asociación trazando líneas para vendedores',
       'crear fichas de asociación para vender uso comercial',

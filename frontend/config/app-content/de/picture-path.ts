@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Labyrinth-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'labyrinth-generator',
     secondaryKeywords: [
       'druckbarer Bilderpfad-Generator für Etsy-Verkäufer',
       'Labyrinth-Rätsel-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Labyrinth-Aktivitäten auf Etsy.de und Amazon verkaufen',
     ],
     lsiKeywords: [
-      'digitale Labyrinth-Druckvorlagen passives Einkommen',
+      'digitale Labyrinth-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Bilderpfad-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft räumliches Denken Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale und feiertagsbezogene Labyrinth-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Labyrinth-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Labyrinth-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Labyrinth-Aktivitäten im Januar. Mischen Sie alle drei Spielmodi innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Labyrinth-Aktivitäten suchen.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Labyrinth-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Labyrinth-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Labyrinth-Aktivitäten im Januar. Mischen Sie alle drei Spielmodi innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Labyrinth-Aktivitäten suchen.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

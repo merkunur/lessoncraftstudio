@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Schatzsuche-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'schatzsuche-generator',
     secondaryKeywords: [
       'druckbarer Schatzsuche-Rätsel-Generator für Etsy-Verkäufer',
       'Richtungs-Rätsel-Arbeitsblatt-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Schatzsuche-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
     ],
     lsiKeywords: [
-      'digitale Schatzsuche-Druckvorlagen passives Einkommen',
+      'digitale Schatzsuche-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Richtungs-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Wegfindungs-Rätsel Werkzeuge',
     ],
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Saisonale Schatzsuche-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachts-Schatzsuchen, Halloween-Schatzsuchen, Oster-Schatzsuchen, Valentinstag-Schatzsuchen, Schulanfangs-Schatzsuchen, Sommerferien-Schatzsuchen und mehr. Erstellen Sie zeitlich begrenzte Schatzsuche-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Schatzsuche-Pakete im September, Weihnachts-Schatzsuche-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Fügen Sie sowohl Grundrichtungs- als auch Himmelsrichtungs-Typen in jedes saisonale Paket für maximalen Wert ein. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern natürliche Anlässe für Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen.',
+          'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachts-Schatzsuchen, Halloween-Schatzsuchen, Oster-Schatzsuchen, Valentinstag-Schatzsuchen, Schulanfangs-Schatzsuchen, Sommerferien-Schatzsuchen und mehr. Erstellen Sie aktuell verfügbare Schatzsuche-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Schatzsuche-Pakete im September, Weihnachts-Schatzsuche-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Fügen Sie sowohl Grundrichtungs- als auch Himmelsrichtungs-Typen in jedes saisonale Paket für maximalen Wert ein. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern natürliche Anlässe für Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
     ],

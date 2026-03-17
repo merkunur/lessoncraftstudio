@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Impression à la Demande — Guide Vendeurs',
     metaDescription: 'Idées de fiches d\'impression à la demande pour vendeurs Etsy, KDP et Shopify. Lancez une entreprise sans stock avec cahiers, packs d\'activités et puzzles.',
 
-    primaryKeyword: 'idées fiches impression à la demande',
+    primaryKeyword: 'idées d\'impression à la demande',
     secondaryKeywords: [
       'business imprimables impression à la demande',
       'produits éducatifs impression à la demande',

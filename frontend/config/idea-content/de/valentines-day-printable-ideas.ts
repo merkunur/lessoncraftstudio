@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Valentinstag-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'valentinstag-druckvorlagen-ideen',
     secondaryKeywords: [
       'Valentinstag-Arbeitsblätter auf Etsy erstellen',
       'Liebes-Herz-Druckvorlagen auf KDP verkaufen',

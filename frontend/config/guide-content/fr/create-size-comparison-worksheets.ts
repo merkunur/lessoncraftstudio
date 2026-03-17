@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches de comparaison de tailles à imprimer',
+    primaryKeyword: 'fiches comparaison de tailles',
     secondaryKeywords: [
       'fiches grand et petit pour enfants licence commerciale',
       'générateur fiches discrimination tailles à vendre Etsy et KDP',

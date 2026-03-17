@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas tren de patrones',
+    primaryKeyword: 'generador fichas tren de patrones',
     secondaryKeywords: [
       'generador de fichas tren de secuencias repetitivas para vendedores Etsy',
       'creador de fichas tren de patrones personalizadas para Amazon KDP',

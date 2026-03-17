@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador de fichas de laberintos con imágenes para vender',
+    primaryKeyword: 'creador de laberintos con imágenes',
     secondaryKeywords: [
       'generador de laberintos imprimibles para vendedores de Etsy y KDP',
       'creador de fichas de caminos y laberintos con clave de respuesta automática',

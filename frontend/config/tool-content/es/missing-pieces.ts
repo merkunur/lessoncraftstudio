@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador de fichas de rompecabezas',
+    primaryKeyword: 'creador fichas de rompecabezas',
     secondaryKeywords: [
       'creador de fichas de piezas faltantes para vendedores Etsy',
       'crear puzzles de piezas faltantes imprimibles para vender',

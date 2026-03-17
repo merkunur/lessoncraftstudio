@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pack fiches cherche et trouve imprimables',
+    primaryKeyword: 'pack cherche & trouve',
     secondaryKeywords: [
       'pack générateurs fiches cherche et trouve pour vendeurs',
       'kit fiches objets cachés imprimables licence commerciale',
@@ -82,7 +82,7 @@ const content: BundleContent = {
   businessUseCases: [
     {
       title: 'Livres d\'objets cachés et d\'activités Amazon KDP',
-      description: 'Les livres d\'objets cachés et de type « cherche et trouve » sont une catégorie de bestsellers pérenne sur Amazon KDP. Combinez les quatre générateurs dans des livres d\'activités thématiques : « Livre d\'Activités Cherche et Trouve Animaux » avec des scènes de comptage d\'objets cachés, des pages d\'objets à trouver, des mots croisés en images et des chasses au trésor — quatre types d\'activités par livre au lieu d\'un seul. Cherche et Compte et Chasse au Trésor produisent des fiches sensibles à la langue, vous pouvez donc publier des éditions séparées en français, anglais, espagnol et allemand — chacune une annonce produit unique sur le marché Amazon correspondant. Générez 50 à 100 pages par livre en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les livres d\'activités multi-formats obtiennent des prix plus élevés que les livres d\'objets cachés à format unique et génèrent de meilleures évaluations car les acheteurs perçoivent plus de valeur par page.',
+      description: 'Les livres d\'objets cachés et de type « cherche et trouve » sont une catégorie de très demandés pérenne sur Amazon KDP. Combinez les quatre générateurs dans des livres d\'activités thématiques : « Livre d\'Activités Cherche et Trouve Animaux » avec des scènes de comptage d\'objets cachés, des pages d\'objets à trouver, des mots croisés en images et des chasses au trésor — quatre types d\'activités par livre au lieu d\'un seul. Cherche et Compte et Chasse au Trésor produisent des fiches sensibles à la langue, vous pouvez donc publier des éditions séparées en français, anglais, espagnol et allemand — chacune une annonce produit unique sur le marché Amazon correspondant. Générez 50 à 100 pages par livre en une seule session, téléchargez en PDF et envoyez directement sur KDP. Les livres d\'activités multi-formats obtiennent des prix plus élevés que les livres d\'objets cachés à format unique et génèrent de meilleures évaluations car les acheteurs perçoivent plus de valeur par page.',
       platform: 'Amazon KDP',
     },
     {

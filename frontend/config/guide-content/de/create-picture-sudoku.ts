@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sudoku erstellen',
+    primaryKeyword: 'bilder-sudoku-arbeitsblätter erstellen',
     secondaryKeywords: [
       'Bilder-Sudoku für Kinder',
       'Bild-Sudoku Arbeitsblatt-Generator',

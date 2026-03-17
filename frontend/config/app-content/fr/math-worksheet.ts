@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des puzzles algébriques illustrés',
+    primaryKeyword: 'puzzles algébriques illustrés',
     secondaryKeywords: [
       'puzzles algébriques imprimables pour vendeurs Etsy',
       'générateur d\'énigmes algébriques pour éditeurs Amazon KDP',

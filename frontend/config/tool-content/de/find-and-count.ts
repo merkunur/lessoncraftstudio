@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Suchbild-Arbeitsblatt-Generator',
+    primaryKeyword: 'suchen-und-zählen-ersteller',
     secondaryKeywords: [
       'Suchen-und-Zählen-Ersteller für Verkäufer',
       'Ich-sehe-was-Rätsel online erstellen und verkaufen',

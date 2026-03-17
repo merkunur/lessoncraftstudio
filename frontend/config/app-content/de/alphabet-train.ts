@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Alphabet-Zug-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'alphabet-zug-generator',
     secondaryKeywords: [
       'druckbare Buchstabenzug-Arbeitsblätter für Etsy',
       'Buchstabenerkennung-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Buchstaben-Bild-Zuordnung Arbeitsblatt-Generator',
     ],
     lsiKeywords: [
-      'digitale Lese-Lern-Produkte passives Einkommen',
+      'digitale Lese-Lern-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Buchstabenerkennung',
       'kommerzieller Alphabet-Arbeitsblatt-Generator mehrsprachig',
     ],
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische Alphabet-Zug-Pakete auf Etsy',
         description:
-          'Erstellen Sie Sets mit 10–20 Alphabet-Zug-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Meerestiere, Fahrzeuge, Essen — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Jedes Arbeitsblatt enthält unterschiedliche Buchstabenauswahlen und passende Bilder, sodass jede Seite im Paket einzigartig ist. Fügen Sie Lösungsschlüssel als Bonusdateien bei und erstellen Sie eine ansprechende Vorschaugalerie mit drei bis fünf Beispielseiten. Das Zugformat ist visuell markant und hebt sich in Etsy-Suchergebnissen deutlich von standardmäßigen Buchstaben-Nachspurblättern ab, was zu höheren Klickraten führt. Nutzen Sie saisonale Themen wie Weihnachten, Ostern und Halloween für zeitlich begrenzte Angebote mit erhöhter Nachfrage. Einzelne Themenpakete kosten €3–€5, Multi-Themen-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
+          'Erstellen Sie Sets mit 10–20 Alphabet-Zug-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Meerestiere, Fahrzeuge, Essen — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Jedes Arbeitsblatt enthält unterschiedliche Buchstabenauswahlen und passende Bilder, sodass jede Seite im Paket einzigartig ist. Fügen Sie Lösungsschlüssel als Bonusdateien bei und erstellen Sie eine ansprechende Vorschaugalerie mit drei bis fünf Beispielseiten. Das Zugformat ist visuell markant und hebt sich in Etsy-Suchergebnissen deutlich von standardmäßigen Buchstaben-Nachspurblättern ab, was zu höheren Klickraten führt. Nutzen Sie saisonale Themen wie Weihnachten, Ostern und Halloween für aktuell verfügbare Angebote mit erhöhter Nachfrage. Einzelne Themenpakete kosten €3–€5, Multi-Themen-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
         platform: 'Etsy (etsy.de)',
       },
       {
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Alphabet-Zug-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Produktionsgrenzen. Das einzigartige Zugformat und die mehrsprachige Fähigkeit mit 11 Sprachen bieten starke Differenzierung in wettbewerbsintensiven Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete und progressive Aktivitätsbücher, die konstantes passives Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Alphabet-Zug-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Produktionsgrenzen. Das einzigartige Zugformat und die mehrsprachige Fähigkeit mit 11 Sprachen bieten starke Differenzierung in wettbewerbsintensiven Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete und progressive Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

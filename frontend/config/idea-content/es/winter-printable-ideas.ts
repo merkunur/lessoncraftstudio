@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles de Invierno para Vender — Guía de Nicho',
     metaDescription: 'Descubre ideas de imprimibles de invierno para vender en Etsy, Amazon KDP y TPT. Conceptos de productos de clima frío con fuerte demanda de noviembre.',
-    primaryKeyword: 'ideas imprimibles invierno',
+    primaryKeyword: 'ideas imprimibles de invierno para vender',
     secondaryKeywords: [
       'fichas temática invierno para vender',
       'negocio imprimibles invierno',

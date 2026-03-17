@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lancer une activité d\'imprimables guide complet',
+    primaryKeyword: 'lancer une activité d\'imprimables',
     secondaryKeywords: [
       'activité d\'imprimables pour débutants',
       'vendre des fiches imprimables en ligne',

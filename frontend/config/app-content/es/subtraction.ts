@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de resta',
+    primaryKeyword: 'generador de fichas de resta',
     secondaryKeywords: [
       'fichas de resta imprimibles para Etsy',
       'generador de fichas de resta para Amazon KDP',

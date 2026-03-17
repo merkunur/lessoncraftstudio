@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Musterfolge-Zug-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'muster-zug-generator',
     secondaryKeywords: [
       'druckbare Muster-Zug-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Sequenzmuster-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Muster-Zug-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Musterfolge-Druckvorlagen passives Einkommen',
+      'digitale Musterfolge-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft visuelle Sequenz-Muster-Übungen',
       'kommerzieller Muster-Zug-Arbeitsblatt-Generator mit Lösungsschlüssel',
     ],

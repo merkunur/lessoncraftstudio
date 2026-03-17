@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur d\'exercices de maths imprimables',
+    primaryKeyword: 'générateur d\'exercices de maths',
     secondaryKeywords: [
       'créateur de fiches d\'algèbre visuelle pour vendeurs',
       'créer des puzzles algébriques illustrés à vendre',

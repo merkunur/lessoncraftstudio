@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Additions-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'additions-arbeitsblatt-generator',
     secondaryKeywords: [
       'druckbare Additions-Arbeitsblätter für Etsy',
       'Mathe-Arbeitsblatt-Generator für KDP',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Additions-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Mathe-Produkte passives Einkommen',
+      'digitale Mathe-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Arbeitsblätter',
       'kommerzieller Arbeitsblatt-Generator',
     ],
@@ -143,62 +143,62 @@ const content: AppContent = {
     {
       question: 'Welche Übungsmodi bietet der Additions-Arbeitsblatt-Generator?',
       answer:
-        'Der Generator umfasst vier Modi: Bild + Bild (zwei Bildergruppen zum Zählen und Addieren), Bild + Zahl (eine Bildergruppe plus eine Ziffer), Summand finden (die Summe wird angezeigt und Schüler ermitteln die fehlende Gruppe) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frührem algebraischem Denken.',
+        'Der Generator umfasst vier Modi: Bild + Bild (zwei Bildergruppen zum Zählen und Addieren), Bild + Zahl (eine Bildergruppe plus eine Ziffer), Summand finden (die Summe wird angezeigt und Schüler ermitteln die fehlende Gruppe) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frührem algebraischem Denken. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Welche Zahlenbereiche kann ich für Additionsaufgaben einstellen?',
       answer:
-        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 festlegen. So erstellen Sie einfache Aufgaben wie 1+1 für Vorschüler oder anspruchsvolle Summen nahe 10+10 für die erste und zweite Klasse. Die Anpassung erfolgt über zwei einfache Eingabefelder im Übungskonfigurations-Panel.',
+        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 festlegen. So erstellen Sie einfache Aufgaben wie 1+1 für Vorschüler oder anspruchsvolle Summen nahe 10+10 für die erste und zweite Klasse. Die Anpassung erfolgt über zwei einfache Eingabefelder im Übungskonfigurations-Panel. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Wie viele Bilder und Themen sind verfügbar?',
       answer:
-        'Die integrierte Bildbibliothek enthält über 3.100 Illustrationen in 104 Themen, darunter Tiere, Fahrzeuge, Essen, Feiertage, Sport, Weltraum, Natur und mehr. Sie können außerdem eigene Bilder hochladen, wenn Sie markenspezifische oder saisonale Grafiken benötigen.',
+        'Die integrierte Bildbibliothek enthält über 3.100 Illustrationen in 104 Themen, darunter Tiere, Fahrzeuge, Essen, Feiertage, Sport, Weltraum, Natur und mehr. Sie können außerdem eigene Bilder hochladen, wenn Sie markenspezifische oder saisonale Grafiken benötigen. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt. Erfolgreiche Verkäufer auf Etsy und Amazon KDP berichten, dass thematische Konsistenz über ihre gesamte Produktlinie hinweg zu einer deutlich höheren Wiederholungskaufrate führt, da zufriedene Kunden gezielt nach weiteren Produkten desselben Verkäufers suchen.',
     },
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Summen zu erstellen. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt herunterladen.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Summen zu erstellen. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt herunterladen. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Unterstützung von elf Sprachen — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — macht es möglich, mit einem einzigen Generator Produkte für nahezu jeden europäischen Bildungsmarkt zu erstellen.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate werden unterstützt?',
       answer:
-        'Wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder einer beliebigen benutzerdefinierten Größe. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF. Alle Exporte werden mit über 400 DPI gerendert und gewährleisten professionelle Druckqualität für Heimdrucker und Druckservices.',
+        'Wählen Sie aus Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder einer beliebigen benutzerdefinierten Größe. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF. Alle Exporte werden mit über 400 DPI gerendert und gewährleisten professionelle Druckqualität für Heimdrucker und Druckservices. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen. Kundenfeedback und Bewertungen auf Bildungsmarktplätzen sind entscheidend für langfristigen Erfolg. Produkte mit konsistenter hoher Qualität, klaren Vorschaubildern und detaillierten Beschreibungen erhalten typischerweise bessere Bewertungen und erscheinen häufiger in Suchergebnissen.',
     },
     {
       question: 'Sind Additions-Arbeitsblätter sprachabhängig?',
       answer:
-        'Nein. Additions-Arbeitsblätter sind rein visuell — der Mathe-Inhalt verwendet Bilder und Zahlen, keine Wörter. Ein in einer Sprache erstelltes Arbeitsblatt funktioniert in jeder Sprache. Die Spracheinstellung ändert nur die Oberflächenbeschriftungen der App, nicht den Arbeitsblatt-Inhalt selbst. Das macht Ihre Produkte sofort weltweit verkaufsfähig.',
+        'Nein. Additions-Arbeitsblätter sind rein visuell — der Mathe-Inhalt verwendet Bilder und Zahlen, keine Wörter. Ein in einer Sprache erstelltes Arbeitsblatt funktioniert in jeder Sprache. Die Spracheinstellung ändert nur die Oberflächenbeschriftungen der App, nicht den Arbeitsblatt-Inhalt selbst. Das macht Ihre Produkte sofort weltweit verkaufsfähig. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben. Die Kombination verschiedener Übungsformate innerhalb eines Bündels — etwa Zuordnung, Zählen, Muster und Wortsuche rund um ein gemeinsames Thema — schafft umfassende Lernpakete, die deutlich höhere Preise als einzelne Arbeitsblätter erzielen.',
     },
     {
       question: 'Kann ich eigene Bilder statt der integrierten Bibliothek verwenden?',
       answer:
-        'Selbstverständlich. Im Panel Eigene Bilder hochladen können Sie eigene PNG- oder JPEG-Dateien direkt in den Generator laden. Hochgeladene Bilder funktionieren mit allen vier Übungsmodi und erscheinen neben den Bibliotheksbildern, sodass Sie eigene Grafiken mit den integrierten Illustrationen für ein einzigartiges Ergebnis kombinieren können.',
+        'Selbstverständlich. Im Panel Eigene Bilder hochladen können Sie eigene PNG- oder JPEG-Dateien direkt in den Generator laden. Hochgeladene Bilder funktionieren mit allen vier Übungsmodi und erscheinen neben den Bibliotheksbildern, sodass Sie eigene Grafiken mit den integrierten Illustrationen für ein einzigartiges Ergebnis kombinieren können. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings. Saisonale Themen wie Weihnachten, Ostern, Herbst und Sommer bieten vorhersagbare Nachfragespitzen, die erfahrene Verkäufer durch vorausgeplante Produktveröffentlichungen strategisch nutzen, um maximale Sichtbarkeit während der Haupteinkaufszeiten zu erreichen.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
       answer:
-        'Ja. Sie können jede Funktion des Generators nutzen — alle vier Übungsmodi, die vollständige Bildbibliothek, Lösungsschlüssel-Erstellung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
+        'Ja. Sie können jede Funktion des Generators nutzen — alle vier Übungsmodi, die vollständige Bildbibliothek, Lösungsschlüssel-Erstellung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Lehrkräften und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
     },
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Additions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes passives Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Additions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Die Möglichkeit, eigene Bilder hochzuladen, erweitert Ihre kreative Flexibilität erheblich. Sie können markenspezifische Illustrationen, lizenzierte Clipart-Sets oder benutzerdefinierte Fotografien verwenden, um völlig einzigartige Produkte zu erstellen, die kein anderer Verkäufer replizieren kann.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
-        'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Modus, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',
+        'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Modus, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
     },
     {
       question: 'Muss ich Software installieren?',
       answer:
-        'Nein. Der Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los.',
+        'Nein. Der Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
   ],
 

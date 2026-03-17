@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de mots croisés en images',
+    primaryKeyword: 'générateur mots croisés en images',
     secondaryKeywords: [
       'créer des mots croisés en images à vendre sur Etsy',
       'générateur de mots croisés visuels pour éditeurs Amazon KDP',

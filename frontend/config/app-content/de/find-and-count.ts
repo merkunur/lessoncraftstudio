@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Suchbild-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'suchbild-generator',
     secondaryKeywords: [
       'druckbarer Ich-sehe-was-Generator für Etsy-Verkäufer',
       'Suchbild-Aktivität-Ersteller für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Suchbild-Arbeitsblätter auf Etsy.de und Amazon verkaufen',
     ],
     lsiKeywords: [
-      'digitale Suchbild-Druckvorlagen passives Einkommen',
+      'digitale Suchbild-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Ich-sehe-was-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Zählaktivitäten Werkzeuge',
     ],

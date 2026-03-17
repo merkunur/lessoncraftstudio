@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches deviner les mots imprimables',
+    primaryKeyword: 'générateur fiches deviner les mots',
     secondaryKeywords: [
       'créateur de fiches deviner les mots pour vendeurs',
       'créer des fiches d\'orthographe devinette à vendre',

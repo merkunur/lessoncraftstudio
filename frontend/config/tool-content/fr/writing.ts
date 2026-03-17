@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches d\'écriture manuscrite',
+    primaryKeyword: 'générateur fiches d\'écriture',
     secondaryKeywords: [
       'créateur de fiches écriture manuscrite pour vendeurs',
       'créer des fiches de tracé de lettres à vendre',

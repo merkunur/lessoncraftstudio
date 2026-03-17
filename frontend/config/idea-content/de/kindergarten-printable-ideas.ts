@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Kindergarten-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'kindergarten-druckvorlagen-ideen',
     secondaryKeywords: [
       'Kindergarten-Arbeitsblätter auf Etsy erstellen',
       'Vorschul-Kindergarten-Druckvorlagen auf KDP',

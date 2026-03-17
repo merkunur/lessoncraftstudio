@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches de tri par catégories à imprimer',
+    primaryKeyword: 'fiches de tri par catégories',
     secondaryKeywords: [
       'fiches de tri et classement pour enfants licence commerciale',
       'générateur fiches de tri d\'images à vendre Etsy et KDP',

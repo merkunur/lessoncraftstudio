@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de letras revueltas',
+    primaryKeyword: 'generador fichas letras revueltas',
     secondaryKeywords: [
       'fichas de letras revueltas imprimibles para vendedores Etsy',
       'generador de puzzles de reordenamiento de letras para Amazon KDP',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer pages de coloriage Etsy',
+    primaryKeyword: 'créer des coloriages etsy qui se vendent',
     secondaryKeywords: [
       'comment vendre coloriages sur Etsy',
       'ouvrir boutique Etsy pages de coloriage',

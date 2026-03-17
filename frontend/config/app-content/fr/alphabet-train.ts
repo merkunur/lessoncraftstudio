@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches train alphabet',
+    primaryKeyword: 'générateur train alphabet',
     secondaryKeywords: [
       'fiches train alphabet imprimables pour Etsy',
       'générateur de fiches de reconnaissance des lettres pour Amazon KDP',

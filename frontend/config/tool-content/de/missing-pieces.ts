@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Fehlende-Puzzleteile-Generator',
+    primaryKeyword: 'fehlende-puzzleteile-ersteller',
     secondaryKeywords: [
       'Fehlende-Puzzleteile-Ersteller für Verkäufer',
       'Puzzleteil-Rätsel online erstellen und verkaufen',

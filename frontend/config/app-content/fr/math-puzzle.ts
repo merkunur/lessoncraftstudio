@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'générateur de puzzles mathématiques imprimables',
+    primaryKeyword: 'générateur de puzzles maths',
     secondaryKeywords: [
       'créateur de fiches de puzzles maths pour Etsy',
       'générateur de puzzles images pour Amazon KDP',
@@ -188,17 +188,17 @@ const content: AppContent = {
     {
       question: 'Y a-t-il un essai gratuit ?',
       answer:
-        'Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois opérations, toutes les tailles de grille, la bibliothèque d\'images complète, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
+        'Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois opérations, toutes les tailles de grille, la bibliothèque d\'images complète, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets. Les détenteurs d\'une licence commerciale bénéficient d\'un accès à vie à toutes les fonctionnalités actuelles et à toutes les futures mises à jour du générateur, couvrant la création illimitée de fiches sur tous les thèmes et formats pris en charge.',
     },
     {
       question: 'Que comprend la licence commerciale ?',
       answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite. Vous conservez la pleine propriété de chaque fiche générée.',
+        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Teachers Pay Teachers, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite. Vous conservez la pleine propriété de chaque fiche générée. L\'essai avec filigrane vous donne un accès illimité pour explorer toutes les fonctionnalités à votre rythme sans limite de temps — utilisez-le aussi longtemps que nécessaire pour évaluer si l\'outil convient à votre flux de production.',
     },
     {
       question: 'Quelle est la politique de remboursement ?',
       answer:
-        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque opération, taille de grille, thème et format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter.',
+        'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence. Vous pouvez tester chaque opération, taille de grille, thème et format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',
     },
   ],
 

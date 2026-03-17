@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de dessin sur quadrillage',
+    primaryKeyword: 'générateur fiches dessin quadrillage',
     secondaryKeywords: [
       'générateur de fiches de dessin sur grille pour vendeurs Etsy',
       'créateur de fiches reproduction sur quadrillage pour éditeurs Amazon KDP',

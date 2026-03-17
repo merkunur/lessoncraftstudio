@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Arbeitsblätter erstellen zum Verkaufen',
+    primaryKeyword: 'arbeitsblätter die sich verkaufen',
     secondaryKeywords: [
       'professionelle Arbeitsblätter erstellen',
       'Arbeitsblätter zum Verkaufen auf Etsy.de',

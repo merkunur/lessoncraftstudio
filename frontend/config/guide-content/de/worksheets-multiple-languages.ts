@@ -86,7 +86,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Umsatz durch Spracherweiterung bewährter Produkte vervielfachen',
-      content: 'Die effizienteste Monetarisierungsstrategie ist die Erweiterung Ihrer leistungsstärksten englischen Produkte in zusätzliche Sprachen, bevor Sie völlig neue englische Produkte erstellen. Ein bewährter Bestseller hat bereits validierte Marktnachfrage — ihn ins Deutsche, Französische und Spanische zu adaptieren schafft drei neue Einnahmequellen aus einem Konzept, von dem Sie wissen, dass es funktioniert. Die Produktionszeit für Sprachanpassung beträgt typischerweise 20 bis 30 Prozent der ursprünglichen Erstellungszeit, weil die Designentscheidungen, das Layout und die Bildungsstruktur bereits fertig sind. Das macht Spracherweiterung zu einer der Aktivitäten mit dem höchsten Zeitertrag, die Arbeitsblattverkäufern zur Verfügung stehen.',
+      content: 'Die effizienteste Monetarisierungsstrategie ist die Erweiterung Ihrer leistungsstärksten englischen Produkte in zusätzliche Sprachen, bevor Sie völlig neue englische Produkte erstellen. Ein bewährter Verkaufsschlager hat bereits validierte Marktnachfrage — ihn ins Deutsche, Französische und Spanische zu adaptieren schafft drei neue Einnahmequellen aus einem Konzept, von dem Sie wissen, dass es funktioniert. Die Produktionszeit für Sprachanpassung beträgt typischerweise 20 bis 30 Prozent der ursprünglichen Erstellungszeit, weil die Designentscheidungen, das Layout und die Bildungsstruktur bereits fertig sind. Das macht Spracherweiterung zu einer der Aktivitäten mit dem höchsten Zeitertrag, die Arbeitsblattverkäufern zur Verfügung stehen.',
     },
     {
       heading: 'Sprachspezifische Produktlinien aufbauen',

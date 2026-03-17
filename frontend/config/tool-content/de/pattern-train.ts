@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Musterfolge-Arbeitsblatt-Generator',
+    primaryKeyword: 'muster-zug-ersteller',
     secondaryKeywords: [
       'Muster-Zug-Arbeitsblatt-Ersteller für Verkäufer',
       'Mustererkennungs-Arbeitsblätter online erstellen',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Muster-Zug-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für zeitlich begrenzte Muster-Zug-Pakete. Ein „Halloween-Muster-Zug“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Muster-Zug-Pakete. Ein „Halloween-Muster-Zug“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',

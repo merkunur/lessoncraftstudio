@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador fichas búsqueda del tesoro imprimibles',
+    primaryKeyword: 'creador búsqueda del tesoro',
     secondaryKeywords: [
       'herramienta búsqueda tesoro direccional para vendedores Etsy KDP',
       'generador puzzles búsqueda caminos cuadrícula coordenadas comercial',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Schreibübungen-Arbeitsblatt-Generator',
+    primaryKeyword: 'schreibübungen-generator',
     secondaryKeywords: [
       'Handschrift-Übungsblätter-Ersteller für Verkäufer',
       'Buchstaben-Nachspur-Arbeitsblätter online erstellen',

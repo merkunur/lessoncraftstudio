@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Mustervervollständigungs-Arbeitsblatt-Generator',
+    primaryKeyword: 'muster-generator',
     secondaryKeywords: [
       'Muster-Arbeitsblatt-Ersteller für Verkäufer',
       'Mustererkennungs-Raster-Arbeitsblätter online erstellen',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Muster-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für zeitlich begrenzte Mustervervollständigungs-Pakete. Ein „Halloween-Muster“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Mustervervollständigungs-Pakete. Ein „Halloween-Muster“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',

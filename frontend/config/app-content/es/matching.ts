@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crear y vender fichas de asociación imprimibles',
+    primaryKeyword: 'generador fichas de asociación',
     secondaryKeywords: [
       'generador de fichas de asociación imprimibles para vendedores Etsy',
       'creador de fichas unir con líneas para editores Amazon KDP',

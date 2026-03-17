@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Zweite-Klasse-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'zweite-klasse-druckvorlagen',
     secondaryKeywords: [
       'Zweitklässler-Arbeitsblätter auf Etsy erstellen',
       'Grundschul-Druckvorlagen zweite Klasse KDP',

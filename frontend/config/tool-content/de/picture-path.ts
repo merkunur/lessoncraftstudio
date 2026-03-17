@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Labyrinth-Arbeitsblatt-Generator',
+    primaryKeyword: 'bilderpfad-ersteller',
     secondaryKeywords: [
       'Bilderpfad-Ersteller für Verkäufer',
       'Labyrinth-Rätsel online erstellen und verkaufen',

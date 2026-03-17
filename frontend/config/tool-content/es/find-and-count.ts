@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas yo espío para vender',
+    primaryKeyword: 'generador fichas yo espío',
     secondaryKeywords: [
       'creador fichas busca y cuenta uso comercial',
       'generador fichas objetos ocultos para Etsy y KDP',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generador de sudoku con imágenes para vender',
+    primaryKeyword: 'generador de sudoku con imágenes',
     secondaryKeywords: [
       'fichas de sudoku infantil imprimibles para Etsy',
       'generador de sudoku con imágenes para Amazon KDP',
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Colecciones de sudoku de temporada y festividades',
         description:
-          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de sudoku de tiempo limitado que se alineen con los períodos de mayor demanda. Lanza paquetes de sudoku de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres niveles de dificultad en cada conjunto de temporada para máximo valor. Los productos de temporada tienen precios más altos durante sus ventanas pico y crean razones naturales para compras repetidas a lo largo del año.',
+          'Las 104 colecciones de imágenes temáticas cubren cada ocasión estacional y festiva — Navidad, Halloween, Semana Santa, San Valentín, vuelta al cole, vacaciones de verano y más. Crea colecciones de puzzles de sudoku de disponible ahora que se alineen con los períodos de mayor demanda. Lanza paquetes de sudoku de Halloween en septiembre, colecciones de Navidad en octubre y paquetes de San Valentín en enero. Incluye los tres niveles de dificultad en cada conjunto de temporada para máximo valor. Los productos de temporada tienen precios más altos durante sus ventanas pico y crean razones naturales para compras repetidas a lo largo del año.',
         platform: 'Etsy / Amazon KDP / TPT (temporada)',
       },
       {

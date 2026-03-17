@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables CE1 à Vendre — Guide de Niche',
     metaDescription: 'Découvrez des idées d\'imprimables CE1 à vendre sur Etsy, KDP et TPT. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du CE1.',
 
-    primaryKeyword: 'idées imprimables CE1',
+    primaryKeyword: 'idées d\'imprimables ce1 à vendre',
     secondaryKeywords: [
       'fiches CE1 à vendre',
       'idées business imprimables cours élémentaire',

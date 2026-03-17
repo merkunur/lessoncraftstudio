@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Safaritiere-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'safaritiere-druckvorlagen-ideen',
     secondaryKeywords: [
       'Safari-Arbeitsblätter auf Etsy erstellen',
       'afrikanische Wildtier-Druckvorlagen auf KDP',

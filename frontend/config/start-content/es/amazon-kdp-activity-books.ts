@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'cómo vender libros de actividades en Amazon',
+    primaryKeyword: 'vender libros de actividades en amazon kdp',
     secondaryKeywords: [
       'libros de actividades Amazon KDP',
       'vender libros de puzzles en KDP',

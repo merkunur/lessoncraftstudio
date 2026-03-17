@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches écriture manuscrite',
+    primaryKeyword: 'créer des fiches d’écriture',
     secondaryKeywords: [
       'générateur fiches écriture pour enfants',
       'générateur fiches d\'écriture manuscrite',

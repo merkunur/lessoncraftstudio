@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Vergleichs-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'mehr-oder-weniger-generator',
     secondaryKeywords: [
       'druckbare Mehr-oder-Weniger-Arbeitsblätter für Etsy',
       'Größer-Kleiner-Arbeitsblatt-Generator für KDP',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Zahlenvergleich-Übungsblätter Generator',
     ],
     lsiKeywords: [
-      'digitale Mengenvergleich-Produkte passives Einkommen',
+      'digitale Mengenvergleich-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Vergleichsübungen',
       'kommerzieller Vergleichs-Arbeitsblatt-Generator',
     ],
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Vergleichs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Da die Arbeitsblätter rein bildbasiert und sprachunabhängig sind, können Sie dieselben Produkte auf internationalen Märkten wie Etsy.com, Amazon.com und Amazon.co.uk anbieten, ohne Übersetzungsaufwand. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes passives Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Vergleichs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Da die Arbeitsblätter rein bildbasiert und sprachunabhängig sind, können Sie dieselben Produkte auf internationalen Märkten wie Etsy.com, Amazon.com und Amazon.co.uk anbieten, ohne Übersetzungsaufwand. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -277,7 +277,7 @@ const content: AppContent = {
         caption: 'Ankreuzen-und-Durchstreichen-Modus — Schüler finden die Mehrheitsgruppe in einer gemischten Bilderbox',
       },
     ],
-    youtubeId: '',
+    youtubeId: 'eNguG63nYVs',
     videoTitle: 'Vergleichs-Arbeitsblätter erstellen — Schritt-für-Schritt-Anleitung',
   },
 };

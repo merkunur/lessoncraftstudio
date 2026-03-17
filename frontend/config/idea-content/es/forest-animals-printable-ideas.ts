@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideas de Imprimibles de Animales del Bosque — Guía',
     metaDescription: 'Ideas rentables de imprimibles con temática de animales del bosque para vender en Etsy, Amazon KDP y TPT. Conceptos de productos, estrategias por plataforma.',
 
-    primaryKeyword: 'ideas imprimibles animales bosque',
+    primaryKeyword: 'ideas de imprimibles de animales del bosque',
     secondaryKeywords: [
       'fichas animales bosque para vender',
       'negocio imprimibles temática bosque',

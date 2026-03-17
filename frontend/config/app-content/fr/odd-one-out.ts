@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches intrus',
+    primaryKeyword: 'générateur fiches intrus',
     secondaryKeywords: [
       'générateur de fiches intrus imprimables pour vendeurs Etsy',
       'créateur de puzzles trouve l\'intrus pour éditeurs Amazon KDP',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Linien-Ziehen-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'linien-ziehen-generator',
     secondaryKeywords: [
       'druckbarer Linienverfolgung-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Linien-Ziehen-Generator mit SVG-Vorlagen für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Linienverfolgung-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
-      'digitale Linienverfolgung-Druckvorlagen passives Einkommen',
+      'digitale Linienverfolgung-Druckvorlagen skalierbares Einkommen',
       'Druckvorlagen-Geschäft Feinmotorik-Schwungübungen',
       'kommerzieller Linien-Ziehen-Arbeitsblatt-Generator',
     ],

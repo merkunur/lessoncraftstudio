@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches de tri d\'images',
+    primaryKeyword: 'créateur tri d\'images',
     secondaryKeywords: [
       'générateur de fiches de tri d\'images pour vendeurs',
       'créer des fiches de tri à vendre sur Etsy',

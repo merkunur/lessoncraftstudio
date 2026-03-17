@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Piraten-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'piraten-druckvorlagen-ideen',
     secondaryKeywords: [
       'Piraten-Arbeitsblätter auf Etsy erstellen',
       'Seeräuber-Druckvorlagen auf KDP verkaufen',

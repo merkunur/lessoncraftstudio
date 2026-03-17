@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Construction à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables construction à vendre sur Etsy, KDP et TPT. Concepts de produits véhicules et outils, stratégies et conseils vendeurs.',
 
-    primaryKeyword: 'idées imprimables construction',
+    primaryKeyword: 'idées d\'imprimables construction à vendre',
     secondaryKeywords: [
       'fiches construction à vendre',
       'idées business imprimables chantier',

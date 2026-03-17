@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'gagner argent livres activités KDP',
+    primaryKeyword: 'gagner de l\'argent avec les livres d\'activités kdp',
     secondaryKeywords: [
       'comment gagner de l\'argent avec les livres d\'activités KDP',
       'stratégies de revenus livres d\'activités KDP',

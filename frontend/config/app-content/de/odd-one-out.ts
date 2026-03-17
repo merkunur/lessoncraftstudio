@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Was-passt-nicht-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'was-passt-nicht-generator',
     secondaryKeywords: [
       'druckbarer Ausreißer-Rätsel-Generator für Etsy-Verkäufer',
       'Was-passt-nicht-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'visuelle Unterscheidungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Was-passt-nicht-Druckvorlagen passives Einkommen',
+      'digitale Was-passt-nicht-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Ausreißer-Rätsel-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft visuelle Unterscheidung Werkzeuge',
     ],
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Saisonale und feiertagsbezogene Puzzle-Sammlungen',
         description:
-          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie zeitlich begrenzte Was-passt-nicht-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Rätsel-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Mischen Sie Identisch- und Ähnlich-Modi innerhalb jedes saisonalen Sets für Vielfalt und gesteigerten wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
+          'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Was-passt-nicht-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Rätsel-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Mischen Sie Identisch- und Ähnlich-Modi innerhalb jedes saisonalen Sets für Vielfalt und gesteigerten wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
         platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
       },
       {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Bauernhoftiere-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'bauernhoftiere-druckvorlagen',
     secondaryKeywords: [
       'Bauernhof-Arbeitsblätter auf Etsy erstellen',
       'Nutztier-Aktivitätsblätter auf KDP verkaufen',

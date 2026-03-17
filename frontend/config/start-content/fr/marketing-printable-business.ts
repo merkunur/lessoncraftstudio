@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'comment commercialiser des fiches imprimables',
+    primaryKeyword: 'commercialiser des fiches imprimables',
     secondaryKeywords: [
       'stratégies marketing pour vendeurs d\'imprimables',
       'promouvoir des fiches imprimables en ligne',

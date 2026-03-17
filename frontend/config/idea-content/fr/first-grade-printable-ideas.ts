@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables CP à Vendre — Guide de Niche',
     metaDescription: 'Idées d’imprimables CP à vendre sur Etsy, Amazon KDP et TPT. Concepts de produits Cours Préparatoire, stratégies de niche et conseils pour les vendeurs.',
 
-    primaryKeyword: 'idées imprimables CP',
+    primaryKeyword: 'idées d\'imprimables cp à vendre',
     secondaryKeywords: [
       'fiches CP à vendre',
       'idées business imprimables cours préparatoire',

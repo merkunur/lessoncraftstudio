@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Sport-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'sport-druckvorlagen-ideen zum verkaufen',
     secondaryKeywords: [
       'Sport-Arbeitsblätter auf Etsy erstellen',
       'Ballsport-Druckvorlagen auf KDP verkaufen',

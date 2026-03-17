@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'stratégies de tarification pour imprimables éducatifs',
+    primaryKeyword: 'tarification imprimables éducatifs',
     secondaryKeywords: [
       'comment fixer le prix des fiches imprimables',
       'guide tarification imprimables éducatifs',

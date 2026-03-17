@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer puzzles intrus à imprimer',
+    primaryKeyword: 'puzzles trouve l\'intrus à imprimer',
     secondaryKeywords: [
       'générateur fiches trouve l\'intrus licence commerciale',
       'fiches discrimination visuelle à vendre Etsy et KDP',

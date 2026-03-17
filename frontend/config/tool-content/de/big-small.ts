@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Größenvergleich-Arbeitsblatt-Generator',
+    primaryKeyword: 'größenvergleich-generator',
     secondaryKeywords: [
       'Groß-und-Klein-Arbeitsblatt-Ersteller für Verkäufer',
       'Größenunterscheidungs-Arbeitsblätter online erstellen',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Größenvergleich-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für zeitlich begrenzte Größenvergleich-Pakete. Ein „Halloween-Größensortierung“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und Lehrermarktplatz. Kombinieren Sie einfache „Kreise das Große ein“-Aufwärmübungen mit anspruchsvollen Nummerierung-1–2–3-Sortierübungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Größenvergleich-Pakete. Ein „Halloween-Größensortierung“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und Lehrermarktplatz. Kombinieren Sie einfache „Kreise das Große ein“-Aufwärmübungen mit anspruchsvollen Nummerierung-1–2–3-Sortierübungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
     },
   ],
 

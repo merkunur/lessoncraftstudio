@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur de fiches labyrinthes',
+    primaryKeyword: 'créateur labyrinthes',
     secondaryKeywords: [
       'générateur de fiches labyrinthes pour vendeurs',
       'créer des fiches labyrinthes chemin d\'images à vendre',

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Fahrzeuge-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'fahrzeuge-druckvorlagen-ideen',
     secondaryKeywords: [
       'Fahrzeug-Arbeitsblätter auf Etsy erstellen',
       'Transport-Druckvorlagen auf KDP verkaufen',

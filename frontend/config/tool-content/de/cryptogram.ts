@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'Kryptogramm-Arbeitsblatt-Generator',
+    primaryKeyword: 'kryptogramm-generator',
     secondaryKeywords: [
       'Bilder-Chiffre-Rätsel-Ersteller für Verkäufer',
       'Bildkryptogramm-Arbeitsblätter online erstellen',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Chiffre-Bündel',
-      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um zeitlich begrenzte Kryptogramm-Bündel zu erstellen. Ein „Halloween-Geheimtexte“-Paket mit gruselig thematisierten Chiffre-Bildern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Lehrermarktplatz. Kombinieren Sie Hilfestellung-Rätsel bei 6–8 aufgedeckten Buchstaben für jüngere Schüler mit Null-Hinweis-Experten-Rätseln für ältere Kinder in einem einzigen saisonalen Bündel.',
+      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Kryptogramm-Bündel zu erstellen. Ein „Halloween-Geheimtexte“-Paket mit gruselig thematisierten Chiffre-Bildern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Lehrermarktplatz. Kombinieren Sie Hilfestellung-Rätsel bei 6–8 aufgedeckten Buchstaben für jüngere Schüler mit Null-Hinweis-Experten-Rätseln für ältere Kinder in einem einzigen saisonalen Bündel.',
     },
   ],
 

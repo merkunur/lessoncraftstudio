@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Éducation Spécialisée à Vendre',
     metaDescription: 'Idées d’imprimables éducation spécialisée à vendre sur Etsy, KDP et TPT. Concepts de produits adaptés pour enseignants, thérapeutes et parents d’élèves.',
 
-    primaryKeyword: 'idées imprimables éducation spécialisée',
+    primaryKeyword: 'idées d\'imprimables éducation spécialisée à vendre',
     secondaryKeywords: [
       'fiches adaptées à vendre',
       'idées business imprimables ULIS',

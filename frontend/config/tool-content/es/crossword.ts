@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'creador crucigramas con imágenes imprimibles',
+    primaryKeyword: 'creador crucigramas con imágenes',
     secondaryKeywords: [
       'herramienta crucigramas ilustrados para vendedores Etsy KDP',
       'generador crucigramas con pistas visuales licencia comercial',

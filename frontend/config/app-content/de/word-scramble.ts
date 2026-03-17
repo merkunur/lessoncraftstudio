@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Buchstabensalat-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'buchstabensalat-generator',
     secondaryKeywords: [
       'druckbare Buchstaben-Durcheinander-Rätsel für Etsy-Verkäufer',
       'Buchstaben-Umstell-Arbeitsblatt-Generator für KDP-Verleger',
@@ -11,7 +11,7 @@ const content: AppContent = {
       'Buchstaben-Rätsel-Generator mit Vokal-Konsonanten-Farbcodierung',
     ],
     lsiKeywords: [
-      'digitale Buchstaben-Umstell-Produkte passives Einkommen',
+      'digitale Buchstaben-Umstell-Produkte skalierbares Einkommen',
       'Druckvorlagen-Geschäft Wort-Entwirr-Arbeitsblätter',
       'kommerzieller Buchstabensalat-Generator Rechtschreibtraining',
     ],

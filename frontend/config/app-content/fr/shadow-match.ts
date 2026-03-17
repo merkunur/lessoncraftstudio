@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'créer et vendre des fiches de discrimination visuelle',
+    primaryKeyword: 'générateur de discrimination visuelle',
     secondaryKeywords: [
       'générateur de fiches de correspondance d\'ombres pour vendeurs Etsy',
       'créateur de puzzles de silhouettes imprimables pour éditeurs Amazon KDP',

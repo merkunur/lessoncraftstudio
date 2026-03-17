@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Idées d\'Imprimables Musique à Vendre — Guide',
     metaDescription: 'Découvrez des idées d\'imprimables musique à vendre sur Etsy, KDP et TPT. Concepts de produits instruments, stratégies par plateforme et conseils vendeurs.',
 
-    primaryKeyword: 'idées imprimables musique',
+    primaryKeyword: 'idées d\'imprimables musique à vendre',
     secondaryKeywords: [
       'fiches musique à vendre',
       'idées business imprimables musique',

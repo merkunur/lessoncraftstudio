@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'crear línea de productos imprimibles',
+    primaryKeyword: 'crear una línea de productos imprimibles',
     secondaryKeywords: [
       'estrategia línea productos imprimibles',
       'construir línea fichas ejercicios',

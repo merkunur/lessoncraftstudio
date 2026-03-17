@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'créer fiches addition',
+    primaryKeyword: 'créer des fiches d\'addition',
     secondaryKeywords: [
       'faire fiches addition pour enfants',
       'générateur fiches addition',

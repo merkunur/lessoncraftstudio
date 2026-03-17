@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generador fichas objetos ocultos para vendedores',
+    primaryKeyword: 'generador fichas objetos ocultos',
     secondaryKeywords: [
       'creador fichas yo espío busca objetos uso comercial',
       'generador fichas encuentra el diferente para Etsy y KDP',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Bilder-Sortieren-Arbeitsblätter erstellen und verkaufen',
+    primaryKeyword: 'bilder-sortieren-generator',
     secondaryKeywords: [
       'druckbarer Sortier-Arbeitsblatt-Generator für Etsy-Verkäufer',
       'Zwei-Kategorien-Sortierung-Arbeitsblatt-Generator für KDP-Verleger',
@@ -10,7 +10,7 @@ const content: AppContent = {
       'Sortier-Aktivitäten auf Lehrermarktplatz verkaufen',
     ],
     lsiKeywords: [
-      'digitale Sortier-Druckvorlagen passives Einkommen',
+      'digitale Sortier-Druckvorlagen skalierbares Einkommen',
       'kommerzieller Bilder-Sortieren-Generator mit Lösungsschlüssel',
       'Druckvorlagen-Geschäft Klassifizierungs-Aktivitäten Werkzeuge',
     ],

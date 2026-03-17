@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    primaryKeyword: 'Insekten-Druckvorlagen-Ideen verkaufen',
+    primaryKeyword: 'insekten-druckvorlagen-ideen',
     secondaryKeywords: [
       'Insekten-Arbeitsblätter auf Etsy erstellen',
       'Käfer-Schmetterling-Druckvorlagen auf KDP',

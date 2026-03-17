@@ -103,6 +103,7 @@ const uiStrings: Record<string, {
   languages: string;
   pdfExport: string;
   watermarkNote: string;
+  startCreating: string;
 }> = {
   en: {
     tryFree: 'Try Free with Watermark',
@@ -121,6 +122,7 @@ const uiStrings: Record<string, {
     languages: '11 languages supported',
     pdfExport: 'Instant PDF export',
     watermarkNote: 'Free version includes a small watermark. Purchase to remove.',
+    startCreating: 'Start Creating Now',
   },
   de: {
     tryFree: 'Kostenlos testen (mit Wasserzeichen)',
@@ -139,6 +141,7 @@ const uiStrings: Record<string, {
     languages: '11 Sprachen unterstützt',
     pdfExport: 'Sofortiger PDF-Export',
     watermarkNote: 'Kostenlose Version enthält ein kleines Wasserzeichen. Kaufen Sie die Vollversion, um es zu entfernen.',
+    startCreating: 'Jetzt loslegen',
   },
   fr: {
     tryFree: 'Essayer gratuitement (avec filigrane)',
@@ -157,6 +160,7 @@ const uiStrings: Record<string, {
     languages: '11 langues disponibles',
     pdfExport: 'Export PDF instantané',
     watermarkNote: 'La version gratuite inclut un filigrane. Achetez pour le supprimer.',
+    startCreating: 'Commencez maintenant',
   },
   es: {
     tryFree: 'Probar gratis (con marca de agua)',
@@ -175,9 +179,10 @@ const uiStrings: Record<string, {
     languages: '11 idiomas disponibles',
     pdfExport: 'Exportación PDF instantánea',
     watermarkNote: 'La versión gratuita incluye una marca de agua. Compre para eliminarla.',
+    startCreating: 'Empieza a crear ahora',
   },
   pt: {
-    tryFree: 'Experimentar grátis (com marca d’água)',
+    tryFree: "Experimentar grátis (com marca d\u2019água)",
     tryFreeDesc: 'Sem cadastro. Crie atividades na hora.',
     features: 'Recursos',
     relatedApps: 'Geradores relacionados',
@@ -192,11 +197,12 @@ const uiStrings: Record<string, {
     noSignup: 'Sem cadastro',
     languages: '11 idiomas disponíveis',
     pdfExport: 'Exportação PDF instantânea',
-    watermarkNote: 'A versão gratuita inclui marca d’água. Compre para removê-la.',
+    watermarkNote: "A versão gratuita inclui marca d\u2019água. Compre para removê-la.",
+    startCreating: 'Comece a criar agora',
   },
   it: {
     tryFree: 'Prova gratis (con filigrana)',
-    tryFreeDesc: 'Nessuna registrazione. Crea schede all’istante.',
+    tryFreeDesc: "Nessuna registrazione. Crea schede all'istante.",
     features: 'Funzionalità',
     relatedApps: 'Generatori correlati',
     viewAll: 'Vedi tutti i generatori',
@@ -211,6 +217,7 @@ const uiStrings: Record<string, {
     languages: '11 lingue supportate',
     pdfExport: 'Esportazione PDF istantanea',
     watermarkNote: 'La versione gratuita include una filigrana. Acquista per rimuoverla.',
+    startCreating: 'Inizia a creare ora',
   },
   nl: {
     tryFree: 'Gratis proberen (met watermerk)',
@@ -229,6 +236,7 @@ const uiStrings: Record<string, {
     languages: '11 talen ondersteund',
     pdfExport: 'Directe PDF-export',
     watermarkNote: 'Gratis versie bevat een watermerk. Koop om het te verwijderen.',
+    startCreating: 'Begin nu met maken',
   },
   sv: {
     tryFree: 'Testa gratis (med vattenstämpel)',
@@ -247,6 +255,7 @@ const uiStrings: Record<string, {
     languages: '11 språk stöds',
     pdfExport: 'Direkt PDF-export',
     watermarkNote: 'Gratisversionen innehåller en vattenstämpel. Köp för att ta bort den.',
+    startCreating: 'Börja skapa nu',
   },
   da: {
     tryFree: 'Prøv gratis (med vandmærke)',
@@ -265,6 +274,7 @@ const uiStrings: Record<string, {
     languages: '11 sprog understøttet',
     pdfExport: 'Øjeblikkelig PDF-eksport',
     watermarkNote: 'Gratisversionen indeholder et vandmærke. Køb for at fjerne det.',
+    startCreating: 'Begynd at skabe nu',
   },
   no: {
     tryFree: 'Prøv gratis (med vannmerke)',
@@ -283,6 +293,7 @@ const uiStrings: Record<string, {
     languages: '11 språk støttet',
     pdfExport: 'Umiddelbar PDF-eksport',
     watermarkNote: 'Gratisversjonen inkluderer et vannmerke. Kjøp for å fjerne det.',
+    startCreating: 'Begynn å lage nå',
   },
   fi: {
     tryFree: 'Kokeile ilmaiseksi (vesileimalla)',
@@ -301,6 +312,7 @@ const uiStrings: Record<string, {
     languages: '11 kieltä tuettu',
     pdfExport: 'Välitön PDF-vienti',
     watermarkNote: 'Ilmaisversio sisältää vesileiman. Osta poistaaksesi sen.',
+    startCreating: 'Aloita luominen nyt',
   },
 };
 
@@ -580,9 +592,15 @@ export async function generateMetadata({
     const title = content?.seo?.titleTag || `${localizedName} ${localizedSuffix} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || desc;
 
+    // Combine all keywords from content SEO
+    const keywords = content?.seo?.primaryKeyword
+      ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
+      : undefined;
+
     return {
       title,
       description,
+      keywords,
       alternates: {
         canonical: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
         languages: alternateUrls,
@@ -594,6 +612,7 @@ export async function generateMetadata({
         url: `${baseUrl}/${locale}/apps/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
     };
   } catch {
@@ -691,6 +710,32 @@ export default async function AppDetailPage({
     })),
   } : null;
 
+  // BreadcrumbList JSON-LD
+  const localizedHomeLabel: Record<string, string> = { en: 'Home', de: 'Startseite', fr: 'Accueil', es: 'Inicio', pt: 'Início', it: 'Home', nl: 'Home', sv: 'Hem', da: 'Hjem', no: 'Hjem', fi: 'Koti' };
+  const localizedAppsLabel: Record<string, string> = { en: 'Apps', de: 'Apps', fr: 'Applications', es: 'Aplicaciones', pt: 'Aplicativos', it: 'App', nl: 'Apps', sv: 'Appar', da: 'Apps', no: 'Apper', fi: 'Sovellukset' };
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: localizedHomeLabel[locale] || 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: localizedAppsLabel[locale] || 'Apps', item: `https://www.lessoncraftstudio.com/${locale}/apps` },
+      { '@type': 'ListItem', position: 3, name: localizedName },
+    ],
+  };
+
+  // HowTo JSON-LD (from howItWorks steps)
+  const howToJsonLd = content?.howItWorks?.steps?.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: content.howItWorks.title,
+    step: content.howItWorks.steps.map((s: { title: string; description: string }, i: number) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.title,
+      text: s.description,
+    })),
+  } : null;
+
   // ── Enriched layout (when content file exists) ──
   if (content) {
     return (
@@ -703,6 +748,16 @@ export default async function AppDetailPage({
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+        )}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+        {howToJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
           />
         )}
 
@@ -1103,7 +1158,7 @@ export default async function AppDetailPage({
         <section className="py-12 md:py-16 bg-indigo-600">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-white mb-4">
-              {localizedName} {localizedSuffix}
+              {ui.startCreating || 'Start Creating Now'}
             </h2>
             <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{ui.tryFreeDesc}</p>
             <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} variant="light" />

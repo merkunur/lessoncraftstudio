@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar fichas de puzzles matemáticos para vender',
+    primaryKeyword: 'gerador de puzzles matemáticos',
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimíveis para Etsy',
       'gerador de puzzles de imagens para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador de Puzzles Matemáticos | Criar e Vender',
     metaDescription:
-      'Crie fichas de puzzles matemáticos para vender na Etsy, KDP e TPT. Puzzles com imagens, adição e subtração, quadrículas ajustáveis. Teste grátis com marca d\'água.',
+      'Crie fichas de puzzles matemáticos para Etsy, KDP e TPT. Puzzles com imagens, adição e subtração, quadrículas ajustáveis. Teste grátis com marca d\'água.',
   },
 
   hero: {

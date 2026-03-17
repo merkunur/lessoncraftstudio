@@ -168,6 +168,10 @@ Finalmente, considere os seus interesses a longo prazo. A seleção de nicho nã
       question: 'Que tipos de imprimíveis são mais fáceis de começar a vender?',
       answer: 'Fichas de matemática (adição, subtração), sopas de letras, páginas para colorir e cartões de bingo são os tipos de produtos mais acessíveis para iniciantes. Têm procura consistente, são rápidos de criar com geradores e funcionam em múltiplos nichos temáticos. Comece com o tipo que melhor se adequa ao seu nicho escolhido.',
     },
+    {
+      question: 'Qual é a política de reembolso?',
+      answer: 'Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.',
+    },
   ],
 
   visuals: {

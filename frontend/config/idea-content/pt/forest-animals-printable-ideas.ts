@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Animais da Floresta — Guia',
     metaDescription: 'Ideias rentáveis de imprimíveis de animais da floresta para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos, estratégias por plataforma e nicho.',
 
-    primaryKeyword: 'ideias imprimíveis animais da floresta',
+    primaryKeyword: 'ideias de imprimíveis animais da floresta',
     secondaryKeywords: [
       'fichas animais da floresta para vender',
       'negócio imprimíveis tema floresta',

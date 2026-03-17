@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador fichas caça ao tesouro imprimíveis',
+    primaryKeyword: 'gerador caça ao tesouro',
     secondaryKeywords: [
       'ferramenta caça ao tesouro direcional para vendedores Etsy KDP',
       'gerador puzzles procura caminhos grelha coordenadas comercial',

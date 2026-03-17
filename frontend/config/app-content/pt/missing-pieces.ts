@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de peças faltantes para vender',
+    primaryKeyword: 'gerador fichas peças faltantes',
     secondaryKeywords: [
       'criador de puzzles de peças faltantes para vendedores Etsy',
       'gerador de fichas de puzzles visuais para editores Amazon KDP',

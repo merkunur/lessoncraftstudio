@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Natal para Vender — Guia',
     metaDescription: 'Ideias de imprimíveis natalícios para vender no Etsy, Amazon KDP e TPT. Produtos festivos, estratégias sazonais e dicas por plataforma para vendedores.',
 
-    primaryKeyword: 'ideias imprimíveis natal',
+    primaryKeyword: 'ideias de imprimíveis de natal para vender',
     secondaryKeywords: [
       'fichas natalícias para vender',
       'negócio imprimíveis natalícios',

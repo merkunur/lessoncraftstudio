@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de adição',
+    primaryKeyword: 'gerador de fichas de adição',
     secondaryKeywords: [
       'fichas de adição imprimíveis para Etsy',
       'gerador de fichas de matemática para Amazon KDP',
@@ -32,7 +32,7 @@ const content: AppContent = {
       {
         title: 'Configure o layout da página',
         description:
-          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo de fundo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante para dar às suas fichas um aspeto profissional e pronto para impressão. A pré-visualização do canvas atualiza-se em tempo real enquanto faz alterações, para que veja exatamente o resultado final antes de descarregar.',
+          'Abra o painel de Configuração de Página e escolha um tamanho: Carta Vertical, Carta Horizontal, A4 Vertical, A4 Horizontal, Quadrado ou qualquer dimensão personalizada. Selecione uma cor de fundo, escolha um tema decorativo de fundo da biblioteca de imagens e ajuste a opacidade para manter os exercícios legíveis. Adicione uma moldura de borda combinante para dar às suas fichas um aspeto profissional e pronto para impressão. A pré-visualização do canvas atualiza-se em tempo real enquanto faz alterações, para que veja exatamente o resultado final antes de descarregar. Se vende na Etsy ou Amazon KDP, considere criar versões em Carta para compradores norte-americanos e versões em A4 para clientes europeus e sul-americanos — duplicando o seu alcance de mercado com um ajuste mínimo.',
       },
       {
         title: 'Configure o modo de exercício e o intervalo numérico',
@@ -42,7 +42,7 @@ const content: AppContent = {
       {
         title: 'Escolha imagens da biblioteca temática',
         description:
-          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e alimentos até veículos e festividades. Use a barra de pesquisa para encontrar imagens específicas instantaneamente. Clique para selecionar as imagens que deseja; cada exercício utiliza a sua seleção. Também pode carregar as suas próprias imagens personalizadas para um visual único que combine com a sua marca ou tema de sala de aula.',
+          'Abra o painel da Biblioteca de Imagens e explore 104 temas — desde animais e alimentos até veículos e festividades. Use a barra de pesquisa para encontrar imagens específicas instantaneamente. Clique para selecionar as imagens que deseja; cada exercício utiliza a sua seleção. Também pode carregar as suas próprias imagens personalizadas para um visual único que combine com a sua marca ou tema de sala de aula. Ao criar produtos para venda, selecionar imagens de um tema coerente — por exemplo, apenas animais do oceano ou apenas frutas — resulta em fichas visualmente consistentes que se apresentam melhor nas miniaturas das listagens e atraem mais cliques nos resultados de pesquisa.',
       },
       {
         title: 'Adicione texto, títulos e toques personalizados',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Molduras decorativas e temas de fundo',
         description:
-          'Transforme as suas fichas de simples a profissionais com molduras decorativas e imagens de fundo da mesma biblioteca de 104 temas. Ajuste a opacidade da moldura e do fundo independentemente para que os elementos visuais enriqueçam o design sem distrair do conteúdo matemático. Combinar uma moldura sazonal com um fundo colorido cria conjuntos temáticos que se vendem a preços mais altos na Etsy e no Teachers Pay Teachers.',
+          'Transforme as suas fichas de simples a profissionais com molduras decorativas e imagens de fundo da mesma biblioteca de 104 temas. Ajuste a opacidade da moldura e do fundo independentemente para que os elementos visuais enriqueçam o design sem distrair do conteúdo matemático. Combinar uma moldura sazonal com um fundo colorido cria conjuntos temáticos que se vendem a preços mais altos na Etsy e no Teachers Pay Teachers. Por exemplo, fichas com moldura de flores e fundo pastel para a primavera, ou moldura de flocos de neve e fundo azul claro para o inverno, permitem-lhe criar coleções sazonais que os compradores procuram ativamente em alturas específicas do ano.',
       },
       {
         title: 'Edição completa do canvas com desfazer e refazer',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Pacotes temáticos de fichas de adição na Etsy',
         description:
-          'Crie conjuntos de 10 a 20 fichas de adição agrupadas por tema — animais da quinta, dinossauros, vida marinha, festividades — e ofereça-os como download instantâneo na Etsy. Inclua o gabarito como ficheiro extra. Os pacotes temáticos atraem pais que procuram interesses específicos e professores que precisam de material pronto a usar. Defina o preço de temas individuais entre $3–$5 e de mega-pacotes entre $12–$18 para um valor médio de encomenda sólido.',
+          'Crie conjuntos de 10 a 20 fichas de adição agrupadas por tema — animais da quinta, dinossauros, vida marinha, festividades — e ofereça-os como download instantâneo na Etsy. Inclua o gabarito como ficheiro extra. Os pacotes temáticos atraem pais que procuram interesses específicos e professores que precisam de material pronto a usar. Defina o preço de temas individuais entre $3–$5 e de mega-pacotes entre $12–$18 para um valor médio de encomenda sólido. Organize cada pacote com dificuldade gradual — começando com somas simples de 1+1 nas primeiras fichas e progredindo até somas de 8+9 nas últimas — para que os pais vejam um percurso de aprendizagem completo dentro de cada compra.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'Preciso de instalar algum software?',
       answer:
-        'Não. O Gerador de Fichas de Adição funciona inteiramente no seu navegador web. Não há nada para descarregar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar.',
+        'Não. O Gerador de Fichas de Adição funciona inteiramente no seu navegador web. Não há nada para descarregar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar. Toda a geração acontece no lado do cliente, o que significa que os seus designs permanecem privados e nunca são carregados para servidores externos. A ferramenta carrega em segundos mesmo com ligações mais lentas.',
     },
   ],
 

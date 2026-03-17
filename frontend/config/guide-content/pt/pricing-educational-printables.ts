@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'estratégias de preços para imprimíveis educativos',
+    primaryKeyword: 'preços imprimíveis educativos',
     secondaryKeywords: [
       'como definir preços de fichas imprimíveis',
       'guia de preços para imprimíveis educativos',
@@ -116,7 +116,7 @@ const content: GuideContent = {
     },
     {
       question: 'É melhor fazer promoções e descontos ou manter preços consistentes?',
-      answer: 'As promoções estratégicas e de tempo limitado superam os descontos perpétuos. Faça promoções genuínas vinculadas a eventos reais — promoções de regresso às aulas em agosto, promoções de Natal em novembro e dezembro, liquidação de fim de ano em junho — com descontos modestos de 15% a 25%. Estas promoções baseadas em eventos criam urgência sem ensinar os compradores a esperar por descontos. Evite as «promoções permanentes» onde os produtos estão sempre com desconto a partir de um preço regular inflacionado, o que corrói a confiança e pode violar as políticas das plataformas. Entre as promoções, mantenha os seus preços regulares com confiança. Os compradores que compram ao preço completo entre promoções devem sentir que receberam valor justo, não que pagaram demasiado.',
+      answer: 'As promoções estratégicas e sazonais superam os descontos perpétuos. Faça promoções genuínas vinculadas a eventos reais — promoções de regresso às aulas em agosto, promoções de Natal em novembro e dezembro, liquidação de fim de ano em junho — com descontos modestos de 15% a 25%. Estas promoções baseadas em eventos criam urgência sem ensinar os compradores a esperar por descontos. Evite as «promoções permanentes» onde os produtos estão sempre com desconto a partir de um preço regular inflacionado, o que corrói a confiança e pode violar as políticas das plataformas. Entre as promoções, mantenha os seus preços regulares com confiança. Os compradores que compram ao preço completo entre promoções devem sentir que receberam valor justo, não que pagaram demasiado.',
     },
     {
       question: 'Como devo definir preços ao entrar num novo nicho ou plataforma?',

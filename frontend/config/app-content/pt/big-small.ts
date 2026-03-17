@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas grande e pequeno',
+    primaryKeyword: 'gerador fichas grande pequeno',
     secondaryKeywords: [
       'fichas de comparação de tamanhos imprimíveis para vendedores Etsy',
       'gerador de fichas grande e pequeno personalizadas para Amazon KDP',

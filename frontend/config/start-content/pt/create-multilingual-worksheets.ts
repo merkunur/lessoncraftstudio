@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas multilingue',
+    primaryKeyword: 'gerador fichas multilingue',
     secondaryKeywords: [
       'criar fichas em vários idiomas',
       'fichas imprimíveis multilingues',

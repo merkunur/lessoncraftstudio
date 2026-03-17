@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de criptograma',
+    primaryKeyword: 'gerador fichas criptograma',
     secondaryKeywords: [
       'fichas de criptograma com imagens imprimíveis para vendedores Etsy',
       'gerador de puzzles de criptograma cifrado para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Criptograma | Criar e Vender',
     metaDescription:
-      'Crie fichas de criptograma para Etsy, KDP e TPT. Cifra por imagens, Letras a Revelar 0–10, 104 temas, gabarito auto. Teste grátis com marca d\'água.',
+      'Crie fichas de criptograma para Etsy, KDP e TPT. Cifra por imagens, Letras a Revelar 0–10, 104 temas, gabarito auto em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {

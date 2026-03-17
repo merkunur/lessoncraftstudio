@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Aprendizagem de Verão Ideias Imprimíveis — Guia',
     metaDescription: 'Descobre ideias de imprimíveis de aprendizagem de verão para vender no Etsy, Amazon KDP e TPT. Produtos sazonais para pais, professores e campos de férias.',
 
-    primaryKeyword: 'ideias imprimíveis aprendizagem verão',
+    primaryKeyword: 'aprendizagem de verão ideias imprimíveis',
     secondaryKeywords: [
       'fichas aprendizagem verão para vender',
       'negócio imprimíveis perda aprendizagem verão',

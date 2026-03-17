@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar fichas de comparação de quantidades para vender',
+    primaryKeyword: 'gerador mais ou menos',
     secondaryKeywords: [
       'fichas de mais ou menos imprimíveis para Etsy',
       'gerador de fichas de comparação de números para Amazon KDP',

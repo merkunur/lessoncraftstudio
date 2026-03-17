@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender puzzles de quadrícula imprimíveis',
+    primaryKeyword: 'gerador puzzles de quadrícula',
     secondaryKeywords: [
       'gerador de puzzles de quadrícula imprimíveis para vendedores Etsy',
       'criador de puzzles de peças de imagens para editores Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Puzzles de Quadrícula | Criar e Vender',
     metaDescription:
-      'Crie puzzles de quadrícula para Etsy, KDP e TPT. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+      'Crie puzzles de quadrícula para vender na Etsy, KDP e TPT. Grelha configurável, caselas-dica, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
   },
 
   hero: {
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Coleções de Puzzles de Quadrícula Sazonais',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de quadrícula por tempo limitado alinhadas com os picos de compra. Lance pacotes de puzzles de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua múltiplos tamanhos de grelha e níveis de dificuldade em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de puzzles de quadrícula por época alinhadas com os picos de compra. Lance pacotes de puzzles de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua múltiplos tamanhos de grelha e níveis de dificuldade em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
       {

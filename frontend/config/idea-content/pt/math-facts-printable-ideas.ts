@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias Imprimíveis Bases Matemática — Guia de Nicho',
     metaDescription: 'Descobre ideias de imprimíveis de bases matemáticas para vender no Etsy, Amazon KDP e TPT. Estratégias de nicho para vendedores que servem professores.',
-    primaryKeyword: 'ideias imprimíveis bases matemáticas',
+    primaryKeyword: 'ideias imprimíveis bases matemática',
     secondaryKeywords: [
       'fichas operações matemáticas para vender',
       'negócio imprimíveis exercícios matemáticos',

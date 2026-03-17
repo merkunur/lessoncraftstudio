@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de sudoku com imagens para vender',
+    primaryKeyword: 'gerador fichas sudoku imagens',
     secondaryKeywords: [
       'fichas de sudoku infantil imprimíveis para vendedores Etsy',
       'gerador de sudoku com imagens para editores Amazon KDP',

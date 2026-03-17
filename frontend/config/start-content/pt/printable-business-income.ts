@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'quanto se ganha a vender imprimíveis',
+    primaryKeyword: 'vender imprimíveis: quanto se ganha no etsy?',
     secondaryKeywords: [
       'expetativas de rendimentos negócio de imprimíveis',
       'rendimentos realistas a vender fichas imprimíveis',

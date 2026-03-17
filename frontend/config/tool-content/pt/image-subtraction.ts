@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de subtração',
+    primaryKeyword: 'gerador fichas de subtração',
     secondaryKeywords: [
       'criar fichas de subtração online',
       'fichas de subtração imprimíveis com imagens',

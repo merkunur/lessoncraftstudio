@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'impostos venda imprimíveis',
+    primaryKeyword: 'impostos e aspetos legais para vender imprimíveis',
     secondaryKeywords: [
       'aspetos legais negócio imprimíveis',
       'obrigações fiscais produtos digitais',

@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote de fichas de puzzles e lógica',
+    primaryKeyword: 'pacote fichas de puzzles',
     secondaryKeywords: [
       'pacote de geradores de fichas de puzzles para vendedores',
       'kit de fichas de puzzles e lógica uso comercial',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar fichas vários idiomas',
+    primaryKeyword: 'criar fichas em vários idiomas',
     secondaryKeywords: [
       'criação fichas multilingues',
       'traduzir fichas para vender',

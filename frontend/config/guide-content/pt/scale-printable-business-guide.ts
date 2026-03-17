@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'escalar negócio de imprimíveis',
+    primaryKeyword: 'escalar negócio imprimíveis',
     secondaryKeywords: [
       'como escalar um negócio de imprimíveis',
       'fazer crescer negócio de fichas imprimíveis',

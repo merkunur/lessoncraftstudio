@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'rendimento passivo fichas de exercícios',
+    primaryKeyword: 'rendimento passivo com fichas de exercícios',
     secondaryKeywords: [
       'negócio fichas exercícios rendimento',
       'ganhar dinheiro vendendo fichas exercícios',

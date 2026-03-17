@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de caça-palavras',
+    primaryKeyword: 'gerador fichas caça-palavras',
     secondaryKeywords: [
       'fichas de caça-palavras imprimíveis para vendedores Etsy',
       'gerador de grelhas de palavras ocultas para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Caça-Palavras | Criar e Vender',
     metaDescription:
-      'Crie fichas de caça-palavras para Etsy, KDP e TPT. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma. Teste grátis com marca d\'água.',
+      'Crie fichas de caça-palavras para vender na Etsy, KDP e TPT. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma. Teste grátis com marca d\'água.',
   },
 
   hero: {
@@ -194,6 +194,11 @@ const content: AppContent = {
       question: 'Posso vender fichas criadas com esta ferramenta na Etsy e Amazon KDP?',
       answer:
         'Sim. Com uma licença comercial, tem todos os direitos para vender as suas fichas de caça-palavras como downloads digitais na Etsy, como livros de puzzles impressos na Amazon KDP, como recursos educativos no TPT ou através de qualquer outro canal de venda. Os tamanhos de grelha ajustáveis, os controlos de direção e a capacidade multilingue oferecem-lhe uma forte diferenciação em categorias de mercado muito concorridas.',
+    },
+    {
+      question: 'Qual é a política de reembolso?',
+      answer:
+        'Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.',
     },
   ],
 

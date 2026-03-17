@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de subtração',
+    primaryKeyword: 'gerador de fichas de subtração',
     secondaryKeywords: [
       'fichas de subtração imprimíveis para Etsy',
       'gerador de fichas de subtração para Amazon KDP',
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Configure o modo de exercício e o intervalo numérico',
         description:
-          'Abra a Configuração de Exercícios e selecione um dos quatro modos. O modo Riscar mostra um grupo completo de imagens e traça cruzes diagonais sobre os elementos subtraídos — a visualização característica que torna a subtração tangível para os mais novos. O modo Imagem − Número associa um grupo de imagens a um número para alunos em transição para a subtração abstrata. O modo Encontrar o Subtraendo mostra o grupo inicial e o resultado, desafiando os alunos a determinar quantos foram retirados. O Modo Misto combina os três para uma prática variada. Defina o minuendo máximo de 2 a 20 e escolha quantos exercícios aparecem por página.',
+          'Abra a Configuração de Exercícios e selecione um dos quatro modos. O modo Riscar mostra um grupo completo de imagens e traça cruzes diagonais sobre os elementos subtraídos — a visualização característica que torna a subtração tangível para os mais novos. O modo Imagem − Número associa um grupo de imagens a um número para alunos em transição para a subtração abstrata. O modo Encontrar o Subtraendo mostra o grupo inicial e o resultado, desafiando os alunos a determinar quantos foram retirados. O Modo Misto combina os três para uma prática variada. Defina o minuendo máximo de 2 a 20 e escolha quantos exercícios aparecem por página. Para vendedores na Etsy ou TPT, criar versões separadas com intervalos numéricos diferentes — por exemplo, um pacote pré-escolar com minuendo até 5 e um pacote de primeiro ano com minuendo até 15 — permite oferecer produtos segmentados por faixa etária, aumentando o apelo junto a compradores com necessidades específicas.',
       },
       {
         title: 'Escolha imagens da biblioteca temática',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Visualização de riscar',
         description:
-          'A funcionalidade característica que distingue este gerador. No modo Riscar, é mostrado um grupo completo de imagens e são traçadas cruzes diagonais sobre os últimos N elementos para mostrar a subtração visualmente. Isto transforma a ideia abstrata de «tirar» em algo que os alunos podem ver e compreender de imediato. Uma criança que observa oito maçãs com três riscadas compreende «8 menos 3» de forma muito mais intuitiva do que olhando apenas para números. As marcas de riscar são apresentadas claramente no canvas e aparecem tanto na ficha como no gabarito.',
+          'A funcionalidade característica que distingue este gerador. No modo Riscar, é mostrado um grupo completo de imagens e são traçadas cruzes diagonais sobre os últimos N elementos para mostrar a subtração visualmente. Isto transforma a ideia abstrata de «tirar» em algo que os alunos podem ver e compreender de imediato. Uma criança que observa oito maçãs com três riscadas compreende «8 menos 3» de forma muito mais intuitiva do que olhando apenas para números. As marcas de riscar são apresentadas claramente no canvas e aparecem tanto na ficha como no gabarito. Esta abordagem visual alinha-se com as melhores práticas pedagógicas para o ensino da subtração nos primeiros anos, onde a manipulação concreta de objetos é essencial para a compreensão do conceito. Para vendedores de imprimíveis, a visualização de riscar também funciona como um diferenciador forte nas miniaturas das listagens, destacando os seus produtos da concorrência que oferece apenas fichas de subtração baseadas em texto.',
       },
       {
         title: 'Quatro modos de exercício distintos',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'Preciso de instalar algum software?',
       answer:
-        'Não. O Gerador de Fichas de Subtração funciona inteiramente no seu navegador web. Não há nada para descarregar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar.',
+        'Não. O Gerador de Fichas de Subtração funciona inteiramente no seu navegador web. Não há nada para descarregar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar. Toda a geração acontece localmente no seu dispositivo, garantindo que os seus designs permanecem privados.',
     },
   ],
 

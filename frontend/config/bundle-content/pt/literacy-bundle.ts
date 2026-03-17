@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote de fichas de leitura e linguagem',
+    primaryKeyword: 'pacote fichas leitura e linguagem',
     secondaryKeywords: [
       'pacote de geradores de fichas de linguagem para vendedores',
       'kit de fichas de leitura e escrita uso comercial',

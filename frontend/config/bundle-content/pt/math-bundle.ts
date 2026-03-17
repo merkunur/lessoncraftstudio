@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote de fichas de matemática',
+    primaryKeyword: 'pacote fichas de matemática',
     secondaryKeywords: [
       'pacote de fichas de matemática para vendedores',
       'geradores de fichas de matemática uso comercial',

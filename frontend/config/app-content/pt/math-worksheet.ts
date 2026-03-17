@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar fichas de puzzles algébricos para vender',
+    primaryKeyword: 'puzzles algébricos ilustrados',
     secondaryKeywords: [
       'fichas de puzzles algébricos imprimíveis para Etsy',
       'gerador de puzzles algébricos ilustrados para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Puzzles Algébricos Ilustrados | Criar e Vender',
     metaDescription:
-      'Crie fichas de puzzles algébricos ilustrados para Etsy, KDP e TPT. Imagens como variáveis, 4 níveis, solução única. Teste grátis com marca d\'água.',
+      'Crie fichas de puzzles algébricos ilustrados para Etsy, KDP e TPT. Imagens como variáveis, 4 níveis, solução única em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {

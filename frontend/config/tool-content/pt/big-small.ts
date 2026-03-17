@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de comparação de tamanhos',
+    primaryKeyword: 'gerador fichas grande pequeno',
     secondaryKeywords: [
       'fichas de grande e pequeno imprimíveis para vender',
       'criar fichas de discriminação de tamanhos uso comercial',

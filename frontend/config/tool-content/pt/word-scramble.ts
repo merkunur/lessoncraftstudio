@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de palavras embaralhadas',
+    primaryKeyword: 'gerador palavras embaralhadas',
     secondaryKeywords: [
       'criar fichas de palavras embaralhadas para vender',
       'gerador de fichas de ortografia com letras embaralhadas',

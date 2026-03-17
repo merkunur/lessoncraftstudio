@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de trem do alfabeto',
+    primaryKeyword: 'gerador trem do alfabeto',
     secondaryKeywords: [
       'criar fichas de trem de letras imprimíveis',
       'gerador de fichas do alfabeto para vender',

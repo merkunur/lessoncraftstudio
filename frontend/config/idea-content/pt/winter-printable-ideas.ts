@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Inverno para Vender — Guia',
     metaDescription: 'Ideias de imprimíveis de inverno para vender no Etsy, Amazon KDP e TPT. Produtos de clima frio com forte procura de novembro a fevereiro para vendedores.',
 
-    primaryKeyword: 'ideias imprimíveis inverno',
+    primaryKeyword: 'ideias de imprimíveis de inverno para vender',
     secondaryKeywords: [
       'fichas temática inverno para vender',
       'negócio imprimíveis inverno',

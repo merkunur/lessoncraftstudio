@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Piratas — Guia de Nicho',
     metaDescription: 'Descubra ideias de imprimíveis de piratas para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos com temática de aventura e tesouros, estratégias.',
 
-    primaryKeyword: 'ideias imprimíveis piratas',
+    primaryKeyword: 'ideias de imprimíveis de piratas',
     secondaryKeywords: [
       'fichas temáticas piratas para vender',
       'negócio imprimíveis temática piratas',

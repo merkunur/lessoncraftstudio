@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Animais da Quinta — Guia de Nicho',
     metaDescription: 'Ideias rentáveis de imprimíveis de animais da quinta para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos, estratégias de preços e dicas por plataforma.',
 
-    primaryKeyword: 'ideias imprimíveis animais da quinta',
+    primaryKeyword: 'ideias de imprimíveis animais da quinta',
     secondaryKeywords: [
       'fichas animais da quinta para vender',
       'negócio imprimíveis tema quinta',

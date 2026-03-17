@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Animais de Safari — Guia de Nicho',
     metaDescription: 'Ideias lucrativas de imprimíveis de animais de safari para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos de fauna africana e dicas para vendedores.',
 
-    primaryKeyword: 'ideias imprimíveis animais safari',
+    primaryKeyword: 'ideias de imprimíveis animais de safari',
     secondaryKeywords: [
       'fichas animais safari para vender',
       'negócio imprimíveis temática safari',

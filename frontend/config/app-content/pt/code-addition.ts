@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar fichas de adição codificada para vender',
+    primaryKeyword: 'gerador de adição codificada',
     secondaryKeywords: [
       'fichas de puzzles matemáticos imprimíveis para Etsy',
       'fichas de decifrar código de adição para Amazon KDP',

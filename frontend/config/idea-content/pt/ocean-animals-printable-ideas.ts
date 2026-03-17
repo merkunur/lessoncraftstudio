@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Animais Marinhos — Guia de Nicho',
     metaDescription: 'Ideias lucrativas de imprimíveis de animais marinhos para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos, estratégias por plataforma e dicas práticas.',
 
-    primaryKeyword: 'ideias imprimíveis animais marinhos',
+    primaryKeyword: 'ideias de imprimíveis animais marinhos',
     secondaryKeywords: [
       'fichas animais marinhos para vender',
       'negócio imprimíveis criaturas marinhas',

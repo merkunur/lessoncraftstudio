@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias Imprimíveis Artigos de Festa para Vender — Guia',
     metaDescription: 'Ideias de negócio de artigos de festa imprimíveis para vendedores Etsy. Cria pacotes temáticos de festa, jogos de aniversário e materiais decorativos.',
-    primaryKeyword: 'artigos festa imprimíveis',
+    primaryKeyword: 'ideias imprimíveis artigos de festa para vender',
     secondaryKeywords: [
       'artigos festa imprimíveis para vender',
       'negócio decoração festa imprimível',

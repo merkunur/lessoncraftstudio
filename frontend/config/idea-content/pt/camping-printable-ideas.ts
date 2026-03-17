@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Campismo — Guia de Nicho',
     metaDescription: 'Ideias de imprimíveis de campismo para vender no Etsy, Amazon KDP e TPT. Produtos com temática ao ar livre, estratégias por plataforma e dicas de nicho.',
 
-    primaryKeyword: 'ideias imprimíveis campismo',
+    primaryKeyword: 'ideias de imprimíveis de campismo',
     secondaryKeywords: [
       'fichas de campismo para vender',
       'fichas atividades campismo para vendedores',

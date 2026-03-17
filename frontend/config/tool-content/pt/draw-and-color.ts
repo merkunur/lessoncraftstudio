@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de desenho em grelha',
+    primaryKeyword: 'gerador fichas desenho em grelha',
     secondaryKeywords: [
       'fichas de desenho em grelha imprimíveis para vender',
       'criar fichas de desenhar e colorir uso comercial',

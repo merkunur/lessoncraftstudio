@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de padrões',
+    primaryKeyword: 'gerador fichas de padrões em grelha',
     secondaryKeywords: [
       'fichas de reconhecimento de padrões imprimíveis para vender',
       'criar fichas de completar padrões uso comercial',

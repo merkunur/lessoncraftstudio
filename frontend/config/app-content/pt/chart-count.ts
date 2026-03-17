@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de gráfico pictórico',
+    primaryKeyword: 'gerador fichas gráfico pictórico',
     secondaryKeywords: [
       'gerador de fichas de gráfico de imagens para vendedores Etsy',
       'criador de fichas de pictograma para editores Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Gráfico Pictórico | Criar e Vender',
     metaDescription:
-      'Crie fichas de gráfico pictórico para Etsy, KDP e TPT. Gabarito automático, 104 temas, 6 tipos de imagens por ficha. Teste grátis com marca d\'água.',
+      'Crie fichas de gráfico pictórico para Etsy, KDP e TPT. Gabarito automático, 104 temas, 6 tipos de imagens por ficha em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Coleções sazonais de contagem e gráficos',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — enfeites de Natal, ícones de Halloween, objetos de Páscoa, corações de Dia dos Namorados, materiais de regresso às aulas, atividades de verão e cenas de inverno. Crie coleções de gráficos pictóricos por tempo limitado alinhadas com os picos de compra. Lance os pacotes de contagem de Halloween em setembro, os pacotes de gráficos de Natal em outubro e as atividades de dados do Dia dos Namorados em janeiro. Inclua gabaritos com cada conjunto para produtos docentes completos. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — enfeites de Natal, ícones de Halloween, objetos de Páscoa, corações de Dia dos Namorados, materiais de regresso às aulas, atividades de verão e cenas de inverno. Crie coleções de gráficos pictóricos por época alinhadas com os picos de compra. Lance os pacotes de contagem de Halloween em setembro, os pacotes de gráficos de Natal em outubro e as atividades de dados do Dia dos Namorados em janeiro. Inclua gabaritos com cada conjunto para produtos docentes completos. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
     ],

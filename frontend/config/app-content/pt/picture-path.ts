@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de labirintos com imagens para vender',
+    primaryKeyword: 'gerador fichas labirintos imagens',
     secondaryKeywords: [
       'fichas de labirintos imprimíveis para vendedores Etsy',
       'gerador de fichas de percursos com imagens para Amazon KDP',

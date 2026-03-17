@@ -18,7 +18,7 @@ const content: GuideContent = {
       'otimização de anúncio definição de expectativas comunicação com comprador experiência pós-compra',
     ],
     titleTag: 'Obter Avaliações Produtos Imprimíveis — Guia',
-    metaDescription: 'Estratégias comprovadas para obter avaliações de produtos imprimíveis. Construa prova social, ganhe comentários autênticos e aumente a credibilidade do vendedor.',
+    metaDescription: 'Estratégias comprovadas para obter avaliações de produtos imprimíveis. Construa prova social, ganhe comentários autênticos e aumente a sua credibilidade.',
   },
 
   hero: {

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender páginas para colorir',
+    primaryKeyword: 'gerador páginas para colorir',
     secondaryKeywords: [
       'gerador de páginas para colorir imprimíveis para vendedores Etsy',
       'criador de fichas para colorir para editores Amazon KDP',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Coleções sazonais e festivas de páginas para colorir',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão, festas de inverno e muito mais. Crie coleções de páginas para colorir por tempo limitado alinhadas com os picos de compra. Lance os pacotes de Halloween em setembro, as coleções de Natal em outubro e os pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes da mesma base de clientes.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão, festas de inverno e muito mais. Crie coleções de páginas para colorir por época alinhadas com os picos de compra. Lance os pacotes de Halloween em setembro, as coleções de Natal em outubro e os pacotes do Dia dos Namorados em janeiro. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes da mesma base de clientes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
     ],

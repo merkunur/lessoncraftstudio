@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias de Imprimíveis Pré-Escolares — Guia de Nicho',
     metaDescription: 'Descubra ideias de imprimíveis pré-escolares para vender no Etsy, Amazon KDP e TPT. Produtos pré-escolar e estratégias de nicho para vendedores digitais.',
-    primaryKeyword: 'ideias imprimíveis pré-escolar',
+    primaryKeyword: 'ideias de imprimíveis pré-escolares',
     secondaryKeywords: [
       'fichas pré-escolares para vender',
       'negócio imprimíveis pré-escolar',

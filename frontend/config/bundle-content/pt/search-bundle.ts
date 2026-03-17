@@ -2,7 +2,7 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pacote de fichas de procura e encontra',
+    primaryKeyword: 'pacote fichas procura e encontra',
     secondaryKeywords: [
       'pacote de geradores de fichas de procura para vendedores',
       'kit de fichas I Spy objetos escondidos uso comercial',

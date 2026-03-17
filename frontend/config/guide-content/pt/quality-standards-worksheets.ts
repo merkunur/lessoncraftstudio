@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'padrões qualidade fichas exercícios vendedores',
+    primaryKeyword: 'padrões de qualidade para fichas',
     secondaryKeywords: [
       'lista verificação qualidade imprimíveis',
       'padrões design profissional fichas exercícios',

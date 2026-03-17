@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de adição codificada',
+    primaryKeyword: 'gerador adição codificada',
     secondaryKeywords: [
       'criar fichas de criptaritmética para vender',
       'puzzles de decifrar código matemática imprimíveis',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de adivinhar palavras',
+    primaryKeyword: 'gerador fichas adivinhar palavras',
     secondaryKeywords: [
       'criar fichas de ortografia imprimíveis para vender',
       'gerador de fichas adivinhar palavras para vendedores',

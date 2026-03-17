@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de grafomotricidade',
+    primaryKeyword: 'gerador fichas grafomotricidade',
     secondaryKeywords: [
       'fichas de traçado de linhas imprimíveis para vender',
       'criar fichas de grafomotricidade uso comercial',

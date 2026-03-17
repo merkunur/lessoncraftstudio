@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de associação imprimíveis',
+    primaryKeyword: 'gerador fichas de associação',
     secondaryKeywords: [
       'gerador de fichas de associação imprimíveis para vendedores Etsy',
       'criador de fichas unir com linhas para editores Amazon KDP',
@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Coleções de Associação Sazonais',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de fichas de associação por tempo limitado alinhadas com os picos de compra. Lance pacotes de associação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua os quatro modos de associação em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de fichas de associação por época alinhadas com os picos de compra. Lance pacotes de associação de Halloween em setembro, coleções de Natal em outubro e pacotes do Dia dos Namorados em janeiro. Inclua os quatro modos de associação em cada conjunto sazonal para máximo valor. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura e criam razões naturais para compras recorrentes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
     ],

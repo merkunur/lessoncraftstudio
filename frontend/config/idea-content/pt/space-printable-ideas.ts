@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Espaço — Guia de Nicho',
     metaDescription: 'Descobre ideias de imprimíveis de espaço para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos do espaço exterior, estratégias STEM e dicas de nicho.',
 
-    primaryKeyword: 'ideias imprimíveis espaço',
+    primaryKeyword: 'ideias de imprimíveis de espaço',
     secondaryKeywords: [
       'fichas temática espacial para vender',
       'negócio imprimíveis temática espacial',

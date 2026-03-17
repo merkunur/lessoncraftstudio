@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de puzzles algébricos ilustrados',
+    primaryKeyword: 'gerador puzzles algébricos',
     secondaryKeywords: [
       'criar puzzles de álgebra com imagens para vender',
       'gerador de fichas de álgebra visual imprimíveis',

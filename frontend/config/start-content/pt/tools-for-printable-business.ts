@@ -2,7 +2,7 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'melhores ferramentas vendedores imprimíveis',
+    primaryKeyword: 'melhores ferramentas para vendedores imprimíveis',
     secondaryKeywords: [
       'ferramentas negócio imprimíveis checklist',
       'geradores de fichas ferramentas para vendedores',

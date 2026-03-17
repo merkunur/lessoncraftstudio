@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'abrir loja Etsy imprimíveis',
+    primaryKeyword: 'abrir loja etsy de imprimíveis do zero',
     secondaryKeywords: [
       'como abrir uma loja de imprimíveis no Etsy',
       'configurar loja Etsy imprimíveis do zero',

@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de caça-palavras',
+    primaryKeyword: 'gerador caça-palavras',
     secondaryKeywords: [
       'criar fichas de caça-palavras imprimíveis para vender',
       'gerador de caça-palavras para vendedores',

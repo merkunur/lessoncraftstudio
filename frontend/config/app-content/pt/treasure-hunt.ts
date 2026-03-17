@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas caça ao tesouro',
+    primaryKeyword: 'gerador caça ao tesouro',
     secondaryKeywords: [
       'fichas de caça ao tesouro imprimíveis para vendedores Etsy',
       'gerador de puzzles direcionais para editores Amazon KDP',
@@ -128,7 +128,7 @@ const content: AppContent = {
       {
         title: 'Coleções Sazonais de Caça ao Tesouro',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de caça ao tesouro de tempo limitado que se alinhem com os períodos de maior procura. Lance caças ao tesouro de Halloween em setembro, coleções de Natal em outubro e packs do Dia dos Namorados em janeiro. Inclua ambos os tipos de direção Básico e Cardinal em cada conjunto sazonal para máximo valor. Os produtos sazonais atingem preços mais altos durante as suas janelas de pico e criam razões naturais para compras recorrentes.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de caça ao tesouro sazonais que se alinhem com os períodos de maior procura. Lance caças ao tesouro de Halloween em setembro, coleções de Natal em outubro e packs do Dia dos Namorados em janeiro. Inclua ambos os tipos de direção Básico e Cardinal em cada conjunto sazonal para máximo valor. Os produtos sazonais atingem preços mais altos durante as suas janelas de pico e criam razões naturais para compras recorrentes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
     ],

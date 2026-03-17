@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de padrões em grelha',
+    primaryKeyword: 'gerador fichas de padrões',
     secondaryKeywords: [
       'gerador de fichas de padrões imprimíveis para vendedores Etsy',
       'criador de fichas de reconhecimento de sequências para Amazon KDP',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de trem do alfabeto',
+    primaryKeyword: 'gerador trem do alfabeto',
     secondaryKeywords: [
       'fichas de trem do alfabeto imprimíveis para Etsy',
       'gerador de fichas de reconhecimento de letras para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Trem do Alfabeto | Fichas de Letras',
     metaDescription:
-      'Crie fichas de trem do alfabeto para vender na Etsy, KDP e TPT. Vagões com letras e imagens, 11 idiomas, 104 temas. Teste grátis com marca d\'água.',
+      'Crie fichas de trem do alfabeto para vender na Etsy, KDP e TPT. Vagões com letras e imagens, 11 idiomas, 104 temas em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {

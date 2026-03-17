@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de grafomotricidade',
+    primaryKeyword: 'gerador fichas grafomotricidade',
     secondaryKeywords: [
       'gerador de fichas de traçar linhas imprimíveis para vendedores Etsy',
       'criador de fichas de grafomotricidade para editores Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Grafomotricidade | Criar e Vender',
     metaDescription:
-      'Crie fichas de grafomotricidade para Etsy, KDP e TPT. Oito modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d\'água.',
+      'Crie fichas de grafomotricidade para Etsy, KDP e TPT. Modelos de linhas SVG, emparelhamento de imagens, 104 coleções temáticas. Teste grátis com marca d\'água.',
   },
 
   hero: {

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Transportes — Guia de Nicho',
     metaDescription: 'Ideias lucrativas de imprimíveis de transportes para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos temáticos de veículos e dicas para o nicho.',
 
-    primaryKeyword: 'ideias imprimíveis transportes',
+    primaryKeyword: 'ideias de imprimíveis de transportes',
     secondaryKeywords: [
       'fichas temática transportes para vender',
       'negócio imprimíveis veículos',

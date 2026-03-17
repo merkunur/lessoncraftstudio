@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'criador de fichas do intruso para vender',
+    primaryKeyword: 'criador fichas do intruso',
     secondaryKeywords: [
       'gerador de puzzles encontre o diferente para Etsy e KDP',
       'criador de fichas de discriminação visual uso comercial',

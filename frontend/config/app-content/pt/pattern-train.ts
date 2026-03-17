@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas trem de padrões',
+    primaryKeyword: 'gerador fichas trem de padrões',
     secondaryKeywords: [
       'gerador de fichas trem de sequências repetitivas para vendedores Etsy',
       'criador de fichas trem de padrões personalizadas para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Trem de Padrões | Criar e Vender',
     metaDescription:
-      'Crie fichas trem de padrões para Etsy, KDP e TPT. Cinco tipos de padrões, 11 vagões temáticos, pistas ajustáveis. Teste grátis com marca d\'água.',
+      'Crie fichas de trem de padrões para vender na Etsy, KDP e TPT. Cinco tipos de padrões, 11 vagões temáticos, pistas ajustáveis. Teste grátis com marca d\'água.',
   },
 
   hero: {

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Culinária — Guia de Nicho',
     metaDescription: 'Ideias lucrativas de imprimíveis de culinária e alimentação para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos temáticos de comida e estratégias.',
 
-    primaryKeyword: 'ideias imprimíveis culinária alimentação',
+    primaryKeyword: 'ideias de imprimíveis de culinária',
     secondaryKeywords: [
       'fichas temática comida para vender',
       'negócio imprimíveis temática culinária',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias Imprimíveis Impressão Sob Demanda — Guia',
     metaDescription: 'Ideias de fichas de impressão sob demanda para vendedores de Etsy, KDP e Shopify. Constrói um negócio de imprimíveis sem inventário com cadernos e pacotes.',
 
-    primaryKeyword: 'ideias fichas impressão sob demanda',
+    primaryKeyword: 'ideias imprimíveis impressão sob demanda',
     secondaryKeywords: [
       'negócio imprimíveis POD ideias',
       'produtos educativos impressão sob demanda',

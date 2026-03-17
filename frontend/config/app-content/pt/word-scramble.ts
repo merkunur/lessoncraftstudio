@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de palavras embaralhadas',
+    primaryKeyword: 'gerador fichas palavras embaralhadas',
     secondaryKeywords: [
       'fichas de palavras embaralhadas imprimíveis para vendedores Etsy',
       'gerador de puzzles de reorganização de letras para Amazon KDP',

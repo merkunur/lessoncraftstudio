@@ -4,7 +4,7 @@ const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias de Imprimíveis de Música — Guia de Nicho',
     metaDescription: 'Descobre ideias de imprimíveis de música para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos com temática musical, estratégias por plataforma.',
-    primaryKeyword: 'ideias imprimíveis música',
+    primaryKeyword: 'ideias de imprimíveis de música',
     secondaryKeywords: [
       'fichas temáticas musicais para vender',
       'negócio imprimíveis temática musical',

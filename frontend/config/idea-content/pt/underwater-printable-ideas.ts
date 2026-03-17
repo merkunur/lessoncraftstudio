@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Submarinos — Guia de Nicho',
     metaDescription: 'Descobre ideias de imprimíveis submarinos para vender no Etsy, Amazon KDP e TPT. Produtos oceânicos, fichas de vida marinha e dicas de nicho para vendedores.',
 
-    primaryKeyword: 'ideias imprimíveis submarinos',
+    primaryKeyword: 'ideias de imprimíveis submarinos',
     secondaryKeywords: [
       'fichas submarinas para vender',
       'negócio imprimíveis temática aquática',

@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Halloween para Vender — Guia',
     metaDescription: 'Descubra ideias de imprimíveis de Halloween para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos assustadores, estratégias sazonais e dicas práticas.',
 
-    primaryKeyword: 'ideias imprimíveis halloween',
+    primaryKeyword: 'ideias de imprimíveis de halloween para vender',
     secondaryKeywords: [
       'fichas de Halloween para vender',
       'negócio imprimíveis Halloween',

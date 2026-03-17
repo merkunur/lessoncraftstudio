@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de discriminação visual',
+    primaryKeyword: 'gerador discriminação visual',
     secondaryKeywords: [
       'criador de fichas de associação de sombras para vendedores',
       'criar fichas de siluetas para vender uso comercial',

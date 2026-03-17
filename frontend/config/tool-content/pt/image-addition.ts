@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de fichas de adição',
+    primaryKeyword: 'gerador fichas de adição',
     secondaryKeywords: [
       'criar fichas de adição online',
       'fichas de adição imprimíveis com imagens',

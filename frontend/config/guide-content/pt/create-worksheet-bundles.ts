@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'criar pacotes fichas exercícios que vendam',
+    primaryKeyword: 'criar pacotes de fichas que vendam',
     secondaryKeywords: [
       'estratégia pacotes fichas exercícios',
       'criação pacotes imprimíveis',

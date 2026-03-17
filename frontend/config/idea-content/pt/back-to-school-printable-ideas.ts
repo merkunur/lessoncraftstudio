@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis Regresso às Aulas — Guia',
     metaDescription: 'Ideias de imprimíveis de regresso às aulas para vender no Etsy, Amazon KDP e TPT. Produtos escolares, estratégias julho-setembro e dicas por plataforma.',
 
-    primaryKeyword: 'ideias imprimíveis regresso às aulas',
+    primaryKeyword: 'ideias de imprimíveis regresso às aulas',
     secondaryKeywords: [
       'fichas regresso às aulas para vender',
       'negócio imprimíveis regresso às aulas',

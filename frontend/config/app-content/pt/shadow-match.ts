@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de associação de sombras',
+    primaryKeyword: 'gerador fichas associação sombras',
     secondaryKeywords: [
       'gerador de fichas de associação de sombras para vendedores Etsy',
       'criador de puzzles de siluetas imprimíveis para editores Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Associação Sombras | Siluetas',
     metaDescription:
-      'Crie fichas de associação de sombras para Etsy, KDP e TPT. Modos Sombra e Complete a Imagem, siluetas auto, 104 temas. Teste grátis com marca d\'água.',
+      'Crie fichas de associação de sombras para Etsy, KDP e TPT. Modos Sombra e Complete a Imagem, siluetas auto, 104 temas em PDF. Teste grátis com marca d\'água.',
   },
 
   hero: {
@@ -127,7 +127,7 @@ const content: AppContent = {
       {
         title: 'Coleções de Associação de Sombras Sazonais',
         description:
-          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. As atividades de siluetas têm um apelo especial durante o Halloween quando os temas de sombras e mistério são naturalmente populares. Crie coleções de associação de sombras por tempo limitado alinhadas com os picos de compra. Inclua fichas de Associação de Sombras e Complete a Imagem em cada conjunto sazonal para máximo valor e variedade. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura.',
+          'As 104 coleções de imagens temáticas cobrem cada ocasião sazonal e festiva — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. As atividades de siluetas têm um apelo especial durante o Halloween quando os temas de sombras e mistério são naturalmente populares. Crie coleções de associação de sombras por época alinhadas com os picos de compra. Inclua fichas de Associação de Sombras e Complete a Imagem em cada conjunto sazonal para máximo valor e variedade. Os produtos sazonais alcançam preços mais altos durante as suas janelas de máxima procura.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
       {

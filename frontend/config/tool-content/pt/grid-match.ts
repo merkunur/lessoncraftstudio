@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de puzzle de quadrícula',
+    primaryKeyword: 'gerador puzzle de quadrícula',
     secondaryKeywords: [
       'criador de fichas de puzzles de quadrícula para vendedores',
       'criar puzzles de quadrícula para vender uso comercial',

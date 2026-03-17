@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Insetos — Guia de Nicho',
     metaDescription: 'Ideias rentáveis de imprimíveis com temática de insetos para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos de bichos e borboletas, estratégias.',
 
-    primaryKeyword: 'ideias imprimíveis insetos',
+    primaryKeyword: 'ideias de imprimíveis de insetos',
     secondaryKeywords: [
       'fichas temática insetos para vender',
       'negócio imprimíveis bichos',

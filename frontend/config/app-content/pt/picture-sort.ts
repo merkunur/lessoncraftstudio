@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'criar e vender fichas de classificação de imagens',
+    primaryKeyword: 'gerador fichas classificação imagens',
     secondaryKeywords: [
       'gerador de fichas de classificação a duas categorias para vendedores Etsy',
       'criador de atividades de classificação de imagens para editores Amazon KDP',

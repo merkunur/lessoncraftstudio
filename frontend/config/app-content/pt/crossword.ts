@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gerador de palavras cruzadas com imagens',
+    primaryKeyword: 'gerador palavras cruzadas com imagens',
     secondaryKeywords: [
       'palavras cruzadas ilustradas imprimíveis para vendedores Etsy',
       'gerador de palavras cruzadas com pistas visuais para Amazon KDP',
@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Palavras Cruzadas com Imagens | Criar e Vender',
     metaDescription:
-      'Crie palavras cruzadas com imagens para Etsy, KDP e TPT. Pistas visuais em grelha 15×15, 4 métodos, gabarito auto. Teste grátis com marca d\'água.',
+      'Crie palavras cruzadas com imagens para vender na Etsy, KDP e TPT. Pistas visuais em grelha 15×15, 4 métodos, gabarito auto. Teste grátis com marca d\'água.',
   },
 
   hero: {
@@ -128,7 +128,7 @@ const content: AppContent = {
       {
         title: 'Coleções de Palavras Cruzadas com Imagens Sazonais',
         description:
-          'As 104 coleções temáticas de imagens cobrem todas as ocasiões sazonais e festivas — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de palavras cruzadas com imagens de tempo limitado alinhadas com os períodos de maior venda. Lance pacotes de palavras cruzadas de Halloween em setembro, coleções de Natal em outubro e pacotes de Dia dos Namorados em janeiro. A natureza visual das palavras cruzadas com imagens torna os temas sazonais particularmente atrativos — imagens festivas como pistas criam um apelo sazonal imediato. Os produtos sazonais têm preços mais altos durante os seus períodos de pico e geram compras recorrentes.',
+          'As 104 coleções temáticas de imagens cobrem todas as ocasiões sazonais e festivas — Natal, Halloween, Páscoa, Dia dos Namorados, regresso às aulas, férias de verão e mais. Crie coleções de palavras cruzadas com imagens sazonais alinhadas com os períodos de maior venda. Lance pacotes de palavras cruzadas de Halloween em setembro, coleções de Natal em outubro e pacotes de Dia dos Namorados em janeiro. A natureza visual das palavras cruzadas com imagens torna os temas sazonais particularmente atrativos — imagens festivas como pistas criam um apelo sazonal imediato. Os produtos sazonais têm preços mais altos durante os seus períodos de pico e geram compras recorrentes.',
         platform: 'Etsy / Amazon KDP / TPT (sazonal)',
       },
     ],

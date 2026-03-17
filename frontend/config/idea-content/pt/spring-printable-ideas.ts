@@ -5,7 +5,7 @@ const content: IdeaContent = {
     titleTag: 'Ideias de Imprimíveis de Primavera — Guia de Nicho',
     metaDescription: 'Descobre ideias de imprimíveis de primavera para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos sazonais, estratégias de março a maio e dicas úteis.',
 
-    primaryKeyword: 'ideias imprimíveis primavera',
+    primaryKeyword: 'ideias de imprimíveis de primavera',
     secondaryKeywords: [
       'fichas temática primavera para vender',
       'negócio imprimíveis primavera',

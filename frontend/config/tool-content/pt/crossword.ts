@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador palavras cruzadas com imagens imprimíveis',
+    primaryKeyword: 'gerador palavras cruzadas com imagens',
     secondaryKeywords: [
       'ferramenta palavras cruzadas ilustradas para vendedores Etsy KDP',
       'gerador palavras cruzadas com pistas visuais licença comercial',

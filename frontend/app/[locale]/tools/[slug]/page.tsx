@@ -230,12 +230,12 @@ export default async function ToolPage({
     schemas.push({
       "@context": "https://schema.org",
       "@type": "HowTo",
-      "name": content.tutorial.heading || `How to use ${localizedName}`,
-      "step": content.tutorial.steps.map((s: { heading: string; content: string }, i: number) => ({
+      "name": content.tutorial.title || `How to use ${localizedName}`,
+      "step": content.tutorial.steps.map((s: { title: string; description: string }, i: number) => ({
         "@type": "HowToStep",
         "position": i + 1,
-        "name": s.heading,
-        "text": s.content,
+        "name": s.title,
+        "text": s.description,
       })),
     });
   }

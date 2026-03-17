@@ -138,6 +138,8 @@ echo ""
 echo "🧹 Cleaning stale .next/standalone to prevent build hang..."
 rm -rf .next/standalone
 echo "🔨 Building Next.js application..."
+export BUILD_DATE=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+echo "   BUILD_DATE=${BUILD_DATE}"
 timeout 900 npm run build || { echo "BUILD TIMED OUT after 15 minutes — likely symlink bloat. Aborting."; exit 1; }
 
 # 4. CRITICAL: Stage new release in separate directory (zero-downtime)
@@ -400,6 +402,9 @@ else
   echo "  No published blog posts found - skipping post cache warming"
 fi
 
+echo ""
+echo "📡 Pinging Google with updated sitemap..."
+curl -s "https://www.google.com/ping?sitemap=https://www.lessoncraftstudio.com/sitemap.xml" > /dev/null 2>&1 || true
 echo ""
 echo "Deployment complete!"
 echo ""

@@ -12,8 +12,8 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
 
-// Fixed date for static/config-derived pages
-const STATIC_CONTENT_DATE = new Date('2026-02-27');
+// Dynamic date from build environment, falls back to static date
+const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-02-27');
 
 /**
  * Eight sitemaps:

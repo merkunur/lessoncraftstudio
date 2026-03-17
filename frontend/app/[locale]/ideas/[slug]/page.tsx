@@ -225,7 +225,7 @@ export default async function IdeaPage({
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
-            <p className="text-lg text-gray-600">{content.hero.description}</p>
+            <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600" lines={5} />
           </div>
         </section>
 

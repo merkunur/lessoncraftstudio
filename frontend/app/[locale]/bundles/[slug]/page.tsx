@@ -160,7 +160,7 @@ export default async function BundlePage({
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
-            <p className="text-lg text-gray-600 mb-8">{content.hero.description}</p>
+            <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600 mb-8" lines={5} />
 
             {/* Hero Image */}
             {content.visuals?.heroImages?.primary && (

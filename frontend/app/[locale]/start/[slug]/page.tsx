@@ -143,7 +143,7 @@ export default async function CornerstonePage({
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
-            <p className="text-lg text-gray-600">{content.hero.description}</p>
+            <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600" lines={5} />
 
             {/* Hero Image */}
             {content.visuals?.heroImage?.src && (
@@ -358,7 +358,7 @@ export default async function CornerstonePage({
                     className="p-4 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
                   >
                     <h3 className="font-semibold text-gray-900">{ns.title}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{ns.description}</p>
+                    <ReadMoreText text={ns.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </Link>
                 ))}
               </div>

@@ -9,6 +9,20 @@ import { getGuideContent } from '@/config/guide-content';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
+const guidesKeywords: Record<string, string[]> = {
+  en: ['printable business guides', 'how to sell worksheets', 'Etsy printable tutorial', 'KDP publishing guide', 'create and sell printables', 'printable seller tips'],
+  de: ['Druckvorlagen-Business Anleitungen', 'Arbeitsblätter verkaufen', 'Etsy Druckvorlagen Tutorial', 'KDP Veröffentlichungsanleitung', 'Druckvorlagen erstellen und verkaufen', 'Tipps für Druckvorlagen-Verkäufer'],
+  fr: ['guides business imprimables', 'comment vendre des fiches', 'tutoriel Etsy imprimables', 'guide publication KDP', 'créer et vendre imprimables', 'conseils vendeur imprimables'],
+  es: ['guías negocio imprimibles', 'cómo vender fichas', 'tutorial Etsy imprimibles', 'guía publicación KDP', 'crear y vender imprimibles', 'consejos vendedor imprimibles'],
+  pt: ['guias negócio imprimíveis', 'como vender fichas', 'tutorial Etsy imprimíveis', 'guia publicação KDP', 'criar e vender imprimíveis', 'dicas vendedor imprimíveis'],
+  it: ['guide business stampabili', 'come vendere schede', 'tutorial Etsy stampabili', 'guida pubblicazione KDP', 'creare e vendere stampabili', 'consigli venditore stampabili'],
+  nl: ['printable business handleidingen', 'werkbladen verkopen', 'Etsy printable tutorial', 'KDP publicatiegids', 'printables maken en verkopen', 'tips printable verkoper'],
+  sv: ['guider utskriftsföretag', 'sälja arbetsblad', 'Etsy utskrifts tutorial', 'KDP publiceringsguide', 'skapa och sälja utskrifter', 'tips utskriftssäljare'],
+  da: ['vejledninger printable-forretning', 'sælge opgaver', 'Etsy printable tutorial', 'KDP udgivelsesguide', 'oprette og sælge printables', 'tips printable-sælger'],
+  no: ['veiledninger utskriftsvirksomhet', 'selge oppgaver', 'Etsy utskrift tutorial', 'KDP publiseringsguide', 'lage og selge utskrifter', 'tips utskriftsselger'],
+  fi: ['tulostettavien yritysoppaat', 'myydä tehtäviä', 'Etsy tulostettava opas', 'KDP julkaisuopas', 'luoda ja myydä tulostettavia', 'vinkkejä tulostettavien myyjälle'],
+};
+
 // Subcategories for guides
 const guideSubcategories = [
   {
@@ -249,6 +263,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    keywords: guidesKeywords[locale] || guidesKeywords.en,
     alternates: {
       canonical: `${baseUrl}/${locale}/guides`,
       languages: alternates,
@@ -260,6 +275,7 @@ export async function generateMetadata({
       url: `${baseUrl}/${locale}/guides`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
     },
   };
 }
@@ -284,8 +300,18 @@ export default async function GuidesListingPage({
     }
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: content.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-emerald-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

@@ -21,6 +21,20 @@ const toolToWpApp: Record<string, string> = {
   'writing-app': 'writing',
 };
 
+const toolsKeywords: Record<string, string[]> = {
+  en: ['free printable generators', 'online worksheet maker', 'try printable tools free', 'word search generator free', 'math worksheet generator', 'coloring page maker online'],
+  de: ['kostenlose Druckvorlagen-Generatoren', 'Online-Arbeitsblatt-Ersteller', 'Druckvorlagen-Tools gratis testen', 'Wortsuche-Generator kostenlos', 'Mathe-Arbeitsblatt-Generator', 'Ausmalbilder-Ersteller online'],
+  fr: ['générateurs imprimables gratuits', 'créateur de fiches en ligne', 'outils imprimables essai gratuit', 'générateur mots cachés gratuit', 'générateur fiches maths', 'créateur coloriages en ligne'],
+  es: ['generadores imprimibles gratis', 'creador de fichas online', 'herramientas imprimibles prueba gratis', 'generador sopa de letras gratis', 'generador fichas matemáticas', 'creador colorear online'],
+  pt: ['geradores imprimíveis grátis', 'criador de fichas online', 'ferramentas imprimíveis teste grátis', 'gerador caça-palavras grátis', 'gerador fichas matemática', 'criador colorir online'],
+  it: ['generatori stampabili gratis', 'creatore schede online', 'strumenti stampabili prova gratis', 'generatore cerca parole gratis', 'generatore schede matematica', 'creatore disegni colorare online'],
+  nl: ['gratis printbare generatoren', 'online werkbladmaker', 'printable tools gratis proberen', 'woordzoeker generator gratis', 'rekenwerkblad generator', 'kleurplaat maker online'],
+  sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
+  da: ['gratis printbare generatorer', 'online opgaveskaber', 'printable-værktøjer prøv gratis', 'ordsøgningsgenerator gratis', 'matematikopgave-generator', 'malebilledskaber online'],
+  no: ['gratis utskriftsgeneratorer', 'online oppgaveskaper', 'utskriftsverktøy prøv gratis', 'ordsøkgenerator gratis', 'matteoppgave-generator', 'fargeleggingsskaper online'],
+  fi: ['ilmaiset tulostettavat generaattorit', 'online tehtävägeneraattori', 'tulostettavat työkalut kokeile ilmaiseksi', 'sanaristikkogeneraattori ilmainen', 'matematiikkatehtävägeneraattori', 'värityskuvageneraattori online'],
+};
+
 const toolsMetadata: Record<string, { title: string; description: string }> = {
   en: {
     title: 'Free Printable Generators | Try All 33 Tools | LessonCraftStudio',
@@ -237,6 +251,7 @@ export async function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
+    keywords: toolsKeywords[locale] || toolsKeywords.en,
     alternates: {
       canonical: `${baseUrl}/${locale}/tools`,
       languages: alternates,
@@ -278,8 +293,18 @@ export default function ToolsListingPage({
     toolsByCategory[category].push({ toolId: tool.toolId, name, slug });
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: content.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

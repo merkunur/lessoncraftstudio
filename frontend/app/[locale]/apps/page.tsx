@@ -403,9 +403,19 @@ export default async function AppsPage({ params }: PageProps) {
   });
   const itemListSchema = generateAppsItemListSchema(locale, appsForSchema);
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: content.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* JSON-LD Structured Data */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 

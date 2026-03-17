@@ -9,6 +9,20 @@ import { getBundleContent } from '@/config/bundle-content';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
+const bundlesKeywords: Record<string, string[]> = {
+  en: ['printable bundles', 'worksheet bundle deal', 'Etsy printable packs', 'KDP activity book bundle', 'commercial license bundle', 'printable category pack'],
+  de: ['Druckvorlagen-Pakete', 'Arbeitsblatt-Bundle', 'Etsy Druckvorlagen-Pack', 'KDP Aktivitätsbuch-Paket', 'kommerzielle Lizenz Paket', 'Kategorie-Paket'],
+  fr: ['packs imprimables', 'lot de fiches', 'packs Etsy imprimables', 'lot livres activités KDP', 'licence commerciale pack', 'pack par catégorie'],
+  es: ['packs de imprimibles', 'lote de fichas', 'packs Etsy imprimibles', 'lote libros actividades KDP', 'licencia comercial pack', 'pack por categoría'],
+  pt: ['pacotes de imprimíveis', 'lote de fichas', 'pacotes Etsy imprimíveis', 'lote livros atividades KDP', 'licença comercial pacote', 'pacote por categoria'],
+  it: ['pacchetti stampabili', 'bundle di schede', 'pacchetti Etsy stampabili', 'bundle libri attività KDP', 'licenza commerciale pacchetto', 'pacchetto per categoria'],
+  nl: ['printable bundels', 'werkbladbundel', 'Etsy printable pakketten', 'KDP activiteitenboek bundel', 'commerciële licentie pakket', 'categoriepakket'],
+  sv: ['utskriftspaket', 'arbetsbladspaket', 'Etsy utskriftspaket', 'KDP aktivitetsbokspaket', 'kommersiell licens paket', 'kategoripaket'],
+  da: ['printbare pakker', 'opgavepakke', 'Etsy printable pakker', 'KDP aktivitetsbogspakke', 'kommerciel licens pakke', 'kategoripakke'],
+  no: ['utskriftspakker', 'oppgavepakke', 'Etsy utskriftspakker', 'KDP aktivitetsbokpakke', 'kommersiell lisens pakke', 'kategoripakke'],
+  fi: ['tulostettavat paketit', 'tehtäväpaketti', 'Etsy tulostettavat paketit', 'KDP aktiviteettikirjapaketti', 'kaupallinen lisenssi paketti', 'kategoriapaketti'],
+};
+
 const bundleInfo: Record<string, { categoryId: string }> = {
   'math-bundle': { categoryId: 'math' },
   'literacy-bundle': { categoryId: 'literacy' },
@@ -177,6 +191,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    keywords: bundlesKeywords[locale] || bundlesKeywords.en,
     alternates: {
       canonical: `${baseUrl}/${locale}/bundles`,
       languages: alternates,
@@ -188,6 +203,7 @@ export async function generateMetadata({
       url: `${baseUrl}/${locale}/bundles`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
     },
   };
 }
@@ -212,8 +228,18 @@ export default async function BundlesListingPage({
     }
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: t.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

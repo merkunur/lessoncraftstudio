@@ -8,6 +8,20 @@ import type { SupportedLocale } from '@/config/product-page-slugs';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
+const startKeywords: Record<string, string[]> = {
+  en: ['start printable business', 'printable business for beginners', 'how to sell printables', 'Etsy seller guide', 'KDP beginner guide', 'passive income printables'],
+  de: ['Druckvorlagen-Geschäft starten', 'Druckvorlagen-Business für Anfänger', 'Druckvorlagen verkaufen', 'Etsy Verkäufer Leitfaden', 'KDP Anfänger Anleitung', 'passives Einkommen Druckvorlagen'],
+  fr: ['lancer business imprimables', 'business imprimables débutants', 'comment vendre imprimables', 'guide vendeur Etsy', 'guide débutant KDP', 'revenus passifs imprimables'],
+  es: ['iniciar negocio imprimibles', 'negocio imprimibles principiantes', 'cómo vender imprimibles', 'guía vendedor Etsy', 'guía principiante KDP', 'ingresos pasivos imprimibles'],
+  pt: ['iniciar negócio imprimíveis', 'negócio imprimíveis iniciantes', 'como vender imprimíveis', 'guia vendedor Etsy', 'guia iniciante KDP', 'renda passiva imprimíveis'],
+  it: ['avviare business stampabili', 'business stampabili principianti', 'come vendere stampabili', 'guida venditore Etsy', 'guida principiante KDP', 'reddito passivo stampabili'],
+  nl: ['printable bedrijf starten', 'printable business voor beginners', 'printables verkopen', 'Etsy verkopersgids', 'KDP beginnersgids', 'passief inkomen printables'],
+  sv: ['starta utskriftsföretag', 'utskriftsföretag nybörjare', 'sälja utskrifter', 'Etsy säljarguide', 'KDP nybörjarguide', 'passiv inkomst utskrifter'],
+  da: ['starte printable-forretning', 'printable-forretning begyndere', 'sælge printables', 'Etsy sælgerguide', 'KDP begynderguide', 'passiv indkomst printables'],
+  no: ['starte utskriftsvirksomhet', 'utskriftsvirksomhet nybegynnere', 'selge utskrifter', 'Etsy selgerguide', 'KDP nybegynnerguide', 'passiv inntekt utskrifter'],
+  fi: ['aloita tulostettavien yritys', 'tulostettavien yritys aloittelijoille', 'myydä tulostettavia', 'Etsy myyjäopas', 'KDP aloittelijan opas', 'passiivinen tulo tulostettavat'],
+};
+
 const startPageContent: Record<string, {
   heroTitle: string;
   heroDescription: string;
@@ -157,6 +171,7 @@ export async function generateMetadata({
   return {
     title: t.metaTitle,
     description: t.metaDescription,
+    keywords: startKeywords[locale] || startKeywords.en,
     alternates: {
       canonical: `${baseUrl}/${locale}/start`,
       languages: alternates,
@@ -168,6 +183,7 @@ export async function generateMetadata({
       url: `${baseUrl}/${locale}/start`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
     },
   };
 }
@@ -194,8 +210,18 @@ export default async function StartListingPage({
     })
   );
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: t.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

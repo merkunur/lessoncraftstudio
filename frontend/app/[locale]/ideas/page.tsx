@@ -8,6 +8,20 @@ import { getSectionLabel } from '@/config/section-labels';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
+const ideasKeywords: Record<string, string[]> = {
+  en: ['printable niche ideas', 'profitable printable niches', 'Etsy niche research', 'KDP niche ideas', 'what printables sell best', 'printable business ideas'],
+  de: ['Druckvorlagen-Nischen-Ideen', 'profitable Druckvorlagen-Nischen', 'Etsy Nischenrecherche', 'KDP Nischen-Ideen', 'welche Druckvorlagen verkaufen sich am besten', 'Druckvorlagen-Geschäftsideen'],
+  fr: ['idées de niches imprimables', 'niches imprimables rentables', 'recherche de niche Etsy', 'idées niche KDP', 'quels imprimables se vendent le mieux', 'idées business imprimables'],
+  es: ['ideas de nichos imprimibles', 'nichos imprimibles rentables', 'investigación de nicho Etsy', 'ideas nicho KDP', 'qué imprimibles se venden mejor', 'ideas negocio imprimibles'],
+  pt: ['ideias de nichos imprimíveis', 'nichos imprimíveis rentáveis', 'pesquisa de nicho Etsy', 'ideias nicho KDP', 'quais imprimíveis vendem melhor', 'ideias negócio imprimíveis'],
+  it: ['idee di nicchia stampabili', 'nicchie stampabili redditizie', 'ricerca di nicchia Etsy', 'idee nicchia KDP', 'quali stampabili si vendono meglio', 'idee business stampabili'],
+  nl: ['printable niche-ideeën', 'winstgevende printable niches', 'Etsy niche-onderzoek', 'KDP niche-ideeën', 'welke printables verkopen het best', 'printable bedrijfsideeën'],
+  sv: ['nischidéer utskrifter', 'lönsamma utskriftsnischer', 'Etsy nischforskning', 'KDP nischidéer', 'vilka utskrifter säljer bäst', 'utskriftsföretagsidéer'],
+  da: ['niche-ideer printables', 'profitable printable-nicher', 'Etsy nicheforskning', 'KDP niche-ideer', 'hvilke printables sælger bedst', 'printable forretningsideer'],
+  no: ['nisjeideer utskrifter', 'lønnsomme utskriftsnisjer', 'Etsy nisjeforskning', 'KDP nisjeideer', 'hvilke utskrifter selger best', 'utskriftsvirksomhetsideer'],
+  fi: ['niche-ideat tulostettavat', 'kannattavat tulostettavien nichet', 'Etsy niche-tutkimus', 'KDP niche-ideat', 'mitkä tulostettavat myyvät parhaiten', 'tulostettavien liiketoimintaideat'],
+};
+
 // Localized page content
 const ideasContent: Record<string, {
   heroTitle: string;
@@ -800,6 +814,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    keywords: ideasKeywords[locale] || ideasKeywords.en,
     alternates: {
       canonical: `${baseUrl}/${locale}/ideas`,
       languages: alternates,
@@ -811,6 +826,7 @@ export async function generateMetadata({
       url: `${baseUrl}/${locale}/ideas`,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
     },
   };
 }
@@ -824,8 +840,18 @@ export default function IdeasListingPage({
   const content = ideasContent[locale] || ideasContent.en;
   const displayNames = ideaDisplayNames[locale] || ideaDisplayNames.en;
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://www.lessoncraftstudio.com/${locale}` },
+      { '@type': 'ListItem', position: 2, name: content.heroTitle },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-amber-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

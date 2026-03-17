@@ -225,6 +225,21 @@ export default async function ToolPage({
     });
   }
 
+  // HowTo schema (from tutorial steps)
+  if (content?.tutorial?.steps && content.tutorial.steps.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": content.tutorial.heading || `How to use ${localizedName}`,
+      "step": content.tutorial.steps.map((s: { heading: string; content: string }, i: number) => ({
+        "@type": "HowToStep",
+        "position": i + 1,
+        "name": s.heading,
+        "text": s.content,
+      })),
+    });
+  }
+
   // If enriched content exists, render full page
   if (content) {
     return (

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   getStartConfigBySlug,
   getAllStartPageSlugs,
@@ -49,9 +50,14 @@ export async function generateMetadata({
     const title = content?.seo?.titleTag || `${config.startId} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || '';
 
+    const keywords = content?.seo?.primaryKeyword
+      ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
+      : undefined;
+
     return {
       title,
       description,
+      keywords,
       alternates: {
         canonical: `${baseUrl}/${locale}/start/${localeSlug || slug}`,
         languages: alternateUrls,
@@ -63,6 +69,7 @@ export async function generateMetadata({
         url: `${baseUrl}/${locale}/start/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
       robots: content ? undefined : { index: false },
     };
@@ -122,6 +129,21 @@ export default async function CornerstonePage({
     };
 
     const schemas: object[] = [articleSchema, breadcrumbSchema];
+    if (content.actionSteps?.length) {
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        '@id': `${pageUrl}#howto`,
+        name: content.hero.title,
+        description: content.hero.description,
+        step: content.actionSteps.map((s, i) => ({
+          '@type': 'HowToStep',
+          position: i + 1,
+          name: s.step,
+          text: s.description,
+        })),
+      });
+    }
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }

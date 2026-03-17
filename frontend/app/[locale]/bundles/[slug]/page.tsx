@@ -63,9 +63,14 @@ export async function generateMetadata({
     const title = content?.seo?.titleTag || `${name} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || `Get the ${name} with all generators included.`;
 
+    const keywords = content?.seo?.primaryKeyword
+      ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
+      : undefined;
+
     return {
       title,
       description,
+      keywords,
       alternates: {
         canonical: `${baseUrl}/${locale}/bundles/${localeSlug || slug}`,
         languages: alternateUrls,
@@ -77,6 +82,7 @@ export async function generateMetadata({
         url: `${baseUrl}/${locale}/bundles/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
       robots: content ? undefined : { index: false },
     };

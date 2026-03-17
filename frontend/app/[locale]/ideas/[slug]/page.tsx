@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   getIdeaConfigBySlug,
   getAllIdeaPageSlugs,
@@ -131,9 +132,14 @@ export async function generateMetadata({
     const title = content?.seo?.titleTag || `${config.ideaId} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || '';
 
+    const keywords = content?.seo?.primaryKeyword
+      ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
+      : undefined;
+
     return {
       title,
       description,
+      keywords,
       alternates: {
         canonical: `${baseUrl}/${locale}/ideas/${localeSlug || slug}`,
         languages: alternateUrls,
@@ -145,6 +151,7 @@ export async function generateMetadata({
         url: `${baseUrl}/${locale}/ideas/${localeSlug || slug}`,
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
+        alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
       robots: content ? undefined : { index: false },
     };

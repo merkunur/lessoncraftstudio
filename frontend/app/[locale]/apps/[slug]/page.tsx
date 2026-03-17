@@ -17,6 +17,7 @@ import { getAppContent, getCategoryAudience } from '@/config/app-content';
 import type { AppContent } from '@/config/app-content';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
+import Breadcrumb from '@/components/Breadcrumb';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
 import {
@@ -766,6 +767,11 @@ export default async function AppDetailPage({
           <section className="bg-white border-b">
             <div className="container mx-auto px-4 py-12 md:py-16">
               <div className="max-w-4xl mx-auto">
+                <Breadcrumb items={[
+                  { label: localizedHomeLabel[locale] || 'Home', href: `/${locale}` },
+                  { label: localizedAppsLabel[locale] || 'Apps', href: `/${locale}/apps` },
+                  { label: localizedName },
+                ]} />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                   <div>
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium mb-4" style={{ backgroundColor: `${categoryData.color}15`, color: categoryData.color }}>
@@ -905,7 +911,7 @@ export default async function AppDetailPage({
                   {content.visuals.sampleGallery.map((img, i) => (
                     <div key={i} className="rounded-lg overflow-hidden shadow-sm border border-gray-200">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={encodeImagePath(img.src)} alt={img.alt} className="w-full h-auto" loading="lazy" />
+                      <img src={encodeImagePath(img.src)} alt={img.alt} width={400} height={566} className="w-full h-auto" loading="lazy" />
                       {img.caption && (
                         <p className="text-xs text-gray-500 p-2 text-center">{img.caption}</p>
                       )}

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { exchangeCodeForTokens, getUserEmail } from '@/lib/gmail';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/auth/gmail/callback - Handle Gmail OAuth callback
 export async function GET(request: NextRequest) {
   try {

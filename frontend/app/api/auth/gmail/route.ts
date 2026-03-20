@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getGmailAuthUrl } from '@/lib/gmail';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/auth/gmail - Initiate Gmail OAuth flow
 export async function GET(request: NextRequest) {
   try {

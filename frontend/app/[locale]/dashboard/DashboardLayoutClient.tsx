@@ -59,7 +59,7 @@ export default function DashboardLayoutClient({
         const billingInterval = checkoutBilling === 'yearly' ? 'yearly' : 'monthly';
         const baseUrl = window.location.origin;
         const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
-        const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
+        const cancelUrl = `${baseUrl}/${locale}/apps`;
 
         fetch('/api/stripe/checkout', {
           method: 'POST',

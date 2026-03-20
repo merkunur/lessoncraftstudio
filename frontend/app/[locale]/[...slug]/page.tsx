@@ -70,7 +70,7 @@ export default async function StaticPage({ params }: PageProps) {
     .replace(/src="\/css\//g, 'src="/css/')
     // Update language links
     .replace(/href="\/([a-z]{2})\/pages\//g, 'href="/static/$1/')
-    .replace(/href="\/([a-z]{2})\/blog\//g, 'href="/static/$1/blog/');
+;
 
   return (
     <div dangerouslySetInnerHTML={{ __html: htmlContent }} />

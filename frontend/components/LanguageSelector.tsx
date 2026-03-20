@@ -41,31 +41,7 @@ export function LanguageSelector() {
   }, []);
 
   const handleLocaleChange = async (newLocale: string) => {
-    // Check if we're on a blog post page
-    const isBlogPost = pathSegments[2] === 'blog' && pathSegments[3];
-
-    if (isBlogPost) {
-      const currentSlug = pathSegments[3];
-
-      try {
-        // Use lightweight slugs API (much faster than full post API)
-        const response = await fetch(`/api/blog/slugs/${currentSlug}?locale=${currentLocale}`);
-
-        if (response.ok) {
-          const { slugs } = await response.json();
-          // Use language-specific slug if available, otherwise fallback to current slug
-          const newSlug = slugs[newLocale] || currentSlug;
-
-          router.push(`/${newLocale}/blog/${newSlug}`);
-          setIsOpen(false);
-          return;
-        }
-      } catch (error) {
-        console.error('Error fetching blog slugs for language switch:', error);
-      }
-    }
-
-    // Default behavior: just replace locale in path
+    // Replace locale in path
     const newPathSegments = [...pathSegments];
     newPathSegments[1] = newLocale;
     const newPath = newPathSegments.join('/') || `/${newLocale}`;

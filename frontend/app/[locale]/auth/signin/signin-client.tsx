@@ -143,7 +143,7 @@ export default function SignInClient() {
         const locale = window.location.pathname.split('/')[1] || 'en';
         const baseUrl = window.location.origin;
         const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
-        const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
+        const cancelUrl = `${baseUrl}/${locale}/apps`;
 
         console.log('=== PLAN PARAMETER DETECTED ===');
         console.log('Plan:', plan);
@@ -243,7 +243,7 @@ export default function SignInClient() {
         const locale = window.location.pathname.split('/')[1] || 'en';
         const baseUrl = window.location.origin;
         const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
-        const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
+        const cancelUrl = `${baseUrl}/${locale}/apps`;
 
         console.log('[Force Signin] === PLAN PARAMETER DETECTED ===');
         console.log('[Force Signin] Plan:', plan);

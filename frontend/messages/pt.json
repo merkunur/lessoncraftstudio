@@ -559,7 +559,7 @@
     },
     "intellectualProperty": {
       "title": "2. PROPRIEDADE INTELECTUAL",
-      "content": "Você mantém seus conteúdos originais. Mantemos os direitos sobre os elementos da plataforma. O conteúdo gerado é licenciado conforme a Seção 1."
+      "intro": "Você mantém seus conteúdos originais. Mantemos os direitos sobre os elementos da plataforma. O conteúdo gerado é licenciado conforme a Seção 1."
     },
     "restrictions": {
       "title": "3. RESTRIÇÕES",

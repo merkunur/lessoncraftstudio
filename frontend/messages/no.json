@@ -546,7 +546,7 @@
     },
     "intellectualProperty": {
       "title": "2. IMMATERIELLE RETTIGHETER",
-      "content": "Du beholder ditt originale innhold. Vi beholder rettigheter til plattformelementer. Generert innhold lisensieres i henhold til Seksjon 1."
+      "intro": "Du beholder ditt originale innhold. Vi beholder rettigheter til plattformelementer. Generert innhold lisensieres i henhold til Seksjon 1."
     },
     "restrictions": {
       "title": "3. BEGRENSNINGER",

@@ -546,7 +546,7 @@
     },
     "intellectualProperty": {
       "title": "2. INTELLEKTUEL EJENDOM",
-      "content": "Du beholder dit originale indhold. Vi beholder rettigheder til platformselementer. Genereret indhold licenseres ifølge Afsnit 1."
+      "intro": "Du beholder dit originale indhold. Vi beholder rettigheder til platformselementer. Genereret indhold licenseres ifølge Afsnit 1."
     },
     "restrictions": {
       "title": "3. BEGRÆNSNINGER",

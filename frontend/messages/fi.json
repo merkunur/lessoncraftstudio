@@ -546,7 +546,7 @@
     },
     "intellectualProperty": {
       "title": "2. IMMATERIAALIOIKEUDET",
-      "content": "Säilytät alkuperäisen sisältösi. Säilytämme oikeudet alustan elementteihin. Luotu sisältö lisensoidaan kohdan 1 mukaisesti."
+      "intro": "Säilytät alkuperäisen sisältösi. Säilytämme oikeudet alustan elementteihin. Luotu sisältö lisensoidaan kohdan 1 mukaisesti."
     },
     "restrictions": {
       "title": "3. RAJOITUKSET",

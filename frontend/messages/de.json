@@ -584,7 +584,7 @@
     },
     "intellectualProperty": {
       "title": "2. GEISTIGES EIGENTUM",
-      "content": "Sie behalten Ihre Originalinhalte. Wir behalten Rechte an Plattformelementen. Generierte Inhalte werden gemäß Abschnitt 1 lizenziert."
+      "intro": "Sie behalten Ihre Originalinhalte. Wir behalten Rechte an Plattformelementen. Generierte Inhalte werden gemäß Abschnitt 1 lizenziert."
     },
     "restrictions": {
       "title": "3. EINSCHRÄNKUNGEN",

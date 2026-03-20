@@ -559,7 +559,7 @@
     },
     "intellectualProperty": {
       "title": "2. PROPRIÉTÉ INTELLECTUELLE",
-      "content": "Vous conservez vos contenus originaux. Nous conservons les droits sur les éléments de la plateforme. Le contenu généré est licencié selon la Section 1."
+      "intro": "Vous conservez vos contenus originaux. Nous conservons les droits sur les éléments de la plateforme. Le contenu généré est licencié selon la Section 1."
     },
     "restrictions": {
       "title": "3. RESTRICTIONS",

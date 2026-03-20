@@ -20,7 +20,7 @@ const content: ToolContent = {
 
   hero: {
     title: 'Generatore di Addizione Codificata',
-    tagline: 'Crea puzzle crittaritmetici in cui gli alunni decifrano codici segreti attraverso l'addizione',
+    tagline: 'Crea puzzle crittaritmetici in cui gli alunni decifrano codici segreti attraverso l\'addizione',
     description: 'Questo non è un semplice foglio di addizioni — è una sfida di decrittazione. Ogni puzzle nasconde numeri dietro simboli-immagine e gli alunni devono risolvere equazioni di addizione per scoprire quale numero corrisponde a ciascuna figura. Nella Modalità Normale ogni simbolo rappresenta una cifra unica. Attiva la Modalità Rivela Parola e ogni equazione risolta svela una lettera di una parola segreta, mentre lettere distratrici tengono gli alunni sulle spine. Scegli tra oltre 100 temi con più di 3.100 illustrazioni, regola il numero di simboli e la complessità degli addendi e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Supporta 11 lingue con alfabeti specifici per ogni lingua — la modalità Rivela Parola in italiano funziona nativamente con accenti come à, è, é, ì, ò e ù. Perfetto per venditori Etsy che creano puzzle matematici di nicchia, editori Amazon KDP che pubblicano libri di attività crittaritmetiche e insegnanti che cercano esercizi coinvolgenti. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni su qualsiasi piattaforma.',
   },
 
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Aprire il generatore',
-        description: 'Fai clic su «Prova gratuita» per avviare il generatore di addizione codificata nel browser. La barra laterale scura a sinistra contiene tutte le impostazioni; l'area luminosa a destra mostra l'anteprima in tempo reale. Nessun account, nessun download, nessun plugin necessario.',
+        description: 'Fai clic su «Prova gratuita» per avviare il generatore di addizione codificata nel browser. La barra laterale scura a sinistra contiene tutte le impostazioni; l\'area luminosa a destra mostra l\'anteprima in tempo reale. Nessun account, nessun download, nessun plugin necessario.',
       },
       {
         title: 'Impostare il numero di simboli',
@@ -49,15 +49,15 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizzare il layout della pagina',
-        description: 'Nella sezione «Impostazioni pagina» scegli il formato (Letter, A4, Quadrato o dimensioni personalizzate), imposta il colore di sfondo, aggiungi un'immagine di sfondo tematica con opacità regolabile e seleziona un bordo decorativo dalla libreria bordi. Il formato quadrato è ideale per i libri di attività Amazon KDP.',
+        description: 'Nella sezione «Impostazioni pagina» scegli il formato (Letter, A4, Quadrato o dimensioni personalizzate), imposta il colore di sfondo, aggiungi un\'immagine di sfondo tematica con opacità regolabile e seleziona un bordo decorativo dalla libreria bordi. Il formato quadrato è ideale per i libri di attività Amazon KDP.',
       },
       {
         title: 'Aggiungere testo e branding',
-        description: 'Usa il pannello «Strumenti testo» per aggiungere un titolo come «Decifra il codice!» o «Sfida del codice segreto». Aggiungi un campo per il nome dell'alunno, istruzioni o il logo del tuo negozio. Scegli tra font adatti ai bambini (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
+        description: 'Usa il pannello «Strumenti testo» per aggiungere un titolo come «Decifra il codice!» o «Sfida del codice segreto». Aggiungi un campo per il nome dell\'alunno, istruzioni o il logo del tuo negozio. Scegli tra font adatti ai bambini (Fredoka, Baloo 2, Quicksand, Nunito) e regola dimensione, colore e contorno del testo.',
       },
       {
         title: 'Generare e scaricare',
-        description: 'Fai clic su «Genera» per creare il tuo puzzle. L'anteprima si aggiorna istantaneamente nell'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di correzione corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
+        description: 'Fai clic su «Genera» per creare il tuo puzzle. L\'anteprima si aggiorna istantaneamente nell\'area di lavoro. Scarica come JPEG per i mockup dei prodotti o come PDF per i materiali pronti per la stampa. Genera e scarica anche la chiave di correzione corrispondente che mostra tutti i numeri segreti (o le lettere e la parola nella Modalità Rivela Parola).',
       },
     ],
   },
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Sfide di riscaldamento per la classe',
-      description: 'Genera rapidi puzzle decifra il codice di 5 minuti per l'attività di inizio lezione. Usa 3–4 simboli per consentire agli alunni di finire velocemente, oppure aumenta a 6+ per una sfida da tutta la lezione. Includi la chiave di correzione per l'autocorrezione degli alunni.',
+      description: 'Genera rapidi puzzle decifra il codice di 5 minuti per l\'attività di inizio lezione. Usa 3–4 simboli per consentire agli alunni di finire velocemente, oppure aumenta a 6+ per una sfida da tutta la lezione. Includi la chiave di correzione per l\'autocorrezione degli alunni.',
     },
   ],
 
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Usare addendi Mix per la massima varietà',
-      description: 'L'impostazione Mix varia casualmente se ogni equazione ha 2, 3 o 4 addendi. Questo crea una pagina di puzzle più coinvolgente perché gli alunni non possono affidarsi a un'unica strategia. Quando crei prodotti da vendere, la modalità Mix fa sembrare ogni pagina diversa anche all'interno dello stesso pacchetto. Questa variazione riduce anche le richieste di rimborso per contenuto ripetitivo.',
+      description: 'L\'impostazione Mix varia casualmente se ogni equazione ha 2, 3 o 4 addendi. Questo crea una pagina di puzzle più coinvolgente perché gli alunni non possono affidarsi a un\'unica strategia. Quando crei prodotti da vendere, la modalità Mix fa sembrare ogni pagina diversa anche all\'interno dello stesso pacchetto. Questa variazione riduce anche le richieste di rimborso per contenuto ripetitivo.',
     },
     {
       title: 'La Modalità Rivela Parola è il tuo differenziatore premium',
-      description: 'I puzzle codificati standard sono divertenti, ma la Modalità Rivela Parola è la funzione che fa risaltare il tuo prodotto. Usa parole stagionali (NATALE, PASQUA, ESTATE), parole ad alta frequenza per lettori principianti o vocaboli per integrazione interdisciplinare. Evidenzia questa funzione in modo prominente nei tuoi annunci. Su Etsy e TpT includi un'immagine mockup che mostra il puzzle Rivela Parola accanto alla sua versione risolta, così gli acquirenti vedono immediatamente il concetto della parola nascosta.',
+      description: 'I puzzle codificati standard sono divertenti, ma la Modalità Rivela Parola è la funzione che fa risaltare il tuo prodotto. Usa parole stagionali (NATALE, PASQUA, ESTATE), parole ad alta frequenza per lettori principianti o vocaboli per integrazione interdisciplinare. Evidenzia questa funzione in modo prominente nei tuoi annunci. Su Etsy e TpT includi un\'immagine mockup che mostra il puzzle Rivela Parola accanto alla sua versione risolta, così gli acquirenti vedono immediatamente il concetto della parola nascosta.',
     },
     {
       title: 'Sfruttare gli alfabeti multilingue',
-      description: 'Nella Modalità Rivela Parola, cambiare lingua modifica l'alfabeto disponibile per includere i caratteri accentati. I puzzle italiani possono nascondere parole con à, è, é, ì, ò e ù. I puzzle tedeschi includono gli umlaut, quelli francesi gli accenti. Questo ti permette di creare prodotti multilingue autentici che le schede tradotte automaticamente non possono replicare.',
+      description: 'Nella Modalità Rivela Parola, cambiare lingua modifica l\'alfabeto disponibile per includere i caratteri accentati. I puzzle italiani possono nascondere parole con à, è, é, ì, ò e ù. I puzzle tedeschi includono gli umlaut, quelli francesi gli accenti. Questo ti permette di creare prodotti multilingue autentici che le schede tradotte automaticamente non possono replicare.',
     },
     {
       title: 'Abbinare con schede di addizione tradizionali',
@@ -155,20 +155,20 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Cos'è un foglio di addizione codificata?',
-      answer: 'Un foglio di addizione codificata è un puzzle crittaritmetico in cui immagini o simboli sostituiscono i numeri nelle equazioni di addizione. Gli alunni risolvono le equazioni per scoprire quale numero rappresenta ciascun simbolo. Combina la pratica dell'addizione con la deduzione logica, rendendolo molto più coinvolgente degli esercizi di matematica tradizionali. Il meccanismo di cifratura aggiunge un livello di sfida che trasforma la pratica di routine dell'addizione in un'indagine logica. Gli alunni devono prima decodificare quale numero rappresenta ogni immagine, poi risolvere l'aritmetica — sviluppando simultaneamente fluidità matematica e capacità di ragionamento logico.',
+      question: 'Cos\'è un foglio di addizione codificata?',
+      answer: 'Un foglio di addizione codificata è un puzzle crittaritmetico in cui immagini o simboli sostituiscono i numeri nelle equazioni di addizione. Gli alunni risolvono le equazioni per scoprire quale numero rappresenta ciascun simbolo. Combina la pratica dell\'addizione con la deduzione logica, rendendolo molto più coinvolgente degli esercizi di matematica tradizionali. Il meccanismo di cifratura aggiunge un livello di sfida che trasforma la pratica di routine dell\'addizione in un\'indagine logica. Gli alunni devono prima decodificare quale numero rappresenta ogni immagine, poi risolvere l\'aritmetica — sviluppando simultaneamente fluidità matematica e capacità di ragionamento logico.',
     },
     {
       question: 'Qual è la differenza tra Modalità Normale e Modalità Rivela Parola?',
-      answer: 'Nella Modalità Normale ogni immagine nasconde un numero segreto unico e gli alunni risolvono equazioni di addizione per decifrare il codice. Nella Modalità Rivela Parola ogni equazione risolta svela una lettera di una parola nascosta, e lettere distratrici con somme errate tengono gli alunni sulle spine. La Modalità Rivela Parola è una funzione di upgrade premium. Dal punto di vista del venditore questa distinzione è importante perché ti dà due linee di prodotto diverse da un unico strumento: la Modalità Normale attira insegnanti di matematica che cercano pratica aritmetica basata sulla logica, mentre la Modalità Rivela Parola piace agli educatori focalizzati sull'alfabetizzazione e ai genitori homeschooler che vogliono attività interdisciplinari.',
+      answer: 'Nella Modalità Normale ogni immagine nasconde un numero segreto unico e gli alunni risolvono equazioni di addizione per decifrare il codice. Nella Modalità Rivela Parola ogni equazione risolta svela una lettera di una parola nascosta, e lettere distratrici con somme errate tengono gli alunni sulle spine. La Modalità Rivela Parola è una funzione di upgrade premium. Dal punto di vista del venditore questa distinzione è importante perché ti dà due linee di prodotto diverse da un unico strumento: la Modalità Normale attira insegnanti di matematica che cercano pratica aritmetica basata sulla logica, mentre la Modalità Rivela Parola piace agli educatori focalizzati sull\'alfabetizzazione e ai genitori homeschooler che vogliono attività interdisciplinari.',
     },
     {
       question: 'È disponibile una prova gratuita?',
       answer: 'Sì. Lo strumento offre una prova gratuita con tutte le funzionalità — nessuna registrazione, nessuna carta di credito richiesta. Puoi creare, visualizzare in anteprima e scaricare quanti puzzle desideri. I download della prova gratuita includono una filigrana. Acquista una licenza commerciale per rimuovere la filigrana e sbloccare i diritti di vendita.',
     },
     {
-      question: 'Come funziona l'impostazione Numero di simboli?',
-      answer: 'Il Numero di simboli determina quanti simboli-immagine diversi compaiono nel tuo puzzle. Meno simboli (3–4) rendono il puzzle più facile perché ci sono meno incognite da dedurre. Più simboli (6–8) aumentano la difficoltà. Nella Modalità Normale ogni simbolo deve rappresentare un numero diverso all'interno di ogni singola domanda. Per i venditori che creano pacchetti differenziati, il Numero di simboli è la leva principale per la difficoltà. Un pacchetto ben strutturato potrebbe includere tre livelli: facile (3 simboli), medio (5 simboli) e difficile (7–8 simboli). Etichettare chiaramente ogni livello nell'annuncio aiuta gli acquirenti a scegliere il prodotto giusto per i propri alunni.',
+      question: 'Come funziona l\'impostazione Numero di simboli?',
+      answer: 'Il Numero di simboli determina quanti simboli-immagine diversi compaiono nel tuo puzzle. Meno simboli (3–4) rendono il puzzle più facile perché ci sono meno incognite da dedurre. Più simboli (6–8) aumentano la difficoltà. Nella Modalità Normale ogni simbolo deve rappresentare un numero diverso all\'interno di ogni singola domanda. Per i venditori che creano pacchetti differenziati, il Numero di simboli è la leva principale per la difficoltà. Un pacchetto ben strutturato potrebbe includere tre livelli: facile (3 simboli), medio (5 simboli) e difficile (7–8 simboli). Etichettare chiaramente ogni livello nell\'annuncio aiuta gli acquirenti a scegliere il prodotto giusto per i propri alunni.',
     },
     {
       question: 'Posso vendere le schede che creo?',
@@ -176,7 +176,7 @@ const content: ToolContent = {
     },
     {
       question: 'Quali lingue sono supportate?',
-      answer: 'Il generatore supporta 11 lingue: italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Nella Modalità Rivela Parola l'alfabeto si adatta automaticamente alla lingua selezionata includendo i caratteri specifici come gli accenti italiani (à, è, é, ì, ò, ù), gli umlaut tedeschi e gli accenti francesi.',
+      answer: 'Il generatore supporta 11 lingue: italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Nella Modalità Rivela Parola l\'alfabeto si adatta automaticamente alla lingua selezionata includendo i caratteri specifici come gli accenti italiani (à, è, é, ì, ò, ù), gli umlaut tedeschi e gli accenti francesi.',
     },
     {
       question: 'Quali formati di file posso scaricare?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Qual è la vostra politica sui rimborsi?',
-      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di acquistare. Questo approccio ti garantisce di poter valutare ogni funzione, formato di esportazione e combinazione tematica prima di prendere una decisione d'acquisto, dandoti completa fiducia nel tuo investimento.',
+      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di acquistare. Questo approccio ti garantisce di poter valutare ogni funzione, formato di esportazione e combinazione tematica prima di prendere una decisione d\'acquisto, dandoti completa fiducia nel tuo investimento.',
     },
   ],
 

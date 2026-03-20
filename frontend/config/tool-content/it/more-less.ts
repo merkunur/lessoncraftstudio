@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore Schede Maggiore Minore Uguale',
     tagline: 'Crea schede di confronto visivo con tre modalità di esercizio in meno di 60 secondi',
-    description: 'Insegna maggiore di, minore di e uguale a con schede di confronto basate su immagini che rendono concreti i concetti astratti. Questo strumento genera tre tipi distinti di esercizi: Immagine vs Immagine (confronta due gruppi di figure affiancati), Immagine vs Numero (collega il conteggio visivo con i numeri scritti) e la modalità unica Spunta e Croce in cui gli alunni classificano un riquadro di immagini mischiate da due categorie, segnando con una spunta il gruppo maggioritario e con una croce quello minoritario. Scegli tra oltre 100 temi di immagini, imposta l'intervallo numerico, scegli tra simboli illustrati o standard e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Poiché le schede utilizzano solo immagini, numeri e simboli, funzionano in modo identico in tutte le 11 lingue supportate — crea una volta e vendi in tutto il mondo. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.',
+    description: 'Insegna maggiore di, minore di e uguale a con schede di confronto basate su immagini che rendono concreti i concetti astratti. Questo strumento genera tre tipi distinti di esercizi: Immagine vs Immagine (confronta due gruppi di figure affiancati), Immagine vs Numero (collega il conteggio visivo con i numeri scritti) e la modalità unica Spunta e Croce in cui gli alunni classificano un riquadro di immagini mischiate da due categorie, segnando con una spunta il gruppo maggioritario e con una croce quello minoritario. Scegli tra oltre 100 temi di immagini, imposta l\'intervallo numerico, scegli tra simboli illustrati o standard e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Poiché le schede utilizzano solo immagini, numeri e simboli, funzionano in modo identico in tutte le 11 lingue supportate — crea una volta e vendi in tutto il mondo. La prova gratuita include una filigrana sui download. Acquista una licenza per rimuovere la filigrana e vendere le tue creazioni.',
   },
 
   tutorial: {
@@ -29,23 +29,23 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Apri il generatore di schede',
-        description: 'Clicca "Prova Gratis Ora" per avviare il generatore di schede più o meno. Lo strumento si apre istantaneamente nel browser con una barra laterale scura a sinistra per le impostazioni e un'area chiara a destra per l'anteprima in tempo reale. Nessun account né download necessario.',
+        description: 'Clicca "Prova Gratis Ora" per avviare il generatore di schede più o meno. Lo strumento si apre istantaneamente nel browser con una barra laterale scura a sinistra per le impostazioni e un\'area chiara a destra per l\'anteprima in tempo reale. Nessun account né download necessario.',
       },
       {
         title: 'Scegli la modalità di esercizio',
         description: 'Apri il pannello "Configurazione Esercizio" e seleziona tra tre modalità: Immagine vs Immagine (due gruppi di figure affiancati — gli alunni contano e confrontano le quantità), Immagine vs Numero (un gruppo di figure abbinato a un numero — collega il riconoscimento visivo e quello numerico astratto), oppure Spunta e Croce (un riquadro con 8–20 immagini mischiate di due categorie — gli alunni segnano con una spunta il gruppo maggioritario e con una croce quello minoritario). Spunta e Croce è esclusiva di questo strumento e crea prodotti che nessun concorrente può replicare.',
       },
       {
-        title: 'Imposta l'intervallo numerico',
-        description: 'Usa i cursori min e max per controllare quanti elementi compaiono per gruppo (intervallo: 1–10). Per i bambini della scuola dell'infanzia, mantieni l'intervallo ridotto (1–5). Quelli della primaria gestiscono bene 1–10. Il numero di esercizi per pagina si regola automaticamente: 1–8 per le modalità standard e 1–3 per Spunta e Croce per il suo ingombro visivo maggiore.',
+        title: 'Imposta l\'intervallo numerico',
+        description: 'Usa i cursori min e max per controllare quanti elementi compaiono per gruppo (intervallo: 1–10). Per i bambini della scuola dell\'infanzia, mantieni l\'intervallo ridotto (1–5). Quelli della primaria gestiscono bene 1–10. Il numero di esercizi per pagina si regola automaticamente: 1–8 per le modalità standard e 1–3 per Spunta e Croce per il suo ingombro visivo maggiore.',
       },
       {
         title: 'Configura la visualizzazione dei simboli',
-        description: 'Scegli tra Illustrazioni e Simboli normali per i segni di confronto. Le Illustrazioni mostrano versioni colorate e adatte ai bambini dei simboli maggiore di, minore di e uguale a — ideali per prodotti destinati alla scuola dell'infanzia e primaria. I Simboli normali mostrano i caratteri standard > < = per gli alunni più grandi che passano alla notazione matematica convenzionale.',
+        description: 'Scegli tra Illustrazioni e Simboli normali per i segni di confronto. Le Illustrazioni mostrano versioni colorate e adatte ai bambini dei simboli maggiore di, minore di e uguale a — ideali per prodotti destinati alla scuola dell\'infanzia e primaria. I Simboli normali mostrano i caratteri standard > < = per gli alunni più grandi che passano alla notazione matematica convenzionale.',
       },
       {
         title: 'Imposta la varietà delle immagini',
-        description: 'Alterna tra Stesse immagini e Immagini diverse. La modalità Stesse immagini mostra elementi identici in entrambi i gruppi (5 gatti vs. 7 gatti), concentrando l'attenzione esclusivamente sulla quantità. La modalità Immagini diverse usa figure distinte per ogni gruppo (5 gatti vs. 7 cani), aggiungendo interesse visivo e impedendo che gli alunni si basino sull'aspetto anziché sul conteggio.',
+        description: 'Alterna tra Stesse immagini e Immagini diverse. La modalità Stesse immagini mostra elementi identici in entrambi i gruppi (5 gatti vs. 7 gatti), concentrando l\'attenzione esclusivamente sulla quantità. La modalità Immagini diverse usa figure distinte per ogni gruppo (5 gatti vs. 7 cani), aggiungendo interesse visivo e impedendo che gli alunni si basino sull\'aspetto anziché sul conteggio.',
       },
       {
         title: 'Seleziona le immagini dalla libreria tematica',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Genera e scarica',
-        description: 'Clicca il pulsante "Genera" per creare la tua scheda. L'anteprima si aggiorna in tempo reale nell'area di lavoro. Quando sei soddisfatto, usa il menu "Scarica" per salvare come JPEG (singola immagine) o PDF (ottimizzato per la stampa). Genera e scarica un foglio risposte con tutti i simboli di confronto corretti già compilati.',
+        description: 'Clicca il pulsante "Genera" per creare la tua scheda. L\'anteprima si aggiorna in tempo reale nell\'area di lavoro. Quando sei soddisfatto, usa il menu "Scarica" per salvare come JPEG (singola immagine) o PDF (ottimizzato per la stampa). Genera e scarica un foglio risposte con tutti i simboli di confronto corretti già compilati.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Bundle stagionali di confronto',
-      description: 'Usa temi festivi e stagionali (Natale, Halloween, fiori primaverili, spiaggia estiva) per creare bundle a tempo limitato. I prodotti stagionali vendono particolarmente bene su Etsy perché gli acquirenti cercano in finestre temporali specifiche. Un pacchetto "Halloween Più o Meno" con immagini spaventose cattura sicuramente l'attenzione in ottobre.',
+      description: 'Usa temi festivi e stagionali (Natale, Halloween, fiori primaverili, spiaggia estiva) per creare bundle a tempo limitato. I prodotti stagionali vendono particolarmente bene su Etsy perché gli acquirenti cercano in finestre temporali specifiche. Un pacchetto "Halloween Più o Meno" con immagini spaventose cattura sicuramente l\'attenzione in ottobre.',
     },
     {
       title: 'Pacchetti di schede globali solo immagini',
@@ -92,12 +92,12 @@ const content: ToolContent = {
   businessIdeas: [
     {
       title: 'Negozio Etsy di stampabili di confronto',
-      description: 'Apri un negozio Etsy specializzato in schede di maggiore di, minore di e uguale a. Il formato visivo è molto ricercato da genitori e insegnanti perché rende concreto il confronto astratto. Crea 15–20 bundle tematici al prezzo di 3–5 € ciascuno. Poiché le schede sono composte solo da immagini, pubblica ogni prodotto su più mercati Etsy senza traduzione. Concentra il branding del negozio sugli stampabili di matematica di base e promuovi anche bundle di addizione e sottrazione per clienti abituali. L'algoritmo di Etsy premia i negozi con molteplici inserzioni correlate, quindi creare un catalogo di 20–30 bundle di confronto su diversi temi aumenta significativamente la visibilità del tuo negozio nei risultati di ricerca.',
+      description: 'Apri un negozio Etsy specializzato in schede di maggiore di, minore di e uguale a. Il formato visivo è molto ricercato da genitori e insegnanti perché rende concreto il confronto astratto. Crea 15–20 bundle tematici al prezzo di 3–5 € ciascuno. Poiché le schede sono composte solo da immagini, pubblica ogni prodotto su più mercati Etsy senza traduzione. Concentra il branding del negozio sugli stampabili di matematica di base e promuovi anche bundle di addizione e sottrazione per clienti abituali. L\'algoritmo di Etsy premia i negozi con molteplici inserzioni correlate, quindi creare un catalogo di 20–30 bundle di confronto su diversi temi aumenta significativamente la visibilità del tuo negozio nei risultati di ricerca.',
       platform: 'Etsy',
     },
     {
       title: 'Venditore di bundle matematici su Teachers Pay Teachers',
-      description: 'Carica pacchetti differenziati di schede di confronto su TpT. Gli insegnanti cercano costantemente "schede maggiore minore" e "stampabili confronto numeri". Includi tutte e tre le modalità di esercizio, versioni con simboli illustrati e standard, fogli risposte e una guida per l'insegnante in ogni inserzione per un valore percepito più alto.',
+      description: 'Carica pacchetti differenziati di schede di confronto su TpT. Gli insegnanti cercano costantemente "schede maggiore minore" e "stampabili confronto numeri". Includi tutte e tre le modalità di esercizio, versioni con simboli illustrati e standard, fogli risposte e una guida per l\'insegnante in ogni inserzione per un valore percepito più alto.',
       platform: 'Teachers Pay Teachers',
     },
     {
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Espansione sui mercati multilingue',
-      description: 'Poiché le schede di confronto sono composte solo da elementi visivi, un singolo prodotto funziona in ogni mercato linguistico. Pubblica lo stesso PDF su Etsy Germania, Francia, Spagna, Italia e oltre senza cambiare una sola pagina. La maggior parte dei concorrenti serve solo acquirenti anglofoni — tu raggiungi istantaneamente 5–10 volte più potenziali clienti. I concetti di confronto sono universali tra lingue e culture, il che rende l'espansione multilingue particolarmente semplice per questa categoria di prodotti. Le schede di confronto in tedesco e francese affrontano una concorrenza molto minore rispetto alle versioni inglesi. Crea linee di prodotti multi-lingua complete per conquistare acquirenti internazionali che cercano nella propria lingua su Etsy e Amazon.',
+      description: 'Poiché le schede di confronto sono composte solo da elementi visivi, un singolo prodotto funziona in ogni mercato linguistico. Pubblica lo stesso PDF su Etsy Germania, Francia, Spagna, Italia e oltre senza cambiare una sola pagina. La maggior parte dei concorrenti serve solo acquirenti anglofoni — tu raggiungi istantaneamente 5–10 volte più potenziali clienti. I concetti di confronto sono universali tra lingue e culture, il che rende l\'espansione multilingue particolarmente semplice per questa categoria di prodotti. Le schede di confronto in tedesco e francese affrontano una concorrenza molto minore rispetto alle versioni inglesi. Crea linee di prodotti multi-lingua complete per conquistare acquirenti internazionali che cercano nella propria lingua su Etsy e Amazon.',
       platform: 'Etsy',
     },
     {
@@ -124,23 +124,23 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Usa le illustrazioni per i più piccoli',
-      description: 'I simboli di confronto illustrati sono colorati e adatti ai bambini, ideali per prodotti destinati alla scuola dell'infanzia e primaria. Passa ai Simboli normali dalla prima classe in su, oppure includi entrambe le versioni nel tuo bundle così gli insegnanti possono scegliere quella più adatta alla loro classe. Includere entrambi gli stili di simboli in un'unica inserzione aumenta anche la copertura delle tue parole chiave su Etsy perché gli acquirenti cercano sia "schede confronto con immagini" che "schede simboli maggiore minore" — coprendo entrambe le versioni la tua inserzione corrisponde a una gamma più ampia di ricerche.',
+      description: 'I simboli di confronto illustrati sono colorati e adatti ai bambini, ideali per prodotti destinati alla scuola dell\'infanzia e primaria. Passa ai Simboli normali dalla prima classe in su, oppure includi entrambe le versioni nel tuo bundle così gli insegnanti possono scegliere quella più adatta alla loro classe. Includere entrambi gli stili di simboli in un\'unica inserzione aumenta anche la copertura delle tue parole chiave su Etsy perché gli acquirenti cercano sia "schede confronto con immagini" che "schede simboli maggiore minore" — coprendo entrambe le versioni la tua inserzione corrisponde a una gamma più ampia di ricerche.',
     },
     {
       title: 'Scala la difficoltà con la varietà delle immagini',
-      description: 'La modalità Stesse immagini (5 gatti vs. 7 gatti) è più facile perché gli alunni devono solo contare. La modalità Immagini diverse (5 gatti vs. 7 cani) è più difficile perché devono contare due gruppi distinti e resistere alla distrazione dell'aspetto. Usa questa opzione per creare versioni facili e avanzate con le stesse impostazioni.',
+      description: 'La modalità Stesse immagini (5 gatti vs. 7 gatti) è più facile perché gli alunni devono solo contare. La modalità Immagini diverse (5 gatti vs. 7 cani) è più difficile perché devono contare due gruppi distinti e resistere alla distrazione dell\'aspetto. Usa questa opzione per creare versioni facili e avanzate con le stesse impostazioni.',
     },
     {
       title: 'Spunta e Croce è il tuo punto di forza esclusivo',
-      description: 'Nessun altro generatore di schede offre la modalità Spunta e Croce. Evidenziala nei titoli dei tuoi prodotti, nelle descrizioni e nelle immagini di anteprima. Gli acquirenti che scorrono i risultati di ricerca su Etsy si fermeranno quando vedranno un formato che non hanno mai incontrato prima. Usa l'anteprima Spunta e Croce come miniatura principale della tua inserzione perché è visivamente distinta da qualsiasi altra scheda di confronto sul mercato. Quando insegnanti e genitori vedono un formato che non trovano altrove, è molto più probabile che clicchino e acquistino il tuo prodotto anziché scorrere fino a un concorrente.',
+      description: 'Nessun altro generatore di schede offre la modalità Spunta e Croce. Evidenziala nei titoli dei tuoi prodotti, nelle descrizioni e nelle immagini di anteprima. Gli acquirenti che scorrono i risultati di ricerca su Etsy si fermeranno quando vedranno un formato che non hanno mai incontrato prima. Usa l\'anteprima Spunta e Croce come miniatura principale della tua inserzione perché è visivamente distinta da qualsiasi altra scheda di confronto sul mercato. Quando insegnanti e genitori vedono un formato che non trovano altrove, è molto più probabile che clicchino e acquistino il tuo prodotto anziché scorrere fino a un concorrente.',
     },
     {
       title: 'Abbina con addizione e sottrazione per bundle matematici',
-      description: 'Crea set coordinati di schede di confronto, addizione e sottrazione usando lo stesso tema e intervallo numerico. Vendili singolarmente e come "Mega-Bundle Matematica di Base" combinato con un leggero sconto. I prodotti in bundle hanno un valore medio dell'ordine più alto su ogni piattaforma. Quando usi lo stesso tema animale o stagionale per tutte e tre le competenze matematiche, il bundle risulta coeso e professionale. Gli acquirenti percepiscono i bundle tematici come significativamente più preziosi delle raccolte casuali di schede, il che si traduce direttamente in tassi di conversione più alti.',
+      description: 'Crea set coordinati di schede di confronto, addizione e sottrazione usando lo stesso tema e intervallo numerico. Vendili singolarmente e come "Mega-Bundle Matematica di Base" combinato con un leggero sconto. I prodotti in bundle hanno un valore medio dell\'ordine più alto su ogni piattaforma. Quando usi lo stesso tema animale o stagionale per tutte e tre le competenze matematiche, il bundle risulta coeso e professionale. Gli acquirenti percepiscono i bundle tematici come significativamente più preziosi delle raccolte casuali di schede, il che si traduce direttamente in tassi di conversione più alti.',
     },
     {
       title: 'Mantieni gli esercizi Spunta e Croce a 1–3 per pagina',
-      description: 'La modalità Spunta e Croce usa riquadri visivi più grandi con 8–20 immagini mischiate ciascuno. Inserirne più di 3 in una singola pagina rende la scheda troppo affollata. Mantieni 1–2 per la scuola dell'infanzia e 2–3 per la primaria. Le modalità standard possono arrivare fino a 8 esercizi per pagina.',
+      description: 'La modalità Spunta e Croce usa riquadri visivi più grandi con 8–20 immagini mischiate ciascuno. Inserirne più di 3 in una singola pagina rende la scheda troppo affollata. Mantieni 1–2 per la scuola dell\'infanzia e 2–3 per la primaria. Le modalità standard possono arrivare fino a 8 esercizi per pagina.',
     },
     {
       title: 'Esporta sia PDF che JPEG',
@@ -163,22 +163,22 @@ const content: ToolContent = {
     },
     {
       question: 'Come funziona la modalità Spunta e Croce?',
-      answer: 'Nella modalità Spunta e Croce, la scheda mostra un singolo riquadro riempito con 8–20 immagini di due categorie diverse (ad esempio, gatti e cani) mischiate casualmente. L'alunno conta ogni categoria, disegna un segno di spunta accanto al gruppo con più elementi e un segno di croce accanto al gruppo con meno elementi. Questo sviluppa contemporaneamente le capacità di classificazione, conteggio e confronto. L'esercizio è particolarmente efficace perché gli alunni devono prima classificare le immagini in due gruppi, poi contare ogni gruppo separatamente e infine confrontare i totali — coinvolgendo tre competenze cognitive in un'unica attività. Gli insegnanti riferiscono che questo formato mantiene gli alunni concentrati più a lungo rispetto ai classici esercizi di confronto affiancato.',
+      answer: 'Nella modalità Spunta e Croce, la scheda mostra un singolo riquadro riempito con 8–20 immagini di due categorie diverse (ad esempio, gatti e cani) mischiate casualmente. L\'alunno conta ogni categoria, disegna un segno di spunta accanto al gruppo con più elementi e un segno di croce accanto al gruppo con meno elementi. Questo sviluppa contemporaneamente le capacità di classificazione, conteggio e confronto. L\'esercizio è particolarmente efficace perché gli alunni devono prima classificare le immagini in due gruppi, poi contare ogni gruppo separatamente e infine confrontare i totali — coinvolgendo tre competenze cognitive in un\'unica attività. Gli insegnanti riferiscono che questo formato mantiene gli alunni concentrati più a lungo rispetto ai classici esercizi di confronto affiancato.',
     },
     {
       question: 'Qual è la differenza tra Illustrazioni e Simboli normali?',
-      answer: 'Le Illustrazioni mostrano versioni colorate e adatte ai bambini dei segni maggiore di, minore di e uguale a — perfette per schede della scuola dell'infanzia e primaria. I Simboli normali mostrano i caratteri standard > < = usati nella notazione matematica convenzionale. Usa le Illustrazioni per i più piccoli e i Simboli normali per gli alunni più grandi.',
+      answer: 'Le Illustrazioni mostrano versioni colorate e adatte ai bambini dei segni maggiore di, minore di e uguale a — perfette per schede della scuola dell\'infanzia e primaria. I Simboli normali mostrano i caratteri standard > < = usati nella notazione matematica convenzionale. Usa le Illustrazioni per i più piccoli e i Simboli normali per gli alunni più grandi.',
     },
     {
-      question: 'Cosa fa l'impostazione Varietà Immagini?',
-      answer: 'La modalità Stesse immagini usa figure identiche in entrambi i gruppi (ad esempio, 5 gatti vs. 7 gatti), così gli alunni si concentrano esclusivamente sulla quantità. La modalità Immagini diverse usa figure distinte per ogni gruppo (5 gatti vs. 7 cani), aggiungendo interesse visivo e impedendo che gli alunni confrontino in base all'aspetto anziché al conteggio.',
+      question: 'Cosa fa l\'impostazione Varietà Immagini?',
+      answer: 'La modalità Stesse immagini usa figure identiche in entrambi i gruppi (ad esempio, 5 gatti vs. 7 gatti), così gli alunni si concentrano esclusivamente sulla quantità. La modalità Immagini diverse usa figure distinte per ogni gruppo (5 gatti vs. 7 cani), aggiungendo interesse visivo e impedendo che gli alunni confrontino in base all\'aspetto anziché al conteggio.',
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
       answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altra piattaforma, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei. Non ci sono limiti al numero di schede che puoi generare né al numero di piattaforme su cui puoi vendere con una licenza commerciale. Mantieni la piena proprietà delle schede che crei e puoi modificarle, raggrupparle e riprezzarle come preferisci.',
     },
     {
-      question: 'Le schede funzionano in lingue diverse dall'italiano?',
+      question: 'Le schede funzionano in lingue diverse dall\'italiano?',
       answer: 'Sì — e questo è un grande vantaggio. Poiché le schede di confronto usano solo immagini, numeri e simboli, sono completamente indipendenti dalla lingua. Le schede che crei funzionano in modo identico in tutte le 11 lingue supportate. Puoi vendere lo stesso prodotto ad acquirenti di qualsiasi paese senza traduzione.',
     },
     {
@@ -187,7 +187,7 @@ const content: ToolContent = {
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
-      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di comprare.',
+      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di comprare.',
     },
   ],
 

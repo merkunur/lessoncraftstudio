@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Generatore di Schede di Sottrazione',
     tagline: 'Crea schede di sottrazione con modalità Cancella in meno di 60 secondi',
-    description: 'Rendi la sottrazione concreta con la modalità Cancella che i bambini capiscono istintivamente. Questo strumento genera schede di sottrazione basate su immagini in cui gli alunni barrano le figure per trovare la risposta — il modo più naturale per imparare il concetto di «togliere». Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta l'intervallo del minuendo massimo, seleziona una delle quattro modalità di esercizio inclusa l'esclusiva modalità Cancella e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano linee di prodotti matematici differenziati, editori Amazon KDP che compilano libri di attività sulla sottrazione e insegnanti che necessitano di materiali visivi per diversi livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
+    description: 'Rendi la sottrazione concreta con la modalità Cancella che i bambini capiscono istintivamente. Questo strumento genera schede di sottrazione basate su immagini in cui gli alunni barrano le figure per trovare la risposta — il modo più naturale per imparare il concetto di «togliere». Scegli tra oltre 100 temi con più di 3.100 illustrazioni selezionate a mano, imposta l\'intervallo del minuendo massimo, seleziona una delle quattro modalità di esercizio inclusa l\'esclusiva modalità Cancella e scarica PDF pronti per la stampa o JPEG ad alta risoluzione. Perfetto per venditori Etsy che creano linee di prodotti matematici differenziati, editori Amazon KDP che compilano libri di attività sulla sottrazione e insegnanti che necessitano di materiali visivi per diversi livelli di competenza. La prova gratuita include una filigrana sui download. Acquista una licenza commerciale per rimuovere la filigrana e vendere le tue schede su qualsiasi piattaforma.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Apri il generatore di schede',
-        description: 'Clicca su "Prova gratis" per avviare il generatore di schede di sottrazione. Lo strumento si apre istantaneamente nel tuo browser con una barra laterale scura a sinistra per tutte le impostazioni e un'area di lavoro luminosa a destra per l'anteprima in tempo reale della tua scheda. Non servono account o download — tutto funziona direttamente nel browser.',
+        description: 'Clicca su "Prova gratis" per avviare il generatore di schede di sottrazione. Lo strumento si apre istantaneamente nel tuo browser con una barra laterale scura a sinistra per tutte le impostazioni e un\'area di lavoro luminosa a destra per l\'anteprima in tempo reale della tua scheda. Non servono account o download — tutto funziona direttamente nel browser.',
       },
       {
         title: 'Scegli la modalità di esercizio',
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Imposta il livello di difficoltà',
-        description: 'Regola il cursore "Minuendo massimo" per controllare il numero più grande usato in ogni esercizio (intervallo: 2–20). Per la scuola dell'infanzia si consiglia un massimo di 5, per la prima elementare fino a 10 e per la seconda elementare il range completo fino a 20. Il generatore garantisce automaticamente che il sottraendo sia sempre inferiore al minuendo. Imposta inoltre il numero di esercizi per scheda — da un singolo esercizio grande fino a 10 esercizi compatti per pagina.',
+        description: 'Regola il cursore "Minuendo massimo" per controllare il numero più grande usato in ogni esercizio (intervallo: 2–20). Per la scuola dell\'infanzia si consiglia un massimo di 5, per la prima elementare fino a 10 e per la seconda elementare il range completo fino a 20. Il generatore garantisce automaticamente che il sottraendo sia sempre inferiore al minuendo. Imposta inoltre il numero di esercizi per scheda — da un singolo esercizio grande fino a 10 esercizi compatti per pagina.',
       },
       {
         title: 'Seleziona un tema dalla libreria di immagini',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Personalizza il layout della pagina',
-        description: 'Nella sezione "Impostazione pagina" scegli tra Letter verticale, Letter orizzontale, A4 verticale, A4 orizzontale, Quadrato (1200×1200 pixel) o una dimensione completamente personalizzata. Imposta il colore della pagina, aggiungi uno sfondo tematico con opacità regolabile e scegli una cornice decorativa dalla ricca libreria di cornici. Regola l'opacità dello sfondo in modo che gli esercizi di cancellazione restino perfettamente leggibili.',
+        description: 'Nella sezione "Impostazione pagina" scegli tra Letter verticale, Letter orizzontale, A4 verticale, A4 orizzontale, Quadrato (1200×1200 pixel) o una dimensione completamente personalizzata. Imposta il colore della pagina, aggiungi uno sfondo tematico con opacità regolabile e scegli una cornice decorativa dalla ricca libreria di cornici. Regola l\'opacità dello sfondo in modo che gli esercizi di cancellazione restino perfettamente leggibili.',
       },
       {
         title: 'Aggiungi testo e titoli',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Perfeziona le opzioni della scheda',
-        description: 'Ottimizza la tua scheda con pratiche caselle di controllo: attiva i campi Nome e Data in cima alla pagina, mostra o nascondi il segno meno tra i gruppi di immagini, aggiungi numeri progressivi agli esercizi e attiva o disattiva lo stile a misura di bambino per le caselle delle risposte. Ogni singola modifica aggiorna l'anteprima in tempo reale sull'area di lavoro.',
+        description: 'Ottimizza la tua scheda con pratiche caselle di controllo: attiva i campi Nome e Data in cima alla pagina, mostra o nascondi il segno meno tra i gruppi di immagini, aggiungi numeri progressivi agli esercizi e attiva o disattiva lo stile a misura di bambino per le caselle delle risposte. Ogni singola modifica aggiorna l\'anteprima in tempo reale sull\'area di lavoro.',
       },
       {
         title: 'Genera e scarica',
-        description: 'Clicca il pulsante "Genera" per creare la tua scheda completata. L'anteprima si aggiorna in tempo reale sull'area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di correzione corrispondente — nelle schede Cancella, le immagini barrate sono chiaramente contrassegnate nel foglio soluzioni.',
+        description: 'Clicca il pulsante "Genera" per creare la tua scheda completata. L\'anteprima si aggiorna in tempo reale sull\'area di lavoro. Quando sei soddisfatto del risultato, usa il menu a tendina "Scarica" per salvare come JPEG (immagine singola per mockup e social media) o PDF (ottimizzato per la stampa e la vendita). Genera e scarica anche una chiave di correzione corrispondente — nelle schede Cancella, le immagini barrate sono chiaramente contrassegnate nel foglio soluzioni.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pacchetti di sottrazione stagionali',
-      description: 'Usa temi festivi e stagionali come Natale, Halloween, Pasqua, fiori primaverili e vacanze estive per creare pacchetti a disponibilità limitata. I prodotti stagionali si vendono particolarmente bene su Etsy perché gli acquirenti li cercano in finestre temporali specifiche. Un pacchetto "Halloween Cancella e Conta" con immagini spaventose cattura l'attenzione nei risultati di ricerca. Pubblica i pacchetti 2–3 settimane prima dell'occasione per massimizzare la visibilità.',
+      description: 'Usa temi festivi e stagionali come Natale, Halloween, Pasqua, fiori primaverili e vacanze estive per creare pacchetti a disponibilità limitata. I prodotti stagionali si vendono particolarmente bene su Etsy perché gli acquirenti li cercano in finestre temporali specifiche. Un pacchetto "Halloween Cancella e Conta" con immagini spaventose cattura l\'attenzione nei risultati di ricerca. Pubblica i pacchetti 2–3 settimane prima dell\'occasione per massimizzare la visibilità.',
     },
     {
       title: 'Schede "Trova il Numero Mancante"',
@@ -97,37 +97,37 @@ const content: ToolContent = {
     },
     {
       title: 'Venditore su Teachers Pay Teachers',
-      description: 'Carica pacchetti differenziati di schede di sottrazione su Teachers Pay Teachers. Gli insegnanti cercano costantemente "esercizi sottrazione con immagini" e "schede operative togliere". Includi tutte e quattro le modalità di esercizio, le chiavi di correzione e una breve guida per l'insegnante in ogni file per aumentare significativamente il valore percepito e ottenere valutazioni migliori.',
+      description: 'Carica pacchetti differenziati di schede di sottrazione su Teachers Pay Teachers. Gli insegnanti cercano costantemente "esercizi sottrazione con immagini" e "schede operative togliere". Includi tutte e quattro le modalità di esercizio, le chiavi di correzione e una breve guida per l\'insegnante in ogni file per aumentare significativamente il valore percepito e ottenere valutazioni migliori.',
       platform: 'Teachers Pay Teachers',
     },
     {
       title: 'Libri di attività su Amazon KDP',
-      description: 'Compila oltre 50 pagine di esercizi di sottrazione con immagini in un quaderno di attività fisico. Usa diverse modalità di esercizio e molteplici temi per la massima varietà. Le schede Cancella si fotografano particolarmente bene per le immagini delle inserzioni KDP perché i segni di cancellazione catturano immediatamente l'attenzione. Imposta il prezzo tra 6,99 € e 9,99 € e lascia che Amazon gestisca stampa e spedizione.',
+      description: 'Compila oltre 50 pagine di esercizi di sottrazione con immagini in un quaderno di attività fisico. Usa diverse modalità di esercizio e molteplici temi per la massima varietà. Le schede Cancella si fotografano particolarmente bene per le immagini delle inserzioni KDP perché i segni di cancellazione catturano immediatamente l\'attenzione. Imposta il prezzo tra 6,99 € e 9,99 € e lascia che Amazon gestisca stampa e spedizione.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Curriculum di sottrazione su Gumroad',
-      description: 'Crea un curriculum strutturato di sottrazione di 12 settimane con difficoltà progressiva — inizia con la modalità Cancella a minuendo massimo 5, passa a Immagine − Numero a minuendo massimo 10 e termina con Trova il Sottraendo a minuendo massimo 20. Vendi il curriculum completo come download digitale su Gumroad. Le famiglie che praticano l'istruzione a casa cercano attivamente materiali matematici visivi e strutturati.',
+      description: 'Crea un curriculum strutturato di sottrazione di 12 settimane con difficoltà progressiva — inizia con la modalità Cancella a minuendo massimo 5, passa a Immagine − Numero a minuendo massimo 10 e termina con Trova il Sottraendo a minuendo massimo 20. Vendi il curriculum completo come download digitale su Gumroad. Le famiglie che praticano l\'istruzione a casa cercano attivamente materiali matematici visivi e strutturati.',
       platform: 'Gumroad',
     },
     {
       title: 'Risorse per ripetizioni e doposcuola',
-      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali di sottrazione per ogni sessione. Inizia con le schede Cancella per costruire la comprensione concettuale del «togliere», poi passa alla modalità Trova il Sottraendo quando l'alunno è pronto. La chiave di correzione automatica con le immagini barrate contrassegnate permette una correzione istantanea tra le sessioni.',
+      description: 'Se gestisci un centro di ripetizioni o doposcuola, genera schede individuali di sottrazione per ogni sessione. Inizia con le schede Cancella per costruire la comprensione concettuale del «togliere», poi passa alla modalità Trova il Sottraendo quando l\'alunno è pronto. La chiave di correzione automatica con le immagini barrate contrassegnate permette una correzione istantanea tra le sessioni.',
     },
     {
       title: 'Lead magnet sui social media per acquisire clienti',
-      description: 'Offri un pacchetto campione gratuito di 5 schede di sottrazione Cancella come lead magnet su Pinterest. Le schede con immagini barrate creano pin particolarmente accattivanti che catturano l'attenzione nel feed. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi e i libri di attività KDP tramite email marketing.',
+      description: 'Offri un pacchetto campione gratuito di 5 schede di sottrazione Cancella come lead magnet su Pinterest. Le schede con immagini barrate creano pin particolarmente accattivanti che catturano l\'attenzione nel feed. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi e i libri di attività KDP tramite email marketing.',
     },
   ],
 
   proTips: [
     {
       title: 'Inizia con la modalità Cancella per i più piccoli',
-      description: 'La modalità Cancella è il formato di sottrazione più intuitivo per bambini della scuola dell'infanzia e della prima elementare. I bambini vedono un gruppo di immagini, ne barrano alcune e contano quelle rimaste. Inizia ogni nuovo prodotto o linea di prodotti con la modalità Cancella prima di introdurre altre modalità — costruisce la comprensione fondamentale che sottrarre significa «togliere». Genitori e insegnanti preferiscono nettamente questo formato per bambini dai 3 ai 6 anni perché elimina l'intimidazione dei numeri puri.',
+      description: 'La modalità Cancella è il formato di sottrazione più intuitivo per bambini della scuola dell\'infanzia e della prima elementare. I bambini vedono un gruppo di immagini, ne barrano alcune e contano quelle rimaste. Inizia ogni nuovo prodotto o linea di prodotti con la modalità Cancella prima di introdurre altre modalità — costruisce la comprensione fondamentale che sottrarre significa «togliere». Genitori e insegnanti preferiscono nettamente questo formato per bambini dai 3 ai 6 anni perché elimina l\'intimidazione dei numeri puri.',
     },
     {
       title: 'Mantieni il minuendo massimo basso per i principianti',
-      description: 'Imposta il cursore del minuendo massimo su 5 per i prodotti destinati alla scuola dell'infanzia e su 10 per la prima elementare. I bambini piccoli si sentono sopraffatti da gruppi di immagini troppo grandi. Crea versioni separate "Facile" (minuendo massimo 5), "Medio" (minuendo massimo 10) e "Sfida" (minuendo massimo 20) così gli acquirenti possono scegliere il livello giusto. Un pacchetto differenziato con tutti e tre i livelli giustifica un prezzo più alto perché insegnanti e genitori apprezzano le risorse già pronte per livelli diversi.',
+      description: 'Imposta il cursore del minuendo massimo su 5 per i prodotti destinati alla scuola dell\'infanzia e su 10 per la prima elementare. I bambini piccoli si sentono sopraffatti da gruppi di immagini troppo grandi. Crea versioni separate "Facile" (minuendo massimo 5), "Medio" (minuendo massimo 10) e "Sfida" (minuendo massimo 20) così gli acquirenti possono scegliere il livello giusto. Un pacchetto differenziato con tutti e tre i livelli giustifica un prezzo più alto perché insegnanti e genitori apprezzano le risorse già pronte per livelli diversi.',
     },
     {
       title: 'Usa Trova il Sottraendo per gli alunni avanzati',
@@ -143,11 +143,11 @@ const content: ToolContent = {
     },
     {
       title: 'Abbina alla addizione per pacchetti completi',
-      description: 'Crea set di schede di addizione e sottrazione abbinati con lo stesso tema e livello di difficoltà. Vendili singolarmente e come mega-pacchetto "Addizione e Sottrazione" con un leggero sconto. I mega-pacchetti combinati ottengono prezzi significativamente più alti perché offrono una copertura completa delle operazioni matematiche di base. Molti negozi Etsy di successo strutturano l'intero catalogo attorno a questa strategia di abbinamento.',
+      description: 'Crea set di schede di addizione e sottrazione abbinati con lo stesso tema e livello di difficoltà. Vendili singolarmente e come mega-pacchetto "Addizione e Sottrazione" con un leggero sconto. I mega-pacchetti combinati ottengono prezzi significativamente più alti perché offrono una copertura completa delle operazioni matematiche di base. Molti negozi Etsy di successo strutturano l\'intero catalogo attorno a questa strategia di abbinamento.',
     },
     {
       title: 'Aggiungi cornici tematiche per prezzi premium',
-      description: 'Una scheda bianca e semplice e una con cornice tematica e sfondo discreto appaiono completamente diverse nelle inserzioni dei prodotti. La rifinitura visiva richiede solo 30 secondi e può giustificare un prezzo di vendita sensibilmente più alto. Regola l'opacità dello sfondo in modo che gli esercizi di cancellazione restino perfettamente leggibili, mentre il design complessivo risulta professionale e accattivante.',
+      description: 'Una scheda bianca e semplice e una con cornice tematica e sfondo discreto appaiono completamente diverse nelle inserzioni dei prodotti. La rifinitura visiva richiede solo 30 secondi e può giustificare un prezzo di vendita sensibilmente più alto. Regola l\'opacità dello sfondo in modo che gli esercizi di cancellazione restino perfettamente leggibili, mentre il design complessivo risulta professionale e accattivante.',
     },
   ],
 
@@ -166,23 +166,23 @@ const content: ToolContent = {
     },
     {
       question: 'Posso usare le schede per scopi commerciali?',
-      answer: 'La prova gratuita con filigrana è destinata esclusivamente all'uso personale e didattico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.',
+      answer: 'La prova gratuita con filigrana è destinata esclusivamente all\'uso personale e didattico. Per vendere schede su Etsy, Teachers Pay Teachers, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.',
     },
     {
       question: 'Come funziona la modalità Cancella?',
       answer: 'Nella modalità Cancella, la scheda mostra un gruppo di immagini che rappresenta il minuendo. Il bambino barra il numero di immagini da sottrarre e conta quelle rimaste per trovare la risposta. È il modo più visuale e intuitivo per insegnare la sottrazione ai piccoli. Le immagini barrate restano visibili sulla pagina, così il bambino può verificare il proprio lavoro contando sia il gruppo barrato che quello rimasto — un aspetto di auto-verifica particolarmente prezioso per il lavoro autonomo e i compiti a casa.',
     },
     {
-      question: 'Cosa controlla l'impostazione "Minuendo massimo"?',
-      answer: 'Il cursore del minuendo massimo (intervallo 2–20) imposta il numero di partenza più grande in ogni esercizio di sottrazione. Ad esempio, se il minuendo massimo è impostato su 10, gli esercizi mostreranno fino a 10 immagini. Valori più bassi sono più facili per i bambini più piccoli; valori più alti offrono più sfida per gli alunni più grandi. Per i venditori, questa impostazione è il controllo principale della difficoltà — un'inserzione ben strutturata potrebbe includere tre livelli etichettati "facile", "medio" e "difficile" basati sul valore del minuendo massimo.',
+      question: 'Cosa controlla l\'impostazione "Minuendo massimo"?',
+      answer: 'Il cursore del minuendo massimo (intervallo 2–20) imposta il numero di partenza più grande in ogni esercizio di sottrazione. Ad esempio, se il minuendo massimo è impostato su 10, gli esercizi mostreranno fino a 10 immagini. Valori più bassi sono più facili per i bambini più piccoli; valori più alti offrono più sfida per gli alunni più grandi. Per i venditori, questa impostazione è il controllo principale della difficoltà — un\'inserzione ben strutturata potrebbe includere tre livelli etichettati "facile", "medio" e "difficile" basati sul valore del minuendo massimo.',
     },
     {
-      question: 'Posso creare schede in lingue diverse dall'italiano?',
+      question: 'Posso creare schede in lingue diverse dall\'italiano?',
       answer: 'Sì. Il generatore supporta 11 lingue: italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Poiché le schede di sottrazione sono puramente visuali — immagini, segni di cancellazione e numeri — i tuoi prodotti funzionano in qualsiasi lingua e in qualsiasi classe nel mondo.',
     },
     {
       question: 'Devo installare un software?',
-      answer: 'No. Il generatore funziona interamente nel tuo browser web su qualsiasi dispositivo moderno — Windows, Mac, Chromebook, iPad o tablet Android. Non c'è nulla da installare, nessun plugin richiesto e nessun account da creare. Apri semplicemente la pagina e inizia subito.',
+      answer: 'No. Il generatore funziona interamente nel tuo browser web su qualsiasi dispositivo moderno — Windows, Mac, Chromebook, iPad o tablet Android. Non c\'è nulla da installare, nessun plugin richiesto e nessun account da creare. Apri semplicemente la pagina e inizia subito.',
     },
     {
       question: 'Posso generare una chiave di correzione?',
@@ -190,7 +190,7 @@ const content: ToolContent = {
     },
     {
       question: 'Qual è la vostra politica di rimborso?',
-      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile affinché tu possa valutare completamente lo strumento prima di decidere l'acquisto. Poiché la prova gratuita ti offre accesso completo a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze utilizzando ampiamente la prova gratuita prima di acquistare una licenza.',
+      answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile affinché tu possa valutare completamente lo strumento prima di decidere l\'acquisto. Poiché la prova gratuita ti offre accesso completo a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze utilizzando ampiamente la prova gratuita prima di acquistare una licenza.',
     },
   ],
 

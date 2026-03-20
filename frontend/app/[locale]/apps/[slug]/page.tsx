@@ -651,7 +651,7 @@ export default async function AppDetailPage({
   const audience = getCategoryAudience(category, locale);
 
   // Visual showcase sections — EN + DE, config-driven per app
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt') ? getShowcaseConfig(wpAppId, locale) : null;
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it') ? getShowcaseConfig(wpAppId, locale) : null;
 
   // Build the app launch URL
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;

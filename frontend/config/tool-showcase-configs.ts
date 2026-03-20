@@ -4,6 +4,7 @@ import { germanImages } from '@/config/german-showcase-images';
 import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
+import { italianImages } from '@/config/italian-showcase-images';
 
 export interface ToolShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -3405,6 +3406,277 @@ const ptToolText: Record<string, EsTextTuple> = {
   ],
 };
 
+
+// ─── Italian tool text (33 apps × 12-element tuples) ───
+// [heroH, heroSub, tieredH, tieredSub, t1Desc, t2Desc, t3Desc, trophy, spotH, spotTag, galH, galSub]
+
+const itToolText: Record<string, EsTextTuple> = {
+  'image-addition': [
+    'Pratica di addizione basata su immagini', 'Schede tematiche colorate che rendono l\'addizione chiara per i giovani studenti',
+    'Progressione strutturata per livelli', 'Schede adattate a ogni ritmo di apprendimento',
+    'Contare immagini tematiche e sommare fino a 5', 'Gruppi di immagini miste con somme fino a 10', 'Combinare immagini e numeri fino a 20',
+    'Avanza al tuo ritmo con la matematica visiva',
+    'Il calcolo a colori!', 'Padroneggia l\'addizione visiva',
+    'Collezione di schede di addizione', 'Esercizi pronti da stampare per casa e scuola',
+  ],
+  'image-subtraction': [
+    'Sottrazione visiva con immagini', 'Schede di sottrazione per un apprendimento progressivo',
+    'Esercizi di sottrazione progressivi', 'Schede che evolvono con il progresso del bambino',
+    'Cancellare immagini per trovare il risultato (1-5)', 'Sottrazione immagine-numero fino a 10', 'Modalità di sottrazione miste fino a 20',
+    'Acquisisci sicurezza con ogni problema risolto',
+    'Impara a sottrarre!', 'Sottrarre con le immagini',
+    'Collezione di schede di sottrazione', 'Esercizi per tutti i livelli di difficoltà',
+  ],
+  'code-addition': [
+    'Decifrare codici con l\'addizione', 'Risolvi operazioni per scoprire parole segrete',
+    'Esercizi di decifratura progressivi', 'Operazioni adattate al livello di ogni alunno',
+    'Codici di addizione semplici (1-5)', 'Codici intermedi con somme fino a 10', 'Codici a più passaggi fino a 20',
+    'Decifrare codici rafforza le competenze matematiche',
+    'Decifra i codici!', 'Matematica + Mistero',
+    'Collezione di schede di decifratura', 'Puzzle pronti da stampare per casa e scuola',
+  ],
+  'more-less': [
+    'Confronto visivo di quantità', 'Schede colorate per riconoscere di più, di meno e uguale',
+    'Esercizi di confronto per livelli', 'Attività progressive per una comprensione solida delle quantità',
+    'Identificare semplicemente il gruppo più grande (1-5)', 'Confrontare gruppi tematici fino a 10', 'Padroneggiare maggiore di, minore di e uguale',
+    'Le competenze di confronto costruiscono le basi matematiche',
+    'Confronta le quantità!', 'Comprensione numerica visiva',
+    'Collezione di schede di confronto', 'Design chiari per ogni tipo di confronto',
+  ],
+  'math-puzzle': [
+    'Puzzle con immagini e calcolo', 'Risolvi operazioni per rivelare immagini di animali nascoste',
+    'Puzzle in tre livelli di difficoltà', 'Dalla griglia semplice al puzzle complesso',
+    'Griglie semplici 3×3 con addizione', 'Puzzle tematici con operazioni miste', 'Griglie complesse con numeri più grandi',
+    'Ogni puzzle risolto svela una sorpresa',
+    'Risolvi il puzzle!', 'Matematica e immagini divertenti',
+    'Collezione di puzzle matematici', 'Griglie stimolanti per calcolare e scoprire',
+  ],
+  'math-worksheet': [
+    'Equazioni visive con immagini', 'Imparare concetti algebrici con adorabili immagini di animali',
+    'Equazioni per ogni livello', 'Dall\'immagine semplice all\'equazione complessa',
+    'Equazioni con immagini semplici (1-5)', 'Equazioni tematiche fino a 10', 'Equazioni con immagini a più passaggi fino a 20',
+    'Il pensiero algebrico inizia con le immagini',
+    'Equazioni con immagini!', 'Apprendimento visivo dell\'algebra',
+    'Collezione di schede di equazioni', 'Esercizi pronti per l\'apprendimento visivo dell\'algebra',
+  ],
+  'alphabet-train': [
+    'Attività del treno dell\'alfabeto', 'Riconoscere e associare lettere con esercizi di ritaglio del treno',
+    'Apprendimento delle lettere in tre livelli', 'Dal riconoscimento all\'associazione autonoma',
+    'Associare maiuscole A-M', 'Alfabeto completo con immagini tematiche', 'Associare maiuscole e minuscole',
+    'Sul treno dell\'alfabeto, imparare è un\'avventura',
+    'Treno ABC!', 'Avventura con le lettere',
+    'Collezione del treno dell\'alfabeto', 'Schede di ritaglio pronte per l\'apprendimento delle lettere',
+  ],
+  prepositions: [
+    'Parole di posizione con immagini', 'Sopra, sotto, accanto — preposizioni visive e divertenti',
+    'Esercizi di preposizioni in tre livelli', 'Dal vocabolario base alla descrizione complessa',
+    'Parole spaziali base: sopra, in, sotto', 'Vocabolario ampliato con scene tematiche', 'Relazioni spaziali complesse e frasi',
+    'Le parole di posizione arricchiscono l\'espressione',
+    'Dov\'è?', 'Impara le parole di posizione',
+    'Collezione di schede di preposizioni', 'Esercizi pronti per il vocabolario spaziale',
+  ],
+  'word-guess': [
+    'Indovinelli di parole con indizi di immagini', 'Completare le lettere mancanti grazie a indizi visivi',
+    'Indovinelli in tre livelli di difficoltà', 'Dalla parola semplice al puzzle creativo',
+    'Parole semplici di 3-4 lettere', 'Vocabolario tematico con 2+ lettere mancanti', 'Parole più lunghe con liste personalizzate',
+    'Ogni indovinello risolto rafforza il vocabolario',
+    'Indovina le parole!', 'Indovinelli con immagini',
+    'Collezione di indovinelli di parole', 'Esercizi motivanti per il vocabolario',
+  ],
+  'word-scramble': [
+    'Puzzle di lettere mescolate', 'Riordinare le lettere mescolate con l\'aiuto di immagini',
+    'Lettere mescolate in tre livelli', 'Dal puzzle semplice alla sfida ortografica',
+    'Parole semplici di 3-4 lettere', 'Parole tematiche di 5-6 lettere', 'Parole più lunghe e liste personalizzate',
+    'Le lettere mescolate migliorano l\'ortografia',
+    'Ordina le lettere!', 'Parole disordinate',
+    'Collezione di lettere mescolate', 'Esercizi di ortografia pronti da stampare',
+  ],
+  'word-search': [
+    'Cerca parole nella griglia', 'Trovare parole nascoste in griglie tematiche',
+    'Cerca parole in tre livelli di difficoltà', 'Dalla griglia piccola alla grande sfida',
+    'Griglie semplici 6×6', 'Griglie medie 10×10', 'Griglie avanzate 15×15',
+    'Ogni parola trovata arricchisce il vocabolario',
+    'Cerca le parole!', 'Avventura di cerca parole',
+    'Collezione di cerca parole', 'Cerca parole pronte per ogni tema',
+  ],
+  cryptogram: [
+    'Puzzle di crittogrammi con immagini', 'Sostituzione di lettere con immagini tematiche',
+    'Crittogrammi in tre livelli', 'Dal codice semplice al puzzle complesso',
+    'Codici di lettere semplici', 'Cifre intermedie', 'Crittogrammi avanzati',
+    'Decifrare codici affina la mente',
+    'Decifra i codici!', 'Scrittura segreta divertente',
+    'Collezione di crittogrammi', 'Puzzle logici pronti da stampare',
+  ],
+  writing: [
+    'Schede di esercizi di scrittura', 'Imparare a scrivere lettere e parole con linee guida',
+    'Esercizi di scrittura in tre livelli', 'Dal ricalco alla scrittura autonoma',
+    'Pratica di ricalco', 'Scrittura guidata di lettere', 'Scrittura autonoma',
+    'Una bella scrittura inizia con la pratica',
+    'Pratica la scrittura!', 'Padronanza delle lettere',
+    'Collezione di esercizi di scrittura', 'Schede di scrittura con linee guida',
+  ],
+  'big-small': [
+    'Confronto visivo di dimensioni', 'Riconoscere grande e piccolo con immagini colorate',
+    'Esercizi di dimensioni in tre livelli', 'Dal confronto semplice all\'ordinamento per dimensione',
+    'Semplice: grande vs. piccolo', 'Ordinare per dimensione', 'Confronti di dimensioni complessi',
+    'Il confronto di dimensioni costruisce le basi matematiche',
+    'Grande o piccolo?', 'Confronta le dimensioni',
+    'Collezione di confronti di dimensioni', 'Schede chiare per la comprensione delle dimensioni',
+  ],
+  'pattern-train': [
+    'Completare i pattern nel treno', 'Riconoscere pattern di immagini e completare i vagoni',
+    'Esercizi di pattern in tre livelli', 'Dal pattern AB semplice al pattern ABCD complesso',
+    'Pattern AB semplici', 'Catene di pattern ABC', 'Pattern ABCD complessi',
+    'Il riconoscimento dei pattern è la base della logica',
+    'Continua il pattern!', 'Divertimento con i pattern del treno',
+    'Collezione di pattern del treno', 'Esercizi tematici di pattern pronti da stampare',
+  ],
+  'pattern-worksheet': [
+    'Riconoscere e continuare i pattern', 'Allenare il pensiero logico con pattern visivi',
+    'Puzzle di pattern in tre livelli', 'Dal pattern ripetitivo alla sequenza complessa',
+    'Pattern di ripetizione semplici', 'Pattern crescenti', 'Pattern misti complessi',
+    'Il riconoscimento dei pattern apre le porte al pensiero logico',
+    'Scopri i pattern!', 'Allenamento logico di pattern',
+    'Collezione di schede di pattern', 'Esercizi ben progettati per il pensiero visivo',
+  ],
+  'draw-and-color': [
+    'Disegno su griglia passo dopo passo', 'Riprodurre modelli e colorare in modo creativo',
+    'Esercizi di disegno in tre livelli', 'Dalla griglia semplice al disegno libero',
+    'Copie di griglia semplici', 'Disegni di griglia dettagliati', 'Sfide di disegno libero',
+    'Il disegno sviluppa la creatività e la motricità fine',
+    'Riproduci!', 'Disegno creativo su griglia',
+    'Collezione di disegni su griglia', 'Esercizi passo dopo passo per ogni tema',
+  ],
+  'drawing-lines': [
+    'Tracciare e praticare linee', 'Allenare la motricità fine con diverse forme di linee',
+    'Esercizi di linee in tre livelli', 'Da tratti dritti a pattern complessi',
+    'Tracciare linee dritte', 'Seguire percorsi curvi', 'Padroneggiare forme di linee complesse',
+    'La pratica delle linee prepara i bambini alla scrittura',
+    'Padroneggia le linee!', 'Allenamento motorio',
+    'Collezione di esercizi di linee', 'Schede progressive per la motricità fine',
+  ],
+  coloring: [
+    'Pagine da colorare di molti temi', 'Modelli da colorare professionali per la creatività e il relax',
+    'Colorare in tre livelli di dettaglio', 'Da contorni semplici a scene complesse',
+    'Contorni semplici da colorare', 'Scene tematiche dettagliate', 'Pattern e design complessi',
+    'Colorare sviluppa la concentrazione, la creatività e la motricità',
+    'Divertimento a colorare!', 'Scopri i colori',
+    'Collezione di pagine da colorare', 'Modelli professionali per ogni tema',
+  ],
+  'chart-count': [
+    'Creare e interpretare grafici con immagini', 'Imparare a rappresentare e comprendere dati visivamente',
+    'Esercizi di grafici in tre livelli', 'Dal conteggio semplice all\'interpretazione dei dati',
+    'Contare e rappresentare graficamente (1-5)', 'Leggere e interpretare grafici', 'Confrontare più categorie',
+    'La comprensione dei dati inizia con le immagini',
+    'Grafici divertenti!', 'Apprendimento visivo dei dati',
+    'Collezione di grafici con immagini', 'Schede di dati pronte per casa e scuola',
+  ],
+  matching: [
+    'Esercizi di associazione di immagini', 'Riconoscere visivamente e associare ciò che corrisponde',
+    'Associazione in tre livelli di difficoltà', 'Dalla coppia semplice all\'associazione complessa',
+    'Associazione semplice di 3 coppie', 'Associazione media di 5 coppie', 'Associazione avanzata di 8+ coppie',
+    'L\'associazione sviluppa la concentrazione e la logica',
+    'Trova le coppie!', 'Associazione visiva',
+    'Collezione di schede di associazione', 'Design chiari per esercizi cognitivi',
+  ],
+  'grid-match': [
+    'Puzzle di associazione su griglia', 'Posizionare logicamente le immagini nella griglia',
+    'Puzzle di griglia in tre livelli', 'Da griglie semplici a griglie complesse',
+    'Griglie semplici 2×2', 'Griglie medie 3×3', 'Griglie avanzate 4×4',
+    'I puzzle su griglia sviluppano il ragionamento spaziale',
+    'Risolvi la griglia!', 'Divertimento con puzzle su griglia',
+    'Collezione di puzzle su griglia', 'Puzzle logici pronti per il ragionamento spaziale',
+  ],
+  'shadow-match': [
+    'Puzzle di associazione di ombre', 'Quale ombra corrisponde a quale immagine?',
+    'Associazione di ombre in tre livelli', 'Da ombre semplici a ombre ruotate',
+    'Coppie di ombre semplici', 'Immagini di ombre ruotate', 'Puzzle di ombre complessi',
+    'I puzzle di ombre affinano l\'osservazione',
+    'Trova l\'ombra!', 'Puzzle di ombre',
+    'Collezione di associazione di ombre', 'Schede stimolanti per la capacità di osservazione',
+  ],
+  bingo: [
+    'Crea cartelle di bingo con immagini', 'Cartelle di bingo tematiche da stampare e giocare',
+    'Bingo in tre dimensioni di cartelle', 'Da cartelle semplici a cartelle complete per diverse età',
+    'Bingo semplice 3×3', 'Bingo con immagini 4×4', 'Cartelle di bingo complete 5×5',
+    'Il bingo trasforma l\'apprendimento di gruppo in divertimento',
+    'BINGO!', 'Divertimento bingo con immagini',
+    'Collezione di cartelle di bingo', 'Cartelle tematiche pronte per attività di gruppo e di classe',
+  ],
+  'picture-sort': [
+    'Classificare immagini per categorie', 'Ordinare e categorizzare con immagini colorate',
+    'Esercizi di classificazione in tre livelli', 'Da 2 categorie alla classificazione complessa',
+    'Classificazione in 2 categorie', 'Classificazione in 3 categorie', 'Sfide di 4+ categorie',
+    'Classificare insegna la strutturazione logica',
+    'Classifica!', 'Puzzle di ordine',
+    'Collezione di schede di classificazione', 'Esercizi di classificazione pronti per casa e scuola',
+  ],
+  'missing-pieces': [
+    'Scopri i pezzi mancanti', 'Trovare il pezzo che manca in ogni immagine',
+    'Puzzle in tre livelli di difficoltà', 'Da puzzle visivi semplici a complessi',
+    'Pezzi mancanti semplici', 'Puzzle a più pezzi', 'Puzzle visivi complessi',
+    'I puzzle rafforzano il pensiero visivo',
+    'Cosa manca?', 'Detective dei puzzle',
+    'Collezione di schede di puzzle', 'Esercizi di ricerca stimolanti per menti attente',
+  ],
+  'odd-one-out': [
+    'Trova il diverso', 'Quale immagine non appartiene al gruppo?',
+    'Trova le differenze in tre livelli', 'Da serie semplici a serie complesse',
+    'Gruppi semplici di 3', 'Gruppi medi di 4', 'Avanzato: 6+ immagini',
+    'Riconoscere le differenze rafforza il pensiero logico',
+    'Quale non appartiene?', 'Puzzle occhio d\'aquila',
+    'Collezione di puzzle logici', 'Esercizi pronti per l\'osservazione attenta',
+  ],
+  sudoku: [
+    'Puzzle di sudoku con immagini', 'Puzzle logici con immagini al posto dei numeri',
+    'Sudoku in tre livelli di difficoltà', 'Dalla griglia piccola alla grande sfida',
+    'Sudoku con immagini semplice 4×4', 'Griglie medie 6×6', 'Griglie difficili 9×9',
+    'Il sudoku allena il pensiero logico in modo divertente',
+    'Risolvi il sudoku!', 'Logica con immagini divertente',
+    'Collezione di sudoku con immagini', 'Puzzle logici pronti per l\'allenamento cerebrale',
+  ],
+  'picture-path': [
+    'Segui i percorsi di immagini', 'Trovare il percorso giusto attraverso il labirinto di immagini',
+    'Ricerca di percorsi in tre livelli', 'Da percorsi dritti a labirinti complessi',
+    'Percorsi dritti semplici', 'Percorsi ramificati', 'Percorsi di labirinto complessi',
+    'La ricerca di percorsi sviluppa il senso di orientamento',
+    'Trova il percorso!', 'Divertimento nel labirinto',
+    'Collezione di percorsi di immagini', 'Labirinti emozionanti per piccoli esploratori',
+  ],
+  'find-and-count': [
+    'Attività di cercare e contare', 'Trovare e contare immagini nascoste in scene colorate',
+    'Immagini di ricerca in tre livelli', 'Dalla ricerca semplice alla scena complessa',
+    'Trovare 3-5 oggetti', 'Contare fino a 10 oggetti', 'Scene avanzate di conteggio multiplo',
+    'Cercare e contare rende attenti',
+    'Vedo, vedo!', 'Divertimento di cercare e contare',
+    'Collezione di cercare e contare', 'Scene splendidamente disegnate per cercare',
+  ],
+  'find-objects': [
+    'Trovare oggetti nascosti', 'Immagini di ricerca dettagliate per occhi di lince',
+    'Immagini di ricerca in tre livelli di difficoltà', 'Dal visibile all\'astutamente nascosto',
+    'Oggetti nascosti semplici', 'Ricerca di scene intermedie', 'Sfide di ricerca complesse',
+    'La ricerca attenta è premiata',
+    'Trovali tutti!', 'Avventura di immagini di ricerca',
+    'Collezione di immagini di ricerca', 'Scene professionali per l\'osservazione attenta',
+  ],
+  crossword: [
+    'Cruciverba con immagini', 'Risolvere gli indizi delle immagini e completare la griglia',
+    'Cruciverba in tre livelli', 'Dal piccolo puzzle alla grande griglia di parole',
+    'Cruciverba semplici da 5 parole', 'Puzzle intermedi da 10 parole', 'Griglie avanzate da 15+ parole',
+    'I cruciverba arricchiscono il vocabolario in modo divertente',
+    'Cruciverba divertenti!', 'Puzzle di griglia di parole',
+    'Collezione di cruciverba', 'Griglie di parole pronte per l\'allenamento del vocabolario',
+  ],
+  'treasure-hunt': [
+    'Caccia al tesoro con mappe', 'Leggi gli indizi, segui le direzioni e trova il tesoro',
+    'Attività di caccia al tesoro in tre livelli', 'Dalla griglia semplice alla caccia a più passaggi',
+    'Mappe a griglia semplici', 'Mappe del tesoro con direzioni', 'Cacce complesse a più passaggi',
+    'Ogni caccia al tesoro è un\'avventura',
+    'Cerca il tesoro!', 'Avventura sulla mappa',
+    'Collezione di cacce al tesoro', 'Avventure di mappe pronte per piccoli esploratori',
+  ],
+};
+
 // ─── Generic tool localization function ───
 
 // Locale-aware alt text templates for tool showcases
@@ -3520,6 +3792,7 @@ export function getToolShowcaseConfig(toolId: string, locale: string = 'en'): To
   if (locale === 'fr') return localizeToolShowcase(enConfig, toolId, frenchImages, frToolText, 'fr');
   if (locale === 'es') return localizeToolShowcase(enConfig, toolId, spanishImages, esToolText, 'es');
   if (locale === 'pt') return localizeToolShowcase(enConfig, toolId, portugueseImages, ptToolText, 'pt');
+  if (locale === 'it') return localizeToolShowcase(enConfig, toolId, italianImages, itToolText, 'it');
   return enConfig;
 }
 

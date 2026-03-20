@@ -18,6 +18,7 @@ import { germanImages } from '@/config/german-showcase-images';
 import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
+import { italianImages } from '@/config/italian-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -36,6 +37,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
   if (locale === 'fr') return imgUrl(appFolder, filename, 'fr');
   if (locale === 'es') return imgUrl(appFolder, filename, 'es');
   if (locale === 'pt') return imgUrl(appFolder, filename, 'pt');
+  if (locale === 'it') return imgUrl(appFolder, filename, 'it');
   return img(appFolder, filename);
 }
 
@@ -703,6 +705,76 @@ function getPtAppData(key: string): AppVisualData {
   };
 }
 
+// ─── Italian app visual data ───
+
+const itLabels: Record<string, string> = {
+  addition: 'Addizione', subtraction: 'Sottrazione', 'code-addition': 'Codice addizione',
+  'more-less': 'Confronto', 'math-puzzle': 'Puzzle matematico', 'math-worksheet': 'Foglio di matematica',
+  'chart-count': 'Grafico', wordsearch: 'Cerca parole', crossword: 'Cruciverba',
+  'word-scramble': 'Lettere mescolate', cryptogram: 'Crittogramma', 'word-guess': 'Indovina la parola',
+  writing: 'Scrittura', 'alphabet-train': 'Treno dell\'alfabeto', prepositions: 'Preposizioni',
+  coloring: 'Colorare', 'draw-and-color': 'Disegno a griglia', 'drawing-lines': 'Linee',
+  'big-small': 'Confronto dimensioni', 'pattern-train': 'Treno dei pattern', 'pattern-worksheet': 'Pattern',
+  matching: 'Abbinamento', 'grid-match': 'Puzzle griglia', 'shadow-match': 'Ombre',
+  bingo: 'Bingo con immagini', 'picture-sort': 'Classificazione', 'missing-pieces': 'Puzzle',
+  'odd-one-out': 'Logica', sudoku: 'Sudoku', 'picture-path': 'Percorso',
+  'find-and-count': 'Trova e conta', 'find-objects': 'Oggetti nascosti', 'treasure-hunt': 'Caccia al tesoro',
+};
+
+const itTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Conteggio semplice con immagini (1-5)', 'Immagini miste fino a 10', 'Problemi a più passaggi fino a 20'],
+  subtraction: ['Cancellare immagini (1-5)', 'Sottrazione immagine-numero fino a 10', 'Modalità miste fino a 20'],
+  'code-addition': ['Codici semplici (1-5)', 'Codici intermedi fino a 10', 'Codici complessi fino a 20'],
+  'more-less': ['Confronta gruppi (1-5)', 'Gruppi tematici fino a 10', 'Maggiore/minore/uguale'],
+  'math-puzzle': ['Puzzle numerici semplici', 'Puzzle a più passaggi', 'Sfide logiche complesse'],
+  'math-worksheet': ['Operazioni semplici (1-5)', 'Problemi misti fino a 10', 'Operazioni avanzate multiple'],
+  'chart-count': ['Contare e rappresentare (1-5)', 'Interpretare grafici', 'Grafici multi-categoria'],
+  wordsearch: ['Griglie semplici 6×6', 'Griglie medie 10×10', 'Griglie avanzate 15×15'],
+  crossword: ['Cruciverba semplice da 5 parole', 'Puzzle intermedi da 10 parole', 'Griglie avanzate da 15+ parole'],
+  'word-scramble': ['Parole di 3-4 lettere', 'Parole di 5-6 lettere', 'Sfide di 7+ lettere'],
+  cryptogram: ['Codici di lettere semplici', 'Cifre intermedie', 'Crittogrammi avanzati'],
+  'word-guess': ['Indizi con immagini semplici', 'Puzzle a più parti', 'Indovinelli avanzati'],
+  writing: ['Pratica di ricalco', 'Scrittura guidata', 'Scrittura autonoma'],
+  'alphabet-train': ['Lettere A-H', 'Lettere I-P', 'Alfabeto completo'],
+  prepositions: ['Posizioni base (sopra, dentro, sotto)', 'Preposizioni ampliate', 'Relazioni spaziali complesse'],
+  coloring: ['Contorni semplici', 'Scene dettagliate', 'Pattern complessi'],
+  'draw-and-color': ['Copie a griglia semplici', 'Disegni a griglia dettagliati', 'Sfide libere'],
+  'drawing-lines': ['Linee dritte', 'Percorsi curvi', 'Pattern complessi'],
+  'big-small': ['Semplice: grande vs. piccolo', 'Ordinare per dimensione', 'Confronti complessi'],
+  'pattern-train': ['Pattern AB', 'Pattern ABC', 'Pattern ABCD complessi'],
+  'pattern-worksheet': ['Ripetizioni semplici', 'Pattern crescenti', 'Pattern misti complessi'],
+  matching: ['Abbinamento semplice da 3 coppie', 'Abbinamento medio da 5 coppie', 'Abbinamento avanzato da 8+ coppie'],
+  'grid-match': ['Griglie semplici 2×2', 'Griglie medie 3×3', 'Griglie avanzate 4×4'],
+  'shadow-match': ['Coppie di ombre semplici', 'Ombre ruotate', 'Puzzle di ombre complessi'],
+  bingo: ['Bingo semplice 3×3', 'Bingo con immagini 4×4', 'Bingo completo 5×5'],
+  'picture-sort': ['Classificazione in 2 categorie', 'Classificazione in 3 categorie', '4+ categorie'],
+  'missing-pieces': ['Pezzi mancanti semplici', 'Puzzle a più pezzi', 'Puzzle visivi complessi'],
+  'odd-one-out': ['Gruppi semplici da 3', 'Gruppi medi da 4', 'Avanzato: gruppi da 6+'],
+  sudoku: ['Sudoku con immagini semplice 4×4', 'Griglie medie 6×6', 'Griglie difficili 9×9'],
+  'picture-path': ['Percorsi dritti semplici', 'Percorsi ramificati', 'Labirinti complessi'],
+  'find-and-count': ['Trovare 3-5 oggetti', 'Contare fino a 10', 'Scene avanzate'],
+  'find-objects': ['Oggetti semplici', 'Scene intermedie', 'Ricerche complesse'],
+  'treasure-hunt': ['Mappe a griglia semplici', 'Mappe con direzioni', 'Cacce a più passaggi'],
+};
+
+function getItAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const ii = italianImages[key];
+  if (!ii) return en;
+
+  return {
+    ...en,
+    label: itLabels[key] || en.label,
+    imgs: ii.imgs,
+    answerKey: ii.answerKey,
+    pills: tPills(en.pills, 'it'),
+    spotPills: tStringPills(en.spotPills, 'it'),
+    galleryPills: tStringPills(en.galleryPills, 'it'),
+    tierDesc: itTierDescs[key] || en.tierDesc,
+  };
+}
+
 // ─── Config generator ───
 // Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
 // The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
@@ -718,7 +790,8 @@ function buildConfig(
   const isFr = locale === 'fr';
   const isEs = locale === 'es';
   const isPt = locale === 'pt';
-  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : (k: string) => appData[k] || appData.addition;
+  const isIt = locale === 'it';
+  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : (k: string) => appData[k] || appData.addition;
   const d1 = getData(a1);
   const d2 = getData(a2);
   const d3 = getData(a3);
@@ -729,7 +802,7 @@ function buildConfig(
     hero: {
       gradient: heroGradients[seed % heroGradients.length],
       accentColor: d1.accent,
-      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : 'Professional Printables',
+      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : isIt ? 'Stampabili professionali' : 'Professional Printables',
       heading: pageTitle,
       subheading: isDe
         ? `Erstellen Sie beeindruckende ${d1.label}-Arbeitsblätter, die Ihre Kunden lieben werden`
@@ -739,44 +812,46 @@ function buildConfig(
         ? `Crea impresionantes hojas de ${d1.label.toLowerCase()} que a tus clientes les encantarán`
         : isPt
         ? `Crie impressionantes folhas de ${d1.label.toLowerCase()} que os seus clientes vão adorar`
+        : isIt
+        ? `Crea splendide schede di ${d1.label.toLowerCase()} che i tuoi clienti adoreranno`
         : `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
       images: [
-        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : `${d1.label} worksheet sample 1` },
-        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : `${d1.label} worksheet sample 2` },
-        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : `${d1.label} worksheet sample 3` },
+        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : isIt ? `Scheda di ${d1.label} esempio 1` : `${d1.label} worksheet sample 1` },
+        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : isIt ? `Scheda di ${d1.label} esempio 2` : `${d1.label} worksheet sample 2` },
+        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : isIt ? `Scheda di ${d1.label} esempio 3` : `${d1.label} worksheet sample 3` },
       ],
       pills: d1.pills,
       decorativeSymbol: d1.symbol,
     },
     tiered: {
       gradient: tieredGradients[seed % tieredGradients.length],
-      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : 'Skill Levels',
-      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : 'Worksheets for Every Level',
-      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : 'Three difficulty tiers for differentiated content',
+      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : isIt ? 'Livelli di abilità' : 'Skill Levels',
+      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : isIt ? 'Schede per ogni livello' : 'Worksheets for Every Level',
+      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : isIt ? 'Tre livelli di difficoltà per contenuti differenziati' : 'Three difficulty tiers for differentiated content',
       tiers: [
         {
-          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
-          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : `${d2.label} beginner worksheet` },
+          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : isIt ? 'Principiante' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : isIt ? `Scheda di ${d2.label} principiante` : `${d2.label} beginner worksheet` },
           desc: d2.tierDesc[0],
         },
         {
-          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
-          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : `${d3.label} intermediate worksheet` },
+          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : isIt ? 'Esploratore' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : isIt ? `Scheda di ${d3.label} intermedio` : `${d3.label} intermediate worksheet` },
           desc: d3.tierDesc[1],
         },
         {
-          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
-          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : `${d4.label} advanced worksheet` },
+          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : isIt ? 'Esperto' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : isIt ? `Scheda di ${d4.label} avanzato` : `${d4.label} advanced worksheet` },
           desc: d4.tierDesc[2],
         },
       ],
-      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : 'Professional quality at every difficulty level',
+      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : isIt ? 'Qualità professionale ad ogni livello di difficoltà' : 'Professional quality at every difficulty level',
     },
     spotlight: {
       gradient: spotlightGradients[seed % spotlightGradients.length],
-      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : `${d1.label} Showcase`,
-      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : 'See What You Can Create!',
-      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : `Featured ${d1.label.toLowerCase()} worksheet` },
+      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : isIt ? `Vetrina ${d1.label}` : `${d1.label} Showcase`,
+      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : isIt ? 'Scopri cosa puoi creare!' : 'See What You Can Create!',
+      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : isIt ? `Scheda di ${d1.label.toLowerCase()} in evidenza` : `Featured ${d1.label.toLowerCase()} worksheet` },
       pills: d1.spotPills,
       hasBunting: seed % 2 === 0,
       hasConfetti: true,
@@ -784,12 +859,12 @@ function buildConfig(
     },
     gallery: {
       gradient: galleryGradient,
-      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : 'Professional Worksheet Gallery',
-      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : 'Clean, polished layouts ready for your business',
+      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : isIt ? 'Galleria professionale di schede' : 'Professional Worksheet Gallery',
+      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : isIt ? 'Layout puliti e professionali pronti per il tuo business' : 'Clean, polished layouts ready for your business',
       items: [
-        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : `${d2.label} professional worksheet` }, label: d2.label },
-        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : `${d3.label} professional worksheet` }, label: d3.label },
-        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : `${d4.label} professional worksheet` }, label: d4.label },
+        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : isIt ? `Scheda di ${d2.label} professionale` : `${d2.label} professional worksheet` }, label: d2.label },
+        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : isIt ? `Scheda di ${d3.label} professionale` : `${d3.label} professional worksheet` }, label: d3.label },
+        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : isIt ? `Scheda di ${d4.label} professionale` : `${d4.label} professional worksheet` }, label: d4.label },
       ],
       pills: isDe
         ? ['Druckfertig', 'Professionelle Qualität', 'Verschiedene Formate', 'Lösungsschlüssel']
@@ -799,6 +874,8 @@ function buildConfig(
         ? ['Listo para imprimir', 'Calidad profesional', 'Múltiples formatos', 'Claves de respuesta']
         : isPt
         ? ['Pronto para imprimir', 'Qualidade profissional', 'Múltiplos formatos', 'Chaves de resposta']
+        : isIt
+        ? ['Pronto per la stampa', 'Qualità professionale', 'Formati multipli', 'Chiavi di risposta']
         : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },
@@ -961,6 +1038,7 @@ const deConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const frConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const esConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const ptConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const itConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
   const key = `${p.type}:${p.id}` as PageKey;
@@ -969,6 +1047,7 @@ pages.forEach((p, i) => {
   frConfigMap.set(key, buildConfig(p.apps, p.title, i, 'fr'));
   esConfigMap.set(key, buildConfig(p.apps, p.title, i, 'es'));
   ptConfigMap.set(key, buildConfig(p.apps, p.title, i, 'pt'));
+  itConfigMap.set(key, buildConfig(p.apps, p.title, i, 'it'));
 });
 
 // ─── Public API ───
@@ -982,5 +1061,6 @@ export function getPageShowcaseConfig(
   if (locale === 'fr') return frConfigMap.get(key) ?? null;
   if (locale === 'es') return esConfigMap.get(key) ?? null;
   if (locale === 'pt') return ptConfigMap.get(key) ?? null;
+  if (locale === 'it') return itConfigMap.get(key) ?? null;
   return enConfigMap.get(key) ?? null;
 }

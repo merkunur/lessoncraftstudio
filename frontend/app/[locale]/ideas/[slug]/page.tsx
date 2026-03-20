@@ -101,6 +101,43 @@ const appHeroImagesByLocale: Record<string, Record<string, string>> = {
     'word-search': '/samples/german/wordsearch/Worter suchen 1.webp',
     'writing': '/samples/german/writing/writing.webp',
   },
+  it: {
+    'addition': '/samples/italian/addition/Addizione Divertente 1.webp',
+    'image-addition': '/samples/italian/addition/Addizione Divertente 1.webp',
+    'image-subtraction': '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp',
+    'subtraction': '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp',
+    'alphabet-train': "/samples/italian/alphabet train/Treno dell'Alfabeto 1.webp",
+    'big-small': '/samples/italian/big small/Grande o Piccolo 1.webp',
+    'bingo': '/samples/italian/bingo/tombola 1.webp',
+    'chart-count': '/samples/italian/chart count/Grafico con Immagini 1.webp',
+    'code-addition': '/samples/italian/code addition/Codice Segreto Addizione 1.webp',
+    'coloring': '/samples/italian/coloring/coloring portrait 1.webp',
+    'crossword': '/samples/italian/crossword/Cruciverba con Immagini 1.webp',
+    'cryptogram': '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp',
+    'draw-and-color': '/samples/italian/draw and color/Disegna e Colora 1.webp',
+    'drawing-lines': '/samples/italian/drawing lines/Pratica del Disegno di Linee 2.webp',
+    'find-and-count': '/samples/italian/find and count/Vedo Vedo 1.webp',
+    'find-objects': '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp',
+    'grid-match': '/samples/italian/grid match/Puzzle a Griglia 1.webp',
+    'matching': '/samples/italian/matching/Trova le Coppie 1.webp',
+    'math-puzzle': '/samples/italian/math puzzle/Rompicapi Matematici 1.webp',
+    'math-worksheet': '/samples/italian/math worksheet/Scheda di Matematica 1.webp',
+    'missing-pieces': '/samples/italian/missing pieces/Pezzi Mancanti 1.webp',
+    'more-less': '/samples/italian/more less/Più Meno 1.webp',
+    'odd-one-out': '/samples/italian/odd one out/Trova il Diverso 1.webp',
+    'pattern-train': '/samples/italian/pattern train/Treno dei Modelli 1.webp',
+    'pattern-worksheet': '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp',
+    'picture-path': '/samples/italian/picture path/Percorso di Immagini 1.webp',
+    'picture-sort': '/samples/italian/picture sort/Classificazione Immagini 1.webp',
+    'prepositions': '/samples/italian/prepositions/Preposizioni 1.webp',
+    'shadow-match': '/samples/italian/shadow match/Abbina le Ombre 1.webp',
+    'sudoku': '/samples/italian/sudoku/Sudoku con Immagini 1.webp',
+    'treasure-hunt': '/samples/italian/treasure hunt/Caccia al Tesoro 1.webp',
+    'word-guess': '/samples/italian/word guess/Indovina la Parola 1.webp',
+    'word-scramble': '/samples/italian/word scramble/Lettere Mescolate 1.webp',
+    'word-search': '/samples/italian/wordsearch/Cerca Parole 1.webp',
+    'writing': '/samples/italian/writing/writing.webp',
+  },
 };
 
 function getAppHeroImage(appId: string, locale: string): string | undefined {
@@ -174,7 +211,7 @@ export default async function IdeaPage({
   const content = await getIdeaContent(config.ideaId, locale);
 
   // Look up visual showcase config (EN + DE + FR + ES + PT)
-  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt')
+  const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it')
     ? getPageShowcaseConfig('idea', config.ideaId, locale)
     : null;
 

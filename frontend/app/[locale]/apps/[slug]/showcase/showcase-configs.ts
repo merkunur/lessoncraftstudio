@@ -5,6 +5,7 @@ import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
+import { deAltTexts, frAltTexts, esAltTexts, ptAltTexts, itAltTexts } from '@/config/showcase-alt-i18n';
 
 export interface ShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -3673,6 +3674,11 @@ const itAppText: Record<string, EsTextTuple> = {
 
 // ─── Generic localization function ───
 
+// Locale → alt text lookup
+const altTextsByLocale: Record<string, Record<string, [string, string, string, string, string, string, string, string, string, string]>> = {
+  de: deAltTexts, fr: frAltTexts, es: esAltTexts, pt: ptAltTexts, it: itAltTexts,
+};
+
 function localizeShowcase(
   config: ShowcaseConfig,
   appId: string,
@@ -3687,6 +3693,10 @@ function localizeShowcase(
   const [heroH, heroSub, tieredH, tieredSub, t1, t2, t3, trophy, spotH, spotTag, galH, galSub] = dt;
   const di = (filename: string) => imgUrl(gi.folder, filename, locale);
 
+  // Localized alt text (falls back to English if not available)
+  const alts = altTextsByLocale[locale]?.[appId];
+  const a = (index: number, fallback: string) => alts?.[index] || fallback;
+
   return {
     hero: {
       ...config.hero,
@@ -3694,9 +3704,9 @@ function localizeShowcase(
       heading: heroH,
       subheading: heroSub,
       images: [
-        { src: di(gi.imgs[0]), alt: config.hero.images[0]?.alt || '' },
-        { src: di(gi.imgs[1]), alt: config.hero.images[1]?.alt || '' },
-        { src: di(gi.imgs[2]), alt: config.hero.images[2]?.alt || '' },
+        { src: di(gi.imgs[0]), alt: a(0, config.hero.images[0]?.alt || '') },
+        { src: di(gi.imgs[1]), alt: a(1, config.hero.images[1]?.alt || '') },
+        { src: di(gi.imgs[2]), alt: a(2, config.hero.images[2]?.alt || '') },
       ],
       pills: tPills(config.hero.pills, locale),
     },
@@ -3708,7 +3718,7 @@ function localizeShowcase(
       tiers: config.tiered.tiers.map((tier, i) => ({
         ...tier,
         name: t(tier.name, locale),
-        image: { src: di(gi.imgs[i]), alt: tier.image.alt },
+        image: { src: di(gi.imgs[i]), alt: a(3 + i, tier.image.alt) },
         desc: [t1, t2, t3][i] || tier.desc,
       })) as [typeof config.tiered.tiers[0], typeof config.tiered.tiers[1], typeof config.tiered.tiers[2]],
       trophyText: trophy,
@@ -3717,7 +3727,7 @@ function localizeShowcase(
       ...config.spotlight,
       heading: spotH,
       tagline: spotTag,
-      image: { src: di(gi.imgs[3]), alt: config.spotlight.image.alt },
+      image: { src: di(gi.imgs[3]), alt: a(6, config.spotlight.image.alt) },
       pills: tStringPills(config.spotlight.pills, locale),
     },
     gallery: {
@@ -3725,9 +3735,9 @@ function localizeShowcase(
       heading: galH,
       subheading: galSub,
       items: [
-        { image: { src: di(gi.imgs[4]), alt: config.gallery.items[0]?.image.alt || '' }, label: t(config.gallery.items[0]?.label || '', locale) },
-        { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: config.gallery.items[1]?.image.alt || '' }, label: t(config.gallery.items[1]?.label || '', locale) },
-        { image: { src: di(gi.answerKey), alt: config.gallery.items[2]?.image.alt || '' }, label: t('Answer Key', locale) },
+        { image: { src: di(gi.imgs[4]), alt: a(7, config.gallery.items[0]?.image.alt || '') }, label: t(config.gallery.items[0]?.label || '', locale) },
+        { image: { src: di(gi.imgs[5] || gi.imgs[0]), alt: a(8, config.gallery.items[1]?.image.alt || '') }, label: t(config.gallery.items[1]?.label || '', locale) },
+        { image: { src: di(gi.answerKey), alt: a(9, config.gallery.items[2]?.image.alt || '') }, label: t('Answer Key', locale) },
       ],
       pills: tStringPills(config.gallery.pills, locale),
     },

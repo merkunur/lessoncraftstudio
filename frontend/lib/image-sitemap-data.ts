@@ -4,7 +4,6 @@
  */
 
 import { getLocalizedShowcaseConfig } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
-import { encodeImagePath } from '@/lib/encode-image-path';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -44,7 +43,8 @@ export function getAppImageEntries(appId: string, locale: string): ImageSitemapE
 
   function addImage(src: string, alt: string) {
     if (images.length >= 5) return;
-    const fullUrl = `${baseUrl}${encodeImagePath(src)}`;
+    // Showcase config paths are already URL-encoded by img()/imgUrl() — don't double-encode
+    const fullUrl = `${baseUrl}${src}`;
     if (seen.has(fullUrl)) return;
     seen.add(fullUrl);
     images.push({

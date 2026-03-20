@@ -267,12 +267,12 @@ const content: AppContent = {
         caption: 'Mode Addition — grille 3×3 avec 9 pièces de puzzle et réponses mélangées en dessous',
       },
       {
-        src: '/samples/french/math puzzle/Casse-T%EAtes Math%E9matiques 2.webp',
+        src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 2.webp',
         alt: 'Fiche de puzzle maths avec grille 2×3 en soustraction et thème nature',
         caption: 'Mode Soustraction — grille 2×3 pour un défi rapide de 6 pièces',
       },
       {
-        src: '/samples/french/math puzzle/Casse-T%EAtes Math%E9matiques 3.webp',
+        src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 3.webp',
         alt: 'Fiche de puzzle maths avec grille 4×4 en opérations mixtes et thème véhicules',
         caption: 'Mode Mixte — grille 4×4 avec 16 pièces pour une résolution de problèmes avancée',
       },

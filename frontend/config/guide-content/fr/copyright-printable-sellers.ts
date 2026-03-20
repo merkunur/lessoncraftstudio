@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing.webp',
+      src: '/samples/french/writing/writing.webp',
       alt: 'Fiche d’écriture professionnelle démontrant les éléments de design créatif originaux qui sont protégeables par le droit d’auteur',
     },
     samples: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/french/writing/writing.webp',
         alt: 'Fiche d’écriture montrant un texte pédagogique original et des choix de mise en page créatifs',
         caption: 'Les fiches d’écriture contiennent une expression créative originale substantielle dans leur texte pédagogique et leur design',
       },
       {
-        src: '/samples/english/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/Mots Caches 1.webp',
         alt: 'Puzzle de mots mêlés avec des images thématiques démontrant l’arrangement créatif de contenu éducatif',
         caption: 'Les puzzles de mots mêlés démontrent un arrangement créatif protégeable d’éléments de vocabulaire',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring portrait 1.webp',
         alt: 'Page de coloriage avec un design d’illustration thématique original',
         caption: 'Les pages de coloriage ont des positions de droit d’auteur solides en raison de l’originalité visuelle de leurs designs',
       },

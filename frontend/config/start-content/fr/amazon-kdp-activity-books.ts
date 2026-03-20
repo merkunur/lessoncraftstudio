@@ -226,7 +226,7 @@ const content: StartContent = {
       { src: '/samples/french/sudoku/Sudoku en Images 1.webp', alt: 'Fiche de puzzle Sudoku pour intérieur de livre d\'activités KDP', caption: 'Sudoku — Catégorie Phare KDP' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés pour livre d\'activités Amazon KDP', caption: 'Mots Cachés — Catégorie très demandé KDP' },
       { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de puzzle maths pour intérieur de cahier KDP', caption: 'Puzzle Maths — Niche KDP Intemporelle' },
-      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Fiche de mots croisés pour livre d\'activités KDP', caption: 'Mots Croisés — Format Classique de Livre d\'Activités' },
+      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Fiche de mots croisés pour livre d\'activités KDP', caption: 'Mots Croisés — Format Classique de Livre d\'Activités' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Comment Créer des Fiches de Puzzles Sudoku — Démo LessonCraftStudio',

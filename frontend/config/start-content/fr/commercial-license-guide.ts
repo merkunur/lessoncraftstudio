@@ -218,7 +218,7 @@ const content: StartContent = {
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés prête pour la vente commerciale', caption: 'Mots cachés — Meilleur vendeur commercial' },
       { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche de maths addition avec licence commerciale', caption: 'Addition — Incontournable maths toute l\'année' },
       { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage pour livres d\'activités KDP', caption: 'Coloriage — Catégorie KDP à fort volume' },
-      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Mots croisés démontrant la valeur de la licence commerciale multilingue', caption: 'Mots croisés — Valeur licence multilingue' },
+      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés démontrant la valeur de la licence commerciale multilingue', caption: 'Mots croisés — Valeur licence multilingue' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des fiches de mots cachés pour la vente commerciale — Démo LessonCraftStudio',

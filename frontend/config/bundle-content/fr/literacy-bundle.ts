@@ -221,9 +221,9 @@ const content: BundleContent = {
     },
     sampleGallery: [
       { src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche train alphabet avec wagons associant lettres et images', caption: 'Fiche Train Alphabet' },
-      { src: '/samples/french/prepositions/Pr%E9positions 1.webp', alt: 'Fiche de prépositions montrant les relations spatiales avec des images', caption: 'Fiche de Prépositions' },
+      { src: '/samples/french/prepositions/Prépositions 1.webp', alt: 'Fiche de prépositions montrant les relations spatiales avec des images', caption: 'Fiche de Prépositions' },
       { src: '/samples/french/word guess/Devine le Mot 1.webp', alt: 'Fiche deviner les mots avec indices visuels et espaces de lettres', caption: 'Fiche Deviner les Mots' },
-      { src: '/samples/french/word scramble/Mots M%EAl%E9s 1.webp', alt: 'Fiche de mots mélangés avec tuiles de lettres codées par couleur', caption: 'Fiche Mots Mélangés' },
+      { src: '/samples/french/word scramble/Mots Mêlés 1.webp', alt: 'Fiche de mots mélangés avec tuiles de lettres codées par couleur', caption: 'Fiche Mots Mélangés' },
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Grille de mots cachés avec vocabulaire caché', caption: 'Fiche Mots Cachés' },
       { src: '/samples/french/cryptogram/Cryptogramme en Images 1.webp', alt: 'Puzzle cryptogramme avec chiffrement par images', caption: 'Fiche Cryptogramme' },
       { src: '/samples/french/writing/writing.webp', alt: 'Fiche d\'écriture manuscrite avec tracé guidé des lettres', caption: 'Fiche d\'Écriture' },

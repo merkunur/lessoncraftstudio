@@ -202,8 +202,8 @@ const content: BundleContent = {
     sampleGallery: [
       { src: '/samples/french/find and count/Je vois, je voi 1.webp', alt: 'Fiche cherche et compte avec objets cachés à localiser et compter', caption: 'Cherche et Compte' },
       { src: '/samples/french/find objects/Trouve l\'Intrus 1.webp', alt: 'Fiche d\'objets cachés avec scène sans chevauchement et légende visuelle', caption: 'Cherche les Objets' },
-      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Mots croisés 15x15 avec indices en images au lieu de définitions textuelles', caption: 'Mots Croisés en Images' },
-      { src: '/samples/french/treasure hunt/Chasse au Tr%E9sor 1.webp', alt: 'Fiche chasse au trésor avec grille de coordonnées 5x5 et indices directionnels', caption: 'Chasse au Trésor' },
+      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés 15x15 avec indices en images au lieu de définitions textuelles', caption: 'Mots Croisés en Images' },
+      { src: '/samples/french/treasure hunt/Chasse au Trésor 1.webp', alt: 'Fiche chasse au trésor avec grille de coordonnées 5x5 et indices directionnels', caption: 'Chasse au Trésor' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Pack Cherche & Trouve — Découvrez les 4 Générateurs en Action',

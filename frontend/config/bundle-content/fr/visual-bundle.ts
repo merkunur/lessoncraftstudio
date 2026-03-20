@@ -221,7 +221,7 @@ const content: BundleContent = {
     },
     sampleGallery: [
       { src: '/samples/french/big small/big-small-worksheet_worksheet.webp', alt: 'Fiche de comparaison de tailles avec images thématiques pour entourer le plus grand et le plus petit', caption: 'Fiche Grand & Petit' },
-      { src: '/samples/french/pattern train/Train %E0 Motifs 1.webp', alt: 'Fiche de suites logiques en wagons avec élément manquant', caption: 'Fiche Train Suites Logiques' },
+      { src: '/samples/french/pattern train/Train à Motifs 1.webp', alt: 'Fiche de suites logiques en wagons avec élément manquant', caption: 'Fiche Train Suites Logiques' },
       { src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Fiche de reconnaissance de motifs avec séquences à compléter', caption: 'Fiche Séquences Logiques' },
       { src: '/samples/french/draw and color/Dessine et Colorie 1.webp', alt: 'Fiche de dessin avec image de référence et quadrillage pour reproduire l\'illustration', caption: 'Fiche Dessin Quadrillage' },
       { src: '/samples/french/drawing lines/Pratique de Tracer des Lignes 1.webp', alt: 'Fiche de tracé de lignes avec objets appariés et chemins courbes', caption: 'Fiche Graphisme' },

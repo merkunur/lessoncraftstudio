@@ -223,12 +223,12 @@ const content: ToolContent = {
         caption: 'Format portrait — grille 12×12 avec indices images thématiques et liste de mots',
       },
       {
-        src: '/samples/french/wordsearch/Mots Cach%E9s 2.webp',
+        src: '/samples/french/wordsearch/Mots Cachés 2.webp',
         alt: 'Fiche mots cachés en format paysage avec grille élargie et mots en diagonale activés',
         caption: 'Format paysage — grille élargie avec mots en diagonale et inversés activés',
       },
       {
-        src: '/samples/french/wordsearch/Mots Cach%E9s 3.webp',
+        src: '/samples/french/wordsearch/Mots Cachés 3.webp',
         alt: 'Fiche mots cachés utilisant le mode liste de mots personnalisée sans images',
         caption: 'Mode Liste de Mots Personnalisée — mots cachés textuels sans indices images',
       },

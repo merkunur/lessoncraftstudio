@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/treasure hunt/Chasse au Tr%E9sor 1.webp',
+      primary: '/samples/french/treasure hunt/Chasse au Trésor 1.webp',
       primaryAlt: 'Fiche chasse au trésor avec grille de coordonnées 5×5, 6 images thématiques dispersées comme repères, indices directionnels et en-tête thématique bleu-vert avec titre doré',
     },
     sampleGallery: [
       {
-        src: '/samples/french/treasure hunt/Chasse au Tr%E9sor 1.webp',
+        src: '/samples/french/treasure hunt/Chasse au Trésor 1.webp',
         alt: 'Puzzle chasse au trésor avec indices en directions cardinales nord sud est ouest sur une grille de coordonnées 5×5',
         caption: 'Mode Cardinal — directions de la boussole pour un raisonnement spatial avancé et des compétences de lecture de carte',
       },
       {
-        src: '/samples/french/treasure hunt/Chasse au Tr%E9sor 2.webp',
+        src: '/samples/french/treasure hunt/Chasse au Trésor 2.webp',
         alt: 'Puzzle chasse au trésor avec indices en directions simples haut bas gauche droite sur la grille 5×5',
         caption: 'Mode Simple — indices directionnels familiers pour les jeunes apprenants en vocabulaire spatial',
       },
       {
-        src: '/samples/french/treasure hunt/Chasse au Tr%E9sor 1 answer_key.webp',
+        src: '/samples/french/treasure hunt/Chasse au Trésor 1 answer_key.webp',
         alt: 'Corrigé chasse au trésor avec la case finale du trésor surlignée en jaune pâle sur la grille de coordonnées',
         caption: 'Corrigé auto-généré — la surbrillance jaune pâle marque la destination du trésor pour l\'auto-correction',
       },

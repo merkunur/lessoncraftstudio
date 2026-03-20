@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Fiche de reconnaissance de motifs avec images thématiques montrant des exercices de complétion de suites logiques visuelles pour enfants' },
+    heroImage: { src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Fiche de reconnaissance de motifs avec images thématiques montrant des exercices de complétion de suites logiques visuelles pour enfants' },
     samples: [
-      { src: '/samples/english/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Fiche de reconnaissance de motifs avec thème animaux montrant des exercices de motifs AB et ABC', caption: 'Fiche de reconnaissance de motifs utilisant des images thématiques avec plusieurs types de motifs et corrigé automatique' },
-      { src: '/samples/english/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Corrigé de fiche de motifs montrant les motifs complétés avec les images correctes insérées', caption: 'Corrigé automatique généré avec chaque fiche de motifs pour une correction rapide' },
+      { src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Fiche de reconnaissance de motifs avec thème animaux montrant des exercices de motifs AB et ABC', caption: 'Fiche de reconnaissance de motifs utilisant des images thématiques avec plusieurs types de motifs et corrigé automatique' },
+      { src: '/samples/french/pattern worksheet/Puzzles de Motifs 1.webp', alt: 'Corrigé de fiche de motifs montrant les motifs complétés avec les images correctes insérées', caption: 'Corrigé automatique généré avec chaque fiche de motifs pour une correction rapide' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Comment créer des fiches de reconnaissance de motifs — Tutoriel complet',

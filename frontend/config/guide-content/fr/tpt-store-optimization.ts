@@ -197,7 +197,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés optimisé pour la croissance du catalogue d\'une boutique TPT', caption: 'Les puzzles de mots cachés sont parmi les ressources TPT les plus polyvalentes — créez des variations saisonnières thématiques pour une expansion rapide du catalogue' },
       { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de puzzle maths pour la différenciation sur une boutique TPT', caption: 'Les formats de puzzles mathématiques uniques font face à une concurrence plus faible sur TPT que les fiches standard — une stratégie de différenciation pour les catégories encombrées' },
-      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Activité de mots croisés pour les ressources de vocabulaire TPT', caption: 'Les mots croisés sont des activités de vocabulaire très demandées que les enseignants recherchent par matière et niveau scolaire sur TPT' },
+      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Activité de mots croisés pour les ressources de vocabulaire TPT', caption: 'Les mots croisés sont des activités de vocabulaire très demandées que les enseignants recherchent par matière et niveau scolaire sur TPT' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des mots cachés pour votre boutique TPT — Tutoriel d\'optimisation',

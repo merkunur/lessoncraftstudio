@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche train alphabet montrant 11 wagons colorés avec lettres et images-indices pour la reconnaissance des lettres' },
+    heroImage: { src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche train alphabet montrant 11 wagons colorés avec lettres et images-indices pour la reconnaissance des lettres' },
     samples: [
-      { src: '/samples/english/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche train alphabet colorée avec 11 wagons portant des lettres et des images-indices dispersées pour l\'association lettre-image', caption: 'Fiche train alphabet avec 11 wagons colorés et indices d\'association lettre-image' },
-      { src: '/samples/english/alphabet train/Alphabet Train 5.webp', alt: 'Fiche train alphabet avec images thématiques et plusieurs tâches d\'association à difficulté intermédiaire', caption: 'Train alphabet thématique avec nombre d\'indices configurable pour la graduation de la difficulté' },
-      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Fiche train alphabet avancée avec 11 indices pour une difficulté maximale de reconnaissance complète des lettres', caption: 'Niveau de difficulté complet à 11 indices pour un entraînement avancé à la reconnaissance des lettres' },
+      { src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche train alphabet colorée avec 11 wagons portant des lettres et des images-indices dispersées pour l\'association lettre-image', caption: 'Fiche train alphabet avec 11 wagons colorés et indices d\'association lettre-image' },
+      { src: '/samples/french/alphabet train/Train de l\'Alphabet 2.webp', alt: 'Fiche train alphabet avec images thématiques et plusieurs tâches d\'association à difficulté intermédiaire', caption: 'Train alphabet thématique avec nombre d\'indices configurable pour la graduation de la difficulté' },
+      { src: '/samples/french/alphabet train/Train de l\'Alphabet 3.webp', alt: 'Fiche train alphabet avancée avec 11 indices pour une difficulté maximale de reconnaissance complète des lettres', caption: 'Niveau de difficulté complet à 11 indices pour un entraînement avancé à la reconnaissance des lettres' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Comment créer des fiches train alphabet — Tutoriel complet',

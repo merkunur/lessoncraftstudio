@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/missing pieces/Pi%E8ces Manquantes 1.webp',
+      primary: '/samples/french/missing pieces/Pièces Manquantes 1.webp',
       primaryAlt: 'Puzzle pièces manquantes avec des trous découpés dans une illustration colorée et des options de réponse numérotées incluant des distractrices en dessous avec en-tête turquoise Pièces Manquantes et double bordure bleu sarcelle-rose vif',
     },
     sampleGallery: [
       {
-        src: '/samples/french/missing pieces/Pi%E8ces Manquantes 1.webp',
+        src: '/samples/french/missing pieces/Pièces Manquantes 1.webp',
         alt: 'Puzzle de pièces manquantes avec des trous carrés découpés dans une illustration colorée et des options de réponse numérotées pour une identification visuelle',
         caption: 'Forme de pièce carrée — découpes géométriques nettes avec options de réponse numérotées incluant des distractrices',
       },
       {
-        src: '/samples/french/missing pieces/Pi%E8ces Manquantes 2.webp',
+        src: '/samples/french/missing pieces/Pièces Manquantes 2.webp',
         alt: 'Puzzle de pièces manquantes avec des trous et des options de réponse numérotées incluant des pièces distractrices pour un défi de discrimination visuelle accru',
         caption: 'Forme de pièce alternative — avec des options distractrices qui empêchent la résolution par élimination',
       },
       {
-        src: '/samples/french/missing pieces/Pi%E8ces Manquantes 1 answer_key.webp',
+        src: '/samples/french/missing pieces/Pièces Manquantes 1 answer_key.webp',
         alt: 'Corrigé du puzzle pièces manquantes avec des étiquettes numériques surlignées en jaune placées à l\'intérieur de chaque trou montrant l\'index correct de l\'option',
         caption: 'Corrigé auto-généré — les étiquettes surlignées en jaune (rgba(255,255,0,0.7)) montrent la bonne option pour chaque trou',
       },

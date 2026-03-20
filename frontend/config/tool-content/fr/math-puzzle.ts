@@ -219,12 +219,12 @@ const content: ToolContent = {
         caption: 'Mode Addition avec puzzle image thématique',
       },
       {
-        src: '/samples/french/math puzzle/Casse-T%EAtes Math%E9matiques 2.webp',
+        src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 2.webp',
         alt: 'Fiche de puzzle maths avec des équations de soustraction et des pièces numérotées mélangées sous la grille',
         caption: 'Mode Soustraction — résolvez les équations pour reconstituer l\'image',
       },
       {
-        src: '/samples/french/math puzzle/Casse-T%EAtes Math%E9matiques 3.webp',
+        src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 3.webp',
         alt: 'Puzzle maths mixte addition et soustraction avec une grille plus grande pour les élèves avancés',
         caption: 'Mode Mixte — addition et soustraction dans un seul puzzle',
       },

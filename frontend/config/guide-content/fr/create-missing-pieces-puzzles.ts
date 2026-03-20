@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Fiche puzzle jigsaw avec trous découpés dans une illustration colorée et options de solution numérotées incluant des distracteurs en dessous avec en-tête turquoise Missing Pieces et cadrage double bordure bleu sarcelle et rose' },
+    heroImage: { src: '/samples/french/missing pieces/Pièces Manquantes 1.webp', alt: 'Fiche puzzle jigsaw avec trous découpés dans une illustration colorée et options de solution numérotées incluant des distracteurs en dessous avec en-tête turquoise Missing Pieces et cadrage double bordure bleu sarcelle et rose' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Fiche puzzle pièces manquantes montrant une image avec des trous découpés et des options de solution numérotées affichées en dessous avec en-tête à double bordure', caption: 'Fiche puzzle jigsaw avec pièces extraites intelligemment et options de solution numérotées incluant des distracteurs' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Corrigé auto-généré avec étiquettes numérotées surlignées en jaune placées à l\'intérieur de chaque trou montrant l\'index correct de l\'option', caption: 'Corrigé auto-généré avec étiquettes surlignées en jaune montrant l\'option correcte pour chaque trou' },
+      { src: '/samples/french/missing pieces/Pièces Manquantes 1.webp', alt: 'Fiche puzzle pièces manquantes montrant une image avec des trous découpés et des options de solution numérotées affichées en dessous avec en-tête à double bordure', caption: 'Fiche puzzle jigsaw avec pièces extraites intelligemment et options de solution numérotées incluant des distracteurs' },
+      { src: '/samples/french/missing pieces/Pièces Manquantes 1 answer_key.webp', alt: 'Corrigé auto-généré avec étiquettes numérotées surlignées en jaune placées à l\'intérieur de chaque trou montrant l\'index correct de l\'option', caption: 'Corrigé auto-généré avec étiquettes surlignées en jaune montrant l\'option correcte pour chaque trou' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Comment créer des puzzles pièces manquantes — Tutoriel complet',

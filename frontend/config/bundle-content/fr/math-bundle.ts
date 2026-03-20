@@ -227,7 +227,7 @@ const content: BundleContent = {
       { src: '/samples/french/code addition/Code Secret Addition 1.webp', alt: 'Puzzle d\'addition codée avec décodage de lettres', caption: 'Puzzle Addition Codée' },
       { src: '/samples/french/more less/Plus Moins 1.webp', alt: 'Fiche de comparaison plus grand que plus petit que', caption: 'Fiche Plus ou Moins' },
       { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Puzzle-grille mathématique avec équations', caption: 'Fiche Puzzle Maths' },
-      { src: '/samples/french/math worksheet/Feuille de Math%E9matique 1.webp', alt: 'Puzzle d\'algèbre visuelle avec variables images', caption: 'Puzzle Algébrique Illustré' },
+      { src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp', alt: 'Puzzle d\'algèbre visuelle avec variables images', caption: 'Puzzle Algébrique Illustré' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Pack Maîtrise Maths — Découvrez les 6 Générateurs en Action',

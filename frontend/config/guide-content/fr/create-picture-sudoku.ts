@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Fiche sudoku en images avec illustrations thématiques montrant un puzzle logique 4x4 pour jeunes enfants' },
+    heroImage: { src: '/samples/french/sudoku/Sudoku en Images 1.webp', alt: 'Fiche sudoku en images avec illustrations thématiques montrant un puzzle logique 4x4 pour jeunes enfants' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku 4x4 basé sur des images avec thème animalier pour enfants de maternelle', caption: 'Sudoku en images difficulté facile utilisant le thème animaux de la ferme avec quatre cases vides' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Corrigé du sudoku en images montrant la grille 4x4 complétée avec toutes les images remplies', caption: 'Corrigé automatique généré avec chaque puzzle de sudoku en images' },
+      { src: '/samples/french/sudoku/Sudoku en Images 1.webp', alt: 'Puzzle sudoku 4x4 basé sur des images avec thème animalier pour enfants de maternelle', caption: 'Sudoku en images difficulté facile utilisant le thème animaux de la ferme avec quatre cases vides' },
+      { src: '/samples/french/sudoku/Sudoku en Images 1.webp', alt: 'Corrigé du sudoku en images montrant la grille 4x4 complétée avec toutes les images remplies', caption: 'Corrigé automatique généré avec chaque puzzle de sudoku en images' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Comment créer un sudoku en images — Tutoriel complet',

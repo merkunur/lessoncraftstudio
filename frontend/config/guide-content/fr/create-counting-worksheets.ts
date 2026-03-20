@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/chart count/worksheet.webp', alt: 'Fiche graphique en images avec grille 4×5 d\'images dispersées et diagramme en barres pour la pratique du comptage et des graphiques' },
+    heroImage: { src: '/samples/french/chart count/worksheet.webp', alt: 'Fiche graphique en images avec grille 4×5 d\'images dispersées et diagramme en barres pour la pratique du comptage et des graphiques' },
     samples: [
-      { src: '/samples/english/chart count/worksheet.webp', alt: 'Fiche graphique en images avec 20 icônes dispersées dans une grille 4×5 et diagramme en barres de 6 colonnes en dessous', caption: 'Fiche graphique en images complète avec grille d\'images dispersées et diagramme en barres pour la pratique de comptage des élèves' },
-      { src: '/samples/english/chart count/chart count answer_key.webp', alt: 'Corrigé graphique en images avec cellules surlignées en jaune montrant les comptages corrects', caption: 'Corrigé auto-généré avec cellules surlignées en jaune (#FFC857) montrant le comptage correct pour chaque type d\'image' },
+      { src: '/samples/french/chart count/worksheet.webp', alt: 'Fiche graphique en images avec 20 icônes dispersées dans une grille 4×5 et diagramme en barres de 6 colonnes en dessous', caption: 'Fiche graphique en images complète avec grille d\'images dispersées et diagramme en barres pour la pratique de comptage des élèves' },
+      { src: '/samples/french/chart count/answer_key (1).webp', alt: 'Corrigé graphique en images avec cellules surlignées en jaune montrant les comptages corrects', caption: 'Corrigé auto-généré avec cellules surlignées en jaune (#FFC857) montrant le comptage correct pour chaque type d\'image' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Comment créer des fiches de comptage et graphiques — Tutoriel complet',

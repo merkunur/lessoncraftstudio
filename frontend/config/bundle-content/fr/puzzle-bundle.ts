@@ -194,11 +194,11 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/missing pieces/Pi%E8ces Manquantes 1.webp',
+      primary: '/samples/french/missing pieces/Pièces Manquantes 1.webp',
       primaryAlt: 'Puzzle pièces manquantes avec segments de grille retirés pour un défi de raisonnement spatial',
     },
     sampleGallery: [
-      { src: '/samples/french/missing pieces/Pi%E8ces Manquantes 1.webp', alt: 'Puzzle pièces manquantes avec segments de grille d\'image retirés', caption: 'Puzzle Pièces Manquantes' },
+      { src: '/samples/french/missing pieces/Pièces Manquantes 1.webp', alt: 'Puzzle pièces manquantes avec segments de grille d\'image retirés', caption: 'Puzzle Pièces Manquantes' },
       { src: '/samples/french/odd one out/Trouve l\'Intrus 1.webp', alt: 'Fiche trouve l\'intrus avec rangées d\'images similaires et un élément différent', caption: 'Fiche Trouve l\'Intrus' },
       { src: '/samples/french/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku enfants 4x4 avec images thématiques au lieu de chiffres', caption: 'Puzzle Sudoku Enfants' },
       { src: '/samples/french/picture path/Chemin d\'Images 1.webp', alt: 'Labyrinthe parcours d\'images avec route thématique à travers une grille', caption: 'Labyrinthe Parcours d\'Images' },

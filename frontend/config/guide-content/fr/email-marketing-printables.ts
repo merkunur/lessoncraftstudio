@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/Mots Caches 1.webp',
+      src: '/samples/french/wordsearch/Mots Caches 1.webp',
       alt: 'Fiche de mots mêlés professionnelle démontrant la qualité de lead magnet pour les campagnes d’email marketing',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/Mots Caches 1.webp',
         alt: 'Fiche de mots mêlés idéale pour les lead magnets email qui attirent les acheteurs d’imprimables',
         caption: 'Les mots mêlés font des lead magnets convaincants qui attirent votre audience d’acheteurs cibles',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring portrait 1.webp',
         alt: 'Page de coloriage montrant un produit visuellement attrayant pour la promotion par campagne email',
         caption: 'Les produits visuellement percutants génèrent des taux de clics plus élevés dans les campagnes email',
       },
       {
-        src: '/samples/english/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/Addition Amusant 1.webp',
         alt: 'Fiche d’addition démontrant un contenu intemporel pour les séquences email automatisées',
         caption: 'Le contenu mathématique intemporel alimente les campagnes email saisonnières automatisées toute l’année',
       },

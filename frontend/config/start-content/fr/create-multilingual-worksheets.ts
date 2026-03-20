@@ -220,8 +220,8 @@ const content: StartContent = {
     heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de puzzle de mots cachés démontrant la génération de fiches multilingues en 11 langues' },
     samples: [
       { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de puzzle de mots cachés avec vocabulaire sensible à la langue', caption: 'Mots Cachés — Meilleure Démo Multilingue' },
-      { src: '/samples/french/crossword/Mots Crois%E9s en Images 1.webp', alt: 'Mots croisés avec indices et réponses localisés', caption: 'Mots Croisés — Puzzles Entièrement Localisés' },
-      { src: '/samples/french/word scramble/Mots M%EAl%E9s 1.webp', alt: 'Fiche de mots mêlés avec vocabulaire adapté à la langue', caption: 'Mots Mêlés — Contenu Sensible à la Langue' },
+      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés avec indices et réponses localisés', caption: 'Mots Croisés — Puzzles Entièrement Localisés' },
+      { src: '/samples/french/word scramble/Mots Mêlés 1.webp', alt: 'Fiche de mots mêlés avec vocabulaire adapté à la langue', caption: 'Mots Mêlés — Contenu Sensible à la Langue' },
       { src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp', alt: 'Fiche de train de l\'alphabet montrant des jeux de lettres spécifiques à la langue', caption: 'Train de l\'Alphabet — Jeux de Lettres Adaptés' },
     ],
     youtubeId: '36keBFzJbPo',

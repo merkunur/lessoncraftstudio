@@ -42,7 +42,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'addition-worksheet-maker',
       de: 'additions-arbeitsblatt-ersteller',
       fr: 'generateur-fiches-addition',
-      es: 'generador-fichas-suma', pt: 'gerador-fichas-adicao'
+      es: 'generador-fichas-suma', pt: 'gerador-fichas-adicao', it: 'generatore-schede-addizione'
     },
   },
   {
@@ -51,7 +51,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'subtraction-worksheet-maker',
       de: 'subtraktions-arbeitsblatt-ersteller',
       fr: 'generateur-fiches-soustraction',
-      es: 'generador-fichas-resta', pt: 'gerador-fichas-subtracao'
+      es: 'generador-fichas-resta', pt: 'gerador-fichas-subtracao', it: 'generatore-schede-sottrazione'
     },
   },
   {
@@ -60,7 +60,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'code-addition-worksheet-maker',
       de: 'bilder-additions-ersteller',
       fr: 'generateur-addition-codee',
-      es: 'generador-suma-codificada', pt: 'gerador-adicao-codificada'
+      es: 'generador-suma-codificada', pt: 'gerador-adicao-codificada', it: 'generatore-addizione-codificata'
     },
   },
   {
@@ -69,7 +69,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'more-or-less-worksheet-maker',
       de: 'mehr-weniger-ersteller',
       fr: 'generateur-comparaison-quantites',
-      es: 'generador-comparacion-cantidades', pt: 'gerador-comparacao-quantidades'
+      es: 'generador-comparacion-cantidades', pt: 'gerador-comparacao-quantidades', it: 'generatore-confronto-quantita'
     },
   },
   {
@@ -78,7 +78,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'math-puzzle-maker',
       de: 'mathe-raetsel-ersteller',
       fr: 'generateur-puzzle-maths',
-      es: 'generador-puzzles-matematicos', pt: 'gerador-puzzles-matematicos'
+      es: 'generador-puzzles-matematicos', pt: 'gerador-puzzles-matematicos', it: 'generatore-puzzle-matematici'
     },
   },
   {
@@ -87,7 +87,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'math-worksheet-maker',
       de: 'mathe-arbeitsblatt-ersteller',
       fr: 'generateur-exercices-maths',
-      es: 'generador-ejercicios-matematicas', pt: 'gerador-exercicios-matematica'
+      es: 'generador-ejercicios-matematicas', pt: 'gerador-exercicios-matematica', it: 'generatore-esercizi-matematica'
     },
   },
   {
@@ -96,7 +96,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'alphabet-train-maker',
       de: 'alphabet-zug-ersteller',
       fr: 'generateur-train-alphabet',
-      es: 'generador-tren-abecedario', pt: 'gerador-trem-alfabeto'
+      es: 'generador-tren-abecedario', pt: 'gerador-trem-alfabeto', it: 'generatore-treno-alfabeto'
     },
   },
   {
@@ -105,7 +105,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'prepositions-worksheet-maker',
       de: 'praepositionen-arbeitsblatt-ersteller',
       fr: 'generateur-fiches-prepositions',
-      es: 'generador-fichas-preposiciones', pt: 'gerador-fichas-preposicoes'
+      es: 'generador-fichas-preposiciones', pt: 'gerador-fichas-preposicoes', it: 'generatore-schede-preposizioni'
     },
   },
   {
@@ -114,7 +114,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'word-guess-maker',
       de: 'woerter-raten-ersteller',
       fr: 'generateur-deviner-mots',
-      es: 'generador-adivinar-palabras', pt: 'gerador-adivinhar-palavras'
+      es: 'generador-adivinar-palabras', pt: 'gerador-adivinhar-palavras', it: 'generatore-indovina-parole'
     },
   },
   {
@@ -123,7 +123,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'word-scramble-maker',
       de: 'buchstabensalat-ersteller',
       fr: 'generateur-mots-melanges',
-      es: 'generador-palabras-desordenadas', pt: 'gerador-palavras-embaralhadas'
+      es: 'generador-palabras-desordenadas', pt: 'gerador-palavras-embaralhadas', it: 'generatore-parole-mescolate'
     },
   },
   {
@@ -132,7 +132,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'word-search-maker',
       de: 'wortsuche-ersteller',
       fr: 'generateur-mots-caches',
-      es: 'generador-sopa-letras', pt: 'gerador-caca-palavras'
+      es: 'generador-sopa-letras', pt: 'gerador-caca-palavras', it: 'generatore-cerca-parole'
     },
   },
   {
@@ -141,7 +141,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'cryptogram-maker',
       de: 'kryptogramm-ersteller',
       fr: 'generateur-cryptogramme',
-      es: 'generador-criptogramas', pt: 'gerador-criptogramas'
+      es: 'generador-criptogramas', pt: 'gerador-criptogramas', it: 'generatore-crittogrammi'
     },
   },
   {
@@ -150,7 +150,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'handwriting-worksheet-maker',
       de: 'schreibuebungen-ersteller',
       fr: 'generateur-fiches-ecriture',
-      es: 'generador-fichas-escritura', pt: 'gerador-fichas-escrita'
+      es: 'generador-fichas-escritura', pt: 'gerador-fichas-escrita', it: 'generatore-schede-scrittura'
     },
   },
   {
@@ -159,7 +159,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'big-and-small-worksheet-maker',
       de: 'gross-klein-ersteller',
       fr: 'generateur-fiches-grand-petit',
-      es: 'generador-fichas-grande-pequeno', pt: 'gerador-fichas-grande-pequeno'
+      es: 'generador-fichas-grande-pequeno', pt: 'gerador-fichas-grande-pequeno', it: 'generatore-schede-grande-piccolo'
     },
   },
   {
@@ -168,7 +168,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'pattern-train-maker',
       de: 'muster-zug-ersteller',
       fr: 'generateur-train-suites-logiques',
-      es: 'generador-tren-patrones', pt: 'gerador-trem-padroes'
+      es: 'generador-tren-patrones', pt: 'gerador-trem-padroes', it: 'generatore-treno-sequenze'
     },
   },
   {
@@ -177,7 +177,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'pattern-worksheet-maker',
       de: 'muster-arbeitsblatt-ersteller',
       fr: 'generateur-fiches-sequences-logiques',
-      es: 'generador-fichas-patrones', pt: 'gerador-fichas-padroes'
+      es: 'generador-fichas-patrones', pt: 'gerador-fichas-padroes', it: 'generatore-schede-sequenze'
     },
   },
   {
@@ -186,7 +186,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'draw-and-color-maker',
       de: 'rasterzeichnen-ersteller',
       fr: 'generateur-dessin-quadrillage',
-      es: 'generador-dibujo-cuadricula', pt: 'gerador-desenho-quadricula'
+      es: 'generador-dibujo-cuadricula', pt: 'gerador-desenho-quadricula', it: 'generatore-disegno-griglia'
     },
   },
   {
@@ -195,7 +195,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'drawing-lines-maker',
       de: 'linien-ziehen-ersteller',
       fr: 'generateur-fiches-graphisme',
-      es: 'generador-fichas-grafomotricidad', pt: 'gerador-fichas-grafomotricidade'
+      es: 'generador-fichas-grafomotricidad', pt: 'gerador-fichas-grafomotricidade', it: 'generatore-schede-pregrafismo'
     },
   },
   {
@@ -204,7 +204,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'coloring-page-maker',
       de: 'malvorlagen-ersteller',
       fr: 'generateur-pages-coloriage',
-      es: 'generador-paginas-colorear', pt: 'gerador-paginas-colorir'
+      es: 'generador-paginas-colorear', pt: 'gerador-paginas-colorir', it: 'generatore-pagine-colorare'
     },
   },
   {
@@ -213,7 +213,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'chart-count-maker',
       de: 'bilddiagramm-ersteller',
       fr: 'generateur-graphique-images',
-      es: 'generador-graficos-imagenes', pt: 'gerador-graficos-imagens'
+      es: 'generador-graficos-imagenes', pt: 'gerador-graficos-imagens', it: 'generatore-grafici-immagini'
     },
   },
   {
@@ -222,7 +222,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'matching-worksheet-maker',
       de: 'zuordnungs-arbeitsblatt-ersteller',
       fr: 'generateur-fiches-association',
-      es: 'generador-fichas-asociacion', pt: 'gerador-fichas-associacao'
+      es: 'generador-fichas-asociacion', pt: 'gerador-fichas-associacao', it: 'generatore-schede-abbinamento'
     },
   },
   {
@@ -231,7 +231,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'grid-match-maker',
       de: 'raster-puzzle-ersteller',
       fr: 'generateur-puzzle-grille',
-      es: 'generador-puzzle-cuadricula', pt: 'gerador-puzzle-quadricula'
+      es: 'generador-puzzle-cuadricula', pt: 'gerador-puzzle-quadricula', it: 'generatore-puzzle-griglia'
     },
   },
   {
@@ -240,7 +240,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'shadow-match-maker',
       de: 'schattenbilder-ersteller',
       fr: 'generateur-discrimination-visuelle',
-      es: 'generador-discriminacion-visual', pt: 'gerador-discriminacao-visual'
+      es: 'generador-discriminacion-visual', pt: 'gerador-discriminacao-visual', it: 'generatore-discriminazione-visiva'
     },
   },
   {
@@ -249,7 +249,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'bingo-card-maker',
       de: 'bingo-karten-ersteller',
       fr: 'generateur-cartes-bingo',
-      es: 'generador-tarjetas-bingo', pt: 'gerador-cartelas-bingo'
+      es: 'generador-tarjetas-bingo', pt: 'gerador-cartelas-bingo', it: 'generatore-cartelle-bingo'
     },
   },
   {
@@ -258,7 +258,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'picture-sort-maker',
       de: 'bilder-sortieren-ersteller',
       fr: 'generateur-tri-images',
-      es: 'generador-clasificacion-imagenes', pt: 'gerador-classificacao-imagens'
+      es: 'generador-clasificacion-imagenes', pt: 'gerador-classificacao-imagens', it: 'generatore-classificazione-immagini'
     },
   },
   {
@@ -267,7 +267,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'missing-pieces-maker',
       de: 'fehlende-puzzleteile-ersteller',
       fr: 'generateur-pieces-manquantes',
-      es: 'generador-piezas-faltantes', pt: 'gerador-pecas-faltantes'
+      es: 'generador-piezas-faltantes', pt: 'gerador-pecas-faltantes', it: 'generatore-pezzi-mancanti'
     },
   },
   {
@@ -276,7 +276,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'odd-one-out-maker',
       de: 'was-passt-nicht-ersteller',
       fr: 'generateur-fiches-intrus',
-      es: 'generador-fichas-intruso', pt: 'gerador-fichas-intruso'
+      es: 'generador-fichas-intruso', pt: 'gerador-fichas-intruso', it: 'generatore-schede-intruso'
     },
   },
   {
@@ -285,7 +285,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'sudoku-maker',
       de: 'kinder-sudoku-ersteller',
       fr: 'generateur-sudoku-enfants',
-      es: 'generador-sudoku-infantil', pt: 'gerador-sudoku-infantil'
+      es: 'generador-sudoku-infantil', pt: 'gerador-sudoku-infantil', it: 'generatore-sudoku-bambini'
     },
   },
   {
@@ -294,7 +294,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'picture-path-maker',
       de: 'bilderpfad-ersteller',
       fr: 'generateur-parcours-images',
-      es: 'generador-recorrido-imagenes', pt: 'gerador-percurso-imagens'
+      es: 'generador-recorrido-imagenes', pt: 'gerador-percurso-imagens', it: 'generatore-percorso-immagini'
     },
   },
   {
@@ -303,7 +303,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'find-and-count-maker',
       de: 'suchen-und-zaehlen-ersteller',
       fr: 'generateur-cherche-et-compte',
-      es: 'generador-busca-cuenta', pt: 'gerador-procura-conta'
+      es: 'generador-busca-cuenta', pt: 'gerador-procura-conta', it: 'generatore-cerca-e-conta'
     },
   },
   {
@@ -312,7 +312,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'hidden-object-maker',
       de: 'suchbilder-ersteller',
       fr: 'generateur-cherche-objets',
-      es: 'generador-busca-objetos', pt: 'gerador-procura-objetos'
+      es: 'generador-busca-objetos', pt: 'gerador-procura-objetos', it: 'generatore-cerca-oggetti'
     },
   },
   {
@@ -321,7 +321,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'crossword-maker',
       de: 'bilderkreuzwortraetsel-ersteller',
       fr: 'generateur-mots-croises-images',
-      es: 'generador-crucigramas-imagenes', pt: 'gerador-palavras-cruzadas'
+      es: 'generador-crucigramas-imagenes', pt: 'gerador-palavras-cruzadas', it: 'generatore-cruciverba-immagini'
     },
   },
   {
@@ -330,7 +330,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'treasure-hunt-maker',
       de: 'schatzsuche-ersteller',
       fr: 'generateur-chasse-au-tresor',
-      es: 'generador-busqueda-tesoro', pt: 'gerador-caca-tesouro'
+      es: 'generador-busqueda-tesoro', pt: 'gerador-caca-tesouro', it: 'generatore-caccia-tesoro'
     },
   },
 ];

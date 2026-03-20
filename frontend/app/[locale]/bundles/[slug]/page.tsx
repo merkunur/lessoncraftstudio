@@ -83,11 +83,13 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+        images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
       },
       twitter: {
         card: 'summary_large_image',
         title,
         description,
+        images: [`${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -165,6 +167,29 @@ export default async function BundlePage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
+        {/* ImageObject schema with license markup (Google Licensable badge) */}
+        {content.visuals?.sampleGallery && content.visuals.sampleGallery.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(
+              content.visuals.sampleGallery.slice(0, 6).map((img: { src: string; alt: string; caption?: string }) => ({
+                '@context': 'https://schema.org',
+                '@type': 'ImageObject',
+                contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+                name: img.alt,
+                caption: img.caption || img.alt,
+                encodingFormat: 'image/webp',
+                width: 400,
+                height: 566,
+                license: `${baseUrl}/${locale}/license`,
+                acquireLicensePage: pageUrl,
+                creditText: 'LessonCraftStudio',
+                creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+              }))
+            ) }}
+          />
+        )}
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">

@@ -134,7 +134,7 @@ export function WorksheetShowcaseSection({ config }: { config: HeroShowcaseConfi
           {/* Worksheet 1 — lowest step */}
           <div className="w-full md:w-1/3 md:self-end">
             <div className={`rounded-xl overflow-hidden shadow-xl bg-white border-2 ${c.border} transform md:translate-y-8`}>
-              <img src={images[0].src} alt={images[0].alt} className="w-full h-auto" loading="lazy" />
+              <img src={images[0].src} alt={images[0].alt} width={400} height={566} className="w-full h-auto" loading="eager" decoding="async" fetchPriority="high" />
             </div>
           </div>
 
@@ -146,7 +146,7 @@ export function WorksheetShowcaseSection({ config }: { config: HeroShowcaseConfi
           {/* Worksheet 2 — middle step */}
           <div className="w-full md:w-1/3">
             <div className={`rounded-xl overflow-hidden shadow-xl bg-white border-2 ${c.border} transform md:translate-y-0`}>
-              <img src={images[1].src} alt={images[1].alt} className="w-full h-auto" loading="lazy" />
+              <img src={images[1].src} alt={images[1].alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
           </div>
 
@@ -158,7 +158,7 @@ export function WorksheetShowcaseSection({ config }: { config: HeroShowcaseConfi
           {/* Worksheet 3 — highest step */}
           <div className="w-full md:w-1/3 md:self-start">
             <div className={`rounded-xl overflow-hidden shadow-xl bg-white border-2 ${c.border} transform md:-translate-y-8`}>
-              <img src={images[2].src} alt={images[2].alt} className="w-full h-auto" loading="lazy" />
+              <img src={images[2].src} alt={images[2].alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
           </div>
         </div>
@@ -217,7 +217,7 @@ export function TieredShowcaseSection({ config }: { config: TieredShowcaseConfig
 
               {/* Worksheet card */}
               <div className={`rounded-xl overflow-hidden shadow-lg bg-white border-2 ${tier.borderColorClass} w-full`}>
-                <img src={tier.image.src} alt={tier.image.alt} className="w-full h-auto" loading="lazy" />
+                <img src={tier.image.src} alt={tier.image.alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
               </div>
 
               {/* Description */}
@@ -292,7 +292,7 @@ export function SpotlightSection({ config }: { config: SpotlightConfig }) {
         <div className="max-w-sm mx-auto">
           <div className="p-1.5 rounded-2xl bg-gradient-to-br from-yellow-400 via-amber-500 to-yellow-600 shadow-2xl">
             <div className="rounded-xl overflow-hidden bg-white">
-              <img src={image.src} alt={image.alt} className="w-full h-auto" loading="lazy" />
+              <img src={image.src} alt={image.alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
             </div>
           </div>
         </div>
@@ -332,9 +332,9 @@ export function GallerySection({ config }: { config: GalleryConfig }) {
         </div>
 
         {/* Gallery grid with copper-style frames */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto" role="group" aria-label={heading}>
           {items.map((item) => (
-            <div key={item.label + item.image.src} className="flex flex-col items-center">
+            <figure key={item.label + item.image.src} className="flex flex-col items-center">
               {/* Corner accents + framed image */}
               <div className="relative w-full">
                 <div className="absolute -top-1.5 -left-1.5 w-8 h-8 border-t-[3px] border-l-[3px] rounded-tl-sm" style={{ borderColor: frameColor }} />
@@ -343,15 +343,15 @@ export function GallerySection({ config }: { config: GalleryConfig }) {
                 <div className="absolute -bottom-1.5 -right-1.5 w-8 h-8 border-b-[3px] border-r-[3px] rounded-br-sm" style={{ borderColor: frameColor }} />
 
                 <div className="rounded-lg overflow-hidden shadow-lg bg-white border border-stone-200">
-                  <img src={item.image.src} alt={item.image.alt} className="w-full h-auto" loading="lazy" />
+                  <img src={item.image.src} alt={item.image.alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
                 </div>
               </div>
 
               {/* Plaque label */}
-              <div className="mt-3 px-4 py-1 rounded text-xs font-semibold tracking-wide uppercase text-center" style={{ background: `linear-gradient(135deg, ${frameColor}dd, ${frameColor})`, color: '#fefcf3' }}>
+              <figcaption className="mt-3 px-4 py-1 rounded text-xs font-semibold tracking-wide uppercase text-center" style={{ background: `linear-gradient(135deg, ${frameColor}dd, ${frameColor})`, color: '#fefcf3' }}>
                 {item.label}
-              </div>
-            </div>
+              </figcaption>
+            </figure>
           ))}
         </div>
 

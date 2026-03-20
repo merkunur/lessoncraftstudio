@@ -6,6 +6,8 @@ import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-sl
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
+import { showcaseConfigs } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
+import { encodeImagePath } from '@/lib/encode-image-path';
 
 // ============================================================
 // SEO METADATA (entrepreneur-focused, all 11 locales)
@@ -399,7 +401,9 @@ export default async function AppsPage({ params }: PageProps) {
   const appsForSchema = Object.entries(ALL_APPS).map(([appId, app]) => {
     const slugId = appIdToSlugId[appId] || appId;
     const slug = getSlugForLocale(slugId, locale as SupportedLocale) || slugId;
-    return { id: appId, name: getLocalizedAppName(appId, locale), slug, description: `${app.category} printable generator` };
+    const heroSrc = showcaseConfigs[appId]?.hero?.images?.[0]?.src;
+    const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
+    return { id: appId, name: getLocalizedAppName(appId, locale), slug, description: `${app.category} printable generator`, image };
   });
   const itemListSchema = generateAppsItemListSchema(locale, appsForSchema);
 

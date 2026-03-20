@@ -200,7 +200,11 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     },
     "description": homepageSoftwareDescriptions[locale] || homepageSoftwareDescriptions.en,
     "featureList": homepageFeatureLists[locale] || homepageFeatureLists.en,
-    "screenshot": `${baseUrl}/opengraph-image.png`,
+    "screenshot": [
+      `${baseUrl}/samples/english/addition/Addition%20Fun%201.webp`,
+      `${baseUrl}/samples/english/wordsearch/Word%20Search%20Fun%201.webp`,
+      `${baseUrl}/samples/english/coloring/Coloring%20Fun%201.webp`,
+    ],
     "provider": { "@id": `${baseUrl}/#organization` }
   };
   schemas.push(softwareSchema);
@@ -293,7 +297,7 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
  */
 export function generateAppsItemListSchema(
   locale: string,
-  apps: Array<{ id: string; name: string; slug: string; description?: string }>,
+  apps: Array<{ id: string; name: string; slug: string; description?: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   const itemListElements = apps.map((app, index) => ({
@@ -301,7 +305,8 @@ export function generateAppsItemListSchema(
     "position": index + 1,
     "name": app.name,
     "url": `${baseUrl}/${locale}/apps/${app.slug}`,
-    ...(app.description && { "description": app.description })
+    ...(app.description && { "description": app.description }),
+    ...(app.image && { "image": app.image }),
   }));
 
   return {
@@ -352,7 +357,7 @@ export function generateToolsCollectionSchema(locale: string, baseUrl: string = 
 
 export function generateToolsItemListSchema(
   locale: string,
-  tools: Array<{ name: string; slug: string }>,
+  tools: Array<{ name: string; slug: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   return {
@@ -360,6 +365,7 @@ export function generateToolsItemListSchema(
     "numberOfItems": tools.length,
     "itemListElement": tools.map((t, i) => ({
       "@type": "ListItem", "position": i + 1, "name": t.name, "url": `${baseUrl}/${locale}/tools/${t.slug}`,
+      ...(t.image && { "image": t.image }),
     })),
   };
 }
@@ -386,7 +392,7 @@ export function generateGuidesCollectionSchema(locale: string, baseUrl: string =
 
 export function generateGuidesItemListSchema(
   locale: string,
-  guides: Array<{ name: string; slug: string }>,
+  guides: Array<{ name: string; slug: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   return {
@@ -394,6 +400,7 @@ export function generateGuidesItemListSchema(
     "numberOfItems": guides.length,
     "itemListElement": guides.map((g, i) => ({
       "@type": "ListItem", "position": i + 1, "name": g.name, "url": `${baseUrl}/${locale}/guides/${g.slug}`,
+      ...(g.image && { "image": g.image }),
     })),
   };
 }
@@ -422,7 +429,7 @@ export function generateIdeasCollectionSchema(locale: string, baseUrl: string = 
 
 export function generateIdeasItemListSchema(
   locale: string,
-  ideas: Array<{ name: string; slug: string }>,
+  ideas: Array<{ name: string; slug: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   return {
@@ -430,6 +437,7 @@ export function generateIdeasItemListSchema(
     "numberOfItems": ideas.length,
     "itemListElement": ideas.map((item, i) => ({
       "@type": "ListItem", "position": i + 1, "name": item.name, "url": `${baseUrl}/${locale}/ideas/${item.slug}`,
+      ...(item.image && { "image": item.image }),
     })),
   };
 }
@@ -457,7 +465,7 @@ export function generateBundlesCollectionSchema(locale: string, baseUrl: string 
 
 export function generateBundlesItemListSchema(
   locale: string,
-  bundles: Array<{ name: string; slug: string }>,
+  bundles: Array<{ name: string; slug: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   return {
@@ -465,6 +473,7 @@ export function generateBundlesItemListSchema(
     "numberOfItems": bundles.length,
     "itemListElement": bundles.map((b, i) => ({
       "@type": "ListItem", "position": i + 1, "name": b.name, "url": `${baseUrl}/${locale}/bundles/${b.slug}`,
+      ...(b.image && { "image": b.image }),
     })),
   };
 }
@@ -494,7 +503,7 @@ export function generateStartCollectionSchema(locale: string, baseUrl: string = 
 
 export function generateStartItemListSchema(
   locale: string,
-  items: Array<{ name: string; slug: string }>,
+  items: Array<{ name: string; slug: string; image?: string }>,
   baseUrl: string = getBaseUrl()
 ) {
   return {
@@ -502,6 +511,7 @@ export function generateStartItemListSchema(
     "numberOfItems": items.length,
     "itemListElement": items.map((item, i) => ({
       "@type": "ListItem", "position": i + 1, "name": item.name, "url": `${baseUrl}/${locale}/start/${item.slug}`,
+      ...(item.image && { "image": item.image }),
     })),
   };
 }

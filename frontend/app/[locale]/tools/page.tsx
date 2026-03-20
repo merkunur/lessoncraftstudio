@@ -6,6 +6,8 @@ import { getHreflangCode, ogLocaleMap, generateToolsCollectionSchema, generateTo
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ALL_APPS, APP_CATEGORIES, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
+import { showcaseConfigs } from '@/app/[locale]/apps/[slug]/showcase/showcase-configs';
+import { encodeImagePath } from '@/lib/encode-image-path';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -277,7 +279,7 @@ export default function ToolsListingPage({
   const content = toolsContent[locale] || toolsContent.en;
 
   // Group tools by category
-  const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string }>> = {};
+  const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string; image?: string }>> = {};
 
   for (const tool of toolPageSlugs) {
     const wpId = toolToWpApp[tool.toolId] || tool.toolId;
@@ -290,7 +292,9 @@ export default function ToolsListingPage({
     const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
     const name = getLocalizedAppName(wpId, locale);
 
-    toolsByCategory[category].push({ toolId: tool.toolId, name, slug });
+    const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
+    const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
+    toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
   }
 
   const breadcrumbJsonLd = {

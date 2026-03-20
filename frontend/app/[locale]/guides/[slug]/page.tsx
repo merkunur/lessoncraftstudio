@@ -70,11 +70,13 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+        images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
       },
       twitter: {
         card: 'summary_large_image',
         title,
         description,
+        images: [`${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -110,6 +112,7 @@ export default async function GuidePage({
     const localeSlug = getGuideSlugForLocale(config.guideId, locale);
     const pageUrl = `${baseUrl}/${locale}/guides/${localeSlug || slug}`;
 
+    const guideHeroImage = showcaseConfig?.hero?.images?.[0]?.src;
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -117,6 +120,7 @@ export default async function GuidePage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
+      image: guideHeroImage ? `${baseUrl}${guideHeroImage}` : `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(content.hero.title)}`,
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },

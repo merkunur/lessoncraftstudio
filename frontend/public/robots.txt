@@ -129,3 +129,4 @@ Crawl-delay: 2
 
 # Sitemaps
 Sitemap: https://www.lessoncraftstudio.com/sitemap.xml
+Sitemap: https://www.lessoncraftstudio.com/image-sitemap-index.xml

@@ -614,11 +614,13 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+        images: [{ url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
       },
       twitter: {
         card: 'summary_large_image',
         title,
         description,
+        images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`],
       },
     };
   } catch {
@@ -681,6 +683,24 @@ export default async function AppDetailPage({
   // JSON-LD SoftwareApplication schema
   const localeSlug = getSlugForLocale(appConfig.appId, locale);
   const pageUrl = `https://www.lessoncraftstudio.com/${locale}/apps/${localeSlug || slug}`;
+  const baseUrl = 'https://www.lessoncraftstudio.com';
+
+  // Build image + screenshot from showcase config
+  const heroImages = showcaseConfig?.hero?.images;
+  const schemaImage = heroImages?.[0]?.src
+    ? `${baseUrl}${encodeImagePath(heroImages[0].src)}`
+    : `${baseUrl}/opengraph-image.png`;
+  const schemaScreenshots = heroImages?.slice(0, 3)
+    .filter(img => img.src)
+    .map(img => ({
+      '@type': 'ImageObject',
+      url: `${baseUrl}${encodeImagePath(img.src)}`,
+      caption: img.alt,
+      width: 400,
+      height: 566,
+      encodingFormat: 'image/webp',
+    }));
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
@@ -689,6 +709,8 @@ export default async function AppDetailPage({
     url: pageUrl,
     applicationCategory: 'EducationalApplication',
     operatingSystem: 'Web',
+    image: schemaImage,
+    ...(schemaScreenshots?.length && { screenshot: schemaScreenshots }),
     offers: {
       '@type': 'Offer',
       price: '0',
@@ -766,6 +788,29 @@ export default async function AppDetailPage({
             dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
           />
         )}
+        {/* ImageObject schema with license markup (Google Licensable badge) */}
+        {content.visuals.sampleGallery.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(
+              content.visuals.sampleGallery.slice(0, 6).map(img => ({
+                '@context': 'https://schema.org',
+                '@type': 'ImageObject',
+                contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+                name: img.alt,
+                caption: img.caption || img.alt,
+                encodingFormat: 'image/webp',
+                width: 400,
+                height: 566,
+                license: `${baseUrl}/${locale}/license`,
+                acquireLicensePage: pageUrl,
+                creditText: 'LessonCraftStudio',
+                creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+              }))
+            ) }}
+          />
+        )}
 
         <div className="min-h-screen bg-gray-50">
           {/* Hero Section */}
@@ -814,8 +859,12 @@ export default async function AppDetailPage({
                         <img
                           src={encodeImagePath(content.visuals.heroImages.primary)}
                           alt={content.visuals.heroImages.primaryAlt}
+                          width={800}
+                          height={1132}
                           className="w-full h-auto"
                           loading="eager"
+                          decoding="async"
+                          fetchPriority="high"
                         />
                       </div>
                     ) : null}
@@ -912,15 +961,15 @@ export default async function AppDetailPage({
             <section className="py-12 md:py-16">
               <div className="container mx-auto px-4">
                 <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('sampleWorksheets', locale)}</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto" role="group" aria-label={getSectionLabel('sampleWorksheets', locale)}>
                   {content.visuals.sampleGallery.map((img, i) => (
-                    <div key={i} className="rounded-lg overflow-hidden shadow-sm border border-gray-200">
+                    <figure key={i} className="rounded-lg overflow-hidden shadow-sm border border-gray-200">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={encodeImagePath(img.src)} alt={img.alt} width={400} height={566} className="w-full h-auto" loading="lazy" />
+                      <img src={encodeImagePath(img.src)} alt={img.alt} width={400} height={566} className="w-full h-auto" loading="lazy" decoding="async" />
                       {img.caption && (
-                        <p className="text-xs text-gray-500 p-2 text-center">{img.caption}</p>
+                        <figcaption className="text-xs text-gray-500 p-2 text-center">{img.caption}</figcaption>
                       )}
-                    </div>
+                    </figure>
                   ))}
                 </div>
               </div>

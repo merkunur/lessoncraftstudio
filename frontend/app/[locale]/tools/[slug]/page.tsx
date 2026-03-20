@@ -117,11 +117,13 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+        images: [{ url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
       },
       twitter: {
         card: 'summary_large_image',
         title,
         description,
+        images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -164,6 +166,21 @@ export default async function ToolPage({
   const schemas: any[] = [];
 
   // SoftwareApplication schema
+  const heroImages = showcaseConfig?.hero?.images;
+  const toolSchemaImage = heroImages?.[0]?.src
+    ? `${baseUrl}${heroImages[0].src}`
+    : `${baseUrl}/opengraph-image.png`;
+  const toolScreenshots = heroImages?.slice(0, 3)
+    .filter(img => img.src)
+    .map(img => ({
+      '@type': 'ImageObject',
+      url: `${baseUrl}${img.src}`,
+      caption: img.alt,
+      width: 400,
+      height: 566,
+      encodingFormat: 'image/webp',
+    }));
+
   const softwareSchema: any = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -172,6 +189,8 @@ export default async function ToolPage({
     "applicationCategory": "EducationalApplication",
     "operatingSystem": "Web Browser",
     "inLanguage": getHreflangCode(locale),
+    "image": toolSchemaImage,
+    ...(toolScreenshots?.length && { "screenshot": toolScreenshots }),
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -253,6 +272,29 @@ export default async function ToolPage({
         {schemas.map((schema, i) => (
           <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
         ))}
+        {/* ImageObject schema with license markup (Google Licensable badge) */}
+        {content.visuals?.sampleGallery && content.visuals.sampleGallery.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(
+              content.visuals.sampleGallery.slice(0, 6).map((img: { src: string; alt: string; caption?: string }) => ({
+                '@context': 'https://schema.org',
+                '@type': 'ImageObject',
+                contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+                name: img.alt,
+                caption: img.caption || img.alt,
+                encodingFormat: 'image/webp',
+                width: 400,
+                height: 566,
+                license: `${baseUrl}/${locale}/license`,
+                acquireLicensePage: pageUrl,
+                creditText: 'LessonCraftStudio',
+                creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+              }))
+            ) }}
+          />
+        )}
 
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">

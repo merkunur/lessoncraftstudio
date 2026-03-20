@@ -190,6 +190,11 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
+      },
       robots: content ? undefined : { index: false },
     };
   } catch {
@@ -234,6 +239,9 @@ export default async function IdeaPage({
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
+      datePublished: '2026-02-27',
+      dateModified: '2026-03-20',
+      speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
     };
 
     const breadcrumbSchema = {

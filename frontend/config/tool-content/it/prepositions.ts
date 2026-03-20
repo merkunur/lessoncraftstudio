@@ -14,7 +14,7 @@ const content: ToolContent = {
       'strumento schede parole posizione',
       'generatore attività preposizioni multilingue',
     ],
-    titleTag: 'Generatore Schede Preposizioni | Vendi Stampabili',
+    titleTag: 'Generatore Schede Preposizioni | Vendi Stampabili Online',
     metaDescription: 'Genera schede preposizioni con riempimento spazi e scelta multipla, sostituzione forme, 104 temi, 11 lingue. Prova gratuita — licenza commerciale disponibile.',
   },
 
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funnel Pinterest con scene preposizioni',
-      description: 'Il formato colorato scena-immagine crea pin accattivanti — un gatto seduto SU una scatola o una palla SOTTO un tavolo è immediatamente riconoscibile e cattura l\'attenzione nello scorrimento. Pinna un campione gratuito di 3 pagine con entrambe le modalità di esercizio, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le immagini di preposizioni basate su scene ricevono significativamente più salvataggi rispetto alle classiche schede grammaticali di solo testo.',
+      description: 'Il formato colorato scena-immagine crea pin accattivanti — un gatto seduto SU una scatola o una palla SOTTO un tavolo è immediatamente riconoscibile e cattura l\'attenzione nello scorrimento. Pinna un campione di prova gratuita con filigrana di 3 pagine con entrambe le modalità di esercizio, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le immagini di preposizioni basate su scene ricevono significativamente più salvataggi rispetto alle classiche schede grammaticali di solo testo.',
       platform: 'Pinterest',
     },
     {

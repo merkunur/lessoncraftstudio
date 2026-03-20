@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generatore schede confronto quantità',
       'generatore attività spunta e croce matematica',
     ],
-    titleTag: 'Schede Maggiore Minore Uguale | Vendi Online',
+    titleTag: 'Schede Maggiore Minore Uguale | Vendi Stampabili Online',
     metaDescription: 'Crea schede visive di maggiore, minore e uguale con immagini in pochi secondi. Tre modalità inclusa Spunta e Croce esclusiva. Vendi su Etsy, KDP e TpT.',
   },
 
@@ -116,8 +116,8 @@ const content: ToolContent = {
       platform: 'Etsy',
     },
     {
-      title: 'Funnel con campione gratuito su Pinterest',
-      description: 'Offri un campionario gratuito di 5 pagine con schede di confronto in modalità Spunta e Croce come lead magnet su Pinterest. Il formato visivo unico crea pin accattivanti che generano clic. Raccogli indirizzi email, poi proponi i tuoi bundle tematici completi e quaderni KDP.',
+      title: 'Funnel con campione di prova gratuita su Pinterest',
+      description: 'Offri un campionario di prova gratuita con filigrana di 5 pagine con schede di confronto in modalità Spunta e Croce come lead magnet su Pinterest. Il formato visivo unico crea pin accattivanti che generano clic. Raccogli indirizzi email, poi proponi i tuoi bundle tematici completi e quaderni KDP.',
     },
   ],
 

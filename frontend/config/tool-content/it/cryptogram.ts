@@ -14,7 +14,7 @@ const content: ToolContent = {
       'strumento generatore schede decodifica codice',
       'generatore crittogramma illustrato multilingue',
     ],
-    titleTag: 'Generatore Crittogrammi | Crea e Vendi Puzzle',
+    titleTag: 'Generatore Schede Crittogramma Stampabile | Crea e Vendi',
     metaDescription: 'Genera crittogrammi con cifrario illustrato, cursore Lettere da Rivelare, assegnazione automatica, chiavi di risposta in 11 lingue. Prova gratuita — licenza.',
   },
 

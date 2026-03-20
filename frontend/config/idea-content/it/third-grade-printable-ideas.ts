@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Terza Classe da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la terza classe da vendere su Etsy, Amazon KDP e TPT. Strategie di nicchia per venditori che puntano all\'anno scolastico cruciale della terza elementare.',
+    titleTag: 'Idee Stampabili per la Terza Classe | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per la terza classe da vendere su Etsy, Amazon KDP e TPT. Strategie di nicchia per venditori nel mercato della terza elementare online.',
     primaryKeyword: 'idee stampabili terza classe',
     secondaryKeywords: [
       'schede terza elementare da vendere',

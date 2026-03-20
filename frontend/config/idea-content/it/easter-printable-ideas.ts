@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili di Pasqua da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili di Pasqua da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto primaverili, strategie stagionali e consigli per venditori di stampabili.',
+    metaDescription: 'Idee di stampabili di Pasqua da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto primaverili, strategie stagionali e consigli per venditori online.',
 
     primaryKeyword: 'idee stampabili di Pasqua',
     secondaryKeywords: [

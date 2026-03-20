@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Prima Classe da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la prima classe da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto e strategie di nicchia per venditori che puntano al mercato della prima elementare.',
+    titleTag: 'Idee Stampabili per la Prima Classe | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per la prima classe da vendere su Etsy, Amazon KDP e TPT. Concetti e strategie per venditori nel mercato della prima elementare online.',
     primaryKeyword: 'idee stampabili prima classe',
     secondaryKeywords: [
       'schede prima elementare da vendere',

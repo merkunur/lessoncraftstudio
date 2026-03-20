@@ -17,7 +17,7 @@ const content: GuideContent = {
       'test prezzi Etsy Stats tasso conversione ottimizzazione',
       'prezzi internazionali valuta Etsy download digitali A4 Letter',
     ],
-    titleTag: 'Prezzi Stampabili Etsy — Guida Strategia Prezzi',
+    titleTag: 'Prezzi Stampabili Etsy | Guida alla Strategia dei Prezzi',
     metaDescription: 'Stabilisci i prezzi degli stampabili su Etsy con calcolo commissioni, prezzi a tre livelli, strategie bundle e aggiustamenti stagionali. Guida per venditori.',
   },
 

@@ -324,6 +324,189 @@ export function generateAppsItemListSchema(
 }
 
 /**
+ * Generate Tools Collection Page Schema
+ */
+export function generateToolsCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
+  const names: Record<string, string> = {
+    en: "Free Printable Generators", de: "Kostenlose Druckvorlagen-Generatoren",
+    fr: "Générateurs de Fiches Gratuits", es: "Generadores de Fichas Gratuitos",
+    pt: "Geradores de Planilhas Gratuitos", it: "Generatori di Schede Stampabili",
+    nl: "Gratis Werkblad Generatoren", sv: "Gratis Arbetsblad Generatorer",
+    da: "Gratis Arbejdsark Generatorer", no: "Gratis Arbeidsark Generatorer",
+    fi: "Ilmaiset Työarkki Generaattorit"
+  };
+  const descs: Record<string, string> = {
+    en: "33 professional printable generators. Create worksheets, puzzles, and activities for education.",
+    it: "33 generatori professionali di schede stampabili. Crea schede, puzzle e attività per l'istruzione.",
+  };
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": names[locale] || names.en,
+    "description": descs[locale] || descs.en,
+    "url": `${baseUrl}/${locale}/tools`,
+    "numberOfItems": 33,
+    "inLanguage": getHreflangCode(locale),
+    "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
+  };
+}
+
+export function generateToolsItemListSchema(
+  locale: string,
+  tools: Array<{ name: string; slug: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org", "@type": "ItemList",
+    "numberOfItems": tools.length,
+    "itemListElement": tools.map((t, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": t.name, "url": `${baseUrl}/${locale}/tools/${t.slug}`,
+    })),
+  };
+}
+
+/**
+ * Generate Guides Collection Page Schema
+ */
+export function generateGuidesCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
+  const names: Record<string, string> = {
+    en: "How-To Guides", de: "Anleitungen", fr: "Guides Pratiques",
+    es: "Guías Prácticas", pt: "Guias Práticos", it: "Guide Pratiche",
+    nl: "Handleidingen", sv: "Guider", da: "Vejledninger", no: "Guider", fi: "Oppaat"
+  };
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": names[locale] || names.en,
+    "description": "Step-by-step guides for creating and selling printable worksheets on Etsy, KDP, and TPT.",
+    "url": `${baseUrl}/${locale}/guides`,
+    "numberOfItems": 65,
+    "inLanguage": getHreflangCode(locale),
+    "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
+  };
+}
+
+export function generateGuidesItemListSchema(
+  locale: string,
+  guides: Array<{ name: string; slug: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org", "@type": "ItemList",
+    "numberOfItems": guides.length,
+    "itemListElement": guides.map((g, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": g.name, "url": `${baseUrl}/${locale}/guides/${g.slug}`,
+    })),
+  };
+}
+
+/**
+ * Generate Ideas Collection Page Schema
+ */
+export function generateIdeasCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
+  const names: Record<string, string> = {
+    en: "Printable Business Niche Ideas", de: "Nischen-Ideen für Druckvorlagen",
+    fr: "Idées de Niches pour Stampabili", es: "Ideas de Nichos para Imprimibles",
+    pt: "Ideias de Nichos para Impressos", it: "Idee di Nicchia per Stampabili",
+    nl: "Niche-ideeën voor Printables", sv: "Nischidéer för Utskrifter",
+    da: "Nicheidéer til Tryksager", no: "Nisjeidéer for Utskrifter", fi: "Tulostettavien Liiketoimintaideat"
+  };
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": names[locale] || names.en,
+    "description": "45 printable business niche ideas for Etsy, Amazon KDP, and TPT sellers.",
+    "url": `${baseUrl}/${locale}/ideas`,
+    "numberOfItems": 45,
+    "inLanguage": getHreflangCode(locale),
+    "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
+  };
+}
+
+export function generateIdeasItemListSchema(
+  locale: string,
+  ideas: Array<{ name: string; slug: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org", "@type": "ItemList",
+    "numberOfItems": ideas.length,
+    "itemListElement": ideas.map((item, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": item.name, "url": `${baseUrl}/${locale}/ideas/${item.slug}`,
+    })),
+  };
+}
+
+/**
+ * Generate Bundles Collection Page Schema
+ */
+export function generateBundlesCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
+  const names: Record<string, string> = {
+    en: "Generator Bundles", de: "Generator-Pakete", fr: "Packs de Générateurs",
+    es: "Paquetes de Generadores", pt: "Pacotes de Geradores", it: "Pacchetti Generatori",
+    nl: "Generator Bundels", sv: "Generator Paket", da: "Generator Pakker",
+    no: "Generator Pakker", fi: "Generaattoripakettit"
+  };
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": names[locale] || names.en,
+    "description": "6 category bundles of professional printable worksheet generators.",
+    "url": `${baseUrl}/${locale}/bundles`,
+    "numberOfItems": 6,
+    "inLanguage": getHreflangCode(locale),
+    "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
+  };
+}
+
+export function generateBundlesItemListSchema(
+  locale: string,
+  bundles: Array<{ name: string; slug: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org", "@type": "ItemList",
+    "numberOfItems": bundles.length,
+    "itemListElement": bundles.map((b, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": b.name, "url": `${baseUrl}/${locale}/bundles/${b.slug}`,
+    })),
+  };
+}
+
+/**
+ * Generate Start (Getting Started) Collection Page Schema
+ */
+export function generateStartCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
+  const names: Record<string, string> = {
+    en: "Printable Business Guides", de: "Leitfäden für Druckvorlagen-Geschäft",
+    fr: "Guides Business Imprimables", es: "Guías de Negocio de Imprimibles",
+    pt: "Guias de Negócio de Impressos", it: "Guide Business Stampabili",
+    nl: "Printables Bedrijfsgidsen", sv: "Guider för Utskriftsföretag",
+    da: "Vejledninger til Printvirksomhed", no: "Guider for Utskriftsvirksomhet",
+    fi: "Tulostettavien Liiketoimintaoppaat"
+  };
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "name": names[locale] || names.en,
+    "description": "12 comprehensive guides for starting and growing a printable business.",
+    "url": `${baseUrl}/${locale}/start`,
+    "numberOfItems": 12,
+    "inLanguage": getHreflangCode(locale),
+    "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
+  };
+}
+
+export function generateStartItemListSchema(
+  locale: string,
+  items: Array<{ name: string; slug: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  return {
+    "@context": "https://schema.org", "@type": "ItemList",
+    "numberOfItems": items.length,
+    "itemListElement": items.map((item, i) => ({
+      "@type": "ListItem", "position": i + 1, "name": item.name, "url": `${baseUrl}/${locale}/start/${item.slug}`,
+    })),
+  };
+}
+
+/**
  * Localized home labels
  */
 export const localizedHomeLabel: Record<string, string> = {

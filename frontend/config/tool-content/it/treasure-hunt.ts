@@ -14,7 +14,7 @@ const content: ToolContent = {
       'indizi direzionali localizzati sensibile alla lingua 11 lingue',
       'chiave di risposta automatica cella tesoro evidenziata sistema doppio canvas',
     ],
-    titleTag: 'Generatore Caccia al Tesoro — Prova Gratuita',
+    titleTag: 'Generatore Caccia al Tesoro Stampabile | Prova Gratuita',
     metaDescription: 'Crea schede caccia al tesoro su griglia 5×5 con due tipi di direzione, punti di riferimento tematici e chiavi di risposta automatiche. Prova gratuita.',
   },
 

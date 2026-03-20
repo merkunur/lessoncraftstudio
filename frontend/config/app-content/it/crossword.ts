@@ -14,7 +14,7 @@ const content: AppContent = {
       'generatore cruciverba con immagini uso commerciale',
       'strumenti business cruciverba illustrati stampabili',
     ],
-    titleTag: 'Generatore Cruciverba con Immagini | Crea e Vendi',
+    titleTag: 'Generatore Cruciverba con Immagini | Crea e Vendi Online',
     metaDescription: 'Crea cruciverba con immagini da vendere su Etsy, KDP e TPT. Indizi visivi su griglia 15×15, 4 metodi di input, foglio risposte automatico. Prova gratuita.',
   },
 

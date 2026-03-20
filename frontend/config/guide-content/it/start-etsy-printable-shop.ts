@@ -17,7 +17,7 @@ const content: GuideContent = {
       'politiche negozio download digitale rimborso venditori Etsy',
       'strategia lancio negozio Etsy stampabili primi 30 giorni piano crescita',
     ],
-    titleTag: 'Aprire Negozio Etsy Stampabili da Zero — Guida',
+    titleTag: 'Aprire un Negozio Etsy di Stampabili da Zero | Guida',
     metaDescription: 'Aprire un negozio Etsy di stampabili da zero con 33 generatori. Branding, ottimizzazione inserzioni, prezzi, commissioni Etsy e piano lancio 30 giorni.',
   },
 

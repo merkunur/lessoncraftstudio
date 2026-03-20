@@ -17,7 +17,7 @@ const content: GuideContent = {
       'schede labirinti con immagini tematiche',
       'generatore labirinti con licenza commerciale',
     ],
-    titleTag: 'Creare Schede Labirinti per Bambini — Guida',
+    titleTag: 'Creare Schede Labirinti per Bambini | Guida Completa',
     metaDescription: 'Come creare schede labirinti con 3 modalità di gioco, immagini tematiche e chiavi di risposta. Genera schede stampabili da vendere su Etsy e Amazon KDP.',
   },
 

@@ -14,9 +14,9 @@ const content: AppContent = {
       'generatore di puzzle di silhouette uso commerciale',
       'attività di percezione visiva stampabili per business online',
     ],
-    titleTag: 'Generatore Schede Abbinamento Ombre | Silhouette',
+    titleTag: 'Generatore Schede Abbinamento Ombre | Crea Stampabili',
     metaDescription:
-      'Crea schede di abbinamento ombre da vendere su Etsy, KDP e TPT. Modi Ombra e Completa l\'Immagine, silhouette automatiche, 104 temi in PDF. Prova gratuita con filigrana.',
+      'Crea schede di abbinamento ombre da vendere su Etsy, KDP e TPT. Modalità Ombra e Completa, silhouette automatiche, 104 temi, export PDF. Prova con filigrana.',
   },
 
   hero: {

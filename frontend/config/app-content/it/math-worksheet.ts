@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività di puzzle algebrici stampabili per vendita online',
       'generatore di puzzle algebrici uso commerciale',
     ],
-    titleTag: 'Puzzle Algebrici Illustrati | Creare e Vendere',
+    titleTag: 'Puzzle Algebrici Illustrati | Creare e Vendere Stampabili',
     metaDescription:
       'Crea schede di puzzle algebrici illustrati per Etsy, KDP e TPT. Immagini come variabili, 4 livelli, soluzione unica in PDF. Prova gratuita con filigrana.',
   },

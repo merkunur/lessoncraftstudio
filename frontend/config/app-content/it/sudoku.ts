@@ -14,7 +14,7 @@ const content: AppContent = {
       'generatore di puzzle logici visivi uso commerciale',
       'stampabili di sudoku con immagini per business online',
     ],
-    titleTag: 'Generatore Sudoku con Immagini | Creare e Vendere',
+    titleTag: 'Generatore Sudoku con Immagini | Crea e Vendi Stampabili',
     metaDescription: 'Crea schede sudoku con immagini da vendere su Etsy, KDP e TPT. Griglia 4×4, tre difficoltà, foglio risposte automatico, 104 temi. Prova gratuita con filigrana.',
   },
 

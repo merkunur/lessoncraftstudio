@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni attività disegno Amazon KDP',
       'strumento schede contorno bianco e nero',
     ],
-    titleTag: 'Creare Schede Disegno e Simmetria — Guida',
+    titleTag: 'Creare Schede Disegno e Simmetria | Guida per Venditori',
     metaDescription: 'Crea schede di disegno e simmetria con sistema a doppia griglia, percentuale di indizi regolabile, tre modalità simmetria e contorni B&W. Vendi su Etsy e KDP.',
   },
 

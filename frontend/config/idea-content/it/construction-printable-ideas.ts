@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sull\'Edilizia da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sull\'edilizia da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema veicoli da cantiere e attrezzi, strategie per piattaforma e consigli per venditori.',
+    titleTag: 'Idee Stampabili sull\'Edilizia da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sull\'edilizia da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema veicoli da cantiere e attrezzi, strategie per piattaforma e venditori.',
     primaryKeyword: 'idee stampabili edilizia',
     secondaryKeywords: [
       'schede a tema costruzione da vendere',

@@ -14,9 +14,9 @@ const content: AppContent = {
       'generatore di schede di abbinamento uso commerciale',
       'attività di abbinamento stampabili per business online',
     ],
-    titleTag: 'Generatore Schede di Abbinamento | Crea e Vendi',
+    titleTag: 'Generatore Schede di Abbinamento | Crea e Vendi Online',
     metaDescription:
-      'Crea schede di abbinamento per Etsy, KDP e TPT. 4 modalità di abbinamento, foglio risposte automatico, 104 temi, coppie configurabili. Prova gratuita con filigrana.',
+      'Crea schede di abbinamento per Etsy, KDP e TPT. Quattro modalità di abbinamento, foglio risposte automatico, 104 temi, coppie configurabili. Prova gratuita.',
   },
 
   hero: {

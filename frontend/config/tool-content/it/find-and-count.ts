@@ -14,7 +14,7 @@ const content: ToolContent = {
       'quattro tipi attività cerchia quadrato barra conta schede',
       'alfabeti specifici per lingua lettere accentate generatore Vedo Vedo',
     ],
-    titleTag: 'Generatore Cerca e Conta — Schede Vedo Vedo Maker',
+    titleTag: 'Generatore Cerca e Conta | Schede Vedo Vedo Stampabili',
     metaDescription: 'Crea schede Vedo Vedo con modalità Oggetti Nascosti e Trova le Lettere, quattro tipi di attività, alfabeti localizzati, 104 temi. Prova gratuita disponibile.',
   },
 

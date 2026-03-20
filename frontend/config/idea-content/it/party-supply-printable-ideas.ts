@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Articoli Stampabili per Feste da Vendere — Guida',
-    metaDescription: 'Idee di business per articoli stampabili per feste per venditori Etsy. Crea pacchetti di attività a tema, giochi per feste, pagine da colorare e materiali di intrattenimento educativo per compleanni e celebrazioni.',
+    metaDescription: 'Idee di articoli stampabili per feste per venditori Etsy. Pacchetti attività a tema, giochi per feste, pagine da colorare e materiali per compleanni e feste.',
     primaryKeyword: 'articoli stampabili per feste',
     secondaryKeywords: [
       'articoli stampabili per feste da vendere',

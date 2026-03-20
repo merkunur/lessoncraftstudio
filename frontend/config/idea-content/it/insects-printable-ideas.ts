@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Insetti da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili a tema insetti da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto su farfalle e insetti, strategie per piattaforma e consigli di nicchia per venditori.',
+    titleTag: 'Idee Stampabili sugli Insetti da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili a tema insetti da vendere su Etsy, Amazon KDP e TPT. Prodotti su farfalle e insetti, strategie per piattaforma e consigli per venditori.',
 
     primaryKeyword: 'idee stampabili insetti',
     secondaryKeywords: [

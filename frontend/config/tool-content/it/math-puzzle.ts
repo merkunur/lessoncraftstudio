@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generatore puzzle immagini matematica',
       'generatore attività jigsaw matematica',
     ],
-    titleTag: 'Generatore Puzzle Matematici | Vendi Stampabili',
+    titleTag: 'Generatore Puzzle Matematici | Vendi Stampabili Online',
     metaDescription: 'Crea puzzle matematici con griglie di immagini, tre modalità operative e upload immagini custom. Genera stampabili unici da vendere su Etsy, KDP e TpT.',
   },
 
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funnel puzzle su Pinterest',
-      description: 'Il formato puzzle jigsaw crea pin accattivanti che generano clic — un\'immagine colorata divisa in pezzi numerati su una griglia è immediatamente riconoscibile. Offri un campione gratuito di 5 pagine su Pinterest, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici completi e quaderni KDP. Le immagini dei puzzle ottengono significativamente più salvataggi rispetto alle anteprime di schede tradizionali.',
+      description: 'Il formato puzzle jigsaw crea pin accattivanti che generano clic — un\'immagine colorata divisa in pezzi numerati su una griglia è immediatamente riconoscibile. Offri un campione di prova gratuita con filigrana di 5 pagine su Pinterest, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici completi e quaderni KDP. Le immagini dei puzzle ottengono significativamente più salvataggi rispetto alle anteprime di schede tradizionali.',
       platform: 'Pinterest',
     },
     {

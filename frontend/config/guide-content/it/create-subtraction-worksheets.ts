@@ -17,7 +17,7 @@ const content: GuideContent = {
       'libri attività sottrazione Amazon KDP',
       'strumento schede licenza commerciale',
     ],
-    titleTag: 'Creare Schede di Sottrazione — Guida Passo Passo',
+    titleTag: 'Creare Schede di Sottrazione | Guida Passo Passo per KDP',
     metaDescription: 'Come creare schede di sottrazione per bambini con immagini barrate, temi visivi e fogli risposte automatici. Guida passo passo per vendere su Etsy, KDP e TpT.',
   },
 

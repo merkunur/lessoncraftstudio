@@ -17,7 +17,7 @@ const content: GuideContent = {
       'strategia stagionale cerca parole stampabili festività Etsy',
       'foto inserzioni Etsy mockup per prodotti cerca parole',
     ],
-    titleTag: 'Vendere Cerca Parole su Etsy — Guida',
+    titleTag: 'Vendere Cerca Parole su Etsy | Guida per Venditori KDP',
     metaDescription: 'Vendi cerca parole su Etsy con 4 generatori di puzzle. SEO Etsy, ottimizzazione inserzioni, prezzi, bundle con cruciverba e anagrammi, tempistica stagionale.',
   },
 

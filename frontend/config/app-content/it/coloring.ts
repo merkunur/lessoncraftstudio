@@ -14,7 +14,7 @@ const content: AppContent = {
       'libri da colorare stampabili uso commerciale',
       'generatore di pagine da colorare con canvas libero e disegno a mano libera',
     ],
-    titleTag: 'Generatore Pagine da Colorare | Creare e Vendere',
+    titleTag: 'Generatore Pagine da Colorare | Crea e Vendi Stampabili',
     metaDescription:
       'Crea pagine da colorare per Etsy, KDP e TPT. Canvas a forma libera, 104 temi, disegno a mano libera, esportazione scala di grigi. Prova gratuita con filigrana.',
   },

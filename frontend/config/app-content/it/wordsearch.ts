@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività stampabili cerca parole per business online',
       'generatore schede cerca parole uso commerciale',
     ],
-    titleTag: 'Generatore Schede Cerca Parole | Creare e Vendere',
+    titleTag: 'Generatore Schede Cerca Parole | Crea e Vendi Stampabili',
     metaDescription:
       'Crea schede cerca parole da vendere su Etsy, KDP e TPT. Griglia da 5×5 a 30×30, direzioni diagonali, lettere adattate alla lingua. Prova gratuita con filigrana.',
   },

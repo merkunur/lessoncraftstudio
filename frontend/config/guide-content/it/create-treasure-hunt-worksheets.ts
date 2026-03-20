@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni percorsi direzionali Amazon KDP',
       'strumento caccia al tesoro con licenza commerciale',
     ],
-    titleTag: 'Schede Caccia al Tesoro — Guida Creazione',
+    titleTag: 'Creare Schede Caccia al Tesoro | Guida Passo Passo Etsy',
     metaDescription: 'Crea schede caccia al tesoro su griglia 5×5 con mosse direzionali, immagini tematiche e chiavi di risposta automatiche. Guida passo passo per Etsy e KDP.',
   },
 

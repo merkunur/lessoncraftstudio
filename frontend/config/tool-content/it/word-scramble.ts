@@ -14,8 +14,8 @@ const content: ToolContent = {
       'strumento schede parole mescolate con immagini',
       'generatore puzzle spelling multilingue',
     ],
-    titleTag: 'Generatore Schede Parole Mescolate | Crea e Vendi',
-    metaDescription: 'Genera schede parole mescolate con tessere lettere, indizi immagine, codifica vocali-consonanti, 4 livelli difficoltà, 11 lingue. Prova gratuita — licenza inclusa.',
+    titleTag: 'Generatore Schede Parole Mescolate | Crea Stampabili',
+    metaDescription: 'Genera schede parole mescolate con tessere lettere, indizi immagine, codifica vocali-consonanti, quattro livelli di difficoltà e supporto per 11 lingue.',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'print-on-demand catalogo puzzle serie volumi numerazione',
       'griglia puzzle spaziatura formato ritaglio chiavi risposta materiale finale',
     ],
-    titleTag: 'Pubblicare Libri Puzzle su Amazon KDP — Guida',
+    titleTag: 'Pubblicare Libri di Puzzle su Amazon KDP | Guida Pratica',
     metaDescription: 'Scopri come pubblicare libri puzzle su Amazon KDP con cerca parole, cruciverba e sudoku. Formattazione, libri varietà, strategia serie e ottimizzazione.',
   },
 

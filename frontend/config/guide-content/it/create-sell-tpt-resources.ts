@@ -17,7 +17,7 @@ const content: GuideContent = {
       'algoritmo di ricerca TPT tag titolo descrizione scopribilità posizionamento',
       'bundle schede unità curricolare pacchetto attività strategia di prezzo',
     ],
-    titleTag: 'Creare e Vendere Risorse TPT — Guida Completa',
+    titleTag: 'Creare e Vendere Risorse su TPT | Guida per Venditori',
     metaDescription: 'Come creare e vendere risorse su Teachers Pay Teachers. Configurazione account, formattazione risorse, ottimizzazione inserzioni, prezzi e lancio su TPT.',
   },
 

@@ -116,7 +116,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lead magnet sui social media per acquisire clienti',
-      description: 'Offri un pacchetto campione gratuito di 5 schede di addizione come lead magnet su Instagram o Pinterest. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi tramite email marketing. Le schede visive con immagini colorate creano pin e post particolarmente accattivanti che portano traffico organico al tuo negozio.',
+      description: 'Offri un pacchetto campione di prova gratuita con filigrana di 5 schede di addizione come lead magnet su Instagram o Pinterest. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi tramite email marketing. Le schede visive con immagini colorate creano pin e post particolarmente accattivanti che portano traffico organico al tuo negozio.',
     },
   ],
 

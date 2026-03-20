@@ -17,7 +17,7 @@ const content: GuideContent = {
       'serie sudoku volumi riacquisto risolutori fedeli catalogo',
       'conteggio puzzle sudoku layout pagina chiave risposte stampa ritaglio',
     ],
-    titleTag: 'Libri Sudoku KDP \u2014 Guida alla Pubblicazione',
+    titleTag: 'Libri Sudoku per Amazon KDP | Guida alla Pubblicazione',
     metaDescription: 'Crea libri di sudoku per KDP con sudoku illustrato per bambini e sudoku numerico per adulti. Progressione difficoltà, formattazione griglie e strategia serie.',
   },
 

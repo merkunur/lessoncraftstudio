@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats termini ricerca report ottimizzazione parole chiave',
       'categorie attributi Etsy per prodotti digitali educativi',
     ],
-    titleTag: 'SEO Etsy Stampabili Educativi — Guida',
+    titleTag: 'SEO Etsy per Stampabili Educativi | Guida per Venditori',
     metaDescription: 'Guida SEO Etsy per stampabili educativi. Ricerca parole chiave, ottimizzazione titoli, tutti i 13 tag, descrizioni inserzioni e fattori di posizionamento.',
   },
 

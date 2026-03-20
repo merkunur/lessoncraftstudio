@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Animali del Bosco da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili a tema animali del bosco da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto su creature del bosco, strategie per piattaforma e consigli di nicchia per venditori.',
+    titleTag: 'Stampabili Animali del Bosco da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sugli animali del bosco da vendere su Etsy, Amazon KDP e TPT. Prodotti creature forestali, strategie per piattaforma e consigli venditori.',
 
     primaryKeyword: 'idee stampabili animali del bosco',
     secondaryKeywords: [

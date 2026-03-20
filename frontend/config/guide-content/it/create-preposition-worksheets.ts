@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni attività linguaggio spaziale Amazon KDP',
       'strumento schede preposizioni con licenza commerciale',
     ],
-    titleTag: 'Schede Preposizioni — Guida Creazione',
+    titleTag: 'Creare Schede Preposizioni Spaziali | Guida per Venditori',
     metaDescription: 'Crea schede sulle preposizioni con due modalità di esercizio, Sostituzione Forme per varietà visiva, griglia 7 preposizioni e parole native in 11 lingue.',
   },
 

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'stampabili tracciamento linee coppie immagini abbinate',
     ],
     titleTag: 'Generatore Schede Pregrafismo — Tracciamento Linee',
-    metaDescription: 'Crea schede pregrafismo con otto modelli SVG, oltre 3.100 illustrazioni colorate in 104 temi e riempimento automatico coppie immagini. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede di pregrafismo con otto modelli SVG, oltre 3.100 illustrazioni colorate in 104 temi e riempimento automatico delle coppie di immagini tematiche.',
   },
 
   hero: {

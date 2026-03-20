@@ -14,7 +14,7 @@ const content: AppContent = {
       'business schede stampabili senso numerico',
       'generatore schede confronto uso commerciale',
     ],
-    titleTag: 'Generatore Più o Meno | Schede di Confronto',
+    titleTag: 'Generatore Schede Più o Meno | Crea e Vendi Stampabili',
     metaDescription:
       'Crea schede di confronto quantità da vendere su Etsy, KDP e TPT. 3 modalità di esercizio, 104 temi, soluzioni incluse, 400+ DPI. Prova gratuita con filigrana.',
   },

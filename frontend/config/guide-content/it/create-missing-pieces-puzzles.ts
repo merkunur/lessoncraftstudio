@@ -17,8 +17,8 @@ const content: GuideContent = {
       'quaderni puzzle a incastro Amazon KDP',
       'strumento pezzi mancanti con licenza commerciale',
     ],
-    titleTag: 'Puzzle Pezzi Mancanti — Guida Creazione',
-    metaDescription: 'Crea schede puzzle pezzi mancanti con 6 forme pezzo, estrazione intelligente, pezzi distrattori e chiavi di risposta automatiche. Guida passo passo per Etsy e KDP.',
+    titleTag: 'Creare Puzzle Pezzi Mancanti | Guida Passo Passo Etsy',
+    metaDescription: 'Crea schede puzzle pezzi mancanti con sei forme di pezzo, estrazione intelligente, pezzi distrattori e chiavi di risposta automatiche. Guida per Etsy e KDP.',
   },
 
   hero: {

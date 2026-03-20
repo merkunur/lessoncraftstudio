@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sui Dinosauri da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee redditizie di stampabili sui dinosauri da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie per piattaforma e consigli di nicchia per venditori di stampabili.',
+    titleTag: 'Idee Stampabili sui Dinosauri da Vendere | Guida Nicchia',
+    metaDescription: 'Idee redditizie di stampabili sui dinosauri da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie per piattaforma e consigli per venditori.',
 
     primaryKeyword: 'idee stampabili dinosauri',
     secondaryKeywords: [

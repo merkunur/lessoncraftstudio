@@ -15,7 +15,7 @@ const content: ToolContent = {
       'chiave di risposta automatica puzzle abbinamento ombre',
     ],
     titleTag: 'Abbinamento Ombre — Generatore Schede Ombre Stampabili',
-    metaDescription: 'Crea schede di abbinamento ombre con silhouette pixel-level e modalità Completa l\'Immagine, chiavi di risposta automatiche, 104 temi. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede di abbinamento ombre con silhouette pixel-level e modalità Completa, chiavi di risposta automatiche e 104 temi illustrati. Prova con filigrana.',
   },
 
   hero: {

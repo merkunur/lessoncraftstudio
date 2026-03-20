@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cerca parole stampabili Etsy',
       'strumento puzzle licenza commerciale',
     ],
-    titleTag: 'Creare Puzzle Cerca Parole — Guida Passo Passo',
+    titleTag: 'Creare Puzzle Cerca Parole | Guida Passo Passo per Etsy',
     metaDescription: 'Come creare puzzle cerca parole con indizi con immagini. Scegli temi, imposta la griglia, configura le direzioni, genera fogli risposte e vendi su Etsy e KDP.',
   },
 

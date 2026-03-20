@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generatore equazioni con immagini variabili',
       'strumento puzzle algebra con figure',
     ],
-    titleTag: 'Generatore Esercizi Matematica | Algebra Visuale',
+    titleTag: 'Generatore Esercizi di Matematica | Algebra Visuale Maker',
     metaDescription: 'Crea puzzle di algebra visuale dove le immagini sostituiscono le variabili in equazioni collegate. Quattro livelli di difficoltà, soluzione unica garantita.',
   },
 
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funnel puzzle algebra su Pinterest',
-      description: 'Il formato algebra visuale crea pin accattivanti — simboli colorati con immagini all\'interno di equazioni sono immediatamente riconoscibili e generano curiosità. Offri un campione gratuito di 5 pagine su Pinterest, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici completi e quaderni KDP. Le immagini dei puzzle con simboli animali o cibo ottengono significativamente più salvataggi rispetto alle anteprime di schede tradizionali.',
+      description: 'Il formato algebra visuale crea pin accattivanti — simboli colorati con immagini all\'interno di equazioni sono immediatamente riconoscibili e generano curiosità. Offri un campione di prova gratuita con filigrana di 5 pagine su Pinterest, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici completi e quaderni KDP. Le immagini dei puzzle con simboli animali o cibo ottengono significativamente più salvataggi rispetto alle anteprime di schede tradizionali.',
       platform: 'Pinterest',
     },
     {

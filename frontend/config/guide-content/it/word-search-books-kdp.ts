@@ -17,7 +17,7 @@ const content: GuideContent = {
       'serie libri cerca parole volumi acquisto ripetuto catalogo',
       'adulti bambini cerca parole mercato pubblico formattazione griglia',
     ],
-    titleTag: 'Creare Libri Cerca Parole per Amazon KDP — Guida',
+    titleTag: 'Creare Libri Cerca Parole per Amazon KDP | Guida Pratica',
     metaDescription: 'Crea libri cerca parole per Amazon KDP con liste di parole a tema, formati caratteri grandi e strategia di serie. Griglie, pubblico e ottimizzazione Amazon.',
   },
 

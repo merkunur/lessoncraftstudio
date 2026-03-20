@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Animali dell\'Oceano da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sugli animali dell\'oceano da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema marino, strategie per piattaforma e consigli per venditori.',
+    titleTag: 'Stampabili Animali dell\'Oceano da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sugli animali dell\'oceano da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema marino, strategie per piattaforma e consigli per venditori.',
 
     primaryKeyword: 'idee stampabili animali dell\'oceano',
     secondaryKeywords: [

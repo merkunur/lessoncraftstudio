@@ -14,7 +14,7 @@ const content: ToolContent = {
       'strumento schede costruzione parole con immagini',
       'generatore attività spelling multilingue',
     ],
-    titleTag: 'Generatore Schede Indovina Parole | Stampabili',
+    titleTag: 'Generatore Schede Indovina la Parola | Crea Stampabili',
     metaDescription: 'Genera schede indovina parole con 4 livelli di difficoltà, doppia modalità input, esclusione lettere, 11 lingue e 104 temi. Prova gratuita — licenza inclusa.',
   },
 
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funnel Pinterest con spelling visivo',
-      description: 'Il formato immagine-più-griglia-lettere è intrinsecamente visivo e adatto ai pin — un\'immagine colorata di animale abbinata a una griglia parzialmente completata è immediatamente riconoscibile come attività divertente. Pinna un campione gratuito di 3 pagine, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le schede indovina parole ricevono significativamente più salvataggi rispetto alle semplici liste di spelling perché sembrano puzzle.',
+      description: 'Il formato immagine-più-griglia-lettere è intrinsecamente visivo e adatto ai pin — un\'immagine colorata di animale abbinata a una griglia parzialmente completata è immediatamente riconoscibile come attività divertente. Pinna un campione di prova gratuita con filigrana di 3 pagine, raccogli indirizzi email, poi proponi i tuoi pacchetti completi tematici e multilingue. Le schede indovina parole ricevono significativamente più salvataggi rispetto alle semplici liste di spelling perché sembrano puzzle.',
       platform: 'Pinterest',
     },
     {

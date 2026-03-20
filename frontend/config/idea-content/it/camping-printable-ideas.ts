@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sul Campeggio da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili a tema campeggio da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema outdoor, strategie per piattaforma e consigli di nicchia per venditori.',
+    titleTag: 'Idee Stampabili sul Campeggio da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili a tema campeggio da vendere su Etsy, Amazon KDP e TPT. Concetti outdoor, strategie per piattaforma e consigli di nicchia per venditori.',
     primaryKeyword: 'idee stampabili campeggio',
     secondaryKeywords: [
       'schede campeggio da vendere',

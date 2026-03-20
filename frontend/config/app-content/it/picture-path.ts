@@ -14,7 +14,7 @@ const content: AppContent = {
       'generatore schede percorso uso commerciale',
       'strumenti business attività puzzle stampabili',
     ],
-    titleTag: 'Generatore Schede Labirinti | Crea Percorsi',
+    titleTag: 'Generatore Schede Labirinti | Crea Percorsi Stampabili',
     metaDescription: 'Crea schede labirinto da vendere su Etsy, KDP e TPT. 3 modalità di gioco, algoritmo LPF, chiave di risposta automatica, 104 temi, PDF pronti. Prova gratuita.',
   },
 

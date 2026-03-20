@@ -14,7 +14,7 @@ const content: ToolContent = {
       'doppia modalità riempimento immagine parola bingo',
       'creatore bingo con foglio di richiamo e griglia parole',
     ],
-    titleTag: 'Generatore Cartelle Bingo — Bingo Illustrato',
+    titleTag: 'Generatore Cartelle Bingo Illustrato | Crea Stampabili',
     metaDescription: 'Crea cartelle bingo illustrate con griglie da 3×3 a 5×5, generazione batch di cartelle uniche, esportazione ZIP, foglio di richiamo, 104 temi. Prova gratuita.',
   },
 

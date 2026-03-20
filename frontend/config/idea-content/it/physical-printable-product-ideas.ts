@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Prodotti Stampabili Fisici da Vendere — Guida',
-    metaDescription: 'Idee di prodotti stampabili fisici per venditori Etsy e fiere dell\'artigianato. Costruisci un business premium stampando, plastificando e spedendo prodotti didattici tangibili.',
+    metaDescription: 'Idee di prodotti stampabili fisici per venditori Etsy e fiere. Costruisci un business premium stampando, plastificando e spedendo prodotti didattici tangibili.',
     primaryKeyword: 'idee prodotti stampabili fisici',
     secondaryKeywords: [
       'business prodotti didattici stampati',

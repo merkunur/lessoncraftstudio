@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Scuola Materna da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la scuola materna da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto per il livello scuola materna e strategie di nicchia per venditori di stampabili.',
+    titleTag: 'Idee Stampabili per la Scuola Materna | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per la scuola materna da vendere su Etsy, Amazon KDP e TPT. Concetti per il livello materna e strategie di nicchia per venditori online.',
     primaryKeyword: 'idee stampabili scuola materna',
     secondaryKeywords: [
       'schede scuola materna da vendere',

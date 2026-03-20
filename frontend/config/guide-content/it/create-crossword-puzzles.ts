@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cruciverba stampabili Etsy',
       'strumento puzzle licenza commerciale',
     ],
-    titleTag: 'Creare Cruciverba per Bambini — Guida Passo Passo',
+    titleTag: 'Creare Cruciverba per Bambini | Guida Passo Passo Etsy',
     metaDescription: 'Come creare cruciverba per bambini con indizi con immagini. Scegli temi, genera griglie a incroci, indizi numerati, fogli risposte e vendi su Etsy e KDP.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderno matematica conteggio pagine progressione difficoltà chiavi risposta',
       'processo revisione KDP copia prova copie autore',
     ],
-    titleTag: 'Creare Libri Attività Matematica KDP — Guida',
+    titleTag: 'Creare Libri di Attività Matematica per KDP | Guida',
     metaDescription: 'Scopri come creare libri di attività matematica per Amazon KDP e guadagnare royalty. Formattazione manoscritto, design copertina e ottimizzazione parole chiave.',
   },
 

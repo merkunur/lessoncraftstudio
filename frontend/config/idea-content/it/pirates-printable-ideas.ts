@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili sui Pirati da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili a tema pirata da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema avventura piratesca, schede didattiche e strategie di nicchia per venditori.',
+    metaDescription: 'Idee di stampabili a tema pirata da vendere su Etsy, Amazon KDP e TPT. Prodotti avventura piratesca, schede didattiche e strategie di nicchia per venditori.',
     primaryKeyword: 'idee stampabili pirati',
     secondaryKeywords: [
       'schede a tema pirata da vendere',

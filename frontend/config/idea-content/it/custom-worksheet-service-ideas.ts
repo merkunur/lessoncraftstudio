@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Business per Servizio di Schede Didattiche Personalizzate — Guida',
-    metaDescription: 'Idee di business per servizi di schede didattiche personalizzate per venditori Etsy e freelance. Offri stampabili educativi su misura con strategie di prezzo premium per ordine.',
+    titleTag: 'Servizio Schede Personalizzate da Vendere | Guida Nicchia',
+    metaDescription: 'Idee per servizi di schede didattiche personalizzate per venditori Etsy e freelance. Stampabili educativi su misura con strategie di prezzo premium online.',
     primaryKeyword: 'servizio di schede didattiche personalizzate',
     secondaryKeywords: [
       'idee business schede didattiche personalizzate',

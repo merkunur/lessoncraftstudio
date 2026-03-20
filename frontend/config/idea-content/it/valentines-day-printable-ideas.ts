@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili di San Valentino da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili di San Valentino da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema amore e amicizia, strategie stagionali invernali e consigli per venditori.',
+    titleTag: 'Idee Stampabili di San Valentino | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili di San Valentino da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema amore e amicizia, strategie stagionali e consigli per i venditori.',
     primaryKeyword: 'idee stampabili di San Valentino',
     secondaryKeywords: [
       'schede di San Valentino da vendere',

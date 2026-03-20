@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per l\'Educazione Speciale da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per l\'educazione speciale da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto per insegnanti di sostegno, terapisti e genitori di alunni con bisogni speciali.',
+    titleTag: 'Stampabili per Educazione Speciale | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per educazione speciale su Etsy, Amazon KDP e TPT. Prodotti per insegnanti di sostegno, terapisti e genitori di alunni con bisogni educativi.',
     primaryKeyword: 'idee stampabili educazione speciale',
     secondaryKeywords: [
       'schede educazione speciale da vendere',

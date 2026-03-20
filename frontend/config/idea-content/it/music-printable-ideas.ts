@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sulla Musica da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sulla musica da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema strumenti musicali, strategie per piattaforma e consigli per questa nicchia sempreverde.',
+    titleTag: 'Idee Stampabili sulla Musica da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sulla musica da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema strumenti musicali, strategie e consigli per nicchia sempreverde online.',
     primaryKeyword: 'idee stampabili musica',
     secondaryKeywords: [
       'schede a tema musicale da vendere',

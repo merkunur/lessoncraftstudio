@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { toolPageSlugs, getToolSlugForLocale } from '@/config/tool-page-slugs';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateToolsCollectionSchema, generateToolsItemListSchema } from '@/lib/schema-generator';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ALL_APPS, APP_CATEGORIES, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
@@ -302,9 +302,15 @@ export default function ToolsListingPage({
     ],
   };
 
+  const collectionSchema = generateToolsCollectionSchema(locale);
+  const allTools = Object.values(toolsByCategory).flat();
+  const itemListSchema = generateToolsItemListSchema(locale, allTools);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

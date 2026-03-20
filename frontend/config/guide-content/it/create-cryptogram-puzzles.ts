@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni puzzle cifrario con immagini Amazon KDP',
       'strumento schede crittogramma con licenza commerciale',
     ],
-    titleTag: 'Crittogrammi — Guida alla Creazione',
+    titleTag: 'Creare Crittogrammi Stampabili | Guida per Venditori',
     metaDescription: 'Crea crittogrammi con cifrario illustrato, difficoltà regolabile, assegnazione automatica e alfabeti sensibili alla lingua. Guida per venditori Etsy e KDP.',
   },
 

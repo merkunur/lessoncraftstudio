@@ -15,7 +15,7 @@ const content: AppContent = {
       'attività di puzzle stampabili per business online',
     ],
     titleTag: 'Generatore Puzzle Pezzi Mancanti | Creare e Vendere',
-    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Etsy, KDP e TPT. 6 forme di pezzo, difficoltà configurabile, foglio risposte automatico, 104 temi. Prova gratuita con filigrana.',
+    metaDescription: 'Crea puzzle di pezzi mancanti da vendere su Etsy, KDP e TPT. 6 forme di pezzo, difficoltà configurabile, foglio risposte automatico. Prova gratuita filigrana.',
   },
 
   hero: {

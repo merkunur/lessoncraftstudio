@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sullo Spazio da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sullo spazio da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto sullo spazio, strategie STEM e consigli per piattaforma per venditori di stampabili.',
+    titleTag: 'Idee Stampabili sullo Spazio da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sullo spazio da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema spaziale, strategie STEM e consigli per venditori online.',
     primaryKeyword: 'idee stampabili spazio',
     secondaryKeywords: [
       'schede a tema spaziale da vendere',

@@ -17,8 +17,8 @@ const content: GuideContent = {
       'flusso lavoro ottimizzato standardizzazione processi efficienza operativa batching attività',
       'sistemi produzione processi scalabili gestione catalogo progettazione flusso lavoro',
     ],
-    titleTag: 'Automatizzare il Business di Stampabili — Guida all\'Efficienza',
-    metaDescription: 'Come automatizzare il tuo business di stampabili con produzione batch, sistemi di template e flussi di lavoro sistematici. Risparmia ore ogni settimana e scala la produzione su più piattaforme.',
+    titleTag: 'Automatizzare il Business di Stampabili | Guida Pratica',
+    metaDescription: 'Automatizza il tuo business di stampabili con produzione batch, sistemi di template e flussi di lavoro sistematici. Scala la produzione su più piattaforme.',
   },
 
   hero: {

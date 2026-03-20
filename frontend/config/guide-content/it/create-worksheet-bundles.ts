@@ -17,7 +17,7 @@ const content: GuideContent = {
       'packaging bundle mockup anteprima branding organizzazione file convenzioni nomi',
       'inserzioni bundle multi-piattaforma strategia universale vendita cross-piattaforma',
     ],
-    titleTag: 'Creare Pacchetti di Schede Che Vendono — Guida',
+    titleTag: 'Creare Pacchetti di Schede Che Vendono | Guida Completa',
     metaDescription: 'Come creare pacchetti di schede che vendono su ogni piattaforma. Tipi di bundle, psicologia dei prezzi, accumulo valore e packaging bundle professionale.',
   },
 

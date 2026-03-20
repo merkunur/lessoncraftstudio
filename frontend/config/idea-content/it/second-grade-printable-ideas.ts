@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Seconda Classe da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la seconda classe da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto e strategie di nicchia per venditori che puntano al mercato della seconda elementare.',
+    titleTag: 'Idee Stampabili per la Seconda Classe | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per la seconda classe da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto e strategie per venditori nella seconda elementare online.',
     primaryKeyword: 'idee stampabili seconda classe',
     secondaryKeywords: [
       'schede seconda elementare da vendere',

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili Primaverili da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili primaverili da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto stagionali, strategie marzo-maggio e consigli per piattaforma per venditori di schede.',
+    metaDescription: 'Idee di stampabili primaverili da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto stagionali, strategie marzo-maggio e consigli per venditori online.',
     primaryKeyword: 'idee stampabili primaverili',
     secondaryKeywords: [
       'schede a tema primaverile da vendere',

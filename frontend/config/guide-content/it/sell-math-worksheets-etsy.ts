@@ -17,7 +17,7 @@ const content: GuideContent = {
       'strategia stagionale stampabili matematica ritorno a scuola Etsy',
       'foto inserzioni Etsy mockup per prodotti schede matematica',
     ],
-    titleTag: 'Vendere Schede di Matematica su Etsy — Guida',
+    titleTag: 'Vendere Schede di Matematica su Etsy | Guida Completa',
     metaDescription: 'Vendi schede di matematica su Etsy con 6 generatori. SEO Etsy, ottimizzazione inserzioni, prezzi, strategie di bundle e tempistica stagionale per venditori.',
   },
 

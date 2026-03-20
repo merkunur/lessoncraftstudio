@@ -17,7 +17,7 @@ const content: StartContent = {
       'ottimizzazione marketplace per libri di attività',
       'content marketing per imprenditori di stampabili',
     ],
-    titleTag: 'Come Promuovere Schede Stampabili — Guida',
+    titleTag: 'Come Promuovere Schede Stampabili Online | Guida Pratica',
     metaDescription: 'Come promuovere schede stampabili online: SEO della piattaforma, strategia Pinterest, email marketing, tempistiche stagionali e brand building per venditori.',
   },
 

@@ -15,7 +15,7 @@ const content: BundleContent = {
       'licenza commerciale schede cerca e trova',
       'strumento creazione schede cerca e trova in blocco',
     ],
-    titleTag: 'Pacchetto Cerca e Trova — 4 Generatori di Schede',
+    titleTag: 'Pacchetto Cerca e Trova | 4 Generatori Schede Stampabili',
     metaDescription: 'Pacchetto con 4 generatori di schede cerca e trova: Vedo Vedo, oggetti nascosti, cruciverba e caccia al tesoro. Vendi su Etsy.it, Amazon.it KDP e TpT.',
   },
 

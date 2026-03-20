@@ -13,7 +13,7 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 export const revalidate = 1800;
 
 // Dynamic date from build environment, falls back to static date
-const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-02-27');
+const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
 
 /**
  * Eight sitemaps:

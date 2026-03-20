@@ -94,8 +94,8 @@ export async function generateMetadata({
     const alternateUrls = getToolAlternateUrls(toolConfig.toolId, baseUrl);
     const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
 
-    const title = content?.seo?.titleTag || `Free ${localizedName} | LessonCraftStudio`;
-    const description = content?.seo?.metaDescription || `Try ${localizedName} free online. No signup required.`;
+    const title = content?.seo?.titleTag || `${localizedName} | LessonCraftStudio`;
+    const description = content?.seo?.metaDescription || `${localizedName} — try free with watermark. No signup required.`;
 
     const keywords = content?.seo?.primaryKeyword
       ? [content.seo.primaryKeyword, ...content.seo.secondaryKeywords, ...content.seo.lsiKeywords]
@@ -117,6 +117,11 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
       },
       robots: content ? undefined : { index: false },
     };

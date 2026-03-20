@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per il Giorno del Ringraziamento da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per il Giorno del Ringraziamento da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema raccolto, strategie stagionali e consigli per piattaforma per venditori.',
+    titleTag: 'Stampabili Giorno del Ringraziamento | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per il Giorno del Ringraziamento da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema raccolto, strategie stagionali per i venditori.',
     primaryKeyword: 'idee stampabili Giorno del Ringraziamento',
     secondaryKeywords: [
       'schede Thanksgiving da vendere',

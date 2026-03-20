@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generatore attività abbinamento con chiave di risposta automatica',
       'creatore abbinamento lettera iniziale immagine parola',
     ],
-    titleTag: 'Generatore Schede Abbinamento — Traccia una Linea',
+    titleTag: 'Generatore Schede Abbinamento | Traccia una Linea Maker',
     metaDescription: 'Crea schede di abbinamento con 4 modalità, chiave di risposta automatica con linee di collegamento, coppie configurabili, 11 lingue, 104 temi. Prova gratuita.',
   },
 

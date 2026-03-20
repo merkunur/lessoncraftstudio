@@ -17,8 +17,8 @@ const content: StartContent = {
       'mappatura linea prodotti per venditori',
       'checklist lancio attività stampabili',
     ],
-    titleTag: 'Idee Stampabili — Blueprint per Guadagnare',
-    metaDescription: 'Trasforma le idee per stampabili in un piano strutturato. Pianifica la linea prodotti, scegli le piattaforme, imposta i prezzi e lancia con i generatori di schede.',
+    titleTag: 'Blueprint per Guadagnare con Stampabili | Idee e Guida',
+    metaDescription: 'Trasforma le idee per stampabili in un piano strutturato. Pianifica la linea prodotti, scegli le piattaforme, imposta i prezzi e lancia il tuo business.',
   },
 
   hero: {

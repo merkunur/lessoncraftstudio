@@ -17,8 +17,8 @@ const content: GuideContent = {
       'libri attività matematica Amazon KDP',
       'strumento schede licenza commerciale',
     ],
-    titleTag: 'Creare Schede di Addizione — Guida Passo Passo',
-    metaDescription: 'Come creare schede di addizione per bambini. Guida passo passo: scegli temi, imposta la difficoltà, genera fogli risposte ed esporta PDF da vendere su Etsy e KDP.',
+    titleTag: 'Creare Schede di Addizione | Guida Passo Passo per KDP',
+    metaDescription: 'Crea schede di addizione per bambini. Guida passo passo: scegli temi, imposta la difficoltà, genera fogli risposte ed esporta PDF da vendere su Etsy e KDP.',
   },
 
   hero: {

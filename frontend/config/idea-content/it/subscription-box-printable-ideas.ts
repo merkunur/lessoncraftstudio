@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per Box in Abbonamento da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per box in abbonamento da vendere su Etsy, Gumroad e Patreon. Costruisci entrate ricorrenti con pacchetti mensili curati di schede didattiche e collezioni tematiche.',
+    titleTag: 'Stampabili per Box in Abbonamento | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per box in abbonamento su Etsy, Gumroad e Patreon. Entrate ricorrenti con pacchetti mensili curati di schede didattiche e collezioni.',
     primaryKeyword: 'idee stampabili box in abbonamento',
     secondaryKeywords: [
       'business stampabili in abbonamento',

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Animali del Safari da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee redditizie di stampabili sugli animali del safari da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto sulla fauna africana e consigli per piattaforma per venditori.',
+    titleTag: 'Stampabili Animali del Safari da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sugli animali del safari da vendere su Etsy, Amazon KDP e TPT. Prodotti sulla fauna africana e consigli per piattaforma per i venditori.',
 
     primaryKeyword: 'idee stampabili animali del safari',
     secondaryKeywords: [

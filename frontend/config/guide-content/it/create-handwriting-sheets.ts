@@ -17,7 +17,7 @@ const content: GuideContent = {
       'vendere schede scrittura su Etsy',
       'quaderni scrittura Amazon KDP',
     ],
-    titleTag: 'Creare Schede di Scrittura — Guida Passo Passo',
+    titleTag: 'Creare Schede di Scrittura a Mano | Guida Passo Passo',
     metaDescription: 'Crea schede di esercizio di scrittura con tracciamento, tracciamento sfumato e copia guidata. Frecce ordine tratti, cinque stili font e PDF per Etsy e KDP.',
   },
 

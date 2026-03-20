@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { startPageSlugs, getStartSlugForLocale } from '@/config/start-page-slugs';
-import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { getHreflangCode, ogLocaleMap, generateStartCollectionSchema, generateStartItemListSchema } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 
@@ -219,9 +219,18 @@ export default async function StartListingPage({
     ],
   };
 
+  const collectionSchema = generateStartCollectionSchema(locale);
+  const allStartItems = startPageSlugs.map(s => ({
+    name: guideContentMap.get(s.startId)?.title || s.startId,
+    slug: getStartSlugForLocale(s.startId, locale) || s.slugs.en,
+  }));
+  const itemListSchema = generateStartItemListSchema(locale, allStartItems);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

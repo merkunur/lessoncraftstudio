@@ -18,7 +18,7 @@ const content: GuideContent = {
       'posizionamento ricerca tasso di salvataggio clic in uscita audience insights modelli pin',
     ],
     titleTag: 'Marketing Pinterest per Schede — Strategia Venditori',
-    metaDescription: 'Strategia di marketing Pinterest per venditori di schede stampabili. Genera traffico a lungo termine attraverso ottimizzazione dei pin, strategia delle bacheche e contenuti ricchi di parole chiave.',
+    metaDescription: 'Marketing Pinterest per venditori di schede stampabili. Traffico a lungo termine con ottimizzazione pin, strategia bacheche e contenuti con parole chiave.',
   },
 
   hero: {

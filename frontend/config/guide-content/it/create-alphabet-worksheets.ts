@@ -17,8 +17,8 @@ const content: GuideContent = {
       'quaderni riconoscimento lettere treno Amazon KDP',
       'strumento treno alfabetico con licenza commerciale',
     ],
-    titleTag: 'Schede Treno dell\'Alfabeto — Guida Creazione',
-    metaDescription: 'Crea schede treno dell\'alfabeto con 11 vagoni colorati, due modalità di creazione, difficoltà configurabile e abbinamento lettere multilingue. Guida per Etsy e KDP.',
+    titleTag: 'Creare Schede Treno dell\'Alfabeto | Guida per Venditori',
+    metaDescription: 'Crea schede treno dell\'alfabeto con vagoni colorati, due modalità, difficoltà configurabile e abbinamento lettere multilingue. Guida per venditori Etsy e KDP.',
   },
 
   hero: {

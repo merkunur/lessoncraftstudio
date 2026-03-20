@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Animali della Fattoria da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee redditizie di stampabili sugli animali della fattoria da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie di prezzo e consigli per venditori.',
+    titleTag: 'Stampabili Animali della Fattoria da Vendere | Guida',
+    metaDescription: 'Idee di stampabili sugli animali della fattoria da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie di prezzo e consigli per venditori.',
 
     primaryKeyword: 'idee stampabili animali della fattoria',
     secondaryKeywords: [

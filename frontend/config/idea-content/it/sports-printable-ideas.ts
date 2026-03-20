@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili sullo Sport da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sullo sport da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema atletico, strategie per piattaforma e consigli per questa nicchia sempreverde.',
+    metaDescription: 'Idee di stampabili sullo sport da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema atletico, strategie per piattaforma e consigli per nicchia sempreverde.',
     primaryKeyword: 'idee stampabili sport',
     secondaryKeywords: [
       'schede a tema sportivo da vendere',

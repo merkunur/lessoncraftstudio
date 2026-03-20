@@ -15,7 +15,7 @@ const content: AppContent = {
       'puzzle trova il diverso stampabili per business online',
     ],
     titleTag: 'Generatore Schede Trova l\'Intruso | Creare e Vendere',
-    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy, KDP e TPT. Due modalità di generazione, foglio risposte automatico con cerchi rossi, 104 temi. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede trova l\'intruso da vendere su Etsy, KDP e TPT. Due modalità, foglio risposte con cerchi rossi, 104 temi illustrati. Prova gratuita con filigrana.',
   },
 
   hero: {

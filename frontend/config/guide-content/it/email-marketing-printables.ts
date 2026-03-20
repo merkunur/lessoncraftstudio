@@ -18,7 +18,7 @@ const content: GuideContent = {
       'calendario contenuti analisi email A/B testing personalizzazione tag',
     ],
     titleTag: 'Email Marketing Stampabili — Strategia per Venditori',
-    metaDescription: 'Strategie di email marketing per venditori di stampabili. Costruisci la tua lista iscritti, crea lead magnet, automatizza le sequenze e genera vendite ricorrenti su tutte le piattaforme.',
+    metaDescription: 'Email marketing per venditori di stampabili. Costruisci la lista iscritti, crea lead magnet, automatizza le sequenze e genera vendite ricorrenti online.',
   },
 
   hero: {

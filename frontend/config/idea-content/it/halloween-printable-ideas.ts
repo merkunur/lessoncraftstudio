@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili di Halloween da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili di Halloween da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema spaventoso, strategie stagionali e consigli per venditori di stampabili.',
+    titleTag: 'Idee Stampabili di Halloween da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili di Halloween da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema spaventoso, strategie stagionali e consigli per venditori di schede.',
 
     primaryKeyword: 'idee stampabili di Halloween',
     secondaryKeywords: [

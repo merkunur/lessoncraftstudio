@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Uccelli da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee redditizie di stampabili sugli uccelli da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie per piattaforma e consigli di nicchia per venditori di stampabili.',
+    titleTag: 'Idee Stampabili sugli Uccelli da Vendere | Guida Nicchia',
+    metaDescription: 'Idee redditizie di stampabili sugli uccelli da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto, strategie per piattaforma e consigli per venditori.',
 
     primaryKeyword: 'idee stampabili uccelli',
     secondaryKeywords: [

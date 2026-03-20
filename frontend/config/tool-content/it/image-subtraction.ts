@@ -14,7 +14,7 @@ const content: ToolContent = {
       'sottrazione visuale con immagini prescolare',
       'schede operative sottrazione infanzia',
     ],
-    titleTag: 'Generatore Schede Sottrazione | Cancella e Conta',
+    titleTag: 'Generatore Schede Sottrazione Visiva | Cancella e Conta',
     metaDescription: 'Crea schede di sottrazione con modalità Cancella in pochi secondi. 104 temi, 4 modalità, chiave di correzione e PDF stampabili. Prova gratuita con filigrana.',
   },
 
@@ -116,7 +116,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lead magnet sui social media per acquisire clienti',
-      description: 'Offri un pacchetto campione gratuito di 5 schede di sottrazione Cancella come lead magnet su Pinterest. Le schede con immagini barrate creano pin particolarmente accattivanti che catturano l\'attenzione nel feed. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi e i libri di attività KDP tramite email marketing.',
+      description: 'Offri un pacchetto campione di prova gratuita con filigrana di 5 schede di sottrazione Cancella come lead magnet su Pinterest. Le schede con immagini barrate creano pin particolarmente accattivanti che catturano l\'attenzione nel feed. Raccogli indirizzi email di genitori e insegnanti interessati e successivamente vendi i tuoi pacchetti tematici completi e i libri di attività KDP tramite email marketing.',
     },
   ],
 

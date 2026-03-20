@@ -14,7 +14,7 @@ const content: AppContent = {
       'business schede tracciamento lettere stampabili online',
       'generatore esercizi calligrafia con frecce ordine tratti',
     ],
-    titleTag: 'Generatore Schede Scrittura | Crea e Vendi',
+    titleTag: 'Generatore Schede di Scrittura | Crea e Vendi Online',
     metaDescription:
       'Crea schede scrittura per Etsy, KDP e TPT. 3 modalità di pratica, 5 font, frecce ordine tratti, tracciamento progressivo, 104 temi. Prova gratuita con filigrana',
   },

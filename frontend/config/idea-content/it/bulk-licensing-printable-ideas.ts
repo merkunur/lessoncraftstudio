@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Business per Licenza in Volume di Stampabili — Guida',
-    metaDescription: 'Idee di business per la licenza in volume di stampabili per vendere collezioni di schede didattiche a scuole, distretti e organizzazioni. Strategie di licenza collettiva per educatori.',
+    metaDescription: 'Idee per la licenza in volume di stampabili a scuole, distretti e organizzazioni educative. Strategie di licenza collettiva e prezzi per venditori di schede.',
     primaryKeyword: 'licenza in volume stampabili',
     secondaryKeywords: [
       'business licenza in volume schede didattiche',

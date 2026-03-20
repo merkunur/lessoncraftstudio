@@ -17,7 +17,7 @@ const content: GuideContent = {
       'tempistica pubblicazione parole chiave stagionali analisi tendenze calendario contenuti pianificazione trimestrale',
     ],
     titleTag: 'Marketing Stagionale Stampabili — Calendario per Venditori',
-    metaDescription: 'Pianifica campagne di marketing stagionale per stampabili allineate ai cicli della domanda. Un calendario per venditori con tempistiche di produzione, parole chiave e strategie di vendita nei periodi di picco.',
+    metaDescription: 'Pianifica campagne stagionali per stampabili allineate ai cicli della domanda. Calendario venditori con tempistiche, parole chiave e strategie di picco.',
   },
 
   hero: {

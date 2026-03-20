@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sulle Operazioni Matematiche di Base da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sulle operazioni matematiche di base da vendere su Etsy, Amazon KDP e TPT. Strategie di nicchia per venditori che si rivolgono a insegnanti e genitori alla ricerca di schede di esercitazione.',
+    titleTag: 'Stampabili Operazioni Matematiche da Vendere | Guida',
+    metaDescription: 'Idee di stampabili sulle operazioni matematiche da vendere su Etsy, Amazon KDP e TPT. Strategie per venditori che puntano a insegnanti con schede pratiche.',
     primaryKeyword: 'idee stampabili operazioni matematiche',
     secondaryKeywords: [
       'schede operazioni matematiche da vendere',

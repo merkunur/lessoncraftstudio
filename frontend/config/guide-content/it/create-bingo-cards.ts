@@ -17,7 +17,7 @@ const content: GuideContent = {
       'strumento bingo con licenza commerciale',
       'generatore cartelle bingo uniche multiple',
     ],
-    titleTag: 'Creare Cartelle Bingo con Immagini Tematiche',
+    titleTag: 'Creare Cartelle Bingo con Immagini | Guida Passo Passo',
     metaDescription: 'Come creare cartelle bingo con immagini tematiche. Scegli dimensioni griglia, genera cartelle uniche con schede del conduttore ed esporta PDF per la stampa.',
   },
 

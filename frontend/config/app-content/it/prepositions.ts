@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività di preposizioni stampabili business online',
       'generatore schede linguaggio spaziale uso commerciale',
     ],
-    titleTag: 'Generatore Schede Preposizioni | Crea e Vendi',
+    titleTag: 'Generatore Schede Preposizioni | Crea e Vendi Online',
     metaDescription:
       'Crea schede di preposizioni da vendere su Etsy, KDP e TPT. 8 preposizioni spaziali, completa la frase e scelta multipla. Prova gratuita con filigrana.',
   },

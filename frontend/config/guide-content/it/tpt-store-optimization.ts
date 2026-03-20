@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sezioni negozio categorie navigazione facile da navigare organizzazione',
       'analisi TPT pianificazione stagionale strategia scalabilità catalogo basata sui dati',
     ],
-    titleTag: 'Ottimizzazione Negozio TPT — Vendi Più Risorse',
+    titleTag: 'Ottimizzazione del Negozio TPT | Vendi Più Risorse',
     metaDescription: 'Strategie di ottimizzazione negozio TPT per posizionamenti migliori e più vendite. Conversione anteprime, bundle prodotti, recensioni e scalabilità catalogo.',
   },
 

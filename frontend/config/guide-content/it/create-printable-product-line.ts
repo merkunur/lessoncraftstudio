@@ -17,7 +17,7 @@ const content: GuideContent = {
       'cross-selling navigazione del catalogo organizzazione del negozio sequenziamento dei prodotti copertura di mercato',
       'identità visiva gerarchia dei prodotti prodotti complementari ecosistema dei prodotti coesione della linea',
     ],
-    titleTag: 'Creare una Linea di Prodotti Stampabili — Guida',
+    titleTag: 'Creare una Linea di Prodotti Stampabili | Guida Completa',
     metaDescription: 'Scopri come creare una linea di prodotti stampabili con branding coerente, sequenziamento strategico ed espansione sistematica per costruire un catalogo coeso.',
   },
 

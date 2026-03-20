@@ -17,7 +17,7 @@ const content: StartContent = {
       'generatore di schede per venditori Etsy',
       'strategia di pricing stampabili Etsy',
     ],
-    titleTag: 'Vendere Stampabili su Etsy — Masterclass Completa',
+    titleTag: 'Vendere Stampabili su Etsy | Masterclass Guida Completa',
     metaDescription: 'Come vendere stampabili su Etsy passo dopo passo. Configurazione negozio, SEO Etsy, ottimizzazione inserzioni, pricing e scalabilità con i generatori.',
   },
 

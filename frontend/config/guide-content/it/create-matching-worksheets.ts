@@ -17,7 +17,7 @@ const content: GuideContent = {
       'libri attività abbinamento Amazon KDP',
       'strumento schede con licenza commerciale',
     ],
-    titleTag: 'Creare Schede di Abbinamento per Età Prescolare',
+    titleTag: 'Creare Schede di Abbinamento Prescolare | Guida Completa',
     metaDescription: 'Come creare schede di abbinamento per età prescolare. Usa 4 modalità, immagini tematiche, chiavi di risposta automatiche con linee e PDF per Etsy e KDP.',
   },
 

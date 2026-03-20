@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività di lettere stampabili per business online',
       'generatore schede alfabeto per uso commerciale',
     ],
-    titleTag: 'Generatore Treno dell\'Alfabeto | Schede Lettere',
+    titleTag: 'Generatore Treno dell\'Alfabeto | Crea e Vendi Schede',
     metaDescription:
       'Crea schede treno dell\'alfabeto da vendere su Etsy, KDP e TPT. Vagoni con lettere e immagini, 11 lingue, 104 temi in PDF. Prova gratuita con filigrana.',
   },

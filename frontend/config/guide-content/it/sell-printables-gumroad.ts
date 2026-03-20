@@ -17,7 +17,7 @@ const content: GuideContent = {
       'traffico social media Pinterest Instagram contenuti blog promozione SEO',
       'bundle prodotti abbonamenti entrate ricorrenti scalabilità catalogo',
     ],
-    titleTag: 'Come Vendere Stampabili su Gumroad — Guida',
+    titleTag: 'Come Vendere Stampabili su Gumroad | Guida per Venditori',
     metaDescription: 'Come vendere stampabili su Gumroad senza canoni mensili. Configurazione vetrina, strategie di prezzo, email marketing e relazioni dirette con i clienti.',
   },
 

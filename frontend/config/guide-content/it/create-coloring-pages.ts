@@ -17,7 +17,7 @@ const content: GuideContent = {
       'schede attività da colorare per la classe',
       'strumento per colorare con licenza commerciale',
     ],
-    titleTag: 'Creare Pagine da Colorare da Immagini Tematiche',
+    titleTag: 'Creare Pagine da Colorare Stampabili | Guida per Etsy',
     metaDescription: 'Come creare pagine da colorare da oltre 3.100 immagini tematiche. Canvas a composizione libera con esportazione in scala di grigi e disegno a mano libera.',
   },
 

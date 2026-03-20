@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili sulle Fiabe da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili a tema fiaba da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema fiabesco, schede didattiche e strategie di nicchia per venditori.',
+    metaDescription: 'Idee di stampabili a tema fiaba da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema fiabesco, schede didattiche e strategie di nicchia per venditori online.',
     primaryKeyword: 'idee stampabili fiabe',
     secondaryKeywords: [
       'schede a tema fiaba da vendere',

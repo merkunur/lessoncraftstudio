@@ -18,7 +18,7 @@ const content: GuideContent = {
       'test prodotto minimo flusso di lavoro ricerca scoperta nicchie processo sistematico',
     ],
     titleTag: 'Ricerca Nicchie Redditizie Stampabili — Guida ai Metodi',
-    metaDescription: 'Come ricercare nicchie redditizie per stampabili usando dati di marketplace, analisi parole chiave, studio della concorrenza, segnali di domanda e metodi di validazione sistematica.',
+    metaDescription: 'Ricerca nicchie redditizie per stampabili con dati marketplace, analisi parole chiave, studio concorrenza, segnali di domanda e validazione sistematica.',
   },
 
   hero: {

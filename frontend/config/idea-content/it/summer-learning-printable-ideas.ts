@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per l\'Apprendimento Estivo da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per l\'apprendimento estivo da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotti stagionali per genitori, insegnanti e coordinatori di attività nei centri estivi.',
+    titleTag: 'Stampabili Apprendimento Estivo da Vendere | Guida',
+    metaDescription: 'Idee di stampabili per apprendimento estivo da vendere su Etsy, Amazon KDP e TPT. Prodotti stagionali per genitori, insegnanti e coordinatori centri estivi.',
     primaryKeyword: 'idee stampabili apprendimento estivo',
     secondaryKeywords: [
       'schede apprendimento estivo da vendere',

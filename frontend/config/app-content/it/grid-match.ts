@@ -14,7 +14,7 @@ const content: AppContent = {
       'generatore di puzzle a pezzi di immagini uso commerciale',
       'attività di percezione visiva stampabili per business online',
     ],
-    titleTag: 'Generatore Puzzle a Griglia | Creare e Vendere',
+    titleTag: 'Generatore Puzzle a Griglia | Crea e Vendi Stampabili',
     metaDescription:
       'Crea puzzle a griglia da vendere su Etsy, KDP e TPT. Griglia configurabile, caselle-indizio, risposte automatiche, 104 temi. Prova gratuita con filigrana.',
   },

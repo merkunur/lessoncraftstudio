@@ -17,8 +17,8 @@ const content: GuideContent = {
       'quaderni competenze dati Amazon KDP',
       'generatore grafici per immagini con licenza commerciale',
     ],
-    titleTag: 'Creare Schede Conteggio e Grafici — Guida',
-    metaDescription: 'Come creare schede di conteggio con grafici per immagini, chiavi di risposta automatiche e 104 temi. Guida passo passo per vendere stampabili su Etsy, KDP e TpT.',
+    titleTag: 'Creare Schede di Conteggio e Grafici | Guida Completa',
+    metaDescription: 'Come creare schede di conteggio con grafici per immagini, chiavi di risposta automatiche e 104 temi. Guida passo passo per vendere stampabili su Etsy e KDP.',
   },
 
   hero: {

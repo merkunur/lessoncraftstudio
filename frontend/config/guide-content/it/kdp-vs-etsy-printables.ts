@@ -17,8 +17,8 @@ const content: GuideContent = {
       'strategia vendita multi-piattaforma business stampabili cross-platform',
       'scheda stampabile libro attività pagina colorare libro puzzle marketplace',
     ],
-    titleTag: 'KDP o Etsy Stampabili — Guida al Confronto',
-    metaDescription: 'KDP o Etsy per venditori di stampabili. Confronta strutture tariffarie, formati prodotto, meccaniche di traffico e strategie multi-piattaforma per il tuo business.',
+    titleTag: 'KDP o Etsy per Vendere Stampabili | Guida al Confronto',
+    metaDescription: 'KDP o Etsy per venditori di stampabili? Confronta strutture tariffarie, formati prodotto, meccaniche di traffico e strategie multi-piattaforma per il business.',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'numerazione pagine pagine preliminari materiale finale indice',
       'errori caricamento KDP rifiuto risoluzione problemi anteprima bozza',
     ],
-    titleTag: 'Formattazione KDP Schede — Guida Completa',
+    titleTag: 'Formattazione KDP per Schede Didattiche | Guida Completa',
     metaDescription: 'Guida alla formattazione KDP: dimensioni ritaglio, margini, abbondanza, esportazione PDF 300 DPI, copertina e risoluzione problemi per libri di attività.',
   },
 

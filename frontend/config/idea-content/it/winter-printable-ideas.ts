@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili Invernali da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili invernali da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema freddo con forte domanda da novembre a febbraio per venditori di schede.',
+    metaDescription: 'Idee di stampabili invernali da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema freddo con forte domanda da novembre a febbraio per venditori stampabili.',
     primaryKeyword: 'idee stampabili invernali',
     secondaryKeywords: [
       'schede a tema invernale da vendere',

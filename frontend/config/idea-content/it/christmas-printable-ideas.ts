@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili di Natale da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili di Natale da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto natalizi, strategie stagionali e consigli per piattaforma per venditori di stampabili.',
+    metaDescription: 'Idee di stampabili natalizi da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto natalizi, strategie stagionali e consigli per venditori di schede.',
 
     primaryKeyword: 'idee stampabili di Natale',
     secondaryKeywords: [

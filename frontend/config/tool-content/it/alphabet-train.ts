@@ -14,7 +14,7 @@ const content: ToolContent = {
       'generatore abbinamento lettere immagini',
       'strumento attività alfabeto multilingue',
     ],
-    titleTag: 'Generatore Treno Alfabeto | Vendi Stampabili',
+    titleTag: 'Generatore Treno dell\'Alfabeto | Vendi Stampabili Online',
     metaDescription: 'Genera schede colorate con treno dell\'alfabeto e abbinamento lettera-immagine in 11 lingue. Crea stampabili multilingue unici da vendere su Etsy, KDP e TpT.',
   },
 
@@ -112,7 +112,7 @@ const content: ToolContent = {
     },
     {
       title: 'Funnel treno dell\'alfabeto su Pinterest',
-      description: 'Il formato colorato con vagoni del treno crea pin accattivanti che generano clic — 11 vagoni vivaci con lettere e immagini sono immediatamente riconoscibili e fermano lo scorrimento. Pubblica un campione gratuito di 3 pagine, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici e multilingue completi. Le immagini dei treni dell\'alfabeto ottengono significativamente più salvataggi rispetto alle semplici schede di lettere.',
+      description: 'Il formato colorato con vagoni del treno crea pin accattivanti che generano clic — 11 vagoni vivaci con lettere e immagini sono immediatamente riconoscibili e fermano lo scorrimento. Pubblica un campione di prova gratuita con filigrana di 3 pagine, raccogli indirizzi email, poi proponi i tuoi pacchetti tematici e multilingue completi. Le immagini dei treni dell\'alfabeto ottengono significativamente più salvataggi rispetto alle semplici schede di lettere.',
       platform: 'Pinterest',
     },
     {

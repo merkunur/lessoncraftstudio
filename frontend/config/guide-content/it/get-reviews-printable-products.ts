@@ -18,7 +18,7 @@ const content: GuideContent = {
       'ottimizzazione inserzioni gestione aspettative comunicazione acquirente esperienza post-acquisto',
     ],
     titleTag: 'Ottenere Recensioni Prodotti Stampabili — Guida Venditori',
-    metaDescription: 'Strategie comprovate per ottenere recensioni sui prodotti stampabili. Costruisci prova sociale, ottieni feedback autentico dagli acquirenti e rafforza la credibilità del tuo negozio su Etsy, KDP e TpT.',
+    metaDescription: 'Strategie per ottenere recensioni sui prodotti stampabili. Costruisci prova sociale, ottieni feedback autentico e rafforza la credibilità del negozio.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'modello ricavi scalabile flussi di reddito schede ricavi multi-piattaforma',
     ],
     titleTag: 'Ricavi Ricorrenti con le Schede — Guida al Reddito',
-    metaDescription: 'Costruisci ricavi ricorrenti con le schede didattiche attraverso cataloghi evergreen, distribuzione multi-piattaforma, espansione linguistica e strategie di effetto composito.',
+    metaDescription: 'Costruisci ricavi ricorrenti con le schede didattiche: cataloghi evergreen, distribuzione multi-piattaforma, espansione linguistica e crescita composta.',
   },
 
   hero: {

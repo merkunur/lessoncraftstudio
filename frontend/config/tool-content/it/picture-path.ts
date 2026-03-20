@@ -14,7 +14,7 @@ const content: ToolContent = {
       'algoritmo LPF percorso più lungo per primo creatore labirinti con muri',
       'chiave di risposta automatica cerchi rosa percorso soluzione labirinto',
     ],
-    titleTag: 'Generatore Percorso Immagini — Schede Labirinto',
+    titleTag: 'Generatore Percorso Immagini | Schede Labirinto Maker',
     metaDescription: 'Crea schede labirinto con tre modalità di gioco, cinque ruoli immagine, collezionabili e chiavi di risposta con cerchi rosa. Prova gratuita con filigrana.',
   },
 

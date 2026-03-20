@@ -17,8 +17,8 @@ const content: GuideContent = {
       'quaderni classificazione Amazon KDP',
       'strumento classificazione con licenza commerciale',
     ],
-    titleTag: 'Schede Classificazione per Categorie — Guida',
-    metaDescription: 'Crea schede di classificazione a due categorie con modalità tema, 4-12 immagini, griglie di ritaglio mescolate e chiavi di risposta automatiche. Vendi su Etsy e KDP.',
+    titleTag: 'Creare Schede Classificazione Categorie | Guida Completa',
+    metaDescription: 'Crea schede di classificazione a due categorie con 4-12 immagini, griglie di ritaglio mescolate e chiavi di risposta automatiche. Guida per vendere su Etsy.',
   },
 
   hero: {

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per l\'Istruzione Domestica da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per l\'istruzione domestica da vendere su Etsy, Amazon KDP e TPT. Strategie di nicchia per venditori che puntano ai genitori che costruiscono curricula homeschool.',
+    titleTag: 'Stampabili per Istruzione Domestica | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili per istruzione domestica da vendere su Etsy, Amazon KDP e TPT. Strategie per venditori che puntano ai genitori con curricula homeschool.',
     primaryKeyword: 'idee stampabili istruzione domestica',
     secondaryKeywords: [
       'schede homeschool da vendere',

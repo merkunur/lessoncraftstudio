@@ -17,8 +17,8 @@ const content: GuideContent = {
       'titolarità copyright protezione automatica registrazione benefici danni statutari',
       'scelte creative espressione versus idee fatti metodi standard contenuti educativi',
     ],
-    titleTag: 'Copyright Venditori Stampabili — Guida alle Basi',
-    metaDescription: 'Scopri le basi del copyright per venditori di stampabili: quali elementi delle schede sono tutelabili, vantaggi della registrazione, enforcement e come evitare violazioni.',
+    titleTag: 'Copyright per Venditori di Stampabili | Guida alle Basi',
+    metaDescription: 'Le basi del copyright per venditori di stampabili: elementi tutelabili, vantaggi registrazione, enforcement e come evitare violazioni nel tuo business.',
   },
 
   hero: {

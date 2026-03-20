@@ -14,7 +14,7 @@ const content: AppContent = {
       'generatore schede conteggio oggetti uso commerciale',
       'strumenti business attività cerca e conta stampabili',
     ],
-    titleTag: 'Generatore Schede Cerca e Conta | Crea Stampabili',
+    titleTag: 'Generatore Schede Cerca e Conta | Crea e Vendi Online',
     metaDescription: 'Crea schede Cerca e Conta da vendere su Etsy, KDP e TPT. 4 tipi di attività, modalità Cerca Lettere, chiave di risposta automatica, 104 temi. Prova gratuita.',
   },
 

@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sugli Animali Domestici da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee redditizie di stampabili sugli animali domestici da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto su cani, gatti e piccoli animali con strategie per piattaforma per venditori.',
+    titleTag: 'Stampabili Animali Domestici da Vendere | Guida di Nicchia',
+    metaDescription: 'Idee di stampabili sugli animali domestici da vendere su Etsy, Amazon KDP e TPT. Prodotti su cani, gatti e piccoli animali con strategie per venditori online.',
 
     primaryKeyword: 'idee stampabili animali domestici',
     secondaryKeywords: [

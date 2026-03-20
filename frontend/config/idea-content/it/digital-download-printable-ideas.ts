@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Schede Didattiche in Download Digitale da Vendere — Guida',
-    metaDescription: 'Idee di schede didattiche in download digitale per venditori Etsy, Gumroad e TPT. Costruisci un business di stampabili senza inventario con PDF educativi a consegna istantanea.',
+    titleTag: 'Schede in Download Digitale da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di schede didattiche in download digitale per venditori Etsy, Gumroad e TPT. Business stampabili senza inventario con PDF educativi a consegna rapida.',
     primaryKeyword: 'idee schede didattiche download digitale',
     secondaryKeywords: [
       'business stampabili download digitale',

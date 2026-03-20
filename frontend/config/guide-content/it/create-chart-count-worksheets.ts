@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni competenze dati Amazon KDP con grafici a barre',
       'strumento schede grafici con immagini licenza commerciale',
     ],
-    titleTag: 'Schede Grafici con Immagini — Guida',
+    titleTag: 'Creare Schede Grafici con Immagini | Guida per Venditori',
     metaDescription: 'Crea schede grafici con immagini con griglie 4×5 sparse, chiavi di risposta automatiche, distribuzione casuale e 104 temi. Guida passo-passo per Etsy e KDP.',
   },
 

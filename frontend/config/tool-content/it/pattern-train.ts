@@ -14,8 +14,8 @@ const content: ToolContent = {
       'strumento schede treno sequenze zero testo',
       'generatore schede sequenze AB ABC per vendere',
     ],
-    titleTag: 'Generatore Treno Sequenze | Vendi Stampabili',
-    metaDescription: 'Genera schede treno delle sequenze: 5 tipi di schema, 11 vagoni tematici, conteggio indizi regolabile e chiave di risposta automatica. Prova gratuita con filigrana.',
+    titleTag: 'Generatore Treno delle Sequenze | Vendi Stampabili Online',
+    metaDescription: 'Genera schede treno delle sequenze: cinque tipi di schema, 11 vagoni tematici, conteggio indizi regolabile e chiave di risposta automatica per ogni scheda.',
   },
 
   hero: {

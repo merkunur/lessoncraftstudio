@@ -18,7 +18,7 @@ const content: GuideContent = {
       'registri di licenza documentazione licenze licenze multi-piattaforma vantaggio competitivo',
     ],
     titleTag: 'Licenza Commerciale Stampabili — Guida per Venditori',
-    metaDescription: 'Comprendi le licenze commerciali per stampabili prima di vendere. Scopri i tipi di licenza, gli errori comuni e come una corretta licenza protegge la tua attività.',
+    metaDescription: 'Le licenze commerciali per stampabili spiegate. Tipi di licenza, errori comuni e come una licenza corretta protegge la tua attività di vendita online.',
   },
 
   hero: {

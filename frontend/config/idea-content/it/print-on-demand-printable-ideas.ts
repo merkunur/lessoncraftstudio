@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili Print-on-Demand da Vendere — Guida',
-    metaDescription: 'Idee di stampabili print-on-demand per venditori Etsy, KDP e Shopify. Costruisci un business di stampabili senza inventario con quaderni di esercizi, pacchetti di attività e libri di puzzle.',
+    metaDescription: 'Idee di stampabili print-on-demand per venditori Etsy, KDP e Shopify. Business senza inventario con quaderni di esercizi, pacchetti attività e libri puzzle.',
     primaryKeyword: 'idee stampabili print-on-demand',
     secondaryKeywords: [
       'idee business stampabili POD',

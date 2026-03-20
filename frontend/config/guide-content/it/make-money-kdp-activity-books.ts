@@ -17,7 +17,7 @@ const content: GuideContent = {
       'multi-piattaforma Etsy TPT download digitale espansione',
       'report KDP monitoraggio performance analisi entrate per titolo',
     ],
-    titleTag: 'Guadagnare con Libri Attività KDP — Guida Entrate',
+    titleTag: 'Guadagnare con Libri di Attività KDP | Guida Completa',
     metaDescription: 'Come guadagnare con i libri di attività su Amazon KDP. Prezzi, costruzione catalogo, calcolo royalty, pubblicazione stagionale e scaling multi-piattaforma.',
   },
 

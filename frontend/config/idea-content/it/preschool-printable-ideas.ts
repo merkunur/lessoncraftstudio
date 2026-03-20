@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Prescuola da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la prescuola da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto per l\'età prescolare e strategie di nicchia per venditori e imprenditori.',
+    titleTag: 'Idee Stampabili per la Prescuola da Vendere | Guida',
+    metaDescription: 'Idee di stampabili per la prescuola da vendere su Etsy, Amazon KDP e TPT. Concetti per l\'età prescolare e strategie di nicchia per venditori e imprenditori.',
     primaryKeyword: 'idee stampabili prescuola',
     secondaryKeywords: [
       'schede prescuola da vendere',

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili Estivi da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili estivi da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema spiaggia e sole, strategie stagionali e consigli per venditori.',
+    metaDescription: 'Idee di stampabili estivi da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema spiaggia e sole, strategie stagionali e consigli per venditori stampabili.',
     primaryKeyword: 'idee stampabili estivi',
     secondaryKeywords: [
       'schede a tema estivo da vendere',

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idee di Stampabili Subacquei da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili subacquei da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema oceano, schede sulle creature marine e consigli di nicchia per venditori.',
+    metaDescription: 'Idee di stampabili subacquei da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema oceano, schede sulle creature marine e consigli di nicchia per venditori.',
     primaryKeyword: 'idee stampabili subacquei',
     secondaryKeywords: [
       'schede subacquee da vendere',

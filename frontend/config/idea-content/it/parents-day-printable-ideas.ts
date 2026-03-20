@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per la Festa della Mamma e del Papà da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per la Festa della Mamma e del Papà da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto per l\'apprezzamento dei genitori e consigli per piattaforma per venditori.',
+    titleTag: 'Stampabili Festa Mamma e Papà da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili per la Festa della Mamma e del Papà su Etsy, Amazon KDP e TPT. Prodotti per l\'apprezzamento dei genitori e consigli per venditori online.',
     primaryKeyword: 'idee stampabili Festa della Mamma e del Papà',
     secondaryKeywords: [
       'schede Festa della Mamma da vendere',

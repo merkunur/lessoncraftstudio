@@ -18,7 +18,7 @@ const content: GuideContent = {
       'flussi di ricavi cross-lingua internazionalizzazione piattaforma distribuzione multi-mercato',
     ],
     titleTag: 'Business Stampabili Multilingue — Guida Strategica',
-    metaDescription: 'Costruisci un business di stampabili multilingue espandendoti nei mercati internazionali. Scopri quali lingue puntare, flussi di traduzione e strategie di ricavo.',
+    metaDescription: 'Costruisci un business di stampabili multilingue espandendoti nei mercati internazionali. Scopri quali lingue puntare, flussi di traduzione e strategie.',
   },
 
   hero: {

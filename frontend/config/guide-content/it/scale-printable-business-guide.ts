@@ -17,8 +17,8 @@ const content: GuideContent = {
       'crescita catalogo ricavo per prodotto diversificazione piattaforme collo di bottiglia scalabilità',
       'sistemi aziendali processi ripetibili pipeline di produzione moltiplicazione contenuti',
     ],
-    titleTag: 'Scalare il Business di Stampabili — Guida alla Strategia di Crescita',
-    metaDescription: 'Come scalare il tuo business di stampabili con produzione in batch, espansione multi-piattaforma, crescita del catalogo, mercati multilingue e strategie di automazione.',
+    titleTag: 'Scalare il Business di Stampabili | Guida alla Crescita',
+    metaDescription: 'Come scalare il tuo business di stampabili con produzione in batch, espansione multi-piattaforma, crescita del catalogo, mercati multilingue e automazione.',
   },
 
   hero: {

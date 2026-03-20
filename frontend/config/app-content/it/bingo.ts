@@ -14,9 +14,9 @@ const content: AppContent = {
       'generatore di cartelle di bingo uso commerciale',
       'attività di bingo stampabili per business online',
     ],
-    titleTag: 'Generatore Cartelle Bingo con Immagini | Creare',
+    titleTag: 'Generatore Cartelle Bingo con Immagini | Crea e Vendi',
     metaDescription:
-      'Crea cartelle di bingo con immagini da vendere su Etsy, KDP e TPT. Lotti di cartelle uniche, export ZIP, fogli di richiamo, 104 temi. Prova gratuita con filigrana.',
+      'Crea cartelle bingo con immagini da vendere su Etsy, KDP e TPT. Lotti di cartelle uniche, export ZIP, fogli di richiamo. Prova gratuita con filigrana.',
   },
 
   hero: {

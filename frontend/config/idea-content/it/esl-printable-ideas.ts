@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili ESL per Inglese come Lingua Straniera da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili ESL per inglese come lingua straniera da vendere su Etsy, Amazon KDP e TPT. Strategie di nicchia per venditori che si rivolgono a insegnanti, tutor e studenti di lingue in tutto il mondo.',
+    titleTag: 'Stampabili ESL Inglese Lingua Straniera | Guida Nicchia',
+    metaDescription: 'Idee di stampabili ESL per inglese come lingua straniera su Etsy, Amazon KDP e TPT. Strategie per insegnanti, tutor e studenti di lingue nel mondo intero.',
     primaryKeyword: 'idee stampabili ESL inglese lingua straniera',
     secondaryKeywords: [
       'schede ESL inglese da vendere',

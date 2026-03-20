@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività discriminazione visiva dimensioni stampabili online',
       'generatore schede grande piccolo uso commerciale',
     ],
-    titleTag: 'Generatore Schede Grande Piccolo | Crea e Vendi',
+    titleTag: 'Generatore Schede Grande e Piccolo | Crea Stampabili',
     metaDescription:
       'Crea schede di confronto dimensioni per Etsy, KDP e TPT. 5 tipi di domande, modalità immagini identiche e diverse, 104 temi. Prova gratuita con filigrana.',
   },

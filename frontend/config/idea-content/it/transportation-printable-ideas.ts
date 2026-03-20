@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili sui Trasporti da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili sui trasporti da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema veicoli, strategie per piattaforma e consigli per venditori.',
+    titleTag: 'Idee Stampabili sui Trasporti da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili sui trasporti da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema veicoli, strategie per piattaforma e consigli per venditori stampabili.',
     primaryKeyword: 'idee stampabili trasporti',
     secondaryKeywords: [
       'schede a tema trasporti da vendere',

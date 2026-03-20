@@ -17,7 +17,7 @@ const content: GuideContent = {
       'quaderni discriminazione visiva Amazon KDP',
       'strumento trova l\'intruso con licenza commerciale',
     ],
-    titleTag: 'Schede Trova l\'Intruso — Guida Creazione',
+    titleTag: 'Creare Schede Trova l\'Intruso | Guida Creazione Etsy',
     metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio e chiavi di risposta automatiche. Guida passo passo per Etsy e KDP.',
   },
 

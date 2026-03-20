@@ -17,7 +17,7 @@ const content: StartContent = {
       'attività stampabili internazionali',
       'vendere schede su etsy.de etsy.fr',
     ],
-    titleTag: 'Generatore Schede Multilingue — 11 Lingue',
+    titleTag: 'Generatore Schede Multilingue in 11 Lingue | Guida Pratica',
     metaDescription: 'Crea e vendi schede in 11 lingue con un generatore multilingue. Raggiungi acquirenti tedeschi, francesi e spagnoli su Etsy, Amazon KDP e mercati globali.',
   },
 

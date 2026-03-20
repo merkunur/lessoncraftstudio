@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili su Cibo e Cucina da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili su cibo e cucina da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto a tema ricette, strategie per piattaforma e consigli per venditori.',
+    titleTag: 'Idee Stampabili Cibo e Cucina da Vendere | Guida Nicchia',
+    metaDescription: 'Idee di stampabili su cibo e cucina da vendere su Etsy, Amazon KDP e TPT. Prodotti a tema ricette e alimentazione, strategie per piattaforma e venditori.',
     primaryKeyword: 'idee stampabili cibo e cucina',
     secondaryKeywords: [
       'schede a tema cibo da vendere',

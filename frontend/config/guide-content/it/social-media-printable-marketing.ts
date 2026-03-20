@@ -18,7 +18,7 @@ const content: GuideContent = {
       'strategia hashtag programmazione post tasso di coinvolgimento ottimizzazione profilo',
     ],
     titleTag: 'Marketing Social Media Stampabili — Guida per Venditori',
-    metaDescription: 'Strategie di marketing sui social media per venditori di stampabili: scelta delle piattaforme, contenuti visivi, costruzione del pubblico e coinvolgimento che genera traffico verso il negozio.',
+    metaDescription: 'Marketing sui social media per venditori di stampabili: scelta delle piattaforme, contenuti visivi, costruzione del pubblico e coinvolgimento per il traffico.',
   },
 
   hero: {

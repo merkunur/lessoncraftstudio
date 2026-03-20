@@ -17,7 +17,7 @@ const content: GuideContent = {
       'consegna digitale Etsy file multipli struttura bundle',
       'bundle vs inserzione singola cannibalizzazione strategia negozio Etsy',
     ],
-    titleTag: 'Creare Pacchetti Schede Etsy — Guida',
+    titleTag: 'Creare Pacchetti di Schede per Etsy | Guida per Venditori',
     metaDescription: 'Crea pacchetti di schede per Etsy che aumentano il valore medio dell\'ordine. Tipi di bundle, organizzazione file, immagini anteprima e strategia prezzi.',
   },
 

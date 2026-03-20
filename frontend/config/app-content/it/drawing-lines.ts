@@ -14,7 +14,7 @@ const content: AppContent = {
       'schede motricità fine stampabili uso commerciale',
       'generatore schede pregrafismo con modelli SVG',
     ],
-    titleTag: 'Generatore Schede Pregrafismo | Crea e Vendi',
+    titleTag: 'Generatore Schede di Pregrafismo | Crea e Vendi Online',
     metaDescription:
       'Crea schede pregrafismo professionali per Etsy, KDP e TPT. Otto modelli linee SVG, abbinamento immagini, 104 raccolte tematiche. Prova gratuita con filigrana.',
   },

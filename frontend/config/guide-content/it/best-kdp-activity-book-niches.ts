@@ -17,7 +17,7 @@ const content: GuideContent = {
       'validazione nicchia titolo test vendite 90 giorni strategia catalogo',
       'ibrido cross-categoria libro attività tematico sotto-nicchia',
     ],
-    titleTag: 'Nicchie Libri Attività KDP — Guida alle Migliori',
+    titleTag: 'Migliori Nicchie Libri Attività KDP | Guida Completa',
     metaDescription: 'Scopri le migliori nicchie per libri di attività KDP. Analisi della domanda, valutazione della concorrenza, categorie poco servite e tempistica stagionale.',
   },
 

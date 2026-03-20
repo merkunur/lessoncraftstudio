@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività di decrittazione stampabili per business online',
       'generatore schede crittogramma uso commerciale',
     ],
-    titleTag: 'Generatore Schede Crittogramma | Crea e Vendi',
+    titleTag: 'Generatore Schede Crittogramma | Crea e Vendi Online',
     metaDescription:
       'Crea schede crittogramma per Etsy, KDP e TPT. Cifra per immagini, Lettere da Rivelare 0–10, 104 temi, foglio risposte in PDF. Prova gratuita con filigrana.',
   },

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'override per esercizio generatore trova l\'intruso',
       'chiave di risposta automatica cerchi rossi schede trova l\'intruso',
     ],
-    titleTag: 'Generatore Schede Intruso — Trova l\'Intruso Maker',
+    titleTag: 'Generatore Schede Intruso | Trova l\'Intruso Stampabile',
     metaDescription: 'Crea schede trova l\'intruso con modalità Identico e Simile, override per esercizio, chiavi di risposta con cerchi rossi. Prova gratuita — licenza disponibile.',
   },
 

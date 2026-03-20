@@ -2,8 +2,8 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Idee di Stampabili per il Ritorno a Scuola da Vendere — Guida di Nicchia',
-    metaDescription: 'Scopri idee di stampabili per il ritorno a scuola da vendere su Etsy, Amazon KDP e TPT. Concetti di prodotto per la classe, strategie luglio-settembre e consigli per venditori.',
+    titleTag: 'Stampabili Ritorno a Scuola da Vendere | Guida di Nicchia',
+    metaDescription: 'Idee stampabili ritorno a scuola da vendere su Etsy, KDP e TPT. Concetti di prodotto per la classe, strategie luglio-settembre e consigli per venditori.',
     primaryKeyword: 'idee stampabili ritorno a scuola',
     secondaryKeywords: [
       'schede ritorno a scuola da vendere',

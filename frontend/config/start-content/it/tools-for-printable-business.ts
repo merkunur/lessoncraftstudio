@@ -17,7 +17,7 @@ const content: StartContent = {
       'strumenti generatore schede multilingue',
       'produzione schede con licenza commerciale',
     ],
-    titleTag: 'Strumenti per Venditori di Stampabili — Guida',
+    titleTag: 'Strumenti per Venditori di Stampabili | Guida Completa',
     metaDescription: 'I migliori strumenti per venditori di stampabili: generatori di schede, strumenti di design, utilità per piattaforme e workflow per un toolkit professionale.',
   },
 

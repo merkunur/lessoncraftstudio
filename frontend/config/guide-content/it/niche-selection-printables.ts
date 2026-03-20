@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sovrapposizione di nicchie strategia multi-nicchia profondità della nicchia product-market fit',
       'domanda di keyword volume di ricerca tendenze marketplace segnali di intenzione d’acquisto',
     ],
-    titleTag: 'Selezione della Nicchia per Stampabili — Guida',
+    titleTag: 'Selezione della Nicchia per Venditori di Stampabili',
     metaDescription: 'Selezione della nicchia per attività di stampabili: ricerca della domanda, analisi della concorrenza, valutazione redditività e strategia di espansione.',
   },
 

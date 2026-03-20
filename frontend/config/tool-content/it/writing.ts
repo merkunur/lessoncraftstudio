@@ -14,7 +14,7 @@ const content: ToolContent = {
       'strumento schede traccia sfumata pratica lettere',
       'generatore calligrafia corsivo e stampatello',
     ],
-    titleTag: 'Generatore Schede Scrittura | Crea e Vendi',
+    titleTag: 'Generatore Schede di Scrittura | Crea e Vendi Online',
     metaDescription: 'Genera schede scrittura a mano con tre modalità progressive, cinque stili font, frecce ordine tratti, guide sfumate, 104 temi. Prova gratuita — licenza.',
   },
 

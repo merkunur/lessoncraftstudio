@@ -14,8 +14,8 @@ const content: ToolContent = {
       'strumento schede confronto dimensioni zero testo',
       'generatore schede grande piccolo medio ordinamento',
     ],
-    titleTag: 'Generatore Schede Grande e Piccolo | Crea e Vendi',
-    metaDescription: 'Genera schede confronto dimensioni con cinque tipi di domanda, modalità immagini identiche e diverse, 104 temi. Esporta PDF. Prova gratuita — licenza disponibile.',
+    titleTag: 'Generatore Schede Grande e Piccolo | Crea e Vendi Online',
+    metaDescription: 'Genera schede di confronto dimensioni con cinque tipi di domanda, modalità immagini identiche e diverse, 104 temi. Export PDF ad alta risoluzione disponibile.',
   },
 
   hero: {

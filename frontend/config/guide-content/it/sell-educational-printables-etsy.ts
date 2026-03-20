@@ -17,7 +17,7 @@ const content: GuideContent = {
       'bundling cross-categoria stampabili educativi strategia Etsy',
       'foto inserzioni Etsy mockup per prodotti stampabili educativi',
     ],
-    titleTag: 'Vendere Stampabili Didattici su Etsy — Guida',
+    titleTag: 'Vendere Stampabili Didattici su Etsy | Guida Completa',
     metaDescription: 'Vendi stampabili didattici su Etsy con 33 generatori specializzati in 6 categorie. Strategia negozio, SEO Etsy, bundling cross-categoria e prezzi venditori.',
   },
 

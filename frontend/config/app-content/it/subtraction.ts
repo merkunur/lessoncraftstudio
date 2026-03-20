@@ -14,7 +14,7 @@ const content: AppContent = {
       'business schede di matematica online',
       'generatore schede sottrazione uso commerciale',
     ],
-    titleTag: 'Generatore Schede Sottrazione | Crea e Vendi',
+    titleTag: 'Generatore Schede di Sottrazione | Crea e Vendi Online',
     metaDescription:
       'Crea schede di sottrazione da vendere su Etsy, KDP e TPT. 4 modalità con barratura visiva, 104 temi, soluzioni, scala di grigi, export 400+ DPI. Prova gratuita.',
   },

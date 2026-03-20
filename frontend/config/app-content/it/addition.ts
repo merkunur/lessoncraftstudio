@@ -14,7 +14,7 @@ const content: AppContent = {
       'attività stampabili business online',
       'generatore schede uso commerciale',
     ],
-    titleTag: 'Generatore Schede Addizione | Crea e Vendi',
+    titleTag: 'Generatore Schede di Addizione | Crea e Vendi Online',
     metaDescription:
       'Crea schede di addizione da vendere su Etsy, KDP e TPT. 104 temi, 4 modalità esercizio, soluzioni incluse, export 400+ DPI. Prova gratuita con filigrana.',
   },

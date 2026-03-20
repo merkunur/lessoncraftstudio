@@ -17,8 +17,8 @@ const content: GuideContent = {
       'prevenzione supporto problemi comuni tempo risoluzione comunicazione professionale',
       'sistemi supporto scalabili librerie modelli tracciamento pattern cicli feedback',
     ],
-    titleTag: 'Assistenza Clienti Prodotti Digitali — Guida',
-    metaDescription: 'Strategie di assistenza clienti per venditori di prodotti digitali. Prevenzione problemi, modelli di risposta, gestione rimborsi, gestione recensioni e sistemi scalabili.',
+    titleTag: 'Assistenza Clienti per Prodotti Digitali | Guida Completa',
+    metaDescription: 'Strategie di assistenza clienti per venditori digitali. Prevenzione problemi, modelli di risposta, gestione rimborsi e sistemi scalabili per il tuo shop.',
   },
 
   hero: {

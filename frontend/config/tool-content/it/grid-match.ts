@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Temi di Sfondo e Bordo per un Branding di Prodotto Coerente',
-      description: 'Il sistema indipendente di temi sfondo e bordo con cursori di opacità separati ti permette di creare un\'identità visiva coerente attraverso i tuoi bundle di puzzle a griglia. Imposta un tema di sfondo sottile al 15–25% di opacità per calore visivo senza distrarre dal contenuto del puzzle. Sovrapponi un bordo decorativo all'80–100% di opacità per una cornice raffinata. Applica la stessa combinazione di sfondo e bordo su ogni puzzle in un bundle per un aspetto di prodotto coerente che gli acquirenti associano a qualità e professionalità.',
+      description: 'Il sistema indipendente di temi sfondo e bordo con cursori di opacità separati ti permette di creare un\'identità visiva coerente attraverso i tuoi bundle di puzzle a griglia. Imposta un tema di sfondo sottile al 15–25% di opacità per calore visivo senza distrarre dal contenuto del puzzle. Sovrapponi un bordo decorativo all\'80–100% di opacità per una cornice raffinata. Applica la stessa combinazione di sfondo e bordo su ogni puzzle in un bundle per un aspetto di prodotto coerente che gli acquirenti associano a qualità e professionalità.',
     },
     {
       title: 'Scegli la Dimensione Griglia Giusta per il Tuo Pubblico Target',
-      description: 'Abbina la configurazione della griglia alle aspettative degli acquirenti per ogni marketplace. Per risorse didattiche per la scuola dell'infanzia e prima primaria, usa griglie 2×2 e 2×3 con 2–3 indizi per puzzle accessibili. Per bundle di attività Etsy rivolti a genitori di studenti della primaria, usa griglie 3×3 con 1–2 indizi per una sfida bilanciata. Per quaderni di puzzle KDP rivolti a studenti più grandi e adulti, usa griglie 4×3 e 4×4 con 1 indizio per vere sfide di ragionamento spaziale. Abbinare la complessità della griglia all\'età del pubblico assicura recensioni positive e acquisti ripetuti.',
+      description: 'Abbina la configurazione della griglia alle aspettative degli acquirenti per ogni marketplace. Per risorse didattiche per la scuola dell\'infanzia e prima primaria, usa griglie 2×2 e 2×3 con 2–3 indizi per puzzle accessibili. Per bundle di attività Etsy rivolti a genitori di studenti della primaria, usa griglie 3×3 con 1–2 indizi per una sfida bilanciata. Per quaderni di puzzle KDP rivolti a studenti più grandi e adulti, usa griglie 4×3 e 4×4 con 1 indizio per vere sfide di ragionamento spaziale. Abbinare la complessità della griglia all\'età del pubblico assicura recensioni positive e acquisti ripetuti.',
     },
   ],
 

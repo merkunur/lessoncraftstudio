@@ -149,14 +149,14 @@ const content: ToolContent = {
     },
     {
       title: 'Usa Temi di Sfondo e Bordo per un Branding Coerente',
-      description: 'Il sistema indipendente di temi sfondo e bordo con cursori di opacità separati ti permette di creare un\'identità visiva coerente attraverso i tuoi pacchetti di abbinamento ombre. Imposta un tema di sfondo sottile al 15–25% di opacità per calore visivo senza distrarre dal contenuto dell\'abbinamento ombre. Sovrapponi un bordo decorativo all'80–100% di opacità per una cornice rifinita. Applica la stessa combinazione sfondo e bordo a ogni scheda di un pacchetto per un aspetto prodotto coerente che gli acquirenti associano a qualità e professionalità.',
+      description: 'Il sistema indipendente di temi sfondo e bordo con cursori di opacità separati ti permette di creare un\'identità visiva coerente attraverso i tuoi pacchetti di abbinamento ombre. Imposta un tema di sfondo sottile al 15–25% di opacità per calore visivo senza distrarre dal contenuto dell\'abbinamento ombre. Sovrapponi un bordo decorativo all\'80–100% di opacità per una cornice rifinita. Applica la stessa combinazione sfondo e bordo a ogni scheda di un pacchetto per un aspetto prodotto coerente che gli acquirenti associano a qualità e professionalità.',
     },
   ],
 
   faq: [
     {
       question: 'È disponibile una prova gratuita?',
-      answer: 'Sì. Lo strumento offre una prova gratuita con ogni funzionalità sbloccata — entrambe le modalità di esercizio (Abbinamento Ombre e Completa l'Immagine), generazione silhouette pixel-level, direzioni di taglio orizzontale e verticale, chiave di risposta automatica con etichette lettera-numero, identificatori A/B/C/D e 1/2/3/4 attivabili, tutte le 104 collezioni tematiche con oltre 3.100 illustrazioni, caricamento immagini personalizzate, temi sfondo e bordo con opacità indipendente, campi nome/data, alternanza scala di grigi e tutti i formati di download. Nessuna registrazione, nessuna carta di credito richiesta. I download della prova gratuita includono una filigrana. Acquista una licenza commerciale per rimuovere la filigrana e sbloccare i diritti di vendita.',
+      answer: 'Sì. Lo strumento offre una prova gratuita con ogni funzionalità sbloccata — entrambe le modalità di esercizio (Abbinamento Ombre e Completa l\'Immagine), generazione silhouette pixel-level, direzioni di taglio orizzontale e verticale, chiave di risposta automatica con etichette lettera-numero, identificatori A/B/C/D e 1/2/3/4 attivabili, tutte le 104 collezioni tematiche con oltre 3.100 illustrazioni, caricamento immagini personalizzate, temi sfondo e bordo con opacità indipendente, campi nome/data, alternanza scala di grigi e tutti i formati di download. Nessuna registrazione, nessuna carta di credito richiesta. I download della prova gratuita includono una filigrana. Acquista una licenza commerciale per rimuovere la filigrana e sbloccare i diritti di vendita.',
     },
     {
       question: 'Quali sono le due modalità di esercizio?',

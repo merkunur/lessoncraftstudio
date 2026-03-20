@@ -204,15 +204,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/matching/Trova%20le%20Coppie%201.webp',
+      primary: '/samples/italian/matching/Trova le Coppie 1.webp',
       primaryAlt: 'Scheda di abbinamento con immagini tematiche che mostra esercizio di accoppiamento',
     },
     sampleGallery: [
-      { src: '/samples/italian/matching/Trova%20le%20Coppie%201.webp', alt: 'Scheda di abbinamento con quattro modalità e immagini tematiche', caption: 'Scheda Abbinamento' },
-      { src: '/samples/italian/grid%20match/Puzzle%20a%20Griglia%201.webp', alt: 'Puzzle griglia abbinamento con coordinate su griglia strutturata', caption: 'Scheda Griglia Abbinamento' },
-      { src: '/samples/italian/shadow%20match/Abbina%20le%20Ombre%201.webp', alt: 'Scheda abbinamento ombre con accoppiamento silhouette e formato linee da tracciare', caption: 'Scheda Abbinamento Ombre' },
-      { src: '/samples/italian/bingo/tombola%201.webp', alt: 'Cartella bingo con immagini tematiche in layout griglia casuale', caption: 'Cartella Bingo' },
-      { src: '/samples/italian/picture%20sort/Classificazione%20Immagini%201.webp', alt: 'Scheda classificazione immagini con esercizio di categorizzazione a due gruppi', caption: 'Scheda Classificazione Immagini' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento con quattro modalità e immagini tematiche', caption: 'Scheda Abbinamento' },
+      { src: '/samples/italian/grid match/Puzzle a Griglia 1.webp', alt: 'Puzzle griglia abbinamento con coordinate su griglia strutturata', caption: 'Scheda Griglia Abbinamento' },
+      { src: '/samples/italian/shadow match/Abbina le Ombre 1.webp', alt: 'Scheda abbinamento ombre con accoppiamento silhouette e formato linee da tracciare', caption: 'Scheda Abbinamento Ombre' },
+      { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartella bingo con immagini tematiche in layout griglia casuale', caption: 'Cartella Bingo' },
+      { src: '/samples/italian/picture sort/Classificazione Immagini 1.webp', alt: 'Scheda classificazione immagini con esercizio di categorizzazione a due gruppi', caption: 'Scheda Classificazione Immagini' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Pacchetto Abbinamento e Classificazione — Guarda Tutti i 5 Generatori in Azione',

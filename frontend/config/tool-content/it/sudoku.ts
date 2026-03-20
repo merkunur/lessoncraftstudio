@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/sudoku/Sudoku%20con%20Immagini%201.webp',
+      primary: '/samples/italian/sudoku/Sudoku con Immagini 1.webp',
       primaryAlt: 'Scheda sudoku con immagini 4×4 con immagini tematiche in una griglia premium con colori blocco alternati blu e rosa, divisori centrali in grassetto e bordo esterno indaco con angoli arrotondati',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/sudoku/Sudoku%20con%20Immagini%202.webp',
+        src: '/samples/italian/sudoku/Sudoku con Immagini 2.webp',
         alt: 'Sudoku con immagini difficoltà facile con 4 celle vuote e 12 celle riempite in una griglia 4×4 con colori blocco alternati',
         caption: 'Difficoltà Facile — 4 celle vuote per principianti che imparano la logica riga-e-colonna',
       },
       {
-        src: '/samples/italian/sudoku/Sudoku%20con%20Immagini%203.webp',
+        src: '/samples/italian/sudoku/Sudoku con Immagini 3.webp',
         alt: 'Sudoku con immagini difficoltà difficile con 8 celle vuote e 8 celle riempite in una griglia 4×4 che richiede ragionamento multi-step',
         caption: 'Difficoltà Difficile — 8 celle vuote (metà griglia) che richiedono ragionamento logico multi-step',
       },
       {
-        src: '/samples/italian/sudoku/Sudoku%20con%20Immagini%201%20answer_key.webp',
+        src: '/samples/italian/sudoku/Sudoku con Immagini 1 answer_key.webp',
         alt: 'Chiave di risposta sudoku con immagini che mostra la griglia 4×4 completa con tutte le 16 celle riempite con le immagini corrette',
         caption: 'Chiave di risposta auto-generata — griglia completa con tutte le 16 celle che mostrano il posizionamento corretto delle immagini',
       },

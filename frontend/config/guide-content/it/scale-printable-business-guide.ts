@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione professionale che dimostra la qualità del prodotto che supporta la crescita scalabile del business di stampabili' },
+    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione professionale che dimostra la qualità del prodotto che supporta la crescita scalabile del business di stampabili' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione con immagini a tema che mostra la diversità di prodotto per la scalabilità del catalogo', caption: 'Le variazioni tematiche delle schede dimostrano come un concetto di prodotto si scala in più inserzioni attraverso temi, livelli scolastici e lingue' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle di parole intrecciate che mostra il potenziale di scalabilità multilingue', caption: 'I puzzle di parole intrecciate creati in 11 lingue moltiplicano il tuo catalogo senza moltiplicare lo sforzo creativo — lo stesso concetto raggiunge mercati internazionali' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Scheda di abbinamento che dimostra l\'espansione sistematica del catalogo attraverso variazioni tematiche', caption: 'Le schede di abbinamento attraverso i temi mostrano l\'estensione sistematica della linea di prodotti — ogni nuovo tema aggiunge prodotti usando formati collaudati e risorse visive esistenti' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con immagini a tema che mostra la diversità di prodotto per la scalabilità del catalogo', caption: 'Le variazioni tematiche delle schede dimostrano come un concetto di prodotto si scala in più inserzioni attraverso temi, livelli scolastici e lingue' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle di parole intrecciate che mostra il potenziale di scalabilità multilingue', caption: 'I puzzle di parole intrecciate creati in 11 lingue moltiplicano il tuo catalogo senza moltiplicare lo sforzo creativo — lo stesso concetto raggiunge mercati internazionali' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che dimostra l\'espansione sistematica del catalogo attraverso variazioni tematiche', caption: 'Le schede di abbinamento attraverso i temi mostrano l\'estensione sistematica della linea di prodotti — ogni nuovo tema aggiunge prodotti usando formati collaudati e risorse visive esistenti' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Come Creare Pagine da Colorare con Disegna e Colora — Dimostrazione della Gamma Creativa per la Scalabilità del Catalogo',

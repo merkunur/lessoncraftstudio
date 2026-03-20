@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Esempio di scheda pagina da colorare creata con il generatore LessonCraftStudio per venditori Etsy' },
+    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Esempio di scheda pagina da colorare creata con il generatore LessonCraftStudio per venditori Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare per negozio stampabili Etsy', caption: 'Pagina da Colorare — Categoria Top Etsy' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda cerca parole stampabile per inserzione Etsy', caption: 'Cerca Parole — Alto Volume di Ricerca' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini', caption: 'Addizione — Categoria Matematica Evergreen' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Scheda di abbinamento per acquirenti Etsy internazionali', caption: 'Abbinamento — Attività Visiva Senza Testo' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare per negozio stampabili Etsy', caption: 'Pagina da Colorare — Categoria Top Etsy' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda cerca parole stampabile per inserzione Etsy', caption: 'Cerca Parole — Alto Volume di Ricerca' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini', caption: 'Addizione — Categoria Matematica Evergreen' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento per acquirenti Etsy internazionali', caption: 'Abbinamento — Attività Visiva Senza Testo' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Come Creare Pagine da Colorare — Demo LessonCraftStudio',

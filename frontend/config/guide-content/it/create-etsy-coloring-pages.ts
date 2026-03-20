@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare con illustrazioni tematiche che mostra line art in bianco e nero per la vendita su Etsy' },
+    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare con illustrazioni tematiche che mostra line art in bianco e nero per la vendita su Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare a tema animali creata per inserzione download digitale Etsy', caption: 'Pagina da colorare animali dalla libreria di immagini tematiche — line art pulita in bianco e nero che crea foto inserzioni Etsy accattivanti' },
-      { src: '/samples/english/coloring/coloring portrait 4.webp', alt: 'Pagina da colorare a tema natura che mostra composizioni dettagliate per il mercato adulti e bambini', caption: 'Pagina da colorare natura — tema versatile che attrae sia acquirenti bambini che adulti su Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 3.webp', alt: 'Pagina da colorare a tema festivo che dimostra prodotto stagionale per picchi di domanda Etsy', caption: 'Pagina da colorare festiva — i temi stagionali generano importanti picchi di domanda su Etsy durante tutto l\'anno' },
+      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare a tema animali creata per inserzione download digitale Etsy', caption: 'Pagina da colorare animali dalla libreria di immagini tematiche — line art pulita in bianco e nero che crea foto inserzioni Etsy accattivanti' },
+      { src: '/samples/italian/coloring/coloring portrait 4.webp', alt: 'Pagina da colorare a tema natura che mostra composizioni dettagliate per il mercato adulti e bambini', caption: 'Pagina da colorare natura — tema versatile che attrae sia acquirenti bambini che adulti su Etsy' },
+      { src: '/samples/italian/coloring/coloring portrait 3.webp', alt: 'Pagina da colorare a tema festivo che dimostra prodotto stagionale per picchi di domanda Etsy', caption: 'Pagina da colorare festiva — i temi stagionali generano importanti picchi di domanda su Etsy durante tutto l\'anno' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Come Creare Pagine da Colorare per Vendere su Etsy — Tutorial Passo dopo Passo',

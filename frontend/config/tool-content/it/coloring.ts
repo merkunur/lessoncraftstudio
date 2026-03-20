@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/italian/coloring/coloring portrait 1.webp',
       primaryAlt: 'Pagina da colorare personalizzata creata su canvas libero con illustrazioni tematiche colorate disposte in una composizione originale con bordo decorativo',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/coloring/coloring%20portrait%202.webp',
+        src: '/samples/italian/coloring/coloring portrait 2.webp',
         alt: 'Pagina da colorare a tema animali con più illustrazioni disposte su canvas libero che mostra le possibilità di layout creativo',
         caption: 'Pagina da colorare tema animali — layout su canvas libero con più illustrazioni disposte in una composizione unica',
       },
       {
-        src: '/samples/italian/coloring/coloring%20portrait%203.webp',
+        src: '/samples/italian/coloring/coloring portrait 3.webp',
         alt: 'Pagina da colorare pronta per la classe con campo nome e linee di pratica di scrittura aggiunti con gli assistenti per la classe con un clic',
         caption: 'Scheda attività per la classe — campo nome e linee di scrittura trasformano le pagine da colorare in attività di apprendimento strutturate',
       },
       {
-        src: '/samples/italian/coloring/coloring%20landscape%201.webp',
+        src: '/samples/italian/coloring/coloring landscape 1.webp',
         alt: 'Esportazione in scala di grigi di pagina da colorare che mostra la conversione a risparmio d\'inchiostro dalla composizione colorata per interni KDP e stampa in classe',
         caption: 'Esportazione in scala di grigi — le composizioni colorate si convertono in pagine da colorare a risparmio d\'inchiostro per interni KDP e stampa in serie',
       },

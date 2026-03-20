@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/alphabet%20train/Treno%20dell\'Alfabeto%201.webp',
+      primary: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp',
       primaryAlt: 'Scheda treno dell\'alfabeto con vagoni colorati che trasportano lettere e immagini corrispondenti di animali',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/alphabet%20train/Treno%20dell\'Alfabeto%202.webp',
+        src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 2.webp',
         alt: 'Scheda treno dell\'alfabeto con tema animali che mostra 11 vagoni-lettera e immagini-indizio',
         caption: 'Modalità Creazione Automatica — 11 vagoni-lettera casuali con indizi dal tema animali',
       },
       {
-        src: '/samples/italian/alphabet%20train/Treno%20dell\'Alfabeto%203.webp',
+        src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 3.webp',
         alt: 'Scheda treno dell\'alfabeto con tema cibi e 5 immagini-indizio per l\'abbinamento',
         caption: 'Modalità Manuale — lettere selezionate con tema cibi e 5 indizi per un abbinamento più facile',
       },
       {
-        src: '/samples/italian/alphabet%20train/Treno%20dell\'Alfabeto%204.webp',
+        src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 4.webp',
         alt: 'Scheda treno dell\'alfabeto con tema veicoli e 11 indizi completi per pratica avanzata',
         caption: 'Sfida indizi completa — 11 indizi per pratica completa di abbinamento lettera-immagine',
       },

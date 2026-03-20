@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/picture%20path/Percorso%20di%20Immagini%201.webp',
+      primary: '/samples/italian/picture path/Percorso di Immagini 1.webp',
       primaryAlt: 'Scheda labirinto con percorso di immagini a tema con griglia illustrata, bordo intestazione arancione e intestazione Percorso con Immagini generata automaticamente con titolo localizzato',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/picture%20path/Percorso%20di%20Immagini%202.webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 2.webp',
         alt: 'Scheda modalità Percorso con Immagini con immagini disposte in griglia che mostrano il percorso corretto dall\'inizio alla fine tra immagini distrattore',
         caption: 'Modalità Percorso con Immagini — gli studenti seguono il percorso immagine corretto dall\'inizio alla fine tra i distrattori',
       },
       {
-        src: '/samples/italian/picture%20path/Percorso%20di%20Immagini%204.webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 4.webp',
         alt: 'Scheda modalità Labirinto Classico con corridoi con muri generati dall\'algoritmo LPF e immagini collezionabili disseminate nel labirinto',
         caption: 'Modalità Labirinto Classico — l\'algoritmo LPF genera labirinti con muri e immagini collezionabili lungo i corridoi',
       },
       {
-        src: '/samples/italian/picture%20path/Percorso%20di%20Immagini%203%20answer_key.webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 3 answer_key.webp',
         alt: 'Chiave di risposta labirinto con percorso soluzione evidenziato da cerchi rosa lungo la rotta corretta e legenda dei collezionabili',
         caption: 'Chiave di risposta generata automaticamente — cerchi rosa evidenziano il percorso soluzione con legenda dei collezionabili inclusa',
       },

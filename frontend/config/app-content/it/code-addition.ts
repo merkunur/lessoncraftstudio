@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/code%20addition/Codice%20Segreto%20Addizione%201.webp',
+      primary: '/samples/italian/code addition/Codice Segreto Addizione 1.webp',
       primaryAlt: 'Scheda di addizione codificata con immagini di animali che nascondono numeri segreti in un puzzle da decifrare',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/code%20addition/Codice%20Segreto%20Addizione%202.webp',
+        src: '/samples/italian/code addition/Codice Segreto Addizione 2.webp',
         alt: 'Scheda di addizione codificata in Modalità Classica con immagini tematiche di animali come simboli-codice',
         caption: 'Modalità Classica — gli studenti decifrano il codice deducendo quale numero rappresenta ogni immagine',
       },
       {
-        src: '/samples/italian/code%20addition/Codice%20Segreto%20Addizione%203.webp',
+        src: '/samples/italian/code addition/Codice Segreto Addizione 3.webp',
         alt: 'Scheda di addizione codificata con tema visivo diverso che mostra equazioni crittaritmetiche basate su immagini',
         caption: 'Sfida multi-simbolo — più immagini aumentano la complessità della deduzione',
       },
       {
-        src: '/samples/italian/code%20addition/Codice%20Segreto%20Addizione%204.webp',
+        src: '/samples/italian/code addition/Codice Segreto Addizione 4.webp',
         alt: 'Puzzle di addizione codificata con immagini tematiche colorate ed equazioni',
         caption: 'Puzzle tematici — 104 temi visivi rendono ogni scheda unica e coinvolgente',
       },

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
       alt: 'Scheda di ricerca parole che dimostra la generazione di contenuti multilingue con gestione corretta dei caratteri',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di ricerca parole che mostra contenuti basati sul vocabolario con supporto corretto dei caratteri multilingue',
         caption: 'Le schede di ricerca parole dimostrano l\'importanza della gestione corretta dei caratteri nelle diverse lingue',
       },
       {
-        src: '/samples/english/alphabet train/Alphabet Train 1.webp',
+        src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp',
         alt: 'Scheda treno dell\'alfabeto che mostra la generazione di lettere e caratteri specifici per lingua',
         caption: 'Le schede sull\'alfabeto richiedono caratteri specifici per lingua inclusi umlaut e lettere accentate',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/italian/matching/Trova le Coppie 1.webp',
         alt: 'Scheda di abbinamento che mostra la produzione multilingue con elementi visivi e testuali',
         caption: 'Le schede di abbinamento combinano elementi visivi con vocabolario specifico per lingua per i mercati internazionali',
       },

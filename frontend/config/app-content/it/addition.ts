@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/addition/Addizione%20Divertente%201.webp',
+      primary: '/samples/italian/addition/Addizione Divertente 1.webp',
       primaryAlt: 'Scheda di addizione con immagini colorate di animali in modalità Immagine + Immagine',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/addition/Addizione%20Divertente%202.webp',
+        src: '/samples/italian/addition/Addizione Divertente 2.webp',
         alt: 'Scheda di addizione verticale in modalità Immagine + Immagine con tema animali',
         caption: 'Modalità Immagine + Immagine — gli studenti contano due gruppi di immagini e scrivono la somma',
       },
       {
-        src: '/samples/italian/addition/Addizione%20Divertente%203.webp',
+        src: '/samples/italian/addition/Addizione Divertente 3.webp',
         alt: 'Scheda di addizione orizzontale in modalità Immagine + Numero con tema alimenti',
         caption: 'Modalità Immagine + Numero — combina gruppi di immagini con numeri per competenze di transizione',
       },
       {
-        src: '/samples/italian/addition/Addizione%20Divertente%204.webp',
+        src: '/samples/italian/addition/Addizione Divertente 4.webp',
         alt: 'Scheda di addizione in modalità Trova l\'Addendo con tema veicoli',
         caption: 'Modalità Trova l\'Addendo — gli studenti scoprono il gruppo mancante per l\'algebra precoce',
       },

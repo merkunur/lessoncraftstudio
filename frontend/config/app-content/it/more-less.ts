@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/more%20less/Pi%C3%B9%20Meno%201.webp',
+      primary: '/samples/italian/more less/Più Meno 1.webp',
       primaryAlt: 'Scheda Più o Meno con immagini colorate di animali nella modalità Immagine contro Immagine',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/more%20less/Pi%C3%B9%20Meno%202.webp',
+        src: '/samples/italian/more less/Più Meno 2.webp',
         alt: 'Scheda di confronto nella modalità Immagine contro Immagine con tema animali',
         caption: 'Modalità Immagine contro Immagine — gli alunni contano due gruppi di immagini e confrontano le quantità',
       },
       {
-        src: '/samples/italian/more%20less/Pi%C3%B9%20Meno%203.webp',
+        src: '/samples/italian/more less/Più Meno 3.webp',
         alt: 'Scheda di confronto nella modalità Immagine contro Numero con tema cibi',
         caption: 'Modalità Immagine contro Numero — abbina gruppi di immagini a numeri per competenze di transizione',
       },
       {
-        src: '/samples/italian/more%20less/Pi%C3%B9%20Meno%204.webp',
+        src: '/samples/italian/more less/Più Meno 4.webp',
         alt: 'Scheda Segna e Cancella Gruppi con immagini miste per la classificazione visiva',
         caption: 'Modalità Segna e Cancella Gruppi — gli alunni trovano il gruppo maggioritario in un riquadro di immagini miste',
       },

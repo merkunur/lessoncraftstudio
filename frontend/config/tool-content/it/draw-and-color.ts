@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/draw and color/Disegna%20e%20Colora%201.webp',
+      primary: '/samples/italian/draw and color/Disegna e Colora 1.webp',
       primaryAlt: 'Scheda disegno e colora con sistema a griglia duale che mostra la griglia di pratica vuota e la griglia di indizi parzialmente rivelata con tema contorni in bianco e nero',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/draw and color/Disegna%20e%20Colora%203.webp',
+        src: '/samples/italian/draw and color/Disegna e Colora 3.webp',
         alt: 'Scheda disegno su griglia con tema contorni animali in bianco e nero al 25% di indizi che mostra griglia di pratica e griglia di indizi affiancate',
         caption: 'Tema animali al 25% di indizi — gli studenti riproducono il contorno dai suggerimenti sparsi sulla griglia poi colorano il disegno',
       },
       {
-        src: '/samples/italian/draw and color/Disegna%20e%20Colora%205.webp',
+        src: '/samples/italian/draw and color/Disegna e Colora 5.webp',
         alt: 'Scheda disegno su griglia con modalità simmetria orizzontale con celle di indizio rivelate sulla metà sinistra per la pratica del ragionamento spaziale',
         caption: 'Modalità simmetria orizzontale — le celle di indizio si specchiano da sinistra a destra per la pratica del ragionamento spaziale e della simmetria bilaterale',
       },
       {
-        src: '/samples/italian/draw and color/Disegna%20e%20Colora%207.webp',
+        src: '/samples/italian/draw and color/Disegna e Colora 7.webp',
         alt: 'Scheda disegno su griglia con percentuale di indizi al 10% che mostra celle di riferimento minime in una griglia grande per sfida di riproduzione di livello esperto',
         caption: 'Sfida esperto al 10% di indizi — celle di riferimento minime richiedono osservazione precisa e ragionamento spaziale',
       },

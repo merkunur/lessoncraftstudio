@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle ricerca di parole adatta alla vendita come download digitale su Etsy o compilazione in libro di puzzle Amazon KDP' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle ricerca di parole adatta alla vendita come download digitale su Etsy o compilazione in libro di puzzle Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle ricerca di parole a tema animali per Etsy e KDP', caption: 'I puzzle di ricerca di parole si vendono su entrambe le piattaforme — come download digitali individuali su Etsy e compilati in libri di puzzle su KDP' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Scheda di addizione per download digitale Etsy o libro di attività KDP', caption: 'Le schede di matematica funzionano come singoli e piccoli pacchetti su Etsy o compilate in libri di attività matematiche su KDP' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare per vendita su Etsy e KDP', caption: 'Le pagine da colorare sono una categoria top su entrambe le piattaforme — download individuali su Etsy e libri da colorare su KDP' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle ricerca di parole a tema animali per Etsy e KDP', caption: 'I puzzle di ricerca di parole si vendono su entrambe le piattaforme — come download digitali individuali su Etsy e compilati in libri di puzzle su KDP' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione per download digitale Etsy o libro di attività KDP', caption: 'Le schede di matematica funzionano come singoli e piccoli pacchetti su Etsy o compilate in libri di attività matematiche su KDP' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare per vendita su Etsy e KDP', caption: 'Le pagine da colorare sono una categoria top su entrambe le piattaforme — download individuali su Etsy e libri da colorare su KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Stampabili per Etsy e Amazon KDP — Tutorial Passo-Passo',

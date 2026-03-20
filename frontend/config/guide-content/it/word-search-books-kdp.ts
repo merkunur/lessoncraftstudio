@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole con griglia di parole a tema adatta per pagine interne di libri cerca parole Amazon KDP' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole con griglia di parole a tema adatta per pagine interne di libri cerca parole Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole a tema animali formattato per libro cerca parole KDP', caption: 'Puzzle cerca parole a tema animali — le liste di parole a tema creano contenuti coinvolgenti che superano le collezioni di parole casuali nelle recensioni degli acquirenti' },
-      { src: '/samples/english/wordsearch/custom word list.webp', alt: 'Puzzle cerca parole a tema cibo per libro KDP', caption: 'Cerca parole a tema cibo — le sezioni a tema aggiungono struttura editoriale che distingue i libri cerca parole professionali dalle compilazioni amatoriali' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Puzzle cruciverba per catalogo puzzle KDP companion', caption: 'Puzzle cruciverba — tipo di puzzle companion per la diversificazione del catalogo e la promozione incrociata con i titoli cerca parole' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole a tema animali formattato per libro cerca parole KDP', caption: 'Puzzle cerca parole a tema animali — le liste di parole a tema creano contenuti coinvolgenti che superano le collezioni di parole casuali nelle recensioni degli acquirenti' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 3.webp', alt: 'Puzzle cerca parole a tema cibo per libro KDP', caption: 'Cerca parole a tema cibo — le sezioni a tema aggiungono struttura editoriale che distingue i libri cerca parole professionali dalle compilazioni amatoriali' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Puzzle cruciverba per catalogo puzzle KDP companion', caption: 'Puzzle cruciverba — tipo di puzzle companion per la diversificazione del catalogo e la promozione incrociata con i titoli cerca parole' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole per Libri Amazon KDP — Tutorial Passo dopo Passo',

@@ -216,17 +216,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/italian/coloring/coloring portrait 1.webp',
       primaryAlt: 'Pagina da colorare con contorno in bianco e nero pronto per la colorazione',
     },
     sampleGallery: [
-      { src: '/samples/italian/big%20small/Grande%20o%20Piccolo%201.webp', alt: 'Scheda confronto dimensioni con immagini tematiche per cerchiare il più grande e il più piccolo', caption: 'Scheda Grande e Piccolo' },
-      { src: '/samples/italian/pattern%20train/Treno%20dei%20Modelli%201.webp', alt: 'Scheda sequenze a treno con elemento mancante nella sequenza', caption: 'Scheda Treno delle Sequenze' },
-      { src: '/samples/italian/pattern%20worksheet/Puzzle%20di%20Schemi%201.webp', alt: 'Scheda riconoscimento sequenze con esercizi a riempimento', caption: 'Scheda Sequenze' },
-      { src: '/samples/italian/draw%20and%20color/Disegna%20e%20Colora%201.webp', alt: 'Scheda disegno con immagine di riferimento e griglia per riprodurla', caption: 'Scheda Disegno Griglia' },
-      { src: '/samples/italian/drawing%20lines/Pratica%20del%20Disegno%20di%20Linee%202.webp', alt: 'Scheda pregrafismo con oggetti accoppiati e percorsi di linee curve', caption: 'Scheda Pregrafismo' },
-      { src: '/samples/italian/coloring/coloring%20portrait%201.webp', alt: 'Pagina da colorare con contorno in bianco e nero convertito da immagine tematica', caption: 'Pagina da Colorare' },
-      { src: '/samples/italian/chart%20count/Grafico%20con%20Immagini%201.webp', alt: 'Scheda conteggio con grafico a barre e punti dati a immagini tematiche', caption: 'Scheda Grafici con Immagini' },
+      { src: '/samples/italian/big small/Grande o Piccolo 1.webp', alt: 'Scheda confronto dimensioni con immagini tematiche per cerchiare il più grande e il più piccolo', caption: 'Scheda Grande e Piccolo' },
+      { src: '/samples/italian/pattern train/Treno dei Modelli 1.webp', alt: 'Scheda sequenze a treno con elemento mancante nella sequenza', caption: 'Scheda Treno delle Sequenze' },
+      { src: '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp', alt: 'Scheda riconoscimento sequenze con esercizi a riempimento', caption: 'Scheda Sequenze' },
+      { src: '/samples/italian/draw and color/Disegna e Colora 1.webp', alt: 'Scheda disegno con immagine di riferimento e griglia per riprodurla', caption: 'Scheda Disegno Griglia' },
+      { src: '/samples/italian/drawing lines/Pratica del Disegno di Linee 2.webp', alt: 'Scheda pregrafismo con oggetti accoppiati e percorsi di linee curve', caption: 'Scheda Pregrafismo' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare con contorno in bianco e nero convertito da immagine tematica', caption: 'Pagina da Colorare' },
+      { src: '/samples/italian/chart count/Grafico con Immagini 1.webp', alt: 'Scheda conteggio con grafico a barre e punti dati a immagini tematiche', caption: 'Scheda Grafici con Immagini' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Pacchetto Apprendimento Visivo — Guarda Tutti i 7 Generatori in Azione',

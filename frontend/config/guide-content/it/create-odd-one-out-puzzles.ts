@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio mostrando tre elementi comuni e un intruso con intestazione corallo-ambra-turchese' },
+    heroImage: { src: '/samples/italian/odd one out/Trova il Diverso 1.webp', alt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio mostrando tre elementi comuni e un intruso con intestazione corallo-ambra-turchese' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Scheda trova l\'intruso che mostra carte esercizio con quattro immagini per riga e intestazione stilizzata Trova l\'Intruso', caption: 'Scheda trova l\'intruso con righe di esercizio a quattro immagini e layout a colonne adattivo' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Chiave di risposta auto-generata con contorni cerchio rosso attorno all\'elemento intruso in ogni riga di esercizio', caption: 'Chiave di risposta auto-generata con marcatori cerchio rosso che identificano l\'intruso in ogni riga' },
+      { src: '/samples/italian/odd one out/Trova il Diverso 1.webp', alt: 'Scheda trova l\'intruso che mostra carte esercizio con quattro immagini per riga e intestazione stilizzata Trova l\'Intruso', caption: 'Scheda trova l\'intruso con righe di esercizio a quattro immagini e layout a colonne adattivo' },
+      { src: '/samples/italian/odd one out/Trova il Diverso 1 answer-key.webp', alt: 'Chiave di risposta auto-generata con contorni cerchio rosso attorno all\'elemento intruso in ogni riga di esercizio', caption: 'Chiave di risposta auto-generata con marcatori cerchio rosso che identificano l\'intruso in ogni riga' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Come Creare Puzzle Trova l\'Intruso — Tutorial Completo',

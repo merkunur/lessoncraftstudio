@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Scheda di puzzle a incastro con buchi ritagliati da un\'illustrazione colorata e opzioni di soluzione numerate inclusi distrattori sotto con intestazione turchese Pezzi Mancanti e doppio bordo turchese-rosa' },
+    heroImage: { src: '/samples/italian/missing pieces/Pezzi Mancanti 1.webp', alt: 'Scheda di puzzle a incastro con buchi ritagliati da un\'illustrazione colorata e opzioni di soluzione numerate inclusi distrattori sotto con intestazione turchese Pezzi Mancanti e doppio bordo turchese-rosa' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Scheda di puzzle pezzi mancanti che mostra un\'immagine con buchi ritagliati e opzioni di soluzione numerate visualizzate sotto con intestazione a doppio bordo', caption: 'Scheda di puzzle a incastro con pezzi estratti intelligentemente e opzioni di soluzione numerate inclusi distrattori' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Chiave di risposta auto-generata con etichette numeriche con evidenziazione gialla posizionate all\'interno di ogni buco che mostrano l\'indice dell\'opzione corretta', caption: 'Chiave di risposta auto-generata con etichette con evidenziazione gialla che mostrano l\'opzione corretta per ogni buco' },
+      { src: '/samples/italian/missing pieces/Pezzi Mancanti 1.webp', alt: 'Scheda di puzzle pezzi mancanti che mostra un\'immagine con buchi ritagliati e opzioni di soluzione numerate visualizzate sotto con intestazione a doppio bordo', caption: 'Scheda di puzzle a incastro con pezzi estratti intelligentemente e opzioni di soluzione numerate inclusi distrattori' },
+      { src: '/samples/italian/missing pieces/Pezzi Mancanti 1 answer_key.webp', alt: 'Chiave di risposta auto-generata con etichette numeriche con evidenziazione gialla posizionate all\'interno di ogni buco che mostrano l\'indice dell\'opzione corretta', caption: 'Chiave di risposta auto-generata con etichette con evidenziazione gialla che mostrano l\'opzione corretta per ogni buco' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Come Creare Puzzle di Pezzi Mancanti — Tutorial Completo',

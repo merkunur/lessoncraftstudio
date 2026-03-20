@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
       alt: 'Scheda di parole intrecciate che dimostra il potenziale del business stampabili multilingue nei mercati internazionali',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di parole intrecciate che mostra la capacità multilingue per le vendite internazionali di stampabili',
         caption: 'Le schede di parole intrecciate possono essere generate in 11 lingue, rendendole ideali per l\'espansione multilingue',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/italian/matching/Trova le Coppie 1.webp',
         alt: 'Scheda di abbinamento con temi visivi che funzionano in tutti i mercati linguistici',
         caption: 'Le schede di abbinamento visive usano immagini che si traducono universalmente tra le lingue',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione che dimostra l\'attrattiva universale oltre le barriere linguistiche',
         caption: 'Le schede di matematica superano naturalmente le barriere linguistiche poiché i numeri sono universali in tutti i mercati',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Risorsa scheda di addizione adatta alla vendita sul marketplace Teachers Pay Teachers' },
+    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Risorsa scheda di addizione adatta alla vendita sul marketplace Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Scheda di addizione matematica per risorsa per la classe TPT', caption: 'Le schede di matematica sono tra i tipi di risorse più cercati su TPT — gli insegnanti hanno bisogno di pratica allineata agli standard per ogni competenza' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Attività puzzle cerca parole per inserzione negozio TPT', caption: 'I puzzle cerca parole funzionano in tutti i livelli scolastici su TPT come costruttori di vocabolario, attività per centri e lavoro per studenti che finiscono prima' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Scheda attività di abbinamento per educatori TPT', caption: 'Le attività di abbinamento sono risorse TPT versatili che gli insegnanti usano per valutazione, pratica e ripasso in più materie' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione matematica per risorsa per la classe TPT', caption: 'Le schede di matematica sono tra i tipi di risorse più cercati su TPT — gli insegnanti hanno bisogno di pratica allineata agli standard per ogni competenza' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Attività puzzle cerca parole per inserzione negozio TPT', caption: 'I puzzle cerca parole funzionano in tutti i livelli scolastici su TPT come costruttori di vocabolario, attività per centri e lavoro per studenti che finiscono prima' },
+      { src: '/samples/italian/matching/Trova le Coppie 2.webp', alt: 'Scheda attività di abbinamento per educatori TPT', caption: 'Le attività di abbinamento sono risorse TPT versatili che gli insegnanti usano per valutazione, pratica e ripasso in più materie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Educative per Teachers Pay Teachers — Tutorial Passo dopo Passo',

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Scheda di abbinamento con immagini tematiche che mostra coppie traccia-una-linea per età prescolare' },
+    heroImage: { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento con immagini tematiche che mostra coppie traccia-una-linea per età prescolare' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Scheda di abbinamento traccia-una-linea con tema animali per età prescolare', caption: 'Scheda di abbinamento per età prescolare con tema animali in modalità Abbinamento Lettere e 5 coppie' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Chiave di risposta della scheda di abbinamento che mostra le linee di collegamento tra le coppie corrette', caption: 'Chiave di risposta automatica con linee di collegamento orizzontali tra le coppie abbinate' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento traccia-una-linea con tema animali per età prescolare', caption: 'Scheda di abbinamento per età prescolare con tema animali in modalità Abbinamento Lettere e 5 coppie' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Chiave di risposta della scheda di abbinamento che mostra le linee di collegamento tra le coppie corrette', caption: 'Chiave di risposta automatica con linee di collegamento orizzontali tra le coppie abbinate' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Come Creare Schede di Abbinamento — Tutorial Completo',

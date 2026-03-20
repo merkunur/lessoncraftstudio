@@ -217,16 +217,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/addition/Addizione%20Divertente%201.webp',
+      primary: '/samples/italian/addition/Addizione Divertente 1.webp',
       primaryAlt: 'Scheda di addizione con immagini tematiche che mostrano problemi di conteggio visivo',
     },
     sampleGallery: [
-      { src: '/samples/italian/addition/Addizione%20Divertente%201.webp', alt: 'Scheda di addizione con immagini tematiche di animali', caption: 'Scheda di Addizione' },
-      { src: '/samples/italian/subtraction/Sottrazioni%20Divertenti%201.webp', alt: 'Scheda di sottrazione con conteggio e cancellazione', caption: 'Scheda di Sottrazione' },
-      { src: '/samples/italian/code%20addition/Codice%20Segreto%20Addizione%201.webp', alt: 'Puzzle di addizione codificata con decodifica lettere', caption: 'Puzzle Addizione Codificata' },
-      { src: '/samples/italian/more%20less/Pi%C3%B9%20Meno%201.webp', alt: 'Scheda di confronto maggiore minore', caption: 'Scheda Confronto Numeri' },
-      { src: '/samples/italian/math%20puzzle/Rompicapi%20Matematici%201.webp', alt: 'Puzzle matematico a griglia con equazioni', caption: 'Puzzle Matematico' },
-      { src: '/samples/italian/math%20worksheet/Scheda%20di%20Matematica%201.webp', alt: 'Puzzle di algebra visiva con variabili a immagini', caption: 'Scheda di Matematica' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con immagini tematiche di animali', caption: 'Scheda di Addizione' },
+      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda di sottrazione con conteggio e cancellazione', caption: 'Scheda di Sottrazione' },
+      { src: '/samples/italian/code addition/Codice Segreto Addizione 1.webp', alt: 'Puzzle di addizione codificata con decodifica lettere', caption: 'Puzzle Addizione Codificata' },
+      { src: '/samples/italian/more less/Più Meno 1.webp', alt: 'Scheda di confronto maggiore minore', caption: 'Scheda Confronto Numeri' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Puzzle matematico a griglia con equazioni', caption: 'Puzzle Matematico' },
+      { src: '/samples/italian/math worksheet/Scheda di Matematica 1.webp', alt: 'Puzzle di algebra visiva con variabili a immagini', caption: 'Scheda di Matematica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Pacchetto Padronanza della Matematica — Guarda Tutti i 6 Generatori in Azione',

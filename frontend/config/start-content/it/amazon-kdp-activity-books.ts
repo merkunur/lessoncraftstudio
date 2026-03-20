@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Esempio di scheda puzzle Sudoku per la pubblicazione di libri di attività su Amazon KDP' },
+    heroImage: { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Esempio di scheda puzzle Sudoku per la pubblicazione di libri di attività su Amazon KDP' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Scheda puzzle Sudoku per interni di libri di attività KDP', caption: 'Sudoku — Categoria Puzzle KDP Più Venduta' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole per libri di attività Amazon KDP', caption: 'Cerca Parole — Categoria Bestseller KDP' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Scheda puzzle matematici per interni di quaderni KDP', caption: 'Puzzle Matematici — Nicchia Evergreen KDP' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Scheda cruciverba per libri di attività KDP', caption: 'Cruciverba — Formato Classico Libri di Attività' },
+      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Scheda puzzle Sudoku per interni di libri di attività KDP', caption: 'Sudoku — Categoria Puzzle KDP Più Venduta' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole per libri di attività Amazon KDP', caption: 'Cerca Parole — Categoria Bestseller KDP' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Scheda puzzle matematici per interni di quaderni KDP', caption: 'Puzzle Matematici — Nicchia Evergreen KDP' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Scheda cruciverba per libri di attività KDP', caption: 'Cruciverba — Formato Classico Libri di Attività' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Come Creare Schede di Puzzle Sudoku — Demo LessonCraftStudio',

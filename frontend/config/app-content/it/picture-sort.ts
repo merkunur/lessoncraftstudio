@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/picture%20sort/Classificazione%20Immagini%201.webp',
+      primary: '/samples/italian/picture sort/Classificazione Immagini 1.webp',
       primaryAlt: 'Scheda di classificazione immagini a due categorie con cornici di categoria tematiche, griglia di ritagli mescolata e intestazione localizzata Classificazione Immagini',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%202.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 2.webp',
         alt: 'Scheda di classificazione in modalità tema con immagini classificate nelle categorie sinistra e destra',
         caption: 'Modalità tema — categorie popolate automaticamente dalla libreria immagini',
       },
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%203.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 3.webp',
         alt: 'Scheda di classificazione in modalità manuale con immagini selezionate individualmente assegnate alle categorie sinistra e destra',
         caption: 'Modalità manuale — seleziona le immagini e assegnale alle categorie',
       },
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%201%20answer_key.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 1 answer_key.webp',
         alt: 'Foglio risposte di classificazione immagini con immagini 6 volte più grandi organizzate nei riquadri di categoria corretti',
         caption: 'Foglio risposte autogenerato — immagini 6× più grandi nei riquadri di categoria',
       },

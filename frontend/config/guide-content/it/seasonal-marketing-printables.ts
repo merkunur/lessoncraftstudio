@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/italian/bingo/tombola 1.webp',
       alt: 'Carta bingo che dimostra un prodotto stampabile stagionale ideale per campagne di marketing festivo',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/italian/bingo/tombola 1.webp',
         alt: 'Carta bingo che mostra un prodotto stampabile stagionale per eventi e celebrazioni festive',
         caption: 'Le carte bingo si adattano a ogni tema stagionale, rendendole prodotti ideali per il marketing stagionale durante tutto l\'anno',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagina da colorare che dimostra contenuto stampabile stagionale per inserzioni festive sui marketplace',
         caption: 'Le pagine da colorare stagionali sono costantemente tra i migliori venditori durante i picchi di domanda festiva su tutti i marketplace di stampabili',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di parole intrecciate che mostra un stampabile di costruzione del vocabolario stagionale per il marketing festivo',
         caption: 'Le parole intrecciate a tema combinano attrattiva stagionale con valore educativo per ottime prestazioni stagionali sui marketplace',
       },

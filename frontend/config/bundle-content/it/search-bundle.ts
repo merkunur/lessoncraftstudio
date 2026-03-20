@@ -192,14 +192,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find%20and%20count/Vedo%20Vedo%201.webp',
+      primary: '/samples/italian/find and count/Vedo Vedo 1.webp',
       primaryAlt: 'Scheda Vedo Vedo trova e conta con immagini tematiche sparse su una griglia per scansione visiva e conteggio',
     },
     sampleGallery: [
-      { src: '/samples/italian/find%20and%20count/Vedo%20Vedo%201.webp', alt: 'Scheda Vedo Vedo trova e conta con oggetti nascosti da localizzare e contare', caption: 'Trova e Conta Vedo Vedo' },
-      { src: '/samples/italian/find%20objects/Trova%20gli%20Oggetti%20Nascosti%201.webp', alt: 'Scheda oggetti nascosti con scena senza sovrapposizioni e legenda visiva', caption: 'Trova Oggetti Nascosti' },
-      { src: '/samples/italian/crossword/Cruciverba%20con%20Immagini%201.webp', alt: 'Cruciverba 15x15 con indizi-immagine al posto delle definizioni testuali', caption: 'Cruciverba con Immagini' },
-      { src: '/samples/italian/treasure%20hunt/Caccia%20al%20Tesoro%201.webp', alt: 'Scheda caccia al tesoro con griglia di coordinate 5x5 e indizi direzionali', caption: 'Caccia al Tesoro su Griglia' },
+      { src: '/samples/italian/find and count/Vedo Vedo 1.webp', alt: 'Scheda Vedo Vedo trova e conta con oggetti nascosti da localizzare e contare', caption: 'Trova e Conta Vedo Vedo' },
+      { src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp', alt: 'Scheda oggetti nascosti con scena senza sovrapposizioni e legenda visiva', caption: 'Trova Oggetti Nascosti' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba 15x15 con indizi-immagine al posto delle definizioni testuali', caption: 'Cruciverba con Immagini' },
+      { src: '/samples/italian/treasure hunt/Caccia al Tesoro 1.webp', alt: 'Scheda caccia al tesoro con griglia di coordinate 5x5 e indizi direzionali', caption: 'Caccia al Tesoro su Griglia' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Pacchetto Cerca e Trova — Guarda Tutti i 4 Generatori di Scoperta in Azione',

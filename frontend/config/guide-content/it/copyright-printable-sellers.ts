@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing.webp',
+      src: '/samples/italian/writing/writing.webp',
       alt: 'Scheda di scrittura professionale che dimostra elementi di design creativo originale tutelabili dal copyright',
     },
     samples: [
       {
-        src: '/samples/english/writing/writing.webp',
+        src: '/samples/italian/writing/writing.webp',
         alt: 'Scheda di scrittura che mostra testo didattico originale e scelte creative di layout',
         caption: 'Le schede di scrittura contengono espressione creativa originale sostanziale nel testo didattico e nel design',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Crucipuzzle con immagini tematiche che dimostra l\'arrangiamento creativo di contenuti educativi',
         caption: 'I crucipuzzle dimostrano un arrangiamento creativo tutelabile degli elementi di vocabolario',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagina da colorare con design illustrativo tematico originale',
         caption: 'Le pagine da colorare hanno posizioni di copyright forti grazie all\'originalità visiva dei loro design',
       },

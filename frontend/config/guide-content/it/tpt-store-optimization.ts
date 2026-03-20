@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Risorsa scheda cerca parole ottimizzata per la visibilità e le vendite nel negozio Teachers Pay Teachers' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Risorsa scheda cerca parole ottimizzata per la visibilità e le vendite nel negozio Teachers Pay Teachers' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole ottimizzato per la crescita del catalogo nel negozio TPT', caption: 'I puzzle cerca parole sono tra le risorse TPT più versatili — crea variazioni stagionali tematiche per un\'espansione rapida del catalogo' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Scheda puzzle matematico per la differenziazione nel negozio TPT', caption: 'I formati unici di puzzle matematici affrontano minore concorrenza su TPT rispetto alle schede standard — una strategia di differenziazione per categorie affollate' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Attività cruciverba per risorse di vocabolario TPT', caption: 'I cruciverba sono attività di vocabolario ad alta domanda che gli insegnanti cercano per materia e livello scolastico su TPT' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole ottimizzato per la crescita del catalogo nel negozio TPT', caption: 'I puzzle cerca parole sono tra le risorse TPT più versatili — crea variazioni stagionali tematiche per un\'espansione rapida del catalogo' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 5.webp', alt: 'Scheda puzzle matematico per la differenziazione nel negozio TPT', caption: 'I formati unici di puzzle matematici affrontano minore concorrenza su TPT rispetto alle schede standard — una strategia di differenziazione per categorie affollate' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Attività cruciverba per risorse di vocabolario TPT', caption: 'I cruciverba sono attività di vocabolario ad alta domanda che gli insegnanti cercano per materia e livello scolastico su TPT' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole per il Tuo Negozio TPT — Tutorial di Ottimizzazione',

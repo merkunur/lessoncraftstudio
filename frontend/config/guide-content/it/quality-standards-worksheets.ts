@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
       alt: 'Scheda di parole intrecciate che dimostra standard di qualità professionale con layout pulito e formattazione precisa',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di parole intrecciate con formattazione professionale pronta per la stampa e allineamento preciso della griglia',
         caption: 'L\'output professionale delle parole intrecciate dimostra layout pulito, tipografia leggibile e allineamento preciso della griglia',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione che mostra standard di qualità per l\'allineamento dei numeri e l\'accuratezza delle chiavi di risposta',
         caption: 'Le schede di matematica richiedono allineamento preciso, tipografia chiara e chiavi di risposta verificate per una qualità professionale',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagina da colorare che dimostra standard di qualità visiva con pesi delle linee coerenti e ottimizzazione per la stampa',
         caption: 'I prodotti visivi richiedono pesi delle linee coerenti, ottimizzazione in scala di grigi e qualità di stampa professionale',
       },

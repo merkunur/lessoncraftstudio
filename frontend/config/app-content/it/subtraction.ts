@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/subtraction/Sottrazioni%20Divertenti%201.webp',
+      primary: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp',
       primaryAlt: 'Scheda di sottrazione che mostra la visualizzazione a barratura con croci diagonali sulle immagini sottratte',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/subtraction/Sottrazioni%20Divertenti%202.webp',
+        src: '/samples/italian/subtraction/Sottrazioni Divertenti 2.webp',
         alt: 'Scheda di sottrazione in modalità Barratura con croci sulle immagini sottratte',
         caption: 'Modalità Barratura — croci diagonali mostrano quali elementi vengono sottratti',
       },
       {
-        src: '/samples/italian/subtraction/Sottrazioni%20Divertenti%203.webp',
+        src: '/samples/italian/subtraction/Sottrazioni Divertenti 3.webp',
         alt: 'Scheda di sottrazione in modalità Immagine meno Numero con gruppi di immagini e numeri',
         caption: 'Modalità Immagine − Numero — abbina gruppi di immagini a numeri per competenze di transizione',
       },
       {
-        src: '/samples/italian/subtraction/Sottrazioni%20Divertenti%204.webp',
+        src: '/samples/italian/subtraction/Sottrazioni Divertenti 4.webp',
         alt: 'Scheda di sottrazione in modalità Trova il Sottraendo che sfida gli studenti a trovare il valore mancante',
         caption: 'Modalità Trova il Sottraendo — gli studenti determinano quanti sono stati tolti',
       },

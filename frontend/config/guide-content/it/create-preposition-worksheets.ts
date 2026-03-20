@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Scheda sulle preposizioni che mostra scene con immagini ed esercizi di relazioni spaziali per la pratica delle parole di posizione' },
+    heroImage: { src: '/samples/italian/prepositions/Preposizioni 1.webp', alt: 'Scheda sulle preposizioni che mostra scene con immagini ed esercizi di relazioni spaziali per la pratica delle parole di posizione' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (1).webp', alt: 'Scheda sulle preposizioni con esercizi completa lo spazio usando scene colorate che mostrano relazioni spaziali', caption: 'Esercizi completa lo spazio sulle preposizioni con scene' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (5).webp', alt: 'Scheda sulle preposizioni con esercizi a scelta multipla sulle relazioni spaziali per pratica guidata', caption: 'Modalità scelta multipla per pratica guidata adatta ai principianti' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Scheda avanzata sulle preposizioni con sostituzione forme che crea combinazioni di scene uniche', caption: 'La sostituzione forme moltiplica le combinazioni visive per varietà di prodotto' },
+      { src: '/samples/italian/prepositions/Preposizioni 1.webp', alt: 'Scheda sulle preposizioni con esercizi completa lo spazio usando scene colorate che mostrano relazioni spaziali', caption: 'Esercizi completa lo spazio sulle preposizioni con scene' },
+      { src: '/samples/italian/prepositions/Preposizioni 3.webp', alt: 'Scheda sulle preposizioni con esercizi a scelta multipla sulle relazioni spaziali per pratica guidata', caption: 'Modalità scelta multipla per pratica guidata adatta ai principianti' },
+      { src: '/samples/italian/prepositions/Preposizioni 4.webp', alt: 'Scheda avanzata sulle preposizioni con sostituzione forme che crea combinazioni di scene uniche', caption: 'La sostituzione forme moltiplica le combinazioni visive per varietà di prodotto' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Come Creare Schede sulle Preposizioni — Tutorial Completo',

@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione professionale creata con il generatore LessonCraftStudio' },
+    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione professionale creata con il generatore LessonCraftStudio' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini tematiche', caption: 'Addizione \— Problemi Basati su Immagini' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Scheda di sottrazione con problemi numerici visivi', caption: 'Sottrazione \— Pratica di Matematica Visiva' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole con lista di parole tematiche', caption: 'Cerca Parole \— Puzzle Tematico' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagine da Colorare \— Illustrazioni Tematiche' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini tematiche', caption: 'Addizione \— Problemi Basati su Immagini' },
+      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda di sottrazione con problemi numerici visivi', caption: 'Sottrazione \— Pratica di Matematica Visiva' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole con lista di parole tematiche', caption: 'Cerca Parole \— Puzzle Tematico' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagine da Colorare \— Illustrazioni Tematiche' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede di Addizione \— Demo LessonCraftStudio',

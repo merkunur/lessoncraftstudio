@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/odd%20one%20out/Trova%20il%20Diverso%201.webp',
+      primary: '/samples/italian/odd one out/Trova il Diverso 1.webp',
       primaryAlt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio che mostra tre elementi comuni e un intruso con intestazione corallo-ambra-turchese che dice Trova l\'Intruso',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/odd%20one%20out/Trova%20il%20Diverso%202.webp',
+        src: '/samples/italian/odd one out/Trova il Diverso 2.webp',
         alt: 'Scheda trova l\'intruso modalità Simile con tre immagini dal Tema A e un intruso tematico dal Tema B per ogni riga di esercizio',
         caption: 'Modalità Simile — tre immagini dal Tema A e un intruso dal Tema B per discriminazione tra temi',
       },
       {
-        src: '/samples/italian/odd%20one%20out/Trova%20il%20Diverso%203.webp',
+        src: '/samples/italian/odd one out/Trova il Diverso 3.webp',
         alt: 'Scheda trova l\'intruso modalità Identico con tre cloni della stessa immagine e un\'immagine diversa dallo stesso tema per riga',
         caption: 'Modalità Identico — tre cloni della stessa immagine e un\'immagine diversa per sfide di individuazione del duplicato',
       },
       {
-        src: '/samples/italian/odd%20one%20out/Trova%20il%20Diverso%204%20answer-key.webp',
+        src: '/samples/italian/odd one out/Trova il Diverso 4 answer-key.webp',
         alt: 'Chiave di risposta trova l\'intruso con contorni cerchio rosso disegnati attorno all\'intruso in ogni riga con spessore tratto scalato alla dimensione dell\'immagine',
         caption: 'Chiave di risposta auto-generata — marcatori cerchio rosso (tratto = max(imageSize × 0,04, 3px)) identificano l\'intruso in ogni riga',
       },

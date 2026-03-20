@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
       alt: 'Scheda professionale di parole intrecciate che dimostra la qualità dei lead magnet per campagne di email marketing',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Scheda di parole intrecciate ideale come lead magnet email per attrarre acquirenti di stampabili',
         caption: 'Le parole intrecciate sono lead magnet efficaci che attraggono il tuo pubblico di acquirenti target',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagina da colorare che mostra un prodotto visivamente accattivante per promozione via campagna email',
         caption: 'Prodotti visivamente accattivanti generano tassi di clic superiori nelle campagne email',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione che dimostra contenuto sempreverde per sequenze email automatizzate',
         caption: 'Il contenuto matematico sempreverde alimenta campagne email stagionali automatizzate tutto l\'anno',
       },

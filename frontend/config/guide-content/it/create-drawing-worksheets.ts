@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Scheda di disegno su griglia con sistema a doppia griglia che mostra la griglia di pratica vuota e la griglia degli indizi parzialmente rivelata con tema contorno in bianco e nero' },
+    heroImage: { src: '/samples/italian/draw and color/Disegna e Colora 5.webp', alt: 'Scheda di disegno su griglia con sistema a doppia griglia che mostra la griglia di pratica vuota e la griglia degli indizi parzialmente rivelata con tema contorno in bianco e nero' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp', alt: 'Scheda di disegno su griglia che mostra il sistema a doppia griglia con griglia di pratica e griglia degli indizi per la riproduzione cella per cella', caption: 'Formato a doppia griglia: griglia di pratica vuota sopra e griglia degli indizi con riferimento parziale sotto per esercizi di disegno strutturati' },
-      { src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp', alt: 'Scheda di disegno su griglia tema animali con contorno B&W a percentuale di indizi moderata', caption: 'Tema contorno animali B&W al 25% di indizi — gli studenti riproducono il contorno dagli indizi sparsi sulla griglia poi colorano il loro disegno' },
+      { src: '/samples/italian/draw and color/Disegna e Colora 5.webp', alt: 'Scheda di disegno su griglia che mostra il sistema a doppia griglia con griglia di pratica e griglia degli indizi per la riproduzione cella per cella', caption: 'Formato a doppia griglia: griglia di pratica vuota sopra e griglia degli indizi con riferimento parziale sotto per esercizi di disegno strutturati' },
+      { src: '/samples/italian/draw and color/Disegna e Colora 1.webp', alt: 'Scheda di disegno su griglia tema animali con contorno B&W a percentuale di indizi moderata', caption: 'Tema contorno animali B&W al 25% di indizi — gli studenti riproducono il contorno dagli indizi sparsi sulla griglia poi colorano il loro disegno' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Come Creare Schede di Disegno e Simmetria — Tutorial Completo',

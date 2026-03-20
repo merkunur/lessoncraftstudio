@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/bingo/tombola%201.webp',
+      primary: '/samples/italian/bingo/tombola 1.webp',
       primaryAlt: 'Cartella di bingo con immagini tematiche in una griglia e fiches circolari con bordi tratteggiati sotto',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/bingo/tombola%202.webp',
+        src: '/samples/italian/bingo/tombola 2.webp',
         alt: 'Cartella di bingo con riempimento immagini mostrando illustrazioni tematiche colorate nelle celle e fiches circolari con immagini',
         caption: 'Modalità riempimento immagini — illustrazioni colorate nelle celle e nelle fiches circolari',
       },
       {
-        src: '/samples/italian/bingo/tombola%203.webp',
+        src: '/samples/italian/bingo/tombola 3.webp',
         alt: 'Cartella di bingo con riempimento parole mostrando nomi localizzati di immagini nelle celle e fiches con parole',
         caption: 'Modalità riempimento parole — nomi localizzati di immagini per bingo basato sul vocabolario',
       },
       {
-        src: '/samples/italian/bingo/tombola%204.webp',
+        src: '/samples/italian/bingo/tombola 4.webp',
         alt: 'Foglio di richiamo di bingo con griglia dinamica di parole mostrando tutti gli elementi del gioco per il conduttore',
         caption: 'Foglio di richiamo — griglia dinamica di parole per la persona che conduce il gioco di bingo',
       },

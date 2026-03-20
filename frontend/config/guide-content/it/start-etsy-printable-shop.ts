@@ -177,22 +177,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/',
+      src: '/samples/italian/addition/Addizione Divertente 1.webp',
       alt: 'Schede di addizione professionali create con il Generatore Schede Addizione, rappresentano la qualit\à dei prodotti stampabili ottenibile con tutti i 33 generatori',
     },
     samples: [
       {
-        src: '/samples/english/addition/',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Schede di addizione che mostrano prodotti stampabili della categoria Matematica e Numeri per negozi Etsy',
         caption: 'Categoria Matematica e Numeri: schede di addizione con chiavi di risposta pronte per inserzioni di download digitale su Etsy',
       },
       {
-        src: '/samples/english/wordsearch/',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle cerca parole che mostrano prodotti stampabili della categoria Lettere e Parole per negozi Etsy',
         caption: 'Categoria Lettere e Parole: puzzle cerca parole con vocabolario tematico per un ampio appeal tra gli acquirenti',
       },
       {
-        src: '/samples/english/coloring/',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagine da colorare che mostrano prodotti stampabili della categoria Disegno e Arte per negozi Etsy',
         caption: 'Categoria Disegno e Arte: pagine da colorare con illustrazioni tematiche per la fascia demografica d\'et\à pi\ù ampia',
       },

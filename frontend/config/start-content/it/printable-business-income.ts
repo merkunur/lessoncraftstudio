@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Scheda di matematica che dimostra la qualità professionale dell\'output dei generatori' },
+    heroImage: { src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp', alt: 'Scheda di matematica che dimostra la qualità professionale dell\'output dei generatori' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Scheda di matematica con layout professionale e qualità di stampa 300 DPI', caption: 'Scheda di Matematica — Generatore Versatile di Ricavi' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca-parole per vendite su Etsy e Amazon KDP', caption: 'Cerca Parole — Categoria Puzzle Più Venduta' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare per pubblicazione libri di attività KDP', caption: 'Pagine da Colorare — Categoria KDP ad Alto Volume' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Scheda puzzle sudoku con attrattiva internazionale universale', caption: 'Sudoku — Attrattiva Universale sul Mercato' },
+      { src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp', alt: 'Scheda di matematica con layout professionale e qualità di stampa 300 DPI', caption: 'Scheda di Matematica — Generatore Versatile di Ricavi' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca-parole per vendite su Etsy e Amazon KDP', caption: 'Cerca Parole — Categoria Puzzle Più Venduta' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare per pubblicazione libri di attività KDP', caption: 'Pagine da Colorare — Categoria KDP ad Alto Volume' },
+      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Scheda puzzle sudoku con attrattiva internazionale universale', caption: 'Sudoku — Attrattiva Universale sul Mercato' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Come Creare Schede di Matematica per la Tua Attività di Stampabili — Demo LessonCraftStudio',

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: '/samples/italian/matching/Trova le Coppie 1.webp',
       alt: 'Scheda di abbinamento professionale che dimostra un design di prodotto chiaro che previene i problemi di assistenza clienti',
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/italian/matching/Trova le Coppie 1.webp',
         alt: 'Scheda di abbinamento con layout chiaro e istruzioni che riducono le domande degli acquirenti',
         caption: 'Un design chiaro delle schede e descrizioni prodotto complete prevengono le richieste di supporto comuni',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione con formattazione professionale che stabilisce aspettative accurate per gli acquirenti',
         caption: 'Formattazione professionale e specifiche dettagliate eliminano i problemi di discrepanza nelle aspettative',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Crucipuzzle con contenuto tematico che dimostra la chiarezza del prodotto per gli acquirenti',
         caption: 'I prodotti ricchi di contenuto beneficiano maggiormente di documentazione completa e supporto self-service',
       },

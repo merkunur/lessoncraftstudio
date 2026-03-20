@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartella bingo che dimostra il design di prodotto stampabile altamente condivisibile' },
+    heroImage: { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartella bingo che dimostra il design di prodotto stampabile altamente condivisibile' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Cartella bingo che mostra il potenziale di marketing basato sugli eventi per feste e classi', caption: 'Bingo — Altamente Condivisibile per Eventi e Festività' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole che dimostra il forte potenziale SEO sui marketplace', caption: 'Cerca Parole — Tipo di Puzzle Più Cercato' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che mostra l\'attrattiva visiva per il marketing su Pinterest', caption: 'Colorare — Contenuto Visivo Pronto per Pinterest' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Scheda di abbinamento che mostra la versatilità del marketing stagionale tematico', caption: 'Abbinamento — Marketing Stagionale Versatile' },
+      { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartella bingo che mostra il potenziale di marketing basato sugli eventi per feste e classi', caption: 'Bingo — Altamente Condivisibile per Eventi e Festività' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole che dimostra il forte potenziale SEO sui marketplace', caption: 'Cerca Parole — Tipo di Puzzle Più Cercato' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che mostra l\'attrattiva visiva per il marketing su Pinterest', caption: 'Colorare — Contenuto Visivo Pronto per Pinterest' },
+      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che mostra la versatilità del marketing stagionale tematico', caption: 'Abbinamento — Marketing Stagionale Versatile' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Come Creare Cartelle Bingo per la Tua Attività di Stampabili — Demo LessonCraftStudio',

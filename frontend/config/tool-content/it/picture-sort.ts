@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/picture%20sort/Classificazione%20Immagini%201.webp',
+      primary: '/samples/italian/picture sort/Classificazione Immagini 1.webp',
       primaryAlt: 'Scheda di classificazione immagini a due categorie con cornici categoria con bordi tratteggiati in alto e griglia di ritaglio mescolata sotto con intestazione verde menta localizzata',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%202.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 2.webp',
         alt: 'Scheda classificazione in modalità tema con categorie sinistra e destra auto-popolate dalla libreria immagini con griglia di ritaglio mescolata',
         caption: 'Modalità tema — categorie auto-popolate dalla libreria immagini con griglia di ritaglio casuale',
       },
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%203.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 3.webp',
         alt: 'Scheda classificazione in modalità manuale con immagini selezionate a mano assegnate alle categorie sinistra e destra per classificazione allineata al programma',
         caption: 'Modalità manuale — seleziona le immagini e assegna ciascuna alla categoria sinistra o destra',
       },
       {
-        src: '/samples/italian/picture%20sort/Classificazione%20Immagini%204%20answer_key.webp',
+        src: '/samples/italian/picture sort/Classificazione Immagini 4 answer_key.webp',
         alt: 'Chiave di risposta classificazione immagini con immagini 6 volte più grandi organizzate nelle caselle categoria corrette con bordi tratteggiati e riempimento FAFAFA',
         caption: 'Chiave di risposta auto-generata — immagini 6× più grandi nelle caselle categoria con max 2 colonne per casella',
       },

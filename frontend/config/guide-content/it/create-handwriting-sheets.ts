@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Scheda di esercizio scrittura con esercizi progressivi di formazione lettere dal tracciamento alla copia per bambini' },
+    heroImage: { src: '/samples/italian/writing/writing.webp', alt: 'Scheda di esercizio scrittura con esercizi progressivi di formazione lettere dal tracciamento alla copia per bambini' },
     samples: [
-      { src: '/samples/english/writing/writing.webp', alt: 'Scheda di esercizio scrittura con righe di tracciamento e frecce ordine tratti per la formazione delle lettere', caption: 'Scheda di scrittura progressiva con righe di tracciamento, tracciamento sfumato e copia guidata per l\'esercizio delle lettere' },
-      { src: '/samples/english/writing/writing.webp', alt: 'Scheda di scrittura con immagini tematiche abbinate all\'esercizio di tracciamento lettere', caption: 'Scheda di esercizio scrittura tematica con abbinamento tracciamento lettere e immagini dalla libreria' },
+      { src: '/samples/italian/writing/writing.webp', alt: 'Scheda di esercizio scrittura con righe di tracciamento e frecce ordine tratti per la formazione delle lettere', caption: 'Scheda di scrittura progressiva con righe di tracciamento, tracciamento sfumato e copia guidata per l\'esercizio delle lettere' },
+      { src: '/samples/italian/writing/writing.webp', alt: 'Scheda di scrittura con immagini tematiche abbinate all\'esercizio di tracciamento lettere', caption: 'Scheda di esercizio scrittura tematica con abbinamento tracciamento lettere e immagini dalla libreria' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Come Creare Schede di Esercizio di Scrittura — Tutorial Completo',

@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole che dimostra la generazione multilingue in 11 lingue' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole che dimostra la generazione multilingue in 11 lingue' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole con vocabolario sensibile alla lingua', caption: 'Cerca Parole — Migliore Demo Multilingue' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Puzzle cruciverba con indizi e risposte localizzati', caption: 'Cruciverba — Puzzle Completamente Localizzati' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Scheda anagrammi con vocabolario adattato alla lingua', caption: 'Anagrammi — Output Sensibile alla Lingua' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Scheda treno dell\'alfabeto con set di lettere specifici per lingua', caption: 'Treno dell\'Alfabeto — Set di Lettere Adattati' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole con vocabolario sensibile alla lingua', caption: 'Cerca Parole — Migliore Demo Multilingue' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Puzzle cruciverba con indizi e risposte localizzati', caption: 'Cruciverba — Puzzle Completamente Localizzati' },
+      { src: '/samples/italian/word scramble/Lettere Mescolate 1.webp', alt: 'Scheda anagrammi con vocabolario adattato alla lingua', caption: 'Anagrammi — Output Sensibile alla Lingua' },
+      { src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp', alt: 'Scheda treno dell\'alfabeto con set di lettere specifici per lingua', caption: 'Treno dell\'Alfabeto — Set di Lettere Adattati' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Cerca Parole in Più Lingue — Demo LessonCraftStudio',

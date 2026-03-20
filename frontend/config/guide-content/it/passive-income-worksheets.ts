@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/italian/addition/Addizione Divertente 1.webp',
       alt: 'Scheda di addizione professionale che dimostra contenuti educativi evergreen per ricavi ricorrenti',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione che mostra formattazione di qualità professionale per la vendita sui marketplace',
         caption: 'Le schede di matematica generano ricavi costanti tutto l\'anno come prodotti educativi evergreen',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di parole intrecciate disponibile in più lingue per una copertura di mercato ampliata',
         caption: 'Le parole intrecciate multilingue moltiplicano i ricavi raggiungendo mercati internazionali sottosviluppati',
       },
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/italian/matching/Trova le Coppie 1.webp',
         alt: 'Scheda di abbinamento a tema che dimostra la profondità di catalogo attraverso la versatilità tematica',
         caption: 'Le attività di abbinamento a tema costruiscono profondità di catalogo che guida la scopribilità composita',
       },

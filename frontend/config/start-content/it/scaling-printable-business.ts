@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Scheda disegno e colore che dimostra la gamma creativa per scalare un\'­attività di stampabili' },
+    heroImage: { src: '/samples/italian/draw and color/Disegna e Colora 1.webp', alt: 'Scheda disegno e colore che dimostra la gamma creativa per scalare un\'­attività di stampabili' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Scheda disegno e colore che mostra la varietà dei temi per l\'­espansione del catalogo', caption: 'Disegno e Colore — Gamma Creativa per la Profondità del Catalogo' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Crucipuzzle che dimostra la scalabilità ad alto volume tra i temi', caption: 'Crucipuzzle — Il Più Alto Potenziale di Scalata per Volume' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che mostra la scalabilità internazionale senza dipendenza linguistica', caption: 'Colorare — Scalata Internazionale Senza Traduzione' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku che dimostra la distribuzione di prodotti indipendente dalla piattaforma', caption: 'Sudoku — Distribuzione Indipendente dalla Piattaforma' },
+      { src: '/samples/italian/draw and color/Disegna e Colora 1.webp', alt: 'Scheda disegno e colore che mostra la varietà dei temi per l\'­espansione del catalogo', caption: 'Disegno e Colore — Gamma Creativa per la Profondità del Catalogo' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Crucipuzzle che dimostra la scalabilità ad alto volume tra i temi', caption: 'Crucipuzzle — Il Più Alto Potenziale di Scalata per Volume' },
+      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che mostra la scalabilità internazionale senza dipendenza linguistica', caption: 'Colorare — Scalata Internazionale Senza Traduzione' },
+      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Puzzle sudoku che dimostra la distribuzione di prodotti indipendente dalla piattaforma', caption: 'Sudoku — Distribuzione Indipendente dalla Piattaforma' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Come Creare Schede Disegno e Colore per la Tua Attività di Stampabili — Demo LessonCraftStudio',

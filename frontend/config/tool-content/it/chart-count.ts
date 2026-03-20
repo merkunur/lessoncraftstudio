@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/chart%20count/Grafico%20con%20Immagini%201.webp',
+      primary: '/samples/italian/chart count/Grafico con Immagini 1.webp',
       primaryAlt: 'Scheda grafico con immagini con griglia 4×5 di icone sparse che mostra 20 icone di 6 tipi e grafico a barre vuoto per contare e rappresentare i dati',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/chart%20count/Grafico%20con%20Immagini%202.webp',
+        src: '/samples/italian/chart count/Grafico con Immagini 2.webp',
         alt: 'Scheda grafico con immagini a tema animali con 20 icone sparse in griglia 4×5 e grafico a barre con 6 colonne per pratica di conteggio',
         caption: 'Grafico con immagini a tema animali — 6 tipi di animali sparsi nella griglia con grafico a barre sottostante per pratica di rappresentazione dati',
       },
       {
-        src: '/samples/italian/chart%20count/Grafico%20con%20Immagini%201%20answer_key.webp',
+        src: '/samples/italian/chart count/Grafico con Immagini 1 answer_key.webp',
         alt: 'Chiave di risposta del grafico con immagini con celle evidenziate in giallo che mostrano i conteggi corretti per ciascuno dei 6 tipi di immagini nel grafico a barre',
         caption: 'Chiave di risposta auto-generata — celle riempite in giallo (#FFC857) mostrano il conteggio corretto per ogni tipo di immagine',
       },
       {
-        src: '/samples/italian/chart%20count/Grafico%20con%20Immagini%204.webp',
+        src: '/samples/italian/chart count/Grafico con Immagini 4.webp',
         alt: 'Scheda grafico con immagini con temi di sfondo e bordo decorativi applicati usando controlli di opacità indipendenti per presentazione professionale sui marketplace',
         caption: 'Grafico con immagini decorato — temi di sfondo e bordo con controlli di opacità indipendenti per stile prodotto professionale',
       },

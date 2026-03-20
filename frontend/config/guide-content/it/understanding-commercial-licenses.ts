@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
       alt: 'Scheda professionale di parole intrecciate che dimostra l\'output stampabile con licenza commerciale',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
         alt: 'Puzzle di parole intrecciate creato con licenza commerciale per la vendita multi-piattaforma',
         caption: 'I puzzle di parole intrecciate creati con licenza commerciale possono essere venduti su qualsiasi piattaforma',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/italian/addition/Addizione Divertente 1.webp',
         alt: 'Scheda di addizione generata con licenza commerciale royalty-free',
         caption: 'Una licenza commerciale copre la generazione illimitata di schede di addizione senza costi per prodotto',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring portrait 1.webp',
         alt: 'Pagina da colorare con immagini tematiche correttamente licenziate per la vendita commerciale',
         caption: 'Le licenze commerciali che includono le immagini incorporate semplificano la conformità per i prodotti visivi',
       },

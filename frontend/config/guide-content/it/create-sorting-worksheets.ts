@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Scheda di classificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di classificazione' },
+    heroImage: { src: '/samples/italian/picture sort/Classificazione Immagini 1.webp', alt: 'Scheda di classificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di classificazione' },
     samples: [
-      { src: '/samples/english/picture sort/Picture Sort (1).webp', alt: 'Scheda classificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di classificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
-      { src: '/samples/english/picture sort/Picture Sort answer_key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite classificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
+      { src: '/samples/italian/picture sort/Classificazione Immagini 1.webp', alt: 'Scheda classificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di classificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
+      { src: '/samples/italian/picture sort/Classificazione Immagini 1 answer_key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite classificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Come Creare Schede di Classificazione per Categorie — Tutorial Completo',

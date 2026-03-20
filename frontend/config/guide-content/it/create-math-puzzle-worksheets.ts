@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Scheda puzzle matematico con pezzi di immagine mescolati e equazioni matematiche da risolvere per i bambini' },
+    heroImage: { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Scheda puzzle matematico con pezzi di immagine mescolati e equazioni matematiche da risolvere per i bambini' },
     samples: [
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Scheda puzzle matematico a tema animali con griglia di equazioni e frammenti di immagine numerati', caption: 'Scheda puzzle matematico — i bambini risolvono equazioni per determinare dove ogni pezzo di immagine numerato appartiene nella griglia' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Foglio risposte puzzle matematico con immagine ricostruita e equazioni risolte', caption: 'Foglio risposte automatico con l\'immagine ricostruita al 30% di opacità e le equazioni complete risolte' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Scheda puzzle matematico a tema animali con griglia di equazioni e frammenti di immagine numerati', caption: 'Scheda puzzle matematico — i bambini risolvono equazioni per determinare dove ogni pezzo di immagine numerato appartiene nella griglia' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Foglio risposte puzzle matematico con immagine ricostruita e equazioni risolte', caption: 'Foglio risposte automatico con l\'immagine ricostruita al 30% di opacità e le equazioni complete risolte' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Come Creare Schede Puzzle Matematici — Tutorial Completo',

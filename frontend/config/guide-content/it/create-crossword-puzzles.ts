@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Cruciverba per bambini con indizi con immagini che mostra vocabolario tematico in una griglia a incroci' },
+    heroImage: { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba per bambini con indizi con immagini che mostra vocabolario tematico in una griglia a incroci' },
     samples: [
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Cruciverba per bambini a tema animali con griglia numerata e indizi con immagini', caption: 'Cruciverba a tema animali con indizi con immagini per esercizio vocabolario scuola dell\'infanzia e prima elementare' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Foglio risposte cruciverba con griglia completata e tutte le lettere inserite', caption: 'Foglio risposte automatico generato insieme a ogni cruciverba' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba per bambini a tema animali con griglia numerata e indizi con immagini', caption: 'Cruciverba a tema animali con indizi con immagini per esercizio vocabolario scuola dell\'infanzia e prima elementare' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Foglio risposte cruciverba con griglia completata e tutte le lettere inserite', caption: 'Foglio risposte automatico generato insieme a ogni cruciverba' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Come Creare Cruciverba per Bambini — Tutorial Completo',

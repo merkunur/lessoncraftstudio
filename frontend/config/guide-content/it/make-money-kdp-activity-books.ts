@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Scheda di puzzle sudoku che dimostra contenuti per libri di attività KDP per generazione di entrate' },
+    heroImage: { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Scheda di puzzle sudoku che dimostra contenuti per libri di attività KDP per generazione di entrate' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku formattato per pagine interne di libri di attività KDP', caption: 'Puzzle sudoku — una categoria di libri di attività costantemente redditizia su Amazon KDP con acquirenti fedeli che riacquistano' },
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Scheda matematica formattata per pagine interne di quaderni KDP', caption: 'Quaderni di matematica — categoria KDP ad alta domanda con opportunità naturali di espansione del catalogo per livello scolastico' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole per diversificazione del catalogo di libri di puzzle KDP', caption: 'Libri di cerca parole — la più grande categoria di libri di puzzle su Amazon con forte potenziale di entrate da serie multi-volume' },
+      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Puzzle sudoku formattato per pagine interne di libri di attività KDP', caption: 'Puzzle sudoku — una categoria di libri di attività costantemente redditizia su Amazon KDP con acquirenti fedeli che riacquistano' },
+      { src: '/samples/italian/math worksheet/Scheda di Matematica 1.webp', alt: 'Scheda matematica formattata per pagine interne di quaderni KDP', caption: 'Quaderni di matematica — categoria KDP ad alta domanda con opportunità naturali di espansione del catalogo per livello scolastico' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole per diversificazione del catalogo di libri di puzzle KDP', caption: 'Libri di cerca parole — la più grande categoria di libri di puzzle su Amazon con forte potenziale di entrate da serie multi-volume' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Come Creare Libri di Attività Sudoku per Amazon KDP — Tutorial per Costruire Entrate',

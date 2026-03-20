@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione professionale che dimostra la qualità che supporta strategie di prezzo premium' },
+    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione professionale che dimostra la qualità che supporta strategie di prezzo premium' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione con immagini tematiche che supporta un prezzo premium', caption: 'La formattazione professionale e le immagini tematiche giustificano fasce di prezzo più alte — gli acquirenti pagano di più per qualità e appeal visivo' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole che dimostra la differenziazione delle caratteristiche per il pricing', caption: 'I puzzle cerca parole con immagini tematiche hanno prezzi più alti delle versioni base solo testo su tutte le piattaforme' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare che mostra la qualità che supporta prezzi competitivi', caption: 'Pagine da colorare di alta qualità dimostrano come la qualità del prodotto permetta direttamente un prezzo premium nelle categorie competitive' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con immagini tematiche che supporta un prezzo premium', caption: 'La formattazione professionale e le immagini tematiche giustificano fasce di prezzo più alte — gli acquirenti pagano di più per qualità e appeal visivo' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole che dimostra la differenziazione delle caratteristiche per il pricing', caption: 'I puzzle cerca parole con immagini tematiche hanno prezzi più alti delle versioni base solo testo su tutte le piattaforme' },
+      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare che mostra la qualità che supporta prezzi competitivi', caption: 'Pagine da colorare di alta qualità dimostrano come la qualità del prodotto permetta direttamente un prezzo premium nelle categorie competitive' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Come Creare Schede di Matematica Velocemente — Produzione Efficiente per Migliori Margini di Profitto',

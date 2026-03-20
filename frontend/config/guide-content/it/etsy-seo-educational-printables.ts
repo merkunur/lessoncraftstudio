@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch landscape.webp', alt: 'Scheda puzzle cerca parole che mostra un prodotto stampabile educativo multi-parola chiave per ottimizzazione SEO Etsy' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 2.webp', alt: 'Scheda puzzle cerca parole che mostra un prodotto stampabile educativo multi-parola chiave per ottimizzazione SEO Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole a tema animali che dimostra il targeting di parole chiave per tema su Etsy', caption: 'Cerca parole con tema animali — ogni variazione di lingua e tema mira a diverse parole chiave di ricerca Etsy' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda addizione a tema animali che mira a parole chiave Etsy ad alto volume per stampabili matematica', caption: 'Scheda addizione con tema animali — mira a parole chiave di stampabili matematica ad alto volume su Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare animali che mostra strategia parole chiave basata su tema per venditori di stampabili Etsy', caption: 'Pagina da colorare con tema animali — parole chiave specifiche per tema generano traffico mirato dalla ricerca Etsy' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole a tema animali che dimostra il targeting di parole chiave per tema su Etsy', caption: 'Cerca parole con tema animali — ogni variazione di lingua e tema mira a diverse parole chiave di ricerca Etsy' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda addizione a tema animali che mira a parole chiave Etsy ad alto volume per stampabili matematica', caption: 'Scheda addizione con tema animali — mira a parole chiave di stampabili matematica ad alto volume su Etsy' },
+      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare animali che mostra strategia parole chiave basata su tema per venditori di stampabili Etsy', caption: 'Pagina da colorare con tema animali — parole chiave specifiche per tema generano traffico mirato dalla ricerca Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Cerca Parole per SEO Etsy — Strategia Prodotto Multi-Parola Chiave',

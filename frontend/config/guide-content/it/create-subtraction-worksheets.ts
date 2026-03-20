@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Scheda di sottrazione con immagini tematiche barrate che mostra esercizi di togliere per bambini' },
+    heroImage: { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda di sottrazione con immagini tematiche barrate che mostra esercizi di togliere per bambini' },
     samples: [
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Scheda di sottrazione basata su immagini con animali barrati per la scuola dell\'infanzia', caption: 'Scheda di sottrazione per la scuola dell\'infanzia con modalità Barra e immagini tematiche' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Scheda di sottrazione con foglio risposte che mostra le soluzioni corrette', caption: 'Foglio risposte automatico generato insieme a ogni scheda di sottrazione' },
+      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda di sottrazione basata su immagini con animali barrati per la scuola dell\'infanzia', caption: 'Scheda di sottrazione per la scuola dell\'infanzia con modalità Barra e immagini tematiche' },
+      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda di sottrazione con foglio risposte che mostra le soluzioni corrette', caption: 'Foglio risposte automatico generato insieme a ogni scheda di sottrazione' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Come Creare Schede di Sottrazione — Tutorial Completo',

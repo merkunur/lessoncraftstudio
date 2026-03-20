@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Scheda crittogramma con cifrario illustrato che mostra immagini tematiche mappate alle lettere dell\'alfabeto che codificano una frase segreta' },
+    heroImage: { src: '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp', alt: 'Scheda crittogramma con cifrario illustrato che mostra immagini tematiche mappate alle lettere dell\'alfabeto che codificano una frase segreta' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Scheda crittogramma con immagini tematiche che sostituiscono le lettere in una frase segreta codificata', caption: 'Puzzle con cifrario illustrato — decodifica il messaggio segreto identificando quale immagine rappresenta quale lettera' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp', alt: 'Scheda crittogramma con immagini tematiche e suggerimenti Lettere da Rivelare per difficoltà guidata', caption: 'Cifrario tematico con Lettere da Rivelare — le mappature pre-risolte forniscono supporto guidato per i principianti' },
-      { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Chiave di risposta crittogramma con legenda lettere completa che mostra tutte le mappature alfabeto-immagine in ordine', caption: 'Chiave di risposta con legenda lettere — ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata come riferimento di soluzione definitivo' },
+      { src: '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp', alt: 'Scheda crittogramma con immagini tematiche che sostituiscono le lettere in una frase segreta codificata', caption: 'Puzzle con cifrario illustrato — decodifica il messaggio segreto identificando quale immagine rappresenta quale lettera' },
+      { src: '/samples/italian/cryptogram/Crittogramma Illustrato 5.webp', alt: 'Scheda crittogramma con immagini tematiche e suggerimenti Lettere da Rivelare per difficoltà guidata', caption: 'Cifrario tematico con Lettere da Rivelare — le mappature pre-risolte forniscono supporto guidato per i principianti' },
+      { src: '/samples/italian/cryptogram/Crittogramma Illustrato 1 answer_key.webp', alt: 'Chiave di risposta crittogramma con legenda lettere completa che mostra tutte le mappature alfabeto-immagine in ordine', caption: 'Chiave di risposta con legenda lettere — ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata come riferimento di soluzione definitivo' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Come Creare Puzzle Crittogramma con Cifrario Illustrato — Tutorial Passo Passo',

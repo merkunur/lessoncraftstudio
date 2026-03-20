@@ -202,11 +202,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Scheda puzzle cerca parole con griglia di parole a tema adatta per pagine interne di libri puzzle Amazon KDP' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda puzzle cerca parole con griglia di parole a tema adatta per pagine interne di libri puzzle Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole a tema animali formattato per libro puzzle KDP', caption: 'Cerca parole con tema animali — il tipo di puzzle più popolare per libri KDP rivolti sia al mercato adulti che bambini' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Cruciverba con indizi a tema per libro puzzle KDP', caption: 'Cruciverba — aggiunge valore di coinvolgimento sostanziale ai libri puzzle e alle collezioni varietà su Amazon' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku con immagini per libro puzzle varietà per bambini su KDP', caption: 'Sudoku con immagini — puzzle logici visivi che rendono i libri puzzle varietà per bambini più diversificati e coinvolgenti' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole a tema animali formattato per libro puzzle KDP', caption: 'Cerca parole con tema animali — il tipo di puzzle più popolare per libri KDP rivolti sia al mercato adulti che bambini' },
+      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba con indizi a tema per libro puzzle KDP', caption: 'Cruciverba — aggiunge valore di coinvolgimento sostanziale ai libri puzzle e alle collezioni varietà su Amazon' },
+      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Puzzle sudoku con immagini per libro puzzle varietà per bambini su KDP', caption: 'Sudoku con immagini — puzzle logici visivi che rendono i libri puzzle varietà per bambini più diversificati e coinvolgenti' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole per Libri Puzzle Amazon KDP — Tutorial Passo dopo Passo',

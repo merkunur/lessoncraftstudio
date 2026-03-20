@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Scheda di addizione con illustrazioni a tema che mostra problemi matematici basati su immagini per la vendita su Etsy' },
+    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con illustrazioni a tema che mostra problemi matematici basati su immagini per la vendita su Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Scheda di addizione a tema animali creata per inserzione download digitale Etsy', caption: 'Scheda di addizione con tema animali — problemi matematici basati su immagini che creano foto accattivanti per le inserzioni Etsy' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Scheda di sottrazione che complementa i prodotti di addizione in un negozio Etsy di schede di matematica', caption: 'Scheda di sottrazione — complemento naturale per il cross-sell con le inserzioni di addizione nel tuo negozio Etsy' },
-      { src: '/samples/english/math puzzle/Math Puzzles (1).webp', alt: 'Scheda puzzle matematico a griglia che mostra un formato unico che differenzia le inserzioni Etsy', caption: 'Puzzle matematico a griglia — formato unico con meno concorrenza Etsy rispetto alle schede standard' },
+      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione a tema animali creata per inserzione download digitale Etsy', caption: 'Scheda di addizione con tema animali — problemi matematici basati su immagini che creano foto accattivanti per le inserzioni Etsy' },
+      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 2.webp', alt: 'Scheda di sottrazione che complementa i prodotti di addizione in un negozio Etsy di schede di matematica', caption: 'Scheda di sottrazione — complemento naturale per il cross-sell con le inserzioni di addizione nel tuo negozio Etsy' },
+      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Scheda puzzle matematico a griglia che mostra un formato unico che differenzia le inserzioni Etsy', caption: 'Puzzle matematico a griglia — formato unico con meno concorrenza Etsy rispetto alle schede standard' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede di Addizione per Vendere su Etsy — Tutorial Passo-Passo',

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole con indizi con immagini tematiche che mostra parole di vocabolario nascoste in una griglia di lettere' },
+    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole con indizi con immagini tematiche che mostra parole di vocabolario nascoste in una griglia di lettere' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Puzzle cerca parole con indizi con immagini a tema animali per bambini', caption: 'Puzzle cerca parole tematico con Modalità Vocabolario con indizi con immagini di animali e dimensione della griglia configurabile' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Foglio risposte cerca parole con evidenziazione parole a codice colore', caption: 'Foglio risposte con codice colore dove ogni parola nascosta è evidenziata in un colore distinto per una facile correzione' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole con indizi con immagini a tema animali per bambini', caption: 'Puzzle cerca parole tematico con Modalità Vocabolario con indizi con immagini di animali e dimensione della griglia configurabile' },
+      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Foglio risposte cerca parole con evidenziazione parole a codice colore', caption: 'Foglio risposte con codice colore dove ogni parola nascosta è evidenziata in un colore distinto per una facile correzione' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole — Tutorial Completo',

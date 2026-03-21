@@ -751,7 +751,7 @@ export function generateVideoSchema(params: {
     name: params.name,
     description: params.description,
     thumbnailUrl: params.thumbnailUrl || `https://img.youtube.com/vi/${params.youtubeId}/maxresdefault.jpg`,
-    uploadDate: '2026-02-01',
+    uploadDate: '2026-02-01T00:00:00+00:00',
     contentUrl: `https://www.youtube.com/watch?v=${params.youtubeId}`,
     embedUrl: `https://www.youtube-nocookie.com/embed/${params.youtubeId}`,
   };

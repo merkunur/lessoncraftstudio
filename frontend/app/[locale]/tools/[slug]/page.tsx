@@ -27,6 +27,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
 const toolToWpApp: Record<string, string> = {
   'word-search': 'wordsearch',
   'image-addition': 'addition',
+  'image-subtraction': 'subtraction',
   'matching-app': 'matching',
   'picture-bingo': 'bingo',
   'big-small-app': 'big-small',

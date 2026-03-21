@@ -26,6 +26,81 @@ for (const app of productPageSlugs) {
   legacyAppIdToLocalizedSlugs.set(app.appId, localeToSlug);
 }
 
+// Also add WarriorPlus appIds so /en/apps/wordsearch → /en/apps/word-search-worksheets
+const wpToSlugApp: Record<string, string> = {
+  'wordsearch': 'word-search',
+  'addition': 'image-addition',
+  'matching': 'matching-app',
+  'bingo': 'picture-bingo',
+  'big-small': 'big-small-app',
+  'chart-count': 'chart-count-color',
+  'crossword': 'image-crossword',
+  'cryptogram': 'image-cryptogram',
+  'writing': 'writing-app',
+};
+for (const [wpId, slugId] of Object.entries(wpToSlugApp)) {
+  const slugs = legacyAppIdToLocalizedSlugs.get(slugId);
+  if (slugs) legacyAppIdToLocalizedSlugs.set(wpId, slugs);
+}
+
+// Broken/alternate app slugs → correct slug-config appId
+// Covers all 404 URLs found by broken link checker
+const brokenAppSlugToAppId: Record<string, string> = {
+  // EN broken slugs
+  'big-and-small-worksheets': 'big-small-app',
+  'big-and-small': 'big-small-app',
+  'wordsearch-worksheets': 'word-search',
+  'hidden-objects': 'find-objects',
+  'hidden-object-worksheets': 'find-objects',
+  'more-or-less-worksheets': 'more-less',
+  'handwriting-worksheets': 'writing-app',
+  'bingo-worksheets': 'picture-bingo',
+  'pattern-worksheet-worksheets': 'pattern-worksheet',
+  'maze': 'picture-path',
+  'find-count': 'find-and-count',
+  // DE broken slugs
+  'ausmalbilder-arbeitsblaetter': 'coloring',
+  'versteckte-objekte-arbeitsblaetter': 'find-objects',
+  'labyrinth-arbeitsblaetter': 'picture-path',
+  'muster-raster-arbeitsblaetter': 'pattern-worksheet',
+  'zaehlen-finden-arbeitsblaetter': 'find-and-count',
+  'kryptogramm-arbeitsblaetter': 'image-cryptogram',
+  'kreuzwortraetsel-arbeitsblaetter': 'image-crossword',
+  'additions-arbeitsblaetter': 'image-addition',
+  'sudoku-arbeitsblaetter': 'sudoku',
+  // ES broken slugs
+  'fichas-matematicas': 'math-puzzle',
+  'puzzles-matematicos-fichas': 'math-puzzle',
+  'sudoku-fichas': 'sudoku',
+  'colorear-fichas': 'coloring',
+  'sopas-letras-fichas': 'word-search',
+  // PT broken slugs
+  'fichas-matematica': 'math-worksheet',
+  'fichas-adicao': 'image-addition',
+  'soma-fichas': 'image-addition',
+  'fichas-caligrafia': 'writing-app',
+  'fichas-comboio-alfabeto': 'alphabet-train',
+  'comboio-alfabeto-fichas': 'alphabet-train',
+  'comboio-padroes-fichas': 'pattern-train',
+  'palavras-cruzadas-fichas': 'image-crossword',
+  'letras-embaralhadas-fichas': 'word-scramble',
+  'associacao-fichas': 'matching-app',
+  'lectoescrita-fichas': 'writing-app',
+  'desenho-fichas': 'draw-and-color',
+  'desenho-quadricula-fichas': 'draw-and-color',
+  'grafomotricidade-fichas': 'drawing-lines',
+  'labirintos-imagens-fichas': 'picture-path',
+  // IT broken slugs
+  'puzzle-griglia-schede': 'grid-match',
+  'disegni-colorare-schede': 'coloring',
+};
+for (const [brokenSlug, appId] of Object.entries(brokenAppSlugToAppId)) {
+  const slugs = legacyAppIdToLocalizedSlugs.get(appId);
+  if (slugs && !legacyAppIdToLocalizedSlugs.has(brokenSlug)) {
+    legacyAppIdToLocalizedSlugs.set(brokenSlug, slugs);
+  }
+}
+
 // Build English slug → app slugs map for English-to-localized redirects
 // This redirects /de/apps/addition-worksheets → /de/apps/addition-arbeitsblaetter
 const englishSlugToAppSlugs = new Map<string, Record<string, string>>();
@@ -151,6 +226,120 @@ for (const idea of ideaPageSlugs) {
     if (slug) anySlugToIdeaSlugs.set(slug, localeToSlug);
   }
 }
+
+// Broken guide slugs → correct guideId (covers all 404s from broken link checker)
+const brokenGuideSlugToGuideId = new Map<string, string>([
+  // EN broken guide slugs
+  ['create-handwriting-worksheets', 'create-handwriting-sheets'],
+  ['create-handwriting-practice-sheets', 'create-handwriting-sheets'],
+  ['create-word-search-worksheets', 'create-word-search-puzzles'],
+  ['create-pattern-train-worksheets', 'create-pattern-worksheets'],
+  ['create-big-and-small-worksheets', 'create-size-comparison-worksheets'],
+  ['create-coloring-worksheets', 'create-coloring-pages'],
+  ['create-more-or-less-worksheets', 'create-size-comparison-worksheets'],
+  ['create-alphabet-train-worksheets', 'create-alphabet-worksheets'],
+  ['create-picture-path-worksheets', 'create-maze-worksheets'],
+  ['create-missing-pieces-worksheets', 'create-missing-pieces-puzzles'],
+  ['create-odd-one-out-worksheets', 'create-odd-one-out-puzzles'],
+  ['create-pattern-recognition-worksheets', 'create-pattern-worksheets'],
+  ['create-drawing-lines-worksheets', 'create-drawing-worksheets'],
+  ['create-find-and-count-worksheets', 'create-counting-worksheets'],
+  ['create-word-guess-worksheets', 'create-preposition-worksheets'],
+  ['create-word-scramble-worksheets', 'create-cryptogram-puzzles'],
+  ['create-picture-sudoku-worksheets', 'create-picture-sudoku'],
+  ['create-grid-match-puzzles', 'create-missing-pieces-puzzles'],
+  ['create-comparison-worksheets', 'create-size-comparison-worksheets'],
+  ['create-puzzle-worksheets', 'create-missing-pieces-puzzles'],
+  ['sell-language-worksheets-etsy', 'sell-word-search-etsy'],
+  ['sell-alphabet-worksheets-etsy', 'sell-word-search-etsy'],
+  ['maze-books-kdp', 'publish-puzzle-books-kdp'],
+  ['printable-business-income', 'passive-income-worksheets'],
+  // DE broken guide slugs
+  ['sprach-arbeitsblaetter-verkaufen-etsy', 'sell-word-search-etsy'],
+  ['vergleichs-arbeitsblaetter-erstellen', 'create-size-comparison-worksheets'],
+  ['linien-ziehen-arbeitsblaetter-erstellen', 'create-drawing-worksheets'],
+  ['alphabet-zug-arbeitsblaetter-erstellen', 'create-alphabet-worksheets'],
+  ['woerter-raten-arbeitsblaetter-erstellen', 'create-preposition-worksheets'],
+  ['create-word-guess-worksheets', 'create-preposition-worksheets'],
+  ['create-word-scramble-worksheets', 'create-cryptogram-puzzles'],
+  // FR broken guide slugs
+  ['croissance-activite-imprimables', 'scale-printable-business-guide'],
+  ['plan-activite-imprimables', 'niche-selection-printables'],
+  // ES broken guide slugs
+  ['ingresos-negocio-imprimibles', 'passive-income-worksheets'],
+  ['crear-fichas-multilingues', 'worksheets-multiple-languages'],
+  // PT broken guide slugs
+  ['rendimentos-negocio-imprimiveis', 'passive-income-worksheets'],
+  ['criar-sopas-letras', 'create-word-search-puzzles'],
+  ['criar-fichas-correspondencia', 'create-matching-worksheets'],
+  ['criar-fichas-sopa-letras', 'create-word-search-puzzles'],
+  ['criar-fichas-multilingues', 'worksheets-multiple-languages'],
+  ['criar-fichas-grafomotricidade', 'create-drawing-worksheets'],
+  ['criar-fichas-caligrafia', 'create-handwriting-sheets'],
+  ['criar-fichas-comboio-padroes', 'create-pattern-worksheets'],
+  ['criar-fichas-buscar-contar', 'create-counting-worksheets'],
+  ['criar-cartoes-bingo', 'create-bingo-cards'],
+  ['ganhar-dinheiro-livros-atividades-kdp', 'make-money-kdp-activity-books'],
+  ['kdp-vs-etsy-imprimiveis', 'kdp-vs-etsy-printables'],
+  ['livros-sopas-letras-kdp', 'word-search-books-kdp'],
+]);
+
+// Broken tool slugs → correct toolId
+const brokenToolSlugToToolId = new Map<string, string>([
+  // EN
+  ['addition-maker', 'image-addition'],
+  ['image-subtraction', 'image-subtraction'],
+  ['subtraction-worksheet-maker', 'image-subtraction'],
+  // DE
+  ['bilder-bingo-ersteller', 'bingo'],
+  ['mathe-raetsel-arbeitsblatt-ersteller', 'math-puzzle'],
+  ['mehr-weniger-arbeitsblatt-ersteller', 'more-less'],
+  ['schattenbilder-zuordnen-ersteller', 'shadow-match'],
+  ['gross-und-klein-ersteller', 'big-small'],
+  ['sudoku-ersteller', 'sudoku'],
+  ['kreuzwortraetsel-ersteller', 'crossword'],
+  ['bilder-additions-arbeitsblatt-ersteller', 'image-addition'],
+  ['bildkryptogramm-ersteller', 'cryptogram'],
+  // ES
+  ['generador-fichas-emparejamiento', 'matching'],
+  ['generador-encuentra-diferente', 'odd-one-out'],
+  ['generador-sopas-letras', 'word-search'],
+  ['generador-fichas-sombras', 'shadow-match'],
+  ['generador-fichas-clasificacion', 'picture-sort'],
+  ['generador-fichas-cuadricula', 'grid-match'],
+  ['generador-fichas-piezas-faltantes', 'missing-pieces'],
+  ['generador-buscar-contar', 'find-and-count'],
+  ['generador-buscar-objetos', 'find-objects'],
+  ['generador-cuadricula-correspondencias', 'grid-match'],
+  ['generador-cuadricula-parejas', 'grid-match'],
+  ['generador-fichas-relacionar', 'matching'],
+  ['generador-fichas-parejas', 'matching'],
+  ['generador-letras-revueltas', 'word-scramble'],
+  ['generador-fichas-matematicas', 'math-worksheet'],
+  ['generador-rompecabezas-matematicos', 'math-puzzle'],
+  ['generador-laberinto-imagenes', 'picture-path'],
+  ['generador-emparejamiento', 'matching'],
+  ['generador-asociacion-sombras', 'shadow-match'],
+  ['generador-crucigramas', 'crossword'],
+  ['creador-fichas-suma', 'image-addition'],
+  ['creador-fichas-resta', 'image-subtraction'],
+  ['creador-fichas-comparacion', 'more-less'],
+  ['creador-suma-codificada', 'code-addition'],
+  ['generador-fichas-resta', 'image-subtraction'],
+  // PT
+  ['gerador-encontra-conta', 'find-and-count'],
+  ['gerador-encontra-objetos', 'find-objects'],
+  ['gerador-busca-objetos', 'find-objects'],
+  ['gerador-fichas-colorir', 'coloring'],
+  ['gerador-fichas-desenho', 'draw-and-color'],
+  ['gerador-cartoes-bingo', 'bingo'],
+  ['criador-comboio-alfabeto', 'alphabet-train'],
+  ['gerador-sudoku', 'sudoku'],
+  ['gerador-fichas-subtracao', 'image-subtraction'],
+  ['gerador-palavras-cruzadas-imagens', 'crossword'],
+  // IT
+  ['generatore-schede-sottrazione', 'image-subtraction'],
+]);
 
 /**
  * Parse Accept-Language header to detect user's preferred language
@@ -396,6 +585,18 @@ export default function middleware(request: NextRequest) {
   if (toolsMatch) {
     const [, locale, slug] = toolsMatch;
 
+    // Broken tool slug → correct tool redirect
+    const brokenToolTarget = brokenToolSlugToToolId.get(slug);
+    if (brokenToolTarget) {
+      const targetSlugs = legacyToolIdToLocalizedSlugs.get(brokenToolTarget);
+      if (targetSlugs) {
+        const targetSlug = targetSlugs[locale] || targetSlugs['en'];
+        if (targetSlug && targetSlug !== slug) {
+          return NextResponse.redirect(new URL(`/${locale}/tools/${targetSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+
     const localizedSlugs = legacyToolIdToLocalizedSlugs.get(slug);
     if (localizedSlugs) {
       const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
@@ -430,6 +631,14 @@ export default function middleware(request: NextRequest) {
   const bundlesMatch = pathname.match(/^\/([a-z]{2})\/bundles\/([a-z0-9-]+)$/);
   if (bundlesMatch) {
     const [, locale, slug] = bundlesMatch;
+    // Broken bundle slug redirect
+    if (slug === 'pacote-busca-descobre') {
+      const searchSlugs = legacyBundleIdToLocalizedSlugs.get('search-bundle');
+      if (searchSlugs) {
+        const targetSlug = searchSlugs[locale] || searchSlugs['en'];
+        if (targetSlug) return NextResponse.redirect(new URL(`/${locale}/bundles/${targetSlug}`, request.url), { status: 301 });
+      }
+    }
     const localizedSlugs = legacyBundleIdToLocalizedSlugs.get(slug);
     if (localizedSlugs) {
       const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];
@@ -488,6 +697,26 @@ export default function middleware(request: NextRequest) {
   const guidesMatch = pathname.match(/^\/([a-z]{2})\/guides\/([a-z0-9-]+)$/);
   if (guidesMatch) {
     const [, locale, slug] = guidesMatch;
+
+    // Cross-route redirect: start page slugs accessed under /guides/ → /start/
+    const startSlugsForGuide = anySlugToStartSlugs.get(slug) || legacyStartIdToLocalizedSlugs.get(slug);
+    if (startSlugsForGuide) {
+      const targetSlug = startSlugsForGuide[locale] || startSlugsForGuide['en'] || slug;
+      return NextResponse.redirect(new URL(`/${locale}/start/${targetSlug}`, request.url), { status: 301 });
+    }
+
+    // Broken guide slugs → correct guide slugs (redirect map)
+    const brokenGuideTarget = brokenGuideSlugToGuideId.get(slug);
+    if (brokenGuideTarget) {
+      const targetSlugs = legacyGuideIdToLocalizedSlugs.get(brokenGuideTarget);
+      if (targetSlugs) {
+        const targetSlug = targetSlugs[locale] || targetSlugs['en'];
+        if (targetSlug) {
+          return NextResponse.redirect(new URL(`/${locale}/guides/${targetSlug}`, request.url), { status: 301 });
+        }
+      }
+    }
+
     const localizedSlugs = legacyGuideIdToLocalizedSlugs.get(slug);
     if (localizedSlugs) {
       const targetSlug = localizedSlugs[locale] || localizedSlugs['en'];

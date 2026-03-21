@@ -817,6 +817,7 @@ export default async function AppDetailPage({
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightNotice: '© LessonCraftStudio',
               }))
             ) }}
           />

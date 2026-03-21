@@ -306,6 +306,7 @@ export default async function IdeaPage({
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightNotice: '© LessonCraftStudio',
               }))
             ) }}
           />

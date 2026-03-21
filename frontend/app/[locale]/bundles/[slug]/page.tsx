@@ -196,6 +196,7 @@ export default async function BundlePage({
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightNotice: '© LessonCraftStudio',
               }))
             ) }}
           />

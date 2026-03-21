@@ -313,6 +313,7 @@ export default async function ToolPage({
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightNotice: '© LessonCraftStudio',
               }))
             ) }}
           />

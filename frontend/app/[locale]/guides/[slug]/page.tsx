@@ -72,7 +72,15 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-        images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        images: [
+          { url: `${baseUrl}/api/og?locale=${locale}&type=guide&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
+          ...(content?.visuals?.samples?.slice(0, 3).map((img: { src: string; alt: string }) => ({
+            url: `${baseUrl}${encodeImagePath(img.src)}`,
+            width: 400,
+            height: 566,
+            alt: img.alt,
+          })) || []),
+        ],
         videos: content?.visuals?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.visuals.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
@@ -179,6 +187,32 @@ export default async function GuidePage({
             })) }}
           />
         )}
+        {(() => {
+          const allImages = [
+            ...(content.visuals?.samples || []),
+            ...(content.themeImages || []),
+          ];
+          return allImages.length > 0 ? (
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(
+                allImages.slice(0, 6).map(img => ({
+                  '@context': 'https://schema.org',
+                  '@type': 'ImageObject',
+                  contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+                  name: img.alt,
+                  caption: img.caption || img.alt,
+                  encodingFormat: 'image/webp',
+                  license: `${baseUrl}/${locale}/license`,
+                  acquireLicensePage: pageUrl,
+                  creditText: 'LessonCraftStudio',
+                  creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                  copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                }))
+              ) }}
+            />
+          ) : null;
+        })()}
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

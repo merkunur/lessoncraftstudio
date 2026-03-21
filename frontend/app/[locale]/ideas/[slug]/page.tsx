@@ -190,7 +190,15 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-        images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        images: [
+          { url: `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
+          ...(content?.themeImages?.slice(0, 3).map((img: { src: string; alt: string }) => ({
+            url: `${baseUrl}${encodeImagePath(img.src)}`,
+            width: 400,
+            height: 566,
+            alt: img.alt,
+          })) || []),
+        ],
         videos: content?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
@@ -280,6 +288,26 @@ export default async function IdeaPage({
               description: content.seo?.metaDescription || content.hero.description,
               youtubeId: content.youtubeId,
             })) }}
+          />
+        )}
+        {content.themeImages && content.themeImages.length > 0 && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(
+              content.themeImages.slice(0, 6).map(img => ({
+                '@context': 'https://schema.org',
+                '@type': 'ImageObject',
+                contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+                name: img.alt,
+                caption: img.caption || img.alt,
+                encodingFormat: 'image/webp',
+                license: `${baseUrl}/${locale}/license`,
+                acquireLicensePage: pageUrl,
+                creditText: 'LessonCraftStudio',
+                creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+                copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+              }))
+            ) }}
           />
         )}
         {/* Hero */}

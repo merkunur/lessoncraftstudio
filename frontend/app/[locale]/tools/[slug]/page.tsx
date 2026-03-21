@@ -119,7 +119,15 @@ export async function generateMetadata({
         siteName: 'LessonCraftStudio',
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-        images: [{ url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        images: [
+          { url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
+          ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
+            url: `${baseUrl}${encodeImagePath(img.src)}`,
+            width: 400,
+            height: 566,
+            alt: img.alt,
+          })) || []),
+        ],
         videos: content?.visuals?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.visuals.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {

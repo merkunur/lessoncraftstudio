@@ -9,7 +9,7 @@ import {
   getIdeaSlugForLocale,
 } from '@/config/idea-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
@@ -191,6 +191,7 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        videos: content?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
         card: 'summary_large_image',
@@ -271,6 +272,16 @@ export default async function IdeaPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
+        {content?.youtubeId && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(generateVideoSchema({
+              name: content.videoTitle || content.hero.title,
+              description: content.seo?.metaDescription || content.hero.description,
+              youtubeId: content.youtubeId,
+            })) }}
+          />
+        )}
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-amber-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

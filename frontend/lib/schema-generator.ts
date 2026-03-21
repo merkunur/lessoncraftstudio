@@ -734,3 +734,25 @@ export function generateStaticPageSchemas(input: {
 
   return schemas;
 }
+
+/**
+ * Generate VideoObject JSON-LD schema for pages with embedded YouTube videos.
+ * Used across all 6 page types (apps, tools, guides, bundles, ideas, starts).
+ */
+export function generateVideoSchema(params: {
+  name: string;
+  description: string;
+  youtubeId: string;
+  thumbnailUrl?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: params.name,
+    description: params.description,
+    thumbnailUrl: params.thumbnailUrl || `https://img.youtube.com/vi/${params.youtubeId}/maxresdefault.jpg`,
+    uploadDate: '2026-02-01',
+    contentUrl: `https://www.youtube.com/watch?v=${params.youtubeId}`,
+    embedUrl: `https://www.youtube-nocookie.com/embed/${params.youtubeId}`,
+  };
+}

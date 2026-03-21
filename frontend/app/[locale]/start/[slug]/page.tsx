@@ -9,7 +9,7 @@ import {
   getStartSlugForLocale,
 } from '@/config/start-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
@@ -73,6 +73,7 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [{ url: `${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        videos: content?.visuals?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.visuals.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
         card: 'summary_large_image',
@@ -168,6 +169,16 @@ export default async function CornerstonePage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
         />
+        {content?.visuals?.youtubeId && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(generateVideoSchema({
+              name: content.visuals.videoTitle || content.hero.title,
+              description: content.seo?.metaDescription || content.hero.description,
+              youtubeId: content.visuals.youtubeId,
+            })) }}
+          />
+        )}
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

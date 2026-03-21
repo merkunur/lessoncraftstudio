@@ -8,7 +8,7 @@ import {
   getSlugForLocale,
 } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, generateVideoSchema } from '@/lib/schema-generator';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
 import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
@@ -616,6 +616,7 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [{ url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        videos: content?.visuals?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.visuals.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
         card: 'summary_large_image',
@@ -810,6 +811,16 @@ export default async function AppDetailPage({
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
               }))
             ) }}
+          />
+        )}
+        {content.visuals.youtubeId && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(generateVideoSchema({
+              name: content.visuals.videoTitle || `${localizedName} ${localizedSuffix}`,
+              description: desc,
+              youtubeId: content.visuals.youtubeId,
+            })) }}
           />
         )}
 

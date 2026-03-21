@@ -9,7 +9,7 @@ import {
   getToolSlugForLocale,
 } from '@/config/tool-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode, localizedHomeLabel } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema } from '@/lib/schema-generator';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
@@ -120,6 +120,7 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [{ url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title }],
+        videos: content?.visuals?.youtubeId ? [{ url: `https://www.youtube.com/watch?v=${content.visuals.youtubeId}`, type: 'text/html', width: 1280, height: 720 }] : undefined,
       },
       twitter: {
         card: 'summary_large_image',
@@ -274,6 +275,17 @@ export default async function ToolPage({
         {schemas.map((schema, i) => (
           <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
         ))}
+        {/* VideoObject schema */}
+        {content.visuals?.youtubeId && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(generateVideoSchema({
+              name: content.visuals.videoTitle || content.hero.title,
+              description: content.seo?.metaDescription || content.hero.description,
+              youtubeId: content.visuals.youtubeId,
+            })) }}
+          />
+        )}
         {/* ImageObject schema with license markup (Google Licensable badge) */}
         {content.visuals?.sampleGallery && content.visuals.sampleGallery.length > 0 && (
           <script

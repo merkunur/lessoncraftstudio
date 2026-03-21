@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'more-or-less-worksheets',
+      slug: 'more-less-worksheets',
       anchorText: 'More or Less Worksheet Generator',
     },
     {

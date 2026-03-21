@@ -216,7 +216,7 @@ const content: StartContent = {
     { pageType: 'start', slug: 'printable-business-income', anchorText: 'Printable Business Income: Realistic Expectations' },
     { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'Essential Tools for Printable Business Owners' },
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
-    { pageType: 'app', slug: 'bingo-worksheets', anchorText: 'Bingo Card Generator — Full Details' },
+    { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Card Generator — Full Details' },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
     { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Try the Bingo Card Maker' },
   ],

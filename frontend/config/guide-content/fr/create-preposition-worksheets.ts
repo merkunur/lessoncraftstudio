@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-alphabet-train-worksheets',
+      slug: 'creer-fiches-alphabet',
       title: 'Créer des fiches de train alphabet',
       description: 'Un complément d\'alphabétisation aux fiches de prépositions. Les fiches de train alphabet utilisent des paires d\'association lettre-image avec des arrangements spatiaux, développant à la fois la reconnaissance des lettres et le vocabulaire spatial ensemble.',
     },
     {
-      slug: 'create-word-guess-worksheets',
+      slug: 'creer-fiches-prepositions',
       title: 'Créer des fiches de devinettes de mots',
       description: 'Un complément linguistique pour l\'enrichissement du vocabulaire. Les élèves qui apprennent les prépositions spatiales peuvent élargir davantage leur vocabulaire avec des puzzles de devinettes de mots qui testent les connaissances lexicales à travers des indices visuels.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Un complément d\'association visuelle qui se marie avec les fiches de prépositions. Les activités d\'association développent les mêmes compétences de conscience spatiale et de comparaison visuelle utilisées dans les exercices de scènes de prépositions.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide de licence commerciale' },
-    { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Générateur de Fiches de Prépositions — Détails complets' },
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Générateur de Fiches de Train Alphabet — Détails complets' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Essayer le Générateur de Fiches de Prépositions' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide de licence commerciale' },
+    { pageType: 'app', slug: 'prepositions-exercices-fiches', anchorText: 'Générateur de Fiches de Prépositions — Détails complets' },
+    { pageType: 'app', slug: 'train-alphabet-fiches', anchorText: 'Générateur de Fiches de Train Alphabet — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Essayer le Générateur de Fiches de Prépositions' },
   ],
 
   toolsRecommended: [

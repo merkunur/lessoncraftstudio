@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'La guida TPT per principianti che copre configurazione account, creazione risorse, confezionamento file, nozioni base inserzioni, prezzi e lancio delle prime risorse sul marketplace per insegnanti.',
     },
     {
-      slug: 'seo-etsy-stampabili-educativi',
+      slug: 'seo-etsy-materiale-didattico',
       title: 'SEO Etsy per Stampabili Educativi',
       description: 'Strategie di ottimizzazione SEO per venditori Etsy. Molti principi di ottimizzazione TPT si traducono su Etsy con aggiustamenti specifici per tag, titoli e descrizioni.',
     },
@@ -157,11 +157,11 @@ const content: GuideContent = {
   internalLinks: [
     { pageType: 'guide', slug: 'creare-vendere-risorse-tpt', anchorText: 'Come Creare e Vendere Risorse TPT' },
     { pageType: 'guide', slug: 'vendere-schede-matematica-etsy', anchorText: 'Come Vendere Schede di Matematica su Etsy' },
-    { pageType: 'guide', slug: 'aprire-negozio-stampabili-etsy', anchorText: 'Come Aprire un Negozio di Stampabili su Etsy da Zero' },
+    { pageType: 'guide', slug: 'aprire-negozio-etsy-stampabili', anchorText: 'Come Aprire un Negozio di Stampabili su Etsy da Zero' },
     { pageType: 'guide', slug: 'kdp-o-etsy-stampabili', anchorText: 'Amazon KDP vs Etsy: Dove Vendere Stampabili' },
-    { pageType: 'guide', slug: 'seo-etsy-stampabili-educativi', anchorText: 'SEO Etsy per Stampabili Educativi' },
+    { pageType: 'guide', slug: 'seo-etsy-materiale-didattico', anchorText: 'SEO Etsy per Stampabili Educativi' },
     { pageType: 'guide', slug: 'prezzi-stampabili-etsy', anchorText: 'Come Stabilire i Prezzi dei Tuoi Stampabili su Etsy' },
-    { pageType: 'guide', slug: 'creare-bundle-schede-etsy', anchorText: 'Come Creare Bundle di Schede per Etsy' },
+    { pageType: 'guide', slug: 'creare-pacchetti-schede-etsy', anchorText: 'Come Creare Bundle di Schede per Etsy' },
     { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: 'Come Creare Puzzle Cerca Parole con Immagini' },
     { pageType: 'guide', slug: 'creare-schede-addizione', anchorText: 'Come Creare Schede di Addizione per Bambini' },
     { pageType: 'guide', slug: 'creare-cruciverba', anchorText: 'Come Creare Cruciverba per Bambini' },

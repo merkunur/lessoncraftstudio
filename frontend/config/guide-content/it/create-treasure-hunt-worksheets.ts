@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-hidden-object-worksheets',
+      slug: 'creare-schede-oggetti-nascosti',
       title: 'Creare Schede Oggetti Nascosti',
       description: 'Un complemento di ricerca visiva alle cacce al tesoro. Le schede oggetti nascosti chiedono agli studenti di scansionare scene per trovare oggetti specifici, esercitando competenze correlate di ricerca visiva e osservazione.',
     },
     {
-      slug: 'create-maze-worksheets',
+      slug: 'creare-schede-labirinti',
       title: 'Creare Schede Labirinti',
       description: 'Un cugino di ricerca del percorso delle cacce al tesoro. Le schede labirinti sviluppano competenze correlate di navigazione spaziale dove gli studenti tracciano percorsi attraverso passaggi, complementando il movimento direzionale basato su griglia delle cacce al tesoro.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creare-schede-abbinamento',
       title: 'Creare Schede di Abbinamento',
       description: 'Un complemento visivo dove gli studenti collegano elementi correlati. Le schede di abbinamento sviluppano il riconoscimento visivo e la consapevolezza spaziale che integra la pratica di lettura della griglia di coordinate nelle cacce al tesoro.',
     },

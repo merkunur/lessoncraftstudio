@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-find-and-count-worksheets',
+      slug: 'zaehl-arbeitsblaetter-erstellen',
       title: 'Zählen-und-Finden-Arbeitsblätter erstellen',
       description: 'Der natürliche Begleiter zu Suchbilder-Szenen. Zählen und Finden kombiniert visuelle Suche mit Zählübungen für ein Arbeitsblatt-Produkt mit doppeltem Lerneffekt.',
     },
     {
-      slug: 'create-picture-path-worksheets',
+      slug: 'labyrinth-arbeitsblaetter-erstellen',
       title: 'Bilderpfad-Labyrinth-Arbeitsblätter erstellen',
       description: 'Ein weiteres visuelles Suchformat, bei dem Kinder durch thematische Bilderlabyrinthe navigieren. Erweitert Ihre Such-und-Finde-Produktlinie in die Labyrinth-Kategorie.',
     },

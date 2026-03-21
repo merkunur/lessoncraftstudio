@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'The natural classification companion to sorting. Matching worksheets pair related images, complementing the category sorting format for a complete classification product line.',
     },
     {
-      slug: 'create-odd-one-out-worksheets',
+      slug: 'create-odd-one-out-puzzles',
       title: 'Create Odd One Out Worksheets',
       description: 'Another classification skill cousin. Odd One Out worksheets ask students to identify items that do not belong, reinforcing the same categorization skills as sorting.',
     },

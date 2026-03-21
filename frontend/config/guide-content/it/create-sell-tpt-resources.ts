@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'tpt-store-optimization',
+      slug: 'ottimizzazione-negozio-tpt',
       title: 'Guida alla Configurazione e Ottimizzazione del Negozio TPT',
       description: 'Ottimizzazione avanzata TPT che copre branding del negozio, strategia dell\'algoritmo di ricerca, generazione di recensioni, pianificazione stagionale e scalare la tua presenza TPT per ricavi mensili costanti.',
     },
     {
-      slug: 'kdp-vs-etsy-printables',
+      slug: 'kdp-o-etsy-stampabili',
       title: 'Amazon KDP vs Etsy: Dove Vendere i Tuoi Stampabili',
       description: 'Confronto diretto tra le altre due principali piattaforme per venditori di stampabili. Strutture tariffarie, formati prodotto, meccaniche di traffico e strategia multi-piattaforma.',
     },
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale al business che copre creazione di contenuti, licenze commerciali, strategia multi-piattaforma e costruzione di un\'attività di stampabili sostenibile da zero.',
     },
@@ -157,11 +157,11 @@ const content: GuideContent = {
   internalLinks: [
     { pageType: 'guide', slug: 'ottimizzazione-negozio-tpt', anchorText: 'Guida alla Configurazione e Ottimizzazione del Negozio TPT' },
     { pageType: 'guide', slug: 'vendere-schede-matematica-etsy', anchorText: 'Come Vendere Schede di Matematica su Etsy' },
-    { pageType: 'guide', slug: 'aprire-negozio-stampabili-etsy', anchorText: 'Come Aprire un Negozio di Stampabili su Etsy da Zero' },
+    { pageType: 'guide', slug: 'aprire-negozio-etsy-stampabili', anchorText: 'Come Aprire un Negozio di Stampabili su Etsy da Zero' },
     { pageType: 'guide', slug: 'kdp-o-etsy-stampabili', anchorText: 'Amazon KDP vs Etsy: Dove Vendere i Tuoi Stampabili' },
-    { pageType: 'guide', slug: 'creare-bundle-schede-etsy', anchorText: 'Come Creare Bundle di Schede su Etsy' },
+    { pageType: 'guide', slug: 'creare-pacchetti-schede-etsy', anchorText: 'Come Creare Bundle di Schede su Etsy' },
     { pageType: 'guide', slug: 'prezzi-stampabili-etsy', anchorText: 'Come Stabilire i Prezzi dei Tuoi Stampabili su Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-stampabili-educativi', anchorText: 'SEO Etsy per Stampabili Educativi' },
+    { pageType: 'guide', slug: 'seo-etsy-materiale-didattico', anchorText: 'SEO Etsy per Stampabili Educativi' },
     { pageType: 'guide', slug: 'libri-attivita-matematica-kdp', anchorText: 'Come Creare Libri di Attività di Matematica per Amazon KDP' },
     { pageType: 'guide', slug: 'creare-schede-addizione', anchorText: 'Come Creare Schede di Addizione per Bambini' },
     { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: 'Come Creare Puzzle Cerca Parole con Immagini' },

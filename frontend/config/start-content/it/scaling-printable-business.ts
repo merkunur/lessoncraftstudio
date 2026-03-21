@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'­Attività di Stampabili',
       description: 'La guida fondamentale completa che copre selezione della nicchia, creazione del prodotto, confronto piattaforme, strategia dei prezzi e costruzione del catalogo per tutti i marketplace di stampabili.',
     },
     {
-      slug: 'marketing-printable-business',
+      slug: 'marketing-attivita-stampabili',
       title: 'Marketing della Tua Attività di Stampabili Online',
       description: 'Strategie di marketing comprovate per ogni canale: SEO piattaforma, Pinterest, email marketing, tempistica stagionale e costruzione del brand per generare traffico e vendite su larga scala.',
     },
     {
-      slug: 'printable-business-income',
+      slug: 'reddito-attivita-stampabili',
       title: 'Reddito da Attività Stampabili: Aspettative Realistiche',
       description: 'Aspettative di fatturato oneste e i fattori operativi che determinano il reddito in ogni fase di crescita, per prendere decisioni informate sul passaggio al tempo pieno.',
     },
     {
-      slug: 'tools-for-printable-business',
+      slug: 'strumenti-attivita-stampabili',
       title: 'Strumenti Essenziali per Imprenditori di Stampabili',
       description: 'Il toolkit completo per gestire un\'­attività di stampabili su larga scala: generatori di schede, strumenti di design, analisi e strumenti di gestione piattaforma organizzati per fase di crescita.',
     },

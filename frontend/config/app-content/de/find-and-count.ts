@@ -204,12 +204,12 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'versteckte-objekte-arbeitsblaetter',
+      slug: 'suchbilder-arbeitsblaetter',
       anchorText: 'Versteckte-Objekte-Arbeitsblatt-Generator',
     },
     {
       pageType: 'app',
-      slug: 'kreuzwortraetsel-arbeitsblaetter',
+      slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
       anchorText: 'Kreuzworträtsel-Arbeitsblatt-Generator',
     },
     {

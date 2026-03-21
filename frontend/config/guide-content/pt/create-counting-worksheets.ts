@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'A contagem leva naturalmente à adição. Crie fichas de adição temáticas que complementem os seus produtos de gráficos pictóricos para pacotes abrangentes de matemática inicial.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'criar-fichas-comparacao-tamanhos',
       title: 'Criar fichas de maior ou menor',
       description: 'Estenda a contagem à comparação de quantidades. As fichas de maior ou menor combinam perfeitamente com os gráficos pictóricos para uma coleção completa de competências de dados e comparação.',
     },
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
     { pageType: 'app', slug: 'grafico-pictorico-fichas', anchorText: 'Gerador de Fichas de Gráfico Pictórico — Todos os detalhes' },
-    { pageType: 'app', slug: 'soma-fichas', anchorText: 'Gerador de Fichas de Adição — Todos os detalhes' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-graficos-imagens', anchorText: 'Experimentar o Gerador de Fichas de Gráfico Pictórico' },
   ],
 

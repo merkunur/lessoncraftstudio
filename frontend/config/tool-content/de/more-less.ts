@@ -203,7 +203,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller' },
     { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller' },
-    { pageType: 'tool', slug: 'gross-und-klein-ersteller', anchorText: 'Groß-und-Klein-Ersteller' },
+    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Ersteller' },
   ],
 
   visuals: {

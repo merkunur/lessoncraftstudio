@@ -224,7 +224,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'muster-raster-arbeitsblaetter',
+      slug: 'muster-arbeitsblatt-arbeitsblaetter',
       anchorText: 'Muster-Raster-Arbeitsblatt-Generator',
     },
     {

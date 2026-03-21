@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-drawing-lines-worksheets',
+      slug: 'crear-fichas-dibujo',
       title: 'Crear fichas de grafomotricidad',
       description: 'El complemento natural de motricidad fina para el dibujo en cuadrícula. Las fichas de grafomotricidad desarrollan el control del lápiz que lleva directamente a mejores habilidades de reproducción en cuadrícula.',
     },
@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'Extiende el flujo de trabajo de dibujar y luego colorear con páginas para colorear dedicadas. Los alumnos que disfrutan coloreando sus dibujos en cuadrícula completados adorarán las actividades de coloreado independientes.',
     },
     {
-      slug: 'create-pattern-recognition-worksheets',
+      slug: 'crear-fichas-patrones',
       title: 'Crear fichas de reconocimiento de patrones',
       description: 'Construye sobre las habilidades de razonamiento espacial del dibujo en cuadrícula con ejercicios de reconocimiento de patrones visuales que complementan los productos enfocados en simetría.',
     },

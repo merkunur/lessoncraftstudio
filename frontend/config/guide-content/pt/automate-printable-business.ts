@@ -138,13 +138,13 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'criar-linha-produtos-imprimiveis', anchorText: 'Como criar uma linha de produtos imprimíveis' },
-    { pageType: 'guide', slug: 'escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
+    { pageType: 'guide', slug: 'guia-escalar-negocio-imprimiveis', anchorText: 'Como escalar o seu negócio de imprimíveis' },
     { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Como vender fichas de matemática no Etsy' },
-    { pageType: 'guide', slug: 'seo-etsy-imprimiveis-educativos', anchorText: 'SEO no Etsy para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'precos-imprimiveis-educativos', anchorText: 'Estratégias de preços para imprimíveis educativos' },
-    { pageType: 'guide', slug: 'criar-pacotes-fichas', anchorText: 'Como criar pacotes de fichas que vendam' },
+    { pageType: 'guide', slug: 'seo-etsy-material-educativo', anchorText: 'SEO no Etsy para imprimíveis educativos' },
+    { pageType: 'guide', slug: 'precos-material-educativo', anchorText: 'Estratégias de preços para imprimíveis educativos' },
+    { pageType: 'guide', slug: 'criar-pacotes-fichas-etsy', anchorText: 'Como criar pacotes de fichas que vendam' },
     { pageType: 'guide', slug: 'suporte-cliente-produtos-digitais', anchorText: 'Suporte ao cliente para negócios de produtos digitais' },
-    { pageType: 'guide', slug: 'rendimento-passivo-fichas', anchorText: 'Criar rendimento passivo com fichas de exercícios' },
+    { pageType: 'guide', slug: 'rendimentos-passivos-fichas', anchorText: 'Criar rendimento passivo com fichas de exercícios' },
     { pageType: 'guide', slug: 'selecao-nicho-imprimiveis', anchorText: 'Guia de seleção de nicho para negócios de imprimíveis' },
     { pageType: 'guide', slug: 'pesquisar-nichos-rentaveis', anchorText: 'Como pesquisar nichos rentáveis de imprimíveis' },
     { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: 'Guia completo para iniciar um negócio de imprimíveis' },

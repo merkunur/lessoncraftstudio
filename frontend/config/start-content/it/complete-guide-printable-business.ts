@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'create-worksheets-that-sell',
+      slug: 'creare-schede-che-vendono',
       title: 'Come Creare Schede Che Vendono',
       description: 'Approfondimento sulla creazione di prodotti: standard di qualità, strategie di differenziazione e le tecniche specifiche che trasformano schede generiche in prodotti che gli acquirenti scelgono rispetto alla concorrenza.',
     },
     {
-      slug: 'etsy-printable-business',
+      slug: 'attivita-stampabili-etsy',
       title: 'Masterclass Attività Stampabili su Etsy',
       description: 'Guida specifica per Etsy che copre la configurazione del negozio, l\'ottimizzazione SEO, le strategie di inserzione e le tecniche di crescita su misura per il marketplace Etsy.',
     },
     {
-      slug: 'amazon-kdp-activity-books',
+      slug: 'libri-attivita-amazon-kdp',
       title: 'Guida ai Libri di Attività Amazon KDP',
       description: 'Tutto ciò che devi sapere sulla pubblicazione di libri di attività su Amazon KDP: requisiti di formattazione, design della copertina, ricerca di parole chiave e selezione della categoria.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Scopri cosa copre una licenza commerciale, come si applica alle diverse piattaforme e quali diritti ricevi quando acquisti una licenza per i tuoi generatori di schede.',
     },

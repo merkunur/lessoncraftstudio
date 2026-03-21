@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-big-and-small-worksheets',
+      slug: 'create-size-comparison-worksheets',
       title: 'Create Big & Small Worksheets',
       description: 'A Visual Learning companion that creates size comparison exercises. Big & Small worksheets pair naturally with picture graphs in visual learning bundles, building observation skills alongside data representation.',
     },
     {
-      slug: 'create-pattern-train-worksheets',
+      slug: 'create-pattern-worksheets',
       title: 'Create Pattern Train Worksheets',
       description: 'A Visual Learning companion for sequential pattern recognition. Pattern Train worksheets complement picture graphs by developing sequential reasoning alongside data collection skills.',
     },
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
     { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart Count Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'big-and-small-worksheets', anchorText: 'Big & Small Worksheet Generator — Full Details' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Worksheet Generator — Full Details' },
     { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Try the Chart Count Maker' },
   ],
 

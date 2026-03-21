@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'Another visual classification tool. Sorting worksheets use the same themed image collections, making them natural bundle partners with shadow matching products.',
     },
     {
-      slug: 'create-odd-one-out-worksheets',
+      slug: 'create-odd-one-out-puzzles',
       title: 'Create Odd One Out Worksheets',
       description: 'A visual discrimination cousin. Odd One Out worksheets ask students to identify items that do not belong, reinforcing the same perception skills as shadow matching.',
     },

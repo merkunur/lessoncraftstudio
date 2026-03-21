@@ -214,7 +214,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'labyrinth-arbeitsblaetter',
+      slug: 'bilderpfad-arbeitsblaetter',
       anchorText: 'Labyrinth-Arbeitsblatt-Generator',
     },
     {

@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'big-and-small-worksheets', anchorText: 'Big & Small Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Big & Small Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Pattern Train Maker' },
     { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Pattern Worksheet Maker' },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Draw & Color Maker' },

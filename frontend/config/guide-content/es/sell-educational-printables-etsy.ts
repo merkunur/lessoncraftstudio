@@ -162,9 +162,9 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'suma-fichas', anchorText: 'Generador de fichas de sumas — Todos los detalles' },
-    { pageType: 'app', slug: 'sopas-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
+    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
     { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Prueba el generador de fichas de sumas' },
-    { pageType: 'tool', slug: 'generador-sopas-letras', anchorText: 'Prueba el generador de sopas de letras' },
+    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Prueba el generador de sopas de letras' },
   ],
 
   toolsRecommended: [

@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Generador de Búsqueda del Tesoro' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Generador de Recorrido de Imágenes' },
-    { pageType: 'tool', slug: 'generador-fichas-emparejamiento', anchorText: 'Generador de Fichas de Emparejamiento' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Emparejamiento' },
     { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
   ],
 

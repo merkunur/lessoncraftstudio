@@ -13,6 +13,8 @@ import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } f
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
+import { resolveWpAppIdToSlug } from '@/lib/resolve-app-slug';
+import { isValidInternalLink } from '@/lib/resolve-internal-link';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import {
@@ -328,7 +330,7 @@ export default async function CornerstonePage({
                 {content.toolsRecommended.map((tool, i) => (
                   <Link
                     key={i}
-                    href={`/${locale}/apps/${tool.appId}`}
+                    href={`/${locale}/apps/${resolveWpAppIdToSlug(tool.appId, locale)}`}
                     className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                   >
                     <h3 className="font-semibold text-gray-900">{tool.title}</h3>
@@ -385,16 +387,19 @@ export default async function CornerstonePage({
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('nextSteps', locale)}</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {content.nextSteps.map((ns, i) => (
+                {content.nextSteps.filter(ns => isValidInternalLink('guide', ns.slug) || isValidInternalLink('start', ns.slug)).map((ns, i) => {
+                  const prefix = isValidInternalLink('start', ns.slug) ? 'start' : 'guides';
+                  return (
                   <Link
                     key={i}
-                    href={`/${locale}/guides/${ns.slug}`}
+                    href={`/${locale}/${prefix}/${ns.slug}`}
                     className="p-4 bg-indigo-50 border border-indigo-200 rounded-lg hover:bg-indigo-100 transition-colors"
                   >
                     <h3 className="font-semibold text-gray-900">{ns.title}</h3>
                     <ReadMoreText text={ns.description} locale={locale} className="text-gray-600 text-sm mt-1" />
                   </Link>
-                ))}
+                  );
+                })}
               </div>
             </div>
           </section>
@@ -420,7 +425,7 @@ export default async function CornerstonePage({
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('relatedGuides', locale)}</h2>
               <div className="flex flex-wrap gap-3">
-                {content.internalLinks.map((link, i) => (
+                {content.internalLinks.filter(link => isValidInternalLink(link.pageType, link.slug)).map((link, i) => (
                   <Link
                     key={i}
                     href={`/${locale}/${link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : 'ideas'}/${link.slug}`}

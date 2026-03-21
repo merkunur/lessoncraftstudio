@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
     { pageType: 'app', slug: 'bingo-ilustrado-fichas', anchorText: 'Gerador de Cartelas de Bingo — Todos os detalhes' },
-    { pageType: 'app', slug: 'associacao-fichas', anchorText: 'Gerador de Fichas de Associação — Todos os detalhes' },
+    { pageType: 'app', slug: 'ligar-fichas', anchorText: 'Gerador de Fichas de Associação — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-cartelas-bingo', anchorText: 'Experimentar o Gerador de Cartelas de Bingo' },
   ],
 

@@ -141,42 +141,42 @@ I stampabili per feste hanno un forte potenziale di regalo e marketing virale pe
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creare-linea-prodotti-stampabili',
       anchorText: 'Come Creare una Linea di Prodotti Stampabili',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiale-didattico',
       anchorText: 'SEO Etsy per Stampabili Educativi',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creare-pacchetti-schede-esercizi',
       anchorText: 'Come Creare Pacchetti di Schede Didattiche che Vendono',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'selezione-nicchia-stampabili',
       anchorText: 'Guida alla Selezione di Nicchia per Business di Stampabili',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-stagionale-stampabili',
       anchorText: 'Calendario di Marketing Stagionale per Venditori di Stampabili',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       anchorText: 'Guida Completa per Avviare un Business di Stampabili',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       anchorText: 'Guida alla Licenza Commerciale',
     },
     {
       pageType: 'idea',
-      slug: 'physical-printable-product-ideas',
+      slug: 'prodotti-stampati-fisici-idee',
       anchorText: 'Idee di Business con Prodotti Stampabili Fisici',
     },
   ],

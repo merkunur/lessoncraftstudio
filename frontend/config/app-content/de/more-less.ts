@@ -225,12 +225,12 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'mehr-weniger-arbeitsblatt-ersteller',
+      slug: 'mehr-weniger-ersteller',
       anchorText: 'Mehr-oder-Weniger-Arbeitsblatt-Ersteller',
     },
     {
       pageType: 'guide',
-      slug: 'vergleichs-arbeitsblaetter-erstellen',
+      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
       anchorText: 'Vergleichs-Arbeitsblätter erstellen, die sich verkaufen',
     },
     {

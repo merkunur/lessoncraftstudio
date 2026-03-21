@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-odd-one-out-puzzles',
+      slug: 'creer-fiches-intrus',
       title: 'Créer des puzzles intrus',
       description: 'Un complément de discrimination visuelle aux pièces manquantes. Les fiches d\'intrus demandent aux élèves d\'identifier l\'élément différent parmi quatre images, exerçant des compétences d\'observation et de comparaison connexes.',
     },
     {
-      slug: 'create-shadow-matching-worksheets',
+      slug: 'creer-fiches-discrimination-visuelle',
       title: 'Créer des fiches de correspondance d\'ombres',
       description: 'Un cousin de perception visuelle des pièces manquantes. Les exercices de correspondance d\'ombres développent la reconnaissance de silhouettes et les compétences d\'analyse spatiale qui complètent les activités de puzzles jigsaw.',
     },
     {
-      slug: 'create-grid-match-puzzles',
+      slug: 'creer-puzzles-pieces-manquantes',
       title: 'Créer des puzzles de correspondance de grille',
       description: 'Un complément de raisonnement spatial où les élèves associent des tuiles dans une disposition en grille. La correspondance en grille développe la conscience spatiale et le raisonnement partie-tout connexes.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'missing-pieces-worksheets', anchorText: 'Générateur de fiches pièces manquantes — Détails complets' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Générateur de fiches intrus — Détails complets' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Essayer le Créateur de Fiches Pièces Manquantes' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'pieces-manquantes-fiches', anchorText: 'Générateur de fiches pièces manquantes — Détails complets' },
+    { pageType: 'app', slug: 'intrus-fiches', anchorText: 'Générateur de fiches intrus — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Essayer le Créateur de Fiches Pièces Manquantes' },
   ],
 
   toolsRecommended: [

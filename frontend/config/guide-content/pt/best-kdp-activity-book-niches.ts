@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'O guia completo de criação para livros de atividades de matemática KDP. Depois de identificares os cadernos de matemática como o teu nicho alvo, este guia cobre a criação de conteúdo, formatação e publicação passo a passo.',
     },
     {
-      slug: 'ganhar-dinheiro-livros-atividades-kdp',
+      slug: 'ganhar-dinheiro-kdp-livros-atividades',
       title: 'Ganhar dinheiro com livros de atividades KDP',
       description: 'O guia de rendimentos e estratégia de preços para editores de livros de atividades KDP. Cobre cálculos de royalties, economia de catálogo e expansão multiplataforma depois de teres escolhido o teu nicho.',
     },
@@ -157,15 +157,15 @@ const content: GuideContent = {
   internalLinks: [
     { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: 'Como criar livros de atividades de matemática para Amazon KDP' },
     { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Como publicar livros de puzzles na Amazon KDP' },
-    { pageType: 'guide', slug: 'livros-sopas-letras-kdp', anchorText: 'Como criar livros de sopas de letras para Amazon KDP' },
-    { pageType: 'guide', slug: 'ganhar-dinheiro-livros-atividades-kdp', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
+    { pageType: 'guide', slug: 'livros-caca-palavras-kdp', anchorText: 'Como criar livros de sopas de letras para Amazon KDP' },
+    { pageType: 'guide', slug: 'ganhar-dinheiro-kdp-livros-atividades', anchorText: 'Como ganhar dinheiro com livros de atividades KDP' },
     { pageType: 'guide', slug: 'formatacao-kdp-fichas', anchorText: 'Guia de formatação KDP para livros de fichas' },
     { pageType: 'guide', slug: 'livros-sudoku-kdp', anchorText: 'Como criar livros de sudoku para Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-vs-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
+    { pageType: 'guide', slug: 'kdp-ou-etsy-imprimiveis', anchorText: 'Amazon KDP ou Etsy: Onde vender imprimíveis' },
     { pageType: 'guide', slug: 'criar-paginas-colorir', anchorText: 'Como criar páginas para colorir a partir de imagens temáticas' },
     { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: 'Guia completo para iniciar um negócio de imprimíveis' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'fichas-matematica', anchorText: 'Gerador de fichas de matemática — Todos os detalhes' },
+    { pageType: 'app', slug: 'atividades-matematica-fichas', anchorText: 'Gerador de fichas de matemática — Todos os detalhes' },
   ],
 
   toolsRecommended: [

@@ -207,10 +207,10 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'sudoku-fichas-ninos', anchorText: 'Sudoku con Imágenes — Detalles Completos del Producto' },
     { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
-    { pageType: 'tool', slug: 'generador-encuentra-diferente', anchorText: 'Creador de Fichas del Intruso' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Creador de Fichas del Intruso' },
     { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-cuadricula-parejas', anchorText: 'Creador de Fichas de Coincidencia de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-parejas', anchorText: 'Creador de Fichas de Parejas' },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Coincidencia de Cuadrícula' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Parejas' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopas de Letras' },
     { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
   ],

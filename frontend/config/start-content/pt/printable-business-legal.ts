@@ -196,7 +196,7 @@ const content: StartContent = {
       description: 'Expectativas de rendimentos honestas e os fatores operacionais que determinam os rendimentos em cada fase de crescimento, incluindo o contexto de planeamento financeiro para as obrigações fiscais.',
     },
     {
-      slug: 'escalar-negocio-imprimiveis',
+      slug: 'guia-escalar-negocio-imprimiveis',
       title: 'Escalar de Atividade Secundária a Negócio de Imprimíveis a Tempo Inteiro',
       description: 'Enquadramento estratégico de crescimento para cada fase do negócio, incluindo os marcos operacionais que desencadeiam novas considerações fiscais e legais à medida que o seu negócio escala.',
     },

@@ -201,7 +201,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'handwriting-worksheets', anchorText: 'Handwriting Worksheets — Full Product Details' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheets — Full Product Details' },
     { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Alphabet Train Maker' },
     { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Word Guess Maker' },
     { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Word Scramble Maker' },

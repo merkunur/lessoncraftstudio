@@ -234,7 +234,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'kryptogramm-arbeitsblaetter',
+      slug: 'bildkryptogramm-arbeitsblaetter',
       anchorText: 'Kryptogramm-Arbeitsblatt-Generator',
     },
     {
@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'kreuzwortraetsel-ersteller',
+      slug: 'bilderkreuzwortraetsel-ersteller',
       anchorText: 'Bilderkreuzworträtsel-Ersteller',
     },
     {

@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'desenho-fichas', anchorText: 'Gerador de Fichas de Desenho e Cor — Todos os detalhes' },
-    { pageType: 'app', slug: 'grafomotricidade-fichas', anchorText: 'Gerador de Fichas de Grafomotricidade — Todos os detalhes' },
-    { pageType: 'tool', slug: 'gerador-fichas-desenho', anchorText: 'Experimente o Gerador de Fichas de Desenho e Cor' },
+    { pageType: 'app', slug: 'desenho-grade-fichas', anchorText: 'Gerador de Fichas de Desenho e Cor — Todos os detalhes' },
+    { pageType: 'app', slug: 'tracar-linhas-fichas', anchorText: 'Gerador de Fichas de Grafomotricidade — Todos os detalhes' },
+    { pageType: 'tool', slug: 'gerador-desenho-quadricula', anchorText: 'Experimente o Gerador de Fichas de Desenho e Cor' },
   ],
 
   toolsRecommended: [

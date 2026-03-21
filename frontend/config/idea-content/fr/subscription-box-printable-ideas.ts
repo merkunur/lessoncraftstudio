@@ -144,42 +144,42 @@ Le modèle d'abonnement fonctionne sur plusieurs plateformes, notamment Gumroad 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creer-gamme-produits-imprimables',
       anchorText: 'Comment créer une gamme de produits imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiel-pedagogique',
       anchorText: 'SEO Etsy pour les imprimables éducatifs',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creer-packs-fiches-exercices',
       anchorText: 'Comment créer des lots de fiches qui se vendent',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'choix-niche-imprimables',
       anchorText: 'Guide de sélection de niche pour les entreprises d\'imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-saisonnier-imprimables',
       anchorText: 'Calendrier marketing saisonnier pour vendeurs d\'imprimables',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guide-complet-activite-imprimables',
       anchorText: 'Guide complet pour lancer une entreprise d\'imprimables',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guide-licence-commerciale',
       anchorText: 'Guide des licences commerciales',
     },
     {
       pageType: 'idea',
-      slug: 'math-facts-printable-ideas',
+      slug: 'bases-maths-idees-imprimables',
       anchorText: 'Idées d\'imprimables tables de maths pour vendeurs',
     },
   ],

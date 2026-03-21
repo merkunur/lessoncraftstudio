@@ -229,7 +229,7 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'puzzle-bundle',
+      slug: 'puzzles-logic-bundle',
       anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
     },
     {
@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'maze-books-kdp',
+      slug: 'publish-puzzle-books-kdp',
       anchorText: 'How to Create and Sell Maze Books on Amazon KDP',
     },
     {

@@ -203,7 +203,7 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'crucigramas-imagenes-fichas', anchorText: 'Crucigramas con Imágenes — Detalles Completos del Producto' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-letras-revueltas', anchorText: 'Generador de Letras Revueltas' },
+    { pageType: 'tool', slug: 'generador-palabras-desordenadas', anchorText: 'Generador de Letras Revueltas' },
     { pageType: 'tool', slug: 'generador-adivinar-palabras', anchorText: 'Generador de Adivinar Palabras' },
     { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Generador de Búsqueda del Tesoro' },
     { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Generador de Busca y Cuenta' },

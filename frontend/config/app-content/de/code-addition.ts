@@ -230,7 +230,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bilder-additions-arbeitsblatt-ersteller',
+      slug: 'additions-arbeitsblatt-ersteller',
       anchorText: 'Bilder-Additions-Arbeitsblatt-Ersteller',
     },
     {

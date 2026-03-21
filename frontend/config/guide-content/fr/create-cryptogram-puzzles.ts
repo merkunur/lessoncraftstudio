@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-word-search-worksheets',
+      slug: 'creer-mots-caches',
       title: 'Créer des fiches de mots cachés',
       description: 'Un compagnon d\'alphabétisation pour les puzzles cryptogrammes. Les fiches de mots cachés exercent les compétences de balayage visuel qui complètent le décryptage basé sur la déduction dans les chiffrements cryptogrammes, créant une gamme de produits d\'alphabétisation complète.',
     },
     {
-      slug: 'create-word-scramble-worksheets',
+      slug: 'creer-cryptogrammes',
       title: 'Créer des fiches d\'anagrammes',
       description: 'Un compagnon de réarrangement de lettres. Les fiches d\'anagrammes pratiquent une compétence cognitive différente du décodage de chiffrement, et les deux formats s\'associent naturellement dans des lots de puzzles d\'alphabétisation.',
     },
     {
-      slug: 'create-word-guess-worksheets',
+      slug: 'creer-fiches-prepositions',
       title: 'Créer des fiches de devinettes de mots',
       description: 'Un compagnon de rappel orthographique qui enrichit le vocabulaire aux côtés du décryptage cryptogramme. Les élèves qui décodent des phrases chiffrées bénéficient d\'activités de devinettes de mots qui renforcent le même vocabulaire à travers un format de puzzle différent.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Générateur de fiches cryptogrammes — Détails complets' },
-    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Générateur de fiches mots cachés — Détails complets' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Essayer le Créateur de cryptogrammes' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'cryptogramme-images-fiches', anchorText: 'Générateur de fiches cryptogrammes — Détails complets' },
+    { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur de fiches mots cachés — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Essayer le Créateur de cryptogrammes' },
   ],
 
   toolsRecommended: [

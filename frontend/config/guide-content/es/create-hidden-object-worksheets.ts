@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-find-and-count-worksheets',
+      slug: 'crear-fichas-conteo',
       title: 'Crear fichas de buscar y contar',
       description: 'El complemento natural de las escenas de objetos ocultos. Buscar y contar combina la búsqueda visual con la práctica de conteo para un producto de ficha de doble habilidad.',
     },
     {
-      slug: 'create-picture-path-worksheets',
+      slug: 'crear-fichas-laberintos',
       title: 'Crear fichas de laberintos con imágenes',
       description: 'Otro formato de búsqueda visual donde los niños navegan por laberintos temáticos de imágenes. Expande tu línea de productos de busca y encuentra hacia la categoría de laberintos.',
     },

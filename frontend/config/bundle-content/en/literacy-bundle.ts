@@ -202,7 +202,7 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'prepositions-worksheets', anchorText: 'Prepositions Worksheet Generator — Full Details' },
     { pageType: 'app', slug: 'word-guess-worksheets', anchorText: 'Word Guess Generator — Full Details' },
     { pageType: 'app', slug: 'word-scramble-worksheets', anchorText: 'Word Scramble Generator — Full Details' },
-    { pageType: 'app', slug: 'wordsearch-worksheets', anchorText: 'Word Search Generator — Full Details' },
+    { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
     { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator — Full Details' },
     { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Writing Worksheet Generator — Full Details' },
     { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Try the Alphabet Train Maker' },

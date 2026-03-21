@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'Counting leads naturally to addition. Build themed addition worksheets that complement your picture graph products for comprehensive early math bundles.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'create-size-comparison-worksheets',
       title: 'Create More or Less Worksheets',
       description: 'Extend counting into quantity comparison. More or Less worksheets pair perfectly with picture graphs for a complete data and comparison skills collection.',
     },

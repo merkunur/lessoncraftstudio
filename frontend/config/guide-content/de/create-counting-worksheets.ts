@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'Zählen führt natürlich zur Addition. Erstellen Sie thematische Additions-Arbeitsblätter, die Ihre Bilddiagramm-Produkte für umfassende Frühmathematik-Bundles ergänzen.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
       title: 'Mehr-oder-Weniger-Arbeitsblätter erstellen',
       description: 'Erweitern Sie das Zählen zum Mengenvergleich. Mehr-oder-Weniger-Arbeitsblätter kombinieren sich perfekt mit Bilddiagrammen für eine vollständige Daten- und Vergleichsfähigkeiten-Sammlung.',
     },

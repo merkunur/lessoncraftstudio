@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
       title: 'Mehr-oder-Weniger-Vergleichs-Arbeitsblätter erstellen',
       description: 'Die natürliche Ergänzung zum Größenvergleich. Mehr-oder-Weniger-Arbeitsblätter vergleichen Mengen (größer als, kleiner als, gleich), während Groß & Klein visuelle Größen vergleicht.',
     },

@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-picture-sudoku-worksheets',
+      slug: 'creer-sudoku-images',
       title: 'Créer des fiches de sudoku en images',
       description: 'Un autre produit au format puzzle qui s\'associe parfaitement avec les labyrinthes. Le sudoku en images utilise des images thématiques dans des grilles de logique pour un défi cognitif différent.',
     },
     {
-      slug: 'create-word-search-puzzles',
+      slug: 'creer-mots-caches',
       title: 'Créer des fiches de mots mêlés',
       description: 'Les mots mêlés sont l\'un des produits imprimables les plus demandés. Combinez-les avec des labyrinthes pour des lots d\'activités puzzles complets.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'appariement',
       description: 'Élargissez votre catalogue de puzzles avec des activités d\'appariement utilisant les mêmes images thématiques. Proposez des fiches d\'appariement avec des labyrinthes pour des packs variés.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Générateur de labyrinthes Picture Path — Détails complets' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Générateur de sudoku en images — Détails complets' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Essayer le créateur de labyrinthes Picture Path' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Générateur de labyrinthes Picture Path — Détails complets' },
+    { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: 'Générateur de sudoku en images — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Essayer le créateur de labyrinthes Picture Path' },
   ],
 
   toolsRecommended: [

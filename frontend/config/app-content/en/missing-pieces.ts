@@ -249,7 +249,7 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'create-puzzle-worksheets',
+      slug: 'create-missing-pieces-puzzles',
       anchorText: 'How to Create and Sell Puzzle Worksheets Online',
     },
   ],

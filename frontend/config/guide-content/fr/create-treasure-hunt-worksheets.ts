@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-hidden-object-worksheets',
+      slug: 'creer-fiches-objets-caches',
       title: 'Créer des fiches d\'objets cachés',
       description: 'Un compagnon de recherche et découverte pour les chasses au trésor. Les fiches d\'objets cachés demandent aux élèves de scanner des scènes pour trouver des éléments spécifiques, exerçant des compétences connexes de recherche visuelle et d\'observation.',
     },
     {
-      slug: 'create-maze-worksheets',
+      slug: 'creer-fiches-labyrinthes',
       title: 'Créer des fiches de labyrinthes',
       description: 'Un cousin de parcours fléché pour les chasses au trésor. Les fiches de labyrinthes développent des compétences connexes de navigation spatiale où les élèves tracent des itinéraires à travers des passages, complétant le déplacement directionnel sur grille des chasses au trésor.',
     },
     {
-      slug: 'create-grid-match-puzzles',
+      slug: 'creer-puzzles-pieces-manquantes',
       title: 'Créer des puzzles de correspondance sur grille',
       description: 'Un compagnon basé sur grille où les élèves associent des tuiles dans une disposition spatiale. Les exercices de correspondance sur grille développent la conscience spatiale sur des formats de grille qui complètent la pratique de la grille de coordonnées.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une activité d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass activité d\'imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide activité de cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Générateur de Fiches de Chasse au Trésor — Détails complets' },
-    { pageType: 'app', slug: 'hidden-object-worksheets', anchorText: 'Générateur de Fiches d\'Objets Cachés — Détails complets' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Essayer l\'Outil de Création de Chasses au Trésor' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une activité d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass activité d\'imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide activité de cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'chasse-au-tresor-fiches', anchorText: 'Générateur de Fiches de Chasse au Trésor — Détails complets' },
+    { pageType: 'app', slug: 'cherche-objets-fiches', anchorText: 'Générateur de Fiches d\'Objets Cachés — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-chasse-au-tresor', anchorText: 'Essayer l\'Outil de Création de Chasses au Trésor' },
   ],
 
   toolsRecommended: [

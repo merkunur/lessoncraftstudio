@@ -15,6 +15,7 @@ import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
+import { isValidInternalLink } from '@/lib/resolve-internal-link';
 import VideoFacade from '@/app/[locale]/apps/[slug]/VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import {
@@ -466,7 +467,7 @@ export default async function BundlePage({
             <div className="container mx-auto px-4 max-w-4xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">{getSectionLabel('related', locale)}</h2>
               <div className="flex flex-wrap gap-3">
-                {content.internalLinks.map((link, i) => (
+                {content.internalLinks.filter(link => isValidInternalLink(link.pageType, link.slug)).map((link, i) => (
                   <Link
                     key={i}
                     href={`/${locale}/${link.pageType === 'app' ? 'apps' : link.pageType === 'tool' ? 'tools' : link.pageType === 'bundle' ? 'bundles' : link.pageType === 'start' ? 'start' : link.pageType === 'guide' ? 'guides' : 'ideas'}/${link.slug}`}

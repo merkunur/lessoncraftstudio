@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-word-search-worksheets',
+      slug: 'create-word-search-puzzles',
       title: 'Create Word Search Worksheets',
       description: 'A literacy companion to cryptogram puzzles. Word search worksheets exercise visual scanning skills that complement the deduction-based code-breaking in cryptogram ciphers, creating a well-rounded literacy product line.',
     },
     {
-      slug: 'create-word-scramble-worksheets',
+      slug: 'create-cryptogram-puzzles',
       title: 'Create Word Scramble Worksheets',
       description: 'A letter rearrangement companion. Word scramble worksheets practice a different cognitive skill from cipher decoding, and the two formats pair naturally in literacy puzzle bundles.',
     },
     {
-      slug: 'create-word-guess-worksheets',
+      slug: 'create-preposition-worksheets',
       title: 'Create Word Guess Worksheets',
       description: 'A spelling recall companion that builds vocabulary alongside cryptogram code-breaking. Students who decode cipher phrases benefit from word guess activities that reinforce the same vocabulary through a different puzzle format.',
     },

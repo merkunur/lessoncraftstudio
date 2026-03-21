@@ -138,35 +138,35 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-printable-product-line',
+      slug: 'creare-linea-prodotti-stampabili',
       title: 'Come Creare una Linea di Prodotti Stampabili',
       description: 'Approfondimento sulla strategia della linea di prodotti — costruire collezioni coerenti che stimolano gli acquisti ripetuti e supportano la profondità di catalogo necessaria per una scalabilità efficace.',
     },
     {
-      slug: 'create-worksheet-bundles',
+      slug: 'creare-pacchetti-schede-esercizi',
       title: 'Come Creare Bundle di Schede che Vendono',
       description: 'Strategie di creazione di bundle che moltiplicano il valore dei ricavi del tuo catalogo — essenziali per massimizzare il ritorno sul tuo investimento nella scalabilità.',
     },
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un Business di Stampabili',
       description: 'La guida fondamentale che copre creazione dei contenuti, licenze commerciali, strategia multi-piattaforma e costruzione di un business di stampabili sostenibile da zero.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheet-bundles', anchorText: 'Come Creare Bundle di Schede che Vendono' },
-    { pageType: 'guide', slug: 'create-printable-product-line', anchorText: 'Come Creare una Linea di Prodotti Stampabili' },
-    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Strategie di Prezzo per Stampabili Educativi' },
-    { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Guida alla Selezione delle Nicchie per Business di Stampabili' },
-    { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Come Ricercare Nicchie Redditizie per Stampabili' },
-    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Come Vendere Schede di Matematica su Etsy' },
-    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Come Avviare un Negozio Etsy di Stampabili da Zero' },
-    { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Come Creare Schede di Addizione' },
-    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Come Creare Puzzle di Parole Intrecciate con Immagini' },
-    { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Come Creare Pagine da Colorare da Immagini a Tema' },
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guida Completa per Avviare un Business di Stampabili' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guida alla Licenza Commerciale' },
+    { pageType: 'guide', slug: 'creare-pacchetti-schede-esercizi', anchorText: 'Come Creare Bundle di Schede che Vendono' },
+    { pageType: 'guide', slug: 'creare-linea-prodotti-stampabili', anchorText: 'Come Creare una Linea di Prodotti Stampabili' },
+    { pageType: 'guide', slug: 'prezzi-materiale-didattico', anchorText: 'Strategie di Prezzo per Stampabili Educativi' },
+    { pageType: 'guide', slug: 'selezione-nicchia-stampabili', anchorText: 'Guida alla Selezione delle Nicchie per Business di Stampabili' },
+    { pageType: 'guide', slug: 'ricercare-nicchie-redditizie', anchorText: 'Come Ricercare Nicchie Redditizie per Stampabili' },
+    { pageType: 'guide', slug: 'vendere-schede-matematica-etsy', anchorText: 'Come Vendere Schede di Matematica su Etsy' },
+    { pageType: 'guide', slug: 'aprire-negozio-etsy-stampabili', anchorText: 'Come Avviare un Negozio Etsy di Stampabili da Zero' },
+    { pageType: 'guide', slug: 'creare-schede-addizione', anchorText: 'Come Creare Schede di Addizione' },
+    { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: 'Come Creare Puzzle di Parole Intrecciate con Immagini' },
+    { pageType: 'guide', slug: 'creare-pagine-colorare', anchorText: 'Come Creare Pagine da Colorare da Immagini a Tema' },
+    { pageType: 'start', slug: 'guida-completa-attivita-stampabili', anchorText: 'Guida Completa per Avviare un Business di Stampabili' },
+    { pageType: 'start', slug: 'guida-licenza-commerciale', anchorText: 'Guida alla Licenza Commerciale' },
   ],
 
   toolsRecommended: [

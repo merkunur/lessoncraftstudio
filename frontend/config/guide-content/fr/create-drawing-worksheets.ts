@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-drawing-lines-worksheets',
+      slug: 'creer-fiches-dessin',
       title: 'Créer des fiches de tracé de lignes',
       description: 'Le compagnon naturel de motricité fine du dessin sur grille. Les fiches de tracé de lignes développent le contrôle du crayon qui mène directement à de meilleures compétences de reproduction sur grille.',
     },
     {
-      slug: 'create-coloring-worksheets',
+      slug: 'creer-pages-coloriage',
       title: 'Créer des fiches de coloriage',
       description: 'Prolongez le flux dessiner-puis-colorier avec des pages de coloriage dédiées. Les élèves qui aiment colorier leurs dessins sur grille terminés adoreront les activités de coloriage autonomes.',
     },
     {
-      slug: 'create-pattern-recognition-worksheets',
+      slug: 'creer-fiches-sequences-logiques',
       title: 'Créer des fiches de reconnaissance de motifs',
       description: 'Développez les compétences de raisonnement spatial du dessin sur grille avec des exercices de reconnaissance de motifs visuels qui complètent les produits axés sur la symétrie.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer un business d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass business imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'draw-and-color-worksheets', anchorText: 'Générateur de fiches Dessiner & Colorier — Détails complets' },
-    { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Générateur de fiches Tracé de lignes — Détails complets' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Essayer le Créateur de fiches Dessiner & Colorier' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer un business d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass business imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'dessin-quadrillage-fiches', anchorText: 'Générateur de fiches Dessiner & Colorier — Détails complets' },
+    { pageType: 'app', slug: 'graphisme-fiches', anchorText: 'Générateur de fiches Tracé de lignes — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Essayer le Créateur de fiches Dessiner & Colorier' },
   ],
 
   toolsRecommended: [

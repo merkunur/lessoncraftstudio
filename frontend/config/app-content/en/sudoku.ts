@@ -224,12 +224,12 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'pattern-worksheets',
       anchorText: 'Pattern Worksheet Generator',
     },
     {
       pageType: 'bundle',
-      slug: 'puzzle-bundle',
+      slug: 'puzzles-logic-bundle',
       anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
     },
     {

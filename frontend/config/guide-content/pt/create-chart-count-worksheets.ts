@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'Um complemento de competências numéricas que cria exercícios de soma. As fichas de adição combinam-se naturalmente com os gráficos de imagens em pacotes de aprendizagem matemática, desenvolvendo competências aritméticas a par da representação de dados.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'criar-fichas-comparacao-tamanhos',
       title: 'Criar fichas de maior ou menor',
       description: 'Um complemento de comparação numérica que cria exercícios de mais e menos. As fichas de maior ou menor complementam os gráficos de imagens desenvolvendo o raciocínio de comparação quantitativa a par das competências de recolha de dados.',
     },
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
     { pageType: 'app', slug: 'grafico-pictorico-fichas', anchorText: 'Gerador de Fichas de Gráfico Pictórico — Todos os detalhes' },
-    { pageType: 'app', slug: 'soma-fichas', anchorText: 'Gerador de Fichas de Adição — Todos os detalhes' },
+    { pageType: 'app', slug: 'adicao-fichas', anchorText: 'Gerador de Fichas de Adição — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-graficos-imagens', anchorText: 'Experimentar o Gerador de Fichas de Gráfico Pictórico' },
   ],
 

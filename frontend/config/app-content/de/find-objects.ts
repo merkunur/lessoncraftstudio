@@ -209,7 +209,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'kreuzwortraetsel-arbeitsblaetter',
+      slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
       anchorText: 'Kreuzworträtsel-Arbeitsblatt-Generator',
     },
     {

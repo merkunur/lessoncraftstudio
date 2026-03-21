@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-shadow-matching-worksheets',
+      slug: 'creer-fiches-discrimination-visuelle',
       title: 'Créer des fiches de correspondance d\'ombres',
       description: 'Un complément de perception visuelle au trouve l\'intrus. Les fiches de correspondance d\'ombres développent la reconnaissance de silhouettes, complétant la discrimination visuelle des puzzles trouve l\'intrus.',
     },
     {
-      slug: 'create-missing-pieces-worksheets',
+      slug: 'creer-puzzles-pieces-manquantes',
       title: 'Créer des puzzles pièces manquantes',
       description: 'Un autre format de discrimination visuelle. Les puzzles pièces manquantes mettent les élèves au défi de trouver ce qui manque dans une image, exerçant des compétences d\'observation connexes.',
     },
     {
-      slug: 'create-sorting-worksheets',
+      slug: 'creer-fiches-tri',
       title: 'Créer des fiches de tri par catégorie',
       description: 'Un complément de classification au trouve l\'intrus. Les fiches de tri demandent aux élèves de catégoriser les images en groupes, renforçant les mêmes compétences de raisonnement catégoriel utilisées en mode Similaire.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Générateur de Fiches Trouve l\'Intrus — Détails complets' },
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Générateur de Fiches Correspondance d\'Ombres — Détails complets' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Essayer le Générateur Trouve l\'Intrus' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'intrus-fiches', anchorText: 'Générateur de Fiches Trouve l\'Intrus — Détails complets' },
+    { pageType: 'app', slug: 'discrimination-visuelle-fiches', anchorText: 'Générateur de Fiches Correspondance d\'Ombres — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Essayer le Générateur Trouve l\'Intrus' },
   ],
 
   toolsRecommended: [

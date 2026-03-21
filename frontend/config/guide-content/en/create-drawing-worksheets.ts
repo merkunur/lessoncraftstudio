@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-drawing-lines-worksheets',
+      slug: 'create-drawing-worksheets',
       title: 'Create Drawing Lines Worksheets',
       description: 'The natural fine motor companion to grid drawing. Drawing lines worksheets build pencil control that leads directly to better grid reproduction skills.',
     },
     {
-      slug: 'create-coloring-worksheets',
+      slug: 'create-coloring-pages',
       title: 'Create Coloring Worksheets',
       description: 'Extend the draw-then-color workflow with dedicated coloring pages. Students who enjoy coloring their completed grid drawings will love standalone coloring activities.',
     },
     {
-      slug: 'create-pattern-recognition-worksheets',
+      slug: 'create-pattern-worksheets',
       title: 'Create Pattern Recognition Worksheets',
       description: 'Build on the spatial reasoning skills from grid drawing with visual pattern recognition exercises that complement symmetry-focused products.',
     },

@@ -204,7 +204,7 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'big-and-small-worksheets',
+      slug: 'big-small-worksheets',
       anchorText: 'Big & Small Worksheet Generator',
     },
     {

@@ -156,7 +156,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'abrir-tienda-etsy-imprimibles', anchorText: 'Cómo abrir una tienda Etsy de imprimibles desde cero' },
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'colorear-fichas', anchorText: 'Generador de páginas para colorear — Todos los detalles' },
+    { pageType: 'app', slug: 'dibujos-colorear-fichas', anchorText: 'Generador de páginas para colorear — Todos los detalles' },
     { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Prueba el generador de páginas para colorear' },
   ],
 

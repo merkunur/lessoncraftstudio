@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attivit\à di Stampabili',
       description: 'La guida fondamentale che copre la selezione della nicchia, la strategia delle piattaforme, i prezzi e la costruzione del catalogo. Inizia qui se non hai ancora lanciato la tua attivit\à di stampabili.',
     },
     {
-      slug: 'etsy-printable-business',
+      slug: 'attivita-stampabili-etsy',
       title: 'Masterclass Attivit\à di Stampabili su Etsy',
       description: 'Strategie specifiche per la piattaforma Etsy: configurazione del negozio, SEO delle inserzioni, ottimizzazione dei tag, best practice per le miniature e tecniche di crescita su misura per il marketplace Etsy.',
     },
     {
-      slug: 'amazon-kdp-activity-books',
+      slug: 'libri-attivita-amazon-kdp',
       title: 'Guida ai Libri di Attivit\à Amazon KDP',
       description: 'Formatta le tue schede per la pubblicazione su Amazon KDP. Copre la formattazione degli interni, i requisiti per la copertina, la ricerca di parole chiave e la selezione delle categorie per i libri di attivit\à.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Comprendi cosa copre la tua licenza commerciale, a quali piattaforme si applica e quali diritti ricevi quando vendi schede create con i generatori di LessonCraftStudio.',
     },

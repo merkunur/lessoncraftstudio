@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'creer-fiches-comparaison-tailles',
       title: 'Créer des fiches de comparaison Plus ou Moins',
       description: 'Le complément naturel de la comparaison de tailles. Les fiches Plus ou Moins comparent les quantités (supérieur, inférieur, égal) tandis que Grand et Petit compare les tailles visuelles.',
     },
     {
-      slug: 'create-pattern-worksheets',
+      slug: 'creer-fiches-sequences-logiques',
       title: 'Créer des fiches de reconnaissance de motifs',
       description: 'Une autre compétence de discrimination visuelle qui se combine bien avec la comparaison de tailles. Les fiches de motifs développent la reconnaissance de séquences et la pensée logique.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Élargissez votre gamme de produits d\'apprentissage visuel avec des fiches d\'association qui développent les compétences d\'appariement visuel en complément de vos produits de discrimination des tailles.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass Entreprise d\'Imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide Entreprise Cahiers d\'Activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des Licences Commerciales' },
-    { pageType: 'app', slug: 'big-small-worksheets', anchorText: 'Générateur de Fiches Grand et Petit — Détails Complets' },
-    { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'Générateur de Comparaison Plus ou Moins — Détails Complets' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Essayez le Générateur de Fiches Grand et Petit' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass Entreprise d\'Imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide Entreprise Cahiers d\'Activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des Licences Commerciales' },
+    { pageType: 'app', slug: 'grand-petit-fiches', anchorText: 'Générateur de Fiches Grand et Petit — Détails Complets' },
+    { pageType: 'app', slug: 'comparaison-quantites-fiches', anchorText: 'Générateur de Comparaison Plus ou Moins — Détails Complets' },
+    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Essayez le Générateur de Fiches Grand et Petit' },
   ],
 
   toolsRecommended: [

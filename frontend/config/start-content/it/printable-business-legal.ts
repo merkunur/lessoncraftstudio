@@ -181,22 +181,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale completa che copre selezione della nicchia, creazione del prodotto, confronto piattaforme, strategia dei prezzi e costruzione del catalogo per tutti i marketplace di stampabili.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Guida dettagliata sulle licenze commerciali per prodotti stampabili, incluso cosa coprono le licenze commerciali, come usarle e come strutturare i termini di licenza per i tuoi clienti.',
     },
     {
-      slug: 'printable-business-income',
+      slug: 'reddito-attivita-stampabili',
       title: 'Reddito da Attività Stampabili: Aspettative Realistiche',
       description: 'Aspettative di fatturato oneste e i fattori operativi che determinano il reddito in ogni fase di crescita, incluso il contesto di pianificazione finanziaria per gli obblighi fiscali.',
     },
     {
-      slug: 'scaling-printable-business',
+      slug: 'guida-scalare-attivita-stampabili',
       title: 'Da Lavoretto Secondario ad Attività di Stampabili a Tempo Pieno',
       description: 'Framework di crescita strategica per ogni fase aziendale, inclusi i traguardi operativi che attivano nuove considerazioni fiscali e legali man mano che la tua attività cresce.',
     },

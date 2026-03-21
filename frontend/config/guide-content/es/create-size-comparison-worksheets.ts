@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'crear-fichas-comparacion-tamanos',
       title: 'Crear fichas de comparación mayor o menor',
       description: 'El complemento natural de la comparación de tamaños. Las fichas de mayor o menor comparan cantidades (mayor que, menor que, igual a) mientras que grande y pequeño compara tamaños visuales.',
     },

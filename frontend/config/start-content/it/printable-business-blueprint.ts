@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale che copre ogni aspetto del lancio di un\'attività di stampabili. Inizia qui se hai bisogno di una guida completa passo-passo da zero alla prima vendita.',
     },
     {
-      slug: 'create-worksheets-that-sell',
+      slug: 'creare-schede-che-vendono',
       title: 'Come Creare Schede Professionali Che Vendono',
       description: 'Approfondimento sulla qualità della creazione prodotti: cosa rende le schede professionali, come usare i generatori efficacemente e le tecniche specifiche che trasformano schede generiche in prodotti scelti dagli acquirenti.',
     },
     {
-      slug: 'etsy-printable-business',
+      slug: 'attivita-stampabili-etsy',
       title: 'Masterclass Attività Stampabili su Etsy',
       description: 'Guida specifica per la piattaforma Etsy che copre configurazione del negozio, SEO delle inserzioni, ottimizzazione dei tag e tecniche di scalabilità su misura per il marketplace Etsy.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Comprendi cosa copre la tua licenza commerciale, a quali piattaforme si applica e quali diritti ricevi quando vendi schede create con i generatori LessonCraftStudio.',
     },

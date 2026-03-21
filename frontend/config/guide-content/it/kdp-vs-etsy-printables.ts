@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'aprire-negozio-stampabili-etsy',
+      slug: 'aprire-negozio-etsy-stampabili',
       title: 'Aprire un Negozio Etsy di Stampabili da Zero',
       description: 'La guida completa alla configurazione di Etsy per venditori di stampabili. Copre la creazione del negozio, l\'ottimizzazione della prima inserzione, i fondamenti SEO di Etsy e la costruzione di un catalogo prodotti che genera vendite costanti.',
     },
@@ -156,9 +156,9 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'vendere-schede-matematica-etsy', anchorText: 'Come Vendere Schede di Matematica su Etsy' },
-    { pageType: 'guide', slug: 'aprire-negozio-stampabili-etsy', anchorText: 'Come Aprire un Negozio Etsy di Stampabili da Zero' },
-    { pageType: 'guide', slug: 'seo-etsy-stampabili-educativi', anchorText: 'SEO Etsy per Stampabili Educativi' },
-    { pageType: 'guide', slug: 'creare-bundle-schede-etsy', anchorText: 'Come Creare Bundle di Schede su Etsy' },
+    { pageType: 'guide', slug: 'aprire-negozio-etsy-stampabili', anchorText: 'Come Aprire un Negozio Etsy di Stampabili da Zero' },
+    { pageType: 'guide', slug: 'seo-etsy-materiale-didattico', anchorText: 'SEO Etsy per Stampabili Educativi' },
+    { pageType: 'guide', slug: 'creare-pacchetti-schede-etsy', anchorText: 'Come Creare Bundle di Schede su Etsy' },
     { pageType: 'guide', slug: 'libri-attivita-matematica-kdp', anchorText: 'Come Creare Libri di Attività Matematiche per Amazon KDP' },
     { pageType: 'guide', slug: 'pubblicare-libri-puzzle-kdp', anchorText: 'Come Pubblicare Libri di Puzzle su Amazon KDP' },
     { pageType: 'guide', slug: 'formattazione-kdp-schede', anchorText: 'Guida alla Formattazione KDP per Libri di Schede' },

@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'A visual perception companion to odd one out. Shadow matching worksheets develop silhouette recognition skills, complementing the visual discrimination focus of odd one out puzzles.',
     },
     {
-      slug: 'create-missing-pieces-worksheets',
+      slug: 'create-missing-pieces-puzzles',
       title: 'Create Missing Pieces Worksheets',
       description: 'Another visual discrimination format. Missing pieces worksheets challenge students to find what is missing from an image, exercising related observation skills.',
     },

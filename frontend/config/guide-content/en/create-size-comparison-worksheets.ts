@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'create-size-comparison-worksheets',
       title: 'Create More or Less Comparison Worksheets',
       description: 'The natural companion to size comparison. More or Less worksheets compare quantities (greater than, less than, equal to) while Big & Small compares visual sizes.',
     },

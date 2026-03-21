@@ -208,7 +208,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-fichas-associacao', anchorText: 'Gerador de Fichas de Associação' },
     { pageType: 'tool', slug: 'gerador-fichas-intruso', anchorText: 'Gerador de Fichas do Intruso' },
     { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
-    { pageType: 'tool', slug: 'gerador-fichas-colorir', anchorText: 'Gerador de Fichas para Colorir' },
+    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Fichas para Colorir' },
   ],
 
   visuals: {

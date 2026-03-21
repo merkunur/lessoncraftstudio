@@ -210,8 +210,8 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Generador de Crucigramas con Imágenes' },
     { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Generador de Fichas Búsqueda del Tesoro' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-encuentra-diferente', anchorText: 'Generador de Fichas Encuentra el Diferente' },
-    { pageType: 'tool', slug: 'generador-fichas-relacionar', anchorText: 'Generador de Fichas de Relacionar' },
+    { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas Encuentra el Diferente' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Relacionar' },
     { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
   ],
 

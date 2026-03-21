@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'buscar-objetos-fichas', anchorText: 'Gerador de cenas de buscar objetos — Todos os detalhes' },
-    { pageType: 'app', slug: 'labirintos-imagens-fichas', anchorText: 'Gerador de labirintos com imagens — Todos os detalhes' },
-    { pageType: 'tool', slug: 'gerador-busca-objetos', anchorText: 'Experimente o Gerador de cenas de objetos ocultos' },
+    { pageType: 'app', slug: 'encontrar-objetos-fichas', anchorText: 'Gerador de cenas de buscar objetos — Todos os detalhes' },
+    { pageType: 'app', slug: 'labirinto-caminhos-fichas', anchorText: 'Gerador de labirintos com imagens — Todos os detalhes' },
+    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: 'Experimente o Gerador de cenas de objetos ocultos' },
   ],
 
   toolsRecommended: [

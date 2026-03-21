@@ -142,42 +142,42 @@ Les produits numériques offrent également une valeur post-vente unique grâce 
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creer-gamme-produits-imprimables',
       anchorText: 'Comment créer une gamme de produits imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiel-pedagogique',
       anchorText: 'SEO Etsy pour les imprimables éducatifs',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creer-packs-fiches-exercices',
       anchorText: 'Comment créer des bundles de fiches qui se vendent',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'choix-niche-imprimables',
       anchorText: 'Guide de sélection de niche pour business d\'imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-saisonnier-imprimables',
       anchorText: 'Calendrier marketing saisonnier pour vendeurs d\'imprimables',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guide-complet-activite-imprimables',
       anchorText: 'Guide complet pour lancer un business d\'imprimables',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guide-licence-commerciale',
       anchorText: 'Guide des licences commerciales',
     },
     {
       pageType: 'idea',
-      slug: 'print-on-demand-printable-ideas',
+      slug: 'impression-demande-idees-imprimables',
       anchorText: 'Idées de business d\'impression à la demande',
     },
   ],

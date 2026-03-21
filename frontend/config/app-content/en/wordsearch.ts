@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'sell-language-worksheets-etsy',
+      slug: 'sell-word-search-etsy',
       anchorText: 'Guide to Selling Language Worksheets on Etsy',
     },
     {

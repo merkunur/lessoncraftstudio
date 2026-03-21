@@ -210,7 +210,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'puzzle-griglia-schede',
+      slug: 'griglia-abbinamento-schede',
       anchorText: 'Generatore di Puzzle a Griglia',
     },
     {

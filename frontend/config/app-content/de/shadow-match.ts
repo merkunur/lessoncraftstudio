@@ -224,7 +224,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'ausmalbilder-arbeitsblaetter',
+      slug: 'malvorlagen-arbeitsblaetter',
       anchorText: 'Ausmalbilder-Arbeitsblatt-Generator',
     },
     {
@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'schattenbilder-zuordnen-ersteller',
+      slug: 'schattenbilder-ersteller',
       anchorText: 'Schattenbilder-Zuordnen-Ersteller',
     },
     {

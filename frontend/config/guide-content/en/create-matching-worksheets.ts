@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'Bingo cards pair naturally with matching worksheets for game-based learning bundles. Both use themed images and visual recognition skills.',
     },
     {
-      slug: 'create-handwriting-practice-sheets',
+      slug: 'create-handwriting-sheets',
       title: 'Create Handwriting Practice Sheets',
       description: 'Combine letter matching with handwriting practice for comprehensive literacy bundles that teach letter recognition and writing together.',
     },

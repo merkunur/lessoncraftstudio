@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Le complément naturel de la classification par tri. Les fiches d\'association apparient des images liées, complétant le format de tri par catégorie pour une gamme complète de produits de classification.',
     },
     {
-      slug: 'create-odd-one-out-worksheets',
+      slug: 'creer-fiches-intrus',
       title: 'Créer des fiches d\'intrus',
       description: 'Un autre cousin des compétences de classification. Les fiches d\'intrus demandent aux élèves d\'identifier les éléments qui n\'appartiennent pas au groupe, renforçant les mêmes compétences de catégorisation que le tri.',
     },
     {
-      slug: 'create-bingo-cards',
+      slug: 'creer-cartes-bingo',
       title: 'Créer des cartes de bingo',
       description: 'Utilisez les mêmes collections d\'images thématiques pour créer des produits de cartes de bingo. Les cartes de bingo se regroupent bien avec les fiches de tri pour des packs d\'activités thématiques complets.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass Entreprise d\'Imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide Entreprise Cahiers d\'Activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des Licences Commerciales' },
-    { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Générateur de Fiches de Tri d\'Images — Détails Complets' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de Fiches d\'Association — Détails Complets' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Essayez l\'Outil de Tri d\'Images' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass Entreprise d\'Imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide Entreprise Cahiers d\'Activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des Licences Commerciales' },
+    { pageType: 'app', slug: 'tri-images-fiches', anchorText: 'Générateur de Fiches de Tri d\'Images — Détails Complets' },
+    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de Fiches d\'Association — Détails Complets' },
+    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Essayez l\'Outil de Tri d\'Images' },
   ],
 
   toolsRecommended: [

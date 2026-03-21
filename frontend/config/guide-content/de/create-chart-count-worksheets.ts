@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-big-and-small-worksheets',
+      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
       title: 'Groß-Klein-Arbeitsblätter erstellen',
       description: 'Ein Visuelles-Lernen-Begleiter, der Größenvergleichsübungen erstellt. Groß-Klein-Arbeitsblätter ergänzen Bilddiagramme in visuellen Lernpaketen und bauen Beobachtungsfähigkeiten neben Datendarstellung auf.',
     },
     {
-      slug: 'create-pattern-train-worksheets',
+      slug: 'muster-arbeitsblaetter-erstellen',
       title: 'Musterzug-Arbeitsblätter erstellen',
       description: 'Ein Visuelles-Lernen-Begleiter für sequenzielle Mustererkennung. Musterzug-Arbeitsblätter ergänzen Bilddiagramme, indem sie sequenzielles Denken neben Datenerfassungsfähigkeiten entwickeln.',
     },

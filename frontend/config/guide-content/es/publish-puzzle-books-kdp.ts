@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
     { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de sopas de letras — Todos los detalles' },
-    { pageType: 'tool', slug: 'generador-crucigramas', anchorText: 'Prueba el generador de crucigramas' },
+    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Prueba el generador de crucigramas' },
   ],
 
   toolsRecommended: [

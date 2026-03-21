@@ -234,7 +234,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bilder-bingo-ersteller',
+      slug: 'bingo-karten-ersteller',
       anchorText: 'Bilder-Bingo-Ersteller',
     },
     {

@@ -219,12 +219,12 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'zaehlen-finden-arbeitsblaetter',
+      slug: 'suchen-und-zaehlen-arbeitsblaetter',
       anchorText: 'Zählen-und-Finden-Arbeitsblatt-Generator',
     },
     {
       pageType: 'app',
-      slug: 'ausmalbilder-arbeitsblaetter',
+      slug: 'malvorlagen-arbeitsblaetter',
       anchorText: 'Ausmalbilder-Arbeitsblatt-Generator',
     },
     {

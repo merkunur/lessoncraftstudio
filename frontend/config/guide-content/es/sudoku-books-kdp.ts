@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'crear-sudoku-imagenes', anchorText: 'Cómo crear sudoku con imágenes para niños' },
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'sudoku-fichas', anchorText: 'Generador de puzles de sudoku — Todos los detalles' },
+    { pageType: 'app', slug: 'sudoku-fichas-ninos', anchorText: 'Generador de puzles de sudoku — Todos los detalles' },
   ],
 
   toolsRecommended: [

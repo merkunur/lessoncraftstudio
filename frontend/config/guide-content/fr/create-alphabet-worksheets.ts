@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-handwriting-sheets',
+      slug: 'creer-fiches-ecriture',
       title: 'Créer des fiches d\'écriture manuscrite',
       description: 'Un complément d\'alphabétisation aux trains alphabet. Après avoir reconnu les lettres par association, les fiches d\'écriture permettent aux élèves de pratiquer la formation de ces mêmes lettres avec du traçage guidé et des lignes d\'écriture.',
     },
     {
-      slug: 'create-word-search-puzzles',
+      slug: 'creer-mots-caches',
       title: 'Créer des mots mêlés',
       description: 'Une progression au niveau des mots à partir de la reconnaissance des lettres. Les élèves qui maîtrisent les lettres individuelles grâce aux trains alphabet passent à la recherche de mots complets cachés dans des grilles de lettres.',
     },
     {
-      slug: 'create-pattern-worksheets',
+      slug: 'creer-fiches-sequences-logiques',
       title: 'Créer des fiches de motifs train',
       description: 'Le même format visuel engageant de wagons colorés appliqué à la reconnaissance de motifs au lieu des lettres. Regroupez les deux outils au format train pour une gamme de produits « Activités train » cohérente.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer un business d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass business imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Générateur de fiches train alphabet — Détails complets' },
-    { pageType: 'app', slug: 'handwriting-worksheets', anchorText: 'Générateur de fiches d\'écriture — Détails complets' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Essayer le Créateur de fiches train alphabet' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer un business d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass business imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide business cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'train-alphabet-fiches', anchorText: 'Générateur de fiches train alphabet — Détails complets' },
+    { pageType: 'app', slug: 'ecriture-fiches', anchorText: 'Générateur de fiches d\'écriture — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Essayer le Créateur de fiches train alphabet' },
   ],
 
   toolsRecommended: [

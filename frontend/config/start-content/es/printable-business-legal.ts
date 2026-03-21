@@ -196,7 +196,7 @@ const content: StartContent = {
       description: 'Expectativas de ingresos honestas y los factores operativos que determinan los ingresos en cada etapa de crecimiento, incluyendo el contexto de planificación financiera para las obligaciones fiscales.',
     },
     {
-      slug: 'escalar-negocio-imprimibles',
+      slug: 'guia-escalar-negocio-imprimibles',
       title: 'Escalar de Actividad Secundaria a Negocio de Imprimibles a Tiempo Completo',
       description: 'Marco estratégico de crecimiento para cada fase del negocio, incluyendo los hitos operativos que desencadenan nuevas consideraciones fiscales y legales a medida que tu negocio escala.',
     },

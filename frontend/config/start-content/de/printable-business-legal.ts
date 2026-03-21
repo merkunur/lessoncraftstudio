@@ -196,7 +196,7 @@ const content: StartContent = {
       description: 'Ehrliche Umsatzerwartungen und die betrieblichen Faktoren, die das Einkommen in jeder Wachstumsphase bestimmen, einschließlich des finanziellen Planungskontexts für Steuerpflichten.',
     },
     {
-      slug: 'druckvorlagen-geschaeft-skalieren',
+      slug: 'druckvorlagen-geschaeft-skalieren-anleitung',
       title: 'Vom Nebenverdienst zum hauptberuflichen Druckvorlagen-Geschäft',
       description: 'Strategischer Wachstumsrahmen für jede Geschäftsphase, einschließlich der betrieblichen Meilensteine, die neue steuerliche und rechtliche Überlegungen auslösen, wenn Ihr Geschäft wächst.',
     },

@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-find-and-count-worksheets',
+      slug: 'create-counting-worksheets',
       title: 'Create Find and Count Worksheets',
       description: 'The natural companion to hidden object scenes. Find and Count combines visual search with counting practice for a dual-skill worksheet product.',
     },
     {
-      slug: 'create-picture-path-worksheets',
+      slug: 'create-maze-worksheets',
       title: 'Create Picture Path Maze Worksheets',
       description: 'Another visual search format where children navigate themed image mazes. Expands your search-and-find product line into the maze category.',
     },

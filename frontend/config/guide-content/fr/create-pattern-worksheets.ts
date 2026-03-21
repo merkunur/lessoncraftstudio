@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Les activités d\'association se marient naturellement avec la reconnaissance de motifs. Les deux développent les compétences de discrimination visuelle, et les regrouper crée des produits d\'apprentissage visuel complets.',
     },
     {
-      slug: 'create-addition-worksheets',
+      slug: 'creer-fiches-addition',
       title: 'Créer des fiches d\'addition',
       description: 'La reconnaissance de motifs est une compétence pré-mathématique fondamentale. Les fiches d\'addition sont l\'étape naturelle suivante pour les enfants qui maîtrisent l\'identification de motifs.',
     },
     {
-      slug: 'create-coloring-pages',
+      slug: 'creer-pages-coloriage',
       title: 'Créer des pages de coloriage',
       description: 'Élargissez votre catalogue d\'apprentissage visuel avec des pages de coloriage thématiques. Les activités de coloriage complètent les fiches de motifs pour les jeunes enfants et créent des lots polyvalents.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Générateur de Fiches de Suites Logiques — Détails complets' },
-    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Générateur de Train de Motifs — Détails complets' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Essayer le Générateur de Fiches de Suites Logiques' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'sequences-logiques-fiches', anchorText: 'Générateur de Fiches de Suites Logiques — Détails complets' },
+    { pageType: 'app', slug: 'train-suites-logiques-fiches', anchorText: 'Générateur de Train de Motifs — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Essayer le Générateur de Fiches de Suites Logiques' },
   ],
 
   toolsRecommended: [

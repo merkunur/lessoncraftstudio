@@ -160,8 +160,8 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'lectoescrita-fichas', anchorText: 'Gerador de fichas de escrita — Todos os detalhes' },
-    { pageType: 'app', slug: 'comboio-alfabeto-fichas', anchorText: 'Gerador de comboio do alfabeto — Todos os detalhes' },
+    { pageType: 'app', slug: 'caligrafia-fichas', anchorText: 'Gerador de fichas de escrita — Todos os detalhes' },
+    { pageType: 'app', slug: 'trem-alfabeto-fichas', anchorText: 'Gerador de comboio do alfabeto — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Experimente o gerador de fichas de escrita' },
   ],
 

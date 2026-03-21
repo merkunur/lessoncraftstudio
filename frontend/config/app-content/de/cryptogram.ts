@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bildkryptogramm-ersteller',
+      slug: 'kryptogramm-ersteller',
       anchorText: 'Bildkryptogramm-Arbeitsblatt-Ersteller',
     },
     {
       pageType: 'guide',
-      slug: 'sprach-arbeitsblaetter-verkaufen-etsy',
+      slug: 'wortsuche-verkaufen-etsy',
       anchorText: 'Leitfaden: Sprach-Arbeitsblätter auf Etsy verkaufen',
     },
     {

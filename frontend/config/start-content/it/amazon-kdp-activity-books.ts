@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale completa che copre selezione della nicchia, creazione prodotti, confronto piattaforme, strategia di pricing e costruzione del catalogo per tutti i marketplace di stampabili.',
     },
     {
-      slug: 'etsy-printable-business',
+      slug: 'attivita-stampabili-etsy',
       title: 'Masterclass Attività Stampabili su Etsy',
       description: 'La controparte specifica per Etsy di questa guida. Copre la configurazione del negozio, SEO Etsy, ottimizzazione delle inserzioni e strategie di scalabilità per la vendita di download digitali stampabili su Etsy.',
     },
     {
-      slug: 'create-worksheets-that-sell',
+      slug: 'creare-schede-che-vendono',
       title: 'Come Creare Schede Didattiche Che Vendono',
       description: 'Approfondimento sulla qualità nella creazione dei prodotti: standard di design, tecniche di differenziazione e i metodi che fanno scegliere agli acquirenti le tue schede rispetto alla concorrenza.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Scopri cosa copre una licenza commerciale, come si applica alla pubblicazione su KDP e altre piattaforme, e quali diritti ricevi con la licenza del generatore di schede.',
     },

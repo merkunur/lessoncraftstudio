@@ -138,7 +138,7 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-picture-sudoku-worksheets',
+      slug: 'create-picture-sudoku',
       title: 'Create Picture Sudoku Worksheets',
       description: 'Another puzzle-format product that pairs perfectly with mazes. Picture sudoku uses themed images in logic grid puzzles for a different cognitive challenge.',
     },

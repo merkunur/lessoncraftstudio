@@ -195,7 +195,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'additions-arbeitsblaetter', anchorText: 'Additions-Arbeitsblätter — Vollständige Produktdetails' },
+    { pageType: 'app', slug: 'bilder-additions-arbeitsblaetter', anchorText: 'Additions-Arbeitsblätter — Vollständige Produktdetails' },
     { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller' },
     { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller' },

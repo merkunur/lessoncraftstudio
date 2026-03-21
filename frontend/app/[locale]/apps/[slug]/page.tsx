@@ -20,6 +20,7 @@ import ReadMoreText from '@/components/ReadMoreText';
 import Breadcrumb from '@/components/Breadcrumb';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
+import { isValidInternalLink } from '@/lib/resolve-internal-link';
 import {
   WorksheetShowcaseSection,
   TieredShowcaseSection,
@@ -1013,7 +1014,7 @@ export default async function AppDetailPage({
               <div className="container mx-auto px-4">
                 <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('exploreMore', locale)}</h2>
                 <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-                  {content.internalLinks.map((link, i) => {
+                  {content.internalLinks.filter(link => isValidInternalLink(link.pageType, link.slug)).map((link, i) => {
                     const prefix = link.pageType === 'app' ? 'apps'
                       : link.pageType === 'tool' ? 'tools'
                       : link.pageType === 'bundle' ? 'bundles'

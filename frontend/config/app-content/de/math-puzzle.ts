@@ -230,7 +230,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'mathe-raetsel-arbeitsblatt-ersteller',
+      slug: 'mathe-raetsel-ersteller',
       anchorText: 'Mathe-Rätsel-Arbeitsblatt-Ersteller',
     },
     {

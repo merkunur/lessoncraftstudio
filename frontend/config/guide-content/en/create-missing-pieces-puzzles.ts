@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'A visual perception cousin to missing pieces. Shadow matching exercises develop silhouette recognition and spatial analysis skills that complement jigsaw puzzle activities.',
     },
     {
-      slug: 'create-grid-match-puzzles',
+      slug: 'create-missing-pieces-puzzles',
       title: 'Create Grid Match Puzzles',
       description: 'A spatial reasoning companion where students match tiles in a grid layout. Grid-based matching develops related spatial awareness and part-to-whole reasoning.',
     },

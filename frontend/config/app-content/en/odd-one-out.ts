@@ -229,7 +229,7 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'puzzle-bundle',
+      slug: 'puzzles-logic-bundle',
       anchorText: 'Puzzles & Logic Toolkit — All 4 Puzzle Generators in One Package',
     },
     {

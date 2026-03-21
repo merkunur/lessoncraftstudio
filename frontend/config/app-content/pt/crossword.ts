@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'letras-embaralhadas-fichas',
+      slug: 'palavras-embaralhadas-fichas',
       anchorText: 'Gerador de Fichas de Letras Embaralhadas',
     },
     {
@@ -235,12 +235,12 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'pacote-busca-descobre',
+      slug: 'pacote-procura-encontra',
       anchorText: 'Pacote Busca e Descobre — Todas as Apps de Busca num Só Pacote',
     },
     {
       pageType: 'tool',
-      slug: 'gerador-palavras-cruzadas-imagens',
+      slug: 'gerador-palavras-cruzadas',
       anchorText: 'Gerador de Palavras Cruzadas com Imagens',
     },
     {

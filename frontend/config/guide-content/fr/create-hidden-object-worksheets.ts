@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-find-and-count-worksheets',
+      slug: 'creer-fiches-comptage',
       title: 'Créer des fiches Cherche et Compte',
       description: 'Le complément naturel aux scènes d\'objets cachés. Cherche et Compte combine la recherche visuelle avec la pratique du comptage pour un produit de fiche à double compétence.',
     },
     {
-      slug: 'create-picture-path-worksheets',
+      slug: 'creer-fiches-labyrinthes',
       title: 'Créer des fiches Labyrinthe d\'images',
       description: 'Un autre format de recherche visuelle où les enfants naviguent dans des labyrinthes d\'images thématiques. Élargit votre gamme de produits de recherche visuelle dans la catégorie labyrinthe.',
     },
     {
-      slug: 'create-word-search-puzzles',
+      slug: 'creer-mots-caches',
       title: 'Créer des mots mêlés',
       description: 'Les activités de recherche basées sur les mots complètent vos produits de recherche visuelle. Les mots mêlés sont parmi les produits imprimables les plus demandés sur tous les marketplaces.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Générateur de scènes Cherche et Trouve — Détails complets' },
-    { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Générateur de labyrinthes d\'images — Détails complets' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Essayer le créateur de scènes objets cachés' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'cherche-objets-fiches', anchorText: 'Générateur de scènes Cherche et Trouve — Détails complets' },
+    { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Générateur de labyrinthes d\'images — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Essayer le créateur de scènes objets cachés' },
   ],
 
   toolsRecommended: [

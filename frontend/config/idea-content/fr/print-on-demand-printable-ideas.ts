@@ -142,42 +142,42 @@ L'impression à la demande permet également de tester et d'itérer rapidement s
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creer-gamme-produits-imprimables',
       anchorText: 'Comment Créer une Gamme de Produits Imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiel-pedagogique',
       anchorText: 'SEO Etsy pour Imprimables Éducatifs',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creer-packs-fiches-exercices',
       anchorText: 'Comment Créer des Packs de Fiches qui se Vendent',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'choix-niche-imprimables',
       anchorText: 'Guide de Sélection de Niche pour Entreprises d\'Imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-saisonnier-imprimables',
       anchorText: 'Calendrier Marketing Saisonnier pour Vendeurs d\'Imprimables',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guide-complet-activite-imprimables',
       anchorText: 'Guide Complet pour Lancer une Entreprise d\'Imprimables',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guide-licence-commerciale',
       anchorText: 'Guide des Licences Commerciales',
     },
     {
       pageType: 'idea',
-      slug: 'subscription-box-printable-ideas',
+      slug: 'box-abonnement-idees-imprimables',
       anchorText: 'Idées de Box d\'Abonnement de Fiches Éducatives',
     },
   ],

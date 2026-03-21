@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'creare-pagine-colorare', anchorText: 'Come Creare Pagine da Colorare da Immagini Tematiche' },
     { pageType: 'start', slug: 'guida-completa-attivita-stampabili', anchorText: 'Guida Completa per Avviare un\'Attività di Stampabili' },
     { pageType: 'start', slug: 'guida-licenza-commerciale', anchorText: 'Guida alla Licenza Commerciale' },
-    { pageType: 'app', slug: 'schede-matematica', anchorText: 'Generatore di Schede di Matematica — Tutti i Dettagli' },
+    { pageType: 'app', slug: 'matematica-schede', anchorText: 'Generatore di Schede di Matematica — Tutti i Dettagli' },
   ],
 
   toolsRecommended: [

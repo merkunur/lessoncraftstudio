@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'crear-paginas-colorear', anchorText: 'Cómo crear páginas para colorear a partir de imágenes temáticas' },
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'fichas-matematicas', anchorText: 'Generador de fichas de matemáticas — Todos los detalles' },
+    { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: 'Generador de fichas de matemáticas — Todos los detalles' },
   ],
 
   toolsRecommended: [

@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'Add word search puzzles to your lineup. One of the top-selling printable categories that pairs naturally with themed coloring pages in bundles.',
     },
     {
-      slug: 'create-handwriting-worksheets',
+      slug: 'create-handwriting-sheets',
       title: 'Create Handwriting Worksheets',
       description: 'Handwriting practice sheets are a natural companion to coloring pages, especially for classroom activity bundles targeting early learners.',
     },

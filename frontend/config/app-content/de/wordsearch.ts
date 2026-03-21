@@ -240,7 +240,7 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'sprach-arbeitsblaetter-verkaufen-etsy',
+      slug: 'wortsuche-verkaufen-etsy',
       anchorText: 'Leitfaden: Sprach-Arbeitsblätter auf Etsy verkaufen',
     },
     {

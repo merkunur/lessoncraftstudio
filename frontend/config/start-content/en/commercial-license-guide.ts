@@ -209,7 +209,7 @@ const content: StartContent = {
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
     { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Addition Worksheet Generator — Full Details' },
     { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'addition-maker', anchorText: 'Try the Addition Maker' },
+    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Maker' },
   ],
 
   visuals: {

@@ -185,22 +185,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale completa che copre selezione della nicchia, creazione prodotti, confronto piattaforme, strategia di pricing e costruzione del catalogo per tutti i marketplace di stampabili.',
     },
     {
-      slug: 'create-worksheets-that-sell',
+      slug: 'creare-schede-che-vendono',
       title: 'Come Creare Schede Che Vendono',
       description: 'Approfondimento sulla qualità del prodotto: standard di design, tecniche di differenziazione e metodi specifici che fanno scegliere le tue schede agli acquirenti rispetto a quelle dei concorrenti.',
     },
     {
-      slug: 'amazon-kdp-activity-books',
+      slug: 'libri-attivita-amazon-kdp',
       title: 'Guida Libri di Attività Amazon KDP',
       description: 'Espanditi oltre Etsy con i libri di attività su Amazon KDP. Copre requisiti di formattazione, design della copertina, ricerca parole chiave e selezione categorie per il marketplace Amazon.',
     },
     {
-      slug: 'printable-business-blueprint',
+      slug: 'piano-attivita-stampabili',
       title: 'Il Blueprint per Attività Stampabili',
       description: 'La guida strutturata alla pianificazione aziendale per venditori di stampabili. Copre modellazione dei ricavi, pianificazione del catalogo, diversificazione delle piattaforme e milestone di crescita.',
     },

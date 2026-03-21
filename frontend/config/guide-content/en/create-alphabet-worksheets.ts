@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-handwriting-worksheets',
+      slug: 'create-handwriting-sheets',
       title: 'Create Handwriting Worksheets',
       description: 'A literacy companion to alphabet trains. After students recognize letters through matching, handwriting worksheets let them practice forming those same letters with guided tracing and writing lines.',
     },
     {
-      slug: 'create-word-search-worksheets',
+      slug: 'create-word-search-puzzles',
       title: 'Create Word Search Worksheets',
       description: 'A word-level progression from letter recognition. Students who master individual letters through alphabet trains advance to finding complete words hidden in letter grids.',
     },
     {
-      slug: 'create-pattern-train-worksheets',
+      slug: 'create-pattern-worksheets',
       title: 'Create Pattern Train Worksheets',
       description: 'The same engaging train-wagon visual format applied to pattern recognition instead of letters. Bundle both train-format tools for a cohesive "Train Activities" product line.',
     },
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
     { pageType: 'app', slug: 'alphabet-train-worksheets', anchorText: 'Alphabet Train Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'handwriting-worksheets', anchorText: 'Handwriting Worksheet Generator — Full Details' },
+    { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Handwriting Worksheet Generator — Full Details' },
     { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Try the Alphabet Train Worksheet Maker' },
   ],
 

@@ -143,7 +143,7 @@ const content: GuideContent = {
       description: 'El conteo lleva naturalmente a la suma. Crea fichas de suma temáticas que complementen tus productos de gráficos pictóricos para paquetes integrales de matemáticas tempranas.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'crear-fichas-comparacion-tamanos',
       title: 'Crear fichas de mayor o menor',
       description: 'Extiende el conteo a la comparación de cantidades. Las fichas de mayor o menor se combinan perfectamente con los gráficos pictóricos para una colección completa de habilidades de datos y comparación.',
     },

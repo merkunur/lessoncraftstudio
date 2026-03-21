@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'A path-finding cousin to treasure hunts. Maze worksheets develop related spatial navigation skills where students trace routes through passages, complementing the grid-based directional movement in treasure hunts.',
     },
     {
-      slug: 'create-grid-match-puzzles',
+      slug: 'create-missing-pieces-puzzles',
       title: 'Create Grid Match Puzzles',
       description: 'A grid-based companion where students match tiles in a spatial layout. Grid match exercises develop related spatial awareness on grid formats that complement coordinate grid practice.',
     },
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP Activity Book Business Guide' },
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
     { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Worksheet Generator — Full Details' },
-    { pageType: 'app', slug: 'hidden-object-worksheets', anchorText: 'Hidden Object Worksheet Generator — Full Details' },
+    { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden Object Worksheet Generator — Full Details' },
     { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Try the Treasure Hunt Worksheet Maker' },
   ],
 

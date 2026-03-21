@@ -148,7 +148,7 @@ const content: GuideContent = {
       description: 'Eine Progression auf Wortebene von der Buchstabenerkennung. Schüler, die einzelne Buchstaben durch Alphabet-Züge meistern, steigen zum Finden ganzer Wörter in Buchstabenrastern auf.',
     },
     {
-      slug: 'create-pattern-train-worksheets',
+      slug: 'muster-arbeitsblaetter-erstellen',
       title: 'Muster-Zug-Arbeitsblätter erstellen',
       description: 'Dasselbe ansprechende Zug-Waggon-Visuelformat angewandt auf Mustererkennung statt Buchstaben. Bündeln Sie beide Zug-Format-Werkzeuge für eine zusammenhängende „Zug-Aktivitäten"-Produktlinie.',
     },

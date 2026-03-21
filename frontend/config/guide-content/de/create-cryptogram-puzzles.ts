@@ -143,12 +143,12 @@ const content: GuideContent = {
       description: 'Ein Lese-Begleiter zu Kryptogramm-Rätseln. Wortsuchrätsel trainieren visuelle Scan-Fähigkeiten, die das deduktionsbasierte Code-Knacken in Kryptogramm-Chiffren ergänzen und eine vielseitige Lese-Produktlinie schaffen.',
     },
     {
-      slug: 'create-word-scramble-worksheets',
+      slug: 'kryptogramm-raetsel-erstellen',
       title: 'Buchstabensalat-Arbeitsblätter erstellen',
       description: 'Ein Buchstaben-Neuordnungs-Begleiter. Buchstabensalat-Arbeitsblätter üben eine andere kognitive Fähigkeit als Chiffre-Entschlüsselung, und die beiden Formate lassen sich natürlich in Lese-Rätselpaketen kombinieren.',
     },
     {
-      slug: 'create-word-guess-worksheets',
+      slug: 'praepositionen-arbeitsblaetter-erstellen',
       title: 'Wörterraten-Arbeitsblätter erstellen',
       description: 'Ein Rechtschreib-Abruf-Begleiter, der Wortschatz neben Kryptogramm-Code-Knacken aufbaut. Schüler, die Chiffre-Phrasen entschlüsseln, profitieren von Wörterraten-Aktivitäten, die denselben Wortschatz durch ein anderes Rätselformat festigen.',
     },

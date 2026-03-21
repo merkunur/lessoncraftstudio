@@ -138,17 +138,17 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'sell-math-worksheets-etsy',
+      slug: 'vendere-schede-matematica-etsy',
       title: 'Vendere Schede di Matematica su Etsy',
       description: 'Espandi il tuo negozio Etsy nella categoria delle schede di matematica. Le schede di matematica completano i prodotti puzzle e attraggono un segmento di acquirenti diverso — genitori e insegnanti che cercano pratica strutturata di aritmetica.',
     },
     {
-      slug: 'create-word-search-puzzles',
+      slug: 'creare-cerca-parole',
       title: 'Creare Cerca Parole',
       description: 'La guida dettagliata alla creazione del prodotto per il generatore di Cerca Parole. Scopri ogni funzionalità, impostazione e tecnica di produzione per creare le cerca parole citate in questa guida alla vendita su Etsy.',
     },
     {
-      slug: 'create-crossword-puzzles',
+      slug: 'creare-cruciverba',
       title: 'Creare Cruciverba',
       description: 'La guida alla creazione del prodotto per il generatore di Cruciverba. Scopri come creare cruciverba con indizi generati automaticamente che completano le tue inserzioni di cerca parole.',
     },

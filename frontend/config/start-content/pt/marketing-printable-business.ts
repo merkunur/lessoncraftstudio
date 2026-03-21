@@ -216,9 +216,9 @@ const content: StartContent = {
     { pageType: 'start', slug: 'rendimentos-negocio-imprimiveis', anchorText: 'Rendimentos de um Negócio de Imprimíveis: Expectativas Realistas' },
     { pageType: 'start', slug: 'ferramentas-negocio-imprimiveis', anchorText: 'Ferramentas Essenciais para Donos de Negócios de Imprimíveis' },
     { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Sopa de Letras — Todos os Detalhes' },
-    { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Gerador de Cartões de Bingo — Todos os Detalhes' },
+    { pageType: 'app', slug: 'bingo-ilustrado-fichas', anchorText: 'Gerador de Cartões de Bingo — Todos os Detalhes' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimente o Gerador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'gerador-cartoes-bingo', anchorText: 'Experimente o Gerador de Cartões de Bingo' },
+    { pageType: 'tool', slug: 'gerador-cartelas-bingo', anchorText: 'Experimente o Gerador de Cartões de Bingo' },
   ],
 
   visuals: {

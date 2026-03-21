@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de sopa de letras — Todos os detalhes' },
-    { pageType: 'app', slug: 'palavras-cruzadas-fichas', anchorText: 'Gerador de palavras cruzadas — Todos os detalhes' },
+    { pageType: 'app', slug: 'palavras-cruzadas-imagens-fichas', anchorText: 'Gerador de palavras cruzadas — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimente o gerador de sopa de letras' },
   ],
 

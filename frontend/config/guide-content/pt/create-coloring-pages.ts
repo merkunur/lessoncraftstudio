@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia da licença comercial' },
     { pageType: 'app', slug: 'desenhos-colorir-fichas', anchorText: 'Gerador de Páginas para Colorir — Todos os detalhes' },
-    { pageType: 'app', slug: 'desenho-quadricula-fichas', anchorText: 'Gerador de Desenhar e Colorir — Todos os detalhes' },
+    { pageType: 'app', slug: 'desenho-grade-fichas', anchorText: 'Gerador de Desenhar e Colorir — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Experimentar o Gerador de Páginas para Colorir' },
   ],
 

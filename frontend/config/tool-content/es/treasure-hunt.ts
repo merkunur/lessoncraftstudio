@@ -203,12 +203,12 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: 'Fichas de Búsqueda del Tesoro — Detalles Completos del Producto' },
     { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Creador de Crucigramas con Imágenes' },
-    { pageType: 'tool', slug: 'generador-buscar-contar', anchorText: 'Creador de Buscar y Contar' },
-    { pageType: 'tool', slug: 'generador-buscar-objetos', anchorText: 'Creador de Buscar Objetos' },
+    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Creador de Buscar y Contar' },
+    { pageType: 'tool', slug: 'generador-busca-objetos', anchorText: 'Creador de Buscar Objetos' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-laberinto-imagenes', anchorText: 'Creador de Laberintos con Imágenes' },
-    { pageType: 'tool', slug: 'generador-emparejamiento', anchorText: 'Creador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-rompecabezas-matematicos', anchorText: 'Creador de Rompecabezas Matemáticos' },
+    { pageType: 'tool', slug: 'generador-recorrido-imagenes', anchorText: 'Creador de Laberintos con Imágenes' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Emparejamiento' },
+    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: 'Creador de Rompecabezas Matemáticos' },
   ],
 
   visuals: {

@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-addition-worksheets',
+      slug: 'creer-fiches-addition',
       title: 'Créer des fiches d\'addition',
       description: 'Le comptage mène naturellement à l\'addition. Créez des fiches d\'addition thématiques qui complètent vos produits graphiques en images pour des lots de mathématiques préscolaires complets.',
     },
     {
-      slug: 'create-more-or-less-worksheets',
+      slug: 'creer-fiches-comparaison-tailles',
       title: 'Créer des fiches plus ou moins',
       description: 'Étendez le comptage vers la comparaison de quantités. Les fiches plus ou moins se marient parfaitement avec les graphiques en images pour une collection complète de compétences en données et comparaison.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'La discrimination visuelle est un prérequis pour un comptage précis. Les fiches d\'association servent d\'activités d\'échauffement avant les exercices de graphiques en images.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Générateur de fiches comptage graphique — Détails complets' },
-    { pageType: 'app', slug: 'addition-worksheets', anchorText: 'Générateur de fiches d\'addition — Détails complets' },
-    { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Essayer le Créateur de fiches comptage graphique' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise de produits imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise de produits imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'graphique-images-fiches', anchorText: 'Générateur de fiches comptage graphique — Détails complets' },
+    { pageType: 'app', slug: 'addition-fiches', anchorText: 'Générateur de fiches d\'addition — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-graphique-images', anchorText: 'Essayer le Créateur de fiches comptage graphique' },
   ],
 
   toolsRecommended: [

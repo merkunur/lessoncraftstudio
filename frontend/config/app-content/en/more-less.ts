@@ -229,7 +229,7 @@ const content: AppContent = {
     },
     {
       pageType: 'guide',
-      slug: 'create-comparison-worksheets',
+      slug: 'create-size-comparison-worksheets',
       anchorText: 'How to Create Comparison Worksheets That Sell',
     },
     {

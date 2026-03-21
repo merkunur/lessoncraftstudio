@@ -210,7 +210,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'puzzle-griglia-schede',
+      slug: 'griglia-abbinamento-schede',
       anchorText: 'Generatore di Puzzle a Griglia',
     },
     {
@@ -225,7 +225,7 @@ const content: AppContent = {
     },
     {
       pageType: 'app',
-      slug: 'disegni-colorare-schede',
+      slug: 'disegni-da-colorare',
       anchorText: 'Generatore di Schede da Colorare',
     },
     {

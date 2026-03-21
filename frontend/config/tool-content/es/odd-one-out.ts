@@ -206,11 +206,11 @@ const content: ToolContent = {
 
   internalLinks: [
     { pageType: 'app', slug: 'encuentra-el-diferente-fichas', anchorText: 'Fichas del Intruso — Detalles Completos del Producto' },
-    { pageType: 'tool', slug: 'generador-fichas-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
-    { pageType: 'tool', slug: 'generador-fichas-sombras', anchorText: 'Creador de Fichas de Sombras' },
-    { pageType: 'tool', slug: 'generador-fichas-cuadricula', anchorText: 'Creador de Fichas de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-emparejamiento', anchorText: 'Creador de Fichas de Emparejamiento' },
-    { pageType: 'tool', slug: 'generador-fichas-clasificacion', anchorText: 'Creador de Fichas de Clasificación' },
+    { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Creador de Fichas de Piezas Faltantes' },
+    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Creador de Fichas de Sombras' },
+    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Creador de Fichas de Cuadrícula' },
+    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Creador de Fichas de Emparejamiento' },
+    { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Creador de Fichas de Clasificación' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
   ],

@@ -225,7 +225,7 @@ const content: AppContent = {
     },
     {
       pageType: 'bundle',
-      slug: 'pacote-busca-descobre',
+      slug: 'pacote-procura-encontra',
       anchorText: 'Pacote Busca e Descobre — Todas as Apps de Busca num Só Pacote',
     },
     {

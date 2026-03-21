@@ -138,12 +138,12 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-alphabet-train-worksheets',
+      slug: 'create-alphabet-worksheets',
       title: 'Create Alphabet Train Worksheets',
       description: 'A literacy companion to preposition worksheets. Alphabet train worksheets use letter-image matching pairs with spatial arrangements, building both letter recognition and spatial vocabulary together.',
     },
     {
-      slug: 'create-word-guess-worksheets',
+      slug: 'create-preposition-worksheets',
       title: 'Create Word Guess Worksheets',
       description: 'A language companion for vocabulary building. Students who learn spatial prepositions can expand their vocabulary further with word guess puzzles that test word knowledge through visual clues.',
     },

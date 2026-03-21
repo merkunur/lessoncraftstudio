@@ -160,8 +160,8 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Masterclass de negócio de imprimíveis no Etsy' },
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
-    { pageType: 'app', slug: 'criptograma-fichas', anchorText: 'Gerador de Fichas de Criptogramas — Detalhes completos' },
-    { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Gerador de Fichas de Sopa de Letras — Detalhes completos' },
+    { pageType: 'app', slug: 'criptograma-imagens-fichas', anchorText: 'Gerador de Fichas de Criptogramas — Detalhes completos' },
+    { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Fichas de Sopa de Letras — Detalhes completos' },
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Experimente o Gerador de Criptogramas' },
   ],
 

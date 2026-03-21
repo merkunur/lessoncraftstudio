@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches de correspondance',
       description: 'Le compagnon de correspondance visuelle des puzzles d\'ombres. Les fiches de correspondance utilisent le traçage de lignes entre paires, complétant le format silhouette et image divisée pour une gamme complète de produits de perception visuelle.',
     },
     {
-      slug: 'create-sorting-worksheets',
+      slug: 'creer-fiches-tri',
       title: 'Créer des fiches de tri par catégories',
       description: 'Un autre outil de classification visuelle. Les fiches de tri utilisent les mêmes collections d\'images thématiques, ce qui en fait des partenaires naturels pour les lots avec les produits de correspondance d\'ombres.',
     },
     {
-      slug: 'create-odd-one-out-worksheets',
+      slug: 'creer-fiches-intrus',
       title: 'Créer des fiches de l\'intrus',
       description: 'Un cousin de discrimination visuelle. Les fiches de l\'intrus demandent aux élèves d\'identifier les éléments qui n\'appartiennent pas au groupe, renforçant les mêmes compétences de perception que la correspondance d\'ombres.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide de la licence commerciale' },
-    { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Générateur de fiches de correspondance d\'ombres — Détails complets' },
-    { pageType: 'app', slug: 'matching-worksheets', anchorText: 'Générateur de fiches de correspondance — Détails complets' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Essayer l\'Outil de Création de Fiches d\'Ombres' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise de cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide de la licence commerciale' },
+    { pageType: 'app', slug: 'discrimination-visuelle-fiches', anchorText: 'Générateur de fiches de correspondance d\'ombres — Détails complets' },
+    { pageType: 'app', slug: 'association-fiches', anchorText: 'Générateur de fiches de correspondance — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Essayer l\'Outil de Création de Fiches d\'Ombres' },
   ],
 
   toolsRecommended: [

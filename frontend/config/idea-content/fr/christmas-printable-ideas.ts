@@ -150,42 +150,42 @@ Les opportunités après Noël prolongent la saison de vente des fêtes pour les
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creer-gamme-produits-imprimables',
       anchorText: 'Comment Créer une Gamme de Produits Imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiel-pedagogique',
       anchorText: 'SEO Etsy pour les Imprimables Éducatifs',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creer-packs-fiches-exercices',
       anchorText: 'Comment Créer des Packs de Fiches Qui Se Vendent',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'choix-niche-imprimables',
       anchorText: 'Guide de Sélection de Niche pour les Activités d\'Imprimables',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-saisonnier-imprimables',
       anchorText: 'Calendrier Marketing Saisonnier pour les Vendeurs d\'Imprimables',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guide-complet-activite-imprimables',
       anchorText: 'Guide Complet pour Lancer une Activité d\'Imprimables',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guide-licence-commerciale',
       anchorText: 'Guide des Licences Commerciales',
     },
     {
       pageType: 'idea',
-      slug: 'forest-animals-printable-ideas',
+      slug: 'animaux-foret-idees-imprimables',
       anchorText: 'Idées d\'Imprimables Animaux de la Forêt',
     },
   ],

@@ -207,7 +207,7 @@ const content: ToolContent = {
   internalLinks: [
     { pageType: 'app', slug: 'piezas-faltantes-fichas', anchorText: 'Puzzles de Piezas Faltantes — Detalles Completos del Producto' },
     { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
-    { pageType: 'tool', slug: 'generador-asociacion-sombras', anchorText: 'Generador de Asociación de Sombras' },
+    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Generador de Asociación de Sombras' },
     { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Generador de Puzzle de Cuadrícula' },
     { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Generador de Clasificación de Imágenes' },

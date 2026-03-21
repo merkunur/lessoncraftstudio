@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-big-and-small-worksheets',
+      slug: 'creer-fiches-comparaison-tailles',
       title: 'Créer des fiches grand et petit',
       description: 'Un complément d\'apprentissage visuel qui crée des exercices de comparaison de taille. Les fiches grand et petit s\'associent naturellement aux graphiques en images dans des lots d\'apprentissage visuel, développant les compétences d\'observation parallèlement à la représentation de données.',
     },
     {
-      slug: 'create-pattern-train-worksheets',
+      slug: 'creer-fiches-sequences-logiques',
       title: 'Créer des fiches train de motifs',
       description: 'Un complément d\'apprentissage visuel pour la reconnaissance de motifs séquentiels. Les fiches train de motifs complètent les graphiques en images en développant le raisonnement séquentiel parallèlement aux compétences de collecte de données.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Un complément de discrimination visuelle qui développe les compétences d\'identification d\'images que les élèves utilisent pour compter les icônes dispersées dans les graphiques en images. Les exercices d\'association renforcent l\'observation attentive.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Générateur de fiches comptage graphique — Détails complets' },
-    { pageType: 'app', slug: 'big-and-small-worksheets', anchorText: 'Générateur de fiches grand et petit — Détails complets' },
-    { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Essayer le Créateur de comptage graphique' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'graphique-images-fiches', anchorText: 'Générateur de fiches comptage graphique — Détails complets' },
+    { pageType: 'app', slug: 'grand-petit-fiches', anchorText: 'Générateur de fiches grand et petit — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-graphique-images', anchorText: 'Essayer le Créateur de comptage graphique' },
   ],
 
   toolsRecommended: [

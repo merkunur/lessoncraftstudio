@@ -165,7 +165,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'crear-fichas-suma', anchorText: 'Cómo crear fichas de sumas para niños' },
     { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
     { pageType: 'start', slug: 'guia-licencia-comercial', anchorText: 'Guía de licencia comercial' },
-    { pageType: 'app', slug: 'fichas-matematicas', anchorText: 'Generador de fichas de matemáticas — Todos los detalles' },
+    { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: 'Generador de fichas de matemáticas — Todos los detalles' },
   ],
 
   toolsRecommended: [

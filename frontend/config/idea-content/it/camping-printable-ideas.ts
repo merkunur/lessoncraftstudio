@@ -143,42 +143,42 @@ Il mercato della preparazione ai campi estivi rappresenta un pubblico particolar
   internalLinks: [
     {
       pageType: 'guide',
-      slug: 'create-printable-product-line',
+      slug: 'creare-linea-prodotti-stampabili',
       anchorText: 'Come Creare una Linea di Prodotti Stampabili',
     },
     {
       pageType: 'guide',
-      slug: 'etsy-seo-educational-printables',
+      slug: 'seo-etsy-materiale-didattico',
       anchorText: 'SEO Etsy per Stampabili Educativi',
     },
     {
       pageType: 'guide',
-      slug: 'create-worksheet-bundles',
+      slug: 'creare-pacchetti-schede-esercizi',
       anchorText: 'Come Creare Pacchetti di Schede che Vendono',
     },
     {
       pageType: 'guide',
-      slug: 'niche-selection-printables',
+      slug: 'selezione-nicchia-stampabili',
       anchorText: 'Guida alla Selezione di Nicchia per Attività Stampabili',
     },
     {
       pageType: 'guide',
-      slug: 'seasonal-marketing-printables',
+      slug: 'marketing-stagionale-stampabili',
       anchorText: 'Calendario di Marketing Stagionale per Venditori di Stampabili',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       anchorText: 'Guida Completa per Avviare un\'Attività di Stampabili',
     },
     {
       pageType: 'start',
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       anchorText: 'Guida alla Licenza Commerciale',
     },
     {
       pageType: 'idea',
-      slug: 'fairy-tale-printable-ideas',
+      slug: 'fiabe-idee-stampabili',
       anchorText: 'Idee di Business con Stampabili sulle Fiabe',
     },
   ],

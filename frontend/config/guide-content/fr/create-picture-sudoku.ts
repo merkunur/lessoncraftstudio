@@ -138,31 +138,31 @@ const content: GuideContent = {
 
   nextSteps: [
     {
-      slug: 'create-pattern-worksheets',
+      slug: 'creer-fiches-sequences-logiques',
       title: 'Créer des fiches de suites logiques',
       description: 'Le complément logique naturel du sudoku en images. Les fiches de suites logiques développent le raisonnement séquentiel qui complète la logique spatiale enseignée par le sudoku.',
     },
     {
-      slug: 'create-matching-worksheets',
+      slug: 'creer-fiches-association',
       title: 'Créer des fiches d\'association',
       description: 'Des fiches de discrimination visuelle qui s\'associent bien au sudoku pour un lot complet de logique d\'apprentissage précoce.',
     },
     {
-      slug: 'create-bingo-cards',
+      slug: 'creer-cartes-bingo',
       title: 'Créer des cartes de bingo thématiques',
       description: 'Une autre activité visuelle basée sur une grille. Les cartes de bingo utilisent des images thématiques similaires et séduisent le même public d\'acheteurs que le sudoku en images.',
     },
   ],
 
   internalLinks: [
-    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
-    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
-    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
-    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
-    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Guide des licences commerciales' },
-    { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Générateur de Sudoku en Images — Détails complets' },
-    { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Générateur de Fiches de Suites Logiques — Détails complets' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Essayer le Générateur de Sudoku en Images' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Guide complet pour lancer une entreprise d\'imprimables' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Comment créer des fiches professionnelles qui se vendent' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Masterclass entreprise d\'imprimables sur Etsy' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Guide entreprise cahiers d\'activités Amazon KDP' },
+    { pageType: 'start', slug: 'guide-licence-commerciale', anchorText: 'Guide des licences commerciales' },
+    { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: 'Générateur de Sudoku en Images — Détails complets' },
+    { pageType: 'app', slug: 'sequences-logiques-fiches', anchorText: 'Générateur de Fiches de Suites Logiques — Détails complets' },
+    { pageType: 'tool', slug: 'generateur-sudoku-enfants', anchorText: 'Essayer le Générateur de Sudoku en Images' },
   ],
 
   toolsRecommended: [

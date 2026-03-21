@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Commercial License Guide' },
     { pageType: 'app', slug: 'subtraction-worksheets', anchorText: 'Subtraction Worksheet Generator — Full Details' },
     { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'image-subtraction', anchorText: 'Try the Subtraction Worksheet Maker' },
+    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Try the Subtraction Worksheet Maker' },
   ],
 
   toolsRecommended: [

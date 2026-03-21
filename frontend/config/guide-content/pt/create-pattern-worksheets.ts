@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Guia de negócio de livros de atividades no Amazon KDP' },
     { pageType: 'start', slug: 'guia-licenca-comercial', anchorText: 'Guia de licença comercial' },
     { pageType: 'app', slug: 'fichas-padroes-sequencias', anchorText: 'Gerador de fichas de padrões — Todos os detalhes' },
-    { pageType: 'app', slug: 'comboio-padroes-fichas', anchorText: 'Gerador de comboio de padrões — Todos os detalhes' },
+    { pageType: 'app', slug: 'trem-padroes-fichas', anchorText: 'Gerador de comboio de padrões — Todos os detalhes' },
     { pageType: 'tool', slug: 'gerador-fichas-padroes', anchorText: 'Experimente o Gerador de fichas de padrões' },
   ],
 

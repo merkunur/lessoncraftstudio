@@ -181,22 +181,22 @@ const content: StartContent = {
 
   nextSteps: [
     {
-      slug: 'complete-guide-printable-business',
+      slug: 'guida-completa-attivita-stampabili',
       title: 'Guida Completa per Avviare un\'Attività di Stampabili',
       description: 'La guida fondamentale completa che copre selezione della nicchia, creazione del prodotto, confronto piattaforme, strategia dei prezzi e costruzione del catalogo per tutti i marketplace di stampabili.',
     },
     {
-      slug: 'create-worksheets-that-sell',
+      slug: 'creare-schede-che-vendono',
       title: 'Come Creare Schede Che Vendono',
       description: 'Approfondimento sugli standard di qualità del prodotto, tecniche di differenziazione e metodi specifici che fanno distinguere le schede dalla concorrenza su ogni marketplace.',
     },
     {
-      slug: 'create-multilingual-worksheets',
+      slug: 'creare-schede-multilingue',
       title: 'Come Creare Schede in 11 Lingue',
       description: 'La guida completa alla produzione di schede multilingue — selezione della lingua, verifica della qualità e strategie per i mercati internazionali usando un singolo set di strumenti generatori.',
     },
     {
-      slug: 'commercial-license-guide',
+      slug: 'guida-licenza-commerciale',
       title: 'Guida alla Licenza Commerciale per Venditori di Stampabili',
       description: 'Tutto quello che devi sapere sulle licenze commerciali: cosa include ogni livello, diritti di utilizzo per diverse piattaforme e come scegliere la licenza giusta per la tua attività.',
     },

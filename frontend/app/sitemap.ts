@@ -25,6 +25,9 @@ const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
  * ID 5: Start pages (~132 URLs) - cornerstone guide pages
  * ID 6: Guide pages (~715 URLs) - Create X guide pages
  * ID 7: Idea pages (~495 URLs) - niche idea pages
+ *
+ * Image discovery is handled by dedicated image sitemaps at /image-sitemap/{id}
+ * (referenced via /image-sitemap-index.xml in robots.txt).
  */
 export async function generateSitemaps() {
   return [

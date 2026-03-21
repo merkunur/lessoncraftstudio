@@ -3,11 +3,12 @@ import { NextResponse } from 'next/server';
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
 /**
- * Image sitemap index — points to sub-sitemaps for app and tool detail pages.
- * Only IDs 1 (apps) and 3 (tools) have showcase images worth indexing.
+ * Image sitemap index — points to sub-sitemaps for all page types with images.
+ * IDs match the main sitemap: 1=apps, 3=tools, 4=bundles, 5=starts, 6=guides, 7=ideas.
+ * ID 0 (static) and ID 2 (sales) have no sample images.
  */
 export async function GET() {
-  const ids = [1, 3]; // apps, tools — the page types with sample images
+  const ids = [1, 3, 4, 5, 6, 7]; // apps, tools, bundles, starts, guides, ideas
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

@@ -178,13 +178,13 @@ const content: GuideContent = {
   visuals: {
     heroImage: {
       src: '/samples/french/addition/Addition Amusant 1.webp',
-      alt: 'Fiches d'addition professionnelles créées avec le générateur de fiches d'addition, représentant la qualité de produits imprimables réalisable avec les 33 générateurs',
+      alt: 'Fiches d’addition professionnelles créées avec le générateur de fiches d’addition, représentant la qualité de produits imprimables réalisable avec les 33 générateurs',
     },
     samples: [
       {
         src: '/samples/french/addition/Addition Amusant 1.webp',
-        alt: 'Fiches d'addition montrant les produits imprimables de la catégorie Maths et Nombres pour les boutiques Etsy',
-        caption: 'Catégorie Maths et Nombres : fiches d'addition avec corrigés prêtes pour les annonces de téléchargement numérique Etsy',
+        alt: 'Fiches d’addition montrant les produits imprimables de la catégorie Maths et Nombres pour les boutiques Etsy',
+        caption: 'Catégorie Maths et Nombres : fiches d’addition avec corrigés prêtes pour les annonces de téléchargement numérique Etsy',
       },
       {
         src: '/samples/french/wordsearch/Mots Cachés 1.webp',

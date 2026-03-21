@@ -195,22 +195,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/',
+      src: '/samples/english/addition/Addition Fun 1.webp',
       alt: 'Professionele optelwerkbladen gemaakt met de Optellen Werkblad Generator, representatief voor de printable productkwaliteit haalbaar met alle 33 generatoren',
     },
     samples: [
       {
-        src: '/samples/english/addition/',
+        src: '/samples/english/addition/Addition Fun 1.webp',
         alt: 'Optelwerkbladen die rekenen en getallen categorie printable producten tonen voor Etsy-winkels',
         caption: 'Rekenen en Getallen categorie: Optelwerkbladen met antwoordsleutels klaar voor Etsy digitale download vermeldingen',
       },
       {
-        src: '/samples/english/wordsearch/',
+        src: '/samples/english/wordsearch/custom word list.webp',
         alt: 'Woordzoekpuzzels die letters en woorden categorie printable producten tonen voor Etsy-winkels',
         caption: 'Letters en Woorden categorie: Woordzoekpuzzels met thematische woordenschat voor brede kopersaantrekking',
       },
       {
-        src: '/samples/english/coloring/',
+        src: '/samples/english/coloring/coloring landscape 1.webp',
         alt: 'Kleurplaten die tekenen en kunst categorie printable producten tonen voor Etsy-winkels',
         caption: 'Tekenen en Kunst categorie: Kleurplaten met thematische illustraties voor de breedste leeftijdsdemografie',
       },

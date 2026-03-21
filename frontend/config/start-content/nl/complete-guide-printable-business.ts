@@ -223,7 +223,7 @@ const content: StartContent = {
     heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
     samples: [
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker printbaar werkblad met dierenthema', caption: 'Woordzoeker — Dierenthema' },
-      { src: '/samples/dutch/addition/Optellen%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
+      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
       { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met visuele paar activiteiten', caption: 'Koppelen — Visuele Paar Activiteit' },
     ],

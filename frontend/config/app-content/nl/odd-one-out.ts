@@ -273,7 +273,7 @@ const content: AppContent = {
         caption: 'Identiek modus — drie klonen van dezelfde afbeelding en één ander item',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer_key.webp',
+        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer-key.webp',
         alt: 'Welke hoort er niet bij antwoordblad met rode cirkels rond het vreemde item in elke oefeningrij',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkels markeren het vreemde item in elke rij',
       },

@@ -256,22 +256,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/picture path/Picture Pathway.webp',
+      primary: '/samples/italian/picture path/Percorso di Immagini 1.webp',
       primaryAlt: 'Scheda labirinto percorso illustrato con immagini tematiche in una griglia con bordo arancione e intestazione auto-generata Percorso Illustrato',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/picture path/Picture Pathway (1).webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 2.webp',
         alt: 'Scheda modalità Percorso Illustrato con immagini disposte in griglia che mostrano il percorso corretto dall\'inizio alla fine',
         caption: 'Modalità Percorso Illustrato — gli studenti seguono il percorso immagine corretto dall\'inizio alla fine',
       },
       {
-        src: '/samples/italian/picture path/Picture Pathway (5).webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 3.webp',
         alt: 'Scheda modalità Labirinto Classico con corridoi e muri e immagini collezionabili sparse',
         caption: 'Modalità Labirinto Classico — l\'algoritmo LPF genera labirinti con muri e collezionabili',
       },
       {
-        src: '/samples/italian/picture path/Picture Pathway answer_key.webp',
+        src: '/samples/italian/picture path/Percorso di Immagini 1 answer_key.webp',
         alt: 'Chiave di risposta del labirinto con percorso soluzione evidenziato da cerchi rosa lungo il tragitto corretto',
         caption: 'Chiave di risposta auto-generata — percorso soluzione evidenziato con cerchi rosa',
       },

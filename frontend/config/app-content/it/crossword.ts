@@ -256,22 +256,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/crossword/crossword_worksheet.webp',
+      primary: '/samples/italian/crossword/Cruciverba con Immagini 1.webp',
       primaryAlt: 'Cruciverba con immagini e indizi visivi su una griglia 15×15 con intestazione localizzata Cruciverba con Immagini e posizioni numerate',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/crossword/crossword_worksheet.webp',
+        src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp',
         alt: 'Cruciverba con immagini e indizi visivi tematici accanto a una griglia 15×15',
         caption: 'Cruciverba con immagini — gli indizi visivi sostituiscono gli indizi testuali tradizionali su una griglia 15×15',
       },
       {
-        src: '/samples/italian/crossword/crossword_worksheet (5).webp',
+        src: '/samples/italian/crossword/Cruciverba con Immagini 2.webp',
         alt: 'Cruciverba con lista parole personalizzata con indizi testuali e griglia compilata',
         caption: 'Modalità Lista Parole Personalizzata — cruciverba tradizionali con indizi testuali e vocabolario personalizzato',
       },
       {
-        src: '/samples/italian/crossword/crossword_answer_key.webp',
+        src: '/samples/italian/crossword/Cruciverba con Immagini 1 answer_key.webp',
         alt: 'Foglio risposte del cruciverba con tutte le lettere corrette inserite nella griglia',
         caption: 'Foglio risposte auto-generato — griglia compilata con tutte le risposte corrette',
       },

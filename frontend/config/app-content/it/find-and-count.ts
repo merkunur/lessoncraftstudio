@@ -256,22 +256,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find and count/find and count portrait.webp',
+      primary: '/samples/italian/find and count/Vedo Vedo 1.webp',
       primaryAlt: 'Scheda Cerca e Conta con immagini sparse su una griglia, bordo intestazione blu e istruzioni per quattro tipi di compito',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/find and count/find and count portrait.webp',
+        src: '/samples/italian/find and count/Vedo Vedo 1.webp',
         alt: 'Scheda modalità Oggetti Nascosti in formato verticale con immagini animali sparse e istruzioni dei compiti',
         caption: 'Modalità Oggetti Nascosti — Cerca e Trova classico con compiti cerchia, riquadra, barra e conta',
       },
       {
-        src: '/samples/italian/find and count/find and count landscape.webp',
+        src: '/samples/italian/find and count/Vedo Vedo 2.webp',
         alt: 'Scheda Cerca e Conta in formato orizzontale con layout griglia più ampio',
         caption: 'Formato orizzontale — layout griglia più ampio per più colonne e densità visiva variata',
       },
       {
-        src: '/samples/italian/find and count/find and count portrait answer_key.webp',
+        src: '/samples/italian/find and count/Vedo Vedo 1 answer_key.webp',
         alt: 'Chiave di risposta Cerca e Conta con annotazioni rosse di cerchi, riquadri e croci sugli oggetti corretti',
         caption: 'Chiave di risposta auto-generata — annotazioni rosse e visualizzazione conteggi segnano le risposte corrette',
       },

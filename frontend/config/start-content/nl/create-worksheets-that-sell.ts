@@ -221,10 +221,10 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%201.webp', alt: 'Professioneel optelwerkblad gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Professioneel optelwerkblad gemaakt met LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%201.webp', alt: 'Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
-      { src: '/samples/dutch/subtraction/Aftrekken%201.webp', alt: 'Aftrekwerkblad met visuele getalopgaven', caption: 'Aftrekken — Visuele Rekenoefening' },
+      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
+      { src: '/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp', alt: 'Aftrekwerkblad met visuele getalopgaven', caption: 'Aftrekken — Visuele Rekenoefening' },
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzelwerkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
     ],

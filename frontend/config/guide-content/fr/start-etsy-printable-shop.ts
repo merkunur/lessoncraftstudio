@@ -177,22 +177,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/addition/',
-      alt: 'Fiches d’addition professionnelles créées avec le générateur de fiches d’addition, représentant la qualité de produits imprimables réalisable avec les 33 générateurs',
+      src: '/samples/french/addition/Addition Amusant 1.webp',
+      alt: 'Fiches d'addition professionnelles créées avec le générateur de fiches d'addition, représentant la qualité de produits imprimables réalisable avec les 33 générateurs',
     },
     samples: [
       {
-        src: '/samples/french/addition/',
-        alt: 'Fiches d’addition montrant les produits imprimables de la catégorie Maths et Nombres pour les boutiques Etsy',
-        caption: 'Catégorie Maths et Nombres : fiches d’addition avec corrigés prêtes pour les annonces de téléchargement numérique Etsy',
+        src: '/samples/french/addition/Addition Amusant 1.webp',
+        alt: 'Fiches d'addition montrant les produits imprimables de la catégorie Maths et Nombres pour les boutiques Etsy',
+        caption: 'Catégorie Maths et Nombres : fiches d'addition avec corrigés prêtes pour les annonces de téléchargement numérique Etsy',
       },
       {
-        src: '/samples/french/wordsearch/',
+        src: '/samples/french/wordsearch/Mots Cachés 1.webp',
         alt: 'Puzzles de mots cachés montrant les produits imprimables de la catégorie Lettres et Mots pour les boutiques Etsy',
         caption: 'Catégorie Lettres et Mots : puzzles de mots cachés avec vocabulaire thématique pour un large attrait auprès des acheteurs',
       },
       {
-        src: '/samples/french/coloring/',
+        src: '/samples/french/coloring/coloring landscape 1.webp',
         alt: 'Pages de coloriage montrant les produits imprimables de la catégorie Dessin et Art pour les boutiques Etsy',
         caption: 'Catégorie Dessin et Art : pages de coloriage avec illustrations thématiques pour la tranche démographique la plus large',
       },

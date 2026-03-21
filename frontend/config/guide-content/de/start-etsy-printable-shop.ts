@@ -177,22 +177,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/',
+      src: '/samples/german/addition/Additionsspa 1.webp',
       alt: 'Professionelle Additions-Arbeitsblätter, erstellt mit dem Additions-Arbeitsblatt-Generator, die die erreichbare Druckvorlagen-Produktqualität über alle 33 Generatoren repräsentieren',
     },
     samples: [
       {
-        src: '/samples/german/addition/',
+        src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Additions-Arbeitsblätter, die Mathe-und-Zahlen-Kategorie-Druckvorlagen-Produkte für Etsy-Shops zeigen',
         caption: 'Mathe-und-Zahlen-Kategorie: Additions-Arbeitsblätter mit Lösungsschlüsseln, bereit für Etsy digitale Download-Angebote',
       },
       {
-        src: '/samples/german/wordsearch/',
+        src: '/samples/german/wordsearch/Worter suchen 1.webp',
         alt: 'Wortsuche-Rätsel, die Buchstaben-und-Wörter-Kategorie-Druckvorlagen-Produkte für Etsy-Shops zeigen',
         caption: 'Buchstaben-und-Wörter-Kategorie: Wortsuche-Rätsel mit thematischem Vokabular für breite Käuferansprache',
       },
       {
-        src: '/samples/german/coloring/',
+        src: '/samples/german/coloring/coloring landscape 1.webp',
         alt: 'Malvorlagen, die Zeichnen-und-Kunst-Kategorie-Druckvorlagen-Produkte für Etsy-Shops zeigen',
         caption: 'Zeichnen-und-Kunst-Kategorie: Malvorlagen mit thematischen Illustrationen für die breiteste Altersgruppe',
       },

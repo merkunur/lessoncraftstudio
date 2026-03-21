@@ -221,9 +221,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/math%20puzzle/Rekenpuzzel%201.webp', alt: 'Rekenpuzzel werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/dutch/math%20puzzle/Rekenpuzzel%201.webp', alt: 'Rekenpuzzel werkblad dat instelbare uitvoervariatie toont', caption: 'Rekenpuzzel — Instelbare Moeilijkheid' },
+      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad dat instelbare uitvoervariatie toont', caption: 'Rekenpuzzel — Instelbare Moeilijkheid' },
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker werkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Visuele Aantrekkingskracht' },
       { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad dat puur visueel internationaal formaat demonstreert', caption: 'Koppelen — Werkt in Elke Taal' },

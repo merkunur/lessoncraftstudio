@@ -225,7 +225,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad voor Etsy printable winkel', caption: 'Kleurplaat — Etsy Top Categorie' },
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker printbaar werkblad voor Etsy vermelding', caption: 'Woordzoeker — Hoog Zoekvolume' },
-      { src: '/samples/dutch/addition/Optellen%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Groenblijvende Rekencategorie' },
+      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Groenblijvende Rekencategorie' },
       { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad voor internationale Etsy-kopers', caption: 'Koppelen — Puur Visuele Activiteit' },
     ],
     youtubeId: 'ZdpCr2txHcc',

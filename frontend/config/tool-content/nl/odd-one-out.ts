@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: 'Identiek modus — drie klonen van dezelfde afbeelding en één ander item voor zoek-het-verschil uitdagingen',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer_key.webp',
+        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer-key.webp',
         alt: 'Welke hoort er niet bij antwoordblad met rode cirkelomtrekken getekend rond het vreemde item in elke oefeningrij met streekbreedte geschaald naar afbeeldingsgrootte',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkelmarkeringen (streek = max(imageSize × 0,04, 3px)) identificeren het vreemde item in elke rij',
       },

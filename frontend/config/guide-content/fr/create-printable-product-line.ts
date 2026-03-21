@@ -193,9 +193,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/matching/Jeu d Trouve les Paires 1.webp', alt: 'Fiche d’association illustrant un format de produit cohérent pour une gamme d’imprimables' },
+    heroImage: { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d’association illustrant un format de produit cohérent pour une gamme d’imprimables' },
     samples: [
-      { src: '/samples/french/matching/Jeu d Trouve les Paires 1.webp', alt: 'Fiche d’association montrant un format cohérent à travers les thèmes pour la construction de gamme', caption: 'Les fiches d’association maintiennent le même format professionnel quel que soit le thème — la base d’une gamme visuellement cohérente' },
+      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d’association montrant un format cohérent à travers les thèmes pour la construction de gamme', caption: 'Les fiches d’association maintiennent le même format professionnel quel que soit le thème — la base d’une gamme visuellement cohérente' },
       { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d’addition représentant une gamme mathématique avec des niveaux de difficulté progressifs', caption: 'Les fiches de maths à plusieurs niveaux de difficulté créent une profondeur progressive au sein de votre gamme — des opérations simples aux opérations avancées' },
       { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Coloriage montrant la cohérence visuelle à travers les variations thématiques', caption: 'Les coloriages dans différents thèmes démontrent comment une gamme maintient la cohésion visuelle tout en offrant de la variété aux acheteurs' },
     ],

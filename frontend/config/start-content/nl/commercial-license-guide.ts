@@ -216,7 +216,7 @@ const content: StartContent = {
     heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker werkblad dat commerciële licentie uitvoerkwaliteit demonstreert voor printable verkopers' },
     samples: [
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad klaar voor commerciële verkoop', caption: 'Woordzoeker — Top Commerciële Verkoper' },
-      { src: '/samples/dutch/addition/Optellen%201.webp', alt: 'Optelling rekenwerkblad met commerciële licentie', caption: 'Optelling — Groenblijvende Rekenstandaard' },
+      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelling rekenwerkblad met commerciële licentie', caption: 'Optelling — Groenblijvende Rekenstandaard' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad voor KDP activiteitenboeken', caption: 'Kleurplaat — Hoog-Volume KDP Categorie' },
       { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel die meertalige commerciële waarde demonstreert', caption: 'Kruiswoordpuzzel — Meertalige Licentiewaarde' },
     ],

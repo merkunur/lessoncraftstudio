@@ -225,7 +225,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Sudoku puzzel werkblad voor KDP activiteitenboek binnenwerk', caption: 'Sudoku — Top KDP Puzzelcategorie' },
       { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel voor Amazon KDP activiteitenboek', caption: 'Woordzoeker — KDP Bestseller Categorie' },
-      { src: '/samples/dutch/math%20puzzle/Rekenpuzzel%201.webp', alt: 'Rekenpuzzel werkblad voor KDP werkboek binnenwerk', caption: 'Rekenpuzzel — Groenblijvende KDP Niche' },
+      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voor KDP werkboek binnenwerk', caption: 'Rekenpuzzel — Groenblijvende KDP Niche' },
       { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel werkblad voor KDP activiteitenboek', caption: 'Kruiswoordpuzzel — Klassiek Activiteitenboek Formaat' },
     ],
     youtubeId: 'bqVioFbkYbA',

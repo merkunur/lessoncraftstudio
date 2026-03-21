@@ -66,6 +66,7 @@ function extractShowcaseImages(
   if (!config) return;
 
   function add(src: string, alt: string) {
+    if (!src || !src.startsWith('/samples/')) return;
     const loc = toAbsoluteUrl(src);
     if (seen.has(loc)) return;
     seen.add(loc);
@@ -99,7 +100,7 @@ function extractAppStyleVisuals(
   if (!visuals) return;
 
   function add(src: string, alt: string) {
-    if (!src) return;
+    if (!src || !src.startsWith('/samples/')) return;
     const loc = toAbsoluteUrl(src);
     if (seen.has(loc)) return;
     seen.add(loc);
@@ -131,7 +132,7 @@ function extractGuideStyleVisuals(
   if (!visuals) return;
 
   function add(src: string, alt: string) {
-    if (!src) return;
+    if (!src || !src.startsWith('/samples/')) return;
     const loc = toAbsoluteUrl(src);
     if (seen.has(loc)) return;
     seen.add(loc);
@@ -236,7 +237,7 @@ export async function getIdeaImageEntries(ideaId: string, locale: string): Promi
   const content = await getIdeaContent(ideaId, locale);
   if (content?.themeImages) {
     for (const img of content.themeImages) {
-      if (!img.src) continue;
+      if (!img.src || !img.src.startsWith('/samples/')) continue;
       const loc = toAbsoluteUrl(img.src);
       if (seen.has(loc)) continue;
       seen.add(loc);

@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { productPageSlugs } from '@/config/product-page-slugs';
-import { toolPageSlugs } from '@/config/tool-page-slugs';
 import { bundlePageSlugs } from '@/config/bundle-page-slugs';
 import { startPageSlugs } from '@/config/start-page-slugs';
 import { guidePageSlugs } from '@/config/guide-page-slugs';
@@ -8,7 +7,6 @@ import { ideaPageSlugs } from '@/config/idea-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   getAppImageEntries,
-  getToolImageEntries,
   getBundleImageEntries,
   getStartImageEntries,
   getGuideImageEntries,
@@ -61,20 +59,8 @@ export async function GET(
     }
   }
 
-  // ID 3: Tool pages (33 tools × 11 locales)
-  if (id === 3) {
-    for (const tool of toolPageSlugs) {
-      for (const locale of allLocales) {
-        const slug = tool.slugs[locale as keyof typeof tool.slugs];
-        if (!slug) continue;
-        const images = await getToolImageEntries(tool.toolId, locale);
-        if (images.length === 0) continue;
-        urlEntries.push(
-          `  <url>\n    <loc>${baseUrl}/${locale}/tools/${slug}</loc>\n${buildImageXml(images)}\n  </url>`
-        );
-      }
-    }
-  }
+  // ID 3: Tool pages — removed from image sitemap (canonical to /apps/)
+  // Return empty urlset to prevent 404 if Google has cached the old URL
 
   // ID 4: Bundle pages (6 bundles × 11 locales)
   if (id === 4) {

@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
-import { toolPageSlugs, getToolAlternateUrls } from '@/config/tool-page-slugs';
+// Tool pages removed from sitemap — canonical to /apps/ (SEO consolidation)
 import { bundlePageSlugs, getBundleAlternateUrls } from '@/config/bundle-page-slugs';
 import { startPageSlugs, getStartAlternateUrls } from '@/config/start-page-slugs';
 import { guidePageSlugs, getGuideAlternateUrls } from '@/config/guide-page-slugs';
@@ -34,7 +34,7 @@ export async function generateSitemaps() {
     { id: 0 },
     { id: 1 },
     { id: 2 },
-    { id: 3 },
+    // ID 3 (tools) removed — canonical to /apps/
     { id: 4 },
     { id: 5 },
     { id: 6 },
@@ -61,7 +61,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     const staticPages = [
       { path: '', priority: 1.0, changeFreq: 'daily' as const },
       { path: '/apps', priority: 0.8, changeFreq: 'weekly' as const },
-      { path: '/tools', priority: 0.8, changeFreq: 'weekly' as const },
+      // /tools removed — canonical to /apps (SEO consolidation)
       { path: '/bundles', priority: 0.8, changeFreq: 'weekly' as const },
       { path: '/start', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/guides', priority: 0.7, changeFreq: 'weekly' as const },
@@ -120,24 +120,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     }));
   }
 
-  // ID 3: Tool pages (free tool landing pages)
+  // ID 3: Tool pages — removed from sitemap (canonical to /apps/)
   if (id === 3) {
-    const routes: MetadataRoute.Sitemap = [];
-    for (const tool of toolPageSlugs) {
-      const toolAlternates = getToolAlternateUrls(tool.toolId, baseUrl);
-      for (const [locale, slug] of Object.entries(tool.slugs)) {
-        if (slug) {
-          routes.push({
-            url: `${baseUrl}/${locale}/tools/${slug}`,
-            lastModified: STATIC_CONTENT_DATE,
-            changeFrequency: 'weekly',
-            priority: 0.9,
-            alternates: { languages: toolAlternates },
-          });
-        }
-      }
-    }
-    return routes;
+    return [];
   }
 
   // ID 4: Bundle pages (category bundle sales pages)

@@ -7,7 +7,9 @@ import {
   getAllToolPageSlugs,
   getToolAlternateUrls,
   getToolSlugForLocale,
+  getAppIdForTool,
 } from '@/config/tool-page-slugs';
+import { getSlugForLocale } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema } from '@/lib/schema-generator';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
@@ -96,6 +98,13 @@ export async function generateMetadata({
     const alternateUrls = getToolAlternateUrls(toolConfig.toolId, baseUrl);
     const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
 
+    // Cross-canonical: point to the corresponding /apps/ page to consolidate SEO authority
+    const correspondingAppId = getAppIdForTool(toolConfig.toolId);
+    const appSlug = getSlugForLocale(correspondingAppId, locale as SupportedLocale);
+    const canonicalUrl = appSlug
+      ? `${baseUrl}/${locale}/apps/${appSlug}`
+      : `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
+
     const title = content?.seo?.titleTag || `${localizedName} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || `${localizedName} — try free with watermark. No signup required.`;
 
@@ -108,7 +117,7 @@ export async function generateMetadata({
       description,
       keywords,
       alternates: {
-        canonical: `${baseUrl}/${locale}/tools/${localeSlug || slug}`,
+        canonical: canonicalUrl,
         languages: alternateUrls,
       },
       openGraph: {
@@ -136,7 +145,7 @@ export async function generateMetadata({
         description,
         images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`],
       },
-      robots: content ? undefined : { index: false },
+      robots: { index: false, follow: true },
     };
   } catch {
     return {};

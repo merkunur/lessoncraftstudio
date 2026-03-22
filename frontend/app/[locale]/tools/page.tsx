@@ -255,9 +255,10 @@ export async function generateMetadata({
     description: meta.description,
     keywords: toolsKeywords[locale] || toolsKeywords.en,
     alternates: {
-      canonical: `${baseUrl}/${locale}/tools`,
+      canonical: `${baseUrl}/${locale}/apps`,
       languages: alternates,
     },
+    robots: { index: false, follow: true },
     openGraph: {
       title: meta.title,
       description: meta.description,

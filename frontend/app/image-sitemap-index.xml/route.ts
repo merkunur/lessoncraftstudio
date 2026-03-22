@@ -8,7 +8,7 @@ const baseUrl = 'https://www.lessoncraftstudio.com';
  * ID 0 (static) and ID 2 (sales) have no sample images.
  */
 export async function GET() {
-  const ids = [1, 3, 4, 5, 6, 7]; // apps, tools, bundles, starts, guides, ideas
+  const ids = [1, 4, 5, 6, 7]; // apps, bundles, starts, guides, ideas (tools removed — canonical to apps)
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

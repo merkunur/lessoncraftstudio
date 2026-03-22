@@ -85,6 +85,17 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          ...(content?.visuals?.heroImages?.primary ? [{
+            url: `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`,
+            width: 400,
+            height: 566,
+            alt: content.visuals.heroImages.primaryAlt || title,
+          }] : content?.visuals?.sampleGallery?.[0]?.src ? [{
+            url: `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`,
+            width: 400,
+            height: 566,
+            alt: content.visuals.sampleGallery[0].alt || title,
+          }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
@@ -99,7 +110,11 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`],
+        images: [content?.visuals?.heroImages?.primary
+          ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+          : content?.visuals?.sampleGallery?.[0]?.src
+            ? `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`
+            : `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -137,6 +152,15 @@ export default async function BundlePage({
     const localeSlug = getBundleSlugForLocale(bundleConfig.bundleId, locale);
     const pageUrl = `${baseUrl}/${locale}/bundles/${localeSlug || slug}`;
 
+    const bundleHeroImage = showcaseConfig?.hero?.images?.[0]?.src;
+    const bundleSchemaImage = bundleHeroImage
+      ? `${baseUrl}${bundleHeroImage}`
+      : content.visuals?.heroImages?.primary
+        ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+        : content.visuals?.sampleGallery?.[0]?.src
+          ? `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`
+          : `${baseUrl}/api/og?locale=${locale}&type=bundle&title=${encodeURIComponent(content.hero.title)}`;
+
     const productSchema = {
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -144,6 +168,7 @@ export default async function BundlePage({
       name: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
+      image: bundleSchemaImage,
       brand: { '@type': 'Organization', name: 'LessonCraftStudio' },
       offers: {
         '@type': 'AggregateOffer',

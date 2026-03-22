@@ -73,6 +73,17 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          ...(content?.visuals?.heroImage?.src ? [{
+            url: `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`,
+            width: 400,
+            height: 566,
+            alt: content.visuals.heroImage.alt || title,
+          }] : content?.visuals?.samples?.[0]?.src ? [{
+            url: `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`,
+            width: 400,
+            height: 566,
+            alt: content.visuals.samples[0].alt || title,
+          }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.samples?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
@@ -87,7 +98,11 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(title)}`],
+        images: [content?.visuals?.heroImage?.src
+          ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
+          : content?.visuals?.samples?.[0]?.src
+            ? `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`
+            : `${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -131,7 +146,13 @@ export default async function CornerstonePage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
-      image: startHeroImage ? `${baseUrl}${startHeroImage}` : `${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(content.hero.title)}`,
+      image: startHeroImage
+        ? `${baseUrl}${startHeroImage}`
+        : content.visuals?.heroImage?.src
+          ? `${baseUrl}${encodeImagePath(content.visuals.heroImage.src)}`
+          : content.visuals?.samples?.[0]?.src
+            ? `${baseUrl}${encodeImagePath(content.visuals.samples[0].src)}`
+            : `${baseUrl}/api/og?locale=${locale}&type=start&title=${encodeURIComponent(content.hero.title)}`,
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },

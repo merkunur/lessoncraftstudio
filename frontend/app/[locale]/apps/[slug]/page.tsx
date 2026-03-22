@@ -616,6 +616,12 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          ...(content?.visuals?.heroImages?.primary ? [{
+            url: `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`,
+            width: 400,
+            height: 566,
+            alt: content.visuals.heroImages.primaryAlt || title,
+          }] : []),
           { url: `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
           ...(content?.visuals?.sampleGallery?.slice(0, 3).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
@@ -630,7 +636,9 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`],
+        images: [content?.visuals?.heroImages?.primary
+          ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+          : `${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=app&title=${encodeURIComponent(title)}`],
       },
     };
   } catch {
@@ -699,7 +707,11 @@ export default async function AppDetailPage({
   const heroImages = showcaseConfig?.hero?.images;
   const schemaImage = heroImages?.[0]?.src
     ? `${baseUrl}${encodeImagePath(heroImages[0].src)}`
-    : `${baseUrl}/opengraph-image.png`;
+    : content?.visuals?.heroImages?.primary
+      ? `${baseUrl}${encodeImagePath(content.visuals.heroImages.primary)}`
+      : content?.visuals?.sampleGallery?.[0]?.src
+        ? `${baseUrl}${encodeImagePath(content.visuals.sampleGallery[0].src)}`
+        : `${baseUrl}/opengraph-image.png`;
   const schemaScreenshots = heroImages?.slice(0, 3)
     .filter(img => img.src)
     .map(img => ({

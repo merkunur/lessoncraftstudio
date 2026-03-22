@@ -191,8 +191,14 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          ...(content?.themeImages?.[0]?.src ? [{
+            url: `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`,
+            width: 400,
+            height: 566,
+            alt: content.themeImages[0].alt || title,
+          }] : []),
           { url: `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
-          ...(content?.themeImages?.slice(0, 3).map((img: { src: string; alt: string }) => ({
+          ...(content?.themeImages?.slice(1, 4).map((img: { src: string; alt: string }) => ({
             url: `${baseUrl}${encodeImagePath(img.src)}`,
             width: 400,
             height: 566,
@@ -205,7 +211,9 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`],
+        images: [content?.themeImages?.[0]?.src
+          ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
+          : `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(title)}`],
       },
       robots: content ? undefined : { index: false },
     };
@@ -249,7 +257,13 @@ export default async function IdeaPage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
-      image: ideaHeroImage ? `${baseUrl}${ideaHeroImage}` : `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(content.hero.title)}`,
+      image: ideaHeroImage
+        ? `${baseUrl}${ideaHeroImage}`
+        : content.themeImages?.[0]?.src
+          ? `${baseUrl}${encodeImagePath(content.themeImages[0].src)}`
+          : content.productIdeas?.[0]?.appId && getAppHeroImage(content.productIdeas[0].appId, locale)
+            ? `${baseUrl}${encodeImagePath(getAppHeroImage(content.productIdeas[0].appId, locale)!)}`
+            : `${baseUrl}/api/og?locale=${locale}&type=idea&title=${encodeURIComponent(content.hero.title)}`,
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },

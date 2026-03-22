@@ -873,7 +873,7 @@ function buildConfig(
     hero: {
       gradient: heroGradients[seed % heroGradients.length],
       accentColor: d1.accent,
-      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : isIt ? 'Stampabili professionali' : 'Professional Printables',
+      badge: isDe ? 'Professionelle Druckvorlagen' : isFr ? 'Imprimables professionnels' : isEs ? 'Imprimibles profesionales' : isPt ? 'Imprimíveis profissionais' : isIt ? 'Stampabili professionali' : isNl ? 'Professionele Werkbladen' : 'Professional Printables',
       heading: pageTitle,
       subheading: isDe
         ? `Erstellen Sie beeindruckende ${d1.label}-Arbeitsblätter, die Ihre Kunden lieben werden`
@@ -885,44 +885,46 @@ function buildConfig(
         ? `Crie impressionantes folhas de ${d1.label.toLowerCase()} que os seus clientes vão adorar`
         : isIt
         ? `Crea splendide schede di ${d1.label.toLowerCase()} che i tuoi clienti adoreranno`
+        : isNl
+        ? `Maak prachtige ${d1.label.toLowerCase()} werkbladen waar je klanten van houden`
         : `Create stunning ${d1.label.toLowerCase()} worksheets your customers will love`,
       images: [
-        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : isIt ? `Scheda di ${d1.label} esempio 1` : `${d1.label} worksheet sample 1` },
-        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : isIt ? `Scheda di ${d1.label} esempio 2` : `${d1.label} worksheet sample 2` },
-        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : isIt ? `Scheda di ${d1.label} esempio 3` : `${d1.label} worksheet sample 3` },
+        { src: imgFn(d1.folder, d1.imgs[0]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 1` : isFr ? `Fiche ${d1.label} exemple 1` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 1` : isPt ? `Folha de trabalho ${d1.label} exemplo 1` : isIt ? `Scheda di ${d1.label} esempio 1` : isNl ? `${d1.label} werkblad voorbeeld 1` : `${d1.label} worksheet sample 1` },
+        { src: imgFn(d1.folder, d1.imgs[1]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 2` : isFr ? `Fiche ${d1.label} exemple 2` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 2` : isPt ? `Folha de trabalho ${d1.label} exemplo 2` : isIt ? `Scheda di ${d1.label} esempio 2` : isNl ? `${d1.label} werkblad voorbeeld 2` : `${d1.label} worksheet sample 2` },
+        { src: imgFn(d1.folder, d1.imgs[2]), alt: isDe ? `${d1.label} Arbeitsblatt Beispiel 3` : isFr ? `Fiche ${d1.label} exemple 3` : isEs ? `Hoja de trabajo ${d1.label} ejemplo 3` : isPt ? `Folha de trabalho ${d1.label} exemplo 3` : isIt ? `Scheda di ${d1.label} esempio 3` : isNl ? `${d1.label} werkblad voorbeeld 3` : `${d1.label} worksheet sample 3` },
       ],
       pills: d1.pills,
       decorativeSymbol: d1.symbol,
     },
     tiered: {
       gradient: tieredGradients[seed % tieredGradients.length],
-      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : isIt ? 'Livelli di abilità' : 'Skill Levels',
-      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : isIt ? 'Schede per ogni livello' : 'Worksheets for Every Level',
-      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : isIt ? 'Tre livelli di difficoltà per contenuti differenziati' : 'Three difficulty tiers for differentiated content',
+      badge: isDe ? 'Schwierigkeitsstufen' : isFr ? 'Niveaux de compétence' : isEs ? 'Niveles de habilidad' : isPt ? 'Níveis de habilidade' : isIt ? 'Livelli di abilità' : isNl ? 'Vaardigheidsniveaus' : 'Skill Levels',
+      heading: isDe ? 'Arbeitsblätter für jede Stufe' : isFr ? 'Des fiches pour chaque niveau' : isEs ? 'Hojas de trabajo para cada nivel' : isPt ? 'Folhas de trabalho para cada nível' : isIt ? 'Schede per ogni livello' : isNl ? 'Werkbladen voor elk niveau' : 'Worksheets for Every Level',
+      subheading: isDe ? 'Drei Schwierigkeitsstufen für differenzierte Inhalte' : isFr ? 'Trois niveaux de difficulté pour un contenu différencié' : isEs ? 'Tres niveles de dificultad para contenido diferenciado' : isPt ? 'Três níveis de dificuldade para conteúdo diferenciado' : isIt ? 'Tre livelli di difficoltà per contenuti differenziati' : isNl ? 'Drie moeilijkheidsniveaus voor gedifferentieerde inhoud' : 'Three difficulty tiers for differentiated content',
       tiers: [
         {
-          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : isIt ? 'Principiante' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
-          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : isIt ? `Scheda di ${d2.label} principiante` : `${d2.label} beginner worksheet` },
+          name: isDe ? 'Anfänger' : isFr ? 'Débutant' : isEs ? 'Principiante' : isPt ? 'Iniciante' : isIt ? 'Principiante' : isNl ? 'Beginner' : 'Beginner', gradientClass: 'from-emerald-400 to-green-500', textColorClass: 'text-emerald-700', borderColorClass: 'border-emerald-300', stars: 1,
+          image: { src: imgFn(d2.folder, d2.imgs[0]), alt: isDe ? `${d2.label} Anfänger-Arbeitsblatt` : isFr ? `Fiche ${d2.label} débutant` : isEs ? `Hoja de ${d2.label} principiante` : isPt ? `Folha de ${d2.label} iniciante` : isIt ? `Scheda di ${d2.label} principiante` : isNl ? `${d2.label} beginner werkblad` : `${d2.label} beginner worksheet` },
           desc: d2.tierDesc[0],
         },
         {
-          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : isIt ? 'Esploratore' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
-          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : isIt ? `Scheda di ${d3.label} intermedio` : `${d3.label} intermediate worksheet` },
+          name: isDe ? 'Entdecker' : isFr ? 'Explorateur' : isEs ? 'Explorador' : isPt ? 'Explorador' : isIt ? 'Esploratore' : isNl ? 'Ontdekker' : 'Explorer', gradientClass: 'from-blue-400 to-indigo-500', textColorClass: 'text-blue-700', borderColorClass: 'border-blue-300', stars: 2,
+          image: { src: imgFn(d3.folder, d3.imgs[1]), alt: isDe ? `${d3.label} Fortgeschrittenen-Arbeitsblatt` : isFr ? `Fiche ${d3.label} intermédiaire` : isEs ? `Hoja de ${d3.label} intermedio` : isPt ? `Folha de ${d3.label} intermédio` : isIt ? `Scheda di ${d3.label} intermedio` : isNl ? `${d3.label} gemiddeld werkblad` : `${d3.label} intermediate worksheet` },
           desc: d3.tierDesc[1],
         },
         {
-          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : isIt ? 'Esperto' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
-          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : isIt ? `Scheda di ${d4.label} avanzato` : `${d4.label} advanced worksheet` },
+          name: isDe ? 'Experte' : isFr ? 'Expert' : isEs ? 'Experto' : isPt ? 'Especialista' : isIt ? 'Esperto' : isNl ? 'Expert' : 'Expert', gradientClass: 'from-amber-400 to-orange-500', textColorClass: 'text-amber-700', borderColorClass: 'border-amber-300', stars: 3,
+          image: { src: imgFn(d4.folder, d4.imgs[2]), alt: isDe ? `${d4.label} Experten-Arbeitsblatt` : isFr ? `Fiche ${d4.label} avancé` : isEs ? `Hoja de ${d4.label} avanzado` : isPt ? `Folha de ${d4.label} avançado` : isIt ? `Scheda di ${d4.label} avanzato` : isNl ? `${d4.label} gevorderd werkblad` : `${d4.label} advanced worksheet` },
           desc: d4.tierDesc[2],
         },
       ],
-      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : isIt ? 'Qualità professionale ad ogni livello di difficoltà' : 'Professional quality at every difficulty level',
+      trophyText: isDe ? 'Professionelle Qualität auf jedem Schwierigkeitsniveau' : isFr ? 'Qualité professionnelle à chaque niveau de difficulté' : isEs ? 'Calidad profesional en cada nivel de dificultad' : isPt ? 'Qualidade profissional em cada nível de dificuldade' : isIt ? 'Qualità professionale ad ogni livello di difficoltà' : isNl ? 'Professionele kwaliteit op elk moeilijkheidsniveau' : 'Professional quality at every difficulty level',
     },
     spotlight: {
       gradient: spotlightGradients[seed % spotlightGradients.length],
-      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : isIt ? `Vetrina ${d1.label}` : `${d1.label} Showcase`,
-      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : isIt ? 'Scopri cosa puoi creare!' : 'See What You Can Create!',
-      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : isIt ? `Scheda di ${d1.label.toLowerCase()} in evidenza` : `Featured ${d1.label.toLowerCase()} worksheet` },
+      heading: isDe ? `${d1.label}-Präsentation` : isFr ? `Vitrine ${d1.label}` : isEs ? `Muestra de ${d1.label}` : isPt ? `Mostra de ${d1.label}` : isIt ? `Vetrina ${d1.label}` : isNl ? `${d1.label}-Etalage` : `${d1.label} Showcase`,
+      tagline: isDe ? 'So sieht es aus!' : isFr ? 'Découvrez ce que vous pouvez créer !' : isEs ? '¡Mira lo que puedes crear!' : isPt ? 'Veja o que pode criar!' : isIt ? 'Scopri cosa puoi creare!' : isNl ? 'Bekijk wat je kunt maken!' : 'See What You Can Create!',
+      image: { src: imgFn(d1.folder, d1.imgs[3]), alt: isDe ? `Hervorgehobenes ${d1.label}-Arbeitsblatt` : isFr ? `Fiche ${d1.label.toLowerCase()} en vedette` : isEs ? `Hoja de ${d1.label.toLowerCase()} destacada` : isPt ? `Folha de ${d1.label.toLowerCase()} em destaque` : isIt ? `Scheda di ${d1.label.toLowerCase()} in evidenza` : isNl ? `Uitgelicht ${d1.label.toLowerCase()} werkblad` : `Featured ${d1.label.toLowerCase()} worksheet` },
       pills: d1.spotPills,
       hasBunting: seed % 2 === 0,
       hasConfetti: true,
@@ -930,12 +932,12 @@ function buildConfig(
     },
     gallery: {
       gradient: galleryGradient,
-      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : isIt ? 'Galleria professionale di schede' : 'Professional Worksheet Gallery',
-      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : isIt ? 'Layout puliti e professionali pronti per il tuo business' : 'Clean, polished layouts ready for your business',
+      heading: isDe ? 'Professionelle Arbeitsblatt-Galerie' : isFr ? 'Galerie de fiches professionnelles' : isEs ? 'Galería profesional de hojas de trabajo' : isPt ? 'Galeria profissional de folhas de trabalho' : isIt ? 'Galleria professionale di schede' : isNl ? 'Professionele Werkblad Galerij' : 'Professional Worksheet Gallery',
+      subheading: isDe ? 'Klare, professionelle Layouts für Ihr Geschäft' : isFr ? 'Mises en page soignées et professionnelles pour votre activité' : isEs ? 'Diseños limpios y profesionales listos para tu negocio' : isPt ? 'Layouts limpos e profissionais prontos para o seu negócio' : isIt ? 'Layout puliti e professionali pronti per il tuo business' : isNl ? 'Strakke, professionele layouts klaar voor je bedrijf' : 'Clean, polished layouts ready for your business',
       items: [
-        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : isIt ? `Scheda di ${d2.label} professionale` : `${d2.label} professional worksheet` }, label: d2.label },
-        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : isIt ? `Scheda di ${d3.label} professionale` : `${d3.label} professional worksheet` }, label: d3.label },
-        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : isIt ? `Scheda di ${d4.label} professionale` : `${d4.label} professional worksheet` }, label: d4.label },
+        { image: { src: imgFn(d2.folder, d2.imgs[3]), alt: isDe ? `${d2.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d2.label} professionnelle` : isEs ? `Hoja de ${d2.label} profesional` : isPt ? `Folha de ${d2.label} profissional` : isIt ? `Scheda di ${d2.label} professionale` : isNl ? `${d2.label} professioneel werkblad` : `${d2.label} professional worksheet` }, label: d2.label },
+        { image: { src: imgFn(d3.folder, d3.imgs[4]), alt: isDe ? `${d3.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d3.label} professionnelle` : isEs ? `Hoja de ${d3.label} profesional` : isPt ? `Folha de ${d3.label} profissional` : isIt ? `Scheda di ${d3.label} professionale` : isNl ? `${d3.label} professioneel werkblad` : `${d3.label} professional worksheet` }, label: d3.label },
+        { image: { src: imgFn(d4.folder, d4.imgs[0]), alt: isDe ? `${d4.label} professionelles Arbeitsblatt` : isFr ? `Fiche ${d4.label} professionnelle` : isEs ? `Hoja de ${d4.label} profesional` : isPt ? `Folha de ${d4.label} profissional` : isIt ? `Scheda di ${d4.label} professionale` : isNl ? `${d4.label} professioneel werkblad` : `${d4.label} professional worksheet` }, label: d4.label },
       ],
       pills: isDe
         ? ['Druckfertig', 'Professionelle Qualität', 'Verschiedene Formate', 'Lösungsschlüssel']
@@ -947,6 +949,8 @@ function buildConfig(
         ? ['Pronto para imprimir', 'Qualidade profissional', 'Múltiplos formatos', 'Chaves de resposta']
         : isIt
         ? ['Pronto per la stampa', 'Qualità professionale', 'Formati multipli', 'Chiavi di risposta']
+        : isNl
+        ? ['Printklaar', 'Professionele kwaliteit', 'Meerdere formaten', 'Antwoordsleutels']
         : ['Print-Ready', 'Professional Quality', 'Multiple Formats', 'Answer Keys'],
       frameColor: d1.frameColor,
     },

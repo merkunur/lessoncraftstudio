@@ -190,22 +190,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math-puzzle/sample-1.jpeg',
+      src: '/samples/dutch/math puzzle/Wiskundepuzzels 1.webp',
       alt: 'Wiskundepuzzel werkblad voorbeeld voor passief inkomen met printables',
     },
     samples: [
       {
-        src: '/samples/dutch/addition/sample-1.jpeg',
+        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
         alt: 'Optelwerkblad voor passief inkomen verkoop',
         caption: 'Professioneel optelwerkblad — gegenereerd met de gratis proefversie met watermerk',
       },
       {
-        src: '/samples/dutch/word-search/sample-1.jpeg',
+        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
         alt: 'Woordzoeker puzzel voor passief inkomen op Etsy',
         caption: 'Thematische woordzoeker — een van de best verkopende werkbladtypen voor passief inkomen',
       },
       {
-        src: '/samples/dutch/maze/sample-1.jpeg',
+        src: '/samples/dutch/crossword/Plaatjes Kruiswoord 1.webp',
         alt: 'Doolhof werkblad voor passief inkomen catalogus',
         caption: 'Doolhof werkblad — populair bij kinderen en consistent verkopend op alle platformen',
       },

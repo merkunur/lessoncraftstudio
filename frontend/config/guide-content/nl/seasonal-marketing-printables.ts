@@ -204,7 +204,7 @@ const content: GuideContent = {
         caption: 'Seizoensgebonden bingokaarten zijn consistente topverkopers tijdens feestdagen vraagpieken op alle printable marktplaatsen',
       },
       {
-        src: '/samples/dutch/wordsearch/wordsearch portrait.webp',
+        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
         alt: 'Woordzoekpuzzel die seizoensgebonden woordenschatopbouwende printable toont voor feestdagenmarketing',
         caption: 'Thematische woordzoekers combineren seizoensaantrekkingskracht met educatieve waarde voor sterke marktplaatsprestaties',
       },

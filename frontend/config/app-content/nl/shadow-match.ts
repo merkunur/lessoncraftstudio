@@ -263,7 +263,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/shadow%20match/shadow-match-worksheet.webp',
+      primary: '/samples/dutch/shadow%20match/Schaduw Koppelen 1.webp',
       primaryAlt: 'Schaduw koppelen werkblad met gekleurde afbeeldingen in bovenste rij en automatisch gegenereerde zwarte silhouetten in onderste rij met amberkleurige koptekst',
     },
     sampleGallery: [

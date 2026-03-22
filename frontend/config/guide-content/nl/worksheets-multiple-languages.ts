@@ -190,22 +190,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/multilingual-worksheets/hero.jpeg',
+      src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
       alt: 'Meertalige werkbladen in verschillende talen naast elkaar',
     },
     samples: [
       {
-        src: '/samples/dutch/multilingual-worksheets/sample-1.jpeg',
+        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
         alt: 'Woordzoeker puzzel beschikbaar in vijf talen',
         caption: 'Dezelfde woordzoeker puzzel in vijf talen — gegenereerd met de werkbladgenerator',
       },
       {
-        src: '/samples/dutch/multilingual-worksheets/sample-2.jpeg',
+        src: '/samples/dutch/crossword/Plaatjes Kruiswoord 1.webp',
         alt: 'Meertalige rekenwerkbladen met gelokaliseerde instructies',
         caption: 'Rekenwerkbladen met automatisch vertaalde instructies per taal',
       },
       {
-        src: '/samples/dutch/multilingual-worksheets/sample-3.jpeg',
+        src: '/samples/dutch/matching/Zoek de Paren 1.webp',
         alt: 'Meertalige bundel productpresentatie voor Etsy',
         caption: 'Professionele bundelpresentatie voor meertalige werkbladpakketten',
       },

@@ -188,7 +188,7 @@ const content: GuideContent = {
         caption: 'Woordzoekerpuzzels kunnen worden gegenereerd in 11 talen, ideaal voor meertalige uitbreiding',
       },
       {
-        src: '/samples/dutch/matching/Koppelen%201.webp',
+        src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp',
         alt: 'Koppelwerkblad met visuele thema\'s die werken over taalmarkten',
         caption: 'Visuele koppelwerkbladen gebruiken afbeeldingen die universeel vertalen over talen',
       },

@@ -162,22 +162,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math worksheet/Math Worksheet 1.webp',
+      src: '/samples/dutch/math worksheet/Wiskundeblad 1.webp',
       alt: 'Professioneel rekenwerkblad dat geautomatiseerde productie-efficiëntie demonstreert voor printable bedrijven',
     },
     samples: [
       {
-        src: '/samples/dutch/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/dutch/math worksheet/Wiskundeblad 2.webp',
         alt: 'Rekenwerkblad dat geautomatiseerde batchproductie-output toont',
         caption: 'Werkbladgeneratoren automatiseren de meest tijdrovende stap in printable productie',
       },
       {
-        src: '/samples/dutch/addition/Addition Fun 1.webp',
+        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
         alt: 'Optelwerkblad dat thematische batchproductie met variaties demonstreert',
         caption: 'Batchproductie van thematische variaties vermenigvuldigt je catalogusoutput efficiënt',
       },
       {
-        src: '/samples/dutch/wordsearch/wordsearch portrait.webp',
+        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
         alt: 'Woordzoekpuzzel die systematische contentcreatie over thema\'s toont',
         caption: 'Systematische variatie over thema\'s en talen schaalt je catalogusgroei',
       },

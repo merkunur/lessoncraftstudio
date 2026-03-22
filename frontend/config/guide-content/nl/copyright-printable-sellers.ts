@@ -200,7 +200,7 @@ const content: GuideContent = {
         caption: 'Schrijfwerkbladen bevatten substantieel originele creatieve expressie in hun instructietekst en ontwerp',
       },
       {
-        src: '/samples/dutch/wordsearch/wordsearch portrait.webp',
+        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
         alt: 'Woordzoekpuzzel met thematische beelden die creatieve rangschikking van educatieve inhoud demonstreert',
         caption: 'Woordzoekpuzzels demonstreren beschermbare creatieve rangschikking van woordenschatelementen',
       },

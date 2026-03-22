@@ -200,12 +200,12 @@ const content: GuideContent = {
         caption: 'Woordzoekpuzzels zijn ideaal als visuele Pinterest-content',
       },
       {
-        src: '/samples/dutch/coloring/Kleurplaat 1.webp',
+        src: '/samples/dutch/coloring/coloring portrait 1.webp',
         alt: 'Kleurplaat voorbeeld geschikt voor Pinterest promotie',
         caption: 'Kleurplaten behoren tot de meest gezochte printable categorieën op Pinterest',
       },
       {
-        src: '/samples/dutch/addition/Optelwerkblad 1.webp',
+        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
         alt: 'Rekenwerkblad voorbeeld voor Pinterest marketing van educatieve printables',
         caption: 'Rekenwerkbladen trekken ouders en leerkrachten aan via Pinterest-zoekresultaten',
       },

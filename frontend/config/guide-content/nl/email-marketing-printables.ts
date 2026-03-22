@@ -200,12 +200,12 @@ const content: GuideContent = {
         caption: 'Dit type werkblad is ideaal als leadmagneet voor je e-maillijst',
       },
       {
-        src: '/samples/dutch/word-search/Woordzoeker Dieren 1.webp',
+        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
         alt: 'Woordzoeker als gratis proefversie met watermerk voor e-mail aanmelding',
         caption: 'Woordzoekers zijn populaire leadmagneten die veel aanmeldingen genereren',
       },
       {
-        src: '/samples/dutch/coloring/Kleurplaat Dieren 1.webp',
+        src: '/samples/dutch/coloring/coloring portrait 1.webp',
         alt: 'Kleurplaat als onderdeel van een e-mail welkomstpakket voor nieuwe abonnees',
         caption: 'Kleurplaten werken uitstekend als bonusmateriaal in je welkomstreeks',
       },

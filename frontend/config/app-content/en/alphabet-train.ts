@@ -233,11 +233,6 @@ const content: AppContent = {
       anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'alphabet-train-maker',
-      anchorText: 'Alphabet Train Worksheet Maker',
-    },
-    {
       pageType: 'guide',
       slug: 'sell-word-search-etsy',
       anchorText: 'Guide to Selling Alphabet Worksheets on Etsy',
@@ -249,8 +244,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'esl-printable-ideas',
+      anchorText: 'ESL Printable Ideas for Language Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'homeschool-printable-ideas',
+      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-alphabet-worksheets',
+      anchorText: 'How to Create Alphabet Worksheets',
     },
   ],
 

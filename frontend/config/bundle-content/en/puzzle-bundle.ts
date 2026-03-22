@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'odd-one-out-worksheets', anchorText: 'Odd One Out Generator — Full Details' },
     { pageType: 'app', slug: 'sudoku-worksheets', anchorText: 'Picture Sudoku Generator — Full Details' },
     { pageType: 'app', slug: 'picture-path-worksheets', anchorText: 'Picture Path Maze Generator — Full Details' },
-    { pageType: 'tool', slug: 'missing-pieces-maker', anchorText: 'Try the Missing Pieces Puzzle Maker' },
-    { pageType: 'tool', slug: 'odd-one-out-maker', anchorText: 'Try the Odd One Out Maker' },
-    { pageType: 'tool', slug: 'sudoku-maker', anchorText: 'Try the Picture Sudoku Maker' },
-    { pageType: 'tool', slug: 'picture-path-maker', anchorText: 'Try the Picture Path Maze Maker' },
+    { pageType: 'guide', slug: 'create-crossword-puzzles', anchorText: 'How to Create Crossword Puzzles That Sell' },
+    { pageType: 'guide', slug: 'publish-puzzle-books-kdp', anchorText: 'How to Publish Puzzle Books on Amazon KDP' },
+    { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Publish Activity Books on Amazon KDP' },
+    { pageType: 'idea', slug: 'first-grade-printable-ideas', anchorText: 'First Grade Printable Ideas for Primary Education' },
   ],
 
   visuals: {

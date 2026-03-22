@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'shadow-match-maker',
-      anchorText: 'Shadow Match Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      pageType: 'idea',
+      slug: 'preschool-printable-ideas',
+      anchorText: 'Preschool Printable Ideas for Early Learners',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaur Printable Ideas for Worksheets',
+      slug: 'kindergarten-printable-ideas',
+      anchorText: 'Kindergarten Printable Ideas for Young Students',
+    },
+    {
+      pageType: 'start',
+      slug: 'printable-business-blueprint',
+      anchorText: 'Your Printable Business Blueprint',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-shadow-matching-worksheets',
+      anchorText: 'How to Create Shadow Matching Worksheets',
     },
   ],
 

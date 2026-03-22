@@ -233,16 +233,6 @@ const content: AppContent = {
       anchorText: 'Puzzles & Logic Toolkit — All 4 Puzzle Generators in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'odd-one-out-maker',
-      anchorText: 'Odd One Out Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'guide',
       slug: 'create-odd-one-out-puzzles',
       anchorText: 'How to Create Odd One Out Puzzles That Sell',
@@ -251,6 +241,21 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'visual-discrimination-printable-ideas',
       anchorText: 'Visual Discrimination Printable Ideas for Worksheets',
+    },
+    {
+      pageType: 'idea',
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First Grade Printable Ideas for Primary Education',
+    },
+    {
+      pageType: 'idea',
+      slug: 'second-grade-printable-ideas',
+      anchorText: 'Second Grade Printable Ideas for Growing Learners',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activity-books',
+      anchorText: 'Publish Activity Books on Amazon KDP',
     },
   ],
 

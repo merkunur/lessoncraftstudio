@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'matching-worksheet-maker',
-      anchorText: 'Matching Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      pageType: 'idea',
+      slug: 'preschool-printable-ideas',
+      anchorText: 'Preschool Printable Ideas for Early Learners',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'kindergarten-printable-ideas',
+      anchorText: 'Kindergarten Printable Ideas for Young Students',
+    },
+    {
+      pageType: 'start',
+      slug: 'printable-business-blueprint',
+      anchorText: 'Your Printable Business Blueprint',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-matching-worksheets',
+      anchorText: 'How to Create Matching Worksheets',
     },
   ],
 

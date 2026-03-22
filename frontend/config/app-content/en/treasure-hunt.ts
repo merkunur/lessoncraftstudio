@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Search & Find Bundle — All Search Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'treasure-hunt-maker',
-      anchorText: 'Treasure Hunt Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'guide',
       slug: 'create-treasure-hunt-worksheets',
       anchorText: 'How to Create Treasure Hunt Worksheets That Sell',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-printable-ideas',
+      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ocean-animals-printable-ideas',
+      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-business',
+      anchorText: 'Marketing Your Printable Business',
     },
   ],
 

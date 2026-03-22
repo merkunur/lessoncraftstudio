@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'draw-and-color-maker',
-      anchorText: 'Draw & Color Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      pageType: 'idea',
+      slug: 'summer-printable-ideas',
+      anchorText: 'Summer Printable Ideas for Kids’ Activities',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'christmas-printable-ideas',
+      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
+    },
+    {
+      pageType: 'start',
+      slug: 'etsy-printable-business',
+      anchorText: 'Build Your Etsy Printable Business',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-drawing-worksheets',
+      anchorText: 'How to Create Drawing Worksheets',
     },
   ],
 

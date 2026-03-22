@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'pattern-train-maker',
-      anchorText: 'Pattern Train Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      pageType: 'idea',
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First Grade Printable Ideas for Primary Education',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'second-grade-printable-ideas',
+      anchorText: 'Second Grade Printable Ideas for Growing Learners',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activity-books',
+      anchorText: 'Publish Activity Books on Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-pattern-worksheets',
+      anchorText: 'How to Create Pattern Worksheets',
     },
   ],
 

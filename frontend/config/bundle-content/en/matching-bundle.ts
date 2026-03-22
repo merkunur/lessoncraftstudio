@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'shadow-match-worksheets', anchorText: 'Shadow Match Generator — Full Details' },
     { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Bingo Card Generator — Full Details' },
     { pageType: 'app', slug: 'picture-sort-worksheets', anchorText: 'Picture Sort Generator — Full Details' },
-    { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Try the Matching Worksheet Maker' },
-    { pageType: 'tool', slug: 'grid-match-maker', anchorText: 'Try the Grid Match Maker' },
-    { pageType: 'tool', slug: 'shadow-match-maker', anchorText: 'Try the Shadow Match Maker' },
-    { pageType: 'tool', slug: 'bingo-card-maker', anchorText: 'Try the Bingo Card Maker' },
-    { pageType: 'tool', slug: 'picture-sort-maker', anchorText: 'Try the Picture Sort Maker' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'How to Create Matching Worksheets' },
+    { pageType: 'guide', slug: 'create-shadow-matching-worksheets', anchorText: 'How to Create Shadow Matching Worksheets' },
+    { pageType: 'start', slug: 'printable-business-blueprint', anchorText: 'Your Printable Business Blueprint' },
+    { pageType: 'idea', slug: 'preschool-printable-ideas', anchorText: 'Preschool Printable Ideas for Early Learners' },
   ],
 
   visuals: {

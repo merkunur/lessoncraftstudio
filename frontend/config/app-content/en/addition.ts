@@ -223,11 +223,6 @@ const content: AppContent = {
       anchorText: 'Math Mastery Bundle — All Math Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'addition-worksheet-maker',
-      anchorText: 'Addition Worksheet Maker',
-    },
-    {
       pageType: 'guide',
       slug: 'create-addition-worksheets',
       anchorText: 'How to Create Addition Worksheets That Sell',
@@ -238,19 +233,19 @@ const content: AppContent = {
       anchorText: 'Guide to Selling Math Worksheets on Etsy',
     },
     {
+      pageType: 'idea',
+      slug: 'math-facts-printable-ideas',
+      anchorText: 'Math Facts Printable Ideas for Educators & Sellers',
+    },
+    {
+      pageType: 'idea',
+      slug: 'back-to-school-printable-ideas',
+      anchorText: 'Back-to-School Printable Ideas That Sell',
+    },
+    {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
-      pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosaur-printable-ideas',
-      anchorText: 'Dinosaur Printable Ideas for Kids’ Activities',
+      slug: 'create-worksheets-that-sell',
+      anchorText: 'How to Create Worksheets That Sell',
     },
   ],
 

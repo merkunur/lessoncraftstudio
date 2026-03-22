@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Matching & Sorting Bundle — All Matching Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'bingo-card-maker',
-      anchorText: 'Bingo Card Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'guide',
       slug: 'create-bingo-cards',
       anchorText: 'How to Create and Sell Bingo Cards Online',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-printable-ideas',
+      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ocean-animals-printable-ideas',
+      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-business',
+      anchorText: 'Marketing Your Printable Business',
     },
   ],
 

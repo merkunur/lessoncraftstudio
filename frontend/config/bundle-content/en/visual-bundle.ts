@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'drawing-lines-worksheets', anchorText: 'Drawing Lines Generator — Full Details' },
     { pageType: 'app', slug: 'coloring-worksheets', anchorText: 'Coloring Page Generator — Full Details' },
     { pageType: 'app', slug: 'chart-count-worksheets', anchorText: 'Chart Count Generator — Full Details' },
-    { pageType: 'tool', slug: 'big-and-small-worksheet-maker', anchorText: 'Try the Big & Small Worksheet Maker' },
-    { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Try the Pattern Train Maker' },
-    { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Try the Pattern Worksheet Maker' },
-    { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Try the Draw & Color Maker' },
-    { pageType: 'tool', slug: 'drawing-lines-maker', anchorText: 'Try the Drawing Lines Maker' },
-    { pageType: 'tool', slug: 'coloring-page-maker', anchorText: 'Try the Coloring Page Maker' },
-    { pageType: 'tool', slug: 'chart-count-maker', anchorText: 'Try the Chart Count Maker' },
+    { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create & Sell Coloring Pages on Etsy' },
+    { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'How to Create Drawing Worksheets' },
+    { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Build Your Etsy Printable Business' },
+    { pageType: 'idea', slug: 'summer-printable-ideas', anchorText: 'Summer Printable Ideas for Kids’ Activities' },
   ],
 
   visuals: {

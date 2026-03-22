@@ -243,14 +243,24 @@ const content: AppContent = {
       anchorText: 'Search & Find Bundle — All Search Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'crossword-maker',
-      anchorText: 'Picture Crossword Maker',
+      pageType: 'idea',
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First Grade Printable Ideas for Primary Education',
+    },
+    {
+      pageType: 'idea',
+      slug: 'second-grade-printable-ideas',
+      anchorText: 'Second Grade Printable Ideas for Growing Learners',
     },
     {
       pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      slug: 'amazon-kdp-activity-books',
+      anchorText: 'Publish Activity Books on Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-crossword-puzzles',
+      anchorText: 'How to Create Crossword Puzzles That Sell',
     },
   ],
 

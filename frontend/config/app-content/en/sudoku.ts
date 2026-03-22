@@ -233,16 +233,6 @@ const content: AppContent = {
       anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'sudoku-maker',
-      anchorText: 'Picture Sudoku Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'guide',
       slug: 'sudoku-books-kdp',
       anchorText: 'How to Create and Sell Sudoku Books on Amazon KDP',
@@ -251,6 +241,26 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'logic-puzzles-printable-ideas',
       anchorText: 'Logic Puzzle Printable Ideas for Worksheets',
+    },
+    {
+      pageType: 'idea',
+      slug: 'first-grade-printable-ideas',
+      anchorText: 'First Grade Printable Ideas for Primary Education',
+    },
+    {
+      pageType: 'idea',
+      slug: 'second-grade-printable-ideas',
+      anchorText: 'Second Grade Printable Ideas for Growing Learners',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activity-books',
+      anchorText: 'Publish Activity Books on Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-picture-sudoku',
+      anchorText: 'How to Create Picture Sudoku for Kids',
     },
   ],
 

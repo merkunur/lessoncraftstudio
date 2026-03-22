@@ -207,12 +207,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'more-less-worksheets', anchorText: 'More or Less Worksheet Generator — Full Details' },
     { pageType: 'app', slug: 'math-puzzle-worksheets', anchorText: 'Math Puzzle Worksheet Generator — Full Details' },
     { pageType: 'app', slug: 'math-worksheets', anchorText: 'Math Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Try the Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'subtraction-worksheet-maker', anchorText: 'Try the Subtraction Worksheet Maker' },
-    { pageType: 'tool', slug: 'code-addition-worksheet-maker', anchorText: 'Try the Code Addition Worksheet Maker' },
-    { pageType: 'tool', slug: 'more-or-less-worksheet-maker', anchorText: 'Try the More or Less Worksheet Maker' },
-    { pageType: 'tool', slug: 'math-puzzle-maker', anchorText: 'Try the Math Puzzle Maker' },
-    { pageType: 'tool', slug: 'math-worksheet-maker', anchorText: 'Try the Math Worksheet Maker' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
+    { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Publish Math Activity Books on Amazon KDP' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Worksheets That Sell' },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math Facts Printable Ideas for Educators & Sellers' },
   ],
 
   visuals: {

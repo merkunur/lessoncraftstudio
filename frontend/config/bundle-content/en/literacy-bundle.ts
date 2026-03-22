@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'word-search-worksheets', anchorText: 'Word Search Generator — Full Details' },
     { pageType: 'app', slug: 'cryptogram-worksheets', anchorText: 'Cryptogram Generator — Full Details' },
     { pageType: 'app', slug: 'writing-worksheets', anchorText: 'Writing Worksheet Generator — Full Details' },
-    { pageType: 'tool', slug: 'alphabet-train-maker', anchorText: 'Try the Alphabet Train Maker' },
-    { pageType: 'tool', slug: 'prepositions-worksheet-maker', anchorText: 'Try the Prepositions Worksheet Maker' },
-    { pageType: 'tool', slug: 'word-guess-maker', anchorText: 'Try the Word Guess Maker' },
-    { pageType: 'tool', slug: 'word-scramble-maker', anchorText: 'Try the Word Scramble Maker' },
-    { pageType: 'tool', slug: 'word-search-maker', anchorText: 'Try the Word Search Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Try the Cryptogram Maker' },
-    { pageType: 'tool', slug: 'handwriting-worksheet-maker', anchorText: 'Try the Handwriting Worksheet Maker' },
+    { pageType: 'guide', slug: 'sell-word-search-etsy', anchorText: 'How to Sell Word Search Puzzles on Etsy' },
+    { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'How to Create Word Search Puzzles That Sell' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'The Complete Guide to Starting a Printable Business' },
+    { pageType: 'idea', slug: 'esl-printable-ideas', anchorText: 'ESL Printable Ideas for Language Learning' },
   ],
 
   visuals: {

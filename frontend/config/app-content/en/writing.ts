@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'handwriting-worksheet-maker',
-      anchorText: 'Handwriting Worksheet Maker',
-    },
-    {
       pageType: 'start',
       slug: 'complete-guide-printable-business',
       anchorText: 'The Complete Guide to Starting a Printable Business',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'esl-printable-ideas',
+      anchorText: 'ESL Printable Ideas for Language Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'homeschool-printable-ideas',
+      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-handwriting-sheets',
+      anchorText: 'How to Create Handwriting Practice Sheets',
     },
   ],
 

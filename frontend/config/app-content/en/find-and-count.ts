@@ -238,19 +238,29 @@ const content: AppContent = {
       anchorText: 'Search & Find Bundle — All Search Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'find-and-count-maker',
-      anchorText: 'Find & Count Worksheet Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'idea',
       slug: 'i-spy-books-kdp',
       anchorText: 'How to Create I Spy Books for Amazon KDP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-printable-ideas',
+      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ocean-animals-printable-ideas',
+      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-business',
+      anchorText: 'Marketing Your Printable Business',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-counting-worksheets',
+      anchorText: 'How to Create Find & Count Worksheets',
     },
   ],
 

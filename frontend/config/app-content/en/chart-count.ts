@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visual Learning Bundle — All Visual Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'chart-count-maker',
-      anchorText: 'Chart Count Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
+      pageType: 'idea',
+      slug: 'summer-printable-ideas',
+      anchorText: 'Summer Printable Ideas for Kids’ Activities',
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'christmas-printable-ideas',
+      anchorText: 'Christmas Printable Ideas for Seasonal Sales',
+    },
+    {
+      pageType: 'start',
+      slug: 'etsy-printable-business',
+      anchorText: 'Build Your Etsy Printable Business',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-chart-count-worksheets',
+      anchorText: 'How to Create Chart & Count Worksheets',
     },
   ],
 

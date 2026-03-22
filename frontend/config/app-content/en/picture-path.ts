@@ -233,16 +233,6 @@ const content: AppContent = {
       anchorText: 'Puzzles & Logic Bundle — All Puzzle Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'picture-path-maker',
-      anchorText: 'Picture Path Maze Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-guide-printable-business',
-      anchorText: 'The Complete Guide to Starting a Printable Business',
-    },
-    {
       pageType: 'guide',
       slug: 'publish-puzzle-books-kdp',
       anchorText: 'How to Create and Sell Maze Books on Amazon KDP',
@@ -251,6 +241,26 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'maze-pathway-printable-ideas',
       anchorText: 'Maze and Pathway Printable Ideas for Worksheets',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-printable-ideas',
+      anchorText: 'Camping Printable Ideas for Outdoor Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ocean-animals-printable-ideas',
+      anchorText: 'Ocean Animals Printable Ideas for Marine Themes',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-business',
+      anchorText: 'Marketing Your Printable Business',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-maze-worksheets',
+      anchorText: 'How to Create Maze & Path Worksheets',
     },
   ],
 

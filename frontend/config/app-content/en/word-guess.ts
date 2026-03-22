@@ -233,11 +233,6 @@ const content: AppContent = {
       anchorText: 'Literacy & Language Bundle — All Language Apps in One Package',
     },
     {
-      pageType: 'tool',
-      slug: 'word-guess-maker',
-      anchorText: 'Word Guess Worksheet Maker',
-    },
-    {
       pageType: 'guide',
       slug: 'sell-word-search-etsy',
       anchorText: 'Guide to Selling Language Worksheets on Etsy',
@@ -249,8 +244,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'farm-animals-printable-ideas',
-      anchorText: 'Farm Animals Printable Ideas for Worksheets',
+      slug: 'esl-printable-ideas',
+      anchorText: 'ESL Printable Ideas for Language Learning',
+    },
+    {
+      pageType: 'idea',
+      slug: 'homeschool-printable-ideas',
+      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-word-search-puzzles',
+      anchorText: 'How to Create Word Puzzles That Sell',
     },
   ],
 

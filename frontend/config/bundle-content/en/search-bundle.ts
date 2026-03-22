@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'find-objects-worksheets', anchorText: 'Hidden Object Generator — Full Details' },
     { pageType: 'app', slug: 'crossword-worksheets', anchorText: 'Picture Crossword Generator — Full Details' },
     { pageType: 'app', slug: 'treasure-hunt-worksheets', anchorText: 'Treasure Hunt Generator — Full Details' },
-    { pageType: 'tool', slug: 'find-and-count-maker', anchorText: 'Try the Find & Count Maker' },
-    { pageType: 'tool', slug: 'hidden-object-maker', anchorText: 'Try the Hidden Object Maker' },
-    { pageType: 'tool', slug: 'crossword-maker', anchorText: 'Try the Crossword Maker' },
-    { pageType: 'tool', slug: 'treasure-hunt-maker', anchorText: 'Try the Treasure Hunt Maker' },
+    { pageType: 'guide', slug: 'create-hidden-object-worksheets', anchorText: 'How to Create Hidden Object Worksheets' },
+    { pageType: 'guide', slug: 'create-treasure-hunt-worksheets', anchorText: 'How to Create Treasure Hunt Worksheets' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'Marketing Your Printable Business' },
+    { pageType: 'idea', slug: 'camping-printable-ideas', anchorText: 'Camping Printable Ideas for Outdoor Learning' },
   ],
 
   visuals: {

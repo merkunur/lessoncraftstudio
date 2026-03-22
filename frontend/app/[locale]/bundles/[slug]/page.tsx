@@ -169,6 +169,7 @@ export default async function BundlePage({
       description: content.hero.description,
       url: pageUrl,
       image: bundleSchemaImage,
+      inLanguage: getHreflangCode(locale),
       brand: { '@type': 'Organization', name: 'LessonCraftStudio' },
       offers: {
         '@type': 'AggregateOffer',
@@ -178,6 +179,7 @@ export default async function BundlePage({
         offerCount: 2,
         availability: 'https://schema.org/InStock',
       },
+      speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
     };
 
     const breadcrumbSchema = {
@@ -239,10 +241,10 @@ export default async function BundlePage({
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h1 className="speakable-headline text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {content.hero.title}
             </h1>
-            <ReadMoreText text={content.hero.description} locale={locale} className="text-lg text-gray-600 mb-8" lines={5} />
+            <ReadMoreText text={content.hero.description} locale={locale} className="speakable-summary text-lg text-gray-600 mb-8" lines={5} />
 
             {/* Hero Image */}
             {content.visuals?.heroImages?.primary && (

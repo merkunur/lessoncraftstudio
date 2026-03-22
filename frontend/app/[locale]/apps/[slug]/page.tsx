@@ -731,19 +731,21 @@ export default async function AppDetailPage({
     url: pageUrl,
     applicationCategory: 'EducationalApplication',
     operatingSystem: 'Web',
+    inLanguage: getHreflangCode(locale),
     image: schemaImage,
     ...(schemaScreenshots?.length && { screenshot: schemaScreenshots }),
     offers: {
       '@type': 'Offer',
       price: '0',
       priceCurrency: 'USD',
-      description: 'Free with watermark',
+      description: ui.watermarkNote,
     },
     author: {
       '@type': 'Organization',
       name: 'LessonCraftStudio',
       url: 'https://www.lessoncraftstudio.com',
     },
+    speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
   };
 
   // FAQPage JSON-LD (only when enriched content exists)
@@ -861,11 +863,11 @@ export default async function AppDetailPage({
                       <CategoryIcon category={category} />
                       {localizedCategoryName}
                     </div>
-                    <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                    <h1 className="speakable-headline text-3xl md:text-4xl font-bold text-gray-900 mb-3">
                       {content.hero.title}
                     </h1>
                     <p className="text-lg font-medium text-indigo-600 mb-4">{content.hero.tagline}</p>
-                    <ReadMoreText text={content.hero.description} locale={locale} className="text-gray-600 mb-6" lines={10} />
+                    <ReadMoreText text={content.hero.description} locale={locale} className="speakable-summary text-gray-600 mb-6" lines={10} />
                     <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} />
                     <p className="mt-3 text-sm text-gray-500">{ui.tryFreeDesc}</p>
                     <div className="flex flex-wrap gap-4 mt-6 text-sm text-gray-500">

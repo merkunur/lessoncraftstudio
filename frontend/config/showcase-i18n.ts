@@ -16,6 +16,7 @@ const localeFolderMap: Record<string, string> = {
   es: 'spanish',
   pt: 'portuguese',
   it: 'italian',
+  nl: 'dutch',
 };
 
 /** Build a sample image URL for any locale */
@@ -2844,6 +2845,91 @@ const itStringTable: Record<string, string> = {
   'Size Sorting': 'Classificazione per dimensione',
 };
 
+const nlStringTable: Record<string, string> = {
+  'Grades K-2': 'Groep 1-4', 'Grades 1-3': 'Groep 3-5', 'Grades 1-4': 'Groep 3-6',
+  'Skill Levels': 'Vaardigheidsniveaus', 'Challenge Levels': 'Uitdagingsniveaus',
+  'Professional Printables': 'Professionele Werkbladen', 'Early Math Skills': 'Eerste Rekenvaardigheden',
+  'Early Math Foundations': 'Rekenbasis', 'Progression Path': 'Leerpad',
+  'Visual Learning': 'Visueel Leren', 'Fine Motor Skills': 'Fijne Motoriek',
+  'Pre-Writing': 'Schrijfvoorbereiding', 'Language Skills': 'Taalvaardigheden',
+  'Word Skills': 'Woordenschat', 'Logic & Fun': 'Logica & Plezier',
+  'Creative Skills': 'Creativiteit', 'Observation Skills': 'Observatievermogen',
+  'Group Activities': 'Groepsactiviteiten',
+  'Beginner': 'Beginner', 'Explorer': 'Ontdekker', 'Expert': 'Expert',
+  'Rookie': 'Starter', 'Codebreaker': 'Codekraker', 'Mastermind': 'Meesterbrein',
+  'Standard': 'Standaard', 'Advanced': 'Gevorderd', 'Creative': 'Creatief',
+  'Pictures + Numbers': 'Afbeeldingen + Getallen', 'Answer Keys': 'Antwoordsleutels',
+  'Answer Key Included': 'Antwoordsleutel inbegrepen', 'Print-Ready': 'Printklaar',
+  'Free Trial with Watermark': 'Gratis proefversie met watermerk',
+  'Cross Out Method': 'Doorstreepmethode', 'Decode Messages': 'Berichten ontcijferen',
+  'Compare Amounts': 'Hoeveelheden vergelijken', 'Brain Teasers': 'Denkpuzzels',
+  'Practice Problems': 'Oefenopgaven', 'ABC Learning': 'ABC Leren',
+  'Position Words': 'Positiewoorden', 'Guess the Word': 'Raad het woord',
+  'Unscramble Words': 'Letterpuzzels oplossen', 'Find Hidden Words': 'Verborgen woorden vinden',
+  'Crossword Puzzles': 'Kruiswoordpuzzels', 'Decode Secrets': 'Geheimen ontcijferen',
+  'Handwriting Practice': 'Schrijfoefening', 'Guided Lines': 'Hulplijnen',
+  'Size Comparison': 'Groottevergelijking', 'Pattern Fun': 'Patronenplezier',
+  'Pattern Recognition': 'Patroonherkenning', 'Grid Drawing': 'Rastertekenen',
+  'Step-by-Step': 'Stap voor stap', 'Trace Lines': 'Lijnen overtrekken',
+  'Fine Motor': 'Fijne motoriek', 'Color & Create': 'Kleuren & Creëren',
+  'Themed Pages': 'Themapagina\'s', 'Picture Graphs': 'Plaatjesgrafieken',
+  'Match Pairs': 'Paren zoeken', 'Grid Puzzles': 'Rasterpuzzels',
+  'Match Shadows': 'Schaduwen koppelen', 'Bingo Cards': 'Bingokaarten',
+  'Callout Sheets': 'Leeskaarten', 'Sort & Classify': 'Sorteren & Indelen',
+  'Find Missing Parts': 'Ontbrekende stukjes vinden', 'Spot the Odd One': 'Vind de vreemde eend',
+  'Picture Sudoku': 'Plaatjes-Sudoku', 'Follow the Path': 'Volg het pad',
+  'I Spy & Count': 'Ik zie, ik zie & tellen', 'Hidden Objects': 'Verborgen voorwerpen',
+  'Map Adventures': 'Kaartavonturen', 'Themed Pictures': 'Themaplaatjes',
+  'Instant Download': 'Direct downloaden',
+  'Print Instantly!': 'Direct printen!', 'Pictures for Math': 'Plaatjes voor rekenen',
+  'With Answer Keys': 'Met antwoordsleutels', 'Cross Out Pictures': 'Plaatjes doorstrepen',
+  'Crack the Code!': 'Kraak de code!', 'Math + Logic': 'Rekenen + Logica',
+  'Compare & Learn!': 'Vergelijken & Leren!', 'Visual Comparisons': 'Visuele vergelijkingen',
+  'Puzzle Fun!': 'Puzzelplezier!', 'Practice Makes Perfect!': 'Oefening baart kunst!',
+  'All Operations': 'Alle bewerkingen', 'All Aboard ABC!': 'Instappen voor het ABC!',
+  'Letter Recognition': 'Letterherkenning', 'Where Is It?': 'Waar is het?',
+  'Position Practice': 'Positieoefening', 'Guess It!': 'Raad het!',
+  'Picture Clues': 'Plaatjesaanwijzingen', 'Unscramble Fun!': 'Letterpuzzelplezier!',
+  'Spelling Practice': 'Spellingoefening', 'Find the Words!': 'Vind de woorden!',
+  'Custom Themes': 'Eigen thema\'s', 'Solve the Clues!': 'Los de aanwijzingen op!',
+  'Vocabulary Fun': 'Woordenschatplezier', 'Letter Substitution': 'Lettervervanging',
+  'Write & Learn!': 'Schrijven & Leren!', 'Letter Formation': 'Lettervormgeving',
+  'Guided Practice': 'Begeleid oefenen', 'Big or Small?': 'Groot of klein?',
+  'Visual Comparison': 'Visuele vergelijking', 'Complete the Pattern!': 'Maak het patroon af!',
+  'Train Theme': 'Trein-thema', 'Spot the Pattern!': 'Herken het patroon!',
+  'Logical Thinking': 'Logisch denken', 'Draw It!': 'Teken het!',
+  'Grid Guidance': 'Rasterhulp', 'Creative Fun': 'Creatief plezier',
+  'Trace & Learn!': 'Overtrekken & Leren!', 'Motor Skills': 'Motoriek',
+  'Color Your World!': 'Kleur je wereld!', '100+ Themes': '100+ Thema\'s',
+  'Print & Color': 'Printen & Kleuren', 'Data Made Fun!': 'Data wordt leuk!',
+  'Visual Graphing': 'Visuele grafieken', 'Find the Match!': 'Vind het paar!',
+  'Visual Pairing': 'Visueel koppelen', 'Match the Grid!': 'Koppel het raster!',
+  'Spatial Skills': 'Ruimtelijk inzicht', 'Find the Shadow!': 'Vind de schaduw!',
+  'Visual Matching': 'Visueel koppelen', 'BINGO!': 'BINGO!',
+  'Group Activity': 'Groepsactiviteit', 'Print & Play': 'Printen & Spelen',
+  'Sort It Out!': 'Sorteer het!', 'Categories': 'Categorieën',
+  'Complete the Picture!': 'Maak het plaatje af!', 'Visual Logic': 'Visuele logica',
+  'Which One Is Different?': 'Welke is anders?', 'Visual Reasoning': 'Visueel redeneren',
+  'Sudoku Fun!': 'Sudoku-plezier!', 'Logic Puzzles': 'Logicapuzzels',
+  'Find the Way!': 'Vind de weg!', 'Maze & Path': 'Doolhof & Pad',
+  'I Spy!': 'Ik zie, ik zie!', 'Count & Find': 'Tellen & Vinden',
+  'Find Them All!': 'Vind ze allemaal!', 'Sharp Eyes': 'Scherpe ogen',
+  'Hunt for Treasure!': 'Schattenjacht!', 'Map Reading': 'Kaartlezen',
+  'Download & Print': 'Downloaden & Printen', 'Themed Images': 'Themaplaatjes',
+  'Solutions Included': 'Oplossingen inbegrepen',
+  'No Prep Required': 'Geen voorbereiding nodig', 'Answers Included': 'Antwoorden inbegrepen',
+  'Differentiated': 'Gedifferentieerd', 'Multiple Modes': 'Meerdere modi',
+  'Problem Solving': 'Probleemoplossing', 'Answer Key': 'Antwoordsleutel',
+  'Simple picture counting with numbers 1-5': 'Eenvoudig tellen met plaatjes van 1-5',
+  'Medium difficulty with numbers 1-10': 'Gemiddelde moeilijkheid met getallen 1-10',
+  'Advanced problems with larger numbers': 'Gevorderde opgaven met grotere getallen',
+  'Differentiated Learning for Every Child': 'Gedifferentieerd leren voor elk kind',
+  'Three difficulty tiers that grow with your students': 'Drie moeilijkheidsniveaus die meegroeien met je leerlingen',
+  'Every worksheet — ready to print': 'Elk werkblad — klaar om te printen',
+  'Fun for All!': 'Plezier voor iedereen!',
+  'Learning should feel like play': 'Leren moet voelen als spelen',
+};
+
 /** Get the string table for a given locale */
 function getStringTable(locale: string): Record<string, string> | null {
   if (locale === 'de') return deStringTable;
@@ -2851,6 +2937,7 @@ function getStringTable(locale: string): Record<string, string> | null {
   if (locale === 'es') return esStringTable;
   if (locale === 'pt') return ptStringTable;
   if (locale === 'it') return itStringTable;
+  if (locale === 'nl') return nlStringTable;
   return null;
 }
 

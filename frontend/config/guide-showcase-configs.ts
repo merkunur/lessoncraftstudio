@@ -19,6 +19,7 @@ import { frenchImages } from '@/config/french-showcase-images';
 import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
+import { dutchImages } from '@/config/dutch-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -38,6 +39,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
   if (locale === 'es') return imgUrl(appFolder, filename, 'es');
   if (locale === 'pt') return imgUrl(appFolder, filename, 'pt');
   if (locale === 'it') return imgUrl(appFolder, filename, 'it');
+  if (locale === 'nl') return imgUrl(appFolder, filename, 'nl');
   return img(appFolder, filename);
 }
 
@@ -775,6 +777,74 @@ function getItAppData(key: string): AppVisualData {
   };
 }
 
+// ─── Dutch labels + tier descs ───
+const nlLabels: Record<string, string> = {
+  addition: 'Optellen', subtraction: 'Aftrekken', 'code-addition': 'Code Optellen', 'more-less': 'Meer of Minder',
+  'math-puzzle': 'Rekenpuzzel', 'math-worksheet': 'Rekenwerkblad', 'alphabet-train': 'Alfabettrein',
+  prepositions: 'Voorzetsels', 'word-guess': 'Raad het Woord', 'word-scramble': 'Letterpuzzel',
+  wordsearch: 'Woordzoeker', cryptogram: 'Cryptogram', writing: 'Schrijven',
+  'big-small': 'Groot & Klein', 'pattern-train': 'Patroontrein', 'pattern-worksheet': 'Patronenwerkblad',
+  'draw-and-color': 'Tekenen & Kleuren', 'drawing-lines': 'Lijnen Trekken', coloring: 'Kleuren',
+  'chart-count': 'Plaatjesgrafiek', matching: 'Koppelen', 'grid-match': 'Rasterpuzzel',
+  'shadow-match': 'Schaduw Koppelen', bingo: 'Bingo', 'picture-sort': 'Sorteren',
+  'missing-pieces': 'Ontbrekende Stukjes', 'odd-one-out': 'Vreemde Eend', sudoku: 'Sudoku',
+  'picture-path': 'Afbeeldingspad', 'find-and-count': 'Zoek & Tel', 'find-objects': 'Zoek & Vind',
+  crossword: 'Kruiswoord', 'treasure-hunt': 'Schattenjacht',
+};
+
+const nlTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Eenvoudig tellen (1-5)', 'Gemengde plaatjes tot 10', 'Gevorderd tot 20'],
+  subtraction: ['Doorstrepen (1-5)', 'Plaatje-getal tot 10', 'Gemengd tot 20'],
+  'code-addition': ['Eenvoudige codes (1-5)', 'Grotere sommen', 'Meerstapscodes'],
+  'more-less': ['Groepen vergelijken (1-5)', 'Themagroepen tot 10', 'Groter/kleiner/gelijk'],
+  'math-puzzle': ['Eenvoudige puzzels', 'Gemiddelde puzzels', 'Uitdagende puzzels'],
+  'math-worksheet': ['Basisoefeningen', 'Gemiddelde oefeningen', 'Gevorderde oefeningen'],
+  'alphabet-train': ['Hoofdletters herkennen', 'Kleine letters koppelen', 'Complete alfabetoefening'],
+  prepositions: ['Basisposities', 'Uitgebreide posities', 'Complexe beschrijvingen'],
+  'word-guess': ['Eenvoudige woorden', 'Langere woorden', 'Uitdagende woorden'],
+  'word-scramble': ['Korte woorden (3-4)', 'Gemiddeld (5-6)', 'Lang (7+)'],
+  wordsearch: ['Klein rooster (6 woorden)', 'Gemiddeld (10 woorden)', 'Groot (15+ woorden)'],
+  cryptogram: ['Eenvoudige vervanging', 'Complexere codes', 'Meester-uitdagingen'],
+  writing: ['Lijnen overtrekken', 'Letters vormen', 'Woorden schrijven'],
+  'big-small': ['Duidelijke verschillen', 'Subtiele vergelijkingen', 'Complexe ordening'],
+  'pattern-train': ['AB-patronen', 'ABC-patronen', 'AABB-patronen'],
+  'pattern-worksheet': ['Eenvoudige patronen', 'Gemiddelde patronen', 'Complexe patronen'],
+  'draw-and-color': ['Eenvoudige vormen', 'Gedetailleerder', 'Creatieve creaties'],
+  'drawing-lines': ['Rechte lijnen', 'Gebogen lijnen', 'Complexe patronen'],
+  coloring: ['Grote vlakken', 'Gedetailleerd', 'Fijne details'],
+  'chart-count': ['Eenvoudige grafieken', 'Meer categorieën', 'Complexe analyse'],
+  matching: ['Eenvoudige paren (3)', 'Gemiddeld (5 paren)', 'Gevorderd (8+ paren)'],
+  'grid-match': ['Eenvoudig 2×2', 'Gemiddeld 3×3', 'Gevorderd 4×4'],
+  'shadow-match': ['Eenvoudige schaduwen', 'Gedraaide schaduwen', 'Complexe puzzels'],
+  bingo: ['Eenvoudig 3×3', 'Plaatjesbingo 4×4', 'Volledig 5×5'],
+  'picture-sort': ['2 categorieën', '3 categorieën', '4+ categorieën'],
+  'missing-pieces': ['Eenvoudig ontbrekend', 'Meerdelige puzzels', 'Complexe visuele puzzels'],
+  'odd-one-out': ['Eenvoudige groepen (3)', 'Gemiddeld (4)', 'Gevorderd (6+)'],
+  sudoku: ['Eenvoudig 4×4', 'Gemiddeld 6×6', 'Moeilijk 9×9'],
+  'picture-path': ['Rechte paden', 'Vertakte wegen', 'Complexe labyrinten'],
+  'find-and-count': ['3-5 objecten vinden', 'Tot 10 tellen', 'Gevorderde scènes'],
+  'find-objects': ['Eenvoudige objecten', 'Gemiddelde scènes', 'Complexe zoekplaatjes'],
+  'treasure-hunt': ['Eenvoudige rasterkaarten', 'Richtingskaarten', 'Meerstaps-jachten'],
+};
+
+function getNlAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const ni = dutchImages[key];
+  if (!ni) return en;
+
+  return {
+    ...en,
+    label: nlLabels[key] || en.label,
+    imgs: ni.imgs,
+    answerKey: ni.answerKey,
+    pills: tPills(en.pills, 'nl'),
+    spotPills: tStringPills(en.spotPills, 'nl'),
+    galleryPills: tStringPills(en.galleryPills, 'nl'),
+    tierDesc: nlTierDescs[key] || en.tierDesc,
+  };
+}
+
 // ─── Config generator ───
 // Builds a full ShowcaseConfig from 4 app IDs (primary + 3 supporting).
 // The primary app provides hero images + spotlight; supporting apps fill tiered/gallery.
@@ -791,7 +861,8 @@ function buildConfig(
   const isEs = locale === 'es';
   const isPt = locale === 'pt';
   const isIt = locale === 'it';
-  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : (k: string) => appData[k] || appData.addition;
+  const isNl = locale === 'nl';
+  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : isNl ? getNlAppData : (k: string) => appData[k] || appData.addition;
   const d1 = getData(a1);
   const d2 = getData(a2);
   const d3 = getData(a3);
@@ -1039,6 +1110,7 @@ const frConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const esConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const ptConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const itConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const nlConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
   const key = `${p.type}:${p.id}` as PageKey;
@@ -1048,6 +1120,7 @@ pages.forEach((p, i) => {
   esConfigMap.set(key, buildConfig(p.apps, p.title, i, 'es'));
   ptConfigMap.set(key, buildConfig(p.apps, p.title, i, 'pt'));
   itConfigMap.set(key, buildConfig(p.apps, p.title, i, 'it'));
+  nlConfigMap.set(key, buildConfig(p.apps, p.title, i, 'nl'));
 });
 
 // ─── Public API ───
@@ -1062,5 +1135,6 @@ export function getPageShowcaseConfig(
   if (locale === 'es') return esConfigMap.get(key) ?? null;
   if (locale === 'pt') return ptConfigMap.get(key) ?? null;
   if (locale === 'it') return itConfigMap.get(key) ?? null;
+  if (locale === 'nl') return nlConfigMap.get(key) ?? null;
   return enConfigMap.get(key) ?? null;
 }

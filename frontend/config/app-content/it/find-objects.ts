@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Cerca e Trova — Tutte le App di Ricerca in Un Unico Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-cerca-oggetti',
-      anchorText: 'Creatore di Schede Cerca Oggetti',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-oggetti-nascosti',
       anchorText: 'Come Creare Schede di Oggetti Nascosti che Vendono',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campeggio-idee-stampabili',
+      anchorText: 'Idee di stampabili per campeggio e attività all\'aperto',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animali-marini-idee-stampabili',
+      anchorText: 'Idee di stampabili di animali marini',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-attivita-stampabili',
+      anchorText: 'Marketing per la tua attività di stampabili',
     },
   ],
 

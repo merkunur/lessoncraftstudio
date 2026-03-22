@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'encontrar-objetos-fichas', anchorText: 'Gerador de Objetos Escondidos — Todos os Detalhes' },
     { pageType: 'app', slug: 'palavras-cruzadas-imagens-fichas', anchorText: 'Gerador de Palavras Cruzadas com Imagens — Todos os Detalhes' },
     { pageType: 'app', slug: 'caca-ao-tesouro-fichas', anchorText: 'Gerador de Caça ao Tesouro — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-procura-conta', anchorText: 'Experimentar o Gerador Encontre e Conte' },
-    { pageType: 'tool', slug: 'gerador-procura-objetos', anchorText: 'Experimentar o Gerador de Objetos Escondidos' },
-    { pageType: 'tool', slug: 'gerador-palavras-cruzadas', anchorText: 'Experimentar o Gerador de Palavras Cruzadas' },
-    { pageType: 'tool', slug: 'gerador-caca-tesouro', anchorText: 'Experimentar o Gerador de Caça ao Tesouro' },
+    { pageType: 'guide', slug: 'criar-fichas-objetos-ocultos', anchorText: 'Criar fichas de objetos ocultos' },
+    { pageType: 'guide', slug: 'criar-fichas-caca-tesouro', anchorText: 'Criar fichas de caça ao tesouro' },
+    { pageType: 'start', slug: 'marketing-negocio-imprimiveis', anchorText: 'Marketing para seu negócio de imprimíveis' },
+    { pageType: 'idea', slug: 'campismo-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis de camping e ar livre' },
   ],
 
   visuals: {

@@ -243,14 +243,24 @@ const content: AppContent = {
       anchorText: 'Suchen-und-Finden-Paket — Alle Such-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'bilderkreuzwortraetsel-ersteller',
-      anchorText: 'Bilderkreuzworträtsel-Ersteller',
+      pageType: 'idea',
+      slug: 'erste-klasse-druckvorlagen-ideen',
+      anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zweite-klasse-druckvorlagen-ideen',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      slug: 'amazon-kdp-aktivitaetsbuecher',
+      anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'kreuzwortraetsel-erstellen',
+      anchorText: 'Kreuzworträtsel erstellen, die sich verkaufen',
     },
   ],
 

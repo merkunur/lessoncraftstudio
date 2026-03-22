@@ -229,29 +229,24 @@ const content: AppContent = {
       anchorText: 'Pack Maîtrise des Maths — Toutes les Applications de Maths',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-puzzle-maths',
-      anchorText: 'Créateur de Puzzles Mathématiques',
-    },
-    {
       pageType: 'guide',
       slug: 'vendre-fiches-maths-etsy',
       anchorText: 'Guide pour Vendre des Fiches de Maths sur Etsy',
     },
     {
+      pageType: 'idea',
+      slug: 'bases-maths-idees-imprimables',
+      anchorText: 'Idées d\'imprimables de faits mathématiques',
+    },
+    {
+      pageType: 'idea',
+      slug: 'rentree-scolaire-idees-imprimables',
+      anchorText: 'Idées d\'imprimables rentrée scolaire',
+    },
+    {
       pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
-      pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosaures-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Dinosaures pour Enfants',
+      slug: 'creer-fiches-qui-se-vendent',
+      anchorText: 'Créer des fiches qui se vendent',
     },
   ],
 

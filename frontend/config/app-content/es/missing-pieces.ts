@@ -243,19 +243,24 @@ const content: AppContent = {
       anchorText: 'Paquete de Puzzles y Lógica — Todas las Apps de Puzzles en Un Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-piezas-faltantes',
-      anchorText: 'Creador de Puzzles de Piezas Faltantes',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-puzzles-piezas-faltantes',
       anchorText: 'Cómo Crear y Vender Fichas de Puzzles en Línea',
+    },
+    {
+      pageType: 'idea',
+      slug: 'primer-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para primer grado',
+    },
+    {
+      pageType: 'idea',
+      slug: 'segundo-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para segundo grado',
+    },
+    {
+      pageType: 'start',
+      slug: 'libros-actividades-amazon-kdp',
+      anchorText: 'Publicar libros de actividades en Amazon KDP',
     },
   ],
 

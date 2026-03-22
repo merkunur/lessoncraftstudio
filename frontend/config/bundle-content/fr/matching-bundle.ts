@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'discrimination-visuelle-fiches', anchorText: 'Générateur Discrimination Visuelle — Tous les Détails' },
     { pageType: 'app', slug: 'bingo-images-fiches', anchorText: 'Générateur de Cartes de Bingo — Tous les Détails' },
     { pageType: 'app', slug: 'tri-images-fiches', anchorText: 'Générateur Tri d\'Images — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Essayer le Générateur de Fiches d\'Association' },
-    { pageType: 'tool', slug: 'generateur-puzzle-grille', anchorText: 'Essayer le Générateur Puzzle Grille' },
-    { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Essayer le Générateur Discrimination Visuelle' },
-    { pageType: 'tool', slug: 'generateur-cartes-bingo', anchorText: 'Essayer le Générateur de Cartes de Bingo' },
-    { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Essayer le Générateur Tri d\'Images' },
+    { pageType: 'guide', slug: 'creer-fiches-association', anchorText: 'Créer des fiches d\'association' },
+    { pageType: 'guide', slug: 'creer-fiches-discrimination-visuelle', anchorText: 'Créer des fiches de discrimination visuelle' },
+    { pageType: 'start', slug: 'plan-activite-imprimables', anchorText: 'Plan d\'activité pour imprimables' },
+    { pageType: 'idea', slug: 'maternelle-idees-imprimables', anchorText: 'Idées d\'imprimables pour la maternelle' },
   ],
 
   visuals: {

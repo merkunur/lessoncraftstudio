@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visuelles-Lernen-Paket — Alle visuellen Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'muster-arbeitsblatt-ersteller',
-      anchorText: 'Muster-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'erste-klasse-druckvorlagen-ideen',
+      anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'zweite-klasse-druckvorlagen-ideen',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-aktivitaetsbuecher',
+      anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'muster-arbeitsblaetter-erstellen',
+      anchorText: 'Muster-Arbeitsblätter erstellen',
     },
   ],
 

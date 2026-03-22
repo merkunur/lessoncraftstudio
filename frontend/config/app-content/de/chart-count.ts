@@ -233,19 +233,24 @@ const content: AppContent = {
       anchorText: 'Visuelles-Lernen-Paket — Alle visuellen Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'bilddiagramm-ersteller',
-      anchorText: 'Bilddiagramm-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'sommer-druckvorlagen-ideen',
+      anchorText: 'Sommer-Druckvorlagen-Ideen für Kinderaktivitäten',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'weihnachten-druckvorlagen-ideen',
+      anchorText: 'Weihnachts-Druckvorlagen-Ideen für saisonalen Verkauf',
+    },
+    {
+      pageType: 'start',
+      slug: 'etsy-druckvorlagen-geschaeft',
+      anchorText: 'Ihr Etsy-Druckvorlagen-Geschäft aufbauen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'bilddiagramm-arbeitsblaetter-erstellen',
+      anchorText: 'Bilddiagramm-Arbeitsblätter erstellen',
     },
   ],
 

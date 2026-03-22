@@ -234,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Pack Cherche & Trouve — Toutes les Applications de Recherche en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-chasse-au-tresor',
-      anchorText: 'Créateur de Fiches Chasse au Trésor',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-chasse-au-tresor',
       anchorText: 'Comment Créer des Fiches Chasse au Trésor Qui Se Vendent',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
     },
   ],
 

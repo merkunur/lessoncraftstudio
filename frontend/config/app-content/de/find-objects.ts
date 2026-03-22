@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Suchen-und-Finden-Paket — Alle Such-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'suchbilder-ersteller',
-      anchorText: 'Suchbilder-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'camping-druckvorlagen-ideen',
+      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurier-druckvorlagen-ideen',
-      anchorText: 'Dinosaurier-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'meerestiere-druckvorlagen-ideen',
+      anchorText: 'Meerestiere-Druckvorlagen-Ideen für maritime Themen',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-druckvorlagen-geschaeft',
+      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+    },
+    {
+      pageType: 'guide',
+      slug: 'suchbilder-arbeitsblaetter-erstellen',
+      anchorText: 'Suchbilder-Arbeitsblätter erstellen',
     },
   ],
 

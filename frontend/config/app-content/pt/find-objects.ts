@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Busca e Descobre — Todas as Apps de Busca num Só Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-procura-objetos',
-      anchorText: 'Gerador de Fichas de Objetos Ocultos',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'campismo-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de camping e ar livre',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'animais-marinhos-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de animais marinhos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimiveis',
+      anchorText: 'Marketing para seu negócio de imprimíveis',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-objetos-ocultos',
+      anchorText: 'Criar fichas de objetos ocultos',
     },
   ],
 

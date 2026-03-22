@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'sopa-letras-fichas', anchorText: 'Generador de Sopa de Letras — Todos los Detalles' },
     { pageType: 'app', slug: 'criptogramas-imagenes-fichas', anchorText: 'Generador de Criptogramas — Todos los Detalles' },
     { pageType: 'app', slug: 'lectoescritura-fichas', anchorText: 'Generador de Fichas de Escritura — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-tren-abecedario', anchorText: 'Probar el Generador de Tren del Abecedario' },
-    { pageType: 'tool', slug: 'generador-fichas-preposiciones', anchorText: 'Probar el Generador de Preposiciones' },
-    { pageType: 'tool', slug: 'generador-adivinar-palabras', anchorText: 'Probar el Generador de Adivinar Palabras' },
-    { pageType: 'tool', slug: 'generador-palabras-desordenadas', anchorText: 'Probar el Generador de Letras Revueltas' },
-    { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Probar el Generador de Sopa de Letras' },
-    { pageType: 'tool', slug: 'generador-criptogramas', anchorText: 'Probar el Generador de Criptogramas' },
-    { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Probar el Generador de Fichas de Escritura' },
+    { pageType: 'guide', slug: 'vender-sopas-letras-etsy', anchorText: 'Vender sopas de letras en Etsy' },
+    { pageType: 'guide', slug: 'crear-sopas-letras', anchorText: 'Crear sopas de letras que se vendan' },
+    { pageType: 'start', slug: 'guia-completa-negocio-imprimibles', anchorText: 'Guía completa para iniciar un negocio de imprimibles' },
+    { pageType: 'idea', slug: 'ele-ideas-imprimibles', anchorText: 'Ideas de imprimibles ESL para aprendizaje de idiomas' },
   ],
 
   visuals: {

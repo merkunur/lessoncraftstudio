@@ -184,10 +184,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'trova-oggetti-schede', anchorText: 'Generatore Oggetti Nascosti — Dettagli Completi' },
     { pageType: 'app', slug: 'cruciverba-immagini-schede', anchorText: 'Generatore Cruciverba con Immagini — Dettagli Completi' },
     { pageType: 'app', slug: 'caccia-tesoro-schede', anchorText: 'Generatore Caccia al Tesoro — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-cerca-e-conta', anchorText: 'Prova il Generatore Cerca e Conta' },
-    { pageType: 'tool', slug: 'generatore-cerca-oggetti', anchorText: 'Prova il Generatore Cerca Oggetti' },
-    { pageType: 'tool', slug: 'generatore-cruciverba-immagini', anchorText: 'Prova il Generatore Cruciverba con Immagini' },
-    { pageType: 'tool', slug: 'generatore-caccia-tesoro', anchorText: 'Prova il Generatore Caccia al Tesoro' },
+    { pageType: 'guide', slug: 'creare-schede-oggetti-nascosti', anchorText: 'Creare schede di oggetti nascosti' },
+    { pageType: 'guide', slug: 'creare-schede-caccia-tesoro', anchorText: 'Creare schede di caccia al tesoro' },
+    { pageType: 'start', slug: 'marketing-attivita-stampabili', anchorText: 'Marketing per la tua attività di stampabili' },
+    { pageType: 'idea', slug: 'campeggio-idee-stampabili', anchorText: 'Idee di stampabili per campeggio e attività all\'aperto' },
   ],
 
   visuals: {

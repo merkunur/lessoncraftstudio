@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Lettura e Linguaggio — Tutte le App di Lettere in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-schede-scrittura',
-      anchorText: 'Creatore di Schede di Scrittura',
-    },
-    {
       pageType: 'start',
       slug: 'guida-completa-attivita-stampabili',
       anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili sugli Animali della Fattoria',
+      slug: 'italiano-l2-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'apprendimento delle lingue',
+    },
+    {
+      pageType: 'idea',
+      slug: 'istruzione-domiciliare-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'istruzione a casa',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-schede-scrittura',
+      anchorText: 'Creare schede di scrittura',
     },
   ],
 

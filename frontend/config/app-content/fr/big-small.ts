@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Apprentissage Visuel — Toutes les Applications Visuelles en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-fiches-grand-petit',
-      anchorText: 'Créateur de Fiches Grand & Petit',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'maternelle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour la maternelle',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme',
+      slug: 'grande-section-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le jardin d\'enfants',
+    },
+    {
+      pageType: 'start',
+      slug: 'plan-activite-imprimables',
+      anchorText: 'Plan d\'activité pour imprimables',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-comparaison-tailles',
+      anchorText: 'Créer des fiches de comparaison de tailles',
     },
   ],
 

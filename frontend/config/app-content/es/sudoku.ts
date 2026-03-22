@@ -234,24 +234,29 @@ const content: AppContent = {
       anchorText: 'Paquete de Puzzles y Lógica — Todas las Apps de Puzzles',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-sudoku-infantil',
-      anchorText: 'Creador de Sudoku con Imágenes',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'libros-sudoku-kdp',
       anchorText: 'Cómo Crear y Vender Libros de Sudoku en Amazon KDP',
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja',
+      slug: 'primer-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para primer grado',
+    },
+    {
+      pageType: 'idea',
+      slug: 'segundo-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para segundo grado',
+    },
+    {
+      pageType: 'start',
+      slug: 'libros-actividades-amazon-kdp',
+      anchorText: 'Publicar libros de actividades en Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'crear-sudoku-imagenes',
+      anchorText: 'Crear sudoku de imágenes para niños',
     },
   ],
 

@@ -229,11 +229,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Lettura e Linguaggio — Tutte le App di Lettere in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-cerca-parole',
-      anchorText: 'Creatore di Schede Cerca Parole',
-    },
-    {
       pageType: 'guide',
       slug: 'vendere-cerca-parole-etsy',
       anchorText: 'Guida per Vendere Cerca Parole su Etsy',
@@ -247,6 +242,21 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'animali-marini-idee-stampabili',
       anchorText: 'Idee di Stampabili sugli Animali Marini',
+    },
+    {
+      pageType: 'idea',
+      slug: 'italiano-l2-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'apprendimento delle lingue',
+    },
+    {
+      pageType: 'idea',
+      slug: 'istruzione-domiciliare-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'istruzione a casa',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-cerca-parole',
+      anchorText: 'Creare cerca parole che vendono',
     },
   ],
 

@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Association et Tri — Toutes les Applications de Correspondance en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-discrimination-visuelle',
-      anchorText: 'Créateur de Fiches de Discrimination Visuelle',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
+      pageType: 'idea',
+      slug: 'maternelle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour la maternelle',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaures-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Dinosaures pour Fiches d\'Activités',
+      slug: 'grande-section-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le jardin d\'enfants',
+    },
+    {
+      pageType: 'start',
+      slug: 'plan-activite-imprimables',
+      anchorText: 'Plan d\'activité pour imprimables',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-discrimination-visuelle',
+      anchorText: 'Créer des fiches de discrimination visuelle',
     },
   ],
 

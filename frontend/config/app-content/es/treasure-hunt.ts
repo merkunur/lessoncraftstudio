@@ -234,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Paquete Busca y Encuentra — Todas las Apps de Búsqueda en Un Solo Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-busqueda-tesoro',
-      anchorText: 'Creador de Fichas de Búsqueda del Tesoro',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-fichas-busqueda-tesoro',
       anchorText: 'Cómo Crear Fichas de Búsqueda del Tesoro Que Se Vendan',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de camping y aire libre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animales-marinos-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de animales marinos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimibles',
+      anchorText: 'Marketing para tu negocio de imprimibles',
     },
   ],
 

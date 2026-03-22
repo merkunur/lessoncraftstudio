@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'linien-ziehen-arbeitsblaetter', anchorText: 'Linien-Ziehen-Generator — Alle Details' },
     { pageType: 'app', slug: 'malvorlagen-arbeitsblaetter', anchorText: 'Malvorlagen-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilddiagramm-arbeitsblaetter', anchorText: 'Bilddiagramm-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-&-Klein-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'muster-arbeitsblatt-ersteller', anchorText: 'Muster-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'rasterzeichnen-ersteller', anchorText: 'Rasterzeichnen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilddiagramm-ersteller', anchorText: 'Bilddiagramm-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'etsy-malvorlagen-erstellen', anchorText: 'Malvorlagen für Etsy erstellen' },
+    { pageType: 'guide', slug: 'zeichen-arbeitsblaetter-erstellen', anchorText: 'Zeichen-Arbeitsblätter erstellen' },
+    { pageType: 'start', slug: 'etsy-druckvorlagen-geschaeft', anchorText: 'Ihr Etsy-Druckvorlagen-Geschäft aufbauen' },
+    { pageType: 'idea', slug: 'sommer-druckvorlagen-ideen', anchorText: 'Sommer-Druckvorlagen-Ideen für Kinderaktivitäten' },
   ],
 
   visuals: {

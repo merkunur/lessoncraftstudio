@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Apprentissage Visuel — Toutes les Applications Visuelles en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-train-suites-logiques',
-      anchorText: 'Créateur de Fiches Train de Suites Logiques',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'cp-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CP',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme pour Fiches',
+      slug: 'ce1-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CE1',
+    },
+    {
+      pageType: 'start',
+      slug: 'livres-activites-amazon-kdp',
+      anchorText: 'Publier des livres d\'activités sur Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-sequences-logiques',
+      anchorText: 'Créer des fiches de séquences logiques',
     },
   ],
 

@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Pack Maîtrise des Maths — Toutes les Applications de Maths',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-exercices-maths',
-      anchorText: 'Créateur d\'Exercices de Maths',
-    },
-    {
       pageType: 'guide',
       slug: 'vendre-fiches-maths-etsy',
       anchorText: 'Guide pour Vendre des Fiches de Maths sur Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'bases-maths-idees-imprimables',
+      anchorText: 'Idées d\'imprimables de faits mathématiques',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme',
+      slug: 'rentree-scolaire-idees-imprimables',
+      anchorText: 'Idées d\'imprimables rentrée scolaire',
+    },
+    {
+      pageType: 'start',
+      slug: 'creer-fiches-qui-se-vendent',
+      anchorText: 'Créer des fiches qui se vendent',
     },
   ],
 

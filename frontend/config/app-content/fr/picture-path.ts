@@ -234,16 +234,6 @@ const content: AppContent = {
       anchorText: 'Pack Puzzles et Logique — Toutes les Applications Puzzle en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-parcours-images',
-      anchorText: 'Créateur de Labyrinthes Chemin d\'Images',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-labyrinthes',
       anchorText: 'Comment Créer et Vendre des Fiches Labyrinthes',
@@ -252,6 +242,21 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'maternelle-idees-imprimables',
       anchorText: 'Idées d\'Imprimables pour la Maternelle',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
     },
   ],
 

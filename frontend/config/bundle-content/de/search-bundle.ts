@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'suchbilder-arbeitsblaetter', anchorText: 'Suchbilder-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilderkreuzwortraetsel-arbeitsblaetter', anchorText: 'Bilderkreuzworträtsel-Generator — Alle Details' },
     { pageType: 'app', slug: 'schatzsuche-arbeitsblaetter', anchorText: 'Schatzsuche-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilderkreuzwortraetsel-ersteller', anchorText: 'Bilderkreuzworträtsel-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'schatzsuche-ersteller', anchorText: 'Schatzsuche-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'suchbilder-arbeitsblaetter-erstellen', anchorText: 'Suchbilder-Arbeitsblätter erstellen' },
+    { pageType: 'guide', slug: 'schatzsuche-arbeitsblaetter-erstellen', anchorText: 'Schatzsuche-Arbeitsblätter erstellen' },
+    { pageType: 'start', slug: 'marketing-druckvorlagen-geschaeft', anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft' },
+    { pageType: 'idea', slug: 'camping-druckvorlagen-ideen', anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen' },
   ],
 
   visuals: {

@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'cherche-objets-fiches', anchorText: 'Générateur Cherche les Objets — Tous les Détails' },
     { pageType: 'app', slug: 'mots-croises-images-fiches', anchorText: 'Générateur Mots Croisés en Images — Tous les Détails' },
     { pageType: 'app', slug: 'chasse-au-tresor-fiches', anchorText: 'Générateur Chasse au Trésor — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Essayer le Générateur Cherche et Compte' },
-    { pageType: 'tool', slug: 'generateur-cherche-objets', anchorText: 'Essayer le Générateur Cherche les Objets' },
-    { pageType: 'tool', slug: 'generateur-mots-croises-images', anchorText: 'Essayer le Générateur Mots Croisés en Images' },
-    { pageType: 'tool', slug: 'generateur-chasse-au-tresor', anchorText: 'Essayer le Générateur Chasse au Trésor' },
+    { pageType: 'guide', slug: 'creer-fiches-objets-caches', anchorText: 'Créer des fiches d\'objets cachés' },
+    { pageType: 'guide', slug: 'creer-fiches-chasse-au-tresor', anchorText: 'Créer des fiches de chasse au trésor' },
+    { pageType: 'start', slug: 'marketing-activite-imprimables', anchorText: 'Marketing pour votre activité d\'imprimables' },
+    { pageType: 'idea', slug: 'camping-idees-imprimables', anchorText: 'Idées d\'imprimables camping et plein air' },
   ],
 
   visuals: {

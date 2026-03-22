@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Pack Puzzles et Logique — Toutes les Applications Puzzle en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-fiches-intrus',
-      anchorText: 'Créateur de Fiches Intrus',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-intrus',
       anchorText: 'Comment Créer des Puzzles Intrus Qui Se Vendent',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme pour Fiches d\'Activités',
+      slug: 'cp-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ce1-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CE1',
+    },
+    {
+      pageType: 'start',
+      slug: 'livres-activites-amazon-kdp',
+      anchorText: 'Publier des livres d\'activités sur Amazon KDP',
     },
   ],
 

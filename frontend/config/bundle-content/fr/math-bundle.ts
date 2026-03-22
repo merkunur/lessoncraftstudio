@@ -208,12 +208,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'comparaison-quantites-fiches', anchorText: 'Générateur Plus ou Moins — Tous les Détails' },
     { pageType: 'app', slug: 'puzzle-maths-fiches', anchorText: 'Générateur de Puzzles Maths — Tous les Détails' },
     { pageType: 'app', slug: 'exercices-maths-fiches', anchorText: 'Générateur de Puzzles Algébriques Illustrés — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Essayer le Générateur de Fiches d\'Addition' },
-    { pageType: 'tool', slug: 'generateur-fiches-soustraction', anchorText: 'Essayer le Générateur de Fiches de Soustraction' },
-    { pageType: 'tool', slug: 'generateur-addition-codee', anchorText: 'Essayer le Générateur d\'Addition Codée' },
-    { pageType: 'tool', slug: 'generateur-comparaison-quantites', anchorText: 'Essayer le Générateur Plus ou Moins' },
-    { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: 'Essayer le Générateur de Puzzles Maths' },
-    { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: 'Essayer le Générateur de Puzzles Algébriques' },
+    { pageType: 'guide', slug: 'vendre-fiches-maths-etsy', anchorText: 'Guide pour vendre des fiches de maths sur Etsy' },
+    { pageType: 'guide', slug: 'livres-activites-maths-kdp', anchorText: 'Livres d\'activités maths sur Amazon KDP' },
+    { pageType: 'start', slug: 'creer-fiches-qui-se-vendent', anchorText: 'Créer des fiches qui se vendent' },
+    { pageType: 'idea', slug: 'bases-maths-idees-imprimables', anchorText: 'Idées d\'imprimables de faits mathématiques' },
   ],
 
   visuals: {

@@ -239,14 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Busca e Descobre — Todas as Apps de Busca num Só Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-palavras-cruzadas',
-      anchorText: 'Gerador de Palavras Cruzadas com Imagens',
+      pageType: 'idea',
+      slug: 'primeiro-ano-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para primeiro ano',
+    },
+    {
+      pageType: 'idea',
+      slug: 'segundo-ano-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para segundo ano',
     },
     {
       pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      slug: 'livros-atividades-amazon-kdp',
+      anchorText: 'Publicar livros de atividades na Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-palavras-cruzadas',
+      anchorText: 'Criar palavras cruzadas que vendem',
     },
   ],
 

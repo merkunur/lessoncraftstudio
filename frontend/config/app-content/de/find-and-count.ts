@@ -238,19 +238,29 @@ const content: AppContent = {
       anchorText: 'Suchen-und-Finden-Paket — Alle Such-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'suchen-und-zaehlen-ersteller',
-      anchorText: 'Suchen-und-Zählen-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
-    },
-    {
       pageType: 'idea',
       slug: 'haustiere-druckvorlagen-ideen',
       anchorText: 'Haustiere-Druckvorlagen-Ideen für Arbeitsblätter',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-druckvorlagen-ideen',
+      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'meerestiere-druckvorlagen-ideen',
+      anchorText: 'Meerestiere-Druckvorlagen-Ideen für maritime Themen',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-druckvorlagen-geschaeft',
+      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+    },
+    {
+      pageType: 'guide',
+      slug: 'zaehl-arbeitsblaetter-erstellen',
+      anchorText: 'Zähl-Arbeitsblätter erstellen',
     },
   ],
 

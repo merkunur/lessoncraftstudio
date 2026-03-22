@@ -234,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Pack Association & Tri — Toutes les Applications d\'Association en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-cartes-bingo',
-      anchorText: 'Créateur de Cartes Bingo',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-cartes-bingo',
       anchorText: 'Comment Créer et Vendre des Cartes Bingo en Ligne',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
     },
   ],
 

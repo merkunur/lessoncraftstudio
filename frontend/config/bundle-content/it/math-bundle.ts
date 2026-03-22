@@ -207,12 +207,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'confronto-numeri-schede', anchorText: 'Generatore di Confronto Numeri — Dettagli Completi' },
     { pageType: 'app', slug: 'puzzle-matematici-schede', anchorText: 'Generatore di Puzzle Matematici — Dettagli Completi' },
     { pageType: 'app', slug: 'matematica-schede', anchorText: 'Generatore di Schede di Matematica — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-schede-addizione', anchorText: 'Prova il Generatore di Schede di Addizione' },
-    { pageType: 'tool', slug: 'generatore-schede-sottrazione', anchorText: 'Prova il Generatore di Schede di Sottrazione' },
-    { pageType: 'tool', slug: 'generatore-addizione-codificata', anchorText: 'Prova il Generatore di Addizione Codificata' },
-    { pageType: 'tool', slug: 'generatore-confronto-quantita', anchorText: 'Prova il Generatore di Confronto Quantità' },
-    { pageType: 'tool', slug: 'generatore-puzzle-matematici', anchorText: 'Prova il Generatore di Puzzle Matematici' },
-    { pageType: 'tool', slug: 'generatore-esercizi-matematica', anchorText: 'Prova il Generatore di Esercizi di Matematica' },
+    { pageType: 'guide', slug: 'vendere-schede-matematica-etsy', anchorText: 'Guida per vendere schede di matematica su Etsy' },
+    { pageType: 'guide', slug: 'libri-attivita-matematica-kdp', anchorText: 'Libri di attività di matematica su Amazon KDP' },
+    { pageType: 'start', slug: 'creare-schede-che-vendono', anchorText: 'Come creare schede che vendono' },
+    { pageType: 'idea', slug: 'basi-matematica-idee-stampabili', anchorText: 'Idee di stampabili di matematica per educatori e venditori' },
   ],
 
   visuals: {

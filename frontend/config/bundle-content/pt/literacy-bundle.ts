@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'caca-palavras-fichas', anchorText: 'Gerador de Caça-Palavras — Todos os Detalhes' },
     { pageType: 'app', slug: 'criptograma-imagens-fichas', anchorText: 'Gerador de Criptogramas — Todos os Detalhes' },
     { pageType: 'app', slug: 'caligrafia-fichas', anchorText: 'Gerador de Fichas de Caligrafia — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Experimentar o Gerador Comboio do Alfabeto' },
-    { pageType: 'tool', slug: 'gerador-fichas-preposicoes', anchorText: 'Experimentar o Gerador de Preposições' },
-    { pageType: 'tool', slug: 'gerador-adivinhar-palavras', anchorText: 'Experimentar o Gerador de Adivinhar Palavras' },
-    { pageType: 'tool', slug: 'gerador-palavras-embaralhadas', anchorText: 'Experimentar o Gerador de Palavras Embaralhadas' },
-    { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Experimentar o Gerador de Caça-Palavras' },
-    { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Experimentar o Gerador de Criptogramas' },
-    { pageType: 'tool', slug: 'gerador-fichas-escrita', anchorText: 'Experimentar o Gerador de Fichas de Escrita' },
+    { pageType: 'guide', slug: 'vender-caca-palavras-etsy', anchorText: 'Vender caça-palavras na Etsy' },
+    { pageType: 'guide', slug: 'criar-caca-palavras', anchorText: 'Criar caça-palavras que vendem' },
+    { pageType: 'start', slug: 'guia-completo-negocio-imprimiveis', anchorText: 'Guia completo para iniciar um negócio de imprimíveis' },
+    { pageType: 'idea', slug: 'ple-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis para aprendizagem de línguas' },
   ],
 
   visuals: {

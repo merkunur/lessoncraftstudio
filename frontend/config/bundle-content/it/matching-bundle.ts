@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'abbinamento-ombre-schede', anchorText: 'Generatore Abbinamento Ombre — Dettagli Completi' },
     { pageType: 'app', slug: 'bingo-immagini-schede', anchorText: 'Generatore Cartelle Bingo — Dettagli Completi' },
     { pageType: 'app', slug: 'classificazione-immagini-schede', anchorText: 'Generatore Classificazione Immagini — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Prova il Generatore di Abbinamento' },
-    { pageType: 'tool', slug: 'generatore-puzzle-griglia', anchorText: 'Prova il Generatore Puzzle Griglia' },
-    { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Prova il Generatore Abbinamento Ombre' },
-    { pageType: 'tool', slug: 'generatore-cartelle-bingo', anchorText: 'Prova il Generatore Cartelle Bingo' },
-    { pageType: 'tool', slug: 'generatore-classificazione-immagini', anchorText: 'Prova il Generatore Classificazione Immagini' },
+    { pageType: 'guide', slug: 'creare-schede-abbinamento', anchorText: 'Creare schede di abbinamento' },
+    { pageType: 'guide', slug: 'creare-schede-discriminazione-visiva', anchorText: 'Creare schede di discriminazione visiva' },
+    { pageType: 'start', slug: 'piano-attivita-stampabili', anchorText: 'Piano per la tua attività di stampabili' },
+    { pageType: 'idea', slug: 'prescuola-idee-stampabili', anchorText: 'Idee di stampabili per la scuola materna' },
   ],
 
   visuals: {

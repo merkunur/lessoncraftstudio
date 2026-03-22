@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Leitura e Linguagem — Todas as Aplicações de Letras num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-fichas-escrita',
-      anchorText: 'Criador de Fichas de Escrita',
-    },
-    {
       pageType: 'start',
       slug: 'guia-completo-negocio-imprimiveis',
       anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'ple-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para aprendizagem de línguas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ensino-domestico-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para educação em casa',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-escrita',
+      anchorText: 'Criar fichas de escrita',
     },
   ],
 

@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Paquete Aprendizaje Visual — Todas las Apps Visuales en Uno',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-tren-patrones',
-      anchorText: 'Creador de Fichas Tren de Patrones',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
+      pageType: 'idea',
+      slug: 'primer-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para primer grado',
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja',
+      slug: 'segundo-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para segundo grado',
+    },
+    {
+      pageType: 'start',
+      slug: 'libros-actividades-amazon-kdp',
+      anchorText: 'Publicar libros de actividades en Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'crear-fichas-patrones',
+      anchorText: 'Crear fichas de patrones',
     },
   ],
 

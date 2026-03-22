@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote de Associação e Classificação — Todas as Apps de Classificação num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-classificacao-imagens',
-      anchorText: 'Gerador de Fichas de Classificação de Imagens',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-classificacao',
       anchorText: 'Como Criar Fichas de Classificação que Vendam',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campismo-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animais-marinhos-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de animais marinhos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimiveis',
+      anchorText: 'Marketing para seu negócio de imprimíveis',
     },
   ],
 

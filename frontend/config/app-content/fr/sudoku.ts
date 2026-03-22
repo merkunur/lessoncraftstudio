@@ -234,16 +234,6 @@ const content: AppContent = {
       anchorText: 'Pack Puzzles et Logique — Toutes les Applications Puzzle en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-sudoku-enfants',
-      anchorText: 'Créateur de Sudoku en Images pour Enfants',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'livres-sudoku-kdp',
       anchorText: 'Comment Créer et Vendre des Livres Sudoku sur Amazon KDP',
@@ -252,6 +242,26 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'maternelle-idees-imprimables',
       anchorText: 'Idées d\'Imprimables pour la Maternelle',
+    },
+    {
+      pageType: 'idea',
+      slug: 'cp-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ce1-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CE1',
+    },
+    {
+      pageType: 'start',
+      slug: 'livres-activites-amazon-kdp',
+      anchorText: 'Publier des livres d\'activités sur Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-sudoku-images',
+      anchorText: 'Créer des sudoku d\'images pour enfants',
     },
   ],
 

@@ -244,14 +244,24 @@ const content: AppContent = {
       anchorText: 'Pack Cherche & Trouve — Toutes les Applications de Recherche en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-mots-croises-images',
-      anchorText: 'Créateur de Mots Croisés en Images',
+      pageType: 'idea',
+      slug: 'cp-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ce1-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CE1',
     },
     {
       pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      slug: 'livres-activites-amazon-kdp',
+      anchorText: 'Publier des livres d\'activités sur Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-mots-croises',
+      anchorText: 'Créer des mots croisés qui se vendent',
     },
   ],
 

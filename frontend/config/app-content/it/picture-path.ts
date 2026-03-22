@@ -233,16 +233,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Puzzle e Logica — Tutte le App Puzzle in Un Unico Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-percorso-immagini',
-      anchorText: 'Creatore di Labirinti Picture Path',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-labirinti',
       anchorText: 'Come Creare e Vendere Schede Labirinto',
@@ -251,6 +241,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'pubblicare-libri-puzzle-kdp',
       anchorText: 'Come Pubblicare Libri di Puzzle su Amazon KDP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campeggio-idee-stampabili',
+      anchorText: 'Idee di stampabili per campeggio e attività all\'aperto',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animali-marini-idee-stampabili',
+      anchorText: 'Idee di stampabili di animali marini',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-attivita-stampabili',
+      anchorText: 'Marketing per la tua attività di stampabili',
     },
   ],
 

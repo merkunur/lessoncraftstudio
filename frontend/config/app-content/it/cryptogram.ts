@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Lettura e Linguaggio — Tutte le App di Lettere in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-crittogrammi',
-      anchorText: 'Creatore di Schede Crittogramma',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-crittogrammi',
       anchorText: 'Guida per Creare Puzzle Crittogramma',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili con Animali della Fattoria',
+      slug: 'italiano-l2-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'apprendimento delle lingue',
+    },
+    {
+      pageType: 'idea',
+      slug: 'istruzione-domiciliare-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'istruzione a casa',
     },
   ],
 

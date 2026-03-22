@@ -234,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Pack Association et Tri — Toutes les Applis d\'Association en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-fiches-association',
-      anchorText: 'Créateur de Fiches d\'Association',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'maternelle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour la maternelle',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme pour Fiches de Travail',
+      slug: 'grande-section-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le jardin d\'enfants',
+    },
+    {
+      pageType: 'start',
+      slug: 'plan-activite-imprimables',
+      anchorText: 'Plan d\'activité pour imprimables',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-association',
+      anchorText: 'Créer des fiches d\'association',
     },
   ],
 

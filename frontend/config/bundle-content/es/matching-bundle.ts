@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'asociacion-sombras-fichas', anchorText: 'Generador de Discriminación Visual — Todos los Detalles' },
     { pageType: 'app', slug: 'bingo-fichas', anchorText: 'Generador de Tarjetas de Bingo — Todos los Detalles' },
     { pageType: 'app', slug: 'clasificar-imagenes-fichas', anchorText: 'Generador de Clasificación de Imágenes — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-asociacion', anchorText: 'Probar el Generador de Fichas de Asociación' },
-    { pageType: 'tool', slug: 'generador-puzzle-cuadricula', anchorText: 'Probar el Generador de Puzzle de Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-discriminacion-visual', anchorText: 'Probar el Generador de Discriminación Visual' },
-    { pageType: 'tool', slug: 'generador-tarjetas-bingo', anchorText: 'Probar el Generador de Tarjetas de Bingo' },
-    { pageType: 'tool', slug: 'generador-clasificacion-imagenes', anchorText: 'Probar el Generador de Clasificación de Imágenes' },
+    { pageType: 'guide', slug: 'crear-fichas-asociacion', anchorText: 'Crear fichas de asociación' },
+    { pageType: 'guide', slug: 'crear-fichas-discriminacion-visual', anchorText: 'Crear fichas de discriminación visual' },
+    { pageType: 'start', slug: 'plan-negocio-imprimibles', anchorText: 'Plan de negocio de imprimibles' },
+    { pageType: 'idea', slug: 'preescolar-ideas-imprimibles', anchorText: 'Ideas de imprimibles para preescolar' },
   ],
 
   visuals: {

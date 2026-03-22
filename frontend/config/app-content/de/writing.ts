@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Lese- & Sprach-Paket — Alle Sprach-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'schreibuebungen-ersteller',
-      anchorText: 'Schreibübungen-Arbeitsblatt-Ersteller',
-    },
-    {
       pageType: 'start',
       slug: 'komplettanleitung-druckvorlagen-geschaeft',
       anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'daf-druckvorlagen-ideen',
+      anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'heimunterricht-druckvorlagen-ideen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'schreibuebungen-erstellen',
+      anchorText: 'Schreibübungen erstellen',
     },
   ],
 

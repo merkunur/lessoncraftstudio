@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pack Lecture & Langage — Toutes les Applications de Lettres',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-train-alphabet',
-      anchorText: 'Créateur de Fiches Train Alphabet',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-alphabet',
       anchorText: 'Guide pour Créer des Fiches Alphabet qui se Vendent',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme',
+      slug: 'fle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'apprentissage des langues',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ecole-maison-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'éducation à domicile',
     },
   ],
 

@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Lese- & Sprach-Paket — Alle Sprach-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'wortsuche-ersteller',
-      anchorText: 'Wortsuche-Arbeitsblatt-Ersteller',
-    },
-    {
       pageType: 'guide',
       slug: 'wortsuche-verkaufen-etsy',
       anchorText: 'Leitfaden: Sprach-Arbeitsblätter auf Etsy verkaufen',
@@ -250,8 +245,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'daf-druckvorlagen-ideen',
+      anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'heimunterricht-druckvorlagen-ideen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'wortsuche-raetsel-erstellen',
+      anchorText: 'Wortsuche-Rätsel erstellen, die sich verkaufen',
     },
   ],
 

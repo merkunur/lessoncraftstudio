@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Association et Tri — Toutes les Applications de Correspondance en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-tri-images',
-      anchorText: 'Créateur de Fiches de Tri d\'Images',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-tri',
       anchorText: 'Comment Créer des Fiches de Tri Qui Se Vendent',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
     },
   ],
 

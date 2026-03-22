@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Padronanza della Matematica — Tutte le App di Matematica',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-esercizi-matematica',
-      anchorText: 'Generatore di Esercizi di Matematica',
-    },
-    {
       pageType: 'guide',
       slug: 'vendere-schede-matematica-etsy',
       anchorText: 'Guida per Vendere Schede di Matematica su Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un\'Attività di Stampabili',
+      pageType: 'idea',
+      slug: 'basi-matematica-idee-stampabili',
+      anchorText: 'Idee di stampabili di matematica per educatori e venditori',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili di Animali della Fattoria',
+      slug: 'ritorno-scuola-idee-stampabili',
+      anchorText: 'Idee di stampabili per il ritorno a scuola',
+    },
+    {
+      pageType: 'start',
+      slug: 'creare-schede-che-vendono',
+      anchorText: 'Come creare schede che vendono',
     },
   ],
 

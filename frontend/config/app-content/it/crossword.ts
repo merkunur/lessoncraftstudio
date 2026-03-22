@@ -243,14 +243,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Cerca e Trova — Tutte le App di Ricerca in Un Unico Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-cruciverba-immagini',
-      anchorText: 'Creatore di Cruciverba con Immagini',
+      pageType: 'idea',
+      slug: 'prima-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la prima elementare',
+    },
+    {
+      pageType: 'idea',
+      slug: 'seconda-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la seconda elementare',
     },
     {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un\'Attività di Stampabili',
+      slug: 'libri-attivita-amazon-kdp',
+      anchorText: 'Pubblicare libri di attività su Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-cruciverba',
+      anchorText: 'Creare cruciverba che vendono',
     },
   ],
 

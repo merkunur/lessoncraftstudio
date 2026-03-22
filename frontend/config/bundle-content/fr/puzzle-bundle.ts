@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'intrus-fiches', anchorText: 'Générateur Trouve l\'Intrus — Tous les Détails' },
     { pageType: 'app', slug: 'sudoku-enfants-fiches', anchorText: 'Générateur Sudoku Enfants — Tous les Détails' },
     { pageType: 'app', slug: 'parcours-images-fiches', anchorText: 'Générateur Parcours d\'Images — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Essayer le Générateur Pièces Manquantes' },
-    { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Essayer le Générateur Trouve l\'Intrus' },
-    { pageType: 'tool', slug: 'generateur-sudoku-enfants', anchorText: 'Essayer le Générateur Sudoku Enfants' },
-    { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Essayer le Générateur Parcours d\'Images' },
+    { pageType: 'guide', slug: 'creer-mots-croises', anchorText: 'Créer des mots croisés qui se vendent' },
+    { pageType: 'guide', slug: 'publier-livres-puzzles-kdp', anchorText: 'Publier des livres de puzzles sur Amazon KDP' },
+    { pageType: 'start', slug: 'livres-activites-amazon-kdp', anchorText: 'Publier des livres d\'activités sur Amazon KDP' },
+    { pageType: 'idea', slug: 'cp-idees-imprimables', anchorText: 'Idées d\'imprimables pour le CP' },
   ],
 
   visuals: {

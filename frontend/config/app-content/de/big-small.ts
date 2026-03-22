@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visuelles-Lernen-Paket — Alle visuellen Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'gross-klein-ersteller',
-      anchorText: 'Groß-Klein-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'vorschule-druckvorlagen-ideen',
+      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'kindergarten-druckvorlagen-ideen',
+      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Schüler',
+    },
+    {
+      pageType: 'start',
+      slug: 'druckvorlagen-geschaeft-bauplan',
+      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+    },
+    {
+      pageType: 'guide',
+      slug: 'groessenvergleich-arbeitsblaetter-erstellen',
+      anchorText: 'Größenvergleich-Arbeitsblätter erstellen',
     },
   ],
 

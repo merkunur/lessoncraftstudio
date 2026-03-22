@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Paquete Asociación y Clasificación — Todas las Apps de Asociación en Un Solo Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-discriminacion-visual',
-      anchorText: 'Creador de Fichas de Asociación de Sombras',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
+      pageType: 'idea',
+      slug: 'preescolar-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para preescolar',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurios-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Dinosaurios para Fichas',
+      slug: 'infantil-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para jardín de infancia',
+    },
+    {
+      pageType: 'start',
+      slug: 'plan-negocio-imprimibles',
+      anchorText: 'Plan de negocio de imprimibles',
+    },
+    {
+      pageType: 'guide',
+      slug: 'crear-fichas-discriminacion-visual',
+      anchorText: 'Crear fichas de discriminación visual',
     },
   ],
 

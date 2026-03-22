@@ -233,19 +233,29 @@ const content: AppContent = {
       anchorText: 'Zuordnung-und-Sortierung-Paket — Alle Zuordnungs-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'bilder-sortieren-ersteller',
-      anchorText: 'Bilder-Sortieren-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
-    },
-    {
       pageType: 'idea',
       slug: 'weltraum-druckvorlagen-ideen',
       anchorText: 'Weltraum-Druckvorlagen-Ideen für Arbeitsblätter',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-druckvorlagen-ideen',
+      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'meerestiere-druckvorlagen-ideen',
+      anchorText: 'Meerestiere-Druckvorlagen-Ideen für maritime Themen',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-druckvorlagen-geschaeft',
+      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+    },
+    {
+      pageType: 'guide',
+      slug: 'sortier-arbeitsblaetter-erstellen',
+      anchorText: 'Sortier-Arbeitsblätter erstellen',
     },
   ],
 

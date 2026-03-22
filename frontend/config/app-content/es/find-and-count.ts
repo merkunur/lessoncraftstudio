@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Paquete Busca y Encuentra — Todas las Apps de Búsqueda en Un Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-busca-cuenta',
-      anchorText: 'Generador de Fichas Busca y Cuenta',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
+      pageType: 'idea',
+      slug: 'camping-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de camping y aire libre',
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja para Vender',
+      slug: 'animales-marinos-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de animales marinos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimibles',
+      anchorText: 'Marketing para tu negocio de imprimibles',
+    },
+    {
+      pageType: 'guide',
+      slug: 'crear-fichas-conteo',
+      anchorText: 'Crear fichas de conteo',
     },
   ],
 

@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Apprendimento Visivo — Tutte le App Visive in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-schede-grande-piccolo',
-      anchorText: 'Creatore di Schede Grande e Piccolo',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un\'Attività di Stampabili',
+      pageType: 'idea',
+      slug: 'prescuola-idee-stampabili',
+      anchorText: 'Idee di stampabili per la scuola materna',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili con Animali della Fattoria',
+      slug: 'scuola-infanzia-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'asilo',
+    },
+    {
+      pageType: 'start',
+      slug: 'piano-attivita-stampabili',
+      anchorText: 'Piano per la tua attività di stampabili',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-schede-confronto-dimensioni',
+      anchorText: 'Creare schede di confronto dimensioni',
     },
   ],
 

@@ -239,14 +239,24 @@ const content: AppContent = {
       anchorText: 'Paquete Busca y Encuentra — Todas las Apps de Búsqueda en Un Solo Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-crucigramas-imagenes',
-      anchorText: 'Generador de Crucigramas con Imágenes',
+      pageType: 'idea',
+      slug: 'primer-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para primer grado',
+    },
+    {
+      pageType: 'idea',
+      slug: 'segundo-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para segundo grado',
     },
     {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
+      slug: 'libros-actividades-amazon-kdp',
+      anchorText: 'Publicar libros de actividades en Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'crear-crucigramas',
+      anchorText: 'Crear crucigramas que se vendan',
     },
   ],
 

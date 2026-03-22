@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Paquete de Puzzles y Lógica — Todas las Apps de Puzzles en Un Solo Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-recorrido-imagenes',
-      anchorText: 'Creador de Laberintos con Imágenes',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-fichas-laberintos',
       anchorText: 'Cómo Crear y Vender Fichas de Laberintos',
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Laberintos y Caminos con Imágenes',
+      slug: 'camping-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de camping y aire libre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animales-marinos-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de animales marinos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimibles',
+      anchorText: 'Marketing para tu negocio de imprimibles',
     },
   ],
 

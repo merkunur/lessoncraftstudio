@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Associação e Classificação — Todas as Aplicações de Associação num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-cartelas-bingo',
-      anchorText: 'Criador de Cartelas de Bingo',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-cartelas-bingo',
       anchorText: 'Como Criar e Vender Cartelas de Bingo Online',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campismo-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animais-marinhos-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de animais marinhos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimiveis',
+      anchorText: 'Marketing para seu negócio de imprimíveis',
     },
   ],
 

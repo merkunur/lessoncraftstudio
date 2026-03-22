@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Mathematik-Meister-Paket — Alle Mathe-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'mathe-arbeitsblatt-ersteller',
-      anchorText: 'Mathe-Arbeitsblatt-Ersteller',
-    },
-    {
       pageType: 'guide',
       slug: 'mathe-arbeitsblaetter-verkaufen-etsy',
       anchorText: 'Leitfaden: Mathe-Arbeitsblätter auf Etsy verkaufen',
     },
     {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'mathe-grundlagen-druckvorlagen-ideen',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'schulanfang-druckvorlagen-ideen',
+      anchorText: 'Schulanfang-Druckvorlagen-Ideen die sich verkaufen',
+    },
+    {
+      pageType: 'start',
+      slug: 'arbeitsblaetter-erstellen-die-verkaufen',
+      anchorText: 'Arbeitsblätter erstellen, die sich verkaufen',
     },
   ],
 

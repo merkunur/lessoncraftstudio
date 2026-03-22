@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Associação e Classificação — Todas as Aplicações de Associação num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-puzzle-quadricula',
-      anchorText: 'Criador de Puzzles de Quadrícula',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'pre-escolar-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para pré-escolar',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta para Fichas de Trabalho',
+      slug: 'jardim-infancia-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para jardim de infância',
+    },
+    {
+      pageType: 'start',
+      slug: 'plano-negocio-imprimiveis',
+      anchorText: 'Plano de negócio de imprimíveis',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-associacao',
+      anchorText: 'Criar fichas de associação',
     },
   ],
 

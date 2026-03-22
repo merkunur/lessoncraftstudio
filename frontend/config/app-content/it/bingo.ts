@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Abbinamento e Classificazione — Tutte le App di Abbinamento in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-cartelle-bingo',
-      anchorText: 'Creatore di Cartelle di Bingo',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-cartelle-bingo',
       anchorText: 'Come Creare e Vendere Cartelle di Bingo Online',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campeggio-idee-stampabili',
+      anchorText: 'Idee di stampabili per campeggio e attività all\'aperto',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animali-marini-idee-stampabili',
+      anchorText: 'Idee di stampabili di animali marini',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-attivita-stampabili',
+      anchorText: 'Marketing per la tua attività di stampabili',
     },
   ],
 

@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'encontre-diferente-fichas', anchorText: 'Gerador Encontre o Diferente — Todos os Detalhes' },
     { pageType: 'app', slug: 'sudoku-criancas-fichas', anchorText: 'Gerador de Sudoku de Imagens — Todos os Detalhes' },
     { pageType: 'app', slug: 'labirinto-caminhos-fichas', anchorText: 'Gerador de Labirintos de Percurso de Imagens — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Experimentar o Gerador de Peças Faltantes' },
-    { pageType: 'tool', slug: 'gerador-fichas-intruso', anchorText: 'Experimentar o Gerador Encontre o Diferente' },
-    { pageType: 'tool', slug: 'gerador-sudoku-infantil', anchorText: 'Experimentar o Gerador de Sudoku de Imagens' },
-    { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Experimentar o Gerador de Labirintos' },
+    { pageType: 'guide', slug: 'criar-palavras-cruzadas', anchorText: 'Criar palavras cruzadas que vendem' },
+    { pageType: 'guide', slug: 'publicar-livros-puzzles-kdp', anchorText: 'Publicar livros de puzzles na Amazon KDP' },
+    { pageType: 'start', slug: 'livros-atividades-amazon-kdp', anchorText: 'Publicar livros de atividades na Amazon KDP' },
+    { pageType: 'idea', slug: 'primeiro-ano-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis para primeiro ano' },
   ],
 
   visuals: {

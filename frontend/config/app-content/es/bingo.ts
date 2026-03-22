@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Paquete Asociación y Clasificación — Todas las Apps de Asociación en Uno',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-tarjetas-bingo',
-      anchorText: 'Creador de Tarjetas de Bingo',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-tarjetas-bingo',
       anchorText: 'Cómo Crear y Vender Tarjetas de Bingo en Línea',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de camping y aire libre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animales-marinos-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de animales marinos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimibles',
+      anchorText: 'Marketing para tu negocio de imprimibles',
     },
   ],
 

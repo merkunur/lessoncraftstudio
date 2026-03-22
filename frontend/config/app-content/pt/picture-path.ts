@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Pacote de Puzzles e Lógica — Todas as Apps de Puzzles',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-percurso-imagens',
-      anchorText: 'Criador de Labirintos com Imagens',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-labirintos',
       anchorText: 'Como Criar e Vender Fichas de Labirintos',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Labirintos e Caminhos com Imagens',
+      slug: 'campismo-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animais-marinhos-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de animais marinhos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimiveis',
+      anchorText: 'Marketing para seu negócio de imprimíveis',
     },
   ],
 

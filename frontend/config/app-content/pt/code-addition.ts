@@ -229,11 +229,6 @@ const content: AppContent = {
       anchorText: 'Pacote Domínio da Matemática — Todas as Aplicações de Matemática',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-adicao-codificada',
-      anchorText: 'Gerador de Fichas de Adição Codificada',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-adicao',
       anchorText: 'Como Criar Fichas de Adição que Vendem',
@@ -244,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Guia para Vender Fichas de Matemática na Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinossauros-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Dinossauros para Crianças',
-    },
-    {
       pageType: 'idea',
       slug: 'espaco-ideias-imprimiveis',
       anchorText: 'Ideias de Imprimíveis de Espaço para Fichas Educativas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'bases-matematica-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de matemática para educadores e vendedores',
+    },
+    {
+      pageType: 'idea',
+      slug: 'regresso-aulas-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de regresso às aulas',
+    },
+    {
+      pageType: 'start',
+      slug: 'criar-fichas-que-vendem',
+      anchorText: 'Como criar fichas que vendem',
     },
   ],
 

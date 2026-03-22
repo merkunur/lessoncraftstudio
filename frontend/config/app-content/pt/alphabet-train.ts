@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pacote Leitura e Linguagem — Todas as Aplicações de Letras',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-trem-alfabeto',
-      anchorText: 'Gerador de Fichas de Trem do Alfabeto',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-alfabeto',
       anchorText: 'Guia para Criar Fichas de Alfabeto que Vendem',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'ple-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para aprendizagem de línguas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ensino-domestico-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para educação em casa',
     },
   ],
 

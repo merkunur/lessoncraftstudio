@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'grafomotricidad-fichas', anchorText: 'Generador de Fichas de Grafomotricidad — Todos los Detalles' },
     { pageType: 'app', slug: 'dibujos-colorear-fichas', anchorText: 'Generador de Páginas para Colorear — Todos los Detalles' },
     { pageType: 'app', slug: 'graficos-conteo-fichas', anchorText: 'Generador de Gráficos de Conteo — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-grande-pequeno', anchorText: 'Probar el Generador Grande y Pequeño' },
-    { pageType: 'tool', slug: 'generador-tren-patrones', anchorText: 'Probar el Generador Tren de Patrones' },
-    { pageType: 'tool', slug: 'generador-fichas-patrones', anchorText: 'Probar el Generador de Fichas de Patrones' },
-    { pageType: 'tool', slug: 'generador-dibujo-cuadricula', anchorText: 'Probar el Generador Dibujo en Cuadrícula' },
-    { pageType: 'tool', slug: 'generador-fichas-grafomotricidad', anchorText: 'Probar el Generador de Grafomotricidad' },
-    { pageType: 'tool', slug: 'generador-paginas-colorear', anchorText: 'Probar el Generador de Páginas para Colorear' },
-    { pageType: 'tool', slug: 'generador-graficos-imagenes', anchorText: 'Probar el Generador de Gráficos de Conteo' },
+    { pageType: 'guide', slug: 'crear-paginas-colorear-etsy', anchorText: 'Crear páginas de colorear para Etsy' },
+    { pageType: 'guide', slug: 'crear-fichas-dibujo', anchorText: 'Crear fichas de dibujo' },
+    { pageType: 'start', slug: 'negocio-imprimibles-etsy', anchorText: 'Lanza tu negocio de imprimibles en Etsy' },
+    { pageType: 'idea', slug: 'verano-ideas-imprimibles', anchorText: 'Ideas de imprimibles de verano para niños' },
   ],
 
   visuals: {

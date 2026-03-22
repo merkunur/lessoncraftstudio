@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Pack Cherche & Trouve — Toutes les Applications de Recherche en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-cherche-objets',
-      anchorText: 'Créateur de Fiches Objets Cachés',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-objets-caches',
       anchorText: 'Guide pour Créer des Fiches d\'Objets Cachés Qui Se Vendent',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
     },
   ],
 

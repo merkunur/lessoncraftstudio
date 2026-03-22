@@ -206,13 +206,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'suma-codigo-fichas', anchorText: 'Generador de Suma Codificada — Todos los Detalles' },
     { pageType: 'app', slug: 'mayor-menor-fichas', anchorText: 'Generador Más o Menos — Todos los Detalles' },
     { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: 'Generador de Puzzles Matemáticos — Todos los Detalles' },
-    { pageType: 'app', slug: 'rompecabezas-matematicos-fichas', anchorText: 'Generador de Puzzles Algebraicos — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Probar el Creador de Fichas de Suma' },
-    { pageType: 'tool', slug: 'generador-fichas-resta', anchorText: 'Probar el Creador de Fichas de Resta' },
-    { pageType: 'tool', slug: 'generador-suma-codificada', anchorText: 'Probar el Creador de Suma Codificada' },
-    { pageType: 'tool', slug: 'generador-comparacion-cantidades', anchorText: 'Probar el Creador de Fichas Más o Menos' },
-    { pageType: 'tool', slug: 'generador-puzzles-matematicos', anchorText: 'Probar el Generador de Puzzles Matemáticos' },
-    { pageType: 'tool', slug: 'generador-ejercicios-matematicas', anchorText: 'Probar el Generador de Fichas de Matemáticas' },
+    { pageType: 'guide', slug: 'vender-fichas-matematicas-etsy', anchorText: 'Guía para vender fichas de matemáticas en Etsy' },
+    { pageType: 'guide', slug: 'libros-actividades-matematicas-kdp', anchorText: 'Libros de actividades de matemáticas en Amazon KDP' },
+    { pageType: 'start', slug: 'crear-fichas-que-se-venden', anchorText: 'Cómo crear fichas que se vendan' },
+    { pageType: 'idea', slug: 'bases-matematicas-ideas-imprimibles', anchorText: 'Ideas de imprimibles de matemáticas para educadores y vendedores' },
   ],
 
   visuals: {

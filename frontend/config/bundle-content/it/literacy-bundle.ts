@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'cerca-parole-schede', anchorText: 'Generatore di Schede Cerca Parole — Dettagli Completi' },
     { pageType: 'app', slug: 'crittogramma-schede', anchorText: 'Generatore di Schede Crittogramma — Dettagli Completi' },
     { pageType: 'app', slug: 'scrittura-schede', anchorText: 'Generatore di Schede di Scrittura — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-treno-alfabeto', anchorText: 'Prova il Generatore Treno dell\'Alfabeto' },
-    { pageType: 'tool', slug: 'generatore-schede-preposizioni', anchorText: 'Prova il Generatore di Schede Preposizioni' },
-    { pageType: 'tool', slug: 'generatore-indovina-parole', anchorText: 'Prova il Generatore Indovina la Parola' },
-    { pageType: 'tool', slug: 'generatore-parole-mescolate', anchorText: 'Prova il Generatore Parole Mescolate' },
-    { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Prova il Generatore Cerca Parole' },
-    { pageType: 'tool', slug: 'generatore-crittogrammi', anchorText: 'Prova il Generatore di Crittogrammi' },
-    { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Prova il Generatore di Schede di Scrittura' },
+    { pageType: 'guide', slug: 'vendere-cerca-parole-etsy', anchorText: 'Vendere cerca parole su Etsy' },
+    { pageType: 'guide', slug: 'creare-cerca-parole', anchorText: 'Creare cerca parole che vendono' },
+    { pageType: 'start', slug: 'guida-completa-attivita-stampabili', anchorText: 'Guida completa per avviare un\'attività di stampabili' },
+    { pageType: 'idea', slug: 'italiano-l2-idee-stampabili', anchorText: 'Idee di stampabili per l\'apprendimento delle lingue' },
   ],
 
   visuals: {

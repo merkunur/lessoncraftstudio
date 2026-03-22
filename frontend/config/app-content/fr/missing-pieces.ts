@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Puzzles et Logique — Toutes les Applications Puzzle en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-pieces-manquantes',
-      anchorText: 'Créateur de Puzzles Pièces Manquantes',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Entreprise d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-puzzles-pieces-manquantes',
       anchorText: 'Comment Créer et Vendre des Puzzles en Ligne',
+    },
+    {
+      pageType: 'idea',
+      slug: 'cp-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CP',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ce1-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le CE1',
+    },
+    {
+      pageType: 'start',
+      slug: 'livres-activites-amazon-kdp',
+      anchorText: 'Publier des livres d\'activités sur Amazon KDP',
     },
   ],
 

@@ -238,16 +238,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Puzzle e Logica — Tutte le App di Puzzle in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-pezzi-mancanti',
-      anchorText: 'Generatore di Puzzle Pezzi Mancanti',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-puzzle-pezzi-mancanti',
       anchorText: 'Come Creare Puzzle con Pezzi Mancanti che Vendono',
@@ -256,6 +246,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'cerca-parole-schede',
       anchorText: 'Generatore di Cerca Parole',
+    },
+    {
+      pageType: 'idea',
+      slug: 'prima-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la prima elementare',
+    },
+    {
+      pageType: 'idea',
+      slug: 'seconda-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la seconda elementare',
+    },
+    {
+      pageType: 'start',
+      slug: 'libri-attivita-amazon-kdp',
+      anchorText: 'Pubblicare libri di attività su Amazon KDP',
     },
   ],
 

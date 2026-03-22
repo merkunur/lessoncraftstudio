@@ -233,19 +233,29 @@ const content: AppContent = {
       anchorText: 'Rätsel-und-Logik-Paket — Alle Puzzle-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'bilderpfad-ersteller',
-      anchorText: 'Bilderpfad-Labyrinth-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
-    },
-    {
       pageType: 'idea',
       slug: 'dschungel-druckvorlagen-ideen',
       anchorText: 'Dschungel-Druckvorlagen-Ideen für Arbeitsblätter',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-druckvorlagen-ideen',
+      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'meerestiere-druckvorlagen-ideen',
+      anchorText: 'Meerestiere-Druckvorlagen-Ideen für maritime Themen',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-druckvorlagen-geschaeft',
+      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+    },
+    {
+      pageType: 'guide',
+      slug: 'labyrinth-arbeitsblaetter-erstellen',
+      anchorText: 'Labyrinth-Arbeitsblätter erstellen',
     },
   ],
 

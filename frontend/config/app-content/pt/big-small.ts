@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Aprendizagem Visual — Todas as Aplicações Visuais num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-fichas-grande-pequeno',
-      anchorText: 'Criador de Fichas Grande e Pequeno',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'pre-escolar-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para pré-escolar',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'jardim-infancia-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para jardim de infância',
+    },
+    {
+      pageType: 'start',
+      slug: 'plano-negocio-imprimiveis',
+      anchorText: 'Plano de negócio de imprimíveis',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-comparacao-tamanhos',
+      anchorText: 'Criar fichas de comparação de tamanhos',
     },
   ],
 

@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'schattenbilder-zuordnen-arbeitsblaetter', anchorText: 'Schattenbilder-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilder-bingo-arbeitsblaetter', anchorText: 'Bingo-Karten-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilder-sortieren-arbeitsblaetter', anchorText: 'Bilder-Sortieren-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'zuordnungs-arbeitsblatt-ersteller', anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'raster-puzzle-ersteller', anchorText: 'Raster-Puzzle-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bingo-karten-ersteller', anchorText: 'Bingo-Karten-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilder-sortieren-ersteller', anchorText: 'Bilder-Sortieren-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'zuordnungs-arbeitsblaetter-erstellen', anchorText: 'Zuordnungs-Arbeitsblätter erstellen' },
+    { pageType: 'guide', slug: 'schatten-zuordnung-arbeitsblaetter-erstellen', anchorText: 'Schatten-Zuordnung Arbeitsblätter erstellen' },
+    { pageType: 'start', slug: 'druckvorlagen-geschaeft-bauplan', anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan' },
+    { pageType: 'idea', slug: 'vorschule-druckvorlagen-ideen', anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung' },
   ],
 
   visuals: {

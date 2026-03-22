@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Aprendizagem Visual — Todas as Aplicações Visuais num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-fichas-grafomotricidade',
-      anchorText: 'Criador de Fichas de Grafomotricidade',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'verao-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de verão para crianças',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'natal-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de Natal para vendas sazonais',
+    },
+    {
+      pageType: 'start',
+      slug: 'negocio-imprimiveis-etsy',
+      anchorText: 'Lance seu negócio de imprimíveis na Etsy',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-desenho',
+      anchorText: 'Criar fichas de desenho',
     },
   ],
 

@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'buscar-objetos-fichas', anchorText: 'Generador de Objetos Ocultos — Todos los Detalles' },
     { pageType: 'app', slug: 'crucigramas-imagenes-fichas', anchorText: 'Generador de Crucigramas con Imágenes — Todos los Detalles' },
     { pageType: 'app', slug: 'busqueda-tesoro-fichas', anchorText: 'Generador de Búsqueda del Tesoro — Todos los Detalles' },
-    { pageType: 'tool', slug: 'generador-busca-cuenta', anchorText: 'Probar el Generador Buscar y Contar' },
-    { pageType: 'tool', slug: 'generador-busca-objetos', anchorText: 'Probar el Generador de Buscar Objetos' },
-    { pageType: 'tool', slug: 'generador-crucigramas-imagenes', anchorText: 'Probar el Generador de Crucigramas' },
-    { pageType: 'tool', slug: 'generador-busqueda-tesoro', anchorText: 'Probar el Generador de Búsqueda del Tesoro' },
+    { pageType: 'guide', slug: 'crear-fichas-objetos-ocultos', anchorText: 'Crear fichas de objetos ocultos' },
+    { pageType: 'guide', slug: 'crear-fichas-busqueda-tesoro', anchorText: 'Crear fichas de búsqueda del tesoro' },
+    { pageType: 'start', slug: 'marketing-negocio-imprimibles', anchorText: 'Marketing para tu negocio de imprimibles' },
+    { pageType: 'idea', slug: 'camping-ideas-imprimibles', anchorText: 'Ideas de imprimibles de camping y aire libre' },
   ],
 
   visuals: {

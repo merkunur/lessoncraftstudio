@@ -224,11 +224,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Padronanza della Matematica — Tutte le App di Matematica',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-confronto-quantita',
-      anchorText: 'Generatore di Schede di Confronto Quantità',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-confronto-dimensioni',
       anchorText: 'Come Creare Schede di Confronto che Vendono',
@@ -239,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Guida per Vendere Schede di Matematica su Etsy',
     },
     {
+      pageType: 'idea',
+      slug: 'basi-matematica-idee-stampabili',
+      anchorText: 'Idee di stampabili di matematica per educatori e venditori',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ritorno-scuola-idee-stampabili',
+      anchorText: 'Idee di stampabili per il ritorno a scuola',
+    },
+    {
       pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
+      slug: 'creare-schede-che-vendono',
+      anchorText: 'Come creare schede che vendono',
     },
     {
-      pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili sugli Animali della Fattoria',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosauri-idee-stampabili',
-      anchorText: 'Idee di Stampabili sui Dinosauri per Bambini',
+      pageType: 'guide',
+      slug: 'creare-schede-conteggio',
+      anchorText: 'Creare schede di conteggio',
     },
   ],
 

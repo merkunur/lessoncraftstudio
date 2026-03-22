@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Apprendimento Visivo — Tutte le App Visive in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-schede-sequenze',
-      anchorText: 'Creatore di Schede di Sequenze Pattern',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
+      pageType: 'idea',
+      slug: 'prima-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la prima elementare',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili con Animali della Fattoria',
+      slug: 'seconda-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la seconda elementare',
+    },
+    {
+      pageType: 'start',
+      slug: 'libri-attivita-amazon-kdp',
+      anchorText: 'Pubblicare libri di attività su Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-schede-sequenze-logiche',
+      anchorText: 'Creare schede di sequenze logiche',
     },
   ],
 

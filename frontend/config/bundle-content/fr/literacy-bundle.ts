@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'mots-caches-fiches', anchorText: 'Générateur Mots Cachés — Tous les Détails' },
     { pageType: 'app', slug: 'cryptogramme-images-fiches', anchorText: 'Générateur Cryptogramme — Tous les Détails' },
     { pageType: 'app', slug: 'ecriture-fiches', anchorText: 'Générateur de Fiches d\'Écriture — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Essayer le Générateur Train Alphabet' },
-    { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Essayer le Générateur de Prépositions' },
-    { pageType: 'tool', slug: 'generateur-deviner-mots', anchorText: 'Essayer le Générateur Deviner les Mots' },
-    { pageType: 'tool', slug: 'generateur-mots-melanges', anchorText: 'Essayer le Générateur Mots Mélangés' },
-    { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Essayer le Générateur Mots Cachés' },
-    { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Essayer le Générateur Cryptogramme' },
-    { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Essayer le Générateur de Fiches d\'Écriture' },
+    { pageType: 'guide', slug: 'vendre-mots-caches-etsy', anchorText: 'Vendre des mots cachés sur Etsy' },
+    { pageType: 'guide', slug: 'creer-mots-caches', anchorText: 'Créer des mots cachés qui se vendent' },
+    { pageType: 'start', slug: 'guide-complet-activite-imprimables', anchorText: 'Le guide complet pour lancer une activité d\'imprimables' },
+    { pageType: 'idea', slug: 'fle-idees-imprimables', anchorText: 'Idées d\'imprimables pour l\'apprentissage des langues' },
   ],
 
   visuals: {

@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Apprendimento Visivo — Tutte le App Visive in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-pagine-colorare',
-      anchorText: 'Creatore di Pagine da Colorare',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
+      pageType: 'idea',
+      slug: 'estate-idee-stampabili',
+      anchorText: 'Idee di stampabili estivi per bambini',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili sugli Animali della Fattoria',
+      slug: 'natale-idee-stampabili',
+      anchorText: 'Idee di stampabili natalizi per vendite stagionali',
+    },
+    {
+      pageType: 'start',
+      slug: 'attivita-stampabili-etsy',
+      anchorText: 'Avvia la tua attività di stampabili su Etsy',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-pagine-colorare',
+      anchorText: 'Creare pagine da colorare che vendono',
     },
   ],
 

@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'trova-intruso-schede', anchorText: 'Generatore Trova l\'Intruso — Dettagli Completi' },
     { pageType: 'app', slug: 'sudoku-bambini-schede', anchorText: 'Generatore Sudoku con Immagini — Dettagli Completi' },
     { pageType: 'app', slug: 'percorso-illustrato-schede', anchorText: 'Generatore Labirinti Percorso di Immagini — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Prova il Generatore Pezzi Mancanti' },
-    { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Prova il Generatore Trova l\'Intruso' },
-    { pageType: 'tool', slug: 'generatore-sudoku-bambini', anchorText: 'Prova il Generatore Sudoku con Immagini' },
-    { pageType: 'tool', slug: 'generatore-percorso-immagini', anchorText: 'Prova il Generatore Percorso di Immagini' },
+    { pageType: 'guide', slug: 'creare-cruciverba', anchorText: 'Creare cruciverba che vendono' },
+    { pageType: 'guide', slug: 'pubblicare-libri-puzzle-kdp', anchorText: 'Pubblicare libri di puzzle su Amazon KDP' },
+    { pageType: 'start', slug: 'libri-attivita-amazon-kdp', anchorText: 'Pubblicare libri di attività su Amazon KDP' },
+    { pageType: 'idea', slug: 'prima-elementare-idee-stampabili', anchorText: 'Idee di stampabili per la prima elementare' },
   ],
 
   visuals: {

@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Association et Tri — Toutes les Applications d\'Association en Un Seul Package',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-puzzle-grille',
-      anchorText: 'Créateur de Puzzles Grille',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'maternelle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour la maternelle',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables sur les Animaux de la Ferme',
+      slug: 'grande-section-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour le jardin d\'enfants',
+    },
+    {
+      pageType: 'start',
+      slug: 'plan-activite-imprimables',
+      anchorText: 'Plan d\'activité pour imprimables',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-association',
+      anchorText: 'Créer des fiches d\'association',
     },
   ],
 

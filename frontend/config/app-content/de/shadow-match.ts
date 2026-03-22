@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Zuordnung-und-Sortierung-Paket — Alle Zuordnungs-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'schattenbilder-ersteller',
-      anchorText: 'Schattenbilder-Zuordnen-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'vorschule-druckvorlagen-ideen',
+      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurier-druckvorlagen-ideen',
-      anchorText: 'Dinosaurier-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'kindergarten-druckvorlagen-ideen',
+      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Schüler',
+    },
+    {
+      pageType: 'start',
+      slug: 'druckvorlagen-geschaeft-bauplan',
+      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+    },
+    {
+      pageType: 'guide',
+      slug: 'schatten-zuordnung-arbeitsblaetter-erstellen',
+      anchorText: 'Schatten-Zuordnung Arbeitsblätter erstellen',
     },
   ],
 

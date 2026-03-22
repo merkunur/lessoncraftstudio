@@ -233,19 +233,29 @@ const content: AppContent = {
       anchorText: 'Rätsel-und-Logik-Paket — Alle Puzzle-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'was-passt-nicht-ersteller',
-      anchorText: 'Was-Passt-Nicht-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
-    },
-    {
       pageType: 'idea',
       slug: 'bauernhof-druckvorlagen-ideen',
       anchorText: 'Bauernhof-Druckvorlagen-Ideen für Arbeitsblätter',
+    },
+    {
+      pageType: 'idea',
+      slug: 'erste-klasse-druckvorlagen-ideen',
+      anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zweite-klasse-druckvorlagen-ideen',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-aktivitaetsbuecher',
+      anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen',
+    },
+    {
+      pageType: 'guide',
+      slug: 'was-passt-nicht-raetsel-erstellen',
+      anchorText: 'Was-passt-nicht-Rätsel erstellen',
     },
   ],
 

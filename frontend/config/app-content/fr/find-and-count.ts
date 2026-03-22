@@ -239,19 +239,29 @@ const content: AppContent = {
       anchorText: 'Pack Cherche & Trouve — Toutes les Applications de Recherche en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-cherche-et-compte',
-      anchorText: 'Créateur de Fiches Cherche et Compte',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-objets-caches',
       anchorText: 'Guide pour Créer des Fiches d\'Objets Cachés',
+    },
+    {
+      pageType: 'idea',
+      slug: 'camping-idees-imprimables',
+      anchorText: 'Idées d\'imprimables camping et plein air',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animaux-marins-idees-imprimables',
+      anchorText: 'Idées d\'imprimables animaux marins',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-activite-imprimables',
+      anchorText: 'Marketing pour votre activité d\'imprimables',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-comptage',
+      anchorText: 'Créer des fiches de comptage',
     },
   ],
 

@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'was-passt-nicht-arbeitsblaetter', anchorText: 'Was-passt-nicht-Generator — Alle Details' },
     { pageType: 'app', slug: 'kinder-sudoku-arbeitsblaetter', anchorText: 'Kinder-Sudoku-Generator — Alle Details' },
     { pageType: 'app', slug: 'bilderpfad-arbeitsblaetter', anchorText: 'Bilderpfad-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-passt-nicht-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'kinder-sudoku-ersteller', anchorText: 'Kinder-Sudoku-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'kreuzwortraetsel-erstellen', anchorText: 'Kreuzworträtsel erstellen, die sich verkaufen' },
+    { pageType: 'guide', slug: 'raetselbuecher-veroeffentlichen-kdp', anchorText: 'Rätselbücher auf Amazon KDP veröffentlichen' },
+    { pageType: 'start', slug: 'amazon-kdp-aktivitaetsbuecher', anchorText: 'Aktivitätsbücher auf Amazon KDP veröffentlichen' },
+    { pageType: 'idea', slug: 'erste-klasse-druckvorlagen-ideen', anchorText: 'Erste-Klasse Druckvorlagen-Ideen für Grundschule' },
   ],
 
   visuals: {

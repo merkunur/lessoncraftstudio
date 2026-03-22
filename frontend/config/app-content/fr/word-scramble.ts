@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pack Lecture & Langage — Toutes les Applications de Lettres en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-mots-melanges',
-      anchorText: 'Créateur de Fiches Mots Mélangés',
-    },
-    {
       pageType: 'guide',
       slug: 'vendre-materiel-pedagogique-etsy',
       anchorText: 'Guide pour Vendre du Matériel Pédagogique sur Etsy',
@@ -250,8 +245,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme',
+      slug: 'fle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'apprentissage des langues',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ecole-maison-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'éducation à domicile',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-mots-caches',
+      anchorText: 'Créer des mots cachés qui se vendent',
     },
   ],
 

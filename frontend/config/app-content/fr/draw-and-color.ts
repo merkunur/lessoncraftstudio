@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Apprentissage Visuel — Toutes les Applications Visuelles en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-dessin-quadrillage',
-      anchorText: 'Créateur de Fiches Dessin sur Quadrillage',
-    },
-    {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
+      pageType: 'idea',
+      slug: 'ete-idees-imprimables',
+      anchorText: 'Idées d\'imprimables d\'été pour enfants',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme pour Fiches',
+      slug: 'noel-idees-imprimables',
+      anchorText: 'Idées d\'imprimables de Noël pour ventes saisonnières',
+    },
+    {
+      pageType: 'start',
+      slug: 'activite-imprimables-etsy',
+      anchorText: 'Lancez votre activité d\'imprimables sur Etsy',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-dessin',
+      anchorText: 'Créer des fiches de dessin',
     },
   ],
 

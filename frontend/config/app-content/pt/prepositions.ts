@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pacote Leitura e Linguagem — Todas as Aplicações de Letras',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-fichas-preposicoes',
-      anchorText: 'Gerador de Fichas de Preposições',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-preposicoes',
       anchorText: 'Guia para Criar Fichas de Preposições que Vendem',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'ple-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para aprendizagem de línguas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ensino-domestico-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para educação em casa',
     },
   ],
 

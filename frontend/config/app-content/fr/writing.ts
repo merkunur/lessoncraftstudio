@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pack Lecture et Langage — Toutes les Applications Langagières en Un',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-fiches-ecriture',
-      anchorText: 'Créateur de Fiches d\'Écriture',
-    },
-    {
       pageType: 'start',
       slug: 'guide-complet-activite-imprimables',
       anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
     },
     {
       pageType: 'idea',
-      slug: 'animaux-ferme-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Animaux de la Ferme pour Fiches',
+      slug: 'fle-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'apprentissage des langues',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ecole-maison-idees-imprimables',
+      anchorText: 'Idées d\'imprimables pour l\'éducation à domicile',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creer-fiches-ecriture',
+      anchorText: 'Créer des fiches d\'écriture',
     },
   ],
 

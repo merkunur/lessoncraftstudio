@@ -233,24 +233,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Puzzle e Logica — Tutti i 4 Generatori di Puzzle in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-schede-intruso',
-      anchorText: 'Generatore di Schede Trova l\'Intruso',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-intruso',
       anchorText: 'Come Creare Schede Trova l\'Intruso che Vendono',
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili con Animali della Fattoria',
+      slug: 'prima-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la prima elementare',
+    },
+    {
+      pageType: 'idea',
+      slug: 'seconda-elementare-idee-stampabili',
+      anchorText: 'Idee di stampabili per la seconda elementare',
+    },
+    {
+      pageType: 'start',
+      slug: 'libri-attivita-amazon-kdp',
+      anchorText: 'Pubblicare libri di attività su Amazon KDP',
     },
   ],
 

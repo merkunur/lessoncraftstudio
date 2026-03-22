@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Zuordnung-und-Sortierung-Paket — Alle Zuordnungs-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'zuordnungs-arbeitsblatt-ersteller',
-      anchorText: 'Zuordnungs-Arbeitsblatt-Ersteller',
-    },
-    {
-      pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      pageType: 'idea',
+      slug: 'vorschule-druckvorlagen-ideen',
+      anchorText: 'Vorschul-Druckvorlagen-Ideen für frühe Förderung',
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'kindergarten-druckvorlagen-ideen',
+      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Schüler',
+    },
+    {
+      pageType: 'start',
+      slug: 'druckvorlagen-geschaeft-bauplan',
+      anchorText: 'Ihr Druckvorlagen-Geschäfts-Bauplan',
+    },
+    {
+      pageType: 'guide',
+      slug: 'zuordnungs-arbeitsblaetter-erstellen',
+      anchorText: 'Zuordnungs-Arbeitsblätter erstellen',
     },
   ],
 

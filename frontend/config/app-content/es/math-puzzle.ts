@@ -229,29 +229,24 @@ const content: AppContent = {
       anchorText: 'Paquete Dominio de Matemáticas — Todas las Apps de Mates',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-puzzles-matematicos',
-      anchorText: 'Creador de Fichas de Puzzles Matemáticos',
-    },
-    {
       pageType: 'guide',
       slug: 'vender-fichas-matematicas-etsy',
       anchorText: 'Guía para Vender Fichas de Matemáticas en Etsy',
     },
     {
+      pageType: 'idea',
+      slug: 'bases-matematicas-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de matemáticas para educadores y vendedores',
+    },
+    {
+      pageType: 'idea',
+      slug: 'vuelta-al-cole-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles de vuelta al cole que se venden',
+    },
+    {
       pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
-      pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosaurios-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Dinosaurios para Niños',
+      slug: 'crear-fichas-que-se-venden',
+      anchorText: 'Cómo crear fichas que se vendan',
     },
   ],
 

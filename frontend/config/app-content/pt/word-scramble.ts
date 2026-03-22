@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pacote Leitura e Linguagem — Todas as Aplicações de Letras num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-palavras-embaralhadas',
-      anchorText: 'Criador de Fichas de Palavras Embaralhadas',
-    },
-    {
       pageType: 'guide',
       slug: 'vender-material-educativo-etsy',
       anchorText: 'Guia para Vender Material Educativo na Etsy',
@@ -250,8 +245,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'ple-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para aprendizagem de línguas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'ensino-domestico-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para educação em casa',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-caca-palavras',
+      anchorText: 'Criar caça-palavras que vendem',
     },
   ],
 

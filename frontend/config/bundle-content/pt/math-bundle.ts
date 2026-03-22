@@ -207,12 +207,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'maior-menor-fichas', anchorText: 'Gerador Maior ou Menor — Todos os Detalhes' },
     { pageType: 'app', slug: 'quebra-cabeca-matematica-fichas', anchorText: 'Gerador de Puzzles Matemáticos — Todos os Detalhes' },
     { pageType: 'app', slug: 'atividades-matematica-fichas', anchorText: 'Gerador de Puzzles Algébricos — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-fichas-adicao', anchorText: 'Experimentar o Gerador de Fichas de Adição' },
-    { pageType: 'tool', slug: 'gerador-fichas-subtracao', anchorText: 'Experimentar o Gerador de Fichas de Subtração' },
-    { pageType: 'tool', slug: 'gerador-adicao-codificada', anchorText: 'Experimentar o Gerador de Adição Codificada' },
-    { pageType: 'tool', slug: 'gerador-comparacao-quantidades', anchorText: 'Experimentar o Gerador Maior ou Menor' },
-    { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: 'Experimentar o Gerador de Puzzles Matemáticos' },
-    { pageType: 'tool', slug: 'gerador-exercicios-matematica', anchorText: 'Experimentar o Gerador de Fichas de Matemática' },
+    { pageType: 'guide', slug: 'vender-fichas-matematica-etsy', anchorText: 'Guia para vender fichas de matemática na Etsy' },
+    { pageType: 'guide', slug: 'livros-atividades-matematica-kdp', anchorText: 'Livros de atividades de matemática na Amazon KDP' },
+    { pageType: 'start', slug: 'criar-fichas-que-vendem', anchorText: 'Como criar fichas que vendem' },
+    { pageType: 'idea', slug: 'bases-matematica-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis de matemática para educadores e vendedores' },
   ],
 
   visuals: {

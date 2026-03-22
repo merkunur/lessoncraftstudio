@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'graphisme-fiches', anchorText: 'Générateur Graphisme — Tous les Détails' },
     { pageType: 'app', slug: 'coloriage-fiches', anchorText: 'Générateur Pages de Coloriage — Tous les Détails' },
     { pageType: 'app', slug: 'graphique-images-fiches', anchorText: 'Générateur Graphique Images — Tous les Détails' },
-    { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Essayer le Générateur Grand & Petit' },
-    { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Essayer le Générateur Train Suites Logiques' },
-    { pageType: 'tool', slug: 'generateur-fiches-sequences-logiques', anchorText: 'Essayer le Générateur Séquences Logiques' },
-    { pageType: 'tool', slug: 'generateur-dessin-quadrillage', anchorText: 'Essayer le Générateur Dessin Quadrillage' },
-    { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Essayer le Générateur Graphisme' },
-    { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Essayer le Générateur Pages de Coloriage' },
-    { pageType: 'tool', slug: 'generateur-graphique-images', anchorText: 'Essayer le Générateur Graphique Images' },
+    { pageType: 'guide', slug: 'creer-coloriages-etsy', anchorText: 'Créer des coloriages pour Etsy' },
+    { pageType: 'guide', slug: 'creer-fiches-dessin', anchorText: 'Créer des fiches de dessin' },
+    { pageType: 'start', slug: 'activite-imprimables-etsy', anchorText: 'Lancez votre activité d\'imprimables sur Etsy' },
+    { pageType: 'idea', slug: 'ete-idees-imprimables', anchorText: 'Idées d\'imprimables d\'été pour enfants' },
   ],
 
   visuals: {

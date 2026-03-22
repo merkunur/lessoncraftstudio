@@ -229,24 +229,24 @@ const content: AppContent = {
       anchorText: 'Pacote Busca e Descobre — Todas as Apps de Busca num Só Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-caca-tesouro',
-      anchorText: 'Criador de Fichas de Caça ao Tesouro',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
-    },
-    {
       pageType: 'guide',
       slug: 'criar-fichas-caca-tesouro',
       anchorText: 'Como Criar Fichas de Caça ao Tesouro que Vendam',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Caça ao Tesouro e Puzzles Direcionais',
+      slug: 'campismo-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de camping e ar livre',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animais-marinhos-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de animais marinhos',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-negocio-imprimiveis',
+      anchorText: 'Marketing para seu negócio de imprimíveis',
     },
   ],
 

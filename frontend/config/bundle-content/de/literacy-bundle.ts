@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'wortsuche-arbeitsblaetter', anchorText: 'Wortsuche-Generator — Alle Details' },
     { pageType: 'app', slug: 'bildkryptogramm-arbeitsblaetter', anchorText: 'Kryptogramm-Generator — Alle Details' },
     { pageType: 'app', slug: 'schreibuebungen-arbeitsblaetter', anchorText: 'Schreibübungen-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'praepositionen-arbeitsblatt-ersteller', anchorText: 'Präpositionen-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'woerter-raten-ersteller', anchorText: 'Wörter-Raten-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'buchstabensalat-ersteller', anchorText: 'Buchstabensalat-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'wortsuche-verkaufen-etsy', anchorText: 'Wortsuche auf Etsy verkaufen' },
+    { pageType: 'guide', slug: 'wortsuche-raetsel-erstellen', anchorText: 'Wortsuche-Rätsel erstellen, die sich verkaufen' },
+    { pageType: 'start', slug: 'komplettanleitung-druckvorlagen-geschaeft', anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft' },
+    { pageType: 'idea', slug: 'daf-druckvorlagen-ideen', anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen' },
   ],
 
   visuals: {

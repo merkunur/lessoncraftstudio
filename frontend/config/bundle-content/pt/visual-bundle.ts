@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'tracar-linhas-fichas', anchorText: 'Gerador de Fichas de Grafomotricidade — Todos os Detalhes' },
     { pageType: 'app', slug: 'desenhos-colorir-fichas', anchorText: 'Gerador de Páginas para Colorir — Todos os Detalhes' },
     { pageType: 'app', slug: 'grafico-pictorico-fichas', anchorText: 'Gerador de Gráficos de Contagem — Todos os Detalhes' },
-    { pageType: 'tool', slug: 'gerador-fichas-grande-pequeno', anchorText: 'Experimentar o Gerador Grande e Pequeno' },
-    { pageType: 'tool', slug: 'gerador-trem-padroes', anchorText: 'Experimentar o Gerador Comboio de Padrões' },
-    { pageType: 'tool', slug: 'gerador-fichas-padroes', anchorText: 'Experimentar o Gerador de Fichas de Padrões' },
-    { pageType: 'tool', slug: 'gerador-desenho-quadricula', anchorText: 'Experimentar o Gerador de Desenho em Quadrícula' },
-    { pageType: 'tool', slug: 'gerador-fichas-grafomotricidade', anchorText: 'Experimentar o Gerador de Grafomotricidade' },
-    { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Experimentar o Gerador de Páginas para Colorir' },
-    { pageType: 'tool', slug: 'gerador-graficos-imagens', anchorText: 'Experimentar o Gerador de Gráficos de Contagem' },
+    { pageType: 'guide', slug: 'criar-paginas-colorir-etsy', anchorText: 'Criar páginas de colorir para Etsy' },
+    { pageType: 'guide', slug: 'criar-fichas-desenho', anchorText: 'Criar fichas de desenho' },
+    { pageType: 'start', slug: 'negocio-imprimiveis-etsy', anchorText: 'Lance seu negócio de imprimíveis na Etsy' },
+    { pageType: 'idea', slug: 'verao-ideias-imprimiveis', anchorText: 'Ideias de imprimíveis de verão para crianças' },
   ],
 
   visuals: {

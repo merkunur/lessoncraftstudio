@@ -208,12 +208,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'mehr-weniger-arbeitsblaetter', anchorText: 'Mehr-oder-Weniger-Generator — Alle Details' },
     { pageType: 'app', slug: 'mathe-raetsel-arbeitsblaetter', anchorText: 'Mathe-Rätsel-Generator — Alle Details' },
     { pageType: 'app', slug: 'mathe-arbeitsblaetter', anchorText: 'Mathe-Arbeitsblatt-Generator — Alle Details' },
-    { pageType: 'tool', slug: 'additions-arbeitsblatt-ersteller', anchorText: 'Additions-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'subtraktions-arbeitsblatt-ersteller', anchorText: 'Subtraktions-Arbeitsblatt-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'bilder-additions-ersteller', anchorText: 'Bilder-Additions-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'mehr-weniger-ersteller', anchorText: 'Mehr-oder-Weniger-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Ersteller ausprobieren' },
-    { pageType: 'tool', slug: 'mathe-arbeitsblatt-ersteller', anchorText: 'Mathe-Arbeitsblatt-Ersteller ausprobieren' },
+    { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Leitfaden: Mathe-Arbeitsblätter auf Etsy verkaufen' },
+    { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher auf Amazon KDP' },
+    { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: 'Arbeitsblätter erstellen, die sich verkaufen' },
+    { pageType: 'idea', slug: 'mathe-grundlagen-druckvorlagen-ideen', anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer' },
   ],
 
   visuals: {

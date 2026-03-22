@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Aprendizagem Visual — Todas as Aplicações Visuais num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-fichas-padroes',
-      anchorText: 'Criador de Fichas de Padrões',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'primeiro-ano-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para primeiro ano',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'segundo-ano-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis para segundo ano',
+    },
+    {
+      pageType: 'start',
+      slug: 'livros-atividades-amazon-kdp',
+      anchorText: 'Publicar livros de atividades na Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-fichas-padroes',
+      anchorText: 'Criar fichas de padrões',
     },
   ],
 

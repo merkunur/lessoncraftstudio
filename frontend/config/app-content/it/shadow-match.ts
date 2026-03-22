@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Abbinamento e Classificazione — Tutte le App di Abbinamento in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-discriminazione-visiva',
-      anchorText: 'Creatore di Schede di Abbinamento Ombre',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
+      pageType: 'idea',
+      slug: 'prescuola-idee-stampabili',
+      anchorText: 'Idee di stampabili per la scuola materna',
     },
     {
       pageType: 'idea',
-      slug: 'dinosauri-idee-stampabili',
-      anchorText: 'Idee di Stampabili di Dinosauri per Schede di Lavoro',
+      slug: 'scuola-infanzia-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'asilo',
+    },
+    {
+      pageType: 'start',
+      slug: 'piano-attivita-stampabili',
+      anchorText: 'Piano per la tua attività di stampabili',
+    },
+    {
+      pageType: 'guide',
+      slug: 'creare-schede-discriminazione-visiva',
+      anchorText: 'Creare schede di discriminazione visiva',
     },
   ],
 

@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Pacote Domínio da Matemática — Todas as Aplicações de Matemática',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-exercicios-matematica',
-      anchorText: 'Gerador de Exercícios de Matemática',
-    },
-    {
       pageType: 'guide',
       slug: 'vender-fichas-matematica-etsy',
       anchorText: 'Guia para Vender Fichas de Matemática na Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'bases-matematica-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de matemática para educadores e vendedores',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'regresso-aulas-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de regresso às aulas',
+    },
+    {
+      pageType: 'start',
+      slug: 'criar-fichas-que-vendem',
+      anchorText: 'Como criar fichas que vendem',
     },
   ],
 

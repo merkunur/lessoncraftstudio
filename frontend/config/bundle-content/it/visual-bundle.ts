@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'pregrafismo-schede', anchorText: 'Generatore Pregrafismo — Dettagli Completi' },
     { pageType: 'app', slug: 'disegni-da-colorare', anchorText: 'Generatore Pagine da Colorare — Dettagli Completi' },
     { pageType: 'app', slug: 'grafici-immagini-schede', anchorText: 'Generatore Grafici con Immagini — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-schede-grande-piccolo', anchorText: 'Prova il Generatore Grande e Piccolo' },
-    { pageType: 'tool', slug: 'generatore-treno-sequenze', anchorText: 'Prova il Generatore Treno delle Sequenze' },
-    { pageType: 'tool', slug: 'generatore-schede-sequenze', anchorText: 'Prova il Generatore Schede Sequenze' },
-    { pageType: 'tool', slug: 'generatore-disegno-griglia', anchorText: 'Prova il Generatore Disegno Griglia' },
-    { pageType: 'tool', slug: 'generatore-schede-pregrafismo', anchorText: 'Prova il Generatore Pregrafismo' },
-    { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Prova il Generatore Pagine da Colorare' },
-    { pageType: 'tool', slug: 'generatore-grafici-immagini', anchorText: 'Prova il Generatore Grafici con Immagini' },
+    { pageType: 'guide', slug: 'creare-pagine-colorare-etsy', anchorText: 'Creare pagine da colorare per Etsy' },
+    { pageType: 'guide', slug: 'creare-schede-disegno', anchorText: 'Creare schede di disegno' },
+    { pageType: 'start', slug: 'attivita-stampabili-etsy', anchorText: 'Avvia la tua attività di stampabili su Etsy' },
+    { pageType: 'idea', slug: 'estate-idee-stampabili', anchorText: 'Idee di stampabili estivi per bambini' },
   ],
 
   visuals: {

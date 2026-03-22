@@ -233,14 +233,24 @@ const content: AppContent = {
       anchorText: 'Suchen-und-Finden-Paket — Alle Such-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'schatzsuche-ersteller',
-      anchorText: 'Schatzsuche-Arbeitsblatt-Ersteller',
+      pageType: 'idea',
+      slug: 'camping-druckvorlagen-ideen',
+      anchorText: 'Camping-Druckvorlagen-Ideen für Outdoor-Lernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'meerestiere-druckvorlagen-ideen',
+      anchorText: 'Meerestiere-Druckvorlagen-Ideen für maritime Themen',
     },
     {
       pageType: 'start',
-      slug: 'komplettanleitung-druckvorlagen-geschaeft',
-      anchorText: 'Die Komplettanleitung für Ihr Druckvorlagen-Geschäft',
+      slug: 'marketing-druckvorlagen-geschaeft',
+      anchorText: 'Marketing für Ihr Druckvorlagen-Geschäft',
+    },
+    {
+      pageType: 'guide',
+      slug: 'schatzsuche-arbeitsblaetter-erstellen',
+      anchorText: 'Schatzsuche-Arbeitsblätter erstellen',
     },
   ],
 

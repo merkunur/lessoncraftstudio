@@ -234,24 +234,24 @@ const content: AppContent = {
       anchorText: 'Kit de Puzzles y Lógica — Los 4 Generadores de Puzzles en Un Paquete',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-fichas-intruso',
-      anchorText: 'Generador de Fichas del Intruso',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completa-negocio-imprimibles',
-      anchorText: 'La Guía Completa para Iniciar un Negocio de Imprimibles',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-fichas-intruso',
       anchorText: 'Cómo Crear Fichas del Intruso que se Vendan',
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja para Fichas',
+      slug: 'primer-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para primer grado',
+    },
+    {
+      pageType: 'idea',
+      slug: 'segundo-grado-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para segundo grado',
+    },
+    {
+      pageType: 'start',
+      slug: 'libros-actividades-amazon-kdp',
+      anchorText: 'Publicar libros de actividades en Amazon KDP',
     },
   ],
 

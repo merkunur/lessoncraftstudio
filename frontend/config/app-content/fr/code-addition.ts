@@ -224,11 +224,6 @@ const content: AppContent = {
       anchorText: 'Pack Maîtrise des Maths — Toutes les Applications de Maths',
     },
     {
-      pageType: 'tool',
-      slug: 'generateur-addition-codee',
-      anchorText: 'Créateur d\'Addition Codée',
-    },
-    {
       pageType: 'guide',
       slug: 'creer-fiches-addition',
       anchorText: 'Comment Créer des Fiches d\'Addition qui se Vendent',
@@ -239,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Guide pour Vendre des Fiches de Maths sur Etsy',
     },
     {
-      pageType: 'start',
-      slug: 'guide-complet-activite-imprimables',
-      anchorText: 'Le Guide Complet pour Lancer une Activité d\'Imprimables',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosaures-idees-imprimables',
-      anchorText: 'Idées d\'Imprimables Dinosaures pour Enfants',
-    },
-    {
       pageType: 'idea',
       slug: 'espace-idees-imprimables',
       anchorText: 'Idées d\'Imprimables Espace pour Fiches Éducatives',
+    },
+    {
+      pageType: 'idea',
+      slug: 'bases-maths-idees-imprimables',
+      anchorText: 'Idées d\'imprimables de faits mathématiques',
+    },
+    {
+      pageType: 'idea',
+      slug: 'rentree-scolaire-idees-imprimables',
+      anchorText: 'Idées d\'imprimables rentrée scolaire',
+    },
+    {
+      pageType: 'start',
+      slug: 'creer-fiches-qui-se-vendent',
+      anchorText: 'Créer des fiches qui se vendent',
     },
   ],
 

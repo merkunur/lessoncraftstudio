@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Cerca e Trova — Tutte le App di Ricerca in Un Unico Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-caccia-tesoro',
-      anchorText: 'Creatore di Schede Caccia al Tesoro',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un\'Attività di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-caccia-tesoro',
       anchorText: 'Come Creare Schede Caccia al Tesoro Che Vendono',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campeggio-idee-stampabili',
+      anchorText: 'Idee di stampabili per campeggio e attività all\'aperto',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animali-marini-idee-stampabili',
+      anchorText: 'Idee di stampabili di animali marini',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-attivita-stampabili',
+      anchorText: 'Marketing per la tua attività di stampabili',
     },
   ],
 

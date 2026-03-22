@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacchetto Abbinamento e Classificazione — Tutte le App di Classificazione in un Pacchetto',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-classificazione-immagini',
-      anchorText: 'Generatore di Schede di Classificazione Immagini',
-    },
-    {
-      pageType: 'start',
-      slug: 'guida-completa-attivita-stampabili',
-      anchorText: 'La Guida Completa per Avviare un Business di Stampabili',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-classificazione',
       anchorText: 'Come Creare Schede di Classificazione che Vendono',
+    },
+    {
+      pageType: 'idea',
+      slug: 'campeggio-idee-stampabili',
+      anchorText: 'Idee di stampabili per campeggio e attività all\'aperto',
+    },
+    {
+      pageType: 'idea',
+      slug: 'animali-marini-idee-stampabili',
+      anchorText: 'Idee di stampabili di animali marini',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-attivita-stampabili',
+      anchorText: 'Marketing per la tua attività di stampabili',
     },
   ],
 

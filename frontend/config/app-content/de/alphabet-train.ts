@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Lese- & Sprach-Paket — Alle Sprach-Apps in einem Paket',
     },
     {
-      pageType: 'tool',
-      slug: 'alphabet-zug-ersteller',
-      anchorText: 'Alphabet-Zug-Arbeitsblatt-Ersteller',
-    },
-    {
       pageType: 'guide',
       slug: 'alphabet-arbeitsblaetter-erstellen',
       anchorText: 'Leitfaden: Alphabet-Arbeitsblätter erstellen, die sich verkaufen',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'bauernhoftiere-druckvorlagen-ideen',
-      anchorText: 'Bauernhoftiere-Druckvorlagen-Ideen für Arbeitsblätter',
+      slug: 'daf-druckvorlagen-ideen',
+      anchorText: 'ESL-Druckvorlagen-Ideen für Sprachenlernen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'heimunterricht-druckvorlagen-ideen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
     },
   ],
 

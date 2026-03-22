@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Pacchetto Lettura e Linguaggio — Tutte le App di Lettere',
     },
     {
-      pageType: 'tool',
-      slug: 'generatore-schede-preposizioni',
-      anchorText: 'Generatore di Schede di Preposizioni',
-    },
-    {
       pageType: 'guide',
       slug: 'creare-schede-preposizioni',
       anchorText: 'Guida per Creare Schede di Preposizioni che Vendono',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animali-fattoria-idee-stampabili',
-      anchorText: 'Idee di Stampabili sugli Animali della Fattoria',
+      slug: 'italiano-l2-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'apprendimento delle lingue',
+    },
+    {
+      pageType: 'idea',
+      slug: 'istruzione-domiciliare-idee-stampabili',
+      anchorText: 'Idee di stampabili per l\'istruzione a casa',
     },
   ],
 

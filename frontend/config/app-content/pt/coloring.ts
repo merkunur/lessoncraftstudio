@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Pacote Aprendizagem Visual — Todas as Aplicações Visuais num Pacote',
     },
     {
-      pageType: 'tool',
-      slug: 'gerador-paginas-colorir',
-      anchorText: 'Criador de Páginas para Colorir',
-    },
-    {
-      pageType: 'start',
-      slug: 'guia-completo-negocio-imprimiveis',
-      anchorText: 'O Guia Completo para Iniciar um Negócio de Imprimíveis',
+      pageType: 'idea',
+      slug: 'verao-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de verão para crianças',
     },
     {
       pageType: 'idea',
-      slug: 'animais-fazenda-ideias-imprimiveis',
-      anchorText: 'Ideias de Imprimíveis de Animais da Quinta',
+      slug: 'natal-ideias-imprimiveis',
+      anchorText: 'Ideias de imprimíveis de Natal para vendas sazonais',
+    },
+    {
+      pageType: 'start',
+      slug: 'negocio-imprimiveis-etsy',
+      anchorText: 'Lance seu negócio de imprimíveis na Etsy',
+    },
+    {
+      pageType: 'guide',
+      slug: 'criar-paginas-colorir',
+      anchorText: 'Criar páginas de colorir que vendem',
     },
   ],
 

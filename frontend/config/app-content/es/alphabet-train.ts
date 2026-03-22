@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Paquete Lectura y Lenguaje — Todas las Aplicaciones de Letras',
     },
     {
-      pageType: 'tool',
-      slug: 'generador-tren-abecedario',
-      anchorText: 'Generador de Fichas Tren del Abecedario',
-    },
-    {
       pageType: 'guide',
       slug: 'crear-fichas-abecedario',
       anchorText: 'Guía para Crear Fichas de Abecedario que se Venden',
@@ -250,8 +245,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'animales-granja-ideas-imprimibles',
-      anchorText: 'Ideas de Imprimibles de Animales de Granja',
+      slug: 'ele-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles ESL para aprendizaje de idiomas',
+    },
+    {
+      pageType: 'idea',
+      slug: 'educacion-en-casa-ideas-imprimibles',
+      anchorText: 'Ideas de imprimibles para educación en casa',
     },
   ],
 

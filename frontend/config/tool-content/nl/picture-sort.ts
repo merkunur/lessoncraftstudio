@@ -15,7 +15,7 @@ const content: ToolContent = {
       'geschud uitknipraster sorteeractiviteit creator tool',
     ],
     titleTag: 'Sorteer Werkblad Maker — Sorteer Werkblad Generator',
-    metaDescription: 'Maak sorteer werkbladen met twee-categorieën themamodus, geschudde uitkniprasters, automatische antwoordbladen en 104 thematische beeldcollecties. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak sorteer werkbladen met twee-categorieën themamodus, geschudde uitkniprasters, automatische antwoordbladen en 104 thematische beeldcollecties.',
   },
 
   hero: {

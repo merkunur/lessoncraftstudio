@@ -149,8 +149,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen via Gumroad' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoekers maken met de generator' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'kleurplaten maken en verkopen' },
-    { pageType: 'guide', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een winstgevend printable bedrijf' },
-    { pageType: 'guide', slug: 'commercial-license-guide', anchorText: 'commerciële licentie voor printable verkoop' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een winstgevend printable bedrijf' },
+    { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'commerciële licentie voor printable verkoop' },
   ],
 
   toolsRecommended: [

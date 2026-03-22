@@ -14,9 +14,9 @@ const content: AppContent = {
       'commercieel gebruik verborgen voorwerp werkblad generator',
       'printbare telactiviteit business tools',
     ],
-    titleTag: 'Ik Zie Ik Zie Werkblad Generator | Maak & Verkoop Zoek en Tel Printables',
+    titleTag: 'Ik Zie Ik Zie Generator | Zoek en Tel Printables Maken',
     metaDescription:
-      'Maak ik zie ik zie telwerkbladen om te verkopen op Etsy, KDP & TPT. 4 taaktypen, letterherkenning, automatisch antwoordblad, 104 thema\'s, 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak ik zie ik zie telwerkbladen om te verkopen op Etsy, KDP & TPT. 4 taaktypen, letterherkenning, automatisch antwoordblad, 104 thema\'s, 11 talen.',
   },
 
   hero: {

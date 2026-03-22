@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik lijnen trekken werkbladen generator',
     ],
     titleTag: 'Lijnen Trekken Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en TPT. Acht SVG-lijnsjablonen, afbeeldingsparen, 104 kleurrijke thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en TPT. Acht SVG-lijnsjablonen, afbeeldingsparen, 104 kleurrijke thema\'s.',
   },
 
   hero: {

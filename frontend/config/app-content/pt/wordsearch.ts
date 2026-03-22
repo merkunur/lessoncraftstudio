@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Caça-Palavras | Criar e Vender',
     metaDescription:
-      'Crie fichas de caça-palavras para vender na Etsy, KDP e TPT. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma. Teste grátis com marca d\'água.',
+      'Crie fichas de caça-palavras para vender na Etsy, KDP e TPT. Grelha 5×5 a 30×30, direções diagonais, letras adaptadas ao idioma.',
   },
 
   hero: {

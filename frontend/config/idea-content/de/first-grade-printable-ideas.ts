@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Lehrplan-Arbeitsblätter Grundschule Etsy-Markt',
     ],
     titleTag: 'Erste-Klasse-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Erste-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und Lernmaterialien erklärt.',
+    metaDescription: 'Erste-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und Lernmaterialien.',
   },
   hero: {
     title: 'Erste-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer',

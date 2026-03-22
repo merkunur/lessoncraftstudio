@@ -18,7 +18,7 @@ const content: StartContent = {
       'multiple revenue streams printable products',
     ],
     titleTag: 'How Much Can You Make Selling Printables?',
-    metaDescription: 'How much can you make selling printables? Realistic income expectations, platform fee structures, pricing strategies, and the variables that determine earnings.',
+    metaDescription: 'How much can you make selling printables? Realistic income expectations, platform fee structures, pricing strategies, and the variables that determine.',
   },
 
   hero: {

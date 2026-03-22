@@ -18,7 +18,7 @@ const content: GuideContent = {
       'TPT analytics seasonal planning data-driven catalog scaling strategy',
     ],
     titleTag: 'TPT Store Optimization Guide — Sell More Resources',
-    metaDescription: 'TPT store optimization strategies for higher search rankings and more sales. Covers preview conversion, product bundling, review building, and catalog scaling.',
+    metaDescription: 'TPT store optimization strategies for higher search rankings and more sales. Covers preview conversion, product bundling, review building, and catalog.',
   },
 
   hero: {

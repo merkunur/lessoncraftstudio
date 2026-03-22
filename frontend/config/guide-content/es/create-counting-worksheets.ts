@@ -18,7 +18,7 @@ const content: GuideContent = {
       'generador de gráficos pictóricos con licencia comercial',
     ],
     titleTag: 'Crear fichas de conteo y gráficos — Guía paso a paso',
-    metaDescription: 'Cómo crear fichas de conteo con gráficos pictóricos, claves de respuestas automáticas y 104 temas. Guía paso a paso para vender imprimibles en Etsy, KDP y TpT.',
+    metaDescription: 'Cómo crear fichas de conteo con gráficos pictóricos, claves de respuestas automáticas y 104 temas. Guía paso a paso para vender imprimibles en Etsy, KDP y.',
   },
 
   hero: {

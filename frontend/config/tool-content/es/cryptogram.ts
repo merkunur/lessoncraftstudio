@@ -15,7 +15,7 @@ const content: ToolContent = {
       'criptogramas multilingües con imágenes temáticas',
     ],
     titleTag: 'Generador de Criptogramas | Crear y Vender',
-    metaDescription: 'Genera criptogramas con cifrado de imágenes, control de dificultad, asignación automática, claves de respuesta en 11 idiomas. Prueba gratuita con marca de agua.',
+    metaDescription: 'Genera criptogramas con cifrado de imágenes, control de dificultad, asignación automática, claves de respuesta en 11 idiomas. Prueba gratuita con marca de.',
   },
 
   hero: {

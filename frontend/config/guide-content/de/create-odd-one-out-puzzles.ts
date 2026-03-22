@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Was-passt-nicht-Tool',
     ],
     titleTag: 'Was-passt-nicht-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration und Lösungsschlüssel. Rein visuelles Format für Etsy und KDP.',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration und Lösungsschlüssel. Rein visuelles Format für Etsy.',
   },
 
   hero: {

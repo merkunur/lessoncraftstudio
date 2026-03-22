@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie kleurtool',
     ],
     titleTag: 'Kleurplaten Maken van Thema-Afbeeldingen — Gids',
-    metaDescription: 'Ontdek hoe je kleurplaten maakt van 3.100+ thema-afbeeldingen. Vrij canvas met grijswaarden-export, vrijhandtekenen en klastools. Verkoop op Etsy en Amazon KDP.',
+    metaDescription: 'Ontdek hoe je kleurplaten maakt van 3.100+ thema-afbeeldingen. Vrij canvas met grijswaarden-export, vrijhandtekenen en klastools.',
   },
 
   hero: {

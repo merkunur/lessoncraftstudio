@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias de Imprimíveis de Animais de Estimação — Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de animais de estimação para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos de cães, gatos e animais com estratégias.',
+    metaDescription: 'Ideias lucrativas de imprimíveis de animais de estimação para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos de cães, gatos e animais com.',
 
     primaryKeyword: 'ideias de imprimíveis de animais de estimação',
     secondaryKeywords: [

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy printable winkel lanceringstrategie eerste 30 dagen groeiplan',
     ],
     titleTag: 'Etsy Printable Shop Starten vanaf Nul — Gids',
-    metaDescription: 'Leer hoe je een Etsy printable shop start vanaf nul met 33 generatoren. Winkelinrichting, branding, vermeldingsoptimalisatie, prijsstelling, Etsy-kosten en 30-dagenplan.',
+    metaDescription: 'Leer hoe je een Etsy printable shop start vanaf nul met 33 generatoren. Winkelinrichting, branding, vermeldingsoptimalisatie, prijsstelling, Etsy-kosten.',
   },
 
   hero: {

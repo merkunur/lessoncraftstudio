@@ -18,7 +18,7 @@ const content: GuideContent = {
       'formaatselectie bedrijfsmodelvergelijking verkoopstrategie groeipad',
     ],
     titleTag: 'Digitaal of Fysiek Printables Verkopen — Gids',
-    metaDescription: 'Digitale versus fysieke printables vergelijken voor verkopers. Behandelt winstmarges, schaalbaarheid, afhandeling en het kiezen van het juiste formaat voor je bedrijf.',
+    metaDescription: 'Digitale versus fysieke printables vergelijken voor verkopers. Behandelt winstmarges, schaalbaarheid, afhandeling en het kiezen van het juiste formaat.',
   },
 
   hero: {

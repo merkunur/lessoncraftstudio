@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Fiches de Soustraction | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de soustraction pour Etsy, KDP et TPT. 4 modes avec visualisation barrée, 104 thèmes, corrigés, export 400+ DPI. Essai gratuit avec filigrane.',
+      'Créez des fiches de soustraction pour Etsy, KDP et TPT. 4 modes avec visualisation barrée, 104 thèmes, corrigés, export 400+ DPI.',
   },
 
   hero: {

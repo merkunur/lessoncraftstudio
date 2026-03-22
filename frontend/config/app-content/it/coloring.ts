@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Pagine da Colorare | Crea e Vendi Stampabili',
     metaDescription:
-      'Crea pagine da colorare per Etsy, KDP e TPT. Canvas a forma libera, 104 temi, disegno a mano libera, esportazione scala di grigi. Prova gratuita con filigrana.',
+      'Crea pagine da colorare per Etsy, KDP e TPT. Canvas a forma libera, 104 temi, disegno a mano libera, esportazione scala di grigi.',
   },
 
   hero: {

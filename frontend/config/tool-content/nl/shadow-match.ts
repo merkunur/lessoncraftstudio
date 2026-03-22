@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad schaduwpuzzel werkblad generator',
     ],
     titleTag: 'Schaduw Koppelen Maker — Schaduw Matching Werkblad Generator',
-    metaDescription: 'Maak schaduw koppelen werkbladen met pixelniveau silhouetten en Maak het Compleet beeldsplitsing, automatische antwoordbladen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak schaduw koppelen werkbladen met pixelniveau silhouetten en Maak het Compleet beeldsplitsing, automatische antwoordbladen, 104 thema\'s.',
   },
 
   hero: {

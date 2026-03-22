@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil fiches avec licence commerciale',
     ],
     titleTag: 'Créer des fiches de soustraction — Guide étape par étape',
-    metaDescription: 'Créez des fiches de soustraction pour enfants avec images barrées, visuels thématiques et corrigés automatiques. Guide complet pour vendre sur Etsy, KDP et TpT.',
+    metaDescription: 'Créez des fiches de soustraction pour enfants avec images barrées, visuels thématiques et corrigés automatiques. Guide complet pour vendre sur Etsy, KDP.',
   },
 
   hero: {

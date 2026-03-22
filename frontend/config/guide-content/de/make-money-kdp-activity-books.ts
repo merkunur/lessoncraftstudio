@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP Berichte Leistungsverfolgung Umsatz pro Titel Analyse',
     ],
     titleTag: 'Geld verdienen mit KDP Aktivitätsbüchern — Umsatz-Leitfaden',
-    metaDescription: 'Mit KDP-Aktivitätsbüchern Geld verdienen. Preis-, Katalog- und Tantieme-Strategien, Umsatzrechnung und saisonales Timing. Skalierung für ambitionierte Verleger.',
+    metaDescription: 'Mit KDP-Aktivitätsbüchern Geld verdienen. Preis-, Katalog- und Tantieme-Strategien, Umsatzrechnung und saisonales Timing. Skalierung für ambitionierte.',
   },
 
   hero: {

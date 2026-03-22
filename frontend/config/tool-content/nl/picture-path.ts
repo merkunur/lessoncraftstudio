@@ -14,8 +14,8 @@ const content: ToolContent = {
       'LPF langste pad eerst algoritme wandgebaseerde doolhof creator',
       'automatisch antwoordblad roze cirkel oplossingspad doolhof generator',
     ],
-    titleTag: 'Plaatjespad Maker — Doolhof Werkblad Generator voor Verkopers',
-    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad modi, verzamelobjecten en automatische antwoordbladen. Gratis proefversie — licentie beschikbaar.',
+    titleTag: 'Plaatjespad Maker — Doolhof Werkblad Generator',
+    metaDescription: 'Maak doolhof werkbladen met Afbeeldingspad, Klassiek Doolhof en Kies het Juiste Pad modi, verzamelobjecten en automatische antwoordbladen.',
   },
 
   hero: {

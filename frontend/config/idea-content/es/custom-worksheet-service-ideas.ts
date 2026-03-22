@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Servicio Fichas Personalizadas para Vender — Guía',
-    metaDescription: 'Ideas de negocio de servicio de fichas personalizadas para vendedores de Etsy y freelance. Ofrece fichas educativas a medida con estrategias de precios premium.',
+    metaDescription: 'Ideas de negocio de servicio de fichas personalizadas para vendedores de Etsy y freelance. Ofrece fichas educativas a medida con estrategias de precios.',
     primaryKeyword: 'servicio fichas personalizadas',
     secondaryKeywords: [
       'ideas negocio fichas personalizadas',

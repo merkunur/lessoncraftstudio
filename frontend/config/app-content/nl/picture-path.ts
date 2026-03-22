@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Doolhof Werkblad Generator | Maak & Verkoop Pad-Printables',
     metaDescription:
-      'Maak doolhof werkbladen om te verkopen op Etsy, KDP & TPT. 3 spelmodi, LPF-algoritme, automatisch antwoordblad, 104 thema\'s, printklare PDF\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak doolhof werkbladen om te verkopen op Etsy, KDP & TPT. 3 spelmodi, LPF-algoritme, automatisch antwoordblad, 104 thema\'s, printklare PDF\'s.',
   },
 
   hero: {

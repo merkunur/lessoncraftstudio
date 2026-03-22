@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk zoek en vind werkblad creatie tool',
     ],
     titleTag: 'Zoeken en Vinden Werkbladen Bundel — 4 Generators',
-    metaDescription: 'Zoek en vind werkbladen bundel met 4 generators: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Verkoop op Etsy, KDP, TPT. Commerciële licentie.',
+    metaDescription: 'Zoek en vind werkbladen bundel met 4 generators: ik zie ik zie, verborgen voorwerpen, kruiswoordpuzzels en schattenjachten. Verkoop op Etsy, KDP, TPT.',
   },
 
   hero: {

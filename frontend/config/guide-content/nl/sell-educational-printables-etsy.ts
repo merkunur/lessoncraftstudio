@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy vermeldingsfoto mockups voor educatieve printable producten',
     ],
     titleTag: 'Educatieve Printables Verkopen op Etsy — Gids',
-    metaDescription: 'Educatieve printables verkopen op Etsy met 33 generatoren in 6 categorieën. Winkelstrategie, Etsy-SEO, cross-categorie bundeling en prijsstelling voor verkopers.',
+    metaDescription: 'Educatieve printables verkopen op Etsy met 33 generatoren in 6 categorieën. Winkelstrategie, Etsy-SEO, cross-categorie bundeling en prijsstelling voor.',
   },
 
   hero: {
@@ -155,7 +155,7 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Hoe Woordzoeker Werkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Hoe Etsy Kleurplaten Maken die Verkopen' },
     { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Shop Starten vanuit Niets' },

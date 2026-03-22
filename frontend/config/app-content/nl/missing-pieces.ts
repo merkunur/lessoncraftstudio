@@ -14,9 +14,9 @@ const content: AppContent = {
       'commercieel gebruik visuele puzzel generator',
       'printbare legpuzzel activiteit business tools',
     ],
-    titleTag: 'Ontbrekende Stukjes Generator | Maak & Verkoop Visuele Puzzels',
+    titleTag: 'Ontbrekende Stukjes Generator | Maak Visuele Puzzels',
     metaDescription:
-      'Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & TPT. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & TPT. 6 stukvormen, instelbare moeilijkheid, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {

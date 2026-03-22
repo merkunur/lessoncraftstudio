@@ -15,7 +15,7 @@ const content: ToolContent = {
       'creatore schede disegno modalità simmetria specchio',
     ],
     titleTag: 'Generatore Schede Disegno su Griglia | Crea e Vendi',
-    metaDescription: 'Genera schede disegno su griglia con griglia duale, percentuale indizi regolabile, tre modalità simmetria e temi in bianco e nero. Prova gratuita con filigrana.',
+    metaDescription: 'Genera schede disegno su griglia con griglia duale, percentuale indizi regolabile, tre modalità simmetria e temi in bianco e nero.',
   },
 
   hero: {

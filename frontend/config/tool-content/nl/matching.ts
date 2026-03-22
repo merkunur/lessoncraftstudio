@@ -15,7 +15,7 @@ const content: ToolContent = {
       'beginletter afbeelding woord koppelen maker',
     ],
     titleTag: 'Koppelwerkblad Generator — Trek-een-Lijn Maker',
-    metaDescription: 'Maak koppelwerkbladen met 4 modi, automatisch antwoordblad met verbindingslijnen, instelbare paren, 11 talen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak koppelwerkbladen met 4 modi, automatisch antwoordblad met verbindingslijnen, instelbare paren, 11 talen, 104 thema\'s. Gratis proefversie — licentie.',
   },
 
   hero: {

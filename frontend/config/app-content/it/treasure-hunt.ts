@@ -15,7 +15,7 @@ const content: AppContent = {
       'strumenti business puzzle percorso stampabili',
     ],
     titleTag: 'Generatore Caccia al Tesoro | Crea Schede Percorso',
-    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy, KDP e TPT. Griglia coordinate 5×5, due tipi di direzioni, chiave risposte automatica, 104 temi. Prova gratuita.',
+    metaDescription: 'Crea schede caccia al tesoro da vendere su Etsy, KDP e TPT. Griglia coordinate 5×5, due tipi di direzioni, chiave risposte automatica, 104 temi.',
   },
 
   hero: {

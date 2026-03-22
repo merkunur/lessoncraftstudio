@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'ozean-druckvorlagen-ideen',
+      slug: 'ocean-animals-printable-ideas',
       anchorText: 'Ozean-Druckvorlagen-Ideen für Arbeitsblätter',
     },
     {

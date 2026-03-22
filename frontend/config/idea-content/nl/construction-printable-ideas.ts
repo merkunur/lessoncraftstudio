@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Bouwplaats Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende bouwplaats printable ideeën om te verkopen op Etsy, Amazon KDP en TPT. Bouwvoertuig en gereedschap productconcepten en tips voor verkopers.',
+    metaDescription: 'Ontdek winstgevende bouwplaats printable ideeën om te verkopen op Etsy, Amazon KDP en TPT. Bouwvoertuig en gereedschap productconcepten en tips voor.',
 
     primaryKeyword: 'bouwplaats printable ideeën',
     secondaryKeywords: [

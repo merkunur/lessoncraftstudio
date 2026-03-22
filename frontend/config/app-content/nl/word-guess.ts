@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Woordraadsel Generator | Maak Woordenschat Puzzels',
     metaDescription:
-      'Maak woordraadsel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingsaanwijzingen, 4 moeilijkheidsniveaus, 3 inhoudsbronnen, 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak woordraadsel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingsaanwijzingen, 4 moeilijkheidsniveaus, 3 inhoudsbronnen, 11 talen.',
   },
 
   hero: {

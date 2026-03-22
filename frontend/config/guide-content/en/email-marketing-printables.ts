@@ -18,7 +18,7 @@ const content: GuideContent = {
       'content calendar email analytics A/B testing personalization tags',
     ],
     titleTag: 'Email Marketing Printables — Seller Strategy',
-    metaDescription: 'Email marketing strategies for printable sellers. Build your subscriber list, create lead magnets, automate sequences, and drive repeat sales across platforms.',
+    metaDescription: 'Email marketing strategies for printable sellers. Build your subscriber list, create lead magnets, automate sequences, and drive repeat sales across.',
   },
 
   hero: {

@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['printable niche onderzoek', 'winstgevende printable niches', 'niche kiezen printables', 'werkblad niche strategie'],
     lsiKeywords: ['doelgroep analyse printables', 'marktonderzoek educatieve producten', 'concurrentie analyse Etsy printables', 'seizoensgebonden printable niches', 'evergreen werkblad categorieën', 'niche validatie digitale producten'],
     titleTag: 'Niche Selectie voor Printable Bedrijven — Gids',
-    metaDescription: 'Ontdek hoe je de juiste niche kiest voor je printable bedrijf. Leer marktonderzoek, concurrentie-analyse en validatietechnieken om winstgevende printable niches te vinden.',
+    metaDescription: 'Ontdek hoe je de juiste niche kiest voor je printable bedrijf. Leer marktonderzoek, concurrentie-analyse en validatietechnieken om winstgevende printable.',
   },
   hero: {
     title: 'Niche Selectie Gids voor Printable Bedrijven',

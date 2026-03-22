@@ -14,9 +14,9 @@ const content: AppContent = {
       'commercieel gebruik visuele discriminatie werkblad generator',
       'printbare vind het verschil puzzel business tools',
     ],
-    titleTag: 'Welke Hoort Er Niet Bij Generator | Maak & Verkoop Werkbladen',
+    titleTag: 'Welke Hoort Er Niet Bij Generator | Maak Werkbladen',
     metaDescription:
-      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy, KDP & TPT. Twee puzzelmodi, automatisch antwoordblad met rode cirkels, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak welke hoort er niet bij werkbladen om te verkopen op Etsy, KDP & TPT. Twee puzzelmodi, automatisch antwoordblad met rode cirkels, 104 thema\'s.',
   },
 
   hero: {
@@ -235,8 +235,8 @@ const content: AppContent = {
       anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
     },
     {
-      pageType: 'guide',
-      slug: 'wat-hoort-er-niet-bij-maken',
+      pageType: 'app',
+      slug: 'odd-one-out',
       anchorText: 'Hoe Je Welke Hoort Er Niet Bij Puzzels Maakt die Verkopen',
     },
     {

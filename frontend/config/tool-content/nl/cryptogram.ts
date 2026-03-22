@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige plaatjes cryptogram maker',
     ],
     titleTag: 'Cryptogram Werkblad Maker | Maak & Verkoop Puzzels',
-    metaDescription: 'Genereer cryptogram werkbladen met plaatjescijfer-codering, moeilijkheidsschuifregelaar, automatische toewijzing, antwoordbladen in 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer cryptogram werkbladen met plaatjescijfer-codering, moeilijkheidsschuifregelaar, automatische toewijzing, antwoordbladen in 11 talen.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
       'kommerzieller Buchstabensalat-Generator Rechtschreibtraining',
     ],
     titleTag: 'Buchstabensalat-Generator | Buchstaben-Rätsel',
-    metaDescription: 'Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Buchstabenplättchen, Vokal-Farbcodierung, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Buchstabenplättchen, Vokal-Farbcodierung, 11 Sprachen. Kostenlos testen mit.',
   },
 
   hero: {

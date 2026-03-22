@@ -18,7 +18,7 @@ const content: GuideContent = {
       'creative choices expression versus ideas facts standard methods educational content',
     ],
     titleTag: 'Copyright Printable Sellers — Basics Guide',
-    metaDescription: 'Understand the copyright printable sellers need to know: what worksheet elements are protectable, registration benefits, enforcement, and avoiding infringement.',
+    metaDescription: 'Understand the copyright printable sellers need to know: what worksheet elements are protectable, registration benefits, enforcement, and avoiding.',
   },
 
   hero: {

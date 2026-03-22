@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Puzzles Maths | Créer et Vendre',
     metaDescription:
-      'Créez des fiches puzzles maths à vendre sur Etsy, KDP et TPT. Puzzles images avec addition et soustraction, grilles configurables. Essai gratuit avec filigrane.',
+      'Créez des fiches puzzles maths à vendre sur Etsy, KDP et TPT. Puzzles images avec addition et soustraction, grilles configurables.',
   },
 
   hero: {

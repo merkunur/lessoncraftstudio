@@ -18,7 +18,7 @@ const content: GuideContent = {
       'listing optimization expectation setting buyer communication post-purchase experience',
     ],
     titleTag: 'Get Reviews Printable Products — Seller Guide',
-    metaDescription: 'Proven strategies to get reviews for printable products. Build social proof, earn authentic buyer feedback, and boost your Etsy, KDP, and TpT shop credibility.',
+    metaDescription: 'Proven strategies to get reviews for printable products. Build social proof, earn authentic buyer feedback, and boost your Etsy, KDP, and TpT shop.',
   },
 
   hero: {

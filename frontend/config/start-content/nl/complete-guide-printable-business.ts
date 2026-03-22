@@ -18,7 +18,7 @@ const content: StartContent = {
       'commerciële licentie printable tools',
     ],
     titleTag: 'Hoe Een Printable Bedrijf Starten — Complete Gids',
-    metaDescription: 'Hoe je een printable bedrijf start vanaf nul. Stapsgewijze gids voor Etsy, Amazon KDP en TPT verkopers die werkblad generators gebruiken om producten te maken en te verkopen.',
+    metaDescription: 'Hoe je een printable bedrijf start vanaf nul. Stapsgewijze gids voor Etsy, Amazon KDP en TPT verkopers die werkblad generators gebruiken om producten te.',
   },
 
   hero: {

@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken Activiteitenboeken voor Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'grafiek-tellen-werkbladen', anchorText: 'Grafiek Tellen Werkblad Generator — Alle Details' },
+    { pageType: 'app', slug: 'chart-count-color', anchorText: 'Grafiek Tellen Werkblad Generator — Alle Details' },
     { pageType: 'guide', slug: 'groottevergelijking-werkbladen-maken', anchorText: 'Groot & Klein Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'grafiek-tellen-maker', anchorText: 'Probeer de Grafiek Tellen Maker' },
+    { pageType: 'tool', slug: 'chart-count', anchorText: 'Probeer de Grafiek Tellen Maker' },
   ],
 
   toolsRecommended: [

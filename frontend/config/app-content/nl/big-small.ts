@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik groot klein werkbladen generator',
     ],
     titleTag: 'Groot & Klein Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en TPT. Vijf vraagtypen, identieke en verschillende modi, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en TPT. Vijf vraagtypen, identieke en verschillende modi, 104 thema\'s.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: AppContent = {
       'kommerzieller Muster-Vervollständigungs-Arbeitsblatt-Generator',
     ],
     titleTag: 'Muster-Raster-Generator | Muster-Arbeitsblätter',
-    metaDescription: 'Muster-Raster-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Neun Mustertypen, zwei Fragemodi, 104 Themen. Kostenlos testen mit Wasserzeichen verfügbar.',
+    metaDescription: 'Muster-Raster-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Neun Mustertypen, zwei Fragemodi, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

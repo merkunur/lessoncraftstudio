@@ -15,7 +15,7 @@ const content: ToolContent = {
       'mehrsprachiger Buchstabengitter-Generator',
     ],
     titleTag: 'Wörter-Raten-Generator | Rechtschreib-Übungen',
-    metaDescription: 'Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen und dualem Eingabemodus erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
+    metaDescription: 'Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen und dualem Eingabemodus erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

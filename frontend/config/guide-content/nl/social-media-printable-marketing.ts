@@ -18,7 +18,7 @@ const content: GuideContent = {
       'social media analytics conversie optimalisatie printable verkoop',
     ],
     titleTag: 'Social Media Marketing voor Printable Verkopers — Gids',
-    metaDescription: 'Social media marketing voor printable verkopers: Instagram, Facebook, TikTok strategieën. Leer hoe je werkbladen en educatieve printables promoot en meer verkoopt via social media.',
+    metaDescription: 'Social media marketing voor printable verkopers: Instagram, Facebook, TikTok strategieën. Leer hoe je werkbladen en educatieve printables promoot en meer.',
   },
 
   hero: {

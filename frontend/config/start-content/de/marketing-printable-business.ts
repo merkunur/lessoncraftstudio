@@ -18,7 +18,7 @@ const content: StartContent = {
       'Content-Marketing für Druckvorlagen-Unternehmer',
     ],
     titleTag: 'Druckvorlagen vermarkten — Verkäufer-Leitfaden',
-    metaDescription: 'Druckvorlagen online vermarkten: Plattform-SEO, Pinterest-Strategie, E-Mail-Marketing und saisonales Timing. Markenaufbau für Druckvorlagen-Unternehmer erklärt.',
+    metaDescription: 'Druckvorlagen online vermarkten: Plattform-SEO, Pinterest-Strategie, E-Mail-Marketing und saisonales Timing. Markenaufbau für Druckvorlagen-Unternehmer.',
   },
 
   hero: {

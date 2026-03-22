@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Produktpakete Mitgliedschaften Abonnements wiederkehrende Einnahmen Katalog Skalierung',
     ],
     titleTag: 'Druckvorlagen verkaufen auf Gumroad — Leitfaden',
-    metaDescription: 'Druckvorlagen auf Gumroad verkaufen ohne monatliche Gebühren. Storefront-Einrichtung, Preisstrategien, E-Mail-Marketing und direkte Kundenbeziehungen aufbauen.',
+    metaDescription: 'Druckvorlagen auf Gumroad verkaufen ohne monatliche Gebühren. Storefront-Einrichtung, Preisstrategien, E-Mail-Marketing und direkte Kundenbeziehungen.',
   },
 
   hero: {

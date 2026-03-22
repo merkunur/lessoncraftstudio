@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Busca y Encuentra | Crear y Vender',
     metaDescription:
-      'Crea fichas yo espío de busca y cuenta para Etsy, KDP y TPT. 4 tipos de tarea, modo Identificación de Letras, clave de respuesta auto, 104 temas. Prueba gratis.',
+      'Crea fichas yo espío de busca y cuenta para Etsy, KDP y TPT. 4 tipos de tarea, modo Identificación de Letras, clave de respuesta auto, 104 temas.',
   },
 
   hero: {

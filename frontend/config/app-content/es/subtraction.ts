@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Fichas de Resta | Crear y Vender',
     metaDescription:
-      'Crea fichas de resta para vender en Etsy, KDP y TPT. 4 modos con tachado visual, 104 temas, claves incluidas, export 400+ DPI. Prueba gratis con marca de agua.',
+      'Crea fichas de resta para vender en Etsy, KDP y TPT. 4 modos con tachado visual, 104 temas, claves incluidas, export 400+ DPI. Prueba gratis con marca de.',
   },
 
   hero: {

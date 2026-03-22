@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie plaatjesgrafiek maker',
     ],
     titleTag: 'Tel- en Grafiekwerkbladen Maken — Gids',
-    metaDescription: 'Leer tel- en grafiekwerkbladen maken met plaatjesgrafieken, automatische antwoordsleutels en 104 thema\'s. Stap-voor-stap gids voor verkoop op Etsy, KDP en TpT.',
+    metaDescription: 'Leer tel- en grafiekwerkbladen maken met plaatjesgrafieken, automatische antwoordsleutels en 104 thema\'s. Stap-voor-stap gids voor verkoop op Etsy, KDP en.',
   },
 
   hero: {

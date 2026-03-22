@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Unterwasserwelt Ganzjahres-Lernmaterialien',
     ],
     titleTag: 'Unterwasser-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Unterwasser-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ozean-Produktkonzepte und Nischenstrategien für erfolgreiche Druckvorlagen-Verkäufer Arbeitsblatt-Shops.',
+    metaDescription: 'Unterwasser-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ozean-Produktkonzepte und Nischenstrategien für erfolgreiche Druckvorlagen-Verkäufer.',
   },
   hero: {
     title: 'Unterwasser-Druckvorlagen-Geschäftsideen für Verkäufer',

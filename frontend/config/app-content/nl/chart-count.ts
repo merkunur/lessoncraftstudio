@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik plaatjesgrafiek generator',
     ],
     titleTag: 'Telgrafiek Generator | Maak & Verkoop Werkbladen',
-    metaDescription: 'Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en TPT. Automatisch antwoordblad met markeringen, 104 thema\'s, 6 afbeeldingstypen per blad. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en TPT. Automatisch antwoordblad met markeringen, 104 thema\'s, 6 afbeeldingstypen per blad.',
   },
 
   hero: {

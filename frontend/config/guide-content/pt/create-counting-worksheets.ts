@@ -18,7 +18,7 @@ const content: GuideContent = {
       'gerador de gráficos pictóricos com licença comercial',
     ],
     titleTag: 'Criar fichas de contagem e gráficos — Guia passo a passo',
-    metaDescription: 'Como criar fichas de contagem com gráficos pictóricos, chaves de resposta automáticas e 104 temas. Guia passo a passo para vender imprimíveis no Etsy, KDP e TpT',
+    metaDescription: 'Como criar fichas de contagem com gráficos pictóricos, chaves de resposta automáticas e 104 temas. Guia passo a passo para vender imprimíveis no Etsy, KDP.',
   },
 
   hero: {

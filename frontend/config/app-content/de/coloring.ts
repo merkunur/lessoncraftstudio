@@ -15,7 +15,7 @@ const content: AppContent = {
       'kommerzieller Ausmalbilder-Generator mit Graustufen-Export',
     ],
     titleTag: 'Malvorlagen-Generator | Ausmalbilder erstellen',
-    metaDescription: 'Malvorlagen und Ausmalbilder erstellen und auf Etsy, KDP verkaufen. Freie Arbeitsfläche, 104 S/W-Themen, Freihand-Werkzeug. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Malvorlagen und Ausmalbilder erstellen und auf Etsy, KDP verkaufen. Freie Arbeitsfläche, 104 S/W-Themen, Freihand-Werkzeug. Kostenlos testen mit.',
   },
 
   hero: {

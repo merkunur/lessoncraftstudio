@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Zweitklässler-Arbeitsblätter Etsy-Markt',
     ],
     titleTag: 'Zweite-Klasse-Druckvorlagen — Verkäufer-Guide',
-    metaDescription: 'Zweite-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und Arbeitsblatt-Erstellung.',
+    metaDescription: 'Zweite-Klasse-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule und.',
   },
   hero: {
     title: 'Zweite-Klasse-Druckvorlagen — Geschäftsideen für Verkäufer',

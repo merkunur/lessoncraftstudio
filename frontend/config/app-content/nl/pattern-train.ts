@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik patroontrein werkbladen generator',
     ],
     titleTag: 'Patroontrein Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak patroontrein werkbladen om te verkopen op Etsy, KDP en TPT. Vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak patroontrein werkbladen om te verkopen op Etsy, KDP en TPT. Vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen.',
   },
 
   hero: {

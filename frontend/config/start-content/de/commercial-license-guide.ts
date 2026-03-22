@@ -18,7 +18,7 @@ const content: StartContent = {
       'kommerzielle vs persönliche Nutzung Druckvorlagen',
     ],
     titleTag: 'Kommerzielle Lizenz-Leitfaden für Druckvorlagen-Verkäufer',
-    metaDescription: 'Kommerzielle Lizenzen für den Verkauf von Arbeitsblättern auf Etsy, KDP und weiteren Plattformen verstehen. Zwei Stufen mit klaren Rechten und Preisen erklärt.',
+    metaDescription: 'Kommerzielle Lizenzen für den Verkauf von Arbeitsblättern auf Etsy, KDP und weiteren Plattformen verstehen. Zwei Stufen mit klaren Rechten und Preisen.',
   },
 
   hero: {

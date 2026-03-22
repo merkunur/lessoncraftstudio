@@ -18,7 +18,7 @@ const content: GuideContent = {
       'grensoverschrijdende inkomstenstromen platforminternationalisering multimartdistributie',
     ],
     titleTag: 'Meertalig Printable Bedrijf Opbouwen — Gids',
-    metaDescription: 'Bouw een meertalig printable bedrijf door uit te breiden naar internationale markten. Leer welke talen je moet targeten, vertaalworkflows en omzetstrategieën voor verkopers.',
+    metaDescription: 'Bouw een meertalig printable bedrijf door uit te breiden naar internationale markten. Leer welke talen je moet targeten, vertaalworkflows en.',
   },
 
   hero: {

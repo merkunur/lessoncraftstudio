@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Tercer Grado — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de tercer grado para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores en el año académico clave de tercero.',
+    metaDescription: 'Descubre ideas de imprimibles de tercer grado para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores en el año académico clave de.',
     primaryKeyword: 'ideas imprimibles tercer grado',
     secondaryKeywords: [
       'fichas tercer grado para vender',

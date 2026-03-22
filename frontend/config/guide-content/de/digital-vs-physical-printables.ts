@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Formatauswahl Geschäftsmodell-Vergleich Verkäuferstrategie Wachstumspfad',
     ],
     titleTag: 'Digitale oder physische Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Digitale vs. physische Druckvorlagen im Vergleich für Verkäufer: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr Geschäft.',
+    metaDescription: 'Digitale vs. physische Druckvorlagen im Vergleich für Verkäufer: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr.',
   },
 
   hero: {

@@ -160,8 +160,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'ontbrekende-stukjes-werkbladen', anchorText: 'Ontbrekende Stukjes Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'wat-hoort-er-niet-bij-maken', anchorText: 'Wat Hoort Er Niet Bij Werkblad Generator — Alle Details' },
+    { pageType: 'app', slug: 'missing-pieces', anchorText: 'Ontbrekende Stukjes Werkblad Generator — Alle Details' },
+    { pageType: 'app', slug: 'odd-one-out', anchorText: 'Wat Hoort Er Niet Bij Werkblad Generator — Alle Details' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Probeer de Ontbrekende Stukjes Werkblad Maker' },
   ],
 

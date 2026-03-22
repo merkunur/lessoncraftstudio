@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige woordzoeker puzzel generator',
     ],
     titleTag: 'Woordzoeker Werkblad Maker | Maak & Verkoop Rasterpuzzels',
-    metaDescription: 'Genereer woordzoeker werkbladen met instelbare rasters van 5×5 tot 30×30, richtingsbesturing, taalgebonden vulletters, 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer woordzoeker werkbladen met instelbare rasters van 5×5 tot 30×30, richtingsbesturing, taalgebonden vulletters, 11 talen.',
   },
 
   hero: {

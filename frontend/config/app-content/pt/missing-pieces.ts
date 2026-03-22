@@ -15,7 +15,7 @@ const content: AppContent = {
       'atividades de puzzles imprimíveis para negócio online',
     ],
     titleTag: 'Gerador Fichas Peças Faltantes | Criar e Vender',
-    metaDescription: 'Crie puzzles de peças faltantes para Etsy, KDP e TPT. 6 formas de peça, dificuldade configurável, gabarito automático, 104 temas. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie puzzles de peças faltantes para Etsy, KDP e TPT. 6 formas de peça, dificuldade configurável, gabarito automático, 104 temas.',
   },
 
   hero: {

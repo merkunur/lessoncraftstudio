@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Bingokaart Generator | Maak & Verkoop Bingo-Printables',
     metaDescription:
-      'Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & TPT. Batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & TPT. Batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s.',
   },
 
   hero: {

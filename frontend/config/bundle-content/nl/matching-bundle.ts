@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk koppelwerkblad creatie tool',
     ],
     titleTag: 'Koppelwerkbladen Bundel — 5 Sorteren & Koppelen Generators',
-    metaDescription: 'Krijg 5 koppel werkblad generators in één bundel. Maak koppelen, rasterpuzzel, schaduw koppelen, bingo en sorteer werkbladen om te verkopen op Etsy, KDP & TPT.',
+    metaDescription: 'Krijg 5 koppel werkblad generators in één bundel. Maak koppelen, rasterpuzzel, schaduw koppelen, bingo en sorteer werkbladen om te verkopen op Etsy, KDP &.',
   },
 
   hero: {

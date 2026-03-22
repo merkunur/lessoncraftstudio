@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Kategorie-Attribute für pädagogische digitale Produkte',
     ],
     titleTag: 'Etsy SEO Lernmaterial Druckvorlagen — Leitfaden',
-    metaDescription: 'Etsy-SEO für Lernmaterial-Druckvorlagen. Keyword-Recherche, Titeloptimierung, alle 13 Tags nutzen und Beschreibungen optimieren. Rankingfaktoren für Verkäufer.',
+    metaDescription: 'Etsy-SEO für Lernmaterial-Druckvorlagen. Keyword-Recherche, Titeloptimierung, alle 13 Tags nutzen und Beschreibungen optimieren.',
   },
 
   hero: {

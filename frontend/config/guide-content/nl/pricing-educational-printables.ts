@@ -18,7 +18,7 @@ const content: GuideContent = {
       'internationale prijsstelling valuta A4 Letter formaat werkbladen',
     ],
     titleTag: 'Prijzen Bepalen voor Educatieve Printables — Gids',
-    metaDescription: 'Leer hoe je educatieve printables winstgevend prijst met kostenberekeningen, bundelstrategieën, psychologische prijstechnieken en seizoensaanpassingen. Complete gids voor verkopers.',
+    metaDescription: 'Leer hoe je educatieve printables winstgevend prijst met kostenberekeningen, bundelstrategieën, psychologische prijstechnieken en seizoensaanpassingen.',
   },
 
   hero: {

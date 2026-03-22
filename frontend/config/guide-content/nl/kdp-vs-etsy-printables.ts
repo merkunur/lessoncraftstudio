@@ -155,7 +155,7 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Een Etsy Printable Winkel Starten vanuit Niets' },
     { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatief Materiaal' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkbladpakketten Maken' },

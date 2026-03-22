@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercial use picture graph generator',
     ],
     titleTag: 'Picture Graph Generator | Create Chart Worksheets',
-    metaDescription: 'Create picture graph worksheets to sell on Etsy, KDP & TPT. Auto answer key with highlights, 104 themes, 6 image types per sheet. Try free — license available.',
+    metaDescription: 'Create picture graph worksheets to sell on Etsy, KDP & TPT. Auto answer key with highlights, 104 themes, 6 image types per sheet.',
   },
 
   hero: {

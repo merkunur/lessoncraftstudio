@@ -159,7 +159,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'schaduw-koppelen-werkbladen', anchorText: 'Schaduw Koppelen Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'shadow-match', anchorText: 'Schaduw Koppelen Werkblad Generator — Volledige Details' },
     { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppel Werkbladen Maker — Volledige Details' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Probeer de Schaduw Koppelen Werkblad Maker' },
   ],

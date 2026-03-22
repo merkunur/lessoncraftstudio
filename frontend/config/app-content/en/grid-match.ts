@@ -15,7 +15,7 @@ const content: AppContent = {
       'printable picture puzzle business tools',
     ],
     titleTag: 'Grid Match Puzzle Generator | Create & Sell Puzzles',
-    metaDescription: 'Create grid match puzzles to sell on Etsy, KDP & TPT. Configurable grid size, adjustable clue cells, auto answer key, 104 themes. Try free — license available.',
+    metaDescription: 'Create grid match puzzles to sell on Etsy, KDP & TPT. Configurable grid size, adjustable clue cells, auto answer key, 104 themes.',
   },
 
   hero: {

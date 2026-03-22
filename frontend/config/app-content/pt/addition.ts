@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador de Fichas de Adição | Criar e Vender',
     metaDescription:
-      'Crie fichas de adição para vender na Etsy, KDP e TPT. 104 temas, 4 modos de exercício, gabaritos incluídos, exportação 400+ DPI. Teste grátis com marca d\'água.',
+      'Crie fichas de adição para vender na Etsy, KDP e TPT. 104 temas, 4 modos de exercício, gabaritos incluídos, exportação 400+ DPI.',
   },
 
   hero: {

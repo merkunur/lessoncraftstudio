@@ -18,7 +18,7 @@ const content: GuideContent = {
       'bundelstrategie upselling cross-selling gemiddelde orderwaarde verhogen',
     ],
     titleTag: 'Passief Inkomen met Werkbladen — Complete Gids',
-    metaDescription: 'Leer hoe je passief inkomen opbouwt met printbare werkbladen. Van productcreatie tot automatisering, ontdek bewezen strategieën voor duurzame digitale inkomsten.',
+    metaDescription: 'Leer hoe je passief inkomen opbouwt met printbare werkbladen. Van productcreatie tot automatisering, ontdek bewezen strategieën voor duurzame digitale.',
   },
 
   hero: {
@@ -161,8 +161,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen op Gumroad' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'woordzoeker puzzels maken' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'optelwerkbladen maken' },
-    { pageType: 'guide', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
-    { pageType: 'guide', slug: 'printable-business-income', anchorText: 'printable bedrijf inkomsten' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
+    { pageType: 'start', slug: 'printable-business-income', anchorText: 'printable bedrijf inkomsten' },
   ],
 
   toolsRecommended: [

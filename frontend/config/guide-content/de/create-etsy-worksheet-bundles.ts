@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Paket vs Einzelangebot Kannibalisierung Etsy-Shop Strategie',
     ],
     titleTag: 'Etsy Arbeitsblatt-Pakete erstellen — Leitfaden',
-    metaDescription: 'Etsy-Arbeitsblatt-Pakete erstellen und den Bestellwert steigern. Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung. Preisstrategie erklärt.',
+    metaDescription: 'Etsy-Arbeitsblatt-Pakete erstellen und den Bestellwert steigern. Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung.',
   },
 
   hero: {

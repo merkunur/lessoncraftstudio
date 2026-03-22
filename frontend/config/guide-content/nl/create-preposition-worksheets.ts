@@ -162,7 +162,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'app', slug: 'voorzetsels-werkbladen', anchorText: 'Voorzetsels Werkblad Generator — Alle Details' },
     { pageType: 'guide', slug: 'alfabet-werkbladen-maken', anchorText: 'Alfabettrein Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'voorzetsels-maker', anchorText: 'Probeer de Voorzetsels Werkbladen Maker' },
+    { pageType: 'tool', slug: 'prepositions', anchorText: 'Probeer de Voorzetsels Werkbladen Maker' },
   ],
 
   toolsRecommended: [

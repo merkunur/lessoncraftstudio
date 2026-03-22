@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'fiches mathématiques maternelle pour enseignants',
     ],
     titleTag: 'Créer des Fiches d\'Addition — Pour Enseignants',
-    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la classe. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer. Essai avec filigrane.',
+    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la classe. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer.',
     },
 
   hero: {

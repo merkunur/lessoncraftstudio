@@ -15,7 +15,7 @@ const content: ToolContent = {
       'multilingual spelling puzzle generator',
     ],
     titleTag: 'Word Scramble Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate word scramble worksheets with shuffled letter tiles, image clues, vowel color coding, 4 difficulty levels, 11 languages. Try free — license available.',
+    metaDescription: 'Generate word scramble worksheets with shuffled letter tiles, image clues, vowel color coding, 4 difficulty levels, 11 languages.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatischer Lösungsschlüssel rote Kreismarkierungen Ausreißer-Rätsel-Ersteller',
     ],
     titleTag: 'Was-Passt-Nicht-Ersteller | Ausreißer-Rätsel',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus erstellen. Pro-Übung-Konfiguration, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

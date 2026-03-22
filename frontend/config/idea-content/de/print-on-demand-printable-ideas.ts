@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Aktivitätshefte POD profitabel aufbauen',
     ],
     titleTag: 'Print-on-Demand Arbeitsblatt-Ideen zum Verkaufen — Leitfaden',
-    metaDescription: 'Print-on-Demand Arbeitsblatt-Ideen für Etsy, KDP und Shopify. Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen profitabel aufbauen.',
+    metaDescription: 'Print-on-Demand Arbeitsblatt-Ideen für Etsy, KDP und Shopify. Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen profitabel.',
   },
   hero: {
     title: 'Print-on-Demand Arbeitsblatt-Geschäftsideen für Verkäufer',

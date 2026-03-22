@@ -15,7 +15,7 @@ const content: AppContent = {
       'printable visual matching activity business tools',
     ],
     titleTag: 'Shadow Match Generator | Create Silhouette Puzzles',
-    metaDescription: 'Create shadow matching worksheets to sell on Etsy, KDP & TPT. Shadow match and make-it-whole modes, auto silhouettes, 104 themes. Try free — license available.',
+    metaDescription: 'Create shadow matching worksheets to sell on Etsy, KDP & TPT. Shadow match and make-it-whole modes, auto silhouettes, 104 themes.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Huisdieren Printables Verkopen — Nichegids',
-    metaDescription: 'Ontdek winstgevende huisdieren printable ideeën om te verkopen op Etsy, Amazon KDP en TPT. Honden, katten en kleine huisdieren productconcepten voor verkopers.',
+    metaDescription: 'Ontdek winstgevende huisdieren printable ideeën om te verkopen op Etsy, Amazon KDP en TPT. Honden, katten en kleine huisdieren productconcepten voor.',
 
     primaryKeyword: 'huisdieren printable ideeën',
     secondaryKeywords: [

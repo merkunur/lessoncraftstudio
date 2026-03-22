@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Bases Matemáticas — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de bases matemáticas para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores que atienden a maestros y padres.',
+    metaDescription: 'Descubre ideas de imprimibles de bases matemáticas para vender en Etsy, Amazon KDP y TPT. Estrategias de nicho para vendedores que atienden a maestros y.',
     primaryKeyword: 'ideas imprimibles bases matemáticas',
     secondaryKeywords: [
       'fichas operaciones matemáticas para vender',

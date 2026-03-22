@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Cryptogram Generator | Maak & Verkoop Codepuzzels',
     metaDescription:
-      'Maak cryptogram werkbladen om te verkopen op Etsy, KDP en TPT. Beeldcijfer codering, Letters Onthullen moeilijkheidsgraad, 104 thema\'s. Gratis proefversie met watermerk.',
+      'Maak cryptogram werkbladen om te verkopen op Etsy, KDP en TPT. Beeldcijfer codering, Letters Onthullen moeilijkheidsgraad, 104 thema\'s.',
   },
 
   hero: {

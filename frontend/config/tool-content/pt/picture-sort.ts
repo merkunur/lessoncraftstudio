@@ -15,7 +15,7 @@ const content: ToolContent = {
       'atividades de classificação a duas categorias com imagens temáticas',
     ],
     titleTag: 'Gerador Classificação de Imagens | Criar e Vender',
-    metaDescription: 'Crie fichas de classificação com duas categorias, grelha de recortes misturada, gabarito autogerado e 104 temas com 4–12 imagens. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie fichas de classificação com duas categorias, grelha de recortes misturada, gabarito autogerado e 104 temas com 4–12 imagens.',
   },
 
   hero: {

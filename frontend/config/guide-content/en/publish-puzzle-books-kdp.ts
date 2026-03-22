@@ -18,7 +18,7 @@ const content: GuideContent = {
       'puzzle grid spacing trim size answer keys back matter',
     ],
     titleTag: 'How to Publish Puzzle Books KDP — Guide',
-    metaDescription: 'How to publish puzzle books on KDP with word search, crossword, and sudoku. Covers formatting, variety books, series strategy, and Amazon listing optimization.',
+    metaDescription: 'How to publish puzzle books on KDP with word search, crossword, and sudoku. Covers formatting, variety books, series strategy, and Amazon listing.',
   },
 
   hero: {

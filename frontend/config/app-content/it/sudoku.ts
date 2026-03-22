@@ -15,7 +15,7 @@ const content: AppContent = {
       'stampabili di sudoku con immagini per business online',
     ],
     titleTag: 'Generatore Sudoku con Immagini | Crea e Vendi Stampabili',
-    metaDescription: 'Crea schede sudoku con immagini da vendere su Etsy, KDP e TPT. Griglia 4×4, tre difficoltà, foglio risposte automatico, 104 temi. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede sudoku con immagini da vendere su Etsy, KDP e TPT. Griglia 4×4, tre difficoltà, foglio risposte automatico, 104 temi.',
   },
 
   hero: {

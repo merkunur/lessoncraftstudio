@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede di Sottrazione | Crea e Vendi Online',
     metaDescription:
-      'Crea schede di sottrazione da vendere su Etsy, KDP e TPT. 4 modalità con barratura visiva, 104 temi, soluzioni, scala di grigi, export 400+ DPI. Prova gratuita.',
+      'Crea schede di sottrazione da vendere su Etsy, KDP e TPT. 4 modalità con barratura visiva, 104 temi, soluzioni, scala di grigi, export 400+ DPI.',
   },
 
   hero: {

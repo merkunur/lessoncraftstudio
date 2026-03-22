@@ -15,7 +15,7 @@ const content: AppContent = {
       'worksheet creator for online sellers',
     ],
     titleTag: 'Subtraction Worksheet Generator | Sell Printables',
-    metaDescription: 'Create subtraction worksheets to sell on Etsy, KDP & TPT. 5 exercise modes, 104 visual themes, auto answer keys, 400+ DPI export. Try free — license available.',
+    metaDescription: 'Create subtraction worksheets to sell on Etsy, KDP & TPT. 5 exercise modes, 104 visual themes, auto answer keys, 400+ DPI export.',
   },
 
   hero: {

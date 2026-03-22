@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk visueel werkblad creatie tool',
     ],
     titleTag: 'Visueel Leren Werkbladen Bundel — 7 Activiteiten Generators',
-    metaDescription: 'Krijg 7 visueel leren generators in één bundel. Maak kleurplaten, tekenen, patronen, groottevergelijking, grafieken en lijntraceer werkbladen om online te verkopen.',
+    metaDescription: 'Krijg 7 visueel leren generators in één bundel. Maak kleurplaten, tekenen, patronen, groottevergelijking, grafieken en lijntraceer werkbladen om online te.',
   },
 
   hero: {

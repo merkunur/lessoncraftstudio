@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Tren de Patrones | Vender',
     metaDescription:
-      'Crea fichas tren de patrones para Etsy, KDP y TPT. Cinco tipos de patrones, 11 vagones temáticos, pistas ajustables, PDF listo. Prueba gratis con marca de agua.',
+      'Crea fichas tren de patrones para Etsy, KDP y TPT. Cinco tipos de patrones, 11 vagones temáticos, pistas ajustables, PDF listo.',
   },
 
   hero: {

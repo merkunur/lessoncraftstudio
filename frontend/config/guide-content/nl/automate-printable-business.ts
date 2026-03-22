@@ -18,7 +18,7 @@ const content: GuideContent = {
       'productiesystemen schaalbare processen catalogusbeheer workflowontwerp automatisering',
     ],
     titleTag: 'Printable Bedrijf Automatiseren — Efficiëntiegids',
-    metaDescription: 'Leer je printable bedrijf automatiseren met batchproductie, sjabloonsystemen en systematische workflows. Bespaar uren per week en schaal je output op alle platformen.',
+    metaDescription: 'Leer je printable bedrijf automatiseren met batchproductie, sjabloonsystemen en systematische workflows. Bespaar uren per week en schaal je output op alle.',
   },
 
   hero: {
@@ -149,8 +149,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'gids over printables verkopen op Gumroad' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'gids over woordzoekpuzzels maken' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'gids over kleurplaten maken' },
-    { pageType: 'guide', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
-    { pageType: 'guide', slug: 'tools-for-printable-business', anchorText: 'gids over tools voor printable bedrijf' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
+    { pageType: 'start', slug: 'tools-for-printable-business', anchorText: 'gids over tools voor printable bedrijf' },
   ],
 
   toolsRecommended: [

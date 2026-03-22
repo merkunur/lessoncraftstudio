@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatischer Lösungsschlüssel Schattenbilder-Zuordnungs-Generator',
     ],
     titleTag: 'Schattenbilder-Ersteller | Silhouetten-Zuordnung',
-    metaDescription: 'Schattenbilder-Zuordnungsblätter mit pixelgenauen Silhouetten und Bild-Vervollständigung erstellen. 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Schattenbilder-Zuordnungsblätter mit pixelgenauen Silhouetten und Bild-Vervollständigung erstellen. 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

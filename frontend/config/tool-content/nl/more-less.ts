@@ -15,7 +15,7 @@ const content: ToolContent = {
       'vinkje en kruisje rekenactiviteit generator',
     ],
     titleTag: 'Meer of Minder Werkblad Maker | Vergelijkingswerkbladen',
-    metaDescription: 'Maak visuele groter dan, kleiner dan en gelijk aan werkbladen met afbeeldingen in seconden. Drie modi inclusief unieke Vinkje & Kruisje. Verkoop op Etsy, KDP en TPT.',
+    metaDescription: 'Maak visuele groter dan, kleiner dan en gelijk aan werkbladen met afbeeldingen in seconden. Drie modi inclusief unieke Vinkje & Kruisje.',
   },
 
   hero: {

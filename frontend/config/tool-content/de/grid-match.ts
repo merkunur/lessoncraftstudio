@@ -15,7 +15,7 @@ const content: ToolContent = {
       'konfigurierbarer Hinweiszellen-Schwierigkeitsgrad Raster-Ersteller',
     ],
     titleTag: 'Raster-Puzzle-Ersteller | Bilder-Rasterpuzzle',
-    metaDescription: 'Raster-Puzzle-Arbeitsblätter mit Raster 2×2 bis 4×4 und Hinweiszellen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Raster-Puzzle-Arbeitsblätter mit Raster 2×2 bis 4×4 und Hinweiszellen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

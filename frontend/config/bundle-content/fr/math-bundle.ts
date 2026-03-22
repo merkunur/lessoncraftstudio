@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches maths en masse',
     ],
     titleTag: 'Pack Fiches de Maths — 6 Générateurs | Maîtrise Maths',
-    metaDescription: '6 générateurs de fiches de maths en un seul pack. Créez des fiches d\'addition, soustraction, code, comparaison, puzzle et algèbre à vendre sur Etsy, KDP et TPT.',
+    metaDescription: '6 générateurs de fiches de maths en un seul pack. Créez des fiches d\'addition, soustraction, code, comparaison, puzzle et algèbre à vendre sur Etsy, KDP.',
   },
 
   hero: {

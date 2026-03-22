@@ -18,7 +18,7 @@ const content: StartContent = {
       'licença comercial ferramentas imprimíveis',
     ],
     titleTag: 'Como Iniciar um Negócio de Imprimíveis — Guia Completo',
-    metaDescription: 'Como iniciar um negócio de imprimíveis desde o início. Guia passo a passo para vendedores de Etsy, Amazon KDP e TpT com geradores de fichas para criar e vender.',
+    metaDescription: 'Como iniciar um negócio de imprimíveis desde o início. Guia passo a passo para vendedores de Etsy, Amazon KDP e TpT com geradores de fichas para criar e.',
   },
 
   hero: {

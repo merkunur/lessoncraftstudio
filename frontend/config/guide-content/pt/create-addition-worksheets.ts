@@ -18,7 +18,7 @@ const content: GuideContent = {
       'ferramenta de fichas com licença comercial',
     ],
     titleTag: 'Criar fichas de adição — Guia passo a passo',
-    metaDescription: 'Como criar fichas de adição para crianças. Guia passo a passo: escolher temas, ajustar a dificuldade, gerar chaves de respostas e exportar PDF para Etsy e KDP.',
+    metaDescription: 'Como criar fichas de adição para crianças. Guia passo a passo: escolher temas, ajustar a dificuldade, gerar chaves de respostas e exportar PDF para Etsy e.',
   },
 
   hero: {

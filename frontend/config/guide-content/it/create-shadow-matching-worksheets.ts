@@ -18,7 +18,7 @@ const content: GuideContent = {
       'strumento abbinamento ombre con licenza commerciale',
     ],
     titleTag: 'Creare Schede Discriminazione Visiva Ombre | Guida Etsy',
-    metaDescription: 'Crea schede di discriminazione visiva con due modalità: Abbinamento Ombre per sagome e Completa l\'Immagine per immagini divise. Guida per vendere su Etsy e KDP.',
+    metaDescription: 'Crea schede di discriminazione visiva con due modalità: Abbinamento Ombre per sagome e Completa l\'Immagine per immagini divise.',
   },
 
   hero: {

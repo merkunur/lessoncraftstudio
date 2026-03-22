@@ -159,8 +159,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'patroontreinen-werkbladen', anchorText: 'Patroontreinen Generator — Alle Details' },
-    { pageType: 'tool', slug: 'patroonwerkblad-maker', anchorText: 'Probeer de Patroonwerkblad Maker' },
+    { pageType: 'app', slug: 'pattern-train', anchorText: 'Patroontreinen Generator — Alle Details' },
+    { pageType: 'tool', slug: 'pattern-worksheet', anchorText: 'Probeer de Patroonwerkblad Maker' },
   ],
 
   toolsRecommended: [

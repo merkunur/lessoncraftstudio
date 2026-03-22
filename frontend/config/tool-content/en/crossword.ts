@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'auto answer key crossword worksheet creator',
     ],
     titleTag: 'Picture Crossword Maker — Crosswords for Students',
-    metaDescription: 'Create picture crossword puzzles for classroom vocabulary practice. Image clues on 15x15 grid, 4 input methods, auto answer key. Try with watermark — no signup.',
+    metaDescription: 'Create picture crossword puzzles for classroom vocabulary practice. Image clues on 15x15 grid, 4 input methods, auto answer key.',
     },
 
   hero: {

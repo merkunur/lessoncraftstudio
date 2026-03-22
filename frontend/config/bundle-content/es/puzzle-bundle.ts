@@ -16,7 +16,7 @@ const content: BundleContent = {
       'herramienta de creación masiva de fichas de puzzles',
     ],
     titleTag: 'Paquete Fichas de Puzzles | Crear y Vender',
-    metaDescription: 'Paquete con 4 generadores de puzzles y lógica: piezas faltantes, encuentra el diferente, sudoku con imágenes y laberintos. Vende en Etsy, KDP y TPT fácilmente.',
+    metaDescription: 'Paquete con 4 generadores de puzzles y lógica: piezas faltantes, encuentra el diferente, sudoku con imágenes y laberintos. Vende en Etsy, KDP y TPT.',
   },
 
   hero: {

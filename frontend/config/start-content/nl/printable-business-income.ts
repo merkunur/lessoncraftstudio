@@ -18,7 +18,7 @@ const content: StartContent = {
       'meerdere inkomstenstromen printable producten',
     ],
     titleTag: 'Hoeveel Kun Je Verdienen met Printables Verkopen?',
-    metaDescription: 'Hoeveel kun je verdienen met printables verkopen? Realistische inkomensverwachtingen, platformkostenstructuren, prijsstrategieën en de variabelen die je verdiensten bepalen.',
+    metaDescription: 'Hoeveel kun je verdienen met printables verkopen? Realistische inkomensverwachtingen, platformkostenstructuren, prijsstrategieën en de variabelen die je.',
   },
 
   hero: {

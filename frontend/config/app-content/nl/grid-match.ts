@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Rasterpuzzel Werkblad Generator | Maak & Verkoop Online',
     metaDescription:
-      'Maak rasterpuzzels om te verkopen op Etsy, KDP & TPT. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak rasterpuzzels om te verkopen op Etsy, KDP & TPT. Instelbaar raster, aanwijzingscellen, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Plaatjes Kruiswoordpuzzel Generator | Maak & Verkoop Puzzels',
     metaDescription:
-      'Maak plaatjes kruiswoordpuzzels om te verkopen op Etsy, KDP & TPT. Afbeeldingsaanwijzingen op een 15×15 raster, 4 invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak plaatjes kruiswoordpuzzels om te verkopen op Etsy, KDP & TPT. Afbeeldingsaanwijzingen op een 15×15 raster, 4 invoermethoden, automatisch antwoordblad.',
   },
 
   hero: {

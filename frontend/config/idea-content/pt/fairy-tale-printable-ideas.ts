@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias de Imprimíveis de Contos de Fadas — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis de contos de fadas para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos com temática de livros de histórias, estratégias.',
+    metaDescription: 'Descubra ideias de imprimíveis de contos de fadas para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos com temática de livros de histórias.',
     primaryKeyword: 'ideias de imprimíveis de contos de fadas',
     secondaryKeywords: [
       'fichas temáticas contos de fadas para vender',

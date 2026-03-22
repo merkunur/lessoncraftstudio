@@ -18,7 +18,7 @@ const content: GuideContent = {
       'processo revisione KDP copia prova copie autore',
     ],
     titleTag: 'Creare Libri di Attività Matematica per KDP | Guida',
-    metaDescription: 'Scopri come creare libri di attività matematica per Amazon KDP e guadagnare royalty. Formattazione manoscritto, design copertina e ottimizzazione parole chiave.',
+    metaDescription: 'Scopri come creare libri di attività matematica per Amazon KDP e guadagnare royalty. Formattazione manoscritto, design copertina e ottimizzazione parole.',
   },
 
   hero: {

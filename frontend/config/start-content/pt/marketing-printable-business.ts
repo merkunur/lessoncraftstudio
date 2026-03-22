@@ -18,7 +18,7 @@ const content: StartContent = {
       'marketing de conteúdo para donos de negócios de imprimíveis',
     ],
     titleTag: 'Como Promover Fichas Imprimíveis — Guia para Vendedores',
-    metaDescription: 'Como promover fichas imprimíveis na internet: SEO de plataforma, estratégia de Pinterest, email marketing, timing sazonal e construção de marca para vendedores.',
+    metaDescription: 'Como promover fichas imprimíveis na internet: SEO de plataforma, estratégia de Pinterest, email marketing, timing sazonal e construção de marca para.',
   },
 
   hero: {

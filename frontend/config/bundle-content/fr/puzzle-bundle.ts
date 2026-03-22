@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches puzzles en masse',
     ],
     titleTag: 'Pack Puzzles & Logique — 4 Générateurs de Fiches',
-    metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et TPT. Licence commerciale incluse.',
+    metaDescription: 'Pack de fiches puzzles avec 4 générateurs : pièces manquantes, intrus, sudoku enfants et labyrinthes. Vendez sur Etsy, KDP et TPT.',
   },
 
   hero: {

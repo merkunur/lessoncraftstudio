@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Voorzetsels Werkbladen Generator | Maak Printables',
     metaDescription:
-      'Maak voorzetsels werkbladen om te verkopen op Etsy, KDP en TPT. 8 ruimtelijke voorzetsels, invuloefeningen en meerkeuzevragen. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak voorzetsels werkbladen om te verkopen op Etsy, KDP en TPT. 8 ruimtelijke voorzetsels, invuloefeningen en meerkeuzevragen. Gratis proefversie met.',
   },
 
   hero: {

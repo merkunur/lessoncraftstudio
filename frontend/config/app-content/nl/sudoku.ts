@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Plaatjes Sudoku Generator | Maak & Verkoop Werkbladen',
     metaDescription:
-      'Maak plaatjes sudoku werkbladen om te verkopen op Etsy, KDP & TPT. 4×4 raster, drie moeilijkheidsniveaus, automatisch antwoordblad, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak plaatjes sudoku werkbladen om te verkopen op Etsy, KDP & TPT. 4×4 raster, drie moeilijkheidsniveaus, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {

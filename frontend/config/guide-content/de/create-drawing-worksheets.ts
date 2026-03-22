@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Schwarz-Weiß-Umriss Arbeitsblatt-Tool',
     ],
     titleTag: 'Zeichen-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Zeichen-Arbeitsblätter mit Doppelraster-System und einstellbarem Hinweisprozentsatz erstellen. Drei Symmetriemodi, S/W-Export für den Verkauf auf Etsy und KDP.',
+    metaDescription: 'Zeichen-Arbeitsblätter mit Doppelraster-System und einstellbarem Hinweisprozentsatz erstellen. Drei Symmetriemodi, S/W-Export für den Verkauf auf Etsy und.',
   },
 
   hero: {

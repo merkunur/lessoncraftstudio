@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias Imprimíveis Terceiro Ano — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis de terceiro ano para vender no Etsy, Amazon KDP e TPT. Estratégias de nicho para vendedores no ano académico decisivo do 3.º ano.',
+    metaDescription: 'Descubra ideias de imprimíveis de terceiro ano para vender no Etsy, Amazon KDP e TPT. Estratégias de nicho para vendedores no ano académico decisivo do 3.',
     primaryKeyword: 'ideias imprimíveis terceiro ano',
     secondaryKeywords: [
       'fichas terceiro ano para vender',

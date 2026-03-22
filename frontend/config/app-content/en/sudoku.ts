@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'logic-puzzles-printable-ideas',
+      slug: 'math-facts-printable-ideas',
       anchorText: 'Logic Puzzle Printable Ideas for Worksheets',
     },
     {

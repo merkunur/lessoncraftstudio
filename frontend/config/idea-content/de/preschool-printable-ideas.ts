@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Kleinkind-Lernmaterialien Etsy-Nische',
     ],
     titleTag: 'Vorschule-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Vorschule-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für erfolgreiche Verkäufer im Bereich frühkindliche Lernmaterialien.',
+    metaDescription: 'Vorschule-Druckvorlagen-Ideen für Etsy, KDP und TPT. Produktkonzepte und Nischenstrategien für erfolgreiche Verkäufer im Bereich frühkindliche.',
   },
   hero: {
     title: 'Vorschule Druckvorlagen-Geschäftsideen für Verkäufer',

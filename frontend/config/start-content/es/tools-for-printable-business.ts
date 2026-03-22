@@ -18,7 +18,7 @@ const content: StartContent = {
       'producción fichas licencia comercial',
     ],
     titleTag: 'Mejores Herramientas para Vendedores de Imprimibles — Guía',
-    metaDescription: 'Mejores herramientas para vendedores de imprimibles: generadores de fichas, herramientas de diseño, utilidades de plataforma y flujos de trabajo profesionales.',
+    metaDescription: 'Mejores herramientas para vendedores de imprimibles: generadores de fichas, herramientas de diseño, utilidades de plataforma y flujos de trabajo.',
   },
 
   hero: {

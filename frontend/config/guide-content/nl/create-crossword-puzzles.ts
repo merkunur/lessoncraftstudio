@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'SEO voor Etsy Educatief Materiaal' },
     { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'kruiswoord-werkbladen', anchorText: 'Kruiswoordpuzzel Generator — Alle Details' },
+    { pageType: 'app', slug: 'image-crossword', anchorText: 'Kruiswoordpuzzel Generator — Alle Details' },
     { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Alle Details' },
-    { pageType: 'tool', slug: 'kruiswoord-maker', anchorText: 'Probeer de Kruiswoordpuzzel Maker' },
+    { pageType: 'tool', slug: 'crossword', anchorText: 'Probeer de Kruiswoordpuzzel Maker' },
   ],
 
   toolsRecommended: [

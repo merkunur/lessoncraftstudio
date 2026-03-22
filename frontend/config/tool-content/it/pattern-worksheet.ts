@@ -15,7 +15,7 @@ const content: ToolContent = {
       'generatore schede sequenze AB ABC ABCD da vendere',
     ],
     titleTag: 'Generatore Schede Sequenze e Pattern | Crea e Vendi',
-    metaDescription: 'Genera schede sequenze con nove tipi di schema, due modalità di domanda, configurazione per esercizio, chiavi di risposta automatiche e 104 temi. Prova gratis.',
+    metaDescription: 'Genera schede sequenze con nove tipi di schema, due modalità di domanda, configurazione per esercizio, chiavi di risposta automatiche e 104 temi.',
   },
 
   hero: {

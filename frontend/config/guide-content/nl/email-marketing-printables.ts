@@ -18,7 +18,7 @@ const content: GuideContent = {
       'klantretentie herhaalaankopen upselling cross-selling productlancering aankondiging',
     ],
     titleTag: 'E-mail Marketing voor Printable Verkopers — Gids',
-    metaDescription: 'Leer hoe je een e-maillijst opbouwt als printable verkoper. Leadmagneten maken, nieuwsbrieven schrijven die verkopen, automatisering instellen en je lijst segmenteren voor maximale omzet.',
+    metaDescription: 'Leer hoe je een e-maillijst opbouwt als printable verkoper. Leadmagneten maken, nieuwsbrieven schrijven die verkopen, automatisering instellen en je lijst.',
   },
 
   hero: {
@@ -161,8 +161,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printables' },
     { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijsstelling voor educatieve printables' },
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'printables verkopen op Gumroad' },
-    { pageType: 'guide', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een printable bedrijf' },
-    { pageType: 'guide', slug: 'marketing-printable-business', anchorText: 'marketing voor je printable bedrijf' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids voor een printable bedrijf' },
+    { pageType: 'start', slug: 'marketing-printable-business', anchorText: 'marketing voor je printable bedrijf' },
   ],
 
   toolsRecommended: [

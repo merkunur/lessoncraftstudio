@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken-activiteitenboeken voor Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'tekenen-kleuren-werkbladen', anchorText: 'Tekenen & Kleuren Werkblad Generator — Alle Details' },
-    { pageType: 'app', slug: 'tekenlijnen-werkbladen', anchorText: 'Tekenlijnen Werkblad Generator — Alle Details' },
-    { pageType: 'tool', slug: 'tekenen-kleuren-maker', anchorText: 'Probeer de Tekenen & Kleuren Werkblad Maker' },
+    { pageType: 'app', slug: 'draw-and-color', anchorText: 'Tekenen & Kleuren Werkblad Generator — Alle Details' },
+    { pageType: 'app', slug: 'drawing-lines', anchorText: 'Tekenlijnen Werkblad Generator — Alle Details' },
+    { pageType: 'tool', slug: 'draw-and-color', anchorText: 'Probeer de Tekenen & Kleuren Werkblad Maker' },
   ],
 
   toolsRecommended: [

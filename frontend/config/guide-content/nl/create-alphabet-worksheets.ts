@@ -160,7 +160,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'alfabettrein-werkbladen', anchorText: 'Alfabettrein Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'alphabet-train', anchorText: 'Alfabettrein Werkblad Generator — Volledige Details' },
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Probeer de Alfabettrein Werkblad Maker' },
   ],
 

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'licentieadministratie licentiedocumentatie multiplatform licenties concurrentievoordeel',
     ],
     titleTag: 'Commerciële Licenties Begrijpen — Gids',
-    metaDescription: 'Begrijp commerciële gebruikslicenties voor printables voordat je gaat verkopen. Leer licentietypen, veelgemaakte fouten en hoe goede licenties je bedrijf beschermen.',
+    metaDescription: 'Begrijp commerciële gebruikslicenties voor printables voordat je gaat verkopen. Leer licentietypen, veelgemaakte fouten en hoe goede licenties je bedrijf.',
   },
 
   hero: {
@@ -156,7 +156,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: 'Niche-Selectiegids voor Printable Bedrijven' },
     { pageType: 'guide', slug: 'prijzen-educatief-materiaal', anchorText: 'Prijsstrategien voor Educatief Printable Materiaal' },
     { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatieve-printables-verkopen-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Hoe Educatieve Printables Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-printables-shop-starten', anchorText: 'Hoe een Etsy Printable Winkel Starten vanuit Niets' },
     { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Hoe Printables Verkopen op Gumroad' },
     { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoekers Maken met Afbeeldingen' },

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy printable shop launch strategy first 30 days growth plan',
     ],
     titleTag: 'How to Start Etsy Printable Shop from Scratch — Guide',
-    metaDescription: 'Learn how to start Etsy printable shop from scratch with 33 generators. Shop setup, branding, listing optimization, pricing, Etsy fees, and 30-day launch plan.',
+    metaDescription: 'Learn how to start Etsy printable shop from scratch with 33 generators. Shop setup, branding, listing optimization, pricing, Etsy fees, and 30-day launch.',
   },
 
   hero: {

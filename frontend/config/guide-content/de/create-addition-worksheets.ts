@@ -18,7 +18,7 @@ const content: GuideContent = {
       'kommerzielle Lizenz Arbeitsblatt-Tool',
     ],
     titleTag: 'Additions-Arbeitsblätter erstellen — Anleitung',
-    metaDescription: 'Additions-Arbeitsblätter für Kinder erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP exportieren.',
+    metaDescription: 'Additions-Arbeitsblätter für Kinder erstellen. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs für Etsy und KDP.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'creatore griglia con celle indizio e difficoltà regolabile',
     ],
     titleTag: 'Puzzle a Griglia — Generatore Schede Puzzle Griglia',
-    metaDescription: 'Crea puzzle a griglia con dimensioni configurabili, celle indizio regolabili, randomizzazione Fisher-Yates e 104 temi illustrati. Prova gratuita con filigrana.',
+    metaDescription: 'Crea puzzle a griglia con dimensioni configurabili, celle indizio regolabili, randomizzazione Fisher-Yates e 104 temi illustrati.',
   },
 
   hero: {

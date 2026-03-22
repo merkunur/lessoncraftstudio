@@ -18,7 +18,7 @@ const content: StartContent = {
       'impressão a pedido negócio livros de atividades',
     ],
     titleTag: 'Vender Livros de Atividades na Amazon KDP — Guia',
-    metaDescription: 'Como vender livros de atividades na Amazon KDP. Formato interior, design de capa, pesquisa de palavras-chave, estratégia de preços e escalamento do negócio KDP.',
+    metaDescription: 'Como vender livros de atividades na Amazon KDP. Formato interior, design de capa, pesquisa de palavras-chave, estratégia de preços e escalamento do.',
   },
 
   hero: {

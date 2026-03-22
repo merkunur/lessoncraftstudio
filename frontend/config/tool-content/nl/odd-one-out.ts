@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad rode cirkel vreemd item werkblad creator',
     ],
     titleTag: 'Vreemde Eend Maker — Welke Hoort Er Niet Bij Generator',
-    metaDescription: 'Maak welke hoort er niet bij werkbladen met Identiek en Vergelijkbaar modi, per-oefening overschrijvingen, automatische antwoordbladen met rode cirkels. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak welke hoort er niet bij werkbladen met Identiek en Vergelijkbaar modi, per-oefening overschrijvingen, automatische antwoordbladen met rode cirkels.',
   },
 
   hero: {

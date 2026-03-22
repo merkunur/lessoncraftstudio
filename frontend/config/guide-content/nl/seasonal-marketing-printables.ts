@@ -17,7 +17,7 @@ const content: GuideContent = {
       'releasetiming seizoenszoekwoorden trendanalyse contentkalender jaarplanning',
     ],
     titleTag: 'Seizoensmarketing Printables — Verkoopkalender',
-    metaDescription: 'Plan seizoensmarketing printables campagnes afgestemd op vraagcycli. Een verkoopkalender met productietiming, zoekwoorden en piekverkoopstrategieën voor printable verkopers.',
+    metaDescription: 'Plan seizoensmarketing printables campagnes afgestemd op vraagcycli. Een verkoopkalender met productietiming, zoekwoorden en piekverkoopstrategieën voor.',
   },
 
   hero: {

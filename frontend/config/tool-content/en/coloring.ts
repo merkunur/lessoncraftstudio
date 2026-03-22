@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'freehand drawing coloring activity maker',
     ],
     titleTag: 'Custom Coloring Page Maker — Create Pages Online',
-    metaDescription: 'Create custom coloring pages for your classroom or home. Free-form canvas, 3,100+ illustrations, 104 themes, freehand drawing, grayscale export. Try with watermark.',
+    metaDescription: 'Create custom coloring pages for your classroom or home. Free-form canvas, 3,100+ illustrations, 104 themes, freehand drawing, grayscale export.',
     },
 
   hero: {

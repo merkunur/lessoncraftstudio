@@ -15,7 +15,7 @@ const content: ToolContent = {
       'criptogramas multilingues com imagens temáticas',
     ],
     titleTag: 'Gerador Criptogramas | Criar e Vender',
-    metaDescription: 'Gere criptogramas com cifra por imagens, Letras a Revelar 0–10, atribuição automática, gabarito e legenda de letras em 11 idiomas. Teste grátis com marca d\'água',
+    metaDescription: 'Gere criptogramas com cifra por imagens, Letras a Revelar 0–10, atribuição automática, gabarito e legenda de letras em 11 idiomas.',
   },
 
   hero: {

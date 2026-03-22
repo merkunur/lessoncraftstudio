@@ -18,7 +18,7 @@ const content: StartContent = {
       'estrategia de precios imprimibles Etsy',
     ],
     titleTag: 'Vender Imprimibles en Etsy — Masterclass Completa',
-    metaDescription: 'Cómo vender imprimibles en Etsy paso a paso. Configuración de tienda, SEO de Etsy, optimización de publicaciones, estrategia de precios y escalado del negocio.',
+    metaDescription: 'Cómo vender imprimibles en Etsy paso a paso. Configuración de tienda, SEO de Etsy, optimización de publicaciones, estrategia de precios y escalado del.',
   },
 
   hero: {

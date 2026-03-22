@@ -18,7 +18,7 @@ const content: GuideContent = {
       'fotos anuncios mockups productos fichas matemáticas Etsy',
     ],
     titleTag: 'Vender fichas de matemáticas en Etsy — Guía',
-    metaDescription: 'Vende fichas de matemáticas en Etsy con 6 generadores. SEO Etsy, optimización de anuncios, precios, estrategias de paquetes y timing estacional para vendedores.',
+    metaDescription: 'Vende fichas de matemáticas en Etsy con 6 generadores. SEO Etsy, optimización de anuncios, precios, estrategias de paquetes y timing estacional para.',
   },
 
   hero: {

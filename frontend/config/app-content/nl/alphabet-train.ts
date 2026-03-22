@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Alfabettrein Generator | Maak Taal-Printables',
     metaDescription:
-      'Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en TPT. Treinwagon letter-afbeelding koppeling in 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+      'Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en TPT. Treinwagon letter-afbeelding koppeling in 11 talen, 104 thema\'s.',
   },
 
   hero: {

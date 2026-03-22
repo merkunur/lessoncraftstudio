@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy listing photos mockups for word search puzzle products',
     ],
     titleTag: 'Sell Word Search Puzzles on Etsy — Guide',
-    metaDescription: 'Sell word search puzzles on Etsy with 4 puzzle generators. Etsy SEO, listing optimization, pricing, bundling with crosswords and scrambles, and seasonal timing.',
+    metaDescription: 'Sell word search puzzles on Etsy with 4 puzzle generators. Etsy SEO, listing optimization, pricing, bundling with crosswords and scrambles, and seasonal.',
   },
 
   hero: {

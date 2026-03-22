@@ -14,9 +14,9 @@ const content: AppContent = {
       'commercieel gebruik classificatie werkblad generator',
       'printbare categoriseer sorteeractiviteit business tools',
     ],
-    titleTag: 'Sorteer Werkblad Generator | Maak & Verkoop Sorteer-Printables',
+    titleTag: 'Sorteer Werkblad Generator | Maak Sorteer-Printables',
     metaDescription:
-      'Maak sorteer werkbladen om te verkopen op Etsy, KDP & TPT. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s, 4–12 afbeeldingen. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak sorteer werkbladen om te verkopen op Etsy, KDP & TPT. Twee-categorieën sorteren, automatisch antwoordblad, 104 thema\'s, 4–12 afbeeldingen.',
   },
 
   hero: {

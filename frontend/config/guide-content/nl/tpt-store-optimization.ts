@@ -18,7 +18,7 @@ const content: GuideContent = {
       'TPT analytics seizoensplanning datagestuurde catalogusschaling strategie',
     ],
     titleTag: 'TPT Winkel Optimalisatie Gids — Meer Verkopen',
-    metaDescription: 'TPT winkel optimalisatiestrategieën voor hogere zoekrankings en meer verkoop. Behandelt voorbeeldconversie, productbundeling, reviewopbouw en catalogusschaling.',
+    metaDescription: 'TPT winkel optimalisatiestrategieën voor hogere zoekrankings en meer verkoop. Behandelt voorbeeldconversie, productbundeling, reviewopbouw en.',
   },
 
   hero: {
@@ -156,7 +156,7 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'Hoe TPT-Materialen Maken en Verkopen' },
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Hoe Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Hoe Etsy Printables Prijzen' },
     { pageType: 'guide', slug: 'seo-etsy-educatief-materiaal', anchorText: 'Etsy SEO voor Educatief Materiaal' },

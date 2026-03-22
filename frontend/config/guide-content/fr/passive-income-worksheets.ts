@@ -18,7 +18,7 @@ const content: GuideContent = {
       'modèle revenus évolutif flux revenus fiches multi-plateforme revenus',
     ],
     titleTag: 'Revenus Récurrents Fiches Exercices — Guide Revenus',
-    metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme, expansion linguistique et effets catalogue pour vendeurs.',
+    metaDescription: 'Construire des revenus récurrents avec les fiches. Catalogues durables, distribution multi-plateforme, expansion linguistique et effets catalogue pour.',
   },
 
   hero: {

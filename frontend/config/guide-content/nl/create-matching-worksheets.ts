@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie werkblad tool',
     ],
     titleTag: 'Zoek de Paren Werkbladen Maken — Gids',
-    metaDescription: 'Zoek de paren werkbladen maken voor kleuters. 4 koppelmodi, thema-afbeeldingen, automatische antwoordsleutels met verbindingslijnen. Exporteer PDF\'s voor Etsy.',
+    metaDescription: 'Zoek de paren werkbladen maken voor kleuters. 4 koppelmodi, thema-afbeeldingen, automatische antwoordsleutels met verbindingslijnen.',
   },
 
   hero: {
@@ -159,8 +159,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'zoekdeparen-werkbladen', anchorText: 'Zoek de Paren Generator — Alle Details' },
-    { pageType: 'tool', slug: 'zoekdeparen-maker', anchorText: 'Probeer de Zoek de Paren Maker' },
+    { pageType: 'app', slug: 'matching-app', anchorText: 'Zoek de Paren Generator — Alle Details' },
+    { pageType: 'tool', slug: 'matching', anchorText: 'Probeer de Zoek de Paren Maker' },
   ],
 
   toolsRecommended: [

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'selezione formato confronto modelli business strategia venditore percorso crescita',
     ],
     titleTag: 'Stampabili Digitali vs Fisici — Guida per Venditori',
-    metaDescription: 'Confronto stampabili digitali vs fisici per venditori: margini di profitto, scalabilità, evasione ordini e come scegliere il formato giusto per il tuo business.',
+    metaDescription: 'Confronto stampabili digitali vs fisici per venditori: margini di profitto, scalabilità, evasione ordini e come scegliere il formato giusto per il tuo.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'licencia comercial herramienta fichas gráficos de conteo',
     ],
     titleTag: 'Fichas de gráficos de imágenes — Guía',
-    metaDescription: 'Crea fichas de gráficos de imágenes con cuadrículas 4×5, claves de respuestas automáticas, distribución aleatoria y 104 temas. Guía paso a paso para Etsy y KDP.',
+    metaDescription: 'Crea fichas de gráficos de imágenes con cuadrículas 4×5, claves de respuestas automáticas, distribución aleatoria y 104 temas. Guía paso a paso para Etsy.',
   },
 
   hero: {

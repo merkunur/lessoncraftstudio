@@ -15,7 +15,7 @@ const content: ToolContent = {
       'multilingual picture cryptogram maker',
     ],
     titleTag: 'Cryptogram Worksheet Generator | Create & Sell Puzzles',
-    metaDescription: 'Generate cryptogram worksheets with picture cipher encoding, difficulty slider, auto-assign mode, answer keys across 11 languages. Try free — license available.',
+    metaDescription: 'Generate cryptogram worksheets with picture cipher encoding, difficulty slider, auto-assign mode, answer keys across 11 languages.',
   },
 
   hero: {

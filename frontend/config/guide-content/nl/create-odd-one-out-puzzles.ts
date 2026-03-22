@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'vreemde-eend-werkbladen', anchorText: 'Vreemde Eend Werkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'odd-one-out', anchorText: 'Vreemde Eend Werkblad Generator — Volledige Details' },
     { pageType: 'guide', slug: 'ontbrekende-stukjes-puzzels-maken', anchorText: 'Ontbrekende Stukjes Puzzels Maken' },
-    { pageType: 'tool', slug: 'vreemde-eend-maker', anchorText: 'Probeer de Vreemde Eend Werkblad Maker' },
+    { pageType: 'tool', slug: 'odd-one-out', anchorText: 'Probeer de Vreemde Eend Werkblad Maker' },
   ],
 
   toolsRecommended: [

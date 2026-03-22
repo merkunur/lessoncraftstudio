@@ -15,7 +15,7 @@ const content: ToolContent = {
       'sprachspezifische Alphabete Umlaute ÄÖÜ Suchbild-Generator',
     ],
     titleTag: 'Suchen-und-Zählen-Ersteller | Suchbild-Generator',
-    metaDescription: 'Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi und vier Aufgabentypen erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi und vier Aufgabentypen erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit.',
   },
 
   hero: {

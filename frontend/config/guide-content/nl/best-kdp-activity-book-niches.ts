@@ -161,11 +161,11 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'geld-verdienen-kdp-activiteitenboeken', anchorText: 'Hoe Geld Verdienen met KDP Activiteitenboeken' },
     { pageType: 'guide', slug: 'kdp-opmaak-werkbladen', anchorText: 'KDP Opmaakgids voor Werkbladboeken' },
     { pageType: 'guide', slug: 'sudoku-boeken-kdp', anchorText: 'Hoe Sudokuboeken Maken voor Amazon KDP' },
-    { pageType: 'guide', slug: 'kdp-versus-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
+    { pageType: 'guide', slug: 'kdp-vs-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
     { pageType: 'guide', slug: 'kleurplaten-maken', anchorText: 'Hoe Kleurplaten Maken van Thematische Afbeeldingen' },
     { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'rekenwerkblad-generator', anchorText: 'Rekenwerkblad Generator — Volledige Details' },
+    { pageType: 'app', slug: 'math-worksheet', anchorText: 'Rekenwerkblad Generator — Volledige Details' },
   ],
 
   toolsRecommended: [

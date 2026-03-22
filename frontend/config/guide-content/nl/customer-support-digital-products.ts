@@ -18,7 +18,7 @@ const content: GuideContent = {
       'schaalbare supportsystemen sjabloonbibliotheken patroonherkenning feedbackloops',
     ],
     titleTag: 'Klantenservice voor Digitale Producten — Gids',
-    metaDescription: 'Klantenservice strategieën voor digitale productverkopers. Behandelt probleempreventie, antwoordsjablonen, retourafhandeling, reviewbeheer en schaalbare supportsystemen.',
+    metaDescription: 'Klantenservice strategieën voor digitale productverkopers. Behandelt probleempreventie, antwoordsjablonen, retourafhandeling, reviewbeheer en schaalbare.',
   },
 
   hero: {
@@ -155,11 +155,11 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'reviews-krijgen-printable-producten', anchorText: 'Reviews krijgen voor je printable producten' },
+    { pageType: 'guide', slug: 'get-reviews-printable-products', anchorText: 'Reviews krijgen voor je printable producten' },
     { pageType: 'guide', slug: 'kwaliteitsnormen-werkbladen', anchorText: 'Kwaliteitsnormen voor werkbladen hanteren' },
-    { pageType: 'guide', slug: 'prijsstelling-educatieve-printables', anchorText: 'Prijsstelling voor educatieve printables bepalen' },
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
-    { pageType: 'guide', slug: 'educatieve-printables-verkopen-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
+    { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstelling voor educatieve printables bepalen' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve printables verkopen op Etsy' },
     { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Een Etsy printable bedrijf starten' },
     { pageType: 'guide', slug: 'printables-verkopen-gumroad', anchorText: 'Printables verkopen op Gumroad' },
     { pageType: 'guide', slug: 'niche-selectie-printables', anchorText: 'De juiste niche kiezen voor printables' },

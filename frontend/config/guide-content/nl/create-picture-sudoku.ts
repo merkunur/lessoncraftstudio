@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie puzzeltool',
     ],
     titleTag: 'Plaatjessudoku Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak plaatjessudoku voor jonge leerlingen. 4x4 beeldrasters, 3 moeilijkheidsniveaus, thema-afbeeldingen, antwoordsleutels en printklare PDF\'s voor Etsy en KDP.',
+    metaDescription: 'Maak plaatjessudoku voor jonge leerlingen. 4x4 beeldrasters, 3 moeilijkheidsniveaus, thema-afbeeldingen, antwoordsleutels en printklare PDF\'s voor Etsy en.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: StartContent = {
       'etsy printable prijsstrategie',
     ],
     titleTag: 'Printables Verkopen op Etsy — Bedrijf Masterclass',
-    metaDescription: 'Hoe printables verkopen op Etsy stap voor stap. Behandelt winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen met werkblad generators.',
+    metaDescription: 'Hoe printables verkopen op Etsy stap voor stap. Behandelt winkelopzet, Etsy SEO, vermeldingsoptimalisatie, prijsstrategie en opschalen met werkblad.',
   },
 
   hero: {

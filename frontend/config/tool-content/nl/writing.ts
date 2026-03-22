@@ -15,7 +15,7 @@ const content: ToolContent = {
       'verbonden en blokschrift schrijfgenerator',
     ],
     titleTag: 'Schrijfoefeningen Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer schrijfoefeningen werkbladen met drie oefenmodi, vijf letterstijlen, pijl-streekorde, vervagende gidsen, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer schrijfoefeningen werkbladen met drie oefenmodi, vijf letterstijlen, pijl-streekorde, vervagende gidsen, 104 thema\'s. Gratis proefversie met.',
   },
 
   hero: {

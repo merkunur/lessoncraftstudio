@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatischer Lösungsschlüssel rote Kreis-Markierungen Suchbilder-Generator',
     ],
     titleTag: 'Suchbilder-Ersteller | Versteckte-Objekte-Rätsel',
-    metaDescription: 'Suchbild-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen. Jetzt entdecken.',
+    metaDescription: 'Suchbild-Arbeitsblätter mit Ich-sehe-was und Was-passt-nicht-Modus erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

@@ -157,7 +157,7 @@ const content: GuideContent = {
   internalLinks: [
     { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids voor Commerciële Licenties' },
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken Activiteitenboeken voor Amazon KDP' },
     { pageType: 'app', slug: 'optellen-werkbladen', anchorText: 'Optellen Werkblad Generator — Alle Details' },
     { pageType: 'app', slug: 'aftrekken-werkbladen', anchorText: 'Aftrekken Werkblad Generator — Alle Details' },

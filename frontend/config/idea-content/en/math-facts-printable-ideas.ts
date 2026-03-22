@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Math Facts Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers and parents who need practice sheets.',
+    metaDescription: 'Discover math facts printable ideas to sell on Etsy, Amazon KDP, and TPT. Niche strategies for sellers targeting teachers and parents who need practice.',
 
     primaryKeyword: 'math facts printable ideas',
     secondaryKeywords: [

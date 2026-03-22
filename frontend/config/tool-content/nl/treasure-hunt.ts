@@ -15,7 +15,7 @@ const content: ToolContent = {
       'automatisch antwoordblad gemarkeerde schatcel dubbel-canvas creator',
     ],
     titleTag: 'Schattenjacht Maker — Schattenjacht Werkblad Generator',
-    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met twee richtingstypen, thematische oriëntatiepunten, automatische antwoordbladen en 104 beeldsets. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met twee richtingstypen, thematische oriëntatiepunten, automatische antwoordbladen en 104 beeldsets.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias de Imprimíveis de Construção — Guia de Nicho',
-    metaDescription: 'Ideias lucrativas de imprimíveis de construção para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos temáticos de veículos e ferramentas para vendedores.',
+    metaDescription: 'Ideias lucrativas de imprimíveis de construção para vender no Etsy, Amazon KDP e TPT. Conceitos de produtos temáticos de veículos e ferramentas para.',
 
     primaryKeyword: 'ideias de imprimíveis de construção',
     secondaryKeywords: [

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'vermeldingsoptimalisatie verwachtingen stellen kopercommunicatie na-aankoop ervaring',
     ],
     titleTag: 'Reviews Krijgen voor Printable Producten — Gids',
-    metaDescription: 'Bewezen strategieën om reviews te krijgen voor printable producten. Bouw sociale bewijskracht op, verdien authentieke kopersfeedback en versterk je Etsy- en KDP-winkelreputatie.',
+    metaDescription: 'Bewezen strategieën om reviews te krijgen voor printable producten. Bouw sociale bewijskracht op, verdien authentieke kopersfeedback en versterk je Etsy.',
   },
 
   hero: {
@@ -160,7 +160,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'Prijsstrategieën voor Educatieve Printables' },
     { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Educatieve Printables Verkopen op Etsy' },
-    { pageType: 'start', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
+    { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Een Etsy Printable Winkel Starten' },
     { pageType: 'guide', slug: 'sell-printables-gumroad', anchorText: 'Printables Verkopen op Gumroad' },
     { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'Nicheselectie voor Printable Bedrijven' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekpuzzels Maken met de Generator' },

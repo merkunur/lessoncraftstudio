@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Suma Codificada | Crear y Vender',
     metaDescription:
-      'Crea puzzles de suma codificada para vender en Etsy, KDP y TPT. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI. Prueba gratis con marca de agua.',
+      'Crea puzzles de suma codificada para vender en Etsy, KDP y TPT. Modo Palabra Revelada, 104 temas, 11 idiomas, claves, 400+ DPI.',
   },
 
   hero: {

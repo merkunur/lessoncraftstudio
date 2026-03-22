@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik kleurplaten generator',
     ],
     titleTag: 'Kleurplaten Generator | Maak & Verkoop Printables',
-    metaDescription: 'Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en TPT. Vrij canvas, 104 thema\'s, uit de vrije hand tekenen, grijstintenexport. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en TPT. Vrij canvas, 104 thema\'s, uit de vrije hand tekenen, grijstintenexport.',
   },
 
   hero: {

@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
     { pageType: 'app', slug: 'groot-klein-werkbladen', anchorText: 'Groot & Klein Werkblad Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'groot-klein-maker', anchorText: 'Probeer de Groot & Klein Werkblad Maker' },
+    { pageType: 'tool', slug: 'big-small', anchorText: 'Probeer de Groot & Klein Werkblad Maker' },
   ],
 
   toolsRecommended: [

@@ -18,7 +18,7 @@ const content: StartContent = {
       'strategia reinvestimento per attività stampabili',
     ],
     titleTag: 'Scalare Attività Stampabili — Da Hobby a Full-Time',
-    metaDescription: 'Come scalare la tua attività di stampabili da lavoretto secondario a tempo pieno. Espansione catalogo, distribuzione multi-piattaforma, bundling e automazione.',
+    metaDescription: 'Come scalare la tua attività di stampabili da lavoretto secondario a tempo pieno. Espansione catalogo, distribuzione multi-piattaforma, bundling e.',
   },
 
   hero: {

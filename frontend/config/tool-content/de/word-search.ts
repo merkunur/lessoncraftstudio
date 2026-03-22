@@ -15,7 +15,7 @@ const content: ToolContent = {
       'mehrsprachiger Buchstabengitter-Rätsel-Generator',
     ],
     titleTag: 'Wortsuche-Generator | Buchstabengitter-Rätsel',
-    metaDescription: 'Wortsuche-Arbeitsblätter mit Gittern 5×5 bis 30×30 und Richtungssteuerung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen. Professionell.',
+    metaDescription: 'Wortsuche-Arbeitsblätter mit Gittern 5×5 bis 30×30 und Richtungssteuerung erstellen. 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

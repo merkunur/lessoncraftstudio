@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Schattenjacht Generator | Maak & Verkoop Padzoekpuzzels',
     metaDescription:
-      'Maak schattenjacht werkbladen om te verkopen op Etsy, KDP & TPT. 5×5 coördinatenraster, twee richtingstypen, automatisch antwoordblad, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak schattenjacht werkbladen om te verkopen op Etsy, KDP & TPT. 5×5 coördinatenraster, twee richtingstypen, automatisch antwoordblad, 104 thema\'s.',
   },
 
   hero: {

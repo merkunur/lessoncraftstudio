@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk puzzel werkblad creatie tool',
     ],
     titleTag: 'Puzzel Werkbladen Bundel — 4 Logica & Puzzel Generators',
-    metaDescription: 'Puzzel werkbladen bundel met 4 generators: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en TPT. Commerciële licentie inbegrepen.',
+    metaDescription: 'Puzzel werkbladen bundel met 4 generators: ontbrekende stukjes, vreemde eend, plaatjes sudoku en doolhoven. Verkoop op Etsy, KDP en TPT.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Insectes à Vendre — Guide de Niche',
-    metaDescription: 'Idées d’imprimables insectes à vendre sur Etsy, Amazon KDP et TPT. Concepts produits papillons et petites bêtes, stratégies de plateformes et conseils vendeurs.',
+    metaDescription: 'Idées d’imprimables insectes à vendre sur Etsy, Amazon KDP et TPT. Concepts produits papillons et petites bêtes, stratégies de plateformes et conseils.',
 
     primaryKeyword: 'idées d\'imprimables insectes à vendre',
     secondaryKeywords: [

@@ -14,8 +14,8 @@ const content: ToolContent = {
       'nul-overlap scènegeneratie adaptieve grootte algoritme',
       'automatisch antwoordblad rode cirkel annotaties verborgen voorwerp creator',
     ],
-    titleTag: 'Zoek Voorwerpen Maker — Verborgen Voorwerp Werkblad Generator',
-    metaDescription: 'Maak verborgen voorwerp werkbladen met Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap scènes, automatische antwoordbladen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    titleTag: 'Zoek Voorwerpen Maker — Verborgen Voorwerp Generator',
+    metaDescription: 'Maak verborgen voorwerp werkbladen met Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap scènes, automatische antwoordbladen, 104.',
   },
 
   hero: {

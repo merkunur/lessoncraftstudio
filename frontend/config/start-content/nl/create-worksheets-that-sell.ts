@@ -18,7 +18,7 @@ const content: StartContent = {
       'printklare PDF werkbladen',
     ],
     titleTag: 'Werkbladen Maken om te Verkopen — Professionele Gids',
-    metaDescription: 'Hoe werkbladen te maken die verkopen op Etsy, Amazon KDP en TPT. Stapsgewijze gids over thematische afbeeldingen, antwoordbladen, prijzen en vermeldingsoptimalisatie.',
+    metaDescription: 'Hoe werkbladen te maken die verkopen op Etsy, Amazon KDP en TPT. Stapsgewijze gids over thematische afbeeldingen, antwoordbladen, prijzen en.',
   },
 
   hero: {

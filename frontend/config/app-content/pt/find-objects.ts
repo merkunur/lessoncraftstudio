@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Gerador Fichas Objetos Ocultos | para Vender',
     metaDescription:
-      'Crie fichas de objetos ocultos para Etsy, KDP e TPT. Modos Eu Vejo e Encontra o Diferente, cenas sem sobreposição, gabarito automático, 104 temas. Teste grátis.',
+      'Crie fichas de objetos ocultos para Etsy, KDP e TPT. Modos Eu Vejo e Encontra o Diferente, cenas sem sobreposição, gabarito automático, 104 temas.',
   },
 
   hero: {

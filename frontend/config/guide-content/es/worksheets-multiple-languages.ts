@@ -18,7 +18,7 @@ const content: GuideContent = {
       'producción por lotes generación contenido varios idiomas herramientas traducción automatizada bases vocabulario',
     ],
     titleTag: 'Crear fichas en varios idiomas — Guía',
-    metaDescription: 'Cómo crear fichas en varios idiomas: flujos de producción, gestión de caracteres, selección de fuentes, control de calidad y adaptación de listados para vender.',
+    metaDescription: 'Cómo crear fichas en varios idiomas: flujos de producción, gestión de caracteres, selección de fuentes, control de calidad y adaptación de listados para.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: StartContent = {
       'commercial vs personal use printables',
     ],
     titleTag: 'Commercial Use Printable License Guide for Sellers',
-    metaDescription: 'Understand commercial use printable licenses for selling worksheets on Etsy, Amazon KDP, and other platforms. Two tiers explained with clear rights and pricing.',
+    metaDescription: 'Understand commercial use printable licenses for selling worksheets on Etsy, Amazon KDP, and other platforms. Two tiers explained with clear rights and.',
   },
 
   hero: {

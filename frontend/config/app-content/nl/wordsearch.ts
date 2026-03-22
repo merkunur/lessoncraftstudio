@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Woordzoeker Generator | Maak & Verkoop Werkbladen',
     metaDescription:
-      'Maak woordzoeker werkbladen om te verkopen op Etsy, KDP en TPT. Rastergrootte 5–30, richtingsbesturing, taalspecifieke opvulletters. Gratis proefversie met watermerk.',
+      'Maak woordzoeker werkbladen om te verkopen op Etsy, KDP en TPT. Rastergrootte 5–30, richtingsbesturing, taalspecifieke opvulletters.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'afleidersstukjes legpuzzel werkblad creator tool',
     ],
     titleTag: 'Ontbrekende Stukjes Maker — Legpuzzel Werkblad Generator',
-    metaDescription: 'Maak ontbrekende stukjes puzzels met 6 stukvormen, instelbare moeilijkheid, slimme extractie met afleiders, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak ontbrekende stukjes puzzels met 6 stukvormen, instelbare moeilijkheid, slimme extractie met afleiders, 104 thema\'s. Gratis proefversie — licentie.',
   },
 
   hero: {

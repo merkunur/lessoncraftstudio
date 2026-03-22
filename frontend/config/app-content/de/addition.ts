@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Additions-Arbeitsblatt-Generator | Mathe-Druckvorlagen',
     metaDescription:
-      'Mathe-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 104 Themen, 4 Additions-Modi, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit Wasserzeichen.',
+      'Mathe-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 104 Themen, 4 Additions-Modi, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit.',
   },
 
   hero: {

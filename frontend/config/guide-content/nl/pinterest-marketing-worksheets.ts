@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Pinterest analytics optimalisatie',
     ],
     titleTag: 'Pinterest Marketing voor Werkbladen Verkopers — Gids',
-    metaDescription: 'Leer hoe je Pinterest inzet om werkbladen en printables te verkopen. Ontdek pin-ontwerp, SEO-strategieën, bordplanning en analytics voor maximaal bereik en omzet.',
+    metaDescription: 'Leer hoe je Pinterest inzet om werkbladen en printables te verkopen. Ontdek pin-ontwerp, SEO-strategieën, bordplanning en analytics voor maximaal bereik.',
   },
 
   hero: {

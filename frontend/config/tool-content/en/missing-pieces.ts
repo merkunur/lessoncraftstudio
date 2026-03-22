@@ -15,7 +15,7 @@ const content: ToolContent = {
       'distractor piece jigsaw puzzle worksheet creator tool',
     ],
     titleTag: 'Missing Pieces Maker — Jigsaw Puzzle Worksheet Generator',
-    metaDescription: 'Create jigsaw puzzle worksheets with 6 piece shapes, configurable difficulty, smart extraction with distractor pieces, 104 themes. Try free — license available.',
+    metaDescription: 'Create jigsaw puzzle worksheets with 6 piece shapes, configurable difficulty, smart extraction with distractor pieces, 104 themes.',
   },
 
   hero: {

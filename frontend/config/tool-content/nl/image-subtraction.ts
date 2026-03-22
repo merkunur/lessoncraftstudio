@@ -15,7 +15,7 @@ const content: ToolContent = {
       'min-sommen werkblad generator',
     ],
     titleTag: 'Aftrekken Werkblad Maker | Rekenbladen met Afbeeldingen',
-    metaDescription: 'Maak aftrekwerkbladen met doorstreep-visuals in enkele seconden. 104 thema\'s, instelbare moeilijkheid, printklare PDF-export. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Maak aftrekwerkbladen met doorstreep-visuals in enkele seconden. 104 thema\'s, instelbare moeilijkheid, printklare PDF-export. Gratis proefversie met.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Schaduw Koppelen Generator | Maak & Verkoop Silhouetpuzzels',
     metaDescription:
-      'Maak schaduw koppelen werkbladen om te verkopen op Etsy, KDP & TPT. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak schaduw koppelen werkbladen om te verkopen op Etsy, KDP & TPT. Schaduw-modus en maak-het-compleet-modus, automatische silhouetten, 104 thema\'s.',
   },
 
   hero: {

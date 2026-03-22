@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Frühling-Garten Lernmaterialien Verkauf',
     ],
     titleTag: 'Frühling-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Frühling-Druckvorlagen-Ideen für Etsy, KDP und TPT. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für erfolgreiche Druckvorlagen-Verkäufer.',
+    metaDescription: 'Frühling-Druckvorlagen-Ideen für Etsy, KDP und TPT. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für erfolgreiche.',
   },
   hero: {
     title: 'Frühling Druckvorlagen-Geschäftsideen für Verkäufer',

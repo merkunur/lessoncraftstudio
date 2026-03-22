@@ -15,7 +15,7 @@ const content: ToolContent = {
       'herramienta de fichas de palabras de posición para vender',
     ],
     titleTag: 'Generador Fichas de Preposiciones | para Vender',
-    metaDescription: 'Genera fichas de preposiciones con modos completar y opción múltiple, reemplazo de formas, 104 temas, 11 idiomas y PDF listo. Prueba gratuita con marca de agua.',
+    metaDescription: 'Genera fichas de preposiciones con modos completar y opción múltiple, reemplazo de formas, 104 temas, 11 idiomas y PDF listo. Prueba gratuita con marca de.',
   },
 
   hero: {

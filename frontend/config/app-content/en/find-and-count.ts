@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'i-spy-books-kdp',
+      slug: 'farm-animals-printable-ideas',
       anchorText: 'How to Create I Spy Books for Amazon KDP',
     },
     {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'multiple unique bingo cards generator',
     ],
     titleTag: 'Create Bingo Cards with Themed Images — Guide',
-    metaDescription: 'How to create bingo cards with themed images. Choose grid sizes, generate unique cards with call-out sheets, and export print-ready PDFs to sell on Etsy & KDP.',
+    metaDescription: 'How to create bingo cards with themed images. Choose grid sizes, generate unique cards with call-out sheets, and export print-ready PDFs to sell on Etsy &.',
   },
 
   hero: {

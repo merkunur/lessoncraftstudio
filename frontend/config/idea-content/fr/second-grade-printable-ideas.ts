@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables CE1 à Vendre — Guide de Niche',
-    metaDescription: 'Découvrez des idées d\'imprimables CE1 à vendre sur Etsy, KDP et TPT. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du CE1.',
+    metaDescription: 'Découvrez des idées d\'imprimables CE1 à vendre sur Etsy, KDP et TPT. Concepts de produits et stratégies de niche pour les vendeurs ciblant le programme du.',
 
     primaryKeyword: 'idées d\'imprimables ce1 à vendre',
     secondaryKeywords: [

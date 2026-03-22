@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'visual-discrimination-printable-ideas',
+      slug: 'preschool-printable-ideas',
       anchorText: 'Visual Discrimination Printable Ideas for Worksheets',
     },
     {

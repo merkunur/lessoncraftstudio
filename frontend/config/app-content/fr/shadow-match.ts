@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Discrimination Visuelle | Silhouettes',
     metaDescription:
-      'Créez des fiches discrimination visuelle pour Etsy, KDP et TPT. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches discrimination visuelle pour Etsy, KDP et TPT. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes.',
   },
 
   hero: {

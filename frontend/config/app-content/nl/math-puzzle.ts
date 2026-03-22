@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Rekenpuzzel Generator | Maak en Verkoop Printables',
     metaDescription:
-      'Maak rekenpuzzel werkbladen om te verkopen op Etsy, KDP en TPT. Plaatjespuzzels met optellen en aftrekken, instelbare rasters. Gratis proefversie met watermerk.',
+      'Maak rekenpuzzel werkbladen om te verkopen op Etsy, KDP en TPT. Plaatjespuzzels met optellen en aftrekken, instelbare rasters. Gratis proefversie met.',
   },
 
   hero: {

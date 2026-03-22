@@ -15,7 +15,7 @@ const content: ToolContent = {
       'fichas de secuencias AB ABC para vender en línea',
     ],
     titleTag: 'Generador de Fichas Tren de Patrones | Vender',
-    metaDescription: 'Genera fichas de tren de patrones con cinco tipos de patrón, 11 vagones temáticos y número de pistas ajustable. Exporta PDF. Prueba gratuita con marca de agua.',
+    metaDescription: 'Genera fichas de tren de patrones con cinco tipos de patrón, 11 vagones temáticos y número de pistas ajustable. Exporta PDF. Prueba gratuita con marca de.',
   },
 
   hero: {

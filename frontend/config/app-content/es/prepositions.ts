@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Preposiciones | Crear y Vender',
     metaDescription:
-      'Crea fichas de preposiciones para vender en Etsy, KDP y TPT. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de agua.',
+      'Crea fichas de preposiciones para vender en Etsy, KDP y TPT. 8 preposiciones espaciales, completar el hueco y opción múltiple. Prueba gratis con marca de.',
   },
 
   hero: {

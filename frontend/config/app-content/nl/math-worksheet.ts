@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Algebra Puzzel Generator | Reken Werkbladen Maken',
     metaDescription:
-      'Maak algebra puzzel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingen als variabelen, 4 moeilijkheidsniveaus, unieke oplossingen. Gratis proefversie met watermerk.',
+      'Maak algebra puzzel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingen als variabelen, 4 moeilijkheidsniveaus, unieke oplossingen.',
   },
 
   hero: {

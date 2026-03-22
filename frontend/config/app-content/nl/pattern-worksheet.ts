@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik patronenherkenning werkbladen generator',
     ],
     titleTag: 'Patronen Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak patronen werkbladen om te verkopen op Etsy, KDP en TPT. Negen patroontypen, twee vraagmodi, per-oefening configuratie, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak patronen werkbladen om te verkopen op Etsy, KDP en TPT. Negen patroontypen, twee vraagmodi, per-oefening configuratie, 104 thema\'s.',
   },
 
   hero: {

@@ -158,11 +158,11 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'Complete Gids voor het Starten van een Printable Bedrijf' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Gids Commerciële Licentie' },
     { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Hoe Woordzoekers Maken' },
-    { pageType: 'guide', slug: 'zoekdeparen-werkbladen-maken', anchorText: 'Hoe Zoek-de-Paren Werkbladen Maken' },
+    { pageType: 'guide', slug: 'create-matching-worksheets', anchorText: 'Hoe Zoek-de-Paren Werkbladen Maken' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'guide', slug: 'tpt-materialen-maken-verkopen', anchorText: 'TpT Materialen Maken en Verkopen' },
-    { pageType: 'app', slug: 'bingo-werkbladen', anchorText: 'Bingo Generator — Alle Details' },
-    { pageType: 'tool', slug: 'bingo-maker', anchorText: 'Probeer de Bingo Maker' },
+    { pageType: 'app', slug: 'picture-bingo', anchorText: 'Bingo Generator — Alle Details' },
+    { pageType: 'tool', slug: 'bingo', anchorText: 'Probeer de Bingo Maker' },
   ],
 
   toolsRecommended: [

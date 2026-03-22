@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Summer Learning Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover summer learning printable ideas to sell on Etsy, Amazon KDP, and TPT. Seasonal product concepts for parents, teachers, and camp activity coordinators.',
+    metaDescription: 'Discover summer learning printable ideas to sell on Etsy, Amazon KDP, and TPT. Seasonal product concepts for parents, teachers, and camp activity.',
 
     primaryKeyword: 'summer learning printable ideas',
     secondaryKeywords: [

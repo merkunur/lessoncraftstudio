@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'fichas matemáticas preescolar para profesores',
     ],
     titleTag: 'Crear Fichas de Suma — Para Profesores y Padres',
-    metaDescription: 'Crea fichas de suma con imágenes temáticas para el aula. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de agua.',
+    metaDescription: 'Crea fichas de suma con imágenes temáticas para el aula. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de.',
     },
 
   hero: {

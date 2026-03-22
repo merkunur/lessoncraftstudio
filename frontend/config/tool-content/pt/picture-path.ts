@@ -15,7 +15,7 @@ const content: ToolContent = {
       'gabarito automático círculos rosa caminho solução labirintos gerador',
     ],
     titleTag: 'Criador Labirintos com Imagens — Fichas Criar e Vender',
-    metaDescription: 'Crie fichas de labirintos com 3 modos de jogo, algoritmo LPF, colecionáveis, gabaritos automáticos com círculos rosa, 104 temas. Teste grátis com marca d\'água.',
+    metaDescription: 'Crie fichas de labirintos com 3 modos de jogo, algoritmo LPF, colecionáveis, gabaritos automáticos com círculos rosa, 104 temas.',
   },
 
   hero: {

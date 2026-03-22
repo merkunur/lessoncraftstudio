@@ -18,7 +18,7 @@ const content: GuideContent = {
       'identità visiva gerarchia dei prodotti prodotti complementari ecosistema dei prodotti coesione della linea',
     ],
     titleTag: 'Creare una Linea di Prodotti Stampabili | Guida Completa',
-    metaDescription: 'Scopri come creare una linea di prodotti stampabili con branding coerente, sequenziamento strategico ed espansione sistematica per costruire un catalogo coeso.',
+    metaDescription: 'Scopri come creare una linea di prodotti stampabili con branding coerente, sequenziamento strategico ed espansione sistematica per costruire un catalogo.',
   },
 
   hero: {

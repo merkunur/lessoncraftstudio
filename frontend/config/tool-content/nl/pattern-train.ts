@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC patroonreeks werkblad maker',
     ],
     titleTag: 'Patroontrein Werkblad Generator — Trein Maker | Verkoop',
-    metaDescription: 'Genereer patroontrein werkbladen met vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen en automatische antwoordbladen. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Genereer patroontrein werkbladen met vijf patroontypen, 11 thematische treinwagons, instelbaar aantal aanwijzingen en automatische antwoordbladen.',
   },
 
   hero: {

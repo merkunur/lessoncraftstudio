@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie zoekplaatjes maker',
     ],
     titleTag: 'Zoek Voorwerpen Werkbladen Maken — Stap-voor-Stap',
-    metaDescription: 'Zoek voorwerpen werkbladen maken met 2 spelmodi: I Spy en Vreemde Eend. Thematische scènes bouwen, antwoordsleutels genereren en verkopen op Etsy en Amazon KDP.',
+    metaDescription: 'Zoek voorwerpen werkbladen maken met 2 spelmodi: I Spy en Vreemde Eend. Thematische scènes bouwen, antwoordsleutels genereren en verkopen op Etsy en.',
   },
 
   hero: {
@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken Uitgeven op Amazon KDP' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'voorwerpen-zoeken-werkbladen', anchorText: 'Zoek Voorwerpen Scène Generator — Volledige Details' },
+    { pageType: 'app', slug: 'find-objects', anchorText: 'Zoek Voorwerpen Scène Generator — Volledige Details' },
     { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Afbeeldingspad Doolhof Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'voorwerpen-zoeken-maker', anchorText: 'Probeer de Zoek Voorwerpen Scène Maker' },
+    { pageType: 'tool', slug: 'find-objects', anchorText: 'Probeer de Zoek Voorwerpen Scène Maker' },
   ],
 
   toolsRecommended: [

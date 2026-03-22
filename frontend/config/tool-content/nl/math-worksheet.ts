@@ -15,7 +15,7 @@ const content: ToolContent = {
       'afbeeldingsvariabele rekenactiviteit generator',
     ],
     titleTag: 'Rekenwerkblad Generator | Visuele Algebra Puzzels',
-    metaDescription: 'Genereer algebra beeldpuzzels waarbij afbeeldingen variabelen voorstellen in gekoppelde vergelijkingen. Vier moeilijkheidsniveaus, unieke oplossingen. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer algebra beeldpuzzels waarbij afbeeldingen variabelen voorstellen in gekoppelde vergelijkingen. Vier moeilijkheidsniveaus, unieke oplossingen.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Ankreuzen-und-Durchstreichen-Aktivitäten Generator',
     ],
     titleTag: 'Mehr-oder-Weniger-Ersteller | Vergleichsübungen',
-    metaDescription: 'Größer-als- und Kleiner-als-Arbeitsblätter mit Bildern erstellen. Drei Modi inkl. Ankreuzen und Durchstreichen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Größer-als- und Kleiner-als-Arbeitsblätter mit Bildern erstellen. Drei Modi inkl. Ankreuzen und Durchstreichen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

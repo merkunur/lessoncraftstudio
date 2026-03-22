@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Schatzkarte-Thema Lernmaterialien Etsy',
     ],
     titleTag: 'Piraten-Druckvorlagen-Ideen — Verkäufer-Guide',
-    metaDescription: 'Entdecken Sie Piraten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Piratenthema-Produktkonzepte, Plattformtipps und Strategien für Verkäufer.',
+    metaDescription: 'Entdecken Sie Piraten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Piratenthema-Produktkonzepte, Plattformtipps und Strategien für.',
   },
   hero: {
     title: 'Piraten-Druckvorlagen-Geschäftsideen für Verkäufer',

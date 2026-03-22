@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas de Asociación | Crear y Vender',
     metaDescription:
-      'Crea fichas de asociación para Etsy, KDP y TPT. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables. Prueba gratis con marca de agua.',
+      'Crea fichas de asociación para Etsy, KDP y TPT. 4 modos de asociación, clave de respuesta auto, 104 temas, pares configurables.',
   },
 
   hero: {

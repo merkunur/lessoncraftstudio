@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Katalog-Skalierung Pakete kategorieübergreifende Werbung Schriftarten Grafiken Lernressourcen',
     ],
     titleTag: 'Lernmaterialien verkaufen auf Creative Fabrica — Leitfaden',
-    metaDescription: 'Lernmaterialien auf Creative Fabrica verkaufen. Einnahmen aus Abonnements und Einzelverkäufen, Craft- und Pädagogen-Publikum im Klassenzimmer-Bereich erreichen.',
+    metaDescription: 'Lernmaterialien auf Creative Fabrica verkaufen. Einnahmen aus Abonnements und Einzelverkäufen, Craft- und Pädagogen-Publikum im Klassenzimmer-Bereich.',
   },
 
   hero: {

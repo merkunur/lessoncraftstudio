@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas de Patrones | Crear y Vender',
     metaDescription:
-      'Crea fichas de patrones para Etsy, KDP y TPT. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de agua.',
+      'Crea fichas de patrones para Etsy, KDP y TPT. Nueve tipos de patrones, dos modos de pregunta, config por ejercicio, 104 temas. Prueba gratis con marca de.',
   },
 
   hero: {

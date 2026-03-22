@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador de Puzzles Matemáticos | Crear y Vender',
     metaDescription:
-      'Crea fichas de puzzles matemáticos para vender en Etsy, KDP y TPT. Puzzles con imágenes, suma y resta, cuadrículas ajustables. Prueba gratis con marca de agua.',
+      'Crea fichas de puzzles matemáticos para vender en Etsy, KDP y TPT. Puzzles con imágenes, suma y resta, cuadrículas ajustables. Prueba gratis con marca de.',
   },
 
   hero: {

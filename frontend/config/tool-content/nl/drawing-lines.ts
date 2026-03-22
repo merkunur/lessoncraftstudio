@@ -15,7 +15,7 @@ const content: ToolContent = {
       'afbeeldingspaar matching lijntraceer printables',
     ],
     titleTag: 'Lijntraceer Werkblad Maker — Lijnen Trekken Generator',
-    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen, 3.100+ illustraties over 104 thema\'s en automatisch vullen van afbeeldingsparen. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak lijntraceer werkbladen met acht SVG-sjablonen, 3.100+ illustraties over 104 thema\'s en automatisch vullen van afbeeldingsparen.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches d\'Écriture | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d’écriture manuscrite pour Etsy, KDP et TPT. 3 modes progressifs, 5 polices, tracé fléché et dégradé, 104 thèmes. Essai gratuit avec filigrane.',
+      'Créez des fiches d’écriture manuscrite pour Etsy, KDP et TPT. 3 modes progressifs, 5 polices, tracé fléché et dégradé, 104 thèmes.',
   },
 
   hero: {

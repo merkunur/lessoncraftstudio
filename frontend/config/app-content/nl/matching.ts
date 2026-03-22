@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Verbindingswerkblad Generator | Maak & Verkoop Online',
     metaDescription:
-      'Maak verbindingswerkbladen om te verkopen op Etsy, KDP & TPT. 4 koppelmodi, automatisch antwoordblad, 104 thema\'s, instelbaar aantal paren. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak verbindingswerkbladen om te verkopen op Etsy, KDP & TPT. 4 koppelmodi, automatisch antwoordblad, 104 thema\'s, instelbaar aantal paren.',
   },
 
   hero: {

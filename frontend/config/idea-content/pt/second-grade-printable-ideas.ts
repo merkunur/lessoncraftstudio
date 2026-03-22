@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias Imprimíveis Segundo Ano — Guia de Nicho',
-    metaDescription: 'Descubra ideias de imprimíveis de segundo ano para vender no Etsy, Amazon KDP e TPT. Produtos educativos de segundo ano e estratégias de nicho para vendedores.',
+    metaDescription: 'Descubra ideias de imprimíveis de segundo ano para vender no Etsy, Amazon KDP e TPT. Produtos educativos de segundo ano e estratégias de nicho para.',
     primaryKeyword: 'ideias imprimíveis segundo ano',
     secondaryKeywords: [
       'fichas segundo ano para vender',

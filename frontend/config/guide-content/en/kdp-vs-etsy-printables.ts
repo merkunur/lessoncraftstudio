@@ -18,7 +18,7 @@ const content: GuideContent = {
       'printable worksheet activity book coloring page puzzle book marketplace',
     ],
     titleTag: 'KDP vs Etsy Printables — Comparison Guide',
-    metaDescription: 'KDP vs Etsy for printable sellers. Compare fee structures, product formats, traffic mechanics, and learn multi-platform strategies for your printable business.',
+    metaDescription: 'KDP vs Etsy for printable sellers. Compare fee structures, product formats, traffic mechanics, and learn multi-platform strategies for your printable.',
   },
 
   hero: {

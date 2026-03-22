@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Distraktoren Jigsaw-Puzzle-Arbeitsblatt-Ersteller visuelles Rätsel-Werkzeug',
     ],
     titleTag: 'Fehlende-Puzzleteile-Ersteller | Puzzle-Rätsel',
-    metaDescription: 'Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen und 1–5 fehlenden Teilen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen und 1–5 fehlenden Teilen erstellen. Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

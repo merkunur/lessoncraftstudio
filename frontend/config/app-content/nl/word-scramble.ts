@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Woordkruisel Generator | Maak Letterpuzzel Werkbladen',
     metaDescription:
-      'Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en TPT. Gehusselde lettertegels, klinker-medeklinker kleuren, 4 niveaus, 11 talen. Gratis proefversie met watermerk.',
+      'Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en TPT. Gehusselde lettertegels, klinker-medeklinker kleuren, 4 niveaus, 11 talen.',
   },
 
   hero: {

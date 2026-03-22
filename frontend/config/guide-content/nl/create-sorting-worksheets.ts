@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie sorteertool',
     ],
     titleTag: 'Sorteerwerkbladen Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Maak sorteerwerkbladen met tweecategorie themamodus, 4–12 afbeeldingen, geschudde knipgrids en automatische antwoordsleutels. Gids voor verkoop op Etsy en KDP.',
+    metaDescription: 'Maak sorteerwerkbladen met tweecategorie themamodus, 4–12 afbeeldingen, geschudde knipgrids en automatische antwoordsleutels. Gids voor verkoop op Etsy en.',
   },
 
   hero: {
@@ -160,7 +160,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'etsy-werkblad-pakketten-maken', anchorText: 'Etsy Werkblad Pakketten Maken' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'plaatjes-sorteren-werkbladen', anchorText: 'Plaatjes Sorteren Werkbladgenerator — Volledige Details' },
+    { pageType: 'app', slug: 'picture-sort', anchorText: 'Plaatjes Sorteren Werkbladgenerator — Volledige Details' },
     { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Probeer de Plaatjes Sorteren Werkblad Maker' },
   ],
 

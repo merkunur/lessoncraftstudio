@@ -18,7 +18,7 @@ const content: GuideContent = {
       'strumento puzzle con licenza commerciale',
     ],
     titleTag: 'Creare Sudoku con Immagini per Bambini | Guida Vendita',
-    metaDescription: 'Crea sudoku con immagini per piccoli studenti. Griglie 4x4, 3 livelli di difficoltà, immagini tematiche, chiavi di risposta e PDF pronti per la stampa per Etsy.',
+    metaDescription: 'Crea sudoku con immagini per piccoli studenti. Griglie 4x4, 3 livelli di difficoltà, immagini tematiche, chiavi di risposta e PDF pronti per la stampa per.',
   },
 
   hero: {

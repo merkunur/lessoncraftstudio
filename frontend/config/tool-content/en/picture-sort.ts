@@ -15,7 +15,7 @@ const content: ToolContent = {
       'shuffled cutout grid sorting activity creator tool',
     ],
     titleTag: 'Picture Sort Maker — Sorting Worksheet Generator',
-    metaDescription: 'Create sorting worksheets with two-category theme mode, shuffled cutout grids, auto answer keys, and 104 themed image collections. Try free — license available.',
+    metaDescription: 'Create sorting worksheets with two-category theme mode, shuffled cutout grids, auto answer keys, and 104 themed image collections.',
   },
 
   hero: {

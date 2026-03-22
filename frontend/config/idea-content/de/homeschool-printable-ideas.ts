@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Heimunterricht-Ressourcen Druckvorlagen-Geschäft',
     ],
     titleTag: 'Heimunterricht-Druckvorlagen — Verkäufer-Guide',
-    metaDescription: 'Heimunterricht-Druckvorlagen-Ideen für Etsy, KDP und TPT. Nischenstrategien für den wachsenden Markt, in dem Eltern Lehrpläne aus Druckvorlagen zusammenstellen.',
+    metaDescription: 'Heimunterricht-Druckvorlagen-Ideen für Etsy, KDP und TPT. Nischenstrategien für den wachsenden Markt, in dem Eltern Lehrpläne aus Druckvorlagen.',
   },
   hero: {
     title: 'Heimunterricht-Druckvorlagen-Geschäftsideen für Verkäufer',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'taalspecifiek alfabet accentletters ik zie ik zie generator',
     ],
     titleTag: 'Zoek & Tel Maker — Ik Zie Ik Zie Werkblad Generator',
-    metaDescription: 'Maak ik zie ik zie werkbladen met Verborgen Voorwerp en Letterherkenning modi, vier taaktypen, taalspecifieke alfabetten, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak ik zie ik zie werkbladen met Verborgen Voorwerp en Letterherkenning modi, vier taaktypen, taalspecifieke alfabetten, 104 thema\'s.',
   },
 
   hero: {

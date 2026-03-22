@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Préscolaires à Vendre — Guide',
-    metaDescription: 'Découvrez des idées d\'imprimables préscolaires à vendre sur Etsy, KDP et TPT. Concepts produits maternelle, stratégies de niche et conseils pour entrepreneurs.',
+    metaDescription: 'Découvrez des idées d\'imprimables préscolaires à vendre sur Etsy, KDP et TPT. Concepts produits maternelle, stratégies de niche et conseils pour.',
 
     primaryKeyword: 'idées d\'imprimables préscolaires à vendre',
     secondaryKeywords: [

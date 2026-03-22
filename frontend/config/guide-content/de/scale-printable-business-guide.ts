@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Geschäftssysteme wiederholbare Prozesse Produktionspipeline Inhaltsmultiplikation',
     ],
     titleTag: 'Druckvorlagen-Geschäft skalieren — Wachstumstipps',
-    metaDescription: 'Druckvorlagen-Geschäft skalieren mit Stapelproduktion, Multiplattform-Expansion und Katalogwachstum. Mehrsprachige Märkte und Automatisierung für mehr Wachstum.',
+    metaDescription: 'Druckvorlagen-Geschäft skalieren mit Stapelproduktion, Multiplattform-Expansion und Katalogwachstum. Mehrsprachige Märkte und Automatisierung für mehr.',
   },
 
   hero: {

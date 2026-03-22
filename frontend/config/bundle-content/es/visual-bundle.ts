@@ -16,7 +16,7 @@ const content: BundleContent = {
       'herramienta de creación masiva de fichas visuales',
     ],
     titleTag: 'Paquete Fichas Aprendizaje Visual | para Vender',
-    metaDescription: '7 generadores de fichas visuales en un paquete: colorear, dibujar, patrones, comparación de tamaños, gráficos y trazado de líneas. Fichas sin texto para vender.',
+    metaDescription: '7 generadores de fichas visuales en un paquete: colorear, dibujar, patrones, comparación de tamaños, gráficos y trazado de líneas.',
   },
 
   hero: {

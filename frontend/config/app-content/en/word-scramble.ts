@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercial use word scramble generator',
     ],
     titleTag: 'Word Scramble Generator | Create Spelling Puzzles',
-    metaDescription: 'Create word scramble worksheets to sell on Etsy, KDP & TPT. Image clues, shuffled letter tiles, vowel color coding, 11 languages. Try free — license available.',
+    metaDescription: 'Create word scramble worksheets to sell on Etsy, KDP & TPT. Image clues, shuffled letter tiles, vowel color coding, 11 languages.',
   },
 
   hero: {

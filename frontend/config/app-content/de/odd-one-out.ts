@@ -15,7 +15,7 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft visuelle Unterscheidung Werkzeuge',
     ],
     titleTag: 'Was-Passt-Nicht-Generator | Ausreißer-Rätsel',
-    metaDescription: 'Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Identisch- und Ähnlich-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Identisch- und Ähnlich-Modus, 104 Themen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
@@ -234,7 +234,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'bauernhof-druckvorlagen-ideen',
+      slug: 'farm-animals-printable-ideas',
       anchorText: 'Bauernhof-Druckvorlagen-Ideen für Arbeitsblätter',
     },
     {

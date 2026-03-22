@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generador Fichas Sopa de Letras | Crear y Vender',
     metaDescription:
-      'Crea fichas de sopa de letras para Etsy, KDP y TPT. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma. Prueba gratis con marca de agua.',
+      'Crea fichas de sopa de letras para Etsy, KDP y TPT. Cuadrícula 5×5 a 30×30, direcciones diagonales, letras adaptadas al idioma.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Aftrekken Werkbladen Generator | Maak en Verkoop Online',
     metaDescription:
-      'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en TPT. 4 modi met doorstreep-visualisatie, 104 thema\'s, antwoordbladen, grijswaarden, 400+ DPI. Proef gratis.',
+      'Maak aftrekwerkbladen om te verkopen op Etsy, KDP en TPT. 4 modi met doorstreep-visualisatie, 104 thema\'s, antwoordbladen, grijswaarden, 400+ DPI.',
   },
 
   hero: {

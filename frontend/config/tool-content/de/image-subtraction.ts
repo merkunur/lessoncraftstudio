@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Zahlenraum 2–20 Subtraktionsübungen',
     ],
     titleTag: 'Subtraktions-Ersteller | Durchstreich-Übungen',
-    metaDescription: 'Subtraktions-Arbeitsblätter mit Durchstreich-Bildern erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Subtraktions-Arbeitsblätter mit Durchstreich-Bildern erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel für Etsy und KDP. Kostenlos testen mit.',
   },
 
   hero: {

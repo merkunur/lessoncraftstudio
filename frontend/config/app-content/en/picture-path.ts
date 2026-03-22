@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'maze-pathway-printable-ideas',
+      slug: 'summer-learning-printable-ideas',
       anchorText: 'Maze and Pathway Printable Ideas for Worksheets',
     },
     {

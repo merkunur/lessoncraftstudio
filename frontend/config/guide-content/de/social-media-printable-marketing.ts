@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Hashtag-Strategie Veröffentlichungsplan Engagement-Rate Profiloptimierung',
     ],
     titleTag: 'Social-Media-Marketing Druckvorlagen — Verkäufer-Leitfaden',
-    metaDescription: 'Social-Media-Marketing-Strategien für Druckvorlagen-Verkäufer: Plattformauswahl, visuelle Inhalte, Zielgruppenaufbau und Engagement, das Shop-Traffic generiert.',
+    metaDescription: 'Social-Media-Marketing-Strategien für Druckvorlagen-Verkäufer: Plattformauswahl, visuelle Inhalte, Zielgruppenaufbau und Engagement, das Shop-Traffic.',
   },
 
   hero: {

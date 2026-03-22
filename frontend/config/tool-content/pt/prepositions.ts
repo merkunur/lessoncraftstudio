@@ -15,7 +15,7 @@ const content: ToolContent = {
       'ferramenta de fichas de palavras de posição para vender',
     ],
     titleTag: 'Gerador Fichas de Preposições | Criar e Vender',
-    metaDescription: 'Gere fichas de preposições com preencher a lacuna e escolha múltipla, substituição de formas, 104 temas, 11 idiomas e PDF pronto. Teste grátis com marca d\'água.',
+    metaDescription: 'Gere fichas de preposições com preencher a lacuna e escolha múltipla, substituição de formas, 104 temas, 11 idiomas e PDF pronto.',
   },
 
   hero: {

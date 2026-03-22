@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commerciële licentie schattenjacht tool',
     ],
     titleTag: 'Schattenjacht Werkbladen Maken — Handleiding',
-    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met richtingsaanwijzingen, thema-afbeeldingen en automatische antwoordsleutels. Gids voor verkoop op Etsy en KDP',
+    metaDescription: 'Maak schattenjacht werkbladen op een 5×5 raster met richtingsaanwijzingen, thema-afbeeldingen en automatische antwoordsleutels.',
   },
 
   hero: {

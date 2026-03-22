@@ -15,7 +15,7 @@ const content: ToolContent = {
       'symmetrie spiegelmodus tekenwerkblad maker',
     ],
     titleTag: 'Rastertekenen Werkblad Generator — Teken & Kleur Maker',
-    metaDescription: 'Genereer rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage, drie symmetriemodi en thematische beeldsets. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Genereer rasterteken werkbladen met dubbele rasters, aanpasbaar aanwijzingspercentage, drie symmetriemodi en thematische beeldsets.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: StartContent = {
       'content marketing for printable business owners',
     ],
     titleTag: 'How to Market Printable Worksheets — Seller Guide',
-    metaDescription: 'How to market printable worksheets online: platform SEO, Pinterest strategy, email marketing, seasonal timing, and brand building for printable business owners.',
+    metaDescription: 'How to market printable worksheets online: platform SEO, Pinterest strategy, email marketing, seasonal timing, and brand building for printable business.',
   },
 
   hero: {

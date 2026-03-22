@@ -14,9 +14,9 @@ const content: AppContent = {
       'commercieel gebruik zoek voorwerpen werkblad generator',
       'printbare visuele zoekactiviteit business tools',
     ],
-    titleTag: 'Zoek Voorwerpen Generator | Maak & Verkoop Verborgen Voorwerp Werkbladen',
+    titleTag: 'Zoek Voorwerpen Generator | Verborgen Voorwerp Werkbladen',
     metaDescription:
-      'Maak verborgen voorwerp werkbladen om te verkopen op Etsy, KDP & TPT. Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap plaatsing, automatisch antwoordblad. Gratis proefversie met watermerk — licentie beschikbaar.',
+      'Maak verborgen voorwerp werkbladen om te verkopen op Etsy, KDP & TPT. Vind de Verborgen Voorwerpen en Vind de Vreemde Eend modi, nul-overlap plaatsing.',
   },
 
   hero: {

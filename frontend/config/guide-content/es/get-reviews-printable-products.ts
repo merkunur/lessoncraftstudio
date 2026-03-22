@@ -18,7 +18,7 @@ const content: GuideContent = {
       'optimización de listado establecimiento de expectativas comunicación con comprador experiencia post-compra',
     ],
     titleTag: 'Obtener Reseñas Productos Imprimibles — Guía',
-    metaDescription: 'Estrategias probadas para obtener reseñas de productos imprimibles. Construye prueba social, gana comentarios auténticos y aumenta la credibilidad del vendedor.',
+    metaDescription: 'Estrategias probadas para obtener reseñas de productos imprimibles. Construye prueba social, gana comentarios auténticos y aumenta la credibilidad del.',
   },
 
   hero: {

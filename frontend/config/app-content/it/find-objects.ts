@@ -15,7 +15,7 @@ const content: AppContent = {
       'strumenti business attività ricerca visiva stampabili',
     ],
     titleTag: 'Generatore Schede Cerca Oggetti | Crea e Vendi Online',
-    metaDescription: 'Crea schede Cerca Oggetti da vendere su Etsy, KDP e TPT. Modalità Cerca e Trova e Trova l\'Intruso, chiave di risposta automatica. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede Cerca Oggetti da vendere su Etsy, KDP e TPT. Modalità Cerca e Trova e Trova l\'Intruso, chiave di risposta automatica.',
   },
 
   hero: {

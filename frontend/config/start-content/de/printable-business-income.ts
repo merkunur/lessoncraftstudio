@@ -18,7 +18,7 @@ const content: StartContent = {
       'mehrere Einnahmequellen druckbare Produkte',
     ],
     titleTag: 'Wie viel verdient man mit Druckvorlagen verkaufen?',
-    metaDescription: 'Wie viel verdient man mit Druckvorlagen? Realistische Einkommenserwartungen, Plattform-Gebühren und Preisstrategien. Die Variablen, die den Verdienst bestimmen.',
+    metaDescription: 'Wie viel verdient man mit Druckvorlagen? Realistische Einkommenserwartungen, Plattform-Gebühren und Preisstrategien. Die Variablen, die den Verdienst.',
   },
 
   hero: {

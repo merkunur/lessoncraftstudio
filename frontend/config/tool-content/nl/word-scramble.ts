@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige spellingpuzzel generator',
     ],
     titleTag: 'Letterpuzzel Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer letterpuzzel werkbladen met gehusselde lettertegels, afbeeldingsaanwijzingen, klinker-kleurcodering, 4 moeilijkheidsniveaus, 11 talen. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer letterpuzzel werkbladen met gehusselde lettertegels, afbeeldingsaanwijzingen, klinker-kleurcodering, 4 moeilijkheidsniveaus, 11 talen.',
   },
 
   hero: {

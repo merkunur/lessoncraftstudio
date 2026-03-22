@@ -18,7 +18,7 @@ const content: StartContent = {
       'commercieel versus persoonlijk gebruik printables',
     ],
     titleTag: 'Commercieel Gebruik Printable Licentie Gids voor Verkopers',
-    metaDescription: 'Begrijp commercieel gebruik printable licenties voor het verkopen van werkbladen op Etsy, Amazon KDP en andere platforms. Twee niveaus uitgelegd met duidelijke rechten en prijzen.',
+    metaDescription: 'Begrijp commercieel gebruik printable licenties voor het verkopen van werkbladen op Etsy, Amazon KDP en andere platforms. Twee niveaus uitgelegd met.',
   },
 
   hero: {

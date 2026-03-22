@@ -18,7 +18,7 @@ const content: GuideContent = {
       'klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw',
     ],
     titleTag: 'Printable Productlijn Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding voor Etsy, KDP en TPT.',
+    metaDescription: 'Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding.',
   },
 
   hero: {

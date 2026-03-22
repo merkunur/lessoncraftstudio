@@ -6,7 +6,7 @@ const content: GuideContent = {
     secondaryKeywords: ['printable business groeistrategie', 'Etsy winkel opschalen', 'werkbladen bedrijf uitbreiden', 'passief inkomen printables opschalen'],
     lsiKeywords: ['omzetgroei productcatalogus marktuitbreiding schaalbare productie', 'multi-platform strategie herhaalaankopen klantenbestand uitbreiden', 'bundel strategie prijsoptimalisatie gemiddelde bestelwaarde verhogen', 'seizoensgebonden groei productlijn uitbreiding niche verbreding', 'automatisering workflow efficiëntie tijdsbesparing productiviteit', 'internationale verkoop meertalige producten wereldwijde markt'],
     titleTag: 'Printable Bedrijf Opschalen — Groeigids',
-    metaDescription: 'Schaal je printable bedrijf op: vergroot je productcatalogus, breid uit naar meerdere platformen, verhoog je gemiddelde bestelwaarde en bouw duurzame inkomstenstromen.',
+    metaDescription: 'Schaal je printable bedrijf op: vergroot je productcatalogus, breid uit naar meerdere platformen, verhoog je gemiddelde bestelwaarde en bouw duurzame.',
   },
   hero: {
     title: 'Je Printable Bedrijf Opschalen',

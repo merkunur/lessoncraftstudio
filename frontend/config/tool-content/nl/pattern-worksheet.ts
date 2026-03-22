@@ -15,7 +15,7 @@ const content: ToolContent = {
       'AB ABC ABCD patroonreeks werkblad maker',
     ],
     titleTag: 'Patronenherkenning Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer patronen werkbladen met negen typen, twee vraagmodi, per-oefening configuratie, automatische antwoordbladen en 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Genereer patronen werkbladen met negen typen, twee vraagmodi, per-oefening configuratie, automatische antwoordbladen en 104 thema\'s.',
   },
 
   hero: {

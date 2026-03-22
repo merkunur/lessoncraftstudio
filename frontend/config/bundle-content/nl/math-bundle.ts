@@ -16,7 +16,7 @@ const content: BundleContent = {
       'bulk wiskunde werkblad creatie tool',
     ],
     titleTag: 'Wiskunde Werkbladen Bundel — 6 Generators | Wiskunde Meester',
-    metaDescription: 'Krijg 6 wiskunde werkblad generators in één bundel. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy, KDP & TPT.',
+    metaDescription: 'Krijg 6 wiskunde werkblad generators in één bundel. Maak optelling, aftrekken, codepuzzels, vergelijking en algebra werkbladen om te verkopen op Etsy, KDP.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'ferramenta de fichas com licença comercial',
     ],
     titleTag: 'Criar fichas de associação para pré-escolar — Guia',
-    metaDescription: 'Como criar fichas de associação para pré-escolar. Use 4 modos, imagens temáticas, chaves de respostas automáticas com linhas de ligação e exporte PDFs prontos.',
+    metaDescription: 'Como criar fichas de associação para pré-escolar. Use 4 modos, imagens temáticas, chaves de respostas automáticas com linhas de ligação e exporte PDFs.',
   },
 
   hero: {

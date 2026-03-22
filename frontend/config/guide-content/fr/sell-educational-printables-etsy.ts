@@ -18,7 +18,7 @@ const content: GuideContent = {
       'photos annonces Etsy mockups pour produits imprimables éducatifs',
     ],
     titleTag: 'Vendre du matériel pédagogique sur Etsy — Guide',
-    metaDescription: 'Vendez des imprimables éducatifs sur Etsy avec 33 générateurs répartis en 6 catégories. Stratégie de boutique, SEO Etsy, lots inter-catégories et tarification.',
+    metaDescription: 'Vendez des imprimables éducatifs sur Etsy avec 33 générateurs répartis en 6 catégories. Stratégie de boutique, SEO Etsy, lots inter-catégories et.',
   },
 
   hero: {

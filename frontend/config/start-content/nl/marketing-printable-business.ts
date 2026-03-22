@@ -18,7 +18,7 @@ const content: StartContent = {
       'contentmarketing voor printable ondernemers',
     ],
     titleTag: 'Printable Werkbladen Marketing — Verkopers Gids',
-    metaDescription: 'Hoe je printable werkbladen online op de markt brengt: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor printable ondernemers.',
+    metaDescription: 'Hoe je printable werkbladen online op de markt brengt: platform-SEO, Pinterest-strategie, e-mailmarketing, seizoenstiming en merkopbouw voor printable.',
   },
 
   hero: {

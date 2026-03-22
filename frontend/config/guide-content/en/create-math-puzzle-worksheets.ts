@@ -18,7 +18,7 @@ const content: GuideContent = {
       'commercial license puzzle maker',
     ],
     titleTag: 'Create Math Puzzle Worksheets — Step-by-Step Guide',
-    metaDescription: 'How to create math puzzle worksheets where kids solve equations to reassemble images. Grid sizes, operations, answer keys, and tips for selling on Etsy and KDP.',
+    metaDescription: 'How to create math puzzle worksheets where kids solve equations to reassemble images. Grid sizes, operations, answer keys, and tips for selling on Etsy.',
   },
 
   hero: {

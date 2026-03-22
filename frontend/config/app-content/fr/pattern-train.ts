@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Train Suites Logiques | Vendre',
     metaDescription:
-      'Créez des fiches train de suites logiques pour Etsy, KDP et TPT. Cinq types de motifs, 11 wagons thématiques, indices ajustables. Essai gratuit avec filigrane.',
+      'Créez des fiches train de suites logiques pour Etsy, KDP et TPT. Cinq types de motifs, 11 wagons thématiques, indices ajustables.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'scalabilità catalogo bundle promozione cross-categoria font grafiche risorse educative',
     ],
     titleTag: 'Vendere Risorse Educative su Creative Fabrica — Guida',
-    metaDescription: 'Vendi risorse educative su Creative Fabrica. Guadagna da abbonamenti e vendite individuali, raggiungi il pubblico craft e gli educatori nella sezione Classroom.',
+    metaDescription: 'Vendi risorse educative su Creative Fabrica. Guadagna da abbonamenti e vendite individuali, raggiungi il pubblico craft e gli educatori nella sezione.',
   },
 
   hero: {

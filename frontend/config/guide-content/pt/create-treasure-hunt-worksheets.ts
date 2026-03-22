@@ -18,7 +18,7 @@ const content: GuideContent = {
       'ferramenta de caça ao tesouro com licença comercial',
     ],
     titleTag: 'Fichas de caça ao tesouro — Guia',
-    metaDescription: 'Crie fichas de caça ao tesouro em grelha 5×5 com movimentos direcionais, referências temáticas e chaves de respostas automáticas. Guia passo a passo para Etsy.',
+    metaDescription: 'Crie fichas de caça ao tesouro em grelha 5×5 com movimentos direcionais, referências temáticas e chaves de respostas automáticas.',
   },
 
   hero: {

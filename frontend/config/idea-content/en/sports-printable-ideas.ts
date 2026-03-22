@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Sports Printable Ideas to Sell — Niche Guide',
-    metaDescription: 'Discover sports printable ideas to sell on Etsy, Amazon KDP, and TPT. Athletic-themed product concepts, platform strategies, and tips for this year-round niche.',
+    metaDescription: 'Discover sports printable ideas to sell on Etsy, Amazon KDP, and TPT. Athletic-themed product concepts, platform strategies, and tips for this year-round.',
 
     primaryKeyword: 'sports printable ideas',
     secondaryKeywords: [

@@ -15,7 +15,7 @@ const content: AppContent = {
       'Druckvorlagen-Geschäft Klassifizierungs-Aktivitäten Werkzeuge',
     ],
     titleTag: 'Bilder-Sortieren-Generator | Sortier-Aktivitäten',
-    metaDescription: 'Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Zwei-Kategorien-Sortierung, 4–12 Bilder. Kostenlos testen mit Wasserzeichen. Druckfertig.',
+    metaDescription: 'Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy, KDP verkaufen. Zwei-Kategorien-Sortierung, 4–12 Bilder. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {

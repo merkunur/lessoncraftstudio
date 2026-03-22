@@ -18,7 +18,7 @@ const content: GuideContent = {
       'hashtag strategy posting schedule engagement rate profile optimization',
     ],
     titleTag: 'Social Media Printable Marketing — Seller Guide',
-    metaDescription: 'Social media printable marketing strategies for sellers covering platform selection, visual content, audience building, and engagement that drives shop traffic.',
+    metaDescription: 'Social media printable marketing strategies for sellers covering platform selection, visual content, audience building, and engagement that drives shop.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Mindestprodukt testen Recherche-Workflow Nischenentdeckung systematischer Prozess',
     ],
     titleTag: 'Profitable Druckvorlagen-Nischen recherchieren',
-    metaDescription: 'Profitable Druckvorlagen-Nischen recherchieren mit Marktplatzdaten, Keyword-Analyse und Wettbewerbsforschung. Systematische Validierungsmethoden Verkaufserfolg.',
+    metaDescription: 'Profitable Druckvorlagen-Nischen recherchieren mit Marktplatzdaten, Keyword-Analyse und Wettbewerbsforschung. Systematische Validierungsmethoden.',
   },
 
   hero: {

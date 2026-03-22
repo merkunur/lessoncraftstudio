@@ -15,7 +15,7 @@ const content: ToolContent = {
       'mehrsprachiger Bildkryptogramm-Ersteller',
     ],
     titleTag: 'Kryptogramm-Generator | Bilder-Chiffre-Rätsel',
-    metaDescription: 'Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre erstellen. Deutsches 30-Buchstaben-Alphabet, 104 Themen für Etsy und KDP. Kostenlos testen. Druckfertig.',
+    metaDescription: 'Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre erstellen. Deutsches 30-Buchstaben-Alphabet, 104 Themen für Etsy und KDP. Kostenlos testen.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Meer of Minder Generator | Vergelijkingswerkbladen',
     metaDescription:
-      'Maak vergelijkingswerkbladen om te verkopen op Etsy, KDP en TPT. 3 vergelijkingsmodi, 104 thema\'s, antwoordbladen, 400+ DPI export. Gratis proefversie met watermerk.',
+      'Maak vergelijkingswerkbladen om te verkopen op Etsy, KDP en TPT. 3 vergelijkingsmodi, 104 thema\'s, antwoordbladen, 400+ DPI export.',
   },
 
   hero: {

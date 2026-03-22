@@ -156,7 +156,7 @@ const content: GuideContent = {
 
   internalLinks: [
     { pageType: 'guide', slug: 'tpt-winkel-optimalisatie', anchorText: 'TPT-Winkel Opzetten en Optimaliseren' },
-    { pageType: 'guide', slug: 'rekenwerkbladen-verkopen-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
+    { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'Rekenwerkbladen Verkopen op Etsy' },
     { pageType: 'guide', slug: 'educatief-materiaal-verkopen-etsy', anchorText: 'Educatief Materiaal Verkopen op Etsy' },
     { pageType: 'guide', slug: 'kdp-of-etsy-printables', anchorText: 'Amazon KDP vs Etsy: Waar Printables Verkopen' },
     { pageType: 'guide', slug: 'etsy-printables-prijzen', anchorText: 'Etsy Printables Prijzen en Prijsstrategie' },

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'batchproductie meertalige contentgeneratie geautomatiseerde vertaaltools woordenschat databases',
     ],
     titleTag: 'Werkbladen in Meerdere Talen Maken — Gids',
-    metaDescription: 'Leer werkbladen in meerdere talen maken met productie workflows, tekenverwerking, lettertypeselectie, kwaliteitsborging en vermeldingsoptimalisatie voor internationale markten.',
+    metaDescription: 'Leer werkbladen in meerdere talen maken met productie workflows, tekenverwerking, lettertypeselectie, kwaliteitsborging en vermeldingsoptimalisatie voor.',
   },
 
   hero: {
@@ -161,7 +161,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'start-etsy-printable-shop', anchorText: 'Etsy printable winkel starten' },
     { pageType: 'guide', slug: 'niche-selection-printables', anchorText: 'niche selectie voor printables' },
     { pageType: 'guide', slug: 'pricing-educational-printables', anchorText: 'prijsstrategie voor educatieve printables' },
-    { pageType: 'guide', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
+    { pageType: 'start', slug: 'complete-guide-printable-business', anchorText: 'complete gids printable bedrijf' },
     { pageType: 'guide', slug: 'worksheets-multiple-languages', anchorText: 'werkbladen in meerdere talen maken' },
   ],
 

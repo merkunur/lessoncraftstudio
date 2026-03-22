@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'hoja de referencia bingo creador',
     ],
     titleTag: 'Crear Tarjetas de Bingo — Para el Aula',
-    metaDescription: 'Crea tarjetas de bingo con imágenes para el aula. Cuadrículas de 3x3 a 5x5, lotes de tarjetas únicas, hojas de referencia, 104 temas. Prueba con marca de agua.',
+    metaDescription: 'Crea tarjetas de bingo con imágenes para el aula. Cuadrículas de 3x3 a 5x5, lotes de tarjetas únicas, hojas de referencia, 104 temas.',
     },
 
   hero: {

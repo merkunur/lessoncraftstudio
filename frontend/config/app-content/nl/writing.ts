@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Schrijfoefeningen Generator | Maak & Verkoop Printables',
     metaDescription:
-      'Maak schrijfoefeningen werkbladen om te verkopen op Etsy, KDP en TPT. Drie oefenmodi, vijf lettertypes, pijlgeleide pennenstreek. Gratis proefversie met watermerk.',
+      'Maak schrijfoefeningen werkbladen om te verkopen op Etsy, KDP en TPT. Drie oefenmodi, vijf lettertypes, pijlgeleide pennenstreek.',
   },
 
   hero: {

@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Etsy Angebotsfotos Mockups für Malvorlagen-Produkte',
     ],
     titleTag: 'Etsy-Malvorlagen erstellen die sich verkaufen — Leitfaden',
-    metaDescription: 'Etsy-Malvorlagen aus 104 Bildthemen erstellen. S/W- und Graustufen-Export, Angebotsoptimierung und Preisgestaltung. Saisonale Verkaufsstrategien für Verkäufer.',
+    metaDescription: 'Etsy-Malvorlagen aus 104 Bildthemen erstellen. S/W- und Graustufen-Export, Angebotsoptimierung und Preisgestaltung. Saisonale Verkaufsstrategien für.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'meertalige spellingactiviteit generator',
     ],
     titleTag: 'Raad het Woord Werkblad Maker | Verkoop Printables',
-    metaDescription: 'Genereer raad-het-woord werkbladen met 4 moeilijkheidsniveaus, twee invoermodi, letters uitsluiten, 11 talen en 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
+    metaDescription: 'Genereer raad-het-woord werkbladen met 4 moeilijkheidsniveaus, twee invoermodi, letters uitsluiten, 11 talen en 104 thema\'s. Gratis proefversie met.',
   },
 
   hero: {

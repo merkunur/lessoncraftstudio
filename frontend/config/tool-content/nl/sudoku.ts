@@ -14,8 +14,8 @@ const content: ToolContent = {
       'drie moeilijkheidsniveaus makkelijk gemiddeld moeilijk sudoku creator',
       'automatisch antwoordblad volledig ingevuld raster sudoku generator',
     ],
-    titleTag: 'Plaatjes Sudoku Maker — Plaatjes Sudoku voor Kinderen Generator',
-    metaDescription: 'Maak plaatjes sudoku voor kinderen met 4×4 afbeeldingsrasters, drie moeilijkheidsniveaus, automatische antwoordbladen en 104 thematische collecties. Gratis proefversie — licentie beschikbaar.',
+    titleTag: 'Plaatjes Sudoku Maker — Sudoku voor Kinderen Generator',
+    metaDescription: 'Maak plaatjes sudoku voor kinderen met 4×4 afbeeldingsrasters, drie moeilijkheidsniveaus, automatische antwoordbladen en 104 thematische collecties.',
   },
 
   hero: {

@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Generatore Schede Classificazione Immagini | Creare',
     metaDescription:
-      'Crea schede di classificazione immagini da vendere su Etsy, KDP e TPT. Due categorie, foglio risposte automatico, 104 temi, 4-12 immagini. Prova con filigrana.',
+      'Crea schede di classificazione immagini da vendere su Etsy, KDP e TPT. Due categorie, foglio risposte automatico, 104 temi, 4-12 immagini.',
   },
 
   hero: {

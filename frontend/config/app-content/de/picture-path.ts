@@ -234,7 +234,7 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'dschungel-druckvorlagen-ideen',
+      slug: 'safari-animals-printable-ideas',
       anchorText: 'Dschungel-Druckvorlagen-Ideen für Arbeitsblätter',
     },
     {

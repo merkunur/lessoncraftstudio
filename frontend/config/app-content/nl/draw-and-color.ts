@@ -15,7 +15,7 @@ const content: AppContent = {
       'commercieel gebruik teken en kleur werkbladen generator',
     ],
     titleTag: 'Rastertekenen Werkbladen Generator | Verkoop Printables',
-    metaDescription: 'Maak rasterteken werkbladen om te verkopen op Etsy, KDP en TPT. Dubbel rastersysteem, aanpasbaar aanwijzingspercentage, symmetriemodi. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak rasterteken werkbladen om te verkopen op Etsy, KDP en TPT. Dubbel rastersysteem, aanpasbaar aanwijzingspercentage, symmetriemodi.',
   },
 
   hero: {

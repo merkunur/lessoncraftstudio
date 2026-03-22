@@ -160,9 +160,9 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Etsy Printable Bedrijf Masterclass' },
     { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Amazon KDP Activiteitenboek Bedrijfsgids' },
     { pageType: 'start', slug: 'commerciele-licentie-gids', anchorText: 'Commerciële Licentie Gids' },
-    { pageType: 'app', slug: 'afbeeldingspad-werkbladen', anchorText: 'Afbeeldingspad Doolhof Generator — Volledige Details' },
+    { pageType: 'app', slug: 'picture-path', anchorText: 'Afbeeldingspad Doolhof Generator — Volledige Details' },
     { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator — Volledige Details' },
-    { pageType: 'tool', slug: 'afbeeldingspad-maker', anchorText: 'Probeer de Afbeeldingspad Doolhof Maker' },
+    { pageType: 'tool', slug: 'picture-path', anchorText: 'Probeer de Afbeeldingspad Doolhof Maker' },
   ],
 
   toolsRecommended: [

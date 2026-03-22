@@ -18,7 +18,7 @@ const content: StartContent = {
       'Etsy Druckvorlagen-Preisstrategie',
     ],
     titleTag: 'Druckvorlagen auf Etsy verkaufen — Geschäfts-Masterclass',
-    metaDescription: 'Druckvorlagen auf Etsy verkaufen Schritt für Schritt. Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Skalierung mit Arbeitsblatt-Generatoren für Verkäufer.',
+    metaDescription: 'Druckvorlagen auf Etsy verkaufen Schritt für Schritt. Shop-Einrichtung, Etsy-SEO, Listing-Optimierung und Skalierung mit Arbeitsblatt-Generatoren für.',
   },
 
   hero: {

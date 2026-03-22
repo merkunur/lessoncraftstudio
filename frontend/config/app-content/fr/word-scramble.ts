@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Mots Mélangés | Créer et Vendre',
     metaDescription:
-      'Créez des fiches mots mélangés pour Etsy, KDP et TPT. Tuiles lettres, indices images, code couleur voyelles-consonnes, 11 langues. Essai gratuit avec filigrane.',
+      'Créez des fiches mots mélangés pour Etsy, KDP et TPT. Tuiles lettres, indices images, code couleur voyelles-consonnes, 11 langues.',
   },
 
   hero: {

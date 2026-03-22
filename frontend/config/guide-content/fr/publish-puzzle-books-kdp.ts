@@ -18,7 +18,7 @@ const content: GuideContent = {
       'grille puzzles espacement format livre corrigés annexes',
     ],
     titleTag: 'Comment publier des livres de puzzles KDP — Guide',
-    metaDescription: 'Comment publier des livres de puzzles sur KDP avec mots cachés, mots croisés et sudoku. Mise en page, livres variés, stratégie de série et optimisation Amazon.',
+    metaDescription: 'Comment publier des livres de puzzles sur KDP avec mots cachés, mots croisés et sudoku. Mise en page, livres variés, stratégie de série et optimisation.',
   },
 
   hero: {

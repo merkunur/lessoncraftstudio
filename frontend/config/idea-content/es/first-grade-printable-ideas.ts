@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideas Imprimibles Primer Grado — Guía de Nicho',
-    metaDescription: 'Descubre ideas de imprimibles de primer grado para vender en Etsy, Amazon KDP y TPT. Productos nivel primero de primaria y estrategias de nicho para vendedores.',
+    metaDescription: 'Descubre ideas de imprimibles de primer grado para vender en Etsy, Amazon KDP y TPT. Productos nivel primero de primaria y estrategias de nicho para.',
     primaryKeyword: 'ideas imprimibles primer grado',
     secondaryKeywords: [
       'fichas primer grado para vender',

@@ -18,7 +18,7 @@ const content: StartContent = {
       'commercial license printable tools',
     ],
     titleTag: 'How to Start a Printable Business — Complete Guide',
-    metaDescription: 'How to start a printable business from scratch. Step-by-step guide for Etsy, Amazon KDP, and TpT sellers using worksheet generators to create and sell products.',
+    metaDescription: 'How to start a printable business from scratch. Step-by-step guide for Etsy, Amazon KDP, and TpT sellers using worksheet generators to create and sell.',
   },
 
   hero: {

@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Ideias Fichas Download Digital para Vender — Guia',
-    metaDescription: 'Ideias de fichas de download digital para vendedores de Etsy, Gumroad e TPT. Constrói um negócio de imprimíveis sem inventário com PDFs educativos para vender.',
+    metaDescription: 'Ideias de fichas de download digital para vendedores de Etsy, Gumroad e TPT. Constrói um negócio de imprimíveis sem inventário com PDFs educativos para.',
     primaryKeyword: 'ideias fichas download digital',
     secondaryKeywords: [
       'negócio imprimíveis digitais transferências',

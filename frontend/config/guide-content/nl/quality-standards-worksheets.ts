@@ -18,7 +18,7 @@ const content: GuideContent = {
       'correctielezen dubbelcontrole eindafwerking voorpublicatie verificatie printtest',
     ],
     titleTag: 'Kwaliteitsnormen voor Werkbladen — Verkopersgids',
-    metaDescription: 'Kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer. Behandelt resolutie, marges, typografie, antwoordsleutels en printtests voor marktplaatsen.',
+    metaDescription: 'Kwaliteitsnormen die werkbladverkopers nodig hebben voor professionele uitvoer. Behandelt resolutie, marges, typografie, antwoordsleutels en printtests.',
   },
 
   hero: {
@@ -151,7 +151,7 @@ const content: GuideContent = {
   ],
 
   internalLinks: [
-    { pageType: 'guide', slug: 'create-worksheets', anchorText: 'Werkbladen maken met de generator' },
+    { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'Werkbladen maken met de generator' },
     { pageType: 'guide', slug: 'create-addition-worksheets', anchorText: 'Optellen werkbladen maken' },
     { pageType: 'guide', slug: 'create-word-search-puzzles', anchorText: 'Woordzoekers maken' },
     { pageType: 'guide', slug: 'create-coloring-pages', anchorText: 'Kleurplaten genereren' },

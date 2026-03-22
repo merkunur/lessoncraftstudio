@@ -18,7 +18,7 @@ const content: GuideContent = {
       'creatieve keuzes expressie versus ideeën feiten standaardmethoden educatieve inhoud',
     ],
     titleTag: 'Auteursrecht voor Printable Verkopers — Gids',
-    metaDescription: 'Begrijp het auteursrecht dat printable verkopers moeten kennen: welke werkbladelementen beschermbaar zijn, registratievoordelen, handhaving en inbreukvermijding.',
+    metaDescription: 'Begrijp het auteursrecht dat printable verkopers moeten kennen: welke werkbladelementen beschermbaar zijn, registratievoordelen, handhaving en.',
   },
 
   hero: {

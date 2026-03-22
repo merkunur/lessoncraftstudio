@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Symmetriemodus-Spiegelzeichnen-Arbeitsblatt-Ersteller',
     ],
     titleTag: 'Rasterzeichnen-Generator | Gitter-Zeichnungen',
-    metaDescription: 'Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem und Hinweisprozent 10–75% erstellen. Drei Symmetriemodi, 100+ Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem und Hinweisprozent 10–75% erstellen. Drei Symmetriemodi, 100+ Themen. Kostenlos testen mit.',
   },
 
   hero: {

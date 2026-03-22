@@ -15,7 +15,7 @@ const content: ToolContent = {
       'creatore attività classificazione con griglia ritaglio mescolata',
     ],
     titleTag: 'Generatore Classificazione Immagini — Schede Gratis',
-    metaDescription: 'Crea schede di classificazione a due categorie con modalità tema, griglie di ritaglio mescolate e chiavi di risposta automatiche. Prova gratuita con filigrana.',
+    metaDescription: 'Crea schede di classificazione a due categorie con modalità tema, griglie di ritaglio mescolate e chiavi di risposta automatiche.',
   },
 
   hero: {

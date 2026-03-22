@@ -15,7 +15,7 @@ const content: IdeaContent = {
       'Mai-August-Nachfrage Lernmaterialien Etsy',
     ],
     titleTag: 'Sommerlernen-Druckvorlagen — Verkäufer-Guide',
-    metaDescription: 'Sommerlernen-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ferienaktivitäten und Sommerbrücken-Arbeitsblätter zur Vermeidung von Sommerlernverlust. Verkaufs-Guide.',
+    metaDescription: 'Sommerlernen-Druckvorlagen-Ideen für Etsy, KDP und TPT. Ferienaktivitäten und Sommerbrücken-Arbeitsblätter zur Vermeidung von Sommerlernverlust.',
   },
   hero: {
     title: 'Sommerlernen-Druckvorlagen-Geschäftsideen für Verkäufer',

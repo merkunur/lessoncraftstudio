@@ -15,7 +15,7 @@ const content: ToolContent = {
       'instelbare aanwijzingscellen moeilijkheid raster maker',
     ],
     titleTag: 'Rasterpuzzel Maker — Rasterpuzzel Werkblad Generator',
-    metaDescription: 'Maak rasterpuzzels met instelbare rastergrootte, aanwijzingscellen, Fisher-Yates shuffling en 104 thematische afbeeldingen. Gratis proefversie — licentie beschikbaar.',
+    metaDescription: 'Maak rasterpuzzels met instelbare rastergrootte, aanwijzingscellen, Fisher-Yates shuffling en 104 thematische afbeeldingen. Gratis proefversie — licentie.',
   },
 
   hero: {

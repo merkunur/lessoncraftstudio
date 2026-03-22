@@ -15,7 +15,7 @@ const content: AppContent = {
       'printable path-finding puzzle business tools',
     ],
     titleTag: 'Treasure Hunt Generator | Create Path Worksheets',
-    metaDescription: 'Create treasure hunt worksheets to sell on Etsy, KDP & TPT. 5x5 coordinate grid, two direction types, auto answer key, 104 themes. Try free — license available.',
+    metaDescription: 'Create treasure hunt worksheets to sell on Etsy, KDP & TPT. 5x5 coordinate grid, two direction types, auto answer key, 104 themes.',
   },
 
   hero: {

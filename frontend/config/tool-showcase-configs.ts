@@ -3704,6 +3704,8 @@ const nlToolText: Record<string, FrTextTuple> = {
   'find-and-count': ['Ik zie, ik zie!', 'Zoek en tel met kleurrijke scènes', 'Van weinig naar veel', 'Drie niveaus van zoek-en-tel', 'Tellen tot 5', 'Tellen tot 10', 'Tellen tot 20', 'Zoeken en tellen scherpt waarneming', 'Zoek & tel!', 'Hoeveel zie je?', 'Telwerkbladen', 'Visuele telactiviteiten'],
   'find-objects': ['Vind ze allemaal!', 'Verborgen voorwerpen in gedetailleerde scènes', 'Van eenvoudig naar complex', 'Drie niveaus van zoekuitdaging', 'Duidelijk zichtbaar', 'Gecamoufleerd', 'Uitdagend verborgen', 'Scherpe ogen ontwikkelen concentratie', 'Zoekpret!', 'Vind het voorwerp', 'Zoekwerkbladen', 'Concentratie-uitdagingen'],
   'treasure-hunt': ['Schattenjacht!', 'Kaartavonturen met verborgen schatten', 'Van eenvoudig naar complex', 'Drie niveaus van schatzoeken', 'Eenvoudige kaarten', 'Complexere kaarten', 'Uitdagende schatkaarten', 'Elke schat versterkt probleemoplossing', 'Schatzoeken!', 'Vind de schat', 'Schattenjachtwerkbladen', 'Kaartavonturen'],
+  'bingo': ['BINGO!', 'Thematische bingokaarten voor de klas', 'Bingo voor elk thema', 'Drie niveaus van bingoplezier', 'Eenvoudige plaatjesbingo', 'Woordbingo', 'Gemengde uitdagingen', 'Bingo maakt leren een feestje', 'Bingopret!', 'Ogen op de kaart', 'Bingokaarten', 'Groepsactiviteiten'],
+  'coloring': ['Kleur je wereld!', 'Kleurplaten met 100+ thema\'s', 'Kleuren voor iedereen', 'Van eenvoudig tot gedetailleerd', 'Grote vlakken', 'Gedetailleerde contouren', 'Fijne details', 'Kleuren ontwikkelt creativiteit', 'Kleurenpret!', 'Laat je creativiteit los', 'Kleurplaten', '100+ thema\'s'],
 };
 
 // ─── Generic tool localization function ───

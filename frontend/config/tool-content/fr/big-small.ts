@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur fiches grand & petit',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des fiches grand et petit pour enfants',
     secondaryKeywords: [
-      'créateur de fiches grand et petit pour vendeurs',
-      'créer des fiches discrimination visuelle de tailles à vendre',
-      'fiches comparaison de tailles imprimables licence commerciale',
-      'générateur de fiches classement par taille pour KDP',
+      'fiches grand et petit pour maternelle',
+      'créateur de comparaison de tailles pour la classe',
+      'fiches classement par taille pour enfants',
+      'fiches grand petit moyen pour maternelle',
     ],
     lsiKeywords: [
-      'imprimables discrimination visuelle de tailles pour Etsy.fr',
-      'outil de fiches comparaison de tailles sans texte',
-      'créateur de fiches grand petit moyen classement par taille',
+      'discrimination visuelle des tailles pour enfants',
+      'fiche comparaison de tailles sans texte',
+      'activité classement grand petit pour maternelle',
     ],
-    titleTag: 'Générateur Fiches Grand & Petit | Créer et Vendre',
-    metaDescription: 'Générez des fiches comparaison de tailles avec 5 types de questions, modes identiques et différents, 104 thèmes, export PDF. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Fiches Grand et Petit — Pour Enfants',
+    metaDescription: 'Créez des fiches de comparaison de tailles pour les enfants. Cinq types de questions, modes identiques et différents, 104 thèmes. Essai avec filigrane.',
+    },
 
   hero: {
     title: 'Créateur de Fiches Grand & Petit',

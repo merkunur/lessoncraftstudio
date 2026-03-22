@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur de puzzles maths',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des puzzles maths pour la classe',
     secondaryKeywords: [
-      'créateur de puzzles maths pour vendeurs Etsy',
-      'créer des fiches de puzzles mathématiques à vendre',
-      'fiches de puzzles maths imprimables licence commerciale',
-      'générateur de puzzles maths jigsaw pour KDP',
+      'puzzles mathématiques jigsaw pour enseignants',
+      'créateur de puzzles maths pour enfants',
+      'puzzles maths avec images pour la classe',
+      'fiches puzzles maths imprimables pour élèves',
     ],
     lsiKeywords: [
-      'fiches de puzzles images maths pour Etsy.fr',
-      'outil de puzzles images mathématiques',
-      'générateur d\'activités puzzles maths jigsaw',
+      'puzzle maths avec grille d\'images pour la classe',
+      'activité puzzle maths jigsaw pour enfants',
+      'créateur de puzzles maths configurable',
     ],
-    titleTag: 'Générateur de Puzzles Maths | Vendre des Imprimables',
-    metaDescription: 'Créez des puzzles maths jigsaw avec grilles d’images, 3 modes d’opération et images personnalisées. Vendez sur Etsy, KDP et TPT. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Créer des Puzzles Maths — Pour la Classe',
+    metaDescription: 'Créez des puzzles maths jigsaw pour la classe. Grilles d\'images avec addition et soustraction, corrigés inclus. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Générateur de Puzzles Mathématiques',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore treno alfabeto stampabile',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare schede treno alfabeto per bambini',
     secondaryKeywords: [
-      'generatore schede treno alfabeto per venditori',
-      'creare schede treno lettere da vendere',
-      'stampabili riconoscimento lettere uso commerciale',
-      'generatore treno alfabeto per KDP',
+      'creatore di treno alfabeto per la classe',
+      'schede riconoscimento lettere per bambini',
+      'treno alfabeto stampabile per scuola materna',
+      'creatore abbinamento lettera-immagine per insegnanti',
     ],
     lsiKeywords: [
-      'stampabili riconoscimento lettere per Etsy',
-      'generatore abbinamento lettere immagini',
-      'strumento attività alfabeto multilingue',
+      'scheda treno abbinamento lettera-immagine per bambini',
+      'attività alfabeto multilingue per la classe',
+      'treno alfabeto colorato stampabile',
     ],
-    titleTag: 'Generatore Treno dell\'Alfabeto | Vendi Stampabili Online',
-    metaDescription: 'Genera schede colorate con treno dell\'alfabeto e abbinamento lettera-immagine in 11 lingue. Crea stampabili multilingue unici da vendere su Etsy, KDP e TpT.',
-  },
+    titleTag: 'Schede Treno Alfabeto — Lettere per Bambini',
+    metaDescription: 'Crea schede treno dell\'alfabeto per il riconoscimento lettere. 11 vagoni colorati, abbinamento lettera-immagine, 11 lingue. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore Treno dell\'Alfabeto',

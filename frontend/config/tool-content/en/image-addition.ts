@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'addition worksheet generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'addition worksheet maker for teachers',
     secondaryKeywords: [
-      'addition worksheet maker',
-      'create addition worksheets online',
-      'printable addition worksheets',
-      'image addition worksheets for kids',
+      'addition worksheet creator for classroom',
+      'math addition worksheets for kids',
+      'printable addition practice sheets',
+      'image addition worksheets for kindergarten',
     ],
     lsiKeywords: [
-      'visual math worksheets',
-      'picture-based addition practice',
-      'kindergarten math printables',
+      'visual math worksheets for the classroom',
+      'picture-based addition practice for kids',
+      'kindergarten math printables for teachers',
     ],
-    titleTag: 'Addition Worksheet Generator | Math Printables',
-    metaDescription: 'Create addition worksheets with themed images in seconds. Choose from 104 themes, set difficulty, and export print-ready PDFs. Try free — license available.',
-  },
+    titleTag: 'Addition Worksheet Maker — Math Sheets for Class',
+    metaDescription: 'Create addition worksheets with themed images for your classroom. 104 themes, 4 exercise modes, answer keys, print-ready PDFs. Try with watermark — no signup.',
+    },
 
   hero: {
     title: 'Addition Worksheet Generator',

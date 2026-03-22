@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore addizione codificata',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare schede addizione codificata per la classe',
     secondaryKeywords: [
-      'creare schede crittaritmetica online',
-      'generatore puzzle decifra il codice matematico',
-      'schede addizione codificata stampabili uso commerciale',
-      'creare enigmi codice segreto matematica da vendere',
+      'puzzle codice segreto matematica per insegnanti',
+      'schede addizione cifrata per la classe',
+      'esercizi codice matematica per bambini',
+      'creatore di schede addizione codificata',
     ],
     lsiKeywords: [
-      'puzzle codice segreto matematica stampabili Etsy',
-      'generatore schede addizione con simboli',
-      'enigmi crittaritmetica per bambini',
+      'puzzle cifrato matematica con immagini per la classe',
+      'scheda rivela parola codice segreto',
+      'attività codice numerico matematica per studenti',
     ],
-    titleTag: 'Generatore Addizione Codificata | Decifra il Codice',
-    metaDescription: 'Crea puzzle crittaritmetici con immagini in pochi secondi. Due modalità, rivela parola, 11 lingue, 104 temi. Prova gratuita con filigrana. Licenza commerciale.',
-  },
+    titleTag: 'Schede Addizione Codificata — Per la Classe',
+    metaDescription: 'Crea puzzle di addizione codificata per la classe. Simboli immagine, modalità Rivela Parola, 11 lingue. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore di Addizione Codificata',

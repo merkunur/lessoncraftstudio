@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador palavras cruzadas com imagens',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar palavras cruzadas com imagens para a sala',
     secondaryKeywords: [
-      'ferramenta palavras cruzadas ilustradas para vendedores Etsy KDP',
-      'gerador palavras cruzadas com pistas visuais licença comercial',
-      'criar palavras cruzadas com imagens para vender online',
-      'software palavras cruzadas ilustradas com gabarito automático',
+      'criador de palavras cruzadas para professores',
+      'palavras cruzadas com imagens para crianças',
+      'palavras cruzadas imprimíveis para a escola',
+      'palavras cruzadas vocabulário para alunos',
     ],
     lsiKeywords: [
-      'quatro métodos entrada geração rápida edição manual lista palavras carregamento imagens',
-      'palavras sensíveis ao idioma vocabulário de imagens multilingue palavras cruzadas',
-      'gabarito grelha preenchida sistema duplo canvas palavras cruzadas',
+      'palavras cruzadas com pistas visuais para vocabulário',
+      'gerador de palavras cruzadas localizado para a classe',
+      'gabarito automático palavras cruzadas',
     ],
-    titleTag: 'Gerador Palavras Cruzadas com Imagens — Para Vender',
-    metaDescription: 'Crie palavras cruzadas com pistas de imagens em grelha 15×15, quatro métodos de entrada, gabarito automático, 104 temas e 11 idiomas. Teste grátis agora.',
-  },
+    titleTag: 'Criar Palavras Cruzadas — Para a Sala de Aula',
+    metaDescription: 'Crie palavras cruzadas com imagens para a sala de aula. Grelha 15x15, quatro métodos de entrada, gabarito automático. Teste grátis com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Palavras Cruzadas com Imagens',

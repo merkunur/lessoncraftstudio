@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'creador crucigramas con imágenes',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear crucigramas con imágenes para el aula',
     secondaryKeywords: [
-      'herramienta crucigramas ilustrados para vendedores Etsy KDP',
-      'generador crucigramas con pistas visuales licencia comercial',
-      'crear crucigramas con imágenes para vender en línea',
-      'software crucigramas ilustrados con clave de respuestas automática',
+      'creador de crucigramas para profesores',
+      'crucigramas con imágenes para niños',
+      'crucigramas imprimibles para la escuela',
+      'crucigramas de vocabulario para alumnos',
     ],
     lsiKeywords: [
-      'cuatro métodos entrada generación rápida edición manual lista palabras subida imágenes',
-      'palabras sensibles al idioma vocabulario de imágenes multilingüe crucigramas',
-      'clave respuestas cuadrícula completada sistema doble lienzo crucigrama',
+      'crucigrama con pistas de imágenes para vocabulario',
+      'generador de crucigramas localizado para el aula',
+      'clave de respuestas automática crucigrama',
     ],
-    titleTag: 'Creador Crucigramas con Imágenes — Fichas para Vender',
-    metaDescription: 'Crea crucigramas con pistas de imágenes en cuadrícula 15×15, cuatro métodos de entrada, clave de respuestas automática, 104 temas y 11 idiomas. Prueba.',
-  },
+    titleTag: 'Crear Crucigramas — Vocabulario para el Aula',
+    metaDescription: 'Crea crucigramas con pistas de imágenes para el aula. Cuadrícula 15x15, cuatro métodos de entrada, clave de respuestas automática. Prueba con marca de agua.',
+    },
 
   hero: {
     title: 'Creador de Crucigramas con Imágenes',

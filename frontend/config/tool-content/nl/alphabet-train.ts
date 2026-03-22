@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'alfabettrein werkblad generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'alfabettrein werkbladen maken voor kinderen',
     secondaryKeywords: [
-      'alfabet werkblad maker voor verkopers',
-      'alfabettrein werkbladen maken om te verkopen',
-      'printbare letterherkenning werkbladen met commerciële licentie',
-      'alfabettrein generator voor KDP',
+      'alfabettrein maker voor de klas',
+      'letterherkenning werkbladen voor kinderen',
+      'printbare alfabettrein voor kleuters',
+      'letter-afbeelding koppeling maker voor leerkrachten',
     ],
     lsiKeywords: [
-      'letterherkenning printables voor Etsy',
-      'alfabet koppelen werkblad tool',
-      'meertalige alfabet activiteit generator',
+      'letter-afbeelding trein werkblad voor kinderen',
+      'meertalige alfabet activiteit voor de klas',
+      'kleurrijke alfabettrein om te printen',
     ],
-    titleTag: 'Alfabettrein Werkblad Maker | Verkoop Printables',
-    metaDescription: 'Genereer kleurrijke alfabettrein werkbladen met letter-afbeelding koppeling in 11 talen. Maak unieke meertalige printables om te verkopen op Etsy, KDP en TPT.',
-  },
+    titleTag: 'Alfabettrein Werkbladen — Letteroefeningen',
+    metaDescription: 'Maak alfabettrein werkbladen voor letterherkenning. 11 kleurrijke wagons, letter-afbeelding koppeling, 11 talen, 104 thema\'s. Gratis met watermerk.',
+    },
 
   hero: {
     title: 'Alfabettrein Werkblad Maker',

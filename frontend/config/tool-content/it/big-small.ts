@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore schede confronto dimensioni',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare schede grande piccolo per bambini',
     secondaryKeywords: [
-      'generatore schede grande e piccolo per venditori',
-      'creare schede discriminazione dimensioni da vendere',
-      'stampabili confronto dimensioni uso commerciale',
-      'generatore schede ordinamento dimensioni per KDP',
+      'schede grande e piccolo per scuola materna',
+      'creatore confronto dimensioni per la classe',
+      'schede ordinamento per dimensione per bambini',
+      'schede grande piccolo medio per asilo',
     ],
     lsiKeywords: [
-      'stampabili discriminazione visiva dimensioni per Etsy',
-      'strumento schede confronto dimensioni zero testo',
-      'generatore schede grande piccolo medio ordinamento',
+      'discriminazione visiva dimensioni per bambini',
+      'scheda confronto dimensioni senza testo',
+      'attività ordinamento grande piccolo per materna',
     ],
-    titleTag: 'Generatore Schede Grande e Piccolo | Crea e Vendi Online',
-    metaDescription: 'Genera schede di confronto dimensioni con cinque tipi di domanda, modalità immagini identiche e diverse, 104 temi. Export PDF ad alta risoluzione disponibile.',
-  },
+    titleTag: 'Schede Grande e Piccolo — Per Bambini',
+    metaDescription: 'Crea schede di confronto dimensioni per bambini. Cinque tipi di domanda, modalità immagini identiche e diverse, 104 temi. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore Schede Grande e Piccolo',

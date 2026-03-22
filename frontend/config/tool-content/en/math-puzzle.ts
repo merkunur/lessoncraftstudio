@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'math puzzle worksheet generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'math puzzle maker for classroom',
     secondaryKeywords: [
-      'math puzzle maker for sellers',
-      'create math puzzle worksheets to sell',
-      'printable math puzzle worksheets commercial use',
-      'math jigsaw puzzle generator for KDP',
+      'jigsaw math worksheets for teachers',
+      'math puzzle creator for kids',
+      'picture math puzzles for classroom',
+      'printable math puzzle worksheets for students',
     ],
     lsiKeywords: [
-      'image grid math printables for Etsy',
-      'picture puzzle worksheet tool',
-      'math jigsaw activity generator',
+      'image grid math puzzle for classroom use',
+      'jigsaw-style math activity for kids',
+      'configurable math puzzle worksheet creator',
     ],
-    titleTag: 'Math Puzzle Worksheet Generator | Sell Printables',
-    metaDescription: 'Generate jigsaw-style math puzzles with image grids, three operation modes, and custom image upload. Create unique printables to sell on Etsy, KDP, and TpT.',
-  },
+    titleTag: 'Math Puzzle Maker — Jigsaw Worksheets for Class',
+    metaDescription: 'Create jigsaw-style math puzzles for your classroom. Image grid puzzles with addition and subtraction, configurable grids, answer keys. Try with watermark.',
+    },
 
   hero: {
     title: 'Math Puzzle Worksheet Generator',

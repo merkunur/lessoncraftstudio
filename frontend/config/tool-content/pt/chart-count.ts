@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador gráficos de imagens',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar fichas gráficos de imagens para a sala de aula',
     secondaryKeywords: [
-      'criador de fichas de gráficos pictóricos para vendedores',
-      'criar fichas de gráficos de contagem uso comercial',
-      'gerador de fichas de gráficos de barras imprimíveis para KDP e Etsy',
-      'ferramenta de fichas de contagem com gráfico pictórico para vendedores',
+      'criador de pictogramas para a classe',
+      'fichas de contagem e gráfico para crianças',
+      'fichas de gráficos de dados para a escola',
+      'atividade gráfico de imagens para professores',
     ],
     lsiKeywords: [
-      'gerador de fichas de grelha de imagens dispersas',
-      'gabarito automático para gráficos pictóricos',
-      'criador de fichas de representação de dados com canvas duplo',
+      'quadrícula de imagens dispersas para contar',
+      'gabarito automático gráfico pictórico',
+      'ficha representação de dados para a classe',
     ],
-    titleTag: 'Gerador Gráficos de Imagens | Criar e Vender',
-    metaDescription: 'Crie fichas de gráficos pictóricos com grelha 4×5, 6 tipos de imagens, gabarito automático amarelo, 11 idiomas e 104 temas. Teste grátis com marca d\'água.',
-  },
+    titleTag: 'Fichas Gráficos de Imagens — Para a Classe',
+    metaDescription: 'Crie fichas de gráficos pictóricos para a sala de aula. Grelha 4x5, 6 tipos de imagens, gabarito automático, 11 idiomas. Teste grátis com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Fichas de Gráficos de Contagem',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'bilddiagramm-generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Bilddiagramm-Arbeitsblätter für den Unterricht',
     secondaryKeywords: [
-      'Bilddiagramm-Ersteller für Verkäufer',
-      'Piktogramm-Arbeitsblätter online erstellen und verkaufen',
-      'druckbare Bilddiagramm-Arbeitsblätter kommerziell erstellen',
-      'Bilddiagramm-Generator mit automatischem Lösungsschlüssel für KDP',
+      'Bilddiagramm-Ersteller für die Klasse',
+      'Zähl-und-Diagramm-Arbeitsblätter für Kinder',
+      'druckbare Datendiagramm-Arbeitsblätter für die Schule',
+      'Bilddiagramm-Aktivität für Lehrer',
     ],
     lsiKeywords: [
-      'verteiltes Bildraster Zähl-Arbeitsblatt-Tool',
-      'Auto-Lösungsschlüssel Bilddiagramm-Generator',
-      'Dual-Canvas Datendarstellungs-Arbeitsblatt-Ersteller',
+      'Bildraster-Zähl-Arbeitsblatt für den Unterricht',
+      'automatischer Lösungsschlüssel Bilddiagramm',
+      'Datenvisualisierung Arbeitsblatt für die Klasse',
     ],
-    titleTag: 'Bilddiagramm-Generator | Ersteller für Verkäufer',
-    metaDescription: 'Bilddiagramm-Arbeitsblätter mit 4×5-Raster und automatischem Lösungsschlüssel erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
-  },
+    titleTag: 'Bilddiagramm-Arbeitsblätter — Für den Unterricht',
+    metaDescription: 'Bilddiagramm-Arbeitsblätter für den Unterricht erstellen. 4x5-Bildraster, Lösungsschlüssel, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Bilddiagramm-Ersteller',

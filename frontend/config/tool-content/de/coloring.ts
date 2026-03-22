@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'Ausmalseiten-Generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Ausmalseiten selber machen',
     secondaryKeywords: [
-      'Malvorlagen-Ersteller für Verkäufer',
-      'Ausmalbilder online erstellen und verkaufen',
-      'druckbare Ausmalseiten kommerziell erstellen',
-      'Malvorlagen-Generator mit Freihand-Zeichenwerkzeug für KDP',
+      'Malvorlagen erstellen für den Unterricht',
+      'Ausmalbilder selber gestalten für Kinder',
+      'Ausmalseiten-Ersteller für Lehrer',
+      'druckbare Malvorlagen für die Klasse',
     ],
     lsiKeywords: [
-      'freie Arbeitsfläche Malvorlagen-Designer',
-      'Graustufen-Ausmalseiten-Export-Tool',
-      'Freihand-Zeichenwerkzeug-Ausmalseiten-Ersteller',
+      'Ausmalbilder für den Unterricht gestalten',
+      'Graustufen-Malvorlage zum Ausdrucken',
+      'Freihand-Zeichentool für Ausmalbilder',
     ],
-    titleTag: 'Ausmalseiten-Generator — Malvorlagen-Ersteller für Verkäufer',
-    metaDescription: 'Ausmalseiten mit 3.100+ Umrisszeichnungen aus 104 Themen erstellen. Graustufen-Export für Etsy und KDP-Verkauf. Kostenlos testen mit Wasserzeichen verfügbar.',
-  },
+    titleTag: 'Ausmalseiten selber machen — Malvorlagen erstellen',
+    metaDescription: 'Eigene Ausmalseiten für den Unterricht oder zu Hause gestalten. Freie Arbeitsfläche, 3.100+ Illustrationen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Malvorlagen-Ersteller',

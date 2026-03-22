@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore puzzle matematici stampabili',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare puzzle matematici per la classe',
     secondaryKeywords: [
-      'generatore puzzle matematici per venditori',
-      'creare puzzle matematici da vendere',
-      'puzzle matematici stampabili uso commerciale',
-      'generatore puzzle jigsaw matematica per KDP',
+      'puzzle matematici jigsaw per insegnanti',
+      'creatore di puzzle matematici per bambini',
+      'puzzle di matematica con immagini per la classe',
+      'schede puzzle matematici per studenti',
     ],
     lsiKeywords: [
-      'stampabili griglia immagini matematica per Etsy',
-      'generatore puzzle immagini matematica',
-      'generatore attività jigsaw matematica',
+      'puzzle matematico con griglia per la classe',
+      'attività puzzle matematico per bambini',
+      'creatore di puzzle matematici configurabile',
     ],
-    titleTag: 'Generatore Puzzle Matematici | Vendi Stampabili Online',
-    metaDescription: 'Crea puzzle matematici con griglie di immagini, tre modalità operative e upload immagini custom. Genera stampabili unici da vendere su Etsy, KDP e TpT.',
-  },
+    titleTag: 'Creare Puzzle Matematici — Per Insegnanti',
+    metaDescription: 'Crea puzzle matematici con griglie di immagini per la classe. Tre modalità operative, chiave di risposta automatica. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore Puzzle Matematici',

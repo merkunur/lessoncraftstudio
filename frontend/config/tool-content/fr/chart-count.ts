@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'créateur fiches graphique à images',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des fiches graphique à images pour la classe',
     secondaryKeywords: [
-      'créateur de fiches graphique à images pour vendeurs',
-      'créer des fiches pictogramme à vendre',
-      'générateur de fiches graphique imprimables licence commerciale',
-      'créateur de fiches diagramme à barres pour KDP et Etsy',
+      'créateur de pictogrammes pour la classe',
+      'fiches de comptage et graphique pour enfants',
+      'fiches de données graphiques pour l\'école',
+      'activité graphique à images pour enseignants',
     ],
     lsiKeywords: [
-      'outil de comptage grille d\'images dispersées',
-      'générateur de graphique à images avec corrigé automatique',
-      'créateur de fiches représentation de données double canevas',
+      'grille d\'images dispersées pour compter',
+      'corrigé automatique graphique à images',
+      'fiche représentation de données pour la classe',
     ],
-    titleTag: 'Créateur Fiches Graphique à Images — Générateur Comptage',
-    metaDescription: 'Créez des fiches graphique à images avec grilles 4×5 dispersées, 6 types d’images, corrigés auto, 11 langues et 104 thèmes. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Fiches Graphique à Images — Pour la Classe',
+    metaDescription: 'Créez des fiches graphique à images pour la classe. Grille 4x5 dispersée, corrigés automatiques, 11 langues, 104 thèmes. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Créateur de Fiches Graphique à Images',

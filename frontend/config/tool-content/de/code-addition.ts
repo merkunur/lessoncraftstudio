@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'Bilder-Additions-Ersteller',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Code-Knacker-Mathe-Arbeitsblätter erstellen',
     secondaryKeywords: [
-      'Code-Knacker-Mathe-Arbeitsblatt Generator',
-      'Kryptarithmetik-Rätsel online erstellen',
-      'druckbare Code-Additions-Arbeitsblätter',
-      'Wort-Entschlüsselungs-Rätsel Ersteller',
+      'Code-Knacker-Rätsel für den Unterricht',
+      'Geheimcode-Mathe-Arbeitsblätter für Kinder',
+      'druckbare Chiffre-Rätsel für die Klasse',
+      'Additions-Code-Arbeitsblatt-Ersteller',
     ],
     lsiKeywords: [
-      'Geheimcode-Mathe-Druckvorlagen für Etsy',
-      'Code-Additions-Rätsel-Generator',
-      'Bildsymbol-Mathe-Arbeitsblatt-Tool',
+      'Bilder-Chiffre-Mathe-Rätsel für die Klasse',
+      'Wort-Enthüllung Code-Knacker-Arbeitsblatt',
+      'Zahlencode-Mathe-Aktivität für Schüler',
     ],
-    titleTag: 'Bilder-Additions-Ersteller | Code-Knacker-Mathe',
-    metaDescription: 'Code-Knacker-Additions-Rätsel mit Bildern erstellen. Regulärer Modus, Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
-  },
+    titleTag: 'Code-Knacker Mathe — Rätsel für den Unterricht',
+    metaDescription: 'Code-Knacker-Additions-Rätsel für den Unterricht erstellen. Bildsymbole, Wort-Entschlüsselung, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Bilder-Additions-Ersteller',

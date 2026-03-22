@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'kreuzworträtsel-ersteller',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Kreuzworträtsel für den Unterricht erstellen',
     secondaryKeywords: [
-      'Bilderkreuzworträtsel-Ersteller für Verkäufer',
-      'Kreuzworträtsel mit Bildhinweisen online erstellen und verkaufen',
-      'druckbare Bilderkreuzworträtsel kommerziell erstellen',
-      'Bilderkreuzworträtsel-Generator mit sprachabhängiger Wortgenerierung und automatischem Lösungsschlüssel für KDP',
+      'Kreuzworträtsel-Ersteller für Lehrer',
+      'Bild-Kreuzworträtsel für Kinder',
+      'druckbare Kreuzworträtsel für die Schule',
+      'Vokabel-Kreuzworträtsel für Schüler',
     ],
     lsiKeywords: [
-      'vier Eingabemethoden Schnelle Themen-Generierung Manuelle Bildnamen-Bearbeitung Benutzerdefinierte Wortliste',
-      'sprachabhängige lokalisierte Kreuzwortwörter Bildvokabular-System',
-      'automatischer Lösungsschlüssel ausgefülltes Raster Dual-Canvas Bilderkreuzworträtsel-Ersteller',
+      'Bild-Hinweis-Kreuzworträtsel für Vokabelübung',
+      'lokalisierter Kreuzworträtsel-Generator für die Klasse',
+      'automatischer Lösungsschlüssel Kreuzworträtsel',
     ],
-    titleTag: 'Kreuzworträtsel-Ersteller | Bilder-Rätsel',
-    metaDescription: 'Bilderkreuzworträtsel auf 15×15-Raster mit vier Eingabemethoden erstellen. 11 Sprachen, 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
-  },
+    titleTag: 'Kreuzworträtsel Erstellen — Für den Unterricht',
+    metaDescription: 'Bilderkreuzworträtsel für den Unterricht erstellen. 15x15-Raster, vier Eingabemethoden, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Bilderkreuzworträtsel-Ersteller',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'additions-ersteller',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Additions-Arbeitsblätter für den Unterricht erstellen',
     secondaryKeywords: [
-      'Additionsaufgaben Generator online',
-      'Mathe-Arbeitsblätter mit Bildern erstellen',
-      'druckbare Additionsübungen Generator',
-      'bildbasierte Additionsaufgaben Ersteller',
+      'Additions-Arbeitsblatt-Ersteller für Lehrer',
+      'Mathe-Additions-Arbeitsblätter für Kinder',
+      'druckbare Additionsübungen',
+      'Bild-Additions-Arbeitsblätter für die Vorschule',
     ],
     lsiKeywords: [
-      'visuelle Mathe-Übungen Druckvorlagen',
-      'Bilderrechnen Arbeitsblatt-Tool',
-      'Zahlenraum 1–10 Additionsübungen',
+      'visuelle Mathe-Arbeitsblätter für die Klasse',
+      'bildbasierte Additionsübungen für Kinder',
+      'Vorschul-Mathe-Arbeitsblätter für Lehrer',
     ],
-    titleTag: 'Additions-Ersteller | Mathe-Übungen mit Bildern',
-    metaDescription: 'Additions-Arbeitsblätter mit Bildern erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel und druckfertige PDFs. Kostenlos testen mit Wasserzeichen verfügbar.',
-  },
+    titleTag: 'Additions-Arbeitsblätter Erstellen — Für Lehrer',
+    metaDescription: 'Additions-Arbeitsblätter mit Themenbildern für den Unterricht erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen.',
+    },
 
   hero: {
     title: 'Additions-Arbeitsblatt-Ersteller',

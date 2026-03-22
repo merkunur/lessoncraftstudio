@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador tren del abecedario',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear fichas tren del abecedario para niños',
     secondaryKeywords: [
-      'crear fichas de tren de letras imprimibles',
-      'generador de fichas del alfabeto para vender',
-      'fichas de reconocimiento de letras imprimibles uso comercial',
-      'tren del abecedario imprimible para KDP',
+      'creador de tren del abecedario para la clase',
+      'fichas reconocimiento de letras para niños',
+      'tren del abecedario imprimible para preescolar',
+      'creador de asociación letra-imagen para profesores',
     ],
     lsiKeywords: [
-      'fichas de letras con imágenes para Etsy',
-      'herramienta de asociación imagen-letra',
-      'generador de actividades del abecedario multilingüe',
+      'ficha tren asociación letra-imagen para niños',
+      'actividad alfabeto multilingüe para el aula',
+      'tren del abecedario colorido imprimible',
     ],
-    titleTag: 'Generador Tren del Abecedario | para Vender',
-    metaDescription: 'Genera fichas de tren del abecedario con asociación imagen-letra en 11 idiomas. Crea imprimibles multilingües únicos para vender en Etsy, KDP y TpT. 104 temas.',
-  },
+    titleTag: 'Fichas Tren del Abecedario — Letras para Niños',
+    metaDescription: 'Crea fichas de tren del abecedario para reconocer letras. 11 vagones coloridos, asociación letra-imagen, 11 idiomas. Prueba gratis con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Tren del Abecedario',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'size comparison worksheet generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'size comparison worksheet maker for kids',
     secondaryKeywords: [
-      'big and small worksheet maker for sellers',
-      'create size discrimination worksheets to sell',
-      'printable size comparison worksheets commercial use',
-      'size ordering worksheet generator for KDP',
+      'big and small worksheets for preschool',
+      'size comparison creator for classroom',
+      'printable size ordering worksheets for kids',
+      'big small medium worksheets for kindergarten',
     ],
     lsiKeywords: [
-      'visual size discrimination printables for Etsy',
-      'zero-text size comparison worksheet tool',
-      'big small medium ordering worksheet maker',
+      'visual size discrimination worksheet for kids',
+      'zero-text size comparison printable',
+      'big small ordering activity for preschool',
     ],
-    titleTag: 'Size Comparison Worksheet Generator | Create & Sell',
-    metaDescription: 'Generate size comparison worksheets with five question types, identical and different image modes, and 104 themes. Export PDFs. Try free — license available.',
-  },
+    titleTag: 'Size Comparison Worksheet Maker — For Kids',
+    metaDescription: 'Create size comparison worksheets for preschool and kindergarten. Five question types, identical and different image modes, 104 themes. Try with watermark.',
+    },
 
   hero: {
     title: 'Big & Small Worksheet Maker',

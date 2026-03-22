@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'coloring page generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'custom coloring page maker',
     secondaryKeywords: [
-      'coloring page maker for sellers',
-      'create custom coloring pages to sell',
-      'printable coloring page generator commercial use',
-      'coloring worksheet maker for KDP and Etsy',
+      'coloring page maker for teachers',
+      'custom coloring worksheets for classroom',
+      'coloring page creator for homeschool',
+      'printable coloring pages for kids online',
     ],
     lsiKeywords: [
-      'free-form canvas coloring page designer',
-      'grayscale coloring page export tool',
-      'freehand drawing coloring worksheet maker',
+      'classroom coloring page designer online',
+      'grayscale coloring worksheet for printing',
+      'freehand drawing coloring activity maker',
     ],
-    titleTag: 'Coloring Page Generator — Custom Coloring Page Maker',
-    metaDescription: 'Create coloring pages on a free-form canvas with 3,100+ illustrations across 104 themes, freehand drawing, and grayscale export. Try free — license available.',
-  },
+    titleTag: 'Custom Coloring Page Maker — Create Pages Online',
+    metaDescription: 'Create custom coloring pages for your classroom or home. Free-form canvas, 3,100+ illustrations, 104 themes, freehand drawing, grayscale export. Try with watermark.',
+    },
 
   hero: {
     title: 'Coloring Page Maker',

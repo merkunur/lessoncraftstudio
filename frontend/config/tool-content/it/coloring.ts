@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore pagine da colorare',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare pagine da colorare online',
     secondaryKeywords: [
-      'creatore pagine da colorare per venditori',
-      'creare pagine da colorare personalizzate da vendere',
-      'generatore pagine da colorare stampabili uso commerciale',
-      'creatore schede da colorare per KDP ed Etsy',
+      'creatore di pagine da colorare per insegnanti',
+      'pagine da colorare personalizzate per la classe',
+      'generatore di disegni da colorare per bambini',
+      'pagine da colorare stampabili per la scuola',
     ],
     lsiKeywords: [
-      'designer pagine da colorare canvas libero',
-      'strumento esportazione scala di grigi pagine da colorare',
-      'creatore schede da colorare con disegno a mano libera',
+      'designer di pagine da colorare per la classe',
+      'pagine da colorare in scala di grigi',
+      'strumento di disegno libero per colorare',
     ],
-    titleTag: 'Generatore Pagine da Colorare — Creatore Personalizzato',
-    metaDescription: 'Crea pagine da colorare su canvas libero con oltre 3.100 illustrazioni in 104 temi, disegno a mano libera e scala di grigi. Prova gratuita con filigrana.',
-  },
+    titleTag: 'Creare Pagine da Colorare — Per Insegnanti',
+    metaDescription: 'Crea pagine da colorare personalizzate per la classe o a casa. Canvas libero, 3.100+ illustrazioni, 104 temi. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Creatore di Pagine da Colorare',

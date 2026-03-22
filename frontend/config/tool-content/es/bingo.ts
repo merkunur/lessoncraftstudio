@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador tarjetas de bingo',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear tarjetas de bingo para el aula',
     secondaryKeywords: [
-      'creador de tarjetas de bingo para vendedores uso comercial',
-      'crear tarjetas de bingo para vender en Etsy y KDP',
-      'generador de fichas de bingo imprimibles uso comercial',
-      'herramienta de bingo con generación por lotes y exportación ZIP',
+      'creador de bingo con imágenes para la clase',
+      'creador de juegos de bingo para niños',
+      'tarjetas de bingo imprimibles para la escuela',
+      'generador de tarjetas bingo para profesores',
     ],
     lsiKeywords: [
-      'generador de bingo por lotes con exportación ZIP y JSZip',
-      'creador de bingo doble modo relleno imagen y palabra',
-      'hoja de referencia bingo con cuadrícula dinámica de palabras',
+      'generador de tarjetas bingo por lotes para la clase',
+      'creador de bingo con imágenes y palabras',
+      'hoja de referencia bingo creador',
     ],
-    titleTag: 'Generador Tarjetas de Bingo | Crear y Vender',
-    metaDescription: 'Crea tarjetas de bingo con cuadrículas de 3×3 a 5×5, lotes de 10 tarjetas únicas, exportación ZIP, hojas de referencia y 104 temas. Prueba con marca de agua.',
-  },
+    titleTag: 'Crear Tarjetas de Bingo — Para el Aula',
+    metaDescription: 'Crea tarjetas de bingo con imágenes para el aula. Cuadrículas de 3x3 a 5x5, lotes de tarjetas únicas, hojas de referencia, 104 temas. Prueba con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Tarjetas de Bingo',

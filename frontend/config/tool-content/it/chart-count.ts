@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'scheda grafico con immagini',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare schede grafico con immagini per la classe',
     secondaryKeywords: [
-      'creatore schede grafico con immagini per venditori',
-      'creare schede grafici a barre da vendere',
-      'generatore schede pittogrammi stampabili uso commerciale',
-      'creatore schede conteggio grafico per KDP ed Etsy',
+      'creatore di pittogrammi per la classe',
+      'schede conteggio e grafico per bambini',
+      'schede grafici dati per la scuola',
+      'attività grafico con immagini per insegnanti',
     ],
     lsiKeywords: [
-      'strumento schede conteggio griglia immagini sparse',
-      'generatore grafico con immagini chiave di risposta automatica',
-      'creatore schede rappresentazione dati doppio canvas',
+      'griglia immagini sparse per contare',
+      'chiave di risposta automatica grafico pittorico',
+      'scheda rappresentazione dati per la classe',
     ],
-    titleTag: 'Generatore Grafici con Immagini — Schede Conteggio',
-    metaDescription: 'Crea schede grafico con immagini: griglia 4×5 sparsa, 6 tipi di icone, chiave di risposta automatica, 11 lingue e 104 temi. Prova gratuita con filigrana.',
-  },
+    titleTag: 'Schede Grafico con Immagini — Per la Classe',
+    metaDescription: 'Crea schede grafico con immagini per la classe. Griglia 4x5, 6 tipi di icone, chiave di risposta automatica, 11 lingue. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Creatore di Schede Grafico con Immagini',

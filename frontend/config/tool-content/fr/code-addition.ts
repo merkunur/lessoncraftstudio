@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur d\'addition codée',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des fiches addition codée pour la classe',
     secondaryKeywords: [
-      'créer des fiches d\'addition codée à vendre',
-      'puzzles cryptarithmétiques imprimables licence commerciale',
-      'générateur de puzzles code secret maths',
-      'fiches de décodage maths pour vendeurs Etsy',
+      'puzzles code secret maths pour enseignants',
+      'fiches addition chiffrée pour la classe',
+      'exercices code maths imprimables pour enfants',
+      'créateur de fiches addition codée',
     ],
     lsiKeywords: [
-      'fiches de code secret maths imprimables',
-      'outil de puzzles cryptarithmétiques en ligne',
-      'générateur de chiffre secret maths pour KDP',
+      'puzzle chiffré maths avec images pour la classe',
+      'fiche mot mystère code-cracker',
+      'activité code numérique maths pour élèves',
     ],
-    titleTag: 'Générateur d\'Addition Codée | Puzzles à Décoder',
-    metaDescription: 'Créez des puzzles d’addition codée avec images. Modes Classique et Mot Mystère, 104 thèmes, 11 langues, licence commerciale. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Fiches Addition Codée — Puzzles pour la Classe',
+    metaDescription: 'Créez des puzzles d\'addition codée pour la classe. Codes secrets avec images, mode Mot Mystère, 11 langues. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition Codée',

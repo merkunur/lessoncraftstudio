@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'alphabet-zug-generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Alphabet-Zug-Arbeitsblätter für Kinder erstellen',
     secondaryKeywords: [
-      'Buchstabenzug-Ersteller für Verkäufer',
-      'Buchstabenerkennung-Arbeitsblätter online erstellen',
-      'druckbare Alphabet-Zug-Arbeitsblätter kommerziell',
-      'mehrsprachiger Alphabet-Generator für KDP',
+      'Alphabet-Zug-Ersteller für die Klasse',
+      'Buchstabenerkennung Arbeitsblätter für Kinder',
+      'druckbarer Alphabet-Zug für Vorschule',
+      'Buchstaben-Zuordnung Ersteller für Lehrer',
     ],
     lsiKeywords: [
-      'Buchstabe-Bild-Zuordnung Druckvorlagen für Etsy',
-      'Alphabet-Zug-Aktivität Arbeitsblatt-Tool',
-      'mehrsprachige Buchstabenerkennung Generator',
+      'Buchstabe-Bild-Zuordnung Zug für Kinder',
+      'mehrsprachige Alphabet-Aktivität für die Klasse',
+      'bunter Alphabet-Zug zum Ausdrucken',
     ],
-    titleTag: 'Alphabet-Zug-Generator | Buchstabenzug-Ersteller',
-    metaDescription: 'Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen. Druckfertig.',
-  },
+    titleTag: 'Alphabet-Zug Erstellen — Buchstabenüben für Kinder',
+    metaDescription: 'Alphabet-Zug-Arbeitsblätter für Buchstabenerkennung erstellen. 11 bunte Waggons, Buchstabe-Bild-Zuordnung, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Alphabet-Zug-Arbeitsblatt-Generator',

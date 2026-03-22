@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'rekenpuzzel werkblad generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'rekenpuzzels maken voor de klas',
     secondaryKeywords: [
-      'rekenpuzzel maker voor verkopers',
-      'wiskundepuzzels maken om te verkopen',
-      'printbare rekenpuzzel werkbladen met commerciële licentie',
-      'reken legpuzzel generator voor KDP',
+      'legpuzzel rekenwerkbladen voor leerkrachten',
+      'rekenpuzzel maker voor kinderen',
+      'rekenpuzzels met afbeeldingen voor de klas',
+      'printbare rekenpuzzel werkbladen voor leerlingen',
     ],
     lsiKeywords: [
-      'afbeeldingraster reken-printables voor Etsy',
-      'beeldpuzzel werkblad tool',
-      'reken legpuzzel activiteit generator',
+      'afbeeldingraster rekenpuzzel voor de klas',
+      'legpuzzel rekenactiviteit voor kinderen',
+      'configureerbare rekenpuzzel maker',
     ],
-    titleTag: 'Rekenpuzzel Werkblad Maker | Verkoop Printables',
-    metaDescription: 'Genereer legpuzzel-stijl rekenpuzzels met afbeeldingrasters, drie rekenmodi en eigen afbeelding uploaden. Maak unieke printables om te verkopen op Etsy, KDP en TPT.',
-  },
+    titleTag: 'Rekenpuzzels Maken — Puzzels voor de Klas',
+    metaDescription: 'Maak legpuzzel-stijl rekenpuzzels voor de klas. Afbeeldingrasters, drie rekenmodi, antwoordblad. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Rekenpuzzel Werkblad Maker',

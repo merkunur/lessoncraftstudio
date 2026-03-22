@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'mathe-rätsel-generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Mathe-Rätsel für den Unterricht erstellen',
     secondaryKeywords: [
-      'Mathe-Puzzle-Ersteller für Verkäufer',
-      'Puzzle-Mathe-Arbeitsblätter online erstellen',
-      'druckbare Mathe-Rätsel-Arbeitsblätter',
-      'Bilder-Puzzle-Mathe-Generator für KDP',
+      'Puzzle-Mathe-Arbeitsblätter für Lehrer',
+      'Mathe-Rätsel-Ersteller für Kinder',
+      'Bild-Mathe-Rätsel für die Klasse',
+      'druckbare Mathe-Rätsel für Schüler',
     ],
     lsiKeywords: [
-      'Bilderraster-Mathe-Druckvorlagen für Etsy',
-      'Bilderpuzzle-Arbeitsblatt-Tool',
-      'Mathe-Puzzle-Aktivitäten Generator',
+      'Bildraster-Mathe-Rätsel für den Unterricht',
+      'Puzzle-Mathe-Aktivität für Kinder',
+      'konfigurierbarer Mathe-Rätsel-Ersteller',
     ],
-    titleTag: 'Mathe-Rätsel-Generator | Puzzle-Mathe-Übungen',
-    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil mit Bildraster und drei Rechenarten erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
-  },
+    titleTag: 'Mathe-Rätsel Erstellen — Puzzles für die Klasse',
+    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil für den Unterricht erstellen. Bildraster, drei Rechenarten, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Mathe-Rätsel-Arbeitsblatt-Generator',

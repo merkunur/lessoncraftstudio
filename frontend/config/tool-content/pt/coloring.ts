@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador páginas para colorir',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar páginas para colorir online',
     secondaryKeywords: [
-      'criador de páginas para colorir para vendedores',
-      'criar páginas para colorir personalizadas uso comercial',
-      'gerador de fichas para colorir imprimíveis para KDP e Etsy',
-      'ferramenta para criar páginas para colorir com canvas de forma livre',
+      'criador de páginas para colorir para professores',
+      'páginas para colorir personalizadas para a sala',
+      'gerador de desenhos para colorir para crianças',
+      'páginas para colorir imprimíveis para a escola',
     ],
     lsiKeywords: [
-      'designer de páginas para colorir com canvas de forma livre',
-      'exportação em escala de cinzentos para fichas para colorir',
-      'criador de fichas para colorir com desenho à mão livre',
+      'designer de páginas para colorir para a classe',
+      'páginas para colorir em escala de cinza',
+      'ferramenta de desenho livre para colorir',
     ],
-    titleTag: 'Gerador Páginas para Colorir | Criar e Vender',
-    metaDescription: 'Crie páginas para colorir em canvas de forma livre com 3100+ ilustrações em 104 temas, desenho à mão livre e escala de cinzentos. Teste grátis com marca d\'água.',
-  },
+    titleTag: 'Criar Páginas para Colorir — Para Professores',
+    metaDescription: 'Crie páginas para colorir personalizadas para a sala de aula ou em casa. Canvas livre, 3.100+ ilustrações, 104 temas. Teste grátis com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Páginas para Colorir',

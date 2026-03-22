@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur de fiches d\'addition',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des fiches d\'addition pour la classe',
     secondaryKeywords: [
-      'créer des fiches d\'addition en ligne',
-      'fiches d\'addition imprimables avec images',
-      'générateur de fiches d\'addition pour enfants',
-      'outil de création de fiches de maths',
+      'créateur de fiches d\'addition pour enseignants',
+      'fiches d\'addition mathématiques pour enfants',
+      'exercices d\'addition imprimables',
+      'fiches d\'addition avec images pour maternelle',
     ],
     lsiKeywords: [
-      'fiches de maths visuelles imprimables',
-      'exercices d\'addition avec images à imprimer',
-      'fiches de calcul maternelle et primaire',
+      'fiches mathématiques visuelles pour la classe',
+      'exercices d\'addition avec images pour enfants',
+      'fiches mathématiques maternelle pour enseignants',
     ],
-    titleTag: 'Générateur de Fiches d\'Addition | Maths Imprimables',
-    metaDescription: 'Créez des fiches d’addition avec images thématiques. 104 thèmes, difficulté réglable, corrigés inclus, export PDF prêt à imprimer. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Créer des Fiches d\'Addition — Pour Enseignants',
+    metaDescription: 'Créez des fiches d\'addition avec images thématiques pour la classe. 104 thèmes, difficulté réglable, corrigés inclus, PDF prêt à imprimer. Essai avec filigrane.',
+    },
 
   hero: {
     title: 'Générateur de Fiches d\'Addition',

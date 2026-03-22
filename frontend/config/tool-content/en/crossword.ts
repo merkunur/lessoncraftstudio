@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'picture crossword puzzle',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'picture crossword maker for classroom',
     secondaryKeywords: [
-      'picture crossword puzzle maker for sellers',
-      'create image crossword puzzles to sell',
-      'printable crossword puzzle generator commercial use',
-      'picture crossword maker for KDP and Etsy',
+      'crossword puzzle creator for teachers',
+      'image crossword worksheets for kids',
+      'printable crossword puzzles for school',
+      'vocabulary crossword maker for students',
     ],
     lsiKeywords: [
-      'four input methods theme manual custom word list upload',
-      'language-sensitive localized crossword words image vocabulary',
-      'auto answer key filled grid dual-canvas crossword creator',
+      'image-clue crossword puzzle for vocabulary practice',
+      'localized crossword word generator for classroom',
+      'auto answer key crossword worksheet creator',
     ],
-    titleTag: 'Crossword Maker — Picture Crossword Puzzle Generator',
-    metaDescription: 'Create picture crosswords with image clues on a 15x15 grid, four input methods, auto answer keys, and 104 themed image sets. Try free — license available.',
-  },
+    titleTag: 'Picture Crossword Maker — Crosswords for Students',
+    metaDescription: 'Create picture crossword puzzles for classroom vocabulary practice. Image clues on 15x15 grid, 4 input methods, auto answer key. Try with watermark — no signup.',
+    },
 
   hero: {
     title: 'Crossword Maker',

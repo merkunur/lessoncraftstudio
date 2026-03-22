@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'geheime code rekenpuzzel generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'codekraker rekenwerkbladen maken voor de klas',
     secondaryKeywords: [
-      'codekraker werkblad maker voor verkopers',
-      'kraak de code rekenpuzzels maken om te verkopen',
-      'printbare code optellen werkbladen met commerciële licentie',
-      'cryptarithmetische puzzelgenerator voor KDP',
+      'geheime code rekenpuzzels voor leerkrachten',
+      'codekraker werkbladen voor de klas',
+      'printbare cijfercode puzzels voor kinderen',
+      'optellen codekraker werkblad maker',
     ],
     lsiKeywords: [
-      'code breken reken-printables voor Etsy',
-      'geheime code werkblad tool',
-      'cijfercode puzzel generator',
+      'afbeelding cijferpuzzel voor de klas',
+      'woord onthullen codekraker werkblad',
+      'getalcode rekenactiviteit voor leerlingen',
     ],
-    titleTag: 'Geheime Code Reken Werkblad Maker | Verkoop Puzzels',
-    metaDescription: 'Maak cryptarithmetische codekraak-rekenpuzzels met afbeeldingen in seconden. Twee modi, 11 talen, commerciële licentie beschikbaar. Verkoop op Etsy, KDP en TPT.',
-  },
+    titleTag: 'Codekraker Reken Werkbladen — Voor de Klas',
+    metaDescription: 'Maak codekraak-rekenpuzzels voor de klas. Afbeeldingssymbolen, twee modi, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Geheime Code Reken Werkblad Maker',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador gráficos de imágenes',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear fichas gráficos de imágenes para el aula',
     secondaryKeywords: [
-      'creador de fichas de gráficos pictóricos para vendedores',
-      'crear fichas de gráficos de conteo uso comercial',
-      'generador de fichas de gráficos de barras imprimibles para KDP y Etsy',
-      'herramienta de fichas de conteo con gráfico pictórico para vendedores',
+      'creador de pictogramas para la clase',
+      'fichas de conteo y gráfico para niños',
+      'fichas de gráficos de datos para la escuela',
+      'actividad gráfico de imágenes para profesores',
     ],
     lsiKeywords: [
-      'generador de fichas de cuadrícula de imágenes dispersas',
-      'clave de respuestas automática para gráficos pictóricos',
-      'creador de fichas de representación de datos con lienzo dual',
+      'cuadrícula de imágenes dispersas para contar',
+      'clave de respuestas automática gráfico pictórico',
+      'ficha representación de datos para el aula',
     ],
-    titleTag: 'Generador Gráficos de Imágenes | para Vender',
-    metaDescription: 'Crea fichas de gráficos pictóricos con cuadrícula 4×5, 6 tipos de imágenes, clave de respuestas automática, 11 idiomas y 104 temas. Prueba gratuita con marca.',
-  },
+    titleTag: 'Fichas Gráficos de Imágenes — Para el Aula',
+    metaDescription: 'Crea fichas de gráficos pictóricos para el aula. Cuadrícula 4x5, 6 tipos de imágenes, clave de respuestas, 11 idiomas. Prueba gratis con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Fichas de Gráficos de Conteo',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'optellen werkblad generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'optellen werkbladen maken voor de klas',
     secondaryKeywords: [
-      'optellen werkblad maker online',
-      'rekenbladen met afbeeldingen maken',
-      'printbare optelsommen generator',
-      'beeldgebaseerde optelwerkbladen maken',
+      'optellen werkblad maker voor leerkrachten',
+      'rekenwerkbladen optellen voor kinderen',
+      'printbare opteloefeningen',
+      'optellen werkbladen met afbeeldingen voor kleuters',
     ],
     lsiKeywords: [
-      'visuele rekenwerkbladen drukklaar',
-      'plaatjes rekenen werkblad-tool',
-      'getallenlijn 1–10 optelsommen',
+      'visuele rekenwerkbladen voor de klas',
+      'opteloefeningen met afbeeldingen voor kinderen',
+      'kleuterwiskunde werkbladen voor leerkrachten',
     ],
-    titleTag: 'Optellen Werkblad Maker | Rekenbladen met Afbeeldingen',
-    metaDescription: 'Maak optelwerkbladen met thema-afbeeldingen in enkele seconden. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
-  },
+    titleTag: 'Optellen Werkbladen Maken — Voor Leerkrachten',
+    metaDescription: 'Maak optelwerkbladen met thema-afbeeldingen voor de klas. 104 thema\'s, 4 oefenmodi, antwoordblad en printklare PDF\'s. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Optellen Werkblad Maker',

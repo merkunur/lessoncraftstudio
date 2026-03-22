@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'créateur cartes bingo',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des cartes bingo pour la classe',
     secondaryKeywords: [
-      'générateur de cartes bingo à images pour vendeurs',
-      'créer des cartes bingo à vendre sur Etsy',
-      'créateur de cartes bingo imprimables licence commerciale',
-      'générateur de cartes bingo pour KDP et Etsy',
+      'créateur de bingo à images pour la classe',
+      'jeu de bingo créateur pour enfants',
+      'cartes de bingo imprimables pour l\'école',
+      'générateur de cartes bingo pour enseignants',
     ],
     lsiKeywords: [
-      'générateur de cartes bingo par lot avec export ZIP',
-      'double mode remplissage image mot créateur bingo',
-      'feuille d\'appel outil créateur fiches bingo',
+      'générateur de cartes bingo par lots pour la classe',
+      'créateur de bingo images et mots',
+      'feuille d\'appel bingo créateur',
     ],
-    titleTag: 'Créateur Cartes Bingo — Générateur Bingo à Images',
-    metaDescription: 'Créez des cartes bingo à images avec grilles 3×3 à 5×5, lot de cartes uniques, export ZIP, feuilles d’appel, 104 thèmes. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Créer des Cartes Bingo — Pour la Classe',
+    metaDescription: 'Créez des cartes bingo à images pour la classe. Grilles 3x3 à 5x5, lots de cartes uniques, feuilles d\'appel, 104 thèmes. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Créateur de Cartes Bingo à Images',

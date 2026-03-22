@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'plaatjesbingo kaart generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'bingokaarten maken voor de klas',
     secondaryKeywords: [
-      'plaatjesbingo kaart generator voor verkopers',
-      'bingokaarten maken om te verkopen op Etsy',
-      'printbare bingokaart maker commercieel gebruik',
-      'bingokaart werkblad generator voor KDP en Etsy',
+      'plaatjesbingo maker voor de klas',
+      'bingospel maker voor kinderen',
+      'printbare bingokaarten voor school',
+      'bingokaarten generator voor leerkrachten',
     ],
     lsiKeywords: [
-      'batch bingokaart generator met ZIP-export',
-      'dubbele vulmodus afbeelding woord bingo maker',
-      'afroepblad bingo werkblad creator tool',
+      'batch bingokaarten generator voor de klas',
+      'beeld-en-woord bingo maker',
+      'afroepblad bingo werkblad maker',
     ],
-    titleTag: 'Bingokaart Maker — Plaatjesbingo Kaart Generator',
-    metaDescription: 'Maak plaatjesbingokaarten met rasters van 3×3 tot 5×5, batchgeneratie van unieke kaarten, ZIP-export, afroepbladen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
-  },
+    titleTag: 'Bingokaarten Maken — Plaatjesbingo voor de Klas',
+    metaDescription: 'Maak plaatjesbingokaarten voor de klas. Rasters van 3x3 tot 5x5, batchgeneratie, afroepbladen, 104 thema\'s. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Plaatjesbingo Maker',

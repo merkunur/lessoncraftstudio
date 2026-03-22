@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador de puzzles matemáticos',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear puzzles matemáticos para el aula',
     secondaryKeywords: [
-      'crear rompecabezas de matemáticas imprimibles',
-      'generador de fichas puzzle de matemáticas para vender',
-      'rompecabezas matemáticos imprimibles uso comercial',
-      'puzzle matemático tipo rompecabezas para KDP',
+      'puzzles matemáticos jigsaw para profesores',
+      'creador de puzzles matemáticos para niños',
+      'puzzles de matemáticas con imágenes para clase',
+      'fichas de puzzles matemáticos para alumnos',
     ],
     lsiKeywords: [
-      'fichas de cuadrícula matemática con imágenes para Etsy',
-      'herramienta de puzzles de imágenes con ecuaciones',
-      'generador de actividades tipo rompecabezas matemático',
+      'puzzle matemático con cuadrícula para el aula',
+      'actividad puzzle matemático jigsaw para niños',
+      'creador de puzzles matemáticos configurable',
     ],
-    titleTag: 'Generador de Puzzles Matemáticos | para Vender',
-    metaDescription: 'Genera puzzles matemáticos tipo rompecabezas con cuadrículas de imágenes, tres modos de operación y subida de imagen propia. Imprimibles para Etsy y KDP.',
-  },
+    titleTag: 'Crear Puzzles Matemáticos — Para Profesores',
+    metaDescription: 'Crea puzzles matemáticos tipo rompecabezas para el aula. Cuadrículas con imágenes, tres modos de operación, clave de respuestas. Prueba con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Puzzles Matemáticos',

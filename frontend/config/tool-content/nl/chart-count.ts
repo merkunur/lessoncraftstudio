@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'plaatjesgrafiek werkblad generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'plaatjesgrafiek werkbladen maken voor de klas',
     secondaryKeywords: [
-      'plaatjesgrafiek werkblad maker voor verkopers',
-      'telgrafiek werkbladen maken om te verkopen',
-      'printbare plaatjesgrafiek generator commercieel gebruik',
-      'staafdiagram tel werkblad maker voor KDP en Etsy',
+      'pictogram werkblad maker voor de klas',
+      'tel-en-grafiek werkbladen voor kinderen',
+      'printbare datagrafiek werkbladen voor school',
+      'plaatjesgrafiek activiteit voor leerkrachten',
     ],
     lsiKeywords: [
-      'verstrooide afbeeldingsraster tel werkblad tool',
-      'automatisch antwoordblad plaatjesgrafiek generator',
-      'dubbel-canvas gegevensrepresentatie werkblad maker',
+      'verspreide afbeeldingraster tel werkblad',
+      'automatisch antwoordblad plaatjesgrafiek',
+      'datavisualisatie werkblad voor de klas',
     ],
-    titleTag: 'Plaatjesgrafiek Werkblad Maker — Telgrafiek Generator',
-    metaDescription: 'Maak plaatjesgrafiek werkbladen met verstrooide 4×5 rasters, 6 afbeeldingstypen, automatische antwoordbladen, 11 talen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
-  },
+    titleTag: 'Plaatjesgrafiek Werkbladen — Voor de Klas',
+    metaDescription: 'Maak plaatjesgrafiek werkbladen voor de klas. 4x5 rasters, automatische antwoordbladen, 11 talen, 104 thema\'s. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Telgrafiek Werkblad Maker',

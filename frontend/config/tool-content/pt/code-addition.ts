@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador adição codificada',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar fichas adição codificada para a sala de aula',
     secondaryKeywords: [
-      'criar fichas de criptaritmética para vender',
-      'puzzles de decifrar código matemática imprimíveis',
-      'gerador de adição codificada com imagens uso comercial',
-      'fichas de código secreto matemática para Etsy e KDP',
+      'puzzles código secreto matemática para professores',
+      'fichas adição cifrada para a classe',
+      'exercícios código matemática para crianças',
+      'criador de fichas adição codificada',
     ],
     lsiKeywords: [
-      'fichas de decifrar código matemática imprimíveis',
-      'ferramenta de puzzles criptaritméticos online',
-      'gerador de cifra secreta matemática para vendedores',
+      'puzzle cifrado matemática com imagens para a classe',
+      'ficha palavra revelada código secreto',
+      'atividade código numérico matemática para alunos',
     ],
-    titleTag: 'Gerador Adição Codificada | Criar e Vender',
-    metaDescription: 'Crie puzzles de adição codificada com imagens. Modos Clássico e Palavra Revelada, 104 temas, 11 idiomas, licença comercial. Teste grátis com marca d\'água.',
-  },
+    titleTag: 'Fichas Adição Codificada — Puzzles para a Classe',
+    metaDescription: 'Crie puzzles de adição codificada para a sala de aula. Códigos secretos com imagens, modo Palavra Revelada, 11 idiomas. Teste grátis com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Fichas de Adição Codificada',

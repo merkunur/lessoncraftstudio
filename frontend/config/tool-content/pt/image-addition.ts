@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador fichas de adição',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar fichas de adição para a sala de aula',
     secondaryKeywords: [
-      'criar fichas de adição online',
-      'fichas de adição imprimíveis com imagens',
-      'gerador de fichas de adição para crianças',
-      'ferramenta para criar fichas de matemática',
+      'criador de fichas de adição para professores',
+      'fichas de adição matemática para crianças',
+      'exercícios de adição imprimíveis',
+      'fichas de adição com imagens para pré-escola',
     ],
     lsiKeywords: [
-      'fichas de matemática visuais imprimíveis',
-      'exercícios de adição com imagens para imprimir',
-      'fichas de cálculo pré-escolar e primário',
+      'fichas matemáticas visuais para a classe',
+      'exercícios de adição com imagens para crianças',
+      'fichas matemáticas pré-escola para professores',
     ],
-    titleTag: 'Gerador Fichas de Adição | Criar e Vender',
-    metaDescription: 'Crie fichas de adição com imagens temáticas para vender. 104 temas, dificuldade ajustável, gabarito incluído, PDF imprimível. Teste grátis com marca d\'água.',
-  },
+    titleTag: 'Criar Fichas de Adição — Para Professores e Pais',
+    metaDescription: 'Crie fichas de adição com imagens temáticas para a sala de aula. 104 temas, dificuldade ajustável, gabarito incluído, PDF imprimível. Teste com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Fichas de Adição',

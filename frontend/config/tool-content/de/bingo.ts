@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'Bilder-Bingo-Karten-Generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Bingo-Karten für den Unterricht erstellen',
     secondaryKeywords: [
-      'Bingo-Karten-Ersteller für Verkäufer',
-      'Bilder-Bingo-Arbeitsblätter online erstellen und verkaufen',
-      'druckbare Bingo-Karten kommerziell erstellen',
-      'Bingo-Karten-Generator mit Stapel-Generierung und ZIP-Export für KDP',
+      'Bilder-Bingo-Ersteller für die Klasse',
+      'Bingo-Spiel-Ersteller für Kinder',
+      'druckbare Bingo-Karten für die Schule',
+      'Bingo-Karten-Generator für Lehrer',
     ],
     lsiKeywords: [
-      'Doppel-Füllmodus Bild-Wort-Bingo-Ersteller für Verkäufer',
-      'Stapel-Bingo-Karten-Generator mit ZIP-Exportfunktion',
-      'Ansageblatt-Bingo-Arbeitsblatt-Erstellungstool mit dynamischem Wortraster',
+      'Stapel-Bingo-Karten für Klassenspiele',
+      'Bild-und-Wort-Bingo-Ersteller',
+      'Ansageblatt-Bingo-Arbeitsblatt-Ersteller',
     ],
-    titleTag: 'Bingo-Karten-Ersteller — Bilder-Bingo-Karten-Generator',
-    metaDescription: 'Bilder-Bingo-Karten mit Rastern von 3×3 bis 5×5, Stapel-Generierung und ZIP-Export erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen.',
-  },
+    titleTag: 'Bingo-Karten Erstellen — Bilder-Bingo für die Klasse',
+    metaDescription: 'Bingo-Karten für den Unterricht erstellen. Raster von 3x3 bis 5x5, Stapel-Generierung, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Bingo-Karten-Ersteller',

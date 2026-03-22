@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador trem do alfabeto',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar fichas trem do alfabeto para crianças',
     secondaryKeywords: [
-      'criar fichas de trem de letras imprimíveis',
-      'gerador de fichas do alfabeto para vender',
-      'fichas de reconhecimento de letras imprimíveis uso comercial',
-      'trem do alfabeto imprimível para KDP',
+      'criador de trem do alfabeto para a classe',
+      'fichas reconhecimento de letras para crianças',
+      'trem do alfabeto imprimível para pré-escola',
+      'criador associação letra-imagem para professores',
     ],
     lsiKeywords: [
-      'fichas de letras com imagens para Etsy',
-      'ferramenta de associação letra-imagem',
-      'gerador de atividades do alfabeto multilingue',
+      'ficha trem associação letra-imagem para crianças',
+      'atividade alfabeto multilíngue para a classe',
+      'trem do alfabeto colorido imprimível',
     ],
-    titleTag: 'Gerador Trem do Alfabeto | Criar e Vender',
-    metaDescription: 'Gere fichas de trem do alfabeto com associação letra-imagem em 11 idiomas. Crie imprimíveis multilingues únicos para vender na Etsy, KDP e TPT. 104 temas.',
-  },
+    titleTag: 'Fichas Trem do Alfabeto — Letras para Crianças',
+    metaDescription: 'Crie fichas de trem do alfabeto para reconhecer letras. 11 vagões coloridos, associação letra-imagem, 11 idiomas. Teste grátis com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Trem do Alfabeto',

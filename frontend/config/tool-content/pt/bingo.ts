@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'gerador cartelas de bingo',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'criar cartelas de bingo para a sala de aula',
     secondaryKeywords: [
-      'criador de cartelas de bingo para vendedores uso comercial',
-      'criar cartelas de bingo para vender na Etsy e KDP',
-      'gerador de fichas de bingo imprimíveis uso comercial',
-      'ferramenta de bingo com geração em lote e exportação ZIP',
+      'criador de bingo com imagens para a classe',
+      'criador de jogos de bingo para crianças',
+      'cartelas de bingo imprimíveis para a escola',
+      'gerador de cartelas bingo para professores',
     ],
     lsiKeywords: [
-      'gerador de bingo em lote com exportação ZIP e JSZip',
-      'criador de bingo duplo modo preenchimento imagem e palavra',
-      'folha de chamada bingo com grelha dinâmica de palavras',
+      'gerador batch de cartelas bingo para a classe',
+      'criador de bingo com imagens e palavras',
+      'folha de chamada bingo criador',
     ],
-    titleTag: 'Gerador Cartelas de Bingo | Criar e Vender',
-    metaDescription: 'Crie cartelas de bingo com grelhas de 3×3 a 5×5, lotes de 10 cartelas únicas, exportação ZIP, folhas de chamada e 104 temas. Teste grátis com marca d\'água.',
-  },
+    titleTag: 'Criar Cartelas de Bingo — Para a Sala de Aula',
+    metaDescription: 'Crie cartelas de bingo com imagens para a sala de aula. Grelhas de 3x3 a 5x5, lotes de cartelas únicas, folhas de chamada, 104 temas. Teste com marca d\'água.',
+    },
 
   hero: {
     title: 'Gerador de Cartelas de Bingo',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador fichas de suma',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear fichas de suma para el aula',
     secondaryKeywords: [
-      'crear fichas de suma online',
-      'fichas de suma imprimibles con imágenes',
-      'generador de fichas de suma para niños',
-      'herramienta para crear fichas de matemáticas',
+      'creador de fichas de suma para profesores',
+      'fichas de suma matemáticas para niños',
+      'ejercicios de suma imprimibles',
+      'fichas de suma con imágenes para preescolar',
     ],
     lsiKeywords: [
-      'fichas de matemáticas visuales imprimibles',
-      'ejercicios de suma con imágenes para imprimir',
-      'fichas de cálculo preescolar y primaria',
+      'fichas matemáticas visuales para el aula',
+      'ejercicios de suma con imágenes para niños',
+      'fichas matemáticas preescolar para profesores',
     ],
-    titleTag: 'Generador Fichas de Suma | Crear y Vender',
-    metaDescription: 'Crea fichas de suma con imágenes temáticas para vender. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de agua.',
-  },
+    titleTag: 'Crear Fichas de Suma — Para Profesores y Padres',
+    metaDescription: 'Crea fichas de suma con imágenes temáticas para el aula. 104 temas, dificultad ajustable, clave de respuestas, PDF imprimible. Prueba gratis con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Fichas de Suma',

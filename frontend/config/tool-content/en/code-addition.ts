@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'code breaker math worksheet',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'code breaker math worksheet maker',
     secondaryKeywords: [
-      'code breaker worksheet maker for sellers',
-      'create crack the code math puzzles to sell',
-      'printable code addition worksheets commercial use',
-      'cryptarithmetic puzzle generator for KDP',
+      'crack the code math worksheets for teachers',
+      'code breaker puzzles for classroom',
+      'printable cipher math worksheets for kids',
+      'secret code addition worksheet creator',
     ],
     lsiKeywords: [
-      'code breaking math printables for Etsy',
-      'secret code worksheet tool',
-      'number cipher puzzle generator',
+      'image cipher math puzzle for classroom',
+      'word reveal code-cracking worksheet',
+      'number code math activity for students',
     ],
-    titleTag: 'Code Breaker Math Worksheet Maker | Sell Puzzles',
-    metaDescription: 'Create cryptarithmetic code-cracking math puzzles with images in seconds. Two modes, 11 languages, commercial license available. Sell on Etsy, KDP, and TpT.',
-  },
+    titleTag: 'Code Breaker Math Maker — Worksheets for Class',
+    metaDescription: 'Create code-cracking math worksheets for classroom fun. Image cipher puzzles with addition, Word Reveal mode, 11 languages. Try with watermark — no signup.',
+    },
 
   hero: {
     title: 'Code Breaker Math Worksheet Maker',

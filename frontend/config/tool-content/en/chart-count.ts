@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'picture graph worksheet',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'picture graph worksheet maker for teachers',
     secondaryKeywords: [
-      'picture graph worksheet maker for sellers',
-      'create chart count worksheets to sell',
-      'printable pictograph worksheet generator commercial use',
-      'bar chart counting worksheet maker for KDP and Etsy',
+      'pictograph worksheet creator for classroom',
+      'chart count worksheets for kids',
+      'printable data graph worksheets for school',
+      'picture graph activity maker for teachers',
     ],
     lsiKeywords: [
-      'scattered image grid counting worksheet tool',
-      'auto answer key picture graph generator',
-      'dual-canvas data representation worksheet maker',
+      'scattered image grid counting worksheet',
+      'auto answer key picture graph creator',
+      'data representation worksheet for classroom',
     ],
-    titleTag: 'Picture Graph Worksheet Maker — Chart Count Generator',
-    metaDescription: 'Create picture graph worksheets with scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, and 104 themed images. Try free — license available.',
-  },
+    titleTag: 'Picture Graph Worksheet Maker — For Classroom',
+    metaDescription: 'Create picture graph worksheets for classroom math. Scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, 104 themes. Try with watermark.',
+    },
 
   hero: {
     title: 'Chart Count Worksheet Maker',

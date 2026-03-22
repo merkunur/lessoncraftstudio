@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'alphabet train worksheet generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'alphabet train worksheet maker for kids',
     secondaryKeywords: [
-      'alphabet worksheet maker for sellers',
-      'create alphabet train worksheets to sell',
-      'printable letter recognition worksheets commercial use',
-      'alphabet train generator for KDP',
+      'alphabet train creator for classroom',
+      'letter recognition worksheets for kids',
+      'printable alphabet train for preschool',
+      'alphabet matching worksheet maker for teachers',
     ],
     lsiKeywords: [
-      'letter recognition printables for Etsy',
-      'alphabet matching worksheet tool',
-      'multilingual alphabet activity generator',
+      'letter-image matching train worksheet for kids',
+      'multilingual alphabet activity for classroom',
+      'colorful alphabet train printable for preschool',
     ],
-    titleTag: 'Alphabet Train Worksheet Generator | Sell Printables',
-    metaDescription: 'Generate colorful alphabet train worksheets with letter-image matching across 11 languages. Create unique multilingual printables to sell on Etsy, KDP, and TpT.',
-  },
+    titleTag: 'Alphabet Train Maker — Letter Practice for Kids',
+    metaDescription: 'Create alphabet train worksheets for letter recognition. 11 colorful wagons, letter-image matching, 11 languages, 104 themes. Try with watermark — no signup.',
+    },
 
   hero: {
     title: 'Alphabet Train Worksheet Generator',

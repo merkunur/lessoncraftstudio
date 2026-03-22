@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'groottevergelijking werkblad generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'groot klein werkbladen maken voor kinderen',
     secondaryKeywords: [
-      'groot en klein werkblad maker voor verkopers',
-      'groottediscriminatie werkbladen maken om te verkopen',
-      'printbare groottevergelijking werkbladen commercieel gebruik',
-      'grootte-ordening werkblad generator voor KDP',
+      'groot en klein werkbladen voor kleuters',
+      'groottevergelijking maker voor de klas',
+      'printbare grootte-ordening voor kinderen',
+      'groot klein medium werkbladen voor kleuterschool',
     ],
     lsiKeywords: [
-      'visuele groottediscriminatie printables voor Etsy',
-      'nul-tekst groottevergelijking werkblad tool',
-      'groot klein middelgroot ordening werkblad maker',
+      'visuele grootte-discriminatie werkblad',
+      'tekstvrije groottevergelijking werkbladen',
+      'groot klein ordenen activiteit voor kleuters',
     ],
-    titleTag: 'Groottevergelijking Werkblad Maker | Maak & Verkoop',
-    metaDescription: 'Genereer groottevergelijking werkbladen met vijf vraagtypen, identieke en verschillende afbeeldingsmodi, 104 thema\'s. Gratis proefversie met watermerk — licentie beschikbaar.',
-  },
+    titleTag: 'Groot Klein Werkbladen — Voor Kinderen',
+    metaDescription: 'Maak groottevergelijking werkbladen voor kleuters. Vijf vraagtypen, identieke en verschillende afbeeldingsmodi, 104 thema\'s. Gratis met watermerk.',
+    },
 
   hero: {
     title: 'Groot & Klein Werkblad Maker',

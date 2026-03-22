@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generatore schede addizione',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare schede addizione per la classe',
     secondaryKeywords: [
-      'creare schede addizione online',
-      'generatore esercizi addizione con immagini',
-      'schede addizione stampabili per bambini',
-      'creare fogli di lavoro addizione illustrati',
+      'creatore di schede addizione per insegnanti',
+      'schede addizione matematica per bambini',
+      'esercizi di addizione stampabili',
+      'schede addizione con immagini per la scuola materna',
     ],
     lsiKeywords: [
-      'esercizi matematica visuale stampabili',
-      'addizione con immagini prescolare',
-      'schede operative matematica infanzia',
+      'schede matematiche visive per la classe',
+      'esercizi di addizione con immagini per bambini',
+      'schede matematiche scuola materna per insegnanti',
     ],
-    titleTag: 'Generatore Schede Addizione | Esercizi con Immagini',
-    metaDescription: 'Crea schede di addizione con immagini tematiche in pochi secondi. 104 temi, 4 modalità, chiave di correzione e PDF stampabili. Prova gratuita con filigrana.',
-  },
+    titleTag: 'Creare Schede Addizione — Per Insegnanti',
+    metaDescription: 'Crea schede di addizione con immagini tematiche per la classe. 104 temi, 4 modalità, chiave di correzione e PDF stampabili. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore di Schede di Addizione',

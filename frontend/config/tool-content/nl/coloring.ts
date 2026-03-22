@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'kleurplaten generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'kleurplaten maken online',
     secondaryKeywords: [
-      'kleurplaten maker voor verkopers',
-      'aangepaste kleurplaten maken om te verkopen',
-      'printbare kleurplaten generator commercieel gebruik',
-      'kleurwerkblad maker voor KDP en Etsy',
+      'kleurplaten maker voor leerkrachten',
+      'aangepaste kleurplaten voor de klas',
+      'kleurplaat generator voor kinderen',
+      'printbare kleurplaten voor school',
     ],
     lsiKeywords: [
-      'vrije-vorm canvas kleurplaat ontwerper',
-      'grijstinten kleurplaat export tool',
-      'uit de vrije hand tekenen kleurwerkblad maker',
+      'kleurplaat ontwerper voor de klas',
+      'grijstinten kleurplaat om te printen',
+      'vrij tekenen tool voor kleurplaten',
     ],
-    titleTag: 'Kleurplaten Generator — Aangepaste Kleurplaat Maker',
-    metaDescription: 'Maak kleurplaten op een vrij canvas met 3.100+ illustraties over 104 thema\'s, uit de vrije hand tekenen, grijstintenexport. Gratis proefversie — licentie beschikbaar.',
-  },
+    titleTag: 'Kleurplaten Maken Online — Voor Leerkrachten',
+    metaDescription: 'Maak aangepaste kleurplaten voor de klas of thuis. Vrij canvas, 3.100+ illustraties, 104 thema\'s, uit de vrije hand tekenen. Gratis met watermerk.',
+    },
 
   hero: {
     title: 'Kleurplaten Maker',

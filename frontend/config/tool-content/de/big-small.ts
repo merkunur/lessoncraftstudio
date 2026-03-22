@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'größenvergleich-generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'Größenvergleich-Arbeitsblätter für Kinder',
     secondaryKeywords: [
-      'Groß-und-Klein-Arbeitsblatt-Ersteller für Verkäufer',
-      'Größenunterscheidungs-Arbeitsblätter online erstellen',
-      'druckbare Größenvergleich-Übungen kommerziell',
-      'textfreier Größenvergleich-Generator für KDP',
+      'groß und klein Arbeitsblätter für Vorschule',
+      'Größenvergleich-Ersteller für die Klasse',
+      'druckbare Größenanordnung für Kinder',
+      'groß klein mittel Arbeitsblätter für Kindergarten',
     ],
     lsiKeywords: [
-      'visuelle Größenunterscheidung-Druckvorlagen für Etsy',
-      'textfreier Groß-Klein-Arbeitsblatt-Generator',
-      'Größensortierung-Übungsblatt-Ersteller',
+      'visuelle Größenunterscheidung Arbeitsblatt',
+      'textfreie Größenvergleich-Arbeitsblätter',
+      'groß klein Anordnung Aktivität für Vorschule',
     ],
-    titleTag: 'Größenvergleich-Generator | Groß-Klein-Übungen',
-    metaDescription: 'Größenvergleich-Arbeitsblätter mit fünf Fragetypen und textfreier Ausgabe erstellen. 104 Themen für Etsy und KDP. Kostenlos testen mit Wasserzeichen verfügbar.',
-  },
+    titleTag: 'Größenvergleich Arbeitsblätter — Für Kinder',
+    metaDescription: 'Größenvergleich-Arbeitsblätter für Kindergarten und Vorschule erstellen. Fünf Fragetypen, textfreie Ausgabe, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    },
 
   hero: {
     title: 'Groß-Klein-Arbeitsblatt-Generator',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur fiches train alphabet',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des fiches train alphabet pour enfants',
     secondaryKeywords: [
-      'créateur de fiches alphabet train pour vendeurs',
-      'créer des fiches reconnaissance des lettres à vendre',
-      'fiches train alphabet imprimables licence commerciale',
-      'générateur de fiches alphabet train pour KDP',
+      'créateur de train alphabet pour la classe',
+      'fiches reconnaissance des lettres pour enfants',
+      'train alphabet imprimable pour maternelle',
+      'créateur d\'association lettres-images pour enseignants',
     ],
     lsiKeywords: [
-      'imprimables de reconnaissance des lettres pour Etsy.fr',
-      'outil de fiches association lettre-image',
-      'générateur d\'activités alphabet multilingue',
+      'fiche train association lettre-image pour enfants',
+      'activité alphabet multilingue pour la classe',
+      'train alphabet coloré imprimable pour maternelle',
     ],
-    titleTag: 'Générateur Fiches Train Alphabet | Imprimables Lettres',
-    metaDescription: 'Créez des fiches train alphabet avec association lettre-image dans 11 langues. 11 wagons colorés, 104 thèmes, 3 100+ images. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Fiches Train Alphabet — Lettres pour Enfants',
+    metaDescription: 'Créez des fiches train alphabet pour reconnaître les lettres. 11 wagons colorés, association lettre-image, 11 langues, 104 thèmes. Essai avec filigrane.',
+    },
 
   hero: {
     title: 'Générateur de Fiches Train Alphabet',

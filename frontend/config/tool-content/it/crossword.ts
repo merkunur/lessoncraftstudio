@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'cruciverba con immagini stampabili',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'creare cruciverba con immagini per la classe',
     secondaryKeywords: [
-      'generatore cruciverba con immagini per venditori',
-      'creare cruciverba con immagini da vendere',
-      'generatore cruciverba stampabili uso commerciale',
-      'creatore cruciverba immagini per KDP e Etsy',
+      'creatore di cruciverba per insegnanti',
+      'cruciverba con immagini per bambini',
+      'cruciverba stampabili per la scuola',
+      'cruciverba di vocabolario per studenti',
     ],
     lsiKeywords: [
-      'quattro metodi di input tema manuale lista parole personalizzata caricamento',
-      'cruciverba multilingue parole localizzate vocabolario immagini',
-      'chiave di risposta automatica griglia compilata sistema doppio canvas',
+      'cruciverba con indizi visivi per il vocabolario',
+      'generatore di cruciverba localizzato per la classe',
+      'chiave di risposta automatica cruciverba',
     ],
-    titleTag: 'Generatore Cruciverba con Immagini — Prova Gratuita',
-    metaDescription: 'Crea cruciverba con immagini su griglia 15x15, quattro metodi di input, chiavi di risposta automatiche e 104 temi illustrati. Prova gratuita con filigrana.',
-  },
+    titleTag: 'Creare Cruciverba con Immagini — Per la Classe',
+    metaDescription: 'Crea cruciverba con immagini per la classe. Griglia 15x15, quattro metodi di input, chiave di risposta automatica. Prova gratuita con filigrana.',
+    },
 
   hero: {
     title: 'Generatore di Cruciverba',

@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'générateur pages de coloriage',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des pages de coloriage en ligne',
     secondaryKeywords: [
-      'créateur de pages de coloriage pour vendeurs',
-      'créer des pages de coloriage personnalisées à vendre',
-      'générateur de fiches de coloriage imprimables licence commerciale',
-      'créateur de pages de coloriage pour KDP et Etsy',
+      'créateur de coloriages pour enseignants',
+      'pages de coloriage personnalisées pour la classe',
+      'générateur de coloriages pour enfants',
+      'coloriages imprimables pour l\'école',
     ],
     lsiKeywords: [
-      'concepteur de pages de coloriage sur canevas libre',
-      'outil d\'export de coloriage en niveaux de gris',
-      'créateur de fiches de coloriage avec dessin à main levée',
+      'créer des coloriages pour la classe en ligne',
+      'coloriage en niveaux de gris à imprimer',
+      'outil de dessin libre pour coloriages',
     ],
-    titleTag: 'Générateur Pages de Coloriage — Créateur Fiches | Vendre',
-    metaDescription: 'Créez des pages de coloriage sur canevas libre avec 3 100+ illustrations, 104 thèmes, dessin libre, export niveaux de gris. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Créer des Pages de Coloriage — Pour Enseignants',
+    metaDescription: 'Créez des pages de coloriage personnalisées pour la classe ou la maison. Canevas libre, 3 100+ illustrations, 104 thèmes. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Créateur de Pages de Coloriage',

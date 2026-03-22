@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'picture bingo card generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'bingo card maker for teachers',
     secondaryKeywords: [
-      'picture bingo card generator for sellers',
-      'create bingo cards to sell on Etsy',
-      'printable bingo card maker commercial use',
-      'bingo card worksheet generator for KDP and Etsy',
+      'picture bingo card creator for classroom',
+      'bingo game maker for kids',
+      'printable bingo cards for school',
+      'custom bingo card generator for teachers',
     ],
     lsiKeywords: [
-      'batch bingo card generator with ZIP export',
-      'dual fill mode image word bingo maker',
-      'call-out sheet bingo worksheet creator tool',
+      'batch bingo card generator for classroom games',
+      'image and word bingo card maker',
+      'call-out sheet bingo worksheet creator',
     ],
-    titleTag: 'Bingo Card Maker — Picture Bingo Card Generator',
-    metaDescription: 'Create picture bingo cards with grids from 3x3 to 5x5, batch generation of unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
-  },
+    titleTag: 'Bingo Card Maker — Picture Bingo for Classroom',
+    metaDescription: 'Create picture bingo cards for classroom games. Grids from 3x3 to 5x5, batch unique cards, call-out sheets, 104 themes. Try with watermark — no signup.',
+    },
 
   hero: {
     title: 'Bingo Card Maker',

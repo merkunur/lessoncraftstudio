@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'plaatjes kruiswoordpuzzel generator',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'kruiswoordpuzzel maken voor de klas',
     secondaryKeywords: [
-      'plaatjes kruiswoordpuzzel maker voor verkopers',
-      'afbeelding kruiswoordpuzzels maken om te verkopen',
-      'printbare kruiswoordpuzzel generator commercieel gebruik',
-      'plaatjes kruiswoordpuzzel maker voor KDP en Etsy',
+      'kruiswoordpuzzel maker voor leerkrachten',
+      'plaatjes kruiswoordpuzzels voor kinderen',
+      'printbare kruiswoordpuzzels voor school',
+      'woordenschat kruiswoordpuzzel voor leerlingen',
     ],
     lsiKeywords: [
-      'vier invoermethoden thema handmatig aangepaste woordenlijst uploaden',
-      'taalgebonden gelokaliseerde kruiswoordwoorden beeldwoordenschat',
-      'automatisch antwoordblad ingevuld raster dubbel-canvas kruiswoordpuzzel creator',
+      'kruiswoordpuzzel met visuele aanwijzingen',
+      'gelokaliseerde kruiswoordpuzzel generator voor de klas',
+      'automatisch antwoordblad kruiswoordpuzzel',
     ],
-    titleTag: 'Kruiswoordpuzzel Maker — Plaatjes Kruiswoordpuzzel Generator',
-    metaDescription: 'Maak plaatjes kruiswoordpuzzels met afbeeldingsaanwijzingen op een 15×15 raster, vier invoermethoden, automatische antwoordbladen, 104 thema\'s. Gratis proefversie — licentie beschikbaar.',
-  },
+    titleTag: 'Kruiswoordpuzzel Maken — Voor de Klas',
+    metaDescription: 'Maak plaatjes kruiswoordpuzzels voor de klas. 15x15 raster, vier invoermethoden, automatisch antwoordblad. Gratis proefversie met watermerk.',
+    },
 
   hero: {
     title: 'Kruiswoordpuzzel Maker',

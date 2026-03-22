@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador de fichas grande y pequeño',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear fichas grande y pequeño para niños',
     secondaryKeywords: [
-      'fichas de grande y pequeño imprimibles para vender',
-      'crear fichas de discriminación de tamaños uso comercial',
-      'generador de fichas de ordenar por tamaño para KDP',
-      'herramienta para crear fichas de grande y pequeño imprimibles',
+      'fichas grande y pequeño para preescolar',
+      'creador de comparación de tamaños para el aula',
+      'fichas ordenar por tamaño para niños',
+      'fichas grande pequeño mediano para kínder',
     ],
     lsiKeywords: [
-      'fichas de discriminación visual de tamaños para Etsy',
-      'generador de fichas sin texto de comparación de tamaños',
-      'fichas de ordenar grande mediano pequeño para vender',
+      'discriminación visual de tamaños para niños',
+      'ficha comparación de tamaños sin texto',
+      'actividad ordenar grande pequeño para preescolar',
     ],
-    titleTag: 'Generador de Fichas Grande y Pequeño | Crear y Vender',
-    metaDescription: 'Genera fichas de comparación de tamaños con cinco tipos de ejercicio, dos modos de imagen y 104 temas. Exporta PDF. Prueba gratuita con marca de agua.',
-  },
+    titleTag: 'Fichas Grande y Pequeño — Para Niños',
+    metaDescription: 'Crea fichas de comparación de tamaños para preescolar. Cinco tipos de ejercicio, dos modos de imagen, 104 temas. Prueba gratis con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Fichas de Grande y Pequeño',

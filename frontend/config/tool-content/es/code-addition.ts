@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'generador suma codificada',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'crear fichas suma codificada para el aula',
     secondaryKeywords: [
-      'crear fichas de criptaritmética para vender',
-      'puzzles de descifrar el código matemáticas imprimibles',
-      'generador de suma codificada con imágenes uso comercial',
-      'fichas de código secreto matemáticas para Etsy y KDP',
+      'puzzles código secreto matemáticas para profesores',
+      'fichas suma cifrada para la clase',
+      'ejercicios código matemáticas para niños',
+      'creador de fichas suma codificada',
     ],
     lsiKeywords: [
-      'fichas de rompe códigos matemáticas imprimibles',
-      'herramienta de puzzles criptaritméticos online',
-      'generador de cifra secreta matemáticas para vendedores',
+      'puzzle cifrado matemáticas con imágenes para el aula',
+      'ficha descubrir palabra código secreto',
+      'actividad código numérico matemáticas para alumnos',
     ],
-    titleTag: 'Generador Suma Codificada | Crear y Vender',
-    metaDescription: 'Crea puzzles de suma codificada con imágenes. Modos Regular y Descubrir Palabra, 104 temas, 11 idiomas, licencia comercial. Prueba gratis con marca de agua.',
-  },
+    titleTag: 'Fichas Suma Codificada — Puzzles para el Aula',
+    metaDescription: 'Crea puzzles de suma codificada para el aula. Códigos secretos con imágenes, modo Descubrir Palabra, 11 idiomas. Prueba gratis con marca de agua.',
+    },
 
   hero: {
     title: 'Generador de Fichas de Suma Codificada',

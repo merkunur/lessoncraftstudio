@@ -1,22 +1,21 @@
 import type { ToolContent } from '../types';
 
-const content: ToolContent = {
-  seo: {
-    primaryKeyword: 'créateur mots croisés',
+const content: ToolContent = {  seo: {
+    primaryKeyword: 'créer des mots croisés pour la classe',
     secondaryKeywords: [
-      'créateur de mots croisés en images pour vendeurs',
-      'créer des mots croisés visuels à vendre',
-      'générateur de mots croisés imprimables licence commerciale',
-      'créateur de mots croisés en images pour KDP et Etsy',
+      'créateur de mots croisés pour enseignants',
+      'mots croisés en images pour enfants',
+      'mots croisés imprimables pour l\'école',
+      'mots croisés vocabulaire pour élèves',
     ],
     lsiKeywords: [
-      'quatre méthodes de saisie thème manuelle liste personnalisée import images',
-      'mots croisés sensibles à la langue vocabulaire d\'images localisé',
-      'corrigé auto-généré grille remplie système double canevas',
+      'mots croisés avec indices visuels pour vocabulaire',
+      'générateur de mots croisés localisé pour la classe',
+      'corrigé automatique mots croisés créateur',
     ],
-    titleTag: 'Créateur Mots Croisés — Générateur Mots Croisés Images',
-    metaDescription: 'Créez des mots croisés en images avec grille 15×15, quatre méthodes de saisie, corrigés auto et 104 collections thématiques. Essai gratuit avec filigrane.',
-  },
+    titleTag: 'Créer des Mots Croisés — Pour la Classe',
+    metaDescription: 'Créez des mots croisés en images pour la classe. Grille 15x15, quatre méthodes de saisie, corrigés automatiques, 104 thèmes. Essai gratuit avec filigrane.',
+    },
 
   hero: {
     title: 'Créateur de Mots Croisés en Images',

@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/construction/bulldozer.webp', alt: 'Bulldozer — thematische educatieve afbeelding', caption: 'Bulldozer' },
-    { src: '/image-library/construction/crane.webp', alt: 'Kraan — thematische educatieve afbeelding', caption: 'Kraan' },
-    { src: '/image-library/construction/excavator.webp', alt: 'Graafmachine — thematische educatieve afbeelding', caption: 'Graafmachine' },
-    { src: '/image-library/construction/hammer.webp', alt: 'Hamer — thematische educatieve afbeelding', caption: 'Hamer' },
-    { src: '/image-library/construction/truck.webp', alt: 'Vrachtwagen — thematische educatieve afbeelding', caption: 'Vrachtwagen' },
+    { src: '/image-library/vehicles/bulldozer.webp', alt: 'Bulldozer — thematische educatieve afbeelding', caption: 'Bulldozer' },
+    { src: '/image-library/birds%202/crane.webp', alt: 'Kraan — thematische educatieve afbeelding', caption: 'Kraan' },
+    { src: '/image-library/vehicles%20bw%202/excavator.webp', alt: 'Graafmachine — thematische educatieve afbeelding', caption: 'Graafmachine' },
+    { src: '/image-library/around%20the%20house/hammer.webp', alt: 'Hamer — thematische educatieve afbeelding', caption: 'Hamer' },
+    { src: '/image-library/post%20office/truck.webp', alt: 'Vrachtwagen — thematische educatieve afbeelding', caption: 'Vrachtwagen' },
   ],
 };
 

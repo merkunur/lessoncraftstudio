@@ -200,7 +200,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/daisy.webp', alt: 'Madeliefje — thematische educatieve afbeelding', caption: 'Madeliefje' },
+    { src: '/image-library/flowers/rose.webp', alt: 'Madeliefje — thematische educatieve afbeelding', caption: 'Madeliefje' },
     { src: '/image-library/flowers/lily.webp', alt: 'Lelie — thematische educatieve afbeelding', caption: 'Lelie' },
     { src: '/image-library/flowers/rose.webp', alt: 'Roos — thematische educatieve afbeelding', caption: 'Roos' },
     { src: '/image-library/flowers/sunflower.webp', alt: 'Zonnebloem — thematische educatieve afbeelding', caption: 'Zonnebloem' },

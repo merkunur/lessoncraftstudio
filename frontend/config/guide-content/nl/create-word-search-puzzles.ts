@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/fruits/apple.webp', alt: 'Appel — thematische educatieve afbeelding', caption: 'Appel' },
     { src: '/image-library/fruits/banana.webp', alt: 'Banaan — thematische educatieve afbeelding', caption: 'Banaan' },
     { src: '/image-library/fruits/cherry.webp', alt: 'Kers — thematische educatieve afbeelding', caption: 'Kers' },
-    { src: '/image-library/fruits/grape.webp', alt: 'Druif — thematische educatieve afbeelding', caption: 'Druif' },
+    { src: '/image-library/fruits/grapefruit.webp', alt: 'Druif — thematische educatieve afbeelding', caption: 'Druif' },
     { src: '/image-library/fruits/lemon.webp', alt: 'Citroen — thematische educatieve afbeelding', caption: 'Citroen' },
   ],
 };

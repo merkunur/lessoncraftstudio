@@ -208,7 +208,7 @@ const content: GuideContent = {
     { src: '/image-library/fruits/banana.webp', alt: 'Banaan — thema-afbeelding voor educatieve werkbladen', caption: 'Banaan' },
     { src: '/image-library/fruits/strawberry.webp', alt: 'Aardbei — thema-afbeelding voor educatieve werkbladen', caption: 'Aardbei' },
     { src: '/image-library/fruits/orange.webp', alt: 'Sinaasappel — thema-afbeelding voor educatieve werkbladen', caption: 'Sinaasappel' },
-    { src: '/image-library/fruits/grapes.webp', alt: 'Druiven — thema-afbeelding voor educatieve werkbladen', caption: 'Druiven' },
+    { src: '/image-library/At%20the%20Supermarket/grapes.webp', alt: 'Druiven — thema-afbeelding voor educatieve werkbladen', caption: 'Druiven' },
   ],
 };
 

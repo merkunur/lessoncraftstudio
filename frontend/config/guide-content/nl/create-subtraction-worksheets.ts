@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/sea%20creatures/clam.webp', alt: 'Schelp — thematische educatieve afbeelding', caption: 'Schelp' },
-    { src: '/image-library/sea%20creatures/crab.webp', alt: 'Krab — thematische educatieve afbeelding', caption: 'Krab' },
-    { src: '/image-library/sea%20creatures/dolphin.webp', alt: 'Dolfijn — thematische educatieve afbeelding', caption: 'Dolfijn' },
-    { src: '/image-library/sea%20creatures/jellyfish.webp', alt: 'Kwal — thematische educatieve afbeelding', caption: 'Kwal' },
-    { src: '/image-library/sea%20creatures/octopus.webp', alt: 'Octopus — thematische educatieve afbeelding', caption: 'Octopus' },
+    { src: '/image-library/ocean life/starfish.webp', alt: 'Schelp — thematische educatieve afbeelding', caption: 'Schelp' },
+    { src: '/image-library/animals%20bw%205/crab.webp', alt: 'Krab — thematische educatieve afbeelding', caption: 'Krab' },
+    { src: '/image-library/animals%20bw%203/dolphin.webp', alt: 'Dolfijn — thematische educatieve afbeelding', caption: 'Dolfijn' },
+    { src: '/image-library/animals%20bw%203/jellyfish.webp', alt: 'Kwal — thematische educatieve afbeelding', caption: 'Kwal' },
+    { src: '/image-library/animals%20bw/octopus.webp', alt: 'Octopus — thematische educatieve afbeelding', caption: 'Octopus' },
   ],
 };
 

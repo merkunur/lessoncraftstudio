@@ -187,10 +187,10 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/space/rocket.webp', alt: 'Raket — thematische educatieve afbeelding', caption: 'Raket' },
+    { src: '/image-library/space%20bw/rocket.webp', alt: 'Raket — thematische educatieve afbeelding', caption: 'Raket' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematische educatieve afbeelding', caption: 'Astronaut' },
     { src: '/image-library/space/planet.webp', alt: 'Planeet — thematische educatieve afbeelding', caption: 'Planeet' },
-    { src: '/image-library/space/star.webp', alt: 'Ster — thematische educatieve afbeelding', caption: 'Ster' },
+    { src: '/image-library/Christmas%20bw/star.webp', alt: 'Ster — thematische educatieve afbeelding', caption: 'Ster' },
     { src: '/image-library/space/moon.webp', alt: 'Maan — thematische educatieve afbeelding', caption: 'Maan' },
   ],
 };

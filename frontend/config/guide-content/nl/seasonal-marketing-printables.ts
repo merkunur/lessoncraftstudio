@@ -214,8 +214,8 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/christmas/christmas%20tree.webp', alt: 'Kerstboom — thematische educatieve afbeelding', caption: 'Kerstboom' },
-    { src: '/image-library/christmas/santa%20claus.webp', alt: 'Kerstman — thematische educatieve afbeelding', caption: 'Kerstman' },
+    { src: '/image-library/christmas/tree.webp', alt: 'Kerstboom — thematische educatieve afbeelding', caption: 'Kerstboom' },
+    { src: '/image-library/christmas/Santa.webp', alt: 'Kerstman — thematische educatieve afbeelding', caption: 'Kerstman' },
     { src: '/image-library/christmas/reindeer.webp', alt: 'Rendier — thematische educatieve afbeelding', caption: 'Rendier' },
     { src: '/image-library/christmas/snowman.webp', alt: 'Sneeuwpop — thematische educatieve afbeelding', caption: 'Sneeuwpop' },
     { src: '/image-library/christmas/present.webp', alt: 'Cadeau — thematische educatieve afbeelding', caption: 'Cadeau' },

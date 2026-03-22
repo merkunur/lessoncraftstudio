@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/halloween/bat.webp', alt: 'Vleermuis — thematische educatieve afbeelding', caption: 'Vleermuis' },
-    { src: '/image-library/halloween/ghost.webp', alt: 'Spook — thematische educatieve afbeelding', caption: 'Spook' },
-    { src: '/image-library/halloween/pumpkin.webp', alt: 'Pompoen — thematische educatieve afbeelding', caption: 'Pompoen' },
-    { src: '/image-library/halloween/spider.webp', alt: 'Spin — thematische educatieve afbeelding', caption: 'Spin' },
-    { src: '/image-library/halloween/witch.webp', alt: 'Heks — thematische educatieve afbeelding', caption: 'Heks' },
+    { src: '/image-library/animals/bat.webp', alt: 'Vleermuis — thematische educatieve afbeelding', caption: 'Vleermuis' },
+    { src: '/image-library/miscellaneous/ghost.webp', alt: 'Spook — thematische educatieve afbeelding', caption: 'Spook' },
+    { src: '/image-library/At%20the%20Supermarket/pumpkin.webp', alt: 'Pompoen — thematische educatieve afbeelding', caption: 'Pompoen' },
+    { src: '/image-library/forest%20creatures/spider.webp', alt: 'Spin — thematische educatieve afbeelding', caption: 'Spin' },
+    { src: '/image-library/miscellaneous/bonfire.webp', alt: 'Heks — thematische educatieve afbeelding', caption: 'Heks' },
   ],
 };
 

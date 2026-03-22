@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/fantasy/castle.webp', alt: 'Kasteel — thematische educatieve afbeelding', caption: 'Kasteel' },
-    { src: '/image-library/fantasy/dragon.webp', alt: 'Draak — thematische educatieve afbeelding', caption: 'Draak' },
-    { src: '/image-library/fantasy/fairy.webp', alt: 'Fee — thematische educatieve afbeelding', caption: 'Fee' },
-    { src: '/image-library/fantasy/knight.webp', alt: 'Ridder — thematische educatieve afbeelding', caption: 'Ridder' },
-    { src: '/image-library/fantasy/unicorn.webp', alt: 'Eenhoorn — thematische educatieve afbeelding', caption: 'Eenhoorn' },
+    { src: '/image-library/christmas/church.webp', alt: 'Kasteel — thematische educatieve afbeelding', caption: 'Kasteel' },
+    { src: '/image-library/animals%20bw/dragon.webp', alt: 'Draak — thematische educatieve afbeelding', caption: 'Draak' },
+    { src: '/image-library/spring/butterfly.webp', alt: 'Fee — thematische educatieve afbeelding', caption: 'Fee' },
+    { src: '/image-library/occupations/firefighter.webp', alt: 'Ridder — thematische educatieve afbeelding', caption: 'Ridder' },
+    { src: '/image-library/animals%20bw%204/unicorn.webp', alt: 'Eenhoorn — thematische educatieve afbeelding', caption: 'Eenhoorn' },
   ],
 };
 

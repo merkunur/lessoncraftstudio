@@ -215,11 +215,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/musical%20instruments/guitar.webp', alt: 'Gitaar — thematische educatieve afbeelding', caption: 'Gitaar' },
-    { src: '/image-library/musical%20instruments/piano.webp', alt: 'Piano — thematische educatieve afbeelding', caption: 'Piano' },
-    { src: '/image-library/musical%20instruments/drum.webp', alt: 'Trommel — thematische educatieve afbeelding', caption: 'Trommel' },
-    { src: '/image-library/musical%20instruments/violin.webp', alt: 'Viool — thematische educatieve afbeelding', caption: 'Viool' },
-    { src: '/image-library/musical%20instruments/flute.webp', alt: 'Fluit — thematische educatieve afbeelding', caption: 'Fluit' },
+    { src: '/image-library/activities/guitar.webp', alt: 'Gitaar — thematische educatieve afbeelding', caption: 'Gitaar' },
+    { src: '/image-library/activities/piano.webp', alt: 'Piano — thematische educatieve afbeelding', caption: 'Piano' },
+    { src: '/image-library/music/drum.webp', alt: 'Trommel — thematische educatieve afbeelding', caption: 'Trommel' },
+    { src: '/image-library/activities/violin.webp', alt: 'Viool — thematische educatieve afbeelding', caption: 'Viool' },
+    { src: '/image-library/music/flute.webp', alt: 'Fluit — thematische educatieve afbeelding', caption: 'Fluit' },
   ],
 };
 

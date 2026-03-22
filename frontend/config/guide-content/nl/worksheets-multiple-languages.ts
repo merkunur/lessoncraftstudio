@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/animals/lion.png',
+      src: '/image-library/animals%20bw%202/lion.webp',
       alt: 'Leeuw illustratie voor meertalige werkbladen',
       caption: 'Leeuw',
     },
     {
-      src: '/image-library/animals/elephant.png',
+      src: '/image-library/animals/elephant.webp',
       alt: 'Olifant illustratie voor meertalige werkbladen',
       caption: 'Olifant',
     },
     {
-      src: '/image-library/animals/giraffe.png',
+      src: '/image-library/animals/giraffe.webp',
       alt: 'Giraf illustratie voor meertalige werkbladen',
       caption: 'Giraf',
     },
     {
-      src: '/image-library/animals/zebra.png',
+      src: '/image-library/animals/zebra.webp',
       alt: 'Zebra illustratie voor meertalige werkbladen',
       caption: 'Zebra',
     },
     {
-      src: '/image-library/animals/monkey.png',
+      src: '/image-library/animals%20bw%202/monkey.webp',
       alt: 'Aap illustratie voor meertalige werkbladen',
       caption: 'Aap',
     },

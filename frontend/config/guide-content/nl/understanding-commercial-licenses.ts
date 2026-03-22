@@ -215,11 +215,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/sports/soccer.webp', alt: 'Voetbal — thematische educatieve afbeelding', caption: 'Voetbal' },
-    { src: '/image-library/sports/basketball.webp', alt: 'Basketbal — thematische educatieve afbeelding', caption: 'Basketbal' },
-    { src: '/image-library/sports/tennis.webp', alt: 'Tennis — thematische educatieve afbeelding', caption: 'Tennis' },
-    { src: '/image-library/sports/swimming.webp', alt: 'Zwemmen — thematische educatieve afbeelding', caption: 'Zwemmen' },
-    { src: '/image-library/sports/running.webp', alt: 'Hardlopen — thematische educatieve afbeelding', caption: 'Hardlopen' },
+    { src: '/image-library/activities/soccer.webp', alt: 'Voetbal — thematische educatieve afbeelding', caption: 'Voetbal' },
+    { src: '/image-library/activities/basketball.webp', alt: 'Basketbal — thematische educatieve afbeelding', caption: 'Basketbal' },
+    { src: '/image-library/activities/tennis.webp', alt: 'Tennis — thematische educatieve afbeelding', caption: 'Tennis' },
+    { src: '/image-library/activities/swimming.webp', alt: 'Zwemmen — thematische educatieve afbeelding', caption: 'Zwemmen' },
+    { src: '/image-library/activities/running.webp', alt: 'Hardlopen — thematische educatieve afbeelding', caption: 'Hardlopen' },
   ],
 };
 

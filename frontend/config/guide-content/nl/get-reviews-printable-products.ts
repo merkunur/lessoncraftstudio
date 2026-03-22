@@ -220,10 +220,10 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/weather/sun.webp', alt: 'Zon — educatieve themaafbeelding', caption: 'Zon' },
-    { src: '/image-library/weather/rain cloud.webp', alt: 'Regenwolk — educatieve themaafbeelding', caption: 'Regenwolk' },
+    { src: '/image-library/weather/rainy.webp', alt: 'Regenwolk — educatieve themaafbeelding', caption: 'Regenwolk' },
     { src: '/image-library/weather/rainbow.webp', alt: 'Regenboog — educatieve themaafbeelding', caption: 'Regenboog' },
     { src: '/image-library/weather/snowflake.webp', alt: 'Sneeuwvlok — educatieve themaafbeelding', caption: 'Sneeuwvlok' },
-    { src: '/image-library/weather/lightning.webp', alt: 'Bliksem — educatieve themaafbeelding', caption: 'Bliksem' },
+    { src: '/image-library/travel%20and%20holiday%20bw/lightning.webp', alt: 'Bliksem — educatieve themaafbeelding', caption: 'Bliksem' },
   ],
 };
 

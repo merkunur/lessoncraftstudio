@@ -201,7 +201,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Engel — thematische educatieve afbeelding', caption: 'Engel' },
     { src: '/image-library/christmas/bell.webp', alt: 'Bel — thematische educatieve afbeelding', caption: 'Bel' },
     { src: '/image-library/christmas/candle.webp', alt: 'Kaars — thematische educatieve afbeelding', caption: 'Kaars' },
-    { src: '/image-library/christmas/gift.webp', alt: 'Cadeau — thematische educatieve afbeelding', caption: 'Cadeau' },
+    { src: '/image-library/Easter%20bw%202/gift.webp', alt: 'Cadeau — thematische educatieve afbeelding', caption: 'Cadeau' },
     { src: '/image-library/christmas/star.webp', alt: 'Ster — thematische educatieve afbeelding', caption: 'Ster' },
   ],
 };

@@ -199,11 +199,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/food/apple.webp', alt: 'Appel — thematische educatieve afbeelding', caption: 'Appel' },
-    { src: '/image-library/food/banana.webp', alt: 'Banaan — thematische educatieve afbeelding', caption: 'Banaan' },
-    { src: '/image-library/food/bread.webp', alt: 'Brood — thematische educatieve afbeelding', caption: 'Brood' },
-    { src: '/image-library/food/cheese.webp', alt: 'Kaas — thematische educatieve afbeelding', caption: 'Kaas' },
-    { src: '/image-library/food/pizza.webp', alt: 'Pizza — thematische educatieve afbeelding', caption: 'Pizza' },
+    { src: '/image-library/At%20the%20Supermarket/apple.webp', alt: 'Appel — thematische educatieve afbeelding', caption: 'Appel' },
+    { src: '/image-library/At%20the%20Supermarket/banana.webp', alt: 'Banaan — thematische educatieve afbeelding', caption: 'Banaan' },
+    { src: '/image-library/At%20the%20Supermarket/bread.webp', alt: 'Brood — thematische educatieve afbeelding', caption: 'Brood' },
+    { src: '/image-library/At%20the%20Supermarket/cheese.webp', alt: 'Kaas — thematische educatieve afbeelding', caption: 'Kaas' },
+    { src: '/image-library/At%20the%20Supermarket/pizza.webp', alt: 'Pizza — thematische educatieve afbeelding', caption: 'Pizza' },
   ],
 };
 

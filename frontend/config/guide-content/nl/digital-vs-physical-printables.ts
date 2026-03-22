@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/household%20items/broom.webp', alt: 'Bezem — huishoudelijk voorwerp illustratie', caption: 'Bezem' },
-    { src: '/image-library/household%20items/bucket.webp', alt: 'Emmer — huishoudelijk voorwerp illustratie', caption: 'Emmer' },
-    { src: '/image-library/household%20items/clock.webp', alt: 'Klok — huishoudelijk voorwerp illustratie', caption: 'Klok' },
-    { src: '/image-library/household%20items/iron.webp', alt: 'Strijkijzer — huishoudelijk voorwerp illustratie', caption: 'Strijkijzer' },
-    { src: '/image-library/household%20items/lamp.webp', alt: 'Lamp — huishoudelijk voorwerp illustratie', caption: 'Lamp' },
+    { src: '/image-library/around%20the%20house/broom.webp', alt: 'Bezem — huishoudelijk voorwerp illustratie', caption: 'Bezem' },
+    { src: '/image-library/beach/bucket.webp', alt: 'Emmer — huishoudelijk voorwerp illustratie', caption: 'Emmer' },
+    { src: '/image-library/around%20the%20house/clock.webp', alt: 'Klok — huishoudelijk voorwerp illustratie', caption: 'Klok' },
+    { src: '/image-library/around%20the%20house/iron.webp', alt: 'Strijkijzer — huishoudelijk voorwerp illustratie', caption: 'Strijkijzer' },
+    { src: '/image-library/around%20the%20house/lamp.webp', alt: 'Lamp — huishoudelijk voorwerp illustratie', caption: 'Lamp' },
   ],
 };
 

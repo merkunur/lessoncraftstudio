@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/pets/dog.png',
+      src: '/image-library/pets/dog.webp',
       alt: 'Hond illustratie voor printbare werkbladen met huisdierenthema',
       caption: 'Hond — populair thema voor educatieve werkbladen',
     },
     {
-      src: '/image-library/pets/cat.png',
+      src: '/image-library/pets/cat.webp',
       alt: 'Kat illustratie voor printbare werkbladen met huisdierenthema',
       caption: 'Kat — geliefd thema bij kinderen voor werkbladen',
     },
     {
-      src: '/image-library/pets/rabbit.png',
+      src: '/image-library/pets/rabbit.webp',
       alt: 'Konijn illustratie voor printbare werkbladen met huisdierenthema',
       caption: 'Konijn — schattig thema voor kleur- en rekenactiviteiten',
     },
     {
-      src: '/image-library/pets/hamster.png',
+      src: '/image-library/pets/hamster.webp',
       alt: 'Hamster illustratie voor printbare werkbladen met huisdierenthema',
       caption: 'Hamster — leuk thema voor zoek- en telpuzzels',
     },
     {
-      src: '/image-library/pets/fish.png',
+      src: '/image-library/pets/fish.webp',
       alt: 'Vis illustratie voor printbare werkbladen met huisdierenthema',
       caption: 'Vis — kleurrijk thema voor educatieve activiteiten',
     },

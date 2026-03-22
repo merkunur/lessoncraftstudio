@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/travel/airplane.webp', alt: 'Vliegtuig — thematische educatieve afbeelding', caption: 'Vliegtuig' },
-    { src: '/image-library/travel/camera.webp', alt: 'Camera — thematische educatieve afbeelding', caption: 'Camera' },
-    { src: '/image-library/travel/compass.webp', alt: 'Kompas — thematische educatieve afbeelding', caption: 'Kompas' },
-    { src: '/image-library/travel/map.webp', alt: 'Kaart — thematische educatieve afbeelding', caption: 'Kaart' },
-    { src: '/image-library/travel/suitcase.webp', alt: 'Koffer — thematische educatieve afbeelding', caption: 'Koffer' },
+    { src: '/image-library/Things%20That%20Fly/airplane.webp', alt: 'Vliegtuig — thematische educatieve afbeelding', caption: 'Vliegtuig' },
+    { src: '/image-library/beach%20bw%202/camera.webp', alt: 'Camera — thematische educatieve afbeelding', caption: 'Camera' },
+    { src: '/image-library/beach%20bw/compass.webp', alt: 'Kompas — thematische educatieve afbeelding', caption: 'Kompas' },
+    { src: '/image-library/camping/map.webp', alt: 'Kaart — thematische educatieve afbeelding', caption: 'Kaart' },
+    { src: '/image-library/beach%20bw%202/suitcase.webp', alt: 'Koffer — thematische educatieve afbeelding', caption: 'Koffer' },
   ],
 };
 

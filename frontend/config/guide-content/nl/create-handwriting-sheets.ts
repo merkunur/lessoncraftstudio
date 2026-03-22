@@ -201,8 +201,8 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/weather/cloud.webp', alt: 'Wolk — thematische educatieve afbeelding', caption: 'Wolk' },
-    { src: '/image-library/weather/lightning.webp', alt: 'Bliksem — thematische educatieve afbeelding', caption: 'Bliksem' },
-    { src: '/image-library/weather/rain.webp', alt: 'Regen — thematische educatieve afbeelding', caption: 'Regen' },
+    { src: '/image-library/travel%20and%20holiday%20bw/lightning.webp', alt: 'Bliksem — thematische educatieve afbeelding', caption: 'Bliksem' },
+    { src: '/image-library/nature%20bw/rain.webp', alt: 'Regen — thematische educatieve afbeelding', caption: 'Regen' },
     { src: '/image-library/weather/rainbow.webp', alt: 'Regenboog — thematische educatieve afbeelding', caption: 'Regenboog' },
     { src: '/image-library/weather/sun.webp', alt: 'Zon — thematische educatieve afbeelding', caption: 'Zon' },
   ],

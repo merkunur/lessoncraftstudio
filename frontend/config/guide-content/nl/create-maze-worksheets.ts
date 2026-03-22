@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/pirates/anchor.webp', alt: 'Anker — thematische educatieve afbeelding', caption: 'Anker' },
-    { src: '/image-library/pirates/cannon.webp', alt: 'Kanon — thematische educatieve afbeelding', caption: 'Kanon' },
-    { src: '/image-library/pirates/parrot.webp', alt: 'Papegaai — thematische educatieve afbeelding', caption: 'Papegaai' },
-    { src: '/image-library/pirates/ship.webp', alt: 'Schip — thematische educatieve afbeelding', caption: 'Schip' },
-    { src: '/image-library/pirates/treasure.webp', alt: 'Schat — thematische educatieve afbeelding', caption: 'Schat' },
+    { src: '/image-library/beach%20bw/anchor.webp', alt: 'Anker — thematische educatieve afbeelding', caption: 'Anker' },
+    { src: '/image-library/camping/binoculars.webp', alt: 'Kanon — thematische educatieve afbeelding', caption: 'Kanon' },
+    { src: '/image-library/animals%20bw/parrot.webp', alt: 'Papegaai — thematische educatieve afbeelding', caption: 'Papegaai' },
+    { src: '/image-library/vehicles/ship.webp', alt: 'Schip — thematische educatieve afbeelding', caption: 'Schip' },
+    { src: '/image-library/christmas/present.webp', alt: 'Schat — thematische educatieve afbeelding', caption: 'Schat' },
   ],
 };
 

@@ -199,11 +199,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/safari/elephant.webp', alt: 'Olifant — thematische educatieve afbeelding', caption: 'Olifant' },
-    { src: '/image-library/safari/giraffe.webp', alt: 'Giraffe — thematische educatieve afbeelding', caption: 'Giraffe' },
-    { src: '/image-library/safari/hippo.webp', alt: 'Nijlpaard — thematische educatieve afbeelding', caption: 'Nijlpaard' },
-    { src: '/image-library/safari/lion.webp', alt: 'Leeuw — thematische educatieve afbeelding', caption: 'Leeuw' },
-    { src: '/image-library/safari/zebra.webp', alt: 'Zebra — thematische educatieve afbeelding', caption: 'Zebra' },
+    { src: '/image-library/animals%20bw%202/elephant.webp', alt: 'Olifant — thematische educatieve afbeelding', caption: 'Olifant' },
+    { src: '/image-library/animals%20bw%202/giraffe.webp', alt: 'Giraffe — thematische educatieve afbeelding', caption: 'Giraffe' },
+    { src: '/image-library/zoo animals/hippopotamus.webp', alt: 'Nijlpaard — thematische educatieve afbeelding', caption: 'Nijlpaard' },
+    { src: '/image-library/animals%20bw%202/lion.webp', alt: 'Leeuw — thematische educatieve afbeelding', caption: 'Leeuw' },
+    { src: '/image-library/animals%20bw%202/zebra.webp', alt: 'Zebra — thematische educatieve afbeelding', caption: 'Zebra' },
   ],
 };
 

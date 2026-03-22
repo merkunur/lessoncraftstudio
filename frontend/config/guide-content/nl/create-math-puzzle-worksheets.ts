@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/insects/ant.webp', alt: 'Mier — thematische educatieve afbeelding', caption: 'Mier' },
-    { src: '/image-library/insects/bee.webp', alt: 'Bij — thematische educatieve afbeelding', caption: 'Bij' },
-    { src: '/image-library/insects/butterfly.webp', alt: 'Vlinder — thematische educatieve afbeelding', caption: 'Vlinder' },
-    { src: '/image-library/insects/dragonfly.webp', alt: 'Libel — thematische educatieve afbeelding', caption: 'Libel' },
-    { src: '/image-library/insects/ladybug.webp', alt: 'Lieveheersbeestje — thematische educatieve afbeelding', caption: 'Lieveheersbeestje' },
+    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Mier — thematische educatieve afbeelding', caption: 'Mier' },
+    { src: '/image-library/animals%20bw%203/bee.webp', alt: 'Bij — thematische educatieve afbeelding', caption: 'Bij' },
+    { src: '/image-library/easter/butterfly.webp', alt: 'Vlinder — thematische educatieve afbeelding', caption: 'Vlinder' },
+    { src: '/image-library/forest%20creatures/dragonfly.webp', alt: 'Libel — thematische educatieve afbeelding', caption: 'Libel' },
+    { src: '/image-library/animals%20bw%203/ladybug.webp', alt: 'Lieveheersbeestje — thematische educatieve afbeelding', caption: 'Lieveheersbeestje' },
   ],
 };
 

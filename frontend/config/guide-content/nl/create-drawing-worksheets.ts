@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/jungle/chameleon.webp', alt: 'Kameleon — thematische educatieve afbeelding', caption: 'Kameleon' },
-    { src: '/image-library/jungle/gorilla.webp', alt: 'Gorilla — thematische educatieve afbeelding', caption: 'Gorilla' },
-    { src: '/image-library/jungle/monkey.webp', alt: 'Aap — thematische educatieve afbeelding', caption: 'Aap' },
-    { src: '/image-library/jungle/parrot.webp', alt: 'Papegaai — thematische educatieve afbeelding', caption: 'Papegaai' },
-    { src: '/image-library/jungle/toucan.webp', alt: 'Toekan — thematische educatieve afbeelding', caption: 'Toekan' },
+    { src: '/image-library/animals%20bw%205/chameleon.webp', alt: 'Kameleon — thematische educatieve afbeelding', caption: 'Kameleon' },
+    { src: '/image-library/animals%20bw%205/gorilla.webp', alt: 'Gorilla — thematische educatieve afbeelding', caption: 'Gorilla' },
+    { src: '/image-library/animals%20bw%202/monkey.webp', alt: 'Aap — thematische educatieve afbeelding', caption: 'Aap' },
+    { src: '/image-library/animals%20bw/parrot.webp', alt: 'Papegaai — thematische educatieve afbeelding', caption: 'Papegaai' },
+    { src: '/image-library/birds%202/toucan.webp', alt: 'Toekan — thematische educatieve afbeelding', caption: 'Toekan' },
   ],
 };
 

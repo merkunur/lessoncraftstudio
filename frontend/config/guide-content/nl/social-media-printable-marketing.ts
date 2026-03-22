@@ -200,8 +200,8 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/social-media/instagram.webp', alt: 'Social media marketing afbeelding voor educatieve printables', caption: 'Social media marketing' },
-    { src: '/image-library/flowers/daisy.webp', alt: 'Madeliefje — thematische afbeelding voor printable marketing', caption: 'Madeliefje' },
+    { src: '/image-library/classroom/computer.webp', alt: 'Social media marketing afbeelding voor educatieve printables', caption: 'Social media marketing' },
+    { src: '/image-library/flowers/rose.webp', alt: 'Madeliefje — thematische afbeelding voor printable marketing', caption: 'Madeliefje' },
     { src: '/image-library/flowers/lily.webp', alt: 'Lelie — thematische afbeelding voor visuele content', caption: 'Lelie' },
     { src: '/image-library/flowers/orchid.webp', alt: 'Orchidee — thematische afbeelding voor social media posts', caption: 'Orchidee' },
     { src: '/image-library/flowers/rose.webp', alt: 'Roos — thematische afbeelding voor marketing content', caption: 'Roos' },

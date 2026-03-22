@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/dinosaurs/tyrannosaurus.png',
+      src: '/image-library/dinosaurs/tyrannosaurus rex.webp',
       alt: 'Tyrannosaurus illustratie voor dinosaurus werkbladen',
       caption: 'Tyrannosaurus — het populairste dinosaurusthema voor kinderwerkbladen',
     },
     {
-      src: '/image-library/dinosaurs/triceratops.png',
+      src: '/image-library/dinosaurs/triceratops.webp',
       alt: 'Triceratops illustratie voor thematische werkbladen',
       caption: 'Triceratops — geliefd bij kinderen voor kleurplaten en woordzoekers',
     },
     {
-      src: '/image-library/dinosaurs/stegosaurus.png',
+      src: '/image-library/dinosaurs/stegosaurus.webp',
       alt: 'Stegosaurus illustratie voor educatieve printables',
       caption: 'Stegosaurus — herkenbare dinosaurus voor sorteer- en telwerkbladen',
     },
     {
-      src: '/image-library/dinosaurs/pteranodon.png',
+      src: '/image-library/dinosaurs/deinonychus.webp',
       alt: 'Pteranodon illustratie voor puzzelwerkbladen',
       caption: 'Pteranodon — vliegende dinosaurus voor doolhoven en zoekactiviteiten',
     },
     {
-      src: '/image-library/dinosaurs/brachiosaurus.png',
+      src: '/image-library/dinosaurs/brachiosaurus.webp',
       alt: 'Brachiosaurus illustratie voor werkbladthema',
       caption: 'Brachiosaurus — imposante plantenetende dinosaurus voor vergelijkings- en meetwerkbladen',
     },

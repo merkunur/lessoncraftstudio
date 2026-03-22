@@ -200,11 +200,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/sports/baseball.webp', alt: 'Honkbal — thematische educatieve afbeelding', caption: 'Honkbal' },
-    { src: '/image-library/sports/basketball.webp', alt: 'Basketbal — thematische educatieve afbeelding', caption: 'Basketbal' },
-    { src: '/image-library/sports/boxing.webp', alt: 'Boksen — thematische educatieve afbeelding', caption: 'Boksen' },
-    { src: '/image-library/sports/cycling.webp', alt: 'Wielrennen — thematische educatieve afbeelding', caption: 'Wielrennen' },
-    { src: '/image-library/sports/football.webp', alt: 'Voetbal — thematische educatieve afbeelding', caption: 'Voetbal' },
+    { src: '/image-library/4th%20of%20July/baseball.webp', alt: 'Honkbal — thematische educatieve afbeelding', caption: 'Honkbal' },
+    { src: '/image-library/activities/basketball.webp', alt: 'Basketbal — thematische educatieve afbeelding', caption: 'Basketbal' },
+    { src: '/image-library/sports%20bw/boxing.webp', alt: 'Boksen — thematische educatieve afbeelding', caption: 'Boksen' },
+    { src: '/image-library/sports bw/bicycle.webp', alt: 'Wielrennen — thematische educatieve afbeelding', caption: 'Wielrennen' },
+    { src: '/image-library/activities/football.webp', alt: 'Voetbal — thematische educatieve afbeelding', caption: 'Voetbal' },
   ],
 };
 

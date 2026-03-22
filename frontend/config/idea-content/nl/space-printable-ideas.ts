@@ -200,9 +200,9 @@ In Nederland is ruimtevaart een bijzonder aansprekend thema dankzij de nationale
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroïde — educatieve thema-afbeelding ruimte', caption: 'Asteroïde' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — educatieve thema-afbeelding ruimte', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komeet — educatieve thema-afbeelding ruimte', caption: 'Komeet' },
-    { src: '/image-library/space/earth.webp', alt: 'Aarde — educatieve thema-afbeelding ruimte', caption: 'Aarde' },
+    { src: '/image-library/space/Earth.webp', alt: 'Aarde — educatieve thema-afbeelding ruimte', caption: 'Aarde' },
     { src: '/image-library/space/galaxy.webp', alt: 'Melkweg — educatieve thema-afbeelding ruimte', caption: 'Melkweg' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — educatieve thema-afbeelding ruimte', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — educatieve thema-afbeelding ruimte', caption: 'Jupiter' },
   ],
 
   youtubeId: '0cOPi7eajLs',

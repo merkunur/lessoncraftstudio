@@ -200,7 +200,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolfijn — thematische educatieve afbeelding', caption: 'Dolfijn' },
     { src: '/image-library/ocean%20life/jellyfish.webp', alt: 'Kwal — thematische educatieve afbeelding', caption: 'Kwal' },
-    { src: '/image-library/ocean%20life/seahorse.webp', alt: 'Zeepaardje — thematische educatieve afbeelding', caption: 'Zeepaardje' },
+    { src: '/image-library/animals%20bw/seahorse.webp', alt: 'Zeepaardje — thematische educatieve afbeelding', caption: 'Zeepaardje' },
     { src: '/image-library/ocean%20life/starfish.webp', alt: 'Zeester — thematische educatieve afbeelding', caption: 'Zeester' },
     { src: '/image-library/ocean%20life/whale.webp', alt: 'Walvis — thematische educatieve afbeelding', caption: 'Walvis' },
   ],

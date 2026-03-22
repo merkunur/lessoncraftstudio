@@ -172,11 +172,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/flowers/sunflower.png', alt: 'Zonnebloem illustratie voor thematische werkbladen', caption: 'Zonnebloem' },
-    { src: '/image-library/flowers/rose.png', alt: 'Roos illustratie voor thematische werkbladen', caption: 'Roos' },
-    { src: '/image-library/flowers/tulip.png', alt: 'Tulp illustratie voor thematische werkbladen', caption: 'Tulp' },
-    { src: '/image-library/garden/daisy.png', alt: 'Madeliefje illustratie voor thematische werkbladen', caption: 'Madeliefje' },
-    { src: '/image-library/garden/cactus.png', alt: 'Cactus illustratie voor thematische werkbladen', caption: 'Cactus' },
+    { src: '/image-library/flowers/sunflower.webp', alt: 'Zonnebloem illustratie voor thematische werkbladen', caption: 'Zonnebloem' },
+    { src: '/image-library/flowers/rose.webp', alt: 'Roos illustratie voor thematische werkbladen', caption: 'Roos' },
+    { src: '/image-library/flowers/tulip.webp', alt: 'Tulp illustratie voor thematische werkbladen', caption: 'Tulp' },
+    { src: '/image-library/flowers/rose.webp', alt: 'Madeliefje illustratie voor thematische werkbladen', caption: 'Madeliefje' },
+    { src: '/image-library/home%20bw/cactus.webp', alt: 'Cactus illustratie voor thematische werkbladen', caption: 'Cactus' },
   ],
 };
 

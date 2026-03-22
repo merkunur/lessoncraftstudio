@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/ocean%20animals/dolphin.png',
+      src: '/image-library/animals%20bw%203/dolphin.webp',
       alt: 'Dolfijn illustratie voor thematische werkbladen',
       caption: 'Dolfijn — populair oceaandieren thema voor werkbladen',
     },
     {
-      src: '/image-library/ocean%20animals/octopus.png',
+      src: '/image-library/animals%20bw/octopus.webp',
       alt: 'Octopus illustratie voor educatieve printables',
       caption: 'Octopus — aantrekkelijk dierenthema voor puzzels en werkbladen',
     },
     {
-      src: '/image-library/ocean%20animals/seahorse.png',
+      src: '/image-library/animals%20bw/seahorse.webp',
       alt: 'Zeepaardje illustratie voor printable producten',
       caption: 'Zeepaardje — favoriet thema voor kleurplaten en woordzoekers',
     },
     {
-      src: '/image-library/ocean%20animals/whale.png',
+      src: '/image-library/animals%20bw%205/whale.webp',
       alt: 'Walvis illustratie voor werkbladen met oceaanthema',
       caption: 'Walvis — geliefd onderwaterthema voor kinderwerkbladen',
     },
     {
-      src: '/image-library/ocean%20animals/jellyfish.png',
+      src: '/image-library/animals%20bw%203/jellyfish.webp',
       alt: 'Kwal illustratie voor thematische educatieve materialen',
       caption: 'Kwal — fascinerend zeedier voor creatieve werkbladen',
     },

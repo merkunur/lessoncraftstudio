@@ -216,27 +216,27 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/tools/resolution-comparison.png',
+      src: '/image-library/tools/hammer.webp',
       alt: 'Vergelijking van 72 DPI en 300 DPI resolutie bij werkbladen',
       caption: 'Het verschil tussen 72 DPI en 300 DPI is duidelijk zichtbaar in afgedrukte werkbladen',
     },
     {
-      src: '/image-library/tools/margin-safe-zone.png',
+      src: '/image-library/tools/flashlight.webp',
       alt: 'Veilige margezone voor US Letter en A4 papierformaten',
       caption: 'Ontwerp binnen de veilige zone van 190 x 254 mm voor compatibiliteit met beide papierformaten',
     },
     {
-      src: '/image-library/tools/color-palette-example.png',
+      src: '/image-library/tools/nail.webp',
       alt: 'Voorbeeld van een consistent merkleurenpalet voor werkbladen',
       caption: 'Een gedocumenteerd kleurenpalet van 4-6 kleuren garandeert visuele consistentie',
     },
     {
-      src: '/image-library/tools/print-test-results.png',
+      src: '/image-library/tools/screwdriver.webp',
       alt: 'Resultaten van afdruktests op inkjet en laser printers',
       caption: 'Test altijd op zowel inkjet als laser printers om kwaliteitsverschillen te ontdekken',
     },
     {
-      src: '/image-library/tools/answer-key-verification.png',
+      src: '/image-library/tools/bolt.webp',
       alt: 'Dubbel verificatieproces voor antwoordsleutels',
       caption: 'Een dubbel verificatieproces met tijdsscheiding vangt antwoordsleutelfouten op',
     },

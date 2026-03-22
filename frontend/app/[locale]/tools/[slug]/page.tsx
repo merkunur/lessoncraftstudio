@@ -11,7 +11,7 @@ import {
 } from '@/config/tool-page-slugs';
 import { getSlugForLocale } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { ALL_APPS, type AppId } from '@/config/warriorplus-products';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
@@ -322,6 +322,14 @@ export default async function ToolPage({
             ) }}
           />
         )}
+        {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
+        {(() => {
+          const galleryUrls = new Set((content.visuals?.sampleGallery || []).slice(0, 6).map((img: { src: string }) => `${baseUrl}${encodeImagePath(img.src)}`));
+          const showcaseSchemas = generateShowcaseImageSchemas(showcaseConfig, locale, pageUrl, galleryUrls);
+          return showcaseSchemas.length > 0 ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(showcaseSchemas) }} />
+          ) : null;
+        })()}
 
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">

@@ -8,7 +8,7 @@ import {
   getSlugForLocale,
 } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode, generateVideoSchema } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/warriorplus-products';
 import { getLocalizedAppName, getLocalizedCategoryName, getLocalizedSuffix } from '@/config/app-translations';
 import Link from 'next/link';
@@ -836,6 +836,14 @@ export default async function AppDetailPage({
             ) }}
           />
         )}
+        {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
+        {(() => {
+          const galleryUrls = new Set(content.visuals.sampleGallery.slice(0, 6).map(img => `${baseUrl}${encodeImagePath(img.src)}`));
+          const showcaseSchemas = generateShowcaseImageSchemas(showcaseConfig, locale, pageUrl, galleryUrls);
+          return showcaseSchemas.length > 0 ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(showcaseSchemas) }} />
+          ) : null;
+        })()}
         {content.visuals.youtubeId && (
           <script
             type="application/ld+json"

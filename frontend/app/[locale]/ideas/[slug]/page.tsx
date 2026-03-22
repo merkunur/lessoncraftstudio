@@ -9,7 +9,7 @@ import {
   getIdeaSlugForLocale,
 } from '@/config/idea-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
@@ -362,6 +362,14 @@ export default async function IdeaPage({
             ) }}
           />
         )}
+        {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
+        {(() => {
+          const themeUrls = new Set((content.themeImages || []).slice(0, 6).map(img => `${baseUrl}${encodeImagePath(img.src)}`));
+          const showcaseSchemas = generateShowcaseImageSchemas(showcaseConfig, locale, pageUrl, themeUrls);
+          return showcaseSchemas.length > 0 ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(showcaseSchemas) }} />
+          ) : null;
+        })()}
         {/* Hero */}
         <section className="py-12 md:py-20 bg-gradient-to-b from-amber-50 to-white">
           <div className="container mx-auto px-4 max-w-3xl">

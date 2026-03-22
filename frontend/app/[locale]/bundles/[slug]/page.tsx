@@ -10,7 +10,7 @@ import {
   bundlePageSlugs,
 } from '@/config/bundle-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
 import { getSectionLabel } from '@/config/section-labels';
@@ -228,6 +228,14 @@ export default async function BundlePage({
             ) }}
           />
         )}
+        {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
+        {(() => {
+          const galleryUrls = new Set((content.visuals?.sampleGallery || []).slice(0, 6).map((img: { src: string }) => `${baseUrl}${encodeImagePath(img.src)}`));
+          const showcaseSchemas = generateShowcaseImageSchemas(showcaseConfig, locale, pageUrl, galleryUrls);
+          return showcaseSchemas.length > 0 ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(showcaseSchemas) }} />
+          ) : null;
+        })()}
         {content?.visuals?.youtubeId && (
           <script
             type="application/ld+json"

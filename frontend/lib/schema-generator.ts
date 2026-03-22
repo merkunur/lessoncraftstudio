@@ -4,6 +4,8 @@
  * Supports: FAQ, Homepage, Apps Collection, About, and Static Page schemas
  */
 
+import { encodeImagePath } from '@/lib/encode-image-path';
+
 const authorSchemaDescriptions: Record<string, string> = {
   en: "Experienced educators and curriculum specialists creating research-backed, printable worksheet resources for pre-K through 3rd grade classrooms in 11 languages",
   de: "Erfahrene Lehrkräfte und Lehrplanspezialisten, die forschungsbasierte, druckbare Arbeitsblatt-Ressourcen für Vorschul- bis 3. Klasse in 11 Sprachen erstellen",
@@ -755,4 +757,68 @@ export function generateVideoSchema(params: {
     contentUrl: `https://www.youtube.com/watch?v=${params.youtubeId}`,
     embedUrl: `https://www.youtube-nocookie.com/embed/${params.youtubeId}`,
   };
+}
+
+/**
+ * Generate ImageObject JSON-LD schemas for showcase images (hero, tiered, spotlight, gallery).
+ * Used across all 6 page types to give Google image licensing metadata for the most prominent
+ * visual content on each page. Deduplicates by encoded URL.
+ */
+export function generateShowcaseImageSchemas(
+  showcaseConfig: {
+    hero: { images: Array<{ src: string; alt: string }> };
+    tiered: { tiers: Array<{ image: { src: string; alt: string } }> };
+    spotlight: { image: { src: string; alt: string } };
+    gallery: { items: Array<{ image: { src: string; alt: string } }> };
+  } | null,
+  locale: string,
+  pageUrl: string,
+  existingUrls?: Set<string>,
+): object[] {
+  if (!showcaseConfig) return [];
+  const baseUrl = getBaseUrl();
+  const schemas: object[] = [];
+  const seen = existingUrls ? new Set(existingUrls) : new Set<string>();
+
+  function add(src: string, alt: string) {
+    if (!src || !src.startsWith('/samples/')) return;
+    const url = `${baseUrl}${encodeImagePath(src)}`;
+    if (seen.has(url)) return;
+    seen.add(url);
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'ImageObject',
+      contentUrl: url,
+      name: alt,
+      caption: alt,
+      encodingFormat: 'image/webp',
+      width: 400,
+      height: 566,
+      license: `${baseUrl}/${locale}/license`,
+      acquireLicensePage: pageUrl,
+      creditText: 'LessonCraftStudio',
+      creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+      copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+      copyrightNotice: '© LessonCraftStudio',
+    });
+  }
+
+  // Hero (3 images)
+  if (showcaseConfig.hero?.images) {
+    for (const img of showcaseConfig.hero.images) add(img.src, img.alt);
+  }
+  // Tiered (3 images)
+  if (showcaseConfig.tiered?.tiers) {
+    for (const tier of showcaseConfig.tiered.tiers) add(tier.image.src, tier.image.alt);
+  }
+  // Spotlight (1 image)
+  if (showcaseConfig.spotlight?.image) {
+    add(showcaseConfig.spotlight.image.src, showcaseConfig.spotlight.image.alt);
+  }
+  // Gallery (3 images)
+  if (showcaseConfig.gallery?.items) {
+    for (const item of showcaseConfig.gallery.items) add(item.image.src, item.image.alt);
+  }
+
+  return schemas;
 }

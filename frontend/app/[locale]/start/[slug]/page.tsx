@@ -9,7 +9,7 @@ import {
   getStartSlugForLocale,
 } from '@/config/start-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
@@ -233,6 +233,14 @@ export default async function CornerstonePage({
                 }))
               ) }}
             />
+          ) : null;
+        })()}
+        {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
+        {(() => {
+          const contentUrls = new Set([...(content.visuals?.samples || []), ...(content.themeImages || [])].slice(0, 6).map(img => `${baseUrl}${encodeImagePath(img.src)}`));
+          const showcaseSchemas = generateShowcaseImageSchemas(showcaseConfig, locale, pageUrl, contentUrls);
+          return showcaseSchemas.length > 0 ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(showcaseSchemas) }} />
           ) : null;
         })()}
         {/* Hero */}

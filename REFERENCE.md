@@ -11,7 +11,7 @@
 
 | # | Section | Description |
 |---|---------|-------------|
-| 1 | [Rules & Mandates](#1-rules--mandates) | ALL rules consolidated: stop rule, fabrication ban, feature verification, tier accuracy, performance, content principles, SEO keywords, visual integration, localization, conversion voice, SEO perfection checklist, free trial & refund policy |
+| 1 | [Rules & Mandates](#1-rules--mandates) | ALL rules consolidated: stop rule, fabrication ban, feature verification, tier accuracy, performance, content principles, SEO keywords, visual integration, localization, conversion voice, SEO perfection checklist, free trial & refund policy, **image link verification** |
 | 2 | [Business & Product Context](#2-business--product-context) | 6 categories, 2 tiers, language sensitivity classification, language importance by category |
 | 3 | [Page Type Overview](#3-page-type-overview) | Summary table of all 6 page types with counts, URL patterns, priorities |
 | 4 | [Page Type 1: App Detail Pages](#4-page-type-1-app-detail-pages) | 33 apps x 11 locales = 363 pages — transform existing thin pages |
@@ -39,6 +39,16 @@ Everything in this section is mandatory. A session that reads Section 1 has ALL 
 - NEVER use "free" in URL slugs, page titles, or SEO keywords without "trial"
 - Downloads include a watermark. Removing it requires a paid license.
 - This overrides the old "free to try" messaging in the CRITICAL FREE TRIAL note at the top of REFERENCE.md
+
+### 1.0.1 Unicode Characters — NEVER Use Escape Sequences
+
+- **NEVER** write `\uXXXX` escape sequences in ANY content file or config file
+- **ALWAYS** write real characters directly: `—` not `\u2014`, `'` not `\u2019`, `×` not `\u00d7`, `ç` not `\u00e7`, `ä` not `\u00e4`
+- This applies to **ALL languages including English** — em dashes, curly quotes, and special characters are affected too
+- The Write tool outputs `\uXXXX` as LITERAL 6-character strings, corrupting the file content
+- If escapes slip in, run: `node scripts/fix-unicode-escapes.js`
+- After creating ANY file, **spot-check with Read tool** to confirm no `\uXXXX` escapes appear
+- **History:** 11,311 escapes had to be fixed across 200+ files (March 2026). This rule exists to prevent recurrence.
 
 ### 1.1 Mandatory Stop Rule
 
@@ -151,30 +161,47 @@ All YouTube embeds MUST use the click-to-play facade pattern (proven implementat
 
 #### Internal Linking Rules
 
+**CRITICAL: Tool pages are noindexed (canonical to /apps/). NEVER link to `/tools/` pages.**
+
 **Minimum links per page:**
 
 | Page Type | Min Internal Links | Link Targets |
 |-----------|-------------------|--------------|
-| 1: App Detail (33 pages) | 8-10 | 2-3 related apps (same category), 1 bundle page, 1 tool page, 2-3 guides, 1-2 idea pages |
-| 2: Free Tool Landing (33 pages) | 8-10 | 1 app detail page (same app), 4-5 related tools, 1 bundle, 2-3 guides |
-| 3: Bundle Sales (6 pages) | 10-15 | All apps in the bundle (app detail links), 2-3 guides, 2-3 idea pages |
-| 4: Cornerstone Guides (12 pages) | 10-15 | 3-5 app detail pages, 2-3 tool pages, 2-3 related guides, 2-3 idea pages |
-| 5: "Create X" Guides (65 pages) | 8-12 | 1-2 app detail pages, 1-2 tool pages, 2-3 related guides, 1 cornerstone guide, 1-2 idea pages |
-| 6: Niche Idea Pages (45 pages) | 8-12 | 2-4 app detail pages, 2-3 tool pages, 1-2 guides, 1 cornerstone guide |
+| 1: App Detail (33 pages) | 8-10 | 2-3 related apps (same category), 1 bundle page, 2-3 guides (incl. app-specific "create-X" guide), 1 category-relevant start page, 2 category-relevant idea pages |
+| 3: Bundle Sales (6 pages) | 8-12 | All apps in bundle (app detail links), 2 guides, 1 start page, 1 idea page |
+| 4: Cornerstone Guides (12 pages) | 10-15 | 3-5 app detail pages, 2-3 related guides, 2-3 idea pages, 1 start page |
+| 5: "Create X" Guides (65 pages) | 8-12 | 1-2 app detail pages, 2-3 related guides, 1 cornerstone guide, 1-2 idea pages |
+| 6: Niche Idea Pages (45 pages) | 8-12 | 2-4 app detail pages, 1-2 guides, 1 cornerstone guide |
+
+**Cross-category linking — idea, start, and guide links MUST match the app's category:**
+
+| Category | Apps | Idea Pages | Start Page | Guide Example |
+|----------|------|------------|------------|---------------|
+| **Math** | addition, subtraction, code-addition, more-less, math-puzzle, math-worksheet | math-facts, back-to-school | create-worksheets-that-sell | sell-math-worksheets-etsy |
+| **Literacy** | wordsearch, word-scramble, word-guess, cryptogram, alphabet-train, prepositions, writing | esl, homeschool | complete-guide-printable-business | create-word-search-puzzles |
+| **Visual** | coloring, draw-and-color, drawing-lines, chart-count | summer, christmas | etsy-printable-business | create-coloring-pages |
+| **Matching** | matching, shadow-match, big-small, grid-match | preschool, kindergarten | printable-business-blueprint | create-matching-worksheets |
+| **Puzzles** | crossword, sudoku, missing-pieces, odd-one-out, pattern-train, pattern-worksheet | first-grade, second-grade | amazon-kdp-activity-books | create-crossword-puzzles |
+| **Search** | find-and-count, find-objects, bingo, picture-sort, picture-path, treasure-hunt | camping, ocean-animals | marketing-printable-business | create-hidden-object-worksheets |
 
 **Linking topology rules:**
+- **NEVER** link to `/tools/` pages — they are noindexed with canonical pointing to `/apps/`
 - Every page MUST link to at least 2 different page types (no self-referential clusters)
-- App detail pages and tool pages for the SAME app always cross-link to each other
-- Bundle pages link to ALL their constituent app detail pages
-- Cornerstone guides (pillar content) receive the most inbound links — every other page type should link to at least 1 cornerstone guide
+- Idea links must be **category-relevant** — NEVER use the same generic ideas (e.g., farm-animals) on every page
+- Start page links must **vary by category** — NEVER always link to complete-guide-printable-business
+- Every app page must include its matching "create-X" guide link
+- Bundle pages must include cross-category links (guides, start, ideas) — not just app links
+- Cornerstone guides (pillar content) receive the most inbound links
 - Niche idea pages link to the apps that best serve that niche's content creation needs
-- Links appear naturally within content (not just in a "Related" section at the bottom)
 
 **Anchor text rules:**
 - Use descriptive, keyword-rich anchor text (e.g., "addition worksheet maker" not "click here")
 - Vary anchor text — don't use the same exact text for every link to the same page
 - Anchor text must be in the page's locale language
 - Never use bare URLs as link text
+- All slugs must come from the locale-specific slug config files — NEVER hardcode or guess slugs
+
+**Automation:** Run `node scripts/enrich-internal-links-locales.js` after creating new locale content to apply cross-category linking automatically. Add new locale translations to the script before running.
 
 #### Keyword Uniqueness Rules
 
@@ -626,6 +653,105 @@ EVERY page's FAQ section must include a refund policy Q&A. This is non-negotiabl
 | Clarify watermark is the ONLY difference | "Free trial downloads include a watermark" | "Some features require purchase" |
 | Never imply feature limits | "All features included in the free trial" | "Limited free version" or "Basic free version" |
 | Locale-appropriate phrasing | Natural equivalent in target language | Word-for-word translation of English phrase |
+
+---
+
+### 1.13 IMAGE LINK VERIFICATION — NEVER ASSUME, ALWAYS VERIFY
+
+Broken image links are the #1 recurring bug in content files. Root cause: guessing filenames instead of verifying they exist. These rules are **ABSOLUTE** and apply to every content file across all 6 page types and all 11 locales.
+
+#### 1.13.1 NEVER Guess or Fabricate Image Filenames
+
+Every `/samples/...` and `/image-library/...` path in a content file MUST reference a file that actually exists. **Guessing filenames based on app names, themes, or naming conventions is BANNED.** Each app has unique, inconsistent naming — you cannot predict filenames.
+
+**Both samples and image library images have `.webp` versions on the server.** Content files MUST use `.webp` extension for ALL image references — both `/samples/...` and `/image-library/...` paths. The server automatically generates and serves `.webp` versions alongside the original `.jpeg` files. Local dev files may only have `.jpeg`, but the server has `.webp` — always reference `.webp` in content files.
+
+Examples of real filename inconsistency (shown with local `.jpeg` names — use `.webp` in content files):
+- Addition: `Addition Fun 1.jpeg` → content ref: `/samples/english/addition/Addition%20Fun%201.webp`
+- Word Search: `custom word list.jpeg` → content ref: `/samples/english/wordsearch/custom%20word%20list.webp`
+- Math Puzzle: `Math Puzzles (1).jpeg` → content ref: `/samples/english/math%20puzzle/Math%20Puzzles%20(1).webp`
+- These patterns are NOT transferable between apps
+
+#### 1.13.2 Verify Before Writing ANY Image Path
+
+Before including ANY image path in a content file, verify it exists using one of these methods:
+
+1. **Local check (preferred):**
+   ```bash
+   ls "C:\Users\rkgen\lessoncraftstudio\samples\{language}\{app}\"
+   ls "C:\Users\rkgen\lessoncraftstudio\image library\{theme}\"
+   ```
+   **Note:** Local sample files are `.jpeg` but the server has `.webp` versions. When you see `Addition Fun 1.jpeg` locally, use `Addition%20Fun%201.webp` in the content file. The filename (minus extension) is the same — just swap `.jpeg` → `.webp` and encode spaces as `%20`.
+
+2. **Server check:**
+   ```bash
+   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls /var/www/lcs-media/samples/{language}/{app}/"
+   ```
+
+3. **Copy from existing verified file:** If another locale's content file for the same app already has verified paths, reuse the same sample paths. Sample folder names use the same English names across ALL locales.
+
+#### 1.13.3 Common Mistakes That Are BANNED
+
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|-----------------|
+| Inventing filenames like `addition-worksheet-1.webp` | Actual name is `Addition Fun 1` | Run `ls` to get real names |
+| Using hyphens instead of spaces | `baby-girl.webp` doesn't exist | Use `baby%20girl.webp` (spaces become `%20`) |
+| Using `.png` for image library refs | Image library URLs serve `.webp` | Always use `.webp` extension |
+| Using `.jpeg` in content file paths | Content files must use `.webp` | Server has `.webp` versions of all samples and image library images — always use `.webp` |
+| Assuming folder names match slugs | Folder is `code addition` not `code-addition` | Check the folder list below |
+| Assuming filename patterns transfer | Each app has unique naming | Verify EACH app's files individually |
+| Making up theme folder names | `sea-creatures/` doesn't exist | Run `ls` on image library to confirm |
+
+#### 1.13.4 Verification Checklist (Before Committing)
+
+Before committing ANY content file with image paths, confirm ALL of the following:
+
+- [ ] Every `heroImages.primary` path verified to exist on disk
+- [ ] Every `heroImages.secondary` path verified to exist on disk
+- [ ] Every `sampleGallery[].src` path verified to exist on disk
+- [ ] Every `themeImages[].src` path verified to exist on disk
+- [ ] ALL image paths use `.webp` extension — both `/samples/` and `/image-library/` (never `.jpeg`, `.png`, or `.jpg` — server has `.webp` for everything)
+- [ ] All sample paths use the correct language folder (`english`, `german`, etc.)
+- [ ] All sample paths use the correct app folder (with spaces, not hyphens)
+- [ ] Filenames with spaces are preserved exactly as-is (not hyphenated, not camelCased)
+- [ ] Spaces in URLs are encoded as `%20`
+
+#### 1.13.5 Quick Reference — All 33 Sample App Folder Names
+
+These are the EXACT folder names inside each language folder (spaces, not hyphens):
+
+```
+addition          alphabet train     big small         bingo
+chart count       code addition      coloring          crossword
+cryptogram        draw and color     drawing lines     find and count
+find objects      grid match         matching          math puzzle
+math worksheet    missing pieces     more less         odd one out
+pattern train     pattern worksheet  picture path      picture sort
+prepositions      shadow match       subtraction       sudoku
+treasure hunt     word guess         word scramble     wordsearch
+writing
+```
+
+#### 1.13.6 Quick Reference — Image Library Theme Folder Verification
+
+```bash
+# List all available theme folders
+ls "C:\Users\rkgen\lessoncraftstudio\image library\"
+
+# List images in a specific theme
+ls "C:\Users\rkgen\lessoncraftstudio\image library\{theme}\"
+```
+
+Do NOT assume theme folder names. Always verify with `ls` first.
+
+#### 1.13.7 If You Cannot Verify a Path — DO NOT Include It
+
+**A missing image is infinitely better than a broken 404 link.**
+
+If you cannot verify that a file exists (e.g., no local samples folder, no server access), then:
+- Leave the field as an empty string `""`
+- Or omit the image entry entirely from the array
+- NEVER include an unverified path "hoping it exists"
 
 ---
 
@@ -1559,14 +1685,16 @@ The specific video assignment for each niche page is determined during content c
 
 ### 11.6 Visual Assets Infrastructure
 
+> **STOP — Before writing ANY image path, read Section 1.13. NEVER guess filenames. ALWAYS verify files exist first.**
+
 #### Worksheet Samples
 
 | Property | Value |
 |----------|-------|
 | **Local path (dev)** | `C:\Users\rkgen\lessoncraftstudio\samples\` |
 | **Server path (prod)** | `/var/www/lcs-media/samples/` (nginx-served, isolated storage) |
-| **URL pattern** | `/samples/{language-folder}/{app-folder}/{filename}.jpeg` |
-| **File types** | JPEG (worksheets + answer keys), PDF (downloadable) |
+| **URL pattern** | `/samples/{language-folder}/{app-folder}/{filename}.webp` |
+| **File types** | WebP (served to browsers), JPEG (originals on disk), PDF (downloadable). **Content files MUST use `.webp` — the server has `.webp` versions of all samples.** |
 
 **11 language folders** (same folder names on local and server):
 `english`, `german`, `french`, `spanish`, `italian`, `portuguese`, `dutch`, `danish`, `swedish`, `norwegian`, `finnish`

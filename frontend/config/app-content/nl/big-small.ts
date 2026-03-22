@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'groot-klein-werkblad-maker',
-      anchorText: 'Groot & Klein Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
+      pageType: 'idea',
+      slug: 'peuterspeelzaal-printable-ideen',
+      anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Werkbladen',
+      slug: 'kleuterschool-printable-ideen',
+      anchorText: 'Kleuterschool printable ideeën voor jonge leerlingen',
+    },
+    {
+      pageType: 'start',
+      slug: 'blauwdruk-printable-bedrijf',
+      anchorText: 'Blauwdruk voor je printable bedrijf',
+    },
+    {
+      pageType: 'guide',
+      slug: 'groottevergelijking-werkbladen-maken',
+      anchorText: 'Groottevergelijking werkbladen maken',
     },
   ],
 

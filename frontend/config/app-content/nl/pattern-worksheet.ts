@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'patronen-werkblad-maker',
-      anchorText: 'Patronen Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
+      pageType: 'idea',
+      slug: 'groep-3-printable-ideen',
+      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Werkbladen',
+      slug: 'groep-4-printable-ideen',
+      anchorText: 'Groep 4 printable ideeën voor basisschoolleerlingen',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activiteitenboeken',
+      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'patronen-werkbladen-maken',
+      anchorText: 'Patronen werkbladen maken',
     },
   ],
 

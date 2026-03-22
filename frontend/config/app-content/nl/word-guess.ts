@@ -234,11 +234,6 @@ const content: AppContent = {
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
     },
     {
-      pageType: 'tool',
-      slug: 'woordraadsel-maker',
-      anchorText: 'Woordraadsel Werkblad Maker',
-    },
-    {
       pageType: 'guide',
       slug: 'educatief-materiaal-verkopen-etsy',
       anchorText: 'Gids voor het Verkopen van Educatief Materiaal op Etsy',
@@ -250,8 +245,18 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Printable Ideeën met Boerderijdieren voor Werkbladen',
+      slug: 'nt2-printable-ideen',
+      anchorText: 'ESL printable ideeën voor taalonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'thuisonderwijs-printable-ideen',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+    },
+    {
+      pageType: 'guide',
+      slug: 'woordzoekers-maken',
+      anchorText: 'Woordzoekers maken die verkopen',
     },
   ],
 

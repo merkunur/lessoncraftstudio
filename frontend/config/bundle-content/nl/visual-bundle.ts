@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'lijnen-trekken-werkbladen', anchorText: 'Lijnen Trekken Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'kleurplaten-werkbladen', anchorText: 'Kleurplaten Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'telgrafieken-werkbladen', anchorText: 'Telgrafiek Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'groot-klein-werkblad-maker', anchorText: 'Probeer de Groot & Klein Werkblad Maker' },
-    { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Probeer de Patroontrein Maker' },
-    { pageType: 'tool', slug: 'patronen-werkblad-maker', anchorText: 'Probeer de Patronen Werkblad Maker' },
-    { pageType: 'tool', slug: 'rastertekenen-maker', anchorText: 'Probeer de Rastertekenen Maker' },
-    { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Probeer de Lijnen Trekken Maker' },
-    { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Probeer de Kleurplaten Maker' },
-    { pageType: 'tool', slug: 'telgrafiek-werkblad-maker', anchorText: 'Probeer de Telgrafiek Maker' },
+    { pageType: 'guide', slug: 'etsy-kleurplaten-maken', anchorText: 'Kleurplaten maken voor Etsy' },
+    { pageType: 'guide', slug: 'teken-werkbladen-maken', anchorText: 'Teken werkbladen maken' },
+    { pageType: 'start', slug: 'etsy-printable-bedrijf', anchorText: 'Bouw je Etsy printable bedrijf' },
+    { pageType: 'idea', slug: 'zomer-printable-ideen', anchorText: 'Zomer printable ideeën voor kinderactiviteiten' },
   ],
 
   visuals: {

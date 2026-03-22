@@ -188,10 +188,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'zoek-voorwerpen-werkbladen', anchorText: 'Zoek Voorwerpen Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'kruiswoordpuzzel-werkbladen', anchorText: 'Plaatjes Kruiswoordpuzzel Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'schattenjacht-werkbladen', anchorText: 'Schattenjacht Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Probeer de Zoek & Tel Maker' },
-    { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Probeer de Zoek Voorwerpen Maker' },
-    { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Probeer de Kruiswoordpuzzel Maker' },
-    { pageType: 'tool', slug: 'schattenjacht-maker', anchorText: 'Probeer de Schattenjacht Maker' },
+    { pageType: 'guide', slug: 'zoek-voorwerpen-werkbladen-maken', anchorText: 'Zoek-voorwerpen werkbladen maken' },
+    { pageType: 'guide', slug: 'schattenjacht-werkbladen-maken', anchorText: 'Schattenjacht werkbladen maken' },
+    { pageType: 'start', slug: 'marketing-printable-bedrijf', anchorText: 'Marketing voor je printable bedrijf' },
+    { pageType: 'idea', slug: 'kamperen-printable-ideen', anchorText: 'Camping printable ideeën voor buitenonderwijs' },
   ],
 
   visuals: {

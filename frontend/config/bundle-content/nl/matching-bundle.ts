@@ -195,11 +195,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'schaduw-matching-werkbladen', anchorText: 'Schaduw Koppelen Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'plaatjes-bingo-werkbladen', anchorText: 'Plaatjesbingo Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'sorteer-werkbladen', anchorText: 'Sorteer Werkblad Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'koppelen-werkblad-maker', anchorText: 'Probeer de Koppelwerkblad Maker' },
-    { pageType: 'tool', slug: 'raster-puzzel-maker', anchorText: 'Probeer de Rasterpuzzel Maker' },
-    { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Probeer de Schaduw Koppelen Maker' },
-    { pageType: 'tool', slug: 'plaatjesbingo-maker', anchorText: 'Probeer de Plaatjesbingo Maker' },
-    { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Probeer de Sorteer Werkblad Maker' },
+    { pageType: 'guide', slug: 'koppel-werkbladen-maken', anchorText: 'Koppel werkbladen maken' },
+    { pageType: 'guide', slug: 'schaduw-koppelen-werkbladen-maken', anchorText: 'Schaduw-koppelen werkbladen maken' },
+    { pageType: 'start', slug: 'blauwdruk-printable-bedrijf', anchorText: 'Blauwdruk voor je printable bedrijf' },
+    { pageType: 'idea', slug: 'peuterspeelzaal-printable-ideen', anchorText: 'Peuteronderwijs printable ideeën voor vroege ontwikkeling' },
   ],
 
   visuals: {

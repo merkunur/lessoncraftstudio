@@ -239,19 +239,24 @@ const content: AppContent = {
       anchorText: 'Lezen & Taal Pakket — Alle Taalapps in Eén Bundel',
     },
     {
-      pageType: 'tool',
-      slug: 'schrijfoefeningen-maker',
-      anchorText: 'Schrijfoefeningen Werkblad Maker',
-    },
-    {
       pageType: 'start',
       slug: 'complete-gids-printable-bedrijf',
       anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Printable Ideeën met Boerderijdieren voor Werkbladen',
+      slug: 'nt2-printable-ideen',
+      anchorText: 'ESL printable ideeën voor taalonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'thuisonderwijs-printable-ideen',
+      anchorText: 'Thuisonderwijs printable ideeën voor ouders en docenten',
+    },
+    {
+      pageType: 'guide',
+      slug: 'schrijfoefeningen-maken',
+      anchorText: 'Schrijfoefeningen maken',
     },
   ],
 

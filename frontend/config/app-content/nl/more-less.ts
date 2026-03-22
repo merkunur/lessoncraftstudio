@@ -224,11 +224,6 @@ const content: AppContent = {
       anchorText: 'Wiskunde Meester Pakket — Alle Reken-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'meer-minder-werkblad-maker',
-      anchorText: 'Meer of Minder Werkblad Maker',
-    },
-    {
       pageType: 'guide',
       slug: 'optellen-werkbladen-maken',
       anchorText: 'Hoe Maak Je Rekenwerkbladen die Verkopen',
@@ -239,19 +234,24 @@ const content: AppContent = {
       anchorText: 'Gids voor het Verkopen van Rekenwerkbladen op Etsy',
     },
     {
+      pageType: 'idea',
+      slug: 'rekenfeiten-printable-ideen',
+      anchorText: 'Reken-feiten printable ideeën voor docenten en verkopers',
+    },
+    {
+      pageType: 'idea',
+      slug: 'terug-naar-school-printable-ideen',
+      anchorText: 'Terug-naar-school printable ideeën die verkopen',
+    },
+    {
       pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
+      slug: 'werkbladen-maken-die-verkopen',
+      anchorText: 'Werkbladen maken die verkopen',
     },
     {
-      pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Werkbladen',
-    },
-    {
-      pageType: 'idea',
-      slug: 'dinosaurus-printable-ideen',
-      anchorText: 'Dinosaurus Printable Ideeën voor Kinderactiviteiten',
+      pageType: 'guide',
+      slug: 'tel-werkbladen-maken',
+      anchorText: 'Tel werkbladen maken',
     },
   ],
 

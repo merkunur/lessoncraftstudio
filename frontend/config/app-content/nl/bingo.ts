@@ -240,16 +240,6 @@ const content: AppContent = {
       anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'plaatjesbingo-maker',
-      anchorText: 'Plaatjesbingo Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'bingokaarten-maken',
       anchorText: 'Hoe Maak en Verkoop Je Bingokaarten Online',
@@ -258,6 +248,21 @@ const content: AppContent = {
       pageType: 'idea',
       slug: 'kerst-printable-ideen',
       anchorText: 'Kerst Printable Ideeën voor Werkbladen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'kamperen-printable-ideen',
+      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zeedieren-printable-ideen',
+      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-bedrijf',
+      anchorText: 'Marketing voor je printable bedrijf',
     },
   ],
 

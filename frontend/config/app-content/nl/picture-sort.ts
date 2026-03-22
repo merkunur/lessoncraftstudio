@@ -240,24 +240,24 @@ const content: AppContent = {
       anchorText: 'Matchen & Sorteren Pakket — Alle Koppel-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'plaatjes-sorteren-maker',
-      anchorText: 'Afbeeldingen Sorteren Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'sorteer-werkbladen-maken',
       anchorText: 'Hoe Maak en Verkoop Je Sorteer Werkbladen Online',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Werkbladen',
+      slug: 'kamperen-printable-ideen',
+      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zeedieren-printable-ideen',
+      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-bedrijf',
+      anchorText: 'Marketing voor je printable bedrijf',
     },
   ],
 

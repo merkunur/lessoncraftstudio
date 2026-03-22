@@ -203,12 +203,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'meer-minder-werkbladen', anchorText: 'Meer of Minder Werkblad Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'rekenpuzzels-werkbladen', anchorText: 'Rekenpuzzel Werkblad Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'rekenen-werkbladen', anchorText: 'Rekenwerkblad Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'optellen-werkblad-maker', anchorText: 'Probeer de Optelling Werkblad Maker' },
-    { pageType: 'tool', slug: 'aftrekken-werkblad-maker', anchorText: 'Probeer de Aftrekken Werkblad Maker' },
-    { pageType: 'tool', slug: 'code-optellen-werkblad-maker', anchorText: 'Probeer de Code-Optelling Werkblad Maker' },
-    { pageType: 'tool', slug: 'meer-minder-werkblad-maker', anchorText: 'Probeer de Meer of Minder Werkblad Maker' },
-    { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Probeer de Rekenpuzzel Maker' },
-    { pageType: 'tool', slug: 'reken-werkblad-maker', anchorText: 'Probeer de Rekenwerkblad Maker' },
+    { pageType: 'guide', slug: 'reken-werkbladen-verkopen-etsy', anchorText: 'Gids: rekenwerkbladen verkopen op Etsy' },
+    { pageType: 'guide', slug: 'reken-activiteitenboeken-kdp', anchorText: 'Reken-activiteitenboeken op Amazon KDP' },
+    { pageType: 'start', slug: 'werkbladen-maken-die-verkopen', anchorText: 'Werkbladen maken die verkopen' },
+    { pageType: 'idea', slug: 'rekenfeiten-printable-ideen', anchorText: 'Reken-feiten printable ideeën voor docenten en verkopers' },
   ],
 
   visuals: {

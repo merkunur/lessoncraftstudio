@@ -205,13 +205,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'woordzoeker-werkbladen', anchorText: 'Woordzoeker Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'cryptogram-werkbladen', anchorText: 'Cryptogram Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'schrijfoefeningen-werkbladen', anchorText: 'Schrijfoefeningen Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Probeer de Alfabet Trein Maker' },
-    { pageType: 'tool', slug: 'voorzetsels-werkblad-maker', anchorText: 'Probeer de Voorzetsels Werkblad Maker' },
-    { pageType: 'tool', slug: 'woordraadsel-maker', anchorText: 'Probeer de Woordraad Maker' },
-    { pageType: 'tool', slug: 'letterpuzzel-maker', anchorText: 'Probeer de Woordscramble Maker' },
-    { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Probeer de Woordzoeker Maker' },
-    { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Probeer de Cryptogram Maker' },
-    { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Probeer de Schrijfoefeningen Maker' },
+    { pageType: 'guide', slug: 'woordzoekers-verkopen-etsy', anchorText: 'Woordzoekers verkopen op Etsy' },
+    { pageType: 'guide', slug: 'woordzoekers-maken', anchorText: 'Woordzoekers maken die verkopen' },
+    { pageType: 'start', slug: 'complete-gids-printable-bedrijf', anchorText: 'De complete gids voor je printable bedrijf' },
+    { pageType: 'idea', slug: 'nt2-printable-ideen', anchorText: 'ESL printable ideeën voor taalonderwijs' },
   ],
 
   visuals: {

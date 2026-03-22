@@ -240,24 +240,24 @@ const content: AppContent = {
       anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'zoek-en-tel-maker',
-      anchorText: 'Zoek en Tel Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'tel-werkbladen-maken',
       anchorText: 'Hoe Je Telwerkbladen Maakt die Verkopen',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Ik Zie Ik Zie Activiteiten',
+      slug: 'kamperen-printable-ideen',
+      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zeedieren-printable-ideen',
+      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-bedrijf',
+      anchorText: 'Marketing voor je printable bedrijf',
     },
   ],
 

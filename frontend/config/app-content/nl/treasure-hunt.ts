@@ -235,19 +235,24 @@ const content: AppContent = {
       anchorText: 'Zoeken & Vinden Pakket — Alle Zoek-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'schattenjacht-maker',
-      anchorText: 'Schattenjacht Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'schattenjacht-werkbladen-maken',
       anchorText: 'Hoe Je Schattenjacht Werkbladen Maakt die Verkopen',
+    },
+    {
+      pageType: 'idea',
+      slug: 'kamperen-printable-ideen',
+      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zeedieren-printable-ideen',
+      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-bedrijf',
+      anchorText: 'Marketing voor je printable bedrijf',
     },
   ],
 

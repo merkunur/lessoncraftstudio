@@ -186,10 +186,10 @@ const content: BundleContent = {
     { pageType: 'app', slug: 'welke-hoort-niet-bij-werkbladen', anchorText: 'Welke Hoort Er Niet Bij Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'sudoku-werkbladen', anchorText: 'Plaatjes Sudoku Generator — Volledig Overzicht' },
     { pageType: 'app', slug: 'doolhof-werkbladen', anchorText: 'Afbeeldingspad Doolhof Generator — Volledig Overzicht' },
-    { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Probeer de Ontbrekende Stukjes Puzzel Maker' },
-    { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Probeer de Welke Hoort Er Niet Bij Maker' },
-    { pageType: 'tool', slug: 'kinder-sudoku-maker', anchorText: 'Probeer de Plaatjes Sudoku Maker' },
-    { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Probeer de Afbeeldingspad Doolhof Maker' },
+    { pageType: 'guide', slug: 'kruiswoordpuzzels-maken', anchorText: 'Kruiswoordpuzzels maken die verkopen' },
+    { pageType: 'guide', slug: 'puzzelboeken-uitgeven-kdp', anchorText: 'Puzzelboeken uitgeven op Amazon KDP' },
+    { pageType: 'start', slug: 'amazon-kdp-activiteitenboeken', anchorText: 'Activiteitenboeken uitgeven op Amazon KDP' },
+    { pageType: 'idea', slug: 'groep-3-printable-ideen', anchorText: 'Groep 3 printable ideeën voor basisonderwijs' },
   ],
 
   visuals: {

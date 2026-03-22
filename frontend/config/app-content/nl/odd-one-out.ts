@@ -235,24 +235,24 @@ const content: AppContent = {
       anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'wat-hoort-er-niet-bij-maker',
-      anchorText: 'Welke Hoort Er Niet Bij Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'wat-hoort-er-niet-bij-maken',
       anchorText: 'Hoe Je Welke Hoort Er Niet Bij Puzzels Maakt die Verkopen',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Visuele Puzzelactiviteiten',
+      slug: 'groep-3-printable-ideen',
+      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'groep-4-printable-ideen',
+      anchorText: 'Groep 4 printable ideeën voor basisschoolleerlingen',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activiteitenboeken',
+      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
     },
   ],
 

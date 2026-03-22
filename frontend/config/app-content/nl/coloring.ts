@@ -238,19 +238,24 @@ const content: AppContent = {
       anchorText: 'Visueel Leren Pakket — Alle Visuele Apps in Eén Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'kleurplaten-maker',
-      anchorText: 'Kleurplaten Werkblad Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
+      pageType: 'idea',
+      slug: 'zomer-printable-ideen',
+      anchorText: 'Zomer printable ideeën voor kinderactiviteiten',
     },
     {
       pageType: 'idea',
-      slug: 'boerderijdieren-printable-ideen',
-      anchorText: 'Boerderijdieren Printable Ideeën voor Werkbladen',
+      slug: 'kerst-printable-ideen',
+      anchorText: 'Kerst printable ideeën voor seizoensverkoop',
+    },
+    {
+      pageType: 'start',
+      slug: 'etsy-printable-bedrijf',
+      anchorText: 'Bouw je Etsy printable bedrijf',
+    },
+    {
+      pageType: 'guide',
+      slug: 'kleurplaten-maken',
+      anchorText: 'Kleurplaten maken die verkopen',
     },
   ],
 

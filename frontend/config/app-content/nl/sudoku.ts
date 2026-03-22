@@ -235,24 +235,29 @@ const content: AppContent = {
       anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'kinder-sudoku-maker',
-      anchorText: 'Plaatjes Sudoku Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'sudoku-boeken-kdp',
       anchorText: 'Hoe Je Sudoku Boeken Maakt en Verkoopt op Amazon KDP',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurus-printable-ideen',
-      anchorText: 'Dinosaurus Printable Ideeën voor Visuele Puzzelactiviteiten',
+      slug: 'groep-3-printable-ideen',
+      anchorText: 'Groep 3 printable ideeën voor basisonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'groep-4-printable-ideen',
+      anchorText: 'Groep 4 printable ideeën voor basisschoolleerlingen',
+    },
+    {
+      pageType: 'start',
+      slug: 'amazon-kdp-activiteitenboeken',
+      anchorText: 'Activiteitenboeken uitgeven op Amazon KDP',
+    },
+    {
+      pageType: 'guide',
+      slug: 'plaatjes-sudoku-maken',
+      anchorText: 'Plaatjes sudoku voor kinderen maken',
     },
   ],
 

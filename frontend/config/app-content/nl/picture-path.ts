@@ -235,24 +235,24 @@ const content: AppContent = {
       anchorText: 'Puzzels & Logica Pakket — Alle Puzzel-Apps in Één Pakket',
     },
     {
-      pageType: 'tool',
-      slug: 'plaatjespad-maker',
-      anchorText: 'Afbeeldingspad Doolhof Maker',
-    },
-    {
-      pageType: 'start',
-      slug: 'complete-gids-printable-bedrijf',
-      anchorText: 'De Complete Gids voor het Starten van een Printable Bedrijf',
-    },
-    {
       pageType: 'guide',
       slug: 'doolhof-werkbladen-maken',
       anchorText: 'Hoe Je Doolhof Werkbladen Maakt en Verkoopt op Amazon KDP',
     },
     {
       pageType: 'idea',
-      slug: 'dinosaurus-printable-ideen',
-      anchorText: 'Dinosaurus Printable Ideeën voor Doolhof- en Padactiviteiten',
+      slug: 'kamperen-printable-ideen',
+      anchorText: 'Camping printable ideeën voor buitenonderwijs',
+    },
+    {
+      pageType: 'idea',
+      slug: 'zeedieren-printable-ideen',
+      anchorText: 'Zeedieren printable ideeën voor maritieme thema\'s',
+    },
+    {
+      pageType: 'start',
+      slug: 'marketing-printable-bedrijf',
+      anchorText: 'Marketing voor je printable bedrijf',
     },
   ],
 

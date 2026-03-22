@@ -98,12 +98,8 @@ export async function generateMetadata({
     const alternateUrls = getToolAlternateUrls(toolConfig.toolId, baseUrl);
     const localeSlug = getToolSlugForLocale(toolConfig.toolId, locale);
 
-    // Cross-canonical: point to the corresponding /apps/ page to consolidate SEO authority
-    const correspondingAppId = getAppIdForTool(toolConfig.toolId);
-    const appSlug = getSlugForLocale(correspondingAppId, locale as SupportedLocale);
-    const canonicalUrl = appSlug
-      ? `${baseUrl}/${locale}/apps/${appSlug}`
-      : `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
+    // Self-canonical: tool pages target "maker/generator" intent, app pages target "worksheets/seller" intent
+    const canonicalUrl = `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
 
     const title = content?.seo?.titleTag || `${localizedName} | LessonCraftStudio`;
     const description = content?.seo?.metaDescription || `${localizedName} — try free with watermark. No signup required.`;
@@ -145,7 +141,6 @@ export async function generateMetadata({
         description,
         images: [`${baseUrl}/api/og?app=${wpAppId}&locale=${locale}&type=tool&title=${encodeURIComponent(title)}`],
       },
-      robots: { index: false, follow: true },
     };
   } catch {
     return {};

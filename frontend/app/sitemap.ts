@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
-// Tool pages removed from sitemap — canonical to /apps/ (SEO consolidation)
+import { toolPageSlugs, getToolAlternateUrls } from '@/config/tool-page-slugs';
 import { bundlePageSlugs, getBundleAlternateUrls } from '@/config/bundle-page-slugs';
 import { startPageSlugs, getStartAlternateUrls } from '@/config/start-page-slugs';
 import { guidePageSlugs, getGuideAlternateUrls } from '@/config/guide-page-slugs';
@@ -16,15 +16,15 @@ export const revalidate = 1800;
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-03-20');
 
 /**
- * Eight sitemaps:
- * ID 0: Static pages (~88 URLs) - homepage, apps, tools, bundles, start, guides, ideas, legal
- * ID 1: App detail pages (~363 URLs) - individual app pages with localized slugs
- * ID 2: Sales pages (5 URLs) - WarriorPlus product pages (English only)
- * ID 3: Tool pages (~363 URLs) - free tool landing pages
- * ID 4: Bundle pages (~66 URLs) - category bundle sales pages
- * ID 5: Start pages (~132 URLs) - cornerstone guide pages
- * ID 6: Guide pages (~715 URLs) - Create X guide pages
- * ID 7: Idea pages (~495 URLs) - niche idea pages
+ * Eight sitemaps (total ~1,641 URLs as of 2026-03-22):
+ * ID 0: Static pages (143 URLs) - homepage, apps, tools, bundles, start, guides, ideas, legal × 11 locales
+ * ID 1: App detail pages (363 URLs) - 33 apps × 11 locales
+ * ID 2: Sales pages (8 URLs) - WarriorPlus product pages (English only)
+ * ID 3: Tool pages (231 URLs) - 33 tools × 7 locales (maker/generator intent)
+ * ID 4: Bundle pages (42 URLs) - 6 bundles × 7 locales
+ * ID 5: Start pages (84 URLs) - 12 cornerstone guides × 7 locales
+ * ID 6: Guide pages (455 URLs) - 65 Create X guides × 7 locales
+ * ID 7: Idea pages (315 URLs) - 45 niche idea pages × 7 locales
  *
  * Image discovery is handled by dedicated image sitemaps at /image-sitemap/{id}
  * (referenced via /image-sitemap-index.xml in robots.txt).
@@ -34,7 +34,7 @@ export async function generateSitemaps() {
     { id: 0 },
     { id: 1 },
     { id: 2 },
-    // ID 3 (tools) removed — canonical to /apps/
+    { id: 3 }, // Tool pages (maker/generator intent — distinct from /apps/ worksheets intent)
     { id: 4 },
     { id: 5 },
     { id: 6 },
@@ -61,7 +61,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     const staticPages = [
       { path: '', priority: 1.0, changeFreq: 'daily' as const },
       { path: '/apps', priority: 0.8, changeFreq: 'weekly' as const },
-      // /tools removed — canonical to /apps (SEO consolidation)
+      { path: '/tools', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/bundles', priority: 0.8, changeFreq: 'weekly' as const },
       { path: '/start', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/guides', priority: 0.7, changeFreq: 'weekly' as const },
@@ -120,9 +120,24 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     }));
   }
 
-  // ID 3: Tool pages — removed from sitemap (canonical to /apps/)
+  // ID 3: Tool pages (maker/generator intent — separate from /apps/ worksheets intent)
   if (id === 3) {
-    return [];
+    const routes: MetadataRoute.Sitemap = [];
+    for (const tool of toolPageSlugs) {
+      const toolAlternates = getToolAlternateUrls(tool.toolId, baseUrl);
+      for (const [locale, slug] of Object.entries(tool.slugs)) {
+        if (slug) {
+          routes.push({
+            url: `${baseUrl}/${locale}/tools/${slug}`,
+            lastModified: STATIC_CONTENT_DATE,
+            changeFrequency: 'weekly',
+            priority: 0.8,
+            alternates: { languages: toolAlternates },
+          });
+        }
+      }
+    }
+    return routes;
   }
 
   // ID 4: Bundle pages (category bundle sales pages)

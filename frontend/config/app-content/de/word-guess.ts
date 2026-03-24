@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Bild-Vokabel-Rätsel für Etsy-Verkäufer',
       'Buchstaben-Rate-Arbeitsblatt-Generator für KDP-Verleger',
-      'Worterkennungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Worterkennungs-Arbeitsblätter auf Gumroad verkaufen',
       'Wörter-Raten-Druckvorlagen kommerzielle Lizenz',
       'Bild-Hinweis-Wort-Rätsel Arbeitsblatt-Generator',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Wörter-Raten-Arbeitsblatt-Generator für Bild-Hinweis-Vokabel-Rätsel',
     tagline: 'Galgenmännchen-Logik trifft Bild-Hinweise — vier Schwierigkeitsstufen verwandeln jedes Wort in ein fesselndes Buchstaben-Rätsel.',
     description:
-      'Erstellen Sie professionelle Wörter-Raten-Arbeitsblätter, bei denen Schüler einen Bild-Hinweis sehen und das versteckte Wort erraten, indem sie leere Buchstabenfelder ausfüllen — ein Galgenmännchen-ähnliches Rätsel, das gleichzeitig Rechtschreibung, Wortschatz und logisches Denken fördert. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit beliebigem Vokabular. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben als Hinweise vorausgefüllt werden — von keinen Hinweisen (alle Felder leer) über Leicht (die Hälfte der Buchstaben sichtbar) und Normal (ein Viertel sichtbar) bis Schwer (ein Sechstel sichtbar) — und schaffen eine natürliche Schwierigkeitsprogression vom Anfänger bis zum Fortgeschrittenen. Platzieren Sie 1 bis 10 Rätsel pro Arbeitsblatt und wechseln Sie zwischen Groß- und Kleinbuchstaben im Buchstabengitter. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sich das Zielwort je nach Sprache ändert — aus „Hund“ auf Deutsch wird „dog“ auf Englisch, „chien“ auf Französisch, „perro“ auf Spanisch — und macht jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt. Deutsche Wörter bieten dabei einen besonderen Reiz: Zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben), „Feuerwehrauto“ (13 Buchstaben) oder „Krankenhaus“ (11 Buchstaben) erzeugen deutlich längere Buchstabengitter als ihre englischen Äquivalente und machen jedes Arbeitsblatt zu einem visuell einzigartigen Produkt. Umlaute wie ä, ö und ü erscheinen direkt in den Buchstabenfeldern und verleihen deutschen Rätseln zusätzliche Authentizität. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Vokabel-Rätsel-Pakete auf Etsy.de verkaufen, Wort-Rätsel-Bücher für Amazon KDP zusammenstellen oder differenzierte Rechtschreibübungen für den Lehrermarktplatz erstellen — der Wörter-Raten-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Wörter-Raten-Arbeitsblätter, bei denen Nutzer einen Bild-Hinweis sehen und das versteckte Wort erraten, indem sie leere Buchstabenfelder ausfüllen — ein Galgenmännchen-ähnliches Rätsel, das gleichzeitig Rechtschreibung, Wortschatz und logisches Denken fördert. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit beliebigem Vokabular. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben als Hinweise vorausgefüllt werden — von keinen Hinweisen (alle Felder leer) über Leicht (die Hälfte der Buchstaben sichtbar) und Normal (ein Viertel sichtbar) bis Schwer (ein Sechstel sichtbar) — und schaffen eine natürliche Schwierigkeitsprogression vom Anfänger bis zum Fortgeschrittenen. Platzieren Sie 1 bis 10 Rätsel pro Arbeitsblatt und wechseln Sie zwischen Groß- und Kleinbuchstaben im Buchstabengitter. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sich das Zielwort je nach Sprache ändert — aus „Hund“ auf Deutsch wird „dog“ auf Englisch, „chien“ auf Französisch, „perro“ auf Spanisch — und macht jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt. Deutsche Wörter bieten dabei einen besonderen Reiz: Zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben), „Feuerwehrauto“ (13 Buchstaben) oder „Krankenhaus“ (11 Buchstaben) erzeugen deutlich längere Buchstabengitter als ihre englischen Äquivalente und machen jedes Arbeitsblatt zu einem visuell einzigartigen Produkt. Umlaute wie ä, ö und ü erscheinen direkt in den Buchstabenfeldern und verleihen deutschen Rätseln zusätzliche Authentizität. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Vokabel-Rätsel-Pakete auf Etsy.de verkaufen, Wort-Rätsel-Bücher für Amazon KDP zusammenstellen oder gestufte Rechtschreibübungen für den Gumroad erstellen — der Wörter-Raten-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Buchstabengröße festlegen und Text hinzufügen',
         description:
-          'Wählen Sie zwischen Großbuchstaben (Standard) und Kleinbuchstaben im Rategitter, abgestimmt auf das Lernniveau Ihrer Zielgruppe. Großbuchstaben eignen sich für Vorschulkinder, die Buchstabenerkennung üben, während Kleinbuchstaben für ältere Schüler ideal sind, die standardmäßige Rechtschreibung trainieren. Deutsche Umlaute (Ä, Ö, Ü bzw. ä, ö, ü) erscheinen korrekt in den Buchstabenfeldern und bieten authentische Rechtschreibübungen. Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Felder für Name und Datum, Anweisungen oder beliebigen benutzerdefinierten Text hinzuzufügen. Wählen Sie aus sieben Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand und passen Sie Schriftgröße, Farbe und Umriss für maximale Lesbarkeit an.',
+          'Wählen Sie zwischen Großbuchstaben (Standard) und Kleinbuchstaben im Rategitter, abgestimmt auf das Lernniveau Ihrer Zielgruppe. Großbuchstaben eignen sich für Vorschulkinder, die Buchstabenerkennung üben, während Kleinbuchstaben für Fortgeschrittene ideal sind, die standardmäßige Rechtschreibung trainieren. Deutsche Umlaute (Ä, Ö, Ü bzw. ä, ö, ü) erscheinen korrekt in den Buchstabenfeldern und bieten authentische Rechtschreibübungen. Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Felder für Name und Datum, Anweisungen oder beliebigen benutzerdefinierten Text hinzuzufügen. Wählen Sie aus sieben Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand und passen Sie Schriftgröße, Farbe und Umriss für maximale Lesbarkeit an.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Bild-Hinweis-Wortratespiel mit leeren Buchstabenfeldern',
         description:
-          'Jedes Rätsel präsentiert einen Bild-Hinweis neben einer Reihe leerer Buchstabenfelder, die das versteckte Wort darstellen. Schüler studieren das Bild, erkennen, was es darstellt, und füllen die fehlenden Buchstaben aus — eine Galgenmännchen-ähnliche Deduktionsübung, die gleichzeitig visuellen Wortschatz, Rechtschreibgenauigkeit und Buchstaben-Laut-Zuordnung fördert. Mehrwort-Phrasen wie „Eisbär“ oder „Feuerwehrauto“ werden als separate Wortgruppen mit Abstand dargestellt und unterstützen zusammengesetzte Substantive, Tiernamen und längere Vokabelbegriffe auf natürliche Weise. Deutsche zusammengesetzte Substantive erzeugen besonders ansprechende Rätsel mit deutlich längeren Buchstabengittern als ihre englischen Entsprechungen.',
+          'Jedes Rätsel präsentiert einen Bild-Hinweis neben einer Reihe leerer Buchstabenfelder, die das versteckte Wort darstellen. Nutzer studieren das Bild, erkennen, was es darstellt, und füllen die fehlenden Buchstaben aus — eine Galgenmännchen-ähnliche Deduktionsübung, die gleichzeitig visuellen Wortschatz, Rechtschreibgenauigkeit und Buchstaben-Laut-Zuordnung fördert. Mehrwort-Phrasen wie „Eisbär“ oder „Feuerwehrauto“ werden als separate Wortgruppen mit Abstand dargestellt und unterstützen zusammengesetzte Substantive, Tiernamen und längere Vokabelbegriffe auf natürliche Weise. Deutsche zusammengesetzte Substantive erzeugen besonders ansprechende Rätsel mit deutlich längeren Buchstabengittern als ihre englischen Entsprechungen.',
       },
       {
         title: 'Vier Schwierigkeitsstufen mit einstellbarer Hinweis-Buchstabenanzahl',
         description:
-          'Steuern Sie präzise, wie viel Unterstützung Schüler erhalten, mit vier integrierten Schwierigkeitsstufen. Keine Hinweise lässt jedes Feld leer für maximale Herausforderung. Leicht enthüllt die Hälfte der Buchstaben — perfekt für Leseanfänger und junge Lerner. Normal enthüllt ein Viertel für ausgewogenes Üben. Schwer enthüllt nur ein Sechstel — genug als Starthilfe, ohne die Antwort zu verraten. Bei einem 13-Buchstaben-Wort wie „Schmetterling“ enthüllt die Stufe Leicht sechs Buchstaben und lässt sieben zum Erraten — immer noch eine echte Herausforderung. Das Mischen verschiedener Schwierigkeitsstufen innerhalb eines Pakets erzeugt eine natürliche Leicht-zu-Schwer-Progression, die Premiumpreise rechtfertigt.',
+          'Steuern Sie präzise, wie viel Unterstützung Nutzer erhalten, mit vier integrierten Schwierigkeitsstufen. Keine Hinweise lässt jedes Feld leer für maximale Herausforderung. Leicht enthüllt die Hälfte der Buchstaben — perfekt für Leseanfänger und junge Lerner. Normal enthüllt ein Viertel für ausgewogenes Üben. Schwer enthüllt nur ein Sechstel — genug als Starthilfe, ohne die Antwort zu verraten. Bei einem 13-Buchstaben-Wort wie „Schmetterling“ enthüllt die Stufe Leicht sechs Buchstaben und lässt sieben zum Erraten — immer noch eine echte Herausforderung. Das Mischen verschiedener Schwierigkeitsstufen innerhalb eines Pakets erzeugt eine natürliche Leicht-zu-Schwer-Progression, die Premiumpreise rechtfertigt.',
       },
       {
         title: 'Drei Inhaltsquellen: Bildbibliothek, Manuell und Benutzerdefinierte Wortliste',
@@ -78,7 +78,7 @@ const content: AppContent = {
       {
         title: 'Mehrwort-Phrasen-Unterstützung für komplexes Vokabular',
         description:
-          'Bildnamen und benutzerdefinierte Einträge, die Leerzeichen enthalten, werden als separate Wortgruppen im Rätselgitter dargestellt, mit klarem Abstand zwischen jedem Wort. Begriffe wie „Eisbär“ erscheinen als zusammenhängende Buchstabenreihe, während Phrasen wie „roter Apfel“ als zwei getrennte Wortgitter angezeigt werden. Schüler lösen jedes Wort einzeln und verstehen dabei, dass sie ein zusammengehörendes Konzept bilden. Diese Funktion erweitert Ihren Vokabelumfang weit über einzelne Substantive hinaus und ermöglicht Tierarten, Lebensmittelgerichte, Ortsnamen und beschreibende Phrasen. Für deutsche Produkte ist dies besonders relevant, da zusammengesetzte Substantive wie „Schildkröte“ oder „Wassermelone“ als einzelne, lange Buchstabengitter erscheinen — ein visuell einzigartiges Merkmal.',
+          'Bildnamen und benutzerdefinierte Einträge, die Leerzeichen enthalten, werden als separate Wortgruppen im Rätselgitter dargestellt, mit klarem Abstand zwischen jedem Wort. Begriffe wie „Eisbär“ erscheinen als zusammenhängende Buchstabenreihe, während Phrasen wie „roter Apfel“ als zwei getrennte Wortgitter angezeigt werden. Nutzer lösen jedes Wort einzeln und verstehen dabei, dass sie ein zusammengehörendes Konzept bilden. Diese Funktion erweitert Ihren Vokabelumfang weit über einzelne Substantive hinaus und ermöglicht Tierarten, Lebensmittelgerichte, Ortsnamen und beschreibende Phrasen. Für deutsche Produkte ist dies besonders relevant, da zusammengesetzte Substantive wie „Schildkröte“ oder „Wassermelone“ als einzelne, lange Buchstabengitter erscheinen — ein visuell einzigartiges Merkmal.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Illustrationen',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
         description:
-          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen — perfekt für den Klassenzimmer-Druck oder Schwarz-Weiß-Aktivitätsbücher auf Amazon KDP. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität über Print-on-Demand-Plattformen und Heimdrucker unterstützt. Die hohe Auflösung stellt sicher, dass sowohl Buchstabengitter als auch Bild-Hinweise gestochen scharf gedruckt werden.',
+          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen — perfekt für den Shop-Druck oder Schwarz-Weiß-Aktivitätsbücher auf Amazon KDP. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität über Print-on-Demand-Plattformen und Heimdrucker unterstützt. Die hohe Auflösung stellt sicher, dass sowohl Buchstabengitter als auch Bild-Hinweise gestochen scharf gedruckt werden.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Text-, Form- und Bildwerkzeugen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Rechtschreibübungen für Lehrermarktplatz',
+        title: 'Differenzierte Rechtschreibübungen für Gumroad',
         description:
-          'Erstellen Sie gestufte Wörter-Raten-Übungssets mit der Schwierigkeitsstufe als Differenzierungsachse: Stufe 1 (Leicht, 4 Rätsel pro Seite, einfache Wörter wie „Apfel“ und „Löwe“), Stufe 2 (Normal, 6 Rätsel, mittlere Wörter), Stufe 3 (Schwer, 8 Rätsel, längere Wörter) und Stufe 4 (Keine Hinweise, 10 Rätsel, zusammengesetzte Substantive und Mehrwort-Phrasen). Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf dem Lehrermarktplatz zahlen Premiumpreise für differenzierte Vokabel-Ressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Wörter-Raten-Übungssets mit der Schwierigkeitsstufe als Differenzierungsachse: Stufe 1 (Leicht, 4 Rätsel pro Seite, einfache Wörter wie „Apfel“ und „Löwe“), Stufe 2 (Normal, 6 Rätsel, mittlere Wörter), Stufe 3 (Schwer, 8 Rätsel, längere Wörter) und Stufe 4 (Keine Hinweise, 10 Rätsel, zusammengesetzte Substantive und Mehrwort-Phrasen). Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf Gumroad zahlen Premiumpreise für gestufte Vokabel-Ressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
+        platform: 'Gumroad',
       },
       {
         title: 'Mehrsprachige Vokabel-Produkte mit Vollzugriff',
         description:
           'Die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei, und da Wörter-Raten sprachabhängig ist, ändert sich das Zielwort je nach Sprache. „Hund“ auf Deutsch wird „dog“ auf Englisch, „chien“ auf Französisch, „perro“ auf Spanisch — jedes mit unterschiedlichen Buchstaben, unterschiedlichen Buchstabenanzahlen und unterschiedlichen Rätsellösungen. Deutsche Wörter sind dabei besonders reizvoll: „Schmetterling“ hat 13 Buchstaben gegenüber 9 für „butterfly“ auf Englisch. Erstellen Sie identische Themensets in mehreren Sprachen und listen Sie jede als separates Etsy-Produkt oder KDP-Buch — elf Einnahmequellen aus einem einzigen Workflow. Mehrsprachige Vokabel-Rätsel haben weniger Konkurrenz und ziehen internationale Käufer an.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (mehrsprachig)',
+        platform: 'Etsy / Amazon KDP / Gumroad (mehrsprachig)',
       },
       {
-        title: 'Rechtschreibtraining für Unterricht und Nachhilfe',
+        title: 'Rechtschreibtraining für Produkterstellung und Geschäft',
         description:
-          'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um Wörter-Raten-Arbeitsblätter für jede Vokabelliste zu erstellen — wöchentliche Rechtschreibwörter, naturwissenschaftliche Fachbegriffe, Erdkunde-Vokabular oder Fremdsprachenübungen. Geben Sie Ihre Wörter direkt ein, ohne passende Bilder zu benötigen. Passen Sie die Schwierigkeitsstufe an das Niveau jedes Schülers an: Leicht für Kämpfende, Keine Hinweise für Fortgeschrittene. Drucken Sie maßgeschneiderte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der automatische Lösungsschlüssel spart Korrekturzeit, und das Galgenmännchen-Format hält Schüler deutlich motivierter als herkömmliche „Schreibe-das-Wort-fünfmal“-Übungen. Besonders effektiv für die Übung von Umlauten (ä, ö, ü) und dem scharfen S (ß) in deutschen Vokabeln.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um Wörter-Raten-Arbeitsblätter für jede Vokabelliste zu erstellen — wöchentliche Rechtschreibwörter, naturwissenschaftliche Fachbegriffe, Erdkunde-Vokabular oder Fremdsprachenübungen. Geben Sie Ihre Wörter direkt ein, ohne passende Bilder zu benötigen. Passen Sie die Schwierigkeitsstufe an das Niveau jedes Nutzers an: Leicht für Kämpfende, Keine Hinweise für Fortgeschrittene. Drucken Sie maßgeschneiderte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert, und das Galgenmännchen-Format hält Nutzer deutlich motivierter als herkömmliche „Schreibe-das-Wort-fünfmal“-Übungen. Besonders effektiv für die Übung von Umlauten (ä, ö, ü) und dem scharfen S (ß) in deutschen Vokabeln.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert das Wörter-Raten-Rätsel?',
       answer:
-        'Jedes Rätsel zeigt einen Bild-Hinweis neben einer Reihe leerer Buchstabenfelder. Schüler studieren das Bild, um zu erkennen, was es darstellt, und füllen dann die fehlenden Buchstaben aus, um das Wort zu buchstabieren. Vorausgefüllte Hinweis-Buchstaben (gesteuert durch die Schwierigkeitsstufe) bieten Unterstützung. Es funktioniert wie Galgenmännchen, aber mit einem Bild-Hinweis anstelle einer Kategorie — und trainiert gleichzeitig visuellen Wortschatz, Rechtschreibung und logisches Denken. Deutsche Wörter mit Umlauten wie „Löwe“ erscheinen authentisch mit Ö im Buchstabengitter.',
+        'Jedes Rätsel zeigt einen Bild-Hinweis neben einer Reihe leerer Buchstabenfelder. Nutzer studieren das Bild, um zu erkennen, was es darstellt, und füllen dann die fehlenden Buchstaben aus, um das Wort zu buchstabieren. Vorausgefüllte Hinweis-Buchstaben (gesteuert durch die Schwierigkeitsstufe) bieten Unterstützung. Es funktioniert wie Galgenmännchen, aber mit einem Bild-Hinweis anstelle einer Kategorie — und trainiert gleichzeitig visuellen Wortschatz, Rechtschreibung und logisches Denken. Deutsche Wörter mit Umlauten wie „Löwe“ erscheinen authentisch mit Ö im Buchstabengitter.',
     },
     {
       question: 'Was sind die vier Schwierigkeitsstufen?',
@@ -158,27 +158,27 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert die Mehrwort-Phrasen-Unterstützung?',
       answer:
-        'Wörter oder Bildnamen, die Leerzeichen enthalten (wie „roter Apfel“ oder „weißer Hai“), werden als separate Wortgruppen im Rätselgitter dargestellt, mit klarem Abstand zwischen den Wörtern. Schüler lösen jedes Wort einzeln und verstehen dabei, dass sie ein zusammenhörendes Konzept bilden. Dies funktioniert mit allen drei Inhaltsquellen und allen vier Schwierigkeitsstufen. Deutsche zusammengesetzte Substantive wie „Schildkröte“ erscheinen dagegen als ein einziges langes Gitter, da sie im Deutschen ein Wort bilden.',
+        'Wörter oder Bildnamen, die Leerzeichen enthalten (wie „roter Apfel“ oder „weißer Hai“), werden als separate Wortgruppen im Rätselgitter dargestellt, mit klarem Abstand zwischen den Wörtern. Nutzer lösen jedes Wort einzeln und verstehen dabei, dass sie ein zusammenhörendes Konzept bilden. Dies funktioniert mit allen drei Inhaltsquellen und allen vier Schwierigkeitsstufen. Deutsche zusammengesetzte Substantive wie „Schildkröte“ erscheinen dagegen als ein einziges langes Gitter, da sie im Deutschen ein Wort bilden.',
     },
     {
       question: 'Kann ich zwischen Groß- und Kleinbuchstaben wählen?',
       answer:
-        'Ja. Der Buchstabengrößen-Schalter wechselt zwischen Großbuchstaben (Standard) und Kleinbuchstaben im Rategitter. Großbuchstaben eignen sich für jüngere Schüler, die Buchstabenerkennung üben, während Kleinbuchstaben für ältere Schüler ideal sind, die Standardrechtschreibung trainieren. Die Einstellung gilt sowohl für Hinweis-Buchstaben als auch für die Felder, die Schüler ausfüllen. Deutsche Umlaute (Ä/ä, Ö/ö, Ü/ü) und ß werden in beiden Varianten korrekt dargestellt.',
+        'Ja. Der Buchstabengrößen-Schalter wechselt zwischen Großbuchstaben (Standard) und Kleinbuchstaben im Rategitter. Großbuchstaben eignen sich für Einsteiger, die Buchstabenerkennung üben, während Kleinbuchstaben für Fortgeschrittene ideal sind, die Standardrechtschreibung trainieren. Die Einstellung gilt sowohl für Hinweis-Buchstaben als auch für die Felder, die Nutzer ausfüllen. Deutsche Umlaute (Ä/ä, Ö/ö, Ü/ü) und ß werden in beiden Varianten korrekt dargestellt.',
     },
     {
       question: 'Wie unterscheidet sich der manuelle Bearbeitungsmodus von der Bildbibliothek?',
       answer:
-        'Im Standard-Bildbibliothek-Modus ist das Ratewort der eingebaute Bildname. Der manuelle Bearbeitungsmodus fügt einen Anpassungsschritt hinzu: Nach der Bildauswahl können Sie jeden Anzeigenamen vor der Generierung bearbeiten. So können Sie Schreibweisen vereinfachen, alternatives Vokabular verwenden, sich auf bestimmte Phonik-Muster konzentrieren oder Wörter an Ihre Unterrichtsziele anpassen, während das Bild weiterhin als visueller Hinweis dient. Besonders nützlich für deutsche Arbeitsblätter, wenn Sie beispielsweise statt des zusammengesetzten Substantivs das vereinfachte Grundwort verwenden möchten.',
+        'Im Standard-Bildbibliothek-Modus ist das Ratewort der eingebaute Bildname. Der manuelle Bearbeitungsmodus fügt einen Anpassungsschritt hinzu: Nach der Bildauswahl können Sie jeden Anzeigenamen vor der Generierung bearbeiten. So können Sie Schreibweisen vereinfachen, alternatives Vokabular verwenden, sich auf bestimmte Phonik-Muster konzentrieren oder Wörter an Ihre Produkterstellungsziele anpassen, während das Bild weiterhin als visueller Hinweis dient. Besonders nützlich für deutsche Arbeitsblätter, wenn Sie beispielsweise statt des zusammengesetzten Substantivs das vereinfachte Grundwort verwenden möchten.',
     },
     {
       question: 'Was kann ich mit dem benutzerdefinierten Wortlisten-Modus machen?',
       answer:
-        'Der benutzerdefinierte Wortlisten-Modus lässt Sie beliebige Wörter oder Phrasen direkt eingeben — ohne Bilder. Dies ist ideal für wöchentliche Rechtschreiblisten, Fachvokabular (naturwissenschaftliche Begriffe, Erdkundenamen), Fremdsprachenübungen oder jeden benutzerdefinierten Inhalt. Die Rätsel zeigen leere Buchstabengitter ohne Bild-Hinweise, sodass Schüler auf den Kontext aus Arbeitsblatttiteln, Anweisungen oder Vorwissen zurückgreifen. Perfekt für die Übung schwieriger deutscher Rechtschreibungen mit Umlauten und Doppelkonsonanten.',
+        'Der benutzerdefinierte Wortlisten-Modus lässt Sie beliebige Wörter oder Phrasen direkt eingeben — ohne Bilder. Dies ist ideal für wöchentliche Rechtschreiblisten, Fachvokabular (naturwissenschaftliche Begriffe, Erdkundenamen), Fremdsprachenübungen oder jeden benutzerdefinierten Inhalt. Die Rätsel zeigen leere Buchstabengitter ohne Bild-Hinweise, sodass Nutzer auf den Kontext aus Arbeitsblatttiteln, Anweisungen oder Vorwissen zurückgreifen. Perfekt für die Übung schwieriger deutscher Rechtschreibungen mit Umlauten und Doppelkonsonanten.',
     },
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine gelöste Version Ihres Arbeitsblatts zu erstellen, in der jedes Buchstabenfeld ausgefüllt ist und keine Leerstellen bleiben. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau sehen und als separate JPEG- oder PDF-Datei herunterladen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen für den Klassenzimmer-Druck. Die Beigabe von Lösungsschlüsseln in Ihren Produktpaketen steigert den professionellen Wert.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine gelöste Version Ihres Arbeitsblatts zu erstellen, in der jedes Buchstabenfeld ausgefüllt ist und keine Leerstellen bleiben. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau sehen und als separate JPEG- oder PDF-Datei herunterladen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen für den Shop-Druck. Die Beigabe von Lösungsschlüsseln in Ihren Produktpaketen steigert den professionellen Wert.',
     },
     {
       question: 'Ist der Wörter-Raten-Generator sprachabhängig?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Wörter-Raten-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-Hinweis-Rätselformat und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Wörter-Raten-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-Hinweis-Rätselformat und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'heimunterricht-druckvorlagen-ideen',
-      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Verkäufer',
     },
     {
       pageType: 'guide',

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Code-Knacker-Mathe-Rätsel für Etsy',
       'Bilder-Additions-Rätsel für Amazon KDP',
-      'Wort-Entschlüsselungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Wort-Entschlüsselungs-Arbeitsblätter auf Gumroad verkaufen',
       'Code-Knacker-Arbeitsblätter kommerzielle Lizenz',
       'mehrsprachige Mathe-Rätsel-Druckvorlagen',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Bilder-Additions-Arbeitsblatt-Generator — Code-Knacker-Mathe-Rätsel',
     tagline: 'Verwandeln Sie Addition in eine Detektiv-Mission, bei der jedes Bild eine geheime Zahl verbirgt.',
     description:
-      'Erstellen Sie kryptarithmetische Additions-Arbeitsblätter, die Schüler herausfordern, einen visuellen Code zu knacken. Jedes Bild auf dem Arbeitsblatt repräsentiert eine versteckte Zahl — Schüler lösen Additionsgleichungen, um durch logisches Denken herauszufinden, welche Zahl zu welchem Bild gehört. Diese Kombination aus Rechenfertigkeit und logischem Schlussfolgern macht jedes Arbeitsblatt zu einer spannenden Knobelaufgabe. Wechseln Sie in den Wort-Entschlüsselungs-Modus und die Spannung steigt: Geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein, und jede richtig gelöste Gleichung enthüllt einen Buchstaben der Antwort, während drei Ablenkungs-Gleichungen mit falschen Summen die Schüler zum genauen Prüfen zwingen. Der Generator unterstützt elf sprachspezifische Alphabete, sodass die Wort-Entschlüsselung nativ auf Deutsch mit Ä, Ö, Ü und ß funktioniert — ebenso wie auf Französisch, Spanisch und sieben weiteren Sprachen. Kein anderer Arbeitsblatt-Generator bietet dieses Feature. Wählen Sie aus über 3.100 Bildern in 104 visuellen Themen, stellen Sie Zahlenbereiche von 1 bis 20 mit zwei bis fünf Code-Symbolen pro Blatt ein und exportieren Sie druckfertige PDFs oder JPEGs mit über 400 DPI inklusive automatischem Lösungsschlüssel, der die versteckte Zahl auf jedem Bild einblendet. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie kryptarithmetische Additions-Arbeitsblätter, die Nutzer herausfordern, einen visuellen Code zu knacken. Jedes Bild auf dem Arbeitsblatt repräsentiert eine versteckte Zahl — Nutzer lösen Additionsgleichungen, um durch logisches Denken herauszufinden, welche Zahl zu welchem Bild gehört. Diese Kombination aus Rechenfertigkeit und logischem Schlussfolgern macht jedes Arbeitsblatt zu einer spannenden Knobelaufgabe. Wechseln Sie in den Wort-Entschlüsselungs-Modus und die Spannung steigt: Geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein, und jede richtig gelöste Gleichung enthüllt einen Buchstaben der Antwort, während drei Ablenkungs-Gleichungen mit falschen Summen die Nutzer zum genauen Prüfen zwingen. Der Generator unterstützt elf sprachspezifische Alphabete, sodass die Wort-Entschlüsselung nativ auf Deutsch mit Ä, Ö, Ü und ß funktioniert — ebenso wie auf Französisch, Spanisch und sieben weiteren Sprachen. Kein anderer Arbeitsblatt-Generator bietet dieses Feature. Wählen Sie aus über 3.100 Bildern in 104 visuellen Themen, stellen Sie Zahlenbereiche von 1 bis 20 mit zwei bis fünf Code-Symbolen pro Blatt ein und exportieren Sie druckfertige PDFs oder JPEGs mit über 400 DPI inklusive automatischem Lösungsschlüssel, der die versteckte Zahl auf jedem Bild einblendet. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Bilder aus der Themenbibliothek auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Dinosauriern über Weltraum bis hin zu Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Die ausgewählten Bilder werden zu den Code-Symbolen auf Ihrem Arbeitsblatt: Jedes Bild steht für eine versteckte Zahl, die Schüler durch logisches Denken entschlüsseln müssen. Sie können auch eigene PNG- oder JPEG-Dateien hochladen für markenspezifische oder saisonale Rätsel, die sich in überfüllten Marktplätzen abheben.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Dinosauriern über Weltraum bis hin zu Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Die ausgewählten Bilder werden zu den Code-Symbolen auf Ihrem Arbeitsblatt: Jedes Bild steht für eine versteckte Zahl, die Nutzer durch logisches Denken entschlüsseln müssen. Sie können auch eigene PNG- oder JPEG-Dateien hochladen für markenspezifische oder saisonale Rätsel, die sich in überfüllten Marktplätzen abheben.',
       },
       {
         title: 'Text, Titel und Optionen anpassen',
         description:
-          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Schülername und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben kindgerechten Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand. Schalten Sie Aufgabennummern ein oder aus, blenden Sie Kopfzeile und Rahmen nach Bedarf ein oder aus und aktivieren Sie den Graustufen-Modus für tintenfreundlichen Druck. Jede Änderung aktualisiert die Live-Vorschau auf der Arbeitsfläche sofort, sodass Sie das Layout vor dem Export präzise abstimmen können.',
+          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Name und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben ansprechenden Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand. Schalten Sie Aufgabennummern ein oder aus, blenden Sie Kopfzeile und Rahmen nach Bedarf ein oder aus und aktivieren Sie den Graustufen-Modus für tintenfreundlichen Druck. Jede Änderung aktualisiert die Live-Vorschau auf der Arbeitsfläche sofort, sodass Sie das Layout vor dem Export präzise abstimmen können.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Code-Knacker-Mechanik — Bilder als versteckte Zahlen',
         description:
-          'Das Herzstück dieses Generators ist seine kryptarithmetische Engine. Jedes Bild auf dem Arbeitsblatt steht heimlich für eine bestimmte Zahl. Schüler sehen Additionsgleichungen, bei denen Summanden und Summen als Bilder statt als Ziffern dargestellt werden, und müssen durch logisches Schlussfolgern herausfinden, welche Zahl jedes Bild repräsentiert. Das verwandelt routinemäßiges Additionstraining in ein Detektiv-Rätsel, das neben grundlegender Rechenfertigkeit auch höherwertige Denkfähigkeiten anspricht. Da die Rätsel gleichzeitiges Schlussfolgern über mehrere Gleichungen erfordern, bauen Schüler Problemlösungsfähigkeiten auf, die weit über einfaches Auswendiglernen hinausgehen.',
+          'Das Herzstück dieses Generators ist seine kryptarithmetische Engine. Jedes Bild auf dem Arbeitsblatt steht heimlich für eine bestimmte Zahl. Nutzer sehen Additionsgleichungen, bei denen Summanden und Summen als Bilder statt als Ziffern dargestellt werden, und müssen durch logisches Schlussfolgern herausfinden, welche Zahl jedes Bild repräsentiert. Das verwandelt routinemäßiges Additionstraining in ein Detektiv-Rätsel, das neben grundlegender Rechenfertigkeit auch höherwertige Denkfähigkeiten anspricht. Da die Rätsel gleichzeitiges Schlussfolgern über mehrere Gleichungen erfordern, bauen Nutzer Problemlösungsfähigkeiten auf, die weit über einfaches Auswendiglernen hinausgehen.',
       },
       {
         title: 'Wort-Entschlüsselungs-Modus mit Geheimwörtern',
         description:
-          'Aktivieren Sie den Wort-Entschlüsselungs-Modus und geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein. Der Generator erstellt pro Buchstabe eine Additionsgleichung — die Summe jeder Gleichung zeigt auf einen bestimmten Buchstaben in der Entschlüsselungstabelle. Schüler lösen die Gleichungen, ordnen die Summen den Buchstaben zu und buchstabieren das versteckte Wort. Drei Ablenkungs-Gleichungen mit falschen Summen werden automatisch hinzugefügt und zwingen Schüler, jede Antwort zu überprüfen, da nicht jede gelöste Gleichung zu einem Buchstaben des Lösungsworts führt. Wenn der Zahlenbereich nicht genügend eindeutige Summen für alle Buchstaben erzeugen kann, passt die App intelligent an, indem sie den Bereich erweitert oder die Anzahl der Summanden von zwei auf bis zu vier erhöht.',
+          'Aktivieren Sie den Wort-Entschlüsselungs-Modus und geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein. Der Generator erstellt pro Buchstabe eine Additionsgleichung — die Summe jeder Gleichung zeigt auf einen bestimmten Buchstaben in der Entschlüsselungstabelle. Nutzer lösen die Gleichungen, ordnen die Summen den Buchstaben zu und buchstabieren das versteckte Wort. Drei Ablenkungs-Gleichungen mit falschen Summen werden automatisch hinzugefügt und zwingen Nutzer, jede Antwort zu überprüfen, da nicht jede gelöste Gleichung zu einem Buchstaben des Lösungsworts führt. Wenn der Zahlenbereich nicht genügend eindeutige Summen für alle Buchstaben erzeugen kann, passt die App intelligent an, indem sie den Bereich erweitert oder die Anzahl der Summanden von zwei auf bis zu vier erhöht.',
       },
       {
         title: 'Sprachsensitive Alphabete für 11 Sprachen',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: 'Einstellbare Zahlenbereiche und Symbolanzahl',
         description:
-          'Legen Sie minimale und maximale Summandenwerte von 1 bis 20 fest, um die Aufgabenschwierigkeit zu steuern. Wählen Sie zwischen zwei und fünf einzigartigen Bildsymbolen pro Arbeitsblatt, um die Komplexität der Entschlüsselungsaufgabe anzupassen — zwei Symbole ergeben ein zugängliches Rätsel für jüngere Schüler, während fünf Symbole sorgfältiges Verfolgen über viele Gleichungen erfordern. Die Kombination aus Zahlenbereich und Symbolanzahl gibt Ihnen präzise Kontrolle über den Schwierigkeitsgrad, sodass Sie in Minuten progressive Arbeitsblatt-Sets von leicht bis Experte erstellen können.',
+          'Legen Sie minimale und maximale Summandenwerte von 1 bis 20 fest, um die Aufgabenschwierigkeit zu steuern. Wählen Sie zwischen zwei und fünf einzigartigen Bildsymbolen pro Arbeitsblatt, um die Komplexität der Entschlüsselungsaufgabe anzupassen — zwei Symbole ergeben ein zugängliches Rätsel für Einsteiger, während fünf Symbole sorgfältiges Verfolgen über viele Gleichungen erfordern. Die Kombination aus Zahlenbereich und Symbolanzahl gibt Ihnen präzise Kontrolle über den Schwierigkeitsgrad, sodass Sie in Minuten progressive Arbeitsblatt-Sets von leicht bis Experte erstellen können.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Bildern',
         description:
-          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, kindgerechten Druck gestaltet. Bei der Code-Addition dienen die Bilder als Code-Symbole selbst — Schüler sehen eine Katze, eine Rakete und einen Cupcake und müssen herausfinden, dass die Katze für 3, die Rakete für 7 und der Cupcake für 5 steht. Thematische Rätsel sind für Kinder unwiderstehlich und als druckbare Produkte bestens verkaufbar.',
+          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, ansprechenden Druck gestaltet. Bei der Code-Addition dienen die Bilder als Code-Symbole selbst — Nutzer sehen eine Katze, eine Rakete und einen Cupcake und müssen herausfinden, dass die Katze für 3, die Rakete für 7 und der Cupcake für 5 steht. Thematische Rätsel sind für Kinder unwiderstehlich und als druckbare Produkte bestens verkaufbar.',
       },
       {
         title: 'Automatischer Lösungsschlüssel mit Zahlen-Overlay',
         description:
-          'Erstellen Sie mit einem Klick einen vollständigen Lösungsschlüssel. Der Lösungsschlüssel spiegelt Ihr Arbeitsblatt-Layout wider und blendet die versteckte Zahl direkt auf jedem Bildsymbol ein, sodass die Lösung sofort ersichtlich ist. Im Wort-Entschlüsselungs-Modus zeigt der Lösungsschlüssel zusätzlich das entschlüsselte Wort an und kennzeichnet, welche Gleichungen Ablenkungen waren. Exportieren Sie den Lösungsschlüssel als separate Datei für die einfache Integration in Lehrerausgaben, Elternleitfäden oder kommerzielle Produktpakete.',
+          'Erstellen Sie mit einem Klick einen vollständigen Lösungsschlüssel. Der Lösungsschlüssel spiegelt Ihr Arbeitsblatt-Layout wider und blendet die versteckte Zahl direkt auf jedem Bildsymbol ein, sodass die Lösung sofort ersichtlich ist. Im Wort-Entschlüsselungs-Modus zeigt der Lösungsschlüssel zusätzlich das entschlüsselte Wort an und kennzeichnet, welche Gleichungen Ablenkungen waren. Exportieren Sie den Lösungsschlüssel als separate Datei für die einfache Integration in Etsy-Pakete, Elternleitfäden oder kommerzielle Produktpakete.',
       },
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
@@ -119,10 +119,10 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Mathe-Stationen für Lehrermarktplatz',
+        title: 'Gestufte Schwierigkeitspakete für Gumroad',
         description:
-          'Erstellen Sie gestufte Code-Additions-Sets für Lehrermarktplatz: Stufe 1 mit zwei Symbolen und Summen unter 10, Stufe 2 mit drei Symbolen und Summen unter 15, Stufe 3 mit vier oder fünf Symbolen und Summen bis 20, sowie eine Bonus-Stufe mit Wort-Entschlüsselung, bei der Schüler Vokabelwörter dekodieren. Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Die Code-Knacker-Mechanik differenziert natürlich — mehr Symbole und höhere Zahlenbereiche steigern die Schwierigkeit, ohne das Aktivitätsformat zu ändern. Käufer auf Lehrermarktplatz zahlen Premiumpreise für solche sofort einsetzbaren, gestuften Materialien.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Code-Additions-Sets für Gumroad: Stufe 1 mit zwei Symbolen und Summen unter 10, Stufe 2 mit drei Symbolen und Summen unter 15, Stufe 3 mit vier oder fünf Symbolen und Summen bis 20, sowie eine Bonus-Stufe mit Wort-Entschlüsselung, bei der Nutzer Vokabelwörter dekodieren. Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Die Code-Knacker-Mechanik gestuft natürlich — mehr Symbole und höhere Zahlenbereiche steigern die Schwierigkeit, ohne das Aktivitätsformat zu ändern. Käufer auf Gumroad zahlen Premiumpreise für solche sofort einsetzbaren, gestuften Materialien.',
+        platform: 'Gumroad',
       },
       {
         title: 'Mehrsprachige Mathe-Rätsel-Pakete für den eigenen Shop',
@@ -131,10 +131,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Spielerische Mathe-Übungen im Unterricht',
+        title: 'Spielerische Mathe-Übungen in der Produkterstellung',
         description:
-          'Setzen Sie Code-Additions-Arbeitsblätter ein, um den täglichen Mathe-Unterricht spielerisch zu gestalten. Verteilen Sie ein Reguläres-Modus-Rätsel als Aufwärm-Herausforderung, bei der der erste Schüler, der den Code knackt, eine Belohnung erhält. Nutzen Sie den Wort-Entschlüsselungs-Modus, um ein Vokabelwort, eine interessante Tatsache oder eine motivierende Botschaft zu verschlüsseln, die Schüler durch das Lösen aller Gleichungen aufdecken. Das Rätselformat verwandelt ein Routine-Übungsblatt in eine spannende Knobelaufgabe. Automatische Lösungsschlüssel sparen Korrekturzeit, und die einstellbare Schwierigkeit bedeutet, dass ein einziger Generator vom Kindergarten bis zur dritten Klasse eingesetzt werden kann.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Setzen Sie Code-Additions-Arbeitsblätter ein, um den täglichen Mathe-Produkterstellung spielerisch zu gestalten. Verteilen Sie ein Reguläres-Modus-Rätsel als Aufwärm-Herausforderung, bei der der erste Nutzer, der den Code knackt, eine Belohnung erhält. Nutzen Sie den Wort-Entschlüsselungs-Modus, um ein Vokabelwort, eine interessante Tatsache oder eine motivierende Botschaft zu verschlüsseln, die Nutzer durch das Lösen aller Gleichungen aufdecken. Das Rätselformat verwandelt ein Routine-Übungsblatt in eine spannende Knobelaufgabe. Automatische Lösungsschlüssel sparen wahrgenommenen Mehrwert, und die einstellbare Schwierigkeit bedeutet, dass ein einziger Generator vom Kindergarten bis zur dritten Klasse eingesetzt werden kann.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert die Code-Knacker-Mechanik?',
       answer:
-        'Jedes Bild auf dem Arbeitsblatt steht heimlich für eine bestimmte Zahl. Das Arbeitsblatt zeigt Additionsgleichungen, bei denen Summanden und Summen als Bilder statt als Ziffern dargestellt werden. Schüler lösen die Gleichungen durch Logik und Deduktion: Wenn eine Katze plus ein Hund sieben ergibt und eine Katze plus eine Katze sechs ergibt, muss die Katze drei und der Hund vier sein. Das Rätsel erfordert gleichzeitiges Schlussfolgern über mehrere Gleichungen und baut sowohl Rechenfertigkeit als auch kritisches Denken auf.',
+        'Jedes Bild auf dem Arbeitsblatt steht heimlich für eine bestimmte Zahl. Das Arbeitsblatt zeigt Additionsgleichungen, bei denen Summanden und Summen als Bilder statt als Ziffern dargestellt werden. Nutzer lösen die Gleichungen durch Logik und Deduktion: Wenn eine Katze plus ein Hund sieben ergibt und eine Katze plus eine Katze sechs ergibt, muss die Katze drei und der Hund vier sein. Das Rätsel erfordert gleichzeitiges Schlussfolgern über mehrere Gleichungen und baut sowohl Rechenfertigkeit als auch kritisches Denken auf.',
     },
     {
       question: 'Was ist der Wort-Entschlüsselungs-Modus?',
       answer:
-        'Im Wort-Entschlüsselungs-Modus geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein. Der Generator erstellt pro Buchstabe eine Gleichung — die Summe jeder Gleichung zeigt auf einen bestimmten Buchstaben in der Entschlüsselungstabelle. Schüler lösen die Gleichungen, ordnen die Summen den Buchstaben zu und buchstabieren das versteckte Wort. Drei Ablenkungs-Gleichungen mit falschen Summen werden automatisch hinzugefügt, sodass Schüler jede Antwort überprüfen müssen. Der Modus kombiniert Additionstraining mit Rechtschreibung und Wortschatz in einer einzigen fesselnden Aktivität.',
+        'Im Wort-Entschlüsselungs-Modus geben Sie ein Geheimwort mit bis zu zehn Buchstaben ein. Der Generator erstellt pro Buchstabe eine Gleichung — die Summe jeder Gleichung zeigt auf einen bestimmten Buchstaben in der Entschlüsselungstabelle. Nutzer lösen die Gleichungen, ordnen die Summen den Buchstaben zu und buchstabieren das versteckte Wort. Drei Ablenkungs-Gleichungen mit falschen Summen werden automatisch hinzugefügt, sodass Nutzer jede Antwort überprüfen müssen. Der Modus kombiniert Additionstraining mit Rechtschreibung und Wortschatz in einer einzigen fesselnden Aktivität.',
     },
     {
       question: 'Wie werden die Bildsymbole den Zahlen zugeordnet?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Wie viele Symbole kann ich pro Arbeitsblatt verwenden?',
       answer:
-        'Sie können zwischen zwei und fünf einzigartige Bildsymbole pro Arbeitsblatt wählen. Weniger Symbole ergeben einfachere Rätsel, die jüngere Schüler lösen können; mehr Symbole erzeugen komplexe Herausforderungen, die das Verfolgen mehrerer Unbekannter über viele Gleichungen erfordern. Die Anpassung der Symbolanzahl ist der einfachste Weg, die Schwierigkeit zu skalieren, ohne den Zahlenbereich zu ändern.',
+        'Sie können zwischen zwei und fünf einzigartige Bildsymbole pro Arbeitsblatt wählen. Weniger Symbole ergeben einfachere Rätsel, die Einsteiger lösen können; mehr Symbole erzeugen komplexe Herausforderungen, die das Verfolgen mehrerer Unbekannter über viele Gleichungen erfordern. Die Anpassung der Symbolanzahl ist der einfachste Weg, die Schwierigkeit zu skalieren, ohne den Zahlenbereich zu ändern.',
     },
     {
       question: 'Ist der Bilder-Additions-Generator sprachsensitiv?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'Was sind Ablenkungs-Buchstaben im Wort-Entschlüsselungs-Modus?',
       answer:
-        'Ablenkungs-Buchstaben sind drei zusätzliche Gleichungen, deren Summen keinem Buchstaben des Geheimworts entsprechen. Sie erscheinen auf dem Arbeitsblatt neben den echten Gleichungen, und ihre Summen verweisen auf Buchstaben, die nicht Teil der Antwort sind. Das verhindert, dass Schüler einfach eine beliebige Gleichung lösen und annehmen, sie enthüllt einen Buchstaben — sie müssen alle Gleichungen lösen und die Entschlüsselungstabelle abgleichen, um herauszufinden, welche Summen Ablenkungen sind und welche das Wort buchstabieren.',
+        'Ablenkungs-Buchstaben sind drei zusätzliche Gleichungen, deren Summen keinem Buchstaben des Geheimworts entsprechen. Sie erscheinen auf dem Arbeitsblatt neben den echten Gleichungen, und ihre Summen verweisen auf Buchstaben, die nicht Teil der Antwort sind. Das verhindert, dass Nutzer einfach eine beliebige Gleichung lösen und annehmen, sie enthüllt einen Buchstaben — sie müssen alle Gleichungen lösen und die Entschlüsselungstabelle abgleichen, um herauszufinden, welche Summen Ablenkungen sind und welche das Wort buchstabieren.',
     },
     {
       question: 'Wie zeigt der Lösungsschlüssel die Lösungen an?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Code-Knacker-Additions-Rätsel als digitale Downloads auf Etsy, als gedruckte Rätselbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Code-Knacker-Format ist ein bewährter Seller, weil es sich in den Marktplatz-Suchergebnissen deutlich von Standard-Additionsübungsblättern abhebt.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Code-Knacker-Additions-Rätsel als digitale Downloads auf Etsy, als gedruckte Rätselbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Das Code-Knacker-Format ist ein bewährter Seller, weil es sich in den Marktplatz-Suchergebnissen deutlich von Standard-Additionsübungsblättern abhebt.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -246,7 +246,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mathe-grundlagen-druckvorlagen-ideen',
-      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Verkäufer & Verkäufer',
     },
     {
       pageType: 'idea',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/german/code addition/Code-Knacker Addition 1.webp',
         alt: 'Code-Knacker-Additions-Arbeitsblatt im Regulären Modus mit Tierthema-Bildern als Code-Symbole',
-        caption: 'Regulärer Modus — Schüler knacken den Code, indem sie herausfinden, welche Zahl jedes Bild repräsentiert',
+        caption: 'Regulärer Modus — Nutzer knacken den Code, indem sie herausfinden, welche Zahl jedes Bild repräsentiert',
       },
       {
         src: '/samples/german/code addition/Code-Knacker Addition 2.webp',

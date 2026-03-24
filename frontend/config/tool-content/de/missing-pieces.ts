@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Alle vier Dateien herunterladen',
-        description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für Klassenzimmer-Druck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle gerendert mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Jeder Tab hat sein eigenes Paar Download-Buttons. Die Dateien sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren mit demselben Bild, um ein neues Rätsel mit anderen Teilplatzierungen zu erzeugen, oder wechseln Sie Bilder und Formen für schnelle Abwechslung über 104 thematische Sammlungen.',
+        description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für Shop-Druck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle gerendert mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Jeder Tab hat sein eigenes Paar Download-Buttons. Die Dateien sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren mit demselben Bild, um ein neues Rätsel mit anderen Teilplatzierungen zu erzeugen, oder wechseln Sie Bilder und Formen für schnelle Abwechslung über 104 thematische Sammlungen.',
       },
     ],
   },
@@ -72,8 +72,8 @@ const content: ToolContent = {
       description: 'Stellen Sie 50–100 Jigsaw-Puzzle-Arbeitsblätter zu gedruckten Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Schwierigkeit: Kapitel 1 verwendet 1 fehlendes Teil mit 2 Optionen für einfache Identifikation, Kapitel 2 verwendet 3 fehlende Teile mit 4 Optionen für räumliches Denken auf mittlerem Niveau, und Kapitel 3 verwendet 5 fehlende Teile mit 6 Optionen inklusive Distraktoren für fortgeschrittene visuelle Unterscheidung. Fügen Sie Lösungsschlüssel-Seiten am Ende ein, die gelb hervorgehobene Nummernbeschriftungen in jedem Loch zeigen. Aktivieren Sie Graustufen für tintenschonende Ausgabe, die perfekt in Schwarzweiß gedruckt wird. Das rein visuelle Format benötigt keine Übersetzung, sodass ein einziger Buchinhalt jeden internationalen KDP-Marktplatz bedient.',
     },
     {
-      title: 'Visuelle Unterscheidungs-Aktivitäten für den Unterricht mit Lösungsschlüsseln',
-      description: 'Erstellen Sie unterrichtsfertige Jigsaw-Puzzle-Arbeitsblätter für Morgenarbeit, Frühfertige und Enrichment-Stationen mit gedruckten Lösungsschlüsseln für selbstständige Kontrollstationen. Erstellen Sie lehrplanbezogene Sets: Tier-Rätsel für Sachkunde, Fahrzeug-Rätsel für Verkehrsthemen, Lebensmittel-Rätsel für Ernährungslektionen. Das Zwei-Achsen-Schwierigkeitssystem ermöglicht differenzierte Versionen desselben Rätsels — 1 fehlendes Teil mit 2 Optionen für Lernanfänger, 5 fehlende Teile mit 6 Optionen für fortgeschrittene Schüler. Jedes Arbeitsblatt wird mit seinem automatisch generierten Lösungsschlüssel exportiert, was die Vorbereitungszeit der Lehrkraft eliminiert und selbstständige Übungsstationen ermöglicht.',
+      title: 'Visuelle Unterscheidungs-Aktivitäten für die Produkterstellung mit Lösungsschlüsseln',
+      description: 'Erstellen Sie unterrichtsfertige Jigsaw-Puzzle-Arbeitsblätter für Morgenarbeit, Frühfertige und Enrichment-Stationen mit gedruckten Lösungsschlüsseln für selbstständige Kontrollstationen. Erstellen Sie lehrplanbezogene Sets: Tier-Rätsel für Sachkunde, Fahrzeug-Rätsel für Verkehrsthemen, Lebensmittel-Rätsel für Ernährungslektionen. Das Zwei-Achsen-Schwierigkeitssystem ermöglicht gestufte Versionen desselben Rätsels — 1 fehlendes Teil mit 2 Optionen für Lernanfänger, 5 fehlende Teile mit 6 Optionen für fortgeschrittene Nutzer. Jedes Arbeitsblatt wird mit seinem automatisch generierten Lösungsschlüssel exportiert, was die Vorbereitungszeit der Lehrkraft eliminiert und selbstständige Übungsstationen ermöglicht.',
     },
     {
       title: 'Individuelle Foto-Jigsaw-Puzzle-Produkte',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multiformat-Pakete für visuelle Wahrnehmung',
-      description: 'Kombinieren Sie Jigsaw-Puzzle-Arbeitsblätter mit Schattenbilder-Zuordnungs-Aktivitäten, Raster-Puzzle-Aufgaben, Was-Passt-Nicht-Arbeitsblättern und Bilder-Sortieren-Blättern mit koordinierten Themen über mehrere Generatoren hinweg. Fehlende-Puzzleteile-Rätsel fördern visuelle Unterscheidung und Teil-zu-Ganzem-Denken. Schattenbilder-Zuordnung entwickelt Silhouetten-Erkennung. Raster-Puzzle fordert räumliche Platzierung heraus. Jedes Format zielt auf eine andere kognitive Fähigkeit ab und bewahrt dabei die thematische Konsistenz. Multiformat-Pakete erzielen Premiumpreise und bieten Schülern vielfältige Übungen zur visuellen Wahrnehmung innerhalb eines einheitlichen Themas — Eltern und Lehrkräfte zahlen mehr für umfassende Fähigkeitssammlungen.',
+      description: 'Kombinieren Sie Jigsaw-Puzzle-Arbeitsblätter mit Schattenbilder-Zuordnungs-Aktivitäten, Raster-Puzzle-Aufgaben, Was-Passt-Nicht-Arbeitsblättern und Bilder-Sortieren-Blättern mit koordinierten Themen über mehrere Generatoren hinweg. Fehlende-Puzzleteile-Rätsel fördern visuelle Unterscheidung und Teil-zu-Ganzem-Denken. Schattenbilder-Zuordnung entwickelt Silhouetten-Erkennung. Raster-Puzzle fordert räumliche Platzierung heraus. Jedes Format zielt auf eine andere kognitive Fähigkeit ab und bewahrt dabei die thematische Konsistenz. Multiformat-Pakete erzielen Premiumpreise und bieten Nutzern vielfältige Übungen zur visuellen Wahrnehmung innerhalb eines einheitlichen Themas — Eltern und Verkäufer zahlen mehr für umfassende Fähigkeitssammlungen.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Jigsaw-Puzzle-Aktivitätspakete',
-      description: 'Laden Sie Jigsaw-Puzzle-Aktivitätspakete auf den Lehrermarktplatz hoch mit automatisch generierten Lösungsschlüsseln und konfigurierbarem Schwierigkeitsgrad als zentrale Verkaufsargumente. Lehrkräfte, die nach Aktivitäten für visuelle Unterscheidung und kritisches Denken suchen, schätzen Arbeitsblätter, die sofort unterrichtsfertig mit differenzierten Schwierigkeitsoptionen ankommen. Erstellen Sie lehrplanbezogene Sets: Tier-Habitat-Rätsel für Sachkunde, Berufe-Rätsel für Sozialkunde, Lebensmittel-Rätsel für Ernährungslektionen. Jedes Paket umfasst Schüler-Arbeitsblätter auf mehreren Schwierigkeitsstufen (1–5 fehlende Teile, 2–6 Optionen) plus Lösungsschlüssel für selbstständige Kontrollstationen. Die sechs Teilformen bieten Lehrkräften Vielfalt innerhalb eines einzelnen Aktivitätstyps.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Jigsaw-Puzzle-Aktivitätspakete',
+      description: 'Laden Sie Jigsaw-Puzzle-Aktivitätspakete auf den Gumroad hoch mit automatisch generierten Lösungsschlüsseln und konfigurierbarem Schwierigkeitsgrad als zentrale Verkaufsargumente. Verkäufer, die nach Aktivitäten für visuelle Unterscheidung und kritisches Denken suchen, schätzen Arbeitsblätter, die sofort unterrichtsfertig mit gestuften Schwierigkeitsoptionen ankommen. Erstellen Sie lehrplanbezogene Sets: Tier-Habitat-Rätsel für Sachkunde, Berufe-Rätsel für Sozialkunde, Lebensmittel-Rätsel für Ernährungslektionen. Jedes Paket umfasst Nutzer-Arbeitsblätter auf mehreren Schwierigkeitsstufen (1–5 fehlende Teile, 2–6 Optionen) plus Lösungsschlüssel für selbstständige Kontrollstationen. Die sechs Teilformen bieten Verkäufern Vielfalt innerhalb eines einzelnen Aktivitätstyps.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest-Jigsaw-Puzzle-Traffic-Funnel',
-      description: 'Jigsaw-Puzzle-Arbeitsblätter erzeugen visuell auffällige Pinterest-Pins — das Bild mit ausgeschnittenen Löchern und nummerierten Lösungsoptionen darunter schafft ein sofort auffälliges Format, das Eltern und Lehrkräfte als pädagogisch erkennen. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Teilformen: Quadrat-Schnitte mit Tierthemen, Kreis-Schnitte mit Feiertagsthemen, Ellipse-Schnitte für Abwechslung. Erstellen Sie separate Pin-Serien für „Jigsaw-Puzzle-Arbeitsblätter für Kinder“, „Puzzleteil-Rätsel für Vorschule“ und „Visuelle Unterscheidungs-Aktivitäten“. Das rein visuelle Format spricht Eltern und Lehrkräfte in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Lehrermarktplatz-Produktlistings.',
+      description: 'Jigsaw-Puzzle-Arbeitsblätter erzeugen visuell auffällige Pinterest-Pins — das Bild mit ausgeschnittenen Löchern und nummerierten Lösungsoptionen darunter schafft ein sofort auffälliges Format, das Eltern und Verkäufer als pädagogisch erkennen. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Teilformen: Quadrat-Schnitte mit Tierthemen, Kreis-Schnitte mit Feiertagsthemen, Ellipse-Schnitte für Abwechslung. Erstellen Sie separate Pin-Serien für „Jigsaw-Puzzle-Arbeitsblätter für Kinder“, „Puzzleteil-Rätsel für Vorschule“ und „Visuelle Unterscheidungs-Aktivitäten“. Das rein visuelle Format spricht Eltern und Verkäufer in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produktlistings.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Puzzle-Produktlinie',
-      description: 'Der Fehlende-Puzzleteile-Ersteller erzeugt rein visuelle Rätsel — Bilder mit Löchern, nummerierte Lösungsoptionen und gelb hervorgehobene Lösungsbeschriftungen sind universell ohne sprachspezifischen Text auf dem Arbeitsblatt-Output. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf dem Lehrermarktplatz für internationale Lehrkräfte. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung.',
+      description: 'Der Fehlende-Puzzleteile-Ersteller erzeugt rein visuelle Rätsel — Bilder mit Löchern, nummerierte Lösungsoptionen und gelb hervorgehobene Lösungsbeschriftungen sind universell ohne sprachspezifischen Text auf dem Arbeitsblatt-Output. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine einzige Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops, die verschiedene Länder ansprechen, veröffentlichen Sie dieselben KDP-Buchinhalte auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Wartung.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Das Zwei-Achsen-Schwierigkeitssystem für progressive Arbeitsbücher nutzen',
-      description: 'Die unabhängigen Regler für fehlende Teile (1–5) und Lösungsoptionen (2–6) erzeugen eine Schwierigkeitsmatrix. Ordnen Sie diese Matrix Ihren Arbeitsbuch-Kapiteln zu: Beginnen Sie mit 1 Teil, 2 Optionen für einfache Identifikation, fahren Sie fort mit 3 Teilen, 4 Optionen für räumliches Denken auf mittlerem Niveau und schließen Sie mit 5 Teilen, 6 Optionen für fortgeschrittene visuelle Unterscheidung mit Ablenkungsteilen ab. Diese progressive Struktur ist das, was KDP-Prüfer und Lehrermarktplatz-Käufer von pädagogischen Arbeitsbüchern erwarten. Kennzeichnen Sie jeden Abschnitt mit seinem Schwierigkeitsgrad, damit Käufer sofort den Wert progressiver Inhalte erkennen.',
+      description: 'Die unabhängigen Regler für fehlende Teile (1–5) und Lösungsoptionen (2–6) erzeugen eine Schwierigkeitsmatrix. Ordnen Sie diese Matrix Ihren Arbeitsbuch-Kapiteln zu: Beginnen Sie mit 1 Teil, 2 Optionen für einfache Identifikation, fahren Sie fort mit 3 Teilen, 4 Optionen für räumliches Denken auf mittlerem Niveau und schließen Sie mit 5 Teilen, 6 Optionen für fortgeschrittene visuelle Unterscheidung mit Ablenkungsteilen ab. Diese progressive Struktur ist das, was KDP-Prüfer und Gumroad-Käufer von pädagogischen Arbeitsbüchern erwarten. Kennzeichnen Sie jeden Abschnitt mit seinem Schwierigkeitsgrad, damit Käufer sofort den Wert progressiver Inhalte erkennen.',
     },
     {
       title: 'Das rein visuelle Format für globale Verkäufe nutzen',
-      description: 'Puzzleteil-Rätsel enthalten nur Bilder, Löcher und nummerierte Lösungsoptionen — keinen sprachspezifischen Text auf dem Arbeitsblatt-Output. Jedes von Ihnen erstellte Rätsel ist sofort weltweit ohne Übersetzung oder Lokalisierung verkaufbar. Ein Set Jigsaw-Puzzle-Arbeitsblätter bedient jeden internationalen Etsy-Shop, jeden KDP-Marktplatz und jeden Lehrermarktplatz-Käufer unabhängig von der Sprache. Während Konkurrenten separate Sprachversionen textlastiger Arbeitsblätter erstellen, funktionieren Ihre visuellen Rätsel überall mit einem einzigen Dateiset.',
+      description: 'Puzzleteil-Rätsel enthalten nur Bilder, Löcher und nummerierte Lösungsoptionen — keinen sprachspezifischen Text auf dem Arbeitsblatt-Output. Jedes von Ihnen erstellte Rätsel ist sofort weltweit ohne Übersetzung oder Lokalisierung verkaufbar. Ein Set Jigsaw-Puzzle-Arbeitsblätter bedient jeden internationalen Etsy-Shop, jeden KDP-Marktplatz und jeden Gumroad-Käufer unabhängig von der Sprache. Während Konkurrenten separate Sprachversionen textlastiger Arbeitsblätter erstellen, funktionieren Ihre visuellen Rätsel überall mit einem einzigen Dateiset.',
     },
     {
       title: 'Das Doppelrahmen-System für professionelle Produktpräsentation nutzen',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Lösungsschlüssel in jedes Listing einschließen, um Konkurrenten zu übertreffen',
-      description: 'Der automatisch generierte Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedem Loch macht Ihre Jigsaw-Puzzle-Arbeitsblätter zu einem vollständigen, selbstprüfenden Produkt. Schließen Sie Lösungsschlüssel immer in Ihre Produktpakete ein und präsentieren Sie sie in Listing-Vorschaubildern. Produkte mit Lösungsschlüsseln verkaufen sich durchweg besser als reine Puzzle-Listings, weil Lehrkräfte und Eltern selbstprüfende Materialien wünschen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass die Einbeziehung des Lösungsschlüssels Sie keine zusätzliche Produktionszeit kostet.',
+      description: 'Der automatisch generierte Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedem Loch macht Ihre Jigsaw-Puzzle-Arbeitsblätter zu einem vollständigen, selbstprüfenden Produkt. Schließen Sie Lösungsschlüssel immer in Ihre Produktpakete ein und präsentieren Sie sie in Listing-Vorschaubildern. Produkte mit Lösungsschlüsseln verkaufen sich durchweg besser als reine Puzzle-Listings, weil Verkäufer und Shop-Betreiber selbstprüfende Materialien wünschen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass die Einbeziehung des Lösungsschlüssels Sie keine zusätzliche Produktionszeit kostet.',
     },
   ],
 
@@ -192,11 +192,11 @@ const content: ToolContent = {
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
-      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und benutzerdefinierte Dimensionen. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Aktivieren Sie Graustufen für tintenschonende Ausgabe. Jede Generierung erzeugt vier Download-Dateien: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und benutzerdefinierte Dimensionen. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF mit 300 DPI (6× Multiplikator, JPEG-Qualität 1.0). Aktivieren Sie Graustufen für tintenschonende Ausgabe. Jede Generierung erzeugt vier Download-Dateien: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
     },
     {
       question: 'Kann ich mit diesem Werkzeug erstellte Jigsaw-Puzzle-Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Jigsaw-Puzzle-Arbeitsblätter als digitale Downloads auf Etsy zu verkaufen, gedruckte visuelle Puzzle-Arbeitsbücher auf Amazon KDP zu veröffentlichen, Unterrichtsmaterialien auf dem Lehrermarktplatz anzubieten oder über jeden anderen Vertriebskanal zu vertreiben. Die 6 Teilformen, das Zwei-Achsen-Schwierigkeitssystem, die intelligente Teileextraktion, die Ablenkungsteile, die automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen, benutzerdefinierte Bild-Uploads und 104 thematische Bildsammlungen geben Ihnen alles, um professionelle Jigsaw-Puzzle-Produkte zu erstellen.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Jigsaw-Puzzle-Arbeitsblätter als digitale Downloads auf Etsy zu verkaufen, gedruckte visuelle Puzzle-Arbeitsbücher auf Amazon KDP zu veröffentlichen, Produktmaterialien auf Gumroad anzubieten oder über jeden anderen Vertriebskanal zu vertreiben. Die 6 Teilformen, das Zwei-Achsen-Schwierigkeitssystem, die intelligente Teileextraktion, die Ablenkungsteile, die automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen, benutzerdefinierte Bild-Uploads und 104 thematische Bildsammlungen geben Ihnen alles, um professionelle Jigsaw-Puzzle-Produkte zu erstellen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

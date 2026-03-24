@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Wortsuche-Arbeitsblatt-Generator',
     tagline: 'Versteckte-Wörter-Gitterrätsel mit einstellbaren Größen, Richtungssteuerung und sprachabhängigen Füllbuchstaben in 11 Sprachen erstellen',
-    description: 'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Schüler Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Dieses Tool gibt Ihnen präzise Kontrolle über die Schwierigkeit durch zwei unabhängige Achsen: Gittergröße (einstellbar von 5×5 bis 30×30 mit unabhängig einstellbaren Zeilen und Spalten) und Wortrichtungs-Schalter (diagonale Wörter ein/aus, rückwärts laufende Wörter ein/aus), die zwischen zwei und acht mögliche Platzierungsrichtungen erzeugen. Wählen Sie aus drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Drei Anzeigemodi — Wörter und Bilder, nur Bilder und nur Wörter — steuern, was als Hinweise neben dem Gitter erscheint. Die herausragende Funktion sind sprachabhängige Füllbuchstaben: Beim Sprachwechsel ändern sich die Gitter-Füllbuchstaben, um den Zeichensatz der Zielsprache mit gewichteten Häufigkeitsverteilungen widerzuspiegeln. Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeiten. Französische Gitter enthalten é, è, ç, à. Schwedische Gitter enthalten å, ä, ö. Jede Sprache erhält authentische Füllzeichen, sodass Rätsel sprachlich echt wirken statt offensichtlich englisch generiert. Diese doppelte Sprachabhängigkeit — sowohl versteckte Wörter als auch Füllbuchstaben ändern sich — macht jede Sprachversion zu einem eigenständigen Produkt. Deutsche zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als englische Äquivalente, und Umlaute wie ö in „Löwe“ erscheinen sowohl als versteckte Buchstaben als auch als natürliche Füllzeichen — dadurch verschmilzt das Wort nahtloser mit dem Gitterhintergrund. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 7 Schriftfamilien, fügen Sie Felder für Name und Datum hinzu, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die vollständige Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Nutzer Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Dieses Tool gibt Ihnen präzise Kontrolle über die Schwierigkeit durch zwei unabhängige Achsen: Gittergröße (einstellbar von 5×5 bis 30×30 mit unabhängig einstellbaren Zeilen und Spalten) und Wortrichtungs-Schalter (diagonale Wörter ein/aus, rückwärts laufende Wörter ein/aus), die zwischen zwei und acht mögliche Platzierungsrichtungen erzeugen. Wählen Sie aus drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Drei Anzeigemodi — Wörter und Bilder, nur Bilder und nur Wörter — steuern, was als Hinweise neben dem Gitter erscheint. Die herausragende Funktion sind sprachabhängige Füllbuchstaben: Beim Sprachwechsel ändern sich die Gitter-Füllbuchstaben, um den Zeichensatz der Zielsprache mit gewichteten Häufigkeitsverteilungen widerzuspiegeln. Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeiten. Französische Gitter enthalten é, è, ç, à. Schwedische Gitter enthalten å, ä, ö. Jede Sprache erhält authentische Füllzeichen, sodass Rätsel sprachlich echt wirken statt offensichtlich englisch generiert. Diese doppelte Sprachabhängigkeit — sowohl versteckte Wörter als auch Füllbuchstaben ändern sich — macht jede Sprachversion zu einem eigenständigen Produkt. Deutsche zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als englische Äquivalente, und Umlaute wie ö in „Löwe“ erscheinen sowohl als versteckte Buchstaben als auch als natürliche Füllzeichen — dadurch verschmilzt das Wort nahtloser mit dem Gitterhintergrund. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Wählen Sie aus 7 Schriftfamilien, fügen Sie Felder für Name und Datum hinzu, schalten Sie den Graustufen-Export für tintenschonende Ausgabe ein und nutzen Sie die vollständige Fabric.js-Arbeitsfläche zum Neupositionieren jedes Elements. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Gittergröße und Dimensionen konfigurieren',
-        description: 'Stellen Sie Zeilen und Spalten unabhängig von 5 bis 30 ein. Der Standard ist 12×12. Ein 5×5-Gitter mit 25 Zellen erzeugt ein schnelles, zugängliches Rätsel für junge Lernende. Ein 20×20- oder 30×30-Gitter erzeugt eine dichte, herausfordernde Suche für erfahrene Löser. Die Gittergröße ist die wichtigste Stellschraube für die Schwierigkeit. Passen Sie sie an Ihre Zielgruppe an: klein für Vorschulkinder, mittel für Grundschüler, groß für Erwachsene und Rätselenthusiasten. Für lange deutsche Wörter wie „Schmetterling“ empfehlen sich größere Gitter.',
+        description: 'Stellen Sie Zeilen und Spalten unabhängig von 5 bis 30 ein. Der Standard ist 12×12. Ein 5×5-Gitter mit 25 Zellen erzeugt ein schnelles, zugängliches Rätsel für junge Lernende. Ein 20×20- oder 30×30-Gitter erzeugt eine dichte, herausfordernde Suche für erfahrene Löser. Die Gittergröße ist die wichtigste Stellschraube für die Schwierigkeit. Passen Sie sie an Ihre Zielgruppe an: klein für Vorschulkinder, mittel für K-2-Produktmarkt, groß für Erwachsene und Rätselenthusiasten. Für lange deutsche Wörter wie „Schmetterling“ empfehlen sich größere Gitter.',
       },
       {
         title: 'Wortrichtungs-Steuerung einstellen',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Wortsuche-Rätsel-Pakete',
-      description: 'Erstellen Sie Sets mit 10–20 Wortsuche-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Meerestiere, Fahrzeuge, Lebensmittel, Feiertage und mehr. Variieren Sie Gittergröße und Richtungseinstellungen über das Set für progressive Schwierigkeit: Beginnen Sie mit einem 8×8-Gitter ohne Diagonalen und steigern Sie bis zu einem 16×16-Gitter mit Diagonalen und Rückwärts-Wörtern. Fügen Sie farbcodierte Lösungsschlüssel für jedes Rätsel bei. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das Gitter-und-Bild-Format macht Listing-Vorschaubilder sofort als ansprechende Rätsel-Aktivitäten erkennbar.',
+      description: 'Erstellen Sie Sets mit 10–20 Wortsuche-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Meerestiere, Fahrzeuge, Lebensmittel, Feiertage und mehr. Variieren Sie Gittergröße und Richtungseinstellungen über das Set für progressive Schwierigkeit: Beginnen Sie mit einem 8×8-Gitter ohne Diagonalen und steigern Sie bis zu einem 16×16-Gitter mit Diagonalen und Rückwärts-Wörtern. Fügen Sie farbcodierte Lösungsschlüssel für jedes Rätsel bei. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Gitter-und-Bild-Format macht Listing-Vorschaubilder sofort als ansprechende Rätsel-Aktivitäten erkennbar.',
     },
     {
       title: 'KDP-Wortsuchrätsel-Bücher',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differenzierte Vokabel-Gitter-Sets',
-      description: 'Erstellen Sie gestufte Wortsuche-Übungssets mit Gittergröße und Richtungssteuerung als Differenzierungsachsen. Stufe 1: 8×8-Gitter, nur horizontal, 4 Wörter. Stufe 2: 12×12-Gitter, horizontal und vertikal, 6 Wörter. Stufe 3: 16×16, Diagonalen aktiviert, 8 Wörter. Stufe 4: 20×20, Diagonalen und Rückwärts, 8 Wörter. Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Lehrkräfte zahlen Premiumpreise für differenzierte Ressourcen, die sofort über mehrere Leistungsgruppen einsetzbar sind.',
+      description: 'Erstellen Sie gestufte Wortsuche-Übungssets mit Gittergröße und Richtungssteuerung als Differenzierungsachsen. Stufe 1: 8×8-Gitter, nur horizontal, 4 Wörter. Stufe 2: 12×12-Gitter, horizontal und vertikal, 6 Wörter. Stufe 3: 16×16, Diagonalen aktiviert, 8 Wörter. Stufe 4: 20×20, Diagonalen und Rückwärts, 8 Wörter. Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Verkäufer zahlen Premiumpreise für gestufte Ressourcen, die sofort über mehrere Leistungsgruppen einsetzbar sind.',
     },
     {
       title: 'Mehrsprachige Wortsuche-Produkte',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Benutzerdefinierte Vokabel-Wortsuche-Arbeitsblätter',
-      description: 'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, wöchentliche Rechtschreibwörter, Grundwortschatz, Erdkunde-Vokabular oder Fremdsprachenübungen. Keine Bilder nötig — das Tool generiert ein vollständiges Wortsuche-Gitter aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Rätsel-Arbeitsblätter für jeden Lehrplan, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
+      description: 'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, wöchentliche Rechtschreibwörter, Grundwortschatz, Erdkunde-Vokabular oder Fremdsprachenübungen. Keine Bilder nötig — das Tool generiert ein vollständiges Wortsuche-Gitter aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Rätsel-Arbeitsblätter für jeden Produktkatalog, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
     },
     {
       title: 'Saisonale und Feiertags-Rätsel-Bündel',
-      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Halloween-Wortsuche“-Paket mit gruseligem Vokabular in progressiv größeren Gittern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Frühling und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Lehrermarktplatz. Kombinieren Sie kleine einfache Gitter für jüngere Schüler mit großen herausfordernden Gittern für ältere Kinder in einem einzigen saisonalen Bündel, um Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie Feiertags- und saisonale Bildthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Halloween-Wortsuche“-Paket mit gruseligem Vokabular in progressiv größeren Gittern verkauft sich stark im Oktober. Weihnachten, Schulanfang, Frühling und Sommer haben jeweils eigene Verkaufsspitzen auf Etsy.de und Gumroad. Kombinieren Sie kleine einfache Gitter für Einsteiger mit großen herausfordernden Gittern für ältere Kinder in einem einzigen saisonalen Bündel, um Ihre Käuferzielgruppe zu maximieren.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Schwierigkeitsgestufter Rätsel-Shop auf Etsy.de',
-      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Wortsuche-Arbeitsblätter spezialisiert, organisiert nach Schwierigkeitsstufe. Nutzen Sie Gittergröße und Richtungsschalter für klar differenzierte Stufen: Anfänger (8×8, nur horizontal), Fortgeschritten (12×12, Diagonalen aktiviert), Schwer (18×18, Diagonalen und Rückwärts), Experte (25×25, alle acht Richtungen). Die meisten Wortsuche-Verkäufer bieten generische Einheitsrätsel an — schwierigkeitsgestufte Produkte lassen Käufer genau die richtige Herausforderungsstufe für ihre Schüler finden, was zu besseren Bewertungen und Wiederkäufen führt.',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf Wortsuche-Arbeitsblätter spezialisiert, organisiert nach Schwierigkeitsstufe. Nutzen Sie Gittergröße und Richtungsschalter für klar gestufte Stufen: Anfänger (8×8, nur horizontal), Fortgeschritten (12×12, Diagonalen aktiviert), Schwer (18×18, Diagonalen und Rückwärts), Experte (25×25, alle acht Richtungen). Die meisten Wortsuche-Verkäufer bieten generische Einheitsrätsel an — schwierigkeitsgestufte Produkte lassen Käufer genau die richtige Herausforderungsstufe für ihre Nutzer finden, was zu besseren Bewertungen und Wiederkäufen führt.',
       platform: 'Etsy.de',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Vokabelzentren auf Lehrermarktplatz',
-      description: 'Laden Sie Wortsuche-Arbeitsblatt-Pakete auf den Lehrermarktplatz hoch, organisiert nach Thema und Schwierigkeit. Fügen Sie vier Schwierigkeitsstufen pro Thema hinzu, die Gittergröße und Richtungssteuerung als Differenzierungsachsen nutzen. Verpacken Sie mit farbcodierten Lösungsschlüsseln und Fortschrittsbögen. Lehrkräfte suchen häufig nach „Vokabel-Aktivitäten“ und „Wortsuche-Arbeitsblätter“. Die einstellbare Schwierigkeit bedeutet, dass ein Produkt eine ganze Klasse mit gemischten Fähigkeiten bedient — das schätzen Lehrkräfte besonders und erwähnen es in Bewertungen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Vokabelzentren auf Gumroad',
+      description: 'Laden Sie Wortsuche-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeit. Fügen Sie vier Schwierigkeitsstufen pro Thema hinzu, die Gittergröße und Richtungssteuerung als Differenzierungsachsen nutzen. Verpacken Sie mit farbcodierten Lösungsschlüsseln und Fortschrittsbögen. Verkäufer suchen häufig nach „Vokabel-Aktivitäten“ und „Wortsuche-Arbeitsblätter“. Die einstellbare Schwierigkeit bedeutet, dass ein Produkt eine ganze Klasse mit gemischten Fähigkeiten bedient — das schätzen Verkäufer besonders und erwähnen es in Bewertungen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Mehrsprachiger Rätsel-Shop auf Etsy',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Umfassendes Rätsel-Toolkit auf Gumroad',
-      description: 'Bündeln Sie Wortsuche-Arbeitsblätter mit Buchstabensalat, Wörter-Raten, Kryptogramm und Zuordnungs-Arbeitsblättern zu einem umfassenden Rätsel-Toolkit auf Gumroad. Jedes Format trainiert eine andere kognitive Fähigkeit: Wortsuche fördert visuelles Scanning und Mustererkennung, Buchstabensalat übt Buchstaben-Umstellung, Wörter-Raten testet Lückentext-Rechtschreiberinnerung. Ein Mehformat-Rätsel-Kit rechtfertigt einen Premium-Preis und bietet Schülern abwechslungsreiche Übung mit demselben Wortschatz.',
+      description: 'Bündeln Sie Wortsuche-Arbeitsblätter mit Buchstabensalat, Wörter-Raten, Kryptogramm und Zuordnungs-Arbeitsblättern zu einem umfassenden Rätsel-Toolkit auf Gumroad. Jedes Format trainiert eine andere kognitive Fähigkeit: Wortsuche fördert visuelles Scanning und Mustererkennung, Buchstabensalat übt Buchstaben-Umstellung, Wörter-Raten testet Lückentext-Rechtschreiberinnerung. Ein Mehformat-Rätsel-Kit rechtfertigt einen Premium-Preis und bietet Nutzern abwechslungsreiche Übung mit demselben Wortschatz.',
       platform: 'Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Gittergröße als primäre Schwierigkeitssteuerung nutzen',
-      description: 'Ein 5×5-Gitter mit 25 Zellen ist ein schnelles, einfaches Rätsel, bei dem Wörter fast sofort gefunden werden. Ein 20×20-Gitter mit 400 Zellen erfordert anhaltendes visuelles Scanning. Verwenden Sie kleine Gitter für Vorschulkinder und Anfänger, mittlere für Grundschüler und große für Erwachsene und Rätselenthusiasten. Die Gittergröße beeinflusst die Schwierigkeit stärker als jede andere einzelne Einstellung.',
+      description: 'Ein 5×5-Gitter mit 25 Zellen ist ein schnelles, einfaches Rätsel, bei dem Wörter fast sofort gefunden werden. Ein 20×20-Gitter mit 400 Zellen erfordert anhaltendes visuelles Scanning. Verwenden Sie kleine Gitter für Vorschulkinder und Anfänger, mittlere für K-2-Produktmarkt und große für Erwachsene und Rätselenthusiasten. Die Gittergröße beeinflusst die Schwierigkeit stärker als jede andere einzelne Einstellung.',
     },
     {
       title: 'Richtungssteuerung für progressive Herausforderung schichten',
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Anzeigemodi strategisch einsetzen',
-      description: 'Wörter und Bilder ist der Standard — ideal für Wortschatzaufbau. Nur Bilder fügt eine zusätzliche Herausforderung hinzu: Schüler müssen erkennen, was das Bild darstellt, bevor sie das Wort suchen können. Nur Wörter erzeugt klassische textbasierte Wortsuchrätsel ohne visuelle Hinweise. Bieten Sie alle drei Modi als Varianten desselben Themenpakets an, um Ihre Produktpalette aus einer einzigen Designsitzung zu verdreifachen.',
+      description: 'Wörter und Bilder ist der Standard — ideal für Wortschatzaufbau. Nur Bilder fügt eine zusätzliche Herausforderung hinzu: Nutzer müssen erkennen, was das Bild darstellt, bevor sie das Wort suchen können. Nur Wörter erzeugt klassische textbasierte Wortsuchrätsel ohne visuelle Hinweise. Bieten Sie alle drei Modi als Varianten desselben Themenpakets an, um Ihre Produktpalette aus einer einzigen Designsitzung zu verdreifachen.',
     },
     {
       title: 'Graustufen für KDP und Massendruck',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder und lebendige Gitter Klicks anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Shop-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder und lebendige Gitter Klicks anziehen.',
     },
     {
       title: 'Farbcodierte Lösungsschlüssel steigern den professionellen Wert',
-      description: 'Der Sechs-Farben-Lösungsschlüssel — Rosa, Blau, Grün, Gold, Koralle, Lavendel — hebt jedes Wort deutlich hervor, selbst wenn sich Wörter im Gitter kreuzen oder überlappen. Fügen Sie Lösungsschlüssel immer in Ihre Produktpakete ein. Lehrkräfte erwarten sie, Eltern schätzen sie, und das farbcodierte Format sieht in Listing-Vorschaubildern professioneller aus als einfache Kreise-das-Wort-ein-Lösungsschlüssel.',
+      description: 'Der Sechs-Farben-Lösungsschlüssel — Rosa, Blau, Grün, Gold, Koralle, Lavendel — hebt jedes Wort deutlich hervor, selbst wenn sich Wörter im Gitter kreuzen oder überlappen. Fügen Sie Lösungsschlüssel immer in Ihre Produktpakete ein. Verkäufer erwarten sie, Eltern schätzen sie, und das farbcodierte Format sieht in Listing-Vorschaubildern professioneller aus als einfache Kreise-das-Wort-ein-Lösungsschlüssel.',
     },
     {
       title: 'Mit anderen Literacy-Tools für Premium-Bündel kombinieren',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktioniert das Wortsuche-Rätselformat?',
-      answer: 'Versteckte Wörter sind in einem Gitter aus zufälligen Füllbuchstaben eingebettet. Schüler durchsuchen Zeilen, Spalten und optional Diagonalen, um jedes Wort zu finden, und kreisen oder markieren es dann. Die Füllbuchstaben werden bei jeder Generierung zufällig neu erstellt, sodass jedes Rätsel einzigartig ist — selbst mit derselben Wortliste. Bis zu 8 Wörter können in einem einzelnen Gitter platziert werden.',
+      answer: 'Versteckte Wörter sind in einem Gitter aus zufälligen Füllbuchstaben eingebettet. Nutzer durchsuchen Zeilen, Spalten und optional Diagonalen, um jedes Wort zu finden, und kreisen oder markieren es dann. Die Füllbuchstaben werden bei jeder Generierung zufällig neu erstellt, sodass jedes Rätsel einzigartig ist — selbst mit derselben Wortliste. Bis zu 8 Wörter können in einem einzelnen Gitter platziert werden.',
     },
     {
       question: 'Welche Gittergrößen sind verfügbar?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie unterscheidet sich Wortsuche von Buchstabensalat und Wörter-Raten?',
-      answer: 'Wortsuche ist ein visuelles Scanning-Rätsel — Schüler finden versteckte Wörter in einem Gitter aus zufälligen Buchstaben, indem sie Zeilen, Spalten und Diagonalen durchsuchen. Buchstabensalat gibt Schülern durcheinander gemischte Buchstabenplättchen zum Umordnen in die korrekte Schreibweise. Wörter-Raten zeigt Lücken an festen Positionen, und Schüler füllen die fehlenden Buchstaben ein. Jedes Format trainiert eine andere kognitive Fähigkeit und sie ergänzen sich ideal in gebündelten Produkten.',
+      answer: 'Wortsuche ist ein visuelles Scanning-Rätsel — Nutzer finden versteckte Wörter in einem Gitter aus zufälligen Buchstaben, indem sie Zeilen, Spalten und Diagonalen durchsuchen. Buchstabensalat gibt Nutzern durcheinander gemischte Buchstabenplättchen zum Umordnen in die korrekte Schreibweise. Wörter-Raten zeigt Lücken an festen Positionen, und Nutzer füllen die fehlenden Buchstaben ein. Jedes Format trainiert eine andere kognitive Fähigkeit und sie ergänzen sich ideal in gebündelten Produkten.',
     },
     {
       question: 'Welche Sprachen werden unterstützt?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Arbeitsblätter auf Etsy.de, Gumroad, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',

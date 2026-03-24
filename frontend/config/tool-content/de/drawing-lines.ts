@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Text hinzufügen und Name/Datum-Felder umschalten',
-        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Aktivieren Sie die Name/Datum-Felder für Schüleridentifikationsbereiche. Die automatisch generierte Kopfzeile zeigt ein grünes Banner mit „Linien-Zeichenübung“ lokalisiert in allen 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Sperr- und Entsperrsteuerungen und unbegrenztem Rückgängigmachen und Wiederherstellen.',
+        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Aktivieren Sie die Name/Datum-Felder für Nutzeridentifikationsbereiche. Die automatisch generierte Kopfzeile zeigt ein grünes Banner mit „Linien-Zeichenübung“ lokalisiert in allen 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Sperr- und Entsperrsteuerungen und unbegrenztem Rückgängigmachen und Wiederherstellen.',
       },
       {
         title: 'Vorschau prüfen und Linienschwierigkeit anpassen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Als PDF oder JPEG bei 300 DPI exportieren',
-        description: 'Laden Sie Ihr fertiges Arbeitsblatt als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Klassenzimmerdruck und KDP-Innenteile. Kein separater Lösungsschlüssel wird benötigt — der Linienpfad selbst führt die Lernenden und macht jedes Arbeitsblatt zu einer selbstprüfenden Aktivität. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung.',
+        description: 'Laden Sie Ihr fertiges Arbeitsblatt als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Shopdruck und KDP-Innenteile. Kein separater Lösungsschlüssel wird benötigt — der Linienpfad selbst führt die Lernenden und macht jedes Arbeitsblatt zu einer selbstprüfenden Aktivität. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien ohne Nachbearbeitung.',
       },
     ],
   },
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: 'KDP-Feinmotorik-Arbeitshefte',
-      description: 'Stellen Sie 60–100 Linienverfolgung-Übungen zu gedruckten Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie einen Feinmotorik-Lehrplan über Kapitel: Kapitel 1 behandelt Horizontallinien für Richtungskontroll-Grundlagen. Kapitel 2 führt Vertikallinien für Abwärtsstriche ein. Kapitel 3 steigert auf Kurven für Handgelenkflexibilität. Kapitel 4 fordert mit Diagonalen für bilaterale Koordination. Die farbenfrohen Bildpaare reproduzieren lebendig im Farbdruck. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung.',
+      description: 'Stellen Sie 60–100 Linienverfolgung-Übungen zu gedruckten Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie einen Feinmotorik-Produktkatalog über Kapitel: Kapitel 1 behandelt Horizontallinien für Richtungskontroll-Grundlagen. Kapitel 2 führt Vertikallinien für Abwärtsstriche ein. Kapitel 3 steigert auf Kurven für Handgelenkflexibilität. Kapitel 4 fordert mit Diagonalen für bilaterale Koordination. Die farbenfrohen Bildpaare reproduzieren lebendig im Farbdruck. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung.',
     },
     {
       title: 'Schreibvorbereitung-Stiftführungs-Sets',
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Schreibvorbereitung-Lernstationen',
-      description: 'Erstellen Sie gestufte Schreibvorbereitung-Stationen mit dem Linientyp als Progressionsachse. Station 1 behandelt Horizontallinien für Links-nach-Rechts-Richtungsverfolgung. Station 2 zielt auf Vertikallinien für Oben-nach-Unten-Striche. Station 3 führt Kurven für buchstabenformende Bewegungen ein. Station 4 fordert Lernende mit Diagonalen für eckige Buchstabenformen. Jede Station trainiert eine spezifische Schreibvorbereitungs-Fähigkeit, die direkt auf die Buchstabenformung überträgt. Das textfreie visuelle Format funktioniert in jedem Klassenzimmer unabhängig vom Sprachhintergrund der Lernenden und macht diese Materialien wertvoll für inklusive und mehrsprachige Lernumgebungen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Schreibvorbereitung-Lernstationen',
+      description: 'Erstellen Sie gestufte Schreibvorbereitung-Stationen mit dem Linientyp als Progressionsachse. Station 1 behandelt Horizontallinien für Links-nach-Rechts-Richtungsverfolgung. Station 2 zielt auf Vertikallinien für Oben-nach-Unten-Striche. Station 3 führt Kurven für buchstabenformende Bewegungen ein. Station 4 fordert Lernende mit Diagonalen für eckige Buchstabenformen. Jede Station trainiert eine spezifische Schreibvorbereitungs-Fähigkeit, die direkt auf die Buchstabenformung überträgt. Das textfreie visuelle Format funktioniert in jedem Shop unabhängig vom Sprachhintergrund der Lernenden und macht diese Materialien wertvoll für inklusive und mehrsprachige Lernumgebungen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visueller Linienverfolgung-Trichter',
-      description: 'Linienverfolgung-Arbeitsblätter mit farbenfrohen Bildpaaren und markanten SVG-Linienpfaden erzeugen auffällige Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Linientypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Linienverfolgung für Kinder“, „Feinmotorik-Arbeitsblätter“ und „Schreibvorbereitung“. Das textfreie Format bedeutet, dass Pins Eltern und Lehrkräfte in jedem Land ansprechen.',
+      description: 'Linienverfolgung-Arbeitsblätter mit farbenfrohen Bildpaaren und markanten SVG-Linienpfaden erzeugen auffällige Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Linientypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Linienverfolgung für Kinder“, „Feinmotorik-Arbeitsblätter“ und „Schreibvorbereitung“. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Komplett-Feinmotorik-Toolkit',
-      description: 'Bündeln Sie Linienverfolgung-Arbeitsblätter (acht Vorlagen, vier Linientypen) mit Rasterzeichnen-Übungen, Malvorlagen und Schreib-Arbeitsblättern zu einem umfassenden Feinmotorik-Toolkit auf Gumroad. Jedes Format trainiert eine andere Fähigkeit: Linienverfolgung entwickelt geführte Stiftkontrolle, Rasterzeichnen trainiert räumliche Reproduktion, Malvorlagen fördern kreativen Ausdruck, Schreiben verbindet visuell-motorische und sprachliche Fähigkeiten. Ein Multi-Format-Toolkit rechtfertigt einen Premium-Preis und differenziert sich von Einzel-Format-Konkurrenten.',
+      description: 'Bündeln Sie Linienverfolgung-Arbeitsblätter (acht Vorlagen, vier Linientypen) mit Rasterzeichnen-Übungen, Malvorlagen und Schreib-Arbeitsblättern zu einem umfassenden Feinmotorik-Toolkit auf Gumroad. Jedes Format trainiert eine andere Fähigkeit: Linienverfolgung entwickelt geführte Stiftkontrolle, Rasterzeichnen trainiert räumliche Reproduktion, Malvorlagen fördern kreativen Ausdruck, Schreiben verbindet visuell-motorische und sprachliche Fähigkeiten. Ein Multi-Format-Toolkit rechtfertigt einen Premium-Preis und gestuft sich von Einzel-Format-Konkurrenten.',
       platform: 'Gumroad',
     },
     {
@@ -145,7 +145,7 @@ const content: ToolContent = {
     },
     {
       title: 'Graustufen für kosteneffizienten Druck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Klassenzimmer-Massendruck bestimmt sind, wo Farbdruckkosten ein Thema sind. Selbst in Graustufen bleiben die Bildpaare visuell unterscheidbar genug für die Zuordnung, und die SVG-Linienpfade reproduzieren perfekt in Schwarzweiß. Speichern Sie Farbversionen für Etsy-Angebote, bei denen visuelle Attraktivität Klicks generiert.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Shop-Massendruck bestimmt sind, wo Farbdruckkosten ein Thema sind. Selbst in Graustufen bleiben die Bildpaare visuell unterscheidbar genug für die Zuordnung, und die SVG-Linienpfade reproduzieren perfekt in Schwarzweiß. Speichern Sie Farbversionen für Etsy-Angebote, bei denen visuelle Attraktivität Klicks generiert.',
     },
     {
       title: 'Linienverfolgung mit anderen visuellen Tools für Premium-Pakete kombinieren',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Linienverfolgung-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die acht verschiedenen Vorlagen, 104 farbenfrohen Themen, der Auto-Füllen-Arbeitsablauf und das textfreie visuelle Format schaffen starke Differenzierung und globale Verkaufbarkeit.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Linienverfolgung-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die acht verschiedenen Vorlagen, 104 farbenfrohen Themen, der Auto-Füllen-Arbeitsablauf und das textfreie visuelle Format schaffen starke Differenzierung und globale Verkaufbarkeit.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

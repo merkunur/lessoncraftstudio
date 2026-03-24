@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbarer Zuordnungs-Aktivitäten-Generator für Etsy-Verkäufer',
       'Paare-Verbinden-Arbeitsblatt-Generator für KDP-Verleger',
-      'Zuordnungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Zuordnungs-Arbeitsblätter auf Gumroad verkaufen',
       'Zuordnungs-Arbeitsblatt-Ersteller kommerzielle Lizenz',
     ],
     lsiKeywords: [
@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Zuordnungs-Generator für druckbare Paare-Verbinden-Arbeitsblätter',
     tagline: 'Vier Zuordnungsmodi in einem Generator — Anfangsbuchstabe, Bild+Wort, Bild/Wort-Mischung und Eigenes Wort — mit automatisch generiertem Lösungsschlüssel, konfigurierbarer Paaranzahl und lokalisierter „Finde die Paare!“-Überschrift über 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Zuordnungs-Arbeitsblätter, bei denen Lernende Paare verbinden, indem sie Linien zwischen zwei Spalten ziehen. Wählen Sie aus vier verschiedenen Zuordnungsmodi: der Anfangsbuchstaben-Modus ordnet Bilder ihren Anfangsbuchstaben zu und trainiert phonemisches Bewusstsein, der Bild+Wort-Modus zeigt beschriftete Bildpaare auf beiden Seiten für gezielten Wortschatzaufbau, der Bild/Wort-Mischungs-Modus ermöglicht pro Zeile die unabhängige Auswahl von Bild oder Wort über Dropdown-Menüs für differenzierte Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts, und der Eigenes-Wort-Modus lässt Sie eigene Zuordnungsbegriffe eintippen für maßgeschneiderte Rechtschreib- und Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt und schalten Sie Elementnummern und dekorative Aufzählungspunkte für saubere Formatierung um. Jedes Arbeitsblatt enthält eine automatisch generierte lokalisierte „Finde die Paare!“-Überschrift mit Titel und Anweisungen in allen 11 unterstützten Sprachen. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet Verbindungslinien zwischen den korrekten Paaren, sodass Sie ihn niemals manuell erstellen müssen. Der Zuordnungs-Generator ist sprachabhängig: die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt ändert. Im Anfangsbuchstaben-Modus wird beispielsweise ein Katzenbild im Deutschen als „K“ angezeigt (Katze), im Englischen als „C“ (Cat) und im Französischen als „C“ (Chat). Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Wortinhalte frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie Namens- und Datumsfelder und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen und Englisch als Sprache; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Wortinhalte frei. Ob Sie thematische Zuordnungs-Pakete auf Etsy.de verkaufen, Lese-Lern-Arbeitsbücher für Amazon KDP zusammenstellen oder Zuordnungs-Stationen-Aktivitäten für den Lehrermarktplatz erstellen — der Zuordnungs-Generator liefert produktionsfertige Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Zuordnungs-Arbeitsblätter, bei denen Lernende Paare verbinden, indem sie Linien zwischen zwei Spalten ziehen. Wählen Sie aus vier verschiedenen Zuordnungsmodi: der Anfangsbuchstaben-Modus ordnet Bilder ihren Anfangsbuchstaben zu und trainiert phonemisches Bewusstsein, der Bild+Wort-Modus zeigt beschriftete Bildpaare auf beiden Seiten für gezielten Wortschatzaufbau, der Bild/Wort-Mischungs-Modus ermöglicht pro Zeile die unabhängige Auswahl von Bild oder Wort über Dropdown-Menüs für gestufte Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts, und der Eigenes-Wort-Modus lässt Sie eigene Zuordnungsbegriffe eintippen für maßgeschneiderte Rechtschreib- und Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt und schalten Sie Elementnummern und dekorative Aufzählungspunkte für saubere Formatierung um. Jedes Arbeitsblatt enthält eine automatisch generierte lokalisierte „Finde die Paare!“-Überschrift mit Titel und Anweisungen in allen 11 unterstützten Sprachen. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet Verbindungslinien zwischen den korrekten Paaren, sodass Sie ihn niemals manuell erstellen müssen. Der Zuordnungs-Generator ist sprachabhängig: die Modi Anfangsbuchstabe und Bild+Wort verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt ändert. Im Anfangsbuchstaben-Modus wird beispielsweise ein Katzenbild im Deutschen als „K“ angezeigt (Katze), im Englischen als „C“ (Cat) und im Französischen als „C“ (Chat). Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen für lokalisierte Wortinhalte frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie Namens- und Datumsfelder und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen und Englisch als Sprache; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen für lokalisierte Wortinhalte frei. Ob Sie thematische Zuordnungs-Pakete auf Etsy.de verkaufen, Lese-Lern-Arbeitsbücher für Amazon KDP zusammenstellen oder Zuordnungs-Stationen-Aktivitäten für den Gumroad erstellen — der Zuordnungs-Generator liefert produktionsfertige Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Zuordnungs-Arbeitsblatt generieren',
         description:
-          'Klicken Sie auf „Generieren“, um das Zweispalten-Zuordnungslayout zu erstellen. Die App ordnet Ihre ausgewählten Bilder und Texte in linke und rechte Spalten mit der konfigurierten Paaranzahl an. Eine gestaltete „Finde die Paare!“-Überschrift erscheint oben mit gelbem Pill-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50) und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften. Elementnummern und Aufzählungspunkte erscheinen gemäß Ihren Schalter-Einstellungen. Das Arbeitsblatt-Tab zeigt die Schülerversion ohne Verbindungslinien — bereit für Lernende, ihre eigenen Linien zu ziehen.',
+          'Klicken Sie auf „Generieren“, um das Zweispalten-Zuordnungslayout zu erstellen. Die App ordnet Ihre ausgewählten Bilder und Texte in linke und rechte Spalten mit der konfigurierten Paaranzahl an. Eine gestaltete „Finde die Paare!“-Überschrift erscheint oben mit gelbem Pill-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50) und lokalisiertem Titel und Anweisungen in Fredoka- und Quicksand-Schriften. Elementnummern und Aufzählungspunkte erscheinen gemäß Ihren Schalter-Einstellungen. Das Arbeitsblatt-Tab zeigt die Nutzerversion ohne Verbindungslinien — bereit für Lernende, ihre eigenen Linien zu ziehen.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit horizontalen Verbindungslinien (#555, Strichbreite 2) zwischen jedem korrekten Paar zu sehen. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden als worksheet.jpeg, worksheet.pdf, answer_key.jpeg und answer_key.pdf mit 300 DPI gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit horizontalen Verbindungslinien (#555, Strichbreite 2) zwischen jedem korrekten Paar zu sehen. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden als worksheet.jpeg, worksheet.pdf, answer_key.jpeg und answer_key.pdf mit 300 DPI gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -67,7 +67,7 @@ const content: AppContent = {
       {
         title: 'Automatisch generierter Lösungsschlüssel mit Verbindungslinien zwischen Paaren',
         description:
-          'Jedes Zuordnungs-Arbeitsblatt generiert automatisch einen passenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und fügt horizontale Verbindungslinien (#555, Strichbreite 2) zwischen jedem korrekten Paar hinzu. Kein manuelles Linienziehen, keine separate Dateierstellung — der Lösungsschlüssel ist immer synchron mit dem Arbeitsblatt. Dieser Doppel-Canvas-Ansatz spart erhebliche Produktionszeit für Verkäufer, die Zuordnungs-Aktivitätspakete erstellen, bei denen jedes Arbeitsblatt seinen eigenen Lösungsschlüssel benötigt. Laden Sie den Lösungsschlüssel als answer_key.jpeg oder answer_key.pdf neben dem Schüler-Arbeitsblatt herunter. Das spart erhebliche Produktionszeit bei der Erstellung großer Zuordnungs-Pakete mit vollständigen Lösungen.',
+          'Jedes Zuordnungs-Arbeitsblatt generiert automatisch einen passenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel reproduziert das exakte Arbeitsblatt-Layout und fügt horizontale Verbindungslinien (#555, Strichbreite 2) zwischen jedem korrekten Paar hinzu. Kein manuelles Linienziehen, keine separate Dateierstellung — der Lösungsschlüssel ist immer synchron mit dem Arbeitsblatt. Dieser Doppel-Canvas-Ansatz spart erhebliche Produktionszeit für Verkäufer, die Zuordnungs-Aktivitätspakete erstellen, bei denen jedes Arbeitsblatt seinen eigenen Lösungsschlüssel benötigt. Laden Sie den Lösungsschlüssel als answer_key.jpeg oder answer_key.pdf neben dem Nutzer-Arbeitsblatt herunter. Das spart erhebliche Produktionszeit bei der Erstellung großer Zuordnungs-Pakete mit vollständigen Lösungen.',
       },
       {
         title: 'Konfigurierbare Paaranzahl mit 4, 5 oder 6 Zuordnungspaaren pro Arbeitsblatt',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Elementnummern und dekorative Aufzählungspunkte mit Schaltersteuerung',
         description:
-          'Zwei Formatierungsschalter im Arbeitsblatt-Konfigurationsfeld steuern die visuelle Struktur jeder Zuordnungsspalte. „Elementnummern einfügen“ (Standard EIN) fügt Ziffern vor jedem Paar hinzu — Lernende sehen nummerierte Elemente für einfache Referenz bei der Gruppenarbeit und Besprechung im Unterricht. „Aufzählungspunkte anzeigen“ (Standard EIN) fügt dekorative Punkte neben den Elementen für optische Klarheit hinzu. Beide Optionen können unabhängig geschaltet werden, sodass Sie saubere nummerierte Arbeitsblätter, gepunktete Listen, beides oder keines erstellen können — je nach Zielgruppe und Produktstil.',
+          'Zwei Formatierungsschalter im Arbeitsblatt-Konfigurationsfeld steuern die visuelle Struktur jeder Zuordnungsspalte. „Elementnummern einfügen“ (Standard EIN) fügt Ziffern vor jedem Paar hinzu — Lernende sehen nummerierte Elemente für einfache Referenz bei der Gruppenarbeit und Besprechung in der Produkterstellung. „Aufzählungspunkte anzeigen“ (Standard EIN) fügt dekorative Punkte neben den Elementen für optische Klarheit hinzu. Beide Optionen können unabhängig geschaltet werden, sodass Sie saubere nummerierte Arbeitsblätter, gepunktete Listen, beides oder keines erstellen können — je nach Zielgruppe und Produktstil.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Zuordnungs-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI herunter. Vier Download-Buttons exportieren Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat (612×792), Letter Querformat (792×612), A4 Hochformat (595×842), A4 Querformat (842×595), Quadrat (1200×1200) und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Zuordnungs-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI herunter. Vier Download-Buttons exportieren Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat (612×792), Letter Querformat (792×612), A4 Hochformat (595×842), A4 Querformat (842×595), Quadrat (1200×1200) und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
       {
         title: 'Vollständige Canvas-Bearbeitung mit Textwerkzeugen, Ausrichtung und Ebenensteuerung',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Zuordnungs-Stationen-Aktivitäten für Lehrermarktplatz',
+        title: 'Zuordnungs-Stationen-Aktivitäten für Gumroad',
         description:
-          'Erstellen Sie sofort einsatzfähige Zuordnungs-Stationen-Arbeitsblätter mit Namens-/Datumsfeldern, Elementnummern und gedruckten Lösungsschlüsseln. Lehrkräfte, die auf dem Lehrermarktplatz nach Zuordnungs-Aktivitäten suchen, schätzen Arbeitsblätter, die unterrichtsfertig ankommen — das Namensfeld sichert die Schüleridentifikation, Elementnummern machen die Antwortüberprüfung bei der Gruppenarbeit effizient, und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanorientierte Sets: Gemeindehelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Wortschatz-Zuordnung und Lebensraum-Tiere-Zuordnung. Jedes Set enthält Schüler-Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Format.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsatzfähige Zuordnungs-Stationen-Arbeitsblätter mit Namens-/Datumsfeldern, Elementnummern und gedruckten Lösungsschlüsseln. Verkäufer, die auf Gumroad nach Zuordnungs-Aktivitäten suchen, schätzen Arbeitsblätter, die unterrichtsfertig ankommen — das Namensfeld sichert die Nutzeridentifikation, Elementnummern machen die Antwortüberprüfung bei der Gruppenarbeit effizient, und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanorientierte Sets: Gemeindehelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Wortschatz-Zuordnung und Lebensraum-Tiere-Zuordnung. Jedes Set enthält Nutzer-Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Format.',
+        platform: 'Gumroad',
       },
       {
         title: 'Mehrsprachige Wortschatz-Zuordnungs-Arbeitsblätter',
         description:
-          'Nutzen Sie die sprachabhängigen Modi Anfangsbuchstabe und Bild+Wort, um Zuordnungs-Arbeitsblätter in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen unterschiedliche Zuordnungsinhalte, wenn Sie die Sprache wechseln — Bildnamen, Anfangsbuchstaben und Überschriftentext werden automatisch aktualisiert. Erstellen Sie mehrsprachige Wortschatz-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder mit lokalisierten Wörtern verwendet. Das ist besonders wertvoll für DaF/DaZ-Lehrkräfte, bilinguale Klassenräume und internationale Homeschooling-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen.',
-        platform: 'Etsy / Lehrermarktplatz (mehrsprachiger Markt)',
+          'Nutzen Sie die sprachabhängigen Modi Anfangsbuchstabe und Bild+Wort, um Zuordnungs-Arbeitsblätter in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen unterschiedliche Zuordnungsinhalte, wenn Sie die Sprache wechseln — Bildnamen, Anfangsbuchstaben und Überschriftentext werden automatisch aktualisiert. Erstellen Sie mehrsprachige Wortschatz-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder mit lokalisierten Wörtern verwendet. Das ist besonders wertvoll für DaF/DaZ-Verkäufer, bilinguale Klassenräume und internationale Homeschooling-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen.',
+        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
       },
       {
         title: 'Saisonale Zuordnungs-Aktivitäts-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Zuordnungs-Arbeitsblatt-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Zuordnungspakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe aus demselben Kundenstamm. Nutzen Sie Hintergrund- und Rahmenthemen passend zur jeweiligen Saison für ein stimmiges Gesamtdesign, das Käufer in der Vorschau sofort anspricht.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Wie funktionieren Elementnummern und Aufzählungspunkte?',
       answer:
-        'Zwei Schalter im Arbeitsblatt-Konfigurationsfeld steuern die Formatierung. „Elementnummern einfügen“ (Standard EIN) fügt Ziffern vor jedem Paar hinzu — nützlich für die Antwortüberprüfung und Besprechung im Unterricht. „Aufzählungspunkte anzeigen“ (Standard EIN) fügt dekorative Punkte neben den Elementen für optische Klarheit hinzu. Beide Optionen sind unabhängig: Sie können nur Nummern, nur Punkte, beides oder keines haben — je nach Arbeitsblatt-Stil und Zielgruppe.',
+        'Zwei Schalter im Arbeitsblatt-Konfigurationsfeld steuern die Formatierung. „Elementnummern einfügen“ (Standard EIN) fügt Ziffern vor jedem Paar hinzu — nützlich für die Antwortüberprüfung und Besprechung in der Produkterstellung. „Aufzählungspunkte anzeigen“ (Standard EIN) fügt dekorative Punkte neben den Elementen für optische Klarheit hinzu. Beide Optionen sind unabhängig: Sie können nur Nummern, nur Punkte, beides oder keines haben — je nach Arbeitsblatt-Stil und Zielgruppe.',
     },
     {
       question: 'Wie funktioniert die lokalisierte Überschrift?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Zuordnungs-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Zuordnungs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Zuordnungsmodi, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Zuordnungs-Produkte zu produzieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Zuordnungs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Zuordnungsmodi, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Zuordnungs-Produkte zu produzieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Schüler',
+      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Nutzer',
     },
     {
       pageType: 'start',

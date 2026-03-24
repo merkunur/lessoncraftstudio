@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Muster-Zug-Ersteller',
     tagline: 'Musterfolge-Arbeitsblätter mit fünf Mustertypen auf 11 thematischen Zugwaggons im unverwechselbaren 5+3+3-Layout erstellen — einstellbare Hinweisanzahl, dynamische fehlende Position, textfreie Ausgabe für weltweiten Verkauf ohne Übersetzung',
-    description: 'Erstellen Sie professionelle Mustererkennungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen auf einem thematischen Zug mit 11 Waggons erkennen und vervollständigen. Fünf verschiedene Mustertypen decken jede Stufe der Sequenz-Komplexität ab: AB wechselt zwei Elemente ab, AAB gruppiert zwei eines Elements gefolgt von einem anderen, ABB kehrt diese Gruppierung um, ABC rotiert drei verschiedene Elemente, und AABB paart je zwei jedes Elements vor der Wiederholung. Das Zug-Layout ordnet 11 Waggons in drei Reihen an (5 + 3 + 3), wobei jeder Waggon ein Bild aus der sich wiederholenden Musterfolge enthält. Ein Waggon bleibt leer — Lernende identifizieren das Muster und bestimmen das fehlende Element. Passen Sie die Hinweisanzahl von 4 bis 10 an, um die Schwierigkeit zu steuern: 10 sichtbare Hinweise machen das Muster offensichtlich, während nur 4 Hinweise echtes Muster-Denken erfordern, da die ersten 3 Waggons immer sichtbar sind. Das unverwechselbare Zugwaggon-Layout hebt sich sofort von standardmäßigen gitterbasierten Muster-Arbeitsblättern ab — Käufer auf Etsy oder dem Lehrermarktplatz sehen etwas Anderes als typische Zeilen-und-Spalten-Musterübungen. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Ein separater Lösungsschlüssel-Tab zeigt alle 11 Waggons ausgefüllt mit der korrekten Musterfolge zur sofortigen Überprüfung. Jedes Arbeitsblatt ist vollständig visuell mit ausschließlich Bildern auf Zugwaggons und null Text auf der Ausgabe. Keine Wörter erscheinen auf der generierten Seite — nur Bilder. Das macht Ihre Arbeitsblätter universell verkaufbar ohne Übersetzung: Ein Produktangebot bedient jeden Markt weltweit. Der Generator ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht den Arbeitsblatt-Inhalt. Exportieren Sie druckfertige PDFs und JPEGs bei hoher DPI (6-facher Multiplikator) in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie professionelle Mustererkennungs-Arbeitsblätter, bei denen Lernende sich wiederholende Bildfolgen auf einem thematischen Zug mit 11 Waggons erkennen und vervollständigen. Fünf verschiedene Mustertypen decken jede Stufe der Sequenz-Komplexität ab: AB wechselt zwei Elemente ab, AAB gruppiert zwei eines Elements gefolgt von einem anderen, ABB kehrt diese Gruppierung um, ABC rotiert drei verschiedene Elemente, und AABB paart je zwei jedes Elements vor der Wiederholung. Das Zug-Layout ordnet 11 Waggons in drei Reihen an (5 + 3 + 3), wobei jeder Waggon ein Bild aus der sich wiederholenden Musterfolge enthält. Ein Waggon bleibt leer — Lernende identifizieren das Muster und bestimmen das fehlende Element. Passen Sie die Hinweisanzahl von 4 bis 10 an, um die Schwierigkeit zu steuern: 10 sichtbare Hinweise machen das Muster offensichtlich, während nur 4 Hinweise echtes Muster-Denken erfordern, da die ersten 3 Waggons immer sichtbar sind. Das unverwechselbare Zugwaggon-Layout hebt sich sofort von standardmäßigen gitterbasierten Muster-Arbeitsblättern ab — Käufer auf Etsy oder dem Gumroad sehen etwas Anderes als typische Zeilen-und-Spalten-Musterübungen. Wählen Sie aus über 3.100 Illustrationen in 104 thematischen Sammlungen oder laden Sie eigene Bilder hoch. Ein separater Lösungsschlüssel-Tab zeigt alle 11 Waggons ausgefüllt mit der korrekten Musterfolge zur sofortigen Überprüfung. Jedes Arbeitsblatt ist vollständig visuell mit ausschließlich Bildern auf Zugwaggons und null Text auf der Ausgabe. Keine Wörter erscheinen auf der generierten Seite — nur Bilder. Das macht Ihre Arbeitsblätter universell verkaufbar ohne Übersetzung: Ein Produktangebot bedient jeden Markt weltweit. Der Generator ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht den Arbeitsblatt-Inhalt. Exportieren Sie druckfertige PDFs und JPEGs bei hoher DPI (6-facher Multiplikator) in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Name/Datum-Felder und Übungsoptionen umschalten',
-        description: 'Aktivieren Sie optionale Name- und Datum-Ausschnittfelder für die Schüleridentifikation auf gedruckten Arbeitsblättern. Diese Felder erscheinen als gepunktete Linien, die Lernende vor Beginn ausfüllen. Schalten Sie Übungsnummern und dekorative Elemente ein oder aus. Jede Option verfeinert das Arbeitsblatt-Layout für Ihre Zielgruppe — Klassenzimmer-Arbeitsblätter profitieren von Namensfeldern, während Produkt-Listings für digitale Downloads sie weglassen können.',
+        description: 'Aktivieren Sie optionale Name- und Datum-Ausschnittfelder für die Nutzeridentifikation auf gedruckten Arbeitsblättern. Diese Felder erscheinen als gepunktete Linien, die Lernende vor Beginn ausfüllen. Schalten Sie Übungsnummern und dekorative Elemente ein oder aus. Jede Option verfeinert das Arbeitsblatt-Layout für Ihre Zielgruppe — Shop-Arbeitsblätter profitieren von Namensfeldern, während Produkt-Listings für digitale Downloads sie weglassen können.',
       },
       {
         title: 'Text hinzufügen und Arbeitsfläche anpassen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lösungsschlüssel prüfen und herunterladen',
-        description: 'Wechseln Sie zum Lösungsschlüssel-Tab, um den vollständigen Zug mit allen 11 ausgefüllten Waggons zu sehen — die fehlende Position zeigt nun das korrekte Musterelement. Sowohl das Arbeitsblatt als auch der Lösungsschlüssel sind auf separaten Arbeitsflächen unabhängig bearbeitbar. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Laden Sie beides als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien.',
+        description: 'Wechseln Sie zum Lösungsschlüssel-Tab, um den vollständigen Zug mit allen 11 ausgefüllten Waggons zu sehen — die fehlende Position zeigt nun das korrekte Musterelement. Sowohl das Arbeitsblatt als auch der Lösungsschlüssel sind auf separaten Arbeitsflächen unabhängig bearbeitbar. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Laden Sie beides als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale und Feiertags-Muster-Zug-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Muster-Zug-Pakete. Ein „Halloween-Muster-Zug“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Muster-Zug-Pakete. Ein „Halloween-Muster-Zug“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen AABB-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken und Ihre Käuferzielgruppe zu maximieren.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Eigene-Bilder-Fachspezifische Muster-Züge',
-      description: 'Laden Sie eigene Bilder hoch, um Muster-Zug-Arbeitsblätter für spezialisierte Zielgruppen jenseits der integrierten Bibliothek zu erstellen. Verwenden Sie Pflanzenwachstumsstufen für den Sachunterricht, Musiknotensymbole für den Musikunterricht, geometrische Formen für den Mathematikunterricht oder historische Artefaktbilder für Geschichte. Die fünf Mustertypen und die einstellbare Hinweisanzahl lassen Sie die Übung an jedes Lernziel anpassen. Eigene Bilder ermöglichen Ihnen, spezifische Käufernischen auf Etsy und dem Lehrermarktplatz zu bedienen.',
+      description: 'Laden Sie eigene Bilder hoch, um Muster-Zug-Arbeitsblätter für spezialisierte Zielgruppen jenseits der integrierten Bibliothek zu erstellen. Verwenden Sie Pflanzenwachstumsstufen für den Sachunterricht, Musiknotensymbole für den Musikunterricht, geometrische Formen für den Mathematikunterricht oder historische Artefaktbilder für Geschichte. Die fünf Mustertypen und die einstellbare Hinweisanzahl lassen Sie die Übung an jedes Lernziel anpassen. Eigene Bilder ermöglichen Ihnen, spezifische Käufernischen auf Etsy und dem Gumroad zu bedienen.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Mustererkennungs-Lernstationen',
-      description: 'Laden Sie Muster-Zug-Arbeitsblatt-Pakete auf dem Lehrermarktplatz hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit Mustertyp und Hinweisanzahl als Differenzierungsachsen hinzu. Verpacken Sie mit automatisch generierten Lösungsschlüsseln und Schülerfortschritts-Trackern. Das Zugwaggon-Format erzeugt ein ansprechendes visuelles Thema, das als Klassenzimmer-Lernstation funktioniert. Lehrkräfte suchen nach „Mustererkennungs-Aktivitäten“ und „Musterfolge-Arbeitsblätter“ und finden begrenzte Zug-Format-Optionen — Ihre Produkte füllen eine echte Lücke.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Mustererkennungs-Lernstationen',
+      description: 'Laden Sie Muster-Zug-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe und Thema. Fügen Sie vier Schwierigkeitsgrade pro Thema mit Mustertyp und Hinweisanzahl als Differenzierungsachsen hinzu. Verpacken Sie mit automatisch generierten Lösungsschlüsseln und Nutzerfortschritts-Trackern. Das Zugwaggon-Format erzeugt ein ansprechendes visuelles Thema, das als Shop-Lernstation funktioniert. Verkäufer suchen nach „Mustererkennungs-Aktivitäten“ und „Musterfolge-Arbeitsblätter“ und finden begrenzte Zug-Format-Optionen — Ihre Produkte füllen eine echte Lücke.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Muster-Zug-Visueller-Trichter',
-      description: 'Muster-Zug-Arbeitsblätter mit farbenfrohen thematischen Bildern auf Zugwaggons sind inhärent pin-würdig — das unverwechselbare Zug-Layout fällt in Pinterest-Feeds auf, wo die meisten Muster-Arbeitsblatt-Pins generische Zeilen und Gitter zeigen. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen für Ihre Abonnentenliste. Das textfreie Format bedeutet, dass Pins Eltern und Lehrkräfte in jedem Land ansprechen, nicht nur deutschsprachige.',
+      description: 'Muster-Zug-Arbeitsblätter mit farbenfrohen thematischen Bildern auf Zugwaggons sind inhärent pin-würdig — das unverwechselbare Zug-Layout fällt in Pinterest-Feeds auf, wo die meisten Muster-Arbeitsblatt-Pins generische Zeilen und Gitter zeigen. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen für Ihre Abonnentenliste. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen, nicht nur deutschsprachige.',
       platform: 'Pinterest',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Das Zug-Format als Ihren Marktplatz-Differenzierer betonen',
-      description: 'Die meisten Muster-Arbeitsblätter auf Etsy und dem Lehrermarktplatz verwenden Standard-Gitterlayouts mit Zeilen und Spalten. Das 11-Waggon-Zugwaggon-Format ist visuell unverwechselbar und in Suchergebnissen sofort wiedererkennbar. Erwähnen Sie „Zugwaggon-Format“ und „11-Waggon-Layout“ in Ihren Produkttiteln und -beschreibungen, um hervorzuheben, was Ihre Angebote von gitterbasierten Konkurrenzprodukten unterscheidet.',
+      description: 'Die meisten Muster-Arbeitsblätter auf Etsy und dem Gumroad verwenden Standard-Gitterlayouts mit Zeilen und Spalten. Das 11-Waggon-Zugwaggon-Format ist visuell unverwechselbar und in Suchergebnissen sofort wiedererkennbar. Erwähnen Sie „Zugwaggon-Format“ und „11-Waggon-Layout“ in Ihren Produkttiteln und -beschreibungen, um hervorzuheben, was Ihre Angebote von gitterbasierten Konkurrenzprodukten unterscheidet.',
     },
     {
       title: 'Textfreiheit für globale Verkaufbarkeit hervorheben',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Hinweisanzahl auf die Ziel-Altersgruppe abstimmen',
-      description: 'Für Vorschulkinder (3–4 Jahre) verwenden Sie AB-Muster mit 8–10 Hinweisen für maximale visuelle Unterstützung. Für Kindergartenkinder (4–6 Jahre) verwenden Sie AAB/ABB-Muster mit 6–8 Hinweisen. Für Erstklässler und älter erzeugen ABC- und AABB-Muster mit 4–6 Hinweisen echte Denkaufgaben. Geben Sie die Ziel-Altersgruppe in Ihren Produkttiteln für bessere Marktplatz-Suchausrichtung an.',
+      description: 'Für Vorschulkinder (3–4 Jahre) verwenden Sie AB-Muster mit 8–10 Hinweisen für maximale visuelle Unterstützung. Für Kindergartenkinder (4–6 Jahre) verwenden Sie AAB/ABB-Muster mit 6–8 Hinweisen. Für K-2-Produktmarkt und älter erzeugen ABC- und AABB-Muster mit 4–6 Hinweisen echte Denkaufgaben. Geben Sie die Ziel-Altersgruppe in Ihren Produkttiteln für bessere Marktplatz-Suchausrichtung an.',
     },
     {
       title: 'Graustufen für KDP und Massendruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Ausgabe kostet deutlich weniger im Druck und erfüllt KDP-Innenteil-Anforderungen für Standard-Bücher (ohne Premium-Farbe). Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen und digitale Downloads, bei denen lebhafte Themenbilder Klicks anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Shop-Massendruck bestimmt sind. Schwarzweiß-Ausgabe kostet deutlich weniger im Druck und erfüllt KDP-Innenteil-Anforderungen für Standard-Bücher (ohne Premium-Farbe). Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen und digitale Downloads, bei denen lebhafte Themenbilder Klicks anziehen.',
     },
     {
       title: 'Eigene Bilder für Nischenmärkte hochladen',
-      description: 'Nutzen Sie den Bild-Upload, um Muster-Zug-Arbeitsblätter für Nischenzielgruppen jenseits der integrierten Bibliothek zu erstellen. Pflanzenwachstumsstufen für den Sachunterricht, Musiknoten für den Musikunterricht, geometrische Formen für Mathematik — eigene Bilder ermöglichen Ihnen, spezifische Käufernischen auf Etsy und dem Lehrermarktplatz zu bedienen, die allein mit Themen-Bibliotheksbildern nicht abgedeckt werden.',
+      description: 'Nutzen Sie den Bild-Upload, um Muster-Zug-Arbeitsblätter für Nischenzielgruppen jenseits der integrierten Bibliothek zu erstellen. Pflanzenwachstumsstufen für den Sachunterricht, Musiknoten für den Musikunterricht, geometrische Formen für Mathematik — eigene Bilder ermöglichen Ihnen, spezifische Käufernischen auf Etsy und dem Gumroad zu bedienen, die allein mit Themen-Bibliotheksbildern nicht abgedeckt werden.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie unterscheidet sich Muster-Zug von gitterbasierten Muster-Arbeitsblättern?',
-      answer: 'Muster-Zug zeigt Sequenzen auf einem thematischen Zug mit 11 Waggons in einem unverwechselbaren visuellen Format mit einer einzelnen fehlenden Position. Gitterbasierte Muster-Arbeitsblätter verwenden standardmäßige Zeilen und Spalten zur Musterergänzung. Das Zug-Format ist visuell ansprechender und erzeugt Produkte, die sich in Etsy- und Lehrermarktplatz-Suchergebnissen sofort abheben. Muster-Zug bietet außerdem einstellbare Hinweisanzahl (4–10) für feingranulare Schwierigkeitskontrolle und dynamische Platzierung der fehlenden Position.',
+      answer: 'Muster-Zug zeigt Sequenzen auf einem thematischen Zug mit 11 Waggons in einem unverwechselbaren visuellen Format mit einer einzelnen fehlenden Position. Gitterbasierte Muster-Arbeitsblätter verwenden standardmäßige Zeilen und Spalten zur Musterergänzung. Das Zug-Format ist visuell ansprechender und erzeugt Produkte, die sich in Etsy- und Gumroad-Suchergebnissen sofort abheben. Muster-Zug bietet außerdem einstellbare Hinweisanzahl (4–10) für feingranulare Schwierigkeitskontrolle und dynamische Platzierung der fehlenden Position.',
     },
     {
       question: 'Warum haben die Arbeitsblätter keinen Text?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Einsatz im Klassenzimmer. Um Muster-Zug-Arbeitsblätter auf Etsy, dem Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für die von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Einsatz im Shop. Um Muster-Zug-Arbeitsblätter auf Etsy, dem Gumroad, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für die von Ihnen erstellten Arbeitsblätter.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

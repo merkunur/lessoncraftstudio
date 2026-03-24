@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Bilder-Puzzle-Mathe-Arbeitsblätter für Etsy',
       'Rechenrätsel-Generator für KDP-Verleger',
-      'Mathe-Puzzle-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Mathe-Puzzle-Arbeitsblätter auf Gumroad verkaufen',
       'Mathe-Puzzle-Druckvorlagen kommerzielle Lizenz',
       'Bilderpuzzle-Rechenaufgaben erstellen',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Mathe-Rätsel-Arbeitsblatt-Generator für bildbasiertes Problemlösen',
     tagline: 'Verbinden Sie Mathe-Übungen mit Puzzle-Spannung — jedes Teil enthält eine Aufgabe, jede Lösung enthüllt das Bild.',
     description:
-      'Erstellen Sie fesselnde Mathe-Rätsel-Arbeitsblätter, bei denen ein vollständiges Bild in ein Raster aus Puzzleteilen aufgeteilt wird — jedes Teil enthält eine Additions- oder Subtraktionsaufgabe. Die Schüler lösen die Rechenaufgaben und ordnen dann die nummerierten Antworten den durchmischten Puzzleteilen unter dem Raster zu — so wird routinemäßiges Rechnen zu einem visuellen Rätsel. Konfigurieren Sie die Rastergröße von 2×2 bis 4×4, um Puzzles mit 4 bis 16 Teilen zu erstellen, und wählen Sie zwischen Addition, Subtraktion oder gemischten Rechenoperationen für jedes Niveau. Wählen Sie aus über 3.100 kuratierten Illustrationen in 104 Themen wie Bauernhoftiere, Weltraum, Dinosaurier und Feiertage, um jedes Puzzle einzigartig zu gestalten. Jedes Arbeitsblatt generiert automatisch einen Lösungsschlüssel, der das gelöste Raster neben dem vollständigen Bild zeigt. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Ob Sie thematische Puzzle-Pakete auf Etsy.de verkaufen, progressive Aktivitätsbücher für Amazon KDP zusammenstellen oder interaktive Mathe-Stationen für Ihr Klassenzimmer erstellen — der Mathe-Rätsel-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie fesselnde Mathe-Rätsel-Arbeitsblätter, bei denen ein vollständiges Bild in ein Raster aus Puzzleteilen aufgeteilt wird — jedes Teil enthält eine Additions- oder Subtraktionsaufgabe. Die Nutzer lösen die Rechenaufgaben und ordnen dann die nummerierten Antworten den durchmischten Puzzleteilen unter dem Raster zu — so wird routinemäßiges Rechnen zu einem visuellen Rätsel. Konfigurieren Sie die Rastergröße von 2×2 bis 4×4, um Puzzles mit 4 bis 16 Teilen zu erstellen, und wählen Sie zwischen Addition, Subtraktion oder gemischten Rechenoperationen für jedes Niveau. Wählen Sie aus über 3.100 kuratierten Illustrationen in 104 Themen wie Bauernhoftiere, Weltraum, Dinosaurier und Feiertage, um jedes Puzzle einzigartig zu gestalten. Jedes Arbeitsblatt generiert automatisch einen Lösungsschlüssel, der das gelöste Raster neben dem vollständigen Bild zeigt. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Ob Sie thematische Puzzle-Pakete auf Etsy.de verkaufen, progressive Aktivitätsbücher für Amazon KDP zusammenstellen oder interaktive Mathe-Stationen für Ihr Shop erstellen — der Mathe-Rätsel-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -42,12 +42,12 @@ const content: AppContent = {
       {
         title: 'Bild aus der Themenbibliothek auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Wählen Sie das gewünschte Bild als Ihr Puzzle-Motiv aus; der Generator teilt es automatisch in die konfigurierten Rasterzellen auf. Sie können auch eigene Bilder hochladen, um völlig einzigartige Puzzles zu erstellen, die zu Ihrer Marke, Ihrem Unterrichtsthema oder Ihrer saisonalen Produktlinie passen.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Wählen Sie das gewünschte Bild als Ihr Puzzle-Motiv aus; der Generator teilt es automatisch in die konfigurierten Rasterzellen auf. Sie können auch eigene Bilder hochladen, um völlig einzigartige Puzzles zu erstellen, die zu Ihrer Marke, Ihrem Produktthema oder Ihrer saisonalen Produktlinie passen.',
       },
       {
         title: 'Text, Titel und individuelle Anpassungen',
         description:
-          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Schülername und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben Schriftarten: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Passen Sie Schriftgröße, Farbe und Kontur für optimale Lesbarkeit an. Nutzen Sie die integrierte Fabric.js-Arbeitsfläche, um jedes Element zu verschieben, zu skalieren und neu zu positionieren — mit Ebenensteuerung, Ausrichtungshilfen, Sperr-/Entsperrfunktion und unbegrenztem Rückgängig und Wiederherstellen für präzises Layout.',
+          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Name und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben Schriftarten: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana. Passen Sie Schriftgröße, Farbe und Kontur für optimale Lesbarkeit an. Nutzen Sie die integrierte Fabric.js-Arbeitsfläche, um jedes Element zu verschieben, zu skalieren und neu zu positionieren — mit Ebenensteuerung, Ausrichtungshilfen, Sperr-/Entsperrfunktion und unbegrenztem Rückgängig und Wiederherstellen für präzises Layout.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Bilderpuzzle-Format mit Rechenaufgaben',
         description:
-          'Jedes Arbeitsblatt zeigt ein ausgewähltes Bild, das in ein Raster aus Zellen aufgeteilt ist — jede Zelle enthält eine Rechenaufgabe. Unter dem Raster werden die durchmischten Puzzleteile angezeigt, die die Schüler durch Lösen der Aufgaben den richtigen Teilen zuordnen. Dieses zweiphasige Layout — zuerst rechnen, dann das Puzzle zusammensetzen — verwandelt einfache Arithmetik in eine spannende visuelle Herausforderung, die Schüler motiviert, jede Aufgabe auf der Seite zu lösen.',
+          'Jedes Arbeitsblatt zeigt ein ausgewähltes Bild, das in ein Raster aus Zellen aufgeteilt ist — jede Zelle enthält eine Rechenaufgabe. Unter dem Raster werden die durchmischten Puzzleteile angezeigt, die die Nutzer durch Lösen der Aufgaben den richtigen Teilen zuordnen. Dieses zweiphasige Layout — zuerst rechnen, dann das Puzzle zusammensetzen — verwandelt einfache Arithmetik in eine spannende visuelle Herausforderung, die Nutzer motiviert, jede Aufgabe auf der Seite zu lösen.',
       },
       {
         title: 'Konfigurierbares Raster von 4 bis 16 Teilen',
         description:
-          'Legen Sie die Zeilen von 2 bis 4 und die Spalten von 2 bis 4 fest, um Puzzles von einem anfängerfreundlichen 2×2-Raster (4 Teile) bis zu einem anspruchsvollen 4×4-Raster (16 Teile) zu erstellen. Kleinere Raster eignen sich perfekt für Vorschüler und Kindergartenkinder, die weniger Aufgaben pro Seite benötigen, während größere Raster erweiterte Übung für die erste und zweite Klasse bieten. Die Rastergröße steuert direkt die Aufgabenanzahl — Schwierigkeitsdifferenzierung durch einfaches Verstellen zweier Regler.',
+          'Legen Sie die Zeilen von 2 bis 4 und die Spalten von 2 bis 4 fest, um Puzzles von einem anfängerfreundlichen 2×2-Raster (4 Teile) bis zu einem anspruchsvollen 4×4-Raster (16 Teile) zu erstellen. Kleinere Raster eignen sich perfekt für Vorschul-Nische und Kindergartenkinder, die weniger Aufgaben pro Seite benötigen, während größere Raster erweiterte Übung für die erste und zweite Klasse bieten. Die Rastergröße steuert direkt die Aufgabenanzahl — Schwierigkeitsdifferenzierung durch einfaches Verstellen zweier Regler.',
       },
       {
         title: 'Drei Rechenoperationen für jedes Niveau',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: '104 visuelle Themen mit 3.100+ Bildern',
         description:
-          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 hochauflösenden Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Wählen Sie ein beliebiges Bild als Ihr Puzzle-Motiv — der Generator übernimmt die Aufteilung automatisch. Da das Puzzle-Format rein visuell ist, funktionieren Ihre Arbeitsblätter in jeder Sprache und jedem Klassenzimmer weltweit ohne Anpassung.',
+          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 hochauflösenden Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Wählen Sie ein beliebiges Bild als Ihr Puzzle-Motiv — der Generator übernimmt die Aufteilung automatisch. Da das Puzzle-Format rein visuell ist, funktionieren Ihre Arbeitsblätter in jeder Sprache und jedem Shop weltweit ohne Anpassung.',
       },
       {
         title: 'Automatische Lösungsschlüssel-Erstellung',
         description:
-          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu generieren, der das gelöste Raster mit allen korrekt beantworteten Rechenaufgaben neben dem vollständig zusammengesetzten Bild zeigt. Der Lösungsschlüssel bietet sofortige visuelle Überprüfung — Schüler und Lehrkräfte sehen auf einen Blick sowohl die mathematischen Lösungen als auch das fertige Bild. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei für Lehrerausgaben, Elternleitfäden oder Etsy-Produktpakete.',
+          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu generieren, der das gelöste Raster mit allen korrekt beantworteten Rechenaufgaben neben dem vollständig zusammengesetzten Bild zeigt. Der Lösungsschlüssel bietet sofortige visuelle Überprüfung — Nutzer und Verkäufer sehen auf einen Blick sowohl die mathematischen Lösungen als auch das fertige Bild. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei für Etsy-Pakete, Elternleitfäden oder Etsy-Produktpakete.',
       },
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
         description:
-          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintenfreundliche Versionen, ideal für den Klassenzimmerdruck oder Schwarz-Weiß-Aktivitätsbücher. Letter, A4, Standard-Arbeitsblatt, Quadrat und benutzerdefinierte Größen werden unterstützt.',
+          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintenfreundliche Versionen, ideal für den Shopdruck oder Schwarz-Weiß-Aktivitätsbücher. Letter, A4, Standard-Arbeitsblatt, Quadrat und benutzerdefinierte Größen werden unterstützt.',
       },
       {
         title: 'Eigene Bilder hochladen für einzigartige Puzzles',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische Mathe-Puzzle-Pakete auf Etsy',
         description:
-          'Erstellen Sie Sets mit 10–20 Mathe-Rätsel-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Fügen Sie Lösungsschlüssel als Bonusdateien bei. Das Puzzle-Format hebt sich deutlich von Standard-Rechenblättern ab und spricht Eltern an, die nach motivierenden Mathe-Übungen suchen, sowie Lehrkräfte, die kreative Unterrichtsaktivitäten benötigen. Einzelne Themenpakete kosten €3–€5, Mega-Pakete €12–€18.',
+          'Erstellen Sie Sets mit 10–20 Mathe-Rätsel-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Fügen Sie Lösungsschlüssel als Bonusdateien bei. Das Puzzle-Format hebt sich deutlich von Standard-Rechenblättern ab und spricht Eltern an, die nach motivierenden Mathe-Übungen suchen, sowie Verkäufer, die kreative Produkterstellungsaktivitäten benötigen. Einzelne Themenpakete kosten €3–€5, Mega-Pakete €12–€18.',
         platform: 'Etsy (etsy.de)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Mathe-Rätsel-Stationen für Lehrermarktplatz',
+        title: 'Differenzierte Mathe-Rätsel-Stationen für Gumroad',
         description:
-          'Erstellen Sie gestufte Mathe-Puzzle-Sets mit der Rastergröße als Schwierigkeitsachse: Stufe 1 (2×2 Addition, 4 Teile), Stufe 2 (2×3 Addition, 6 Teile), Stufe 3 (3×3 Subtraktion, 9 Teile) und Stufe 4 (4×4 gemischt, 16 Teile). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Lehrermarktplatz zahlen Premiumpreise für differenzierte Materialien, die sich direkt als Mathe-Stationen-Rotation einsetzen lassen.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Mathe-Puzzle-Sets mit der Rastergröße als Schwierigkeitsachse: Stufe 1 (2×2 Addition, 4 Teile), Stufe 2 (2×3 Addition, 6 Teile), Stufe 3 (3×3 Subtraktion, 9 Teile) und Stufe 4 (4×4 gemischt, 16 Teile). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Gumroad zahlen Premiumpreise für gestufte Materialien, die sich direkt als Mathe-Stationen-Rotation einsetzen lassen.',
+        platform: 'Gumroad',
       },
       {
         title: 'Abo-Inhalte für den eigenen Online-Shop',
         description:
-          'Nutzen Sie den Generator, um wöchentlich frische Mathe-Rätsel-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Puzzle-Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Nachhilfezentren auf. Mit drei Rechenoperationen, variablen Rastergrößen und 104 Themen haben Sie genug Kombinationen für jahrelangen einzigartigen Content.',
+          'Nutzen Sie den Generator, um wöchentlich frische Mathe-Rätsel-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Puzzle-Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Geschäftzentren auf. Mit drei Rechenoperationen, variablen Rastergrößen und 104 Themen haben Sie genug Kombinationen für jahrelangen einzigartigen Content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Mathe-Puzzles für Unterricht und Nachhilfe',
+        title: 'Mathe-Puzzles für Produkterstellung und Geschäft',
         description:
-          'Erstellen Sie maßgeschneiderte Mathe-Puzzles für das aktuelle Niveau jedes Schülers. Drucken Sie einfache 2×2-Additions-Puzzles für Anfänger und komplexe 4×4-Puzzles mit gemischten Operationen für Fortgeschrittene — alles in einer Sitzung. Der Puzzle-Enthüllungs-Mechanismus motiviert Schüler, jede Aufgabe zu lösen, um das vollständige Bild zu sehen, und reduziert den Widerstand, den viele gegen wiederholte Rechenübungen empfinden. Der automatische Lösungsschlüssel spart Korrekturzeit.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Erstellen Sie maßgeschneiderte Mathe-Puzzles für das aktuelle Niveau jedes Nutzers. Drucken Sie einfache 2×2-Additions-Puzzles für Anfänger und komplexe 4×4-Puzzles mit gemischten Operationen für Fortgeschrittene — alles in einer Sitzung. Der Puzzle-Enthüllungs-Mechanismus motiviert Nutzer, jede Aufgabe zu lösen, um das vollständige Bild zu sehen, und reduziert den Widerstand, den viele gegen wiederholte Rechenübungen empfinden. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert das Mathe-Rätsel-Format?',
       answer:
-        'Ein ausgewähltes Bild wird in ein Raster aus Zellen aufgeteilt. Jede Zelle enthält eine Rechenaufgabe (Addition, Subtraktion oder gemischt). Unter dem Raster werden dieselben Bildteile durchmischt und nummeriert angezeigt. Die Schüler lösen jede Rechenaufgabe und ordnen dann die Antwort dem richtigen durchmischten Teil zu — wenn alle Teile korrekt zugeordnet sind, ist das Puzzle gelöst und das vollständige Bild wird enthüllt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+        'Ein ausgewähltes Bild wird in ein Raster aus Zellen aufgeteilt. Jede Zelle enthält eine Rechenaufgabe (Addition, Subtraktion oder gemischt). Unter dem Raster werden dieselben Bildteile durchmischt und nummeriert angezeigt. Die Nutzer lösen jede Rechenaufgabe und ordnen dann die Antwort dem richtigen durchmischten Teil zu — wenn alle Teile korrekt zugeordnet sind, ist das Puzzle gelöst und das vollständige Bild wird enthüllt. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Welche Rastergrößen sind für die Puzzles verfügbar?',
       answer:
-        'Sie können Zeilen von 2 bis 4 und Spalten von 2 bis 4 einstellen und so Puzzles mit 4 Teilen (2×2) bis 16 Teilen (4×4) erstellen. Kleinere Raster eignen sich ideal für jüngere Schüler oder schnelle Aktivitäten, während größere Raster mehr Aufgaben und eine größere Puzzle-Herausforderung bieten. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+        'Sie können Zeilen von 2 bis 4 und Spalten von 2 bis 4 einstellen und so Puzzles mit 4 Teilen (2×2) bis 16 Teilen (4×4) erstellen. Kleinere Raster eignen sich ideal für Einsteiger oder schnelle Aktivitäten, während größere Raster mehr Aufgaben und eine größere Puzzle-Herausforderung bieten. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Welche Rechenoperationen unterstützt der Mathe-Rätsel-Generator?',
@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Erstellt der Generator Lösungsschlüssel für die Puzzles?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine gelöste Version zu erstellen, die das vollständige Raster mit allen eingetragenen Rechenantworten neben dem zusammengesetzten Bild zeigt. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei herunterladen, um ihn in Lehrerausgaben oder Produktpakete einzubinden. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine gelöste Version zu erstellen, die das vollständige Raster mit allen eingetragenen Rechenantworten neben dem zusammengesetzten Bild zeigt. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei herunterladen, um ihn in Etsy-Pakete oder Produktpakete einzubinden. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Sind Mathe-Rätsel-Arbeitsblätter sprachabhängig?',
@@ -183,7 +183,7 @@ const content: AppContent = {
     {
       question: 'Kann ich Puzzles in Graustufen für tintenfreundlichen Druck exportieren?',
       answer:
-        'Ja. Aktivieren Sie die Graustufen-Option vor dem Export, um Schwarz-Weiß-Versionen zu erstellen — perfekt für den Klassenzimmerdruck, Hausaufgabenpakete oder Aktivitätsbücher, bei denen Farbdruck nicht praktikabel ist. Sowohl JPEG- als auch PDF-Exporte unterstützen die Graustufen-Umschaltung. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+        'Ja. Aktivieren Sie die Graustufen-Option vor dem Export, um Schwarz-Weiß-Versionen zu erstellen — perfekt für den Shopdruck, Hausaufgabenpakete oder Aktivitätsbücher, bei denen Farbdruck nicht praktikabel ist. Sowohl JPEG- als auch PDF-Exporte unterstützen die Graustufen-Umschaltung. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
@@ -193,12 +193,12 @@ const content: AppContent = {
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Puzzles. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Puzzles. Die Testversion mit Wasserzeichen gibt Ihnen unbegrenzten Zugang, um alle Funktionen in Ihrem eigenen Tempo und ohne Zeitlimit zu erkunden — nutzen Sie sie so lange, wie Sie benötigen, um zu bewerten, ob das Werkzeug zu Ihrem Produktionsablauf passt. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
-        'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Rechenoperation, jede Rastergröße, jedes Thema und jedes Exportformat vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+        'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Rechenoperation, jede Rastergröße, jedes Thema und jedes Exportformat vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
   ],
 
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mathe-grundlagen-druckvorlagen-ideen',
-      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Verkäufer & Verkäufer',
     },
     {
       pageType: 'idea',

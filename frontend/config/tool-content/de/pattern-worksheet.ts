@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Name/Datum-Felder und Übungsoptionen umschalten',
-        description: 'Aktivieren Sie optionale Name- und Datum-Ausschnittfelder für die Schüleridentifikation auf gedruckten Arbeitsblättern. Diese Felder erscheinen als gepunktete Linien, die Lernende vor Beginn ausfüllen. Schalten Sie Übungsnummern und dekorative Elemente ein oder aus. Jede Option verfeinert das Arbeitsblatt-Layout für Ihre Zielgruppe — Klassenzimmer-Arbeitsblätter profitieren von Namensfeldern, während digitale Downloads sie für ein klareres Erscheinungsbild weglassen können.',
+        description: 'Aktivieren Sie optionale Name- und Datum-Ausschnittfelder für die Nutzeridentifikation auf gedruckten Arbeitsblättern. Diese Felder erscheinen als gepunktete Linien, die Lernende vor Beginn ausfüllen. Schalten Sie Übungsnummern und dekorative Elemente ein oder aus. Jede Option verfeinert das Arbeitsblatt-Layout für Ihre Zielgruppe — Shop-Arbeitsblätter profitieren von Namensfeldern, während digitale Downloads sie für ein klareres Erscheinungsbild weglassen können.',
       },
       {
         title: 'Text hinzufügen und Arbeitsfläche anpassen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Lösungsschlüssel prüfen und herunterladen',
-        description: 'Wechseln Sie zum Lösungsschlüssel-Tab, um das vollständige Arbeitsblatt mit allen Lücken ausgefüllt zu sehen, die die korrekten Musterelemente zeigen. Bei Multiple-Choice-Übungen wird die korrekte Antwort deutlich gekennzeichnet. Sowohl Arbeitsblatt als auch Lösungsschlüssel sind auf separaten Arbeitsflächen unabhängig bearbeitbar. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Laden Sie beides als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien.',
+        description: 'Wechseln Sie zum Lösungsschlüssel-Tab, um das vollständige Arbeitsblatt mit allen Lücken ausgefüllt zu sehen, die die korrekten Musterelemente zeigen. Bei Multiple-Choice-Übungen wird die korrekte Antwort deutlich gekennzeichnet. Sowohl Arbeitsblatt als auch Lösungsschlüssel sind auf separaten Arbeitsflächen unabhängig bearbeitbar. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Laden Sie beides als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Differenzierte Misch-Schwierigkeits-Seiten',
-      description: 'Erstellen Sie Arbeitsblätter, bei denen jede Übung auf derselben Seite ein anderes Fähigkeitsniveau anspricht — dank Pro-Übung-Konfiguration. Übung 1: AB-Lückenfeld zum Aufwärmen. Übung 2: AAB-Lückenfeld zum Üben. Übung 3: ABC-Multiple-Choice als geführte Herausforderung. Übung 4: ABCD-Lückenfeld mit Zufälligem Start zur Leistungsüberprüfung. Eine gedruckte Seite dient als vollständige differenzierte Aktivität. Lehrkräfte erhalten abwechslungsreiche Übung ohne separate Blätter zu verwalten, und Verkäufer erstellen anspruchsvolle Produkte, die höhere Preise erzielen als Einzel-Muster-Seiten.',
+      description: 'Erstellen Sie Arbeitsblätter, bei denen jede Übung auf derselben Seite ein anderes Fähigkeitsniveau anspricht — dank Pro-Übung-Konfiguration. Übung 1: AB-Lückenfeld zum Aufwärmen. Übung 2: AAB-Lückenfeld zum Üben. Übung 3: ABC-Multiple-Choice als geführte Herausforderung. Übung 4: ABCD-Lückenfeld mit Zufälligem Start zur Leistungsüberprüfung. Eine gedruckte Seite dient als vollständige gestufte Aktivität. Verkäufer erhalten abwechslungsreiche Übung ohne separate Blätter zu verwalten, und Verkäufer erstellen anspruchsvolle Produkte, die höhere Preise erzielen als Einzel-Muster-Seiten.',
     },
     {
       title: 'Saisonale und Feiertags-Muster-Sets',
-      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Mustervervollständigungs-Pakete. Ein „Halloween-Muster“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Lehrermarktplatz. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
+      description: 'Nutzen Sie saisonale und Feiertags-Bildthemen für aktuell verfügbare Mustervervollständigungs-Pakete. Ein „Halloween-Muster“-Paket mit gruseligen Bildern verkauft sich im Oktober. Weihnachten, Schulanfang, Valentinstag und Sommer-Themen treffen jeweils eigene Spitzenverkaufsfenster auf Etsy und dem Gumroad. Kombinieren Sie einfache AB-Aufwärmübungen mit anspruchsvollen ABCD-Herausforderungen in jedem saisonalen Set, um mehrere Fähigkeitsstufen abzudecken. Zwei Fragemodi multiplizieren die Vielfalt innerhalb jedes Themas.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Gestufte Muster-Lernstationen',
-      description: 'Laden Sie Muster-Arbeitsblatt-Pakete auf dem Lehrermarktplatz hoch, organisiert nach Fähigkeitsstufe mit Pro-Übung-Konfiguration als Differenzierungsmerkmal. Stufe 1 enthält ausschließlich AB-Lückenfeld-Übungen. Stufe 2 mischt AB und AAB mit beiden Modi. Stufe 3 führt ABC-Multiple-Choice neben Lückenfeld-Aufwärmübungen ein. Stufe 4 kombiniert ABCD-Herausforderungen mit Zufälligem Start. Jede Stufe nutzt thematische Übungen mit separaten Lösungsschlüsseln. Die Pro-Übung-Unabhängigkeit bedeutet, dass eine gedruckte Seite als vollständige Lernstation dient. Lehrkräfte suchen nach „Mustererkennungs-Arbeitsblätter“ und finden wenige Angebote mit neun Mustertypen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Gestufte Muster-Lernstationen',
+      description: 'Laden Sie Muster-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Fähigkeitsstufe mit Pro-Übung-Konfiguration als Differenzierungsmerkmal. Stufe 1 enthält ausschließlich AB-Lückenfeld-Übungen. Stufe 2 mischt AB und AAB mit beiden Modi. Stufe 3 führt ABC-Multiple-Choice neben Lückenfeld-Aufwärmübungen ein. Stufe 4 kombiniert ABCD-Herausforderungen mit Zufälligem Start. Jede Stufe nutzt thematische Übungen mit separaten Lösungsschlüsseln. Die Pro-Übung-Unabhängigkeit bedeutet, dass eine gedruckte Seite als vollständige Lernstation dient. Verkäufer suchen nach „Mustererkennungs-Arbeitsblätter“ und finden wenige Angebote mit neun Mustertypen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visueller Muster-Trichter',
-      description: 'Muster-Arbeitsblätter mit farbenfrohen Themenbildern im übersichtlichen Rasterlayout eignen sich hervorragend als Pinterest-Pins. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie Pins für jeden Fragemodus separat — „Lückenfeld-Muster-Arbeitsblätter“ und „Multiple-Choice-Muster-Arbeitsblätter“ sprechen verschiedene Suchanfragen an. Das textfreie Format bedeutet, dass Pins Eltern und Lehrkräfte in jedem Land ansprechen.',
+      description: 'Muster-Arbeitsblätter mit farbenfrohen Themenbildern im übersichtlichen Rasterlayout eignen sich hervorragend als Pinterest-Pins. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Mustertypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie Pins für jeden Fragemodus separat — „Lückenfeld-Muster-Arbeitsblätter“ und „Multiple-Choice-Muster-Arbeitsblätter“ sprechen verschiedene Suchanfragen an. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Komplett-Paket Mustererkennung (Raster + Zug)',
-      description: 'Bündeln Sie Muster-Arbeitsblätter (Rasterformat, 9 Typen, 2 Modi) mit Muster-Zug-Arbeitsblättern (Zugformat, 5 Typen) zu einem umfassenden Mustererkennungs-Toolkit auf Gumroad. Jedes Format trainiert dieselbe Fähigkeit mit einem grundsätzlich anderen visuellen Ansatz. Das Rasterformat überzeugt bei Volumen und Misch-Schwierigkeits-Bewertungsseiten. Das Zugformat bietet visuelles Engagement durch sein einzigartiges Waggon-Layout. Zusammen decken sie jeden Musterlern-Bedarf ab. Ein Dual-Format-Toolkit rechtfertigt einen Premium-Preis und differenziert sich von Einzel-Format-Konkurrenten.',
+      description: 'Bündeln Sie Muster-Arbeitsblätter (Rasterformat, 9 Typen, 2 Modi) mit Muster-Zug-Arbeitsblättern (Zugformat, 5 Typen) zu einem umfassenden Mustererkennungs-Toolkit auf Gumroad. Jedes Format trainiert dieselbe Fähigkeit mit einem grundsätzlich anderen visuellen Ansatz. Das Rasterformat überzeugt bei Volumen und Misch-Schwierigkeits-Bewertungsseiten. Das Zugformat bietet visuelles Engagement durch sein einzigartiges Waggon-Layout. Zusammen decken sie jeden Musterlern-Bedarf ab. Ein Dual-Format-Toolkit rechtfertigt einen Premium-Preis und gestuft sich von Einzel-Format-Konkurrenten.',
       platform: 'Gumroad',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Zufälliger Start und Zufällige Lückenposition für einzigartige Blätter aktivieren',
-      description: 'Zufälliger Start beginnt Muster mitten im Zyklus statt beim ersten Element. Zufällige Lückenposition platziert das fehlende Element an wechselnden Stellen in der Sequenz. Zusammen stellen diese Einstellungen sicher, dass jedes generierte Arbeitsblatt einzigartig ist, selbst bei gleichem Mustertyp und Thema. Für Verkäufer vervielfacht das die Anzahl nicht-repetitiver Arbeitsblätter. Für Lehrkräfte verhindert es das Abschreiben von Antworten.',
+      description: 'Zufälliger Start beginnt Muster mitten im Zyklus statt beim ersten Element. Zufällige Lückenposition platziert das fehlende Element an wechselnden Stellen in der Sequenz. Zusammen stellen diese Einstellungen sicher, dass jedes generierte Arbeitsblatt einzigartig ist, selbst bei gleichem Mustertyp und Thema. Für Verkäufer vervielfacht das die Anzahl nicht-repetitiver Arbeitsblätter. Für Verkäufer verhindert es das Abschreiben von Antworten.',
     },
     {
       title: 'Textfreiheit für globale Verkaufbarkeit hervorheben',
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Musterkomplexität auf die Ziel-Altersgruppe abstimmen',
-      description: 'Für Vorschulkinder (3–4 Jahre) verwenden Sie AB- und AAB-Muster im Lückenfeld-Modus für einfache Erkennung. Für Kindergartenkinder (4–6 Jahre) führen Sie ABC-Muster und den Multiple-Choice-Modus ein. Für Erstklässler und älter erzeugen ABBC- bis ABCD-Muster mit Zufälligem Start echte Denkaufgaben. Geben Sie die Ziel-Altersgruppe in Ihren Produkttiteln und Tags für bessere Marktplatz-Suchausrichtung an.',
+      description: 'Für Vorschulkinder (3–4 Jahre) verwenden Sie AB- und AAB-Muster im Lückenfeld-Modus für einfache Erkennung. Für Kindergartenkinder (4–6 Jahre) führen Sie ABC-Muster und den Multiple-Choice-Modus ein. Für K-2-Produktmarkt und älter erzeugen ABBC- bis ABCD-Muster mit Zufälligem Start echte Denkaufgaben. Geben Sie die Ziel-Altersgruppe in Ihren Produkttiteln und Tags für bessere Marktplatz-Suchausrichtung an.',
     },
     {
       title: 'Graustufen für KDP und Massendruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Ausgabe kostet deutlich weniger im Druck und erfüllt KDP-Innenteil-Anforderungen für Standard-Bücher (ohne Premium-Farbe). Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen und digitale Download-Produkte, bei denen lebhafte Themenbilder Klicks in Suchergebnissen anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Shop-Massendruck bestimmt sind. Schwarzweiß-Ausgabe kostet deutlich weniger im Druck und erfüllt KDP-Innenteil-Anforderungen für Standard-Bücher (ohne Premium-Farbe). Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen und digitale Download-Produkte, bei denen lebhafte Themenbilder Klicks in Suchergebnissen anziehen.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktioniert die Pro-Übung-Konfiguration?',
-      answer: 'Jede Übung auf der Seite hat unabhängige Einstellungen für Mustertyp, Fragemodus und Bildthema. Übung 1 kann eine AB-Lückenfeld-Übung mit Bauernhoftieren sein, Übung 2 eine ABC-Multiple-Choice-Übung mit Fahrzeugen und Übung 3 eine ABCD-Lückenfeld-Übung mit Meeresbewohnern — alles auf derselben Seite. Das bedeutet, ein Arbeitsblatt dient als vollständige differenzierte Aktivität mit progressiver Schwierigkeit, ohne separate Seiten für jeden Mustertyp oder Fragemodus zu benötigen.',
+      answer: 'Jede Übung auf der Seite hat unabhängige Einstellungen für Mustertyp, Fragemodus und Bildthema. Übung 1 kann eine AB-Lückenfeld-Übung mit Bauernhoftieren sein, Übung 2 eine ABC-Multiple-Choice-Übung mit Fahrzeugen und Übung 3 eine ABCD-Lückenfeld-Übung mit Meeresbewohnern — alles auf derselben Seite. Das bedeutet, ein Arbeitsblatt dient als vollständige gestufte Aktivität mit progressiver Schwierigkeit, ohne separate Seiten für jeden Mustertyp oder Fragemodus zu benötigen.',
     },
     {
       question: 'Wie unterscheidet sich Muster-Arbeitsblatt von Muster-Zug?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Muster-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Neun Mustertypen, zwei Fragemodi und Pro-Übung-Konfiguration bieten Ihnen die breiteste Produktvielfalt und Differenzierung.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Muster-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Neun Mustertypen, zwei Fragemodi und Pro-Übung-Konfiguration bieten Ihnen die breiteste Produktvielfalt und Differenzierung.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

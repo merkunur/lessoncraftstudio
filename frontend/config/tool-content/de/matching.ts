@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Paare, Nummern und Formatierung konfigurieren',
-        description: 'Stellen Sie die Paaranzahl auf 4, 5 oder 6 über das Dropdown ein (Standard 6). Weniger Paare erzeugen Arbeitsblätter mit größeren Bildern und mehr Abstand für jüngere Lernende; mehr Paare erhöhen den Schwierigkeitsgrad und die Inhaltsdichte. Schalten Sie „Elementnummern einfügen“ (Standard EIN) um, um Nummern vor jedem Paar hinzuzufügen für einfache Lösungskontrolle im Unterricht. Schalten Sie „Aufzählungspunkte anzeigen“ (Standard EIN) um, um dekorative Punkte neben Elementen anzuzeigen. Aktivieren Sie „Namens-/Datumsfelder einfügen“, um Namens- und Datumszeilen unten auf der Seite hinzuzufügen. Beide Formatierungs-Schalter funktionieren unabhängig für volle Kontrolle über die visuelle Struktur.',
+        description: 'Stellen Sie die Paaranzahl auf 4, 5 oder 6 über das Dropdown ein (Standard 6). Weniger Paare erzeugen Arbeitsblätter mit größeren Bildern und mehr Abstand für jüngere Lernende; mehr Paare erhöhen den Schwierigkeitsgrad und die Inhaltsdichte. Schalten Sie „Elementnummern einfügen“ (Standard EIN) um, um Nummern vor jedem Paar hinzuzufügen für einfache Lösungskontrolle in der Produkterstellung. Schalten Sie „Aufzählungspunkte anzeigen“ (Standard EIN) um, um dekorative Punkte neben Elementen anzuzeigen. Aktivieren Sie „Namens-/Datumsfelder einfügen“, um Namens- und Datumszeilen unten auf der Seite hinzuzufügen. Beide Formatierungs-Schalter funktionieren unabhängig für volle Kontrolle über die visuelle Struktur.',
       },
       {
         title: 'Bilder aus der Bibliothek auswählen',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Das Zuordnungs-Arbeitsblatt generieren',
-        description: 'Klicken Sie auf Generieren, um das zweispaltige Zuordnungslayout zu erstellen. Die App ordnet Ihre ausgewählten Bilder und Texte in linke und rechte Spalten mit der konfigurierten Paaranzahl an. Eine gestaltete „Finde die Paare!“-Überschrift erscheint oben mit gelbem Pillen-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50, 8px Strichstärke) und lokalisiertem Titel und Anweisungen in Fredoka und Quicksand. Elementnummern und Aufzählungspunkte erscheinen basierend auf Ihren Schaltereinstellungen. Der Arbeitsblatt-Tab zeigt die Schülerversion ohne Verbindungslinien — bereit für Lernende, ihre eigenen Linien zu ziehen.',
+        description: 'Klicken Sie auf Generieren, um das zweispaltige Zuordnungslayout zu erstellen. Die App ordnet Ihre ausgewählten Bilder und Texte in linke und rechte Spalten mit der konfigurierten Paaranzahl an. Eine gestaltete „Finde die Paare!“-Überschrift erscheint oben mit gelbem Pillen-Hintergrund (#FFD700), korallenrotem Rahmen (#FF7F50, 8px Strichstärke) und lokalisiertem Titel und Anweisungen in Fredoka und Quicksand. Elementnummern und Aufzählungspunkte erscheinen basierend auf Ihren Schaltereinstellungen. Der Arbeitsblatt-Tab zeigt die Nutzerversion ohne Verbindungslinien — bereit für Lernende, ihre eigenen Linien zu ziehen.',
       },
       {
         title: 'Den automatisch generierten Lösungsschlüssel prüfen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Alle vier Dateien herunterladen',
-        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Klassenzimmerdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung. Wechseln Sie die Sprache, um lokalisierte Versionen derselben Zuordnungs-Aktivität zu generieren — die Modi Anfangsbuchstabe und Bild+Wort erzeugen unterschiedliche Wörter und Buchstaben in jeder Sprache und multiplizieren Ihren Produktkatalog aus einer einzigen Design-Sitzung.',
+        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Shopdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien ohne Nachbearbeitung. Wechseln Sie die Sprache, um lokalisierte Versionen derselben Zuordnungs-Aktivität zu generieren — die Modi Anfangsbuchstabe und Bild+Wort erzeugen unterschiedliche Wörter und Buchstaben in jeder Sprache und multiplizieren Ihren Produktkatalog aus einer einzigen Design-Sitzung.',
       },
     ],
   },
@@ -65,27 +65,27 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Zuordnungs-Pakete nach Modus',
-      description: 'Erstellen Sie Zuordnungs-Aktivitätspakete organisiert nach Modus und Thema unter Nutzung der 104 Bildsammlungen. Ein einzelnes Tierthema erzeugt vier verschiedene Produkttypen: Anfangsbuchstaben-Zuordnung für Phonikübungen, Bild+Wort-Zuordnung für Wortschatzaufbau, Bild/Wort-Mischungs-Zuordnung für differenzierte Schwierigkeitsgrade und Eigenes-Wort-Zuordnung für Rechtschreibübungen. Jedes Paket enthält 15–20 Arbeitsblätter pro Modus pro Thema mit automatisch generierten Lösungsschlüsseln. Das Vier-Modi-System bedeutet, dass jedes Thema in der Bibliothek vier separate Produktangebote unterstützt — jedes zielt auf eine andere pädagogische Fähigkeit und multipliziert Ihren Katalog aus einem einzigen Bildsatz.',
+      description: 'Erstellen Sie Zuordnungs-Aktivitätspakete organisiert nach Modus und Thema unter Nutzung der 104 Bildsammlungen. Ein einzelnes Tierthema erzeugt vier verschiedene Produkttypen: Anfangsbuchstaben-Zuordnung für Phonikübungen, Bild+Wort-Zuordnung für Wortschatzaufbau, Bild/Wort-Mischungs-Zuordnung für gestufte Schwierigkeitsgrade und Eigenes-Wort-Zuordnung für Rechtschreibübungen. Jedes Paket enthält 15–20 Arbeitsblätter pro Modus pro Thema mit automatisch generierten Lösungsschlüsseln. Das Vier-Modi-System bedeutet, dass jedes Thema in der Bibliothek vier separate Produktangebote unterstützt — jedes zielt auf eine andere pädagogische Fähigkeit und multipliziert Ihren Katalog aus einem einzigen Bildsatz.',
     },
     {
       title: 'KDP-Lese-Lern-Zuordnungs-Arbeitsbücher',
       description: 'Stellen Sie 60–80 Zuordnungs-Arbeitsblätter zu gedruckten Lese-Lern-Arbeitsbüchern für Amazon KDP zusammen. Der Anfangsbuchstaben-Modus ist ideal für phonemisches Bewusstsein — Lernende ordnen Bilder ihren Anfangsbuchstaben zu. Strukturieren Sie Kapitel nach Schwierigkeit: Kapitel 1 verwendet 4 Paare mit Großbuchstaben für Anfänger, Kapitel 2 verwendet 5 Paare mit Kleinbuchstaben für Fortgeschrittene, Kapitel 3 verwendet 6 Paare für geübte Lernende. Fügen Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels ein. Die sprachabhängige Ausgabe ermöglicht separate Editionen in mehreren Sprachen aus denselben Bildauswahlen, jeweils mit lokalisierten Wörtern und Buchstaben.',
     },
     {
-      title: 'Unterrichtsfertige Zuordnungs-Stationen-Aktivitäten',
-      description: 'Erstellen Sie unterrichtsfertige Zuordnungs-Stationen-Arbeitsblätter mit Namens-/Datumsfeldern, Elementnummern und gedruckten Lösungsschlüsseln, nach denen Käufer auf dem Lehrermarktplatz gezielt suchen. Das Namensfeld gewährleistet Verantwortlichkeit, Elementnummern machen die Lösungskontrolle in der Gruppenarbeit effizient und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanabgestimmte Sets: Gemeinschaftshelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Vokabel-Zuordnung und Tier-Lebensraum-Zuordnung. Lehrkräfte schätzen Zuordnungs-Aktivitäten, die sofort einsatzbereit ankommen mit allen Unterrichtselementen integriert.',
+      title: 'Produkterstellungsfertige Zuordnungs-Stationen-Aktivitäten',
+      description: 'Erstellen Sie unterrichtsfertige Zuordnungs-Stationen-Arbeitsblätter mit Namens-/Datumsfeldern, Elementnummern und gedruckten Lösungsschlüsseln, nach denen Käufer auf Gumroad gezielt suchen. Das Namensfeld gewährleistet Verantwortlichkeit, Elementnummern machen die Lösungskontrolle in der Gruppenarbeit effizient und der automatisch generierte Lösungsschlüssel spart Vorbereitungszeit. Erstellen Sie lehrplanabgestimmte Sets: Gemeinschaftshelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Vokabel-Zuordnung und Tier-Lebensraum-Zuordnung. Verkäufer schätzen Zuordnungs-Aktivitäten, die sofort einsatzbereit ankommen mit allen Produkterstellungselementen integriert.',
     },
     {
       title: 'Mehrsprachige Vokabel-Zuordnungs-Sammlungen',
-      description: 'Nutzen Sie die sprachabhängigen Modi Anfangsbuchstabe und Bild+Wort, um Zuordnungs-Arbeitsblätter in allen 11 unterstützten Sprachen zu erstellen. Dieselben Tierbilder erzeugen völlig unterschiedliche Zuordnungsinhalte, wenn Sie von Deutsch zu Englisch, Französisch, Spanisch oder einer anderen Sprache wechseln — Bildnamen, Anfangsbuchstaben und die „Finde die Paare!“-Überschrift aktualisieren sich automatisch. Erstellen Sie mehrsprachige Vokabelpakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber lokalisierte Wörter. Dies ist wertvoll für DaF/DaZ-Lehrkräfte, zweisprachige Klassen und internationale Homeschool-Familien.',
+      description: 'Nutzen Sie die sprachabhängigen Modi Anfangsbuchstabe und Bild+Wort, um Zuordnungs-Arbeitsblätter in allen 11 unterstützten Sprachen zu erstellen. Dieselben Tierbilder erzeugen völlig unterschiedliche Zuordnungsinhalte, wenn Sie von Deutsch zu Englisch, Französisch, Spanisch oder einer anderen Sprache wechseln — Bildnamen, Anfangsbuchstaben und die „Finde die Paare!“-Überschrift aktualisieren sich automatisch. Erstellen Sie mehrsprachige Vokabelpakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber lokalisierte Wörter. Dies ist wertvoll für DaF/DaZ-Verkäufer, zweisprachige Klassen und internationale Homeschool-Familien.',
     },
     {
       title: 'Eigenes-Wort Rechtschreib- und Vokabelpakete',
-      description: 'Nutzen Sie den Eigenes-Wort-Modus, um Ihre eigenen Zuordnungsbegriffe neben Bildern einzutippen und Rechtschreib-Übungsblätter, Vokabeltests und Fremdsprachen-Zuordnungsübungen zu erstellen. Lehrkräfte können gezielt Sichtwörter, wöchentliche Vokabellisten oder fachspezifische Terminologie trainieren. Erstellen Sie Rechtschreibpakete nach Klassenstufe, bei denen jedes Arbeitsblatt Bilder mit fortschreitend schwierigeren Wörtern paart. Der Eigenes-Wort-Modus ist der flexibelste Zuordnungstyp, weil er jedes Bild mit jedem Wort paaren lässt — der Lerninhalt ist nur durch Ihre Eingabe begrenzt.',
+      description: 'Nutzen Sie den Eigenes-Wort-Modus, um Ihre eigenen Zuordnungsbegriffe neben Bildern einzutippen und Rechtschreib-Übungsblätter, Vokabeltests und Fremdsprachen-Zuordnungsübungen zu erstellen. Verkäufer können gezielt Sichtwörter, wöchentliche Vokabellisten oder fachspezifische Terminologie trainieren. Erstellen Sie Rechtschreibpakete nach Klassenstufe, bei denen jedes Arbeitsblatt Bilder mit fortschreitend schwierigeren Wörtern paart. Der Eigenes-Wort-Modus ist der flexibelste Zuordnungstyp, weil er jedes Bild mit jedem Wort paaren lässt — der Lerninhalt ist nur durch Ihre Eingabe begrenzt.',
     },
     {
       title: 'Saisonale Zuordnungs-Aktivitäten-Sammlungen',
-      description: 'Bauen Sie rotierende saisonale Zuordnungs-Sammlungen mit Feiertags- und Naturthemen aus der 104-Themen-Bibliothek auf. Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang und Sommerferien unterstützen jeweils eigene Zuordnungs-Pakete. Nutzen Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert — Anfangsbuchstabe für Phonik, Bild+Wort für Vokabeln, Mischung für differenzierte Herausforderung und Eigenes Wort für feiertagsspezifische Begriffe. Veröffentlichen Sie jede Sammlung 4–6 Wochen vor dem Feiertag für maximale Marktplatz-Sichtbarkeit. Saisonale Zuordnungsprodukte treiben wiederkehrende jährliche Umsätze.',
+      description: 'Bauen Sie rotierende saisonale Zuordnungs-Sammlungen mit Feiertags- und Naturthemen aus der 104-Themen-Bibliothek auf. Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang und Sommerferien unterstützen jeweils eigene Zuordnungs-Pakete. Nutzen Sie alle vier Zuordnungsmodi in jedem saisonalen Set für maximalen Wert — Anfangsbuchstabe für Phonik, Bild+Wort für Vokabeln, Mischung für gestufte Herausforderung und Eigenes Wort für feiertagsspezifische Begriffe. Veröffentlichen Sie jede Sammlung 4–6 Wochen vor dem Feiertag für maximale Marktplatz-Sichtbarkeit. Saisonale Zuordnungsprodukte treiben wiederkehrende jährliche Umsätze.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Zuordnungs-Stationen-Aktivitätspakete',
-      description: 'Laden Sie Zuordnungs-Stationen-Aktivitätspakete auf dem Lehrermarktplatz hoch mit Namens-/Datumsfeldern, Elementnummern und automatisch generierten Lösungsschlüsseln als zentralen Verkaufsargumenten. Lehrkräfte auf der Suche nach Zuordnungs-Stationen-Aktivitäten schätzen sofort unterrichtsfertige Arbeitsblätter mit integrierter Schüleridentifikation und Lösungen. Organisieren Sie nach Lehrplanthema: Gemeinschaftshelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Vokabel-Zuordnung und Tier-Lebensraum-Zuordnung. Die lokalisierte „Finde die Paare!“-Überschrift passt sich an 11 Sprachen an für zweisprachige und internationale Klassen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Zuordnungs-Stationen-Aktivitätspakete',
+      description: 'Laden Sie Zuordnungs-Stationen-Aktivitätspakete auf Gumroad hoch mit Namens-/Datumsfeldern, Elementnummern und automatisch generierten Lösungsschlüsseln als zentralen Verkaufsargumenten. Verkäufer auf der Suche nach Zuordnungs-Stationen-Aktivitäten schätzen sofort unterrichtsfertige Arbeitsblätter mit integrierter Nutzeridentifikation und Lösungen. Organisieren Sie nach Produktkatalogthema: Gemeinschaftshelfer-Zuordnung, Lebensmittelgruppen-Zuordnung, Wetter-Vokabel-Zuordnung und Tier-Lebensraum-Zuordnung. Die lokalisierte „Finde die Paare!“-Überschrift passt sich an 11 Sprachen an für zweisprachige und internationale Klassen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Zuordnungs-Arbeitsblatt-Verkaufstrichter',
-      description: 'Zuordnungs-Arbeitsblätter mit ihrem zweispaltigen Paare-Verbinden-Format erzeugen visuell auffällige Pinterest-Pins — das strukturierte Layout mit farbenfrohen Bildern, Elementnummern und der „Finde die Paare!“-Überschrift schafft ein sofort erkennbares Bildungsformat. Pinnen Sie Beispiel-Arbeitsblätter verschiedener Modi: Anfangsbuchstabe für Phonik-Pins, Bild+Wort für Vokabel-Pins, Eigenes Wort für Rechtschreib-Pins. Erstellen Sie separate Pin-Serien für „Tier-Zuordnungs-Arbeitsblätter“, „Feiertags-Zuordnungs-Aktivitäten“ und „Lese-Lern-Zuordnung“. Verlinken Sie jeden Pin auf Ihre Etsy- oder Lehrermarktplatz-Angebote.',
+      description: 'Zuordnungs-Arbeitsblätter mit ihrem zweispaltigen Paare-Verbinden-Format erzeugen visuell auffällige Pinterest-Pins — das strukturierte Layout mit farbenfrohen Bildern, Elementnummern und der „Finde die Paare!“-Überschrift schafft ein sofort erkennbares Bildungsformat. Pinnen Sie Beispiel-Arbeitsblätter verschiedener Modi: Anfangsbuchstabe für Phonik-Pins, Bild+Wort für Vokabel-Pins, Eigenes Wort für Rechtschreib-Pins. Erstellen Sie separate Pin-Serien für „Tier-Zuordnungs-Arbeitsblätter“, „Feiertags-Zuordnungs-Aktivitäten“ und „Lese-Lern-Zuordnung“. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Angebote.',
       platform: 'Pinterest',
     },
     {
@@ -117,23 +117,23 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachige Zuordnungs-Produktlinie',
-      description: 'Der Zuordnungs-Generator ist sprachabhängig — die Modi Anfangsbuchstabe und Bild+Wort erzeugen lokalisierte Wörter und Buchstaben beim Sprachwechsel. Dieselben Tierbilder generieren deutsche Zuordnung (K für Katze), englische Zuordnung (C für Cat), französische Zuordnung (C für Chat) und so weiter über alle 11 Sprachen. Erstellen Sie sprachspezifische Zuordnungspakete für jeden Marktplatz oder mehrsprachige Mega-Pakete zu Premium-Preisen. DaF/DaZ-Lehrkräfte, zweisprachige Klassen und internationale Homeschool-Familien suchen aktiv nach Zuordnungs-Arbeitsblättern in ihrer Muttersprache.',
-      platform: 'Etsy / Lehrermarktplatz',
+      description: 'Der Zuordnungs-Generator ist sprachabhängig — die Modi Anfangsbuchstabe und Bild+Wort erzeugen lokalisierte Wörter und Buchstaben beim Sprachwechsel. Dieselben Tierbilder generieren deutsche Zuordnung (K für Katze), englische Zuordnung (C für Cat), französische Zuordnung (C für Chat) und so weiter über alle 11 Sprachen. Erstellen Sie sprachspezifische Zuordnungspakete für jeden Marktplatz oder mehrsprachige Mega-Pakete zu Premium-Preisen. DaF/DaZ-Verkäufer, zweisprachige Klassen und internationale Homeschool-Familien suchen aktiv nach Zuordnungs-Arbeitsblättern in ihrer Muttersprache.',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
   proTips: [
     {
       title: 'Vier Modi nutzen, um den Produktkatalog zu multiplizieren',
-      description: 'Jedes Thema in der 104-Sammlungs-Bibliothek unterstützt vier verschiedene Zuordnungsprodukte — Anfangsbuchstabe für Phonik, Bild+Wort für Vokabeln, Bild/Wort-Mischung für differenzierte Schwierigkeit und Eigenes Wort für Rechtschreibung. Ein Satz Tierbilder erzeugt vier separate Angebote, die vier verschiedene pädagogische Fähigkeiten ansprechen. Das bedeutet 104 Themen multipliziert mit 4 Modi ergibt 416 potenzielle Produktkonzepte aus einem einzigen Generator, jedes mit einzigartigem pädagogischem Fokus und Zuordnungsformat.',
+      description: 'Jedes Thema in der 104-Sammlungs-Bibliothek unterstützt vier verschiedene Zuordnungsprodukte — Anfangsbuchstabe für Phonik, Bild+Wort für Vokabeln, Bild/Wort-Mischung für gestufte Schwierigkeit und Eigenes Wort für Rechtschreibung. Ein Satz Tierbilder erzeugt vier separate Angebote, die vier verschiedene pädagogische Fähigkeiten ansprechen. Das bedeutet 104 Themen multipliziert mit 4 Modi ergibt 416 potenzielle Produktkonzepte aus einem einzigen Generator, jedes mit einzigartigem pädagogischem Fokus und Zuordnungsformat.',
     },
     {
       title: 'Den automatischen Lösungsschlüssel als zentrales Verkaufsargument nutzen',
-      description: 'Der automatisch generierte Lösungsschlüssel mit horizontalen Verbindungslinien zwischen den korrekten Paaren ist das, was professionelle Zuordnungs-Arbeitsblätter von einfachen unterscheidet. Fügen Sie Lösungsschlüssel immer in Ihre Produktangebote ein — Lehrkräfte suchen gezielt nach Zuordnungs-Aktivitäten mit enthaltenen Lösungen. Zeigen Sie den Lösungsschlüssel in Ihren Produkt-Vorschaubildern neben dem Schüler-Arbeitsblatt. Das Doppel-Canvas-System erzeugt beide Versionen gleichzeitig — Lösungsschlüssel einzufügen erfordert null zusätzliche Produktionszeit.',
+      description: 'Der automatisch generierte Lösungsschlüssel mit horizontalen Verbindungslinien zwischen den korrekten Paaren ist das, was professionelle Zuordnungs-Arbeitsblätter von einfachen unterscheidet. Fügen Sie Lösungsschlüssel immer in Ihre Produktangebote ein — Verkäufer suchen gezielt nach Zuordnungs-Aktivitäten mit enthaltenen Lösungen. Zeigen Sie den Lösungsschlüssel in Ihren Produkt-Vorschaubildern neben dem Nutzer-Arbeitsblatt. Das Doppel-Canvas-System erzeugt beide Versionen gleichzeitig — Lösungsschlüssel einzufügen erfordert null zusätzliche Produktionszeit.',
     },
     {
-      title: 'Paaranzahl für differenzierte Schwierigkeitsgrade variieren',
-      description: 'Erstellen Sie gestufte Zuordnungspakete mit der konfigurierbaren Paaranzahl. Beginnen Sie mit 4 Paaren für Vorschul- und Kindergarten-Arbeitsblätter mit größeren Bildern und mehr Leerraum. Verwenden Sie 5 Paare für Erstklassen-Arbeitsblätter, die Inhalt und Lesbarkeit ausbalancieren. Setzen Sie 6 Paare für Zweitklassen-Lernende und Fortgeschrittene, die höhere Inhaltsdichte bewältigen können. Differenzierte Pakete mit progressiver Schwierigkeit verkaufen sich besser als Einzel-Schwierigkeits-Pakete, weil Lehrkräfte Arbeitsblätter für heterogene Klassen brauchen.',
+      title: 'Paaranzahl für gestufte Schwierigkeitsgrade variieren',
+      description: 'Erstellen Sie gestufte Zuordnungspakete mit der konfigurierbaren Paaranzahl. Beginnen Sie mit 4 Paaren für Vorschul- und Kindergarten-Arbeitsblätter mit größeren Bildern und mehr Leerraum. Verwenden Sie 5 Paare für Erstklassen-Arbeitsblätter, die Inhalt und Lesbarkeit ausbalancieren. Setzen Sie 6 Paare für Zweitklassen-Lernende und Fortgeschrittene, die höhere Inhaltsdichte bewältigen können. Gestufte Pakete mit progressiver Schwierigkeit verkaufen sich besser als Einzel-Schwierigkeits-Pakete, weil Verkäufer Arbeitsblätter für heterogene Klassen brauchen.',
     },
     {
       title: 'Sprachabhängigkeit für mehrsprachige Produkte nutzen',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Den Eigenes-Wort-Modus für Nischen-Bildungsprodukte nutzen',
-      description: 'Der Eigenes-Wort-Modus lässt Sie beliebige Zuordnungsbegriffe neben Bildern eintippen und eröffnet Nischen-Produktkategorien, die andere Zuordnungs-Generatoren nicht bedienen können. Erstellen Sie Sichtwörter-Zuordnungsblätter mit klassenstufenspezifischen Wortlisten, Fachvokabel-Zuordnung für Sachunterricht und Erdkunde oder Fremdsprachen-Zuordnungsübungen, bei denen Lernende Bilder mit Wörtern in der Zielsprache verbinden. Eigenes-Wort-Zuordnungs-Arbeitsblätter erzielen höhere Preise, weil der Inhalt auf spezifische Lehrplanbedürfnisse zugeschnitten ist.',
+      description: 'Der Eigenes-Wort-Modus lässt Sie beliebige Zuordnungsbegriffe neben Bildern eintippen und eröffnet Nischen-Produktkategorien, die andere Zuordnungs-Generatoren nicht bedienen können. Erstellen Sie Sichtwörter-Zuordnungsblätter mit klassenstufenspezifischen Wortlisten, Fachvokabel-Zuordnung für Sachunterricht und Erdkunde oder Fremdsprachen-Zuordnungsübungen, bei denen Lernende Bilder mit Wörtern in der Zielsprache verbinden. Eigenes-Wort-Zuordnungs-Arbeitsblätter erzielen höhere Preise, weil der Inhalt auf spezifische Produktkatalogbedürfnisse zugeschnitten ist.',
     },
     {
       title: 'Hintergrund- und Rahmenthemen für Premium-Präsentation kombinieren',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Namens-/Datumsfelder für unterrichtsfertige Produkte einfügen',
-      description: 'Das einzelne Kontrollkästchen, das „Name: ____“- und „Datum: ____“-Felder hinzufügt, verwandelt Zuordnungs-Arbeitsblätter von generischen Druckvorlagen in strukturierte Klassenaktivitäten. Lehrkräfte auf dem Lehrermarktplatz suchen gezielt nach „unterrichtsfertigen“ und „Sofort-Einsatz“-Zuordnungsressourcen mit Schüleridentifikationsbereichen. Kombiniert mit Elementnummern für effiziente Lösungskontrolle machen diese Formatierungsoptionen Ihre Zuordnungs-Arbeitsblätter sofort im Unterricht einsetzbar ohne Lehrkraft-Vorbereitung.',
+      description: 'Das einzelne Kontrollkästchen, das „Name: ____“- und „Datum: ____“-Felder hinzufügt, verwandelt Zuordnungs-Arbeitsblätter von generischen Druckvorlagen in strukturierte Klassenaktivitäten. Verkäufer auf Gumroad suchen gezielt nach „unterrichtsfertigen“ und „Sofort-Einsatz“-Zuordnungsressourcen mit Nutzeridentifikationsbereichen. Kombiniert mit Elementnummern für effiziente Lösungskontrolle machen diese Formatierungsoptionen Ihre Zuordnungs-Arbeitsblätter sofort in der Produkterstellung einsetzbar ohne Lehrkraft-Vorbereitung.',
     },
   ],
 
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktionieren Elementnummern und Aufzählungspunkte?',
-      answer: 'Zwei unabhängige Schalter im Arbeitsblatt-Konfigurationsfeld steuern die visuelle Formatierung. Elementnummern einfügen (Standard EIN) fügt Nummern vor jedem Paar hinzu — nützlich für Lösungskontrolle und Diskussion im Unterricht. Aufzählungspunkte anzeigen (Standard EIN) fügt dekorative Punkte neben Elementen für visuelle Klarheit hinzu. Sie können nur Nummern, nur Punkte, beides oder keines haben, je nach Arbeitsblatt-Stil und Zielgruppe. Beide Einstellungen gelten für beide Spalten des Zuordnungs-Arbeitsblatts.',
+      answer: 'Zwei unabhängige Schalter im Arbeitsblatt-Konfigurationsfeld steuern die visuelle Formatierung. Elementnummern einfügen (Standard EIN) fügt Nummern vor jedem Paar hinzu — nützlich für Lösungskontrolle und Diskussion in der Produkterstellung. Aufzählungspunkte anzeigen (Standard EIN) fügt dekorative Punkte neben Elementen für visuelle Klarheit hinzu. Sie können nur Nummern, nur Punkte, beides oder keines haben, je nach Arbeitsblatt-Stil und Zielgruppe. Beide Einstellungen gelten für beide Spalten des Zuordnungs-Arbeitsblatts.',
     },
     {
       question: 'Was ist die lokalisierte „Finde die Paare!“-Überschrift?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Zuordnungs-Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Zuordnungs-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Lese-Lern-Arbeitsbücher auf Amazon KDP, Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Zuordnungsmodi, automatisch generierte Lösungsschlüssel mit Verbindungslinien, konfigurierbare Paaranzahlen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Zuordnungs-Aktivitäts-Kategorien auf jedem großen Marktplatz konkurrieren.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Zuordnungs-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Lese-Lern-Arbeitsbücher auf Amazon KDP, Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Zuordnungsmodi, automatisch generierte Lösungsschlüssel mit Verbindungslinien, konfigurierbare Paaranzahlen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Zuordnungs-Aktivitäts-Kategorien auf jedem großen Marktplatz konkurrieren.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

@@ -7,7 +7,7 @@ const content: AppContent = {
       'druckbarer Puzzleteil-Rätsel-Generator für Etsy-Verkäufer',
       'Fehlende-Teile-Arbeitsblatt-Generator für KDP-Verleger',
       'visueller Puzzle-Ersteller kommerzielle Lizenz',
-      'Puzzleteil-Rätsel auf Lehrermarktplatz verkaufen',
+      'Puzzleteil-Rätsel auf Gumroad verkaufen',
     ],
     lsiKeywords: [
       'digitale Puzzle-Druckvorlagen skalierbares Einkommen',
@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Fehlende-Puzzleteile-Generator für Jigsaw-Puzzle-Rätsel',
     tagline: 'Erstellen Sie Puzzle-Rätsel im Jigsaw-Stil, bei denen Teile aus Bildern ausgeschnitten werden und die korrekte nummerierte Option identifiziert werden muss — mit 6 Teilformen, 1–5 fehlenden Teilen, 2–6 Lösungsoptionen inklusive Distraktoren, automatisch generierten Lösungsschlüsseln und rein visuellem Design, das in jeder Sprache funktioniert.',
     description:
-      'Erstellen Sie professionelle Puzzleteil-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Teileextraktions-Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz und stellt sicher, dass jedes Rätsel lösbar und ansprechend ist. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck Hochformat, Rechteck Querformat, Ellipse Hochformat und Ellipse Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen, die Ablenkungsteile enthalten, um die visuelle Unterscheidungsfähigkeit zu fordern. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen innerhalb jedes Lochs, die die korrekte Option anzeigen. Der automatisch generierte Header rendert „Fehlende Puzzleteile“ in Türkis (#06B6D4) mit einer rosafarbenen Beschreibung (#DB2777) über ein Doppelrahmen-System — blaugrüner äußerer Rahmen (#14B8A6, 8px) und pinkfarbener innerer Rahmen (#EC4899, 3px) — lokalisiert in allen 11 unterstützten Sprachen. Fehlende Puzzleteile ist NICHT sprachabhängig: Die Rätsel sind rein visuell ohne sprachabhängige Inhalte, sodass jedes Rätsel weltweit identisch funktioniert — ideal für den globalen Marktplatz-Verkauf ohne Übersetzungsaufwand. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Puzzle-Arbeitsbücher für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Puzzleteil-Rätsel in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Puzzleteil-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Teileextraktions-Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz und stellt sicher, dass jedes Rätsel lösbar und ansprechend ist. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck Hochformat, Rechteck Querformat, Ellipse Hochformat und Ellipse Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen, die Ablenkungsteile enthalten, um die visuelle Unterscheidungsfähigkeit zu fordern. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen innerhalb jedes Lochs, die die korrekte Option anzeigen. Der automatisch generierte Header rendert „Fehlende Puzzleteile“ in Türkis (#06B6D4) mit einer rosafarbenen Beschreibung (#DB2777) über ein Doppelrahmen-System — blaugrüner äußerer Rahmen (#14B8A6, 8px) und pinkfarbener innerer Rahmen (#EC4899, 3px) — lokalisiert in allen 11 unterstützten Sprachen. Fehlende Puzzleteile ist NICHT sprachabhängig: Die Rätsel sind rein visuell ohne sprachabhängige Inhalte, sodass jedes Rätsel weltweit identisch funktioniert — ideal für den globalen Marktplatz-Verkauf ohne Übersetzungsaufwand. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Puzzle-Arbeitsbücher für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Puzzleteil-Rätsel in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Das gleiche Puzzle-Bild erscheint mit Löchern, und gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedem Loch zeigen den korrekten Optionsindex an. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI und JPEG-Qualität 1.0 gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Das gleiche Puzzle-Bild erscheint mit Löchern, und gelb hervorgehobene Nummernbeschriftungen (rgba(255,255,0,0.7)) in jedem Loch zeigen den korrekten Optionsindex an. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI und JPEG-Qualität 1.0 gerendert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Rätsel-Aktivitäten für den Lehrermarktplatz',
+        title: 'Rätsel-Aktivitäten für den Gumroad',
         description:
-          'Erstellen Sie sofort einsetzbare Rätsel-Aktivitäten für visuelle Wahrnehmung und kritisches Denken auf dem Lehrermarktplatz. Puzzleteil-Rätsel stärken räumliches Denken, visuelle Analyse und Aufmerksamkeit für Details — Fähigkeiten, die in der frühen Bildung und im Grundschulbereich geschätzt werden. Erstellen Sie thematisch abgestimmte Sets: Tier-Habitat-Rätsel, Jahreszeiten-Rätsel, Berufe-Rätsel und Lebensmittel-Rätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Der konfigurierbare Schwierigkeitsgrad ermöglicht differenzierte Versionen desselben Rätsels für unterschiedliche Leistungsniveaus innerhalb einer Lerngruppe. Kombinieren Sie verschiedene Teilformen und Schwierigkeitsstufen innerhalb eines Produkts, damit Lehrkräfte Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsetzbare Rätsel-Aktivitäten für visuelle Wahrnehmung und kritisches Denken auf Gumroad. Puzzleteil-Rätsel stärken räumliches Denken, visuelle Analyse und Aufmerksamkeit für Details — Fähigkeiten, die in der frühen Bildung und im Grundschulbereich geschätzt werden. Erstellen Sie thematisch abgestimmte Sets: Tier-Habitat-Rätsel, Jahreszeiten-Rätsel, Berufe-Rätsel und Lebensmittel-Rätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Der konfigurierbare Schwierigkeitsgrad ermöglicht gestufte Versionen desselben Rätsels für unterschiedliche Leistungsniveaus innerhalb einer Lerngruppe. Kombinieren Sie verschiedene Teilformen und Schwierigkeitsstufen innerhalb eines Produkts, damit Verkäufer Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale und feiertagsbezogene Puzzle-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Puzzle-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Puzzle-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Variieren Sie Teilformen und Schwierigkeitsstufen innerhalb jedes saisonalen Sets für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
       {
         title: 'Globale Marktreichweite — rein visuelle Rätsel ohne Übersetzungsbedarf',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Puzzleteil-Rätsel auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Puzzleteil-Rätsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die 6 Teilformen, konfigurierbarer Schwierigkeitsgrad, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Puzzle-Produkte zu erstellen. Jedes Rätsel, das Sie erstellen, gehört Ihnen — unbegrenzt verkaufbar auf beliebig vielen Plattformen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Puzzleteil-Rätsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die 6 Teilformen, konfigurierbarer Schwierigkeitsgrad, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Puzzle-Produkte zu erstellen. Jedes Rätsel, das Sie erstellen, gehört Ihnen — unbegrenzt verkaufbar auf beliebig vielen Plattformen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'zweite-klasse-druckvorlagen-ideen',
-      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt',
     },
     {
       pageType: 'start',

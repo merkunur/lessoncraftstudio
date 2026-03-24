@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Subtraktions-Arbeitsblätter für Etsy',
       'Subtraktions-Aktivitätsbücher für Amazon KDP',
-      'Subtraktions-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Subtraktions-Arbeitsblätter auf Gumroad verkaufen',
       'Subtraktions-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Subtraktions-Arbeitsblatt-Generator mit Durchstreich-Visualisierung',
     tagline: 'Machen Sie Subtraktion greifbar mit bildbasierten Arbeitsblättern, bei denen Kinder Bilder durchstreichen, um die Antwort zu finden.',
     description:
-      'Erstellen Sie ansprechende bildbasierte Subtraktions-Arbeitsblätter, die Abziehen durch eine kraftvolle visuelle Methode vermitteln: durchgestrichene Bilder. Schüler sehen eine Bildergruppe und beobachten, wie diagonale X-Markierungen durch die abgezogenen Elemente gezeichnet werden — so wird das abstrakte Konzept des „Wegnehmens“ konkret und intuitiv. Wählen Sie aus vier Übungsmodi — Durchstreichen, Bild − Zahl, Subtrahend finden und Gemischt — um das Lernen von der Vorschule bis zur zweiten Klasse zu begleiten. Stöbern Sie durch über 3.100 kuratierte Illustrationen in 104 Themen wie Dinosaurier, Meerestiere und Fahrzeuge. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ein integrierter Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Ob Sie thematische Pakete auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Übungsblätter für Ihre eigenen Schüler drucken — der Subtraktions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie ansprechende bildbasierte Subtraktions-Arbeitsblätter, die Abziehen durch eine kraftvolle visuelle Methode vermitteln: durchgestrichene Bilder. Nutzer sehen eine Bildergruppe und beobachten, wie diagonale X-Markierungen durch die abgezogenen Elemente gezeichnet werden — so wird das abstrakte Konzept des „Wegnehmens“ konkret und intuitiv. Wählen Sie aus vier Übungsmodi — Durchstreichen, Bild − Zahl, Subtrahend finden und Gemischt — um das Lernen von der Vorschule bis zur zweiten Klasse zu begleiten. Stöbern Sie durch über 3.100 kuratierte Illustrationen in 104 Themen wie Dinosaurier, Meerestiere und Fahrzeuge. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ein integrierter Graustufen-Schalter erzeugt tintenfreundliche Schwarz-Weiß-Versionen mit einem Klick. Ob Sie thematische Pakete auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Übungsblätter für Ihren eigenen Shop drucken — der Subtraktions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Übungsmodus und Zahlenbereich konfigurieren',
         description:
-          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der vier Modi. Der Durchstreich-Modus zeigt eine vollständige Bildergruppe und zeichnet diagonale X-Markierungen durch die abgezogenen Elemente — die charakteristische Visualisierung, die Abziehen für junge Lernende greifbar macht. Der Bild − Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer für Schüler, die zur abstrakten Subtraktion übergehen. Der Subtrahend-finden-Modus zeigt die Ausgangsgruppe und die Differenz, und Schüler müssen herausfinden, wie viele weggenommen wurden. Der Gemischte Modus randomisiert alle drei für abwechslungsreiches Üben. Legen Sie den maximalen Minuenden von 2 bis 20 fest (der Subtrahend ist immer kleiner, was gültige Aufgaben garantiert) und bestimmen Sie die Anzahl der Aufgaben pro Seite.',
+          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der vier Modi. Der Durchstreich-Modus zeigt eine vollständige Bildergruppe und zeichnet diagonale X-Markierungen durch die abgezogenen Elemente — die charakteristische Visualisierung, die Abziehen für junge Lernende greifbar macht. Der Bild − Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer für Nutzer, die zur abstrakten Subtraktion übergehen. Der Subtrahend-finden-Modus zeigt die Ausgangsgruppe und die Differenz, und Nutzer müssen herausfinden, wie viele weggenommen wurden. Der Gemischte Modus randomisiert alle drei für abwechslungsreiches Üben. Legen Sie den maximalen Minuenden von 2 bis 20 fest (der Subtrahend ist immer kleiner, was gültige Aufgaben garantiert) und bestimmen Sie die Anzahl der Aufgaben pro Seite.',
       },
       {
         title: 'Bilder aus der Themenbibliothek auswählen',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Text, Titel und Optionen anpassen',
         description:
-          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Schülername und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus drei kindgerechten Schriftarten — Lexend Deca, Baloo 2 und Nunito — und passen Sie Schriftgröße, Farbe und Stil für optimale Lesbarkeit an. Schalten Sie Aufgabennummern ein oder aus, aktivieren Sie das kindgerechte Antwortfeld und positionieren Sie Elemente auf der Arbeitsfläche per Drag-and-Drop mit Ausrichtungswerkzeugen und Sperr-/Entsperrfunktionen.',
+          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Name und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus drei ansprechenden Schriftarten — Lexend Deca, Baloo 2 und Nunito — und passen Sie Schriftgröße, Farbe und Stil für optimale Lesbarkeit an. Schalten Sie Aufgabennummern ein oder aus, aktivieren Sie das ansprechende Antwortfeld und positionieren Sie Elemente auf der Arbeitsfläche per Drag-and-Drop mit Ausrichtungswerkzeugen und Sperr-/Entsperrfunktionen.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,27 +63,27 @@ const content: AppContent = {
       {
         title: 'Durchstreich-Visualisierung',
         description:
-          'Das Alleinstellungsmerkmal dieses Generators. Im Durchstreich-Modus wird eine vollständige Bildergruppe angezeigt und diagonale X-Markierungen werden durch die letzten N Elemente gezeichnet, um Subtraktion visuell darzustellen. So wird die abstrakte Idee des „Wegnehmens“ in etwas verwandelt, das Schüler sofort sehen und verstehen können. Ein Kind, das acht Äpfel sieht, von denen drei durchgestrichen sind, begreift „8 minus 3“ viel intuitiver als beim Betrachten nackter Zahlen. Die Durchstreich-Markierungen werden klar auf der Arbeitsfläche gerendert und übertragen sich sowohl auf das Arbeitsblatt als auch auf den Lösungsschlüssel-Export.',
+          'Das Alleinstellungsmerkmal dieses Generators. Im Durchstreich-Modus wird eine vollständige Bildergruppe angezeigt und diagonale X-Markierungen werden durch die letzten N Elemente gezeichnet, um Subtraktion visuell darzustellen. So wird die abstrakte Idee des „Wegnehmens“ in etwas verwandelt, das Nutzer sofort sehen und verstehen können. Ein Kind, das acht Äpfel sieht, von denen drei durchgestrichen sind, begreift „8 minus 3“ viel intuitiver als beim Betrachten nackter Zahlen. Die Durchstreich-Markierungen werden klar auf der Arbeitsfläche gerendert und übertragen sich sowohl auf das Arbeitsblatt als auch auf den Lösungsschlüssel-Export.',
       },
       {
         title: 'Vier verschiedene Übungsmodi',
         description:
-          'Wählen Sie den Modus passend zum Niveau Ihrer Schüler. Der Durchstreich-Modus ist ideal für Anfänger — sie zählen die gesamte Gruppe, zählen die durchgestrichenen Elemente und schreiben die verbleibende Zahl. Der Bild − Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkreten Bildern und abstrakten Zahlen. Der Subtrahend-finden-Modus zeigt die Ausgangsgruppe und das Ergebnis und fordert Schüler heraus, herauszufinden, wie viele weggenommen wurden — das fördert frühes algebraisches Denken. Der Gemischte Modus kombiniert alle drei für abwechslungsreiches Üben ohne Wiederholung.',
+          'Wählen Sie den Modus passend zum Niveau Ihrer Nutzer. Der Durchstreich-Modus ist ideal für Anfänger — sie zählen die gesamte Gruppe, zählen die durchgestrichenen Elemente und schreiben die verbleibende Zahl. Der Bild − Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkreten Bildern und abstrakten Zahlen. Der Subtrahend-finden-Modus zeigt die Ausgangsgruppe und das Ergebnis und fordert Nutzer heraus, herauszufinden, wie viele weggenommen wurden — das fördert frühes algebraisches Denken. Der Gemischte Modus kombiniert alle drei für abwechslungsreiches Üben ohne Wiederholung.',
       },
       {
         title: 'Einstellbare Zahlenbereiche',
         description:
-          'Legen Sie den maximalen Minuenden von 2 bis 20 fest und behalten Sie die volle Kontrolle über den Schwierigkeitsgrad. Der Generator stellt sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges, nicht-negatives Ergebnis liefert. Erstellen Sie sanfte Arbeitsblätter mit einem Maximum von 5 für Vorschüler, Standardübungen bis 10 für den Kindergarten oder anspruchsvolle Aufgaben bis 20 für die erste und zweite Klasse. Die Anpassung erfolgt mit einer einzigen Eingabe, sodass Sie in wenigen Minuten differenzierten Unterricht für eine ganze Klasse erstellen.',
+          'Legen Sie den maximalen Minuenden von 2 bis 20 fest und behalten Sie die volle Kontrolle über den Schwierigkeitsgrad. Der Generator stellt sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges, nicht-negatives Ergebnis liefert. Erstellen Sie sanfte Arbeitsblätter mit einem Maximum von 5 für Vorschul-Nische, Standardübungen bis 10 für den Kindergarten oder anspruchsvolle Aufgaben bis 20 für die erste und zweite Klasse. Die Anpassung erfolgt mit einer einzigen Eingabe, sodass Sie in wenigen Minuten gestufte Produktpakete für eine ganze Klasse erstellen.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Bildern',
         description:
-          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, kindgerechten Druck gestaltet. Da die Bilder den Mathe-Inhalt tragen — nicht Text — funktionieren Ihre Subtraktions-Arbeitsblätter in jeder Sprache und jedem Klassenzimmer weltweit.',
+          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, ansprechenden Druck gestaltet. Da die Bilder den Mathe-Inhalt tragen — nicht Text — funktionieren Ihre Subtraktions-Arbeitsblätter in jeder Sprache und jedem Shop weltweit.',
       },
       {
         title: 'Automatische Lösungsschlüssel-Erstellung',
         description:
-          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen korrekten Differenzen widerspiegelt. Im Durchstreich-Modus zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass Lehrkräfte auf einen Blick überprüfen können. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau zur Kontrolle vor dem Download. Exportieren Sie ihn als separate JPEG- oder PDF-Datei — ideal für Lehrerausgaben, Elternleitfäden oder Etsy-Produktpakete.',
+          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen korrekten Differenzen widerspiegelt. Im Durchstreich-Modus zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass Verkäufer auf einen Blick überprüfen können. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau zur Kontrolle vor dem Download. Exportieren Sie ihn als separate JPEG- oder PDF-Datei — ideal für Etsy-Pakete, Elternleitfäden oder Etsy-Produktpakete.',
       },
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische Subtraktions-Arbeitsblatt-Pakete auf Etsy',
         description:
-          'Erstellen Sie Sets mit 10–20 Subtraktions-Arbeitsblättern, gruppiert nach Thema — Dinosaurier, Bauernhoftiere, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy. Fügen Sie den Lösungsschlüssel sowie Farb- und Graustufen-Versionen als Bonusdateien bei, um den wahrgenommenen Wert zu steigern. Die Durchstreich-Visualisierung ist ein visuelles Verkaufsargument in Vorschaubildern und fällt Eltern und Lehrkräften in den Suchergebnissen sofort auf. Einzelne Themen kosten €3–€5, Mega-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
+          'Erstellen Sie Sets mit 10–20 Subtraktions-Arbeitsblättern, gruppiert nach Thema — Dinosaurier, Bauernhoftiere, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy. Fügen Sie den Lösungsschlüssel sowie Farb- und Graustufen-Versionen als Bonusdateien bei, um den wahrgenommenen Wert zu steigern. Die Durchstreich-Visualisierung ist ein visuelles Verkaufsargument in Vorschaubildern und fällt Eltern und Verkäufern in den Suchergebnissen sofort auf. Einzelne Themen kosten €3–€5, Mega-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
         platform: 'Etsy (etsy.de)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Mathe-Stationen für Lehrermarktplatz',
+        title: 'Gestufte Schwierigkeitspakete für Gumroad',
         description:
-          'Erstellen Sie gestufte Subtraktions-Übungssets mit den vier Übungsmodi: Stufe 1 (Durchstreichen, max. Minuend 5), Stufe 2 (Bild − Zahl, max. Minuend 10), Stufe 3 (Subtrahend finden, max. Minuend 15) und Stufe 4 (Gemischt, max. Minuend 20). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Lehrermarktplatz zahlen Premiumpreise für differenzierte Materialien, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können, und die Durchstreich-Visualisierung hebt Ihre Angebote von reinen Text-Konkurrenten ab.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Subtraktions-Übungssets mit den vier Übungsmodi: Stufe 1 (Durchstreichen, max. Minuend 5), Stufe 2 (Bild − Zahl, max. Minuend 10), Stufe 3 (Subtrahend finden, max. Minuend 15) und Stufe 4 (Gemischt, max. Minuend 20). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Gumroad zahlen Premiumpreise für gestufte Materialien, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können, und die Durchstreich-Visualisierung hebt Ihre Angebote von reinen Text-Konkurrenten ab.',
+        platform: 'Gumroad',
       },
       {
         title: 'Abo-Inhalte für den eigenen Online-Shop',
         description:
-          'Nutzen Sie den Generator, um wöchentlich frische Subtraktions-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Nachhilfezentren auf. Mit vier Übungsmodi, 104 Themen und einstellbarer Schwierigkeit von 2 bis 20 bieten Sie genug Vielfalt für jahrelangen einzigartigen Content.',
+          'Nutzen Sie den Generator, um wöchentlich frische Subtraktions-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Geschäftzentren auf. Mit vier Übungsmodi, 104 Themen und einstellbarer Schwierigkeit von 2 bis 20 bieten Sie genug Vielfalt für jahrelangen einzigartigen Content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Arbeitsblätter für Unterricht und Nachhilfe',
+        title: 'Arbeitsblätter für Produkterstellung und Geschäft',
         description:
-          'Erstellen Sie maßgeschneiderte Subtraktions-Arbeitsblätter für das aktuelle Niveau jedes Schülers. Drucken Sie Durchstreich-Blätter für Anfänger, die das visuelle Gerüst benötigen, und Subtrahend-finden-Blätter für Fortgeschrittene — alles in einer Sitzung. Der automatische Lösungsschlüssel spart Korrekturzeit, und der Graustufen-Schalter hält die Druckkosten niedrig für den Klasseneinsatz. Ob Sie ein Nachhilfezentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeit durch wenige Klicks.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Erstellen Sie maßgeschneiderte Subtraktions-Arbeitsblätter für das aktuelle Niveau jedes Nutzers. Drucken Sie Durchstreich-Blätter für Anfänger, die das visuelle Gerüst benötigen, und Subtrahend-finden-Blätter für Fortgeschrittene — alles in einer Sitzung. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert, und der Graustufen-Schalter hält die Druckkosten niedrig für den Klasseneinsatz. Ob Sie ein Ihr Geschäftzentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeit durch wenige Klicks.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Welche Übungsmodi bietet der Subtraktions-Arbeitsblatt-Generator?',
       answer:
-        'Der Generator umfasst vier Modi: Durchstreichen (eine vollständige Bildergruppe mit diagonalen X-Markierungen durch die abgezogenen Elemente), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (Start und Ergebnis werden angezeigt, Schüler ermitteln, was weggenommen wurde) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frühem algebraischem Denken. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+        'Der Generator umfasst vier Modi: Durchstreichen (eine vollständige Bildergruppe mit diagonalen X-Markierungen durch die abgezogenen Elemente), Bild − Zahl (eine Bildergruppe minus eine Ziffer), Subtrahend finden (Start und Ergebnis werden angezeigt, Nutzer ermitteln, was weggenommen wurde) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frühem algebraischem Denken. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Wie funktioniert die Durchstreich-Visualisierung?',
       answer:
-        'Im Durchstreich-Modus zeigt das Arbeitsblatt die vollständige Ausgangsgruppe von Bildern — zum Beispiel acht Schmetterlinge. Diagonale X-Markierungen werden dann durch die letzten N Bilder gezeichnet, um die abgezogene Menge darzustellen. Schüler zählen die verbleibenden unmarkierten Bilder, um die Antwort zu finden. So wird das abstrakte Konzept des „Wegnehmens“ sichtbar und greifbar, was besonders für Vorschüler und Kindergartenkinder effektiv ist, die gerade mit dem Subtrahieren beginnen. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+        'Im Durchstreich-Modus zeigt das Arbeitsblatt die vollständige Ausgangsgruppe von Bildern — zum Beispiel acht Schmetterlinge. Diagonale X-Markierungen werden dann durch die letzten N Bilder gezeichnet, um die abgezogene Menge darzustellen. Nutzer zählen die verbleibenden unmarkierten Bilder, um die Antwort zu finden. So wird das abstrakte Konzept des „Wegnehmens“ sichtbar und greifbar, was besonders für Vorschul-Nische und Kindergartenkinder effektiv ist, die gerade mit dem Subtrahieren beginnen. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Welche Zahlenbereiche kann ich für Subtraktionsaufgaben einstellen?',
       answer:
-        'Sie können den maximalen Minuenden von 2 bis 20 festlegen. Der Generator stellt automatisch sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges, nicht-negatives Ergebnis liefert. So erstellen Sie einfache Aufgaben wie 3 minus 1 für Anfänger oder anspruchsvolle Aufgaben wie 18 minus 12 für fortgeschrittene Schüler. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
+        'Sie können den maximalen Minuenden von 2 bis 20 festlegen. Der Generator stellt automatisch sicher, dass der Subtrahend immer kleiner als der Minuend ist, sodass jede Aufgabe ein gültiges, nicht-negatives Ergebnis liefert. So erstellen Sie einfache Aufgaben wie 3 minus 1 für Anfänger oder anspruchsvolle Aufgaben wie 18 minus 12 für fortgeschrittene Nutzer. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Wie viele Bilder und Themen sind verfügbar?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Differenzen zu erstellen. Im Durchstreich-Modus zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass Lehrkräfte oder Eltern Lösungen auf einen Blick überprüfen können. Laden Sie ihn als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt herunter. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Differenzen zu erstellen. Im Durchstreich-Modus zeigt der Lösungsschlüssel dieselben durchgestrichenen Bilder plus die geschriebene Antwort, sodass Verkäufer oder Eltern Lösungen auf einen Blick überprüfen können. Laden Sie ihn als separate JPEG- oder PDF-Datei neben dem Nutzer-Arbeitsblatt herunter. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Sind Subtraktions-Arbeitsblätter sprachabhängig?',
@@ -183,12 +183,12 @@ const content: AppContent = {
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Subtraktions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Subtraktions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mathe-grundlagen-druckvorlagen-ideen',
-      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Verkäufer & Verkäufer',
     },
     {
       pageType: 'idea',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/german/subtraction/worksheet (2).webp',
         alt: 'Subtraktions-Arbeitsblatt im Subtrahend-finden-Modus',
-        caption: 'Subtrahend-finden-Modus — Schüler ermitteln, wie viele weggenommen wurden',
+        caption: 'Subtrahend-finden-Modus — Nutzer ermitteln, wie viele weggenommen wurden',
       },
     ],
     youtubeId: 'til2mrWMUxk',

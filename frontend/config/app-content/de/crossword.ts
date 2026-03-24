@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um das ausgefüllte Raster mit allen sichtbaren Kreuzwortantworten zu sehen. Laden Sie beide Versionen über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden mit 300 DPI für druckfertige Qualität exportiert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um das ausgefüllte Raster mit allen sichtbaren Kreuzwortantworten zu sehen. Laden Sie beide Versionen über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien werden mit 300 DPI für druckfertige Qualität exportiert. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -97,7 +97,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Kreuzworträtsel und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons im Dropdown-Menü exportieren crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf und image-crossword-answer-key.pdf separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Tonerkosten sparen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Kreuzworträtsel und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons im Dropdown-Menü exportieren crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf und image-crossword-answer-key.pdf separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Tonerkosten sparen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
     ],
   },
@@ -120,20 +120,20 @@ const content: AppContent = {
       {
         title: 'Mehrsprachige Kreuzworträtsel-Sets mit sprachabhängiger Generierung',
         description:
-          'Nutzen Sie die sprachabhängige Wortgenerierung, um Bilderkreuzworträtsel in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen völlig verschiedene Kreuzwortraster, wenn Sie die Sprache wechseln — ein Katzenbild erzeugt „KATZE“ auf Deutsch, „CAT“ auf Englisch und „GATTO“ auf Italienisch. Auch die Rasterstruktur ändert sich komplett, da unterschiedlich lange Wörter andere Kreuzungsmuster erzeugen. Erstellen Sie mehrsprachige Kreuzworträtsel-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber einzigartige Rätsel mit lokalisierten Wörtern produziert. Besonders wertvoll für Sprachlernmaterialien, mehrsprachige Unterrichtsressourcen und internationale Homeschool-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen auf internationalen Märkten. Ein einziger Satz thematischer Bilder kann 11 verschiedene Sprachprodukte hervorbringen — maximale Produktvielfalt bei minimalem zusätzlichem Arbeitsaufwand.',
-        platform: 'Etsy / Lehrermarktplatz (mehrsprachiger Markt)',
+          'Nutzen Sie die sprachabhängige Wortgenerierung, um Bilderkreuzworträtsel in 11 Sprachen zu erstellen. Dieselben Bilder erzeugen völlig verschiedene Kreuzwortraster, wenn Sie die Sprache wechseln — ein Katzenbild erzeugt „KATZE“ auf Deutsch, „CAT“ auf Englisch und „GATTO“ auf Italienisch. Auch die Rasterstruktur ändert sich komplett, da unterschiedlich lange Wörter andere Kreuzungsmuster erzeugen. Erstellen Sie mehrsprachige Kreuzworträtsel-Pakete, bei denen jede Sprachversion dieselben thematischen Bilder verwendet, aber einzigartige Rätsel mit lokalisierten Wörtern produziert. Besonders wertvoll für Sprachlernmaterialien, mehrsprachige Produkterstellungsressourcen und internationale Homeschool-Familien. Verkaufen Sie sprachspezifische Pakete oder mehrsprachige Mega-Pakete zu Premium-Preisen auf internationalen Märkten. Ein einziger Satz thematischer Bilder kann 11 verschiedene Sprachprodukte hervorbringen — maximale Produktvielfalt bei minimalem zusätzlichem Arbeitsaufwand.',
+        platform: 'Etsy / Gumroad (mehrsprachiger Markt)',
       },
       {
-        title: 'Benutzerdefinierte Vokabel-Kreuzworträtsel für den Lehrermarktplatz',
+        title: 'Benutzerdefinierte Vokabel-Kreuzworträtsel für den Gumroad',
         description:
-          'Verwenden Sie den Benutzerdefinierte-Wortliste-Modus, um lehrplanorientierte Kreuzworträtsel mit selbst definierten Vokabeln zu erstellen. Geben Sie fachspezifische Begriffe und Definitionen im WORT: Hinweis-Format ein — naturwissenschaftliches Vokabular, Sachunterricht-Begriffe, Leseverständnis-Wörter oder Rechtschreiblisten. Auf dem Lehrermarktplatz werden Kreuzworträtsel-Aktivitäten geschätzt, die exakt zum Lehrplan passen. Erstellen Sie klassenstufenspezifische Vokabel-Kreuzworträtsel-Sets mit Lösungsschlüsseln in PDF- und JPEG-Formaten. Der Text-Hinweis-Modus ermöglicht die Erstellung von Kreuzworträtseln für jedes Fach, ohne auf die Bildbibliothek angewiesen zu sein. Kombinieren Sie Bilderkreuzworträtsel und Text-Kreuzworträtsel in gemischten Paketen für maximale Vielfalt und breitere Kundenzielgruppen auf dem Lehrermarktplatz.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Verwenden Sie den Benutzerdefinierte-Wortliste-Modus, um lehrplanorientierte Kreuzworträtsel mit selbst definierten Vokabeln zu erstellen. Geben Sie fachspezifische Begriffe und Definitionen im WORT: Hinweis-Format ein — naturwissenschaftliches Vokabular, Sachunterricht-Begriffe, Leseverständnis-Wörter oder Rechtschreiblisten. Auf dem Gumroad werden Kreuzworträtsel-Aktivitäten geschätzt, die exakt zum Produktkatalog passen. Erstellen Sie klassenstufenspezifische Vokabel-Kreuzworträtsel-Sets mit Lösungsschlüsseln in PDF- und JPEG-Formaten. Der Text-Hinweis-Modus ermöglicht die Erstellung von Kreuzworträtseln für jedes Fach, ohne auf die Bildbibliothek angewiesen zu sein. Kombinieren Sie Bilderkreuzworträtsel und Text-Kreuzworträtsel in gemischten Paketen für maximale Vielfalt und breitere Kundenzielgruppen auf Gumroad.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale Bilderkreuzworträtsel-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Bilderkreuzworträtsel-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Kreuzworträtsel-Pakete im September, Weihnachts-Kreuzworträtsel-Sammlungen im Oktober und Valentinstag-Rätsel im Januar. Die visuelle Natur der Bilderkreuzworträtsel macht saisonale Themen besonders überzeugend — Feiertagsbilder als Hinweise erzeugen sofortige saisonale Anziehungskraft in Listing-Thumbnails. Saisonale Produkte erzielen während ihrer Spitzenzeiten höhere Preise und fördern Wiederholungskäufe. Nutzen Sie die sprachabhängige Generierung, um saisonale Pakete gleichzeitig auf dem deutschen, französischen und spanischen Markt zu veröffentlichen — dasselbe Weihnachtsthema erzeugt in jeder Sprache ein einzigartiges Kreuzworträtsel.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
     ],
   },
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Bilderkreuzworträtsel auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilderkreuzworträtsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Eingabemethoden, automatisch generierte Lösungsschlüssel, sprachabhängige Wortgenerierung in 11 Sprachen und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Kreuzworträtsel-Produkte zu erstellen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilderkreuzworträtsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Eingabemethoden, automatisch generierte Lösungsschlüssel, sprachabhängige Wortgenerierung in 11 Sprachen und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Kreuzworträtsel-Produkte zu erstellen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'zweite-klasse-druckvorlagen-ideen',
-      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt',
     },
     {
       pageType: 'start',

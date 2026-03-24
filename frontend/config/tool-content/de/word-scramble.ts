@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Buchstabensalat-Arbeitsblatt-Generator',
     tagline: 'Buchstaben-Umstell-Rätsel mit gemischten Plättchen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in aktive Buchstaben-Umstell-Rätsel, bei denen Schüler durcheinander gemischte Buchstabenplättchen in die richtige Reihenfolge bringen. Dieses Tool erstellt Buchstabensalat-Arbeitsblätter, bei denen ein Bild-Hinweis neben einem Satz gemischter Plättchen erscheint — Schüler betrachten das Bild, erkennen was es darstellt, und ordnen die Buchstaben zur korrekten Schreibweise. Im Gegensatz zu Lückentext-Übungen gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung, die Rechtschreibgenauigkeit durch handlungsorientierte Manipulation aufbaut. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Aktivieren Sie sie, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Plättchen darzustellen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Umlaute ä, ö, ü werden als Vokale erkannt und entsprechend eingefärbt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind: Keine Hinweise mischt jedes Plättchen für maximale Herausforderung, Leicht platziert die Hälfte für unterstütztes Lernen, Normal platziert ein Viertel für ausgewogene Übung und Schwer platziert nur ein Sechstel für selbstsichere Rechtschreiber. Wählen Sie zwischen drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Die Sprachsensitivität ist integriert: Wechseln Sie zu einer der 11 Sprachen, und dasselbe Bild erzeugt ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Deutsche Wörter bieten einen besonderen Vorteil: Zusammengesetzte Substantive wie Schmetterling (13 Plättchen), Feuerwehrauto (13 Plättchen) oder Krankenhaus (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente — und Umlaute auf farbcodierten Plättchen sind visuell besonders auffällig. Stellen Sie 1–10 Rätsel pro Seite ein, wechseln Sie zwischen Groß- und Kleinbuchstaben, schalten Sie die Übungsnummerierung ein und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit automatischer Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Wortschatzübungen in aktive Buchstaben-Umstell-Rätsel, bei denen Nutzer durcheinander gemischte Buchstabenplättchen in die richtige Reihenfolge bringen. Dieses Tool erstellt Buchstabensalat-Arbeitsblätter, bei denen ein Bild-Hinweis neben einem Satz gemischter Plättchen erscheint — Nutzer betrachten das Bild, erkennen was es darstellt, und ordnen die Buchstaben zur korrekten Schreibweise. Im Gegensatz zu Lückentext-Übungen gibt Buchstabensalat ALLE Buchstaben in der falschen Reihenfolge vor — eine aktive Umstellübung, die Rechtschreibgenauigkeit durch handlungsorientierte Manipulation aufbaut. Die herausragende Funktion ist die Vokal-Konsonanten-Farbcodierung: Aktivieren Sie sie, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Plättchen darzustellen — eine visuelle Phonik-Hilfe, die Buchstabentypen-Erkennung während des Entwirrens fördert. Umlaute ä, ö, ü werden als Vokale erkannt und entsprechend eingefärbt. Vier Schwierigkeitsstufen steuern, wie viele Buchstaben bereits korrekt platziert sind: Keine Hinweise mischt jedes Plättchen für maximale Herausforderung, Leicht platziert die Hälfte für unterstütztes Lernen, Normal platziert ein Viertel für ausgewogene Übung und Schwer platziert nur ein Sechstel für selbstsichere Rechtschreiber. Wählen Sie zwischen drei Inhaltsquellen: Der Bildbibliothek-Modus greift auf über 3.100 Illustrationen in 104 Themen zu, der manuelle Bearbeitungsmodus lässt Sie Bilder auswählen und Anzeigenamen anpassen, und der benutzerdefinierte Wortlisten-Modus ermöglicht die direkte Eingabe von bis zu 8 Wörtern für reine Text-Rätsel. Die Sprachsensitivität ist integriert: Wechseln Sie zu einer der 11 Sprachen, und dasselbe Bild erzeugt ein anderes Zielwort mit anderen Buchstaben und einer völlig anderen Mischung. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Deutsche Wörter bieten einen besonderen Vorteil: Zusammengesetzte Substantive wie Schmetterling (13 Plättchen), Feuerwehrauto (13 Plättchen) oder Krankenhaus (11 Plättchen) erzeugen deutlich längere Plättchenreihen als ihre englischen Äquivalente — und Umlaute auf farbcodierten Plättchen sind visuell besonders auffällig. Stellen Sie 1–10 Rätsel pro Seite ein, wechseln Sie zwischen Groß- und Kleinbuchstaben, schalten Sie die Übungsnummerierung ein und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit automatischer Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Vokal-Konsonanten-Farbcodierung aktivieren',
-        description: 'Schalten Sie die Farbcodierung ein, um Vokale in einer Farbe und Konsonanten in einer anderen auf den gemischten Buchstabenplättchen darzustellen. Diese Funktion ist einzigartig beim Buchstabensalat und fügt eine visuelle Phonik-Dimension hinzu, die Schülern hilft, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale erkannt und entsprechend eingefärbt. Wählen Sie Einfarbig Schwarz für traditionelle einfarbige Plättchen.',
+        description: 'Schalten Sie die Farbcodierung ein, um Vokale in einer Farbe und Konsonanten in einer anderen auf den gemischten Buchstabenplättchen darzustellen. Diese Funktion ist einzigartig beim Buchstabensalat und fügt eine visuelle Phonik-Dimension hinzu, die Nutzern hilft, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale erkannt und entsprechend eingefärbt. Wählen Sie Einfarbig Schwarz für traditionelle einfarbige Plättchen.',
       },
       {
         title: 'Buchstabengröße, Nummerierung und Sprache konfigurieren',
-        description: 'Wechseln Sie zwischen Großbuchstaben (Standard) und Kleinbuchstaben auf den Plättchen. Schalten Sie die Übungsnummerierung ein oder aus. Aktivieren Sie Felder für Name und Datum. Wählen Sie aus 11 unterstützten Sprachen — jede Sprache ändert das Zielwort vollständig, sodass dasselbe Bild ein völlig anderes Buchstabensalat-Rätsel erzeugt. Fügen Sie eigene Textanweisungen als Schüler-Anleitung hinzu.',
+        description: 'Wechseln Sie zwischen Großbuchstaben (Standard) und Kleinbuchstaben auf den Plättchen. Schalten Sie die Übungsnummerierung ein oder aus. Aktivieren Sie Felder für Name und Datum. Wählen Sie aus 11 unterstützten Sprachen — jede Sprache ändert das Zielwort vollständig, sodass dasselbe Bild ein völlig anderes Buchstabensalat-Rätsel erzeugt. Fügen Sie eigene Textanweisungen als Nutzer-Anleitung hinzu.',
       },
       {
         title: 'Schriften, Text und Arbeitsfläche anpassen',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Buchstaben-Umstell-Rätsel-Pakete',
-      description: 'Erstellen Sie Sets mit 10–15 Buchstabensalat-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen, Feiertage, Sport und mehr. Jedes Rätsel kombiniert einen Bild-Hinweis mit durcheinander gemischten Buchstabenplättchen, die Schüler in die richtige Reihenfolge bringen. Aktivieren Sie die Farbcodierung bei der Hälfte des Sets für eine „Phonics-Edition“ als Zusatzvariante. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das Format mit gemischten Plättchen und farbenfrohen Bild-Hinweisen macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
+      description: 'Erstellen Sie Sets mit 10–15 Buchstabensalat-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen, Feiertage, Sport und mehr. Jedes Rätsel kombiniert einen Bild-Hinweis mit durcheinander gemischten Buchstabenplättchen, die Nutzer in die richtige Reihenfolge bringen. Aktivieren Sie die Farbcodierung bei der Hälfte des Sets für eine „Phonics-Edition“ als Zusatzvariante. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Format mit gemischten Plättchen und farbenfrohen Bild-Hinweisen macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
     },
     {
       title: 'KDP-Buchstabensalat-Aktivitätsbücher',
@@ -81,18 +81,18 @@ const content: ToolContent = {
     },
     {
       title: 'Benutzerdefinierte Vokabel-Buchstabensalat-Arbeitsblätter',
-      description: 'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, Grundwortschatz, Diktatlisten, Fremdsprachen-Vokabeln oder wöchentliche Rechtschreibwörter. Keine Bilder nötig — das Tool generiert gemischte Buchstabenplättchen aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Buchstabensalat-Rätsel für jeden Lehrplan, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
+      description: 'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, Grundwortschatz, Diktatlisten, Fremdsprachen-Vokabeln oder wöchentliche Rechtschreibwörter. Keine Bilder nötig — das Tool generiert gemischte Buchstabenplättchen aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Buchstabensalat-Rätsel für jeden Produktkatalog, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
     },
     {
       title: 'Differenzierte Schwierigkeitsbündel',
-      description: 'Generieren Sie vier Versionen desselben thematischen Arbeitsblatts — eine auf jeder Schwierigkeitsstufe: Keine Hinweise, Leicht, Normal und Schwer. Lehrkräfte weisen die richtige Version je nach Leistungsniveau zu. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz oder Etsy.de. Fügen Sie farbcodierte Varianten hinzu für insgesamt acht verschiedene Versionen aus einer einzigen Designsitzung, mit Lösungsschlüsseln für jede Version.',
+      description: 'Generieren Sie vier Versionen desselben thematischen Arbeitsblatts — eine auf jeder Schwierigkeitsstufe: Keine Hinweise, Leicht, Normal und Schwer. Verkäufer weisen die richtige Version je nach Leistungsniveau zu. Verkaufen Sie als gestuftes Paket zu einem Premium-Preis auf Gumroad oder Etsy.de. Fügen Sie farbcodierte Varianten hinzu für insgesamt acht verschiedene Versionen aus einer einzigen Designsitzung, mit Lösungsschlüsseln für jede Version.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Phonik-fokussierter Buchstabensalat-Shop auf Etsy.de',
-      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf farbcodierte Buchstabensalat-Arbeitsblätter spezialisiert — eine Produktkategorie, die kein Wettbewerber mit einfachen Wortlisten-Generatoren replizieren kann. Die Vokal-Konsonanten-Farbcodierung erzeugt ein visuell unverwechselbares Produkt, das in Etsy-Suchergebnissen Aufmerksamkeit erregt und phonikfokussierte Eltern sowie DaF-Lehrkräfte anspricht. Erstellen Sie Themenpakete in farbcodierter und klassischer Schwarz-Edition und bieten Sie die Phonik-Sets zu einem Premium-Preis an. Sprechen Sie Käufer an, die nach visuellen Rechtschreibhilfen, Phonik-Arbeitsblättern und Buchstabenerkennung-Aktivitäten suchen.',
+      description: 'Eröffnen Sie einen Etsy-Shop, der sich auf farbcodierte Buchstabensalat-Arbeitsblätter spezialisiert — eine Produktkategorie, die kein Wettbewerber mit einfachen Wortlisten-Generatoren replizieren kann. Die Vokal-Konsonanten-Farbcodierung erzeugt ein visuell unverwechselbares Produkt, das in Etsy-Suchergebnissen Aufmerksamkeit erregt und phonikfokussierte Eltern sowie DaF-Verkäufer anspricht. Erstellen Sie Themenpakete in farbcodierter und klassischer Schwarz-Edition und bieten Sie die Phonik-Sets zu einem Premium-Preis an. Sprechen Sie Käufer an, die nach visuellen Rechtschreibhilfen, Phonik-Arbeitsblättern und Buchstabenerkennung-Aktivitäten suchen.',
       platform: 'Etsy.de',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Differenzierte Literacy-Zentren auf Lehrermarktplatz',
-      description: 'Laden Sie Buchstabensalat-Arbeitsblatt-Pakete auf den Lehrermarktplatz hoch, organisiert nach Thema, Schwierigkeitsstufe und Farbcodierung. Stufe 1: Leicht mit farbcodierten Plättchen für visuelle Lerner. Stufe 2: Normal mit Farbcodierung. Stufe 3: Schwer mit Einfarbig-Schwarz-Plättchen. Stufe 4: Keine Hinweise mit Einfarbig-Schwarz für Fortgeschrittene. Fügen Sie Lösungsschlüssel und Fortschrittsbögen bei. Käufer auf dem Lehrermarktplatz zahlen Premiumpreise für differenzierte Buchstabensalat-Ressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
-      platform: 'Lehrermarktplatz',
+      title: 'Differenzierte Literacy-Zentren auf Gumroad',
+      description: 'Laden Sie Buchstabensalat-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema, Schwierigkeitsstufe und Farbcodierung. Stufe 1: Leicht mit farbcodierten Plättchen für visuelle Lerner. Stufe 2: Normal mit Farbcodierung. Stufe 3: Schwer mit Einfarbig-Schwarz-Plättchen. Stufe 4: Keine Hinweise mit Einfarbig-Schwarz für Fortgeschrittene. Fügen Sie Lösungsschlüssel und Fortschrittsbögen bei. Käufer auf Gumroad zahlen Premiumpreise für gestufte Buchstabensalat-Ressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
+      platform: 'Gumroad',
     },
     {
       title: 'Mehrsprachiger Vokabel-Shop auf Etsy',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Umfassendes Rechtschreib-Toolkit auf Gumroad',
-      description: 'Bündeln Sie Buchstabensalat-Arbeitsblätter mit Wörter-Raten, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu einem umfassenden Rechtschreib-Toolkit auf Gumroad. Das Buchstabensalat-Format (Buchstaben-Umstellung) trainiert eine andere kognitive Fähigkeit als Wörter-Raten (Lückentext) oder Wortsuche (Buchstaben-Suche). Ein Mehformat-Rechtschreib-Kit rechtfertigt einen Premium-Preis und bietet Schülern abwechslungsreiche Übung mit demselben Wortschatz.',
+      description: 'Bündeln Sie Buchstabensalat-Arbeitsblätter mit Wörter-Raten, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu einem umfassenden Rechtschreib-Toolkit auf Gumroad. Das Buchstabensalat-Format (Buchstaben-Umstellung) trainiert eine andere kognitive Fähigkeit als Wörter-Raten (Lückentext) oder Wortsuche (Buchstaben-Suche). Ein Mehformat-Rechtschreib-Kit rechtfertigt einen Premium-Preis und bietet Nutzern abwechslungsreiche Übung mit demselben Wortschatz.',
       platform: 'Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Farbcodierung für Phonik-Differenzierung nutzen',
-      description: 'Aktivieren Sie die Vokal-Konsonanten-Farbcodierung, um Vokale in einer Farbe und Konsonanten in einer anderen darzustellen. Diese visuelle Phonik-Hilfe ist einzigartig beim Buchstabensalat und hilft Schülern, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale eingefärbt — besonders auffällig bei Wörtern wie „Löwe“. Erstellen Sie eine „Farbcodiert-Edition“ neben einer „Klassisch-Edition“ jedes Themas, um Ihre Produktpalette zu verdoppeln.',
+      description: 'Aktivieren Sie die Vokal-Konsonanten-Farbcodierung, um Vokale in einer Farbe und Konsonanten in einer anderen darzustellen. Diese visuelle Phonik-Hilfe ist einzigartig beim Buchstabensalat und hilft Nutzern, Buchstabentypen während des Entwirrens zu erkennen. Deutsche Umlaute (ä, ö, ü) werden als Vokale eingefärbt — besonders auffällig bei Wörtern wie „Löwe“. Erstellen Sie eine „Farbcodiert-Edition“ neben einer „Klassisch-Edition“ jedes Themas, um Ihre Produktpalette zu verdoppeln.',
     },
     {
       title: 'Keine Hinweise für Rechtschreibtests einsetzen',
-      description: 'Der Keine-Hinweise-Modus mischt jedes Plättchen ohne vorplatzierte Positionen und erzeugt eine echte Rechtschreibüberprüfung anhand eines Bild-Hinweises. Schüler müssen die vollständige Schreibweise erinnern und alle Plättchen eigenständig ordnen. Nutzen Sie ihn für Tests, finale Herausforderungs-Abschnitte in Arbeitsbüchern oder Premium-„Experten-Edition“-Produkte.',
+      description: 'Der Keine-Hinweise-Modus mischt jedes Plättchen ohne vorplatzierte Positionen und erzeugt eine echte Rechtschreibüberprüfung anhand eines Bild-Hinweises. Nutzer müssen die vollständige Schreibweise erinnern und alle Plättchen eigenständig ordnen. Nutzen Sie ihn für Tests, finale Herausforderungs-Abschnitte in Arbeitsbüchern oder Premium-„Experten-Edition“-Produkte.',
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Graustufen für KDP und Massendruck',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder und farbcodierte Plättchen Klicks anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Shop-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder und farbcodierte Plättchen Klicks anziehen.',
     },
     {
       title: 'Schwierigkeitsstufen in Bündeln mischen',
-      description: 'Erstellen Sie Arbeitsblatt-Bündel, die vom selben Thema Leicht bis Keine Hinweise fortschreiten. Ein „Bauernhoftiere-Buchstabensalat“-Paket mit 5 Leicht-Seiten, 5 Normal, 5 Schwer und 5 Keine-Hinweise-Seiten gibt Lehrkräften ein fertiges differenziertes Set. Fügen Sie Lösungsschlüssel für jede Stufe bei. Progressive Bündel erzielen Premiumpreise auf Lehrermarktplatz und Etsy.de.',
+      description: 'Erstellen Sie Arbeitsblatt-Bündel, die vom selben Thema Leicht bis Keine Hinweise fortschreiten. Ein „Bauernhoftiere-Buchstabensalat“-Paket mit 5 Leicht-Seiten, 5 Normal, 5 Schwer und 5 Keine-Hinweise-Seiten gibt Verkäufern ein fertiges gestuftes Set. Fügen Sie Lösungsschlüssel für jede Stufe bei. Progressive Bündel erzielen Premiumpreise auf Gumroad und Etsy.de.',
     },
     {
       title: 'Mit Wörter-Raten für umfassende Pakete kombinieren',
-      description: 'Buchstabensalat (Buchstaben-Umstellung) und Wörter-Raten (Lückentext) trainieren unterschiedliche kognitive Fähigkeiten mit ähnlichem Wortschatz. Bündeln Sie beide Formate zu einem „Kompletten Rechtschreibübungs-Paket“, bei dem Schüler zuerst Plättchen umstellen und dann fehlende Buchstaben ergänzen. Mehformat-Bündel verkaufen sich besser als Einzelformat-Pakete und bieten gründlichere Rechtschreibübung.',
+      description: 'Buchstabensalat (Buchstaben-Umstellung) und Wörter-Raten (Lückentext) trainieren unterschiedliche kognitive Fähigkeiten mit ähnlichem Wortschatz. Bündeln Sie beide Formate zu einem „Kompletten Rechtschreibübungs-Paket“, bei dem Nutzer zuerst Plättchen umstellen und dann fehlende Buchstaben ergänzen. Mehformat-Bündel verkaufen sich besser als Einzelformat-Pakete und bieten gründlichere Rechtschreibübung.',
     },
   ],
 
@@ -160,15 +160,15 @@ const content: ToolContent = {
     },
     {
       question: 'Wie unterscheidet sich Buchstabensalat von Wörter-Raten?',
-      answer: 'Buchstabensalat gibt Schülern ALLE Buchstaben in der falschen Reihenfolge — sie ordnen die gemischten Plättchen zur korrekten Schreibweise. Wörter-Raten zeigt Lücken an festen Positionen und Schüler füllen die fehlenden Buchstaben ein. Buchstabensalat ist eine Buchstaben-Umstell-Übung, Wörter-Raten eine Lückentext-Übung. Sie trainieren unterschiedliche kognitive Fähigkeiten und ergänzen sich ideal in gebündelten Produkten.',
+      answer: 'Buchstabensalat gibt Nutzern ALLE Buchstaben in der falschen Reihenfolge — sie ordnen die gemischten Plättchen zur korrekten Schreibweise. Wörter-Raten zeigt Lücken an festen Positionen und Nutzer füllen die fehlenden Buchstaben ein. Buchstabensalat ist eine Buchstaben-Umstell-Übung, Wörter-Raten eine Lückentext-Übung. Sie trainieren unterschiedliche kognitive Fähigkeiten und ergänzen sich ideal in gebündelten Produkten.',
     },
     {
       question: 'Wie funktionieren die vier Schwierigkeitsstufen?',
-      answer: 'Jede Stufe steuert, wie viele Buchstaben bereits korrekt in den gemischten Plättchen platziert sind. Keine Hinweise (0%) mischt jedes Plättchen für maximale Herausforderung. Leicht (50%) platziert die Hälfte der Buchstaben für unterstütztes Lernen. Normal (25%) platziert ein Viertel für ausgewogene Übung. Schwer (16%) platziert nur ein Sechstel. Mischen Sie Stufen über mehrere Seiten, um differenzierte Pakete zu erstellen.',
+      answer: 'Jede Stufe steuert, wie viele Buchstaben bereits korrekt in den gemischten Plättchen platziert sind. Keine Hinweise (0%) mischt jedes Plättchen für maximale Herausforderung. Leicht (50%) platziert die Hälfte der Buchstaben für unterstütztes Lernen. Normal (25%) platziert ein Viertel für ausgewogene Übung. Schwer (16%) platziert nur ein Sechstel. Mischen Sie Stufen über mehrere Seiten, um gestufte Pakete zu erstellen.',
     },
     {
       question: 'Was ist die Vokal-Konsonanten-Farbcodierung?',
-      answer: 'Aktivieren Sie die Farbcodierungsoption, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Buchstabenplättchen darzustellen. Diese visuelle Phonik-Hilfe hilft Schülern, Vokal- und Konsonanten-Muster während des Entwirrens zu unterscheiden. Deutsche Umlaute (ä, ö, ü) werden als Vokale erkannt und entsprechend eingefärbt. Wählen Sie Einfarbig Schwarz für traditionelle einfarbige Plättchen. Die Farbcodierung ist einzigartig beim Buchstabensalat und bietet eine starke Differenzierung für phonikfokussierte Käufer.',
+      answer: 'Aktivieren Sie die Farbcodierungsoption, um Vokale in einer Farbe und Konsonanten in einer anderen auf den Buchstabenplättchen darzustellen. Diese visuelle Phonik-Hilfe hilft Nutzern, Vokal- und Konsonanten-Muster während des Entwirrens zu unterscheiden. Deutsche Umlaute (ä, ö, ü) werden als Vokale erkannt und entsprechend eingefärbt. Wählen Sie Einfarbig Schwarz für traditionelle einfarbige Plättchen. Die Farbcodierung ist einzigartig beim Buchstabensalat und bietet eine starke Differenzierung für phonikfokussierte Käufer.',
     },
     {
       question: 'Was sind die drei Inhaltsquellen?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Arbeitsblätter auf Etsy.de, Gumroad, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

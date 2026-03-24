@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Text hinzufügen und Arbeitsfläche anpassen',
-        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand und Fredoka. Aktivieren Sie die Name/Datum-Felder-Option für Schüleridentifikationsbereiche. Die automatisch generierte Kopfzeile lokalisiert sich über alle 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche. Ausrichtungswerkzeuge rasten Elemente ein, Sperr- und Entsperrsteuerungen schützen fertige Elemente, und unbegrenztes Rückgängigmachen und Wiederherstellen erlaubt freies Experimentieren.',
+        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand und Fredoka. Aktivieren Sie die Name/Datum-Felder-Option für Nutzeridentifikationsbereiche. Die automatisch generierte Kopfzeile lokalisiert sich über alle 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche. Ausrichtungswerkzeuge rasten Elemente ein, Sperr- und Entsperrsteuerungen schützen fertige Elemente, und unbegrenztes Rückgängigmachen und Wiederherstellen erlaubt freies Experimentieren.',
       },
       {
         title: 'Graustufen umschalten und herunterladen',
-        description: 'Aktivieren Sie Graustufen für tintenschonende Versionen, ideal für Klassenzimmerdruck und KDP-Innenteile. Laden Sie Ihr Arbeitsblatt als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export enthält sowohl das Übungsraster (leere Zellen zum Zeichnen) als auch das Hinweisraster (teilweises Referenzbild). Es wird kein separater Lösungsschlüssel benötigt — das Hinweisraster selbst dient als Lösungsreferenz, was Ihren Produkterstellungsprozess vereinfacht. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien.',
+        description: 'Aktivieren Sie Graustufen für tintenschonende Versionen, ideal für Shopdruck und KDP-Innenteile. Laden Sie Ihr Arbeitsblatt als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Jeder Export enthält sowohl das Übungsraster (leere Zellen zum Zeichnen) als auch das Hinweisraster (teilweises Referenzbild). Es wird kein separater Lösungsschlüssel benötigt — das Hinweisraster selbst dient als Lösungsreferenz, was Ihren Produkterstellungsprozess vereinfacht. Jeder Export ist produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Progressive Schwierigkeits-Rasterzeichnen-Pakete',
-      description: 'Erstellen Sie thematische Zeichenpakete mit 15–25 Arbeitsblättern, die vom Einsteiger- zum Expertenniveau fortschreiten, mit Hinweisprozent als Schwierigkeitsachse. Starten Sie jedes Paket bei 75 % Hinweisen mit 4×4-Rastern für zugängliche Aufwärmübungen, steigern Sie auf 50 % Hinweise bei 6×6-Rastern für moderate Herausforderungen und enden Sie bei 10–15 % Hinweisen mit 8×8- oder 10×10-Rastern für Expertenniveau-Reproduktion. Der S&W-Umriss-Stil lädt nach dem Zeichnen zum Ausmalen ein und fügt eine zusätzliche Aktivitätsebene hinzu, die den wahrgenommenen Wert steigert. Das Duale-Raster-Format — Übungsraster plus Hinweisraster auf jeder Seite — differenziert Ihre Produkte von einfachen Malvorlagen und rechtfertigt höhere Preise auf Etsy.',
+      description: 'Erstellen Sie thematische Zeichenpakete mit 15–25 Arbeitsblättern, die vom Einsteiger- zum Expertenniveau fortschreiten, mit Hinweisprozent als Schwierigkeitsachse. Starten Sie jedes Paket bei 75 % Hinweisen mit 4×4-Rastern für zugängliche Aufwärmübungen, steigern Sie auf 50 % Hinweise bei 6×6-Rastern für moderate Herausforderungen und enden Sie bei 10–15 % Hinweisen mit 8×8- oder 10×10-Rastern für Expertenniveau-Reproduktion. Der S&W-Umriss-Stil lädt nach dem Zeichnen zum Ausmalen ein und fügt eine zusätzliche Aktivitätsebene hinzu, die den wahrgenommenen Wert steigert. Das Duale-Raster-Format — Übungsraster plus Hinweisraster auf jeder Seite — gestuft Ihre Produkte von einfachen Malvorlagen und rechtfertigt höhere Preise auf Etsy.',
     },
     {
       title: 'KDP-Zeichenfähigkeiten-Arbeitshefte',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetrie- und Räumliches-Denken-Arbeitsblätter',
-      description: 'Nutzen Sie die Modi Horizontal spiegeln und Vertikal spiegeln, um Arbeitsblätter zu erstellen, die Kunst und Mathematik verbinden. Lernende sehen Hinweiszellen auf einer Seite des Rasters und müssen das Spiegelbild auf der gegenüberliegenden Seite rekonstruieren. Ein Horizontale-Symmetrie-Paket lehrt bilaterale Symmetrie — grundlegend für Geometrie und Biologie. Ein Vertikale-Symmetrie-Paket zielt auf Oben-Unten-Spiegelerkennung ab. Kombinieren Sie beide Modi in einem „Komplett-Paket Symmetriezeichnen“. Diese Materialien verkaufen sich hervorragend sowohl in Kunst- als auch in Mathematik-Kategorien auf dem Lehrermarktplatz, weil sie zwei Fachbereiche mit einem einzigen Arbeitsblattformat bedienen.',
+      description: 'Nutzen Sie die Modi Horizontal spiegeln und Vertikal spiegeln, um Arbeitsblätter zu erstellen, die Kunst und Mathematik verbinden. Lernende sehen Hinweiszellen auf einer Seite des Rasters und müssen das Spiegelbild auf der gegenüberliegenden Seite rekonstruieren. Ein Horizontale-Symmetrie-Paket lehrt bilaterale Symmetrie — grundlegend für Geometrie und Biologie. Ein Vertikale-Symmetrie-Paket zielt auf Oben-Unten-Spiegelerkennung ab. Kombinieren Sie beide Modi in einem „Komplett-Paket Symmetriezeichnen“. Diese Materialien verkaufen sich hervorragend sowohl in Kunst- als auch in Mathematik-Kategorien auf Gumroad, weil sie zwei Fachbereiche mit einem einzigen Arbeitsblattformat bedienen.',
     },
     {
       title: 'Thematische S&W-Ausmalen-nach-Zeichnen-Sets',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Eigene-Bilder-Fachspezifische Rasterübungen',
-      description: 'Laden Sie eigene Bilder hoch, um Rasterzeichnen-Arbeitsblätter für spezialisierte Zielgruppen jenseits der integrierten Bibliothek zu erstellen. Verwenden Sie Pflanzendiagramme für den Sachunterricht, Architekturzeichnungen für Designkurse, geometrische Formen für Mathematik-Integration oder historische Artefakte für den Geschichtsunterricht. Der einstellbare Hinweisprozentsatz passt den Schwierigkeitsgrad an jede Altersgruppe an, und Symmetriemodi fügen räumliches Denken zu fachspezifischen Inhalten hinzu. Eigene-Bild-Übungen füllen Nischenmärkte auf Etsy und dem Lehrermarktplatz, die Standardthemen allein nicht erreichen.',
+      description: 'Laden Sie eigene Bilder hoch, um Rasterzeichnen-Arbeitsblätter für spezialisierte Zielgruppen jenseits der integrierten Bibliothek zu erstellen. Verwenden Sie Pflanzendiagramme für den Sachunterricht, Architekturzeichnungen für Designkurse, geometrische Formen für Mathematik-Integration oder historische Artefakte für den Geschichtsunterricht. Der einstellbare Hinweisprozentsatz passt den Schwierigkeitsgrad an jede Altersgruppe an, und Symmetriemodi fügen räumliches Denken zu fachspezifischen Inhalten hinzu. Eigene-Bild-Übungen füllen Nischenmärkte auf Etsy und dem Gumroad, die Standardthemen allein nicht erreichen.',
     },
     {
       title: 'Formatübergreifende visuelle Lernpakete',
@@ -101,18 +101,18 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Symmetrie-Lernstationen',
-      description: 'Laden Sie Rasterzeichnen-Arbeitsblatt-Pakete auf dem Lehrermarktplatz hoch, organisiert nach Symmetriemodus als Lernfokus. Stufe 1 verwendet Zufalls-Hinweisverteilung für allgemeine Zeichenübungen. Stufe 2 führt Horizontal spiegeln ein, wo Lernende eine Seite sehen und das Spiegelbild zeichnen. Stufe 3 nutzt Vertikal spiegeln für Oben-Unten-Symmetrie. Stufe 4 kombiniert niedriges Hinweisprozent mit Spiegelmodus für die ultimative Räumliches-Denken-Herausforderung. Diese Materialien verbinden Kunst- und Mathematik-Standards und sind wertvoll für Kunst- und Mathematiklehrkräfte, die nach „Symmetrie-Aktivitäten“ und „Räumliches-Denken-Arbeitsblätter“ suchen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Symmetrie-Lernstationen',
+      description: 'Laden Sie Rasterzeichnen-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Symmetriemodus als Lernfokus. Stufe 1 verwendet Zufalls-Hinweisverteilung für allgemeine Zeichenübungen. Stufe 2 führt Horizontal spiegeln ein, wo Lernende eine Seite sehen und das Spiegelbild zeichnen. Stufe 3 nutzt Vertikal spiegeln für Oben-Unten-Symmetrie. Stufe 4 kombiniert niedriges Hinweisprozent mit Spiegelmodus für die ultimative Räumliches-Denken-Herausforderung. Diese Materialien verbinden Kunst- und Mathematik-Standards und sind wertvoll für Kunst- und Mathematiklehrkräfte, die nach „Symmetrie-Aktivitäten“ und „Räumliches-Denken-Arbeitsblätter“ suchen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visueller Rasterzeichnen-Trichter',
-      description: 'Rasterzeichnen-Arbeitsblätter mit dem unverwechselbaren Duale-Raster-Layout eignen sich hervorragend als Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Hinweisprozentsätzen und Symmetriemodi mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Rasterzeichnen für Kinder“, „Symmetrie-Zeichen-Arbeitsblätter“ und „Zelle-für-Zelle-Reproduktion“. Das textfreie Format bedeutet, dass Pins Eltern und Lehrkräfte in jedem Land ansprechen.',
+      description: 'Rasterzeichnen-Arbeitsblätter mit dem unverwechselbaren Duale-Raster-Layout eignen sich hervorragend als Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Hinweisprozentsätzen und Symmetriemodi mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Rasterzeichnen für Kinder“, „Symmetrie-Zeichen-Arbeitsblätter“ und „Zelle-für-Zelle-Reproduktion“. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Komplett-Zeichenfähigkeiten-Toolkit',
-      description: 'Bündeln Sie Rasterzeichnen-Arbeitsblätter (duales Raster, Hinweisprozent, Symmetriemodi) mit Malvorlagen, Linien-Ziehen-Übungen und Schreib-Arbeitsblättern zu einem umfassenden Zeichen- und Feinmotorik-Toolkit auf Gumroad. Jedes Format trainiert eine andere Fähigkeit: Rasterzeichnen entwickelt räumliche Reproduktion, Malvorlagen fördern kreativen Ausdruck, Linien-Ziehen trainiert Stiftführung, Schreiben verbindet visuell-motorische und sprachliche Fähigkeiten. Ein Multi-Format-Toolkit rechtfertigt einen Premium-Preis und differenziert sich von Einzel-Format-Konkurrenten.',
+      description: 'Bündeln Sie Rasterzeichnen-Arbeitsblätter (duales Raster, Hinweisprozent, Symmetriemodi) mit Malvorlagen, Linien-Ziehen-Übungen und Schreib-Arbeitsblättern zu einem umfassenden Zeichen- und Feinmotorik-Toolkit auf Gumroad. Jedes Format trainiert eine andere Fähigkeit: Rasterzeichnen entwickelt räumliche Reproduktion, Malvorlagen fördern kreativen Ausdruck, Linien-Ziehen trainiert Stiftführung, Schreiben verbindet visuell-motorische und sprachliche Fähigkeiten. Ein Multi-Format-Toolkit rechtfertigt einen Premium-Preis und gestuft sich von Einzel-Format-Konkurrenten.',
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetriemodi als pädagogisches Werkzeug einsetzen',
-      description: 'Horizontal spiegeln und Vertikal spiegeln verwandeln Rasterzeichnen von einer Kunst-Aktivität in eine Räumliches-Denken-Übung, die Kunst- und Mathematik-Lehrpläne verbindet. Lernende sehen Hinweiszellen auf einer Hälfte und müssen das Spiegelbild auf der gegenüberliegenden Hälfte rekonstruieren. Das lehrt bilaterale und vertikale Symmetrie während des Zeichnens — zwei Lernziele aus einem Arbeitsblatt. Symmetrie-fokussierte Produkte werden in Kunst- und Mathematik-Kategorien gelistet und verdoppeln Ihre Marktplatz-Sichtbarkeit.',
+      description: 'Horizontal spiegeln und Vertikal spiegeln verwandeln Rasterzeichnen von einer Kunst-Aktivität in eine Räumliches-Denken-Übung, die Kunst- und Mathematik-Produktkataloge verbindet. Lernende sehen Hinweiszellen auf einer Hälfte und müssen das Spiegelbild auf der gegenüberliegenden Hälfte rekonstruieren. Das lehrt bilaterale und vertikale Symmetrie während des Zeichnens — zwei Lernziele aus einem Arbeitsblatt. Symmetrie-fokussierte Produkte werden in Kunst- und Mathematik-Kategorien gelistet und verdoppeln Ihre Marktplatz-Sichtbarkeit.',
     },
     {
       title: 'S&W-Umrisse als Dual-Aktivitäts-Format hervorheben',
@@ -144,8 +144,8 @@ const content: ToolContent = {
       description: 'Strukturieren Sie Arbeitshefte, bei denen jedes Kapitel den Hinweisprozentsatz reduziert: Kapitel 1 bei 75 %, Kapitel 2 bei 50 %, Kapitel 3 bei 25 %, Kapitel 4 bei 10 %. Innerhalb jedes Kapitels steigern Sie zusätzlich die Rastergröße von 4×4 auf 8×8. Diese doppelte Progression liefert eine befriedigende Schwierigkeitskurve, die Lernende über 60–100 Seiten engagiert hält. Käufer nehmen strukturierte Progression als höhere Qualität wahr als zufällige Schwierigkeitsreihenfolge.',
     },
     {
-      title: 'Graustufen für KDP und Klassenzimmerdruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Klassenzimmer-Massendruck bestimmt sind. Die S&W-Umriss-Themen eignen sich von Natur aus für Graustufen-Export — klare Linien reproduzieren perfekt im Schwarzweißdruck. Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen, bei denen visuelle Attraktivität Klicks in Suchergebnissen generiert.',
+      title: 'Graustufen für KDP und Shopdruck nutzen',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Innenteile oder Shop-Massendruck bestimmt sind. Die S&W-Umriss-Themen eignen sich von Natur aus für Graustufen-Export — klare Linien reproduzieren perfekt im Schwarzweißdruck. Speichern Sie den Farbmodus für Etsy-Angebotsvorschauen, bei denen visuelle Attraktivität Klicks in Suchergebnissen generiert.',
     },
     {
       title: 'Rasterzeichnen mit anderen visuellen Tools für Premium-Pakete kombinieren',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Warum verwendet diese App S&W-Umriss-Themen statt farbiger?',
-      answer: 'Der Rasterzeichnen-Ersteller verwendet Schwarz-Weiß-Umriss-Illustrationen, die speziell für Zeichen- und Ausmal-Aktivitäten gestaltet sind. Klare Umrisse sind ideal für Zelle-für-Zelle-Reproduktion — Lernende können die Linien, die sie kopieren müssen, deutlich erkennen. Nach Fertigstellung der Zeichnung können Lernende ihre Reproduktion als zusätzliche Aktivität ausmalen. Farbige Bilder wären schwieriger von Hand zu reproduzieren und würden nicht zum anschließenden Ausmalen einladen. Das S&W-Format druckt zudem perfekt im Schwarzweißdruck und hält die Kosten für Klassenzimmer- und Arbeitsheft-Nutzung niedrig.',
+      answer: 'Der Rasterzeichnen-Ersteller verwendet Schwarz-Weiß-Umriss-Illustrationen, die speziell für Zeichen- und Ausmal-Aktivitäten gestaltet sind. Klare Umrisse sind ideal für Zelle-für-Zelle-Reproduktion — Lernende können die Linien, die sie kopieren müssen, deutlich erkennen. Nach Fertigstellung der Zeichnung können Lernende ihre Reproduktion als zusätzliche Aktivität ausmalen. Farbige Bilder wären schwieriger von Hand zu reproduzieren und würden nicht zum anschließenden Ausmalen einladen. Das S&W-Format druckt zudem perfekt im Schwarzweißdruck und hält die Kosten für Shop- und Arbeitsheft-Nutzung niedrig.',
     },
     {
       question: 'Warum gibt es keinen separaten Lösungsschlüssel?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Rasterzeichnen-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Duale-Raster-Format, der einstellbare Hinweisprozentsatz, die Symmetriemodi und der S&W-Umriss-Stil schaffen ein unverwechselbares Produkt, das in Zeichen- und Aktivitäts-Arbeitsblatt-Kategorien stark konkurriert.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Rasterzeichnen-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Arbeitshefte auf Amazon KDP, Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Das Duale-Raster-Format, der einstellbare Hinweisprozentsatz, die Symmetriemodi und der S&W-Umriss-Stil schaffen ein unverwechselbares Produkt, das in Zeichen- und Aktivitäts-Arbeitsblatt-Kategorien stark konkurriert.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Wortsuchrätsel-Generator für Etsy-Verkäufer',
       'Wortgitter-Arbeitsblatt-Generator für KDP-Verleger',
-      'Buchstabengitter-Rätsel auf Lehrermarktplatz verkaufen',
+      'Buchstabengitter-Rätsel auf Gumroad verkaufen',
       'Wortsuche-Druckvorlagen kommerzielle Lizenz',
       'Wortsuchrätsel-Generator mit sprachabhängigem Buchstabengitter',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Wortsuche-Arbeitsblatt-Generator für Buchstabengitter-Rätsel',
     tagline: 'Einstellbare Gitter von 5×5 bis 30×30 mit Diagonal- und Rückwärts-Richtungssteuerung — erstellen Sie die perfekte Schwierigkeitsstufe für jede Zielgruppe.',
     description:
-      'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Schüler Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit bis zu 8 Wörtern, die Sie direkt eingeben. Stellen Sie die Gittergröße von 5×5 für schnelle Aufgaben bis 30×30 für anspruchsvolle Herausforderungen ein, und schalten Sie diagonale Wörter sowie rückwärts (umgekehrte) Wörter unabhängig ein oder aus, um die Schwierigkeit über vier bis acht mögliche Platzierungsrichtungen fein abzustimmen. Drei Anzeigemodi — Wörter und Bilder, nur Bilder oder nur Wörter — steuern, wie Hinweise neben dem Gitter erscheinen. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sowohl die versteckten Wörter als auch die Gitter-Füllbuchstaben sich je nach Sprache ändern: Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeitsgewichtungen, französische Gitter enthalten é, è, ç, à, und jede andere Sprache verwendet ihren authentischen Zeichensatz. Diese doppelte Sprachabhängigkeit macht jede Sprachversion zu einem völlig eigenständigen Produkt — „Hund“ versteckt in einem Gitter voller deutscher Zeichen wie ...K...ä...H-U-N-D...ö...ß... sieht grundsätzlich anders aus als „dog“ in einem englischen Gitter. Deutsche zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als ihre englischen Äquivalente und erzeugen visuell einzigartige Rätsel. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Im Gegensatz zu Buchstabensalat, wo Schüler durcheinander gemischte Plättchen in die richtige Reihenfolge bringen, fordert die Wortsuche visuelles Scanning und räumliche Mustererkennung — Schüler müssen das Wort in einem Meer aus Füllbuchstaben erkennen, was eine völlig andere kognitive Fähigkeit trainiert. Die einstellbare Gittergröße von 5×5 bis 30×30 ermöglicht eine enorme Schwierigkeitsbandbreite: Ein 5×5-Gitter mit 25 Zellen und nur horizontalen Wörtern ist in Sekunden gelöst, während ein 30×30-Gitter mit 900 Zellen und acht Platzierungsrichtungen selbst erfahrene Rätsellöser minutenlang beschäftigt. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Wortsuchrätsel-Bücher für Amazon KDP zusammenstellen oder differenzierte Vokabelübungen für den Lehrermarktplatz erstellen — der Wortsuche-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Wortsuche-Arbeitsblätter, bei denen versteckte Wörter in einem Gitter aus zufälligen Füllbuchstaben eingebettet sind und Nutzer Zeilen, Spalten und Diagonalen durchsuchen, um jedes Wort zu finden — das klassische Buchstabengitter-Rätsel, das nie aus der Mode kommt. Wählen Sie aus drei Inhaltsquellen: die integrierte Bildbibliothek mit über 3.100 Illustrationen in 104 Themen, der manuelle Bearbeitungsmodus, in dem Sie Bilder auswählen und deren Anzeigenamen vor der Generierung anpassen, oder der benutzerdefinierte Wortlisten-Modus für reine Text-Rätsel mit bis zu 8 Wörtern, die Sie direkt eingeben. Stellen Sie die Gittergröße von 5×5 für schnelle Aufgaben bis 30×30 für anspruchsvolle Herausforderungen ein, und schalten Sie diagonale Wörter sowie rückwärts (umgekehrte) Wörter unabhängig ein oder aus, um die Schwierigkeit über vier bis acht mögliche Platzierungsrichtungen fein abzustimmen. Drei Anzeigemodi — Wörter und Bilder, nur Bilder oder nur Wörter — steuern, wie Hinweise neben dem Gitter erscheinen. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen frei, in denen sowohl die versteckten Wörter als auch die Gitter-Füllbuchstaben sich je nach Sprache ändern: Deutsche Gitter enthalten ä, ö, ü und ß mit natürlichen Häufigkeitsgewichtungen, französische Gitter enthalten é, è, ç, à, und jede andere Sprache verwendet ihren authentischen Zeichensatz. Diese doppelte Sprachabhängigkeit macht jede Sprachversion zu einem völlig eigenständigen Produkt — „Hund“ versteckt in einem Gitter voller deutscher Zeichen wie ...K...ä...H-U-N-D...ö...ß... sieht grundsätzlich anders aus als „dog“ in einem englischen Gitter. Deutsche zusammengesetzte Substantive wie „Schmetterling“ (13 Buchstaben) spannen sich über deutlich mehr Gitterzellen als ihre englischen Äquivalente und erzeugen visuell einzigartige Rätsel. Ein farbcodierter Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor — Rosa, Blau, Grün, Gold, Koralle und Lavendel — für sofortige visuelle Überprüfung. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Im Gegensatz zu Buchstabensalat, wo Nutzer durcheinander gemischte Plättchen in die richtige Reihenfolge bringen, fordert die Wortsuche visuelles Scanning und räumliche Mustererkennung — Nutzer müssen das Wort in einem Meer aus Füllbuchstaben erkennen, was eine völlig andere kognitive Fähigkeit trainiert. Die einstellbare Gittergröße von 5×5 bis 30×30 ermöglicht eine enorme Schwierigkeitsbandbreite: Ein 5×5-Gitter mit 25 Zellen und nur horizontalen Wörtern ist in Sekunden gelöst, während ein 30×30-Gitter mit 900 Zellen und acht Platzierungsrichtungen selbst erfahrene Rätsellöser minutenlang beschäftigt. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Wortsuchrätsel-Bücher für Amazon KDP zusammenstellen oder gestufte Vokabelübungen für den Gumroad erstellen — der Wortsuche-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Anzeigemodus wählen und Text anpassen',
         description:
-          'Wählen Sie einen der drei Anzeigemodi: Wörter und Bilder anzeigen (Standard), nur Bilder anzeigen oder nur Wörter anzeigen. Jeder Modus steuert, was neben dem Gitter als Hinweise erscheint. Bei „Nur Bilder“ müssen Schüler das Bild erkennen und das Wort selbst im Gitter finden — eine zusätzliche kognitive Herausforderung. Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Felder für Name und Datum, Anweisungen oder benutzerdefinierten Text hinzuzufügen. Wählen Sie aus sieben Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand mit einstellbarer Größe, Farbe und Umriss für maximale Lesbarkeit. Nutzen Sie die vollständige Fabric.js-Arbeitsfläche, um jedes Element frei zu verschieben, zu skalieren und neu zu positionieren.',
+          'Wählen Sie einen der drei Anzeigemodi: Wörter und Bilder anzeigen (Standard), nur Bilder anzeigen oder nur Wörter anzeigen. Jeder Modus steuert, was neben dem Gitter als Hinweise erscheint. Bei „Nur Bilder“ müssen Nutzer das Bild erkennen und das Wort selbst im Gitter finden — eine zusätzliche kognitive Herausforderung. Nutzen Sie das Textwerkzeug-Panel, um einen Arbeitsblatttitel, Felder für Name und Datum, Anweisungen oder benutzerdefinierten Text hinzuzufügen. Wählen Sie aus sieben Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand mit einstellbarer Größe, Farbe und Umriss für maximale Lesbarkeit. Nutzen Sie die vollständige Fabric.js-Arbeitsfläche, um jedes Element frei zu verschieben, zu skalieren und neu zu positionieren.',
       },
       {
         title: 'Farbcodierten Lösungsschlüssel generieren und herunterladen',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: 'Versteckte-Wörter-Gitterrätsel mit Bild-Hinweisen',
         description:
-          'Jedes Rätsel bettet versteckte Wörter in ein Gitter aus zufälligen Füllbuchstaben ein. Schüler durchsuchen Zeilen, Spalten und Diagonalen, um jedes Wort zu finden — das klassische Wortsuche-Format, das visuelles Scanning, Mustererkennung und Wortschatzerinnerung gleichzeitig trainiert. Bei Verwendung der Bildbibliothek oder des manuellen Bearbeitungsmodus erscheinen Bilder neben dem Gitter als visuelle Hinweise, die Bilderkennung und Wortidentifikation verbinden. Der benutzerdefinierte Wortlisten-Modus erzeugt reine Text-Wortsuchrätsel ohne Bilder und erweitert das Format auf jedes Fachgebiet oder jeden Wortschatz. Deutsche Wörter wie „Löwe“ und „Katze“ werden in einem Gitter voller deutscher Füllbuchstaben einschließlich ä, ö, ü und ß eingebettet, was ein authentisch deutsches Rätselerlebnis erzeugt. Das Wort „Löwe“ enthält ö, das auch als natürlicher Füllbuchstabe im Gitter erscheint — dadurch verschmilzt das versteckte Wort nahtloser mit dem Gitterhintergrund und erhöht die Schwierigkeit auf eine sprachlich authentische Weise.',
+          'Jedes Rätsel bettet versteckte Wörter in ein Gitter aus zufälligen Füllbuchstaben ein. Nutzer durchsuchen Zeilen, Spalten und Diagonalen, um jedes Wort zu finden — das klassische Wortsuche-Format, das visuelles Scanning, Mustererkennung und Wortschatzerinnerung gleichzeitig trainiert. Bei Verwendung der Bildbibliothek oder des manuellen Bearbeitungsmodus erscheinen Bilder neben dem Gitter als visuelle Hinweise, die Bilderkennung und Wortidentifikation verbinden. Der benutzerdefinierte Wortlisten-Modus erzeugt reine Text-Wortsuchrätsel ohne Bilder und erweitert das Format auf jedes Fachgebiet oder jeden Wortschatz. Deutsche Wörter wie „Löwe“ und „Katze“ werden in einem Gitter voller deutscher Füllbuchstaben einschließlich ä, ö, ü und ß eingebettet, was ein authentisch deutsches Rätselerlebnis erzeugt. Das Wort „Löwe“ enthält ö, das auch als natürlicher Füllbuchstabe im Gitter erscheint — dadurch verschmilzt das versteckte Wort nahtloser mit dem Gitterhintergrund und erhöht die Schwierigkeit auf eine sprachlich authentische Weise.',
       },
       {
         title: 'Einstellbare Gittergröße von 5×5 bis 30×30',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Farbcodierter Lösungsschlüssel mit 6 Hervorhebungsfarben',
         description:
-          'Der Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor: Rosa, Blau, Grün, Gold, Koralle und Lavendel. Jedes Wort erhält eine eigene Farbe für sofortige visuelle Identifikation, sodass es einfach ist, Lösungen zu überprüfen — selbst wenn sich Wörter im Gitter kreuzen oder überlappen. Das farbcodierte Format ist visuell ansprechend und professionell — ein deutlicher Qualitätssprung gegenüber einfachen „Kreise-das-Wort-ein“-Lösungsschlüsseln. Aktivieren Sie den Graustufen-Export, wenn Sie tintenschonende Versionen für Schwarzweiß-Druck oder Schwarzweiß-Rätselbücher benötigen. Der Lösungsschlüssel wird als separate herunterladbare Datei generiert und erhöht den professionellen Wert Ihrer Produktpakete. Viele erfolgreiche Verkäufer auf Etsy.de und dem Lehrermarktplatz bieten den farbcodierten Lösungsschlüssel als Bonus-Download an, um den wahrgenommenen Wert ihrer Rätselpakete zu steigern und sich von Mitbewerbern abzuheben, die nur einfache Antwortlisten bereitstellen.',
+          'Der Lösungsschlüssel hebt jedes gefundene Wort in einer von sechs wechselnden Farben hervor: Rosa, Blau, Grün, Gold, Koralle und Lavendel. Jedes Wort erhält eine eigene Farbe für sofortige visuelle Identifikation, sodass es einfach ist, Lösungen zu überprüfen — selbst wenn sich Wörter im Gitter kreuzen oder überlappen. Das farbcodierte Format ist visuell ansprechend und professionell — ein deutlicher Qualitätssprung gegenüber einfachen „Kreise-das-Wort-ein“-Lösungsschlüsseln. Aktivieren Sie den Graustufen-Export, wenn Sie tintenschonende Versionen für Schwarzweiß-Druck oder Schwarzweiß-Rätselbücher benötigen. Der Lösungsschlüssel wird als separate herunterladbare Datei generiert und erhöht den professionellen Wert Ihrer Produktpakete. Viele erfolgreiche Verkäufer auf Etsy.de und dem Gumroad bieten den farbcodierten Lösungsschlüssel als Bonus-Download an, um den wahrgenommenen Wert ihrer Rätselpakete zu steigern und sich von Mitbewerbern abzuheben, die nur einfache Antwortlisten bereitstellen.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 400+ DPI',
         description:
-          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt Ausgaben mit über 400 DPI bei Standardseitengrößen für gestochen scharfe, professionelle Ergebnisse. Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Größen werden alle unterstützt. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen, die für Klassenraumdruck oder Schwarzweiß-Rätselbücher ideal sind. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt Ausgaben mit über 400 DPI bei Standardseitengrößen für gestochen scharfe, professionelle Ergebnisse. Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Größen werden alle unterstützt. Aktivieren Sie den Graustufen-Export für tintenschonende Versionen, die für Klassenraumdruck oder Schwarzweiß-Rätselbücher ideal sind. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Text- und Bildwerkzeugen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Vokabelübungen für Lehrermarktplatz',
+        title: 'Differenzierte Vokabelübungen für Gumroad',
         description:
-          'Erstellen Sie gestufte Wortsuche-Übungssets mit Gittergröße und Richtungssteuerung als Differenzierungsachsen. Stufe 1: 8×8-Gitter, nur horizontal, 4 Wörter. Stufe 2: 12×12-Gitter, horizontal und vertikal, 6 Wörter. Stufe 3: 16×16-Gitter, Diagonalen aktiviert, 8 Wörter. Stufe 4: 20×20-Gitter, Diagonalen und Rückwärts-Wörter, 8 Wörter. Verpacken Sie jede Stufe mit farbcodierten Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf dem Lehrermarktplatz zahlen Premiumpreise für differenzierte Vokabelressourcen, die sofort über mehrere Leistungsgruppen hinweg einsetzbar sind.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Wortsuche-Übungssets mit Gittergröße und Richtungssteuerung als Differenzierungsachsen. Stufe 1: 8×8-Gitter, nur horizontal, 4 Wörter. Stufe 2: 12×12-Gitter, horizontal und vertikal, 6 Wörter. Stufe 3: 16×16-Gitter, Diagonalen aktiviert, 8 Wörter. Stufe 4: 20×20-Gitter, Diagonalen und Rückwärts-Wörter, 8 Wörter. Verpacken Sie jede Stufe mit farbcodierten Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf Gumroad zahlen Premiumpreise für gestufte Vokabelressourcen, die sofort über mehrere Leistungsgruppen hinweg einsetzbar sind.',
+        platform: 'Gumroad',
       },
       {
         title: 'Mehrsprachige Wortsuche-Produkte mit Vollzugriff',
         description:
           'Die Vollzugriff-Lizenz schaltet alle 11 Sprachen frei, und da die Wortsuche doppelt sprachabhängig ist, ändern sich sowohl die versteckten Wörter als auch die Gitter-Füllbuchstaben je nach Sprache. „Hund“ auf Deutsch ist in einem Gitter voller deutscher Zeichen einschließlich ä, ö, ü versteckt; „chien“ auf Französisch erscheint in einem Gitter mit é, è, ç, à. Jede Sprachversion ist ein eigenständiges Produkt mit anderen Wörtern, anderen Füllzeichen und einem völlig anderen Lösungserlebnis. Erstellen Sie identische Themensets in mehreren Sprachen und listen Sie jede als separates Etsy-Produkt oder KDP-Buch — elf Einnahmequellen aus einem einzigen Workflow.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (mehrsprachig)',
+        platform: 'Etsy / Amazon KDP / Gumroad (mehrsprachig)',
       },
       {
-        title: 'Vokabeltraining für Unterricht und Nachhilfe',
+        title: 'Vokabeltraining für Produkterstellung und Geschäft',
         description:
-          'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um Wortsuche-Arbeitsblätter für jede Vokabelliste zu erstellen — wöchentliche Rechtschreibwörter, naturwissenschaftliche Fachbegriffe, Erdkunde-Vokabular oder Fremdsprachenübungen. Geben Sie bis zu 8 Wörter direkt ein, ohne passende Bilder zu benötigen. Passen Sie Gittergröße und Richtungsschalter an das Niveau jedes Schülers an: kleine rein horizontale Gitter für Leseanfänger, große Diagonal-und-Rückwärts-Gitter für Fortgeschrittene. Drucken Sie maßgeschneiderte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der farbcodierte Lösungsschlüssel spart Korrekturzeit, und das klassische Wortsuche-Format hält Schüler deutlich motivierter als herkömmliche Vokabellisten.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Nutzen Sie den benutzerdefinierten Wortlisten-Modus, um Wortsuche-Arbeitsblätter für jede Vokabelliste zu erstellen — wöchentliche Rechtschreibwörter, naturwissenschaftliche Fachbegriffe, Erdkunde-Vokabular oder Fremdsprachenübungen. Geben Sie bis zu 8 Wörter direkt ein, ohne passende Bilder zu benötigen. Passen Sie Gittergröße und Richtungsschalter an das Niveau jedes Nutzers an: kleine rein horizontale Gitter für Leseanfänger, große Diagonal-und-Rückwärts-Gitter für Fortgeschrittene. Drucken Sie maßgeschneiderte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der farbcodierte Lösungsschlüssel spart wahrgenommenen Mehrwert, und das klassische Wortsuche-Format hält Nutzer deutlich motivierter als herkömmliche Vokabellisten.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert das Wortsuche-Rätsel?',
       answer:
-        'Versteckte Wörter sind in einem Gitter aus zufälligen Füllbuchstaben eingebettet. Schüler durchsuchen Zeilen, Spalten und optional Diagonalen, um jedes Wort zu finden. Wenn ein Wort gefunden wird, kreisen oder markieren Schüler es im Gitter. Die Füllbuchstaben werden bei jeder Generierung zufällig neu erstellt, sodass jedes Rätsel einzigartig ist — selbst mit derselben Wortliste. Bis zu 8 Wörter können in einem einzelnen Gitter platziert werden.',
+        'Versteckte Wörter sind in einem Gitter aus zufälligen Füllbuchstaben eingebettet. Nutzer durchsuchen Zeilen, Spalten und optional Diagonalen, um jedes Wort zu finden. Wenn ein Wort gefunden wird, kreisen oder markieren Nutzer es im Gitter. Die Füllbuchstaben werden bei jeder Generierung zufällig neu erstellt, sodass jedes Rätsel einzigartig ist — selbst mit derselben Wortliste. Bis zu 8 Wörter können in einem einzelnen Gitter platziert werden.',
     },
     {
       question: 'Welche Gittergrößen sind verfügbar?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Was sind die drei Anzeigemodi?',
       answer:
-        'Wörter und Bilder anzeigen (Standard) zeigt sowohl Bild-Hinweise als auch Wortbezeichnungen neben dem Gitter. Nur Bilder anzeigen zeigt Bild-Hinweise ohne Textbezeichnungen, sodass Schüler das Bild erkennen und das Wort selbst im Gitter finden müssen. Nur Wörter anzeigen zeigt Textbezeichnungen ohne Bilder und erzeugt ein reines Text-Wortsuche-Erlebnis. Jeder Modus steuert, was als Hinweis-Referenz neben dem Gitter erscheint.',
+        'Wörter und Bilder anzeigen (Standard) zeigt sowohl Bild-Hinweise als auch Wortbezeichnungen neben dem Gitter. Nur Bilder anzeigen zeigt Bild-Hinweise ohne Textbezeichnungen, sodass Nutzer das Bild erkennen und das Wort selbst im Gitter finden müssen. Nur Wörter anzeigen zeigt Textbezeichnungen ohne Bilder und erzeugt ein reines Text-Wortsuche-Erlebnis. Jeder Modus steuert, was als Hinweis-Referenz neben dem Gitter erscheint.',
     },
     {
       question: 'Wie funktionieren die sprachabhängigen Füllbuchstaben?',
@@ -193,7 +193,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Wortsuche-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Rätselbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die einstellbaren Gittergrößen, Richtungssteuerungen und die mehrsprachige Fähigkeit mit sprachabhängigen Füllbuchstaben bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Wortsuche-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Rätselbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die einstellbaren Gittergrößen, Richtungssteuerungen und die mehrsprachige Fähigkeit mit sprachabhängigen Füllbuchstaben bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'heimunterricht-druckvorlagen-ideen',
-      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Verkäufer',
     },
     {
       pageType: 'guide',

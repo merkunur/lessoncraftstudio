@@ -3,24 +3,24 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'Ausmalseiten selber machen',
     secondaryKeywords: [
-      'Malvorlagen erstellen für den Unterricht',
+      'Malvorlagen erstellen für die Produkterstellung',
       'Ausmalbilder selber gestalten für Kinder',
-      'Ausmalseiten-Ersteller für Lehrer',
+      'Ausmalseiten-Ersteller für Verkäufer',
       'druckbare Malvorlagen für die Klasse',
     ],
     lsiKeywords: [
-      'Ausmalbilder für den Unterricht gestalten',
+      'Ausmalbilder für die Produkterstellung gestalten',
       'Graustufen-Malvorlage zum Ausdrucken',
       'Freihand-Zeichentool für Ausmalbilder',
     ],
     titleTag: 'Ausmalseiten selber machen — Malvorlagen erstellen',
-    metaDescription: 'Eigene Ausmalseiten für den Unterricht oder zu Hause gestalten. Freie Arbeitsfläche, 3.100+ Illustrationen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Eigene Ausmalseiten für die Produkterstellung oder zu Hause gestalten. Freie Arbeitsfläche, 3.100+ Illustrationen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
     },
 
   hero: {
     title: 'Malvorlagen-Ersteller',
-    tagline: 'Freie-Arbeitsfläche-Ausmalseiten-Generator mit Freihand-Zeichenwerkzeug, Graustufen-Export, Klassenzimmer-Helfern und 104 thematischen Bildsammlungen für professionelle Malvorlagen, die weltweit ohne Übersetzung verkaufen',
-    description: 'Gestalten Sie professionelle Ausmalseiten auf einer komplett offenen Arbeitsfläche, auf der Sie Bilder exakt dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, keine Slots, reine kreative Freiheit. Dieser Freiform-Ansatz ist der zentrale Unterschied: Jede Malvorlage, die Sie erstellen, ist einzigartig und unmöglich mit vorlagenbasierten Tools zu replizieren. Durchstöbern Sie 104 thematische Bildsammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen, klicken Sie zum Hinzufügen und arrangieren, skalieren, drehen und schichten Sie Elemente überall auf der Arbeitsfläche. Das Freihand-Zeichenwerkzeug ermöglicht Ihnen, eigene Illustrationen direkt neben Bibliotheksbildern zu skizzieren mit einstellbarer Pinselfarbe und Pinselgröße (1–50 Pixel) — so entstehen hybride Ausmalseiten, die kuratierte Kunst mit Ihren eigenen Zeichnungen verbinden. Ein-Klick-Klassenzimmer-Helfer fügen ein Namensfeld („Name: ____“) und Handschrift-Übungslinien (durchgezogen, gestrichelt, durchgezogen) hinzu — und verwandeln Malvorlagen in unterrichtsfertige Aktivitätsblätter für den Lehrermarktplatz. Zum Schluss schalten Sie den Graustufen-Export ein, um Ihre farbenfrohe Komposition in tintenschonende Ausmalseiten umzuwandeln — perfekt für KDP-Innenteile und Klassenzimmerdruck. Fügen Sie dekorative Rahmenthemen aus der Rahmenbibliothek hinzu, benutzerdefinierten Text mit Umrisseffekten in Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, und laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Dies ist eine rein visuelle App — die Ausgabe enthält keinen Text, was Malvorlagen universell verkaufbar ohne Übersetzung macht. Kein Lösungsschlüssel existiert, da Ausmalen eine kreative Aktivität ohne richtige Antwort ist. Die App ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht die exportierte Malvorlage. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    tagline: 'Freie-Arbeitsfläche-Ausmalseiten-Generator mit Freihand-Zeichenwerkzeug, Graustufen-Export, Shop-Helfern und 104 thematischen Bildsammlungen für professionelle Malvorlagen, die weltweit ohne Übersetzung verkaufen',
+    description: 'Gestalten Sie professionelle Ausmalseiten auf einer komplett offenen Arbeitsfläche, auf der Sie Bilder exakt dort platzieren, wo Sie sie haben möchten — keine Raster, keine Vorlagen, keine Slots, reine kreative Freiheit. Dieser Freiform-Ansatz ist der zentrale Unterschied: Jede Malvorlage, die Sie erstellen, ist einzigartig und unmöglich mit vorlagenbasierten Tools zu replizieren. Durchstöbern Sie 104 thematische Bildsammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen, klicken Sie zum Hinzufügen und arrangieren, skalieren, drehen und schichten Sie Elemente überall auf der Arbeitsfläche. Das Freihand-Zeichenwerkzeug ermöglicht Ihnen, eigene Illustrationen direkt neben Bibliotheksbildern zu skizzieren mit einstellbarer Pinselfarbe und Pinselgröße (1–50 Pixel) — so entstehen hybride Ausmalseiten, die kuratierte Kunst mit Ihren eigenen Zeichnungen verbinden. Ein-Klick-Shop-Helfer fügen ein Namensfeld („Name: ____“) und Handschrift-Übungslinien (durchgezogen, gestrichelt, durchgezogen) hinzu — und verwandeln Malvorlagen in unterrichtsfertige Aktivitätsblätter für den Gumroad. Zum Schluss schalten Sie den Graustufen-Export ein, um Ihre farbenfrohe Komposition in tintenschonende Ausmalseiten umzuwandeln — perfekt für KDP-Innenteile und Shopdruck. Fügen Sie dekorative Rahmenthemen aus der Rahmenbibliothek hinzu, benutzerdefinierten Text mit Umrisseffekten in Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, und laden Sie eigene PNG-, JPG- oder GIF-Bilder hoch. Dies ist eine rein visuelle App — die Ausgabe enthält keinen Text, was Malvorlagen universell verkaufbar ohne Übersetzung macht. Kein Lösungsschlüssel existiert, da Ausmalen eine kreative Aktivität ohne richtige Antwort ist. Die App ist nicht sprachabhängig — die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen, nicht die exportierte Malvorlage. Exportieren Sie druckfertige PDFs und JPEGs bei 300 DPI in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -47,16 +47,16 @@ const content: ToolContent = {  seo: {
         description: 'Wechseln Sie in den Zeichenmodus und skizzieren Sie direkt auf der Arbeitsfläche mit dem Freihand-Pinsel. Wählen Sie eine beliebige Pinselfarbe über den Farbwähler und passen Sie die Pinselgröße von 1 bis 50 Pixel an. Zeichnen Sie eigene Rahmen, dekorative Kritzeleien, originale Illustrationen oder Verbindungslinien zwischen Bildern. Das Freihand-Werkzeug erzeugt hybride Ausmalseiten, die Bibliotheksbilder mit Ihren eigenen Originalzeichnungen verbinden — ein starkes Alleinstellungsmerkmal für Verkäufer, die wirklich einzigartige Produkte wollen.',
       },
       {
-        title: 'Klassenzimmer-Helfer und Text hinzufügen',
-        description: 'Klicken Sie auf die Namensfeld-Schaltfläche, um einen formatierten „Name: ____“-Textblock oben auf der Seite für die Schüleridentifikation hinzuzufügen. Klicken Sie auf die Handschrift-Linien-Schaltfläche, um drei gleichmäßig verteilte Linien (durchgezogen, gestrichelt, durchgezogen) unten für Schreibübungen hinzuzufügen. Diese Ein-Klick-Klassenzimmer-Helfer verwandeln Malvorlagen in sofort einsetzbare Aktivitätsblätter. Fügen Sie Titel, Anweisungen oder Beschriftungen über die Texttools mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana hinzu. Passen Sie die Textumriss-Breite von 0 bis 10 mit 0,5-Schritt-Granularität an.',
+        title: 'Shop-Helfer und Text hinzufügen',
+        description: 'Klicken Sie auf die Namensfeld-Schaltfläche, um einen formatierten „Name: ____“-Textblock oben auf der Seite für die Nutzeridentifikation hinzuzufügen. Klicken Sie auf die Handschrift-Linien-Schaltfläche, um drei gleichmäßig verteilte Linien (durchgezogen, gestrichelt, durchgezogen) unten für Schreibübungen hinzuzufügen. Diese Ein-Klick-Shop-Helfer verwandeln Malvorlagen in sofort einsetzbare Aktivitätsblätter. Fügen Sie Titel, Anweisungen oder Beschriftungen über die Texttools mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana hinzu. Passen Sie die Textumriss-Breite von 0 bis 10 mit 0,5-Schritt-Granularität an.',
       },
       {
         title: 'Graustufen umschalten und exportieren',
-        description: 'Öffnen Sie das Download-Panel und schalten Sie die Graustufen-Option ein, um Ihre farbenfrohe Komposition in tintenschonende Malvorlagen umzuwandeln — die Bibliotheksbilder sind während des Designs farbenfroh, aber der Graustufen-Export konvertiert sie für druckfertige Ausgabe. Laden Sie als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung.',
+        description: 'Öffnen Sie das Download-Panel und schalten Sie die Graustufen-Option ein, um Ihre farbenfrohe Komposition in tintenschonende Malvorlagen umzuwandeln — die Bibliotheksbilder sind während des Designs farbenfroh, aber der Graustufen-Export konvertiert sie für druckfertige Ausgabe. Laden Sie als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI herunter. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien ohne Nachbearbeitung.',
       },
       {
         title: 'Stapelerstellung mit Themenvariationen',
-        description: 'Wiederholen Sie den Vorgang mit verschiedenen Themen für schnelle Produkterstellung. Arbeitsfläche leeren, neues Thema aus den 104 verfügbaren Sammlungen wählen, frische Bilder auf der freien Arbeitsfläche arrangieren und exportieren. Jedes Thema erzeugt visuell eigenständige Malvorlagen. Kombinieren Sie diesen Arbeitsablauf mit dem Freihand-Zeichenwerkzeug und den Klassenzimmer-Helfern, um vielfältige Produktlinien zu erstellen — thematische Malvorlagen-Pakete, Klassenzimmer-Aktivitätspakete und Malbuch-Innenteile — alles aus demselben Generator.',
+        description: 'Wiederholen Sie den Vorgang mit verschiedenen Themen für schnelle Produkterstellung. Arbeitsfläche leeren, neues Thema aus den 104 verfügbaren Sammlungen wählen, frische Bilder auf der freien Arbeitsfläche arrangieren und exportieren. Jedes Thema erzeugt visuell eigenständige Malvorlagen. Kombinieren Sie diesen Arbeitsablauf mit dem Freihand-Zeichenwerkzeug und den Shop-Helfern, um vielfältige Produktlinien zu erstellen — thematische Malvorlagen-Pakete, Shop-Aktivitätspakete und Malbuch-Innenteile — alles aus demselben Generator.',
       },
     ],
   },
@@ -71,8 +71,8 @@ const content: ToolContent = {  seo: {
       description: 'Stellen Sie 40–80 Malvorlagen zu vollständigen Buchinnenteilen für Amazon KDP zusammen. Der Graustufen-Export wandelt farbenfrohe Kompositionen in tintenschonende Seiten um, die perfekt im Standard-Schwarzweiß-Druck reproduzieren und die Produktionskosten niedrig halten. Strukturieren Sie Bücher nach Thema (Tiere, Jahreszeiten, Feiertage), nach Altersgruppe (einfache Layouts für Kleinkinder, detaillierte Kompositionen für ältere Kinder) oder nach Aktivitätstyp (nur Ausmalen, Ausmalen mit Namensfeld, Ausmalen mit Schreibübungslinien). Die rein visuelle Ausgabe veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung — ein Innenteil bedient jedes Land.',
     },
     {
-      title: 'Klassenzimmer-Ausmal-Aktivitätsblätter',
-      description: 'Nutzen Sie die Ein-Klick-Klassenzimmer-Helfer, um Malvorlagen mit integrierten Namensfeldern und Handschrift-Übungslinien zu erstellen. Das Namensfeld fügt „Name: ____“ oben für die Schüleridentifikation hinzu. Die Handschrift-Linien fügen durchgezogen-gestrichelt-durchgezogene Übungslinien unten hinzu. Diese zwei Ergänzungen verwandeln Standard-Malvorlagen in strukturierte Klassenzimmer-Aktivitäten, nach denen Lehrermarktplatz-Käufer gezielt suchen. Erstellen Sie thematische Sets abgestimmt auf Lehrplanthemen — Bauernhoftiere für Sachunterricht, Berufe für Gemeinschaftskunde, saisonale Themen für Feiertagsaktivitäten — jedes Paket mit vorintegrierten Klassenzimmer-Helfern.',
+      title: 'Shop-Ausmal-Aktivitätsblätter',
+      description: 'Nutzen Sie die Ein-Klick-Shop-Helfer, um Malvorlagen mit integrierten Namensfeldern und Handschrift-Übungslinien zu erstellen. Das Namensfeld fügt „Name: ____“ oben für die Nutzeridentifikation hinzu. Die Handschrift-Linien fügen durchgezogen-gestrichelt-durchgezogene Übungslinien unten hinzu. Diese zwei Ergänzungen verwandeln Standard-Malvorlagen in strukturierte Shop-Aktivitäten, nach denen Gumroad-Käufer gezielt suchen. Erstellen Sie thematische Sets abgestimmt auf Produktkatalogthemen — Bauernhoftiere für Sachunterricht, Berufe für Gemeinschaftskunde, saisonale Themen für Feiertagsaktivitäten — jedes Paket mit vorintegrierten Shop-Helfern.',
     },
     {
       title: 'Hybride Illustrations-Malvorlagen',
@@ -91,7 +91,7 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: 'Thematischer Malvorlagen-Shop auf Etsy',
-      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Malvorlagen-Pakete, organisiert nach Thema unter Nutzung der 104 thematischen Bildsammlungen als Produktkatalog-Grundlage. Tiere, Fahrzeuge, Lebensmittel, Natur, Feiertage und Berufe werden jeweils zu separaten Angeboten. Die freie Arbeitsfläche bedeutet, dass jede Seite ein einzigartiges Layout hat, das Konkurrenten mit vorlagenbasierten Tools nicht erreichen können. Fügen Sie Klassenzimmer-Helfer hinzu, um sich von generischen Malvorlagen zu differenzieren. Einzelne Themenpakete kosten 3–5 € für 15–20 Seiten und Premium-Sammlungen 8–12 € für 30–50 Seiten mit dekorativen Rahmen und Klassenzimmer-Funktionen.',
+      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Malvorlagen-Pakete, organisiert nach Thema unter Nutzung der 104 thematischen Bildsammlungen als Produktkatalog-Grundlage. Tiere, Fahrzeuge, Lebensmittel, Natur, Feiertage und Berufe werden jeweils zu separaten Angeboten. Die freie Arbeitsfläche bedeutet, dass jede Seite ein einzigartiges Layout hat, das Konkurrenten mit vorlagenbasierten Tools nicht erreichen können. Fügen Sie Shop-Helfer hinzu, um sich von generischen Malvorlagen zu differenzieren. Einzelne Themenpakete kosten 3–5 € für 15–20 Seiten und Premium-Sammlungen 8–12 € für 30–50 Seiten mit dekorativen Rahmen und Shop-Funktionen.',
       platform: 'Etsy',
     },
     {
@@ -100,23 +100,23 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Klassenzimmer-Aktivitätspakete',
-      description: 'Laden Sie Malvorlagen-Pakete auf dem Lehrermarktplatz hoch mit Klassenzimmer-Helfern als zentralem Verkaufsargument. Jede Seite enthält ein Namensfeld und Handschrift-Übungslinien — Funktionen, nach denen Lehrkräfte gezielt suchen. Organisieren Sie nach Lehrplanthema: Bauernhoftiere für den Sachunterricht, Berufe für Gemeinschaftskunde, Wetter und Jahreszeiten für Erdkunde, Formen und Muster für Mathematik-Integration. Das unterrichtsfertige Format ermöglicht höhere Preise als generische Malvorlagen, weil Lehrkräfte einen Aufpreis für Sofort-Einsatz-Ressourcen mit Schüleridentifikation und Schreibübung zahlen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Shop-Aktivitätspakete',
+      description: 'Laden Sie Malvorlagen-Pakete auf Gumroad hoch mit Shop-Helfern als zentralem Verkaufsargument. Jede Seite enthält ein Namensfeld und Handschrift-Übungslinien — Funktionen, nach denen Verkäufer gezielt suchen. Organisieren Sie nach Produktkatalogthema: Bauernhoftiere für den Sachunterricht, Berufe für Gemeinschaftskunde, Wetter und Jahreszeiten für Erdkunde, Formen und Muster für Mathematik-Integration. Das unterrichtsfertige Format ermöglicht höhere Preise als generische Malvorlagen, weil Verkäufer einen Aufpreis für Sofort-Einsatz-Ressourcen mit Nutzeridentifikation und Schreibübung zahlen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Malvorlagen-Verkaufstrichter',
-      description: 'Malvorlagen erzeugen visuell auffällige Pinterest-Pins, die Traffic zu Ihrem Etsy-Shop oder Ihrer Landingpage leiten. Pinnen Sie Beispiel-Malvorlagen mit Wasserzeichen, die die Freiform-Kompositionen, thematischen Bildarrangements und Klassenzimmer-Helfer zeigen. Erstellen Sie separate Pin-Serien für „Tier-Malvorlagen“, „Feiertags-Ausmalblätter“ und „Klassenzimmer-Ausmal-Aktivitäten“. Das rein visuelle Format spricht Eltern und Lehrkräfte in jedem Land an. Verlinken Sie jeden Pin auf Ihre Produktangebote und bauen Sie eine E-Mail-Liste von Malvorlagen-Käufern für Neuerscheinungs-Ankündigungen auf.',
+      description: 'Malvorlagen erzeugen visuell auffällige Pinterest-Pins, die Traffic zu Ihrem Etsy-Shop oder Ihrer Landingpage leiten. Pinnen Sie Beispiel-Malvorlagen mit Wasserzeichen, die die Freiform-Kompositionen, thematischen Bildarrangements und Shop-Helfer zeigen. Erstellen Sie separate Pin-Serien für „Tier-Malvorlagen“, „Feiertags-Ausmalblätter“ und „Shop-Ausmal-Aktivitäten“. Das rein visuelle Format spricht Eltern und Verkäufer in jedem Land an. Verlinken Sie jeden Pin auf Ihre Produktangebote und bauen Sie eine E-Mail-Liste von Malvorlagen-Käufern für Neuerscheinungs-Ankündigungen auf.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Komplett-Malvorlagen-Toolkit',
-      description: 'Bündeln Sie Malvorlagen mit Freihand-Illustrationen, thematischen Klassenzimmer-Aktivitätsblättern und saisonalen Sammlungen zu einem umfassenden Malvorlagen-Toolkit auf Gumroad. Enthält 200+ Malvorlagen über alle wichtigen Themen mit vorintegrierten Klassenzimmer-Helfern auf jeder Seite. Das Toolkit-Format rechtfertigt einen Premium-Preis, weil Käufer eine komplette Bibliothek statt einzelner Pakete erhalten. Fügen Sie quartalsweise neue saisonale Sammlungen hinzu, um Wiederkäufe von Bestandskunden zu fördern, die die neuesten Ergänzungen wollen.',
+      description: 'Bündeln Sie Malvorlagen mit Freihand-Illustrationen, thematischen Shop-Aktivitätsblättern und saisonalen Sammlungen zu einem umfassenden Malvorlagen-Toolkit auf Gumroad. Enthält 200+ Malvorlagen über alle wichtigen Themen mit vorintegrierten Shop-Helfern auf jeder Seite. Das Toolkit-Format rechtfertigt einen Premium-Preis, weil Käufer eine komplette Bibliothek statt einzelner Pakete erhalten. Fügen Sie quartalsweise neue saisonale Sammlungen hinzu, um Wiederkäufe von Bestandskunden zu fördern, die die neuesten Ergänzungen wollen.',
       platform: 'Gumroad',
     },
     {
       title: 'Textfreie globale Produktlinie',
-      description: 'Der Malvorlagen-Ersteller erzeugt rein visuelle Ausgabe ohne Text auf den Arbeitsblättern — dieselbe Malvorlage funktioniert in jeder Sprache ohne Änderung. Eine Erstellungssitzung produziert einen universell verkaufbaren Katalog. Verkaufen Sie dieselben Produktdateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf dem Lehrermarktplatz für internationale Lehrkräfte. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege. Jede Malvorlage, die Sie erstellen, bedient sofort einen globalen Markt.',
+      description: 'Der Malvorlagen-Ersteller erzeugt rein visuelle Ausgabe ohne Text auf den Arbeitsblättern — dieselbe Malvorlage funktioniert in jeder Sprache ohne Änderung. Eine Erstellungssitzung produziert einen universell verkaufbaren Katalog. Verkaufen Sie dieselben Produktdateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege. Jede Malvorlage, die Sie erstellen, bedient sofort einen globalen Markt.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -128,11 +128,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Graustufen-Export strategisch einsetzen',
-      description: 'Gestalten Sie mit farbenfrohen Bildern für ein ansprechendes Bearbeitungserlebnis und schalten Sie dann Graustufen beim Export für tintenschonende Ausgabe ein. Nutzen Sie Graustufen für KDP-Innenteile und Klassenzimmer-Massendruck, wo Schwarzweiß-Reproduktion die Kosten niedrig hält. Behalten Sie farbenfrohe Versionen für Etsy-Vorschaubilder, wo lebendige Farben Klicks in Suchergebnissen generieren. Dieselbe Komposition bedient beide Zwecke — eine Designsitzung erzeugt Assets für mehrere Vertriebskanäle.',
+      description: 'Gestalten Sie mit farbenfrohen Bildern für ein ansprechendes Bearbeitungserlebnis und schalten Sie dann Graustufen beim Export für tintenschonende Ausgabe ein. Nutzen Sie Graustufen für KDP-Innenteile und Shop-Massendruck, wo Schwarzweiß-Reproduktion die Kosten niedrig hält. Behalten Sie farbenfrohe Versionen für Etsy-Vorschaubilder, wo lebendige Farben Klicks in Suchergebnissen generieren. Dieselbe Komposition bedient beide Zwecke — eine Designsitzung erzeugt Assets für mehrere Vertriebskanäle.',
     },
     {
-      title: 'Klassenzimmer-Helfer für höhere Preise nutzen',
-      description: 'Malvorlagen mit Namensfeldern und Handschrift-Linien verkaufen sich für mehr als generische Malvorlagen, weil sie einen funktionalen Unterrichtszweck erfüllen. Lehrkräfte auf dem Lehrermarktplatz suchen gezielt nach „unterrichtsfertigen“ Ausmal-Aktivitäten mit Schüleridentifikationsbereichen. Diese Ein-Klick-Helfer hinzuzufügen dauert Sekunden, verwandelt aber Ihr Produkt von einer einfachen Malvorlage in eine strukturierte Lernaktivität, die Premium-Preise rechtfertigt.',
+      title: 'Shop-Helfer für höhere Preise nutzen',
+      description: 'Malvorlagen mit Namensfeldern und Handschrift-Linien verkaufen sich für mehr als generische Malvorlagen, weil sie einen funktionalen Produkterstellungszweck erfüllen. Verkäufer auf Gumroad suchen gezielt nach „unterrichtsfertigen“ Ausmal-Aktivitäten mit Nutzeridentifikationsbereichen. Diese Ein-Klick-Helfer hinzuzufügen dauert Sekunden, verwandelt aber Ihr Produkt von einer einfachen Malvorlage in eine strukturierte Lernaktivität, die Premium-Preise rechtfertigt.',
     },
     {
       title: 'Freihand-Zeichnung mit Bibliotheksbildern kombinieren',
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Textfreie visuelle Ausgabe für globalen Verkauf nutzen',
-      description: 'Malvorlagen enthalten keinen Text auf der Ausgabe — sie sind rein visuell. Dieselbe Produktdatei funktioniert in jedem Land ohne Übersetzung. Erstellen Sie einen Satz Malvorlagen und verkaufen Sie weltweit über mehrere Etsy-Shops, alle KDP-Marktplätze und internationalen Lehrermarktplatz. Das eliminiert Übersetzungskosten und sprachspezifische Pflege und maximiert den Umsatz aus jeder Designsitzung.',
+      description: 'Malvorlagen enthalten keinen Text auf der Ausgabe — sie sind rein visuell. Dieselbe Produktdatei funktioniert in jedem Land ohne Übersetzung. Erstellen Sie einen Satz Malvorlagen und verkaufen Sie weltweit über mehrere Etsy-Shops, alle KDP-Marktplätze und internationalen Gumroad. Das eliminiert Übersetzungskosten und sprachspezifische Pflege und maximiert den Umsatz aus jeder Designsitzung.',
     },
     {
       title: 'Dekorative Rahmen für professionelles Erscheinungsbild einsetzen',
@@ -155,7 +155,7 @@ const content: ToolContent = {  seo: {
   faq: [
     {
       question: 'Gibt es eine kostenlose Testversion?',
-      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit vollem Funktionsumfang — die vollständige freie Arbeitsfläche, alle 104 Themensammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen, das Freihand-Zeichenwerkzeug, Klassenzimmer-Helfer (Namensfeld und Handschrift-Übungslinien), Graustufen-Export, dekorative Rahmen, eigener Bild-Upload und alle Exportformate. Keine Anmeldung, keine Kreditkarte erforderlich. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Verkaufsrechte freizuschalten.',
+      answer: 'Ja. Das Tool bietet eine kostenlose Testversion mit vollem Funktionsumfang — die vollständige freie Arbeitsfläche, alle 104 Themensammlungen mit über 3.100 Schwarzweiß-Umrisszeichnungen, das Freihand-Zeichenwerkzeug, Shop-Helfer (Namensfeld und Handschrift-Übungslinien), Graustufen-Export, dekorative Rahmen, eigener Bild-Upload und alle Exportformate. Keine Anmeldung, keine Kreditkarte erforderlich. Downloads der kostenlosen Testversion enthalten ein Wasserzeichen. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Verkaufsrechte freizuschalten.',
     },
     {
       question: 'Was unterscheidet die freie Arbeitsfläche von vorlagenbasierten Tools?',
@@ -163,11 +163,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wie funktioniert der Graustufen-Export?',
-      answer: 'Die Bildbibliothek enthält Schwarzweiß-Umrisszeichnungen, die Sie während des Designs verwenden. Wenn Sie zum Export bereit sind, schalten Sie die Graustufen-Option im Download-Panel ein, um Ihre Komposition in tintenschonende Malvorlagen umzuwandeln. Die Graustufen-Konvertierung erfolgt zum Exportzeitpunkt — Ihre Arbeitsfläche bleibt während der Bearbeitung unverändert. Dieser Ansatz ist ideal für KDP-Innenteile und Klassenzimmerdruck, wo Schwarzweiß-Reproduktion die Kosten niedrig hält.',
+      answer: 'Die Bildbibliothek enthält Schwarzweiß-Umrisszeichnungen, die Sie während des Designs verwenden. Wenn Sie zum Export bereit sind, schalten Sie die Graustufen-Option im Download-Panel ein, um Ihre Komposition in tintenschonende Malvorlagen umzuwandeln. Die Graustufen-Konvertierung erfolgt zum Exportzeitpunkt — Ihre Arbeitsfläche bleibt während der Bearbeitung unverändert. Dieser Ansatz ist ideal für KDP-Innenteile und Shopdruck, wo Schwarzweiß-Reproduktion die Kosten niedrig hält.',
     },
     {
-      question: 'Was sind die Klassenzimmer-Helfer?',
-      answer: 'Zwei Ein-Klick-Schaltflächen fügen unterrichtsfertige Elemente hinzu. Die Namensfeld-Schaltfläche platziert einen formatierten „Name: ____“-Textblock oben auf der Seite für die Schüleridentifikation. Die Handschrift-Linien-Schaltfläche fügt drei gleichmäßig verteilte Linien (durchgezogen, gestrichelt, durchgezogen) unten für Schreibübungen hinzu. Diese Helfer verwandeln Malvorlagen in strukturierte Klassenzimmer-Aktivitäten ohne manuelle Textformatierung — ein zentrales Verkaufsargument für Lehrermarktplatz-Ressourcen.',
+      question: 'Was sind die Shop-Helfer?',
+      answer: 'Zwei Ein-Klick-Schaltflächen fügen unterrichtsfertige Elemente hinzu. Die Namensfeld-Schaltfläche platziert einen formatierten „Name: ____“-Textblock oben auf der Seite für die Nutzeridentifikation. Die Handschrift-Linien-Schaltfläche fügt drei gleichmäßig verteilte Linien (durchgezogen, gestrichelt, durchgezogen) unten für Schreibübungen hinzu. Diese Helfer verwandeln Malvorlagen in strukturierte Shop-Aktivitäten ohne manuelle Textformatierung — ein zentrales Verkaufsargument für Gumroad-Ressourcen.',
     },
     {
       question: 'Wie funktioniert das Freihand-Zeichenwerkzeug?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Malvorlagen kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Malvorlagen als digitale Downloads auf Etsy, gedruckte Malbücher auf Amazon KDP, Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die freie Arbeitsfläche, das Freihand-Zeichenwerkzeug, die Klassenzimmer-Helfer und 104 Themensammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Malvorlagen-Kategorien auf jedem großen Marktplatz konkurrieren.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Malvorlagen als digitale Downloads auf Etsy, gedruckte Malbücher auf Amazon KDP, Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die freie Arbeitsfläche, das Freihand-Zeichenwerkzeug, die Shop-Helfer und 104 Themensammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Malvorlagen-Kategorien auf jedem großen Marktplatz konkurrieren.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
@@ -195,7 +195,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',
-      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zur freien Arbeitsfläche, allen 104 Themen, dem Freihand-Zeichenwerkzeug, den Klassenzimmer-Helfern, dem Graustufen-Export und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
+      answer: 'Testen Sie vor dem Kauf mit unserer kostenlosen Testversion — jede Funktion ist verfügbar, damit Sie das Tool vollständig bewerten können, bevor Sie kaufen. Da die kostenlose Testversion Ihnen vollen Zugang zur freien Arbeitsfläche, allen 104 Themen, dem Freihand-Zeichenwerkzeug, den Shop-Helfern, dem Graustufen-Export und jedem Exportformat gewährt, bieten wir keine Rückerstattungen auf Lizenzkäufe an. Stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, indem Sie die kostenlose Testversion vor dem Kauf nutzen.',
     },
   ],
 
@@ -223,12 +223,12 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/german/coloring/coloring portrait 3.webp',
-        alt: 'Unterrichtsfertige Malvorlage mit Namensfeld und Handschrift-Übungslinien durch Ein-Klick-Klassenzimmer-Helfer',
-        caption: 'Klassenzimmer-Aktivitätsblatt — Namensfeld und Handschrift-Linien verwandeln Malvorlagen in strukturierte Lernaktivitäten',
+        alt: 'Produkterstellungsfertige Malvorlage mit Namensfeld und Handschrift-Übungslinien durch Ein-Klick-Shop-Helfer',
+        caption: 'Shop-Aktivitätsblatt — Namensfeld und Handschrift-Linien verwandeln Malvorlagen in strukturierte Lernaktivitäten',
       },
       {
         src: '/samples/german/coloring/coloring landscape 1.webp',
-        alt: 'Graustufen-Malvorlagen-Export mit tintenschonender Konvertierung für KDP-Innenteile und Klassenzimmerdruck',
+        alt: 'Graustufen-Malvorlagen-Export mit tintenschonender Konvertierung für KDP-Innenteile und Shopdruck',
         caption: 'Graustufen-Export — farbenfrohe Kompositionen werden in tintenschonende Malvorlagen für KDP-Innenteile und Massendruck umgewandelt',
       },
     ],

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Mehr-oder-Weniger-Arbeitsblätter für Etsy',
       'Größer-Kleiner-Arbeitsblatt-Generator für KDP',
-      'Mengenvergleich-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Mengenvergleich-Arbeitsblätter auf Gumroad verkaufen',
       'Vergleichs-Druckvorlagen kommerzielle Lizenz',
       'Zahlenvergleich-Übungsblätter Generator',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Mehr-oder-Weniger-Arbeitsblatt-Generator für visuellen Mengenvergleich',
     tagline: 'Verwandeln Sie Zahlenvergleiche in ein visuelles Entdeckungsabenteuer mit bildbasierten Größer-Kleiner-Arbeitsblättern.',
     description:
-      'Erstellen Sie ansprechende Vergleichs-Arbeitsblätter, die Schülern beibringen, welche Gruppe mehr hat, welche weniger und wann zwei Gruppen gleich sind. Wählen Sie aus drei verschiedenen Übungsmodi — Bild zu Bild, Bild zu Zahl und den einzigartigen Ankreuzen-und-Durchstreichen-Modus, bei dem Schüler gemischte Bilderboxen analysieren, um die Mehrheitsgruppe zu finden. Im Bild-zu-Bild-Modus sehen Schüler zwei Bildergruppen nebeneinander und entscheiden, welche Seite mehr Elemente enthält — perfekt für den Einstieg in den Mengenvergleich. Der Bild-zu-Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und baut so die Brücke zwischen konkretem Zählen und abstraktem Zahlenverständnis. Der Ankreuzen-und-Durchstreichen-Modus präsentiert eine Box mit 8–20 gemischten Bildern aus zwei Kategorien, die Schüler visuell sortieren, zählen und markieren müssen. Wechseln Sie zwischen gleichen und verschiedenen Bildern für die Vergleiche, wählen Sie zwischen farbenfrohen Illustrations-Symbolen und Standard-Mathematiksymbolen und greifen Sie auf über 3.100 kuratierte Bilder in 104 Themen zu. Legen Sie den Zahlenbereich pro Gruppe von 1 bis 10 fest, um den Schwierigkeitsgrad präzise zu steuern. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Da die Arbeitsblätter rein bildbasiert sind, funktionieren sie sprachunabhängig in jedem Land und Klassenzimmer weltweit. Ob Sie thematische Pakete auf Etsy.de verkaufen, Vergleichs-Aktivitätsbücher für Amazon KDP zusammenstellen, differenzierte Materialien auf Lehrermarktplatz anbieten oder Arbeitsblätter für Ihren eigenen Nachhilfeunterricht erstellen — der Mehr-oder-Weniger-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie ansprechende Vergleichs-Arbeitsblätter, die Nutzern beibringen, welche Gruppe mehr hat, welche weniger und wann zwei Gruppen gleich sind. Wählen Sie aus drei verschiedenen Übungsmodi — Bild zu Bild, Bild zu Zahl und den einzigartigen Ankreuzen-und-Durchstreichen-Modus, bei dem Nutzer gemischte Bilderboxen analysieren, um die Mehrheitsgruppe zu finden. Im Bild-zu-Bild-Modus sehen Nutzer zwei Bildergruppen nebeneinander und entscheiden, welche Seite mehr Elemente enthält — perfekt für den Einstieg in den Mengenvergleich. Der Bild-zu-Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und baut so die Brücke zwischen konkretem Zählen und abstraktem Zahlenverständnis. Der Ankreuzen-und-Durchstreichen-Modus präsentiert eine Box mit 8–20 gemischten Bildern aus zwei Kategorien, die Nutzer visuell sortieren, zählen und markieren müssen. Wechseln Sie zwischen gleichen und verschiedenen Bildern für die Vergleiche, wählen Sie zwischen farbenfrohen Illustrations-Symbolen und Standard-Mathematiksymbolen und greifen Sie auf über 3.100 kuratierte Bilder in 104 Themen zu. Legen Sie den Zahlenbereich pro Gruppe von 1 bis 10 fest, um den Schwierigkeitsgrad präzise zu steuern. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Da die Arbeitsblätter rein bildbasiert sind, funktionieren sie sprachunabhängig in jedem Land und Shop weltweit. Ob Sie thematische Pakete auf Etsy.de verkaufen, Vergleichs-Aktivitätsbücher für Amazon KDP zusammenstellen, gestufte Materialien auf Gumroad anbieten oder Arbeitsblätter für Ihren eigenen Ihr Geschäftunterricht erstellen — der Mehr-oder-Weniger-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -37,17 +37,17 @@ const content: AppContent = {
       {
         title: 'Vergleichsmodus wählen',
         description:
-          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der drei Modi. Bild zu Bild zeigt zwei Bildergruppen nebeneinander, die Schüler zählen und vergleichen. Bild zu Zahl kombiniert eine Bildergruppe mit einer Ziffer, damit Schüler visuelle und abstrakte Zahlenerkennung verbinden. Ankreuzen und Durchstreichen füllt eine Box mit zwei verschiedenen gemischten Bildkategorien — Schüler kreuzen die Mehrheitsgruppe an und streichen die Minderheitsgruppe durch. Standardmodi unterstützen 1–8 Aufgaben pro Seite; Ankreuzen und Durchstreichen unterstützt 1–3 Aufgaben mit 8–20 Bildern pro Box.',
+          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der drei Modi. Bild zu Bild zeigt zwei Bildergruppen nebeneinander, die Nutzer zählen und vergleichen. Bild zu Zahl kombiniert eine Bildergruppe mit einer Ziffer, damit Nutzer visuelle und abstrakte Zahlenerkennung verbinden. Ankreuzen und Durchstreichen füllt eine Box mit zwei verschiedenen gemischten Bildkategorien — Nutzer kreuzen die Mehrheitsgruppe an und streichen die Minderheitsgruppe durch. Standardmodi unterstützen 1–8 Aufgaben pro Seite; Ankreuzen und Durchstreichen unterstützt 1–3 Aufgaben mit 8–20 Bildern pro Box.',
       },
       {
         title: 'Übungseinstellungen konfigurieren',
         description:
-          'Legen Sie den Zahlenbereich für jede Gruppe fest (1–10), um den Schwierigkeitsgrad zu steuern. Wählen Sie die Bildvielfalt — Gleiche Bilder verwendet identische Elemente in beiden Gruppen (5 Katzen gegen 7 Katzen), während Verschiedene Bilder unterschiedliche Elemente nutzt (5 Katzen gegen 7 Hunde). Wählen Sie den Symbolanzeigemodus: Illustrations-Symbole zeigen grafische Größer-als-, Kleiner-als- und Gleichzeichen, während Normale Symbole Standard-Textzeichen (>, <, =) verwenden. Optional können Sie Symbole zum Einkreisen aktivieren, damit Schüler das richtige Vergleichszeichen einkreisen.',
+          'Legen Sie den Zahlenbereich für jede Gruppe fest (1–10), um den Schwierigkeitsgrad zu steuern. Wählen Sie die Bildvielfalt — Gleiche Bilder verwendet identische Elemente in beiden Gruppen (5 Katzen gegen 7 Katzen), während Verschiedene Bilder unterschiedliche Elemente nutzt (5 Katzen gegen 7 Hunde). Wählen Sie den Symbolanzeigemodus: Illustrations-Symbole zeigen grafische Größer-als-, Kleiner-als- und Gleichzeichen, während Normale Symbole Standard-Textzeichen (>, <, =) verwenden. Optional können Sie Symbole zum Einkreisen aktivieren, damit Nutzer das richtige Vergleichszeichen einkreisen.',
       },
       {
         title: 'Bildbibliothek durchstöbern und Text hinzufügen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und entdecken Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Wählen Sie einzelne Bilder aus oder weisen Sie dem gesamten Arbeitsblatt ein Thema zu. Fügen Sie mit dem Textwerkzeug-Panel einen Titel, Felder für Schülername und Datum oder individuelle Anweisungen hinzu. Wählen Sie aus kindgerechten Schriftarten und passen Sie Größe, Farbe und Kontur für optimale Lesbarkeit an.',
+          'Öffnen Sie das Bildbibliothek-Panel und entdecken Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Wählen Sie einzelne Bilder aus oder weisen Sie dem gesamten Arbeitsblatt ein Thema zu. Fügen Sie mit dem Textwerkzeug-Panel einen Titel, Felder für Name und Datum oder individuelle Anweisungen hinzu. Wählen Sie aus ansprechenden Schriftarten und passen Sie Größe, Farbe und Kontur für optimale Lesbarkeit an.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,37 +63,37 @@ const content: AppContent = {
       {
         title: 'Drei Vergleichs-Übungsmodi',
         description:
-          'Wählen Sie den Modus passend zu Ihrem Lernziel und der Zielgruppe Ihrer Produkte. Der Bild-zu-Bild-Modus zeigt zwei Bildergruppen nebeneinander für reinen visuellen Mengenvergleich — ideal für die Einführung von Größer-als und Kleiner-als bei Vorschülern und Kindergartenkindern. Der Bild-zu-Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und verbindet konkretes Zählen mit abstrakter Zahlenerkennung — perfekt für die Übergangsphase zum formellen Mathematikunterricht. Der Ankreuzen-und-Durchstreichen-Modus füllt eine Box mit gemischten Bildern aus zwei Kategorien, und Schüler müssen die Mehrheits- und Minderheitsgruppe identifizieren und markieren — eine anspruchsvolle Aufgabe, die visuelles Sortieren und Zählen vereint. Alle drei Modi erzeugen automatisch einen passenden Lösungsschlüssel.',
+          'Wählen Sie den Modus passend zu Ihrem Lernziel und der Zielgruppe Ihrer Produkte. Der Bild-zu-Bild-Modus zeigt zwei Bildergruppen nebeneinander für reinen visuellen Mengenvergleich — ideal für die Einführung von Größer-als und Kleiner-als bei Vorschul-Nischen und Kindergartenkindern. Der Bild-zu-Zahl-Modus kombiniert eine Bildergruppe mit einer Ziffer und verbindet konkretes Zählen mit abstrakter Zahlenerkennung — perfekt für die Übergangsphase zum formellen Mathematikunterricht. Der Ankreuzen-und-Durchstreichen-Modus füllt eine Box mit gemischten Bildern aus zwei Kategorien, und Nutzer müssen die Mehrheits- und Minderheitsgruppe identifizieren und markieren — eine anspruchsvolle Aufgabe, die visuelles Sortieren und Zählen vereint. Alle drei Modi erzeugen automatisch einen passenden Lösungsschlüssel.',
       },
       {
         title: 'Einzigartiger Ankreuzen-und-Durchstreichen-Modus',
         description:
-          'Dieser Modus ist einzigartig unter Arbeitsblatt-Generatoren und bietet eine Aufgabenart, die in keinem anderen Tool verfügbar ist. Eine einzelne Box enthält 8–20 Bilder aus zwei verschiedenen Kategorien, zufällig durchmischt und über die gesamte Box verteilt. Schüler müssen die beiden Gruppen visuell voneinander trennen, jede Gruppe sorgfältig zählen und dann die Gruppe mit mehr Bildern ankreuzen und die Gruppe mit weniger Bildern durchstreichen. Dieser Prozess trainiert gleichzeitig visuelle Unterscheidung, Zählgenauigkeit, Aufmerksamkeit und Vergleichsfähigkeiten. Jedes Arbeitsblatt kann bis zu 3 Ankreuzen-und-Durchstreichen-Aufgaben für konzentriertes Üben enthalten. Für Verkäufer auf Etsy.de und Lehrermarktplatz ist dieser Modus ein starkes Differenzierungsmerkmal, da Käufer diese Aufgabenart nirgendwo sonst finden.',
+          'Dieser Modus ist einzigartig unter Arbeitsblatt-Generatoren und bietet eine Aufgabenart, die in keinem anderen Tool verfügbar ist. Eine einzelne Box enthält 8–20 Bilder aus zwei verschiedenen Kategorien, zufällig durchmischt und über die gesamte Box verteilt. Nutzer müssen die beiden Gruppen visuell voneinander trennen, jede Gruppe sorgfältig zählen und dann die Gruppe mit mehr Bildern ankreuzen und die Gruppe mit weniger Bildern durchstreichen. Dieser Prozess trainiert gleichzeitig visuelle Unterscheidung, Zählgenauigkeit, Aufmerksamkeit und Vergleichsfähigkeiten. Jedes Arbeitsblatt kann bis zu 3 Ankreuzen-und-Durchstreichen-Aufgaben für konzentriertes Üben enthalten. Für Verkäufer auf Etsy.de und Gumroad ist dieser Modus ein starkes Differenzierungsmerkmal, da Käufer diese Aufgabenart nirgendwo sonst finden.',
       },
       {
         title: 'Steuerung der Bildvielfalt',
         description:
-          'Wechseln Sie zwischen Gleiche Bilder und Verschiedene Bilder, um die visuelle Komplexität jeder Aufgabe zu verändern. Der Modus Gleiche Bilder verwendet identische Elemente in beiden Gruppen (z. B. 5 Sterne gegen 7 Sterne), sodass der Fokus rein auf der Menge liegt — Schüler müssen nur zählen, ohne sich von unterschiedlichen Bildern ablenken zu lassen. Der Modus Verschiedene Bilder nutzt unterschiedliche Elemente (z. B. 5 Katzen gegen 7 Hunde) und fügt eine zusätzliche Ebene visueller Verarbeitung hinzu, da Schüler die Gruppen zuerst als getrennte Kategorien erkennen müssen, bevor sie zählen und vergleichen können. Dieser einfache Schalter ermöglicht zwei völlig verschiedene Schwierigkeitsgrade mit denselben Grundeinstellungen und verdoppelt effektiv die Menge an einzigartigen Arbeitsblättern, die Sie aus jeder Konfiguration erstellen können.',
+          'Wechseln Sie zwischen Gleiche Bilder und Verschiedene Bilder, um die visuelle Komplexität jeder Aufgabe zu verändern. Der Modus Gleiche Bilder verwendet identische Elemente in beiden Gruppen (z. B. 5 Sterne gegen 7 Sterne), sodass der Fokus rein auf der Menge liegt — Nutzer müssen nur zählen, ohne sich von unterschiedlichen Bildern ablenken zu lassen. Der Modus Verschiedene Bilder nutzt unterschiedliche Elemente (z. B. 5 Katzen gegen 7 Hunde) und fügt eine zusätzliche Ebene visueller Verarbeitung hinzu, da Nutzer die Gruppen zuerst als getrennte Kategorien erkennen müssen, bevor sie zählen und vergleichen können. Dieser einfache Schalter ermöglicht zwei völlig verschiedene Schwierigkeitsgrade mit denselben Grundeinstellungen und verdoppelt effektiv die Menge an einzigartigen Arbeitsblättern, die Sie aus jeder Konfiguration erstellen können.',
       },
       {
         title: 'Optionen für die Symbolanzeige',
         description:
-          'Wählen Sie zwischen Illustrations-Symbolen — farbenfrohe, grafische Versionen der Größer-als-, Kleiner-als- und Gleichzeichen — und Normalen Symbolen mit Standard-Textzeichen (>, <, =). Illustrations-Symbole eignen sich hervorragend für jüngere Lernende, die von visuellen Hinweisen profitieren, während normale Symbole Schüler auf die konventionelle mathematische Notation vorbereiten. Zusätzlich können Sie Symbole zum Einkreisen aktivieren, sodass Schüler das korrekte Vergleichszeichen als Teil der Aufgabe einkreisen.',
+          'Wählen Sie zwischen Illustrations-Symbolen — farbenfrohe, grafische Versionen der Größer-als-, Kleiner-als- und Gleichzeichen — und Normalen Symbolen mit Standard-Textzeichen (>, <, =). Illustrations-Symbole eignen sich hervorragend für jüngere Lernende, die von visuellen Hinweisen profitieren, während normale Symbole Nutzer auf die konventionelle mathematische Notation vorbereiten. Zusätzlich können Sie Symbole zum Einkreisen aktivieren, sodass Nutzer das korrekte Vergleichszeichen als Teil der Aufgabe einkreisen.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Bildern',
         description:
-          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage, Jahreszeiten, Berufe, Musikinstrumente und mehr. Nutzen Sie die integrierte Suchfunktion, um gezielt nach bestimmten Bildern zu suchen, oder weisen Sie einem gesamten Arbeitsblatt ein Thema zu. Jedes Bild ist hochauflösend und für klaren, kindgerechten Druck gestaltet. Da die Arbeitsblätter rein visuell sind — kein Text in den Übungen — funktionieren sie in jeder Sprache und jedem Klassenzimmer weltweit perfekt. Für Verkäufer bedeutet das: ein einmal erstelltes Produkt kann ohne Änderung auf deutschsprachigen und internationalen Marktplätzen gleichzeitig angeboten werden.',
+          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage, Jahreszeiten, Berufe, Musikinstrumente und mehr. Nutzen Sie die integrierte Suchfunktion, um gezielt nach bestimmten Bildern zu suchen, oder weisen Sie einem gesamten Arbeitsblatt ein Thema zu. Jedes Bild ist hochauflösend und für klaren, ansprechenden Druck gestaltet. Da die Arbeitsblätter rein visuell sind — kein Text in den Übungen — funktionieren sie in jeder Sprache und jedem Shop weltweit perfekt. Für Verkäufer bedeutet das: ein einmal erstelltes Produkt kann ohne Änderung auf deutschsprachigen und internationalen Marktplätzen gleichzeitig angeboten werden.',
       },
       {
         title: 'Automatische Lösungsschlüssel-Erstellung',
         description:
-          'Klicken Sie einen einzigen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout exakt widerspiegelt — mit allen korrekten Vergleichszeichen (größer als, kleiner als, gleich) an der richtigen Stelle eingetragen. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit visuell überprüfen können, bevor Sie herunterladen. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Lehrerausgaben, Elternleitfäden oder Etsy-Produktpakete. Kein manuelles Ausfüllen notwendig — der Generator erledigt die gesamte Lösungserstellung automatisch für alle drei Vergleichsmodi.',
+          'Klicken Sie einen einzigen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout exakt widerspiegelt — mit allen korrekten Vergleichszeichen (größer als, kleiner als, gleich) an der richtigen Stelle eingetragen. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit visuell überprüfen können, bevor Sie herunterladen. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Etsy-Pakete, Elternleitfäden oder Etsy-Produktpakete. Kein manuelles Ausfüllen notwendig — der Generator erledigt die gesamte Lösungserstellung automatisch für alle drei Vergleichsmodi.',
       },
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
         description:
-          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen — damit sind gestochen scharfe Linien, Bilder und Symbole garantiert, egal ob Sie auf einem Heimdrucker drucken, Dateien an eine professionelle Druckerei senden oder digitale Produkte auf Marktplätzen hochladen. Aktivieren Sie den Graustufen-Modus, um farbenfrohe Arbeitsblätter in Schwarz-Weiß für tintensparenden Klassenzimmerdruck oder KDP-Innengestaltung zu konvertieren. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität bei verschiedenen Verkaufsplattformen und Druckanforderungen unterstützt.',
+          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen — damit sind gestochen scharfe Linien, Bilder und Symbole garantiert, egal ob Sie auf einem Heimdrucker drucken, Dateien an eine professionelle Druckerei senden oder digitale Produkte auf Marktplätzen hochladen. Aktivieren Sie den Graustufen-Modus, um farbenfrohe Arbeitsblätter in Schwarz-Weiß für tintensparenden Shopdruck oder KDP-Innengestaltung zu konvertieren. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität bei verschiedenen Verkaufsplattformen und Druckanforderungen unterstützt.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Rückgängig und Wiederherstellen',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische Vergleichs-Arbeitsblatt-Pakete auf Etsy',
         description:
-          'Erstellen Sie Sets mit 10–20 Vergleichs-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage, Fahrzeuge oder Weltraum — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Fügen Sie alle drei Modi (Bild zu Bild, Bild zu Zahl, Ankreuzen und Durchstreichen) plus Lösungsschlüssel für eine vollständige Lernressource bei. Nutzen Sie die Bildvielfalt-Einstellung, um in jedem Paket sowohl einfache als auch fortgeschrittene Varianten anzubieten. Thematische Vergleichspakete sprechen Eltern und Lehrkräfte an, die nach spezifischen Themen suchen, und saisonale Pakete wie Weihnachten, Ostern oder Sommer generieren wiederkehrende Verkäufe zu Spitzenzeiten. Einzelne Themenpakete kosten €3–€5, Mega-Pakete mit mehreren Themen €12–€18 für einen starken durchschnittlichen Bestellwert.',
+          'Erstellen Sie Sets mit 10–20 Vergleichs-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage, Fahrzeuge oder Weltraum — und listen Sie diese als Sofort-Download-Pakete auf Etsy.de. Fügen Sie alle drei Modi (Bild zu Bild, Bild zu Zahl, Ankreuzen und Durchstreichen) plus Lösungsschlüssel für eine vollständige Lernressource bei. Nutzen Sie die Bildvielfalt-Einstellung, um in jedem Paket sowohl einfache als auch fortgeschrittene Varianten anzubieten. Thematische Vergleichspakete sprechen Eltern und Verkäufer an, die nach spezifischen Themen suchen, und saisonale Pakete wie Weihnachten, Ostern oder Sommer generieren wiederkehrende Verkäufe zu Spitzenzeiten. Einzelne Themenpakete kosten €3–€5, Mega-Pakete mit mehreren Themen €12–€18 für einen starken durchschnittlichen Bestellwert.',
         platform: 'Etsy (etsy.de)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Mathe-Stationen für Lehrermarktplatz',
+        title: 'Gestufte Schwierigkeitspakete für Gumroad',
         description:
-          'Erstellen Sie gestufte Vergleichs-Übungssets mit den drei Modi als natürliche Schwierigkeitsstufen: Stufe 1 (Bild zu Bild mit Gleiche Bilder und niedrigem Zahlenbereich 1–4), Stufe 2 (Bild zu Zahl mit Verschiedene Bilder und mittlerem Bereich 1–7) und Stufe 3 (Ankreuzen und Durchstreichen mit 12–20 gemischten Bildern). Jede Stufe mit Lösungsschlüsseln, Anweisungsblatt und einem Fortschrittsverfolgungsblatt verpacken. Die Illustrations-Symbole eignen sich für Stufe 1, während Stufe 2 und 3 mit Normalen Symbolen auf die konventionelle Notation vorbereiten. Käufer auf Lehrermarktplatz zahlen Premiumpreise für differenzierte Materialien, die sie sofort in verschiedenen Leistungsgruppen bei Mathe-Stationen einsetzen können.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Vergleichs-Übungssets mit den drei Modi als natürliche Schwierigkeitsstufen: Stufe 1 (Bild zu Bild mit Gleiche Bilder und niedrigem Zahlenbereich 1–4), Stufe 2 (Bild zu Zahl mit Verschiedene Bilder und mittlerem Bereich 1–7) und Stufe 3 (Ankreuzen und Durchstreichen mit 12–20 gemischten Bildern). Jede Stufe mit Lösungsschlüsseln, Anweisungsblatt und einem Fortschrittsverfolgungsblatt verpacken. Die Illustrations-Symbole eignen sich für Stufe 1, während Stufe 2 und 3 mit Normalen Symbolen auf die konventionelle Notation vorbereiten. Käufer auf Gumroad zahlen Premiumpreise für gestufte Materialien, die sie sofort in verschiedenen Leistungsgruppen bei Mathe-Stationen einsetzen können.',
+        platform: 'Gumroad',
       },
       {
         title: 'Abo-Inhalte für den eigenen Online-Shop',
         description:
-          'Nutzen Sie den Generator, um wöchentlich frische Vergleichs-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Nachhilfezentren auf. Die drei Übungsmodi, zwei Bildvielfalt-Einstellungen, zwei Symbolanzeigeoptionen und 104 Themen bieten genug Vielfalt für jahrelangen einzigartigen Content ohne Wiederholung. Kombinieren Sie den Mehr-oder-Weniger-Generator mit anderen Mathe-Generatoren wie Addition und Subtraktion, um umfassende Mathe-Pakete zu schnüren, die einen höheren Bestellwert erzielen.',
+          'Nutzen Sie den Generator, um wöchentlich frische Vergleichs-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Geschäftzentren auf. Die drei Übungsmodi, zwei Bildvielfalt-Einstellungen, zwei Symbolanzeigeoptionen und 104 Themen bieten genug Vielfalt für jahrelangen einzigartigen Content ohne Wiederholung. Kombinieren Sie den Mehr-oder-Weniger-Generator mit anderen Mathe-Generatoren wie Addition und Subtraktion, um umfassende Mathe-Pakete zu schnüren, die einen höheren Bestellwert erzielen.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Arbeitsblätter für Unterricht und Nachhilfe',
+        title: 'Arbeitsblätter für Produkterstellung und Geschäft',
         description:
-          'Erstellen Sie maßgeschneiderte Vergleichs-Arbeitsblätter für das aktuelle Niveau jedes Schülers. Drucken Sie Bild-zu-Bild-Blätter mit Gleiche Bilder und Illustrations-Symbolen für Anfänger, Bild-zu-Zahl-Blätter mit Verschiedene Bilder für mittlere Niveaus und Ankreuzen-und-Durchstreichen-Blätter mit 15–20 Bildern für Fortgeschrittene — alles in einer einzigen Sitzung erstellt. Der automatische Lösungsschlüssel spart wertvolle Korrekturzeit, und der Graustufen-Modus reduziert Druckkosten bei großen Klassen. Ob Sie ein Nachhilfezentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeitsblatt-Erstellung durch wenige Klicks und liefert dabei professionelle Ergebnisse.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Erstellen Sie maßgeschneiderte Vergleichs-Arbeitsblätter für das aktuelle Niveau jedes Nutzers. Drucken Sie Bild-zu-Bild-Blätter mit Gleiche Bilder und Illustrations-Symbolen für Anfänger, Bild-zu-Zahl-Blätter mit Verschiedene Bilder für mittlere Niveaus und Ankreuzen-und-Durchstreichen-Blätter mit 15–20 Bildern für Fortgeschrittene — alles in einer einzigen Sitzung erstellt. Der automatische Lösungsschlüssel spart wertvolle wahrgenommenen Mehrwert, und der Graustufen-Modus reduziert Druckkosten bei großen Klassen. Ob Sie ein Ihr Geschäftzentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeitsblatt-Erstellung durch wenige Klicks und liefert dabei professionelle Ergebnisse.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,17 +143,17 @@ const content: AppContent = {
     {
       question: 'Welche Vergleichsmodi bietet der Mehr-oder-Weniger-Arbeitsblatt-Generator?',
       answer:
-        'Der Generator umfasst drei Modi: Bild zu Bild (zwei Bildergruppen nebeneinander zum Zählen und visuellen Vergleichen), Bild zu Zahl (eine Bildergruppe kombiniert mit einer Ziffer für die Brücke zwischen konkretem und abstraktem Zahlenverständnis) und Ankreuzen und Durchstreichen (eine Box mit gemischten Bildern aus zwei Kategorien, in der Schüler die Mehrheitsgruppe ankreuzen und die Minderheitsgruppe durchstreichen). Jeder Modus zielt auf ein anderes Fähigkeitsniveau und eine andere Vergleichs-Herausforderung ab und kann mit der Bildvielfalt-Einstellung in zwei Schwierigkeitsstufen unterteilt werden.',
+        'Der Generator umfasst drei Modi: Bild zu Bild (zwei Bildergruppen nebeneinander zum Zählen und visuellen Vergleichen), Bild zu Zahl (eine Bildergruppe kombiniert mit einer Ziffer für die Brücke zwischen konkretem und abstraktem Zahlenverständnis) und Ankreuzen und Durchstreichen (eine Box mit gemischten Bildern aus zwei Kategorien, in der Nutzer die Mehrheitsgruppe ankreuzen und die Minderheitsgruppe durchstreichen). Jeder Modus zielt auf ein anderes Fähigkeitsniveau und eine andere Vergleichs-Herausforderung ab und kann mit der Bildvielfalt-Einstellung in zwei Schwierigkeitsstufen unterteilt werden.',
     },
     {
       question: 'Was ist der Ankreuzen-und-Durchstreichen-Modus?',
       answer:
-        'Ankreuzen und Durchstreichen ist ein einzigartiger Übungstyp, bei dem eine einzelne Box 8–20 Bilder aus zwei verschiedenen Kategorien enthält, die zufällig gemischt sind. Schüler müssen die Bilder visuell nach Kategorien sortieren, jede Gruppe sorgfältig zählen und dann die Gruppe mit mehr Bildern ankreuzen und die Gruppe mit weniger Bildern durchstreichen. Sie können bis zu 3 Ankreuzen-und-Durchstreichen-Aufgaben pro Arbeitsblatt einfügen und die Gesamtzahl der Bilder pro Box von 8 bis 20 einstellen. Dieser Modus trainiert gleichzeitig visuelle Unterscheidung, Konzentration und Zählfähigkeiten und ist besonders beliebt bei Lehrkräften, die nach abwechslungsreichen Vergleichsübungen suchen.',
+        'Ankreuzen und Durchstreichen ist ein einzigartiger Übungstyp, bei dem eine einzelne Box 8–20 Bilder aus zwei verschiedenen Kategorien enthält, die zufällig gemischt sind. Nutzer müssen die Bilder visuell nach Kategorien sortieren, jede Gruppe sorgfältig zählen und dann die Gruppe mit mehr Bildern ankreuzen und die Gruppe mit weniger Bildern durchstreichen. Sie können bis zu 3 Ankreuzen-und-Durchstreichen-Aufgaben pro Arbeitsblatt einfügen und die Gesamtzahl der Bilder pro Box von 8 bis 20 einstellen. Dieser Modus trainiert gleichzeitig visuelle Unterscheidung, Konzentration und Zählfähigkeiten und ist besonders beliebt bei Verkäufern, die nach abwechslungsreichen Vergleichsübungen suchen.',
     },
     {
       question: 'Welche Zahlenbereiche kann ich für Vergleichsaufgaben einstellen?',
       answer:
-        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 für die Standard-Vergleichsmodi Bild zu Bild und Bild zu Zahl festlegen. Für den Ankreuzen-und-Durchstreichen-Modus können Sie die Gesamtzahl der Bilder in der Box von 8 bis 20 bestimmen. Standardmodi unterstützen 1–8 Aufgaben pro Seite, während der Ankreuzen-und-Durchstreichen-Modus 1–3 Aufgaben pro Seite unterstützt. So erstellen Sie sanfte Vergleiche mit 1–3 Bildern pro Gruppe für Vorschüler oder anspruchsvollere Übungen nahe der 10 für die erste und zweite Klasse. Die Anpassung erfolgt über einfache Eingabefelder im Übungskonfigurations-Panel.',
+        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 für die Standard-Vergleichsmodi Bild zu Bild und Bild zu Zahl festlegen. Für den Ankreuzen-und-Durchstreichen-Modus können Sie die Gesamtzahl der Bilder in der Box von 8 bis 20 bestimmen. Standardmodi unterstützen 1–8 Aufgaben pro Seite, während der Ankreuzen-und-Durchstreichen-Modus 1–3 Aufgaben pro Seite unterstützt. So erstellen Sie sanfte Vergleiche mit 1–3 Bildern pro Gruppe für Vorschul-Nische oder anspruchsvollere Übungen nahe der 10 für die erste und zweite Klasse. Die Anpassung erfolgt über einfache Eingabefelder im Übungskonfigurations-Panel.',
     },
     {
       question: 'Was bewirkt die Einstellung Bildvielfalt?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'Welche Optionen gibt es für die Symbolanzeige?',
       answer:
-        'Sie können zwischen zwei Symbolstilen wählen: Illustrations-Symbole zeigen farbenfrohe, grafische Versionen der Größer-als-, Kleiner-als- und Gleichzeichen, die besonders für Vorschüler und Kindergartenkinder ansprechend sind. Normale Symbole verwenden Standard-Textzeichen (>, <, =) und bereiten Schüler auf die konventionelle mathematische Schreibweise vor. Zusätzlich können Sie die Option Symbole zum Einkreisen aktivieren, bei der alle drei Vergleichszeichen neben jeder Aufgabe angezeigt werden und Schüler das korrekte Symbol einkreisen müssen. Diese Kombination aus Symbolstil und Einkreis-Option ermöglicht vier verschiedene Aufgabenvarianten pro Modus.',
+        'Sie können zwischen zwei Symbolstilen wählen: Illustrations-Symbole zeigen farbenfrohe, grafische Versionen der Größer-als-, Kleiner-als- und Gleichzeichen, die besonders für Vorschul-Nische und Kindergartenkinder ansprechend sind. Normale Symbole verwenden Standard-Textzeichen (>, <, =) und bereiten Nutzer auf die konventionelle mathematische Schreibweise vor. Zusätzlich können Sie die Option Symbole zum Einkreisen aktivieren, bei der alle drei Vergleichszeichen neben jeder Aufgabe angezeigt werden und Nutzer das korrekte Symbol einkreisen müssen. Diese Kombination aus Symbolstil und Einkreis-Option ermöglicht vier verschiedene Aufgabenvarianten pro Modus.',
     },
     {
       question: 'Sind Vergleichs-Arbeitsblätter sprachabhängig?',
@@ -173,12 +173,12 @@ const content: AppContent = {
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Vergleichszeichen (größer als, kleiner als, gleich) zu erstellen. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit überprüfen können. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt. Für Etsy-Pakete und KDP-Bücher ist der automatische Lösungsschlüssel ein wichtiges Verkaufsargument, das den wahrgenommenen Wert Ihrer Produkte erhöht.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Vergleichszeichen (größer als, kleiner als, gleich) zu erstellen. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit überprüfen können. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei neben dem Nutzer-Arbeitsblatt. Für Etsy-Pakete und KDP-Bücher ist der automatische Lösungsschlüssel ein wichtiges Verkaufsargument, das den wahrgenommenen Wert Ihrer Produkte erhöht.',
     },
     {
       question: 'Kann ich Arbeitsblätter in Graustufen für tintensparenden Druck exportieren?',
       answer:
-        'Ja. Aktivieren Sie die Graustufen-Option im Download-Panel, um Ihre farbenfrohen Arbeitsblätter vor dem Export in Schwarz-Weiß umzuwandeln. Das ist ideal für den Klassenzimmerdruck, bei dem Sie Tinte sparen und gleichzeitig hochwertige Vergleichsübungen liefern möchten. Für Amazon-KDP-Bücher ist der Graustufen-Modus besonders nützlich, da Schwarz-Weiß-Innengestaltung die Druckkosten und damit den Endpreis für Käufer senkt. Sowohl JPEG- als auch PDF-Exporte unterstützen den Graustufen-Modus bei voller 400+-DPI-Auflösung.',
+        'Ja. Aktivieren Sie die Graustufen-Option im Download-Panel, um Ihre farbenfrohen Arbeitsblätter vor dem Export in Schwarz-Weiß umzuwandeln. Das ist ideal für den Shopdruck, bei dem Sie Tinte sparen und gleichzeitig hochwertige Vergleichsübungen liefern möchten. Für Amazon-KDP-Bücher ist der Graustufen-Modus besonders nützlich, da Schwarz-Weiß-Innengestaltung die Druckkosten und damit den Endpreis für Käufer senkt. Sowohl JPEG- als auch PDF-Exporte unterstützen den Graustufen-Modus bei voller 400+-DPI-Auflösung.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy.de, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Die Lizenz ist eine einmalige Zahlung und gilt dauerhaft, ohne wiederkehrende Kosten.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Die Lizenz ist eine einmalige Zahlung und gilt dauerhaft, ohne wiederkehrende Kosten.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Vergleichs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Da die Arbeitsblätter rein bildbasiert und sprachunabhängig sind, können Sie dieselben Produkte auf internationalen Märkten wie Etsy.com, Amazon.com und Amazon.co.uk anbieten, ohne Übersetzungsaufwand. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Vergleichs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Da die Arbeitsblätter rein bildbasiert und sprachunabhängig sind, können Sie dieselben Produkte auf internationalen Märkten wie Etsy.com, Amazon.com und Amazon.co.uk anbieten, ohne Übersetzungsaufwand. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mathe-grundlagen-druckvorlagen-ideen',
-      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Verkäufer & Verkäufer',
     },
     {
       pageType: 'idea',
@@ -264,7 +264,7 @@ const content: AppContent = {
       {
         src: '/samples/german/more less/Mehr Weniger 1.webp',
         alt: 'Vergleichs-Arbeitsblatt im Bild-zu-Bild-Modus mit Tierthema',
-        caption: 'Bild-zu-Bild-Modus — Schüler zählen zwei Bildergruppen und vergleichen die Mengen',
+        caption: 'Bild-zu-Bild-Modus — Nutzer zählen zwei Bildergruppen und vergleichen die Mengen',
       },
       {
         src: '/samples/german/more less/Mehr Weniger 2.webp',
@@ -274,7 +274,7 @@ const content: AppContent = {
       {
         src: '/samples/german/more less/Mehr Weniger 3.webp',
         alt: 'Ankreuzen-und-Durchstreichen-Arbeitsblatt mit gemischten Bildern zum visuellen Sortieren',
-        caption: 'Ankreuzen-und-Durchstreichen-Modus — Schüler finden die Mehrheitsgruppe in einer gemischten Bilderbox',
+        caption: 'Ankreuzen-und-Durchstreichen-Modus — Nutzer finden die Mehrheitsgruppe in einer gemischten Bilderbox',
       },
     ],
     youtubeId: 'eNguG63nYVs',

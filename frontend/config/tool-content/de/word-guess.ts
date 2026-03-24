@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Wörter-Raten-Arbeitsblatt-Generator',
     tagline: 'Bildbasierte Rechtschreib-Arbeitsblätter mit 4 Hinweisstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in visuelle Rätsel, die Schüler begeistert lösen. Dieses Tool erstellt Wörter-Raten-Arbeitsblätter, bei denen ein Bild-Hinweis mit einem Buchstabengitter kombiniert wird, das Lücken enthält — Schüler betrachten das Bild und füllen die fehlenden Buchstaben ein, um das dargestellte Wort zu buchstabieren. Das Herzstück ist ein 4-stufiges progressives Hinweissystem: Keine Hinweise zeigt keine Buchstaben für reines Erinnern, Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen, Normal enthüllt ein Viertel für ausgewogene Herausforderung und Schwer enthüllt nur ein Sechstel für sichere Rechtschreiber. Wählen Sie zwischen zwei Eingabemodi: Der Bild-Hinweis-Modus greift auf über 3.100 Bilder in 104 thematischen Sammlungen zu und generiert automatisch passende Buchstabengitter, oder der Benutzerdefinierte-Wortliste-Modus ermöglicht die direkte Eingabe eigener Wörter für gezieltes Wortschatztraining ohne Bilder. Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den Gittern — schließen Sie Vokale aus für Phonik-fokussierte Übungen oder häufige Buchstaben für eine härtere Herausforderung. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und dasselbe Bild erzeugt eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Besonders vorteilhaft für Deutsch: Zusammengesetzte Wörter wie Schmetterling, Feuerwehrauto oder Kühlschrank erzeugen besonders lange und anspruchsvolle Buchstabengitter — ein einzigartiges Verkaufsargument für den deutschsprachigen Markt. Stellen Sie 1–10 Übungen pro Seite ein, wählen Sie Groß- oder Kleinbuchstaben, schalten Sie die Übungsnummerierung ein oder aus, fügen Sie eigene Textanweisungen hinzu und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit optionaler Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Wortschatzübungen in visuelle Rätsel, die Nutzer begeistert lösen. Dieses Tool erstellt Wörter-Raten-Arbeitsblätter, bei denen ein Bild-Hinweis mit einem Buchstabengitter kombiniert wird, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein, um das dargestellte Wort zu buchstabieren. Das Herzstück ist ein 4-stufiges progressives Hinweissystem: Keine Hinweise zeigt keine Buchstaben für reines Erinnern, Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen, Normal enthüllt ein Viertel für ausgewogene Herausforderung und Schwer enthüllt nur ein Sechstel für sichere Rechtschreiber. Wählen Sie zwischen zwei Eingabemodi: Der Bild-Hinweis-Modus greift auf über 3.100 Bilder in 104 thematischen Sammlungen zu und generiert automatisch passende Buchstabengitter, oder der Benutzerdefinierte-Wortliste-Modus ermöglicht die direkte Eingabe eigener Wörter für gezieltes Wortschatztraining ohne Bilder. Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den Gittern — schließen Sie Vokale aus für Phonik-fokussierte Übungen oder häufige Buchstaben für eine härtere Herausforderung. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und dasselbe Bild erzeugt eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Besonders vorteilhaft für Deutsch: Zusammengesetzte Wörter wie Schmetterling, Feuerwehrauto oder Kühlschrank erzeugen besonders lange und anspruchsvolle Buchstabengitter — ein einzigartiges Verkaufsargument für den deutschsprachigen Markt. Stellen Sie 1–10 Übungen pro Seite ein, wählen Sie Groß- oder Kleinbuchstaben, schalten Sie die Übungsnummerierung ein oder aus, fügen Sie eigene Textanweisungen hinzu und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit optionaler Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Die Hinweis-Schwierigkeitsstufe einstellen',
-        description: 'Wählen Sie aus vier progressiven Schwierigkeitsstufen. Keine Hinweise lässt das gesamte Gitter leer für reines Erinnern — ideal für fortgeschrittene Rechtschreiber. Leicht enthüllt die Hälfte der Buchstaben und bietet Unterstützung für Lese- und Schreibanfänger. Normal enthüllt ein Viertel der Buchstaben für ausgewogene Herausforderung. Schwer enthüllt nur ein Sechstel der Buchstaben für selbstsichere Schüler, die minimale Hilfe brauchen. Mischen Sie Schwierigkeitsstufen über mehrere Seiten, um differenzierte Arbeitsblatt-Pakete zu erstellen.',
+        description: 'Wählen Sie aus vier progressiven Schwierigkeitsstufen. Keine Hinweise lässt das gesamte Gitter leer für reines Erinnern — ideal für fortgeschrittene Rechtschreiber. Leicht enthüllt die Hälfte der Buchstaben und bietet Unterstützung für Lese- und Schreibanfänger. Normal enthüllt ein Viertel der Buchstaben für ausgewogene Herausforderung. Schwer enthüllt nur ein Sechstel der Buchstaben für selbstsichere Nutzer, die minimale Hilfe brauchen. Mischen Sie Schwierigkeitsstufen über mehrere Seiten, um gestufte Arbeitsblatt-Pakete zu erstellen.',
       },
       {
         title: 'Bilder und Thema auswählen',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Buchstaben-Ausschluss, Groß-/Kleinschreibung und Nummerierung konfigurieren',
-        description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um bestimmte Buchstaben aus den Gittern zu entfernen — schließen Sie beispielsweise alle Vokale aus, damit Schüler sie selbst ergänzen müssen, und schaffen Sie so eine Phonik-fokussierte Übung. Wählen Sie Groß- oder Kleinbuchstaben für die Gitter-Ausgabe. Schalten Sie die Übungsnummerierung ein oder aus. Fügen Sie eine eigene Textanweisung wie „Erganze die fehlenden Buchstaben!“ als Schüler-Anleitung hinzu.',
+        description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um bestimmte Buchstaben aus den Gittern zu entfernen — schließen Sie beispielsweise alle Vokale aus, damit Nutzer sie selbst ergänzen müssen, und schaffen Sie so eine Phonik-fokussierte Übung. Wählen Sie Groß- oder Kleinbuchstaben für die Gitter-Ausgabe. Schalten Sie die Übungsnummerierung ein oder aus. Fügen Sie eine eigene Textanweisung wie „Erganze die fehlenden Buchstaben!“ als Nutzer-Anleitung hinzu.',
       },
       {
         title: 'Schriften, Text und Arbeitsfläche anpassen',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Rechtschreib-Rate-Pakete',
-      description: 'Erstellen Sie Sets mit 10–15 Wörter-Raten-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen. Jedes Arbeitsblatt kombiniert Bilder mit Buchstabengittern bei gleichbleibendem Schwierigkeitsgrad. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das Bild-plus-Rätsel-Format macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
+      description: 'Erstellen Sie Sets mit 10–15 Wörter-Raten-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Essen, Fahrzeuge, Naturszenen. Jedes Arbeitsblatt kombiniert Bilder mit Buchstabengittern bei gleichbleibendem Schwierigkeitsgrad. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Bild-plus-Rätsel-Format macht Ihre Listing-Vorschaubilder sofort auffälliger als schlichte Rechtschreib-Arbeitsblätter.',
     },
     {
       title: 'KDP-Wörter-Raten-Aktivitätsbücher',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differenzierte Hinweisstufen-Sets',
-      description: 'Generieren Sie vier Versionen desselben thematischen Arbeitsblatts — eine auf jeder Hinweisstufe: Keine Hinweise, Leicht, Normal und Schwer. Lehrkräfte können die richtige Version je nach Leistungsniveau zuteilen. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz oder Etsy.de. Vier Schwierigkeitsstufen aus einer einzigen Designsitzung, mit Lösungsschlüsseln für jede Version.',
+      description: 'Generieren Sie vier Versionen desselben thematischen Arbeitsblatts — eine auf jeder Hinweisstufe: Keine Hinweise, Leicht, Normal und Schwer. Verkäufer können die richtige Version je nach Leistungsniveau zuteilen. Verkaufen Sie als gestuftes Paket zu einem Premium-Preis auf Gumroad oder Etsy.de. Vier Schwierigkeitsstufen aus einer einzigen Designsitzung, mit Lösungsschlüsseln für jede Version.',
     },
     {
       title: 'Mehrsprachige Rechtschreib-Produkte',
@@ -81,11 +81,11 @@ const content: ToolContent = {
     },
     {
       title: 'Eigene-Wortliste-Vokabelarbeitsblätter',
-      description: 'Nutzen Sie den Benutzerdefinierte-Wortliste-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, Grundwortschatz, Diktatlisten oder Fremdsprachen-Vokabeln. Keine Bilder nötig — das Tool generiert Buchstabengitter aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Rechtschreibübungen für jeden Lehrplan, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
+      description: 'Nutzen Sie den Benutzerdefinierte-Wortliste-Modus, um fachspezifischen Wortschatz direkt einzugeben: Naturwissenschaftsbegriffe, Grundwortschatz, Diktatlisten oder Fremdsprachen-Vokabeln. Keine Bilder nötig — das Tool generiert Buchstabengitter aus Ihren eingetippten Wörtern. Erstellen Sie gezielte Rechtschreibübungen für jeden Produktkatalog, jede Klassenstufe oder jedes Nischenthema, das die Bildbibliothek nicht abdeckt.',
     },
     {
       title: 'Saisonale Rechtschreib-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Wörter-Raten“-Paket mit festlichem Wortschatz — RENTIER, SCHNEEFLOCKE, GESCHENK — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz. Das visuelle Rätselformat macht saisonale Produkte frisch und ansprechend.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Wörter-Raten“-Paket mit festlichem Wortschatz — RENTIER, SCHNEEFLOCKE, GESCHENK — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad. Das visuelle Rätselformat macht saisonale Produkte frisch und ansprechend.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Progressive Rechtschreib-Bücher auf Amazon KDP',
-      description: 'Stellen Sie über 80 Wörter-Raten-Seiten zu einem physischen Aktivitätsbuch für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Schwierigkeit: Leicht-Stufe zuerst als Aufwärmung, Normal für den Hauptteil, Schwer für das Herausforderungskapitel und Keine Hinweise für den Bonus-Expertenteil. Fügen Sie Lösungsschlüssel am Ende ein. Veröffentlichen Sie separate Ausgaben pro Sprache, um Ihren Katalog zu vervielfachen. Das 4-Stufen-System gibt Ihrem Buch eine klare Progression, die Eltern und Lehrkräfte schätzen.',
+      description: 'Stellen Sie über 80 Wörter-Raten-Seiten zu einem physischen Aktivitätsbuch für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Schwierigkeit: Leicht-Stufe zuerst als Aufwärmung, Normal für den Hauptteil, Schwer für das Herausforderungskapitel und Keine Hinweise für den Bonus-Expertenteil. Fügen Sie Lösungsschlüssel am Ende ein. Veröffentlichen Sie separate Ausgaben pro Sprache, um Ihren Katalog zu vervielfachen. Das 4-Stufen-System gibt Ihrem Buch eine klare Progression, die Eltern und Verkäufer schätzen.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Differenzierte Pakete auf Lehrermarktplatz',
-      description: 'Laden Sie Wörter-Raten-Arbeitsblatt-Pakete auf den Lehrermarktplatz hoch, organisiert nach Thema und Schwierigkeitsstufe. Fügen Sie alle vier Hinweisstufen für jedes Thema ein, plus Lösungsschlüssel für jede Seite. Lehrkräfte suchen häufig nach „Rechtschreib-Arbeitsblätter“ und „Wortbildungs-Aktivitäten“. Die 4-stufige Differenzierung bedeutet, dass ein einziges Produkt eine ganze Klasse mit unterschiedlichen Fähigkeiten bedient — das wird in Bewertungen hoch geschätzt.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gestufte Pakete auf Gumroad',
+      description: 'Laden Sie Wörter-Raten-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeitsstufe. Fügen Sie alle vier Hinweisstufen für jedes Thema ein, plus Lösungsschlüssel für jede Seite. Verkäufer suchen häufig nach „Rechtschreib-Arbeitsblätter“ und „Wortbildungs-Aktivitäten“. Die 4-stufige Differenzierung bedeutet, dass ein einziges Produkt eine ganze Klasse mit unterschiedlichen Fähigkeiten bedient — das wird in Bewertungen hoch geschätzt.',
+      platform: 'Gumroad',
     },
     {
       title: 'Phonik-Fokus-Kits auf Gumroad',
-      description: 'Erstellen Sie Premium-Phonik-Kits auf Gumroad, die die Buchstaben-ausschließen-Funktion strategisch nutzen — Vokale ausschließen für Vokal-Fokus-Übungen, Konsonantenverbindungen ausschließen für Verbindungsübung. Bündeln Sie mit Benutzerdefinierte-Wortliste-Arbeitsblättern, die spezifische Phonik-Muster ansprechen. Fügen Sie eine Lehreranleitung bei, die erklärt, wie jedes Ausschlussmuster eine andere Phonik-Fähigkeit trainiert. Sprechen Sie Homeschool-Eltern und DaF-Lehrkräfte an.',
+      description: 'Erstellen Sie Premium-Phonik-Kits auf Gumroad, die die Buchstaben-ausschließen-Funktion strategisch nutzen — Vokale ausschließen für Vokal-Fokus-Übungen, Konsonantenverbindungen ausschließen für Verbindungsübung. Bündeln Sie mit Benutzerdefinierte-Wortliste-Arbeitsblättern, die spezifische Phonik-Muster ansprechen. Fügen Sie eine Verkäuferanleitung bei, die erklärt, wie jedes Ausschlussmuster eine andere Phonik-Fähigkeit trainiert. Sprechen Sie Homeschool-Eltern und DaF-Verkäufer an.',
       platform: 'Gumroad',
     },
     {
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Keine Hinweise für Fortgeschrittene nutzen',
-      description: 'Der Keine-Hinweise-Modus lässt das gesamte Buchstabengitter leer — Schüler müssen die vollständige Schreibweise allein aus dem Bild erinnern. Das ist echte Rechtschreibüberprüfung, nicht bloßes Erkennen. Setzen Sie ihn für ältere Schüler, Rechtschreibtests oder den finalen „Herausforderungs“-Teil eines progressiven Arbeitsbuchs ein.',
+      description: 'Der Keine-Hinweise-Modus lässt das gesamte Buchstabengitter leer — Nutzer müssen die vollständige Schreibweise allein aus dem Bild erinnern. Das ist echte Rechtschreibüberprüfung, nicht bloßes Erkennen. Setzen Sie ihn für Fortgeschrittene, Rechtschreibtests oder den finalen „Herausforderungs“-Teil eines progressiven Arbeitsbuchs ein.',
     },
     {
       title: 'Leicht-Modus für junge Anfänger verwenden',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Graustufen für KDP und Massendruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder Klicks anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Shop-Massendruck bestimmt sind. Schwarzweiß-Ausgabe ist deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder Klicks anziehen.',
     },
     {
       title: 'Vokale ausschließen für Phonik-Fokus',
-      description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um alle Vokale aus dem Buchstabengitter zu entfernen. Schüler müssen jeden Vokal selbst ergänzen, wodurch eine Rechtschreibübung zu gezieltem Phonik-Training wird. Sie können auch bestimmte Konsonanten oder Buchstabenkombinationen ausschließen, um spezifische Phonik-Fähigkeiten zu trainieren.',
+      description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um alle Vokale aus dem Buchstabengitter zu entfernen. Nutzer müssen jeden Vokal selbst ergänzen, wodurch eine Rechtschreibübung zu gezieltem Phonik-Training wird. Sie können auch bestimmte Konsonanten oder Buchstabenkombinationen ausschließen, um spezifische Phonik-Fähigkeiten zu trainieren.',
     },
     {
       title: 'Mit anderen Literacy-Tools kombinieren',
-      description: 'Kombinieren Sie Wörter-Raten-Arbeitsblätter mit Buchstabensalat, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu umfassenden Rechtschreib-Bündeln. Ein „Komplettes Rechtschreib-Übungspaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format und bietet Schülern abwechslungsreiche Übung mit demselben Wortschatz.',
+      description: 'Kombinieren Sie Wörter-Raten-Arbeitsblätter mit Buchstabensalat, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu umfassenden Rechtschreib-Bündeln. Ein „Komplettes Rechtschreib-Übungspaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format und bietet Nutzern abwechslungsreiche Übung mit demselben Wortschatz.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktionieren die vier Hinweis-Schwierigkeitsstufen?',
-      answer: 'Jede Stufe steuert, wie viele Buchstaben im Gitter vorausgefüllt sind. Keine Hinweise lässt das Gitter komplett leer für reines Erinnern. Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen. Normal enthüllt ein Viertel der Buchstaben für ausgewogene Herausforderung. Schwer enthüllt nur ein Sechstel der Buchstaben für selbstsichere Rechtschreiber. Sie können Stufen über mehrere Seiten mischen, um differenzierte Pakete zu erstellen.',
+      answer: 'Jede Stufe steuert, wie viele Buchstaben im Gitter vorausgefüllt sind. Keine Hinweise lässt das Gitter komplett leer für reines Erinnern. Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen. Normal enthüllt ein Viertel der Buchstaben für ausgewogene Herausforderung. Schwer enthüllt nur ein Sechstel der Buchstaben für selbstsichere Rechtschreiber. Sie können Stufen über mehrere Seiten mischen, um gestufte Pakete zu erstellen.',
     },
     {
       question: 'Wie funktionieren die beiden Eingabemodi?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Was bewirkt die Buchstaben-ausschließen-Funktion?',
-      answer: 'Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den vorausgefüllten Positionen im Gitter. Schließen Sie beispielsweise alle Vokale aus, damit Schüler sie selbst ergänzen müssen, und verwandeln Sie die Übung in Phonik-fokussiertes Training. Sie können jede Buchstabenkombination ausschließen, um spezifische Rechtschreibfähigkeiten zu trainieren oder die Schwierigkeit über die vier Standard-Hinweisstufen hinaus zu erhöhen. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
+      answer: 'Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den vorausgefüllten Positionen im Gitter. Schließen Sie beispielsweise alle Vokale aus, damit Nutzer sie selbst ergänzen müssen, und verwandeln Sie die Übung in Phonik-fokussiertes Training. Sie können jede Buchstabenkombination ausschließen, um spezifische Rechtschreibfähigkeiten zu trainieren oder die Schwierigkeit über die vier Standard-Hinweisstufen hinaus zu erhöhen. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Wie funktioniert die Sprachsensitivität?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Werden Lösungsschlüssel generiert?',
-      answer: 'Ja. Das Tool generiert einen separaten Lösungsschlüssel, der die korrekte Schreibweise für jede Übung zeigt. Lösungsschlüssel sind sowohl im PDF- als auch im JPEG-Format verfügbar. Jede Schwierigkeitsstufe erhält ihren eigenen Lösungsschlüssel, damit Lehrkräfte die Schülerarbeit unabhängig von der zugewiesenen Hinweisstufe schnell überprüfen können. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Ja. Das Tool generiert einen separaten Lösungsschlüssel, der die korrekte Schreibweise für jede Übung zeigt. Lösungsschlüssel sind sowohl im PDF- als auch im JPEG-Format verfügbar. Jede Schwierigkeitsstufe erhält ihren eigenen Lösungsschlüssel, damit Verkäufer die Käuferarbeit unabhängig von der zugewiesenen Hinweisstufe schnell überprüfen können. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Arbeitsblätter auf Etsy.de, Gumroad, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',

@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Präpositionen-Arbeitsblätter für Etsy',
       'räumliche Beziehungen Arbeitsblatt-Generator für KDP',
-      'Präpositionen-Übungen auf Lehrermarktplatz verkaufen',
+      'Präpositionen-Übungen auf Gumroad verkaufen',
       'Präpositionen-Druckvorlagen kommerzielle Lizenz',
       'Ortspräpositionen Arbeitsblätter mit Bildern',
     ],
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Präpositionen-Arbeitsblatt-Generator für räumliches Sprachtraining',
     tagline: 'Acht Ortspräpositionen treffen auf Bild-und-Form-Übungen — räumliches Vokabular Satz für Satz aufbauen.',
     description:
-      'Erstellen Sie professionelle Präpositionen-Arbeitsblätter, die räumliche Beziehungen durch praxisnahe Bild-und-Form-Übungen vermitteln. Schüler üben acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei verschiedenen Übungsmodi: Lückentext-Sätze, in denen Schüler die fehlende Präposition einsetzen, und Multiple-Choice-Aufgaben, bei denen Schüler das passende Bild zu einer räumlichen Beschreibung zuordnen. Wählen Sie über die integrierte Checkliste aus, welche Präpositionen enthalten sein sollen, und konfigurieren Sie 1 bis 8 Übungen pro Arbeitsblatt. Durchstöbern Sie über 3.100 kuratierte Illustrationen in 104 Themen für die positionierten Gegenstände und wählen Sie aus 8 geometrischen Formen (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern, Dreieck) als räumliche Bezugspunkte. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen mit grammatisch korrekten Präpositionen frei — Deutsch mit Dativ-Kontraktionen wie „im“ (in dem) und „am“ (an dem) samt geschlechtsbewussten Artikeln (dem für Maskulinum und Neutrum, der für Femininum), Französisch mit Elisions-Regeln für „l’“ vor Vokalen, Spanisch mit geschlechtsspezifischen Artikeln — und vervielfachen Ihren Produktkatalog um das Elffache aus einem einzigen Workflow. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Präpositionen-Pakete auf Etsy.de verkaufen, räumliche Vokabelbücher für Amazon KDP zusammenstellen oder differenzierte Sprachförderzentren für den Lehrermarktplatz erstellen — der Präpositionen-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Präpositionen-Arbeitsblätter, die räumliche Beziehungen durch praxisnahe Bild-und-Form-Übungen vermitteln. Nutzer üben acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei verschiedenen Übungsmodi: Lückentext-Sätze, in denen Nutzer die fehlende Präposition einsetzen, und Multiple-Choice-Aufgaben, bei denen Nutzer das passende Bild zu einer räumlichen Beschreibung zuordnen. Wählen Sie über die integrierte Checkliste aus, welche Präpositionen enthalten sein sollen, und konfigurieren Sie 1 bis 8 Übungen pro Arbeitsblatt. Durchstöbern Sie über 3.100 kuratierte Illustrationen in 104 Themen für die positionierten Gegenstände und wählen Sie aus 8 geometrischen Formen (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern, Dreieck) als räumliche Bezugspunkte. Die Vollzugriff-Lizenz schaltet alle 11 unterstützten Sprachen mit grammatisch korrekten Präpositionen frei — Deutsch mit Dativ-Kontraktionen wie „im“ (in dem) und „am“ (an dem) samt geschlechtsbewussten Artikeln (dem für Maskulinum und Neutrum, der für Femininum), Französisch mit Elisions-Regeln für „l’“ vor Vokalen, Spanisch mit geschlechtsspezifischen Artikeln — und vervielfachen Ihren Produktkatalog um das Elffache aus einem einzigen Workflow. Jedes Arbeitsblatt erstellt automatisch einen Lösungsschlüssel, und Sie können druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen exportieren. Ob Sie thematische Präpositionen-Pakete auf Etsy.de verkaufen, räumliche Vokabelbücher für Amazon KDP zusammenstellen oder gestufte Sprachförderzentren für den Gumroad erstellen — der Präpositionen-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -37,7 +37,7 @@ const content: AppContent = {
       {
         title: 'Übungsmodus und Übungsanzahl konfigurieren',
         description:
-          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der zwei Modi. Der Lückentext-Modus präsentiert Sätze wie „Der Apfel ist ____ dem Kreis“, in denen Schüler die richtige Präposition in die Lücke schreiben. Dieser Modus fördert aktive Sprachproduktion und ist anspruchsvoller, da Schüler die korrekte Präposition aus dem Gedächtnis abrufen müssen. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Schüler auf, das passende Bild aus mehreren Optionen zu markieren — ideal für Schüler, die räumliche Begriffe erst kennenlernen. Legen Sie die Anzahl der Übungen pro Arbeitsblatt von 1 bis 8 fest, um Dichte und Schwierigkeitsgrad zu steuern.',
+          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der zwei Modi. Der Lückentext-Modus präsentiert Sätze wie „Der Apfel ist ____ dem Kreis“, in denen Nutzer die richtige Präposition in die Lücke schreiben. Dieser Modus fördert aktive Sprachproduktion und ist anspruchsvoller, da Nutzer die korrekte Präposition aus dem Gedächtnis abrufen müssen. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Nutzer auf, das passende Bild aus mehreren Optionen zu markieren — ideal für Nutzer, die räumliche Begriffe erst kennenlernen. Legen Sie die Anzahl der Übungen pro Arbeitsblatt von 1 bis 8 fest, um Dichte und Schwierigkeitsgrad zu steuern.',
       },
       {
         title: 'Präpositionen aus der Checkliste auswählen',
@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Gegenstände und Formen aus der Themenbibliothek auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen für Gegenstandsbilder — die Objekte, die positioniert werden — und wählen Sie dann aus 8 geometrischen Formen (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern, Dreieck) als räumliche Bezugspunkte. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Konfigurieren Sie die Textgestaltung mit sieben Schriftarten wie Lexend Deca, Baloo 2 und Fredoka. Schalten Sie Felder für Schülername und Datum ein und laden Sie eigene Bilder für markenspezifische Arbeitsblätter hoch. Die Kombination aus thematischen Gegenständen und geometrischen Formen erzeugt visuell eindeutige Szenen, die räumliche Beziehungen intuitiv vermitteln.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen für Gegenstandsbilder — die Objekte, die positioniert werden — und wählen Sie dann aus 8 geometrischen Formen (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern, Dreieck) als räumliche Bezugspunkte. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Konfigurieren Sie die Textgestaltung mit sieben Schriftarten wie Lexend Deca, Baloo 2 und Fredoka. Schalten Sie Felder für Name und Datum ein und laden Sie eigene Bilder für markenspezifische Arbeitsblätter hoch. Die Kombination aus thematischen Gegenständen und geometrischen Formen erzeugt visuell eindeutige Szenen, die räumliche Beziehungen intuitiv vermitteln.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,7 +63,7 @@ const content: AppContent = {
       {
         title: '8 Ortspräpositionen mit Lückentext- und Multiple-Choice-Modus',
         description:
-          'Üben Sie acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei verschiedenen Übungstypen. Der Lückentext-Modus präsentiert Bild-und-Form-Sätze mit einer fehlenden Präposition, die Schüler ergänzen — ideal für Schreib- und Erinnerungsfähigkeiten. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Schüler auf, das passende Bild zu identifizieren — perfekt für Erkennung und Leseverständnis. Die Kombination beider Modi in einem Produktpaket erzeugt eine natürliche Schwierigkeitsprogression von einfach zu anspruchsvoll. Für Verkäufer bedeutet das zwei verschiedene Produktlinien aus einer einzigen App — ein Lückentext-Paket und ein Multiple-Choice-Paket oder gemischte Sets für maximale Produktvielfalt.',
+          'Üben Sie acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei verschiedenen Übungstypen. Der Lückentext-Modus präsentiert Bild-und-Form-Sätze mit einer fehlenden Präposition, die Nutzer ergänzen — ideal für Schreib- und Erinnerungsfähigkeiten. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Nutzer auf, das passende Bild zu identifizieren — perfekt für Erkennung und Leseverständnis. Die Kombination beider Modi in einem Produktpaket erzeugt eine natürliche Schwierigkeitsprogression von einfach zu anspruchsvoll. Für Verkäufer bedeutet das zwei verschiedene Produktlinien aus einer einzigen App — ein Lückentext-Paket und ein Multiple-Choice-Paket oder gemischte Sets für maximale Produktvielfalt.',
       },
       {
         title: 'Sprachbewusste Grammatik mit Dativ, Elision und Artikelregeln',
@@ -73,12 +73,12 @@ const content: AppContent = {
       {
         title: 'Gegenstände + Formen: Zwei Bildtypen für räumlichen Kontext',
         description:
-          'Jede Übung positioniert einen Gegenstand (eine thematische Illustration wie Katze, Auto oder Apfel) relativ zu einer Form (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern oder Dreieck). Dieses Doppelbild-System erzeugt klare, eindeutige räumliche Beziehungen, die Schüler auf einen Blick erfassen können. Gegenstände stammen aus der 104-Themen-Bibliothek mit über 3.100 Illustrationen, während die 8 geometrischen Formen gleichzeitig frühe Geometriekenntnisse fördern. Formnamen sind in allen 11 Sprachen mit korrekten Pluralformen und grammatischen Geschlechtern übersetzt. Als Verkäufer profitieren Sie davon, dass Formen universell erkennbar sind und keinen kulturellen Kontext benötigen — Ihre Produkte funktionieren weltweit.',
+          'Jede Übung positioniert einen Gegenstand (eine thematische Illustration wie Katze, Auto oder Apfel) relativ zu einer Form (Kreis, Würfel, Zylinder, Herz, Sechseck, Quadrat, Stern oder Dreieck). Dieses Doppelbild-System erzeugt klare, eindeutige räumliche Beziehungen, die Nutzer auf einen Blick erfassen können. Gegenstände stammen aus der 104-Themen-Bibliothek mit über 3.100 Illustrationen, während die 8 geometrischen Formen gleichzeitig frühe Geometriekenntnisse fördern. Formnamen sind in allen 11 Sprachen mit korrekten Pluralformen und grammatischen Geschlechtern übersetzt. Als Verkäufer profitieren Sie davon, dass Formen universell erkennbar sind und keinen kulturellen Kontext benötigen — Ihre Produkte funktionieren weltweit.',
       },
       {
         title: 'Konfigurierbare Übungsanzahl von 1 bis 8 pro Arbeitsblatt',
         description:
-          'Bestimmen Sie genau, wie viele Übungen auf jeder Seite erscheinen — von einer einzelnen fokussierten Übung für Anfänger bis zu einer dichten Acht-Übungen-Seite für Wiederholung und Leistungskontrolle. Weniger Übungen lassen Platz für größere Bilder und mehr Weißraum — ideal für Vorschul- und Kindergartenprodukte, bei denen Klarheit wichtiger ist als Dichte. Mehr Übungen maximieren die Übungsdichte für ältere Schüler, Hausaufgabenblätter oder Leistungskontrollen. Diese Flexibilität erlaubt es Ihnen, visuell unterschiedliche Produkte aus derselben App zu erstellen, ohne andere Einstellungen zu ändern — ein Arbeitsblatt mit 2 Übungen sieht völlig anders aus als eines mit 8, obwohl beide dasselbe Thema verwenden.',
+          'Bestimmen Sie genau, wie viele Übungen auf jeder Seite erscheinen — von einer einzelnen fokussierten Übung für Anfänger bis zu einer dichten Acht-Übungen-Seite für Wiederholung und Leistungskontrolle. Weniger Übungen lassen Platz für größere Bilder und mehr Weißraum — ideal für Vorschul- und Kindergartenprodukte, bei denen Klarheit wichtiger ist als Dichte. Mehr Übungen maximieren die Übungsdichte für Fortgeschrittene, Hausaufgabenblätter oder Leistungskontrollen. Diese Flexibilität erlaubt es Ihnen, visuell unterschiedliche Produkte aus derselben App zu erstellen, ohne andere Einstellungen zu ändern — ein Arbeitsblatt mit 2 Übungen sieht völlig anders aus als eines mit 8, obwohl beide dasselbe Thema verwenden.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Bildern und 8 geometrischen Formen',
@@ -88,12 +88,12 @@ const content: AppContent = {
       {
         title: 'Automatische Lösungsschlüssel-Erstellung für beide Modi',
         description:
-          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen korrekten Präpositionen widerspiegelt. Für Lückentext-Übungen zeigt der Lösungsschlüssel den vervollständigten Satz mit der richtigen Präposition in der Lücke. Für Multiple-Choice-Übungen hebt er das korrekte Bild hervor, sodass die Lösung auf einen Blick erkennbar ist. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Lehrerausgaben, Elternleitfäden oder Etsy-Produktpakete. Viele erfolgreiche Verkäufer bieten den Lösungsschlüssel als Bonus-Download an, um den wahrgenommenen Wert ihrer Pakete zu erhöhen.',
+          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen korrekten Präpositionen widerspiegelt. Für Lückentext-Übungen zeigt der Lösungsschlüssel den vervollständigten Satz mit der richtigen Präposition in der Lücke. Für Multiple-Choice-Übungen hebt er das korrekte Bild hervor, sodass die Lösung auf einen Blick erkennbar ist. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Etsy-Pakete, Elternleitfäden oder Etsy-Produktpakete. Viele erfolgreiche Verkäufer bieten den Lösungsschlüssel als Bonus-Download an, um den wahrgenommenen Wert ihrer Pakete zu erhöhen.',
       },
       {
         title: 'Druckfertiger Export mit 400+ DPI und Graustufen-Option',
         description:
-          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen — perfekt für den Klassenzimmer-Druck oder Schwarz-Weiß-Aktivitätsbücher auf Amazon KDP. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität über Print-on-Demand-Plattformen und Heimdrucker unterstützt. Die hohe Auflösung stellt sicher, dass sowohl Bilder als auch Text gestochen scharf gedruckt werden — ein entscheidender Qualitätsfaktor für Kundenbewertungen auf Marktplätzen.',
+          'Laden Sie Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente herunter. Die Export-Engine rendert mit einem 6-fach-Multiplikator und erzeugt über 400 DPI bei Standardseitengrößen. Aktivieren Sie den Graustufen-Export für tintensparende Versionen — perfekt für den Shop-Druck oder Schwarz-Weiß-Aktivitätsbücher auf Amazon KDP. Letter, A4, Quadrat und benutzerdefinierte Größen werden für maximale Flexibilität über Print-on-Demand-Plattformen und Heimdrucker unterstützt. Die hohe Auflösung stellt sicher, dass sowohl Bilder als auch Text gestochen scharf gedruckt werden — ein entscheidender Qualitätsfaktor für Kundenbewertungen auf Marktplätzen.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Rückgängig und Wiederherstellen',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Sprachförderzentren für Lehrermarktplatz',
+        title: 'Differenzierte Sprachförderzentren für Gumroad',
         description:
-          'Erstellen Sie gestufte Präpositions-Übungssets mit dem Übungsmodus als Schwierigkeitsachse: Stufe 1 (Multiple Choice, 2 Präpositionen, 2 Übungen pro Seite), Stufe 2 (Multiple Choice, 5 Präpositionen, 4 Übungen), Stufe 3 (Lückentext, 5 Präpositionen, 6 Übungen) und Stufe 4 (Lückentext, alle 8 Präpositionen, 8 Übungen). Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf dem Lehrermarktplatz zahlen Premiumpreise für differenzierte räumliche Sprachressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können, ohne eigene Materialien erstellen zu müssen.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Präpositions-Übungssets mit dem Übungsmodus als Schwierigkeitsachse: Stufe 1 (Multiple Choice, 2 Präpositionen, 2 Übungen pro Seite), Stufe 2 (Multiple Choice, 5 Präpositionen, 4 Übungen), Stufe 3 (Lückentext, 5 Präpositionen, 6 Übungen) und Stufe 4 (Lückentext, alle 8 Präpositionen, 8 Übungen). Verpacken Sie jede Stufe mit Lösungsschlüsseln und einem Fortschrittsbogen. Käufer auf Gumroad zahlen Premiumpreise für gestufte räumliche Sprachressourcen, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können, ohne eigene Materialien erstellen zu müssen.',
+        platform: 'Gumroad',
       },
       {
         title: 'Mehrsprachige Präpositionen-Produkte mit Vollzugriff',
         description:
-          'Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit grammatisch korrekten Präpositionen, geschlechtsbewussten Artikeln, Dativ-Kontraktionen und Elisions-Regeln frei. Erstellen Sie deutsche Präpositionen-Arbeitsblätter mit Dativ-Formen wie „im Kreis“ und „auf dem Stern“, französische Arbeitsblätter mit „l’“-Elision, spanische Arbeitsblätter mit el/la-Artikeln, italienische mit kontrahierten Formen wie „nel cubo“ und mehr. Jede Sprachversion ist ein separates Produkt, das Sie auf Etsy, Lehrermarktplatz oder Amazon KDP listen können — und vervielfacht Ihren Katalog um das Elffache aus demselben Workflow. Mehrsprachige räumliche Vokabelprodukte haben weniger Konkurrenz und ziehen internationale Käufer an, die in ihrer Muttersprache suchen.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (mehrsprachig)',
+          'Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit grammatisch korrekten Präpositionen, geschlechtsbewussten Artikeln, Dativ-Kontraktionen und Elisions-Regeln frei. Erstellen Sie deutsche Präpositionen-Arbeitsblätter mit Dativ-Formen wie „im Kreis“ und „auf dem Stern“, französische Arbeitsblätter mit „l’“-Elision, spanische Arbeitsblätter mit el/la-Artikeln, italienische mit kontrahierten Formen wie „nel cubo“ und mehr. Jede Sprachversion ist ein separates Produkt, das Sie auf Etsy, Gumroad oder Amazon KDP listen können — und vervielfacht Ihren Katalog um das Elffache aus demselben Workflow. Mehrsprachige räumliche Vokabelprodukte haben weniger Konkurrenz und ziehen internationale Käufer an, die in ihrer Muttersprache suchen.',
+        platform: 'Etsy / Amazon KDP / Gumroad (mehrsprachig)',
       },
       {
-        title: 'Präpositionen-Arbeitsblätter für Unterricht und Nachhilfe',
+        title: 'Präpositionen-Arbeitsblätter für Produkterstellung und Geschäft',
         description:
-          'Erstellen Sie maßgeschneiderte Präpositionen-Arbeitsblätter, abgestimmt auf das aktuelle räumliche Sprachniveau jedes Schülers. Nutzen Sie die Präpositions-Checkliste, um sich auf die spezifischen Präpositionen zu konzentrieren, mit denen ein Schüler Schwierigkeiten hat, und passen Sie die Übungsanzahl an die Aufmerksamkeitsspanne an. Beginnen Sie mit Multiple Choice für aufstrebende Lerner und steigern Sie sich zu Lückentext für Schüler, die Sprache selbstständig produzieren können. Drucken Sie differenzierte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der automatische Lösungsschlüssel spart Korrekturzeit, und das Bild-und-Form-Format hält junge Lerner mit visuellem räumlichem Denken engagiert. Besonders wertvoll für DaF-Unterricht (Deutsch als Fremdsprache), wo Präpositionen mit Dativ eine der größten Hürden darstellen.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Erstellen Sie maßgeschneiderte Präpositionen-Arbeitsblätter, abgestimmt auf das aktuelle räumliche Sprachniveau jedes Nutzers. Nutzen Sie die Präpositions-Checkliste, um sich auf die spezifischen Präpositionen zu konzentrieren, mit denen ein Nutzer Schwierigkeiten hat, und passen Sie die Übungsanzahl an die Aufmerksamkeitsspanne an. Beginnen Sie mit Multiple Choice für aufstrebende Lerner und steigern Sie sich zu Lückentext für Nutzer, die Sprache selbstständig produzieren können. Drucken Sie gestufte Sätze in Minuten für Kleingruppen oder ganze Klassen. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert, und das Bild-und-Form-Format hält junge Lerner mit visuellem räumlichem Denken engagiert. Besonders wertvoll für DaF-Produkterstellung (Deutsch als Fremdsprache), wo Präpositionen mit Dativ eine der größten Hürden darstellen.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Welche Übungsmodi bietet der Präpositionen-Arbeitsblatt-Generator?',
       answer:
-        'Der Generator umfasst zwei Modi: Lückentext und Multiple Choice. Der Lückentext-Modus präsentiert Sätze mit einer fehlenden Präposition, die Schüler ergänzen (zum Beispiel „Die Katze ist ____ dem Kreis“). Dieser Modus fördert aktive Sprachproduktion und Schreibfähigkeiten. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Schüler auf, das passende Bild zu markieren — ideal für Erkennung und Leseverständnis. Beide Modi funktionieren mit allen acht Präpositionen und allen Themen.',
+        'Der Generator umfasst zwei Modi: Lückentext und Multiple Choice. Der Lückentext-Modus präsentiert Sätze mit einer fehlenden Präposition, die Nutzer ergänzen (zum Beispiel „Die Katze ist ____ dem Kreis“). Dieser Modus fördert aktive Sprachproduktion und Schreibfähigkeiten. Der Multiple-Choice-Modus zeigt eine räumliche Beschreibung und fordert Nutzer auf, das passende Bild zu markieren — ideal für Erkennung und Leseverständnis. Beide Modi funktionieren mit allen acht Präpositionen und allen Themen.',
     },
     {
       question: 'Welche 8 Präpositionen sind verfügbar?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Wie viele Übungen kann ich auf jedes Arbeitsblatt setzen?',
       answer:
-        'Sie können 1 bis 8 Übungen pro Arbeitsblatt festlegen. Weniger Übungen erzeugen übersichtlichere Seiten mit größeren Bildern und mehr Freiraum — ideal für jüngere Schüler oder gezieltes Üben einzelner Präpositionen. Mehr Übungen maximieren die Übungsdichte für Wiederholungssitzungen, Leistungskontrollen oder Hausaufgabenblätter. Als Verkäufer können Sie aus derselben App verschiedene Produktvarianten erstellen — von einfachen Einsteiger-Blättern bis zu dichten Wiederholungsseiten.',
+        'Sie können 1 bis 8 Übungen pro Arbeitsblatt festlegen. Weniger Übungen erzeugen übersichtlichere Seiten mit größeren Bildern und mehr Freiraum — ideal für Einsteiger oder gezieltes Üben einzelner Präpositionen. Mehr Übungen maximieren die Übungsdichte für Wiederholungssitzungen, Leistungskontrollen oder Hausaufgabenblätter. Als Verkäufer können Sie aus derselben App verschiedene Produktvarianten erstellen — von einfachen Einsteiger-Blättern bis zu dichten Wiederholungsseiten.',
     },
     {
       question: 'Ist der Präpositionen-Arbeitsblatt-Generator sprachabhängig?',
@@ -178,7 +178,7 @@ const content: AppContent = {
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts zu erstellen. Für Lückentext-Übungen zeigt der Lösungsschlüssel jeden Satz mit eingesetzter Präposition. Für Multiple Choice markiert er das richtige Bild. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt. So können Lehrkräfte, Eltern oder Nachhilfelehrer die Ergebnisse schnell und zuverlässig überprüfen.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts zu erstellen. Für Lückentext-Übungen zeigt der Lösungsschlüssel jeden Satz mit eingesetzter Präposition. Für Multiple Choice markiert er das richtige Bild. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei neben dem Nutzer-Arbeitsblatt. So können Verkäufer, Eltern oder Ihr Geschäftlehrer die Ergebnisse schnell und zuverlässig überprüfen.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz ermöglicht wasserzeichenfreie englische Exporte mit vollen Verkaufsrechten. Die Vollzugriff-Lizenz fügt alle 11 Sprachen mit grammatisch korrekten Präpositionen, Artikeln und Grammatikregeln hinzu und vervielfacht Ihren Produktkatalog. Beide Stufen gewähren unbegrenzte Rechte zum Verkauf auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform — keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Produktionslimits.',
+        'Die kommerzielle Lizenz ermöglicht wasserzeichenfreie englische Exporte mit vollen Verkaufsrechten. Die Vollzugriff-Lizenz fügt alle 11 Sprachen mit grammatisch korrekten Präpositionen, Artikeln und Grammatikregeln hinzu und vervielfacht Ihren Produktkatalog. Beide Stufen gewähren unbegrenzte Rechte zum Verkauf auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform — keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Produktionslimits.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Präpositionen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-und-Form-Format und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete mit Lösungsschlüsseln, die konstantes skalierbares Einkommen generieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Präpositionen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Das Bild-und-Form-Format und die mehrsprachige Fähigkeit bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete mit Lösungsschlüsseln, die konstantes skalierbares Einkommen generieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -251,7 +251,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'heimunterricht-druckvorlagen-ideen',
-      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Pädagogen',
+      anchorText: 'Homeschool-Druckvorlagen-Ideen für Eltern & Verkäufer',
     },
     {
       pageType: 'guide',
@@ -269,12 +269,12 @@ const content: AppContent = {
       {
         src: '/samples/german/prepositions/prepositions_worksheet.webp',
         alt: 'Lückentext-Präpositionen-Arbeitsblatt mit Tierthema und geometrischen Formen',
-        caption: 'Lückentext-Modus — Schüler ergänzen Sätze mit der richtigen Präposition',
+        caption: 'Lückentext-Modus — Nutzer ergänzen Sätze mit der richtigen Präposition',
       },
       {
         src: '/samples/german/prepositions/prepositions_answer_key.webp',
         alt: 'Multiple-Choice-Präpositionen-Arbeitsblatt mit Fahrzeugthema und räumlichen Beschreibungen',
-        caption: 'Multiple-Choice-Modus — Schüler identifizieren das Bild, das zur räumlichen Beschreibung passt',
+        caption: 'Multiple-Choice-Modus — Nutzer identifizieren das Bild, das zur räumlichen Beschreibung passt',
       },
       {
         src: '/samples/german/prepositions/prepositions_worksheet.webp',

@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Bilddiagramm-Arbeitsblätter für den Unterricht',
+    primaryKeyword: 'Bilddiagramm-Arbeitsblätter für die Produkterstellung',
     secondaryKeywords: [
       'Bilddiagramm-Ersteller für die Klasse',
       'Zähl-und-Diagramm-Arbeitsblätter für Kinder',
       'druckbare Datendiagramm-Arbeitsblätter für die Schule',
-      'Bilddiagramm-Aktivität für Lehrer',
+      'Bilddiagramm-Aktivität für Verkäufer',
     ],
     lsiKeywords: [
-      'Bildraster-Zähl-Arbeitsblatt für den Unterricht',
+      'Bildraster-Zähl-Arbeitsblatt für die Produkterstellung',
       'automatischer Lösungsschlüssel Bilddiagramm',
       'Datenvisualisierung Arbeitsblatt für die Klasse',
     ],
-    titleTag: 'Bilddiagramm-Arbeitsblätter — Für den Unterricht',
-    metaDescription: 'Bilddiagramm-Arbeitsblätter für den Unterricht erstellen. 4x5-Bildraster, Lösungsschlüssel, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Bilddiagramm-Arbeitsblätter — Für die Produkterstellung',
+    metaDescription: 'Bilddiagramm-Arbeitsblätter für die Produkterstellung erstellen. 4x5-Bildraster, Lösungsschlüssel, 11 Sprachen, 104 Themen. Kostenlos testen mit Wasserzeichen.',
     },
 
   hero: {
     title: 'Bilddiagramm-Ersteller',
     tagline: 'Bilddiagramm-Arbeitsblatt-Generator mit verteiltem Bildraster, automatisch generiertem Balkendiagramm-Lösungsschlüssel, lokalisierten Überschriften in 11 Sprachen und 104 thematischen Bildsammlungen für Datendarstellungs-Arbeitsblätter, die weltweit ohne Übersetzung verkaufen',
-    description: 'Erstellen Sie professionelle Bilddiagramm-Arbeitsblätter, bei denen Schüler verteilte Bilder zählen und ein darunter liegendes Balkendiagramm ausfüllen — Datenerfassung und Datendarstellung in einer einzigen Aktivität. Jedes Arbeitsblatt zeigt ein 4×5-Raster mit 20 Symbolen aus 6 verschiedenen Bildtypen, wobei jeder Typ 1–5 Mal in zufälliger Verteilung erscheint, was jede Generierung einzigartig macht. Unter dem Raster bietet ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen den Schülern einen strukturierten Platz zum Eintragen ihrer Zählergebnisse. Die App generiert gleichzeitig einen Lösungsschlüssel auf einem separaten Canvas-Tab mit gelb (#FFC857) hervorgehobenen Zellen, die die korrekten Zählungen anzeigen — Lehrkräfte überprüfen Schülerarbeiten sofort ohne manuelles Nachzählen. Wählen Sie Bilder automatisch, indem Sie ein Thema aus dem Arbeitsblatt-Bildquelle-Dropdown auswählen — die App wählt zufällig 6 Bilder aus dieser Sammlung — oder durchstöbern Sie die Bildbibliothek manuell mit über 3.100 Illustrationen aus 104 Themensammlungen und klicken Sie genau 6 Bilder mit Vorschaustreifen an. Jedes Arbeitsblatt enthält eine automatisch generierte Überschrift mit einem lokalisierten „Bilddiagramm“-Titel und Zählanweisungen in einer gestalteten gelben Pillenform (#FFD93D) mit orangem Rahmen, die sich automatisch an alle 11 unterstützten Sprachen anpasst. Fügen Sie Namens- und Datumsfelder mit einem einzigen Kontrollkästchen hinzu (Fredoka 18px #333). Wenden Sie sowohl Hintergrundthemen als auch Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schritt 0,05) an. Der Bilddiagramm-Generator ist nicht sprachabhängig — visuelles Zählen verwendet universelle Zahlen und Bilder, sodass Arbeitsblätter in jeder Sprache identisch nutzbar sind. Laden Sie vier Dateien pro Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI. Exportieren Sie in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen mit Graustufen-Umschaltung für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, Textumriss-Breite 0–10 mit 0,5-Schritt-Granularität, Rückgängig/Wiederherstellen bis zu 20 Zustände und Zoom von 25 % bis 300 %. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Erstellen Sie professionelle Bilddiagramm-Arbeitsblätter, bei denen Nutzer verteilte Bilder zählen und ein darunter liegendes Balkendiagramm ausfüllen — Datenerfassung und Datendarstellung in einer einzigen Aktivität. Jedes Arbeitsblatt zeigt ein 4×5-Raster mit 20 Symbolen aus 6 verschiedenen Bildtypen, wobei jeder Typ 1–5 Mal in zufälliger Verteilung erscheint, was jede Generierung einzigartig macht. Unter dem Raster bietet ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen den Nutzern einen strukturierten Platz zum Eintragen ihrer Zählergebnisse. Die App generiert gleichzeitig einen Lösungsschlüssel auf einem separaten Canvas-Tab mit gelb (#FFC857) hervorgehobenen Zellen, die die korrekten Zählungen anzeigen — Verkäufer überprüfen Käuferarbeiten sofort ohne manuelles Nachzählen. Wählen Sie Bilder automatisch, indem Sie ein Thema aus dem Arbeitsblatt-Bildquelle-Dropdown auswählen — die App wählt zufällig 6 Bilder aus dieser Sammlung — oder durchstöbern Sie die Bildbibliothek manuell mit über 3.100 Illustrationen aus 104 Themensammlungen und klicken Sie genau 6 Bilder mit Vorschaustreifen an. Jedes Arbeitsblatt enthält eine automatisch generierte Überschrift mit einem lokalisierten „Bilddiagramm“-Titel und Zählanweisungen in einer gestalteten gelben Pillenform (#FFD93D) mit orangem Rahmen, die sich automatisch an alle 11 unterstützten Sprachen anpasst. Fügen Sie Namens- und Datumsfelder mit einem einzigen Kontrollkästchen hinzu (Fredoka 18px #333). Wenden Sie sowohl Hintergrundthemen als auch Rahmenthemen mit unabhängigen Deckkraftreglern (0–1, Schritt 0,05) an. Der Bilddiagramm-Generator ist nicht sprachabhängig — visuelles Zählen verwendet universelle Zahlen und Bilder, sodass Arbeitsblätter in jeder Sprache identisch nutzbar sind. Laden Sie vier Dateien pro Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI. Exportieren Sie in Letter, A4, Quadrat (1200×1200) oder benutzerdefinierten Größen mit Graustufen-Umschaltung für tintenschonende Ausgabe. Bearbeiten Sie alles auf der Fabric.js-Arbeitsfläche mit Schriftarten wie Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial und Verdana, Textumriss-Breite 0–10 mit 0,5-Schritt-Granularität, Rückgängig/Wiederherstellen bis zu 20 Zustände und Zoom von 25 % bis 300 %. Die kostenlose Testversion enthält alle Funktionen mit einem Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -40,14 +40,14 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Das Bilddiagramm-Arbeitsblatt generieren',
-        description: 'Klicken Sie auf Generieren, um das Arbeitsblatt zu erstellen. Die App verteilt 20 Symbole aus Ihren 6 ausgewählten Bildtypen in einem 4×5-Raster mit gestricheltem Rahmen im oberen Bereich der Seite — jeder Typ erscheint 1–5 Mal in zufälliger Verteilung, sodass jede Generierung eine einzigartige Zählaufgabe erzeugt. Darunter erscheint ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen. Eine automatisch generierte Überschrift zeigt einen lokalisierten „Bilddiagramm“-Titel und Zählanweisungen in einer gestalteten gelben Pillenform mit orangem Rahmen. Schüler zählen die Bilder im Raster und färben die entsprechende Anzahl Zellen in jeder Spalte.',
+        description: 'Klicken Sie auf Generieren, um das Arbeitsblatt zu erstellen. Die App verteilt 20 Symbole aus Ihren 6 ausgewählten Bildtypen in einem 4×5-Raster mit gestricheltem Rahmen im oberen Bereich der Seite — jeder Typ erscheint 1–5 Mal in zufälliger Verteilung, sodass jede Generierung eine einzigartige Zählaufgabe erzeugt. Darunter erscheint ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen. Eine automatisch generierte Überschrift zeigt einen lokalisierten „Bilddiagramm“-Titel und Zählanweisungen in einer gestalteten gelben Pillenform mit orangem Rahmen. Nutzer zählen die Bilder im Raster und färben die entsprechende Anzahl Zellen in jeder Spalte.',
       },
       {
         title: 'Den automatisch generierten Lösungsschlüssel prüfen',
-        description: 'Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel zeigt dasselbe Bildraster und Balkendiagramm, aber die korrekten Zellen sind mit gelber (#FFC857) Hervorhebung gefüllt und zeigen genau, wie viele von jedem Bildtyp vorkommen. Lehrkräfte sehen auf einen Blick, welche Zellen Schüler ausfüllen sollen. Wechseln Sie zwischen Arbeitsblatt- und Lösungsschlüssel-Tab zum Vergleich. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manuelles Zählen, kein separater Erstellungsschritt, keine Fehlerquelle.',
+        description: 'Klicken Sie auf den Lösungsschlüssel-Tab, um die automatisch generierte Lösung zu sehen. Der Lösungsschlüssel zeigt dasselbe Bildraster und Balkendiagramm, aber die korrekten Zellen sind mit gelber (#FFC857) Hervorhebung gefüllt und zeigen genau, wie viele von jedem Bildtyp vorkommen. Verkäufer sehen auf einen Blick, welche Zellen Nutzer ausfüllen sollen. Wechseln Sie zwischen Arbeitsblatt- und Lösungsschlüssel-Tab zum Vergleich. Der Lösungsschlüssel wird gleichzeitig mit dem Arbeitsblatt generiert — kein manuelles Zählen, kein separater Erstellungsschritt, keine Fehlerquelle.',
       },
       {
-        title: 'Schülerfelder und lokalisierte Überschrift hinzufügen',
+        title: 'Nutzerfelder und lokalisierte Überschrift hinzufügen',
         description: 'Aktivieren Sie das Kontrollkästchen Name/Datum, um formatierte „Name: ____“- und „Datum: ____“-Felder unten auf dem Arbeitsblatt hinzuzufügen (Fredoka 18px #333). Die automatisch generierte Überschrift zeigt den „Bilddiagramm“-Titel und Zählanweisungen automatisch in der aktiven Oberflächensprache an — Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch oder Finnisch. Arbeitsblätter werden in jeder Sprache sofort unterrichtsfertig ohne manuelle Textbearbeitung.',
       },
       {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Alle vier Dateien herunterladen',
-        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Klassenzimmerdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung. Wiederholen Sie mit verschiedenen Themen aus den 104 verfügbaren Sammlungen für schnelle Produkterstellung.',
+        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Shopdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien ohne Nachbearbeitung. Wiederholen Sie mit verschiedenen Themen aus den 104 verfügbaren Sammlungen für schnelle Produkterstellung.',
       },
     ],
   },
@@ -64,15 +64,15 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Bilddiagramm-Arbeitsblatt-Pakete',
-      description: 'Erstellen Sie thematische Bilddiagramm-Pakete mit 15–25 einzigartigen Arbeitsblättern pro Set unter Nutzung der 104 Bildsammlungen als Katalog. Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe und Dutzende mehr werden jeweils zu eigenständigen Produktangeboten. Die zufällige Verteilung der 20 Symbole im 4×5-Raster bedeutet, dass jede Generierung eine andere Zählaufgabe erzeugt — keine zwei Arbeitsblätter sind gleich. Der automatisch generierte Lösungsschlüssel mit jeder Aufgabe erhöht den Wert für Lehrkräfte. Das Dual-Canvas-System erzeugt vier produktionsfertige Dateien pro Generierung, sodass ein komplettes Paket mit Lösungsschlüsseln in einem Bruchteil der Zeit entsteht.',
+      description: 'Erstellen Sie thematische Bilddiagramm-Pakete mit 15–25 einzigartigen Arbeitsblättern pro Set unter Nutzung der 104 Bildsammlungen als Katalog. Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe und Dutzende mehr werden jeweils zu eigenständigen Produktangeboten. Die zufällige Verteilung der 20 Symbole im 4×5-Raster bedeutet, dass jede Generierung eine andere Zählaufgabe erzeugt — keine zwei Arbeitsblätter sind gleich. Der automatisch generierte Lösungsschlüssel mit jeder Aufgabe erhöht den Wert für Verkäufer. Das Dual-Canvas-System erzeugt vier produktionsfertige Dateien pro Generierung, sodass ein komplettes Paket mit Lösungsschlüsseln in einem Bruchteil der Zeit entsteht.',
     },
     {
       title: 'KDP-Datenkompetenzen-Arbeitsbücher',
-      description: 'Stellen Sie 60–100 Bilddiagramm-Arbeitsblätter zu gedruckten Datenkompetenzen-Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Thema: Tiere zählen in Kapitel 1, Lebensmittel-Diagramme in Kapitel 2, Fahrzeuge erfassen in Kapitel 3 und so weiter. Platzieren Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels als Referenz für Eltern und Lehrkräfte. Schalten Sie Graustufen-Export für tintenschonende Seiten ein, die perfekt im Schwarzweiß-Druck reproduzieren. Das visuelle Zählformat mit universellen Zahlen und Bildern veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung — ein Innenteil bedient jedes Land.',
+      description: 'Stellen Sie 60–100 Bilddiagramm-Arbeitsblätter zu gedruckten Datenkompetenzen-Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie Kapitel nach Thema: Tiere zählen in Kapitel 1, Lebensmittel-Diagramme in Kapitel 2, Fahrzeuge erfassen in Kapitel 3 und so weiter. Platzieren Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels als Referenz für Eltern und Verkäufer. Schalten Sie Graustufen-Export für tintenschonende Seiten ein, die perfekt im Schwarzweiß-Druck reproduzieren. Das visuelle Zählformat mit universellen Zahlen und Bildern veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung — ein Innenteil bedient jedes Land.',
     },
     {
       title: 'Mathematik-Stationen-Aktivitätsblätter',
-      description: 'Erstellen Sie unterrichtsfertige Mathematik-Stationen-Aktivitäten mit Bilddiagrammen inklusive Namens- und Datumsfelder. Lehrkräfte auf der Suche nach Diagramm-Aktivitäten schätzen Arbeitsblätter mit integrierter Schüleridentifikation — das Namens-/Datums-Kontrollkästchen macht Ihr Produkt sofort unterrichtsfertig. Erstellen Sie themenspezifische Sets abgestimmt auf Lehrplanthemen: Bauernhoftiere für Sachunterricht, Wetter-Symbole für Erdkunde oder Berufe für Gemeinschaftskunde. Jedes Arbeitsblatt kommt mit eigenem automatisch generiertem Lösungsschlüssel, der die Vorbereitungszeit für Lehrkräfte eliminiert und Genauigkeit gewährleistet.',
+      description: 'Erstellen Sie unterrichtsfertige Mathematik-Stationen-Aktivitäten mit Bilddiagrammen inklusive Namens- und Datumsfelder. Verkäufer auf der Suche nach Diagramm-Aktivitäten schätzen Arbeitsblätter mit integrierter Nutzeridentifikation — das Namens-/Datums-Kontrollkästchen macht Ihr Produkt sofort unterrichtsfertig. Erstellen Sie themenspezifische Sets abgestimmt auf Produktkatalogthemen: Bauernhoftiere für Sachunterricht, Wetter-Symbole für Erdkunde oder Berufe für Gemeinschaftskunde. Jedes Arbeitsblatt kommt mit eigenem automatisch generiertem Lösungsschlüssel, der die Vorbereitungszeit für Verkäufer eliminiert und Genauigkeit gewährleistet.',
     },
     {
       title: 'Saisonale Zähl- und Diagramm-Sammlungen',
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Fächerübergreifende Datendarstellungs-Aktivitäten',
-      description: 'Bilddiagramme verbinden Mathematik und andere Fächer auf natürliche Weise. Nutzen Sie Tierthemen für Sachunterricht-Einheiten zu Lebensräumen und Klassifizierung. Nutzen Sie Lebensmittelthemen für Gesundheits- und Ernährungsunterricht. Nutzen Sie Fahrzeugthemen für Gemeinschafts- und Verkehrsthemen. Das Balkendiagramm-Format lehrt Datenerfassung (verteilte Bilder zählen) und Datendarstellung (Diagrammzellen ausfüllen) gleichzeitig und verstärkt Diagramm-Kompetenzen bei gleichzeitiger Abdeckung von Fachinhalten. Fächerübergreifende Pakete sprechen Lehrkräfte an, die integrierte Aktivitäten suchen — eine wachsende Nische auf allen großen Marktplatz-Plattformen.',
+      description: 'Bilddiagramme verbinden Mathematik und andere Fächer auf natürliche Weise. Nutzen Sie Tierthemen für Sachunterricht-Einheiten zu Lebensräumen und Klassifizierung. Nutzen Sie Lebensmittelthemen für Gesundheits- und Ernährungsunterricht. Nutzen Sie Fahrzeugthemen für Gemeinschafts- und Verkehrsthemen. Das Balkendiagramm-Format lehrt Datenerfassung (verteilte Bilder zählen) und Datendarstellung (Diagrammzellen ausfüllen) gleichzeitig und verstärkt Diagramm-Kompetenzen bei gleichzeitiger Abdeckung von Fachinhalten. Fächerübergreifende Pakete sprechen Verkäufer an, die integrierte Aktivitäten suchen — eine wachsende Nische auf allen großen Marktplatz-Plattformen.',
     },
     {
       title: 'Multi-Format visuelle Lernpakete',
@@ -91,7 +91,7 @@ const content: ToolContent = {  seo: {
   businessIdeas: [
     {
       title: 'Thematischer Bilddiagramm-Shop auf Etsy',
-      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Bilddiagramm-Arbeitsblatt-Pakete, organisiert nach Thema unter Nutzung der 104 Bildsammlungen. Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Berufe werden jeweils zu separaten Angeboten. Jedes Arbeitsblatt enthält den automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Zellen — ein zentrales Verkaufsargument für Lehrkräfte. Die zufällige Verteilung des 4×5-Bildrasters stellt sicher, dass jedes Arbeitsblatt einzigartig und manuell nicht reproduzierbar ist. Einzelne Themenpakete kosten 3–5 € für 15–20 Arbeitsblätter mit Lösungsschlüsseln und Premium-Sammlungen 12–18 € für 50+ Arbeitsblätter.',
+      description: 'Eröffnen Sie einen Etsy-Shop spezialisiert auf Bilddiagramm-Arbeitsblatt-Pakete, organisiert nach Thema unter Nutzung der 104 Bildsammlungen. Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Berufe werden jeweils zu separaten Angeboten. Jedes Arbeitsblatt enthält den automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Zellen — ein zentrales Verkaufsargument für Verkäufer. Die zufällige Verteilung des 4×5-Bildrasters stellt sicher, dass jedes Arbeitsblatt einzigartig und manuell nicht reproduzierbar ist. Einzelne Themenpakete kosten 3–5 € für 15–20 Arbeitsblätter mit Lösungsschlüsseln und Premium-Sammlungen 12–18 € für 50+ Arbeitsblätter.',
       platform: 'Etsy',
     },
     {
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Mathematik-Stationen-Diagramm-Pakete',
-      description: 'Laden Sie Bilddiagramm-Aktivitätspakete auf dem Lehrermarktplatz hoch mit Namens-/Datumsfeldern als zentralem Verkaufsargument. Lehrkräfte auf der Suche nach Mathematik-Stationen-Aktivitäten schätzen sofort unterrichtsfertige Arbeitsblätter mit integrierter Schüleridentifikation. Organisieren Sie nach Lehrplanthema: Bauernhoftiere für Sachunterricht, Wetter-Symbole für Erdkunde, Berufe für Gemeinschaftskunde. Jedes Arbeitsblatt enthält seinen eigenen automatisch generierten Lösungsschlüssel, der die Vorbereitungszeit eliminiert. Die lokalisierte Überschrift passt sich an 11 Sprachen an und macht Ihre Produkte in zweisprachigen und internationalen Klassen einsetzbar.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Mathematik-Stationen-Diagramm-Pakete',
+      description: 'Laden Sie Bilddiagramm-Aktivitätspakete auf Gumroad hoch mit Namens-/Datumsfeldern als zentralem Verkaufsargument. Verkäufer auf der Suche nach Mathematik-Stationen-Aktivitäten schätzen sofort unterrichtsfertige Arbeitsblätter mit integrierter Nutzeridentifikation. Organisieren Sie nach Produktkatalogthema: Bauernhoftiere für Sachunterricht, Wetter-Symbole für Erdkunde, Berufe für Gemeinschaftskunde. Jedes Arbeitsblatt enthält seinen eigenen automatisch generierten Lösungsschlüssel, der die Vorbereitungszeit eliminiert. Die lokalisierte Überschrift passt sich an 11 Sprachen an und macht Ihre Produkte in zweisprachigen und internationalen Klassen einsetzbar.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Bilddiagramm-Verkaufstrichter',
-      description: 'Bilddiagramm-Arbeitsblätter erzeugen visuell auffällige Pinterest-Pins — das farbenfrohe verteilte Bildraster und das strukturierte Balkendiagramm schaffen ein sofort erkennbares Bildungsformat. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Themen und dem automatisch generierten Lösungsschlüssel nebeneinander. Erstellen Sie separate Pin-Serien für „Tiere zählen und Diagramme“, „Feiertags-Diagramm-Arbeitsblätter“ und „Mathematik-Stationen-Datenaktivitäten“. Das visuelle Format spricht Eltern und Lehrkräfte in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Lehrermarktplatz-Produktangebote.',
+      description: 'Bilddiagramm-Arbeitsblätter erzeugen visuell auffällige Pinterest-Pins — das farbenfrohe verteilte Bildraster und das strukturierte Balkendiagramm schaffen ein sofort erkennbares Bildungsformat. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Themen und dem automatisch generierten Lösungsschlüssel nebeneinander. Erstellen Sie separate Pin-Serien für „Tiere zählen und Diagramme“, „Feiertags-Diagramm-Arbeitsblätter“ und „Mathematik-Stationen-Datenaktivitäten“. Das visuelle Format spricht Eltern und Verkäufer in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produktangebote.',
       platform: 'Pinterest',
     },
     {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Globale visuelle Zähl-Produktlinie',
-      description: 'Der Bilddiagramm-Generator erzeugt visuelle Zähl-Arbeitsblätter, bei denen Schüler Bilder zählen und Balkendiagramm-Zellen ausfüllen — Zahlen und Bilder sind universell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Änderung. Eine Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf dem Lehrermarktplatz für internationale Lehrkräfte. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege.',
+      description: 'Der Bilddiagramm-Generator erzeugt visuelle Zähl-Arbeitsblätter, bei denen Nutzer Bilder zählen und Balkendiagramm-Zellen ausfüllen — Zahlen und Bilder sind universell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Änderung. Eine Erstellungssitzung produziert einen global verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops in verschiedenen Ländern, veröffentlichen Sie identische KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Angebote, keine Übersetzungskosten, keine sprachspezifische Pflege.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Das Dual-Canvas-System für Premium-Produkte nutzen',
-      description: 'Die gleichzeitige Generierung von Arbeitsblatt und Lösungsschlüssel ist Ihr größter Wettbewerbsvorteil. Jedes Bilddiagramm-Arbeitsblatt kommt automatisch mit einem passenden Lösungsschlüssel mit gelb hervorgehobenen Zellen und korrekten Zählungen. Fügen Sie Lösungsschlüssel in jedes Produktangebot ein — Lehrkräfte suchen gezielt nach Arbeitsblättern mit enthaltenen Lösungen. Die Vier-Dateien-Ausgabe (Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG, Lösungsschlüssel-PDF) bedeutet, dass jede Generierungssitzung ein komplettes, verkaufsfertiges Produktset erzeugt.',
+      description: 'Die gleichzeitige Generierung von Arbeitsblatt und Lösungsschlüssel ist Ihr größter Wettbewerbsvorteil. Jedes Bilddiagramm-Arbeitsblatt kommt automatisch mit einem passenden Lösungsschlüssel mit gelb hervorgehobenen Zellen und korrekten Zählungen. Fügen Sie Lösungsschlüssel in jedes Produktangebot ein — Verkäufer suchen gezielt nach Arbeitsblättern mit enthaltenen Lösungen. Die Vier-Dateien-Ausgabe (Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG, Lösungsschlüssel-PDF) bedeutet, dass jede Generierungssitzung ein komplettes, verkaufsfertiges Produktset erzeugt.',
     },
     {
       title: 'Zufällige Verteilung für einzigartige Arbeitsblätter nutzen',
@@ -135,8 +135,8 @@ const content: ToolContent = {  seo: {
       description: 'Im Gegensatz zu Apps mit nur Rahmenthemen bietet der Bilddiagramm-Generator unabhängige Hintergrund- und Rahmenthemen mit separaten Deckkraftreglern. Setzen Sie einen dezenten Aquarell-Hintergrund bei 15–25 % Deckkraft für visuelle Wärme, ohne vom Bildraster und Balkendiagramm abzulenken. Legen Sie einen dekorativen Rahmen bei 80–100 % Deckkraft für einen polierten Rahmen darüber. Dieser Dual-Themen-Ansatz erzeugt professionell aussehende Arbeitsblätter, die in Marktplatz-Angeboten herausstechen. Einheitliches Hintergrund- und Rahmen-Styling über ein Paket schafft ein kohärentes Erscheinungsbild.',
     },
     {
-      title: 'Die Datendarstellungs-Lehrplan-Nische anvisieren',
-      description: 'Bilddiagramme sind ein spezifischer Mathematikstandard im frühen Grundschullehrplan weltweit. Lehrkräfte suchen aktiv nach Diagramm- und Datendarstellungs-Ressourcen. Positionieren Sie Ihre Produkte mit lehrplanorientierten Schlüsselwörtern: „Bilddiagramm“, „Balkendiagramm-Arbeitsblatt“, „Datendarstellungs-Aktivität“ und „Zählen und Diagramme“. Das Balkendiagramm-Format lehrt sowohl Datenerfassung (verteilte Bilder zählen) als auch Datendarstellung (Diagrammzellen ausfüllen) in einem Arbeitsblatt — eine Doppel-Kompetenz-Aktivität, die lehrplanorientierte Käufer schätzen.',
+      title: 'Die Datendarstellungs-Produktkatalog-Nische anvisieren',
+      description: 'Bilddiagramme sind ein spezifischer Mathematikstandard im frühen Grundschullehrplan weltweit. Verkäufer suchen aktiv nach Diagramm- und Datendarstellungs-Ressourcen. Positionieren Sie Ihre Produkte mit lehrplanorientierten Schlüsselwörtern: „Bilddiagramm“, „Balkendiagramm-Arbeitsblatt“, „Datendarstellungs-Aktivität“ und „Zählen und Diagramme“. Das Balkendiagramm-Format lehrt sowohl Datenerfassung (verteilte Bilder zählen) als auch Datendarstellung (Diagrammzellen ausfüllen) in einem Arbeitsblatt — eine Doppel-Kompetenz-Aktivität, die lehrplanorientierte Käufer schätzen.',
     },
     {
       title: 'Saisonale Sammlungen für wiederkehrende Umsätze aufbauen',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Namens-/Datumsfelder für unterrichtsfertige Produkte einfügen',
-      description: 'Das einzelne Kontrollkästchen, das „Name: ____“- und „Datum: ____“-Felder hinzufügt, verwandelt Bilddiagramm-Arbeitsblätter von generischen Druckvorlagen in strukturierte Klassenaktivitäten. Lehrkräfte auf dem Lehrermarktplatz suchen gezielt nach „unterrichtsfertigen“ und „Sofort-Einsatz“-Ressourcen mit Schüleridentifikationsbereichen. Diese Ein-Klick-Ergänzung erfordert keinen zusätzlichen Aufwand, hebt aber Ihre Produkte über Konkurrenten, die unformatierte Arbeitsblätter ohne Schülerfelder verkaufen.',
+      description: 'Das einzelne Kontrollkästchen, das „Name: ____“- und „Datum: ____“-Felder hinzufügt, verwandelt Bilddiagramm-Arbeitsblätter von generischen Druckvorlagen in strukturierte Klassenaktivitäten. Verkäufer auf Gumroad suchen gezielt nach „unterrichtsfertigen“ und „Sofort-Einsatz“-Ressourcen mit Nutzeridentifikationsbereichen. Diese Ein-Klick-Ergänzung erfordert keinen zusätzlichen Aufwand, hebt aber Ihre Produkte über Konkurrenten, die unformatierte Arbeitsblätter ohne Nutzerfelder verkaufen.',
     },
     {
       title: 'Weltweit verkaufen ohne Übersetzungsarbeit',
-      description: 'Bilddiagramm-Arbeitsblätter verwenden universelle visuelle Elemente — verteilte Bilder, die Schüler zählen, und Balkendiagramm-Zellen, die sie mit Zahlen ausfüllen. Für den Arbeitsblattinhalt ist keine Textübersetzung nötig. Die lokalisierte Überschrift übersetzt Titel und Anweisungen automatisch in 11 Sprachen, wenn Sie die Oberflächensprache umschalten. Erstellen Sie einen Satz Arbeitsblätter und verkaufen Sie dieselben Dateien über alle internationalen Etsy-Shops, KDP-Marktplätze und Lehrermarktplätze. Jedes Arbeitsblatt, das Sie generieren, bedient sofort einen globalen Markt ohne zusätzlichen Aufwand.',
+      description: 'Bilddiagramm-Arbeitsblätter verwenden universelle visuelle Elemente — verteilte Bilder, die Nutzer zählen, und Balkendiagramm-Zellen, die sie mit Zahlen ausfüllen. Für den Arbeitsblattinhalt ist keine Textübersetzung nötig. Die lokalisierte Überschrift übersetzt Titel und Anweisungen automatisch in 11 Sprachen, wenn Sie die Oberflächensprache umschalten. Erstellen Sie einen Satz Arbeitsblätter und verkaufen Sie dieselben Dateien über alle internationalen Etsy-Shops, KDP-Marktplätze und Verkäufermarktplätze. Jedes Arbeitsblatt, das Sie generieren, bedient sofort einen globalen Markt ohne zusätzlichen Aufwand.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wie funktioniert das Bilddiagramm-Arbeitsblatt?',
-      answer: 'Jedes Arbeitsblatt hat zwei zusammenhängende Teile. Der obere Bereich zeigt ein 4×5-Raster mit 20 verteilten Symbolen aus 6 verschiedenen Bildtypen — jeder Typ erscheint 1–5 Mal in zufälliger Verteilung. Der untere Bereich zeigt ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen von unten nach oben. Schüler zählen, wie viele von jedem Bildtyp im Raster erscheinen, und färben dann die entsprechende Anzahl Zellen in der passenden Spalte. So werden Datenerfassung (Zählen) und Datendarstellung (Diagramme erstellen) in einer einzigen Aktivität gelehrt.',
+      answer: 'Jedes Arbeitsblatt hat zwei zusammenhängende Teile. Der obere Bereich zeigt ein 4×5-Raster mit 20 verteilten Symbolen aus 6 verschiedenen Bildtypen — jeder Typ erscheint 1–5 Mal in zufälliger Verteilung. Der untere Bereich zeigt ein 6-Spalten-×-5-Zeilen-Balkendiagramm mit nach Bildtyp beschrifteten Spalten und von 1–5 nummerierten Zeilen von unten nach oben. Nutzer zählen, wie viele von jedem Bildtyp im Raster erscheinen, und färben dann die entsprechende Anzahl Zellen in der passenden Spalte. So werden Datenerfassung (Zählen) und Datendarstellung (Diagramme erstellen) in einer einzigen Aktivität gelehrt.',
     },
     {
       question: 'Wie funktioniert der automatisch generierte Lösungsschlüssel?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Sind die Arbeitsblätter sprachabhängig?',
-      answer: 'Nein. Der Bilddiagramm-Generator erzeugt visuelle Zähl-Arbeitsblätter, bei denen Schüler Bilder zählen und Balkendiagramm-Zellen ausfüllen — Zahlen und Bilder sind universell. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen in der Generator-Oberfläche und den automatisch generierten Überschriften-Titel und Anweisungen. Die Arbeitsblatt-Ausgabe selbst funktioniert in jeder Sprache identisch. Ein Satz Arbeitsblätter bedient einen globalen Markt ohne Übersetzung oder Änderung.',
+      answer: 'Nein. Der Bilddiagramm-Generator erzeugt visuelle Zähl-Arbeitsblätter, bei denen Nutzer Bilder zählen und Balkendiagramm-Zellen ausfüllen — Zahlen und Bilder sind universell. Die Sprachumschaltung betrifft nur die Oberflächenbeschriftungen in der Generator-Oberfläche und den automatisch generierten Überschriften-Titel und Anweisungen. Die Arbeitsblatt-Ausgabe selbst funktioniert in jeder Sprache identisch. Ein Satz Arbeitsblätter bedient einen globalen Markt ohne Übersetzung oder Änderung.',
     },
     {
       question: 'Welche Bildthemen und Dateiformate sind verfügbar?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Bilddiagramm-Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Bilddiagramm-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Datenkompetenzen-Arbeitsbücher auf Amazon KDP, Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die Dual-Canvas-Generierung, der automatische Lösungsschlüssel mit gelb hervorgehobenen Zellen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Diagramm- und Datenarbeitsblatt-Kategorien auf jedem großen Marktplatz konkurrieren.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Bilddiagramm-Arbeitsblätter als digitale Downloads auf Etsy, gedruckte Datenkompetenzen-Arbeitsbücher auf Amazon KDP, Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die Dual-Canvas-Generierung, der automatische Lösungsschlüssel mit gelb hervorgehobenen Zellen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Diagramm- und Datenarbeitsblatt-Kategorien auf jedem großen Marktplatz konkurrieren.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
@@ -213,7 +213,7 @@ const content: ToolContent = {  seo: {
   visuals: {
     heroImages: {
       primary: '/samples/german/chart count/Bilddiagramm 1.webp',
-      primaryAlt: 'Bilddiagramm-Arbeitsblatt mit verteiltem 4×5-Bildraster mit 20 Symbolen aus 6 Typen und leerem Balkendiagramm für Schüler zum Zählen und Darstellen von Daten',
+      primaryAlt: 'Bilddiagramm-Arbeitsblatt mit verteiltem 4×5-Bildraster mit 20 Symbolen aus 6 Typen und leerem Balkendiagramm für Nutzer zum Zählen und Darstellen von Daten',
     },
     sampleGallery: [
       {

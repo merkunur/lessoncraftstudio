@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Kreuzworträtsel für den Unterricht erstellen',
+    primaryKeyword: 'Kreuzworträtsel für die Produkterstellung erstellen',
     secondaryKeywords: [
-      'Kreuzworträtsel-Ersteller für Lehrer',
+      'Kreuzworträtsel-Ersteller für Verkäufer',
       'Bild-Kreuzworträtsel für Kinder',
       'druckbare Kreuzworträtsel für die Schule',
-      'Vokabel-Kreuzworträtsel für Schüler',
+      'Vokabel-Kreuzworträtsel für Nutzer',
     ],
     lsiKeywords: [
       'Bild-Hinweis-Kreuzworträtsel für Vokabelübung',
       'lokalisierter Kreuzworträtsel-Generator für die Klasse',
       'automatischer Lösungsschlüssel Kreuzworträtsel',
     ],
-    titleTag: 'Kreuzworträtsel Erstellen — Für den Unterricht',
-    metaDescription: 'Bilderkreuzworträtsel für den Unterricht erstellen. 15x15-Raster, vier Eingabemethoden, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    titleTag: 'Kreuzworträtsel Erstellen — Für die Produkterstellung',
+    metaDescription: 'Bilderkreuzworträtsel für die Produkterstellung erstellen. 15x15-Raster, vier Eingabemethoden, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Alle vier Dateien herunterladen',
-        description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für Unterrichtsdruck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI (6× Multiplikator) gerendert. Jeder Tab hat sein eigenes Paar Download-Buttons im Dropdown-Menü. Alle Exporte sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren für ein neues Kreuzworträtsel mit anderer Bildauswahl und Wortplatzierung, oder wechseln Sie Themen und Sprachen für schnelle Variantenproduktion.',
+        description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, ideal für Produkterstellungsdruck und KDP-Buchinhalte. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF — alle mit 300 DPI (6× Multiplikator) gerendert. Jeder Tab hat sein eigenes Paar Download-Buttons im Dropdown-Menü. Alle Exporte sind produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren für ein neues Kreuzworträtsel mit anderer Bildauswahl und Wortplatzierung, oder wechseln Sie Themen und Sprachen für schnelle Variantenproduktion.',
       },
     ],
   },
@@ -71,7 +71,7 @@ const content: ToolContent = {  seo: {
       description: 'Nutzen Sie die sprachabhängige Wortgenerierung, um Bilderkreuzworträtsel in allen 11 unterstützten Sprachen aus denselben Bildauswahlen zu erstellen. Ein einziger Satz Tierbilder erzeugt völlig verschiedene Kreuzwortraster auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — jeweils mit lokalisierten Wörtern, lokalisierten Headern und einzigartigen Rasterstrukturen. Verkaufen Sie sprachspezifische Pakete für Sprachlehrer, zweisprachige Klassenräume und internationale Homeschool-Familien oder erstellen Sie mehrsprachige Mega-Pakete zu Premium-Preisen.',
     },
     {
-      title: 'Benutzerdefinierte Vokabel-Kreuzworträtsel-Sammlungen für Pädagogen',
+      title: 'Benutzerdefinierte Vokabel-Kreuzworträtsel-Sammlungen für Verkäufer',
       description: 'Verwenden Sie den Modus Benutzerdefinierte Wortliste mit Hinweisen, um lehrplanorientierte Kreuzworträtsel mit lehrerdefinierten Vokabeln zu erstellen. Geben Sie fachspezifische Begriffe und Definitionen im WORT: Hinweis-Format ein — naturwissenschaftliches Vokabular, Sachunterricht-Begriffe, Leseverständnis-Wörter, Mathematik-Terminologie oder Rechtschreiblisten. Jedes Rätsel wird auf demselben 15×15-Raster mit Text-Hinweisen statt Bildhinweisen generiert. Erstellen Sie klassenstufenspezifische Vokabel-Kreuzworträtsel-Sets mit Lösungsschlüsseln in PDF- und JPEG-Formaten für Morgenarbeit, Wiederholungsaktivitäten und Prüfungsvorbereitung.',
     },
     {
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Gemischte Worträtsel-Mega-Pakete mit mehreren Formaten',
-      description: 'Kombinieren Sie Bilderkreuzworträtsel mit Wortsuche-Arbeitsblättern, Buchstabensalat-Aktivitäten, Wörter-Raten-Herausforderungen und Kryptogramm-Rätseln mit koordinierten Themen über mehrere Generatoren hinweg. Bilderkreuzworträtsel bauen Wortschatz durch Bild-zu-Wort-Zuordnung auf. Wortsuchen entwickeln Buchstabenmuster-Erkennung. Buchstabensalat fordert Rechtschreibung und Anagramm-Lösung. Jedes Format zielt auf eine andere Sprachfähigkeit bei gleichzeitiger thematischer Konsistenz. Multi-Format-Worträtsel-Pakete erzielen Premium-Preise, weil Eltern und Lehrer mehr für umfassende Wortschatz-Sammlungen bezahlen.',
+      description: 'Kombinieren Sie Bilderkreuzworträtsel mit Wortsuche-Arbeitsblättern, Buchstabensalat-Aktivitäten, Wörter-Raten-Herausforderungen und Kryptogramm-Rätseln mit koordinierten Themen über mehrere Generatoren hinweg. Bilderkreuzworträtsel bauen Wortschatz durch Bild-zu-Wort-Zuordnung auf. Wortsuchen entwickeln Buchstabenmuster-Erkennung. Buchstabensalat fordert Rechtschreibung und Anagramm-Lösung. Jedes Format zielt auf eine andere Sprachfähigkeit bei gleichzeitiger thematischer Konsistenz. Multi-Format-Worträtsel-Pakete erzielen Premium-Preise, weil Eltern und Verkäufer mehr für umfassende Wortschatz-Sammlungen bezahlen.',
     },
   ],
 
@@ -100,18 +100,18 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz-Vokabel-Kreuzworträtsel-Aktivitätspakete',
-      description: 'Laden Sie Vokabel-Kreuzworträtsel-Pakete auf dem Lehrermarktplatz hoch, die sowohl Bilderkreuzworträtsel als auch den Modus Benutzerdefinierte Wortliste nutzen. Bilderkreuzworträtsel verwenden thematische Bilder für visuellen Wortschatzaufbau — Schüler sehen ein Tier und schreiben seinen Namen ins Raster. Text-Hinweis-Kreuzworträtsel verwenden lehrerdefinierte Begriffe und Definitionen für lehrplanorientierte Wiederholungsaktivitäten. Fügen Sie automatisch generierte Lösungsschlüssel bei jedem Rätsel als zentrales Verkaufsargument bei. Erstellen Sie klassenstufenspezifische Sets für Naturwissenschaften, Sachunterricht, Deutsch und Mathematik-Vokabular.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad-Vokabel-Kreuzworträtsel-Aktivitätspakete',
+      description: 'Laden Sie Vokabel-Kreuzworträtsel-Pakete auf Gumroad hoch, die sowohl Bilderkreuzworträtsel als auch den Modus Benutzerdefinierte Wortliste nutzen. Bilderkreuzworträtsel verwenden thematische Bilder für visuellen Wortschatzaufbau — Nutzer sehen ein Tier und schreiben seinen Namen ins Raster. Text-Hinweis-Kreuzworträtsel verwenden lehrerdefinierte Begriffe und Definitionen für lehrplanorientierte Wiederholungsaktivitäten. Fügen Sie automatisch generierte Lösungsschlüssel bei jedem Rätsel als zentrales Verkaufsargument bei. Erstellen Sie klassenstufenspezifische Sets für Naturwissenschaften, Sachunterricht, Deutsch und Mathematik-Vokabular.',
+      platform: 'Gumroad',
     },
     {
       title: 'Mehrsprachiges Kreuzworträtsel-Geschäft für internationale Märkte',
-      description: 'Die sprachabhängige Wortgenerierung erzeugt völlig verschiedene Kreuzworträtsel aus identischen Bildern beim Sprachwechsel. Ein einziger Satz von 8 Tierbildern produziert einzigartige Kreuzwortraster auf Deutsch, Englisch, Französisch, Spanisch und 7 weiteren Sprachen — jeweils mit lokalisierten Wörtern und lokalisierten Headern. Erstellen Sie sprachspezifische Kreuzworträtsel-Pakete für Sprachlehrer, zweisprachige Bildungsprogramme und internationale Homeschool-Familien. Verkaufen Sie auf Etsy-Shops, die bestimmte Länder ansprechen, listen Sie auf dem Lehrermarktplatz für deutsche Lehrer oder erstellen Sie mehrsprachige Mega-Pakete zu Premium-Preisen. Ein Bildset erzeugt 11 verkaufbare Produkte.',
-      platform: 'Etsy / Lehrermarktplatz',
+      description: 'Die sprachabhängige Wortgenerierung erzeugt völlig verschiedene Kreuzworträtsel aus identischen Bildern beim Sprachwechsel. Ein einziger Satz von 8 Tierbildern produziert einzigartige Kreuzwortraster auf Deutsch, Englisch, Französisch, Spanisch und 7 weiteren Sprachen — jeweils mit lokalisierten Wörtern und lokalisierten Headern. Erstellen Sie sprachspezifische Kreuzworträtsel-Pakete für Sprachlehrer, zweisprachige Bildungsprogramme und internationale Homeschool-Familien. Verkaufen Sie auf Etsy-Shops, die bestimmte Länder ansprechen, listen Sie auf Gumroad für deutsche Verkäufer oder erstellen Sie mehrsprachige Mega-Pakete zu Premium-Preisen. Ein Bildset erzeugt 11 verkaufbare Produkte.',
+      platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest-Bilderkreuzworträtsel-Traffic-Trichter',
-      description: 'Bilderkreuzworträtsel ergeben visuell auffallende Pinterest-Pins — ein farbenfrohes Kreuzwortraster umgeben von Bildhinweisen erzeugt ein sofort ansprechendes Rätsel-Format, das Eltern und Lehrer als pädagogisch erkennen. Pinnen Sie Beispiel-Kreuzworträtsel, die das Bildhinweis-Layout mit nummerierten Positionen zeigen, die Bilder mit Rasterpositionen verbinden. Erstellen Sie separate Pin-Serien für „Bilderkreuzworträtsel für Kinder“, „druckbare Kreuzworträtsel-Aktivitäten“ und „Vokabel-Kreuzworträtsel-Arbeitsblätter“. Zeigen Sie Lösungsschlüssel-Vorschaubilder mit ausgefülltem Raster. Verlinken Sie jeden Pin auf Ihre Etsy- oder Lehrermarktplatz-Produkt-Listings für direkte Konversion.',
+      description: 'Bilderkreuzworträtsel ergeben visuell auffallende Pinterest-Pins — ein farbenfrohes Kreuzwortraster umgeben von Bildhinweisen erzeugt ein sofort ansprechendes Rätsel-Format, das Eltern und Verkäufer als pädagogisch erkennen. Pinnen Sie Beispiel-Kreuzworträtsel, die das Bildhinweis-Layout mit nummerierten Positionen zeigen, die Bilder mit Rasterpositionen verbinden. Erstellen Sie separate Pin-Serien für „Bilderkreuzworträtsel für Kinder“, „druckbare Kreuzworträtsel-Aktivitäten“ und „Vokabel-Kreuzworträtsel-Arbeitsblätter“. Zeigen Sie Lösungsschlüssel-Vorschaubilder mit ausgefülltem Raster. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produkt-Listings für direkte Konversion.',
       platform: 'Pinterest',
     },
     {
@@ -136,19 +136,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Benutzerdefinierte Wortliste für lehrplanorientierte Produkte nutzen',
-      description: 'Wechseln Sie zum Modus Benutzerdefinierte Wortliste mit Hinweisen für fachspezifische Kreuzworträtsel, nach denen Lehrer auf dem Lehrermarktplatz suchen. Geben Sie naturwissenschaftliche Begriffe mit Definitionen, Sachunterricht-Vokabular mit Kontexthinweisen oder Rechtschreibwörter mit Verwendungssätzen im WORT: Hinweis-Format ein. Text-Hinweis-Kreuzworträtsel zielen auf ein anderes Käuferpublikum als Bilderkreuzworträtsel — Lehrer, die Kreuzworträtsel passend zu ihrem exakten Lehrplan benötigen. Erstellen Sie klassenstufenspezifische Vokabel-Sets nach Fachbereich und versehen Sie Ihre Listings mit den behandelten Lehrplanstandards.',
+      description: 'Wechseln Sie zum Modus Benutzerdefinierte Wortliste mit Hinweisen für fachspezifische Kreuzworträtsel, nach denen Verkäufer auf Gumroad suchen. Geben Sie naturwissenschaftliche Begriffe mit Definitionen, Sachunterricht-Vokabular mit Kontexthinweisen oder Rechtschreibwörter mit Verwendungssätzen im WORT: Hinweis-Format ein. Text-Hinweis-Kreuzworträtsel zielen auf ein anderes Käuferpublikum als Bilderkreuzworträtsel — Verkäufer, die Kreuzworträtsel passend zu ihrem exakten Produktkatalog benötigen. Erstellen Sie klassenstufenspezifische Vokabel-Sets nach Fachbereich und versehen Sie Ihre Listings mit den behandelten Marktstandards.',
     },
     {
       title: 'Lösungsschlüssel in jeder Listing-Vorschau zeigen',
-      description: 'Der automatisch generierte Lösungsschlüssel mit ausgefülltem Raster und allen sichtbaren Buchstaben ist Ihr stärkstes Alleinstellungsmerkmal. Zeigen Sie immer Lösungsschlüssel-Vorschaubilder in Ihren Marktplatz-Listings — das ausgefüllte Raster deutlich in den Produktfotos sichtbar. Produkte mit beigelegten Lösungsschlüsseln verkaufen sich durchgängig besser als Rätsel-only-Listings, weil Lehrer und Eltern selbstüberprüfbare Materialien bevorzugen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass der Lösungsschlüssel keine zusätzliche Produktionszeit kostet.',
+      description: 'Der automatisch generierte Lösungsschlüssel mit ausgefülltem Raster und allen sichtbaren Buchstaben ist Ihr stärkstes Alleinstellungsmerkmal. Zeigen Sie immer Lösungsschlüssel-Vorschaubilder in Ihren Marktplatz-Listings — das ausgefüllte Raster deutlich in den Produktfotos sichtbar. Produkte mit beigelegten Lösungsschlüsseln verkaufen sich durchgängig besser als Rätsel-only-Listings, weil Verkäufer und Eltern selbstüberprüfbare Materialien bevorzugen. Das Dual-Canvas-System generiert beide Versionen gleichzeitig, sodass der Lösungsschlüssel keine zusätzliche Produktionszeit kostet.',
     },
     {
       title: 'Bild- und Text-Hinweis-Kreuzworträtsel in Premium-Paketen kombinieren',
-      description: 'Fügen Sie sowohl Bilderkreuzworträtsel (mit thematischen Bildhinweisen) als auch Text-Hinweis-Kreuzworträtsel (mit benutzerdefinierten Wortlisten) in dasselbe Paket für maximale Vielfalt ein. Bilderkreuzworträtsel sprechen visuelle Lerner und jüngere Schüler an, die auf bildbasierte Hinweise reagieren. Text-Hinweis-Kreuzworträtsel zielen auf ältere Schüler und lehrplanspezifische Vokabel-Wiederholung. Beide Formate in einem Bündel verdoppeln Ihre Inhaltsvielfalt und decken mehrere Lernstile in einem Produkt ab, was höhere Preise als Einzelformat-Kreuzworträtsel-Pakete rechtfertigt.',
+      description: 'Fügen Sie sowohl Bilderkreuzworträtsel (mit thematischen Bildhinweisen) als auch Text-Hinweis-Kreuzworträtsel (mit benutzerdefinierten Wortlisten) in dasselbe Paket für maximale Vielfalt ein. Bilderkreuzworträtsel sprechen visuelle Lerner und Einsteiger an, die auf bildbasierte Hinweise reagieren. Text-Hinweis-Kreuzworträtsel zielen auf Fortgeschrittene und lehrplanspezifische Vokabel-Wiederholung. Beide Formate in einem Bündel verdoppeln Ihre Inhaltsvielfalt und decken mehrere Lernstile in einem Produkt ab, was höhere Preise als Einzelformat-Kreuzworträtsel-Pakete rechtfertigt.',
     },
     {
-      title: 'Graustufen für KDP- und Unterrichtsprodukte nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Kreuzworträtsel, speziell für KDP-Print-on-Demand-Buchinhalte und Unterrichtsdruck. Farbdruck kostet bei KDP deutlich mehr, und viele Lehrer drucken auf Schwarzweiß-Druckern. Erstellen Sie Dualformat-Pakete, die sowohl Farbversionen (für digitale Downloads) als auch Graustufen-Versionen (für Druck) enthalten — Käufer nehmen dies als doppelten Wert wahr. Das Kreuzwortraster, die nummerierten Hinweispositionen und die Bildhinweise werden in Graustufen klar dargestellt.',
+      title: 'Graustufen für KDP- und Produkterstellungsprodukte nutzen',
+      description: 'Aktivieren Sie den Graustufen-Schalter für tintenschonende Kreuzworträtsel, speziell für KDP-Print-on-Demand-Buchinhalte und Produkterstellungsdruck. Farbdruck kostet bei KDP deutlich mehr, und viele Verkäufer drucken auf Schwarzweiß-Druckern. Erstellen Sie Dualformat-Pakete, die sowohl Farbversionen (für digitale Downloads) als auch Graustufen-Versionen (für Druck) enthalten — Käufer nehmen dies als doppelten Wert wahr. Das Kreuzwortraster, die nummerierten Hinweispositionen und die Bildhinweise werden in Graustufen klar dargestellt.',
     },
   ],
 
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wie funktioniert der Modus Benutzerdefinierte Wortliste mit Hinweisen?',
-      answer: 'Aktivieren Sie das Kontrollkästchen Benutzerdefinierte Wortliste mit Hinweisen, um von Bilderkreuzworträtseln zu traditionellen Text-Hinweis-Kreuzworträtseln zu wechseln. Geben Sie Wörter und Hinweise im Format WORT: Hinweistext ein, eine Zeile pro Eintrag, mit mindestens 8 Einträgen. Der gleiche 15×15-Raster-Algorithmus platziert Ihre benutzerdefinierten Wörter mit optimaler Kreuzung, und Text-Hinweise erscheinen neben dem Raster anstelle von Bildhinweisen. Dieser Modus eignet sich ideal für fachspezifische Vokabel-Kreuzworträtsel, Rechtschreibübungen, Lehrplan-Wiederholung oder jedes Kreuzworträtsel, bei dem Sie eigene Inhalte definieren möchten, ohne die Bildbibliothek zu verwenden.',
+      answer: 'Aktivieren Sie das Kontrollkästchen Benutzerdefinierte Wortliste mit Hinweisen, um von Bilderkreuzworträtseln zu traditionellen Text-Hinweis-Kreuzworträtseln zu wechseln. Geben Sie Wörter und Hinweise im Format WORT: Hinweistext ein, eine Zeile pro Eintrag, mit mindestens 8 Einträgen. Der gleiche 15×15-Raster-Algorithmus platziert Ihre benutzerdefinierten Wörter mit optimaler Kreuzung, und Text-Hinweise erscheinen neben dem Raster anstelle von Bildhinweisen. Dieser Modus eignet sich ideal für fachspezifische Vokabel-Kreuzworträtsel, Rechtschreibübungen, Produktkatalog-Wiederholung oder jedes Kreuzworträtsel, bei dem Sie eigene Inhalte definieren möchten, ohne die Bildbibliothek zu verwenden.',
     },
     {
       question: 'Wie funktioniert der automatisch generierte Header?',
@@ -187,11 +187,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
-      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Maße. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF mit 300 DPI (6× Multiplikator). Aktivieren Sie Graustufen für tintenschonende Ausgabe. Jede Generierung produziert vier Download-Dateien: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Maße. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF mit 300 DPI (6× Multiplikator). Aktivieren Sie Graustufen für tintenschonende Ausgabe. Jede Generierung produziert vier Download-Dateien: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Kreuzworträtsel kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Kreuzworträtsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Eingabemethoden, automatisch generierten Lösungsschlüssel mit ausgefüllten Rastern, die sprachabhängige Wortgenerierung in 11 Sprachen, der Modus Benutzerdefinierte Wortliste und 104 thematische Bildsammlungen geben Ihnen alles, um professionelle Kreuzworträtsel-Produkte zu erstellen, die in Worträtsel-Kategorien auf jedem großen Marktplatz wettbewerbsfähig sind.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Kreuzworträtsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Eingabemethoden, automatisch generierten Lösungsschlüssel mit ausgefüllten Rastern, die sprachabhängige Wortgenerierung in 11 Sprachen, der Modus Benutzerdefinierte Wortliste und 104 thematische Bildsammlungen geben Ihnen alles, um professionelle Kreuzworträtsel-Produkte zu erstellen, die in Worträtsel-Kategorien auf jedem großen Marktplatz wettbewerbsfähig sind.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

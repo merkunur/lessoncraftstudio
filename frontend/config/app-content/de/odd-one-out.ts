@@ -7,7 +7,7 @@ const content: AppContent = {
       'druckbarer Ausreißer-Rätsel-Generator für Etsy-Verkäufer',
       'Was-passt-nicht-Arbeitsblatt-Generator für KDP-Verleger',
       'Ausreißer-Puzzle-Ersteller kommerzielle Lizenz',
-      'visuelle Unterscheidungs-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'visuelle Unterscheidungs-Arbeitsblätter auf Gumroad verkaufen',
     ],
     lsiKeywords: [
       'digitale Was-passt-nicht-Druckvorlagen skalierbares Einkommen',
@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Was-Passt-Nicht-Generator für Ausreißer-Rätsel',
     tagline: 'Zwei Erzeugungsmodi — Identisch und Ähnlich — mit Modus-Überschreibung pro Übung, 5–10 konfigurierbaren Übungen, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen und rein visuellen Rätseln, die in allen 11 Sprachen ohne Übersetzung funktionieren.',
     description:
-      'Erstellen Sie professionelle Was-passt-nicht-Arbeitsblätter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. Wählen Sie zwischen zwei Erzeugungsmodi: Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema für Finde-den-Unterschied-Herausforderungen, während der Ähnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B für themenübergreifende Unterscheidungsrätsel verwendet. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Seite (Standard: 6) und aktivieren Sie optionale Name-und-Datum-Felder sowie Übungsnummern für unterrichtsfertige Formatierung. Jedes Arbeitsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — der Lösungsschlüssel zeichnet einen roten Kreis um den Ausreißer in jeder Reihe, sodass Sie Antworten niemals manuell markieren müssen. Der automatisch generierte Header verwendet einen korallenroten äußeren Rahmen (#FF6B6B, 8px), einen bernsteinfarbenen inneren Rahmen (#FFB84D, 3px) und einen türkisfarbenen Hintergrund (#4ECDC4) mit dem lokalisierten Titel „Finde den Ausreißer“ in Fredoka und Anweisungen in Quicksand über alle 11 Sprachen. Da die Rätsel vollständig visuell sind — keine Wörter erscheinen auf dem Arbeitsblatt selbst — sind sie NICHT sprachabhängig und funktionieren in jedem Land identisch. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Arbeitsbücher zur visuellen Unterscheidung für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Was-passt-nicht-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Was-passt-nicht-Arbeitsblätter, bei denen das abweichende Bild in jeder Reihe von vier Bildern identifiziert und eingekreist werden muss. Wählen Sie zwischen zwei Erzeugungsmodi: Der Identisch-Modus platziert drei Klone desselben Bildes neben einem anderen Bild aus demselben Thema für Finde-den-Unterschied-Herausforderungen, während der Ähnlich-Modus drei Bilder aus Thema A und ein Bild aus Thema B für themenübergreifende Unterscheidungsrätsel verwendet. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade innerhalb eines einzigen Arbeitsblatts zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Seite (Standard: 6) und aktivieren Sie optionale Name-und-Datum-Felder sowie Übungsnummern für unterrichtsfertige Formatierung. Jedes Arbeitsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab — der Lösungsschlüssel zeichnet einen roten Kreis um den Ausreißer in jeder Reihe, sodass Sie Antworten niemals manuell markieren müssen. Der automatisch generierte Header verwendet einen korallenroten äußeren Rahmen (#FF6B6B, 8px), einen bernsteinfarbenen inneren Rahmen (#FFB84D, 3px) und einen türkisfarbenen Hintergrund (#4ECDC4) mit dem lokalisierten Titel „Finde den Ausreißer“ in Fredoka und Anweisungen in Quicksand über alle 11 Sprachen. Da die Rätsel vollständig visuell sind — keine Wörter erscheinen auf dem Arbeitsblatt selbst — sind sie NICHT sprachabhängig und funktionieren in jedem Land identisch. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Sprachen frei. Ob Sie visuelle Puzzle-Pakete auf Etsy.de verkaufen, Arbeitsbücher zur visuellen Unterscheidung für Amazon KDP zusammenstellen oder Rätsel-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Was-passt-nicht-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit einem roten Kreis um den Ausreißer in jeder Übungsreihe zu sehen. Die Strichstärke des Kreises skaliert mit der Bildgröße (Maximum von Bildgröße × 0,04 oder 3px) für gleichmäßige Sichtbarkeit über alle Seitengrößen. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel mit einem roten Kreis um den Ausreißer in jeder Übungsreihe zu sehen. Die Strichstärke des Kreises skaliert mit der Bildgröße (Maximum von Bildgröße × 0,04 oder 3px) für gleichmäßige Sichtbarkeit über alle Seitengrößen. Laden Sie beide Versionen über vier dedizierte Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Was-passt-nicht-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Was-passt-nicht-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
       {
         title: 'Vollständige Canvas-Bearbeitung mit Textwerkzeugen, Name/Datum und Übungsnummern',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Rätsel-Aktivitäten für kritisches Denken auf dem Lehrermarktplatz',
+        title: 'Rätsel-Aktivitäten für kritisches Denken auf Gumroad',
         description:
-          'Erstellen Sie sofort einsetzbare Was-passt-nicht-Arbeitsblätter mit Name-und-Datum-Feldern, Übungsnummern und gedruckten Lösungsschlüsseln. Auf dem Lehrermarktplatz werden Arbeitsblätter für kritisches Denken geschätzt, die unterrichtsfertig ankommen — das Namensfeld sichert die Zuordnung, Übungsnummern erleichtern die Klassenbesprechung, und der Lösungsschlüssel mit roten Kreisen spart Korrekturzeit. Erstellen Sie lehrplanbezogene Sets: Tierklassifikations-Herausforderungen, Lebensmittelgruppen-Unterscheidung, Berufe-Identifikation und jahreszeitliche Wahrnehmungsrätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Kombinieren Sie verschiedene Übungsanzahlen und Modi innerhalb eines Produkts, damit Lehrkräfte Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsetzbare Was-passt-nicht-Arbeitsblätter mit Name-und-Datum-Feldern, Übungsnummern und gedruckten Lösungsschlüsseln. Auf dem Gumroad werden Arbeitsblätter für kritisches Denken geschätzt, die unterrichtsfertig ankommen — das Namensfeld sichert die Zuordnung, Übungsnummern erleichtern die Klassenbesprechung, und der Lösungsschlüssel mit roten Kreisen spart wahrgenommenen Mehrwert. Erstellen Sie lehrplanbezogene Sets: Tierklassifikations-Herausforderungen, Lebensmittelgruppen-Unterscheidung, Berufe-Identifikation und jahreszeitliche Wahrnehmungsrätsel. Jedes Set enthält Arbeitsblätter und Lösungsschlüssel in PDF- und JPEG-Formaten. Kombinieren Sie verschiedene Übungsanzahlen und Modi innerhalb eines Produkts, damit Verkäufer Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten und Ihre Produkte als besonders vielseitig wahrgenommen werden.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale und feiertagsbezogene Puzzle-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Was-passt-nicht-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Rätsel-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Pakete im Januar. Mischen Sie Identisch- und Ähnlich-Modi innerhalb jedes saisonalen Sets für Vielfalt und gesteigerten wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
       {
         title: 'Globale Marktreichweite mit rein visuellen Rätseln',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Kann ich Name-und-Datum-Felder zu Was-passt-nicht-Arbeitsblättern hinzufügen?',
       answer:
-        'Ja. Aktivieren Sie das Kontrollkästchen „Name-und-Datum-Felder einfügen“ im Übungskonfigurations-Panel, um Namens- und Datumszeilen hinzuzufügen. Diese Felder positionieren sich responsiv basierend auf dem Seitenlayout. Name-und-Datum-Felder machen Arbeitsblätter unterrichtsfertig — Lehrkräfte können die Zuordnung nachverfolgen und erledigte Aktivitäten nach Datum organisieren. Diese Funktion steigert den wahrgenommenen Wert für Käufer auf dem Lehrermarktplatz erheblich, da unterrichtsfertige Formatierung ein entscheidendes Kaufkriterium darstellt.',
+        'Ja. Aktivieren Sie das Kontrollkästchen „Name-und-Datum-Felder einfügen“ im Übungskonfigurations-Panel, um Namens- und Datumszeilen hinzuzufügen. Diese Felder positionieren sich responsiv basierend auf dem Seitenlayout. Name-und-Datum-Felder machen Arbeitsblätter unterrichtsfertig — Verkäufer können die Zuordnung nachverfolgen und erledigte Aktivitäten nach Datum organisieren. Diese Funktion steigert den wahrgenommenen Wert für Käufer auf Gumroad erheblich, da unterrichtsfertige Formatierung ein entscheidendes Kaufkriterium darstellt.',
     },
     {
       question: 'Wie funktionieren Übungsnummern?',
       answer:
-        'Aktivieren Sie das Kontrollkästchen „Übungsnummern einfügen“ im Übungskonfigurations-Panel, um Nummern auf der linken Seite jeder Übungskarte anzuzeigen. Die Nummern verwenden 25px Breite mit 15px Abstand zum Karteninhalt. Übungsnummern helfen bei der Klassenbesprechung und erleichtern es Lehrkräften, auf bestimmte Übungen während der Diskussion zu verweisen. Für Verkäufer auf dem Lehrermarktplatz sind nummerierte Übungen ein wichtiges Qualitätsmerkmal, das den professionellen Eindruck Ihrer Druckvorlagen verstärkt.',
+        'Aktivieren Sie das Kontrollkästchen „Übungsnummern einfügen“ im Übungskonfigurations-Panel, um Nummern auf der linken Seite jeder Übungskarte anzuzeigen. Die Nummern verwenden 25px Breite mit 15px Abstand zum Karteninhalt. Übungsnummern helfen bei der Klassenbesprechung und erleichtern es Verkäufern, auf bestimmte Übungen während der Diskussion zu verweisen. Für Verkäufer auf Gumroad sind nummerierte Übungen ein wichtiges Qualitätsmerkmal, das den professionellen Eindruck Ihrer Druckvorlagen verstärkt.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Was-passt-nicht-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Was-passt-nicht-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Erzeugungsmodi, Modus-Überschreibung pro Übung und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Produkte zur visuellen Unterscheidung zu erstellen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Was-passt-nicht-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Erzeugungsmodi, Modus-Überschreibung pro Übung und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Produkte zur visuellen Unterscheidung zu erstellen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'zweite-klasse-druckvorlagen-ideen',
-      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt',
     },
     {
       pageType: 'start',

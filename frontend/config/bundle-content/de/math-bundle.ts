@@ -16,39 +16,39 @@ const content: BundleContent = {
       'Mathe-Arbeitsblatt-Massenproduktion Werkzeug',
     ],
     titleTag: 'Mathe-Arbeitsblatt-Paket — 6 Mathe-Generatoren',
-    metaDescription: '6 Mathe-Generatoren im Paket: Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra. Verkaufen auf Etsy, KDP und Lehrermarktplatz mit Lizenz.',
+    metaDescription: '6 Mathe-Generatoren im Paket: Addition, Subtraktion, Code-Rätsel, Vergleich, Puzzle und Algebra. Verkaufen auf Etsy, KDP und Gumroad mit Lizenz.',
   },
 
   hero: {
     title: 'Mathematik-Meister-Paket',
     tagline: 'Sechs professionelle Mathe-Arbeitsblatt-Generatoren in einem vergünstigten Paket',
-    description: 'Bauen Sie eine komplette Mathe-Produktlinie auf, ohne zwischen verschiedenen Werkzeugen wechseln zu müssen. Das Mathematik-Meister-Paket vereint sechs spezialisierte Arbeitsblatt-Generatoren, die Addition, Subtraktion, kryptarithmetische Code-Knacker-Rätsel, Größer-Kleiner-Vergleiche, Puzzle-Raster-Mathe-Rätsel und visuelle Bildalgebra-Gleichungen abdecken. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien mit automatischen Lösungsschlüsseln, einstellbarem Schwierigkeitsgrad und thematischen Bildbibliotheken. Fünf der sechs Apps sind rein visuell — die erstellten Arbeitsblätter funktionieren in jeder Sprache, da sie auf Bilder und Zahlen statt auf Text setzen. Die sechste, Bilder-Addition, bietet einen sprachsensitiven Wort-Enthüllungsmodus, der alle 11 Oberflächensprachen unterstützt. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie auf Etsy.de, Amazon KDP oder Lehrermarktplatz verkaufen — dieses Paket bietet Ihnen die Vielfalt, die Käufer erwarten, und die Geschwindigkeit, die Verkäufer brauchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
+    description: 'Bauen Sie eine komplette Mathe-Produktlinie auf, ohne zwischen verschiedenen Werkzeugen wechseln zu müssen. Das Mathematik-Meister-Paket vereint sechs spezialisierte Arbeitsblatt-Generatoren, die Addition, Subtraktion, kryptarithmetische Code-Knacker-Rätsel, Größer-Kleiner-Vergleiche, Puzzle-Raster-Mathe-Rätsel und visuelle Bildalgebra-Gleichungen abdecken. Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien mit automatischen Lösungsschlüsseln, einstellbarem Schwierigkeitsgrad und thematischen Bildbibliotheken. Fünf der sechs Apps sind rein visuell — die erstellten Arbeitsblätter funktionieren in jeder Sprache, da sie auf Bilder und Zahlen statt auf Text setzen. Die sechste, Bilder-Addition, bietet einen sprachsensitiven Wort-Enthüllungsmodus, der alle 11 Oberflächensprachen unterstützt. Wählen Sie aus über 100 thematischen Bildsets oder laden Sie eigene PNG- und JPEG-Dateien für markenspezifische, nischenorientierte Produkte hoch. Ob Sie auf Etsy.de, Amazon KDP oder Gumroad verkaufen — dieses Paket bietet Ihnen die Vielfalt, die Käufer erwarten, und die Geschwindigkeit, die Verkäufer brauchen. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie alle Funktionen vor dem Kauf einer Lizenz testen können.',
   },
 
   appsIncluded: [
     {
       title: 'Additions-Arbeitsblatt-Generator',
-      description: 'Erstellen Sie bildbasierte Additions-Arbeitsblätter in vier verschiedenen Modi: Bild + Bild Zählen, Bild + Zahl Hybridaufgaben, Finde den Summanden Herausforderungen mit fehlenden Werten und gemischter Modus, der alle drei auf einer Seite kombiniert. Schüler zählen thematische Bilder, um jede Gleichung zu lösen, wodurch abstrakte Addition konkret und ansprechend wird. Stellen Sie den Zahlenbereich von 1 bis 99 ein, wählen Sie zwischen 4, 6, 8 oder 12 Aufgaben pro Seite und wählen Sie Bilder aus über 100 thematischen Sets mit Tieren, Lebensmitteln, Fahrzeugen und saisonalen Kategorien. Jedes Arbeitsblatt erzeugt automatisch einen passenden Lösungsschlüssel. Wählen Sie aus mehreren Seitengrößen, fügen Sie dekorative Ränder und thematische Hintergründe hinzu und laden Sie als druckfertige PDF oder JPEG herunter.',
+      description: 'Erstellen Sie bildbasierte Additions-Arbeitsblätter in vier verschiedenen Modi: Bild + Bild Zählen, Bild + Zahl Hybridaufgaben, Finde den Summanden Herausforderungen mit fehlenden Werten und gemischter Modus, der alle drei auf einer Seite kombiniert. Nutzer zählen thematische Bilder, um jede Gleichung zu lösen, wodurch abstrakte Addition konkret und ansprechend wird. Stellen Sie den Zahlenbereich von 1 bis 99 ein, wählen Sie zwischen 4, 6, 8 oder 12 Aufgaben pro Seite und wählen Sie Bilder aus über 100 thematischen Sets mit Tieren, Lebensmitteln, Fahrzeugen und saisonalen Kategorien. Jedes Arbeitsblatt erzeugt automatisch einen passenden Lösungsschlüssel. Wählen Sie aus mehreren Seitengrößen, fügen Sie dekorative Ränder und thematische Hintergründe hinzu und laden Sie als druckfertige PDF oder JPEG herunter.',
     },
     {
       title: 'Subtraktions-Arbeitsblatt-Generator',
-      description: 'Generieren Sie visuelle Subtraktions-Arbeitsblätter mit vier Modi, einschließlich des einzigartigen Durchstreichen-Ansatzes — Schüler streichen Bilder physisch durch, um die Differenz zu finden, und bauen ein intuitives Verständnis von Subtraktion als Wegnehmen auf. Weitere Modi umfassen Bild − Bild, Bild − Zahl und gemischte Formate. Einstellbare Zahlenbereiche, Aufgabenanzahl und thematische Bildsets bieten die gleiche Flexibilität wie der Additions-Generator, mit subtraktionsspezifischer Pädagogik. Der Durchstreichen-Modus ist besonders bei Frühpädagogen beliebt, da er Subtraktion in eine praktische Aktivität verwandelt, mit der Schüler auf der gedruckten Seite physisch interagieren können.',
+      description: 'Generieren Sie visuelle Subtraktions-Arbeitsblätter mit vier Modi, einschließlich des einzigartigen Durchstreichen-Ansatzes — Nutzer streichen Bilder physisch durch, um die Differenz zu finden, und bauen ein intuitives Verständnis von Subtraktion als Wegnehmen auf. Weitere Modi umfassen Bild − Bild, Bild − Zahl und gemischte Formate. Einstellbare Zahlenbereiche, Aufgabenanzahl und thematische Bildsets bieten die gleiche Flexibilität wie der Additions-Generator, mit subtraktionsspezifischer Methodik. Der Durchstreichen-Modus ist besonders bei Frühförder-Käufer beliebt, da er Subtraktion in eine praktische Aktivität verwandelt, mit der Nutzer auf der gedruckten Seite physisch interagieren können.',
     },
     {
       title: 'Bilder-Additions-Generator',
-      description: 'Erstellen Sie kryptarithmetische Code-Knacker-Rätsel, bei denen Schüler Additionsgleichungen lösen, um Buchstaben zu entschlüsseln und versteckte Wörter zu enthüllen. Dies ist die einzige App im Paket mit einer sprachsensitiven Funktion: Der Wort-Enthüllungsmodus greift auf Wortschatzlisten in allen 11 unterstützten Sprachen zu, sodass die decodierten Wörter zur Arbeitsblattsprache passen. Der Standard-Code-Modus verwendet einfache Buchstaben-Zahlen-Zuordnung und funktioniert in allen Sprachen identisch. Stellen Sie den Schwierigkeitsgrad über Zahlenbereiche und Gleichungsanzahl pro Rätsel ein. Das Code-Knacker-Format kombiniert Matheübung mit Wortentdeckung und macht es zu einem herausragenden Produkt in jedem Mathe-Arbeitsblatt-Shop — Käufer bewerten Rätsel-Arbeitsblätter durchweg höher als Standard-Übungsblätter.',
+      description: 'Erstellen Sie kryptarithmetische Code-Knacker-Rätsel, bei denen Nutzer Additionsgleichungen lösen, um Buchstaben zu entschlüsseln und versteckte Wörter zu enthüllen. Dies ist die einzige App im Paket mit einer sprachsensitiven Funktion: Der Wort-Enthüllungsmodus greift auf Wortschatzlisten in allen 11 unterstützten Sprachen zu, sodass die decodierten Wörter zur Arbeitsblattsprache passen. Der Standard-Code-Modus verwendet einfache Buchstaben-Zahlen-Zuordnung und funktioniert in allen Sprachen identisch. Stellen Sie den Schwierigkeitsgrad über Zahlenbereiche und Gleichungsanzahl pro Rätsel ein. Das Code-Knacker-Format kombiniert Matheübung mit Wortentdeckung und macht es zu einem herausragenden Produkt in jedem Mathe-Arbeitsblatt-Shop — Käufer bewerten Rätsel-Arbeitsblätter durchweg höher als Standard-Übungsblätter.',
     },
     {
       title: 'Mehr-oder-Weniger-Generator',
-      description: 'Erstellen Sie Größer-als-, Kleiner-als- und Gleich-Vergleichs-Arbeitsblätter in drei Modi. Der Gruppen-Vergleichsmodus zeigt zwei Bildgruppen für visuellen Zählvergleich. Der Zahlen-Vergleichsmodus präsentiert reine Zahlen für schnellere, abstrakte Übung. Der einzigartige Prüfen-und-Durchstreichen-Modus fordert Schüler auf, die größere Gruppe anzuhaken und die kleinere durchzustreichen — eine taktile, praxiserprobte Übung, die Vergleichskonzepte durch physische Interaktion mit der Seite verstärkt. Einstellbare Zahlenbereiche und thematische Bilder halten die Arbeitsblätter über Produktlisten hinweg abwechslungsreich. Vergleichs-Arbeitsblätter sind ein Grundprodukt für Kindergarten und erste Klasse, das jeder Mathe-Shop führen sollte.',
+      description: 'Erstellen Sie Größer-als-, Kleiner-als- und Gleich-Vergleichs-Arbeitsblätter in drei Modi. Der Gruppen-Vergleichsmodus zeigt zwei Bildgruppen für visuellen Zählvergleich. Der Zahlen-Vergleichsmodus präsentiert reine Zahlen für schnellere, abstrakte Übung. Der einzigartige Prüfen-und-Durchstreichen-Modus fordert Nutzer auf, die größere Gruppe anzuhaken und die kleinere durchzustreichen — eine taktile, praxiserprobte Übung, die Vergleichskonzepte durch physische Interaktion mit der Seite verstärkt. Einstellbare Zahlenbereiche und thematische Bilder halten die Arbeitsblätter über Produktlisten hinweg abwechslungsreich. Vergleichs-Arbeitsblätter sind ein Grundprodukt für Kindergarten und erste Klasse, das jeder Mathe-Shop führen sollte.',
     },
     {
       title: 'Mathe-Rätsel-Generator',
-      description: 'Erstellen Sie Puzzle-Raster-Bildrätsel, bei denen Schüler eine Mathe-Gleichung auf jedem Puzzleteil lösen, um das vollständige Bild zusammenzusetzen. Raster skalieren von 2×2 (4 Teile) für Anfänger bis 4×4 (16 Teile) für fortgeschrittene Schüler. Jedes Teil zeigt eine Gleichung — die Antwort verrät den Schülern, wo es platziert werden soll. Wählen Sie Addition, Subtraktion oder gemischte Rechenarten und stellen Sie den Zahlenbereich passend zur Zielstufe ein. Das Aufdeckbild stammt aus der thematischen Bibliothek oder Ihren eigenen Uploads. Das Puzzle-Format lässt Mathematik wie ein Spiel statt wie eine Übung wirken — Schüler sind motiviert, jede Gleichung zu lösen, weil die Belohnung das fertige Bild ist.',
+      description: 'Erstellen Sie Puzzle-Raster-Bildrätsel, bei denen Nutzer eine Mathe-Gleichung auf jedem Puzzleteil lösen, um das vollständige Bild zusammenzusetzen. Raster skalieren von 2×2 (4 Teile) für Anfänger bis 4×4 (16 Teile) für fortgeschrittene Nutzer. Jedes Teil zeigt eine Gleichung — die Antwort verrät den Nutzern, wo es platziert werden soll. Wählen Sie Addition, Subtraktion oder gemischte Rechenarten und stellen Sie den Zahlenbereich passend zur Zielstufe ein. Das Aufdeckbild stammt aus der thematischen Bibliothek oder Ihren eigenen Uploads. Das Puzzle-Format lässt Mathematik wie ein Spiel statt wie eine Übung wirken — Nutzer sind motiviert, jede Gleichung zu lösen, weil die Belohnung das fertige Bild ist.',
     },
     {
       title: 'Mathe-Arbeitsblatt-Generator',
-      description: 'Generieren Sie visuelle Bildalgebra-Rätsel, bei denen thematische Bilder unbekannte Variablen in Systemen verknüpfter Gleichungen ersetzen. Schüler bestimmen den numerischen Wert, den jedes Bild darstellt. Vier Schwierigkeitsstufen reichen von zwei Symbolen mit einfacher Addition bis zu vier gleichzeitigen Unbekannten mit gemischten Rechenarten. Ein eingebauter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat — keine Mehrdeutigkeit, keine unlösbaren Rätsel. Wählen Sie zwischen Nur-Addition oder Addition-und-Subtraktion, schalten Sie negative Ergebnisse für ältere Lernende ein und steuern Sie die Rätsel pro Seite von 1 bis 6. Dieser Generator überbrückt die Lücke zwischen Grundrechenarten und algebraischem Denken und ist damit ein hochwertiges Produkt für Verkäufer, die ab der zweiten Klasse zielen.',
+      description: 'Generieren Sie visuelle Bildalgebra-Rätsel, bei denen thematische Bilder unbekannte Variablen in Systemen verknüpfter Gleichungen ersetzen. Nutzer bestimmen den numerischen Wert, den jedes Bild darstellt. Vier Schwierigkeitsstufen reichen von zwei Symbolen mit einfacher Addition bis zu vier gleichzeitigen Unbekannten mit gemischten Rechenarten. Ein eingebauter algebraischer Löser garantiert, dass jedes Rätsel genau eine korrekte Lösung hat — keine Mehrdeutigkeit, keine unlösbaren Rätsel. Wählen Sie zwischen Nur-Addition oder Addition-und-Subtraktion, schalten Sie negative Ergebnisse für ältere Lernende ein und steuern Sie die Rätsel pro Seite von 1 bis 6. Dieser Generator überbrückt die Lücke zwischen Grundrechenarten und algebraischem Denken und ist damit ein hochwertiges Produkt für Verkäufer, die ab der zweiten Klasse zielen.',
     },
   ],
 
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatische Lösungsschlüssel',
-      description: 'Jeder Generator im Paket erzeugt automatisch einen passenden Lösungsschlüssel zu jedem Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung der Käufer auf Etsy.de und Lehrermarktplatz — dieses Paket liefert sie automatisch und spart Ihnen Stunden manueller Arbeit.',
+      description: 'Jeder Generator im Paket erzeugt automatisch einen passenden Lösungsschlüssel zu jedem Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung der Käufer auf Etsy.de und Gumroad — dieses Paket liefert sie automatisch und spart Ihnen Stunden manueller Arbeit.',
     },
     {
       title: 'Einheitliche professionelle Qualität',
@@ -83,7 +83,7 @@ const content: BundleContent = {
     },
     {
       title: 'Druckfertige Ausgabe',
-      description: 'Laden Sie Arbeitsblätter als PDF oder hochauflösende JPEG in Letter, A4, Querformat, Quadrat oder benutzerdefinierten Größen herunter. Dateien sind sofort bereit zum Listen auf Etsy.de, Hochladen auf KDP oder Einreichen auf Lehrermarktplatz — ohne Nachbearbeitung in Design-Software. Fügen Sie dekorative Ränder aus der integrierten Rahmenbibliothek hinzu, setzen Sie Seitenhintergrundfarben und wenden Sie thematische Hintergrundbilder mit einstellbarer Deckkraft für polierte, professionelle Ergebnisse an.',
+      description: 'Laden Sie Arbeitsblätter als PDF oder hochauflösende JPEG in Letter, A4, Querformat, Quadrat oder benutzerdefinierten Größen herunter. Dateien sind sofort bereit zum Listen auf Etsy.de, Hochladen auf KDP oder Einreichen auf Gumroad — ohne Nachbearbeitung in Design-Software. Fügen Sie dekorative Ränder aus der integrierten Rahmenbibliothek hinzu, setzen Sie Seitenhintergrundfarben und wenden Sie thematische Hintergrundbilder mit einstellbarer Deckkraft für polierte, professionelle Ergebnisse an.',
     },
   ],
 
@@ -99,17 +99,17 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz-Ressourcenpaket',
-      description: 'Käufer auf dem Lehrermarktplatz erwarten Lösungsschlüssel, mehrere Schwierigkeitsstufen und Lehrplananpassung. Jeder Generator liefert alle drei automatisch. Bündeln Sie Arbeitsblätter in Klassenstufen-Pakete — Kindergarten-Zählen, Erste-Klasse-Addition und -Subtraktion, Zweite-Klasse-Vergleich und -Rätsel — und preisen Sie sie als Premium-Ressourcen an. Die vier Schwierigkeitsstufen jedes Generators ermöglichen differenzierten Unterricht, nach dem Lehrkräfte gezielt suchen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad-Ressourcenpaket',
+      description: 'Käufer auf dem Gumroad erwarten Lösungsschlüssel, mehrere Schwierigkeitsstufen und Produktkataloganpassung. Jeder Generator liefert alle drei automatisch. Bündeln Sie Arbeitsblätter in Altersstufen-Pakete — Kindergarten-Zählen, Erste-Klasse-Addition und -Subtraktion, Zweite-Klasse-Vergleich und -Rätsel — und preisen Sie sie als Premium-Ressourcen an. Die vier Schwierigkeitsstufen jedes Generators ermöglichen gestufte Produktpakete, nach dem Käufer gezielt suchen.',
+      platform: 'Gumroad',
     },
     {
-      title: 'Nachhilfe- und Homeschool-Materialien',
-      description: 'Generieren Sie frische Arbeitsblätter für jede Nachhilfestunde oder Homeschool-Woche. Variieren Sie Schwierigkeitsgrad, Thema und Aufgabentyp, damit Schüler nie dieselbe Seite zweimal sehen. Die Lösungsschlüssel lassen Eltern und Nachhilfelehrer die Arbeit sofort prüfen, ohne Lösungen manuell berechnen zu müssen. Beginnen Sie mit einfachem Additions-Zählen für jüngere Lernende und steigern Sie sich durch Subtraktion, Vergleich und algebraische Bildrätsel — alles aus demselben Paket. Nachhilfelehrer, die mehrere Schüler betreuen, können personalisierte Arbeitsblatt-Sets erstellen, die auf das aktuelle Kompetenzniveau und die Interessen jedes Lernenden zugeschnitten sind. Homeschool-Familien profitieren von der Vielfalt über sechs Generatoren, da sie die repetitive Arbeitsblatt-Ermüdung verhindern, die häuslichen Matheunterricht oft entgleisen lässt.',
+      title: 'Ihr Geschäft- und Homeschool-Materialien',
+      description: 'Generieren Sie frische Arbeitsblätter für jede Geschäftstunde oder Homeschool-Woche. Variieren Sie Schwierigkeitsgrad, Thema und Aufgabentyp, damit Nutzer nie dieselbe Seite zweimal sehen. Die Lösungsschlüssel lassen Eltern und Kursanbieter die Arbeit sofort prüfen, ohne Lösungen manuell berechnen zu müssen. Beginnen Sie mit einfachem Additions-Zählen für jüngere Lernende und steigern Sie sich durch Subtraktion, Vergleich und algebraische Bildrätsel — alles aus demselben Paket. Kursanbieter, die mehrere Nutzer betreuen, können personalisierte Arbeitsblatt-Sets erstellen, die auf das aktuelle Kompetenzniveau und die Interessen jedes Lernenden zugeschnitten sind. Homeschool-Familien profitieren von der Vielfalt über sechs Generatoren, da sie die repetitive Arbeitsblatt-Ermüdung verhindern, die häuslichen Matheunterricht oft entgleisen lässt.',
     },
     {
       title: 'Schulbedarf-Ergänzungsverkauf',
-      description: 'Schulen und Schulbezirke kaufen ergänzende Mathematik-Materialien in großen Mengen. Erstellen Sie klassenstufenabgestimmte Arbeitsblatt-Pakete und bieten Sie diese direkt über Ihre Website oder Bildungsmarktplätze an. Die kommerzielle Lizenz erlaubt den Verkauf an Institutionen ohne Kopien-Beschränkungen. Verpacken Sie Arbeitsblätter aus allen sechs Generatoren in umfassende Klassenstufen-Sets, die den vollen Umfang der Grundschul-Mathematikstandards abdecken. Bezirksweite Verkäufe sind besonders lukrativ, da eine einzige Kaufentscheidung mehrere Klassenzimmer und Klassenstufen abdecken kann und deutlich höheren Umsatz pro Transaktion generiert als Einzelverkäufe.',
+      description: 'Schulen und Schulbezirke kaufen ergänzende Mathematik-Materialien in großen Mengen. Erstellen Sie klassenstufenabgestimmte Arbeitsblatt-Pakete und bieten Sie diese direkt über Ihre Website oder Bildungsmarktplätze an. Die kommerzielle Lizenz erlaubt den Verkauf an Institutionen ohne Kopien-Beschränkungen. Verpacken Sie Arbeitsblätter aus allen sechs Generatoren in umfassende Altersstufen-Sets, die den vollen Umfang der Grundschul-Mathematikstandards abdecken. Bezirksweite Verkäufe sind besonders lukrativ, da eine einzige Kaufentscheidung mehrere Shop und Altersstufen abdecken kann und deutlich höheren Umsatz pro Transaktion generiert als Einzelverkäufe.',
       platform: 'Schulbedarf',
     },
     {
@@ -137,12 +137,12 @@ const content: BundleContent = {
       description: 'Sie verkaufen digitale Downloads auf Etsy.de oder veröffentlichen Arbeitsbücher auf Amazon KDP und suchen eine schnelle, zuverlässige Möglichkeit, professionelle Mathe-Arbeitsblätter im großen Maßstab zu produzieren. Das Paket gibt Ihnen sechs Generatoren und Hunderte von Themenkombinationen, um einen vielfältigen Produktkatalog ohne Design-Kenntnisse oder teure Software aufzubauen. Erstellen Sie neue Angebote in Minuten statt Stunden und halten Sie Ihren Shop das ganze Jahr über mit frischen, saisonalen Inhalten bestückt. Der Sechs-Generatoren-Ansatz bedeutet, dass Sie nie an eine kreative Wand stoßen — wenn ein Generator genug Additions-Arbeitsblätter für Ihren Katalog produziert hat, wechseln Sie zu Subtraktion, Rätseln oder Vergleichsübungen und erstellen völlig neue Produktangebote mit minimalem Aufwand. Saisonale Themenwechsel mit der integrierten Bildbibliothek lassen Sie Ihren Shop monatlich auffrischen, ohne Produkte von Grund auf neu zu erstellen.',
     },
     {
-      title: 'Lehrermarktplatz-Autoren',
-      description: 'Sie erstellen und verkaufen Bildungsressourcen auf dem Lehrermarktplatz und brauchen Werkzeuge, die den Plattform-Erwartungen entsprechen. Jeder Generator erzeugt lehrplankonforme Arbeitsblätter mit automatischen Lösungsschlüsseln und mehreren Schwierigkeitseinstellungen — genau das, was Rezensenten und Käufer auf dem Lehrermarktplatz von Premium-Mathe-Ressourcen erwarten. Die vier Schwierigkeitsstufen pro Generator erleichtern die Erstellung differenzierter Unterrichtspakete, nach denen Lehrkräfte nach Klassenstufe und Fähigkeit suchen. Käufer auf dem Lehrermarktplatz erwarten polierte, sofort einsetzbare Unterrichtsmaterialien mit einheitlicher visueller Präsentation — die gemeinsame Design-Engine aller sechs Generatoren gewährleistet, dass Ihre Mathe-Ressourcen ein kohärentes professionelles Erscheinungsbild bewahren, das Markenglaubwürdigkeit aufbaut und Wiederholungskäufe verdient.',
+      title: 'Gumroad-Autoren',
+      description: 'Sie erstellen und verkaufen Bildungsressourcen auf dem Gumroad und brauchen Werkzeuge, die den Plattform-Erwartungen entsprechen. Jeder Generator erzeugt marktgerechte Arbeitsblätter mit automatischen Lösungsschlüsseln und mehreren Schwierigkeitseinstellungen — genau das, was Rezensenten und Käufer auf dem Gumroad von Premium-Mathe-Ressourcen erwarten. Die vier Schwierigkeitsstufen pro Generator erleichtern die Erstellung gestufte Produktpaketespakete, nach denen Käufer nach Altersstufe und Fähigkeit suchen. Käufer auf dem Gumroad erwarten polierte, sofort einsetzbare Druckprodukte mit einheitlicher visueller Präsentation — die gemeinsame Design-Engine aller sechs Generatoren gewährleistet, dass Ihre Mathe-Ressourcen ein kohärentes professionelles Erscheinungsbild bewahren, das Markenglaubwürdigkeit aufbaut und Wiederholungskäufe verdient.',
     },
     {
-      title: 'Nachhilfelehrer und Homeschool-Eltern',
-      description: 'Sie brauchen jede Woche frische, abwechslungsreiche Mathe-Übungsmaterialien. Statt nach generischen Arbeitsblättern zu suchen, die nie ganz passen, generieren Sie genau das, was Ihre Schüler brauchen — den richtigen Schwierigkeitsgrad, das richtige Thema, das richtige Motiv — in unter einer Minute. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie vor dem Kauf evaluieren können.',
+      title: 'Kursanbieter und Homeschool-Eltern',
+      description: 'Sie brauchen jede Woche frische, abwechslungsreiche Mathe-Übungsmaterialien. Statt nach generischen Arbeitsblättern zu suchen, die nie ganz passen, generieren Sie genau das, was Ihre Nutzer brauchen — den richtigen Schwierigkeitsgrad, das richtige Thema, das richtige Motiv — in unter einer Minute. Jeder Generator bietet eine kostenlose Testversion mit Wasserzeichen, damit Sie vor dem Kauf evaluieren können.',
     },
     {
       title: 'Content-Ersteller im Bildungsbereich',
@@ -157,11 +157,11 @@ const content: BundleContent = {
     },
     {
       question: 'Welche Formate kann ich herunterladen?',
-      answer: 'Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Sie können zwischen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer benutzerdefinierten Größe wählen. PDF ist ideal für mehrseitige Arbeitsblatt-Pakete auf Etsy.de und Lehrermarktplatz. JPEG eignet sich gut für KDP-Innenseiten und Social-Media-Vorschauen. Alle Dateien werden in Druckauflösung heruntergeladen — kein Hochskalieren oder Nachbearbeiten nötig.',
+      answer: 'Jeder Generator erzeugt druckfertige PDF- und hochauflösende JPEG-Dateien. Sie können zwischen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder einer benutzerdefinierten Größe wählen. PDF ist ideal für mehrseitige Arbeitsblatt-Pakete auf Etsy.de und Gumroad. JPEG eignet sich gut für KDP-Innenseiten und Social-Media-Vorschauen. Alle Dateien werden in Druckauflösung heruntergeladen — kein Hochskalieren oder Nachbearbeiten nötig.',
     },
     {
       question: 'Enthalten die Arbeitsblätter Lösungsschlüssel?',
-      answer: 'Ja. Alle sechs Generatoren erstellen automatisch einen passenden Lösungsschlüssel für jedes Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung für Käufer auf Etsy.de und Lehrermarktplatz und sparen Ihnen die Zeit, jede Aufgabe manuell zu lösen.',
+      answer: 'Ja. Alle sechs Generatoren erstellen automatisch einen passenden Lösungsschlüssel für jedes Arbeitsblatt. Lösungsschlüssel sind eine Top-Erwartung für Käufer auf Etsy.de und Gumroad und sparen Ihnen die Zeit, jede Aufgabe manuell zu lösen.',
     },
     {
       question: 'Kann ich eigene Bilder statt der eingebauten Themen verwenden?',
@@ -177,7 +177,7 @@ const content: BundleContent = {
     },
     {
       question: 'Darf ich die erstellten Arbeitsblätter verkaufen?',
-      answer: 'Ja. Sowohl die Kommerzielle als auch die Vollzugriff-Lizenz beinhalten kommerzielle Verkaufsrechte. Sie können die generierten Arbeitsblätter auf Etsy.de, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform verkaufen. Sie verkaufen die Arbeitsblätter — das Generator-Werkzeug selbst ist nicht übertragbar.',
+      answer: 'Ja. Sowohl die Kommerzielle als auch die Vollzugriff-Lizenz beinhalten kommerzielle Verkaufsrechte. Sie können die generierten Arbeitsblätter auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform verkaufen. Sie verkaufen die Arbeitsblätter — das Generator-Werkzeug selbst ist nicht übertragbar.',
     },
     {
       question: 'Wie viele Arbeitsblätter kann ich erstellen?',
@@ -189,7 +189,7 @@ const content: BundleContent = {
     },
     {
       question: 'Wie lange dauert es, eine komplette Mathe-Produktlinie mit diesem Paket aufzubauen?',
-      answer: 'Die meisten Verkäufer bauen ihren anfänglichen Mathe-Produktkatalog innerhalb eines einzigen Wochenendes mit dem Paket auf. Jeder Generator erzeugt ein fertiges, druckbereites Arbeitsblatt mit Lösungsschlüssel in unter einer Minute. Eine typische Produktionssitzung umfasst die Auswahl eines Themas, die Konfiguration der Schwierigkeitseinstellungen und die Erstellung einer Charge von zehn bis zwanzig Arbeitsblättern, die zu einem thematischen Produktangebot werden. Mit sechs Generatoren können Sie sechs bis zwölf verschiedene Produktangebote an einem einzigen Tag erstellen — genug, um einen glaubwürdigen Mathe-Shop auf Etsy.de oder dem Lehrermarktplatz zu starten. Erfahrene Verkäufer berichten, dass sie nach dem Erlernen der Oberfläche in ihrer ersten Sitzung ein komplettes thematisches Mathe-Paket mit Arbeitsblättern aus allen sechs Generatoren in unter zwei Stunden erstellen können.',
+      answer: 'Die meisten Verkäufer bauen ihren anfänglichen Mathe-Produktkatalog innerhalb eines einzigen Wochenendes mit dem Paket auf. Jeder Generator erzeugt ein fertiges, druckbereites Arbeitsblatt mit Lösungsschlüssel in unter einer Minute. Eine typische Produktionssitzung umfasst die Auswahl eines Themas, die Konfiguration der Schwierigkeitseinstellungen und die Erstellung einer Charge von zehn bis zwanzig Arbeitsblättern, die zu einem thematischen Produktangebot werden. Mit sechs Generatoren können Sie sechs bis zwölf verschiedene Produktangebote an einem einzigen Tag erstellen — genug, um einen glaubwürdigen Mathe-Shop auf Etsy.de oder dem Gumroad zu starten. Erfahrene Verkäufer berichten, dass sie nach dem Erlernen der Oberfläche in ihrer ersten Sitzung ein komplettes thematisches Mathe-Paket mit Arbeitsblättern aus allen sechs Generatoren in unter zwei Stunden erstellen können.',
     },
     {
       question: 'Kann ich später von Kommerziell auf Vollzugriff upgraden?',
@@ -211,7 +211,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'mathe-arbeitsblaetter-verkaufen-etsy', anchorText: 'Leitfaden: Mathe-Arbeitsblätter auf Etsy verkaufen' },
     { pageType: 'guide', slug: 'mathe-aktivitaetsbuecher-kdp', anchorText: 'Mathe-Aktivitätsbücher auf Amazon KDP' },
     { pageType: 'start', slug: 'arbeitsblaetter-erstellen-die-verkaufen', anchorText: 'Arbeitsblätter erstellen, die sich verkaufen' },
-    { pageType: 'idea', slug: 'mathe-grundlagen-druckvorlagen-ideen', anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer' },
+    { pageType: 'idea', slug: 'mathe-grundlagen-druckvorlagen-ideen', anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Käufer & Verkäufer' },
   ],
 
   visuals: {

@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Mathe-Rätsel für den Unterricht erstellen',
+    primaryKeyword: 'Mathe-Rätsel für die Produkterstellung erstellen',
     secondaryKeywords: [
-      'Puzzle-Mathe-Arbeitsblätter für Lehrer',
+      'Puzzle-Mathe-Arbeitsblätter für Verkäufer',
       'Mathe-Rätsel-Ersteller für Kinder',
       'Bild-Mathe-Rätsel für die Klasse',
-      'druckbare Mathe-Rätsel für Schüler',
+      'druckbare Mathe-Rätsel für Nutzer',
     ],
     lsiKeywords: [
-      'Bildraster-Mathe-Rätsel für den Unterricht',
+      'Bildraster-Mathe-Rätsel für die Produkterstellung',
       'Puzzle-Mathe-Aktivität für Kinder',
       'konfigurierbarer Mathe-Rätsel-Ersteller',
     ],
     titleTag: 'Mathe-Rätsel Erstellen — Puzzles für die Klasse',
-    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil für den Unterricht erstellen. Bildraster, drei Rechenarten, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
+    metaDescription: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil für die Produkterstellung erstellen. Bildraster, drei Rechenarten, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.',
     },
 
   hero: {
     title: 'Mathe-Rätsel-Arbeitsblatt-Generator',
     tagline: 'Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil in unter 60 Sekunden erstellen',
-    description: 'Verwandeln Sie Mathe-Übungen in ein fesselndes visuelles Puzzle, das völlig anders aussieht als ein normales Arbeitsblatt. Dieses Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Schüler lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt (beide Operationen zufällig kombiniert). Passen Sie die Rastergröße von 2×2 (4 Teile, am einfachsten) bis 4×4 (16 Teile, am schwierigsten) an jedes Fähigkeitsniveau an. Laden Sie eigene PNG- oder JPEG-Bilder für markentypische, saisonale oder Nischen-Puzzles hoch, oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Das Jigsaw-Format erzeugt ein sofort erkennbares Produkt, das in Marktplatz-Suchergebnissen heraussticht — Käufer, die durch Reihen identischer Arbeitsblätter scrollen, bleiben bei einem farbenfrohen Bilderpuzzle stehen. Download als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Mathe-Übungen in ein fesselndes visuelles Puzzle, das völlig anders aussieht als ein normales Arbeitsblatt. Dieses Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen, die jeweils eine Mathe-Gleichung enthalten. Darunter erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen — Nutzer lösen jede Gleichung und ordnen das richtige Teil zu, um das Bild zu rekonstruieren. Wählen Sie aus drei Rechenarten: Addition, Subtraktion oder Gemischt (beide Operationen zufällig kombiniert). Passen Sie die Rastergröße von 2×2 (4 Teile, am einfachsten) bis 4×4 (16 Teile, am schwierigsten) an jedes Fähigkeitsniveau an. Laden Sie eigene PNG- oder JPEG-Bilder für markentypische, saisonale oder Nischen-Puzzles hoch, oder durchstöbern Sie die integrierte Bibliothek mit über 3.100 Bildern in 104 Themen. Das Jigsaw-Format erzeugt ein sofort erkennbares Produkt, das in Marktplatz-Suchergebnissen heraussticht — Käufer, die durch Reihen identischer Arbeitsblätter scrollen, bleiben bei einem farbenfrohen Bilderpuzzle stehen. Download als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Mathe-Puzzle-Pakete',
-      description: 'Erstellen Sie Sets mit 15–20 Puzzles aus thematischen Bildern der Bibliothek — Dinosaurier, Weltraum, Tiere, Fahrzeuge. Jedes Puzzle verwendet ein anderes Bild mit Additions- oder Subtraktionsgleichungen bei gleichbleibender Rastergröße. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das Jigsaw-Format lässt Ihr Listing-Vorschaubild sofort aus der Masse gewöhnlicher Mathe-Arbeitsblätter herausstechen.',
+      description: 'Erstellen Sie Sets mit 15–20 Puzzles aus thematischen Bildern der Bibliothek — Dinosaurier, Weltraum, Tiere, Fahrzeuge. Jedes Puzzle verwendet ein anderes Bild mit Additions- oder Subtraktionsgleichungen bei gleichbleibender Rastergröße. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das Jigsaw-Format lässt Ihr Listing-Vorschaubild sofort aus der Masse gewöhnlicher Mathe-Arbeitsblätter herausstechen.',
     },
     {
       title: 'KDP-Puzzle-Arbeitsbücher',
@@ -72,19 +72,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Eigenes-Bild-Marken-Puzzles',
-      description: 'Laden Sie eigene Bilder hoch — Logo-Designs, handgezeichnete Illustrationen oder lizenzierte Grafiken — um markentypische Puzzle-Arbeitsblätter zu erstellen, die kein Wettbewerber kopieren kann. Perfekt für Lehrkräfte, die Klassenmaskottchen integrieren möchten, Homeschool-Familien mit personalisiertem Lehrplan oder Verkäufer, die eine unverwechselbare visuelle Marke aufbauen.',
+      description: 'Laden Sie eigene Bilder hoch — Logo-Designs, handgezeichnete Illustrationen oder lizenzierte Grafiken — um markentypische Puzzle-Arbeitsblätter zu erstellen, die kein Wettbewerber kopieren kann. Perfekt für Verkäufer, die Klassenmaskottchen integrieren möchten, Homeschool-Familien mit personalisiertem Produktkatalog oder Verkäufer, die eine unverwechselbare visuelle Marke aufbauen.',
     },
     {
       title: 'Differenzierte Schwierigkeits-Sets',
-      description: 'Generieren Sie drei Versionen desselben thematischen Puzzles auf unterschiedlichen Niveaus: einfach (2×2-Raster, nur Addition), mittel (3×3-Raster, Addition oder Subtraktion) und schwer (4×4-Raster, gemischte Rechenarten). Lehrkräfte können jeder Schülerin und jedem Schüler das passende Niveau zuteilen. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis.',
+      description: 'Generieren Sie drei Versionen desselben thematischen Puzzles auf unterschiedlichen Niveaus: einfach (2×2-Raster, nur Addition), mittel (3×3-Raster, Addition oder Subtraktion) und schwer (4×4-Raster, gemischte Rechenarten). Verkäufer können jeder Käufer das passende Niveau zuteilen. Verkaufen Sie als gestuftes Paket zu einem Premium-Preis.',
     },
     {
       title: 'Saisonale und Feiertags-Puzzle-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle“-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Lehrermarktplatz.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle“-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Gumroad.',
     },
     {
-      title: 'Tägliche Aufwärm-Puzzles für den Unterricht',
-      description: 'Generieren Sie schnelle 2×2- oder 2×3-Puzzles für tägliche Mathe-Aufstiegsübungen. Schüler lösen 4–6 Gleichungen und setzen ein Bild in unter fünf Minuten zusammen. Erstellen Sie ein Set mit 30 Puzzles (eines pro Schultag) und verkaufen Sie es als „Ein Monat Mathe-Puzzle-Aufstiegsübungen“-Paket. Das spielerische Format hält Schüler von der ersten Minute an motiviert.',
+      title: 'Tägliche Aufwärm-Puzzles für die Produkterstellung',
+      description: 'Generieren Sie schnelle 2×2- oder 2×3-Puzzles für tägliche Mathe-Aufstiegsübungen. Nutzer lösen 4–6 Gleichungen und setzen ein Bild in unter fünf Minuten zusammen. Erstellen Sie ein Set mit 30 Puzzles (eines pro Schultag) und verkaufen Sie es als „Ein Monat Mathe-Puzzle-Aufstiegsübungen“-Paket. Das spielerische Format hält Nutzer von der ersten Minute an motiviert.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Premium-Puzzle-Pakete auf Lehrermarktplatz',
-      description: 'Laden Sie differenzierte Mathe-Puzzle-Pakete auf den Lehrermarktplatz hoch. Lehrkräfte suchen ständig nach „Mathe-Rätsel“ und „Mathe-Spiele“. Fügen Sie alle drei Rechenarten, drei Schwierigkeitsstufen, Lösungsschlüssel und eine Lehreranleitung in jedes Listing ein. Das Jigsaw-Format erhöht den wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung.',
-      platform: 'Lehrermarktplatz',
+      title: 'Premium-Puzzle-Pakete auf Gumroad',
+      description: 'Laden Sie gestufte Mathe-Puzzle-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Mathe-Rätsel“ und „Mathe-Spiele“. Fügen Sie alle drei Rechenarten, drei Schwierigkeitsstufen, Lösungsschlüssel und eine Verkäuferanleitung in jedes Listing ein. Das Jigsaw-Format erhöht den wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung.',
+      platform: 'Gumroad',
     },
     {
       title: 'Eigenes-Bild-Puzzle-Kits auf Gumroad',
-      description: 'Erstellen Sie ein Premium-Puzzle-Kit auf Gumroad mit über 30 Puzzles aus handverlesenen oder selbst hochgeladenen Bildern. Sprechen Sie Homeschool-Familien an, die visuell ansprechende Mathe-Materialien suchen. Legen Sie eine Anleitung bei, die erklärt, wie Puzzles auf jeder Schwierigkeitsstufe für einen strukturierten Lehrplan eingesetzt werden.',
+      description: 'Erstellen Sie ein Premium-Puzzle-Kit auf Gumroad mit über 30 Puzzles aus handverlesenen oder selbst hochgeladenen Bildern. Sprechen Sie Homeschool-Familien an, die visuell ansprechende Mathe-Materialien suchen. Legen Sie eine Anleitung bei, die erklärt, wie Puzzles auf jeder Schwierigkeitsstufe für einen strukturierten Produktkatalog eingesetzt werden.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Mit 2×2 für jüngere Lernende beginnen',
-      description: 'Ein 2×2-Raster hat nur 4 Puzzleteile und 4 Gleichungen — überschaubar für Vorschulkinder und Kindergartenkinder, die gerade Addition lernen. Steigern Sie auf 3×3 für Erstklassende und 4×4 ab der zweiten Klasse. Die Anpassung der Rastergröße an die Altersgruppe ist der einfachste Weg, differenzierte Produkte zu erstellen.',
+      description: 'Ein 2×2-Raster hat nur 4 Puzzleteile und 4 Gleichungen — überschaubar für Vorschulkinder und Kindergartenkinder, die gerade Addition lernen. Steigern Sie auf 3×3 für Erstklassende und 4×4 ab der zweiten Klasse. Die Anpassung der Rastergröße an die Altersgruppe ist der einfachste Weg, gestufte Produkte zu erstellen.',
     },
     {
       title: 'Den gemischten Modus für maximale Vielfalt nutzen',
-      description: 'Der Modus „Addition & Subtraktion“ mischt beide Rechenarten zufällig in einem einzelnen Puzzle. Das erzeugt Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig testen und verhindern, dass Schüler in ein repetitives Muster verfallen. Puzzles im gemischten Modus haben außerdem einen höheren wahrgenommenen Wert in Marktplatz-Listings.',
+      description: 'Der Modus „Addition & Subtraktion“ mischt beide Rechenarten zufällig in einem einzelnen Puzzle. Das erzeugt Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig testen und verhindern, dass Nutzer in ein repetitives Muster verfallen. Puzzles im gemischten Modus haben außerdem einen höheren wahrgenommenen Wert in Marktplatz-Listings.',
     },
     {
       title: 'Eigene Bilder für Wiedererkennungswert hochladen',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Das Puzzle-Format in Vorschaubildern hervorheben',
-      description: 'Das Jigsaw-Raster ist visuell einzigartig und sofort erkennbar. Verwenden Sie Ihre JPEG-Downloads als Produktvorschaubilder auf Etsy und Lehrermarktplatz. Ein farbenfrohes Bild, aufgeteilt in nummerierte Puzzleteile, fängt den Blick weit effektiver als eine einfache Arbeitsblatt-Vorschau.',
+      description: 'Das Jigsaw-Raster ist visuell einzigartig und sofort erkennbar. Verwenden Sie Ihre JPEG-Downloads als Produktvorschaubilder auf Etsy und Gumroad. Ein farbenfrohes Bild, aufgeteilt in nummerierte Puzzleteile, fängt den Blick weit effektiver als eine einfache Arbeitsblatt-Vorschau.',
     },
     {
       title: 'Immer den Lösungsschlüssel beilegen',
-      description: 'Generieren Sie den Lösungsschlüssel vor dem Herunterladen. Der Lösungsschlüssel zeigt jedes Puzzleteil an seiner korrekten Rasterposition mit den gelösten Gleichungen. Käufer auf Etsy und Lehrermarktplatz bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist — das spart Lehrkräften wertvolle Korrekturzeit.',
+      description: 'Generieren Sie den Lösungsschlüssel vor dem Herunterladen. Der Lösungsschlüssel zeigt jedes Puzzleteil an seiner korrekten Rasterposition mit den gelösten Gleichungen. Käufer auf Etsy und Gumroad bewerten Produkte durchgehend höher, wenn ein Lösungsschlüssel enthalten ist — das spart Verkäufern wertvolle wahrgenommenen Mehrwert.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Wie funktioniert das Mathe-Puzzle-Format?',
-      answer: 'Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen. Jede Zelle zeigt eine Mathe-Gleichung (Addition, Subtraktion oder beides). Unterhalb des Rasters erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen. Schüler lösen jede Gleichung, finden das passende Teil und setzen es in die richtige Zelle ein, um das vollständige Bild zu rekonstruieren. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Kombination verschiedener Übungsformate innerhalb eines Bündels — etwa Zuordnung, Zählen, Muster und Wortsuche rund um ein gemeinsames Thema — schafft umfassende Lernpakete, die deutlich höhere Preise als einzelne Arbeitsblätter erzielen.',
+      answer: 'Das Tool zerlegt ein gewähltes Bild in ein Raster aus Zellen. Jede Zelle zeigt eine Mathe-Gleichung (Addition, Subtraktion oder beides). Unterhalb des Rasters erscheinen durcheinander geworfene Puzzleteile mit Lösungszahlen. Nutzer lösen jede Gleichung, finden das passende Teil und setzen es in die richtige Zelle ein, um das vollständige Bild zu rekonstruieren. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Kombination verschiedener Übungsformate innerhalb eines Bündels — etwa Zuordnung, Zählen, Muster und Wortsuche rund um ein gemeinsames Thema — schafft umfassende Lernpakete, die deutlich höhere Preise als einzelne Arbeitsblätter erzielen.',
     },
     {
       question: 'Welche Rastergrößen sind verfügbar?',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Was sind die drei Rechenarten?',
-      answer: 'Der Additionsmodus füllt jede Zelle mit einer Additionsgleichung. Der Subtraktionsmodus verwendet Subtraktionsgleichungen. Der Modus Addition & Subtraktion mischt beide Operationen zufällig über das Raster und erzeugt Wiederholungs-Puzzles, die beide Fähigkeiten in einer einzelnen Aktivität testen. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Lehrkräften und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
+      answer: 'Der Additionsmodus füllt jede Zelle mit einer Additionsgleichung. Der Subtraktionsmodus verwendet Subtraktionsgleichungen. Der Modus Addition & Subtraktion mischt beide Operationen zufällig über das Raster und erzeugt Wiederholungs-Puzzles, die beide Fähigkeiten in einer einzelnen Aktivität testen. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Verkäufern und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
@@ -179,11 +179,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich die Puzzles kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Puzzles auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Puzzles. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Puzzles auf Etsy.de, Gumroad, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Puzzles. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Regelmäßige Produktveröffentlichungen signalisieren Marktplatz-Algorithmen, dass Ihr Shop aktiv und wachsend ist, was typischerweise zu verbessertem Suchranking und erhöhter organischer Sichtbarkeit im Laufe der Zeit führt.',
     },
     {
       question: 'Funktionieren die Puzzles auch in anderen Sprachen?',
-      answer: 'Ja. Mathe-Puzzles verwenden ausschließlich Bilder, Zahlen und Gleichungen — kein Text. Die von Ihnen erstellten Puzzles funktionieren identisch in allen Sprachen. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+      answer: 'Ja. Mathe-Puzzles verwenden ausschließlich Bilder, Zahlen und Gleichungen — kein Text. Die von Ihnen erstellten Puzzles funktionieren identisch in allen Sprachen. Sie können dasselbe Produkt an Käufer in jedem Land verkaufen, ohne Übersetzung, und so Ihren erreichbaren Markt sofort vervielfachen. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/german/math puzzle/Mathe-Rätsel 4.webp',
-        alt: 'Gemischtes Additions- und Subtraktions-Mathe-Puzzle mit größerem Raster für fortgeschrittene Schüler',
+        alt: 'Gemischtes Additions- und Subtraktions-Mathe-Puzzle mit größerem Raster für fortgeschrittene Nutzer',
         caption: 'Gemischte Rechenarten — Addition und Subtraktion in einem Puzzle',
       },
     ],

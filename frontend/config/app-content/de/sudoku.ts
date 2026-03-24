@@ -7,7 +7,7 @@ const content: AppContent = {
       'druckbarer Bild-Sudoku-Generator für Etsy-Verkäufer',
       'Bilder-Sudoku-Rätsel-Ersteller für KDP-Verleger',
       'Bild-Sudoku-Arbeitsblatt-Generator kommerzielle Lizenz',
-      'visuelle Logikrätsel-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'visuelle Logikrätsel-Arbeitsblätter auf Gumroad verkaufen',
     ],
     lsiKeywords: [
       'digitale Bilder-Sudoku-Druckvorlagen skalierbares Einkommen',
@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Bilder-Sudoku-Generator für 4×4-Bild-Logikrätsel',
     tagline: 'Rein visuelle 4×4-Sudoku-Rätsel mit Bildern statt Zahlen — drei Schwierigkeitsgrade von 4 bis 8 leeren Zellen, automatisch generierte Lösungsschlüssel mit vollständig gefülltem Raster und themenbasierte Bildauswahl aus 104 Sammlungen für Rätsel, die weltweit ohne Übersetzung verkaufbar sind.',
     description:
-      'Erstellen Sie professionelle 4×4-Bilder-Sudoku-Arbeitsblätter, bei denen leere Zellen mit den richtigen Bildern gefüllt werden müssen — unter Anwendung der Zeilen-und-Spalten-Logik. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils genau einmal pro Zeile und einmal pro Spalte erscheinen müssen — dieselben Regeln wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen statt Zahlen. Wählen Sie aus drei Schwierigkeitsgraden: Leicht entfernt 4 Zellen, Mittel entfernt 6 Zellen und Schwer entfernt 8 Zellen — die Hälfte des Rasters. Wählen Sie Bilder über die themenbasierte Auswahl, die automatisch 4 zufällige Bilder aus einer der 104 thematischen Sammlungen auswählt, oder wählen Sie manuell genau 4 Bilder aus der Bibliothek, der Suche oder Ihren eigenen Uploads. Das Premium-Rasterdesign bietet abwechselnde 2×2-Blockfarben in Hellblau und Hellrosa, mehrstufige Schatten und einen indigofarbenen äußeren Rahmen mit abgerundeten Ecken. Jedes Rätsel enthält einen automatisch generierten „Bilder-Sudoku“-Header, der in allen 11 Sprachen lokalisiert ist, sowie einen Dual-Canvas-Lösungsschlüssel mit dem vollständig gefüllten Raster — alle 16 Zellen belegt. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Da Bilder-Sudoku vollständig visuell ist — keine Wörter erscheinen auf dem Rätselraster — funktioniert jedes Arbeitsblatt in allen 11 Sprachen identisch und ist weltweit ohne Anpassung verkaufbar. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Ob Sie thematische Sudoku-Pakete auf Etsy.de verkaufen, Logik-Arbeitsbücher für Amazon KDP zusammenstellen oder Denk-Aktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Bilder-Sudoku-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle 4×4-Bilder-Sudoku-Arbeitsblätter, bei denen leere Zellen mit den richtigen Bildern gefüllt werden müssen — unter Anwendung der Zeilen-und-Spalten-Logik. Jedes Rätsel verwendet genau 4 einzigartige Bilder, die jeweils genau einmal pro Zeile und einmal pro Spalte erscheinen müssen — dieselben Regeln wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen statt Zahlen. Wählen Sie aus drei Schwierigkeitsgraden: Leicht entfernt 4 Zellen, Mittel entfernt 6 Zellen und Schwer entfernt 8 Zellen — die Hälfte des Rasters. Wählen Sie Bilder über die themenbasierte Auswahl, die automatisch 4 zufällige Bilder aus einer der 104 thematischen Sammlungen auswählt, oder wählen Sie manuell genau 4 Bilder aus der Bibliothek, der Suche oder Ihren eigenen Uploads. Das Premium-Rasterdesign bietet abwechselnde 2×2-Blockfarben in Hellblau und Hellrosa, mehrstufige Schatten und einen indigofarbenen äußeren Rahmen mit abgerundeten Ecken. Jedes Rätsel enthält einen automatisch generierten „Bilder-Sudoku“-Header, der in allen 11 Sprachen lokalisiert ist, sowie einen Dual-Canvas-Lösungsschlüssel mit dem vollständig gefüllten Raster — alle 16 Zellen belegt. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Da Bilder-Sudoku vollständig visuell ist — keine Wörter erscheinen auf dem Rätselraster — funktioniert jedes Arbeitsblatt in allen 11 Sprachen identisch und ist weltweit ohne Anpassung verkaufbar. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Ob Sie thematische Sudoku-Pakete auf Etsy.de verkaufen, Logik-Arbeitsbücher für Amazon KDP zusammenstellen oder Denk-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Bilder-Sudoku-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um das vollständig gefüllte Raster mit allen 16 Zellen zu sehen — keine leeren Zellen. Laden Sie beide Versionen über die vier dedizierten Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien exportieren als sudoku_worksheet.jpeg/pdf und sudoku_answer_key.jpeg/pdf mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um das vollständig gefüllte Raster mit allen 16 Zellen zu sehen — keine leeren Zellen. Laden Sie beide Versionen über die vier dedizierten Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF. Dateien exportieren als sudoku_worksheet.jpeg/pdf und sudoku_answer_key.jpeg/pdf mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Bilder-Sudoku-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Canvas-Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg und sudoku_answer_key.pdf separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen und dennoch die Bildklarheit bewahren. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Bilder-Sudoku-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Canvas-Multiplikator) herunter. Vier dedizierte Download-Buttons exportieren sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg und sudoku_answer_key.pdf separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen und dennoch die Bildklarheit bewahren. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
       {
         title: 'Vollständige Canvas-Bearbeitung mit Textwerkzeugen und 50-Zustands-Rückgängig-Verlauf',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Logisches Denken und Schlussfolgerungs-Aktivitäten auf dem Lehrermarktplatz',
+        title: 'Logisches Denken und Schlussfolgerungs-Aktivitäten auf Gumroad',
         description:
-          'Erstellen Sie sofort einsetzbare Logik-Arbeitsblätter mit gedruckten Lösungsschlüsseln für den Unterrichtseinsatz. Auf dem Lehrermarktplatz werden Bilder-Sudoku-Aktivitäten geschätzt, weil sie logisches Denken in einem Format entwickeln, das auch ohne Lesekompetenz zugänglich ist. Erstellen Sie lehrplanbezogene Sets nach Themen geordnet: Bauernhof-Tiere-Logikrätsel, Lebensmittelgruppen-Denk-Aktivitäten, Fahrzeug-Problemlösungs-Blätter. Jedes Set enthält Arbeitsblätter auf mehreren Schwierigkeitsgraden und Lösungsschlüssel in PDF- und JPEG-Formaten. Die drei Schwierigkeitsgrade innerhalb eines einzigen Generators ermöglichen differenzierten Unterricht, bei dem Lehrkräfte Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsetzbare Logik-Arbeitsblätter mit gedruckten Lösungsschlüsseln für den Geschäftseinsatz. Auf dem Gumroad werden Bilder-Sudoku-Aktivitäten geschätzt, weil sie logisches Denken in einem Format entwickeln, das auch ohne Lesekompetenz zugänglich ist. Erstellen Sie lehrplanbezogene Sets nach Themen geordnet: Bauernhof-Tiere-Logikrätsel, Lebensmittelgruppen-Denk-Aktivitäten, Fahrzeug-Problemlösungs-Blätter. Jedes Set enthält Arbeitsblätter auf mehreren Schwierigkeitsgraden und Lösungsschlüssel in PDF- und JPEG-Formaten. Die drei Schwierigkeitsgrade innerhalb eines einzigen Generators ermöglichen gestufte Produktpakete, bei dem Verkäufer Material für unterschiedliche Lernstufen in einem einzigen Kauf erhalten.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale und feiertagsbezogene Sudoku-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Bilder-Sudoku-Sammlungen, die sich an den Haupt-Einkaufsperioden orientieren. Veröffentlichen Sie Halloween-Sudoku-Pakete im September, Weihnachts-Sammlungen im Oktober und Valentinstags-Rätsel im Januar. Mischen Sie alle drei Schwierigkeitsgrade innerhalb jedes saisonalen Sets für maximalen wahrgenommenen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe, da Käufer zu jeder neuen Saison frische Rätsel-Aktivitäten suchen.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
       {
         title: 'Globale Marktreichweite mit rein visuellen Rätseln',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Bilder-Sudoku-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilder-Sudoku-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die drei Schwierigkeitsgrade, 104 thematische Bildsammlungen und das rein visuelle Format geben Ihnen die kreativen Werkzeuge, um originale, weltweit verkaufbare Sudoku-Produkte zu erstellen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilder-Sudoku-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die drei Schwierigkeitsgrade, 104 thematische Bildsammlungen und das rein visuelle Format geben Ihnen die kreativen Werkzeuge, um originale, weltweit verkaufbare Sudoku-Produkte zu erstellen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'zweite-klasse-druckvorlagen-ideen',
-      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für Grundschüler',
+      anchorText: 'Zweite-Klasse Druckvorlagen-Ideen für K-2-Produktmarkt',
     },
     {
       pageType: 'start',

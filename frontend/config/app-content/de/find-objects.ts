@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Versteckte-Objekte-Generator für Ich-sehe-was- und Welches-passt-nicht-Aktivitäten',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Ich-sehe-was-Suchszenen mit überlappungsfreier Platzierung und Welches-passt-nicht-Reihen mit gepaarten Bildern — mit automatisch generierten Lösungsschlüsseln, adaptiver Bildgrößenanpassung, Namens- und Datumsfeldern und einer Legende am Seitenende.',
     description:
-      'Erstellen Sie professionelle Versteckte-Objekte-Arbeitsblätter, bei denen in einer verteilten Bilderszene bestimmte Objekte gesucht und eingekreist werden. Wählen Sie zwischen zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verwendet einen überlappungsfreien Platzierungsalgorithmus, um 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite zu verteilen — kein Raster, keine Zeilen und Spalten, sondern eine zusammenhängende Suchszene, generiert durch den findBestPosition()-Algorithmus, der 50 zufällige Positionen pro Bild testet und die Bildgröße adaptiv reduziert, wenn der Platz knapp wird. Eine Legende am unteren Rand des Arbeitsblatts (120px Abstand) zeigt genau, welche Objekte gefunden werden müssen. Der Welches-passt-nicht-Modus ordnet 8–12 gepaarte Bilder in Reihen an, mit 1–5 unpaaren Elementen dazwischen — die Aufgabe ist, Bilder ohne passenden Partner zu identifizieren. Bilder im Welches-passt-nicht-Modus sind 50 % größer als im Ich-sehe-was-Modus für deutlicheren visuellen Vergleich. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet rote Kreise um versteckte Objekte (Ich sehe was) oder unpaare Elemente (Welches passt nicht), 3–5px größer als das Objekt, für deutliche Sichtbarkeit. Der Versteckte-Objekte-Generator ist rein visuell: Die Spracheinstellung beeinflusst nur die Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Arbeitsblatt-Inhalt selbst. Jedes generierte Arbeitsblatt funktioniert universell in jeder Sprache ohne lokalisierten Text auf der Seite — ein Produkt, das weltweit in jedem Markt verkauft werden kann, ohne Anpassungen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen (~300 Bilder); Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Aktivieren Sie Namens- und Datumsfelder für Unterrichtseinsatz, passen Sie den automatisch angepassten Header mit 6 Schriftarten an und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu. Ob Sie thematische Suchbild-Pakete auf Etsy.de verkaufen, Ich-sehe-was-Arbeitsbücher für Amazon KDP zusammenstellen oder Welches-passt-nicht-Aktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Versteckte-Objekte-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Versteckte-Objekte-Arbeitsblätter, bei denen in einer verteilten Bilderszene bestimmte Objekte gesucht und eingekreist werden. Wählen Sie zwischen zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verwendet einen überlappungsfreien Platzierungsalgorithmus, um 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite zu verteilen — kein Raster, keine Zeilen und Spalten, sondern eine zusammenhängende Suchszene, generiert durch den findBestPosition()-Algorithmus, der 50 zufällige Positionen pro Bild testet und die Bildgröße adaptiv reduziert, wenn der Platz knapp wird. Eine Legende am unteren Rand des Arbeitsblatts (120px Abstand) zeigt genau, welche Objekte gefunden werden müssen. Der Welches-passt-nicht-Modus ordnet 8–12 gepaarte Bilder in Reihen an, mit 1–5 unpaaren Elementen dazwischen — die Aufgabe ist, Bilder ohne passenden Partner zu identifizieren. Bilder im Welches-passt-nicht-Modus sind 50 % größer als im Ich-sehe-was-Modus für deutlicheren visuellen Vergleich. Das Dual-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeichnet rote Kreise um versteckte Objekte (Ich sehe was) oder unpaare Elemente (Welches passt nicht), 3–5px größer als das Objekt, für deutliche Sichtbarkeit. Der Versteckte-Objekte-Generator ist rein visuell: Die Spracheinstellung beeinflusst nur die Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Arbeitsblatt-Inhalt selbst. Jedes generierte Arbeitsblatt funktioniert universell in jeder Sprache ohne lokalisierten Text auf der Seite — ein Produkt, das weltweit in jedem Markt verkauft werden kann, ohne Anpassungen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen (~300 Bilder); Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Aktivieren Sie Namens- und Datumsfelder für Geschäftseinsatz, passen Sie den automatisch angepassten Header mit 6 Schriftarten an und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Fügen Sie Hintergrundthemen und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu. Ob Sie thematische Suchbild-Pakete auf Etsy.de verkaufen, Ich-sehe-was-Arbeitsbücher für Amazon KDP zusammenstellen oder Welches-passt-nicht-Aktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Versteckte-Objekte-Arbeitsblätter in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierten Markierungen zu sehen: rote Kreise um versteckte Objekte (Ich-sehe-was-Modus) oder unpaare Elemente (Welches-passt-nicht-Modus), 3–5px größer als das Objekt für deutliche Sichtbarkeit. Laden Sie über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um die automatisch generierten Markierungen zu sehen: rote Kreise um versteckte Objekte (Ich-sehe-was-Modus) oder unpaare Elemente (Welches-passt-nicht-Modus), 3–5px größer als das Objekt für deutliche Sichtbarkeit. Laden Sie über die vier dedizierten Buttons im Dropdown-Menü herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Namens- und Datumsfelder mit Schalter-Steuerung',
         description:
-          'Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Unterrichtseinsatz und lassen Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten, bei denen Schülerinformationen auf dem Umschlag stehen. Die Felder werden sauber neben dem automatisch generierten Header und der Legende gerendert.',
+          'Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten, bei denen Nutzerinformationen auf dem Umschlag stehen. Die Felder werden sauber neben dem automatisch generierten Header und der Legende gerendert.',
       },
       {
         title: 'Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Versteckte-Objekte-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons im Dropdown-Menü exportieren Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Versteckte-Objekte-Arbeitsblätter und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI (6× Multiplikator) herunter. Vier dedizierte Download-Buttons im Dropdown-Menü exportieren Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Textwerkzeugen, Hintergrund- und Rahmenthemen',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Welches-passt-nicht-Arbeitsblätter für den Lehrermarktplatz',
+        title: 'Welches-passt-nicht-Arbeitsblätter für den Gumroad',
         description:
-          'Erstellen Sie sofort einsetzbare Welches-passt-nicht-Arbeitsblätter, bei denen unpaare Bilder unter gepaarten Sets identifiziert werden. Auf dem Lehrermarktplatz werden visuelle Unterscheidungs-Aktivitäten geschätzt, die Beobachtungsfähigkeit und logisches Denken fördern. Erstellen Sie thematische Sets: Bauernhof-Tiere Welches-passt-nicht, Formerkennung, saisonale Zuordnung und Lebensraum-Klassifikation. Aktivieren Sie Namens- und Datumsfelder für Zuordnung im Unterricht und stellen Sie Lösungsschlüssel bereit, die zeigen, welche Elemente unpaart waren. Jedes Set wird in PDF- und JPEG-Formaten exportiert für flexiblen Unterrichtseinsatz.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsetzbare Welches-passt-nicht-Arbeitsblätter, bei denen unpaare Bilder unter gepaarten Sets identifiziert werden. Auf dem Gumroad werden visuelle Unterscheidungs-Aktivitäten geschätzt, die Beobachtungsfähigkeit und logisches Denken fördern. Erstellen Sie thematische Sets: Bauernhof-Tiere Welches-passt-nicht, Formerkennung, saisonale Zuordnung und Lebensraum-Klassifikation. Aktivieren Sie Namens- und Datumsfelder für Zuordnung in der Produkterstellung und stellen Sie Lösungsschlüssel bereit, die zeigen, welche Elemente unpaart waren. Jedes Set wird in PDF- und JPEG-Formaten exportiert für flexiblen Geschäftseinsatz.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale Suchbild-Aktivitätssammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jeden saisonalen und Feiertagsanlass ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und mehr. Erstellen Sie aktuell verfügbare Suchbild-Sammlungen, die mit den Spitzen-Einkaufsperioden übereinstimmen. Veröffentlichen Sie Halloween-Suchbild-Pakete im September, Weihnachts-Suchbild-Sammlungen im Oktober und Valentinstag-Suchszenen im Januar. Kombinieren Sie sowohl Ich-sehe-was- als auch Welches-passt-nicht-Arbeitsblätter in jedem saisonalen Set für maximalen Mehrwert und breitere Kundenzielgruppe.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
       {
         title: 'Gemischte Ich-sehe-was- und Welches-passt-nicht-Vielfaltspakete',
         description:
           'Kombinieren Sie beide Aktivitätsmodi in Premium-Vielfaltspaketen. Jedes Paket enthält Ich-sehe-was-Suchszenen, in denen bestimmte Objekte in einer verteilten Szene gefunden werden, sowie Welches-passt-nicht-Arbeitsblätter, bei denen unpaare Elemente unter gepaarten Sets identifiziert werden. Diese Kombination zielt auf zwei verschiedene kognitive Fähigkeiten ab — visuelle Suche und visuelle Unterscheidung — in einem einzigen Produkt. Gemischte Pakete erzielen höhere Preise, weil sie mehr Aktivitätsvielfalt bieten und mehr Lernziele abdecken als Produkte mit nur einem Modus. Ideal für Dinosaurier-, Weltraum- oder Unterwasser-Themen als Premium-Komplettpakete.',
-        platform: 'Etsy / Lehrermarktplatz (Vielfaltspakete)',
+        platform: 'Etsy / Gumroad (Vielfaltspakete)',
       },
     ],
   },
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Kann ich Namens- und Datumsfelder zum Arbeitsblatt hinzufügen?',
       answer:
-        'Ja. Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Unterrichtseinsatz und lassen Ihre Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten.',
+        'Ja. Ein Kontrollkästchen im Text-und-Inhalt-Panel fügt „Name:“ und „Datum:“-Felder zum Arbeitsblatt hinzu. Diese Identifikationszeilen sorgen für Zuordnung im Geschäftseinsatz und lassen Ihre Arbeitsblätter professionell formatiert für Marktplatz-Listings erscheinen. Aktivieren Sie sie für unterrichtsfertige Produkte oder deaktivieren Sie sie für Aktivitätsbuch-Seiten.',
     },
     {
       question: 'Wie funktioniert der automatisch angepasste Header?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Versteckte-Objekte-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Versteckte-Objekte- und Suchbild-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Aktivitätsmodi, der überlappungsfreie Szenen-Algorithmus und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Suchbild-Produkte zu erstellen.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Versteckte-Objekte- und Suchbild-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Aktivitätsmodi, der überlappungsfreie Szenen-Algorithmus und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Suchbild-Produkte zu erstellen.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',

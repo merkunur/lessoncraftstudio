@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'druckbare Additions-Arbeitsblätter für Etsy',
       'Mathe-Arbeitsblatt-Generator für KDP',
-      'Additions-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Additions-Arbeitsblätter auf Gumroad verkaufen',
       'Additions-Druckvorlagen kommerzielle Lizenz',
     ],
     lsiKeywords: [
@@ -23,7 +23,7 @@ const content: AppContent = {
     title: 'Additions-Arbeitsblatt-Generator für visuelles Mathe-Lernen',
     tagline: 'Verwandeln Sie Addition in ein spannendes Abenteuer mit bildbasierten Mathe-Arbeitsblättern.',
     description:
-      'Erstellen Sie beeindruckende bildbasierte Additions-Arbeitsblätter, die frühe Mathematik greifbar und unterhaltsam machen. Wählen Sie aus vier verschiedenen Übungsmodi — Bild + Bild, Bild + Zahl, Summand finden und Gemischt — passend für jedes Niveau von der Vorschule bis zur zweiten Klasse. Stöbern Sie durch über 3.100 handverlesene Illustrationen in 104 Themen wie Bauernhoftiere, Fahrzeuge und Essen, um jede Aufgabe lebendig zu gestalten. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ob Sie auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Arbeitsblätter für Ihre eigenen Schüler erstellen — der Additions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie beeindruckende bildbasierte Additions-Arbeitsblätter, die frühe Mathematik greifbar und unterhaltsam machen. Wählen Sie aus vier verschiedenen Übungsmodi — Bild + Bild, Bild + Zahl, Summand finden und Gemischt — passend für jedes Niveau von der Vorschule bis zur zweiten Klasse. Stöbern Sie durch über 3.100 handverlesene Illustrationen in 104 Themen wie Bauernhoftiere, Fahrzeuge und Essen, um jede Aufgabe lebendig zu gestalten. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel, und Sie können druckfertige PDFs in Letter, A4 oder benutzerdefinierten Größen mit über 400 DPI exportieren. Ob Sie auf Etsy verkaufen, Aktivitätsbücher auf Amazon KDP veröffentlichen oder Arbeitsblätter für Ihren eigenen Shop erstellen — der Additions-Arbeitsblatt-Generator liefert professionelle Ergebnisse in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -37,17 +37,17 @@ const content: AppContent = {
       {
         title: 'Übungsmodus und Zahlenbereich konfigurieren',
         description:
-          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der vier Modi. Bild + Bild zeigt zwei Bildergruppen, die Schüler zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer. Summand finden zeigt die Summe und eine Gruppe — Schüler müssen den fehlenden Teil ermitteln. Der Gemischte Modus randomisiert alle drei für abwechslungsreiches Üben. Legen Sie die minimale und maximale Anzahl pro Gruppe fest (1–10) und bestimmen Sie, wie viele Aufgaben pro Seite erscheinen (1–10).',
+          'Öffnen Sie die Übungskonfiguration und wählen Sie einen der vier Modi. Bild + Bild zeigt zwei Bildergruppen, die Nutzer zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer. Summand finden zeigt die Summe und eine Gruppe — Nutzer müssen den fehlenden Teil ermitteln. Der Gemischte Modus randomisiert alle drei für abwechslungsreiches Üben. Legen Sie die minimale und maximale Anzahl pro Gruppe fest (1–10) und bestimmen Sie, wie viele Aufgaben pro Seite erscheinen (1–10).',
       },
       {
         title: 'Bilder aus der Themenbibliothek auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Klicken Sie, um die gewünschten Bilder für Ihr Arbeitsblatt auszuwählen; jede Aufgabe nutzt Ihre Auswahl. Sie können auch eigene Bilder hochladen, um einen einzigartigen Look zu erzielen, der zu Ihrer Marke oder Ihrem Unterrichtsthema passt.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchstöbern Sie 104 Themen — von Tieren und Essen bis hin zu Fahrzeugen und Feiertagen. Nutzen Sie die Suchleiste, um bestimmte Bilder sofort zu finden. Klicken Sie, um die gewünschten Bilder für Ihr Arbeitsblatt auszuwählen; jede Aufgabe nutzt Ihre Auswahl. Sie können auch eigene Bilder hochladen, um einen einzigartigen Look zu erzielen, der zu Ihrer Marke oder Ihrem Produktthema passt.',
       },
       {
         title: 'Text, Titel und individuelle Anpassungen',
         description:
-          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Schülername und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben kindgerechten Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand. Passen Sie Schriftgröße, Farbe und Kontur für optimale Lesbarkeit an. Schalten Sie Aufgabennummern, das Pluszeichen zwischen Bildergruppen und das kindgerechte Antwortfeld nach Bedarf ein oder aus.',
+          'Verwenden Sie das Textwerkzeug-Panel, um einen Arbeitsblatt-Titel, Felder für Name und Datum, Anweisungen oder beliebigen Text hinzuzufügen. Wählen Sie aus sieben ansprechenden Schriftarten wie Lexend Deca, Baloo 2, Fredoka und Quicksand. Passen Sie Schriftgröße, Farbe und Kontur für optimale Lesbarkeit an. Schalten Sie Aufgabennummern, das Pluszeichen zwischen Bildergruppen und das ansprechende Antwortfeld nach Bedarf ein oder aus.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
@@ -63,22 +63,22 @@ const content: AppContent = {
       {
         title: 'Vier verschiedene Übungsmodi',
         description:
-          'Wählen Sie den Modus passend zum Niveau Ihrer Schüler. Der Bild + Bild-Modus nutzt zwei Bildergruppen für reines visuelles Zählen — ideal für Vorschüler, die gerade Addieren lernen. Der Bild + Zahl-Modus verbindet Bilder mit Ziffern und schafft die Brücke zwischen konkretem und abstraktem Denken. Der Summand-finden-Modus zeigt die Summe und eine Gruppe und fördert frühes algebraisches Denken. Der Gemischte Modus kombiniert alle drei für abwechslungsreiches Üben ohne Wiederholung.',
+          'Wählen Sie den Modus passend zum Niveau Ihrer Nutzer. Der Bild + Bild-Modus nutzt zwei Bildergruppen für reines visuelles Zählen — ideal für Vorschul-Nische, die gerade Addieren lernen. Der Bild + Zahl-Modus verbindet Bilder mit Ziffern und schafft die Brücke zwischen konkretem und abstraktem Denken. Der Summand-finden-Modus zeigt die Summe und eine Gruppe und fördert frühes algebraisches Denken. Der Gemischte Modus kombiniert alle drei für abwechslungsreiches Üben ohne Wiederholung.',
       },
       {
         title: 'Einstellbare Zahlenbereiche',
         description:
-          'Legen Sie die minimale und maximale Anzahl pro Gruppe von 1 bis 10 fest und behalten Sie die volle Kontrolle über den Schwierigkeitsgrad. Erstellen Sie sanfte 1+1- bis 3+3-Arbeitsblätter für Vorschüler, Standard-Übungen von 1–10 für den Kindergarten oder anspruchsvolle Aufgaben nahe der Zehn für die erste und zweite Klasse. Die Anpassung erfolgt mit einem einzigen Klick, sodass Sie in wenigen Minuten differenzierten Unterricht für eine ganze Klasse erstellen.',
+          'Legen Sie die minimale und maximale Anzahl pro Gruppe von 1 bis 10 fest und behalten Sie die volle Kontrolle über den Schwierigkeitsgrad. Erstellen Sie sanfte 1+1- bis 3+3-Arbeitsblätter für Vorschul-Nische, Standard-Übungen von 1–10 für den Kindergarten oder anspruchsvolle Aufgaben nahe der Zehn für die erste und zweite Klasse. Die Anpassung erfolgt mit einem einzigen Klick, sodass Sie in wenigen Minuten gestufte Produktpakete für eine ganze Klasse erstellen.',
       },
       {
         title: '104 visuelle Themen mit 3.100+ Bildern',
         description:
-          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, kindgerechten Druck gestaltet. Da die Bilder den Mathe-Inhalt tragen — nicht Text — funktionieren Ihre Arbeitsblätter in jeder Sprache und jedem Klassenzimmer weltweit.',
+          'Durchstöbern Sie eine kuratierte Bibliothek mit über 3.100 handverlesenen Illustrationen in 104 Themen: Bauernhoftiere, Meerestiere, Fahrzeuge, Weltraum, Essen, Sport, Dinosaurier, Feiertage und mehr. Jedes Bild ist hochauflösend und für klaren, ansprechenden Druck gestaltet. Da die Bilder den Mathe-Inhalt tragen — nicht Text — funktionieren Ihre Arbeitsblätter in jeder Sprache und jedem Shop weltweit.',
       },
       {
         title: 'Automatische Lösungsschlüssel-Erstellung',
         description:
-          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen eingetragenen Lösungen widerspiegelt. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit vor dem Download überprüfen können. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Lehrerausgaben, Elternleitfäden oder Etsy-Produktpakete.',
+          'Klicken Sie einen Button, um einen vollständigen Lösungsschlüssel zu erstellen, der Ihr Arbeitsblatt-Layout mit allen eingetragenen Lösungen widerspiegelt. Der Lösungsschlüssel-Tab zeigt eine Live-Vorschau, damit Sie die Richtigkeit vor dem Download überprüfen können. Exportieren Sie den Lösungsschlüssel als separate JPEG- oder PDF-Datei — ideal für Etsy-Pakete, Elternleitfäden oder Etsy-Produktpakete.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 400+ DPI',
@@ -93,7 +93,7 @@ const content: AppContent = {
       {
         title: 'Dekorative Rahmen und Hintergrundthemen',
         description:
-          'Verwandeln Sie Ihre Arbeitsblätter von schlicht zu professionell mit dekorativen Rahmen und Hintergrundbildern aus derselben 104-Themen-Bibliothek. Passen Sie die Deckkraft von Rahmen und Hintergrund unabhängig voneinander an, damit die visuellen Elemente das Design bereichern, ohne vom Mathe-Inhalt abzulenken. Die Kombination aus saisonalem Rahmen und getöntem Hintergrund ergibt thematische Arbeitsblatt-Sets, die auf Etsy und Lehrermarktplatz höhere Preise erzielen.',
+          'Verwandeln Sie Ihre Arbeitsblätter von schlicht zu professionell mit dekorativen Rahmen und Hintergrundbildern aus derselben 104-Themen-Bibliothek. Passen Sie die Deckkraft von Rahmen und Hintergrund unabhängig voneinander an, damit die visuellen Elemente das Design bereichern, ohne vom Mathe-Inhalt abzulenken. Die Kombination aus saisonalem Rahmen und getöntem Hintergrund ergibt thematische Arbeitsblatt-Sets, die auf Etsy und Gumroad höhere Preise erzielen.',
       },
       {
         title: 'Volle Canvas-Bearbeitung mit Rückgängig und Wiederherstellen',
@@ -109,7 +109,7 @@ const content: AppContent = {
       {
         title: 'Thematische Additions-Arbeitsblatt-Pakete auf Etsy',
         description:
-          'Erstellen Sie Sets mit 10–20 Additions-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy. Fügen Sie den Lösungsschlüssel als Bonusdatei bei. Thematische Pakete sprechen Eltern an, die nach bestimmten Interessen suchen, und Lehrkräfte, die unterrichtsfertige Materialien benötigen. Einzelne Themen kosten €3–€5, Mega-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
+          'Erstellen Sie Sets mit 10–20 Additions-Arbeitsblättern, gruppiert nach Thema — Bauernhoftiere, Dinosaurier, Meerestiere, Feiertage — und listen Sie diese als Sofort-Download-Pakete auf Etsy. Fügen Sie den Lösungsschlüssel als Bonusdatei bei. Thematische Pakete sprechen Eltern an, die nach bestimmten Interessen suchen, und Verkäufer, die unterrichtsfertige Materialien benötigen. Einzelne Themen kosten €3–€5, Mega-Pakete €12–€18 für einen starken durchschnittlichen Bestellwert.',
         platform: 'Etsy (etsy.de)',
       },
       {
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differenzierte Mathe-Stationen für Lehrermarktplatz',
+        title: 'Gestufte Schwierigkeitspakete für Gumroad',
         description:
-          'Erstellen Sie gestufte Additions-Übungssets mit den vier Übungsmodi: Stufe 1 (Bild + Bild, Bereich 1–3), Stufe 2 (Bild + Zahl, Bereich 1–5), Stufe 3 (Summand finden, Bereich 1–7) und Stufe 4 (Gemischt, Bereich 1–10). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Lehrermarktplatz zahlen Premiumpreise für differenzierte Materialien, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie gestufte Additions-Übungssets mit den vier Übungsmodi: Stufe 1 (Bild + Bild, Bereich 1–3), Stufe 2 (Bild + Zahl, Bereich 1–5), Stufe 3 (Summand finden, Bereich 1–7) und Stufe 4 (Gemischt, Bereich 1–10). Jede Stufe mit Lösungsschlüssel und Fortschrittsblatt verpacken. Käufer auf Gumroad zahlen Premiumpreise für gestufte Materialien, die sie sofort über mehrere Leistungsgruppen hinweg einsetzen können.',
+        platform: 'Gumroad',
       },
       {
         title: 'Abo-Inhalte für den eigenen Online-Shop',
         description:
-          'Nutzen Sie den Generator, um wöchentlich frische Additions-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Nachhilfezentren auf. Die vier Übungsmodi und 104 Themen bieten genug Vielfalt für jahrelangen einzigartigen Content.',
+          'Nutzen Sie den Generator, um wöchentlich frische Additions-Arbeitsblatt-Pakete zu erstellen und über Ihren eigenen Shopify-, Gumroad- oder Payhip-Shop zu vertreiben. Ein Abo-Modell — jede Woche ein neues thematisches Paket — erzeugt wiederkehrende Einnahmen und baut eine treue Kundschaft aus Homeschool-Familien und Geschäftzentren auf. Die vier Übungsmodi und 104 Themen bieten genug Vielfalt für jahrelangen einzigartigen Content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Arbeitsblätter für Unterricht und Nachhilfe',
+        title: 'Arbeitsblätter für Produkterstellung und Geschäft',
         description:
-          'Erstellen Sie maßgeschneiderte Additions-Arbeitsblätter für das aktuelle Niveau jedes Schülers. Drucken Sie Bild + Bild-Blätter für Anfänger und Summand-finden-Blätter für Fortgeschrittene — alles in einer Sitzung. Der automatische Lösungsschlüssel spart Korrekturzeit. Ob Sie ein Nachhilfezentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeit durch wenige Klicks.',
-        platform: 'Klassenzimmer / Nachhilfe / Heimunterricht',
+          'Erstellen Sie maßgeschneiderte Additions-Arbeitsblätter für das aktuelle Niveau jedes Nutzers. Drucken Sie Bild + Bild-Blätter für Anfänger und Summand-finden-Blätter für Fortgeschrittene — alles in einer Sitzung. Der automatische Lösungsschlüssel spart wahrgenommenen Mehrwert. Ob Sie ein Ihr Geschäftzentrum betreiben, eine Grundschulklasse unterrichten oder Ihre eigenen Kinder zu Hause unterrichten — der Generator ersetzt stundenlange manuelle Arbeit durch wenige Klicks.',
+        platform: 'Gumroad / Shopify / Eigener Shop',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'Welche Übungsmodi bietet der Additions-Arbeitsblatt-Generator?',
       answer:
-        'Der Generator umfasst vier Modi: Bild + Bild (zwei Bildergruppen zum Zählen und Addieren), Bild + Zahl (eine Bildergruppe plus eine Ziffer), Summand finden (die Summe wird angezeigt und Schüler ermitteln die fehlende Gruppe) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frührem algebraischem Denken. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
+        'Der Generator umfasst vier Modi: Bild + Bild (zwei Bildergruppen zum Zählen und Addieren), Bild + Zahl (eine Bildergruppe plus eine Ziffer), Summand finden (die Summe wird angezeigt und Nutzer ermitteln die fehlende Gruppe) und Gemischter Modus (randomisiert alle drei). Jeder Modus zielt auf ein anderes Fähigkeitsniveau ab, von reinem visuellem Zählen bis hin zu frührem algebraischem Denken. Der Canvas-Editor mit professionellen Typografie-Optionen einschließlich Baloo, Fredoka, Lexend Deca, Nunito und Quicksand Schriftarten verleiht Ihren Arbeitsblättern ein poliertes, unverwechselbares Erscheinungsbild, das sie von amateurhaft wirkenden Alternativen unterscheidet.',
     },
     {
       question: 'Welche Zahlenbereiche kann ich für Additionsaufgaben einstellen?',
       answer:
-        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 festlegen. So erstellen Sie einfache Aufgaben wie 1+1 für Vorschüler oder anspruchsvolle Summen nahe 10+10 für die erste und zweite Klasse. Die Anpassung erfolgt über zwei einfache Eingabefelder im Übungskonfigurations-Panel. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
+        'Sie können die minimale und maximale Anzahl pro Gruppe von 1 bis 10 festlegen. So erstellen Sie einfache Aufgaben wie 1+1 für Vorschul-Nische oder anspruchsvolle Summen nahe 10+10 für die erste und zweite Klasse. Die Anpassung erfolgt über zwei einfache Eingabefelder im Übungskonfigurations-Panel. Anpassbare Seitengrößen einschließlich Letter, A4 und quadratischer Formate ermöglichen es Ihnen, Kunden weltweit zu bedienen, ohne separate Produktversionen pflegen zu müssen, was Ihren Produktionsablauf erheblich vereinfacht.',
     },
     {
       question: 'Wie viele Bilder und Themen sind verfügbar?',
@@ -158,7 +158,7 @@ const content: AppContent = {
     {
       question: 'Erstellt der Generator automatisch Lösungsschlüssel?',
       answer:
-        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Summen zu erstellen. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei neben dem Schüler-Arbeitsblatt herunterladen. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Unterstützung von elf Sprachen — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — macht es möglich, mit einem einzigen Generator Produkte für nahezu jeden europäischen Bildungsmarkt zu erstellen.',
+        'Ja. Klicken Sie auf den Button Lösungsschlüssel generieren, um eine ausgefüllte Version Ihres Arbeitsblatts mit allen korrekten Summen zu erstellen. Sie können den Lösungsschlüssel am Bildschirm in der Vorschau ansehen und als separate JPEG- oder PDF-Datei neben dem Nutzer-Arbeitsblatt herunterladen. Die Themenbibliothek mit über dreitausend Illustrationen in einhundervier Kategorien bietet genügend visuelle Vielfalt, um einzigartige Arbeitsblatt-Sets zu erstellen, die sich von Wettbewerbern abheben, die generische Clip-Art oder Stock-Illustrationen verwenden. Die Unterstützung von elf Sprachen — Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch — macht es möglich, mit einem einzigen Generator Produkte für nahezu jeden europäischen Bildungsmarkt zu erstellen.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate werden unterstützt?',
@@ -178,17 +178,17 @@ const content: AppContent = {
     {
       question: 'Gibt es eine kostenlose Testversion?',
       answer:
-        'Ja. Sie können jede Funktion des Generators nutzen — alle vier Übungsmodi, die vollständige Bildbibliothek, Lösungsschlüssel-Erstellung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Lehrkräften und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
+        'Ja. Sie können jede Funktion des Generators nutzen — alle vier Übungsmodi, die vollständige Bildbibliothek, Lösungsschlüssel-Erstellung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen. Die integrierte Graustufen-Option ermöglicht tintenfreundlichen Druck, was bei Verkäufern und Eltern besonders geschätzt wird, die regelmäßig große Mengen an Arbeitsblättern ausdrucken und dabei Druckkosten minimieren möchten.',
     },
     {
       question: 'Was beinhaltet die kommerzielle Lizenz?',
       answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Lehrermarktplatz, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
+        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Additions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Die Möglichkeit, eigene Bilder hochzuladen, erweitert Ihre kreative Flexibilität erheblich. Sie können markenspezifische Illustrationen, lizenzierte Clipart-Sets oder benutzerdefinierte Fotografien verwenden, um völlig einzigartige Produkte zu erstellen, die kein anderer Verkäufer replizieren kann.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Additions-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg. Die Möglichkeit, eigene Bilder hochzuladen, erweitert Ihre kreative Flexibilität erheblich. Sie können markenspezifische Illustrationen, lizenzierte Clipart-Sets oder benutzerdefinierte Fotografien verwenden, um völlig einzigartige Produkte zu erstellen, die kein anderer Verkäufer replizieren kann.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -198,7 +198,7 @@ const content: AppContent = {
     {
       question: 'Muss ich Software installieren?',
       answer:
-        'Nein. Der Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Lehrkräfte umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
+        'Nein. Der Additions-Arbeitsblatt-Generator läuft vollständig in Ihrem Webbrowser. Es gibt nichts herunterzuladen, zu installieren oder zu aktualisieren. Er funktioniert in jedem modernen Desktop-Browser, einschließlich Chrome, Firefox, Safari und Edge. Öffnen Sie einfach die Seite und legen Sie los. Dieser Ansatz stellt sicher, dass Sie jede Funktion, jedes Exportformat und jede Themenkombination vor einer Kaufentscheidung vollständig bewerten können, was Ihnen vollständiges Vertrauen in Ihre Investition gibt. Verkäufer, die mehrere Übungsmodi in thematischen Bündeln kombinieren, erzielen durchweg höhere durchschnittliche Bestellwerte, da Eltern und Verkäufer umfassende Aktivitätspakete gegenüber einzelnen Arbeitsblattseiten bevorzugen.',
     },
   ],
 
@@ -236,7 +236,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'mathe-grundlagen-druckvorlagen-ideen',
-      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Pädagogen & Verkäufer',
+      anchorText: 'Mathe-Fakten Druckvorlagen-Ideen für Verkäufer & Verkäufer',
     },
     {
       pageType: 'idea',
@@ -259,7 +259,7 @@ const content: AppContent = {
       {
         src: '/samples/german/addition/Additionsspa 1.webp',
         alt: 'Hochformat-Additions-Arbeitsblatt im Bild + Bild-Modus mit Tierthema',
-        caption: 'Bild + Bild-Modus — Schüler zählen zwei Bildergruppen und schreiben die Summe',
+        caption: 'Bild + Bild-Modus — Nutzer zählen zwei Bildergruppen und schreiben die Summe',
       },
       {
         src: '/samples/german/addition/Additionsspa 2.webp',
@@ -269,7 +269,7 @@ const content: AppContent = {
       {
         src: '/samples/german/addition/Additionsspa 3.webp',
         alt: 'Additions-Arbeitsblatt im Summand-finden-Modus mit Fahrzeugthema',
-        caption: 'Summand-finden-Modus — Schüler ermitteln die fehlende Gruppe für frühe Algebra',
+        caption: 'Summand-finden-Modus — Nutzer ermitteln die fehlende Gruppe für frühe Algebra',
       },
     ],
     youtubeId: '6O5aCzHkh8M',

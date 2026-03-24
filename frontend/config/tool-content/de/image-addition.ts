@@ -1,9 +1,9 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'Additions-Arbeitsblätter für den Unterricht erstellen',
+    primaryKeyword: 'Additions-Arbeitsblätter für die Produkterstellung erstellen',
     secondaryKeywords: [
-      'Additions-Arbeitsblatt-Ersteller für Lehrer',
+      'Additions-Arbeitsblatt-Ersteller für Verkäufer',
       'Mathe-Additions-Arbeitsblätter für Kinder',
       'druckbare Additionsübungen',
       'Bild-Additions-Arbeitsblätter für die Vorschule',
@@ -11,16 +11,16 @@ const content: ToolContent = {  seo: {
     lsiKeywords: [
       'visuelle Mathe-Arbeitsblätter für die Klasse',
       'bildbasierte Additionsübungen für Kinder',
-      'Vorschul-Mathe-Arbeitsblätter für Lehrer',
+      'Vorschul-Mathe-Arbeitsblätter für Verkäufer',
     ],
-    titleTag: 'Additions-Arbeitsblätter Erstellen — Für Lehrer',
-    metaDescription: 'Additions-Arbeitsblätter mit Themenbildern für den Unterricht erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen.',
+    titleTag: 'Additions-Arbeitsblätter Erstellen — Für Verkäufer',
+    metaDescription: 'Additions-Arbeitsblätter mit Themenbildern für die Produkterstellung erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen.',
     },
 
   hero: {
     title: 'Additions-Arbeitsblatt-Ersteller',
     tagline: 'Erstellen Sie professionelle, bildbasierte Additions-Arbeitsblätter in unter 60 Sekunden',
-    description: 'Verwandeln Sie Mathe-Übungen in ein visuelles Erlebnis, das Kinder begeistert und Verkäufern solide Einnahmen bringt. Mit diesem leistungsstarken Tool erstellen Sie individuelle Additions-Arbeitsblätter mit thematischen Bildern, die Kinder wirklich gerne bearbeiten. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Perfekt für Etsy.de-Verkäufer, die druckbare Mathe-Produkte erstellen und skalierbares Einkommen generieren möchten, Amazon-KDP-Verleger, die Aktivitätsbücher zusammenstellen, und Lehrermarktplatz-Anbieter, die differenzierte Übungsmaterialien für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter auf jeder Plattform kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Mathe-Übungen in ein visuelles Erlebnis, das Kinder begeistert und Verkäufern solide Einnahmen bringt. Mit diesem leistungsstarken Tool erstellen Sie individuelle Additions-Arbeitsblätter mit thematischen Bildern, die Kinder wirklich gerne bearbeiten. Wählen Sie aus über 100 Bildthemen mit mehr als 3.100 handverlesenen Illustrationen, legen Sie den Schwierigkeitsgrad über vier verschiedene Übungsmodi fest, bestimmen Sie Ihr Seitenlayout bis ins kleinste Detail und laden Sie druckfertige PDFs oder hochauflösende JPEGs mit über 400 DPI herunter. Perfekt für Etsy.de-Verkäufer, die druckbare Mathe-Produkte erstellen und skalierbares Einkommen generieren möchten, Amazon-KDP-Verleger, die Aktivitätsbücher zusammenstellen, und Gumroad-Anbieter, die gestufte Übungsmaterialien für verschiedene Leistungsstufen benötigen. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine kommerzielle Lizenz, um das Wasserzeichen zu entfernen und Ihre erstellten Arbeitsblätter auf jeder Plattform kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -32,11 +32,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Den Übungsmodus wählen',
-        description: 'Öffnen Sie das Panel „Übungskonfiguration“ und wählen Sie aus vier leistungsstarken Modi: Bild + Bild zeigt beide Summanden als Bildergruppen, sodass Schüler rein visuell zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Summand finden zeigt die Summe und eine Gruppe — der fehlende Teil muss ermittelt werden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
+        description: 'Öffnen Sie das Panel „Übungskonfiguration“ und wählen Sie aus vier leistungsstarken Modi: Bild + Bild zeigt beide Summanden als Bildergruppen, sodass Nutzer rein visuell zählen und addieren. Bild + Zahl kombiniert eine Bildergruppe mit einer Ziffer und schafft die Brücke zwischen konkretem und abstraktem Denken. Summand finden zeigt die Summe und eine Gruppe — der fehlende Teil muss ermittelt werden, was frühes algebraisches Denken fördert. Der Gemischte Modus kombiniert alle drei Stile zufällig auf einem einzigen Blatt für maximale Abwechslung.',
       },
       {
         title: 'Den Schwierigkeitsgrad einstellen',
-        description: 'Passen Sie die Regler für „Minimale Anzahl pro Gruppe“ und „Maximale Anzahl pro Gruppe“ an, um den Zahlenbereich präzise zu steuern. Für Vorschüler empfehlen sich Zahlenbereiche von 1–3, für den Kindergarten 1–5 und für Erstklassen 1–10. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite. So erstellen Sie schnell differenzierte Materialien für verschiedene Leistungsstufen.',
+        description: 'Passen Sie die Regler für „Minimale Anzahl pro Gruppe“ und „Maximale Anzahl pro Gruppe“ an, um den Zahlenbereich präzise zu steuern. Für Vorschul-Nische empfehlen sich Zahlenbereiche von 1–3, für den Kindergarten 1–5 und für Erstklassen 1–10. Legen Sie außerdem die Anzahl der Aufgaben pro Arbeitsblatt fest — von einer einzelnen großen Aufgabe bis zu 10 kompakten Übungen pro Seite. So erstellen Sie schnell gestufte Materialien für verschiedene Leistungsstufen.',
       },
       {
         title: 'Ein Thema aus der Bildbibliothek auswählen',
@@ -48,11 +48,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Text und Titel hinzufügen',
-        description: 'Verwenden Sie das Panel „Textwerkzeuge“, um einen aussagekräftigen Titel, ein Namensfeld für Schüler, ein Datumsfeld oder individuelle Anweisungen hinzuzufügen. Wählen Sie aus kindgerechten Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
+        description: 'Verwenden Sie das Panel „Textwerkzeuge“, um einen aussagekräftigen Titel, ein Namensfeld für Nutzer, ein Datumsfeld oder individuelle Anweisungen hinzuzufügen. Wählen Sie aus ansprechenden Schriftarten wie Fredoka, Baloo 2, Quicksand und Nunito. Passen Sie Schriftgröße, Farbe und optionale Textkontur für bessere Lesbarkeit über Hintergründen präzise an. Fügen Sie Ihren Shopnamen oder einen Urheberrechtshinweis hinzu, um Ihre Marke auf jedem Arbeitsblatt sichtbar zu machen.',
       },
       {
         title: 'Arbeitsblatt-Optionen feinabstimmen',
-        description: 'Optimieren Sie Ihr Arbeitsblatt mit praktischen Kontrollkästchen: Aktivieren Sie Name- und Datumsfelder oben auf der Seite, zeigen oder verbergen Sie das Pluszeichen zwischen den Bildergruppen, fügen Sie fortlaufende Aufgabennummern hinzu und schalten Sie das kindgerechte Antwortfeld-Design ein oder aus. Jede einzelne Änderung aktualisiert die Live-Vorschau auf der Arbeitsfläche sofort, sodass Sie das Ergebnis in Echtzeit bewerten können.',
+        description: 'Optimieren Sie Ihr Arbeitsblatt mit praktischen Kontrollkästchen: Aktivieren Sie Name- und Datumsfelder oben auf der Seite, zeigen oder verbergen Sie das Pluszeichen zwischen den Bildergruppen, fügen Sie fortlaufende Aufgabennummern hinzu und schalten Sie das ansprechende Antwortfeld-Design ein oder aus. Jede einzelne Änderung aktualisiert die Live-Vorschau auf der Arbeitsfläche sofort, sodass Sie das Ergebnis in Echtzeit bewerten können.',
       },
       {
         title: 'Generieren und herunterladen',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Thematische Additions-Aktivitätspakete',
-      description: 'Erstellen Sie ein Set mit 10–20 Arbeitsblättern rund um ein einzelnes Thema — Dinosaurier, Bauernhoftiere oder Meerestiere. Bündeln Sie diese als PDF-Aktivitätspaket und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Thematische Pakete sind bei Eltern und Lehrkräften besonders beliebt, weil sie Kinder länger motiviert halten und einen klaren inhaltlichen Rahmen bieten. Einzelpakete lassen sich für 3–5 € verkaufen, Mega-Pakete mit mehreren Themen für 12–18 €.',
+      description: 'Erstellen Sie ein Set mit 10–20 Arbeitsblättern rund um ein einzelnes Thema — Dinosaurier, Bauernhoftiere oder Meerestiere. Bündeln Sie diese als PDF-Aktivitätspaket und verkaufen Sie auf Etsy.de oder Gumroad. Thematische Pakete sind bei Eltern und Verkäufern besonders beliebt, weil sie Kinder länger motiviert halten und einen klaren inhaltlichen Rahmen bieten. Einzelpakete lassen sich für 3–5 € verkaufen, Mega-Pakete mit mehreren Themen für 12–18 €.',
     },
     {
       title: 'Differenzierte Hausaufgaben-Sets',
-      description: 'Generieren Sie drei Versionen desselben Arbeitsblatts auf verschiedenen Schwierigkeitsstufen: leicht (Zahlenbereich 1–3), mittel (1–5) und schwer (1–10). Lehrkräfte können jedem Schüler das passende Niveau zuteilen, ohne zusätzliche Vorbereitungszeit aufzuwenden. Differenzierte Sets erzielen auf dem Lehrermarktplatz höhere Preise, weil Käufer den Mehrwert sofort erkennen und die Materialien direkt in heterogenen Klassen einsetzen können.',
+      description: 'Generieren Sie drei Versionen desselben Arbeitsblatts auf verschiedenen Schwierigkeitsstufen: leicht (Zahlenbereich 1–3), mittel (1–5) und schwer (1–10). Verkäufer können jedem Nutzer das passende Niveau zuteilen, ohne zusätzliche Vorbereitungszeit aufzuwenden. Gestufte Sets erzielen auf Gumroad höhere Preise, weil Käufer den Mehrwert sofort erkennen und die Materialien direkt in heterogenen Klassen einsetzen können.',
     },
     {
       title: 'Saisonale Mathe-Bündel',
@@ -79,8 +79,8 @@ const content: ToolContent = {  seo: {
       description: 'Generieren Sie 50–100 Seiten Additions-Arbeitsblätter im Gemischten Modus mit progressiver Schwierigkeit, exportieren Sie als hochauflösende PDFs und veröffentlichen Sie als Low-Content-Mathe-Arbeitsbuch auf Amazon KDP. Das Quadratformat (1200×1200 Pixel) eignet sich hervorragend für KDP-Aktivitätsbücher. Fügen Sie ein ansprechendes Titelblatt, eine Anleitung und einen Lösungsteil am Ende hinzu. KDP-Aktivitätsbücher für Kinder im Alter von 3–7 Jahren verkaufen sich das ganze Jahr über konstant.',
     },
     {
-      title: 'Morgenroutine-Pakete für den Unterricht',
-      description: 'Erstellen Sie einen Monat täglicher Additions-Aufwärmübungen mit 20–25 Arbeitsblättern. Jedes Arbeitsblatt dauert 5–10 Minuten und eignet sich perfekt als Morgenarbeit nach dem Klingeln oder als stille Beschäftigung während Vertretungsstunden. Fügen Sie den Lösungsschlüssel bei, damit Schüler sich selbst kontrollieren können. Monatspakete lassen sich als Abo-Produkt vermarkten und schaffen wiederkehrende Einnahmen.',
+      title: 'Morgenroutine-Pakete für die Produkterstellung',
+      description: 'Erstellen Sie einen Monat täglicher Additions-Aufwärmübungen mit 20–25 Arbeitsblättern. Jedes Arbeitsblatt dauert 5–10 Minuten und eignet sich perfekt als Morgenarbeit nach dem Klingeln oder als stille Beschäftigung während Vertretungsstunden. Fügen Sie den Lösungsschlüssel bei, damit Nutzer sich selbst kontrollieren können. Monatspakete lassen sich als Abo-Produkt vermarkten und schaffen wiederkehrende Einnahmen.',
     },
     {
       title: 'Mehrsprachige Mathe-Arbeitsblätter',
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy.de',
     },
     {
-      title: 'Lehrmaterial-Anbieter auf Lehrermarktplatz',
-      description: 'Laden Sie differenzierte Additions-Arbeitsblatt-Pakete auf den Lehrermarktplatz hoch. Lehrkräfte im deutschsprachigen Raum suchen ständig nach „Additionsaufgaben mit Bildern“ und „visuelle Mathe-Übungen“. Fügen Sie Lösungsschlüssel, eine kurze Lehreranleitung und Differenzierungshinweise zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Lehrmaterial-Anbieter auf Gumroad',
+      description: 'Laden Sie gestufte Additions-Arbeitsblatt-Pakete auf den Gumroad hoch. Verkäufer im deutschsprachigen Raum suchen ständig nach „Additionsaufgaben mit Bildern“ und „visuelle Mathe-Übungen“. Fügen Sie Lösungsschlüssel, eine kurze Verkäuferanleitung und Differenzierungshinweise zu jeder Datei hinzu, um den wahrgenommenen Wert deutlich zu erhöhen und bessere Bewertungen sowie Wiederholungskäufe zu erzielen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Aktivitätsbücher auf Amazon KDP',
@@ -106,16 +106,16 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Homeschool-Lernmaterial-Ergänzung',
-      description: 'Erstellen Sie ein strukturiertes 12-Wochen-Additions-Curriculum mit progressivem Schwierigkeitsgrad, das von einfachen Bild + Bild-Übungen im Zahlenraum 1–3 bis hin zu anspruchsvollen Summand-finden-Aufgaben im Zahlenraum 1–10 reicht. Verkaufen Sie das fertige Curriculum als digitalen Download auf Ihrer eigenen Website oder über Gumroad. Homeschool-Familien im deutschsprachigen Raum suchen aktiv nach handlungsorientierten, visuellen Mathe-Materialien für den Heimunterricht.',
+      description: 'Erstellen Sie ein strukturiertes 12-Wochen-Additions-Produktkatalog mit progressivem Schwierigkeitsgrad, das von einfachen Bild + Bild-Übungen im Zahlenraum 1–3 bis hin zu anspruchsvollen Summand-finden-Aufgaben im Zahlenraum 1–10 reicht. Verkaufen Sie das fertige Produktkatalog als digitalen Download auf Ihrer eigenen Website oder über Gumroad. Homeschool-Familien im deutschsprachigen Raum suchen aktiv nach handlungsorientierten, visuellen Mathe-Materialien für den Eigenem Shop.',
       platform: 'Gumroad',
     },
     {
-      title: 'Ressourcen-Bibliothek für Nachhilfe und Förderunterricht',
-      description: 'Wenn Sie ein Nachhilfezentrum oder Förderunterricht betreiben, generieren Sie individuelle Arbeitsblätter für jede Schülersitzung, abgestimmt auf das aktuelle Leistungsniveau. Das bildbasierte Format hält junge Lernende bei der Stange, während Sie genau verfolgen können, mit welchen Zahlenbereichen sie Schwierigkeiten haben. Nutzen Sie den automatischen Lösungsschlüssel für sofortige Korrektur und Lernstandserfassung ohne zusätzlichen Zeitaufwand.',
+      title: 'Ressourcen-Bibliothek für Geschäft und Förderunterricht',
+      description: 'Wenn Sie ein Ihr Geschäftzentrum oder Förderunterricht betreiben, generieren Sie individuelle Arbeitsblätter für jede Nutzersitzung, abgestimmt auf das aktuelle Leistungsniveau. Das bildbasierte Format hält junge Lernende bei der Stange, während Sie genau verfolgen können, mit welchen Zahlenbereichen sie Schwierigkeiten haben. Nutzen Sie den automatischen Lösungsschlüssel für sofortige Korrektur und Lernstandserfassung ohne zusätzlichen Zeitaufwand.',
     },
     {
       title: 'Social-Media-Leadmagnet für Kundengewinnung',
-      description: 'Bieten Sie ein kostenloses 5-seitiges Additions-Arbeitsblatt-Probepaket als Leadmagnet auf Instagram oder Pinterest an. Sammeln Sie E-Mail-Adressen interessierter Eltern und Lehrkräfte und verkaufen Sie anschließend Ihre vollständigen thematischen Bündel per E-Mail-Marketing. Visuelle Arbeitsblätter mit bunten Bildern ergeben besonders auffällige Pins und Posts, die organischen Traffic auf Ihren Shop lenken.',
+      description: 'Bieten Sie ein kostenloses 5-seitiges Additions-Arbeitsblatt-Probepaket als Leadmagnet auf Instagram oder Pinterest an. Sammeln Sie E-Mail-Adressen interessierter Eltern und Verkäufer und verkaufen Sie anschließend Ihre vollständigen thematischen Bündel per E-Mail-Marketing. Visuelle Arbeitsblätter mit bunten Bildern ergeben besonders auffällige Pins und Posts, die organischen Traffic auf Ihren Shop lenken.',
     },
   ],
 
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Immer den Lösungsschlüssel beilegen',
-      description: 'Klicken Sie auf „Lösungsschlüssel generieren“, bevor Sie Ihr Arbeitsblatt herunterladen. Käufer auf Etsy.de und Lehrermarktplatz bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist. Es dauert nur 10 zusätzliche Sekunden und steigert Ihre Bewertungen, Wiederholungskäufe und die Weiterempfehlungsrate erheblich.',
+      description: 'Klicken Sie auf „Lösungsschlüssel generieren“, bevor Sie Ihr Arbeitsblatt herunterladen. Käufer auf Etsy.de und Gumroad bewerten Produkte durchgängig besser, wenn ein Lösungsschlüssel enthalten ist. Es dauert nur 10 zusätzliche Sekunden und steigert Ihre Bewertungen, Wiederholungskäufe und die Weiterempfehlungsrate erheblich.',
     },
     {
       title: 'Sowohl PDF als auch JPEG exportieren',
@@ -138,11 +138,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mit niedrigen Zahlenbereichen starten',
-      description: 'Für Vorschul- und Kindergartenprodukte halten Sie die maximale Anzahl pro Gruppe bei 3–5. Kleine Kinder werden von großen Zahlen schnell überfordert und verlieren die Motivation. Erstellen Sie separate „Leicht“- und „Herausforderung“-Versionen jedes Arbeitsblatts, damit Eltern und Lehrkräfte das passende Niveau flexibel wählen können. Differenzierte Schwierigkeitsgrade erhöhen den wahrgenommenen Produktwert.',
+      description: 'Für Vorschul- und Kindergartenprodukte halten Sie die maximale Anzahl pro Gruppe bei 3–5. Kleine Kinder werden von großen Zahlen schnell überfordert und verlieren die Motivation. Erstellen Sie separate „Leicht“- und „Herausforderung“-Versionen jedes Arbeitsblatts, damit Eltern und Verkäufer das passende Niveau flexibel wählen können. Differenzierte Schwierigkeitsgrade erhöhen den wahrgenommenen Produktwert.',
     },
     {
       title: 'Eigenen Text für Branding einsetzen',
-      description: 'Nutzen Sie die Textwerkzeuge, um Ihren Shopnamen, einen Urheberrechtshinweis oder eine motivierende Botschaft am unteren Rand jedes Arbeitsblatts hinzuzufügen. Dieses dezente Branding stärkt den Wiedererkennungswert Ihrer Marke erheblich, wenn ein Kunde Ihr Arbeitsblatt mit anderen Eltern, Lehrkräften oder in sozialen Medien teilt. Konsistentes Branding über alle Produkte hinweg schafft Vertrauen und fördert Wiederholungskäufe.',
+      description: 'Nutzen Sie die Textwerkzeuge, um Ihren Shopnamen, einen Urheberrechtshinweis oder eine motivierende Botschaft am unteren Rand jedes Arbeitsblatts hinzuzufügen. Dieses dezente Branding stärkt den Wiedererkennungswert Ihrer Marke erheblich, wenn ein Kunde Ihr Arbeitsblatt mit anderen Eltern, Verkäufern oder in sozialen Medien teilt. Konsistentes Branding über alle Produkte hinweg schafft Vertrauen und fördert Wiederholungskäufe.',
     },
     {
       title: 'Rahmen- und Hintergrundbibliothek voll ausschöpfen',
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell nutzen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter, ohne Tantiemen oder monatliche Gebühren. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Arbeitsblätter auf Etsy.de, Gumroad, Amazon KDP oder einem anderen Marktplatz zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter, ohne Tantiemen oder monatliche Gebühren. Die Exportqualität von über vierhundert DPI stellt sicher, dass Ihre Arbeitsblätter sowohl auf Standard-Tintenstrahldruckern als auch auf professionellen Offsetdruckmaschinen gestochen scharf und professionell aussehen — wesentlich für die Aufrechterhaltung positiver Kundenbewertungen.',
     },
     {
       question: 'Wie viele Bildthemen sind verfügbar?',
@@ -177,11 +177,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Muss ich Software installieren?',
-      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Nein. Der Ersteller läuft vollständig in Ihrem Webbrowser und funktioniert auf jedem modernen Gerät — Windows, Mac, Chromebook, iPad oder Android-Tablet. Es gibt nichts zu installieren, keine Plugins erforderlich und kein Benutzerkonto zu erstellen. Öffnen Sie einfach die Seite und legen Sie sofort los. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich einen Lösungsschlüssel generieren?',
-      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Lehrkräfte, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
+      answer: 'Ja. Nach dem Generieren eines Arbeitsblatts klicken Sie auf „Lösungsschlüssel generieren“, um ein passendes Lösungsblatt mit allen eingetragenen Antworten zu erstellen. Sie können den Lösungsschlüssel als separate JPEG- oder PDF-Datei herunterladen. Besonders nützlich für Verkäufer, die schnelle Korrektur benötigen, und für Verkäufer, die Lösungsschlüssel als Mehrwert in ihre Produktpakete aufnehmen möchten. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Seitengrößen werden unterstützt?',

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Präpositionen-Arbeitsblatt-Generator',
     tagline: 'Räumliche Präpositionen-Arbeitsblätter mit zwei Übungsmodi in 11 Sprachen erstellen',
-    description: 'Vermitteln Sie Positionswörter durch bildbasierte Übungen, die Schülern wirklich Spaß machen. Dieses Tool erstellt Präpositionen-Arbeitsblätter, bei denen Lernende räumliche Beziehungen erkennen — auf, unter, über, neben, zwischen, drinnen, draußen — indem sie Bildszenen studieren und die richtige Präposition einsetzen oder auswählen. Wählen Sie zwischen zwei Übungsmodi: Lückentext, bei dem Schüler die korrekte Präposition selbst schreiben, oder Multiple Choice, bei dem sie aus vorgegebenen Optionen mit einer anpassbaren Aufgabenstellung auswählen. Stellen Sie 1–8 Übungen pro Arbeitsblatt ein und wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen. Die besondere Stärke des Tools ist der Formenaustausch — eine separate Bildebene ermöglicht den unabhängigen Austausch von Szenenformen und erzeugt deutlich mehr visuelle Kombinationen als ein einzelner Bildsatz bieten könnte. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und jedes Präpositionswört wird in sein natives Äquivalent aktualisiert. Englisch verwendet „on, under, above, beside, between, inside, outside“; Französisch verwendet «sur, sous, au-dessus, à côté, entre, dedans, dehors». Ein Arbeitsblatt-Design wird zu 11 einzigartigen Sprachprodukten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Designs hoch. Wählen Sie aus mehreren Vorlagen und 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Vermitteln Sie Positionswörter durch bildbasierte Übungen, die Nutzern wirklich Spaß machen. Dieses Tool erstellt Präpositionen-Arbeitsblätter, bei denen Lernende räumliche Beziehungen erkennen — auf, unter, über, neben, zwischen, drinnen, draußen — indem sie Bildszenen studieren und die richtige Präposition einsetzen oder auswählen. Wählen Sie zwischen zwei Übungsmodi: Lückentext, bei dem Nutzer die korrekte Präposition selbst schreiben, oder Multiple Choice, bei dem sie aus vorgegebenen Optionen mit einer anpassbaren Aufgabenstellung auswählen. Stellen Sie 1–8 Übungen pro Arbeitsblatt ein und wählen Sie über das Kontrollkästchen-Raster genau aus, welche Präpositionen enthalten sein sollen. Die besondere Stärke des Tools ist der Formenaustausch — eine separate Bildebene ermöglicht den unabhängigen Austausch von Szenenformen und erzeugt deutlich mehr visuelle Kombinationen als ein einzelner Bildsatz bieten könnte. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und jedes Präpositionswört wird in sein natives Äquivalent aktualisiert. Englisch verwendet „on, under, above, beside, between, inside, outside“; Französisch verwendet «sur, sous, au-dessus, à côté, entre, dedans, dehors». Ein Arbeitsblatt-Design wird zu 11 einzigartigen Sprachprodukten. Durchstöbern Sie über 3.100 Bilder in 104 Themen oder laden Sie eigene PNG- oder JPEG-Dateien für markentypische Designs hoch. Wählen Sie aus mehreren Vorlagen und 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Den Übungsmodus wählen',
-        description: 'Wählen Sie Lückentext oder Multiple Choice. Im Lückentext-Modus wird eine Bildszene mit einer Leerstelle präsentiert, in die Schüler die korrekte Präposition schreiben. Im Multiple-Choice-Modus werden Optionen zur Auswahl angezeigt, mit einer anpassbaren Aufgabenstellung, die Sie an Ihren Unterrichtsstil anpassen können. Lückentext eignet sich für ältere Schüler; Multiple Choice funktioniert am besten für Anfänger.',
+        description: 'Wählen Sie Lückentext oder Multiple Choice. Im Lückentext-Modus wird eine Bildszene mit einer Leerstelle präsentiert, in die Nutzer die korrekte Präposition schreiben. Im Multiple-Choice-Modus werden Optionen zur Auswahl angezeigt, mit einer anpassbaren Aufgabenstellung, die Sie an Ihren Produkterstellungsstil anpassen können. Lückentext eignet sich für Fortgeschrittene; Multiple Choice funktioniert am besten für Anfänger.',
       },
       {
         title: 'Präpositionen auswählen',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Thematische Präpositions-Pakete',
-      description: 'Erstellen Sie Sets mit 10–15 Präpositionen-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Fahrzeuge, Haushaltsgegenstände, Naturszenen. Jedes Arbeitsblatt verwendet andere Bilder und Formen-Kombinationen bei gleichbleibendem Schwierigkeitsgrad. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Lehrermarktplatz. Das bildbasierte Szenenformat macht Ihre Listing-Vorschaubilder visuell ansprechender als rein textbasierte Grammatik-Arbeitsblätter.',
+      description: 'Erstellen Sie Sets mit 10–15 Präpositionen-Arbeitsblättern mit thematischen Bildersammlungen — Tiere, Fahrzeuge, Haushaltsgegenstände, Naturszenen. Jedes Arbeitsblatt verwendet andere Bilder und Formen-Kombinationen bei gleichbleibendem Schwierigkeitsgrad. Bündeln Sie nach Thema und verkaufen Sie auf Etsy.de oder Gumroad. Das bildbasierte Szenenformat macht Ihre Listing-Vorschaubilder visuell ansprechender als rein textbasierte Grammatik-Arbeitsblätter.',
     },
     {
       title: 'KDP-Aktivitätsbücher für räumliches Sprachverständnis',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differenzierte Übungsmodus-Sets',
-      description: 'Generieren Sie zwei Versionen jedes thematischen Arbeitsblatts: Multiple Choice für jüngere oder lernschwächere Schüler und Lückentext für Schüler, die bereit für eigenständiges Erinnern sind. Lehrkräfte können die richtige Version je nach Leistungsniveau zuteilen. Verkaufen Sie als differenziertes Paket zu einem Premium-Preis auf Lehrermarktplatz oder Etsy.de.',
+      description: 'Generieren Sie zwei Versionen jedes thematischen Arbeitsblatts: Multiple Choice für jüngere oder lernschwächere Nutzer und Lückentext für Nutzer, die bereit für eigenständiges Erinnern sind. Verkäufer können die richtige Version je nach Leistungsniveau zuteilen. Verkaufen Sie als gestuftes Paket zu einem Premium-Preis auf Gumroad oder Etsy.de.',
     },
     {
       title: 'Mehrsprachige Präpositions-Produkte',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Präpositions-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Präpositionen“-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Lehrermarktplatz.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Präpositionen“-Paket mit festlichen Szenen — Geschenke unter dem Baum, Sterne über dem Haus, Süßigkeiten im Strumpf — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Grammatik-Bündel auf Lehrermarktplatz',
-      description: 'Laden Sie Präpositions-Arbeitsblatt-Pakete auf den Lehrermarktplatz hoch, organisiert nach Schwierigkeit und Übungsmodus. Fügen Sie Lückentext-Sets, Multiple-Choice-Sets und gemischte Bündel mit Lösungsschlüsseln für jede Seite ein. Lehrkräfte suchen häufig nach „Präpositionen-Arbeitsblätter“ und „räumliches Sprachverständnis-Aktivitäten“. Das bildbasierte Szenenformat bietet erhöhten wahrgenommenen Wert, weil Schüler mit visuellem Kontext arbeiten statt mit abstrakten Lückentext-Sätzen.',
-      platform: 'Lehrermarktplatz',
+      title: 'Grammatik-Bündel auf Gumroad',
+      description: 'Laden Sie Präpositions-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Schwierigkeit und Übungsmodus. Fügen Sie Lückentext-Sets, Multiple-Choice-Sets und gemischte Bündel mit Lösungsschlüsseln für jede Seite ein. Verkäufer suchen häufig nach „Präpositionen-Arbeitsblätter“ und „räumliches Sprachverständnis-Aktivitäten“. Das bildbasierte Szenenformat bietet erhöhten wahrgenommenen Wert, weil Nutzer mit visuellem Kontext arbeiten statt mit abstrakten Lückentext-Sätzen.',
+      platform: 'Gumroad',
     },
     {
       title: 'Dual-Modus-Präpositions-Kits auf Gumroad',
-      description: 'Erstellen Sie Premium-Präpositions-Kits auf Gumroad, die sowohl Lückentext- als auch Multiple-Choice-Versionen jedes Arbeitsblatts enthalten, plus Lösungsschlüssel und Nutzungsanleitung. Bündeln Sie 5–11 Sprachversionen in ein einziges mehrsprachiges Produkt. Sprechen Sie DaF-Lehrkräfte, zweisprachige Familien und internationale Schulen an, die räumliche Sprachmaterialien in mehreren Sprachen benötigen.',
+      description: 'Erstellen Sie Premium-Präpositions-Kits auf Gumroad, die sowohl Lückentext- als auch Multiple-Choice-Versionen jedes Arbeitsblatts enthalten, plus Lösungsschlüssel und Nutzungsanleitung. Bündeln Sie 5–11 Sprachversionen in ein einziges mehrsprachiges Produkt. Sprechen Sie DaF-Verkäufer, zweisprachige Familien und internationale Schulen an, die räumliche Sprachmaterialien in mehreren Sprachen benötigen.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Formenaustausch-Vielfaltspakete auf Etsy',
-      description: 'Nutzen Sie den Formenaustausch, um massive Vielfaltspakete zu erstellen. Kombinieren Sie 10 Hauptbilder mit 10 verschiedenen Formen, um 100 einzigartige Übungsszenen aus nur 20 Quellbildern zu erzeugen. Verkaufen Sie diese als „100-Seiten-Präpositionen-Mega-Paket“ auf Etsy.de — das schiere Volumen rechtfertigt einen Premium-Preis, und die visuelle Vielfalt hält Schüler über das gesamte Arbeitsbuch engagiert.',
+      description: 'Nutzen Sie den Formenaustausch, um massive Vielfaltspakete zu erstellen. Kombinieren Sie 10 Hauptbilder mit 10 verschiedenen Formen, um 100 einzigartige Übungsszenen aus nur 20 Quellbildern zu erzeugen. Verkaufen Sie diese als „100-Seiten-Präpositionen-Mega-Paket“ auf Etsy.de — das schiere Volumen rechtfertigt einen Premium-Preis, und die visuelle Vielfalt hält Nutzer über das gesamte Arbeitsbuch engagiert.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Lückentext für ältere Schüler nutzen',
-      description: 'Der Lückentext-Modus erfordert aktives Erinnern — Schüler müssen die korrekte Präposition aus dem Gedächtnis produzieren, nicht nur erkennen. Das eignet sich für Klasse 2+ und DaF-Lernende, die die Positionswörter bereits kennen, aber Schreibübung brauchen. Es macht Arbeitsblätter auch schwerer zu erraten und erhöht den pädagogischen Wert.',
+      title: 'Lückentext für Fortgeschrittene nutzen',
+      description: 'Der Lückentext-Modus erfordert aktives Erinnern — Nutzer müssen die korrekte Präposition aus dem Gedächtnis produzieren, nicht nur erkennen. Das eignet sich für Klasse 2+ und DaF-Lernende, die die Positionswörter bereits kennen, aber Schreibübung brauchen. Es macht Arbeitsblätter auch schwerer zu erraten und erhöht den pädagogischen Wert.',
     },
     {
       title: 'Multiple Choice für Anfänger verwenden',
-      description: 'Der Multiple-Choice-Modus bietet jüngeren Lernenden oder DaF-Anfängern ein unterstützendes Erlebnis. Sie sehen die richtige Antwort unter den Optionen, was Frustration reduziert. Passen Sie den Aufgabentext an Ihren Unterrichtsstil an. Starten Sie mit 3–4 Übungen pro Seite, um neue Lernende nicht zu überfordern.',
+      description: 'Der Multiple-Choice-Modus bietet jüngeren Lernenden oder DaF-Anfängern ein unterstützendes Erlebnis. Sie sehen die richtige Antwort unter den Optionen, was Frustration reduziert. Passen Sie den Aufgabentext an Ihren Produkterstellungsstil an. Starten Sie mit 3–4 Übungen pro Seite, um neue Lernende nicht zu überfordern.',
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Beide Modi in einem Produkt bündeln',
-      description: 'Kombinieren Sie Lückentext- und Multiple-Choice-Arbeitsblätter in einem einzigen Bündel. Lehrkräfte lieben differenzierte Pakete, die sie Schülern auf verschiedenen Niveaus zuteilen können. Ein „Komplettes Präpositions-Paket“ mit beiden Modi, Lösungsschlüsseln und Lehreranleitung erzielt einen höheren Preis als jeder Modus einzeln verkauft.',
+      description: 'Kombinieren Sie Lückentext- und Multiple-Choice-Arbeitsblätter in einem einzigen Bündel. Verkäufer lieben gestufte Pakete, die sie Nutzern auf verschiedenen Niveaus zuteilen können. Ein „Komplettes Präpositions-Paket“ mit beiden Modi, Lösungsschlüsseln und Verkäuferanleitung erzielt einen höheren Preis als jeder Modus einzeln verkauft.',
     },
     {
       title: 'Graustufen für KDP und Massendruck nutzen',
-      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Klassenzimmer-Massendruck bestimmt sind. Schwarzweiß-Szenen sind deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder Klicks anziehen.',
+      description: 'Aktivieren Sie den Graustufen-Schalter für Arbeitsblätter, die für Amazon-KDP-Inhalte oder Shop-Massendruck bestimmt sind. Schwarzweiß-Szenen sind deutlich günstiger im Druck. Speichern Sie den Farbmodus für Etsy-Listing-Vorschaubilder und digitale Downloads, wo farbenfrohe Bilder Klicks anziehen.',
     },
     {
       title: 'Eigene Bilder für Wiedererkennungswert hochladen',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktionieren die beiden Übungsmodi?',
-      answer: 'Der Lückentext-Modus zeigt eine Bildszene mit einer Leerstelle, in die Schüler die korrekte Präposition schreiben (auf, unter, über usw.). Der Multiple-Choice-Modus präsentiert dieselbe Szene, aber mit auswählbaren Optionen, sodass Schüler die richtige Antwort ankreuzen. Sie können den Aufgabentext im Multiple-Choice-Modus anpassen, um ihn an Ihren Unterrichtsstil anzupassen. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
+      answer: 'Der Lückentext-Modus zeigt eine Bildszene mit einer Leerstelle, in die Nutzer die korrekte Präposition schreiben (auf, unter, über usw.). Der Multiple-Choice-Modus präsentiert dieselbe Szene, aber mit auswählbaren Optionen, sodass Nutzer die richtige Antwort ankreuzen. Sie können den Aufgabentext im Multiple-Choice-Modus anpassen, um ihn an Ihren Produkterstellungsstil anzupassen. Konsistentes visuelles Branding über Ihre gesamte Produktlinie hinweg baut Kundenerkennung und Vertrauen auf, was sich direkt in Wiederholungskäufe und höhere Konversionsraten auf Bildungsmarktplatz-Plattformen umsetzt.',
     },
     {
       question: 'Wie funktioniert die Präpositionsauswahl?',
@@ -180,15 +180,15 @@ const content: ToolContent = {
     },
     {
       question: 'Wie viele Übungen kann ich auf eine Seite setzen?',
-      answer: 'Sie können 1 bis 8 Übungen pro Arbeitsblatt einstellen. Weniger Übungen pro Seite geben jeder Szene mehr visuellen Raum, was für jüngere Schüler gut funktioniert. Mehr Übungen pro Seite erzeugen dichtere Arbeitsblätter für ältere Lernende oder Zeitübungen. Das Layout passt sich automatisch an die Übungsanzahl und Seitengröße an. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
+      answer: 'Sie können 1 bis 8 Übungen pro Arbeitsblatt einstellen. Weniger Übungen pro Seite geben jeder Szene mehr visuellen Raum, was für Einsteiger gut funktioniert. Mehr Übungen pro Seite erzeugen dichtere Arbeitsblätter für ältere Lernende oder Zeitübungen. Das Layout passt sich automatisch an die Übungsanzahl und Seitengröße an. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Lehrermarktplatz verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien sowohl für Hauptbilder als auch für Formenaustausch-Formen zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Kann ich die Arbeitsblätter kommerziell verkaufen?',
-      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und den Unterricht bestimmt. Um Arbeitsblätter auf Etsy.de, Lehrermarktplatz, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
+      answer: 'Die kostenlose Testversion mit Wasserzeichen ist nur für den persönlichen Gebrauch und die Produkterstellung bestimmt. Um Arbeitsblätter auf Etsy.de, Gumroad, Amazon KDP oder einer anderen Plattform zu verkaufen, benötigen Sie eine kommerzielle Lizenz. Die Lizenz entfernt das Wasserzeichen und gewährt volle Weiterverkaufsrechte für alle von Ihnen erstellten Arbeitsblätter. Inhaber einer kommerziellen Lizenz erhalten lebenslangen Zugang zu allen aktuellen Funktionen und allen zukünftigen Aktualisierungen des Generators, einschließlich unbegrenzter Arbeitsblatterstellung über alle unterstützten Themen und Exportformate hinweg.',
     },
     {
       question: 'Welche Dateiformate kann ich herunterladen?',

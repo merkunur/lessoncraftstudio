@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Alle vier Dateien herunterladen',
-        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Klassenzimmerdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Lehrermarktplatz-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren mit demselben Bild, um ein neues Puzzle mit anderer Kachel-Zufallsverteilung zu erzeugen, oder wechseln Sie Bilder und Rastereinstellungen für schnelle Vielfalt über 104 Themensammlungen.',
+        description: 'Schalten Sie Graustufen für tintenschonende Versionen ein, ideal für Shopdruck und KDP-Innenteile. Laden Sie alle vier Dateien aus einer einzigen Sitzung herunter: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF — alle bei 300 DPI gerendert. Jeder Tab hat sein eigenes Paar Download-Schaltflächen. Die Dateien sind produktionsfertig für Etsy-Angebote, Amazon-KDP-Innenteile und Gumroad-Produktdateien ohne Nachbearbeitung. Klicken Sie erneut auf Generieren mit demselben Bild, um ein neues Puzzle mit anderer Kachel-Zufallsverteilung zu erzeugen, oder wechseln Sie Bilder und Rastereinstellungen für schnelle Vielfalt über 104 Themensammlungen.',
       },
     ],
   },
@@ -72,12 +72,12 @@ const content: ToolContent = {
       description: 'Stellen Sie 60–80 Raster-Puzzles zu gedruckten Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie Kapitel nach progressivem Schwierigkeitsgrad: Kapitel 1 verwendet 2×2-Raster mit 3 Hinweisen für Anfänger, die lernen, wie Raster-Puzzles funktionieren, Kapitel 2 verwendet 3×3-Raster mit 2 Hinweisen für Fortgeschrittene und Kapitel 3 verwendet 4×4-Raster mit 1 Hinweis für anspruchsvolle räumliche Denkaufgaben. Fügen Sie Lösungsschlüssel-Seiten am Ende jedes Kapitels ein, die das vollständige Bild mit nummerierten Kreis-Overlays zeigen. Schalten Sie Graustufen für tintenschonende Ausgabe ein. Das rein visuelle Format benötigt keine Übersetzung — ein Innenteil funktioniert für jeden internationalen KDP-Marktplatz.',
     },
     {
-      title: 'Unterrichtsfertige Schnell-Puzzle-Aktivitäten',
-      description: 'Erstellen Sie unterrichtsfertige Raster-Puzzles für Morgenarbeit, Frühfertige und Bereicherungsstationen. Erstellen Sie lehrplanabgestimmte Sets: Tierbildpuzzles für Sachkunde, Landmarken-Puzzles für Erdkunde, Lebensmittelpuzzles für Ernährungslehre. Die konfigurierbare Schwierigkeit ermöglicht Differenzierung innerhalb eines einzelnen Produkts — enthält 2×2-Puzzles für schwächere Lernende und 4×4-Puzzles für fortgeschrittene Schüler, alles zum selben Thema. Jedes Puzzle exportiert mit seinem automatisch generierten Lösungsschlüssel und eliminiert Lehrkraft-Vorbereitungszeit. Das rein visuelle Format bedeutet, dass Raster-Puzzles für jeden Schüler funktionieren, unabhängig von Lesestufe oder Sprache.',
+      title: 'Produkterstellungsfertige Schnell-Puzzle-Aktivitäten',
+      description: 'Erstellen Sie unterrichtsfertige Raster-Puzzles für Morgenarbeit, Frühfertige und Bereicherungsstationen. Erstellen Sie lehrplanabgestimmte Sets: Tierbildpuzzles für Sachkunde, Landmarken-Puzzles für Erdkunde, Lebensmittelpuzzles für Ernährungslehre. Die konfigurierbare Schwierigkeit ermöglicht Differenzierung innerhalb eines einzelnen Produkts — enthält 2×2-Puzzles für schwächere Lernende und 4×4-Puzzles für fortgeschrittene Nutzer, alles zum selben Thema. Jedes Puzzle exportiert mit seinem automatisch generierten Lösungsschlüssel und eliminiert Lehrkraft-Vorbereitungszeit. Das rein visuelle Format bedeutet, dass Raster-Puzzles für jeden Nutzer funktionieren, unabhängig von Lesestufe oder Sprache.',
     },
     {
       title: 'Personalisierte Foto-Raster-Puzzle-Produkte',
-      description: 'Nutzen Sie die Funktion zum Hochladen eigener Bilder, um Raster-Puzzles aus jedem Foto oder Kunstwerk zu erstellen. Familienfotos werden zu einzigartigen personalisierten Geschenken. Lehrkräfte können Klassenfotos für Schuljahresend-Aktivitäten hochladen. Haustierfotos, Urlaubserinnerungen, Sportteam-Fotos und eigene Markenbilder werden alle zu einmaligen Puzzle-Produkten. Die konfigurierbare Rastergröße und Hinweisanzahl ermöglichen die Anpassung des Schwierigkeitsgrads für jede Zielgruppe — einfache 2×2-Puzzles für Kleinkinder aus einem Familienfoto, anspruchsvolle 4×4-Puzzles für Erwachsene aus Landschaftsfotografie.',
+      description: 'Nutzen Sie die Funktion zum Hochladen eigener Bilder, um Raster-Puzzles aus jedem Foto oder Kunstwerk zu erstellen. Familienfotos werden zu einzigartigen personalisierten Geschenken. Verkäufer können Klassenfotos für Schuljahresend-Aktivitäten hochladen. Haustierfotos, Urlaubserinnerungen, Sportteam-Fotos und eigene Markenbilder werden alle zu einmaligen Puzzle-Produkten. Die konfigurierbare Rastergröße und Hinweisanzahl ermöglichen die Anpassung des Schwierigkeitsgrads für jede Zielgruppe — einfache 2×2-Puzzles für Kleinkinder aus einem Familienfoto, anspruchsvolle 4×4-Puzzles für Erwachsene aus Landschaftsfotografie.',
     },
     {
       title: 'Saisonale Raster-Puzzle-Sammlungen',
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Lehrermarktplatz Raster-Puzzle-Aktivitätspakete',
-      description: 'Laden Sie Raster-Puzzle-Aktivitätspakete auf dem Lehrermarktplatz hoch mit differenzierter Schwierigkeit als zentralem Verkaufsargument. Lehrkräfte auf der Suche nach visuellen Wahrnehmungsaktivitäten schätzen Puzzles mit mehreren Schwierigkeitsstufen und Lösungsschlüsseln. Erstellen Sie lehrplanabgestimmte Sets: Tier-Raster-Puzzles für Sachkunde, Lebensmittel-Puzzles für Ernährungslehre, Fahrzeug-Puzzles für Verkehrsthemen. Jedes Paket enthält leichte (2×2), mittlere (3×3) und schwere (4×4) Versionen derselben thematischen Puzzles, damit Lehrkräfte nach Schülerniveau differenzieren können. Der automatisch generierte Lösungsschlüssel mit nummerierten Overlays eliminiert Lehrkraft-Vorbereitungszeit.',
-      platform: 'Lehrermarktplatz',
+      title: 'Gumroad Raster-Puzzle-Aktivitätspakete',
+      description: 'Laden Sie Raster-Puzzle-Aktivitätspakete auf Gumroad hoch mit gestufter Schwierigkeit als zentralem Verkaufsargument. Verkäufer auf der Suche nach visuellen Wahrnehmungsaktivitäten schätzen Puzzles mit mehreren Schwierigkeitsstufen und Lösungsschlüsseln. Erstellen Sie lehrplanabgestimmte Sets: Tier-Raster-Puzzles für Sachkunde, Lebensmittel-Puzzles für Ernährungslehre, Fahrzeug-Puzzles für Verkehrsthemen. Jedes Paket enthält leichte (2×2), mittlere (3×3) und schwere (4×4) Versionen derselben thematischen Puzzles, damit Verkäufer nach Nutzerniveau differenzieren können. Der automatisch generierte Lösungsschlüssel mit nummerierten Overlays eliminiert Lehrkraft-Vorbereitungszeit.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Raster-Puzzle-Verkaufstrichter',
-      description: 'Raster-Puzzles erzeugen visuell auffällige Pinterest-Pins — das geteilte Bildraster mit nummerierter Kachelpalette und farbenfroher Kopfzeile schafft ein sofort erkennbares Bildungsformat. Pinnen Sie Beispielpuzzles verschiedener Rastergrößen: ein einfaches 2×2 für Einsteiger-Pins, ein detailliertes 4×4 für Herausforderungs-Pins und den Lösungsschlüssel mit nummerierten Kreisen für Lösungs-Pins. Erstellen Sie separate Pin-Serien für „Tier-Raster-Puzzles“, „Feiertags-Bildpuzzles“ und „visuelle Wahrnehmungsaktivitäten“. Das rein visuelle Format spricht Eltern und Lehrkräfte in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Lehrermarktplatz-Angebote.',
+      description: 'Raster-Puzzles erzeugen visuell auffällige Pinterest-Pins — das geteilte Bildraster mit nummerierter Kachelpalette und farbenfroher Kopfzeile schafft ein sofort erkennbares Bildungsformat. Pinnen Sie Beispielpuzzles verschiedener Rastergrößen: ein einfaches 2×2 für Einsteiger-Pins, ein detailliertes 4×4 für Herausforderungs-Pins und den Lösungsschlüssel mit nummerierten Kreisen für Lösungs-Pins. Erstellen Sie separate Pin-Serien für „Tier-Raster-Puzzles“, „Feiertags-Bildpuzzles“ und „visuelle Wahrnehmungsaktivitäten“. Das rein visuelle Format spricht Eltern und Verkäufer in jedem Land an. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Angebote.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Globale visuelle Puzzle-Produktlinie',
-      description: 'Raster-Puzzle erzeugt rein visuelle Puzzles — Bildkacheln und Nummern sind universell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine Erstellungssitzung produziert einen weltweit verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops für verschiedene Länder, veröffentlichen Sie dieselben KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf dem Lehrermarktplatz für internationale Lehrkräfte. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Pflege. Die Funktion zum Hochladen eigener Bilder ermöglicht zusätzlich lokalisierte Personalisierungsdienste, ohne das Kernproduktformat zu ändern.',
+      description: 'Raster-Puzzle erzeugt rein visuelle Puzzles — Bildkacheln und Nummern sind universell. Dieselben Produktdateien funktionieren in jedem Land ohne Übersetzung oder Anpassung. Eine Erstellungssitzung produziert einen weltweit verkaufbaren Katalog. Verkaufen Sie identische Dateien über Etsy-Shops für verschiedene Länder, veröffentlichen Sie dieselben KDP-Innenteile auf allen internationalen Amazon-Marktplätzen und listen Sie auf Gumroad für internationale Verkäufer. Keine separaten Sprachversionen, keine Übersetzungskosten, keine länderspezifische Pflege. Die Funktion zum Hochladen eigener Bilder ermöglicht zusätzlich lokalisierte Personalisierungsdienste, ohne das Kernproduktformat zu ändern.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Rastergröße und Hinweisanzahl für gestufte Schwierigkeitssets kombinieren',
-      description: 'Die zwei unabhängigen Schwierigkeitskontrollen — Rastergröße (2×2 bis 4×4) und Hinweiszellen (1–5) — erzeugen ein breites Spektrum an Herausforderungsstufen aus einem einzigen Bild. Ein 2×2-Raster mit 3 Hinweisen lässt nur 1 Kachel zum Zuordnen: ein triviales Aufwärmen. Ein 4×4-Raster mit 1 Hinweis erfordert die Zuordnung von 15 Kacheln: eine echte räumliche Denkaufgabe. Erstellen Sie gestufte Schwierigkeitspakete, indem Sie einfach beginnen und schrittweise Hinweise reduzieren und Rastergrößen erhöhen. Differenzierte Pakete verkaufen sich besser als Einzel-Schwierigkeits-Pakete, weil Lehrkräfte Puzzles für heterogene Klassen brauchen.',
+      description: 'Die zwei unabhängigen Schwierigkeitskontrollen — Rastergröße (2×2 bis 4×4) und Hinweiszellen (1–5) — erzeugen ein breites Spektrum an Herausforderungsstufen aus einem einzigen Bild. Ein 2×2-Raster mit 3 Hinweisen lässt nur 1 Kachel zum Zuordnen: ein triviales Aufwärmen. Ein 4×4-Raster mit 1 Hinweis erfordert die Zuordnung von 15 Kacheln: eine echte räumliche Denkaufgabe. Erstellen Sie gestufte Schwierigkeitspakete, indem Sie einfach beginnen und schrittweise Hinweise reduzieren und Rastergrößen erhöhen. Gestufte Pakete verkaufen sich besser als Einzel-Schwierigkeits-Pakete, weil Verkäufer Puzzles für heterogene Klassen brauchen.',
     },
     {
       title: 'Fisher-Yates-Zufallsverteilung für Puzzle-Vervielfachung nutzen',
@@ -133,11 +133,11 @@ const content: ToolContent = {
     },
     {
       title: 'Den Lösungsschlüssel mit nummerierten Kreis-Overlays als Verkaufsargument einsetzen',
-      description: 'Der automatisch generierte Lösungsschlüssel zeigt das vollständige Bild mit nummerierten Kreisen, die anzeigen, welche Palettenkachel zu welcher Position gehört — eine professionelle Präsentation, die Ihre Raster-Puzzles von Konkurrenten ohne Lösungen abhebt. Zeigen Sie Lösungsschlüssel-Vorschauen immer in Ihren Produktangeboten auf Etsy und dem Lehrermarktplatz. Präsentieren Sie Arbeitsblatt und Lösungsschlüssel nebeneinander, um das vollständige Paket zu demonstrieren. Das Doppel-Canvas-System erzeugt beide Versionen gleichzeitig — Lösungsschlüssel einzufügen erfordert null zusätzliche Produktionszeit.',
+      description: 'Der automatisch generierte Lösungsschlüssel zeigt das vollständige Bild mit nummerierten Kreisen, die anzeigen, welche Palettenkachel zu welcher Position gehört — eine professionelle Präsentation, die Ihre Raster-Puzzles von Konkurrenten ohne Lösungen abhebt. Zeigen Sie Lösungsschlüssel-Vorschauen immer in Ihren Produktangeboten auf Etsy und dem Gumroad. Präsentieren Sie Arbeitsblatt und Lösungsschlüssel nebeneinander, um das vollständige Paket zu demonstrieren. Das Doppel-Canvas-System erzeugt beide Versionen gleichzeitig — Lösungsschlüssel einzufügen erfordert null zusätzliche Produktionszeit.',
     },
     {
       title: 'Das rein visuelle Format für globalen Verkauf nutzen',
-      description: 'Raster-Puzzles enthalten nur Bildkacheln und Nummern — keinen sprachabhängigen Text auf der Puzzle-Ausgabe. Das bedeutet, jedes Puzzle, das Sie erstellen, ist sofort weltweit verkaufbar ohne Übersetzung oder Lokalisierung. Ein Puzzle-Set bedient jeden internationalen Etsy-Shop, jeden KDP-Marktplatz und jeden Lehrermarktplatz-Käufer unabhängig von der Sprache. Während Konkurrenten separate Sprachversionen textlastiger Arbeitsblätter erstellen, funktionieren Ihre Raster-Puzzles überall aus einem einzigen Dateisatz.',
+      description: 'Raster-Puzzles enthalten nur Bildkacheln und Nummern — keinen sprachabhängigen Text auf der Puzzle-Ausgabe. Das bedeutet, jedes Puzzle, das Sie erstellen, ist sofort weltweit verkaufbar ohne Übersetzung oder Lokalisierung. Ein Puzzle-Set bedient jeden internationalen Etsy-Shop, jeden KDP-Marktplatz und jeden Gumroad-Käufer unabhängig von der Sprache. Während Konkurrenten separate Sprachversionen textlastiger Arbeitsblätter erstellen, funktionieren Ihre Raster-Puzzles überall aus einem einzigen Dateisatz.',
     },
     {
       title: 'Eigene Bilder für Premium-Personalisierungsprodukte verwenden',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Rastergröße an die Zielgruppe anpassen',
-      description: 'Passen Sie die Rasterkonfiguration an Käufererwartungen für jeden Marktplatz an. Für Lehrermarktplatz-Unterrichtsmaterialien für Vorschule bis erste Klasse verwenden Sie 2×2- und 2×3-Raster mit 2–3 Hinweisen für zugängliche Puzzles. Für Etsy-Aktivitätspakete für Grundschulkinder verwenden Sie 3×3-Raster mit 1–2 Hinweisen für ausgewogene Herausforderung. Für KDP-Puzzle-Arbeitsbücher für ältere Schüler und Erwachsene verwenden Sie 4×3- und 4×4-Raster mit 1 Hinweis für echte räumliche Denkaufgaben. Die Abstimmung der Rasterkomplexität auf die Zielgruppe sichert positive Bewertungen und Wiederkäufe.',
+      description: 'Passen Sie die Rasterkonfiguration an Käufererwartungen für jeden Marktplatz an. Für Gumroad-Produktmaterialien für Vorschule bis erste Klasse verwenden Sie 2×2- und 2×3-Raster mit 2–3 Hinweisen für zugängliche Puzzles. Für Etsy-Aktivitätspakete für Grundschulkinder verwenden Sie 3×3-Raster mit 1–2 Hinweisen für ausgewogene Herausforderung. Für KDP-Puzzle-Arbeitsbücher für Fortgeschrittene und Erwachsene verwenden Sie 4×3- und 4×4-Raster mit 1 Hinweis für echte räumliche Denkaufgaben. Die Abstimmung der Rasterkomplexität auf die Zielgruppe sichert positive Bewertungen und Wiederkäufe.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'Welche Rastergrößen sind verfügbar?',
-      answer: 'Der Generator unterstützt 2–4 Zeilen und 2–4 Spalten, unabhängig voneinander konfigurierbar. Dies erzeugt Raster von 2×2 (4 Kacheln) bis 4×4 (16 Kacheln). Der Standard ist 3×3 (9 Kacheln). Sie können Zeilen und Spalten auf verschiedene Werte setzen für rechteckige Puzzles — ein 2×4-Raster erzeugt ein breites Layout mit 8 Kacheln, während ein 4×2-Raster ein hohes schmales Puzzle ergibt. Kleinere Raster eignen sich für jüngere Lernende und Einführungspuzzles, während größere Raster ältere Schüler herausfordern und Premium-Puzzle-Produkte erzeugen.',
+      answer: 'Der Generator unterstützt 2–4 Zeilen und 2–4 Spalten, unabhängig voneinander konfigurierbar. Dies erzeugt Raster von 2×2 (4 Kacheln) bis 4×4 (16 Kacheln). Der Standard ist 3×3 (9 Kacheln). Sie können Zeilen und Spalten auf verschiedene Werte setzen für rechteckige Puzzles — ein 2×4-Raster erzeugt ein breites Layout mit 8 Kacheln, während ein 4×2-Raster ein hohes schmales Puzzle ergibt. Kleinere Raster eignen sich für jüngere Lernende und Einführungspuzzles, während größere Raster Fortgeschrittene herausfordern und Premium-Puzzle-Produkte erzeugen.',
     },
     {
       question: 'Wie steuern Hinweiszellen den Puzzle-Schwierigkeitsgrad?',
@@ -188,15 +188,15 @@ const content: ToolContent = {
     },
     {
       question: 'Ist der Raster-Puzzle-Ersteller sprachabhängig?',
-      answer: 'Nein. Raster-Puzzle ist rein visuell — die Puzzle-Ausgabe enthält nur Bildkacheln und Nummern, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Schaltflächen, Kopfzeilentext) unterstützt alle 11 Sprachen, aber das generierte Puzzle funktioniert identisch unabhängig von der Sprachauswahl. Das macht Raster-Puzzles universell verkaufbar über alle Märkte ohne Übersetzung. Ein Puzzle-Set bedient jeden internationalen Etsy-Shop, KDP-Marktplatz und Lehrermarktplatz-Käufer.',
+      answer: 'Nein. Raster-Puzzle ist rein visuell — die Puzzle-Ausgabe enthält nur Bildkacheln und Nummern, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Schaltflächen, Kopfzeilentext) unterstützt alle 11 Sprachen, aber das generierte Puzzle funktioniert identisch unabhängig von der Sprachauswahl. Das macht Raster-Puzzles universell verkaufbar über alle Märkte ohne Übersetzung. Ein Puzzle-Set bedient jeden internationalen Etsy-Shop, KDP-Marktplatz und Gumroad-Käufer.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',
-      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Maße. Raster-Puzzle unterstützt kein quadratisches (1200×1200) Seitenformat. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI (6×-Multiplikator, JPEG-Qualität 1,0). Schalten Sie Graustufen für tintenschonende Ausgabe ein. Jede Generierung erzeugt vier Dateien: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtshandouts.',
+      answer: 'Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und benutzerdefinierte Maße. Raster-Puzzle unterstützt kein quadratisches (1200×1200) Seitenformat. Exportieren Sie als hochauflösendes JPEG oder druckfertiges PDF bei 300 DPI (6×-Multiplikator, JPEG-Qualität 1,0). Schalten Sie Graustufen für tintenschonende Ausgabe ein. Jede Generierung erzeugt vier Dateien: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF. Alle Exporte sind produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produkterstellungshandouts.',
     },
     {
       question: 'Kann ich mit diesem Tool erstellte Raster-Puzzles kommerziell verkaufen?',
-      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Raster-Puzzles als digitale Downloads auf Etsy, gedruckte Arbeitsbücher für visuelle Wahrnehmung auf Amazon KDP, Unterrichtsmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, einstellbaren Hinweiszellen, Fisher-Yates-Zufallsverteilung, automatisch generierten Lösungsschlüssel mit nummerierten Kreis-Overlays, eigene Bilder hochladen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Puzzle- und visuellen Wahrnehmungskategorien auf jedem großen Marktplatz konkurrieren.',
+      answer: 'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Raster-Puzzles als digitale Downloads auf Etsy, gedruckte Arbeitsbücher für visuelle Wahrnehmung auf Amazon KDP, Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, einstellbaren Hinweiszellen, Fisher-Yates-Zufallsverteilung, automatisch generierten Lösungsschlüssel mit nummerierten Kreis-Overlays, eigene Bilder hochladen und 104 thematische Bildsammlungen bieten alles, was Sie brauchen, um professionelle Produkte zu erstellen, die in Puzzle- und visuellen Wahrnehmungskategorien auf jedem großen Marktplatz konkurrieren.',
     },
     {
       question: 'Wie ist Ihre Rückerstattungsrichtlinie?',

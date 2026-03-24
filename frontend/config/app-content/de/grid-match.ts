@@ -7,7 +7,7 @@ const content: AppContent = {
       'druckbarer Bilder-Rasterpuzzle-Generator für Etsy-Verkäufer',
       'Kachel-Zuordnungs-Arbeitsblatt-Generator für KDP-Verleger',
       'Raster-Puzzle-Ersteller kommerzielle Lizenz',
-      'Bilder-Rasterpuzzle-Arbeitsblätter auf Lehrermarktplatz verkaufen',
+      'Bilder-Rasterpuzzle-Arbeitsblätter auf Gumroad verkaufen',
     ],
     lsiKeywords: [
       'digitale Kachel-Zuordnungs-Druckvorlagen skalierbares Einkommen',
@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Raster-Puzzle-Generator für druckbare Bilder-Rasterpuzzle-Arbeitsblätter',
     tagline: 'Verwandeln Sie jedes Bild in ein rasterbasiertes Bildrätsel — teilen Sie es in Kacheln auf, zeigen Sie konfigurierbare Hinweiszellen, mischen Sie die übrigen Kacheln in eine nummerierte Palette und generieren Sie automatisch einen Lösungsschlüssel mit nummerierten Kreis-Overlays über 104 thematische Bildsammlungen.',
     description:
-      'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter, bei denen ein einzelnes Bild in ein Kachelraster aufgeteilt wird und Lernende nummerierte Kacheln ihren korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 (2–4 Zeilen × 2–4 Spalten) und legen Sie 1–5 Hinweiszellen fest, die als sichtbare Tipps erhalten bleiben — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Zufallsverteilung und zeigt sie in einer nummerierten Kachelpalette neben oder unter dem Raster an. Lernende untersuchen die sichtbaren Hinweiszellen, betrachten die nummerierten Kacheln und schreiben, welche Nummer in jede leere Zelle gehört. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das vollständige Bild mit nummerierten Kreisen über jeder Rasterzelle, die die korrekte Kachelplatzierung anzeigen, sodass Sie niemals Lösungsschlüssel manuell erstellen müssen. Der Raster-Puzzle-Generator ist NICHT sprachabhängig: die Puzzle-Ausgabe ist rein visuell — nur Bildkacheln und Zahlen, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Ein Sprachwechsel ändert nur die Oberflächenbeschriftungen und den Überschriftentext, NICHT die Puzzle-Ausgabe. Dasselbe Rätsel funktioniert identisch in allen Märkten ohne Übersetzung. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie benutzerdefinierten Text mit sieben Schriftoptionen und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Arbeitsbücher für visuelle Wahrnehmung bei Amazon KDP veröffentlichen oder Schnellabschluss-Rätselaktivitäten für den Lehrermarktplatz erstellen — dieser Generator liefert produktionsfertige Raster-Puzzle in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
+      'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter, bei denen ein einzelnes Bild in ein Kachelraster aufgeteilt wird und Lernende nummerierte Kacheln ihren korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 (2–4 Zeilen × 2–4 Spalten) und legen Sie 1–5 Hinweiszellen fest, die als sichtbare Tipps erhalten bleiben — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Zufallsverteilung und zeigt sie in einer nummerierten Kachelpalette neben oder unter dem Raster an. Lernende untersuchen die sichtbaren Hinweiszellen, betrachten die nummerierten Kacheln und schreiben, welche Nummer in jede leere Zelle gehört. Das Doppel-Canvas-System generiert sowohl ein Arbeitsblatt-Tab als auch ein Lösungsschlüssel-Tab — der Lösungsschlüssel zeigt das vollständige Bild mit nummerierten Kreisen über jeder Rasterzelle, die die korrekte Kachelplatzierung anzeigen, sodass Sie niemals Lösungsschlüssel manuell erstellen müssen. Der Raster-Puzzle-Generator ist NICHT sprachabhängig: die Puzzle-Ausgabe ist rein visuell — nur Bildkacheln und Zahlen, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Ein Sprachwechsel ändert nur die Oberflächenbeschriftungen und den Überschriftentext, NICHT die Puzzle-Ausgabe. Dasselbe Rätsel funktioniert identisch in allen Märkten ohne Übersetzung. Vollzugriff schaltet alle 104 Themen mit über 3.100 Illustrationen und alle 11 Oberflächensprachen frei. Fügen Sie Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern hinzu, integrieren Sie benutzerdefinierten Text mit sieben Schriftoptionen und exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei. Ob Sie thematische Rätsel-Pakete auf Etsy.de verkaufen, Arbeitsbücher für visuelle Wahrnehmung bei Amazon KDP veröffentlichen oder Schnellabschluss-Rätselaktivitäten für den Gumroad erstellen — dieser Generator liefert produktionsfertige Raster-Puzzle in Minuten. Kostenlos testen mit allen Funktionen — keine Anmeldung, keine Kreditkarte. Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Er zeigt das vollständige, ungeteilte Bild mit nummerierten Kreisen über jeder Rasterzelle — gelber Hintergrund (#ffffe0) mit schwarzer Umrandung, die anzeigt, welche Palettennummer in jede Position gehört. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Lehrermarktplatz-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Er zeigt das vollständige, ungeteilte Bild mit nummerierten Kreisen über jeder Rasterzelle — gelber Hintergrund (#ffffe0) mit schwarzer Umrandung, die anzeigt, welche Palettennummer in jede Position gehört. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Automatisch generierter Lösungsschlüssel mit nummerierten Kreis-Overlays auf dem vollständigen Bild',
         description:
-          'Jedes Rasterpuzzle generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel zeigt das vollständige, ungeschnittene Bild mit nummerierten Kreisen über jeder Rasterzelle — gelber Hintergrund (#ffffe0), schwarze Umrandung und schwarzer Zahlentext in Fredoka-Schrift. Jede Nummer entspricht der gemischten Palettenreihenfolge des Arbeitsblatts und zeigt Lernenden und Lehrkräften genau, welche Kachel wohin gehört. Kein manuelles Lösungsschlüssel-Erstellen, keine separate Datei — der Lösungsschlüssel bleibt perfekt mit dem Arbeitsblatt synchronisiert.',
+          'Jedes Rasterpuzzle generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel zeigt das vollständige, ungeschnittene Bild mit nummerierten Kreisen über jeder Rasterzelle — gelber Hintergrund (#ffffe0), schwarze Umrandung und schwarzer Zahlentext in Fredoka-Schrift. Jede Nummer entspricht der gemischten Palettenreihenfolge des Arbeitsblatts und zeigt Lernenden und Verkäufern genau, welche Kachel wohin gehört. Kein manuelles Lösungsschlüssel-Erstellen, keine separate Datei — der Lösungsschlüssel bleibt perfekt mit dem Arbeitsblatt synchronisiert.',
       },
       {
         title: 'Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
         description:
-          'Laden Sie Rasterpuzzle und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI herunter (6×-Multiplikator, JPEG-Qualität 1.0). Vier Download-Buttons exportieren Arbeitsblatt- und Lösungsschlüssel-Dateien separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Die PDF-Ausrichtung wird automatisch erkannt. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen und gleichzeitig die Rasterstruktur bewahren. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Unterrichtsmaterialien.',
+          'Laden Sie Rasterpuzzle und Lösungsschlüssel als hochauflösende JPEG-Bilder oder druckfertige PDF-Dokumente mit 300 DPI herunter (6×-Multiplikator, JPEG-Qualität 1.0). Vier Download-Buttons exportieren Arbeitsblatt- und Lösungsschlüssel-Dateien separat. Seitengrößen umfassen Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat und völlig benutzerdefinierte Dimensionen. Die PDF-Ausrichtung wird automatisch erkannt. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen, die Toner sparen und gleichzeitig die Rasterstruktur bewahren. Jeder Export ist produktionsfertig für digitale Downloads, gedruckte Arbeitsbücher und Produktmaterialien.',
       },
       {
         title: 'Vollständige Canvas-Bearbeitung mit Textwerkzeugen, Ausrichtung und Ebenensteuerung',
@@ -118,21 +118,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Schnellabschluss-Rätselaktivitäten für den Lehrermarktplatz',
+        title: 'Schnellabschluss-Rätselaktivitäten für den Gumroad',
         description:
-          'Erstellen Sie sofort einsatzfähige Rasterpuzzle-Aktivitäten für Schnellabschluss-Aufgaben, Morgenarbeit oder Enrichment-Stationen im Unterricht. Lehrkräfte, die auf dem Lehrermarktplatz nach Aktivitäten für visuelle Wahrnehmung suchen, schätzen Rätsel, die druckfertig mit Lösungsschlüsseln ankommen. Erstellen Sie lehrplanorientierte Sets: Tier-Bildrätsel für den Sachunterricht, Wahrzeichen-Rätsel für Geografie, Lebensmittel-Rätsel für Ernährungslehre. Die konfigurierbare Schwierigkeit ermöglicht Differenzierung innerhalb eines einzigen Produkts — leichte, mittlere und schwere Versionen derselben thematischen Rätsel, damit Lehrkräfte nach Leistungsniveau zuweisen können. Die automatisch generierten Lösungsschlüssel mit nummerierten Kreisen über dem vollständigen Bild ermöglichen schnelle Selbstkontrolle durch Lernende oder effiziente Korrektur durch Lehrkräfte — ein wesentlicher Mehrwert gegenüber einfachen Bildrätseln ohne Lösungshilfe.',
-        platform: 'Lehrermarktplatz (lehrermarktplatz.de)',
+          'Erstellen Sie sofort einsatzfähige Rasterpuzzle-Aktivitäten für Schnellabschluss-Aufgaben, Morgenarbeit oder Enrichment-Stationen in der Produkterstellung. Verkäufer, die auf Gumroad nach Aktivitäten für visuelle Wahrnehmung suchen, schätzen Rätsel, die druckfertig mit Lösungsschlüsseln ankommen. Erstellen Sie lehrplanorientierte Sets: Tier-Bildrätsel für den Sachunterricht, Wahrzeichen-Rätsel für Geografie, Lebensmittel-Rätsel für Ernährungslehre. Die konfigurierbare Schwierigkeit ermöglicht Differenzierung innerhalb eines einzigen Produkts — leichte, mittlere und schwere Versionen derselben thematischen Rätsel, damit Verkäufer nach Leistungsniveau zuweisen können. Die automatisch generierten Lösungsschlüssel mit nummerierten Kreisen über dem vollständigen Bild ermöglichen schnelle Selbstkontrolle durch Lernende oder effiziente Korrektur durch Verkäufer — ein wesentlicher Mehrwert gegenüber einfachen Bildrätseln ohne Lösungshilfe.',
+        platform: 'Gumroad',
       },
       {
         title: 'Saisonale Rasterpuzzle-Sammlungen',
         description:
           'Die 104 thematischen Bildsammlungen decken jede saisonale und feiertagsbezogene Gelegenheit ab — Weihnachten, Halloween, Ostern, Valentinstag, Schulanfang, Sommerferien und vieles mehr. Erstellen Sie aktuell verfügbare Rasterpuzzle-Sammlungen, die sich an Spitzeneinkaufszeiten orientieren. Veröffentlichen Sie Halloween-Rätselpakete im September, Weihnachts-Sammlungen im Oktober und Valentinstag-Pakete im Januar. Integrieren Sie mehrere Rastergrößen und Schwierigkeitsgrade in jedes saisonale Set für maximalen Wert. Saisonale Produkte erzielen höhere Preise während ihrer Spitzenzeiten und schaffen natürliche Gründe für Wiederholungskäufe. Nutzen Sie passende Hintergrund- und Rahmenthemen für ein stimmiges Saisondesign, das Käufer in der Vorschau sofort anspricht und die wahrgenommene Qualität Ihres Produkts steigert.',
-        platform: 'Etsy / Amazon KDP / Lehrermarktplatz (saisonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (saisonal)',
       },
       {
         title: 'Personalisierte Foto-Rasterpuzzle als Premium-Produkte',
         description:
-          'Nutzen Sie die Funktion „Eigene Bilder hochladen“, um Rasterpuzzle aus beliebigen Fotos oder Kunstwerken zu erstellen. Familienfoto-Rätsel sind einzigartige personalisierte Geschenke für Geburtstage, Jubiläen oder Weihnachten. Lehrkräfte können Klassenfotos für Schuljahresend-Aktivitäten hochladen oder Ausflugfotos als Erinnerungsprojekte verwenden. Haustier-Foto-Rätsel, Urlaubsfoto-Rätsel und Teamfoto-Rätsel erzeugen einzigartige Produkte, die in keinem Katalog zu finden sind. Bieten Sie individuelle Rasterpuzzle-Erstellung als Premium-Service auf Etsy.de an, bei dem Kunden ihre Fotos einsenden und Sie gedruckte Rätsel-Arbeitsblätter mit Lösungsschlüsseln liefern — ein margenstarkes personalisiertes Produkt mit minimaler Produktionszeit. Verschiedene Rastergrößen ermöglichen Ihnen, aus einem einzigen Kundenfoto mehrere Rätselversionen in verschiedenen Schwierigkeitsgraden zu erstellen und als Set anzubieten.',
+          'Nutzen Sie die Funktion „Eigene Bilder hochladen“, um Rasterpuzzle aus beliebigen Fotos oder Kunstwerken zu erstellen. Familienfoto-Rätsel sind einzigartige personalisierte Geschenke für Geburtstage, Jubiläen oder Weihnachten. Verkäufer können Klassenfotos für Schuljahresend-Aktivitäten hochladen oder Ausflugfotos als Erinnerungsprojekte verwenden. Haustier-Foto-Rätsel, Urlaubsfoto-Rätsel und Teamfoto-Rätsel erzeugen einzigartige Produkte, die in keinem Katalog zu finden sind. Bieten Sie individuelle Rasterpuzzle-Erstellung als Premium-Service auf Etsy.de an, bei dem Kunden ihre Fotos einsenden und Sie gedruckte Rätsel-Arbeitsblätter mit Lösungsschlüsseln liefern — ein margenstarkes personalisiertes Produkt mit minimaler Produktionszeit. Verschiedene Rastergrößen ermöglichen Ihnen, aus einem einzigen Kundenfoto mehrere Rätselversionen in verschiedenen Schwierigkeitsgraden zu erstellen und als Set anzubieten.',
         platform: 'Etsy (personalisierte Produkte)',
       },
     ],
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Kann ich mit diesem Tool erstellte Rasterpuzzle auf Etsy und Amazon KDP verkaufen?',
       answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Rasterpuzzle als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf dem Lehrermarktplatz oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, einstellbaren Hinweiszellen, automatisch generierten Lösungsschlüssel und 104 thematischen Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Rasterpuzzle-Produkte zu produzieren.',
+        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Rasterpuzzle als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, einstellbaren Hinweiszellen, automatisch generierten Lösungsschlüssel und 104 thematischen Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Rasterpuzzle-Produkte zu produzieren.',
     },
     {
       question: 'Was ist Ihre Rückgabepolitik?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'kindergarten-druckvorlagen-ideen',
-      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Schüler',
+      anchorText: 'Kindergarten-Druckvorlagen-Ideen für junge Nutzer',
     },
     {
       pageType: 'start',

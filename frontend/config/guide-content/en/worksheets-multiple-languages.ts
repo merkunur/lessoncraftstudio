@@ -124,7 +124,7 @@ const content: GuideContent = {
     },
     {
       question: 'Should I create separate marketplace listings for each language or combine them?',
-      answer: 'Create separate listings for each language version. Combined multi-language listings perform poorly because marketplace search algorithms match listings to buyer queries based on language, so a listing mixing English and German text ranks poorly for both English and German searches. Separate listings also allow you to optimize titles, descriptions, tags, and thumbnails independently for each language market. The only exception is if you sell a multi-language bundle as a deliberate product — for example, a pack containing the same worksheets in four languages, marketed to bilingual families or language teachers who need materials in multiple languages.',
+      answer: 'Create separate listings for each language version. Combined multi-language listings perform poorly because marketplace search algorithms match listings to buyer queries based on language, so a listing mixing English and German text ranks poorly for both English and German searches. Separate listings also allow you to optimize titles, descriptions, tags, and thumbnails independently for each language market. The only exception is if you sell a multi-language bundle as a deliberate product — for example, a pack containing the same worksheets in four languages, marketed to bilingual families or language learners who need materials in multiple languages.',
     },
     {
       question: 'How do I ensure consistent quality across all language versions?',

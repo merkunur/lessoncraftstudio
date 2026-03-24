@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable coloring page maker for Etsy sellers',
       'custom coloring worksheet generator for KDP publishers',
-      'sell coloring pages on Teachers Pay Teachers',
+      'sell coloring pages on Gumroad or your own store',
       'coloring page creator commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use coloring page generator',
     ],
     titleTag: 'Coloring Page Generator | Create & Sell Printables',
-    metaDescription: 'Create custom coloring pages to sell on Etsy, KDP & TPT. Free-form canvas, 104 themes, freehand drawing, grayscale export. Try free — license available.',
+    metaDescription: 'Create custom coloring pages to sell on Etsy, KDP & Gumroad. Free-form canvas, 104 themes, freehand drawing, grayscale export. Try free — license available.',
   },
 
   hero: {
     title: 'Coloring Page Generator for Custom Printable Coloring Worksheets',
-    tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include classroom helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
+    tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
-      'Design professional coloring pages on a free-form canvas where you place images exactly where you want them — no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Classroom helpers add a student name field and handwriting practice lines with a single click — turning coloring pages into ready-to-use classroom activities. When you’re finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive — output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or create classroom coloring activities for TPT, the Coloring Page Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      ‘Design professional coloring pages on a free-form canvas where you place images exactly where you want them — no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Layout helpers add a name field and handwriting practice lines with a single click — turning coloring pages into ready-to-use printable activities. When you are finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive — output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or list coloring activities on Gumroad, the Coloring Page Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.’,
   },
 
   howItWorks: {
@@ -44,14 +44,14 @@ const content: AppContent = {
           'Drag images anywhere on the free-form canvas — no grid snapping, no template restrictions. Resize by dragging corner handles, rotate to any angle, and use layer controls to manage stacking order. Lock finished elements to prevent accidental moves while you continue editing. The canvas supports up to 20 undo/redo states (Ctrl+Z / Ctrl+Y) so you can experiment freely. Zoom from 25% to 300% for precision placement of small details.',
       },
       {
-        title: 'Add Text, Classroom Helpers, and Freehand Drawings',
+        title: 'Add Text, Layout Helpers, and Freehand Drawings',
         description:
-          'Use the Text Tools panel to add titles, instructions, or labels with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and text outline width (0–10 with 0.5-step granularity) for maximum readability. Click the Classroom Helpers to add a student name field (“Name: ____”) or handwriting practice lines with a single click. Switch to the Drawing Tool to sketch freehand illustrations directly on the canvas — pick a brush color and adjust the brush size from 1 to 50 pixels.',
+          'Use the Text Tools panel to add titles, instructions, or labels with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and text outline width (0–10 with 0.5-step granularity) for maximum readability. Click the Layout Helpers to add a name field (“Name: ____”) or handwriting practice lines with a single click. Switch to the Drawing Tool to sketch freehand illustrations directly on the canvas — pick a brush color and adjust the brush size from 1 to 50 pixels.',
       },
       {
         title: 'Toggle Grayscale and Download',
         description:
-          'Open the Download panel and toggle the grayscale option to convert your colorful composition into ink-friendly coloring pages — perfect for print worksheets and coloring books. Export as a high-resolution JPEG or print-ready PDF at 300 DPI. Files are named coloring_page.jpeg or coloring_page.pdf for easy organization. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — no post-processing needed.',
+          'Open the Download panel and toggle the grayscale option to convert your colorful composition into ink-friendly coloring pages — perfect for print worksheets and coloring books. Export as a high-resolution JPEG or print-ready PDF at 300 DPI. Files are named coloring_page.jpeg or coloring_page.pdf for easy organization. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.',
       },
     ],
   },
@@ -70,14 +70,14 @@ const content: AppContent = {
           'Switch to Drawing mode and sketch directly on the canvas with the freehand brush. Choose any brush color using the color picker (default #333333) and adjust the brush size from 1 to 50 pixels using the slider. Draw custom borders, add decorative doodles, create original illustrations, or sketch connector lines between images. The drawing tool uses Fabric.js freehand rendering for smooth, responsive strokes. Combined with the image library, freehand drawing lets you create coloring pages that blend curated illustrations with your own original artwork.',
       },
       {
-        title: 'Classroom Helpers: Name Field and Handwriting Lines',
+        title: 'Layout Helpers: Name Field and Handwriting Lines',
         description:
-          'Two one-click classroom helpers transform coloring pages into ready-to-use classroom activities. The Name Field button adds a formatted “Name: ____________________” text block positioned at the top of the page — students write their name before starting. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Together, these helpers make your coloring worksheets classroom-ready without manual text formatting. TPT sellers can highlight these features as built-in differentiation from generic coloring pages.',
+          'Two one-click layout helpers transform coloring pages into ready-to-use printable activities. The Name Field button adds a formatted “Name: ____________________” text block positioned at the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Together, these helpers make your coloring worksheets print-ready without manual text formatting. Sellers can highlight these features as built-in differentiation from generic coloring pages.',
       },
       {
         title: 'Grayscale Export Toggle for Ink-Friendly Coloring Pages',
         description:
-          'The Image Library contains 3,100+ colorful illustrations — but coloring pages need to be printed in black and white so students can add their own colors. The grayscale export toggle solves this by converting your entire composition to grayscale at export time. Design with full-color images for easy visual identification, then flip the toggle to produce ink-friendly coloring worksheets. This workflow is essential for Amazon KDP coloring books where interior pages must be grayscale, and for classroom printing where color ink is expensive or unavailable.',
+          'The Image Library contains 3,100+ colorful illustrations — but coloring pages need to be printed in black and white so users can add their own colors. The grayscale export toggle solves this by converting your entire composition to grayscale at export time. Design with full-color images for easy visual identification, then flip the toggle to produce ink-friendly coloring worksheets. This workflow is essential for Amazon KDP coloring books where interior pages must be grayscale, and for bulk printing where color ink is expensive or unavailable.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI',
         description:
-          'Download coloring pages as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI using a 6x multiplier for crisp output. Page sizes include Letter Portrait (612×792), Letter Landscape (792×612), A4 Portrait (595×842), A4 Landscape (842×595), Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy digital downloads, Amazon KDP book interiors, and TPT resource files.',
+          'Download coloring pages as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI using a 6x multiplier for crisp output. Page sizes include Letter Portrait (612×792), Letter Landscape (792×612), A4 Portrait (595×842), A4 Landscape (842×595), Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy digital downloads, Amazon KDP book interiors, and Gumroad product files.',
       },
       {
         title: 'Full Canvas Editing with Text Tools and Layering Controls',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Classroom Coloring Activity Sheets for TPT',
+        title: 'Niche Coloring Activity Sheets on Gumroad',
         description:
-          'Build ready-to-use classroom coloring worksheets with the built-in classroom helpers. Add a name field so students identify their work, and include handwriting practice lines at the bottom for integrated literacy practice. Teachers searching TPT for coloring activities value worksheets that do more than just coloring — the name field and handwriting lines make your product a multi-skill activity sheet. Create theme-specific sets tied to curriculum units: weather, seasons, community helpers, food groups, and habitats. The visual-only output works for every student regardless of language or reading level.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build ready-to-use coloring worksheets with the built-in layout helpers. Add a name field and include handwriting practice lines at the bottom for integrated literacy practice. Buyers value worksheets that do more than just coloring — the name field and handwriting lines make your product a multi-skill activity sheet that adds perceived value. Create theme-specific sets tied to popular niches: weather, seasons, community helpers, food groups, and habitats. The visual-only output works regardless of language or reading level.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Custom Coloring Pages with Freehand Drawing',
         description:
           'Combine library illustrations with your own freehand drawings to create coloring pages that no other generator can produce. Sketch custom borders, add decorative elements between images, draw connecting scenes that tie multiple images together, or create entirely original illustrations on the canvas. The adjustable brush size (1–50px) handles everything from fine detail work to bold outlines. This hybrid approach — curated library images plus original freehand art — produces coloring pages with genuine creative value that command premium prices in marketplace listings.',
-        platform: 'Etsy / Amazon KDP / TPT',
+        platform: 'Etsy / Amazon KDP / Gumroad',
       },
       {
         title: 'Seasonal and Holiday Coloring Collections',
         description:
           'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, winter holidays, and more. Create time-limited coloring page collections that align with peak shopping periods. Release Halloween coloring bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from the same customer base.',
-        platform: 'Etsy / Amazon KDP / TPT (seasonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
   },
@@ -150,14 +150,14 @@ const content: AppContent = {
         'Toggle the Drawing Tool button to switch from Select mode to Drawing mode. Pick a brush color using the color picker and adjust the brush size from 1 to 50 pixels using the slider. Draw directly on the canvas with your mouse or stylus — strokes are rendered as smooth Fabric.js paths. Toggle back to Select mode to move and edit your drawings like any other canvas object. Combine freehand drawing with library images for hybrid coloring pages.',
     },
     {
-      question: 'What are the classroom helpers and how do I use them?',
+      question: 'What are the layout helpers and how do I use them?',
       answer:
-        'Two one-click buttons in the Classroom Helpers panel. The Name Field button adds a formatted “Name: ____________________” text block near the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Both helpers create standard canvas objects you can reposition, resize, or delete like any other element.',
+        'Two one-click buttons in the Layout Helpers panel. The Name Field button adds a formatted “Name: ____________________” text block near the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Both helpers create standard canvas objects you can reposition, resize, or delete like any other element.',
     },
     {
       question: 'How does the grayscale export toggle work?',
       answer:
-        'The grayscale toggle in the Download panel converts your entire coloring page to grayscale at export time. Your canvas remains in full color for easy visual editing — grayscale is only applied to the exported file. This lets you design with colorful images for identification and then produce ink-friendly output for printing. Essential for Amazon KDP coloring book interiors and classroom printing where color ink is unavailable or expensive.',
+        'The grayscale toggle in the Download panel converts your entire coloring page to grayscale at export time. Your canvas remains in full color for easy visual editing — grayscale is only applied to the exported file. This lets you design with colorful images for identification and then produce ink-friendly output for printing. Essential for Amazon KDP coloring book interiors and bulk printing where color ink is unavailable or expensive.',
     },
     {
       question: 'How do I browse and add images from the library?',
@@ -177,12 +177,12 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for coloring pages?',
       answer:
-        'Coloring pages are creative activities with no single correct answer — the entire purpose is for students or colorists to add their own colors. Unlike math worksheets or letter tracing exercises, there is no right or wrong way to color a page. This makes coloring pages ideal low-preparation products for sellers because you export only the coloring page itself, with no additional answer key file to create.',
+        'Coloring pages are creative activities with no single correct answer — the entire purpose is for users to add their own colors. Unlike math worksheets or letter tracing exercises, there is no right or wrong way to color a page. This makes coloring pages ideal low-preparation products for sellers because you export only the coloring page itself, with no additional answer key file to create.',
     },
     {
       question: 'Is there a free trial?',
       answer:
-        'Yes. You can access every feature — the free-form canvas, all drawing tools, the image library, classroom helpers, border themes, grayscale export, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
+        'Yes. You can access every feature — the free-form canvas, all drawing tools, the image library, layout helpers, border themes, grayscale export, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
       question: 'Is the Coloring Page Generator language-sensitive?',
@@ -192,12 +192,12 @@ const content: AppContent = {
     {
       question: 'Can I sell coloring pages made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your coloring pages as digital downloads on Etsy, as printed coloring books on Amazon KDP, as classroom resources on TPT, or through any other sales channel. The free-form canvas, freehand drawing tool, and 104 themed image collections give you the creative tools to produce original, sellable coloring page products.',
+        'Yes. With a commercial license, you have full rights to sell your coloring pages as digital downloads on Etsy, as printed coloring books on Amazon KDP, as products on Gumroad, or through any other sales channel. The free-form canvas, freehand drawing tool, and 104 themed image collections give you the creative tools to produce original, sellable coloring page products.',
     },
     {
       question: 'What is the refund policy?',
       answer:
-        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, classroom helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
+        'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, layout helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
     },
   ],
 
@@ -262,7 +262,7 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/english/coloring/coloring portrait 1.webp',
-      primaryAlt: 'Custom coloring page with themed images arranged on free-form canvas with decorative border and classroom name field',
+      primaryAlt: 'Custom coloring page with themed images arranged on free-form canvas with decorative border and name field',
     },
     sampleGallery: [
       {
@@ -272,8 +272,8 @@ const content: AppContent = {
       },
       {
         src: '/samples/english/coloring/coloring portrait 3.webp',
-        alt: 'Coloring page with handwriting lines and student name field for classroom use',
-        caption: 'Classroom-ready coloring page — name field and handwriting practice lines included',
+        alt: 'Coloring page with handwriting lines and name field for print-ready use',
+        caption: 'Print-ready coloring page — name field and handwriting practice lines included',
       },
       {
         src: '/samples/english/coloring/coloring landscape 1.webp',

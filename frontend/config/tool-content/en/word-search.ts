@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Word Search Worksheet Generator',
     tagline: 'Create hidden-word grid puzzles with adjustable sizes, direction controls, and locale-aware fillers in 11 languages',
-    description: 'Design professional word search worksheets where hidden words are embedded inside a grid of random filler letters and students scan rows, columns, and diagonals to find them — the classic puzzle format that never goes out of style. This tool gives you precise control over difficulty through two independent axes: grid size (adjustable from 5×5 to 30×30 with rows and columns set independently) and word direction toggles (diagonal words on or off, reverse words on or off) creating anywhere from two to eight possible placement directions. Choose from three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Three display modes — Words + Images, Images Only, and Words Only — control what appears as clues alongside the grid. The standout feature is locale-aware alphabet filler: when you switch languages, the grid filler letters change to match that language’s character set with weighted frequency distributions. German grids include ä, ö, ü, and ß at natural frequencies. French grids include é, è, ç, à. Swedish grids include å, ä, ö. Every locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. A color-coded answer key highlights each found word in one of six cycling colors — pink, blue, green, gold, coral, and lavender — for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 7 font families, add student name and date fields, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Design professional word search worksheets where hidden words are embedded inside a grid of random filler letters and solvers scan rows, columns, and diagonals to find them — the classic puzzle format that never goes out of style. This tool gives you precise control over difficulty through two independent axes: grid size (adjustable from 5×5 to 30×30 with rows and columns set independently) and word direction toggles (diagonal words on or off, reverse words on or off) creating anywhere from two to eight possible placement directions. Choose from three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Three display modes — Words + Images, Images Only, and Words Only — control what appears as clues alongside the grid. The standout feature is locale-aware alphabet filler: when you switch languages, the grid filler letters change to match that language’s character set with weighted frequency distributions. German grids include ä, ö, ü, and ß at natural frequencies. French grids include é, è, ç, à. Swedish grids include å, ä, ö. Every locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. A color-coded answer key highlights each found word in one of six cycling colors — pink, blue, green, gold, coral, and lavender — for instant visual verification. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 7 font families, add name and date fields, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configure Grid Size and Dimensions',
-        description: 'Set rows and columns independently from 5 to 30. The default is 12×12. A 5×5 grid with 25 cells creates a quick, approachable puzzle for young learners. A 20×20 or 30×30 grid creates a dense, challenging search for experienced solvers. Adjusting grid dimensions is the primary way to control how much visual scanning each puzzle demands. Match grid size to your target audience: small for kindergarteners, medium for elementary students, large for adults and puzzle enthusiasts.',
+        description: 'Set rows and columns independently from 5 to 30. The default is 12×12. A 5×5 grid with 25 cells creates a quick, approachable puzzle for beginners. A 20×20 or 30×30 grid creates a dense, challenging search for experienced solvers. Adjusting grid dimensions is the primary way to control how much visual scanning each puzzle demands. Match grid size to your target audience: small for beginners, medium for intermediate solvers, large for adults and puzzle enthusiasts.',
       },
       {
         title: 'Toggle Word Direction Controls',
@@ -53,7 +53,7 @@ const content: ToolContent = {
       },
       {
         title: 'Customize Fonts, Text, and Canvas',
-        description: 'Choose from 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, or Verdana. Toggle student name and date fields on or off. Add custom text overlays with instructions or titles. Use the Fabric.js canvas tools to drag, resize, rotate, and reposition every element on the page. Alignment tools, lock and unlock controls, and unlimited undo and redo let you fine-tune the layout precisely.',
+        description: 'Choose from 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, or Verdana. Toggle name and date fields on or off. Add custom text overlays with instructions or titles. Use the Fabric.js canvas tools to drag, resize, rotate, and reposition every element on the page. Alignment tools, lock and unlock controls, and unlimited undo and redo let you fine-tune the layout precisely.',
       },
       {
         title: 'Generate Answer Key and Download',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Word Search Puzzle Packs',
-      description: 'Create sets of 10–20 word search worksheets grouped by theme — farm animals, ocean creatures, vehicles, food, holidays, and more. Vary the grid size and direction settings across the set for progressive difficulty: start with an 8×8 horizontal-only grid and build to a 16×16 diagonal-and-reverse grid. Include color-coded answer keys for every puzzle. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The grid-and-image format makes listing thumbnails instantly recognizable as engaging puzzle activities.',
+      description: 'Create sets of 10–20 word search worksheets grouped by theme — farm animals, ocean creatures, vehicles, food, holidays, and more. Vary the grid size and direction settings across the set for progressive difficulty: start with an 8×8 horizontal-only grid and build to a 16×16 diagonal-and-reverse grid. Include color-coded answer keys for every puzzle. Bundle by theme and sell on Etsy or Gumroad. The grid-and-image format makes listing thumbnails instantly recognizable as engaging puzzle activities.',
     },
     {
       title: 'KDP Word Search Puzzle Books',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiated Vocabulary Grid Sets',
-      description: 'Build leveled word search practice sets using grid size and direction controls as differentiation axes. Level 1: 8×8 grid, horizontal only, 4 words. Level 2: 12×12 grid, horizontal and vertical, 6 words. Level 3: 16×16, diagonals enabled, 8 words. Level 4: 20×20, diagonals and reverse, 8 words. Package each level with answer keys and a progress tracking guide. Teachers pay premium prices for differentiated resources they can deploy across multiple ability levels.',
+      description: 'Build leveled word search practice sets using grid size and direction controls as differentiation axes. Level 1: 8×8 grid, horizontal only, 4 words. Level 2: 12×12 grid, horizontal and vertical, 6 words. Level 3: 16×16, diagonals enabled, 8 words. Level 4: 20×20, diagonals and reverse, 8 words. Package each level with answer keys and a progress tracking guide. Buyers pay premium prices for differentiated resources they can use across multiple ability levels.',
     },
     {
       title: 'Multilingual Word Search Products',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Puzzle Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Halloween Word Search" pack with spooky vocabulary in progressively larger grids sells strongly in October. Christmas, back-to-school, spring, and summer themes each have their own peak sales windows on Etsy and TpT. Combine small easy grids for younger students with large challenging grids for older kids in a single seasonal bundle to maximize your buyer audience.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Halloween Word Search" pack with spooky vocabulary in progressively larger grids sells strongly in October. Christmas, back-to-school, spring, and summer themes each have their own peak sales windows on Etsy and Gumroad. Combine small easy grids for beginners with large challenging grids for advanced users in a single seasonal bundle to maximize your buyer audience.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Difficulty-Graded Puzzle Shop on Etsy',
-      description: 'Open an Etsy shop specializing in word search worksheets organized by difficulty level. Use grid size and direction toggles to create clearly differentiated tiers: Beginner (8×8, horizontal only), Intermediate (12×12, diagonals enabled), Advanced (18×18, diagonals and reverse), and Expert (25×25, all eight directions). Most word search sellers offer generic one-size puzzles — difficulty-graded products let buyers find exactly the right challenge level for their students, resulting in better reviews and repeat purchases.',
+      description: 'Open an Etsy shop specializing in word search worksheets organized by difficulty level. Use grid size and direction toggles to create clearly differentiated tiers: Beginner (8×8, horizontal only), Intermediate (12×12, diagonals enabled), Advanced (18×18, diagonals and reverse), and Expert (25×25, all eight directions). Most word search sellers offer generic one-size puzzles — difficulty-graded products let buyers find exactly the right challenge level for their needs, resulting in better reviews and repeat purchases.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Vocabulary Centers',
-      description: 'Upload word search worksheet packs to TpT organized by theme and difficulty. Include four difficulty levels per theme using grid size and direction controls as differentiation axes. Package with color-coded answer keys and student progress tracking sheets. Teachers search for "vocabulary activities" and "word search worksheets" frequently. The adjustable difficulty means one product serves an entire classroom of mixed abilities, which teachers value highly and mention in reviews.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Vocabulary Centers',
+      description: 'Upload word search worksheet packs to Gumroad or your own store organized by theme and difficulty. Include four difficulty levels per theme using grid size and direction controls as differentiation axes. Package with color-coded answer keys and progress tracking sheets. Buyers search for "vocabulary activities" and "word search worksheets" frequently. The adjustable difficulty means one product serves an entire range of abilities, which buyers value highly and mention in reviews.',
+      platform: 'Gumroad',
     },
     {
       title: 'Multilingual Puzzle Store',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad Complete Puzzle Toolkit',
-      description: 'Bundle word search worksheets with word scramble, word guess, cryptogram, and matching worksheets to create a comprehensive puzzle toolkit on Gumroad. Each format exercises a different cognitive skill: word search builds visual scanning and pattern recognition, word scramble practices letter rearrangement, word guess tests fill-in-the-blank spelling recall. A multi-format puzzle kit justifies a premium price point and gives students varied practice with the same vocabulary.',
+      description: 'Bundle word search worksheets with word scramble, word guess, cryptogram, and matching worksheets to create a comprehensive puzzle toolkit on Gumroad. Each format exercises a different cognitive skill: word search builds visual scanning and pattern recognition, word scramble practices letter rearrangement, word guess tests fill-in-the-blank spelling recall. A multi-format puzzle kit justifies a premium price point and gives learners varied practice with the same vocabulary.',
       platform: 'Gumroad',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use Grid Size as Your Primary Difficulty Control',
-      description: 'A 5×5 grid with 25 cells is a quick, easy puzzle where words are found almost immediately. A 20×20 grid with 400 cells requires sustained visual scanning. Use small grids for kindergarteners and beginners, medium grids for elementary students, and large grids for adults and puzzle enthusiasts. Grid size affects difficulty more than any other single setting.',
+      description: 'A 5×5 grid with 25 cells is a quick, easy puzzle where words are found almost immediately. A 20×20 grid with 400 cells requires sustained visual scanning. Use small grids for beginners, medium grids for intermediate solvers, and large grids for adults and puzzle enthusiasts. Grid size affects difficulty more than any other single setting.',
     },
     {
       title: 'Layer Direction Controls for Progressive Challenge',
@@ -137,15 +137,15 @@ const content: ToolContent = {
     },
     {
       title: 'Use Display Modes Strategically',
-      description: 'Words + Images mode is the standard — great for vocabulary building. Images Only mode adds an extra challenge: students must identify what the picture depicts before they can search for the word. Words Only mode creates classic text-based word searches without any visual clues. Offer all three modes as variants of the same theme pack to triple your product range from a single design session.',
+      description: 'Words + Images mode is the standard — great for vocabulary building. Images Only mode adds an extra challenge: solvers must identify what the picture depicts before they can search for the word. Words Only mode creates classic text-based word searches without any visual clues. Offer all three modes as variants of the same theme pack to triple your product range from a single design session.',
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images and colorful grids attract clicks.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images and colorful grids attract clicks.',
     },
     {
       title: 'Color-Coded Answer Keys Add Professional Value',
-      description: 'The six-color answer key — pink, blue, green, gold, coral, lavender — highlights each word distinctly, even when words cross or overlap in the grid. Always include answer keys in your product bundles. Teachers expect them, parents appreciate them, and the color-coded format looks professional in your listing previews compared to simple circle-the-word answer keys.',
+      description: 'The six-color answer key — pink, blue, green, gold, coral, lavender — highlights each word distinctly, even when words cross or overlap in the grid. Always include answer keys in your product bundles. Buyers expect them, and the color-coded format looks professional in your listing previews compared to simple circle-the-word answer keys.',
     },
     {
       title: 'Pair with Other Literacy Tools for Premium Bundles',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does the word search puzzle format work?',
-      answer: 'Hidden words are embedded inside a grid of random filler letters. Students scan rows, columns, and optionally diagonals to find each word, then circle or highlight it. The grid filler letters are randomized each time you generate, so every puzzle is unique even with the same word list. Up to 8 words can be placed in a single grid.',
+      answer: 'Hidden words are embedded inside a grid of random filler letters. Solvers scan rows, columns, and optionally diagonals to find each word, then circle or highlight it. The grid filler letters are randomized each time you generate, so every puzzle is unique even with the same word list. Up to 8 words can be placed in a single grid.',
     },
     {
       question: 'What grid sizes are available?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does word search differ from word scramble and word guess?',
-      answer: 'Word Search is a visual scanning puzzle — students find hidden words embedded in a grid of random letters by scanning rows, columns, and diagonals. Word Scramble gives students shuffled letter tiles to rearrange into the correct spelling. Word Guess shows blanks in fixed positions and students fill in the missing letters. Each format exercises a different cognitive skill and they pair well together in bundled products.',
+      answer: 'Word Search is a visual scanning puzzle — solvers find hidden words embedded in a grid of random letters by scanning rows, columns, and diagonals. Word Scramble gives solvers shuffled letter tiles to rearrange into the correct spelling. Word Guess shows blanks in fixed positions and solvers fill in the missing letters. Each format exercises a different cognitive skill and they pair well together in bundled products.',
     },
     {
       question: 'Which languages are supported?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',

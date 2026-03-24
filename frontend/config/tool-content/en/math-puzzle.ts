@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'math puzzle maker for classroom',
+    primaryKeyword: 'math puzzle maker to sell online',
     secondaryKeywords: [
-      'jigsaw math worksheets for teachers',
-      'math puzzle creator for kids',
-      'picture math puzzles for classroom',
-      'printable math puzzle worksheets for students',
+      'jigsaw math worksheets for Etsy sellers',
+      'math puzzle creator for printable business',
+      'picture math puzzles to sell online',
+      'printable math puzzle worksheets for commercial use',
     ],
     lsiKeywords: [
-      'image grid math puzzle for classroom use',
-      'jigsaw-style math activity for kids',
+      'image grid math puzzle for sellers',
+      'jigsaw-style math activity printable',
       'configurable math puzzle worksheet creator',
     ],
-    titleTag: 'Math Puzzle Maker — Jigsaw Worksheets for Class',
-    metaDescription: 'Create jigsaw-style math puzzles for your classroom. Image grid puzzles with addition and subtraction, configurable grids, answer keys. Try with watermark.',
+    titleTag: 'Math Puzzle Maker — Jigsaw Worksheets to Sell Online',
+    metaDescription: 'Create jigsaw-style math puzzles to sell on Etsy & KDP. Image grid puzzles with addition and subtraction, configurable grids, answer keys. Try with watermark.',
     },
 
   hero: {
     title: 'Math Puzzle Worksheet Generator',
     tagline: 'Create jigsaw-style image puzzles with math equations in under 60 seconds',
-    description: 'Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below — students solve each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2×2 (4 pieces, easiest) up to 4×4 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results — buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Turn math practice into an engaging visual puzzle that looks nothing like a standard worksheet. This tool splits a chosen image into a grid of cells, each containing a math equation. Scrambled puzzle pieces with answer numbers appear below — solvers complete each equation and match the correct piece to reconstruct the picture. Choose from three operation modes: Addition, Subtraction, or Mixed (both operations randomly combined). Adjust grid size from 2×2 (4 pieces, easiest) up to 4×4 (16 pieces, hardest) to match any skill level. Upload your own PNG or JPEG images for branded, seasonal, or niche puzzles, or browse the built-in library of 3,100+ images across 104 themes. The jigsaw format creates an instantly recognizable product that stands out in marketplace search results — buyers scrolling through rows of identical worksheets will stop at a colorful image puzzle. Download as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Themed Math Puzzle Packs',
-      description: 'Create sets of 15–20 puzzles using themed images from the library — dinosaurs, space, animals, vehicles. Each puzzle uses a different image with Addition or Subtraction equations at a consistent grid size. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The jigsaw format makes your listing thumbnail instantly stand out from standard math worksheets. Consider pairing each theme pack with a matching answer key booklet and a cover page featuring the theme artwork. Sellers who include professional cover pages and consistent formatting across every page report stronger customer reviews and repeat purchases from the same buyer.',
+      description: 'Create sets of 15–20 puzzles using themed images from the library — dinosaurs, space, animals, vehicles. Each puzzle uses a different image with Addition or Subtraction equations at a consistent grid size. Bundle by theme and sell on Etsy or Gumroad. The jigsaw format makes your listing thumbnail instantly stand out from standard math worksheets. Consider pairing each theme pack with a matching answer key booklet and a cover page featuring the theme artwork. Sellers who include professional cover pages and consistent formatting across every page report stronger customer reviews and repeat purchases from the same buyer.',
     },
     {
       title: 'KDP Puzzle Workbooks',
@@ -72,19 +72,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Custom-Image Branded Puzzles',
-      description: 'Upload your own images — logo designs, hand-drawn illustrations, or licensed artwork — to create branded puzzle worksheets that no competitor can replicate. Perfect for teachers who want classroom mascots, homeschool families personalizing curriculum, or sellers building a distinctive visual brand.',
+      description: 'Upload your own images — logo designs, hand-drawn illustrations, or licensed artwork — to create branded puzzle worksheets that no competitor can replicate. Perfect for sellers who want branded designs, personalized curriculum products, or a distinctive visual brand that stands out on marketplaces.',
     },
     {
       title: 'Differentiated Difficulty Sets',
-      description: 'Generate three versions of the same themed puzzle at different levels: easy (2×2 grid, Addition only), medium (3×3 grid, Addition or Subtraction), and hard (4×4 grid, Mixed operations). Teachers can hand the right level to each student. Sell as a differentiated pack at a premium price point.',
+      description: 'Generate three versions of the same themed puzzle at different levels: easy (2×2 grid, Addition only), medium (3×3 grid, Addition or Subtraction), and hard (4×4 grid, Mixed operations). Buyers get the right level for every skill range. Sell as a differentiated pack at a premium price point.',
     },
     {
       title: 'Seasonal and Holiday Puzzle Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Math Puzzle" pack with festive images sells strongly in November–December. Halloween, Valentine’s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and TpT.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Math Puzzle" pack with festive images sells strongly in November–December. Halloween, Valentine’s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad.',
     },
     {
-      title: 'Classroom Warm-Up Puzzles',
-      description: 'Generate quick 2×2 or 2×3 puzzles for daily math warm-ups. Students solve 4–6 equations and piece together a fun image in under five minutes. Create a set of 30 puzzles (one per school day) and sell as a "Month of Math Puzzle Warm-Ups" pack. The game-like format keeps students engaged from the first bell.',
+      title: 'Daily Warm-Up Puzzles',
+      description: 'Generate quick 2×2 or 2×3 puzzles for daily math warm-ups. Solvers complete 4–6 equations and piece together a fun image in under five minutes. Create a set of 30 puzzles and sell as a "Month of Math Puzzle Warm-Ups" pack. The game-like format keeps learners engaged from the very first page.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Premium Packs',
-      description: 'Upload differentiated math puzzle packs to TpT. Teachers search for "math puzzles" and "math games" constantly. Include all three operation modes, three difficulty levels, answer keys, and a teacher guide in each listing. The jigsaw format adds perceived value because it feels like a game, not a drill. Add a one-page "How to Use" instruction sheet explaining grid difficulty levels, suggested grade ranges, and tips for classroom implementation. TpT buyers consistently leave higher ratings for resources that include teacher-facing documentation, which in turn boosts your listing\'s visibility in TpT search results.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Premium Puzzle Packs',
+      description: 'Upload differentiated math puzzle packs to Gumroad or your own store. Buyers search for "math puzzles" and "math games" constantly. Include all three operation modes, three difficulty levels, answer keys, and a usage guide in each listing. The jigsaw format adds perceived value because it feels like a game, not a drill. Add a one-page "How to Use" instruction sheet explaining grid difficulty levels and suggested age ranges. Gumroad buyers consistently leave higher ratings for resources that include clear documentation, which in turn boosts your listing\'s visibility in search results.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Custom-Image Puzzle Kits',
-      description: 'Create a premium puzzle kit on Gumroad that includes 30+ puzzles using hand-picked or custom-uploaded images. Target homeschool parents who want visually engaging math materials. Include a guide explaining how to use puzzles at each difficulty level for a structured curriculum.',
+      description: 'Create a premium puzzle kit on Gumroad that includes 30+ puzzles using hand-picked or custom-uploaded images. Target buyers who want visually engaging math materials. Include a guide explaining how to use puzzles at each difficulty level for a structured curriculum.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Start with 2×2 for Young Learners',
-      description: 'A 2×2 grid has only 4 puzzle pieces and 4 equations — manageable for preschoolers and kindergartners just learning addition. Increase to 3×3 for first graders and 4×4 for second grade and above. Matching grid size to age group is the easiest way to create differentiated products. When selling on marketplaces, clearly label the recommended age or grade range in your product title and description. Buyers filter by grade level, so a listing titled "Kindergarten Math Puzzles — 2×2 Grid Addition" will reach the right audience faster than a generic "Math Puzzles" title.',
+      description: 'A 2×2 grid has only 4 puzzle pieces and 4 equations — manageable for the beginner tier just learning addition. Increase to 3×3 for the early-learner niche and 4×4 for the K-2 product market and above. Matching grid size to age group is the easiest way to create differentiated products. When selling on marketplaces, clearly label the recommended age range in your product title and description. Buyers filter by age, so a listing titled "Beginner Math Puzzles — 2×2 Grid Addition" will reach the right audience faster than a generic "Math Puzzles" title.',
     },
     {
       title: 'Use Mixed Mode for Maximum Variety',
-      description: 'The "Addition & Subtraction" mode randomly mixes both operations in a single puzzle. This creates review worksheets that test both skills simultaneously and prevents students from falling into a repetitive pattern. Mixed mode puzzles also have higher perceived value in marketplace listings. Etsy and TpT buyers searching for "math review" or "end of unit assessment" activities specifically look for mixed-operation resources, so tagging your listings with these terms captures a distinct buyer segment that single-operation sellers miss entirely.',
+      description: 'The "Addition & Subtraction" mode randomly mixes both operations in a single puzzle. This creates review worksheets that test both skills simultaneously and prevents solvers from falling into a repetitive pattern. Mixed mode puzzles also have higher perceived value in marketplace listings. Etsy and Gumroad buyers searching for "math review" or "comprehensive practice" activities specifically look for mixed-operation resources, so tagging your listings with these terms captures a distinct buyer segment that single-operation sellers miss entirely.',
     },
     {
       title: 'Upload Custom Images for Brand Recognition',
@@ -144,11 +144,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Showcase the Puzzle Format in Thumbnails',
-      description: 'The jigsaw grid is visually unique and instantly recognizable. Use your JPEG downloads as product thumbnails on Etsy and TpT. A colorful image split into numbered puzzle pieces catches the eye far more effectively than a plain worksheet preview.',
+      description: 'The jigsaw grid is visually unique and instantly recognizable. Use your JPEG downloads as product thumbnails on Etsy and Gumroad. A colorful image split into numbered puzzle pieces catches the eye far more effectively than a plain worksheet preview.',
     },
     {
       title: 'Always Include the Answer Key',
-      description: 'Generate the answer key before downloading. The answer key shows each puzzle piece placed in its correct grid position with the solved equations. Buyers on Etsy and TpT consistently rate products higher when an answer key is included — it saves teachers grading time.',
+      description: 'Generate the answer key before downloading. The answer key shows each puzzle piece placed in its correct grid position with the solved equations. Buyers on Etsy and Gumroad consistently rate products higher when an answer key is included — it saves grading time.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'How does the math puzzle format work?',
-      answer: 'The tool splits a chosen image into a grid of cells. Each cell displays a math equation (addition, subtraction, or both). Below the grid, scrambled puzzle pieces show answer numbers. Students solve each equation, find the matching piece, and place it in the correct cell to reconstruct the full image.',
+      answer: 'The tool splits a chosen image into a grid of cells. Each cell displays a math equation (addition, subtraction, or both). Below the grid, scrambled puzzle pieces show answer numbers. Solvers complete each equation, find the matching piece, and place it in the correct cell to reconstruct the full image.',
     },
     {
       question: 'What grid sizes are available?',
@@ -167,7 +167,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What are the three operation modes?',
-      answer: 'Addition mode fills every cell with an addition equation. Subtraction mode uses subtraction equations. Addition & Subtraction mode randomly mixes both operations across the grid, creating review puzzles that test both skills in a single activity. For product sellers, offering all three modes within a single bundle increases perceived value because teachers get focused practice sheets and comprehensive review sheets in one purchase. Listing each mode as a separate product also works well, giving you three distinct listings from the same design template.',
+      answer: 'Addition mode fills every cell with an addition equation. Subtraction mode uses subtraction equations. Addition & Subtraction mode randomly mixes both operations across the grid, creating review puzzles that test both skills in a single activity. For product sellers, offering all three modes within a single bundle increases perceived value because buyers get focused practice sheets and comprehensive review sheets in one purchase. Listing each mode as a separate product also works well, giving you three distinct listings from the same design template.',
     },
     {
       question: 'Can I upload my own images?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Can I use the puzzles for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell puzzles on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create. There is no limit on how many puzzles you can generate or sell once licensed. You own the output files and can list them on multiple platforms simultaneously — the same puzzle pack can appear on Etsy, TpT, Gumroad, and KDP without additional fees.',
+      answer: 'The free trial with watermark is for personal use only. To sell puzzles on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create. There is no limit on how many puzzles you can generate or sell once licensed. You own the output files and can list them on multiple platforms simultaneously — the same puzzle pack can appear on Etsy, Gumroad, and KDP without additional fees.',
     },
     {
       question: 'Do the puzzles work in languages other than English?',
@@ -224,7 +224,7 @@ const content: ToolContent = {  seo: {
       },
       {
         src: '/samples/english/math puzzle/Math Puzzles (10).webp',
-        alt: 'Mixed addition and subtraction math puzzle with a larger grid for advanced students',
+        alt: 'Mixed addition and subtraction math puzzle with a larger grid for advanced learners',
         caption: 'Mixed operations — addition and subtraction in one puzzle',
       },
     ],

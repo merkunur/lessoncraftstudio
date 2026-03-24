@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable math puzzle worksheets for Etsy',
       'crack the code printables for Amazon KDP',
-      'math puzzle maker for TPT sellers',
+      'math puzzle maker for printable sellers',
       'code breaking worksheet commercial license',
     ],
     lsiKeywords: [
@@ -16,14 +16,14 @@ const content: AppContent = {
     ],
     titleTag: 'Code Addition Generator | Create Math Cipher Puzzles',
     metaDescription:
-      'Create code-breaking addition puzzles to sell on Etsy, Amazon KDP, and TPT. Word Reveal mode, 104 themes, 11 languages, answer keys, 400+ DPI. Free to try.',
+      'Create code-breaking addition puzzles to sell on Etsy, Amazon KDP, and Gumroad. Word Reveal mode, 104 themes, 11 languages, answer keys, 400+ DPI. Free to try.',
   },
 
   hero: {
     title: 'Code Addition Worksheet Generator — Crack-the-Code Math Puzzles',
     tagline: 'Turn addition practice into a detective mission where every image hides a secret number.',
     description:
-      'Create cryptarithmetic addition worksheets that challenge students to crack a visual code. Each image on the worksheet represents a hidden number — students solve addition equations to deduce which number belongs to which picture, combining math fluency with logical reasoning in a single exercise. Switch to Word Reveal mode and the stakes rise: enter a secret word of up to ten letters, and each correctly solved equation reveals one letter of the answer while three distractor letters with wrong sums keep students guessing. The generator supports eleven language-specific alphabets, so Word Reveal works natively in English, German, French, Spanish, and seven more locales — a feature no other worksheet maker offers. Choose from over 3,100 images across 104 visual themes, set number ranges from 1 to 20 with two to five code symbols per sheet, and export print-ready PDFs or JPEGs at 400+ DPI with automatic answer keys that overlay the hidden number on each image. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Create cryptarithmetic addition worksheets that challenge solvers to crack a visual code. Each image on the worksheet represents a hidden number — solvers work through addition equations to deduce which number belongs to which picture, combining math fluency with logical reasoning in a single exercise. Switch to Word Reveal mode and the stakes rise: enter a secret word of up to ten letters, and each correctly solved equation reveals one letter of the answer while three distractor letters with wrong sums keep solvers guessing. The generator supports eleven language-specific alphabets, so Word Reveal works natively in English, German, French, Spanish, and seven more locales — a feature no other worksheet maker offers. Choose from over 3,100 images across 104 visual themes, set number ranges from 1 to 20 with two to five code symbols per sheet, and export print-ready PDFs or JPEGs at 400+ DPI with automatic answer keys that overlay the hidden number on each image. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -42,17 +42,17 @@ const content: AppContent = {
       {
         title: 'Pick Images from the Theme Library',
         description:
-          'Open the Image Library panel and browse 104 themes — from animals and dinosaurs to space and holidays. Use the search bar to find specific images instantly. The images you select become the code symbols on your worksheet: each image maps to a hidden number that students must deduce. You can also upload your own custom PNG or JPEG files for branded or seasonal puzzles that stand out in crowded marketplaces.',
+          'Open the Image Library panel and browse 104 themes — from animals and dinosaurs to space and holidays. Use the search bar to find specific images instantly. The images you select become the code symbols on your worksheet: each image maps to a hidden number that solvers must deduce. You can also upload your own custom PNG or JPEG files for branded or seasonal puzzles that stand out in crowded marketplaces.',
       },
       {
         title: 'Add Text, Titles, and Toggle Options',
         description:
-          'Use the Text Tools panel to add a worksheet title, student name and date fields, instructions, or any custom text. Choose from seven child-friendly fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Toggle exercise numbers on or off, show or hide the header and border, and enable grayscale mode for ink-friendly printing. Every toggle updates the live canvas preview instantly so you can fine-tune the layout before exporting.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven readable fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Toggle exercise numbers on or off, show or hide the header and border, and enable grayscale mode for ink-friendly printing. Every toggle updates the live canvas preview instantly so you can fine-tune the layout before exporting.',
       },
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab and click Generate to create a solved version of your worksheet. The answer key overlays each hidden number directly on its image symbol, making solutions crystal clear for teachers and parents. Export both the worksheet and the answer key as high-resolution JPEG or print-ready PDF. Every file renders at a 6x multiplier — over 400 DPI on standard page sizes — so your code-cracking puzzles look crisp whether printed at home, sent to a commercial printer, or uploaded to Etsy and Amazon KDP.',
+          'Switch to the Answer Key tab and click Generate to create a solved version of your worksheet. The answer key overlays each hidden number directly on its image symbol, making solutions crystal clear for instant reference. Export both the worksheet and the answer key as high-resolution JPEG or print-ready PDF. Every file renders at a 6x multiplier — over 400 DPI on standard page sizes — so your code-cracking puzzles look crisp whether printed at home, sent to a commercial printer, or uploaded to Etsy and Amazon KDP.',
       },
     ],
   },
@@ -63,12 +63,12 @@ const content: AppContent = {
       {
         title: 'Code-Breaking Mechanic — Images as Hidden Numbers',
         description:
-          'The defining feature of this generator is its cryptarithmetic engine. Each image on the worksheet secretly represents a specific number. Students solve addition equations where the addends and sums are shown as pictures, then use logical deduction to figure out which number each image stands for. This transforms routine addition drill into a detective-style puzzle that engages higher-order thinking alongside basic math fluency. Because the puzzles require reasoning across multiple equations simultaneously, students build problem-solving skills that go far beyond simple recall.',
+          'The defining feature of this generator is its cryptarithmetic engine. Each image on the worksheet secretly represents a specific number. Solvers work through addition equations where the addends and sums are shown as pictures, then use logical deduction to figure out which number each image stands for. This transforms routine addition drill into a detective-style puzzle that engages higher-order thinking alongside basic math fluency. Because the puzzles require reasoning across multiple equations simultaneously, the puzzles build problem-solving engagement that goes far beyond simple recall.',
       },
       {
         title: 'Word Reveal Mode with Secret Words',
         description:
-          'Activate Word Reveal mode and type a secret word of up to ten letters. The generator creates one addition equation for each letter in the word — the sum of each equation maps to a specific letter. Students solve the equations, match sums to the letter chart, and spell out the hidden word. Three distractor equations with incorrect sums are added automatically, giving students extra problems that do not correspond to any letter and forcing them to verify every answer. If the number range cannot produce enough unique sums for all letters, the app intelligently auto-adjusts by widening the range or increasing the number of addends from two up to four.',
+          'Activate Word Reveal mode and type a secret word of up to ten letters. The generator creates one addition equation for each letter in the word — the sum of each equation maps to a specific letter. Solvers work through the equations, match sums to the letter chart, and spell out the hidden word. Three distractor equations with incorrect sums are added automatically, giving solvers extra problems that do not correspond to any letter and forcing them to verify every answer. If the number range cannot produce enough unique sums for all letters, the app intelligently auto-adjusts by widening the range or increasing the number of addends from two up to four.',
       },
       {
         title: 'Language-Sensitive Alphabets for 11 Locales',
@@ -78,17 +78,17 @@ const content: AppContent = {
       {
         title: 'Configurable Number Ranges and Symbol Count',
         description:
-          'Set minimum and maximum addend values anywhere from 1 to 20 to control problem difficulty. Choose between two and five unique image symbols per worksheet to adjust the complexity of the deduction challenge — two symbols creates an accessible puzzle for younger students, while five symbols demands careful tracking across many equations. The combination of number range and symbol count gives you fine-grained control over difficulty, letting you create progressive worksheet sets from easy to expert in minutes.',
+          'Set minimum and maximum addend values anywhere from 1 to 20 to control problem difficulty. Choose between two and five unique image symbols per worksheet to adjust the complexity of the deduction challenge — two symbols creates an accessible puzzle for beginner-level products, while five symbols demands careful tracking across many equations. The combination of number range and symbol count gives you fine-grained control over difficulty, letting you create progressive worksheet sets from easy to expert in minutes.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
         description:
-          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear, child-friendly printing. In Code Addition, the images serve as the code symbols themselves — students see a cat, a rocket, and a cupcake and must figure out that the cat equals 3, the rocket equals 7, and the cupcake equals 5. Themed puzzles are irresistible to kids and highly sellable as printable products.',
+          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear printing. In Code Addition, the images serve as the code symbols themselves — solvers see a cat, a rocket, and a cupcake and must figure out that the cat equals 3, the rocket equals 7, and the cupcake equals 5. Themed puzzles are irresistible to kids and highly sellable as printable products.',
       },
       {
         title: 'Automatic Answer Key with Number Overlays',
         description:
-          'Generate a complete answer key with one click. The answer key mirrors your worksheet layout and overlays the hidden number directly on top of each image symbol, so the solution is immediately obvious. In Word Reveal mode, the answer key also shows the decoded word and identifies which equations were distractors. Export the answer key as a separate file for easy inclusion in teacher editions, parent guides, or commercial product bundles.',
+          'Generate a complete answer key with one click. The answer key mirrors your worksheet layout and overlays the hidden number directly on top of each image symbol, so the solution is immediately obvious. In Word Reveal mode, the answer key also shows the decoded word and identifies which equations were distractors. Export the answer key as a separate file for easy inclusion in Etsy product bundles, KDP book appendices, or commercial product packages.',
       },
       {
         title: 'Print-Ready Export at 400+ DPI with Grayscale Option',
@@ -119,22 +119,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Math Centers with Word Reveal on TPT',
+        title: 'Tiered Code-Cracking Bundles with Word Reveal',
         description:
-          'Build leveled code addition sets for Teachers Pay Teachers: Level 1 uses two symbols with sums under 10, Level 2 uses three symbols with sums under 15, Level 3 uses four or five symbols with sums up to 20, and a bonus Word Reveal level has students decode vocabulary words. Package each level with answer keys and a student tracking sheet. The code-breaking mechanic naturally differentiates — more symbols and higher ranges increase difficulty without changing the activity format, so all students in a math center do the same type of work at their own level.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled code addition sets for your store: Level 1 uses two symbols with sums under 10, Level 2 uses three symbols with sums under 15, Level 3 uses four or five symbols with sums up to 20, and a bonus Word Reveal level has solvers decode vocabulary words. Package each level with answer keys and a progress tracking sheet. The code-breaking mechanic naturally differentiates — more symbols and higher ranges increase difficulty without changing the activity format, so a single bundle covers all difficulty levels.',
+        platform: 'Gumroad / Your Own Store',
       },
       {
         title: 'Multilingual Math Puzzle Packs for Your Own Store',
         description:
-          'Leverage the language-sensitive Word Reveal feature to create multilingual code addition packs and sell them through Gumroad, Shopify, or Payhip. A German Word Reveal pack uses the correct German alphabet with umlauts; a French pack includes accented characters. This is a market gap — almost no competing worksheet generators offer locale-aware code puzzles. Target homeschool communities, bilingual families, and international schools with language-specific bundles that no competitor can easily replicate.',
+          'Leverage the language-sensitive Word Reveal feature to create multilingual code addition packs and sell them through Gumroad, Shopify, or Payhip. A German Word Reveal pack uses the correct German alphabet with umlauts; a French pack includes accented characters. This is a market gap — almost no competing worksheet generators offer locale-aware code puzzles. Target bilingual families, international buyers, and niche language communities with language-specific bundles that no competitor can easily replicate.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Classroom Engagement and Gamified Math Practice',
+        title: 'Build a Niche Puzzle Brand with Code-Breaking Products',
         description:
-          'Use code addition worksheets to gamify daily math practice. Hand out a Regular Mode puzzle as a warm-up challenge where the first student to crack the code earns a reward. Use Word Reveal mode to encode a vocabulary word, a fun fact, or a motivational message that students uncover by solving all the equations. The puzzle format turns a routine practice sheet into a mystery activity that keeps students focused and motivated. Automatic answer keys save teachers grading time, and the configurable difficulty means one generator serves kindergarten through third grade.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          'Use code addition worksheets as the foundation of a niche puzzle brand. Create Regular Mode puzzles as standalone products and Word Reveal mode puzzles that encode vocabulary words, fun facts, or motivational messages solvers uncover by solving all the equations. The puzzle format turns a routine practice sheet into a mystery activity that keeps solvers focused and engaged. Automatic answer keys add perceived value, and the configurable difficulty means one generator covers beginner through advanced difficulty tiers — giving you an entire product line from a single tool.',
+        platform: 'Etsy / Gumroad / Your Own Store',
       },
     ],
   },
@@ -143,12 +143,12 @@ const content: AppContent = {
     {
       question: 'How does the code-breaking mechanic work?',
       answer:
-        'Each image on the worksheet secretly represents a specific number. The worksheet shows addition equations where addends and sums are displayed as images instead of digits. Students solve the equations using logic and deduction: if a cat plus a dog equals seven and a cat plus a cat equals six, the cat must be three and the dog must be four. The puzzle requires reasoning across multiple equations simultaneously, building both math fluency and critical thinking.',
+        'Each image on the worksheet secretly represents a specific number. The worksheet shows addition equations where addends and sums are displayed as images instead of digits. Solvers work through the equations using logic and deduction: if a cat plus a dog equals seven and a cat plus a cat equals six, the cat must be three and the dog must be four. The puzzle requires reasoning across multiple equations simultaneously, building both math fluency and critical thinking.',
     },
     {
       question: 'What is Word Reveal mode?',
       answer:
-        'Word Reveal mode lets you type a secret word of up to ten letters. The generator creates one equation per letter — each equation’s sum maps to a specific letter on a decoding chart. Students solve the equations, look up each sum on the chart, and spell out the hidden word. Three distractor equations with wrong sums are added automatically, so students must verify every answer. It combines addition practice with spelling and vocabulary in a single engaging activity.',
+        ‘Word Reveal mode lets you type a secret word of up to ten letters. The generator creates one equation per letter — each equation’s sum maps to a specific letter on a decoding chart. Solvers work through the equations, look up each sum on the chart, and spell out the hidden word. Three distractor equations with wrong sums are added automatically, so solvers must verify every answer. It combines addition practice with spelling and vocabulary in a single engaging activity.’,
     },
     {
       question: 'How do the image symbols map to numbers?',
@@ -163,7 +163,7 @@ const content: AppContent = {
     {
       question: 'How many symbols can I use per worksheet?',
       answer:
-        'You can choose between two and five unique image symbols per worksheet. Fewer symbols create easier puzzles that younger students can solve; more symbols create complex challenges that require tracking multiple unknowns across many equations. Adjusting symbol count is the simplest way to scale difficulty without changing the number range.',
+        'You can choose between two and five unique image symbols per worksheet. Fewer symbols create easier puzzles suited for beginner-level products; more symbols create complex challenges that require tracking multiple unknowns across many equations. Adjusting symbol count is the simplest way to scale difficulty without changing the number range.',
     },
     {
       question: 'Is Code Addition language-sensitive?',
@@ -173,7 +173,7 @@ const content: AppContent = {
     {
       question: 'What are distractor letters in Word Reveal mode?',
       answer:
-        'Distractor letters are three extra equations whose sums do not correspond to any letter in the secret word. They appear on the worksheet alongside the real equations, and their sums point to letters that are not part of the answer. This prevents students from simply solving any equation and assuming it reveals a letter — they must solve all equations and cross-reference the decoding chart to identify which sums are distractors and which spell the word.',
+        'Distractor letters are three extra equations whose sums do not correspond to any letter in the secret word. They appear on the worksheet alongside the real equations, and their sums point to letters that are not part of the answer. This prevents solvers from simply solving any equation and assuming it reveals a letter — they must solve all equations and cross-reference the decoding chart to identify which sums are distractors and which spell the word.',
     },
     {
       question: 'How does the answer key show solutions?',
@@ -188,12 +188,12 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
+        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your code addition worksheets as digital downloads on Etsy, as printed puzzle books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The code-breaking format is a proven seller because it stands out from standard addition drill sheets in marketplace search results.',
+        'Yes. With a commercial license, you have full rights to sell your code addition worksheets as digital downloads on Etsy, as printed puzzle books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The code-breaking format is a proven seller because it stands out from standard addition drill sheets in marketplace search results.',
     },
     {
       question: 'Do I need to install any software?',
@@ -245,7 +245,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Educators & Sellers',
+      anchorText: 'Math Facts Printable Ideas for Sellers',
     },
     {
       pageType: 'idea',
@@ -268,7 +268,7 @@ const content: AppContent = {
       {
         src: '/samples/english/code addition/Code Breaker Addition 1.webp',
         alt: 'Code breaker addition worksheet in Regular Mode with animal theme images as code symbols',
-        caption: 'Regular Mode — students crack the code by deducing which number each image represents',
+        caption: 'Regular Mode — solvers crack the code by deducing which number each image represents',
       },
       {
         src: '/samples/english/code addition/Code Breaker Addition 2.webp',

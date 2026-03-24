@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Drawing Lines Worksheet Maker',
     tagline: 'Eight SVG line templates with image pair matching, auto-fill from 104 colorful themes, and template-driven page orientation for professional line tracing worksheets that sell worldwide',
-    description: 'Create professional line tracing worksheets where students draw along guided paths to connect matching image pairs. Eight SVG-based templates cover a complete fine motor progression: one horizontal template for straight left-to-right tracing (easiest), one vertical template for top-to-bottom strokes, four curve templates for flowing wrist movements, and two diagonal templates for cross-body coordination (hardest). Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving students a visual goal at each end. Template selection automatically drives page orientation — curves default to landscape for sweeping arcs, while diagonal, horizontal, and vertical templates use portrait for focused practice. Auto-fill instantly populates every pair slot with random images from any selected theme or across all 104 themes at once, making batch creation fast. Content draws from 3,100+ colorful illustrations across 104 themed collections — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making products universally sellable without translation. No answer key is needed because the line path itself guides the student — a self-checking activity by design. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional line tracing worksheets where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover a complete fine motor progression: one horizontal template for straight left-to-right tracing (easiest), one vertical template for top-to-bottom strokes, four curve templates for flowing wrist movements, and two diagonal templates for cross-body coordination (hardest). Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving users a visual goal at each end. Template selection automatically drives page orientation — curves default to landscape for sweeping arcs, while diagonal, horizontal, and vertical templates use portrait for focused practice. Auto-fill instantly populates every pair slot with random images from any selected theme or across all 104 themes at once, making batch creation fast. Content draws from 3,100+ colorful illustrations across 104 themed collections — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making products universally sellable without translation. No answer key is needed because the line path itself guides the user — a self-checking activity by design. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Add Text and Toggle Name/Date Fields',
-        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Toggle the name and date fields for student identification areas. The auto-generated header displays a vibrant green banner with “Line Drawing Practice” localized in all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with alignment tools, lock/unlock controls, and unlimited undo and redo.',
+        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Toggle the name and date fields for identification areas. The auto-generated header displays a vibrant green banner with “Line Drawing Practice” localized in all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with alignment tools, lock/unlock controls, and unlimited undo and redo.',
       },
       {
         title: 'Preview and Adjust Line Difficulty',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Export as PDF or JPEG at 300 DPI',
-        description: 'Download your finished worksheet as a high-resolution JPEG or print-ready PDF at 300 DPI. Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. No separate answer key is needed — the line path itself guides the student, making each worksheet a self-checking activity. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TpT product files with no post-processing required.',
+        description: 'Download your finished worksheet as a high-resolution JPEG or print-ready PDF at 300 DPI. Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. No separate answer key is needed — the line path itself guides the user, making each worksheet a self-checking activity. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files with no post-processing required.',
       },
     ],
   },
@@ -73,11 +73,11 @@ const content: ToolContent = {
     },
     {
       title: 'Pre-Writing Handwriting Readiness Sets',
-      description: 'Build line tracing worksheets specifically designed as pre-writing preparation. Horizontal lines practice the left-to-right tracking direction used in reading and writing. Vertical lines develop the top-to-bottom strokes essential for letter formation. Curves mimic the rounded motions needed for letters like c, o, s, and e. Diagonals build the angled strokes used in letters like k, v, w, and z. Package these as “Handwriting Readiness” bundles that bridge fine motor development and literacy skills — a product category with strong year-round demand from preschool teachers and parents.',
+      description: 'Build line tracing worksheets specifically designed as pre-writing preparation. Horizontal lines practice the left-to-right tracking direction used in reading and writing. Vertical lines develop the top-to-bottom strokes essential for letter formation. Curves mimic the rounded motions needed for letters like c, o, s, and e. Diagonals build the angled strokes used in letters like k, v, w, and z. Package these as “Handwriting Readiness” bundles that bridge fine motor development and literacy skills — a product category with strong year-round demand from parents and the preschool-age market.',
     },
     {
       title: 'Themed Image Pair Matching Activity Sets',
-      description: 'Leverage the 104 themed image collections to create line tracing worksheets where students connect matching images across guided paths. Each theme becomes a distinct product listing: farm animals line tracing, dinosaur curve drawing, ocean creature diagonal practice, space exploration vertical lines. The image pair matching format adds an identification element to the fine motor exercise — students must find the matching image at the end of each line, combining visual discrimination with pencil control in a single engaging activity.',
+      description: 'Leverage the 104 themed image collections to create line tracing worksheets where users connect matching images across guided paths. Each theme becomes a distinct product listing: farm animals line tracing, dinosaur curve drawing, ocean creature diagonal practice, space exploration vertical lines. The image pair matching format adds an identification element to the fine motor exercise — users must find the matching image at the end of each line, combining visual discrimination with pencil control in a single engaging activity.',
     },
     {
       title: 'Mixed Line Type Sampler Bundles',
@@ -85,29 +85,29 @@ const content: ToolContent = {
     },
     {
       title: 'Cross-Format Visual Learning Bundles',
-      description: 'Pair line tracing worksheets with coloring pages, draw and color grid exercises, pattern worksheets, and matching activities using coordinated themes. Line tracing develops pencil control along guided paths. Grid drawing builds spatial reproduction. Coloring pages train color recognition and fine motor control. Each format exercises a different visual-motor skill. Multi-format bundles sell for more than any single activity type and give students varied practice with a unified theme across every activity.',
+      description: 'Pair line tracing worksheets with coloring pages, draw and color grid exercises, pattern worksheets, and matching activities using coordinated themes. Line tracing develops pencil control along guided paths. Grid drawing builds spatial reproduction. Coloring pages train color recognition and fine motor control. Each format exercises a different visual-motor skill. Multi-format bundles sell for more than any single activity type and give learners varied practice with a unified theme across every activity.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Line Type Difficulty Shop on Etsy',
-      description: 'Open an Etsy shop specializing in line tracing worksheets organized by line type difficulty. Horizontal packs serve beginners with straight left-to-right lines. Vertical packs advance to top-to-bottom strokes. Curve packs introduce flowing movements. Diagonal packs challenge advanced students with angled coordination. The eight distinct templates and 104 image themes produce hundreds of unique worksheet combinations. The zero-text visual format makes every product sellable worldwide. Price individual theme packs at $3–$5 and progressive multi-type bundles at $12–$18.',
+      description: 'Open an Etsy shop specializing in line tracing worksheets organized by line type difficulty. Horizontal packs serve beginners with straight left-to-right lines. Vertical packs advance to top-to-bottom strokes. Curve packs introduce flowing movements. Diagonal packs challenge advanced learners with angled coordination. The eight distinct templates and 104 image themes produce hundreds of unique worksheet combinations. The zero-text visual format makes every product sellable worldwide. Price individual theme packs at $3–$5 and progressive multi-type bundles at $12–$18.',
       platform: 'Etsy',
     },
     {
       title: 'Amazon KDP Line Tracing Workbook Series',
-      description: 'Compile 80+ line tracing exercises into themed workbooks for Amazon KDP. Structure a series by progression: “Beginner Line Tracing” covers horizontal and vertical templates. “Intermediate Line Tracing” introduces all four curve variants. “Advanced Line Tracing” features diagonal templates mixed with curves. The colorful images print vibrantly for engaging, child-friendly interiors. The zero-text format publishes identically across all international KDP marketplaces without translation. Fine motor workbooks fill a specific early learning niche with consistent year-round demand.',
+      description: 'Compile 80+ line tracing exercises into themed workbooks for Amazon KDP. Structure a series by progression: “Beginner Line Tracing” covers horizontal and vertical templates. “Intermediate Line Tracing” introduces all four curve variants. “Advanced Line Tracing” features diagonal templates mixed with curves. The colorful images print vibrantly for engaging, clear, readable interiors. The zero-text format publishes identically across all international KDP marketplaces without translation. Fine motor workbooks fill a specific early learning niche with consistent year-round demand.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Handwriting Readiness Centers',
-      description: 'Build leveled handwriting readiness stations using line type as the progression axis. Station 1 covers horizontal lines for left-to-right tracking. Station 2 targets vertical lines for top-to-bottom strokes. Station 3 introduces curves for letter-forming motions. Station 4 challenges students with diagonals for angular letter shapes. Each station targets a specific pre-writing skill that directly transfers to letter formation. The zero-text visual format works in any classroom regardless of student language background, making these resources valuable for inclusive and multilingual settings.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Handwriting Readiness Bundles',
+      description: 'Build leveled handwriting readiness stations using line type as the progression axis. Station 1 covers horizontal lines for left-to-right tracking. Station 2 targets vertical lines for top-to-bottom strokes. Station 3 introduces curves for letter-forming motions. Station 4 challenges learners with diagonals for angular letter shapes. Each station targets a specific pre-writing skill that directly transfers to letter formation. The zero-text visual format works globally regardless of language, making these resources valuable for multilingual markets.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Line Tracing Visual Funnel',
-      description: 'Line tracing worksheets with colorful image pairs and distinctive SVG line paths make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different line types with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “line tracing for kids,” “fine motor worksheets,” and “pre-writing practice.” The zero-text format means pins appeal to parents and teachers in every country worldwide.',
+      description: 'Line tracing worksheets with colorful image pairs and distinctive SVG line paths make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different line types with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “line tracing worksheets,” “fine motor worksheets,” and “pre-writing practice.” The zero-text format means pins appeal to parents and buyers in every country worldwide.',
       platform: 'Pinterest',
     },
     {
@@ -145,11 +145,11 @@ const content: ToolContent = {
     },
     {
       title: 'Use Grayscale for Cost-Effective Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing where color printing costs are a concern. Even in grayscale, the image pairs remain visually distinct enough for matching, and the SVG line paths reproduce perfectly in black-and-white. Save color versions for Etsy listings where visual appeal drives clicks.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing where color printing costs are a concern. Even in grayscale, the image pairs remain visually distinct enough for matching, and the SVG line paths reproduce perfectly in black-and-white. Save color versions for Etsy listings where visual appeal drives clicks.',
     },
     {
       title: 'Combine Line Tracing with Other Visual Tools for Premium Bundles',
-      description: 'Pair line tracing worksheets with coloring pages, draw and color grid exercises, matching, and shadow match activities using coordinated themes. Each tool exercises a different visual-motor skill. Multi-format visual bundles sell for more than any single activity type alone and give students varied practice across fine motor, spatial reasoning, and visual discrimination skills.',
+      description: 'Pair line tracing worksheets with coloring pages, draw and color grid exercises, matching, and shadow match activities using coordinated themes. Each tool exercises a different visual-motor skill. Multi-format visual bundles sell for more than any single activity type alone and give learners varied practice across fine motor, spatial reasoning, and visual discrimination skills.',
     },
   ],
 
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does image pair matching work?',
-      answer: 'Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Students trace along the guided path to connect the matching pictures. Templates hold 4 or 5 pairs depending on line type. The matching images give students a visual goal that motivates them to complete each line.',
+      answer: 'Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Users trace along the guided path to connect the matching pictures. Templates hold 4 or 5 pairs depending on line type. The matching images give learners a visual goal that motivates them to complete each line.',
     },
     {
       question: 'How does auto-fill work for batch creation?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Why is there no answer key?',
-      answer: 'Drawing Lines worksheets do not need a separate answer key because the line path itself guides the student. The SVG line template printed on the worksheet shows exactly where to trace — students follow the visible path from one image to its match. The exercise is self-checking: if the student’s line follows the path and reaches the matching image, they have completed it correctly.',
+      answer: 'Drawing Lines worksheets do not need a separate answer key because the line path itself guides the user. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the user’s line follows the path and reaches the matching image, they have completed it correctly.',
     },
     {
       question: 'Are these worksheets language-sensitive?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell line tracing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, teacher resources on TpT, or through any other sales channel. The eight distinct templates, 104 colorful themes, auto-fill workflow, and zero-text visual format create strong differentiation and global sellability.',
+      answer: 'Yes. With a commercial license, you have full rights to sell line tracing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The eight distinct templates, 104 colorful themes, auto-fill workflow, and zero-text visual format create strong differentiation and global sellability.',
     },
     {
       question: 'What is the refund policy?',

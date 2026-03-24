@@ -16,39 +16,39 @@ const content: BundleContent = {
       'bulk math worksheet creation tool',
     ],
     titleTag: 'Math Worksheet Bundle — 6 Generators | Math Mastery',
-    metaDescription: 'Get 6 math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, and algebra worksheets to sell on Etsy, KDP & TPT.',
+    metaDescription: 'Get 6 math worksheet generators in one bundle. Create addition, subtraction, code puzzles, comparison, and algebra worksheets to sell on Etsy, KDP & Gumroad.',
   },
 
   hero: {
     title: 'Math Mastery Bundle',
     tagline: 'Six professional math worksheet generators in one discounted package',
-    description: 'Build a complete math printable product line without switching between separate tools. The Math Mastery Bundle combines six specialized worksheet generators that cover addition, subtraction, cryptarithmetic code puzzles, greater-than and less-than comparison, jigsaw-grid math puzzles, and visual algebra picture equations. Each generator produces print-ready PDF and high-resolution JPEG files with automatic answer keys, configurable difficulty, and themed image libraries. Five of the six apps are fully visual — the worksheets they produce work in any language because they rely on images and numbers rather than text. The sixth, Code Addition, adds a language-sensitive Word Reveal mode that supports all 11 interface languages. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell on Etsy, Amazon KDP, or Teachers Pay Teachers, this bundle gives you the variety buyers expect and the speed sellers need. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Build a complete math printable product line without switching between separate tools. The Math Mastery Bundle combines six specialized worksheet generators that cover addition, subtraction, cryptarithmetic code puzzles, greater-than and less-than comparison, jigsaw-grid math puzzles, and visual algebra picture equations. Each generator produces print-ready PDF and high-resolution JPEG files with automatic answer keys, configurable difficulty, and themed image libraries. Five of the six apps are fully visual — the worksheets they produce work in any language because they rely on images and numbers rather than text. The sixth, Code Addition, adds a language-sensitive Word Reveal mode that supports all 11 interface languages. Choose from over 100 themed image sets or upload your own PNG and JPEG files for branded, niche-specific products. Whether you sell on Etsy, Amazon KDP, or your own store, this bundle gives you the variety buyers expect and the speed sellers need. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
   },
 
   appsIncluded: [
     {
       title: 'Addition Worksheet Generator',
-      description: 'Create image-based addition worksheets in four distinct modes: Image + Image counting, Image + Number hybrid problems, Find the Addend missing-value challenges, and Mixed mode that combines all three on a single page. Students count themed pictures to solve each equation, making abstract addition concrete and engaging. Set the number range from 1 to 99, choose between 4, 6, 8, or 12 problems per page, and select images from over 100 themed sets including animals, food, vehicles, and seasonal categories. Every worksheet generates a matching answer key automatically. Choose from multiple page sizes, add decorative borders and themed backgrounds, and download as print-ready PDF or JPEG.',
+      description: 'Create image-based addition worksheets in four distinct modes: Image + Image counting, Image + Number hybrid problems, Find the Addend missing-value challenges, and Mixed mode that combines all three on a single page. Solvers count themed pictures to solve each equation, making abstract addition concrete and engaging. Set the number range from 1 to 99, choose between 4, 6, 8, or 12 problems per page, and select images from over 100 themed sets including animals, food, vehicles, and seasonal categories. Every worksheet generates a matching answer key automatically. Choose from multiple page sizes, add decorative borders and themed backgrounds, and download as print-ready PDF or JPEG.',
     },
     {
       title: 'Subtraction Worksheet Generator',
-      description: 'Generate visual subtraction worksheets with four modes including the unique Cross Out approach — students physically mark through images to find the difference, building intuitive understanding of subtraction as removal. Additional modes cover Image - Image, Image - Number, and Mixed formats. Configurable number ranges, problem counts, and themed image sets give you the same flexibility as the addition generator, with subtraction-specific pedagogy built in. The Cross Out mode is particularly popular with early childhood educators because it turns subtraction into a hands-on activity that students can physically interact with on the printed page.',
+      description: 'Generate visual subtraction worksheets with four modes including the unique Cross Out approach — users physically mark through images to find the difference, building intuitive understanding of subtraction as removal. Additional modes cover Image - Image, Image - Number, and Mixed formats. Configurable number ranges, problem counts, and themed image sets give you the same flexibility as the addition generator, with subtraction-specific design built in. The Cross Out mode is particularly popular because it turns subtraction into a hands-on activity that users can physically interact with on the printed page.',
     },
     {
       title: 'Code Addition Worksheet Generator',
-      description: 'Produce cryptarithmetic code-breaker puzzles where students solve addition equations to decode letters and reveal hidden words. This is the only app in the bundle with a language-sensitive feature: Word Reveal mode draws from vocabulary lists in all 11 supported languages, so the decoded words match the worksheet language. Standard Code mode uses simple letter-to-number mapping and works identically across all languages. Set difficulty with number ranges and equation count per puzzle. The code-breaker format combines math practice with word discovery, making it a standout product in any math worksheet shop — buyers consistently rate puzzle-style worksheets higher than standard drill sheets.',
+      description: 'Produce cryptarithmetic code-breaker puzzles where solvers complete addition equations to decode letters and reveal hidden words. This is the only app in the bundle with a language-sensitive feature: Word Reveal mode draws from vocabulary lists in all 11 supported languages, so the decoded words match the worksheet language. Standard Code mode uses simple letter-to-number mapping and works identically across all languages. Set difficulty with number ranges and equation count per puzzle. The code-breaker format combines math practice with word discovery, making it a standout product in any math worksheet shop — buyers consistently rate puzzle-style worksheets higher than standard drill sheets.',
     },
     {
       title: 'More or Less Worksheet Generator',
-      description: 'Build greater-than, less-than, and equal-to comparison worksheets in three modes. Compare Groups mode shows two image clusters for visual counting comparison. Compare Numbers mode presents bare numerals for faster, abstract practice. The unique Check & Cross Groups mode asks students to check the larger group and cross the smaller one — a tactile, classroom-proven exercise that reinforces comparison concepts through physical interaction with the page. Configurable number ranges and themed images keep worksheets varied across product listings. Comparison worksheets are a staple kindergarten and first-grade product that every math printable shop should carry.',
+      description: 'Build greater-than, less-than, and equal-to comparison worksheets in three modes. Compare Groups mode shows two image clusters for visual counting comparison. Compare Numbers mode presents bare numerals for faster, abstract practice. The unique Check & Cross Groups mode asks solvers to check the larger group and cross the smaller one — a tactile, proven exercise that reinforces comparison concepts through physical interaction with the page. Configurable number ranges and themed images keep worksheets varied across product listings. Comparison worksheets are a staple early-learner product that every math printable shop should carry.',
     },
     {
       title: 'Math Puzzle Worksheet Generator',
-      description: 'Create jigsaw-grid image puzzles where students solve a math equation on each puzzle piece to assemble the full picture. Grids scale from 2x2 (4 pieces) for beginners up to 4x4 (16 pieces) for advanced students. Each piece shows an equation — the answer tells students where to place it. Choose addition, subtraction, or mixed operations and set the number range to match your target grade level. The reveal image comes from the themed library or your own uploads. The puzzle format makes math feel like a game rather than a drill — students are motivated to solve every equation because the reward is seeing the completed picture.',
+      description: 'Create jigsaw-grid image puzzles where solvers complete a math equation on each puzzle piece to assemble the full picture. Grids scale from 2x2 (4 pieces) for beginners up to 4x4 (16 pieces) for advanced users. Each piece shows an equation — the answer tells the solver where to place it. Choose addition, subtraction, or mixed operations and set the number range to match your target grade level. The reveal image comes from the themed library or your own uploads. The puzzle format makes math feel like a game rather than a drill — solvers are motivated to complete every equation because the reward is seeing the completed picture.',
     },
     {
       title: 'Math Worksheet Generator',
-      description: 'Generate visual algebra picture puzzles where themed images replace unknown variables in systems of linked equations. Students determine the numeric value each image represents. Four difficulty levels progress from two-symbol simple addition up to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no unsolvable puzzles. Choose Addition Only or Addition & Subtraction modes, toggle negative results for older learners, and control puzzles per page from 1 to 6. This generator bridges the gap between basic arithmetic and algebraic thinking, making it a high-value product for sellers targeting second grade and above.',
+      description: 'Generate visual algebra picture puzzles where themed images replace unknown variables in systems of linked equations. Solvers determine the numeric value each image represents. Four difficulty levels progress from two-symbol simple addition up to four simultaneous unknowns with mixed operations. A built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no unsolvable puzzles. Choose Addition Only or Addition & Subtraction modes, toggle negative results for older learners, and control puzzles per page from 1 to 6. This generator bridges the gap between basic arithmetic and algebraic thinking, making it a high-value product for sellers targeting second grade and above.',
     },
   ],
 
@@ -63,7 +63,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatic Answer Keys',
-      description: 'Every generator in the bundle produces a corresponding answer key with each worksheet. Answer keys are a top buyer expectation on Etsy and TpT — this bundle delivers them automatically, saving hours of manual work.',
+      description: 'Every generator in the bundle produces a corresponding answer key with each worksheet. Answer keys are a top buyer expectation on Etsy and Gumroad — this bundle delivers them automatically, saving hours of manual work.',
     },
     {
       title: 'Consistent Professional Quality',
@@ -83,7 +83,7 @@ const content: BundleContent = {
     },
     {
       title: 'Print-Ready Output',
-      description: 'Download worksheets as PDF or high-resolution JPEG in Letter, A4, Landscape, Square, or custom sizes. Files are ready to list on Etsy, upload to KDP, or submit to TpT without post-processing in design software. Add decorative borders from the built-in border library, set page background colors, and apply themed background images with adjustable opacity for polished, professional results every time.',
+      description: 'Download worksheets as PDF or high-resolution JPEG in Letter, A4, Landscape, Square, or custom sizes. Files are ready to list on Etsy, upload to KDP, or sell on Gumroad without post-processing in design software. Add decorative borders from the built-in border library, set page background colors, and apply themed background images with adjustable opacity for polished, professional results every time.',
     },
   ],
 
@@ -99,17 +99,17 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Resource Pack',
-      description: 'TpT buyers expect answer keys, multiple difficulty levels, and curriculum alignment. Each generator delivers all three automatically. Bundle worksheets into grade-level packs — kindergarten counting, first-grade addition and subtraction, second-grade comparison and puzzles — and price them as premium resources. The four difficulty levels across each generator let you create differentiated instruction materials that teachers search for specifically.',
-      platform: 'TpT',
+      title: 'Gumroad Math Product Store',
+      description: 'Gumroad buyers expect answer keys, multiple difficulty levels, and polished presentation. Each generator delivers all three automatically. Bundle worksheets into grade-level packs — early counting, first-grade addition and subtraction, second-grade comparison and puzzles — and price them as premium digital products. The four difficulty levels across each generator let you create differentiated product lines that buyers search for specifically.',
+      platform: 'Gumroad',
     },
     {
-      title: 'Tutoring and Homeschool Materials',
-      description: 'Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so students never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for younger learners and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple students can generate personalized worksheet sets tailored to each learner’s current skill level and interests, creating a differentiated instruction approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math instruction.',
+      title: ‘Tutoring and Homeschool Materials’,
+      description: ‘Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so users never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for the younger audience and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple learners can generate personalized worksheet sets tailored to each person’s current skill level and interests, creating a differentiated approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math practice.’,
     },
     {
-      title: 'Classroom Supplement Sales',
-      description: 'Schools and districts purchase supplemental math materials in bulk. Create grade-aligned worksheet packs and offer them directly through your website or educational marketplace. The commercial license lets you sell to institutions without per-copy restrictions. Package worksheets from all six generators into comprehensive grade-level kits that cover the full scope of elementary math standards. District-level sales are particularly lucrative because a single purchase decision can cover multiple classrooms and grade levels, generating significantly higher revenue per transaction than individual consumer sales. The six generators in this bundle provide enough variety to create complete kindergarten through third grade math supplement packages that schools can adopt as standard supplementary materials.',
+      title: 'Bulk Licensing to Schools and Districts',
+      description: 'Schools and districts purchase supplemental math materials in bulk. Create grade-aligned worksheet packs and offer them directly through your website or online store. The commercial license lets you sell to institutions without per-copy restrictions. Package worksheets from all six generators into comprehensive grade-level kits that cover the full scope of elementary math standards. District-level sales are particularly lucrative because a single purchase decision can cover multiple grades and programs, generating significantly higher revenue per transaction than individual consumer sales. The six generators in this bundle provide enough variety to create complete math supplement packages spanning multiple grade levels.',
     },
     {
       title: 'International Market Expansion',
@@ -136,12 +136,12 @@ const content: BundleContent = {
       description: 'You sell digital downloads on Etsy or publish workbooks on Amazon KDP and want a fast, reliable way to produce professional math worksheets at scale. The bundle gives you six generators and hundreds of theme combinations to build a diverse product catalog without design skills or expensive software. Create new listings in minutes rather than hours and keep your shop stocked with fresh, seasonal content year-round. The six-generator approach means you never hit a creative wall — when one generator has produced enough addition worksheets for your catalog, switch to subtraction, puzzles, or comparison activities and create entirely new product listings with minimal effort. Seasonal theme rotations using the built-in image library let you refresh your shop appearance monthly without creating products from scratch.',
     },
     {
-      title: 'Teachers Pay Teachers Authors',
-      description: 'You create and sell educational resources on TpT and need tools that match the platform expectations. Each generator produces curriculum-aligned worksheets with automatic answer keys and multiple difficulty settings — exactly what TpT reviewers and buyers expect from premium math resources. The four difficulty levels per generator make it easy to create differentiated instruction packs that teachers search for by grade level and skill. TpT buyers expect polished, ready-to-use classroom materials with consistent visual presentation across a product line — the shared design engine across all six generators ensures your math resources maintain a cohesive professional appearance that builds brand credibility and earns repeat purchases from teachers who trust your quality standards.',
+      title: 'Gumroad and Independent Store Sellers',
+      description: 'You sell digital products on Gumroad or your own website and need tools that match buyer expectations. Each generator produces polished worksheets with automatic answer keys and multiple difficulty settings — exactly what buyers expect from premium math resources. The four difficulty levels per generator make it easy to create differentiated product packs organized by grade level and skill. Buyers expect ready-to-use materials with consistent visual presentation across a product line — the shared design engine across all six generators ensures your math resources maintain a cohesive professional appearance that builds brand credibility and earns repeat purchases from buyers who trust your quality standards.',
     },
     {
       title: 'Tutors and Homeschool Parents',
-      description: 'You need fresh, varied math practice materials every week. Instead of searching for generic worksheets that never quite fit, generate exactly what your students need — the right difficulty, the right topic, the right theme — in under a minute. Each generator offers a free trial with watermark so you can evaluate before purchasing.',
+      description: 'You need fresh, varied math practice materials every week. Instead of searching for generic worksheets that never quite fit, generate exactly what you need — the right difficulty, the right topic, the right theme — in under a minute. Each generator offers a free trial with watermark so you can evaluate before purchasing.',
     },
     {
       title: 'Educational Content Creators',
@@ -156,11 +156,11 @@ const content: BundleContent = {
     },
     {
       question: 'What formats can I download?',
-      answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. You can choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. PDF is ideal for multi-page worksheet packs on Etsy and TpT. JPEG works well for KDP interior pages and social media previews. All files download at print resolution — no upscaling or post-processing needed.',
+      answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. You can choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. PDF is ideal for multi-page worksheet packs on Etsy and Gumroad. JPEG works well for KDP interior pages and social media previews. All files download at print resolution — no upscaling or post-processing needed.',
     },
     {
       question: 'Do the worksheets include answer keys?',
-      answer: 'Yes. All six generators automatically create a corresponding answer key for every worksheet. Answer keys are a top expectation for buyers on Etsy and TpT, and they save you the time of solving every problem manually.',
+      answer: 'Yes. All six generators automatically create a corresponding answer key for every worksheet. Answer keys are a top expectation for buyers on Etsy and Gumroad, and they save you the time of solving every problem manually.',
     },
     {
       question: 'Can I use my own images instead of the built-in themes?',
@@ -176,7 +176,7 @@ const content: BundleContent = {
     },
     {
       question: 'Can I sell the worksheets I create?',
-      answer: 'Yes. Both the Commercial and Full Access licenses include commercial selling rights. You can sell the worksheets you generate on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. You sell the worksheets — the generator tool itself is not transferable.',
+      answer: 'Yes. Both the Commercial and Full Access licenses include commercial selling rights. You can sell the worksheets you generate on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. You sell the worksheets — the generator tool itself is not transferable.',
     },
     {
       question: 'How many worksheets can I create?',
@@ -188,7 +188,7 @@ const content: BundleContent = {
     },
     {
       question: 'How long does it take to create a complete math product line with this bundle?',
-      answer: 'Most sellers build their initial math product catalog within a single weekend using the bundle. Each generator produces a finished, print-ready worksheet with answer key in under a minute. A typical production session involves selecting a theme, configuring difficulty settings, and generating a batch of ten to twenty worksheets that become a themed product listing. With six generators, you can create six to twelve distinct product listings in a single day — enough to launch a credible math printable shop on Etsy or TPT. Experienced sellers report that after learning the interface during their first session, they can produce a complete themed math bundle containing worksheets from all six generators in under two hours. The time savings compared to manual design in graphic software is dramatic because the generators handle layout, answer key generation, and visual design automatically.',
+      answer: 'Most sellers build their initial math product catalog within a single weekend using the bundle. Each generator produces a finished, print-ready worksheet with answer key in under a minute. A typical production session involves selecting a theme, configuring difficulty settings, and generating a batch of ten to twenty worksheets that become a themed product listing. With six generators, you can create six to twelve distinct product listings in a single day — enough to launch a credible math printable shop on Etsy or Gumroad. Experienced sellers report that after learning the interface during their first session, they can produce a complete themed math bundle containing worksheets from all six generators in under two hours. The time savings compared to manual design in graphic software is dramatic because the generators handle layout, answer key generation, and visual design automatically.',
     },
     {
       question: 'Can I upgrade from Commercial to Full Access later?',
@@ -210,7 +210,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'sell-math-worksheets-etsy', anchorText: 'How to Sell Math Worksheets on Etsy' },
     { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Publish Math Activity Books on Amazon KDP' },
     { pageType: 'start', slug: 'create-worksheets-that-sell', anchorText: 'How to Create Worksheets That Sell' },
-    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math Facts Printable Ideas for Educators & Sellers' },
+    { pageType: 'idea', slug: 'math-facts-printable-ideas', anchorText: 'Math Facts Printable Ideas for Sellers' },
   ],
 
   visuals: {

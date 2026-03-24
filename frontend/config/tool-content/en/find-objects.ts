@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Hidden Object Maker',
     tagline: 'Dual-mode hidden object worksheet generator with I Spy mode (zero-overlap scattered scenes with 1–5 hidden objects among 8–12 distractors and bottom legend) and Odd One Out mode (8–12 paired images with 1–5 unpaired items rendered 50% larger), adaptive image sizing algorithm trying 50 positions per image, auto-generated answer keys with red circle annotations, and visual-only puzzles that sell worldwide without translation',
-    description: 'Create professional hidden object worksheets where students search a visual scene to find and circle specific objects. The generator offers two distinct activity modes that produce fundamentally different cognitive challenges. I Spy mode uses a zero-overlap placement algorithm to scatter 1–5 hidden objects among 8–12 distractors across the page — no grid, no rows and columns, just a cohesive visual scene. The findBestPosition() algorithm tries 50 random positions per image and selects the placement with the least overlap, adaptively reducing image size when space gets tight. A legend at the bottom of the worksheet (120px margin) shows students exactly which objects to find, making worksheets accessible to pre-readers without written instructions. Odd One Out mode arranges 8–12 paired images with 1–5 unpaired items mixed in — students identify the images that do not have a matching partner. Images in Odd One Out mode render 50% larger than I Spy mode for clear visual comparison. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key reproduces the exact worksheet layout and draws red circles around hidden objects (I Spy mode) or unpaired items (Odd One Out mode), sized 3–5px larger than the object for clear visibility. An auto-generated header renders your title in Fredoka font with auto-sizing — 32px for short titles scaling down to 18px for longer text — with decorative white pill containers and shadows. Toggle name and date fields for classroom accountability. The Hidden Object Maker is NOT language-sensitive: puzzles are entirely visual with no localized image names on the worksheet content itself, making every puzzle universally sellable across all markets without translation. Browse 104 themed collections with 3,100+ illustrations or upload custom PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders. Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with drag, resize, rotate, layers, lock/unlock, 6 alignment options plus center-on-page, zoom 25%–300%, and 20 undo/redo states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional hidden object worksheets where users search a visual scene to find and circle specific objects. The generator offers two distinct activity modes that produce fundamentally different cognitive challenges. I Spy mode uses a zero-overlap placement algorithm to scatter 1–5 hidden objects among 8–12 distractors across the page — no grid, no rows and columns, just a cohesive visual scene. The findBestPosition() algorithm tries 50 random positions per image and selects the placement with the least overlap, adaptively reducing image size when space gets tight. A legend at the bottom of the worksheet (120px margin) shows users exactly which objects to find, making worksheets accessible to pre-readers without written instructions. Odd One Out mode arranges 8–12 paired images with 1–5 unpaired items mixed in — users identify the images that do not have a matching partner. Images in Odd One Out mode render 50% larger than I Spy mode for clear visual comparison. The dual-canvas system generates both a worksheet tab and an answer key tab simultaneously. The answer key reproduces the exact worksheet layout and draws red circles around hidden objects (I Spy mode) or unpaired items (Odd One Out mode), sized 3–5px larger than the object for clear visibility. An auto-generated header renders your title in Fredoka font with auto-sizing — 32px for short titles scaling down to 18px for longer text — with decorative white pill containers and shadows. Toggle name and date fields for accountability. The Hidden Object Maker is NOT language-sensitive: puzzles are entirely visual with no localized image names on the worksheet content itself, making every puzzle universally sellable across all markets without translation. Browse 104 themed collections with 3,100+ illustrations or upload custom PNG, JPG, or GIF images. Apply background themes and border themes with independent opacity sliders. Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or custom dimensions. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with drag, resize, rotate, layers, lock/unlock, 6 alignment options plus center-on-page, zoom 25%–300%, and 20 undo/redo states. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -37,11 +37,11 @@ const content: ToolContent = {
       },
       {
         title: 'Choose Your Activity Mode',
-        description: 'Select between two modes in the Object Selection panel. I Spy mode (default) creates free-form hidden object scenes where images are scattered across the page using a zero-overlap placement algorithm — no grid, just a natural-looking visual scene where students search for specific objects guided by a bottom legend. Odd One Out mode arranges paired images in rows with unpaired items mixed in for visual discrimination activities where students identify images without a matching partner. Each mode produces a different type of search-and-find worksheet from the same image library.',
+        description: 'Select between two modes in the Object Selection panel. I Spy mode (default) creates free-form hidden object scenes where images are scattered across the page using a zero-overlap placement algorithm — no grid, just a natural-looking visual scene where users search for specific objects guided by a bottom legend. Odd One Out mode arranges paired images in rows with unpaired items mixed in for visual discrimination activities where users identify images without a matching partner. Each mode produces a different type of search-and-find worksheet from the same image library.',
       },
       {
         title: 'Configure Object Counts for Difficulty Control',
-        description: 'In I Spy mode, configure 1–5 hidden objects (the targets students need to find) and 8–12 distractor objects (surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets suited to younger learners, and increase to 5 hidden objects among 12 distractors for challenging scenes for advanced students. In Odd One Out mode, set 8–12 paired images and 1–5 unpaired (odd) items. Object count is your primary difficulty control — fewer targets for simple products, more targets for premium challenge collections.',
+        description: 'In I Spy mode, configure 1–5 hidden objects (the targets to find) and 8–12 distractor objects (surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets suited to younger learners, and increase to 5 hidden objects among 12 distractors for challenging scenes for advanced solvers. In Odd One Out mode, set 8–12 paired images and 1–5 unpaired (odd) items. Object count is your primary difficulty control — fewer targets for simple products, more targets for premium challenge collections.',
       },
       {
         title: 'Select Images from the Theme Library',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generate the Hidden Object Scene',
-        description: 'Click Generate to create the worksheet. In I Spy mode, the zero-overlap algorithm places each image by trying 50 random positions and selecting the one with least overlap, adaptively reducing image size when space gets tight. A legend appears at the bottom of the worksheet (120px margin) showing students which objects to find. In Odd One Out mode, images arrange in rows with paired and unpaired items, rendered 50% larger for clear visual comparison. The auto-sizing header renders your title in Fredoka font — 32px for short titles scaling down to 18px for longer text. Toggle name and date fields for classroom worksheets. Click Generate again to rebuild with different random placement — same images, same settings, entirely different hidden object layout.',
+        description: 'Click Generate to create the worksheet. In I Spy mode, the zero-overlap algorithm places each image by trying 50 random positions and selecting the one with least overlap, adaptively reducing image size when space gets tight. A legend appears at the bottom of the worksheet (120px margin) showing users which objects to find. In Odd One Out mode, images arrange in rows with paired and unpaired items, rendered 50% larger for clear visual comparison. The auto-sizing header renders your title in Fredoka font — 32px for short titles scaling down to 18px for longer text. Toggle name and date fields for structured worksheets. Click Generate again to rebuild with different random placement — same images, same settings, entirely different hidden object layout.',
       },
       {
         title: 'Review the Auto-Generated Answer Key',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Download All Four Files',
-        description: 'Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI (6× multiplier). Each tab has its own pair of download buttons. All exports are production-ready for Etsy listings, Amazon KDP interiors, and TpT resource files with no post-processing needed. Switch themes, adjust object counts, change activity modes, and generate again for rapid variety creation across 104 themed collections.',
+        description: 'Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI (6× multiplier). Each tab has its own pair of download buttons. All exports are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad resource files with no post-processing needed. Switch themes, adjust object counts, change activity modes, and generate again for rapid variety creation across 104 themed collections.',
       },
     ],
   },
@@ -69,7 +69,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mixed-Mode I Spy and Odd One Out Variety Packs',
-      description: 'Combine both activity modes into premium variety bundles. Each pack includes I Spy hidden object scenes where students find specific objects in a scattered scene guided by the bottom legend, plus Odd One Out worksheets where students identify unpaired items among matched sets. This combination targets two different cognitive skills — visual search and visual discrimination — in a single product. Mixed-mode bundles command higher prices because they deliver more activity variety and cover more learning objectives than single-mode products.',
+      description: 'Combine both activity modes into premium variety bundles. Each pack includes I Spy hidden object scenes where users find specific objects in a scattered scene guided by the bottom legend, plus Odd One Out worksheets where users identify unpaired items among matched sets. This combination targets two different cognitive skills — visual search and visual discrimination — in a single product. Mixed-mode bundles command higher prices because they deliver more activity variety and cover more learning objectives than single-mode products.',
     },
     {
       title: 'KDP Hidden Object Activity Workbooks with Progressive Difficulty',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Odd One Out Visual Discrimination Worksheet Collections',
-      description: 'Build dedicated Odd One Out worksheet sets where students identify unpaired images among paired sets. Configure 8–12 paired images and 1–5 unpaired items per worksheet, with images rendered 50% larger for clear visual comparison. Create curriculum-adjacent sets: farm animal odd one out for science, food group sorting for nutrition, community helper identification for social studies, and shape recognition for math readiness. Each worksheet exports with its auto-generated answer key showing red circles around every unpaired item, eliminating teacher prep time for creating separate solution pages.',
+      description: 'Build dedicated Odd One Out worksheet sets where users identify unpaired images among paired sets. Configure 8–12 paired images and 1–5 unpaired items per worksheet, with images rendered 50% larger for clear visual comparison. Create curriculum-adjacent sets: farm animal odd one out for science, food group sorting for nutrition, community helper identification for social studies, and shape recognition for math readiness. Each worksheet exports with its auto-generated answer key showing red circles around every unpaired item, eliminating production time for creating separate solution pages.',
     },
     {
       title: 'Seasonal Hidden Object Activity Collections',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multi-Format Search and Find Mega Bundles',
-      description: 'Pair hidden object worksheets with word search activities, find-and-count I Spy sheets, crossword puzzles, and treasure hunt worksheets using coordinated themes across multiple generators. Hidden object scenes develop visual scanning and object identification skills. Word search builds letter recognition and vocabulary. I Spy with counting adds numeracy practice. Each format targets a different cognitive skill while maintaining thematic consistency. Multi-format search-and-find bundles command premium prices because parents and teachers pay more for comprehensive collections than single-activity packs.',
+      description: 'Pair hidden object worksheets with word search activities, find-and-count I Spy sheets, crossword puzzles, and treasure hunt worksheets using coordinated themes across multiple generators. Hidden object scenes develop visual scanning and object identification skills. Word search builds letter recognition and vocabulary. I Spy with counting adds numeracy practice. Each format targets a different cognitive skill while maintaining thematic consistency. Multi-format search-and-find bundles command premium prices because parents and buyers pay more for comprehensive collections than single-activity packs.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT Classroom Hidden Object Activity Packs',
-      description: 'Upload hidden object activity packs to TpT with name/date fields and auto-generated answer keys as key selling points. Teachers searching for visual search and observation activities value worksheets that arrive classroom-ready with solutions included. Create curriculum-adjacent sets: farm animal hidden objects for science, community helper I Spy for social studies, food group search for nutrition, and seasonal hidden object scenes for holiday units. Include both I Spy and Odd One Out worksheets for differentiated instruction — I Spy for visual search practice and Odd One Out for visual discrimination development.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Hidden Object Activity Packs',
+      description: 'Upload hidden object activity packs to Gumroad with name/date fields and auto-generated answer keys as key selling points. Buyers searching for visual search and observation activities value worksheets that arrive structured with solutions included. Create themed sets: farm animal hidden objects for science, community helper I Spy for social studies, food group search for nutrition, and seasonal hidden object scenes for holiday units. Include both I Spy and Odd One Out worksheets for varied difficulty levels — I Spy for visual search practice and Odd One Out for visual discrimination development.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Hidden Object Worksheet Traffic Funnel',
-      description: 'Hidden object worksheets make visually striking Pinterest pins — colorful scattered image scenes with objects to find create immediately engaging educational content that parents and teachers click. Pin sample worksheets showing both modes: I Spy with scattered hidden objects and the bottom legend, and Odd One Out with paired images in rows. Create separate pin series for "hidden object worksheets for kids," "printable I spy activities," and "odd one out visual puzzles." The answer key preview images with red circle annotations demonstrate professional quality. Link each pin to your Etsy or TpT product listings for direct conversion.',
+      description: 'Hidden object worksheets make visually striking Pinterest pins — colorful scattered image scenes with objects to find create immediately engaging educational content that parents and buyers click. Pin sample worksheets showing both modes: I Spy with scattered hidden objects and the bottom legend, and Odd One Out with paired images in rows. Create separate pin series for "hidden object worksheets printable," "printable I spy activities," and "odd one out visual puzzles." The answer key preview images with red circle annotations demonstrate professional quality. Link each pin to your Etsy or Gumroad product listings for direct conversion.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global Visual Puzzle Product Line',
-      description: 'The Hidden Object Maker produces purely visual puzzles — no language-specific text appears on the worksheet content itself. The I Spy legend uses images, not words, and Odd One Out is entirely visual. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on TpT for international teachers. No separate language versions, no translation costs, no per-locale maintenance — the visual-only format is your strongest global selling advantage.',
+      description: 'The Hidden Object Maker produces purely visual puzzles — no language-specific text appears on the worksheet content itself. The I Spy legend uses images, not words, and Odd One Out is entirely visual. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on Gumroad for international buyers. No separate language versions, no translation costs, no per-locale maintenance — the visual-only format is your strongest global selling advantage.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Control Difficulty Through Hidden Object and Distractor Counts',
-      description: 'Object counts directly control hidden object difficulty. I Spy with 1 hidden object among 8 distractors creates easy worksheets for preschool products. Increasing to 3 hidden objects among 10 distractors produces moderate challenges for elementary-age students. Maximum difficulty (5 hidden objects among 12 distractors) creates dense scenes where finding every target takes genuine effort. Create progressive-difficulty bundles with clearly labeled easy, medium, and hard sections — buyers pay premium prices for products that grow with the learner.',
+      description: 'Object counts directly control hidden object difficulty. I Spy with 1 hidden object among 8 distractors creates easy worksheets for preschool products. Increasing to 3 hidden objects among 10 distractors produces moderate challenges for elementary-age solvers. Maximum difficulty (5 hidden objects among 12 distractors) creates dense scenes where finding every target takes genuine effort. Create progressive-difficulty bundles with clearly labeled easy, medium, and hard sections — buyers pay premium prices for products that grow with the learner.',
     },
     {
       title: 'Exploit the Visual-Only Format for Worldwide Sales Without Translation',
-      description: 'Hidden object worksheets contain only images — no language-specific text on the worksheet content itself. The I Spy legend displays target objects visually, and Odd One Out is purely image-based. Every puzzle you create is instantly sellable worldwide without translation or localization. One set of hidden object puzzles serves every international Etsy shop, every KDP marketplace, and every TpT buyer regardless of language. While competitors create separate language versions of text-heavy worksheets, your visual puzzles work everywhere from a single file set.',
+      description: 'Hidden object worksheets contain only images — no language-specific text on the worksheet content itself. The I Spy legend displays target objects visually, and Odd One Out is purely image-based. Every puzzle you create is instantly sellable worldwide without translation or localization. One set of hidden object puzzles serves every international Etsy shop, every KDP marketplace, and every Gumroad buyer regardless of language. While competitors create separate language versions of text-heavy worksheets, your visual puzzles work everywhere from a single file set.',
     },
     {
       title: 'Include Both Activity Modes in Every Bundle for Maximum Perceived Value',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Leverage the Bottom Legend for Pre-Reader Accessibility',
-      description: 'The I Spy legend at the bottom of the worksheet (120px margin) shows target objects visually — no reading required. This makes your hidden object worksheets accessible to pre-readers, toddlers, and multilingual classrooms where written instructions would exclude some students. Highlight this accessibility in your marketplace listings to reach the preschool and early-childhood market. Parents of pre-readers actively search for visual-only activities, and the legend feature makes your products stand out from text-heavy competitors.',
+      description: 'The I Spy legend at the bottom of the worksheet (120px margin) shows target objects visually — no reading required. This makes your hidden object worksheets accessible to pre-readers, toddlers, and multilingual markets where written instructions would exclude some users. Highlight this accessibility in your marketplace listings to reach the preschool and early-childhood market. Parents of pre-readers actively search for visual-only activities, and the legend feature makes your products stand out from text-heavy competitors.',
     },
     {
-      title: 'Use Grayscale for Budget-Friendly Classroom and KDP Products',
-      description: 'Toggle grayscale to create ink-friendly hidden object worksheets specifically for the classroom and homeschool market. Many teachers print worksheets on black-and-white printers and value products optimized for grayscale output. Create dual-format bundles that include both color and grayscale versions of the same worksheets — buyers perceive this as twice the value. KDP print-on-demand interiors also benefit from grayscale optimization since color printing costs significantly more.',
+      title: 'Use Grayscale for Budget-Friendly Bulk and KDP Products',
+      description: 'Toggle grayscale to create ink-friendly hidden object worksheets specifically for the homeschool and printable market. Many buyers print worksheets on black-and-white printers and value products optimized for grayscale output. Create dual-format bundles that include both color and grayscale versions of the same worksheets — buyers perceive this as twice the value. KDP print-on-demand interiors also benefit from grayscale optimization since color printing costs significantly more.',
     },
     {
       title: 'Include Answer Keys in Every Listing Preview to Outsell Competitors',
-      description: 'The auto-generated answer key with red circle annotations around hidden and unpaired objects is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the red circles clearly in product photos. Products that include answer keys consistently outsell puzzles-only listings because teachers and parents want self-checking materials that save grading time. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
+      description: 'The auto-generated answer key with red circle annotations around hidden and unpaired objects is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the red circles clearly in product photos. Products that include answer keys consistently outsell puzzles-only listings because parents and buyers want self-checking materials that save grading time. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are the two activity modes and how do they differ?',
-      answer: 'The generator offers two distinct modes in a single tool. I Spy mode (default) creates free-form hidden object scenes where 1–5 target objects are scattered among 8–12 distractors using a zero-overlap placement algorithm — students search the page and circle what they find, guided by a legend at the bottom showing the objects to locate. Odd One Out mode arranges 8–12 paired images with 1–5 unpaired items mixed in — students identify the images that do not have a matching partner. Images in Odd One Out mode render 50% larger than I Spy mode for clearer visual comparison. Each mode produces a fundamentally different cognitive challenge from the same image library.',
+      answer: 'The generator offers two distinct modes in a single tool. I Spy mode (default) creates free-form hidden object scenes where 1–5 target objects are scattered among 8–12 distractors using a zero-overlap placement algorithm — users search the page and circle what they find, guided by a legend at the bottom showing the objects to locate. Odd One Out mode arranges 8–12 paired images with 1–5 unpaired items mixed in — users identify the images that do not have a matching partner. Images in Odd One Out mode render 50% larger than I Spy mode for clearer visual comparison. Each mode produces a fundamentally different cognitive challenge from the same image library.',
     },
     {
       question: 'How does the zero-overlap placement algorithm work?',
@@ -168,15 +168,15 @@ const content: ToolContent = {
     },
     {
       question: 'How does the legend display work in I Spy mode?',
-      answer: 'In I Spy mode, a legend at the bottom of the worksheet (120px bottom margin) displays the target objects students need to find. This visual reference shows each hidden object so students know exactly what to look for — making worksheets accessible to pre-readers and multilingual classrooms without requiring written instructions. The legend is automatically generated based on your selected hidden objects. Odd One Out mode uses a compact 50px bottom margin since students discover the unpaired items through visual comparison rather than a reference list.',
+      answer: 'In I Spy mode, a legend at the bottom of the worksheet (120px bottom margin) displays the target objects to find. This visual reference shows each hidden object so users know exactly what to look for — making worksheets accessible to pre-readers and multilingual markets without requiring written instructions. The legend is automatically generated based on your selected hidden objects. Odd One Out mode uses a compact 50px bottom margin since users discover the unpaired items through visual comparison rather than a reference list.',
     },
     {
       question: 'How many hidden objects and distractors can I configure?',
-      answer: 'In I Spy mode, configure 1–5 hidden objects (the targets students need to find) and 8–12 distractor objects (surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets suited to younger learners, and increase to 5 hidden objects among 12 distractors for challenging scenes. In Odd One Out mode, configure 8–12 paired images (each appears with a matching partner) and 1–5 unpaired items that students must identify. Object counts are your primary difficulty control.',
+      answer: 'In I Spy mode, configure 1–5 hidden objects (the targets to find) and 8–12 distractor objects (surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets suited to younger learners, and increase to 5 hidden objects among 12 distractors for challenging scenes. In Odd One Out mode, configure 8–12 paired images (each appears with a matching partner) and 1–5 unpaired items that users must identify. Object counts are your primary difficulty control.',
     },
     {
       question: 'How does the auto-generated answer key work?',
-      answer: 'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the hidden object scene without markings — students search and circle objects themselves. The answer key reproduces the identical layout and draws red circles around the correct objects: hidden targets in I Spy mode and unpaired items in Odd One Out mode. Circles are sized 3–5px larger than the object for clear visibility. Download each version independently using four dedicated buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
+      answer: 'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the hidden object scene without markings — users search and circle objects themselves. The answer key reproduces the identical layout and draws red circles around the correct objects: hidden targets in I Spy mode and unpaired items in Odd One Out mode. Circles are sized 3–5px larger than the object for clear visibility. Download each version independently using four dedicated buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
     },
     {
       question: 'How does the auto-generated header work?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'What page sizes and export formats are available?',
-      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and classroom handouts.',
+      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and printed handouts.',
     },
     {
       question: 'What canvas editing tools are available?',
@@ -196,7 +196,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell hidden object worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell hidden object worksheets as digital downloads on Etsy, printed activity workbooks on Amazon KDP, classroom resources on TpT, or through any other sales channel. The two activity modes, zero-overlap scene generation, adaptive image sizing, auto-generated answer keys with red circle annotations, the I Spy legend display, custom image uploads, and 104 themed image collections give you everything needed to create professional hidden object products that compete in search-and-find categories across every major marketplace.',
+      answer: 'Yes. With a commercial license, you have full rights to sell hidden object worksheets as digital downloads on Etsy, printed activity workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The two activity modes, zero-overlap scene generation, adaptive image sizing, auto-generated answer keys with red circle annotations, the I Spy legend display, custom image uploads, and 104 themed image collections give you everything needed to create professional hidden object products that compete in search-and-find categories across every major marketplace.',
     },
     {
       question: 'What is your refund policy?',

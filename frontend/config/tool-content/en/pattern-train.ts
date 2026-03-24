@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Pattern Train Maker',
     tagline: 'Generate repeating pattern worksheets displayed across 11 themed train wagons with five pattern types, adjustable clue count, and fully visual zero-text output that sells worldwide without translation',
-    description: 'Create professional pattern recognition worksheets where students identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — students identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. The distinctive train car layout is a visual differentiator from standard grid worksheets — buyers browsing Etsy or TpT immediately see something different from typical rows-and-columns pattern exercises. Draw from 3,100+ illustrations across 104 themed collections or upload your own images. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Every worksheet is fully visual with images only on train cars and zero text on the output. No words appear on the generated page — only images. This makes your worksheets universally sellable without translation: one product listing serves every market worldwide. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional pattern recognition worksheets where solvers identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — solvers identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. The distinctive train car layout is a visual differentiator from standard grid worksheets — buyers browsing Etsy or Gumroad immediately see something different from typical rows-and-columns pattern exercises. Draw from 3,100+ illustrations across 104 themed collections or upload your own images. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Every worksheet is fully visual with images only on train cars and zero text on the output. No words appear on the generated page — only images. This makes your worksheets universally sellable without translation: one product listing serves every market worldwide. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Set the Clue Count for Difficulty Control',
-        description: 'Adjust the clue count slider from 4 to 10 to control worksheet difficulty. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious and ideal for beginners. With 4 clues, students see minimal information and must reason carefully to identify the sequence. The blank wagon is dynamically placed among positions 3 through 10, ensuring the missing item always falls within the repeating section rather than at the predictable start.',
+        description: 'Adjust the clue count slider from 4 to 10 to control worksheet difficulty. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious and ideal for beginners. With 4 clues, solvers see minimal information and must reason carefully to identify the sequence. The blank wagon is dynamically placed among positions 3 through 10, ensuring the missing item always falls within the repeating section rather than at the predictable start.',
       },
       {
         title: 'Browse Themes or Upload Custom Images',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Toggle Name/Date Fields and Exercise Options',
-        description: 'Enable optional name and date cut-out fields for student identification on printed worksheets. These fields appear as dotted-line areas that students fill in before starting. Toggle exercise numbers and decorative elements on or off. Each option refines the worksheet layout for your target audience — classroom worksheets benefit from name fields, while product listings for digital download may omit them.',
+        description: 'Enable optional name and date cut-out fields for personalization on printed worksheets. These fields appear as dotted-line areas to fill in before starting. Toggle exercise numbers and decorative elements on or off. Each option refines the worksheet layout for your target audience — some products benefit from name fields, while digital download listings may omit them for a cleaner look.',
       },
       {
         title: 'Add Text and Customize the Canvas',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Review the Answer Key and Download',
-        description: 'Switch to the Answer Key tab to see the completed train with all 11 wagons filled in — the missing position now shows the correct pattern item. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale for ink-friendly output. Download each as a high-resolution JPEG or print-ready PDF at 300 DPI. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TpT product files.',
+        description: 'Switch to the Answer Key tab to see the completed train with all 11 wagons filled in — the missing position now shows the correct pattern item. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale for ink-friendly output. Download each as a high-resolution JPEG or print-ready PDF at 300 DPI. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiated Pattern Recognition Centers',
-      description: 'Build leveled pattern practice sets using pattern complexity and clue count as dual differentiation axes. Level 1: AB patterns with 8–10 clues. Level 2: AAB and ABB patterns with 6–8 clues. Level 3: ABC patterns with 5–6 clues. Level 4: AABB patterns with 4–5 clues. Each level targets a progressively harder cognitive demand — from recognizing simple alternation to identifying complex multi-element sequences from limited information. The train car format engages students who find grid-based worksheets monotonous.',
+      description: 'Build leveled pattern practice sets using pattern complexity and clue count as dual differentiation axes. Level 1: AB patterns with 8–10 clues. Level 2: AAB and ABB patterns with 6–8 clues. Level 3: ABC patterns with 5–6 clues. Level 4: AABB patterns with 4–5 clues. Each level targets a progressively harder cognitive demand — from recognizing simple alternation to identifying complex multi-element sequences from limited information. The train car format engages users who find grid-based worksheets monotonous.',
     },
     {
       title: 'Seasonal and Holiday Pattern Train Sets',
-      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A “Halloween Pattern Train” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine’s Day, and summer themes each hit their own peak sales windows on Etsy and TpT. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
+      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A “Halloween Pattern Train” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine’s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',
-      description: 'Pair pattern train worksheets with pattern grid worksheets, matching worksheets, odd one out, and shadow match activities using coordinated themes. Each format exercises a different visual cognitive skill: Pattern Train builds sequence recognition in a distinctive train layout, pattern grids use standard rows-and-columns format, matching builds visual pairing, odd one out builds classification. Multi-format visual bundles sell for more than any single activity type alone and give students varied practice.',
+      description: 'Pair pattern train worksheets with pattern grid worksheets, matching worksheets, odd one out, and shadow match activities using coordinated themes. Each format exercises a different visual cognitive skill: Pattern Train builds sequence recognition in a distinctive train layout, pattern grids use standard rows-and-columns format, matching builds visual pairing, odd one out builds classification. Multi-format visual bundles sell for more than any single activity type alone and give users varied practice.',
     },
     {
       title: 'Custom Image Subject-Specific Pattern Trains',
-      description: 'Upload custom images to create pattern train worksheets for specialized audiences beyond the built-in library. Use plant growth stages for a science lesson, musical note symbols for a music class, geometric shapes for a math unit, or historical artifact images for social studies. The five pattern types and adjustable clue count let you match the exercise to any learning objective. Custom images let you target specific buyer niches on Etsy and TpT where themed library images alone may not fit.',
+      description: 'Upload custom images to create pattern train worksheets for specialized audiences beyond the built-in library. Use plant growth stages for a science theme, musical note symbols for a music theme, geometric shapes for a math theme, or historical artifact images for social studies products. The five pattern types and adjustable clue count let you match the exercise to any product niche. Custom images let you target specific buyer niches on Etsy and Gumroad where themed library images alone may not fit.',
     },
   ],
 
@@ -97,22 +97,22 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Early Math Workbook Series',
-      description: 'Compile 80+ pattern train exercises into themed workbooks for Amazon KDP. Structure a series by theme: “Animal Pattern Trains,” “Vehicle Sequence Trains,” “Food Pattern Recognition.” Each book progresses from simple AB patterns to complex AABB sequences with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Pattern train workbooks fill a specific early learning niche with year-round demand from parents and preschool teachers.',
+      description: 'Compile 80+ pattern train exercises into themed workbooks for Amazon KDP. Structure a series by theme: “Animal Pattern Trains,” “Vehicle Sequence Trains,” “Food Pattern Recognition.” Each book progresses from simple AB patterns to complex AABB sequences with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Pattern train workbooks fill a specific early learning niche with year-round demand from buyers worldwide.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Pattern Centers',
-      description: 'Upload pattern train worksheet packs to TpT organized by skill level and theme. Include four difficulty tiers per theme using pattern type and clue count as the differentiation axes. Package with auto-generated answer keys and student progress tracking sheets. The train car format creates an engaging visual theme that works as a classroom center activity. Teachers search for “pattern recognition activities” and “repeating pattern worksheets” and find limited train-format options — your products fill a genuine gap.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Pattern Recognition Packs',
+      description: 'Upload pattern train worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using pattern type and clue count as the differentiation axes. Package with auto-generated answer keys for a complete product. The train car format creates an engaging visual theme that stands out in marketplace search results. Buyers search for “pattern recognition activities” and “repeating pattern worksheets” and find limited train-format options — your products fill a genuine gap.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Pattern Train Visual Funnel',
-      description: 'Pattern train worksheets with colorful themed images on train cars are inherently pin-worthy — the distinctive train layout grabs attention in Pinterest feeds where most pattern worksheet pins show generic rows and grids. Pin sample worksheets showing different pattern types with watermark, link to your shop or landing page, and collect email addresses for your subscriber list. The zero-text format means pins appeal to parents and teachers in every country, not just English speakers.',
+      description: 'Pattern train worksheets with colorful themed images on train cars are inherently pin-worthy — the distinctive train layout grabs attention in Pinterest feeds where most pattern worksheet pins show generic rows and grids. Pin sample worksheets showing different pattern types with watermark, link to your shop or landing page, and collect email addresses for your subscriber list. The zero-text format means pins appeal to buyers in every country, not just English speakers.',
       platform: 'Pinterest',
     },
     {
       title: 'Gumroad Complete Pattern Learning Toolkit',
-      description: 'Bundle pattern train worksheets with pattern grid worksheets, matching worksheets, and sequence completion activities to create a comprehensive pattern learning toolkit on Gumroad. Each format exercises pattern recognition differently: Pattern Train uses the distinctive 11-wagon layout, pattern grids use standard rows and columns, matching pairs related items, sequence completion extends patterns. A multi-format pattern toolkit justifies a premium price point and gives students varied practice with coordinated themed images across every activity type.',
+      description: 'Bundle pattern train worksheets with pattern grid worksheets, matching worksheets, and sequence completion activities to create a comprehensive pattern learning toolkit on Gumroad. Each format exercises pattern recognition differently: Pattern Train uses the distinctive 11-wagon layout, pattern grids use standard rows and columns, matching pairs related items, sequence completion extends patterns. A multi-format pattern toolkit justifies a premium price point and gives users varied practice with coordinated themed images across every activity type.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use Pattern Type and Clue Count as Two Independent Difficulty Axes',
-      description: 'Pattern type controls sequence complexity (AB is simplest, AABB is hardest). Clue count controls visual support (10 clues is easiest, 4 is hardest). Combining both creates a wide difficulty matrix: AB with 10 clues for absolute beginners, AABB with 4 clues for advanced students. This dual-axis approach multiplies your product variety from the same set of themes.',
+      description: 'Pattern type controls sequence complexity (AB is simplest, AABB is hardest). Clue count controls visual support (10 clues is easiest, 4 is hardest). Combining both creates a wide difficulty matrix: AB with 10 clues for absolute beginners, AABB with 4 clues for advanced puzzles. This dual-axis approach multiplies your product variety from the same set of themes.',
     },
     {
       title: 'Emphasize the Train Format as Your Marketplace Differentiator',
-      description: 'Most pattern worksheets on Etsy and TpT use standard grid layouts with rows and columns. The 11-wagon train car format is visually distinctive and immediately recognizable in search results. Mention “train car format” and “11-wagon layout” in your product titles and descriptions to highlight what makes your listings different from grid-based competitors.',
+      description: 'Most pattern worksheets on Etsy and Gumroad use standard grid layouts with rows and columns. The 11-wagon train car format is visually distinctive and immediately recognizable in search results. Mention “train car format” and “11-wagon layout” in your product titles and descriptions to highlight what makes your listings different from grid-based competitors.',
     },
     {
       title: 'Highlight Zero-Text for Global Sellability',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Match Clue Count to Your Target Age Group',
-      description: 'For preschoolers (ages 3–4), use AB patterns with 8–10 clues for maximum visual support. For kindergarteners (ages 4–6), use AAB/ABB patterns with 6–8 clues. For first graders and beyond, ABC and AABB patterns with 4–6 clues create genuine reasoning challenges. Specify the target age in your product titles for better marketplace search targeting.',
+      description: 'For the toddler market (ages 3–4), use AB patterns with 8–10 clues for maximum visual support. For the early-learner niche (ages 4–6), use AAB/ABB patterns with 6–8 clues. For the K-2 product market and beyond, ABC and AABB patterns with 4–6 clues create genuine reasoning challenges. Specify the target age in your product titles for better marketplace search targeting.',
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. Black-and-white output costs significantly less to print and meets KDP interior requirements for standard (non-premium color) books. Save color mode for Etsy listing previews and digital downloads where vibrant themed images attract clicks.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white output costs significantly less to print and meets KDP interior requirements for standard (non-premium color) books. Save color mode for Etsy listing previews and digital downloads where vibrant themed images attract clicks.',
     },
     {
       title: 'Upload Custom Images for Niche Markets',
-      description: 'Use the custom image upload to create pattern train worksheets for niche audiences beyond the built-in library. Plant growth stages for science, musical notes for music class, geometric shapes for math — custom images let you target specific buyer niches on Etsy and TpT where themed library images alone may not fit.',
+      description: 'Use the custom image upload to create pattern train worksheets for niche audiences beyond the built-in library. Plant growth stages for science themes, musical notes for music themes, geometric shapes for math themes — custom images let you target specific buyer niches on Etsy and Gumroad where themed library images alone may not fit.',
     },
   ],
 
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'What are the five pattern types?',
-      answer: 'AB alternates two items (A-B-A-B) for the simplest repeating pattern. AAB groups two of one item then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three different items (A-B-C-A-B-C), requiring students to track a longer repeating unit. AABB pairs two of each item (A-A-B-B-A-A-B-B) in an extended cycle. The progression from AB to AABB creates a natural difficulty ladder.',
+      answer: 'AB alternates two items (A-B-A-B) for the simplest repeating pattern. AAB groups two of one item then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three different items (A-B-C-A-B-C), requiring solvers to track a longer repeating unit. AABB pairs two of each item (A-A-B-B-A-A-B-B) in an extended cycle. The progression from AB to AABB creates a natural difficulty ladder.',
     },
     {
       question: 'How does the clue count control difficulty?',
-      answer: 'The clue count sets how many of the 11 train wagons show images. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious. With 4 clues, students see minimal information and must reason carefully to identify the sequence. This single setting transforms any pattern type from a straightforward exercise into a genuine reasoning challenge.',
+      answer: 'The clue count sets how many of the 11 train wagons show images. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious. With 4 clues, solvers see minimal information and must reason carefully to identify the sequence. This single setting transforms any pattern type from a straightforward exercise into a genuine reasoning challenge.',
     },
     {
       question: 'How are the 11 train wagons arranged on the page?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'How is Pattern Train different from grid-based pattern worksheets?',
-      answer: 'Pattern Train displays sequences across 11 themed train wagons in a distinctive visual format with a single missing position. Grid-based pattern worksheets use standard rows and columns for pattern completion exercises. The train format is more visually engaging and creates products that immediately stand out in Etsy and TpT search results. Pattern Train also features adjustable clue count (4–10) for fine-grained difficulty control and dynamic missing position placement.',
+      answer: 'Pattern Train displays sequences across 11 themed train wagons in a distinctive visual format with a single missing position. Grid-based pattern worksheets use standard rows and columns for pattern completion exercises. The train format is more visually engaging and creates products that immediately stand out in Etsy and Gumroad search results. Pattern Train also features adjustable clue count (4–10) for fine-grained difficulty control and dynamic missing position placement.',
     },
     {
       question: 'Why do worksheets have no text on them?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell pattern train worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell pattern train worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What is your refund policy?',
@@ -214,13 +214,13 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/english/pattern train/pattern_train_worksheet.webp',
-      primaryAlt: 'Pattern train worksheet with themed train wagons showing repeating pattern sequence with one missing wagon for students to complete',
+      primaryAlt: 'Pattern train worksheet with themed train wagons showing repeating pattern sequence with one missing wagon to complete',
     },
     sampleGallery: [
       {
         src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
         alt: 'Pattern train worksheet in AB alternating pattern mode with animal images across 11 themed train wagons',
-        caption: 'AB pattern with animal theme — students identify the alternating sequence and fill in the missing wagon',
+        caption: 'AB pattern with animal theme — identify the alternating sequence and fill in the missing wagon',
       },
       {
         src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
@@ -230,7 +230,7 @@ const content: ToolContent = {
       {
         src: '/samples/english/pattern train/pattern_train_answer_key.webp',
         alt: 'Pattern train answer key showing all 11 wagons filled with the correct pattern sequence',
-        caption: 'Answer key view — all 11 wagons filled with the correct pattern for teacher verification',
+        caption: 'Answer key view — all 11 wagons filled with the correct pattern for verification',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

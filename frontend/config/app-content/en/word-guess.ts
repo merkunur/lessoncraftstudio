@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable word guessing worksheets for Etsy sellers',
       'hangman-style vocabulary worksheet maker for KDP publishers',
-      'sell word guess activities on Teachers Pay Teachers',
+      'sell word guess activities on Gumroad',
       'word guess printables commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use word guess generator',
     ],
     titleTag: 'Word Guess Generator | Create Vocabulary Puzzles',
-    metaDescription: 'Create word guess worksheets to sell on Etsy, KDP & TPT. Image clues, 4 difficulty levels, 3 content sources, 11 languages. Try free — license available.',
+    metaDescription: 'Create word guess worksheets to sell on Etsy, KDP & Gumroad. Image clues, 4 difficulty levels, 3 content sources, 11 languages. Try free — license available.',
   },
 
   hero: {
     title: 'Word Guess Worksheet Generator for Image-Clue Vocabulary Puzzles',
     tagline: 'Hangman-style deduction meets image clues — four difficulty levels turn every word into a satisfying puzzle.',
     description:
-      'Design professional word guess worksheets where students see an image clue and deduce the hidden word by filling in blank letter cells — a hangman-style puzzle that builds spelling, vocabulary, and deductive reasoning simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using any vocabulary you type. Four difficulty levels control how many letters are pre-revealed as clues — from no clues at all to easy mode showing half the letters — creating natural scaffolding from beginner to advanced. Place 1 to 10 puzzles per worksheet and toggle uppercase or lowercase letter grids. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed vocabulary bundles on Etsy, compile word puzzle books for Amazon KDP, or create differentiated literacy centers for TPT, the Word Guess Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional word guess worksheets where solvers see an image clue and deduce the hidden word by filling in blank letter cells — a hangman-style puzzle that builds spelling, vocabulary, and deductive reasoning simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using any vocabulary you type. Four difficulty levels control how many letters are pre-revealed as clues — from no clues at all to easy mode showing half the letters — creating natural scaffolding from beginner to advanced. Place 1 to 10 puzzles per worksheet and toggle uppercase or lowercase letter grids. Full Access unlocks all 11 supported languages where the target word changes by language (\"dog\" in English becomes \"Hund\" in German, \"chien\" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed vocabulary bundles on Etsy, compile word puzzle books for Amazon KDP, or list language-learning packs on Gumroad, the Word Guess Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Set Letter Case and Add Custom Touches',
         description:
-          'Choose between uppercase (default) and lowercase letter grids to match your target skill level. Use the Text Tools panel to add a worksheet title, student name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability.',
+          'Choose between uppercase (default) and lowercase letter grids to match your target skill level. Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Image-Clue Word Guessing with Blank Letter Grid',
         description:
-          'Each puzzle presents an image clue alongside a row of blank letter cells representing the hidden word. Students study the image, identify what it depicts, and fill in the missing letters — a hangman-style deduction exercise that simultaneously builds visual vocabulary, spelling accuracy, and letter-sound correspondence. Multi-word phrases render as separate word groups with spacing between them, supporting compound nouns, animal names, and longer vocabulary terms naturally.',
+          'Each puzzle presents an image clue alongside a row of blank letter cells representing the hidden word. Solvers study the image, identify what it depicts, and fill in the missing letters — a hangman-style deduction exercise that simultaneously builds visual vocabulary, spelling accuracy, and letter-sound correspondence. Multi-word phrases render as separate word groups with spacing between them, supporting compound nouns, animal names, and longer vocabulary terms naturally.',
       },
       {
         title: 'Four Difficulty Levels with Adjustable Clue Letter Count',
         description:
-          'Control exactly how much scaffolding students receive with four built-in difficulty levels. No Clues mode leaves every cell blank for maximum challenge. Easy mode pre-reveals half the letters, perfect for emerging readers. Normal mode reveals one quarter of the letters for balanced practice. Tough mode reveals just one sixth — enough of a hint to get started without giving the answer away. Mixing difficulty levels across worksheets within a single bundle creates a natural easy-to-hard progression that commands premium prices.',
+          'Control exactly how much scaffolding each puzzle provides with four built-in difficulty levels. No Clues mode leaves every cell blank for maximum challenge. Easy mode pre-reveals half the letters, perfect for emerging readers. Normal mode reveals one quarter of the letters for balanced practice. Tough mode reveals just one sixth — enough of a hint to get started without giving the answer away. Mixing difficulty levels across worksheets within a single bundle creates a natural easy-to-hard progression that commands premium prices.',
       },
       {
         title: 'Three Content Sources: Image Library, Manual Edit, and Custom Word List',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Multi-Word Phrase Support for Complex Vocabulary',
         description:
-          'Image names and custom entries that contain spaces render as separate word groups on the puzzle grid, with clear spacing between each word. This means compound terms like “polar bear” or “fire truck” display naturally as two connected word grids rather than one long string. Students solve each word independently while understanding they form a single concept. This feature expands your vocabulary scope far beyond single nouns, enabling animal species, food dishes, place names, and descriptive phrases.',
+          'Image names and custom entries that contain spaces render as separate word groups on the puzzle grid, with clear spacing between each word. This means compound terms like “polar bear” or “fire truck” display naturally as two connected word grids rather than one long string. Solvers work through each word independently while understanding they form a single concept. This feature expands your vocabulary scope far beyond single nouns, enabling animal species, food dishes, place names, and descriptive phrases.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Print-Ready Export at 400+ DPI with Grayscale Option',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions ideal for classroom printing or black-and-white activity books. Letter, A4, Square, and custom sizes are all supported for maximum flexibility across print-on-demand platforms and home printers.',
+          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions ideal for black-and-white activity books and cost-effective bulk printing. Letter, A4, Square, and custom sizes are all supported for maximum flexibility across print-on-demand platforms and home printers.',
       },
       {
         title: 'Full Canvas Editing with Text, Shape, and Image Tools',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Literacy Centers for TPT',
+        title: 'Leveled Word Guess Packs on Gumroad',
         description:
-          'Build leveled word guess practice sets using difficulty level as the differentiation axis: Level 1 (Easy, 4 puzzles per page, simple words), Level 2 (Normal, 6 puzzles, medium words), Level 3 (Tough, 8 puzzles, longer words), and Level 4 (No Clues, 10 puzzles, multi-word phrases). Package each level with answer keys and a progress tracking sheet. Teachers Pay Teachers buyers pay premium prices for differentiated vocabulary resources they can deploy immediately across multiple reading levels.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled word guess practice sets using difficulty level as the organizing axis: Level 1 (Easy, 4 puzzles per page, simple words), Level 2 (Normal, 6 puzzles, medium words), Level 3 (Tough, 8 puzzles, longer words), and Level 4 (No Clues, 10 puzzles, multi-word phrases). Package each level with answer keys and a usage guide. Buyers pay premium prices for graded vocabulary resources they can put to use immediately across multiple skill levels.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Multilingual Vocabulary Products with Full Access',
         description:
           'Full Access unlocks all 11 languages, and because Word Guess is language-sensitive, the target word changes by language. “Dog” in English becomes “Hund” in German, “chien” in French, “perro” in Spanish. Each language version is a genuinely different product with different words, different letter counts, and different puzzle solutions. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingual)',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: 'Classroom and Tutoring Spelling Tool',
+        title: ‘Custom Vocabulary Packs for Your Own Store’,
         description:
-          'Use Custom Word List mode to create word guess worksheets for any vocabulary list — weekly spelling words, science terms, social studies vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to match each student’s ability: Easy for struggling spellers, No Clues for advanced learners. Print custom sets in minutes for small groups or entire classes. The automatic answer key saves grading time, and the hangman-style format keeps students engaged compared to traditional write-the-word-five-times practice.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Use Custom Word List mode to create word guess worksheets for any vocabulary list — spelling words, science terms, geography vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to target different skill tiers: Easy for beginners, No Clues for advanced solvers. Generate complete sets in minutes and list them on your own website or storefront. The automatic answer key adds professional value, and the hangman-style format drives repeat purchases compared to plain word-list printables.’,
+        platform: ‘Your Own Store / Shopify / WooCommerce’,
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'How does the word guessing puzzle work?',
       answer:
-        'Each puzzle shows an image clue alongside a row of blank letter cells. Students study the image to identify what it depicts, then fill in the missing letters to spell the word. Pre-revealed clue letters (controlled by difficulty level) provide scaffolding. It works like hangman but with an image clue instead of a category hint — building visual vocabulary, spelling, and deductive reasoning simultaneously.',
+        'Each puzzle shows an image clue alongside a row of blank letter cells. Solvers study the image to identify what it depicts, then fill in the missing letters to spell the word. Pre-revealed clue letters (controlled by difficulty level) provide scaffolding. It works like hangman but with an image clue instead of a category hint — building visual vocabulary, spelling, and deductive reasoning simultaneously.',
     },
     {
       question: 'What are the four difficulty levels?',
@@ -157,27 +157,27 @@ const content: AppContent = {
     {
       question: 'How does Multi-Word Phrase Support work?',
       answer:
-        'Words or image names that contain spaces (like “polar bear” or “fire truck”) render as separate word groups on the puzzle grid with clear spacing between them. Students solve each word independently while understanding they form a single concept. This works with all three content sources and all four difficulty levels.',
+        'Words or image names that contain spaces (like “polar bear” or “fire truck”) render as separate word groups on the puzzle grid with clear spacing between them. Solvers work through each word independently while understanding they form a single concept. This works with all three content sources and all four difficulty levels.',
     },
     {
       question: 'Can I choose between uppercase and lowercase letters?',
       answer:
-        'Yes. The letter case toggle lets you switch between uppercase (default) and lowercase for the guessing grid. Uppercase is ideal for younger students learning capital letters, while lowercase suits older students practicing standard spelling. The setting applies to both clue letters and the cells students fill in.',
+        'Yes. The letter case toggle lets you switch between uppercase (default) and lowercase for the guessing grid. Uppercase works well for beginner-level products targeting early readers, while lowercase suits more advanced vocabulary worksheets. The setting applies to both clue letters and the cells solvers fill in.',
     },
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        'In standard Image Library mode, the word to guess is the image’s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or adapt words to your lesson objectives while still showing the image as a visual clue.',
+        ‘In standard Image Library mode, the word to guess is the image’s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.’,
     },
     {
       question: 'What can I do with Custom Word List mode?',
       answer:
-        'Custom Word List mode lets you type any words or phrases directly — no images required. This is ideal for weekly spelling lists, subject-specific vocabulary (science terms, geography names), foreign language practice, or any custom content. The puzzles show blank letter grids without image clues, so students rely on context from worksheet titles, instructions, or prior knowledge to solve them.',
+        'Custom Word List mode lets you type any words or phrases directly — no images required. This is ideal for themed spelling packs, subject-specific vocabulary (science terms, geography names), foreign language practice, or any custom content. The puzzles show blank letter grids without image clues, so solvers rely on context from worksheet titles, instructions, or prior knowledge to complete them.',
     },
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet with every letter cell filled in and no blanks remaining. You can preview the answer key on screen and download it as a separate JPEG or PDF file. Toggle grayscale export for ink-friendly answer key versions ideal for classroom printing.',
+        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet with every letter cell filled in and no blanks remaining. You can preview the answer key on screen and download it as a separate JPEG or PDF file. Toggle grayscale export for ink-friendly answer key versions ideal for black-and-white activity books.',
     },
     {
       question: 'Is the Word Guess generator language-sensitive?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your word guess worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The image-clue puzzle format and multilingual capability give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your word guess worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-clue puzzle format and multilingual capability give you strong differentiation in crowded marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+      anchorText: 'Homeschool Printable Ideas for Sellers',
     },
     {
       pageType: 'guide',

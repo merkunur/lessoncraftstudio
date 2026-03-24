@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable addition worksheets for Etsy',
       'math worksheet maker for KDP publishers',
-      'sell addition worksheets on Teachers Pay Teachers',
+      'addition printables for online marketplace sellers',
       'addition printables commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use worksheet generator',
     ],
     titleTag: 'Addition Worksheet Generator | Create & Sell Printables',
-    metaDescription: 'Create addition worksheets to sell on Etsy, KDP & TPT. 104 themes, 4 exercise modes, answer keys included, 400+ DPI export. Try free — license available.',
+    metaDescription: 'Create addition worksheets to sell on Etsy & Amazon KDP. 104 themes, 4 exercise modes, answer keys included, 400+ DPI export. Try free — license available.',
   },
 
   hero: {
     title: 'Addition Worksheet Generator for Visual Math Practice',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
-      'Create stunning image-based addition worksheets that make early math tangible and fun. Choose from four distinct exercise modes — Image + Image, Image + Number, Find the Addend, and Mixed — to match every skill level from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like farm animals, vehicles, and food to bring each problem to life. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell on Etsy, publish activity books on Amazon KDP, or hand worksheets to your own students, the Addition Worksheet Generator gives you professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Create stunning image-based addition worksheets that make early math tangible and fun. Choose from four distinct exercise modes — Image + Image, Image + Number, Find the Addend, and Mixed — to match every skill level from preschool through second grade. Browse over 3,100 curated illustrations across 104 themes like farm animals, vehicles, and food to bring each problem to life. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell on Etsy, publish activity books on Amazon KDP, or build a printable product line on your own store, the Addition Worksheet Generator gives you professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,17 +36,17 @@ const content: AppContent = {
       {
         title: 'Configure the Exercise Mode and Number Range',
         description:
-          'Open Exercise Configuration and select one of four modes. Image + Image shows two picture groups for students to count and add. Image + Number pairs a picture group with a numeral. Find the Addend reveals the total and one group, challenging students to figure out the missing part. Mixed Mode randomizes all three for varied practice. Set the minimum and maximum items per group (1–10) and choose how many exercises appear on each page (1–10).',
+          'Open Exercise Configuration and select one of four modes. Image + Image shows two picture groups to count and add. Image + Number pairs a picture group with a numeral. Find the Addend reveals the total and one group, challenging solvers to figure out the missing part. Mixed Mode randomizes all three for varied practice. Set the minimum and maximum items per group (1–10) and choose how many exercises appear on each page (1–10).',
       },
       {
         title: 'Pick Images from the Theme Library',
         description:
-          'Open the Image Library panel and browse 104 themes — from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Click to select the images you want on your worksheet; each exercise pulls from your selections. You can also upload your own custom images for a completely unique look that matches your brand or classroom theme. Sellers who curate cohesive image sets within a single theme consistently report stronger buyer engagement, because themed consistency signals professional quality and justifies premium pricing on marketplaces like Etsy and Teachers Pay Teachers.',
+          'Open the Image Library panel and browse 104 themes — from animals and food to vehicles and holidays. Use the search bar to find specific images instantly. Click to select the images you want on your worksheet; each exercise pulls from your selections. You can also upload your own custom images for a completely unique look that matches your brand or seasonal product line. Sellers who curate cohesive image sets within a single theme consistently report stronger buyer engagement, because themed consistency signals professional quality and justifies premium pricing on marketplaces like Etsy and Amazon KDP.',
       },
       {
         title: 'Add Text, Titles, and Custom Touches',
         description:
-          'Use the Text Tools panel to add a worksheet title, student name and date fields, instructions, or any custom text. Choose from seven child-friendly fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability. Toggle exercise numbers, the plus sign between image groups, and the child-friendly answer box on or off to match your style.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven readable fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Adjust font size, color, and outline for maximum readability. Toggle exercise numbers, the plus sign between image groups, and the guided answer box on or off to match your style.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -62,22 +62,22 @@ const content: AppContent = {
       {
         title: 'Four Distinct Exercise Modes',
         description:
-          'Choose the mode that matches your students’ skill level. Image + Image mode uses two picture groups for pure visual counting — perfect for preschoolers just learning to add. Image + Number mode pairs pictures with numerals to bridge concrete and abstract thinking. Find the Addend mode shows the sum and one group, building algebraic reasoning early. Mixed Mode combines all three so every worksheet offers varied, engaging practice without repetition.',
+          ‘Choose the mode that matches your target product tier. Image + Image mode uses two picture groups for pure visual counting — ideal for the preschool-age market. Image + Number mode pairs pictures with numerals, bridging visual and numeric formats. Find the Addend mode shows the sum and one group, adding a logic challenge. Mixed Mode combines all three so every worksheet offers varied practice without repetition — perfect for bundling into comprehensive product packs.’,
       },
       {
         title: 'Configurable Number Ranges',
         description:
-          'Set the minimum and maximum number of items per group anywhere from 1 to 10, giving you full control over problem difficulty. Create gentle 1+1 through 3+3 worksheets for preschoolers, standard 1–10 practice for kindergarteners, or challenging near-ten problems for first and second graders. Adjusting the range takes a single click, so you can differentiate instruction across an entire class in minutes. This granular control over number ranges means you can create precisely targeted products for each developmental stage, from early counting skills through multi-digit addition mastery. Teachers appreciate worksheets that match their exact curriculum progression rather than generic one-size-fits-all difficulty levels.',
+          'Set the minimum and maximum number of items per group anywhere from 1 to 10, giving you full control over problem difficulty. Create gentle 1+1 through 3+3 worksheets for the preschool-age niche, standard 1–10 practice for the kindergarten market, or challenging near-ten problems for the K-2 product tier. Adjusting the range takes a single click, so you can produce tiered product bundles in minutes. This granular control over number ranges means you can create precisely targeted products for each difficulty tier, from early counting through multi-digit addition mastery. Buyers on Etsy and Amazon KDP actively search for age-specific worksheets, so matching your product to an exact difficulty level improves search ranking and conversion rates.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
         description:
-          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear, child-friendly printing. Because the images carry the math content — not text — your worksheets work perfectly in any language and any classroom worldwide.',
+          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear printing at any size. Because the images carry the math content — not text — your worksheets work perfectly in any language and sell worldwide without translation.',
       },
       {
         title: 'Automatic Answer Key Generation',
         description:
-          'Click one button to generate a complete answer key that mirrors your worksheet layout with all solutions filled in. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in teacher editions, parent guides, or Etsy product bundles without any manual work.',
+          'Click one button to generate a complete answer key that mirrors your worksheet layout with all solutions filled in. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in Etsy product bundles, KDP book appendices, or Gumroad digital packs without any manual work.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 400+ DPI',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Custom Upload for Your Own Images',
         description:
-          'Go beyond the built-in library by uploading your own PNG or JPEG images directly into the app. This is ideal for branded worksheets, custom clipart, classroom mascots, or themed seasonal content that sets your printable products apart from competitors. Uploaded images integrate seamlessly with every exercise mode, so you maintain full creative control.',
+          'Go beyond the built-in library by uploading your own PNG or JPEG images directly into the app. This is ideal for branded worksheets, custom clipart, or themed seasonal content that sets your printable products apart from competitors. Uploaded images integrate seamlessly with every exercise mode, so you maintain full creative control.',
       },
       {
         title: 'Decorative Borders and Background Themes',
         description:
-          'Elevate your worksheets from plain to professional with decorative border frames and background images drawn from the same 104-theme library. Adjust border and background opacity independently so the visual flourishes enhance the design without distracting from the math content. Layering a seasonal border over a tinted background creates themed worksheet sets that command higher prices on Etsy and TPT.',
+          'Elevate your worksheets from plain to professional with decorative border frames and background images drawn from the same 104-theme library. Adjust border and background opacity independently so the visual flourishes enhance the design without distracting from the math content. Layering a seasonal border over a tinted background creates themed worksheet sets that command higher prices on Etsy and Amazon KDP.',
       },
       {
         title: 'Full Canvas Editing with Undo and Redo',
@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: 'Themed Addition Worksheet Bundles on Etsy',
         description:
-          'Create sets of 10–20 addition worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include the answer key as a bonus file. Themed bundles attract parents searching for specific interests and teachers looking for classroom-ready packets. Price individual themes at $3–$5 and mega-bundles at $12–$18 for strong average order value.',
+          'Create sets of 10–20 addition worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include the answer key as a bonus file. Themed bundles attract buyers searching for specific interests and stand out from generic drill sheets in search results. Price individual themes at $3–$5 and mega-bundles at $12–$18 for strong average order value.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Math Centers for TPT',
+        title: 'Tiered Difficulty Bundles for Maximum SKU Coverage',
         description:
-          'Build leveled addition practice sets using the four exercise modes: Level 1 (Image + Image, range 1–3), Level 2 (Image + Number, range 1–5), Level 3 (Find the Addend, range 1–7), and Level 4 (Mixed, range 1–10). Package each level with answer keys and a progress tracking sheet. Teachers Pay Teachers buyers pay premium prices for differentiated resources they can use immediately across multiple ability groups.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled addition practice sets using the four exercise modes as natural product tiers: Tier 1 (Image + Image, range 1–3), Tier 2 (Image + Number, range 1–5), Tier 3 (Find the Addend, range 1–7), and Tier 4 (Mixed, range 1–10). Sell each tier as a separate SKU or bundle all four into a complete progression pack at a premium price. Tiered bundles cover multiple buyer segments — buyers shopping for preschool, kindergarten, and early-grade content — from a single production session.',
+        platform: 'Etsy / Gumroad / Your Own Store',
       },
       {
         title: 'Printable Subscription Content for Your Own Store',
         description:
-          'Use the generator to produce fresh weekly addition worksheet packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed pack every week — creates recurring revenue and builds a loyal customer base of homeschool families and tutoring centers. The four exercise modes and 104 themes give you enough variety for years of unique content.',
+          'Use the generator to produce fresh weekly addition worksheet packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed pack every week — creates recurring revenue and builds a loyal customer base that returns every week. The four exercise modes and 104 themes give you enough variety for years of unique content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Classroom and Tutoring Practice Sheets',
+        title: ‘Pinterest Lead Funnel for Your Printable Shop’,
         description:
-          'Generate custom addition worksheets tailored to each student’s current skill level. Print a stack of Image + Image sheets for beginners and Find the Addend sheets for advanced learners — all in the same session. The automatic answer key saves grading time. Whether you run a tutoring center, teach a kindergarten class, or homeschool your own children, the generator replaces hours of manual worksheet creation with a few clicks. The ability to regenerate worksheets with different image arrangements while maintaining identical difficulty parameters means every student session feels fresh without requiring additional preparation time. Tutors who build a systematic library of themed addition worksheets at progressive difficulty levels can scale their practice from a handful of students to dozens without proportionally increasing their material preparation workload.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Use the generator to create eye-catching sample worksheets optimized for Pinterest pins — vertical format, bold themed images, and clear titles. Link each pin to a landing page on your Gumroad or Shopify store where visitors can purchase the full bundle. Addition worksheets with colorful animal or seasonal images perform exceptionally well on Pinterest because the visual format stops scrollers mid-feed. Create a new pin set for each of the 104 themes and schedule them across months for a steady stream of organic traffic to your store. The automatic answer key adds perceived value to every listing, and the four exercise modes let you create variety packs that justify higher price points.’,
+        platform: ‘Pinterest → Gumroad / Shopify / Etsy’,
       },
     ],
   },
@@ -142,22 +142,22 @@ const content: AppContent = {
     {
       question: 'What exercise modes does the Addition Worksheet Generator offer?',
       answer:
-        'The generator includes four modes: Image + Image (two picture groups to count and add), Image + Number (one picture group plus a numeral), Find the Addend (the sum is shown and students find the missing group), and Mixed Mode (randomizes all three). Each mode targets a different skill level, from pure visual counting to early algebraic reasoning. Sellers who package all four modes into a single differentiated bundle can charge premium prices, because buyers receive a complete progression from beginner to advanced without needing separate resources.',
+        'The generator includes four modes: Image + Image (two picture groups to count and add), Image + Number (one picture group plus a numeral), Find the Addend (the sum is shown and solvers find the missing group), and Mixed Mode (randomizes all three). Each mode targets a different difficulty tier, from pure visual counting to logic-based problem solving. Sellers who package all four modes into a single progression bundle can charge premium prices, because buyers receive a complete difficulty range from beginner to advanced without needing separate resources.',
     },
     {
       question: 'What number ranges can I set for addition problems?',
       answer:
-        'You can set the minimum and maximum items per group from 1 to 10. This lets you create easy problems like 1+1 for preschoolers or challenging sums near 10+10 for first and second graders. Adjust the range with two simple inputs in the Exercise Configuration panel. This precise control makes it easy to build grade-specific product lines — a preschool bundle at 1–3, a kindergarten set at 1–5, and a first-grade pack at 1–10 — each targeting a distinct buyer segment on Etsy or Amazon KDP.',
+        'You can set the minimum and maximum items per group from 1 to 10. This lets you create easy problems like 1+1 for the preschool-age niche or challenging sums near 10+10 for the K-2 market. Adjust the range with two simple inputs in the Exercise Configuration panel. This precise control makes it easy to build age-specific product lines — a preschool bundle at 1–3, a kindergarten set at 1–5, and an early-grade pack at 1–10 — each targeting a distinct buyer segment on Etsy or Amazon KDP.',
     },
     {
       question: 'How many images and themes are available?',
       answer:
-        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and child-friendly, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
+        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and high-resolution, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
     },
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct sums filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet. Including answer keys in your product listings adds perceived value for teacher buyers, who expect ready-to-use resources that save grading time. Bundles that include answer keys alongside student pages consistently attract higher review scores on Teachers Pay Teachers and Etsy.',
+        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct sums filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the main worksheet. Including answer keys in your product listings adds perceived value and signals completeness to marketplace buyers. Bundles that include answer keys consistently attract higher review scores and better conversion rates on Etsy and Amazon KDP.',
     },
     {
       question: 'What page sizes and export formats are supported?',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Can I use my own images instead of the built-in library?',
       answer:
-        'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look. This capability is especially valuable for sellers who purchase commercial clipart sets and want to build a distinctive brand identity that buyers recognize across multiple product listings on Etsy or Teachers Pay Teachers.',
+        'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look. This capability is especially valuable for sellers who purchase commercial clipart sets and want to build a distinctive brand identity that buyers recognize across multiple product listings on Etsy or Amazon KDP.',
     },
     {
       question: 'Is there a free trial?',
@@ -182,12 +182,12 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
+        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your addition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue.',
+        'Yes. With a commercial license, you have full rights to sell your addition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, through Gumroad or your own store, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue.',
     },
     {
       question: 'What is the refund policy?',
@@ -235,7 +235,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Educators & Sellers',
+      anchorText: 'Math Facts Printable Ideas for Sellers',
     },
     {
       pageType: 'idea',
@@ -258,7 +258,7 @@ const content: AppContent = {
       {
         src: '/samples/english/addition/addition_worksheet portrait.webp',
         alt: 'Portrait addition worksheet with Image + Image mode using animal theme',
-        caption: 'Image + Image mode — students count two picture groups and write the sum',
+        caption: 'Image + Image mode — count two picture groups and write the sum',
       },
       {
         src: '/samples/english/addition/addition_worksheet landscape.webp',
@@ -268,7 +268,7 @@ const content: AppContent = {
       {
         src: '/samples/english/addition/find addend.webp',
         alt: 'Addition worksheet in Find the Addend mode with vehicle theme',
-        caption: 'Find the Addend mode — students figure out the missing group for early algebra',
+        caption: 'Find the Addend mode — figure out the missing group for an added logic challenge',
       },
     ],
     youtubeId: '6O5aCzHkh8M',

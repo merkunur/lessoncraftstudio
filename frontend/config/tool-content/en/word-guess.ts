@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Word Guess Worksheet Generator',
     tagline: 'Create image-based spelling worksheets with 4 clue levels in 11 languages',
-    description: 'Turn vocabulary practice into a visual puzzle students love solving. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks — students study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids — exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Turn vocabulary practice into a visual puzzle solvers love completing. This tool generates word guess worksheets where an image clue is paired with a letter grid containing blanks — solvers study the picture and fill in the missing letters to spell the word it represents. The standout feature is a 4-level progressive clue system: No Clues reveals zero letters for pure recall, Easy reveals half the letters for scaffolded beginners, Normal reveals a quarter for balanced challenge, and Tough reveals just one-sixth for confident spellers. Choose between two input modes: Image Clue mode pulls vocabulary from 3,100+ images across 104 themed collections with automatic letter grid generation, or Custom Word List mode lets you type any words directly for targeted vocabulary practice without images. The Exclude Letters feature removes specific letters from grids — exclude vowels for phonics-focused exercises or exclude common letters for a tougher challenge. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One worksheet design becomes 11 unique language products with genuinely different answers. Set uppercase or lowercase output, toggle exercise numbering, add custom text overlays, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with optional answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Set the Clue Difficulty Level',
-        description: 'Choose from four progressive difficulty levels. No Clues leaves the entire grid blank for pure recall — ideal for advanced spellers. Easy reveals half the letters, providing scaffolding for young learners just starting to spell. Normal reveals a quarter of the letters for balanced challenge. Tough reveals only one-sixth of the letters for confident students who need minimal hints. Mix difficulty levels across pages to create differentiated worksheet packs.',
+        description: 'Choose from four progressive difficulty levels. No Clues leaves the entire grid blank for pure recall — ideal for advanced spellers. Easy reveals half the letters, providing scaffolding for young learners just starting to spell. Normal reveals a quarter of the letters for balanced challenge. Tough reveals only one-sixth of the letters for confident spellers who need minimal hints. Mix difficulty levels across pages to create differentiated worksheet packs.',
       },
       {
         title: 'Select Images and Theme',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Configure Exclude Letters, Case, and Numbering',
-        description: 'Use the Exclude Letters feature to remove specific letters from the grids — for example, exclude all vowels so students must supply them, creating a phonics-focused exercise. Set letter case to uppercase or lowercase output. Toggle exercise numbering on or off. Add a custom text overlay with instructions like "Fill in the missing letters!" for clear student guidance.',
+        description: 'Use the Exclude Letters feature to remove specific letters from the grids — for example, exclude all vowels so solvers must supply them, creating a phonics-focused exercise. Set letter case to uppercase or lowercase output. Toggle exercise numbering on or off. Add a custom text overlay with instructions like "Fill in the missing letters!"',
       },
       {
         title: 'Customize Fonts, Text, and Canvas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Spelling Guess Packs',
-      description: 'Create sets of 10–15 word guess worksheets using themed image collections — animals, food, vehicles, nature scenes. Each worksheet pairs images with letter grids at a consistent difficulty level. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The image-plus-puzzle format makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
+      description: 'Create sets of 10–15 word guess worksheets using themed image collections — animals, food, vehicles, nature scenes. Each worksheet pairs images with letter grids at a consistent difficulty level. Bundle by theme and sell on Etsy or Gumroad. The image-plus-puzzle format makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
     },
     {
       title: 'KDP Word Guess Activity Books',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiated Clue-Level Sets',
-      description: 'Generate four versions of the same themed worksheet — one at each clue level: No Clues, Easy, Normal, and Tough. Teachers can hand the right version to each student based on ability. Sell as a differentiated pack at a premium price on TpT or Etsy. Four difficulty tiers from one design session, with answer keys included for every version.',
+      description: 'Generate four versions of the same themed worksheet — one at each clue level: No Clues, Easy, Normal, and Tough. Buyers get the right version for every ability level. Sell as a differentiated pack at a premium price on Etsy or Gumroad. Four difficulty tiers from one design session, with answer keys included for every version.',
     },
     {
       title: 'Multilingual Spelling Products',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Spelling Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Word Guess" pack with festive vocabulary — REINDEER, SNOWFLAKE, PRESENT — sells strongly in November–December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and TpT. The visual puzzle format makes seasonal products feel fresh and engaging.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Word Guess" pack with festive vocabulary — REINDEER, SNOWFLAKE, PRESENT — sells strongly in November–December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and Gumroad. The visual puzzle format makes seasonal products feel fresh and engaging.',
     },
   ],
 
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Progressive Spelling Books',
-      description: 'Compile 80+ word guess pages into a physical activity book for Amazon KDP. Structure chapters by difficulty: Easy clue level first for warm-up, Normal for the main section, Tough for the challenge chapter, and No Clues for the bonus expert section. Include answer keys at the back. Publish separate editions per language to multiply your catalog. The 4-level system gives your book a clear progression that parents and teachers appreciate.',
+      description: 'Compile 80+ word guess pages into a physical activity book for Amazon KDP. Structure chapters by difficulty: Easy clue level first for warm-up, Normal for the main section, Tough for the challenge chapter, and No Clues for the bonus expert section. Include answer keys at the back. Publish separate editions per language to multiply your catalog. The 4-level system gives your book a clear progression that buyers appreciate.',
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Differentiated Packs',
-      description: 'Upload word guess worksheet packs to TpT organized by theme and difficulty level. Include all four clue levels for each theme, plus answer keys for every page. Teachers search for "spelling worksheets" and "word building activities" frequently. The 4-level differentiation means one product serves an entire classroom of mixed abilities, which teachers value highly in reviews.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Differentiated Packs',
+      description: 'Upload word guess worksheet packs to Gumroad or your own store organized by theme and difficulty level. Include all four clue levels for each theme, plus answer keys for every page. Buyers search for "spelling worksheets" and "word building activities" frequently. The 4-level differentiation means one product serves an entire range of abilities, which buyers value highly in reviews.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Phonics Focus Kits',
-      description: 'Create premium phonics kits on Gumroad that use the Exclude Letters feature strategically — exclude vowels for vowel-focus exercises, exclude consonant blends for blend practice. Bundle with Custom Word List worksheets targeting specific phonics patterns. Include a teacher guide explaining how each exclusion pattern targets a different phonics skill. Sell to homeschool parents and ESL teachers.',
+      description: 'Create premium phonics kits on Gumroad that use the Exclude Letters feature strategically — exclude vowels for vowel-focus exercises, exclude consonant blends for blend practice. Bundle with Custom Word List worksheets targeting specific phonics patterns. Include a usage guide explaining how each exclusion pattern targets a different phonics skill. Sell to homeschool buyers and language learning enthusiasts.',
       platform: 'Gumroad',
     },
     {
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use No Clues for Advanced Spellers',
-      description: 'No Clues mode leaves the entire letter grid blank — students must recall the complete spelling from the image alone. This is genuine spelling assessment, not recognition. Use it for older students, spelling tests, or the final "challenge" section of a progressive workbook.',
+      description: 'No Clues mode leaves the entire letter grid blank — solvers must recall the complete spelling from the image alone. This is genuine spelling assessment, not recognition. Use it for advanced users, spelling tests, or the final "challenge" section of a progressive workbook.',
     },
     {
       title: 'Use Easy Mode for Young Beginners',
-      description: 'Easy mode reveals half the letters, reducing the cognitive load so early learners can build confidence. They see enough of the word to recognize spelling patterns while still having blanks to fill. Start kindergarteners and early ESL students here before progressing to Normal and Tough.',
+      description: 'Easy mode reveals half the letters, reducing the cognitive load so early learners can build confidence. They see enough of the word to recognize spelling patterns while still having blanks to fill. Start beginners in the early-learner niche here before progressing to Normal and Tough.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images attract clicks.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images attract clicks.',
     },
     {
       title: 'Exclude Vowels for Phonics Focus',
-      description: 'Use the Exclude Letters feature to remove all vowels from the letter grid. Students must supply every vowel themselves, turning a spelling exercise into targeted phonics practice. You can also exclude specific consonants or letter combinations to focus on particular phonics skills.',
+      description: 'Use the Exclude Letters feature to remove all vowels from the letter grid. Solvers must supply every vowel themselves, turning a spelling exercise into targeted phonics practice. You can also exclude specific consonants or letter combinations to focus on particular phonics skills.',
     },
     {
       title: 'Pair with Other Literacy Tools',
-      description: 'Combine word guess worksheets with word scrambles, word searches, handwriting practice, and matching worksheets to create comprehensive spelling bundles. A "Complete Spelling Practice" pack with multiple activity types sells for more than any single worksheet format alone and gives students varied practice with the same vocabulary. Reusing the same themed images across different activity types also keeps your visual branding consistent, which strengthens buyer recognition when they browse your shop.',
+      description: 'Combine word guess worksheets with word scrambles, word searches, handwriting practice, and matching worksheets to create comprehensive spelling bundles. A "Complete Spelling Practice" pack with multiple activity types sells for more than any single worksheet format alone and gives learners varied practice with the same vocabulary. Reusing the same themed images across different activity types also keeps your visual branding consistent, which strengthens buyer recognition when they browse your shop.',
     },
   ],
 
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'What does the Exclude Letters feature do?',
-      answer: 'Exclude Letters removes specific letters from the pre-filled positions in the grid. For example, exclude all vowels so students must supply them, turning the exercise into phonics-focused practice. You can exclude any combination of letters to target specific spelling skills or increase difficulty beyond the four standard clue levels.',
+      answer: 'Exclude Letters removes specific letters from the pre-filled positions in the grid. For example, exclude all vowels so solvers must supply them, turning the exercise into phonics-focused practice. You can exclude any combination of letters to target specific spelling skills or increase difficulty beyond the four standard clue levels.',
     },
     {
       question: 'How does the language sensitivity work?',
@@ -184,11 +184,11 @@ const content: ToolContent = {
     },
     {
       question: 'Does the tool generate answer keys?',
-      answer: 'Yes. The tool generates a separate answer key sheet showing the correct spelling for every exercise. Answer keys are available in both PDF and JPEG formats. Each difficulty level gets its own answer key so teachers can quickly verify student work regardless of which clue level was assigned.',
+      answer: 'Yes. The tool generates a separate answer key sheet showing the correct spelling for every exercise. Answer keys are available in both PDF and JPEG formats. Each difficulty level gets its own answer key so buyers can quickly verify work regardless of which clue level was assigned.',
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',

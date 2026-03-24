@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'addition worksheet maker for teachers',
+    primaryKeyword: 'addition worksheet maker to sell online',
     secondaryKeywords: [
-      'addition worksheet creator for classroom',
-      'math addition worksheets for kids',
+      'addition worksheet creator for Etsy sellers',
+      'math addition worksheets for printable business',
       'printable addition practice sheets',
-      'image addition worksheets for kindergarten',
+      'image addition worksheets for the early-learner niche',
     ],
     lsiKeywords: [
-      'visual math worksheets for the classroom',
-      'picture-based addition practice for kids',
-      'kindergarten math printables for teachers',
+      'visual math worksheets to sell online',
+      'picture-based addition practice printables',
+      'early-learner math printables for sellers',
     ],
-    titleTag: 'Addition Worksheet Maker — Math Sheets for Class',
-    metaDescription: 'Create addition worksheets with themed images for your classroom. 104 themes, 4 exercise modes, answer keys, print-ready PDFs. Try with watermark — no signup.',
+    titleTag: 'Addition Worksheet Maker — Math Sheets to Sell Online',
+    metaDescription: 'Create addition worksheets with themed images to sell on Etsy & KDP. 104 themes, 4 exercise modes, answer keys, print-ready PDFs. Try with watermark — no signup.',
     },
 
   hero: {
     title: 'Addition Worksheet Generator',
     tagline: 'Create beautiful, image-based addition worksheets in under 60 seconds',
-    description: 'Turn math practice into a visual adventure. This tool lets you create custom addition worksheets featuring themed images that children actually want to complete. Choose from over 100 image themes, set your difficulty range, pick your page layout, and download print-ready PDFs or high-resolution JPEGs. Perfect for teachers building differentiated homework packets, parents supplementing classroom learning, and Etsy sellers creating printable math products. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Turn math practice into a visual adventure. This tool lets you create custom addition worksheets featuring themed images that children actually want to complete. Choose from over 100 image themes, set your difficulty range, pick your page layout, and download print-ready PDFs or high-resolution JPEGs. Perfect for Etsy sellers creating printable math products, KDP publishers building activity books, and entrepreneurs launching a printable business. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -32,11 +32,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Choose Your Exercise Mode',
-        description: 'Open the "Exercise Configuration" panel and select from four modes: Image + Image (both addends shown as picture groups), Image + Number (one group of pictures plus a numeral), Find Addend (one addend is missing and the child must figure it out), or Mixed Mode (randomly combines all three styles on one sheet).',
+        description: 'Open the "Exercise Configuration" panel and select from four modes: Image + Image (both addends shown as picture groups), Image + Number (one group of pictures plus a numeral), Find Addend (one addend is missing and the solver must figure it out), or Mixed Mode (randomly combines all three styles on one sheet).',
       },
       {
         title: 'Set the Difficulty Range',
-        description: 'Adjust "Min items per group" and "Max items per group" sliders to control the numbers used. For preschoolers, try 1–3. For kindergarten, use 1–5. First graders can handle 1–10. You can also set the number of exercises per worksheet (1 to 10).',
+        description: 'Adjust "Min items per group" and "Max items per group" sliders to control the numbers used. For the beginner tier, try 1–3. For the early-learner niche, use 1–5. The K-2 product market can handle 1–10. You can also set the number of exercises per worksheet (1 to 10).',
       },
       {
         title: 'Select a Theme from the Image Library',
@@ -48,11 +48,11 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Add Text and Titles',
-        description: 'Use the "Text Tools" panel to add a title, student name field, or instructions. Choose from kid-friendly fonts like Fredoka, Baloo 2, Quicksand, and Nunito. Adjust font size, color, and optional text outline for better readability over backgrounds.',
+        description: 'Use the "Text Tools" panel to add a title, name field, or instructions. Choose from clear, readable fonts like Fredoka, Baloo 2, Quicksand, and Nunito. Adjust font size, color, and optional text outline for better readability over backgrounds.',
       },
       {
         title: 'Toggle Worksheet Options',
-        description: 'Fine-tune your worksheet with checkboxes: enable Name/Date fields at the top, show or hide the plus sign between image groups, include exercise numbers, and toggle the child-friendly answer box style. Each option updates the live preview instantly.',
+        description: 'Fine-tune your worksheet with checkboxes: enable Name/Date fields at the top, show or hide the plus sign between image groups, include exercise numbers, and toggle the clear answer box style. Each option updates the live preview instantly.',
       },
       {
         title: 'Generate and Download',
@@ -64,11 +64,11 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Themed Addition Activity Packs',
-      description: 'Create a set of 10–20 worksheets around a single theme — dinosaurs, farm animals, or ocean creatures. Bundle them as a PDF activity pack and sell on Etsy or Teachers Pay Teachers. Parents love themed packs because they keep children engaged longer. Each theme in the library contains enough variety to fill an entire pack without repeating images, which means buyers get genuine visual diversity in every download. Position your packs at $3 to $5 for individual themes and $8 to $12 for mega-bundles that combine multiple themes with a progressive difficulty curve from simple counting to challenging multi-addend problems.',
+      description: 'Create a set of 10–20 worksheets around a single theme — dinosaurs, farm animals, or ocean creatures. Bundle them as a PDF activity pack and sell on Etsy or Gumroad. Buyers love themed packs because they keep learners engaged longer. Each theme in the library contains enough variety to fill an entire pack without repeating images, which means buyers get genuine visual diversity in every download. Position your packs at $3 to $5 for individual themes and $8 to $12 for mega-bundles that combine multiple themes with a progressive difficulty curve from simple counting to challenging multi-addend problems.',
     },
     {
       title: 'Differentiated Homework Sets',
-      description: 'Generate three versions of the same worksheet at different difficulty levels: easy (1–3), medium (1–5), and hard (1–10). Teachers can hand the right level to each student without spending extra prep time. This approach works particularly well on Teachers Pay Teachers where educators specifically search for differentiated materials that save classroom preparation time. Bundle the three difficulty versions together as a single listing priced at $4 to $6, and include a teacher guide explaining which level suits which student profile for maximum perceived value and stronger customer reviews.',
+      description: 'Generate three versions of the same worksheet at different difficulty levels: easy (1–3), medium (1–5), and hard (1–10). Buyers get the right level for every skill range without extra prep time. This approach works particularly well on Etsy where buyers specifically search for differentiated materials that save preparation time. Bundle the three difficulty versions together as a single listing priced at $4 to $6, and include a usage guide explaining which level suits which learner profile for maximum perceived value and stronger customer reviews.',
     },
     {
       title: 'Seasonal Math Bundles',
@@ -76,15 +76,15 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'KDP Math Workbooks',
-      description: 'Generate 50–100 pages of addition worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content math workbook on Amazon KDP. Square format (1200×1200) works great for KDP activity books. Use a consistent theme throughout the book or alternate themes chapter by chapter to give the workbook a cohesive professional feel. Include a table of contents, introduction page with instructions for parents, and a complete answer key section at the back. Price your KDP workbooks between $5.99 and $8.99 for optimal royalty returns.',
+      description: 'Generate 50–100 pages of addition worksheets in mixed modes, export as high-resolution PDFs, and publish as a low-content math workbook on Amazon KDP. Square format (1200×1200) works great for KDP activity books. Use a consistent theme throughout the book or alternate themes chapter by chapter to give the workbook a cohesive professional feel. Include a table of contents, introduction page with usage instructions, and a complete answer key section at the back. Price your KDP workbooks between $5.99 and $8.99 for optimal royalty returns.',
     },
     {
-      title: 'Classroom Morning Work Packets',
-      description: 'Build a month of daily addition warm-ups. Each worksheet takes 5–10 minutes, making it perfect for morning bell work. Include the answer key so students can self-check. Morning work packets sell consistently on both Etsy and Teachers Pay Teachers because teachers purchase them at the start of every school year and often reorder when they run out. Create monthly packs with 20 to 25 worksheets each, priced at $5 to $8, and offer a discounted full-year bundle at $35 to $45 for maximum revenue per customer.',
+      title: 'Daily Practice Packets',
+      description: 'Build a month of daily addition warm-ups. Each worksheet takes 5–10 minutes, making it perfect for quick practice sessions. Include the answer key for easy self-checking. Daily practice packets sell consistently on Etsy because buyers purchase them at the start of every school year and often reorder when they run out. Create monthly packs with 20 to 25 worksheets each, priced at $5 to $8, and offer a discounted full-year bundle at $35 to $45 for maximum revenue per customer.',
     },
     {
       title: 'Bilingual Math Worksheets',
-      description: 'Switch the content language to create worksheets with image labels in German, French, Spanish, or any of the 11 supported languages. Ideal for ESL classrooms, bilingual homeschool families, or international school sellers. The multilingual capability opens up international marketplace opportunities that most competitors completely ignore. German and French math worksheets face significantly less competition on Etsy than English ones, which means higher search visibility and conversion rates for sellers who invest in creating multi-language product lines across European and Latin American buyer segments.',
+      description: 'Switch the content language to create worksheets with image labels in German, French, Spanish, or any of the 11 supported languages. Ideal for bilingual product lines, international marketplace sellers, or multi-language Etsy shops. The multilingual capability opens up international marketplace opportunities that most competitors completely ignore. German and French math worksheets face significantly less competition on Etsy than English ones, which means higher search visibility and conversion rates for sellers who invest in creating multi-language product lines across European and Latin American buyer segments.',
     },
   ],
 
@@ -95,9 +95,9 @@ const content: ToolContent = {  seo: {
       platform: 'Etsy',
     },
     {
-      title: 'Teachers Pay Teachers Seller',
-      description: 'Upload differentiated addition worksheet packs to TpT. Teachers search for "addition worksheets with pictures" constantly. Include answer keys and a teacher guide in each listing for higher perceived value. When creating TpT listings, invest extra time in your product preview images because teachers make purchasing decisions based almost entirely on the visual preview thumbnails. Generate sample worksheets using the most colorful themes and include annotated screenshots showing the difficulty options and exercise modes available in each pack.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Digital Product Shop',
+      description: 'Upload differentiated addition worksheet packs to Gumroad or your own store. Buyers search for "addition worksheets with pictures" constantly. Include answer keys and a usage guide in each listing for higher perceived value. Invest extra time in your product preview images because buyers make purchasing decisions based almost entirely on the visual preview thumbnails. Generate sample worksheets using the most colorful themes and include annotated screenshots showing the difficulty options and exercise modes available in each pack.',
+      platform: 'Gumroad',
     },
     {
       title: 'Amazon KDP Activity Books',
@@ -106,16 +106,16 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Homeschool Curriculum Supplement',
-      description: 'Create a structured 12-week addition curriculum with progressive difficulty. Sell it as a digital download on your own website or Gumroad. Homeschool parents actively seek hands-on, visual math materials. Structure the curriculum with clear learning objectives per week, starting with single-digit addends and progressing to double-digit challenges by week twelve. Include parent instruction sheets explaining how to use each set of worksheets and what math concepts they reinforce. Homeschool parents pay premium prices for well-organized curriculum materials.',
+      description: 'Create a structured 12-week addition curriculum with progressive difficulty. Sell it as a digital download on your own website or Gumroad. Homeschool parents actively seek hands-on, visual math materials. Structure the curriculum with clear learning objectives per week, starting with single-digit addends and progressing to double-digit challenges by week twelve. Include instruction sheets explaining how to use each set of worksheets and what math concepts they reinforce. Homeschool buyers pay premium prices for well-organized curriculum materials.',
       platform: 'Gumroad',
     },
     {
       title: 'Tutoring Center Resource Library',
-      description: 'If you run a tutoring business, generate custom worksheets for each student session. The image-based format keeps young learners engaged while you track which number ranges they struggle with. Use the answer key for instant grading. Track each student progress by saving worksheet configurations and regenerating similar exercises at slightly higher difficulty levels as they improve. The instant answer key generation eliminates grading time between sessions, allowing tutors to focus entirely on instruction and student interaction during limited tutoring windows.',
+      description: 'If you run a tutoring business, generate custom worksheets for each session. The image-based format keeps young learners engaged while you track which number ranges they struggle with. Use the answer key for instant grading. Track learner progress by saving worksheet configurations and regenerating similar exercises at slightly higher difficulty levels as they improve. The instant answer key generation eliminates grading time between sessions, allowing tutors to focus entirely on instruction and interaction during limited tutoring windows.',
     },
     {
       title: 'Social Media Lead Magnet',
-      description: 'Offer a free trial sampler of 5 addition worksheets as a lead magnet on Instagram or Pinterest. Collect email addresses, then upsell your full themed bundles. Visual worksheets make eye-catching pins that drive traffic. Design your sampler with the most visually striking themes to maximize social media sharing potential. Include a branded cover page with your shop link and a brief description of your full product catalog. Pinterest pins featuring colorful math worksheets consistently generate high click-through rates in the education and parenting categories. Schedule pins during peak engagement windows — typically Sunday and Monday evenings — and rotate fresh images monthly to keep your profile active in the algorithm.',
+      description: 'Offer a free trial sampler of 5 addition worksheets as a lead magnet on Instagram or Pinterest. Collect email addresses, then upsell your full themed bundles. Visual worksheets make eye-catching pins that drive traffic. Design your sampler with the most visually striking themes to maximize social media sharing potential. Include a branded cover page with your shop link and a brief description of your full product catalog. Pinterest pins featuring colorful math worksheets consistently generate high click-through rates in the printable and educational product categories. Schedule pins during peak engagement windows — typically Sunday and Monday evenings — and rotate fresh images monthly to keep your profile active in the algorithm.',
     },
   ],
 
@@ -130,7 +130,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Always Include the Answer Key',
-      description: 'Click "Generate Answer Key" before downloading. Buyers on Etsy and TpT consistently rate products higher when an answer key is included. It takes 10 extra seconds and significantly boosts your review scores and repeat purchases. An answer key also makes your product suitable for homeschool families where parents need to verify work quickly without solving every problem themselves, which significantly expands your target audience beyond classroom teachers.',
+      description: 'Click "Generate Answer Key" before downloading. Buyers on Etsy and Gumroad consistently rate products higher when an answer key is included. It takes 10 extra seconds and significantly boosts your review scores and repeat purchases. An answer key also makes your product suitable for homeschool families where parents need to verify work quickly without solving every problem themselves, which significantly expands your target audience beyond a single market segment.',
     },
     {
       title: 'Export Both PDF and JPEG',
@@ -138,11 +138,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Start with Low Number Ranges',
-      description: 'For preschool and kindergarten products, keep max items per group at 3–5. Young children get overwhelmed by large numbers. Create separate "easy" and "challenge" versions of each worksheet so parents and teachers can choose the right level.',
+      description: 'For beginner-tier products, keep max items per group at 3–5. Young learners get overwhelmed by large numbers. Create separate "easy" and "challenge" versions of each worksheet so buyers can choose the right level for their needs.',
     },
     {
       title: 'Add Custom Text for Branding',
-      description: 'Use the Text Tools to add your shop name, a copyright notice, or a motivational message at the bottom of each worksheet. This subtle branding helps build recognition if a customer shares your worksheet with another parent or teacher.',
+      description: 'Use the Text Tools to add your shop name, a copyright notice, or a motivational message at the bottom of each worksheet. This subtle branding helps build recognition if a customer shares your worksheet with others.',
     },
     {
       title: 'Leverage the Border and Background Library',
@@ -161,7 +161,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'How many image themes are available?',
@@ -181,7 +181,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Can I generate an answer key?',
-      answer: 'Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. You can download the answer key as a separate JPEG or PDF file. This is especially useful for teachers and for sellers who want to include answer keys in their products. Buyers on Etsy and Teachers Pay Teachers consistently leave higher ratings for listings that include answer keys, so always generate and bundle them with every worksheet pack you sell.',
+      answer: 'Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. You can download the answer key as a separate JPEG or PDF file. This is especially useful for sellers who want to include answer keys in their products. Buyers on Etsy and Gumroad consistently leave higher ratings for listings that include answer keys, so always generate and bundle them with every worksheet pack you sell.',
     },
     {
       question: 'What page sizes are supported?',

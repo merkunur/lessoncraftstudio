@@ -7,7 +7,7 @@ const content: AppContent = {
       'printable bingo card maker for Etsy sellers',
       'picture bingo worksheet generator for KDP publishers',
       'bingo card creator with commercial license',
-      'sell printable bingo cards on Teachers Pay Teachers',
+      'sell printable bingo cards on Gumroad',
     ],
     lsiKeywords: [
       'digital bingo printables online business',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'printable picture bingo business tools',
     ],
     titleTag: 'Bingo Card Generator | Create & Sell Bingo Printables',
-    metaDescription: 'Create picture bingo cards to sell on Etsy, KDP & TPT. Batch-generate unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
+    metaDescription: 'Create picture bingo cards to sell on Etsy, KDP & Gumroad. Batch-generate unique cards, ZIP export, call-out sheets, 104 themes. Try free — license available.',
   },
 
   hero: {
     title: 'Picture Bingo Card Generator for Printable Bingo Activities',
     tagline: 'Generate 1–10 unique bingo cards per batch with configurable grids from 3×3 to 5×5 — image or word fill for both card cells and circular chips, a dedicated call-out sheet for the caller, ZIP batch export of all cards, and 104 themed image collections.',
     description:
-      'Build professional picture bingo cards where players mark matching images or words on their unique card grids. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3×3 (9 cells) up to 5×5 (25 cells) with a default of 4×4 (16 cells). Choose image fill or word fill independently for both card cells and circular chips — chips feature dashed borders and shuffled Fisher-Yates ordering for authentic bingo play. Generate 1–10 unique bingo cards per batch, each with a different random image selection from the pool. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller, with columns calculated based on longest word length and uniform font sizing. Hand-pick specific images for custom call-out selection or let the app choose from your theme. The Picture Bingo Card Generator is language-sensitive: word fill uses localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Batch export all generated cards as individual JPEGs in a single ZIP file. Whether you sell bingo card bundles on Etsy, compile bingo activity books for Amazon KDP, or create classroom bingo sets for TPT, this generator delivers production-ready bingo cards in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional picture bingo cards where players mark matching images or words on their unique card grids. Configure rows from 3 to 5 and columns from 3 to 5 independently, creating grids from 3×3 (9 cells) up to 5×5 (25 cells) with a default of 4×4 (16 cells). Choose image fill or word fill independently for both card cells and circular chips — chips feature dashed borders and shuffled Fisher-Yates ordering for authentic bingo play. Generate 1–10 unique bingo cards per batch, each with a different random image selection from the pool. A dedicated call-out sheet on a separate tab displays a dynamic word grid for the caller, with columns calculated based on longest word length and uniform font sizing. Hand-pick specific images for custom call-out selection or let the app choose from your theme. The Picture Bingo Card Generator is language-sensitive: word fill uses localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include custom text with seven font options, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Batch export all generated cards as individual JPEGs in a single ZIP file. Whether you sell bingo card bundles on Etsy, compile bingo activity books for Amazon KDP, or list bingo sets on Gumroad, this generator delivers production-ready bingo cards in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Download Cards and Call-out Sheet',
         description:
-          'Switch between the Cards + Chips tab and the Call-outs tab to preview both outputs. The call-out sheet displays a dynamic word grid with uniform font sizing and columns calculated based on the longest word length. Download individual cards as JPEG or PDF using the dedicated buttons, or batch export all generated cards as individual JPEGs in a single bingo_cards.zip file. Toggle grayscale for ink-friendly versions. Every export renders at 300 DPI and is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Switch between the Cards + Chips tab and the Call-outs tab to preview both outputs. The call-out sheet displays a dynamic word grid with uniform font sizing and columns calculated based on the longest word length. Download individual cards as JPEG or PDF using the dedicated buttons, or batch export all generated cards as individual JPEGs in a single bingo_cards.zip file. Toggle grayscale for ink-friendly versions. Every export renders at 300 DPI and is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
         description:
-          'Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides a coordinated set of colorful illustrations that work together in bingo activities — themed bingo cards are among the most popular printable products on Etsy and TPT. Filter by theme using the dropdown or search for specific images by keyword. The Commercial tier includes 10 colorful themes for getting started; Full Access unlocks all 104 themes for maximum creative variety across all grid sizes and fill modes.',
+          'Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides a coordinated set of colorful illustrations that work together in bingo activities — themed bingo cards are among the most popular printable products on Etsy and Gumroad. Filter by theme using the dropdown or search for specific images by keyword. The Commercial tier includes 10 colorful themes for getting started; Full Access unlocks all 104 themes for maximum creative variety across all grid sizes and fill modes.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
         description:
-          'Download bingo cards and call-out sheets as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI (6× multiplier, JPEG quality 1.0). Four dedicated buttons export Worksheet JPEG, Call-out JPEG, Worksheet PDF, and Call-out PDF separately. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. PDF orientation is automatically detected. Toggle grayscale for ink-friendly versions that save toner. Every export is production-ready for digital downloads, printed game sets, and classroom handouts.',
+          'Download bingo cards and call-out sheets as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI (6× multiplier, JPEG quality 1.0). Four dedicated buttons export Worksheet JPEG, Call-out JPEG, Worksheet PDF, and Call-out PDF separately. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. PDF orientation is automatically detected. Toggle grayscale for ink-friendly versions that save toner. Every export is production-ready for digital downloads, printed game sets, and bulk printing.',
       },
       {
         title: 'Full Canvas Editing with Text Tools, Alignment, and Layering Controls',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Classroom Bingo Activities for TPT',
+        title: 'Niche Bingo Store on Gumroad',
         description:
-          'Build ready-to-play bingo sets with unique player cards and caller sheets. Teachers searching TPT for bingo activities value products that arrive classroom-ready — print the cards, hand them out, and start playing immediately. Create curriculum-aligned sets: vocabulary bingo using word fill mode, picture recognition bingo using image fill, and mixed-mode bingo for differentiated instruction. Include 10 unique cards per set (enough for small groups) with a call-out sheet. The word fill mode with localized image names turns bingo into a vocabulary review activity.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build ready-to-play bingo sets with unique player cards and caller sheets. Buyers searching for bingo activities value products that arrive ready to use — print the cards, hand them out, and start playing immediately. Create niche-specific sets: vocabulary bingo using word fill mode, picture recognition bingo using image fill, and mixed-mode bingo for tiered bundles. Include 10 unique cards per set (enough for small groups) with a call-out sheet. The word fill mode with localized image names turns bingo into a vocabulary review activity.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Seasonal and Holiday Bingo Card Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when families and classrooms look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine’s Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.',
-        platform: 'Etsy / Amazon KDP / TPT (seasonal)',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when buyers look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine’s Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.',
+        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
         title: 'Event Bingo Cards for Party Games and Special Occasions',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell bingo cards made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your bingo cards as digital downloads on Etsy, as printed activity books on Amazon KDP, as classroom resources on TPT, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, call-out sheets, and 104 themed image collections give you the creative tools to produce original, sellable bingo products at scale.',
+        'Yes. With a commercial license, you have full rights to sell your bingo cards as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, call-out sheets, and 104 themed image collections give you the creative tools to produce original, sellable bingo products at scale.',
     },
     {
       question: 'What is the refund policy?',

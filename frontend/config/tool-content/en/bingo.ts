@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'bingo card maker for teachers',
+    primaryKeyword: 'bingo card maker for sellers',
     secondaryKeywords: [
-      'picture bingo card creator for classroom',
-      'bingo game maker for kids',
-      'printable bingo cards for school',
-      'custom bingo card generator for teachers',
+      'picture bingo card creator commercial use',
+      'bingo game maker to sell online',
+      'printable bingo cards for Etsy and KDP',
+      'custom bingo card generator for printable business',
     ],
     lsiKeywords: [
-      'batch bingo card generator for classroom games',
+      'batch bingo card generator for product bundles',
       'image and word bingo card maker',
       'call-out sheet bingo worksheet creator',
     ],
-    titleTag: 'Bingo Card Maker — Picture Bingo for Classroom',
-    metaDescription: 'Create picture bingo cards for classroom games. Grids from 3x3 to 5x5, batch unique cards, call-out sheets, 104 themes. Try with watermark — no signup.',
+    titleTag: 'Bingo Card Maker — Sell Picture Bingo Cards Online',
+    metaDescription: 'Create picture bingo cards with grids from 3x3 to 5x5, batch unique cards, call-out sheets, 104 themes. Try free — license available.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Download Cards, Call-out Sheet, and ZIP Batch',
-        description: 'Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download individual files using the four dedicated buttons: worksheet JPEG, call-out JPEG, worksheet PDF, and call-out PDF — all rendered at 300 DPI (6× multiplier, JPEG quality 1.0). For batch export, click the ZIP download button to receive all generated bingo cards as individual JPEGs in a single bingo_cards.zip file. The ZIP batch export is essential for sellers creating multi-card bingo sets — generate 10 unique cards and package them in one download. Files are production-ready for Etsy listings, Amazon KDP interiors, and TpT resource files.',
+        description: 'Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download individual files using the four dedicated buttons: worksheet JPEG, call-out JPEG, worksheet PDF, and call-out PDF — all rendered at 300 DPI (6× multiplier, JPEG quality 1.0). For batch export, click the ZIP download button to receive all generated bingo cards as individual JPEGs in a single bingo_cards.zip file. The ZIP batch export is essential for sellers creating multi-card bingo sets — generate 10 unique cards and package them in one download. Files are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -75,12 +75,12 @@ const content: ToolContent = {  seo: {
       description: 'Compile 40–80 bingo cards into printed activity books for Amazon KDP. Structure chapters by theme: animal bingo, food bingo, vehicle bingo, holiday bingo. Include call-out sheets after each set so the book is self-contained for play — readers can photocopy the call-out page while players use the bingo card pages directly. Mix grid sizes within chapters for progressive difficulty. Toggle grayscale for ink-friendly output that keeps KDP printing costs low. The batch generation feature produces 10 unique cards per set in seconds, making large workbook compilations efficient.',
     },
     {
-      title: 'Classroom-Ready Bingo Game Kits',
-      description: 'Build complete bingo game kits for classroom use with 10 unique player cards and a caller sheet per set. Teachers searching for bingo activities value products that arrive ready to play — print the cards, hand them out, and start the game immediately. Use Word fill mode with curriculum vocabulary for language arts review, Image fill for visual recognition exercises, or mixed modes for differentiated instruction. The custom call-out selection feature lets you curate exactly which vocabulary items appear in the game for precise curriculum alignment.',
+      title: 'Ready-to-Play Bingo Game Kits',
+      description: 'Build complete bingo game kits with 10 unique player cards and a caller sheet per set. Buyers searching for bingo activities value products that arrive ready to play — print the cards, hand them out, and start the game immediately. Use Word fill mode with themed vocabulary for language arts review, Image fill for visual recognition exercises, or mixed modes for varied gameplay. The custom call-out selection feature lets you curate exactly which items appear in the game for precisely themed products.',
     },
     {
       title: 'Seasonal and Holiday Bingo Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine’s Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families and classrooms look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.',
+      description: ‘Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine’s Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.’,
     },
     {
       title: 'Event and Party Bingo Card Sets',
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT Classroom Bingo Activity Packs',
-      description: 'Upload classroom bingo activity packs to TpT with unique player cards and caller sheets as key selling points. Teachers searching for bingo activities value products that arrive ready to play — print, distribute, and start the game. Create curriculum-aligned sets: vocabulary bingo using Word fill mode, picture recognition bingo using Image fill, and mixed-mode bingo for differentiated instruction. Include 10 unique cards per set with a call-out sheet. The Word fill mode with localized image names turns bingo into a vocabulary review activity that teachers can use across language arts, science vocabulary, and thematic units.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Bingo Activity Packs',
+      description: 'Upload bingo activity packs to Gumroad with unique player cards and caller sheets as key selling points. Buyers searching for bingo activities value products that arrive ready to play — print, distribute, and start the game. Create themed sets: vocabulary bingo using Word fill mode, picture recognition bingo using Image fill, and mixed-mode bingo for varied gameplay. Include 10 unique cards per set with a call-out sheet. The Word fill mode with localized image names turns bingo into a vocabulary review activity usable across language arts, science vocabulary, and thematic products.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Bingo Card Traffic Funnel',
-      description: 'Bingo cards make visually striking Pinterest pins — the colorful grid layout with themed images and circular chips creates an immediately recognizable game format that parents and teachers love. Pin sample bingo cards showing different themes: animal bingo for preschool boards, holiday bingo for seasonal boards, and word bingo for educational boards. Create separate pin series for “picture bingo printables,” “classroom bingo games,” and “holiday bingo activities.” Bingo is a universally recognized game, so pins appeal to audiences across every country and language. Link each pin to your Etsy or TpT product listings.',
+      description: 'Bingo cards make visually striking Pinterest pins — the colorful grid layout with themed images and circular chips creates an immediately recognizable game format that buyers love. Pin sample bingo cards showing different themes: animal bingo for early-learner boards, holiday bingo for seasonal boards, and word bingo for vocabulary boards. Create separate pin series for “picture bingo printables,” “printable bingo games,” and “holiday bingo activities.” Bingo is a universally recognized game, so pins appeal to audiences across every country and language. Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -116,8 +116,8 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Multilingual Bingo Products for Global Markets',
-      description: 'The Bingo Card Maker is language-sensitive — Word fill mode uses localized image names across 11 languages, making it simple to produce bingo cards in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish from the same images. Create vocabulary bingo products targeting international Etsy shops, multilingual TpT buyers, and language learners worldwide. Sell the same themed bingo set in multiple language versions with no redesign needed — just switch the language and regenerate. Multilingual bundles command premium prices and reach buyers that monolingual competitors cannot.',
-      platform: 'Etsy / TpT',
+      description: 'The Bingo Card Maker is language-sensitive — Word fill mode uses localized image names across 11 languages, making it simple to produce bingo cards in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish from the same images. Create vocabulary bingo products targeting international Etsy shops, multilingual Gumroad buyers, and language learners worldwide. Sell the same themed bingo set in multiple language versions with no redesign needed — just switch the language and regenerate. Multilingual bundles command premium prices and reach buyers that monolingual competitors cannot.',
+      platform: 'Etsy / Gumroad',
     },
   ],
 
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Leverage Custom Call-out Selection for Curriculum Alignment',
-      description: 'Enable the “Use custom selection” checkbox to hand-pick exactly which images appear in the call-out pool. The live counter shows your selection count as you pick from the Image Library. This feature is critical for creating curriculum-aligned bingo games — select only the vocabulary words your lesson covers, only the animals in a specific habitat, or only the foods in a nutrition unit. Custom call-out selection transforms bingo from a random game into a targeted teaching tool, which is the key selling point for TpT classroom products.',
+      description: 'Enable the “Use custom selection” checkbox to hand-pick exactly which images appear in the call-out pool. The live counter shows your selection count as you pick from the Image Library. This feature is critical for creating tightly themed bingo games — select only the vocabulary words your product covers, only the animals in a specific habitat, or only the foods in a nutrition theme. Custom call-out selection transforms bingo from a random game into a curated product, which is a key selling point for themed bundles.',
     },
     {
       title: 'Exploit the Language-Sensitive Word Fill for Multilingual Products',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Target Multiple Grid Sizes for Maximum Market Coverage',
-      description: 'Different grid sizes serve different audiences. 3×3 grids (9 cells) work best for preschool and kindergarten bingo with quick rounds and fewer items to track. 4×4 grids (16 cells) suit elementary classrooms with balanced gameplay. 5×5 grids (25 cells) provide the classic bingo experience for older students and family game nights. Include all three sizes in your product bundles and create separate listings targeting each age group. The batch generation feature means switching grid sizes and regenerating takes seconds.',
+      description: 'Different grid sizes serve different audiences. 3×3 grids (9 cells) work best for the early-learner niche with quick rounds and fewer items to track. 4×4 grids (16 cells) suit intermediate products with balanced gameplay. 5×5 grids (25 cells) provide the classic bingo experience for older audiences and family game nights. Include all three sizes in your product bundles and create separate listings targeting each age group. The batch generation feature means switching grid sizes and regenerating takes seconds.',
     },
   ],
 
@@ -163,7 +163,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What grid sizes are available for bingo cards?',
-      answer: 'Rows and columns are independently configurable from 3 to 5, creating grids from 3×3 (9 cells) up to 5×5 (25 cells). The default is 4×4 with 16 cells. You can also create non-square grids like 3×5 (15 cells) or 5×3 (15 cells) for unique bingo card formats. Smaller grids work well for preschool quick-play rounds with fewer items to track, while 5×5 grids provide the classic bingo experience for longer games and older audiences.',
+      answer: 'Rows and columns are independently configurable from 3 to 5, creating grids from 3×3 (9 cells) up to 5×5 (25 cells). The default is 4×4 with 16 cells. You can also create non-square grids like 3×5 (15 cells) or 5×3 (15 cells) for unique bingo card formats. Smaller grids work well for quick-play rounds in the early-learner niche, while 5×5 grids provide the classic bingo experience for longer games and older audiences.',
     },
     {
       question: 'What is the difference between card cell fill and chip fill?',
@@ -191,11 +191,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What page sizes and export formats are available?',
-      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Five download options: worksheet JPEG, call-out JPEG, worksheet PDF, call-out PDF, and ZIP batch export of all generated cards. All exports are production-ready for digital downloads, printed activity books, and classroom handouts.',
+      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Five download options: worksheet JPEG, call-out JPEG, worksheet PDF, call-out PDF, and ZIP batch export of all generated cards. All exports are production-ready for digital downloads, printed activity books, and Etsy or Gumroad listings.',
     },
     {
       question: 'Can I sell bingo cards made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell bingo cards as digital downloads on Etsy, printed activity books on Amazon KDP, classroom resources on TpT, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, dedicated call-out sheets, custom call-out selection, multilingual word fill, and 104 themed image collections give you everything needed to create professional bingo products that compete in printable game categories across every major marketplace.',
+      answer: 'Yes. With a commercial license, you have full rights to sell bingo cards as digital downloads on Etsy, printed activity books on Amazon KDP, products on Gumroad, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, dedicated call-out sheets, custom call-out selection, multilingual word fill, and 104 themed image collections give you everything needed to create professional bingo products that compete in printable game categories across every major marketplace.',
     },
     {
       question: 'What is your refund policy?',

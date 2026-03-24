@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable line tracing worksheet maker for Etsy sellers',
       'custom drawing lines worksheet generator for KDP publishers',
-      'sell line drawing worksheets on Teachers Pay Teachers',
+      'sell line drawing worksheets on Gumroad or your own store',
       'drawing lines worksheets commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use drawing lines worksheet generator',
     ],
     titleTag: 'Drawing Lines Generator | Create Tracing Worksheets',
-    metaDescription: 'Create line tracing worksheets to sell on Etsy, KDP & TPT. Eight SVG templates, image pair matching, 104 themed collections. Try free — license available.',
+    metaDescription: 'Create line tracing worksheets to sell on Etsy, KDP & Gumroad. Eight SVG templates, image pair matching, 104 themed collections. Try free — license available.',
   },
 
   hero: {
     title: 'Drawing Lines Worksheet Generator for Line Tracing Exercises',
     tagline: 'Eight SVG line templates — curves, diagonals, horizontal, and vertical — with 4–5 image pairs per page for fine motor skill development through guided line tracing.',
     description:
-      'Build professional line tracing worksheets where students draw along guided paths to connect matching image pairs. Eight SVG-based templates cover four line types: four curved line templates for flowing movements, two diagonal templates for angled strokes, one horizontal template for straight-across tracing, and one vertical template for top-to-bottom practice. Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving students a visual goal at each end. Auto-fill randomly assigns image pairs from any selected theme or across all themes at once. Content draws from the built-in Image Library with 3,100+ colorful illustrations across 104 themes — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making them universally usable regardless of language or reading level. Template selection drives page orientation automatically: curve templates default to landscape for sweeping movements, while diagonal, horizontal, and vertical templates use portrait for focused top-to-bottom practice. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell line tracing bundles on Etsy, compile fine motor workbooks for Amazon KDP, or create handwriting readiness centers for TPT, the Drawing Lines Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional line tracing worksheets where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover four line types: four curved line templates for flowing movements, two diagonal templates for angled strokes, one horizontal template for straight-across tracing, and one vertical template for top-to-bottom practice. Each template places 4 or 5 matched image pairs on opposite sides of the line path, giving a visual goal at each end. Auto-fill randomly assigns image pairs from any selected theme or across all themes at once. Content draws from the built-in Image Library with 3,100+ colorful illustrations across 104 themes — animals, vehicles, food, nature, and dozens more. Every worksheet is purely visual with zero text on the output, making them universally usable regardless of language or reading level. Template selection drives page orientation automatically: curve templates default to landscape for sweeping movements, while diagonal, horizontal, and vertical templates use portrait for focused top-to-bottom practice. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell line tracing bundles on Etsy, compile fine motor workbooks for Amazon KDP, or list handwriting readiness products on Gumroad, the Drawing Lines Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Add Text Decorations and Customize',
         description:
-          'Use the Text Tools panel to add a worksheet title, student name and date fields (Fredoka 18px), or custom instructions with fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Adjust font size, color, and text outline width (0–10 with 0.5 step granularity). Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with layer controls, lock/unlock, alignment tools, and zoom from 25% to 400%. Undo and redo up to 100 history states with Ctrl+Z and Ctrl+Y.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields (Fredoka 18px), or custom instructions with fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Adjust font size, color, and text outline width (0–10 with 0.5 step granularity). Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with layer controls, lock/unlock, alignment tools, and zoom from 25% to 400%. Undo and redo up to 100 history states with Ctrl+Z and Ctrl+Y.',
       },
       {
         title: 'Download as JPEG or PDF',
         description:
-          'Open the Download menu and export your finished worksheet as a high-resolution JPEG (quality 1.0) or print-ready PDF at 300 DPI via 6x rendering multiplier. Toggle grayscale export for ink-friendly versions ideal for classroom printing. Files save as drawing_lines_worksheet.jpeg or drawing_lines_worksheet.pdf. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — no post-processing needed.',
+          'Open the Download menu and export your finished worksheet as a high-resolution JPEG (quality 1.0) or print-ready PDF at 300 DPI via 6x rendering multiplier. Toggle grayscale export for ink-friendly black-and-white versions. Files save as drawing_lines_worksheet.jpeg or drawing_lines_worksheet.pdf. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Eight SVG Line Templates: Curves, Diagonals, Horizontal, and Vertical',
         description:
-          'Eight distinct SVG-based templates cover four line types for comprehensive fine motor development. Four curve templates create flowing, sweeping paths that develop wrist flexibility and fluid movement — each curve variant offers a different shape for visual variety. Two diagonal templates produce angled lines that build cross-body coordination as students trace from one corner to another. One horizontal template generates straight left-to-right lines for directional control. One vertical template creates top-to-bottom lines for downward stroke practice. The variety of line types lets you create progressive difficulty bundles: start with straight horizontal lines, advance to curves, and finish with diagonals for a complete fine motor curriculum.',
+          'Eight distinct SVG-based templates cover four line types for comprehensive fine motor development. Four curve templates create flowing, sweeping paths that develop wrist flexibility and fluid movement — each curve variant offers a different shape for visual variety. Two diagonal templates produce angled lines that build cross-body coordination as users trace from one corner to another. One horizontal template generates straight left-to-right lines for directional control. One vertical template creates top-to-bottom lines for downward stroke practice. The variety of line types lets you create progressive difficulty bundles: start with straight horizontal lines, advance to curves, and finish with diagonals for a complete fine motor curriculum.',
       },
       {
         title: 'Image Pair Matching with Auto-Fill from 104 Themes',
         description:
-          'Every template places matched image pairs on opposite sides of the line path — students see one image at the start and its match at the end, creating a visual goal that motivates line tracing. Auto-fill randomly assigns image pairs from the selected theme or across all 104 themes at once, instantly populating every pair slot on the page. This makes batch worksheet creation fast: select a theme, click auto-fill, and the template is ready for export. Change themes and repeat to generate dozens of unique worksheets in minutes. Each theme provides coordinated images that work together visually, creating natural bundling opportunities for themed product packs.',
+          'Every template places matched image pairs on opposite sides of the line path — one image at the start and its match at the end, creating a visual goal that motivates line tracing. Auto-fill randomly assigns image pairs from the selected theme or across all 104 themes at once, instantly populating every pair slot on the page. This makes batch worksheet creation fast: select a theme, click auto-fill, and the template is ready for export. Change themes and repeat to generate dozens of unique worksheets in minutes. Each theme provides coordinated images that work together visually, creating natural bundling opportunities for themed product packs.',
       },
       {
         title: 'Template-Driven Page Orientation',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Fully Visual Worksheets with Zero Text Output',
         description:
-          'Every worksheet contains only images, line paths, and decorative borders — no text appears on the generated output. Students trace lines between image pairs without needing to read any instructions. This makes Drawing Lines worksheets universally usable regardless of language, reading level, or literacy status. Pre-literate students, English language learners, and special education students all complete the exercises by following the visual line path. For sellers, zero-text output means the same worksheet sells worldwide without translation — one product listing serves every market with no language-specific variants to maintain.',
+          'Every worksheet contains only images, line paths, and decorative borders — no text appears on the generated output. Users trace lines between image pairs without needing to read any instructions. This makes Drawing Lines worksheets universally usable regardless of language, reading level, or literacy status. For sellers, zero-text output means the same worksheet sells worldwide without translation — one product listing serves every market with no language-specific variants to maintain.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI',
         description:
-          'Download worksheets as high-resolution JPEG images (quality 1.0) or print-ready PDF documents rendered at 300 DPI via a 6x rendering multiplier. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for classroom printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — no post-processing needed.',
+          'Download worksheets as high-resolution JPEG images (quality 1.0) or print-ready PDF documents rendered at 300 DPI via a 6x rendering multiplier. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for bulk printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.',
       },
       {
         title: 'Full Canvas Editing with Text and Decoration Tools',
@@ -114,26 +114,26 @@ const content: AppContent = {
       {
         title: 'Fine Motor Skills Workbooks on Amazon KDP',
         description:
-          'Compile 60–100 line tracing exercises into a printed workbook structured as a progressive fine motor curriculum. Chapter 1 covers horizontal lines for directional control basics. Chapter 2 introduces vertical lines for downward stroke practice. Chapter 3 advances to curve templates for wrist flexibility. Chapter 4 challenges students with diagonal lines requiring cross-body coordination. Each chapter uses different image themes to maintain engagement across 60+ pages. The fully visual format means no translation is needed for international KDP marketplaces — publish the same interior in every country. Fine motor workbooks fill a specific early learning niche with consistent year-round demand from parents and preschool teachers.',
+          'Compile 60–100 line tracing exercises into a printed workbook structured as a progressive fine motor curriculum. Chapter 1 covers horizontal lines for directional control basics. Chapter 2 introduces vertical lines for downward stroke practice. Chapter 3 advances to curve templates for wrist flexibility. Chapter 4 challenges with diagonal lines requiring cross-body coordination. Each chapter uses different image themes to maintain engagement across 60+ pages. The fully visual format means no translation is needed for international KDP marketplaces — publish the same interior in every country. Fine motor workbooks fill a specific early-learner niche with consistent year-round demand and strong repeat buyers.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Pre-Writing and Handwriting Readiness Centers for TPT',
+        title: 'Tiered Handwriting Readiness Bundles on Gumroad',
         description:
-          'Build leveled handwriting readiness stations using line type as the progression axis: Station 1 (horizontal lines for left-to-right tracking), Station 2 (vertical lines for top-to-bottom strokes), Station 3 (curves for letter-forming motions), and Station 4 (diagonals for angular letter shapes). Each station targets a specific pre-writing skill that directly transfers to letter formation. Package each station with themed exercises and teacher instruction cards. The zero-text visual format works in any classroom regardless of student language background, making these resources valuable for inclusive, multilingual, and special education settings.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled handwriting readiness sets using line type as the progression axis: Level 1 (horizontal lines for left-to-right tracking), Level 2 (vertical lines for top-to-bottom strokes), Level 3 (curves for letter-forming motions), and Level 4 (diagonals for angular letter shapes). Each level targets a specific pre-writing skill that directly transfers to letter formation. Package each level with themed exercises and a brief parent guide as a KDP appendix. The zero-text visual format works regardless of language background, making these products sellable worldwide without translation.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Multilingual Visual Worksheets for Global Markets',
         description:
-          'Because Drawing Lines worksheets contain zero text on the output, the same product works in every language without modification. Students trace lines between image pairs with no reading required — the visual line path itself provides all the guidance needed. Create one set of line tracing exercises and sell it worldwide without translation or separate language versions to maintain. List identical products on Etsy shops targeting different countries, or publish the same KDP interior across all international Amazon marketplaces. One workflow produces a universally sellable product.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+          'Because Drawing Lines worksheets contain zero text on the output, the same product works in every language without modification. Users trace lines between image pairs with no reading required — the visual line path itself provides all the guidance needed. Create one set of line tracing exercises and sell it worldwide without translation or separate language versions to maintain. List identical products on Etsy shops targeting different countries, or publish the same KDP interior across all international Amazon marketplaces. One workflow produces a universally sellable product.',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Classroom and Therapy Fine Motor Tool',
+        title: ‘Custom Fine Motor Products for Niche Stores’,
         description:
-          'Upload custom images to create targeted line tracing worksheets for specific therapeutic or educational goals. Occupational therapists can select line types matching each patient’s fine motor development needs — curves for wrist mobility, diagonals for bilateral coordination, straight lines for directional control. Teachers can create subject-themed tracing sheets where students connect related image pairs while developing pencil control. Adjust template selection and image themes to match each student’s ability level and interests. Print custom sets in minutes for individual therapy sessions, small groups, or entire classes.',
-        platform: 'Classroom / Therapy / Homeschool',
+          ‘Upload custom images to create targeted line tracing worksheets for specific niches. Sellers in the therapy and special needs niche can select line types matching fine motor development needs — curves for wrist mobility, diagonals for bilateral coordination, straight lines for directional control. Create subject-themed tracing sheets where users connect related image pairs while developing pencil control. Adjust template selection and image themes to match your target audience. Produce custom sets in minutes and list them on Gumroad or your own store for niche buyers.’,
+        platform: ‘Gumroad / Etsy / Your Own Store’,
       },
     ],
   },
@@ -147,12 +147,12 @@ const content: AppContent = {
     {
       question: 'What line types are available and what skills do they develop?',
       answer:
-        'Curved lines develop wrist flexibility and fluid movement as students follow sweeping arcs. Diagonal lines build cross-body coordination with angled tracing paths. Horizontal lines reinforce left-to-right directional control — the same tracking direction used in reading and writing. Vertical lines practice top-to-bottom strokes essential for letter formation. Together, these four line types cover the foundational fine motor skills needed for handwriting readiness.',
+        'Curved lines develop wrist flexibility and fluid movement through sweeping arcs. Diagonal lines build cross-body coordination with angled tracing paths. Horizontal lines reinforce left-to-right directional control — the same tracking direction used in reading and writing. Vertical lines practice top-to-bottom strokes essential for letter formation. Together, these four line types cover the foundational fine motor skills needed for handwriting readiness.',
     },
     {
       question: 'How does image pair matching work on each template?',
       answer:
-        'Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Students trace along the guided line path to connect the matching pictures. Templates hold 4 or 5 pairs depending on the line type — curve and vertical templates use 4 pairs, diagonal and horizontal templates use 5. The matching images give students a visual goal that motivates them to complete each line.',
+        'Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Users trace along the guided line path to connect the matching pictures. Templates hold 4 or 5 pairs depending on the line type — curve and vertical templates use 4 pairs, diagonal and horizontal templates use 5. The matching images provide a visual goal that motivates completion of each line.',
     },
     {
       question: 'How does the auto-fill feature work?',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for Drawing Lines worksheets?',
       answer:
-        'Drawing Lines worksheets do not need a separate answer key because the line path itself guides the student. The SVG line template printed on the worksheet shows exactly where to trace — students follow the visible path from one image to its match. The exercise is self-checking: if the student’s line follows the path and reaches the matching image, they have completed it correctly.',
+        ‘Drawing Lines worksheets do not need a separate answer key because the line path itself provides the guidance. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the drawn line follows the path and reaches the matching image, it is completed correctly.’,
     },
     {
       question: 'Can I upload my own images instead of using the library?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your line tracing worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The eight line templates, 104 image themes, and fully visual format give you strong differentiation and global sellability in marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your line tracing worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The eight line templates, 104 image themes, and fully visual format give you strong differentiation and global sellability in marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -268,7 +268,7 @@ const content: AppContent = {
       {
         src: '/samples/english/drawing lines/drawing_lines_curve 1.webp',
         alt: 'Line tracing worksheet with curve template connecting matched animal image pairs in landscape orientation',
-        caption: 'Curve template — students trace flowing curved lines to connect matching image pairs',
+        caption: 'Curve template — trace flowing curved lines to connect matching image pairs',
       },
       {
         src: '/samples/english/drawing lines/drawing_lines_diagonal 1.webp',

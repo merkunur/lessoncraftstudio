@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable more or less worksheets for Etsy',
       'number comparison worksheet maker for KDP publishers',
-      'sell greater than less than worksheets on Teachers Pay Teachers',
+      'sell greater than less than worksheets on Gumroad',
       'comparison printables commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use comparison generator',
     ],
     titleTag: 'More or Less Generator | Comparison Worksheets',
-    metaDescription: 'Create number comparison worksheets to sell on Etsy, KDP & TPT. 3 comparison modes, 104 themes, answer keys, 400+ DPI export. Try free — license available.',
+    metaDescription: 'Create number comparison worksheets to sell on Etsy, KDP & Gumroad. 3 comparison modes, 104 themes, answer keys, 400+ DPI export. Try free — license available.',
   },
 
   hero: {
     title: 'More or Less Worksheet Generator for Visual Number Comparison',
     tagline: 'Transform number comparison into a visual discovery with picture-based greater-than and less-than worksheets.',
     description:
-      'Build eye-catching comparison worksheets that teach students to identify which group has more, which has less, and when two groups are equal. Choose from three distinct exercise modes — Image to Image, Image to Number, and the unique Check & Cross Groups mode where students analyze mixed-image boxes to find the majority group. Toggle between same-image and different-image comparisons, pick illustration-style or standard math symbols, and draw from over 3,100 curated images across 104 themes. Every worksheet generates an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell themed bundles on Etsy, compile comparison activity books for Amazon KDP, or create differentiated centers for your classroom, the More or Less Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build eye-catching comparison worksheets where users identify which group has more, which has less, and when two groups are equal. Choose from three distinct exercise modes — Image to Image, Image to Number, and the unique Check & Cross Groups mode where solvers analyze mixed-image boxes to find the majority group. Toggle between same-image and different-image comparisons, pick illustration-style or standard math symbols, and draw from over 3,100 curated images across 104 themes. Every worksheet generates an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. Whether you sell themed bundles on Etsy, compile comparison activity books for Amazon KDP, or build a niche comparison product line on your own store, the More or Less Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,17 +36,17 @@ const content: AppContent = {
       {
         title: 'Choose the Comparison Mode',
         description:
-          'Open Exercise Configuration and select one of three modes. Image to Image presents two picture groups side by side for students to count and compare. Image to Number pairs a picture group with a numeral so students bridge visual and abstract number sense. Check & Cross Groups fills a box with two different mixed images — students check the group with more and cross the group with less. Standard modes support 1–8 exercises per page; Check & Cross supports 1–3 exercises with 8–20 total images per box.',
+          'Open Exercise Configuration and select one of three modes. Image to Image presents two picture groups side by side to count and compare. Image to Number pairs a picture group with a numeral, bridging visual and abstract number sense. Check & Cross Groups fills a box with two different mixed images — solvers check the group with more and cross the group with less. Standard modes support 1–8 exercises per page; Check & Cross supports 1–3 exercises with 8–20 total images per box.',
       },
       {
         title: 'Configure Exercise Settings',
         description:
-          'Set the number range for each group (1–10) to control difficulty. Choose Image Variety — Same Images uses identical items in both groups (5 cats vs 7 cats) while Different Images uses distinct items (5 cats vs 7 dogs). Select Symbol Display mode: Illustration Symbols show graphical greater-than, less-than, and equal signs, while Normal Symbols use standard text characters. Optionally enable Show Symbols for Circling so students circle the correct comparison symbol.',
+          'Set the number range for each group (1–10) to control difficulty. Choose Image Variety — Same Images uses identical items in both groups (5 cats vs 7 cats) while Different Images uses distinct items (5 cats vs 7 dogs). Select Symbol Display mode: Illustration Symbols show graphical greater-than, less-than, and equal signs, while Normal Symbols use standard text characters. Optionally enable Show Symbols for Circling so solvers circle the correct comparison symbol.',
       },
       {
         title: 'Browse the Image Library and Add Text',
         description:
-          'Open the Image Library panel and explore 104 themes — from animals and food to vehicles and holidays. Use search to find specific images instantly. Select individual images or assign a theme for the entire worksheet. Add a title, student name and date fields, or custom instructions using the Text Tools panel. Choose from child-friendly fonts and adjust size, color, and outline for readability.',
+          'Open the Image Library panel and explore 104 themes — from animals and food to vehicles and holidays. Use search to find specific images instantly. Select individual images or assign a theme for the entire worksheet. Add a title, name and date fields, or custom instructions using the Text Tools panel. Choose from readable fonts and adjust size, color, and outline for readability.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Three Comparison Exercise Modes',
         description:
-          'Choose the mode that matches your teaching goal. Image to Image mode presents two picture groups for pure visual comparison — ideal for introducing greater than and less than. Image to Number mode pairs a picture group with a numeral, bridging concrete counting and abstract number recognition. Check & Cross Groups mode fills a box with mixed images from two categories, challenging students to identify and mark the majority and minority groups.',
+          'Choose the mode that matches your product tier. Image to Image mode presents two picture groups for pure visual comparison — ideal for introducing greater than and less than. Image to Number mode pairs a picture group with a numeral, bridging concrete counting and abstract number recognition. Check & Cross Groups mode fills a box with mixed images from two categories, challenging solvers to identify and mark the majority and minority groups.',
       },
       {
         title: 'Unique Check & Cross Groups Mode',
         description:
-          'This mode is unlike anything in a standard worksheet generator. A single box contains 8–20 images from two different categories shuffled together. Students must visually sort the groups, count each, then check the group with more and cross the group with less. It develops visual discrimination, counting accuracy, and comparison skills simultaneously. Each worksheet can include up to 3 Check & Cross exercises for focused practice.',
+          'This mode is unlike anything in a standard worksheet generator. A single box contains 8–20 images from two different categories shuffled together. Solvers must visually sort the groups, count each, then check the group with more and cross the group with less. It develops visual discrimination, counting accuracy, and comparison skills simultaneously. Each worksheet can include up to 3 Check & Cross exercises for focused practice.',
       },
       {
         title: 'Image Variety Control',
@@ -77,22 +77,22 @@ const content: AppContent = {
       {
         title: 'Symbol Display Options',
         description:
-          'Choose between Illustration Symbols — colorful, graphical versions of greater-than, less-than, and equal signs — and Normal Symbols that use standard text characters (>, <, =). Illustration symbols are perfect for younger learners who benefit from visual cues, while normal symbols prepare students for conventional math notation. You can also enable Show Symbols for Circling, adding comparison symbols that students circle as part of the exercise.',
+          'Choose between Illustration Symbols — colorful, graphical versions of greater-than, less-than, and equal signs — and Normal Symbols that use standard text characters (>, <, =). Illustration symbols are perfect for beginner-level products where visual cues improve engagement, while normal symbols match conventional math notation for advanced products. You can also enable Show Symbols for Circling, adding comparison symbols that solvers circle as part of the exercise.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
         description:
-          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear, child-friendly printing. Because the worksheets are visual-only — no text in the exercises — they work perfectly in any language and any classroom worldwide.',
+          'Browse a curated library of over 3,100 hand-picked illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Every image is high-resolution and designed for clear printing. Because the worksheets are visual-only — no text in the exercises — they work perfectly in any language and any market worldwide.',
       },
       {
         title: 'Automatic Answer Key Generation',
         description:
-          'Click one button to generate a complete answer key that mirrors your worksheet layout with all correct comparison symbols filled in. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in teacher editions, parent guides, or Etsy product bundles without any manual work.',
+          'Click one button to generate a complete answer key that mirrors your worksheet layout with all correct comparison symbols filled in. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in Etsy bundles, KDP appendices, or Gumroad product packages without any manual work.',
       },
       {
         title: 'Print-Ready Export at 400+ DPI with Grayscale Option',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle Grayscale mode to convert colorful worksheets to black-and-white for ink-saving classroom printing. Letter, A4, square, and custom sizes are all supported for maximum flexibility.',
+          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle Grayscale mode to convert colorful worksheets to black-and-white for ink-saving printing. Letter, A4, square, and custom sizes are all supported for maximum flexibility.',
       },
       {
         title: 'Full Canvas Editing with Undo and Redo',
@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: 'Themed Comparison Worksheet Bundles on Etsy',
         description:
-          'Create sets of 10–20 comparison worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include all three modes (Image to Image, Image to Number, Check & Cross) plus answer keys for a complete learning resource. Themed comparison bundles attract parents and teachers searching for specific topics. Price individual theme packs at $3–$5 and variety mega-bundles at $12–$18. Seasonal themes like Halloween, Christmas, and Valentine’s Day comparison packs tend to spike in search volume weeks before each holiday, so schedule your listings early and refresh cover images to capture trending traffic.',
+          ‘Create sets of 10–20 comparison worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include all three modes (Image to Image, Image to Number, Check & Cross) plus answer keys for a complete learning resource. Themed comparison bundles attract buyers searching for specific topics. Price individual theme packs at $3–$5 and variety mega-bundles at $12–$18. Seasonal themes like Halloween, Christmas, and Valentine’s Day comparison packs tend to spike in search volume weeks before each holiday, so schedule your listings early and refresh cover images to capture trending traffic.’,
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Math Centers for TPT',
+        title: 'Tiered Difficulty Bundles for Maximum Product Range',
         description:
-          'Build leveled comparison practice sets using the three modes as natural difficulty tiers: Level 1 (Image to Image with Same Images), Level 2 (Image to Number with Different Images), and Level 3 (Check & Cross Groups). Package each level with answer keys and a progress tracking sheet. Teachers Pay Teachers buyers pay premium prices for differentiated resources they can use immediately across multiple ability groups in math centers.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled comparison practice sets using the three modes as natural difficulty tiers: Level 1 (Image to Image with Same Images), Level 2 (Image to Number with Different Images), and Level 3 (Check & Cross Groups). Package each level with answer keys and a progress tracking sheet. Buyers pay premium prices for tiered resources they can use immediately across multiple ability groups. Selling each tier individually and as a complete bundle maximizes your catalog depth and average order value.',
+        platform: 'Etsy / Gumroad / Your Own Store',
       },
       {
         title: 'Printable Subscription Content for Your Own Store',
         description:
-          'Use the generator to produce fresh weekly comparison worksheet packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed pack every week — creates recurring revenue and builds a loyal customer base of homeschool families and tutoring centers. The three exercise modes, two image variety settings, and 104 themes give you enough variety for years of unique content.',
+          'Use the generator to produce fresh weekly comparison worksheet packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed pack every week — creates recurring revenue and builds a loyal base of repeat buyers. The three exercise modes, two image variety settings, and 104 themes give you enough variety for years of unique content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Classroom and Tutoring Comparison Practice',
+        title: ‘Pinterest Lead Funnel for Comparison Worksheets’,
         description:
-          'Generate custom comparison worksheets tailored to each student’s current skill level. Print Image to Image sheets with Same Images for beginners and Check & Cross Groups sheets for advanced learners — all in the same session. The automatic answer key saves grading time. Whether you run a tutoring center, teach a kindergarten class, or homeschool your own children, the generator replaces hours of manual worksheet creation with a few clicks.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Generate custom comparison worksheets tailored to each difficulty tier. Print Image to Image sheets with Same Images for beginners and Check & Cross Groups sheets for advanced levels — all in the same session. The automatic answer key adds perceived value to every listing. Pin sample images on Pinterest linking to your store, and let organic traffic convert into sales. Whether you sell on Etsy, Gumroad, or your own store, the generator replaces hours of manual worksheet creation with a few clicks.’,
+        platform: ‘Pinterest + Your Own Store’,
       },
     ],
   },
@@ -142,17 +142,17 @@ const content: AppContent = {
     {
       question: 'What comparison modes does the More or Less Worksheet Generator offer?',
       answer:
-        'The generator includes three modes: Image to Image (two picture groups to count and compare), Image to Number (one picture group paired with a numeral), and Check & Cross Groups (a box of mixed images where students check the majority group and cross the minority group). Each mode targets a different skill level and comparison challenge. Sellers often package all three modes together in a single product listing, giving buyers a complete comparison curriculum that covers visual counting, number-symbol bridging, and advanced sorting in one download.',
+        'The generator includes three modes: Image to Image (two picture groups to count and compare), Image to Number (one picture group paired with a numeral), and Check & Cross Groups (a box of mixed images where solvers check the majority group and cross the minority group). Each mode targets a different skill level and comparison challenge. Sellers often package all three modes together in a single product listing, giving buyers a complete comparison set that covers visual counting, number-symbol bridging, and advanced sorting in one download.',
     },
     {
       question: 'What is the Check & Cross Groups mode?',
       answer:
-        'Check & Cross Groups is a unique exercise type where a single box contains 8–20 images from two different categories shuffled together. Students visually sort the images, count each group, then check the group with more and cross the group with less. You can include up to 3 Check & Cross exercises per worksheet. This mode develops visual discrimination and counting skills simultaneously. Because Check & Cross is rarely found in competing worksheet generators, sellers who feature this mode prominently in their product titles and descriptions can differentiate their listings and capture buyers searching for unique math activities.',
+        'Check & Cross Groups is a unique exercise type where a single box contains 8–20 images from two different categories shuffled together. Solvers visually sort the images, count each group, then check the group with more and cross the group with less. You can include up to 3 Check & Cross exercises per worksheet. This mode develops visual discrimination and counting skills simultaneously. Because Check & Cross is rarely found in competing worksheet generators, sellers who feature this mode prominently in their product titles and descriptions can differentiate their listings and capture buyers searching for unique math activities.',
     },
     {
       question: 'What number ranges can I set for comparison exercises?',
       answer:
-        'You can set the minimum and maximum items per group from 1 to 10 for standard comparison modes. For Check & Cross Groups, you can set the total number of images in the box from 8 to 20. These controls let you create easy comparisons for preschoolers or more challenging exercises for first and second graders. This granular range control enables sellers to build precisely targeted product lines for each age group, such as a toddler pack with ranges of 1–3 and a kindergarten pack with ranges of 4–8, each addressing a distinct buyer segment.',
+        'You can set the minimum and maximum items per group from 1 to 10 for standard comparison modes. For Check & Cross Groups, you can set the total number of images in the box from 8 to 20. These controls let you create easy comparisons for the preschool-age niche or more challenging exercises for the K-2 market. This granular range control enables sellers to build precisely targeted product lines for each age group, such as a toddler pack with ranges of 1–3 and a kindergarten pack with ranges of 4–8, each addressing a distinct buyer segment.',
     },
     {
       question: 'What does the Image Variety setting do?',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'What are the symbol display options?',
       answer:
-        'You can choose between Illustration Symbols (colorful, graphical greater-than, less-than, and equal signs) and Normal Symbols (standard text characters >, <, =). Illustration symbols are ideal for younger learners who benefit from visual cues. You can also enable Show Symbols for Circling, which displays comparison symbols for students to circle as part of the exercise.',
+        'You can choose between Illustration Symbols (colorful, graphical greater-than, less-than, and equal signs) and Normal Symbols (standard text characters >, <, =). Illustration symbols are ideal for beginner-level products where visual cues boost engagement. You can also enable Show Symbols for Circling, which displays comparison symbols for solvers to circle as part of the exercise.',
     },
     {
       question: 'Are comparison worksheets language-sensitive?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct comparison symbols filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet. Including professionally formatted answer keys with every product listing signals quality and completeness to marketplace buyers, who often filter for resources that include solutions when browsing Etsy or Teachers Pay Teachers.',
+        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct comparison symbols filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the main worksheet. Including professionally formatted answer keys with every product listing signals quality and completeness to marketplace buyers, who often filter for resources that include solutions when browsing Etsy or Gumroad.',
     },
     {
       question: 'Can I export worksheets in grayscale for ink-saving printing?',
       answer:
-        'Yes. Toggle the Grayscale option in the Download panel to convert your colorful worksheets to black-and-white before exporting. This is perfect for classroom printing where you want to save ink while still delivering high-quality comparison practice. Both JPEG and PDF exports support grayscale mode.',
+        'Yes. Toggle the Grayscale option in the Download panel to convert your colorful worksheets to black-and-white before exporting. This is perfect for ink-saving output while still delivering high-quality comparison practice. Both JPEG and PDF exports support grayscale mode.',
     },
     {
       question: 'Is there a free trial?',
@@ -187,12 +187,12 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
+        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your comparison worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue. You can also combine comparison worksheets with other math worksheet types — such as addition or subtraction — to build comprehensive math practice bundles that command higher price points and appeal to buyers looking for all-in-one resources.',
+        'Yes. With a commercial license, you have full rights to sell your comparison worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue. You can also combine comparison worksheets with other math worksheet types — such as addition or subtraction — to build comprehensive math practice bundles that command higher price points and appeal to buyers looking for all-in-one resources.',
     },
     {
       question: 'What is the refund policy?',
@@ -235,7 +235,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Educators & Sellers',
+      anchorText: 'Math Facts Printable Ideas for Sellers',
     },
     {
       pageType: 'idea',
@@ -263,7 +263,7 @@ const content: AppContent = {
       {
         src: '/samples/english/more less/More Less (10).webp',
         alt: 'Comparison worksheet with Image to Image mode using animal theme',
-        caption: 'Image to Image mode — students count two picture groups and compare quantities',
+        caption: 'Image to Image mode — count two picture groups and compare quantities',
       },
       {
         src: '/samples/english/more less/More Less (12).webp',
@@ -273,7 +273,7 @@ const content: AppContent = {
       {
         src: '/samples/english/more less/More Less (14).webp',
         alt: 'Check and Cross Groups worksheet with mixed images for visual sorting',
-        caption: 'Check & Cross Groups mode — students find the majority group in a mixed-image box',
+        caption: 'Check & Cross Groups mode — find the majority group in a mixed-image box',
       },
     ],
     youtubeId: 'eNguG63nYVs',

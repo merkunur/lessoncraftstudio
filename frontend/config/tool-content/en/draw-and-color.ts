@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Draw & Color Worksheet Maker',
     tagline: 'Generate dual-grid drawing worksheets with adjustable clue percentage, three symmetry modes, and purely visual zero-text output that sells worldwide without translation',
-    description: 'Create professional grid drawing worksheets where students reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells where students draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty — fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3×3 (9 cells) to 10×10 (100 cells), with rows and columns adjustable independently. Three symmetry modes add a spatial reasoning dimension: Random scatters clues in arbitrary positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector controlling which half is shown. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring — clean outlines that students reproduce and then color in, not colorful themes. This is a purely visual app: worksheets contain only grid images with zero text, making them universally sellable without translation. No separate answer key exists because the clue grid itself serves as the reference solution. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional grid drawing worksheets where users reproduce a reference image by copying it cell-by-cell from a clue grid into a blank practice grid. Two grids appear per selected image: a Practice Grid with empty cells where users draw, and a Clue Grid showing a configurable percentage of the reference image as visual hints. Adjust the clue percentage from 10% to 75% to control difficulty — fewer clues mean harder exercises that demand sharper observation. Configure grid dimensions from 3×3 (9 cells) to 10×10 (100 cells), with rows and columns adjustable independently. Three symmetry modes add a spatial reasoning dimension: Random scatters clues in arbitrary positions, Horizontal mirrors clues left-to-right, and Vertical mirrors clues top-to-bottom, each with a part-to-reveal selector controlling which half is shown. Content draws from the built-in B&W outline theme library with 100+ collections featuring 3,000+ black & white illustrations specifically designed for drawing and coloring — clean outlines that users reproduce and then color in, not colorful themes. This is a purely visual app: worksheets contain only grid images with zero text, making them universally sellable without translation. No separate answer key exists because the clue grid itself serves as the reference solution. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Toggle grayscale for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -37,15 +37,15 @@ const content: ToolContent = {
       },
       {
         title: 'Configure Grid Dimensions',
-        description: 'Set the grid rows (3–10) and columns (3–10) independently to control cell count and aspect ratio. A 3×3 grid with 9 large cells is easy for beginners and young learners. A 10×10 grid with 100 small cells challenges advanced students requiring precise reproduction. Non-square grids like 4×6 or 8×5 accommodate different image aspect ratios. Grid size acts as one of two independent difficulty axes alongside clue percentage.',
+        description: 'Set the grid rows (3–10) and columns (3–10) independently to control cell count and aspect ratio. A 3×3 grid with 9 large cells is easy for beginners and young learners. A 10×10 grid with 100 small cells challenges advanced learners requiring precise reproduction. Non-square grids like 4×6 or 8×5 accommodate different image aspect ratios. Grid size acts as one of two independent difficulty axes alongside clue percentage.',
       },
       {
         title: 'Set the Clue Percentage',
-        description: 'Adjust the clue percentage slider from 10% to 75% to control how much of the reference image is revealed in the clue grid. At 75%, most cells show the image and students fill in the remaining quarter — perfect for beginners building confidence. At 50%, half the cells are visible for a moderate challenge. At 25%, students work from scattered fragments. At 10%, barely any reference is visible and students reconstruct the image almost from scratch — a genuine puzzle even for adults. This single slider creates a smooth difficulty curve across your entire product range.',
+        description: 'Adjust the clue percentage slider from 10% to 75% to control how much of the reference image is revealed in the clue grid. At 75%, most cells show the image and users fill in the remaining quarter — perfect for beginners building confidence. At 50%, half the cells are visible for a moderate challenge. At 25%, users work from scattered fragments. At 10%, barely any reference is visible and users reconstruct the image almost from scratch — a genuine puzzle even for adults. This single slider creates a smooth difficulty curve across your entire product range.',
       },
       {
         title: 'Choose a Symmetry Mode',
-        description: 'Pick a symmetry mode to control how clue cells are positioned. Random scatters clue cells in arbitrary locations for general drawing practice. Horizontal mirrors clue cells left-to-right, teaching bilateral symmetry — students see one side and reconstruct the mirror image. Vertical mirrors clue cells top-to-bottom for vertical symmetry exercises. When Horizontal or Vertical is selected, a part-to-reveal selector lets you choose which half to show as clues. Symmetry worksheets bridge art and math by combining drawing with spatial reasoning.',
+        description: 'Pick a symmetry mode to control how clue cells are positioned. Random scatters clue cells in arbitrary locations for general drawing practice. Horizontal mirrors clue cells left-to-right, teaching bilateral symmetry — users see one side and reconstruct the mirror image. Vertical mirrors clue cells top-to-bottom for vertical symmetry exercises. When Horizontal or Vertical is selected, a part-to-reveal selector lets you choose which half to show as clues. Symmetry worksheets bridge art and math by combining drawing with spatial reasoning.',
       },
       {
         title: 'Select a B&W Theme Image or Upload Custom',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Add Text and Customize the Canvas',
-        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. Toggle the name/date fields option for student identification areas. The auto-generated header localizes across all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas. Alignment tools snap elements into position, lock and unlock controls protect finished elements while you edit others, and unlimited undo and redo let you experiment freely.',
+        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, and Fredoka. Toggle the name/date fields option for identification areas. The auto-generated header localizes across all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas. Alignment tools snap elements into position, lock and unlock controls protect finished elements while you edit others, and unlimited undo and redo let you experiment freely.',
       },
       {
         title: 'Toggle Grayscale and Download',
-        description: 'Enable grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download your worksheet as a high-resolution JPEG or print-ready PDF at 300 DPI. Each export includes both the practice grid (blank cells for drawing) and the clue grid (partial reference image). No separate answer key is needed — the clue grid itself serves as the solution reference, streamlining your product creation workflow. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TpT product files.',
+        description: 'Enable grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download your worksheet as a high-resolution JPEG or print-ready PDF at 300 DPI. Each export includes both the practice grid (blank cells for drawing) and the clue grid (partial reference image). No separate answer key is needed — the clue grid itself serves as the solution reference, streamlining your product creation workflow. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -73,19 +73,19 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetry and Spatial Reasoning Worksheets',
-      description: 'Use Horizontal and Vertical mirror modes to create worksheets that bridge art and math. Students see clue cells on one side of the grid and must reconstruct the mirror image on the opposite side. A Horizontal symmetry pack teaches bilateral symmetry — fundamental to geometry and biology. A Vertical symmetry pack targets top-to-bottom mirror recognition. Combine both modes in a “Complete Symmetry Drawing” bundle. These resources sell exceptionally well in both art and math categories on TpT because they serve two subject areas from a single worksheet format.',
+      description: 'Use Horizontal and Vertical mirror modes to create worksheets that bridge art and math. Solvers see clue cells on one side of the grid and must reconstruct the mirror image on the opposite side. A Horizontal symmetry pack teaches bilateral symmetry — fundamental to geometry and biology. A Vertical symmetry pack targets top-to-bottom mirror recognition. Combine both modes in a “Complete Symmetry Drawing” bundle. These resources sell exceptionally well in both art and math categories on Gumroad because they serve two subject areas from a single worksheet format.',
     },
     {
       title: 'Themed B&W Coloring-After-Drawing Sets',
-      description: 'Leverage the B&W outline library to create drawing exercises that double as coloring activities. Students first reproduce the outline by copying cells from the clue grid, then color in their completed drawing. Farm animals, dinosaurs, ocean creatures, vehicles, and holiday themes each become distinct product listings. The draw-then-color format delivers two activities per page — spatial reproduction and creative coloring — making each worksheet twice as engaging as a standalone coloring page.',
+      description: 'Leverage the B&W outline library to create drawing exercises that double as coloring activities. Users first reproduce the outline by copying cells from the clue grid, then color in their completed drawing. Farm animals, dinosaurs, ocean creatures, vehicles, and holiday themes each become distinct product listings. The draw-then-color format delivers two activities per page — spatial reproduction and creative coloring — making each worksheet twice as engaging as a standalone coloring page.',
     },
     {
       title: 'Custom Image Subject-Specific Grid Exercises',
-      description: 'Upload custom images to create grid drawing worksheets for specialized audiences beyond the built-in library. Use plant diagrams for science, architectural drawings for design classes, geometric shapes for math integration, or historical artifacts for social studies. The adjustable clue percentage lets you match difficulty to any age group, and symmetry modes add spatial reasoning to subject-specific content. Custom image exercises fill niche markets on Etsy and TpT where standard themes alone cannot reach.',
+      description: 'Upload custom images to create grid drawing worksheets for specialized audiences beyond the built-in library. Use plant diagrams for science, architectural drawings for design classes, geometric shapes for math integration, or historical artifacts for social studies. The adjustable clue percentage lets you match difficulty to any age group, and symmetry modes add spatial reasoning to subject-specific content. Custom image exercises fill niche markets on Etsy and Gumroad where standard themes alone cannot reach.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',
-      description: 'Pair grid drawing worksheets with coloring pages, drawing lines exercises, pattern worksheets, and matching activities using coordinated B&W themes. Grid drawing develops cell-by-cell spatial reproduction. Coloring pages build color recognition and fine motor control. Drawing lines worksheets train pencil control. Each format exercises a different visual-motor skill. Multi-format bundles sell for more than any single activity type and give students varied practice with a unified theme across every activity.',
+      description: 'Pair grid drawing worksheets with coloring pages, drawing lines exercises, pattern worksheets, and matching activities using coordinated B&W themes. Grid drawing develops cell-by-cell spatial reproduction. Coloring pages build color recognition and fine motor control. Drawing lines worksheets train pencil control. Each format exercises a different visual-motor skill. Multi-format bundles sell for more than any single activity type and give learners varied practice with a unified theme across every activity.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Symmetry Centers',
-      description: 'Upload grid drawing worksheet packs to TpT organized by symmetry mode as the teaching focus. Level 1 uses Random clue placement for general drawing practice. Level 2 introduces Horizontal mirror mode where students see one side and draw the mirror image. Level 3 uses Vertical mirror mode for top-to-bottom symmetry. Level 4 combines low clue percentage with mirror mode for the ultimate spatial reasoning challenge. These resources bridge art and math standards, making them valuable for both art teachers and math specialists searching for “symmetry activities” and “spatial reasoning worksheets.”',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Symmetry Bundles',
+      description: 'Upload grid drawing worksheet packs to Gumroad organized by symmetry mode as the teaching focus. Level 1 uses Random clue placement for general drawing practice. Level 2 introduces Horizontal mirror mode where users see one side and draw the mirror image. Level 3 uses Vertical mirror mode for top-to-bottom symmetry. Level 4 combines low clue percentage with mirror mode for the ultimate spatial reasoning challenge. These resources bridge art and math standards, making them valuable for sellers targeting buyers searching for “symmetry activities” and “spatial reasoning worksheets.”',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Grid Drawing Visual Funnel',
-      description: 'Grid drawing worksheets with the distinctive dual-grid layout make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different clue percentages and symmetry modes with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “grid drawing for kids,” “symmetry drawing worksheets,” and “cell-by-cell reproduction.” The zero-text format means pins appeal to parents and teachers in every country worldwide.',
+      description: 'Grid drawing worksheets with the distinctive dual-grid layout make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different clue percentages and symmetry modes with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “grid drawing worksheets,” “symmetry drawing worksheets,” and “cell-by-cell reproduction.” The zero-text format means pins appeal to parents and buyers in every country worldwide.',
       platform: 'Pinterest',
     },
     {
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Leverage Symmetry Modes as a Teaching Tool',
-      description: 'Horizontal and Vertical mirror modes transform grid drawing from an art activity into a spatial reasoning exercise that bridges art and math curricula. Students see clue cells on one half and must reconstruct the mirror image on the opposite half. This teaches bilateral and vertical symmetry while practicing drawing — two learning objectives from one worksheet. Symmetry-focused products sell in both art and math categories, doubling your marketplace visibility.',
+      description: 'Horizontal and Vertical mirror modes transform grid drawing from an art activity into a spatial reasoning exercise that bridges art and math curricula. Solvers see clue cells on one half and must reconstruct the mirror image on the opposite half. This teaches bilateral and vertical symmetry while practicing drawing — two learning objectives from one worksheet. Symmetry-focused products sell in both art and math categories, doubling your marketplace visibility.',
     },
     {
       title: 'Emphasize B&W Outlines as a Dual-Activity Format',
-      description: 'The B&W outline theme library is designed for drawing first, coloring second. After students reproduce the outline by copying cells from the clue grid, they color in their completed drawing. This delivers two activities per page — spatial reproduction and creative coloring. Highlight this draw-then-color workflow in your product descriptions to differentiate from single-purpose coloring pages and justify higher prices.',
+      description: 'The B&W outline theme library is designed for drawing first, coloring second. After users reproduce the outline by copying cells from the clue grid, they color in their completed drawing. This delivers two activities per page — spatial reproduction and creative coloring. Highlight this draw-then-color workflow in your product descriptions to differentiate from single-purpose coloring pages and justify higher prices.',
     },
     {
       title: 'Highlight the Dual Grid as a Premium Format',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Create Progressive Workbooks Using Clue Percentage Chapters',
-      description: 'Structure workbooks where each chapter reduces the clue percentage: Chapter 1 at 75%, Chapter 2 at 50%, Chapter 3 at 25%, Chapter 4 at 10%. Within each chapter, also increase grid size from 4×4 to 8×8. This dual progression delivers a satisfying difficulty curve that keeps students engaged across 60–100 pages. Buyers perceive structured progression as higher quality than random difficulty ordering.',
+      description: 'Structure workbooks where each chapter reduces the clue percentage: Chapter 1 at 75%, Chapter 2 at 50%, Chapter 3 at 25%, Chapter 4 at 10%. Within each chapter, also increase grid size from 4×4 to 8×8. This dual progression delivers a satisfying difficulty curve that keeps users engaged across 60–100 pages. Buyers perceive structured progression as higher quality than random difficulty ordering.',
     },
     {
-      title: 'Use Grayscale for KDP and Classroom Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. The B&W outline themes are inherently suited for grayscale export — clean lines reproduce perfectly in black-and-white. Save color backgrounds for Etsy listing previews where visual appeal drives clicks in search results.',
+      title: 'Use Grayscale for KDP and Bulk Printing',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. The B&W outline themes are inherently suited for grayscale export — clean lines reproduce perfectly in black-and-white. Save color backgrounds for Etsy listing previews where visual appeal drives clicks in search results.',
     },
     {
       title: 'Combine Grid Drawing with Other Visual Tools for Premium Bundles',
-      description: 'Pair grid drawing worksheets with coloring pages, drawing lines, matching, and shadow match activities using coordinated themes. Each tool exercises a different visual-motor skill: grid drawing develops spatial reproduction, coloring pages build creative expression, drawing lines trains pencil control, shadow match builds shape recognition. Multi-format visual bundles sell for more than any single activity type alone and give students varied practice.',
+      description: 'Pair grid drawing worksheets with coloring pages, drawing lines, matching, and shadow match activities using coordinated themes. Each tool exercises a different visual-motor skill: grid drawing develops spatial reproduction, coloring pages build creative expression, drawing lines trains pencil control, shadow match builds shape recognition. Multi-format visual bundles sell for more than any single activity type alone and give learners varied practice.',
     },
   ],
 
@@ -160,27 +160,27 @@ const content: ToolContent = {
     },
     {
       question: 'How does the dual grid system work?',
-      answer: 'Every image you select generates two companion grids. The Practice Grid has empty cells with light outlines where students draw their reproduction. The Clue Grid shows a configurable percentage of the reference image — some cells filled with parts of the image, others left blank. Students look at the clue grid, identify which cells show reference content, and reproduce the full image cell-by-cell in the practice grid. The two grids appear together on the worksheet page as a complete drawing exercise.',
+      answer: 'Every image you select generates two companion grids. The Practice Grid has empty cells with light outlines where users draw their reproduction. The Clue Grid shows a configurable percentage of the reference image — some cells filled with parts of the image, others left blank. Users look at the clue grid, identify which cells show reference content, and reproduce the full image cell-by-cell in the practice grid. The two grids appear together on the worksheet page as a complete drawing exercise.',
     },
     {
       question: 'What does the clue percentage slider control?',
-      answer: 'The clue percentage (10%–75%) determines what fraction of the clue grid cells reveal the reference image. At 75%, three-quarters of the cells show the image and students fill in only the remaining quarter. At 50%, half the cells are visible for a moderate challenge. At 25%, students reconstruct from scattered fragments. At 10%, barely any reference is visible for a maximum challenge. Lower clue percentage means harder exercises. This slider and grid size together create two independent difficulty axes.',
+      answer: 'The clue percentage (10%–75%) determines what fraction of the clue grid cells reveal the reference image. At 75%, three-quarters of the cells show the image and users fill in only the remaining quarter. At 50%, half the cells are visible for a moderate challenge. At 25%, users reconstruct from scattered fragments. At 10%, barely any reference is visible for a maximum challenge. Lower clue percentage means harder exercises. This slider and grid size together create two independent difficulty axes.',
     },
     {
       question: 'How do the symmetry and mirror modes work?',
-      answer: 'Three modes control how clue cells are placed. Random scatters clue cells in arbitrary positions for general drawing practice. Horizontal mirrors clue cells left-to-right — students see one side and must draw the mirror image on the other. Vertical mirrors clue cells top-to-bottom. When Horizontal or Vertical is selected, a part-to-reveal selector lets you choose which half to show as clues (left/right or top/bottom). Mirror modes teach symmetry recognition alongside drawing skills, bridging art and math.',
+      answer: 'Three modes control how clue cells are placed. Random scatters clue cells in arbitrary positions for general drawing practice. Horizontal mirrors clue cells left-to-right — users see one side and must draw the mirror image on the other. Vertical mirrors clue cells top-to-bottom. When Horizontal or Vertical is selected, a part-to-reveal selector lets you choose which half to show as clues (left/right or top/bottom). Mirror modes teach symmetry recognition alongside drawing skills, bridging art and math.',
     },
     {
       question: 'Why does this app use B&W outline themes instead of colorful ones?',
-      answer: 'Draw & Color uses black & white outline illustrations specifically designed for drawing and coloring activities. Clean outlines are ideal for cell-by-cell reproduction — students can clearly see the lines they need to copy. After completing the drawing, students can color in their reproduction as an additional activity. Colorful images would be harder to reproduce by hand and would not invite coloring afterward. The B&W format also prints perfectly in black-and-white, keeping costs low for classroom and workbook use.',
+      answer: 'Draw & Color uses black & white outline illustrations specifically designed for drawing and coloring activities. Clean outlines are ideal for cell-by-cell reproduction — users can clearly see the lines they need to copy. After completing the drawing, they can color in their reproduction as an additional activity. Colorful images would be harder to reproduce by hand and would not invite coloring afterward. The B&W format also prints perfectly in black-and-white, keeping costs low for print-on-demand and workbook use.',
     },
     {
       question: 'Why is there no separate answer key?',
-      answer: 'The clue grid itself serves as the reference solution. Students compare their finished practice grid against the original source image at any time. There is no need for a separate answer key file — the dual grid format inherently includes the solution reference. This streamlines your product creation workflow because you export one page with both grids rather than managing separate worksheet and answer key files.',
+      answer: 'The clue grid itself serves as the reference solution. Users compare their finished practice grid against the original source image at any time. There is no need for a separate answer key file — the dual grid format inherently includes the solution reference. This streamlines your product creation workflow because you export one page with both grids rather than managing separate worksheet and answer key files.',
     },
     {
       question: 'What grid sizes can I configure?',
-      answer: 'Rows and columns are independently adjustable from 3 to 10. A 3×3 grid has 9 large cells — easy for young learners. A 10×10 grid has 100 small cells — demanding for advanced students. Non-square grids like 4×6 or 8×5 accommodate different image aspect ratios. Grid size and clue percentage create two independent difficulty axes, so a 5×5 grid at 50% clues is moderate while a 10×10 grid at 10% clues is expert-level.',
+      answer: 'Rows and columns are independently adjustable from 3 to 10. A 3×3 grid has 9 large cells — easy for young learners. A 10×10 grid has 100 small cells — demanding for advanced learners. Non-square grids like 4×6 or 8×5 accommodate different image aspect ratios. Grid size and clue percentage create two independent difficulty axes, so a 5×5 grid at 50% clues is moderate while a 10×10 grid at 10% clues is expert-level.',
     },
     {
       question: 'Are the worksheets language-sensitive?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell grid drawing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, teacher resources on TpT, or through any other sales channel. The dual grid format, adjustable clue percentage, symmetry modes, and B&W outline style create a distinctive product that competes strongly in drawing and activity worksheet categories.',
+      answer: 'Yes. With a commercial license, you have full rights to sell grid drawing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The dual grid format, adjustable clue percentage, symmetry modes, and B&W outline style create a distinctive product that competes strongly in drawing and activity worksheet categories.',
     },
     {
       question: 'What is your refund policy?',
@@ -220,7 +220,7 @@ const content: ToolContent = {
       {
         src: '/samples/english/draw and color/grid-drawing_worksheet (1).webp',
         alt: 'Grid drawing worksheet with animal B&W outline theme at 25% clue percentage showing practice grid and clue grid side by side',
-        caption: 'Animal theme at 25% clues — students reproduce the outline from scattered grid hints then color in their drawing',
+        caption: 'Animal theme at 25% clues — users reproduce the outline from scattered grid hints then color in their drawing',
       },
       {
         src: '/samples/english/draw and color/grid-drawing_worksheet (5).webp',

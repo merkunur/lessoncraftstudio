@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Prepositions Worksheet Generator',
     tagline: 'Create spatial preposition worksheets with two exercise modes in 11 languages',
-    description: 'Teach position words through image-based exercises that students actually enjoy. This tool generates prepositions worksheets where learners identify spatial relationships — on, under, above, beside, between, inside, outside — by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where students write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1–8 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool’s standout feature is Shape Replacement — a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses „auf, unter, über, neben, zwischen, drinnen, draußen“; French uses «sur, sous, au-dessus, à côté, entre, dedans, dehors». One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: ‘Build position-word exercises that engage solvers through image-based scenes. This tool generates prepositions worksheets where learners identify spatial relationships — on, under, above, beside, between, inside, outside — by studying image scenes and filling in or selecting the correct preposition. Choose between two exercise modes: Fill-in-the-Blank, where solvers write the correct preposition themselves, or Multiple Choice, where they pick from a set of options with a customizable instruction line. Set 1–8 exercises per worksheet and select exactly which prepositions to include using the checkbox grid. The tool’s standout feature is Shape Replacement — a separate image layer lets you swap scene shapes independently, creating far more visual combinations than a single image set could offer. Language sensitivity is built in: switch from English to any of the 11 supported languages and every preposition word updates to its native equivalent. German uses „auf, unter, über, neben, zwischen, drinnen, draußen”; French uses «sur, sous, au-dessus, à côté, entre, dedans, dehors». One worksheet design becomes 11 unique language products. Browse 3,100+ images across 104 themes, upload your own PNG or JPEG for branded designs, and choose from multiple templates and 7 font families. Export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.’,
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choose Your Exercise Mode',
-        description: 'Select Fill-in-the-Blank or Multiple Choice. Fill-in-the-Blank mode presents an image scene with a blank line where students write the correct preposition. Multiple Choice mode shows options for students to select from, with a customizable description line you can edit to match your instruction style. Fill-in-the-Blank suits older students; Multiple Choice works best for beginners.',
+        description: 'Select Fill-in-the-Blank or Multiple Choice. Fill-in-the-Blank mode presents an image scene with a blank line where solvers write the correct preposition. Multiple Choice mode shows options to select from, with a customizable description line you can edit to match your product style. Fill-in-the-Blank suits older learners; Multiple Choice works best for beginners.',
       },
       {
         title: 'Select Prepositions',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Preposition Packs',
-      description: 'Create sets of 10–15 prepositions worksheets using themed image collections — animals, vehicles, household items, nature scenes. Each worksheet uses different images and shape combinations at a consistent difficulty level. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The image-scene format makes your listing thumbnails visually engaging compared to plain text-based grammar sheets. Themed packs also encourage repeat purchases: a buyer who enjoys your animal prepositions pack is likely to come back for vehicles or holidays, building long-term customer loyalty for your shop.',
+      description: 'Create sets of 10–15 prepositions worksheets using themed image collections — animals, vehicles, household items, nature scenes. Each worksheet uses different images and shape combinations at a consistent difficulty level. Bundle by theme and sell on Etsy or Gumroad. The image-scene format makes your listing thumbnails visually engaging compared to plain text-based grammar sheets. Themed packs also encourage repeat purchases: a buyer who enjoys your animal prepositions pack is likely to come back for vehicles or holidays, building long-term customer loyalty for your shop.',
     },
     {
       title: 'KDP Spatial Activity Books',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiated Exercise Mode Sets',
-      description: 'Generate two versions of each themed worksheet: Multiple Choice for younger or struggling learners, and Fill-in-the-Blank for students ready for independent recall. Teachers can hand the right version to each student based on their level. Sell as a differentiated pack at a premium price point on TpT or Etsy.',
+      description: 'Generate two versions of each themed worksheet: Multiple Choice for younger or struggling learners, and Fill-in-the-Blank for those ready for independent recall. Sell both versions as a differentiated pack at a premium price point on Etsy or Gumroad.',
     },
     {
       title: 'Multilingual Preposition Products',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Preposition Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Prepositions" pack with festive scenes — presents under the tree, stars above the house, candy inside the stocking — sells strongly in November–December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and TpT.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Prepositions" pack with festive scenes — presents under the tree, stars above the house, candy inside the stocking — sells strongly in November–December. Back-to-school, Halloween, and spring themes each have their own peak sales windows on Etsy and Gumroad.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Grammar Bundles',
-      description: 'Upload preposition worksheet packs to TpT organized by difficulty and exercise mode. Include Fill-in-the-Blank sets, Multiple Choice sets, and mixed-mode bundles with answer keys for every page. Teachers search for "prepositions worksheets" and "spatial language activities" frequently. The image-scene format adds perceived value because students engage with visual context rather than abstract fill-in-the-blank sentences.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Grammar Bundles',
+      description: 'Upload preposition worksheet packs to Gumroad organized by difficulty and exercise mode. Include Fill-in-the-Blank sets, Multiple Choice sets, and mixed-mode bundles with answer keys for every page. Buyers search for "prepositions worksheets" and "spatial language activities" frequently. The image-scene format adds perceived value because solvers engage with visual context rather than abstract fill-in-the-blank sentences.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Dual-Mode Preposition Kits',
-      description: 'Create premium preposition kits on Gumroad that include both Fill-in-the-Blank and Multiple Choice versions of every worksheet, plus answer keys and a usage guide. Bundle 5–11 language versions into a single multilingual product. Target ESL teachers, bilingual families, and international schools who need spatial language materials across multiple languages.',
+      description: 'Create premium preposition kits on Gumroad that include both Fill-in-the-Blank and Multiple Choice versions of every worksheet, plus answer keys and a usage guide. Bundle 5–11 language versions into a single multilingual product. Target ESL buyers, bilingual families, and international homeschool markets who need spatial language materials across multiple languages.',
       platform: 'Gumroad',
     },
     {
@@ -117,19 +117,19 @@ const content: ToolContent = {
     },
     {
       title: 'Shape Replacement Variety Packs on Etsy',
-      description: 'Leverage the Shape Replacement feature to create massive variety packs. Combine 10 main images with 10 different shapes to produce 100 unique exercise scenes from just 20 source images. Sell these as "100-Page Preposition Mega Packs" on Etsy — the sheer volume justifies a premium price, and the visual variety keeps students engaged across the entire workbook.',
+      description: 'Leverage the Shape Replacement feature to create massive variety packs. Combine 10 main images with 10 different shapes to produce 100 unique exercise scenes from just 20 source images. Sell these as "100-Page Preposition Mega Packs" on Etsy — the sheer volume justifies a premium price, and the visual variety keeps solvers engaged across the entire workbook.',
       platform: 'Etsy',
     },
   ],
 
   proTips: [
     {
-      title: 'Use Fill-in-the-Blank for Older Students',
-      description: 'Fill-in-the-Blank mode requires active recall — students must produce the correct preposition from memory, not just recognize it. This suits grades 2+ and ESL learners who already know the position words but need writing practice. It also makes worksheets harder to guess, increasing educational value. On Etsy and TpT, listings that emphasize recall-based learning consistently attract teacher buyers looking for rigorous spatial language practice rather than simple recognition drills, so highlighting this mode in your product descriptions can boost conversions.',
+      title: 'Use Fill-in-the-Blank for Advanced Products',
+      description: 'Fill-in-the-Blank mode requires active recall — solvers must produce the correct preposition from memory, not just recognize it. This suits the K-2 product market and ESL learners who already know the position words but need writing practice. It also makes worksheets harder to guess, increasing perceived value. On Etsy and Gumroad, listings that emphasize recall-based learning consistently attract buyers looking for rigorous spatial language practice rather than simple recognition drills, so highlighting this mode in your product descriptions can boost conversions.',
     },
     {
       title: 'Use Multiple Choice for Beginners',
-      description: 'Multiple Choice mode gives younger learners or early ESL students a scaffolded experience. They see the correct answer among options, reducing frustration. Customize the instruction text to match your teaching style. Start with 3–4 exercises per page to avoid overwhelming new learners. This scaffolded format is especially popular with parents buying printables for home use, making it a strong seller on Etsy where family-friendly educational materials consistently rank well in search results.',
+      description: 'Multiple Choice mode gives younger learners or early ESL users a scaffolded experience. They see the correct answer among options, reducing frustration. Customize the instruction text to match your product style. Start with 3–4 exercises per page to avoid overwhelming new learners. This scaffolded format is especially popular with parents buying printables for home use, making it a strong seller on Etsy where family-oriented educational materials consistently rank well in search results.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -137,11 +137,11 @@ const content: ToolContent = {
     },
     {
       title: 'Bundle Both Modes in One Product',
-      description: 'Combine Fill-in-the-Blank and Multiple Choice worksheets into a single bundle. Teachers love differentiated packs they can hand to students at different levels. A "Complete Prepositions Pack" with both modes, answer keys, and a teacher guide commands a higher price than either mode sold separately. Dual-mode bundles also reduce refund requests because buyers feel they’re getting comprehensive coverage, and the included answer keys save teachers preparation time — a selling point worth emphasizing in your listing copy.',
+      description: ‘Combine Fill-in-the-Blank and Multiple Choice worksheets into a single bundle. Buyers love differentiated packs covering multiple levels. A "Complete Prepositions Pack" with both modes, answer keys, and a usage guide commands a higher price than either mode sold separately. Dual-mode bundles also reduce refund requests because buyers feel they are getting comprehensive coverage, and the included answer keys add perceived value — a selling point worth emphasizing in your listing copy.’,
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. Black-and-white scenes cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images attract clicks. Many experienced KDP sellers publish both a color digital edition and a grayscale print edition of the same workbook, effectively doubling their catalog from a single design session without creating any new content.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white scenes cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images attract clicks. Many experienced KDP sellers publish both a color digital edition and a grayscale print edition of the same workbook, effectively doubling their catalog from a single design session without creating any new content.',
     },
     {
       title: 'Upload Custom Images for Branding',
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'How do the two exercise modes work?',
-      answer: 'Fill-in-the-Blank mode shows an image scene with a blank line where students write the correct preposition (on, under, above, etc.). Multiple Choice mode presents the same scene but with selectable options so students pick the right answer. You can customize the instruction text in Multiple Choice mode to match your teaching style.',
+      answer: 'Fill-in-the-Blank mode shows an image scene with a blank line where solvers write the correct preposition (on, under, above, etc.). Multiple Choice mode presents the same scene but with selectable options to pick the right answer. You can customize the instruction text in Multiple Choice mode to match your product style.',
     },
     {
       question: 'How does preposition selection work?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'How many exercises can I put on one page?',
-      answer: 'You can set 1 to 8 exercises per worksheet. Fewer exercises per page give each scene more visual space, which works well for younger students. More exercises per page create denser worksheets suitable for older learners or timed practice. The layout adapts automatically to the exercise count and page size. Sellers often create two versions of the same pack — a spacious 3-exercise layout for younger grades and a compact 6-exercise layout for older students — then bundle both versions together at a premium price point.',
+      answer: 'You can set 1 to 8 exercises per worksheet. Fewer exercises per page give each scene more visual space, which works well for the early-learner niche. More exercises per page create denser worksheets suitable for older learners or timed practice. The layout adapts automatically to the exercise count and page size. Sellers often create two versions of the same pack — a spacious 3-exercise layout for younger age groups and a compact 6-exercise layout for older learners — then bundle both versions together at a premium price point.',
     },
     {
       question: 'Can I upload my own images?',
@@ -188,7 +188,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',

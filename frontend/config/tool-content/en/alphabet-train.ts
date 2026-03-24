@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'alphabet train worksheet maker for kids',
+    primaryKeyword: 'alphabet train worksheet maker to sell online',
     secondaryKeywords: [
-      'alphabet train creator for classroom',
-      'letter recognition worksheets for kids',
-      'printable alphabet train for preschool',
-      'alphabet matching worksheet maker for teachers',
+      'alphabet train creator for Etsy sellers',
+      'letter recognition worksheets for printable business',
+      'printable alphabet train for the early-learner niche',
+      'alphabet matching worksheet maker for sellers',
     ],
     lsiKeywords: [
-      'letter-image matching train worksheet for kids',
-      'multilingual alphabet activity for classroom',
-      'colorful alphabet train printable for preschool',
+      'letter-image matching train worksheet for commercial use',
+      'multilingual alphabet activity for online stores',
+      'colorful alphabet train printable for sellers',
     ],
-    titleTag: 'Alphabet Train Maker — Letter Practice for Kids',
-    metaDescription: 'Create alphabet train worksheets for letter recognition. 11 colorful wagons, letter-image matching, 11 languages, 104 themes. Try with watermark — no signup.',
+    titleTag: 'Alphabet Train Maker — Letter Worksheets to Sell Online',
+    metaDescription: 'Create alphabet train worksheets to sell on Etsy & KDP. 11 colorful wagons, letter-image matching, 11 languages, 104 themes. Try with watermark — no signup.',
     },
 
   hero: {
     title: 'Alphabet Train Worksheet Generator',
     tagline: 'Create colorful letter-train worksheets with image-to-letter matching in 11 languages',
-    description: 'Build alphabet worksheets that look nothing like the standard letter-tracing page. This tool arranges 11 vibrant train wagons across the page, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train — students identify which letter each image starts with and match it to the correct wagon. Choose between Auto Create mode (the tool randomly picks 11 letters and assigns matching images) or Manual Selection (hand-pick every letter from a full alphabet grid and assign each image yourself). Adjust difficulty with the clue count slider: 3 clues for beginners, 5–7 for intermediate learners, and 9–11 for advanced students who must match nearly every wagon. The real power is language sensitivity — select from 11 native alphabets including German (Ä/Ö/Ü), Swedish (Å/Ä/Ö), Spanish (Ñ), and more. The same image pairs with different letters in each language: "dog" matches D in English but H in German (Hund). One worksheet template becomes 11 unique products. Browse 3,100+ images across 104 themes, or upload your own for branded designs. Choose from 7 font families and export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Build alphabet worksheets that look nothing like the standard letter-tracing page. This tool arranges 11 vibrant train wagons across the page, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train — solvers identify which letter each image starts with and match it to the correct wagon. Choose between Auto Create mode (the tool randomly picks 11 letters and assigns matching images) or Manual Selection (hand-pick every letter from a full alphabet grid and assign each image yourself). Adjust difficulty with the clue count slider: 3 clues for beginners, 5–7 for intermediate learners, and 9–11 for advanced users who must match nearly every wagon. The real power is language sensitivity — select from 11 native alphabets including German (Ä/Ö/Ü), Swedish (Å/Ä/Ö), Spanish (Ñ), and more. The same image pairs with different letters in each language: "dog" matches D in English but H in German (Hund). One worksheet template becomes 11 unique products. Browse 3,100+ images across 104 themes, or upload your own for branded designs. Choose from 7 font families and export as print-ready PDF or high-resolution JPEG. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Configure Clue Count and Name/Date Fields',
-        description: 'Use the clue count slider to set how many matching clue images appear alongside the train. Set 3 clues for the easiest level (most wagons unmatched), 5–7 for medium difficulty, or 9–11 for advanced students who must match nearly every wagon. Toggle the Name and Date fields on or off depending on whether the worksheet is for classroom handouts or digital product downloads.',
+        description: 'Use the clue count slider to set how many matching clue images appear alongside the train. Set 3 clues for the easiest level (most wagons unmatched), 5–7 for medium difficulty, or 9–11 for advanced users who must match nearly every wagon. Toggle the Name and Date fields on or off depending on whether the worksheet includes identification fields or is a clean digital product download.',
       },
       {
         title: 'Customize Text and Fonts',
@@ -64,7 +64,7 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Themed Alphabet Train Packs',
-      description: 'Create sets of 10–15 alphabet train worksheets using themed image collections — animals, food, vehicles, nature. Each worksheet uses different letters and images at a consistent clue count. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The colorful train-wagon format makes your listing thumbnail pop against flat letter-tracing worksheets. Include answer keys with every set so buyers get a complete, classroom-ready resource that requires no additional preparation from the teacher.',
+      description: 'Create sets of 10–15 alphabet train worksheets using themed image collections — animals, food, vehicles, nature. Each worksheet uses different letters and images at a consistent clue count. Bundle by theme and sell on Etsy or Gumroad. The colorful train-wagon format makes your listing thumbnail pop against flat letter-tracing worksheets. Include answer keys with every set so buyers get a complete, print-ready resource that requires no additional preparation.',
     },
     {
       title: 'KDP Alphabet Activity Books',
@@ -72,7 +72,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Differentiated Clue-Count Sets',
-      description: 'Generate three versions of the same themed alphabet train at different difficulty levels: easy (3 clues), medium (7 clues), and hard (11 clues). Teachers can hand the right version to each student based on their reading level. Sell as a differentiated pack at a premium price point on TpT or Etsy.',
+      description: 'Generate three versions of the same themed alphabet train at different difficulty levels: easy (3 clues), medium (7 clues), and hard (11 clues). Buyers get the right version for every skill level. Sell as a differentiated pack at a premium price point on Etsy or Gumroad.',
     },
     {
       title: 'Multilingual Alphabet Products',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Custom-Image Branded Worksheets',
-      description: 'Upload your own illustrations, mascots, or licensed artwork to create alphabet trains no other seller can replicate. Homeschool content creators can use family photos, classroom teachers can use school mascots, and Etsy sellers can build a distinctive visual identity across their entire store.',
+      description: 'Upload your own illustrations, mascots, or licensed artwork to create alphabet trains no other seller can replicate. Homeschool content creators can use family photos, and Etsy sellers can build a distinctive visual identity across their entire store.',
     },
     {
       title: 'Seasonal Alphabet Train Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Alphabet Train" pack with festive illustrations sells strongly in November–December. Back-to-school, Halloween, Valentine’s Day, and spring themes each have their own peak sales windows on Etsy and TpT.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Alphabet Train" pack with festive illustrations sells strongly in November–December. Back-to-school, Halloween, Valentine’s Day, and spring themes each have their own peak sales windows on Etsy and Gumroad.',
     },
   ],
 
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Literacy Bundles',
-      description: 'Upload differentiated alphabet train packs to TpT. Include worksheets at three clue levels, a teacher guide explaining the train format, and answer keys for every page. Teachers search for "alphabet activities" and "letter recognition worksheets" constantly. The visual train format adds perceived value because it feels like a game, not a drill. Offer Auto Create bundles for variety and Manual Selection bundles for curriculum-aligned letter groups.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Literacy Bundles',
+      description: 'Upload differentiated alphabet train packs to Gumroad or your own store. Include worksheets at three clue levels, a usage guide explaining the train format, and answer keys for every page. Buyers search for "alphabet activities" and "letter recognition worksheets" constantly. The visual train format adds perceived value because it feels like a game, not a drill. Offer Auto Create bundles for variety and Manual Selection bundles for targeted letter groups.',
+      platform: 'Gumroad',
     },
     {
       title: 'Gumroad Multilingual Alphabet Kits',
-      description: 'Create premium alphabet kits on Gumroad that include the same worksheet designs in 5–11 languages. Target bilingual families, international schools, and ESL teachers who need letter recognition materials in multiple languages. The language-as-multiplier approach means every kit has 5–11x the content of a single-language competitor, justifying a higher price.',
+      description: 'Create premium alphabet kits on Gumroad that include the same worksheet designs in 5–11 languages. Target bilingual families, international markets, and multilingual buyers who need letter recognition materials in multiple languages. The language-as-multiplier approach means every kit has 5–11x the content of a single-language competitor, justifying a higher price.',
       platform: 'Gumroad',
     },
     {
@@ -124,11 +124,11 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Start with 3 Clues for Beginners',
-      description: 'A 3-clue worksheet gives young learners a gentle introduction — they only need to match 3 images to wagons while the remaining 8 wagons display letters without a matching task. This prevents overwhelm for preschoolers and early kindergartners. Increase to 7 or 11 clues as students gain confidence. Sellers on Etsy and TpT can package easy, medium, and hard versions together as a differentiated set, giving teachers exactly what they search for and justifying a higher bundle price point for the complete collection.',
+      description: 'A 3-clue worksheet gives young learners a gentle introduction — they only need to match 3 images to wagons while the remaining 8 wagons display letters without a matching task. This prevents overwhelm for beginners in the early-learner niche. Increase to 7 or 11 clues as solvers gain confidence. Sellers on Etsy and Gumroad can package easy, medium, and hard versions together as a differentiated set, giving buyers exactly what they search for and justifying a higher bundle price point for the complete collection.',
     },
     {
       title: 'Use Auto Create for Speed, Manual for Control',
-      description: 'Auto Create mode randomly selects letters and assigns images, letting you generate dozens of unique worksheets in minutes. Switch to Manual Selection when you need specific letter groups — for example, only vowels, only consonants, or letters your students are currently learning in class. From a seller\'s perspective, Auto Create is ideal for building high-volume variety packs quickly, while Manual Selection lets you create curriculum-aligned products targeting specific phonics units that teachers actively search for on TpT and Etsy.',
+      description: 'Auto Create mode randomly selects letters and assigns images, letting you generate dozens of unique worksheets in minutes. Switch to Manual Selection when you need specific letter groups — for example, only vowels, only consonants, or letters targeting a specific phonics group. From a seller\'s perspective, Auto Create is ideal for building high-volume variety packs quickly, while Manual Selection lets you create targeted products focusing on specific phonics units that buyers actively search for on Etsy and Gumroad.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets intended for Amazon KDP interiors or classroom bulk printing. Black-and-white trains cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant wagons attract clicks. Many KDP sellers create two editions of the same book — a full-color digital version and a grayscale print version — doubling their catalog from a single design session without any extra artwork.',
+      description: 'Enable the grayscale toggle for worksheets intended for Amazon KDP interiors or bulk printing. Black-and-white trains cost significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant wagons attract clicks. Many KDP sellers create two editions of the same book — a full-color digital version and a grayscale print version — doubling their catalog from a single design session without any extra artwork.',
     },
     {
       title: 'Upload Custom Images for Branding',
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'How does the alphabet train format work?',
-      answer: 'The tool creates 11 colorful train wagons, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train. Students identify which letter each clue image starts with and match it to the correct wagon. The number of clue images is configurable from 3 to 11. An answer key is generated alongside every worksheet, showing the correct letter-image connections so teachers and parents can check work quickly without needing to solve the puzzle themselves.',
+      answer: 'The tool creates 11 colorful train wagons, each carrying a letter and a matching illustration. Scattered clue images appear alongside the train. Solvers identify which letter each clue image starts with and match it to the correct wagon. The number of clue images is configurable from 3 to 11. An answer key is generated alongside every worksheet, showing the correct letter-image connections so buyers can check work quickly without needing to solve the puzzle themselves.',
     },
     {
       question: 'What is the difference between Auto Create and Manual Selection?',
@@ -183,7 +183,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What file formats can I download?',
@@ -229,7 +229,7 @@ const content: ToolContent = {  seo: {
       {
         src: '/samples/english/alphabet train/Alphabet Train 10.webp',
         alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty letter recognition',
-        caption: 'Full 11-clue difficulty for advanced students',
+        caption: 'Full 11-clue difficulty for advanced users',
       },
     ],
     youtubeId: '_dDQegRq9JQ',

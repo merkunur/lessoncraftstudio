@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable handwriting practice worksheet maker for Etsy sellers',
       'custom handwriting worksheet generator for KDP publishers',
-      'sell handwriting practice sheets on Teachers Pay Teachers',
+      'sell handwriting practice sheets on Gumroad',
       'handwriting worksheets commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use writing practice generator',
     ],
     titleTag: 'Handwriting Worksheet Generator | Sell Printables',
-    metaDescription: 'Create handwriting worksheets to sell on Etsy, KDP & TPT. Three practice modes, five font styles, arrow stroke guides, fading traces. Try free — license.',
+    metaDescription: 'Create handwriting worksheets to sell on Etsy, KDP & Gumroad. Three practice modes, five font styles, arrow stroke guides, fading traces. Try free — license.',
   },
 
   hero: {
     title: 'Handwriting Worksheet Generator for Letter Practice Sheets',
     tagline: 'Three progressive practice modes with arrow-guided stroke order and fading letter guides — build handwriting fluency from full tracing to independent writing on a single worksheet.',
     description:
-      'Design professional handwriting practice worksheets with three distinct modes that create a natural learning progression: Trace mode provides solid letter guides for beginners to follow, Fading Trace progressively reduces letter visibility across the row to build confidence, and Guided Copy offers a faint outline for near-independent writing. Choose from five font styles — Print Regular, Print Regular Arrow with numbered stroke-order directions, Print Tracing, Print Tracing Arrow combining tracing outlines with stroke arrows, and Cursive (Great Vibes) — to match any handwriting curriculum. Every row on the worksheet is independently configurable: mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review, all on the same page. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, and zigzag lines) add fine motor warm-ups that prepare hands for letter formation. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes: use Beginning Letter mode to practice the first letter of each image name, Whole File Name mode to write complete words, or type any Custom Text. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at ~300 DPI in Letter, A4, or custom sizes. Whether you sell handwriting practice bundles on Etsy, compile writing workbooks for Amazon KDP, or create differentiated writing centers for TPT, the Writing Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional handwriting practice worksheets with three distinct modes that create a natural learning progression: Trace mode provides solid letter guides for beginners to follow, Fading Trace progressively reduces letter visibility across the row to build confidence, and Guided Copy offers a faint outline for near-independent writing. Choose from five font styles — Print Regular, Print Regular Arrow with numbered stroke-order directions, Print Tracing, Print Tracing Arrow combining tracing outlines with stroke arrows, and Cursive (Great Vibes) — to match any handwriting curriculum. Every row on the worksheet is independently configurable: mix Trace mode for new letters, Fading Trace for practiced letters, and Guided Copy for review, all on the same page. Pre-writing stroke exercises (vertical lines, horizontal lines, circles, and zigzag lines) add fine motor warm-ups that prepare hands for letter formation. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes: use Beginning Letter mode to practice the first letter of each image name, Whole File Name mode to write complete words, or type any Custom Text. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at ~300 DPI in Letter, A4, or custom sizes. Whether you sell handwriting practice bundles on Etsy, compile writing workbooks for Amazon KDP, or list tiered writing sets on Gumroad, the Writing Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Add Rows and Choose Practice Mode Per Row',
         description:
-          'Each handwriting worksheet is built row by row, and every row has its own independent settings. For each row, select one of three practice modes: Trace provides solid letter outlines for students to trace directly, Fading Trace starts with solid letters that progressively fade out across the row to build independence, and Guided Copy shows a faint outline that students copy alongside. Mix all three modes on a single worksheet to create progressive difficulty from top to bottom — trace new letters at the top, practice fading letters in the middle, and attempt guided copy at the bottom.',
+          'Each handwriting worksheet is built row by row, and every row has its own independent settings. For each row, select one of three practice modes: Trace provides solid letter outlines to trace directly, Fading Trace starts with solid letters that progressively fade out across the row to build independence, and Guided Copy shows a faint outline to copy alongside. Mix all three modes on a single worksheet to create progressive difficulty from top to bottom — trace new letters at the top, practice fading letters in the middle, and attempt guided copy at the bottom.',
       },
       {
         title: 'Select Font Style and Content Source',
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Configure Case, Pre-Writing Strokes, and Decorative Text',
         description:
-          'Set the letter case for each row: Upper-case, Lower-case, or Title Case. For Custom Text rows, enable pre-writing stroke exercises — vertical lines, horizontal lines, circles, or zigzag lines — to add fine motor warm-ups before letter practice. Adjust row height to control line spacing. Use the Text Tools panel to add a worksheet title, student name and date fields, or instructions with seven fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Drag, resize, and reposition every element on the full Fabric.js canvas.',
+          'Set the letter case for each row: Upper-case, Lower-case, or Title Case. For Custom Text rows, enable pre-writing stroke exercises — vertical lines, horizontal lines, circles, or zigzag lines — to add fine motor warm-ups before letter practice. Adjust row height to control line spacing. Use the Text Tools panel to add a worksheet title, name and date fields, or instructions with seven fonts including Lexend Deca, Baloo 2, Fredoka, and Quicksand. Drag, resize, and reposition every element on the full Fabric.js canvas.',
       },
       {
         title: 'Download as JPEG or PDF',
         description:
-          'Open the Download menu and export your handwriting worksheet as a high-resolution JPEG or print-ready PDF. The export engine renders at 6x scale (~300 DPI) so letters and guide lines print crisp and clean. Toggle grayscale export for ink-friendly versions ideal for classroom printing. There is no answer key for handwriting worksheets — the practice modes themselves serve as the guide. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Open the Download menu and export your handwriting worksheet as a high-resolution JPEG or print-ready PDF. The export engine renders at 6x scale (~300 DPI) so letters and guide lines print crisp and clean. Toggle grayscale export for ink-friendly black-and-white versions. There is no answer key for handwriting worksheets — the practice modes themselves serve as the guide. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Three Progressive Practice Modes: Trace, Fading Trace, and Guided Copy',
         description:
-          'The three practice modes create a natural learning progression on a single worksheet. Trace mode provides solid letter outlines that students follow directly — full support for new or unfamiliar letters. Fading Trace starts with solid letters on the left side of the row and progressively reduces visibility toward the right, building confidence as students rely less on the guide with each repetition. Guided Copy shows only a faint outline, requiring near-independent letter formation with minimal visual support. This trace-to-copy progression mirrors proven handwriting instruction methodology and gives sellers a built-in differentiation axis for leveled product bundles.',
+          'The three practice modes create a natural learning progression on a single worksheet. Trace mode provides solid letter outlines to follow directly — full support for new or unfamiliar letters. Fading Trace starts with solid letters on the left side of the row and progressively reduces visibility toward the right, building confidence as reliance on the guide decreases with each repetition. Guided Copy shows only a faint outline, requiring near-independent letter formation with minimal visual support. This trace-to-copy progression mirrors proven handwriting instruction methodology and gives sellers a built-in differentiation axis for leveled product bundles.',
       },
       {
         title: 'Arrow-Guided Stroke Order for Correct Letter Formation',
         description:
-          'The Print Regular Arrow and Print Tracing Arrow font styles overlay numbered directional arrows on each letter, showing students exactly how to form every stroke in the correct sequence. Arrow 1 indicates where to start, arrow 2 shows the next stroke, and so on — eliminating guesswork about stroke direction and order. This feature is unique among handwriting generators: students learn not just what the letter looks like, but precisely how to draw it. Stroke-order worksheets command premium prices on TPT and Etsy because they teach proper technique rather than just providing lines to trace.',
+          'The Print Regular Arrow and Print Tracing Arrow font styles overlay numbered directional arrows on each letter, showing exactly how to form every stroke in the correct sequence. Arrow 1 indicates where to start, arrow 2 shows the next stroke, and so on — eliminating guesswork about stroke direction and order. This feature is unique among handwriting generators: users learn not just what the letter looks like, but precisely how to draw it. Stroke-order worksheets command premium prices on Etsy and Gumroad because they teach proper technique rather than just providing lines to trace.',
       },
       {
         title: 'Five Font Styles Including Print and Cursive',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Pre-Writing Stroke Exercises for Fine Motor Development',
         description:
-          'Before students tackle letter formation, pre-writing strokes build the foundational motor skills needed for handwriting. Four stroke types are available: vertical lines (top-to-bottom pull), horizontal lines (left-to-right sweep), circles (continuous curve control), and zigzag lines (directional change practice). These exercises strengthen hand-eye coordination, pencil grip, and the specific muscle movements used in letter writing. Pre-writing bundles targeting fine motor development are a distinct product niche on Etsy and TPT, separate from letter practice worksheets.',
+          'Before tackling letter formation, pre-writing strokes build the foundational motor skills needed for handwriting. Four stroke types are available: vertical lines (top-to-bottom pull), horizontal lines (left-to-right sweep), circles (continuous curve control), and zigzag lines (directional change practice). These exercises strengthen hand-eye coordination, pencil grip, and the specific muscle movements used in letter writing. Pre-writing bundles targeting fine motor development are a distinct product niche on Etsy and Gumroad, separate from letter practice worksheets.',
       },
       {
         title: 'Per-Row Independence for Mixed-Mode Worksheets',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Image Library Integration with 104 Themed Collections',
         description:
-          'Access 3,100+ illustrations across 104 themed collections — animals, food, vehicles, nature, professions, and dozens more. In Beginning Letter mode, students practice writing the first letter of each image name with the image as a visual reference. In Whole File Name mode, students write the complete word, connecting handwriting practice to vocabulary building. The themed image integration makes handwriting worksheets more engaging than blank practice pages and creates natural bundling opportunities by theme (farm animals, ocean creatures, dinosaurs) for marketplace listings.',
+          'Access 3,100+ illustrations across 104 themed collections — animals, food, vehicles, nature, professions, and dozens more. In Beginning Letter mode, the first letter of each image name is practiced with the image as a visual reference. In Whole File Name mode, the complete word is written, connecting handwriting practice to vocabulary building. The themed image integration makes handwriting worksheets more engaging than blank practice pages and creates natural bundling opportunities by theme (farm animals, ocean creatures, dinosaurs) for marketplace listings.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at High DPI',
         description:
-          'Download worksheets as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing ~300 DPI output on standard page sizes — essential for handwriting worksheets where thin guide lines and letter details must print cleanly. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for classroom printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Download worksheets as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing ~300 DPI output on standard page sizes — essential for handwriting worksheets where thin guide lines and letter details must print cleanly. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom sizes are all supported. Toggle grayscale export for ink-friendly black-and-white versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
       {
         title: 'Full Canvas Editing with Text and Decoration Tools',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Writing Centers for TPT',
+        title: 'Tiered Writing Bundles on Gumroad',
         description:
-          'Build leveled handwriting practice sets using the three practice modes as differentiation tiers: Level 1 (Trace mode with arrow stroke order for students learning letter formation), Level 2 (Fading Trace for students building independence), Level 3 (Guided Copy for students approaching fluency), and Level 4 (empty lines for independent writing). Use per-row independence to create mixed-mode worksheets where each row targets a different skill level — the ultimate differentiation tool for writing centers. Package each level with themed image integration for engagement. Teachers Pay Teachers buyers pay premium prices for differentiated writing resources that work across multiple ability groups.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled handwriting practice sets using the three practice modes as pricing tiers: Level 1 (Trace mode with arrow stroke order for letter formation basics), Level 2 (Fading Trace for building independence), Level 3 (Guided Copy for near-fluency practice), and Level 4 (empty lines for independent writing). Use per-row independence to create mixed-mode worksheets where each row targets a different skill level — the ultimate differentiation for tiered product bundles. Package each level with themed image integration for engagement. Buyers pay premium prices for leveled writing resources that progress through multiple ability stages.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Pre-Writing Stroke Bundles for Fine Motor Development',
         description:
-          'Create dedicated pre-writing stroke practice sets featuring vertical lines, horizontal lines, circles, and zigzag lines. These fine motor exercises target a distinct audience: occupational therapists, early childhood educators, and parents of pre-school age children developing pencil control before formal letter instruction. Package stroke types individually or as a complete motor skill progression. Pre-writing bundles fill a specific niche on Etsy and TPT with less competition than standard letter tracing worksheets, and the four stroke types provide enough variety for meaningful product bundles.',
-        platform: 'Etsy / TPT (fine motor niche)',
+          'Create dedicated pre-writing stroke practice sets featuring vertical lines, horizontal lines, circles, and zigzag lines. These fine motor exercises target the early-learner niche — buyers looking for pencil-control products for the preschool-age market before formal letter instruction. Package stroke types individually or as a complete motor skill progression. Pre-writing bundles fill a specific niche on Etsy and Gumroad with less competition than standard letter tracing worksheets, and the four stroke types provide enough variety for meaningful product bundles.',
+        platform: 'Etsy / Gumroad (fine motor niche)',
       },
       {
-        title: 'Classroom and Tutoring Handwriting Practice Tool',
+        title: ‘Pinterest Funnel to Your Own Handwriting Store’,
         description:
-          'Use Custom Text mode to create handwriting worksheets for any word, sentence, or phrase — weekly spelling words, student names, sight words, or subject-specific vocabulary. Set the practice mode based on each student’s ability: Trace mode for new content, Fading Trace for building fluency, Guided Copy for near-mastery review. Select arrow-guided fonts for students who need stroke-order instruction. Print custom sets in minutes for small groups or entire classes. The per-row independence means one worksheet can serve multiple skill levels simultaneously — the top rows trace new words while the bottom rows practice familiar ones.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Use Custom Text mode to create handwriting worksheets for any word, sentence, or phrase — spelling words, names, sight words, or subject-specific vocabulary. Pin sample images on Pinterest boards organized by theme (alphabet, cursive, fine motor) and link each pin to a landing page on your own store or Gumroad listing. The three practice modes let you offer tiered products — Trace for beginners, Fading Trace for intermediate, Guided Copy for advanced — driving repeat buyers back to your store for the next level. Per-row independence means one worksheet can serve multiple skill levels simultaneously, giving you more SKUs from fewer designs.’,
+        platform: ‘Pinterest → Your Own Store / Gumroad’,
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What are the three practice modes and how do they work?',
       answer:
-        'Trace mode provides solid letter outlines that students trace directly — full visual support for learning new letters. Fading Trace starts with solid letters on the left side of the row and progressively fades them out toward the right, so students transition from tracing to independent writing within a single row. Guided Copy shows a faint outline of each letter for students to copy alongside with minimal visual assistance. These three modes create a natural progression from full support to independent writing, and you can mix all three on a single worksheet using per-row independence.',
+        'Trace mode provides solid letter outlines to trace directly — full visual support for learning new letters. Fading Trace starts with solid letters on the left side of the row and progressively fades them out toward the right, creating a transition from tracing to independent writing within a single row. Guided Copy shows a faint outline of each letter to copy alongside with minimal visual assistance. These three modes create a natural progression from full support to independent writing, and you can mix all three on a single worksheet using per-row independence.',
     },
     {
       question: 'What are the five font styles and when should I use each?',
@@ -152,17 +152,17 @@ const content: AppContent = {
     {
       question: 'How does the arrow-guided stroke order work?',
       answer:
-        'The Print Regular Arrow and Print Tracing Arrow font styles overlay numbered directional arrows on each letter. Arrow 1 shows where to begin the first stroke and which direction to move, arrow 2 indicates the second stroke, and so on. The arrows teach students the correct formation sequence for every letter — not just what the letter looks like, but precisely how to draw it with proper stroke order and direction. This transforms a basic tracing worksheet into an instructional tool.',
+        'The Print Regular Arrow and Print Tracing Arrow font styles overlay numbered directional arrows on each letter. Arrow 1 shows where to begin the first stroke and which direction to move, arrow 2 indicates the second stroke, and so on. The arrows teach the correct formation sequence for every letter — not just what the letter looks like, but precisely how to draw it with proper stroke order and direction. This transforms a basic tracing worksheet into an instructional product that adds perceived value.',
     },
     {
       question: 'How does the Fading Trace mode work?',
       answer:
-        'Fading Trace mode starts each row with fully visible solid letters on the left side and progressively reduces the opacity of each subsequent letter as the row continues to the right. By the end of the row, the letters are barely visible or gone entirely. This gradual fade-out builds student confidence by reducing visual support incrementally — each repetition requires a little more independent recall than the last. It bridges the gap between full tracing and independent writing.',
+        'Fading Trace mode starts each row with fully visible solid letters on the left side and progressively reduces the opacity of each subsequent letter as the row continues to the right. By the end of the row, the letters are barely visible or gone entirely. This gradual fade-out builds confidence by reducing visual support incrementally — each repetition requires a little more independent recall than the last. It bridges the gap between full tracing and independent writing.',
     },
     {
       question: 'What are pre-writing strokes and who are they for?',
       answer:
-        'Pre-writing strokes are basic line exercises that develop the fine motor control needed for handwriting: vertical lines (top-to-bottom pull strokes), horizontal lines (left-to-right sweeps), circles (continuous curve practice), and zigzag lines (directional change control). These exercises target students who are not yet ready for letter formation — they build pencil grip strength, hand-eye coordination, and the specific muscle movements used in writing. Pre-writing strokes are available in Custom Text mode.',
+        'Pre-writing strokes are basic line exercises that develop the fine motor control needed for handwriting: vertical lines (top-to-bottom pull strokes), horizontal lines (left-to-right sweeps), circles (continuous curve practice), and zigzag lines (directional change control). These exercises target the beginner-level products niche — users who are not yet ready for letter formation build pencil grip strength, hand-eye coordination, and the specific muscle movements used in writing. Pre-writing strokes are available in Custom Text mode.',
     },
     {
       question: 'What does per-row independence mean?',
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for handwriting worksheets?',
       answer:
-        'Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide — students trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that students couldn’t see during the exercise.',
+        ‘Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide — users trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that solvers could not see during the exercise.’,
     },
     {
       question: 'Is there a free trial?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your handwriting worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The three practice modes, five font styles, arrow stroke order, and pre-writing strokes give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your handwriting worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The three practice modes, five font styles, arrow stroke order, and pre-writing strokes give you strong differentiation in crowded marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+      anchorText: 'Homeschool Printable Ideas for Sellers',
     },
     {
       pageType: 'guide',

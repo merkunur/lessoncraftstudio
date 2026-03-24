@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable preposition worksheets for Etsy sellers',
       'spatial language worksheet maker for KDP publishers',
-      'sell preposition activities on Teachers Pay Teachers',
+      'sell preposition activities on Gumroad or your own store',
       'preposition printables commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use language worksheet generator',
     ],
     titleTag: 'Preposition Worksheet Generator | Sell Printables',
-    metaDescription: 'Create preposition worksheets to sell on Etsy, KDP & TPT. 8 spatial prepositions, fill-in-the-blank and multiple choice. Try free — license available.',
+    metaDescription: 'Create preposition worksheets to sell on Etsy, KDP & Gumroad. 8 spatial prepositions, fill-in-the-blank and multiple choice. Try free — license available.',
   },
 
   hero: {
     title: 'Preposition Worksheet Generator for Spatial Language Practice',
     tagline: 'Eight spatial prepositions meet image-and-shape exercises — building spatial vocabulary one sentence at a time.',
     description:
-      'Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Students practice eight core prepositions — in, on top of, under, next to, behind, between, above, and in front of — using two distinct exercise modes: Fill-in-the-Blank sentences where students supply the missing preposition, and Multiple Choice questions where students identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions — German with dative contractions like „im” and „am“, French with elision rules for “l’” before vowels, Spanish with gendered articles — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or create differentiated language centers for TPT, the Preposition Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      ‘Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Users practice eight core prepositions — in, on top of, under, next to, behind, between, above, and in front of — using two distinct exercise modes: Fill-in-the-Blank sentences where they supply the missing preposition, and Multiple Choice questions where they identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions — German with dative contractions like „im” and „am”, French with elision rules for “l’” before vowels, Spanish with gendered articles — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or list leveled language packs on Gumroad, the Preposition Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.’,
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Exercise Mode and Exercise Count',
         description:
-          'Open the Exercise Configuration panel and select one of two modes. Fill-in-the-Blank mode presents sentences like “[Image] is ____ the [shape]” where students write the correct preposition in the blank. Multiple Choice mode shows a spatial description and asks students to circle the image that matches. Set the number of exercises per worksheet from 1 to 8 to control density and difficulty.',
+          'Open the Exercise Configuration panel and select one of two modes. Fill-in-the-Blank mode presents sentences like “[Image] is ____ the [shape]” where the solver writes the correct preposition in the blank. Multiple Choice mode shows a spatial description and asks the solver to circle the image that matches. Set the number of exercises per worksheet from 1 to 8 to control density and difficulty.',
       },
       {
         title: 'Select Prepositions from the Checklist',
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Pick Items and Shapes from the Theme Library',
         description:
-          'Open the Image Library panel and browse 104 themes for item images — the objects being positioned — then choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Use the search bar to find specific images instantly. Configure text styling with seven fonts including Lexend Deca, Baloo 2, and Fredoka. Toggle student name and date fields, and upload your own custom item images for branded worksheets.',
+          'Open the Image Library panel and browse 104 themes for item images — the objects being positioned — then choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Use the search bar to find specific images instantly. Configure text styling with seven fonts including Lexend Deca, Baloo 2, and Fredoka. Toggle name and date fields, and upload your own custom item images for branded worksheets.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: '8 Spatial Prepositions with Fill-in-the-Blank and Multiple Choice Modes',
         description:
-          'Practice eight core spatial prepositions — in, on top of, under, next to, behind, between, above, and in front of — through two distinct exercise types. Fill-in-the-Blank mode presents image-and-shape sentences with a missing preposition that students complete, building writing and recall skills. Multiple Choice mode shows a spatial description and asks students to identify the matching image, reinforcing recognition and comprehension. Using both modes on different worksheets creates a natural easy-to-hard progression within the same product bundle.',
+          'Practice eight core spatial prepositions — in, on top of, under, next to, behind, between, above, and in front of — through two distinct exercise types. Fill-in-the-Blank mode presents image-and-shape sentences with a missing preposition to complete, building writing and recall skills. Multiple Choice mode shows a spatial description and asks the solver to identify the matching image, reinforcing recognition and comprehension. Using both modes on different worksheets creates a natural easy-to-hard progression within the same product bundle.',
       },
       {
         title: 'Language-Aware Grammar with Dative, Elision, and Article Rules',
@@ -72,12 +72,12 @@ const content: AppContent = {
       {
         title: 'Items + Shapes: Two Image Types for Spatial Relationship Context',
         description:
-          'Every exercise positions an item (a themed illustration like a cat, car, or apple) relative to a shape (circle, cube, cylinder, heart, hexagon, square, star, or triangle). This dual-image system creates clear, unambiguous spatial relationships that students can parse at a glance. Items come from the 104-theme library with over 3,100 illustrations, while the 8 geometric shapes double as early geometry exposure. Shape names are fully translated across all 11 languages with correct plural forms.',
+          'Every exercise positions an item (a themed illustration like a cat, car, or apple) relative to a shape (circle, cube, cylinder, heart, hexagon, square, star, or triangle). This dual-image system creates clear, unambiguous spatial relationships that are easy to parse at a glance. Items come from the 104-theme library with over 3,100 illustrations, while the 8 geometric shapes double as early geometry exposure. Shape names are fully translated across all 11 languages with correct plural forms.',
       },
       {
         title: 'Configurable Exercise Count from 1 to 8 Per Worksheet',
         description:
-          'Set exactly how many exercises appear on each page, from a single focused exercise for beginners to a dense eight-exercise page for review and assessment. Lower counts leave room for larger images and more white space, ideal for preschool and kindergarten products. Higher counts maximize practice density for older students or homework sheets. This flexibility lets you create visually distinct products from the same app without changing any other setting.',
+          'Set exactly how many exercises appear on each page, from a single focused exercise for beginners to a dense eight-exercise page for review and assessment. Lower counts leave room for larger images and more white space, ideal for beginner-level products. Higher counts maximize practice density for advanced-level or review sheets. This flexibility lets you create visually distinct products from the same app without changing any other setting.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images and 8 Geometric Shapes',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Automatic Answer Key Generation',
         description:
-          'Click one button to generate a complete answer key that mirrors your worksheet layout with every correct preposition filled in. For Fill-in-the-Blank exercises, the answer key shows the completed sentence. For Multiple Choice, it highlights the correct image. Export the answer key as a separate JPEG or PDF file, making it easy to include in teacher editions, parent guides, or Etsy product bundles without any manual assembly.',
+          'Click one button to generate a complete answer key that mirrors your worksheet layout with every correct preposition filled in. For Fill-in-the-Blank exercises, the answer key shows the completed sentence. For Multiple Choice, it highlights the correct image. Export the answer key as a separate JPEG or PDF file, making it easy to include in Etsy bundles, KDP appendices, or Gumroad product packs without any manual assembly.',
       },
       {
         title: 'Print-Ready Export at 400+ DPI with Grayscale Option',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions perfect for classroom printing or black-and-white activity books. Letter, A4, Square, and custom sizes are all supported for maximum flexibility across print-on-demand platforms and home printers.',
+          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions perfect for bulk printing or black-and-white activity books. Letter, A4, Square, and custom sizes are all supported for maximum flexibility across print-on-demand platforms and home printers.',
       },
       {
         title: 'Full Canvas Editing with Undo and Redo',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Language Centers for TPT',
+        title: 'Tiered Preposition Bundles on Gumroad',
         description:
-          'Build leveled preposition practice sets using exercise mode as the difficulty axis: Level 1 (Multiple Choice, 2 prepositions, 2 exercises per page), Level 2 (Multiple Choice, 5 prepositions, 4 exercises), Level 3 (Fill-in-the-Blank, 5 prepositions, 6 exercises), and Level 4 (Fill-in-the-Blank, all 8 prepositions, 8 exercises). Package each level with answer keys and a progress tracking sheet. Teachers Pay Teachers buyers pay premium prices for differentiated spatial language resources they can deploy immediately across multiple ability groups.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled preposition practice sets using exercise mode as the difficulty axis: Level 1 (Multiple Choice, 2 prepositions, 2 exercises per page), Level 2 (Multiple Choice, 5 prepositions, 4 exercises), Level 3 (Fill-in-the-Blank, 5 prepositions, 6 exercises), and Level 4 (Fill-in-the-Blank, all 8 prepositions, 8 exercises). Package each level with answer keys and a progress tracking sheet. Buyers pay premium prices for tiered spatial language packs they can use immediately across multiple difficulty levels.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Multilingual Preposition Products with Full Access',
         description:
-          'Full Access unlocks all 11 languages with grammatically correct prepositions, gender-aware articles, dative contractions, and elision rules. Create German preposition worksheets with „im” and „am“, French worksheets with “l’” elision, Spanish worksheets with el/la articles, and more. Each language version is a separate product you can list on Etsy, TPT, or Amazon KDP — effectively multiplying your catalog eleven-fold from the same workflow. Multilingual spatial vocabulary products face less competition and attract international buyers searching in their native language.',
-        platform: 'Etsy / Amazon KDP / TPT (multilingual)',
+          ‘Full Access unlocks all 11 languages with grammatically correct prepositions, gender-aware articles, dative contractions, and elision rules. Create German preposition worksheets with „im” and „am”, French worksheets with “l’” elision, Spanish worksheets with el/la articles, and more. Each language version is a separate product you can list on Etsy, Gumroad, or Amazon KDP — effectively multiplying your catalog eleven-fold from the same workflow. Multilingual spatial vocabulary products face less competition and attract international buyers searching in their native language.’,
+        platform: ‘Etsy / Amazon KDP / Gumroad (multilingual)’,
       },
       {
-        title: 'Classroom and Tutoring Spatial Vocabulary Tool',
+        title: ‘Pinterest Funnel for Niche Preposition Products’,
         description:
-          'Generate custom preposition worksheets tailored to each student’s current spatial vocabulary level. Use the preposition checklist to focus on the specific prepositions a student struggles with, and adjust exercise count to match attention span. Start with Multiple Choice for emerging learners and progress to Fill-in-the-Blank for students ready to produce language independently. Print sets in minutes for small groups or entire classes. The automatic answer key saves grading time, and the image-and-shape format keeps young learners engaged with visual spatial reasoning.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Use themed preposition worksheets as Pinterest lead magnets to drive traffic to your store. Pin visually striking spatial-relationship previews — animal themes, vehicle themes, food themes — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked worksheets and gate the full bundle behind a purchase. The image-and-shape format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences with tailored pin board strategies that convert browsers into repeat buyers.’,
+        platform: ‘Pinterest → Etsy / Gumroad’,
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What exercise modes does the Preposition Worksheet Generator offer?',
       answer:
-        'The generator includes two modes: Fill-in-the-Blank and Multiple Choice. Fill-in-the-Blank presents sentences with a missing preposition that students complete (for example, “The cat is ____ the circle”). Multiple Choice shows a spatial description and asks students to circle the image that matches. Both modes work with all eight prepositions and all themes.',
+        'The generator includes two modes: Fill-in-the-Blank and Multiple Choice. Fill-in-the-Blank presents sentences with a missing preposition to complete (for example, “The cat is ____ the circle”). Multiple Choice shows a spatial description and asks the solver to circle the image that matches. Both modes work with all eight prepositions and all themes.',
     },
     {
       question: 'What are the 8 prepositions available?',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How many exercises can I put on each worksheet?',
       answer:
-        'You can set anywhere from 1 to 8 exercises per worksheet. Fewer exercises create simpler, less cluttered pages ideal for younger students or focused practice. More exercises maximize practice density for review sessions, assessments, or homework sheets. Varying the exercise count across your product listings also helps you create distinct price tiers — a single-exercise introductory sheet as a low-cost entry point and a full eight-exercise review pack at a premium price.',
+        'You can set anywhere from 1 to 8 exercises per worksheet. Fewer exercises create simpler, less cluttered pages ideal for beginner-level products or focused practice. More exercises maximize practice density for review sessions, assessments, or advanced sheets. Varying the exercise count across your product listings also helps you create distinct price tiers — a single-exercise introductory sheet as a low-cost entry point and a full eight-exercise review pack at a premium price.',
     },
     {
       question: 'Is the Preposition Worksheet Generator language-sensitive?',
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet. For Fill-in-the-Blank exercises, the answer key shows every blank filled with the correct preposition. For Multiple Choice, it marks the correct image. Export the answer key as a separate JPEG or PDF file alongside the student worksheet.',
+        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet. For Fill-in-the-Blank exercises, the answer key shows every blank filled with the correct preposition. For Multiple Choice, it marks the correct image. Export the answer key as a separate JPEG or PDF file alongside the main worksheet.',
     },
     {
       question: 'Is there a free trial?',
@@ -187,12 +187,12 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The Commercial license provides watermark-free English exports with full selling rights. The Full Access license adds all 11 languages with grammatically correct prepositions, articles, and grammar rules, multiplying your product catalog. Both tiers grant unlimited rights to sell on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform — no per-sale royalties, no monthly fees, and no production limits.',
+        'The Commercial license provides watermark-free English exports with full selling rights. The Full Access license adds all 11 languages with grammatically correct prepositions, articles, and grammar rules, multiplying your product catalog. Both tiers grant unlimited rights to sell on Etsy, Amazon KDP, Gumroad, your own website, or any other platform — no per-sale royalties, no monthly fees, and no production limits.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your preposition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The image-and-shape format and multilingual capability give you strong differentiation in crowded marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your preposition worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-and-shape format and multilingual capability give you strong differentiation in crowded marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -250,7 +250,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'homeschool-printable-ideas',
-      anchorText: 'Homeschool Printable Ideas for Parents & Educators',
+      anchorText: 'Homeschool Printable Ideas for Sellers',
     },
     {
       pageType: 'guide',
@@ -268,12 +268,12 @@ const content: AppContent = {
       {
         src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
         alt: 'Fill-in-the-blank preposition worksheet with animal theme and geometric shapes',
-        caption: 'Fill-in-the-Blank mode — students complete sentences with the correct preposition',
+        caption: 'Fill-in-the-Blank mode — complete sentences with the correct preposition',
       },
       {
         src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
         alt: 'Multiple choice preposition worksheet with vehicle theme showing spatial descriptions',
-        caption: 'Multiple Choice mode — students identify the image matching the spatial description',
+        caption: 'Multiple Choice mode — identify the image matching the spatial description',
       },
       {
         src: '/samples/english/prepositions/prepositions_worksheet (10).webp',

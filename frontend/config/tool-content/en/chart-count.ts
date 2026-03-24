@@ -1,26 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'picture graph worksheet maker for teachers',
+    primaryKeyword: 'picture graph worksheet maker to sell online',
     secondaryKeywords: [
-      'pictograph worksheet creator for classroom',
-      'chart count worksheets for kids',
-      'printable data graph worksheets for school',
-      'picture graph activity maker for teachers',
+      'pictograph worksheet creator for Etsy sellers',
+      'chart count worksheets for printable business',
+      'printable data graph worksheets for commercial use',
+      'picture graph activity maker for sellers',
     ],
     lsiKeywords: [
       'scattered image grid counting worksheet',
       'auto answer key picture graph creator',
-      'data representation worksheet for classroom',
+      'data representation worksheet for online stores',
     ],
-    titleTag: 'Picture Graph Worksheet Maker — For Classroom',
-    metaDescription: 'Create picture graph worksheets for classroom math. Scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, 104 themes. Try with watermark.',
+    titleTag: 'Picture Graph Worksheet Maker — Sell on Etsy & KDP',
+    metaDescription: 'Create picture graph worksheets to sell on Etsy & KDP. Scattered 4x5 grids, 6 image types, auto answer keys, 11 languages, 104 themes. Try with watermark.',
     },
 
   hero: {
     title: 'Chart Count Worksheet Maker',
     tagline: 'Picture graph worksheet generator with scattered image grids, auto-generated bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets that sell worldwide',
-    description: 'Create professional picture graph worksheets where students count scattered images and fill in a bar chart below — teaching data collection and data representation in a single activity. Each worksheet features a 4×5 grid containing 20 icons from 6 different image types, each type appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a 6-column × 5-row bar chart with columns labeled by image type and rows numbered 1–5 gives students a structured place to record their counts. The app simultaneously generates an answer key on a separate canvas tab with yellow (#FFC857) highlighted cells showing the correct counts, so teachers verify student work instantly without manual counting. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown — the app randomly picks 6 images from that collection — or manually browse the Image Library with 3,100+ illustrations across 104 themed collections and click exactly 6 images with a preview strip. Every worksheet includes an auto-generated header with a localized “Picture Graph” title and counting instructions displayed in a styled yellow pill (#FFD93D) with orange border frame, adapting automatically to all 11 supported languages. Add student name and date fields with a single checkbox (Fredoka 18px #333). Apply both background themes and border themes with independent opacity sliders (0–1, step 0.05). The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, making worksheets identically usable in every language without modification. Download four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Export in Letter, A4, Square (1200×1200), or custom sizes with a grayscale toggle for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, text outline width 0–10 with 0.5-step granularity, undo/redo up to 20 states, and zoom from 25% to 300%. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional picture graph worksheets where solvers count scattered images and fill in a bar chart below — teaching data collection and data representation in a single activity. Each worksheet features a 4×5 grid containing 20 icons from 6 different image types, each type appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a 6-column × 5-row bar chart with columns labeled by image type and rows numbered 1–5 gives solvers a structured place to record their counts. The app simultaneously generates an answer key on a separate canvas tab with yellow (#FFC857) highlighted cells showing the correct counts, so sellers verify output instantly without manual counting. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown — the app randomly picks 6 images from that collection — or manually browse the Image Library with 3,100+ illustrations across 104 themed collections and click exactly 6 images with a preview strip. Every worksheet includes an auto-generated header with a localized “Picture Graph” title and counting instructions displayed in a styled yellow pill (#FFD93D) with orange border frame, adapting automatically to all 11 supported languages. Add name and date fields with a single checkbox (Fredoka 18px #333). Apply both background themes and border themes with independent opacity sliders (0–1, step 0.05). The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, making worksheets identically usable in every language without modification. Download four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Export in Letter, A4, Square (1200×1200), or custom sizes with a grayscale toggle for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, text outline width 0–10 with 0.5-step granularity, undo/redo up to 20 states, and zoom from 25% to 300%. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -40,15 +40,15 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generate the Picture Graph Worksheet',
-        description: 'Click Generate to create the worksheet. The app arranges 20 scattered icons from your 6 selected image types in a 4×5 grid with a dashed border at the top of the page — each type appears 1–5 times in a random distribution, so every generation produces a unique counting challenge. Below the grid, a 6-column × 5-row bar chart appears with columns labeled by each image type and rows numbered 1–5. An auto-generated header displays a localized “Picture Graph” title and counting instructions in a styled yellow pill with orange border frame. Students count images in the grid and color the matching number of cells in each column.',
+        description: 'Click Generate to create the worksheet. The app arranges 20 scattered icons from your 6 selected image types in a 4×5 grid with a dashed border at the top of the page — each type appears 1–5 times in a random distribution, so every generation produces a unique counting challenge. Below the grid, a 6-column × 5-row bar chart appears with columns labeled by each image type and rows numbered 1–5. An auto-generated header displays a localized “Picture Graph” title and counting instructions in a styled yellow pill with orange border frame. Solvers count images in the grid and color the matching number of cells in each column.',
       },
       {
         title: 'Review the Auto-Generated Answer Key',
-        description: 'Click the Answer Key tab to see the auto-generated solution. The answer key shows the same image grid and bar chart, but the correct cells are filled with yellow (#FFC857) highlighting showing exactly how many of each image type appear. Teachers see at a glance which cells students should fill. Switch between Worksheet and Answer Key tabs to compare. The answer key generates simultaneously with the worksheet — no manual counting, no separate creation step, no possibility of error.',
+        description: 'Click the Answer Key tab to see the auto-generated solution. The answer key shows the same image grid and bar chart, but the correct cells are filled with yellow (#FFC857) highlighting showing exactly how many of each image type appear. The highlighted cells show at a glance which answers are correct. Switch between Worksheet and Answer Key tabs to compare. The answer key generates simultaneously with the worksheet — no manual counting, no separate creation step, no possibility of error.',
       },
       {
-        title: 'Add Student Fields and Localized Header',
-        description: 'Check the Include Name/Date box to add formatted “Name: ____” and “Date: ____” fields at the bottom of the worksheet (Fredoka 18px #333). The auto-generated header automatically displays the “Picture Graph” title and counting instructions in whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Worksheets become classroom-ready in any locale without manual text editing.',
+        title: 'Add Name Fields and Localized Header',
+        description: 'Check the Include Name/Date box to add formatted “Name: ____” and “Date: ____” fields at the bottom of the worksheet (Fredoka 18px #333). The auto-generated header automatically displays the “Picture Graph” title and counting instructions in whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Worksheets become print-ready in any locale without manual text editing.',
       },
       {
         title: 'Customize with Text Tools and Canvas Editing',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Download All Four Files',
-        description: 'Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI. Each tab has its own pair of download buttons. Files are production-ready for Etsy listings, Amazon KDP interiors, and TpT resource files with no post-processing needed. Repeat with different themes from the 104 available collections for rapid product creation.',
+        description: 'Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI. Each tab has its own pair of download buttons. Files are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad resource files with no post-processing needed. Repeat with different themes from the 104 available collections for rapid product creation.',
       },
     ],
   },
@@ -64,15 +64,15 @@ const content: ToolContent = {  seo: {
   whatYouCanCreate: [
     {
       title: 'Themed Picture Graph Worksheet Bundles',
-      description: 'Create themed picture graph packs with 15–25 unique worksheets per set using the 104 image collections as your catalog. Animals, food, vehicles, nature, holidays, professions, and dozens more themes each become distinct product listings. The random distribution of 20 icons across the 4×5 grid means every generation produces a different counting challenge even within the same theme — no two worksheets are alike. Include the auto-generated answer key with every worksheet for teacher convenience. The dual-canvas system produces four production-ready files per generation, so building a complete bundle with answer keys takes a fraction of the time compared to manual worksheet creation.',
+      description: 'Create themed picture graph packs with 15–25 unique worksheets per set using the 104 image collections as your catalog. Animals, food, vehicles, nature, holidays, professions, and dozens more themes each become distinct product listings. The random distribution of 20 icons across the 4×5 grid means every generation produces a different counting challenge even within the same theme — no two worksheets are alike. Include the auto-generated answer key with every worksheet for buyer convenience. The dual-canvas system produces four production-ready files per generation, so building a complete bundle with answer keys takes a fraction of the time compared to manual worksheet creation.',
     },
     {
       title: 'KDP Data Skills Workbooks',
-      description: 'Compile 60–100 picture graph worksheets into printed data skills workbooks for Amazon KDP. Structure chapters by theme: animal counting in Chapter 1, food graphs in Chapter 2, vehicle tallying in Chapter 3, and so on. Place answer key pages at the back of each chapter for parent and teacher reference. Toggle grayscale export for ink-friendly pages that reproduce perfectly in black-and-white printing. The visual counting format with universal numbers and images publishes identically across all international KDP marketplaces without translation — one interior serves every country.',
+      description: 'Compile 60–100 picture graph worksheets into printed data skills workbooks for Amazon KDP. Structure chapters by theme: animal counting in Chapter 1, food graphs in Chapter 2, vehicle tallying in Chapter 3, and so on. Place answer key pages at the back of each chapter for easy reference. Toggle grayscale export for ink-friendly pages that reproduce perfectly in black-and-white printing. The visual counting format with universal numbers and images publishes identically across all international KDP marketplaces without translation — one interior serves every country.',
     },
     {
-      title: 'Math Center Activity Sheets',
-      description: 'Build classroom-ready math center activities with picture graphs that include student name and date fields. Teachers searching for graphing activities value worksheets with built-in student identification — the name/date checkbox makes your product immediately classroom-ready. Create theme-specific sets tied to curriculum units: counting farm animals for life science, graphing weather icons for earth science, or tallying community helpers for social studies. Each worksheet comes with its own auto-generated answer key, eliminating teacher prep time and ensuring accuracy.',
+      title: 'Ready-to-Sell Activity Sheets',
+      description: 'Build print-ready graphing activities with picture graphs that include name and date fields. Buyers searching for graphing activities value worksheets with built-in identification fields — the name/date checkbox makes your product immediately usable. Create theme-specific sets tied to popular niches: counting farm animals for nature themes, graphing weather icons for science themes, or tallying community helpers for social studies themes. Each worksheet comes with its own auto-generated answer key, eliminating prep time and ensuring accuracy.',
     },
     {
       title: 'Seasonal Counting and Graphing Collections',
@@ -80,18 +80,18 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Cross-Curricular Data Representation Activities',
-      description: 'Picture graphs bridge math and other subjects naturally. Use animal themes for science units on habitats and classification. Use food themes for health and nutrition lessons. Use vehicle themes for community and transportation topics. The bar chart format teaches data collection (counting scattered images) and data representation (filling chart cells) simultaneously, reinforcing graphing skills while covering subject-area content. Cross-curricular bundles appeal to teachers who want integrated activities — a growing niche on all major marketplace platforms.',
+      description: 'Picture graphs bridge math and other subjects naturally. Use animal themes for science units on habitats and classification. Use food themes for health and nutrition lessons. Use vehicle themes for community and transportation topics. The bar chart format teaches data collection (counting scattered images) and data representation (filling chart cells) simultaneously, reinforcing graphing skills while covering subject-area content. Cross-curricular bundles appeal to buyers who want integrated activities — a growing niche on all major marketplace platforms.',
     },
     {
       title: 'Multi-Format Visual Learning Bundles',
-      description: 'Pair picture graph worksheets with matching activities, pattern worksheets, big and small exercises, and coloring pages using coordinated themes. Picture graphs teach data collection and bar chart representation. Matching worksheets build visual discrimination. Pattern activities develop sequential reasoning. Each format exercises a different cognitive skill while maintaining thematic consistency. Multi-format bundles sell for significantly more than single-format packs and give students varied practice across a unified theme.',
+      description: 'Pair picture graph worksheets with matching activities, pattern worksheets, big and small exercises, and coloring pages using coordinated themes. Picture graphs teach data collection and bar chart representation. Matching worksheets build visual discrimination. Pattern activities develop sequential reasoning. Each format exercises a different cognitive skill while maintaining thematic consistency. Multi-format bundles sell for significantly more than single-format packs and give learners varied practice across a unified theme.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Themed Picture Graph Shop on Etsy',
-      description: 'Open an Etsy shop specializing in picture graph worksheet bundles organized by theme using the 104 image collections. Animals, food, vehicles, nature, holidays, and professions each become separate listings. Every worksheet includes the auto-generated answer key with yellow-highlighted cells — a critical selling point for teachers. The random distribution of the 4×5 scattered image grid ensures every worksheet is unique and impossible to recreate manually. Price individual theme packs at $3–$5 for 15–20 worksheets with answer keys and premium multi-theme collections at $12–$18 for 50+ worksheets.',
+      description: 'Open an Etsy shop specializing in picture graph worksheet bundles organized by theme using the 104 image collections. Animals, food, vehicles, nature, holidays, and professions each become separate listings. Every worksheet includes the auto-generated answer key with yellow-highlighted cells — a critical selling point for buyers. The random distribution of the 4×5 scattered image grid ensures every worksheet is unique and impossible to recreate manually. Price individual theme packs at $3–$5 for 15–20 worksheets with answer keys and premium multi-theme collections at $12–$18 for 50+ worksheets.',
       platform: 'Etsy',
     },
     {
@@ -100,13 +100,13 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT Math Center Graphing Packs',
-      description: 'Upload picture graph activity packs to TpT with the name/date fields as a key selling point. Teachers searching for math center activities value worksheets that are immediately classroom-ready with student identification built in. Organize by curriculum topic: farm animals for life science units, weather icons for earth science, community helpers for social studies. Every worksheet includes its own auto-generated answer key, eliminating teacher prep time. The localized header adapts to 11 languages, making your products usable in bilingual and international classrooms.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Math Center Graphing Packs',
+      description: 'Upload picture graph activity packs to Gumroad or your own store with the name/date fields as a key selling point. Buyers searching for math center activities value worksheets that are immediately print-ready with identification fields built in. Organize by curriculum topic: farm animals for nature themes, weather icons for science themes, community helpers for social studies themes. Every worksheet includes its own auto-generated answer key, eliminating prep time. The localized header adapts to 11 languages, making your products usable in bilingual and international markets.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Picture Graph Traffic Funnel',
-      description: 'Picture graph worksheets make visually striking Pinterest pins — the colorful scattered image grid and structured bar chart create an immediately recognizable educational format. Pin sample worksheets showing different themes with the auto-generated answer key side by side. Create separate pin series for “animal counting graphs,” “holiday graphing worksheets,” and “math center data activities.” The visual format appeals to parents and teachers in every country. Link each pin to your Etsy or TpT product listings.',
+      description: 'Picture graph worksheets make visually striking Pinterest pins — the colorful scattered image grid and structured bar chart create an immediately recognizable educational format. Pin sample worksheets showing different themes with the auto-generated answer key side by side. Create separate pin series for “animal counting graphs,” “holiday graphing worksheets,” and “math center data activities.” The visual format appeals to buyers in every country. Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -116,7 +116,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Global Visual Counting Product Line',
-      description: 'The Chart Count Generator produces visual counting worksheets where students count images and fill bar chart cells — numbers and pictures are universal. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on TpT for international teachers. No separate listings, no translation costs, no per-language maintenance.',
+      description: 'The Chart Count Generator produces visual counting worksheets where solvers count images and fill bar chart cells — numbers and pictures are universal. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on Gumroad for international buyers. No separate listings, no translation costs, no per-language maintenance.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Leverage the Dual-Canvas System for Premium Products',
-      description: 'The simultaneous worksheet and answer key generation is your biggest competitive advantage. Every picture graph worksheet automatically comes with a matching answer key showing yellow-highlighted cells with correct counts. Include answer keys with every product listing — teachers specifically search for worksheets with included solutions. The four-file output (worksheet JPEG, worksheet PDF, answer key JPEG, answer key PDF) means each generation session produces a complete, sellable product set.',
+      description: 'The simultaneous worksheet and answer key generation is your biggest competitive advantage. Every picture graph worksheet automatically comes with a matching answer key showing yellow-highlighted cells with correct counts. Include answer keys with every product listing — buyers specifically search for worksheets with included solutions. The four-file output (worksheet JPEG, worksheet PDF, answer key JPEG, answer key PDF) means each generation session produces a complete, sellable product set.',
     },
     {
       title: 'Exploit Random Distribution for Unique Worksheets',
@@ -136,19 +136,19 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Target the Data Representation Curriculum Niche',
-      description: 'Picture graphs are a specific math standard in early elementary curricula worldwide. Teachers actively search for graphing and data representation resources. Position your products using curriculum-aligned keywords: “picture graph,” “bar chart worksheet,” “data representation activity,” and “counting and graphing.” The bar chart format teaches both data collection (counting scattered images) and data representation (filling chart cells) in one worksheet — a dual-skill activity that curriculum-focused buyers value.',
+      description: 'Picture graphs are a specific math standard in early elementary curricula worldwide. Buyers actively search for graphing and data representation resources. Position your products using curriculum-aligned keywords: “picture graph,” “bar chart worksheet,” “data representation activity,” and “counting and graphing.” The bar chart format teaches both data collection (counting scattered images) and data representation (filling chart cells) in one worksheet — a dual-skill activity that curriculum-focused buyers value.',
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
       description: 'Create holiday and seasonal picture graph packs using themed collections from the 104-theme library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
     },
     {
-      title: 'Include Name/Date Fields for Classroom-Ready Products',
-      description: 'The single checkbox that adds “Name: ____” and “Date: ____” fields transforms picture graph worksheets from generic printables into structured classroom activities. Teachers on TpT specifically search for “classroom-ready” and “print-and-go” resources with student identification areas. This one-click addition takes no extra effort but elevates your products above competitors who sell unformatted worksheets without student fields.',
+      title: 'Include Name/Date Fields for Print-Ready Products',
+      description: 'The single checkbox that adds “Name: ____” and “Date: ____” fields transforms picture graph worksheets from generic printables into structured activities. Buyers on Etsy specifically search for “print-and-go” resources with identification areas. This one-click addition takes no extra effort but elevates your products above competitors who sell unformatted worksheets without name fields.',
     },
     {
       title: 'Sell Worldwide with Zero Translation Work',
-      description: 'Picture graph worksheets use universal visual elements — scattered images that students count and bar chart cells they fill with numbers. No text translation is needed for the worksheet content to work in any language. The localized header automatically translates the title and instructions into 11 languages when you switch the UI. Create one set of worksheets and sell the same files across all international Etsy shops, KDP marketplaces, and TpT. Every worksheet you generate instantly serves a global market with zero additional effort.',
+      description: 'Picture graph worksheets use universal visual elements — scattered images that solvers count and bar chart cells they fill with numbers. No text translation is needed for the worksheet content to work in any language. The localized header automatically translates the title and instructions into 11 languages when you switch the UI. Create one set of worksheets and sell the same files across all international Etsy shops, KDP marketplaces, and Gumroad. Every worksheet you generate instantly serves a global market with zero additional effort.',
     },
   ],
 
@@ -159,7 +159,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'How does the picture graph worksheet work?',
-      answer: 'Each worksheet has two interconnected parts. The top section displays a 4×5 grid containing 20 scattered icons from 6 different image types — each type appears 1–5 times in a random distribution. The bottom section shows a 6-column × 5-row bar chart with columns labeled by each image type and rows numbered 1–5 from bottom to top. Students count how many of each image type appear in the grid, then color or fill the corresponding number of cells in the matching column. This teaches both data collection (counting) and data representation (graphing) in a single activity.',
+      answer: 'Each worksheet has two interconnected parts. The top section displays a 4×5 grid containing 20 scattered icons from 6 different image types — each type appears 1–5 times in a random distribution. The bottom section shows a 6-column × 5-row bar chart with columns labeled by each image type and rows numbered 1–5 from bottom to top. Solvers count how many of each image type appear in the grid, then color or fill the corresponding number of cells in the matching column. This teaches both data collection (counting) and data representation (graphing) in a single activity.',
     },
     {
       question: 'How does the auto-generated answer key work?',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What is the localized header on each worksheet?',
-      answer: 'Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a “Picture Graph” title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts automatically when you switch the language, making worksheets classroom-ready in any locale without manual text editing.',
+      answer: 'Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a “Picture Graph” title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts automatically when you switch the language, making worksheets print-ready in any locale without manual text editing.',
     },
     {
       question: 'How do background and border themes work?',
@@ -179,7 +179,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Are the worksheets language-sensitive?',
-      answer: 'No. The Chart Count Generator produces visual counting worksheets where students count images and fill bar chart cells — numbers and pictures are universal. Changing the language only affects the UI labels in the generator interface and the auto-generated header title and instructions. The worksheet output itself works identically in every language. One set of worksheets serves a global market without translation or modification.',
+      answer: 'No. The Chart Count Generator produces visual counting worksheets where solvers count images and fill bar chart cells — numbers and pictures are universal. Changing the language only affects the UI labels in the generator interface and the auto-generated header title and instructions. The worksheet output itself works identically in every language. One set of worksheets serves a global market without translation or modification.',
     },
     {
       question: 'What image themes and file formats are available?',
@@ -187,7 +187,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Can I sell picture graph worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell picture graph worksheets as digital downloads on Etsy, printed data skills workbooks on Amazon KDP, classroom resources on TpT, or through any other sales channel. The dual-canvas generation, auto answer key with yellow-highlighted cells, and 104 themed image collections give you everything needed to create professional products that compete in graphing and data worksheet categories across every major marketplace.',
+      answer: 'Yes. With a commercial license, you have full rights to sell picture graph worksheets as digital downloads on Etsy, printed data skills workbooks on Amazon KDP, resources on Gumroad, or through any other sales channel. The dual-canvas generation, auto answer key with yellow-highlighted cells, and 104 themed image collections give you everything needed to create professional products that compete in graphing and data worksheet categories across every major marketplace.',
     },
     {
       question: 'Can I upload my own images?',
@@ -213,7 +213,7 @@ const content: ToolContent = {  seo: {
   visuals: {
     heroImages: {
       primary: '/samples/english/chart count/chart count.webp',
-      primaryAlt: 'Picture graph worksheet with scattered 4×5 image grid showing 20 icons from 6 types and empty bar chart for students to count and graph data',
+      primaryAlt: 'Picture graph worksheet with scattered 4×5 image grid showing 20 icons from 6 types and empty bar chart for counting and graphing data',
     },
     sampleGallery: [
       {

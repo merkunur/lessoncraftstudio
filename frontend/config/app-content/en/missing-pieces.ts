@@ -6,8 +6,8 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable jigsaw puzzle maker for Etsy sellers',
       'missing piece worksheet generator for KDP publishers',
-      'visual puzzle creator commercial license TPT',
-      'sell missing pieces worksheets on Teachers Pay Teachers',
+      'visual puzzle creator commercial license',
+      'sell missing pieces worksheets on Gumroad',
     ],
     lsiKeywords: [
       'digital puzzle printables online business',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'printable jigsaw activity business tools',
     ],
     titleTag: 'Missing Pieces Generator | Create Visual Puzzles',
-    metaDescription: 'Create missing pieces puzzles to sell on Etsy, KDP & TPT. 6 piece shapes, configurable difficulty, auto answer key, 104 themes. Try free — license available.',
+    metaDescription: 'Create missing pieces puzzles to sell on Etsy, KDP & Gumroad. 6 piece shapes, configurable difficulty, auto answer key, 104 themes. Try free — license available.',
   },
 
   hero: {
     title: 'Missing Pieces Puzzle Generator for Jigsaw-Style Visual Puzzles',
-    tagline: 'Generate jigsaw-style puzzles where pieces are cut from images and students identify the correct numbered option — with 6 piece shapes, 1–5 missing pieces, 2–6 solution options including distractors, auto-generated answer keys, and visual-only design that works in every language.',
+    tagline: 'Generate jigsaw-style puzzles where pieces are cut from images and solvers identify the correct numbered option — with 6 piece shapes, 1–5 missing pieces, 2–6 solution options including distractors, auto-generated answer keys, and visual-only design that works in every language.',
     description:
-      'Build professional missing piece puzzles where an image has holes cut out and students identify which numbered option fills each gap. The smart piece extraction algorithm finds visually distinct areas with sufficient color variance, ensuring every puzzle is solvable and engaging. Choose from 6 piece shapes — square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape — and configure difficulty with 1–5 missing pieces and 2–6 solution options that include distractor pieces to challenge visual discrimination skills. Every puzzle includes an auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option. The auto-generated header renders “Missing Pieces” in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system — teal outer (#14B8A6, 8px) and hot pink inner (#EC4899, 3px) — localized in all 11 supported languages. Missing Pieces is NOT language-sensitive: puzzles are purely visual with no locale-dependent content, so every puzzle works identically worldwide. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile puzzle workbooks for Amazon KDP, or create critical thinking activities for TPT, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional missing piece puzzles where an image has holes cut out and solvers identify which numbered option fills each gap. The smart piece extraction algorithm finds visually distinct areas with sufficient color variance, ensuring every puzzle is solvable and engaging. Choose from 6 piece shapes — square, circle, rectangle portrait, rectangle landscape, ellipse portrait, and ellipse landscape — and configure difficulty with 1–5 missing pieces and 2–6 solution options that include distractor pieces to challenge visual discrimination skills. Every puzzle includes an auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option. The auto-generated header renders “Missing Pieces” in turquoise (#06B6D4) with a rose pink description (#DB2777) across a dual border system — teal outer (#14B8A6, 8px) and hot pink inner (#EC4899, 3px) — localized in all 11 supported languages. Missing Pieces is NOT language-sensitive: puzzles are purely visual with no locale-dependent content, so every puzzle works identically worldwide. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell visual puzzle bundles on Etsy, compile puzzle workbooks for Amazon KDP, or list products on your own store, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated answer key. The same puzzle image appears with holes, and yellow-highlighted number labels (rgba(255,255,0,0.7)) inside each hole show the correct option index. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF — all rendered at 300 DPI with JPEG quality 1.0. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Switch to the Answer Key tab to see the auto-generated answer key. The same puzzle image appears with holes, and yellow-highlighted number labels (rgba(255,255,0,0.7)) inside each hole show the correct option index. Download both versions using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF — all rendered at 300 DPI with JPEG quality 1.0. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Jigsaw-Style Missing Piece Puzzles with Configurable Difficulty',
         description:
-          'Create puzzles where an image has holes cut out and students identify which numbered option fills each gap. Configure difficulty with two independent controls: set 1–5 missing pieces to control puzzle complexity, and set 2–6 solution options to control how many choices students evaluate. More missing pieces means more spatial reasoning; more solution options (including distractors) means sharper visual discrimination. This two-axis difficulty system lets you create puzzles ranging from simple single-piece identification to complex multi-piece challenges.',
+          'Create puzzles where an image has holes cut out and solvers identify which numbered option fills each gap. Configure difficulty with two independent controls: set 1–5 missing pieces to control puzzle complexity, and set 2–6 solution options to control how many choices the solver evaluates. More missing pieces means more spatial reasoning; more solution options (including distractors) means sharper visual discrimination. This two-axis difficulty system lets you create puzzles ranging from simple single-piece identification to complex multi-piece challenges.',
       },
       {
         title: 'Six Piece Shapes: Square, Circle, Rectangle, and Ellipse Variants',
@@ -77,12 +77,12 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Answer Key with Yellow-Highlighted Number Labels',
         description:
-          'Every missing pieces puzzle automatically generates a companion answer key on a separate canvas tab. The answer key displays the same puzzle image with holes, and places yellow-highlighted number labels (rgba(255,255,0,0.7)) inside each hole showing the correct 1-based option index. The font size scales to 60% of the piece size for clear readability. No manual answer creation needed — the answer key stays perfectly synchronized with the puzzle. Download the answer key as answer_key.jpeg or answer_key.pdf alongside the student worksheet.',
+          'Every missing pieces puzzle automatically generates a companion answer key on a separate canvas tab. The answer key displays the same puzzle image with holes, and places yellow-highlighted number labels (rgba(255,255,0,0.7)) inside each hole showing the correct 1-based option index. The font size scales to 60% of the piece size for clear readability. No manual answer creation needed — the answer key stays perfectly synchronized with the puzzle. Download the answer key as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
       },
       {
         title: 'Numbered Solution Options with Distractor Pieces',
         description:
-          'Solution options are displayed in numbered containers (1–N) with yellow-highlighted number labels for clear identification. When solution options exceed the number of missing pieces, the extra options are distractor pieces — extracted from different areas of the same image that don’t match any hole. Distractors force students to carefully compare visual details rather than simply matching by elimination. Portrait worksheets arrange options in a single horizontal row below the puzzle (75% of max size); landscape worksheets place them on the right side (50% width) in a horizontal row.',
+          ‘Solution options are displayed in numbered containers (1–N) with yellow-highlighted number labels for clear identification. When solution options exceed the number of missing pieces, the extra options are distractor pieces — extracted from different areas of the same image that don’t match any hole. Distractors force solvers to carefully compare visual details rather than simply matching by elimination. Portrait worksheets arrange options in a single horizontal row below the puzzle (75% of max size); landscape worksheets place them on the right side (50% width) in a horizontal row.’,
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -92,7 +92,7 @@ const content: AppContent = {
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
         description:
-          'Download missing pieces puzzles and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI (6× multiplier) with JPEG quality 1.0. Four dedicated download buttons export worksheet and answer key files separately. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions that save toner. Every export is production-ready for digital downloads, printed workbooks, and classroom handouts.',
+          'Download missing pieces puzzles and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI (6× multiplier) with JPEG quality 1.0. Four dedicated download buttons export worksheet and answer key files separately. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly black-and-white versions that save toner. Every export is production-ready for digital downloads, printed workbooks, and bulk printing.',
       },
       {
         title: 'Full Canvas Editing with Text Tools, Alignment, and Layering Controls',
@@ -118,16 +118,16 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Classroom Puzzle Activities for TPT',
+        title: 'Niche Puzzle Store on Gumroad',
         description:
-          'Build ready-to-use visual discrimination and critical thinking activities for Teachers Pay Teachers. Missing piece puzzles strengthen spatial reasoning, visual analysis, and attention to detail — skills valued across early childhood and elementary curricula. Create curriculum-aligned sets: animal habitat puzzles, seasonal scene puzzles, community helper puzzles, and food group puzzles. Each set includes student worksheets and answer keys in both PDF and JPEG formats. The configurable difficulty lets you create differentiated versions of the same puzzle for mixed-ability classrooms.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build a focused puzzle store on Gumroad featuring visual discrimination and critical thinking activities. Missing piece puzzles strengthen spatial reasoning, visual analysis, and attention to detail — qualities that buyers value in premium printable products. Create niche-specific sets: animal habitat puzzles, seasonal scene puzzles, community helper puzzles, and food group puzzles. Each set includes puzzle worksheets and answer keys in both PDF and JPEG formats. The configurable difficulty lets you create tiered bundles of the same puzzle at easy, medium, and hard levels.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Seasonal and Holiday Puzzle Collections',
         description:
           'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited puzzle collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Vary piece shapes and difficulty levels within each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from your customer base.',
-        platform: 'Etsy / Amazon KDP / TPT (seasonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
         title: 'Global Market Appeal — Visual-Only Puzzles Need No Translation',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'How does the missing piece puzzle mechanic work?',
       answer:
-        'The generator takes an image from the library (or your upload) and cuts out 1–5 pieces, leaving white holes with black stroke outlines at the original locations. It then displays 2–6 numbered solution options below or beside the puzzle — the correct pieces plus distractor pieces extracted from other areas of the same image. Students examine the holes and the numbered options, then identify which option fills each gap based on color, pattern, and visual detail.',
+        'The generator takes an image from the library (or your upload) and cuts out 1–5 pieces, leaving white holes with black stroke outlines at the original locations. It then displays 2–6 numbered solution options below or beside the puzzle — the correct pieces plus distractor pieces extracted from other areas of the same image. Solvers examine the holes and the numbered options, then identify which option fills each gap based on color, pattern, and visual detail.',
     },
     {
       question: 'What are the 6 piece shapes available?',
@@ -152,12 +152,12 @@ const content: AppContent = {
     {
       question: 'How do the difficulty settings work?',
       answer:
-        'Difficulty is controlled by two independent settings. Missing pieces count (1–5) determines how many holes are cut from the image — more pieces means more spatial reasoning. Solution options count (2–6) determines how many numbered choices students evaluate — when options exceed missing pieces, the extras are distractors that require careful visual comparison. A puzzle with 1 missing piece and 2 options is easy; 5 missing pieces with 6 options is challenging.',
+        'Difficulty is controlled by two independent settings. Missing pieces count (1–5) determines how many holes are cut from the image — more pieces means more spatial reasoning. Solution options count (2–6) determines how many numbered choices the solver evaluates — when options exceed missing pieces, the extras are distractors that require careful visual comparison. A puzzle with 1 missing piece and 2 options is easy; 5 missing pieces with 6 options is challenging.',
     },
     {
       question: 'What are distractor pieces and how are they generated?',
       answer:
-        'Distractor pieces are extra solution options that don’t match any hole in the puzzle. They’re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don’t overlap with correct pieces. Distractors prevent students from solving by elimination alone — they must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives.',
+        ‘Distractor pieces are extra solution options that don’t match any hole in the puzzle. They’re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don’t overlap with correct pieces. Distractors prevent solving by elimination alone — the solver must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives.’,
     },
     {
       question: 'How does the smart piece extraction algorithm work?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell missing pieces puzzles made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your missing pieces puzzles as digital downloads on Etsy, as printed workbooks on Amazon KDP, as classroom resources on TPT, or through any other sales channel. The 6 piece shapes, configurable difficulty, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable puzzle products.',
+        'Yes. With a commercial license, you have full rights to sell your missing pieces puzzles as digital downloads on Etsy, as printed workbooks on Amazon KDP, on your own store, or through any other sales channel. The 6 piece shapes, configurable difficulty, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable puzzle products.',
     },
     {
       question: 'What is the refund policy?',

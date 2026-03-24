@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable algebra picture puzzles for Etsy sellers',
       'algebraic equation worksheet maker for KDP publishers',
-      'sell picture algebra worksheets on Teachers Pay Teachers',
+      'sell picture algebra worksheets on Gumroad',
       'algebra puzzle printables commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use algebraic worksheet generator',
     ],
     titleTag: 'Algebra Puzzle Generator | Create Math Worksheets',
-    metaDescription: 'Create algebra puzzle worksheets to sell on Etsy, KDP & TPT. Images as variables, 4 difficulty levels, unique solutions. Try free — license available.',
+    metaDescription: 'Create algebra puzzle worksheets to sell on Etsy, KDP & Gumroad. Images as variables, 4 difficulty levels, unique solutions. Try free — license available.',
   },
 
   hero: {
     title: 'Algebra Puzzle Worksheet Generator for Picture-Based Equation Solving',
     tagline: 'Transform early algebra into a visual adventure — images become variables, and every puzzle has exactly one solution.',
     description:
-      'Create captivating algebraic picture-puzzle worksheets where images stand in for unknown variables in multi-equation systems. Students solve linked equations to determine the value each image represents — turning abstract algebra into a concrete, visual experience. Choose from four difficulty levels: Very Easy and Easy use two symbols, Medium introduces three, and Hard challenges learners with four simultaneous unknowns. Select addition-only problems or mix in subtraction for advanced practice, and fine-tune number ranges from 0 to 20 with an optional toggle for negative results. The built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no guessing. Browse over 3,100 curated illustrations across 104 themes to use as your algebraic symbols, or upload custom images for a branded look. Each worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive algebra books for Amazon KDP, or create differentiated math centers for your classroom, the Math Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Create captivating algebraic picture-puzzle worksheets where images stand in for unknown variables in multi-equation systems. Solvers work through linked equations to determine the value each image represents — turning abstract algebra into a concrete, visual experience. Choose from four difficulty levels: Very Easy and Easy use two symbols, Medium introduces three, and Hard challenges with four simultaneous unknowns. Select addition-only problems or mix in subtraction for advanced practice, and fine-tune number ranges from 0 to 20 with an optional toggle for negative results. The built-in algebraic solver guarantees every puzzle has exactly one correct solution — no ambiguity, no guessing. Browse over 3,100 curated illustrations across 104 themes to use as your algebraic symbols, or upload custom images for a branded look. Each worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Whether you sell themed puzzle bundles on Etsy, compile progressive algebra books for Amazon KDP, or create tiered math bundles for your own store, the Math Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configure Difficulty, Operation, and Number Range',
         description:
-          'Open the Exercise Configuration panel and select a difficulty level. Very Easy and Easy use two image symbols in a system of equations, Medium introduces three symbols, and Hard uses four simultaneous unknowns. Choose between Addition Only or Addition & Subtraction to control which operations appear in the equations. Set the minimum and maximum number values (default 0–20), and toggle Allow Negative Results for advanced learners. Finally, select how many puzzles appear per page — from 1 to 6 — with automatic portrait or landscape layout optimization.',
+          'Open the Exercise Configuration panel and select a difficulty level. Very Easy and Easy use two image symbols in a system of equations, Medium introduces three symbols, and Hard uses four simultaneous unknowns. Choose between Addition Only or Addition & Subtraction to control which operations appear in the equations. Set the minimum and maximum number values (default 0–20), and toggle Allow Negative Results for advanced puzzles. Finally, select how many puzzles appear per page — from 1 to 6 — with automatic portrait or landscape layout optimization.',
       },
       {
         title: 'Choose Images for Your Algebraic Symbols',
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Add Text, Titles, and Puzzle Numbering',
         description:
-          'Use the Text Tools panel to add a worksheet title, student name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Customize puzzle numbering with your own label text (e.g., “Puzzle”, “Problem”, “Challenge”) and set the starting number. Use the full Fabric.js canvas to drag, resize, and reposition every element — with layer controls, alignment guides, lock/unlock, and unlimited undo and redo.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields, instructions, or any custom text. Choose from seven fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Customize puzzle numbering with your own label text (e.g., “Puzzle”, “Problem”, “Challenge”) and set the starting number. Use the full Fabric.js canvas to drag, resize, and reposition every element — with layer controls, alignment guides, lock/unlock, and unlimited undo and redo.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -62,37 +62,37 @@ const content: AppContent = {
       {
         title: 'Algebraic Picture Puzzle Format',
         description:
-          'Each worksheet presents a system of linked equations where images serve as unknown variables. Instead of abstract letters like x, y, and z, students see familiar pictures — animals, vehicles, food — that make the concept of variables tangible and approachable. Students analyze the relationships between equations, deduce each image’s numeric value, and write their answers. This format introduces genuine algebraic thinking at an early age, well beyond simple arithmetic drills.',
+          ‘Each worksheet presents a system of linked equations where images serve as unknown variables. Instead of abstract letters like x, y, and z, solvers see familiar pictures — animals, vehicles, food — that make the concept of variables tangible and approachable. They analyze the relationships between equations, deduce each image’s numeric value, and write their answers. This format introduces genuine algebraic thinking at an early age, well beyond simple arithmetic drills.’,
       },
       {
         title: 'Four Difficulty Levels for Progressive Learning',
         description:
-          'Very Easy and Easy levels use two image symbols, giving students a gentle introduction to solving simple two-equation systems. Medium raises the challenge to three symbols and three linked equations, requiring more complex deduction. Hard mode presents four simultaneous unknowns across four equations — a genuine multi-variable puzzle. This built-in progression lets you create differentiated worksheets for an entire class or compile a difficulty-graded activity book in a single session.',
+          'Very Easy and Easy levels use two image symbols, offering a gentle introduction to solving simple two-equation systems. Medium raises the challenge to three symbols and three linked equations, requiring more complex deduction. Hard mode presents four simultaneous unknowns across four equations — a genuine multi-variable puzzle. This built-in progression lets you create tiered product bundles or compile a difficulty-graded activity book in a single session.',
       },
       {
         title: 'Unique Solution Validation',
         description:
-          'The generator’s built-in algebraic solver verifies that every puzzle it creates has exactly one correct solution before placing it on your worksheet. There are no ambiguous systems, no multiple valid answers, and no unsolvable puzzles. This mathematical guarantee saves you from manually checking every puzzle and ensures that students — and their teachers — can always arrive at a single definitive answer.',
+          ‘The generator’s built-in algebraic solver verifies that every puzzle it creates has exactly one correct solution before placing it on your worksheet. There are no ambiguous systems, no multiple valid answers, and no unsolvable puzzles. This mathematical guarantee saves you from manually checking every puzzle and ensures that every answer key is accurate — buyers can trust your products without question.’,
       },
       {
         title: '104 Visual Themes with 3,100+ Images as Algebraic Symbols',
         description:
-          'Browse a curated library of over 3,100 high-resolution illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Each image serves as an algebraic variable in the puzzle equations. Because the content is entirely visual — images and numbers, no text — your worksheets work in any language and any classroom worldwide without modification.',
+          'Browse a curated library of over 3,100 high-resolution illustrations organized into 104 themes including farm animals, ocean life, vehicles, space, food, sports, dinosaurs, holidays, and more. Each image serves as an algebraic variable in the puzzle equations. Because the content is entirely visual — images and numbers, no text — your worksheets work in any language and any market worldwide without modification.',
       },
       {
         title: 'Configurable Number Range and Negative Results',
         description:
-          'Set the minimum and maximum values for solutions anywhere from 0 to 20 by default, giving you precise control over problem difficulty. For younger learners, keep numbers small and positive. For advanced students, toggle Allow Negative Results to introduce signed arithmetic into the equation systems. Adjusting the range takes a single click, so you can produce beginner and advanced versions of the same puzzle set in minutes.',
+          'Set the minimum and maximum values for solutions anywhere from 0 to 20 by default, giving you precise control over problem difficulty. For beginner-level products, keep numbers small and positive. For advanced puzzles, toggle Allow Negative Results to introduce signed arithmetic into the equation systems. Adjusting the range takes a single click, so you can produce beginner and advanced versions of the same puzzle set in minutes.',
       },
       {
         title: 'Automatic Answer Key Generation',
         description:
-          'Click one button to generate a complete answer key that reveals the numeric value assigned to every image symbol. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in teacher editions, parent guides, or Etsy product bundles without any manual work.',
+          'Click one button to generate a complete answer key that reveals the numeric value assigned to every image symbol. The answer key tab displays a live preview so you can verify correctness before downloading. Export the answer key as a separate JPEG or PDF file, making it easy to include in Etsy bundles, KDP appendices, or Gumroad product packages without any manual work.',
       },
       {
         title: 'Print-Ready Export at 400+ DPI with Grayscale Option',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions perfect for classroom printing or black-and-white activity books. Letter, A4, Default Worksheet, Square, and custom sizes are all supported for maximum flexibility across platforms.',
+          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents. The export engine renders at a 6x multiplier, producing output above 400 DPI on standard page sizes. Toggle grayscale export for ink-friendly versions perfect for bulk printing or black-and-white activity books. Letter, A4, Default Worksheet, Square, and custom sizes are all supported for maximum flexibility across platforms.',
       },
       {
         title: 'Full Canvas Editing with Undo and Redo',
@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: 'Themed Algebra Puzzle Bundles on Etsy',
         description:
-          'Create sets of 10–20 algebra picture-puzzle worksheets graded by difficulty — Very Easy through Hard — and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The algebraic puzzle format stands out from standard arithmetic drill sheets, attracting parents and teachers who want engaging problem-solving practice. Price difficulty-graded theme packs at $4–$6 and mega-bundles spanning all four levels at $14–$20.',
+          'Create sets of 10–20 algebra picture-puzzle worksheets graded by difficulty — Very Easy through Hard — and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The algebraic puzzle format stands out from standard arithmetic drill sheets, attracting buyers who want engaging problem-solving practice. Price difficulty-graded theme packs at $4–$6 and mega-bundles spanning all four levels at $14–$20.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Math Centers for TPT',
+        title: 'Tiered Algebra Puzzle Bundles on Gumroad',
         description:
-          'Build leveled algebra puzzle sets using the four difficulty levels: Level 1 (Very Easy, 2 symbols, addition), Level 2 (Easy, 2 symbols, mixed operations), Level 3 (Medium, 3 symbols), and Level 4 (Hard, 4 symbols). Package each level with answer keys and a progress tracking sheet. Teachers Pay Teachers buyers pay premium prices for differentiated resources that map directly to ability groups and introduce algebraic reasoning without abstract notation.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled algebra puzzle sets using the four difficulty levels: Level 1 (Very Easy, 2 symbols, addition), Level 2 (Easy, 2 symbols, mixed operations), Level 3 (Medium, 3 symbols), and Level 4 (Hard, 4 symbols). Package each level with answer keys and a progress tracking sheet. Buyers pay premium prices for tiered resources that introduce algebraic reasoning without abstract notation — and the four-level structure gives you multiple distinct SKUs from one generator session.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Printable Subscription Content for Your Own Store',
         description:
-          'Use the generator to produce fresh weekly algebra puzzle packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed puzzle pack every week — creates recurring revenue and builds a loyal customer base of homeschool families and tutoring centers. With four difficulty levels, two operation modes, configurable number ranges, and 104 themes, you have enough combinations for years of unique content.',
+          'Use the generator to produce fresh weekly algebra puzzle packs and distribute them through your own Shopify, Gumroad, or Payhip store. A subscription model — new themed puzzle pack every week — creates recurring revenue and builds a loyal base of repeat buyers. With four difficulty levels, two operation modes, configurable number ranges, and 104 themes, you have enough combinations for years of unique content.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Classroom and Tutoring Engagement Tool',
+        title: ‘Pinterest Funnel to Your Niche Store’,
         description:
-          'Generate custom algebra puzzles tailored to each student’s current skill level. Print Very Easy two-symbol sheets for beginners and Hard four-symbol systems for gifted learners — all in the same session. The picture-algebra format makes early algebraic thinking accessible to young students who aren’t ready for abstract x-and-y notation, while the puzzle mechanic motivates them to solve every equation. The automatic answer key saves grading time.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Pin visually striking algebra puzzle samples on Pinterest to drive traffic to your Gumroad or Shopify store. The picture-algebra format is inherently eye-catching — colorful images inside equation grids stop scrollers mid-feed. Create free sample pins at Very Easy level and link to paid bundles covering all four difficulty tiers. The automatic answer key adds perceived value to every listing, and the four-level structure gives you a natural upsell path from single sheets to complete algebra puzzle collections.’,
+        platform: ‘Pinterest + Gumroad / Shopify’,
       },
     ],
   },
@@ -142,22 +142,22 @@ const content: AppContent = {
     {
       question: 'How does the algebra picture-puzzle format work?',
       answer:
-        'Each puzzle presents a system of linked equations where images represent unknown variables. For example, a two-symbol puzzle might show: apple + apple = 6, apple + banana = 8. Students deduce that each apple equals 3 and each banana equals 5. Higher difficulty levels add more symbols and more equations, creating genuine multi-variable algebraic puzzles — all without abstract letter notation.',
+        'Each puzzle presents a system of linked equations where images represent unknown variables. For example, a two-symbol puzzle might show: apple + apple = 6, apple + banana = 8. The solver deduces that each apple equals 3 and each banana equals 5. Higher difficulty levels add more symbols and more equations, creating genuine multi-variable algebraic puzzles — all without abstract letter notation.',
     },
     {
       question: 'What do the four difficulty levels mean?',
       answer:
-        'Very Easy and Easy levels use two image symbols in a small system of equations — ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging students to track multiple unknowns. Each level produces a system that the generator’s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide learners from beginner to advanced, maximizing the number of distinct products you can list.',
+        ‘Very Easy and Easy levels use two image symbols in a small system of equations — ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging solvers to track multiple unknowns. Each level produces a system that the generator’s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide users from beginner to advanced, maximizing the number of distinct products you can list.’,
     },
     {
       question: 'What math operations are available?',
       answer:
-        'You can choose Addition Only, which generates equations using only addition, or Addition & Subtraction, which mixes both operations within the same puzzle. Addition Only is ideal for younger students, while mixed operations add complexity for advanced learners and create more varied equation structures. Offering both operation modes in your product listings gives buyers clear differentiation and lets you position separate SKUs for early learners versus students ready for multi-operation algebraic challenges.',
+        'You can choose Addition Only, which generates equations using only addition, or Addition & Subtraction, which mixes both operations within the same puzzle. Addition Only is ideal for the younger audience, while mixed operations add complexity for advanced solvers and create more varied equation structures. Offering both operation modes in your product listings gives buyers clear differentiation and lets you position separate SKUs for beginner-level products versus advanced multi-operation algebraic challenges.',
     },
     {
       question: 'What number ranges can I set for the puzzles?',
       answer:
-        'You set a minimum and maximum value for the solutions, with a default range of 0 to 20. Smaller ranges (e.g., 1–5) create simpler puzzles for beginners, while larger ranges produce more challenging arithmetic within the equations. You can also toggle Allow Negative Results for advanced learners ready for signed number practice.',
+        'You set a minimum and maximum value for the solutions, with a default range of 0 to 20. Smaller ranges (e.g., 1–5) create simpler puzzles for beginners, while larger ranges produce more challenging arithmetic within the equations. You can also toggle Allow Negative Results for advanced solvers ready for signed number practice.',
     },
     {
       question: 'Does every puzzle really have exactly one solution?',
@@ -167,12 +167,12 @@ const content: AppContent = {
     {
       question: 'How do images work as algebraic variables?',
       answer:
-        'Each image you select from the library (or upload yourself) is assigned to represent one unknown variable in the equation system. The same image always represents the same value within a single puzzle. Students see familiar pictures instead of abstract letters, making the concept of variables concrete and accessible even for young learners who have never encountered formal algebra. Parents and teachers consistently respond well to this visual approach, and product listings that highlight the picture-variable concept in their descriptions tend to attract higher click-through rates on Etsy and Teachers Pay Teachers.',
+        'Each image you select from the library (or upload yourself) is assigned to represent one unknown variable in the equation system. The same image always represents the same value within a single puzzle. Solvers see familiar pictures instead of abstract letters, making the concept of variables concrete and accessible even for beginners who have never encountered formal algebra. Buyers consistently respond well to this visual approach, and product listings that highlight the picture-variable concept in their descriptions tend to attract higher click-through rates on Etsy and Gumroad.',
     },
     {
       question: 'Does the generator create answer keys automatically?',
       answer:
-        'Yes. Click the Generate Answer Key button to create a solved version that reveals the numeric value assigned to every image symbol. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the student worksheet. Including answer keys in every listing adds perceived value for buyers, since parents and teachers expect ready-made solutions they can use immediately without solving each puzzle themselves.',
+        'Yes. Click the Generate Answer Key button to create a solved version that reveals the numeric value assigned to every image symbol. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the puzzle worksheet. Including answer keys in every listing adds perceived value for buyers, since they expect ready-made solutions they can use immediately without solving each puzzle themselves.',
     },
     {
       question: 'Are algebra puzzle worksheets language-sensitive?',
@@ -187,12 +187,12 @@ const content: AppContent = {
     {
       question: 'What does the commercial license include?',
       answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
+        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
     },
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your algebra puzzle worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Many sellers create difficulty-graded bundles and progressive algebra books that generate consistent revenue. Try every feature with the free trial before purchasing — the trial includes all difficulty levels, themes, and export options so you can evaluate product quality firsthand.',
+        'Yes. With a commercial license, you have full rights to sell your algebra puzzle worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, through your own store on Gumroad, or through any other sales channel. Many sellers create difficulty-graded bundles and progressive algebra books that generate consistent revenue. Try every feature with the free trial before purchasing — the trial includes all difficulty levels, themes, and export options so you can evaluate product quality firsthand.',
     },
     {
       question: 'What is the refund policy?',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'math-facts-printable-ideas',
-      anchorText: 'Math Facts Printable Ideas for Educators & Sellers',
+      anchorText: 'Math Facts Printable Ideas for Sellers',
     },
     {
       pageType: 'idea',

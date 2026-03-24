@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable pattern completion worksheet maker for Etsy sellers',
       'custom pattern recognition worksheet generator for KDP publishers',
-      'sell pattern sequence worksheets on Teachers Pay Teachers',
+      'sell pattern sequence worksheets on Gumroad',
       'pattern worksheets commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use pattern recognition worksheet generator',
     ],
     titleTag: 'Pattern Worksheet Generator | Create & Sell Online',
-    metaDescription: 'Create pattern worksheets to sell on Etsy, KDP & TPT. Nine pattern types, two question modes, per-exercise config, 104 themes. Try free — license available.',
+    metaDescription: 'Create pattern worksheets to sell on Etsy, KDP & Gumroad. Nine pattern types, two question modes, per-exercise config, 104 themes. Try free — license available.',
   },
 
   hero: {
     title: 'Pattern Worksheet Generator for Grid-Based Pattern Completion Exercises',
     tagline: 'Nine pattern types from AB to ABCD — two question modes (fill-in-the-blank and multiple choice) — with per-exercise independent configuration for pattern type, question mode, and theme on every page.',
     description:
-      'Design professional pattern completion worksheets where students identify repeating sequences and fill in the missing item — or choose the correct answer from multiple-choice options. Nine distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space for students to fill in, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1–8 exercises per page with each exercise independently set for pattern type, question mode, and theme — one page can mix an AB blank-box exercise with an ABCD multiple-choice exercise. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence for added difficulty. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all blanks filled with the correct pattern items for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only in grid rows and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated visual centers for TPT, the Pattern Worksheet Generator delivers the widest variety of pattern exercises available — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional pattern completion worksheets where solvers identify repeating sequences and fill in the missing item — or choose the correct answer from multiple-choice options. Nine distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB and ABB introduce asymmetric groupings, ABC rotates three items, AABB pairs two of each, ABBC and AABC add three-image asymmetric patterns, ABCC extends with doubled endings, and ABCD rotates four different items for maximum challenge. Two question modes create fundamentally different exercises from every pattern type: Blank Box replaces one item with an empty space to fill in, while Choose from Options presents the blank plus three answer choices with one correct and two distractors. Configure 1–8 exercises per page with each exercise independently set for pattern type, question mode, and theme — one page can mix an AB blank-box exercise with an ABCD multiple-choice exercise. Enable Random Start to begin patterns mid-cycle and Random Blank Position to place the missing item anywhere in the sequence for added difficulty. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all blanks filled with the correct pattern items for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only in grid rows and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build a niche store on Gumroad, the Pattern Worksheet Generator delivers the widest variety of pattern exercises available — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Add Text Decorations and Customize the Canvas',
         description:
-          'Use the Text Tools panel to add a worksheet title, student name and date fields, or instructions with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and outline for readability. The full Fabric.js canvas lets you drag, resize, rotate, and reposition every element on the page. Layer controls manage stacking order, lock/unlock protects finished elements, and alignment tools snap elements into position. Zoom in for precision placement with unlimited undo and redo.',
+          'Use the Text Tools panel to add a worksheet title, name and date fields, or instructions with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Adjust font size, color, and outline for readability. The full Fabric.js canvas lets you drag, resize, rotate, and reposition every element on the page. Layer controls manage stacking order, lock/unlock protects finished elements, and alignment tools snap elements into position. Zoom in for precision placement with unlimited undo and redo.',
       },
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see a completed version of the worksheet with all blanks filled in showing the correct pattern items. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale export for ink-friendly versions. Then download each as a high-resolution JPEG or print-ready PDF. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — the worksheet and answer key download as separate files for a complete product package.',
+          'Switch to the Answer Key tab to see a completed version of the worksheet with all blanks filled in showing the correct pattern items. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale export for ink-friendly versions. Then download each as a high-resolution JPEG or print-ready PDF. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — the worksheet and answer key download as separate files for a complete product package.',
       },
     ],
   },
@@ -62,22 +62,22 @@ const content: AppContent = {
       {
         title: 'Nine Pattern Types from Simple AB to Complex ABCD',
         description:
-          'Nine pattern types cover the widest range of repeating sequence complexity available in any pattern worksheet tool. AB alternates two items in the simplest pattern. AAB and ABB introduce asymmetric two-image groupings. ABC rotates three items for intermediate complexity. AABB pairs two of each item in an extended cycle. ABBC and AABC add three-image asymmetric variations with doubled elements. ABCC extends three-image patterns with a doubled ending. ABCD rotates four different items for the most demanding sequences. This progression from 2-image to 4-image patterns creates a natural difficulty ladder that spans pre-kindergarten through early elementary — giving sellers nine distinct product axes for leveled bundles.',
+          'Nine pattern types cover the widest range of repeating sequence complexity available in any pattern worksheet tool. AB alternates two items in the simplest pattern. AAB and ABB introduce asymmetric two-image groupings. ABC rotates three items for intermediate complexity. AABB pairs two of each item in an extended cycle. ABBC and AABC add three-image asymmetric variations with doubled elements. ABCC extends three-image patterns with a doubled ending. ABCD rotates four different items for the most demanding sequences. This progression from 2-image to 4-image patterns creates a natural difficulty ladder that spans beginner-level products through advanced early-learner content — giving sellers nine distinct product axes for leveled bundles.',
       },
       {
         title: 'Two Question Modes: Fill-in-the-Blank and Multiple Choice',
         description:
-          'Every pattern type supports two fundamentally different question modes that double product variety. Blank Box mode replaces one item in the pattern with an empty space — students must identify the pattern and determine the correct missing item with no hints. Choose from Options mode presents the blank alongside three answer choices: one correct item and two distractors. Blank Box tests open-ended pattern reasoning; Multiple Choice tests pattern recognition with structured response options. The same AB pattern becomes two entirely different products depending on which mode you choose. Sellers can offer both modes as separate difficulty levels or combine them on a single page for varied practice.',
+          'Every pattern type supports two fundamentally different question modes that double product variety. Blank Box mode replaces one item in the pattern with an empty space — the solver must identify the pattern and determine the correct missing item with no hints. Choose from Options mode presents the blank alongside three answer choices: one correct item and two distractors. Blank Box tests open-ended pattern reasoning; Multiple Choice tests pattern recognition with structured response options. The same AB pattern becomes two entirely different products depending on which mode you choose. Sellers can offer both modes as separate difficulty levels or combine them on a single page for varied practice.',
       },
       {
         title: 'Per-Exercise Independent Configuration',
         description:
-          'Each exercise on the page has its own pattern type, question mode, and theme — configured independently from every other exercise. A single worksheet can start with an AB fill-in-the-blank warm-up, progress through ABC multiple-choice practice in the middle, and finish with an ABCD blank-box challenge at the bottom. This per-exercise independence eliminates the need to generate separate pages for each difficulty level. Teachers get differentiated practice on one page, and sellers create more sophisticated products that demonstrate professional design thinking — mixed-difficulty pages command higher prices than single-pattern sheets.',
+          'Each exercise on the page has its own pattern type, question mode, and theme — configured independently from every other exercise. A single worksheet can start with an AB fill-in-the-blank warm-up, progress through ABC multiple-choice practice in the middle, and finish with an ABCD blank-box challenge at the bottom. This per-exercise independence eliminates the need to generate separate pages for each difficulty level. Sellers create more sophisticated products that demonstrate professional design thinking — mixed-difficulty pages command higher prices than single-pattern sheets.',
       },
       {
         title: 'Random Start and Random Blank Position for Difficulty Variation',
         description:
-          'Two randomization settings create additional difficulty variations from the same pattern types. Start from Random Element begins the pattern mid-cycle instead of always starting at the first element — an ABC pattern might start at B-C-A-B-C instead of A-B-C-A-B. Random Blank Position places the missing item anywhere in the sequence rather than at a predictable location. Together, these settings prevent students from solving by rote and ensure every generated worksheet presents a fresh challenge. For sellers, randomization multiplies the number of unique worksheets producible from each pattern type and theme combination.',
+          'Two randomization settings create additional difficulty variations from the same pattern types. Start from Random Element begins the pattern mid-cycle instead of always starting at the first element — an ABC pattern might start at B-C-A-B-C instead of A-B-C-A-B. Random Blank Position places the missing item anywhere in the sequence rather than at a predictable location. Together, these settings prevent solving by rote and ensure every generated worksheet presents a fresh challenge. For sellers, randomization multiplies the number of unique worksheets producible from each pattern type and theme combination.',
       },
       {
         title: 'Image Library with 104 Themed Collections',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Dual Canvas System with Separate Answer Key',
         description:
-          'The worksheet and answer key live on separate, independently editable canvases accessible via tabs. The worksheet shows exercises with blanks or multiple-choice options; the answer key shows all blanks filled with the correct pattern items. Each canvas supports full editing — add text, adjust layout, reposition elements — so you can customize both the student worksheet and the teacher answer key independently. Both download as separate files, giving buyers a complete product package with verified solutions for every exercise.',
+          'The worksheet and answer key live on separate, independently editable canvases accessible via tabs. The worksheet shows exercises with blanks or multiple-choice options; the answer key shows all blanks filled with the correct pattern items. Each canvas supports full editing — add text, adjust layout, reposition elements — so you can customize both the worksheet and answer key independently. Both download as separate files, giving buyers a complete product package with verified solutions for every exercise.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at High DPI',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images (6x multiplier for crisp detail) or print-ready PDF documents at 300 DPI. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for classroom printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — no post-processing needed.',
+          'Download worksheets and answer keys as high-resolution JPEG images (6x multiplier for crisp detail) or print-ready PDF documents at 300 DPI. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for bulk printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.',
       },
       {
         title: 'Full Canvas Editing with Text and Decoration Tools',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Visual Centers for TPT',
+        title: 'Tiered Pattern Bundles on Gumroad',
         description:
-          'Build leveled pattern recognition practice sets using per-exercise configuration as the core differentiator. Level 1 pages feature all AB blank-box exercises with the same theme. Level 2 mixes AB and AAB blank-box exercises. Level 3 introduces ABC multiple-choice exercises alongside easier blank-box warm-ups. Level 4 combines ABCD blank-box challenges with random start and random blank position enabled. Each level targets a different cognitive demand, and the per-exercise independence means one printed page serves as a complete differentiated activity. Package each level with themed exercises and separate answer keys.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled pattern recognition practice sets using per-exercise configuration as the core differentiator. Level 1 pages feature all AB blank-box exercises with the same theme. Level 2 mixes AB and AAB blank-box exercises. Level 3 introduces ABC multiple-choice exercises alongside easier blank-box warm-ups. Level 4 combines ABCD blank-box challenges with random start and random blank position enabled. Each level targets a different cognitive demand, and the per-exercise independence means one printed page serves as a complete mixed-difficulty product. Package each level with themed exercises and separate answer keys, then sell as individual tiers or a complete bundle.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Multilingual Visual Worksheets for Global Markets',
         description:
           'Because Pattern Worksheet exercises contain only images in grid rows with zero text on the output, the same product works in every language without modification. Create one set of pattern completion exercises and sell it worldwide — no translation needed, no separate language versions to maintain. Changing the content language only affects the image library labels in the generator, not the printed worksheet. List identical products on Etsy shops targeting different countries, or publish the same KDP interior across all international Amazon marketplaces. One workflow produces a universally sellable product.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Classroom and Tutoring Pattern Concept Tool',
+        title: 'Pinterest Funnel for Pattern Products',
         description:
-          'Upload custom images to create pattern worksheets for any subject or unit — use plant growth stages for a science lesson, geometric shapes for math class, or musical note symbols for a music unit. Nine pattern types let you match the exercise to the learning objective: AB for introduction, ABC for practice, ABCD for assessment. Combine blank-box and multiple-choice exercises on the same page for varied practice. Enable random start and random blank position to generate unique worksheets for every student, preventing copying. The separate answer key tab saves grading time, and the per-exercise configuration lets you create differentiated pages for mixed-ability groups.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          'Upload custom images to create eye-catching pattern worksheets that double as Pinterest pins — the grid format with colorful themed images stops scrollers mid-feed. Pin sample worksheets linking to your Etsy or Gumroad listing. Nine pattern types let you create pins at every difficulty level: AB for the broadest audience, ABC for intermediate buyers, ABCD for advanced content seekers. Combine blank-box and multiple-choice exercises on the same page for varied preview images. Enable random start and random blank position to generate unique pin visuals from the same theme. The separate answer key tab adds perceived value to every listing, and the per-exercise configuration lets you showcase mixed-difficulty pages that demonstrate premium product quality.',
+        platform: 'Pinterest / Etsy / Gumroad',
       },
     ],
   },
@@ -142,12 +142,12 @@ const content: AppContent = {
     {
       question: 'What are the nine pattern types and how do they differ?',
       answer:
-        'AB alternates two items (A-B-A-B) for the simplest pattern. AAB groups two of one then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three items (A-B-C-A-B-C). AABB pairs two of each (A-A-B-B-A-A-B-B). ABBC places two B’s between A and C. AABC leads with two A’s before B and C. ABCC ends with two C’s after A and B. ABCD rotates four different items for maximum complexity. The progression from 2-image to 4-image patterns creates a natural difficulty ladder spanning pre-kindergarten through early elementary.',
+        ‘AB alternates two items (A-B-A-B) for the simplest pattern. AAB groups two of one then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three items (A-B-C-A-B-C). AABB pairs two of each (A-A-B-B-A-A-B-B). ABBC places two B’s between A and C. AABC leads with two A’s before B and C. ABCC ends with two C’s after A and B. ABCD rotates four different items for maximum complexity. The progression from 2-image to 4-image patterns creates a natural difficulty ladder spanning beginner-level through advanced early-learner content.’,
     },
     {
       question: 'What are the two question modes and how do they work?',
       answer:
-        'Blank Box mode replaces one item in the pattern with an empty space — students must identify the pattern and determine the missing item with no hints. Choose from Options mode presents the blank alongside three answer choices: one correct item and two distractors from different positions in the pattern. Blank Box tests open-ended reasoning; Multiple Choice tests recognition with structured options. Both modes work with all nine pattern types, giving you 18 distinct exercise styles.',
+        'Blank Box mode replaces one item in the pattern with an empty space — the solver must identify the pattern and determine the missing item with no hints. Choose from Options mode presents the blank alongside three answer choices: one correct item and two distractors from different positions in the pattern. Blank Box tests open-ended reasoning; Multiple Choice tests recognition with structured options. Both modes work with all nine pattern types, giving you 18 distinct exercise styles.',
     },
     {
       question: 'How does per-exercise configuration work?',
@@ -157,12 +157,12 @@ const content: AppContent = {
     {
       question: 'What do the Random Start and Random Blank Position settings do?',
       answer:
-        'Start from Random Element begins the pattern at a random point in the cycle rather than always at the first element — an ABC pattern might start at C-A-B-C instead of A-B-C. Random Blank Position places the missing item at any position in the sequence rather than at a fixed location. Together, these settings prevent students from solving patterns by rote and ensure every generated worksheet presents a fresh challenge, even when using the same pattern type and theme.',
+        'Start from Random Element begins the pattern at a random point in the cycle rather than always at the first element — an ABC pattern might start at C-A-B-C instead of A-B-C. Random Blank Position places the missing item at any position in the sequence rather than at a fixed location. Together, these settings prevent solving patterns by rote and ensure every generated worksheet presents a fresh challenge, even when using the same pattern type and theme.',
     },
     {
       question: 'How many exercises can I put on one page?',
       answer:
-        'You can set 1 to 8 exercises per page, with a default of 5. Fewer exercises per page create larger, clearer grid rows ideal for younger learners or focused practice. More exercises create denser worksheets suitable for assessment or review. Combined with per-exercise configuration, 8 exercises on one page can present 8 different pattern types or mix blank-box and multiple-choice modes for comprehensive practice.',
+        'You can set 1 to 8 exercises per page, with a default of 5. Fewer exercises per page create larger, clearer grid rows ideal for beginner-level products or focused practice. More exercises create denser worksheets suitable for assessment or review. Combined with per-exercise configuration, 8 exercises on one page can present 8 different pattern types or mix blank-box and multiple-choice modes for comprehensive practice.',
     },
     {
       question: 'How do I select images for each exercise?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your pattern worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as teacher resources on TPT, or through any other sales channel. Nine pattern types, two question modes, and per-exercise configuration give you the widest product variety and differentiation in marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your pattern worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. Nine pattern types, two question modes, and per-exercise configuration give you the widest product variety and differentiation in marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -267,18 +267,18 @@ const content: AppContent = {
     sampleGallery: [
       {
         src: '/samples/english/pattern worksheet/pattern_worksheet (1).webp',
-        alt: 'Pattern worksheet with AB fill-in-the-blank exercises using animal images in a grid layout with empty boxes for students to complete',
-        caption: 'AB blank-box exercises with animal theme — students identify the alternating pattern and fill in the missing image',
+        alt: 'Pattern worksheet with AB fill-in-the-blank exercises using animal images in a grid layout with empty boxes to complete',
+        caption: 'AB blank-box exercises with animal theme — identify the alternating pattern and fill in the missing image',
       },
       {
         src: '/samples/english/pattern worksheet/pattern_worksheet (5).webp',
         alt: 'Pattern worksheet with ABC multiple-choice exercises using vehicle images with three answer options per exercise',
-        caption: 'ABC multiple-choice exercises with vehicle theme — students choose the correct missing item from three options',
+        caption: 'ABC multiple-choice exercises with vehicle theme — choose the correct missing item from three options',
       },
       {
         src: '/samples/english/pattern worksheet/pattern_answer_key.webp',
         alt: 'Pattern worksheet answer key showing all blank positions filled with the correct pattern items',
-        caption: 'Answer key view — all blanks filled with correct pattern items for teacher verification',
+        caption: 'Answer key view — all blanks filled with correct pattern items for instant verification',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

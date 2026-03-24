@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Word Scramble Worksheet Generator',
     tagline: 'Create shuffled-letter-tile spelling puzzles with image clues, color coding, and 4 difficulty levels in 11 languages',
-    description: 'Turn vocabulary practice into a hands-on spelling puzzle students solve by rearranging shuffled letter tiles. This tool generates word scramble worksheets where an image clue is paired with a set of scrambled tiles — students study the picture, identify what it depicts, and drag the letters into the correct order. Unlike fill-in-the-blank exercises, word scramble gives students ALL the letters but in the wrong order, making it a letter-rearrangement challenge that builds spelling accuracy through active manipulation. The standout feature is vowel-consonant color coding: toggle it on to display vowels in one color and consonants in another, adding a visual phonics dimension that helps students identify letter types while they unscramble. Four difficulty levels control how many letters are pre-placed in their correct positions: No Clues shuffles every letter for maximum challenge, Easy pre-places half for scaffolded beginners, Normal places a quarter for balanced practice, and Tough places just one-sixth for confident spellers. Choose between three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different target word with different letters and a completely different scrambled arrangement. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One design becomes 11 unique products. Set 1–10 puzzles per page, toggle uppercase or lowercase tiles, add exercise numbering, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with automatic answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Turn vocabulary practice into a hands-on spelling puzzle solvers complete by rearranging shuffled letter tiles. This tool generates word scramble worksheets where an image clue is paired with a set of scrambled tiles — solvers study the picture, identify what it depicts, and drag the letters into the correct order. Unlike fill-in-the-blank exercises, word scramble gives solvers ALL the letters but in the wrong order, making it a letter-rearrangement challenge that builds spelling accuracy through active manipulation. The standout feature is vowel-consonant color coding: toggle it on to display vowels in one color and consonants in another, adding a visual phonics dimension that helps solvers identify letter types while they unscramble. Four difficulty levels control how many letters are pre-placed in their correct positions: No Clues shuffles every letter for maximum challenge, Easy pre-places half for scaffolded beginners, Normal places a quarter for balanced practice, and Tough places just one-sixth for confident spellers. Choose between three content sources: Image Library mode draws from 3,100+ illustrations across 104 themed collections, Manual Edit Mode lets you select images then customize display names, and Custom Word List mode lets you type up to 8 words directly for text-only puzzles. Language sensitivity is built in: switch from English to any of the 11 supported languages and the same image produces a different target word with different letters and a completely different scrambled arrangement. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish. One design becomes 11 unique products. Set 1–10 puzzles per page, toggle uppercase or lowercase tiles, add exercise numbering, and choose from 7 font families. Export as print-ready PDF or high-resolution JPEG with automatic answer key generation. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Toggle Vowel-Consonant Color Coding',
-        description: 'Enable the Color Coded toggle to display vowels in one color and consonants in another on the scrambled letter tiles. This feature is unique to Word Scramble and adds a visual phonics dimension that helps students identify letter types while they rearrange tiles. Select All Black for traditional monochrome tiles when color differentiation is not needed.',
+        description: 'Enable the Color Coded toggle to display vowels in one color and consonants in another on the scrambled letter tiles. This feature is unique to Word Scramble and adds a visual phonics dimension that helps solvers identify letter types while they rearrange tiles. Select All Black for traditional monochrome tiles when color differentiation is not needed.',
       },
       {
         title: 'Configure Letter Case, Numbering, and Language',
-        description: 'Toggle between uppercase (default) and lowercase letter tiles. Turn exercise numbering on or off. Enable student name and date fields. Select from 11 supported languages — each language changes the target word entirely, so the same image creates a completely different scramble puzzle. Add custom text overlays with instructions for student guidance.',
+        description: 'Toggle between uppercase (default) and lowercase letter tiles. Turn exercise numbering on or off. Enable name and date fields. Select from 11 supported languages — each language changes the target word entirely, so the same image creates a completely different scramble puzzle. Add custom text overlays with instructions.',
       },
       {
         title: 'Customize Fonts, Text, and Canvas',
@@ -65,7 +65,7 @@ const content: ToolContent = {
   whatYouCanCreate: [
     {
       title: 'Themed Letter-Rearrangement Puzzle Packs',
-      description: 'Create sets of 10–15 word scramble worksheets using themed image collections — animals, food, vehicles, nature scenes, holidays, sports, and more. Each puzzle presents an image clue alongside shuffled letter tiles that students rearrange into the correct spelling. Toggle color coding on half the set for a "phonics edition" variant that highlights vowel-consonant patterns. Bundle by theme and sell on Etsy or Teachers Pay Teachers. The scrambled-tile format with colorful image clues makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
+      description: 'Create sets of 10–15 word scramble worksheets using themed image collections — animals, food, vehicles, nature scenes, holidays, sports, and more. Each puzzle presents an image clue alongside shuffled letter tiles that solvers rearrange into the correct spelling. Toggle color coding on half the set for a "phonics edition" variant that highlights vowel-consonant patterns. Bundle by theme and sell on Etsy or Gumroad. The scrambled-tile format with colorful image clues makes your listing thumbnails instantly eye-catching compared to plain spelling worksheets.',
     },
     {
       title: 'KDP Word Scramble Activity Books',
@@ -85,14 +85,14 @@ const content: ToolContent = {
     },
     {
       title: 'Differentiated Difficulty Bundles',
-      description: 'Generate four versions of the same themed worksheet — one at each difficulty level: No Clues, Easy, Normal, and Tough. Teachers assign the right version to each student based on ability. Sell as a differentiated pack at a premium price on TpT or Etsy. Add color-coded variants for a total of eight distinct versions from one design session, with answer keys included for every version.',
+      description: 'Generate four versions of the same themed worksheet — one at each difficulty level: No Clues, Easy, Normal, and Tough. Buyers get the right version for every ability level. Sell as a differentiated pack at a premium price on Etsy or Gumroad. Add color-coded variants for a total of eight distinct versions from one design session, with answer keys included for every version.',
     },
   ],
 
   businessIdeas: [
     {
       title: 'Phonics-Focused Scramble Shop on Etsy',
-      description: 'Open an Etsy shop specializing in color-coded word scramble worksheets — a product category no competitor can replicate with basic word list generators. The vowel-consonant color coding feature creates a visually distinctive product that catches attention in Etsy search results and appeals to phonics-focused parents and ESL teachers. Create themed packs in both color-coded and classic black editions, pricing the color-coded phonics sets at a premium. Target buyers searching for visual spelling aids, phonics worksheets, and letter recognition activities.',
+      description: 'Open an Etsy shop specializing in color-coded word scramble worksheets — a product category no competitor can replicate with basic word list generators. The vowel-consonant color coding feature creates a visually distinctive product that catches attention in Etsy search results and appeals to phonics-focused buyers and language learners. Create themed packs in both color-coded and classic black editions, pricing the color-coded phonics sets at a premium. Target buyers searching for visual spelling aids, phonics worksheets, and letter recognition activities.',
       platform: 'Etsy',
     },
     {
@@ -101,9 +101,9 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Differentiated Literacy Centers',
-      description: 'Upload word scramble worksheet packs to TpT organized by theme, difficulty level, and color coding. Level 1: Easy with color-coded tiles for visual learners. Level 2: Normal with color coding. Level 3: Tough with All Black tiles. Level 4: No Clues with All Black for advanced challenge. Include answer keys and a progress tracking sheet. TpT buyers pay premium prices for differentiated spelling resources they can deploy across multiple ability levels.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Differentiated Literacy Centers',
+      description: 'Upload word scramble worksheet packs to Gumroad or your own store organized by theme, difficulty level, and color coding. Level 1: Easy with color-coded tiles for visual learners. Level 2: Normal with color coding. Level 3: Tough with All Black tiles. Level 4: No Clues with All Black for advanced challenge. Include answer keys and a progress tracking sheet. Buyers pay premium prices for differentiated spelling resources they can deploy across multiple ability levels.',
+      platform: 'Gumroad',
     },
     {
       title: 'Multilingual Vocabulary Store',
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad Complete Spelling Toolkit',
-      description: 'Bundle word scramble worksheets with word guess, word search, handwriting practice, and matching worksheets to create a comprehensive spelling toolkit on Gumroad. The word scramble format (letter rearrangement) exercises a different cognitive skill than word guess (fill-in-the-blank) or word search (letter finding). A multi-format spelling kit justifies a premium price point and gives students varied practice with the same vocabulary.',
+      description: 'Bundle word scramble worksheets with word guess, word search, handwriting practice, and matching worksheets to create a comprehensive spelling toolkit on Gumroad. The word scramble format (letter rearrangement) exercises a different cognitive skill than word guess (fill-in-the-blank) or word search (letter finding). A multi-format spelling kit justifies a premium price point and gives learners varied practice with the same vocabulary.',
       platform: 'Gumroad',
     },
   ],
@@ -125,11 +125,11 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Use Color Coding for Phonics Differentiation',
-      description: 'Toggle vowel-consonant color coding to display vowels in one color and consonants in another. This visual phonics aid is unique to Word Scramble and helps students identify letter types while unscrambling. Create a "Color Coded Edition" alongside a "Classic Edition" of every theme to double your product range.',
+      description: 'Toggle vowel-consonant color coding to display vowels in one color and consonants in another. This visual phonics aid is unique to Word Scramble and helps solvers identify letter types while unscrambling. Create a "Color Coded Edition" alongside a "Classic Edition" of every theme to double your product range.',
     },
     {
       title: 'Use No Clues for Spelling Assessments',
-      description: 'No Clues mode shuffles every letter with zero pre-placed positions, creating a genuine spelling assessment from an image prompt. Students must recall the complete spelling and rearrange all tiles independently. Use it for tests, final challenge sections in workbooks, or premium "expert edition" products.',
+      description: 'No Clues mode shuffles every letter with zero pre-placed positions, creating a genuine spelling assessment from an image prompt. Solvers must recall the complete spelling and rearrange all tiles independently. Use it for tests, final challenge sections in workbooks, or premium "expert edition" products.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -141,15 +141,15 @@ const content: ToolContent = {
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
-      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or classroom bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images and colored tiles attract clicks.',
+      description: 'Enable the grayscale toggle for worksheets destined for Amazon KDP interiors or bulk printing. Black-and-white output costs significantly less to print. Save color mode for Etsy listing previews and digital downloads where vibrant images and colored tiles attract clicks.',
     },
     {
       title: 'Mix Difficulty Levels in Bundles',
-      description: 'Create worksheet bundles that progress from Easy to No Clues across the same theme. A "Farm Animals Spelling Puzzles" pack with 5 Easy pages, 5 Normal, 5 Tough, and 5 No Clues gives teachers a ready-made differentiated set. Include answer keys for every level. Progressive bundles command premium prices on TpT and Etsy.',
+      description: 'Create worksheet bundles that progress from Easy to No Clues across the same theme. A "Farm Animals Spelling Puzzles" pack with 5 Easy pages, 5 Normal, 5 Tough, and 5 No Clues gives buyers a ready-made differentiated set. Include answer keys for every level. Progressive bundles command premium prices on Etsy and Gumroad.',
     },
     {
       title: 'Pair with Word Guess for Comprehensive Packs',
-      description: 'Word Scramble (letter rearrangement) and Word Guess (fill-in-the-blank) exercise different cognitive skills using similar vocabulary. Bundle both formats into a "Complete Spelling Practice" pack where students first unscramble tiles, then fill in missing letters. Multi-format bundles sell for more than single-format packs and provide more thorough spelling practice.',
+      description: 'Word Scramble (letter rearrangement) and Word Guess (fill-in-the-blank) exercise different cognitive skills using similar vocabulary. Bundle both formats into a "Complete Spelling Practice" pack where solvers first unscramble tiles, then fill in missing letters. Multi-format bundles sell for more than single-format packs and provide more thorough spelling practice.',
     },
   ],
 
@@ -160,7 +160,7 @@ const content: ToolContent = {
     },
     {
       question: 'How do word scramble puzzles differ from word guess worksheets?',
-      answer: 'Word Scramble gives students ALL the letters but in the wrong order — they rearrange shuffled tiles into the correct spelling. Word Guess shows blanks in fixed positions and students fill in the missing letters. Word Scramble is a letter-rearrangement challenge; Word Guess is a fill-in-the-blank exercise. They exercise different cognitive skills and pair well together in bundled products.',
+      answer: 'Word Scramble gives solvers ALL the letters but in the wrong order — they rearrange shuffled tiles into the correct spelling. Word Guess shows blanks in fixed positions and solvers fill in the missing letters. Word Scramble is a letter-rearrangement challenge; Word Guess is a fill-in-the-blank exercise. They exercise different cognitive skills and pair well together in bundled products.',
     },
     {
       question: 'How do the four difficulty levels work?',
@@ -168,7 +168,7 @@ const content: ToolContent = {
     },
     {
       question: 'What is vowel-consonant color coding?',
-      answer: 'Toggle the Color Coded option to display vowels in one color and consonants in another on the letter tiles. This visual phonics aid helps students distinguish vowel and consonant patterns while they unscramble. Select All Black for traditional monochrome tiles. Color coding is unique to Word Scramble and adds a strong differentiation dimension for sellers targeting phonics-focused buyers.',
+      answer: 'Toggle the Color Coded option to display vowels in one color and consonants in another on the letter tiles. This visual phonics aid helps solvers distinguish vowel and consonant patterns while they unscramble. Select All Black for traditional monochrome tiles. Color coding is unique to Word Scramble and adds a strong differentiation dimension for sellers targeting phonics-focused buyers.',
     },
     {
       question: 'What are the three content sources?',
@@ -192,7 +192,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal and classroom use only. To sell worksheets on Etsy, Teachers Pay Teachers, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
+      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
       question: 'What is your refund policy?',

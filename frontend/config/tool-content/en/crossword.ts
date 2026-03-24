@@ -1,20 +1,20 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'picture crossword maker for classroom',
+    primaryKeyword: 'picture crossword maker',
     secondaryKeywords: [
-      'crossword puzzle creator for teachers',
-      'image crossword worksheets for kids',
-      'printable crossword puzzles for school',
-      'vocabulary crossword maker for students',
+      'crossword puzzle creator for sellers',
+      'image crossword worksheets to sell',
+      'printable crossword puzzles commercial use',
+      'vocabulary crossword maker for KDP and Etsy',
     ],
     lsiKeywords: [
-      'image-clue crossword puzzle for vocabulary practice',
-      'localized crossword word generator for classroom',
+      'image-clue crossword puzzle vocabulary worksheet maker',
+      'localized crossword word generator multilingual',
       'auto answer key crossword worksheet creator',
     ],
-    titleTag: 'Picture Crossword Maker — Crosswords for Students',
-    metaDescription: 'Create picture crossword puzzles for classroom vocabulary practice. Image clues on 15x15 grid, 4 input methods, auto answer key.',
+    titleTag: 'Picture Crossword Maker — Sell Crossword Puzzles Online',
+    metaDescription: 'Create picture crossword puzzles with image clues on a 15x15 grid, 4 input methods, auto answer key. Try free — license available.',
     },
 
   hero: {
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Download All Four Files',
-        description: 'Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download all four files from a single session: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF — all rendered at 300 DPI (6× multiplier). Each tab has its own pair of download buttons in the dropdown menu. All exports are production-ready for Etsy listings, Amazon KDP interiors, and TpT resource files with no post-processing needed. Click Generate again to produce a new crossword with different random image selection and word placement, or switch themes and languages for rapid variety creation.',
+        description: 'Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download all four files from a single session: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF — all rendered at 300 DPI (6× multiplier). Each tab has its own pair of download buttons in the dropdown menu. All exports are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files with no post-processing needed. Click Generate again to produce a new crossword with different random image selection and word placement, or switch themes and languages for rapid variety creation.',
       },
     ],
   },
@@ -68,11 +68,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Multilingual Crossword Sets for International Markets',
-      description: 'Leverage the language-sensitive word generation to create picture crossword puzzles in all 11 supported languages from the same image selections. A single set of animal images produces entirely different crossword grids in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish — each with localized words, localized headers, and unique grid layouts. Sell language-specific bundles for ESL/EFL teachers, bilingual classrooms, and international homeschool families, or create multilingual mega-packs at premium prices.',
+      description: 'Leverage the language-sensitive word generation to create picture crossword puzzles in all 11 supported languages from the same image selections. A single set of animal images produces entirely different crossword grids in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish — each with localized words, localized headers, and unique grid layouts. Sell language-specific bundles for international buyers, bilingual markets, and homeschool families, or create multilingual mega-packs at premium prices.',
     },
     {
-      title: 'Custom Vocabulary Crossword Collections for Educators',
-      description: 'Use the Custom Word List with Clues mode to create curriculum-aligned crossword puzzles with teacher-defined vocabulary. Enter subject-specific terms and definitions in WORD: clue format — science vocabulary, social studies terms, reading comprehension words, math terminology, or spelling lists. Each puzzle generates on the same 15×15 grid with text clues instead of images. Build grade-level vocabulary crossword sets with answer keys in both PDF and JPEG formats for classroom morning work, review activities, and assessment preparation.',
+      title: 'Custom Vocabulary Crossword Collections',
+      description: 'Use the Custom Word List with Clues mode to create vocabulary crossword puzzles with your own word lists. Enter subject-specific terms and definitions in WORD: clue format — science vocabulary, social studies terms, reading comprehension words, math terminology, or spelling lists. Each puzzle generates on the same 15×15 grid with text clues instead of images. Build themed vocabulary crossword sets with answer keys in both PDF and JPEG formats for a complete, ready-to-sell product.',
     },
     {
       title: 'KDP Picture Crossword Workbooks with Progressive Themes',
@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mixed-Format Word Puzzle Mega Bundles',
-      description: 'Pair picture crossword puzzles with word search worksheets, word scramble activities, word guess challenges, and cryptogram puzzles using coordinated themes across multiple generators. Picture crosswords build vocabulary through image-to-word association. Word search develops letter pattern recognition. Word scramble challenges spelling and anagram solving. Each format targets a different language skill while maintaining thematic consistency. Multi-format word puzzle bundles command premium prices because parents and teachers pay more for comprehensive vocabulary-building collections.',
+      description: 'Pair picture crossword puzzles with word search worksheets, word scramble activities, word guess challenges, and cryptogram puzzles using coordinated themes across multiple generators. Picture crosswords build vocabulary through image-to-word association. Word search develops letter pattern recognition. Word scramble challenges spelling and anagram solving. Each format targets a different language skill while maintaining thematic consistency. Multi-format word puzzle bundles command premium prices because buyers pay more for comprehensive vocabulary-building collections.',
     },
   ],
 
@@ -100,18 +100,18 @@ const content: ToolContent = {  seo: {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT Vocabulary Crossword Activity Packs',
-      description: 'Upload vocabulary crossword packs to TpT using both picture crossword mode and custom word list mode. Picture crosswords use themed images for visual vocabulary building — students see an animal and write its name in the grid. Custom word list crosswords use teacher-defined terms and definitions for curriculum-aligned review activities. Include auto-generated answer keys with every puzzle as a key selling point. Teachers searching for crossword activities value ready-to-print puzzles with solutions included. Create grade-level sets for science, social studies, ELA, and math vocabulary.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Vocabulary Crossword Activity Packs',
+      description: 'Upload vocabulary crossword packs to Gumroad using both picture crossword mode and custom word list mode. Picture crosswords use themed images for visual vocabulary building — solvers see an animal and write its name in the grid. Custom word list crosswords use your own terms and definitions for subject-specific products. Include auto-generated answer keys with every puzzle as a key selling point. Buyers searching for crossword activities value ready-to-print puzzles with solutions included. Create themed sets for science, social studies, ELA, and math vocabulary.',
+      platform: 'Gumroad',
     },
     {
       title: 'Multilingual Crossword Business Targeting International Markets',
-      description: 'The language-sensitive word generation creates entirely different crossword puzzles from identical images when you switch languages. A single set of 8 animal images produces unique crossword grids in English, German, French, Spanish, and 7 more languages — each with localized words and localized headers. Create language-specific crossword bundles for ESL/EFL teachers, bilingual education programs, and international homeschool families. Sell on Etsy shops targeting specific countries, list on TpT for international teachers, or build multilingual mega-packs at premium pricing. One image set generates 11 sellable products.',
-      platform: 'Etsy / TpT',
+      description: 'The language-sensitive word generation creates entirely different crossword puzzles from identical images when you switch languages. A single set of 8 animal images produces unique crossword grids in English, German, French, Spanish, and 7 more languages — each with localized words and localized headers. Create language-specific crossword bundles for international buyers, bilingual markets, and homeschool families. Sell on Etsy shops targeting specific countries, list on Gumroad for global buyers, or build multilingual mega-packs at premium pricing. One image set generates 11 sellable products.',
+      platform: 'Etsy / Gumroad',
     },
     {
       title: 'Pinterest Picture Crossword Traffic Funnel',
-      description: 'Picture crosswords make visually striking Pinterest pins — a colorful crossword grid surrounded by image clues creates an immediately engaging puzzle format that parents and teachers recognize as educational. Pin sample crosswords showing the image-clue layout with numbered positions connecting pictures to grid locations. Create separate pin series for "picture crossword puzzles for kids," "printable crossword activities," and "vocabulary crossword worksheets." Include answer key preview images showing the filled grid with all correct letters. Link each pin to your Etsy or TpT product listings for direct conversion.',
+      description: 'Picture crosswords make visually striking Pinterest pins — a colorful crossword grid surrounded by image clues creates an immediately engaging puzzle format that buyers click. Pin sample crosswords showing the image-clue layout with numbered positions connecting pictures to grid locations. Create separate pin series for "picture crossword puzzles," "printable crossword activities," and "vocabulary crossword worksheets." Include answer key preview images showing the filled grid with all correct letters. Link each pin to your Etsy or Gumroad product listings for direct conversion.',
       platform: 'Pinterest',
     },
     {
@@ -132,23 +132,23 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Leverage Language-Sensitive Generation for Multilingual Products',
-      description: 'The same 8 images produce entirely different crossword grids when you switch languages. A cat image creates "CAT" in English, "KATZE" in German, "CHAT" in French, and "GATTO" in Italian — different word lengths mean different grid placements, different crossings, and different puzzle difficulty. Create one themed set of images and generate crosswords in all 11 languages for 11 sellable products from a single content session. Multilingual crossword bundles serve ESL/EFL teachers and international homeschool families at premium prices.',
+      description: 'The same 8 images produce entirely different crossword grids when you switch languages. A cat image creates "CAT" in English, "KATZE" in German, "CHAT" in French, and "GATTO" in Italian — different word lengths mean different grid placements, different crossings, and different puzzle difficulty. Create one themed set of images and generate crosswords in all 11 languages for 11 sellable products from a single content session. Multilingual crossword bundles serve international buyers and homeschool families at premium prices.',
     },
     {
       title: 'Use Custom Word List Mode for Curriculum-Aligned Products',
-      description: 'Switch to Custom Word List with Clues mode for subject-specific crosswords that teachers search for on TpT. Enter science terms with definitions, social studies vocabulary with context clues, or spelling words with usage sentences in WORD: clue format. Text-clue crosswords target a different buyer audience than picture crosswords — teachers who need crosswords matching their exact curriculum. Create grade-level vocabulary sets by subject area, and label your listings with the specific curriculum standards covered.',
+      description: 'Switch to Custom Word List with Clues mode for subject-specific crosswords that buyers search for on Etsy and Gumroad. Enter science terms with definitions, social studies vocabulary with context clues, or spelling words with usage sentences in WORD: clue format. Text-clue crosswords target a different buyer audience than picture crosswords — buyers who need crosswords matching specific subjects. Create themed vocabulary sets by subject area, and label your listings with the specific topics covered.',
     },
     {
       title: 'Include Answer Keys in Every Listing Preview',
-      description: 'The auto-generated answer key with the filled grid showing all correct letters is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the filled grid clearly in product photos. Products that include answer keys consistently outsell puzzles-only listings because teachers and parents want self-checking materials. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
+      description: 'The auto-generated answer key with the filled grid showing all correct letters is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the filled grid clearly in product photos. Products that include answer keys consistently outsell puzzle-only listings because buyers want self-checking materials. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
     },
     {
       title: 'Combine Picture and Text-Clue Crosswords in Premium Bundles',
-      description: 'Include both picture crosswords (using themed image clues) and text-clue crosswords (using custom word lists) in the same bundle for maximum variety. Picture crosswords target visual learners and younger students who respond to image-based clues. Text-clue crosswords target older students and curriculum-specific vocabulary review. Bundling both formats doubles your content variety and covers multiple learning styles in one product, justifying higher pricing than single-format crossword packs.',
+      description: 'Include both picture crosswords (using themed image clues) and text-clue crosswords (using custom word lists) in the same bundle for maximum variety. Picture crosswords target visual learners and younger audiences who respond to image-based clues. Text-clue crosswords target older audiences and subject-specific vocabulary products. Bundling both formats doubles your content variety and covers multiple learning styles in one product, justifying higher pricing than single-format crossword packs.',
     },
     {
-      title: 'Use Grayscale for KDP and Classroom Products',
-      description: 'Toggle grayscale to create ink-friendly crossword puzzles specifically for KDP print-on-demand interiors and classroom printing. Color printing costs significantly more for KDP, and many teachers print on black-and-white printers. Create dual-format bundles that include both color versions (for digital downloads) and grayscale versions (for print) — buyers perceive this as twice the value. The crossword grid, numbered clue positions, and image clues all render clearly in grayscale.',
+      title: 'Use Grayscale for KDP and Bulk Printing Products',
+      description: 'Toggle grayscale to create ink-friendly crossword puzzles specifically for KDP print-on-demand interiors and bulk printing. Color printing costs significantly more for KDP, and many buyers print on black-and-white printers. Create dual-format bundles that include both color versions (for digital downloads) and grayscale versions (for print) — buyers perceive this as twice the value. The crossword grid, numbered clue positions, and image clues all render clearly in grayscale.',
     },
   ],
 
@@ -187,11 +187,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What page sizes and export formats are available?',
-      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and classroom handouts.',
+      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
     {
       question: 'Can I sell crossword puzzles made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell crossword puzzles as digital downloads on Etsy, printed crossword workbooks on Amazon KDP, classroom resources on TpT, or through any other sales channel. The four input methods, auto-generated answer keys with filled grids, language-sensitive word generation in 11 languages, custom word list mode, and 104 themed image collections give you everything needed to create professional crossword products that compete in word puzzle categories across every major marketplace.',
+      answer: 'Yes. With a commercial license, you have full rights to sell crossword puzzles as digital downloads on Etsy, printed crossword workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The four input methods, auto-generated answer keys with filled grids, language-sensitive word generation in 11 languages, custom word list mode, and 104 themed image collections give you everything needed to create professional crossword products that compete in word puzzle categories across every major marketplace.',
     },
     {
       question: 'What is your refund policy?',

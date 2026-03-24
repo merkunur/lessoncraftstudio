@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable maze activity maker for Etsy sellers',
       'picture path worksheet generator for KDP publishers',
-      'maze worksheet creator commercial license TPT',
+      'maze worksheet creator commercial license',
       'sell pathway puzzle worksheets on Etsy and Amazon',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'printable puzzle activity business tools',
     ],
     titleTag: 'Maze Worksheet Generator | Create Path Printables',
-    metaDescription: 'Create maze worksheets to sell on Etsy, KDP & TPT. 3 game modes, LPF algorithm, auto answer key, 104 themes, print-ready PDFs. Try free — license available.',
+    metaDescription: 'Create maze worksheets to sell on Etsy, KDP & Gumroad. 3 game modes, LPF algorithm, auto answer key, 104 themes, print-ready PDFs. Try free — license available.',
   },
 
   hero: {
     title: 'Picture Path Maze Worksheet Generator for Pathway and Maze Activities',
     tagline: 'Three game modes in one generator — Picture Pathway, Classic Maze, and Choose the Right Path — powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
-      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where students follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout — configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where students identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a “✓ CORRECT PATH” label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated “Picture Pathway” header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Picture Path is completely visual — mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional maze and pathway worksheets with three distinct game modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF (Longest Path First) algorithm with collectible images scattered throughout — configure grid sizes from 15×15 to 20×20, set 1 to 3 paths with dead-end blocking, and customize wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path presents three-path mazes with four directional options (bottom-to-top, top-to-bottom, left-to-right, right-to-left) where solvers identify the single correct path among decoys. Every mode generates a companion answer key on a separate canvas tab — solution paths are highlighted with pink circles along the correct route, and Choose Path mode adds a “✓ CORRECT PATH” label. Assign images to five distinct roles: Start, End, Path, Distractor, and Decoration. Browse 104 themed collections with 3,100+ illustrations or upload your own. The auto-generated “Picture Pathway” header with orange border renders localized titles and instructions in all 11 supported languages. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Picture Path is completely visual — mazes require no reading or language comprehension, making every worksheet instantly sellable in any market worldwide. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Your Game Mode and Configure Settings',
         description:
-          'Open the Pathway Configuration panel and select one of three game modes. Picture Pathway creates a grid of images with a single correct path from start to finish. Classic Maze generates wall-based mazes with the LPF algorithm — set grid size (15×15 to 20×20), number of paths (1, 2, or 3), collectible image count and copies, wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path creates three-path mazes with four directional options. Toggle “Include Name/Date Fields” to add student name and date lines.',
+          'Open the Pathway Configuration panel and select one of three game modes. Picture Pathway creates a grid of images with a single correct path from start to finish. Classic Maze generates wall-based mazes with the LPF algorithm — set grid size (15×15 to 20×20), number of paths (1, 2, or 3), collectible image count and copies, wall color, thickness (1–10px), and opacity (10–100%). Choose the Right Path creates three-path mazes with four directional options. Toggle “Include Name/Date Fields” to add name and date lines.',
       },
       {
         title: 'Select Images by Role from the Library',
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated solution. The answer key highlights the correct path with pink circles along the route. Choose Path mode adds a “✓ CORRECT PATH” label on the correct path. Classic Maze includes a collectible legend showing image counts. Download using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Switch to the Answer Key tab to see the auto-generated solution. The answer key highlights the correct path with pink circles along the route. Choose Path mode adds a “✓ CORRECT PATH” label on the correct path. Classic Maze includes a collectible legend showing image counts. Download using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Three Game Modes: Picture Pathway, Classic Maze, and Choose the Right Path',
         description:
-          'One generator produces three distinct maze activity types. Picture Pathway creates a grid of images where students follow the correct path from start to finish by identifying path images among distractors — ideal for younger learners and visual discrimination tasks. Classic Maze generates professional wall-based mazes using the LPF algorithm with collectible images scattered along corridors for added engagement. Choose the Right Path presents three-path mazes where students identify the single correct route among decoys, with four directional options: bottom-to-top, top-to-bottom, left-to-right, and right-to-left. Each mode delivers a different cognitive challenge from the same image library, giving you three product lines from one tool.',
+          'One generator produces three distinct maze activity types. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors — ideal for beginner-level products and visual discrimination tasks. Classic Maze generates professional wall-based mazes using the LPF algorithm with collectible images scattered along corridors for added engagement. Choose the Right Path presents three-path mazes where solvers identify the single correct route among decoys, with four directional options: bottom-to-top, top-to-bottom, left-to-right, and right-to-left. Each mode delivers a different cognitive challenge from the same image library, giving you three product lines from one tool.',
       },
       {
         title: 'Professional LPF Maze Algorithm with Quality Scoring and Dead-End Blocking',
@@ -77,27 +77,27 @@ const content: AppContent = {
       {
         title: 'Customizable Wall Design with Color, Thickness, and Opacity Controls',
         description:
-          'Classic Maze and Choose the Right Path modes offer full wall customization. Pick any wall color using the color picker. Adjust wall thickness from 1 to 10 pixels (default 3px) for thin elegant lines or bold kid-friendly walls. Set wall opacity from 10% to 100% (default 100%) for subtle or prominent maze boundaries. These controls let you create distinct visual styles — thin gray walls for sophisticated puzzle books, thick colorful walls for early learners, or semi-transparent walls for layered design effects. Wall settings persist across maze regenerations until you change them.',
+          'Classic Maze and Choose the Right Path modes offer full wall customization. Pick any wall color using the color picker. Adjust wall thickness from 1 to 10 pixels (default 3px) for thin elegant lines or bold kid-friendly walls. Set wall opacity from 10% to 100% (default 100%) for subtle or prominent maze boundaries. These controls let you create distinct visual styles — thin gray walls for sophisticated puzzle books, thick colorful walls for the younger audience, or semi-transparent walls for layered design effects. Wall settings persist across maze regenerations until you change them.',
       },
       {
         title: 'Auto-Generated Answer Key with Solution Path Highlighting',
         description:
-          'Every maze worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a “✓ CORRECT PATH” label identifying the correct route among the three options. Classic Maze mode includes a collectible legend showing the count of each collectible image found along the path. Start and end arrows appear in the appropriate cells. Download the answer key separately as answer_key.jpeg or answer_key.pdf alongside the student worksheet.',
+          'Every maze worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a “✓ CORRECT PATH” label identifying the correct route among the three options. Classic Maze mode includes a collectible legend showing the count of each collectible image found along the path. Start and end arrows appear in the appropriate cells. Download the answer key separately as answer_key.jpeg or answer_key.pdf alongside the puzzle worksheet.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
         description:
-          'Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides coordinated illustrations that work together in maze activities — animal mazes where students follow cats through a grid of animal distractors, holiday mazes with seasonal collectibles, and more. Filter by theme using the dropdown or search for specific images by keyword. The Commercial tier includes 10 colorful themes for getting started; Full Access unlocks all 104 themes for maximum creative variety across all three game modes.',
+          'Browse 104 themed image collections covering animals, food, vehicles, nature, professions, holidays, sports, seasons, and dozens more. Each theme provides coordinated illustrations that work together in maze activities — animal mazes where solvers follow cats through a grid of animal distractors, holiday mazes with seasonal collectibles, and more. Filter by theme using the dropdown or search for specific images by keyword. The Commercial tier includes 10 colorful themes for getting started; Full Access unlocks all 104 themes for maximum creative variety across all three game modes.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
         description:
-          'Download maze worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI with a 6× multiplier for crisp detail. Four dedicated download buttons export the worksheet and answer key separately as JPEG and PDF. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions that save toner while preserving maze wall clarity. Every export is production-ready for digital downloads, printed workbooks, and classroom handouts.',
+          'Download maze worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI with a 6× multiplier for crisp detail. Four dedicated download buttons export the worksheet and answer key separately as JPEG and PDF. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions that save toner while preserving maze wall clarity. Every export is production-ready for digital downloads, printed workbooks, and printed handouts.',
       },
       {
         title: 'Full Canvas Editing with Text Tools, Name/Date Fields, and Undo History',
         description:
-          'The Fabric.js canvas provides complete control over every element on your maze worksheet. Drag, resize, rotate, and reposition images, text, and generated maze content freely. Add custom text with seven font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), adjustable size and color, and text outline width from 0 to 10 with 0.5-step granularity. Toggle name and date fields to add student identification lines. Zoom in and out or reset to 100% for detail work. Undo and redo up to 20 history states with Ctrl+Z and Ctrl+Y. Layer controls manage stacking order for precise element arrangement.',
+          'The Fabric.js canvas provides complete control over every element on your maze worksheet. Drag, resize, rotate, and reposition images, text, and generated maze content freely. Add custom text with seven font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), adjustable size and color, and text outline width from 0 to 10 with 0.5-step granularity. Toggle name and date fields to add identification lines. Zoom in and out or reset to 100% for detail work. Undo and redo up to 20 history states with Ctrl+Z and Ctrl+Y. Layer controls manage stacking order for precise element arrangement.',
       },
     ],
   },
@@ -118,21 +118,21 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Classroom Logic and Problem-Solving Activities for TPT',
+        title: 'Maze Activity Packs on Gumroad',
         description:
-          'Build ready-to-use maze worksheets with name/date fields and printed answer keys for classroom use. Teachers searching TPT for logic activities value worksheets that develop spatial reasoning and problem-solving skills. Create curriculum-aligned sets: animal habitat pathway activities, seasonal maze collections, and progressive difficulty maze packs. Classic Maze mode with collectible images adds counting practice alongside pathfinding. Each set includes student worksheets and answer keys in both PDF and JPEG formats for flexible classroom use.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build ready-to-use maze worksheets with name/date fields and printed answer keys for instant digital delivery. Buyers searching for logic activities value worksheets that develop spatial reasoning and problem-solving skills. Create themed sets: animal habitat pathway activities, seasonal maze collections, and progressive difficulty maze packs. Classic Maze mode with collectible images adds counting practice alongside pathfinding. Each set includes puzzle worksheets and answer keys in both PDF and JPEG formats for flexible use.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Seasonal and Holiday Maze Collections',
         description:
           'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.',
-        platform: 'Etsy / Amazon KDP / TPT (seasonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
         title: 'Global Market Appeal with Visual-Only Maze Design',
         description:
-          'Maze worksheets are entirely visual — students navigate paths, follow images, and solve spatial puzzles without reading any text. This makes every maze worksheet instantly sellable in any market worldwide without translation or localization. List the same maze bundle on international Etsy shops, publish maze workbooks targeting non-English Amazon marketplaces, and reach global TPT buyers. The auto-generated header translates into 11 languages automatically, but the maze content itself is universally understood. One product, unlimited markets.',
+          'Maze worksheets are entirely visual — solvers navigate paths, follow images, and solve spatial puzzles without reading any text. This makes every maze worksheet instantly sellable in any market worldwide without translation or localization. List the same maze bundle on international Etsy shops, publish maze workbooks targeting non-English Amazon marketplaces, and reach global Gumroad buyers. The auto-generated header translates into 11 languages automatically, but the maze content itself is universally understood. One product, unlimited markets.',
         platform: 'All platforms (global)',
       },
     ],
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What are the three game modes and how do they differ?',
       answer:
-        'The generator offers three distinct modes. Picture Pathway creates a grid of images where students follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF algorithm with collectible images, configurable grid sizes (15×15 to 20×20), and 1 to 3 paths with dead-end blocking. Choose the Right Path presents three-path mazes with four directional options where students identify the single correct route. Each mode produces a different spatial reasoning challenge from the same image library.',
+        'The generator offers three distinct modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF algorithm with collectible images, configurable grid sizes (15×15 to 20×20), and 1 to 3 paths with dead-end blocking. Choose the Right Path presents three-path mazes with four directional options where solvers identify the single correct route. Each mode produces a different spatial reasoning challenge from the same image library.',
     },
     {
       question: 'How does the LPF maze algorithm work?',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How does wall customization work in Classic Maze and Choose Path modes?',
       answer:
-        'Both maze modes offer three wall controls. Wall Color uses a color picker to set any color. Wall Thickness adjusts from 1 to 10 pixels (default 3px). Wall Opacity ranges from 10% to 100% (default 100%). These settings let you create thin gray walls for sophisticated puzzle books, thick colorful walls for young learners, or semi-transparent walls for layered effects. Settings persist across maze regenerations.',
+        'Both maze modes offer three wall controls. Wall Color uses a color picker to set any color. Wall Thickness adjusts from 1 to 10 pixels (default 3px). Wall Opacity ranges from 10% to 100% (default 100%). These settings let you create thin gray walls for sophisticated puzzle books, thick colorful walls for the younger audience, or semi-transparent walls for layered effects. Settings persist across maze regenerations.',
     },
     {
       question: 'What are the directional options in Choose the Right Path mode?',
@@ -187,12 +187,12 @@ const content: AppContent = {
     {
       question: 'Are Picture Path worksheets language-sensitive?',
       answer:
-        'No. Unlike word-based generators, Picture Path worksheets are entirely visual. Students navigate mazes and follow image paths without reading any text. The auto-generated header translates into 11 languages, but the maze content itself requires no language comprehension. This makes every worksheet instantly usable and sellable in any market worldwide without modification.',
+        'No. Unlike word-based generators, Picture Path worksheets are entirely visual. Solvers navigate mazes and follow image paths without reading any text. The auto-generated header translates into 11 languages, but the maze content itself requires no language comprehension. This makes every worksheet instantly usable and sellable in any market worldwide without modification.',
     },
     {
       question: 'Can I sell maze worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your maze worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as classroom resources on TPT, or through any other sales channel. The three game modes, LPF algorithm, 104 themed image collections, and visual-only format give you the tools to produce original, globally sellable maze products.',
+        'Yes. With a commercial license, you have full rights to sell your maze worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The three game modes, LPF algorithm, 104 themed image collections, and visual-only format give you the tools to produce original, globally sellable maze products.',
     },
     {
       question: 'What is the refund policy?',
@@ -273,7 +273,7 @@ const content: AppContent = {
       {
         src: '/samples/english/picture path/Picture Pathway (1).webp',
         alt: 'Picture Pathway mode worksheet with images arranged in a grid showing the correct path from start to finish',
-        caption: 'Picture Pathway mode — students follow the correct image path from start to finish',
+        caption: 'Picture Pathway mode — follow the correct image path from start to finish',
       },
       {
         src: '/samples/english/picture path/Picture Pathway (5).webp',

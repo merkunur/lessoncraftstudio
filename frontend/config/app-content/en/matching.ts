@@ -7,7 +7,7 @@ const content: AppContent = {
       'printable matching activity maker for Etsy sellers',
       'draw-a-line matching worksheet generator for KDP publishers',
       'picture matching worksheet creator commercial license',
-      'sell matching worksheets on Teachers Pay Teachers',
+      'sell matching worksheets on Gumroad and your own store',
     ],
     lsiKeywords: [
       'digital matching printables online business',
@@ -15,14 +15,14 @@ const content: AppContent = {
       'printable matching activity business tools',
     ],
     titleTag: 'Matching Worksheet Generator | Create & Sell Online',
-    metaDescription: 'Create matching worksheets to sell on Etsy, KDP & TPT. 4 matching modes, auto answer key, 104 themes, configurable pairs. Try free — license available.',
+    metaDescription: 'Create matching worksheets to sell on Etsy, KDP & Gumroad. 4 matching modes, auto answer key, 104 themes, configurable pairs. Try free — license available.',
   },
 
   hero: {
     title: 'Matching Worksheet Generator for Draw-a-Line Matching Activities',
     tagline: 'Four matching modes in one generator — Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word — with auto-generated answer keys, configurable pair counts, and a localized “Match Up!” header across 104 themed image collections.',
     description:
-      'Build professional draw-a-line matching worksheets where students connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image ↔ Beginning Letter matches images to their first letter, Image+Word ↔ Image+Word pairs labeled images on both sides, Image/Word ↔ Image/Word mixes images and words per row with dropdown controls, and Image ↔ Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized “Match Up!” header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or create matching center activities for TPT, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional draw-a-line matching worksheets where solvers connect pairs by drawing lines between two columns. Choose from four distinct matching modes: Image ↔ Beginning Letter matches images to their first letter, Image+Word ↔ Image+Word pairs labeled images on both sides, Image/Word ↔ Image/Word mixes images and words per row with dropdown controls, and Image ↔ Custom Word lets you type your own matching terms. Configure 4, 5, or 6 pairs per worksheet and toggle item numbers and decorative bullet dots for clean formatting. Every worksheet includes an auto-generated localized “Match Up!” header with title and instructions rendered in all 11 supported languages. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key draws connecting lines between correct matches so you never have to create it manually. The Matching Worksheet Generator is language-sensitive: Beginning Letter and Image+Word modes use localized image names, so switching languages changes the words and first letters on the worksheet. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 UI languages for localized word content. Add background themes and border themes with independent opacity controls, include name and date fields, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell matching activity bundles on Etsy, compile early literacy workbooks for Amazon KDP, or list matching center activities on Gumroad, this generator delivers production-ready worksheets in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configure Worksheet Settings',
         description:
-          'Open the Worksheet Configuration panel and select your matching mode: Beginning Letter, Image+Word, Image/Word Mixed, or Custom Word. Set the maximum number of pairs to 4, 5, or 6 (default is 6). Toggle the “Include Name/Date Fields” checkbox to add student name and date lines at the bottom of the page. Toggle “Include Item Numbers” (default ON) to add numerals before each pair, and “Show Bullets/Dots” (default ON) to display decorative dots next to items. For Beginning Letter mode, choose between uppercase and lowercase letter display and select a sub-mode: Random Theme & Images, Random from Chosen Theme, or Select Specific Images.',
+          'Open the Worksheet Configuration panel and select your matching mode: Beginning Letter, Image+Word, Image/Word Mixed, or Custom Word. Set the maximum number of pairs to 4, 5, or 6 (default is 6). Toggle the “Include Name/Date Fields” checkbox to add name and date lines at the bottom of the page. Toggle “Include Item Numbers” (default ON) to add numerals before each pair, and “Show Bullets/Dots” (default ON) to display decorative dots next to items. For Beginning Letter mode, choose between uppercase and lowercase letter display and select a sub-mode: Random Theme & Images, Random from Chosen Theme, or Select Specific Images.',
       },
       {
         title: 'Select Images from the Library',
@@ -46,12 +46,12 @@ const content: AppContent = {
       {
         title: 'Generate the Matching Worksheet',
         description:
-          'Click Generate to create the two-column matching layout. The app arranges your selected images and text into left and right columns with the configured pair count. A styled “Match Up!” header appears at the top with a yellow pill background (#FFD700), coral border frame (#FF7F50), and localized title and instructions rendered in Fredoka and Quicksand fonts. Item numbers and bullet dots appear based on your toggle settings. The worksheet tab shows the student version with no connecting lines — ready for students to draw their own.',
+          'Click Generate to create the two-column matching layout. The app arranges your selected images and text into left and right columns with the configured pair count. A styled “Match Up!” header appears at the top with a yellow pill background (#FFD700), coral border frame (#FF7F50), and localized title and instructions rendered in Fredoka and Quicksand fonts. Item numbers and bullet dots appear based on your toggle settings. The worksheet tab shows the solver version with no connecting lines — ready for users to draw their own.',
       },
       {
         title: 'Generate the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the auto-generated answer key with horizontal connecting lines (#555, stroke width 2) drawn between each correct pair. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF. Files are named worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files.',
+          'Switch to the Answer Key tab to see the auto-generated answer key with horizontal connecting lines (#555, stroke width 2) drawn between each correct pair. Download both versions using the four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF. Files are named worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf at 300 DPI. Toggle grayscale for ink-friendly versions. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files.',
       },
     ],
   },
@@ -67,12 +67,12 @@ const content: AppContent = {
       {
         title: 'Auto-Generated Answer Key with Connecting Lines Between Matched Pairs',
         description:
-          'Every matching worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and adds horizontal connecting lines (#555 color, stroke width 2) drawn between each correct pair. No manual line drawing, no separate file creation — the answer key is always in sync with the worksheet. This dual-canvas approach saves significant production time for sellers creating matching activity bundles where every worksheet needs its own answer key. Download the answer key as answer_key.jpeg or answer_key.pdf alongside the student worksheet.',
+          'Every matching worksheet automatically generates a companion answer key on a separate canvas tab. The answer key reproduces the exact worksheet layout and adds horizontal connecting lines (#555 color, stroke width 2) drawn between each correct pair. No manual line drawing, no separate file creation — the answer key is always in sync with the worksheet. This dual-canvas approach saves significant production time for sellers creating matching activity bundles where every worksheet needs its own answer key. Download the answer key as answer_key.jpeg or answer_key.pdf alongside the main worksheet.',
       },
       {
         title: 'Configurable Pair Count with 4, 5, or 6 Matching Pairs per Worksheet',
         description:
-          'Set the number of matching pairs to 4, 5, or 6 using the dropdown in the Worksheet Configuration panel. The default is 6 pairs, which works well for standard worksheets. Reduce to 4 or 5 pairs for younger learners who need larger images and more spacing, or for worksheets with longer custom words that require extra room. The pair count applies consistently across all four matching modes, giving you control over worksheet difficulty and visual density without redesigning the layout.',
+          'Set the number of matching pairs to 4, 5, or 6 using the dropdown in the Worksheet Configuration panel. The default is 6 pairs, which works well for standard worksheets. Reduce to 4 or 5 pairs for beginner-level products that need larger images and more spacing, or for worksheets with longer custom words that require extra room. The pair count applies consistently across all four matching modes, giving you control over worksheet difficulty and visual density without redesigning the layout.',
       },
       {
         title: 'Localized “Match Up!” Header with Title and Instructions in 11 Languages',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Item Numbers and Decorative Bullets with Toggle Controls',
         description:
-          'Two formatting toggles in the Worksheet Configuration panel control the visual structure of each matching column. “Include Item Numbers” (default ON) adds numerals before each pair — students see numbered items for easy reference during classroom review. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options can be toggled independently, letting you create clean numbered worksheets, dotted lists, both, or neither depending on your target audience and product style.',
+          'Two formatting toggles in the Worksheet Configuration panel control the visual structure of each matching column. “Include Item Numbers” (default ON) adds numerals before each pair — numbered items make answer checking straightforward and add perceived value. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options can be toggled independently, letting you create clean numbered worksheets, dotted lists, both, or neither depending on your target audience and product style.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at 300 DPI with Grayscale Toggle',
         description:
-          'Download matching worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI. Four dedicated download buttons export worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf separately. Page sizes include Letter Portrait (612×792), Letter Landscape (792×612), A4 Portrait (595×842), A4 Landscape (842×595), Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions that save toner. Every export is production-ready for digital downloads, printed workbooks, and classroom handouts.',
+          'Download matching worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered at 300 DPI. Four dedicated download buttons export worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf separately. Page sizes include Letter Portrait (612×792), Letter Landscape (792×612), A4 Portrait (595×842), A4 Landscape (842×595), Square (1200×1200), and fully custom dimensions. Toggle grayscale for ink-friendly versions that save toner. Every export is production-ready for digital downloads, printed workbooks, and bulk printing.',
       },
       {
         title: 'Full Canvas Editing with Text Tools, Alignment, and Layering Controls',
@@ -114,26 +114,26 @@ const content: AppContent = {
       {
         title: 'Early Literacy Workbooks on Amazon KDP',
         description:
-          'Compile 40–80 matching worksheets into a printed workbook formatted for Amazon KDP. Beginning Letter mode is ideal for early literacy — students match images to their first letters across multiple themes, building phonemic awareness with every page. Structure your book by difficulty: Chapter 1 uses 4 pairs for beginners, Chapter 2 uses 5 pairs, and Chapter 3 uses 6 pairs for advanced learners. Include answer keys at the back of the book using the auto-generated answer key feature. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors.',
+          'Compile 40–80 matching worksheets into a printed workbook formatted for Amazon KDP. Beginning Letter mode is ideal for early literacy — solvers match images to their first letters across multiple themes, building phonemic awareness with every page. Structure your book by difficulty: Chapter 1 uses 4 pairs for beginners, Chapter 2 uses 5 pairs, and Chapter 3 uses 6 pairs for advanced levels. Include answer keys at the back of the book using the auto-generated answer key feature. The grayscale toggle produces ink-friendly pages ready for black-and-white book interiors.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Matching Center Activities for TPT',
+        title: 'Niche Matching Activity Store on Gumroad',
         description:
-          'Build ready-to-use matching center worksheets with name/date fields, item numbers, and printed answer keys. Teachers searching TPT for matching activities value worksheets that arrive classroom-ready — the name field ensures student accountability, item numbers make answer checking efficient during group review, and the auto-generated answer key saves teacher prep time. Create curriculum-aligned sets: community helpers matching, food groups matching, weather vocabulary matching, and habitat animal matching. Each set includes student worksheets and answer keys in both PDF and JPEG formats.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build ready-to-use matching center worksheets with name/date fields, item numbers, and printed answer keys. Buyers searching for matching activities value worksheets that arrive print-ready — the name field adds a professional touch, item numbers make answer checking efficient, and the auto-generated answer key adds perceived value to every listing. Create niche-specific sets: community helpers matching, food groups matching, weather vocabulary matching, and habitat animal matching. Each set includes solver worksheets and answer keys in both PDF and JPEG formats.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Vocabulary Matching Worksheets in Multiple Languages',
         description:
-          'Leverage the language-sensitive Beginning Letter and Image+Word modes to create matching worksheets in 11 languages. The same images produce different matching content when you switch languages — image names, first letters, and header text all update automatically. Create multilingual vocabulary bundles where each language version uses the same themed images but localized words. This is particularly valuable for ESL/EFL teachers, bilingual classrooms, and international homeschool families. Sell language-specific bundles or multilingual mega-packs at premium prices.',
-        platform: 'Etsy / TPT (multilingual market)',
+          'Leverage the language-sensitive Beginning Letter and Image+Word modes to create matching worksheets in 11 languages. The same images produce different matching content when you switch languages — image names, first letters, and header text all update automatically. Create multilingual vocabulary bundles where each language version uses the same themed images but localized words. This is particularly valuable for sellers targeting international markets and repeat buyers who need multiple language versions. Sell language-specific bundles or multilingual mega-packs at premium prices.',
+        platform: 'Etsy / Gumroad (multilingual market)',
       },
       {
         title: 'Seasonal Matching Activity Collections',
         description:
           'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited matching worksheet collections that align with peak shopping periods. Release Halloween matching bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Include all four matching modes in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
-        platform: 'Etsy / Amazon KDP / TPT (seasonal)',
+        platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
   },
@@ -142,17 +142,17 @@ const content: AppContent = {
     {
       question: 'What are the four matching modes and how do they differ?',
       answer:
-        'The generator offers four distinct modes. Beginning Letter mode places images on the left and their first letters on the right — students match each image to the letter it starts with. Image+Word mode shows labeled image pairs on both sides for vocabulary matching. Image/Word Mixed mode uses per-row dropdown selectors so each side can independently display an image or a word, creating varied difficulty within a single worksheet. Custom Word mode pairs images with your own typed words for spelling, vocabulary, or foreign language exercises. Each mode produces a different learning activity from the same image library.',
+        'The generator offers four distinct modes. Beginning Letter mode places images on the left and their first letters on the right — solvers match each image to the letter it starts with. Image+Word mode shows labeled image pairs on both sides for vocabulary matching. Image/Word Mixed mode uses per-row dropdown selectors so each side can independently display an image or a word, creating varied difficulty within a single worksheet. Custom Word mode pairs images with your own typed words for spelling, vocabulary, or foreign language exercises. Each mode produces a different learning activity from the same image library.',
     },
     {
       question: 'How does the configurable pair count work?',
       answer:
-        'In the Worksheet Configuration panel, select 4, 5, or 6 from the maximum pairs dropdown. The default is 6 pairs. Fewer pairs create worksheets with larger images and more spacing — ideal for younger learners or worksheets with longer words. More pairs increase difficulty and content density. The pair count applies consistently across all four matching modes.',
+        'In the Worksheet Configuration panel, select 4, 5, or 6 from the maximum pairs dropdown. The default is 6 pairs. Fewer pairs create worksheets with larger images and more spacing — ideal for beginner-level products or worksheets with longer words. More pairs increase difficulty and content density. The pair count applies consistently across all four matching modes.',
     },
     {
       question: 'How does the auto-generated answer key work?',
       answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the two-column layout without connecting lines — students draw their own lines to match pairs. The answer key reproduces the identical layout and adds horizontal connecting lines (#555 color, stroke width 2) between each correct pair. Both versions export separately using four dedicated download buttons: worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf.',
+        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the two-column layout without connecting lines — solvers draw their own lines to match pairs. The answer key reproduces the identical layout and adds horizontal connecting lines (#555 color, stroke width 2) between each correct pair. Both versions export separately using four dedicated download buttons: worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf.',
     },
     {
       question: 'What are the Beginning Letter sub-modes?',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How do item numbers and bullet dots work?',
       answer:
-        'Two toggles in the Worksheet Configuration panel control formatting. “Include Item Numbers” (default ON) adds numerals before each pair — useful for classroom answer checking and discussion. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options are independent: you can have numbers only, dots only, both, or neither depending on your worksheet style and target audience.',
+        'Two toggles in the Worksheet Configuration panel control formatting. “Include Item Numbers” (default ON) adds numerals before each pair — useful for structured answer checking and adds perceived value. “Show Bullets/Dots” (default ON) adds decorative bullet dots next to items for visual clarity. Both options are independent: you can have numbers only, dots only, both, or neither depending on your worksheet style and target audience.',
     },
     {
       question: 'How does the localized header work?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell matching worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your matching worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as classroom resources on TPT, or through any other sales channel. The four matching modes, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable matching activity products.',
+        'Yes. With a commercial license, you have full rights to sell your matching worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The four matching modes, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable matching activity products.',
     },
     {
       question: 'What is the refund policy?',
@@ -240,12 +240,12 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'preschool-printable-ideas',
-      anchorText: 'Preschool Printable Ideas for Early Learners',
+      anchorText: 'Preschool Printable Ideas for Sellers',
     },
     {
       pageType: 'idea',
       slug: 'kindergarten-printable-ideas',
-      anchorText: 'Kindergarten Printable Ideas for Young Students',
+      anchorText: 'Kindergarten Printable Ideas for Sellers',
     },
     {
       pageType: 'start',
@@ -268,7 +268,7 @@ const content: AppContent = {
       {
         src: '/samples/english/matching/matching portrait.webp',
         alt: 'Beginning letter matching worksheet with images on the left and first letters on the right',
-        caption: 'Beginning Letter mode — students match images to their first letters',
+        caption: 'Beginning Letter mode — solvers match images to their first letters',
       },
       {
         src: '/samples/english/matching/image and word.webp',

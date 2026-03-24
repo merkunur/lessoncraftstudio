@@ -22,33 +22,33 @@ const content: BundleContent = {
   hero: {
     title: 'Literacy & Language Bundle',
     tagline: 'Seven language-powered worksheet generators — multiply your product line across 11 languages',
-    description: 'Every generator in this bundle is language-aware. That single fact transforms your product catalog: one worksheet design becomes 11 distinct products when you switch between English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Literacy & Language Bundle combines seven specialized generators covering alphabet recognition, spatial prepositions, word guessing with image clues, letter unscrambling, word search grids, sentence-to-image cryptogram ciphers, and guided handwriting practice. Six of the seven generators produce language-specific content — the words, letters, and vocabulary on every worksheet change to match the selected language, with correct diacritics, native alphabets, and grammatically accurate phrasing. The seventh, Writing, focuses on handwriting stroke practice with minimal language dependency. Each generator outputs print-ready PDF and high-resolution JPEG files. Six of seven include automatic answer keys. Choose from over 100 themed image sets or upload your own artwork for branded, niche-specific products. Whether you sell literacy printables on Etsy, publish language workbooks on Amazon KDP, or distribute resources on Teachers Pay Teachers, this bundle gives you the variety and language reach that single-language competitors cannot match. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
+    description: 'Every generator in this bundle is language-aware. That single fact transforms your product catalog: one worksheet design becomes 11 distinct products when you switch between English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Literacy & Language Bundle combines seven specialized generators covering alphabet recognition, spatial prepositions, word guessing with image clues, letter unscrambling, word search grids, sentence-to-image cryptogram ciphers, and guided handwriting practice. Six of the seven generators produce language-specific content — the words, letters, and vocabulary on every worksheet change to match the selected language, with correct diacritics, native alphabets, and grammatically accurate phrasing. The seventh, Writing, focuses on handwriting stroke practice with minimal language dependency. Each generator outputs print-ready PDF and high-resolution JPEG files. Six of seven include automatic answer keys. Choose from over 100 themed image sets or upload your own artwork for branded, niche-specific products. Whether you sell literacy printables on Etsy, publish language workbooks on Amazon KDP, or distribute resources on Gumroad, this bundle gives you the variety and language reach that single-language competitors cannot match. Every generator includes a free trial with watermark so you can test every feature before purchasing a license.',
   },
 
   appsIncluded: [
     {
       title: 'Alphabet Train Worksheet Generator',
-      description: 'Create train-themed alphabet worksheets where each car carries a letter paired with a matching image. Students connect letters to pictures, reinforcing letter-sound associations in a playful, visual format. The generator supports all 11 native alphabets — German worksheets include umlauts and eszett, Scandinavian languages get their extra vowels, and Spanish includes the tilde. Choose uppercase, lowercase, or mixed letter presentation. Select images from over 100 themed sets or upload your own. Each worksheet generates a matching answer key automatically. The train format is a proven best-seller in early literacy because it combines sequencing, letter recognition, and vocabulary building into a single engaging activity.',
+      description: 'Create train-themed alphabet worksheets where each car carries a letter paired with a matching image. Users connect letters to pictures, reinforcing letter-sound associations in a playful, visual format. The generator supports all 11 native alphabets — German worksheets include umlauts and eszett, Scandinavian languages get their extra vowels, and Spanish includes the tilde. Choose uppercase, lowercase, or mixed letter presentation. Select images from over 100 themed sets or upload your own. Each worksheet generates a matching answer key automatically. The train format is a proven best-seller in early literacy because it combines sequencing, letter recognition, and vocabulary building into a single engaging activity.',
     },
     {
       title: 'Prepositions Worksheet Generator',
-      description: 'Generate spatial preposition worksheets that teach positional vocabulary through image-based exercises. Students identify where objects are placed — in, on, under, behind, in front of, next to, between, and above — relative to themed images. This generator is deeply language-aware: German worksheets handle dative contractions correctly, French applies elision rules, and every locale produces grammatically accurate prepositional phrases rather than word-for-word translations. Eight spatial prepositions cover the core positional vocabulary that early learners need. Worksheets include automatic answer keys. Configure difficulty by limiting preposition count, adjusting image complexity, and selecting age-appropriate themes.',
+      description: 'Generate spatial preposition worksheets that teach positional vocabulary through image-based exercises. Users identify where objects are placed — in, on, under, behind, in front of, next to, between, and above — relative to themed images. This generator is deeply language-aware: German worksheets handle dative contractions correctly, French applies elision rules, and every locale produces grammatically accurate prepositional phrases rather than word-for-word translations. Eight spatial prepositions cover the core positional vocabulary that beginners need. Worksheets include automatic answer keys. Configure difficulty by limiting preposition count, adjusting image complexity, and selecting age-appropriate themes.',
     },
     {
       title: 'Word Guess Worksheet Generator',
-      description: 'Produce hangman-style word guessing worksheets where image clues help students identify the hidden word. Four difficulty levels control word length and letter reveal percentage, progressing from simple three-letter words with generous hints to challenging multi-syllable vocabulary with minimal clues. The vocabulary changes entirely by language — French worksheets use French words, German worksheets use German words, each drawn from curated, age-appropriate word lists. Over 100 themed image sets provide the visual clues. Every worksheet generates a matching answer key. The word guess format combines spelling practice, vocabulary building, and deductive reasoning into a single worksheet type that parents and teachers actively search for.',
+      description: 'Produce hangman-style word guessing worksheets where image clues help solvers identify the hidden word. Four difficulty levels control word length and letter reveal percentage, progressing from simple three-letter words with generous hints to challenging multi-syllable vocabulary with minimal clues. The vocabulary changes entirely by language — French worksheets use French words, German worksheets use German words, each drawn from curated, age-appropriate word lists. Over 100 themed image sets provide the visual clues. Every worksheet generates a matching answer key. The word guess format combines spelling practice, vocabulary building, and deductive reasoning into a single worksheet type that buyers actively search for.',
     },
     {
       title: 'Word Scramble Worksheet Generator',
-      description: 'Create letter-unscrambling puzzles where students rearrange shuffled tiles to form the correct word. Each tile is color-coded — vowels in one color, consonants in another — giving students a built-in solving strategy and reinforcing phonetic awareness. The words and alphabet change entirely by language, with correct diacritical marks on every tile. Configure word count per page, difficulty level, and theme. Select from over 100 image sets to provide visual clues alongside each scrambled word. Automatic answer keys show the correct letter arrangement. Word scrambles are a staple literacy product because they build spelling, vocabulary, and pattern recognition simultaneously — and they appeal to both classroom teachers and parents looking for screen-free learning activities.',
+      description: 'Create letter-unscrambling puzzles where solvers rearrange shuffled tiles to form the correct word. Each tile is color-coded — vowels in one color, consonants in another — giving solvers a built-in solving strategy and reinforcing phonetic awareness. The words and alphabet change entirely by language, with correct diacritical marks on every tile. Configure word count per page, difficulty level, and theme. Select from over 100 image sets to provide visual clues alongside each scrambled word. Automatic answer keys show the correct letter arrangement. Word scrambles are a staple literacy product because they build spelling, vocabulary, and pattern recognition simultaneously — and they appeal to both sellers and parents looking for screen-free learning activities.',
     },
     {
       title: 'Word Search Worksheet Generator',
-      description: 'Generate word search grids from 5x5 for beginners up to 30x30 for advanced puzzlers. Words hide horizontally, vertically, diagonally, and in reverse. The generator is locale-aware at every level: word lists match the selected language, and filler characters use the correct alphabet including accented letters and language-specific characters. Six-color answer keys make it easy for students and teachers to verify every word. Configure word count, grid density, and difficulty. Choose themed vocabulary from over 100 image sets. Word searches are the single highest-demand literacy printable on Etsy and TpT — sellers with multilingual word search listings capture international traffic that English-only competitors miss entirely.',
+      description: 'Generate word search grids from 5x5 for beginners up to 30x30 for advanced puzzlers. Words hide horizontally, vertically, diagonally, and in reverse. The generator is locale-aware at every level: word lists match the selected language, and filler characters use the correct alphabet including accented letters and language-specific characters. Six-color answer keys make it easy for solvers and buyers to verify every word. Configure word count, grid density, and difficulty. Choose themed vocabulary from over 100 image sets. Word searches are the single highest-demand literacy printable on Etsy — sellers with multilingual word search listings capture international traffic that English-only competitors miss entirely.',
     },
     {
       title: 'Cryptogram Worksheet Generator',
-      description: 'Encode entire sentences into image-based cipher puzzles. Each letter in the sentence is replaced by a themed image, and students decode the message by matching images to letters using the cipher key. The phrases and alphabet change entirely by language — French cryptograms encode French sentences, Swedish cryptograms use the Swedish alphabet including extra vowels. Themed image sets provide the cipher symbols, making each puzzle visually unique. Automatic answer keys include the complete letter-to-image legend. Cryptograms combine reading comprehension, letter recognition, and logical deduction into a premium worksheet format that stands out in any printable shop. Sellers who offer cryptograms in multiple languages create product lines that are nearly impossible for competitors using basic templates to replicate.',
+      description: 'Encode entire sentences into image-based cipher puzzles. Each letter in the sentence is replaced by a themed image, and solvers decode the message by matching images to letters using the cipher key. The phrases and alphabet change entirely by language — French cryptograms encode French sentences, Swedish cryptograms use the Swedish alphabet including extra vowels. Themed image sets provide the cipher symbols, making each puzzle visually unique. Automatic answer keys include the complete letter-to-image legend. Cryptograms combine reading comprehension, letter recognition, and logical deduction into a premium worksheet format that stands out in any printable shop. Sellers who offer cryptograms in multiple languages create product lines that are nearly impossible for competitors using basic templates to replicate.',
     },
     {
       title: 'Writing Worksheet Generator',
@@ -67,7 +67,7 @@ const content: BundleContent = {
     },
     {
       title: 'Automatic Answer Keys',
-      description: 'Six of the seven generators automatically create a corresponding answer key for every worksheet. Word searches get six-color coded solutions, cryptograms include complete letter legends, and word scrambles show the correct arrangement. Answer keys are a top buyer expectation on Etsy and TpT — this bundle delivers them without manual effort. The only exception is the Writing generator, where handwriting practice is self-guided.',
+      description: 'Six of the seven generators automatically create a corresponding answer key for every worksheet. Word searches get six-color coded solutions, cryptograms include complete letter legends, and word scrambles show the correct arrangement. Answer keys are a top buyer expectation on Etsy and Gumroad — this bundle delivers them without manual effort. The only exception is the Writing generator, where handwriting practice is self-guided.',
     },
     {
       title: 'Native Alphabet and Diacritics Support',
@@ -87,7 +87,7 @@ const content: BundleContent = {
     },
     {
       title: 'Print-Ready Output',
-      description: 'Download worksheets as PDF or high-resolution JPEG in Letter, A4, Landscape, Square, or custom sizes. Files are ready to list on Etsy, upload to KDP, or submit to TpT without post-processing in design software. Add decorative borders from the built-in border library, set page background colors, and apply themed background images with adjustable opacity for polished, professional results every time.',
+      description: 'Download worksheets as PDF or high-resolution JPEG in Letter, A4, Landscape, Square, or custom sizes. Files are ready to list on Etsy, upload to KDP, or sell on Gumroad without post-processing in design software. Add decorative borders from the built-in border library, set page background colors, and apply themed background images with adjustable opacity for polished, professional results every time.',
     },
   ],
 
@@ -103,13 +103,13 @@ const content: BundleContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'Teachers Pay Teachers Language Resources',
-      description: 'TpT buyers search for language-specific literacy resources by grade level and skill. Create differentiated packs: kindergarten alphabet recognition, first-grade word searches, second-grade cryptograms. The automatic answer keys, multiple difficulty levels, and correct grammar in every language meet TpT premium resource standards. Package worksheets into comprehensive literacy bundles that teachers purchase for classroom-wide use throughout the school year.',
-      platform: 'TpT',
+      title: 'Gumroad Language Product Store',
+      description: 'Gumroad buyers search for language-specific literacy resources by grade level and skill. Create differentiated packs: early alphabet recognition, first-grade word searches, second-grade cryptograms. The automatic answer keys, multiple difficulty levels, and correct grammar in every language meet premium product standards. Package worksheets into comprehensive literacy bundles organized by skill level and language.',
+      platform: 'Gumroad',
     },
     {
-      title: 'ESL and Foreign Language Teaching Materials',
-      description: 'Language teachers need vocabulary-building worksheets in specific target languages. This bundle produces authentic, linguistically correct worksheets in 11 languages — not machine-translated approximations. Use word searches to introduce new vocabulary, cryptograms to practice sentence reading, word scrambles to reinforce spelling, and prepositions to teach spatial language. Create a complete curriculum supplement for any of the 11 supported languages.',
+      title: 'ESL and Foreign Language Learning Materials',
+      description: 'Language learning products need vocabulary-building worksheets in specific target languages. This bundle produces authentic, linguistically correct worksheets in 11 languages — not machine-translated approximations. Use word searches to introduce new vocabulary, cryptograms to practice sentence reading, word scrambles to reinforce spelling, and prepositions to cover spatial language. Create a complete language learning product line for any of the 11 supported languages.',
     },
     {
       title: 'Seasonal and Holiday Vocabulary Products',
@@ -117,7 +117,7 @@ const content: BundleContent = {
     },
     {
       title: 'Tutoring and Homeschool Literacy Practice',
-      description: 'Generate fresh literacy worksheets for each tutoring session or homeschool week. Vary the difficulty, language focus, theme, and activity type so students never see the same page twice. Use alphabet trains and writing practice for younger learners, word searches and scrambles for building vocabulary, and cryptograms for advanced reading comprehension. The automatic answer keys let parents and tutors check work instantly.',
+      description: 'Generate fresh literacy worksheets for each tutoring session or homeschool week. Vary the difficulty, language focus, theme, and activity type so users never see the same page twice. Use alphabet trains and writing practice for beginners, word searches and scrambles for building vocabulary, and cryptograms for advanced reading comprehension. The automatic answer keys let parents and tutors check work instantly.',
     },
   ],
 
@@ -141,12 +141,12 @@ const content: BundleContent = {
       description: 'You sell digital downloads on Etsy or publish workbooks on Amazon KDP and want to maximize product variety without proportional design effort. The language multiplier in this bundle is your competitive edge — every literacy worksheet you design can become 11 separate product listings across 11 languages. Sellers with multilingual literacy shops capture buyer demographics that monolingual competitors cannot reach, dramatically expanding addressable market size from a single toolkit investment.',
     },
     {
-      title: 'Teachers Pay Teachers Authors',
-      description: 'You create and sell educational resources on TpT and need tools that produce linguistically correct, curriculum-aligned literacy worksheets. Each generator delivers automatic answer keys, multiple difficulty settings, and grammatically accurate content in every supported language. Create differentiated instruction packs by grade level and language that teachers search for specifically — bilingual classrooms, ESL programs, and foreign language courses all need quality literacy materials.',
+      title: 'Gumroad and Independent Store Sellers',
+      description: 'You sell digital products on Gumroad or your own website and need tools that produce linguistically correct literacy worksheets. Each generator delivers automatic answer keys, multiple difficulty settings, and grammatically accurate content in every supported language. Create differentiated product packs by grade level and language that buyers search for specifically — bilingual programs, ESL learners, and foreign language markets all need quality literacy materials.',
     },
     {
-      title: 'Language Teachers and Tutors',
-      description: 'You teach English as a second language, foreign language classes, or bilingual programs and need authentic vocabulary-building worksheets in your target language. This bundle produces worksheets with correct diacritics, native alphabets, and grammatically accurate phrases — not rough machine translations. Generate fresh materials for each lesson, vary the activity type and theme, and use the automatic answer keys for quick assessment. Every generator offers a free trial with watermark so you can evaluate before purchasing.',
+      title: 'Language Tutors and Instructors',
+      description: 'You run ESL sessions, foreign language lessons, or bilingual programs and need authentic vocabulary-building worksheets in your target language. This bundle produces worksheets with correct diacritics, native alphabets, and grammatically accurate phrases — not rough machine translations. Generate fresh materials for each lesson, vary the activity type and theme, and use the automatic answer keys for quick assessment. Every generator offers a free trial with watermark so you can evaluate before purchasing.',
     },
     {
       title: 'Educational Content Creators',
@@ -173,7 +173,7 @@ const content: BundleContent = {
     },
     {
       question: 'What formats can I download?',
-      answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. PDF is ideal for multi-page worksheet packs on Etsy and TpT. JPEG works well for KDP interior pages and social media previews. All files download at print resolution — no upscaling or post-processing needed.',
+      answer: 'Each generator produces print-ready PDF and high-resolution JPEG files. Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square, or enter a custom size. PDF is ideal for multi-page worksheet packs on Etsy and Gumroad. JPEG works well for KDP interior pages and social media previews. All files download at print resolution — no upscaling or post-processing needed.',
     },
     {
       question: 'Can I use my own images instead of the built-in themes?',
@@ -185,7 +185,7 @@ const content: BundleContent = {
     },
     {
       question: 'Can I sell the worksheets I create?',
-      answer: 'Yes. Both the Commercial and Full Access licenses include commercial selling rights. You can sell the worksheets you generate on Etsy, Amazon KDP, Teachers Pay Teachers, your own website, or any other platform. You sell the worksheets — the generator tool itself is not transferable.',
+      answer: 'Yes. Both the Commercial and Full Access licenses include commercial selling rights. You can sell the worksheets you generate on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. You sell the worksheets — the generator tool itself is not transferable.',
     },
     {
       question: 'How many worksheets can I create?',

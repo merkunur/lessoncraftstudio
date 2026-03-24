@@ -7,31 +7,31 @@
 import { encodeImagePath } from '@/lib/encode-image-path';
 
 const authorSchemaDescriptions: Record<string, string> = {
-  en: "Experienced educators and curriculum specialists creating research-backed, printable worksheet resources for pre-K through 3rd grade classrooms in 11 languages",
-  de: "Erfahrene Lehrkräfte und Lehrplanspezialisten, die forschungsbasierte, druckbare Arbeitsblatt-Ressourcen für Vorschul- bis 3. Klasse in 11 Sprachen erstellen",
-  fr: "Pédagogues expérimentés et spécialistes des programmes créant des ressources pédagogiques imprimables fondées sur la recherche, de la maternelle au CE2, en 11 langues",
-  es: "Educadores experimentados y especialistas en currículo que crean recursos educativos imprimibles basados en investigación para aulas de preescolar a 3er grado en 11 idiomas",
-  pt: "Educadores experientes e especialistas em currículo criando recursos educacionais imprimíveis baseados em pesquisa para salas de aula da pré-escola ao 3º ano em 11 idiomas",
-  it: "Educatori esperti e specialisti di curriculum che creano risorse didattiche stampabili basate sulla ricerca per le classi dalla scuola materna alla terza elementare in 11 lingue",
-  nl: "Ervaren docenten en curriculumspecialisten die op onderzoek gebaseerde, afdrukbare werkbladen maken voor kleuterschool tot groep 5 in 11 talen",
-  sv: "Erfarna pedagoger och läroplansspecialister som skapar forskningsbaserade, utskrivbara arbetsblad för förskola till årskurs 3 på 11 språk",
-  da: "Erfarne undervisere og læreplanspecialister der skaber forskningsbaserede, printbare arbejdsark til børnehave til 3. klasse på 11 sprog",
-  no: "Erfarne pedagoger og læreplanseksperter som lager forskningsbaserte, utskrivbare arbeidsark for barnehage til 3. klasse på 11 språk",
-  fi: "Kokeneet opettajat ja opetussuunnitelma-asiantuntijat luovat tutkimukseen perustuvia, tulostettavia tehtäväresursseja esikoulusta 3. luokkaan 11 kielellä"
+  en: "Printable product creators building 33 professional worksheet generators for Etsy sellers, Amazon KDP publishers, and online entrepreneurs in 11 languages",
+  de: "Entwickler von Druckvorlagen-Produkten mit 33 professionellen Arbeitsblatt-Generatoren für Etsy-Verkäufer, Amazon-KDP-Verleger und Online-Unternehmer in 11 Sprachen",
+  fr: "Créateurs de produits imprimables proposant 33 générateurs professionnels pour les vendeurs Etsy, les éditeurs Amazon KDP et les entrepreneurs en ligne en 11 langues",
+  es: "Creadores de productos imprimibles con 33 generadores profesionales para vendedores de Etsy, editores de Amazon KDP y emprendedores en línea en 11 idiomas",
+  pt: "Criadores de produtos imprimíveis com 33 geradores profissionais para vendedores Etsy, editores Amazon KDP e empreendedores online em 11 idiomas",
+  it: "Creatori di prodotti stampabili con 33 generatori professionali per venditori Etsy, editori Amazon KDP e imprenditori online in 11 lingue",
+  nl: "Makers van printbare producten met 33 professionele werkblad-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en online ondernemers in 11 talen",
+  sv: "Skapare av utskrivbara produkter med 33 professionella generatorer för Etsy-säljare, Amazon KDP-utgivare och onlineentreprenörer på 11 språk",
+  da: "Skabere af printbare produkter med 33 professionelle generatorer til Etsy-sælgere, Amazon KDP-udgivere og online-iværksættere på 11 sprog",
+  no: "Skapere av utskrivbare produkter med 33 profesjonelle generatorer for Etsy-selgere, Amazon KDP-utgivere og nettbaserte gründere på 11 språk",
+  fi: "Tulostettavien tuotteiden tekijät, jotka tarjoavat 33 ammattimaista generaattoria Etsy-myyjille, Amazon KDP -julkaisijoille ja verkkoyrittäjille 11 kielellä"
 };
 
 const authorKnowsAbout: Record<string, string[]> = {
-  en: ["Education", "Worksheets", "Teaching Resources", "Early Childhood Education", "Elementary Education", "Curriculum Development"],
-  de: ["Bildung", "Arbeitsblätter", "Unterrichtsmaterialien", "Frühkindliche Bildung", "Grundschulbildung", "Lehrplanentwicklung"],
-  fr: ["Éducation", "Fiches pédagogiques", "Ressources pédagogiques", "Éducation de la petite enfance", "Enseignement primaire", "Développement de programmes"],
-  es: ["Educación", "Fichas de trabajo", "Recursos educativos", "Educación infantil", "Educación primaria", "Desarrollo curricular"],
-  pt: ["Educação", "Planilhas", "Recursos educacionais", "Educação infantil", "Ensino fundamental", "Desenvolvimento curricular"],
-  it: ["Istruzione", "Schede didattiche", "Risorse didattiche", "Educazione della prima infanzia", "Istruzione elementare", "Sviluppo del curriculum"],
-  nl: ["Onderwijs", "Werkbladen", "Lesmateriaal", "Vroegschoolse educatie", "Basisonderwijs", "Curriculumontwikkeling"],
-  sv: ["Utbildning", "Arbetsblad", "Undervisningsresurser", "Förskoleundervisning", "Grundskola", "Läroplansutveckling"],
-  da: ["Uddannelse", "Arbejdsark", "Undervisningsressourcer", "Førskolepædagogik", "Grundskole", "Læreplansudvikling"],
-  no: ["Utdanning", "Arbeidsark", "Undervisningsressurser", "Førskoleutdanning", "Grunnskole", "Læreplansutvikling"],
-  fi: ["Koulutus", "Työarkit", "Opetusresurssit", "Varhaiskasvatuksen koulutus", "Peruskoulu", "Opetussuunnitelman kehittäminen"]
+  en: ["Printable Products", "Worksheet Generators", "Etsy Digital Downloads", "Amazon KDP Publishing", "Commercial Licensing", "Online Printable Business"],
+  de: ["Druckbare Produkte", "Arbeitsblatt-Generatoren", "Etsy Digitale Downloads", "Amazon KDP Veröffentlichung", "Kommerzielle Lizenzierung", "Online-Druckvorlagen-Geschäft"],
+  fr: ["Produits imprimables", "Générateurs de fiches", "Téléchargements numériques Etsy", "Publication Amazon KDP", "Licence commerciale", "Business d'imprimables en ligne"],
+  es: ["Productos imprimibles", "Generadores de fichas", "Descargas digitales Etsy", "Publicación Amazon KDP", "Licencia comercial", "Negocio de imprimibles en línea"],
+  pt: ["Produtos imprimíveis", "Geradores de planilhas", "Downloads digitais Etsy", "Publicação Amazon KDP", "Licença comercial", "Negócio de impressos online"],
+  it: ["Prodotti stampabili", "Generatori di schede", "Download digitali Etsy", "Pubblicazione Amazon KDP", "Licenza commerciale", "Business di stampabili online"],
+  nl: ["Printbare producten", "Werkblad-generatoren", "Etsy digitale downloads", "Amazon KDP publicatie", "Commerciële licentie", "Online printables-bedrijf"],
+  sv: ["Utskrivbara produkter", "Arbetsblads-generatorer", "Etsy digitala nedladdningar", "Amazon KDP publicering", "Kommersiell licens", "Onlineföretag för utskrifter"],
+  da: ["Printbare produkter", "Arbejdsark-generatorer", "Etsy digitale downloads", "Amazon KDP udgivelse", "Kommerciel licens", "Online printvirksomhed"],
+  no: ["Utskrivbare produkter", "Arbeidsark-generatorer", "Etsy digitale nedlastinger", "Amazon KDP utgivelse", "Kommersiell lisens", "Nettbasert utskriftsvirksomhet"],
+  fi: ["Tulostettavat tuotteet", "Työarkki-generaattorit", "Etsy digitaaliset lataukset", "Amazon KDP julkaisu", "Kaupallinen lisenssi", "Tulostettavien verkkoliiketoiminta"]
 };
 
 /**
@@ -78,45 +78,45 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
 
   // Localized homepage descriptions
   const homepageOrgDescriptions: Record<string, string> = {
-    en: "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
-    de: "Professionelle Arbeitsblatt-Generatoren für Lehrer und Pädagogen. Erstellen Sie individuelle Unterrichtsmaterialien in Sekunden.",
-    fr: "Générateurs de fiches professionnels pour enseignants et éducateurs. Créez des matériaux pédagogiques personnalisés en quelques secondes.",
-    es: "Generadores de fichas profesionales para maestros y educadores. Cree materiales educativos personalizados en segundos.",
-    pt: "Geradores de planilhas profissionais para professores e educadores. Crie materiais educativos personalizados em segundos.",
-    it: "Generatori di schede professionali per insegnanti ed educatori. Crea materiali didattici personalizzati in pochi secondi.",
-    nl: "Professionele werkblad-generatoren voor leraren en docenten. Maak op maat gemaakte lesmateriaal in seconden.",
-    sv: "Professionella arbetsblads-generatorer för lärare och pedagoger. Skapa anpassade utbildningsmaterial på några sekunder.",
-    da: "Professionelle arbejdsark-generatorer til lærere og pædagoger. Opret tilpassede undervisningsmaterialer på få sekunder.",
-    no: "Profesjonelle arbeidsark-generatorer for lærere og pedagoger. Lag tilpassede undervisningsmateriell på sekunder.",
-    fi: "Ammattimaiset työarkki-generaattorit opettajille ja kasvattajille. Luo mukautettuja opetusmateriaaleja sekunneissa."
+    en: "33 professional printable generators for Etsy sellers, KDP publishers, and printable business entrepreneurs. Create and sell worksheets, puzzles, and activity books.",
+    de: "33 professionelle Druckvorlagen-Generatoren für Etsy-Verkäufer, KDP-Verleger und Druckvorlagen-Unternehmer. Erstellen und verkaufen Sie Arbeitsblätter, Rätsel und Aktivitätsbücher.",
+    fr: "33 générateurs professionnels d'imprimables pour les vendeurs Etsy, les éditeurs KDP et les entrepreneurs. Créez et vendez des fiches, des puzzles et des cahiers d'activités.",
+    es: "33 generadores profesionales de imprimibles para vendedores de Etsy, editores KDP y emprendedores. Cree y venda fichas, rompecabezas y libros de actividades.",
+    pt: "33 geradores profissionais de impressos para vendedores Etsy, editores KDP e empreendedores. Crie e venda planilhas, quebra-cabeças e livros de atividades.",
+    it: "33 generatori professionali di stampabili per venditori Etsy, editori KDP e imprenditori. Crea e vendi schede, puzzle e libri di attività.",
+    nl: "33 professionele printable-generatoren voor Etsy-verkopers, KDP-uitgevers en printable-ondernemers. Maak en verkoop werkbladen, puzzels en activiteitenboeken.",
+    sv: "33 professionella generatorer för utskrivbara produkter för Etsy-säljare, KDP-utgivare och entreprenörer. Skapa och sälj arbetsblad, pussel och aktivitetsböcker.",
+    da: "33 professionelle printbare generatorer til Etsy-sælgere, KDP-udgivere og iværksættere. Opret og sælg arbejdsark, puslespil og aktivitetsbøger.",
+    no: "33 profesjonelle generatorer for utskrivbare produkter for Etsy-selgere, KDP-utgivere og gründere. Lag og selg arbeidsark, puslespill og aktivitetsbøker.",
+    fi: "33 ammattimaista tulostettavien tuotteiden generaattoria Etsy-myyjille, KDP-julkaisijoille ja yrittäjille. Luo ja myy työarkkeja, pulmia ja aktiviteettikirjoja."
   };
 
   const homepageWebsiteDescriptions: Record<string, string> = {
-    en: "Free worksheet generators for teachers and parents",
-    de: "Kostenlose Arbeitsblatt-Generatoren für Lehrer und Eltern",
-    fr: "Générateurs de fiches gratuits pour enseignants et parents",
-    es: "Generadores de fichas gratuitos para maestros y padres",
-    pt: "Geradores de planilhas gratuitos para professores e pais",
-    it: "Generatori di schede gratuiti per insegnanti e genitori",
-    nl: "Gratis werkblad-generatoren voor leraren en ouders",
-    sv: "Gratis arbetsblads-generatorer för lärare och föräldrar",
-    da: "Gratis arbejdsark-generatorer til lærere og forældre",
-    no: "Gratis arbeidsark-generatorer for lærere og foreldre",
-    fi: "Ilmaiset työarkki-generaattorit opettajille ja vanhemmille"
+    en: "Printable generators for creating and selling worksheets, puzzles, and activity books online",
+    de: "Druckvorlagen-Generatoren zum Erstellen und Verkaufen von Arbeitsblättern, Rätseln und Aktivitätsbüchern online",
+    fr: "Générateurs d'imprimables pour créer et vendre des fiches, des puzzles et des cahiers d'activités en ligne",
+    es: "Generadores de imprimibles para crear y vender fichas, rompecabezas y libros de actividades en línea",
+    pt: "Geradores de impressos para criar e vender planilhas, quebra-cabeças e livros de atividades online",
+    it: "Generatori di stampabili per creare e vendere schede, puzzle e libri di attività online",
+    nl: "Printable-generatoren voor het maken en verkopen van werkbladen, puzzels en activiteitenboeken online",
+    sv: "Generatorer för utskrivbara produkter för att skapa och sälja arbetsblad, pussel och aktivitetsböcker online",
+    da: "Printbare generatorer til at oprette og sælge arbejdsark, puslespil og aktivitetsbøger online",
+    no: "Generatorer for utskrivbare produkter for å lage og selge arbeidsark, puslespill og aktivitetsbøker på nett",
+    fi: "Tulostettavien tuotteiden generaattorit työarkkien, pulmien ja aktiviteettikirjojen luomiseen ja myyntiin verkossa"
   };
 
   const homepageSoftwareDescriptions: Record<string, string> = {
-    en: "33 professional worksheet generators with 100+ themed images for creating educational materials",
-    de: "33 professionelle Arbeitsblatt-Generatoren mit 100+ thematischen Bildern zur Erstellung von Unterrichtsmaterialien",
-    fr: "33 générateurs de fiches professionnels avec plus de 100 images thématiques pour créer des matériaux pédagogiques",
-    es: "33 generadores de fichas profesionales con más de 100 imágenes temáticas para crear materiales educativos",
-    pt: "33 geradores de planilhas profissionais com mais de 100 imagens temáticas para criar materiais educativos",
-    it: "33 generatori di schede professionali con oltre 100 immagini tematiche per creare materiali didattici",
-    nl: "33 professionele werkblad-generatoren met 100+ thematische afbeeldingen voor het maken van lesmateriaal",
-    sv: "33 professionella arbetsblads-generatorer med 100+ tematiska bilder för att skapa utbildningsmaterial",
-    da: "33 professionelle arbejdsark-generatorer med 100+ tematiske billeder til at oprette undervisningsmaterialer",
-    no: "33 profesjonelle arbeidsark-generatorer med 100+ tematiske bilder for å lage undervisningsmateriell",
-    fi: "33 ammattimaista työarkki-generaattoria yli 100 temaattisella kuvalla opetusmateriaalien luomiseen"
+    en: "33 professional worksheet generators with 3,100+ themed images for creating printable products to sell on Etsy, Amazon KDP, and other marketplaces",
+    de: "33 professionelle Arbeitsblatt-Generatoren mit 3.100+ thematischen Bildern zum Erstellen von Druckprodukten für Etsy, Amazon KDP und andere Marktplätze",
+    fr: "33 générateurs professionnels avec plus de 3 100 images thématiques pour créer des produits imprimables à vendre sur Etsy, Amazon KDP et d'autres plateformes",
+    es: "33 generadores profesionales con más de 3.100 imágenes temáticas para crear productos imprimibles para vender en Etsy, Amazon KDP y otros mercados",
+    pt: "33 geradores profissionais com mais de 3.100 imagens temáticas para criar produtos imprimíveis para vender na Etsy, Amazon KDP e outros marketplaces",
+    it: "33 generatori professionali con oltre 3.100 immagini tematiche per creare prodotti stampabili da vendere su Etsy, Amazon KDP e altri marketplace",
+    nl: "33 professionele generatoren met 3.100+ thematische afbeeldingen voor het maken van printbare producten voor Etsy, Amazon KDP en andere marktplaatsen",
+    sv: "33 professionella generatorer med 3 100+ tematiska bilder för att skapa utskrivbara produkter att sälja på Etsy, Amazon KDP och andra marknadsplatser",
+    da: "33 professionelle generatorer med 3.100+ tematiske billeder til at oprette printbare produkter til salg på Etsy, Amazon KDP og andre markedspladser",
+    no: "33 profesjonelle generatorer med 3 100+ tematiske bilder for å lage utskrivbare produkter for salg på Etsy, Amazon KDP og andre markedsplasser",
+    fi: "33 ammattimaista generaattoria yli 3 100 temaattisella kuvalla tulostettavien tuotteiden luomiseen myyntiin Etsyssä, Amazon KDP:ssä ja muilla markkinapaikoilla"
   };
 
   const homepageFeatureLists: Record<string, string[]> = {
@@ -136,7 +136,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
   // 1. Organization Schema (E-A-T signals)
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
+    "@type": "Organization",
     "@id": `${baseUrl}/#organization`,
     "name": "LessonCraftStudio",
     "url": baseUrl,
@@ -185,7 +185,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     "@id": `${baseUrl}/${locale}/#software`,
     "name": "LessonCraftStudio Worksheet Generators",
     "url": `${baseUrl}/${locale}`,
-    "applicationCategory": "EducationalApplication",
+    "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web Browser",
     "inLanguage": getHreflangCode(locale),
     "offers": {
@@ -255,17 +255,17 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
   };
 
   const localizedDescriptions: Record<string, string> = {
-    en: "33 professional worksheet generators for education. Create word searches, crosswords, math puzzles and more.",
-    de: "33 professionelle Arbeitsblatt-Generatoren für Bildung. Erstellen Sie Wortsuchrätsel, Kreuzworträtsel, Mathe-Puzzles und mehr.",
-    fr: "33 générateurs de fiches professionnels pour l'éducation. Créez des mots cachés, des mots croisés, des puzzles mathématiques et plus.",
-    es: "33 generadores de fichas profesionales para educación. Cree sopas de letras, crucigramas, puzzles matemáticos y más.",
-    pt: "33 geradores de planilhas profissionais para educação. Crie caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais.",
-    it: "33 generatori di schede professionali per l'istruzione. Crea ricerca di parole, cruciverba, puzzle matematici e altro.",
-    nl: "33 professionele werkblad generatoren voor onderwijs. Maak woordzoekers, kruiswoordpuzzels, rekenpuzzels en meer.",
-    sv: "33 professionella arbetsblad generatorer för utbildning. Skapa ordjaktar, korsord, mattepussel och mer.",
-    da: "33 professionelle arbejdsark generatorer til uddannelse. Opret ordjaktar, krydsord, matematikpuslespil og mere.",
-    no: "33 profesjonelle arbeidsark generatorer for utdanning. Lag ordjaktar, kryssord, mattepuslespill og mer.",
-    fi: "33 ammattimaista työarkki generaattoria koulutukseen. Luo sanaristikkoja, ristisanatehtäviä, matemaattisia pulmia ja muuta."
+    en: "33 professional printable generators for your online business. Create word searches, crosswords, math puzzles and more to sell on Etsy and Amazon KDP.",
+    de: "33 professionelle Druckvorlagen-Generatoren für Ihr Online-Geschäft. Erstellen Sie Wortsuchrätsel, Kreuzworträtsel, Mathe-Puzzles und mehr zum Verkauf auf Etsy und Amazon KDP.",
+    fr: "33 générateurs professionnels d'imprimables pour votre business en ligne. Créez des mots cachés, des mots croisés, des puzzles mathématiques et plus à vendre sur Etsy et Amazon KDP.",
+    es: "33 generadores profesionales de imprimibles para su negocio en línea. Cree sopas de letras, crucigramas, rompecabezas matemáticos y más para vender en Etsy y Amazon KDP.",
+    pt: "33 geradores profissionais de impressos para o seu negócio online. Crie caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais para vender na Etsy e Amazon KDP.",
+    it: "33 generatori professionali di stampabili per il tuo business online. Crea ricerca di parole, cruciverba, puzzle matematici e altro da vendere su Etsy e Amazon KDP.",
+    nl: "33 professionele printable-generatoren voor uw online bedrijf. Maak woordzoekers, kruiswoordpuzzels, rekenpuzzels en meer om te verkopen op Etsy en Amazon KDP.",
+    sv: "33 professionella generatorer för utskrivbara produkter för ditt onlineföretag. Skapa ordjaktar, korsord, mattepussel och mer att sälja på Etsy och Amazon KDP.",
+    da: "33 professionelle printbare generatorer til din onlinevirksomhed. Opret ordjaktar, krydsord, matematikpuslespil og mere til salg på Etsy og Amazon KDP.",
+    no: "33 profesjonelle generatorer for utskrivbare produkter for din nettvirksomhet. Lag ordjaktar, kryssord, mattepuslespill og mer for salg på Etsy og Amazon KDP.",
+    fi: "33 ammattimaista tulostettavien tuotteiden generaattoria verkkoliiketoimintaasi. Luo sanaristikkoja, ristisanatehtäviä, matemaattisia pulmia ja muuta myytäväksi Etsyssä ja Amazon KDP:ssä."
   };
 
   return {
@@ -282,13 +282,13 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
       "url": baseUrl
     },
     "provider": {
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
       "name": "LessonCraftStudio",
       "url": baseUrl
     },
     "about": {
       "@type": "Thing",
-      "name": "Educational Worksheet Generators"
+      "name": "Professional Printable Generators"
     }
   };
 }
@@ -335,16 +335,16 @@ export function generateAppsItemListSchema(
  */
 export function generateToolsCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const names: Record<string, string> = {
-    en: "Free Printable Generators", de: "Kostenlose Druckvorlagen-Generatoren",
-    fr: "Générateurs de Fiches Gratuits", es: "Generadores de Fichas Gratuitos",
-    pt: "Geradores de Planilhas Gratuitos", it: "Generatori di Schede Stampabili",
-    nl: "Gratis Werkblad Generatoren", sv: "Gratis Arbetsblad Generatorer",
-    da: "Gratis Arbejdsark Generatorer", no: "Gratis Arbeidsark Generatorer",
-    fi: "Ilmaiset Työarkki Generaattorit"
+    en: "Professional Printable Generators", de: "Professionelle Druckvorlagen-Generatoren",
+    fr: "Générateurs Professionnels d'Imprimables", es: "Generadores Profesionales de Imprimibles",
+    pt: "Geradores Profissionais de Impressos", it: "Generatori Professionali di Stampabili",
+    nl: "Professionele Printable Generatoren", sv: "Professionella Generatorer för Utskrifter",
+    da: "Professionelle Printbare Generatorer", no: "Profesjonelle Generatorer for Utskrifter",
+    fi: "Ammattimaiset Tulostettavien Generaattorit"
   };
   const descs: Record<string, string> = {
-    en: "33 professional printable generators. Create worksheets, puzzles, and activities for education.",
-    it: "33 generatori professionali di schede stampabili. Crea schede, puzzle e attività per l'istruzione.",
+    en: "33 professional printable generators. Create worksheets, puzzles, and activity books to sell online.",
+    it: "33 generatori professionali di stampabili. Crea schede, puzzle e libri di attività da vendere online.",
   };
   return {
     "@context": "https://schema.org", "@type": "CollectionPage",
@@ -639,7 +639,7 @@ export function generateAboutPageSchemas(locale: string, baseUrl: string = getBa
   // 2. Enhanced Organization Schema with ContactPoint
   const orgSchema = {
     "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
+    "@type": "Organization",
     "@id": `${baseUrl}/#organization`,
     "name": "LessonCraftStudio",
     "url": baseUrl,

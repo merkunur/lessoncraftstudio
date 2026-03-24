@@ -6,7 +6,7 @@ const content: AppContent = {
     secondaryKeywords: [
       'printable pattern sequence worksheet maker for Etsy sellers',
       'custom train pattern worksheet generator for KDP publishers',
-      'sell pattern recognition worksheets on Teachers Pay Teachers',
+      'sell pattern recognition worksheets on Gumroad',
       'pattern train worksheets commercial license',
     ],
     lsiKeywords: [
@@ -15,14 +15,14 @@ const content: AppContent = {
       'commercial use pattern train worksheet generator',
     ],
     titleTag: 'Pattern Train Generator | Create Sequence Worksheets',
-    metaDescription: 'Create pattern train worksheets to sell on Etsy, KDP & TPT. Five pattern types, 11 themed train wagons, adjustable clue count. Try free — license available.',
+    metaDescription: 'Create pattern train worksheets to sell on Etsy, KDP & Gumroad. Five pattern types, 11 themed train wagons, adjustable clue count. Try free — license available.',
   },
 
   hero: {
     title: 'Pattern Train Worksheet Generator for Repeating Sequence Exercises',
     tagline: 'Five pattern types — AB, AAB, ABB, ABC, AABB — displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
-      'Design professional pattern recognition worksheets where students identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — students identify the pattern and determine the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only on train cars and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build differentiated math centers for TPT, the Pattern Train Worksheet Generator delivers unique train-format products in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional pattern recognition worksheets where solvers identify and complete repeating sequences displayed as images on a themed train with 11 wagons. Five distinct pattern types cover every level of sequence complexity: AB alternates two items, AAB groups two of one followed by one of another, ABB reverses that grouping, ABC rotates three different items, and AABB pairs two of each before repeating. The train layout arranges 11 wagons across three rows (5 + 3 + 3), with each wagon holding one image from the repeating pattern. One wagon is left blank — the solver identifies the pattern and determines the missing item. Adjust the clue count from 4 to 10 to control difficulty: showing 10 clues makes the pattern obvious, while showing only 4 requires genuine pattern reasoning since the first 3 wagons are always revealed. Content draws from the built-in Image Library with 3,100+ illustrations across 104 themes. A separate answer key tab shows all 11 wagons filled with the correct pattern sequence for instant verification. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at high DPI in Letter, A4, Square, or custom sizes. Every worksheet is fully visual with images only on train cars and zero text on the output, making products universally sellable without translation. Whether you create pattern recognition bundles on Etsy, compile early learning workbooks for Amazon KDP, or build a niche store on Gumroad, the Pattern Train Worksheet Generator delivers unique train-format products in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -41,7 +41,7 @@ const content: AppContent = {
       {
         title: 'Configure Clue Count and Name/Date Fields',
         description:
-          'Set the number of visible clues from 4 to 10 to control worksheet difficulty. The first 3 wagons are always shown, and the missing wagon is dynamically placed among the remaining positions. Showing 10 clues leaves only 1 blank and makes the pattern highly visible — ideal for beginners. Showing only 4 clues forces students to identify the pattern from minimal information — a genuine reasoning challenge. Toggle optional name and date cut-out fields for student identification on printed worksheets.',
+          'Set the number of visible clues from 4 to 10 to control worksheet difficulty. The first 3 wagons are always shown, and the missing wagon is dynamically placed among the remaining positions. Showing 10 clues leaves only 1 blank and makes the pattern highly visible — ideal for beginners. Showing only 4 clues forces solvers to identify the pattern from minimal information — a genuine reasoning challenge. Toggle optional name and date cut-out fields on printed worksheets.',
       },
       {
         title: 'Select Images and Add Decorations',
@@ -51,7 +51,7 @@ const content: AppContent = {
       {
         title: 'Review the Answer Key and Download',
         description:
-          'Switch to the Answer Key tab to see the completed train with all 11 wagons filled in — the missing position now shows the correct pattern item. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale export for ink-friendly versions. Then download each as a high-resolution JPEG or print-ready PDF. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — the worksheet and answer key download as separate files for a complete product package.',
+          'Switch to the Answer Key tab to see the completed train with all 11 wagons filled in — the missing position now shows the correct pattern item. Both the worksheet and answer key are independently editable on separate canvases. Toggle grayscale export for ink-friendly versions. Then download each as a high-resolution JPEG or print-ready PDF. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — the worksheet and answer key download as separate files for a complete product package.',
       },
     ],
   },
@@ -62,22 +62,22 @@ const content: AppContent = {
       {
         title: 'Train Car Visual Format with 11 Themed Wagons',
         description:
-          'Patterns display across a themed train with 11 wagons arranged in three rows (5 top, 3 middle-left, 3 middle-right). Each wagon holds one image from the repeating sequence, creating a visually engaging format that stands apart from standard grid-based pattern worksheets. The train layout gives products a distinctive look in marketplace listings — buyers browsing Etsy or TPT immediately see something different from the typical rows-and-columns pattern exercises. The themed train artwork adds production value that justifies premium pricing.',
+          'Patterns display across a themed train with 11 wagons arranged in three rows (5 top, 3 middle-left, 3 middle-right). Each wagon holds one image from the repeating sequence, creating a visually engaging format that stands apart from standard grid-based pattern worksheets. The train layout gives products a distinctive look in marketplace listings — buyers browsing Etsy or Gumroad immediately see something different from the typical rows-and-columns pattern exercises. The themed train artwork adds production value that justifies premium pricing.',
       },
       {
         title: 'Five Repeating Pattern Types for Progressive Difficulty',
         description:
-          'Five pattern types cover the full spectrum of repeating sequence complexity. AB alternates two items in the simplest possible pattern. AAB and ABB introduce asymmetric groupings where one item appears twice before or after the other. ABC rotates three different items, requiring students to track a longer repeating unit. AABB pairs two of each item in an extended cycle. This progression creates a natural difficulty ladder from kindergarten-level alternation to advanced multi-element sequences — giving sellers a built-in differentiation axis for leveled product bundles.',
+          'Five pattern types cover the full spectrum of repeating sequence complexity. AB alternates two items in the simplest possible pattern. AAB and ABB introduce asymmetric groupings where one item appears twice before or after the other. ABC rotates three different items, requiring solvers to track a longer repeating unit. AABB pairs two of each item in an extended cycle. This progression creates a natural difficulty ladder from beginner-level alternation to advanced multi-element sequences — giving sellers a built-in differentiation axis for leveled product bundles.',
       },
       {
         title: 'Adjustable Clue Count from 4 to 10 for Difficulty Control',
         description:
-          'The clue count slider controls how many of the 11 wagon positions show images versus the single blank position. The first 3 wagons are always revealed, establishing the pattern foundation. Setting 10 clues leaves only 1 blank among 10 visible items — the pattern is highly obvious. Setting 4 clues shows minimal information, requiring genuine reasoning to identify the sequence from limited data. This single setting creates a wide difficulty range from every pattern type, effectively multiplying your product variety: an AB pattern with 10 clues suits beginners, while an ABC pattern with 4 clues challenges advanced students.',
+          'The clue count slider controls how many of the 11 wagon positions show images versus the single blank position. The first 3 wagons are always revealed, establishing the pattern foundation. Setting 10 clues leaves only 1 blank among 10 visible items — the pattern is highly obvious. Setting 4 clues shows minimal information, requiring genuine reasoning to identify the sequence from limited data. This single setting creates a wide difficulty range from every pattern type, effectively multiplying your product variety: an AB pattern with 10 clues suits beginners, while an ABC pattern with 4 clues challenges advanced solvers.',
       },
       {
         title: 'Dynamic Missing Position with Intelligent Placement',
         description:
-          'The blank wagon position is dynamically selected from positions 3 through 10 based on the configured clue count, ensuring the missing item always falls within the pattern’s repeating section rather than at the obvious start. The first 3 positions are always filled to establish the pattern visually before presenting the challenge. This intelligent placement creates fair, solvable puzzles every time — students have enough context to identify the pattern before encountering the blank. The dynamic positioning also means two worksheets with the same pattern type can have different missing positions, adding variety to product bundles.',
+          ‘The blank wagon position is dynamically selected from positions 3 through 10 based on the configured clue count, ensuring the missing item always falls within the pattern’s repeating section rather than at the obvious start. The first 3 positions are always filled to establish the pattern visually before presenting the challenge. This intelligent placement creates fair, solvable puzzles every time — solvers have enough context to identify the pattern before encountering the blank. The dynamic positioning also means two worksheets with the same pattern type can have different missing positions, adding variety to product bundles.’,
       },
       {
         title: 'Image Library with 104 Themed Collections',
@@ -87,12 +87,12 @@ const content: AppContent = {
       {
         title: 'Dual Canvas System with Separate Answer Key',
         description:
-          'The worksheet and answer key live on separate, independently editable canvases accessible via tabs. The worksheet shows the train with one blank wagon; the answer key shows all 11 wagons filled with the correct pattern sequence. Each canvas supports full editing — add text, adjust layout, reposition elements — so you can customize both the student worksheet and the teacher answer key independently. Both download as separate files, giving buyers a complete product package. Including verified answer keys increases perceived value and is expected by buyers on Etsy, TPT, and KDP.',
+          'The worksheet and answer key live on separate, independently editable canvases accessible via tabs. The worksheet shows the train with one blank wagon; the answer key shows all 11 wagons filled with the correct pattern sequence. Each canvas supports full editing — add text, adjust layout, reposition elements — so you can customize both the worksheet and answer key independently. Both download as separate files, giving buyers a complete product package. Including verified answer keys increases perceived value and is expected by buyers on Etsy, Gumroad, and KDP.',
       },
       {
         title: 'Print-Ready PDF and JPEG Export at High DPI',
         description:
-          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered with a 6x multiplier for crisp, detailed output. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for classroom printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and TPT product files — no post-processing needed.',
+          'Download worksheets and answer keys as high-resolution JPEG images or print-ready PDF documents rendered with a 6x multiplier for crisp, detailed output. Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom sizes are all supported. Toggle grayscale export for ink-friendly versions ideal for bulk printing or black-and-white workbooks. Every export is production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files — no post-processing needed.',
       },
       {
         title: 'Full Canvas Editing with Text and Decoration Tools',
@@ -118,22 +118,22 @@ const content: AppContent = {
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
-        title: 'Differentiated Math and Visual Centers for TPT',
+        title: 'Tiered Pattern Bundles on Gumroad',
         description:
-          'Build leveled pattern recognition practice sets using pattern complexity as the differentiation axis: Level 1 (AB patterns, 8–10 clues), Level 2 (AAB/ABB patterns, 6–8 clues), Level 3 (ABC patterns, 5–6 clues), and Level 4 (AABB patterns, 4–5 clues). Each level targets a different cognitive demand — from recognizing simple alternation to identifying complex multi-element sequences from limited information. The train car format creates an engaging visual theme that works as a classroom center activity. Package each level with themed exercises and separate answer keys for teacher convenience.',
-        platform: 'Teachers Pay Teachers (teacherspayteachers.com)',
+          'Build leveled pattern recognition practice sets using pattern complexity as the tiering axis: Level 1 (AB patterns, 8–10 clues), Level 2 (AAB/ABB patterns, 6–8 clues), Level 3 (ABC patterns, 5–6 clues), and Level 4 (AABB patterns, 4–5 clues). Each level targets a different cognitive demand — from recognizing simple alternation to identifying complex multi-element sequences from limited information. The train car format creates an engaging visual theme that stands out in product listings. Package each level with themed exercises and separate answer keys, then sell as individual tiers or a complete bundle.',
+        platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Multilingual Visual Worksheets for Global Markets',
         description:
           'Because Pattern Train worksheets contain only images on train cars with zero text on the output, the same product works in every language without modification. Create one set of pattern train exercises and sell it worldwide — no translation needed, no separate language versions to maintain. Changing the content language only affects the image library labels in the generator, not the printed worksheet. List identical products on Etsy shops targeting different countries, or publish the same KDP interior across all international Amazon marketplaces. One workflow produces a universally sellable product.',
-        platform: 'Etsy / Amazon KDP / TPT (global)',
+        platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: 'Classroom and Tutoring Pattern Concept Tool',
+        title: ‘Pinterest Funnel for Pattern Train Products’,
         description:
-          'Upload custom images to create pattern train worksheets for any subject or unit — use plant growth stages for a science lesson, historical artifact images for social studies, or musical note symbols for a music class. The five pattern types let you match the exercise to the learning objective: AB for introduction, ABC and AABB for assessment. Adjust the clue count to match each student’s ability level — more clues for struggling learners, fewer clues for advanced students. Print custom sets in minutes for small groups or entire classes. The separate answer key tab saves grading time, and the visual train format engages students who find grid-based worksheets monotonous.',
-        platform: 'Classroom / Tutoring / Homeschool',
+          ‘Upload custom images to create eye-catching pattern train worksheets that double as Pinterest pins — the distinctive train car format stops scrollers mid-feed. Pin sample worksheets linking to your Etsy or Gumroad listing. The five pattern types let you create pins at every difficulty level: AB for the broadest audience, ABC and AABB for buyers seeking advanced content. Adjust the clue count to produce varied pin images from the same theme. The separate answer key tab adds perceived value to every listing, and the visual train format stands out from the grid-based worksheets that dominate Pinterest search results.’,
+        platform: ‘Pinterest / Etsy / Gumroad’,
       },
     ],
   },
@@ -142,12 +142,12 @@ const content: AppContent = {
     {
       question: 'What are the five pattern types and how do they differ?',
       answer:
-        'AB alternates two items (A-B-A-B) for the simplest repeating pattern. AAB groups two of one item then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three different items (A-B-C-A-B-C), requiring students to track a longer repeating unit. AABB pairs two of each item (A-A-B-B-A-A-B-B) in an extended cycle. The progression from AB to AABB creates a natural difficulty ladder from simple two-element alternation to complex multi-element sequences.',
+        'AB alternates two items (A-B-A-B) for the simplest repeating pattern. AAB groups two of one item then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three different items (A-B-C-A-B-C), requiring solvers to track a longer repeating unit. AABB pairs two of each item (A-A-B-B-A-A-B-B) in an extended cycle. The progression from AB to AABB creates a natural difficulty ladder from simple two-element alternation to complex multi-element sequences.',
     },
     {
       question: 'How does the clue count control difficulty?',
       answer:
-        'The clue count sets how many of the 11 train wagons show images. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious. With 4 clues, students see minimal information and must reason carefully to identify the sequence. This single setting transforms any pattern type from a straightforward exercise into a genuine reasoning challenge, effectively multiplying product variety from each pattern type.',
+        'The clue count sets how many of the 11 train wagons show images. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious. With 4 clues, only minimal information is visible and careful reasoning is needed to identify the sequence. This single setting transforms any pattern type from a straightforward exercise into a genuine reasoning challenge, effectively multiplying product variety from each pattern type.',
     },
     {
       question: 'How are the 11 train wagons arranged on the page?',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'How is the missing wagon position determined?',
       answer:
-        'The blank wagon is dynamically placed among positions 3 through 10 based on the configured clue count. The first 3 positions are always filled so students see enough of the pattern before encountering the blank. This intelligent placement ensures every puzzle is fair and solvable. Two worksheets with the same pattern type can have different missing positions, adding natural variety to product bundles.',
+        'The blank wagon is dynamically placed among positions 3 through 10 based on the configured clue count. The first 3 positions are always filled so the solver sees enough of the pattern before encountering the blank. This intelligent placement ensures every puzzle is fair and solvable. Two worksheets with the same pattern type can have different missing positions, adding natural variety to product bundles.',
     },
     {
       question: 'How do I select images for the train wagons?',
@@ -192,7 +192,7 @@ const content: AppContent = {
     {
       question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
       answer:
-        'Yes. With a commercial license, you have full rights to sell your pattern train worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as teacher resources on TPT, or through any other sales channel. The five pattern types, adjustable clue count, and unique train car format give you strong differentiation and global sellability in marketplace categories.',
+        'Yes. With a commercial license, you have full rights to sell your pattern train worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The five pattern types, adjustable clue count, and unique train car format give you strong differentiation and global sellability in marketplace categories.',
     },
     {
       question: 'What is the refund policy?',
@@ -262,13 +262,13 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/english/pattern train/pattern_train_worksheet.webp',
-      primaryAlt: 'Pattern train worksheet with themed train wagons showing AB repeating pattern with one missing wagon for students to complete',
+      primaryAlt: 'Pattern train worksheet with themed train wagons showing AB repeating pattern with one missing wagon to complete',
     },
     sampleGallery: [
       {
         src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
         alt: 'Pattern train worksheet in AB alternating pattern mode with animal images across 11 themed train wagons',
-        caption: 'AB pattern with animal theme — students identify the alternating sequence and fill in the missing wagon',
+        caption: 'AB pattern with animal theme — identify the alternating sequence and fill in the missing wagon',
       },
       {
         src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
@@ -278,7 +278,7 @@ const content: AppContent = {
       {
         src: '/samples/english/pattern train/pattern_train_answer_key.webp',
         alt: 'Pattern train answer key showing all 11 wagons filled with the correct pattern sequence',
-        caption: 'Answer key view — all 11 wagons filled with the correct pattern for teacher verification',
+        caption: 'Answer key view — all 11 wagons filled with the correct pattern for instant verification',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

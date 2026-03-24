@@ -2,7 +2,7 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'picture sudoku for kids',
+    primaryKeyword: 'picture sudoku maker',
     secondaryKeywords: [
       'picture sudoku maker for sellers',
       'create image sudoku puzzles to sell',
@@ -14,14 +14,14 @@ const content: ToolContent = {
       'three difficulty levels easy medium hard sudoku creator',
       'auto answer key complete filled grid sudoku generator',
     ],
-    titleTag: 'Picture Sudoku Maker — Picture Sudoku for Kids Generator',
-    metaDescription: 'Create picture sudoku for kids with 4x4 image grids, three difficulty levels, auto answer keys, and 104 themed collections. Try free — license available.',
+    titleTag: 'Picture Sudoku Maker — Sell Picture Sudoku Puzzles Online',
+    metaDescription: 'Create picture sudoku with 4x4 image grids, three difficulty levels, auto answer keys, and 104 themed collections. Try free — license available.',
   },
 
   hero: {
     title: 'Picture Sudoku Maker',
     tagline: '4×4 image-based sudoku puzzle generator with three difficulty levels (Easy 4 blanks, Medium 6 blanks, Hard 8 blanks), auto-generated answer keys showing complete filled grids, theme-based and manual image selection across 104 collections with 3,100+ illustrations, premium grid design with alternating block colors and multi-layered shadows, and purely visual puzzles that sell worldwide without translation',
-    description: 'Create professional picture sudoku for kids where students fill blank cells with the correct images using row-and-column logic on a 4×4 grid. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Three difficulty levels control the challenge: Easy removes 4 cells, Medium removes 6, and Hard removes 8 — half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually browse, search, and upload to choose exactly 4 images yourself. The premium grid design features alternating 2×2 block colors in light blue (#F8F9FC) and light pink (#FFF5F7), bold center dividers (#7C8DB5, 3px stroke), lighter inner lines (#D1D9E6, 1.5px), an indigo outer border (#667EEA) with 18px rounded corners, and three multi-layered shadows for depth. Images display at 65% of cell size for clear visual separation. Every puzzle generates a styled "Picture Sudoku" header with a purple background (#5E35B1) and localized title text across all 11 supported languages. The dual-canvas system simultaneously creates a worksheet tab and an answer key tab — the answer key shows the complete filled 4×4 grid with all 16 cells populated. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or custom dimensions — no Square page size for this app. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300% in 25% increments, and undo/redo 50 states. Because picture sudoku is entirely visual — no words appear on the puzzle grid — every worksheet works identically in all 11 languages, making your products sellable worldwide. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional picture sudoku puzzles where solvers fill blank cells with the correct images using row-and-column logic on a 4×4 grid. Each puzzle uses exactly 4 unique images that must appear once in every row and once in every column — the same rules as classic sudoku, but with colorful illustrations instead of numbers. Three difficulty levels control the challenge: Easy removes 4 cells, Medium removes 6, and Hard removes 8 — half the grid. Select images through theme-based auto-selection that randomly picks 4 images from any of 104 themed collections, or manually browse, search, and upload to choose exactly 4 images yourself. The premium grid design features alternating 2×2 block colors in light blue (#F8F9FC) and light pink (#FFF5F7), bold center dividers (#7C8DB5, 3px stroke), lighter inner lines (#D1D9E6, 1.5px), an indigo outer border (#667EEA) with 18px rounded corners, and three multi-layered shadows for depth. Images display at 65% of cell size for clear visual separation. Every puzzle generates a styled "Picture Sudoku" header with a purple background (#5E35B1) and localized title text across all 11 supported languages. The dual-canvas system simultaneously creates a worksheet tab and an answer key tab — the answer key shows the complete filled 4×4 grid with all 16 cells populated. Apply background themes and border themes with independent opacity sliders (0–1, step 0.05). Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana) and text outline 0–10. Export print-ready PDFs and JPEGs at 300 DPI (6× multiplier) in Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or custom dimensions — no Square page size for this app. Toggle grayscale for ink-friendly output. Edit everything on the Fabric.js canvas with 6 alignment options plus center-on-page, layers, lock/unlock, zoom 25%–300% in 25% increments, and undo/redo 50 states. Because picture sudoku is entirely visual — no words appear on the puzzle grid — every worksheet works identically in all 11 languages, making your products sellable worldwide. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choose the Difficulty Level',
-        description: 'Open the Sudoku for Kids panel and select a difficulty from the dropdown: Easy, Medium, or Hard. Easy removes 4 cells from the 4×4 grid, leaving 12 filled and 4 for the student to solve. Medium removes 6 cells for a moderate challenge. Hard removes 8 cells — exactly half the grid — requiring more advanced logical reasoning. The system randomly selects which cells become blank, so regenerating the same difficulty produces a different puzzle configuration every time.',
+        description: 'Open the Sudoku Settings panel and select a difficulty from the dropdown: Easy, Medium, or Hard. Easy removes 4 cells from the 4×4 grid, leaving 12 filled and 4 to solve. Medium removes 6 cells for a moderate challenge. Hard removes 8 cells — exactly half the grid — requiring more advanced logical reasoning. The system randomly selects which cells become blank, so regenerating the same difficulty produces a different puzzle configuration every time.',
       },
       {
         title: 'Select Exactly 4 Images',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Download All Four Files',
-        description: 'Toggle grayscale for ink-friendly versions ideal for classroom printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI (6× multiplier, JPEG quality 1.0). Files export as sudoku_worksheet and sudoku_answer_key. Each tab has its own pair of download buttons. All exports are production-ready for Etsy listings, Amazon KDP interiors, and TpT resource files with no post-processing needed. Click Generate again to produce a new puzzle with different random cell arrangements — same images, same difficulty, entirely different puzzle layout.',
+        description: 'Toggle grayscale for ink-friendly versions ideal for bulk printing and KDP interiors. Download all four files from a single session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all rendered at 300 DPI (6× multiplier, JPEG quality 1.0). Files export as sudoku_worksheet and sudoku_answer_key. Each tab has its own pair of download buttons. All exports are production-ready for Etsy listings, Amazon KDP interiors, and Gumroad product files with no post-processing needed. Click Generate again to produce a new puzzle with different random cell arrangements — same images, same difficulty, entirely different puzzle layout.',
       },
     ],
   },
@@ -72,12 +72,12 @@ const content: ToolContent = {
       description: 'Compile 50–80 picture sudoku puzzles into printed workbooks for Amazon KDP. Structure chapters by difficulty: Chapter 1 uses Easy puzzles (4 blanks) for beginners learning row-and-column elimination, Chapter 2 uses Medium (6 blanks) for developing logical deduction, and Chapter 3 uses Hard (8 blanks) demanding multi-step reasoning with half the grid empty. Include answer key pages at the back showing complete filled grids with all 16 cells populated. Toggle grayscale for ink-friendly output that prints perfectly in black-and-white. The purely visual format requires no translation, so one interior serves every international KDP marketplace.',
     },
     {
-      title: 'Classroom Logic and Reasoning Activities with Answer Keys',
-      description: 'Build classroom-ready picture sudoku worksheets for morning work, early finishers, and enrichment centers with printed answer keys for self-checking stations. Picture sudoku develops logical deduction and spatial reasoning in a format accessible to pre-readers who have not mastered numerals. Create curriculum-adjacent sets: animal classification sudoku for science units, food group logic puzzles for nutrition lessons, community helper reasoning activities for social studies. Every worksheet exports with its auto-generated answer key showing the complete filled grid, eliminating teacher prep time.',
+      title: 'Logic and Reasoning Activity Products with Answer Keys',
+      description: 'Build ready-to-sell picture sudoku worksheets with printed answer keys for self-checking. Picture sudoku develops logical deduction and spatial reasoning in a format accessible to pre-readers who have not mastered numerals. Create themed sets: animal classification sudoku, food group logic puzzles, and community helper reasoning activities. Every worksheet exports with its auto-generated answer key showing the complete filled grid, saving you the time of creating separate solution pages.',
     },
     {
       title: 'Early Learner Introduction-to-Logic Puzzle Packs',
-      description: 'The 4×4 grid format with images instead of numbers makes picture sudoku the ideal introduction to logical reasoning for preschool and kindergarten learners. Easy difficulty (4 blanks with 12 clues) provides scaffolded entry where students can solve one cell at a time using simple row-and-column elimination. Create themed sets using friendly, familiar images — animals, food, toys, vehicles — that engage young learners while building foundational logic skills. Parents and early childhood educators pay premium prices for activities that combine cognitive development with visual engagement.',
+      description: 'The 4×4 grid format with images instead of numbers makes picture sudoku the ideal introduction to logical reasoning for the early-learner niche. Easy difficulty (4 blanks with 12 clues) provides scaffolded entry where solvers can tackle one cell at a time using simple row-and-column elimination. Create themed sets using friendly, familiar images — animals, food, toys, vehicles — that engage young users while building foundational logic skills. Buyers pay premium prices for activities that combine cognitive development with visual engagement.',
     },
     {
       title: 'Seasonal Picture Sudoku Collections',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Multi-Format Visual Logic Bundles',
-      description: 'Pair picture sudoku puzzles with grid match activities, missing pieces challenges, odd one out worksheets, and pattern recognition sheets using coordinated themes across multiple generators. Picture sudoku develops row-and-column deduction. Grid match builds spatial mapping. Missing pieces challenges part-to-whole reasoning. Each format targets a different cognitive skill while maintaining thematic consistency. Multi-format bundles command premium prices and give students varied logic practice across a unified theme — parents and teachers pay more for comprehensive skill-building collections.',
+      description: 'Pair picture sudoku puzzles with grid match activities, missing pieces challenges, odd one out worksheets, and pattern recognition sheets using coordinated themes across multiple generators. Picture sudoku develops row-and-column deduction. Grid match builds spatial mapping. Missing pieces challenges part-to-whole reasoning. Each format targets a different cognitive skill while maintaining thematic consistency. Multi-format bundles command premium prices and give users varied logic practice across a unified theme — buyers pay more for comprehensive skill-building collections.',
     },
   ],
 
@@ -101,13 +101,13 @@ const content: ToolContent = {
       platform: 'Amazon KDP',
     },
     {
-      title: 'TpT Classroom Logic and Reasoning Activity Packs',
-      description: 'Upload picture sudoku activity packs to TpT with auto-generated answer keys as a key selling point. Teachers searching for critical thinking and logic activities value worksheets that arrive classroom-ready with solutions included. Create curriculum-adjacent sets: animal classification for science units, food group logic for nutrition, community helper reasoning for social studies. Each pack includes Easy versions for guided instruction and Hard versions for independent challenge — three difficulty levels serve the full skill spectrum in one product.',
-      platform: 'Teachers Pay Teachers',
+      title: 'Gumroad Logic and Reasoning Activity Packs',
+      description: 'Upload picture sudoku activity packs to Gumroad with auto-generated answer keys as a key selling point. Buyers searching for critical thinking and logic activities value worksheets that arrive ready-to-use with solutions included. Create themed sets: animal classification, food group logic, and community helper reasoning. Each pack includes Easy versions for the beginner tier and Hard versions for advanced challenge — three difficulty levels serve the full skill spectrum in one product.',
+      platform: 'Gumroad',
     },
     {
       title: 'Pinterest Picture Sudoku Traffic Funnel',
-      description: 'Picture sudoku worksheets make visually striking Pinterest pins — the 4×4 grid with colorful themed images in alternating blue and pink blocks, bold dividers, and an indigo border creates an immediately recognizable puzzle format that parents and teachers click. Pin sample worksheets showing all three difficulty levels with themed images. Create separate pin series for "picture sudoku for kids," "printable logic puzzles for preschool," and "visual sudoku worksheets." The premium grid design stands out in crowded pin feeds. Link each pin to your Etsy or TpT product listings.',
+      description: 'Picture sudoku worksheets make visually striking Pinterest pins — the 4×4 grid with colorful themed images in alternating blue and pink blocks, bold dividers, and an indigo border creates an immediately recognizable puzzle format that buyers click. Pin sample worksheets showing all three difficulty levels with themed images. Create separate pin series for "picture sudoku puzzles," "printable logic puzzles," and "visual sudoku worksheets." The premium grid design stands out in crowded pin feeds. Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Global Visual Logic Puzzle Product Line',
-      description: 'Picture Sudoku produces purely visual puzzles — the 4×4 grid contains only images, no words, letters, or numbers. The auto-generated header translates into all 11 supported languages, but the actual puzzle grid contains only pictures. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on TpT for international teachers. No separate language versions, no translation costs, no per-locale maintenance.',
+      description: 'Picture Sudoku produces purely visual puzzles — the 4×4 grid contains only images, no words, letters, or numbers. The auto-generated header translates into all 11 supported languages, but the actual puzzle grid contains only pictures. The same product files work in every country without translation or modification. One creation session produces a globally sellable catalog. Sell identical files across Etsy shops targeting different countries, publish the same KDP interiors on all international Amazon marketplaces, and list on Gumroad for international buyers. No separate language versions, no translation costs, no per-locale maintenance.',
       platform: 'Etsy / Amazon KDP',
     },
   ],
@@ -129,11 +129,11 @@ const content: ToolContent = {
     },
     {
       title: 'Mix All Three Difficulty Levels in Every Bundle',
-      description: 'Bundles that include Easy, Medium, and Hard picture sudoku puzzles serve a wider age range and justify higher pricing. Easy (4 blanks) works for preschool and kindergarten learners just discovering logic. Medium (6 blanks) challenges early elementary students. Hard (8 blanks — half the grid) pushes older students into multi-step reasoning. Label your product listings with the full age range (ages 3–8) to attract more buyers. Progressive-difficulty bundles outsell single-difficulty products because parents and teachers want materials that grow with the learner.',
+      description: 'Bundles that include Easy, Medium, and Hard picture sudoku puzzles serve a wider age range and justify higher pricing. Easy (4 blanks) works for the early-learner niche. Medium (6 blanks) challenges intermediate-level users. Hard (8 blanks — half the grid) pushes advanced solvers into multi-step reasoning. Label your product listings with the full age range (ages 3–8) to attract more buyers. Progressive-difficulty bundles outsell single-difficulty products because buyers want materials that grow with the learner.',
     },
     {
       title: 'Exploit the Purely Visual Format for Global Sales',
-      description: 'Picture sudoku puzzles contain only images — no language-specific text on the puzzle grid itself. Every puzzle you create is instantly sellable worldwide without translation or localization. One set of picture sudoku puzzles serves every international Etsy shop, every KDP marketplace, and every TpT buyer regardless of language. While competitors create separate language versions of text-heavy worksheets, your visual puzzles work everywhere from a single file set. The auto-generated "Picture Sudoku" header translates automatically across all 11 languages, but the puzzle content requires zero localization.',
+      description: 'Picture sudoku puzzles contain only images — no language-specific text on the puzzle grid itself. Every puzzle you create is instantly sellable worldwide without translation or localization. One set of picture sudoku puzzles serves every international Etsy shop, every KDP marketplace, and every Gumroad buyer regardless of language. While competitors create separate language versions of text-heavy worksheets, your visual puzzles work everywhere from a single file set. The auto-generated "Picture Sudoku" header translates automatically across all 11 languages, but the puzzle content requires zero localization.',
     },
     {
       title: 'Leverage the Premium Grid Design in Product Photos',
@@ -141,11 +141,11 @@ const content: ToolContent = {
     },
     {
       title: 'Include Answer Keys in Every Listing Preview',
-      description: 'The auto-generated answer key showing the complete filled 4×4 grid with all 16 cells populated is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the complete filled grid clearly in product photos. Products that include answer keys consistently outsell puzzle-only listings because teachers and parents want self-checking materials that save grading time. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
+      description: 'The auto-generated answer key showing the complete filled 4×4 grid with all 16 cells populated is your strongest selling differentiator. Always include answer key preview images in your marketplace listings — show the complete filled grid clearly in product photos. Products that include answer keys consistently outsell puzzle-only listings because buyers want self-checking materials. The dual-canvas system generates both versions simultaneously, so including the answer key costs you nothing extra in production time.',
     },
     {
-      title: 'Use Grayscale for Budget-Friendly Classroom Products',
-      description: 'Toggle grayscale to create ink-friendly picture sudoku worksheets specifically for the classroom and homeschool market. Many teachers print worksheets on black-and-white printers and value products optimized for grayscale output. Create dual-format bundles that include both color and grayscale versions of the same puzzles — buyers perceive this as twice the value. KDP print-on-demand interiors also benefit from grayscale optimization since color printing costs significantly more.',
+      title: 'Use Grayscale for Budget-Friendly Bulk Printing Products',
+      description: 'Toggle grayscale to create ink-friendly picture sudoku worksheets optimized for bulk printing and the homeschool market. Many buyers print worksheets on black-and-white printers and value products optimized for grayscale output. Create dual-format bundles that include both color and grayscale versions of the same puzzles — buyers perceive this as twice the value. KDP print-on-demand interiors also benefit from grayscale optimization since color printing costs significantly more.',
     },
     {
       title: 'Regenerate for Instant Puzzle Variety',
@@ -160,11 +160,11 @@ const content: ToolContent = {
     },
     {
       question: 'How does a 4×4 picture sudoku puzzle work?',
-      answer: 'A 4×4 picture sudoku uses a grid of 16 cells arranged in 4 rows and 4 columns. Four unique images replace traditional numbers. The rule is the same as classic sudoku: each image must appear exactly once in every row and exactly once in every column. Some cells start filled with images (clues), and the student fills in the blank cells by using logical elimination — checking which image is missing from each row and column to determine the correct placement. The image-based format makes puzzles accessible to pre-readers who have not mastered numerals yet.',
+      answer: 'A 4×4 picture sudoku uses a grid of 16 cells arranged in 4 rows and 4 columns. Four unique images replace traditional numbers. The rule is the same as classic sudoku: each image must appear exactly once in every row and exactly once in every column. Some cells start filled with images (clues), and the solver fills in the blank cells by using logical elimination — checking which image is missing from each row and column to determine the correct placement. The image-based format makes puzzles accessible to pre-readers who have not mastered numerals yet.',
     },
     {
       question: 'What do the three difficulty levels control?',
-      answer: 'Difficulty determines how many cells are left blank for the student to solve. Easy removes 4 cells from the 16-cell grid, leaving 12 clues for straightforward row-and-column elimination. Medium removes 6 cells, requiring students to consider multiple constraints simultaneously. Hard removes 8 cells — exactly half the grid — demanding multi-step logical reasoning to complete. The system randomly selects which cells are blanked, so regenerating the same difficulty creates a different puzzle layout every time.',
+      answer: 'Difficulty determines how many cells are left blank for the solver to complete. Easy removes 4 cells from the 16-cell grid, leaving 12 clues for straightforward row-and-column elimination. Medium removes 6 cells, requiring solvers to consider multiple constraints simultaneously. Hard removes 8 cells — exactly half the grid — demanding multi-step logical reasoning to complete. The system randomly selects which cells are blanked, so regenerating the same difficulty creates a different puzzle layout every time.',
     },
     {
       question: 'Why does the generator require exactly 4 images?',
@@ -176,11 +176,11 @@ const content: ToolContent = {
     },
     {
       question: 'How does the auto-generated answer key work?',
-      answer: 'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the 4×4 grid with blank cells where students need to determine the correct images. The answer key shows the exact same grid layout and premium design but with all 16 cells filled — every blank cell is populated with the correct image. Both versions export separately using four dedicated buttons: sudoku_worksheet JPEG, sudoku_worksheet PDF, sudoku_answer_key JPEG, and sudoku_answer_key PDF. The answer key generates simultaneously with the puzzle, so there is no manual creation step.',
+      answer: 'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the 4×4 grid with blank cells where solvers need to determine the correct images. The answer key shows the exact same grid layout and premium design but with all 16 cells filled — every blank cell is populated with the correct image. Both versions export separately using four dedicated buttons: sudoku_worksheet JPEG, sudoku_worksheet PDF, sudoku_answer_key JPEG, and sudoku_answer_key PDF. The answer key generates simultaneously with the puzzle, so there is no manual creation step.',
     },
     {
       question: 'What makes the grid design premium?',
-      answer: 'The sudoku grid features alternating 2×2 block backgrounds in light blue (#F8F9FC) and light pink (#FFF5F7) that help students identify block boundaries. Bold center dividers (#7C8DB5, 3px stroke) separate the four quadrants while lighter inner lines (#D1D9E6, 1.5px) define individual cells. An indigo outer border (#667EEA) with 18px rounded corners frames the entire grid, and three multi-layered shadows at varying offsets add professional depth. Images display at 65% of cell size for clear visual separation within each cell.',
+      answer: 'The sudoku grid features alternating 2×2 block backgrounds in light blue (#F8F9FC) and light pink (#FFF5F7) that help solvers identify block boundaries. Bold center dividers (#7C8DB5, 3px stroke) separate the four quadrants while lighter inner lines (#D1D9E6, 1.5px) define individual cells. An indigo outer border (#667EEA) with 18px rounded corners frames the entire grid, and three multi-layered shadows at varying offsets add professional depth. Images display at 65% of cell size for clear visual separation within each cell.',
     },
     {
       question: 'Are picture sudoku puzzles unique every time?',
@@ -192,11 +192,11 @@ const content: ToolContent = {
     },
     {
       question: 'What page sizes and export formats are available?',
-      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Note that this app does not include the Square (1200×1200) page size found in some other generators. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: sudoku_worksheet JPEG, sudoku_worksheet PDF, sudoku_answer_key JPEG, and sudoku_answer_key PDF. All exports are production-ready for digital downloads, printed workbooks, and classroom handouts.',
+      answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Note that this app does not include the Square (1200×1200) page size found in some other generators. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: sudoku_worksheet JPEG, sudoku_worksheet PDF, sudoku_answer_key JPEG, and sudoku_answer_key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
     {
       question: 'Can I sell picture sudoku worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell picture sudoku worksheets as digital downloads on Etsy, printed logic workbooks on Amazon KDP, classroom resources on TpT, or through any other sales channel. The three difficulty levels, theme-based and manual image selection, auto-generated answer keys with complete filled grids, custom image uploads, premium grid design, and 104 themed image collections give you everything needed to create professional picture sudoku products that compete in logic puzzle categories across every major marketplace.',
+      answer: 'Yes. With a commercial license, you have full rights to sell picture sudoku worksheets as digital downloads on Etsy, printed logic workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The three difficulty levels, theme-based and manual image selection, auto-generated answer keys with complete filled grids, custom image uploads, premium grid design, and 104 themed image collections give you everything needed to create professional picture sudoku products that compete in logic puzzle categories across every major marketplace.',
     },
     {
       question: 'What is your refund policy?',

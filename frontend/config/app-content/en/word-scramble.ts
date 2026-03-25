@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: \'Custom Vocabulary Products for Repeat Buyers\',
+        title: 'Custom Vocabulary Products for Repeat Buyers',
         description:
-          \'Use Custom Word List mode to create word scramble worksheets for any vocabulary list — weekly spelling words, science terms, social studies vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Adjust difficulty level to suit the target audience: Easy with color-coded tiles for beginner-level products, No Clues with All Black tiles for advanced puzzle fans. Generate custom sets in minutes and list them as niche vocabulary packs on Etsy or Gumroad. The automatic answer key adds professional value, and the letter-rearrangement format keeps solvers actively engaged compared to traditional fill-in-the-blank worksheets.\',
-        platform: \'Etsy / Gumroad / Your Own Store\',
+          'Use Custom Word List mode to create word scramble worksheets for any vocabulary list — weekly spelling words, science terms, social studies vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Adjust difficulty level to suit the target audience: Easy with color-coded tiles for beginner-level products, No Clues with All Black tiles for advanced puzzle fans. Generate custom sets in minutes and list them as niche vocabulary packs on Etsy or Gumroad. The automatic answer key adds professional value, and the letter-rearrangement format keeps solvers actively engaged compared to traditional fill-in-the-blank worksheets.',
+        platform: 'Etsy / Gumroad / Your Own Store',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        \'In standard Image Library mode, the word to unscramble is the image\'s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product\'s theme while still showing the image as a visual clue.\',
+        'In standard Image Library mode, the word to unscramble is the image\'s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product\'s theme while still showing the image as a visual clue.',
     },
     {
       question: 'What can I do with Custom Word List mode?',

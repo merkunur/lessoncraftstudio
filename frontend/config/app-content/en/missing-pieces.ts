@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Numbered Solution Options with Distractor Pieces',
         description:
-          \'Solution options are displayed in numbered containers (1–N) with yellow-highlighted number labels for clear identification. When solution options exceed the number of missing pieces, the extra options are distractor pieces — extracted from different areas of the same image that don\'t match any hole. Distractors force solvers to carefully compare visual details rather than simply matching by elimination. Portrait worksheets arrange options in a single horizontal row below the puzzle (75% of max size); landscape worksheets place them on the right side (50% width) in a horizontal row.\',
+          'Solution options are displayed in numbered containers (1–N) with yellow-highlighted number labels for clear identification. When solution options exceed the number of missing pieces, the extra options are distractor pieces — extracted from different areas of the same image that don\'t match any hole. Distractors force solvers to carefully compare visual details rather than simply matching by elimination. Portrait worksheets arrange options in a single horizontal row below the puzzle (75% of max size); landscape worksheets place them on the right side (50% width) in a horizontal row.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'What are distractor pieces and how are they generated?',
       answer:
-        \'Distractor pieces are extra solution options that don\'t match any hole in the puzzle. They\'re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don\'t overlap with correct pieces. Distractors prevent solving by elimination alone — the solver must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives.\',
+        'Distractor pieces are extra solution options that don\'t match any hole in the puzzle. They\'re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don\'t overlap with correct pieces. Distractors prevent solving by elimination alone — the solver must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives.',
     },
     {
       question: 'How does the smart piece extraction algorithm work?',

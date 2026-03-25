@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: \'Pinterest Funnel to Drive Repeat Buyers\',
+        title: 'Pinterest Funnel to Drive Repeat Buyers',
         description:
-          \'Pin eye-catching alphabet train samples on Pinterest — the train format is inherently visual and gets strong engagement. Link each pin to your Etsy listing or Gumroad product page. Create boards for each theme (animals, food, vehicles) and each difficulty level to capture search traffic across multiple keywords. The distinctive train layout stops scrollers in their feed, and buyers who purchase one theme pack frequently return for others — building a repeat-buyer base from a single product line.\',
-        platform: \'Pinterest → Etsy / Gumroad\',
+          'Pin eye-catching alphabet train samples on Pinterest — the train format is inherently visual and gets strong engagement. Link each pin to your Etsy listing or Gumroad product page. Create boards for each theme (animals, food, vehicles) and each difficulty level to capture search traffic across multiple keywords. The distinctive train layout stops scrollers in their feed, and buyers who purchase one theme pack frequently return for others — building a repeat-buyer base from a single product line.',
+        platform: 'Pinterest → Etsy / Gumroad',
       },
     ],
   },

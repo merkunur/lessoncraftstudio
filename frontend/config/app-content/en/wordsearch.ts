@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: \'Pinterest Lead Funnel for Word Search Products\',
+        title: 'Pinterest Lead Funnel for Word Search Products',
         description:
-          \'Use Custom Word List mode to create free sample word search worksheets for any vocabulary niche — spelling words, science terms, seasonal vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Post eye-catching solved puzzles on Pinterest linking to your Etsy or Gumroad store. Offer a free sample PDF to build your email list, then upsell full themed bundles to repeat buyers. The color-coded answer key adds perceived value, and the classic word search format drives consistent engagement across all demographics.\',
-        platform: \'Pinterest / Email List / Etsy / Gumroad\',
+          'Use Custom Word List mode to create free sample word search worksheets for any vocabulary niche — spelling words, science terms, seasonal vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Post eye-catching solved puzzles on Pinterest linking to your Etsy or Gumroad store. Offer a free sample PDF to build your email list, then upsell full themed bundles to repeat buyers. The color-coded answer key adds perceived value, and the classic word search format drives consistent engagement across all demographics.',
+        platform: 'Pinterest / Email List / Etsy / Gumroad',
       },
     ],
   },

@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Locale-Specific Alphabets with Accented Letters for Letter Spotting',
         description:
-          \'Letter Spotting mode displays an alphabet grid tailored to each language\'s character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale\'s letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.\',
+          'Letter Spotting mode displays an alphabet grid tailored to each language\'s character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale\'s letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.',
       },
       {
         title: 'Localized Image Name Labels in 11 Languages via Image Vocabulary',

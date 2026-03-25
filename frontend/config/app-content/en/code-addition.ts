@@ -148,7 +148,7 @@ const content: AppContent = {
     {
       question: 'What is Word Reveal mode?',
       answer:
-        \'Word Reveal mode lets you type a secret word of up to ten letters. The generator creates one equation per letter — each equation\'s sum maps to a specific letter on a decoding chart. Solvers work through the equations, look up each sum on the chart, and spell out the hidden word. Three distractor equations with wrong sums are added automatically, so solvers must verify every answer. It combines addition practice with spelling and vocabulary in a single engaging activity.\',
+        'Word Reveal mode lets you type a secret word of up to ten letters. The generator creates one equation per letter — each equation\'s sum maps to a specific letter on a decoding chart. Solvers work through the equations, look up each sum on the chart, and spell out the hidden word. Three distractor equations with wrong sums are added automatically, so solvers must verify every answer. It combines addition practice with spelling and vocabulary in a single engaging activity.',
     },
     {
       question: 'How do the image symbols map to numbers?',

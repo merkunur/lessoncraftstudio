@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Algebraic Picture Puzzle Format',
         description:
-          \'Each worksheet presents a system of linked equations where images serve as unknown variables. Instead of abstract letters like x, y, and z, solvers see familiar pictures — animals, vehicles, food — that make the concept of variables tangible and approachable. They analyze the relationships between equations, deduce each image\'s numeric value, and write their answers. This format introduces genuine algebraic thinking at an early age, well beyond simple arithmetic drills.\',
+          'Each worksheet presents a system of linked equations where images serve as unknown variables. Instead of abstract letters like x, y, and z, solvers see familiar pictures — animals, vehicles, food — that make the concept of variables tangible and approachable. They analyze the relationships between equations, deduce each image\'s numeric value, and write their answers. This format introduces genuine algebraic thinking at an early age, well beyond simple arithmetic drills.',
       },
       {
         title: 'Four Difficulty Levels for Progressive Learning',
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Unique Solution Validation',
         description:
-          \'The generator\'s built-in algebraic solver verifies that every puzzle it creates has exactly one correct solution before placing it on your worksheet. There are no ambiguous systems, no multiple valid answers, and no unsolvable puzzles. This mathematical guarantee saves you from manually checking every puzzle and ensures that every answer key is accurate — buyers can trust your products without question.\',
+          'The generator\'s built-in algebraic solver verifies that every puzzle it creates has exactly one correct solution before placing it on your worksheet. There are no ambiguous systems, no multiple valid answers, and no unsolvable puzzles. This mathematical guarantee saves you from manually checking every puzzle and ensures that every answer key is accurate — buyers can trust your products without question.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images as Algebraic Symbols',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: \'Pinterest Funnel to Your Niche Store\',
+        title: 'Pinterest Funnel to Your Niche Store',
         description:
-          \'Pin visually striking algebra puzzle samples on Pinterest to drive traffic to your Gumroad or Shopify store. The picture-algebra format is inherently eye-catching — colorful images inside equation grids stop scrollers mid-feed. Create free sample pins at Very Easy level and link to paid bundles covering all four difficulty tiers. The automatic answer key adds perceived value to every listing, and the four-level structure gives you a natural upsell path from single sheets to complete algebra puzzle collections.\',
-        platform: \'Pinterest + Gumroad / Shopify\',
+          'Pin visually striking algebra puzzle samples on Pinterest to drive traffic to your Gumroad or Shopify store. The picture-algebra format is inherently eye-catching — colorful images inside equation grids stop scrollers mid-feed. Create free sample pins at Very Easy level and link to paid bundles covering all four difficulty tiers. The automatic answer key adds perceived value to every listing, and the four-level structure gives you a natural upsell path from single sheets to complete algebra puzzle collections.',
+        platform: 'Pinterest + Gumroad / Shopify',
       },
     ],
   },
@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: 'What do the four difficulty levels mean?',
       answer:
-        \'Very Easy and Easy levels use two image symbols in a small system of equations — ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging solvers to track multiple unknowns. Each level produces a system that the generator\'s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide users from beginner to advanced, maximizing the number of distinct products you can list.\',
+        'Very Easy and Easy levels use two image symbols in a small system of equations — ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging solvers to track multiple unknowns. Each level produces a system that the generator\'s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide users from beginner to advanced, maximizing the number of distinct products you can list.',
     },
     {
       question: 'What math operations are available?',

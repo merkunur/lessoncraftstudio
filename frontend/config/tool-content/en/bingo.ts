@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Bingo Collections',
-      description: \'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine\'s Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.\',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine\'s Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.',
     },
     {
       title: 'Event and Party Bingo Card Sets',

@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Size Activity Sets',
-      description: \'Use seasonal and holiday image themes to create time-limited size comparison bundles. A “Halloween Size Sorting” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple Circle the Big One warm-ups with advanced Number 1–2–3 ordering exercises in each seasonal set to cover multiple skill levels and maximize your buyer audience.\',
+      description: 'Use seasonal and holiday image themes to create time-limited size comparison bundles. A “Halloween Size Sorting” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple Circle the Big One warm-ups with advanced Number 1–2–3 ordering exercises in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
     },
   ],
 

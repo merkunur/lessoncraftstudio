@@ -208,7 +208,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'create-etsy-coloring-pages', anchorText: 'How to Create & Sell Coloring Pages on Etsy' },
     { pageType: 'guide', slug: 'create-drawing-worksheets', anchorText: 'How to Create Drawing Worksheets' },
     { pageType: 'start', slug: 'etsy-printable-business', anchorText: 'Build Your Etsy Printable Business' },
-    { pageType: 'idea', slug: 'summer-printable-ideas', anchorText: \'Summer Printable Ideas for Sellers\' },
+    { pageType: 'idea', slug: 'summer-printable-ideas', anchorText: 'Summer Printable Ideas for Sellers' },
   ],
 
   visuals: {

@@ -6,12 +6,12 @@ const content: GuideContent = {
     secondaryKeywords: ['printable niche onderzoek', 'winstgevende printable niches', 'niche kiezen printables', 'werkblad niche strategie'],
     lsiKeywords: ['doelgroep analyse printables', 'marktonderzoek educatieve producten', 'concurrentie analyse Etsy printables', 'seizoensgebonden printable niches', 'evergreen werkblad categorieën', 'niche validatie digitale producten'],
     titleTag: 'Niche Selectie voor Printable Bedrijven — Gids',
-    metaDescription: 'Ontdek hoe je de juiste niche kiest voor je printable bedrijf. Leer marktonderzoek, concurrentie-analyse en validatietechnieken om winstgevende printable.',
+    metaDescription: `Ontdek hoe je de juiste niche kiest voor je printable bedrijf. Leer marktonderzoek, concurrentie-analyse en validatietechnieken om winstgevende printable.`,
   },
   hero: {
     title: 'Niche Selectie Gids voor Printable Bedrijven',
-    tagline: 'De juiste niche kiezen is het verschil tussen een printable bedrijf dat groeit en een dat stagneert. Leer hoe je systematisch de meest winstgevende niches identificeert en valideert.',
-    description: 'Het starten van een printable bedrijf begint niet bij het ontwerpen van producten of het opzetten van een winkel. Het begint bij het kiezen van de juiste niche. De niche die je kiest bepaalt welke producten je maakt, wie je klanten zijn, hoe je je producten positioneert en uiteindelijk hoeveel je verdient. Veel beginnende printable verkopers maken de fout om meteen te beginnen met het maken van willekeurige werkbladen of kleurplaten zonder na te denken over hun doelmarkt. Ze maken een beetje van alles en hopen dat iets aanslaat. Dit leidt vrijwel altijd tot teleurstelling. De succesvolle printable ondernemers daarentegen beginnen met grondig niche-onderzoek. Ze analyseren de marktvraag, bestuderen de concurrentie, berekenen de potentiële winstgevendheid en valideren hun niche voordat ze ook maar één product maken. Deze gids leert je precies hoe je dat doet. Of je nu net begint of je bestaande printable bedrijf wilt herpositioneren, je vindt hier een stap-voor-stap aanpak om de perfecte niche te selecteren. We behandelen alles van het identificeren van niche-mogelijkheden tot het analyseren van concurrentie, van het evalueren van winstgevendheid tot het plannen van uitbreiding. Met tools zoals de Woordzoeker Generator, Kleurplaat Generator en andere werkblad generators kun je snel prototypes maken om je niche te testen. Je kunt deze tools uitproberen als gratis proefversie met watermerk om te zien welke niche producten het meeste potentieel hebben voordat je investeert in een commerciële licentie.',
+    tagline: `De juiste niche kiezen is het verschil tussen een printable bedrijf dat groeit en een dat stagneert. Leer hoe je systematisch de meest winstgevende niches identificeert en valideert.`,
+    description: `Het starten van een printable bedrijf begint niet bij het ontwerpen van producten of het opzetten van een winkel. Het begint bij het kiezen van de juiste niche. De niche die je kiest bepaalt welke producten je maakt, wie je klanten zijn, hoe je je producten positioneert en uiteindelijk hoeveel je verdient. Veel beginnende printable verkopers maken de fout om meteen te beginnen met het maken van willekeurige werkbladen of kleurplaten zonder na te denken over hun doelmarkt. Ze maken een beetje van alles en hopen dat iets aanslaat. Dit leidt vrijwel altijd tot teleurstelling. De succesvolle printable ondernemers daarentegen beginnen met grondig niche-onderzoek. Ze analyseren de marktvraag, bestuderen de concurrentie, berekenen de potentiële winstgevendheid en valideren hun niche voordat ze ook maar één product maken. Deze gids leert je precies hoe je dat doet. Of je nu net begint of je bestaande printable bedrijf wilt herpositioneren, je vindt hier een stap-voor-stap aanpak om de perfecte niche te selecteren. We behandelen alles van het identificeren van niche-mogelijkheden tot het analyseren van concurrentie, van het evalueren van winstgevendheid tot het plannen van uitbreiding. Met tools zoals de Woordzoeker Generator, Kleurplaat Generator en andere werkblad generators kun je snel prototypes maken om je niche te testen. Je kunt deze tools uitproberen als gratis proefversie met watermerk om te zien welke niche producten het meeste potentieel hebben voordat je investeert in een commerciële licentie.`,
   },
   introduction: `Het kiezen van een niche voor je printable bedrijf is waarschijnlijk de belangrijkste beslissing die je neemt als ondernemer in deze branche. Een goed gekozen niche geeft je focus, helpt je om expertise op te bouwen, maakt je marketing effectiever en zorgt ervoor dat je producten de juiste kopers bereiken. Een slecht gekozen niche daarentegen kan maanden van verspilde inspanning betekenen.
 
@@ -22,7 +22,7 @@ De printable markt is enorm breed. Van educatieve werkbladen voor kleuters tot p
 In deze gids nemen we je mee door het complete proces van niche selectie. We beginnen met het begrijpen waarom niche selectie zo belangrijk is, gaan dan door naar het identificeren van mogelijke niches, het onderzoeken van de marktvraag, het analyseren van de concurrentie, het evalueren van de winstgevendheid, het valideren van je keuze, het afwegen van evergreen versus seizoensgebonden niches, en tot slot het plannen van je uitbreidingsstrategie. Elk onderdeel bevat praktische tips, concrete voorbeelden en bruikbare strategieën die je direct kunt toepassen. Laten we beginnen.`,
   tutorial: [
     {
-      heading: 'Begrijp Waarom Niche Selectie Bepalend is voor Succes',
+      heading: `Begrijp Waarom Niche Selectie Bepalend is voor Succes`,
       content: `De reden waarom niche selectie zo cruciaal is voor het succes van je printable bedrijf komt neer op een fundamenteel principe van ondernemerschap: specialisatie wint van generalisatie. Wanneer je probeert alles voor iedereen te zijn, eindig je als niets voor niemand. Dit geldt in het bijzonder voor de printable markt, waar de concurrentie steeds groter wordt.
 
 Stel je voor dat je naar Etsy gaat en zoekt op "werkbladen voor kinderen". Je krijgt honderdduizenden resultaten. Als je daar tussendoor probeert te concurreren met een willekeurig assortiment werkbladen, wordt het vrijwel onmogelijk om op te vallen. Maar zoek nu eens op "woordzoeker puzzels insectenthema kleuters". Het aantal resultaten is veel kleiner, de concurrentie veel minder intens, en de kopers die dit zoeken weten precies wat ze willen. Dit is de kracht van een niche.
@@ -208,7 +208,7 @@ Overweeg ook de seizoenspatronen van je niche op Etsy. Etsy heeft duidelijke ver
 Let op de Etsy Star Seller-criteria bij je niche keuze. Etsy beloont winkels die snel reageren op berichten, tijdig verzenden en hoge beoordelingen hebben. Kies een niche waarin je deze criteria kunt handhaven. Complexe producten die veel klantvragen genereren kunnen dit bemoeilijken.`,
     },
     {
-      heading: 'Amazon KDP Niche Selectie voor Puzzel- en Activiteitenboeken',
+      heading: `Amazon KDP Niche Selectie voor Puzzel- en Activiteitenboeken`,
       content: `Amazon KDP biedt unieke mogelijkheden voor printable ondernemers die hun werkbladen en puzzels willen aanbieden als fysieke of digitale boeken. De niche dynamiek op Amazon verschilt aanzienlijk van Etsy en vereist een eigen benadering.
 
 Op Amazon is de BSR (Best Sellers Rank) je belangrijkste indicator voor niche-vraag. Analyseer de BSR van de top 10-20 boeken in je potentiële niche. Als meerdere boeken een BSR hebben onder de 100.000, is er sterke vraag. Als de meeste boeken een BSR hebben boven de 500.000, is de niche mogelijk te klein. De ideale situatie is een niche waarin de topboeken sterk verkopen maar er nog ruimte is voor nieuwe titels.
@@ -234,7 +234,7 @@ Let ook op de Preview-functie op Gumroad. Kopers verwachten een uitgebreide prev
   ],
   monetization: [
     {
-      heading: 'Niche Prijsstrategieën die Je Inkomsten Maximaliseren',
+      heading: `Niche Prijsstrategieën die Je Inkomsten Maximaliseren`,
       content: `De juiste prijsstrategie binnen je gekozen niche kan het verschil maken tussen een hobby en een winstgevend bedrijf. Prijsstelling in de printable markt is niet zo eenvoudig als een prijs kiezen en die hanteren — het vereist een strategische aanpak die rekening houdt met je niche, je concurrentie en de waardeperceptie van je klanten.
 
 In een goed gekozen niche kun je premium prijzen hanteren. Niche-producten worden als waardevoller ervaren dan generieke alternatieven, omdat ze precies aansluiten bij de behoeften van de koper. Een generiek rekenwerkblad concurreert op prijs met duizenden andere generieke werkbladen. Een thematisch rekenwerkblad met dinosaurusthema voor groep 3, inclusief antwoordsleutel en verkopershandleiding, concurreert op waarde en relevantie.
@@ -256,7 +256,7 @@ Overweeg seizoensgebonden bundels als aanvulling op je evergreen aanbod. Een "Ke
 Experimenteer ook met growing bundles — bundels die je geleidelijk uitbreidt met nieuwe producten. Klanten kopen de bundel één keer en krijgen automatisch toegang tot nieuwe toevoegingen. Dit model creëert een sterke stimulans voor vroege aankopen en bouwt een loyale klantenkring op.`,
     },
     {
-      heading: 'Passief Inkomen Opbouwen met Strategische Niche Positionering',
+      heading: `Passief Inkomen Opbouwen met Strategische Niche Positionering`,
       content: `Het ultieme doel van een printable bedrijf is het opbouwen van een passief inkomen — een stroom van inkomsten die blijft vloeien zonder dat je constant nieuwe producten moet maken of actief moet verkopen. Strategische niche positionering is de sleutel tot het bereiken van dit doel.
 
 Passief inkomen in de printable markt werkt via een vliegwieleffect. Elk product dat je toevoegt aan je catalogus draagt bij aan je totale zichtbaarheid. Meer producten betekent meer zoekresultaten waarin je verschijnt, meer klikken naar je winkel, meer cross-selling mogelijkheden en meer herhalingsaankopen. Na verloop van tijd groeit je inkomen sneller dan je productiecapaciteit, en bereik je het punt waarop je bestaande catalogus meer verdient dan je in nieuwe producten hoeft te investeren.
@@ -272,7 +272,7 @@ Bouw een e-maillijst op van klanten en geïnteresseerden. Een e-maillijst is het
   ],
   examples: [
     {
-      heading: 'Casestudy: Een Educatieve Puzzel Niche Opbouwen van Nul',
+      heading: `Casestudy: Een Educatieve Puzzel Niche Opbouwen van Nul`,
       content: `Laten we een concreet voorbeeld bekijken van hoe je een printable niche kunt opbouwen vanuit het niets. We nemen de niche "thematische woordzoeker puzzels voor het basisonderwijs" als voorbeeld en doorlopen het hele proces van selectie tot uitbreiding.
 
 De eerste stap was niche-identificatie. Door te zoeken op Etsy naar "woordzoeker kinderen" en "word search kids" kwamen we erachter dat er sterke vraag is naar thematische puzzels voor de basisschoolleeftijd. Er zijn duizenden zoekresultaten, maar veel producten zijn generiek en niet goed gecategoriseerd op thema of leeftijd. Dit vertegenwoordigt een kans voor getrapte productpakketten.
@@ -288,7 +288,7 @@ De uitbreiding volgde een concentrisch patroon. Eerst werden er meer dierenthema
 De lessen uit dit voorbeeld zijn: begin klein en gefocust, laat data je uitbreidingsbeslissingen sturen, differentieer je op kwaliteit en visuele aantrekkelijkheid, en breid concentrisch uit vanuit wat werkt.`,
     },
     {
-      heading: 'Casestudy: Van Brede Markt naar Winstgevende Micro-Niche',
+      heading: `Casestudy: Van Brede Markt naar Winstgevende Micro-Niche`,
       content: `Dit voorbeeld laat zien hoe een printable ondernemer een winstgevende micro-niche vond door systematisch te filteren vanuit een brede markt. Het illustreert het belang van specificiteit en de kracht van niching down.
 
 De ondernemer begon met een brede interesse in educatieve printables voor kinderen. Dit is een enorme markt met miljoenen producten en intense concurrentie. In plaats van meteen producten te gaan maken, besteedde ze twee weken aan systematisch marktonderzoek.
@@ -308,38 +308,38 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
   ],
   faq: [
     {
-      question: 'Hoe weet ik of mijn gekozen niche genoeg vraag heeft?',
+      question: `Hoe weet ik of mijn gekozen niche genoeg vraag heeft?`,
       answer: `Het vaststellen van voldoende marktvraag vereist onderzoek op meerdere fronten. Begin met het analyseren van zoekresultaten op je doelplatform — Etsy, Amazon KDP of Gumroad. Op Etsy zoek je op relevante termen en kijk je naar het totale aantal resultaten. Een niche met tienduizend tot vijfhonderdduizend resultaten is vaak ideaal: genoeg vraag om winstgevend te zijn, maar niet zo veel concurrentie dat je onzichtbaar bent. Gebruik daarnaast Google Trends om te zien of de interesse in je niche groeit, stabiel is of daalt. Analyseer de bestsellers in je niche op verkoopvolume en reviews. Kijk ook naar de Etsy-zoeksuggesties voor long-tail varianten van je zoektermen — veel specifieke suggesties duiden op gedetailleerde koopintentie. Combineer deze databronnen voor een compleet beeld van de marktvraag.`,
     },
     {
-      question: 'Kan ik meerdere niches tegelijk bedienen vanuit één winkel?',
+      question: `Kan ik meerdere niches tegelijk bedienen vanuit één winkel?`,
       answer: `Technisch gezien kun je meerdere niches bedienen vanuit één winkel, maar het is meestal niet de optimale strategie, zeker niet in het begin. Platforms zoals Etsy belonen winkels met een coherent assortiment — je winkel verschijnt hoger in zoekresultaten wanneer je producten duidelijk gerelateerd zijn. Wanneer je meerdere niches combineert, verwar je het algoritme en potentiële klanten. Een uitzondering is wanneer je niches nauw verwant zijn, zoals verschillende puzzeltypen voor dezelfde doelgroep. In dat geval versterken de niches elkaar. Als je echt meerdere heel verschillende niches wilt bedienen, overweeg dan om aparte winkels te openen — één per niche. Dit houdt je merk helder en je marketingboodschap consistent. Begin echter altijd met één niche en bouw daar een sterke positie op voordat je een tweede winkel opent.`,
     },
     {
-      question: 'Hoe lang duurt het voordat een niche winstgevend wordt?',
+      question: `Hoe lang duurt het voordat een niche winstgevend wordt?`,
       answer: `De tijdlijn naar winstgevendheid varieert sterk afhankelijk van je niche, je productiecapaciteit, je marketinginspanningen en de platformdynamiek. Over het algemeen moet je rekening houden met drie tot zes maanden voordat je consistent inkomen genereert uit een nieuwe niche. In de eerste maand focus je op het opbouwen van je basiscatalogus — publiceer minimaal tien tot vijftien producten. Met tools zoals de werkblad generators van LessonCraftStudio, beschikbaar als gratis proefversie met watermerk, kun je dit versnellen. In de tweede en derde maand begin je verkopen te zien als je SEO en marketing effectief zijn. Gebruik deze periode om je productaanbod uit te breiden en je marketingstrategie te verfijnen op basis van data. Tegen maand vier tot zes zou je een stabiel patroon van verkopen moeten zien. Wees geduldig en consistent — het vliegwieleffect van een groeiende catalogus kost tijd om op gang te komen, maar versnelt naarmate je meer producten hebt.`,
     },
     {
-      question: 'Wat zijn de meest winstgevende printable niches op dit moment?',
+      question: `Wat zijn de meest winstgevende printable niches op dit moment?`,
       answer: `De meest winstgevende niches verschuiven voortdurend, maar er zijn enkele categorieën die consistent goed presteren. Educatieve werkbladen voor specifieke leeftijdsgroepen en vakgebieden blijven zeer winstgevend, vooral wanneer ze thematisch aantrekkelijk zijn gemaakt. Puzzelboeken — woordzoekers, sudoku, kruiswoordpuzzels — doen het uitstekend op Amazon KDP. Kleurplaten voor volwassenen met specifieke thema\'s zoals natuur, mindfulness of culturele patronen blijven populair. Planners en organisatietools voor specifieke doelgroepen — verkopers, thuisonderwijzers, kleine ondernemers — kennen een groeiende vraag. Seizoensgebonden activiteitenbundels voor het onderwijs genereren sterke pieken. De sleutel is niet om de populairste niche te kiezen, maar om een niche te kiezen waar je je kunt differentiëren. Een minder populaire niche waarin jij de beste bent, is winstgevender dan een populaire niche waarin je een van velen bent.`,
     },
     {
-      question: 'Hoe bepaal ik de juiste prijs voor mijn niche producten?',
+      question: `Hoe bepaal ik de juiste prijs voor mijn niche producten?`,
       answer: `Prijsbepaling voor niche printable producten vereist een combinatie van marktonderzoek en strategisch denken. Begin met het analyseren van de prijzen van vergelijkbare producten op je platform. Kijk niet alleen naar de gemiddelde prijs, maar ook naar de spreiding — wat is de goedkoopste optie en wat is de duurste? Dit geeft je het bereik waarbinnen de markt bereid is te betalen. Positioneer je product in de bovenste helft van dit bereik als je kwaliteit aanbiedt die dat rechtvaardigt. Een gelaagde prijsstructuur werkt het best: individuele producten voor drie tot vijf euro als instap, kleine bundels van vijf tot tien producten voor acht tot vijftien euro, en grote bundels of complete sets voor twintig tot vijfenveertig euro. Experimenteer met prijzen door A/B-tests: bied hetzelfde product een week aan voor de ene prijs en een week voor de andere, en vergelijk de totale omzet. Vergeet niet om platformkosten mee te rekenen in je prijsberekening.`,
     },
     {
-      question: 'Is het beter om een evergreen niche of een seizoensgebonden niche te kiezen?',
+      question: `Is het beter om een evergreen niche of een seizoensgebonden niche te kiezen?`,
       answer: `De keuze tussen evergreen en seizoensgebonden hangt af van je doelen, je beschikbare tijd en je risicobereidheid. Evergreen niches bieden stabiliteit en voorspelbaarheid — je producten verkopen het hele jaar door en je bouwt geleidelijk een groeiend passief inkomen op. Dit is ideaal als je een bijbaan hebt en beperkte tijd beschikbaar hebt om steeds nieuwe producten te maken. Seizoensgebonden niches bieden hogere pieken — in de juiste periode kun je in een paar weken evenveel verdienen als een evergreen product in een heel jaar. Maar buiten het seizoen verdien je weinig of niets, en je moet ruim van tevoren je producten klaar hebben. De optimale strategie voor de meeste printable ondernemers is een combinatie: bouw een basis van evergreen producten die het hele jaar door inkomen genereren, en voeg seizoensgebonden varianten toe voor extra pieken. Begin met evergreen en voeg seizoensgebonden producten toe zodra je basis stabiel is.`,
     },
     {
-      question: 'Hoe breid ik mijn niche uit zonder mijn focus te verliezen?',
+      question: `Hoe breid ik mijn niche uit zonder mijn focus te verliezen?`,
       answer: `Uitbreiden zonder focus te verliezen is een van de grootste uitdagingen voor printable ondernemers. De sleutel is concentrische uitbreiding — breid altijd uit naar iets dat logisch aansluit bij je bestaande assortiment. Er zijn vier veilige uitbreidingsrichtingen. Thematische uitbreiding: als je woordzoeker puzzels maakt met dierenthema, voeg dan meer dierensubthema\'s toe voordat je naar een heel ander thema springt. Producttype uitbreiding: als je woordzoekers maakt voor een bepaalde doelgroep, voeg dan kruiswoordpuzzels en andere puzzeltypen toe voor dezelfde doelgroep. Leeftijdsuitbreiding: als je producten maakt voor groep 3, breid dan uit naar groep 4 met vergelijkbare producten. Taaluitbreiding: bied je bestaande producten aan in andere talen met de meertalige generators van LessonCraftStudio, beschikbaar als gratis proefversie met watermerk. Neem bij elke uitbreiding één richting tegelijk en ontwikkel die volledig voordat je de volgende start. Monitor welke uitbreidingen goed presteren en welke niet, en investeer je tijd in wat werkt.`,
     },
   ],
   nextSteps: [
-    { slug: 'research-profitable-niches', title: 'Winstgevende Printable Niches Onderzoeken', description: 'Verdiep je kennis over niche onderzoek met geavanceerde technieken voor het vinden van winstgevende printable markten.' },
-    { slug: 'create-printable-product-line', title: 'Een Printable Productlijn Maken', description: 'Leer hoe je een samenhangende productlijn opbouwt binnen je gekozen niche voor maximale impact en verkoop.' },
-    { slug: 'complete-guide-printable-business', title: 'Complete Gids voor een Printable Bedrijf Starten', description: 'Bekijk het volledige stappenplan voor het opzetten van een succesvol printable bedrijf, van niche selectie tot schaalbare groei.' },
+    { slug: 'research-profitable-niches', title: 'Winstgevende Printable Niches Onderzoeken', description: `Verdiep je kennis over niche onderzoek met geavanceerde technieken voor het vinden van winstgevende printable markten.` },
+    { slug: 'create-printable-product-line', title: 'Een Printable Productlijn Maken', description: `Leer hoe je een samenhangende productlijn opbouwt binnen je gekozen niche voor maximale impact en verkoop.` },
+    { slug: 'complete-guide-printable-business', title: 'Complete Gids voor een Printable Bedrijf Starten', description: `Bekijk het volledige stappenplan voor het opzetten van een succesvol printable bedrijf, van niche selectie tot schaalbare groei.` },
   ],
   internalLinks: [
     { pageType: 'guide', slug: 'research-profitable-niches', anchorText: 'Winstgevende printable niches onderzoeken' },
@@ -356,27 +356,27 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
     { pageType: 'start', slug: 'commercial-license-guide', anchorText: 'Gids commerciële licentie' },
   ],
   toolsRecommended: [
-    { appId: 'wordsearch', title: 'Woordzoeker Werkblad Generator', description: 'Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema\'s met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep.' },
-    { appId: 'coloring', title: 'Kleurplaat Generator', description: 'Genereer professionele kleurplaten met thematische afbeeldingen. Perfect voor seizoensgebonden en evergreen niches in het printable segment.' },
-    { appId: 'matching', title: 'Koppelen Werkblad Generator', description: 'Maak educatieve koppelactiviteiten voor woordenschat, rekenen en meer. Ideaal voor de educatieve printable niche op Etsy en Gumroad.' },
-    { appId: 'addition', title: 'Optellen Werkblad Generator', description: 'Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema\'s voor een unieke niche positionering.' },
+    { appId: 'wordsearch', title: 'Woordzoeker Werkblad Generator', description: `Maak thematische woordzoeker puzzels voor elke niche. Kies uit meer dan 100 thema's met afbeeldingen en pas het moeilijkheidsniveau aan voor je doelgroep.` },
+    { appId: 'coloring', title: 'Kleurplaat Generator', description: `Genereer professionele kleurplaten met thematische afbeeldingen. Perfect voor seizoensgebonden en evergreen niches in het printable segment.` },
+    { appId: 'matching', title: 'Koppelen Werkblad Generator', description: `Maak educatieve koppelactiviteiten voor woordenschat, rekenen en meer. Ideaal voor de educatieve printable niche op Etsy en Gumroad.` },
+    { appId: 'addition', title: 'Optellen Werkblad Generator', description: `Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema's voor een unieke niche positionering.` },
   ],
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven' },
+    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: `Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven` },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Thematische woordzoeker puzzel als niche product voorbeeld', caption: 'Woordzoeker puzzels passen bij elk niche thema — dieren, feestdagen, vakken en seizoensgebonden onderwerpen' },
-      { src: '/samples/dutch/coloring/coloring portrait 2.webp', alt: 'Kleurplaat als voorbeeld van visueel niche product', caption: 'Kleurplaten zijn een van de meest veelzijdige niche producten, geschikt voor alle leeftijden en thema\'s' },
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad als voorbeeld van educatief niche product', caption: 'Koppelen activiteiten werken in educatieve niches van woordenschat tot rekenen' },
+      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: `Thematische woordzoeker puzzel als niche product voorbeeld`, caption: 'Woordzoeker puzzels passen bij elk niche thema — dieren, feestdagen, vakken en seizoensgebonden onderwerpen' },
+      { src: '/samples/dutch/coloring/coloring portrait 2.webp', alt: `Kleurplaat als voorbeeld van visueel niche product`, caption: 'Kleurplaten zijn een van de meest veelzijdige niche producten, geschikt voor alle leeftijden en thema\'s' },
+      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: `Koppelen werkblad als voorbeeld van educatief niche product`, caption: 'Koppelen activiteiten werken in educatieve niches van woordenschat tot rekenen' },
     ],
     youtubeId: '36keBFzJbPo',
-    videoTitle: 'Hoe Maak Je Woordzoeker Puzzels voor Elk Niche Thema',
+    videoTitle: `Hoe Maak Je Woordzoeker Puzzels voor Elk Niche Thema`,
   },
   themeImages: [
     { src: '/image-library/insects%20and%20bugs/ant.webp', alt: 'Mier — thematische educatieve afbeelding', caption: 'Mier' },
     { src: '/image-library/insects%20and%20bugs/bee.webp', alt: 'Bij — thematische educatieve afbeelding', caption: 'Bij' },
-    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Vlinder — thematische educatieve afbeelding', caption: 'Vlinder' },
-    { src: '/image-library/insects%20and%20bugs/caterpillar.webp', alt: 'Rups — thematische educatieve afbeelding', caption: 'Rups' },
-    { src: '/image-library/insects%20and%20bugs/centipede.webp', alt: 'Duizendpoot — thematische educatieve afbeelding', caption: 'Duizendpoot' },
+    { src: `/image-library/insects%20and%20bugs/butterfly.webp`, alt: 'Vlinder — thematische educatieve afbeelding', caption: 'Vlinder' },
+    { src: `/image-library/insects%20and%20bugs/caterpillar.webp`, alt: 'Rups — thematische educatieve afbeelding', caption: 'Rups' },
+    { src: `/image-library/insects%20and%20bugs/centipede.webp`, alt: 'Duizendpoot — thematische educatieve afbeelding', caption: 'Duizendpoot' },
   ],
 };
 

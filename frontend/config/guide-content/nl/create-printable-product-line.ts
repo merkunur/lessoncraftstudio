@@ -10,21 +10,21 @@ const content: GuideContent = {
       'printable catalogus planning',
     ],
     lsiKeywords: [
-      'productlijn architectuur categoriestructuur themagroepering doelgroepsegmentatie vakoverschrijdend',
-      'merkconsistentie visuele identiteit herkenbare stijl professionele uitstraling klantvertrouwen',
-      'catalogusplanning seizoensgebonden uitbreiding niveaucategorie progressie vakgebiedsdekking',
-      'kruisverkoopstrategie aanvullende producten upselling bundelintegratie klantwaarde',
-      'productlanceringsschema publicatiekalender contentplanning capaciteitsbalans markttiming',
-      'klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw',
+      `productlijn architectuur categoriestructuur themagroepering doelgroepsegmentatie vakoverschrijdend`,
+      `merkconsistentie visuele identiteit herkenbare stijl professionele uitstraling klantvertrouwen`,
+      `catalogusplanning seizoensgebonden uitbreiding niveaucategorie progressie vakgebiedsdekking`,
+      `kruisverkoopstrategie aanvullende producten upselling bundelintegratie klantwaarde`,
+      `productlanceringsschema publicatiekalender contentplanning capaciteitsbalans markttiming`,
+      `klantreis herhaalaankoop levenslange klantwaarde merkbekendheid loyaliteitsopbouw`,
     ],
     titleTag: 'Printable Productlijn Maken — Stap-voor-Stap Gids',
-    metaDescription: 'Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding.',
+    metaDescription: `Leer een winstgevende printable productlijn opbouwen. Strategieën voor categoriestructuur, merkconsistentie, kruisverkoop en seizoensgebonden uitbreiding.`,
   },
 
   hero: {
     title: 'Een Printable Productlijn Maken',
-    tagline: 'Van losse producten naar een samenhangende, professionele productlijn die klanten steeds opnieuw laat terugkomen — met strategieën voor categoriestructuur, merkconsistentie, kruisverkoopmogelijkheden, seizoensgebonden uitbreiding en langetermijn catalogusplanning voor maximale omzet op elk verkoopplatform',
-    description: 'Een succesvolle printable business draait niet om het maken van zoveel mogelijk losse producten, maar om het bouwen van een samenhangende productlijn die als geheel meer waarde biedt dan de som der delen. Deze gids laat je stap voor stap zien hoe je een strategische productlijn opbouwt die herhaalaankopen stimuleert, kruisverkoopkansen maximaliseert en je merk positioneert als de go-to bron in je niche — of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of je eigen website.',
+    tagline: `Van losse producten naar een samenhangende, professionele productlijn die klanten steeds opnieuw laat terugkomen — met strategieën voor categoriestructuur, merkconsistentie, kruisverkoopmogelijkheden, seizoensgebonden uitbreiding en langetermijn catalogusplanning voor maximale omzet op elk verkoopplatform`,
+    description: `Een succesvolle printable business draait niet om het maken van zoveel mogelijk losse producten, maar om het bouwen van een samenhangende productlijn die als geheel meer waarde biedt dan de som der delen. Deze gids laat je stap voor stap zien hoe je een strategische productlijn opbouwt die herhaalaankopen stimuleert, kruisverkoopkansen maximaliseert en je merk positioneert als de go-to bron in je niche — of je nu verkoopt op Etsy, Amazon KDP, Gumroad, Gumroad of je eigen website.`,
   },
 
   introduction: "De meeste printable verkopers beginnen met het maken van individuele producten zonder overkoepelend plan. Ze zien een trending zoekwoord, maken een werkblad, publiceren het en gaan door naar het volgende idee. Na verloop van tijd resulteert dit in een willekeurige verzameling producten die geen logisch verband met elkaar hebben. Kopers die één product kopen, hebben geen reden om je andere producten te bekijken — er is geen duidelijke verbinding, geen productlijn die hen door je catalogus leidt.\n\nEen strategische productlijn verandert dit fundamenteel. Wanneer je producten ontwerpt als onderdeel van een groter geheel, creëer je natuurlijke kruisverkooppaden. Een ouder die een optellen werkblad koopt, ziet dat je ook aftrekken, vermenigvuldigen en delen werkbladen aanbiedt in dezelfde professionele stijl. Een verkoper die een dierenthema woordzoeker koopt, ontdekt dat je complete dierenthema activiteitenpakketten hebt met kleurplaten, koppelwerkbladen en telloefeningen. Elke aankoop wordt het beginpunt voor de volgende.\n\nDe financiële impact van een samenhangende productlijn is aanzienlijk. Verkopers met een goed gestructureerde productlijn melden consistent hogere gemiddelde bestelwaarden, meer herhaalaankopen en lagere klantwervingskosten per euro omzet. Dit komt omdat de productlijn zelf een marketinginstrument is — elke productvermelding verwijst naar gerelateerde producten, elke bundel toont de breedte van je aanbod en elke tevreden klant heeft een duidelijk pad naar zijn volgende aankoop.\n\nMerkconsistentie is een ander cruciaal voordeel van productlijndenken. Wanneer al je producten dezelfde visuele stijl, opmaak en kwaliteitsnormen delen, bouw je merkherkenning op. Kopers leren je producten herkennen aan het ontwerp, zelfs voor ze de verkopersnaam lezen. Deze herkenning vertaalt zich in vertrouwen, hogere conversiepercentages en de bereidheid om premiumprijzen te betalen. De werkbladgeneratoren van LessonCraftStudio bieden een gratis proefversie met watermerk waarmee je deze consistentie kunt testen voordat je investeert in een commerciële licentie.\n\nDeze gids behandelt het complete proces van productlijnplanning: van het definiëren van je kernproductcategorieën en het ontwerpen van een visuele merkidentiteit, tot het plannen van seizoensgebonden uitbreidingen en het optimaliseren van kruisverkoopstrategien voor elk verkoopplatform. De principes werken ongeacht je niche, je ervaring of het platform waarop je verkoopt.",
@@ -137,9 +137,9 @@ const content: GuideContent = {
   ],
 
   nextSteps: [
-    { slug: 'create-worksheet-bundles', title: 'Werkblad Bundels Maken', description: 'Leer hoe je overtuigende werkblad bundels samenstelt die je gemiddelde bestelwaarde verhogen en kopers meer waarde bieden met strategische bundelprijsstelling.' },
-    { slug: 'niche-selection-printables', title: 'Niche Selectie voor Printables', description: 'Ontdek hoe je de juiste niche kiest voor je printable productlijn met marktonderzoek, concurrentieanalyse en winstgevendheidsbeoordelingen.' },
-    { slug: 'complete-guide-printable-business', title: 'Complete Gids Printable Bedrijf', description: 'De ultieme gids voor het starten en laten groeien van een winstgevend printable bedrijf van begin tot eind.' },
+    { slug: 'create-worksheet-bundles', title: 'Werkblad Bundels Maken', description: `Leer hoe je overtuigende werkblad bundels samenstelt die je gemiddelde bestelwaarde verhogen en kopers meer waarde bieden met strategische bundelprijsstelling.` },
+    { slug: 'niche-selection-printables', title: 'Niche Selectie voor Printables', description: `Ontdek hoe je de juiste niche kiest voor je printable productlijn met marktonderzoek, concurrentieanalyse en winstgevendheidsbeoordelingen.` },
+    { slug: 'complete-guide-printable-business', title: 'Complete Gids Printable Bedrijf', description: `De ultieme gids voor het starten en laten groeien van een winstgevend printable bedrijf van begin tot eind.` },
   ],
 
   internalLinks: [
@@ -158,21 +158,21 @@ const content: GuideContent = {
   ],
 
   toolsRecommended: [
-    { appId: 'wordsearch', title: 'Woordzoeker Generator', description: 'Maak professionele woordzoekers in meerdere talen en thema\'s als vast onderdeel van je productlijn. De gratis proefversie met watermerk laat je de kwaliteit testen voordat je investeert in een commerciële licentie.' },
-    { appId: 'addition', title: 'Optellen Generator', description: 'Genereer gevarieerde optellen werkbladen met verschillende moeilijkheidsgraden voor een complete rekenwerkbladen productlijn. Probeer de gratis proefversie met watermerk om de consistente opmaak te ervaren.' },
-    { appId: 'matching', title: 'Koppelen Generator', description: 'Creëer visueel aantrekkelijke koppelactiviteiten die variatie toevoegen aan je productlijn en geschikt zijn voor meerdere leeftijdsgroepen. Test de gratis proefversie met watermerk.' },
-    { appId: 'coloring', title: 'Kleurplaat Generator', description: 'Maak thematische kleurplaten die je productlijn verbreden en een breed publiek aanspreken. De gratis proefversie met watermerk toont de professionele kwaliteit van de uitvoer.' },
+    { appId: 'wordsearch', title: 'Woordzoeker Generator', description: `Maak professionele woordzoekers in meerdere talen en thema's als vast onderdeel van je productlijn. De gratis proefversie met watermerk laat je de kwaliteit testen voordat je investeert in een commerciële licentie.` },
+    { appId: 'addition', title: 'Optellen Generator', description: `Genereer gevarieerde optellen werkbladen met verschillende moeilijkheidsgraden voor een complete rekenwerkbladen productlijn. Probeer de gratis proefversie met watermerk om de consistente opmaak te ervaren.` },
+    { appId: 'matching', title: 'Koppelen Generator', description: `Creëer visueel aantrekkelijke koppelactiviteiten die variatie toevoegen aan je productlijn en geschikt zijn voor meerdere leeftijdsgroepen. Test de gratis proefversie met watermerk.` },
+    { appId: 'coloring', title: 'Kleurplaat Generator', description: `Maak thematische kleurplaten die je productlijn verbreden en een breed publiek aanspreken. De gratis proefversie met watermerk toont de professionele kwaliteit van de uitvoer.` },
   ],
 
   visuals: {
     heroImage: { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad als onderdeel van productlijn' },
     samples: [
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad in productlijn context', caption: 'Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn' },
-      { src: '/samples/dutch/addition/Optellen is Leuk 1.webp', alt: 'Optellen werkblad als kern van rekenproductlijn', caption: 'Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker als aanvullend product in productlijn', caption: 'Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan' },
+      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad in productlijn context', caption: `Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn` },
+      { src: '/samples/dutch/addition/Optellen is Leuk 1.webp', alt: 'Optellen werkblad als kern van rekenproductlijn', caption: `Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen` },
+      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker als aanvullend product in productlijn', caption: `Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan` },
     ],
     youtubeId: '36keBFzJbPo',
-    videoTitle: 'Hoe Bouw Je een Winstgevende Printable Productlijn Op',
+    videoTitle: `Hoe Bouw Je een Winstgevende Printable Productlijn Op`,
   },
 
   themeImages: [

@@ -56,6 +56,10 @@ next-env.d.ts
 /public/worksheet-generators/*
 /public/worksheet-generators/**/*
 
+# Ignore admin panels (managed independently, served from isolated storage)
+/public/admin/*
+/public/admin/**/*
+
 # Content managers at root level
 /public/homepage-content-manager.html
 

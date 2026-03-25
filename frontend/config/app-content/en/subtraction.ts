@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Are subtraction worksheets language-sensitive?',
       answer:
-        'No. Subtraction worksheets are visual-only — the math content uses images, X marks, and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app's interface labels, not the worksheet content itself, making your products instantly sellable worldwide without translation.',
+        'No. Subtraction worksheets are visual-only — the math content uses images, X marks, and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide without translation.',
     },
     {
       question: 'What is the grayscale export option?',

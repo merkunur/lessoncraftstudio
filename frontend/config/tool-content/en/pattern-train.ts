@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Pattern Train Sets',
-      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A "Halloween Pattern Train" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
+      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A "Halloween Pattern Train" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',

@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Locale-Specific Alphabets with Accented Letters for Letter Spotting',
         description:
-          'Letter Spotting mode displays an alphabet grid tailored to each language's character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale's letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.',
+          'Letter Spotting mode displays an alphabet grid tailored to each language\'s character set. German includes Ä, Ö, and Ü alongside the standard 26 letters. Spanish adds Ñ. Swedish and Finnish include Å, Ä, and Ö. Danish and Norwegian add Æ, Ø, and Å. The alphabet grid renders in 7 columns and automatically adjusts row count based on the locale's letter count. Select a letter, and the generator creates an I Spy scene using images that begin with that letter in the selected language.',
       },
       {
         title: 'Localized Image Name Labels in 11 Languages via Image Vocabulary',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'How does Letter Spotting work with different languages?',
       answer:
-        'Letter Spotting mode displays a locale-specific alphabet grid tailored to each language's character set. English shows A–Z (26 letters), German adds Ä, Ö, and Ü (29 letters), Spanish adds Ñ (27 letters), Swedish and Finnish add Å, Ä, and Ö (29 letters), and Danish and Norwegian add Æ, Ø, and Å (29 letters). The grid renders in 7 columns with automatic row adjustment. When you select a letter, the generator shows images starting with that letter in the selected language and fills remaining cells with distractors.',
+        'Letter Spotting mode displays a locale-specific alphabet grid tailored to each language\'s character set. English shows A–Z (26 letters), German adds Ä, Ö, and Ü (29 letters), Spanish adds Ñ (27 letters), Swedish and Finnish add Å, Ä, and Ö (29 letters), and Danish and Norwegian add Æ, Ø, and Å (29 letters). The grid renders in 7 columns with automatic row adjustment. When you select a letter, the generator shows images starting with that letter in the selected language and fills remaining cells with distractors.',
     },
     {
       question: 'How do localized image name labels work?',

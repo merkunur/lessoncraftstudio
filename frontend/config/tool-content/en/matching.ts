@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Matching Activity Collections',
-      description: 'Build rotating seasonal matching collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine's Day, back-to-school, and summer themes each support dedicated matching worksheet packs. Include all four matching modes in each seasonal set for maximum value — Beginning Letter for phonics, Image+Word for vocabulary, Mixed for varied challenge, and Custom Word for holiday-specific terms. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. Seasonal matching products drive recurring annual revenue as buyers return each year.',
+      description: 'Build rotating seasonal matching collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, and summer themes each support dedicated matching worksheet packs. Include all four matching modes in each seasonal set for maximum value — Beginning Letter for phonics, Image+Word for vocabulary, Mixed for varied challenge, and Custom Word for holiday-specific terms. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. Seasonal matching products drive recurring annual revenue as buyers return each year.',
     },
   ],
 

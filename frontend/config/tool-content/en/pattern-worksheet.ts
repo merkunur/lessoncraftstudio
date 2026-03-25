@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Pattern Sets',
-      description: 'Use seasonal and holiday image themes to create time-limited pattern bundles. A "Halloween Pattern" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced ABCD challenges in each seasonal set to cover multiple skill levels. Two question modes multiply variety within every theme.',
+      description: 'Use seasonal and holiday image themes to create time-limited pattern bundles. A "Halloween Pattern" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine\'s Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced ABCD challenges in each seasonal set to cover multiple skill levels. Two question modes multiply variety within every theme.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',

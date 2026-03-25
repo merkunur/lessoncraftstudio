@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Maze Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine's Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {

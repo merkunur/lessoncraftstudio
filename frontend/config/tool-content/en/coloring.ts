@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Coloring Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine's Day, summer, autumn, and winter themes each support dedicated coloring page packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The free-form canvas lets you combine multiple seasonal images on a single page for rich, detailed compositions that stand out from single-image coloring sheets. Seasonal products drive recurring annual revenue as buyers return each year.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine\'s Day, summer, autumn, and winter themes each support dedicated coloring page packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The free-form canvas lets you combine multiple seasonal images on a single page for rich, detailed compositions that stand out from single-image coloring sheets. Seasonal products drive recurring annual revenue as buyers return each year.',
     },
     {
       title: 'Cross-Format Visual Activity Bundles',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
-      description: 'Create holiday and seasonal coloring page packs using themed collections from the library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
+      description: 'Create holiday and seasonal coloring page packs using themed collections from the library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
     },
     {
       title: 'Leverage Zero-Text Visual Output for Global Sales',

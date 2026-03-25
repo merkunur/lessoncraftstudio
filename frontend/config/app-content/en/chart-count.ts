@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal Counting and Graphing Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine's hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine's data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine\'s hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine\'s data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],

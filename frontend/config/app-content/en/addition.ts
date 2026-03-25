@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Are addition worksheets language-sensitive?',
       answer:
-        'No. Addition worksheets are visual-only — the math content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app's interface labels, not the worksheet content itself, making your products instantly sellable worldwide. Sellers who recognize this advantage can list identical PDFs across multiple regional Etsy shops or Amazon KDP marketplaces without any translation effort, effectively multiplying their storefront reach from a single production session.',
+        'No. Addition worksheets are visual-only — the math content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide. Sellers who recognize this advantage can list identical PDFs across multiple regional Etsy shops or Amazon KDP marketplaces without any translation effort, effectively multiplying their storefront reach from a single production session.',
     },
     {
       question: 'Can I use my own images instead of the built-in library?',

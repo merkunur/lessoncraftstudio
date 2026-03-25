@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Treasure Hunt Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas treasure hunts, Halloween path-finding puzzles, Easter treasure hunt activities, Valentine's Day coordinate challenges, back-to-school direction worksheets, and summer themed sets each support dedicated seasonal packs. Include both Basic and Cardinal direction types in each seasonal collection for maximum variety. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The treasure hunt format adds a compelling narrative element to seasonal worksheet products.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas treasure hunts, Halloween path-finding puzzles, Easter treasure hunt activities, Valentine\'s Day coordinate challenges, back-to-school direction worksheets, and summer themed sets each support dedicated seasonal packs. Include both Basic and Cardinal direction types in each seasonal collection for maximum variety. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The treasure hunt format adds a compelling narrative element to seasonal worksheet products.',
     },
     {
       title: 'Multi-Format Navigation and Spatial Skills Mega Bundles',
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Position Treasure Hunts as Coordinate Grid Learning Activities',
-      description: 'The 5×5 letter-number grid (A–E rows, 1–5 columns) teaches the same grid reference skills used in geography, mathematics, and map-reading. Include coordinate-related keywords in your marketplace listings — "coordinate grid activity," "grid reference worksheet," and "map skills practice" alongside "treasure hunt worksheet." This expands your product's search visibility beyond treasure hunt buyers to buyers specifically searching for coordinate and spatial reasoning activities.',
+      description: 'The 5×5 letter-number grid (A–E rows, 1–5 columns) teaches the same grid reference skills used in geography, mathematics, and map-reading. Include coordinate-related keywords in your marketplace listings — "coordinate grid activity," "grid reference worksheet," and "map skills practice" alongside "treasure hunt worksheet." This expands your product\'s search visibility beyond treasure hunt buyers to buyers specifically searching for coordinate and spatial reasoning activities.',
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing Treasure Hunt Products',

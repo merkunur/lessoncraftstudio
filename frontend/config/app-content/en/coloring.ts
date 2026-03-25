@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Coloring Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, winter holidays, and more. Create time-limited coloring page collections that align with peak shopping periods. Release Halloween coloring bundles in September, Christmas collections in October, and Valentine's Day packs in January. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from the same customer base.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, winter holidays, and more. Create time-limited coloring page collections that align with peak shopping periods. Release Halloween coloring bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from the same customer base.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'How do the decorative border themes work?',
       answer:
-        'In the Page Setup panel, select a border theme from the border library. The border frames your canvas and adds visual polish to the finished coloring page. Borders are applied as canvas elements that you can see in the editor. They define the visual boundary of the page without interfering with your images, text, or drawings. Different border themes suit different audiences — playful borders for children's coloring pages, elegant borders for adult coloring books.',
+        'In the Page Setup panel, select a border theme from the border library. The border frames your canvas and adds visual polish to the finished coloring page. Borders are applied as canvas elements that you can see in the editor. They define the visual boundary of the page without interfering with your images, text, or drawings. Different border themes suit different audiences — playful borders for children\'s coloring pages, elegant borders for adult coloring books.',
     },
     {
       question: 'Why is there no answer key for coloring pages?',

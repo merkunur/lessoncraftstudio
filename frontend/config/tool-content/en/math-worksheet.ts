@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Algebra Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Algebra Puzzle" pack with festive symbol images sells strongly in November–December. Halloween, Valentine's Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad. The algebra format adds perceived difficulty and value over simple arithmetic.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Algebra Puzzle" pack with festive symbol images sells strongly in November–December. Halloween, Valentine\'s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad. The algebra format adds perceived difficulty and value over simple arithmetic.',
     },
     {
       title: 'Mixed-Difficulty Sampler Packs',

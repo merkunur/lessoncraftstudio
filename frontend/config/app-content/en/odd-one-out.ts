@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Find the Odd One Out Puzzles with Two Generation Modes',
         description:
-          'Every exercise displays four images in a horizontal card — three common items and one odd item — and solvers circle the one that doesn't belong. The generator offers two distinct modes. Identical mode places three clones of the exact same image alongside one different image from the same theme, creating a straightforward spot-the-difference challenge. Similar mode draws three images from Theme A (e.g., animals) and one image from Theme B (e.g., food), requiring solvers to identify the thematic outlier rather than a visual duplicate. Each mode produces a fundamentally different cognitive challenge from the same image library.',
+          'Every exercise displays four images in a horizontal card — three common items and one odd item — and solvers circle the one that doesn\'t belong. The generator offers two distinct modes. Identical mode places three clones of the exact same image alongside one different image from the same theme, creating a straightforward spot-the-difference challenge. Similar mode draws three images from Theme A (e.g., animals) and one image from Theme B (e.g., food), requiring solvers to identify the thematic outlier rather than a visual duplicate. Each mode produces a fundamentally different cognitive challenge from the same image library.',
       },
       {
         title: 'Per-Exercise Mode Override for Mixed-Difficulty Worksheets',
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Puzzle Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited odd one out collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine's Day packs in January. Mix Identical and Similar modes within each seasonal set for variety and perceived value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Create time-limited odd one out collections that align with peak shopping periods. Release Halloween puzzle bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. Mix Identical and Similar modes within each seasonal set for variety and perceived value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'How does the odd one out mechanic work?',
       answer:
-        'Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn't belong, and circle it. The odd item's position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.',
+        'Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn\'t belong, and circle it. The odd item's position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.',
     },
     {
       question: 'What is the difference between Identical and Similar modes?',

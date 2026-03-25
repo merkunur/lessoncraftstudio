@@ -128,7 +128,7 @@ const content: GuideContent = {
     },
     {
       question: 'How do I ensure consistent quality across all language versions?',
-      answer: 'Build language-specific QA checklists that cover the most common error categories for each language. Run every product through its language checklist before listing. Use multiple verification passes: first check character correctness (diacritical marks, special characters), then check natural language flow (does it sound translated or native?), then check educational accuracy (are instructions clear, is content age-appropriate?). Compare your output against professionally published educational materials in each target language to calibrate your quality standard. Document errors you find and update your checklists to prevent recurrence. Over time, your QA process becomes faster and more reliable as you learn each language's common pitfalls.',
+      answer: 'Build language-specific QA checklists that cover the most common error categories for each language. Run every product through its language checklist before listing. Use multiple verification passes: first check character correctness (diacritical marks, special characters), then check natural language flow (does it sound translated or native?), then check educational accuracy (are instructions clear, is content age-appropriate?). Compare your output against professionally published educational materials in each target language to calibrate your quality standard. Document errors you find and update your checklists to prevent recurrence. Over time, your QA process becomes faster and more reliable as you learn each language\'s common pitfalls.',
     },
     {
       question: 'What is the refund policy for commercial licenses?',

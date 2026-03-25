@@ -37,7 +37,7 @@ const content: ToolContent = {
       },
       {
         title: 'Choose Your Input Mode',
-        description: 'Select Image Clue or Custom Word List. Image Clue mode uses pictures from the built-in library — the tool automatically generates letter grids from the image's word in the selected language. Custom Word List mode lets you type words directly without images, ideal for niche vocabulary, spelling lists, or subject-specific terminology that the image library doesn't cover.',
+        description: 'Select Image Clue or Custom Word List. Image Clue mode uses pictures from the built-in library — the tool automatically generates letter grids from the image\'s word in the selected language. Custom Word List mode lets you type words directly without images, ideal for niche vocabulary, spelling lists, or subject-specific terminology that the image library doesn\'t cover.',
       },
       {
         title: 'Set the Clue Difficulty Level',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Custom Word List Vocabulary Worksheets',
-      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, or foreign language vocabulary. No images needed — the tool generates letter grids from your typed words. Create targeted spelling practice for any curriculum, grade level, or niche topic that the image library doesn't cover.',
+      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, or foreign language vocabulary. No images needed — the tool generates letter grids from your typed words. Create targeted spelling practice for any curriculum, grade level, or niche topic that the image library doesn\'t cover.',
     },
     {
       title: 'Seasonal Spelling Bundles',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Use Custom Word Lists for Niche Vocabulary',
-      description: 'Custom Word List mode lets you type any words directly, bypassing the image library. Create spelling worksheets for science terms, sight word lists, spelling bee preparation, foreign language vocabulary, or any subject-specific terminology. This mode opens markets the image library alone can't reach.',
+      description: 'Custom Word List mode lets you type any words directly, bypassing the image library. Create spelling worksheets for science terms, sight word lists, spelling bee preparation, foreign language vocabulary, or any subject-specific terminology. This mode opens markets the image library alone can\'t reach.',
     },
     {
       title: 'Use Grayscale for KDP and Bulk Printing',
@@ -164,7 +164,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are the two input modes?',
-      answer: 'Image Clue mode uses pictures from the built-in library of 3,100+ images across 104 themes. The tool automatically generates letter grids from the image's word in the selected language. Custom Word List mode lets you type any words directly — the tool generates letter grids without images, ideal for spelling lists, subject-specific vocabulary, or words the image library doesn't cover.',
+      answer: 'Image Clue mode uses pictures from the built-in library of 3,100+ images across 104 themes. The tool automatically generates letter grids from the image\'s word in the selected language. Custom Word List mode lets you type any words directly — the tool generates letter grids without images, ideal for spelling lists, subject-specific vocabulary, or words the image library doesn\'t cover.',
     },
     {
       question: 'What does the Exclude Letters feature do?',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'How does the language sensitivity work?',
-      answer: 'When you switch languages, the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish, "CANE" in Italian, and so on across all 11 supported languages. The letter grid, blanks, and answer key all update to match the new language's spelling.',
+      answer: 'When you switch languages, the same image produces a different correct spelling. A dog image generates "DOG" in English, "HUND" in German, "CHIEN" in French, "PERRO" in Spanish, "CANE" in Italian, and so on across all 11 supported languages. The letter grid, blanks, and answer key all update to match the new language\'s spelling.',
     },
     {
       question: 'Which languages are supported?',

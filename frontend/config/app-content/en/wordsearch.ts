@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Locale-Aware Alphabet Filler with Language-Specific Characters',
         description:
-          'Grid filler characters automatically match the selected language's alphabet and character frequency. German grids include ä, ö, ü, and ß at weighted frequencies matching natural German text. French grids include à, â, é, è, ê, ë, î, ï, ô, ù, û, and ç. Swedish grids include å, ä, and ö. Every supported locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. This feature is unique to Word Search — it affects not just the hidden words but the entire grid background.',
+          'Grid filler characters automatically match the selected language\'s alphabet and character frequency. German grids include ä, ö, ü, and ß at weighted frequencies matching natural German text. French grids include à, â, é, è, ê, ë, î, ï, ô, ù, û, and ç. Swedish grids include å, ä, and ö. Every supported locale gets authentic filler characters, making puzzles linguistically genuine rather than obviously English-generated. This feature is unique to Word Search — it affects not just the hidden words but the entire grid background.',
       },
       {
         title: 'Color-Coded Answer Key with 6 Highlight Colors',
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does the locale-aware alphabet filler work?',
       answer:
-        'When you select a language, the grid filler characters automatically switch to that language's alphabet with weighted frequency distributions. German grids include ä, ö, ü, and ß. French grids include é, è, ç, à, and other accented characters. Swedish grids include å, ä, and ö. This makes puzzles linguistically authentic — the filler letters look natural rather than obviously English-generated.',
+        'When you select a language, the grid filler characters automatically switch to that language\'s alphabet with weighted frequency distributions. German grids include ä, ö, ü, and ß. French grids include é, è, ç, à, and other accented characters. Swedish grids include å, ä, and ö. This makes puzzles linguistically authentic — the filler letters look natural rather than obviously English-generated.',
     },
     {
       question: 'How does the color-coded answer key work?',
@@ -182,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Is the Word Search generator language-sensitive?',
       answer:
-        'Yes. Because hidden words are image names in the selected language, changing the language changes the puzzle content entirely. Additionally, the grid filler letters change to match the target language's character set with proper frequency weights. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct product with different words and different filler characters.',
+        'Yes. Because hidden words are image names in the selected language, changing the language changes the puzzle content entirely. Additionally, the grid filler letters change to match the target language\'s character set with proper frequency weights. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct product with different words and different filler characters.',
     },
     {
       question: 'Is there a free trial?',

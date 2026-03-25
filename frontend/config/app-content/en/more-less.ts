@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: 'Themed Comparison Worksheet Bundles on Etsy',
         description:
-          'Create sets of 10–20 comparison worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include all three modes (Image to Image, Image to Number, Check & Cross) plus answer keys for a complete learning resource. Themed comparison bundles attract buyers searching for specific topics. Price individual theme packs at $3–$5 and variety mega-bundles at $12–$18. Seasonal themes like Halloween, Christmas, and Valentine's Day comparison packs tend to spike in search volume weeks before each holiday, so schedule your listings early and refresh cover images to capture trending traffic.',
+          'Create sets of 10–20 comparison worksheets grouped by theme — farm animals, dinosaurs, ocean life, holidays — and list them as instant-download bundles on Etsy. Include all three modes (Image to Image, Image to Number, Check & Cross) plus answer keys for a complete learning resource. Themed comparison bundles attract buyers searching for specific topics. Price individual theme packs at $3–$5 and variety mega-bundles at $12–$18. Seasonal themes like Halloween, Christmas, and Valentine\'s Day comparison packs tend to spike in search volume weeks before each holiday, so schedule your listings early and refresh cover images to capture trending traffic.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Are comparison worksheets language-sensitive?',
       answer:
-        'No. More or Less worksheets are visual-only — the comparison content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app's interface labels, not the worksheet content itself, making your products instantly sellable worldwide. This is a significant advantage for sellers targeting international marketplaces, because a single comparison worksheet PDF can be listed on Etsy stores in multiple countries without any translation or localization effort.',
+        'No. More or Less worksheets are visual-only — the comparison content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide. This is a significant advantage for sellers targeting international marketplaces, because a single comparison worksheet PDF can be listed on Etsy stores in multiple countries without any translation or localization effort.',
     },
     {
       question: 'Does the generator create answer keys automatically?',

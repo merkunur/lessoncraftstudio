@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        'In standard Image Library mode, the word to guess is the image's built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.',
+        'In standard Image Library mode, the word to guess is the image\'s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.',
     },
     {
       question: 'What can I do with Custom Word List mode?',

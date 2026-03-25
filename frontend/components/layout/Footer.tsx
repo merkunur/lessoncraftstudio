@@ -183,7 +183,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.youtube.com/@LesssonCraftStudio"
+                    href="https://www.youtube.com/@LessonCraftStudioApps"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white inline-flex items-center gap-1.5"

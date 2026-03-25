@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Coloring Book Series',
-      description: 'Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids\' books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP\'s content differentiation requirements.',
+      description: 'Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids' books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP's content differentiation requirements.',
       platform: 'Amazon KDP',
     },
     {

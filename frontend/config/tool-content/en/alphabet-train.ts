@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pair with Pattern Train for a Train-Theme Bundle',
-      description: 'The Pattern Train maker uses the same train-wagon visual format but focuses on pattern recognition instead of letters. Bundle both tools\' output into a "Train Activities" mega-pack that covers literacy and logic skills. The matching visual style creates a cohesive product line.',
+      description: 'The Pattern Train maker uses the same train-wagon visual format but focuses on pattern recognition instead of letters. Bundle both tools' output into a "Train Activities" mega-pack that covers literacy and logic skills. The matching visual style creates a cohesive product line.',
     },
   ],
 

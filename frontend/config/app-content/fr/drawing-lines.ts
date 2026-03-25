@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Graphisme | Créer et Vendre',
     metaDescription:
-      'Créez des fiches de graphisme à vendre sur Etsy, KDP et Gumroad. Huit modèles SVG, association de paires d’images, 104 collections. Essai gratuit avec filigrane.',
+      'Créez des fiches de graphisme à vendre sur Etsy, KDP et Gumroad. Huit modèles SVG, association de paires d'images, 104 collections. Essai gratuit avec filigrane.',
   },
 
   hero: {

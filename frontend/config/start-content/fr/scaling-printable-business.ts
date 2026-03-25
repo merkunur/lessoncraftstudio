@@ -18,7 +18,7 @@ const content: StartContent = {
       'stratégie de réinvestissement pour activité imprimables',
     ],
     titleTag: 'Développer activité imprimables — Guide de croissance',
-    metaDescription: 'Développez votre activité d’imprimables d’activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
+    metaDescription: 'Développez votre activité d'imprimables d'activité secondaire à temps plein. Expansion du catalogue, multi-plateforme, regroupement et automatisation.',
   },
 
   hero: {

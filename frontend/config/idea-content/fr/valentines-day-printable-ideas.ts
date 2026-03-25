@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Imprimables Saint-Valentin à Vendre — Guide de Niche',
-    metaDescription: 'Idées d’imprimables de Saint-Valentin à vendre sur Etsy, KDP et Gumroad. Concepts produits thème amour, stratégies timing saisonnier et conseils pour vendeurs.',
+    metaDescription: 'Idées d'imprimables de Saint-Valentin à vendre sur Etsy, KDP et Gumroad. Concepts produits thème amour, stratégies timing saisonnier et conseils pour vendeurs.',
     primaryKeyword: 'imprimables saint-valentin à vendre',
     secondaryKeywords: [
       'fiches de Saint-Valentin à vendre',

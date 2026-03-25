@@ -76,7 +76,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal Counting and Graphing Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas ornaments, Halloween icons, Easter items, Valentine’s hearts, back-to-school supplies, summer activities, and winter scenes each support dedicated picture graph packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The scattered image grid with random distribution creates unique worksheets for every generation, so seasonal packs never feel repetitive. Seasonal products drive recurring annual revenue as buyers return each year.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas ornaments, Halloween icons, Easter items, Valentine's hearts, back-to-school supplies, summer activities, and winter scenes each support dedicated picture graph packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The scattered image grid with random distribution creates unique worksheets for every generation, so seasonal packs never feel repetitive. Seasonal products drive recurring annual revenue as buyers return each year.',
     },
     {
       title: 'Cross-Curricular Data Representation Activities',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
-      description: 'Create holiday and seasonal picture graph packs using themed collections from the 104-theme library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
+      description: 'Create holiday and seasonal picture graph packs using themed collections from the 104-theme library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
     },
     {
       title: 'Include Name/Date Fields for Print-Ready Products',

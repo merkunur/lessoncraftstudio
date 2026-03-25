@@ -20,6 +20,7 @@ import { spanishImages } from '@/config/spanish-showcase-images';
 import { portugueseImages } from '@/config/portuguese-showcase-images';
 import { italianImages } from '@/config/italian-showcase-images';
 import { dutchImages } from '@/config/dutch-showcase-images';
+import { swedishImages } from '@/config/swedish-showcase-images';
 
 export interface PageShowcaseConfig {
   hero: HeroShowcaseConfig;
@@ -40,6 +41,7 @@ function localizedImg(appFolder: string, filename: string, locale: string) {
   if (locale === 'pt') return imgUrl(appFolder, filename, 'pt');
   if (locale === 'it') return imgUrl(appFolder, filename, 'it');
   if (locale === 'nl') return imgUrl(appFolder, filename, 'nl');
+  if (locale === 'sv') return imgUrl(appFolder, filename, 'sv');
   return img(appFolder, filename);
 }
 
@@ -827,6 +829,74 @@ const nlTierDescs: Record<string, [string, string, string]> = {
   'treasure-hunt': ['Eenvoudige rasterkaarten', 'Richtingskaarten', 'Meerstaps-jachten'],
 };
 
+// ─── Swedish labels + tier descs ───
+const svLabels: Record<string, string> = {
+  addition: 'Addition', subtraction: 'Subtraktion', 'code-addition': 'Kodaddition', 'more-less': 'Mer eller Mindre',
+  'math-puzzle': 'Mattepussel', 'math-worksheet': 'Mattearbetsblad', 'alphabet-train': 'Alfabetståg',
+  prepositions: 'Prepositioner', 'word-guess': 'Gissa Ordet', 'word-scramble': 'Ordmix',
+  wordsearch: 'Ordsök', cryptogram: 'Kryptogram', writing: 'Skrivövningar',
+  'big-small': 'Stor & Liten', 'pattern-train': 'Mönstertåg', 'pattern-worksheet': 'Mönsterpussel',
+  'draw-and-color': 'Rita & Färglägg', 'drawing-lines': 'Rita Linjer', coloring: 'Målarbilder',
+  'chart-count': 'Bilddiagram', matching: 'Matchning', 'grid-match': 'Rutnätspussel',
+  'shadow-match': 'Skuggmatchning', bingo: 'Bingo', 'picture-sort': 'Sortera Bilder',
+  'missing-pieces': 'Saknade Bitar', 'odd-one-out': 'Hitta Udda', sudoku: 'Sudoku',
+  'picture-path': 'Bildväg', 'find-and-count': 'Hitta & Räkna', 'find-objects': 'Hitta Föremål',
+  crossword: 'Bildkorsord', 'treasure-hunt': 'Skattjakt',
+};
+
+const svTierDescs: Record<string, [string, string, string]> = {
+  addition: ['Enkel räkning (1-5)', 'Blandade bilder till 10', 'Avancerat till 20'],
+  subtraction: ['Stryk över (1-5)', 'Bild-tal till 10', 'Blandat till 20'],
+  'code-addition': ['Enkla koder (1-5)', 'Större tal', 'Flerstegskoder'],
+  'more-less': ['Jämför grupper (1-5)', 'Temagrupper till 10', 'Större/mindre/lika'],
+  'math-puzzle': ['Enkla pussel', 'Medelsvåra pussel', 'Utmanande pussel'],
+  'math-worksheet': ['Grundövningar', 'Medelsvåra övningar', 'Avancerade övningar'],
+  'alphabet-train': ['Stora bokstäver', 'Små bokstäver', 'Komplett alfabetövning'],
+  prepositions: ['Grundpositioner', 'Utökade positioner', 'Komplexa beskrivningar'],
+  'word-guess': ['Enkla ord', 'Längre ord', 'Utmanande ord'],
+  'word-scramble': ['Korta ord (3-4)', 'Medel (5-6)', 'Långa (7+)'],
+  wordsearch: ['Litet rutnät (6 ord)', 'Medel (10 ord)', 'Stort (15+ ord)'],
+  cryptogram: ['Enkel substitution', 'Komplexare koder', 'Mästarutmaningar'],
+  writing: ['Linjer att öva', 'Bokstäver att forma', 'Ord att skriva'],
+  'big-small': ['Tydliga skillnader', 'Subtila jämförelser', 'Komplex ordning'],
+  'pattern-train': ['AB-mönster', 'ABC-mönster', 'AABB-mönster'],
+  'pattern-worksheet': ['Enkla mönster', 'Medelsvåra mönster', 'Komplexa mönster'],
+  'draw-and-color': ['Enkla former', 'Mer detaljerat', 'Kreativa skapelser'],
+  'drawing-lines': ['Raka linjer', 'Kurviga linjer', 'Komplexa mönster'],
+  coloring: ['Stora ytor', 'Detaljerat', 'Fina detaljer'],
+  'chart-count': ['Enkla diagram', 'Fler kategorier', 'Komplex analys'],
+  matching: ['Enkla par (3)', 'Medel (5 par)', 'Avancerat (8+ par)'],
+  'grid-match': ['Enkelt 2×2', 'Medel 3×3', 'Avancerat 4×4'],
+  'shadow-match': ['Enkla skuggor', 'Roterade skuggor', 'Komplexa pussel'],
+  bingo: ['Enkelt 3×3', 'Bildbingo 4×4', 'Fullständigt 5×5'],
+  'picture-sort': ['2 kategorier', '3 kategorier', '4+ kategorier'],
+  'missing-pieces': ['Enkelt saknat', 'Flerdelsputsel', 'Komplexa visuella pussel'],
+  'odd-one-out': ['Enkla grupper (3)', 'Medel (4)', 'Avancerat (6+)'],
+  sudoku: ['Enkelt 4×4', 'Medel 6×6', 'Svårt 9×9'],
+  'picture-path': ['Raka vägar', 'Förgrenade vägar', 'Komplexa labyrinter'],
+  'find-and-count': ['3-5 objekt att hitta', 'Räkna till 10', 'Avancerade scener'],
+  'find-objects': ['Enkla objekt', 'Medelsvåra scener', 'Komplexa sökbilder'],
+  'treasure-hunt': ['Enkla rutnätskartor', 'Riktningskartor', 'Flerstegsjakter'],
+};
+
+function getSvAppData(key: string): AppVisualData {
+  const en = appData[key];
+  if (!en) return appData.addition;
+  const si = swedishImages[key];
+  if (!si) return en;
+
+  return {
+    ...en,
+    label: svLabels[key] || en.label,
+    imgs: si.imgs,
+    answerKey: si.answerKey,
+    pills: tPills(en.pills, 'sv'),
+    spotPills: tStringPills(en.spotPills, 'sv'),
+    galleryPills: tStringPills(en.galleryPills, 'sv'),
+    tierDesc: svTierDescs[key] || en.tierDesc,
+  };
+}
+
 function getNlAppData(key: string): AppVisualData {
   const en = appData[key];
   if (!en) return appData.addition;
@@ -862,7 +932,8 @@ function buildConfig(
   const isPt = locale === 'pt';
   const isIt = locale === 'it';
   const isNl = locale === 'nl';
-  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : isNl ? getNlAppData : (k: string) => appData[k] || appData.addition;
+  const isSv = locale === 'sv';
+  const getData = isDe ? getDeAppData : isFr ? getFrAppData : isEs ? getEsAppData : isPt ? getPtAppData : isIt ? getItAppData : isNl ? getNlAppData : isSv ? getSvAppData : (k: string) => appData[k] || appData.addition;
   const d1 = getData(a1);
   const d2 = getData(a2);
   const d3 = getData(a3);
@@ -1115,6 +1186,7 @@ const esConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const ptConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const itConfigMap = new Map<PageKey, PageShowcaseConfig>();
 const nlConfigMap = new Map<PageKey, PageShowcaseConfig>();
+const svConfigMap = new Map<PageKey, PageShowcaseConfig>();
 
 pages.forEach((p, i) => {
   const key = `${p.type}:${p.id}` as PageKey;
@@ -1125,6 +1197,7 @@ pages.forEach((p, i) => {
   ptConfigMap.set(key, buildConfig(p.apps, p.title, i, 'pt'));
   itConfigMap.set(key, buildConfig(p.apps, p.title, i, 'it'));
   nlConfigMap.set(key, buildConfig(p.apps, p.title, i, 'nl'));
+  svConfigMap.set(key, buildConfig(p.apps, p.title, i, 'sv'));
 });
 
 // ─── Public API ───
@@ -1140,5 +1213,6 @@ export function getPageShowcaseConfig(
   if (locale === 'pt') return ptConfigMap.get(key) ?? null;
   if (locale === 'it') return itConfigMap.get(key) ?? null;
   if (locale === 'nl') return nlConfigMap.get(key) ?? null;
+  if (locale === 'sv') return svConfigMap.get(key) ?? null;
   return enConfigMap.get(key) ?? null;
 }

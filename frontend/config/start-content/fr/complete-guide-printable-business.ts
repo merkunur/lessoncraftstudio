@@ -18,7 +18,7 @@ const content: StartContent = {
       'licence commerciale outils imprimables',
     ],
     titleTag: 'Lancer une Activité d\'Imprimables — Guide Complet',
-    metaDescription: 'Comment lancer une activité d’imprimables. Guide étape par étape pour vendeurs Etsy, Amazon KDP et Gumroad avec générateurs de fiches pour créer et vendre.',
+    metaDescription: 'Comment lancer une activité d'imprimables. Guide étape par étape pour vendeurs Etsy, Amazon KDP et Gumroad avec générateurs de fiches pour créer et vendre.',
   },
 
   hero: {

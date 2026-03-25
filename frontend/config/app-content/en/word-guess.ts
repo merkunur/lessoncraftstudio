@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Custom Vocabulary Packs for Your Own Store’,
+        title: ‘Custom Vocabulary Packs for Your Own Store',
         description:
-          ‘Use Custom Word List mode to create word guess worksheets for any vocabulary list — spelling words, science terms, geography vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to target different skill tiers: Easy for beginners, No Clues for advanced solvers. Generate complete sets in minutes and list them on your own website or storefront. The automatic answer key adds professional value, and the hangman-style format drives repeat purchases compared to plain word-list printables.’,
-        platform: ‘Your Own Store / Shopify / WooCommerce’,
+          ‘Use Custom Word List mode to create word guess worksheets for any vocabulary list — spelling words, science terms, geography vocabulary, or foreign language practice. Type your words directly without needing matching images. Adjust difficulty level to target different skill tiers: Easy for beginners, No Clues for advanced solvers. Generate complete sets in minutes and list them on your own website or storefront. The automatic answer key adds professional value, and the hangman-style format drives repeat purchases compared to plain word-list printables.',
+        platform: ‘Your Own Store / Shopify / WooCommerce',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        ‘In standard Image Library mode, the word to guess is the image’s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.’,
+        ‘In standard Image Library mode, the word to guess is the image's built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.',
     },
     {
       question: 'What can I do with Custom Word List mode?',

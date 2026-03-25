@@ -18,7 +18,7 @@ const content: StartContent = {
       'impression à la demande activité cahiers d\'activités',
     ],
     titleTag: 'Vendre des Livres d\'Activités sur Amazon KDP — Guide',
-    metaDescription: 'Comment vendre des livres d’activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l’échelle de votre activité.',
+    metaDescription: 'Comment vendre des livres d'activités sur Amazon KDP. Formatage intérieur, design couverture, mots-clés, tarification et mise à l'échelle de votre activité.',
   },
 
   hero: {

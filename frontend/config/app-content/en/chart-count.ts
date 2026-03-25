@@ -132,8 +132,8 @@ const content: AppContent = {
       {
         title: 'Seasonal Counting and Graphing Collections',
         description:
-          ‘The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine’s hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine’s data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.’,
-        platform: ‘Etsy / Amazon KDP / Gumroad (seasonal)’,
+          ‘The 104 themed image collections cover every seasonal and holiday occasion — Christmas ornaments, Halloween icons, Easter items, Valentine's hearts, back-to-school supplies, summer activities, and winter scenes. Create time-limited picture graph collections that align with peak shopping periods. Release Halloween counting bundles in September, Christmas graphing packs in October, and Valentine's data activities in January. Include answer keys with every set for complete product packages. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.',
+        platform: ‘Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
   },
@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: 'How does the automatic image selection work?',
       answer:
-        'Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme’s collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.',
+        'Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme's collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.',
     },
     {
       question: 'How does the auto-generated answer key work?',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'How do the name and date fields work?',
       answer:
-        ‘In the Page Setup panel, check the Include Name/Date box to add formatted “Name: ____” and “Date: ____” fields at the bottom of the worksheet page. The fields use Fredoka font at 18px in #333 color. The worksheet includes identification fields for a professional layout. This makes worksheets immediately print-ready without any additional formatting. Uncheck the box to remove the fields for products that do not need identification lines.’,
+        ‘In the Page Setup panel, check the Include Name/Date box to add formatted “Name: ____” and “Date: ____” fields at the bottom of the worksheet page. The fields use Fredoka font at 18px in #333 color. The worksheet includes identification fields for a professional layout. This makes worksheets immediately print-ready without any additional formatting. Uncheck the box to remove the fields for products that do not need identification lines.',
     },
     {
       question: 'How do background and border themes work?',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids’ Activities',
+      anchorText: 'Summer Printable Ideas for Kids' Activities',
     },
     {
       pageType: 'idea',

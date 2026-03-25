@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: ‘Niche Store on Gumroad for Custom Size Concepts’,
+        title: ‘Niche Store on Gumroad for Custom Size Concepts',
         description:
-          ‘Upload custom images to create size comparison worksheets for any subject or concept — compare building sizes, animal sizes, or food portions. The five question types let you match the exercise to the buyer’s needs: identification for introductory packs, ordering for advanced packs. Adjust exercises per page and images per exercise to create tiered difficulty levels. Generate custom sets in minutes for niche product lines. The auto-generated answer key adds perceived value, and the visual format appeals to buyers looking for low-text, print-ready products.’,
-        platform: ‘Gumroad / Your Own Store’,
+          ‘Upload custom images to create size comparison worksheets for any subject or concept — compare building sizes, animal sizes, or food portions. The five question types let you match the exercise to the buyer's needs: identification for introductory packs, ordering for advanced packs. Adjust exercises per page and images per exercise to create tiered difficulty levels. Generate custom sets in minutes for niche product lines. The auto-generated answer key adds perceived value, and the visual format appeals to buyers looking for low-text, print-ready products.',
+        platform: ‘Gumroad / Your Own Store',
       },
     ],
   },

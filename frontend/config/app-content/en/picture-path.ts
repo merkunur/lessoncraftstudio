@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Maze Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited maze collections that align with peak shopping periods. Release Halloween maze bundles in September, Christmas collections in October, and Valentine's Day packs in January. Include all three game modes in each seasonal set for maximum value. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases from returning customers.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'How does the auto-generated header work?',
       answer:
-        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title “Picture Pathway” and description “Follow the path from start to finish!” are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d’Images), Spanish (Camino de Imágenes), and all other supported languages.',
+        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title “Picture Pathway” and description “Follow the path from start to finish!” are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d'Images), Spanish (Camino de Imágenes), and all other supported languages.',
     },
     {
       question: 'Is there a free trial?',

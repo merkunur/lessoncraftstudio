@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Wie funktioniert der automatisch generierte Header?',
       answer:
-        'Jedes Arbeitsblatt enthält einen gestalteten Header mit einem orangefarbenen äußeren Rahmen (8px Strichstärke) und 34px Seitenrändern. Der Titel „Bilderpfad“ und die Beschreibung „Follge dem Pfad vom Start zum Ziel!“ werden automatisch in alle 11 unterstützten Sprachen übersetzt. Hochformat-Arbeitsblätter zeigen einen 240px-Header; Querformat-Arbeitsblätter verwenden ein kompaktes 165px-Layout. Der Header rendert lokalisierten Text für Deutsch (Bilderpfad), Englisch (Picture Pathway), Französisch (Chemin d’Images), Spanisch (Camino de Imágenes) und alle weiteren unterstützten Sprachen.',
+        'Jedes Arbeitsblatt enthält einen gestalteten Header mit einem orangefarbenen äußeren Rahmen (8px Strichstärke) und 34px Seitenrändern. Der Titel „Bilderpfad“ und die Beschreibung „Follge dem Pfad vom Start zum Ziel!“ werden automatisch in alle 11 unterstützten Sprachen übersetzt. Hochformat-Arbeitsblätter zeigen einen 240px-Header; Querformat-Arbeitsblätter verwenden ein kompaktes 165px-Layout. Der Header rendert lokalisierten Text für Deutsch (Bilderpfad), Englisch (Picture Pathway), Französisch (Chemin d'Images), Spanisch (Camino de Imágenes) und alle weiteren unterstützten Sprachen.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',

@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Missing Pieces Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas jigsaw puzzles, Halloween missing pieces activities, Easter puzzle worksheets, Valentine’s Day visual challenges, back-to-school puzzles, and summer theme sets each support dedicated seasonal packs. Include multiple piece shapes and difficulty levels within each seasonal collection for maximum age range coverage. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The distractor pieces add genuine challenge that differentiates your seasonal puzzle products from simpler alternatives.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas jigsaw puzzles, Halloween missing pieces activities, Easter puzzle worksheets, Valentine's Day visual challenges, back-to-school puzzles, and summer theme sets each support dedicated seasonal packs. Include multiple piece shapes and difficulty levels within each seasonal collection for maximum age range coverage. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The distractor pieces add genuine challenge that differentiates your seasonal puzzle products from simpler alternatives.',
     },
     {
       title: 'Multi-Format Visual Perception Bundles',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'What are distractor pieces and how are they generated?',
-      answer: 'Distractor pieces are extra solution options that don’t match any hole in the puzzle. They’re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don’t overlap with correct pieces or with each other. Distractors prevent solving by elimination alone — they must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives. The number of distractors equals the difference between solution options and missing pieces.',
+      answer: 'Distractor pieces are extra solution options that don't match any hole in the puzzle. They're extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don't overlap with correct pieces or with each other. Distractors prevent solving by elimination alone — they must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives. The number of distractors equals the difference between solution options and missing pieces.',
     },
     {
       question: 'How does the smart piece extraction algorithm work?',

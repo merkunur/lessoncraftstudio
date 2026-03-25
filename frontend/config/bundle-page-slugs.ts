@@ -42,7 +42,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'math-mastery-bundle',
       de: 'mathematik-meister-paket',
       fr: 'pack-maitrise-maths',
-      es: 'paquete-dominio-matematicas', pt: 'pacote-dominio-matematica', it: 'pacchetto-padronanza-matematica', nl: 'wiskunde-meester-pakket'
+      es: 'paquete-dominio-matematicas', pt: 'pacote-dominio-matematica', it: 'pacchetto-padronanza-matematica', nl: 'wiskunde-meester-pakket', sv: 'matematik-maestar-paket'
     },
   },
   {
@@ -51,7 +51,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'literacy-language-bundle',
       de: 'lese-sprach-paket',
       fr: 'pack-lecture-langage',
-      es: 'paquete-lectura-lenguaje', pt: 'pacote-leitura-linguagem', it: 'pacchetto-lettura-linguaggio', nl: 'lezen-taal-pakket'
+      es: 'paquete-lectura-lenguaje', pt: 'pacote-leitura-linguagem', it: 'pacchetto-lettura-linguaggio', nl: 'lezen-taal-pakket', sv: 'laesning-spraak-paket'
     },
   },
   {
@@ -60,7 +60,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'visual-learning-bundle',
       de: 'visuelles-lernen-paket',
       fr: 'pack-apprentissage-visuel',
-      es: 'paquete-aprendizaje-visual', pt: 'pacote-aprendizagem-visual', it: 'pacchetto-apprendimento-visivo', nl: 'visueel-leren-pakket'
+      es: 'paquete-aprendizaje-visual', pt: 'pacote-aprendizagem-visual', it: 'pacchetto-apprendimento-visivo', nl: 'visueel-leren-pakket', sv: 'visuellt-laerande-paket'
     },
   },
   {
@@ -69,7 +69,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'matching-sorting-bundle',
       de: 'zuordnung-sortierung-paket',
       fr: 'pack-association-tri',
-      es: 'paquete-asociacion-clasificacion', pt: 'pacote-associacao-classificacao', it: 'pacchetto-abbinamento-classificazione', nl: 'matchen-sorteren-pakket'
+      es: 'paquete-asociacion-clasificacion', pt: 'pacote-associacao-classificacao', it: 'pacchetto-abbinamento-classificazione', nl: 'matchen-sorteren-pakket', sv: 'matchning-sortering-paket'
     },
   },
   {
@@ -78,7 +78,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'puzzles-logic-bundle',
       de: 'raetsel-logik-paket',
       fr: 'pack-puzzles-logique',
-      es: 'paquete-puzzles-logica', pt: 'pacote-puzzles-logica', it: 'pacchetto-puzzle-logica', nl: 'puzzels-logica-pakket'
+      es: 'paquete-puzzles-logica', pt: 'pacote-puzzles-logica', it: 'pacchetto-puzzle-logica', nl: 'puzzels-logica-pakket', sv: 'pussel-logik-paket'
     },
   },
   {
@@ -87,7 +87,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'search-find-bundle',
       de: 'suchen-finden-paket',
       fr: 'pack-cherche-trouve',
-      es: 'paquete-busca-encuentra', pt: 'pacote-procura-encontra', it: 'pacchetto-cerca-trova', nl: 'zoeken-vinden-pakket'
+      es: 'paquete-busca-encuentra', pt: 'pacote-procura-encontra', it: 'pacchetto-cerca-trova', nl: 'zoeken-vinden-pakket', sv: 'soek-och-hitta-paket'
     },
   },
 ];

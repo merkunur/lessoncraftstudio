@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Cipher Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited cryptogram bundles. A “Halloween Secret Messages” pack with spooky-themed cipher images sells strongly in October. Christmas, back-to-school, Valentine’s Day, and summer themes each have their own peak sales windows on Etsy and Gumroad. Combine scaffolded puzzles at 6–8 reveals for beginners with zero-reveal expert puzzles for advanced solvers in a single seasonal bundle to maximize your buyer audience.',
+      description: 'Use holiday and seasonal image themes to create time-limited cryptogram bundles. A “Halloween Secret Messages” pack with spooky-themed cipher images sells strongly in October. Christmas, back-to-school, Valentine's Day, and summer themes each have their own peak sales windows on Etsy and Gumroad. Combine scaffolded puzzles at 6–8 reveals for beginners with zero-reveal expert puzzles for advanced solvers in a single seasonal bundle to maximize your buyer audience.',
     },
   ],
 

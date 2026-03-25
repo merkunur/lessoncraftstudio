@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur de Discrimination Visuelle | Silhouettes',
     metaDescription:
-      'Créez des fiches discrimination visuelle pour Etsy, KDP et Gumroad. Modes Ombre et Reconstitue l’Image, silhouettes auto, 104 thèmes.',
+      'Créez des fiches discrimination visuelle pour Etsy, KDP et Gumroad. Modes Ombre et Reconstitue l'Image, silhouettes auto, 104 thèmes.',
   },
 
   hero: {

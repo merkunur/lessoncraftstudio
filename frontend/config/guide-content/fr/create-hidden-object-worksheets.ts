@@ -18,7 +18,7 @@ const content: GuideContent = {
       'créateur scènes objets cachés licence commerciale',
     ],
     titleTag: 'Fiches objets cachés à imprimer — Guide',
-    metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l’intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
+    metaDescription: 'Créez des fiches objets cachés avec deux modes de jeu : Cherche et Trouve et Trouve l'intrus. Scènes thématiques, corrigés auto et vente sur Etsy et KDP.',
   },
 
   hero: {

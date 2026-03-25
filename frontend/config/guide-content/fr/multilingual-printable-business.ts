@@ -18,7 +18,7 @@ const content: GuideContent = {
       'flux revenus multilangues internationalisation plateformes distribution multi-marchés',
     ],
     titleTag: 'Activité Imprimables Multilingue — Guide Stratégique',
-    metaDescription: 'Développez une activité d’imprimables multilingue sur les marchés internationaux. Langues prioritaires, workflows de traduction et stratégies de revenus.',
+    metaDescription: 'Développez une activité d'imprimables multilingue sur les marchés internationaux. Langues prioritaires, workflows de traduction et stratégies de revenus.',
   },
 
   hero: {

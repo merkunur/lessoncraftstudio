@@ -18,7 +18,7 @@ const content: StartContent = {
       'utilisation commerciale vs personnelle imprimables',
     ],
     titleTag: 'Guide Licence Commerciale pour Vendeurs d\'Imprimables',
-    metaDescription: 'Comprendre les licences commerciales pour vendre des fiches sur Etsy, KDP et d’autres plateformes. Deux niveaux expliqués avec droits et tarification.',
+    metaDescription: 'Comprendre les licences commerciales pour vendre des fiches sur Etsy, KDP et d'autres plateformes. Deux niveaux expliqués avec droits et tarification.',
   },
 
   hero: {

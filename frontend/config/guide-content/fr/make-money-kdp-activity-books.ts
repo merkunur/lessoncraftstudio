@@ -18,7 +18,7 @@ const content: GuideContent = {
       'KDP rapports suivi performance revenu par titre analyse',
     ],
     titleTag: 'Gagner de l\'argent avec les livres d\'activités KDP — Guide',
-    metaDescription: 'Comment gagner de l’argent avec les livres d’activités KDP. Tarification, catalogue, redevances, publication saisonnière et expansion multi-plateformes.',
+    metaDescription: 'Comment gagner de l'argent avec les livres d'activités KDP. Tarification, catalogue, redevances, publication saisonnière et expansion multi-plateformes.',
   },
 
   hero: {

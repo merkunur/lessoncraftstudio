@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Cuisine à Vendre — Guide',
-    metaDescription: 'Découvrez des idées d’imprimables cuisine et alimentation à vendre sur Etsy, KDP et Gumroad. Concepts de produits recettes, stratégies et conseils pour vendeurs.',
+    metaDescription: 'Découvrez des idées d'imprimables cuisine et alimentation à vendre sur Etsy, KDP et Gumroad. Concepts de produits recettes, stratégies et conseils pour vendeurs.',
 
     primaryKeyword: 'idées d\'imprimables cuisine à vendre',
     secondaryKeywords: [

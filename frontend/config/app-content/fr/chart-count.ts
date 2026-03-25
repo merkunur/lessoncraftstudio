@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches Graphique à Images | Créer et Vendre',
     metaDescription:
-      'Créez des fiches graphique à images pour Etsy, KDP et Gumroad. Corrigé auto avec surlignage, 104 thèmes, 6 types d’images par fiche. Essai gratuit avec filigrane.',
+      'Créez des fiches graphique à images pour Etsy, KDP et Gumroad. Corrigé auto avec surlignage, 104 thèmes, 6 types d'images par fiche. Essai gratuit avec filigrane.',
   },
 
   hero: {

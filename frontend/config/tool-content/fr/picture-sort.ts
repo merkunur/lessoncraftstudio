@@ -15,7 +15,7 @@ const content: ToolContent = {
       'grille découpée mélangée outil créateur fiches classification',
     ],
     titleTag: 'Créateur Tri d\'Images — Générateur Fiches de Tri',
-    metaDescription: 'Créez des fiches de tri d’images avec tri à deux catégories, grille découpée, corrigé auto, 104 collections thématiques. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches de tri d'images avec tri à deux catégories, grille découpée, corrigé auto, 104 collections thématiques. Essai gratuit avec filigrane.',
   },
 
   hero: {

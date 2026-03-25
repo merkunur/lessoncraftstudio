@@ -114,7 +114,7 @@ const content: AppContent = {
       {
         title: 'Handwriting Workbooks on Amazon KDP',
         description:
-          'Compile 80–120 handwriting practice pages into a printed workbook formatted for Amazon KDP. Structure the book as a learning progression: Chapter 1 covers pre-writing strokes, Chapter 2 introduces uppercase letters with arrow-guided stroke order in Trace mode, Chapter 3 repeats uppercase in Fading Trace mode, Chapter 4 introduces lowercase letters, and Chapter 5 advances to Guided Copy with complete words. Use per-row independence to mix modes within chapters for variety. Handwriting workbooks sell consistently year-round and benefit from KDP’s print-on-demand model — no inventory needed.',
+          'Compile 80–120 handwriting practice pages into a printed workbook formatted for Amazon KDP. Structure the book as a learning progression: Chapter 1 covers pre-writing strokes, Chapter 2 introduces uppercase letters with arrow-guided stroke order in Trace mode, Chapter 3 repeats uppercase in Fading Trace mode, Chapter 4 introduces lowercase letters, and Chapter 5 advances to Guided Copy with complete words. Use per-row independence to mix modes within chapters for variety. Handwriting workbooks sell consistently year-round and benefit from KDP's print-on-demand model — no inventory needed.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Gumroad (fine motor niche)',
       },
       {
-        title: ‘Pinterest Funnel to Your Own Handwriting Store’,
+        title: ‘Pinterest Funnel to Your Own Handwriting Store',
         description:
-          ‘Use Custom Text mode to create handwriting worksheets for any word, sentence, or phrase — spelling words, names, sight words, or subject-specific vocabulary. Pin sample images on Pinterest boards organized by theme (alphabet, cursive, fine motor) and link each pin to a landing page on your own store or Gumroad listing. The three practice modes let you offer tiered products — Trace for beginners, Fading Trace for intermediate, Guided Copy for advanced — driving repeat buyers back to your store for the next level. Per-row independence means one worksheet can serve multiple skill levels simultaneously, giving you more SKUs from fewer designs.’,
-        platform: ‘Pinterest → Your Own Store / Gumroad’,
+          ‘Use Custom Text mode to create handwriting worksheets for any word, sentence, or phrase — spelling words, names, sight words, or subject-specific vocabulary. Pin sample images on Pinterest boards organized by theme (alphabet, cursive, fine motor) and link each pin to a landing page on your own store or Gumroad listing. The three practice modes let you offer tiered products — Trace for beginners, Fading Trace for intermediate, Guided Copy for advanced — driving repeat buyers back to your store for the next level. Per-row independence means one worksheet can serve multiple skill levels simultaneously, giving you more SKUs from fewer designs.',
+        platform: ‘Pinterest → Your Own Store / Gumroad',
       },
     ],
   },
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for handwriting worksheets?',
       answer:
-        ‘Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide — users trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that solvers could not see during the exercise.’,
+        ‘Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide — users trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that solvers could not see during the exercise.',
     },
     {
       question: 'Is there a free trial?',

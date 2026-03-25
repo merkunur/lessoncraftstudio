@@ -126,8 +126,8 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Sorting Collections',
         description:
-          ‘The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create seasonal sorting worksheets where users classify holiday items into categories: Christmas decorations vs Christmas food, Halloween costumes vs Halloween treats, summer activities vs winter activities. Release Halloween sorting bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.’,
-        platform: ‘Etsy / Amazon KDP / Gumroad (seasonal)’,
+          ‘The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create seasonal sorting worksheets where users classify holiday items into categories: Christmas decorations vs Christmas food, Halloween costumes vs Halloween treats, summer activities vs winter activities. Release Halloween sorting bundles in September, Christmas collections in October, and Valentine's Day packs in January. Seasonal products command higher prices during peak windows and create natural reasons for repeat purchases.',
+        platform: ‘Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
         title: 'Multilingual Sorting Worksheets for ESL and Bilingual Markets',

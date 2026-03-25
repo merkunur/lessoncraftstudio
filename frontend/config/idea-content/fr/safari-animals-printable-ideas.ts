@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Imprimables Animaux de Safari à Vendre — Guide de Niche',
-    metaDescription: 'Idées d’imprimables animaux de safari à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
+    metaDescription: 'Idées d'imprimables animaux de safari à vendre sur Etsy, Amazon KDP et Gumroad. Concepts produits faune africaine, stratégies plateformes et conseils vendeurs.',
 
     primaryKeyword: 'imprimables animaux de safari à vendre',
     secondaryKeywords: [

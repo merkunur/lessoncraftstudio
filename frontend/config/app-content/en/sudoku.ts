@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: '4×4 Picture Sudoku with Images Instead of Numbers',
         description:
-          'Each puzzle uses a 4×4 grid with 4 unique colorful images replacing traditional numbers. Solvers apply the same logic rules as classic sudoku — each image must appear exactly once in every row and once in every column — but the visual format makes puzzles accessible to pre-readers and the younger audience who haven’t mastered numerals yet. The image-based format also makes every puzzle universally understandable regardless of language, since no text appears within the grid itself. This visual-only design is the key differentiator that opens worldwide markets for your printable products.',
+          'Each puzzle uses a 4×4 grid with 4 unique colorful images replacing traditional numbers. Solvers apply the same logic rules as classic sudoku — each image must appear exactly once in every row and once in every column — but the visual format makes puzzles accessible to pre-readers and the younger audience who haven't mastered numerals yet. The image-based format also makes every puzzle universally understandable regardless of language, since no text appears within the grid itself. This visual-only design is the key differentiator that opens worldwide markets for your printable products.',
       },
       {
         title: 'Three Difficulty Levels: Easy, Medium, and Hard',
@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Sudoku Puzzle Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited sudoku puzzle collections that align with peak shopping periods. Release Halloween sudoku bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Include all three difficulty levels in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases throughout the year.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine's Day, back-to-school, summer vacation, and more. Create time-limited sudoku puzzle collections that align with peak shopping periods. Release Halloween sudoku bundles in September, Christmas collections in October, and Valentine's Day packs in January. Include all three difficulty levels in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases throughout the year.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: 'Why use images instead of numbers for sudoku?',
       answer:
-        'Images make sudoku accessible to pre-readers and the younger audience who haven’t mastered numerals. The visual format engages users with colorful themed illustrations while developing the same logical reasoning skills as number-based sudoku. Image-based puzzles are also universally understandable — no language or number system knowledge required — which makes your products sellable worldwide without translation.',
+        'Images make sudoku accessible to pre-readers and the younger audience who haven't mastered numerals. The visual format engages users with colorful themed illustrations while developing the same logical reasoning skills as number-based sudoku. Image-based puzzles are also universally understandable — no language or number system knowledge required — which makes your products sellable worldwide without translation.',
     },
     {
       question: 'What do the three difficulty levels control?',

@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (global)',
       },
       {
-        title: ‘Custom Fine Motor Products for Niche Stores’,
+        title: ‘Custom Fine Motor Products for Niche Stores',
         description:
-          ‘Upload custom images to create targeted line tracing worksheets for specific niches. Sellers in the therapy and special needs niche can select line types matching fine motor development needs — curves for wrist mobility, diagonals for bilateral coordination, straight lines for directional control. Create subject-themed tracing sheets where users connect related image pairs while developing pencil control. Adjust template selection and image themes to match your target audience. Produce custom sets in minutes and list them on Gumroad or your own store for niche buyers.’,
-        platform: ‘Gumroad / Etsy / Your Own Store’,
+          ‘Upload custom images to create targeted line tracing worksheets for specific niches. Sellers in the therapy and special needs niche can select line types matching fine motor development needs — curves for wrist mobility, diagonals for bilateral coordination, straight lines for directional control. Create subject-themed tracing sheets where users connect related image pairs while developing pencil control. Adjust template selection and image themes to match your target audience. Produce custom sets in minutes and list them on Gumroad or your own store for niche buyers.',
+        platform: ‘Gumroad / Etsy / Your Own Store',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for Drawing Lines worksheets?',
       answer:
-        ‘Drawing Lines worksheets do not need a separate answer key because the line path itself provides the guidance. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the drawn line follows the path and reaches the matching image, it is completed correctly.’,
+        ‘Drawing Lines worksheets do not need a separate answer key because the line path itself provides the guidance. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the drawn line follows the path and reaches the matching image, it is completed correctly.',
     },
     {
       question: 'Can I upload my own images instead of using the library?',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids’ Activities',
+      anchorText: 'Summer Printable Ideas for Kids' Activities',
     },
     {
       pageType: 'idea',

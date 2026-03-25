@@ -36,22 +36,22 @@ const content: AppContent = {
       {
         title: 'Übungsmodus wählen und Optionen konfigurieren',
         description:
-          'Öffnen Sie das Übungskonfigurations-Panel und wählen Sie Ihren Modus: Schattenbild-Zuordnung oder Bild Vervollständigen. Die Schattenbild-Zuordnung generiert schwarze Silhouetten aus Ihren ausgewählten Bildern durch pixelgenaue Verarbeitung. Bild Vervollständigen teilt Bilder in Hälften — wählen Sie horizontale (oben/unten) oder vertikale (links/rechts) Schnittrichtung über die Optionsfelder, die in diesem Modus erscheinen. Schalten Sie das Kontrollkästchen „Beschriftungen anzeigen“ (Standard EIN) um, um A/B/C/D- und 1/2/3/4-Kennzeichnungen auf dem Arbeitsblatt anzuzeigen. Schalten Sie „Name-/Datumsfelder einfügen“ um, um Zeilen für Name und Datum hinzuzufügen.',
+          'Öffnen Sie das Übungskonfigurations-Panel und wählen Sie Ihren Modus: Schattenbild-Zuordnung oder Bild Vervollständigen. Die Schattenbild-Zuordnung generiert schwarze Silhouetten aus Ihren ausgewählten Bildern durch pixelgenaue Verarbeitung. Bild Vervollständigen teilt Bilder in Hälften — wählen Sie horizontale (oben/unten) oder vertikale (links/rechts) Schnittrichtung über die Optionsfelder, die in diesem Modus erscheinen. Schalten Sie das Kontrollkästchen „Beschriftungen anzeigen" (Standard EIN) um, um A/B/C/D- und 1/2/3/4-Kennzeichnungen auf dem Arbeitsblatt anzuzeigen. Schalten Sie „Name-/Datumsfelder einfügen" um, um Zeilen für Name und Datum hinzuzufügen.',
       },
       {
         title: '4 Bilder aus der Bibliothek auswählen',
         description:
-          'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort mit 300ms Verzögerung. Klicken Sie auf Bilder, um sie auszuwählen — der Zähler zeigt Ihren Fortschritt bis zu den erforderlichen 4 Bildern. Eine Auswahlvorschau bestätigt Ihre Auswahl vor der Generierung. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen“ verwenden.',
+          'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort mit 300ms Verzögerung. Klicken Sie auf Bilder, um sie auszuwählen — der Zähler zeigt Ihren Fortschritt bis zu den erforderlichen 4 Bildern. Eine Auswahlvorschau bestätigt Ihre Auswahl vor der Generierung. Sie können auch eigene PNG-, JPG- oder GIF-Bilder über das Panel „Eigene Bilder hochladen" verwenden.',
       },
       {
         title: 'Schattenbilder-Zuordnungsblatt generieren',
         description:
-          'Klicken Sie auf „Generieren“, um das Zuordnungsblatt zu erstellen. Im Schattenbild-Zuordnungsmodus verarbeitet die App jedes Bild pixelgenau — lädt es auf eine Zeichenfläche, extrahiert Pixeldaten via getImageData und wandelt jeden Pixel mit Alpha > 10 in reines Schwarz (R=0, G=0, B=0, A=255) um, um präzise Silhouetten zu erzeugen. Im Modus Bild Vervollständigen werden Bilder entlang der gewählten Schnittrichtung geteilt. Beide Modi wenden Fisher-Yates-Derangement an, um zu garantieren, dass kein Element an seiner ursprünglichen Position erscheint. Eine gestaltete Überschrift erscheint mit bernsteinfarbenem Hintergrund (#FFC107), weißem Pillen-Container und 3px bernsteinfarbenem Rahmen mit „Schattenbilder-Zuordnung“ und Anweisungen in der gewählten Sprache.',
+          'Klicken Sie auf „Generieren", um das Zuordnungsblatt zu erstellen. Im Schattenbild-Zuordnungsmodus verarbeitet die App jedes Bild pixelgenau — lädt es auf eine Zeichenfläche, extrahiert Pixeldaten via getImageData und wandelt jeden Pixel mit Alpha > 10 in reines Schwarz (R=0, G=0, B=0, A=255) um, um präzise Silhouetten zu erzeugen. Im Modus Bild Vervollständigen werden Bilder entlang der gewählten Schnittrichtung geteilt. Beide Modi wenden Fisher-Yates-Derangement an, um zu garantieren, dass kein Element an seiner ursprünglichen Position erscheint. Eine gestaltete Überschrift erscheint mit bernsteinfarbenem Hintergrund (#FFC107), weißem Pillen-Container und 3px bernsteinfarbenem Rahmen mit „Schattenbilder-Zuordnung" und Anweisungen in der gewählten Sprache.',
       },
       {
         title: 'Lösungsschlüssel generieren und herunterladen',
         description:
-          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Im Schattenbild-Zuordnungsmodus zeigt jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2“, die die korrekte Zuordnung angibt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
+          'Wechseln Sie zum Lösungsschlüssel-Tab, um den automatisch generierten Lösungsschlüssel zu sehen. Im Schattenbild-Zuordnungsmodus zeigt jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2", die die korrekte Zuordnung angibt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Laden Sie beide Versionen über die vier Download-Buttons herunter: Arbeitsblatt-JPEG, Lösungsschlüssel-JPEG, Arbeitsblatt-PDF und Lösungsschlüssel-PDF mit 300 DPI. Aktivieren Sie den Graustufen-Schalter für tintenschonende Versionen. Jeder Export ist produktionsfertig für Etsy-Listings, Amazon-KDP-Buchinhalte und Gumroad-Produktdateien.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Automatisch generierter Lösungsschlüssel mit Buchstabe-zu-Nummer-Zuordnungen',
         description:
-          'Jedes Schattenbilder-Zuordnungsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel verwendet ein Rasterlayout, in dem jede Zelle das Originalbild neben seiner Silhouette oder dem vollständigen Bild zeigt, beschriftet mit der korrekten Zuordnung wie „A → 2“. Das Raster verwendet 4 Spalten mit 50px Abstand vor der zweiten Reihe und 15px vertikalem Abstand zwischen Elementen. Kein manuelles Lösungsschlüssel-Erstellen — der Lösungsschlüssel bleibt mit dem Arbeitsblatt synchronisiert. Laden Sie ihn separat als answer_key.jpeg oder answer_key.pdf neben dem Nutzer-Arbeitsblatt herunter.',
+          'Jedes Schattenbilder-Zuordnungsblatt generiert automatisch einen begleitenden Lösungsschlüssel auf einem separaten Canvas-Tab. Der Lösungsschlüssel verwendet ein Rasterlayout, in dem jede Zelle das Originalbild neben seiner Silhouette oder dem vollständigen Bild zeigt, beschriftet mit der korrekten Zuordnung wie „A → 2". Das Raster verwendet 4 Spalten mit 50px Abstand vor der zweiten Reihe und 15px vertikalem Abstand zwischen Elementen. Kein manuelles Lösungsschlüssel-Erstellen — der Lösungsschlüssel bleibt mit dem Arbeitsblatt synchronisiert. Laden Sie ihn separat als answer_key.jpeg oder answer_key.pdf neben dem Nutzer-Arbeitsblatt herunter.',
       },
       {
         title: 'Bildbibliothek mit 104 thematischen Sammlungen und über 3.100 Illustrationen',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Optionale Beschriftungen und Name-/Datumsfelder für Lernende',
         description:
-          'Schalten Sie das Kontrollkästchen „Beschriftungen anzeigen“ (Standard EIN) um, um A-, B-, C-, D-Kennzeichnungen auf Bildern oder ersten Hälften und 1-, 2-, 3-, 4-Kennzeichnungen auf Silhouetten oder zweiten Hälften anzuzeigen. Wenn Beschriftungen ausgeblendet sind, wird das Arbeitsblatt zu einer reinen visuellen Zuordnungsherausforderung ohne alphanumerische Gerüststruktur — ideal für fortgeschrittene Aktivitäten oder Rätselbücher, bei denen keine schriftlichen Antworten benötigt werden. Das Kontrollkästchen „Name-/Datumsfelder einfügen“ fügt Zeilen für Name und Datum am unteren Seitenrand hinzu, für die Zuordnung in der Produkterstellung und organisierte Bewertung.',
+          'Schalten Sie das Kontrollkästchen „Beschriftungen anzeigen" (Standard EIN) um, um A-, B-, C-, D-Kennzeichnungen auf Bildern oder ersten Hälften und 1-, 2-, 3-, 4-Kennzeichnungen auf Silhouetten oder zweiten Hälften anzuzeigen. Wenn Beschriftungen ausgeblendet sind, wird das Arbeitsblatt zu einer reinen visuellen Zuordnungsherausforderung ohne alphanumerische Gerüststruktur — ideal für fortgeschrittene Aktivitäten oder Rätselbücher, bei denen keine schriftlichen Antworten benötigt werden. Das Kontrollkästchen „Name-/Datumsfelder einfügen" fügt Zeilen für Name und Datum am unteren Seitenrand hinzu, für die Zuordnung in der Produkterstellung und organisierte Bewertung.',
       },
       {
         title: 'Druckfertiger PDF- und JPEG-Export mit 300 DPI und Graustufen-Option',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'Kann ich die A/B/C/D- und 1/2/3/4-Beschriftungen ein- und ausschalten?',
       answer:
-        'Ja. Das Kontrollkästchen „Beschriftungen anzeigen“ im Übungskonfigurations-Panel (Standard EIN) steuert, ob A-, B-, C-, D-Beschriftungen auf Bildern oder ersten Hälften und 1-, 2-, 3-, 4-Beschriftungen auf Silhouetten oder zweiten Hälften angezeigt werden. Wenn Beschriftungen EIN sind, schreiben Lernende Buchstabe-Nummer-Paare als Antworten. Wenn Beschriftungen AUS sind, wird das Arbeitsblatt zu einer reinen visuellen Zuordnungsherausforderung ohne alphanumerische Gerüststruktur — nützlich für Rätselbücher oder fortgeschrittene Aktivitäten.',
+        'Ja. Das Kontrollkästchen „Beschriftungen anzeigen" im Übungskonfigurations-Panel (Standard EIN) steuert, ob A-, B-, C-, D-Beschriftungen auf Bildern oder ersten Hälften und 1-, 2-, 3-, 4-Beschriftungen auf Silhouetten oder zweiten Hälften angezeigt werden. Wenn Beschriftungen EIN sind, schreiben Lernende Buchstabe-Nummer-Paare als Antworten. Wenn Beschriftungen AUS sind, wird das Arbeitsblatt zu einer reinen visuellen Zuordnungsherausforderung ohne alphanumerische Gerüststruktur — nützlich für Rätselbücher oder fortgeschrittene Aktivitäten.',
     },
     {
       question: 'Warum gibt es immer genau 4 Aufgaben pro Arbeitsblatt?',
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Wie funktionieren die Name- und Datumsfelder?',
       answer:
-        'Schalten Sie das Kontrollkästchen „Name-/Datumsfelder einfügen“ im Übungskonfigurations-Panel um, um Zeilen für Name und Datum am unteren Rand des Arbeitsblatts hinzuzufügen. Wenn aktiviert, können Lernende ihren Namen und das Datum direkt auf der gedruckten Seite eintragen — wesentlich für die Zuordnung in der Produkterstellung und organisierte Bewertung. Wenn deaktiviert, nutzt das Arbeitsblatt die gesamte Seitenfläche für Zuordnungsinhalte. Diese Option funktioniert sowohl mit dem Schattenbild-Zuordnungsmodus als auch mit dem Modus Bild Vervollständigen.',
+        'Schalten Sie das Kontrollkästchen „Name-/Datumsfelder einfügen" im Übungskonfigurations-Panel um, um Zeilen für Name und Datum am unteren Rand des Arbeitsblatts hinzuzufügen. Wenn aktiviert, können Lernende ihren Namen und das Datum direkt auf der gedruckten Seite eintragen — wesentlich für die Zuordnung in der Produkterstellung und organisierte Bewertung. Wenn deaktiviert, nutzt das Arbeitsblatt die gesamte Seitenfläche für Zuordnungsinhalte. Diese Option funktioniert sowohl mit dem Schattenbild-Zuordnungsmodus als auch mit dem Modus Bild Vervollständigen.',
     },
     {
       question: 'Wie funktioniert der automatisch generierte Lösungsschlüssel?',
       answer:
-        'Der Generator verwendet ein Doppel-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Im Schattenbild-Zuordnungsmodus zeigt der Lösungsschlüssel ein Raster, in dem jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2“ anzeigt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Das Raster verwendet 4 Spalten mit einheitlichem Abstand. Beide Versionen werden über vier dedizierte Download-Buttons separat exportiert: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF.',
+        'Der Generator verwendet ein Doppel-Canvas-System mit einem Arbeitsblatt-Tab und einem Lösungsschlüssel-Tab. Im Schattenbild-Zuordnungsmodus zeigt der Lösungsschlüssel ein Raster, in dem jede Zelle das Originalbild neben seiner Silhouette mit einer Beschriftung wie „A → 2" anzeigt. Im Modus Bild Vervollständigen zeigt jede Zelle das vollständige Originalbild mit seiner Zuordnungsbeschriftung. Das Raster verwendet 4 Spalten mit einheitlichem Abstand. Beide Versionen werden über vier dedizierte Download-Buttons separat exportiert: Arbeitsblatt-JPEG, Arbeitsblatt-PDF, Lösungsschlüssel-JPEG und Lösungsschlüssel-PDF.',
     },
     {
       question: 'Gibt es eine kostenlose Testversion?',

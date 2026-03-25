@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Bingo-Karten-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Bilder-Bingo-Karten-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Doppel-Tab-Arbeitsfläche rechts — ein Tab für die Bingo-Karte mit Chips, einer für das Ansageblatt. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Bingo-Karten.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Bilder-Bingo-Karten-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Doppel-Tab-Arbeitsfläche rechts — ein Tab für die Bingo-Karte mit Chips, einer für das Ansageblatt. Keine Kontoerstellung, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Bilder-Bingo-Karten.',
       },
       {
         title: 'Rastergröße und Kartenanzahl konfigurieren',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Bilder aus der Bibliothek auswählen',
-        description: 'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie für Ihre Bingo-Karten auszuwählen. Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden“, um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen — ein Live-Zähler zeigt Ihre Auswahlanzahl an. Die benutzerdefinierte Ansage-Auswahl gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel erscheinen — ideal für lehrplanorientierte Aktivitäten oder thematische Veranstaltungen.',
+        description: 'Öffnen Sie das Bildbibliothek-Panel und durchsuchen Sie 104 thematische Sammlungen mit über 3.100 farbenfrohen Illustrationen — Tiere, Lebensmittel, Fahrzeuge, Natur, Feiertage, Berufe und Dutzende mehr. Filtern Sie nach Thema über das Dropdown-Menü oder suchen Sie per Stichwort. Klicken Sie auf Bilder, um sie für Ihre Bingo-Karten auszuwählen. Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden", um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen — ein Live-Zähler zeigt Ihre Auswahlanzahl an. Die benutzerdefinierte Ansage-Auswahl gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel erscheinen — ideal für lehrplanorientierte Aktivitäten oder thematische Veranstaltungen.',
       },
       {
         title: 'Seitenlayout und Dekorationen festlegen',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Bingo-Karten generieren',
-        description: 'Klicken Sie auf „Generieren“, um Ihre Bingo-Karten zu erstellen. Die App füllt Ihr konfiguriertes Raster mit Bildern oder Wörtern aus dem gewählten Thema und erstellt runde Chips mit gestrichelten Rändern (#666, strokeDashArray [5,5]) unterhalb der Karte. Chips werden per Fisher-Yates-Algorithmus gemischt, sodass sie niemals dem Kartenlayout entsprechen — das gewährleistet authentisches Bingo-Spiel. Wenn Sie mehrere Karten angefordert haben, zieht jede Karte eine andere zufällige Auswahl aus dem Bilderpool. Die erste Karte erscheint sofort auf der Arbeitsfläche zur Vorschau. Der Rasterbereich nutzt 60% der verfügbaren Arbeitsflächenhöhe (maximal 500px) für optimale Proportionen.',
+        description: 'Klicken Sie auf „Generieren", um Ihre Bingo-Karten zu erstellen. Die App füllt Ihr konfiguriertes Raster mit Bildern oder Wörtern aus dem gewählten Thema und erstellt runde Chips mit gestrichelten Rändern (#666, strokeDashArray [5,5]) unterhalb der Karte. Chips werden per Fisher-Yates-Algorithmus gemischt, sodass sie niemals dem Kartenlayout entsprechen — das gewährleistet authentisches Bingo-Spiel. Wenn Sie mehrere Karten angefordert haben, zieht jede Karte eine andere zufällige Auswahl aus dem Bilderpool. Die erste Karte erscheint sofort auf der Arbeitsfläche zur Vorschau. Der Rasterbereich nutzt 60% der verfügbaren Arbeitsflächenhöhe (maximal 500px) für optimale Proportionen.',
       },
       {
         title: 'Das Ansageblatt prüfen',
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mehrsprachige Vokabel-Bingo-Produkte',
-      description: 'Der Bingo-Karten-Ersteller ist sprachabhängig — die Wort-Füllung zeigt lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter auf Karten, Chips und dem Ansageblatt ändert. Erstellen Sie Bingo-Sets in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu aufbauen zu müssen. Ein Katzenbild zeigt „Katze“ auf Deutsch, „Cat“ auf Englisch und „Chat“ auf Französisch. Verkaufen Sie Vokabel-Bingo-Produkte über internationale Marktplätze, indem Sie jede Sprachversion in Minuten generieren. Wortkarten mit Bild-Chips sind besonders effektive Vokabelwiederholungs-Tools.',
+      description: 'Der Bingo-Karten-Ersteller ist sprachabhängig — die Wort-Füllung zeigt lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel die Wörter auf Karten, Chips und dem Ansageblatt ändert. Erstellen Sie Bingo-Sets in Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch aus denselben Bildern, ohne etwas neu aufbauen zu müssen. Ein Katzenbild zeigt „Katze" auf Deutsch, „Cat" auf Englisch und „Chat" auf Französisch. Verkaufen Sie Vokabel-Bingo-Produkte über internationale Marktplätze, indem Sie jede Sprachversion in Minuten generieren. Wortkarten mit Bild-Chips sind besonders effektive Vokabelwiederholungs-Tools.',
     },
     {
       title: 'KDP-Bingo-Aktivitätsbücher mit Ansageblättern',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon-KDP-Bingo-Aktivitätsbuch-Serie',
-      description: 'Stellen Sie 40–80 Bingo-Karten zu thematischen Aktivitätsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: „Tier-Bingo“, „Feiertags-Bingo“, „Lebensmittel-Bingo“ und „Alltags-Bingo“. Fügen Sie Ansageblätter nach jedem Kartenset ein, damit das Buch eigenständig spielbar ist. Mischen Sie Rastergrößen für progressive Schwierigkeit innerhalb jedes Buches — beginnen Sie mit 3×3-Karten und steigern Sie bis 5×5. Aktivieren Sie die Graustufen-Ausgabe für tintenschonenden Druck, der perfekt in Schwarzweiß druckt. Bingo-Aktivitätsbücher verkaufen sich ganzjährig und erleben Spitzen während der Feiertagssaison, wenn Familien nach Gruppenaktivitäten suchen.',
+      description: 'Stellen Sie 40–80 Bingo-Karten zu thematischen Aktivitätsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Thema: „Tier-Bingo", „Feiertags-Bingo", „Lebensmittel-Bingo" und „Alltags-Bingo". Fügen Sie Ansageblätter nach jedem Kartenset ein, damit das Buch eigenständig spielbar ist. Mischen Sie Rastergrößen für progressive Schwierigkeit innerhalb jedes Buches — beginnen Sie mit 3×3-Karten und steigern Sie bis 5×5. Aktivieren Sie die Graustufen-Ausgabe für tintenschonenden Druck, der perfekt in Schwarzweiß druckt. Bingo-Aktivitätsbücher verkaufen sich ganzjährig und erleben Spitzen während der Feiertagssaison, wenn Familien nach Gruppenaktivitäten suchen.',
       platform: 'Amazon KDP',
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pinterest-Bingo-Karten-Traffic-Trichter',
-      description: 'Bingo-Karten ergeben visuell ansprechende Pinterest-Pins — das farbenfrohe Rasterlayout mit thematischen Bildern und runden Chips schafft ein sofort erkennbares Spielformat, das Eltern und Verkäufer lieben. Pinnen Sie Beispiel-Bingo-Karten mit verschiedenen Themen: Tier-Bingo für Vorschul-Pinnwände, Feiertags-Bingo für saisonale Pinnwände und Wort-Bingo für Bildungs-Pinnwände. Erstellen Sie separate Pin-Serien für „Bilder-Bingo-Druckvorlagen“, „Produkterstellungs-Bingo-Spiele“ und „Feiertags-Bingo-Aktivitäten“. Bingo ist ein universell bekanntes Spiel, sodass Pins Zielgruppen in jedem Land und jeder Sprache ansprechen. Verlinken Sie jeden Pin zu Ihren Etsy- oder Gumroad-Listings.',
+      description: 'Bingo-Karten ergeben visuell ansprechende Pinterest-Pins — das farbenfrohe Rasterlayout mit thematischen Bildern und runden Chips schafft ein sofort erkennbares Spielformat, das Eltern und Verkäufer lieben. Pinnen Sie Beispiel-Bingo-Karten mit verschiedenen Themen: Tier-Bingo für Vorschul-Pinnwände, Feiertags-Bingo für saisonale Pinnwände und Wort-Bingo für Bildungs-Pinnwände. Erstellen Sie separate Pin-Serien für „Bilder-Bingo-Druckvorlagen", „Produkterstellungs-Bingo-Spiele" und „Feiertags-Bingo-Aktivitäten". Bingo ist ein universell bekanntes Spiel, sodass Pins Zielgruppen in jedem Land und jeder Sprache ansprechen. Verlinken Sie jeden Pin zu Ihren Etsy- oder Gumroad-Listings.',
       platform: 'Pinterest',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Benutzerdefinierte Ansage-Auswahl für Produktkataloganpassung nutzen',
-      description: 'Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden“, um genau festzulegen, welche Bilder im Ansage-Pool erscheinen. Der Live-Zähler zeigt Ihre Auswahlanzahl an, während Sie aus der Bildbibliothek auswählen. Diese Funktion ist entscheidend für die Erstellung lehrplanorientierter Bingo-Spiele — wählen Sie nur die Vokabelwörter Ihrer Produktreihe, nur die Tiere eines bestimmten Lebensraums oder nur die Lebensmittel einer Ernährungseinheit. Die benutzerdefinierte Ansage-Auswahl verwandelt Bingo von einem zufälligen Spiel in ein gezieltes Lernwerkzeug — das ist das entscheidende Verkaufsargument für Gumroad-Produkterstellungsprodukte.',
+      description: 'Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden", um genau festzulegen, welche Bilder im Ansage-Pool erscheinen. Der Live-Zähler zeigt Ihre Auswahlanzahl an, während Sie aus der Bildbibliothek auswählen. Diese Funktion ist entscheidend für die Erstellung lehrplanorientierter Bingo-Spiele — wählen Sie nur die Vokabelwörter Ihrer Produktreihe, nur die Tiere eines bestimmten Lebensraums oder nur die Lebensmittel einer Ernährungseinheit. Die benutzerdefinierte Ansage-Auswahl verwandelt Bingo von einem zufälligen Spiel in ein gezieltes Lernwerkzeug — das ist das entscheidende Verkaufsargument für Gumroad-Produkterstellungsprodukte.',
     },
     {
       title: 'Sprachabhängige Wort-Füllung für mehrsprachige Produkte nutzen',
@@ -179,11 +179,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Was ist die benutzerdefinierte Ansage-Auswahl?',
-      answer: 'Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden“ im Bingo-Karten-Einstellungen-Panel, um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen. Wenn aktiviert, klicken Sie auf Bilder in der Bildbibliothek, um sie Ihrer benutzerdefinierten Ansage-Auswahl hinzuzufügen — ein Live-Zähler zeigt Ihre Auswahlanzahl an. Das gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel erscheinen — ideal für lehrplanorientierte Vokabelaktivitäten, thematische Veranstaltungen oder jede Situation, in der Sie die exakten Elemente kuratieren möchten, die Spieler während des Spiels antreffen.',
+      answer: 'Aktivieren Sie das Kontrollkästchen „Benutzerdefinierte Auswahl verwenden" im Bingo-Karten-Einstellungen-Panel, um bestimmte Bilder für den Ansage-Pool von Hand auszuwählen. Wenn aktiviert, klicken Sie auf Bilder in der Bildbibliothek, um sie Ihrer benutzerdefinierten Ansage-Auswahl hinzuzufügen — ein Live-Zähler zeigt Ihre Auswahlanzahl an. Das gibt Ihnen präzise Kontrolle darüber, welche Elemente im Bingo-Spiel erscheinen — ideal für lehrplanorientierte Vokabelaktivitäten, thematische Veranstaltungen oder jede Situation, in der Sie die exakten Elemente kuratieren möchten, die Spieler während des Spiels antreffen.',
     },
     {
       question: 'Ist der Bingo-Karten-Ersteller sprachabhängig?',
-      answer: 'Ja. Bei Verwendung der Wort-Füllung für Kartenzellen oder Chips werden lokalisierte Bildnamen aus der Bildbibliothek angezeigt. Ein Sprachwechsel in den Arbeitsblatt-Einstellungen ändert die Wörter auf Karten, Chips und dem Ansageblatt. Ein Katzenbild zeigt beispielsweise „Katze“ auf Deutsch, aber „Cat“ auf Englisch und „Chat“ auf Französisch. Das macht es einfach, mehrsprachige Vokabel-Bingo-Produkte aus denselben Bildern zu erstellen. Die Bild-Füllung ist nicht sprachabhängig, da sie Illustrationen statt Wörter anzeigt.',
+      answer: 'Ja. Bei Verwendung der Wort-Füllung für Kartenzellen oder Chips werden lokalisierte Bildnamen aus der Bildbibliothek angezeigt. Ein Sprachwechsel in den Arbeitsblatt-Einstellungen ändert die Wörter auf Karten, Chips und dem Ansageblatt. Ein Katzenbild zeigt beispielsweise „Katze" auf Deutsch, aber „Cat" auf Englisch und „Chat" auf Französisch. Das macht es einfach, mehrsprachige Vokabel-Bingo-Produkte aus denselben Bildern zu erstellen. Die Bild-Füllung ist nicht sprachabhängig, da sie Illustrationen statt Wörter anzeigt.',
     },
     {
       question: 'Wie funktioniert der ZIP-Stapelexport?',

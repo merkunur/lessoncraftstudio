@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Drawing Lines Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building line tracing worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building line tracing worksheets immediately.',
       },
       {
         title: 'Set Your Page Layout and Background',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Add Text and Toggle Name/Date Fields',
-        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Toggle the name and date fields for identification areas. The auto-generated header displays a vibrant green banner with “Line Drawing Practice” localized in all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with alignment tools, lock/unlock controls, and unlimited undo and redo.',
+        description: 'Use the Text Tools panel to add a worksheet title, instructions, or decorative text. Choose from fonts including Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand. Toggle the name and date fields for identification areas. The auto-generated header displays a vibrant green banner with "Line Drawing Practice" localized in all 11 supported languages. Drag, resize, rotate, and reposition every element on the full Fabric.js canvas with alignment tools, lock/unlock controls, and unlimited undo and redo.',
       },
       {
         title: 'Preview and Adjust Line Difficulty',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pre-Writing Handwriting Readiness Sets',
-      description: 'Build line tracing worksheets specifically designed as pre-writing preparation. Horizontal lines practice the left-to-right tracking direction used in reading and writing. Vertical lines develop the top-to-bottom strokes essential for letter formation. Curves mimic the rounded motions needed for letters like c, o, s, and e. Diagonals build the angled strokes used in letters like k, v, w, and z. Package these as “Handwriting Readiness” bundles that bridge fine motor development and literacy skills — a product category with strong year-round demand from parents and the preschool-age market.',
+      description: 'Build line tracing worksheets specifically designed as pre-writing preparation. Horizontal lines practice the left-to-right tracking direction used in reading and writing. Vertical lines develop the top-to-bottom strokes essential for letter formation. Curves mimic the rounded motions needed for letters like c, o, s, and e. Diagonals build the angled strokes used in letters like k, v, w, and z. Package these as "Handwriting Readiness" bundles that bridge fine motor development and literacy skills — a product category with strong year-round demand from parents and the preschool-age market.',
     },
     {
       title: 'Themed Image Pair Matching Activity Sets',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Line Tracing Workbook Series',
-      description: 'Compile 80+ line tracing exercises into themed workbooks for Amazon KDP. Structure a series by progression: “Beginner Line Tracing” covers horizontal and vertical templates. “Intermediate Line Tracing” introduces all four curve variants. “Advanced Line Tracing” features diagonal templates mixed with curves. The colorful images print vibrantly for engaging, clear, readable interiors. The zero-text format publishes identically across all international KDP marketplaces without translation. Fine motor workbooks fill a specific early learning niche with consistent year-round demand.',
+      description: 'Compile 80+ line tracing exercises into themed workbooks for Amazon KDP. Structure a series by progression: "Beginner Line Tracing" covers horizontal and vertical templates. "Intermediate Line Tracing" introduces all four curve variants. "Advanced Line Tracing" features diagonal templates mixed with curves. The colorful images print vibrantly for engaging, clear, readable interiors. The zero-text format publishes identically across all international KDP marketplaces without translation. Fine motor workbooks fill a specific early learning niche with consistent year-round demand.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest Line Tracing Visual Funnel',
-      description: 'Line tracing worksheets with colorful image pairs and distinctive SVG line paths make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different line types with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “line tracing worksheets,” “fine motor worksheets,” and “pre-writing practice.” The zero-text format means pins appeal to parents and buyers in every country worldwide.',
+      description: 'Line tracing worksheets with colorful image pairs and distinctive SVG line paths make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different line types with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for "line tracing worksheets," "fine motor worksheets," and "pre-writing practice." The zero-text format means pins appeal to parents and buyers in every country worldwide.',
       platform: 'Pinterest',
     },
     {

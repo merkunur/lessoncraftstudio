@@ -71,7 +71,7 @@ const content: BundleContent = {
     },
     {
       title: 'Über 100 thematische Bildsets',
-      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle fünf Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie „Meertiere-Zuordnungs-Paket“ neben „Bauernhof-Schattenbilder“ und „Dinosaurier-Bingo-Karten“, um verschiedene Suchanfragen, Käuferinteressen und Altersgruppen gleichzeitig anzusprechen. Die Vollzugriff-Stufe schaltet alle 104 Themen für maximale Produktvielfalt frei.',
+      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle fünf Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie „Meertiere-Zuordnungs-Paket" neben „Bauernhof-Schattenbilder" und „Dinosaurier-Bingo-Karten", um verschiedene Suchanfragen, Käuferinteressen und Altersgruppen gleichzeitig anzusprechen. Die Vollzugriff-Stufe schaltet alle 104 Themen für maximale Produktvielfalt frei.',
     },
     {
       title: 'Eigene Bilder hochladen',
@@ -91,7 +91,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Zuordnungs-Aktivitätsbücher',
-      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Aktivitätsbüchern: „Kita-Zuordnungs-und-Sortier-Arbeitsbuch“ mit Zuordnungsseiten, Schattenbilder-Übungen und Bilder-Sortier-Aktivitäten, oder „Shop-Bingo-und-Zuordnungs-Sammlung“ mit Bingo-Karten und Raster-Puzzle-Rätseln. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Die zwei rein visuellen Generatoren erzeugen sprachunabhängige Seiten, die weltweit auf jedem Amazon-Marktplatz verkaufbar sind.',
+      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Aktivitätsbüchern: „Kita-Zuordnungs-und-Sortier-Arbeitsbuch" mit Zuordnungsseiten, Schattenbilder-Übungen und Bilder-Sortier-Aktivitäten, oder „Shop-Bingo-und-Zuordnungs-Sammlung" mit Bingo-Karten und Raster-Puzzle-Rätseln. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Arbeitsbuch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Die zwei rein visuellen Generatoren erzeugen sprachunabhängige Seiten, die weltweit auf jedem Amazon-Marktplatz verkaufbar sind.',
       platform: 'Amazon KDP',
     },
     {

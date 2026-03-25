@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Treasure Hunt Worksheet Generator for Path-Finding Direction Puzzles',
     tagline: 'Generate directional path-finding puzzles on a 5×5 coordinate grid — two direction vocabularies (Basic: up/down/left/right and Cardinal: north/south/east/west), fully localized directional clues in 11 languages, auto-generated answer key with highlighted treasure location, and treasure-themed headers across 104 image collections.',
     description:
-      'Build professional treasure hunt worksheets where solvers follow sequential movement clues to locate hidden treasure on a 5×5 letter-number coordinate grid (A–E rows, 1–5 columns). Every puzzle scatters 6 themed images across the grid as landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. Choose between two direction vocabularies: Basic mode uses up, down, left, and right for the younger audience, while Cardinal mode uses north, south, east, and west for more advanced spatial reasoning. The Treasure Hunt Generator is language-sensitive: switching languages changes both the directional instruction text and the image content, with all directions fully translated into 11 supported languages. Every puzzle includes an auto-generated localized header with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka font, and sandy description in Quicksand — displaying “Treasure Hunt” and “Follow the clues and find the treasure!” in the selected language. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key highlights the final treasure cell in pale yellow so you never have to mark it manually. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized directions and images. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell treasure hunt bundles on Etsy, compile directional skills workbooks for Amazon KDP, or create coordinate grid products for your own store, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Build professional treasure hunt worksheets where solvers follow sequential movement clues to locate hidden treasure on a 5×5 letter-number coordinate grid (A–E rows, 1–5 columns). Every puzzle scatters 6 themed images across the grid as landmarks, then generates a start position and exactly 4 directional moves that lead to the treasure cell. Choose between two direction vocabularies: Basic mode uses up, down, left, and right for the younger audience, while Cardinal mode uses north, south, east, and west for more advanced spatial reasoning. The Treasure Hunt Generator is language-sensitive: switching languages changes both the directional instruction text and the image content, with all directions fully translated into 11 supported languages. Every puzzle includes an auto-generated localized header with a teal background (#2C8C7C), golden title (#D4A017) in Fredoka font, and sandy description in Quicksand — displaying "Treasure Hunt" and "Follow the clues and find the treasure!" in the selected language. The dual-canvas system generates both a worksheet tab and an answer key tab — the answer key highlights the final treasure cell in pale yellow so you never have to mark it manually. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized directions and images. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square (1200×1200), or custom sizes. Whether you sell treasure hunt bundles on Etsy, compile directional skills workbooks for Amazon KDP, or create coordinate grid products for your own store, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Generate the Treasure Hunt Puzzle',
         description:
-          'Click Generate to create the path-finding puzzle on the 5×5 coordinate grid (A–E rows, 1–5 columns). The generator scatters your 6 selected images across the grid, picks a random start cell, and creates exactly 4 directional moves that stay within grid bounds. The worksheet displays 5 instruction lines: “Start at [cell]” followed by 4 “Move [direction] [number] square(s)” clues, ending with “Where is the treasure?” A treasure-themed header appears at the top with a teal background (#2C8C7C), golden title (#D4A017), and localized text in Fredoka and Quicksand fonts.',
+          'Click Generate to create the path-finding puzzle on the 5×5 coordinate grid (A–E rows, 1–5 columns). The generator scatters your 6 selected images across the grid, picks a random start cell, and creates exactly 4 directional moves that stay within grid bounds. The worksheet displays 5 instruction lines: "Start at [cell]" followed by 4 "Move [direction] [number] square(s)" clues, ending with "Where is the treasure?" A treasure-themed header appears at the top with a teal background (#2C8C7C), golden title (#D4A017), and localized text in Fredoka and Quicksand fonts.',
       },
       {
         title: 'View the Answer Key and Download',
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Path-Finding Treasure Hunt Puzzles on a 5×5 Coordinate Grid',
         description:
-          'Generate directional puzzles on a fixed 5×5 grid labeled with letter rows (A–E) and number columns (1–5). Each puzzle scatters 6 themed images across the 25 cells as visual landmarks, then generates a random start position and exactly 4 sequential moves that navigate the grid to a treasure destination. The consistent 5-instruction format — start position, 4 moves, and a “Where is the treasure?” question — creates a structured path-finding challenge that builds spatial reasoning and coordinate literacy. All moves stay within grid bounds for valid, solvable puzzles every time.',
+          'Generate directional puzzles on a fixed 5×5 grid labeled with letter rows (A–E) and number columns (1–5). Each puzzle scatters 6 themed images across the 25 cells as visual landmarks, then generates a random start position and exactly 4 sequential moves that navigate the grid to a treasure destination. The consistent 5-instruction format — start position, 4 moves, and a "Where is the treasure?" question — creates a structured path-finding challenge that builds spatial reasoning and coordinate literacy. All moves stay within grid bounds for valid, solvable puzzles every time.',
       },
       {
         title: 'Two Direction Types: Basic (Up/Down/Left/Right) and Cardinal (North/South/East/West)',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Fully Localized Directional Clues in 11 Languages',
         description:
-          'All directional instruction text is fully translated into 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Basic directions (up/down/left/right) and Cardinal directions (north/south/east/west) are both localized, along with the “Start at” instruction, “Move” verb, “square(s)” unit, and “Where is the treasure?” question. Switching the language selector updates the entire worksheet text, producing authentic native-language directional puzzles rather than English-only content with translated titles.',
+          'All directional instruction text is fully translated into 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Basic directions (up/down/left/right) and Cardinal directions (north/south/east/west) are both localized, along with the "Start at" instruction, "Move" verb, "square(s)" unit, and "Where is the treasure?" question. Switching the language selector updates the entire worksheet text, producing authentic native-language directional puzzles rather than English-only content with translated titles.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Treasure-Themed Auto-Generated Header with Golden Title in 11 Languages',
         description:
-          'Every generated worksheet includes a treasure-themed header with a teal background (#2C8C7C), amber outer border (#D4A574), sandy beige inner border (#F4E4C1), and golden title (#D4A017) rendered in Fredoka font (weight 700, adaptive 36–48px sizing). The description text appears in dark brown (#5C4033) using Quicksand (weight 500). Portrait worksheets display a full header (100px height); landscape worksheets use a compact layout (70px height). The title “Treasure Hunt” and description “Follow the clues and find the treasure!” translate automatically into all 11 supported languages.',
+          'Every generated worksheet includes a treasure-themed header with a teal background (#2C8C7C), amber outer border (#D4A574), sandy beige inner border (#F4E4C1), and golden title (#D4A017) rendered in Fredoka font (weight 700, adaptive 36–48px sizing). The description text appears in dark brown (#5C4033) using Quicksand (weight 500). Portrait worksheets display a full header (100px height); landscape worksheets use a compact layout (70px height). The title "Treasure Hunt" and description "Follow the clues and find the treasure!" translate automatically into all 11 supported languages.',
       },
       {
         title: 'Background and Border Themes with Independent Opacity Controls',
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What is a treasure hunt worksheet and how does the puzzle work?',
       answer:
-        'A treasure hunt worksheet is a path-finding puzzle on a 5×5 coordinate grid labeled with letter rows (A–E) and number columns (1–5). Six themed images are scattered across the grid as visual landmarks. The worksheet provides 5 instruction lines: a start position (e.g., “Start at A3”), exactly 4 directional moves (e.g., “Move down 2 squares”), and a final question “Where is the treasure?” Solvers follow the sequential clues on the grid to determine which cell contains the treasure.',
+        'A treasure hunt worksheet is a path-finding puzzle on a 5×5 coordinate grid labeled with letter rows (A–E) and number columns (1–5). Six themed images are scattered across the grid as visual landmarks. The worksheet provides 5 instruction lines: a start position (e.g., "Start at A3"), exactly 4 directional moves (e.g., "Move down 2 squares"), and a final question "Where is the treasure?" Solvers follow the sequential clues on the grid to determine which cell contains the treasure.',
     },
     {
       question: 'How does the 5×5 coordinate grid work?',
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'Why does every puzzle have exactly 4 moves?',
       answer:
-        'The consistent 4-move structure creates a standardized puzzle format that works reliably on the 5×5 grid. Four moves provide enough complexity for meaningful path-finding without overwhelming beginners. Every puzzle follows the same 5-line instruction format: start position, 4 sequential moves, and the “Where is the treasure?” question. This consistency makes treasure hunt worksheets easy to package into structured activity sets for sellers.',
+        'The consistent 4-move structure creates a standardized puzzle format that works reliably on the 5×5 grid. Four moves provide enough complexity for meaningful path-finding without overwhelming beginners. Every puzzle follows the same 5-line instruction format: start position, 4 sequential moves, and the "Where is the treasure?" question. This consistency makes treasure hunt worksheets easy to package into structured activity sets for sellers.',
     },
     {
       question: 'How are the 6 images used in the puzzle?',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'How are the directional clues localized?',
       answer:
-        'All directional vocabulary is translated into 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Basic directions (up/down/left/right) and Cardinal directions (north/south/east/west) both have complete translations, along with the “Start at” instruction, “Move” verb, “square(s)” unit, and “Where is the treasure?” question. For example, in German Basic mode, “Move down 2 squares” becomes the German equivalent with native directional vocabulary. The header title and description also translate automatically.',
+        'All directional vocabulary is translated into 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Basic directions (up/down/left/right) and Cardinal directions (north/south/east/west) both have complete translations, along with the "Start at" instruction, "Move" verb, "square(s)" unit, and "Where is the treasure?" question. For example, in German Basic mode, "Move down 2 squares" becomes the German equivalent with native directional vocabulary. The header title and description also translate automatically.',
     },
     {
       question: 'How does the auto-generated answer key work?',

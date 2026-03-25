@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Rasterzeichnen-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Rasterzeichnen-Arbeitsblättern.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Rasterzeichnen-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout und Hintergrund einstellen',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetrie- und Räumliches-Denken-Arbeitsblätter',
-      description: 'Nutzen Sie die Modi Horizontal spiegeln und Vertikal spiegeln, um Arbeitsblätter zu erstellen, die Kunst und Mathematik verbinden. Lernende sehen Hinweiszellen auf einer Seite des Rasters und müssen das Spiegelbild auf der gegenüberliegenden Seite rekonstruieren. Ein Horizontale-Symmetrie-Paket lehrt bilaterale Symmetrie — grundlegend für Geometrie und Biologie. Ein Vertikale-Symmetrie-Paket zielt auf Oben-Unten-Spiegelerkennung ab. Kombinieren Sie beide Modi in einem „Komplett-Paket Symmetriezeichnen“. Diese Materialien verkaufen sich hervorragend sowohl in Kunst- als auch in Mathematik-Kategorien auf Gumroad, weil sie zwei Fachbereiche mit einem einzigen Arbeitsblattformat bedienen.',
+      description: 'Nutzen Sie die Modi Horizontal spiegeln und Vertikal spiegeln, um Arbeitsblätter zu erstellen, die Kunst und Mathematik verbinden. Lernende sehen Hinweiszellen auf einer Seite des Rasters und müssen das Spiegelbild auf der gegenüberliegenden Seite rekonstruieren. Ein Horizontale-Symmetrie-Paket lehrt bilaterale Symmetrie — grundlegend für Geometrie und Biologie. Ein Vertikale-Symmetrie-Paket zielt auf Oben-Unten-Spiegelerkennung ab. Kombinieren Sie beide Modi in einem „Komplett-Paket Symmetriezeichnen". Diese Materialien verkaufen sich hervorragend sowohl in Kunst- als auch in Mathematik-Kategorien auf Gumroad, weil sie zwei Fachbereiche mit einem einzigen Arbeitsblattformat bedienen.',
     },
     {
       title: 'Thematische S&W-Ausmalen-nach-Zeichnen-Sets',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Rasterzeichnen-Arbeitsheft-Serie',
-      description: 'Stellen Sie 80+ Rasterzeichnen-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: „Anfänger-Rasterzeichnen“ behandelt 3×3- bis 5×5-Raster bei 50–75 % Hinweisen. „Fortgeschrittenes Rasterzeichnen“ steigert auf 6×6- und 7×7-Raster bei 25–50 % Hinweisen. „Experten-Rasterzeichnen“ bietet 8×8- bis 10×10-Raster bei 10–25 % Hinweisen. Die S&W-Umriss-Bilder drucken perfekt im Schwarzweißdruck und halten die KDP-Produktionskosten niedrig. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung.',
+      description: 'Stellen Sie 80+ Rasterzeichnen-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: „Anfänger-Rasterzeichnen" behandelt 3×3- bis 5×5-Raster bei 50–75 % Hinweisen. „Fortgeschrittenes Rasterzeichnen" steigert auf 6×6- und 7×7-Raster bei 25–50 % Hinweisen. „Experten-Rasterzeichnen" bietet 8×8- bis 10×10-Raster bei 10–25 % Hinweisen. Die S&W-Umriss-Bilder drucken perfekt im Schwarzweißdruck und halten die KDP-Produktionskosten niedrig. Das textfreie visuelle Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Symmetrie-Lernstationen',
-      description: 'Laden Sie Rasterzeichnen-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Symmetriemodus als Lernfokus. Stufe 1 verwendet Zufalls-Hinweisverteilung für allgemeine Zeichenübungen. Stufe 2 führt Horizontal spiegeln ein, wo Lernende eine Seite sehen und das Spiegelbild zeichnen. Stufe 3 nutzt Vertikal spiegeln für Oben-Unten-Symmetrie. Stufe 4 kombiniert niedriges Hinweisprozent mit Spiegelmodus für die ultimative Räumliches-Denken-Herausforderung. Diese Materialien verbinden Kunst- und Mathematik-Standards und sind wertvoll für Kunst- und Mathematiklehrkräfte, die nach „Symmetrie-Aktivitäten“ und „Räumliches-Denken-Arbeitsblätter“ suchen.',
+      description: 'Laden Sie Rasterzeichnen-Arbeitsblatt-Pakete auf Gumroad hoch, organisiert nach Symmetriemodus als Lernfokus. Stufe 1 verwendet Zufalls-Hinweisverteilung für allgemeine Zeichenübungen. Stufe 2 führt Horizontal spiegeln ein, wo Lernende eine Seite sehen und das Spiegelbild zeichnen. Stufe 3 nutzt Vertikal spiegeln für Oben-Unten-Symmetrie. Stufe 4 kombiniert niedriges Hinweisprozent mit Spiegelmodus für die ultimative Räumliches-Denken-Herausforderung. Diese Materialien verbinden Kunst- und Mathematik-Standards und sind wertvoll für Kunst- und Mathematiklehrkräfte, die nach „Symmetrie-Aktivitäten" und „Räumliches-Denken-Arbeitsblätter" suchen.',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest Visueller Rasterzeichnen-Trichter',
-      description: 'Rasterzeichnen-Arbeitsblätter mit dem unverwechselbaren Duale-Raster-Layout eignen sich hervorragend als Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Hinweisprozentsätzen und Symmetriemodi mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Rasterzeichnen für Kinder“, „Symmetrie-Zeichen-Arbeitsblätter“ und „Zelle-für-Zelle-Reproduktion“. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
+      description: 'Rasterzeichnen-Arbeitsblätter mit dem unverwechselbaren Duale-Raster-Layout eignen sich hervorragend als Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Hinweisprozentsätzen und Symmetriemodi mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Rasterzeichnen für Kinder", „Symmetrie-Zeichen-Arbeitsblätter" und „Zelle-für-Zelle-Reproduktion". Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Das Duale Raster als Premium-Format betonen',
-      description: 'Das Übungsraster plus Hinweisraster-Layout ist das zentrale Differenzierungsmerkmal gegenüber einfachen Malvorlagen. Beschreiben Sie das Duale-Raster-System in jedem Produktangebot explizit: „Zwei Begleitraster pro Bild — ein leeres Übungsraster zum Zeichnen und ein Hinweisraster mit teilweisen Referenzhinweisen.“ Dieses Premium-Format erzielt höhere Preise, weil es eine strukturierte Lernaktivität bietet statt nur ein Bild zum Ausmalen.',
+      description: 'Das Übungsraster plus Hinweisraster-Layout ist das zentrale Differenzierungsmerkmal gegenüber einfachen Malvorlagen. Beschreiben Sie das Duale-Raster-System in jedem Produktangebot explizit: „Zwei Begleitraster pro Bild — ein leeres Übungsraster zum Zeichnen und ein Hinweisraster mit teilweisen Referenzhinweisen." Dieses Premium-Format erzielt höhere Preise, weil es eine strukturierte Lernaktivität bietet statt nur ein Bild zum Ausmalen.',
     },
     {
       title: 'Progressive Arbeitshefte mit Hinweisprozent-Kapiteln erstellen',

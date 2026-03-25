@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Odd One Out Maker',
-        description: 'Click “Try Free Now” to launch the odd one out worksheet generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building odd one out worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the odd one out worksheet generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building odd one out worksheets immediately.',
       },
       {
         title: 'Choose Your Generation Mode',

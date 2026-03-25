@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Word Scramble Worksheet Generator for Letter-Rearrangement Spelling Puzzles',
     tagline: 'Shuffled letter tiles meet image clues — four difficulty levels and vowel-consonant color coding turn every word into a hands-on spelling puzzle.',
     description:
-      'Design professional word scramble worksheets where solvers see an image clue and rearrange shuffled letter tiles to spell the correct word — a letter-rearrangement puzzle that builds spelling accuracy, word recognition, and phonics awareness simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Four difficulty levels control how many clue letters are pre-placed in the correct position — from no clues at all to easy mode placing half the letters — creating natural scaffolding from beginner to advanced. The vowel-consonant color coding feature is unique to Word Scramble: toggle colored tiles where vowels appear in one color and consonants in another, adding a visual phonics dimension that helps solvers identify letter types while unscrambling. Place 1 to 10 puzzles per worksheet and choose uppercase or lowercase letter tiles. Full Access unlocks all 11 supported languages where the target word changes by language (“dog” in English becomes “Hund” in German, “chien” in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 300+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed spelling bundles on Etsy, compile word puzzle books for Amazon KDP, or list leveled literacy products on Gumroad, the Word Scramble Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional word scramble worksheets where solvers see an image clue and rearrange shuffled letter tiles to spell the correct word — a letter-rearrangement puzzle that builds spelling accuracy, word recognition, and phonics awareness simultaneously. Choose from three content sources: the built-in Image Library with 3,100+ illustrations across 104 themes, Manual Edit Mode where you select images then customize their display names, or Custom Word List mode for text-only puzzles using up to 8 words you type directly. Four difficulty levels control how many clue letters are pre-placed in the correct position — from no clues at all to easy mode placing half the letters — creating natural scaffolding from beginner to advanced. The vowel-consonant color coding feature is unique to Word Scramble: toggle colored tiles where vowels appear in one color and consonants in another, adding a visual phonics dimension that helps solvers identify letter types while unscrambling. Place 1 to 10 puzzles per worksheet and choose uppercase or lowercase letter tiles. Full Access unlocks all 11 supported languages where the target word changes by language ("dog" in English becomes "Hund" in German, "chien" in French), making each language a distinct, sellable product. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 300+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed spelling bundles on Etsy, compile word puzzle books for Amazon KDP, or list leveled literacy products on Gumroad, the Word Scramble Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -108,7 +108,7 @@ const content: AppContent = {
       {
         title: 'Themed Word Scramble Bundles on Etsy',
         description:
-          'Create sets of 10–20 word scramble worksheets grouped by theme and difficulty level — farm animals at Easy, ocean creatures at Normal, dinosaurs at Tough — and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The shuffled-letter-tile format with image clues creates a visually engaging product that stands out from plain word lists in Etsy search results. Toggle vowel-consonant color coding on half the bundle for a “phonics edition” upsell. Price individual theme packs at $3–$5 and multi-theme difficulty-graded bundles at $12–$18.',
+          'Create sets of 10–20 word scramble worksheets grouped by theme and difficulty level — farm animals at Easy, ocean creatures at Normal, dinosaurs at Tough — and list them as instant-download bundles on Etsy. Include answer keys as bonus files. The shuffled-letter-tile format with image clues creates a visually engaging product that stands out from plain word lists in Etsy search results. Toggle vowel-consonant color coding on half the bundle for a "phonics edition" upsell. Price individual theme packs at $3–$5 and multi-theme difficulty-graded bundles at $12–$18.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -126,14 +126,14 @@ const content: AppContent = {
       {
         title: 'Multilingual Vocabulary Products with Full Access',
         description:
-          'Full Access unlocks all 11 languages, and because Word Scramble is language-sensitive, the target word changes by language. “Dog” in English becomes “Hund” in German, “chien” in French, “perro” in Spanish — each with different letters, different letter counts, and completely different scrambled arrangements. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
+          'Full Access unlocks all 11 languages, and because Word Scramble is language-sensitive, the target word changes by language. "Dog" in English becomes "Hund" in German, "chien" in French, "perro" in Spanish — each with different letters, different letter counts, and completely different scrambled arrangements. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Custom Vocabulary Products for Repeat Buyers',
+        title: 'Custom Vocabulary Products for Repeat Buyers',
         description:
-          ‘Use Custom Word List mode to create word scramble worksheets for any vocabulary list — weekly spelling words, science terms, social studies vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Adjust difficulty level to suit the target audience: Easy with color-coded tiles for beginner-level products, No Clues with All Black tiles for advanced puzzle fans. Generate custom sets in minutes and list them as niche vocabulary packs on Etsy or Gumroad. The automatic answer key adds professional value, and the letter-rearrangement format keeps solvers actively engaged compared to traditional fill-in-the-blank worksheets.',
-        platform: ‘Etsy / Gumroad / Your Own Store',
+          'Use Custom Word List mode to create word scramble worksheets for any vocabulary list — weekly spelling words, science terms, social studies vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Adjust difficulty level to suit the target audience: Easy with color-coded tiles for beginner-level products, No Clues with All Black tiles for advanced puzzle fans. Generate custom sets in minutes and list them as niche vocabulary packs on Etsy or Gumroad. The automatic answer key adds professional value, and the letter-rearrangement format keeps solvers actively engaged compared to traditional fill-in-the-blank worksheets.',
+        platform: 'Etsy / Gumroad / Your Own Store',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Edit Mode differ from the Image Library?',
       answer:
-        ‘In standard Image Library mode, the word to unscramble is the image's built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product's theme while still showing the image as a visual clue.',
+        'In standard Image Library mode, the word to unscramble is the image's built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product's theme while still showing the image as a visual clue.',
     },
     {
       question: 'What can I do with Custom Word List mode?',
@@ -182,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Is the Word Scramble generator language-sensitive?',
       answer:
-        'Yes. Because the word to unscramble is the image name in the selected language, changing the language changes the puzzle content entirely. “Dog” in English becomes “Hund” in German, “chien” in French, “perro” in Spanish — each with different letters, different letter counts, and completely different scrambled arrangements. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
+        'Yes. Because the word to unscramble is the image name in the selected language, changing the language changes the puzzle content entirely. "Dog" in English becomes "Hund" in German, "chien" in French, "perro" in Spanish — each with different letters, different letter counts, and completely different scrambled arrangements. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
     },
     {
       question: 'Is there a free trial?',

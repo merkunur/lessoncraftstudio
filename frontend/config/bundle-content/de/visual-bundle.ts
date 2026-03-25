@@ -79,7 +79,7 @@ const content: BundleContent = {
     },
     {
       title: 'Über 100 thematische Bildsets',
-      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sieben Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie „Meertiere-Malvorlagen“ neben „Bauernhof-Muster-Arbeitsblättern“ und „Weltraum-Bilddiagramm-Aktivitäten“, um verschiedene Suchanfragen, Käuferinteressen und Produktkategorien gleichzeitig abzudecken.',
+      description: 'Greifen Sie auf Tiere, Lebensmittel, Fahrzeuge, Feiertage, Jahreszeiten und Dutzende weitere Themenkategorien über alle sieben Generatoren zu. Jedes Thema bietet einen frischen Produktwinkel — listen Sie „Meertiere-Malvorlagen" neben „Bauernhof-Muster-Arbeitsblättern" und „Weltraum-Bilddiagramm-Aktivitäten", um verschiedene Suchanfragen, Käuferinteressen und Produktkategorien gleichzeitig abzudecken.',
     },
     {
       title: 'Eigene Bilder hochladen',
@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP Aktivitätsbücher',
-      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Aktivitätsbüchern: „Vorschul-Visuelles-Lernen-Arbeitsbuch“ mit Malvorlagen, Musterfolgen, Größenvergleich und Linien-Nachziehen, oder „Kindergarten-Diagramm-und-Muster-Aktivitäten“ mit Bilddiagramm-Zählen und Muster-Arbeitsblättern. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Buch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Da alle sieben Generatoren textunabhängige Inhalte erzeugen, verkauft sich dasselbe Buch auf jedem Amazon-Marktplatz weltweit — nur Cover und Titel müssen übersetzt werden.',
+      description: 'Kombinieren Sie Arbeitsblätter aus mehreren Generatoren zu thematischen KDP-Aktivitätsbüchern: „Vorschul-Visuelles-Lernen-Arbeitsbuch" mit Malvorlagen, Musterfolgen, Größenvergleich und Linien-Nachziehen, oder „Kindergarten-Diagramm-und-Muster-Aktivitäten" mit Bilddiagramm-Zählen und Muster-Arbeitsblättern. Die einheitliche Design-Engine sorgt dafür, dass jede Seite professionell einheitlich aussieht. Generieren Sie 50 bis 100 Seiten pro Buch in einer einzigen Sitzung, laden Sie als PDF herunter und laden Sie direkt auf KDP hoch. Da alle sieben Generatoren textunabhängige Inhalte erzeugen, verkauft sich dasselbe Buch auf jedem Amazon-Marktplatz weltweit — nur Cover und Titel müssen übersetzt werden.',
       platform: 'Amazon KDP',
     },
     {
@@ -160,7 +160,7 @@ const content: BundleContent = {
       answer: 'Ja. Jeder Generator im Paket bietet eine kostenlose Testversion mit voller Funktionalität. Sie können alle Einstellungen konfigurieren, Arbeitsblätter in der Vorschau ansehen und Dateien herunterladen. Testversion-Downloads enthalten ein Wasserzeichen. Der Kauf einer Lizenz entfernt das Wasserzeichen, damit Sie kommerziell verkaufen können. Wir empfehlen, alle sieben Generatoren vor dem Kauf zu testen, um sicherzustellen, dass sie Ihren Anforderungen entsprechen.',
     },
     {
-      question: 'Was bedeutet „rein visuell“ und warum ist das wichtig?',
+      question: 'Was bedeutet „rein visuell" und warum ist das wichtig?',
       answer: 'Jedes Arbeitsblatt, das die sieben Generatoren in diesem Paket erzeugen, enthält ausschließlich Bilder, Formen, Farben und Zahlen — keine Wörter oder Sätze auf der fertigen Seite. Das bedeutet, dass eine Malvorlage, ein Muster-Arbeitsblatt oder eine Bilddiagramm-Zählaktivität, die Sie erstellen, für Käufer in jedem Land und jeder Sprache identisch funktioniert. Sie müssen nie übersetzen oder separate Sprachversionen erstellen. Ein Produktangebot bedient jeden Markt weltweit und verschafft Ihnen einen strukturellen Vorteil gegenüber Verkäufern, deren Arbeitsblätter Textübersetzung erfordern.',
     },
     {

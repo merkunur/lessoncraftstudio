@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Picture Sort Maker',
-        description: 'Click “Try Free Now” to launch the sorting worksheet generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building sorting worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the sorting worksheet generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building sorting worksheets immediately.',
       },
       {
         title: 'Choose Your Selection Mode',
@@ -45,7 +45,7 @@ const content: ToolContent = {
       },
       {
         title: 'Set Your Page Layout and Decorations',
-        description: 'In the Page Setup section, select your page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or enter a custom dimension. Choose a page background color. Select a decorative background theme and a border theme from the built-in library, each with an independent opacity slider (0–1, step 0.05). Background and border themes work independently, so you can pair a subtle pattern background with a bold decorative border. Check “Include Name/Date Fields” to add name and date lines for personalization.',
+        description: 'In the Page Setup section, select your page size: Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or enter a custom dimension. Choose a page background color. Select a decorative background theme and a border theme from the built-in library, each with an independent opacity slider (0–1, step 0.05). Background and border themes work independently, so you can pair a subtle pattern background with a bold decorative border. Check "Include Name/Date Fields" to add name and date lines for personalization.',
       },
       {
         title: 'Generate the Sorting Worksheet',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Custom Photo Sorting Worksheets',
-      description: 'Use the Upload Custom Images feature to create sorting worksheets from your own photos or artwork. Family sorting activities where children classify photos into categories like “People” vs “Places,” niche-specific sorting tasks using your own photos, branded sorting activities for your product line, or personalized sorting worksheets with familiar images. The manual mode lets you assign each uploaded image to the left or right category. Combined with the auto-generated answer key, custom photo sorting worksheets become unique, personalized products impossible for competitors to replicate.',
+      description: 'Use the Upload Custom Images feature to create sorting worksheets from your own photos or artwork. Family sorting activities where children classify photos into categories like "People" vs "Places," niche-specific sorting tasks using your own photos, branded sorting activities for your product line, or personalized sorting worksheets with familiar images. The manual mode lets you assign each uploaded image to the left or right category. Combined with the auto-generated answer key, custom photo sorting worksheets become unique, personalized products impossible for competitors to replicate.',
     },
     {
       title: 'Seasonal and Holiday Sorting Collections',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Classification Workbook Series',
-      description: 'Compile 50–80 sorting worksheets into themed workbooks for Amazon KDP. Structure a series by topic: “Animal Sorting Puzzles,” “Food Classification Activities,” “Nature Sorting Workbook,” and “Everyday Objects Sort.” Each book progresses from simple 4-image sorts to challenging 12-image classification tasks. Include answer key pages at the back with 6× larger images organized into category boxes for clear verification. Toggle grayscale for ink-friendly output that keeps KDP printing costs low. Classification workbooks serve a broad audience from preschool through elementary and sell year-round in the activity book category.',
+      description: 'Compile 50–80 sorting worksheets into themed workbooks for Amazon KDP. Structure a series by topic: "Animal Sorting Puzzles," "Food Classification Activities," "Nature Sorting Workbook," and "Everyday Objects Sort." Each book progresses from simple 4-image sorts to challenging 12-image classification tasks. Include answer key pages at the back with 6× larger images organized into category boxes for clear verification. Toggle grayscale for ink-friendly output that keeps KDP printing costs low. Classification workbooks serve a broad audience from preschool through elementary and sell year-round in the activity book category.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest Sorting Worksheet Traffic Funnel',
-      description: 'Sorting worksheets make visually striking Pinterest pins — the two-category layout with side-by-side category frames and a shuffled cutout grid below creates an immediately recognizable format that buyers love. Pin sample worksheets showing different category pairings: animal sorting, food classification, and seasonal sorting. Create separate pin series for “sorting worksheets,” “classification activities,” and “category sorting printables.” Link each pin to your Etsy or Gumroad product listings.',
+      description: 'Sorting worksheets make visually striking Pinterest pins — the two-category layout with side-by-side category frames and a shuffled cutout grid below creates an immediately recognizable format that buyers love. Pin sample worksheets showing different category pairings: animal sorting, food classification, and seasonal sorting. Create separate pin series for "sorting worksheets," "classification activities," and "category sorting printables." Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Target Natural Category Pairings for Maximum Search Visibility',
-      description: 'The most successful sorting worksheet products use category pairings that match how buyers think about classification: animals vs food, land vs water, living vs nonliving, healthy vs unhealthy, big vs small, hot vs cold, day vs night. These natural binary oppositions are the terms buyers search for on Etsy, Gumroad, and Amazon. Name your product listings using the actual category pairing (e.g., “Animals vs Food Sorting Worksheets”) rather than generic titles, and create separate listings for each major category pairing to capture targeted search traffic.',
+      description: 'The most successful sorting worksheet products use category pairings that match how buyers think about classification: animals vs food, land vs water, living vs nonliving, healthy vs unhealthy, big vs small, hot vs cold, day vs night. These natural binary oppositions are the terms buyers search for on Etsy, Gumroad, and Amazon. Name your product listings using the actual category pairing (e.g., "Animals vs Food Sorting Worksheets") rather than generic titles, and create separate listings for each major category pairing to capture targeted search traffic.',
     },
   ],
 
@@ -180,15 +180,15 @@ const content: ToolContent = {
     },
     {
       question: 'Is the Picture Sort Maker language-sensitive?',
-      answer: 'Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as “Cat” in English but “Katze” in German and “Chat” in French. The localized “Picture Sort” header and its description also translate automatically into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. This makes it easy to create multilingual sorting products from the same images.',
+      answer: 'Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as "Cat" in English but "Katze" in German and "Chat" in French. The localized "Picture Sort" header and its description also translate automatically into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. This makes it easy to create multilingual sorting products from the same images.',
     },
     {
       question: 'How does the localized header look?',
-      answer: 'Every generated worksheet includes a styled header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header with dynamic title sizing (28–48px); landscape worksheets use a compact 70px header with 24–36px title. The title “Picture Sort” and description are automatically translated into all 11 supported languages. A teal outer border (#26A69A, 8px stroke, 12px radius) frames the entire page.',
+      answer: 'Every generated worksheet includes a styled header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header with dynamic title sizing (28–48px); landscape worksheets use a compact 70px header with 24–36px title. The title "Picture Sort" and description are automatically translated into all 11 supported languages. A teal outer border (#26A69A, 8px stroke, 12px radius) frames the entire page.',
     },
     {
       question: 'Can I include name and date fields on sorting worksheets?',
-      answer: 'Yes. Check the “Include Name/Date Fields” checkbox in the Page Setup panel to add name and date lines to the worksheet. These fields add personalization and make your sorting worksheets ready-to-use without any additional preparation. Name/date fields are a key selling point for printable products where buyers expect worksheets that arrive complete.',
+      answer: 'Yes. Check the "Include Name/Date Fields" checkbox in the Page Setup panel to add name and date lines to the worksheet. These fields add personalization and make your sorting worksheets ready-to-use without any additional preparation. Name/date fields are a key selling point for printable products where buyers expect worksheets that arrive complete.',
     },
     {
       question: 'What page sizes and export formats are available?',

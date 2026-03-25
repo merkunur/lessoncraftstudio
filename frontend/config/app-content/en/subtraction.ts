@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Subtraction Worksheet Generator with Cross-Out Visualization',
     tagline: 'Make subtraction click with picture-based worksheets where solvers cross out images to find the answer.',
     description:
-      'Create engaging image-based subtraction worksheets that teach take-away math through a powerful visual method: crossed-out images. Solvers see a group of pictures, then watch diagonal X marks drawn through the subtracted items — making the abstract concept of “taking away” concrete and intuitive. Choose from four exercise modes — Cross Out, Image − Number, Find the Subtrahend, and Mixed — covering difficulty tiers from beginner through advanced. Browse over 3,100 curated illustrations across 104 themes like dinosaurs, ocean life, and vehicles. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. A built-in grayscale toggle lets you create ink-friendly black-and-white versions with one click. Whether you sell themed bundles on Etsy, publish activity books on Amazon KDP, or build a niche store on Gumroad, the Subtraction Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Create engaging image-based subtraction worksheets that teach take-away math through a powerful visual method: crossed-out images. Solvers see a group of pictures, then watch diagonal X marks drawn through the subtracted items — making the abstract concept of "taking away" concrete and intuitive. Choose from four exercise modes — Cross Out, Image − Number, Find the Subtrahend, and Mixed — covering difficulty tiers from beginner through advanced. Browse over 3,100 curated illustrations across 104 themes like dinosaurs, ocean life, and vehicles. Every worksheet includes an automatic answer key, and you can export print-ready PDFs in Letter, A4, or custom sizes at 400+ DPI. A built-in grayscale toggle lets you create ink-friendly black-and-white versions with one click. Whether you sell themed bundles on Etsy, publish activity books on Amazon KDP, or build a niche store on Gumroad, the Subtraction Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Cross-Out Visualization',
         description:
-          'The signature feature that sets this generator apart. In Cross Out mode, a full group of images is displayed and diagonal X marks are drawn through the last N items to show subtraction visually. This transforms the abstract idea of “taking away” into something solvers can see and understand immediately. Someone looking at eight apples with three crossed out grasps “8 minus 3” far more intuitively than staring at bare numerals. The cross-out marks are rendered clearly on the canvas and carry through to both the worksheet and the answer key export, creating a consistent visual language across every page.',
+          'The signature feature that sets this generator apart. In Cross Out mode, a full group of images is displayed and diagonal X marks are drawn through the last N items to show subtraction visually. This transforms the abstract idea of "taking away" into something solvers can see and understand immediately. Someone looking at eight apples with three crossed out grasps "8 minus 3" far more intuitively than staring at bare numerals. The cross-out marks are rendered clearly on the canvas and carry through to both the worksheet and the answer key export, creating a consistent visual language across every page.',
       },
       {
         title: 'Four Distinct Exercise Modes',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: ‘Pinterest Lead Funnel for a Niche Authority Store',
+        title: 'Pinterest Lead Funnel for a Niche Authority Store',
         description:
-          ‘Use the generator to create free sample subtraction worksheets as Pinterest lead magnets that drive traffic to your Gumroad or Shopify store. Pin eye-catching Cross Out worksheets with watermarks to attract clicks, then link to your full paid bundles. Offer Find the Subtrahend sheets as premium upsells for buyers who want advanced content — all produced in the same session. The automatic answer key adds perceived value to every listing, and the grayscale toggle keeps production costs low for high-volume output. The generator replaces hours of manual worksheet creation with a few clicks, letting you scale your content pipeline fast.',
-        platform: ‘Pinterest / Gumroad / Shopify',
+          'Use the generator to create free sample subtraction worksheets as Pinterest lead magnets that drive traffic to your Gumroad or Shopify store. Pin eye-catching Cross Out worksheets with watermarks to attract clicks, then link to your full paid bundles. Offer Find the Subtrahend sheets as premium upsells for buyers who want advanced content — all produced in the same session. The automatic answer key adds perceived value to every listing, and the grayscale toggle keeps production costs low for high-volume output. The generator replaces hours of manual worksheet creation with a few clicks, letting you scale your content pipeline fast.',
+        platform: 'Pinterest / Gumroad / Shopify',
       },
     ],
   },
@@ -147,7 +147,7 @@ const content: AppContent = {
     {
       question: 'How does the cross-out visualization work?',
       answer:
-        'In Cross Out mode, the worksheet displays the full starting group of images — for example, eight butterflies. Diagonal X marks are then drawn through the last N images to represent the amount being subtracted. Solvers count the remaining unmarked images to find the answer. This makes the abstract concept of “taking away” visible and concrete, which is especially effective for the preschool-age market where visual math products command premium prices.',
+        'In Cross Out mode, the worksheet displays the full starting group of images — for example, eight butterflies. Diagonal X marks are then drawn through the last N images to represent the amount being subtracted. Solvers count the remaining unmarked images to find the answer. This makes the abstract concept of "taking away" visible and concrete, which is especially effective for the preschool-age market where visual math products command premium prices.',
     },
     {
       question: 'What number ranges can I set for subtraction problems?',

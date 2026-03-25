@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Name and Date Fields with Toggle Control',
         description:
-          'A checkbox toggle in the Text & Content panel adds “Name:” and “Date:” fields to the worksheet. These identification lines make worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages where the name appears on the cover. The fields render cleanly alongside the auto-generated header and legend.',
+          'A checkbox toggle in the Text & Content panel adds "Name:" and "Date:" fields to the worksheet. These identification lines make worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages where the name appears on the cover. The fields render cleanly alongside the auto-generated header and legend.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Can I add name and date fields to the worksheet?',
       answer:
-        'Yes. A checkbox toggle in the Text & Content panel adds “Name:” and “Date:” fields to the worksheet. These identification lines make your worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages.',
+        'Yes. A checkbox toggle in the Text & Content panel adds "Name:" and "Date:" fields to the worksheet. These identification lines make your worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages.',
     },
     {
       question: 'How does the auto-generated header work?',

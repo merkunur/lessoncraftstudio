@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Den Puzzle-Generator öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Mathe-Rätsel-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Mathe-Rätsel-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Die Rastergröße festlegen',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Ein Bild auswählen oder hochladen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Alternativ klicken Sie auf „Eigenes Bild hochladen“, um Ihr eigenes PNG oder JPEG zu verwenden — perfekt für markentypische Puzzles, saisonale Designs oder Nischenthemen, die zu Ihrer Shop-Identität passen.',
+        description: 'Öffnen Sie das Panel „Bildbibliothek" und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Alternativ klicken Sie auf „Eigenes Bild hochladen", um Ihr eigenes PNG oder JPEG zu verwenden — perfekt für markentypische Puzzles, saisonale Designs oder Nischenthemen, die zu Ihrer Shop-Identität passen.',
       },
       {
         title: 'Die Bildbibliothek durchstöbern',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Das Seitenlayout anpassen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek.',
+        description: 'Im Bereich „Seiten-Setup" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek.',
       },
       {
         title: 'Den Graustufenmodus aktivieren',
@@ -56,7 +56,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Puzzle-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, der jedes Puzzleteil an seiner korrekten Rasterposition zeigt.',
+        description: 'Klicken Sie auf „Generieren", um Ihr Puzzle-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich sofort auf der Arbeitsfläche. Laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren und laden Sie außerdem einen passenden Lösungsschlüssel herunter, der jedes Puzzleteil an seiner korrekten Rasterposition zeigt.',
       },
     ],
   },
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Saisonale und Feiertags-Puzzle-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle“-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Gumroad.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Mathe-Puzzle"-Paket mit festlichen Bildern verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Puzzles haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Gumroad.',
     },
     {
       title: 'Tägliche Aufwärm-Puzzles für die Produkterstellung',
-      description: 'Generieren Sie schnelle 2×2- oder 2×3-Puzzles für tägliche Mathe-Aufstiegsübungen. Nutzer lösen 4–6 Gleichungen und setzen ein Bild in unter fünf Minuten zusammen. Erstellen Sie ein Set mit 30 Puzzles (eines pro Schultag) und verkaufen Sie es als „Ein Monat Mathe-Puzzle-Aufstiegsübungen“-Paket. Das spielerische Format hält Nutzer von der ersten Minute an motiviert.',
+      description: 'Generieren Sie schnelle 2×2- oder 2×3-Puzzles für tägliche Mathe-Aufstiegsübungen. Nutzer lösen 4–6 Gleichungen und setzen ein Bild in unter fünf Minuten zusammen. Erstellen Sie ein Set mit 30 Puzzles (eines pro Schultag) und verkaufen Sie es als „Ein Monat Mathe-Puzzle-Aufstiegsübungen"-Paket. Das spielerische Format hält Nutzer von der ersten Minute an motiviert.',
     },
   ],
 
@@ -101,7 +101,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Premium-Puzzle-Pakete auf Gumroad',
-      description: 'Laden Sie gestufte Mathe-Puzzle-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Mathe-Rätsel“ und „Mathe-Spiele“. Fügen Sie alle drei Rechenarten, drei Schwierigkeitsstufen, Lösungsschlüssel und eine Verkäuferanleitung in jedes Listing ein. Das Jigsaw-Format erhöht den wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung.',
+      description: 'Laden Sie gestufte Mathe-Puzzle-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Mathe-Rätsel" und „Mathe-Spiele". Fügen Sie alle drei Rechenarten, drei Schwierigkeitsstufen, Lösungsschlüssel und eine Verkäuferanleitung in jedes Listing ein. Das Jigsaw-Format erhöht den wahrgenommenen Wert, weil es sich wie ein Spiel anfühlt, nicht wie eine Übung.',
       platform: 'Gumroad',
     },
     {
@@ -128,7 +128,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Den gemischten Modus für maximale Vielfalt nutzen',
-      description: 'Der Modus „Addition & Subtraktion“ mischt beide Rechenarten zufällig in einem einzelnen Puzzle. Das erzeugt Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig testen und verhindern, dass Nutzer in ein repetitives Muster verfallen. Puzzles im gemischten Modus haben außerdem einen höheren wahrgenommenen Wert in Marktplatz-Listings.',
+      description: 'Der Modus „Addition & Subtraktion" mischt beide Rechenarten zufällig in einem einzelnen Puzzle. Das erzeugt Wiederholungs-Arbeitsblätter, die beide Fähigkeiten gleichzeitig testen und verhindern, dass Nutzer in ein repetitives Muster verfallen. Puzzles im gemischten Modus haben außerdem einen höheren wahrgenommenen Wert in Marktplatz-Listings.',
     },
     {
       title: 'Eigene Bilder für Wiedererkennungswert hochladen',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Mit regulären Mathe-Arbeitsblättern kombinieren',
-      description: 'Erstellen Sie passende Puzzle- und Standard-Arbeitsblatt-Sets mit den Additions- und Subtraktions-Generatoren im selben Zahlenbereich und Thema. Verkaufen Sie einzeln und als kombiniertes „Mathe-Übung + Puzzle“-Bündel. Das Puzzle fügt ein spielerisches Element hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
+      description: 'Erstellen Sie passende Puzzle- und Standard-Arbeitsblatt-Sets mit den Additions- und Subtraktions-Generatoren im selben Zahlenbereich und Thema. Verkaufen Sie einzeln und als kombiniertes „Mathe-Übung + Puzzle"-Bündel. Das Puzzle fügt ein spielerisches Element hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
     },
     {
       title: 'Das Puzzle-Format in Vorschaubildern hervorheben',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um Ihre eigene PNG- oder JPEG-Datei als Puzzlebild zu verwenden. So können Sie markentypische Puzzles mit eigenen Illustrationen, Logos, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen", um Ihre eigene PNG- oder JPEG-Datei als Puzzlebild zu verwenden. So können Sie markentypische Puzzles mit eigenen Illustrationen, Logos, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Die automatische Lösungsschlüssel-Erstellung spart erhebliche Vorbereitungszeit im Vergleich zur manuellen Erstellung und gewährleistet Genauigkeit über alle Übungstypen hinweg — besonders wertvoll bei der Produktion großer Mengen von Arbeitsblättern für Marktplatz-Listings. Professionelle Druckvorlagen-Verkäufer investieren in der Regel dreißig bis sechzig Minuten pro Produkt mit generatorbasierten Werkzeugen, verglichen mit vier bis acht Stunden für manuelle Erstellung in Grafikdesign-Software — eine Produktivitätssteigerung, die den Aufbau umfangreicher Produktkataloge praktikabel macht.',
     },
     {
       question: 'Was bewirkt der Graustufen-Schalter?',

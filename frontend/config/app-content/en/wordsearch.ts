@@ -126,14 +126,14 @@ const content: AppContent = {
       {
         title: 'Multilingual Word Search Products with Full Access',
         description:
-          'Full Access unlocks all 11 languages, and because Word Search is language-sensitive, both the hidden words and the grid filler letters change by language. “Dog” in English becomes “Hund” in a grid filled with German characters including ä, ö, ü; “chien” in French appears in a grid with é, è, ç, à. Each language version is a genuinely different product with different words, different filler characters, and a different solving experience. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
+          'Full Access unlocks all 11 languages, and because Word Search is language-sensitive, both the hidden words and the grid filler letters change by language. "Dog" in English becomes "Hund" in a grid filled with German characters including ä, ö, ü; "chien" in French appears in a grid with é, è, ç, à. Each language version is a genuinely different product with different words, different filler characters, and a different solving experience. Create identical theme sets in multiple languages and list each as a separate Etsy product or KDP book — eleven revenue streams from one workflow.',
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Pinterest Lead Funnel for Word Search Products',
+        title: 'Pinterest Lead Funnel for Word Search Products',
         description:
-          ‘Use Custom Word List mode to create free sample word search worksheets for any vocabulary niche — spelling words, science terms, seasonal vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Post eye-catching solved puzzles on Pinterest linking to your Etsy or Gumroad store. Offer a free sample PDF to build your email list, then upsell full themed bundles to repeat buyers. The color-coded answer key adds perceived value, and the classic word search format drives consistent engagement across all demographics.',
-        platform: ‘Pinterest / Email List / Etsy / Gumroad',
+          'Use Custom Word List mode to create free sample word search worksheets for any vocabulary niche — spelling words, science terms, seasonal vocabulary, or foreign language practice. Type up to 8 words directly without needing matching images. Post eye-catching solved puzzles on Pinterest linking to your Etsy or Gumroad store. Offer a free sample PDF to build your email list, then upsell full themed bundles to repeat buyers. The color-coded answer key adds perceived value, and the classic word search format drives consistent engagement across all demographics.',
+        platform: 'Pinterest / Email List / Etsy / Gumroad',
       },
     ],
   },

@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Wörter-Raten-Arbeitsblatt-Generator',
     tagline: 'Bildbasierte Rechtschreib-Arbeitsblätter mit 4 Hinweisstufen in 11 Sprachen erstellen',
-    description: 'Verwandeln Sie Wortschatzübungen in visuelle Rätsel, die Nutzer begeistert lösen. Dieses Tool erstellt Wörter-Raten-Arbeitsblätter, bei denen ein Bild-Hinweis mit einem Buchstabengitter kombiniert wird, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein, um das dargestellte Wort zu buchstabieren. Das Herzstück ist ein 4-stufiges progressives Hinweissystem: Keine Hinweise zeigt keine Buchstaben für reines Erinnern, Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen, Normal enthüllt ein Viertel für ausgewogene Herausforderung und Schwer enthüllt nur ein Sechstel für sichere Rechtschreiber. Wählen Sie zwischen zwei Eingabemodi: Der Bild-Hinweis-Modus greift auf über 3.100 Bilder in 104 thematischen Sammlungen zu und generiert automatisch passende Buchstabengitter, oder der Benutzerdefinierte-Wortliste-Modus ermöglicht die direkte Eingabe eigener Wörter für gezieltes Wortschatztraining ohne Bilder. Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den Gittern — schließen Sie Vokale aus für Phonik-fokussierte Übungen oder häufige Buchstaben für eine härtere Herausforderung. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und dasselbe Bild erzeugt eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch. Besonders vorteilhaft für Deutsch: Zusammengesetzte Wörter wie Schmetterling, Feuerwehrauto oder Kühlschrank erzeugen besonders lange und anspruchsvolle Buchstabengitter — ein einzigartiges Verkaufsargument für den deutschsprachigen Markt. Stellen Sie 1–10 Übungen pro Seite ein, wählen Sie Groß- oder Kleinbuchstaben, schalten Sie die Übungsnummerierung ein oder aus, fügen Sie eigene Textanweisungen hinzu und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit optionaler Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
+    description: 'Verwandeln Sie Wortschatzübungen in visuelle Rätsel, die Nutzer begeistert lösen. Dieses Tool erstellt Wörter-Raten-Arbeitsblätter, bei denen ein Bild-Hinweis mit einem Buchstabengitter kombiniert wird, das Lücken enthält — Nutzer betrachten das Bild und füllen die fehlenden Buchstaben ein, um das dargestellte Wort zu buchstabieren. Das Herzstück ist ein 4-stufiges progressives Hinweissystem: Keine Hinweise zeigt keine Buchstaben für reines Erinnern, Leicht enthüllt die Hälfte der Buchstaben für unterstütztes Lernen, Normal enthüllt ein Viertel für ausgewogene Herausforderung und Schwer enthüllt nur ein Sechstel für sichere Rechtschreiber. Wählen Sie zwischen zwei Eingabemodi: Der Bild-Hinweis-Modus greift auf über 3.100 Bilder in 104 thematischen Sammlungen zu und generiert automatisch passende Buchstabengitter, oder der Benutzerdefinierte-Wortliste-Modus ermöglicht die direkte Eingabe eigener Wörter für gezieltes Wortschatztraining ohne Bilder. Die Buchstaben-ausschließen-Funktion entfernt bestimmte Buchstaben aus den Gittern — schließen Sie Vokale aus für Phonik-fokussierte Übungen oder häufige Buchstaben für eine härtere Herausforderung. Die Sprachsensitivität ist integriert: Wechseln Sie von Deutsch zu einer der 11 unterstützten Sprachen, und dasselbe Bild erzeugt eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND" auf Deutsch, „DOG" auf Englisch, „CHIEN" auf Französisch, „PERRO" auf Spanisch. Besonders vorteilhaft für Deutsch: Zusammengesetzte Wörter wie Schmetterling, Feuerwehrauto oder Kühlschrank erzeugen besonders lange und anspruchsvolle Buchstabengitter — ein einzigartiges Verkaufsargument für den deutschsprachigen Markt. Stellen Sie 1–10 Übungen pro Seite ein, wählen Sie Groß- oder Kleinbuchstaben, schalten Sie die Übungsnummerierung ein oder aus, fügen Sie eigene Textanweisungen hinzu und wählen Sie aus 7 Schriftfamilien. Exportieren Sie als druckfertiges PDF oder hochauflösendes JPEG mit optionaler Lösungsschlüssel-Generierung. Die kostenlose Testversion enthält ein Wasserzeichen auf Downloads. Erwerben Sie eine Lizenz, um das Wasserzeichen zu entfernen und kommerziell zu verkaufen.',
   },
 
   tutorial: {
@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Wörter-Raten-Arbeitsblatt-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Generator zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer Einstellungsleiste links und einer Live-Vorschau rechts. Kein Benutzerkonto, kein Software-Download und keine Installation erforderlich.',
       },
       {
         title: 'Das Seitenlayout und die Vorlage festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen.',
+        description: 'Im Bereich „Seiten-Setup" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Wählen Sie eine Arbeitsblatt-Vorlage aus dem Vorlagen-Selektor. Legen Sie die Seitenfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen.',
       },
       {
         title: 'Den Eingabemodus wählen',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Bilder und Thema auswählen',
-        description: 'Im Bild-Hinweis-Modus öffnen Sie das Panel „Bildbibliothek“ und durchstöbern über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Manuelle Auswahl, um bestimmte Bilder auszuwählen, oder wählen Sie Alle Themen, damit das Tool automatisch auswählt. Jedes Bild generiert automatisch sein passendes Buchstabengitter in der gewählten Sprache. Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
+        description: 'Im Bild-Hinweis-Modus öffnen Sie das Panel „Bildbibliothek" und durchstöbern über 3.100 Bilder in 104 thematischen Sammlungen: Tiere, Essen, Fahrzeuge, Natur, Feiertage und vieles mehr. Nutzen Sie die Manuelle Auswahl, um bestimmte Bilder auszuwählen, oder wählen Sie Alle Themen, damit das Tool automatisch auswählt. Jedes Bild generiert automatisch sein passendes Buchstabengitter in der gewählten Sprache. Laden Sie eigene PNG- oder JPEG-Dateien für markentypische Arbeitsblätter hoch.',
       },
       {
         title: 'Buchstaben-Ausschluss, Groß-/Kleinschreibung und Nummerierung konfigurieren',
-        description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um bestimmte Buchstaben aus den Gittern zu entfernen — schließen Sie beispielsweise alle Vokale aus, damit Nutzer sie selbst ergänzen müssen, und schaffen Sie so eine Phonik-fokussierte Übung. Wählen Sie Groß- oder Kleinbuchstaben für die Gitter-Ausgabe. Schalten Sie die Übungsnummerierung ein oder aus. Fügen Sie eine eigene Textanweisung wie „Erganze die fehlenden Buchstaben!“ als Nutzer-Anleitung hinzu.',
+        description: 'Nutzen Sie die Buchstaben-ausschließen-Funktion, um bestimmte Buchstaben aus den Gittern zu entfernen — schließen Sie beispielsweise alle Vokale aus, damit Nutzer sie selbst ergänzen müssen, und schaffen Sie so eine Phonik-fokussierte Übung. Wählen Sie Groß- oder Kleinbuchstaben für die Gitter-Ausgabe. Schalten Sie die Übungsnummerierung ein oder aus. Fügen Sie eine eigene Textanweisung wie „Erganze die fehlenden Buchstaben!" als Nutzer-Anleitung hinzu.',
       },
       {
         title: 'Schriften, Text und Arbeitsfläche anpassen',
@@ -57,7 +57,7 @@ const content: ToolContent = {
       },
       {
         title: 'Generieren und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Wörter-Raten-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der die korrekte Schreibweise für jede Übung zeigt. Bei Querformat-Seiten mit 5 oder mehr Übungen wechselt das Tool automatisch zu einem intelligenten Zwei-Spalten-Layout.',
+        description: 'Klicken Sie auf „Generieren", um Ihr Wörter-Raten-Arbeitsblatt zu erstellen. Die Vorschau aktualisiert sich auf der Arbeitsfläche. Aktivieren Sie den Graustufen-Schalter für tintenfreundliche Schwarzweiß-Ausgabe, ideal für KDP-Inhalte. Laden Sie als druckfertiges PDF oder hochauflösendes JPEG herunter. Generieren Sie einen passenden Lösungsschlüssel, der die korrekte Schreibweise für jede Übung zeigt. Bei Querformat-Seiten mit 5 oder mehr Übungen wechselt das Tool automatisch zu einem intelligenten Zwei-Spalten-Layout.',
       },
     ],
   },
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachige Rechtschreib-Produkte',
-      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterstützten Sprachen. Dasselbe Hundebild erzeugt „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch — jeweils mit völlig unterschiedlichen Buchstabengittern und korrekten Antworten. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz.',
+      description: 'Wechseln Sie die Spracheinstellung und generieren Sie dieselbe Arbeitsblatt-Vorlage in allen 11 unterstützten Sprachen. Dasselbe Hundebild erzeugt „HUND" auf Deutsch, „DOG" auf Englisch, „CHIEN" auf Französisch, „PERRO" auf Spanisch — jeweils mit völlig unterschiedlichen Buchstabengittern und korrekten Antworten. Eine Designsitzung erzeugt 11 verschiedene Produkte, jedes bereit für den lokalen Marktplatz.',
     },
     {
       title: 'Eigene-Wortliste-Vokabelarbeitsblätter',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Rechtschreib-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Wörter-Raten“-Paket mit festlichem Wortschatz — RENTIER, SCHNEEFLOCKE, GESCHENK — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad. Das visuelle Rätselformat macht saisonale Produkte frisch und ansprechend.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Wörter-Raten"-Paket mit festlichem Wortschatz — RENTIER, SCHNEEFLOCKE, GESCHENK — verkauft sich besonders stark im November–Dezember. Schulanfang, Halloween und Frühling haben jeweils eigene Spitzenverkaufszeiten auf Etsy.de und Gumroad. Das visuelle Rätselformat macht saisonale Produkte frisch und ansprechend.',
     },
   ],
 
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gestufte Pakete auf Gumroad',
-      description: 'Laden Sie Wörter-Raten-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeitsstufe. Fügen Sie alle vier Hinweisstufen für jedes Thema ein, plus Lösungsschlüssel für jede Seite. Verkäufer suchen häufig nach „Rechtschreib-Arbeitsblätter“ und „Wortbildungs-Aktivitäten“. Die 4-stufige Differenzierung bedeutet, dass ein einziges Produkt eine ganze Klasse mit unterschiedlichen Fähigkeiten bedient — das wird in Bewertungen hoch geschätzt.',
+      description: 'Laden Sie Wörter-Raten-Arbeitsblatt-Pakete auf den Gumroad hoch, organisiert nach Thema und Schwierigkeitsstufe. Fügen Sie alle vier Hinweisstufen für jedes Thema ein, plus Lösungsschlüssel für jede Seite. Verkäufer suchen häufig nach „Rechtschreib-Arbeitsblätter" und „Wortbildungs-Aktivitäten". Die 4-stufige Differenzierung bedeutet, dass ein einziges Produkt eine ganze Klasse mit unterschiedlichen Fähigkeiten bedient — das wird in Bewertungen hoch geschätzt.',
       platform: 'Gumroad',
     },
     {
@@ -117,7 +117,7 @@ const content: ToolContent = {
     },
     {
       title: 'Dual-Modus-Vokabel-Pakete auf Etsy',
-      description: 'Nutzen Sie beide Eingabemodi, um umfassende Vokabelpakete zu erstellen. Verwenden Sie den Bild-Hinweis-Modus für visuellen Wortschatzaufbau und den Benutzerdefinierte-Wortliste-Modus für lehrplanbasierte Rechtschreibwörter. Bündeln Sie beides in einem einzigen Produkt: „Komplettes Rechtschreib-Übungspaket — Visuell + Geschrieben.“ Der Dual-Modus-Ansatz rechtfertigt einen Premium-Preis und bedient sowohl visuelle als auch traditionelle Lerntypen.',
+      description: 'Nutzen Sie beide Eingabemodi, um umfassende Vokabelpakete zu erstellen. Verwenden Sie den Bild-Hinweis-Modus für visuellen Wortschatzaufbau und den Benutzerdefinierte-Wortliste-Modus für lehrplanbasierte Rechtschreibwörter. Bündeln Sie beides in einem einzigen Produkt: „Komplettes Rechtschreib-Übungspaket — Visuell + Geschrieben." Der Dual-Modus-Ansatz rechtfertigt einen Premium-Preis und bedient sowohl visuelle als auch traditionelle Lerntypen.',
       platform: 'Etsy',
     },
   ],
@@ -125,7 +125,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Keine Hinweise für Fortgeschrittene nutzen',
-      description: 'Der Keine-Hinweise-Modus lässt das gesamte Buchstabengitter leer — Nutzer müssen die vollständige Schreibweise allein aus dem Bild erinnern. Das ist echte Rechtschreibüberprüfung, nicht bloßes Erkennen. Setzen Sie ihn für Fortgeschrittene, Rechtschreibtests oder den finalen „Herausforderungs“-Teil eines progressiven Arbeitsbuchs ein.',
+      description: 'Der Keine-Hinweise-Modus lässt das gesamte Buchstabengitter leer — Nutzer müssen die vollständige Schreibweise allein aus dem Bild erinnern. Das ist echte Rechtschreibüberprüfung, nicht bloßes Erkennen. Setzen Sie ihn für Fortgeschrittene, Rechtschreibtests oder den finalen „Herausforderungs"-Teil eines progressiven Arbeitsbuchs ein.',
     },
     {
       title: 'Leicht-Modus für junge Anfänger verwenden',
@@ -133,7 +133,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mehrsprachig für 11-fache Produktpalette',
-      description: 'Jedes Wörter-Raten-Arbeitsblatt, das Sie gestalten, kann durch Wechseln der Sprache zu 11 Produkten werden. Dasselbe Katzenbild erzeugt „KATZE“, „CAT“, „CHAT“, „GATO“, „GATTO“ und mehr — jeweils mit unterschiedlichen Buchstabengittern und unterschiedlichen korrekten Antworten. Sprachspezifische Rechtschreib-Arbeitsblätter sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
+      description: 'Jedes Wörter-Raten-Arbeitsblatt, das Sie gestalten, kann durch Wechseln der Sprache zu 11 Produkten werden. Dasselbe Katzenbild erzeugt „KATZE", „CAT", „CHAT", „GATO", „GATTO" und mehr — jeweils mit unterschiedlichen Buchstabengittern und unterschiedlichen korrekten Antworten. Sprachspezifische Rechtschreib-Arbeitsblätter sind eine dramatisch unterversorgte Nische außerhalb von Englisch.',
     },
     {
       title: 'Eigene Wortlisten für Nischen-Wortschatz nutzen',
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit anderen Literacy-Tools kombinieren',
-      description: 'Kombinieren Sie Wörter-Raten-Arbeitsblätter mit Buchstabensalat, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu umfassenden Rechtschreib-Bündeln. Ein „Komplettes Rechtschreib-Übungspaket“ mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format und bietet Nutzern abwechslungsreiche Übung mit demselben Wortschatz.',
+      description: 'Kombinieren Sie Wörter-Raten-Arbeitsblätter mit Buchstabensalat, Wortsuche, Schreibübungen und Zuordnungs-Arbeitsblättern zu umfassenden Rechtschreib-Bündeln. Ein „Komplettes Rechtschreib-Übungspaket" mit mehreren Aktivitätstypen erzielt einen höheren Preis als jedes einzelne Arbeitsblatt-Format und bietet Nutzern abwechslungsreiche Übung mit demselben Wortschatz.',
     },
   ],
 
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Wie funktioniert die Sprachsensitivität?',
-      answer: 'Beim Sprachwechsel erzeugt dasselbe Bild eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND“ auf Deutsch, „DOG“ auf Englisch, „CHIEN“ auf Französisch, „PERRO“ auf Spanisch, „CANE“ auf Italienisch und so weiter über alle 11 unterstützten Sprachen. Das Buchstabengitter, die Lücken und der Lösungsschlüssel aktualisieren sich alle automatisch auf die Schreibweise der neuen Sprache. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
+      answer: 'Beim Sprachwechsel erzeugt dasselbe Bild eine andere korrekte Schreibweise. Ein Hundebild generiert „HUND" auf Deutsch, „DOG" auf Englisch, „CHIEN" auf Französisch, „PERRO" auf Spanisch, „CANE" auf Italienisch und so weiter über alle 11 unterstützten Sprachen. Das Buchstabengitter, die Lücken und der Lösungsschlüssel aktualisieren sich alle automatisch auf die Schreibweise der neuen Sprache. Viele erfolgreiche Verkäufer berichten, dass das Anbieten von Arbeitsblättern in mehreren Sprachen mit einem einzigen Generator ihren adressierbaren Markt dramatisch erweitert, da mehrsprachige Bildungsinhalte auf den meisten Plattformen deutlich weniger Wettbewerb haben.',
     },
     {
       question: 'Welche Sprachen werden unterstützt?',
@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich eigene Bilder hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Bild-Hinweise zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen", um eigene PNG- oder JPEG-Dateien als Bild-Hinweise zu verwenden. Eigene Bilder ermöglichen es Ihnen, markentypische Arbeitsblätter mit Ihren eigenen Illustrationen oder lizenzierten Grafiken zu erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Werden Lösungsschlüssel generiert?',

@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Bilder-Sortieren-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Sortier-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, ein Tab für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Sortier-Arbeitsblättern.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Sortier-Arbeitsblatt-Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Dual-Tab-Arbeitsfläche rechts — ein Tab für das Arbeitsblatt, ein Tab für den Lösungsschlüssel. Kein Konto erstellen, kein Software-Download, keine Installation erforderlich — beginnen Sie sofort mit der Erstellung von Sortier-Arbeitsblättern.',
       },
       {
         title: 'Auswahlmodus wählen',
@@ -45,11 +45,11 @@ const content: ToolContent = {
       },
       {
         title: 'Seitenlayout und Dekorationen festlegen',
-        description: 'Im Seiten-Setup-Bereich wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine benutzerdefinierte Dimension. Wählen Sie eine Seitenhintergrundfarbe. Wählen Sie ein dekoratives Hintergrundthema und ein Rahmenthema aus der integrierten Bibliothek, jeweils mit eigenem unabhängigem Deckkraftregler (0–1, Schrittweite 0,05). Hintergrund- und Rahmenthemen arbeiten unabhängig voneinander, sodass Sie ein dezentes Hintergrundmuster mit einem kräftigen dekorativen Rahmen kombinieren können. Aktivieren Sie „Name-/Datumsfelder einfügen“, um Name- und Datumszeilen für die Produkterstellungsalltag hinzuzufügen.',
+        description: 'Im Seiten-Setup-Bereich wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat (1200×1200) oder eine benutzerdefinierte Dimension. Wählen Sie eine Seitenhintergrundfarbe. Wählen Sie ein dekoratives Hintergrundthema und ein Rahmenthema aus der integrierten Bibliothek, jeweils mit eigenem unabhängigem Deckkraftregler (0–1, Schrittweite 0,05). Hintergrund- und Rahmenthemen arbeiten unabhängig voneinander, sodass Sie ein dezentes Hintergrundmuster mit einem kräftigen dekorativen Rahmen kombinieren können. Aktivieren Sie „Name-/Datumsfelder einfügen", um Name- und Datumszeilen für die Produkterstellungsalltag hinzuzufügen.',
       },
       {
         title: 'Sortier-Arbeitsblatt generieren',
-        description: 'Klicken Sie auf „Generieren“, um das zweiteilige Sortier-Layout zu erstellen. Die App ordnet Ihre Inhalte in zwei nebeneinander liegende, gestrichelt umrandete Kategorierahmen oben mit #FAFAFA-Füllung als Sortierbereiche und ein gemischtes Ausschneidegitter unten mit weißen Zellen, gestrichelten #666-Rändern und 4px abgerundeten Ecken. Bilder erscheinen in zufälliger Reihenfolge in 3–4 Spalten, wobei jedes 85% seiner Zelle ausfüllt. Ein stilisierter Header wird oben gerendert mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite. Nutzer schneiden die Bilder aus und sortieren sie in den richtigen Kategorierahmen.',
+        description: 'Klicken Sie auf „Generieren", um das zweiteilige Sortier-Layout zu erstellen. Die App ordnet Ihre Inhalte in zwei nebeneinander liegende, gestrichelt umrandete Kategorierahmen oben mit #FAFAFA-Füllung als Sortierbereiche und ein gemischtes Ausschneidegitter unten mit weißen Zellen, gestrichelten #666-Rändern und 4px abgerundeten Ecken. Bilder erscheinen in zufälliger Reihenfolge in 3–4 Spalten, wobei jedes 85% seiner Zelle ausfüllt. Ein stilisierter Header wird oben gerendert mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite. Nutzer schneiden die Bilder aus und sortieren sie in den richtigen Kategorierahmen.',
       },
       {
         title: 'Automatisch generierten Lösungsschlüssel prüfen',
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Sortier-Arbeitsblätter mit eigenen Fotos',
-      description: 'Nutzen Sie die Funktion zum Hochladen eigener Bilder, um Sortier-Arbeitsblätter aus Ihren eigenen Fotos oder Illustrationen zu erstellen. Familien-Sortieraktivitäten, bei denen Kinder Fotos in Kategorien wie „Menschen“ vs. „Orte“ einordnen, unterrichtsspezifische Sortieraufgaben mit von Nutzern aufgenommenen Fotos, markengebundene Sortieraktivitäten für Bildungsunternehmen oder personalisierte Sortier-Arbeitsblätter für den Förderunterricht mit vertrauten Bildern. Der manuelle Modus ermöglicht die Zuordnung jedes hochgeladenen Bildes zur linken oder rechten Kategorie. Kombiniert mit dem automatisch generierten Lösungsschlüssel werden Sortier-Arbeitsblätter mit eigenen Fotos zu einzigartigen, personalisierten Produkten, die Wettbewerber nicht replizieren können.',
+      description: 'Nutzen Sie die Funktion zum Hochladen eigener Bilder, um Sortier-Arbeitsblätter aus Ihren eigenen Fotos oder Illustrationen zu erstellen. Familien-Sortieraktivitäten, bei denen Kinder Fotos in Kategorien wie „Menschen" vs. „Orte" einordnen, unterrichtsspezifische Sortieraufgaben mit von Nutzern aufgenommenen Fotos, markengebundene Sortieraktivitäten für Bildungsunternehmen oder personalisierte Sortier-Arbeitsblätter für den Förderunterricht mit vertrauten Bildern. Der manuelle Modus ermöglicht die Zuordnung jedes hochgeladenen Bildes zur linken oder rechten Kategorie. Kombiniert mit dem automatisch generierten Lösungsschlüssel werden Sortier-Arbeitsblätter mit eigenen Fotos zu einzigartigen, personalisierten Produkten, die Wettbewerber nicht replizieren können.',
     },
     {
       title: 'Saisonale und feiertagsbezogene Sortier-Sammlungen',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Klassifizierungs-Arbeitsbuch-Reihe',
-      description: 'Stellen Sie 50–80 Sortier-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Reihe nach Themen: „Tier-Sortier-Rätsel“, „Lebensmittel-Klassifizierungs-Aktivitäten“, „Natur-Sortier-Arbeitsbuch“ und „Alltägliche Gegenstände Sortieren“. Jedes Buch steigert sich von einfachen 4-Bilder-Sortierungen zu anspruchsvollen 12-Bilder-Klassifizierungsaufgaben. Fügen Sie Lösungsschlüssel-Seiten am Ende ein, erstellt mit der automatischen Lösungsschlüssel-Funktion mit 6× größeren Bildern in Kategorieboxen für klare Überprüfung. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die KDP-Druckkosten niedrig halten. Klassifizierungs-Arbeitsbücher bedienen ein breites Publikum von der Vorschule bis zur Grundschule und verkaufen sich ganzjährig in der Aktivitätsbuch-Kategorie.',
+      description: 'Stellen Sie 50–80 Sortier-Arbeitsblätter zu thematischen Arbeitsbüchern für Amazon KDP zusammen. Strukturieren Sie eine Reihe nach Themen: „Tier-Sortier-Rätsel", „Lebensmittel-Klassifizierungs-Aktivitäten", „Natur-Sortier-Arbeitsbuch" und „Alltägliche Gegenstände Sortieren". Jedes Buch steigert sich von einfachen 4-Bilder-Sortierungen zu anspruchsvollen 12-Bilder-Klassifizierungsaufgaben. Fügen Sie Lösungsschlüssel-Seiten am Ende ein, erstellt mit der automatischen Lösungsschlüssel-Funktion mit 6× größeren Bildern in Kategorieboxen für klare Überprüfung. Der Graustufen-Schalter erzeugt tintenschonende Seiten, die KDP-Druckkosten niedrig halten. Klassifizierungs-Arbeitsbücher bedienen ein breites Publikum von der Vorschule bis zur Grundschule und verkaufen sich ganzjährig in der Aktivitätsbuch-Kategorie.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest-Sortier-Arbeitsblatt-Traffic-Funnel',
-      description: 'Sortier-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — das Zwei-Kategorien-Layout mit nebeneinander liegenden Kategorierahmen und einem gemischten Ausschneidegitter darunter schafft ein sofort erkennbares Bildungsformat, das Eltern und Verkäufer lieben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Kategoriepaarungen: Tier-Sortierung für Vorschul-Pinnwände, Lebensmittel-Klassifizierung für Ernährungs-Pinnwände und saisonale Sortierung für Feiertags-Pinnwände. Erstellen Sie separate Pin-Serien für „Sortier-Arbeitsblätter für Vorschule“, „Klassifizierungs-Aktivitäten für Kindergarten“ und „Kategorie-Sortier-Druckvorlagen“. Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produktlistings.',
+      description: 'Sortier-Arbeitsblätter ergeben visuell ansprechende Pinterest-Pins — das Zwei-Kategorien-Layout mit nebeneinander liegenden Kategorierahmen und einem gemischten Ausschneidegitter darunter schafft ein sofort erkennbares Bildungsformat, das Eltern und Verkäufer lieben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Kategoriepaarungen: Tier-Sortierung für Vorschul-Pinnwände, Lebensmittel-Klassifizierung für Ernährungs-Pinnwände und saisonale Sortierung für Feiertags-Pinnwände. Erstellen Sie separate Pin-Serien für „Sortier-Arbeitsblätter für Vorschule", „Klassifizierungs-Aktivitäten für Kindergarten" und „Kategorie-Sortier-Druckvorlagen". Verlinken Sie jeden Pin auf Ihre Etsy- oder Gumroad-Produktlistings.',
       platform: 'Pinterest',
     },
     {
@@ -149,7 +149,7 @@ const content: ToolContent = {
     },
     {
       title: 'Natürliche Kategoriepaarungen für maximale Suchmaschinensichtbarkeit anvisieren',
-      description: 'Die erfolgreichsten Sortier-Arbeitsblatt-Produkte verwenden Kategoriepaarungen, die dem natürlichen Denkschema von Verkäufern und Eltern entsprechen: Tiere vs. Lebensmittel, Land vs. Wasser, lebend vs. nicht-lebend, gesund vs. ungesund, groß vs. klein, warm vs. kalt, Tag vs. Nacht. Diese natürlichen binären Gegensätze sind die Begriffe, nach denen Käufer auf Etsy.de, dem Gumroad und Amazon suchen. Benennen Sie Ihre Produktlistings mit der tatsächlichen Kategoriepaarung (z.B. „Tiere vs. Lebensmittel Sortier-Arbeitsblätter“) statt generischer Titel und erstellen Sie separate Listings für jede wichtige Kategoriepaarung, um gezielten Suchtraffic zu erfassen.',
+      description: 'Die erfolgreichsten Sortier-Arbeitsblatt-Produkte verwenden Kategoriepaarungen, die dem natürlichen Denkschema von Verkäufern und Eltern entsprechen: Tiere vs. Lebensmittel, Land vs. Wasser, lebend vs. nicht-lebend, gesund vs. ungesund, groß vs. klein, warm vs. kalt, Tag vs. Nacht. Diese natürlichen binären Gegensätze sind die Begriffe, nach denen Käufer auf Etsy.de, dem Gumroad und Amazon suchen. Benennen Sie Ihre Produktlistings mit der tatsächlichen Kategoriepaarung (z.B. „Tiere vs. Lebensmittel Sortier-Arbeitsblätter") statt generischer Titel und erstellen Sie separate Listings für jede wichtige Kategoriepaarung, um gezielten Suchtraffic zu erfassen.',
     },
   ],
 
@@ -180,15 +180,15 @@ const content: ToolContent = {
     },
     {
       question: 'Ist der Bilder-Sortieren-Ersteller sprachabhängig?',
-      answer: 'Ja. Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein Katzenbild erscheint beispielsweise als „Katze“ auf Deutsch, aber als „Cat“ auf Englisch und „Chat“ auf Französisch. Der lokalisierte Bilder-Sortieren-Header und seine Beschreibung werden ebenfalls automatisch in alle 11 unterstützten Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Das macht es einfach, mehrsprachige Sortier-Produkte aus denselben Bildern zu erstellen.',
+      answer: 'Ja. Kategoriebeschriftungen verwenden lokalisierte Bildnamen aus der Bildbibliothek, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert. Ein Katzenbild erscheint beispielsweise als „Katze" auf Deutsch, aber als „Cat" auf Englisch und „Chat" auf Französisch. Der lokalisierte Bilder-Sortieren-Header und seine Beschreibung werden ebenfalls automatisch in alle 11 unterstützten Sprachen übersetzt: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Das macht es einfach, mehrsprachige Sortier-Produkte aus denselben Bildern zu erstellen.',
     },
     {
       question: 'Wie sieht der lokalisierte Header aus?',
-      answer: 'Jedes generierte Arbeitsblatt enthält einen stilisierten Header mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Hochformat-Arbeitsblätter zeigen einen 100px-Header mit dynamischer Titelgröße (28–48px); Querformat-Arbeitsblätter verwenden einen kompakten 70px-Header mit 24–36px Titel. Der Titel „Bilder-Sortieren“ und die Beschreibung werden automatisch in alle 11 unterstützten Sprachen übersetzt. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite.',
+      answer: 'Jedes generierte Arbeitsblatt enthält einen stilisierten Header mit mintgrünem Hintergrund (#4DB6AC), weißem Pillen-Container, blaugrünem Titel (#00796B) in Fredoka Bold und orangefarbener Beschreibung (#FF7043) in Quicksand. Hochformat-Arbeitsblätter zeigen einen 100px-Header mit dynamischer Titelgröße (28–48px); Querformat-Arbeitsblätter verwenden einen kompakten 70px-Header mit 24–36px Titel. Der Titel „Bilder-Sortieren" und die Beschreibung werden automatisch in alle 11 unterstützten Sprachen übersetzt. Ein blaugrüner äußerer Rahmen (#26A69A, 8px Strichstärke, 12px Radius) umrahmt die gesamte Seite.',
     },
     {
       question: 'Kann ich Name- und Datumsfelder auf Sortier-Arbeitsblättern einfügen?',
-      answer: 'Ja. Aktivieren Sie das Kontrollkästchen „Name-/Datumsfelder einfügen“ im Seiten-Setup-Panel, um Name- und Datumszeilen zum Arbeitsblatt hinzuzufügen. Diese Felder stellen sicher, dass Arbeitsblätter in der Produkterstellung zugeordnet und bewertet werden können, ohne zusätzliche Vorbereitung. Name-/Datumsfelder sind ein wichtiges Verkaufsargument für Gumroad-Produkterstellungsprodukte, bei denen Verkäufer erwarten, dass Arbeitsblätter sofort einsatzbereit ankommen.',
+      answer: 'Ja. Aktivieren Sie das Kontrollkästchen „Name-/Datumsfelder einfügen" im Seiten-Setup-Panel, um Name- und Datumszeilen zum Arbeitsblatt hinzuzufügen. Diese Felder stellen sicher, dass Arbeitsblätter in der Produkterstellung zugeordnet und bewertet werden können, ohne zusätzliche Vorbereitung. Name-/Datumsfelder sind ein wichtiges Verkaufsargument für Gumroad-Produkterstellungsprodukte, bei denen Verkäufer erwarten, dass Arbeitsblätter sofort einsatzbereit ankommen.',
     },
     {
       question: 'Welche Seitengrößen und Exportformate sind verfügbar?',

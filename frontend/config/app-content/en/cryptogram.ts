@@ -62,12 +62,12 @@ const content: AppContent = {
       {
         title: 'Picture Cipher with Image-to-Letter Mapping',
         description:
-          'Every alphabet letter is mapped to a unique image, and the secret phrase is rendered as a sequence of images replacing each letter. Solvers identify each image, deduce which letter it represents, and reconstruct the original text — a fundamentally different challenge from word-finding or letter-rearranging puzzles. The image-to-letter cipher engages deduction, pattern recognition, and contextual reasoning as solvers build a mental decryption key one mapping at a time. This code-breaking mechanic creates puzzles with genuine “aha” moments as each decoded letter unlocks multiple words simultaneously.',
+          'Every alphabet letter is mapped to a unique image, and the secret phrase is rendered as a sequence of images replacing each letter. Solvers identify each image, deduce which letter it represents, and reconstruct the original text — a fundamentally different challenge from word-finding or letter-rearranging puzzles. The image-to-letter cipher engages deduction, pattern recognition, and contextual reasoning as solvers build a mental decryption key one mapping at a time. This code-breaking mechanic creates puzzles with genuine "aha" moments as each decoded letter unlocks multiple words simultaneously.',
       },
       {
         title: 'Phrase-Level Encoding for Complete Message Decryption',
         description:
-          'Unlike puzzles that encode individual words, the Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message — a motivational quote, a vocabulary sentence, a fun fact, or a custom instruction — giving them the satisfaction of revealing meaningful content rather than isolated words. Phrase-level encoding also provides contextual clues: common short words like “the”, “and”, and “is” help solvers crack the cipher faster, creating a natural scaffolding effect that rewards language intuition.',
+          'Unlike puzzles that encode individual words, the Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message — a motivational quote, a vocabulary sentence, a fun fact, or a custom instruction — giving them the satisfaction of revealing meaningful content rather than isolated words. Phrase-level encoding also provides contextual clues: common short words like "the", "and", and "is" help solvers crack the cipher faster, creating a natural scaffolding effect that rewards language intuition.',
       },
       {
         title: 'Adjustable Difficulty with Letters to Reveal (0–10)',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Pinterest Funnel for Niche Cryptogram Products',
+        title: 'Pinterest Funnel for Niche Cryptogram Products',
         description:
-          ‘Use themed cryptogram puzzles as Pinterest lead magnets to drive traffic to your store. Pin visually striking cipher puzzle previews — farm animals, dinosaurs, ocean creatures — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked puzzles and gate the full bundle behind a purchase. The visual cipher format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences — animal lovers, science enthusiasts, holiday shoppers — each with its own pin board strategy.',
-        platform: ‘Pinterest → Etsy / Gumroad',
+          'Use themed cryptogram puzzles as Pinterest lead magnets to drive traffic to your store. Pin visually striking cipher puzzle previews — farm animals, dinosaurs, ocean creatures — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked puzzles and gate the full bundle behind a purchase. The visual cipher format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences — animal lovers, science enthusiasts, holiday shoppers — each with its own pin board strategy.',
+        platform: 'Pinterest → Etsy / Gumroad',
       },
     ],
   },

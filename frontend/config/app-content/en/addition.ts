@@ -62,7 +62,7 @@ const content: AppContent = {
       {
         title: 'Four Distinct Exercise Modes',
         description:
-          ‘Choose the mode that matches your target product tier. Image + Image mode uses two picture groups for pure visual counting — ideal for the preschool-age market. Image + Number mode pairs pictures with numerals, bridging visual and numeric formats. Find the Addend mode shows the sum and one group, adding a logic challenge. Mixed Mode combines all three so every worksheet offers varied practice without repetition — perfect for bundling into comprehensive product packs.',
+          'Choose the mode that matches your target product tier. Image + Image mode uses two picture groups for pure visual counting — ideal for the preschool-age market. Image + Number mode pairs pictures with numerals, bridging visual and numeric formats. Find the Addend mode shows the sum and one group, adding a logic challenge. Mixed Mode combines all three so every worksheet offers varied practice without repetition — perfect for bundling into comprehensive product packs.',
       },
       {
         title: 'Configurable Number Ranges',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: ‘Pinterest Lead Funnel for Your Printable Shop',
+        title: 'Pinterest Lead Funnel for Your Printable Shop',
         description:
-          ‘Use the generator to create eye-catching sample worksheets optimized for Pinterest pins — vertical format, bold themed images, and clear titles. Link each pin to a landing page on your Gumroad or Shopify store where visitors can purchase the full bundle. Addition worksheets with colorful animal or seasonal images perform exceptionally well on Pinterest because the visual format stops scrollers mid-feed. Create a new pin set for each of the 104 themes and schedule them across months for a steady stream of organic traffic to your store. The automatic answer key adds perceived value to every listing, and the four exercise modes let you create variety packs that justify higher price points.',
-        platform: ‘Pinterest → Gumroad / Shopify / Etsy',
+          'Use the generator to create eye-catching sample worksheets optimized for Pinterest pins — vertical format, bold themed images, and clear titles. Link each pin to a landing page on your Gumroad or Shopify store where visitors can purchase the full bundle. Addition worksheets with colorful animal or seasonal images perform exceptionally well on Pinterest because the visual format stops scrollers mid-feed. Create a new pin set for each of the 104 themes and schedule them across months for a steady stream of organic traffic to your store. The automatic answer key adds perceived value to every listing, and the four exercise modes let you create variety packs that justify higher price points.',
+        platform: 'Pinterest → Gumroad / Shopify / Etsy',
       },
     ],
   },

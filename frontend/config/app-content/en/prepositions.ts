@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Preposition Worksheet Generator for Spatial Language Practice',
     tagline: 'Eight spatial prepositions meet image-and-shape exercises — building spatial vocabulary one sentence at a time.',
     description:
-      ‘Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Users practice eight core prepositions — in, on top of, under, next to, behind, between, above, and in front of — using two distinct exercise modes: Fill-in-the-Blank sentences where they supply the missing preposition, and Multiple Choice questions where they identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions — German with dative contractions like „im” and „am”, French with elision rules for “l'” before vowels, Spanish with gendered articles — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or list leveled language packs on Gumroad, the Preposition Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
+      'Design professional preposition worksheets that teach spatial relationships through hands-on image-and-shape exercises. Users practice eight core prepositions — in, on top of, under, next to, behind, between, above, and in front of — using two distinct exercise modes: Fill-in-the-Blank sentences where they supply the missing preposition, and Multiple Choice questions where they identify the image matching a spatial description. Select which prepositions to include from the built-in checklist and configure 1 to 8 exercises per worksheet. Browse over 3,100 curated illustrations across 104 themes for the positioned items, and choose from 8 geometric shapes (circle, cube, cylinder, heart, hexagon, square, star, triangle) as spatial reference points. Full Access unlocks all 11 supported languages with grammatically correct prepositions — German with dative contractions like „im" and „am", French with elision rules for "l'" before vowels, Spanish with gendered articles — multiplying your product catalog eleven-fold from a single workflow. Every worksheet generates an automatic answer key, and you can export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, Square, or custom sizes. Whether you sell themed preposition bundles on Etsy, compile spatial vocabulary books for Amazon KDP, or list leveled language packs on Gumroad, the Preposition Worksheet Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
   howItWorks: {
@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Choose Exercise Mode and Exercise Count',
         description:
-          'Open the Exercise Configuration panel and select one of two modes. Fill-in-the-Blank mode presents sentences like “[Image] is ____ the [shape]” where the solver writes the correct preposition in the blank. Multiple Choice mode shows a spatial description and asks the solver to circle the image that matches. Set the number of exercises per worksheet from 1 to 8 to control density and difficulty.',
+          'Open the Exercise Configuration panel and select one of two modes. Fill-in-the-Blank mode presents sentences like "[Image] is ____ the [shape]" where the solver writes the correct preposition in the blank. Multiple Choice mode shows a spatial description and asks the solver to circle the image that matches. Set the number of exercises per worksheet from 1 to 8 to control density and difficulty.',
       },
       {
         title: 'Select Prepositions from the Checklist',
@@ -67,7 +67,7 @@ const content: AppContent = {
       {
         title: 'Language-Aware Grammar with Dative, Elision, and Article Rules',
         description:
-          'Full Access unlocks all 11 supported languages, and each one applies its own grammar rules to preposition sentences. German uses dative case contractions like „im” (in dem) and „am“ (an dem) with gender-aware articles (dem/der). French applies elision rules, replacing “le” with “l'” before vowels or silent h. Spanish and Portuguese use gendered articles (el/la, o/a). Every generated sentence is grammatically correct in the target language — not a word-for-word translation — making each language version a genuinely sellable product.',
+          'Full Access unlocks all 11 supported languages, and each one applies its own grammar rules to preposition sentences. German uses dative case contractions like „im" (in dem) and „am" (an dem) with gender-aware articles (dem/der). French applies elision rules, replacing "le" with "l'" before vowels or silent h. Spanish and Portuguese use gendered articles (el/la, o/a). Every generated sentence is grammatically correct in the target language — not a word-for-word translation — making each language version a genuinely sellable product.',
       },
       {
         title: 'Items + Shapes: Two Image Types for Spatial Relationship Context',
@@ -126,14 +126,14 @@ const content: AppContent = {
       {
         title: 'Multilingual Preposition Products with Full Access',
         description:
-          ‘Full Access unlocks all 11 languages with grammatically correct prepositions, gender-aware articles, dative contractions, and elision rules. Create German preposition worksheets with „im” and „am”, French worksheets with “l'” elision, Spanish worksheets with el/la articles, and more. Each language version is a separate product you can list on Etsy, Gumroad, or Amazon KDP — effectively multiplying your catalog eleven-fold from the same workflow. Multilingual spatial vocabulary products face less competition and attract international buyers searching in their native language.',
-        platform: ‘Etsy / Amazon KDP / Gumroad (multilingual)',
+          'Full Access unlocks all 11 languages with grammatically correct prepositions, gender-aware articles, dative contractions, and elision rules. Create German preposition worksheets with „im" and „am", French worksheets with "l'" elision, Spanish worksheets with el/la articles, and more. Each language version is a separate product you can list on Etsy, Gumroad, or Amazon KDP — effectively multiplying your catalog eleven-fold from the same workflow. Multilingual spatial vocabulary products face less competition and attract international buyers searching in their native language.',
+        platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Pinterest Funnel for Niche Preposition Products',
+        title: 'Pinterest Funnel for Niche Preposition Products',
         description:
-          ‘Use themed preposition worksheets as Pinterest lead magnets to drive traffic to your store. Pin visually striking spatial-relationship previews — animal themes, vehicle themes, food themes — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked worksheets and gate the full bundle behind a purchase. The image-and-shape format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences with tailored pin board strategies that convert browsers into repeat buyers.',
-        platform: ‘Pinterest → Etsy / Gumroad',
+          'Use themed preposition worksheets as Pinterest lead magnets to drive traffic to your store. Pin visually striking spatial-relationship previews — animal themes, vehicle themes, food themes — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked worksheets and gate the full bundle behind a purchase. The image-and-shape format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences with tailored pin board strategies that convert browsers into repeat buyers.',
+        platform: 'Pinterest → Etsy / Gumroad',
       },
     ],
   },
@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What exercise modes does the Preposition Worksheet Generator offer?',
       answer:
-        'The generator includes two modes: Fill-in-the-Blank and Multiple Choice. Fill-in-the-Blank presents sentences with a missing preposition to complete (for example, “The cat is ____ the circle”). Multiple Choice shows a spatial description and asks the solver to circle the image that matches. Both modes work with all eight prepositions and all themes.',
+        'The generator includes two modes: Fill-in-the-Blank and Multiple Choice. Fill-in-the-Blank presents sentences with a missing preposition to complete (for example, "The cat is ____ the circle"). Multiple Choice shows a spatial description and asks the solver to circle the image that matches. Both modes work with all eight prepositions and all themes.',
     },
     {
       question: 'What are the 8 prepositions available?',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'What is the difference between items and shapes?',
       answer:
-        'Items are themed illustrations from the image library — animals, vehicles, food, and more — that represent the object being positioned. Shapes are geometric figures (circle, cube, cylinder, heart, hexagon, square, star, triangle) that serve as the spatial reference point. Each exercise positions an item relative to a shape, creating clear spatial relationships like “The cat is under the cube.”',
+        'Items are themed illustrations from the image library — animals, vehicles, food, and more — that represent the object being positioned. Shapes are geometric figures (circle, cube, cylinder, heart, hexagon, square, star, triangle) that serve as the spatial reference point. Each exercise positions an item relative to a shape, creating clear spatial relationships like "The cat is under the cube."',
     },
     {
       question: 'How many exercises can I put on each worksheet?',
@@ -162,7 +162,7 @@ const content: AppContent = {
     {
       question: 'Is the Preposition Worksheet Generator language-sensitive?',
       answer:
-        'Yes. Unlike visual-only math apps, preposition worksheets change fundamentally based on the selected language. Each language has its own preposition words, article rules, and grammar patterns. German uses dative contractions („im”, „am“) and gendered articles (dem/der). French applies elision (“l'” before vowels). Spanish uses gendered articles (el/la). Every generated sentence is grammatically correct — not a word-for-word translation. The Commercial tier is English-only; Full Access unlocks all 11 languages.',
+        'Yes. Unlike visual-only math apps, preposition worksheets change fundamentally based on the selected language. Each language has its own preposition words, article rules, and grammar patterns. German uses dative contractions („im", „am") and gendered articles (dem/der). French applies elision ("l'" before vowels). Spanish uses gendered articles (el/la). Every generated sentence is grammatically correct — not a word-for-word translation. The Commercial tier is English-only; Full Access unlocks all 11 languages.',
     },
     {
       question: 'How does the grammar handling work across languages?',
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'How does the preposition checklist work?',
       answer:
-        'The Preposition Checklist panel lets you toggle each of the eight prepositions on or off. Only checked prepositions appear in generated exercises. This gives you precise control over lesson content — check just “in” and “on top of” for an introductory worksheet, or check all eight for a comprehensive review. The checklist resets each time you generate a new worksheet.',
+        'The Preposition Checklist panel lets you toggle each of the eight prepositions on or off. Only checked prepositions appear in generated exercises. This gives you precise control over lesson content — check just "in" and "on top of" for an introductory worksheet, or check all eight for a comprehensive review. The checklist resets each time you generate a new worksheet.',
     },
     {
       question: 'Does the generator create answer keys automatically?',

@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Handwriting Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building handwriting practice worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building handwriting practice worksheets immediately.',
       },
       {
         title: 'Set the Page Layout and Template',

@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Generate the Grid Puzzle Worksheet',
         description:
-          'Click Generate to create the grid match puzzle. The app divides your selected image into the configured grid, reveals the clue cells with the actual image tiles visible, and marks remaining cells with “?” placeholders. All tiles are shuffled using Fisher-Yates randomization and displayed as a numbered palette. Portrait layouts place the grid on top with the palette below; landscape layouts position the grid on the left with the palette on the right. A styled header appears with a cyan background (#00BCD4), deep purple title (#6A1B9A), and orange border frame (#FF8C42) displaying “Grid Match” and instructions in the selected language.',
+          'Click Generate to create the grid match puzzle. The app divides your selected image into the configured grid, reveals the clue cells with the actual image tiles visible, and marks remaining cells with "?" placeholders. All tiles are shuffled using Fisher-Yates randomization and displayed as a numbered palette. Portrait layouts place the grid on top with the palette below; landscape layouts position the grid on the left with the palette on the right. A styled header appears with a cyan background (#00BCD4), deep purple title (#6A1B9A), and orange border frame (#FF8C42) displaying "Grid Match" and instructions in the selected language.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -152,7 +152,7 @@ const content: AppContent = {
     {
       question: 'How does the grid match puzzle work?',
       answer:
-        'The worksheet shows a grid where some cells display the actual image tile (clue cells) and remaining cells show “?” placeholders. Below or beside the grid, a numbered palette displays all the hidden tiles in shuffled order. Solvers examine the clue cells, study the numbered tiles, and determine which number belongs in each empty grid position. The answer requires spatial reasoning — matching tile content to its correct location in the overall image.',
+        'The worksheet shows a grid where some cells display the actual image tile (clue cells) and remaining cells show "?" placeholders. Below or beside the grid, a numbered palette displays all the hidden tiles in shuffled order. Solvers examine the clue cells, study the numbered tiles, and determine which number belongs in each empty grid position. The answer requires spatial reasoning — matching tile content to its correct location in the overall image.',
     },
     {
       question: 'How does the auto-generated answer key work?',

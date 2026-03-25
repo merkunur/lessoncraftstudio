@@ -29,11 +29,11 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Arbeitsblatt-Generator öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Mathe-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Mathe-Arbeitsblatt-Ersteller zu starten. Das Tool öffnet sich sofort in Ihrem Browser mit einer dunklen Seitenleiste links für alle Einstellungen und einer hellen Arbeitsfläche rechts für die Live-Vorschau. Kein Benutzerkonto, kein Software-Download und keine Plugins erforderlich.',
       },
       {
         title: 'Das Seitenlayout festlegen',
-        description: 'Im Bereich „Seiten-Setup“ wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Diese Einstellungen definieren das Gesamterscheinungsbild Ihres fertigen Arbeitsblatts.',
+        description: 'Im Bereich „Seiten-Setup" wählen Sie Ihre Seitengröße: Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat oder benutzerdefinierte Abmessungen. Legen Sie die Hintergrundfarbe fest, fügen Sie ein thematisches Hintergrundbild mit einstellbarer Deckkraft hinzu und wählen Sie einen dekorativen Rahmen aus der Rahmenbibliothek. Diese Einstellungen definieren das Gesamterscheinungsbild Ihres fertigen Arbeitsblatts.',
       },
       {
         title: 'Schwierigkeitsstufe und Rechenart wählen',
@@ -41,11 +41,11 @@ const content: ToolContent = {
       },
       {
         title: 'Zahlenbereich und Optionen konfigurieren',
-        description: 'Legen Sie die Mindest- und Höchstwerte für die Gleichungen fest (Standard 0–20). Für fortgeschrittene Nutzer aktivieren Sie den Schalter „Negative Ergebnisse erlauben“, damit Subtraktionsgleichungen Werte unter Null erzeugen können. Diese Steuerungen ermöglichen es Ihnen, jedes Arbeitsblatt präzise an die Zielgruppe und das Produktkatalogniveau anzupassen.',
+        description: 'Legen Sie die Mindest- und Höchstwerte für die Gleichungen fest (Standard 0–20). Für fortgeschrittene Nutzer aktivieren Sie den Schalter „Negative Ergebnisse erlauben", damit Subtraktionsgleichungen Werte unter Null erzeugen können. Diese Steuerungen ermöglichen es Ihnen, jedes Arbeitsblatt präzise an die Zielgruppe und das Produktkatalogniveau anzupassen.',
       },
       {
         title: 'Bilder auswählen',
-        description: 'Öffnen Sie das Panel „Bildbibliothek“ und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Sie können einzelne Bilder auswählen, ein komplettes Thema laden oder auf „Eigenes Bild hochladen“ klicken, um eigene PNG- oder JPEG-Dateien als Variablensymbole zu verwenden.',
+        description: 'Öffnen Sie das Panel „Bildbibliothek" und durchstöbern Sie über 100 thematische Bildersammlungen: Tiere, Essen, Fahrzeuge, Weltraum, Feiertage und vieles mehr. Nutzen Sie die Suchleiste, um bestimmte Themen zu finden. Sie können einzelne Bilder auswählen, ein komplettes Thema laden oder auf „Eigenes Bild hochladen" klicken, um eigene PNG- oder JPEG-Dateien als Variablensymbole zu verwenden.',
       },
       {
         title: 'Die Bildbibliothek durchstöbern',
@@ -53,11 +53,11 @@ const content: ToolContent = {
       },
       {
         title: 'Text, Nummerierung und Rätsel pro Seite einstellen',
-        description: 'Fügen Sie einen Titel, Untertitel oder benutzerdefinierten Textblock hinzu. Aktivieren Sie die automatische Nummerierung über Seiten hinweg. Verwenden Sie die Steuerung „Rätsel pro Seite“, um 1 bis 6 Rätsel auf jeder Seite zu platzieren — das Layout passt sich automatisch an. Weniger Rätsel pro Seite geben Nutzern mehr Arbeitsraum; mehr Rätsel pro Seite erzeugen kompakte Übungsblätter.',
+        description: 'Fügen Sie einen Titel, Untertitel oder benutzerdefinierten Textblock hinzu. Aktivieren Sie die automatische Nummerierung über Seiten hinweg. Verwenden Sie die Steuerung „Rätsel pro Seite", um 1 bis 6 Rätsel auf jeder Seite zu platzieren — das Layout passt sich automatisch an. Weniger Rätsel pro Seite geben Nutzern mehr Arbeitsraum; mehr Rätsel pro Seite erzeugen kompakte Übungsblätter.',
       },
       {
         title: 'Generieren, prüfen und herunterladen',
-        description: 'Klicken Sie auf „Generieren“, um Ihr Algebra-Rätsel-Arbeitsblatt zu erstellen. Der integrierte Löser überprüft, dass jedes Rätsel genau eine Lösung hat, bevor es gerendert wird. Sehen Sie sich die Vorschau auf der Arbeitsfläche an und laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren Sie immer den passenden Lösungsschlüssel — er zeigt den numerischen Wert jedes Bildsymbols für schnelle Bewertung.',
+        description: 'Klicken Sie auf „Generieren", um Ihr Algebra-Rätsel-Arbeitsblatt zu erstellen. Der integrierte Löser überprüft, dass jedes Rätsel genau eine Lösung hat, bevor es gerendert wird. Sehen Sie sich die Vorschau auf der Arbeitsfläche an und laden Sie als JPEG (Einzelbild) oder PDF (druckoptimiert) herunter. Generieren Sie immer den passenden Lösungsschlüssel — er zeigt den numerischen Wert jedes Bildsymbols für schnelle Bewertung.',
       },
     ],
   },
@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Saisonale Algebra-Bündel',
-      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Algebra-Rätsel“-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Rätsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Gumroad. Das Algebra-Format erhöht den wahrgenommenen Schwierigkeitsgrad und Wert gegenüber einfacher Arithmetik.',
+      description: 'Nutzen Sie Feiertags- und Jahreszeitenthemen, um aktuell verfügbare Bündel zu erstellen. Ein „Weihnachts-Algebra-Rätsel"-Paket mit festlichen Bildsymbolen verkauft sich besonders stark im November–Dezember. Halloween-, Valentinstag- und Schulanfangs-Rätsel haben jeweils eigene Spitzenverkaufszeiten auf Etsy und Gumroad. Das Algebra-Format erhöht den wahrgenommenen Schwierigkeitsgrad und Wert gegenüber einfacher Arithmetik.',
     },
     {
       title: 'Gemischte-Schwierigkeit-Sampler-Pakete',
@@ -102,7 +102,7 @@ const content: ToolContent = {
     },
     {
       title: 'Premium-Algebra-Pakete auf Gumroad',
-      description: 'Laden Sie gestufte Algebra-Rätsel-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Algebra-Arbeitsblätter“ und „Mathe-Rätsel“. Fügen Sie alle vier Schwierigkeitsstufen, beide Rechenmodi, Lösungsschlüssel und eine Verkäuferanleitung ein, die erklärt, wie das visuelle Algebra-Format funktioniert. Die Garantie eindeutiger Lösungen erhöht die Glaubwürdigkeit, die Verkäufer bei der Materialauswahl schätzen.',
+      description: 'Laden Sie gestufte Algebra-Rätsel-Pakete auf den Gumroad hoch. Verkäufer suchen ständig nach „Algebra-Arbeitsblätter" und „Mathe-Rätsel". Fügen Sie alle vier Schwierigkeitsstufen, beide Rechenmodi, Lösungsschlüssel und eine Verkäuferanleitung ein, die erklärt, wie das visuelle Algebra-Format funktioniert. Die Garantie eindeutiger Lösungen erhöht die Glaubwürdigkeit, die Verkäufer bei der Materialauswahl schätzen.',
       platform: 'Gumroad',
     },
     {
@@ -141,7 +141,7 @@ const content: ToolContent = {
     },
     {
       title: 'Mit Standard-Mathe-Tools kombinieren',
-      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-Rätsel-Ersteller. Verkaufen Sie einzeln und als kombiniertes „Mathe-Übung + Algebra-Rätsel“-Bündel. Die visuelle Algebra-Komponente fügt ein Herausforderungselement hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
+      description: 'Erstellen Sie passende Sets mit den Additions-, Subtraktions- und Bilder-Additions-Generatoren neben dem Algebra-Rätsel-Ersteller. Verkaufen Sie einzeln und als kombiniertes „Mathe-Übung + Algebra-Rätsel"-Bündel. Die visuelle Algebra-Komponente fügt ein Herausforderungselement hinzu, das das Bündel attraktiver macht als reine Arbeitsblätter.',
     },
     {
       title: 'Beide Formate exportieren',
@@ -180,11 +180,11 @@ const content: ToolContent = {
     },
     {
       question: 'Kann ich eigene Bilder als Variablensymbole hochladen?',
-      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen“, um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So können Sie markentypische Rätsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
+      answer: 'Ja. Klicken Sie auf „Eigenes Bild hochladen", um eigene PNG- oder JPEG-Dateien als Variablensymbole in den Gleichungen zu verwenden. So können Sie markentypische Rätsel mit eigenen Illustrationen, Klassenmaskottchen, saisonalen Designs oder Nischen-Grafiken erstellen, die kein anderer Verkäufer kopieren kann. Professionelle Verkäufer erstellen typischerweise thematische Bündel von acht bis zwölf Arbeitsblättern, die auf bestimmte Kompetenzstufen abzielen, da diese höhere Preise erzielen und beständigere Verkäufe generieren als einzelne Arbeitsblatt-Listings auf Bildungsmarktplätzen.',
     },
     {
       question: 'Wie viele Rätsel passen auf eine Seite?',
-      answer: 'Sie können 1 bis 6 Rätsel pro Seite mit der Steuerung „Rätsel pro Seite“ platzieren. Das Layout passt sich automatisch an die gewählte Anzahl an. Verwenden Sie 1–2 Rätsel pro Seite für jüngere Lernende, die mehr Arbeitsraum benötigen, oder 4–6 pro Seite für kompakte Übungsblätter und Arbeitsbuch-Produkte. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
+      answer: 'Sie können 1 bis 6 Rätsel pro Seite mit der Steuerung „Rätsel pro Seite" platzieren. Das Layout passt sich automatisch an die gewählte Anzahl an. Verwenden Sie 1–2 Rätsel pro Seite für jüngere Lernende, die mehr Arbeitsraum benötigen, oder 4–6 pro Seite für kompakte Übungsblätter und Arbeitsbuch-Produkte. Dieser Arbeitsablauf wurde auf der Grundlage von Rückmeldungen Tausender Druckvorlagen-Verkäufer auf Etsy, Amazon KDP und Gumroad verfeinert, wobei jeder Schritt darauf ausgelegt ist, die Produktionszeit zu minimieren und gleichzeitig die professionelle Qualität zu maximieren.',
     },
     {
       question: 'Funktionieren die Rätsel in allen Sprachen?',

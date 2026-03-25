@@ -74,8 +74,8 @@ const content: GuideContent = {
       content: 'Amazon KDP revenue compounds when you build depth within specific categories rather than spreading thinly across many. Choose two to three Amazon categories where your products fit naturally (e.g., "Children's Math Books" and "Early Learning Activity Books") and systematically fill those categories with related products. Amazon's recommendation engine surfaces your other products to buyers of any single product, creating automatic cross-selling. Products that rank well in less competitive sub-categories often generate more consistent long-term revenue than products in highly competitive main categories.',
     },
     {
-      heading: ‘Generate Ongoing Gumroad Revenue Through Themed Collections',
-      content: ‘Gumroad buyers often purchase comprehensive resource sets rather than individual worksheets. Build recurring Gumroad revenue by creating themed collections that buyers can use across an entire product line. A "Complete Addition Unit" containing progressive worksheets from single-digit to multi-digit addition, with answer keys, commands premium pricing and generates ongoing revenue as new buyers discover it each school year. Gumroad's rating system creates strong compounding effects — products with many positive ratings consistently outsell newer competitors.',
+      heading: 'Generate Ongoing Gumroad Revenue Through Themed Collections',
+      content: 'Gumroad buyers often purchase comprehensive resource sets rather than individual worksheets. Build recurring Gumroad revenue by creating themed collections that buyers can use across an entire product line. A "Complete Addition Unit" containing progressive worksheets from single-digit to multi-digit addition, with answer keys, commands premium pricing and generates ongoing revenue as new buyers discover it each school year. Gumroad's rating system creates strong compounding effects — products with many positive ratings consistently outsell newer competitors.',
     },
   ],
 

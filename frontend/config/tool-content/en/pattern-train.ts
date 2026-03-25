@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Pattern Train Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building pattern train worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building pattern train worksheets immediately.',
       },
       {
         title: 'Set the Page Layout and Background',
@@ -77,7 +77,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Pattern Train Sets',
-      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A “Halloween Pattern Train” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
+      description: 'Use seasonal and holiday image themes to create time-limited pattern train bundles. A "Halloween Pattern Train" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple AB warm-ups with advanced AABB challenges in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
     },
     {
       title: 'Cross-Format Visual Learning Bundles',
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Early Math Workbook Series',
-      description: 'Compile 80+ pattern train exercises into themed workbooks for Amazon KDP. Structure a series by theme: “Animal Pattern Trains,” “Vehicle Sequence Trains,” “Food Pattern Recognition.” Each book progresses from simple AB patterns to complex AABB sequences with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Pattern train workbooks fill a specific early learning niche with year-round demand from buyers worldwide.',
+      description: 'Compile 80+ pattern train exercises into themed workbooks for Amazon KDP. Structure a series by theme: "Animal Pattern Trains," "Vehicle Sequence Trains," "Food Pattern Recognition." Each book progresses from simple AB patterns to complex AABB sequences with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Pattern train workbooks fill a specific early learning niche with year-round demand from buyers worldwide.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Pattern Recognition Packs',
-      description: 'Upload pattern train worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using pattern type and clue count as the differentiation axes. Package with auto-generated answer keys for a complete product. The train car format creates an engaging visual theme that stands out in marketplace search results. Buyers search for “pattern recognition activities” and “repeating pattern worksheets” and find limited train-format options — your products fill a genuine gap.',
+      description: 'Upload pattern train worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using pattern type and clue count as the differentiation axes. Package with auto-generated answer keys for a complete product. The train car format creates an engaging visual theme that stands out in marketplace search results. Buyers search for "pattern recognition activities" and "repeating pattern worksheets" and find limited train-format options — your products fill a genuine gap.',
       platform: 'Gumroad',
     },
     {
@@ -129,15 +129,15 @@ const content: ToolContent = {
     },
     {
       title: 'Emphasize the Train Format as Your Marketplace Differentiator',
-      description: 'Most pattern worksheets on Etsy and Gumroad use standard grid layouts with rows and columns. The 11-wagon train car format is visually distinctive and immediately recognizable in search results. Mention “train car format” and “11-wagon layout” in your product titles and descriptions to highlight what makes your listings different from grid-based competitors.',
+      description: 'Most pattern worksheets on Etsy and Gumroad use standard grid layouts with rows and columns. The 11-wagon train car format is visually distinctive and immediately recognizable in search results. Mention "train car format" and "11-wagon layout" in your product titles and descriptions to highlight what makes your listings different from grid-based competitors.',
     },
     {
       title: 'Highlight Zero-Text for Global Sellability',
-      description: 'Pattern train worksheets contain no text on the output — only images on train cars. This is your strongest competitive advantage for marketplace listings. Explicitly state “no translation needed — works worldwide” in every product description. Buyers from any country can purchase without worrying about language compatibility.',
+      description: 'Pattern train worksheets contain no text on the output — only images on train cars. This is your strongest competitive advantage for marketplace listings. Explicitly state "no translation needed — works worldwide" in every product description. Buyers from any country can purchase without worrying about language compatibility.',
     },
     {
       title: 'Create Both Train and Grid Pattern Products',
-      description: 'The Pattern Train Maker and Pattern Worksheet Maker produce fundamentally different visual formats for the same skill — pattern recognition. Train format uses 11 wagons with a single missing position. Grid format uses standard rows and columns for pattern completion. Sell both formats separately or bundle them as a “Complete Pattern Recognition Pack” for a premium price.',
+      description: 'The Pattern Train Maker and Pattern Worksheet Maker produce fundamentally different visual formats for the same skill — pattern recognition. Train format uses 11 wagons with a single missing position. Grid format uses standard rows and columns for pattern completion. Sell both formats separately or bundle them as a "Complete Pattern Recognition Pack" for a premium price.',
     },
     {
       title: 'Match Clue Count to Your Target Age Group',

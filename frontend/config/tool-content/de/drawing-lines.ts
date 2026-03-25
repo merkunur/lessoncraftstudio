@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Den Linien-Ziehen-Ersteller öffnen',
-        description: 'Klicken Sie auf „Kostenlos testen“, um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Linienverfolgung-Arbeitsblättern.',
+        description: 'Klicken Sie auf „Kostenlos testen", um den Generator in Ihrem Browser zu starten. Das Tool lädt sofort mit einer Einstellungsleiste links und einer Live-Vorschau-Arbeitsfläche rechts. Kein Konto erstellen, kein Software-Download, keine Installation nötig — beginnen Sie sofort mit der Erstellung von Linienverfolgung-Arbeitsblättern.',
       },
       {
         title: 'Seitenlayout und Hintergrund einstellen',
@@ -49,7 +49,7 @@ const content: ToolContent = {
       },
       {
         title: 'Text hinzufügen und Name/Datum-Felder umschalten',
-        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Aktivieren Sie die Name/Datum-Felder für Nutzeridentifikationsbereiche. Die automatisch generierte Kopfzeile zeigt ein grünes Banner mit „Linien-Zeichenübung“ lokalisiert in allen 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Sperr- und Entsperrsteuerungen und unbegrenztem Rückgängigmachen und Wiederherstellen.',
+        description: 'Verwenden Sie die Texttools, um einen Arbeitsblatt-Titel, Anweisungen oder dekorativen Text hinzuzufügen. Wählen Sie aus Schriftarten wie Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito und Quicksand. Aktivieren Sie die Name/Datum-Felder für Nutzeridentifikationsbereiche. Die automatisch generierte Kopfzeile zeigt ein grünes Banner mit „Linien-Zeichenübung" lokalisiert in allen 11 unterstützten Sprachen. Ziehen, skalieren, drehen und positionieren Sie jedes Element auf der Fabric.js-Arbeitsfläche mit Ausrichtungswerkzeugen, Sperr- und Entsperrsteuerungen und unbegrenztem Rückgängigmachen und Wiederherstellen.',
       },
       {
         title: 'Vorschau prüfen und Linienschwierigkeit anpassen',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Schreibvorbereitung-Stiftführungs-Sets',
-      description: 'Erstellen Sie Linienverfolgung-Arbeitsblätter, die gezielt als Schreibvorbereitung dienen. Horizontallinien üben die Links-nach-Rechts-Richtung des Lesens und Schreibens. Vertikallinien entwickeln die Oben-nach-Unten-Striche für die Buchstabenformung. Kurven imitieren die runden Bewegungen für Buchstaben wie c, o, s und e. Diagonalen trainieren die Schrägstriche für Buchstaben wie k, v, w und z. Verpacken Sie diese als „Schreibvorbereitung-Pakete“, die Feinmotorik und Schriftspracherwerb verbinden — eine Produktkategorie mit starker ganzjähriger Nachfrage von Vorschullehrkräften und Eltern.',
+      description: 'Erstellen Sie Linienverfolgung-Arbeitsblätter, die gezielt als Schreibvorbereitung dienen. Horizontallinien üben die Links-nach-Rechts-Richtung des Lesens und Schreibens. Vertikallinien entwickeln die Oben-nach-Unten-Striche für die Buchstabenformung. Kurven imitieren die runden Bewegungen für Buchstaben wie c, o, s und e. Diagonalen trainieren die Schrägstriche für Buchstaben wie k, v, w und z. Verpacken Sie diese als „Schreibvorbereitung-Pakete", die Feinmotorik und Schriftspracherwerb verbinden — eine Produktkategorie mit starker ganzjähriger Nachfrage von Vorschullehrkräften und Eltern.',
     },
     {
       title: 'Thematische Bildpaar-Zuordnungs-Aktivitäten-Sets',
@@ -97,7 +97,7 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon-KDP-Linienverfolgung-Arbeitsheft-Serie',
-      description: 'Stellen Sie 80+ Linienverfolgung-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: „Anfänger-Linienverfolgung“ behandelt Horizontal- und Vertikalvorlagen. „Fortgeschrittene Linienverfolgung“ führt alle vier Kurvenvarianten ein. „Experten-Linienverfolgung“ bietet Diagonalvorlagen gemischt mit Kurven. Die farbenfrohen Bilder drucken lebendig für ansprechende, kinderfreundliche Innenteile. Das textfreie Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Feinmotorik-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit konstanter ganzjähriger Nachfrage.',
+      description: 'Stellen Sie 80+ Linienverfolgung-Übungen zu thematischen Arbeitsheften für Amazon KDP zusammen. Strukturieren Sie eine Serie nach Progression: „Anfänger-Linienverfolgung" behandelt Horizontal- und Vertikalvorlagen. „Fortgeschrittene Linienverfolgung" führt alle vier Kurvenvarianten ein. „Experten-Linienverfolgung" bietet Diagonalvorlagen gemischt mit Kurven. Die farbenfrohen Bilder drucken lebendig für ansprechende, kinderfreundliche Innenteile. Das textfreie Format veröffentlicht identisch auf allen internationalen KDP-Marktplätzen ohne Übersetzung. Feinmotorik-Arbeitshefte füllen eine spezifische Frühförderungs-Nische mit konstanter ganzjähriger Nachfrage.',
       platform: 'Amazon KDP',
     },
     {
@@ -107,7 +107,7 @@ const content: ToolContent = {
     },
     {
       title: 'Pinterest Visueller Linienverfolgung-Trichter',
-      description: 'Linienverfolgung-Arbeitsblätter mit farbenfrohen Bildpaaren und markanten SVG-Linienpfaden erzeugen auffällige Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Linientypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Linienverfolgung für Kinder“, „Feinmotorik-Arbeitsblätter“ und „Schreibvorbereitung“. Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
+      description: 'Linienverfolgung-Arbeitsblätter mit farbenfrohen Bildpaaren und markanten SVG-Linienpfaden erzeugen auffällige Pinterest-Pins, die sich von text-lastigen Arbeitsblatt-Pins abheben. Pinnen Sie Beispiel-Arbeitsblätter mit verschiedenen Linientypen mit Wasserzeichen, verlinken Sie zu Ihrem Etsy-Shop oder Ihrer Landingpage und sammeln Sie E-Mail-Adressen. Erstellen Sie separate Pin-Serien für „Linienverfolgung für Kinder", „Feinmotorik-Arbeitsblätter" und „Schreibvorbereitung". Das textfreie Format bedeutet, dass Pins Eltern und Verkäufer in jedem Land ansprechen.',
       platform: 'Pinterest',
     },
     {

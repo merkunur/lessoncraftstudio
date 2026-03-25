@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configure Bingo Card Settings',
         description:
-          'Open the Bingo Card Settings panel and set rows (3–5) and columns (3–5) to define your grid size — the default is 4×4 with 16 cells. Set the number of cards from 1 to 10 to batch-generate multiple unique bingo cards. Choose card cell fill (Image or Word) and chip fill (Image or Word) independently — mix image cards with word chips, word cards with image chips, or match both. Enable the “Use custom selection” checkbox to hand-pick specific images for call-outs rather than using automatic selection.',
+          'Open the Bingo Card Settings panel and set rows (3–5) and columns (3–5) to define your grid size — the default is 4×4 with 16 cells. Set the number of cards from 1 to 10 to batch-generate multiple unique bingo cards. Choose card cell fill (Image or Word) and chip fill (Image or Word) independently — mix image cards with word chips, word cards with image chips, or match both. Enable the "Use custom selection" checkbox to hand-pick specific images for call-outs rather than using automatic selection.',
       },
       {
         title: 'Select Images from the Library',
@@ -167,17 +167,17 @@ const content: AppContent = {
     {
       question: 'What is custom call-out selection?',
       answer:
-        'Enable the “Use custom selection” checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows “Selected for custom call-outs: X” as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events where you want specific vocabulary.',
+        'Enable the "Use custom selection" checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows "Selected for custom call-outs: X" as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events where you want specific vocabulary.',
     },
     {
       question: 'Is the Picture Bingo Card Generator language-sensitive?',
       answer:
-        'Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows “Cat” in English but “Katze” in German and “Chat” in French. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
+        'Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows "Cat" in English but "Katze" in German and "Chat" in French. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
     },
     {
       question: 'Why is there no answer key for bingo cards?',
       answer:
-        'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single “correct answer” since every player's card has different items in different positions. The call-out sheet serves as the game's reference document, listing all possible items the caller can announce during the game.',
+        'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single "correct answer" since every player's card has different items in different positions. The call-out sheet serves as the game's reference document, listing all possible items the caller can announce during the game.',
     },
     {
       question: 'Is there a free trial?',

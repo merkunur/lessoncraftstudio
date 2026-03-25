@@ -21,7 +21,7 @@ const content: ToolContent = {
   hero: {
     title: 'Cryptogram Worksheet Generator',
     tagline: 'Create picture cipher puzzles where every letter maps to an image and solvers decode entire secret phrases through pattern recognition',
-    description: 'Design professional cryptogram worksheets built on a picture cipher mechanic: every alphabet letter is mapped to a unique image, and your secret phrase is rendered as a sequence of images that solvers must decode back into readable text. Unlike word searches or scrambles that work with individual words, the Cryptogram generator encodes entire sentences and phrases — solvers crack the cipher by deducing which image represents which letter, using contextual clues from common words like “the,” “and,” and “is” to accelerate their code-breaking. The Letters to Reveal slider (0–10) is the primary difficulty control: set it to zero for a pure code-breaking challenge with no starting information, or slide it up to ten for heavy scaffolding where many letter-to-image mappings are pre-solved as hints. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill the entire cipher with one click, while Manual Assignment lets you hand-pick specific images for specific letters with a full visual preview of all mappings. Upload custom images for complete creative control. The answer key includes a letter legend showing every alphabet letter paired with its assigned image in sorted order — the definitive solution reference. Language sensitivity is built in: switch languages and both the secret message text and the alphabet change. German cryptograms encode German phrases with ä, ö, ü, ß in the alphabet; French cryptograms use é, è, ç, à. Each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 5 fonts, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Design professional cryptogram worksheets built on a picture cipher mechanic: every alphabet letter is mapped to a unique image, and your secret phrase is rendered as a sequence of images that solvers must decode back into readable text. Unlike word searches or scrambles that work with individual words, the Cryptogram generator encodes entire sentences and phrases — solvers crack the cipher by deducing which image represents which letter, using contextual clues from common words like "the," "and," and "is" to accelerate their code-breaking. The Letters to Reveal slider (0–10) is the primary difficulty control: set it to zero for a pure code-breaking challenge with no starting information, or slide it up to ten for heavy scaffolding where many letter-to-image mappings are pre-solved as hints. Auto-Assign pulls random images from any of 104 themed collections (3,100+ illustrations) to fill the entire cipher with one click, while Manual Assignment lets you hand-pick specific images for specific letters with a full visual preview of all mappings. Upload custom images for complete creative control. The answer key includes a letter legend showing every alphabet letter paired with its assigned image in sorted order — the definitive solution reference. Language sensitivity is built in: switch languages and both the secret message text and the alphabet change. German cryptograms encode German phrases with ä, ö, ü, ß in the alphabet; French cryptograms use é, è, ç, à. Each language version is a genuinely different cipher product. Export print-ready PDFs and JPEGs at 400+ DPI in Letter, A4, or custom sizes. Choose from 5 fonts, toggle grayscale for ink-friendly output, and use the full Fabric.js canvas to reposition every element. The free trial includes a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Cryptogram Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building picture cipher puzzles immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building picture cipher puzzles immediately.',
       },
       {
         title: 'Set the Page Layout and Template',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal and Holiday Cipher Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited cryptogram bundles. A “Halloween Secret Messages” pack with spooky-themed cipher images sells strongly in October. Christmas, back-to-school, Valentine's Day, and summer themes each have their own peak sales windows on Etsy and Gumroad. Combine scaffolded puzzles at 6–8 reveals for beginners with zero-reveal expert puzzles for advanced solvers in a single seasonal bundle to maximize your buyer audience.',
+      description: 'Use holiday and seasonal image themes to create time-limited cryptogram bundles. A "Halloween Secret Messages" pack with spooky-themed cipher images sells strongly in October. Christmas, back-to-school, Valentine's Day, and summer themes each have their own peak sales windows on Etsy and Gumroad. Combine scaffolded puzzles at 6–8 reveals for beginners with zero-reveal expert puzzles for advanced solvers in a single seasonal bundle to maximize your buyer audience.',
     },
   ],
 
@@ -97,12 +97,12 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Themed Cipher Book Series',
-      description: 'Compile 80+ picture cryptogram puzzles into a themed puzzle book for Amazon KDP. Structure a series around popular themes: “Animal Secret Messages,” “Food & Kitchen Cipher Puzzles,” “Nature Code-Breaking Adventures.” Each book uses progressive Letters to Reveal difficulty from heavily scaffolded to zero hints with letter legend answer keys at the back. Cryptogram puzzle books are a dramatically underserved niche on KDP compared to word search and crossword, giving you a first-mover advantage in the category.',
+      description: 'Compile 80+ picture cryptogram puzzles into a themed puzzle book for Amazon KDP. Structure a series around popular themes: "Animal Secret Messages," "Food & Kitchen Cipher Puzzles," "Nature Code-Breaking Adventures." Each book uses progressive Letters to Reveal difficulty from heavily scaffolded to zero hints with letter legend answer keys at the back. Cryptogram puzzle books are a dramatically underserved niche on KDP compared to word search and crossword, giving you a first-mover advantage in the category.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Code-Breaking Centers',
-      description: 'Upload cryptogram worksheet packs to Gumroad or your own store organized by theme and difficulty level. Include four difficulty levels per theme using Letters to Reveal as the differentiation axis. Package with letter legend answer keys and progress tracking sheets. The cipher mechanic is inherently engaging — solvers experience genuine code-breaking excitement as each decoded letter unlocks more of the secret message. Buyers search for “code breaking activities” and “cipher worksheets” and find very few quality options.',
+      description: 'Upload cryptogram worksheet packs to Gumroad or your own store organized by theme and difficulty level. Include four difficulty levels per theme using Letters to Reveal as the differentiation axis. Package with letter legend answer keys and progress tracking sheets. The cipher mechanic is inherently engaging — solvers experience genuine code-breaking excitement as each decoded letter unlocks more of the secret message. Buyers search for "code breaking activities" and "cipher worksheets" and find very few quality options.',
       platform: 'Gumroad',
     },
     {
@@ -129,7 +129,7 @@ const content: ToolContent = {
     },
     {
       title: 'Encode Full Sentences for Contextual Clue Scaffolding',
-      description: 'The Cryptogram generator encodes entire phrases, not single words. Longer sentences naturally provide more contextual clues — common short words like “the,” “and,” and “is” help solvers crack the cipher faster. Use short two-word phrases for maximum difficulty and long sentences with common words for a more accessible puzzle. Phrase length is an additional difficulty lever on top of Letters to Reveal.',
+      description: 'The Cryptogram generator encodes entire phrases, not single words. Longer sentences naturally provide more contextual clues — common short words like "the," "and," and "is" help solvers crack the cipher faster. Use short two-word phrases for maximum difficulty and long sentences with common words for a more accessible puzzle. Phrase length is an additional difficulty lever on top of Letters to Reveal.',
     },
     {
       title: 'Use Auto-Assign for Fast Batch Production',
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Switch Between Color and B&W for Double the Products',
-      description: 'Every theme collection is available in full-color and black-and-white variants. Create a “Color Edition” for digital downloads and vibrant Etsy listings, then regenerate the same design in B&W for ink-friendly bulk printing and KDP puzzle book interiors. Two product variants from one design session with no additional content work.',
+      description: 'Every theme collection is available in full-color and black-and-white variants. Create a "Color Edition" for digital downloads and vibrant Etsy listings, then regenerate the same design in B&W for ink-friendly bulk printing and KDP puzzle book interiors. Two product variants from one design session with no additional content work.',
     },
     {
       title: 'Go Multilingual for 11x Product Range',
@@ -172,7 +172,7 @@ const content: ToolContent = {
     },
     {
       question: 'Can I encode full sentences, not just single words?',
-      answer: 'Yes. The Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message, which provides natural contextual clues — common short words like “the” and “and” help solvers crack the cipher faster. Phrase-level encoding makes puzzles more satisfying and more educational than single-word challenges.',
+      answer: 'Yes. The Cryptogram generator encodes entire phrases and sentences. Solvers decode a complete readable message, which provides natural contextual clues — common short words like "the" and "and" help solvers crack the cipher faster. Phrase-level encoding makes puzzles more satisfying and more educational than single-word challenges.',
     },
     {
       question: 'How does cryptogram differ from word search, word scramble, and word guess?',

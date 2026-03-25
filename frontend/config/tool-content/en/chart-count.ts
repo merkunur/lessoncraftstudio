@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
   hero: {
     title: 'Chart Count Worksheet Maker',
     tagline: 'Picture graph worksheet generator with scattered image grids, auto-generated bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets that sell worldwide',
-    description: 'Create professional picture graph worksheets where solvers count scattered images and fill in a bar chart below — teaching data collection and data representation in a single activity. Each worksheet features a 4×5 grid containing 20 icons from 6 different image types, each type appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a 6-column × 5-row bar chart with columns labeled by image type and rows numbered 1–5 gives solvers a structured place to record their counts. The app simultaneously generates an answer key on a separate canvas tab with yellow (#FFC857) highlighted cells showing the correct counts, so sellers verify output instantly without manual counting. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown — the app randomly picks 6 images from that collection — or manually browse the Image Library with 3,100+ illustrations across 104 themed collections and click exactly 6 images with a preview strip. Every worksheet includes an auto-generated header with a localized “Picture Graph” title and counting instructions displayed in a styled yellow pill (#FFD93D) with orange border frame, adapting automatically to all 11 supported languages. Add name and date fields with a single checkbox (Fredoka 18px #333). Apply both background themes and border themes with independent opacity sliders (0–1, step 0.05). The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, making worksheets identically usable in every language without modification. Download four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Export in Letter, A4, Square (1200×1200), or custom sizes with a grayscale toggle for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, text outline width 0–10 with 0.5-step granularity, undo/redo up to 20 states, and zoom from 25% to 300%. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
+    description: 'Create professional picture graph worksheets where solvers count scattered images and fill in a bar chart below — teaching data collection and data representation in a single activity. Each worksheet features a 4×5 grid containing 20 icons from 6 different image types, each type appearing 1–5 times in a random distribution that makes every generation unique. Below the grid, a 6-column × 5-row bar chart with columns labeled by image type and rows numbered 1–5 gives solvers a structured place to record their counts. The app simultaneously generates an answer key on a separate canvas tab with yellow (#FFC857) highlighted cells showing the correct counts, so sellers verify output instantly without manual counting. Choose images automatically by selecting a theme from the Worksheet Image Source dropdown — the app randomly picks 6 images from that collection — or manually browse the Image Library with 3,100+ illustrations across 104 themed collections and click exactly 6 images with a preview strip. Every worksheet includes an auto-generated header with a localized "Picture Graph" title and counting instructions displayed in a styled yellow pill (#FFD93D) with orange border frame, adapting automatically to all 11 supported languages. Add name and date fields with a single checkbox (Fredoka 18px #333). Apply both background themes and border themes with independent opacity sliders (0–1, step 0.05). The Chart Count Generator is not language-sensitive — visual counting uses universal numbers and images, making worksheets identically usable in every language without modification. Download four files per session: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF — all at 300 DPI. Export in Letter, A4, Square (1200×1200), or custom sizes with a grayscale toggle for ink-friendly output. Edit everything on the full Fabric.js canvas with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana, text outline width 0–10 with 0.5-step granularity, undo/redo up to 20 states, and zoom from 25% to 300%. The free trial includes every feature with a watermark on downloads. Purchase a license to remove the watermark and sell commercially.',
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Open the Chart Count Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the picture graph generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building picture graph worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the picture graph generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the worksheet, one for the answer key. No account creation, no software download, no installation required — start building picture graph worksheets immediately.',
       },
       {
         title: 'Set Your Page Layout and Decorations',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Generate the Picture Graph Worksheet',
-        description: 'Click Generate to create the worksheet. The app arranges 20 scattered icons from your 6 selected image types in a 4×5 grid with a dashed border at the top of the page — each type appears 1–5 times in a random distribution, so every generation produces a unique counting challenge. Below the grid, a 6-column × 5-row bar chart appears with columns labeled by each image type and rows numbered 1–5. An auto-generated header displays a localized “Picture Graph” title and counting instructions in a styled yellow pill with orange border frame. Solvers count images in the grid and color the matching number of cells in each column.',
+        description: 'Click Generate to create the worksheet. The app arranges 20 scattered icons from your 6 selected image types in a 4×5 grid with a dashed border at the top of the page — each type appears 1–5 times in a random distribution, so every generation produces a unique counting challenge. Below the grid, a 6-column × 5-row bar chart appears with columns labeled by each image type and rows numbered 1–5. An auto-generated header displays a localized "Picture Graph" title and counting instructions in a styled yellow pill with orange border frame. Solvers count images in the grid and color the matching number of cells in each column.',
       },
       {
         title: 'Review the Auto-Generated Answer Key',
@@ -48,7 +48,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Add Name Fields and Localized Header',
-        description: 'Check the Include Name/Date box to add formatted “Name: ____” and “Date: ____” fields at the bottom of the worksheet (Fredoka 18px #333). The auto-generated header automatically displays the “Picture Graph” title and counting instructions in whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Worksheets become print-ready in any locale without manual text editing.',
+        description: 'Check the Include Name/Date box to add formatted "Name: ____" and "Date: ____" fields at the bottom of the worksheet (Fredoka 18px #333). The auto-generated header automatically displays the "Picture Graph" title and counting instructions in whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. Worksheets become print-ready in any locale without manual text editing.',
       },
       {
         title: 'Customize with Text Tools and Canvas Editing',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Data Skills Workbook Series',
-      description: 'Compile 80+ picture graph worksheets into themed workbooks for Amazon KDP. Structure a series by subject: “Animal Counting Graphs” covers farm, ocean, jungle, and pet themes. “Everyday Data Graphs” covers food, vehicles, professions, and household items. Include answer key pages at the back of each chapter. Toggle grayscale for ink-friendly output that prints perfectly in black-and-white. The visual counting format with universal numbers and images publishes identically across all international KDP marketplaces without translation — one interior serves every country.',
+      description: 'Compile 80+ picture graph worksheets into themed workbooks for Amazon KDP. Structure a series by subject: "Animal Counting Graphs" covers farm, ocean, jungle, and pet themes. "Everyday Data Graphs" covers food, vehicles, professions, and household items. Include answer key pages at the back of each chapter. Toggle grayscale for ink-friendly output that prints perfectly in black-and-white. The visual counting format with universal numbers and images publishes identically across all international KDP marketplaces without translation — one interior serves every country.',
       platform: 'Amazon KDP',
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pinterest Picture Graph Traffic Funnel',
-      description: 'Picture graph worksheets make visually striking Pinterest pins — the colorful scattered image grid and structured bar chart create an immediately recognizable educational format. Pin sample worksheets showing different themes with the auto-generated answer key side by side. Create separate pin series for “animal counting graphs,” “holiday graphing worksheets,” and “math center data activities.” The visual format appeals to buyers in every country. Link each pin to your Etsy or Gumroad product listings.',
+      description: 'Picture graph worksheets make visually striking Pinterest pins — the colorful scattered image grid and structured bar chart create an immediately recognizable educational format. Pin sample worksheets showing different themes with the auto-generated answer key side by side. Create separate pin series for "animal counting graphs," "holiday graphing worksheets," and "math center data activities." The visual format appeals to buyers in every country. Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -136,7 +136,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Target the Data Representation Curriculum Niche',
-      description: 'Picture graphs are a specific math standard in early elementary curricula worldwide. Buyers actively search for graphing and data representation resources. Position your products using curriculum-aligned keywords: “picture graph,” “bar chart worksheet,” “data representation activity,” and “counting and graphing.” The bar chart format teaches both data collection (counting scattered images) and data representation (filling chart cells) in one worksheet — a dual-skill activity that curriculum-focused buyers value.',
+      description: 'Picture graphs are a specific math standard in early elementary curricula worldwide. Buyers actively search for graphing and data representation resources. Position your products using curriculum-aligned keywords: "picture graph," "bar chart worksheet," "data representation activity," and "counting and graphing." The bar chart format teaches both data collection (counting scattered images) and data representation (filling chart cells) in one worksheet — a dual-skill activity that curriculum-focused buyers value.',
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
@@ -144,7 +144,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Include Name/Date Fields for Print-Ready Products',
-      description: 'The single checkbox that adds “Name: ____” and “Date: ____” fields transforms picture graph worksheets from generic printables into structured activities. Buyers on Etsy specifically search for “print-and-go” resources with identification areas. This one-click addition takes no extra effort but elevates your products above competitors who sell unformatted worksheets without name fields.',
+      description: 'The single checkbox that adds "Name: ____" and "Date: ____" fields transforms picture graph worksheets from generic printables into structured activities. Buyers on Etsy specifically search for "print-and-go" resources with identification areas. This one-click addition takes no extra effort but elevates your products above competitors who sell unformatted worksheets without name fields.',
     },
     {
       title: 'Sell Worldwide with Zero Translation Work',
@@ -171,7 +171,7 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What is the localized header on each worksheet?',
-      answer: 'Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a “Picture Graph” title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts automatically when you switch the language, making worksheets print-ready in any locale without manual text editing.',
+      answer: 'Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a "Picture Graph" title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts automatically when you switch the language, making worksheets print-ready in any locale without manual text editing.',
     },
     {
       question: 'How do background and border themes work?',

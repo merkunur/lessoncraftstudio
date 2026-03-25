@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Open the Bingo Card Maker',
-        description: 'Click “Try Free Now” to launch the picture bingo card generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the bingo card with chips, one for the call-out sheet. No account creation, no software download, no installation required — start building picture bingo cards immediately.',
+        description: 'Click "Try Free Now" to launch the picture bingo card generator in your browser. The tool loads instantly with a settings sidebar on the left and a dual-tab canvas on the right — one tab for the bingo card with chips, one for the call-out sheet. No account creation, no software download, no installation required — start building picture bingo cards immediately.',
       },
       {
         title: 'Configure Grid Size and Card Count',
@@ -40,7 +40,7 @@ const content: ToolContent = {  seo: {
       },
       {
         title: 'Select Images from the Library',
-        description: 'Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to select them for your bingo cards. Enable the “Use custom selection” checkbox to hand-pick specific images for the call-out pool — a live counter shows your selection count as you pick. Custom call-out selection gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events.',
+        description: 'Open the Image Library panel and browse 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Filter by theme using the dropdown or search by keyword. Click images to select them for your bingo cards. Enable the "Use custom selection" checkbox to hand-pick specific images for the call-out pool — a live counter shows your selection count as you pick. Custom call-out selection gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events.',
       },
       {
         title: 'Set Your Page Layout and Decorations',
@@ -68,7 +68,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Multilingual Vocabulary Bingo Products',
-      description: 'The Bingo Card Maker is language-sensitive — Word fill mode displays localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Create bingo sets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish from the same images without rebuilding anything. A cat image shows “Cat” in English, “Katze” in German, and “Chat” in French. Sell vocabulary bingo products across international marketplaces by generating each language version in minutes. Word cards with image chips make especially effective vocabulary review tools.',
+      description: 'The Bingo Card Maker is language-sensitive — Word fill mode displays localized image names from the Image Library, so switching languages changes the words on cards, chips, and the call-out sheet. Create bingo sets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish from the same images without rebuilding anything. A cat image shows "Cat" in English, "Katze" in German, and "Chat" in French. Sell vocabulary bingo products across international marketplaces by generating each language version in minutes. Word cards with image chips make especially effective vocabulary review tools.',
     },
     {
       title: 'KDP Bingo Activity Books with Call-out Sheets',
@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Bingo Collections',
-      description: ‘Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine's Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas bingo, Halloween bingo, Easter bingo, Valentine's Day bingo, back-to-school bingo, and summer bingo each support dedicated product packs. Bingo is a naturally social game that peaks during holidays when families look for group activities. Include multiple grid sizes and both image and word fill variants in each seasonal set for maximum value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility.',
     },
     {
       title: 'Event and Party Bingo Card Sets',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Bingo Activity Book Series',
-      description: 'Compile 40–80 bingo cards into themed activity books for Amazon KDP. Structure a series by topic: “Animal Bingo,” “Holiday Bingo,” “Food Bingo,” and “Everyday Objects Bingo.” Include call-out sheets after each card set so the book is self-contained for play. Mix grid sizes for progressive difficulty within each book — start with 3×3 cards and advance to 5×5. Toggle grayscale for ink-friendly output that prints perfectly in black-and-white. Bingo activity books sell year-round and spike during holiday seasons when families look for group activities.',
+      description: 'Compile 40–80 bingo cards into themed activity books for Amazon KDP. Structure a series by topic: "Animal Bingo," "Holiday Bingo," "Food Bingo," and "Everyday Objects Bingo." Include call-out sheets after each card set so the book is self-contained for play. Mix grid sizes for progressive difficulty within each book — start with 3×3 cards and advance to 5×5. Toggle grayscale for ink-friendly output that prints perfectly in black-and-white. Bingo activity books sell year-round and spike during holiday seasons when families look for group activities.',
       platform: 'Amazon KDP',
     },
     {
@@ -106,7 +106,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pinterest Bingo Card Traffic Funnel',
-      description: 'Bingo cards make visually striking Pinterest pins — the colorful grid layout with themed images and circular chips creates an immediately recognizable game format that buyers love. Pin sample bingo cards showing different themes: animal bingo for early-learner boards, holiday bingo for seasonal boards, and word bingo for vocabulary boards. Create separate pin series for “picture bingo printables,” “printable bingo games,” and “holiday bingo activities.” Bingo is a universally recognized game, so pins appeal to audiences across every country and language. Link each pin to your Etsy or Gumroad product listings.',
+      description: 'Bingo cards make visually striking Pinterest pins — the colorful grid layout with themed images and circular chips creates an immediately recognizable game format that buyers love. Pin sample bingo cards showing different themes: animal bingo for early-learner boards, holiday bingo for seasonal boards, and word bingo for vocabulary boards. Create separate pin series for "picture bingo printables," "printable bingo games," and "holiday bingo activities." Bingo is a universally recognized game, so pins appeal to audiences across every country and language. Link each pin to your Etsy or Gumroad product listings.',
       platform: 'Pinterest',
     },
     {
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Leverage Custom Call-out Selection for Curriculum Alignment',
-      description: 'Enable the “Use custom selection” checkbox to hand-pick exactly which images appear in the call-out pool. The live counter shows your selection count as you pick from the Image Library. This feature is critical for creating tightly themed bingo games — select only the vocabulary words your product covers, only the animals in a specific habitat, or only the foods in a nutrition theme. Custom call-out selection transforms bingo from a random game into a curated product, which is a key selling point for themed bundles.',
+      description: 'Enable the "Use custom selection" checkbox to hand-pick exactly which images appear in the call-out pool. The live counter shows your selection count as you pick from the Image Library. This feature is critical for creating tightly themed bingo games — select only the vocabulary words your product covers, only the animals in a specific habitat, or only the foods in a nutrition theme. Custom call-out selection transforms bingo from a random game into a curated product, which is a key selling point for themed bundles.',
     },
     {
       title: 'Exploit the Language-Sensitive Word Fill for Multilingual Products',
@@ -179,11 +179,11 @@ const content: ToolContent = {  seo: {
     },
     {
       question: 'What is custom call-out selection?',
-      answer: 'Enable the “Use custom selection” checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows your selection count as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned vocabulary activities, themed events, or any situation where you want to curate the exact items players will encounter during the game.',
+      answer: 'Enable the "Use custom selection" checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows your selection count as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned vocabulary activities, themed events, or any situation where you want to curate the exact items players will encounter during the game.',
     },
     {
       question: 'Is the Bingo Card Maker language-sensitive?',
-      answer: 'Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows “Cat” in English but “Katze” in German and “Chat” in French. This makes it easy to create multilingual vocabulary bingo products from the same images. Image fill mode is not language-sensitive since it displays illustrations rather than words.',
+      answer: 'Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows "Cat" in English but "Katze" in German and "Chat" in French. This makes it easy to create multilingual vocabulary bingo products from the same images. Image fill mode is not language-sensitive since it displays illustrations rather than words.',
     },
     {
       question: 'How does the ZIP batch export work?',

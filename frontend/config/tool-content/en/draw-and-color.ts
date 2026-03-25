@@ -29,7 +29,7 @@ const content: ToolContent = {
     steps: [
       {
         title: 'Open the Draw & Color Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building grid drawing worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building grid drawing worksheets immediately.',
       },
       {
         title: 'Set the Page Layout and Background',
@@ -73,7 +73,7 @@ const content: ToolContent = {
     },
     {
       title: 'Symmetry and Spatial Reasoning Worksheets',
-      description: 'Use Horizontal and Vertical mirror modes to create worksheets that bridge art and math. Solvers see clue cells on one side of the grid and must reconstruct the mirror image on the opposite side. A Horizontal symmetry pack teaches bilateral symmetry — fundamental to geometry and biology. A Vertical symmetry pack targets top-to-bottom mirror recognition. Combine both modes in a “Complete Symmetry Drawing” bundle. These resources sell exceptionally well in both art and math categories on Gumroad because they serve two subject areas from a single worksheet format.',
+      description: 'Use Horizontal and Vertical mirror modes to create worksheets that bridge art and math. Solvers see clue cells on one side of the grid and must reconstruct the mirror image on the opposite side. A Horizontal symmetry pack teaches bilateral symmetry — fundamental to geometry and biology. A Vertical symmetry pack targets top-to-bottom mirror recognition. Combine both modes in a "Complete Symmetry Drawing" bundle. These resources sell exceptionally well in both art and math categories on Gumroad because they serve two subject areas from a single worksheet format.',
     },
     {
       title: 'Themed B&W Coloring-After-Drawing Sets',
@@ -97,17 +97,17 @@ const content: ToolContent = {
     },
     {
       title: 'Amazon KDP Grid Drawing Workbook Series',
-      description: 'Compile 80+ grid drawing exercises into themed workbooks for Amazon KDP. Structure a series by progression: “Beginner Grid Drawing” covers 3×3 to 5×5 grids at 50–75% clues. “Intermediate Grid Drawing” advances to 6×6 and 7×7 grids at 25–50% clues. “Advanced Grid Drawing” features 8×8 to 10×10 grids at 10–25% clues. The B&W outline images print perfectly in standard black-and-white, keeping KDP production costs low. The zero-text visual format publishes identically across all international KDP marketplaces without translation.',
+      description: 'Compile 80+ grid drawing exercises into themed workbooks for Amazon KDP. Structure a series by progression: "Beginner Grid Drawing" covers 3×3 to 5×5 grids at 50–75% clues. "Intermediate Grid Drawing" advances to 6×6 and 7×7 grids at 25–50% clues. "Advanced Grid Drawing" features 8×8 to 10×10 grids at 10–25% clues. The B&W outline images print perfectly in standard black-and-white, keeping KDP production costs low. The zero-text visual format publishes identically across all international KDP marketplaces without translation.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Symmetry Bundles',
-      description: 'Upload grid drawing worksheet packs to Gumroad organized by symmetry mode as the teaching focus. Level 1 uses Random clue placement for general drawing practice. Level 2 introduces Horizontal mirror mode where users see one side and draw the mirror image. Level 3 uses Vertical mirror mode for top-to-bottom symmetry. Level 4 combines low clue percentage with mirror mode for the ultimate spatial reasoning challenge. These resources bridge art and math standards, making them valuable for sellers targeting buyers searching for “symmetry activities” and “spatial reasoning worksheets.”',
+      description: 'Upload grid drawing worksheet packs to Gumroad organized by symmetry mode as the teaching focus. Level 1 uses Random clue placement for general drawing practice. Level 2 introduces Horizontal mirror mode where users see one side and draw the mirror image. Level 3 uses Vertical mirror mode for top-to-bottom symmetry. Level 4 combines low clue percentage with mirror mode for the ultimate spatial reasoning challenge. These resources bridge art and math standards, making them valuable for sellers targeting buyers searching for "symmetry activities" and "spatial reasoning worksheets."',
       platform: 'Gumroad',
     },
     {
       title: 'Pinterest Grid Drawing Visual Funnel',
-      description: 'Grid drawing worksheets with the distinctive dual-grid layout make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different clue percentages and symmetry modes with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for “grid drawing worksheets,” “symmetry drawing worksheets,” and “cell-by-cell reproduction.” The zero-text format means pins appeal to parents and buyers in every country worldwide.',
+      description: 'Grid drawing worksheets with the distinctive dual-grid layout make eye-catching Pinterest pins that stand out from text-heavy worksheet pins. Pin sample worksheets showing different clue percentages and symmetry modes with watermark, link to your Etsy shop or landing page, and build your email list. Create separate pin series for "grid drawing worksheets," "symmetry drawing worksheets," and "cell-by-cell reproduction." The zero-text format means pins appeal to parents and buyers in every country worldwide.',
       platform: 'Pinterest',
     },
     {
@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Highlight the Dual Grid as a Premium Format',
-      description: 'The practice grid plus clue grid layout is the core differentiator from simple coloring pages. Explicitly describe the dual-grid system in every product listing: “Two companion grids per image — a blank practice grid for drawing and a clue grid showing partial reference hints.” This premium format commands higher prices because it delivers a structured learning activity rather than just a picture to color.',
+      description: 'The practice grid plus clue grid layout is the core differentiator from simple coloring pages. Explicitly describe the dual-grid system in every product listing: "Two companion grids per image — a blank practice grid for drawing and a clue grid showing partial reference hints." This premium format commands higher prices because it delivers a structured learning activity rather than just a picture to color.',
     },
     {
       title: 'Create Progressive Workbooks Using Clue Percentage Chapters',

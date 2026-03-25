@@ -28,7 +28,7 @@ const content: ToolContent = {  seo: {
     steps: [
       {
         title: 'Open the Big & Small Worksheet Maker',
-        description: 'Click “Try Free Now” to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building size comparison worksheets immediately.',
+        description: 'Click "Try Free Now" to launch the generator in your browser. The tool loads instantly with a settings sidebar on the left and a live preview canvas on the right. No account creation, no software download, no installation required — start building size comparison worksheets immediately.',
       },
       {
         title: 'Set the Page Layout and Background',
@@ -80,11 +80,11 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Image Mode Comparison Bundles',
-      description: 'Double your product range by creating each theme in both image modes. An “Identical Images” pack shows the same animal, vehicle, or food item at different sizes for pure size perception exercises. A “Different Images” pack shows distinct objects at different sizes for relative size reasoning challenges. Sell them separately or bundle both modes together at a premium. Two fundamentally different exercise experiences from the same theme with no additional content creation.',
+      description: 'Double your product range by creating each theme in both image modes. An "Identical Images" pack shows the same animal, vehicle, or food item at different sizes for pure size perception exercises. A "Different Images" pack shows distinct objects at different sizes for relative size reasoning challenges. Sell them separately or bundle both modes together at a premium. Two fundamentally different exercise experiences from the same theme with no additional content creation.',
     },
     {
       title: 'Seasonal and Holiday Size Activity Sets',
-      description: ‘Use seasonal and holiday image themes to create time-limited size comparison bundles. A “Halloween Size Sorting” pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple Circle the Big One warm-ups with advanced Number 1–2–3 ordering exercises in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
+      description: 'Use seasonal and holiday image themes to create time-limited size comparison bundles. A "Halloween Size Sorting" pack with spooky-themed images sells in October. Christmas, back-to-school, Valentine's Day, and summer themes each hit their own peak sales windows on Etsy and Gumroad. Combine simple Circle the Big One warm-ups with advanced Number 1–2–3 ordering exercises in each seasonal set to cover multiple skill levels and maximize your buyer audience.',
     },
   ],
 
@@ -96,12 +96,12 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Size Discrimination Workbook Series',
-      description: 'Compile 80+ size comparison exercises into themed workbooks for Amazon KDP. Structure a series by theme: “Animal Size Sorting,” “Vehicle Big & Small,” “Food Size Ordering.” Each book progresses from simple 2-image identification to complex 3-image ordering with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Size comparison workbooks fill a specific early learning niche with year-round demand from buyers worldwide.',
+      description: 'Compile 80+ size comparison exercises into themed workbooks for Amazon KDP. Structure a series by theme: "Animal Size Sorting," "Vehicle Big & Small," "Food Size Ordering." Each book progresses from simple 2-image identification to complex 3-image ordering with answer keys at the back. The zero-text visual format publishes identically across all international KDP marketplaces without translation. Size comparison workbooks fill a specific early learning niche with year-round demand from buyers worldwide.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad Visual Discrimination Product Packs',
-      description: 'Upload size comparison worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using question type as the differentiation axis. Package with auto-generated answer keys for a complete product. The zero-text format works for any buyer regardless of language — especially valuable for international sales. Buyers search for “size comparison activities” and “big and small worksheets” and find limited quality options.',
+      description: 'Upload size comparison worksheet packs to Gumroad organized by skill level and theme. Include four difficulty tiers per theme using question type as the differentiation axis. Package with auto-generated answer keys for a complete product. The zero-text format works for any buyer regardless of language — especially valuable for international sales. Buyers search for "size comparison activities" and "big and small worksheets" and find limited quality options.',
       platform: 'Gumroad',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Use Question Type as Your Primary Difficulty Axis',
-      description: 'The five question types create a natural difficulty progression. Circle the Big One is easiest — solvers spot the obviously largest image. Circle the Small One is slightly harder because “smallest” requires more careful comparison. Circle the Medium is the hardest identification task because solvers must eliminate both extremes. Number 1–2–3 ordering requires multi-step sequencing. Use this progression to create graded product bundles from one design session.',
+      description: 'The five question types create a natural difficulty progression. Circle the Big One is easiest — solvers spot the obviously largest image. Circle the Small One is slightly harder because "smallest" requires more careful comparison. Circle the Medium is the hardest identification task because solvers must eliminate both extremes. Number 1–2–3 ordering requires multi-step sequencing. Use this progression to create graded product bundles from one design session.',
     },
     {
       title: 'Leverage Identical vs. Different Modes for Double Products',
@@ -132,7 +132,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Emphasize Zero-Text for Global Sellability',
-      description: 'Big & Small worksheets contain no text on the output — only images and visual indicators. This is your strongest competitive advantage for marketplace listings. Explicitly state “no translation needed — works worldwide” in every product description. Buyers from any country can purchase without worrying about language compatibility. List the same product on multiple international Etsy shops with identical files.',
+      description: 'Big & Small worksheets contain no text on the output — only images and visual indicators. This is your strongest competitive advantage for marketplace listings. Explicitly state "no translation needed — works worldwide" in every product description. Buyers from any country can purchase without worrying about language compatibility. List the same product on multiple international Etsy shops with identical files.',
     },
     {
       title: 'Match Exercise Count to Your Target Age Group',

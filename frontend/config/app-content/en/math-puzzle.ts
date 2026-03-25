@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: ‘Build a Niche Puzzle Book Brand on Your Own Store',
+        title: 'Build a Niche Puzzle Book Brand on Your Own Store',
         description:
-          ‘Launch a dedicated math puzzle brand on Gumroad, Shopify, or Payhip. Generate puzzles at every difficulty tier — simple 2×2 addition for the early-learner niche and complex 4×4 mixed-operation grids for advanced difficulty products — all in the same session. The puzzle-reveal mechanic increases completion rates and adds perceived value that justifies premium pricing. Use Pinterest pins linking to your store as a free traffic funnel, and build an email list with a free sample pack to drive repeat purchases.',
-        platform: ‘Gumroad / Shopify / Payhip',
+          'Launch a dedicated math puzzle brand on Gumroad, Shopify, or Payhip. Generate puzzles at every difficulty tier — simple 2×2 addition for the early-learner niche and complex 4×4 mixed-operation grids for advanced difficulty products — all in the same session. The puzzle-reveal mechanic increases completion rates and adds perceived value that justifies premium pricing. Use Pinterest pins linking to your store as a free traffic funnel, and build an email list with a free sample pack to drive repeat purchases.',
+        platform: 'Gumroad / Shopify / Payhip',
       },
     ],
   },
@@ -182,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Can I export puzzles in grayscale for ink-friendly printing?',
       answer:
-        ‘Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for bulk printing, homework packets, or activity books where color printing isn't practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.',
+        'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for bulk printing, homework packets, or activity books where color printing isn't practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.',
     },
     {
       question: 'Is there a free trial?',

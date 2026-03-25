@@ -20,7 +20,7 @@ const content: AppContent = {
 
   hero: {
     title: 'Picture Crossword Generator for Image-Based Crossword Puzzles',
-    tagline: 'Replace traditional text clues with image clues on a 15×15 crossword grid — four input methods (theme auto-select, manual image editing, custom word list, and image upload), auto-generated answer key with filled grid, and a localized “Picture Crossword” header across 104 themed image collections.',
+    tagline: 'Replace traditional text clues with image clues on a 15×15 crossword grid — four input methods (theme auto-select, manual image editing, custom word list, and image upload), auto-generated answer key with filled grid, and a localized "Picture Crossword" header across 104 themed image collections.',
     description:
       'Build professional picture crossword puzzles where colorful images replace the text clues found in traditional crosswords. Eight images generate eight words on a fixed 15×15 grid — the algorithm extracts words from image names, sorts by length for optimal placement, and fills the grid with numbered clue positions. Choose from four input methods: Quick Theme Generation auto-selects 8 random images from any theme and generates instantly; Manual Image Name Editing lets you click individual images and rename them before generation; Custom Word List with Clues switches to traditional text-clue crosswords using a WORD: clue format; and Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library content. The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names via the Image Vocabulary system, so switching languages changes the actual crossword words. The dual-canvas system generates both a puzzle tab and an answer key tab — the answer key shows the filled grid with all answers visible. Every puzzle includes an auto-generated localized header with a blue background (#5B9BD5), Fredoka title, and Quicksand description rendered in all 11 supported languages. Full Access unlocks all 104 themes with 3,100+ illustrations and all 11 languages for localized puzzle words. Add background themes and border themes with independent opacity controls, and export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, or custom sizes. Whether you sell picture crossword bundles on Etsy, compile crossword workbooks for Amazon KDP, or list vocabulary crossword activities on Gumroad, this generator delivers production-ready puzzles in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
@@ -46,7 +46,7 @@ const content: AppContent = {
       {
         title: 'Generate the Picture Crossword Puzzle',
         description:
-          'Click Generate to create the crossword on a fixed 15×15 grid. The algorithm extracts words from image names, removes spaces, converts to uppercase, shuffles and sorts by length (longest first), then places words into the grid for optimal crossing. Numbered clue positions mark the start of each word. Image clues appear alongside the grid with their corresponding numbers. A styled “Picture Crossword” header appears at the top with a blue background (#5B9BD5), white pill, and localized title and description in Fredoka and Quicksand fonts.',
+          'Click Generate to create the crossword on a fixed 15×15 grid. The algorithm extracts words from image names, removes spaces, converts to uppercase, shuffles and sorts by length (longest first), then places words into the grid for optimal crossing. Numbered clue positions mark the start of each word. Image clues appear alongside the grid with their corresponding numbers. A styled "Picture Crossword" header appears at the top with a blue background (#5B9BD5), white pill, and localized title and description in Fredoka and Quicksand fonts.',
       },
       {
         title: 'Generate the Answer Key and Download',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Localized Puzzle Words in 11 Languages via Image Vocabulary',
         description:
-          'The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names loaded through the Image Vocabulary system. Switching the content language changes the actual words placed in the crossword grid. For example, a cat image generates “CAT” in English but “KATZE” in German and “CHAT” in French — producing entirely different crossword puzzles from the same images. All 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Commercial tier includes English content; Full Access unlocks all 11 languages for localized puzzle words.',
+          'The Picture Crossword Generator is language-sensitive: puzzle words come from localized image names loaded through the Image Vocabulary system. Switching the content language changes the actual words placed in the crossword grid. For example, a cat image generates "CAT" in English but "KATZE" in German and "CHAT" in French — producing entirely different crossword puzzles from the same images. All 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The Commercial tier includes English content; Full Access unlocks all 11 languages for localized puzzle words.',
       },
       {
         title: 'Custom Word List with Text Clues for Traditional Crosswords',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Manual Image Name Editing Before Puzzle Generation',
         description:
-          'Enable the Manual Image Name Editing checkbox to take full control over the words that appear in your crossword grid. Click individual images from the library to select them, then edit each image's display name in the editing interface. The edited names become the crossword words — rename “Butterfly” to “Monarch” or simplify “Fire Truck” to “Truck” for easier puzzles. This feature bridges the gap between fully automatic theme generation and fully manual custom word lists, giving you image-based clues with precise vocabulary control.',
+          'Enable the Manual Image Name Editing checkbox to take full control over the words that appear in your crossword grid. Click individual images from the library to select them, then edit each image's display name in the editing interface. The edited names become the crossword words — rename "Butterfly" to "Monarch" or simplify "Fire Truck" to "Truck" for easier puzzles. This feature bridges the gap between fully automatic theme generation and fully manual custom word lists, giving you image-based clues with precise vocabulary control.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -120,7 +120,7 @@ const content: AppContent = {
       {
         title: 'Multilingual Picture Crossword Sets Using Language-Sensitive Generation',
         description:
-          'Leverage the language-sensitive word generation to create picture crossword puzzles in 11 languages. The same images produce entirely different crossword grids when you switch languages — a cat image creates “CAT” in English, “KATZE” in German, and “GATTO” in Italian. Create multilingual crossword bundles where each language version uses the same themed images but produces unique puzzles with localized words. This is valuable for sellers targeting bilingual markets and international buyers. Sell language-specific bundles or multilingual mega-packs at premium prices.',
+          'Leverage the language-sensitive word generation to create picture crossword puzzles in 11 languages. The same images produce entirely different crossword grids when you switch languages — a cat image creates "CAT" in English, "KATZE" in German, and "GATTO" in Italian. Create multilingual crossword bundles where each language version uses the same themed images but produces unique puzzles with localized words. This is valuable for sellers targeting bilingual markets and international buyers. Sell language-specific bundles or multilingual mega-packs at premium prices.',
         platform: 'Etsy / Gumroad (multilingual market)',
       },
       {
@@ -172,12 +172,12 @@ const content: AppContent = {
     {
       question: 'Is the Picture Crossword Generator language-sensitive?',
       answer:
-        'Yes. Puzzle words come from localized image names loaded through the Image Vocabulary system. Switching the content language changes the actual words placed in the crossword grid. A cat image generates “CAT” in English but “KATZE” in German, “CHAT” in French, and “GATTO” in Italian — creating entirely different crossword puzzles from identical image selections. The localized “Picture Crossword” header also changes with the selected language. The Commercial tier includes English content; Full Access unlocks all 11 languages.',
+        'Yes. Puzzle words come from localized image names loaded through the Image Vocabulary system. Switching the content language changes the actual words placed in the crossword grid. A cat image generates "CAT" in English but "KATZE" in German, "CHAT" in French, and "GATTO" in Italian — creating entirely different crossword puzzles from identical image selections. The localized "Picture Crossword" header also changes with the selected language. The Commercial tier includes English content; Full Access unlocks all 11 languages.',
     },
     {
       question: 'How does the auto-generated header work?',
       answer:
-        'Every generated crossword includes a responsive header with a blue background (#5B9BD5), white pill, and localized title and description. Portrait mode displays a full-width header (220px height); landscape mode uses a compact centered layout (145px height). The title “Picture Crossword” renders in Fredoka font with dynamic sizing (48px for short titles down to 28px for longer translations), and the description “Look at the pictures and fill in the words!” renders in Quicksand. Both text elements translate automatically into all 11 supported languages. A bright blue border (#4A90E2, 8px stroke, 12px rounded corners) frames the header.',
+        'Every generated crossword includes a responsive header with a blue background (#5B9BD5), white pill, and localized title and description. Portrait mode displays a full-width header (220px height); landscape mode uses a compact centered layout (145px height). The title "Picture Crossword" renders in Fredoka font with dynamic sizing (48px for short titles down to 28px for longer translations), and the description "Look at the pictures and fill in the words!" renders in Quicksand. Both text elements translate automatically into all 11 supported languages. A bright blue border (#4A90E2, 8px stroke, 12px rounded corners) frames the header.',
     },
     {
       question: 'Is there a free trial?',

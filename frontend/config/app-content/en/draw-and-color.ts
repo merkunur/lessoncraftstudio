@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids' Activities',
+      anchorText: 'Summer Printable Ideas for Kids Activities',
     },
     {
       pageType: 'idea',

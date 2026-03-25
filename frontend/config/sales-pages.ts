@@ -618,18 +618,18 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 5. Income Potential ──────────────────
     incomePotential: {
       headline: 'The Math Behind Math Puzzle Income',
-      description: 'Create 10 themed math puzzle books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that\'s a growing passive income stream with every new title you publish.',
+      description: 'Create 10 themed math puzzle books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that’s a growing passive income stream with every new title you publish.',
       calculation: '$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month',
     },
 
     // ── 7. Obstacles ─────────────────────────
     obstacles: {
-      headline: 'Maybe You\'ve Tried Before...',
+      headline: 'Maybe You’ve Tried Before...',
       problems: [
         'Creating math puzzles manually means writing equations, slicing images, and aligning pieces — hours per worksheet',
         'Professional puzzle-making software costs $200+ and has a steep learning curve',
-        'You don\'t know how to generate auto-graded answer keys',
-        'Formatting for print (KDP, Etsy) requires technical knowledge you don\'t have',
+        'You don’t know how to generate auto-graded answer keys',
+        'Formatting for print (KDP, Etsy) requires technical knowledge you don’t have',
       ],
       solution: 'Math Puzzle Studio Pro handles all of this automatically. Pick an image, set your grid and math operation, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
     },
@@ -650,7 +650,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     beforeAfter: {
       before: [
         'Spend hours manually creating math puzzle grids and writing equations',
-        'Pay $200+ for design software you don\'t know how to use',
+        'Pay $200+ for design software you don’t know how to use',
         'Produce plain worksheets that look unprofessional',
         'Struggle with print formatting and page sizing',
         'No way to generate answer keys automatically',
@@ -789,13 +789,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Math Puzzle Studio Pro risk-free for 30 days. If it doesn\'t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: 'Try Math Puzzle Studio Pro risk-free for 30 days. If it doesn’t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
     },
 
     // ── 18. Urgency ──────────────────────────
     urgency: {
       headline: 'Lock In This Launch Price',
-      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won\'t come back down.',
+      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won’t come back down.',
       regularPrice: 97,
     },
 
@@ -822,8 +822,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         answer: 'Unlimited. There is no cap on how many math puzzle worksheets you can generate. Create as many as you want, forever.',
       },
       {
-        question: 'What if I\'m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If Math Puzzle Studio Pro doesn\'t meet your expectations, contact us for a full refund. No questions asked.',
+        question: 'What if I’m not satisfied?',
+        answer: 'We offer a 30-day money-back guarantee. If Math Puzzle Studio Pro doesn’t meet your expectations, contact us for a full refund. No questions asked.',
       },
       {
         question: 'Do I need math or design skills?',
@@ -831,12 +831,12 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       },
       {
         question: 'Can I upgrade to more themes later?',
-        answer: 'Yes. After purchase, you\'ll have the option to add the Complete Image Library (104 themes, 3,125 images). But the best price is available right after your initial purchase.',
+        answer: 'Yes. After purchase, you’ll have the option to add the Complete Image Library (104 themes, 3,125 images). But the best price is available right after your initial purchase.',
       },
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You\'re getting Math Puzzle Studio Pro, 9 grid configurations, 3 math operations, auto answer keys, 10 image themes, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first math puzzle book today.',
+    closingPs: 'You’re getting Math Puzzle Studio Pro, 9 grid configurations, 3 math operations, auto answer keys, 10 image themes, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first math puzzle book today.',
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -966,7 +966,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn\'t meet your expectations, contact us for a full refund.',
+      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn’t meet your expectations, contact us for a full refund.',
     },
 
     // ── 7. FAQ ───────────────────────────────
@@ -984,12 +984,12 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
       },
       {
-        question: 'What\'s the difference between colorful and black & white themes?',
+        question: 'What’s the difference between colorful and black & white themes?',
         answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.',
       },
     ],
 
-    declineText: 'No thanks, I\'ll stick with 10 themes',
+    declineText: 'No thanks, I’ll stick with 10 themes',
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -1367,18 +1367,18 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 5. Income Potential ──────────────────
     incomePotential: {
       headline: 'The Math Behind Code Addition Income',
-      description: 'Create 10 themed code breaker addition books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that\'s a growing passive income stream with every new title you publish.',
+      description: 'Create 10 themed code breaker addition books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that’s a growing passive income stream with every new title you publish.',
       calculation: '$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month',
     },
 
     // ── 7. Obstacles ─────────────────────────
     obstacles: {
-      headline: 'Maybe You\'ve Tried Before...',
+      headline: 'Maybe You’ve Tried Before...',
       problems: [
         'Creating code breaker worksheets manually means assigning symbols, writing equations, and making answer keys — hours per worksheet',
         'Professional worksheet-making software costs $200+ and has a steep learning curve',
-        'You don\'t know how to generate auto-graded answer keys for code puzzles',
-        'Formatting for print (KDP, Etsy) requires technical knowledge you don\'t have',
+        'You don’t know how to generate auto-graded answer keys for code puzzles',
+        'Formatting for print (KDP, Etsy) requires technical knowledge you don’t have',
       ],
       solution: 'Code Addition Studio Pro handles all of this automatically. Pick a theme, set your difficulty, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
     },
@@ -1399,7 +1399,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     beforeAfter: {
       before: [
         'Spend hours manually creating code worksheets and writing equations',
-        'Pay $200+ for design software you don\'t know how to use',
+        'Pay $200+ for design software you don’t know how to use',
         'Produce plain worksheets that look unprofessional',
         'Struggle with print formatting and page sizing',
         'No way to generate answer keys automatically',
@@ -1538,13 +1538,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Code Addition Studio Pro risk-free for 30 days. If it doesn\'t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: 'Try Code Addition Studio Pro risk-free for 30 days. If it doesn’t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
     },
 
     // ── 18. Urgency ──────────────────────────
     urgency: {
       headline: 'Lock In This Launch Price',
-      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won\'t come back down.',
+      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won’t come back down.',
       regularPrice: 97,
     },
 
@@ -1571,8 +1571,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         answer: 'Unlimited. There is no cap on how many code breaker worksheets you can generate. Create as many as you want, forever.',
       },
       {
-        question: 'What if I\'m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If Code Addition Studio Pro doesn\'t meet your expectations, contact us for a full refund. No questions asked.',
+        question: 'What if I’m not satisfied?',
+        answer: 'We offer a 30-day money-back guarantee. If Code Addition Studio Pro doesn’t meet your expectations, contact us for a full refund. No questions asked.',
       },
       {
         question: 'Do I need math or design skills?',
@@ -1580,12 +1580,12 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       },
       {
         question: 'Can I upgrade to more themes or features later?',
-        answer: 'Yes. After purchase, you\'ll have the option to add Word Reveal Mode and the Complete Image Library (104 themes). But the best prices are available right after your initial purchase.',
+        answer: 'Yes. After purchase, you’ll have the option to add Word Reveal Mode and the Complete Image Library (104 themes). But the best prices are available right after your initial purchase.',
       },
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You\'re getting Code Addition Studio Pro, adjustable difficulty settings, auto answer keys, 10 image themes, all 11 languages, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first code breaker worksheet today.',
+    closingPs: 'You’re getting Code Addition Studio Pro, adjustable difficulty settings, auto answer keys, 10 image themes, all 11 languages, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first code breaker worksheet today.',
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -1678,7 +1678,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If Word Reveal Mode doesn\'t meet your expectations, contact us for a full refund.',
+      text: 'Same 30-day money-back guarantee. If Word Reveal Mode doesn’t meet your expectations, contact us for a full refund.',
     },
 
     // ── 7. FAQ ───────────────────────────────
@@ -1701,7 +1701,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       },
     ],
 
-    declineText: 'No thanks, I\'ll stick with Regular Mode only',
+    declineText: 'No thanks, I’ll stick with Regular Mode only',
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -1824,7 +1824,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn\'t meet your expectations, contact us for a full refund.',
+      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn’t meet your expectations, contact us for a full refund.',
     },
 
     // ── 7. FAQ ───────────────────────────────
@@ -1842,12 +1842,12 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
       },
       {
-        question: 'What\'s the difference between colorful and black & white themes?',
+        question: 'What’s the difference between colorful and black & white themes?',
         answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.',
       },
     ],
 
-    declineText: 'No thanks, I\'ll stick with 10 themes',
+    declineText: 'No thanks, I’ll stick with 10 themes',
 
     // ── Pricing (CTA section) ────────────────
     pricing: {

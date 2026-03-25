@@ -168,7 +168,7 @@ const content: AppContent = {
     {
       question: 'Perché non esiste un foglio risposte per le schede Pregrafismo?',
       answer:
-        'Le schede Pregrafismo non necessitano di un foglio risposte separato perché il tracciato della linea stesso guida l'utente. Il modello di linea SVG stampato sulla scheda mostra esattamente dove tracciare — gli utenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dell'utente segue il tracciato e raggiunge l\'immagine corrispondente, lo ha completato correttamente.',
+        'Le schede Pregrafismo non necessitano di un foglio risposte separato perché il tracciato della linea stesso guida l\'utente. Il modello di linea SVG stampato sulla scheda mostra esattamente dove tracciare — gli utenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dell\'utente segue il tracciato e raggiunge l\'immagine corrispondente, lo ha completato correttamente.',
     },
     {
       question: 'Posso caricare le mie immagini personalizzate invece di usare la libreria?',

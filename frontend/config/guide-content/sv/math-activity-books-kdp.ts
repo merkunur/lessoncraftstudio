@@ -52,7 +52,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Skriv en KDP-annons som rankar på Amazon',
-      content: 'Amazon ger dig 7 nyckelordsfält med upp till 50 tecken vardera. Dessa är inte synliga för kunder men påverkar direkt vilka sökningar din bok visas i. Exempel: "kindergarten math workbook addition practice", "math activity book ages 4 5 6", "addition worksheets for kids preschool."\n\nTitel och undertitel bär betydande sökvikt. Titeln bör inkludera ditt primära nyckelord naturligt: "Addition Practice for Kindergarten: A Math Activity Workbook with Picture-Based Problems, Puzzles, and Answer Keys."\n\nBokbeskrivningen stöder grundläggande HTML-formatering. Led med huvudfördelen, följ med innehållsdetaljer, avsluta med vad som skiljer din bok. Nämn att facit ingår.\n\nVälj upp till två bläddringskategorier. Relevanta: Children's Arithmetic Books, Children's Math Activity Books, Education and Teaching Mathematics. Du kan begära ytterligare kategorier via KDP Support efter publicering.',
+      content: 'Amazon ger dig 7 nyckelordsfält med upp till 50 tecken vardera. Dessa är inte synliga för kunder men påverkar direkt vilka sökningar din bok visas i. Exempel: "kindergarten math workbook addition practice", "math activity book ages 4 5 6", "addition worksheets for kids preschool."\n\nTitel och undertitel bär betydande sökvikt. Titeln bör inkludera ditt primära nyckelord naturligt: "Addition Practice for Kindergarten: A Math Activity Workbook with Picture-Based Problems, Puzzles, and Answer Keys."\n\nBokbeskrivningen stöder grundläggande HTML-formatering. Led med huvudfördelen, följ med innehållsdetaljer, avsluta med vad som skiljer din bok. Nämn att facit ingår.\n\nVälj upp till två bläddringskategorier. Relevanta: Children\'s Arithmetic Books, Children\'s Math Activity Books, Education and Teaching Mathematics. Du kan begära ytterligare kategorier via KDP Support efter publicering.',
     },
     {
       heading: 'Sätt priser för maximala KDP-royalties',
@@ -75,7 +75,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Optimera dina bläddringskategorier för upptäckbarhet',
-      content: 'Under publicering erbjuder KDP två kategoriplatser, men du kan begära upp till 10 via KDP Support efter publicering. Rikta dig mot både breda (Children's Math Books) och specifika kategorier (Children's Arithmetic). Att visas i flera kategorier ökar chansen att ranka — en bok i topp-20 av en specifik underkategori får ett toppsäljarmärke som ökar klickfrekvensen.',
+      content: 'Under publicering erbjuder KDP två kategoriplatser, men du kan begära upp till 10 via KDP Support efter publicering. Rikta dig mot både breda (Children\'s Math Books) och specifika kategorier (Children\'s Arithmetic). Att visas i flera kategorier ökar chansen att ranka — en bok i topp-20 av en specifik underkategori får ett toppsäljarmärke som ökar klickfrekvensen.',
     },
   ],
 

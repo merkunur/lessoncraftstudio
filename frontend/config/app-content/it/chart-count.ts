@@ -121,7 +121,7 @@ const content: AppContent = {
       {
         title: 'Schede per attività di centro matematica su Gumroad',
         description:
-          'Costruisci attività per centri di matematica pronte all\'uso con grafici a immagini che includono campi nome e data dell'utente. i venditori che cercano attività di grafici su Gumroad apprezzano le schede con identificazione integrata dell'utente — la casella nome/data rende il tuo prodotto immediatamente pronto per il negozio senza formattazione aggiuntiva. Crea set tematici legati a unità curricolari: conteggio animali della fattoria per scienze della vita, grafici di icone meteorologiche per scienze della terra, o conteggio veicoli degli aiutanti della comunità per educazione civica. Ogni scheda viene con la propria chiave di valore percepito, eliminando il tempo di preparazione dell\'venditore.',
+          'Costruisci attività per centri di matematica pronte all\'uso con grafici a immagini che includono campi nome e data dell\'utente. i venditori che cercano attività di grafici su Gumroad apprezzano le schede con identificazione integrata dell\'utente — la casella nome/data rende il tuo prodotto immediatamente pronto per il negozio senza formattazione aggiuntiva. Crea set tematici legati a unità curricolari: conteggio animali della fattoria per scienze della vita, grafici di icone meteorologiche per scienze della terra, o conteggio veicoli degli aiutanti della comunità per educazione civica. Ogni scheda viene con la propria chiave di valore percepito, eliminando il tempo di preparazione dell\'venditore.',
         platform: 'Gumroad (teacherspayteachers.com)',
       },
       {

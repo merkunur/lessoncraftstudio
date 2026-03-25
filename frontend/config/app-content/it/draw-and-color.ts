@@ -47,7 +47,7 @@ const content: AppContent = {
       {
         title: 'Aggiungi decorazioni di testo e personalizza il canvas',
         description:
-          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell'utente o istruzioni di disegno con font come Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. L\'intestazione autogenerata appare con testo localizzato nella lingua selezionata. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas completo Fabric.js. Usa i controlli livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25 % al 300 % per un posizionamento preciso. Attiva l\'opzione campi nome/data per le zone di identificazione dell'utente.',
+          'Usa il pannello Strumenti Testo per aggiungere un titolo alla scheda, campi nome e data dell\'utente o istruzioni di disegno con font come Baloo 2, Fredoka, Lexend Deca, Nunito e Quicksand. L\'intestazione autogenerata appare con testo localizzato nella lingua selezionata. Trascina, ridimensiona, ruota e riposiziona ogni elemento sul canvas completo Fabric.js. Usa i controlli livelli, blocco/sblocco, strumenti di allineamento e zoom dal 25 % al 300 % per un posizionamento preciso. Attiva l\'opzione campi nome/data per le zone di identificazione dell\'utente.',
       },
       {
         title: 'Scarica la griglia di pratica e la griglia indizi',

@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Perché non c\'è una chiave di risposta?',
-      answer: 'Le schede Pregrafismo non necessitano di una chiave di risposta separata perché il percorso della linea stesso guida l'utente. Il modello SVG stampato sulla scheda mostra esattamente dove tracciare — gli utenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dell'utente segue il percorso e raggiunge l\'immagine corrispondente, l\'esercizio è completato correttamente.',
+      answer: 'Le schede Pregrafismo non necessitano di una chiave di risposta separata perché il percorso della linea stesso guida l\'utente. Il modello SVG stampato sulla scheda mostra esattamente dove tracciare — gli utenti seguono il percorso visibile da un\'immagine alla sua corrispondente. L\'esercizio è autocorrettivo: se la linea dell\'utente segue il percorso e raggiunge l\'immagine corrispondente, l\'esercizio è completato correttamente.',
     },
     {
       question: 'Queste schede sono sensibili alla lingua?',

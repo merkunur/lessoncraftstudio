@@ -182,7 +182,7 @@ const content: GuideContent = {
     samples: [
       {
         src: '/samples/english/wordsearch/wordsearch portrait.webp',
-        alt: 'Word search worksheet ideal for email lead magnets that attract printable buyers',
+        alt: 'Word search worksheet ideal for email lead magnets that attract printable buyers,
         caption: 'Word searches make compelling lead magnets that attract your target buyer audience',
       },
       {

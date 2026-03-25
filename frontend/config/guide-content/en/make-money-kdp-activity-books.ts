@@ -199,7 +199,7 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle worksheet demonstrating KDP activity book content for revenue generation' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle formatted for KDP activity book interior pages', caption: 'Sudoku puzzles — a consistently profitable activity book category on Amazon KDP with loyal repeat buyers' },
+      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle formatted for KDP activity book interior pages', caption: 'Sudoku puzzles — a consistently profitable activity book category on Amazon KDP with loyal repeat buyers },
       { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Math worksheet formatted for KDP workbook interior pages', caption: 'Math workbooks — high-demand KDP category with natural grade-level catalog expansion opportunities' },
       { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle for KDP puzzle book catalog diversification', caption: 'Word search books — the largest puzzle book category on Amazon with strong potential for multi-volume series revenue' },
     ],

@@ -40,7 +40,7 @@ const content: CompareContent = {
     {
       feature: 'Puzzle & Worksheet Types',
       lcs: '33 generators — word search, crossword, addition, subtraction, coloring, bingo, matching, drawing, pattern recognition, sudoku, mazes, and more',
-      competitor: '~12 puzzle types — word search, sudoku, crossword, mazes, number search, and a few others',
+      competitor: '~12 puzzle types — word search, sudoku, crossword, mazes, number search, and a few others,
     },
     {
       feature: 'Post-Generation Editing',

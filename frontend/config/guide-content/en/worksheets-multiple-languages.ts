@@ -23,7 +23,7 @@ const content: GuideContent = {
 
   hero: {
     title: 'How to Create Worksheets in Multiple Languages',
-    tagline: 'A practical guide to multi-language worksheet production — covering how to choose language-appropriate worksheet types, set up a multi-language workspace, handle special characters and fonts, adapt content naturally for each market, implement translation quality assurance, use automated multi-language tools, build efficient batch production workflows, and optimize marketplace listings for international buyers',
+    tagline: 'A practical guide to multi-language worksheet production — covering how to choose language-appropriate worksheet types, set up a multi-language workspace, handle special characters and fonts, adapt content naturally for each market, implement translation quality assurance, use automated multi-language tools, build efficient batch production workflows, and optimize marketplace listings for international buyers,
     description: 'Creating worksheets in multiple languages is not simply a matter of running text through a translator. Professional multi-language production requires understanding character sets, font compatibility, text length variations, cultural context, and quality assurance processes that ensure every language version meets the same standard as your original. This guide walks through the complete production methodology for creating worksheets that look and read professionally in every target language.',
   },
 

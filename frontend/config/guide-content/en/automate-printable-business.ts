@@ -75,7 +75,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Batch Gumroad Uploads Using Consistent Product Formatting',
-      content: 'Gumroad rewards consistent, professional product presentation. Create a Gumroad-specific description template that leverages the platform\’s rich text formatting with headers, bullet points, and bold text for key features. Standardize your Gumroad preview images with a consistent layout that buyers recognize as your brand. Use Gumroad\’s product bundling feature to automatically create bundle listings from existing individual products. Maintain consistent pricing tiers across your Gumroad catalog so buyers can predict value based on product type and page count, which builds trust and encourages multi-product purchases from your store.',
+      content: 'Gumroad rewards consistent, professional product presentation. Create a Gumroad-specific description template that leverages the platform\'s rich text formatting with headers, bullet points, and bold text for key features. Standardize your Gumroad preview images with a consistent layout that buyers recognize as your brand. Use Gumroad\'s product bundling feature to automatically create bundle listings from existing individual products. Maintain consistent pricing tiers across your Gumroad catalog so buyers can predict value based on product type and page count, which builds trust and encourages multi-product purchases from your store.',
     },
   ],
 

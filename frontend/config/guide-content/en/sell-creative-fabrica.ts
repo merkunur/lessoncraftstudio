@@ -5,7 +5,7 @@ const content: GuideContent = {
     primaryKeyword: 'sell educational resources on Creative Fabrica',
     secondaryKeywords: [
       'how to sell on Creative Fabrica',
-      'Creative Fabrica for buyers',
+      'Creative Fabrica for buyers,
       'sell printables on Creative Fabrica',
       'Creative Fabrica Learning resources',
     ],

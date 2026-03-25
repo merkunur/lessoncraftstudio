@@ -11,7 +11,7 @@ const content: GuideContent = {
     ],
     lsiKeywords: [
       'language expansion international markets localization strategy European printable markets',
-      'German educational market French worksheet demand Spanish printable buyers',
+      'German educational market French worksheet demand Spanish printable buyers,
       'multi-language catalog revenue multiplication market diversification cross-border selling',
       'translation workflow global education market language-specific marketplaces international SEO',
       'multilingual product portfolio language coverage competitive advantage underserved markets',

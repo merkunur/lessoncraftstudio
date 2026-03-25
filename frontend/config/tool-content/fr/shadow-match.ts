@@ -15,7 +15,7 @@ const content: ToolContent = {
       'corrigé automatique fiches discrimination visuelle lettre-numéro',
     ],
     titleTag: 'Créateur Discrimination Visuelle — Générateur Silhouettes',
-    metaDescription: 'Créez des fiches discrimination visuelle avec silhouettes pixel et mode Reconstitue l’Image, corrigés auto, 104 thèmes d’images. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches discrimination visuelle avec silhouettes pixel et mode Reconstitue l\'Image, corrigés auto, 104 thèmes d\'images. Essai gratuit avec filigrane.',
   },
 
   hero: {

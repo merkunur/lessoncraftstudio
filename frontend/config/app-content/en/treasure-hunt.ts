@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal Treasure Hunt Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited treasure hunt collections that align with peak shopping periods. Release Halloween treasure hunts in September, Christmas collections in October, and Valentine’s Day packs in January. Include both Basic and Cardinal direction types in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Create time-limited treasure hunt collections that align with peak shopping periods. Release Halloween treasure hunts in September, Christmas collections in October, and Valentine\'s Day packs in January. Include both Basic and Cardinal direction types in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],

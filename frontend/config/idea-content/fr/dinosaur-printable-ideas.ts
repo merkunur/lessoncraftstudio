@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Dinosaures à Vendre — Guide de Niche',
-    metaDescription: 'Idées rentables d’imprimables dinosaures à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits, stratégies de plateformes et conseils de niche vendeurs.',
+    metaDescription: 'Idées rentables d\'imprimables dinosaures à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits, stratégies de plateformes et conseils de niche vendeurs.',
 
     primaryKeyword: 'idées d\'imprimables dinosaures',
     secondaryKeywords: [

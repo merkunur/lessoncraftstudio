@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Custom Vocabulary Scramble Worksheets',
-      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, weekly vocabulary assignments, or foreign language practice. No images needed — the tool generates scrambled letter tiles from your typed words. Create targeted spelling puzzles for any curriculum, grade level, or niche topic that the image library doesn’t cover.',
+      description: 'Use Custom Word List mode to type subject-specific vocabulary directly: science terms, sight words, spelling bee lists, weekly vocabulary assignments, or foreign language practice. No images needed — the tool generates scrambled letter tiles from your typed words. Create targeted spelling puzzles for any curriculum, grade level, or niche topic that the image library doesn\'t cover.',
     },
     {
       title: 'Differentiated Difficulty Bundles',

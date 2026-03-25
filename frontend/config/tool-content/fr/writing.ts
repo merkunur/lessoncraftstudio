@@ -15,7 +15,7 @@ const content: ToolContent = {
       'générateur écriture cursive et imprimé avec flèches',
     ],
     titleTag: 'Générateur Fiches d\'Écriture | Créer et Vendre',
-    metaDescription: 'Créez des fiches d’écriture avec 3 modes de pratique, 5 polices, flèches d’ordre des traits, guides dégradés, 104 thèmes. Essai gratuit avec filigrane.',
+    metaDescription: 'Créez des fiches d\'écriture avec 3 modes de pratique, 5 polices, flèches d\'ordre des traits, guides dégradés, 104 thèmes. Essai gratuit avec filigrane.',
   },
 
   hero: {

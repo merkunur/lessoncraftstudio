@@ -22,7 +22,7 @@ const content: AppContent = {
     title: 'Coloring Page Generator for Custom Printable Coloring Worksheets',
     tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
-      ‘Design professional coloring pages on a free-form canvas where you place images exactly where you want them — no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Layout helpers add a name field and handwriting practice lines with a single click — turning coloring pages into ready-to-use printable activities. When you are finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive — output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or list coloring activities on Gumroad, the Coloring Page Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.’,
+      \'Design professional coloring pages on a free-form canvas where you place images exactly where you want them — no grids, no templates, pure creative freedom. Browse the built-in Image Library with 3,100+ colorful illustrations across 104 themed collections, click any image to add it to your canvas, then arrange, resize, rotate, and layer elements until your page looks perfect. The freehand drawing tool lets you sketch custom illustrations directly on the canvas with adjustable brush color and size. Layout helpers add a name field and handwriting practice lines with a single click — turning coloring pages into ready-to-use printable activities. When you are finished, toggle the grayscale export option to convert your colorful composition into ink-friendly coloring pages perfect for print. Add decorative border themes, custom text with outline effects, and upload your own images alongside library content. The Coloring Page Generator is not language-sensitive — output is purely visual, so worksheets look identical in every language. Full Access unlocks all 104 themes and all 11 UI languages for the interface. Export print-ready PDFs and JPEGs at 300 DPI in Letter, A4, Square, or custom sizes. Whether you sell coloring page bundles on Etsy, compile coloring books for Amazon KDP, or list coloring activities on Gumroad, the Coloring Page Generator delivers professional results in minutes — free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.\',
   },
 
   howItWorks: {
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Coloring Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, winter holidays, and more. Create time-limited coloring page collections that align with peak shopping periods. Release Halloween coloring bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from the same customer base.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, winter holidays, and more. Create time-limited coloring page collections that align with peak shopping periods. Release Halloween coloring bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases from the same customer base.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'How do the decorative border themes work?',
       answer:
-        'In the Page Setup panel, select a border theme from the border library. The border frames your canvas and adds visual polish to the finished coloring page. Borders are applied as canvas elements that you can see in the editor. They define the visual boundary of the page without interfering with your images, text, or drawings. Different border themes suit different audiences — playful borders for children’s coloring pages, elegant borders for adult coloring books.',
+        'In the Page Setup panel, select a border theme from the border library. The border frames your canvas and adds visual polish to the finished coloring page. Borders are applied as canvas elements that you can see in the editor. They define the visual boundary of the page without interfering with your images, text, or drawings. Different border themes suit different audiences — playful borders for children\'s coloring pages, elegant borders for adult coloring books.',
     },
     {
       question: 'Why is there no answer key for coloring pages?',
@@ -240,7 +240,7 @@ const content: AppContent = {
     {
       pageType: 'idea',
       slug: 'summer-printable-ideas',
-      anchorText: 'Summer Printable Ideas for Kids’ Activities',
+      anchorText: 'Summer Printable Ideas for Kids\' Activities',
     },
     {
       pageType: 'idea',

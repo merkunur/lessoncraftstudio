@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Imprimables Rentrée Scolaire à Vendre — Guide de Niche',
-    metaDescription: 'Idées d’imprimables de rentrée à vendre sur Etsy, KDP et Gumroad. Concepts produits pour la vente, stratégies juillet-septembre et conseils vendeurs.',
+    metaDescription: 'Idées d\'imprimables de rentrée à vendre sur Etsy, KDP et Gumroad. Concepts produits pour la vente, stratégies juillet-septembre et conseils vendeurs.',
 
     primaryKeyword: 'imprimables rentrée à vendre',
     secondaryKeywords: [

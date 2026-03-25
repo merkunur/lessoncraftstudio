@@ -3,7 +3,7 @@ import type { IdeaContent } from '../types';
 const content: IdeaContent = {
   seo: {
     titleTag: 'Idées d\'Imprimables Oiseaux à Vendre — Guide de Niche',
-    metaDescription: 'Idées d’imprimables oiseaux à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits, stratégies de plateformes et positionnement de niche pour vendeurs.',
+    metaDescription: 'Idées d\'imprimables oiseaux à vendre sur Etsy, Amazon KDP et Gumroad. Concepts de produits, stratégies de plateformes et positionnement de niche pour vendeurs.',
 
     primaryKeyword: 'idées d\'imprimables oiseaux à vendre',
     secondaryKeywords: [

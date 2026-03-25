@@ -142,7 +142,7 @@ const content: AppContent = {
     {
       question: 'What are the nine pattern types and how do they differ?',
       answer:
-        ‘AB alternates two items (A-B-A-B) for the simplest pattern. AAB groups two of one then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three items (A-B-C-A-B-C). AABB pairs two of each (A-A-B-B-A-A-B-B). ABBC places two B’s between A and C. AABC leads with two A’s before B and C. ABCC ends with two C’s after A and B. ABCD rotates four different items for maximum complexity. The progression from 2-image to 4-image patterns creates a natural difficulty ladder spanning beginner-level through advanced early-learner content.’,
+        \'AB alternates two items (A-B-A-B) for the simplest pattern. AAB groups two of one then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three items (A-B-C-A-B-C). AABB pairs two of each (A-A-B-B-A-A-B-B). ABBC places two B\'s between A and C. AABC leads with two A\'s before B and C. ABCC ends with two C\'s after A and B. ABCD rotates four different items for maximum complexity. The progression from 2-image to 4-image patterns creates a natural difficulty ladder spanning beginner-level through advanced early-learner content.\',
     },
     {
       question: 'What are the two question modes and how do they work?',

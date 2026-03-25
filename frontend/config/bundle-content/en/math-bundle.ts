@@ -104,8 +104,8 @@ const content: BundleContent = {
       platform: 'Gumroad',
     },
     {
-      title: ‘Tutoring and Homeschool Materials’,
-      description: ‘Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so users never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for the younger audience and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple learners can generate personalized worksheet sets tailored to each person’s current skill level and interests, creating a differentiated approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math practice.’,
+      title: \'Tutoring and Homeschool Materials\',
+      description: \'Generate fresh worksheets for each tutoring session or homeschool week. Vary the difficulty, theme, and problem type so users never see the same page twice. The answer keys let parents and tutors check work instantly without calculating solutions manually. Start with simple addition counting for the younger audience and progress through subtraction, comparison, and algebraic picture puzzles as skills develop — all from the same bundle. Tutors who serve multiple learners can generate personalized worksheet sets tailored to each person\'s current skill level and interests, creating a differentiated approach that parents value and are willing to pay premium tutoring rates for. Homeschool families benefit from the variety across six generators because it prevents the repetitive worksheet fatigue that often derails at-home math practice.\',
     },
     {
       title: 'Bulk Licensing to Schools and Districts',

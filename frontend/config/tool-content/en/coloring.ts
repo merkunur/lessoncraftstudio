@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Coloring Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine’s Day, summer, autumn, and winter themes each support dedicated coloring page packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The free-form canvas lets you combine multiple seasonal images on a single page for rich, detailed compositions that stand out from single-image coloring sheets. Seasonal products drive recurring annual revenue as buyers return each year.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine\'s Day, summer, autumn, and winter themes each support dedicated coloring page packs. Release each collection 4–6 weeks before the holiday for maximum marketplace visibility. The free-form canvas lets you combine multiple seasonal images on a single page for rich, detailed compositions that stand out from single-image coloring sheets. Seasonal products drive recurring annual revenue as buyers return each year.',
     },
     {
       title: 'Cross-Format Visual Activity Bundles',
@@ -96,7 +96,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Amazon KDP Coloring Book Series',
-      description: 'Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids’ books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP’s content differentiation requirements.',
+      description: 'Compile 50–80 coloring pages into themed books for Amazon KDP. The grayscale export produces ink-friendly pages that print perfectly in standard black-and-white. Structure a series by audience: toddler coloring books with simple large images, preschool books with moderate detail, and kids\' books with complex multi-image compositions. The purely visual output publishes identically across all international KDP marketplaces — one interior serves every country without translation. Freehand drawings mixed with library images create original content that passes KDP\'s content differentiation requirements.',
       platform: 'Amazon KDP',
     },
     {
@@ -124,7 +124,7 @@ const content: ToolContent = {  seo: {
   proTips: [
     {
       title: 'Exploit the Free-Form Canvas for Product Originality',
-      description: 'The open canvas with no grid or template constraints is your biggest competitive advantage. Every coloring page you create has a unique layout that template-based generators cannot reproduce. Overlap images, rotate at unusual angles, cluster elements into scenes, and leave intentional white space for drawing practice. Original layouts stand out in Etsy search results and pass KDP’s content differentiation requirements where template-generated pages may not.',
+      description: 'The open canvas with no grid or template constraints is your biggest competitive advantage. Every coloring page you create has a unique layout that template-based generators cannot reproduce. Overlap images, rotate at unusual angles, cluster elements into scenes, and leave intentional white space for drawing practice. Original layouts stand out in Etsy search results and pass KDP\'s content differentiation requirements where template-generated pages may not.',
     },
     {
       title: 'Use Grayscale Export Strategically',
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Build Seasonal Collections for Recurring Revenue',
-      description: 'Create holiday and seasonal coloring page packs using themed collections from the library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
+      description: 'Create holiday and seasonal coloring page packs using themed collections from the library. Release each pack 4–6 weeks before the relevant holiday for maximum marketplace visibility. Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer, and winter themes each support dedicated product listings. Seasonal products drive recurring annual revenue as buyers return every year, and early release timing captures search traffic before competition peaks.',
     },
     {
       title: 'Leverage Zero-Text Visual Output for Global Sales',

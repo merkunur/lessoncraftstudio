@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: ‘Pinterest Lead Funnel for a Niche Authority Store’,
+        title: \'Pinterest Lead Funnel for a Niche Authority Store\',
         description:
-          ‘Use the generator to create free sample subtraction worksheets as Pinterest lead magnets that drive traffic to your Gumroad or Shopify store. Pin eye-catching Cross Out worksheets with watermarks to attract clicks, then link to your full paid bundles. Offer Find the Subtrahend sheets as premium upsells for buyers who want advanced content — all produced in the same session. The automatic answer key adds perceived value to every listing, and the grayscale toggle keeps production costs low for high-volume output. The generator replaces hours of manual worksheet creation with a few clicks, letting you scale your content pipeline fast.’,
-        platform: ‘Pinterest / Gumroad / Shopify’,
+          \'Use the generator to create free sample subtraction worksheets as Pinterest lead magnets that drive traffic to your Gumroad or Shopify store. Pin eye-catching Cross Out worksheets with watermarks to attract clicks, then link to your full paid bundles. Offer Find the Subtrahend sheets as premium upsells for buyers who want advanced content — all produced in the same session. The automatic answer key adds perceived value to every listing, and the grayscale toggle keeps production costs low for high-volume output. The generator replaces hours of manual worksheet creation with a few clicks, letting you scale your content pipeline fast.\',
+        platform: \'Pinterest / Gumroad / Shopify\',
       },
     ],
   },
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'Are subtraction worksheets language-sensitive?',
       answer:
-        'No. Subtraction worksheets are visual-only — the math content uses images, X marks, and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app’s interface labels, not the worksheet content itself, making your products instantly sellable worldwide without translation.',
+        'No. Subtraction worksheets are visual-only — the math content uses images, X marks, and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide without translation.',
     },
     {
       question: 'What is the grayscale export option?',

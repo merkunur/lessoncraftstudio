@@ -180,7 +180,7 @@ const content: ToolContent = {
     },
     {
       question: 'Why is there no answer key?',
-      answer: 'Drawing Lines worksheets do not need a separate answer key because the line path itself guides the user. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the user’s line follows the path and reaches the matching image, they have completed it correctly.',
+      answer: 'Drawing Lines worksheets do not need a separate answer key because the line path itself guides the user. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the user\'s line follows the path and reaches the matching image, they have completed it correctly.',
     },
     {
       question: 'Are these worksheets language-sensitive?',

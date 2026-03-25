@@ -107,11 +107,11 @@ const content: StartContent = {
     },
     {
       step: 'Expand to Additional Platforms',
-      description: 'Once you have 20+ products and consistent Etsy sales, expand to Amazon KDP and Gumroad. Adapt your existing products to each platform’s format and audience expectations.',
+      description: 'Once you have 20+ products and consistent Etsy sales, expand to Amazon KDP and Gumroad. Adapt your existing products to each platform\'s format and audience expectations.',
     },
     {
       step: 'Plan Your First Seasonal Collection',
-      description: 'Identify the next major seasonal opportunity (back-to-school, Halloween, Christmas, Valentine’s Day) and create a themed product collection at least 4–6 weeks before peak demand.',
+      description: 'Identify the next major seasonal opportunity (back-to-school, Halloween, Christmas, Valentine\'s Day) and create a themed product collection at least 4–6 weeks before peak demand.',
     },
   ],
 

@@ -82,7 +82,7 @@ const content: AppContent = {
       {
         title: 'Manual Image Assignment with Visual Preview',
         description:
-          'For precise control, use Manual Assignment to hand-pick which image represents which letter. A visual overview shows all current letter-to-image mappings at a glance, making it easy to verify assignments before generating. You can also upload custom images to assign to any letter, extending the cipher beyond the built-in library. Manual assignment is ideal for creating themed cryptograms where specific images reinforce the puzzle’s subject — farm animals for agriculture themes, musical instruments for music themes, or holiday icons for seasonal puzzles.’,
+          'For precise control, use Manual Assignment to hand-pick which image represents which letter. A visual overview shows all current letter-to-image mappings at a glance, making it easy to verify assignments before generating. You can also upload custom images to assign to any letter, extending the cipher beyond the built-in library. Manual assignment is ideal for creating themed cryptograms where specific images reinforce the puzzle\'s subject — farm animals for agriculture themes, musical instruments for music themes, or holiday icons for seasonal puzzles.\',
       },
       {
         title: 'Complete Letter Legend Answer Key',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Etsy / Amazon KDP / Gumroad (multilingual)',
       },
       {
-        title: ‘Pinterest Funnel for Niche Cryptogram Products’,
+        title: \'Pinterest Funnel for Niche Cryptogram Products\',
         description:
-          ‘Use themed cryptogram puzzles as Pinterest lead magnets to drive traffic to your store. Pin visually striking cipher puzzle previews — farm animals, dinosaurs, ocean creatures — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked puzzles and gate the full bundle behind a purchase. The visual cipher format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences — animal lovers, science enthusiasts, holiday shoppers — each with its own pin board strategy.’,
-        platform: ‘Pinterest → Etsy / Gumroad’,
+          \'Use themed cryptogram puzzles as Pinterest lead magnets to drive traffic to your store. Pin visually striking cipher puzzle previews — farm animals, dinosaurs, ocean creatures — with a link to your Etsy or Gumroad listing. Create a free sampler PDF with 2–3 watermarked puzzles and gate the full bundle behind a purchase. The visual cipher format is inherently shareable on image-first platforms, and the themed variety lets you target dozens of niche audiences — animal lovers, science enthusiasts, holiday shoppers — each with its own pin board strategy.\',
+        platform: \'Pinterest → Etsy / Gumroad\',
       },
     ],
   },
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'How does the locale-aware alphabet work?',
       answer:
-        'When you select a language, the available alphabet set automatically adjusts to include that language’s characters. German adds ä, ö, ü, ß to the standard 26 letters. French adds é, è, ç, à, and other accented characters. Each locale’s alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
+        'When you select a language, the available alphabet set automatically adjusts to include that language\'s characters. German adds ä, ö, ü, ß to the standard 26 letters. French adds é, è, ç, à, and other accented characters. Each locale\'s alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
     },
     {
       question: 'Is there a free trial?',

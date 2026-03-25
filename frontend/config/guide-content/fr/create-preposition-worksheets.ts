@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil fiches prépositions licence commerciale',
     ],
     titleTag: 'Fiches de Prépositions à Imprimer — Guide Étape par Étape',
-    metaDescription: 'Créez des fiches de prépositions avec deux modes d’exercice, Remplacement de Formes, grille de 7 prépositions et mots natifs dans 11 langues. Vendez sur Etsy.',
+    metaDescription: 'Créez des fiches de prépositions avec deux modes d\'exercice, Remplacement de Formes, grille de 7 prépositions et mots natifs dans 11 langues. Vendez sur Etsy.',
   },
 
   hero: {

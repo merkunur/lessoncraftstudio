@@ -16,7 +16,7 @@ const content: BundleContent = {
       'outil création fiches association en masse',
     ],
     titleTag: 'Pack Association & Tri — 5 Générateurs de Fiches',
-    metaDescription: '5 générateurs de fiches d’association en un pack. Créez fiches association, grille, bingo, tri et ombres à vendre sur Etsy, KDP et Gumroad. Essai gratuit.',
+    metaDescription: '5 générateurs de fiches d\'association en un pack. Créez fiches association, grille, bingo, tri et ombres à vendre sur Etsy, KDP et Gumroad. Essai gratuit.',
   },
 
   hero: {

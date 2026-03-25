@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil trouve l\'intrus licence commerciale',
     ],
     titleTag: 'Puzzles Trouve l\'Intrus à Imprimer — Guide',
-    metaDescription: 'Créez des fiches trouve l’intrus avec modes Identique et Similaire, remplacement par exercice et corrigés automatiques. Guide pour vendeurs Etsy et KDP.',
+    metaDescription: 'Créez des fiches trouve l\'intrus avec modes Identique et Similaire, remplacement par exercice et corrigés automatiques. Guide pour vendeurs Etsy et KDP.',
   },
 
   hero: {

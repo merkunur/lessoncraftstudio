@@ -18,7 +18,7 @@ const content: GuideContent = {
       'outil fiches avec licence commerciale',
     ],
     titleTag: 'Créer des fiches d\'addition — Guide étape par étape',
-    metaDescription: 'Comment créer des fiches d’addition pour enfants. Guide : choisir les thèmes, régler la difficulté, générer les corrigés et exporter des PDF pour Etsy et KDP.',
+    metaDescription: 'Comment créer des fiches d\'addition pour enfants. Guide : choisir les thèmes, régler la difficulté, générer les corrigés et exporter des PDF pour Etsy et KDP.',
   },
 
   hero: {

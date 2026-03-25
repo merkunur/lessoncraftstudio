@@ -80,7 +80,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal and Holiday Puzzle Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Math Puzzle" pack with festive images sells strongly in November–December. Halloween, Valentine’s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Math Puzzle" pack with festive images sells strongly in November–December. Halloween, Valentine\'s Day, and back-to-school puzzles each have their own peak sales windows on Etsy and Gumroad.',
     },
     {
       title: 'Daily Warm-Up Puzzles',

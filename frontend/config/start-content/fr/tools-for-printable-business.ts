@@ -18,7 +18,7 @@ const content: StartContent = {
       'production fiches licence commerciale',
     ],
     titleTag: 'Outils pour vendeurs de fiches imprimables — Guide complet',
-    metaDescription: 'Meilleurs outils pour vendeurs de fiches imprimables : générateurs de fiches, outils de design, utilitaires de plateforme et workflows d’automatisation.',
+    metaDescription: 'Meilleurs outils pour vendeurs de fiches imprimables : générateurs de fiches, outils de design, utilitaires de plateforme et workflows d\'automatisation.',
   },
 
   hero: {

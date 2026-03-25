@@ -126,7 +126,7 @@ const content: AppContent = {
       {
         title: 'Seasonal and Holiday Bingo Card Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when buyers look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine’s Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Bingo is a naturally social game that peaks during holidays when buyers look for group activities. Release Halloween bingo sets in September, Christmas collections in October, and Valentine\'s Day packs in January. Each seasonal set includes multiple grid sizes, both image and word fill variants, and call-out sheets. Seasonal bingo products command premium prices during their peak windows.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
       {
@@ -177,7 +177,7 @@ const content: AppContent = {
     {
       question: 'Why is there no answer key for bingo cards?',
       answer:
-        'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single “correct answer” since every player’s card has different items in different positions. The call-out sheet serves as the game’s reference document, listing all possible items the caller can announce during the game.',
+        'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single “correct answer” since every player\'s card has different items in different positions. The call-out sheet serves as the game\'s reference document, listing all possible items the caller can announce during the game.',
     },
     {
       question: 'Is there a free trial?',

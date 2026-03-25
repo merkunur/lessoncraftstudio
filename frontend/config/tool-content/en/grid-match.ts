@@ -81,7 +81,7 @@ const content: ToolContent = {
     },
     {
       title: 'Seasonal Grid Puzzle Collections',
-      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine’s Day, back-to-school, and summer themes each support dedicated grid puzzle packs. Include multiple grid sizes (2×2, 3×3, 4×4) and clue counts (1–5) in each seasonal set for maximum variety and value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The Fisher-Yates randomization ensures no two puzzles are identical even within the same seasonal theme, preventing repetitive content.',
+      description: 'Build rotating seasonal collections using holiday and nature themes from the 104-theme library. Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, and summer themes each support dedicated grid puzzle packs. Include multiple grid sizes (2×2, 3×3, 4×4) and clue counts (1–5) in each seasonal set for maximum variety and value. Release each collection 4–6 weeks before the holiday for peak marketplace visibility. The Fisher-Yates randomization ensures no two puzzles are identical even within the same seasonal theme, preventing repetitive content.',
     },
     {
       title: 'Multi-Format Visual Learning Bundles',

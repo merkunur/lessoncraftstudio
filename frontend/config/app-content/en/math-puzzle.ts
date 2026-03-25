@@ -36,7 +36,7 @@ const content: AppContent = {
       {
         title: 'Configure the Puzzle Grid and Math Operation',
         description:
-          'Open the Puzzle Configuration panel and set the number of rows (2–4) and columns (2–4) to determine how many pieces make up the puzzle — from a simple 2×2 with 4 pieces up to a challenging 4×4 with 16. Then select the math operation: Addition generates problems where two numbers sum to the piece’s solution value, Subtraction creates problems where one number minus another equals the solution, and Addition & Subtraction mixed mode randomizes both across the grid. Solutions are a shuffled sequence from 2 to N (where N equals total pieces), ensuring every answer is unique.',
+          'Open the Puzzle Configuration panel and set the number of rows (2–4) and columns (2–4) to determine how many pieces make up the puzzle — from a simple 2×2 with 4 pieces up to a challenging 4×4 with 16. Then select the math operation: Addition generates problems where two numbers sum to the piece\'s solution value, Subtraction creates problems where one number minus another equals the solution, and Addition & Subtraction mixed mode randomizes both across the grid. Solutions are a shuffled sequence from 2 to N (where N equals total pieces), ensuring every answer is unique.',
       },
       {
         title: 'Choose an Image from the Theme Library',
@@ -72,7 +72,7 @@ const content: AppContent = {
       {
         title: 'Three Math Operations for Every Skill Level',
         description:
-          'Choose Addition to generate problems where two numbers sum to the piece’s value, Subtraction for problems where one number minus another equals the answer, or Addition & Subtraction mixed mode to randomize both operations across the grid. Solutions are automatically generated as a shuffled sequence from 2 to N (where N is the total number of pieces), ensuring every answer is unique and every problem has a single correct match to its puzzle piece.',
+          'Choose Addition to generate problems where two numbers sum to the piece\'s value, Subtraction for problems where one number minus another equals the answer, or Addition & Subtraction mixed mode to randomize both operations across the grid. Solutions are automatically generated as a shuffled sequence from 2 to N (where N is the total number of pieces), ensuring every answer is unique and every problem has a single correct match to its puzzle piece.',
       },
       {
         title: '104 Visual Themes with 3,100+ Images',
@@ -130,10 +130,10 @@ const content: AppContent = {
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: ‘Build a Niche Puzzle Book Brand on Your Own Store’,
+        title: \'Build a Niche Puzzle Book Brand on Your Own Store\',
         description:
-          ‘Launch a dedicated math puzzle brand on Gumroad, Shopify, or Payhip. Generate puzzles at every difficulty tier — simple 2×2 addition for the early-learner niche and complex 4×4 mixed-operation grids for advanced difficulty products — all in the same session. The puzzle-reveal mechanic increases completion rates and adds perceived value that justifies premium pricing. Use Pinterest pins linking to your store as a free traffic funnel, and build an email list with a free sample pack to drive repeat purchases.’,
-        platform: ‘Gumroad / Shopify / Payhip’,
+          \'Launch a dedicated math puzzle brand on Gumroad, Shopify, or Payhip. Generate puzzles at every difficulty tier — simple 2×2 addition for the early-learner niche and complex 4×4 mixed-operation grids for advanced difficulty products — all in the same session. The puzzle-reveal mechanic increases completion rates and adds perceived value that justifies premium pricing. Use Pinterest pins linking to your store as a free traffic funnel, and build an email list with a free sample pack to drive repeat purchases.\',
+        platform: \'Gumroad / Shopify / Payhip\',
       },
     ],
   },
@@ -172,7 +172,7 @@ const content: AppContent = {
     {
       question: 'Are math puzzle worksheets language-sensitive?',
       answer:
-        'No. Math puzzle worksheets are visual-only — the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app’s interface labels, not the worksheet content itself, making your products instantly sellable in any market.',
+        'No. Math puzzle worksheets are visual-only — the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable in any market.',
     },
     {
       question: 'Can I upload my own images for the puzzles?',
@@ -182,7 +182,7 @@ const content: AppContent = {
     {
       question: 'Can I export puzzles in grayscale for ink-friendly printing?',
       answer:
-        ‘Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for bulk printing, homework packets, or activity books where color printing isn’t practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.’,
+        \'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for bulk printing, homework packets, or activity books where color printing isn\'t practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.\',
     },
     {
       question: 'Is there a free trial?',

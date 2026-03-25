@@ -18,7 +18,7 @@ const content: StartContent = {
       'stratégie tarifaire imprimables Etsy',
     ],
     titleTag: 'Vendre des Imprimables sur Etsy — Masterclass Complète',
-    metaDescription: 'Comment vendre des imprimables sur Etsy étape par étape. Création de boutique, SEO Etsy, optimisation d’annonces, tarification et générateurs de fiches.',
+    metaDescription: 'Comment vendre des imprimables sur Etsy étape par étape. Création de boutique, SEO Etsy, optimisation d\'annonces, tarification et générateurs de fiches.',
   },
 
   hero: {

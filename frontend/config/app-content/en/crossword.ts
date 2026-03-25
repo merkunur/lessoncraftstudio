@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Manual Image Name Editing Before Puzzle Generation',
         description:
-          'Enable the Manual Image Name Editing checkbox to take full control over the words that appear in your crossword grid. Click individual images from the library to select them, then edit each image’s display name in the editing interface. The edited names become the crossword words — rename “Butterfly” to “Monarch” or simplify “Fire Truck” to “Truck” for easier puzzles. This feature bridges the gap between fully automatic theme generation and fully manual custom word lists, giving you image-based clues with precise vocabulary control.',
+          'Enable the Manual Image Name Editing checkbox to take full control over the words that appear in your crossword grid. Click individual images from the library to select them, then edit each image\'s display name in the editing interface. The edited names become the crossword words — rename “Butterfly” to “Monarch” or simplify “Fire Truck” to “Truck” for easier puzzles. This feature bridges the gap between fully automatic theme generation and fully manual custom word lists, giving you image-based clues with precise vocabulary control.',
       },
       {
         title: 'Image Library with 104 Themed Collections and 3,100+ Illustrations',
@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal Picture Crossword Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited picture crossword collections that align with peak shopping periods. Release Halloween crossword bundles in September, Christmas collections in October, and Valentine’s Day packs in January. The visual nature of picture crosswords makes seasonal themes particularly compelling — holiday images as clues create immediate seasonal appeal. Seasonal products command higher prices during their peak windows and drive repeat purchases.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Create time-limited picture crossword collections that align with peak shopping periods. Release Halloween crossword bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. The visual nature of picture crosswords makes seasonal themes particularly compelling — holiday images as clues create immediate seasonal appeal. Seasonal products command higher prices during their peak windows and drive repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],
@@ -167,7 +167,7 @@ const content: AppContent = {
     {
       question: 'How does Manual Image Name Editing work?',
       answer:
-        'Enable the Manual Image Name Editing checkbox to take control of the words used in your crossword. Click individual images from the library to select them, then use the editing interface to change each image’s display name. The edited names become the crossword words that appear in the grid. This lets you simplify compound names, correct vocabulary for your target audience, or customize words while keeping the visual image clues. You need a minimum of 8 images selected before generating.',
+        'Enable the Manual Image Name Editing checkbox to take control of the words used in your crossword. Click individual images from the library to select them, then use the editing interface to change each image\'s display name. The edited names become the crossword words that appear in the grid. This lets you simplify compound names, correct vocabulary for your target audience, or customize words while keeping the visual image clues. You need a minimum of 8 images selected before generating.',
     },
     {
       question: 'Is the Picture Crossword Generator language-sensitive?',

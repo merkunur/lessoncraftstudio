@@ -84,7 +84,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Seasonal Alphabet Train Bundles',
-      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Alphabet Train" pack with festive illustrations sells strongly in November–December. Back-to-school, Halloween, Valentine’s Day, and spring themes each have their own peak sales windows on Etsy and Gumroad.',
+      description: 'Use holiday and seasonal image themes to create time-limited bundles. A "Christmas Alphabet Train" pack with festive illustrations sells strongly in November–December. Back-to-school, Halloween, Valentine\'s Day, and spring themes each have their own peak sales windows on Etsy and Gumroad.',
     },
   ],
 
@@ -140,7 +140,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Upload Custom Images for Branding',
-      description: 'Upload your own illustrations or licensed artwork to create alphabet trains no competitor can replicate. Custom images let you build a consistent visual brand across your Etsy shop and make your products instantly recognizable to returning customers. This is especially valuable for sellers who commission original clipart — your alphabet train listings become impossible to duplicate, reducing direct competition and strengthening your store’s unique identity in search results.',
+      description: 'Upload your own illustrations or licensed artwork to create alphabet trains no competitor can replicate. Custom images let you build a consistent visual brand across your Etsy shop and make your products instantly recognizable to returning customers. This is especially valuable for sellers who commission original clipart — your alphabet train listings become impossible to duplicate, reducing direct competition and strengthening your store\'s unique identity in search results.',
     },
     {
       title: 'Pair with Other Literacy Tools',
@@ -148,7 +148,7 @@ const content: ToolContent = {  seo: {
     },
     {
       title: 'Pair with Pattern Train for a Train-Theme Bundle',
-      description: 'The Pattern Train maker uses the same train-wagon visual format but focuses on pattern recognition instead of letters. Bundle both tools’ output into a "Train Activities" mega-pack that covers literacy and logic skills. The matching visual style creates a cohesive product line.',
+      description: 'The Pattern Train maker uses the same train-wagon visual format but focuses on pattern recognition instead of letters. Bundle both tools\' output into a "Train Activities" mega-pack that covers literacy and logic skills. The matching visual style creates a cohesive product line.',
     },
   ],
 

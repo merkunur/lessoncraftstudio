@@ -132,7 +132,7 @@ const content: AppContent = {
       {
         title: 'Seasonal Matching Activity Collections',
         description:
-          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine’s Day, back-to-school, summer vacation, and more. Create time-limited matching worksheet collections that align with peak shopping periods. Release Halloween matching bundles in September, Christmas collections in October, and Valentine’s Day packs in January. Include all four matching modes in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
+          'The 104 themed image collections cover every seasonal and holiday occasion — Christmas, Halloween, Easter, Valentine\'s Day, back-to-school, summer vacation, and more. Create time-limited matching worksheet collections that align with peak shopping periods. Release Halloween matching bundles in September, Christmas collections in October, and Valentine\'s Day packs in January. Include all four matching modes in each seasonal set for maximum value. Seasonal products command higher prices during their peak windows and create natural reasons for repeat purchases.',
         platform: 'Etsy / Amazon KDP / Gumroad (seasonal)',
       },
     ],

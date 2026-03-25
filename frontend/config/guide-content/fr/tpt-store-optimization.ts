@@ -18,7 +18,7 @@ const content: GuideContent = {
       'Gumroad analytique planification saisonnière stratégie de mise à l\'échelle catalogue basée données',
     ],
     titleTag: 'Optimisation boutique Gumroad — Vendre plus de ressources',
-    metaDescription: 'Stratégies d’optimisation boutique Gumroad pour un meilleur classement et plus de ventes. Conversion aperçus, lots, avis et mise à l’échelle du catalogue.',
+    metaDescription: 'Stratégies d\'optimisation boutique Gumroad pour un meilleur classement et plus de ventes. Conversion aperçus, lots, avis et mise à l\'échelle du catalogue.',
   },
 
   hero: {

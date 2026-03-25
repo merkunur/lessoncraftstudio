@@ -16,7 +16,7 @@ const content: AppContent = {
     ],
     titleTag: 'Générateur Fiches d\'Écriture | Créer et Vendre',
     metaDescription:
-      'Créez des fiches d’écriture manuscrite pour Etsy, KDP et Gumroad. 3 modes progressifs, 5 polices, tracé fléché et dégradé, 104 thèmes.',
+      'Créez des fiches d\'écriture manuscrite pour Etsy, KDP et Gumroad. 3 modes progressifs, 5 polices, tracé fléché et dégradé, 104 thèmes.',
   },
 
   hero: {

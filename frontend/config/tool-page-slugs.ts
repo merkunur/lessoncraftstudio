@@ -40,7 +40,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     toolId: 'image-addition',
     slugs: {
       en: 'addition-worksheet-maker',
-      de: 'additions-arbeitsblatt-ersteller',
+      de: "additions-arbeitsblatt-ersteller",
       fr: 'generateur-fiches-addition',
       es: 'generador-fichas-suma', pt: 'gerador-fichas-adicao', it: 'generatore-schede-addizione', nl: 'optellen-werkblad-maker', sv: 'additions-arbetsblad-skapare'
     },
@@ -49,9 +49,9 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     toolId: 'image-subtraction',
     slugs: {
       en: 'subtraction-worksheet-maker',
-      de: 'subtraktions-arbeitsblatt-ersteller',
-      fr: 'generateur-fiches-soustraction',
-      es: 'generador-fichas-resta', pt: 'gerador-fichas-subtracao', it: 'generatore-schede-sottrazione', nl: 'aftrekken-werkblad-maker', sv: 'subtraktions-arbetsblad-skapare'
+      de: "subtraktions-arbeitsblatt-ersteller",
+      fr: "generateur-fiches-soustraction",
+      es: 'generador-fichas-resta', pt: 'gerador-fichas-subtracao', it: 'generatore-schede-sottrazione', nl: 'aftrekken-werkblad-maker', sv: "subtraktions-arbetsblad-skapare"
     },
   },
   {
@@ -60,7 +60,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'code-addition-worksheet-maker',
       de: 'bilder-additions-ersteller',
       fr: 'generateur-addition-codee',
-      es: 'generador-suma-codificada', pt: 'gerador-adicao-codificada', it: 'generatore-addizione-codificata', nl: 'code-optellen-werkblad-maker', sv: 'kodadditions-arbetsblad-skapare'
+      es: 'generador-suma-codificada', pt: 'gerador-adicao-codificada', it: "generatore-addizione-codificata", nl: 'code-optellen-werkblad-maker', sv: "kodadditions-arbetsblad-skapare"
     },
   },
   {
@@ -68,8 +68,8 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     slugs: {
       en: 'more-or-less-worksheet-maker',
       de: 'mehr-weniger-ersteller',
-      fr: 'generateur-comparaison-quantites',
-      es: 'generador-comparacion-cantidades', pt: 'gerador-comparacao-quantidades', it: 'generatore-confronto-quantita', nl: 'meer-minder-werkblad-maker', sv: 'mer-eller-mindre-arbetsblad-skapare'
+      fr: "generateur-comparaison-quantites",
+      es: "generador-comparacion-cantidades", pt: "gerador-comparacao-quantidades", it: 'generatore-confronto-quantita', nl: 'meer-minder-werkblad-maker', sv: "mer-eller-mindre-arbetsblad-skapare"
     },
   },
   {
@@ -87,7 +87,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'math-worksheet-maker',
       de: 'mathe-arbeitsblatt-ersteller',
       fr: 'generateur-exercices-maths',
-      es: 'generador-ejercicios-matematicas', pt: 'gerador-exercicios-matematica', it: 'generatore-esercizi-matematica', nl: 'reken-werkblad-maker', sv: 'matte-arbetsblad-skapare'
+      es: "generador-ejercicios-matematicas", pt: 'gerador-exercicios-matematica', it: "generatore-esercizi-matematica", nl: 'reken-werkblad-maker', sv: 'matte-arbetsblad-skapare'
     },
   },
   {
@@ -103,9 +103,9 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     toolId: 'prepositions',
     slugs: {
       en: 'prepositions-worksheet-maker',
-      de: 'praepositionen-arbeitsblatt-ersteller',
-      fr: 'generateur-fiches-prepositions',
-      es: 'generador-fichas-preposiciones', pt: 'gerador-fichas-preposicoes', it: 'generatore-schede-preposizioni', nl: 'voorzetsels-werkblad-maker', sv: 'prepositioner-arbetsblad-skapare'
+      de: "praepositionen-arbeitsblatt-ersteller",
+      fr: "generateur-fiches-prepositions",
+      es: "generador-fichas-preposiciones", pt: 'gerador-fichas-preposicoes', it: "generatore-schede-preposizioni", nl: 'voorzetsels-werkblad-maker', sv: "prepositioner-arbetsblad-skapare"
     },
   },
   {
@@ -123,7 +123,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'word-scramble-maker',
       de: 'buchstabensalat-ersteller',
       fr: 'generateur-mots-melanges',
-      es: 'generador-palabras-desordenadas', pt: 'gerador-palavras-embaralhadas', it: 'generatore-parole-mescolate', nl: 'letterpuzzel-maker', sv: 'ordmix-skapare'
+      es: "generador-palabras-desordenadas", pt: 'gerador-palavras-embaralhadas', it: 'generatore-parole-mescolate', nl: 'letterpuzzel-maker', sv: 'ordmix-skapare'
     },
   },
   {
@@ -159,7 +159,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'big-and-small-worksheet-maker',
       de: 'gross-klein-ersteller',
       fr: 'generateur-fiches-grand-petit',
-      es: 'generador-fichas-grande-pequeno', pt: 'gerador-fichas-grande-pequeno', it: 'generatore-schede-grande-piccolo', nl: 'groot-klein-werkblad-maker', sv: 'stor-liten-arbetsblad-skapare'
+      es: "generador-fichas-grande-pequeno", pt: 'gerador-fichas-grande-pequeno', it: "generatore-schede-grande-piccolo", nl: 'groot-klein-werkblad-maker', sv: 'stor-liten-arbetsblad-skapare'
     },
   },
   {
@@ -167,7 +167,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     slugs: {
       en: 'pattern-train-maker',
       de: 'muster-zug-ersteller',
-      fr: 'generateur-train-suites-logiques',
+      fr: "generateur-train-suites-logiques",
       es: 'generador-tren-patrones', pt: 'gerador-trem-padroes', it: 'generatore-treno-sequenze', nl: 'patroontrein-maker', sv: 'moenstertaag-skapare'
     },
   },
@@ -176,7 +176,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     slugs: {
       en: 'pattern-worksheet-maker',
       de: 'muster-arbeitsblatt-ersteller',
-      fr: 'generateur-fiches-sequences-logiques',
+      fr: "generateur-fiches-sequences-logiques",
       es: 'generador-fichas-patrones', pt: 'gerador-fichas-padroes', it: 'generatore-schede-sequenze', nl: 'patronen-werkblad-maker', sv: 'moenster-arbetsblad-skapare'
     },
   },
@@ -195,7 +195,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'drawing-lines-maker',
       de: 'linien-ziehen-ersteller',
       fr: 'generateur-fiches-graphisme',
-      es: 'generador-fichas-grafomotricidad', pt: 'gerador-fichas-grafomotricidade', it: 'generatore-schede-pregrafismo', nl: 'lijnen-trekken-maker', sv: 'linjer-ovningar-skapare'
+      es: "generador-fichas-grafomotricidad", pt: "gerador-fichas-grafomotricidade", it: 'generatore-schede-pregrafismo', nl: 'lijnen-trekken-maker', sv: 'linjer-ovningar-skapare'
     },
   },
   {
@@ -220,7 +220,7 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     toolId: 'matching',
     slugs: {
       en: 'matching-worksheet-maker',
-      de: 'zuordnungs-arbeitsblatt-ersteller',
+      de: "zuordnungs-arbeitsblatt-ersteller",
       fr: 'generateur-fiches-association',
       es: 'generador-fichas-asociacion', pt: 'gerador-fichas-associacao', it: 'generatore-schede-abbinamento', nl: 'koppelen-werkblad-maker', sv: 'matchnings-arbetsblad-skapare'
     },
@@ -239,8 +239,8 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     slugs: {
       en: 'shadow-match-maker',
       de: 'schattenbilder-ersteller',
-      fr: 'generateur-discrimination-visuelle',
-      es: 'generador-discriminacion-visual', pt: 'gerador-discriminacao-visual', it: 'generatore-discriminazione-visiva', nl: 'schaduw-koppelen-maker', sv: 'skuggmatchning-skapare'
+      fr: "generateur-discrimination-visuelle",
+      es: "generador-discriminacion-visual", pt: 'gerador-discriminacao-visual', it: "generatore-discriminazione-visiva", nl: 'schaduw-koppelen-maker', sv: 'skuggmatchning-skapare'
     },
   },
   {
@@ -258,14 +258,14 @@ export const toolPageSlugs: ToolSlugConfig[] = [
       en: 'picture-sort-maker',
       de: 'bilder-sortieren-ersteller',
       fr: 'generateur-tri-images',
-      es: 'generador-clasificacion-imagenes', pt: 'gerador-classificacao-imagens', it: 'generatore-classificazione-immagini', nl: 'plaatjes-sorteren-maker', sv: 'sortera-bilder-skapare'
+      es: "generador-clasificacion-imagenes", pt: 'gerador-classificacao-imagens', it: "generatore-classificazione-immagini", nl: 'plaatjes-sorteren-maker', sv: 'sortera-bilder-skapare'
     },
   },
   {
     toolId: 'missing-pieces',
     slugs: {
       en: 'missing-pieces-maker',
-      de: 'fehlende-puzzleteile-ersteller',
+      de: "fehlende-puzzleteile-ersteller",
       fr: 'generateur-pieces-manquantes',
       es: 'generador-piezas-faltantes', pt: 'gerador-pecas-faltantes', it: 'generatore-pezzi-mancanti', nl: 'ontbrekende-stukjes-maker', sv: 'saknade-bitar-skapare'
     },
@@ -319,9 +319,9 @@ export const toolPageSlugs: ToolSlugConfig[] = [
     toolId: 'crossword',
     slugs: {
       en: 'crossword-maker',
-      de: 'bilderkreuzwortraetsel-ersteller',
-      fr: 'generateur-mots-croises-images',
-      es: 'generador-crucigramas-imagenes', pt: 'gerador-palavras-cruzadas', it: 'generatore-cruciverba-immagini', nl: 'kruiswoordpuzzel-maker', sv: 'bildkorsord-skapare'
+      de: "bilderkreuzwortraetsel-ersteller",
+      fr: "generateur-mots-croises-images",
+      es: "generador-crucigramas-imagenes", pt: 'gerador-palavras-cruzadas', it: "generatore-cruciverba-immagini", nl: 'kruiswoordpuzzel-maker', sv: 'bildkorsord-skapare'
     },
   },
   {
@@ -402,7 +402,7 @@ export function getAllToolPageSlugs(): { locale: SupportedLocale; slug: string }
  * Get alternate language URLs for hreflang tags
  * Uses regional hreflang codes for pt-BR and es-MX
  */
-export function getToolAlternateUrls(toolId: string, baseUrl: string = 'https://www.lessoncraftstudio.com'): Record<string, string> {
+export function getToolAlternateUrls(toolId: string, baseUrl: string = "https://www.lessoncraftstudio.com"): Record<string, string> {
   const config = toolPageSlugs.find(c => c.toolId === toolId);
   if (!config) return {};
 

@@ -42,7 +42,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'math-mastery-bundle',
       de: 'mathematik-meister-paket',
       fr: 'pack-maitrise-maths',
-      es: 'paquete-dominio-matematicas', pt: 'pacote-dominio-matematica', it: 'pacchetto-padronanza-matematica', nl: 'wiskunde-meester-pakket', sv: 'matematik-maestar-paket'
+      es: 'paquete-dominio-matematicas', pt: 'pacote-dominio-matematica', it: "pacchetto-padronanza-matematica", nl: 'wiskunde-meester-pakket', sv: 'matematik-maestar-paket'
     },
   },
   {
@@ -60,7 +60,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'visual-learning-bundle',
       de: 'visuelles-lernen-paket',
       fr: 'pack-apprentissage-visuel',
-      es: 'paquete-aprendizaje-visual', pt: 'pacote-aprendizagem-visual', it: 'pacchetto-apprendimento-visivo', nl: 'visueel-leren-pakket', sv: 'visuellt-laerande-paket'
+      es: 'paquete-aprendizaje-visual', pt: 'pacote-aprendizagem-visual', it: "pacchetto-apprendimento-visivo", nl: 'visueel-leren-pakket', sv: 'visuellt-laerande-paket'
     },
   },
   {
@@ -69,7 +69,7 @@ export const bundlePageSlugs: BundleSlugConfig[] = [
       en: 'matching-sorting-bundle',
       de: 'zuordnung-sortierung-paket',
       fr: 'pack-association-tri',
-      es: 'paquete-asociacion-clasificacion', pt: 'pacote-associacao-classificacao', it: 'pacchetto-abbinamento-classificazione', nl: 'matchen-sorteren-pakket', sv: 'matchning-sortering-paket'
+      es: "paquete-asociacion-clasificacion", pt: "pacote-associacao-classificacao", it: "pacchetto-abbinamento-classificazione", nl: 'matchen-sorteren-pakket', sv: 'matchning-sortering-paket'
     },
   },
   {
@@ -136,7 +136,7 @@ export function getAllBundlePageSlugs(): { locale: SupportedLocale; slug: string
  * Get alternate language URLs for hreflang tags
  * Uses regional hreflang codes for pt-BR and es-MX
  */
-export function getBundleAlternateUrls(bundleId: string, baseUrl: string = 'https://www.lessoncraftstudio.com'): Record<string, string> {
+export function getBundleAlternateUrls(bundleId: string, baseUrl: string = "https://www.lessoncraftstudio.com"): Record<string, string> {
   const config = bundlePageSlugs.find(c => c.bundleId === bundleId);
   if (!config) return {};
 

@@ -230,15 +230,15 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search': {
     slug: 'word-search',
     productId: 'wordsearch-fe',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/hglfpg/459035',
+    checkoutUrl: "https://warriorplus.com/o2/buy/pxf0ht/hglfpg/ldqjqn",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/pxf0ht/hglfpg/459035",
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Word Search Studio Pro',
-      headline: 'Your Professional Puzzle Book Creation Studio',
-      subheadline: '10 curated image themes. All grid sizes. Canvas editor. PDF export with answer keys. Full commercial rights included.',
+      headline: "Your Professional Puzzle Book Creation Studio",
+      subheadline: "10 curated image themes. All grid sizes. Canvas editor. PDF export with answer keys. Full commercial rights included.",
       ctaPrimary: 'Get Instant Access',
       trustBadges: [
         'Print-Ready PDF Export',
@@ -262,93 +262,93 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'grid',
         title: 'All Grid Sizes (5x5 to 30x30)',
-        description: 'Create puzzles for any age group or difficulty level. From simple 5x5 grids for beginners to challenging 30x30 grids for adults. Perfect for activity books targeting specific audiences.',
+        description: "Create puzzles for any age group or difficulty level. From simple 5x5 grids for beginners to challenging 30x30 grids for adults. Perfect for activity books targeting specific audiences.",
       },
       {
         icon: 'images',
         title: '10 Image Themes (~319 Images)',
-        description: 'Animals, food, vehicles, fruits, colors, body parts, clothing, school, sports, and nature. Each theme includes 20-40 professionally curated, child-friendly images.',
+        description: "Animals, food, vehicles, fruits, colors, body parts, clothing, school, sports, and nature. Each theme includes 20-40 professionally curated, child-friendly images.",
       },
       {
         icon: 'edit',
         title: 'Full Canvas Editor',
-        description: 'Drag, resize, rotate, and layer every element. Add custom text, upload your own images, adjust colors and fonts. Complete creative control over every puzzle you create.',
+        description: "Drag, resize, rotate, and layer every element. Add custom text, upload your own images, adjust colors and fonts. Complete creative control over every puzzle you create.",
       },
       {
         icon: 'download',
-        title: 'PDF + JPEG Export with Answer Keys',
-        description: '300 DPI print-ready files. Answer keys generated automatically. Grayscale mode for KDP print optimization. Perfect for Amazon KDP, Etsy digital downloads, or classroom printing.',
+        title: "PDF + JPEG Export with Answer Keys",
+        description: "300 DPI print-ready files. Answer keys generated automatically. Grayscale mode for KDP print optimization. Perfect for Amazon KDP, Etsy digital downloads, or classroom printing.",
       },
       {
         icon: 'type',
-        title: 'Custom Word Lists & Image Upload',
-        description: 'Type any words you want into the puzzle. Upload your own clipart, logos, or illustrations. Create branded, niche-specific puzzles that no one else has.',
+        title: "Custom Word Lists & Image Upload",
+        description: "Type any words you want into the puzzle. Upload your own clipart, logos, or illustrations. Create branded, niche-specific puzzles that no one else has.",
       },
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.',
+        description: "Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.",
       },
     ],
 
     // ── 4. Market Stats ──────────────────────
     marketStats: {
-      headline: 'Why Word Search Books Are a Gold Mine',
-      description: 'The activity book market is booming — and word search puzzles are leading the charge.',
+      headline: "Why Word Search Books Are a Gold Mine",
+      description: "The activity book market is booming — and word search puzzles are leading the charge.",
       stats: [
         { value: '$2.4B', label: 'U.S. puzzle book market size' },
-        { value: '45,000+', label: 'Monthly searches for word search puzzles' },
-        { value: '#1', label: 'Most requested activity book type on KDP' },
-        { value: '67%', label: 'Year-over-year growth in printable sales' },
+        { value: '45,000+', label: "Monthly searches for word search puzzles" },
+        { value: '#1', label: "Most requested activity book type on KDP" },
+        { value: '67%', label: "Year-over-year growth in printable sales" },
       ],
     },
 
     // ── 5. Income Potential ──────────────────
     incomePotential: {
-      headline: 'The Math Behind Word Search Income',
-      description: 'Create 10 themed word search puzzle books. Price each at $4.99 on Amazon KDP. If each book sells just 3 copies per day — that\'s passive income that grows with every new title you publish.',
-      calculation: '$4.99 × 3 sales/day × 10 books = $149.70/day = $4,491/month',
+      headline: "The Math Behind Word Search Income",
+      description: "Create 10 themed word search puzzle books. Price each at $4.99 on Amazon KDP. If each book sells just 3 copies per day — that's passive income that grows with every new title you publish.",
+      calculation: "$4.99 × 3 sales/day × 10 books = $149.70/day = $4,491/month",
     },
 
     // ── 7. Obstacles ─────────────────────────
     obstacles: {
-      headline: 'Maybe You\'ve Tried Before...',
+      headline: 'Maybe You've Tried Before...',
       problems: [
-        'You don\'t have design skills or experience with graphic software',
-        'Professional puzzle-making software costs $200+ and takes weeks to learn',
-        'Creating puzzles manually takes hours per page',
-        'Formatting for print (KDP, Etsy) requires technical knowledge you don\'t have',
+        "You don't have design skills or experience with graphic software",
+        "Professional puzzle-making software costs $200+ and takes weeks to learn",
+        "Creating puzzles manually takes hours per page",
+        "Formatting for print (KDP, Etsy) requires technical knowledge you don't have",
       ],
-      solution: 'Word Search Studio Pro handles all of this automatically. Pick a theme, customize your settings, and export a print-ready PDF with answer key — in under 3 minutes. No design skills. No learning curve. No formatting headaches.',
+      solution: "Word Search Studio Pro handles all of this automatically. Pick a theme, customize your settings, and export a print-ready PDF with answer key — in under 3 minutes. No design skills. No learning curve. No formatting headaches.",
     },
 
     // ── 8. Product Introduction ──────────────
     productIntro: {
-      headline: 'Introducing Word Search Studio Pro',
-      description: 'A professional-grade creation studio that produces print-ready word search puzzles with embedded images. Unlike basic generators that produce plain text grids, Word Search Studio Pro combines a curated image library with a full canvas editor — so every puzzle you create looks like it was designed by a professional.',
+      headline: "Introducing Word Search Studio Pro",
+      description: "A professional-grade creation studio that produces print-ready word search puzzles with embedded images. Unlike basic generators that produce plain text grids, Word Search Studio Pro combines a curated image library with a full canvas editor — so every puzzle you create looks like it was designed by a professional.",
       differentiators: [
-        'Image library integration — puzzles feature real themed images, not just text',
-        'Full canvas editor — move, resize, rotate, and layer every element',
-        'One-click generation — automatic word placement, grid filling, and answer key creation',
-        'Print-ready export — 300 DPI PDF files formatted for KDP, Etsy, and commercial printing',
+        "Image library integration — puzzles feature real themed images, not just text",
+        "Full canvas editor — move, resize, rotate, and layer every element",
+        "One-click generation — automatic word placement, grid filling, and answer key creation",
+        "Print-ready export — 300 DPI PDF files formatted for KDP, Etsy, and commercial printing",
       ],
     },
 
     // ── 9. Before/After ──────────────────────
     beforeAfter: {
       before: [
-        'Spend hours manually creating puzzle grids in Word or PowerPoint',
-        'Pay $200+ for design software you don\'t know how to use',
-        'Produce plain, text-only puzzles that look amateur',
-        'Struggle with print formatting and page sizing',
-        'Create one puzzle at a time, slowly',
+        "Spend hours manually creating puzzle grids in Word or PowerPoint",
+        "Pay $200+ for design software you don't know how to use",
+        "Produce plain, text-only puzzles that look amateur",
+        "Struggle with print formatting and page sizing",
+        "Create one puzzle at a time, slowly",
       ],
       after: [
-        'Generate professional puzzles in under 3 minutes',
-        'One-time $27 payment — no monthly fees, no subscriptions',
-        'Image-rich puzzles that stand out on Etsy and Amazon',
-        'Export print-ready PDFs formatted for any platform',
-        'Create unlimited puzzles across 10 themed categories',
+        "Generate professional puzzles in under 3 minutes",
+        "One-time $27 payment — no monthly fees, no subscriptions",
+        "Image-rich puzzles that stand out on Etsy and Amazon",
+        "Export print-ready PDFs formatted for any platform",
+        "Create unlimited puzzles across 10 themed categories",
       ],
     },
 
@@ -357,17 +357,17 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.',
+        description: "Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.",
       },
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, family game nights, parties. Use however you want, as often as you want.',
+        description: "Print for classrooms, homework, family game nights, parties. Use however you want, as often as you want.",
       },
       {
         icon: 'store',
         title: 'Sell Anywhere',
-        description: 'Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.',
+        description: "Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.",
       },
     ],
 
@@ -382,19 +382,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         number: 1,
         icon: 'palette',
         title: 'Pick a Theme',
-        description: 'Browse 10 image categories — animals, food, vehicles, fruits, and more. Select your theme and images load automatically.',
+        description: "Browse 10 image categories — animals, food, vehicles, fruits, and more. Select your theme and images load automatically.",
       },
       {
         number: 2,
         icon: 'sliders',
         title: 'Customize Your Puzzle',
-        description: 'Set grid size, choose fonts, adjust colors, arrange images on the canvas. Make it uniquely yours in under 3 minutes.',
+        description: "Set grid size, choose fonts, adjust colors, arrange images on the canvas. Make it uniquely yours in under 3 minutes.",
       },
       {
         number: 3,
         icon: 'rocket',
         title: 'Export & Sell',
-        description: 'Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.',
+        description: "Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.",
       },
     ],
 
@@ -404,19 +404,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       items: [
         {
           title: 'Themed Puzzle Books',
-          description: 'Complete word search books organized by theme — animals, food, vehicles, and more. Each puzzle features professional themed images.',
+          description: "Complete word search books organized by theme — animals, food, vehicles, and more. Each puzzle features professional themed images.",
         },
         {
           title: 'Answer Key Pages',
-          description: 'Professional answer keys generated automatically with every puzzle. Required for activity books sold on Amazon KDP.',
+          description: "Professional answer keys generated automatically with every puzzle. Required for activity books sold on Amazon KDP.",
         },
         {
           title: 'Multiple Difficulty Levels',
-          description: '5x5 grids for beginners, 15x15 for intermediate, 30x30 for adults. Create products for every age group from a single tool.',
+          description: "5x5 grids for beginners, 15x15 for intermediate, 30x30 for adults. Create products for every age group from a single tool.",
         },
         {
           title: 'Custom-Branded Puzzles',
-          description: 'Add your own text and images, choose fonts and colors to match your brand. Every puzzle can look completely different.',
+          description: "Add your own text and images, choose fonts and colors to match your brand. Every puzzle can look completely different.",
         },
       ],
     },
@@ -426,36 +426,36 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'store',
         title: 'Etsy Sellers',
-        description: 'Create unique word search puzzle books and digital downloads. Stand out from generic templates with image-rich, professionally designed puzzles.',
+        description: "Create unique word search puzzle books and digital downloads. Stand out from generic templates with image-rich, professionally designed puzzles.",
       },
       {
         icon: 'book',
         title: 'Amazon KDP Publishers',
-        description: 'Publish activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.',
+        description: "Publish activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.",
       },
       {
         icon: 'users',
         title: 'Teachers & Parents',
-        description: 'Custom puzzles for any subject or theme. Make learning fun with engaging word search activities that kids actually enjoy.',
+        description: "Custom puzzles for any subject or theme. Make learning fun with engaging word search activities that kids actually enjoy.",
       },
       {
         icon: 'rocket',
         title: 'Content Creators',
-        description: 'Build a library of printable products. Sell on multiple platforms simultaneously. Each puzzle takes minutes, not hours.',
+        description: "Build a library of printable products. Sell on multiple platforms simultaneously. Each puzzle takes minutes, not hours.",
       },
     ],
 
     // ── 15. Value Stack ──────────────────────
     valueStack: {
-      headline: 'Everything Included in Your Purchase',
+      headline: "Everything Included in Your Purchase",
       items: [
-        { name: 'Word Search Studio Pro (all grid sizes)', value: 97 },
-        { name: '10 Image Themes (~319 professional images)', value: 47 },
-        { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
-        { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
-        { name: 'PDF + JPEG Export (300 DPI) with Answer Keys', value: 37 },
-        { name: 'Custom Word Lists & Image Upload', value: 27 },
-        { name: '4 Professional Fonts + Text Effects', value: 17 },
+        { name: "Word Search Studio Pro (all grid sizes)", value: 97 },
+        { name: "10 Image Themes (~319 professional images)", value: 47 },
+        { name: "Canvas Editor (drag, resize, rotate, layers)", value: 47 },
+        { name: "Full Commercial Rights (sell anywhere)", value: 97 },
+        { name: "PDF + JPEG Export (300 DPI) with Answer Keys", value: 37 },
+        { name: "Custom Word Lists & Image Upload", value: 27 },
+        { name: "4 Professional Fonts + Text Effects", value: 17 },
       ],
       totalValue: 369,
       yourPrice: 27,
@@ -464,13 +464,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Word Search Studio Pro risk-free for 30 days. If it doesn\'t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: "Try Word Search Studio Pro risk-free for 30 days. If it doesn't meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.",
     },
 
     // ── 18. Urgency ──────────────────────────
     urgency: {
       headline: 'Lock In This Launch Price',
-      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won\'t come back down.',
+      text: "This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won't come back down.",
       regularPrice: 97,
     },
 
@@ -478,40 +478,40 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     faq: [
       {
         question: 'Is this a subscription?',
-        answer: 'No. This is a one-time payment of $27. You get lifetime access to Word Search Studio Pro with all features included. No recurring fees, ever.',
+        answer: "No. This is a one-time payment of $27. You get lifetime access to Word Search Studio Pro with all features included. No recurring fees, ever.",
       },
       {
-        question: 'Can I sell the worksheets I create?',
-        answer: 'Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.',
+        question: "Can I sell the worksheets I create?",
+        answer: "Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.",
       },
       {
         question: 'What formats can I export?',
-        answer: 'You can export as high-resolution 300 DPI PDF (perfect for printing and KDP) and JPEG. Answer keys are generated automatically with every puzzle.',
+        answer: "You can export as high-resolution 300 DPI PDF (perfect for printing and KDP) and JPEG. Answer keys are generated automatically with every puzzle.",
       },
       {
-        question: 'How many puzzles can I create?',
-        answer: 'Unlimited. There is no cap on how many word search puzzles you can generate. Create as many as you want, forever.',
+        question: "How many puzzles can I create?",
+        answer: "Unlimited. There is no cap on how many word search puzzles you can generate. Create as many as you want, forever.",
       },
       {
-        question: 'What if I\'m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If Word Search Studio Pro doesn\'t meet your expectations, contact us for a full refund. No questions asked.',
+        question: 'What if I'm not satisfied?',
+        answer: "We offer a 30-day money-back guarantee. If Word Search Studio Pro doesn't meet your expectations, contact us for a full refund. No questions asked.",
       },
       {
         question: 'Do I need design skills?',
-        answer: 'Not at all. The generator handles layout, spacing, and formatting automatically. Just pick a theme, customize your settings, and export. The canvas editor gives you full control if you want to fine-tune, but it\'s completely optional.',
+        answer: "Not at all. The generator handles layout, spacing, and formatting automatically. Just pick a theme, customize your settings, and export. The canvas editor gives you full control if you want to fine-tune, but it's completely optional.",
       },
       {
-        question: 'What are the 10 included themes?',
-        answer: 'Animals, Food, Vehicles, Fruits, Colors, Body Parts, Clothing, School, Sports, and Nature. Each theme includes 20–40 professionally curated images.',
+        question: "What are the 10 included themes?",
+        answer: "Animals, Food, Vehicles, Fruits, Colors, Body Parts, Clothing, School, Sports, and Nature. Each theme includes 20–40 professionally curated images.",
       },
       {
-        question: 'Can I upgrade to more themes or languages later?',
-        answer: 'Yes. After purchase, you\'ll have the option to add the Complete Image Library (104 themes, 3,000+ images) and All 11 Languages. But the best prices are available right after your initial purchase.',
+        question: "Can I upgrade to more themes or languages later?",
+        answer: "Yes. After purchase, you'll have the option to add the Complete Image Library (104 themes, 3,000+ images) and All 11 Languages. But the best prices are available right after your initial purchase.",
       },
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You\'re getting Word Search Studio Pro, 10 image themes with 319 images, a full canvas editor, PDF export with answer keys, and complete commercial rights — all for a one-time payment of $27. That\'s less than the cost of a single stock image pack. And with the 30-day money-back guarantee, you risk nothing. Create your first puzzle book today.',
+    closingPs: "You're getting Word Search Studio Pro, 10 image themes with 319 images, a full canvas editor, PDF export with answer keys, and complete commercial rights — all for a one-time payment of $27. That's less than the cost of a single stock image pack. And with the 30-day money-back guarantee, you risk nothing. Create your first puzzle book today.",
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -520,24 +520,24 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Payment',
       includes: [
-        'Word Search Studio Pro (all grid sizes)',
+        "Word Search Studio Pro (all grid sizes)",
         '10 image themes (~319 images)',
-        'Canvas editor with full control',
-        'PDF + JPEG export with answer keys',
-        'Custom word lists & image upload',
-        '4 professional fonts + text effects',
-        'Grayscale mode (KDP optimization)',
+        "Canvas editor with full control",
+        "PDF + JPEG export with answer keys",
+        "Custom word lists & image upload",
+        "4 professional fonts + text effects",
+        "Grayscale mode (KDP optimization)",
         'Unlimited puzzle generation',
-        'Full commercial/POD/resale rights',
-        'Lifetime access — no subscription',
+        "Full commercial/POD/resale rights",
+        "Lifetime access — no subscription",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Word Search Studio Pro — Create & Sell Professional Puzzle Books | $27 One-Time',
-      description: 'Create professional word search puzzle books in minutes. 10 image themes, canvas editor, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time.',
-      keywords: 'word search studio pro, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search',
+      title: "Word Search Studio Pro — Create & Sell Professional Puzzle Books | $27 One-Time",
+      description: "Create professional word search puzzle books in minutes. 10 image themes, canvas editor, PDF export, answer keys, full commercial rights. Sell on Etsy & Amazon KDP. $27 one-time.",
+      keywords: "word search studio pro, word search maker, word search puzzle creator, printable word search, Etsy word search, KDP word search, commercial word search",
     },
   },
 
@@ -548,15 +548,15 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'math-puzzle': {
     slug: 'math-puzzle',
     productId: 'mathpuzzle-fe',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/l3ql4t/gm2ljh/lvjv03',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/l3ql4t/gm2ljh/459082',
+    checkoutUrl: "https://warriorplus.com/o2/buy/l3ql4t/gm2ljh/lvjv03",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/l3ql4t/gm2ljh/459082",
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Math Puzzle Studio Pro',
-      headline: 'Turn Any Image Into a Math Puzzle Worksheet in 60 Seconds',
-      subheadline: '9 grid configurations. 3 math operations. Auto answer keys. Canvas editor. PDF export. 10 curated image themes. Full commercial rights included.',
+      headline: "Turn Any Image Into a Math Puzzle Worksheet in 60 Seconds",
+      subheadline: "9 grid configurations. 3 math operations. Auto answer keys. Canvas editor. PDF export. 10 curated image themes. Full commercial rights included.",
       ctaPrimary: 'Get Instant Access',
       trustBadges: [
         'Print-Ready PDF Export',
@@ -573,94 +573,94 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     features: [
       {
         icon: 'grid',
-        title: '9 Grid Configurations (2x2 to 4x4)',
-        description: 'Create puzzles from simple 4-piece grids for beginners to challenging 16-piece grids for older students. Nine row/column combinations let you target any age group or difficulty level.',
+        title: "9 Grid Configurations (2x2 to 4x4)",
+        description: "Create puzzles from simple 4-piece grids for beginners to challenging 16-piece grids for older students. Nine row/column combinations let you target any age group or difficulty level.",
       },
       {
         icon: 'sparkles',
         title: '3 Math Operations',
-        description: 'Addition, subtraction, or mixed mode. The app auto-generates equations for each puzzle piece. Students solve the math to reconstruct the picture.',
+        description: "Addition, subtraction, or mixed mode. The app auto-generates equations for each puzzle piece. Students solve the math to reconstruct the picture.",
       },
       {
         icon: 'images',
         title: '10 Image Themes (~300 Images)',
-        description: 'Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.',
+        description: "Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.",
       },
       {
         icon: 'edit',
         title: 'Full Canvas Editor',
-        description: 'Drag, resize, rotate, and layer every element. Add custom text with 7 fonts, upload your own images, adjust colors and outlines. Built on Fabric.js — the same technology behind Canva.',
+        description: "Drag, resize, rotate, and layer every element. Add custom text with 7 fonts, upload your own images, adjust colors and outlines. Built on Fabric.js — the same technology behind Canva.",
       },
       {
         icon: 'download',
-        title: 'PDF + JPEG Export with Answer Keys',
-        description: 'Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.',
+        title: "PDF + JPEG Export with Answer Keys",
+        description: "Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.",
       },
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.',
+        description: "Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.",
       },
     ],
 
     // ── 4. Market Stats ──────────────────────
     marketStats: {
-      headline: 'Why Math Puzzle Books Are a Proven Seller',
-      description: 'Math puzzle worksheets combine two things parents and teachers are always looking for: math practice and engaging activities.',
+      headline: "Why Math Puzzle Books Are a Proven Seller",
+      description: "Math puzzle worksheets combine two things parents and teachers are always looking for: math practice and engaging activities.",
       stats: [
-        { value: '$2.4B', label: 'U.S. puzzle book market size (est.)' },
-        { value: '18,000+', label: 'Monthly searches for math puzzles' },
-        { value: 'Growing', label: 'Year-over-year printable market growth' },
-        { value: 'Year-Round', label: 'Demand — not seasonal like holidays' },
+        { value: '$2.4B', label: "U.S. puzzle book market size (est.)" },
+        { value: '18,000+', label: "Monthly searches for math puzzles" },
+        { value: 'Growing', label: "Year-over-year printable market growth" },
+        { value: 'Year-Round', label: "Demand — not seasonal like holidays" },
       ],
     },
 
     // ── 5. Income Potential ──────────────────
     incomePotential: {
-      headline: 'The Math Behind Math Puzzle Income',
-      description: 'Create 10 themed math puzzle books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that’s a growing passive income stream with every new title you publish.',
-      calculation: '$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month',
+      headline: "The Math Behind Math Puzzle Income",
+      description: "Create 10 themed math puzzle books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that's a growing passive income stream with every new title you publish.",
+      calculation: "$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month",
     },
 
     // ── 7. Obstacles ─────────────────────────
     obstacles: {
-      headline: 'Maybe You’ve Tried Before...',
+      headline: 'Maybe You've Tried Before...',
       problems: [
-        'Creating math puzzles manually means writing equations, slicing images, and aligning pieces — hours per worksheet',
-        'Professional puzzle-making software costs $200+ and has a steep learning curve',
-        'You don’t know how to generate auto-graded answer keys',
-        'Formatting for print (KDP, Etsy) requires technical knowledge you don’t have',
+        "Creating math puzzles manually means writing equations, slicing images, and aligning pieces — hours per worksheet",
+        "Professional puzzle-making software costs $200+ and has a steep learning curve",
+        "You don't know how to generate auto-graded answer keys",
+        "Formatting for print (KDP, Etsy) requires technical knowledge you don't have",
       ],
-      solution: 'Math Puzzle Studio Pro handles all of this automatically. Pick an image, set your grid and math operation, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
+      solution: "Math Puzzle Studio Pro handles all of this automatically. Pick an image, set your grid and math operation, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.",
     },
 
     // ── 8. Product Introduction ──────────────
     productIntro: {
-      headline: 'Introducing Math Puzzle Studio Pro',
-      description: 'A browser-based creation studio that turns any image into a math puzzle worksheet. The app slices your chosen picture into grid pieces, generates equations for each cell, and produces a matching answer key — all automatically.',
+      headline: "Introducing Math Puzzle Studio Pro",
+      description: "A browser-based creation studio that turns any image into a math puzzle worksheet. The app slices your chosen picture into grid pieces, generates equations for each cell, and produces a matching answer key — all automatically.",
       differentiators: [
-        'Image-based puzzles — students solve math to reconstruct a picture, not just fill in blanks',
-        'Auto equation generation — the app creates addition, subtraction, or mixed problems instantly',
-        'One-click answer keys — generated automatically from every worksheet',
-        'Full canvas editor — move, resize, rotate, and layer every element with professional precision',
+        "Image-based puzzles — students solve math to reconstruct a picture, not just fill in blanks",
+        "Auto equation generation — the app creates addition, subtraction, or mixed problems instantly",
+        "One-click answer keys — generated automatically from every worksheet",
+        "Full canvas editor — move, resize, rotate, and layer every element with professional precision",
       ],
     },
 
     // ── 9. Before/After ──────────────────────
     beforeAfter: {
       before: [
-        'Spend hours manually creating math puzzle grids and writing equations',
-        'Pay $200+ for design software you don’t know how to use',
-        'Produce plain worksheets that look unprofessional',
-        'Struggle with print formatting and page sizing',
-        'No way to generate answer keys automatically',
+        "Spend hours manually creating math puzzle grids and writing equations",
+        "Pay $200+ for design software you don't know how to use",
+        "Produce plain worksheets that look unprofessional",
+        "Struggle with print formatting and page sizing",
+        "No way to generate answer keys automatically",
       ],
       after: [
-        'Generate professional math puzzle worksheets in under 60 seconds',
-        'One-time $27 payment — no monthly fees, no subscriptions',
-        'Image-rich puzzles that stand out on Etsy and Amazon',
-        'Export print-ready PDFs formatted for any platform',
-        'Answer keys generated automatically with every worksheet',
+        "Generate professional math puzzle worksheets in under 60 seconds",
+        "One-time $27 payment — no monthly fees, no subscriptions",
+        "Image-rich puzzles that stand out on Etsy and Amazon",
+        "Export print-ready PDFs formatted for any platform",
+        "Answer keys generated automatically with every worksheet",
       ],
     },
 
@@ -669,17 +669,17 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.',
+        description: "Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.",
       },
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+        description: "Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.",
       },
       {
         icon: 'store',
         title: 'Sell Anywhere',
-        description: 'Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.',
+        description: "Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.",
       },
     ],
 
@@ -694,31 +694,31 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         number: 1,
         icon: 'images',
         title: 'Pick an Image',
-        description: 'Browse 10 image themes — animals, dinosaurs, ocean life, space, and more. Or upload your own image.',
+        description: "Browse 10 image themes — animals, dinosaurs, ocean life, space, and more. Or upload your own image.",
       },
       {
         number: 2,
         icon: 'grid',
         title: 'Set Your Grid',
-        description: 'Choose from 9 configurations: 2x2 through 4x4. Simple 4-piece puzzles for beginners, challenging 16-piece grids for older students.',
+        description: "Choose from 9 configurations: 2x2 through 4x4. Simple 4-piece puzzles for beginners, challenging 16-piece grids for older students.",
       },
       {
         number: 3,
         icon: 'sparkles',
         title: 'Choose Math Operation',
-        description: 'Addition, subtraction, or mixed. The app generates unique equations for every puzzle piece automatically.',
+        description: "Addition, subtraction, or mixed. The app generates unique equations for every puzzle piece automatically.",
       },
       {
         number: 4,
         icon: 'sliders',
         title: 'Customize Your Design',
-        description: 'Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours.',
+        description: "Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours.",
       },
       {
         number: 5,
         icon: 'rocket',
         title: 'Export & Sell',
-        description: 'Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.',
+        description: "Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.",
       },
     ],
 
@@ -728,19 +728,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       items: [
         {
           title: 'Themed Math Puzzle Books',
-          description: 'Complete puzzle books organized by theme — animals, space, dinosaurs, and more. Each puzzle features a professional image that students reconstruct by solving equations.',
+          description: "Complete puzzle books organized by theme — animals, space, dinosaurs, and more. Each puzzle features a professional image that students reconstruct by solving equations.",
         },
         {
           title: 'Auto-Generated Answer Keys',
-          description: 'Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.',
+          description: "Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.",
         },
         {
           title: 'Multiple Difficulty Levels',
-          description: '2x2 grids (4 pieces) for beginners, 3x3 (9 pieces) for intermediate, 4x4 (16 pieces) for advanced. Create products for every age group.',
+          description: "2x2 grids (4 pieces) for beginners, 3x3 (9 pieces) for intermediate, 4x4 (16 pieces) for advanced. Create products for every age group.",
         },
         {
           title: 'Addition, Subtraction & Mixed',
-          description: 'Three math operation modes let you create targeted practice books — addition-only for younger kids, mixed operations for a challenge.',
+          description: "Three math operation modes let you create targeted practice books — addition-only for younger kids, mixed operations for a challenge.",
         },
       ],
     },
@@ -750,37 +750,37 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'store',
         title: 'Etsy Sellers',
-        description: 'Create unique math puzzle activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.',
+        description: "Create unique math puzzle activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.",
       },
       {
         icon: 'book',
         title: 'Amazon KDP Publishers',
-        description: 'Publish math activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.',
+        description: "Publish math activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.",
       },
       {
         icon: 'users',
         title: 'Teachers & Parents',
-        description: 'Custom math puzzles for any theme. Make math practice fun with engaging picture puzzles that kids actually enjoy solving.',
+        description: "Custom math puzzles for any theme. Make math practice fun with engaging picture puzzles that kids actually enjoy solving.",
       },
       {
         icon: 'rocket',
         title: 'Content Creators',
-        description: 'Build a library of printable math products. Sell on multiple platforms simultaneously. Each puzzle takes seconds, not hours.',
+        description: "Build a library of printable math products. Sell on multiple platforms simultaneously. Each puzzle takes seconds, not hours.",
       },
     ],
 
     // ── 15. Value Stack ──────────────────────
     valueStack: {
-      headline: 'Everything Included in Your Purchase',
+      headline: "Everything Included in Your Purchase",
       items: [
-        { name: 'Math Puzzle Studio Pro (9 grid configurations)', value: 97 },
-        { name: '10 Image Themes (~300 professional images)', value: 47 },
-        { name: '3 Math Operations (add, subtract, mixed)', value: 37 },
+        { name: "Math Puzzle Studio Pro (9 grid configurations)", value: 97 },
+        { name: "10 Image Themes (~300 professional images)", value: 47 },
+        { name: "3 Math Operations (add, subtract, mixed)", value: 37 },
         { name: 'Auto Answer Key Generation', value: 47 },
-        { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
-        { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
-        { name: 'PDF + JPEG Export with Answer Keys', value: 37 },
-        { name: '7 Professional Fonts + Text Effects', value: 17 },
+        { name: "Canvas Editor (drag, resize, rotate, layers)", value: 47 },
+        { name: "Full Commercial Rights (sell anywhere)", value: 97 },
+        { name: "PDF + JPEG Export with Answer Keys", value: 37 },
+        { name: "7 Professional Fonts + Text Effects", value: 17 },
       ],
       totalValue: 426,
       yourPrice: 27,
@@ -789,13 +789,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Math Puzzle Studio Pro risk-free for 30 days. If it doesn’t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: "Try Math Puzzle Studio Pro risk-free for 30 days. If it doesn't meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.",
     },
 
     // ── 18. Urgency ──────────────────────────
     urgency: {
       headline: 'Lock In This Launch Price',
-      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won’t come back down.',
+      text: "This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won't come back down.",
       regularPrice: 97,
     },
 
@@ -803,40 +803,40 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     faq: [
       {
         question: 'Is this a subscription?',
-        answer: 'No. This is a one-time payment of $27. You get lifetime access to Math Puzzle Studio Pro with all features included. No recurring fees, ever.',
+        answer: "No. This is a one-time payment of $27. You get lifetime access to Math Puzzle Studio Pro with all features included. No recurring fees, ever.",
       },
       {
-        question: 'Can I sell the worksheets I create?',
-        answer: 'Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.',
+        question: "Can I sell the worksheets I create?",
+        answer: "Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.",
       },
       {
-        question: 'How does the math puzzle work?',
-        answer: 'Pick any image, set your grid size and math operation. The app slices the image into pieces, assigns a number to each, and generates equations. Students solve the equations to figure out where each piece goes and reconstruct the picture.',
+        question: "How does the math puzzle work?",
+        answer: "Pick any image, set your grid size and math operation. The app slices the image into pieces, assigns a number to each, and generates equations. Students solve the equations to figure out where each piece goes and reconstruct the picture.",
       },
       {
         question: 'What formats can I export?',
-        answer: 'You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.',
+        answer: "You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.",
       },
       {
-        question: 'How many puzzles can I create?',
-        answer: 'Unlimited. There is no cap on how many math puzzle worksheets you can generate. Create as many as you want, forever.',
+        question: "How many puzzles can I create?",
+        answer: "Unlimited. There is no cap on how many math puzzle worksheets you can generate. Create as many as you want, forever.",
       },
       {
-        question: 'What if I’m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If Math Puzzle Studio Pro doesn’t meet your expectations, contact us for a full refund. No questions asked.',
+        question: 'What if I'm not satisfied?',
+        answer: "We offer a 30-day money-back guarantee. If Math Puzzle Studio Pro doesn't meet your expectations, contact us for a full refund. No questions asked.",
       },
       {
-        question: 'Do I need math or design skills?',
-        answer: 'Not at all. The app generates all equations automatically — just pick the operation type. The canvas editor is drag-and-drop. No design skills needed.',
+        question: "Do I need math or design skills?",
+        answer: "Not at all. The app generates all equations automatically — just pick the operation type. The canvas editor is drag-and-drop. No design skills needed.",
       },
       {
-        question: 'Can I upgrade to more themes later?',
-        answer: 'Yes. After purchase, you’ll have the option to add the Complete Image Library (104 themes, 3,125 images). But the best price is available right after your initial purchase.',
+        question: "Can I upgrade to more themes later?",
+        answer: "Yes. After purchase, you'll have the option to add the Complete Image Library (104 themes, 3,125 images). But the best price is available right after your initial purchase.",
       },
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You’re getting Math Puzzle Studio Pro, 9 grid configurations, 3 math operations, auto answer keys, 10 image themes, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first math puzzle book today.',
+    closingPs: "You're getting Math Puzzle Studio Pro, 9 grid configurations, 3 math operations, auto answer keys, 10 image themes, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first math puzzle book today.",
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -845,26 +845,26 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Payment',
       includes: [
-        'Math Puzzle Studio Pro (9 grid configurations)',
+        "Math Puzzle Studio Pro (9 grid configurations)",
         '10 image themes (~300 images)',
-        '3 math operations (add, subtract, mixed)',
+        "3 math operations (add, subtract, mixed)",
         'Auto answer key generation',
-        'Canvas editor with full control',
-        'PDF + JPEG export with answer keys',
-        '7 professional fonts + text effects',
+        "Canvas editor with full control",
+        "PDF + JPEG export with answer keys",
+        "7 professional fonts + text effects",
         'Grayscale mode (ink-saving)',
         'Backgrounds & borders',
-        'Unlimited worksheet generation',
-        'Full commercial/POD/resale rights',
-        'Lifetime access — no subscription',
+        "Unlimited worksheet generation",
+        "Full commercial/POD/resale rights",
+        "Lifetime access — no subscription",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Math Puzzle Studio Pro — Create & Sell Math Puzzle Worksheets | $27 One-Time',
-      description: 'Create professional math puzzle worksheets in 60 seconds. 9 grid sizes, 3 math operations, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.',
-      keywords: 'math puzzle studio pro, math puzzle maker, math puzzle worksheet creator, printable math puzzles, Etsy math worksheets, KDP math puzzles, commercial math puzzles',
+      title: "Math Puzzle Studio Pro — Create & Sell Math Puzzle Worksheets | $27 One-Time",
+      description: "Create professional math puzzle worksheets in 60 seconds. 9 grid sizes, 3 math operations, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.",
+      keywords: "math puzzle studio pro, math puzzle maker, math puzzle worksheet creator, printable math puzzles, Etsy math worksheets, KDP math puzzles, commercial math puzzles",
     },
   },
 
@@ -875,16 +875,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'math-puzzle-library': {
     slug: 'math-puzzle-library',
     productId: 'mathpuzzle-oto1-library',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/l3ql4t/nv8rn9/y3xtkn',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/l3ql4t/nv8rn9/459083',
+    checkoutUrl: "https://warriorplus.com/o2/buy/l3ql4t/nv8rn9/y3xtkn",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/l3ql4t/nv8rn9/459083",
     freeAppUrl: '',
     isOto: true,
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Exclusive Upgrade',
-      headline: 'Wait! Unlock All 104 Image Themes',
-      subheadline: 'You just got 10 themes. Imagine having 104 — with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.',
+      headline: "Wait! Unlock All 104 Image Themes",
+      subheadline: "You just got 10 themes. Imagine having 104 — with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.",
       ctaPrimary: 'Add to My Order',
       trustBadges: [
         'One-Time Payment',
@@ -909,7 +909,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         items: [
           '104 image themes',
           '3,125 images',
-          '52 colorful + 52 black & white',
+          "52 colorful + 52 black & white",
           '104+ possible puzzle books',
         ],
       },
@@ -917,7 +917,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 3. Theme Categories ──────────────────
     themeCategories: {
-      headline: 'Browse the Complete Theme Collection',
+      headline: "Browse the Complete Theme Collection",
       categories: [
         { name: 'Animals', count: 36 },
         { name: 'Ocean Life', count: 32 },
@@ -948,16 +948,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 4. Content Math ──────────────────────
     contentMath: {
-      headline: 'More Themes = More Products = More Revenue',
-      description: 'With 10 themes, you can create 10 puzzle books. With 104 themes, you can create 104+ unique books — in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.',
+      headline: "More Themes = More Products = More Revenue",
+      description: "With 10 themes, you can create 10 puzzle books. With 104 themes, you can create 104+ unique books — in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.",
     },
 
     // ── 5. Value Stack ───────────────────────
     valueStack: {
       headline: 'Everything You Unlock',
       items: [
-        { name: '52 Colorful Image Themes (1,560 images)', value: 147 },
-        { name: '52 Black & White Themes (1,565 images)', value: 97 },
+        { name: "52 Colorful Image Themes (1,560 images)", value: 147 },
+        { name: "52 Black & White Themes (1,565 images)", value: 97 },
       ],
       totalValue: 244,
       yourPrice: 37,
@@ -966,30 +966,30 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn’t meet your expectations, contact us for a full refund.',
+      text: "Same 30-day money-back guarantee. If the Complete Image Library doesn't meet your expectations, contact us for a full refund.",
     },
 
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'Do I need this to use Math Puzzle Studio Pro?',
-        answer: 'No. Math Puzzle Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique puzzle books you can create and sell.',
+        question: "Do I need this to use Math Puzzle Studio Pro?",
+        answer: "No. Math Puzzle Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique puzzle books you can create and sell.",
       },
       {
         question: 'How does activation work?',
-        answer: 'Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.',
+        answer: "Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.",
       },
       {
         question: 'Can I upgrade later?',
-        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
+        answer: "This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.",
       },
       {
-        question: 'What’s the difference between colorful and black & white themes?',
-        answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.',
+        question: "What's the difference between colorful and black & white themes?",
+        answer: "Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.",
       },
     ],
 
-    declineText: 'No thanks, I’ll stick with 10 themes',
+    declineText: "No thanks, I'll stick with 10 themes",
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -998,18 +998,18 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Upgrade',
       includes: [
-        '104 image themes (3,125 images)',
-        '52 colorful + 52 black & white themes',
+        "104 image themes (3,125 images)",
+        "52 colorful + 52 black & white themes",
         'Instant activation',
-        'Full commercial rights on all images',
+        "Full commercial rights on all images",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Complete Image Library — 104 Themes, 3,125 Images | $37 One-Time',
-      description: 'Unlock 104 image themes with 3,125 professionally curated images for Math Puzzle Studio Pro. Create puzzle books for any niche. $37 one-time.',
-      keywords: 'math puzzle image library, math puzzle themes, puzzle worksheet images, math puzzle upgrade',
+      title: "Complete Image Library — 104 Themes, 3,125 Images | $37 One-Time",
+      description: "Unlock 104 image themes with 3,125 professionally curated images for Math Puzzle Studio Pro. Create puzzle books for any niche. $37 one-time.",
+      keywords: "math puzzle image library, math puzzle themes, puzzle worksheet images, math puzzle upgrade",
     },
   },
 
@@ -1020,16 +1020,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-library': {
     slug: 'word-search-library',
     productId: 'wordsearch-oto1-library',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/r02nbq/xkd0x7',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/r02nbq/459036',
+    checkoutUrl: "https://warriorplus.com/o2/buy/pxf0ht/r02nbq/xkd0x7",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/pxf0ht/r02nbq/459036",
     freeAppUrl: '',
     isOto: true,
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Exclusive Upgrade',
-      headline: 'Wait! Unlock All 104 Image Themes',
-      subheadline: 'You just got 10 themes. Imagine having 104 — with 3,000+ professionally curated images. Create puzzle books for any niche imaginable.',
+      headline: "Wait! Unlock All 104 Image Themes",
+      subheadline: "You just got 10 themes. Imagine having 104 — with 3,000+ professionally curated images. Create puzzle books for any niche imaginable.",
       ctaPrimary: 'Add to My Order',
       trustBadges: [
         'One-Time Payment',
@@ -1062,7 +1062,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 3. Theme Categories ──────────────────
     themeCategories: {
-      headline: 'Browse the Complete Theme Collection',
+      headline: "Browse the Complete Theme Collection",
       categories: [
         { name: 'Animals', count: 36 },
         { name: 'Ocean Life', count: 32 },
@@ -1093,8 +1093,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 4. Content Math ──────────────────────
     contentMath: {
-      headline: 'More Themes = More Products = More Revenue',
-      description: 'With 10 themes, you can create 10 puzzle books. With 104 themes, you can create 104+ unique books. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales. The seller with the most products wins.',
+      headline: "More Themes = More Products = More Revenue",
+      description: "With 10 themes, you can create 10 puzzle books. With 104 themes, you can create 104+ unique books. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales. The seller with the most products wins.",
     },
 
     // ── 5. Value Stack ───────────────────────
@@ -1113,30 +1113,30 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn\'t meet your expectations, contact us for a full refund.',
+      text: "Same 30-day money-back guarantee. If the Complete Image Library doesn't meet your expectations, contact us for a full refund.",
     },
 
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'Do I need this to use Word Search Studio Pro?',
-        answer: 'No. Word Search Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique puzzle books you can create and sell.',
+        question: "Do I need this to use Word Search Studio Pro?",
+        answer: "No. Word Search Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique puzzle books you can create and sell.",
       },
       {
         question: 'How does activation work?',
-        answer: 'Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.',
+        answer: "Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.",
       },
       {
         question: 'Can I upgrade later?',
-        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
+        answer: "This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.",
       },
       {
-        question: 'Are all images commercially licensed?',
-        answer: 'Yes. Full commercial rights apply to all 3,000+ images across all 104 themes. Use them in any products you sell on any platform.',
+        question: "Are all images commercially licensed?",
+        answer: "Yes. Full commercial rights apply to all 3,000+ images across all 104 themes. Use them in any products you sell on any platform.",
       },
     ],
 
-    declineText: 'No thanks, I\'ll stick with 10 themes',
+    declineText: "No thanks, I'll stick with 10 themes",
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -1145,19 +1145,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Upgrade',
       includes: [
-        '104 image themes (3,000+ images)',
+        "104 image themes (3,000+ images)",
         'Seasonal & holiday themes',
         'Niche category themes',
         'Instant activation',
-        'Full commercial rights on all images',
+        "Full commercial rights on all images",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Complete Image Library — 104 Themes, 3,000+ Images | $37 One-Time',
-      description: 'Unlock 104 image themes with 3,000+ professionally curated images for Word Search Studio Pro. Create puzzle books for any niche. $37 one-time.',
-      keywords: 'word search image library, word search themes, puzzle book images, word search upgrade',
+      title: "Complete Image Library — 104 Themes, 3,000+ Images | $37 One-Time",
+      description: "Unlock 104 image themes with 3,000+ professionally curated images for Word Search Studio Pro. Create puzzle books for any niche. $37 one-time.",
+      keywords: "word search image library, word search themes, puzzle book images, word search upgrade",
     },
   },
 
@@ -1168,16 +1168,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'word-search-languages': {
     slug: 'word-search-languages',
     productId: 'wordsearch-oto2-languages',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/pxf0ht/rdpvkz/llwqdy',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/pxf0ht/rdpvkz/459037',
+    checkoutUrl: "https://warriorplus.com/o2/buy/pxf0ht/rdpvkz/llwqdy",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/pxf0ht/rdpvkz/459037",
     freeAppUrl: '',
     isOto: true,
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Final Upgrade',
-      headline: 'One More Thing — Sell in 11 Languages',
-      subheadline: 'Your puzzles currently work in English. Unlock 10 more languages and reach millions of non-English speaking customers worldwide.',
+      headline: "One More Thing — Sell in 11 Languages",
+      subheadline: "Your puzzles currently work in English. Unlock 10 more languages and reach millions of non-English speaking customers worldwide.",
       ctaPrimary: 'Add to My Order',
       trustBadges: [
         'Instant Activation',
@@ -1192,19 +1192,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         number: 1,
         icon: 'palette',
         title: 'Select a Language',
-        description: 'Pick from 11 languages in the dropdown menu. German, French, Spanish, and 7 more.',
+        description: "Pick from 11 languages in the dropdown menu. German, French, Spanish, and 7 more.",
       },
       {
         number: 2,
         icon: 'sliders',
         title: 'Everything Auto-Translates',
-        description: 'Image names translate automatically. The puzzle grid uses the correct alphabet for that language — including umlauts, accents, and special characters.',
+        description: "Image names translate automatically. The puzzle grid uses the correct alphabet for that language — including umlauts, accents, and special characters.",
       },
       {
         number: 3,
         icon: 'rocket',
         title: 'Generate & Sell Worldwide',
-        description: 'Export your puzzle and sell it on Amazon.de, Amazon.fr, Amazon.es, or any international marketplace. Same quality, new markets.',
+        description: "Export your puzzle and sell it on Amazon.de, Amazon.fr, Amazon.es, or any international marketplace. Same quality, new markets.",
       },
     ],
 
@@ -1228,8 +1228,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 4. Market Expansion ──────────────────
     marketExpansion: {
-      headline: 'Why Multi-Language = Massive Opportunity',
-      description: 'English-only KDP publishers compete with millions of sellers. Non-English markets are massively underserved. A German word search book on Amazon.de faces a fraction of the competition. Spanish-language puzzles for the U.S. Hispanic market? Almost nobody is creating them. You\'ll have entire niches to yourself.',
+      headline: "Why Multi-Language = Massive Opportunity",
+      description: "English-only KDP publishers compete with millions of sellers. Non-English markets are massively underserved. A German word search book on Amazon.de faces a fraction of the competition. Spanish-language puzzles for the U.S. Hispanic market? Almost nobody is creating them. You'll have entire niches to yourself.",
     },
 
     // ── 5. Value Stack ───────────────────────
@@ -1247,22 +1247,22 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the language pack doesn\'t meet your expectations, contact us for a full refund.',
+      text: "Same 30-day money-back guarantee. If the language pack doesn't meet your expectations, contact us for a full refund.",
     },
 
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'How does the translation work?',
-        answer: 'Select a language from the dropdown. Image names translate automatically (e.g., "cat" becomes "chat" in French, "Katze" in German). The puzzle grid uses the correct alphabet, including special characters like umlauts and accented letters.',
+        question: "How does the translation work?",
+        answer: "Select a language from the dropdown. Image names translate automatically (e.g., \"cat\" becomes \"chat\" in French, \"Katze\" in German). The puzzle grid uses the correct alphabet, including special characters like umlauts and accented letters.",
       },
       {
         question: 'Which languages are included?',
-        answer: 'English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Each language includes fully translated image names and correct alphabet support.',
+        answer: "English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Each language includes fully translated image names and correct alphabet support.",
       },
       {
-        question: 'Can I sell puzzles in multiple languages?',
-        answer: 'Absolutely. Your commercial rights cover all 11 languages. Create a German word search book, a French one, and a Spanish one — all from the same tool, all ready to sell.',
+        question: "Can I sell puzzles in multiple languages?",
+        answer: "Absolutely. Your commercial rights cover all 11 languages. Create a German word search book, a French one, and a Spanish one — all from the same tool, all ready to sell.",
       },
     ],
 
@@ -1279,15 +1279,15 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         'Automatic alphabet handling',
         'Auto-translated image names',
         'Instant activation',
-        'Full commercial rights in all languages',
+        "Full commercial rights in all languages",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'All 11 Languages — Word Search Studio Pro Language Pack | $27 One-Time',
-      description: 'Unlock 11 languages for Word Search Studio Pro. Auto-translated puzzles for German, French, Spanish, and 7 more languages. $27 one-time.',
-      keywords: 'multilingual word search, word search languages, German word search, French word search, Spanish word search',
+      title: "All 11 Languages — Word Search Studio Pro Language Pack | $27 One-Time",
+      description: "Unlock 11 languages for Word Search Studio Pro. Auto-translated puzzles for German, French, Spanish, and 7 more languages. $27 one-time.",
+      keywords: "multilingual word search, word search languages, German word search, French word search, Spanish word search",
     },
   },
 
@@ -1298,15 +1298,15 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition': {
     slug: 'code-addition',
     productId: 'codeaddition-fe',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/qk5spy/jxc7y0',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/qk5spy/459127',
+    checkoutUrl: "https://warriorplus.com/o2/buy/y0prcl/qk5spy/jxc7y0",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/y0prcl/qk5spy/459127",
     freeAppUrl: '',
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Code Addition Studio Pro',
-      headline: 'Turn Math Into a Code-Breaking Adventure — Worksheets in 60 Seconds',
-      subheadline: 'Students solve addition equations to decode hidden images. Auto answer keys. Canvas editor. 10 image themes. All 11 languages. Full commercial rights included.',
+      headline: "Turn Math Into a Code-Breaking Adventure — Worksheets in 60 Seconds",
+      subheadline: "Students solve addition equations to decode hidden images. Auto answer keys. Canvas editor. 10 image themes. All 11 languages. Full commercial rights included.",
       ctaPrimary: 'Get Instant Access',
       trustBadges: [
         'Print-Ready PDF Export',
@@ -1322,94 +1322,94 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     features: [
       {
         icon: 'code',
-        title: 'Code Breaker Addition Worksheets',
-        description: 'Each symbol represents a number. Students solve addition equations to crack the code and reveal hidden images. Makes math practice feel like a spy mission.',
+        title: "Code Breaker Addition Worksheets",
+        description: "Each symbol represents a number. Students solve addition equations to crack the code and reveal hidden images. Makes math practice feel like a spy mission.",
       },
       {
         icon: 'sliders',
         title: 'Adjustable Difficulty',
-        description: '2–5 symbols per worksheet, 2–4 addends per question, customizable number ranges (1–20). Create worksheets for pre-K through 3rd grade with precision control.',
+        description: "2–5 symbols per worksheet, 2–4 addends per question, customizable number ranges (1–20). Create worksheets for pre-K through 3rd grade with precision control.",
       },
       {
         icon: 'images',
         title: '10 Image Themes (~300 Images)',
-        description: 'Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.',
+        description: "Animals, fruits, vegetables, vehicles, ocean life, dinosaurs, space, birds, flowers, and insects. Each theme includes professionally curated, child-friendly images.",
       },
       {
         icon: 'edit',
         title: 'Full Canvas Editor',
-        description: 'Drag, resize, rotate, and layer every element. Add custom text with multiple fonts, upload your own images, adjust colors and outlines. Professional-grade design control.',
+        description: "Drag, resize, rotate, and layer every element. Add custom text with multiple fonts, upload your own images, adjust colors and outlines. Professional-grade design control.",
       },
       {
         icon: 'download',
-        title: 'PDF + JPEG Export with Answer Keys',
-        description: 'Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.',
+        title: "PDF + JPEG Export with Answer Keys",
+        description: "Print-ready files. Answer keys generated automatically from every worksheet. Grayscale mode for ink-saving prints. Perfect for Amazon KDP, Etsy, or classroom printing.",
       },
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.',
+        description: "Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or anywhere else. No attribution required. No royalties. No limits on how many products you create and sell.",
       },
     ],
 
     // ── 4. Market Stats ──────────────────────
     marketStats: {
-      headline: 'Why Code Breaker Math Worksheets Sell',
-      description: 'Parents and teachers want math practice that feels like play. Code breaker worksheets combine math with puzzle-solving — a format that keeps kids engaged while building real skills.',
+      headline: "Why Code Breaker Math Worksheets Sell",
+      description: "Parents and teachers want math practice that feels like play. Code breaker worksheets combine math with puzzle-solving — a format that keeps kids engaged while building real skills.",
       stats: [
-        { value: '$2.4B', label: 'U.S. puzzle & activity book market (est.)' },
-        { value: '14,000+', label: 'Monthly searches for addition worksheets' },
-        { value: 'Growing', label: 'Year-over-year printable market growth' },
-        { value: 'Year-Round', label: 'Demand — not seasonal like holidays' },
+        { value: '$2.4B', label: "U.S. puzzle & activity book market (est.)" },
+        { value: '14,000+', label: "Monthly searches for addition worksheets" },
+        { value: 'Growing', label: "Year-over-year printable market growth" },
+        { value: 'Year-Round', label: "Demand — not seasonal like holidays" },
       ],
     },
 
     // ── 5. Income Potential ──────────────────
     incomePotential: {
-      headline: 'The Math Behind Code Addition Income',
-      description: 'Create 10 themed code breaker addition books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that’s a growing passive income stream with every new title you publish.',
-      calculation: '$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month',
+      headline: "The Math Behind Code Addition Income",
+      description: "Create 10 themed code breaker addition books. Price each at $3.99 on Amazon KDP. If each book sells just 1.5 copies per day — that's a growing passive income stream with every new title you publish.",
+      calculation: "$3.99 × 1.5 sales/day × 10 books = $59.85/day ≈ $598/month",
     },
 
     // ── 7. Obstacles ─────────────────────────
     obstacles: {
-      headline: 'Maybe You’ve Tried Before...',
+      headline: 'Maybe You've Tried Before...',
       problems: [
-        'Creating code breaker worksheets manually means assigning symbols, writing equations, and making answer keys — hours per worksheet',
-        'Professional worksheet-making software costs $200+ and has a steep learning curve',
-        'You don’t know how to generate auto-graded answer keys for code puzzles',
-        'Formatting for print (KDP, Etsy) requires technical knowledge you don’t have',
+        "Creating code breaker worksheets manually means assigning symbols, writing equations, and making answer keys — hours per worksheet",
+        "Professional worksheet-making software costs $200+ and has a steep learning curve",
+        "You don't know how to generate auto-graded answer keys for code puzzles",
+        "Formatting for print (KDP, Etsy) requires technical knowledge you don't have",
       ],
-      solution: 'Code Addition Studio Pro handles all of this automatically. Pick a theme, set your difficulty, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.',
+      solution: "Code Addition Studio Pro handles all of this automatically. Pick a theme, set your difficulty, and export a print-ready PDF with answer key — in under 60 seconds. No design skills. No math curriculum knowledge. No formatting headaches.",
     },
 
     // ── 8. Product Introduction ──────────────
     productIntro: {
-      headline: 'Introducing Code Addition Studio Pro',
-      description: 'A browser-based creation studio that generates code breaker addition worksheets using real images as symbols. Each symbol is assigned a number, students solve addition equations to decode the picture, and answer keys are generated automatically.',
+      headline: "Introducing Code Addition Studio Pro",
+      description: "A browser-based creation studio that generates code breaker addition worksheets using real images as symbols. Each symbol is assigned a number, students solve addition equations to decode the picture, and answer keys are generated automatically.",
       differentiators: [
-        'Image-based symbols — students decode real pictures, not boring letters or generic shapes',
-        'Auto equation generation — the app creates addition problems with your chosen difficulty settings',
-        'One-click answer keys — generated automatically from every worksheet',
-        'Full canvas editor — move, resize, rotate, and layer every element with professional precision',
+        "Image-based symbols — students decode real pictures, not boring letters or generic shapes",
+        "Auto equation generation — the app creates addition problems with your chosen difficulty settings",
+        "One-click answer keys — generated automatically from every worksheet",
+        "Full canvas editor — move, resize, rotate, and layer every element with professional precision",
       ],
     },
 
     // ── 9. Before/After ──────────────────────
     beforeAfter: {
       before: [
-        'Spend hours manually creating code worksheets and writing equations',
-        'Pay $200+ for design software you don’t know how to use',
-        'Produce plain worksheets that look unprofessional',
-        'Struggle with print formatting and page sizing',
-        'No way to generate answer keys automatically',
+        "Spend hours manually creating code worksheets and writing equations",
+        "Pay $200+ for design software you don't know how to use",
+        "Produce plain worksheets that look unprofessional",
+        "Struggle with print formatting and page sizing",
+        "No way to generate answer keys automatically",
       ],
       after: [
-        'Generate professional code breaker worksheets in under 60 seconds',
-        'One-time $27 payment — no monthly fees, no subscriptions',
-        'Image-rich puzzles that stand out on Etsy and Amazon',
-        'Export print-ready PDFs formatted for any platform',
-        'Answer keys generated automatically with every worksheet',
+        "Generate professional code breaker worksheets in under 60 seconds",
+        "One-time $27 payment — no monthly fees, no subscriptions",
+        "Image-rich puzzles that stand out on Etsy and Amazon",
+        "Export print-ready PDFs formatted for any platform",
+        "Answer keys generated automatically with every worksheet",
       ],
     },
 
@@ -1418,17 +1418,17 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'shield',
         title: 'Full Commercial Rights',
-        description: 'Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.',
+        description: "Sell everything you create. No royalties, no attribution required, no limits on how many products you sell.",
       },
       {
         icon: 'users',
         title: 'Personal Use',
-        description: 'Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.',
+        description: "Print for classrooms, homework, tutoring sessions, homeschool. Use however you want, as often as you want.",
       },
       {
         icon: 'store',
         title: 'Sell Anywhere',
-        description: 'Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.',
+        description: "Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website — sell on any platform worldwide.",
       },
     ],
 
@@ -1443,31 +1443,31 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         number: 1,
         icon: 'images',
         title: 'Pick a Theme',
-        description: 'Browse 10 image themes — animals, dinosaurs, ocean life, space, and more. Each image becomes a code symbol on your worksheet.',
+        description: "Browse 10 image themes — animals, dinosaurs, ocean life, space, and more. Each image becomes a code symbol on your worksheet.",
       },
       {
         number: 2,
         icon: 'sliders',
         title: 'Set Difficulty',
-        description: 'Choose 2–5 symbols, 2–4 addends per question, and your number range. Create worksheets for any age from pre-K to 3rd grade.',
+        description: "Choose 2–5 symbols, 2–4 addends per question, and your number range. Create worksheets for any age from pre-K to 3rd grade.",
       },
       {
         number: 3,
         icon: 'sparkles',
         title: 'Generate Worksheet',
-        description: 'The app assigns numbers to symbols, generates unique addition equations, and creates the code breaker layout automatically.',
+        description: "The app assigns numbers to symbols, generates unique addition equations, and creates the code breaker layout automatically.",
       },
       {
         number: 4,
         icon: 'edit',
         title: 'Customize Your Design',
-        description: 'Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours with the canvas editor.',
+        description: "Add text, choose fonts, adjust colors, add decorative backgrounds and borders. Make it uniquely yours with the canvas editor.",
       },
       {
         number: 5,
         icon: 'rocket',
         title: 'Export & Sell',
-        description: 'Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.',
+        description: "Download print-ready PDF with answer key. Upload to Etsy, Amazon KDP, or Teachers Pay Teachers. Start earning today.",
       },
     ],
 
@@ -1477,19 +1477,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       items: [
         {
           title: 'Themed Code Breaker Books',
-          description: 'Complete activity books organized by theme — animals, space, dinosaurs, and more. Students solve addition equations to decode the hidden image in each puzzle.',
+          description: "Complete activity books organized by theme — animals, space, dinosaurs, and more. Students solve addition equations to decode the hidden image in each puzzle.",
         },
         {
           title: 'Auto-Generated Answer Keys',
-          description: 'Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.',
+          description: "Professional answer keys generated automatically with every worksheet. Required for activity books sold on Amazon KDP.",
         },
         {
           title: 'Multiple Difficulty Levels',
-          description: '2 symbols for beginners, 5 symbols for a challenge. 2 addends for simple practice, 4 addends for advanced students. Create products for every age group.',
+          description: "2 symbols for beginners, 5 symbols for a challenge. 2 addends for simple practice, 4 addends for advanced students. Create products for every age group.",
         },
         {
           title: 'Multi-Language Worksheets',
-          description: 'Generate worksheets in all 11 languages. Create localized products for German, French, Spanish, and 8 more markets with automatic translations.',
+          description: "Generate worksheets in all 11 languages. Create localized products for German, French, Spanish, and 8 more markets with automatic translations.",
         },
       ],
     },
@@ -1499,37 +1499,37 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       {
         icon: 'store',
         title: 'Etsy Sellers',
-        description: 'Create unique code breaker activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.',
+        description: "Create unique code breaker activity books and digital downloads. Image-based puzzles stand out from generic text worksheets that flood the market.",
       },
       {
         icon: 'book',
         title: 'Amazon KDP Publishers',
-        description: 'Publish code breaker activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.',
+        description: "Publish code breaker activity books with zero design skills. Export KDP-ready PDFs with automatic answer keys. Build a catalog that earns passive income.",
       },
       {
         icon: 'users',
         title: 'Teachers & Parents',
-        description: 'Custom code breaker worksheets for any theme. Make math practice fun with engaging decode-the-picture puzzles that kids actually enjoy solving.',
+        description: "Custom code breaker worksheets for any theme. Make math practice fun with engaging decode-the-picture puzzles that kids actually enjoy solving.",
       },
       {
         icon: 'rocket',
         title: 'Content Creators',
-        description: 'Build a library of printable code breaker products. Sell on multiple platforms simultaneously. Each worksheet takes seconds, not hours.',
+        description: "Build a library of printable code breaker products. Sell on multiple platforms simultaneously. Each worksheet takes seconds, not hours.",
       },
     ],
 
     // ── 15. Value Stack ──────────────────────
     valueStack: {
-      headline: 'Everything Included in Your Purchase',
+      headline: "Everything Included in Your Purchase",
       items: [
-        { name: 'Code Addition Studio Pro (Regular Mode)', value: 97 },
-        { name: '10 Image Themes (~300 professional images)', value: 47 },
-        { name: 'Adjustable Difficulty (2–5 symbols, 2–4 addends)', value: 37 },
+        { name: "Code Addition Studio Pro (Regular Mode)", value: 97 },
+        { name: "10 Image Themes (~300 professional images)", value: 47 },
+        { name: "Adjustable Difficulty (2–5 symbols, 2–4 addends)", value: 37 },
         { name: 'Auto Answer Key Generation', value: 47 },
-        { name: 'Canvas Editor (drag, resize, rotate, layers)', value: 47 },
+        { name: "Canvas Editor (drag, resize, rotate, layers)", value: 47 },
         { name: 'All 11 Languages Included', value: 67 },
-        { name: 'Full Commercial Rights (sell anywhere)', value: 97 },
-        { name: 'PDF + JPEG Export with Answer Keys', value: 37 },
+        { name: "Full Commercial Rights (sell anywhere)", value: 97 },
+        { name: "PDF + JPEG Export with Answer Keys", value: 37 },
       ],
       totalValue: 476,
       yourPrice: 27,
@@ -1538,13 +1538,13 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 17. Guarantee ────────────────────────
     guarantee: {
       days: 30,
-      text: 'Try Code Addition Studio Pro risk-free for 30 days. If it doesn’t meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.',
+      text: "Try Code Addition Studio Pro risk-free for 30 days. If it doesn't meet your expectations for any reason, contact us for a full refund. No questions asked, no hoops to jump through.",
     },
 
     // ── 18. Urgency ──────────────────────────
     urgency: {
       headline: 'Lock In This Launch Price',
-      text: 'This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won’t come back down.',
+      text: "This $27 price is available during our launch period only. The regular price is $97. Once the launch ends, the price goes up — and it won't come back down.",
       regularPrice: 97,
     },
 
@@ -1552,40 +1552,40 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     faq: [
       {
         question: 'Is this a subscription?',
-        answer: 'No. This is a one-time payment of $27. You get lifetime access to Code Addition Studio Pro with all features included. No recurring fees, ever.',
+        answer: "No. This is a one-time payment of $27. You get lifetime access to Code Addition Studio Pro with all features included. No recurring fees, ever.",
       },
       {
-        question: 'Can I sell the worksheets I create?',
-        answer: 'Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.',
+        question: "Can I sell the worksheets I create?",
+        answer: "Yes! Full commercial rights are included. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, your own website, or any other platform. No attribution required.",
       },
       {
-        question: 'How does the code breaker format work?',
-        answer: 'Each worksheet assigns a number to image symbols. Students solve addition equations where the answers reveal which symbol goes where. The decoded symbols form a picture. Answer keys are generated automatically.',
+        question: "How does the code breaker format work?",
+        answer: "Each worksheet assigns a number to image symbols. Students solve addition equations where the answers reveal which symbol goes where. The decoded symbols form a picture. Answer keys are generated automatically.",
       },
       {
         question: 'What formats can I export?',
-        answer: 'You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.',
+        answer: "You can export as PDF and high-resolution JPEG. Answer keys are generated automatically with every worksheet. Grayscale mode is available for ink-saving prints.",
       },
       {
-        question: 'How many worksheets can I create?',
-        answer: 'Unlimited. There is no cap on how many code breaker worksheets you can generate. Create as many as you want, forever.',
+        question: "How many worksheets can I create?",
+        answer: "Unlimited. There is no cap on how many code breaker worksheets you can generate. Create as many as you want, forever.",
       },
       {
-        question: 'What if I’m not satisfied?',
-        answer: 'We offer a 30-day money-back guarantee. If Code Addition Studio Pro doesn’t meet your expectations, contact us for a full refund. No questions asked.',
+        question: 'What if I'm not satisfied?',
+        answer: "We offer a 30-day money-back guarantee. If Code Addition Studio Pro doesn't meet your expectations, contact us for a full refund. No questions asked.",
       },
       {
-        question: 'Do I need math or design skills?',
-        answer: 'Not at all. The app generates all equations automatically — just set your difficulty level. The canvas editor is drag-and-drop. No design skills needed.',
+        question: "Do I need math or design skills?",
+        answer: "Not at all. The app generates all equations automatically — just set your difficulty level. The canvas editor is drag-and-drop. No design skills needed.",
       },
       {
-        question: 'Can I upgrade to more themes or features later?',
-        answer: 'Yes. After purchase, you’ll have the option to add Word Reveal Mode and the Complete Image Library (104 themes). But the best prices are available right after your initial purchase.',
+        question: "Can I upgrade to more themes or features later?",
+        answer: "Yes. After purchase, you'll have the option to add Word Reveal Mode and the Complete Image Library (104 themes). But the best prices are available right after your initial purchase.",
       },
     ],
 
     // ── 20. Closing P.S. ─────────────────────
-    closingPs: 'You’re getting Code Addition Studio Pro, adjustable difficulty settings, auto answer keys, 10 image themes, all 11 languages, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first code breaker worksheet today.',
+    closingPs: "You're getting Code Addition Studio Pro, adjustable difficulty settings, auto answer keys, 10 image themes, all 11 languages, a full canvas editor, PDF export, and complete commercial rights — all for a one-time payment of $27. Create your first code breaker worksheet today.",
 
     // ── Pricing (CTA sections) ───────────────
     pricing: {
@@ -1594,25 +1594,25 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Payment',
       includes: [
-        'Code Addition Studio Pro (Regular Mode)',
+        "Code Addition Studio Pro (Regular Mode)",
         '10 image themes (~300 images)',
-        'Adjustable difficulty (2–5 symbols, 2–4 addends)',
+        "Adjustable difficulty (2–5 symbols, 2–4 addends)",
         'Auto answer key generation',
         'All 11 languages included',
-        'Canvas editor with full control',
-        'PDF + JPEG export with answer keys',
+        "Canvas editor with full control",
+        "PDF + JPEG export with answer keys",
         'Backgrounds & borders',
-        'Unlimited worksheet generation',
-        'Full commercial/POD/resale rights',
-        'Lifetime access — no subscription',
+        "Unlimited worksheet generation",
+        "Full commercial/POD/resale rights",
+        "Lifetime access — no subscription",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Code Addition Studio Pro — Create & Sell Code Breaker Addition Worksheets | $27 One-Time',
-      description: 'Create professional code breaker addition worksheets in 60 seconds. Image symbols, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.',
-      keywords: 'code addition studio pro, code breaker worksheet maker, addition worksheet creator, printable math puzzles, Etsy math worksheets, KDP addition worksheets, commercial math worksheets',
+      title: "Code Addition Studio Pro — Create & Sell Code Breaker Addition Worksheets | $27 One-Time",
+      description: "Create professional code breaker addition worksheets in 60 seconds. Image symbols, auto answer keys, canvas editor, PDF export. Sell on Etsy & Amazon KDP. $27 one-time.",
+      keywords: "code addition studio pro, code breaker worksheet maker, addition worksheet creator, printable math puzzles, Etsy math worksheets, KDP addition worksheets, commercial math worksheets",
     },
   },
 
@@ -1623,8 +1623,8 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition-wordreveal': {
     slug: 'code-addition-wordreveal',
     productId: 'codeaddition-oto1-wordreveal',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/tdgbpq/q28kfn',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/tdgbpq/459128',
+    checkoutUrl: "https://warriorplus.com/o2/buy/y0prcl/tdgbpq/q28kfn",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/y0prcl/tdgbpq/459128",
     freeAppUrl: '',
     isOto: true,
 
@@ -1632,7 +1632,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     hero: {
       badge: 'Exclusive Upgrade',
       headline: 'Wait! Unlock Word Reveal Mode',
-      subheadline: 'You just got Code Addition Studio Pro. Now add the most engaging feature: students solve equations and each answer reveals a letter of a secret word. Math meets literacy in one worksheet.',
+      subheadline: "You just got Code Addition Studio Pro. Now add the most engaging feature: students solve equations and each answer reveals a letter of a secret word. Math meets literacy in one worksheet.",
       ctaPrimary: 'Add to My Order',
       trustBadges: [
         'One-Time Payment',
@@ -1655,7 +1655,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       upgrade: {
         label: 'With Word Reveal Mode',
         items: [
-          'Regular mode + Word Reveal mode',
+          "Regular mode + Word Reveal mode",
           'Students decode a secret word',
           'Math + literacy combined',
           'Unique two-skill worksheets',
@@ -1667,9 +1667,9 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     valueStack: {
       headline: 'Everything You Unlock',
       items: [
-        { name: 'Word Reveal Mode (secret word puzzles)', value: 67 },
+        { name: "Word Reveal Mode (secret word puzzles)", value: 67 },
         { name: 'Auto Letter-to-Answer Mapping', value: 37 },
-        { name: 'Support for Accented Characters (all 11 languages)', value: 27 },
+        { name: "Support for Accented Characters (all 11 languages)", value: 27 },
       ],
       totalValue: 131,
       yourPrice: 37,
@@ -1678,30 +1678,30 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If Word Reveal Mode doesn’t meet your expectations, contact us for a full refund.',
+      text: "Same 30-day money-back guarantee. If Word Reveal Mode doesn't meet your expectations, contact us for a full refund.",
     },
 
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'Do I need this to use Code Addition Studio Pro?',
-        answer: 'No. Code Addition Studio Pro works great with Regular Mode. Word Reveal Mode is for sellers who want a unique product type — worksheets that combine math and literacy practice in one puzzle.',
+        question: "Do I need this to use Code Addition Studio Pro?",
+        answer: "No. Code Addition Studio Pro works great with Regular Mode. Word Reveal Mode is for sellers who want a unique product type — worksheets that combine math and literacy practice in one puzzle.",
       },
       {
-        question: 'How does Word Reveal Mode work?',
-        answer: 'You type a secret word (up to 10 letters). The app creates one equation per letter. Students solve each equation, and the answer maps to a letter. When all equations are solved, the secret word is revealed.',
+        question: "How does Word Reveal Mode work?",
+        answer: "You type a secret word (up to 10 letters). The app creates one equation per letter. Students solve each equation, and the answer maps to a letter. When all equations are solved, the secret word is revealed.",
       },
       {
         question: 'Can I upgrade later?',
-        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $97.',
+        answer: "This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $97.",
       },
       {
-        question: 'Does it work with all languages?',
-        answer: 'Yes. Word Reveal Mode supports accented characters for all 11 languages, including German (ÄÖÜ), French (ÉÈÊ), and Nordic languages (ÅØ).',
+        question: "Does it work with all languages?",
+        answer: "Yes. Word Reveal Mode supports accented characters for all 11 languages, including German (ÄÖÜ), French (ÉÈÊ), and Nordic languages (ÅØ).",
       },
     ],
 
-    declineText: 'No thanks, I’ll stick with Regular Mode only',
+    declineText: "No thanks, I'll stick with Regular Mode only",
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -1713,16 +1713,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         'Word Reveal Mode unlocked',
         'Secret word puzzle worksheets',
         'Auto letter-to-answer mapping',
-        'All 11 languages with accented characters',
+        "All 11 languages with accented characters",
         'Instant activation',
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Word Reveal Mode — Code Addition Studio Pro Upgrade | $37 One-Time',
-      description: 'Unlock Word Reveal Mode for Code Addition Studio Pro. Students solve equations to reveal secret words. Math + literacy combined. $37 one-time.',
-      keywords: 'word reveal mode, code addition upgrade, math literacy worksheets, secret word math puzzles',
+      title: "Word Reveal Mode — Code Addition Studio Pro Upgrade | $37 One-Time",
+      description: "Unlock Word Reveal Mode for Code Addition Studio Pro. Students solve equations to reveal secret words. Math + literacy combined. $37 one-time.",
+      keywords: "word reveal mode, code addition upgrade, math literacy worksheets, secret word math puzzles",
     },
   },
 
@@ -1733,16 +1733,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
   'code-addition-library': {
     slug: 'code-addition-library',
     productId: 'codeaddition-oto2-library',
-    checkoutUrl: 'https://warriorplus.com/o2/buy/y0prcl/p4bkd6/lkrppq',
-    wpButtonImg: 'https://warriorplus.com/o2/btn/fn100011001/y0prcl/p4bkd6/459129',
+    checkoutUrl: "https://warriorplus.com/o2/buy/y0prcl/p4bkd6/lkrppq",
+    wpButtonImg: "https://warriorplus.com/o2/btn/fn100011001/y0prcl/p4bkd6/459129",
     freeAppUrl: '',
     isOto: true,
 
     // ── 1. Hero ──────────────────────────────
     hero: {
       badge: 'Exclusive Upgrade',
-      headline: 'Wait! Unlock All 104 Image Themes',
-      subheadline: 'You just got 10 themes. Imagine having 104 — with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.',
+      headline: "Wait! Unlock All 104 Image Themes",
+      subheadline: "You just got 10 themes. Imagine having 104 — with 3,125 professionally curated PNG images across 52 colorful and 52 black & white themes.",
       ctaPrimary: 'Add to My Order',
       trustBadges: [
         'One-Time Payment',
@@ -1759,7 +1759,7 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
           '10 image themes',
           '~300 images',
           'Colorful themes only',
-          '10 possible code breaker books',
+          "10 possible code breaker books",
         ],
       },
       upgrade: {
@@ -1767,15 +1767,15 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
         items: [
           '104 image themes',
           '3,125 images',
-          '52 colorful + 52 black & white',
-          '104+ possible code breaker books',
+          "52 colorful + 52 black & white",
+          "104+ possible code breaker books",
         ],
       },
     },
 
     // ── 3. Theme Categories ──────────────────
     themeCategories: {
-      headline: 'Browse the Complete Theme Collection',
+      headline: "Browse the Complete Theme Collection",
       categories: [
         { name: 'Animals', count: 36 },
         { name: 'Ocean Life', count: 32 },
@@ -1806,16 +1806,16 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
 
     // ── 4. Content Math ──────────────────────
     contentMath: {
-      headline: 'More Themes = More Products = More Revenue',
-      description: 'With 10 themes, you can create 10 code breaker books. With 104 themes, you can create 104+ unique books — in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.',
+      headline: "More Themes = More Products = More Revenue",
+      description: "With 10 themes, you can create 10 code breaker books. With 104 themes, you can create 104+ unique books — in both color and black & white. Each book is a separate listing on Etsy or Amazon KDP. More listings means more visibility, more traffic, and more sales.",
     },
 
     // ── 5. Value Stack ───────────────────────
     valueStack: {
       headline: 'Everything You Unlock',
       items: [
-        { name: '52 Colorful Image Themes (1,560 images)', value: 147 },
-        { name: '52 Black & White Themes (1,565 images)', value: 97 },
+        { name: "52 Colorful Image Themes (1,560 images)", value: 147 },
+        { name: "52 Black & White Themes (1,565 images)", value: 97 },
       ],
       totalValue: 244,
       yourPrice: 37,
@@ -1824,30 +1824,30 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
     // ── 6. Guarantee ─────────────────────────
     guarantee: {
       days: 30,
-      text: 'Same 30-day money-back guarantee. If the Complete Image Library doesn’t meet your expectations, contact us for a full refund.',
+      text: "Same 30-day money-back guarantee. If the Complete Image Library doesn't meet your expectations, contact us for a full refund.",
     },
 
     // ── 7. FAQ ───────────────────────────────
     faq: [
       {
-        question: 'Do I need this to use Code Addition Studio Pro?',
-        answer: 'No. Code Addition Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique code breaker books you can create and sell.',
+        question: "Do I need this to use Code Addition Studio Pro?",
+        answer: "No. Code Addition Studio Pro works great with the 10 themes included in your purchase. The Complete Image Library is for sellers who want maximum variety — 104 themes means 104+ unique code breaker books you can create and sell.",
       },
       {
         question: 'How does activation work?',
-        answer: 'Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.',
+        answer: "Instantly. After purchase, all 104 themes appear in your theme dropdown immediately. No extra downloads or setup required.",
       },
       {
         question: 'Can I upgrade later?',
-        answer: 'This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.',
+        answer: "This discounted price of $37 is only available right now as part of your initial purchase. The regular price is $147.",
       },
       {
-        question: 'What’s the difference between colorful and black & white themes?',
-        answer: 'Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.',
+        question: "What's the difference between colorful and black & white themes?",
+        answer: "Colorful themes have vibrant, full-color images. Black & white themes are designed specifically for coloring books and ink-saving worksheets — perfect for KDP print editions.",
       },
     ],
 
-    declineText: 'No thanks, I’ll stick with 10 themes',
+    declineText: "No thanks, I'll stick with 10 themes",
 
     // ── Pricing (CTA section) ────────────────
     pricing: {
@@ -1856,19 +1856,19 @@ export const SALES_PAGES: Record<string, SalesPageConfig> = {
       currency: '$',
       label: 'One-Time Upgrade',
       includes: [
-        '104 image themes (3,125 images)',
-        '52 colorful themes + 52 black & white themes',
-        'Decorative backgrounds & borders',
+        "104 image themes (3,125 images)",
+        "52 colorful themes + 52 black & white themes",
+        "Decorative backgrounds & borders",
         'Instant activation',
-        'Full commercial rights on all images',
+        "Full commercial rights on all images",
       ],
     },
 
     // ── SEO ──────────────────────────────────
     seo: {
-      title: 'Complete Image Library — Code Addition Studio Pro Upgrade | $37 One-Time',
-      description: 'Unlock all 104 image themes with 3,125 professionally curated PNG images for Code Addition Studio Pro. Create code breaker books for any niche. $37 one-time.',
-      keywords: 'code addition image library, code breaker themes, math worksheet images, printable worksheet themes',
+      title: "Complete Image Library — Code Addition Studio Pro Upgrade | $37 One-Time",
+      description: "Unlock all 104 image themes with 3,125 professionally curated PNG images for Code Addition Studio Pro. Create code breaker books for any niche. $37 one-time.",
+      keywords: "code addition image library, code breaker themes, math worksheet images, printable worksheet themes",
     },
   },
 };

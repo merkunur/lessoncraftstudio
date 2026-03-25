@@ -46,7 +46,7 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
 
   // ── Literacy (7) ──
   'alphabet-train': {
-    en: 'Alphabet Train', de: 'ABC-Zug', fr: 'Train de l\'alphabet', es: 'Tren del abecedario', it: 'Trenino dell\'alfabeto',
+    en: 'Alphabet Train', de: 'ABC-Zug', fr: 'Train de l'alphabet', es: 'Tren del abecedario', it: 'Trenino dell'alfabeto',
     pt: 'Trenzinho do alfabeto', nl: 'Alfabettrein', da: 'Alfabettog', sv: 'Alfabetåtåget', no: 'Alfabettoget', fi: 'Aakkosjuna',
   },
   'prepositions': {
@@ -110,11 +110,11 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Jogo de correspondência', nl: 'Koppelen', da: 'Parspil', sv: 'Para ihop', no: 'Finn par', fi: 'Yhdistäminen',
   },
   'grid-match': {
-    en: 'Grid Match', de: 'Gitter-Zuordnung', fr: 'Grille d\'association', es: 'Cuadrícula de asociación', it: 'Griglia di abbinamento',
+    en: 'Grid Match', de: 'Gitter-Zuordnung', fr: 'Grille d'association', es: 'Cuadrícula de asociación', it: 'Griglia di abbinamento',
     pt: 'Grade de correspondência', nl: 'Raster koppelen', da: 'Gittermatching', sv: 'Rutmatchning', no: 'Rutematching', fi: 'Ruudukkomatch',
   },
   'shadow-match': {
-    en: 'Shadow Match', de: 'Schattenspiel', fr: 'Jeu d\'ombres', es: 'Sombras y figuras', it: 'Abbina le ombre',
+    en: 'Shadow Match', de: 'Schattenspiel', fr: 'Jeu d'ombres', es: 'Sombras y figuras', it: 'Abbina le ombre',
     pt: 'Combine as sombras', nl: 'Schaduw koppelen', da: 'Skyggespil', sv: 'Skuggmatchning', no: 'Skyggespill', fi: 'Varjoyhdistäminen',
   },
   'bingo': {
@@ -132,7 +132,7 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Peças faltando', nl: 'Ontbrekende stukjes', da: 'Manglende brikker', sv: 'Saknade bitar', no: 'Manglende brikker', fi: 'Puuttuvat palat',
   },
   'odd-one-out': {
-    en: 'Odd One Out', de: 'Was passt nicht?', fr: 'L\'intrus', es: 'El intruso', it: 'L\'intruso',
+    en: 'Odd One Out', de: 'Was passt nicht?', fr: 'L'intrus', es: 'El intruso', it: 'L'intruso',
     pt: 'O intruso', nl: 'Wat hoort er niet bij?', da: 'Find den der ikke hører til', sv: 'Vilken hör inte hemma?', no: 'Finn den som ikke hører til', fi: 'Mikä ei kuulu joukkoon?',
   },
   'sudoku': {
@@ -140,7 +140,7 @@ export const APP_NAME_TRANSLATIONS: Record<AppId, Record<Locale, string>> = {
     pt: 'Sudoku', nl: 'Sudoku', da: 'Sudoku', sv: 'Sudoku', no: 'Sudoku', fi: 'Sudoku',
   },
   'picture-path': {
-    en: 'Picture Path', de: 'Bilderpfad', fr: 'Chemin d\'images', es: 'Camino de imágenes', it: 'Percorso di immagini',
+    en: 'Picture Path', de: 'Bilderpfad', fr: 'Chemin d'images', es: 'Camino de imágenes', it: 'Percorso di immagini',
     pt: 'Caminho de imagens', nl: 'Plaatjespad', da: 'Billedsti', sv: 'Bildväg', no: 'Bildesti', fi: 'Kuvapolku',
   },
 

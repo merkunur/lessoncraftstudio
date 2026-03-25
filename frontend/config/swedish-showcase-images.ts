@@ -30,7 +30,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'addition_övning.webp',
       'bild tal.webp',
     ],
-    answerKey: 'addition_övning answer_key.webp',
+    answerKey: "addition_övning answer_key.webp",
   },
   subtraction: {
     folder: 'subtraction',
@@ -42,19 +42,19 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Rolig Subtraktio 1.webp',
       'Rolig Subtraktio 2.webp',
     ],
-    answerKey: 'Rolig Subtraktio 1 answer_key.webp',
+    answerKey: "Rolig Subtraktio 1 answer_key.webp",
   },
   'code-addition': {
     folder: 'code addition',
     imgs: [
       'image_addition_worksheet.webp',
-      'image_addition_worksheet (1).webp',
-      'image_addition_worksheet (2).webp',
-      'image_addition_worksheet (3).webp',
+      "image_addition_worksheet (1).webp",
+      "image_addition_worksheet (2).webp",
+      "image_addition_worksheet (3).webp",
       'image_addition_worksheet.webp',
-      'image_addition_worksheet (1).webp',
+      "image_addition_worksheet (1).webp",
     ],
-    answerKey: 'image_addition_answer_key.webp',
+    answerKey: "image_addition_answer_key.webp",
   },
   'more-less': {
     folder: 'more less',
@@ -90,7 +90,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'worksheet (2).webp',
       'mattetal portrait.webp',
     ],
-    answerKey: 'mattetal portrait answer_key.webp',
+    answerKey: "mattetal portrait answer_key.webp",
   },
   'alphabet-train': {
     folder: 'alphabet train',
@@ -102,7 +102,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'worksheet (2).webp',
       'alfabetståg portrait.webp',
     ],
-    answerKey: 'alfabetståg portrait answer_key.webp',
+    answerKey: "alfabetståg portrait answer_key.webp",
   },
   'word-guess': {
     folder: 'word guess',
@@ -123,10 +123,10 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Ordmix landscape.webp',
       'Ordmix custom.webp',
       'word-scramble_worksheet.webp',
-      'word-scramble_worksheet (1).webp',
-      'word-scramble_worksheet (2).webp',
+      "word-scramble_worksheet (1).webp",
+      "word-scramble_worksheet (2).webp",
     ],
-    answerKey: 'Ordmix portrait answer-key.webp',
+    answerKey: "Ordmix portrait answer-key.webp",
   },
   'word-search': {
     folder: 'wordsearch',
@@ -138,7 +138,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'worksheet (1).webp',
       'worksheet (2).webp',
     ],
-    answerKey: 'ordletning portrait answer_key.webp',
+    answerKey: "ordletning portrait answer_key.webp",
   },
   cryptogram: {
     folder: 'cryptogram',
@@ -150,7 +150,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Bildkryptogram 5.webp',
       'Bildkryptogram 1.webp',
     ],
-    answerKey: 'Bildkryptogram 1 answer_key.webp',
+    answerKey: "Bildkryptogram 1 answer_key.webp",
   },
   writing: {
     folder: 'writing',
@@ -174,7 +174,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       '2 identiska bilder.webp',
       '2 olika bilder.webp',
     ],
-    answerKey: '2 identiska bilder answer_key.webp',
+    answerKey: "2 identiska bilder answer_key.webp",
   },
   'pattern-train': {
     folder: 'pattern train',
@@ -191,7 +191,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Mönsterpussel.webp',
       'Mönsterpussel 1.webp',
     ],
-    answerKey: 'Mönsterpussel 1 answer_key.webp',
+    answerKey: "Mönsterpussel 1 answer_key.webp",
   },
   'draw-and-color': {
     folder: 'draw and color',
@@ -245,13 +245,13 @@ export const swedishImages: Record<string, SwedishImageSet> = {
     folder: 'matching',
     imgs: [
       'Matchningsspel.webp',
-      'Matchningsspel beginning letter.webp',
-      'Matchningsspel bild och ord.webp',
+      "Matchningsspel beginning letter.webp",
+      "Matchningsspel bild och ord.webp",
       'Matchningsspel custom.webp',
       'Matchningsspel.webp',
-      'Matchningsspel beginning letter.webp',
+      "Matchningsspel beginning letter.webp",
     ],
-    answerKey: 'Matchningsspel answer_key.webp',
+    answerKey: "Matchningsspel answer_key.webp",
   },
   'grid-match': {
     folder: 'grid match',
@@ -263,7 +263,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Rutnätspussel 5.webp',
       'Rutnätspussel 6.webp',
     ],
-    answerKey: 'Rutnätspussel 1 answer_key.webp',
+    answerKey: "Rutnätspussel 1 answer_key.webp",
   },
   'shadow-match': {
     folder: 'shadow match',
@@ -275,7 +275,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'shadow-match-worksheet.webp',
       'skuggmatchning 1.webp',
     ],
-    answerKey: 'skuggmatchning 1 answer key.webp',
+    answerKey: "skuggmatchning 1 answer key.webp",
   },
   bingo: {
     folder: 'bingo',
@@ -299,7 +299,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'sortera bilder 1.webp',
       'sortera bilder 2.webp',
     ],
-    answerKey: 'sortera bilder 1 answer_key_2026-01-02.webp',
+    answerKey: "sortera bilder 1 answer_key_2026-01-02.webp",
   },
   'missing-pieces': {
     folder: 'missing pieces',
@@ -311,7 +311,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Saknade Bitar 5.webp',
       'Saknade Bitar 6.webp',
     ],
-    answerKey: 'Saknade Bitar 1 answer_key.webp',
+    answerKey: "Saknade Bitar 1 answer_key.webp",
   },
   'odd-one-out': {
     folder: 'odd one out',
@@ -323,7 +323,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Hitta Udda Fågeln 5.webp',
       'Hitta Udda Fågeln 1.webp',
     ],
-    answerKey: 'Hitta Udda Fågeln 1 answer-key.webp',
+    answerKey: "Hitta Udda Fågeln 1 answer-key.webp",
   },
   sudoku: {
     folder: 'sudoku',
@@ -371,7 +371,7 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Hitta den Udda.webp',
       'Hitta den Udda (1).webp',
     ],
-    answerKey: 'hitta föremålen 1 answer_key.webp',
+    answerKey: "hitta föremålen 1 answer_key.webp",
   },
   crossword: {
     folder: 'crossword',
@@ -407,6 +407,6 @@ export const swedishImages: Record<string, SwedishImageSet> = {
       'Prepositioner 1.webp',
       'Prepositioner 2.webp',
     ],
-    answerKey: 'Prepositioner 1 answer_key.webp',
+    answerKey: "Prepositioner 1 answer_key.webp",
   },
 };

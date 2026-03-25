@@ -26,7 +26,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Adição Divertida 5.webp',
       'Adição Divertida 1.webp',
     ],
-    answerKey: 'Adição Divertida 1 answer_key.webp',
+    answerKey: "Adição Divertida 1 answer_key.webp",
   },
   subtraction: {
     folder: 'subtraction',
@@ -38,7 +38,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Subtrações Divertidas 1.webp',
       'Subtrações Divertidas 2.webp',
     ],
-    answerKey: 'Subtrações Divertidas 1 answer_key.webp',
+    answerKey: "Subtrações Divertidas 1 answer_key.webp",
   },
   'code-addition': {
     folder: 'code addition',
@@ -50,7 +50,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Código Secreto Adição 1.webp',
       'Código Secreto Adição 2.webp',
     ],
-    answerKey: 'Código Secreto Adição 1 answer_key.webp',
+    answerKey: "Código Secreto Adição 1 answer_key.webp",
   },
   'more-less': {
     folder: 'more less',
@@ -67,14 +67,14 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
   'math-puzzle': {
     folder: 'math puzzle',
     imgs: [
-      'Quebra-Cabeças Matemático 1.webp',
-      'Quebra-Cabeças Matemático 2.webp',
-      'Quebra-Cabeças Matemático 3.webp',
-      'Quebra-Cabeças Matemático 4.webp',
-      'Quebra-Cabeças Matemático 1.webp',
-      'Quebra-Cabeças Matemático 2.webp',
+      "Quebra-Cabeças Matemático 1.webp",
+      "Quebra-Cabeças Matemático 2.webp",
+      "Quebra-Cabeças Matemático 3.webp",
+      "Quebra-Cabeças Matemático 4.webp",
+      "Quebra-Cabeças Matemático 1.webp",
+      "Quebra-Cabeças Matemático 2.webp",
     ],
-    answerKey: 'Quebra-Cabeças Matemático 1 answer_key.webp',
+    answerKey: "Quebra-Cabeças Matemático 1 answer_key.webp",
   },
   'math-worksheet': {
     folder: 'math worksheet',
@@ -86,7 +86,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Folha de Matemática 1.webp',
       'Folha de Matemática 2.webp',
     ],
-    answerKey: 'Folha de Matemática 1 answer_key.webp',
+    answerKey: "Folha de Matemática 1 answer_key.webp",
   },
   'alphabet-train': {
     folder: 'alphabet train',
@@ -98,7 +98,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Comboio do Alfabeto 1.webp',
       'Comboio do Alfabeto 2.webp',
     ],
-    answerKey: 'Comboio do Alfabeto 1 answer_key.webp',
+    answerKey: "Comboio do Alfabeto 1 answer_key.webp",
   },
   prepositions: {
     folder: 'prepositions',
@@ -122,7 +122,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Adivinha a Palavra 1.webp',
       'Adivinha a Palavra 2.webp',
     ],
-    answerKey: 'Adivinha a Palavra 1 answer-key.webp',
+    answerKey: "Adivinha a Palavra 1 answer-key.webp",
   },
   'word-scramble': {
     folder: 'word scramble',
@@ -134,7 +134,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Letras Embaralhadas 1.webp',
       'Letras Embaralhadas 2.webp',
     ],
-    answerKey: 'Letras Embaralhadas 1 answer-key.webp',
+    answerKey: "Letras Embaralhadas 1 answer-key.webp",
   },
   wordsearch: {
     folder: 'wordsearch',
@@ -146,7 +146,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Caça-Palavras 1.webp',
       'Caça-Palavras 2.webp',
     ],
-    answerKey: 'Caça-Palavras 1 answer_key.webp',
+    answerKey: "Caça-Palavras 1 answer_key.webp",
   },
   cryptogram: {
     folder: 'cryptogram',
@@ -158,7 +158,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Criptograma Ilustrado 5.webp',
       'Criptograma Ilustrado 1.webp',
     ],
-    answerKey: 'Criptograma Ilustrado 1 answer_key.webp',
+    answerKey: "Criptograma Ilustrado 1 answer_key.webp",
   },
   crossword: {
     folder: 'crossword',
@@ -170,7 +170,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Palavras Cruzadas 1.webp',
       'Palavras Cruzadas 2.webp',
     ],
-    answerKey: 'Palavras Cruzadas 1 answer_key.webp',
+    answerKey: "Palavras Cruzadas 1 answer_key.webp",
   },
   writing: {
     folder: 'writing',
@@ -194,7 +194,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Grande ou Pequeno 1.webp',
       'Grande ou Pequeno 2.webp',
     ],
-    answerKey: 'Grande ou Pequeno 1 answer_key.webp',
+    answerKey: "Grande ou Pequeno 1 answer_key.webp",
   },
   'pattern-train': {
     folder: 'pattern train',
@@ -206,19 +206,19 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Comboio de Padrões 5.webp',
       'Comboio de Padrões 1.webp',
     ],
-    answerKey: 'Comboio de Padrões 1 answer_key.webp',
+    answerKey: "Comboio de Padrões 1 answer_key.webp",
   },
   'pattern-worksheet': {
     folder: 'pattern worksheet',
     imgs: [
-      'Quebra-cabeças de Padrões 1.webp',
-      'Quebra-cabeças de Padrões 2.webp',
-      'Quebra-cabeças de Padrões 3.webp',
-      'Quebra-cabeças de Padrões 4.webp',
-      'Quebra-cabeças de Padrões 5.webp',
-      'Quebra-cabeças de Padrões 1.webp',
+      "Quebra-cabeças de Padrões 1.webp",
+      "Quebra-cabeças de Padrões 2.webp",
+      "Quebra-cabeças de Padrões 3.webp",
+      "Quebra-cabeças de Padrões 4.webp",
+      "Quebra-cabeças de Padrões 5.webp",
+      "Quebra-cabeças de Padrões 1.webp",
     ],
-    answerKey: 'Quebra-cabeças de Padrões 1 answer_key.webp',
+    answerKey: "Quebra-cabeças de Padrões 1 answer_key.webp",
   },
   'draw-and-color': {
     folder: 'draw and color',
@@ -235,14 +235,14 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
   'drawing-lines': {
     folder: 'drawing lines',
     imgs: [
-      'Prática de Desenhar Linhas 1.webp',
-      'Prática de Desenhar Linhas 2.webp',
-      'Prática de Desenhar Linhas 3.webp',
-      'Prática de Desenhar Linhas 4.webp',
-      'Prática de Desenhar Linhas 5.webp',
-      'Prática de Desenhar Linhas 6.webp',
+      "Prática de Desenhar Linhas 1.webp",
+      "Prática de Desenhar Linhas 2.webp",
+      "Prática de Desenhar Linhas 3.webp",
+      "Prática de Desenhar Linhas 4.webp",
+      "Prática de Desenhar Linhas 5.webp",
+      "Prática de Desenhar Linhas 6.webp",
     ],
-    answerKey: 'Prática de Desenhar Linhas 1.webp',
+    answerKey: "Prática de Desenhar Linhas 1.webp",
   },
   coloring: {
     folder: 'coloring',
@@ -266,7 +266,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Gráfico de Figuras 1.webp',
       'Gráfico de Figuras 2.webp',
     ],
-    answerKey: 'Gráfico de Figuras 1 answer_key.webp',
+    answerKey: "Gráfico de Figuras 1 answer_key.webp",
   },
   matching: {
     folder: 'matching',
@@ -278,7 +278,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Encontre os Pares 1.webp',
       'Encontre os Pares 2.webp',
     ],
-    answerKey: 'Encontre os Pares 1 answer_key.webp',
+    answerKey: "Encontre os Pares 1 answer_key.webp",
   },
   'grid-match': {
     folder: 'grid match',
@@ -290,7 +290,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Quebra-Cabeça de Grade 5.webp',
       'Quebra-Cabeça de Grade 6.webp',
     ],
-    answerKey: 'Quebra-Cabeça de Grade 1 answer_key.webp',
+    answerKey: "Quebra-Cabeça de Grade 1 answer_key.webp",
   },
   'shadow-match': {
     folder: 'shadow match',
@@ -302,7 +302,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'shadow-match-worksheet.webp',
       'Combine as Sombras 1.webp',
     ],
-    answerKey: 'Combine as Sombras 1 answer-key.webp',
+    answerKey: "Combine as Sombras 1 answer-key.webp",
   },
   bingo: {
     folder: 'bingo',
@@ -314,19 +314,19 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Bingo de Imagenes 1.webp',
       'Bingo de Imagenes 2.webp',
     ],
-    answerKey: 'Bingo de Imagenes 1 callout.webp',
+    answerKey: "Bingo de Imagenes 1 callout.webp",
   },
   'picture-sort': {
     folder: 'picture sort',
     imgs: [
-      'Classificação de Imagens 1.webp',
-      'Classificação de Imagens 2.webp',
-      'Classificação de Imagens 3.webp',
-      'Classificação de Imagens 4.webp',
-      'Classificação de Imagens 1.webp',
-      'Classificação de Imagens 2.webp',
+      "Classificação de Imagens 1.webp",
+      "Classificação de Imagens 2.webp",
+      "Classificação de Imagens 3.webp",
+      "Classificação de Imagens 4.webp",
+      "Classificação de Imagens 1.webp",
+      "Classificação de Imagens 2.webp",
     ],
-    answerKey: 'Classificação de Imagens 1 answer_key.webp',
+    answerKey: "Classificação de Imagens 1 answer_key.webp",
   },
   'missing-pieces': {
     folder: 'missing pieces',
@@ -338,7 +338,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Peças em Falta 5.webp',
       'Peças em Falta 1.webp',
     ],
-    answerKey: 'Peças em Falta 1 answer_key.webp',
+    answerKey: "Peças em Falta 1 answer_key.webp",
   },
   'odd-one-out': {
     folder: 'odd one out',
@@ -350,7 +350,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Encontra o Diferente 5.webp',
       'Encontra o Diferente 6.webp',
     ],
-    answerKey: 'Encontra o Diferente 1 answer-key.webp',
+    answerKey: "Encontra o Diferente 1 answer-key.webp",
   },
   sudoku: {
     folder: 'sudoku',
@@ -362,7 +362,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Sudoku de Imagens 1.webp',
       'Sudoku de Imagens 2.webp',
     ],
-    answerKey: 'Sudoku de Imagens 1 answer_key.webp',
+    answerKey: "Sudoku de Imagens 1 answer_key.webp",
   },
   'picture-path': {
     folder: 'picture path',
@@ -374,7 +374,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Caminho de Imagen 1.webp',
       'Caminho de Imagen 2.webp',
     ],
-    answerKey: 'Caminho de Imagen 1 answer_key.webp',
+    answerKey: "Caminho de Imagen 1 answer_key.webp",
   },
   'find-and-count': {
     folder: 'find and count',
@@ -398,7 +398,7 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Encontra o Diferente (5).webp',
       'Encontra o Diferente.webp',
     ],
-    answerKey: 'Encontra o Diferente answer_key (1).webp',
+    answerKey: "Encontra o Diferente answer_key (1).webp",
   },
   'treasure-hunt': {
     folder: 'treasure hunt',
@@ -410,6 +410,6 @@ export const portugueseImages: Record<string, PortugueseImageSet> = {
       'Caça ao Tesouro 1.webp',
       'Caça ao Tesouro 2.webp',
     ],
-    answerKey: 'Caça ao Tesouro 1 answer_key.webp',
+    answerKey: "Caça ao Tesouro 1 answer_key.webp",
   },
 };

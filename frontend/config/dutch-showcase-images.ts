@@ -27,7 +27,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Optellen is Leuk 5.webp',
       'Optellen is Leuk 1.webp',
     ],
-    answerKey: 'Optellen is Leuk 1 answer_key.webp',
+    answerKey: "Optellen is Leuk 1 answer_key.webp",
   },
   subtraction: {
     folder: 'subtraction',
@@ -39,7 +39,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Aftrekken is Leuk 5.webp',
       'Aftrekken is Leuk 6.webp',
     ],
-    answerKey: 'Aftrekken is Leuk 1 answer_key.webp',
+    answerKey: "Aftrekken is Leuk 1 answer_key.webp",
   },
   'code-addition': {
     folder: 'code addition',
@@ -51,7 +51,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Geheime Code Optellen 1.webp',
       'Geheime Code Optellen 2.webp',
     ],
-    answerKey: 'Geheime Code Optellen 1 answer_key.webp',
+    answerKey: "Geheime Code Optellen 1 answer_key.webp",
   },
   'more-less': {
     folder: 'more less',
@@ -75,7 +75,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Wiskundepuzzels 5.webp',
       'Wiskundepuzzels 1.webp',
     ],
-    answerKey: 'Wiskundepuzzels 1 answer_key.webp',
+    answerKey: "Wiskundepuzzels 1 answer_key.webp",
   },
   'math-worksheet': {
     folder: 'math worksheet',
@@ -87,7 +87,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Wiskundeblad 1.webp',
       'Wiskundeblad 2.webp',
     ],
-    answerKey: 'Wiskundeblad 1 answer_key.webp',
+    answerKey: "Wiskundeblad 1 answer_key.webp",
   },
   'alphabet-train': {
     folder: 'alphabet train',
@@ -99,7 +99,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Alfabettrein 1.webp',
       'Alfabettrein 2.webp',
     ],
-    answerKey: 'Alfabettrein 1 answer_key.webp',
+    answerKey: "Alfabettrein 1 answer_key.webp",
   },
   prepositions: {
     folder: 'prepositions',
@@ -123,7 +123,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Raad het Woord 1.webp',
       'Raad het Woord 2.webp',
     ],
-    answerKey: 'Raad het Woord 1 answer-key.webp',
+    answerKey: "Raad het Woord 1 answer-key.webp",
   },
   'word-scramble': {
     folder: 'word scramble',
@@ -159,7 +159,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Plaatjes Cryptogram 5.webp',
       'Plaatjes Cryptogram 1.webp',
     ],
-    answerKey: 'Plaatjes Cryptogram 1 answer_key.webp',
+    answerKey: "Plaatjes Cryptogram 1 answer_key.webp",
   },
   writing: {
     folder: 'writing',
@@ -183,7 +183,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Groot of Klein 1.webp',
       'Groot of Klein 2.webp',
     ],
-    answerKey: 'Groot of Klein 1 answer_key.webp',
+    answerKey: "Groot of Klein 1 answer_key.webp",
   },
   'pattern-train': {
     folder: 'pattern train',
@@ -207,7 +207,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Patroonpuzzels 1.webp',
       'Patroonpuzzels 2.webp',
     ],
-    answerKey: 'Patroonpuzzels 1 answer_key.webp',
+    answerKey: "Patroonpuzzels 1 answer_key.webp",
   },
   'draw-and-color': {
     folder: 'draw and color',
@@ -255,7 +255,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Plaatjesgrafiek 1.webp',
       'Plaatjesgrafiek 2.webp',
     ],
-    answerKey: 'Plaatjesgrafiek 1 answer_key.webp',
+    answerKey: "Plaatjesgrafiek 1 answer_key.webp",
   },
   matching: {
     folder: 'matching',
@@ -267,7 +267,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Zoek de Paren 1.webp',
       'Zoek de Paren 2.webp',
     ],
-    answerKey: 'Zoek de Paren 1 answer_key.webp',
+    answerKey: "Zoek de Paren 1 answer_key.webp",
   },
   'grid-match': {
     folder: 'grid match',
@@ -279,7 +279,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Rasterpuzzel 5.webp',
       'Rasterpuzzel 6.webp',
     ],
-    answerKey: 'Rasterpuzzel 1 answer_key.webp',
+    answerKey: "Rasterpuzzel 1 answer_key.webp",
   },
   'shadow-match': {
     folder: 'shadow match',
@@ -291,7 +291,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Schaduw Koppelen 1.webp',
       'Schaduw Koppelen 2.webp',
     ],
-    answerKey: 'Schaduw Koppelen 1 answer-key.webp',
+    answerKey: "Schaduw Koppelen 1 answer-key.webp",
   },
   bingo: {
     folder: 'bingo',
@@ -315,7 +315,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Afbeeldingen Sorteren 1.webp',
       'Afbeeldingen Sorteren 2.webp',
     ],
-    answerKey: 'Afbeeldingen Sorteren 1 answer_key.webp',
+    answerKey: "Afbeeldingen Sorteren 1 answer_key.webp",
   },
   'missing-pieces': {
     folder: 'missing pieces',
@@ -327,7 +327,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Ontbrekende Stukjes 5.webp',
       'Ontbrekende Stukjes 6.webp',
     ],
-    answerKey: 'Ontbrekende Stukjes 1 answer_key.webp',
+    answerKey: "Ontbrekende Stukjes 1 answer_key.webp",
   },
   'odd-one-out': {
     folder: 'odd one out',
@@ -339,7 +339,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Vind de Vreemde Eend 1.webp',
       'Vind de Vreemde Eend 2.webp',
     ],
-    answerKey: 'Vind de Vreemde Eend 1 answer-key.webp',
+    answerKey: "Vind de Vreemde Eend 1 answer-key.webp",
   },
   sudoku: {
     folder: 'sudoku',
@@ -351,7 +351,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Plaatjes Sudoku 1.webp',
       'Plaatjes Sudoku 2.webp',
     ],
-    answerKey: 'Plaatjes Sudoku 1 answer_key.webp',
+    answerKey: "Plaatjes Sudoku 1 answer_key.webp",
   },
   'picture-path': {
     folder: 'picture path',
@@ -363,7 +363,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Afbeeldingspad 1.webp',
       'Afbeeldingspad 2.webp',
     ],
-    answerKey: 'Afbeeldingspad 1 answer_key.webp',
+    answerKey: "Afbeeldingspad 1 answer_key.webp",
   },
   'find-and-count': {
     folder: 'find and count',
@@ -375,19 +375,19 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Ik zie, ik zie 1.webp',
       'Ik zie, ik zie 2.webp',
     ],
-    answerKey: 'Ik zie, ik zie 1 answer_key.webp',
+    answerKey: "Ik zie, ik zie 1 answer_key.webp",
   },
   'find-objects': {
     folder: 'find objects',
     imgs: [
-      'Vind de Verborgen Voorwerpen 1.webp',
-      'Vind de Verborgen Voorwerpen 2.webp',
-      'Vind de Verborgen Voorwerpen 3.webp',
+      "Vind de Verborgen Voorwerpen 1.webp",
+      "Vind de Verborgen Voorwerpen 2.webp",
+      "Vind de Verborgen Voorwerpen 3.webp",
       'Vind de Vreemde Eend (1).webp',
       'Vind de Vreemde Eend (2).webp',
       'Vind de Vreemde Eend (3).webp',
     ],
-    answerKey: 'Vind de Verborgen Voorwerpen 1 answer_key.webp',
+    answerKey: "Vind de Verborgen Voorwerpen 1 answer_key.webp",
   },
   crossword: {
     folder: 'crossword',
@@ -399,7 +399,7 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Plaatjes Kruiswoord 1.webp',
       'Plaatjes Kruiswoord 2.webp',
     ],
-    answerKey: 'Plaatjes Kruiswoord 1 answer_key.webp',
+    answerKey: "Plaatjes Kruiswoord 1 answer_key.webp",
   },
   'treasure-hunt': {
     folder: 'treasure hunt',
@@ -411,6 +411,6 @@ export const dutchImages: Record<string, DutchImageSet> = {
       'Schattenjacht 1.webp',
       'Schattenjacht 2.webp',
     ],
-    answerKey: 'Schattenjacht 1 answer_key.webp',
+    answerKey: "Schattenjacht 1 answer_key.webp",
   },
 };
